@@ -187,7 +187,7 @@ extension CalendarDisplay on Calendar {
               '  🔹 Priorité ${entry.key} : ${entry.value.join(", ")}');
         }
       }
-      buffer.writeln('──────────────────────────────\n');
+      buffer.writeln('────────────────────────────── ');
     }
 
     return buffer.toString();

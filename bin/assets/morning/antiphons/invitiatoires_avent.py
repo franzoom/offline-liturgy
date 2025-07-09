@@ -1,26 +1,18 @@
 import os
-import json
+import re
 
-# Nouvelles clés à ajouter
-new_keys = {
-    "invitatoryAntiphon1": "Le Seigneur est vraiment ressuscité, alléluia !",
-    "invitatoryAntiphon2": "Nous te louons, splendeur du Père, Jésus, Fils de Dieu."
-}
+# Expression régulière pour identifier les fichiers antienne_3_x_y.json
+pattern = re.compile(r'antienne_3_(\d+)_(\d+)\.json')
 
 # Parcours des fichiers dans le répertoire courant
 for filename in os.listdir():
-    if filename.startswith("antienne_5") and filename.endswith(".json"):
-        try:
-            with open(filename, 'r', encoding='utf-8') as f:
-                original_data = json.load(f)
-
-            # Fusion des nouvelles clés avec les données existantes
-            updated_data = {**new_keys, **original_data}
-
-            # Écriture dans le fichier
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(updated_data, f, ensure_ascii=False, indent=2)
-
-            print(f"Clés ajoutées à : {filename}")
-        except Exception as e:
-            print(f"Erreur avec le fichier {filename} : {e}")
+    match = pattern.match(filename)
+    if match:
+        x = int(match.group(1))
+        y = int(match.group(2))
+        if x >= 5 and y != 0:
+            try:
+                os.remove(filename)
+                print(f"Supprimé : {filename}")
+            except Exception as e:
+                print(f"Erreur lors de la suppression de {filename} : {e}")

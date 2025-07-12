@@ -25,6 +25,14 @@ final Map<String, Canticle> canticles = {
       commentary: "",
       content:
           """<p><span class="verse_number">29</span> Maintenant, ô M<u>a</u>ître souverain, +<br />\ntu peux laisser ton servite<u>u</u>r s’en aller<br />\nen paix, sel<u>o</u>n ta parole.<br /><br /><span class="verse_number">30</span> Car mes yeux ont v<u>u</u> le salut<br /><span class="verse_number">31</span> que tu préparais à la f<u>a</u>ce des peuples :<br /><br /><span class="verse_number">32</span> lumière qui se rév<u>è</u>le aux nations<br />\net donne gloire à ton pe<u>u</u>ple Israël.</p>"""),
+  "NT_5": Canticle(
+      title: "Cantique des Philippiens",
+      subtitle: "Le Christ, serviteur de Dieu",
+      biblicalReference: "Ph 2",
+      shortReference: "NT 5",
+      commentary: "",
+      content:
+          """<p><span class=\"verse_number\">6</span> Le   Christ Jésus, +<br>  ayant la conditi<u>o</u>n de Dieu,   *<br>  ne retint pas jalousement<br>  le rang qui l'égal<u>a</u>it à Dieu.<br>  <span class=\"verse_number\">7</span> Mais   il s'<u>e</u>st anéanti, *<br>  prenant la conditi<u>o</u>n de serviteur.<br>  <br>  Devenu semblable aux hommes, +<br>  reconnu h<u>o</u>mme à son aspect,   *<br>  <span class=\"verse_number\">8</span> il   s'<u>e</u>st abaissé,<br>  devenant obéiss<u>a</u>nt jusqu'à   la mort, *<br>  et la m<u>o</u>rt de la croix.<br>  <br>  <span class=\"verse_number\">9</span> C'est   pourquoi Die<u>u</u> l'a exalté : *<br>  il l'a doté du Nom<br>  qui est au-dess<u>u</u>s de tout   nom,<br>  <br>  <span class=\"verse_number\">10</span> afin   qu'au nom de Jésus<br>  tout geno<u>u</u> fléchisse *<br>  au ciel, sur t<u>e</u>rre et aux   enfers,<br>  <br>  <span class=\"verse_number\">11</span> &nbsp;et que toute langue proclame :<br>  &laquo; Jésus Chr<u>i</u>st est   Seigneur &raquo; *<br>  à la gloire de Die<u>u</u> le Père.</p>"""),
   "NT_6": Canticle(
       title: "Cantique des Colossiens",
       subtitle:
@@ -50,6 +58,14 @@ final Map<String, Canticle> canticles = {
       commentary: "",
       content:
           """<p><span class="verse_number">3</span> Grandes, merveille<u>u</u>ses, tes œuvres,<br />\nSeigneur, Die<u>u</u> de l’univers !<br /><br />\nIls sont justes, ils sont vr<u>a</u>is, tes chemins,<br />\nR<u>o</u>i des nations.<br /><br /><span class="verse_number">4</span> Qui ne te craindr<u>a</u>it, Seigneur ?<br />\nÀ ton nom, qu<u>i</u> ne rendrait gloire ?<br /><br />\nOui, toi seul es saint ! +<br />\nOui, toutes les nations viendront<br />\n   et se prosterner<u>o</u>nt devant toi ; *<br />\noui, ils sont manifest<u>é</u>s, tes jugements.</p>"""),
+  "AT_2": Canticle(
+      title: "Cantique de Moïse",
+      subtitle: "Amour du Seigneur pour son peuple",
+      biblicalReference: "Dt 32",
+      shortReference: "AT 2",
+      commentary: "Il comble de bien les affamés (Lc 1, 53)",
+      content:
+          """<p><span class=\"verse_number\">1</span> Écoutez, cie<u>u</u>x, je vais parler !<br />\nQue la terre entende les par<u>o</u>les de ma bouche !<br /><span class=\"verse_number\">2</span> Mon enseignement ruisseller<u>a</u> comme la pluie,<br />\nma parole descendr<u>a</u> comme la rosée,<br />\ncomme l'ond<u>é</u>e sur la verdure,<br />\ncomme l'av<u>e</u>rse sur l'herbe.<br /><br /><span class=\"verse_number\">3</span> C'est le nom du Seigne<u>u</u>r que j'invoque ;<br />\nà notre Dieu, report<u>e</u>z la grandeur.<br /><span class=\"verse_number\">4</span> Il est le Rocher : son œ<u>u</u>vre est parfaite ;<br />\ntous ses chemins ne s<u>o</u>nt que justice.<br />\nDieu de vérité, non p<u>a</u>s de perfidie,<br />\nil est j<u>u</u>ste, il est droit.<br /><br /><span class=\"verse_number\">5</span> Ils l'ont déshonoré, ses f<u>i</u>ls perdus,<br />\ngénération fo<u>u</u>rbe et tortueuse.<br /><span class=\"verse_number\">6</span> Est-ce là, ce que tu r<u>e</u>nds au Seigneur,<br />\npeuple stup<u>i</u>de et sans sagesse ?<br />\nN'est-ce pas lui, ton p<u>è</u>re, qui t'a créé,<br />\nlui qui t'a f<u>a</u>it et affermi ?<br /><br /><span class=\"verse_number\">7</span> Rappelle-toi les jo<u>u</u>rs de jadis,<br />\npénètre le co<u>u</u>rs des âges.<br />\nInterroge ton p<u>è</u>re, il t'instruira ;<br />\nles anci<u>e</u>ns te le diront.<br /><br /><span class=\"verse_number\">8</span> Quand le Très-Haut dot<u>a</u> les nations,<br />\nquand il sépar<u>a</u> les fils d'Adam,<br />\nil fixa les fronti<u>è</u>res des peuples<br />\nd'après le n<u>o</u>mbre des fils de Dieu.<br /><span class=\"verse_number\">9</span> Mais le lot du Seigne<u>u</u>r, ce fut son peuple,<br />\nJacob, sa p<u>a</u>rt d'héritage.<br /><br /><span class=\"verse_number\">10</span> Il le trouve au pa<u>y</u>s du désert,<br />\nchaos de hurlem<u>e</u>nts sauvages.<br />\nIl l'entoure, il l'él<u>è</u>ve, il le garde<br />\ncomme la prun<u>e</u>lle de son œil.<br /><br /><span class=\"verse_number\">11</span> Tel un aigle qui év<u>e</u>ille sa nichée<br />\net plane au-dess<u>u</u>s de ses petits,<br />\nil déploie son enverg<u>u</u>re, il le prend,<br />\nil le p<u>o</u>rte sur ses ailes.<br /><span class=\"verse_number\">12</span> Le Seigneur se<u>u</u>l l'a conduit :<br />\npas de dieu étrang<u>e</u>r auprès de lui.</p>"""),
   "AT_3": Canticle(
       title: "Cantique d’Anne",
       subtitle: "Le Seigneur élève les humbles",

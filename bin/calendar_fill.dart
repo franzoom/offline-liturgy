@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'classes/calendar_class.dart'; // cette classe définit calendar
-import 'common_calendar.dart';
 import 'classes/feasts.dart';
-import 'feasts/general_feats.dart';
+import 'common_calendar.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
+import 'feasts/common_feats.dart'; //liste des fêtes de l'Église universelle
 
 Calendar calendarFill(calendar, year) {
   Map generalCalendar = createLiturgicalDays(year);
@@ -447,7 +447,7 @@ Calendar calendarFill(calendar, year) {
   DateTime christKingDate =
       generalCalendar['CHRIST_KING'].add(Duration(days: 6));
   int yearToRecord = year;
-  Map<String, FeastDates> feastList = generateFeastList();
+  Map<String, FeastDates> feastList = commonFeastList();
   feastList.forEach((key, value) {
     DateTime(year, value.month, value.day).isAfter(christKingDate)
         // l'attribution des fêtes se fait par année liturgique.

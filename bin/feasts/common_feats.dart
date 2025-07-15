@@ -1,7 +1,7 @@
 import '../classes/feasts.dart';
 //fêtes du calendrier général
 
-Map<String, FeastDates> generateFeastList() {
+Map<String, FeastDates> commonFeastList() {
   Map<String, FeastDates> feastList = {
     'mary_mother_of_god': FeastDates(month: 1, day: 1, priority: 3),
     'basil_the_great_and_gregory_nazianzen_bishops':

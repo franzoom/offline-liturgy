@@ -266,8 +266,8 @@ Compline mergeComplineDay(Compline base, Compline override) {
   );
 }
 
-// affichage du texte des Complies
 void complineDisplay(Compline compline) {
+  // affichage du texte des Complies
   if (compline.complineCommentary != null) {
     print('Commentary: ${compline.complineCommentary ?? "Aucun commentaire"}');
   }

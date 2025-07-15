@@ -12,6 +12,7 @@ import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
 import '../hymns_management.dart';
 import '../classes/hymns_class.dart';
+import '../assets/psalms.dart';
 
 List dayName = [
   '',
@@ -280,10 +281,23 @@ void complineDisplay(Compline compline) {
   displayHymns(selectedHymns);
   print('Psalm 1 Antiphon 1: ${compline.complinePsalm1Antiphon1}');
   print('Psalm 1 Antiphon 2: ${compline.complinePsalm1Antiphon2}');
-  print('Psalm 1 Reference: ${compline.psalm1Ref}');
-  print('Psalm 2 Antiphon 1: ${compline.complinePsalm2Antiphon1}');
-  print('Psalm 2 Antiphon 2: ${compline.complinePsalm2Antiphon2}');
-  print('Psalm 2 Reference: ${compline.psalm2Ref}');
+  print('Psalm 1 title: ${psalms[compline.psalm1Ref]!.getTitle}');
+  print('Psalm 1 subtitle: ${psalms[compline.psalm1Ref]!.getSubtitle}');
+  print('Psalm 1 commentary: ${psalms[compline.psalm1Ref]!.getCommentary}');
+  print(
+      'Psalm 1 biblical reference: ${psalms[compline.psalm1Ref]!.getBiblicalReference}');
+  print('Psalm 1 content: ${psalms[compline.psalm1Ref]!.getContent}');
+
+  if (compline.psalm2Ref != "") {
+    print('Psalm 2 Antiphon 1: ${compline.complinePsalm2Antiphon1}');
+    print('Psalm 2 Antiphon 2: ${compline.complinePsalm2Antiphon2}');
+    print('Psalm 2 title: ${psalms[compline.psalm1Ref]!.getTitle}');
+    print('Psalm 2 subtitle: ${psalms[compline.psalm1Ref]!.getSubtitle}');
+    print('Psalm 2 commentary: ${psalms[compline.psalm1Ref]!.getCommentary}');
+    print(
+        'Psalm 2 biblical reference: ${psalms[compline.psalm1Ref]!.getBiblicalReference}');
+    print('Psalm 2 content: ${psalms[compline.psalm1Ref]!.getContent}');
+  }
   print('Reading Reference: ${compline.complineReadingRef}');
   print('Reading: ${compline.complineReading}');
   print('Responsory: ${compline.complineResponsory}');

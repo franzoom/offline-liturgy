@@ -442,6 +442,9 @@ Calendar calendarFill(calendar, year) {
   calendar.removeCelebrationFromDay(generalCalendar['CHRIST_KING'],
       'OT_SUNDAY_34'); //suprimer le 34ème dimanche, vu que c'est le Christ Roi
 
+//ajout de la fête de Marie mère de l'Église le lendemain de la Pentecôte
+  calendar.addItemToDay(generalCalendar['PENTECOST'].add(Duration(days: 1)), 10,
+      'mary_mother_of_the_church');
 //ajout de toutes les fêtes du calendrier général
   DateTime adventDate = generalCalendar['ADVENT'];
   DateTime christKingDate =
@@ -471,7 +474,7 @@ Calendar calendarFill(calendar, year) {
 }
 
 Calendar checkAndFillCalendar(Calendar calendar, DateTime date) {
-  //fonction d'ajout des années manquantes si besoin
+  // fonction d'ajout des années manquantes si besoin
   final calendarFile = File('./bin/assets/calendar.json');
   // vérification que le fichier existe
   if (!calendarFile.existsSync()) {
@@ -510,6 +513,8 @@ Calendar checkAndFillCalendar(Calendar calendar, DateTime date) {
       calendar = calendarFill(calendar, year);
     }
   }
+
   calendar.exportToJsonFile('./bin/assets/calendar.json');
+
   return calendar;
 }

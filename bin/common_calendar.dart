@@ -1,3 +1,5 @@
+// ensemble des fonctions qui calculent les dates de fêtes à date variable
+
 DateTime christmas(int year) {
   //renvoie le jour de Noël précédent
   return DateTime(year - 1, 12, 25);

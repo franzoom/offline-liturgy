@@ -1,0 +1,15 @@
+import '../../classes/feasts_class.dart';
+//fêtes du calendrier général
+
+Map<String, FeastDates> generateFeastList() {
+  Map<String, FeastDates> feastList = {
+    'cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop':
+        FeastDates(month: 2, day: 14, priority: 4),
+    'catherine_of_siena_virgin': FeastDates(month: 4, day: 29, priority: 4),
+    'benedict_of_nursia_abbot': FeastDates(month: 7, day: 11, priority: 4),
+    'bridget_of_sweden_religious': FeastDates(month: 7, day: 23, priority: 4),
+    'teresa_benedicta_of_the_cross_stein_virgin':
+        FeastDates(month: 8, day: 9, priority: 4),
+  };
+  return feastList;
+}

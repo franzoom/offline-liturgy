@@ -1,4 +1,4 @@
-import '../../classes/feasts.dart';
+import '../../classes/feasts_class.dart';
 //fêtes du calendrier général
 
 Map<String, FeastDates> generateFeastList() {
@@ -62,7 +62,6 @@ Map<String, FeastDates> generateFeastList() {
     'all_saints_of_the_archdiocese_of_lyon':
         FeastDates(month: 11, day: 8, priority: 12),
     'eucherius_of_lyon_bishop': FeastDates(month: 11, day: 16, priority: 12),
-    'hedwig_of_silesia_religious': FeastDates(month: 11, day: 16, priority: 12),
   };
   return feastList;
 }

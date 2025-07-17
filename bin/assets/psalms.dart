@@ -71,6 +71,24 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p>Tu m'as répondu ! +<br /><span class=\"verse_number\">23</span> Et je proclame ton n<u>o</u>m devant mes frères,<br />\nje te loue en pl<u>e</u>ine assemblée.<br /><br /><span class=\"verse_number\">24</span> Vous qui le craignez, lou<u>e</u>z le Seigneur, +<br />\nglorifiez-le, vous tous, descend<u>a</u>nts de Jacob,<br />\nvous tous, redoutez-le, descend<u>a</u>nts d'Israël.<br /><br /><span class=\"verse_number\">25</span> Car il n'a p<u>a</u>s rejeté,<br />\nil n'a pas réprouvé le malheure<u>u</u>x dans sa misère ;<br />\nil ne s'est pas voilé la f<u>a</u>ce devant lui,<br />\nmais il ent<u>e</u>nd sa plainte.<br /><br /><span class=\"verse_number\">26</span> Tu seras ma louange dans la gr<u>a</u>nde assemblée ;<br />\ndevant ceux qui te craignent, je tiendr<u>a</u>i mes promesses.<br /><span class=\"verse_number\">27</span> Les pauvres mangeront : ils ser<u>o</u>nt rassasiés ;<br />\nils loueront le Seigneur, ceux qui le cherchent :<br />\n   « À vous, toujours, la v<u>i</u>e et la joie ! »<br /><br /><span class=\"verse_number\">28</span> La terre entière se souviendra<br />\n   et reviendr<u>a</u> vers le Seigneur,<br />\nchaque famille de nations se prosterner<u>a</u> devant lui :<br /><span class=\"verse_number\">29</span> « Oui, au Seigne<u>u</u>r la royauté,<br />\nle pouv<u>o</u>ir sur les nations ! »<br /><br /><span class=\"verse_number\">30</span> Tous ceux qui festoy<u>a</u>ient s'inclinent ;<br />\npromis à la mort, ils pl<u>i</u>ent en sa présence.<br /><br /><span class=\"verse_number\">31</span> Et moi, je vis pour lui : ma descend<u>a</u>nce le servira ;<br />\non annoncera le Seigneur aux générati<u>o</u>ns à venir.<br /><span class=\"verse_number\">32</span> On proclamera sa justice au pe<u>u</u>ple qui va naître :<br />\nVoil<u>à</u> son œuvre !</p>"""),
+  "PSALM_22": Psalm(
+      title: "Psaume 22",
+      subtitle: "Dieu, pasteur de son peuple",
+      commentary:
+          "L'Agneau sera leur Pasteur pour les conduire vers les eaux de la source de vie. (Ap 7, 17)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Le Seigne<u>u</u>r est mon berger :<br>je ne m<u>a</u>nque de rien. *<br><span class=\"verse_number\">2</span> Sur des pr<u>é</u>s d'herbe fraîche,<br>il me f<u>a</u>it reposer. <br><br>Il me mène vers les ea<u>u</u>x tranquilles<br><span class=\"verse_number\">3</span> et me f<u>a</u>it revivre ; *<br>il me conduit par le j<u>u</u>ste chemin<br>pour l'honne<u>u</u>r de son nom. <br><br><span class=\"verse_number\">4</span> Si je traverse les rav<u>i</u>ns de la mort,<br>je ne cr<u>a</u>ins aucun mal, *<br>car tu <u>e</u>s avec moi :<br>ton bâton me gu<u>i</u>de et me rassure. <br><br><span class=\"verse_number\">5</span> Tu prépares la t<u>a</u>ble pour moi<br>dev<u>a</u>nt mes ennemis ; *<br>tu répands le parf<u>u</u>m sur ma tête,<br>ma co<u>u</u>pe est débordante. <br><br><span class=\"verse_number\">6</span> Grâce et bonhe<u>u</u>r m'accompagnent<br>tous les jo<u>u</u>rs de ma vie ; *<br>j'habiterai la mais<u>o</u>n du Seigneur<br>pour la dur<u>é</u>e de mes jours.</p>"""),
+  "PSALM_23": Psalm(
+      title: "Psaume 23",
+      subtitle: "Entrée solennelle de Dieu dans son Temple",
+      commentary:
+          "Les portes du ciel s'ouvrent devant le Christ monté au ciel. (S. Irénée)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Au Seigneur, le m<u>o</u>nde et sa richesse,<br />\nla terre et to<u>u</u>s ses habitants !<br /><span class=\"verse_number\">2</span> C'est lui qui l'a fond<u>é</u>e sur les mers<br />\net la garde inébranl<u>a</u>ble sur les flots.<br /><br /><span class=\"verse_number\">3</span> Qui peut gravir la mont<u>a</u>gne du Seigneur<br />\net se ten<u>i</u>r dans le lieu saint ?<br /><span class=\"verse_number\">4</span> L'homme au cœur pur, aux m<u>a</u>ins innocentes,<br />\nqui ne livre pas son <u>â</u>me aux idoles<br />\n   (et ne dit p<u>a</u>s de faux serments).<br /><br /><span class=\"verse_number\">5</span> Il obtient, du Seigne<u>u</u>r, la bénédiction,<br />\net de Dieu son Sauve<u>u</u>r, la justice.<br /><span class=\"verse_number\">6</span> Voici le peuple de ce<u>u</u>x qui le cherchent !<br />\nVoici Jacob qui rech<u>e</u>rche ta face !<br /><br /><span class=\"verse_number\">7</span> Portes, lev<u>e</u>z vos frontons, +<br />\nélevez-vous, p<u>o</u>rtes éternelles :<br />\nqu'il entre, le r<u>o</u>i de gloire !<br /><br /><span class=\"verse_number\">8</span> Qui est ce r<u>o</u>i de gloire ? +<br />\nC'est le Seigneur, le f<u>o</u>rt, le vaillant,<br />\nle Seigneur, le vaill<u>a</u>nt des combats.<br /><br /><span class=\"verse_number\">9</span> Portes, lev<u>e</u>z vos frontons, +<br />\nlevez-les, p<u>o</u>rtes éternelles :<br />\nqu'il entre, le r<u>o</u>i de gloire !<br /><br /><span class=\"verse_number\">10</span> Qui donc est ce r<u>o</u>i de gloire ? +<br />\nC'est le Seigneur, Die<u>u</u> de l'univers ;<br />\nc'est lui, le r<u>o</u>i de gloire.</p>"""),
   "PSALM_30_1": Psalm(
       title: "Psaume 30-I",
       subtitle: "Supplication confiante",
@@ -291,6 +309,23 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">2</span> Écoute, ô mon Dieu, le cr<u>i</u> de ma plainte ;<br>face à l’ennemi redoutable, prot<u>è</u>ge ma vie.<br><span class="verse_number">3</span> Garde-moi du compl<u>o</u>t des méchants,<br>à l’abri de cette me<u>u</u>te criminelle.<br> <br><span class="verse_number">4</span> Ils affûtent leur l<u>a</u>ngue comme une épée,<br>ils ajustent leur flèche, par<u>o</u>le empoisonnée,<br><span class="verse_number">5</span> pour tirer en cach<u>e</u>tte sur l’innocent ;<br>ils tirent soud<u>a</u>in, sans rien craindre.<br><br><span class="verse_number">6</span> Ils se forgent des form<u>u</u>les maléfiques, +<br>ils dissimulent avec s<u>o</u>in leurs pièges ;<br>ils disent : « Qu<u>i</u> les verra ? »<br><br><span class="verse_number">7</span> Ils mach<u>i</u>nent leur crime : +<br>Notre machinati<u>o</u>n est parfaite ;<br>le cœur de chacun deme<u>u</u>re impénétrable !<br> <br><span class="verse_number">8</span> Mais c’est Dieu qui leur t<u>i</u>re une flèche, +<br>soudain, ils en ress<u>e</u>ntent la blessure,<br><span class="verse_number">9</span> ils sont les vict<u>i</u>mes de leur langue.<br><br>Tous ceux qui les voient h<u>o</u>chent la tête ;<br><span class="verse_number">10</span> tout homme est sais<u>i</u> de crainte :<br>il proclame ce que Die<u>u</u> a fait,<br>il compr<u>e</u>nd ses actions.<br><br><span class="verse_number">11</span> Le juste trouvera dans le Seigneur<br> j<u>o</u>ie et refuge, *<br>et tous les hommes au cœur droit, <br> le<u>u</u>r louange.</p>"""),
+  "PSALM_65_1": Psalm(
+      title: "Psaume 65-I",
+      subtitle: "Hymne d'action de grâce",
+      commentary:
+          "Par ton sang, tu as racheté pour Dieu des hommes de toute race, et tu en as fait pour notre Dieu un royaume de prêtres. (Ap 5, 9.10)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Acclamez Dieu, to<u>u</u>te la terre ; +<br><span class=\"verse_number\">2</span> fêtez la gl<u>o</u>ire de son nom,<br>glorifiez-le en célébr<u>a</u>nt sa louange.<br><br><span class=\"verse_number\">3</span> Dites à Dieu : « Que tes acti<u>o</u>ns sont redoutables !<br>En présence de ta force, tes ennem<u>i</u>s s’inclinent.<br><span class=\"verse_number\">4</span> Toute la terre se prost<u>e</u>rne devant toi,<br>elle chante pour toi, elle ch<u>a</u>nte pour ton nom. »<br><br><span class=\"verse_number\">5</span> Venez et voyez les hauts f<u>a</u>its de Dieu,<br>ses exploits redoutables pour les f<u>i</u>ls des hommes.<br><span class=\"verse_number\">6</span> Il changea la m<u>e</u>r en terre ferme :<br>ils passèrent le fle<u>u</u>ve à pied sec.<br><br>De là, cette j<u>o</u>ie qu’il nous donne.<br><span class=\"verse_number\">7</span> Il règne à jam<u>a</u>is par sa puissance.<br>Ses yeux obs<u>e</u>rvent les nations :<br>que les rebelles co<u>u</u>rbent la tête !<br><br><span class=\"verse_number\">8</span> Peuples, béniss<u>e</u>z notre Dieu !<br>Faites retent<u>i</u>r sa louange,<br><span class=\"verse_number\">9</span> car il rend la v<u>i</u>e à notre âme,<br>il a gardé nos pi<u>e</u>ds de la chute.<br><br><span class=\"verse_number\">10</span> C’est toi, Dieu, qui nous <u>a</u>s éprouvés,<br>affinés comme on aff<u>i</u>ne un métal ;<br><span class=\"verse_number\">11</span> tu nous as condu<u>i</u>ts dans un piège,<br>tu as serré un éta<u>u</u> sur nos reins.<br><br><span class=\"verse_number\">12</span> Tu as mis des mort<u>e</u>ls à notre tête ; +<br>nous sommes entrés dans l’ea<u>u</u> et le feu,<br>tu nous as fait sort<u>i</u>r vers l’abondance.</p>"""),
+  "PSALM_65_2": Psalm(
+      title: "Psaume 65-II",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">13</span> Je viens dans ta maison av<u>e</u>c des holocaustes,<br>je tiendrai mes prom<u>e</u>sses envers toi,<br><span class=\"verse_number\">14</span> les promesses qui m’ouvr<u>i</u>rent les lèvres,<br>que ma bouche a prononc<u>é</u>es dans ma détresse.<br><br><span class=\"verse_number\">15</span> Je t’offrirai de bea<u>u</u>x holocaustes +<br>avec le fum<u>e</u>t des béliers ;<br>je prépare des bœ<u>u</u>fs et des chevreaux.<br><br><span class=\"verse_number\">16</span> Venez, écoutez, vous to<u>u</u>s qui craignez Dieu :<br>je vous dirai ce qu’il a f<u>a</u>it pour mon âme ;<br><span class=\"verse_number\">17</span> quand je poussai vers lu<u>i</u> mon cri,<br>ma bouche faisait déj<u>à</u> son éloge.<br><br><span class=\"verse_number\">18</span> Si mon cœur avait regard<u>é</u> vers le mal,<br>le Seigneur n’aurait p<u>a</u>s écouté.<br><span class=\"verse_number\">19</span> Et pourtant, Die<u>u</u> a écouté,<br>il entend le cr<u>i</u> de ma prière.<br><br><span class=\"verse_number\">20</span> Bén<u>i</u> soit Dieu +<br>qui n’a pas écart<u>é</u> ma prière,<br>ni détourné de m<u>o</u>i son amour !</p>"""),
   "PSALM_66": Psalm(
       title: "Psaume 66",
       subtitle: "Hymne de bénédiction",
@@ -417,6 +452,23 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">2</span> À toi, Die<u>u</u>, nous rendons grâce ; +<br />\nnous rendons grâce, et ton n<u>o</u>m est proche :<br />\non procl<u>a</u>me tes merveilles !<br /><br /><span class="verse_number">3</span> « Oui, au mom<u>e</u>nt que j’ai fixé,<br />\nmoi, je juger<u>a</u>i avec droiture.<br /><span class="verse_number">4</span> Que s’effondrent la t<u>e</u>rre et ses habitants :<br />\nmoi seul en ai pos<u>é</u> les colonnes !<br /><br /><span class="verse_number">5</span> « Aux arrogants, je d<u>i</u>s : Plus d’arrogance !<br />\net aux impies : Ne levez p<u>a</u>s votre front !<br /><span class="verse_number">6</span> Ne levez pas votre fr<u>o</u>nt contre le ciel,<br />\nne parlez pas en le pren<u>a</u>nt de haut ! »<br /><br /><span class="verse_number">7</span> Ce n’est pas du lev<u>a</u>nt ni du couchant,<br />\nni du désert, que vi<u>e</u>nt le relèvement.<br /><span class="verse_number">8</span> Non, c’est Die<u>u</u> qui jugera :<br />\nil abaisse les uns, les a<u>u</u>tres il les relève.<br /><br /><span class="verse_number">9</span> Le Seigneur tient en m<u>a</u>in une coupe<br />\noù fermente un v<u>i</u>n capiteux ;<br />\nil le verse, et tous les imp<u>i</u>es de la terre<br />\nle boir<u>o</u>nt jusqu’à la lie.<br /><br /><span class="verse_number">10</span> Et moi, j’annoncer<u>a</u>i toujours<br />\ndans mes hymnes au Die<u>u</u> de Jacob : +<br /><span class="verse_number">11</span> « Je briserai le fr<u>o</u>nt des impies, *<br />\net le front du j<u>u</u>ste s’élèvera ! »</p>"""),
+  "PSALM_75_1": Psalm(
+      title: "Psaume 75-I",
+      subtitle: "Hymne de triomphe après la victoire",
+      commentary:
+          "Tous verront le Fils de l'homme venir sur les nuées du ciel. (Mt 24, 30)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Dieu s’est fait conn<u>a</u>ître en Juda ;<br />\nen Israël, son n<u>o</u>m est grand.<br /><span class=\"verse_number\">3</span> À Salem il a fix<u>é</u> sa tente,<br />\net sa deme<u>u</u>re à Sion.<br /><span class=\"verse_number\">4</span> Ici, il a bris<u>é</u> les traits de l’arc,<br />\nl’épée, le boucli<u>e</u>r et la guerre.<br /><br /><span class=\"verse_number\">5</span> Magnifique, t<u>o</u>i, tu resplendis<br />\nau-dessus d’une mont<u>a</u>gne de butin.<br /><span class=\"verse_number\">6</span> Les voici dépouill<u>é</u>s, ces guerriers,<br />\nendormis, tous ces br<u>a</u>ves aux mains inertes.<br /><span class=\"verse_number\">7</span> Sous ta menace, Die<u>u</u> de Jacob,<br />\nle char et le chev<u>a</u>l se sont figés.</p>"""),
+  "PSALM_75_2": Psalm(
+      title: "Psaume 75-II",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">8</span> Toi, tu <u>e</u>s le redoutable !<br />\nQui tiendra sous les co<u>u</u>ps de ta fureur ?<br /><span class=\"verse_number\">9</span> Des cieux, tu pron<u>o</u>nces le verdict ;<br />\nla terre a pe<u>u</u>r et se tait<br /><span class=\"verse_number\">10</span> quand Dieu se l<u>è</u>ve pour juger,<br />\npour sauver tous les h<u>u</u>mbles de la terre.<br /><br /><span class=\"verse_number\">11</span> La colère des h<u>o</u>mmes te rend gloire<br />\nquand les surviv<u>a</u>nts te font cortège.<br /><span class=\"verse_number\">12</span> Faites des vœux et tenez vos promesses<br />\n   au Seigne<u>u</u>r votre Dieu ; *<br />\nvous qui l’entourez,<br />\n   portez votre offr<u>a</u>nde au redoutable.<br /><span class=\"verse_number\">13</span> Il éteint le so<u>u</u>ffle des princes,<br />\nlui, redoutable aux r<u>o</u>is de la terre !</p>"""),
   "PSALM_76": Psalm(
       title: "Psaume 76",
       subtitle: "Plainte dans la souffrance et la persécution",
@@ -722,15 +774,6 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">10</span> Je crois, et je p<u>a</u>rlerai,<br />\nmoi qui ai beauco<u>u</u>p souffert,<br /><span class="verse_number">11</span> moi qui ai d<u>i</u>t dans mon trouble :<br />\n« L’h<u>o</u>mme n’est que mensonge. »<br /><br /><span class="verse_number">12</span> Comment rendr<u>a</u>i-je au Seigneur<br />\ntout le bi<u>e</u>n qu’il m’a fait ?<br /><span class="verse_number">13</span> J’élèverai la co<u>u</u>pe du salut,<br />\nj’invoquerai le n<u>o</u>m du Seigneur.<br /><span class="verse_number">14</span> Je tiendrai mes prom<u>e</u>sses au Seigneur,<br />\noui, devant to<u>u</u>t son peuple !<br /><br /><span class="verse_number">15</span> Il en co<u>û</u>te au Seigneur<br />\nde voir mour<u>i</u>r les siens !<br /><span class="verse_number">16</span> Ne suis-je pas, Seigneur, ton serviteur,<br />\n   ton serviteur, le f<u>i</u>ls de ta servante, *<br />\nmoi, dont tu bris<u>a</u>s les chaînes ?<br /><br /><span class="verse_number">17</span> Je t’offrirai le sacrif<u>i</u>ce d’action de grâce,<br />\nj’invoquerai le n<u>o</u>m du Seigneur.<br /><span class="verse_number">18</span> Je tiendrai mes prom<u>e</u>sses au Seigneur,<br />\noui, devant to<u>u</u>t son peuple,<br /><span class="verse_number">19</span> à l’entrée de la mais<u>o</u>n du Seigneur,<br />\nau milie<u>u</u> de Jérusalem !</p>"""),
-  "PSALM_115": Psalm(
-      title: "Psaume 115",
-      subtitle: "Action de grâce au Temple, pour une guérison",
-      commentary:
-          "En toute circonstance, par Jésus, offrons à Dieu un sacrifice de louange. (He 13, 15)",
-      biblicalReference: "",
-      shortReference: "",
-      content:
-          """<p><span class="verse_number">10</span> Je crois, et je p<u>a</u>rlerai,<br />\nmoi qui ai beauco<u>u</u>p souffert,<br /><span class="verse_number">11</span> moi qui ai d<u>i</u>t dans mon trouble :<br />\n« L’h<u>o</u>mme n’est que mensonge. »<br /><br /><span class="verse_number">12</span> Comment rendr<u>a</u>i-je au Seigneur<br />\ntout le bi<u>e</u>n qu’il m’a fait ?<br /><span class="verse_number">13</span> J’élèverai la co<u>u</u>pe du salut,<br />\nj’invoquerai le n<u>o</u>m du Seigneur.<br /><span class="verse_number">14</span> Je tiendrai mes prom<u>e</u>sses au Seigneur,<br />\noui, devant to<u>u</u>t son peuple !<br /><br /><span class="verse_number">15</span> Il en co<u>û</u>te au Seigneur<br />\nde voir mour<u>i</u>r les siens !<br /><span class="verse_number">16</span> Ne suis-je pas, Seigneur, ton serviteur,<br />\n   ton serviteur, le f<u>i</u>ls de ta servante, *<br />\nmoi, dont tu bris<u>a</u>s les chaînes ?<br /><br /><span class="verse_number">17</span> Je t’offrirai le sacrif<u>i</u>ce d’action de grâce,<br />\nj’invoquerai le n<u>o</u>m du Seigneur.<br /><span class="verse_number">18</span> Je tiendrai mes prom<u>e</u>sses au Seigneur,<br />\noui, devant to<u>u</u>t son peuple,<br /><span class="verse_number">19</span> à l’entrée de la mais<u>o</u>n du Seigneur,<br />\nau milie<u>u</u> de Jérusalem !</p>"""),
   "PSALM_116": Psalm(
       title: "Psaume 116",
       subtitle: "Invitation à la louange universelle",
@@ -739,6 +782,24 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class=\"verse_number\">1</span> Louez le Seigne<u>u</u>r, tous les peuples ;<br>fêtez-l<u>e</u>, tous les pays !<br><br><span class=\"verse_number\">2</span> Son amour envers nous s'est montr<u>é</u> le plus fort ;<br>éternelle est la fidélit<u>é</u> du Seigneur !</p>"""),
+  "PSALM_117": Psalm(
+      title: "Psaume 117",
+      subtitle: "Action de grâce au Temple, pour le salut accordé",
+      commentary:
+          "Hosanna ! Béni soit celui qui vient au nom du Seigneur ! (Jn 12, 13)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Rendez grâce au Seigne<u>u</u>r : Il est bon ! *<br />\nÉtern<u>e</u>l est son amour !<br /><br /><span class=\"verse_number\">2</span> Oui, que le d<u>i</u>se Israël :<br />\nÉtern<u>e</u>l est son amour ! +<br /><span class=\"verse_number\">3</span> Que le dise la mais<u>o</u>n d'Aaron :<br />\nÉtern<u>e</u>l est son amour ! *<br /><span class=\"verse_number\">4</span> Qu'ils le disent, ceux qui cr<u>a</u>ignent le Seigneur :<br />\nÉtern<u>e</u>l est son amour !<br /><br /><span class=\"verse_number\">5</span> Dans mon angoisse j'ai cri<u>é</u> vers le Seigneur,<br />\net lui m'a exauc<u>é</u>, mis au large.<br /><span class=\"verse_number\">6</span> Le Seigneur est pour m<u>o</u>i, je ne crains pas ;<br />\nque pourrait un h<u>o</u>mme contre moi ?<br /><span class=\"verse_number\">7</span> Le Seigneur est avec m<u>o</u>i pour me défendre,<br />\net moi, je braver<u>a</u>i mes ennemis.<br /><br /><span class=\"verse_number\">8</span> Mieux vaut s'appuy<u>e</u>r sur le Seigneur<br />\nque de compt<u>e</u>r sur les hommes ; *<br /><span class=\"verse_number\">9</span> mieux vaut s'appuy<u>e</u>r sur le Seigneur<br />\nque de compt<u>e</u>r sur les puissants !<br /><br /><span class=\"verse_number\">10</span> Toutes les nati<u>o</u>ns m'ont encerclé :<br />\nau nom du Seigne<u>u</u>r, je les détruis !<br /><span class=\"verse_number\">11</span> Elles m'ont cern<u>é</u>, encerclé :<br />\nau nom du Seigne<u>u</u>r, je les détruis !<br /><span class=\"verse_number\">12</span> Elles m'ont cern<u>é</u> comme des guêpes : +<br />\n(– ce n'ét<u>a</u>it qu'un feu de ronces –) *<br />\nau nom du Seigne<u>u</u>r, je les détruis !<br /><br /><span class=\"verse_number\">13</span> On m'a poussé, bouscul<u>é</u> pour m'abattre ;<br />\nmais le Seigne<u>u</u>r m'a défendu.<br /><span class=\"verse_number\">14</span> Ma force et mon ch<u>a</u>nt, c'est le Seigneur ;<br />\nil est pour m<u>o</u>i le salut.<br /><br /><span class=\"verse_number\">15</span> Clameurs de j<u>o</u>ie et de victoire *<br />\nsous les t<u>e</u>ntes des justes :<br />\n« Le bras du Seigneur est fort,<br /><span class=\"verse_number\">16</span> le bras du Seigne<u>u</u>r se lève, *<br />\nle bras du Seigne<u>u</u>r est fort ! »<br /><br /><span class=\"verse_number\">17</span> Non, je ne mourrai p<u>a</u>s, je vivrai<br />\npour annoncer les acti<u>o</u>ns du Seigneur :<br /><span class=\"verse_number\">18</span> il m'a frappé, le Seigne<u>u</u>r, il m'a frappé,<br />\nmais sans me livr<u>e</u>r à la mort.<br /><br /><span class=\"verse_number\">19</span> Ouvrez-moi les p<u>o</u>rtes de justice :<br />\nj'entrerai, je rendrai gr<u>â</u>ce au Seigneur.<br /><span class=\"verse_number\">20</span> « C'est ici la p<u>o</u>rte du Seigneur :<br />\nqu'ils <u>e</u>ntrent, les justes ! »<br /><span class=\"verse_number\">21</span> Je te rends grâce car tu m'<u>a</u>s exaucé :<br />\ntu es pour m<u>o</u>i le salut.<br /><br /><span class=\"verse_number\">22</span> La pierre qu'ont rejet<u>é</u>e les bâtisseurs<br />\nest deven<u>u</u>e la pierre d'angle :<br /><span class=\"verse_number\">23</span> c'est là l'œ<u>u</u>vre du Seigneur,<br />\nla merv<u>e</u>ille devant nos yeux.<br /><span class=\"verse_number\">24</span> Voici le jour que f<u>i</u>t le Seigneur,<br />\nqu'il soit pour nous jour de f<u>ê</u>te et de joie !<br /><br /><span class=\"verse_number\">25</span> Donne, Seigneur, d<u>o</u>nne le salut !<br />\nDonne, Seigneur, d<u>o</u>nne la victoire !<br /><br /><span class=\"verse_number\">26</span> Béni soit au n<u>o</u>m du Seigneur<br />\ncelu<u>i</u> qui vient ! *<br />\nDe la mais<u>o</u>n du Seigneur,<br />\nno<u>u</u>s vous bénissons !<br /><br /><span class=\"verse_number\">27</span> Dieu, le Seigne<u>u</u>r, nous illumine. *<br />\nRameaux en main, formez vos cortèges<br />\njusqu'aupr<u>è</u>s de l'autel.<br /><br /><span class=\"verse_number\">28</span> Tu es mon Die<u>u</u>, je te rends grâce, *<br />\nmon Die<u>u</u>, je t'exalte !<br /><br /><span class=\"verse_number\">29</span> Rendez grâce au Seigne<u>u</u>r : Il est bon ! *<br />\nÉtern<u>e</u>l est son amour !</p>"""),
+  "PSALM_117_1": Psalm(
+      title: "Psaume 117-I",
+      subtitle: "Action de grâce au Temple, pour le salut accordé",
+      commentary:
+          "Hosanna ! Béni soit celui qui vient au nom du Seigneur ! (Jn 12, 13)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Rendez grâce au Seigne<u>u</u>r : Il est bon ! *<br />\nÉtern<u>e</u>l est son amour !<br /><br /><span class=\"verse_number\">2</span> Oui, que le d<u>i</u>se Israël :<br />\nÉtern<u>e</u>l est son amour ! +<br /><span class=\"verse_number\">3</span> Que le dise la mais<u>o</u>n d'Aaron :<br />\nÉtern<u>e</u>l est son amour ! *<br /><span class=\"verse_number\">4</span> Qu'ils le disent, ceux qui cr<u>a</u>ignent le Seigneur :<br />\nÉtern<u>e</u>l est son amour !</p>"""),
   "PSALM_117_2": Psalm(
       title: "Psaume 117-II",
       subtitle: "",
@@ -1043,6 +1104,15 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">1</span> Chantez au Seigne<u>u</u>r un chant nouveau,<br>louez-le dans l’assembl<u>é</u>e de ses fidèles !<br><span class="verse_number">2</span> En Israël, j<u>o</u>ie pour son créateur ;<br>dans Sion, allégr<u>e</u>sse pour son Roi !<br><span class="verse_number">3</span> Dansez à la lou<u>a</u>nge de son nom,<br>jouez pour lui, tambour<u>i</u>ns et cithares !<br><br><span class="verse_number">4</span> Car le Seigneur <u>a</u>ime son peuple,<br>il donne aux humbles l’écl<u>a</u>t de la victoire.<br><span class="verse_number">5</span> Que les fidèles ex<u>u</u>ltent, glorieux,<br>criant leur joie à l’he<u>u</u>re du triomphe.<br><span class="verse_number">6</span> Qu’ils proclament les él<u>o</u>ges de Dieu,<br>tenant en main l’ép<u>é</u>e à deux tranchants.<br><br><span class="verse_number">7</span> Tirer venge<u>a</u>nce des nations,<br>infliger aux pe<u>u</u>ples un châtiment,<br><span class="verse_number">8</span> charger de ch<u>a</u>înes les rois,<br>jeter les pr<u>i</u>nces dans les fers,<br><span class="verse_number">9</span> leur appliquer la sent<u>e</u>nce écrite,<br>c’est la fiert<u>é</u> de ses fidèles.</p>"""),
+  "PSALM_150": Psalm(
+      title: "Psaume 150",
+      subtitle: "Symphonie de louange à Dieu",
+      commentary:
+          "À Dieu la gloire dans l'Église et le Christ Jésus, pour tous les âges et tous les siècles ! (Ep 3, 21)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Louez Dieu dans son t<u>e</u>mple saint,<br />\nlouez-le au ci<u>e</u>l de sa puissance ;<br /><span class=\"verse_number\">2</span> louez-le pour ses acti<u>o</u>ns éclatantes,<br />\nlouez-le sel<u>o</u>n sa grandeur !<br /><br /><span class=\"verse_number\">3</span> Louez-le en sonn<u>a</u>nt du cor,<br />\nlouez-le sur la h<u>a</u>rpe et la cithare ;<br /><span class=\"verse_number\">4</span> louez-le par les c<u>o</u>rdes et les flûtes,<br />\nlouez-le par la d<u>a</u>nse et le tambour !<br /><br /><span class=\"verse_number\">5</span> Louez-le par les cymb<u>a</u>les sonores,<br />\nlouez-le par les cymb<u>a</u>les triomphantes !<br /><span class=\"verse_number\">6</span> Et que tout <u>ê</u>tre vivant<br />\nchante lou<u>a</u>nge au Seigneur !</p>"""),
   "NT_1": Psalm(
       title: "Cantique de Marie",
       subtitle: "",
@@ -1212,6 +1282,14 @@ final Map<String, Psalm> psalms = {
           "Le règne de Dieu est tout proche. Convertissez-vous et croyez à la Bonne Nouvelle. (Mc 1, 15)",
       content:
           """<p><span class=\"verse_number\">17</span> Que tombent, de mes ye<u>u</u>x, mes larmes,<br>sans arrêter ni le jo<u>u</u>r ni la nuit !<br><br>Elle est blessée d'une grande blessure,<br>la vierge, la f<u>i</u>lle de mon peuple, *<br>meurtrie d'une pl<u>a</u>ie profonde.<br><br><span class=\"verse_number\">18</span> Si je sors dans la campagne,<br>voici les vict<u>i</u>mes du glaive ; *<br>si j'entre dans la ville, <br>voici les souffr<u>a</u>nts de la faim.<br><br>Même le prêtre, m<u>&ecirc;</u>me le prophète<br>qui parcourt le pays, ne comprend pas.<br><br><span class=\"verse_number\">19</span> As-tu donc rejeté Juda ? +<br>Es-tu pris de dégo<u>&ucirc;</u>t pour Sion ? *<br>Pourquoi nous frapp<u>e</u>r sans remède ?<br><br>Nous attendions la paix, et ri<u>e</u>n de bon ! *<br>le temps du remède, et voic<u>i</u> l'épouvante !<br><br><span class=\"verse_number\">20</span> Seigneur, nous connaissons le mal,<br>la fa<u>u</u>te de nos pères : *<br>oui, nous avons péch<u>&eacute;</u> contre toi !<br><br><span class=\"verse_number\">21</span> Ne nous méprise pas,<br>à ca<u>u</u>se de ton nom ; *<br>n'humilie pas le tr<u>&ocirc;</u>ne de ta gloire !<br><br>Rapp<u>e</u>lle-toi : *<br>ne romps pas ton alli<u>a</u>nce avec nous !</p>"""),
+  "AT_40": Psalm(
+      title: "Cantique des trois enfants",
+      subtitle: "Louange de la création",
+      biblicalReference: "Dn 3",
+      shortReference: "AT 40",
+      commentary: "Le Créateur, qu'il soit béni éternellement ! (Rm 1, 25)",
+      content:
+          """<p><span class=\"verse_number\">52</span> Béni sois-tu, Seigne<u>u</u>r, Dieu de nos pères :<br />\nà toi, louange et gloire éternellement !<br /><br />\nBéni soit le nom très s<u>a</u>int de ta gloire :<br />\nà toi, louange et gloire éternellement !<br /><br /><span class=\"verse_number\">53</span> Béni sois-tu dans ton saint t<u>e</u>mple de gloire :<br />\nà toi, louange et gloire éternellement !<br /><br /><span class=\"verse_number\">54</span> Béni sois-tu sur le tr<u>ô</u>ne de ton règne :<br />\nà toi, louange et gloire éternellement !<br /><br /><span class=\"verse_number\">55</span> Béni sois-tu, toi qui s<u>o</u>ndes les abîmes :<br />\nà toi, louange et gloire éternellement !<br /><br />\nToi qui sièges au-dess<u>u</u>s des Kéroubim :<br />\nà toi, louange et gloire éternellement !<br /><br /><span class=\"verse_number\">56</span> Béni sois-tu au firmam<u>e</u>nt, dans le ciel,<br />\nà toi, louange et gloire éternellement !<br /><br /><span class=\"verse_number\">57</span> Toutes les œuvres du Seigne<u>u</u>r, bénissez-le :<br />\nà toi, louange et gloire éternellement !</p>"""),
   "AT_43": Psalm(
       title: "Cantique d’Habaquq ",
       subtitle: "Le jugement de Dieu",

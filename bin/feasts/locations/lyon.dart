@@ -75,7 +75,7 @@ Calendar addLyonFeasts(Calendar calendar, int liturgicalYear, generalCalendar) {
 
   // enfin ajouter les fêtes qui dépendent d'une fête mobile
 
-  // ND de Fourvière le sameid après le 2ième dimanche de Pâques
+  // ND de Fourvière le samedi après le 2ème dimanche de Pâques
   calendar.addItemRelatedToFeast(
       generalCalendar['EASTER'], 13, 4, 'our_lady_of_fourviere');
 

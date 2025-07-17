@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'classes/calendar_class.dart'; // cette classe définit calendar
-import 'classes/feasts_class.dart';
 import 'common_calendar.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
 import 'feasts/common_feats.dart'; //liste des fêtes de l'Église universelle
 import './feasts/locations/lyon.dart';
@@ -445,7 +444,10 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   calendar.removeCelebrationFromDay(generalCalendar['CHRIST_KING'],
       'OT_SUNDAY_34'); //suprimer le 34ème dimanche, vu que c'est le Christ Roi
 
-//ajout de la fête de Marie mère de l'Église le lendemain de la Pentecôte
+//ajout du cœur immaculé de Marie après la fête du Sacré Cœur:
+  calendar.addItemRelatedToFeast(
+      generalCalendar['SACRED_HEART'], 1, 10, 'immaculate_heart_of_mary');
+//ajout de la fête de Marie mère de l'Église le lendemain de la Pentecôte:
   calendar.addItemRelatedToFeast(
       generalCalendar['PENTECOST'], 1, 10, 'mary_mother_of_the_church');
 

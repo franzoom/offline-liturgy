@@ -9,7 +9,7 @@ void main() {
 
   // lancement de la génération des Complies pour le jour demandé:
   Map<String, ComplineDefinition> complineDefinitionResolved =
-      complineDefinitionResolution(calendar, DateTime(2025, 3, 4));
+      complineDefinitionResolution(calendar, DateTime(2025, 3, 4), 'lyon');
 
   //affichage de ces complies:
   Map<String, Compline> complineTextCompiled =

@@ -3,9 +3,12 @@ import 'classes/calendar_class.dart'; // cette classe définit calendar
 import 'classes/feasts_class.dart';
 import 'common_calendar.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
 import 'feasts/common_feats.dart'; //liste des fêtes de l'Église universelle
+import './feasts/locations/lyon.dart';
+import './feasts/locations/france.dart';
+import './feasts/locations/europe.dart';
 
-Calendar calendarFill(calendar, year) {
-  Map generalCalendar = createLiturgicalDays(year);
+Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
+  Map generalCalendar = createLiturgicalDays(liturgicalYear);
 
   String defaultCelebration = "";
   int defaultPriority = 0;
@@ -27,7 +30,7 @@ Calendar calendarFill(calendar, year) {
       }
     }
     DayContent dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'Advent',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
@@ -42,7 +45,7 @@ Calendar calendarFill(calendar, year) {
 
   //ajout de Noël
   DayContent dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'Christmas',
     defaultCelebration: 'NATIVITY',
     defaultPriority: 2,
@@ -51,13 +54,13 @@ Calendar calendarFill(calendar, year) {
     priority: {},
   );
   // Noël est le 25 décembre de l'année précédente
-  date = DateTime(year - 1, 12, 25);
+  date = DateTime(liturgicalYear - 1, 12, 25);
   calendar.addDayContent(date, dayContent);
 
   // ajout de l'octave de Noël
   int christmasOctaveDays = 2;
   date = date.add(Duration(days: 1)); // commence le 26 décembre
-  while (date.isBefore(DateTime(year, 1, 1))) {
+  while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
     if ((date.weekday % 7 == 0)) {
       defaultCelebration = 'CHRISTMAS_SUNDAY';
       defaultPriority = 6;
@@ -66,7 +69,7 @@ Calendar calendarFill(calendar, year) {
       defaultPriority = 9;
     }
     DayContent dayContent = DayContent(
-        liturgicalYear: year,
+        liturgicalYear: liturgicalYear,
         liturgicalTime: 'ChristmasOctave',
         defaultCelebration: defaultCelebration,
         defaultPriority: defaultPriority,
@@ -84,7 +87,7 @@ Calendar calendarFill(calendar, year) {
 //on commence par la "première semaine" (jusqu'à l'Épiphanie)
   while (date.isBefore(generalCalendar['EPIPHANY'])) {
     dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'ChristmasFeriale',
       defaultCelebration: 'CHRISTMAS-FERIALE_1_$christmasFerialDays',
       defaultPriority: 13,
@@ -98,7 +101,7 @@ Calendar calendarFill(calendar, year) {
   }
 // ajout de l'Épiphanie
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'Christmas',
     defaultCelebration: 'EPIPHANY',
     defaultPriority: 3,
@@ -114,7 +117,7 @@ Calendar calendarFill(calendar, year) {
 // on continue avec la "seconde semaine" (jusqu'au Baptême du Seigneur)
   while (date.isBefore(generalCalendar['BAPTISM'])) {
     dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'ChristmasFeriale',
       defaultCelebration: 'CHRISTMAS-FERIALE_2_$christmasFerialDays',
       defaultPriority: 13,
@@ -129,7 +132,7 @@ Calendar calendarFill(calendar, year) {
 
 // ajout du Baptême du Seigneur
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'Christmas',
     defaultCelebration: 'BAPTISM',
     defaultPriority: 5,
@@ -153,7 +156,7 @@ Calendar calendarFill(calendar, year) {
       defaultPriority = 13;
     }
     DayContent dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'OrdinaryTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
@@ -167,7 +170,7 @@ Calendar calendarFill(calendar, year) {
   }
 // ajout du Mercredi des Cendres
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'LentTime',
     defaultCelebration: 'ASHES',
     defaultPriority: 2,
@@ -185,7 +188,7 @@ Calendar calendarFill(calendar, year) {
   //date = date.add(Duration(days: 1)); // commence après le mercredi des Cendres
   while (date.isBefore(generalCalendar['ASHES'].add(Duration(days: 4)))) {
     dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'LentTime',
       defaultCelebration: 'LENT_0_$lentDays',
       defaultPriority: 9,
@@ -211,7 +214,7 @@ Calendar calendarFill(calendar, year) {
       defaultPriority = 9;
     }
     DayContent dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'LentTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
@@ -225,7 +228,7 @@ Calendar calendarFill(calendar, year) {
   }
 // ajout du dimanche des Rameaux
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'LentTime',
     defaultCelebration: 'PALMS',
     defaultPriority: 2,
@@ -242,7 +245,7 @@ Calendar calendarFill(calendar, year) {
   //date = date.add(Duration(days: 1)); // commence après l'Épiphanie
   while (date.isBefore(generalCalendar['HOLY_THURSDAY'])) {
     dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'HolyWeek',
       defaultCelebration: 'LENT_${(lentDays / 7).floor() + 1}-${lentDays % 7}',
       defaultPriority: 9,
@@ -257,7 +260,7 @@ Calendar calendarFill(calendar, year) {
 
   // ajout du Jeudi Saint
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'HolyWeek',
     defaultCelebration: 'holy_thursday',
     defaultPriority: 1,
@@ -270,7 +273,7 @@ Calendar calendarFill(calendar, year) {
 
   // ajout du Vendredi Saint
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'HolyWeek',
     defaultCelebration: 'holy_friday',
     defaultPriority: 1,
@@ -283,7 +286,7 @@ Calendar calendarFill(calendar, year) {
 
   // ajout du Samedi Saint
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'HolyWeek',
     defaultCelebration: 'holy_saturday',
     defaultPriority: 1,
@@ -298,7 +301,7 @@ Calendar calendarFill(calendar, year) {
 
   // ajout de Pâques
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'PaschalTime',
     defaultCelebration: 'EASTER',
     defaultPriority: 1,
@@ -316,7 +319,7 @@ Calendar calendarFill(calendar, year) {
   // ajout des jours de l'octave pascal (priority 2)
   while (date.isBefore(generalCalendar['EASTER'].add(Duration(days: 7)))) {
     DayContent dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'PaschalOctave',
       defaultCelebration:
           'PT_${(paschalTimeDays / 7).floor() + 1}-${paschalTimeDays % 7}',
@@ -331,7 +334,7 @@ Calendar calendarFill(calendar, year) {
   }
   //ajout du dimanche de la Miséricorde
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'PaschalTime',
     breviaryWeek: 2,
     defaultCelebration: 'SUNDAY_OF_DIVINE_MERCY',
@@ -353,7 +356,7 @@ Calendar calendarFill(calendar, year) {
       defaultPriority = 13;
     }
     DayContent dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'PaschalTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
@@ -368,7 +371,7 @@ Calendar calendarFill(calendar, year) {
 
 // Ajout de la Pentecôte
   dayContent = DayContent(
-    liturgicalYear: year,
+    liturgicalYear: liturgicalYear,
     liturgicalTime: 'PaschalTime',
     defaultCelebration: 'PENTECOST',
     defaultPriority: 2,
@@ -398,7 +401,7 @@ Calendar calendarFill(calendar, year) {
       defaultPriority = 13;
     }
     DayContent dayContent = DayContent(
-      liturgicalYear: year,
+      liturgicalYear: liturgicalYear,
       liturgicalTime: 'OrdinaryTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
@@ -432,54 +435,44 @@ Calendar calendarFill(calendar, year) {
   calendar.addItemToDay(generalCalendar[eventName], 4, eventName);
   eventName = 'saint_john_the_baptist';
   calendar.addItemToDay(generalCalendar[eventName], 4, eventName);
-  calendar.addItemToDay(DateTime(year, 11, 1), 3, 'all_saints');
-  calendar.addItemToDay(
-      DateTime(year, 11, 2), 3, 'commemoration_of_all_the_faithful_departed');
-  calendar.addItemToDay(
-      DateTime(year, 8, 15), 3, 'assumption_of_the_blessed_virgin_mary');
+  calendar.addItemToDay(DateTime(liturgicalYear, 11, 1), 3, 'all_saints');
+  calendar.addItemToDay(DateTime(liturgicalYear, 11, 2), 3,
+      'commemoration_of_all_the_faithful_departed');
+  calendar.addItemToDay(DateTime(liturgicalYear, 8, 15), 3,
+      'assumption_of_the_blessed_virgin_mary');
   eventName = 'CHRIST_KING';
   calendar.addItemToDay(generalCalendar[eventName], 3, eventName);
   calendar.removeCelebrationFromDay(generalCalendar['CHRIST_KING'],
       'OT_SUNDAY_34'); //suprimer le 34ème dimanche, vu que c'est le Christ Roi
 
 //ajout de la fête de Marie mère de l'Église le lendemain de la Pentecôte
-  calendar.addItemToDay(generalCalendar['PENTECOST'].add(Duration(days: 1)), 10,
-      'mary_mother_of_the_church');
-//ajout de toutes les fêtes du calendrier général
-  DateTime adventDate = generalCalendar['ADVENT'];
-  DateTime christKingDate =
-      generalCalendar['CHRIST_KING'].add(Duration(days: 6));
-  int yearToRecord = year;
-  Map<String, FeastDates> feastList = commonFeastList();
-  feastList.forEach((key, value) {
-    DateTime(year, value.month, value.day).isAfter(christKingDate)
-        // l'attribution des fêtes se fait par année liturgique.
-        // donc les fêtes avant après le Christ-Roi de l'année civile
-        // appartiennent à l'année civile précédente
-        ? yearToRecord = year - 1
-        : yearToRecord = year;
+  calendar.addItemRelatedToFeast(
+      generalCalendar['PENTECOST'], 1, 10, 'mary_mother_of_the_church');
 
-    if (DateTime(yearToRecord, value.month, value.day).isAfter(adventDate) &&
-        DateTime(yearToRecord, value.month, value.day).isBefore(christKingDate))
-    // si la date est comprise entre le début et la fin de l'année liturgique
-    // (car par exemple en 2025 le 30 novembre n'est pas dans l'année liturgique !)
-    {
-      int month = value.month;
-      int day = value.day;
-      calendar.addItemToDay(
-          DateTime(yearToRecord, month, day), value.priority, key);
-    }
-  });
+//AJOUT DE TOUTES LES FÊTES DES CALENDRIERS LOCAUX
+  calendar = addFeastsToCalendar(
+      calendar, commonFeastsList, liturgicalYear, generalCalendar);
+
+  switch (location) {
+    case 'lyon':
+      calendar = addLyonFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'france':
+      calendar = addFranceFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'europe':
+      calendar = addEuropeFeasts(calendar, liturgicalYear, generalCalendar);
+  }
+
   return calendar;
 }
 
-Calendar checkAndFillCalendar(Calendar calendar, DateTime date) {
+Calendar checkAndFillCalendar(
+    Calendar calendar, DateTime date, String location) {
   // fonction d'ajout des années manquantes si besoin
   final calendarFile = File('./bin/assets/calendar.json');
   // vérification que le fichier existe
   if (!calendarFile.existsSync()) {
     calendar.calendarData
-        .addAll(calendarFill(calendar, date.year).calendarData);
+        .addAll(calendarFill(calendar, date.year, location).calendarData);
     calendar.exportToJsonFile('./bin/assets/calendar.json');
     return calendar;
   } else {
@@ -487,15 +480,15 @@ Calendar checkAndFillCalendar(Calendar calendar, DateTime date) {
     if (jsonString.trim().isEmpty) {
       // vérifier que le fichier n'est pas vide, auquel cas le rempli de l'année demandé
       calendar.calendarData
-          .addAll(calendarFill(calendar, date.year).calendarData);
+          .addAll(calendarFill(calendar, date.year, location).calendarData);
       calendar.exportToJsonFile('./bin/assets/calendar.json');
       return calendar;
     }
     // si le fichier existe et n'est pas vide, le lire
     calendar = Calendar.importFromJsonFile('./bin/assets/calendar.json');
     if (calendar.calendarData.isEmpty) {
-      calendar.calendarData.addAll(
-          calendarFill(calendar, date.year) as Map<DateTime, DayContent>);
+      calendar.calendarData.addAll(calendarFill(calendar, date.year, location)
+          as Map<DateTime, DayContent>);
       calendar.exportToJsonFile('./bin/assets/calendar.json');
       return calendar;
     }
@@ -506,11 +499,11 @@ Calendar checkAndFillCalendar(Calendar calendar, DateTime date) {
   if (date.isBefore(firstDate)) {
     calendar = Calendar();
     for (int year = date.year; year <= firstDate.year; year++) {
-      calendar = calendarFill(calendar, year);
+      calendar = calendarFill(calendar, year, location);
     }
   } else if (date.isAfter(lastDate)) {
     for (int year = lastDate.year + 1; year <= date.year; year++) {
-      calendar = calendarFill(calendar, year);
+      calendar = calendarFill(calendar, year, location);
     }
   }
 

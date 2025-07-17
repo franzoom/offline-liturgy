@@ -69,6 +69,14 @@ class Calendar {
     }
   }
 
+  void addItemRelatedToFeast(
+      DateTime date, int shift, int priorityLevel, String item) {
+    //ajoute une date en relation avec une autre: par exemple
+    // Notre-Dame de Fourvière le samedi après le 2ème dimanche de Pâques
+    addItemToDay(
+        DateTime(date.year, date.month, date.day + shift), priorityLevel, item);
+  }
+
 // mise en place d'un getter
   Map<DateTime, DayContent> get calendarData => _calendarData;
 
@@ -198,4 +206,34 @@ extension CalendarDisplay on Calendar {
   }
 
   String _pad(int number) => number.toString().padLeft(2, '0');
+}
+
+Calendar addFeastsToCalendar(
+    Calendar calendar, feastList, int liturgicalYear, generalCalendar) {
+  // fonction d'ajout des calendriers. Le commun, puis les propres
+  DateTime beginOfLiturgicalYear = generalCalendar['ADVENT'];
+  DateTime endOfLiturgicalYear =
+      generalCalendar['CHRIST_KING'].add(Duration(days: 6));
+  int yearToRecord = liturgicalYear;
+  feastList.forEach((key, value) {
+    final int month = value.month;
+    final int day = value.day;
+
+    DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
+        // l'attribution des fêtes se fait par année liturgique.
+        // donc les fêtes après le Christ-Roi de l'année civile
+        // appartiennent à l'année civile précédente
+        ? yearToRecord = liturgicalYear - 1
+        : yearToRecord = liturgicalYear;
+
+    if (DateTime(yearToRecord, month, day).isAfter(beginOfLiturgicalYear) &&
+        DateTime(yearToRecord, month, day).isBefore(endOfLiturgicalYear))
+    // si la date est comprise entre le début et la fin de l'année liturgique
+    // (car par exemple en 2025 le 30 novembre n'est pas dans l'année liturgique !)
+    {
+      calendar.addItemToDay(
+          DateTime(yearToRecord, month, day), value.priority, key);
+    }
+  });
+  return calendar;
 }

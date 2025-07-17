@@ -26,11 +26,11 @@ List dayName = [
 ];
 
 Map<String, ComplineDefinition> complineDefinitionResolution(
-    Calendar calendar, DateTime date) {
+    Calendar calendar, DateTime date, location) {
   /// résout le choix des complies pour un jour donné. Demande à la fonction complineDetection
   /// les complies du jour et celles du lendemain. Si celles du lendemain sont une solennité,
   /// alors celle du jour sont une veille de solennité.
-  calendar = checkAndFillCalendar(calendar, date);
+  calendar = checkAndFillCalendar(calendar, date, location);
   Map<String, ComplineDefinition> todayComplineDefinition =
       complineDefinitionDetection(calendar, date);
   Map<String, ComplineDefinition> tomorrowComplineDefinition =

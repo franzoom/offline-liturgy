@@ -1,3 +1,5 @@
+// ensemble des fonctions qui calculent les dates de fêtes à date variable
+
 DateTime christmas(int year) {
   //renvoie le jour de Noël précédent
   return DateTime(year - 1, 12, 25);
@@ -189,7 +191,7 @@ DateTime saintJohnTheBaptist(DateTime sacredHeartDay) {
 
 DateTime immaculateConception(DateTime adventDay) {
   //renvoie le jour de l'Immaculée Conception pour une année donnée
-  // c'est le 8 décembre, mais si c'est un dimanche de l'Avent, on renvoie au lundi suivant
+  // c'est le 8 décembre, mais si c'est un dimanche de l'Avent, on renvoie au lendemain
   DateTime immaculateConceptionDay = DateTime(adventDay.year, 12, 8);
   if (immaculateConceptionDay.weekday == DateTime.sunday &&
       immaculateConceptionDay.isAfter(adventDay)) {

@@ -8,6 +8,17 @@ pour le moment le fichier main.dart initialise une variable calendrier, puis app
 main.dart appelle ensuite la fonction (temporaire) complineTextCompilation qui permet d'afficher dans la console toutes les données de ces vigiles. À terme ces données seront récupérées directement par l'application Flutter pour afficher l'office.
 On passera ensuite aux autres offices.
 
+## Construction du calendrier
+
+Le calendrier se construit par la fonction calendarFill en plusieurs étapes.
+
+1. création du squelette par la fonction createLiturgicalDays (dans common_calendar.dart) qui donne toutes les fêtes mobiles
+2. la fonction calendarFill parcours tout le calendrier, ajoute les fêtes mobiles calculées et complète avec tous les jours de féries, de fête ou d'octave. À ce point, chaque jour du calendrier liturgqiue est forcé d'exister
+3. la fonction calendarFill appelle la fonction addFeastsToCalendar qui ajoute toutes les fêtes (ou mémoires) du calendrier commun (calendrier romain général).
+4. on termine la fonction en invoquant si besoin les calendrier locaux. Ces calendriers s'appellent l'un l'autre dans l'ordre croissant. Si j'appelle Lyon, il appelera la France, qui appelera à son tour l'Europe. Ainsi tous les dates des calendriers locaux sont insérées dans le calendrier général.
+
+Le calendrier est enregistré dans calendar.json, dans le répertoire ./assets. S'il n'existe pas il est créé.
+
 ## Structure des données fournies par complineDefinitionResolution
 
 On appelle complineDefinitionResolution(calendar, DateTime(x,x,x)) pour obtenir les complies du jour. Si le calendrier n'existe pas ou ne contient pas cette date, il est calculé et stocké dans assets/calendar.json.

@@ -301,7 +301,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // ajout de Pâques
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'PaschalTime',
+    liturgicalTime: 'PaschalOctave',
     defaultCelebration: 'EASTER',
     defaultPriority: 1,
     defaultColor: 'white',

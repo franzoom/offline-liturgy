@@ -2,61 +2,61 @@ import '../tools/psalms_list_management.dart';
 
 final Map<int, Map<String, List<String>>> MorningDefaultDistribution = {
   1: {
-    'sunday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'monday': ['PSALM_5', 'PSALM_28', 'AT_4'],
-    'tuesday': ['PSALM_23', 'PSALM_32', 'AT_5'],
-    'wednesday': ['PSALM_35', 'PSALM_46', 'AT_7'],
-    'thursday': ['PSALM_56', 'PSALM_47', 'AT_36'],
-    'friday': ['PSALM_50', 'PSALM_99', 'AT_27'],
-    'saturday': ['PSALM_118_19', 'PSALM_116', 'AT_1'],
+    'sunday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'monday': ['PSALM_5', 'AT_4', 'PSALM_28'],
+    'tuesday': ['PSALM_23', 'AT_5', 'PSALM_32'],
+    'wednesday': ['PSALM_35', 'AT_7', 'PSALM_46'],
+    'thursday': ['PSALM_56', 'AT_36', 'PSALM_47'],
+    'friday': ['PSALM_50', 'AT_27', 'PSALM_99'],
+    'saturday': ['PSALM_118_19', 'AT_1', 'PSALM_116'],
   },
   2: {
-    'sunday': ['PSALM_117', 'PSALM_150', 'AT_40'],
-    'monday': ['PSALM_41', 'PSALM_18A', 'AT_15'],
-    'tuesday': ['PSALM_42', 'PSALM_64', 'AT_23'],
-    'wednesday': ['PSALM_76', 'PSALM_96', 'AT_3'],
-    'thursday': ['PSALM_79', 'PSALM_80', 'AT_19'],
-    'friday': ['PSALM_50', 'PSALM_147', 'AT_43'],
-    'saturday': ['PSALM_91', 'PSALM_8', 'AT_2'],
+    'sunday': ['PSALM_117', 'AT_40', 'PSALM_150'],
+    'monday': ['PSALM_41', 'AT_15', 'PSALM_18A'],
+    'tuesday': ['PSALM_42', 'AT_23', 'PSALM_64'],
+    'wednesday': ['PSALM_76', 'AT_3', 'PSALM_96'],
+    'thursday': ['PSALM_79', 'AT_19', 'PSALM_80'],
+    'friday': ['PSALM_50', 'AT_43', 'PSALM_147'],
+    'saturday': ['PSALM_91', 'AT_2', 'PSALM_8'],
   },
   3: {
-    'sunday': ['PSALM_92', 'PSALM_148', 'AT_41'],
-    'monday': ['PSALM_83', 'PSALM_95', 'AT_17'],
-    'tuesday': ['PSALM_84', 'PSALM_66', 'AT_20'],
-    'wednesday': ['PSALM_85', 'PSALM_97', 'AT_22'],
-    'thursday': ['PSALM_86', 'PSALM_98', 'AT_25'],
-    'friday': ['PSALM_50', 'PSALM_99', 'AT_34'],
-    'saturday': ['PSALM_118_19', 'PSALM_116', 'AT_10'],
+    'sunday': ['PSALM_92', 'AT_41', 'PSALM_148'],
+    'monday': ['PSALM_83', 'AT_17', 'PSALM_95'],
+    'tuesday': ['PSALM_84', 'AT_20', 'PSALM_66'],
+    'wednesday': ['PSALM_85', 'AT_22', 'PSALM_97'],
+    'thursday': ['PSALM_86', 'AT_25', 'PSALM_98'],
+    'friday': ['PSALM_50', 'AT_34', 'PSALM_99'],
+    'saturday': ['PSALM_118_19', 'AT_10', 'PSALM_116'],
   },
   4: {
-    'sunday': ['PSALM_117', 'PSALM_150', 'AT_40'],
-    'monday': ['PSALM_89', 'PSALM_134_1', 'AT_26'],
-    'tuesday': ['PSALM_100', 'PSALM_143a', 'AT_39'],
-    'wednesday': ['PSALM_107', 'PSALM_145', 'AT_30'],
-    'thursday': ['PSALM_142', 'PSALM_146', 'AT_32'],
-    'friday': ['PSALM_50', 'PSALM_147', 'AT_6'],
-    'saturday': ['PSALM_91', 'PSALM_8', 'AT_38'],
-  },
+    'sunday': ['PSALM_117', 'AT_40', 'PSALM_150'],
+    'monday': ['PSALM_89', 'AT_26', 'PSALM_134_1'],
+    'tuesday': ['PSALM_100', 'AT_39', 'PSALM_143a'],
+    'wednesday': ['PSALM_107', 'AT_30', 'PSALM_145'],
+    'thursday': ['PSALM_142', 'AT_32', 'PSALM_146'],
+    'friday': ['PSALM_50', 'AT_6', 'PSALM_147'],
+    'saturday': ['PSALM_91', 'AT_38', 'PSALM_8'],
+  }
 };
 final Map<int, Map<String, List<String>>> MorningPaschalOctaveDistribution = {
   1: {
-    'sunday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'monday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'tuesday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'wednesday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'thursday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'friday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-    'saturday': ['PSALM_62', 'PSALM_149', 'AT_41'],
+    'sunday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'monday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'tuesday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'wednesday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'thursday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'friday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+    'saturday': ['PSALM_62', 'AT_41', 'PSALM_149'],
   },
   2: {
-    'sunday': ['PSALM_62', 'PSALM_149', 'AT_41'],
-  },
+    'sunday': ['PSALM_62', 'AT_41', 'PSALM_149'],
+  }
 };
 
-List<String>? MorningPsalms(
+List<String>? morningPsalms(
     String liturgicalTime, int liturgicalWeek, String dayName) {
   Map<int, Map<String, List<String>>> finalList = MorningDefaultDistribution;
-// en dehors du temps ordinaire:
+// pour l'octave pascal:
   if (liturgicalTime == 'PaschalOctave') {
     finalList = mergePsalms(
         MorningDefaultDistribution, MorningPaschalOctaveDistribution);

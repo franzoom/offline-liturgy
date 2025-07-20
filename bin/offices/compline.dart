@@ -10,7 +10,7 @@ import '../assets/compline/compline_solemnity_paschal_time.dart';
 import '../assets/compline/compline_solmenity_ordinary_time.dart';
 import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
-import '../hymns_management.dart';
+import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../assets/psalms.dart';
 

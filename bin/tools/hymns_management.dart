@@ -1,4 +1,4 @@
-import './classes/hymns_class.dart';
+import '../classes/hymns_class.dart';
 
 Map<String, Hymns> filterHymnsByCodes(
   List<String> titleCodes,

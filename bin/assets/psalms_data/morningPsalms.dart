@@ -1,6 +1,6 @@
 import '../tools/psalms_list_management.dart';
 
-final Map<int, Map<String, List<String>>> MorningDefaultDistribution = {
+final Map<int, Map<String, List<String>>> morningDefaultDistribution = {
   1: {
     'sunday': ['PSALM_62', 'AT_41', 'PSALM_149'],
     'monday': ['PSALM_5', 'AT_4', 'PSALM_28'],
@@ -38,7 +38,7 @@ final Map<int, Map<String, List<String>>> MorningDefaultDistribution = {
     'saturday': ['PSALM_91', 'AT_38', 'PSALM_8'],
   }
 };
-final Map<int, Map<String, List<String>>> MorningPaschalOctaveDistribution = {
+final Map<int, Map<String, List<String>>> morningPaschalOctaveDistribution = {
   1: {
     'sunday': ['PSALM_62', 'AT_41', 'PSALM_149'],
     'monday': ['PSALM_62', 'AT_41', 'PSALM_149'],
@@ -55,11 +55,11 @@ final Map<int, Map<String, List<String>>> MorningPaschalOctaveDistribution = {
 
 List<String>? morningPsalms(
     String liturgicalTime, int liturgicalWeek, String dayName) {
-  Map<int, Map<String, List<String>>> finalList = MorningDefaultDistribution;
+  Map<int, Map<String, List<String>>> finalList = morningDefaultDistribution;
 // pour l'octave pascal:
   if (liturgicalTime == 'PaschalOctave') {
     finalList = mergePsalms(
-        MorningDefaultDistribution, MorningPaschalOctaveDistribution);
+        morningDefaultDistribution, morningPaschalOctaveDistribution);
   }
   List<String>? psalmsList = finalList[liturgicalWeek]?[dayName];
   return psalmsList;

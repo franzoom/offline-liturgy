@@ -1,4 +1,6 @@
 import 'offline_liturgy.dart';
+import './classes/morning_class.dart';
+import './offices/morning.dart';
 
 //import 'classes/complineHymn_class.dart';
 
@@ -9,6 +11,10 @@ void main() {
   List<MapEntry<int, String>> dayFeasts =
       calendar.getSortedItemsForDay(DateTime(2025, 2, 9));
   print(dayFeasts);
+
+  // lancement de la génération des Laudes pour le jour demandé:
+  Map<String, Morning> ferialMorning =
+      ferialMorningResolution(calendar, DateTime(2025, 10, 23), 'lyon');
 
   // lancement de la génération des Complies pour le jour demandé:
   Map<String, ComplineDefinition> complineDefinitionResolved =

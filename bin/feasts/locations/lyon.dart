@@ -9,8 +9,6 @@ Map<String, FeastDates> lyonFeastsList = {
   'francis_de_sales_bishop_LYON': FeastDates(month: 1, day: 24, priority: 11),
   'marie_of_saint_ignatius_claudine_thevenet_religious':
       FeastDates(month: 2, day: 3, priority: 12),
-  'ansgar_of_hamburg_bishop': FeastDates(month: 2, day: 3, priority: 12),
-  'blaise_of_sebaste_bishop': FeastDates(month: 2, day: 3, priority: 12),
   'jean_pierre_neel_priest': FeastDates(month: 2, day: 19, priority: 12),
   'polycarp_of_smyrna_bishop': FeastDates(month: 2, day: 23, priority: 112),
   'baldomerus_of_lyon_religious': FeastDates(month: 2, day: 27, priority: 12),
@@ -18,8 +16,6 @@ Map<String, FeastDates> lyonFeastsList = {
   'francis_of_paola_hermit': FeastDates(month: 4, day: 2, priority: 12),
   'epipodius_of_lyon_and_alexander_of_lyon_martyrs':
       FeastDates(month: 4, day: 22, priority: 12),
-  'louis_grignion_de_montfort_priest':
-      FeastDates(month: 4, day: 28, priority: 12),
   'peter_chanel_priest': FeastDates(month: 4, day: 28, priority: 12),
   'jean_louis_bonnard_priest': FeastDates(month: 5, day: 4, priority: 11),
   'pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs':

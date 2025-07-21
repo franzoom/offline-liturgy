@@ -261,7 +261,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'HolyWeek',
-    defaultCelebration: 'holy_thursday',
+    defaultCelebration: 'HOLY_THURSDAY',
     defaultPriority: 1,
     defaultColor: 'white',
     breviaryWeek: null,
@@ -274,7 +274,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'HolyWeek',
-    defaultCelebration: 'holy_friday',
+    defaultCelebration: 'HOLY_FRIDAY',
     defaultPriority: 1,
     defaultColor: 'red',
     breviaryWeek: null,
@@ -287,13 +287,11 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'HolyWeek',
-    defaultCelebration: 'holy_saturday',
+    defaultCelebration: 'HOLY_SATURDAY',
     defaultPriority: 1,
     defaultColor: 'black',
     breviaryWeek: null,
-    priority: {
-      1: ['HOLY_SATURDAY'],
-    },
+    priority: {},
   );
   date = generalCalendar['HOLY_SATURDAY'];
   calendar.addDayContent(date, dayContent);
@@ -301,7 +299,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // ajout de Pâques
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'PaschalOctave',
+    liturgicalTime: 'PaschalTime',
     defaultCelebration: 'EASTER',
     defaultPriority: 1,
     defaultColor: 'white',

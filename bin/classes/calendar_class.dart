@@ -48,6 +48,9 @@ class Calendar {
   final Map<DateTime, DayContent> _calendarData = {};
   Calendar(); //constructeur par défaut
 
+  // mise en place d'un getter
+  Map<DateTime, DayContent> get calendarData => _calendarData;
+
   void addDayContent(DateTime date, DayContent content) {
     _calendarData[date] = content;
   }
@@ -57,28 +60,48 @@ class Calendar {
   }
 
   void addItemToDay(DateTime date, int priorityLevel, String item) {
-    // Vérifier que la date existe pour éviter une erreur
     if (_calendarData.containsKey(date)) {
-      DayContent content = _calendarData[date]!;
-      // Ajouter l'élément à la bonne priorité
-      if (content.priority.containsKey(priorityLevel)) {
-        content.priority[priorityLevel]!.add(item);
-      } else {
-        content.priority[priorityLevel] = [item];
+      DayContent dayContent = _calendarData[date]!;
+      // Trouver la priorité actuelle de l'item, s'il existe
+      int? existingPriority = dayContent.priority.entries
+          .firstWhere(
+            (entry) => entry.value.contains(item),
+            orElse: () => const MapEntry(-1, []),
+          )
+          .key;
+      // Si l'item est déjà à la bonne priorité, ne rien faire
+      if (existingPriority == priorityLevel) return;
+      // Si l'item existe à une autre priorité (logiquement moins importante), le supprimer
+      if (existingPriority != -1) {
+        removeCelebrationFromDay(date, item);
+      }
+      // Ajouter l'item à la nouvelle priorité sans écraser les autres
+      dayContent.priority.putIfAbsent(priorityLevel, () => []);
+      if (!dayContent.priority[priorityLevel]!.contains(item)) {
+        dayContent.priority[priorityLevel]!.add(item);
       }
     }
   }
 
+/*
+  void removeItemFromDay(DateTime date, int priorityLevel, String item) {
+    if (_calendarData.containsKey(date)) {
+      DayContent dayContent = _calendarData[date]!;
+      dayContent.priority[priorityLevel]?.remove(item);
+      if (dayContent.priority[priorityLevel]?.isEmpty ?? false) {
+        dayContent.priority.remove(priorityLevel);
+      }
+    }
+  }
+*/
   void addItemRelatedToFeast(
       DateTime date, int shift, int priorityLevel, String item) {
     //ajoute une date en relation avec une autre: par exemple
     // Notre-Dame de Fourvière le samedi après le 2ème dimanche de Pâques
+    // on donne le shift de jours pour décaler du nombre de jour par rapport à la date demandée.
     addItemToDay(
         DateTime(date.year, date.month, date.day + shift), priorityLevel, item);
   }
-
-// mise en place d'un getter
-  Map<DateTime, DayContent> get calendarData => _calendarData;
 
   /// Supprime une célébration spécifique à une date donnée.
   /// Si la liste de priorité devient vide après suppression, elle est retirée.
@@ -94,33 +117,6 @@ class Calendar {
     });
     for (var key in keysToRemove) {
       content.priority.remove(key);
-    }
-  }
-
-  /// Change la priorité d'une célébration à une date donnée.
-  /// Si la célébration est trouvée à une priorité plus basse, elle est déplacée à la nouvelle priorité.
-  void changeCelebrationPriority(DateTime date, String title, int newPriority) {
-    if (!_calendarData.containsKey(date)) return;
-    DayContent content = _calendarData[date]!;
-    int? currentPriority;
-    // Trouver la priorité actuelle de la célébration
-    content.priority.forEach((priorityLevel, items) {
-      if (items.contains(title)) {
-        currentPriority = priorityLevel;
-      }
-    });
-    // Si trouvée et la nouvelle priorité est plus haute (numériquement plus basse)
-    if (currentPriority != null && currentPriority != newPriority) {
-      content.priority[currentPriority!]!.remove(title);
-      if (content.priority[currentPriority!]!.isEmpty) {
-        content.priority.remove(currentPriority);
-      }
-      // Ajouter à la nouvelle priorité
-      if (content.priority.containsKey(newPriority)) {
-        content.priority[newPriority]!.add(title);
-      } else {
-        content.priority[newPriority] = [title];
-      }
     }
   }
 
@@ -219,15 +215,17 @@ Calendar addFeastsToCalendar(
     final int month = value.month;
     final int day = value.day;
 
-    DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
-        // l'attribution des fêtes se fait par année liturgique.
-        // donc les fêtes après le Christ-Roi de l'année civile
-        // appartiennent à l'année civile précédente
-        ? yearToRecord = liturgicalYear - 1
-        : yearToRecord = liturgicalYear;
+    yearToRecord =
+        DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
+            // l'attribution des fêtes se fait par année liturgique.
+            // donc les fêtes après le Christ-Roi de l'année civile
+            // appartiennent à l'année civile précédente
+            ? liturgicalYear - 1
+            : liturgicalYear;
 
-    if (DateTime(yearToRecord, month, day).isAfter(beginOfLiturgicalYear) &&
-        DateTime(yearToRecord, month, day).isBefore(endOfLiturgicalYear))
+    DateTime feastDate = DateTime(yearToRecord, month, day);
+    if (feastDate.isAfter(beginOfLiturgicalYear) &&
+        feastDate.isBefore(endOfLiturgicalYear))
     // si la date est comprise entre le début et la fin de l'année liturgique
     // (car par exemple en 2025 le 30 novembre n'est pas dans l'année liturgique !)
     {

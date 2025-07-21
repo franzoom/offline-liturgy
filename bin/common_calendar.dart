@@ -209,6 +209,7 @@ DateTime christKing(int year) {
 }
 
 createLiturgicalDays(int year) {
+  //crée la liste des fêtes variables avec leur date
   Map<String, DateTime> liturgicalDays = {};
   liturgicalDays['NATIVITY'] = christmas(year);
   liturgicalDays['ADVENT'] = advent(liturgicalDays['NATIVITY']!);

@@ -3,22 +3,22 @@ class Celebration {
   Celebration(this.code);
 }
 
-class Priorite {
+class Priorities {
   final int niveau; // 0: octave pascale, 1: fête, etc.
   final List<Celebration> celebrations;
-  Priorite(this.niveau, this.celebrations);
+  Priorities(this.niveau, this.celebrations);
 }
 
-class JourLiturgique {
+class LiturgicalDay {
   final DateTime date;
   int year;
   int? semaineBreviaire;
-  List<Priorite> priorites;
+  List<Priorities> priorities;
 
-  JourLiturgique({
+  LiturgicalDay({
     required this.date,
     required this.year,
     required this.semaineBreviaire,
-    required this.priorites,
+    required this.priorities,
   });
 }

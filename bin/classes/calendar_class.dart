@@ -83,17 +83,30 @@ class Calendar {
     }
   }
 
-/*
-  void removeItemFromDay(DateTime date, int priorityLevel, String item) {
-    if (_calendarData.containsKey(date)) {
-      DayContent dayContent = _calendarData[date]!;
-      dayContent.priority[priorityLevel]?.remove(item);
-      if (dayContent.priority[priorityLevel]?.isEmpty ?? false) {
-        dayContent.priority.remove(priorityLevel);
+  void addFeastsToCalendar(Map<String, dynamic> feastList, int liturgicalYear,
+      Map<String, DateTime> generalCalendar) {
+    DateTime beginOfLiturgicalYear = generalCalendar['ADVENT']!;
+    DateTime endOfLiturgicalYear =
+        generalCalendar['CHRIST_KING']!.add(Duration(days: 6));
+    int yearToRecord = liturgicalYear;
+
+    feastList.forEach((key, value) {
+      final int month = value.month;
+      final int day = value.day;
+
+      yearToRecord =
+          DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
+              ? liturgicalYear - 1
+              : liturgicalYear;
+
+      DateTime feastDate = DateTime(yearToRecord, month, day);
+      if (feastDate.isAfter(beginOfLiturgicalYear) &&
+          feastDate.isBefore(endOfLiturgicalYear)) {
+        addItemToDay(feastDate, value.priority, key);
       }
-    }
+    });
   }
-*/
+
   void addItemRelatedToFeast(
       DateTime date, int shift, int priorityLevel, String item) {
     //ajoute une date en relation avec une autre: par exemple
@@ -202,36 +215,4 @@ extension CalendarDisplay on Calendar {
   }
 
   String _pad(int number) => number.toString().padLeft(2, '0');
-}
-
-Calendar addFeastsToCalendar(
-    Calendar calendar, feastList, int liturgicalYear, generalCalendar) {
-  // fonction d'ajout des calendriers. Le commun, puis les propres
-  DateTime beginOfLiturgicalYear = generalCalendar['ADVENT'];
-  DateTime endOfLiturgicalYear =
-      generalCalendar['CHRIST_KING'].add(Duration(days: 6));
-  int yearToRecord = liturgicalYear;
-  feastList.forEach((key, value) {
-    final int month = value.month;
-    final int day = value.day;
-
-    yearToRecord =
-        DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
-            // l'attribution des fêtes se fait par année liturgique.
-            // donc les fêtes après le Christ-Roi de l'année civile
-            // appartiennent à l'année civile précédente
-            ? liturgicalYear - 1
-            : liturgicalYear;
-
-    DateTime feastDate = DateTime(yearToRecord, month, day);
-    if (feastDate.isAfter(beginOfLiturgicalYear) &&
-        feastDate.isBefore(endOfLiturgicalYear))
-    // si la date est comprise entre le début et la fin de l'année liturgique
-    // (car par exemple en 2025 le 30 novembre n'est pas dans l'année liturgique !)
-    {
-      calendar.addItemToDay(
-          DateTime(yearToRecord, month, day), value.priority, key);
-    }
-  });
-  return calendar;
 }

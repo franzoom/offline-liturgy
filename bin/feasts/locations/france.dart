@@ -20,8 +20,8 @@ Calendar addFranceFeasts(
   // ajouter d'abord les fêtes de l'Europe:
   addEuropeFeasts(calendar, liturgicalYear, generalCalendar);
   //puis ajouter les fêtes propres à la France:
-  calendar = addFeastsToCalendar(
-      calendar, franceFeastsList, liturgicalYear, generalCalendar);
+  calendar.addFeastsToCalendar(
+      franceFeastsList, liturgicalYear, generalCalendar);
 
   return calendar;
 }

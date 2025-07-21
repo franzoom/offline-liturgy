@@ -66,8 +66,7 @@ Calendar addLyonFeasts(Calendar calendar, int liturgicalYear, generalCalendar) {
   addFranceFeasts(calendar, liturgicalYear, generalCalendar);
 
   // puis ajouter les fêtes propres à Lyon:
-  calendar = addFeastsToCalendar(
-      calendar, lyonFeastsList, liturgicalYear, generalCalendar);
+  calendar.addFeastsToCalendar(lyonFeastsList, liturgicalYear, generalCalendar);
 
   // enfin ajouter les fêtes qui dépendent d'une fête mobile
 

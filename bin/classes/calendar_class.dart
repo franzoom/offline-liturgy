@@ -133,6 +133,57 @@ class Calendar {
     }
   }
 
+  List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
+    final dayContent = _calendarData[date];
+    if (dayContent == null) return [];
+    String liturgicalTime = dayContent.liturgicalTime;
+    final List<MapEntry<int, String>> items = [];
+    // Ajouter les éléments de la map priority
+    dayContent.priority.forEach((priorityNumber, titles) {
+      for (var title in titles) {
+        items.add(MapEntry(priorityNumber, title));
+      }
+    });
+    // Ajouter la célébration par défaut
+    items.add(
+        MapEntry(dayContent.defaultPriority, dayContent.defaultCelebration));
+    // MODULE DE SUPPRESSION DES FÊTES DONT LA PRÉSÉANCES EST TROP FAIBLE
+    // Déterminer la priorité la plus importante (la plus basse entre 1 et 6)
+    // Étape 1 : chercher la plus petite priorité entre 1 et 6
+    int? minPriority;
+    for (int i = 1; i <= 6; i++) {
+      if (items.any((item) => item.key == i)) {
+        minPriority = i;
+        break;
+      }
+    }
+    if (minPriority != null) {
+      // Garder uniquement les éléments avec cette priorité
+      items.removeWhere((item) => item.key != minPriority);
+    } else {
+      // Étape 2 : s'il y a une priorité ≤ 9, supprimer celles > 9
+      final hasPriorityBelowOrEqual9 = items.any((item) => item.key <= 9);
+      if (hasPriorityBelowOrEqual9) {
+        items.removeWhere((item) => item.key > 9);
+      }
+    }
+
+    // Étape 3 : ajuster les priorités 10 ou 11 à 12 si liturgicalTime == "LentFeriale"
+    // les méoire obligatoires deviennent facultatives pendant le Carême
+    if (liturgicalTime == "LentFeriale") {
+      for (int i = 0; i < items.length; i++) {
+        final item = items[i];
+        if (item.key == 10 || item.key == 11) {
+          items[i] = MapEntry(12, item.value);
+        }
+      }
+    }
+
+    // Trier ce qui reste par priorité croissante
+    items.sort((a, b) => a.key.compareTo(b.key));
+    return items;
+  }
+
 //méthode de conversion en JSON
   Map<String, dynamic> toJson() => _calendarData.map(
         (key, value) => MapEntry(key.toIso8601String(), value.toJson()),

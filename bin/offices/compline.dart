@@ -12,18 +12,8 @@ import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
 import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
-import '../assets/psalms.dart';
-
-List dayName = [
-  '',
-  'monday',
-  'tuesday',
-  'wednesday',
-  'thursday',
-  'friday',
-  'saturday',
-  'sunday',
-];
+import '../assets/psalms_data/psalms.dart';
+import '../tools/days_name.dart';
 
 Map<String, ComplineDefinition> complineDefinitionResolution(
     Calendar calendar, DateTime date, location) {

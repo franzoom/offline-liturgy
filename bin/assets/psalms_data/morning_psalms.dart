@@ -1,4 +1,4 @@
-import '../tools/psalms_list_management.dart';
+import '../../tools/psalms_list_management.dart';
 
 final Map<int, Map<String, List<String>>> morningDefaultDistribution = {
   1: {

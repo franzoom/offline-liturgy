@@ -1,4 +1,4 @@
-import '../tools/psalms_list_management.dart';
+import '../../tools/psalms_list_management.dart';
 
 final Map<int, Map<String, List<String>>> vespersDefaultDistribution = {
   1: {
@@ -67,7 +67,7 @@ final Map<int, Map<String, List<String>>> vespersPaschalOctaveDistribution = {
   }
 };
 
-List<String>? middleOfDayPsalms(
+List<String>? vespersPsalms(
     String liturgicalTime, int liturgicalWeek, String dayName) {
   Map<int, Map<String, List<String>>> finalList = vespersDefaultDistribution;
 // pour l'octave pascal:

@@ -151,7 +151,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration = 'OT_SUNDAY_$timeCode';
       defaultPriority = 6;
     } else {
-      defaultCelebration = 'OT_$timeCode-${ordinaryTimeDays % 7}';
+      defaultCelebration = 'OT_${timeCode}_${ordinaryTimeDays % 7}';
       defaultPriority = 13;
     }
     DayContent dayContent = DayContent(
@@ -209,7 +209,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration = 'LENT_SUNDAY_$timeCode';
       defaultPriority;
     } else {
-      defaultCelebration = 'LENT_$timeCode-${lentDays % 7}';
+      defaultCelebration = 'LENT_${timeCode}_${lentDays % 7}';
       defaultPriority = 9;
     }
     DayContent dayContent = DayContent(
@@ -319,7 +319,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'PaschalOctave',
       defaultCelebration:
-          'PT_${(paschalTimeDays / 7).floor() + 1}-${paschalTimeDays % 7}',
+          'PT_${(paschalTimeDays / 7).floor() + 1}_${paschalTimeDays % 7}',
       defaultPriority: 2,
       defaultColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
@@ -349,7 +349,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration = 'PT_SUNDAY_$timeCode';
       defaultPriority = 2;
     } else {
-      defaultCelebration = 'PT_$timeCode-${paschalTimeDays % 7}';
+      defaultCelebration = 'PT_${timeCode}_${paschalTimeDays % 7}';
       defaultPriority = 13;
     }
     DayContent dayContent = DayContent(
@@ -396,7 +396,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration = 'OT_SUNDAY_$timeCode';
       defaultPriority = 6;
     } else {
-      defaultCelebration = 'OT_$timeCode-${ordinaryTimeDays % 7}';
+      defaultCelebration = 'OT_${timeCode}_${ordinaryTimeDays % 7}';
       defaultPriority = 13;
     }
     DayContent dayContent = DayContent(

@@ -29,7 +29,7 @@ Map<String, Morning> ferialMorningResolution(
         //récupération des infos d'un des 4 premiers dimanches
         // (si on est un des 4 premiers, on prend tout, autrement on ajoutera
         // les infos du dimanche dont un a fait le modulo)
-        final int referenceWeekNumber = (weekNumber % 4) + 1;
+        final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
         final dataFile =
             File('../assets/morning/data/OT_SUNDAY_$referenceWeekNumber');
         String fileContent = dataFile.readAsStringSync();
@@ -38,7 +38,8 @@ Map<String, Morning> ferialMorningResolution(
 
         if (weekNumber > 4) {
           //si c'est un autre dimanche, on intègre les antiennes de ce dimanche aux données des 4 premières semaines
-          final auxFile = File('../assets/morning/data/OT_SUNDAY_$weekNumber');
+          final auxFile =
+              File('./bin/assets/morning/data/OT_SUNDAY_$weekNumber');
           String auxContent = auxFile.readAsStringSync();
           var auxExtracted = jsonDecode(auxContent);
           final sundayAuxData = Morning.fromJson(auxExtracted);
@@ -52,9 +53,9 @@ Map<String, Morning> ferialMorningResolution(
         List dayDatas = extractWeekAndDay(celebrationName, "OT");
         int weekNumber = dayDatas[0];
         int dayNumber = dayDatas[1];
-        final int referenceWeekNumber = (weekNumber % 4) + 1;
-        final dataFile =
-            File('../assets/morning/data/OT_${referenceWeekNumber}_$dayNumber');
+        final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
+        final dataFile = File(
+            './bin/assets/morning/data/OT_${referenceWeekNumber}_$dayNumber.json');
         String fileContent = dataFile.readAsStringSync();
         final fileExtracted = jsonDecode(fileContent);
         ferialMorning = Morning.fromJson(fileExtracted);

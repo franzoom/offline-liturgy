@@ -2,6 +2,8 @@ import 'classes/calendar_class.dart'; //classe de calendar
 import './calendar_fill.dart';
 import './classes/compline_class.dart';
 import './offices/compline.dart';
+import './classes/morning_class.dart';
+import './offices/morning.dart';
 
 //import 'classes/complineHymn_class.dart';
 
@@ -12,6 +14,10 @@ void main() {
   List<MapEntry<int, String>> dayFeasts =
       calendar.getSortedItemsForDay(DateTime(2025, 2, 9));
   print(dayFeasts);
+
+  // lancement de la génération des Laudes pour le jour demandé:
+  Map<String, Morning> ferialMorning =
+      ferialMorningResolution(calendar, DateTime(2025, 10, 23), 'lyon');
 
   // lancement de la génération des Complies pour le jour demandé:
   Map<String, ComplineDefinition> complineDefinitionResolved =

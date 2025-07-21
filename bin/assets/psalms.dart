@@ -1,6 +1,33 @@
 import '../classes/psalms_class.dart';
 
 final Map<String, Psalm> psalms = {
+  "PSALM_1": Psalm(
+      title: "Psaume 1",
+      subtitle: "Psaume de sagesse : les deux voies",
+      commentary:
+          "Heureux ceux qui entendent la Parole de Dieu et qui la gardent. (Lc 11, 28)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Heure<u>u</u>x est l'homme<br />\n   qui n'entre pas au cons<u>e</u>il des méchants, +<br />\nqui ne suit pas le chem<u>i</u>n des pécheurs, *<br />\nne siège pas avec ce<u>u</u>x qui ricanent,<br /><span class=\"verse_number\">2</span> mais se plaît dans la l<u>o</u>i du Seigneur<br />\net murmure sa l<u>o</u>i jour et nuit !<br /><br /><span class=\"verse_number\">3</span> Il <em>e</em>st comme un arbre<br />\n   plant<u>é</u> près d'un ruisseau, +<br />\nqui donne du fru<u>i</u>t en son temps, *<br />\net jamais son feuill<u>a</u>ge ne meurt ;<br />\ntout ce qu'il entrepr<u>e</u>nd réussira,<br /><span class=\"verse_number\">4</span> tel n'est pas le s<u>o</u>rt des méchants.<br /><br />\nMais ils s<u>o</u>nt comme la paille<br />\n   balay<u>é</u>e par le vent : +<br /><span class=\"verse_number\">5</span> au jugement, les méchants ne se l<u>è</u>veront pas, *<br />\nni les pécheurs au rassemblem<u>e</u>nt des justes.<br /><span class=\"verse_number\">6</span> Le Seigneur connaît le chem<u>i</u>n des justes,<br />\nmais le chemin des méch<u>a</u>nts se perdra.</p>"""),
+  "PSALM_2": Psalm(
+      title: "Psaume 2",
+      subtitle: "Dieu donne la royauté au Messie",
+      commentary:
+          "Ils ont conspiré contre Jésus, ton Serviteur, que tu as consacra comme Messie. (Ac 4, 27)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<span class=\"verse_number\">1</span> Pourquoi ce tum<u>u</u>lte des nations,<br />\nce vain murm<u>u</u>re des peuples ?<br /><span class=\"verse_number\">2</span> Les rois de la t<u>e</u>rre se dressent,<br />\nles grands se liguent entre eux<br />\n   contre le Seigne<u>u</u>r et son messie :<br /><span class=\"verse_number\">3</span> « Faisons saut<u>e</u>r nos chaînes,<br />\nrejet<u>o</u>ns ces entraves ! »<br /><br /><span class=\"verse_number\">4</span> Celui qui règne dans les cie<u>u</u>x s'en amuse,<br />\nle Seigneur les to<u>u</u>rne en dérision ;<br /><span class=\"verse_number\">5</span> puis il leur p<u>a</u>rle avec fureur<br />\net sa col<u>è</u>re les épouvante :<br /><span class=\"verse_number\">6</span> « Moi, j'ai sacr<u>é</u> mon roi<br />\nsur Sion, ma s<u>a</u>inte montagne. »<br /><br /><span class=\"verse_number\">7</span> Je proclame le décr<u>e</u>t du Seigneur !</p>\n\n<p>Il m'a d<u>i</u>t : « Tu es mon fils ;<br />\nmoi, aujourd'hu<u>i</u>, je t'ai engendré.<br /><span class=\"verse_number\">8</span> Demande, et je te donne en hérit<u>a</u>ge les nations,<br />\npour domaine la t<u>e</u>rre tout entière.<br /><span class=\"verse_number\">9</span> Tu les détruiras de ton sc<u>e</u>ptre de fer,<br />\ntu les briseras comme un v<u>a</u>se de potier. »<br /><br /><span class=\"verse_number\">10</span> Maintenant, r<u>o</u>is, comprenez,<br />\nreprenez-vous, j<u>u</u>ges de la terre.<br /><span class=\"verse_number\">11</span> Servez le Seigne<u>u</u>r avec crainte,<br />\nrendez-lui votre homm<u>a</u>ge en tremblant.<br /><span class=\"verse_number\">12</span> Qu'il s'irrite et vous <u>ê</u>tes perdus :<br />\nsoudain sa col<u>è</u>re éclatera.</p>\n\n<p>Heureux qui trouve en lu<u>i</u> son refuge !</p>"""),
+  "PSALM_3": Psalm(
+      title: "Psaume 3",
+      subtitle: "Confiance au milieu des angoisses",
+      commentary:
+          "Jésus s'est endormi, il s'est relevé du sommeil de la mort, car le Seigneur était son soutien. (S. Irénée)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Seigneur, qu'ils sont nombre<u>u</u>x mes adversaires,<br />\nnombreux à se lev<u>e</u>r contre moi,<br /><span class=\"verse_number\">3</span> nombreux à déclar<u>e</u>r à mon sujet :<br />\n« Pour lui, pas de sal<u>u</u>t auprès de Dieu ! »<br /><br /><span class=\"verse_number\">4</span> Mais toi, Seigne<u>u</u>r, mon bouclier,<br />\nma gloire, tu tiens ha<u>u</u>te ma tête.<br /><span class=\"verse_number\">5</span> À pleine voix je cr<u>i</u>e vers le Seigneur ;<br />\nil me répond de sa mont<u>a</u>gne sainte.<br /><br /><span class=\"verse_number\">6</span> Et moi, je me co<u>u</u>che et je dors ;<br />\nje m'éveille : le Seigne<u>u</u>r est mon soutien.<br /><span class=\"verse_number\">7</span> Je ne crains pas ce pe<u>u</u>ple nombreux<br />\nqui me cerne et s'av<u>a</u>nce contre moi.<br /><br /><span class=\"verse_number\">8</span> Lève-t<u>o</u>i, Seigneur !<br />\nSauve-m<u>o</u>i, mon Dieu !<br />\nTous mes ennemis, tu les fr<u>a</u>ppes à la mâchoire ;<br />\nles méchants, tu leur br<u>i</u>ses les dents.<br /><br /><span class=\"verse_number\">9</span> Du Seigneur vi<u>e</u>nt le salut ;<br />\nvienne ta bénédicti<u>o</u>n sur ton peuple !</p>"""),
   "PSALM_4": Psalm(
       title: "Psaume 4",
       subtitle: "Action de grâce du soir",
@@ -10,6 +37,39 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">2</span> Quand je cr<u>i</u>e, réponds-moi,<br />\nDie<u>u</u>, ma justice !<br /><br />\nToi qui me lib<u>è</u>res dans la détresse,<br />\npitié pour moi, éco<u>u</u>te ma prière !<br /><br /><span class="verse_number">3</span> Fils des hommes,<br />\njusqu’où irez-vous dans l’ins<u>u</u>lte à ma gloire, *<br />\nl’amour du néant et la co<u>u</u>rse au mensonge ?<br /><br /><span class="verse_number">4</span> Sachez que le Seigneur a mis à p<u>a</u>rt son fidèle,<br />\nle Seigneur entend quand je cr<u>i</u>e vers lui.<br /><br /><span class="verse_number">5</span> Mais vous, trembl<u>e</u>z, ne péchez pas ;<br />\nréfléchissez dans le secret, f<u>a</u>ites silence.<br /><br /><span class="verse_number">6</span> Offrez les offr<u>a</u>ndes justes<br />\net faites confi<u>a</u>nce au Seigneur.<br /><br /><span class="verse_number">7</span> Beaucoup demandent :<br />\n« Qui nous fera v<u>o</u>ir le bonheur ? » *<br />\nSur nous, Seigneur, que s’illum<u>i</u>ne ton visage !<br /><br /><span class="verse_number">8</span> Tu mets dans mon cœ<u>u</u>r plus de joie<br />\nque toutes leurs vend<u>a</u>nges et leurs moissons.<br /><br /><span class="verse_number">9</span> Dans la paix moi aussi, je me co<u>u</u>che et je dors, *<br />\ncar tu me donnes d’habiter, Seigneur,<br />\nse<u>u</u>l, dans la confiance.</p>"""),
+  "PSALM_5": Psalm(
+      title: "Psaume 5",
+      subtitle: "Prière matinale du juste aux prises avec ses ennemis",
+      commentary:
+          "« Au matin, tu m'écoutes » s'entend de la résurrection du Christ.",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Écoute mes par<u>o</u>les, Seigneur, <br>compr<u>e</u>nds ma plainte ; *<br><span class=\"verse_number\">3</span> entends ma v<u>o</u>ix qui t'appelle,<br>ô mon R<u>o</u>i et mon Dieu ! <br><br><span class=\"verse_number\">4</span> Je me tourne vers t<u>o</u>i, Seigneur,<br>au matin, tu éco<u>u</u>tes ma voix ; *<br>au matin, je me prép<u>a</u>re pour toi<br>et je r<u>e</u>ste en éveil. <br><br><span class=\"verse_number\">5</span> Tu n'es pas un Die<u>u</u> ami du mal,<br>chez toi, le méch<u>a</u>nt n'est pas reçu. *<br><span class=\"verse_number\">6</span> Non, l'insens<u>é</u> ne tient pas<br>dev<u>a</u>nt ton regard. <br><br>Tu détestes to<u>u</u>s les malfaisants,<br><span class=\"verse_number\">7</span> tu exterm<u>i</u>nes les menteurs ; *<br>l'homme de r<u>u</u>se et de sang,<br>le Seigne<u>u</u>r le hait. <br><br><span class=\"verse_number\">8</span> Pour moi, gr<u>â</u>ce à ton amour,<br>j'acc<u>è</u>de à ta maison ; *<br>vers ton temple s<u>a</u>int, je me prosterne,<br>sais<u>i</u> de crainte. <br><br><span class=\"verse_number\">9</span> Seigneur, que ta just<u>i</u>ce me conduise ; *<br>des ennem<u>i</u>s me guettent :<br>aplanis devant m<u>o</u>i ton chemin. <br><br><span class=\"verse_number\">10</span> Rien n'est vr<u>a</u>i dans leur bouche,<br>ils sont rempl<u>i</u>s de malveillance ; *<br>leur gosier est un sép<u>u</u>lcre béant,<br>et leur l<u>a</u>ngue, un piège. <br><br><span class=\"verse_number\">12</span> Allégresse pour qui s'abr<u>i</u>te en toi,<br>j<u>o</u>ie éternelle ! *<br>Tu les protèges, pour t<u>o</u>i ils exultent,<br>ceux qui <u>a</u>iment ton nom. <br><br><span class=\"verse_number\">13</span> Toi, Seigneur, tu bén<u>i</u>s le juste ;<br>du bouclier de ta fave<u>u</u>r, tu le couvres.</p>"""),
+  "PSALM_6": Psalm(
+      title: "Psaume 6",
+      subtitle: "Prière de l'homme que Dieu châtie",
+      commentary: "Père, délivre-moi de cette heure ! (Jn 12, 27)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Seigneur, corrige-m<u>o</u>i sans colère,<br>et reprends-m<u>o</u>i sans fureur.<br><span class=\"verse_number\">3</span> Pitié, Seigne<u>u</u>r, je dépéris !<br>Seigne<u>u</u>r, guéris-moi !<br>Car je tremble de to<u>u</u>s mes os,<br><span class=\"verse_number\">4</span> de toute mon <u>â</u>me, je tremble.<br><br>Et toi, Seigne<u>u</u>r, que fais-tu ? +<br><span class=\"verse_number\">5</span> Reviens, Seigne<u>u</u>r, délivre-moi,<br>sauve-moi en rais<u>o</u>n de ton amour !<br><span class=\"verse_number\">6</span> Personne, dans la mort, n'inv<u>o</u>que ton nom ;<br>au séjour des morts, qu<u>i</u> te rend grâce ? <br><br><span class=\"verse_number\">7</span> Je m'épuise à f<u>o</u>rce de gémir ; +<br>chaque nuit, je ple<u>u</u>re sur mon lit :<br>ma couche est tremp<u>é</u>e de mes larmes.<br><span class=\"verse_number\">8</span> Mes yeux sont rong<u>é</u>s de chagrin ;<br>j'ai vieilli parmi t<u>a</u>nt d'adversaires ! <br><br><span class=\"verse_number\">9</span> Loin de moi, vous to<u>u</u>s, malfaisants,<br>car le Seigneur ent<u>e</u>nd mes sanglots !<br><span class=\"verse_number\">10</span> Le Seigneur accu<u>e</u>ille ma demande,<br>le Seigneur ent<u>e</u>nd ma prière.<br><span class=\"verse_number\">11</span> Qu'ils aient honte et qu'ils tremblent, to<u>u</u>s mes ennemis,<br>qu'ils reculent, soud<u>a</u>in, couverts de honte !</p>"""),
+  "PSALM_7_1": Psalm(
+      title: "Psaume 7-I",
+      subtitle: "Lamentation et appel à Dieu contre les calomnies",
+      commentary: "Soyez patients : le Juge est à votre porte. (Jc 5, 9)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Seigneur mon Dieu, tu <u>e</u>s mon refuge !<br />\nOn me poursuit : sauve-m<u>o</u>i, délivre-moi !<br /><span class=\"verse_number\">3</span> Sinon ils vont m'égorg<u>e</u>r, tous ces fauves,<br />\nme déchirer, sans que pers<u>o</u>nne me délivre.<br /><br /><span class=\"verse_number\">4</span> Seigneur mon Dieu, si j'ai f<u>a</u>it cela,<br />\nsi j'ai vraiment un cr<u>i</u>me sur les mains,<br /><span class=\"verse_number\">5</span> si j'ai causé du t<u>o</u>rt à mon allié<br />\nen épargn<u>a</u>nt son adversaire,<br /><span class=\"verse_number\">6</span> que l'ennemi me poursu<u>i</u>ve, qu'il m'atteigne *<br />\n(qu'il foule au sol ma vie)<br />\n   et livre ma gl<u>o</u>ire à la poussière.<br /><br /><br /><span class=\"verse_number\">7</span> Dans ta colère, Seigne<u>u</u>r, lève-toi, +<br />\ndomine mes advers<u>a</u>ires en furie,<br />\nréveille-toi pour me défendre et prononc<u>e</u>r ta sentence.<br /><span class=\"verse_number\">8</span> Une assemblée de pe<u>u</u>ples t'environne : +<br />\nreprends ta pl<u>a</u>ce au-dessus d'elle,<br /><span class=\"verse_number\">9</span> Seigneur qui arb<u>i</u>tres les nations.<br /><br />\nJuge-moi, Seigne<u>u</u>r, sur ma justice :<br />\nmon innocence p<u>a</u>rle pour moi.<br /><span class=\"verse_number\">10</span> Mets fin à la r<u>a</u>ge des impies,<br />\nafferm<u>i</u>s le juste,<br />\ntoi qui scrutes les cœ<u>u</u>rs et les reins,<br />\nDie<u>u</u>, le juste.</p>"""),
+  "PSALM_7_2": Psalm(
+      title: "Psaume 7-II",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">11</span> J'aurai mon boucli<u>e</u>r auprès de Dieu,<br />\nle sauve<u>u</u>r des cœurs droits.<br /><span class=\"verse_number\">12</span> Dieu j<u>u</u>ge avec justice ;<br />\nDieu menace chaque jour<br />\n   l'homme qui ne se r<u>e</u>prend pas.<br /><br /><span class=\"verse_number\">13</span> Le méchant aff<u>û</u>te son épée,<br />\nil tend son <u>a</u>rc et le tient prêt.<br /><span class=\"verse_number\">14</span> Il se prépare des eng<u>i</u>ns de mort ;<br />\nde ses flèches, il f<u>a</u>it des brandons.<br /><br /><span class=\"verse_number\">15</span> Qui conçoit le mal et co<u>u</u>ve le crime<br />\nenfanter<u>a</u> le mensonge.<br /><span class=\"verse_number\">16</span> Qui ouvre une f<u>o</u>sse et la creuse<br />\ntombera dans le tro<u>u</u> qu'il a fait.<br /><span class=\"verse_number\">17</span> Son mauvais coup lui revi<u>e</u>nt sur la tête,<br />\nsa violence ret<u>o</u>mbe sur son crâne.<br /><br /><span class=\"verse_number\">18</span> Je rendrai grâce au Seigne<u>u</u>r pour sa justice,<br />\nje chanterai le nom du Seigne<u>u</u>r, le Très-Haut.</p>"""),
   "PSALM_8": Psalm(
       title: "Psaume 8",
       subtitle: "Majesté de Dieu et dignité de l’homme",
@@ -19,6 +79,74 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">R/</span> <span class="verse_number">2</span> Ô Seigne<u>u</u>r, notre Dieu,<br />\n   qu’il est gr<u>a</u>nd ton nom<br />\n   par to<u>u</u>te la terre !<br /><br />\nJusqu’aux cieux, ta splende<u>u</u>r est chantée<br /><span class="verse_number">3</span> par la bouche des enf<u>a</u>nts, des tout-petits :<br />\nrempart que tu opp<u>o</u>ses à l’adversaire,<br />\noù l’ennemi se br<u>i</u>se en sa révolte.<br /><br /><span class="verse_number">4</span> À voir ton ciel, ouvr<u>a</u>ge de tes doigts,<br />\nla lune et les ét<u>o</u>iles que tu fixas,<br /><span class="verse_number">5</span> qu’est-ce que l’homme pour que tu p<u>e</u>nses à lui,<br />\nle fils d’un homme, que tu en pr<u>e</u>nnes souci ?<br /><br /><span class="verse_number">6</span> Tu l’as voulu un peu m<u>o</u>indre qu’un dieu,<br />\nle couronnant de gl<u>o</u>ire et d’honneur ;<br /><span class="verse_number">7</span> tu l’établis sur les œ<u>u</u>vres de tes mains,<br />\ntu mets toute ch<u>o</u>se à ses pieds :<br /><br /><span class="verse_number">8</span> les troupeaux de bœ<u>u</u>fs et de brebis,<br />\net même les b<u>ê</u>tes sauvages,<br /><span class="verse_number">9</span> les oiseaux du ciel et les poiss<u>o</u>ns de la mer,<br />\ntout ce qui va son chem<u>i</u>n dans les eaux.<br /><br /><span class="verse_number">R/</span> <span class="verse_number">10</span> Ô Seigne<u>u</u>r, notre Dieu,<br />\n   qu’il est gr<u>a</u>nd ton nom<br />\n   par to<u>u</u>te la terre !</p>"""),
+  "PSALM_9A_1": Psalm(
+      title: "Psaume 9a-I",
+      subtitle: "Action de grâce après la victoire",
+      commentary: "Il reviendra juger les vivants et les morts.",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> De tout mon cœur, Seigne<u>u</u>r, je rendrai grâce,<br />\nje dirai tes innombr<u>a</u>bles merveilles ;<br /><span class=\"verse_number\">3</span> pour toi, j'exulter<u>a</u>i, je danserai,<br />\nje fêterai ton n<u>o</u>m, Dieu Très-Haut.<br /><br /><span class=\"verse_number\">4</span> Mes ennemis ont batt<u>u</u> en retraite,<br />\ndevant ta face, ils s'écro<u>u</u>lent et périssent.<br /><span class=\"verse_number\">5</span> Tu as plaidé mon dr<u>o</u>it et ma cause,<br />\ntu as siégé, tu as jug<u>é</u> avec justice.<br /><br /><span class=\"verse_number\">6</span> Tu menaces les nations, tu fais pér<u>i</u>r les méchants,<br />\nà tout jamais tu eff<u>a</u>ces leur nom.<br /><span class=\"verse_number\">7</span> L'ennemi est achevé, ruin<u>é</u> pour toujours,<br />\ntu as rasé des villes, leur souven<u>i</u>r a péri.<br /><br /><span class=\"verse_number\">8</span> Mais il siège, le Seigne<u>u</u>r, à jamais :<br />\npour juger, il afferm<u>i</u>t son trône ;<br /><span class=\"verse_number\">9</span> il juge le m<u>o</u>nde avec justice<br />\net gouverne les pe<u>u</u>ples avec droiture.<br /><br /><span class=\"verse_number\">10</span> Qu'il soit la forter<u>e</u>sse de l'opprimé,<br />\nsa forteresse aux he<u>u</u>res d'angoisse :<br /><span class=\"verse_number\">11</span> ils s'appuieront sur toi, ceux qui conn<u>a</u>issent ton nom ;<br />\njamais tu n'abandonnes, Seigneur, ce<u>u</u>x qui te cherchent.<br /><br /><span class=\"verse_number\">12</span> Fêtez le Seigneur qui si<u>è</u>ge dans Sion,<br />\nannoncez parmi les pe<u>u</u>ples ses exploits !<br /><span class=\"verse_number\">13</span> Attentif au sang vers<u>é</u>, il se rappelle,<br />\nil n'oublie pas le cr<u>i</u> des malheureux.</p>"""),
+  "PSALM_9A_2": Psalm(
+      title: "Psaume 9a-II",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">14</span> Pitié pour moi, Seigneur,<br>vois le mal que m'ont f<u>a</u>it mes adversaires, *<br>toi qui m'arraches aux p<u>o</u>rtes de la mort ;<br><span class=\"verse_number\">15</span> et je dirai tes innombrables louanges<br>aux p<u>o</u>rtes de Sion, *<br>je danserai de j<u>o</u>ie pour ta victoire. <br><br><span class=\"verse_number\">16</span> Ils sont tombés, les païens, dans la f<u>o</u>sse qu'ils creusaient ;<br>aux filets qu'ils ont tendus, leurs pi<u>e</u>ds se sont pris.<br><span class=\"verse_number\">17</span> Le Seigneur s'est fait connaître : il a rend<u>u</u> le jugement,<br>il prend les méch<u>a</u>nts à leur piège. <br><br><span class=\"verse_number\">18</span> Que les méchants reto<u>u</u>rnent chez les morts,<br>toutes les nations qui oubl<u>i</u>ent le vrai Dieu !<br><span class=\"verse_number\">19</span> Mais le pauvre n'est pas oubli<u>é</u> pour toujours :<br>jamais ne périt l'esp<u>o</u>ir des malheureux. <br><br><span class=\"verse_number\">20</span> Lève-toi, Seigneur : qu'un mortel ne soit p<u>a</u>s le plus fort,<br>que les nations soient jug<u>é</u>es devant ta face !<br><span class=\"verse_number\">21</span> Frappe-les d'épouv<u>a</u>nte, Seigneur :<br>que les nations se reconn<u>a</u>issent mortelles !</p>"""),
+  "PSALM_9B_1": Psalm(
+      title: "Psaume 9b-I",
+      subtitle: "Prière pour être délivré des oppresseurs",
+      commentary:
+          "Heureux, vous les pauvres : le royaume de Dieu est à vous ! (Lc 6, 20)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Pourquoi, Seigne<u>u</u>r, es-tu si loin ?<br />\nPourquoi te cach<u>e</u>r aux jours d'angoisse ?<br /><span class=\"verse_number\">2</span> L'impie, dans son orgueil, poursu<u>i</u>t les malheureux :<br />\nils se font prendre aux r<u>u</u>ses qu'il invente.<br /><br /><span class=\"verse_number\">3</span> L'impie se glorifie du dés<u>i</u>r de son âme,<br />\nl'arrogant blasphème, il br<u>a</u>ve le Seigneur ;<br /><span class=\"verse_number\">4</span> plein de suffisance, l'imp<u>i</u>e ne cherche plus :<br />\n« Dieu n'est rien », voil<u>à</u> toute sa ruse.<br /><br /><span class=\"verse_number\">5</span> À tout moment, ce qu'il f<u>a</u>it réussit ; +<br />\ntes sentences le dom<u>i</u>nent de très haut. *<br />\n(Tous ses advers<u>a</u>ires, il les méprise.)<br /><span class=\"verse_number\">6</span> Il s'est dit : « Rien ne pe<u>u</u>t m'ébranler,<br />\nje suis pour longtemps à l'abr<u>i</u> du malheur. »<br /><br /><span class=\"verse_number\">7</span> Sa bouche qui maudit n'est que fra<u>u</u>de et violence,<br />\nsa langue, mens<u>o</u>nge et blessure.<br /><span class=\"verse_number\">8</span> Il se tient à l'aff<u>û</u>t près des villages,<br />\nil se cache pour tu<u>e</u>r l'innocent.<br /><br />\nDes yeux, il ép<u>i</u>e le faible,<br /><span class=\"verse_number\">9</span> il se cache à l'affût, comme un li<u>o</u>n dans son fourré ;<br />\nil se tient à l'affût pour surpr<u>e</u>ndre le pauvre,<br />\nil attire le pauvre, il le pr<u>e</u>nd dans son filet.<br /><br /><span class=\"verse_number\">10</span> Il se b<u>a</u>isse, il se tapit ;<br />\nde tout son poids, il t<u>o</u>mbe sur le faible.<br /><span class=\"verse_number\">11</span> Il dit en lui-même : « Die<u>u</u> oublie !<br />\nil couvre sa face, jam<u>a</u>is il ne verra ! »</p>"""),
+  "PSALM_9B_2": Psalm(
+      title: "Psaume 9b-II",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">12</span> Lève-toi, Seigneur ! Die<u>u</u>, étends la main !<br />\nN'oublie p<u>a</u>s le pauvre !<br /><span class=\"verse_number\">13</span> Pourquoi l'impie brave-t-<u>i</u>l le Seigneur<br />\nen lui disant : « Viendras-t<u>u</u> me chercher ? »<br /><br /><span class=\"verse_number\">14</span> Mais tu as vu : tu regardes le m<u>a</u>l et la souffrance,<br />\ntu les pr<u>e</u>nds dans ta main ;<br />\nsur toi rep<u>o</u>se le faible,<br />\nc'est toi qui viens en <u>a</u>ide à l'orphelin.<br /><br /><span class=\"verse_number\">15</span> Brise le bras de l'imp<u>i</u>e, du méchant ;<br />\nalors tu chercheras son impiét<u>é</u> sans la trouver.<br /><span class=\"verse_number\">16</span> À tout jamais, le Seigne<u>u</u>r est roi :<br />\nles païens ont pér<u>i</u> sur sa terre.<br /><br /><span class=\"verse_number\">17</span> Tu entends, Seigneur, le dés<u>i</u>r des pauvres,<br />\ntu rassures leur cœ<u>u</u>r, tu les écoutes.<br /><span class=\"verse_number\">18</span> Que justice soit rendue à l'orphelin,<br />\n   qu'il n'y ait pl<u>u</u>s d'opprimé, *<br />\net que tremble le mortel, n<u>é</u> de la terre !</p>"""),
+  "PSALM_10": Psalm(
+      title: "Psaume 10",
+      subtitle: "Confiance inébranlable en Dieu",
+      commentary: "Sauve-nous Seigneur ! Nous sommes perdus ! (Mt 8, 25)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Auprès du Seigne<u>u</u>r j'ai mon refuge.+<br />\nComment pouvez-vo<u>u</u>s me dire :<br />\noiseaux, fuy<u>e</u>z à la montagne !<br /><br /><span class=\"verse_number\">2</span> Voici que les méch<u>a</u>nts tendent l'arc : +<br />\nils ajustent leur fl<u>è</u>che à la corde<br />\npour viser dans l'ombre l'h<u>o</u>mme au cœur droit.<br /><br /><span class=\"verse_number\">3</span> Quand sont ruin<u>é</u>es les fondations,<br />\nque peut f<u>a</u>ire le juste ?<br /><br /><span class=\"verse_number\">4</span> Mais le Seigneur, dans son t<u>e</u>mple saint, +<br />\nle Seigneur, dans les cie<u>u</u>x où il trône,<br />\ngarde les yeux ouv<u>e</u>rts sur le monde.<br /><br />\nIl voit, il scr<u>u</u>te les hommes ; +<br /><span class=\"verse_number\">5</span> le Seigneur a scruté le j<u>u</u>ste et le méchant :<br />\nl'ami de la viol<u>e</u>nce, il le hait.<br /><br /><span class=\"verse_number\">6</span> Il fera pleuvoir ses fléa<u>u</u>x sur les méchants, +<br />\nfeu et soufre et v<u>e</u>nt de tempête ;<br />\nc'est la coupe qu'ils aur<u>o</u>nt en partage.<br /><br /><span class=\"verse_number\">7</span> Vraiment, le Seigne<u>u</u>r est juste ; +<br />\nil aime to<u>u</u>te justice :<br />\nles hommes droits le verr<u>o</u>nt face à face.</p>"""),
+  "PSALM_11": Psalm(
+      title: "Psaume 11",
+      subtitle: "Appel au Dieu fidèle, contre des ennemis menteurs",
+      commentary:
+          "Aux pauvres que nous sommes, Dieu le Père a voulu envoyer son Fils. (S. Augustin)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Seigneur, au secours ! Il n'y a pl<u>u</u>s de fidèle !<br />\nLa loyauté a dispar<u>u</u> chez les hommes.<br /><span class=\"verse_number\">3</span> Entre eux la par<u>o</u>le est mensonge,<br />\ncœur double, l<u>è</u>vres menteuses.<br /><br /><span class=\"verse_number\">4</span> Que le Seigneur supprime ces l<u>è</u>vres menteuses,<br />\ncette langue qui p<u>a</u>rle insolemment,<br /><span class=\"verse_number\">5</span> ceux-là qui disent : « Arm<u>o</u>ns notre langue !<br />\nÀ nous la parole ! Qui ser<u>a</u> notre maître ? »<br /><br /><span class=\"verse_number\">6</span> – « Pour le pauvre qui gémit,<br />\nle malheure<u>u</u>x que l'on dépouille, +<br />\nmaintenant je me lève, d<u>i</u>t le Seigneur ; *<br />\nà celui qu'on méprise, je p<u>o</u>rte secours. »<br /><br /><span class=\"verse_number\">7</span> Les paroles du Seigneur sont des par<u>o</u>les pures,<br />\nargent passé au feu, affin<u>é</u> sept fois.<br /><span class=\"verse_number\">8</span> Toi, Seigne<u>u</u>r, tu tiens parole,<br />\ntu nous gardes pour toujo<u>u</u>rs de cette engeance.<br /><br /><span class=\"verse_number\">9</span> De tous côtés, s'ag<u>i</u>tent les impies :<br />\nla corruption g<u>a</u>gne chez les hommes.</p>"""),
+  "PSALM_12": Psalm(
+      title: "Psaume 12",
+      subtitle: "Supplication du juste dans les soucis quotidiens",
+      commentary:
+          "J'ai prié pour toi afin que ta foi ne sombre pas. (Lc 22, 32)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Combien de temps, Seigneur, vas-t<u>u</u> m'oublier,<br />\ncombien de temps, me cach<u>e</u>r ton visage ?<br /><span class=\"verse_number\">3</span> Combien de temps aurai-je l'âme en peine<br />\n   et le cœur attrist<u>é</u> chaque jour ? *<br />\nCombien de temps mon ennemi sera-t-<u>i</u>l le plus fort ?<br /><br /><span class=\"verse_number\">4</span> Regarde, réponds-moi, Seigne<u>u</u>r mon Dieu ! *<br />\nDonne la lumière à mes yeux,<br />\n   garde-moi du somm<u>e</u>il de la mort ;<br /><span class=\"verse_number\">5</span> que l'adversaire ne crie p<u>a</u>s : « Victoire ! »<br />\nque l'ennemi n'ait pas la j<u>o</u>ie de ma défaite !<br /><br /><span class=\"verse_number\">6</span> Moi, je prends appu<u>i</u> sur ton amour ; +<br />\nque mon cœur ait la j<u>o</u>ie de ton salut !<br />\nJe chanterai le Seigneur pour le bi<u>e</u>n qu'il m'a fait.</p>"""),
+  "PSALM_13": Psalm(
+      title: "Psaume 13",
+      subtitle: "Corruption et châtiment de l'homme rebelle à Dieu",
+      commentary:
+          "Là où le péché s'était multiplié, la grâce a surabondé. (Rm 5, 20)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Dans son cœur le fo<u>u</u> déclare :<br />\n   « P<u>a</u>s de Dieu ! » *<br />\nTout est corromp<u>u</u>, abominable,<br />\n   pas un h<u>o</u>mme de bien !<br /><br /><span class=\"verse_number\">2</span> Des cieux, le Seigne<u>u</u>r se penche<br />\n   v<u>e</u>rs les fils d'Adam *<br />\npour voir s'il en est <u>u</u>n de sensé,<br />\n   <u>u</u>n qui cherche Dieu.<br /><br /><span class=\"verse_number\">3</span> Tous, ils s<u>o</u>nt dévoyés ;<br />\n   tous ens<u>e</u>mble, pervertis : *<br />\npas un h<u>o</u>mme de bien,<br />\n   pas m<u>ê</u>me un seul !<br /><br /><span class=\"verse_number\">4</span> N'ont-ils d<u>o</u>nc pas compris,<br />\n   ces g<u>e</u>ns qui font le mal ? +<br />\nQuand ils mangent leur pain,<br />\n   ils m<u>a</u>ngent mon peuple. *<br />\nJamais ils n'inv<u>o</u>quent le Seigneur.<br /><br /><span class=\"verse_number\">5</span> Et voilà qu'ils se sont m<u>i</u>s à trembler,<br />\n   car Dieu accomp<u>a</u>gne les justes. *<br /><span class=\"verse_number\">6</span> Vous riez des proj<u>e</u>ts du malheureux,<br />\n   mais le Seigne<u>u</u>r est son refuge.<br /><br /><span class=\"verse_number\">7</span> Qui fera ven<u>i</u>r de Sion<br />\n   la délivr<u>a</u>nce d'Israël ? +<br />\nQuand le Seigneur ramènera les déport<u>é</u>s de son peuple, *<br />\n   quelle fête en Jacob, en Isra<u>ë</u>l, quelle joie !</p>"""),
   "PSALM_14": Psalm(
       title: "Psaume 14",
       subtitle: "Dialogue : le juste en marche vers la cité de Dieu",
@@ -37,7 +165,7 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">1</span> Garde-m<u>o</u>i, mon Dieu :<br />\nj’ai fait de t<u>o</u>i mon refuge.<br /><span class="verse_number">2</span> J’ai dit au Seigneur : « Tu <u>e</u>s mon Dieu !<br />\nJe n’ai pas d’autre bonhe<u>u</u>r que toi. »<br /><br /><span class="verse_number">3</span> Toutes les idoles du pays,<br />\n   ces die<u>u</u>x que j’aimais, +<br />\nne cessent d’ét<u>e</u>ndre leurs ravages, *<br />\net l’on se rue à leur suite.<br /><span class="verse_number">4</span> Je n’irai pas leur offrir le s<u>a</u>ng des sacrifices ; *<br />\nleur nom ne viendra p<u>a</u>s sur mes lèvres !<br /><br /><span class="verse_number">5</span> Seigneur, mon part<u>a</u>ge et ma coupe :<br />\nde toi dép<u>e</u>nd mon sort.<br /><span class="verse_number">6</span> La part qui me revi<u>e</u>nt fait mes délices ;<br />\nj’ai même le plus b<u>e</u>l héritage !<br /><br /><span class="verse_number">7</span> Je bénis le Seigne<u>u</u>r qui me conseille :<br />\nmême la nuit mon cœ<u>u</u>r m’avertit.<br /><span class="verse_number">8</span> Je garde le Seigneur devant m<u>o</u>i sans relâche ;<br />\nil est à ma droite : je su<u>i</u>s inébranlable.<br /><br /><span class="verse_number">9</span> Mon cœur exulte, mon <u>â</u>me est en fête,<br />\nma chair elle-même rep<u>o</u>se en confiance :<br /><span class="verse_number">10</span> tu ne peux m’abandonn<u>e</u>r à la mort<br />\nni laisser ton ami v<u>o</u>ir la corruption.<br /><br /><span class="verse_number">11</span> Tu m’apprends le chemin de la vie : +<br />\ndevant ta face, débordem<u>e</u>nt de joie !<br />\nÀ ta droite, éternit<u>é</u> de délices !</p>"""),
-  "PSALM_18a": Psalm(
+  "PSALM_18A": Psalm(
       title: "Psaume 18a",
       subtitle: "Hymne au Dieu de la création",
       commentary:
@@ -46,6 +174,24 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class=\"verse_number\">2</span> Les cieux proclament la gl<u>o</u>ire de Dieu, <br>le firmament raconte l'ouvr<u>a</u>ge de ses mains.<br><span class=\"verse_number\">3</span> Le jour au jour en l<u>i</u>vre le récit <br>et la nuit à la nuit en d<u>o</u>nne connaissance. <br><br><span class=\"verse_number\">4</span> Pas de par<u>o</u>les dans ce récit, <br>pas de v<u>o</u>ix qui s'entende ; <br><span class=\"verse_number\">5</span> mais sur toute la terre en par<u>a</u>ît le message <br>et la nouvelle, aux lim<u>i</u>tes du monde. <br><br>Là, se trouve la deme<u>u</u>re du soleil : + <br><span class=\"verse_number\">6</span> tel un époux, il par<u>a</u>ît hors de sa tente, <br>il s'élance en conquér<u>a</u>nt joyeux. <br><br><span class=\"verse_number\">7</span> Il paraît où comm<u>e</u>nce le ciel, +<br>il s'en va jusqu'où le ci<u>e</u>l s'achève :<br>rien n'éch<u>a</u>ppe à son ardeur.</p>"""),
+  "PSALM_18B": Psalm(
+      title: "Psaume 18b",
+      subtitle: "Hymne à Dieu, maître de la loi",
+      commentary:
+          "Soyez parfaits comme votre Père céleste est parfait. Mt (5, 48)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">8</span> La loi du Seigne<u>u</u>r est parfaite,<br />\n   qui redonne vie ; *<br />\nla charte du Seigne<u>u</u>r est sûre,<br />\n   qui rend s<u>a</u>ges les simples.<br /><br /><span class=\"verse_number\">9</span> Les préceptes du Seigne<u>u</u>r sont droits,<br />\n   ils réjou<u>i</u>ssent le cœur ; *<br />\nle commandement du Seigne<u>u</u>r est limpide,<br />\n   il clarif<u>i</u>e le regard.<br /><br /><span class=\"verse_number\">10</span> La crainte qu'il insp<u>i</u>re est pure,<br />\n   elle est l<u>à</u> pour toujours ; *<br />\nles décisions du Seigne<u>u</u>r sont justes<br />\n   et vraim<u>e</u>nt équitables :<br /><br /><span class=\"verse_number\">11</span> plus désir<u>a</u>bles que l'or,<br />\n   qu'une m<u>a</u>sse d'or fin, *<br />\nplus savoure<u>u</u>ses que le miel<br />\n   qui co<u>u</u>le des rayons.<br /><br /><span class=\"verse_number\">12</span> Aussi ton serviteur en <u>e</u>st illuminé ; +<br />\n   à les garder, il tro<u>u</u>ve son profit. *<br /><span class=\"verse_number\">13</span> Qui peut discern<u>e</u>r ses erreurs ?<br />\n   Purifie-moi de c<u>e</u>lles qui m'échappent.<br /><br /><span class=\"verse_number\">14</span> Préserve aussi ton servite<u>u</u>r de l'orgueil :<br />\n   qu'il n'ait sur m<u>o</u>i aucune emprise. *<br />\nAlors je ser<u>a</u>i sans reproche,<br />\n   p<u>u</u>r d'un grand péché.<br /><br /><span class=\"verse_number\">15</span> Accueille les par<u>o</u>les de ma bouche,<br />\n   le murm<u>u</u>re de mon cœur ; *<br />\nqu'ils parvi<u>e</u>nnent devant toi,<br />\n   Seigneur, mon roch<u>e</u>r, mon défenseur !</p>"""),
+  "PSALM_19": Psalm(
+      title: "Psaume 19",
+      subtitle: "Prière pour le Roi",
+      commentary:
+          "Je suis le Premier et le Dernier, je suis le Vivant ; j'étais mort, mais me voici vivant pour les siècles. (Ap 1, 17-18)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Que le Seigneur te réponde au jo<u>u</u>r de détresse,<br />\nque le nom du Dieu de Jac<u>o</u>b te défende.<br /><span class=\"verse_number\">3</span> Du sanctuaire, qu'il t'env<u>o</u>ie le secours,<br />\nqu'il te soutienne des haute<u>u</u>rs de Sion.<br /><br /><span class=\"verse_number\">4</span> Qu'il se rappelle to<u>u</u>tes tes offrandes ;<br />\nton holocauste, qu'il le tro<u>u</u>ve savoureux.<br /><span class=\"verse_number\">5</span> Qu'il te donne à la mes<u>u</u>re de ton cœur,<br />\nqu'il accomplisse to<u>u</u>s tes projets.<br /><br /><span class=\"verse_number\">6</span> Nous acclamerons ta victoire<br />\n   en arborant le n<u>o</u>m de notre Dieu. *<br />\nLe Seigneur accomplira<br />\n   to<u>u</u>tes tes demandes.<br /><br /><span class=\"verse_number\">7</span> Maintenant, je le sais :<br />\n   le Seigneur donne la vict<u>o</u>ire à son messie ; *<br />\ndu sanctuaire des cieux, il lui répond<br />\n   par les exploits de sa m<u>a</u>in victorieuse.<br /><br /><span class=\"verse_number\">8</span> Aux uns, les chars ; aux a<u>u</u>tres, les chevaux ;<br />\nà nous, le nom de notre Die<u>u</u> : le Seigneur.<br /><span class=\"verse_number\">9</span> Eux, ils pl<u>i</u>ent et s'effondrent ;<br />\nnous, debo<u>u</u>t, nous résistons.<br /><br /><span class=\"verse_number\">10</span> Seigneur, donne au r<u>o</u>i la victoire !<br />\nRéponds-nous au jo<u>u</u>r de notre appel.</p>"""),
   "PSALM_20": Psalm(
       title: "Psaume 20",
       subtitle: "Action de grâce et prière pour le Roi",
@@ -799,6 +945,14 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">1</span> Louez, servite<u>u</u>rs du Seigneur,<br>louez le n<u>o</u>m du Seigneur !<br><span class="verse_number">2</span> Béni soit le n<u>o</u>m du Seigneur,<br>maintenant et pour les si<u>è</u>cles des siècles !<br><span class="verse_number">3</span> Du levant au couch<u>a</u>nt du soleil,<br>loué soit le n<u>o</u>m du Seigneur !<br><br><span class="verse_number">4</span> Le Seigneur dom<u>i</u>ne tous les peuples,<br>sa gloire dom<u>i</u>ne les cieux.<br><span class="verse_number">5</span> Qui est semblable au Seigne<u>u</u>r notre Dieu ?<br>Lui, il si<u>è</u>ge là-haut.<br><span class="verse_number">6</span> Mais il ab<u>a</u>isse son regard<br>vers le ci<u>e</u>l et vers la terre.<br><br><span class="verse_number">7</span> De la poussière il rel<u>è</u>ve le faible,<br>il retire le pa<u>u</u>vre de la cendre<br><span class="verse_number">8</span> pour qu’il si<u>è</u>ge parmi les princes,<br>parmi les pr<u>i</u>nces de son peuple.<br><span class="verse_number">9</span> Il installe en sa maison la f<u>e</u>mme stérile,<br>heureuse mère au milie<u>u</u> de ses fils.</p>"""),
+  "PSALM_113A": Psalm(
+      title: "Psaume 113a",
+      subtitle: "Les merveilles de Dieu pendant l'Exode",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Quand Israël sort<u>i</u>t d'Égypte,<br>et Jacob, de chez un pe<u>u</u>ple étranger,<br><span class=\"verse_number\">2</span> Juda fut pour Die<u>u</u> un sanctuaire,<br>Israël dev<u>i</u>nt son domaine.<br><br><span class=\"verse_number\">3</span> La mer v<u>o</u>it et s'enfuit,<br>le Jourdain reto<u>u</u>rne en arrière.<br><span class=\"verse_number\">4</span> Comme des béliers, bond<u>i</u>ssent les montagnes,<br>et les collines, c<u>o</u>mme des agneaux.<br><br><span class=\"verse_number\">5</span> Qu'as-tu, m<u>e</u>r, à t'enfuir,<br>Jourdain, à retourn<u>e</u>r en arrière ?<br><span class=\"verse_number\">6</span> Montagnes, pourquoi bond<u>i</u>r comme des béliers,<br>collines, c<u>o</u>mme des agneaux ?<br><br><span class=\"verse_number\">7</span> Tremble, t<u>e</u>rre, devant le Maître,<br>devant la face du Die<u>u</u> de Jacob,<br><span class=\"verse_number\">8</span> lui qui change le roch<u>e</u>r en source<br>et la pi<u>e</u>rre en fontaine !</p>"""),
   "PSALM_114": Psalm(
       title: "Psaume 114",
       subtitle: "Action de grâce pour la liberté",
@@ -939,6 +1093,30 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class=\"verse_number\">145</span> J’appelle de tout mon cœ<u>u</u>r : réponds-moi ;<br>je garder<u>a</u>i tes commandements.<br><span class=\"verse_number\">146</span> Je t’appelle, Seigne<u>u</u>r, sauve-moi ;<br>j’observer<u>a</u>i tes exigences.<br><span class=\"verse_number\">147</span> Je devance l’aur<u>o</u>re et j’implore :<br>j’esp<u>è</u>re en ta parole.<br><span class=\"verse_number\">148</span> Mes yeux devancent la f<u>i</u>n de la nuit<br>pour médit<u>e</u>r sur ta promesse.<br><span class=\"verse_number\">149</span> Dans ton amour, Seigneur, éco<u>u</u>te ma voix :<br>selon tes décisi<u>o</u>ns fais-moi vivre !<br><span class=\"verse_number\">150</span> Ceux qui poursuivent le m<u>a</u>l s’approchent,<br>ils s’él<u>o</u>ignent de ta loi.<br><span class=\"verse_number\">151</span> Toi, Seigne<u>u</u>r, tu es proche,<br>tout dans tes <u>o</u>rdres est vérité.<br><span class=\"verse_number\">152</span> Depuis longt<u>e</u>mps je le sais :<br>tu as fondé pour toujo<u>u</u>rs tes exigences.</p>"""),
+  "PSALM_118_20": Psalm(
+      title: "Psaume 118-XX",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">153</span> Vois ma mis<u>è</u>re : délivre-moi ;<br>je n’oublie p<u>a</u>s ta loi.<br><span class=\"verse_number\">154</span> Soutiens ma ca<u>u</u>se : défends-moi,<br>en ta prom<u>e</u>sse fais-moi vivre !<br><span class=\"verse_number\">155</span> Le salut s’él<u>o</u>igne des impies<br>qui ne cherchent p<u>a</u>s tes commandements.<br><span class=\"verse_number\">156</span> Seigneur, ta tendr<u>e</u>sse est sans mesure :<br>selon ta décisi<u>o</u>n fais-moi vivre !<br><span class=\"verse_number\">157</span> Ils sont nombreux mes persécute<u>u</u>rs, mes oppresseurs ;<br>je ne dévie p<u>a</u>s de tes exigences.<br><span class=\"verse_number\">158</span> J’ai vu les renég<u>a</u>ts : ils me répugnent,<br>car ils ign<u>o</u>rent ta promesse.<br><span class=\"verse_number\">159</span> Vois combien j’aime tes préc<u>e</u>ptes, Seigneur,<br>fais-moi v<u>i</u>vre selon ton amour !<br><span class=\"verse_number\">160</span> Le fondement de ta par<u>o</u>le est vérité ;<br>éternelles sont tes j<u>u</u>stes décisions.</p>"""),
+  "PSALM_118_21": Psalm(
+      title: "Psaume 118-XXI",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">161</span> Des grands me perséc<u>u</u>tent sans raison ;<br>mon cœur ne cr<u>a</u>int que ta parole.<br><span class=\"verse_number\">162</span> Tel celui qui tro<u>u</u>ve un grand butin,<br>je me réjou<u>i</u>s de tes promesses.<br><span class=\"verse_number\">163</span> Je hais, je dét<u>e</u>ste le mensonge ;<br>ta l<u>o</u>i, je l’aime.<br><span class=\"verse_number\">164</span> Sept fois chaque jo<u>u</u>r, je te loue<br>pour tes j<u>u</u>stes décisions.<br><span class=\"verse_number\">165</span> Grande est la paix de qui <u>a</u>ime ta loi ;<br>jam<u>a</u>is il ne trébuche.<br><span class=\"verse_number\">166</span> Seigneur, j’attends de t<u>o</u>i le salut :<br>j’accompl<u>i</u>s tes volontés.<br><span class=\"verse_number\">167</span> Tes exigences, mon <u>â</u>me les observe :<br>oui, vraim<u>e</u>nt, je les aime.<br><span class=\"verse_number\">168</span> J’observe tes exig<u>e</u>nces et tes préceptes :<br>toutes mes v<u>o</u>ies sont devant toi.</p>"""),
+  "PSALM_118_22": Psalm(
+      title: "Psaume 118-XXII",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">169</span> Que mon cri parvi<u>e</u>nne devant toi,<br>éclaire-moi selon ta par<u>o</u>le, Seigneur.<br><span class=\"verse_number\">170</span> Que ma prière arr<u>i</u>ve jusqu’à toi ;<br>délivre-m<u>o</u>i selon ta promesse.<br><span class=\"verse_number\">171</span> Que chante sur mes l<u>è</u>vres ta louange,<br>car tu m’appr<u>e</u>nds tes commandements.<br><span class=\"verse_number\">172</span> Que ma langue red<u>i</u>se tes promesses,<br>car tout est just<u>i</u>ce en tes volontés.<br><span class=\"verse_number\">173</span> Que ta main vi<u>e</u>nne à mon aide,<br>car j’ai chois<u>i</u> tes préceptes.<br><span class=\"verse_number\">174</span> J’ai le désir de ton sal<u>u</u>t, Seigneur :<br>ta l<u>o</u>i fait mon plaisir.<br><span class=\"verse_number\">175</span> Que je vive et que mon <u>â</u>me te loue !<br>Tes décisi<u>o</u>ns me soient en aide !<br><span class=\"verse_number\">176</span> Je m’égare, breb<u>i</u>s perdue : *<br>viens chercher ton serviteur.<br>Je n’oublie p<u>a</u>s tes volontés.</p>"""),
   "PSALM_120": Psalm(
       title: "Psaume 120",
       subtitle: "Dieu garde les croyants",
@@ -1000,7 +1178,25 @@ final Map<String, Psalm> psalms = {
       biblicalReference: "",
       shortReference: "",
       content:
-          """<span class="verse_number">1</span> Si le Seigneur ne bât<u>i</u>t la maison,<br>les bâtisseurs trav<u>a</u>illent en vain ; *<br>si le Seigneur ne g<u>a</u>rde la ville,<br>c’est en vain que v<u>e</u>illent les gardes.<br><br><span class="verse_number">2</span> En vain tu dev<u>a</u>nces le jour,<br>tu retardes le mom<u>e</u>nt de ton repos, +<br>tu manges un p<u>a</u>in de douleur : *<br>Dieu comble son bien-aim<u>é</u> quand il dort.<br><br><span class="verse_number">3</span> Des fils, voilà ce que d<u>o</u>nne le Seigneur,<br>des enfants, la récomp<u>e</u>nse qu’il accorde ; *<br><span class="verse_number">4</span> comme des flèches aux m<u>a</u>ins d’un guerrier,<br>ainsi les f<u>i</u>ls de la jeunesse.<br><br><span class="verse_number">5</span> Heureux l’h<u>o</u>mme vaillant<br>qui a garni son carqu<u>o</u>is de telles armes ! *<br>S’ils affrontent leurs ennem<u>i</u>s sur la place,<br>ils ne seront p<u>a</u>s humiliés.<br>"""),
+          """<p><span class="verse_number">1</span> Si le Seigneur ne bât<u>i</u>t la maison,<br>les bâtisseurs trav<u>a</u>illent en vain ; *<br>si le Seigneur ne g<u>a</u>rde la ville,<br>c’est en vain que v<u>e</u>illent les gardes.<br><br><span class="verse_number">2</span> En vain tu dev<u>a</u>nces le jour,<br>tu retardes le mom<u>e</u>nt de ton repos, +<br>tu manges un p<u>a</u>in de douleur : *<br>Dieu comble son bien-aim<u>é</u> quand il dort.<br><br><span class="verse_number">3</span> Des fils, voilà ce que d<u>o</u>nne le Seigneur,<br>des enfants, la récomp<u>e</u>nse qu’il accorde ; *<br><span class="verse_number">4</span> comme des flèches aux m<u>a</u>ins d’un guerrier,<br>ainsi les f<u>i</u>ls de la jeunesse.<br><br><span class="verse_number">5</span> Heureux l’h<u>o</u>mme vaillant<br>qui a garni son carqu<u>o</u>is de telles armes ! *<br>S’ils affrontent leurs ennem<u>i</u>s sur la place,<br>ils ne seront p<u>a</u>s humiliés.</p>"""),
+  "PSALM_127": Psalm(
+      title: "Psaume 127",
+      subtitle: "Bonheur du juste en sa maisone",
+      commentary:
+          "Le Christ a aimé l'Église ; il la voulait sainte et irréprochable. (Ep 5, 25.27)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Heureux qui cr<u>a</u>int le Seigneur<br />\net marche sel<u>o</u>n ses voies !<br /><br /><span class=\"verse_number\">2</span> Tu te nourriras du trav<u>a</u>il de tes mains :<br />\nHeureux es-tu ! À t<u>o</u>i, le bonheur !<br /><br /><span class=\"verse_number\">3</span> Ta femme sera dans ta maison<br />\ncomme une v<u>i</u>gne généreuse, *<br />\net tes fils, autour de la table,<br />\ncomme des pl<u>a</u>nts d’olivier.<br /><br /><span class=\"verse_number\">4</span> Voilà comment sera béni<br />\nl’homme qui cr<u>a</u>int le Seigneur. *<br /><span class=\"verse_number\">5</span> De Sion, que le Seigne<u>u</u>r te bénisse !<br /><br />\nTu verras le bonheur de Jérusalem<br />\ntous les jo<u>u</u>rs de ta vie, *<br /><span class=\"verse_number\">6</span> et tu verras les f<u>i</u>ls de tes fils.<br /><br />\nPaix sur Israël !</p>"""),
+  "PSALM_128": Psalm(
+      title: "Psaume 128",
+      subtitle: "Lamentation et prière d'un opprimé",
+      commentary:
+          "Tous m'ont abandonné ; le Seigneur, lui, m'a assisté. (2Tm 4, 16.17)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Que de mal ils m’ont f<u>a</u>it dès ma jeunesse,<br />\n– à Isra<u>ë</u>l de le dire – *<br /><span class=\"verse_number\">2</span> que de mal ils m’ont f<u>a</u>it dès ma jeunesse :<br />\nils ne m’ont p<u>a</u>s soumis !<br /><br /><span class=\"verse_number\">3</span> Sur mon dos, des laboure<u>u</u>rs ont labouré<br />\net creus<u>é</u> leurs sillons ; *<br /><span class=\"verse_number\">4</span> mais le Seigne<u>u</u>r, le juste,<br />\na brisé l’attel<u>a</u>ge des impies.<br /><br /><span class=\"verse_number\">5</span> Qu’ils soient tous humili<u>é</u>s, rejetés,<br />\nles ennem<u>i</u>s de Sion ! *<br /><span class=\"verse_number\">6</span> Qu’ils deviennent comme l’h<u>e</u>rbe des toits,<br />\naussitôt desséchée !<br /><br /><span class=\"verse_number\">7</span> Les moissonneurs n’en font p<u>a</u>s une poignée,<br />\nni les lie<u>u</u>rs une gerbe, *<br /><span class=\"verse_number\">8</span> et les passants ne pe<u>u</u>vent leur dire :<br />\n« La bénédiction du Seigne<u>u</u>r soit sur vous ! »<br /><br />\nAu nom du Seigneur, no<u>u</u>s vous bénissons.</p>"""),
   "PSALM_129": Psalm(
       title: "Psaume 129",
       subtitle: "Pénitence et confiance en Dieu",
@@ -1035,6 +1231,15 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">11</span> Le Seigneur l’a jur<u>é</u> à David, <br>et jamais il ne reprendr<u>a</u> sa parole :<br>« C’est un homme iss<u>u</u> de toi<br>que je placer<u>a</u>i sur ton trône.<br><br><span class="verse_number">12</span> « Si tes fils g<u>a</u>rdent mon alliance,<br>les volontés que je leur f<u>a</u>is connaître,<br>leurs fils, eux auss<u>i</u>, à tout jamais,<br>siègeront sur le trône dress<u>é</u> pour toi. »<br><br><span class="verse_number">13</span> Car le Seigneur a fait ch<u>o</u>ix de Sion ;<br>elle est le séjo<u>u</u>r qu’il désire :<br><span class="verse_number">14</span> « Voilà mon rep<u>o</u>s à tout jamais,<br>c’est le séjour que j’av<u>a</u>is désiré.<br><br><span class="verse_number">15</span> « Je bénirai, je bénir<u>a</u>i ses récoltes<br>pour rassasier de p<u>a</u>in ses pauvres.<br><span class="verse_number">16</span> Je vêtirai de gl<u>o</u>ire ses prêtres,<br>et ses fidèles crieront, crier<u>o</u>nt de joie.<br><br><span class="verse_number">17</span> « Là, je ferai germer la f<u>o</u>rce de David ;<br>pour mon messie, j’ai allum<u>é</u> une lampe.<br><span class="verse_number">18</span> Je vêtirai ses ennem<u>i</u>s de honte,<br>mais, sur lui, la cour<u>o</u>nne fleurira. »</p>"""),
+  "PSALM_132": Psalm(
+      title: "Psaume 132",
+      subtitle: "Bonheur de vivre en frères",
+      commentary:
+          "La multitude de ceux qui avaient adhéré à lafoi avait un seul coeur et une seule âme. (Ac 4, 32)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Oui, il est bon, il est do<u>u</u>x pour des frères *<br>de vivre ens<u>e</u>mble et d’être unis !<br><br><span class=\"verse_number\">2</span> On dirait un ba<u>u</u>me précieux,<br>un parf<u>u</u>m sur la tête, +<br>qui descend sur la barbe, la b<u>a</u>rbe d’Aaron, *<br>qui descend sur le b<u>o</u>rd de son vêtement.<br><br><span class=\"verse_number\">3</span> On dirait la ros<u>é</u>e de l’Hermon *<br>qui descend sur les coll<u>i</u>nes de Sion.<br>C’est là que le Seigneur env<u>o</u>ie la bénédiction, *<br>la v<u>i</u>e pour toujours.</p>"""),
   "PSALM_133": Psalm(
       title: "Psaume 133",
       subtitle: "Bénédiction pour la nuit",
@@ -1043,7 +1248,7 @@ final Map<String, Psalm> psalms = {
       biblicalReference: "",
       shortReference: "",
       content:
-          """<span class="verse_number">1</span> Vous tous, béniss<u>e</u>z le Seigneur,<br>vous qui serv<u>e</u>z le Seigneur,<br>qui veillez dans la mais<u>o</u>n du Seigneur<br>au l<u>o</u>ng des nuits.<br><br><span class="verse_number">2</span> Levez les mains v<u>e</u>rs le sanctuaire,<br>et béniss<u>e</u>z le Seigneur.<br><span class="verse_number">3</span> Que le Seigneur te bén<u>i</u>sse de Sion,<br>lui qui a fait le ci<u>e</u>l et la terre !</p>"""),
+          """<p><span class="verse_number">1</span> Vous tous, béniss<u>e</u>z le Seigneur,<br>vous qui serv<u>e</u>z le Seigneur,<br>qui veillez dans la mais<u>o</u>n du Seigneur<br>au l<u>o</u>ng des nuits.<br><br><span class="verse_number">2</span> Levez les mains v<u>e</u>rs le sanctuaire,<br>et béniss<u>e</u>z le Seigneur.<br><span class="verse_number">3</span> Que le Seigneur te bén<u>i</u>sse de Sion,<br>lui qui a fait le ci<u>e</u>l et la terre !</p>"""),
   "PSALM_134_1": Psalm(
       title: "Psaume 134-I",
       subtitle: "Hymne au Seigneur pour ses bienfaits",
@@ -1095,6 +1300,33 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class=\"verse_number\">137</span> Toi, tu es j<u>u</u>ste, Seigneur,<br />\ntu es dr<u>o</u>it dans tes décisions.<br />\n<span class=\"verse_number\">138</span> Tu promulgues tes exig<u>e</u>nces avec justice,<br />\navec enti<u>è</u>re fidélité.<br />\n<span class=\"verse_number\">139</span> Quand mes oppresseurs oubl<u>i</u>ent ta parole,<br />\nune arde<u>u</u>r me consume.<br />\n<span class=\"verse_number\">140</span> Ta promesse tout enti<u>è</u>re est pure,<br />\nelle est aim<u>é</u>e de ton serviteur.<br />\n<span class=\"verse_number\">141</span> Moi, le chét<u>i</u>f, le méprisé,<br />\nje n’oublie p<u>a</u>s tes préceptes.<br />\n<span class=\"verse_number\">142</span> Justice étern<u>e</u>lle est ta justice,<br />\net vérit<u>é</u>, ta loi.<br />\n<span class=\"verse_number\">143</span> La détresse et l’ang<u>o</u>isse m’ont saisi ;<br />\nje trouve en tes volont<u>é</u>s mon plaisir.<br />\n<span class=\"verse_number\">144</span> Justice étern<u>e</u>lle, tes exigences ;<br />\néclaire-m<u>o</u>i, et je vivrai.</p>"""),
+  "PSALM_139": Psalm(
+      title: "Psaume 139",
+      subtitle: "Plaintes contre les ruses et les violences de l'ennemi",
+      commentary:
+          "Voici l'heure où le Fils de l'homme est livré aux mains des pécheurs. (Mt 26, 45)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> Délivre-moi, Seigneur, de l’h<u>o</u>mme mauvais,<br>contre l’homme viol<u>e</u>nt, défends-moi,<br><span class=\"verse_number\">3</span> contre ceux qui préméd<u>i</u>tent le mal<br>et tout le jour entreti<u>e</u>nnent la guerre,<br><span class=\"verse_number\">4</span> qui dardent leur l<u>a</u>ngue de vipère,<br>leur langue charg<u>é</u>e de venin.<br><br><span class=\"verse_number\">5</span> Garde-moi, Seigneur, de la m<u>a</u>in des impies,<br>contre l’homme viol<u>e</u>nt, défends-moi,<br>contre ceux qui méd<u>i</u>tent ma chute,<br><span class=\"verse_number\">6</span> les arrogants qui m’ont tend<u>u</u> des pièges ;<br>sur mon passage ils ont m<u>i</u>s un filet,<br>ils ont dressé contre m<u>o</u>i des embûches.<br><br><span class=\"verse_number\">7</span> Je dis au Seigneur : « Mon Die<u>u</u>, c’est toi ! »<br>Seigneur, entends le cr<u>i</u> de ma prière.<br><span class=\"verse_number\">8</span> Tu es la force qui me sauve, M<u>a</u>ître, Seigneur ;<br>au jour du combat, tu prot<u>è</u>ges ma tête.<br><span class=\"verse_number\">9</span> Ne cède pas, Seigneur, au dés<u>i</u>r des impies,<br>ne permets pas que leurs intr<u>i</u>gues réussissent !<br><br><span class=\"verse_number\">13</span> Je le sais, le Seigneur rendra just<u>i</u>ce au malheureux,<br>il fera dr<u>o</u>it au pauvre.<br><span class=\"verse_number\">14</span> Oui, les justes rendront gr<u>â</u>ce à ton nom, <br>les hommes droits siéger<u>o</u>nt en ta présence.</p>"""),
+  "PSALM_140": Psalm(
+      title: "Psaume 140",
+      subtitle: "Plainte contre les ruses de l'ennemi",
+      commentary:
+          "L'ange fit monter devant Dieu la fumée des parfums avec, les prières des saints. (Ap 8, 4)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Seigneur,   je t’appelle : acco<u>u</u>rs vers moi !<br>  Écoute mon appel quand je   cr<u>i</u>e vers toi !<br>  <span class=\"verse_number\">2</span> Que   ma prière devant toi s’él<u>è</u>ve comme un encens,<br>  et mes mains, comme l’offr<u>a</u>nde   du soir.<br>  <br>  <span class=\"verse_number\">3</span> Mets   une garde à mes l<u>è</u>vres, Seigneur,<br>  veille au se<u>u</u>il de   ma bouche.<br>  <span class=\"verse_number\">4</span> Ne   laisse pas mon cœur pench<u>e</u>r vers le mal<br>  ni devenir complice des h<u>o</u>mmes   malfaisants.<br>  <br>  Jamais je ne goûter<u>a</u>i   leurs plaisirs :<br>  <span class=\"verse_number\">5</span> que   le juste me reprenne et me corr<u>i</u>ge avec bonté.<br>  Que leurs parfums, ni leurs   poisons, ne to<u>u</u>chent ma tête !<br>  Ils font du mal : je me ti<u>e</u>ns   en prière.<br>  <br>  <span class=\"verse_number\">6</span> Voici   leurs juges précipit<u>é</u>s contre le roc,<br>  eux qui prenaient plais<u>i</u>r   à m’entendre dire :<br>  <span class=\"verse_number\">7</span> « Comme   un sol qu’on reto<u>u</u>rne et défonce,<br>  nos os sont dispersés à la   gue<u>u</u>le des enfers ! »<br>  <br>  <span class=\"verse_number\">8</span> Je   regarde vers toi, Seigne<u>u</u>r, mon Maître ;<br>  tu es mon refuge : ép<u>a</u>rgne   ma vie !<br>  <span class=\"verse_number\">9</span> Garde-moi   du fil<u>e</u>t qui m’est tendu,<br>  des embûches qu’ont dress<u>é</u>es   les malfaisants.<br>  <span class=\"verse_number\">[10]</span></p>"""),
+  "PSALM_141": Psalm(
+      title: "Psaume 141",
+      subtitle: "Plainte et prière d'un abandonné",
+      commentary:
+          "Tous m'ont abandonné. Le Seigneur, lui, m'a assisté. (2Tm 4, 16.17)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">2</span> À pleine voix, je cr<u>i</u>e vers le Seigneur !<br />\nÀ pleine voix, je suppl<u>i</u>e le Seigneur !<br /><span class=\"verse_number\">3</span> Je répands devant lu<u>i</u> ma plainte,<br />\ndevant lui, je d<u>i</u>s ma détresse.<br /><br /><span class=\"verse_number\">4</span> Lorsque le so<u>u</u>ffle me manque,<br />\ntoi, tu s<u>a</u>is mon chemin. *<br />\nSur le senti<u>e</u>r où j’avance,<br />\nun pi<u>è</u>ge m’est tendu.<br /><br /><span class=\"verse_number\">5</span> Regarde à mes côt<u>é</u>s, et vois :<br />\npers<u>o</u>nne qui me connaisse ! *<br />\nPour moi, il n’est pl<u>u</u>s de refuge :<br />\npers<u>o</u>nne qui pense à moi !<br /><br /><span class=\"verse_number\">6</span> J’ai crié vers t<u>o</u>i, Seigneur ! *<br />\nJ’ai dit : « Tu <u>e</u>s mon abri,<br />\nma part, sur la t<u>e</u>rre des vivants. »<br /><br /><span class=\"verse_number\">7</span> Sois attent<u>i</u>f à mes appels :<br />\nje suis rédu<u>i</u>t à rien ; *<br />\ndélivre-moi de ce<u>u</u>x qui me poursuivent :<br />\nils sont plus f<u>o</u>rts que moi.<br /><br /><span class=\"verse_number\">8</span> Tire-moi de la pris<u>o</u>n où je suis,<br />\nque je rende gr<u>â</u>ce à ton nom. *<br />\nAutour de moi, les j<u>u</u>stes feront cercle<br />\npour le bi<u>e</u>n que tu m’as fait.</p>"""),
   "PSALM_142": Psalm(
       title: "Psaume 142",
       subtitle: "Plainte et prièer dans l’angoisse",
@@ -1103,7 +1335,24 @@ final Map<String, Psalm> psalms = {
       biblicalReference: "",
       shortReference: "",
       content:
-          """<p><span class="verse_number">1</span> Seigneur, ent<u>e</u>nds ma prière ; +<br>dans ta justice éco<u>u</u>te mes appels, *<br>dans ta fidélit<u>é</u> réponds-moi.<br><span class="verse_number">2</span> N’entre pas en jugement av<u>e</u>c ton serviteur :<br>aucun vivant n’est j<u>u</u>ste devant toi.<br><br><span class="verse_number">3</span> L’ennemi ch<u>e</u>rche ma perte,<br>il foule au s<u>o</u>l ma vie ;<br>il me fait habit<u>e</u>r les ténèbres<br>avec les m<u>o</u>rts de jadis.<br><span class="verse_number">4</span> Le souffle en m<u>o</u>i s’épuise,<br>mon cœur au fond de m<u>o</u>i s’épouvante.<br><br><span class="verse_number">5</span> Je me souviens des jours d’autrefois,<br>je me redis to<u>u</u>tes tes actions, *<br>sur l’œuvre de tes m<u>a</u>ins je médite.<br><span class="verse_number">6</span> Je tends les m<u>a</u>ins vers toi, <br>me voici devant toi comme une t<u>e</u>rre assoiffée.<br><br><span class="verse_number">7</span> Vite, réponds-m<u>o</u>i, Seigneur :<br>je suis à bo<u>u</u>t de souffle !<br>Ne me cache p<u>a</u>s ton visage :<br>je serais de ceux qui t<u>o</u>mbent dans la fosse.<br><br><span class="verse_number">8</span> Fais que j’entende au mat<u>i</u>n ton amour,<br>car je c<u>o</u>mpte sur toi.<br>Montre-moi le chem<u>i</u>n que je dois prendre :<br>vers toi, j’él<u>è</u>ve mon âme !<br><br><span class="verse_number">9</span> Délivre-moi de mes ennem<u>i</u>s, Seigneur :<br>j’ai un abr<u>i</u> auprès de toi.<br><span class="verse_number">10</span> Apprends-moi à f<u>a</u>ire ta volonté,<br>car tu <u>e</u>s mon Dieu.<br>Ton so<u>u</u>ffle est bienfaisant :<br>qu’il me guide en un pays de plaines.<br><br><span class="verse_number">11</span> Pour l’honneur de ton nom, <br> Seigne<u>u</u>r, fais-moi vivre ;<br>à cause de ta justice, tire-m<u>o</u>i de la détresse.<br>[<span class="verse_number">12</span>]<br></p>"""),
+          """<p><span class="verse_number">1</span> Seigneur, ent<u>e</u>nds ma prière ; +<br>dans ta justice éco<u>u</u>te mes appels, *<br>dans ta fidélit<u>é</u> réponds-moi.<br><span class="verse_number">2</span> N’entre pas en jugement av<u>e</u>c ton serviteur :<br>aucun vivant n’est j<u>u</u>ste devant toi.<br><br><span class="verse_number">3</span> L’ennemi ch<u>e</u>rche ma perte,<br>il foule au s<u>o</u>l ma vie ;<br>il me fait habit<u>e</u>r les ténèbres<br>avec les m<u>o</u>rts de jadis.<br><span class="verse_number">4</span> Le souffle en m<u>o</u>i s’épuise,<br>mon cœur au fond de m<u>o</u>i s’épouvante.<br><br><span class="verse_number">5</span> Je me souviens des jours d’autrefois,<br>je me redis to<u>u</u>tes tes actions, *<br>sur l’œuvre de tes m<u>a</u>ins je médite.<br><span class="verse_number">6</span> Je tends les m<u>a</u>ins vers toi, <br>me voici devant toi comme une t<u>e</u>rre assoiffée.<br><br><span class="verse_number">7</span> Vite, réponds-m<u>o</u>i, Seigneur :<br>je suis à bo<u>u</u>t de souffle !<br>Ne me cache p<u>a</u>s ton visage :<br>je serais de ceux qui t<u>o</u>mbent dans la fosse.<br><br><span class="verse_number">8</span> Fais que j’entende au mat<u>i</u>n ton amour,<br>car je c<u>o</u>mpte sur toi.<br>Montre-moi le chem<u>i</u>n que je dois prendre :<br>vers toi, j’él<u>è</u>ve mon âme !<br><br><span class="verse_number">9</span> Délivre-moi de mes ennem<u>i</u>s, Seigneur :<br>j’ai un abr<u>i</u> auprès de toi.<br><span class="verse_number">10</span> Apprends-moi à f<u>a</u>ire ta volonté,<br>car tu <u>e</u>s mon Dieu.<br>Ton so<u>u</u>ffle est bienfaisant :<br>qu’il me guide en un pays de plaines.<br><br><span class="verse_number">11</span> Pour l’honneur de ton nom, <br> Seigne<u>u</u>r, fais-moi vivre ;<br>à cause de ta justice, tire-m<u>o</u>i de la détresse.<br>[<span class="verse_number">12</span>]</p>"""),
+  "PSALM_143_1": Psalm(
+      title: "Psaume 143-I",
+      subtitle: "Prière du roi dans les impasses de la guerre",
+      commentary:
+          "Je peux tout supporter avec celui qui me donne la force. (Ph 4, 13)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Béni soit le Seigne<u>u</u>r, mon rocher ! +<br>Il exerce mes m<u>a</u>ins pour le combat, *<br>il m’entr<u>a</u>îne à la bataille.<br><br><span class=\"verse_number\">2</span> Il est mon alli<u>é</u>, ma forteresse,<br>ma citadelle, celu<u>i</u> qui me libère ;<br>il est le boucli<u>e</u>r qui m’abrite,<br>il me donne pouv<u>o</u>ir sur mon peuple.<br><br><span class=\"verse_number\">3</span> Qu’est-ce que l’homme, <br> pour que tu le conn<u>a</u>isses, Seigneur, *<br>le fils d’un homme, pour que tu c<u>o</u>mptes avec lui ?<br><span class=\"verse_number\">4</span> L’homme est sembl<u>a</u>ble à un souffle,<br>ses jours sont une <u>o</u>mbre qui passe.<br><br><span class=\"verse_number\">5</span> Seigneur, incline les cie<u>u</u>x et descends ;<br>touche les mont<u>a</u>gnes : qu’elles brûlent !<br><span class=\"verse_number\">6</span> Décoche des écl<u>a</u>irs de tous côtés, <br>tire des flèches et rép<u>a</u>nds la terreur.<br><br><span class=\"verse_number\">7</span> Des hauteurs, tends-moi la m<u>a</u>in, délivre-moi, *<br>sauve-moi du gouffre des eaux,<br>de l’emprise d’un pe<u>u</u>ple étranger :<br><span class=\"verse_number\">8</span> il dit des par<u>o</u>les mensongères,<br>sa main est une m<u>a</u>in parjure.</p>"""),
+  "PSALM_143_2": Psalm(
+      title: "Psaume 143-II",
+      subtitle: "",
+      commentary: "",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">9</span> Pour toi, je chanter<u>a</u>i un chant nouveau,<br>pour toi, je jouerai sur la h<u>a</u>rpe à dix cordes,<br><span class=\"verse_number\">10</span> pour toi qui donnes aux r<u>o</u>is la victoire<br>et sauves de l’épée meurtrière <br> Dav<u>i</u>d, ton serviteur.<br><br><span class=\"verse_number\">11</span> Délivre-m<u>o</u>i, sauve-moi<br>de l’emprise d’un pe<u>u</u>ple étranger :<br>il dit des par<u>o</u>les mensongères,<br>sa main est une m<u>a</u>in parjure.<br><br><span class=\"verse_number\">12</span> Que nos fils soient par<u>e</u>ils à des plants<br>bien ven<u>u</u>s dès leur jeune âge ; *<br>nos filles, par<u>e</u>illes à des colonnes <br>sculpt<u>é</u>es pour un palais !<br><br><span class=\"verse_number\">13</span> Nos greniers, rempl<u>i</u>s, débordants,<br>regorger<u>o</u>nt de biens ; *<br>les troupeaux, par milli<u>e</u>rs, par myriades,<br>emplir<u>o</u>nt nos campagnes !<br><br><span class=\"verse_number\">14</span> Nos vassaux nous rester<u>o</u>nt soumis,<br>pl<u>u</u>s de défaites ; *<br>plus de br<u>è</u>ches dans nos murs,<br>plus d’al<u>e</u>rtes sur nos places !<br><br><span class=\"verse_number\">15</span> Heureux le pe<u>u</u>ple ainsi comblé !<br>Heureux le peuple <br> qui a pour Die<u>u</u> « Le Seigneur » !</p>"""),
   "PSALM_144-1": Psalm(
       title: "Psaume 144-I",
       subtitle: "Hymne à Dieu, grand et bon",
@@ -1129,6 +1378,15 @@ final Map<String, Psalm> psalms = {
       shortReference: "",
       content:
           """<p><span class="verse_number">15</span>  Les yeux sur toi, to<u>u</u>s, ils espèrent :<br>tu leur donnes la nourrit<u>u</u>re au temps voulu ;<br><span class="verse_number">16</span>  tu o<u>u</u>vres ta main :<br>tu rassasies avec bont<u>é</u> tout ce qui vit.<br><br><span class="verse_number">17</span>  Le Seigneur est juste en to<u>u</u>tes ses voies,<br>fidèle en to<u>u</u>t ce qu’il fait.<br><span class="verse_number">18</span>  Il est proche de ce<u>u</u>x qui l’invoquent,<br>de tous ceux qui l’inv<u>o</u>quent en vérité.<br><br><span class="verse_number">19</span>  Il répond au désir de ce<u>u</u>x qui le craignent ;<br>il écoute leur cr<u>i</u> : il les sauve.<br><span class="verse_number">20</span>  Le Seigneur garder<u>a</u> tous ceux qui l’aiment,<br>mais il détruir<u>a</u> tous les impies.<br><br><span class="verse_number">21</span>  Que ma bouche proclame <br>les lou<u>a</u>nges du Seigneur ! *<br>Son nom très saint, que toute chair le bénisse<br>toujo<u>u</u>rs et à jamais !</p>"""),
+  "PSALM_146": Psalm(
+      title: "Psaume 146",
+      subtitle: "Hymne à Dieu qui donne la vie",
+      commentary:
+          "Votre Père céleste sait de quoi vous avez besoin. (Mt 10, 32)",
+      biblicalReference: "",
+      shortReference: "",
+      content:
+          """<p><span class=\"verse_number\">1</span> Il est bon de fêt<u>e</u>r notre Dieu,<br>il est beau de chant<u>e</u>r sa louange !<br><br><span class=\"verse_number\">2</span> Le Seigneur rebât<u>i</u>t Jérusalem,<br>il rassemble les déport<u>é</u>s d’Israël ;<br><span class=\"verse_number\">3</span> il guér<u>i</u>t les cœurs brisés <br>et s<u>o</u>igne leurs blessures.<br><br><span class=\"verse_number\">4</span> Il compte le n<u>o</u>mbre des étoiles,<br>il donne à chac<u>u</u>ne un nom ;<br><span class=\"verse_number\">5</span> il est grand, il est f<u>o</u>rt, notre Maître :<br>nul n’a mesur<u>é</u> son intelligence.<br><span class=\"verse_number\">6</span> Le Seigneur él<u>è</u>ve les humbles<br>et rabaisse jusqu’à t<u>e</u>rre les impies.<br><br><span class=\"verse_number\">7</span> Entonnez pour le Seigne<u>u</u>r l’action de grâce,<br>jouez pour notre Die<u>u</u> sur la cithare !<br><br><span class=\"verse_number\">8</span> Il couvre le ci<u>e</u>l de nuages,<br>il prépare la plu<u>i</u>e pour la terre ;<br>il fait germer l’h<u>e</u>rbe sur les montagnes<br>et les plantes pour l’us<u>a</u>ge des hommes ;<br><span class=\"verse_number\">9</span> il donne leur pât<u>u</u>re aux troupeaux,<br>aux petits du corbea<u>u</u> qui la réclament.<br><br><span class=\"verse_number\">10</span> La force des chevaux n’est p<u>a</u>s ce qu’il aime,<br>ni la vigueur des guerri<u>e</u>rs, ce qui lui plaît ;<br><span class=\"verse_number\">11</span> mais le Seigneur se plaît <br> avec ce<u>u</u>x qui le craignent, <br>avec ceux qui esp<u>è</u>rent son amour.</p>"""),
   "PSALM_147": Psalm(
       title: "Psaume 147",
       subtitle: "Hymne pour Jérusalem rénovée",
@@ -1262,6 +1520,23 @@ final Map<String, Psalm> psalms = {
       commentary: "Il comble de bien les affamés (Lc 1, 53)",
       content:
           """<p><span class="verse_number">1</span> Mon cœur exulte à ca<u>u</u>se du Seigneur ;<br />\nmon front s’est relevé gr<u>â</u>ce à mon Dieu !<br />\nFace à mes ennemis, s’o<u>u</u>vre ma bouche :<br />\noui, je me réjou<u>i</u>s de ta victoire !<br /><br /><span class="verse_number">2</span> Il n’est pas de Saint par<u>e</u>il au Seigneur. +<br />\n   – Pas d’autre Die<u>u</u> que toi ! – *<br />\nPas de Rocher par<u>e</u>il à notre Dieu !<br /><br /><span class="verse_number">3</span> Assez de par<u>o</u>les hautaines,<br />\npas d’insol<u>e</u>nce à la bouche <br />\nLe Seigneur est le Die<u>u</u> qui sait,<br />\nqui p<u>è</u>se nos actes.<br /><br /><span class="verse_number">4</span> L’arc des f<u>o</u>rts sera brisé,<br />\nmais le faible se rev<u>ê</u>t de vigueur.<br /><span class="verse_number">5</span> Les plus comblés s’emba<u>u</u>chent pour du pain,<br />\net les affam<u>é</u>s se reposent.<br />\nQuand la stérile enf<u>a</u>nte sept fois,<br />\nla femme aux fils nombre<u>u</u>x dépérit.<br /><br /><span class="verse_number">6</span> Le Seigneur fait mour<u>i</u>r et vivre ;<br />\nil fait descendre à l’ab<u>î</u>me et en ramène.<br /><span class="verse_number">7</span> Le Seigneur rend pa<u>u</u>vre et riche ;<br />\nil ab<u>a</u>isse et il élève.<br /><br /><span class="verse_number">8</span> De la poussière il rel<u>è</u>ve le faible,<br />\nil retire le pa<u>u</u>vre de la cendre<br />\npour qu’il siège parm<u>i</u> les princes<br />\net reçoive un tr<u>ô</u>ne de gloire.<br /><br />\nAu Seigneur, les col<u>o</u>nnes de la terre :<br />\nsur elles, il a pos<u>é</u> le monde !<br /><span class="verse_number">9</span> Il veille sur les p<u>a</u>s de ses fidèles,<br />\net les méchants périr<u>o</u>nt dans les ténèbres.<br />\nLa force ne rend pas l’h<u>o</u>mme vainqueur :<br /><span class="verse_number">10</span> les adversaires du Seigne<u>u</u>r seront brisés.<br /><br />\nLe Très-Haut tonner<u>a</u> dans les cieux ;<br />\nle Seigneur juger<u>a</u> la terre entière.<br />\nIl donnera la puiss<u>a</u>nce à son roi,<br />\nil relèvera le fr<u>o</u>nt de son messie.</p>"""),
+  "AT_4": Psalm(
+      title: "Cantique de David",
+      subtitle: "Dieu, maître de tout",
+      biblicalReference: "1Chr 29",
+      shortReference: "AT 4",
+      commentary:
+          "Béni soit Dieu, le Père de notre Seigneur Jésus Christ (Ep 1, 3)",
+      content:
+          """<p><span class=\"verse_number\">10</span> Béni sois-t<u>u</u>, Seigneur, +<br />\nDieu de notre p<u>è</u>re Israël,<br />\ndepuis les si<u>è</u>cles et pour les siècles !<br /><br /><span class=\"verse_number\">11</span> À toi, Seigneur, f<u>o</u>rce et grandeur, +<br />\néclat, vict<u>o</u>ire, majesté,<br />\ntout, dans les cie<u>u</u>x et sur la terre !<br /><br />\nÀ toi, Seigne<u>u</u>r, le règne, +<br />\nla primaut<u>é</u> sur l'univers :<br /><span class=\"verse_number\">12</span> la richesse et la gloire vi<u>e</u>nnent de ta face !<br /><br />\nC'est toi, le M<u>a</u>ître de tout : +<br />\ndans ta main, f<u>o</u>rce et puissance ;<br />\ntout, par ta main, grand<u>i</u>t et s'affermit.<br /><br /><span class=\"verse_number\">13</span> Et maintenant, <u>ô</u> notre Dieu, +<br />\nnous voici pour te r<u>e</u>ndre grâce,<br />\npour célébrer l'écl<u>a</u>t de ton nom !</p>"""),
+  "AT_6": Psalm(
+      title: "Cantique de Tobie",
+      subtitle: "Action de grâce pour la délivrance du peuple ",
+      biblicalReference: "Tb 13",
+      shortReference: "AT 6",
+      commentary: "Nous sommes le Temple du Dieu vivant. (2Co 6, 16)",
+      content:
+          """<p><span class=\"verse_number\">2</span> Béni soit Dieu, le Viv<u>a</u>nt, à jamais !<br />\nBén<u>i</u> soit son règne !<br /><br />\nC'est lui qui fr<u>a</u>ppe et fait grâce, +<br />\nqui mène à l'ab<u>î</u>me et en ramène :<br />\nnul n'éch<u>a</u>ppe à sa main.<br /><br /><span class=\"verse_number\">3</span> Rendez-lui grâce, fils d'Israël, à la f<u>a</u>ce des nations<br />\noù lui-même vous <u>a</u> dispersés ;<br /><span class=\"verse_number\">4</span> là, vous montrer<u>e</u>z sa grandeur :<br />\nexaltez-le à la f<u>a</u>ce des vivants.<br /><br />\nIl est notre Die<u>u</u>, notre Père,<br />\nle Seigneur, pour les si<u>è</u>cles des siècles !<br /><br /><span class=\"verse_number\">5</span> Il vous frapp<u>a</u>it pour vos péchés,<br />\nmainten<u>a</u>nt il fait grâce :<br />\nil vous rassemble de to<u>u</u>tes les nations<br />\noù vous éti<u>e</u>z disséminés.<br /><br /><span class=\"verse_number\">6</span> Si vous revenez vers lui de cœur et d'âme +<br />\npour vivre, dans la vérit<u>é</u>, devant lui, *<br />\nalors il reviendra vers vous<br />\n   et jamais plus ne cacher<u>a</u> sa face.<br /><br /><span class=\"verse_number\">7</span> Regardez ce qu'il a f<u>a</u>it pour vous,<br />\nrendez-lui gr<u>â</u>ce à pleine voix !<br />\nBénissez le Seigne<u>u</u>r de justice,<br />\nexalt<u>e</u>z le Roi des siècles !<br /><br /><span class=\"verse_number\">8</span> Et moi, en terre d'ex<u>i</u>l, je lui rends grâce ; *<br />\nje montre sa grandeur et sa force<br />\n   au pe<u>u</u>ple des pécheurs.<br /><br />\n« Revenez, pécheurs, +<br />\net vivez devant lu<u>i</u> dans la justice. *<br />\nQui sait s'il ne vous rendra pas<br />\n   son amo<u>u</u>r et sa grâce ! »<br /><br /><span class=\"verse_number\">9</span> J'exalterai mon Die<u>u</u>, le roi du ciel ;<br />\nmon âme se réjou<u>i</u>t de sa grandeur.<br />\nBénissez le Seigneur, vo<u>u</u>s, les élus !<br />\nFêtez-l<u>e</u>, rendez-lui grâce !</p>"""),
   "AT_10": Psalm(
       title: "Cantique de la Sagesse",
       subtitle: "Prière pour obtenir la Sagesse",
@@ -1325,8 +1600,17 @@ final Map<String, Psalm> psalms = {
           "La création aspire de toutes ses forces à voir la révélation des fils de Dieu. (Rm 8, 19)",
       content:
           """<p><span class="verse_number">57</span> Toutes les œ<u>u</u>vres du Seigneur,<br />\n   bénissez le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br /><span class="verse_number">58</span> Vous, les <u>a</u>nges du Seigneur,<br />\n   bénissez le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br /><span class="verse_number">59</span> Vo<u>u</u>s, les cieux,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">60</span> et vous, les ea<u>u</u>x par-dessus le ciel,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">61</span> et toutes les puiss<u>a</u>nces du Seigneur,<br />\n   bénissez le Seigneur !<br /><br /><span class="verse_number">62</span> Et vous, le sol<u>e</u>il et la lune,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">63</span> et vous, les <u>a</u>stres du ciel,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">64</span> vous toutes, plu<u>i</u>es et rosées,<br />\n   bénissez le Seigneur !<br /><br /><span class="verse_number">65</span> Vous tous, so<u>u</u>ffles et vents,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">66</span> et vous, le fe<u>u</u> et la chaleur,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">67</span> et vous, la fraîche<u>u</u>r et le froid,<br />\n   bénissez le Seigneur !<br /><br /><span class="verse_number">68</span> Et vous, le g<u>i</u>vre et la rosée,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">69</span> et vous, le g<u>e</u>l et le froid,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">70</span> et vous, la gl<u>a</u>ce et la neige,<br />\n   bénissez le Seigneur !<br /><br /><span class="verse_number">71</span> Et vous, les nu<u>i</u>ts et les jours,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">72</span> et vous, la lumi<u>è</u>re et les ténèbres,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">73</span> et vous, les écl<u>a</u>irs, les nuées,<br />\n   bénissez le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br /><span class="verse_number">74</span> Que la terre bén<u>i</u>sse le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br /><span class="verse_number">75</span> Et vous, mont<u>a</u>gnes et collines,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">76</span> et vous, les pl<u>a</u>ntes de la terre,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">77</span> et vous, so<u>u</u>rces et fontaines,<br />\n   bénissez le Seigneur !<br /><br /><span class="verse_number">78</span> Et vous, océ<u>a</u>ns et rivières,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">79</span> baleines et b<u>ê</u>tes de la mer,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">80</span> vous tous, les oisea<u>u</u>x dans le ciel,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">81</span> vous tous, fa<u>u</u>ves et troupeaux<br />\n   bénissez le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br /><span class="verse_number">82</span> Et vous, les enf<u>a</u>nts des hommes,<br />\n   bénissez le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br /><span class="verse_number">83</span> Toi, Israël,<br />\n   bénis le Seigneur,<br /><span class="verse_number">84</span> Et vo<u>u</u>s, les prêtres,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">85</span> vo<u>u</u>s, ses serviteurs,<br />\n   bénissez le Seigneur !<br /><br /><span class="verse_number">86</span> Les esprits et les <u>â</u>mes des justes,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">87</span> les saints et les h<u>u</u>mbles de cœur,<br />\n   bénissez le Seigneur,<br /><span class="verse_number">88</span> Ananias, Azari<u>a</u>s et Misaël,<br />\n   bénissez le Seigneur :<br />\nÀ lui, haute gloire, louange éternelle !<br /><br />\nBénissons le Père, le F<u>i</u>ls et l’Esprit Saint :<br />\nÀ lui, haute gloire, louange éternelle !<br /><span class="verse_number">56</span> Béni sois-tu, Seigneur, au firmam<u>e</u>nt du ciel :<br />\nÀ toi, haute gloire, louange éternelle !</p>"""),
+  "AT_32": Psalm(
+      title: "Cantique d'Isaïe",
+      subtitle: "Consolation et joie dans la sainte cité",
+      biblicalReference: "Is 66",
+      shortReference: "AT 32",
+      commentary:
+          "La Jérusalem d'en haut est libre, et c'est elle notre Mère. (Ga 5, 26)",
+      content:
+          """<p><span class=\"verse_number\">10</span> À vous, l'allégresse de Jérusalem ! +<br />\nExultez en elle, vous to<u>u</u>s qui l'aimez ! *<br />\nRéjouissez-vous de sa joie,<br />\nvo<u>u</u>s qui la pleuriez !<br /><br /><span class=\"verse_number\">11</span> Alors, vous serez nourris de son lait,<br />\nrassasi<u>é</u>s de ses consolations ; *<br />\nalors, vous goûterez avec délices<br />\nà l'abond<u>a</u>nce de sa gloire.<br /><br /><span class=\"verse_number\">12</span> Car le Seigne<u>u</u>r le déclare : +<br />\n« Voici que je dirige vers elle<br />\nla p<u>a</u>ix comme un fleuve *<br />\net, comme un torrent qui déborde,<br />\nla gl<u>o</u>ire des nations. »<br /><br />\nVous serez nourris, port<u>é</u>s sur la hanche ; +<br />\nvous serez choy<u>é</u>s sur ses genoux. *<br /><span class=\"verse_number\">13</span> Comme un enfant que sa mère console,<br />\nains<u>i</u>, je vous consolerai.<br /><br />\nOui, dans Jérusalem, vous ser<u>e</u>z consolés. +<br /><span class=\"verse_number\">14</span> Vous verrez, votre cœ<u>u</u>r se réjouira ; *<br />\net vos os revivront<br />\ncomme l'h<u>e</u>rbe reverdit.</p>"""),
   "AT_34": Psalm(
-      title: "Cantique des Jérémie",
+      title: "Cantique de Jérémie",
       subtitle: "Lamentation du peuple au temps de la famine",
       biblicalReference: "Jr 14",
       shortReference: "AT 34",
@@ -1334,6 +1618,15 @@ final Map<String, Psalm> psalms = {
           "Le règne de Dieu est tout proche. Convertissez-vous et croyez à la Bonne Nouvelle. (Mc 1, 15)",
       content:
           """<p><span class=\"verse_number\">17</span> Que tombent, de mes ye<u>u</u>x, mes larmes,<br>sans arrêter ni le jo<u>u</u>r ni la nuit !<br><br>Elle est blessée d'une grande blessure,<br>la vierge, la f<u>i</u>lle de mon peuple, *<br>meurtrie d'une pl<u>a</u>ie profonde.<br><br><span class=\"verse_number\">18</span> Si je sors dans la campagne,<br>voici les vict<u>i</u>mes du glaive ; *<br>si j'entre dans la ville, <br>voici les souffr<u>a</u>nts de la faim.<br><br>Même le prêtre, m<u>&ecirc;</u>me le prophète<br>qui parcourt le pays, ne comprend pas.<br><br><span class=\"verse_number\">19</span> As-tu donc rejeté Juda ? +<br>Es-tu pris de dégo<u>&ucirc;</u>t pour Sion ? *<br>Pourquoi nous frapp<u>e</u>r sans remède ?<br><br>Nous attendions la paix, et ri<u>e</u>n de bon ! *<br>le temps du remède, et voic<u>i</u> l'épouvante !<br><br><span class=\"verse_number\">20</span> Seigneur, nous connaissons le mal,<br>la fa<u>u</u>te de nos pères : *<br>oui, nous avons péch<u>&eacute;</u> contre toi !<br><br><span class=\"verse_number\">21</span> Ne nous méprise pas,<br>à ca<u>u</u>se de ton nom ; *<br>n'humilie pas le tr<u>&ocirc;</u>ne de ta gloire !<br><br>Rapp<u>e</u>lle-toi : *<br>ne romps pas ton alli<u>a</u>nce avec nous !</p>"""),
+  "AT_38": Psalm(
+      title: "Cantique d'Ézéchiel",
+      subtitle: "Dieu renouvelle son peuple ",
+      biblicalReference: "Ez 36",
+      shortReference: "AT 38",
+      commentary:
+          "Dieu demeurera avec eux, et ils seront son peuple ; Dieu lui-même sera avec eux. (Ap 21, 3)",
+      content:
+          """<p><span class=\"verse_number\">24</span> Je vous prendrai du milie<u>u</u> des nations, +<br />\nje vous rassemblerai de to<u>u</u>s les pays,<br />\nje vous conduir<u>a</u>i dans votre terre.<br /><br /><span class=\"verse_number\">25</span> Je répandrai sur vous une eau pure,<br />\n   et vous ser<u>e</u>z purifiés ; *<br />\nde toutes vos souillures, de toutes vos idoles,<br />\n   j<u>e</u> vous purifierai.<br /><br /><span class=\"verse_number\">26</span> Je vous donnerai un cœ<u>u</u>r nouveau,<br />\nje mettrai en vous un espr<u>i</u>t nouveau.<br /><br />\nJ'ôterai de votre ch<u>a</u>ir le cœur de pierre,<br />\nje vous donner<u>a</u>i un cœur de chair.<br /><br /><span class=\"verse_number\">27</span> Je mettrai en vo<u>u</u>s mon esprit, +<br />\nje ferai que vous marchi<u>e</u>z selon mes lois, *<br />\nque vous gardiez mes préceptes<br />\n   et leur soy<u>e</u>z fidèles.<br /><br /><span class=\"verse_number\">28</span> Vous habiterez le pays<br />\n   que j'ai donn<u>é</u> à vos pères : +<br />\nvous, vous ser<u>e</u>z mon peuple, *<br />\net moi, je ser<u>a</u>i votre Dieu.</p>"""),
   "AT_40": Psalm(
       title: "Cantique des trois enfants",
       subtitle: "Louange de la création",

@@ -8,9 +8,6 @@ void main() {
   Calendar calendar = Calendar(); //initialisation du calendrier
 
   calendar = checkAndFillCalendar(calendar, DateTime(2025, 6, 23), 'lyon');
-  List<MapEntry<int, String>> dayFeasts =
-      calendar.getSortedItemsForDay(DateTime(2025, 2, 9));
-  print(dayFeasts);
 
   // lancement de la génération des Laudes pour le jour demandé:
   Map<String, Morning> ferialMorning =

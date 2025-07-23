@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'classes/calendar_class.dart'; // cette classe définit calendar
 import 'common_calendar.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
 import 'feasts/common_feats.dart'; //liste des fêtes de l'Église universelle
@@ -463,53 +462,6 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     case 'europe':
       calendar = addEuropeFeasts(calendar, liturgicalYear, generalCalendar);
   }
-
-  return calendar;
-}
-
-Calendar checkAndFillCalendar(
-    Calendar calendar, DateTime date, String location) {
-  // fonction d'ajout des années manquantes si besoin
-  final calendarFile = File('./bin/assets/calendar.json');
-  // vérification que le fichier existe
-  if (!calendarFile.existsSync()) {
-    calendar.calendarData
-        .addAll(calendarFill(calendar, date.year, location).calendarData);
-    calendar.exportToJsonFile('./bin/assets/calendar.json');
-    return calendar;
-  } else {
-    String jsonString = calendarFile.readAsStringSync(); // Lecture synchrone
-    if (jsonString.trim().isEmpty) {
-      // vérifier que le fichier n'est pas vide, auquel cas le rempli de l'année demandé
-      calendar.calendarData
-          .addAll(calendarFill(calendar, date.year, location).calendarData);
-      calendar.exportToJsonFile('./bin/assets/calendar.json');
-      return calendar;
-    }
-    // si le fichier existe et n'est pas vide, le lire
-    calendar = Calendar.importFromJsonFile('./bin/assets/calendar.json');
-    if (calendar.calendarData.isEmpty) {
-      calendar.calendarData.addAll(calendarFill(calendar, date.year, location)
-          as Map<DateTime, DayContent>);
-      calendar.exportToJsonFile('./bin/assets/calendar.json');
-      return calendar;
-    }
-  }
-// Si le fichier ne contenait pas la date demandée, on rajoute les années manquantes.
-  DateTime firstDate = calendar.calendarData.keys.first;
-  DateTime lastDate = calendar.calendarData.keys.last;
-  if (date.isBefore(firstDate)) {
-    calendar = Calendar();
-    for (int year = date.year; year <= firstDate.year; year++) {
-      calendar = calendarFill(calendar, year, location);
-    }
-  } else if (date.isAfter(lastDate)) {
-    for (int year = lastDate.year + 1; year <= date.year; year++) {
-      calendar = calendarFill(calendar, year, location);
-    }
-  }
-
-  calendar.exportToJsonFile('./bin/assets/calendar.json');
 
   return calendar;
 }

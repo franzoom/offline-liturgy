@@ -14,6 +14,7 @@ import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../assets/psalms_data/psalms.dart';
 import '../tools/days_name.dart';
+import '../tools/check_and_fill_calendar.dart';
 
 Map<String, ComplineDefinition> complineDefinitionResolution(
     Calendar calendar, DateTime date, location) {

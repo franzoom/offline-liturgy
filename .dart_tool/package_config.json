@@ -3,15 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-85.0.0",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-86.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/analyzer-7.5.5",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/analyzer-8.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.7"
     },
     {
       "name": "args",
@@ -51,7 +51,7 @@
     },
     {
       "name": "coverage",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/coverage-1.14.1",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/coverage-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -123,9 +123,9 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/meta-1.17.0",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/meta-1.16.0",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "2.12"
     },
     {
       "name": "mime",
@@ -231,19 +231,19 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/test-1.26.2",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/test-1.26.3",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/test_api-0.7.6",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/test_api-0.7.7",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/test_core-0.6.11",
+      "rootUri": "file:///Users/franclab/.pub-cache/hosted/pub.dev/test_core-0.6.12",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -305,6 +305,6 @@
   "generator": "pub",
   "generatorVersion": "3.8.1",
   "flutterRoot": "file:///opt/homebrew/Caskroom/flutter/3.16.0/flutter",
-  "flutterVersion": "3.32.5",
+  "flutterVersion": "3.32.7",
   "pubCache": "file:///Users/franclab/.pub-cache"
 }

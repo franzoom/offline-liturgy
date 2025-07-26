@@ -1,7 +1,4 @@
-import 'classes/calendar_class.dart'; //classe de calendar
-import './calendar_fill.dart';
-import './classes/compline_class.dart';
-import './offices/compline.dart';
+import 'offline_liturgy.dart';
 
 //import 'classes/complineHymn_class.dart';
 

@@ -470,12 +470,12 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 Calendar checkAndFillCalendar(
     Calendar calendar, DateTime date, String location) {
   // fonction d'ajout des années manquantes si besoin
-  final calendarFile = File('./bin/assets/calendar.json');
+  final calendarFile = File('./lib/assets/calendar.json');
   // vérification que le fichier existe
   if (!calendarFile.existsSync()) {
     calendar.calendarData
         .addAll(calendarFill(calendar, date.year, location).calendarData);
-    calendar.exportToJsonFile('./bin/assets/calendar.json');
+    calendar.exportToJsonFile('./lib/assets/calendar.json');
     return calendar;
   } else {
     String jsonString = calendarFile.readAsStringSync(); // Lecture synchrone
@@ -483,15 +483,15 @@ Calendar checkAndFillCalendar(
       // vérifier que le fichier n'est pas vide, auquel cas le rempli de l'année demandé
       calendar.calendarData
           .addAll(calendarFill(calendar, date.year, location).calendarData);
-      calendar.exportToJsonFile('./bin/assets/calendar.json');
+      calendar.exportToJsonFile('./lib/assets/calendar.json');
       return calendar;
     }
     // si le fichier existe et n'est pas vide, le lire
-    calendar = Calendar.importFromJsonFile('./bin/assets/calendar.json');
+    calendar = Calendar.importFromJsonFile('./lib/assets/calendar.json');
     if (calendar.calendarData.isEmpty) {
       calendar.calendarData.addAll(calendarFill(calendar, date.year, location)
           as Map<DateTime, DayContent>);
-      calendar.exportToJsonFile('./bin/assets/calendar.json');
+      calendar.exportToJsonFile('./lib/assets/calendar.json');
       return calendar;
     }
   }
@@ -509,7 +509,7 @@ Calendar checkAndFillCalendar(
     }
   }
 
-  calendar.exportToJsonFile('./bin/assets/calendar.json');
+  calendar.exportToJsonFile('./lib/assets/calendar.json');
 
   return calendar;
 }

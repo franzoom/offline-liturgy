@@ -24,4 +24,7 @@ void main() {
     complineDisplay(compline);
     print('=========================');
   });
+
+  String json = exportComplineToAelfJson(calendar, DateTime(2025, 10, 23), 'lyon');
+  print ("json: $json");
 }

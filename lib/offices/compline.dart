@@ -14,6 +14,7 @@ import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../assets/psalms_data/psalms.dart';
 import '../tools/days_name.dart';
+import 'dart:convert';
 
 Map<String, ComplineDefinition> complineDefinitionResolution(
     Calendar calendar, DateTime date, location) {
@@ -296,4 +297,72 @@ void complineDisplay(Compline compline) {
   selectedHymns =
       filterHymnsByCodes(compline.marialHymnRef!, complineHymnsContent);
   displayHymns(selectedHymns);
+}
+
+String exportComplineToAelfJson(Calendar calendar, DateTime date, String location) {
+  final complineDef = complineDefinitionResolution(calendar, date, location);
+  final complineMap = complineTextCompilation(complineDef);
+  final compline = complineMap.values.first;
+
+  // Extract hymn
+  Map<String, dynamic>? hymnJson;
+  if (compline.complineHymns != null && compline.complineHymns!.isNotEmpty) {
+    final hymn = complineHymnsContent[compline.complineHymns!.first];
+    if (hymn != null) {
+      hymnJson = {
+        'auteur': hymn.author,
+        'titre': hymn.title,
+        'texte': hymn.content,
+      };
+    }
+  }
+
+  // Extract marial hymn
+  Map<String, dynamic>? marialHymnJson;
+  if (compline.marialHymnRef != null && compline.marialHymnRef!.isNotEmpty) {
+    final marialHymn = complineHymnsContent[compline.marialHymnRef!.first];
+    if (marialHymn != null) {
+      marialHymnJson = {
+        'titre': marialHymn.title,
+        'texte': marialHymn.content,
+      };
+    }
+  }
+
+  final jsonMap = {
+    'informations': {
+      'date': date.toIso8601String().split('T').first,
+      'zone': location,
+      // Add more fields as needed from calendar or day content
+    },
+    'complies': {
+      'introduction': null, // Not available in current data
+      'hymne': hymnJson,
+      'antienne_1': compline.complinePsalm1Antiphon1,
+      'psaume_1': {
+        'reference': compline.psalm1Ref,
+        'texte': compline.psalm1Ref != null ? psalms[compline.psalm1Ref]?.getContent : null,
+      },
+      'antienne_2': compline.complinePsalm2Antiphon1,
+      'psaume_2': compline.psalm2Ref != null && compline.psalm2Ref != ''
+          ? {
+              'reference': compline.psalm2Ref,
+              'texte': psalms[compline.psalm2Ref]?.getContent,
+            }
+          : null,
+      'pericope': {
+        'reference': compline.complineReadingRef,
+        'texte': compline.complineReading,
+      },
+      'repons': compline.complineResponsory,
+      'antienne_symeon': compline.complineEvangelicAntiphon,
+      'cantique_symeon': null, // Not available in current data
+      'oraison': compline.complineOration?.join('\n'),
+      'benediction': null, // Not available in current data
+      'hymne_mariale': marialHymnJson,
+    }
+  };
+
+  final jsonString = JsonEncoder.withIndent('  ').convert(jsonMap);
+  return jsonString;
 }

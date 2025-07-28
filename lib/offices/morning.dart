@@ -7,30 +7,31 @@ import '../tools/days_name.dart';
 import '../tools/extract_week_and_day.dart';
 
 bool detectFerialDays(String celebrationName) {
-  // détecte si le nom du jour correspnd à un jour de férie (pour éliminer les jours de fête, à traiter à part)
+  // ferial day detection
   final prefixes = ['OT', 'ADVENT', 'LENT', 'CHRISMAS', 'PT'];
   return prefixes.any((prefix) => celebrationName.startsWith(prefix));
 }
 
 Map<String, Morning> ferialMorningResolution(
     Calendar calendar, DateTime date, location) {
-//fonction de résolution des Laudes pour le cas des féries (on surajoutera le reste ensuite)
-  Morning ferialMorning = Morning(); // création de l'instance ferialMorning
+  // if it's a ferial day, execution of the morning prayer resolution.
+  // other layers will be added after
+  Morning ferialMorning = Morning(); // creation of the instance ferialMorning
   final calendarDay = calendar.getDayContent(date);
   final celebrationName = calendarDay?.defaultCelebration;
   if (!detectFerialDays(celebrationName!)) {
-    // si ce n'est pas une fête de férie, retourner un ensemble vide
+    // if it's not a ferial day, return an empty ferialMorning instance
     return {celebrationName: ferialMorning};
   }
 
   if (celebrationName.startsWith('OT')) {
-    //Si on est dans le temps ordinaire
+    // If it's Ordinary Time, then:
     if (celebrationName.contains('SUNDAY')) {
-      final int weekNumber = int.parse(
-          celebrationName[celebrationName.length - 1]); // numéro de semaine
+      // special case of Sunday
+      final int weekNumber = int.parse(celebrationName[
+          celebrationName.length - 1]); // week number calculation
 
-      //récupération des infos d'un des 4 premiers dimanches
-      // auquel on ajoutera les infos du dimanche s'il est supérieur à 4
+      // retrieval of the corresponding datas of one of the 4 first sundays,
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
       final dataFile =
           File('../assets/morning/data/OT_SUNDAY_$referenceWeekNumber');
@@ -39,7 +40,7 @@ Map<String, Morning> ferialMorningResolution(
       ferialMorning = Morning.fromJson(fileExtracted);
 
       if (weekNumber > 4) {
-        //si c'est un autre dimanche, on intègre les antiennes de ce dimanche aux données des 4 premières semaines
+        // then add the data of the actuel sunday if it's over the 4th week
         final auxFile = File('./bin/assets/morning/data/OT_SUNDAY_$weekNumber');
         String auxContent = auxFile.readAsStringSync();
         var auxExtracted = jsonDecode(auxContent);
@@ -49,8 +50,8 @@ Map<String, Morning> ferialMorningResolution(
             sundayAuxData); // ajoute les champs de AuxData dans sundayData
       }
     } else {
-      // si c'est en semaine, on prend le modulo à 4 pour n'utiliser les données
-      // que des 4 premières semaines
+      // it's a week day. So we use only the 4 1rst weeks of the Ordinary Time
+      // (we use a modulo to retreive the effective day)
       List dayDatas = extractWeekAndDay(celebrationName, "OT");
       int weekNumber = dayDatas[0];
       int dayNumber = dayDatas[1];
@@ -70,7 +71,7 @@ Map<String, Morning> ferialMorningResolution(
     ferialMorning.psalm2Ref = morningPsalmList?[1];
     ferialMorning.psalm3Ref = morningPsalmList?[2];
     return {celebrationName: ferialMorning};
-  } // fin du traitement du Temps Ordinaire
+  } // end of the Ordinary Time
 
   //pour les autres temps liturgiques de Férie:
   final dataFile = File('../assets/morning/data/$celebrationName');

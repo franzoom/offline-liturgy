@@ -73,7 +73,10 @@ Map<String, Morning> ferialMorningResolution(
     return {celebrationName: ferialMorning};
   } // end of the Ordinary Time
 
-  //pour les autres temps liturgiques de Férie:
+  if (celebrationName.startsWith('ADVENT')) {
+    // for the Advent Time
+  }
+  //for the other ferial times:
   final dataFile = File('../assets/morning/data/$celebrationName');
   String fileContent = dataFile.readAsStringSync();
   final fileExtracted = jsonDecode(fileContent);

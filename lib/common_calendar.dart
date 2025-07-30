@@ -42,7 +42,7 @@ DateTime baptism(DateTime epiphanyDay) {
   return epiphanyDay.add(Duration(days: daystoAdd));
 }
 
-DateTime secondSunday_OT(DateTime epiphanyDay) {
+DateTime secondSundayOT(DateTime epiphanyDay) {
   // renvoie le jour du deuxième dimanche du Temps Ordinaire.
   // Si l'Epiphanie tombe le 7 ou 8, le dimanche suivant est le 2èmeTO
   // autrement c'est 2 dimanches après l'Epiphanie (celui qui suit le Baptême).
@@ -219,7 +219,7 @@ createLiturgicalDays(int year) {
   liturgicalDays['EPIPHANY'] = epiphany(year);
   liturgicalDays['BAPTISM'] = baptism(liturgicalDays['EPIPHANY']!);
   liturgicalDays['SECOND_SUNDAY_OT'] =
-      secondSunday_OT(liturgicalDays['EPIPHANY']!);
+      secondSundayOT(liturgicalDays['EPIPHANY']!);
   liturgicalDays['EASTER'] = easter(year);
   liturgicalDays['ASHES'] = ashes(liturgicalDays['EASTER']!);
   liturgicalDays['PALMS'] = palms(liturgicalDays['EASTER']!);

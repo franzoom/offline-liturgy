@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
-import '../classes/calendar_class.dart'; //classe de calendar
+import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../assets/psalms_data/morning_psalms.dart';
 import '../tools/days_name.dart';
@@ -41,7 +41,7 @@ Map<String, Morning> ferialMorningResolution(
 
       if (weekNumber > 4) {
         // then add the data of the actuel sunday if it's over the 4th week
-        final auxFile = File('./bin/assets/morning/data/OT_SUNDAY_$weekNumber');
+        final auxFile = File('../assets/morning/data/OT_SUNDAY_$weekNumber');
         String auxContent = auxFile.readAsStringSync();
         var auxExtracted = jsonDecode(auxContent);
         final sundayAuxData = Morning.fromJson(auxExtracted);
@@ -50,14 +50,14 @@ Map<String, Morning> ferialMorningResolution(
             sundayAuxData); // ajoute les champs de AuxData dans sundayData
       }
     } else {
-      // it's a week day. So we use only the 4 1rst weeks of the Ordinary Time
+      // it's a week day. So we use only the 4 first weeks of the Ordinary Time
       // (we use a modulo to retreive the effective day)
       List dayDatas = extractWeekAndDay(celebrationName, "OT");
       int weekNumber = dayDatas[0];
       int dayNumber = dayDatas[1];
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
       final dataFile = File(
-          './bin/assets/morning/data/OT_${referenceWeekNumber}_$dayNumber.json');
+          './lib/assets/morning/data/OT_${referenceWeekNumber}_$dayNumber.json');
       String fileContent = dataFile.readAsStringSync();
       final fileExtracted = jsonDecode(fileContent);
       ferialMorning = Morning.fromJson(fileExtracted);

@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'classes/calendar_class.dart'; // cette classe définit calendar
 import 'common_calendar.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
-import 'feasts/common_feats.dart'; //liste des fêtes de l'Église universelle
+import 'feasts/common_feasts.dart'; //liste des fêtes de l'Église universelle
 import './feasts/locations/lyon.dart';
 import './feasts/locations/france.dart';
 import './feasts/locations/europe.dart';
@@ -424,7 +424,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
   eventName = 'SAINT_JOSEPH';
   calendar.addItemToDay(generalCalendar[eventName]!, 4, eventName);
-  eventName = 'TRINITY';
+  eventName = 'HOLY_TRINITY';
   calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
   eventName = 'CORPUS_DOMINI';
   calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);

@@ -230,7 +230,7 @@ createLiturgicalDays(int year) {
   liturgicalDays['SAINT_JOSEPH'] = saintJoseph(liturgicalDays['EASTER']!);
   liturgicalDays['ASCENSION'] = ascension(liturgicalDays['EASTER']!);
   liturgicalDays['PENTECOST'] = pentecost(liturgicalDays['EASTER']!);
-  liturgicalDays['TRINITY'] = trinity(liturgicalDays['EASTER']!);
+  liturgicalDays['HOLY_TRINITY'] = trinity(liturgicalDays['EASTER']!);
   liturgicalDays['CORPUS_DOMINI'] = corpusChristi(liturgicalDays['EASTER']!);
   liturgicalDays['SACRED_HEART'] = sacredHeart(liturgicalDays['EASTER']!);
   liturgicalDays['saint_pieter_and_saint_paul'] =

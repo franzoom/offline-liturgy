@@ -14,6 +14,7 @@ import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../assets/psalms_data/psalms.dart';
 import '../tools/days_name.dart';
+import '../tools/check_and_fill_calendar.dart';
 import 'dart:convert';
 
 Map<String, ComplineDefinition> complineDefinitionResolution(
@@ -299,7 +300,8 @@ void complineDisplay(Compline compline) {
   displayHymns(selectedHymns);
 }
 
-String exportComplineToAelfJson(Calendar calendar, DateTime date, String location) {
+String exportComplineToAelfJson(
+    Calendar calendar, DateTime date, String location) {
   final complineDef = complineDefinitionResolution(calendar, date, location);
   final complineMap = complineTextCompilation(complineDef);
   final compline = complineMap.values.first;
@@ -341,7 +343,9 @@ String exportComplineToAelfJson(Calendar calendar, DateTime date, String locatio
       'antienne_1': compline.complinePsalm1Antiphon1,
       'psaume_1': {
         'reference': compline.psalm1Ref,
-        'texte': compline.psalm1Ref != null ? psalms[compline.psalm1Ref]?.getContent : null,
+        'texte': compline.psalm1Ref != null
+            ? psalms[compline.psalm1Ref]?.getContent
+            : null,
       },
       'antienne_2': compline.complinePsalm2Antiphon1,
       'psaume_2': compline.psalm2Ref != null && compline.psalm2Ref != ''

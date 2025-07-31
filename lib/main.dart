@@ -1,6 +1,7 @@
 import 'offline_liturgy.dart';
 import './classes/morning_class.dart';
 import './offices/morning.dart';
+import '../tools/check_and_fill_calendar.dart';
 
 //import 'classes/complineHymn_class.dart';
 
@@ -28,6 +29,7 @@ void main() {
     print('=========================');
   });
 
-  String json = exportComplineToAelfJson(calendar, DateTime(2025, 10, 23), 'lyon');
-  print ("json: $json");
+  String json =
+      exportComplineToAelfJson(calendar, DateTime(2025, 10, 23), 'lyon');
+  print("json: $json");
 }

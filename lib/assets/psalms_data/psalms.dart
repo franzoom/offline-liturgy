@@ -2142,6 +2142,14 @@ final Map<String, Psalm> psalms = {
       commentary: "",
       content:
           """<p><span class="verse_number">R/</span> Gloire à toi, premier-né d’entre les morts !<br /><br /><span class="verse_number">12</span> Rendons grâce à Die<u>u</u> le Père, +<br />\nlui qui nous a donné<br />\n   d’avoir part à l’hérit<u>a</u>ge des saints, *<br />\nd<u>a</u>ns la lumière.<br /><br /><span class="verse_number">13</span> Nous arrachant à la puiss<u>a</u>nce des ténèbres, +<br />\nil nous a placés<br />\n   dans le Royaume de son F<u>i</u>ls bien-aimé : *<br /><span class="verse_number">14</span> en lui nous avons le rachat,<br />\n   le pard<u>o</u>n des péchés. <span class="verse_number">R/</span><br /><br /><span class="verse_number">15</span> Il est l’image du Die<u>u</u> invisible, +<br />\n   le premier-né, avant to<u>u</u>te créature : *<br /><span class="verse_number">16</span> en lui, tout fut créé,<br />\n   dans le ci<u>e</u>l et sur la terre.<br /><br />\nLes êtres vis<u>i</u>bles et invisibles, +<br />\npuissances, principautés,<br />\n   souverainet<u>é</u>s, dominations, *<br />\ntout est créé par lu<u>i</u> et pour lui.<br /><br /><span class="verse_number">17</span> Il est avant to<u>u</u>te chose,<br />\net tout subs<u>i</u>ste en lui. <span class="verse_number">R/</span><br /><br /><span class="verse_number">18</span> Il est aussi la t<u>ê</u>te du corps, la tête de l’Église : +<br />\nc’est lui le commencement,<br />\n   le premier-n<u>é</u> d’entre les morts, *<br />\nafin qu’il ait en to<u>u</u>t la primauté.<br /><br /><span class="verse_number">19</span> Car Dieu a jugé bon<br />\n   qu’habite en lui to<u>u</u>te plénitude *<br /><span class="verse_number">20</span> et que tout, par le Christ,<br />\n   lui soit enf<u>i</u>n réconcilié,<br /><br />\nfaisant la paix par le s<u>a</u>ng de sa Croix, *<br />\nla paix pour tous les êtres<br />\n   sur la t<u>e</u>rre et dans le ciel. <span class="verse_number">R/</span></p>"""),
+  "NT_7": Psalm(
+      title: "",
+      subtitle: "",
+      biblicalReference: "1Tm 3",
+      shortReference: "NT 7",
+      commentary: "",
+      content:
+          """<p><span class="verse_number">16</span>Christ,<br>manifest<u>é</u> dans la chair,<br>justifi<u>é</u> dans l'Esprit,<br><br>appar<u>u</u> aux anges,<br>proclam<u>é</u> dans les nations,<br><br>cr<u>u</u> dans le monde,<br>enlev<u>é</u> dans la gloire&nbsp;!</p>"""),
   "NT_8": Psalm(
       title: "Cantique de Pierre",
       subtitle: "Le Christ, Sauveur",

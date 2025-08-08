@@ -28,6 +28,7 @@ Communs
 
 - Les communs ont comme dénomination x_y_z. Chaque couche écrase la précédente, on commence par x. Par exemple martyr_female_virgin récupère martyr, superpose female, et enfin virgin.
 - le moteur doit rechercher aussi automatiquement s'il existe un fichier x\_{temps_liturgique}. par exemple pour doctors, on va trouver doctors_lent, qu'il faut récupérer et superposer à doctors si on est en Carême.
+- commun des Docteurs: se superpose à celui des Saints, Pasteurs, Vierges ou Saintes...
 
 À faire
 

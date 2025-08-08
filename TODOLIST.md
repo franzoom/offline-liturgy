@@ -35,6 +35,8 @@ Communs
 - Commun de la dédicace: trouver le texte pour la lecture biblique en temps pascal, avent, Noël et Carême
 - Pareil pour le commun de la Vierge Marie
 - Pareil pour Commun des Apôtres
+- Vérifier le Répons après la lecture du commun de saints mariés pour les temps non Ordinaires
+- Vérifier les textes bibliques pour le commun des Saints (multiples choix, pas tous trouvés...) et les répons qui suivent
 
 - Mettre les Hymnes des communs dans la bibliothèque pour faire un appel simple dans le json
 - Mémoire de la Sainte Vierge le samedi: Le proposer dans l’office

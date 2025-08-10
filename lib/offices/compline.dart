@@ -268,7 +268,7 @@ void complineDisplay(Compline compline) {
   }
   print('------ HYMNES ------');
   Map<String, Hymns> selectedHymns =
-      filterHymnsByCodes(compline.complineHymns!, complineHymnsContent);
+      filterHymnsByCodes(compline.complineHymns!, hymnsLibraryContent);
   displayHymns(selectedHymns);
   print('Psalm 1 Antiphon 1: ${compline.complinePsalm1Antiphon1}');
   print('Psalm 1 Antiphon 2: ${compline.complinePsalm1Antiphon2}');
@@ -296,7 +296,7 @@ void complineDisplay(Compline compline) {
   print('Oration: ${compline.complineOration}');
   print('------ HYMNES MARIALES ------');
   selectedHymns =
-      filterHymnsByCodes(compline.marialHymnRef!, complineHymnsContent);
+      filterHymnsByCodes(compline.marialHymnRef!, hymnsLibraryContent);
   displayHymns(selectedHymns);
 }
 
@@ -309,7 +309,7 @@ String exportComplineToAelfJson(
   // Extract hymn
   Map<String, dynamic>? hymnJson;
   if (compline.complineHymns != null && compline.complineHymns!.isNotEmpty) {
-    final hymn = complineHymnsContent[compline.complineHymns!.first];
+    final hymn = hymnsLibraryContent[compline.complineHymns!.first];
     if (hymn != null) {
       hymnJson = {
         'auteur': hymn.author,
@@ -322,7 +322,7 @@ String exportComplineToAelfJson(
   // Extract marial hymn
   Map<String, dynamic>? marialHymnJson;
   if (compline.marialHymnRef != null && compline.marialHymnRef!.isNotEmpty) {
-    final marialHymn = complineHymnsContent[compline.marialHymnRef!.first];
+    final marialHymn = hymnsLibraryContent[compline.marialHymnRef!.first];
     if (marialHymn != null) {
       marialHymnJson = {
         'titre': marialHymn.title,

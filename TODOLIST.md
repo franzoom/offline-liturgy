@@ -1,11 +1,19 @@
 Hymnes du milieu du jour:
 
-- Mettre en automatique pour temps pas ordinaire
-- Pour TO, plusieurs propositions en fonction de sexte ou none
-  —> à retravailler
+Structure de la classe regroupant les offices
+
+- bien penser à ajouter les psaumes du milieu du jour
 
 Office des lectures:
 Il peut y avoir plusieurs textes bibliques ou patristiques, donc chercher la clef 2 ou 3 si elles existent
+
+Milieu du jour
+
+- psaumes qui sont différents pour l'office des défunts
+- travailler la question des psaumes graduels
+- Mettre en automatique les hymnes pour le temps pas ordinaire
+- Pour TO, plusieurs propositions en fonction de sexte ou none
+  —> à retravailler
 
 Invitatoire
 Il peut y en avoir plusieurs, chercher la clef 2
@@ -20,9 +28,6 @@ Ne pas appliquer cela à l’antienne d’invitatoire
 
 Intercession
 Chercher la clef 2
-
-Hymne
-Chercher la
 
 Communs
 

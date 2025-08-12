@@ -11,6 +11,7 @@ Milieu du jour
 
 - psaumes qui sont différents pour l'office des défunts
 - travailler la question des psaumes graduels
+- des psaumes sont intégrés dans le propre. Mais pour le 1er janvier par exemple, ils doivent être remplacés par 117_1, 2 et 3 le dimanche. Voir c'est c'est une généralité.
 - Mettre en automatique les hymnes pour le temps pas ordinaire
 - Pour TO, plusieurs propositions en fonction de sexte ou none
   —> à retravailler

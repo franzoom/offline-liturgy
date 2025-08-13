@@ -44,5 +44,6 @@ Communs
 - Vérifier le Répons après la lecture du commun de saints mariés pour les temps non Ordinaires
 - Vérifier les textes bibliques pour le commun des Saints (multiples choix, pas tous trouvés...) et les répons qui suivent
 
-- Mettre les Hymnes des communs dans la bibliothèque pour faire un appel simple dans le json
+- semaine avant Noël: vérifier le fonctionnement général
+
 - Mémoire de la Sainte Vierge le samedi: Le proposer dans l’office

@@ -3,7 +3,9 @@ import 'dart:mirrors';
 class DayOffices {
   String? commonTitle;
   int? celebrationGrade;
+  String? celebrationColor;
   String? celebrationTitle;
+  String? celebrationSubtitle;
   String? invitatoryAntiphon;
   String? invitatoryAntiphon2;
   String? invitatoryPsalm;
@@ -111,7 +113,9 @@ class DayOffices {
 
     instance.commonTitle = json['commonTitle'] as String?;
     instance.celebrationGrade = json['celebrationGrade'] as int?;
+    instance.celebrationColor = json['celebrationColor'] as String?;
     instance.celebrationTitle = json['celebrationTitle'] as String?;
+    instance.celebrationSubtitle = json['celebrationSubtitle'] as String?;
     instance.invitatoryAntiphon = json['invitatoryAntiphon'] as String?;
     instance.invitatoryAntiphon2 = json['invitatoryAntiphon2'] as String?;
     instance.invitatoryPsalm = json['invitatoryPsalm'] as String?;

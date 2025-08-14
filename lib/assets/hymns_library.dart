@@ -5,7 +5,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
     title: "Avec des cris de joie",
     author: "",
     content:
-        "<p>Avec des cris de joie <span class=\"espace verset\">Stance</span><br>publiez la nouvelle :<br>Le Seigneur a délivré son peuple.<br>À pleine voix<br>proclamez l’Évangile<br>jusqu’aux extrémités de la terre :</p><p>R/ Christ est ressuscité, alléluia !<br>Par lui seul, le monde est sauvé, alléluia !</p><p>Acclamez Dieu, toute la terre ;<br>fêtez la gloire de son nom,<br>glorifiez-le en célébrant sa louange.<br>Dites à Dieu : « Que tes actions sont redoutables ! »</p><p>Venez et voyez les hauts faits de Dieu,<br>ses exploits redoutables pour les fils des hommes.<br>Il changea la mer en terre ferme :<br>ils passèrent le fleuve à pied sec.</p><p>Peuples, bénissez notre Dieu !<br>Faites retentir sa louange,<br>car il rend la vie à notre âme,<br>il a gardé nos pieds de la chute.</p>",
+        "<p>(Stance)<br>Avec des cris de joie<br>publiez la nouvelle :<br>Le Seigneur a délivré son peuple.<br>À pleine voix<br>proclamez l’Évangile<br>jusqu’aux extrémités de la terre :</p><p>R/ Christ est ressuscité, alléluia !<br>Par lui seul, le monde est sauvé, alléluia !</p><p>Acclamez Dieu, toute la terre ;<br>fêtez la gloire de son nom,<br>glorifiez-le en célébrant sa louange.<br>Dites à Dieu : « Que tes actions sont redoutables ! »</p><p>Venez et voyez les hauts faits de Dieu,<br>ses exploits redoutables pour les fils des hommes.<br>Il changea la mer en terre ferme :<br>ils passèrent le fleuve à pied sec.</p><p>Peuples, bénissez notre Dieu !<br>Faites retentir sa louange,<br>car il rend la vie à notre âme,<br>il a gardé nos pieds de la chute.</p>",
   ),
   "bienheureuse-la-femme": Hymns(
     title: "Bienheureuse la femme que Dieu",

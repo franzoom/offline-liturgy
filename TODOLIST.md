@@ -1,9 +1,3 @@
-Hymnes du milieu du jour:
-
-Structure de la classe regroupant les offices
-
-- bien penser à ajouter les psaumes du milieu du jour
-
 Office des lectures:
 Il peut y avoir plusieurs textes bibliques ou patristiques, donc chercher la clef 2 ou 3 si elles existent
 
@@ -44,6 +38,8 @@ Communs
 - Vérifier le Répons après la lecture du commun de saints mariés pour les temps non Ordinaires
 - Vérifier les textes bibliques pour le commun des Saints (multiples choix, pas tous trouvés...) et les répons qui suivent
 
-- semaine avant Noël: vérifier le fonctionnement général
+- semaine avant Noël: vérifier le fonctionnement général, les antiennes invitatoire, les psaumes à utiliser, etc...
+
+- Avent: vérifier combien d'antienne d'Invitatoire il y a. 2 dans PTP, 3 dans liturgie-plus...
 
 - Mémoire de la Sainte Vierge le samedi: Le proposer dans l’office

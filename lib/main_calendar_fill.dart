@@ -1,18 +1,21 @@
-import 'dart:io';
 import 'classes/calendar_class.dart'; // cette classe définit calendar
-import 'common_calendar.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
+import 'common_calendar_definitons.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
 import 'feasts/common_feasts.dart'; //liste des fêtes de l'Église universelle
 import './feasts/locations/lyon.dart';
 import './feasts/locations/france.dart';
 import './feasts/locations/europe.dart';
 
 Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
+  // function used to fill the mains elemnts of the liturgical calendar.
+  // fixed all the movable dates and feast of the Universal Church.
+  // it returns a Calendar object with all the days filled.
   Map<String, DateTime> generalCalendar = createLiturgicalDays(liturgicalYear);
 
   String defaultCelebration = "";
   int defaultPriority = 0;
-  //ajouter des jours de l'Avent jusqu'à Noël
-  int adventDays = 0; // jours depuis le début de l'Avent
+  // add the Avdent Days till Nativity day
+  int adventDays = 0;
+  // adventDays is the number of days in Advent
   DateTime date = generalCalendar['ADVENT']!;
   while (date.isBefore(generalCalendar['NATIVITY']!)) {
     if ((adventDays % 7 == 0)) {
@@ -42,7 +45,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     adventDays++;
   }
 
-  //ajout de Noël
+  // adding the Nativity of the Lord
   DayContent dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'Christmas',
@@ -52,13 +55,13 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     breviaryWeek: 1,
     priority: {},
   );
-  // Noël est le 25 décembre de l'année précédente
+  // Christmas is december, 25th of the previous year
   date = DateTime(liturgicalYear - 1, 12, 25);
   calendar.addDayContent(date, dayContent);
 
-  // ajout de l'octave de Noël
+  // adding the Christmas Octave
   int christmasOctaveDays = 2;
-  date = date.add(Duration(days: 1)); // commence le 26 décembre
+  date = date.add(Duration(days: 1)); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
     if ((date.weekday % 7 == 0)) {
       defaultCelebration = 'CHRISTMAS_SUNDAY';
@@ -80,15 +83,16 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     christmasOctaveDays++;
   }
 
-  // ajout de la férie de Noël (jusqu'au Baptême du Seigneur)
+  // adding the Christmasferials, till the Baptisme of the Lord
   int christmasFerialDays = 1;
 
-//on commence par la "première semaine" (jusqu'à l'Épiphanie)
+// days between january, 1st and the Epiphany
   while (date.isBefore(generalCalendar['EPIPHANY']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'ChristmasFeriale',
-      defaultCelebration: 'CHRISTMAS-FERIALE_1_$christmasFerialDays',
+      defaultCelebration:
+          'CHRISTMAS-FERIALE_BEFORE_EPIPHANY_$christmasFerialDays',
       defaultPriority: 13,
       defaultColor: 'white',
       breviaryWeek: 1,
@@ -98,7 +102,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     date = date.add(Duration(days: 1));
     christmasFerialDays++;
   }
-// ajout de l'Épiphanie
+// adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'Christmas',

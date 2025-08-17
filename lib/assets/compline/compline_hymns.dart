@@ -112,20 +112,18 @@ Vienne toute la paix,
     title: "Avant la fin de la lumière",
     author: "DP — AELF",
     content: """
-Avant la fin de la lumière,
-Nous te prions, Dieu créateur,
-Pour que, fidèle à ta bonté,
-Tu nous protèges, tu nous gardes.
-
-Que loin de nous s’enfuient les songes,
-Et les angoisses de la nuit.
-Préserve-nous de l’ennemi :
-Que ton amour sans fin nous garde.
-
-Exauce-nous, Dieu, notre Père,
-Par Jésus Christ, notre Seigneur,
-Dans l’unité du Saint-Esprit,
-Régnant sans fin dans tous les siècles.
+<p>Avant la fin de la lumière,<br>
+Nous te prions, Dieu créateur,<br>
+Pour que, fidèle à ta bonté,<br>
+Tu nous protèges, tu nous gardes.</p>
+<p>Que loin de nous s’enfuient les songes,<br>
+Et les angoisses de la nuit.<br>
+Préserve-nous de l’ennemi :<br>
+Que ton amour sans fin nous garde.</p>
+<p>Exauce-nous, Dieu, notre Père,<br>
+Par Jésus Christ, notre Seigneur,<br>
+Dans l’unité du Saint-Esprit,<br>
+Régnant sans fin dans tous les siècles.</p>
 """,
   ),
   "l_heure_s_avance_fais_nous_grace": Hymns(

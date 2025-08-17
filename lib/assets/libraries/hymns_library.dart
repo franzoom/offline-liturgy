@@ -1,4 +1,4 @@
-import "../../classes/hymns_class.dart";
+import "../../../classes/hymns_class.dart";
 
 final Map<String, Hymns> hymnsLibraryContent = {
   "avec-des-cris-de-joie": Hymns(

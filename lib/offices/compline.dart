@@ -2,6 +2,7 @@ import '../classes/calendar_class.dart'; //classe de calendar
 import '../main_calendar_fill.dart';
 import '../classes/compline_class.dart';
 import '../assets/hymns_library.dart';
+import '../assets/fixed_texts_library.dart';
 import '../assets/compline/compline_default.dart';
 import '../assets/compline/compline_paschal_time.dart';
 import '../assets/compline/compline_lent_time.dart';
@@ -31,14 +32,14 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
   Map<String, ComplineDefinition> complineDefinitionResolved =
       todayComplineDefinition;
 
-  // on ajoute la complie de veille de solennité si elle existe
-  //chercher dans tomorrowCompline si j'ai un tag "Solemnity"
+  // adding the possibility of complines for the eve of solemnity:
+  // looking in tomorrowCompline the tag "Solemnity"
 
   for (var entry in tomorrowComplineDefinition.entries) {
     if (entry.value.celebrationType == 'Solemnity' &&
         entry.value.priority <
             todayComplineDefinition.entries.first.value.priority) {
-      // on ajoute la complie de veille de solemnité
+      // adjunction of the Compline of Eve of Solemnity
       ComplineDefinition complineDefinition = ComplineDefinition(
           dayOfWeek: 'saturday',
           liturgicalTime: entry.value.liturgicalTime,
@@ -48,15 +49,13 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
     }
   }
   return complineDefinitionResolved;
-  //retourne la Map de définitions de complies
-  // qui sera utilisée pour compiler le texte de la complie
-  // et l'afficher.
+  // return of the Complines Map to be used
 }
 
 Map<String, ComplineDefinition> complineDefinitionDetection(
 
-    /// Fonction que détecte quelle complie utiliser pour un jour donné
-    /// envoie une Map  "nom du jour ou de la fête" : ComplineDefinition
+    /// detection of which Compline to use for a given day.
+    /// returns a Map  "day or feast name" : ComplineDefinition
     Calendar calendar,
     DateTime date) {
   Map<String, ComplineDefinition> complineDefinitionFinal = {};
@@ -166,7 +165,6 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
     case 'holy_thursday':
       // On utilise le jeudi saint pour le Triduum
       correctionCompline = lentTimeCompline['holy_thursday'];
-      'Jeudi Saint'; // on ajoute le nom de la fête pour l'affichage
       break;
     case 'holy_friday':
       // On utilise le jeudi saint pour le Triduum
@@ -338,7 +336,7 @@ String exportComplineToAelfJson(
       // Add more fields as needed from calendar or day content
     },
     'complies': {
-      'introduction': null, // Not available in current data
+      'introduction': fixedTexts["officeIntroduction"],
       'hymne': hymnJson,
       'antienne_1': compline.complinePsalm1Antiphon1,
       'psaume_1': {

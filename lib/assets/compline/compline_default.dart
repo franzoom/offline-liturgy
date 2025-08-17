@@ -2,7 +2,7 @@ import '../../classes/compline_class.dart';
 
 final Map<String, Compline> defaultCompline = {
   "saturday": Compline(
-    complineHymns: ["ferme_mes_yeux", "te-lucis-ante-terminum"],
+    complineHymns: ["ferme-mes-yeux", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1: "Sur nous, Seigneur, que s'illumine ton visage!.",
     complinePsalm1Antiphon2: "",
     psalm1Ref: "PSALM_4",
@@ -32,7 +32,7 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "sunday": Compline(
-    complineHymns: ["avant_la_fin_de_la_lumiere", "te-lucis-ante-terminum"],
+    complineHymns: ["avant-la-fin-de-la-lumiere", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1:
         "Le Seigneur te couvre de ses ailes, rien à craindre des terreurs de la nuit.",
     complinePsalm1Antiphon2: "",
@@ -64,7 +64,7 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "monday": Compline(
-    complineHymns: ["en_toi_seigneur", "te-lucis-ante-terminum"],
+    complineHymns: ["en-toi-seigneur", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1:
         "Toi qui es bon et qui pardonnes, écoute ma prière!",
     complinePsalm1Antiphon2:
@@ -96,7 +96,7 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "tuesday": Compline(
-    complineHymns: ["vienne_la_nuit_de_dieu", "te-lucis-ante-terminum"],
+    complineHymns: ["vienne-la-nuit-de-dieu", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1:
         "Pour l’honneur de ton nom, Seigneur, fais-moi vivre.",
     complinePsalm1Antiphon2: "J'ai un abri auprès de toi, car tu es mon Dieu.",
@@ -127,7 +127,7 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "wednesday": Compline(
-    complineHymns: ["avant_la_fin_de_la_lumiere", "te-lucis-ante-terminum"],
+    complineHymns: ["avant-la-fin-de-la-lumiere", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1: "Dieu, ma forteresse et mon abri !",
     complinePsalm1Antiphon2: "Devant moi tu as ouvert un passage.",
     psalm1Ref: "PSALM_30-1",
@@ -157,7 +157,7 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "thursday": Compline(
-    complineHymns: ["en_toi_seigneur", "te-lucis-ante-terminum"],
+    complineHymns: ["en-toi-seigneur", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1: "Garde-moi, mon Dieu, mon refuge est en toi.",
     complinePsalm1Antiphon2: "Ma chair reposera en confiance.",
     psalm1Ref: "PSALM_15",
@@ -188,7 +188,7 @@ final Map<String, Compline> defaultCompline = {
   ),
   "friday": Compline(
     complineHymns: [
-      "l_heure_s_avance_fais_nous_grace",
+      "l-heure-s-avance-fais-nous-grace",
       "te-lucis-ante-terminum"
     ],
     complinePsalm1Antiphon1: "Dans ma nuit, je crie vers toi, Seigneur.",

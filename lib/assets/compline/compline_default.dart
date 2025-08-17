@@ -3,7 +3,7 @@ import '../../classes/compline_class.dart';
 final Map<String, Compline> defaultCompline = {
   "saturday": Compline(
     complineHymns: ["ferme-mes-yeux", "te-lucis-ante-terminum"],
-    complinePsalm1Antiphon1: "Sur nous, Seigneur, que s'illumine ton visage!.",
+    complinePsalm1Antiphon1: "Sur nous, Seigneur, que s’illumine ton visage!.",
     complinePsalm1Antiphon2: "",
     psalm1Ref: "PSALM_4",
     complinePsalm2Antiphon1: "Au long des nuits, bénissez le Seigneur ! ",
@@ -17,7 +17,7 @@ final Map<String, Compline> defaultCompline = {
     complineEvangelicAntiphon:
         "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     complineOration: [
-      "Dieu éternel, tu as écouté la prière de ton Christ, et tu l'as délivré de la mort; ne permets pas que nos cœurs se troublent, rassure-nous dans notre nuit, comble-nous de ta joie, et nous attendrons dans le silence et la paix que se lève sur nous la lumière de la Résurrection. Par Jésus, le Christ, notre Seigneur. Amen."
+      "Dieu éternel, tu as écouté la prière de ton Christ, et tu l’as délivré de la mort; ne permets pas que nos cœurs se troublent, rassure-nous dans notre nuit, comble-nous de ta joie, et nous attendrons dans le silence et la paix que se lève sur nous la lumière de la Résurrection. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
       "sainte-mere-du-redempteur",
@@ -44,12 +44,12 @@ final Map<String, Compline> defaultCompline = {
     complineReading:
         "Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n’existera plus, ils n’auront plus besoin de la lumière d’une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.",
     complineResponsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Sur ton serviteur, que s'illumine ta face. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Sur ton serviteur, que s’illumine ta face. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
     complineEvangelicAntiphon:
         "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     complineOration: [
       "Notre Seigneur et notre Dieu, tu nous as fait entendre ton amour au matin de la Résurrection ; quand viendra pour nous le moment de mourir, que ton souffle de vie nous conduise en ta présence. Par Jésus, le Christ, notre Seigneur. Amen.",
-      "Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel; alors qu'il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s'éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen."
+      "Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel; alors qu’il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s’éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       "sainte-mere-du-redempteur",
@@ -77,7 +77,7 @@ final Map<String, Compline> defaultCompline = {
     complineReading:
         "Dieu nous a destinés à entrer en possession du salut par notre Seigneur Jésus Christ, mort pour nous afin de nous faire vivre avec lui, que nous soyons encore éveillés ou déjà endormis dans la mort.",
     complineResponsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ C'est toi qui nous rachètes, Seigneur, Dieu de vérité. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ C’est toi qui nous rachètes, Seigneur, Dieu de vérité. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
     complineEvangelicAntiphon:
         "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     complineOration: [
@@ -99,7 +99,7 @@ final Map<String, Compline> defaultCompline = {
     complineHymns: ["vienne-la-nuit-de-dieu", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1:
         "Pour l’honneur de ton nom, Seigneur, fais-moi vivre.",
-    complinePsalm1Antiphon2: "J'ai un abri auprès de toi, car tu es mon Dieu.",
+    complinePsalm1Antiphon2: "J’ai un abri auprès de toi, car tu es mon Dieu.",
     psalm1Ref: "PSALM_142",
     complinePsalm2Antiphon1: "",
     complinePsalm2Antiphon2: "",
@@ -132,7 +132,7 @@ final Map<String, Compline> defaultCompline = {
     complinePsalm1Antiphon2: "Devant moi tu as ouvert un passage.",
     psalm1Ref: "PSALM_30-1",
     complinePsalm2Antiphon1: "Près de toi se trouve le pardon.",
-    complinePsalm2Antiphon2: "J'espère le Seigneur de toute mon âme.",
+    complinePsalm2Antiphon2: "J’espère le Seigneur de toute mon âme.",
     psalm2Ref: "PSALM_129",
     complineReadingRef: "Ep 4, 30.32",
     complineReading:
@@ -172,7 +172,7 @@ final Map<String, Compline> defaultCompline = {
     complineEvangelicAntiphon:
         "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     complineOration: [
-      "Seigneur, notre part d'héritage, donne-nous de ne chercher qu'en toi notre bonheur et d'attendre avec confiance, au-delà de la nuit de notre mort, la joie de vivre en ta présence. Par Jésus, le Christ, notre Seigneur. Amen."
+      "Seigneur, notre part d’héritage, donne-nous de ne chercher qu’en toi notre bonheur et d’attendre avec confiance, au-delà de la nuit de notre mort, la joie de vivre en ta présence. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
       "sainte-mere-du-redempteur",
@@ -192,7 +192,7 @@ final Map<String, Compline> defaultCompline = {
       "te-lucis-ante-terminum"
     ],
     complinePsalm1Antiphon1: "Dans ma nuit, je crie vers toi, Seigneur.",
-    complinePsalm1Antiphon2: "Que ma prière parvienne jusqu'à toi.",
+    complinePsalm1Antiphon2: "Que ma prière parvienne jusqu’à toi.",
     psalm1Ref: "PSALM_87",
     complinePsalm2Antiphon1: "",
     complinePsalm2Antiphon2: "",

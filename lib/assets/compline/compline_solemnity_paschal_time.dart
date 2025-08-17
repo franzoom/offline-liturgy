@@ -1,14 +1,11 @@
-import '../../classes/compline_class.dart';
+import "../../classes/compline_class.dart";
 
 final Map<String, Compline> solemnityComplinePaschalTime = {
   "saturday": Compline(
     complinePsalm1Antiphon1: "Dans la paix, je reposerai.",
     complinePsalm2Antiphon1: "Dans la paix, je reposerai.",
-    complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+    complineResponsory:
+        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>* Alléluia, alléluia.<br>V/ Tu es le Dieu fidèle qui garde son Alliance.<br>* Alléluia, alléluia.<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
     complineEvangelicAntiphon:
         "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     complineOration: [
@@ -23,15 +20,12 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
   "sunday": Compline(
     complinePsalm1Antiphon1: "Dieu puissant, mon rempart et ma foi !",
     complinePsalm1Antiphon2: " ",
-    complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+    complineResponsory:
+        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>* Alléluia, alléluia.<br>V/ Sur ton serviteur que s’illumine ta face.<br>* Alléluia, alléluia.<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
     complineEvangelicAntiphon:
         "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     complineOration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l'ennemi; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t’en supplions, Seigneur, visite cette maison, et repousse loin d’elle toutes les embûches de l’ennemi&nbsp;; que tes saints anges viennent l’habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       "o-vierge-marie-quelle-joie",

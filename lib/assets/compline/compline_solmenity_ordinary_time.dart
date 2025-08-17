@@ -1,4 +1,4 @@
-import '../../classes/compline_class.dart';
+import "../../classes/compline_class.dart";
 
 final Map<String, Compline> solemnityComplineOrdinaryTime = {
   "saturday": Compline(
@@ -9,10 +9,10 @@ final Map<String, Compline> solemnityComplineOrdinaryTime = {
     ],
   ),
   "sunday": Compline(
-    complinePsalm1Antiphon1: "Dieu puissant, mon rempart et ma foi !",
+    complinePsalm1Antiphon1: "Dieu puissant, mon rempart et ma foi&nbsp;!",
     complinePsalm1Antiphon2: " ",
     complineOration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l'ennemi; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t’en supplions, Seigneur, visite cette maison, et repousse loin d’elle toutes les embûches de l’ennemi&nbsp;; que tes saints anges viennent l’habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
   ),
 };

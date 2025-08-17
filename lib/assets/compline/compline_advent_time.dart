@@ -1,10 +1,10 @@
-import '../../classes/compline_class.dart';
+import "../../classes/compline_class.dart";
 
 final Map<String, Compline> adventTimeCompline = {
   "saturday": Compline(
-    complinePsalm1Antiphon1: "Sur nous,Seigneur, que s'illumine ton visage!",
+    complinePsalm1Antiphon1: "Sur nous,Seigneur, que s’illumine ton visage!",
     complinePsalm2Antiphon1:
-        "Les ténèbres s'en vont, déjà brille la vraie lumière.",
+        "Les ténèbres s’en vont, déjà brille la vraie lumière.",
     complineEvangelicAntiphon:
         "Avant de connaître la mort, tu verras le Christ, ton Sauveur.",
   ),
@@ -16,16 +16,16 @@ final Map<String, Compline> adventTimeCompline = {
   ),
   "monday": Compline(
     complinePsalm1Antiphon1:
-        "Vers toi, Seigneur, j'élève mon âme: veille sur moi.",
+        "Vers toi, Seigneur, j’élève mon âme: veille sur moi.",
   ),
   "tuesday": Compline(
     complinePsalm1Antiphon1:
-        "Vers toi, Seignuer j'élève mon âme, ne me cache pas ton visage.",
+        "Vers toi, Seignuer j’élève mon âme, ne me cache pas ton visage.",
     complinePsalm1Antiphon2: " ",
   ),
   "wednesday": Compline(
     complinePsalm1Antiphon1:
-        "Mes jours sont dans ta main, Seigneur, j'espère en toi.",
+        "Mes jours sont dans ta main, Seigneur, j’espère en toi.",
     complinePsalm1Antiphon2: " ",
   ),
   "thursday": Compline(
@@ -34,7 +34,7 @@ final Map<String, Compline> adventTimeCompline = {
   ),
   "friday": Compline(
     complinePsalm1Antiphon1:
-        "Je t'appelle, Seigneur, je tends les mains vers toi.",
+        "Je t’appelle, Seigneur, je tends les mains vers toi.",
     complinePsalm1Antiphon2: " ",
   ),
 };

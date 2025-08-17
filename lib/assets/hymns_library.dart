@@ -315,22 +315,8 @@ Vienne toute la paix,
   "avant_la_fin_de_la_lumiere": Hymns(
     title: "Avant la fin de la lumière",
     author: "DP — AELF",
-    content: """
-Avant la fin de la lumière,
-Nous te prions, Dieu créateur,
-Pour que, fidèle à ta bonté,
-Tu nous protèges, tu nous gardes.
-
-Que loin de nous s’enfuient les songes,
-Et les angoisses de la nuit.
-Préserve-nous de l’ennemi :
-Que ton amour sans fin nous garde.
-
-Exauce-nous, Dieu, notre Père,
-Par Jésus Christ, notre Seigneur,
-Dans l’unité du Saint-Esprit,
-Régnant sans fin dans tous les siècles.
-""",
+    content:
+        """<p>Avant la fin de la lumière,<br>Nous te prions, Dieu créateur,<br>Pour que, fidèle à ta bonté,<br>Tu nous protèges, tu nous gardes.</p><p>Que loin de nous s’enfuient les songes,<br>Et les angoisses de la nuit.<br>Préserve-nous de l’ennemi&nbsp;:<br>Que ton amour sans fin nous garde.</p><p>Exauce-nous, Dieu, notre Père,<br>Par Jésus Christ, notre Seigneur,<br>Dans l’unité du Saint-Esprit,<br>Régnant sans fin dans tous les siècles.</p>""",
   ),
   "l_heure_s_avance_fais_nous_grace": Hymns(
     title: "l’heure s’avance : fais-nous grâce",
@@ -360,22 +346,8 @@ Et les confie à ton amour.
   "ferme_mes_yeux": Hymns(
     title: "Ferme mes yeux pour revoir tes merveilles",
     author: "J.F Frié — Chalet",
-    content: """
-Ferme mes yeux pour revoir tes merveilles
-en ce moment que le jour fuit !
-Allume dans la nuit
-une clarté nouvelle !
-
-Que le silence alentour me console
-de la faiblesse de ma foi,
-puisque j’écoute en moi
-résonner ta parole !
-
-Jusqu’à demain, si se lève l’aurore,
-je t’abandonne mon esprit !
-Ta grâce me suffit,
-c’est elle que j’implore.
-""",
+    content:
+        """<p>Ferme mes yeux pour revoir tes merveilles<br>en ce moment que le jour fuit&nbsp;!<br>Allume dans la nuit<br>une clarté nouvelle&nbsp;!</p><p>Que le silence alentour me console<br>de la faiblesse de ma foi,<br>puisque j’écoute en moi<br>résonner ta parole&nbsp;!</p><p>Jusqu’à demain, si se lève l’aurore,<br>je t’abandonne mon esprit&nbsp;!<br>Ta grâce me suffit,<br>c’est elle que j’implore.</p>""",
   ),
   "nous-te-saluons-vierge-marie": Hymns(
     title: "Nous te saluons, Vierge Marie",

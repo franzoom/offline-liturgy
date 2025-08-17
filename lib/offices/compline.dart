@@ -342,7 +342,7 @@ String exportComplineToAelfJson(
       'hymne': hymnJson,
       'antienne_1': compline.complinePsalm1Antiphon1,
       'psaume_1': {
-        'reference': compline.psalm1Ref,
+        'reference': psalms[compline.psalm1Ref]?.getTitle,
         'texte': compline.psalm1Ref != null
             ? psalms[compline.psalm1Ref]?.getContent
             : null,
@@ -350,7 +350,7 @@ String exportComplineToAelfJson(
       'antienne_2': compline.complinePsalm2Antiphon1,
       'psaume_2': compline.psalm2Ref != null && compline.psalm2Ref != ''
           ? {
-              'reference': compline.psalm2Ref,
+              'reference': psalms[compline.psalm1Ref]?.getTitle,
               'texte': psalms[compline.psalm2Ref]?.getContent,
             }
           : null,

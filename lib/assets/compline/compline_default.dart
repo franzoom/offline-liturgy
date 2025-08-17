@@ -34,7 +34,7 @@ final Map<String, Compline> defaultCompline = {
   "sunday": Compline(
     complineHymns: ["avant_la_fin_de_la_lumiere", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1:
-        "le Seigneur te couvre de ses ailes, rien à craindre des terreurs de la nuit.",
+        "Le Seigneur te couvre de ses ailes, rien à craindre des terreurs de la nuit.",
     complinePsalm1Antiphon2: "",
     psalm1Ref: "PSALM_90",
     complinePsalm2Antiphon1: "",
@@ -44,7 +44,7 @@ final Map<String, Compline> defaultCompline = {
     complineReading:
         "Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n’existera plus, ils n’auront plus besoin de la lumière d’une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.",
     complineResponsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.V/ Tu es le Dieu fidèle qui garde son Alliance. R/Gloire au Père et au Fils et au Saint-Esprit. R/",
+        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Tu es le Dieu fidèle qui garde son Alliance. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
     complineEvangelicAntiphon:
         "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     complineOration: [

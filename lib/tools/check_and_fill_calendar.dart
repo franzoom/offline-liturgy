@@ -5,28 +5,28 @@ import '../classes/calendar_class.dart';
 
 Calendar checkAndFillCalendar(
     Calendar calendar, DateTime date, String location) {
-  // fonction d'ajout des années manquantes si besoin
+  // adding the missing years, if needed
   final calendarFile = File('./lib/assets/calendar.json');
   String savedLocation = locationRead();
 
   if (!calendarFile.existsSync() || savedLocation != location) {
-    // si le fichier de calendrier n'existe pas, ou que la localisation a changé, laner le calcul du calendrier
+    // if calendar.json doesn't exist, of if the location has changed, run the calendar calculation
     calendar.calendarData
         .addAll(calendarFill(calendar, date.year, location).calendarData);
     calendar.exportToJsonFile('./lib/assets/calendar.json');
     locationSave(location);
     return calendar;
   } else {
-    String jsonString = calendarFile.readAsStringSync(); // Lecture synchrone
+    String jsonString = calendarFile.readAsStringSync(); // synchronous read
     if (jsonString.trim().isEmpty) {
-      // vérifier que le fichier n'est pas vide, auquel cas le rempli de l'année demandé
+      // vérifier que le fichier n'est pas vide, auquel cas le remplir de l'année demandé
       calendar.calendarData
           .addAll(calendarFill(calendar, date.year, location).calendarData);
       calendar.exportToJsonFile('./lib/assets/calendar.json');
       return calendar;
     }
     // si le fichier existe et n'est pas vide, le lire
-    calendar = Calendar.importFromJsonFile('./bin/assets/calendar.json');
+    calendar = Calendar.importFromJsonFile('./lib/assets/calendar.json');
     if (calendar.calendarData.isEmpty) {
       calendar.calendarData.addAll(calendarFill(calendar, date.year, location)
           as Map<DateTime, DayContent>);

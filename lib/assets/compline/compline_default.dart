@@ -130,7 +130,7 @@ final Map<String, Compline> defaultCompline = {
     complineHymns: ["avant-la-fin-de-la-lumiere", "te-lucis-ante-terminum"],
     complinePsalm1Antiphon1: "Dieu, ma forteresse et mon abri !",
     complinePsalm1Antiphon2: "Devant moi tu as ouvert un passage.",
-    psalm1Ref: "PSALM_30-1",
+    psalm1Ref: "PSALM_30_1",
     complinePsalm2Antiphon1: "Près de toi se trouve le pardon.",
     complinePsalm2Antiphon2: "J’espère le Seigneur de toute mon âme.",
     psalm2Ref: "PSALM_129",

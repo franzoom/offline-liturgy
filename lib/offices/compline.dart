@@ -1,7 +1,7 @@
 import '../classes/calendar_class.dart'; //classe de calendar
 import '../main_calendar_fill.dart';
 import '../classes/compline_class.dart';
-import '../assets/hymns_library.dart';
+import '../assets/libraries/hymns_library.dart';
 import '../assets/fixed_texts_library.dart';
 import '../assets/compline/compline_default.dart';
 import '../assets/compline/compline_paschal_time.dart';
@@ -13,7 +13,7 @@ import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
 import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
-import '../assets/psalms_data/psalms.dart';
+import '../assets/libraries/psalms_library.dart';
 import '../tools/days_name.dart';
 import '../tools/check_and_fill_calendar.dart';
 import 'dart:convert';

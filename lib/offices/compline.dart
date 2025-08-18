@@ -1,6 +1,7 @@
 import '../classes/calendar_class.dart'; //classe de calendar
 import '../main_calendar_fill.dart';
 import '../classes/compline_class.dart';
+import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
 import '../assets/fixed_texts_library.dart';
 import '../assets/compline/compline_default.dart';
@@ -13,7 +14,6 @@ import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
 import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
-import '../assets/libraries/psalms_library.dart';
 import '../tools/days_name.dart';
 import '../tools/check_and_fill_calendar.dart';
 import 'dart:convert';
@@ -358,9 +358,9 @@ String exportComplineToAelfJson(
       },
       'repons': compline.complineResponsory,
       'antienne_symeon': compline.complineEvangelicAntiphon,
-      'cantique_symeon': null, // Not available in current data
+      'cantique_symeon': null, // Not provided in the original code
       'oraison': compline.complineOration?.join('\n'),
-      'benediction': null, // Not available in current data
+      'benediction': fixedTexts['complineConclusion'],
       'hymne_mariale': marialHymnJson,
     }
   };

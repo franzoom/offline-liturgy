@@ -5,7 +5,7 @@ class DayContent {
   final int liturgicalYear;
   final String liturgicalTime;
   final String defaultCelebration;
-  final int defaultPriority;
+  final int liturgicalGrade;
   final String liturgicalColor;
   final int? breviaryWeek;
   Map<int, List<String>> priority;
@@ -14,7 +14,7 @@ class DayContent {
     required this.liturgicalYear,
     required this.liturgicalTime,
     required this.defaultCelebration,
-    required this.defaultPriority,
+    required this.liturgicalGrade,
     required this.liturgicalColor,
     required this.breviaryWeek,
     required this.priority,
@@ -25,7 +25,7 @@ class DayContent {
         'liturgicalYear': liturgicalYear,
         'liturgicalTime': liturgicalTime,
         'defaultCelebration': defaultCelebration,
-        'defaultPriority': defaultPriority,
+        'liturgicalGrade': liturgicalGrade,
         'liturgicalColor': liturgicalColor,
         'breviaryWeek': breviaryWeek,
         'priority':
@@ -35,7 +35,7 @@ class DayContent {
         liturgicalYear: json['liturgicalYear'],
         liturgicalTime: json['liturgicalTime'],
         defaultCelebration: json['defaultCelebration'],
-        defaultPriority: json['defaultPriority'],
+        liturgicalGrade: json['liturgicalGrade'],
         liturgicalColor: json['liturgicalColor'],
         breviaryWeek: json['breviaryWeek'],
         priority: (json['priority'] as Map<String, dynamic>).map(
@@ -146,7 +146,7 @@ class Calendar {
     });
     // Ajouter la célébration par défaut
     items.add(
-        MapEntry(dayContent.defaultPriority, dayContent.defaultCelebration));
+        MapEntry(dayContent.liturgicalGrade, dayContent.defaultCelebration));
     // MODULE DE SUPPRESSION DES FÊTES DONT LA PRÉSÉANCES EST TROP FAIBLE
     // Déterminer la priorité la plus importante (la plus basse entre 1 et 6)
     // Étape 1 : chercher la plus petite priorité entre 1 et 6
@@ -240,7 +240,7 @@ extension CalendarDisplay on Calendar {
       buffer.writeln('🗓️ Année liturgique  : ${content.liturgicalYear}');
       buffer.writeln('⛪ Temps liturgique   : ${content.liturgicalTime}');
       buffer.writeln('🎉 Célébration        : ${content.defaultCelebration}');
-      buffer.writeln('⭐ Priorité par défaut: ${content.defaultPriority}');
+      buffer.writeln('⭐ Priorité par défaut: ${content.liturgicalGrade}');
       buffer.writeln('🎨 Couleur liturgique : ${content.liturgicalColor}');
       buffer.writeln(
           '📖 Semaine bréviaire  : ${content.breviaryWeek ?? "Non spécifiée"}');

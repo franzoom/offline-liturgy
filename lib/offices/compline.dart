@@ -64,7 +64,7 @@ Map<String, ComplineDefinition> complineDefinitionDetection(
   String todayName = dayName[date.weekday];
   String liturgicalTime = todayContent!.liturgicalTime;
   String celebrationName = todayContent.defaultCelebration.toLowerCase();
-  int celebrationPriority = todayContent.defaultPriority;
+  int celebrationPriority = todayContent.liturgicalGrade;
 
   if (celebrationName == 'commemoration_of_all_the_faithful_departed') {
     ComplineDefinition complineDefinition = ComplineDefinition(

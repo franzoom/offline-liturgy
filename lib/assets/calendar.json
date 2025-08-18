@@ -3,7 +3,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_SUNDAY_1",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -12,7 +12,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_1_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -21,7 +21,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_1_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "10": ["francis_xavier_priest"] }
@@ -30,7 +30,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_1_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "12": ["john_damascene_priest"] }
@@ -39,7 +39,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_1_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -48,7 +48,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_1_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "12": ["nicholas_of_myra_bishop"] }
@@ -57,7 +57,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_1_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "10": ["ambrose_of_milan_bishop"] }
@@ -66,7 +66,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_SUNDAY_2",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -75,7 +75,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_2_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {
@@ -87,7 +87,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_2_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "12": ["our_lady_of_loreto"] }
@@ -96,7 +96,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_2_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "12": ["damasus_i_pope"] }
@@ -105,7 +105,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_2_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "12": ["our_lady_of_guadalupe"] }
@@ -114,7 +114,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_2_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "10": ["lucy_of_syracuse_virgin"] }
@@ -123,7 +123,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_2_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "10": ["john_of_the_cross_priest"] }
@@ -132,7 +132,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_SUNDAY_3",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -141,7 +141,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_FERIALE_3_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -150,7 +150,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_17",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -159,7 +159,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_18",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -168,7 +168,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_19",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -177,7 +177,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_20",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -186,7 +186,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_21",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": { "12": ["peter_canisius_priest"] }
@@ -195,7 +195,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_SUNDAY_4",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -204,7 +204,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_23",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": { "12": ["john_of_kanty_priest"] }
@@ -213,7 +213,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Advent",
     "defaultCelebration": "ADVENT_24",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -222,7 +222,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Christmas",
     "defaultCelebration": "NATIVITY",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -231,7 +231,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasOctave",
     "defaultCelebration": "CHRISTMAS-OCTAVE_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "7": ["stephen_the_first_martyr"] }
@@ -240,7 +240,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasOctave",
     "defaultCelebration": "CHRISTMAS-OCTAVE_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "7": ["john_apostle"] }
@@ -249,7 +249,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasOctave",
     "defaultCelebration": "CHRISTMAS-OCTAVE_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "7": ["holy_innocents_martyrs"] }
@@ -258,7 +258,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasOctave",
     "defaultCelebration": "CHRISTMAS_SUNDAY",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "6": ["HOLY_FAMILY"], "12": ["thomas_becket_bishop"] }
@@ -267,7 +267,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasOctave",
     "defaultCelebration": "CHRISTMAS-OCTAVE_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -276,7 +276,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasOctave",
     "defaultCelebration": "CHRISTMAS-OCTAVE_7",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["sylvester_i_pope"] }
@@ -285,7 +285,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_1_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "3": ["mary_mother_of_god"] }
@@ -294,7 +294,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_1_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "10": ["basil_the_great_and_gregory_nazianzen_bishops"] }
@@ -303,7 +303,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_1_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {
@@ -314,7 +314,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_1_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -323,7 +323,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Christmas",
     "defaultCelebration": "EPIPHANY",
-    "defaultPriority": 3,
+    "liturgicalGrade": 3,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -332,7 +332,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_2_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {}
@@ -341,7 +341,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_2_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "12": ["raymond_of_penyafort_priest"] }
@@ -350,7 +350,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_2_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {}
@@ -359,7 +359,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_2_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {}
@@ -368,7 +368,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_2_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "12": ["gregory_x_pope_lyon"] }
@@ -377,7 +377,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "ChristmasFeriale",
     "defaultCelebration": "CHRISTMAS-FERIALE_2_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {}
@@ -386,7 +386,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "Christmas",
     "defaultCelebration": "BAPTISM",
-    "defaultPriority": 5,
+    "liturgicalGrade": 5,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -395,7 +395,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_1_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["hilary_of_poitiers_bishop"] }
@@ -404,7 +404,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_1_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -413,7 +413,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_1_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["remigius_of_reims_bishop_france"] }
@@ -422,7 +422,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_1_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -431,7 +431,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_1_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["anthony_of_egypt_abbot"] }
@@ -440,7 +440,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_1_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -449,7 +449,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_2",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -458,7 +458,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_2_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["fabian_i_pope", "sebastian_of_milan_martyr"] }
@@ -467,7 +467,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_2_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["agnes_of_rome_virgin"] }
@@ -476,7 +476,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_2_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["vincent_of_saragossa_deacon"] }
@@ -485,7 +485,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_2_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -494,7 +494,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_2_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -506,7 +506,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_2_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "7": ["conversion_of_saint_paul_the_apostle"] }
@@ -515,7 +515,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_3",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["timothy_of_ephesus_and_titus_of_crete_bishops"] }
@@ -524,7 +524,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_3_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["angela_merici_virgin"] }
@@ -533,7 +533,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_3_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["thomas_aquinas_priest"] }
@@ -542,7 +542,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_3_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -551,7 +551,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_3_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -560,7 +560,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_3_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["john_bosco_priest"] }
@@ -569,7 +569,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_3_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -578,7 +578,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_4",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "5": ["presentation_of_the_lord"] }
@@ -587,7 +587,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_4_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -602,7 +602,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_4_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -611,7 +611,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_4_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["agatha_of_sicily_virgin"] }
@@ -620,7 +620,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_4_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["paul_miki_and_companions_martyrs"] }
@@ -629,7 +629,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_4_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -638,7 +638,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_4_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["jerome_emiliani", "josephine_bakhita_virgin"] }
@@ -647,7 +647,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_5",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -656,7 +656,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_5_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["scholastica_of_nursia_virgin"] }
@@ -665,7 +665,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_5_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["our_lady_of_lourdes"] }
@@ -674,7 +674,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_5_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -683,7 +683,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_5_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -692,7 +692,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_5_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -708,7 +708,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_5_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -717,7 +717,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_6",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -726,7 +726,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_6_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["seven_holy_founders_of_the_servite_order"] }
@@ -735,7 +735,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_6_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["bernadette_soubirous_virgin_france"] }
@@ -744,7 +744,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_6_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["jean_pierre_neel_priest_lyon"] }
@@ -753,7 +753,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_6_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -762,7 +762,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_6_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["peter_damian_bishop"] }
@@ -771,7 +771,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_6_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "7": ["chair_of_saint_peter_the_apostle"] }
@@ -780,7 +780,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_7",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {
@@ -792,7 +792,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_7_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -801,7 +801,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_7_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -810,7 +810,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_7_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -819,7 +819,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_7_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {
@@ -830,7 +830,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_7_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -839,7 +839,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_7_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -848,7 +848,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_8",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -857,7 +857,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_8_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -866,7 +866,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_8_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["casimir_of_poland"] }
@@ -875,7 +875,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "ASHES",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -884,7 +884,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_0_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -893,7 +893,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_0_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {
@@ -904,7 +904,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_0_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": { "12": ["john_of_god_duarte_cidade_religious"] }
@@ -913,7 +913,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_SUNDAY_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "12": ["frances_of_rome_religious"] }
@@ -922,7 +922,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_1_1",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -931,7 +931,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_1_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -940,7 +940,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_1_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -949,7 +949,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_1_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -958,7 +958,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_1_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -967,7 +967,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_1_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -976,7 +976,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_SUNDAY_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -985,7 +985,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_2_1",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "12": ["patrick_of_ireland_bishop"] }
@@ -994,7 +994,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_2_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "12": ["cyril_of_jerusalem_bishop"] }
@@ -1003,7 +1003,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_2_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": { "4": ["SAINT_JOSEPH"] }
@@ -1012,7 +1012,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_2_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -1021,7 +1021,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_2_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -1030,7 +1030,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_2_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -1039,7 +1039,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_SUNDAY_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": { "12": ["turibius_of_mogrovejo_bishop"] }
@@ -1048,7 +1048,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_3_1",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -1057,7 +1057,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_3_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": { "3": ["ANNUNCIATION"] }
@@ -1066,7 +1066,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_3_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -1075,7 +1075,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_3_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -1084,7 +1084,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_3_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -1093,7 +1093,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_3_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 3,
     "priority": {}
@@ -1102,7 +1102,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_SUNDAY_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -1111,7 +1111,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_4_1",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -1120,7 +1120,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_4_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -1129,7 +1129,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_4_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {
@@ -1144,7 +1144,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_4_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": {}
@@ -1153,7 +1153,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_4_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": { "12": ["isidore_of_seville_bishop"] }
@@ -1162,7 +1162,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_4_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 4,
     "priority": { "12": ["vincent_ferrer_priest"] }
@@ -1171,7 +1171,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_SUNDAY_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -1180,7 +1180,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_5_1",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "10": ["john_baptist_de_la_salle_priest"] }
@@ -1189,7 +1189,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_5_2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -1198,7 +1198,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_5_3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -1207,7 +1207,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_5_4",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -1216,7 +1216,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_5_5",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": { "10": ["stanislaus_of_szczepanow_bishop"] }
@@ -1225,7 +1225,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "LENT_5_6",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 1,
     "priority": {}
@@ -1234,7 +1234,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "LentTime",
     "defaultCelebration": "PALMS",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "red",
     "breviaryWeek": 2,
     "priority": { "12": ["martin_i_pope"] }
@@ -1243,7 +1243,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "HolyWeek",
     "defaultCelebration": "LENT_6-1",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -1252,7 +1252,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "HolyWeek",
     "defaultCelebration": "LENT_6-2",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -1261,7 +1261,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "HolyWeek",
     "defaultCelebration": "LENT_6-3",
-    "defaultPriority": 9,
+    "liturgicalGrade": 9,
     "liturgicalColor": "violet",
     "breviaryWeek": 2,
     "priority": {}
@@ -1270,7 +1270,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "HolyWeek",
     "defaultCelebration": "HOLY_THURSDAY",
-    "defaultPriority": 1,
+    "liturgicalGrade": 1,
     "liturgicalColor": "white",
     "breviaryWeek": null,
     "priority": {}
@@ -1279,7 +1279,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "HolyWeek",
     "defaultCelebration": "HOLY_FRIDAY",
-    "defaultPriority": 1,
+    "liturgicalGrade": 1,
     "liturgicalColor": "red",
     "breviaryWeek": null,
     "priority": {}
@@ -1288,7 +1288,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "HolyWeek",
     "defaultCelebration": "HOLY_SATURDAY",
-    "defaultPriority": 1,
+    "liturgicalGrade": 1,
     "liturgicalColor": "black",
     "breviaryWeek": null,
     "priority": {}
@@ -1297,7 +1297,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "EASTER",
-    "defaultPriority": 1,
+    "liturgicalGrade": 1,
     "liturgicalColor": "white",
     "breviaryWeek": null,
     "priority": {}
@@ -1306,7 +1306,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalOctave",
     "defaultCelebration": "PT_1_1",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["anselm_of_canterbury_bishop"] }
@@ -1315,7 +1315,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalOctave",
     "defaultCelebration": "PT_1_2",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {
@@ -1326,7 +1326,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalOctave",
     "defaultCelebration": "PT_1_3",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {
@@ -1337,7 +1337,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalOctave",
     "defaultCelebration": "PT_1_4",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["fidelis_of_sigmaringen_priest"] }
@@ -1346,7 +1346,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalOctave",
     "defaultCelebration": "PT_1_5",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "7": ["mark_evangelist"] }
@@ -1355,7 +1355,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalOctave",
     "defaultCelebration": "PT_1_6",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -1364,7 +1364,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "SUNDAY_OF_DIVINE_MERCY",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {}
@@ -1373,7 +1373,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_2_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {
@@ -1388,7 +1388,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_2_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {
@@ -1400,7 +1400,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_2_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "12": ["pius_v_pope"] }
@@ -1409,7 +1409,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_2_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "12": ["joseph_the_worker"] }
@@ -1418,7 +1418,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_2_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "10": ["athanasius_of_alexandria_bishop"] }
@@ -1427,7 +1427,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_2_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {
@@ -1439,7 +1439,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_SUNDAY_3",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": { "11": ["jean_louis_bonnard_priest_lyon"] }
@@ -1448,7 +1448,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_3_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {}
@@ -1457,7 +1457,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_3_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {}
@@ -1466,7 +1466,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_3_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {}
@@ -1475,7 +1475,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_3_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {}
@@ -1484,7 +1484,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_3_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": { "12": ["louise_de_marillac_religious_france"] }
@@ -1493,7 +1493,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_3_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": { "12": ["john_of_avila_priest"] }
@@ -1502,7 +1502,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_SUNDAY_4",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": {}
@@ -1511,7 +1511,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_4_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": {
@@ -1525,7 +1525,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_4_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": { "12": ["our_lady_of_fatima"] }
@@ -1534,7 +1534,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_4_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": { "7": ["matthias_apostle"] }
@@ -1543,7 +1543,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_4_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": {}
@@ -1552,7 +1552,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_4_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": {}
@@ -1561,7 +1561,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_4_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 4,
     "priority": {}
@@ -1570,7 +1570,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_SUNDAY_5",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["john_i_pope"] }
@@ -1579,7 +1579,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_5_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["ivo_of_kermartin_priest_france"] }
@@ -1588,7 +1588,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_5_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["bernardine_of_siena_priest"] }
@@ -1597,7 +1597,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_5_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {
@@ -1608,7 +1608,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_5_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": { "12": ["rita_of_cascia_religious"] }
@@ -1617,7 +1617,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_5_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -1626,7 +1626,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_5_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 1,
     "priority": {}
@@ -1635,7 +1635,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_SUNDAY_6",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {
@@ -1650,7 +1650,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_6_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "10": ["philip_neri_priest"] }
@@ -1659,7 +1659,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_6_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "12": ["augustine_of_canterbury_bishop"] }
@@ -1668,7 +1668,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_6_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": {}
@@ -1677,7 +1677,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_6_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "3": ["ASCENSION"], "12": ["paul_vi_pope"] }
@@ -1686,7 +1686,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_6_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "12": ["joan_of_arc_virgin_france"] }
@@ -1695,7 +1695,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_6_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 2,
     "priority": { "7": ["visitation_of_mary"] }
@@ -1704,7 +1704,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_SUNDAY_7",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": { "10": ["justin_martyr"] }
@@ -1713,7 +1713,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_7_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {
@@ -1730,7 +1730,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_7_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": { "10": ["charles_lwanga_and_companions_martyrs"] }
@@ -1739,7 +1739,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_7_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {}
@@ -1748,7 +1748,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_7_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {
@@ -1760,7 +1760,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_7_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {
@@ -1771,7 +1771,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PT_7_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "white",
     "breviaryWeek": 3,
     "priority": {}
@@ -1780,7 +1780,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "PaschalTime",
     "defaultCelebration": "PENTECOST",
-    "defaultPriority": 2,
+    "liturgicalGrade": 2,
     "liturgicalColor": "red",
     "breviaryWeek": 2,
     "priority": {}
@@ -1789,7 +1789,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_10_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -1801,7 +1801,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_10_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -1810,7 +1810,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_10_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["barnabas_apostle"] }
@@ -1819,7 +1819,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_10_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -1828,7 +1828,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_10_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["anthony_of_padua_priest"] }
@@ -1837,7 +1837,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_10_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -1846,7 +1846,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_11",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "3": ["HOLY_TRINITY"] }
@@ -1855,7 +1855,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_11_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["john_francis_regis_priest_lyon"] }
@@ -1864,7 +1864,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_11_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -1873,7 +1873,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_11_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -1882,7 +1882,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_11_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["romuald_of_ravenna_abbot"] }
@@ -1891,7 +1891,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_11_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -1900,7 +1900,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_11_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["aloysius_gonzaga_religious"] }
@@ -1909,7 +1909,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_12",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -1927,7 +1927,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_12_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -1936,7 +1936,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_12_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "4": ["saint_john_the_baptist"] }
@@ -1945,7 +1945,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_12_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -1954,7 +1954,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_12_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -1963,7 +1963,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_12_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "3": ["SACRED_HEART"], "12": ["cyril_of_alexandria_bishop"] }
@@ -1972,7 +1972,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_12_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -1984,7 +1984,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_13",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "4": ["saint_pieter_and_saint_paul"] }
@@ -1993,7 +1993,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_13_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["first_martyrs_of_the_holy_roman_church"] }
@@ -2002,7 +2002,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_13_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2011,7 +2011,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_13_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2020,7 +2020,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_13_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "7": ["thomas_apostle"] }
@@ -2029,7 +2029,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_13_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["elizabeth_of_portugal"] }
@@ -2038,7 +2038,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_13_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["anthony_zaccaria_priest"] }
@@ -2047,7 +2047,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_14",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["maria_goretti_virgin"] }
@@ -2056,7 +2056,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_14_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2065,7 +2065,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_14_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2074,7 +2074,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_14_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["augustine_zhao_rong_priest_and_companions_martyrs"] }
@@ -2083,7 +2083,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_14_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2092,7 +2092,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_14_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -2104,7 +2104,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_14_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2113,7 +2113,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_15",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["henry_ii_emperor"] }
@@ -2122,7 +2122,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_15_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["camillus_de_lellis_priest"] }
@@ -2131,7 +2131,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_15_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {
@@ -2143,7 +2143,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_15_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["our_lady_of_mount_carmel"] }
@@ -2152,7 +2152,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_15_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2161,7 +2161,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_15_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2170,7 +2170,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_15_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2179,7 +2179,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_16",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["apollinaris_of_ravenna_bishop"] }
@@ -2188,7 +2188,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_16_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["lawrence_of_brindisi_priest"] }
@@ -2197,7 +2197,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_16_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "7": ["mary_magdalene"] }
@@ -2206,7 +2206,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_16_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -2218,7 +2218,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_16_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["sharbel_makhluf_priest"] }
@@ -2227,7 +2227,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_16_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "7": ["james_apostle"] }
@@ -2236,7 +2236,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_16_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["joachim_and_anne_parents_of_mary"] }
@@ -2245,7 +2245,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_17",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2254,7 +2254,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_17_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2263,7 +2263,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_17_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -2274,7 +2274,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_17_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["peter_chrysologus_bishop"] }
@@ -2283,7 +2283,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_17_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["ignatius_of_loyola_priest"] }
@@ -2292,7 +2292,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_17_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["alphonsus_mary_liguori_bishop"] }
@@ -2301,7 +2301,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_17_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -2318,7 +2318,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_18",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2327,7 +2327,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_18_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["john_mary_vianney_priest"] }
@@ -2336,7 +2336,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_18_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["dedication_of_the_basilica_of_saint_mary_major"] }
@@ -2345,7 +2345,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_18_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2354,7 +2354,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_18_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -2368,7 +2368,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_18_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["dominic_de_guzman_priest"] }
@@ -2377,7 +2377,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_18_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -2389,7 +2389,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_19",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "7": ["lawrence_of_rome_deacon"] }
@@ -2398,7 +2398,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_19_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["clare_of_assisi_virgin"] }
@@ -2407,7 +2407,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_19_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["jane_frances_de_chantal_religious"] }
@@ -2416,7 +2416,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_19_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["pontian_i_pope_and_hippolytus_of_rome_priest"] }
@@ -2425,7 +2425,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_19_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["maximilian_mary_raymund_kolbe_priest"] }
@@ -2434,7 +2434,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_19_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "3": ["assumption_of_the_blessed_virgin_mary"] }
@@ -2443,7 +2443,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_19_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["stephen_i_of_hungary"] }
@@ -2452,7 +2452,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_20",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -2461,7 +2461,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_20_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -2470,7 +2470,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_20_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["john_eudes_priest"] }
@@ -2479,7 +2479,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_20_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["bernard_of_clairvaux_abbot"] }
@@ -2488,7 +2488,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_20_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["pius_x_pope"] }
@@ -2497,7 +2497,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_20_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["queenship_of_the_blessed_virgin_mary"] }
@@ -2506,7 +2506,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_20_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["rose_of_lima_virgin"] }
@@ -2515,7 +2515,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_21",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "7": ["bartholomew_apostle"] }
@@ -2524,7 +2524,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_21_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["louis_ix_of_france", "joseph_of_calasanz_priest"] }
@@ -2533,7 +2533,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_21_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2542,7 +2542,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_21_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["monica_of_hippo"] }
@@ -2551,7 +2551,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_21_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["augustine_of_hippo_bishop"] }
@@ -2560,7 +2560,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_21_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["passion_of_saint_john_the_baptist"] }
@@ -2569,7 +2569,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_21_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2578,7 +2578,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_22",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2587,7 +2587,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_22_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -2598,7 +2598,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_22_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["justus_of_lyon_bishop_lyon"] }
@@ -2607,7 +2607,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_22_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["gregory_i_the_great_pope"] }
@@ -2616,7 +2616,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_22_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2625,7 +2625,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_22_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2634,7 +2634,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_22_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -2643,7 +2643,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_23",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2652,7 +2652,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_23_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "7": ["nativity_of_the_blessed_virgin_mary"] }
@@ -2661,7 +2661,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_23_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {
@@ -2676,7 +2676,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_23_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2685,7 +2685,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_23_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2694,7 +2694,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_23_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["most_holy_name_of_mary"] }
@@ -2703,7 +2703,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_23_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["john_chrysostom_bishop"] }
@@ -2712,7 +2712,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_24",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "5": ["exaltation_of_the_holy_cross"] }
@@ -2721,7 +2721,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_24_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["our_lady_of_sorrows"] }
@@ -2730,7 +2730,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_24_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -2741,7 +2741,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_24_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -2752,7 +2752,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_24_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -2761,7 +2761,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_24_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -2772,7 +2772,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_24_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -2785,7 +2785,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_25",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "7": ["matthew_apostle"] }
@@ -2794,7 +2794,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_25_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["maurice_of_agaunum_and_companions_martyrs_lyon"] }
@@ -2803,7 +2803,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_25_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["pius_francesco_forgione_priest"] }
@@ -2812,7 +2812,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_25_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2821,7 +2821,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_25_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -2830,7 +2830,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_25_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -2845,7 +2845,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_25_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["vincent_de_paul_priest"] }
@@ -2854,7 +2854,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_26",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -2871,7 +2871,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_26_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "7": ["michael_gabriel_and_raphael_archangels"] }
@@ -2880,7 +2880,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_26_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["jerome_of_stridon_priest"] }
@@ -2889,7 +2889,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_26_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -2900,7 +2900,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_26_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["holy_guardian_angels"] }
@@ -2909,7 +2909,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_26_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "11": ["anthony_chevrier_priest_lyon"] }
@@ -2918,7 +2918,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_26_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["francis_of_assisi"] }
@@ -2927,7 +2927,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_27",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["faustina_kowalska_virgin"] }
@@ -2936,7 +2936,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_27_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["bruno_of_cologne_priest"] }
@@ -2945,7 +2945,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_27_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["our_lady_of_the_rosary"] }
@@ -2954,7 +2954,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_27_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2963,7 +2963,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_27_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {
@@ -2977,7 +2977,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_27_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -2986,7 +2986,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_27_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["john_xxiii_pope"] }
@@ -2995,7 +2995,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_28",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["dismas_the_good_thief_lyon"] }
@@ -3004,7 +3004,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_28_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -3013,7 +3013,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_28_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["callistus_i_pope"] }
@@ -3022,7 +3022,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_28_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["teresa_of_jesus_of_avila_virgin"] }
@@ -3031,7 +3031,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_28_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {
@@ -3042,7 +3042,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_28_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["ignatius_of_antioch_bishop"] }
@@ -3051,7 +3051,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_28_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "7": ["luke_evangelist"] }
@@ -3060,7 +3060,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_29",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -3074,7 +3074,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_29_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -3083,7 +3083,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_29_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["viator_of_lyon_lyon"] }
@@ -3092,7 +3092,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_29_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["john_paul_ii_pope"] }
@@ -3101,7 +3101,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_29_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "12": ["john_of_capistrano_priest"] }
@@ -3110,7 +3110,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_29_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -3124,7 +3124,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_29_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -3135,7 +3135,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_30",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3144,7 +3144,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_30_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3153,7 +3153,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_30_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "7": ["simon_and_jude_apostles"] }
@@ -3162,7 +3162,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_30_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3171,7 +3171,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_30_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3180,7 +3180,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_30_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3189,7 +3189,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_30_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "3": ["all_saints"] }
@@ -3198,7 +3198,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_31",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "3": ["commemoration_of_all_the_faithful_departed"] }
@@ -3207,7 +3207,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_31_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["martin_de_porres_religious"] }
@@ -3216,7 +3216,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_31_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "10": ["charles_borromeo_bishop"] }
@@ -3225,7 +3225,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_31_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["all_holy_bishops_of_the_archdiocese_of_lyon_lyon"] }
@@ -3234,7 +3234,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_31_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -3243,7 +3243,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_31_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": {}
@@ -3252,7 +3252,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_31_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 3,
     "priority": { "12": ["all_saints_of_the_archdiocese_of_lyon"] }
@@ -3261,7 +3261,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_32",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "7": ["dedication_of_the_lateran_basilica"] }
@@ -3270,7 +3270,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_32_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["leo_i_the_great_pope"] }
@@ -3279,7 +3279,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_32_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["martin_of_tours_bishop"] }
@@ -3288,7 +3288,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_32_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "10": ["josaphat_kuntsevych_bishop"] }
@@ -3297,7 +3297,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_32_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -3306,7 +3306,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_32_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": {}
@@ -3315,7 +3315,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_32_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 4,
     "priority": { "12": ["albert_the_great_bishop"] }
@@ -3324,7 +3324,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_33",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -3339,7 +3339,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_33_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["elizabeth_of_hungary_religious"] }
@@ -3348,7 +3348,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_33_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {
@@ -3359,7 +3359,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_33_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -3368,7 +3368,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_33_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": {}
@@ -3377,7 +3377,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_33_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["presentation_of_the_blessed_virgin_mary"] }
@@ -3386,7 +3386,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_33_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 1,
     "priority": { "10": ["cecilia_of_rome_virgin"] }
@@ -3395,7 +3395,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_SUNDAY_34",
-    "defaultPriority": 6,
+    "liturgicalGrade": 6,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {
@@ -3407,7 +3407,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_34_1",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "10": ["andrew_dung_lac_priest_and_companions_martyrs"] }
@@ -3416,7 +3416,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_34_2",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": { "12": ["catherine_of_alexandria_virgin"] }
@@ -3425,7 +3425,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_34_3",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3434,7 +3434,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_34_4",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3443,7 +3443,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_34_5",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}
@@ -3452,7 +3452,7 @@
     "liturgicalYear": 2025,
     "liturgicalTime": "OrdinaryTime",
     "defaultCelebration": "OT_34_6",
-    "defaultPriority": 13,
+    "liturgicalGrade": 13,
     "liturgicalColor": "green",
     "breviaryWeek": 2,
     "priority": {}

@@ -1,5 +1,5 @@
 class Morning {
-  int? celebrationGrade;
+  int? liturgicalGrade;
   String? celebrationTitle;
   String? invitatoryAntiphon1;
   String? invitatoryAntiphon2;
@@ -30,7 +30,7 @@ class Morning {
   factory Morning.fromJson(Map<String, dynamic> json) {
     //méthode fromJSON pour instancier la classe à partir d'un fichier JSON
     return Morning()
-      ..celebrationGrade = json['celebrationGrade']
+      ..liturgicalGrade = json['liturgicalGrade']
       ..celebrationTitle = json['celebrationTitle']
       ..invitatoryAntiphon1 = json['invitatoryAntiphon1']
       ..invitatoryAntiphon2 = json['invitatoryAntiphon2']
@@ -59,8 +59,8 @@ class Morning {
 
   void mergeWith(Morning morningData) {
     // écrase dans l'instance par les champs non nuls de l'instance morningData
-    if (morningData.celebrationGrade != null) {
-      celebrationGrade = morningData.celebrationGrade;
+    if (morningData.liturgicalGrade != null) {
+      liturgicalGrade = morningData.liturgicalGrade;
     }
     if (morningData.celebrationTitle != null) {
       celebrationTitle = morningData.celebrationTitle;

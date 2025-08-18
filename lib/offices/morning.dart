@@ -63,7 +63,7 @@ Map<String, Morning> ferialMorningResolution(
       ferialMorning = Morning.fromJson(fileExtracted);
     }
     // on termine en ajoutant le titre et les psaumes correspondants
-    ferialMorning.celebrationGrade = calendarDay?.defaultPriority;
+    ferialMorning.liturgicalGrade = calendarDay?.liturgicalGrade;
     ferialMorning.celebrationTitle = calendarDay?.defaultCelebration;
     List<String>? morningPsalmList = morningPsalms(calendarDay!.liturgicalTime,
         calendarDay.breviaryWeek!, dayName[date.weekday]);

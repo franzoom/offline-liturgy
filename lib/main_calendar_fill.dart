@@ -36,7 +36,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'Advent',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
-      defaultColor: 'violet',
+      liturgicalColor: 'violet',
       breviaryWeek: (adventDays / 7).floor() % 4 + 1,
       priority: {},
     );
@@ -51,7 +51,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'Christmas',
     defaultCelebration: 'NATIVITY',
     defaultPriority: 2,
-    defaultColor: 'white',
+    liturgicalColor: 'white',
     breviaryWeek: 1,
     priority: {},
   );
@@ -75,7 +75,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
         liturgicalTime: 'ChristmasOctave',
         defaultCelebration: defaultCelebration,
         defaultPriority: defaultPriority,
-        defaultColor: 'white',
+        liturgicalColor: 'white',
         breviaryWeek: 1,
         priority: {});
     calendar.addDayContent(date, dayContent);
@@ -94,7 +94,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration:
           'CHRISTMAS-FERIALE_BEFORE_EPIPHANY_$christmasFerialDays',
       defaultPriority: 13,
-      defaultColor: 'white',
+      liturgicalColor: 'white',
       breviaryWeek: 1,
       priority: {},
     );
@@ -108,7 +108,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'Christmas',
     defaultCelebration: 'EPIPHANY',
     defaultPriority: 3,
-    defaultColor: 'white',
+    liturgicalColor: 'white',
     breviaryWeek: 1,
     priority: {},
   );
@@ -124,7 +124,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'ChristmasFeriale',
       defaultCelebration: 'CHRISTMAS-FERIALE_2_$christmasFerialDays',
       defaultPriority: 13,
-      defaultColor: 'white',
+      liturgicalColor: 'white',
       breviaryWeek: 2,
       priority: {},
     );
@@ -139,7 +139,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'Christmas',
     defaultCelebration: 'BAPTISM',
     defaultPriority: 5,
-    defaultColor: 'white',
+    liturgicalColor: 'white',
     breviaryWeek: 1,
     priority: {},
   );
@@ -163,7 +163,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'OrdinaryTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
-      defaultColor: 'green',
+      liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays / 7).floor() % 4 + 1,
       priority: {},
     );
@@ -177,7 +177,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'LentTime',
     defaultCelebration: 'ASHES',
     defaultPriority: 2,
-    defaultColor: 'violet',
+    liturgicalColor: 'violet',
     breviaryWeek: 4,
     priority: {},
   );
@@ -195,7 +195,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'LentTime',
       defaultCelebration: 'LENT_0_$lentDays',
       defaultPriority: 9,
-      defaultColor: 'violet',
+      liturgicalColor: 'violet',
       breviaryWeek: 4,
       priority: {},
     );
@@ -221,7 +221,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'LentTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
-      defaultColor: 'violet',
+      liturgicalColor: 'violet',
       breviaryWeek: (lentDays / 7).floor() % 4 + 1,
       priority: {},
     );
@@ -235,7 +235,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'LentTime',
     defaultCelebration: 'PALMS',
     defaultPriority: 2,
-    defaultColor: 'red',
+    liturgicalColor: 'red',
     breviaryWeek: (lentDays / 7).floor() % 4 + 1,
     priority: {},
   );
@@ -252,7 +252,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'HolyWeek',
       defaultCelebration: 'LENT_${(lentDays / 7).floor() + 1}-${lentDays % 7}',
       defaultPriority: 9,
-      defaultColor: 'violet',
+      liturgicalColor: 'violet',
       breviaryWeek: (lentDays / 7).floor() % 4 + 1,
       priority: {},
     );
@@ -267,7 +267,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'HolyWeek',
     defaultCelebration: 'HOLY_THURSDAY',
     defaultPriority: 1,
-    defaultColor: 'white',
+    liturgicalColor: 'white',
     breviaryWeek: null,
     priority: {},
   );
@@ -280,7 +280,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'HolyWeek',
     defaultCelebration: 'HOLY_FRIDAY',
     defaultPriority: 1,
-    defaultColor: 'red',
+    liturgicalColor: 'red',
     breviaryWeek: null,
     priority: {},
   );
@@ -293,7 +293,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'HolyWeek',
     defaultCelebration: 'HOLY_SATURDAY',
     defaultPriority: 1,
-    defaultColor: 'black',
+    liturgicalColor: 'black',
     breviaryWeek: null,
     priority: {},
   );
@@ -306,7 +306,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'PaschalTime',
     defaultCelebration: 'EASTER',
     defaultPriority: 1,
-    defaultColor: 'white',
+    liturgicalColor: 'white',
     breviaryWeek: null,
     priority: {},
   );
@@ -325,7 +325,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration:
           'PT_${(paschalTimeDays / 7).floor() + 1}_${paschalTimeDays % 7}',
       defaultPriority: 2,
-      defaultColor: 'white',
+      liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
       priority: {},
     );
@@ -340,7 +340,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     breviaryWeek: 2,
     defaultCelebration: 'SUNDAY_OF_DIVINE_MERCY',
     defaultPriority: 2,
-    defaultColor: 'white',
+    liturgicalColor: 'white',
     priority: {},
   );
   calendar.addDayContent(date, dayContent);
@@ -361,7 +361,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'PaschalTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
-      defaultColor: 'white',
+      liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
       priority: {},
     );
@@ -376,7 +376,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalTime: 'PaschalTime',
     defaultCelebration: 'PENTECOST',
     defaultPriority: 2,
-    defaultColor: 'red',
+    liturgicalColor: 'red',
     breviaryWeek: 2,
     priority: {},
   );
@@ -408,7 +408,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       liturgicalTime: 'OrdinaryTime',
       defaultCelebration: defaultCelebration,
       defaultPriority: defaultPriority,
-      defaultColor: 'green',
+      liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays / 7).floor() % 4 + 1,
       priority: {},
     );

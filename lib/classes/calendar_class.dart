@@ -6,7 +6,7 @@ class DayContent {
   final String liturgicalTime;
   final String defaultCelebration;
   final int defaultPriority;
-  final String defaultColor;
+  final String liturgicalColor;
   final int? breviaryWeek;
   Map<int, List<String>> priority;
 
@@ -15,7 +15,7 @@ class DayContent {
     required this.liturgicalTime,
     required this.defaultCelebration,
     required this.defaultPriority,
-    required this.defaultColor,
+    required this.liturgicalColor,
     required this.breviaryWeek,
     required this.priority,
   });
@@ -26,7 +26,7 @@ class DayContent {
         'liturgicalTime': liturgicalTime,
         'defaultCelebration': defaultCelebration,
         'defaultPriority': defaultPriority,
-        'defaultColor': defaultColor,
+        'liturgicalColor': liturgicalColor,
         'breviaryWeek': breviaryWeek,
         'priority':
             priority.map((key, value) => MapEntry(key.toString(), value)),
@@ -36,7 +36,7 @@ class DayContent {
         liturgicalTime: json['liturgicalTime'],
         defaultCelebration: json['defaultCelebration'],
         defaultPriority: json['defaultPriority'],
-        defaultColor: json['defaultColor'],
+        liturgicalColor: json['liturgicalColor'],
         breviaryWeek: json['breviaryWeek'],
         priority: (json['priority'] as Map<String, dynamic>).map(
           (key, value) => MapEntry(int.parse(key), List<String>.from(value)),
@@ -241,7 +241,7 @@ extension CalendarDisplay on Calendar {
       buffer.writeln('⛪ Temps liturgique   : ${content.liturgicalTime}');
       buffer.writeln('🎉 Célébration        : ${content.defaultCelebration}');
       buffer.writeln('⭐ Priorité par défaut: ${content.defaultPriority}');
-      buffer.writeln('🎨 Couleur liturgique : ${content.defaultColor}');
+      buffer.writeln('🎨 Couleur liturgique : ${content.liturgicalColor}');
       buffer.writeln(
           '📖 Semaine bréviaire  : ${content.breviaryWeek ?? "Non spécifiée"}');
       buffer.writeln('📌 Autres célébrations :');

@@ -76,7 +76,8 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
         defaultCelebration: defaultCelebration,
         liturgicalGrade: liturgicalGrade,
         liturgicalColor: 'white',
-        breviaryWeek: 1,
+        breviaryWeek: date.isBefore(generalCalendar['HOLY_FAMILY']!) ? 4 : 1,
+        // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
         priority: {});
     calendar.addDayContent(date, dayContent);
     date = date.add(Duration(days: 1));
@@ -87,7 +88,8 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   int christmasFerialDays = 1;
 
 // days between january, 1st and the Epiphany
-  while (date.isBefore(generalCalendar['EPIPHANY']!)) {
+  DateTime epiphanyDate = generalCalendar['EPIPHANY']!;
+  while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'ChristmasFeriale',
@@ -109,15 +111,19 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     defaultCelebration: 'EPIPHANY',
     liturgicalGrade: 3,
     liturgicalColor: 'white',
-    breviaryWeek: 1,
+    breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
+    // if the Epiphany is after the 6th, the Baptisme of the Lord is the next day, so on monday.
+    // in this case the Epiphany is begining the first week of the liturgical year, so breviaryWeek is 1
+    // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
+    // the Epiphany is not the first week of the liturgical year, therefor breviaryWeek is 2.
     priority: {},
   );
-  date = generalCalendar['EPIPHANY']!;
+  date = epiphanyDate;
   calendar.addDayContent(date, dayContent);
   date = date.add(Duration(days: 1));
 
   christmasFerialDays = 1;
-// on continue avec la "seconde semaine" (jusqu'au Baptême du Seigneur)
+// going on with the "second week" till the Baptism of the Lord
   while (date.isBefore(generalCalendar['BAPTISM']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
@@ -125,7 +131,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebration: 'CHRISTMAS-FERIALE_2_$christmasFerialDays',
       liturgicalGrade: 13,
       liturgicalColor: 'white',
-      breviaryWeek: 2,
+      breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
       priority: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -133,7 +139,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     christmasFerialDays++;
   }
 
-// ajout du Baptême du Seigneur
+// adding the Baptism of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'Christmas',

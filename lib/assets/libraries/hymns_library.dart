@@ -141,7 +141,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           """<p>À pleine voix chantons pour Dieu<br> Nos chants de joie, nos chants de fête !<br> Dieu est présent dans un enfant :<br> Sa gloire habite notre terre !<br> À pleine voix chantons pour Dieu<br> Nos chants de joie, nos chants de fête !<br><br>Ne pensons pas que Dieu se tait<br> Quand il se dit par sa naissance !<br> Dieu est ici et tout est dit<br> Cherchons où lève sa semence !<br> Ne pensons pas que Dieu se tait<br> Quand il se dit par sa naissance !<br><br>Ne marchons plus à perdre cœur<br> Par des chemins sans espérance !<br> Dieu va sauver le monde entier<br> En se chargeant de nos souffrances.<br> Ne marchons plus à perdre cœur<br> Par des chemins sans espérance !<br><br>Rien ne pourra nous séparer<br> De l’amitié que Dieu nous porte !<br> Par Jésus Christ et dans l’Esprit<br> Cette assurance est la plus forte :<br> Rien ne pourra nous séparer<br> De l’amitié que Dieu nous porte !<br><br>Pour annoncer les temps nouveaux,<br> Prenons le pain de sa tendresse !<br> Vienne le Jour de son retour :<br> Que tous les hommes le connaissent !<br> Pour annoncer les temps nouveaux,<br> Prenons le pain de sa tendresse !</p>"""),
-  "aujourdhui-dans-notre-monde": Hymns(
+  "aujourd-hui-dans-notre-monde": Hymns(
       title: "Aujourd’hui dans notre monde",
       author: "",
       content:
@@ -151,7 +151,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           """<p>Il est né ! Il nous est donné,<br> L’Enfant du ciel et de la terre !<br> Le Dieu de toute éternité,<br> Dans notre temps, voici qu’il est entré.<br><br>Gloire à Dieu ! Au plus haut des cieux !<br><br>Plein de grâce et de vérité,<br> Il resplendit près de sa Mère !<br> Jésus s’endort ! Pour l’adorer,<br> Sur une crèche le monde est penché !<br><br>Fils de l’homme, il vient nous sauver !<br> Il est lui-même la lumière !<br> Ô nuit, comment peux-tu cacher<br> Celui de qui le jour tient sa clarté ?<br><br>Écoutons les anges chanter !<br> La voix céleste, la première,<br> Jubile autour du Bien-Aimé !<br> Elle descend dans le cœur des bergers.<br><br>Gloire à Dieu, au plus haut des cieux !<br> Homme, pour toi, paix sur la terre...<br> Jésus s’éveille ! Ô jour joyeux !<br> Noël ! Noël ! La vie ouvre les yeux !</p>"""),
-  "le-fils-de-lhomme-est-ne": Hymns(
+  "le-fils-de-l-homme-est-ne": Hymns(
       title: "Le Fils de l’homme est né",
       author: "",
       content:
@@ -699,6 +699,12 @@ final Map<String, Hymns> hymnsLibraryContent = {
     content:
         "<p>Ave, Regina cælorum,<br>ave, Domina angelorum,<br>salve, radix, salve, porta,<br>ex qua mundo lux est orta.</p><p>Gaude, Virgo gloriosa,<br>super omnes speciosa&nbsp;;<br>vale, o valde decora,<br>et pro nobis Christum exora.</p>",
   ),
+  "ave-maris-stella": Hymns(
+    title: "Ave maris stella",
+    author: "",
+    content:
+        "<p>Ave Maris Stella<br> Dei Mater alma,<br> atque semper Virgo<br> felix cæli porta.</p> <p class=\"antienne droite\"><i>Salut, Étoile de la mer,<br> Ô très sainte Mère de Dieu,<br> Toi qui es Vierge à tout jamais,<br> Ô Porte du ciel bienheureuse.</i></p> <p>Sumens illud «&nbsp;Ave&nbsp;»<br> Gabriélis ore,<br> funda nos in pace,<br> mutans Evæ nomen.</p> <p class=\"antienne droite\"><i>Toi qui accueilles cet Ave<br> De la bouche de Gabriel,<br> Affermis nos cœurs dans la paix&nbsp;:<br> Tu as inversé le nom d’Ève.</i></p> <p>Solve vincla reis,<br> profer lumen cæcis,<br> mala nostra pelle,<br> bona cuncta posce.</p> <p class=\"antienne droite\"><i>Des coupables, brise les liens,<br> Donne aux aveugles la clarté,<br> Éloigne de nous tous les maux,<br> Demande pour nous toutes grâces.</i></p> <p>Monstra t<i>e</i> esse Matrem,<br> sumat per te preces<br> qui, pro nobis natus,<br> tulit esse tuus.</p> <p class=\"antienne droite\"><i>Tu es Mère, montre-le nous&nbsp;!<br> Que Celui qui pour nous est né<br> En acceptant d’être ton Fils<br> Accueille par toi nos prières.</i></p> <p>Virgo singuláris,<br> inter omnes mitis,<br> nos culpis solútos,<br> mites fac et castos.</p> <p class=\"antienne droite\"><i>Ô Vierge unique, toi qui es<br> De tous les êtres le plus doux,<br> Fais que, déliés de nos péchés,<br> Nous soyons toujours doux et chastes.</i></p> <p>Vitam præsta puram,<br> iter para tutum,<br> ut vidéntes Jesum,<br> semper collætémur.</p> <p class=\"antienne droite\"><i>Accorde-nous de vivre purs,<br> Prépare-nous un chemin sûr,<br> Que, dans la vision de Jésus,<br> À jamais nous soyons en liesse.</i></p> <p>Sit laus Deo Patri,<br> summo Christo decus,<br> Spirítui Sancto,<br> tribus honor unus. Amen.</p> <p class=\"antienne droite\"><i>Louange au Père, notre Dieu,<br> Gloire à Jésus Christ, le Très-Haut,<br> Rendons honneur à l’Esprit Saint,<br> Un seul hommage aux trois Personnes&nbsp;! Amen.</i></p>",
+  ),
   "voici-que-s-ouvrent-pour-le-roi": Hymns(
     title: "Voici que s’ouvrent pour le Roi",
     author: "",
@@ -764,5 +770,17 @@ final Map<String, Hymns> hymnsLibraryContent = {
     author: "",
     content:
         "<p>Voici l’aurore avant le jour,<br> Voici la mère virginale,<br> La femme promise au début des âges.<br> Elle a bâti sa demeure<br> Dans les vouloirs du Père.</p> <p> Aucune peur, aucun refus,<br> Ne vient troubler l’œuvre de grâce,<br> Son cœur est rempli d’ineffable attente.<br> Elle offre à Dieu le silence<br> Où la Parole habite.</p> <p> Sous le regard qui lui répond,<br> Les temps nouveaux tressaillent en elle,<br> L’avent mystérieux du Royaume à naître.<br> L’Esprit la prend sous son ombre<br> Et doucement la garde.</p> <p> Voici l’épouse inépousée,<br> Marie, servante et souveraine,<br> Qui porte en secret le salut du monde.<br> Le sang du Christ la rachète<br> Mais elle en est la source.</p>",
+  ),
+  "o-virgo-mater-filia": Hymns(
+    title: "O Virgo Mater, filia",
+    author: "",
+    content:
+        "<p>O virgo mater, filia<br> tui beata Filii,<br> sublimis et humillima<br> præ creaturis omnibus.</p> <p class=\"antienne droite\"><i>Ô Vierge Mère,<br> bienheureuse fille de ton propre Fils,<br> la plus haute et la plus humble<br> de toutes les créatures,</i></p> <p>Divini tu consilii<br> fixus ab ævo terminus,<br> tu decus et fastigium<br> naturæ nostræ maximum:</p> <p class=\"antienne droite\"><i>Terme du plan divin<br> fixé de toute éternité,<br> honneur et parfait achèvement<br> de notre nature&nbsp;:</i></p> <p>Quam sic prompsisti nobilem<br> ut summus eius conditor<br> in ipsa per te fieret<br> arte miranda conditus.</p> <p class=\"antienne droite\"><i>Tu l’as si bien ennoblie qu’en elle,<br> par un art admirable,<br> son souverain créateur<br> s’est fait par toi créature.</i></p> <p>In utero virgineo<br> amor revixit igneus,<br> cuius calore germinant<br> flores in terra cælici.</p> <p class=\"antienne droite\"><i>Dans ton sein virginal<br> s’est rallumé le feu de l’amour,<br> dont l’ardeur a fait germer<br> des fleurs célestes sur la terre.</i></p> <p>Patri sit et Paraclito<br> tuoque Nato gloria,<br> qui veste te mirabili<br> circumdederunt gratiæ.</p> <p class=\"antienne droite\"><i>Gloire au Père,<br> au Consolateur et à ton Fils,<br> qui t’ont enveloppée<br> du vêtement admirable de la grâce.</i></p>",
+  ),
+  "quae-caritatis-fulgidum": Hymns(
+    title: "Quæ caritatis fulgidum",
+    author: "",
+    content:
+        "<p>Quæ caritatis fulgidum<br> es astrum, Virgo , superis,<br> spei nobis mortalibus<br> fons vivax es et profluus.</p> <p class=\"antienne droite\"><i>Tu es pour les habitants des cieux<br> un astre resplendissant de charité, Vierge,<br> et pour nous, mortels,<br> une source vive et débordante d’espérance.</i></p> <p>Sic vales, celsa Domina,<br> in Nati cor piissimi,<br> ut qui fidenter postulat,<br> per te securus impetret.</p> <p class=\"antienne droite\"><i>Tu es si puissante, très haute Dame,<br> sur le cœur aimant de ton Fils,<br> que celui qui demande avec confiance<br> est sûr par toi d’être exaucé.</i></p> <p>Opem tua benignitas<br> non solum fert poscentibus,<br> sed et libenter sæpius<br> precantum vota prævenit.</p> <p class=\"antienne droite\"><i>Ta bonté ne vient pas seulement<br> au secours de ceux qui t’implorent,<br> mais souvent elle se plaît à devancer<br> les vœux de ceux qui prient.</i></p> <p>In te misericordia,<br> in te magnificentia;<br> tu bonitatis cumulas<br> quicquid creata possident.</p> <p class=\"antienne droite\"><i>En toi est la miséricorde,<br> en toi la magnificence&nbsp;;<br> toute la bonté du monde<br> en toi se trouve rassemblée.</i></p> <p>Patri sit et Paraclito<br> tuoque Nato gloria,<br> qui veste te mirabili<br> circumdederunt gratiæ.</p> <p class=\"antienne droite\"><i>Gloire au Père, au Consolateur<br> et à ton Fils,<br> qui t’ont enveloppée du vêtement<br> admirable de la grâce.</i></p>",
   ),
 };

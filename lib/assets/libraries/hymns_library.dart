@@ -759,4 +759,10 @@ final Map<String, Hymns> hymnsLibraryContent = {
     content:
         "<p>Brillez déjà, lueurs de Pâques,<br> Scintillez au jour de demain,<br> Annoncez l’époux qui revient,<br> Éveillant tout sur son passage.<br> La nuit ne saurait retenir<br> Ce corps où monte le désir<br> De recommencer un autre âge.</p> <p> La terre craque où il se dresse,<br> Comme hier où Dieu lui donna<br> Son Esprit, son souffle, une voix<br> Dans le jardin de la Genèse.<br> La chair de sa chair est nommée&nbsp;:<br> La plaie qu’il porte à son côté<br> S’ouvre pour qu’un peuple en renaisse.</p> <p> Voici le temps où Dieu se hâte&nbsp;:<br> De sa main il couvre les eaux,<br> Il en tire un monde nouveau,<br> Partout la vie refait surface&nbsp;!<br> Où donc est la tombe de Dieu&nbsp;?<br> La mort est morte sous les yeux<br> De ceux qui croiront en sa grâce.</p>",
   ),
+  "voici-l-aurore-avant-le-jour": Hymns(
+    title: "Voici l’aurore avant le jour",
+    author: "",
+    content:
+        "<p>Voici l’aurore avant le jour,<br> Voici la mère virginale,<br> La femme promise au début des âges.<br> Elle a bâti sa demeure<br> Dans les vouloirs du Père.</p> <p> Aucune peur, aucun refus,<br> Ne vient troubler l’œuvre de grâce,<br> Son cœur est rempli d’ineffable attente.<br> Elle offre à Dieu le silence<br> Où la Parole habite.</p> <p> Sous le regard qui lui répond,<br> Les temps nouveaux tressaillent en elle,<br> L’avent mystérieux du Royaume à naître.<br> L’Esprit la prend sous son ombre<br> Et doucement la garde.</p> <p> Voici l’épouse inépousée,<br> Marie, servante et souveraine,<br> Qui porte en secret le salut du monde.<br> Le sang du Christ la rachète<br> Mais elle en est la source.</p>",
+  ),
 };

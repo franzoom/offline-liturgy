@@ -42,4 +42,6 @@ Communs
 
 - Avent: vérifier combien d'antienne d'Invitatoire il y a. 2 dans PTP, 3 dans liturgie-plus...
 
+- vérifier les offices de la Semaine Sainte
+
 - Mémoire de la Sainte Vierge le samedi: Le proposer dans l’office

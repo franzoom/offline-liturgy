@@ -699,4 +699,64 @@ final Map<String, Hymns> hymnsLibraryContent = {
     content:
         "<p>Ave, Regina cælorum,<br>ave, Domina angelorum,<br>salve, radix, salve, porta,<br>ex qua mundo lux est orta.</p><p>Gaude, Virgo gloriosa,<br>super omnes speciosa&nbsp;;<br>vale, o valde decora,<br>et pro nobis Christum exora.</p>",
   ),
+  "voici-que-s-ouvrent-pour-le-roi": Hymns(
+    title: "Voici que s’ouvrent pour le Roi",
+    author: "",
+    content:
+        "<p>Voici que s’ouvrent pour le Roi<br> les portes de la Ville&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi fermerez-vous sur moi<br> la pierre du tombeau,<br> dans le jardin&nbsp;?</p> <p> R/ Dieu sauveur, oublie notre péché<br> Mais souviens-toi de ton amour<br> Quand tu viendras dans ton Royaume. </p> <p> Je viens, monté sur un ânon,<br> en signe de ma gloire&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi me ferez-vous sortir<br> au rang des malfaiteurs,<br> et des maudits&nbsp;?</p> <p> Vos rues se drapent de manteaux<br> jetés sur mon passage&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi souillerez-vous mon corps<br> de pourpre et de crachats,<br> mon corps livré&nbsp;?</p> <p> Vos mains me tendent les rameaux<br> pour l’heure du triomphe&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi blesserez-vous mon front<br> de ronce et de roseaux,<br> en vous moquant&nbsp;?</p>",
+  ),
+  "la-nuit-qu-il-fut-livre": Hymns(
+    title: "La nuit qu’il fut livré",
+    author: "",
+    content:
+        "<p>La nuit qu’il fut livré, le Seigneur prit du pain&nbsp;;<br> En signe de sa mort, le rompit de sa main&nbsp;:<br> «&nbsp;Ma vie, nul ne la prend,<br> mais c’est moi qui la donne<br> «&nbsp;Afin de racheter tous mes frères humains.&nbsp;»</p> <p> Après qu’il eut soupé pour la dernière fois,<br> S’offrit comme victime au pressoir de la Croix&nbsp;:<br> «&nbsp;Mon sang, versé pour vous,<br> est le sang de l’Alliance&nbsp;;<br> «&nbsp;Amis, faites ceci en mémoire de moi.&nbsp;»</p> <p> Et nous, peuple de Dieu,<br> nous en sommes témoins&nbsp;:<br> Ta mort, nous l’annonçons par ce pain et ce vin.<br> Jésus ressuscité, ton Église t’acclame,<br> Vainqueur, passé du monde à la gloire sans fin&nbsp;!</p> <p> Tu viens revivre en nous ton mystère pascal&nbsp;:<br> Éteins en notre chair le foyer de tout mal.<br> Nous sommes tes sarments, sainte Vigne du Père&nbsp;:<br> Fais-nous porter du fruit pour le jour triomphal.</p> <p> Seigneur, nous attendons ton retour glorieux&nbsp;:<br> Un jour tu nous prendras avec toi dans les cieux.<br> Ton Corps est la semence de vie éternelle&nbsp;:<br> Un jour tu nous prendras à la table de Dieu.</p>",
+  ),
+  "ils-ont-perce-tes-mains-et-tes-pieds": Hymns(
+    title: "Ils ont percé tes mains et tes pieds",
+    author: "",
+    content:
+        "<p>R/ Ils ont percé tes mains et tes pieds.<br> Ils ont compté tous tes os.<br> Ils ont regardé celui qu’ils ont transpercé.</p> <p> Vous n’avez pas moins péché que vos pères,<br> Vous obscurcissez la terre&nbsp;!<br> —&nbsp;Toi, notre Lumière,<br> Seigneur, prends pitié&nbsp;!</p> <p> Vous n’avez pas sauvé l’homme du crime,<br> Vous élargissez l’abîme&nbsp;!<br> —&nbsp;Toi, notre Victime,<br> Seigneur, prends pitié&nbsp;!</p> <p> Vous n’avez pas renoncé la malice,<br> Vous repoussez le calice&nbsp;!<br> —&nbsp;Toi, notre justice,<br> Seigneur, prends pitié&nbsp;!</p> <p> Vous n’avez pas dit le mot qui console,<br> Vous sollicitez l’idole&nbsp;!<br> —&nbsp;Toi, notre Parole,<br> Seigneur, prends pitié&nbsp;!</p> <p> Vous n’avez pas partagé la souffrance,<br> Vous perpétuez l’offense&nbsp;!<br> —&nbsp;Toi, notre Espérance,<br> Seigneur, prends pitié&nbsp;!</p> <p> Vous n’avez pas combattu pour ma gloire,<br> Vous avilissez l’histoire&nbsp;!<br> —&nbsp;Toi, notre Victoire,<br> Seigneur, prends pitié&nbsp;!</p>",
+  ),
+  "la-parole-en-silence": Hymns(
+    title: "La Parole en silence",
+    author: "",
+    content:
+        "<p>La Parole en silence<br> se consume pour nous.<br> L’espoir du monde<br> a parcouru sa route.<br> Voici l’heure où la vie<br> retourne à la source&nbsp;:<br> dernier labeur de la chair<br> mise en croix.</p> <p> Serviteur inutile,<br> les yeux clos désormais,<br> le Fils de l’homme<br> a terminé son œuvre.<br> La lumière apparue<br> rejoint l’invisible,<br> la nuit s’étend sur le corps<br> Jésus meurt.</p> <p> Maintenant tout repose<br> dans l’unique oblation.<br> Les mains du Père<br> ont recueilli le souffle.<br> Le visage incliné<br> s’apaise aux ténèbres,<br> le coup de lance a scellé<br> la passion.</p> <p> Le rideau se déchire<br> dans le Temple désert.<br> La mort du juste<br> a consommé la faute,<br> et l’Amour a gagné<br> l’immense défaite&nbsp;:<br> demain, le Jour surgira<br> du tombeau.</p>",
+  ),
+  "sur-les-chemins-ou-nous-peinons": Hymns(
+    title: "Sur le chemin où nous peinons",
+    author: "",
+    content:
+        "<p>Sur les chemins où nous peinons,<br> comme il est bon, Seigneur,<br> de rencontrer ta croix&nbsp;!</p> <p> Sur les sommets que nous cherchons,<br> nous le savons, Seigneur,<br> nous trouverons ta croix&nbsp;!</p> <p> Et lorsqu’enfin nous te verrons<br> dans ta clarté, Seigneur,<br> nous comprendrons ta croix&nbsp;!</p>",
+  ),
+  "homme-le-fils-de-l-homme": Hymns(
+    title: "Homme, le Fils de l’homme",
+    author: "",
+    content:
+        "<p>R/ Homme&nbsp;! Le Fils de l’homme<br> Donne sa vie pour toi&nbsp;!<br> L’Amour qui te rend libre<br> Le suspend sur la croix.<br> Rappelle-toi&nbsp;!</p> <p> Ténèbres dedans, dehors&nbsp;!<br> Ténèbres d’âme et de corps&nbsp;!<br> Nuit de la sixième heure<br> Jusqu’à l’instant qu’il meure.</p> <p> Angoisses&nbsp;: Eli&nbsp;! Eli&nbsp;!<br> Lamma Sabaqtani&nbsp;!<br> Cri&nbsp;! Donation dernière<br> Entre les mains du Père.</p> <p> Montagnes, tombeaux brisés&nbsp;!<br> Même la terre a tremblé&nbsp;! Flanc percé par la lance&nbsp;!<br> Sur toute chair, silence.</p>",
+  ),
+  "veilleurs-tenez-vous-en-eveil": Hymns(
+    title: "Veilleurs, tenez-vous en éveil",
+    author: "",
+    content:
+        "<p>Veilleurs, tenez-vous en éveil,<br> Chantez à pleine voix, chantez&nbsp;!<br> Le jeune lion est prisonnier&nbsp;:<br> Qui pourrait dormir&nbsp;?</p> <p> Par amour le Père a voulu<br> Envoyer au monde son Fils,<br> Et les méchants l’ont crucifié&nbsp;!<br> Qui pourrait dormir&nbsp;?</p> <p> Ils l’ont jugé, l’ont condamné,<br> Jeté en prison, flagellé&nbsp;;<br> A coup de roseau l’ont frappé&nbsp;!<br> Qui pourrait dormir&nbsp;?</p> <p> Sur son visage ils ont craché,<br> Un serviteur l’a souffleté&nbsp;;<br> Ils l’ont tourné en dérision&nbsp;!<br> Qui pourrait dormir&nbsp;?</p> <p> Des chiens, en rage, l’ont cerné&nbsp;;<br> Ils ont cerné le jeune lion&nbsp;;<br> Comme un coupable, il n’a rien dit&nbsp;!<br> Qui pourrait dormir&nbsp;?</p> <p> Les épines qu’ils ont tressées<br> Ont couronné de sang son front&nbsp;;<br> Ils l’ont injurié, bafoué&nbsp;!<br> Qui pourrait dormir&nbsp;?</p> <p> Ils ont fait descendre aux enfers<br> Le soleil de tous les soleils&nbsp;:<br> La porte est sur lui verrouillée...<br> Qui pourrait dormir&nbsp;?</p>",
+  ),
+  "pour-inventer-d-autres-espaces": Hymns(
+    title: "Pour inventer d’autres espaces",
+    author: "",
+    content:
+        "<p>Pour inventer d’autres espaces<br> Où se relèveront les corps,<br> Il étendit les bras&nbsp;:<br> Tout homme est libéré,<br> Le mur s’est écroulé<br> Où l’on avait gravé<br> Que Dieu est mort&nbsp;!<br> Pourquoi vous désoler encor&nbsp;?<br> <span class=\"espace\">Depuis le jour du sang versé,</span><br> <span class=\"espace\">Vous savez bien que tout est grâce.</span> </p> <p> Pour vous tenir hors des impasses<br> Et vous guider aux lieux déserts,<br> Il étendit les bras&nbsp;:<br> Les flots se sont dressés,<br> Son peuple a traversé<br> Au merveilleux sentier<br> Qu’il a rouvert.<br> Pourquoi ne pas franchir la mer&nbsp;?<br> <span class=\"espace\">Depuis le jour du sang versé,</span><br> <span class=\"espace\">Vous savez bien que tout est grâce.</span> </p> <p> Pour embrasser toutes les races<br> Dans sa bénédiction de feu,<br> Il étendit les bras&nbsp;:<br> Le monde est attiré<br> Au centre du foyer<br> Où l’on peut voir brûler<br> Le cœur de Dieu.<br> Pourquoi ne pas lever les yeux&nbsp;?<br> <span class=\"espace\">Depuis le jour du sang versé,</span><br> <span class=\"espace\">Vous savez bien que tout est grâce.</span> </p> <p> Pour vous garder près de sa face<br> Et vous transfigurer d’Esprit,<br> Il étendit les bras&nbsp;:<br> Le voile est déchiré,<br> Le livre, descellé,<br> Qui retenaient caché<br> Le Dieu de vie.<br> Pourquoi ne pas courir à lui&nbsp;?<br> <span class=\"espace\">Depuis le jour du sang versé,</span><br> <span class=\"espace\">Vous savez bien que tout est grâce.</span></p>",
+  ),
+  "maintenant-tout-repose": Hymns(
+    title: "Maintenant tout repose",
+    author: "",
+    content:
+        "<p>Maintenant tout repose<br> dans l’unique oblation.<br> Les mains du Père<br> ont recueilli le souffle.<br> Le visage incliné<br> s’apaise aux ténèbres,<br> le coup de lance a scellé<br> la passion.</p> <p> Le rideau se déchire<br> dans le Temple désert.<br> La mort du juste<br> a consommé la faute,<br> et l’Amour a gagné<br> l’immense défaite&nbsp;:<br> demain, le Jour surgira<br> du tombeau.</p>",
+  ),
+  "brillez-deja-lueurs-de-paques": Hymns(
+    title: "Brillez déjà, lueurs de Pâques",
+    author: "",
+    content:
+        "<p>Brillez déjà, lueurs de Pâques,<br> Scintillez au jour de demain,<br> Annoncez l’époux qui revient,<br> Éveillant tout sur son passage.<br> La nuit ne saurait retenir<br> Ce corps où monte le désir<br> De recommencer un autre âge.</p> <p> La terre craque où il se dresse,<br> Comme hier où Dieu lui donna<br> Son Esprit, son souffle, une voix<br> Dans le jardin de la Genèse.<br> La chair de sa chair est nommée&nbsp;:<br> La plaie qu’il porte à son côté<br> S’ouvre pour qu’un peuple en renaisse.</p> <p> Voici le temps où Dieu se hâte&nbsp;:<br> De sa main il couvre les eaux,<br> Il en tire un monde nouveau,<br> Partout la vie refait surface&nbsp;!<br> Où donc est la tombe de Dieu&nbsp;?<br> La mort est morte sous les yeux<br> De ceux qui croiront en sa grâce.</p>",
+  ),
 };

@@ -23,29 +23,30 @@ Le calendrier est enregistré dans calendar.json, dans le répertoire ./assets. 
 
 On appelle complineDefinitionResolution(calendar, DateTime(x,x,x)) pour obtenir les complies du jour. Si le calendrier n'existe pas ou ne contient pas cette date, il est calculé et stocké dans assets/calendar.json.
 
-Structure de la sortie de la fonction:
+Structure returned by the Compline function:
 
-- <compline.complineCommentary> donne des commentaires sur l'utilisation des complies (si elles sont facultatives un jour particulier)
-- <compline.celebrationType> chaîne qui indique si c'est des complies normales, une solennité ou une veille de solennité ('normal', 'solemnity' ou 'solemnityEve')
-- <compline.complineHymns> qui est la liste des hymnes possibles.
-  Pour récupérer le texte des hymnes on applique :
-  Map<String, Hymns> selectedHymns = filterHymnsByCodes(compline.complineHymns!, complineHymnsContent) et on récupère une Map<String, Hymns> en important '../assets/compline/compline\*hymns.dart'
-  - <title> et le titre de l'hymne (en code raccourci)
-    \_ Hymns est une Map qui contient trois champs: + <title> est le titre officiel de l'hymne + <author> est l'éventuel auteur + <content> est le texte de l'hymne
-- <compline.complinePsalm1Antiphon>: première antienne du premier psaume
-- <compline.complinePsalm1Antiphon2>: deuxième antienne du premier psaume
-- <compline.complinePsalm1> qui contient la référence du 1er psaume ou cantique. On appelle les détails du psaume ainsi, en important '../assets/psalms.dart':
-  - <psalms[compline.complinePsalm1]!.getTitle> récupère le titre du psaume (peut être vide)
-  - <psalms[compline.complinePsalm1]!.getSubtitle> récupère le soustitre du psaume (peut être vide)
-  - <psalms[compline.complinePsalm1]!.getCommentary> récupère la phrase biblique proposée en commentaire du psaume
-  - <psalms[compline.complinePsalm1]!.getBiblicalReference> récupère la référence biblique (utilisé pour les cantiques, autrement vide)
-  - <psalms[compline.complinePsalm1]!.getContent> récupère le contenu du psaume en formatage HTML donné par AELF
-- si <compline.complinePsalm2> est non nul (s'il y a un deuxième psaume), on applique la même recette pour ce deuxième psaume
-- <compline.complineReadingRef>: référence biblique de la lecture biblique
-- <compline.complineReading>: texte de la lecture biblique
-- <compline.complineResponsory>: texte du répons
-- <compline.complineEvangelicAntiphon>: texte de l'antienne du cantique évangélique
-- <compline.complineOration>: texte de l'oraison finale
-- <compline.marialHymnRef>: liste des hymnes mariales pour clôturer les complies. On récupère les données de la même manière que pour les hymnes de début d'office.
-
-Pour un affichage complet du texte des complies, il faut évidemment rajouter le cantique évangélique (cantique de Syméon) qui peut être appelé comme pour les psaumes: psalms[NT_3].
+- <compline.complineCommentary> some commentaries about the Compline use (if they are facultative)
+- <compline.celebrationType> indication about the type of Complines: ('normal', 'solemnity' ou 'solemnityEve')
+- introduction of the Office: use the file '.lib/assets/libraries/fixed-texts_library.dart': fixedTexts['officeIntroduction'] to display the html content.
+- <compline.complineHymns> list possible possible hymns for the day.
+  every elemnt of the list is a key refercenint to the Map<String, Hymns> in '.lib/assets/libraries/hymns_library.dart'. For each key we receive 3 elements:
+  - <<title> : official title of the Hymn
+  - <author> author of the Hymn (not always provided)
+  - <content> is the text of the Hymn in html code.
+- <compline.complinePsalm1Antiphon>: first antiphon of first Psalm
+- <compline.complinePsalm1Antiphon2>: second antiphon of first Psalm. If it's not empty, it should be great to display the first antiphon, then "or" and the second antiphon.
+- <compline.complinePsalm1> key of the psalm of canticle to be found in '../assets/libraries/psalms_library.dart'
+  - <psalms[compline.complinePsalm1]!.getTitle> returns the title of the psalm or canticle (can be empty)
+  - <psalms[compline.complinePsalm1]!.getSubtitle> returns the subtitle only for the canticles (can be empty)
+  - <psalms[compline.complinePsalm1]!.getCommentary> returns the biblical description of the psalm or canticle. It should be great to have the opportunity to display it (in shorter size ?)
+  - <psalms[compline.complinePsalm1]!.getBiblicalReference> returns the biblical reference (only for the canticles)
+  - <psalms[compline.complinePsalm1]!.getContent> returns the text of the psalm or canticle, formatted in html
+- if <compline.complinePsalm2> is not empty (there is a second psalm), we use the same receipe for this second psalm
+- <compline.complineReadingRef>: reference of the biblical reading
+- <compline.complineReading>: content of the biblical reading
+- <compline.complineResponsory>: responsory text
+- <compline.complineEvangelicAntiphon>: antiphon for the Evangelic Canticle
+- the Evangelic Canticle (Symeon Canticle) will be found in the psalms_library, using the key "NT_3": psalms['NT_3']
+- <compline.complineOration>: list of the final orations. If there is more than one oration, display both, separated by "or".
+- <compline.marialHymnRef>: marial hymns list. Same use as the hymns list for the beginning of the Compline Office
+- conclusion of the Office: use the file '.lib/assets/libraries/fixed-texts_library.dart': fixedTexts['complineConclusion'] to display the html content.

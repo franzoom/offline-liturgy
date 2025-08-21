@@ -32,15 +32,15 @@ Structure de la sortie de la fonction:
   Map<String, Hymns> selectedHymns = filterHymnsByCodes(compline.complineHymns!, complineHymnsContent) et on récupère une Map<String, Hymns> en important '../assets/compline/compline\*hymns.dart'
   - <title> et le titre de l'hymne (en code raccourci)
     \_ Hymns est une Map qui contient trois champs: + <title> est le titre officiel de l'hymne + <author> est l'éventuel auteur + <content> est le texte de l'hymne
-- <compline.complinePsalm1Antiphon1>: première antienne du premier psaume
+- <compline.complinePsalm1Antiphon>: première antienne du premier psaume
 - <compline.complinePsalm1Antiphon2>: deuxième antienne du premier psaume
-- <compline.psalm1Ref> qui contient la référence du 1er psaume ou cantique. On appelle les détails du psaume ainsi, en important '../assets/psalms.dart':
-  - <psalms[compline.psalm1Ref]!.getTitle> récupère le titre du psaume (peut être vide)
-  - <psalms[compline.psalm1Ref]!.getSubtitle> récupère le soustitre du psaume (peut être vide)
-  - <psalms[compline.psalm1Ref]!.getCommentary> récupère la phrase biblique proposée en commentaire du psaume
-  - <psalms[compline.psalm1Ref]!.getBiblicalReference> récupère la référence biblique (utilisé pour les cantiques, autrement vide)
-  - <psalms[compline.psalm1Ref]!.getContent> récupère le contenu du psaume en formatage HTML donné par AELF
-- si <compline.psalm2Ref> est non nul (s'il y a un deuxième psaume), on applique la même recette pour ce deuxième psaume
+- <compline.complinePsalm1> qui contient la référence du 1er psaume ou cantique. On appelle les détails du psaume ainsi, en important '../assets/psalms.dart':
+  - <psalms[compline.complinePsalm1]!.getTitle> récupère le titre du psaume (peut être vide)
+  - <psalms[compline.complinePsalm1]!.getSubtitle> récupère le soustitre du psaume (peut être vide)
+  - <psalms[compline.complinePsalm1]!.getCommentary> récupère la phrase biblique proposée en commentaire du psaume
+  - <psalms[compline.complinePsalm1]!.getBiblicalReference> récupère la référence biblique (utilisé pour les cantiques, autrement vide)
+  - <psalms[compline.complinePsalm1]!.getContent> récupère le contenu du psaume en formatage HTML donné par AELF
+- si <compline.complinePsalm2> est non nul (s'il y a un deuxième psaume), on applique la même recette pour ce deuxième psaume
 - <compline.complineReadingRef>: référence biblique de la lecture biblique
 - <compline.complineReading>: texte de la lecture biblique
 - <compline.complineResponsory>: texte du répons

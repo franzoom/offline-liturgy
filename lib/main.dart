@@ -11,8 +11,8 @@ void main() {
   calendar = checkAndFillCalendar(calendar, DateTime(2025, 6, 23), 'lyon');
 
   // lancement de la génération des Laudes pour le jour demandé:
-  Map<String, Morning> ferialMorning =
-      ferialMorningResolution(calendar, DateTime(2025, 10, 23), 'lyon');
+  //Map<String, Morning> ferialMorning =
+  //    ferialMorningResolution(calendar, DateTime(2025, 10, 23), 'lyon');
 
   // lancement de la génération des Complies pour le jour demandé:
   Map<String, ComplineDefinition> complineDefinitionResolved =

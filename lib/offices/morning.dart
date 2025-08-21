@@ -67,9 +67,9 @@ Map<String, Morning> ferialMorningResolution(
     ferialMorning.celebrationTitle = calendarDay?.defaultCelebration;
     List<String>? morningPsalmList = morningPsalms(calendarDay!.liturgicalTime,
         calendarDay.breviaryWeek!, dayName[date.weekday]);
-    ferialMorning.psalm1Ref = morningPsalmList?[0];
-    ferialMorning.psalm2Ref = morningPsalmList?[1];
-    ferialMorning.psalm3Ref = morningPsalmList?[2];
+    ferialMorning.morningPsalm1 = morningPsalmList?[0];
+    ferialMorning.morningPsalm2 = morningPsalmList?[1];
+    ferialMorning.morningPsalm3 = morningPsalmList?[2];
     return {celebrationName: ferialMorning};
   } // end of the Ordinary Time
 

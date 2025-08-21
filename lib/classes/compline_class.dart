@@ -4,12 +4,12 @@ class Compline {
   String?
       celebrationType; //indique le nom du jour et si c'est une solennité ou une veille de solennité
   final List<String>? complineHymns;
-  final String? complinePsalm1Antiphon1;
+  final String? complinePsalm1Antiphon;
   final String? complinePsalm1Antiphon2;
-  final String? psalm1Ref;
-  final String? complinePsalm2Antiphon1;
+  final String? complinePsalm1;
+  final String? complinePsalm2Antiphon;
   final String? complinePsalm2Antiphon2;
-  final String? psalm2Ref;
+  final String? complinePsalm2;
   final String? complineReadingRef;
   final String? complineReading;
   final String? complineResponsory;
@@ -21,12 +21,12 @@ class Compline {
     this.complineCommentary,
     this.celebrationType,
     this.complineHymns,
-    this.complinePsalm1Antiphon1,
+    this.complinePsalm1Antiphon,
     this.complinePsalm1Antiphon2,
-    this.psalm1Ref,
-    this.complinePsalm2Antiphon1,
+    this.complinePsalm1,
+    this.complinePsalm2Antiphon,
     this.complinePsalm2Antiphon2,
-    this.psalm2Ref,
+    this.complinePsalm2,
     this.complineReadingRef,
     this.complineReading,
     this.complineResponsory,

@@ -2,8 +2,8 @@ import "../../classes/compline_class.dart";
 
 final Map<String, Compline> solemnityComplineLentTime = {
   "saturday": Compline(
-    complinePsalm1Antiphon1: "Dans la paix, je reposerai.",
-    complinePsalm2Antiphon1: "Dans la paix, je reposerai.",
+    complinePsalm1Antiphon: "Dans la paix, je reposerai.",
+    complinePsalm2Antiphon: "Dans la paix, je reposerai.",
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     complineOration: [
@@ -17,7 +17,7 @@ final Map<String, Compline> solemnityComplineLentTime = {
     ],
   ),
   "sunday": Compline(
-    complinePsalm1Antiphon1: "Dieu puissant, mon rempart et ma foi !",
+    complinePsalm1Antiphon: "Dieu puissant, mon rempart et ma foi !",
     complinePsalm1Antiphon2: " ",
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",

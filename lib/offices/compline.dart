@@ -1,5 +1,4 @@
 import '../classes/calendar_class.dart'; //classe de calendar
-import '../main_calendar_fill.dart';
 import '../classes/compline_class.dart';
 import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
@@ -235,16 +234,16 @@ Compline mergeComplineDay(Compline base, Compline override) {
     complineCommentary: override.complineCommentary ?? base.complineCommentary,
     celebrationType: override.celebrationType ?? base.celebrationType,
     complineHymns: override.complineHymns ?? base.complineHymns,
-    complinePsalm1Antiphon1:
-        override.complinePsalm1Antiphon1 ?? base.complinePsalm1Antiphon1,
+    complinePsalm1Antiphon:
+        override.complinePsalm1Antiphon ?? base.complinePsalm1Antiphon,
     complinePsalm1Antiphon2:
         override.complinePsalm1Antiphon2 ?? base.complinePsalm1Antiphon2,
-    psalm1Ref: override.psalm1Ref ?? base.psalm1Ref,
-    complinePsalm2Antiphon1:
-        override.complinePsalm2Antiphon1 ?? base.complinePsalm2Antiphon1,
+    complinePsalm1: override.complinePsalm1 ?? base.complinePsalm1,
+    complinePsalm2Antiphon:
+        override.complinePsalm2Antiphon ?? base.complinePsalm2Antiphon,
     complinePsalm2Antiphon2:
         override.complinePsalm2Antiphon2 ?? base.complinePsalm2Antiphon2,
-    psalm2Ref: override.psalm2Ref ?? base.psalm2Ref,
+    complinePsalm2: override.complinePsalm2 ?? base.complinePsalm2,
     complineReadingRef: override.complineReadingRef ?? base.complineReadingRef,
     complineReading: override.complineReading ?? base.complineReading,
     complineResponsory: override.complineResponsory ?? base.complineResponsory,
@@ -268,24 +267,26 @@ void complineDisplay(Compline compline) {
   Map<String, Hymns> selectedHymns =
       filterHymnsByCodes(compline.complineHymns!, hymnsLibraryContent);
   displayHymns(selectedHymns);
-  print('Psalm 1 Antiphon 1: ${compline.complinePsalm1Antiphon1}');
+  print('Psalm 1 Antiphon 1: ${compline.complinePsalm1Antiphon}');
   print('Psalm 1 Antiphon 2: ${compline.complinePsalm1Antiphon2}');
-  print('Psalm 1 title: ${psalms[compline.psalm1Ref]!.getTitle}');
-  print('Psalm 1 subtitle: ${psalms[compline.psalm1Ref]!.getSubtitle}');
-  print('Psalm 1 commentary: ${psalms[compline.psalm1Ref]!.getCommentary}');
+  print('Psalm 1 title: ${psalms[compline.complinePsalm1]!.getTitle}');
+  print('Psalm 1 subtitle: ${psalms[compline.complinePsalm1]!.getSubtitle}');
   print(
-      'Psalm 1 biblical reference: ${psalms[compline.psalm1Ref]!.getBiblicalReference}');
-  print('Psalm 1 content: ${psalms[compline.psalm1Ref]!.getContent}');
+      'Psalm 1 commentary: ${psalms[compline.complinePsalm1]!.getCommentary}');
+  print(
+      'Psalm 1 biblical reference: ${psalms[compline.complinePsalm1]!.getBiblicalReference}');
+  print('Psalm 1 content: ${psalms[compline.complinePsalm1]!.getContent}');
 
-  if (compline.psalm2Ref != "") {
-    print('Psalm 2 Antiphon 1: ${compline.complinePsalm2Antiphon1}');
+  if (compline.complinePsalm2 != "") {
+    print('Psalm 2 Antiphon 1: ${compline.complinePsalm2Antiphon}');
     print('Psalm 2 Antiphon 2: ${compline.complinePsalm2Antiphon2}');
-    print('Psalm 2 title: ${psalms[compline.psalm1Ref]!.getTitle}');
-    print('Psalm 2 subtitle: ${psalms[compline.psalm1Ref]!.getSubtitle}');
-    print('Psalm 2 commentary: ${psalms[compline.psalm1Ref]!.getCommentary}');
+    print('Psalm 2 title: ${psalms[compline.complinePsalm1]!.getTitle}');
+    print('Psalm 2 subtitle: ${psalms[compline.complinePsalm1]!.getSubtitle}');
     print(
-        'Psalm 2 biblical reference: ${psalms[compline.psalm1Ref]!.getBiblicalReference}');
-    print('Psalm 2 content: ${psalms[compline.psalm1Ref]!.getContent}');
+        'Psalm 2 commentary: ${psalms[compline.complinePsalm1]!.getCommentary}');
+    print(
+        'Psalm 2 biblical reference: ${psalms[compline.complinePsalm1]!.getBiblicalReference}');
+    print('Psalm 2 content: ${psalms[compline.complinePsalm1]!.getContent}');
   }
   print('Reading Reference: ${compline.complineReadingRef}');
   print('Reading: ${compline.complineReading}');
@@ -338,20 +339,21 @@ String exportComplineToAelfJson(
     'complies': {
       'introduction': fixedTexts["officeIntroduction"],
       'hymne': hymnJson,
-      'antienne_1': compline.complinePsalm1Antiphon1,
+      'antienne_1': compline.complinePsalm1Antiphon,
       'psaume_1': {
-        'reference': psalms[compline.psalm1Ref]?.getTitle,
-        'texte': compline.psalm1Ref != null
-            ? psalms[compline.psalm1Ref]?.getContent
+        'reference': psalms[compline.complinePsalm1]?.getTitle,
+        'texte': compline.complinePsalm1 != null
+            ? psalms[compline.complinePsalm1]?.getContent
             : null,
       },
-      'antienne_2': compline.complinePsalm2Antiphon1,
-      'psaume_2': compline.psalm2Ref != null && compline.psalm2Ref != ''
-          ? {
-              'reference': psalms[compline.psalm1Ref]?.getTitle,
-              'texte': psalms[compline.psalm2Ref]?.getContent,
-            }
-          : null,
+      'antienne_2': compline.complinePsalm2Antiphon,
+      'psaume_2':
+          compline.complinePsalm2 != null && compline.complinePsalm2 != ''
+              ? {
+                  'reference': psalms[compline.complinePsalm1]?.getTitle,
+                  'texte': psalms[compline.complinePsalm2]?.getContent,
+                }
+              : null,
       'pericope': {
         'reference': compline.complineReadingRef,
         'texte': compline.complineReading,

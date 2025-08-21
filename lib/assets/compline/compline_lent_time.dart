@@ -2,8 +2,8 @@ import "../../classes/compline_class.dart";
 
 final Map<String, Compline> lentTimeCompline = {
   "saturday": Compline(
-    complinePsalm1Antiphon1: "Pitié pour moi, Seigneur, écoute ma prière.",
-    complinePsalm2Antiphon1: "Pitié pour moi, Seigneur, écoute ma prière.",
+    complinePsalm1Antiphon: "Pitié pour moi, Seigneur, écoute ma prière.",
+    complinePsalm2Antiphon: "Pitié pour moi, Seigneur, écoute ma prière.",
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
@@ -14,7 +14,7 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "sunday": Compline(
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineEvangelicAntiphon:
@@ -27,7 +27,7 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "monday": Compline(
-    complinePsalm1Antiphon1: "Rassemble mon cœur pour qu’il te craigne.",
+    complinePsalm1Antiphon: "Rassemble mon cœur pour qu’il te craigne.",
     marialHymnRef: [
       "sub-tuum-preasidium",
       "sous-l-abri-de-ta-misericorde",
@@ -37,7 +37,7 @@ final Map<String, Compline> lentTimeCompline = {
   ),
   "tuesday": Compline(
     complineHymns: ["vienne_la_nuit_de_dieu_lent", "te-lucis-ante-terminum"],
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "Ne me cache pas ton visage, car je compte sur toi.",
     marialHymnRef: [
       "sub-tuum-preasidium",
@@ -47,9 +47,9 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "wednesday": Compline(
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "Auprès du Seigneur est la grâce, la pleine délivrance.",
-    complinePsalm2Antiphon1:
+    complinePsalm2Antiphon:
         "Auprès du Seigneur est la grâce, la pleine délivrance.",
     marialHymnRef: [
       "sub-tuum-preasidium",
@@ -59,7 +59,7 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "thursday": Compline(
-    complinePsalm1Antiphon1: "Mon Dieu, tu ne peux m’abandonner à la mort.",
+    complinePsalm1Antiphon: "Mon Dieu, tu ne peux m’abandonner à la mort.",
     complinePsalm1Antiphon2: " ",
     marialHymnRef: [
       "sub-tuum-preasidium",
@@ -69,7 +69,7 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "friday": Compline(
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?",
     complinePsalm1Antiphon2: " ",
     marialHymnRef: [
@@ -80,7 +80,7 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "holy_thursday": Compline(
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineResponsory:
@@ -95,7 +95,7 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "holy_friday": Compline(
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineResponsory:
@@ -112,7 +112,7 @@ final Map<String, Compline> lentTimeCompline = {
   "holy_saturday": Compline(
     complineCommentary:
         "Si on ne participe pas à la Veillée pascale, on dit les Complies.",
-    complinePsalm1Antiphon1:
+    complinePsalm1Antiphon:
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineResponsory:

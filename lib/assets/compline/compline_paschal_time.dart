@@ -2,8 +2,8 @@ import "../../classes/compline_class.dart";
 
 final Map<String, Compline> paschalTimeCompline = {
   "saturday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
-    complinePsalm2Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
+    complinePsalm2Antiphon: "Alléluia, alléluia, alléluia !",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
@@ -18,7 +18,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     ],
   ),
   "sunday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
@@ -33,7 +33,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     ],
   ),
   "monday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
     complinePsalm1Antiphon2: " ",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
@@ -49,7 +49,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     ],
   ),
   "tuesday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
     complinePsalm1Antiphon2: " ",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
@@ -65,9 +65,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     ],
   ),
   "wednesday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
     complinePsalm1Antiphon2: " ",
-    complinePsalm2Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm2Antiphon: "Alléluia, alléluia, alléluia !",
     complinePsalm2Antiphon2: " ",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
@@ -83,7 +83,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     ],
   ),
   "thursday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
     complinePsalm1Antiphon2: " ",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
@@ -99,7 +99,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     ],
   ),
   "friday": Compline(
-    complinePsalm1Antiphon1: "Alléluia, alléluia, alléluia !",
+    complinePsalm1Antiphon: "Alléluia, alléluia, alléluia !",
     complinePsalm1Antiphon2: " ",
     complineResponsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 V/ Tu es le Dieu fidèle qui garde son Alliance. R/

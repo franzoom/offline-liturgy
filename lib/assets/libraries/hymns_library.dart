@@ -849,4 +849,52 @@ final Map<String, Hymns> hymnsLibraryContent = {
     content:
         "<p>Voici, au profond de la nuit,<br> Sous nos regards lAstre paraît.<br> Quelqu’un pas à pas nous conduit<br> Vers une source de clarté.</p> <p> Jadis Abraham le croyant<br> Prit cette route sans détour&nbsp;;<br> Joyeux, nous partons vers l’Enfant<br> Dont il a vu naître le Jour.</p> <p> L’appel du lointain rendez-vous<br> Dans notre coeur a retenti,<br> Le Père en secret jusqu’au bout<br> Nous mènera près de son Fils.</p> <p> Déjà la cité de David<br> Est apparue devant nos yeux&nbsp;;<br> La quête en nos coeurs se poursuit<br> Dans ta lumière, Agneau de Dieu.</p>",
   ),
+  "c-est-un-corps-glorieux": Hymns(
+    title: "C’est un corps glorieux",
+    author: "",
+    content:
+        "<p>C’est un corps glorieux<br> Que le Corps du Seigneur,<br> Pour y reposer mon cœur<br> Nul autre je ne veux.</p> <p> C’est un pain savoureux<br> Que le Pain du Seigneur,<br> Pour fortifier mon cœur<br> Nul autre je ne veux.</p> <p> C’est un grain fructueux<br> Que le Grain du Seigneur,<br> Pour ensemencer mon cœur<br> Nul autre je ne veux.</p> <p> C’est un sang généreux<br> Que le Sang du Seigneur,<br> Pour purifier mon cœur<br> Nul autre je ne veux.</p> <p> C’est un don merveilleux<br> Que l’Amour du Seigneur,<br> Pour transfigurer mon cœur<br> Nul autre je ne veux.</p>",
+  ),
+  "une-parole-a-suffi": Hymns(
+    title: "Une parole a suffi",
+    author: "",
+    content:
+        "<p>Une parole a suffi,<br> Jean a trouvé le Messie,<br> Le Fils de l’homme, le Maître.<br> Il le cherchait pour le connaître,<br> Jésus l’invite en sa demeure<br> Vers la dixième heure.<br> <span class=\"espace\">Jésus, lumière du monde,</span><br> <span class=\"espace\">Heureux celui qui te rencontre&nbsp;!</span> </p> <p> Vient le repas du Seigneur,<br> Au soir de paix et d’adieu,<br> Et Jean écoute la source&nbsp;:<br> Le lendemain il la voit sourdre<br> Du cœur percé d’une lance<br> En gage d’alliance.<br> <span class=\"espace\">Ô Christ, époux de l’Église,</span><br> <span class=\"espace\">Abreuve-la de cette eau vive&nbsp;!</span> </p> <p> Voici la nuit qui descend,<br> Il faut redire aux vivants<br> L’Épiphanie de lumière&nbsp;:<br> Le don de Dieu reprend la terre<br> Car tout est grâce et Jean célèbre<br> Les signes du Verbe.<br> <span class=\"espace\">Seigneur, splendeur de la gloire,</span><br> <span class=\"espace\">Toi seul éclaires notre histoire.</span></p>",
+  ),
+  "l-enfant-juif": Hymns(
+    title: "L’enfant juif",
+    author: "",
+    content:
+        "<p>L’enfant juif,<br> L’enfant captif,<br> Dans la nuit succombe.<br> Il est mort<br> Sous l’étoile d’or.<br> Écoutez pleurer Rachel<br> Au lendemain de Noël,<br> Souvenez-vous de ses fils<br> Traqués dans l’ombre.</p> <p> L’Enfant Dieu<br> Est l’un d’entre eux,<br> Et les hommes tremblent.<br> Son amour<br> Les a pris de court.<br> À quoi sert de supplicier<br> Les innocents par milliers,<br> Quand le Royaume est à ceux<br> Qui leur ressemblent&nbsp;?</p> <p> Le vrai Roi<br> Se heurte aux lois,<br> Aux puissants du monde.<br> Quel péril<br> Leur annonce-t-il&nbsp;?<br> Il vient rendre aux opprimés<br> La liberté bafouée,<br> Nous dresserons une croix<br> Pour lui répondre.</p> <p> L’Enfant né<br> Pour nous sauver<br> Rougira la terre&nbsp;:<br> Sang précieux<br> De l’Agneau de Dieu.<br> L’Innocent nous purifie,<br> Sa mort fait sourdre la vie,<br> Et le pécheur pardonné<br> Retourne au Père.</p>",
+  ),
+  "mendiant-du-jour": Hymns(
+    title: "Mendiant du jour",
+    author: "",
+    content:
+        "<p>Mendiant du jour,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la lampe<br> pour la nuit<br> et tu deviens<br> la Nuée qui dissout les ténèbres.</p> <p> Mendiant du feu,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la flamme<br> pour l’hiver&nbsp;;<br> et tu deviens<br> l’Incendie qui embrase le monde.</p> <p> Mendiant d’espoir,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la source<br> pour l’été&nbsp;;<br> et tu deviens<br> le Torrent d’une vie éternelle.</p> <p> Mendiant de toi,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la perle<br> d’un amour&nbsp;;<br> et tu deviens<br> le Trésor pour la joie du prodigue.</p> <p> Mendiant de Dieu,<br> je te prends dans mes mains&nbsp;;<br> mais tu prends dans ta main<br> la mienne<br> pour ce jour&nbsp;;<br> et je deviens<br> l’Envoyé aux mendiants de la terre.</p>",
+  ),
+  "quand-vint-le-jour": Hymns(
+    title: "Quand vint le jour",
+    author: "",
+    content:
+        "<p>Quand vint le jour d’étendre les bras<br> Et de lier la mort sur la croix,<br> Le Fils de l’homme, au cours d’un repas,<br> Livra son corps aux mains des pécheurs.</p> <p> «&nbsp;Voici mon corps, prenez et mangez,<br> Voici mon sang, prenez et buvez.<br> Pour que ma mort vous soit rappelée,<br> Faites ainsi jusqu’à mon retour.&nbsp;»</p> <p> Ne craignons plus la soif ni la faim&nbsp;:<br> Le corps du Christ est notre festin&nbsp;;<br> Quand nous tenons sa coupe en nos mains,<br> Elle a le goût du monde nouveau&nbsp;!</p> <p> Banquet pascal où Dieu est mangé,<br> Signe d’amour, ferment d’unité,<br> Où tous les hommes renouvelés<br> Trouvent les biens du règne à venir.</p> <p> Par Jésus Christ, grand prêtre parfait,<br> Dans l’Esprit Saint d’où vient notre paix,<br> Pour tant de grâces, tant de bienfaits,<br> Nous te louons, ô Père des cieux&nbsp;!</p>",
+  ),
+  "esprit-qui-planes-sur-les-eaux": Hymns(
+    title: "Esprit qui planes sur les eaux",
+    author: "",
+    content:
+        "<p>Esprit qui planes sur les eaux,<br> Apaise en nous les discordances,<br> Les flots inquiets, le bruit des mots,<br> Les tourbillons de vanité,<br> Et fais surgir dans le silence<br> La Parole qui nous recrée.</p> <p> Esprit de feu, toujours caché,<br> Jusqu’aux racines, par ta flamme,<br> Viens consumer en nous l’ivraie&nbsp;;<br> Aux profondeurs de notre vie,<br> Viens enfoncer comme une lame<br> La Parole qui sanctifie.</p> <p> Esprit qui souffles en un soupir<br> À notre esprit le Nom du Père,<br> Viens rassembler tous nos désirs,<br> Fais-les monter en un faisceau<br> Qui soit réponse à la lumière,<br> La Parole du Jour nouveau.</p> <p> Esprit de Dieu, sève d’amour<br> De l’arbre immense où tu nous greffes,<br> Que tous nos frères alentour<br> Nous apparaissent comme un don<br> Dans le grand Corps en qui s’achève<br> La Parole de communion.</p>",
+  ),
+  "amour-qui-planait-sur-les-eaux": Hymns(
+    title: "Amour qui planait sur les eaux",
+    author: "",
+    content:
+        "<p>Amour qui planais sur les eaux<br> Et les berças du premier souffle,<br> Nos âmes dorment&nbsp;;<br> Prends-les d’un battement nouveau<br> Qui reflue au Christ vers leur source<br> Pour déborder parmi les hommes.</p> <p> Tu es cette voix qui gémit,<br> Dans les douleurs de notre monde,<br> Le nom du Père&nbsp;;<br> Mais en retour, tu es aussi<br> La voix apportant sa réponse&nbsp;:<br> L’Amour de Dieu couvre la terre.</p> <p> Tu es la genèse en tout temps,<br> Tu es le vent qui crie naissance<br> À l’âme obscure&nbsp;;<br> Tu nous engendres du dedans,<br> Tu fais tressaillir le silence<br> Au fond de toute créature.</p> <p> Amour descendant aujourd’hui,<br> Viens agiter les eaux enfouies<br> De nos baptêmes,<br> Qui de la mort de Jésus Christ<br> Nous font resurgir dans sa vie&nbsp;:<br> Tout est Amour dans l’Amour même.</p>",
+  ),
+  "ouvrez-vos-coeurs": Hymns(
+    title: "Ouvrez vos cœurs",
+    author: "",
+    content:
+        "<p>Ouvrez vos cœurs au souffle de Dieu,<br> Sa vie se greffe aux âmes qu’il touche&nbsp;;<br> Qu’un peuple nouveau<br> Renaisse des eaux<br> Où plane l’Esprit de vos baptêmes&nbsp;!<br> —&nbsp;Ouvrons nos cœurs au souffle de Dieu,<br> <span class=\"espace\">Car il respire en notre bouche</span><br> <span class=\"espace\">Plus que nous-mêmes&nbsp;!</span> </p> <p> Offrez vos corps aux langues du Feu&nbsp;:<br> Que brûle enfin le cœur de la terre&nbsp;!<br> Vos fronts sont marqués<br> Des signes sacrés&nbsp;:<br> Les mots de Jésus et de Victoire&nbsp;!<br> —&nbsp;Offrons nos corps aux langues du Feu<br> <span class=\"espace\">Pour qu’ils annoncent le mystère</span><br> <span class=\"espace\">De notre Gloire.</span> </p> <p> Livrez votre être aux germes d’Esprit<br> Venus se joindre à toute souffrance&nbsp;:<br> Le Corps du Seigneur<br> Est fait des douleurs<br> De l’homme écrasé par l’injustice.<br> —&nbsp;Livrons notre être aux germes d’Esprit<br> <span class=\"espace\">Pour qu’il nous donne sa violence</span><br> <span class=\"espace\">À son service.</span> </p> <p> Tournez les yeux vers l’hôte intérieur,<br> Sans rien vouloir que cette présence&nbsp;;<br> Vivez de l’Esprit<br> Pour être celui<br> Qui donne son Nom à votre Père.<br> —&nbsp;Tournons les yeux vers l’hôte intérieur,<br> <span class=\"espace\">Car il habite nos silences</span><br> <span class=\"espace\">Et nos prières&nbsp;!</span></p>",
+  ),
 };

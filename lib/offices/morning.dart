@@ -17,7 +17,7 @@ Map<String, Morning> ferialMorningResolution(
     Calendar calendar, DateTime date, location) {
   // if it's a ferial day, execution of the morning prayer resolution.
   // other layers will be added after
-  final String filePath = '../assets/calendar_data/days';
+  final String filePath = './lib/assets/calendar_data/days';
   Morning ferialMorning = Morning(); // creation of the instance ferialMorning
   final calendarDay = calendar.getDayContent(date);
   final celebrationName = calendarDay?.defaultCelebration;
@@ -61,9 +61,9 @@ Map<String, Morning> ferialMorningResolution(
     ferialMorning.celebrationTitle = calendarDay?.defaultCelebration;
     List<String>? morningPsalmList = morningPsalms(calendarDay!.liturgicalTime,
         calendarDay.breviaryWeek!, dayName[date.weekday]);
-    ferialMorning.morningPsalm1 = morningPsalmList?[0];
-    ferialMorning.morningPsalm2 = morningPsalmList?[1];
-    ferialMorning.morningPsalm3 = morningPsalmList?[2];
+    ferialMorning.morningPsalm1 = morningPsalmList![0];
+    ferialMorning.morningPsalm2 = morningPsalmList[1];
+    ferialMorning.morningPsalm3 = morningPsalmList[2];
     return {celebrationName: ferialMorning};
   } // end of the Ordinary Time
 

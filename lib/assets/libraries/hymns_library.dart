@@ -126,7 +126,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           """<p>Qui peut me dire l’endroit<br> Où Jésus le Christ est né ?<br> Vois, Jésus prend naissance<br> Où l’homme commence<br> D’ouvrir son cœur et ses mains<br> Pour changer la vie de ses frères.<br> Oui, là, Jésus prend naissance.<br><br>Qui peut me dire le jour<br> Où Jésus le Christ est né ?<br> Vois, Jésus prend naissance<br> Quand l’homme commence<br> D’ouvrir son cœur et ses mains<br> Pour changer la vie de ses frères ;<br> Alors, Jésus prend naissance.<br><br>Qui peut me dire pourquoi<br> Jésus le Seigneur est né ?<br> Vois, Jésus prend naissance<br> Pour toi qui commences<br> D’ouvrir ton cœur et tes mains<br> Pour changer la vie de tes frères ;<br> Pour toi, Jésus prend naissance.</p>"""),
-  "en-notre-cœur": Hymns(
+  "en-notre-coeur": Hymns(
       title: "En notre cœur",
       author: "",
       content:
@@ -391,7 +391,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
     title: "Bienheureuse la femme que Dieu",
     author: "",
     content:
-        "<p>Bienheureuse la femme<br>que Dieu a visitée.<br>Elle a remis sa vie,<br>elle a donné sa foi<br>à Celui<br>qui ouvre nos cœurs<br>à sa présence.<br>Tu nous conduis, Seigneur,<br>par un chemin de sainteté.</p><p>Bienheureuse la femme<br>que Dieu a purifiée.<br>Elle a livré sa vie,<br>elle a choisi la croix<br>de Celui<br>qui ouvre nos cœurs<br>à la patience.<br>Tu nous convies, Seigneur,<br>à cet amour de pauvreté.</p><p>Bienheureuse la femme<br>que Dieu a glorifiée.<br>Elle a reçu la vie,<br>elle a trouvé sa joie<br>en Celui<br>qui ouvre nos cœurs<br>à l’espérance.<br>Tu nous apprends, Seigneur,<br>à partager ta liberté.</p> <p class=\"antienne\"><span class=\"rouge\">ou (pour une sainte dans la cité)</span></p><p>Quand le jour est obscur<br>Et que défaille l’homme,<br>Gardien de la cité,<br>Voici que tu révèles,<br>Femme connue de Dieu,<br>Un visage nouveau d’humanité.</p><p>Ta présence a bravé<br>Les tyrannies du monde<br>Au nom d’un seul amour :<br>Passion qui te rend forte,<br>Libre pour ton Seigneur,<br>Dans la pleine assurance de l’Esprit.</p><p>Ta présence est un chant,<br>C’est l’espérance neuve<br>D’un peuple en désarroi :<br>Sagesse qui éclaire,<br>Femme qui pacifie<br>Et ranime la foi sans rien briser,</p><p>Ta présence est un feu,<br>Une parole ardente<br>Qui brûle doucement ;<br>Mais vienne la tempête,<br>Souffle un vent de folie :<br>Ta parole est un cri lancé vers Dieu.</p><p>Ta présence de foi<br>Qui soutenait l’Église<br>Rayonne jusqu’à nous :<br>Visage de lumière,<br>Femme qui annonçait<br>Le Royaume promis à tous les temps.</p>",
+        "<p>Bienheureuse la femme<br>que Dieu a visitée.<br>Elle a remis sa vie,<br>elle a donné sa foi<br>à Celui<br>qui ouvre nos cœurs<br>à sa présence.<br>Tu nous conduis, Seigneur,<br>par un chemin de sainteté.</p><p>Bienheureuse la femme<br>que Dieu a purifiée.<br>Elle a livré sa vie,<br>elle a choisi la croix<br>de Celui<br>qui ouvre nos cœurs<br>à la patience.<br>Tu nous convies, Seigneur,<br>à cet amour de pauvreté.</p><p>Bienheureuse la femme<br>que Dieu a glorifiée.<br>Elle a reçu la vie,<br>elle a trouvé sa joie<br>en Celui<br>qui ouvre nos cœurs<br>à l’espérance.<br>Tu nous apprends, Seigneur,<br>à partager ta liberté.</p>",
   ),
   "bienheureux-le-pauvre": Hymns(
     title: "Bienheureux le pauvre",
@@ -896,5 +896,53 @@ final Map<String, Hymns> hymnsLibraryContent = {
     author: "",
     content:
         "<p>Ouvrez vos cœurs au souffle de Dieu,<br> Sa vie se greffe aux âmes qu’il touche&nbsp;;<br> Qu’un peuple nouveau<br> Renaisse des eaux<br> Où plane l’Esprit de vos baptêmes&nbsp;!<br> —&nbsp;Ouvrons nos cœurs au souffle de Dieu,<br> <span class=\"espace\">Car il respire en notre bouche</span><br> <span class=\"espace\">Plus que nous-mêmes&nbsp;!</span> </p> <p> Offrez vos corps aux langues du Feu&nbsp;:<br> Que brûle enfin le cœur de la terre&nbsp;!<br> Vos fronts sont marqués<br> Des signes sacrés&nbsp;:<br> Les mots de Jésus et de Victoire&nbsp;!<br> —&nbsp;Offrons nos corps aux langues du Feu<br> <span class=\"espace\">Pour qu’ils annoncent le mystère</span><br> <span class=\"espace\">De notre Gloire.</span> </p> <p> Livrez votre être aux germes d’Esprit<br> Venus se joindre à toute souffrance&nbsp;:<br> Le Corps du Seigneur<br> Est fait des douleurs<br> De l’homme écrasé par l’injustice.<br> —&nbsp;Livrons notre être aux germes d’Esprit<br> <span class=\"espace\">Pour qu’il nous donne sa violence</span><br> <span class=\"espace\">À son service.</span> </p> <p> Tournez les yeux vers l’hôte intérieur,<br> Sans rien vouloir que cette présence&nbsp;;<br> Vivez de l’Esprit<br> Pour être celui<br> Qui donne son Nom à votre Père.<br> —&nbsp;Tournons les yeux vers l’hôte intérieur,<br> <span class=\"espace\">Car il habite nos silences</span><br> <span class=\"espace\">Et nos prières&nbsp;!</span></p>",
+  ),
+  "j-ai-vu-l-eau-vive": Hymns(
+    title: "J’ai vu l’eau vive",
+    author: "",
+    content:
+        "<p>J’ai vu l’eau vive<br> jaillissant du cœur du Christ, alléluia&nbsp;!<br> Tous ceux que lave cette eau<br> seront sauvés et chanteront&nbsp;: alléluia&nbsp;!</p> <p> J’ai vu la source<br> devenir un fleuve immense, alléluia&nbsp;!<br> Les fils de Dieu rassemblés<br> chantaient leur joie d’être sauvés, alléluia&nbsp;!</p> <p> J’ai vu le Temple<br> désormais s’ouvrir à tous, alléluia&nbsp;!<br> Le Christ revient victorieux,<br> montrant la plaie de son côté, alléluia&nbsp;!</p> <p> J’ai vu le Verbe<br> nous donner la paix de Dieu, alléluia&nbsp;!<br> Tous ceux qui croient en son nom<br> seront sauvés et chanteront&nbsp;: alléluia&nbsp;!</p>",
+  ),
+  "le-fils-bien-aime": Hymns(
+    title: "Le Fils bien-aimé",
+    author: "",
+    content:
+        "<p>Le Fils bien-aimé,<br> L’Agneau sans péché,<br> Prend nos chemins&nbsp;:<br> Saurons-nous suivre le sien&nbsp;?</p> <p> Sa gloire humiliée,<br> Son cœur transpercé,<br> Montrent la voie&nbsp;:<br> Saurons-nous prendre sa croix&nbsp;?</p> <p> Tandis qu’il passait,<br> La crainte en secret<br> Nous a saisis&nbsp;:<br> Saurons-nous perdre nos vies&nbsp;?</p> <p> Oh&nbsp;! viens dans nos cœurs,<br> Esprit du Seigneur,<br> Don sans retour,<br> Pour qu’en nous règne l’amour&nbsp;!</p>",
+  ),
+  "les-enfants-nes-de-ton-sang": Hymns(
+    title: "Les enfants nés de ton sang",
+    author: "",
+    content:
+        "<p>Les enfants nés de ton sang,<br> ta descendance, c’est nous,<br> race nouvelle,<br> race éternelle<br> qui vit de ta vie.</p> <p> R/Il bat, ton sang, dans nos cœurs&nbsp;!<br> La mort est morte&nbsp;!<br> Tu nourris de ta force<br> ce corps, en nous, qui verra Dieu&nbsp;!<br> Nous ne mourrons plus&nbsp;!<br> L’amour nous porte.</p> <p> De tous les peuples sous le ciel,<br> langues, tribus et nations,<br> pour le seul Père,<br> au prix du sang<br> tu nous as rachetés&nbsp;!</p> <p> Fils de l’homme, Fils de Dieu,<br> dans ton Église, l’Esprit<br> rend témoignage<br> avec le sang<br> et l’eau prise à ton flanc&nbsp;!</p> <p> Nous boirons le vin nouveau<br> dans ton Royaume, Seigneur.<br> Que ton calice<br> déjà remplisse<br> nos esprits d’ardeur&nbsp;!</p>",
+  ),
+  "nous-partageons-le-pain-nouveau": Hymns(
+    title: "Nous partageons le Pain nouveau",
+    author: "",
+    content:
+        "<p>Nous partageons le Pain nouveau,<br> la table fraternelle,<br> le Corps brisé, la chair du Fils de Dieu,<br> Pâque des chrétiens.</p> <p> Nous célébrons le Vin nouveau,<br> la coupe de lumière,<br> le Sang Jailli du Cœur de Jésus Christ,<br> vie des baptisés.</p> <p> Nous accueillons l’Esprit nouveau,<br> le Souffle d’allégresse,<br> le don gratuit du Fils ressuscité,<br> force des croyants.</p> <p> Nous entonnons le chant nouveau,<br> la gamme de louange,<br> action de grâce l’hymne à la Trinité,<br> psaume des vivants.</p>",
+  ),
+  "comme-sous-la-neige": Hymns(
+    title: "Comme sous la neige",
+    author: "",
+    content:
+        "<p>Comme sous la neige<br> Veille le printemps,<br> Dans l’hiver du monde<br> Germe le renouveau.<br> Venez reconnaître<br> Les signes des temps&nbsp;:<br> Sur vos terres mortes<br> Souffle l’Esprit.</p> <p>R/ L’Esprit de Jésus ressuscité,<br> Notre vie pour le monde qui vient&nbsp;!</span></p> <p>Comme sous la cendre<br> couve un feu secret,<br> Dans le froid du monde<br> Chante l’Amour vivant.<br> Venez pour apprendre<br> Les gestes de paix&nbsp;:<br> Quand vos cœurs pardonnent,<br> Dieu est présent.</p> <p>Comme sous le givre<br> Tremblent les sarments,<br> Sous le poids du monde<br> Souffre le Corps du Fils.<br> Les plaies de la vigne<br> Vous sacrent vivants&nbsp;:<br> Ceux que Dieu émonde<br> Portent du fruit.</p>",
+  ),
+  "quel-est-ce-voyageur": Hymns(
+    title: "Quel est ce voyageur",
+    author: "",
+    content:
+        "<p>(Stance)<br>Quel est ce voyageur <br> que le Seigneur guette sur le chemin<br> et qu’il terrasse par sa lumière&nbsp;?<br> Quel est ce violent<br> qu’entre tous le Seigneur a choisi<br> pour faire connaître à jamais<br> la force de sa Parole&nbsp;?</p> <p>R/ Victoire du Christ en son Apôtre&nbsp;!</p> <p>Contre Jésus, il allait à Damas,<br> pour Jésus, il sillonnera le monde.</p> <p>Dans la justice de la loi il mettait son orgueil,<br> la grâce de l’Esprit fera toute sa fierté.</p> <p>Connaître Jésus et Jésus crucifié&nbsp;:<br> rien d’autre désormais ne compte pour lui.</p> <p>Il partagera les épreuves de son Seigneur<br> pour communier aussi à la gloire de sa résurrection.</p>",
+  ),
+  "quand-le-jour-est-obscurci": Hymns(
+    title: "Quand le jour est obscur",
+    author: "",
+    content:
+        "<p>Quand le jour est obscur<br> Et que défaille l’homme.<br> Gardien de la cité,<br> Voici que tu révèles,<br> Femme connue de Dieu,<br> Un visage nouveau d’humanité.</p> <p> Ta présence a bravé<br> Les tyrannies du monde<br> Au nom d’un seul amour<br> Passion qui te rend forte,<br> Libre pour ton Seigneur,<br> Dans la pleine assurance de l’Esprit.</p> <p> Ta présence est un chant,<br> C’est l’espérance neuve<br> D’un peuple en désarroi&nbsp;:<br> Sagesse qui éclaire,<br> Femme qui pacifie<br> Et ranime la foi sans rien briser.</p>",
+  ),
+  "genevieve-attentive-a-la-voix": Hymns(
+    title: "Geneviève, attentive à la voix qui appelle",
+    author: "",
+    content:
+        "<p>Geneviève, attentive à la voix qui appelle,<br> Germain d’Auxerre au front te signa&nbsp;:<br> Le Seigneur te pressait de le suivre.<br> Ouvre notre âme à la foi vive.</p> <p> Orante aux mains levées vers le Seigneur de gloire,<br> Tu pressentais l’approche du loup&nbsp;;<br> De sa peur, tu libéras ton peuple.<br> Ouvre nos cœurs à l’espérance.</p> <p> Mère aux bras accueillants pour le pauvre qui pleure,<br> Tu nourrissais un monde affamé,<br> De son mal, tu guérissais l’infirme.<br> Ouvre nos mains aux dons de grâce.</p> <p> Veilleuse au front penché sur la ville endormie,<br> Tu savais bien sa soif de clarté.<br> De sa nuit, tu délivrais l’aveugle.<br> Ouvre nos yeux à la lumière.</p> <p> Bergère, ô Geneviève, entraîne jusqu’au Père<br> Tout le troupeau qu’il t’a confié.<br> Guide-le, des rives de la Seine,<br> jusqu’au Royaume où tout est grâce.</p>",
   ),
 };

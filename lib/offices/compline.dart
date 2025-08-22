@@ -2,7 +2,7 @@ import '../classes/calendar_class.dart'; //classe de calendar
 import '../classes/compline_class.dart';
 import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
-import '../assets/fixed_texts_library.dart';
+import '../assets/libraries/fixed_texts_library.dart';
 import '../assets/compline/compline_default.dart';
 import '../assets/compline/compline_paschal_time.dart';
 import '../assets/compline/compline_lent_time.dart';

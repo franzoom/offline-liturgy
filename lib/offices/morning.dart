@@ -2,13 +2,14 @@ import 'dart:convert';
 import 'dart:io';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
+import '../classes/day_offices_class.dart';
 import '../assets/psalms_data/morning_psalms.dart';
 import '../tools/days_name.dart';
 import '../tools/extract_week_and_day.dart';
 
 bool detectFerialDays(String celebrationName) {
   // ferial day detection
-  final prefixes = ['OT', 'ADVENT', 'LENT', 'CHRISMAS', 'PT'];
+  final prefixes = ['OT', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationName.startsWith(prefix));
 }
 
@@ -16,6 +17,7 @@ Map<String, Morning> ferialMorningResolution(
     Calendar calendar, DateTime date, location) {
   // if it's a ferial day, execution of the morning prayer resolution.
   // other layers will be added after
+  final String filePath = '../assets/calendar_data/days';
   Morning ferialMorning = Morning(); // creation of the instance ferialMorning
   final calendarDay = calendar.getDayContent(date);
   final celebrationName = calendarDay?.defaultCelebration;
@@ -26,28 +28,23 @@ Map<String, Morning> ferialMorningResolution(
 
   if (celebrationName.startsWith('OT')) {
     // If it's Ordinary Time, then:
-    if (celebrationName.contains('SUNDAY')) {
+    if (celebrationName.endsWith('0')) {
       // special case of Sunday
       final int weekNumber = int.parse(celebrationName[
           celebrationName.length - 1]); // week number calculation
 
       // retrieval of the corresponding datas of one of the 4 first sundays,
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      final dataFile =
-          File('../assets/morning/data/OT_SUNDAY_$referenceWeekNumber');
-      String fileContent = dataFile.readAsStringSync();
-      final fileExtracted = jsonDecode(fileContent);
-      ferialMorning = Morning.fromJson(fileExtracted);
+      Morning ferialMorning =
+          morningExtract(File('$filePath/OT_{$referenceWeekNumber}_0.json'));
 
       if (weekNumber > 4) {
-        // then add the data of the actuel sunday if it's over the 4th week
-        final auxFile = File('../assets/morning/data/OT_SUNDAY_$weekNumber');
-        String auxContent = auxFile.readAsStringSync();
-        var auxExtracted = jsonDecode(auxContent);
-        final sundayAuxData = Morning.fromJson(auxExtracted);
-        //récupération
-        ferialMorning.mergeWith(
-            sundayAuxData); // ajoute les champs de AuxData dans sundayData
+        // then add the data of the actual sunday if it's over the 4th week
+        Morning sundayAuxData =
+            morningExtract(File('$filePath/OT_{$weekNumber}_0.json'));
+        //fusion
+        ferialMorning.overlayWith(
+            sundayAuxData); // adding the elements of auxData to sundayData
       }
     } else {
       // it's a week day. So we use only the 4 first weeks of the Ordinary Time
@@ -56,13 +53,10 @@ Map<String, Morning> ferialMorningResolution(
       int weekNumber = dayDatas[0];
       int dayNumber = dayDatas[1];
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      final dataFile = File(
-          './lib/assets/morning/data/OT_${referenceWeekNumber}_$dayNumber.json');
-      String fileContent = dataFile.readAsStringSync();
-      final fileExtracted = jsonDecode(fileContent);
-      ferialMorning = Morning.fromJson(fileExtracted);
+      ferialMorning = morningExtract(
+          File('$filePath/OT_${referenceWeekNumber}_$dayNumber.json'));
     }
-    // on termine en ajoutant le titre et les psaumes correspondants
+    // Finishing by adding the specific data of the day and the psalms
     ferialMorning.liturgicalGrade = calendarDay?.liturgicalGrade;
     ferialMorning.celebrationTitle = calendarDay?.defaultCelebration;
     List<String>? morningPsalmList = morningPsalms(calendarDay!.liturgicalTime,
@@ -73,14 +67,18 @@ Map<String, Morning> ferialMorningResolution(
     return {celebrationName: ferialMorning};
   } // end of the Ordinary Time
 
-  if (celebrationName.startsWith('ADVENT')) {
+  if (celebrationName.startsWith('advent')) {
     // for the Advent Time
   }
   //for the other ferial times:
-  final dataFile = File('../assets/morning/data/$celebrationName');
-  String fileContent = dataFile.readAsStringSync();
-  final fileExtracted = jsonDecode(fileContent);
-  ferialMorning = Morning.fromJson(fileExtracted);
+  final File fileName = File('$filePath/$celebrationName');
+  ferialMorning = morningExtract(fileName);
 
   return {celebrationName: ferialMorning};
+}
+
+Morning morningExtract(File fileName) {
+  String fileContent = fileName.readAsStringSync();
+  DayOffices dayOffices = DayOffices.fromJSON(jsonDecode(fileContent));
+  return Morning.fromDayOffices(dayOffices);
 }

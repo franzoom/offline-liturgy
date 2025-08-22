@@ -1,3 +1,5 @@
+import 'day_offices_class.dart';
+
 class Morning {
   String? celebrationTitle;
   String? celebrationSubtitle;
@@ -31,11 +33,51 @@ class Morning {
 
   Morning();
 
+  /// Creates a Morning instance from DayOffices data
+  /// Maps corresponding fields from DayOffices to Morning
+  /// Note: commonTitle is not mapped as it doesn't exist in DayOffices
+  static Morning fromDayOffices(DayOffices dayOffices) {
+    return Morning()
+      // Direct field mappings
+      ..celebrationTitle = dayOffices.celebrationTitle
+      ..celebrationSubtitle = dayOffices.celebrationSubtitle
+      ..celebrationDescription = dayOffices.celebrationDescription
+      ..liturgicalGrade = dayOffices.liturgicalGrade
+      ..liturgicalColor = dayOffices.liturgicalColor
+      ..invitatoryAntiphon = dayOffices.invitatoryAntiphon
+      ..invitatoryAntiphon2 = dayOffices.invitatoryAntiphon2
+      ..morningHymn = dayOffices.morningHymn
+      ..morningPsalm1Antiphon = dayOffices.morningPsalm1Antiphon
+      ..morningPsalm1Antiphon2 = dayOffices.morningPsalm1Antiphon2
+      ..morningPsalm1 = dayOffices.morningPsalm1
+      ..morningPsalm2Antiphon = dayOffices.morningPsalm2Antiphon
+      ..morningPsalm2Antiphon2 = dayOffices.morningPsalm2Antiphon2
+      ..morningPsalm2 = dayOffices.morningPsalm2
+      ..morningPsalm3Antiphon = dayOffices.morningPsalm3Antiphon
+      ..morningPsalm3Antiphon2 = dayOffices.morningPsalm3Antiphon2
+      ..morningPsalm3 = dayOffices.morningPsalm3
+      ..morningReadingRef = dayOffices.morningReadingRef
+      ..morningReading = dayOffices.morningReading
+      ..morningResponsory = dayOffices.morningResponsory
+      // Map morningEvangelicAntiphon with fallback to evangelicAntiphon
+      ..morningEvangelicAntiphon =
+          dayOffices.morningEvangelicAntiphon ?? dayOffices.evangelicAntiphon
+      // Map Sunday variants to Morning variants
+      ..morningEvangelicAntiphonA = dayOffices.sundayEvangelicAntiphonA
+      ..morningEvangelicAntiphonB = dayOffices.sundayEvangelicAntiphonB
+      ..morningEvangelicAntiphonC = dayOffices.sundayEvangelicAntiphonC
+      ..morningIntercessionDescription =
+          dayOffices.morningIntercessionDescription
+      ..morningIntercession = dayOffices.morningIntercession
+      // Map morningOration with fallback to oration
+      ..morningOration = dayOffices.morningOration ?? dayOffices.oration;
+  }
+
   /// Overlays data from another Morning instance onto this instance
   /// If a value exists in [overlay], it replaces the existing value
   /// For fields with variants (2, 3), if the variant doesn't exist in [overlay],
   /// it is removed from this instance
-  void overlay(Morning overlay) {
+  void overlayWith(Morning overlay) {
     // Simple fields - replace if overlay has a value
     if (overlay.celebrationTitle != null) {
       celebrationTitle = overlay.celebrationTitle;

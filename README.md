@@ -65,6 +65,10 @@ This class contains all the possible datas for the 4 offices of the day (Complin
 - liturgicalGrade (usefull ?)
 - liturgicalColor
 
+## Methods
+
+- fromJSON: creates an instance of the Class by extracting all the datas of a given JSON file
+
 # THE MORNING CLASS
 
 This class is used to define a the final form of the office.
@@ -86,6 +90,7 @@ This class is used to define a the final form of the office.
 
 ## Methods of the Class:
 
+- fromDayOffices: extracts the usefull datas from an instance of DayOffices containing all the datas of a whole day (coming from the json files)
 - overlay: merges with another set of MorningDatas. Used to add a layer on another layer (proper on common, for example).
 - setInvitatoryPsalms: used after all the merging part, in order to exclude the Invitatory Psalms already used in the Morning Office.
 

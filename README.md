@@ -19,11 +19,12 @@ Le calendrier se construit par la fonction calendarFill en plusieurs étapes.
 
 Le calendrier est enregistré dans calendar.json, dans le répertoire ./assets. S'il n'existe pas il est créé.
 
-## Structure des données fournies par complineDefinitionResolution
+# The function complineDefinitionResolution
 
-On appelle complineDefinitionResolution(calendar, DateTime(x,x,x)) pour obtenir les complies du jour. Si le calendrier n'existe pas ou ne contient pas cette date, il est calculé et stocké dans assets/calendar.json.
+complineDefinitionResolution(calendar, DateTime(x,x,x)) is called to return the day Complines.
+(for the moment:) if the calendar doesn't exist or doesn't possess that date, the calendar is calculater and stored in assets/calendar.json.
 
-Structure returned by the Compline function:
+## Structure returned by the Compline function:
 
 - <compline.complineCommentary> some commentaries about the Compline use (if they are facultative)
 - <compline.celebrationType> indication about the type of Complines: ('normal', 'solemnity' ou 'solemnityEve')
@@ -50,3 +51,48 @@ Structure returned by the Compline function:
 - <compline.complineOration>: list of the final orations. If there is more than one oration, display both, separated by "or".
 - <compline.marialHymnRef>: marial hymns list. Same use as the hymns list for the beginning of the Compline Office
 - conclusion of the Office: use the file '.lib/assets/libraries/fixed-texts_library.dart': fixedTexts['complineConclusion'] to display the html content.
+
+# THE DAY OFFICE CLASS
+
+This class contains all the possible datas for the 4 offices of the day (Complines excluded)
+
+## Particular keys
+
+- celebrationTitle
+- celebrationSubtitle
+- celebrationDescription: texte describing some elements of the saints' life.
+- commons: list of commons possibles for this celebration
+- liturgicalGrade (usefull ?)
+- liturgicalColor
+
+# THE MORNING CLASS
+
+This class is used to define a the final form of the office.
+
+1. Firstable the datas are picked with the day_office Class
+2. then a Common is chosen (if needed)
+3. then the MorningData can be set up, using the datas of day_office (Proper) and the chosen Common.
+
+## Description of the Class
+
+- describes all the elements used for the Morning Office
+- adds the elements describing the celebration:
+
+  - celebrationTitle and Subtitle
+  - description of the celebration
+  - liturgicalGrade
+  - liturgialColor
+  - common used
+
+## Methods of the Class:
+
+- overlay: merges with another set of MorningDatas. Used to add a layer on another layer (proper on common, for example).
+- setInvitatoryPsalms: used after all the merging part, in order to exclude the Invitatory Psalms already used in the Morning Office.
+
+## example of use:
+
+var morning = Morning();
+morning
+..overlay(overlayCommon)
+..overlay(overlaySpecific)
+..setInvitatoryPsalms();

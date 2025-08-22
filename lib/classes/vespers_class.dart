@@ -2,6 +2,12 @@ class Vespers {
   Map<String, String?> data;
 
   Vespers({
+    String? celebrationTitle,
+    String? celebrationSubtitle,
+    String? celebrationDescription,
+    String? commonTitle,
+    int? liturgicalGrade,
+    String? liturgicalColor,
     String? vespersHymn,
     String? vespersPsalm1Antiphon,
     String? vespersPsalm1Antiphon2,

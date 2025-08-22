@@ -1,5 +1,5 @@
 import 'classes/calendar_class.dart'; // cette classe définit calendar
-import 'common_calendar_definitons.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
+import 'common_calendar_definitions.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
 import 'feasts/common_feasts.dart'; //liste des fêtes de l'Église universelle
 import './feasts/locations/lyon.dart';
 import './feasts/locations/france.dart';

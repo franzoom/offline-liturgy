@@ -20,7 +20,7 @@ class DayContent {
     required this.priority,
   });
 
-//méthodes d'exportation en JSON
+//JSON export method
   Map<String, dynamic> toJson() => {
         'liturgicalYear': liturgicalYear,
         'liturgicalTime': liturgicalTime,
@@ -132,6 +132,64 @@ class Calendar {
       content.priority.remove(key);
     }
   }
+
+  /// Déplace un item en appliquant un décalage en jours par rapport à sa position actuelle.
+  /// Le décalage peut être positif (avancer dans le temps) ou négatif (reculer dans le temps).
+  /// Si l'item existe à plusieurs dates, seule la première occurrence trouvée sera déplacée.
+  void moveItemByDays(String itemTitle, int dayShift) {
+    // Chercher l'item dans tout le calendrier
+    DateTime? itemDate;
+    int? itemPriority;
+    bool itemFound = false;
+
+    // Parcourir toutes les dates du calendrier
+    _calendarData.forEach((date, dayContent) {
+      if (!itemFound) {
+        // Chercher dans les priorités
+        dayContent.priority.forEach((priorityLevel, items) {
+          if (!itemFound && items.contains(itemTitle)) {
+            itemDate = date;
+            itemPriority = priorityLevel;
+            itemFound = true;
+          }
+        });
+      }
+    });
+
+    // Si l'item n'est pas trouvé
+    if (!itemFound) {
+      print("L'item '$itemTitle' n'a pas été trouvé dans le calendrier");
+      return;
+    }
+
+    // Si le décalage est 0, ne rien faire
+    if (dayShift == 0) {
+      print(
+          "Décalage de 0 jour : aucun déplacement effectué pour '$itemTitle'");
+      return;
+    }
+
+    // Calculer la nouvelle date
+    DateTime newDate = itemDate!.add(Duration(days: dayShift));
+
+    // Supprimer l'item de sa position actuelle
+    removeCelebrationFromDay(itemDate!, itemTitle);
+
+    // Ajouter l'item à la nouvelle date avec la même priorité
+    addItemToDay(newDate, itemPriority!, itemTitle);
+
+    String direction = dayShift > 0 ? "avancé" : "reculé";
+    print("Item '$itemTitle' ${direction} de ${dayShift.abs()} jour(s) : "
+        "de ${_formatDateForLog(itemDate!)} vers ${_formatDateForLog(newDate)} "
+        "(priorité $itemPriority)");
+  }
+
+  /// Méthode utilitaire pour formater une date dans les logs
+  String _formatDateForLog(DateTime date) {
+    return '${_pad(date.day)}/${_pad(date.month)}/${date.year}';
+  }
+
+  String _pad(int number) => number.toString().padLeft(2, '0');
 
   List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
     final dayContent = _calendarData[date];

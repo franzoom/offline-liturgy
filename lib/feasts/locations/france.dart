@@ -7,6 +7,7 @@ Map<String, FeastDates> franceFeastsList = {
       FeastDates(month: 1, day: 3, priority: 12),
   'remigius_of_reims_bishop_france':
       FeastDates(month: 1, day: 15, priority: 12),
+  'our_lady_of_lourdes_france': FeastDates(month: 2, day: 11, priority: 10),
   'bernadette_soubirous_virgin_france':
       FeastDates(month: 2, day: 18, priority: 12),
   'louise_de_marillac_religious_france':

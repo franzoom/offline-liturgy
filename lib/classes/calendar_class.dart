@@ -4,7 +4,7 @@ import 'dart:io'; //sert à l'importation et exportation d'un fichier JSON
 class DayContent {
   final int liturgicalYear;
   final String liturgicalTime;
-  final String defaultCelebration;
+  final String defaultCelebrationTitle;
   final int liturgicalGrade;
   final String liturgicalColor;
   final int? breviaryWeek;
@@ -13,7 +13,7 @@ class DayContent {
   DayContent({
     required this.liturgicalYear,
     required this.liturgicalTime,
-    required this.defaultCelebration,
+    required this.defaultCelebrationTitle,
     required this.liturgicalGrade,
     required this.liturgicalColor,
     required this.breviaryWeek,
@@ -24,7 +24,7 @@ class DayContent {
   Map<String, dynamic> toJson() => {
         'liturgicalYear': liturgicalYear,
         'liturgicalTime': liturgicalTime,
-        'defaultCelebration': defaultCelebration,
+        'defaultCelebrationTitle': defaultCelebrationTitle,
         'liturgicalGrade': liturgicalGrade,
         'liturgicalColor': liturgicalColor,
         'breviaryWeek': breviaryWeek,
@@ -34,7 +34,7 @@ class DayContent {
   factory DayContent.fromJson(Map<String, dynamic> json) => DayContent(
         liturgicalYear: json['liturgicalYear'],
         liturgicalTime: json['liturgicalTime'],
-        defaultCelebration: json['defaultCelebration'],
+        defaultCelebrationTitle: json['defaultCelebrationTitle'],
         liturgicalGrade: json['liturgicalGrade'],
         liturgicalColor: json['liturgicalColor'],
         breviaryWeek: json['breviaryWeek'],
@@ -203,8 +203,8 @@ class Calendar {
       }
     });
     // Ajouter la célébration par défaut
-    items.add(
-        MapEntry(dayContent.liturgicalGrade, dayContent.defaultCelebration));
+    items.add(MapEntry(
+        dayContent.liturgicalGrade, dayContent.defaultCelebrationTitle));
     // MODULE DE SUPPRESSION DES FÊTES DONT LA PRÉSÉANCES EST TROP FAIBLE
     // Déterminer la priorité la plus importante (la plus basse entre 1 et 6)
     // Étape 1 : chercher la plus petite priorité entre 1 et 6
@@ -297,7 +297,8 @@ extension CalendarDisplay on Calendar {
       buffer.writeln('──────────────────────────────');
       buffer.writeln('🗓️ Année liturgique  : ${content.liturgicalYear}');
       buffer.writeln('⛪ Temps liturgique   : ${content.liturgicalTime}');
-      buffer.writeln('🎉 Célébration        : ${content.defaultCelebration}');
+      buffer.writeln(
+          '🎉 Célébration        : ${content.defaultCelebrationTitle}');
       buffer.writeln('⭐ Priorité par défaut: ${content.liturgicalGrade}');
       buffer.writeln('🎨 Couleur liturgique : ${content.liturgicalColor}');
       buffer.writeln(

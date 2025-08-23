@@ -16,11 +16,16 @@ bool detectFerialDays(String celebrationName) {
 Map<String, Morning> ferialMorningResolution(
     Calendar calendar, DateTime date, location) {
   // if it's a ferial day, execution of the morning prayer resolution.
-  // other layers will be added after
-  final String filePath = './lib/assets/calendar_data/days';
-  Morning ferialMorning = Morning(); // creation of the instance ferialMorning
-  final calendarDay = calendar.getDayContent(date);
-  final celebrationName = calendarDay?.defaultCelebration;
+  // other layers will be added afterwards if needed.
+  final String ferialFilePath =
+      './lib/assets/calendar_data/days_ferial'; // path to the ferial days data
+  final String specialFilePath =
+      './lib/assets/calendar_data/days_special'; // path to the special days data
+  Morning ferialMorning =
+      Morning(); // creation of the instance of ferialMorning
+  final calendarDay =
+      calendar.getDayContent(date); // retrieval of the calendar day
+  final celebrationName = calendarDay?.defaultCelebrationTitle;
   if (!detectFerialDays(celebrationName!)) {
     // if it's not a ferial day, return an empty ferialMorning instance
     return {celebrationName: ferialMorning};
@@ -35,13 +40,13 @@ Map<String, Morning> ferialMorningResolution(
 
       // retrieval of the corresponding datas of one of the 4 first sundays,
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      Morning ferialMorning =
-          morningExtract(File('$filePath/OT_{$referenceWeekNumber}_0.json'));
+      Morning ferialMorning = morningExtract(
+          File('$ferialFilePath/OT_{$referenceWeekNumber}_0.json'));
 
       if (weekNumber > 4) {
         // then add the data of the actual sunday if it's over the 4th week
         Morning sundayAuxData =
-            morningExtract(File('$filePath/OT_{$weekNumber}_0.json'));
+            morningExtract(File('$ferialFilePath/OT_{$weekNumber}_0.json'));
         //fusion
         ferialMorning.overlayWith(
             sundayAuxData); // adding the elements of auxData to sundayData
@@ -54,11 +59,11 @@ Map<String, Morning> ferialMorningResolution(
       int dayNumber = dayDatas[1];
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
       ferialMorning = morningExtract(
-          File('$filePath/OT_${referenceWeekNumber}_$dayNumber.json'));
+          File('$ferialFilePath/OT_${referenceWeekNumber}_$dayNumber.json'));
     }
     // Finishing by adding the specific data of the day and the psalms
     ferialMorning.liturgicalGrade = calendarDay?.liturgicalGrade;
-    ferialMorning.celebrationTitle = calendarDay?.defaultCelebration;
+    ferialMorning.celebrationTitle = calendarDay?.defaultCelebrationTitle;
     List<String>? morningPsalmList = morningPsalms(calendarDay!.liturgicalTime,
         calendarDay.breviaryWeek!, dayName[date.weekday]);
     ferialMorning.morningPsalm1 = morningPsalmList![0];
@@ -69,9 +74,20 @@ Map<String, Morning> ferialMorningResolution(
 
   if (celebrationName.startsWith('advent')) {
     // for the Advent Time
+    if (date.day < 17) {
+      // days before 17th December
+      List dayDatas = extractWeekAndDay(celebrationName, "advent");
+      int weekNumber = dayDatas[0];
+      int dayNumber = dayDatas[1];
+      ferialMorning = morningExtract(
+          File('$ferialFilePath/advent_${weekNumber}_$dayNumber.json'));
+    } else {
+      ferialMorning =
+          morningExtract(File('$specialFilePath/advent_${date.day}.json'));
+    }
   }
   //for the other ferial times:
-  final File fileName = File('$filePath/$celebrationName');
+  final File fileName = File('$ferialFilePath/$celebrationName');
   ferialMorning = morningExtract(fileName);
 
   return {celebrationName: ferialMorning};

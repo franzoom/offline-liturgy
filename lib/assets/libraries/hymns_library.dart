@@ -576,4 +576,400 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           """<p>Le Seigneur passe...<br> Ouvriras-tu,<br> Quand frappe l’inconnu&nbsp;?<br> Peux-tu laisser mourir la voix<br> Qui réclame ta foi&nbsp;?</p> <p> Le Seigneur passe...<br> Entendras-tu<br> L’Esprit de Jésus Christ&nbsp;?<br> Il creuse en toi la pauvreté<br> Pour t’apprendre à prier.</p> <p> Le Seigneur passe...<br> Eteindras-tu<br> L’amour qui purifie&nbsp;?<br> Vas-tu le fuir et refuser<br> D’être l’or au creuset&nbsp;?</p> <p> Le Seigneur passe...<br> Entreras-tu<br> Dans son eucharistie&nbsp;?<br> Rappelle-toi que dans son corps<br> Il accueille ta mort.</p> <p> Le Seigneur passe...<br> Oseras-tu<br> Lancer ton cri de joie&nbsp;?<br> Christ est vivant, ressuscité.<br> Qui voudra l’héberger&nbsp;?</p> <p> Le Seigneur passe...<br> Attendras-tu<br> Un autre rendez-vous&nbsp;?<br> Pourquoi tarder&nbsp;? Prends avec lui<br> Le chemin de la vie.</p> <p> Le Seigneur passe...<br> </p>"""),
+  "homme-ne-te-tourmente-pas": Hymns(
+    title: "Homme, ne te tourmente pas",
+    author: "",
+    content:
+        "<p>R/ Homme&nbsp;! Ne te tourmente pas&nbsp;!<br> Ainsi qu’il s’en est allé,<br> Jésus reviendra&nbsp;!</p> <p> Il s’élève de la terre&nbsp;!<br> Il retourne vers son Père&nbsp;!<br> Auprès de lui, tu vivras&nbsp;!<br> Si tu crois...</p> <p> Il s’en va, mais il demande<br> Que l’Esprit, sur toi, descende,<br> Qu’il rende forte ta foi&nbsp;!<br> Si tu crois...</p> <p> Il l’a dit&nbsp;: Il te prépare<br> Une place dans sa gloire&nbsp;!<br> Déjà l’Amour te reçoit&nbsp;!<br> Si tu crois...</p> <p class=\"antienne rouge\"><i>ou bien</i></p> <p>Jesu, nostra redemptio,<br> Amor et desiderium,<br> Deus creator omnium,<br> Homo in fine temporum.</p> <p class=\"antienne droite\"><i>Ô Jésus, notre rédemption,<br> notre amour et notre désir, <br> Dieu créateur de l’univers,<br> Dieu fait homme à la fin des âges&nbsp;!</i></p> <p>Quae te vicit clementia,<br> Ut ferres nostra crimina,<br> Crudelem mortem patiens<br> Ut nos a morte tolleres!</p> <p class=\"antienne droite\"><i>Quelle tendresse t’a vaincu<br> pour que tu portes nos péchés,<br> te fit souffrir cruellement<br> pour qu’à la mort tu nous ravisses&nbsp;?</i></p> <p>Inferni claustra penetrans,<br> Tuos captivos redimens,<br> Victor triumpho nobili<br> Ad dextram Dei residens</p> <p class=\"antienne droite\"><i>Forçant le verrou des enfers,<br> tu as racheté les captifs&nbsp;;<br> très noble vainqueur, triomphant,<br> tu es à la droite du Père.</i></p> <p>Ipsa te cogat pietas<br> Ut mala nostra superes<br> Parcendo et voti compotes<br> Nos tuo vultu saties.</p> <p class=\"antienne droite\"><i>Cède encore à ce même amour&nbsp;:<br> en pardonnant, détruis le mal,<br> et, pour exaucer tous nos vœux,<br> rassasie-nous de ton visage.</i></p> <p>Tu esto nostrum gaudium,<br> Qui es futurus praemium,<br> Sit nostra in te gloria,<br> In sempiterna saecula.</p> <p class=\"antienne droite\"><i>Puisses-tu être notre joie,<br> toi, la récompense à venir&nbsp;!<br> Que notre gloire soit en toi,<br> sans cesse, à travers tous les siècles&nbsp;!</i></p>",
+  ),
+  "entre-dans-la-gloire": Hymns(
+    title: "Entré dans la gloire",
+    author: "",
+    content:
+        "<p>Entré dans la gloire,<br> Jésus nous trace le chemin<br> Et nous conduit vers le matin<br> De sa victoire.</p> <p> R/ Mais l’amour seul est puissance,<br> Mystère découvert<br> Aux yeux de l’espérance. </p> <p> Vêtu de lumière,<br> Il transfigure pour toujours<br> Le fils prodigue de retour<br> Auprès du Père.</p> <p> Ouverte est la porte,<br> En sa demeure il nous reçoit,<br> Dans son offrande, vers la joie,<br> Ses mains nous portent.</p> <p> Soleil de justice,<br> Il fait mûrir tout l’univers,<br> Et son Esprit, dans nos déserts,<br> Est source vive.</p> <p class=\"antienne rouge\"><i>ou bien</i></p> <p>Jesu, nostra redemptio,<br> Amor et desiderium,<br> Deus creator omnium,<br> Homo in fine temporum.</p> <p class=\"antienne droite\"><i>Ô Jésus, notre rédemption,<br> notre amour et notre désir, <br> Dieu créateur de l’univers,<br> Dieu fait homme à la fin des âges&nbsp;!</i></p> <p>Quae te vicit clementia,<br> Ut ferres nostra crimina,<br> Crudelem mortem patiens<br> Ut nos a morte tolleres!</p> <p class=\"antienne droite\"><i>Quelle tendresse t’a vaincu<br> pour que tu portes nos péchés,<br> te fit souffrir cruellement<br> pour qu’à la mort tu nous ravisses&nbsp;?</i></p> <p>Inferni claustra penetrans,<br> Tuos captivos redimens,<br> Victor triumpho nobili<br> Ad dextram Dei residens</p> <p class=\"antienne droite\"><i>Forçant le verrou des enfers,<br> tu as racheté les captifs&nbsp;;<br> très noble vainqueur, triomphant,<br> tu es à la droite du Père.</i></p> <p>Ipsa te cogat pietas<br> Ut mala nostra superes<br> Parcendo et voti compotes<br> Nos tuo vultu saties.</p> <p class=\"antienne droite\"><i>Cède encore à ce même amour&nbsp;:<br> en pardonnant, détruis le mal,<br> et, pour exaucer tous nos vœux,<br> rassasie-nous de ton visage.</i></p> <p>Tu esto nostrum gaudium,<br> Qui es futurus praemium,<br> Sit nostra in te gloria,<br> In sempiterna saecula.</p> <p class=\"antienne droite\"><i>Puisses-tu être notre joie,<br> toi, la récompense à venir&nbsp;!<br> Que notre gloire soit en toi,<br> sans cesse, à travers tous les siècles&nbsp;!</i></p>",
+  ),
+  "nous-te-chantons-ressuscite": Hymns(
+    title: "Nous te chantons, Ressuscité",
+    author: "",
+    content:
+        "<p>Nous te chantons, Ressuscité,<br> ton jour se lève sur l’humanité,<br> tu sors vainqueur de l’ombre des tombeaux,<br> soleil vivant des temps nouveaux.</p> <p> Tout l’univers remonte au jour,<br> capable enfin de t’appeler «&nbsp;Amour&nbsp;».<br> Un chant nouveau pour les enfants perdus&nbsp;:<br> le nom de Dieu nous est rendu.</p> <p> Tu as ouvert pour tous les tiens<br> en grand la porte du très vieux jardin,<br> où Dieu convie les hommes pour la joie<br> sous l’arbre immense de ta Croix.</p> <p> Vous qui dormez, réveillez-vous,<br> la nuit émet le signe de l’Époux.<br> Il vient chercher le peuple des croyants,<br> «&nbsp;Amen&nbsp;» de gloire au Dieu vivant.</p> <p class=\"antienne rouge\"><i>ou bien</i></p> <p>Jesu, nostra redemptio,<br> Amor et desiderium,<br> Deus creator omnium,<br> Homo in fine temporum.</p> <p class=\"antienne droite\"><i>Ô Jésus, notre rédemption,<br> notre amour et notre désir, <br> Dieu créateur de l’univers,<br> Dieu fait homme à la fin des âges&nbsp;!</i></p> <p>Quae te vicit clementia,<br> Ut ferres nostra crimina,<br> Crudelem mortem patiens<br> Ut nos a morte tolleres!</p> <p class=\"antienne droite\"><i>Quelle tendresse t’a vaincu<br> pour que tu portes nos péchés,<br> te fit souffrir cruellement<br> pour qu’à la mort tu nous ravisses&nbsp;?</i></p> <p>Inferni claustra penetrans,<br> Tuos captivos redimens,<br> Victor triumpho nobili<br> Ad dextram Dei residens</p> <p class=\"antienne droite\"><i>Forçant le verrou des enfers,<br> tu as racheté les captifs&nbsp;;<br> très noble vainqueur, triomphant,<br> tu es à la droite du Père.</i></p> <p>Ipsa te cogat pietas<br> Ut mala nostra superes<br> Parcendo et voti compotes<br> Nos tuo vultu saties.</p> <p class=\"antienne droite\"><i>Cède encore à ce même amour&nbsp;:<br> en pardonnant, détruis le mal,<br> et, pour exaucer tous nos vœux,<br> rassasie-nous de ton visage.</i></p> <p>Tu esto nostrum gaudium,<br> Qui es futurus praemium,<br> Sit nostra in te gloria,<br> In sempiterna saecula.</p> <p class=\"antienne droite\"><i>Puisses-tu être notre joie,<br> toi, la récompense à venir&nbsp;!<br> Que notre gloire soit en toi,<br> sans cesse, à travers tous les siècles&nbsp;!</i></p>",
+  ),
+  "o-fils-de-dieu-ressuscite": Hymns(
+    title: "Ô Fils de Dieu ressuscité",
+    author: "",
+    content:
+        "<p>Ô Fils de Dieu ressuscité,<br> Pourquoi cherchons-nous ton visage<br> Dans la Nuée&nbsp;?<br> Tu nous préviens sur tout rivage<br> D’humanité.</p> <p> Le ciel demeure où tu descends,<br> Tu donnes l’eau vive à ton peuple,<br> L’Amour vivant,<br> Et tu l’entraînes comme un fleuve<br> Dans son courant.</p> <p> La joie promise à notre soif,<br> Comment la saisir à mains pleines<br> Avant le soir&nbsp;?<br> Dans le partage de ta Cène<br> Et de ta croix.</p> <p> Tu reviendras transfigurer<br> Le monde assoiffé de renaître<br> Dans ta clarté.<br> Tu es la gloire de ton Père,<br> Dieu révélé.</p> <p class=\"antienne rouge\"><i>ou bien</i></p> <p>Jesu, nostra redemptio,<br> Amor et desiderium,<br> Deus creator omnium,<br> Homo in fine temporum.</p> <p class=\"antienne droite\"><i>Ô Jésus, notre rédemption,<br> notre amour et notre désir, <br> Dieu créateur de l’univers,<br> Dieu fait homme à la fin des âges&nbsp;!</i></p> <p>Quae te vicit clementia,<br> Ut ferres nostra crimina,<br> Crudelem mortem patiens<br> Ut nos a morte tolleres!</p> <p class=\"antienne droite\"><i>Quelle tendresse t’a vaincu<br> pour que tu portes nos péchés,<br> te fit souffrir cruellement<br> pour qu’à la mort tu nous ravisses&nbsp;?</i></p> <p>Inferni claustra penetrans,<br> Tuos captivos redimens,<br> Victor triumpho nobili<br> Ad dextram Dei residens</p> <p class=\"antienne droite\"><i>Forçant le verrou des enfers,<br> tu as racheté les captifs&nbsp;;<br> très noble vainqueur, triomphant,<br> tu es à la droite du Père.</i></p> <p>Ipsa te cogat pietas<br> Ut mala nostra superes<br> Parcendo et voti compotes<br> Nos tuo vultu saties.</p> <p class=\"antienne droite\"><i>Cède encore à ce même amour&nbsp;:<br> en pardonnant, détruis le mal,<br> et, pour exaucer tous nos vœux,<br> rassasie-nous de ton visage.</i></p> <p>Tu esto nostrum gaudium,<br> Qui es futurus praemium,<br> Sit nostra in te gloria,<br> In sempiterna saecula.</p> <p class=\"antienne droite\"><i>Puisses-tu être notre joie,<br> toi, la récompense à venir&nbsp;!<br> Que notre gloire soit en toi,<br> sans cesse, à travers tous les siècles&nbsp;!</i></p>",
+  ),
+  "il-est-grand-celui-qui-donne-la-vie": Hymns(
+    title: "Il est grand celui qui donne la vie",
+    author: "",
+    content:
+        "<p>Il est grand celui qui donne la vie, <span class=\"espace verset\">Stance</span><br>     plus grand, celui qui pardonne ;<br>     il est bon, celui qui aime ses amis,<br>     meilleur, celui qui donne sa vie<br>     pour l’homme qui le blesse.<br>     Dieu blessé,<br>     Jésus, tu nous pardonnes.</p> <p>    <span class=\"symbole-refrain\"></span>Il n’est pas de plus grand amour<br>     que de donner sa vie<br>     pour ceux qu’on aime. </p> <p>     Vous serez mes amis<br>     si vous faites ma volonté.</p> <p>     Moi, le Maître et Seigneur,<br>     je vous ai donné l’exemple.</p> <p>     Heureux serez-vous, sachant cela,<br>     si vous donnez votre vie.</p>",
+  ),
+  "premier-martyr-de-la-foi": Hymns(
+    title: "Premier martyr de la foi",
+    author: "",
+    content:
+        "<p>R/ Premier martyr de la foi,<br>     nous apprenons de toi<br>     qu’annoncer Jésus vivant<br>     exalte le courage<br>     jusqu’au témoignage<br>     du sang !</p> <p>     Quand tu prêches la Parole<br>     à la foule qui t’immole,<br>     tu vois s’ouvrir l’azur,<br>     Étienne le pur,<br>     et resplendir dans la lumière,<br>     le Fils à la droite du Père.</p> <p>     De la pierre qui te perce<br>     à la pierre qui transperce,<br>     tu vois venir la mort,<br>     Étienne le fort,<br>     et dans le temps qu’elle pardonne,<br>     ton âme au Seigneur s’abandonne.</p>",
+  ),
+  "c-est-un-corps-glorieux": Hymns(
+    title: "C’est un corps glorieux",
+    author: "",
+    content:
+        "<p>C’est un corps glorieux<br>     Que le Corps du Seigneur,<br>     Pour y reposer mon cœur<br>     Nul autre je ne veux.</p> <p>     C’est un pain savoureux<br>     Que le Pain du Seigneur,<br>     Pour fortifier mon cœur<br>     Nul autre je ne veux.</p> <p>     C’est un grain fructueux<br>     Que le Grain du Seigneur,<br>     Pour ensemencer mon cœur<br>     Nul autre je ne veux.</p> <p>     C’est un sang généreux<br>     Que le Sang du Seigneur,<br>     Pour purifier mon cœur<br>     Nul autre je ne veux.</p> <p>     C’est un don merveilleux<br>     Que l’Amour du Seigneur,<br>     Pour transfigurer mon cœur<br>     Nul autre je ne veux.</p>",
+  ),
+  "une-parole-a-suffi": Hymns(
+    title: "Une parole a suffi",
+    author: "",
+    content:
+        "<p>Une parole a suffi,<br>     Jean a trouvé le Messie,<br>     Le Fils de l’homme, le Maître.<br>     Il le cherchait pour le connaître,<br>     Jésus l’invite en sa demeure<br>     Vers la dixième heure.<br>     <span class=\"espace\">Jésus, lumière du monde,</span><br>     <span class=\"espace\">Heureux celui qui te rencontre !</span> </p> <p>     Vient le repas du Seigneur,<br>     Au soir de paix et d’adieu,<br>     Et Jean écoute la source :<br>     Le lendemain il la voit sourdre<br>     Du cœur percé d’une lance<br>     En gage d’alliance.<br>     <span class=\"espace\">Ô Christ, époux de l’Église,</span><br>     <span class=\"espace\">Abreuve-la de cette eau vive !</span> </p> <p>     Voici la nuit qui descend,<br>     Il faut redire aux vivants<br>     L’Épiphanie de lumière :<br>     Le don de Dieu reprend la terre<br>     Car tout est grâce et Jean célèbre<br>     Les signes du Verbe.<br>     <span class=\"espace\">Seigneur, splendeur de la gloire,</span><br>     <span class=\"espace\">Toi seul éclaires notre histoire.</span> </p>",
+  ),
+  "l-enfant-juif": Hymns(
+    title: "L’enfant juif",
+    author: "",
+    content:
+        "<p>L’enfant juif,<br>     L’enfant captif,<br>     Dans la nuit succombe.<br>     Il est mort<br>     Sous l’étoile d’or.<br>     Écoutez pleurer Rachel<br>     Au lendemain de Noël,<br>     Souvenez-vous de ses fils<br>     Traqués dans l’ombre.</p> <p>     L’Enfant Dieu<br>     Est l’un d’entre eux,<br>     Et les hommes tremblent.<br>     Son amour<br>     Les a pris de court.<br>     À quoi sert de supplicier<br>     Les innocents par milliers,<br>     Quand le Royaume est à ceux<br>     Qui leur ressemblent ?</p> <p>     Le vrai Roi<br>     Se heurte aux lois,<br>     Aux puissants du monde.<br>     Quel péril<br>     Leur annonce-t-il ?<br>     Il vient rendre aux opprimés<br>     La liberté bafouée,<br>     Nous dresserons une croix<br>     Pour lui répondre.</p> <p>     L’Enfant né<br>     Pour nous sauver<br>     Rougira la terre :<br>     Sang précieux<br>     De l’Agneau de Dieu.<br>     L’Innocent nous purifie,<br>     Sa mort fait sourdre la vie,<br>     Et le pécheur pardonné<br>     Retourne au Père.</p>",
+  ),
+  "la-nuit-qu-il-fut-livre": Hymns(
+    title: "La nuit qu’il fut livré",
+    author: "",
+    content:
+        "<p>La nuit qu’il fut livré, le Seigneur prit du pain&nbsp;;<br> En signe de sa mort, le rompit de sa main&nbsp;:<br> «&nbsp;Ma vie, nul ne la prend,<br> mais c’est moi qui la donne<br> «&nbsp;Afin de racheter tous mes frères humains.&nbsp;»</p> <p> Après qu’il eut soupé pour la dernière fois,<br> S’offrit comme victime au pressoir de la Croix&nbsp;:<br> «&nbsp;Mon sang, versé pour vous,<br> est le sang de l’Alliance&nbsp;;<br> «&nbsp;Amis, faites ceci en mémoire de moi.&nbsp;»</p> <p> Et nous, peuple de Dieu,<br> nous en sommes témoins&nbsp;:<br> Ta mort, nous l’annonçons par ce pain et ce vin.<br> Jésus ressuscité, ton Église t’acclame,<br> Vainqueur, passé du monde à la gloire sans fin&nbsp;!</p> <p> Tu viens revivre en nous ton mystère pascal&nbsp;:<br> Éteins en notre chair le foyer de tout mal.<br> Nous sommes tes sarments, sainte Vigne du Père&nbsp;:<br> Fais-nous porter du fruit pour le jour triomphal.</p> <p> Seigneur, nous attendons ton retour glorieux&nbsp;:<br> Un jour tu nous prendras avec toi dans les cieux.<br> Ton Corps est la semence de vie éternelle&nbsp;:<br> Un jour tu nous prendras à la table de Dieu.</p>",
+  ),
+  "mendiant-du-jour": Hymns(
+    title: "Mendiant du jour",
+    author: "",
+    content:
+        "<p>Mendiant du jour,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la lampe<br> pour la nuit<br> et tu deviens<br> la Nuée qui dissout les ténèbres.</p> <p> Mendiant du feu,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la flamme<br> pour l’hiver&nbsp;;<br> et tu deviens<br> l’Incendie qui embrase le monde.</p> <p> Mendiant d’espoir,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la source<br> pour l’été&nbsp;;<br> et tu deviens<br> le Torrent d’une vie éternelle.</p> <p> Mendiant de toi,<br> je te prends dans mes mains,<br> comme on prend dans sa main<br> la perle<br> d’un amour&nbsp;;<br> et tu deviens<br> le Trésor pour la joie du prodigue.</p> <p> Mendiant de Dieu,<br> je te prends dans mes mains&nbsp;;<br> mais tu prends dans ta main<br> la mienne<br> pour ce jour&nbsp;;<br> et je deviens<br> l’Envoyé aux mendiants de la terre.</p>",
+  ),
+  "quand-vint-le-jour": Hymns(
+    title: "Quand vint le jour",
+    author: "",
+    content:
+        "<p>Quand vint le jour d’étendre les bras<br> Et de lier la mort sur la croix,<br> Le Fils de l’homme, au cours d’un repas,<br> Livra son corps aux mains des pécheurs.</p> <p> «&nbsp;Voici mon corps, prenez et mangez,<br> Voici mon sang, prenez et buvez.<br> Pour que ma mort vous soit rappelée,<br> Faites ainsi jusqu’à mon retour.&nbsp;»</p> <p> Ne craignons plus la soif ni la faim&nbsp;:<br> Le corps du Christ est notre festin&nbsp;;<br> Quand nous tenons sa coupe en nos mains,<br> Elle a le goût du monde nouveau&nbsp;!</p> <p> Banquet pascal où Dieu est mangé,<br> Signe d’amour, ferment d’unité,<br> Où tous les hommes renouvelés<br> Trouvent les biens du règne à venir.</p> <p> Par Jésus Christ, grand prêtre parfait,<br> Dans l’Esprit Saint d’où vient notre paix,<br> Pour tant de grâces, tant de bienfaits,<br> Nous te louons, ô Père des cieux&nbsp;!</p>",
+  ),
+  "amour-qui-planais-sur-les-eaux": Hymns(
+    title: "Amour qui planais sur les eaux",
+    author: "",
+    content:
+        "<p>Amour qui planais sur les eaux<br> Et les berças du premier souffle,<br> Nos âmes dorment&nbsp;;<br> Prends-les d’un battement nouveau<br> Qui reflue au Christ vers leur source<br> Pour déborder parmi les hommes.</p> <p> Tu es cette voix qui gémit,<br> Dans les douleurs de notre monde,<br> Le nom du Père&nbsp;;<br> Mais en retour, tu es aussi<br> La voix apportant sa réponse&nbsp;:<br> L’Amour de Dieu couvre la terre.</p> <p> Tu es la genèse en tout temps,<br> Tu es le vent qui crie naissance<br> À l’âme obscure&nbsp;;<br> Tu nous engendres du dedans,<br> Tu fais tressaillir le silence<br> Au fond de toute créature.</p> <p> Amour descendant aujourd’hui,<br> Viens agiter les eaux enfouies<br> De nos baptêmes,<br> Qui de la mort de Jésus Christ<br> Nous font resurgir dans sa vie&nbsp;:<br> Tout est Amour dans l’Amour même.</p>",
+  ),
+  "ouvrez-vos-coeurs": Hymns(
+    title: "Ouvrez vos cœurs",
+    author: "",
+    content:
+        "<p>Ouvrez vos cœurs au souffle de Dieu,<br> Sa vie se greffe aux âmes qu’il touche&nbsp;;<br> Qu’un peuple nouveau<br> Renaisse des eaux<br> Où plane l’Esprit de vos baptêmes&nbsp;!<br> —&nbsp;Ouvrons nos cœurs au souffle de Dieu,<br> <span class=\"espace\">Car il respire en notre bouche</span><br> <span class=\"espace\">Plus que nous-mêmes&nbsp;!</span> </p> <p> Offrez vos corps aux langues du Feu&nbsp;:<br> Que brûle enfin le cœur de la terre&nbsp;!<br> Vos fronts sont marqués<br> Des signes sacrés&nbsp;:<br> Les mots de Jésus et de Victoire&nbsp;!<br> —&nbsp;Offrons nos corps aux langues du Feu<br> <span class=\"espace\">Pour qu’ils annoncent le mystère</span><br> <span class=\"espace\">De notre Gloire.</span> </p> <p> Livrez votre être aux germes d’Esprit<br> Venus se joindre à toute souffrance&nbsp;:<br> Le Corps du Seigneur<br> Est fait des douleurs<br> De l’homme écrasé par l’injustice.<br> —&nbsp;Livrons notre être aux germes d’Esprit<br> <span class=\"espace\">Pour qu’il nous donne sa violence</span><br> <span class=\"espace\">À son service.</span> </p> <p> Tournez les yeux vers l’hôte intérieur,<br> Sans rien vouloir que cette présence&nbsp;;<br> Vivez de l’Esprit<br> Pour être celui<br> Qui donne son Nom à votre Père.<br> —&nbsp;Tournons les yeux vers l’hôte intérieur,<br> <span class=\"espace\">Car il habite nos silences</span><br> <span class=\"espace\">Et nos prières&nbsp;!</span> </p>",
+  ),
+  "le-fils-bien-aime": Hymns(
+    title: "Le Fils bien-aimé",
+    author: "",
+    content:
+        "<p>Le Fils bien-aimé,<br> L’Agneau sans péché,<br> Prend nos chemins&nbsp;:<br> Saurons-nous suivre le sien&nbsp;?</p> <p> Sa gloire humiliée,<br> Son cœur transpercé,<br> Montrent la voie&nbsp;:<br> Saurons-nous prendre sa croix&nbsp;?</p> <p> Tandis qu’il passait,<br> La crainte en secret<br> Nous a saisis&nbsp;:<br> Saurons-nous perdre nos vies&nbsp;?</p> <p> Oh&nbsp;! viens dans nos cœurs,<br> Esprit du Seigneur,<br> Don sans retour,<br> Pour qu’en nous règne l’amour&nbsp;!</p>",
+  ),
+  "les-enfants-nes-de-ton-sang": Hymns(
+    title: "Les enfants nés de ton sang",
+    author: "",
+    content:
+        "<p>Les enfants nés de ton sang,<br> ta descendance, c’est nous,<br> race nouvelle,<br> race éternelle<br> qui vit de ta vie.</p> <p> R/Il bat, ton sang, dans nos cœurs&nbsp;!<br> La mort est morte&nbsp;!<br> Tu nourris de ta force<br> ce corps, en nous, qui verra Dieu&nbsp;!<br> Nous ne mourrons plus&nbsp;!<br> L’amour nous porte.</p> <p> De tous les peuples sous le ciel,<br> langues, tribus et nations,<br> pour le seul Père,<br> au prix du sang<br> tu nous as rachetés&nbsp;!</p> <p> Fils de l’homme, Fils de Dieu,<br> dans ton Église, l’Esprit<br> rend témoignage<br> avec le sang<br> et l’eau prise à ton flanc&nbsp;!</p> <p> Nous boirons le vin nouveau<br> dans ton Royaume, Seigneur.<br> Que ton calice<br> déjà remplisse<br> nos esprits d’ardeur&nbsp;!</p>",
+  ),
+  "nous-partageons-le-pain-nouveau": Hymns(
+    title: "Nous partageons le pain nouveau",
+    author: "",
+    content:
+        "<p>Nous partageons le Pain nouveau,<br> la table fraternelle,<br> le Corps brisé, la chair du Fils de Dieu,<br> Pâque des chrétiens.</p> <p> Nous célébrons le Vin nouveau,<br> la coupe de lumière,<br> le Sang Jailli du Cœur de Jésus Christ,<br> vie des baptisés.</p> <p> Nous accueillons l’Esprit nouveau,<br> le Souffle d’allégresse,<br> le don gratuit du Fils ressuscité,<br> force des croyants.</p> <p> Nous entonnons le chant nouveau,<br> la gamme de louange,<br> action de grâce l’hymne à la Trinité,<br> psaume des vivants.</p>",
+  ),
+  "voici-que-s-ouvrent-pour-le-roi": Hymns(
+    title: "Voici que s’ouvrent pour le Roi",
+    author: "",
+    content:
+        "<p>Voici que s’ouvrent pour le Roi<br> les portes de la Ville&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi fermerez-vous sur moi<br> la pierre du tombeau,<br> dans le jardin&nbsp;?</p> <p> R/ Dieu sauveur, oublie notre péché<br> Mais souviens-toi de ton amour<br> Quand tu viendras dans ton Royaume. </p> <p> Je viens, monté sur un ânon,<br> en signe de ma gloire&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi me ferez-vous sortir<br> au rang des malfaiteurs,<br> et des maudits&nbsp;?</p> <p> Vos rues se drapent de manteaux<br> jetés sur mon passage&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi souillerez-vous mon corps<br> de pourpre et de crachats,<br> mon corps livré&nbsp;?</p> <p> Vos mains me tendent les rameaux<br> pour l’heure du triomphe&nbsp;:<br> Hosanna&nbsp;! Béni sois-tu, Seigneur&nbsp;!<br> Pourquoi blesserez-vous mon front<br> de ronce et de roseaux,<br> en vous moquant&nbsp;?</p>",
+  ),
+  "o-virgo-mater-filia": Hymns(
+    title: "O Virgo Mater Filia",
+    author: "",
+    content:
+        "<p>O virgo mater, filia<br> tui beata Filii,<br> sublimis et humillima<br> præ creaturis omnibus.</p> <p class=\"antienne droite\"><i>Ô Vierge Mère,<br> bienheureuse fille de ton propre Fils,<br> la plus haute et la plus humble<br> de toutes les créatures,</i></p> <p>Divini tu consilii<br> fixus ab ævo terminus,<br> tu decus et fastigium<br> naturæ nostræ maximum:</p> <p class=\"antienne droite\"><i>Terme du plan divin<br> fixé de toute éternité,<br> honneur et parfait achèvement<br> de notre nature&nbsp;:</i></p> <p>Quam sic prompsisti nobilem<br> ut summus eius conditor<br> in ipsa per te fieret<br> arte miranda conditus.</p> <p class=\"antienne droite\"><i>Tu l’as si bien ennoblie qu’en elle,<br> par un art admirable,<br> son souverain créateur<br> s’est fait par toi créature.</i></p> <p>In utero virgineo<br> amor revixit igneus,<br> cuius calore germinant<br> flores in terra cælici.</p> <p class=\"antienne droite\"><i>Dans ton sein virginal<br> s’est rallumé le feu de l’amour,<br> dont l’ardeur a fait germer<br> des fleurs célestes sur la terre.</i></p> <p>Patri sit et Paraclito<br> tuoque Nato gloria,<br> qui veste te mirabili<br> circumdederunt gratiæ.</p> <p class=\"antienne droite\"><i>Gloire au Père,<br> au Consolateur et à ton Fils,<br> qui t’ont enveloppée<br> du vêtement admirable de la grâce.</i></p>",
+  ),
+  "quae-caritatis-fulgidum": Hymns(
+    title: "Quæ caritatis fulgidum",
+    author: "",
+    content:
+        "<p>Quæ caritatis fulgidum<br> es astrum, Virgo , superis,<br> spei nobis mortalibus<br> fons vivax es et profluus.</p> <p class=\"antienne droite\"><i>Tu es pour les habitants des cieux<br> un astre resplendissant de charité, Vierge,<br> et pour nous, mortels,<br> une source vive et débordante d’espérance.</i></p> <p>Sic vales, celsa Domina,<br> in Nati cor piissimi,<br> ut qui fidenter postulat,<br> per te securus impetret.</p> <p class=\"antienne droite\"><i>Tu es si puissante, très haute Dame,<br> sur le cœur aimant de ton Fils,<br> que celui qui demande avec confiance<br> est sûr par toi d’être exaucé.</i></p> <p>Opem tua benignitas<br> non solum fert poscentibus,<br> sed et libenter sæpius<br> precantum vota prævenit.</p> <p class=\"antienne droite\"><i>Ta bonté ne vient pas seulement<br> au secours de ceux qui t’implorent,<br> mais souvent elle se plaît à devancer<br> les vœux de ceux qui prient.</i></p> <p>In te misericordia,<br> in te magnificentia;<br> tu bonitatis cumulas<br> quicquid creata possident.</p> <p class=\"antienne droite\"><i>En toi est la miséricorde,<br> en toi la magnificence&nbsp;;<br> toute la bonté du monde<br> en toi se trouve rassemblée.</i></p> <p>Patri sit et Paraclito<br> tuoque Nato gloria,<br> qui veste te mirabili<br> circumdederunt gratiæ.</p> <p class=\"antienne droite\"><i>Gloire au Père, au Consolateur<br> et à ton Fils,<br> qui t’ont enveloppée du vêtement<br> admirable de la grâce.</i></p>",
+  ),
+  "ave-maris-stella": Hymns(
+    title: "Ave Maris Stella",
+    author: "",
+    content:
+        "<p>Ave Maris Stella<br> Dei Mater alma,<br> atque semper Virgo<br> felix cæli porta.</p> <p class=\"antienne droite\"><i>Salut, Étoile de la mer,<br> Ô très sainte Mère de Dieu,<br> Toi qui es Vierge à tout jamais,<br> Ô Porte du ciel bienheureuse.</i></p> <p>Sumens illud «&nbsp;Ave&nbsp;»<br> Gabriélis ore,<br> funda nos in pace,<br> mutans Evæ nomen.</p> <p class=\"antienne droite\"><i>Toi qui accueilles cet Ave<br> De la bouche de Gabriel,<br> Affermis nos cœurs dans la paix&nbsp;:<br> Tu as inversé le nom d’Ève.</i></p> <p>Solve vincla reis,<br> profer lumen cæcis,<br> mala nostra pelle,<br> bona cuncta posce.</p> <p class=\"antienne droite\"><i>Des coupables, brise les liens,<br> Donne aux aveugles la clarté,<br> Éloigne de nous tous les maux,<br> Demande pour nous toutes grâces.</i></p> <p>Monstra t<i>e</i> esse Matrem,<br> sumat per te preces<br> qui, pro nobis natus,<br> tulit esse tuus.</p> <p class=\"antienne droite\"><i>Tu es Mère, montre-le nous&nbsp;!<br> Que Celui qui pour nous est né<br> En acceptant d’être ton Fils<br> Accueille par toi nos prières.</i></p> <p>Virgo singuláris,<br> inter omnes mitis,<br> nos culpis solútos,<br> mites fac et castos.</p> <p class=\"antienne droite\"><i>Ô Vierge unique, toi qui es<br> De tous les êtres le plus doux,<br> Fais que, déliés de nos péchés,<br> Nous soyons toujours doux et chastes.</i></p> <p>Vitam præsta puram,<br> iter para tutum,<br> ut vidéntes Jesum,<br> semper collætémur.</p> <p class=\"antienne droite\"><i>Accorde-nous de vivre purs,<br> Prépare-nous un chemin sûr,<br> Que, dans la vision de Jésus,<br> À jamais nous soyons en liesse.</i></p> <p>Sit laus Deo Patri,<br> summo Christo decus,<br> Spirítui Sancto,<br> tribus honor unus. Amen.</p> <p class=\"antienne droite\"><i>Louange au Père, notre Dieu,<br> Gloire à Jésus Christ, le Très-Haut,<br> Rendons honneur à l’Esprit Saint,<br> Un seul hommage aux trois Personnes&nbsp;! Amen.</i></p>",
+  ),
+  "voici-l-aurore-avant-le-jour": Hymns(
+    title: "Voici l’aurore avant le jour",
+    author: "",
+    content:
+        "<p>Voici l’aurore avant le jour,<br> Voici la mère virginale,<br> La femme promise au début des âges.<br> Elle a bâti sa demeure<br> Dans les vouloirs du Père.</p> <p> Aucune peur, aucun refus,<br> Ne vient troubler l’œuvre de grâce,<br> Son cœur est rempli d’ineffable attente.<br> Elle offre à Dieu le silence<br> Où la Parole habite.</p> <p> Sous le regard qui lui répond,<br> Les temps nouveaux tressaillent en elle,<br> L’avent mystérieux du Royaume à naître.<br> L’Esprit la prend sous son ombre<br> Et doucement la garde.</p> <p> Voici l’épouse inépousée,<br> Marie, servante et souveraine,<br> Qui porte en secret le salut du monde.<br> Le sang du Christ la rachète<br> Mais elle en est la source.</p>",
+  ),
+  "nous-t-adorons-seigneur": Hymns(
+    title: "Nous t’adorons, Seigneur",
+    author: "",
+    content:
+        "<p>Nous t’adorons, Seigneur,<br> Ô Père tout-puissant,<br> Tu donnes vie à notre terre,<br> Nous t’adorons, Seigneur&nbsp;! Nous t’adorons&nbsp;!</p> <p> Honneur à toi, Jésus&nbsp;!<br> Ô Verbe du Seigneur,<br> Qui viens changer le cœur des hommes,<br> Honneur à toi, Jésus&nbsp;! Honneur à toi&nbsp;!</p> <p> Gloire à l’Esprit de Dieu&nbsp;!<br> Au souffle créateur<br> Qui vient pour transformer la terre,<br> Gloire à l’Esprit de Dieu&nbsp;! Gloire à l’Esprit&nbsp;!</p> <p> Louange au Dieu vivant&nbsp;!<br> Au Père par le Fils<br> En l’Esprit Saint qui nous rend frères,<br> Louange au Dieu vivant&nbsp;! Louange à Dieu&nbsp;!</p>",
+  ),
+  "dieu-inconnu": Hymns(
+    title: "Dieu inconnu",
+    author: "",
+    content:
+        "<p>Dieu inconnu,<br> <span class=\"espace\">ô toi qui es</span><br> Présence aux nuits de notre histoire,<br> Tu fais poindre en nos ténèbres<br> L’espérance&nbsp;;<br> Brise les forces de la mort&nbsp;:<br> De nos yeux nous te verrons,<br> Dieu inconnu&nbsp;! </p> <p> Jésus Seigneur,<br> <span class=\"espace\">toi qui étais</span><br> Auprès du Père avant les siècles,<br> Ton passage nous découvre<br> Le mystère&nbsp;;<br> Trace un chemin dans notre vie&nbsp;:<br> Sur tes pas nous marcherons,<br> Jésus Seigneur&nbsp;! </p> <p> Esprit de feu,<br> <span class=\"espace\">ô toi qui viens</span><br> Prendre les hommes dans ton souffle,<br> Tu déploies dans leur faiblesse<br> Ta puissance&nbsp;;<br> Brûle d’amour les fils de Dieu&nbsp;:<br> Dans ta joie nous entrerons,<br> Esprit de feu&nbsp;! </p>",
+  ),
+  "nous-te-louons-seigneur": Hymns(
+    title: "Nous te louons, Seigneur",
+    author: "",
+    content:
+        "<p>Nous te louons, Seigneur&nbsp;!<br> Pour l’œuvre de tes mains<br> Qui parle de ta bienveillance,<br> Nous te louons, Seigneur&nbsp;! Nous te louons&nbsp;!</p> <p> Nous te chantons, Jésus&nbsp;!<br> Ta croix nous a sauvés,<br> Ta mort, Seigneur, nous justifie&nbsp;;<br> Nous te chantons, Jésus&nbsp;! Nous te chantons&nbsp;!</p> <p> Gloire à l’Esprit vainqueur&nbsp;!<br> Il chante par nos voix<br> Un hymne de louange au Père,<br> Gloire à l’Esprit de Dieu&nbsp;! Gloire à l’Esprit&nbsp;!</p> <p> Louange au Dieu vivant&nbsp;!<br> Au Père par le Fils<br> En l’Esprit Saint qui nous rend frères,<br> Louange au Dieu vivant&nbsp;! Louange à Dieu&nbsp;!</p>",
+  ),
+  "nous-t-acclamons-seigneur": Hymns(
+    title: "Nous t’acclamons, Seignneur",
+    author: "",
+    content:
+        "<p>Nous t’acclamons, Seigneur&nbsp;!<br> Pour l’homme et son travail,<br> Tout l’univers est son partage,<br> Nous t’acclamons, Seigneur&nbsp;! Nous t’acclamons&nbsp;!</p> <p> Louange à toi, Jésus&nbsp;!<br> En toi, ressuscité,<br> Les hommes naissent à la vie,<br> Louange à toi, Jésus&nbsp;! Louange à toi&nbsp;!</p> <p> Gloire à l’Esprit de Dieu&nbsp;!<br> L’Église est son haut-lieu<br> Où nous rassemble la prière,<br> Gloire à l’Esprit de Dieu&nbsp;! Gloire à l’Esprit&nbsp;!</p> <p> Louange au Dieu vivant&nbsp;!<br> Au Père par le Fils<br> En l’Esprit Saint qui nous rend frères,<br> Louange au Dieu vivant&nbsp;! Louange à Dieu&nbsp;!</p>",
+  ),
+  "sainte-marie-et-saint-joseph": Hymns(
+    title: "Sainte Marie et saint Joseph",
+    author: "",
+    content:
+        "<p>Sainte Marie et saint Joseph,<br> C’est la nuit de Noël&nbsp;:<br> L’enfant vous surprenait,<br> Vous teniez le trésor<br> De la vie la plus forte,<br> Jésus,<br> Le vainqueur de la nuit.</p> <p> Sainte Marie et saint Joseph,<br> À l’épreuve de fuir<br> La frayeur d’un tyran,<br> Vous sauviez le trésor<br> De la vie la plus belle,<br> Jésus,<br> Le vainqueur de la haine.</p> <p> Sainte Marie et saint Joseph,<br> Au village banal,<br> Au pays sans renom,<br> Vous gardiez le trésor<br> De la vie la plus digne,<br> Jésus,<br> Le vainqueur du mépris.</p> <p> Sainte Marie et saint Joseph,<br> Quand le Fils à son heure<br> Eut quitté Nazareth,<br> Vous laissiez à l’Esprit<br> De souffler où Il veut&nbsp;:<br> Jésus,<br> Alla vaincre la mort.</p> <p> Gloire au Père et au Fils<br> Et gloire au Saint-Esprit<br> Au cœur de notre vie,<br> Saint Joseph et sainte Marie&nbsp;!</p>",
+  ),
+  "voici-au-profond-de-la-nuit": Hymns(
+    title: "Voici, au profond de la nuit",
+    author: "",
+    content:
+        "<p>Voici, au profond de la nuit,<br> Sous nos regards lAstre paraît.<br> Quelqu’un pas à pas nous conduit<br> Vers une source de clarté.</p> <p> Jadis Abraham le croyant<br> Prit cette route sans détour&nbsp;;<br> Joyeux, nous partons vers l’Enfant<br> Dont il a vu naître le Jour.</p> <p> L’appel du lointain rendez-vous<br> Dans notre coeur a retenti,<br> Le Père en secret jusqu’au bout<br> Nous mènera près de son Fils.</p> <p> Déjà la cité de David<br> Est apparue devant nos yeux&nbsp;;<br> La quête en nos coeurs se poursuit<br> Dans ta lumière, Agneau de Dieu.</p>",
+  ),
+  "lumiere-du-monde-o-jesus": Hymns(
+    title: "Lumière du monde, ô Jésus",
+    author: "",
+    content:
+        "<p>Lumière du monde, ô Jésus,<br>     Bien que nous n’ayons jamais vu<br>     Ta tombe ouverte,<br>     D’où vient en nous cette clarté,<br>     Ce jour de fête entre les fêtes,<br>     Sinon de toi, ressuscité ?</p> <p>     Quand sur nos chemins on nous dit :<br>     Où est votre Christ aujourd’hui<br>     Et son miracle ?<br>     Nous répondons : D’où vient l’Esprit<br>     Qui nous ramène vers sa Pâque,<br>     Sur son chemin, sinon de lui ?</p> <p>     Nous avons le cœur tout brûlant<br>     Lorsque son amour y descend<br>     Et nous murmure :<br>     L’amour venu, le jour viendra<br>     Au cœur de toute créature,<br>     Et le Seigneur apparaîtra.</p> <p>     Et si l’on nous dit : Maintenant<br>     Montrez-nous un signe éclatant<br>     Hors de vous-mêmes !<br>     Le signe est là qu’à son retour<br>     Nous devons faire ce qu’il aime<br>     Pour témoigner qu’il est amour.</p>",
+  ),
+  "jesus-parait": Hymns(
+    title: "Jésus paraît",
+    author: "",
+    content:
+        "<p>Jésus paraît. Il vient au fleuve.<br> Il dit à Jean saisi d’effroi&nbsp;:<br> <span class=\"espace\">«&nbsp;Baptise-moi.&nbsp;»</span><br> <span class=\"espace\">Les flots s’émeuvent.</span><br> Qui donc pourrait laver<br> <span class=\"espace\">Ce corps sacré&nbsp;?</span></p> <p>Qu’importe, Jean, que tu sois digne&nbsp;?<br> Laisse accomplir ce qu’à l’instant<br> <span class=\"espace\">Nul ne comprend.</span><br> <span class=\"espace\">Il donne un signe.</span><br> Pour vivre dès ce jour<br> <span class=\"espace\">Sa loi d’amour.</span></p> <p>Le ciel dévoile son mystère<br> Ange de paix, l’Esprit descend<br> <span class=\"espace\">Et l’on entend</span><br> <span class=\"espace\">La voix du Père.</span><br> Le monde enfin connaît<br> <span class=\"espace\">L’amour secret.</span></p>",
+  ),
+  "sauves-des-memes-eaux": Hymns(
+    title: "Sauvés des mêmes eaux",
+    author: "",
+    content:
+        "<p>Sauvés des mêmes eaux,<br> marqués du même sang,<br> nous sommes ton Peuple&nbsp;;<br> Bénis du même amour,<br> signés du même nom,<br> nous sommes ton Peuple<br> et nous te rendons grâce<br> par Jésus ton Enfant.</p> <p> Remplis du même Esprit,<br> porteurs du même Feu,<br> nous sommes ton Peuple&nbsp;;<br> Greffés au même tronc,<br> unis au même Chef,<br> nous sommes ton Peuple<br> et nous te rendons grâce<br> par Jésus ton Enfant.</p> <p> Pour être un même corps<br> vivant la même vie,<br> nous sommes ton Peuple&nbsp;;<br> Pour prendre un même pain<br> et boire un même vin,<br> nous sommes ton Peuple<br> et nous te rendons grâce<br> par Jésus ton Enfant.</p>",
+  ),
+  "l-esprit-de-dieu-repose-sur-moi": Hymns(
+    title: "L’Esprit de Dieu repose sur moi",
+    author: "",
+    content:
+        "<p>R/ L’Esprit de Dieu repose sur moi,<br> L’Esprit de Dieu m’a consacré,<br> L’Esprit de Dieu m’a envoyé<br> proclamer la paix, la joie.</p> <p> L’Esprit de Dieu m’a choisi<br> Pour étendre le Règne du Christ<br> parmi les nations,<br> Pour proclamer la Bonne Nouvelle à ses pauvres,<br> J’exulte de joie en Dieu, mon Sauveur.</p> <p> L’Esprit de Dieu m’a choisi<br> Pour étendre le Règne du Christ<br> parmi les nations,<br> Pour annoncer la grâce de la délivrance.<br> J’exulte de joie en Dieu, mon Sauveur.</p> <p> L’Esprit de Dieu m’a choisi<br> Pour étendre le Règne du Christ<br> parmi les nations,<br> pour célébrer sa gloire parmi tous les peuples.<br> J’exulte de joie en Dieu, mon Sauveur.</p>",
+  ),
+  "un-grand-vent-s-est-leve": Hymns(
+    title: "Un grand vent s’est levé",
+    author: "",
+    content:
+        "<p>(Stance)<br>Un grand vent s’est levé<br> dans la maison des Apôtres&nbsp;:<br> en toute langue<br> on entend publier les merveilles de Dieu.<br> Peuples, comprenez et chantez&nbsp;:</p> <p> R/ Béni sois-tu, Esprit créateur,<br> qui renouvelles tout l’univers (alléluia)&nbsp;! </p> <p> Royaumes de la terre, chantez pour Dieu,<br> jouez pour le Seigneur&nbsp;:</p> <p> C’est lui qui donne à son peuple<br> force et puissance&nbsp;:</p>",
+  ),
+  "avec-des-cris-de-joie": Hymns(
+    title: "Avec des cris de joie",
+    author: "",
+    content:
+        "<p>Avec des cris de joie <span class=\"espace verset\">Stance</span><br> publiez la nouvelle&nbsp;:<br> Le Seigneur a délivré son peuple.<br> À pleine voix<br> proclamez l’Évangile<br> jusqu’aux extrémités de la terre&nbsp;:</p> <p>R/ Christ est ressuscité, alléluia&nbsp;!<br> Par lui seul, le monde est sauvé, alléluia&nbsp;!</p> <p>Acclamez Dieu, toute la terre&nbsp;;<br> fêtez la gloire de son nom,<br> glorifiez-le en célébrant sa louange.<br> Dites à Dieu&nbsp;: «&nbsp;Que tes actions sont redoutables&nbsp;!&nbsp;»</p> <p>Venez et voyez les hauts faits de Dieu,<br> ses exploits redoutables pour les fils des hommes.<br> Il changea la mer en terre ferme&nbsp;:<br> ils passèrent le fleuve à pied sec.</p> <p>Peuples, bénissez notre Dieu&nbsp;!<br> Faites retentir sa louange,<br> car il rend la vie à notre âme,<br> il a gardé nos pieds de la chute.</p>",
+  ),
+  "les-voici-rassemblés": Hymns(
+    title: "Les voici rassemblés",
+    author: "",
+    content:
+        "<p>Les voici rassemblés<br> Dans la maison du Père,<br> Les compagnons d’épreuve<br> Qui t’ont vu crucifié.<br> Tu ouvrais le passage,<br> Ils marchaient sur tes traces,<br> Ô Seigneur des Vivants.</p> <p> Ils portaient dans leur cœur<br> Pour éclairer le monde<br> La mystérieuse image<br> De ta gloire humiliée.<br> Messagers d’espérance,<br> Ils semaient ta parole<br> Et c’est toi leur moisson.</p> <p> Ils ont place au festin<br> Dans le Royaume en fête,<br> Pour avoir bu la coupe<br> De l’amour partagé.<br> Tu leur montres le Père<br> Et ta joie les habite,<br> Ô Jésus, Fils de Dieu&nbsp;!</p>",
+  ),
+  "faconnes-par-la-parole-du-seigneur": Hymns(
+    title: "Façonnés par la Parole du Seigneur",
+    author: "",
+    content:
+        "<p>Façonnés par la parole du Seigneur,<br> Passés au crible de sa Passion,<br> Et désormais revenus de toute peur,<br> Apôtres de Jésus, pour son Église<br> Vous êtes pierres de fondation<br> Dont rien n’ébranle l’assise.</p> <p> Mais de vous il fait encor ses ouvriers,<br> Il se remet lui-même en vos mains&nbsp;:<br> Lui, l’architecte, le maître du chantier,<br> Devient la pierre d’angle qui vous porte,<br> Pierre vivante et pain quotidien<br> Pour qui l’annonce et l’apporte.</p> <p> Quelle ivresse, pure et sobre, vous surprend&nbsp;?<br> Quelle folie d’amour et de feu&nbsp;?<br> Quelle sagesse plus folle que le vent&nbsp;?<br> L’Esprit souffle sur vous, hommes du large&nbsp;:<br> Jetez en nous le désir de Dieu<br> Et relancez notre marche&nbsp;!</p>",
+  ),
+  "voici-la-demeure-de-dieu": Hymns(
+    title: "Voici la demeure de Dieu",
+    author: "",
+    content:
+        "<p>R/ Voici la demeure de Dieu parmi les hommes&nbsp;!<br> Ils seront son peuple<br> Et «&nbsp;Dieu-avec-eux&nbsp;» sera leur Dieu&nbsp;!</p> <p> Peuple convoqué par la parole des prophètes,<br> Peuple assemblé autour du Christ, le Seigneur,<br> Peuple qui écoute son Dieu,<br> <span class=\"espace\">Église du Seigneur.</span> </p> <p> Temple saint bâti par les Apôtres, les prophètes,<br> Temple fondé sur le Christ, pierre angulaire,<br> Sainte demeure de Dieu,<br> <span class=\"espace\">Église du Seigneur.</span> </p> <p> Peuple qui est né dans les eaux du baptême,<br> Peuple marqué par le sceau du Saint-Esprit,<br> Peuple qui porte le Christ,<br> <span class=\"espace\">Église du Seigneur.</span> </p> <p> Peuple greffé sur le Christ, vigne sainte,<br> Vigne qui porte des fruits de vie nouvelle,<br> Vigne plantée par le Père,<br> <span class=\"espace\">Église du Seigneur.</span> </p> <p> Peuple nourri par le Corps du Seigneur,<br> Peuple abreuvé par le sang de l’Alliance,<br> Peuple jubilant d’allégresse,<br> <span class=\"espace\">Église du Seigneur.</span> </p>",
+  ),
+  "jesus-christ-pierre-angulaire": Hymns(
+    title: "Jésus Christ, pierre angulaire",
+    author: "",
+    content:
+        "<p>Jésus Christ, pierre angulaire<br> Méprisée des bâtisseurs,<br> Mais unique aux yeux du Père,<br> Nous chantons notre bonheur<br> D’être, en toi, pierres vivantes<br> Edifiées dans ta maison&nbsp;:<br> Mystérieuse communion,<br> Que l’amour fonde et cimente.</p> <p> De ces vies que la souffrance<br> A taillées et martelées,<br> De ces pierres où l’espérance<br> A gravé sa nouveauté,<br> Tu construis le sanctuaire,<br> Où réside l’Esprit Saint,<br> Et l’Église est le témoin<br> Du salut pour notre terre.</p> <p> Jésus Christ, pierre de faite,<br> Où convergent à l’infini<br> Et s’embrassent tous les êtres,<br> Que déjà l’amour unit,<br> L’Esprit Saint à ta louange<br> De ces pierres tire un chant<br> Qui jaillit secrètement<br> Et s’accorde aux voix des anges.</p>",
+  ),
+  "dieu-s-est-prepare-une-demeure": Hymns(
+    title: "Dieu s’est préparé une demeure",
+    author: "",
+    content:
+        "<p>(Stance)<br>Dieu s’est préparé<br> une demeure chez les hommes,<br> il a posé la pierre et allumé le feu.<br> Aujourd’hui, il multiplie le pain<br> et lie nos mains ensemble&nbsp;:<br> nos cœurs ne font plus qu’un.</p> <p> R/ Dieu avec nous, Dieu en nous,<br> nous sommes le corps du Christ&nbsp;! </p> <p> Voici la terre promise<br> où l’assemblée des hommes<br> connaît l’amour de Dieu.</p> <p> Voici l’espace de fête<br> où la famille humaine<br> donne un visage à Dieu.</p> <p> Voici la maison de paix<br> où l’homme qui partage<br> reçoit le don de Dieu.</p> <p> Voici le temple ouvert<br> où l’homme qui adore<br> devient témoin de Dieu.</p>",
+  ),
+  "puissance-et-gloire-de-l-esprit": Hymns(
+    title: "Puissance et gloire de l’Esprit",
+    author: "",
+    content:
+        "<p>Puissance et gloire de l’Esprit<br> Heureux les vrais martyrs&nbsp;!<br> La chair dont Dieu les a pétris<br> En lui pourra surgir.</p> <p> Pareil aux grains qui sont broyés<br> Pour être notre pain,<br> Leur corps se joint au Corps brisé<br> Qui s’offre par nos mains.</p> <p> Leur sang se mêle au Sang sauveur<br> Qui lave nos péchés.<br> Ils sont l’amour du même Cœur<br> Qui nous a tant aimés.</p> <p> Heureux qui donne sans compter<br> Jusqu’à sa propre chair&nbsp;!<br> Il trouve en Dieu sa liberté,<br> Visage découvert.</p> <p> La chair est vaine sans l’Esprit<br> Et cendre dans la mort,<br> Par votre croix, Seigneur, survit<br> La gloire de nos corps.</p> <p> Dans vos martyrs c’est vous qu’on tue<br> Mais vous qu’on glorifie,<br> Car votre Église en eux salue<br> La force de l’Esprit.</p> <p> Le grain survit dans la moisson<br> Au jour de votre Jour.<br> La vie, la mort n’ont plus de nom<br> Au règne de l’Amour.</p>",
+  ),
+  "sauveur-du-monde-o-maitre": Hymns(
+    title: "Sauveur du monde, ô Maître",
+    author: "",
+    content:
+        "<p>Sauveur du monde, ô Maître unique,<br> Heureux celui qui donne tout,<br> Se perd lui-même et prend ton joug,<br> Puis cherche en toi la route à suivre.</p> <p> Au fond du cœur tu lui révèles<br> L’âpre secret du grain qui meurt,<br> Le sang versé, l’amour vainqueur&nbsp;;<br> Et cette croix qui nous relève.</p> <p> Il porte fruit dans ta lumière<br> Et crie ton nom sur nos chemins,<br> Puis, quand vient l’heure, dans tes mains<br> Passe avec toi du monde au Père.</p>",
+  ),
+  "si-l-esperance-t-a-fait-marcher": Hymns(
+    title: "Si l’espérance t’a fait marcher",
+    author: "",
+    content:
+        "<p>Si l’espérance t’a fait marcher<br> Plus loin que ta peur,<br> Tu auras les yeux levés.<br> Alors, tu pourras tenir<br> Jusqu’au soleil de Dieu.</p> <p> Si la colère t’a fait crier<br> Justice pour tous,<br> Tu auras le cœur blessé.<br> Alors tu pourras lutter<br> Avec les opprimés.</p> <p> Si la misère t’a fait chercher<br> Aux nuits de la faim,<br> Tu auras le cœur ouvert.<br> Alors tu pourras donner<br> Le pain de pauvreté.</p> <p> Si la souffrance t’a fait pleurer<br> Des larmes de sang<br> Tu auras les yeux lavés.<br> Alors tu pourras prier<br> Avec ton frère en croix.</p> <p> Si l’abondance t’a fait mendier<br> Un peu d’amitié,<br> Tu auras les mains tendues.<br> Alors tu pourras brûler<br> L’argent de tes prisons.</p> <p> Si la faiblesse t’a fait tomber<br> Au bord du chemin,<br> Tu sauras ouvrir tes bras.<br> Alors tu pourras danser<br> Au rythme du pardon.</p> <p> Si la tristesse t’a fait douter<br> Au soir d’abandon,<br> Tu sauras porter ta croix.<br> Alors tu pourras mourir<br> Au pas de l’homme-Dieu.</p> <p> Si l’Espérance t’a fait marcher<br> Plus loin que ta peur,<br> Tu auras les yeux levés.<br> Alors tu pourras tenir<br> Jusqu’au soleil de Dieu.</p>",
+  ),
+  "bienheureux-le-pauvre": Hymns(
+    title: "Bienheureux le pauvre",
+    author: "",
+    content:
+        "<p>Bienheureux le pauvre au seuil des festins&nbsp;:<br> Les palais de Dieu lui sont fraternels&nbsp;!<br> Bienheureux le monde où l’argent n’est rien&nbsp;:<br> Les trésors de Dieu seront éternels&nbsp;!</p> <p> Bienheureux les yeux qui cherchent le jour&nbsp;:<br> la splendeur de Dieu demain brillera&nbsp;!<br> Bienheureux le cœur assoiffé d’amour&nbsp;:<br> l’océan de Dieu pour lui jaillira&nbsp;!</p> <p> Bienheureux les cris au fond des prisons&nbsp;:<br> la Cité de Dieu résonne de joie&nbsp;!<br> Bienheureux le sang des martyrs sans nom&nbsp;:<br> Le jardin de Dieu fleurit de leur joie&nbsp;!</p> <p> Bienheureux les bras ouverts au pardon&nbsp;:<br> La bonté de Dieu reçoit leur espoir&nbsp;!<br> Bienheureux l’enfant dans son abandon&nbsp;:<br> Car la main de Dieu ne peut décevoir&nbsp;!</p> <p> Bienheureux le nom du juste opprimé&nbsp;:<br> La pitié de Dieu sera sans défaut&nbsp;!<br> Bienheureux le corps qui n’a pas compté&nbsp;:<br> Car l’amour de Dieu veille à son repos&nbsp;!</p>",
+  ),
+  "heureux-qui-vient-au-jour": Hymns(
+    title: "Heureux qui vient au jour",
+    author: "",
+    content:
+        "<p>Heureux qui vient au jour<br> Par la nuit de Jésus,<br> Heureux qui se reçoit<br> De la main de son Dieu,<br> Heureux qui prend sa vie<br> Dans la mort de Jésus&nbsp;:<br> <span class=\"espace\">Des chemins s’ouvrent dans son cœur,</span><br> <span class=\"espace\"> Il ne craint rien de la seconde mort.</span><br> <span class=\"espace\"> Au Paradis de Dieu,</span><br> <span class=\"espace\"> Vainqueur, il mangera de l’Arbre de la Vie.</span></p> <p>Heureux qui naît d’en-haut<br> Et du sang de Jésus,<br> Heureux qui est greffé<br> Sur le Corps de son Dieu,<br> Heureux qui est la proie<br> De l’Esprit de Jésus&nbsp;:<br> <span class=\"espace\">Des chemins s’ouvrent dans son cœur,</span><br> <span class=\"espace\"> Il goûtera de la Manne cachée.</span><br> <span class=\"espace\"> Au Paradis de Dieu,</span><br> <span class=\"espace\"> Vainqueur, il recevra la Pierre au Nom béni.</span></p> <p>Heureux qui tient son nom<br> Du seul Nom de Jésus,<br> Heureux qui est heureux<br> Du bonheur de son Dieu,<br> Heureux qui met son pas<br> Dans les pas de Jésus&nbsp;:<br> <span class=\"espace\">Des chemins s’ouvrent dans son cœur,</span><br> <span class=\"espace\"> Il détiendra Pouvoir sur les nations.</span><br> <span class=\"espace\"> Au Paradis de Dieu,</span><br> <span class=\"espace\"> Vainqueur, il recevra l’Étoile du matin.</span></p> <p>Heureux qui va joyeux<br> Sous le joug de Jésus,<br> Heureux qui s’en remet<br> Au désir de son Dieu,<br> Heureux qui rend l’esprit<br> Par la voix de Jésus&nbsp;:<br> <span class=\"espace\">Des chemins s’ouvrent dans son cœur,</span><br> <span class=\"espace\"> Il siégera sur le trône du Fils.</span><br> <span class=\"espace\"> Au Paradis de Dieu,</span><br> <span class=\"espace\"> Vainqueur, il recevra les vêtements de joie.</span></p> <p>Heureux qui perd sa vie<br> Sur la croix de Jésus,<br> Heureux qui reçoit tout<br> De la main de son Dieu,<br> Heureux qui meurt d’aimer<br> Dans l’amour de Jésus&nbsp;:<br> <span class=\"espace\">Des chemins s’ouvrent dans son cœur,</span><br> <span class=\"espace\"> Il ira boire à la source du ciel.</span><br> <span class=\"espace\"> Au Paradis de Dieu,</span><br> <span class=\"espace\"> Vainqueur, il recevra l’Héritage promis.</span></p>",
+  ),
+  "nul-n-est-disciple": Hymns(
+    title: "Nul n’est disciple",
+    author: "",
+    content:
+        "<p>Nul n’est disciple<br> Hormis le serviteur.<br> Nul n’est lumière<br> Sans l’amour indicible<br> Qui, dans le frère,<br> Découvre le Seigneur.</p> <p> Nul ne console<br> A moins d’avoir souffert.<br> Nul ne témoigne,<br> S’il ne vit la Parole<br> Où l’homme gagne<br> Sa joie, quand il se perd.</p> <p> Nul n’est tendresse<br> A moins d’être blessé.<br> Nul ne pardonne<br> S’il n’a vu sa faiblesse,<br> Qui l’abandonne<br> Aux mains du Transpercé.</p> <p> Nul ne partage,<br> S’il n’a donné son tout.<br> Nul ne peut dire<br> La folie du message,<br> S’il ne se livre<br> Lui-même jusqu’au bout.</p> <p> Nul n’est semence<br> A moins d’être semeur:<br> Point de récolte<br> Sans le temps du silence,<br> Car tout apôtre<br> Devient le grain qui meurt.</p>",
+  ),
+  "eglise-de-toujours": Hymns(
+    title: "Église de toujours",
+    author: "",
+    content:
+        "<p>Église de toujours,<br> Aux écoutes du monde,<br> Entends-tu bouillonner<br> Les forces de l’histoire&nbsp;?<br> La terre est travaillée<br> D’une sourde violence,<br> Affamée d’unité,<br> En mal de délivrance.</p> <p> Église de toujours,<br> Au service du monde,<br> Enracine la foi<br> Au creux de nos détresses.<br> Dégage de ses liens<br> Cet espoir qui tressaille,<br> Engagé sur la voie<br> D’angoisse et de promesse.</p> <p> Église de toujours,<br> Évangile du monde,<br> Affranchis de la peur<br> La terre qui enfante.<br> Baptise dans l’Esprit<br> L’éclosion de son germe,<br> Coule en fleuve de paix,<br> Emporte notre histoire.</p>",
+  ),
+  "heureux-ceux-que-dieu-a-choisis": Hymns(
+    title: "Heureux ceux que Dieu a choisis",
+    author: "",
+    content:
+        "<p>Heureux ceux que Dieu a choisis<br> Pour être au monde qui gémit<br> Comme en douleurs de sa naissance&nbsp;!<br> la création tend vers le jour<br> Où l’on dira du Dieu d’amour&nbsp;:<br> Il fait mûrir toute souffrance<br> En fruits de paix, en liberté,<br> Pour que son Nom soit sanctifié.</p> <p>R/ Dieu fort à qui tout appartient<br> Le monde et tout ce qu’il contient<br> Donne à ce temps de rendre grâce.</p> <p>Heureux ceux que Dieu a placés<br> Dans une terre à travailler<br> En y tenant une espérance&nbsp;!<br> L’œuvre de Dieu n’est pas finie&nbsp;:<br> Au long des jours, au long des nuits,<br> Il fait lever dans le silence<br> L’Arbre aux oiseaux, l’Homme Jésus,<br> Pour que son Règne soit connu.</p> <p>Heureux ceux que Dieu fait briller<br> Aux yeux des foules sans berger,<br> Pour les gagner à sa confiance&nbsp;!<br> Dans l’univers plus fraternel,<br> Ils sont le feu, ils sont le sel.<br> Dieu les rappelle à son Alliance&nbsp;:<br> Ses volontés sont accomplies<br> Quand tout devient Eucharistie&nbsp;!</p>",
+  ),
+  "unique-berger-o-jesus": Hymns(
+    title: "Unique Berger, ô Jésus",
+    author: "",
+    content:
+        "<p>Unique berger, ô Jésus,<br> Ta main se pose<br> Sur l’épaule de cet homme&nbsp;:<br> Par lui tu mènes ton troupeau&nbsp;:<br> Ce berger, à ton image,<br> Tu le façonnes.</p> <p>Sans cesse ta main l’affermit<br> Pour qu’il chemine<br> Dans la force et la patience&nbsp;;<br> Et lui s’efface devant toi&nbsp;:<br> Pur reflet, parmi ses frères,<br> De ta présence.</p> <p>L’Église de toi l’a reçu,<br> Il passe en tête<br> Pour marcher vers les montagnes&nbsp;:<br> Vers toi, la Tête, ô Jésus,<br> Il oriente tout le peuple<br> Qui l’accompagne.</p> <p>Vers toi il aimante l’amour<br> De ceux qui l’aiment,<br> Et lui-même à toi se donne&nbsp;;<br> Tu le consacres dans l’Esprit,<br> Et déjà, de ta lumière,<br> Tu l’environnes.</p>",
+  ),
+  "bienheureuse-la-femme": Hymns(
+    title: "Bienheureuse la femme",
+    author: "",
+    content:
+        "<p>Bienheureuse la femme<br> que Dieu a visitée.<br> Elle a remis sa vie,<br> elle a donné sa foi<br> à Celui<br> qui ouvre nos cœurs<br> à sa présence.<br> Tu nous conduis, Seigneur,<br> par un chemin de sainteté.</p> <p>Bienheureuse la femme<br> que Dieu a purifiée.<br> Elle a livré sa vie,<br> elle a choisi la croix<br> de Celui<br> qui ouvre nos cœurs<br> à la patience.<br> Tu nous convies, Seigneur,<br> à cet amour de pauvreté.</p> <p>Bienheureuse la femme<br> que Dieu a glorifiée.<br> Elle a reçu la vie,<br> elle a trouvé sa joie<br> en Celui<br> qui ouvre nos cœurs<br> à l’espérance.<br> Tu nous apprends, Seigneur,<br> à partager ta liberté.</p> <p class=\"antienne\"><span class=\"rouge\">ou (pour une sainte dans la cité)</span></p> <p>Quand le jour est obscur<br> Et que défaille l’homme,<br> Gardien de la cité,<br> Voici que tu révèles,<br> Femme connue de Dieu,<br> Un visage nouveau d’humanité.</p> <p>Ta présence a bravé<br> Les tyrannies du monde<br> Au nom d’un seul amour&nbsp;:<br> Passion qui te rend forte,<br> Libre pour ton Seigneur,<br> Dans la pleine assurance de l’Esprit.</p> <p>Ta présence est un chant,<br> C’est l’espérance neuve<br> D’un peuple en désarroi&nbsp;:<br> Sagesse qui éclaire,<br> Femme qui pacifie<br> Et ranime la foi sans rien briser,</p> <p>Ta présence est un feu,<br> Une parole ardente<br> Qui brûle doucement&nbsp;;<br> Mais vienne la tempête,<br> Souffle un vent de folie&nbsp;:<br> Ta parole est un cri lancé vers Dieu.</p> <p>Ta présence de foi<br> Qui soutenait l’Église<br> Rayonne jusqu’à nous&nbsp;:<br> Visage de lumière,<br> Femme qui annonçait<br> Le Royaume promis à tous les temps.</p>",
+  ),
+  "mets-ta-lampe-sur-le-boisseau": Hymns(
+    title: "Mets ta lampe sur le boisseau",
+    author: "",
+    content:
+        "<p>Mets ta lampe sur le boisseau,<br> Et tant mieux qu’elle s’éteigne&nbsp;!<br> Car tu auras une vraie joie,<br> Ta prière sera la torche<br> Que le Seigneur entretiendra.</p> <p> Mets ta lampe sur le boisseau,<br> Et tant mieux s’il la renverse<br> Et si le feu prend à ton bois&nbsp;;<br> Tu ne souffriras pas le mal<br> Que t’aurait fait le feu d’en-bas.</p> <p> Mets ta lampe sur le boisseau,<br> Et tant mieux si tes doigts brûlent<br> À ne plus pouvoir la tenir&nbsp;:<br> Puisque ton cœur sait être à deux,<br> Le Seigneur la tiendra pour toi.</p> <p> Mets ta lampe sur le boisseau,<br> Et tant mieux si tu n’as plus rien<br> À consumer, même pour lui&nbsp;:<br> Dieu fournit le feu et le bois.<br> Alors tu brilleras en lui.</p>",
+  ),
+  "ni-la-violence-des-puissants": Hymns(
+    title: "Ni la violence des puissants",
+    author: "",
+    content:
+        "<p>(Stance)<br>Ni la violence des puissants, <br> ni la science des prudents,<br> ne forcent le Royaume,<br> mais la faiblesse des petits<br> et la patience des humbles<br> pénètrent les secrets de Dieu.</p> <p>R/ Béni sois-tu, notre Père,<br> allégresse des pauvres&nbsp;!</p> <p>Tu écoutes le cri des malheureux,<br> tu les accueilles et les rassures.</p> <p>Tu diriges les humbles vers la justice,<br> tu leur enseignes ton chemin.</p> <p>Tu retiens tous ceux qui tombent,<br> tu redresses les accablés.</p> <p>Tu révèles ton visage aux enfants,<br> tu leur apprends la louange.</p>",
+  ),
+  "l-etincelle-du-feu-divin": Hymns(
+    title: "L’étincelle du feu divin",
+    author: "",
+    content:
+        "<p>L’étincelle du Feu divin<br> <span class=\"espace\">Est en moi.</span><br> La semence de l’Esprit Saint<br> <span class=\"espace\">Grandira&nbsp;!</span></p> <p>R/ J’ai reçu<br> Ma lumière et mon salut,<br> Ô ma joie&nbsp;!<br> Tu fais toute chose nouvelle,<br> La terre et le ciel nouveaux.<br> Ici jaillissent les eaux<br> De la Jérusalem éternelle&nbsp;!<br> Tu es là&nbsp;!<br> Alléluia&nbsp;!</p> <p>Je nourris ma force à ton corps,<br> <span class=\"espace\">À ton sang.</span><br> Je triomphe, en toi, de la mort,<br> <span class=\"espace\">Dieu vivant&nbsp;!</span></p> <p>Ta Parole gonfle mon cœur,<br> <span class=\"espace\">Jour et nuit.</span><br> Il exulte dans son Seigneur,<br> <span class=\"espace\">Il te suit&nbsp;!</span></p> <p>Chaque fois que vers l’un des tiens<br> <span class=\"espace\">Vont mes pas</span><br> C’est toi-même que je rejoins,<br> <span class=\"espace\">Dans la foi&nbsp;!</span></p> <p>J’ai cherché, Seigneur, j’ai trouvé.<br> <span class=\"espace\">Il t’a plu</span><br> De donner quand j’ai demandé.<br> <span class=\"espace\">J’ai reçu&nbsp;!</span></p>",
+  ),
+  "la-ou-il-n-y-a-rien": Hymns(
+    title: "Là où il n’y a rien",
+    author: "",
+    content:
+        "<p>Là où il n’y a rien, qu’il y ait de la foi&nbsp;!<br> Là où il y a foi, qu’elle grandisse&nbsp;!<br> Là où il y a nuit, qu’il y ait comme un œil<br> Que Dieu forme à voir sa lumière&nbsp;!</p> <p> Là où il y a vide et silence dans l’homme,<br> Que Dieu façonne ce qui l’entendra&nbsp;!<br> Là où il y a mort de l’homme à sa naissance,<br> Que Dieu sème ce qui vivra&nbsp;!</p> <p> L’amour de notre Dieu est toujours au travail&nbsp;:<br> Il nous donne la vie et ses vivres,<br> Il nous donne l’amour pour le vivre lui-même&nbsp;!<br> Au cœur de l’homme il fait merveille&nbsp;!</p>",
+  ),
+  "de-toi-je-ne-sais-rien": Hymns(
+    title: "De toi je ne sais rien",
+    author: "",
+    content:
+        "<p>De toi je ne sais rien,<br> De toi qui connais Dieu,<br> Je te dis seulement&nbsp;:<br> Tu es le Maître<br> Et toi, tu me réponds&nbsp;:<br> En vérité, il faut renaître.<br> –&nbsp;Renaître mais comment&nbsp;?</p> <p> Renaître de l’Esprit,<br> L’Esprit qui connaît Dieu.<br> Je te dis simplement&nbsp;:<br> D’où vient le Souffle&nbsp;?<br> Et toi, tu me réponds&nbsp;:<br> Le vent te dit quelle est sa route.<br> –&nbsp;Écoute seulement.</p> <p> Il vient je ne sais d’où,<br> Il souffle comme il veut,<br> Il s’en va loin devant<br> Jusqu’au Royaume.<br> Qui peut s’ouvrir à lui<br> Quand il murmure&nbsp;: \" Il faut te croire \".<br> –&nbsp;Te croire mais comment&nbsp;?</p> <p> Te croire fou de Dieu<br> Sur l’arbre de la croix&nbsp;;<br> Ta sagesse défie<br> La mort de l’être.<br> Plus fort que nos comment,<br> Ton amour seul nous fait renaître<br> Et vivre simplement.</p>",
+  ),
+  "quel-secret-habitons-nous": Hymns(
+    title: "Quel secret habitons-nous",
+    author: "",
+    content:
+        "<p>Quel secret habitons-nous&nbsp;?<br> Quel mystère nous habite&nbsp;?<br> Nuit de Dieu, de Dieu en tout&nbsp;!<br> Toutes choses y gravitent,<br> Mais celui qui les a dites<br> Est nuit à nuit avec nous.</p> <p> Nuits d’approche de la mort&nbsp;?<br> Mort d’approche de la Fête&nbsp;?<br> Nuits de Dieu, de Dieu encore&nbsp;!<br> Toutes vies d’hommes s’y jettent,<br> Mais celui qui les a faites<br> Est avec nous, mort à mort.</p> <p> Jusqu’au bout, avant son Heure,<br> C’est son ombre qu’il nous ouvre&nbsp;!<br> Nuit de Dieu, Jour du Seigneur&nbsp;!<br> Tout est bon de ce qu’il couve,<br> Car la vie que l’homme y trouve<br> Est avec lui, cœur à cœur.</p>",
+  ),
+  "la-mort-ne-peut-me-garder": Hymns(
+    title: "La mort ne peut me garder",
+    author: "",
+    content:
+        "<p>La mort ne peut me garder sur la croix&nbsp;;<br> Mon corps ne peut que revivre en tes bras&nbsp;:<br> Je vais vers toi, mon Seigneur, dans la joie&nbsp;;<br> Je vais vers toi, mon Seigneur et mon Roi.</p> <p> La joie ne peut s’être éteinte à jamais&nbsp;;<br> Le feu ne peut que brûler désormais.<br> Je tends les bras, mon Seigneur, tu parais&nbsp;;<br> Je tends les bras, mon Seigneur et ma paix.</p> <p> Le jour ne peut se cacher plus longtemps&nbsp;;<br> L’hiver ne peut que cacher au printemps.<br> Tu sais mon nom, mon Seigneur, tu m’attends&nbsp;;<br> Tu sais mon nom, mon Seigneur, Dieu vivant.</p> <p> Ta vie me prend et m’emporte joyeux&nbsp;;<br> Ton sang me prend et je rouvre les yeux.<br> Je vois tes mains, mon Seigneur, dans les cieux&nbsp;;<br> Je vois tes mains mon Seigneur et mon Dieu&nbsp;!</p>",
+  ),
+  "dieu-tu-reveles-ta-lumiere": Hymns(
+    title: "Dieu, tu révèles ta lumière",
+    author: "",
+    content:
+        "<p>Dieu, tu révèles ta lumière<br> à ceux qui passent par la nuit&nbsp;;<br> <span class=\"espace\">béni sois-tu</span><br> pour les yeux qui s’ouvrent aujourd’hui<br> dans la terre nouvelle&nbsp;:<br> Ils te rencontrent, Dieu vivant&nbsp;! </p> <p> R/ Gloire à toi, Seigneur,<br> lumière du Royaume&nbsp;! </p> <p> Tu leur dévoiles ton visage<br> après l’exode et la nuée&nbsp;;<br> <span class=\"espace\">béni sois-tu</span><br> pour les yeux où danse un reflet<br> de l’aurore pascale&nbsp;:<br> Ils te contemplent, Dieu vivant&nbsp;! </p> <p> Tu leur découvres ta présence<br> et l’allégresse des sauvés&nbsp;;<br> <span class=\"espace\">béni sois-tu</span><br> pour les morts qui trouvent la paix<br> dans la joie de tes Noces&nbsp;:<br> Ils sont ta gloire, Dieu vivant&nbsp;! </p> <p> Tu les attires en ton Mystère<br> avec la force de l’Esprit&nbsp;;<br> <span class=\"espace\">béni sois-tu</span><br> pour les corps où monte la vie<br> jusqu’à l’aube éternelle&nbsp;:<br> Ils ressuscitent, Dieu vivant&nbsp;!</p>",
+  ),
+  "pleine-de-grace-rejouis-toi": Hymns(
+    title: "Pleine de grâce, réjouis-toi",
+    author: "",
+    content:
+        "<p>Pleine de grâce, réjouis-toi&nbsp;!<br> L’Emmanuel a trouvé place<br> Dans ta demeure illuminée.<br> Par toi, la gloire a rayonné<br> Pour le salut de notre race.</p> <p> Arche d’alliance, réjouis-toi&nbsp;!<br> Sur toi repose la présence<br> Du Dieu caché dans la nuée.<br> Par toi, la route est éclairée<br> Dans le désert où l’homme avance.</p> <p> Vierge fidèle, réjouis-toi&nbsp;!<br> Dans la ténèbre où Dieu t’appelle,<br> Tu fais briller si haut ta foi<br> Que tu reflètes sur nos croix<br> La paix du Christ et sa lumière.</p> <p> Reine des anges, réjouis-toi&nbsp;!<br> Déjà l’Église en toi contemple<br> La création transfigurée<br> Fais-nous la joie de partager<br> L’exultation de ta louange.</p>",
+  ),
+  "o-toi-dont-la-beaute": Hymns(
+    title: "Ô toi dont la beauté",
+    author: "",
+    content:
+        "<p>Ô toi dont la beauté<br> Rayonne de clarté<br> À l’ombre de l’Esprit,<br> Ève nouvelle,<br> Laisse-nous découvrir<br> Le mystère de grâce<br> Où le monde renaît.</p> <p> Ta foi nous a donné<br> Celui qu’ont annoncé<br> Les hommes de l’espoir...<br> Joie des prophètes,<br> Dieu façonne en ton corps<br> Son image éternelle<br> Et se fait l’un de nous.</p> <p> Le prix de ton amour<br> Demeure pour toujours<br> Caché dans nos moissons...<br> Mère des hommes,<br> Tu prépares en secret<br> Le ferment du Royaume<br> Et le pain de nos vies.</p>",
+  ),
+  "marie-tu-etais-la": Hymns(
+    title: "Marie, tu étais là",
+    author: "",
+    content:
+        "<p>Marie&nbsp;!</p> <p> Tu étais là<br> Pour recueillir les mots<br> De l’alliance,<br> Tu étais là<br> Pour réjouir d’un mot<br> Les invités&nbsp;!<br> Ce matin,<br> Pour que la fête vienne au jour,<br> Éveille en nous l’Esprit de Pâques&nbsp;!</p> <p> C’est dans la foi<br> Que tu confiais ton corps<br> Au silence,<br> C’est dans la foi<br> Que tu offrais le corps<br> De ton enfant&nbsp;!<br> Ce matin,<br> Pour que la fête soit pour tous,<br> Présente-nous l’Agneau de Pâques&nbsp;!</p> <p> Aux premiers temps<br> Tu annonças d’un chant<br> Sa naissance,<br> Aux derniers temps<br> Nous danserons au chant<br> De son amour&nbsp;!<br> Ce matin,<br> Pour que la fête soit sans fin,<br> Appelle en nous la vie de Pâques&nbsp;!</p>",
+  ),
+  "humble-servante-du-seigneur": Hymns(
+    title: "Humble servante du Seigneur",
+    author: "",
+    content:
+        "<p>Humble servante du Seigneur,<br> Amour éveillé par la grâce,<br> Dieu te choisit.<br> Heureuse, tu accueilles le message<br> Du Maître de la vie.</p> <p> Terre féconde au vent de Dieu,<br> Ta glaise nourrit la semence,<br> Dieu te bénit.<br> Le Verbe peut germer dans ton silence,<br> Tu portes Jésus Christ.</p> <p> Mère attentive aux joies des cœurs,<br> Tu pries, et le signe de fête,<br> Dieu l’accomplit.<br> C’est l’heure où, parmi nous, se manifeste<br> La gloire de ton Fils.</p> <p> Femme debout près de la croix,<br> Voici la nouvelle genèse,<br> Dieu se fait nuit.<br> C’est l’heure où dans ton cœur passe le glaive&nbsp;:<br> Tu donnes Jésus-Christ.</p> <p> Joie de l’Église au long du temps,<br> Tu portes l’espoir du Royaume&nbsp;:<br> Christ est vivant&nbsp;!<br> Éclaire notre route jusqu’à l’aube,<br> Étoile de l’Avent.</p>",
+  ),
+  "vous-etes-sans-pareille": Hymns(
+    title: "Vous êtes sans pareille",
+    author: "",
+    content:
+        "<p> Vous êtes sans pareille,<br> Ô Mère du Sauveur&nbsp;!<br> Vous êtes la merveille<br> Des œuvres du Seigneur,<br> Ô Notre Dame&nbsp;!</p> <p> Ô Vierge élue du Père<br> Pour mettre au monde un Dieu,<br> Soyez encor la Mère<br> de tout enfant de Dieu,<br> Ô Notre Dame&nbsp;!</p> <p> Vous êtes la fontaine<br> De grâce et de pitié,<br> Jaillie des hauts domaines<br> Sur toute l’humanité,<br> Ô Notre Dame&nbsp;!</p> <p> Ô Vierge de lumière,<br> Étoile dans les cieux,<br> Brillez sur notre terre<br> De la clarté de Dieu,<br> Ô Notre Dame&nbsp;!</p>",
+  ),
+  "pour-toi-fils-de-dieu": Hymns(
+    title: "Pour toi, Fils de Dieu",
+    author: "",
+    content:
+        "<p>Pour toi, Fils de Dieu,<br> Le nard de grand prix,<br> La vie donnée sans jamais la reprendre&nbsp;;<br> Pour toi la louange<br> De ta servante.</p> <p> Vers toi, Jésus-Christ,<br> L’écoute du cœur,<br> Ton nom crié sans briser le silence&nbsp;;<br> Vers toi la violence<br> De l’espérance.</p> <p> Par toi, Serviteur,<br> La force d’aimer,<br> La longue marche au désert de l’absence&nbsp;;<br> Par toi la descente<br> Dans la souffrance.</p> <p> En toi, Bien-aimé,<br> La paix du désir,<br> La joie parfaite que nul ne peut prendre&nbsp;:<br> Ta vie en offrande<br> Pour ta servante.</p>",
+  ),
+  "voici-l-epoux": Hymns(
+    title: "Voici l’époux",
+    author: "",
+    content:
+        "<p>Voici l’époux,<br> sortez à sa rencontre&nbsp;!<br> Voici l’époux&nbsp;:<br> il vous donne pour l’attendre<br> et l’huile de vos lampes<br> et la flamme.</p> <p>R/ Vers toi, Seigneur, notre regard&nbsp;!</p> <p>Vous étiez autrefois ténèbres,<br> à présent lumière dans le Seigneur&nbsp;:<br> marchez en enfants de lumière.</p> <p>Que resplendisse en vous<br> la connaissance de la gloire de Dieu&nbsp;:<br> Jésus a brillé dans vos cœurs.</p> <p>Rendez grâce au Père&nbsp;:<br> il vous appelle à partager<br> l’héritage des saints dans la lumière.</p> <p>Gardez vos lampes allumées&nbsp;:<br> vous ne savez ni le jour ni l’heure.</p>",
+  ),
+  "vous-qui-passiez-jadis": Hymns(
+    title: "Vous qui passiez jadis",
+    author: "",
+    content:
+        "<p>Vous qui passiez jadis<br> Sur nos chemins<br> Comme l’annonce d’une enfance à venir,<br> Découvrez-nous sa grâce,<br> Sœurs aimées dans le Christ,<br> Partagez-nous encor<br> Votre secret.</p> <p>Vous connaissez le prix<br> Des jours obscurs<br> Et l’espérance dont la foi les remplit;<br> «&nbsp;N’attendez pas de signes,<br> Nous répond votre vie,<br> L’événement d’amour<br> Est quotidien.&nbsp;»</p> <p>Vous savez bien le poids<br> De nos échecs<br> Et la souffrance qui refuse la croix;<br> Vous connaissez la coupe<br> Des enfants sans espoir,<br> Vous mesurez la peur<br> Qui les étreint.</p> <p>La compassion de Dieu<br> Vous a blessées<br> Au fond de l’âme comme un glaive de feu;<br> Vous deveniez l’image<br> De l’Agneau mystérieux<br> Quand vous portiez la mort<br> Des mal-aimés.</p> <p>Et maintenant voici<br> Le grand repos<br> Dans la lumière d’un bonheur accueilli&nbsp;:<br> Vous contemplez le Père,<br> Sœurs élues dans le Christ,<br> Et son amour offert<br> À tous les hommes.</p>",
+  ),
+  "dieu-ma-joie": Hymns(
+    title: "Dieu, ma joie",
+    author: "",
+    content:
+        "<p>Dieu, ma joie,<br> tu es le souffle de ma vie,<br> tu es la source de mon chant,<br> tu es le rythme de mon sang,<br> tu es le feu qui m’a saisie.</p> <p> Dieu, ma joie,<br> tu as fait de ma pauvreté<br> ta demeure de silence<br> où tout être peut adorer<br> le secret de ta présence.</p> <p> Dieu, ma joie,<br> toi seul es Saint,<br> ton amour est puissance,<br> et dans tes mains<br> le monde prend naissance.</p> <p> Dieu, ma joie,<br> tu disperses les vaniteux<br> comme la paille dans le vent,<br> mais tu chéris le malheureux<br> comme un enfant.</p> <p> Dieu, ma joie,<br> tu renverses tous les rois,<br> tu dépouilles les nantis,<br> mais Tu combles les petits<br> dont le cœur a faim de Toi.</p> <p> Dieu, ma joie,<br> tu es fidèle à tes promesses<br> depuis hier jusqu’à demain<br> car ta tendresse<br> n’a pas de fin.</p>",
+  ),
 };

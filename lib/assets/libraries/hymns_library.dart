@@ -1020,4 +1020,16 @@ final Map<String, Hymns> hymnsLibraryContent = {
     content:
         "<p>Tenez en mains vos lampes allumées,<br>enfants de Dieu qui le cherchez&nbsp;:<br>vous ne marcherez plus dans les ténèbres.</p><p>Lumière du Christ,<br>nous te bénissons.</p><p>Car voici la plénitude des temps,<br>tous les peuples sont appelés<br>à l’espérance bienheureuse de la résurrection.</p><p>Lumière du Christ,<br>pure lumière,<br>nous te glorifions.</p><p>Le Christ hier, aujourd’hui et toujours&nbsp;!<br>Maître de la mort et de la vie,<br>il demeure pour les siècles des siècles.</p><p>Lumière du Christ,<br>lumière née de la lumière,<br>joie éternelle dans nos cœurs,<br>nous t’acclamons.</p>",
   ),
+  "heureux-l-homme-au-coeur-pur": Hymns(
+    title: "heureux l’homme au cœur pur",
+    author: "",
+    content:
+        "<p>Heureux l’homme au cœur pur<br> À qui Dieu remet la nouvelle Ève,<br> Heureux le serviteur obscur<br> Pour qui l’aurore se lève&nbsp;!</p> <p> De nuit l’ange survient,<br> Dissipant les ombres du silence&nbsp;;<br> Joseph peut entrevoir de loin<br> Sa part dans l’œuvre d’alliance.</p> <p> Jésus lui est confié,<br> Cet enfant qui dort en son épouse&nbsp;;<br> Marie est le jardin fermé<br> Où Dieu éveille une source.</p> <p> Heureux l’homme qui sait<br> Accueillir le Verbe de lumière&nbsp;:<br> Jésus, en regardant Joseph,<br> Verra l’image du Père.</p>",
+  ),
+  "dieu-t-a-choisi": Hymns(
+    title: "Dieu t’a choisi",
+    author: "",
+    content:
+        "<p>R/ Dieu t’a choisi.<br> Que Dieu soit béni&nbsp;!<br> Fils de David,<br> Époux de Marie.<br> Entre tes mains,<br> le Christ enfant<br> a remis sa vie.</p> <p>Homme d’espérance,<br> à toi vient la Promesse,<br> sur l’heure accomplie<br> quand tu reçois le Messie&nbsp;!</p> <p>Homme de silence,<br> à toi vient la Parole,<br> la voix inouïe<br> du Verbe qui balbutie&nbsp;!</p> <p>Tu te tiens dans l’ombre,<br> à toi vient la Lumière<br> du fond de la nuit<br> jusqu’à ton cœur ébloui&nbsp;!</p> <p>Juste entre les justes<br> c’est toi vers qui la face<br> de la Vérité<br> lève un regard nouveau-né&nbsp;!</p> <p>Homme doux et chaste,<br> chez toi l’Amour demeure.<br> La main dans ta main,<br> il va se mettre en chemin&nbsp;!</p>",
+  ),
 };

@@ -80,7 +80,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     date = date.add(Duration(days: 1));
   }
 
-  // adding the Christmasferials, till the Baptisme of the Lord
+  // adding the Christmas Ferials, till the Baptism of the Lord
   int christmasFerialDays = 1;
 
 // days between january, 1st and the Epiphany
@@ -423,8 +423,6 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 // AJOUT DES JOURS QUI SE SUPERPOSENT AUX JOURS DÉJA CRÉÉS
   String eventName = 'IMMACULATE_CONCEPTION';
   calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
-  eventName = 'HOLY_FAMILY';
-  calendar.addItemToDay(generalCalendar[eventName]!, 6, eventName);
   eventName = 'ASCENSION';
   calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
   eventName = 'ANNUNCIATION';

@@ -22,6 +22,8 @@ Map<String, Morning> ferialMorningResolution(
       './lib/assets/calendar_data/days_ferial'; // path to the ferial days data
   final String specialFilePath =
       './lib/assets/calendar_data/days_special'; // path to the special days data
+  final String commonsFilePath =
+      './lib/assets/calendar_data/commons'; // path to the special days data
   Morning ferialMorning =
       Morning(); // creation of the instance of ferialMorning
   final calendarDay =
@@ -117,6 +119,32 @@ Map<String, Morning> ferialMorningResolution(
       return {celebrationName: ferialMorning};
     }
   } // end of the Advent Time
+
+  if (celebrationName.startsWith('christmas')) {
+    // for the Christmas Time
+    // (Holy Family is excluded, as it is not a ferial day)
+    int dayNumber = date.day;
+    int monthNumber = date.month;
+    if (monthNumber == 12) {
+      if (dayNumber < 29) {
+        // days before 29th December: proper office for the Morning Prayer
+        ferialMorning =
+            morningExtract(File('$ferialFilePath/christmas_$dayNumber.json'));
+        return {celebrationName: ferialMorning};
+      } else {
+        // days from 29th to 31st December: using the Common of Christmas
+        // and adding the specificities of the day
+        Morning ferialMorning =
+            morningExtract(File('$specialFilePath/christmas_${date.day}.json'));
+        Morning christmasMorning =
+            morningExtract(File('$commonsFilePath/christmas.json'));
+        christmasMorning.overlayWith(ferialMorning);
+        return {celebrationName: christmasMorning};
+      }
+    } else {
+      // christmas days in January
+    }
+  }
 
   //for the other ferial times:
   final File fileName = File('$ferialFilePath/$celebrationName');

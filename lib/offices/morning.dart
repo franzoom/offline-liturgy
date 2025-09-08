@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import '../common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/day_offices_class.dart';
@@ -29,6 +30,7 @@ Map<String, Morning> ferialMorningResolution(
   final calendarDay =
       calendar.getDayContent(date); // retrieval of the calendar day
   final celebrationName = calendarDay?.defaultCelebrationTitle;
+  final breviaryWeek = calendarDay?.breviaryWeek;
   if (!detectFerialDays(celebrationName!)) {
     // if it's not a ferial day, return an empty ferialMorning instance
     return {celebrationName: ferialMorning};
@@ -128,23 +130,40 @@ Map<String, Morning> ferialMorningResolution(
     if (monthNumber == 12) {
       if (dayNumber < 29) {
         // days before 29th December: proper office for the Morning Prayer
-        ferialMorning =
+        Morning morningOffice =
             morningExtract(File('$ferialFilePath/christmas_$dayNumber.json'));
-        return {celebrationName: ferialMorning};
+        Morning baseMorningOffice = morningExtract(File(
+            '$commonsFilePath/christmas_${breviaryWeek}_${date.weekday}.json'));
+        baseMorningOffice.overlayWith(morningOffice);
+        return {celebrationName: baseMorningOffice};
       } else {
         // days from 29th to 31st December: using the Common of Christmas
         // and adding the specificities of the day
-        Morning ferialMorning =
+        Morning morningOffice =
             morningExtract(File('$specialFilePath/christmas_${date.day}.json'));
-        Morning christmasMorning =
+        Morning baseMorningOffice =
             morningExtract(File('$commonsFilePath/christmas.json'));
-        christmasMorning.overlayWith(ferialMorning);
-        return {celebrationName: christmasMorning};
+        baseMorningOffice.overlayWith(morningOffice);
+        return {celebrationName: baseMorningOffice};
       }
     } else {
       // christmas days in January
+      if (date.isBefore(epiphany(date.year))) {
+        // before Epiphany: proper of the day, with the psalms and psalms and
+        // antiphons of the 1rst week of christmas time.
+        Morning morningOffice = morningExtract(File(
+            '$specialFilePath/christmas-ferial_before_epiphany_${date.day}.json'));
+        Morning baseMorningOffice = morningExtract(
+            File('$ferialFilePath/christmas_1_${date.weekday}.json'));
+        baseMorningOffice.overlayWith(morningOffice);
+        return {celebrationName: baseMorningOffice};
+      } else {
+        Morning morningOffice = morningExtract(
+            File('$ferialFilePath/christmas_2_${date.weekday}.json'));
+        return {celebrationName: morningOffice};
+      }
     }
-  }
+  } //end of the Christmas Time
 
   //for the other ferial times:
   final File fileName = File('$ferialFilePath/$celebrationName');

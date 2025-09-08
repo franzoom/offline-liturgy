@@ -35,10 +35,7 @@ DateTime baptism(DateTime epiphanyDay) {
   // renvoie le jour du baptême du Christ pour une année donnée.
   // c'est le dimanche qui suit l'Épiphanie
   // si l'Epiphanie tombe le 7 ou 8, le Baptême est le lendemain
-  int daystoAdd = 1;
-  if (epiphanyDay.day < 7) {
-    daystoAdd = 7;
-  }
+  int daystoAdd = (epiphanyDay.day < 7) ? 7 : 1;
   return epiphanyDay.add(Duration(days: daystoAdd));
 }
 
@@ -46,10 +43,7 @@ DateTime secondSundayOT(DateTime epiphanyDay) {
   // renvoie le jour du deuxième dimanche du Temps Ordinaire.
   // Si l'Epiphanie tombe le 7 ou 8, le dimanche suivant est le 2èmeTO
   // autrement c'est 2 dimanches après l'Epiphanie (celui qui suit le Baptême).
-  int daystoAdd = 7;
-  if (epiphanyDay.day < 7) {
-    daystoAdd = 14;
-  }
+  int daystoAdd = (epiphanyDay.day < 7) ? 14 : 7;
   return epiphanyDay.add(Duration(days: daystoAdd));
 }
 

@@ -1,8 +1,11 @@
-import 'classes/calendar_class.dart'; // cette classe définit calendar
-import 'common_calendar_definitions.dart'; //ensemble des fonctions qui calculent les dates de fêtes à date variable
-import 'feasts/common_feasts.dart'; //liste des fêtes de l'Église universelle
+import 'classes/calendar_class.dart'; // calendar definition class
+import 'common_calendar_definitions.dart'; //computation of the dates of the variables feasts
+import 'feasts/common_feasts.dart'; // feast list for the universal Church
 import './feasts/locations/lyon.dart';
+import './feasts/locations/paris.dart';
 import './feasts/locations/france.dart';
+import './feasts/locations/belgium.dart';
+import './feasts/locations/canada.dart';
 import './feasts/locations/europe.dart';
 
 Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
@@ -110,14 +113,13 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 
   date = date.add(Duration(days: 1));
   int christmasFerialDays = 2;
-  // adding the Christmas Ferials, till the Baptism of the Lord
 
 // days between january, 2d and the Epiphany
   DateTime epiphanyDate = generalCalendar['EPIPHANY']!;
   while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ChristmasFeriale before Epiphany',
+      liturgicalTime: 'Christmas Feriale before Epiphany',
       defaultCelebrationTitle:
           'christmas-ferial_before_epiphany_$christmasFerialDays',
       liturgicalGrade: 13,
@@ -137,10 +139,11 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalGrade: 3,
     liturgicalColor: 'white',
     breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
-    // if the Epiphany is after the 6th, the Baptism of the Lord is the next day, so on monday.
-    // in this case the Epiphany is begining the first week of the liturgical year, so breviaryWeek is 1
+    // if the Epiphany is after the 6th, the Baptism of the Lord is the next day, on monday.
+    // in this case the Epiphany is begining the first week of the new liturgical year,
+    // and breviaryWeek is 1.
     // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
-    // the Epiphany is not the first week of the liturgical year, therefor breviaryWeek is 2.
+    // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
     priority: {},
   );
   date = epiphanyDate;
@@ -153,7 +156,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'ChristmasFeriale',
-      defaultCelebrationTitle: 'CHRISTMAS-FERIALE_2_$christmasFerialDays',
+      defaultCelebrationTitle: 'christmas_feriale_2_$christmasFerialDays',
       liturgicalGrade: 13,
       liturgicalColor: 'white',
       breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
@@ -492,8 +495,14 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   switch (location) {
     case 'lyon':
       calendar = addLyonFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'paris':
+      calendar = addParisFeasts(calendar, liturgicalYear, generalCalendar);
     case 'france':
       calendar = addFranceFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'belgium':
+      calendar = addBelgiumFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'canada':
+      calendar = addCanadaFeasts(calendar, liturgicalYear, generalCalendar);
     case 'europe':
       calendar = addEuropeFeasts(calendar, liturgicalYear, generalCalendar);
   }

@@ -58,11 +58,10 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   calendar.addDayContent(date, dayContent);
 
   // adding the Christmas Octave
-  int christmasOctaveDays = 2;
   date = date.add(Duration(days: 1)); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
-    if ((date.weekday % 7 == 0)) {
-      defaultCelebrationTitle = 'CHRISTMAS_SUNDAY';
+    if (date == generalCalendar['HOLY_FAMILY']) {
+      defaultCelebrationTitle = 'HOLY_FAMILY';
       liturgicalGrade = 6;
     } else {
       defaultCelebrationTitle = 'christmas_${date.day}';
@@ -79,7 +78,6 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
         priority: {});
     calendar.addDayContent(date, dayContent);
     date = date.add(Duration(days: 1));
-    christmasOctaveDays++;
   }
 
   // adding the Christmasferials, till the Baptisme of the Lord
@@ -110,7 +108,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalGrade: 3,
     liturgicalColor: 'white',
     breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
-    // if the Epiphany is after the 6th, the Baptisme of the Lord is the next day, so on monday.
+    // if the Epiphany is after the 6th, the Baptism of the Lord is the next day, so on monday.
     // in this case the Epiphany is begining the first week of the liturgical year, so breviaryWeek is 1
     // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
     // the Epiphany is not the first week of the liturgical year, therefor breviaryWeek is 2.

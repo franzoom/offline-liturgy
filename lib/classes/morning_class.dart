@@ -213,7 +213,6 @@ class Morning {
       'PSALM_23'
     ];
     List<String> usedPsalms = [];
-
     if (morningPsalm1 != null && morningPsalm1!.isNotEmpty) {
       usedPsalms.add(morningPsalm1!);
     }

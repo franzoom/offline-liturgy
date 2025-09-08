@@ -215,7 +215,6 @@ createLiturgicalDays(int year) {
   liturgicalDays['ADVENT'] = advent(liturgicalDays['NATIVITY']!);
   liturgicalDays['IMMACULATE_CONCEPTION'] =
       immaculateConception(liturgicalDays['ADVENT']!);
-  liturgicalDays['HOLY_FAMILY'] = holyFamily(year);
   liturgicalDays['EPIPHANY'] = epiphany(year);
   liturgicalDays['BAPTISM'] = baptism(liturgicalDays['EPIPHANY']!);
   liturgicalDays['SECOND_SUNDAY_OT'] =

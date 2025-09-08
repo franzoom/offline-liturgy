@@ -1134,7 +1134,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
     content:
         """<p>Regina cæli, lætare, alleluia,<br>   quia quem meruisti portare, alleluia,<br>resurrexit sicut dixit, alleluia&nbsp;;<br>   ora pro nobis Deum, alleluia.</p>""",
   ),
-  "sub-tuum-prasidium": Hymns(
+  "sub-tuum-praesidium": Hymns(
     title: "Sub tuum præsidium",
     author: "",
     content:

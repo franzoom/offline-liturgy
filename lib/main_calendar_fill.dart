@@ -26,7 +26,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
           'advent_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
     } else {
       liturgicalGrade = 9;
-      defaultCelebrationTitle = 'ADVENT_${date.day}';
+      defaultCelebrationTitle = 'advent_${date.day}';
     }
 
     DayContent dayContent = DayContent(
@@ -65,7 +65,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebrationTitle = 'CHRISTMAS_SUNDAY';
       liturgicalGrade = 6;
     } else {
-      defaultCelebrationTitle = 'CHRISTMAS-OCTAVE_$christmasOctaveDays';
+      defaultCelebrationTitle = 'christmas_${date.day}';
       liturgicalGrade = 9;
     }
     DayContent dayContent = DayContent(
@@ -90,9 +90,9 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ChristmasFeriale',
+      liturgicalTime: 'ChristmasFeriale before Epiphany',
       defaultCelebrationTitle:
-          'CHRISTMAS-FERIALE_BEFORE_EPIPHANY_$christmasFerialDays',
+          'christmas-ferial_before_epiphany_$christmasFerialDays',
       liturgicalGrade: 13,
       liturgicalColor: 'white',
       breviaryWeek: 1,

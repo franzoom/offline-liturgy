@@ -8,7 +8,8 @@ import '../tools/days_name.dart';
 import '../tools/extract_week_and_day.dart';
 
 bool detectFerialDays(String celebrationName) {
-  // ferial day detection
+  // ferial day detection: detects if the celebration name starts with
+  // one of the following prefixes.
   final prefixes = ['OT', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationName.startsWith(prefix));
 }

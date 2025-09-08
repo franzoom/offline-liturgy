@@ -32,7 +32,7 @@ Map<String, Morning> ferialMorningResolution(
   }
 
   if (celebrationName.startsWith('OT')) {
-    // If it's Ordinary Time, then:
+    // if it's Ordinary Time, then:
     if (celebrationName.endsWith('0')) {
       // special case of Sunday
       final int weekNumber = int.parse(celebrationName[
@@ -74,18 +74,49 @@ Map<String, Morning> ferialMorningResolution(
 
   if (celebrationName.startsWith('advent')) {
     // for the Advent Time
+    List dayDatas = extractWeekAndDay(celebrationName, "advent");
+    int weekNumber = dayDatas[0];
+    int dayNumber = dayDatas[1];
     if (date.day < 17) {
       // days before 17th December
-      List dayDatas = extractWeekAndDay(celebrationName, "advent");
-      int weekNumber = dayDatas[0];
-      int dayNumber = dayDatas[1];
       ferialMorning = morningExtract(
           File('$ferialFilePath/advent_${weekNumber}_$dayNumber.json'));
+      return {celebrationName: ferialMorning};
     } else {
       ferialMorning =
           morningExtract(File('$specialFilePath/advent_${date.day}.json'));
+      if (weekNumber == 3 && dayNumber == 0 && date.day == 17) {
+        // if the 3rd Sunday of Advent occuers on the 17th December,
+        // we use the datas of the 17th December and we add the oration
+        // of the 3rd Sunday of Advent.
+        Morning auxData =
+            morningExtract(File('$ferialFilePath/advent_3_0.json'));
+        ferialMorning.morningOration = auxData.morningOration;
+        return {celebrationName: ferialMorning};
+      }
+      if (weekNumber == 4 && dayNumber == 0 && date.day == 24) {
+        // if the 4rd Sunday of Advent occurs on the 24th December,
+        // we use the datas of the 24th December and we add the oration
+        // of the 4rd Sunday of Advent.
+        Morning auxData =
+            morningExtract(File('$ferialFilePath/advent_4_0.json'));
+        ferialMorning.morningOration = auxData.morningOration;
+        return {celebrationName: ferialMorning};
+      }
+      if (weekNumber == 4 && dayNumber == 0) {
+        // if the day after the 17th december is the 4th sunday of Advent,
+        // we use the datas of the 4th Sunday and we add the evangelic antiphon
+        // of the day.
+        Morning sunday4Morning =
+            morningExtract(File('ferialFilePath/advent_4_0.json'));
+        sunday4Morning.morningEvangelicAntiphon =
+            ferialMorning.morningEvangelicAntiphon;
+        return {celebrationName: sunday4Morning};
+      }
+      return {celebrationName: ferialMorning};
     }
-  }
+  } // end of the Advent Time
+
   //for the other ferial times:
   final File fileName = File('$ferialFilePath/$celebrationName');
   ferialMorning = morningExtract(fileName);

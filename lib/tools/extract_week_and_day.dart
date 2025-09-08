@@ -1,6 +1,7 @@
 List extractWeekAndDay(String celebrationName, String prefix) {
-  // fonction qui récupère un nom de jour de férie avec son préfixe (OT_x_y par exemple)
-  // et retourne x: numéro de semaine et y: numéro de jour
+  // this function recieves a ferial day name with its prefix (OT_x_y for exemple)
+  // and returns x: week number and y: numéro de semaine et y: day number.
+  // If the format is incorrect, it returns [0, 0].
   final regex = RegExp('^${RegExp.escape(prefix)}_(\\d+)_(\\d+)\$');
   final match = regex.firstMatch(celebrationName);
   int week;

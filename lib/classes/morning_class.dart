@@ -9,7 +9,7 @@ class Morning {
   String? liturgicalColor;
   String? invitatoryAntiphon;
   String? invitatoryAntiphon2;
-  List? invitaroryPsalms;
+  List? invitatoryPsalms;
   String? morningHymn;
   String? morningPsalm1Antiphon;
   String? morningPsalm1Antiphon2;
@@ -97,8 +97,8 @@ class Morning {
     if (overlay.liturgicalColor != null) {
       liturgicalColor = overlay.liturgicalColor;
     }
-    if (overlay.invitaroryPsalms != null) {
-      invitaroryPsalms = overlay.invitaroryPsalms;
+    if (overlay.invitatoryPsalms != null) {
+      invitatoryPsalms = overlay.invitatoryPsalms;
     }
     if (overlay.morningHymn != null) {
       morningHymn = overlay.morningHymn;
@@ -205,6 +205,7 @@ class Morning {
   }
 
   void setInvitatoryPsalms() {
+    // remove from the Invitatory psalms list those already used in the morning office
     List<String> availablePsalms = [
       'PSALM_94',
       'PSALM_99',
@@ -216,12 +217,10 @@ class Morning {
     if (morningPsalm1 != null && morningPsalm1!.isNotEmpty) {
       usedPsalms.add(morningPsalm1!);
     }
-
     if (morningPsalm3 != null && morningPsalm3!.isNotEmpty) {
       usedPsalms.add(morningPsalm3!);
     }
-
-    invitaroryPsalms =
+    invitatoryPsalms =
         availablePsalms.where((psalm) => !usedPsalms.contains(psalm)).toList();
   }
 }

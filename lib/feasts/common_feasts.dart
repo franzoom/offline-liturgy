@@ -2,7 +2,6 @@ import '../classes/feasts_class.dart';
 //fêtes du calendrier général
 
 Map<String, FeastDates> commonFeastsList = {
-  'mary_mother_of_god': FeastDates(month: 1, day: 1, priority: 3),
   'basil_the_great_and_gregory_nazianzen_bishops':
       FeastDates(month: 1, day: 2, priority: 10),
   'most_holy_name_of_jesus': FeastDates(month: 1, day: 3, priority: 12),
@@ -252,9 +251,6 @@ Map<String, FeastDates> commonFeastsList = {
   'john_of_the_cross_priest': FeastDates(month: 12, day: 14, priority: 10),
   'peter_canisius_priest': FeastDates(month: 12, day: 21, priority: 12),
   'john_of_kanty_priest': FeastDates(month: 12, day: 23, priority: 12),
-  'stephen_the_first_martyr': FeastDates(month: 12, day: 26, priority: 7),
-  'john_apostle': FeastDates(month: 12, day: 27, priority: 7),
-  'holy_innocents_martyrs': FeastDates(month: 12, day: 28, priority: 7),
   'thomas_becket_bishop': FeastDates(month: 12, day: 29, priority: 12),
   'sylvester_i_pope': FeastDates(month: 12, day: 31, priority: 12),
 };

@@ -64,8 +64,23 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       defaultCelebrationTitle = 'HOLY_FAMILY';
       liturgicalGrade = 6;
     } else {
-      defaultCelebrationTitle = 'christmas_${date.day}';
-      liturgicalGrade = 9;
+      switch (date.day) {
+        case 26:
+          defaultCelebrationTitle = 'christmas_26-stephen_the_first_martyr';
+          liturgicalGrade = 7;
+          break;
+        case 27:
+          defaultCelebrationTitle = 'christmas_27-john_apostle';
+          liturgicalGrade = 7;
+          break;
+        case 28:
+          defaultCelebrationTitle = 'christmas_28-holy_innocents_martyrs';
+          liturgicalGrade = 7;
+          break;
+        default:
+          defaultCelebrationTitle = 'christmas_${date.day}';
+          liturgicalGrade = 9;
+      }
     }
     DayContent dayContent = DayContent(
         liturgicalYear: liturgicalYear,
@@ -80,10 +95,24 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     date = date.add(Duration(days: 1));
   }
 
-  // adding the Christmas Ferials, till the Baptism of the Lord
-  int christmasFerialDays = 1;
+  // adding the Nativity of the Lord
+  dayContent = DayContent(
+    liturgicalYear: liturgicalYear,
+    liturgicalTime: 'Christmas',
+    defaultCelebrationTitle: 'mary_mother_of_god',
+    liturgicalGrade: 2,
+    liturgicalColor: 'white',
+    breviaryWeek: 1,
+    priority: {},
+  );
+  date = DateTime(liturgicalYear, 1, 1);
+  calendar.addDayContent(date, dayContent);
 
-// days between january, 1st and the Epiphany
+  date = date.add(Duration(days: 1));
+  int christmasFerialDays = 2;
+  // adding the Christmas Ferials, till the Baptism of the Lord
+
+// days between january, 2d and the Epiphany
   DateTime epiphanyDate = generalCalendar['EPIPHANY']!;
   while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(

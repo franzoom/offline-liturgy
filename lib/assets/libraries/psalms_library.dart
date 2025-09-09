@@ -1998,7 +1998,7 @@ final Map<String, Psalm> psalms = {
           """<p><span class="verse_number">2</span> À pleine voix, je cr<u>i</u>e vers le Seigneur&nbsp;!<br />À pleine voix, je suppl<u>i</u>e le Seigneur&nbsp;!<br /><span class="verse_number">3</span> Je répands devant lu<u>i</u> ma plainte,<br />devant lui, je d<u>i</u>s ma détresse.<br /><br /><span class="verse_number">4</span> Lorsque le so<u>u</u>ffle me manque,<br />toi, tu s<u>a</u>is mon chemin. *<br />Sur le senti<u>e</u>r où j’avance,<br />un pi<u>è</u>ge m’est tendu.<br /><br /><span class="verse_number">5</span> Regarde à mes côt<u>é</u>s, et vois&nbsp;:<br />pers<u>o</u>nne qui me connaisse&nbsp;! *<br />Pour moi, il n’est pl<u>u</u>s de refuge&nbsp;:<br />pers<u>o</u>nne qui pense à moi&nbsp;!<br /><br /><span class="verse_number">6</span> J’ai crié vers t<u>o</u>i, Seigneur&nbsp;! *<br />J’ai dit&nbsp;: «&nbsp;Tu <u>e</u>s mon abri,<br />ma part, sur la t<u>e</u>rre des vivants.&nbsp;»<br /><br /><span class="verse_number">7</span> Sois attent<u>i</u>f à mes appels&nbsp;:<br />je suis rédu<u>i</u>t à rien&nbsp;; *<br />délivre-moi de ce<u>u</u>x qui me poursuivent&nbsp;:<br />ils sont plus f<u>o</u>rts que moi.<br /><br /><span class="verse_number">8</span> Tire-moi de la pris<u>o</u>n où je suis,<br />que je rende gr<u>â</u>ce à ton nom. *<br />Autour de moi, les j<u>u</u>stes feront cercle<br />pour le bi<u>e</u>n que tu m’as fait.</p>"""),
   "PSALM_142": Psalm(
       title: "Psaume 142",
-      subtitle: "Plainte et prièer dans l’angoisse",
+      subtitle: "Plainte et prière dans l’angoisse",
       commentary:
           "L’homme n’est pas justifié par la pratique de la loi, mais par la foi en Jésus Christ. (Ga 2, 16)",
       biblicalReference: "",

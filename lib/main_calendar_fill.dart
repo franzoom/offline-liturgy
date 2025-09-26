@@ -186,7 +186,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(generalCalendar['ASHES']!)) {
     String timeCode = '${(ordinaryTimeDays / 7).floor() + 1}';
     if ((date.weekday % 7 == 0)) {
-      defaultCelebrationTitle = 'OT_SUNDAY_$timeCode';
+      defaultCelebrationTitle = 'OT_${timeCode}_0';
       liturgicalGrade = 6;
     } else {
       defaultCelebrationTitle = 'OT_${timeCode}_${ordinaryTimeDays % 7}';
@@ -244,7 +244,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(generalCalendar['PALMS']!)) {
     String timeCode = '${(lentDays / 7).floor() + 1}';
     if ((date.weekday % 7 == 0)) {
-      defaultCelebrationTitle = 'LENT_SUNDAY_$timeCode';
+      defaultCelebrationTitle = 'LENT_${timeCode}_0';
       liturgicalGrade;
     } else {
       defaultCelebrationTitle = 'LENT_${timeCode}_${lentDays % 7}';
@@ -385,7 +385,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(generalCalendar['PENTECOST']!)) {
     String timeCode = '${(paschalTimeDays / 7).floor() + 1}';
     if ((date.weekday % 7 == 0)) {
-      defaultCelebrationTitle = 'PT_SUNDAY_$timeCode';
+      defaultCelebrationTitle = 'PT_${timeCode}_0';
       liturgicalGrade = 2;
     } else {
       defaultCelebrationTitle = 'PT_${timeCode}_${paschalTimeDays % 7}';
@@ -432,7 +432,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
       date.isBefore(generalCalendar['CHRIST_KING']!.add(Duration(days: 7)))) {
     String timeCode = '${(ordinaryTimeDays / 7).floor() + 1}';
     if ((date.weekday % 7 == 0)) {
-      defaultCelebrationTitle = 'OT_SUNDAY_$timeCode';
+      defaultCelebrationTitle = 'OT_${timeCode}_0';
       liturgicalGrade = 6;
     } else {
       defaultCelebrationTitle = 'OT_${timeCode}_${ordinaryTimeDays % 7}';
@@ -479,7 +479,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   eventName = 'CHRIST_KING';
   calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
   calendar.removeCelebrationFromDay(generalCalendar['CHRIST_KING']!,
-      'OT_SUNDAY_34'); //suprimer le 34ème dimanche, vu que c'est le Christ Roi
+      'OT_34_0'); //suprimer le 34ème dimanche, vu que c'est le Christ Roi
 
 //ajout du cœur immaculé de Marie après la fête du Sacré Cœur:
   calendar.addItemRelatedToFeast(

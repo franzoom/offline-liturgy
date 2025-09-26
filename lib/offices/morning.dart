@@ -17,14 +17,14 @@ bool detectFerialDays(String celebrationName) {
 
 Map<String, Morning> ferialMorningResolution(
     Calendar calendar, DateTime date, location) {
-  // if it's a ferial day, execution of the morning prayer resolution.
+  // if it's a ferial day, running of the morning prayer resolution.
   // other layers will be added afterwards if needed.
   final String ferialFilePath =
       './lib/assets/calendar_data/days_ferial'; // path to the ferial days data
   final String specialFilePath =
       './lib/assets/calendar_data/days_special'; // path to the special days data
   final String commonsFilePath =
-      './lib/assets/calendar_data/commons'; // path to the special days data
+      './lib/assets/calendar_data/commons'; // path to the commons data
   Morning ferialMorning =
       Morning(); // creation of the instance of ferialMorning
   final calendarDay =
@@ -164,6 +164,16 @@ Map<String, Morning> ferialMorningResolution(
       }
     }
   } //end of the Christmas Time
+
+  if (celebrationName.startsWith('lent')) {
+    // for the Lent Time
+    List dayDatas = extractWeekAndDay(celebrationName, "lent");
+    int weekNumber = dayDatas[0];
+    int dayNumber = dayDatas[1];
+    ferialMorning = morningExtract(
+        File('$ferialFilePath/lent_${weekNumber}_$dayNumber.json'));
+    return {celebrationName: ferialMorning};
+  } // end of Lent Time
 
   //for the other ferial times:
   final File fileName = File('$ferialFilePath/$celebrationName');

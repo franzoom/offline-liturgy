@@ -263,7 +263,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     date = DateTime(date.year, date.month, date.day + 1);
     lentDays++;
   }
-// ajout du dimanche des Rameaux
+// adding Palms Sunday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'LentTime',
@@ -275,17 +275,16 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   );
   date = generalCalendar['PALMS']!;
   calendar.addDayContent(date, dayContent);
-  date = date.add(Duration(days: 1)); // on avance le calendrier d'un jour
-
-//ajout des jours de Carême entre Rameaux et Jeudi Saint exclu
+  date = date.add(Duration(days: 1)); // moving the calendar 1 day forward
   lentDays++;
-  //date = date.add(Duration(days: 1)); // commence après l'Épiphanie
+
+// adding the Lent days between Palms and Holy Thursday (excluded)
   while (date.isBefore(generalCalendar['HOLY_THURSDAY']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'HolyWeek',
       defaultCelebrationTitle:
-          'lent_${(lentDays / 7).floor() + 1}-${lentDays % 7}',
+          'lent_${(lentDays / 7).floor() + 1}_${lentDays % 7}',
       liturgicalGrade: 9,
       liturgicalColor: 'violet',
       breviaryWeek: (lentDays / 7).floor() % 4 + 1,

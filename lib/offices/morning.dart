@@ -38,11 +38,11 @@ Map<String, Morning> ferialMorningResolution(
 
   if (celebrationName.startsWith('OT')) {
     // if it's Ordinary Time, then:
-    if (celebrationName.endsWith('0')) {
-      // special case of Sunday
-      final int weekNumber = int.parse(celebrationName[
-          celebrationName.length - 1]); // week number calculation
-
+    List dayDatas = extractWeekAndDay(celebrationName, "OT");
+    int weekNumber = dayDatas[0];
+    int dayNumber = dayDatas[1];
+    if (dayNumber == 0) {
+      // special case of Sunday:
       // retrieval of the corresponding datas of one of the 4 first sundays,
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
       Morning ferialMorning = morningExtract(
@@ -54,26 +54,19 @@ Map<String, Morning> ferialMorningResolution(
             morningExtract(File('$ferialFilePath/OT_{$weekNumber}_0.json'));
         //fusion
         ferialMorning.overlayWith(
-            sundayAuxData); // adding the elements of auxData to sundayData
+            sundayAuxData); // adding the elements of auxData to ferialMorning
       }
     } else {
       // it's a week day. So we use only the 4 first weeks of the Ordinary Time
       // (we use a modulo to retreive the effective day)
-      List dayDatas = extractWeekAndDay(celebrationName, "OT");
-      int weekNumber = dayDatas[0];
-      int dayNumber = dayDatas[1];
+
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
       ferialMorning = morningExtract(
           File('$ferialFilePath/OT_${referenceWeekNumber}_$dayNumber.json'));
     }
-    // Finishing by adding the specific data of the day and the psalms
+    // Finishing by adding the specific data of the day
     ferialMorning.liturgicalGrade = calendarDay?.liturgicalGrade;
     ferialMorning.celebrationTitle = calendarDay?.defaultCelebrationTitle;
-    List<String>? morningPsalmList = morningPsalms(calendarDay!.liturgicalTime,
-        calendarDay.breviaryWeek!, dayName[date.weekday]);
-    ferialMorning.morningPsalm1 = morningPsalmList![0];
-    ferialMorning.morningPsalm2 = morningPsalmList[1];
-    ferialMorning.morningPsalm3 = morningPsalmList[2];
     return {celebrationName: ferialMorning};
   } // end of the Ordinary Time
 
@@ -175,10 +168,19 @@ Map<String, Morning> ferialMorningResolution(
     return {celebrationName: ferialMorning};
   } // end of Lent Time
 
+  if (celebrationName.startsWith('PT')) {
+    // for Paschal Time
+    List dayDatas = extractWeekAndDay(celebrationName, "PT");
+    int weekNumber = dayDatas[0];
+    int dayNumber = dayDatas[1];
+    ferialMorning = morningExtract(
+        File('$ferialFilePath/PT_${weekNumber}_$dayNumber.json'));
+    return {celebrationName: ferialMorning};
+  } // end of Paschal Time
+
   //for the other ferial times:
   final File fileName = File('$ferialFilePath/$celebrationName');
   ferialMorning = morningExtract(fileName);
-
   return {celebrationName: ferialMorning};
 }
 

@@ -8,14 +8,14 @@ import '../tools/check_and_fill_calendar.dart';
 void main() {
   Calendar calendar = Calendar(); //initialisation du calendrier
 
-  DateTime date = DateTime(2023, 12, 5);
+  DateTime date = DateTime(2025, 09, 26);
   String location = 'lyon';
   calendar = checkAndFillCalendar(calendar, date, location);
 
   // lancement de la génération des Laudes pour le jour demandé:
-  Map<String, Morning> ferialMorning =
-      ferialMorningResolution(calendar, date, location);
-  final zegfqzgrf = ferialMorning;
+  //Map<String, Morning> ferialMorning =
+  //    ferialMorningResolution(calendar, date, location);
+  //final zegfqzgrf = ferialMorning;
   // lancement de la génération des Complies pour le jour demandé:
   Map<String, ComplineDefinition> complineDefinitionResolved =
       complineDefinitionResolution(calendar, date, location);

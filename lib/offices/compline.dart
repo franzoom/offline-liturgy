@@ -52,11 +52,11 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
 }
 
 Map<String, ComplineDefinition> complineDefinitionDetection(
+    Calendar calendar, DateTime date)
 
-    /// detection of which Compline to use for a given day.
-    /// returns a Map  "day or feast name" : ComplineDefinition
-    Calendar calendar,
-    DateTime date) {
+/// detection of which Compline to use for a given day.
+/// returns a Map  "day or feast name" : ComplineDefinition
+{
   Map<String, ComplineDefinition> complineDefinitionFinal = {};
 
   DayContent? todayContent = calendar.getDayContent(date);

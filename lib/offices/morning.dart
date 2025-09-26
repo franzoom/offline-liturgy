@@ -166,7 +166,7 @@ Map<String, Morning> ferialMorningResolution(
   } //end of the Christmas Time
 
   if (celebrationName.startsWith('lent')) {
-    // for the Lent Time
+    // for Lent Time
     List dayDatas = extractWeekAndDay(celebrationName, "lent");
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];

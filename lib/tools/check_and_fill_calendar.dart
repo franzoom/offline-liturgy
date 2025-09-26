@@ -54,11 +54,11 @@ Calendar checkAndFillCalendar(
 }
 
 String locationRead() {
-  // fonction de lecture de la localisation dans le fichier parameters.json
+  // retrieving of the location date in parameters.json
   final parametersFile = File('./lib/assets/parameters.json');
   String location = "";
   if (!parametersFile.existsSync()) {
-    // si le fichier de paramètres n'existe pas, le créer vide.
+    // if the file parameters.json doesn't exist, create an empty one
     parametersFile.writeAsString(jsonEncode({}));
     return location;
   }
@@ -71,11 +71,11 @@ String locationRead() {
 }
 
 void locationSave(String location) {
-  // fonction d'enregistrement du paramètre de localisation dans le fichier parameters.json
+  // records the location parmater in parameters.json
   Map<String, dynamic> parametersData = {
     'location': location,
   };
   final parametersFile = File('./lib/assets/parameters.json');
-  // que le fichier existe ou non, écrire la clef. Ca créera le fichier si besoin.
+  // if the file exists or not, write it.
   parametersFile.writeAsString(jsonEncode(parametersData));
 }

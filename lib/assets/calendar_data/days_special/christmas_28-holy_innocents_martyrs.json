@@ -2,11 +2,15 @@
   "celebrationTitle": "Les saints Innocents, martyrs",
   "liturgicalGrade": 9,
   "liturgicalColor": "red",
-  "commons": ["christmas"],
+  "commons": [
+    "christmas"
+  ],
   "morningPsalm1": "PSALM_62",
   "morningPsalm2": "AT_41",
   "morningPsalm3": "PSALM_149",
-  "readingsHymn": "une-parole-a-suffi",
+  "readingsHymn": [
+    "une-parole-a-suffi"
+  ],
   "readingsPsalm1Antiphon": "Garde tes enfants de tout mal, mon Dieu, mon Roi&nbsp;!",
   "readingsPsalm2Antiphon": "Les enfants de Bethléem ont été rachetés d’entre les hommes comme prémices pour Dieu et pour l’Agneau.",
   "readingsPsalm3Antiphon": "Saints dans le ciel, jubilez pour le Seigneur.",
@@ -22,7 +26,9 @@
   "readingsPsalm1": "PSALM_2",
   "readingsPsalm2": "PSALM_32-I",
   "readingsPsalm3": "PSALM_32-II",
-  "morningHymn": "l-enfant-juif",
+  "morningHymn": [
+    "l-enfant-juif"
+  ],
   "morningPsalm1Antiphon": "Vêtus de blanc, ils marcheront avec le Seigneur, car ils sont innocents.",
   "morningPsalm2Antiphon": "Ils témoignent pour Dieu en mourant, sans parler ils chantent sa louange.",
   "morningPsalm3Antiphon": "Par la bouche des enfants, tu reçois louange.",

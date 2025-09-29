@@ -4,8 +4,6 @@ import '../common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/day_offices_class.dart';
-import '../assets/psalms_data/morning_psalms.dart';
-import '../tools/days_name.dart';
 import '../tools/extract_week_and_day.dart';
 
 bool detectFerialDays(String celebrationName) {
@@ -17,7 +15,7 @@ bool detectFerialDays(String celebrationName) {
 
 Map<String, Morning> ferialMorningResolution(
     Calendar calendar, DateTime date, location) {
-  // if it's a ferial day, running of the morning prayer resolution.
+  // if it's a ferial day, runs the morning prayer resolution.
   // other layers will be added afterwards if needed.
   final String ferialFilePath =
       './lib/assets/calendar_data/days_ferial'; // path to the ferial days data

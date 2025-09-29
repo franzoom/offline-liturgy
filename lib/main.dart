@@ -16,6 +16,8 @@ void main() {
   Map<String, Morning> ferialMorning =
       ferialMorningResolution(calendar, date, location);
   final zegfqzgrf = ferialMorning;
+
+  /*
   // lancement de la génération des Complies pour le jour demandé:
   Map<String, ComplineDefinition> complineDefinitionResolved =
       complineDefinitionResolution(calendar, date, location);
@@ -34,4 +36,5 @@ void main() {
   String json =
       exportComplineToAelfJson(calendar, DateTime(2025, 10, 23), 'lyon');
   print("json: $json");
+  */
 }

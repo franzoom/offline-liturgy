@@ -3,16 +3,24 @@
   "liturgicalGrade": 3,
   "invitatoryAntiphon": "Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.",
   "invitatoryAntiphon2": "Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.",
-  "readingsHymn": "la-parole-en-silence",
+  "readingsHymn": [
+    "la-parole-en-silence"
+  ],
   "readingsPsalm1": "PSALM_2",
   "readingsPsalm2": "PSALM_21",
   "readingsPsalm3": "PSALM_37",
-  "morningHymn": "ils-ont-perce-tes-mains-et-tes-pieds",
-  "middleOfDayHymn": "sur-les-chemins-ou-nous-peinons",
+  "morningHymn": [
+    "ils-ont-perce-tes-mains-et-tes-pieds"
+  ],
+  "middleOfDayHymn": [
+    "sur-les-chemins-ou-nous-peinons"
+  ],
   "middleOfDayPsalm1": "PSALM_39",
   "middleOfDayPsalm2": "PSALM_53",
   "middleOfDayPsalm3": "PSALM_87",
-  "vespersHymn": "homme-le-fils-de-l-homme",
+  "vespersHymn": [
+    "homme-le-fils-de-l-homme"
+  ],
   "vespersPsalm1": "PSALM_115",
   "vespersPsalm2": "PSALM_142",
   "vespersPsalm3": "NT_5",

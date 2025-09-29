@@ -1,5 +1,3 @@
-import 'dart:mirrors';
-
 class DayOffices {
   String? celebrationTitle;
   String? celebrationSubtitle;
@@ -114,30 +112,160 @@ class DayOffices {
   /// default no-argument constructor
   DayOffices();
 
-  /// Factory constructor to create an instance from JSON using reflection
+  /// Factory constructor to create an instance from JSON manually
   factory DayOffices.fromJSON(Map<String, dynamic> json) {
     final instance = DayOffices();
-    final mirror = reflect(instance);
-    final classMirror = mirror.type;
 
-    // Iterate through all class fields
-    classMirror.declarations.forEach((symbol, declaration) {
-      if (declaration is VariableMirror && !declaration.isStatic) {
-        final fieldName = MirrorSystem.getName(symbol);
-        // If the field exists in the JSON
-        if (json.containsKey(fieldName)) {
-          final value = json[fieldName];
-          // Assign the value according to its type
-          if (declaration.type.reflectedType == String) {
-            mirror.setField(symbol, value as String?);
-          } else if (declaration.type.reflectedType == int) {
-            mirror.setField(symbol, value as int?);
-          } else if (declaration.type.reflectedType == List) {
-            mirror.setField(symbol, value as List?);
-          }
-        }
-      }
-    });
+    instance.celebrationTitle = json['celebrationTitle'] as String?;
+    instance.celebrationSubtitle = json['celebrationSubtitle'] as String?;
+    instance.celebrationDescription = json['celebrationDescription'] as String?;
+    instance.commons = json['commons'] as List?;
+    instance.liturgicalGrade = json['liturgicalGrade'] as int?;
+    instance.liturgicalColor = json['liturgicalColor'] as String?;
+    instance.invitatoryAntiphon = json['invitatoryAntiphon'] as String?;
+    instance.invitatoryAntiphon2 = json['invitatoryAntiphon2'] as String?;
+    instance.invitatoryPsalm = json['invitatoryPsalm'] as String?;
+    instance.sundayEvangelicAntiphonA =
+        json['sundayEvangelicAntiphonA'] as String?;
+    instance.sundayEvangelicAntiphonB =
+        json['sundayEvangelicAntiphonB'] as String?;
+    instance.sundayEvangelicAntiphonC =
+        json['sundayEvangelicAntiphonC'] as String?;
+    instance.firstVespersHymn = json['firstVespersHymn'] as String?;
+    instance.firstVespersPsalm1Antiphon =
+        json['firstVespersPsalm1Antiphon'] as String?;
+    instance.firstVespersPsalm1Antiphon2 =
+        json['firstVespersPsalm1Antiphon2'] as String?;
+    instance.firstVespersPsalm1 = json['firstVespersPsalm1'] as String?;
+    instance.firstVespersPsalm2Antiphon =
+        json['firstVespersPsalm2Antiphon'] as String?;
+    instance.firstVespersPsalm2Antiphon2 =
+        json['firstVespersPsalm2Antiphon2'] as String?;
+    instance.firstVespersPsalm2 = json['firstVespersPsalm2'] as String?;
+    instance.firstVespersPsalm3Antiphon =
+        json['firstVespersPsalm3Antiphon'] as String?;
+    instance.firstVespersPsalm3Antiphon2 =
+        json['firstVespersPsalm3Antiphon2'] as String?;
+    instance.firstVespersPsalm3 = json['firstVespersPsalm3'] as String?;
+    instance.firstVespersEvangelicAntiphon =
+        json['firstVespersEvangelicAntiphon'] as String?;
+    instance.firstVespersReadingRef = json['firstVespersReadingRef'] as String?;
+    instance.firstVespersReading = json['firstVespersReading'] as String?;
+    instance.firstVespersIntercession =
+        json['firstVespersIntercession'] as String?;
+    instance.firstVespersResponsory = json['firstVespersResponsory'] as String?;
+    instance.firstVespersOration = json['firstVespersOration'] as String?;
+    instance.readingsHymn = json['readingsHymn'] as String?;
+    instance.readingsPsalm1Antiphon = json['readingsPsalm1Antiphon'] as String?;
+    instance.readingsPsalm1 = json['readingsPsalm1'] as String?;
+    instance.readingsPsalm2Antiphon = json['readingsPsalm2Antiphon'] as String?;
+    instance.readingsPsalm2 = json['readingsPsalm2'] as String?;
+    instance.readingsPsalm3Antiphon = json['readingsPsalm3Antiphon'] as String?;
+    instance.readingsPsalm3 = json['readingsPsalm3'] as String?;
+    instance.readingsVerse = json['readingsVerse'] as String?;
+    instance.readingsBiblicalReadingTitle =
+        json['readingsBiblicalReadingTitle'] as String?;
+    instance.readingsBiblicalReadingRef =
+        json['readingsBiblicalReadingRef'] as String?;
+    instance.readingsBiblicalReadingContent =
+        json['readingsBiblicalReadingContent'] as String?;
+    instance.readingsBiblicalReadingResponsory =
+        json['readingsBiblicalReadingResponsory'] as String?;
+    instance.readingsBiblicalReadingTitle2 =
+        json['readingsBiblicalReadingTitle2'] as String?;
+    instance.readingsBiblicalReadingRef2 =
+        json['readingsBiblicalReadingRef2'] as String?;
+    instance.readingsBiblicalReadingContent2 =
+        json['readingsBiblicalReadingContent2'] as String?;
+    instance.readingsBiblicalReadingResponsory2 =
+        json['readingsBiblicalReadingResponsory2'] as String?;
+    instance.readingsPatristicReadingTitle =
+        json['readingsPatristicReadingTitle'] as String?;
+    instance.readingsPatristicReadingSubtitle =
+        json['readingsPatristicReadingSubtitle'] as String?;
+    instance.readingsPatristicReadingContent =
+        json['readingsPatristicReadingContent'] as String?;
+    instance.readingsPatristicReadingResponsory =
+        json['readingsPatristicReadingResponsory'] as String?;
+    instance.readingsPatristicReadingTitle2 =
+        json['readingsPatristicReadingTitle2'] as String?;
+    instance.readingsPatristicReadingSubtitle2 =
+        json['readingsPatristicReadingSubtitle2'] as String?;
+    instance.readingsPatristicReadingContent2 =
+        json['readingsPatristicReadingContent2'] as String?;
+    instance.readingsPatristicReadingResponsory2 =
+        json['readingsPatristicReadingResponsory2'] as String?;
+    instance.readingsPatristicReadingTitle3 =
+        json['readingsPatristicReadingTitle3'] as String?;
+    instance.readingsPatristicReadingSubtitle3 =
+        json['readingsPatristicReadingSubtitle3'] as String?;
+    instance.readingsPatristicReadingContent3 =
+        json['readingsPatristicReadingContent3'] as String?;
+    instance.readingsPatristicReadingResponsory3 =
+        json['readingsPatristicReadingResponsory3'] as String?;
+    instance.readingsOration = json['readingsOration'] as String?;
+    instance.morningHymn = json['morningHymn'] as String?;
+    instance.morningPsalm1Antiphon = json['morningPsalm1Antiphon'] as String?;
+    instance.morningPsalm1Antiphon2 = json['morningPsalm1Antiphon2'] as String?;
+    instance.morningPsalm1 = json['morningPsalm1'] as String?;
+    instance.morningPsalm2Antiphon = json['morningPsalm2Antiphon'] as String?;
+    instance.morningPsalm2Antiphon2 = json['morningPsalm2Antiphon2'] as String?;
+    instance.morningPsalm2 = json['morningPsalm2'] as String?;
+    instance.morningPsalm3Antiphon = json['morningPsalm3Antiphon'] as String?;
+    instance.morningPsalm3Antiphon2 = json['morningPsalm3Antiphon2'] as String?;
+    instance.morningPsalm3 = json['morningPsalm3'] as String?;
+    instance.morningEvangelicAntiphon =
+        json['morningEvangelicAntiphon'] as String?;
+    instance.morningReadingRef = json['morningReadingRef'] as String?;
+    instance.morningReading = json['morningReading'] as String?;
+    instance.morningIntercessionDescription =
+        json['morningIntercessionDescription'] as String?;
+    instance.morningIntercession = json['morningIntercession'] as String?;
+    instance.morningIntercession2 = json['morningIntercession2'] as String?;
+    instance.morningResponsory = json['morningResponsory'] as String?;
+    instance.morningOration = json['morningOration'] as String?;
+    instance.middleOfDayTierceAntiphon =
+        json['middleOfDayTierceAntiphon'] as String?;
+    instance.middleOfDaySexteAntiphon =
+        json['middleOfDaySexteAntiphon'] as String?;
+    instance.middleOfDayNoneAntiphon =
+        json['middleOfDayNoneAntiphon'] as String?;
+    instance.middleOfDayReading1Ref = json['middleOfDayReading1Ref'] as String?;
+    instance.middleOfDayReading1Content =
+        json['middleOfDayReading1Content'] as String?;
+    instance.middleOfDayReading2Ref = json['middleOfDayReading2Ref'] as String?;
+    instance.middleOfDayReading2Content =
+        json['middleOfDayReading2Content'] as String?;
+    instance.middleOfDayReading3Ref = json['middleOfDayReading3Ref'] as String?;
+    instance.middleOfDayReading3Content =
+        json['middleOfDayReading3Content'] as String?;
+    instance.middleOfDayResponsory1 = json['middleOfDayResponsory1'] as String?;
+    instance.middleOfDayResponsory2 = json['middleOfDayResponsory2'] as String?;
+    instance.middleOfDayResponsory3 = json['middleOfDayResponsory3'] as String?;
+    instance.middleOfDayOration = json['middleOfDayOration'] as String?;
+    instance.vespersHymn = json['vespersHymn'] as String?;
+    instance.vespersHymn2 = json['vespersHymn2'] as String?;
+    instance.vespersHymn3 = json['vespersHymn3'] as String?;
+    instance.vespersPsalm1Antiphon = json['vespersPsalm1Antiphon'] as String?;
+    instance.vespersPsalm1Antiphon2 = json['vespersPsalm1Antiphon2'] as String?;
+    instance.vespersPsalm1 = json['vespersPsalm1'] as String?;
+    instance.vespersPsalm2Antiphon = json['vespersPsalm2Antiphon'] as String?;
+    instance.vespersPsalm2Antiphon2 = json['vespersPsalm2Antiphon2'] as String?;
+    instance.vespersPsalm2 = json['vespersPsalm2'] as String?;
+    instance.vespersPsalm3Antiphon = json['vespersPsalm3Antiphon'] as String?;
+    instance.vespersPsalm3Antiphon2 = json['vespersPsalm3Antiphon2'] as String?;
+    instance.vespersPsalm3 = json['vespersPsalm3'] as String?;
+    instance.vespersEvangelicAntiphon =
+        json['vespersEvangelicAntiphon'] as String?;
+    instance.vespersReadingRef = json['vespersReadingRef'] as String?;
+    instance.vespersReading = json['vespersReading'] as String?;
+    instance.vespersIntercession = json['vespersIntercession'] as String?;
+    instance.vespersResponsory = json['vespersResponsory'] as String?;
+    instance.vespersOration = json['vespersOration'] as String?;
+    instance.evangelicAntiphon = json['evangelicAntiphon'] as String?;
+    instance.oration = json['oration'] as String?;
+    instance.oration2 = json['oration2'] as String?;
+
     return instance;
   }
 }

@@ -11,7 +11,7 @@ class DayOffices {
   String? sundayEvangelicAntiphonA;
   String? sundayEvangelicAntiphonB;
   String? sundayEvangelicAntiphonC;
-  String? firstVespersHymn;
+  List<String>? firstVespersHymn;
   String? firstVespersPsalm1Antiphon;
   String? firstVespersPsalm1Antiphon2;
   String? firstVespersPsalm1;
@@ -27,7 +27,7 @@ class DayOffices {
   String? firstVespersIntercession;
   String? firstVespersResponsory;
   String? firstVespersOration;
-  String? readingsHymn;
+  List<String>? readingsHymn;
   String? readingsPsalm1Antiphon;
   String? readingsPsalm1;
   String? readingsPsalm2Antiphon;
@@ -56,7 +56,7 @@ class DayOffices {
   String? readingsPatristicReadingContent3;
   String? readingsPatristicReadingResponsory3;
   String? readingsOration;
-  String? morningHymn;
+  List<String>? morningHymn;
   String? morningPsalm1Antiphon;
   String? morningPsalm1Antiphon2;
   String? morningPsalm1;
@@ -87,9 +87,7 @@ class DayOffices {
   String? middleOfDayResponsory2;
   String? middleOfDayResponsory3;
   String? middleOfDayOration;
-  String? vespersHymn;
-  String? vespersHymn2;
-  String? vespersHymn3;
+  List<String>? vespersHymn;
   String? vespersPsalm1Antiphon;
   String? vespersPsalm1Antiphon2;
   String? vespersPsalm1;
@@ -109,10 +107,8 @@ class DayOffices {
   String? oration;
   String? oration2;
 
-  /// default no-argument constructor
   DayOffices();
 
-  /// Factory constructor to create an instance from JSON manually
   factory DayOffices.fromJSON(Map<String, dynamic> json) {
     final instance = DayOffices();
 
@@ -131,7 +127,8 @@ class DayOffices {
         json['sundayEvangelicAntiphonB'] as String?;
     instance.sundayEvangelicAntiphonC =
         json['sundayEvangelicAntiphonC'] as String?;
-    instance.firstVespersHymn = json['firstVespersHymn'] as String?;
+    instance.firstVespersHymn =
+        (json['firstVespersHymn'] as List?)?.map((e) => e.toString()).toList();
     instance.firstVespersPsalm1Antiphon =
         json['firstVespersPsalm1Antiphon'] as String?;
     instance.firstVespersPsalm1Antiphon2 =
@@ -155,7 +152,8 @@ class DayOffices {
         json['firstVespersIntercession'] as String?;
     instance.firstVespersResponsory = json['firstVespersResponsory'] as String?;
     instance.firstVespersOration = json['firstVespersOration'] as String?;
-    instance.readingsHymn = json['readingsHymn'] as String?;
+    instance.readingsHymn =
+        (json['readingsHymn'] as List?)?.map((e) => e.toString()).toList();
     instance.readingsPsalm1Antiphon = json['readingsPsalm1Antiphon'] as String?;
     instance.readingsPsalm1 = json['readingsPsalm1'] as String?;
     instance.readingsPsalm2Antiphon = json['readingsPsalm2Antiphon'] as String?;
@@ -204,7 +202,8 @@ class DayOffices {
     instance.readingsPatristicReadingResponsory3 =
         json['readingsPatristicReadingResponsory3'] as String?;
     instance.readingsOration = json['readingsOration'] as String?;
-    instance.morningHymn = json['morningHymn'] as String?;
+    instance.morningHymn =
+        (json['morningHymn'] as List?)?.map((e) => e.toString()).toList();
     instance.morningPsalm1Antiphon = json['morningPsalm1Antiphon'] as String?;
     instance.morningPsalm1Antiphon2 = json['morningPsalm1Antiphon2'] as String?;
     instance.morningPsalm1 = json['morningPsalm1'] as String?;
@@ -243,9 +242,8 @@ class DayOffices {
     instance.middleOfDayResponsory2 = json['middleOfDayResponsory2'] as String?;
     instance.middleOfDayResponsory3 = json['middleOfDayResponsory3'] as String?;
     instance.middleOfDayOration = json['middleOfDayOration'] as String?;
-    instance.vespersHymn = json['vespersHymn'] as String?;
-    instance.vespersHymn2 = json['vespersHymn2'] as String?;
-    instance.vespersHymn3 = json['vespersHymn3'] as String?;
+    instance.vespersHymn =
+        (json['vespersHymn'] as List?)?.map((e) => e.toString()).toList();
     instance.vespersPsalm1Antiphon = json['vespersPsalm1Antiphon'] as String?;
     instance.vespersPsalm1Antiphon2 = json['vespersPsalm1Antiphon2'] as String?;
     instance.vespersPsalm1 = json['vespersPsalm1'] as String?;

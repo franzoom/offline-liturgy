@@ -10,7 +10,7 @@ class Morning {
   String? invitatoryAntiphon;
   String? invitatoryAntiphon2;
   List? invitatoryPsalms;
-  String? morningHymn;
+  List<String>? morningHymn;
   String? morningPsalm1Antiphon;
   String? morningPsalm1Antiphon2;
   String? morningPsalm1;

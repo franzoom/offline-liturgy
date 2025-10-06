@@ -11,3 +11,4 @@ export 'classes/compline_class.dart';
 export 'offices/compline.dart';
 export 'classes/morning_class.dart';
 export 'offices/morning.dart';
+export 'assets/locations.json';

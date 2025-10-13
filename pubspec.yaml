@@ -1,10 +1,14 @@
 name: offline_liturgy
-description: A sample command-line application.
-version: 1.0.0
+description: A liturgy package.
+version: 2.1.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
   sdk: ^3.5.4
+
+flutter:
+  assets:
+    - assets/locations.json
 
 # Add regular dependencies here.
 dependencies:

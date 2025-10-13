@@ -13,8 +13,7 @@ bool detectFerialDays(String celebrationName) {
   return prefixes.any((prefix) => celebrationName.startsWith(prefix));
 }
 
-Map<String, Morning> ferialMorningResolution(
-    Calendar calendar, DateTime date, location) {
+Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
   // if it's a ferial day, runs the morning prayer resolution.
   // other layers will be added afterwards if needed.
   final String ferialFilePath =

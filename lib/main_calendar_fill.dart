@@ -9,8 +9,8 @@ import './feasts/locations/canada.dart';
 import './feasts/locations/europe.dart';
 
 Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
-  // function used to fill the mains elemnts of the liturgical calendar.
-  // fixed all the movable dates and feast of the Universal Church.
+  // function used to fill the main elements of the liturgical calendar.
+  // fixes all the movable dates and feast of the Universal Church.
   // it returns a Calendar object with all the days filled.
   Map<String, DateTime> generalCalendar = createLiturgicalDays(liturgicalYear);
 

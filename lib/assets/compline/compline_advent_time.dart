@@ -1,4 +1,4 @@
-import "../../classes/compline_class.dart";
+import '../../classes/compline_class.dart';
 
 final Map<String, Compline> adventTimeCompline = {
   "saturday": Compline(

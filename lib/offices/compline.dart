@@ -14,15 +14,13 @@ import '../assets/compline/compline_christmas_time.dart';
 import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../tools/days_name.dart';
-import '../tools/check_and_fill_calendar.dart';
 import 'dart:convert';
 
 Map<String, ComplineDefinition> complineDefinitionResolution(
-    Calendar calendar, DateTime date, location) {
+    Calendar calendar, DateTime date) {
   /// résout le choix des complies pour un jour donné. Demande à la fonction complineDetection
   /// les complies du jour et celles du lendemain. Si celles du lendemain sont une solennité,
   /// alors celle du jour sont une veille de solennité.
-  calendar = checkAndFillCalendar(calendar, date, location);
   Map<String, ComplineDefinition> todayComplineDefinition =
       complineDefinitionDetection(calendar, date);
   Map<String, ComplineDefinition> tomorrowComplineDefinition =
@@ -299,9 +297,8 @@ void complineDisplay(Compline compline) {
   displayHymns(selectedHymns);
 }
 
-String exportComplineToAelfJson(
-    Calendar calendar, DateTime date, String location) {
-  final complineDef = complineDefinitionResolution(calendar, date, location);
+String exportComplineToAelfJson(Calendar calendar, DateTime date) {
+  final complineDef = complineDefinitionResolution(calendar, date);
   final complineMap = complineTextCompilation(complineDef);
   final compline = complineMap.values.first;
 
@@ -333,7 +330,6 @@ String exportComplineToAelfJson(
   final jsonMap = {
     'informations': {
       'date': date.toIso8601String().split('T').first,
-      'zone': location,
       // Add more fields as needed from calendar or day content
     },
     'complies': {

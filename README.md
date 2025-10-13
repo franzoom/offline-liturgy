@@ -1,25 +1,25 @@
-# Projet offline-liturgy
+# The offline-liturgy Project
 
-Cette routine en dart permet de créer l'agenda liturgique pour au moins une année et d'extraire les offices du bréviaire et du missel romain.
+This dart program creates the liturgical agenda for the Catholic Roman Rite and exports the offices of the Catholic Breviary. (project: export of the Roman Missal)
 
-## fonctionnalités
+## functionalities
 
-pour le moment le fichier main.dart initialise une variable calendrier, puis appelle la fonction complineDefinitionResolution(calendrier, date) pour donner en sortie toutes les références nécessaires à l'obtention des textes pour les complies du jour demandé.
-main.dart appelle ensuite la fonction (temporaire) complineTextCompilation qui permet d'afficher dans la console toutes les données de ces vigiles. À terme ces données seront récupérées directement par l'application Flutter pour afficher l'office.
-On passera ensuite aux autres offices.
+This program is meant to be a package for a liturgical interface (for the moment it's used by a beta version of the French AELF hosted on gitlab)
+The Compline Resolver is working, and the Morning is on its way. 
+The main.dart file is used in order to test and try the package capabilities. 
 
-## Construction du calendrier
+## Building a Calendar
 
-Le calendrier se construit par la fonction calendarFill en plusieurs étapes.
+The Calendar is built with the calendarFillfunction, with the following steps:
 
-1. création du squelette par la fonction createLiturgicalDays (dans common_calendar.dart) qui donne toutes les fêtes mobiles
-2. la fonction calendarFill parcours tout le calendrier, ajoute les fêtes mobiles calculées et complète avec tous les jours de féries, de fête ou d'octave. À ce point, chaque jour du calendrier liturgqiue est forcé d'exister
-3. la fonction calendarFill appelle la fonction addFeastsToCalendar qui ajoute toutes les fêtes (ou mémoires) du calendrier commun (calendrier romain général).
-4. on termine la fonction en invoquant si besoin les calendrier locaux. Ces calendriers s'appellent l'un l'autre dans l'ordre croissant. Si j'appelle Lyon, il appelera la France, qui appelera à son tour l'Europe. Ainsi tous les dates des calendriers locaux sont insérées dans le calendrier général.
+1. definition of the mobile feasts with the *createLiturgicalDays* function.
+2. the *calendarFill* function adds all this mobile feasts and adds the ferial days (ordinary, lent, christmas, advent and paschal) and the Chrismas and Paschal Octaves.
+3. *calendarFill* calls *addFeastsToCalendar* which adds all the feasts and memories of the General Roman Calendar.
+4. invocation of the local calendars. This calendars call themselves with a growing order. Lyon will call France, that will call Europe. Is this way, all the events of the local calendars are added in the main calendar.
 
-Le calendrier est enregistré dans calendar.json, dans le répertoire ./assets. S'il n'existe pas il est créé.
+The calendar Map is stored in *calendar*.
 
-# The function complineDefinitionResolution
+# The complineDefinitionResolution function
 
 complineDefinitionResolution(calendar, DateTime(x,x,x)) is called to return the day Complines.
 (for the moment:) if the calendar doesn't exist or doesn't possess that date, the calendar is calculater and stored in assets/calendar.json.

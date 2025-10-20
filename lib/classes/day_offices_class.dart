@@ -1,3 +1,7 @@
+import 'office_structures.dart'; // Import the new structure classes
+
+/// Main class for liturgical office data
+/// Structured with nested office objects
 class DayOffices {
   String? celebrationTitle;
   String? celebrationSubtitle;
@@ -5,265 +9,110 @@ class DayOffices {
   List? commons;
   int? liturgicalGrade;
   String? liturgicalColor;
-  String? invitatoryAntiphon;
-  String? invitatoryAntiphon2;
-  String? invitatoryPsalm;
+
+  // Nested office structures
+  InvitatoryOffice? invitatory;
+  MorningOffice? morning;
+  ReadingsOffice? readings;
+  VespersOffice? vespers;
+  VespersOffice? firstVespers; // Uses same structure as vespers
+  MiddleOfDayOffice? middleOfDay;
+
+  // Legacy fields that may still be needed
   String? sundayEvangelicAntiphonA;
   String? sundayEvangelicAntiphonB;
   String? sundayEvangelicAntiphonC;
-  List<String>? firstVespersHymn;
-  String? firstVespersPsalm1Antiphon;
-  String? firstVespersPsalm1Antiphon2;
-  String? firstVespersPsalm1;
-  String? firstVespersPsalm2Antiphon;
-  String? firstVespersPsalm2Antiphon2;
-  String? firstVespersPsalm2;
-  String? firstVespersPsalm3Antiphon;
-  String? firstVespersPsalm3Antiphon2;
-  String? firstVespersPsalm3;
-  String? firstVespersEvangelicAntiphon;
-  String? firstVespersReadingRef;
-  String? firstVespersReading;
-  String? firstVespersIntercession;
-  String? firstVespersResponsory;
-  String? firstVespersOration;
-  List<String>? readingsHymn;
-  String? readingsPsalm1Antiphon;
-  String? readingsPsalm1;
-  String? readingsPsalm2Antiphon;
-  String? readingsPsalm2;
-  String? readingsPsalm3Antiphon;
-  String? readingsPsalm3;
-  String? readingsVerse;
-  String? readingsBiblicalReadingTitle;
-  String? readingsBiblicalReadingRef;
-  String? readingsBiblicalReadingContent;
-  String? readingsBiblicalReadingResponsory;
-  String? readingsBiblicalReadingTitle2;
-  String? readingsBiblicalReadingRef2;
-  String? readingsBiblicalReadingContent2;
-  String? readingsBiblicalReadingResponsory2;
-  String? readingsPatristicReadingTitle;
-  String? readingsPatristicReadingSubtitle;
-  String? readingsPatristicReadingContent;
-  String? readingsPatristicReadingResponsory;
-  String? readingsPatristicReadingTitle2;
-  String? readingsPatristicReadingSubtitle2;
-  String? readingsPatristicReadingContent2;
-  String? readingsPatristicReadingResponsory2;
-  String? readingsPatristicReadingTitle3;
-  String? readingsPatristicReadingSubtitle3;
-  String? readingsPatristicReadingContent3;
-  String? readingsPatristicReadingResponsory3;
-  String? readingsOration;
-  List<String>? morningHymn;
-  String? morningPsalm1Antiphon;
-  String? morningPsalm1Antiphon2;
-  String? morningPsalm1;
-  String? morningPsalm2Antiphon;
-  String? morningPsalm2Antiphon2;
-  String? morningPsalm2;
-  String? morningPsalm3Antiphon;
-  String? morningPsalm3Antiphon2;
-  String? morningPsalm3;
-  String? morningEvangelicAntiphon;
-  String? morningReadingRef;
-  String? morningReading;
-  String? morningIntercessionDescription;
-  String? morningIntercession;
-  String? morningIntercession2;
-  String? morningResponsory;
-  String? morningOration;
-  String? middleOfDayTierceAntiphon;
-  String? middleOfDaySexteAntiphon;
-  String? middleOfDayNoneAntiphon;
-  String? middleOfDayReading1Ref;
-  String? middleOfDayReading1Content;
-  String? middleOfDayReading2Ref;
-  String? middleOfDayReading2Content;
-  String? middleOfDayReading3Ref;
-  String? middleOfDayReading3Content;
-  String? middleOfDayResponsory1;
-  String? middleOfDayResponsory2;
-  String? middleOfDayResponsory3;
-  String? middleOfDayOration;
-  List<String>? vespersHymn;
-  String? vespersPsalm1Antiphon;
-  String? vespersPsalm1Antiphon2;
-  String? vespersPsalm1;
-  String? vespersPsalm2Antiphon;
-  String? vespersPsalm2Antiphon2;
-  String? vespersPsalm2;
-  String? vespersPsalm3Antiphon;
-  String? vespersPsalm3Antiphon2;
-  String? vespersPsalm3;
-  String? vespersEvangelicAntiphon;
-  String? vespersReadingRef;
-  String? vespersReading;
-  String? vespersIntercession;
-  String? vespersResponsory;
-  String? vespersOration;
   String? evangelicAntiphon;
   String? oration;
   String? oration2;
 
-  DayOffices();
+  DayOffices({
+    this.celebrationTitle,
+    this.celebrationSubtitle,
+    this.celebrationDescription,
+    this.commons,
+    this.liturgicalGrade,
+    this.liturgicalColor,
+    this.invitatory,
+    this.morning,
+    this.readings,
+    this.vespers,
+    this.firstVespers,
+    this.middleOfDay,
+    this.sundayEvangelicAntiphonA,
+    this.sundayEvangelicAntiphonB,
+    this.sundayEvangelicAntiphonC,
+    this.evangelicAntiphon,
+    this.oration,
+    this.oration2,
+  });
 
   factory DayOffices.fromJSON(Map<String, dynamic> json) {
-    final instance = DayOffices();
+    return DayOffices(
+      celebrationTitle: json['celebrationTitle'] as String?,
+      celebrationSubtitle: json['celebrationSubtitle'] as String?,
+      celebrationDescription: json['celebrationDescription'] as String?,
+      commons: json['commons'] as List?,
+      liturgicalGrade: json['liturgicalGrade'] as int?,
+      liturgicalColor: json['liturgicalColor'] as String?,
 
-    instance.celebrationTitle = json['celebrationTitle'] as String?;
-    instance.celebrationSubtitle = json['celebrationSubtitle'] as String?;
-    instance.celebrationDescription = json['celebrationDescription'] as String?;
-    instance.commons = json['commons'] as List?;
-    instance.liturgicalGrade = json['liturgicalGrade'] as int?;
-    instance.liturgicalColor = json['liturgicalColor'] as String?;
-    instance.invitatoryAntiphon = json['invitatoryAntiphon'] as String?;
-    instance.invitatoryAntiphon2 = json['invitatoryAntiphon2'] as String?;
-    instance.invitatoryPsalm = json['invitatoryPsalm'] as String?;
-    instance.sundayEvangelicAntiphonA =
-        json['sundayEvangelicAntiphonA'] as String?;
-    instance.sundayEvangelicAntiphonB =
-        json['sundayEvangelicAntiphonB'] as String?;
-    instance.sundayEvangelicAntiphonC =
-        json['sundayEvangelicAntiphonC'] as String?;
-    instance.firstVespersHymn =
-        (json['firstVespersHymn'] as List?)?.map((e) => e.toString()).toList();
-    instance.firstVespersPsalm1Antiphon =
-        json['firstVespersPsalm1Antiphon'] as String?;
-    instance.firstVespersPsalm1Antiphon2 =
-        json['firstVespersPsalm1Antiphon2'] as String?;
-    instance.firstVespersPsalm1 = json['firstVespersPsalm1'] as String?;
-    instance.firstVespersPsalm2Antiphon =
-        json['firstVespersPsalm2Antiphon'] as String?;
-    instance.firstVespersPsalm2Antiphon2 =
-        json['firstVespersPsalm2Antiphon2'] as String?;
-    instance.firstVespersPsalm2 = json['firstVespersPsalm2'] as String?;
-    instance.firstVespersPsalm3Antiphon =
-        json['firstVespersPsalm3Antiphon'] as String?;
-    instance.firstVespersPsalm3Antiphon2 =
-        json['firstVespersPsalm3Antiphon2'] as String?;
-    instance.firstVespersPsalm3 = json['firstVespersPsalm3'] as String?;
-    instance.firstVespersEvangelicAntiphon =
-        json['firstVespersEvangelicAntiphon'] as String?;
-    instance.firstVespersReadingRef = json['firstVespersReadingRef'] as String?;
-    instance.firstVespersReading = json['firstVespersReading'] as String?;
-    instance.firstVespersIntercession =
-        json['firstVespersIntercession'] as String?;
-    instance.firstVespersResponsory = json['firstVespersResponsory'] as String?;
-    instance.firstVespersOration = json['firstVespersOration'] as String?;
-    instance.readingsHymn =
-        (json['readingsHymn'] as List?)?.map((e) => e.toString()).toList();
-    instance.readingsPsalm1Antiphon = json['readingsPsalm1Antiphon'] as String?;
-    instance.readingsPsalm1 = json['readingsPsalm1'] as String?;
-    instance.readingsPsalm2Antiphon = json['readingsPsalm2Antiphon'] as String?;
-    instance.readingsPsalm2 = json['readingsPsalm2'] as String?;
-    instance.readingsPsalm3Antiphon = json['readingsPsalm3Antiphon'] as String?;
-    instance.readingsPsalm3 = json['readingsPsalm3'] as String?;
-    instance.readingsVerse = json['readingsVerse'] as String?;
-    instance.readingsBiblicalReadingTitle =
-        json['readingsBiblicalReadingTitle'] as String?;
-    instance.readingsBiblicalReadingRef =
-        json['readingsBiblicalReadingRef'] as String?;
-    instance.readingsBiblicalReadingContent =
-        json['readingsBiblicalReadingContent'] as String?;
-    instance.readingsBiblicalReadingResponsory =
-        json['readingsBiblicalReadingResponsory'] as String?;
-    instance.readingsBiblicalReadingTitle2 =
-        json['readingsBiblicalReadingTitle2'] as String?;
-    instance.readingsBiblicalReadingRef2 =
-        json['readingsBiblicalReadingRef2'] as String?;
-    instance.readingsBiblicalReadingContent2 =
-        json['readingsBiblicalReadingContent2'] as String?;
-    instance.readingsBiblicalReadingResponsory2 =
-        json['readingsBiblicalReadingResponsory2'] as String?;
-    instance.readingsPatristicReadingTitle =
-        json['readingsPatristicReadingTitle'] as String?;
-    instance.readingsPatristicReadingSubtitle =
-        json['readingsPatristicReadingSubtitle'] as String?;
-    instance.readingsPatristicReadingContent =
-        json['readingsPatristicReadingContent'] as String?;
-    instance.readingsPatristicReadingResponsory =
-        json['readingsPatristicReadingResponsory'] as String?;
-    instance.readingsPatristicReadingTitle2 =
-        json['readingsPatristicReadingTitle2'] as String?;
-    instance.readingsPatristicReadingSubtitle2 =
-        json['readingsPatristicReadingSubtitle2'] as String?;
-    instance.readingsPatristicReadingContent2 =
-        json['readingsPatristicReadingContent2'] as String?;
-    instance.readingsPatristicReadingResponsory2 =
-        json['readingsPatristicReadingResponsory2'] as String?;
-    instance.readingsPatristicReadingTitle3 =
-        json['readingsPatristicReadingTitle3'] as String?;
-    instance.readingsPatristicReadingSubtitle3 =
-        json['readingsPatristicReadingSubtitle3'] as String?;
-    instance.readingsPatristicReadingContent3 =
-        json['readingsPatristicReadingContent3'] as String?;
-    instance.readingsPatristicReadingResponsory3 =
-        json['readingsPatristicReadingResponsory3'] as String?;
-    instance.readingsOration = json['readingsOration'] as String?;
-    instance.morningHymn =
-        (json['morningHymn'] as List?)?.map((e) => e.toString()).toList();
-    instance.morningPsalm1Antiphon = json['morningPsalm1Antiphon'] as String?;
-    instance.morningPsalm1Antiphon2 = json['morningPsalm1Antiphon2'] as String?;
-    instance.morningPsalm1 = json['morningPsalm1'] as String?;
-    instance.morningPsalm2Antiphon = json['morningPsalm2Antiphon'] as String?;
-    instance.morningPsalm2Antiphon2 = json['morningPsalm2Antiphon2'] as String?;
-    instance.morningPsalm2 = json['morningPsalm2'] as String?;
-    instance.morningPsalm3Antiphon = json['morningPsalm3Antiphon'] as String?;
-    instance.morningPsalm3Antiphon2 = json['morningPsalm3Antiphon2'] as String?;
-    instance.morningPsalm3 = json['morningPsalm3'] as String?;
-    instance.morningEvangelicAntiphon =
-        json['morningEvangelicAntiphon'] as String?;
-    instance.morningReadingRef = json['morningReadingRef'] as String?;
-    instance.morningReading = json['morningReading'] as String?;
-    instance.morningIntercessionDescription =
-        json['morningIntercessionDescription'] as String?;
-    instance.morningIntercession = json['morningIntercession'] as String?;
-    instance.morningIntercession2 = json['morningIntercession2'] as String?;
-    instance.morningResponsory = json['morningResponsory'] as String?;
-    instance.morningOration = json['morningOration'] as String?;
-    instance.middleOfDayTierceAntiphon =
-        json['middleOfDayTierceAntiphon'] as String?;
-    instance.middleOfDaySexteAntiphon =
-        json['middleOfDaySexteAntiphon'] as String?;
-    instance.middleOfDayNoneAntiphon =
-        json['middleOfDayNoneAntiphon'] as String?;
-    instance.middleOfDayReading1Ref = json['middleOfDayReading1Ref'] as String?;
-    instance.middleOfDayReading1Content =
-        json['middleOfDayReading1Content'] as String?;
-    instance.middleOfDayReading2Ref = json['middleOfDayReading2Ref'] as String?;
-    instance.middleOfDayReading2Content =
-        json['middleOfDayReading2Content'] as String?;
-    instance.middleOfDayReading3Ref = json['middleOfDayReading3Ref'] as String?;
-    instance.middleOfDayReading3Content =
-        json['middleOfDayReading3Content'] as String?;
-    instance.middleOfDayResponsory1 = json['middleOfDayResponsory1'] as String?;
-    instance.middleOfDayResponsory2 = json['middleOfDayResponsory2'] as String?;
-    instance.middleOfDayResponsory3 = json['middleOfDayResponsory3'] as String?;
-    instance.middleOfDayOration = json['middleOfDayOration'] as String?;
-    instance.vespersHymn =
-        (json['vespersHymn'] as List?)?.map((e) => e.toString()).toList();
-    instance.vespersPsalm1Antiphon = json['vespersPsalm1Antiphon'] as String?;
-    instance.vespersPsalm1Antiphon2 = json['vespersPsalm1Antiphon2'] as String?;
-    instance.vespersPsalm1 = json['vespersPsalm1'] as String?;
-    instance.vespersPsalm2Antiphon = json['vespersPsalm2Antiphon'] as String?;
-    instance.vespersPsalm2Antiphon2 = json['vespersPsalm2Antiphon2'] as String?;
-    instance.vespersPsalm2 = json['vespersPsalm2'] as String?;
-    instance.vespersPsalm3Antiphon = json['vespersPsalm3Antiphon'] as String?;
-    instance.vespersPsalm3Antiphon2 = json['vespersPsalm3Antiphon2'] as String?;
-    instance.vespersPsalm3 = json['vespersPsalm3'] as String?;
-    instance.vespersEvangelicAntiphon =
-        json['vespersEvangelicAntiphon'] as String?;
-    instance.vespersReadingRef = json['vespersReadingRef'] as String?;
-    instance.vespersReading = json['vespersReading'] as String?;
-    instance.vespersIntercession = json['vespersIntercession'] as String?;
-    instance.vespersResponsory = json['vespersResponsory'] as String?;
-    instance.vespersOration = json['vespersOration'] as String?;
-    instance.evangelicAntiphon = json['evangelicAntiphon'] as String?;
-    instance.oration = json['oration'] as String?;
-    instance.oration2 = json['oration2'] as String?;
+      // Parse nested office structures
+      invitatory: json['invitatory'] != null
+          ? InvitatoryOffice.fromJson(
+              json['invitatory'] as Map<String, dynamic>)
+          : null,
+      morning: json['morning'] != null
+          ? MorningOffice.fromJson(json['morning'] as Map<String, dynamic>)
+          : null,
+      readings: json['readings'] != null
+          ? ReadingsOffice.fromJson(json['readings'] as Map<String, dynamic>)
+          : null,
+      vespers: json['vespers'] != null
+          ? VespersOffice.fromJson(json['vespers'] as Map<String, dynamic>)
+          : null,
+      firstVespers: json['firstVespers'] != null
+          ? VespersOffice.fromJson(json['firstVespers'] as Map<String, dynamic>)
+          : null,
+      middleOfDay: json['middleOfDay'] != null
+          ? MiddleOfDayOffice.fromJson(
+              json['middleOfDay'] as Map<String, dynamic>)
+          : null,
 
-    return instance;
+      // Legacy fields
+      sundayEvangelicAntiphonA: json['sundayEvangelicAntiphonA'] as String?,
+      sundayEvangelicAntiphonB: json['sundayEvangelicAntiphonB'] as String?,
+      sundayEvangelicAntiphonC: json['sundayEvangelicAntiphonC'] as String?,
+      evangelicAntiphon: json['evangelicAntiphon'] as String?,
+      oration: json['oration'] as String?,
+      oration2: json['oration2'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (celebrationTitle != null) 'celebrationTitle': celebrationTitle,
+      if (celebrationSubtitle != null)
+        'celebrationSubtitle': celebrationSubtitle,
+      if (celebrationDescription != null)
+        'celebrationDescription': celebrationDescription,
+      if (commons != null) 'commons': commons,
+      if (liturgicalGrade != null) 'liturgicalGrade': liturgicalGrade,
+      if (liturgicalColor != null) 'liturgicalColor': liturgicalColor,
+      if (invitatory != null) 'invitatory': invitatory!.toJson(),
+      if (morning != null) 'morning': morning!.toJson(),
+      if (readings != null) 'readings': readings!.toJson(),
+      if (vespers != null) 'vespers': vespers!.toJson(),
+      if (firstVespers != null) 'firstVespers': firstVespers!.toJson(),
+      if (middleOfDay != null) 'middleOfDay': middleOfDay!.toJson(),
+      if (sundayEvangelicAntiphonA != null)
+        'sundayEvangelicAntiphonA': sundayEvangelicAntiphonA,
+      if (sundayEvangelicAntiphonB != null)
+        'sundayEvangelicAntiphonB': sundayEvangelicAntiphonB,
+      if (sundayEvangelicAntiphonC != null)
+        'sundayEvangelicAntiphonC': sundayEvangelicAntiphonC,
+      if (evangelicAntiphon != null) 'evangelicAntiphon': evangelicAntiphon,
+      if (oration != null) 'oration': oration,
+      if (oration2 != null) 'oration2': oration2,
+    };
   }
 }

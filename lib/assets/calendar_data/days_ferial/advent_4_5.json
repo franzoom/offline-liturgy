@@ -1,28 +1,92 @@
 {
-  "invitatoryAntiphon": "Le Roi qui va venir, venez, adorons-le.",
-  "invitatoryAntiphon2": "Allons au-devant de celui qui vient.",
-  "invitatoryAntiphon3": "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.",
-  "morningPsalm2Antiphon": "Ne craignez pas&nbsp;: vous verrez que le Seigneur est avec vous.",
-  "morningPsalm3Antiphon": "Ciel, répands ta rosée, nuée, fais pleuvoir le Juste&nbsp;; terre, enfante un Sauveur&nbsp;!",
-  "morningPsalm1Antiphon": "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?",
-  "vespersPsalm3Antiphon": "Ton chemin sera connu sur la terre, ton salut parmi toutes les nations.",
-  "vespersPsalm2Antiphon": "Ne craignez pas&nbsp;: vous verrez que le Seigneur est avec vous.",
-  "vespersPsalm1Antiphon": "Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse.",
-  "readingsPsalm2Antiphon": "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?",
-  "readingsPsalm3Antiphon": "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?",
-  "readingsPsalm1Antiphon": "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?",
-  "readingsVerse": "<p>V/ Que vienne à moi, Seigneur, ton amour,<br> et son salut, selon ta promesse.</p>",
-  "middleOfDayPsalm1Antiphon": "L’ange dit à Marie&nbsp;: Je te salue, comblée de grâce, le Seigneur est avec toi&nbsp;!",
-  "morningPsalm1": "PSALM_50",
-  "morningPsalm2": "AT_6",
-  "morningPsalm3": "PSALM_147",
-  "readingsPsalm1": "PSALM_77_1",
-  "readingsPsalm2": "PSALM_77_2",
-  "readingsPsalm3": "PSALM_77_3",
-  "middleOfDayPsalm1": "PSALM_118_21",
-  "middleOfDayPsalm2": "PSALM_132",
-  "middleOfDayPsalm3": "PSALM_139",
-  "vespersPsalm1": "PSALM_144_1",
-  "vespersPsalm2": "PSALM_144_IIA",
-  "vespersPsalm3": "NT_11"
+  "invitatory": {
+    "antiphon": [
+      "Le Roi qui va venir, venez, adorons-le.",
+      "Allons au-devant de celui qui vient.",
+      "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_50",
+        "antiphon": [
+          "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "AT_6",
+        "antiphon": [
+          "Ne craignez pas&nbsp;: vous verrez que le Seigneur est avec vous."
+        ]
+      },
+      {
+        "psalm": "PSALM_147",
+        "antiphon": [
+          "Ciel, répands ta rosée, nuée, fais pleuvoir le Juste&nbsp;; terre, enfante un Sauveur&nbsp;!"
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_77_1",
+        "antiphon": [
+          "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "PSALM_77_2",
+        "antiphon": [
+          "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "PSALM_77_3",
+        "antiphon": [
+          "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?"
+        ]
+      }
+    ],
+    "verse": "<p>V/ Que vienne à moi, Seigneur, ton amour,<br> et son salut, selon ta promesse.</p>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_144_1",
+        "antiphon": [
+          "Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse."
+        ]
+      },
+      {
+        "psalm": "PSALM_144_IIA",
+        "antiphon": [
+          "Ne craignez pas&nbsp;: vous verrez que le Seigneur est avec vous."
+        ]
+      },
+      {
+        "psalm": "NT_11",
+        "antiphon": [
+          "Ton chemin sera connu sur la terre, ton salut parmi toutes les nations."
+        ]
+      }
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_21",
+        "antiphon": [
+          "L’ange dit à Marie&nbsp;: Je te salue, comblée de grâce, le Seigneur est avec toi&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_132"
+      },
+      {
+        "psalm": "PSALM_139"
+      }
+    ]
+  }
 }

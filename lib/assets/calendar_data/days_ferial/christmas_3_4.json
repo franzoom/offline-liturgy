@@ -1,16 +1,60 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "vespersOration": "<p>Seigneur, avec ton Fils bien-aimé, l’aurore de ton jour éternel s’est levée sur toutes les nations&nbsp;: accorde à ton peuple de reconnaître la gloire de son Rédempteur et de parvenir à la lumière qui ne s’éteint pas.</p>",
-  "morningPsalm1": "PSALM_86",
-  "morningPsalm2": "AT_25",
-  "morningPsalm3": "PSALM_98",
-  "readingsPsalm1": "PSALM_88_4",
-  "readingsPsalm2": "PSALM_88_5",
-  "readingsPsalm3": "PSALM_89",
-  "middleOfDayPsalm1": "PSALM_118_15",
-  "middleOfDayPsalm2": "PSALM_78",
-  "middleOfDayPsalm3": "PSALM_79",
-  "vespersPsalm1": "PSALM_131_1",
-  "vespersPsalm2": "PSALM_131_2",
-  "vespersPsalm3": "NT_10"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_86"
+      },
+      {
+        "psalm": "AT_25"
+      },
+      {
+        "psalm": "PSALM_98"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_88_4"
+      },
+      {
+        "psalm": "PSALM_88_5"
+      },
+      {
+        "psalm": "PSALM_89"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_131_1"
+      },
+      {
+        "psalm": "PSALM_131_2"
+      },
+      {
+        "psalm": "NT_10"
+      }
+    ],
+    "oration": "<p>Seigneur, avec ton Fils bien-aimé, l’aurore de ton jour éternel s’est levée sur toutes les nations&nbsp;: accorde à ton peuple de reconnaître la gloire de son Rédempteur et de parvenir à la lumière qui ne s’éteint pas.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_15"
+      },
+      {
+        "psalm": "PSALM_78"
+      },
+      {
+        "psalm": "PSALM_79"
+      }
+    ]
+  }
 }

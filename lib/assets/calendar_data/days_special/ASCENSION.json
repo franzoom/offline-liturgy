@@ -1,58 +1,130 @@
 {
-  "invitatoryAntiphon": "Honneur au Fils de l’homme, alléluia, il nous introduit près de Dieu, alléluia.",
+  "invitatory": {
+    "antiphon": [
+      "Honneur au Fils de l’homme, alléluia, il nous introduit près de Dieu, alléluia."
+    ]
+  },
+  "firstVespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_112"
+      },
+      {
+        "psalm": "PSALM_116"
+      },
+      {
+        "psalm": "NT_10"
+      }
+    ],
+    "reading": {
+      "ref": "Ep 2,4-6",
+      "content": "Dieu est riche en miséricorde&nbsp;; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ&nbsp;: c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités&nbsp;; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus."
+    },
+    "hymn": [
+      "homme-ne-te-tourmente-pas"
+    ],
+    "intercession": "<p>Acclamons le Christ, qui siège à la droite du Père&nbsp;:</p> <p>R/Ô Christ, tu es le Roi de gloire&nbsp;!</p> <p>Jésus, notre frère et notre Roi,<br> tu as élevé notre condition humaine jusqu’à la gloire du ciel&nbsp;:<br> –&nbsp;rétablis en nous la dignité de ton œuvre première.</p> <p>Par la puissance de l’Esprit,<br> tu es sorti du Père et venu en ce monde&nbsp;:<br> –&nbsp;dans la force de ce même Esprit,<br> fais-nous passer avec toi de ce monde jusqu’au Père.</p> <p>Tu as promis d’attirer à toi tous les hommes&nbsp;:<br> –&nbsp;garde dans ton Église ceux que le Père t’a donnés.</p> <p>Maintenant que tu es entré dans la gloire du Père,<br> –&nbsp;tourne notre désir vers le ciel où tu es glorifié.</p> <p>Au dernier jour, tu jugeras le monde&nbsp;:<br> –&nbsp;accorde à tous nos frères défunts<br> de voir en toi le Seigneur des miséricordes.</p>",
+    "responsory": "<p>R/ Dieu s’élève parmi les ovations.<br> * Alléluia, alléluia&nbsp;!<br> V/ Le Seigneur, aux éclats du cor. * Alléluia.<br> Gloire au Père.&nbsp;R/ Dieu s’élève.<br></p>"
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_62"
+      },
+      {
+        "psalm": "AT_41"
+      },
+      {
+        "psalm": "PSALM_149"
+      }
+    ],
+    "reading": {
+      "ref": "He 10, 12-14",
+      "content": "Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté."
+    },
+    "hymn": [
+      "nous-te-chantons-ressuscite"
+    ],
+    "intercession": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p>",
+    "responsory": "<p>R/ Tu es la porte du Royaume, alléluia&nbsp;!<br> * Tu es la route vers le Père, alléluia&nbsp;!<br> V/ Ouvrez-vous, portes éternelles&nbsp;:<br> qu’il entre le roi de gloire. *<br> V/ C’est lui, le Seigneur de l’univers,<br> c’est lui, le roi de gloire.&nbsp;R/ <br></p>"
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_67-I"
+      },
+      {
+        "psalm": "PSALM_67-II"
+      },
+      {
+        "psalm": "PSALM_67-III"
+      }
+    ],
+    "hymn": [
+      "entre-dans-la-gloire"
+    ],
+    "verse": "<p>V/ Le Seigneur ouvrit l’esprit de ses disciples, alléluia,<br> à l’intelligence des Écritures, alléluia.<br></p>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_109"
+      },
+      {
+        "psalm": "PSALM_46"
+      },
+      {
+        "psalm": "NT_10"
+      }
+    ],
+    "reading": {
+      "ref": "1 P 3, 18.22",
+      "content": "Le Christ est mort pour les péchés, une fois pour toutes&nbsp;; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort&nbsp;; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu."
+    },
+    "hymn": [
+      "o-fils-de-dieu-ressuscite"
+    ],
+    "intercession": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p> <p>Toi qui reviendras au dernier jour pour nous prendre avec toi,<br> –&nbsp;sois la résurrection des morts.</p>",
+    "responsory": "<p>R/ Nous acclamons, Seigneur,<br> la splendeur de ta gloire éternelle&nbsp;!<br> V/ À toi, Seigneur, le règne,<br> la primauté sur l’univers&nbsp;!R/ <br> V/ C’est toi, le Maître de tout,<br> nous voici pour te rendre grâce.&nbsp;R/</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_8"
+      },
+      {
+        "psalm": "PSALM_18A"
+      },
+      {
+        "psalm": "PSALM_18B"
+      }
+    ],
+    "tierce": {
+      "antiphon": "Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia.",
+      "reading": {
+        "ref": "Ap 1, 17c-18",
+        "content": "Je vis comme un fils d’homme qui me disait&nbsp;: «&nbsp;Je suis le Premier et le Dernier, je suis le Vivant&nbsp;; j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts.&nbsp;»"
+      },
+      "responsory": "<p>V/ Que votre cœur ne se trouble pas, alléluia,<br> car je vais au Père, alléluia.</p>"
+    },
+    "sexte": {
+      "antiphon": "Il paraît où commence le ciel, alléluia. Il s’en va jusqu’où le ciel s’achève, alléluia.",
+      "reading": {
+        "ref": "He 8, 1b-3a",
+        "content": "Le grand prêtre que nous avons s’est assis à la droite de Dieu et règne avec lui dans les cieux, après avoir accompli le service du véritable Sanctuaire, et de la véritable Tente dressée par le Seigneur et non par un homme. Le grand prêtre a toujours été chargé d’offrir des dons et des sacrifices."
+      },
+      "responsory": "<p>V/ À ta droite se tient le Seigneur, alléluia.<br> Tu es Prêtre à jamais, alléluia.</p>"
+    },
+    "none": {
+      "antiphon": "Levant les mains, il bénit ses disciples et fut emporté dans le ciel, alléluia.",
+      "reading": {
+        "ref": "Col 3, 1-2",
+        "content": "Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut&nbsp;: c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre."
+      },
+      "responsory": "<p>V/ Glorifiez le Roi des rois, alléluia.<br> Chantez un hymne à Dieu, alléluia.</p>"
+    }
+  },
   "celebrationTitle": "Ascension du Seigneur",
   "liturgicalGrade": 2,
-  "liturgicalColor": "white",
-  "morningPsalm1": "PSALM_62",
-  "morningPsalm2": "AT_41",
-  "morningPsalm3": "PSALM_149",
-  "firstVespersHymn": [
-    "homme-ne-te-tourmente-pas"
-  ],
-  "firstVespersReadingRef": "Ep 2,4-6",
-  "firstVespersReading": "Dieu est riche en miséricorde&nbsp;; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ&nbsp;: c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités&nbsp;; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.",
-  "firstVespersIntercession": "<p>Acclamons le Christ, qui siège à la droite du Père&nbsp;:</p> <p>R/Ô Christ, tu es le Roi de gloire&nbsp;!</p> <p>Jésus, notre frère et notre Roi,<br> tu as élevé notre condition humaine jusqu’à la gloire du ciel&nbsp;:<br> –&nbsp;rétablis en nous la dignité de ton œuvre première.</p> <p>Par la puissance de l’Esprit,<br> tu es sorti du Père et venu en ce monde&nbsp;:<br> –&nbsp;dans la force de ce même Esprit,<br> fais-nous passer avec toi de ce monde jusqu’au Père.</p> <p>Tu as promis d’attirer à toi tous les hommes&nbsp;:<br> –&nbsp;garde dans ton Église ceux que le Père t’a donnés.</p> <p>Maintenant que tu es entré dans la gloire du Père,<br> –&nbsp;tourne notre désir vers le ciel où tu es glorifié.</p> <p>Au dernier jour, tu jugeras le monde&nbsp;:<br> –&nbsp;accorde à tous nos frères défunts<br> de voir en toi le Seigneur des miséricordes.</p>",
-  "firstVespersResponsory": "<p>R/ Dieu s’élève parmi les ovations.<br> * Alléluia, alléluia&nbsp;!<br> V/ Le Seigneur, aux éclats du cor. * Alléluia.<br> Gloire au Père.&nbsp;R/ Dieu s’élève.<br></p>",
-  "firstVespersPsalm1": "PSALM_112",
-  "firstVespersPsalm2": "PSALM_116",
-  "firstVespersPsalm3": "NT_10",
-  "readingsHymn": [
-    "entre-dans-la-gloire"
-  ],
-  "readingsVerse": "<p>V/ Le Seigneur ouvrit l’esprit de ses disciples, alléluia,<br> à l’intelligence des Écritures, alléluia.<br></p>",
-  "readingsPsalm1": "PSALM_67-I",
-  "readingsPsalm2": "PSALM_67-II",
-  "readingsPsalm3": "PSALM_67-III",
-  "morningHymn": [
-    "nous-te-chantons-ressuscite"
-  ],
-  "morningReadingRef": "He 10, 12-14",
-  "morningReading": "Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté.",
-  "morningIntercession": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p>",
-  "morningResponsory": "<p>R/ Tu es la porte du Royaume, alléluia&nbsp;!<br> * Tu es la route vers le Père, alléluia&nbsp;!<br> V/ Ouvrez-vous, portes éternelles&nbsp;:<br> qu’il entre le roi de gloire. *<br> V/ C’est lui, le Seigneur de l’univers,<br> c’est lui, le roi de gloire.&nbsp;R/ <br></p>",
-  "middleOfDayTierceAntiphon": "Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia.",
-  "middleOfDaySexteAntiphon": "Il paraît où commence le ciel, alléluia. Il s’en va jusqu’où le ciel s’achève, alléluia.",
-  "middleOfDayNoneAntiphon": "Levant les mains, il bénit ses disciples et fut emporté dans le ciel, alléluia.",
-  "middleOfDayReading1Ref": "Ap 1, 17c-18",
-  "middleOfDayReading1Content": "Je vis comme un fils d’homme qui me disait&nbsp;: «&nbsp;Je suis le Premier et le Dernier, je suis le Vivant&nbsp;; j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts.&nbsp;»",
-  "middleOfDayResponsory1": "<p>V/ Que votre cœur ne se trouble pas, alléluia,<br> car je vais au Père, alléluia.</p>",
-  "middleOfDayReading2Ref": "He 8, 1b-3a",
-  "middleOfDayReading2Content": "Le grand prêtre que nous avons s’est assis à la droite de Dieu et règne avec lui dans les cieux, après avoir accompli le service du véritable Sanctuaire, et de la véritable Tente dressée par le Seigneur et non par un homme. Le grand prêtre a toujours été chargé d’offrir des dons et des sacrifices.",
-  "middleOfDayResponsory2": "<p>V/ À ta droite se tient le Seigneur, alléluia.<br> Tu es Prêtre à jamais, alléluia.</p>",
-  "middleOfDayReading3Ref": "Col 3, 1-2",
-  "middleOfDayReading3Content": "Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut&nbsp;: c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.",
-  "middleOfDayResponsory3": "<p>V/ Glorifiez le Roi des rois, alléluia.<br> Chantez un hymne à Dieu, alléluia.</p>",
-  "middleOfDayPsalm1": "PSALM_8",
-  "middleOfDayPsalm2": "PSALM_18A",
-  "middleOfDayPsalm3": "PSALM_18B",
-  "vespersHymn": [
-    "o-fils-de-dieu-ressuscite"
-  ],
-  "vespersReadingRef": "1 P 3, 18.22",
-  "vespersReading": "Le Christ est mort pour les péchés, une fois pour toutes&nbsp;; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort&nbsp;; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu.",
-  "vespersIntercession": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p> <p>Toi qui reviendras au dernier jour pour nous prendre avec toi,<br> –&nbsp;sois la résurrection des morts.</p>",
-  "vespersResponsory": "<p>R/ Nous acclamons, Seigneur,<br> la splendeur de ta gloire éternelle&nbsp;!<br> V/ À toi, Seigneur, le règne,<br> la primauté sur l’univers&nbsp;!R/ <br> V/ C’est toi, le Maître de tout,<br> nous voici pour te rendre grâce.&nbsp;R/</p>",
-  "vespersPsalm1": "PSALM_109",
-  "vespersPsalm2": "PSALM_46",
-  "vespersPsalm3": "NT_10"
+  "liturgicalColor": "white"
 }

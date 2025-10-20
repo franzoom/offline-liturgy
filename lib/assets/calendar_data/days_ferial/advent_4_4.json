@@ -1,28 +1,92 @@
 {
-  "invitatoryAntiphon": "Le Roi qui va venir, venez, adorons-le.",
-  "invitatoryAntiphon2": "Allons au-devant de celui qui vient.",
-  "invitatoryAntiphon3": "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.",
-  "morningPsalm2Antiphon": "Réponds, Seigneur, au désir des pauvres, confirme la parole des prophètes.",
-  "morningPsalm1Antiphon": "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer&nbsp;: je m’appuie sur toi.",
-  "morningPsalm3Antiphon": "Viens, Seigneur, ne tarde plus, viens guérir le cœur brisé.",
-  "vespersPsalm3Antiphon": "Vienne le Seigneur, le roi de la gloire&nbsp;! Vienne le Messie, le Fils de Dieu&nbsp;!",
-  "vespersPsalm1Antiphon": "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer&nbsp;: je m’appuie sur toi.",
-  "vespersPsalm2Antiphon": "Reviens, Seigneur, pourquoi tarder&nbsp;? Ravise-toi par égard pour tes serviteurs.",
-  "readingsPsalm1Antiphon": "Debout&nbsp;! Viens à notre aide, rachète-nous en raison de ton amour&nbsp;!",
-  "readingsPsalm2Antiphon": "Debout&nbsp;! Viens à notre aide, rachète-nous en raison de ton amour&nbsp;!",
-  "readingsPsalm3Antiphon": "Debout&nbsp;! Viens à notre aide, rachète-nous en raison de ton amour&nbsp;!",
-  "readingsVerse": "<p>V/ Écoutez, tous les peuples, la parole du Seigneur,<br> annoncez-la aux îles lointaines.</p>",
-  "middleOfDayPsalm1Antiphon": "Les Prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie.",
-  "morningPsalm1": "PSALM_142",
-  "morningPsalm2": "AT_32",
-  "morningPsalm3": "PSALM_146",
-  "readingsPsalm1": "PSALM_43_1",
-  "readingsPsalm2": "PSALM_43_2",
-  "readingsPsalm3": "PSALM_43_3",
-  "middleOfDayPsalm1": "PSALM_118_20",
-  "middleOfDayPsalm2": "PSALM_127",
-  "middleOfDayPsalm3": "PSALM_128",
-  "vespersPsalm1": "PSALM_143_1",
-  "vespersPsalm2": "PSALM_143_2",
-  "vespersPsalm3": "NT_10"
+  "invitatory": {
+    "antiphon": [
+      "Le Roi qui va venir, venez, adorons-le.",
+      "Allons au-devant de celui qui vient.",
+      "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_142",
+        "antiphon": [
+          "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer&nbsp;: je m’appuie sur toi."
+        ]
+      },
+      {
+        "psalm": "AT_32",
+        "antiphon": [
+          "Réponds, Seigneur, au désir des pauvres, confirme la parole des prophètes."
+        ]
+      },
+      {
+        "psalm": "PSALM_146",
+        "antiphon": [
+          "Viens, Seigneur, ne tarde plus, viens guérir le cœur brisé."
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_43_1",
+        "antiphon": [
+          "Debout&nbsp;! Viens à notre aide, rachète-nous en raison de ton amour&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_43_2",
+        "antiphon": [
+          "Debout&nbsp;! Viens à notre aide, rachète-nous en raison de ton amour&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_43_3",
+        "antiphon": [
+          "Debout&nbsp;! Viens à notre aide, rachète-nous en raison de ton amour&nbsp;!"
+        ]
+      }
+    ],
+    "verse": "<p>V/ Écoutez, tous les peuples, la parole du Seigneur,<br> annoncez-la aux îles lointaines.</p>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_143_1",
+        "antiphon": [
+          "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer&nbsp;: je m’appuie sur toi."
+        ]
+      },
+      {
+        "psalm": "PSALM_143_2",
+        "antiphon": [
+          "Reviens, Seigneur, pourquoi tarder&nbsp;? Ravise-toi par égard pour tes serviteurs."
+        ]
+      },
+      {
+        "psalm": "NT_10",
+        "antiphon": [
+          "Vienne le Seigneur, le roi de la gloire&nbsp;! Vienne le Messie, le Fils de Dieu&nbsp;!"
+        ]
+      }
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_20",
+        "antiphon": [
+          "Les Prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
+        ]
+      },
+      {
+        "psalm": "PSALM_127"
+      },
+      {
+        "psalm": "PSALM_128"
+      }
+    ]
+  }
 }

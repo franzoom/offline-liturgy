@@ -1,76 +1,140 @@
 {
-  "invitatoryAntiphon": "Adorons le Seigneur, il est notre Dieu.",
-  "morningHymn": [
-    "beni-de-dieu"
-  ],
-  "morningPsalm1Antiphon": "Je chanterai justice et bonté&nbsp;: à toi mes hymnes, Seigneur&nbsp;!",
-  "morningPsalm1Antiphon2": "Ce qui plaît à mon Père, dit le Seigneur, je le fais toujours.",
-  "morningPsalm2Antiphon": "Béni sois-tu, Seigneur, Dieu de nos pères, loué soit ton nom&nbsp;!",
-  "morningPsalm2Antiphon2": "Reçois nos cœurs brisés, nos esprits humiliés&nbsp;; que cette offrande trouve grâce devant toi&nbsp;!",
-  "morningEvangelicAntiphon": "Béni sois-tu, Seigneur, Dieu de tendresse et d’amour&nbsp;!",
-  "morningPsalm3Antiphon": "Pour toi, Seigneur, je chante un chant nouveau.",
-  "morningPsalm3Antiphon2": "Béni soit le Seigneur, mon rocher&nbsp;!",
-  "morningReadingRef": "Is 55, 1",
-  "morningReading": "Vous tous qui avez soif, venez, voici de l’eau&nbsp;! Même si vous n’avez pas d’argent, venez acheter et consommer&nbsp;; venez acheter du vin et du lait, sans argent et sans rien payer.",
-  "morningIntercession": "<p>Notre Dieu est un Dieu patient&nbsp;; bénissons-le&nbsp;:</p> <p>R/ Béni sois-tu&nbsp;!</p> <p>Béni sois-tu pour ce jour&nbsp;: <br> –&nbsp;que nous tirions parti du temps présent pour hâter la venue de ton règne.</p> <p>Béni sois-tu pour ce monde en croissance&nbsp;: <br> –&nbsp;que nous lui annoncions la justice et la paix.</p> <p>Béni sois-tu pour l’Église que ton Esprit renouvelle&nbsp;: <br> –&nbsp;donne à ses fils la joie de l’espérance.</p> <p>Béni sois-tu pour la Terre Nouvelle que tu promets&nbsp;: <br> –&nbsp;guide nos pas jusqu’à la fin du jour.</p> ",
-  "morningResponsory": "<p>R/ Conduis-nous, Seigneur, aux sources de la vie.<br> V/ Mon âme a soif de Dieu, le Dieu vivant.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-  "morningOration": "Augmente en nous la foi, Seigneur&nbsp;: fais-nous la grâce de tenir, dans ce monde, notre devoir de louange et de service.",
-  "vespersHymn": [
-    "seigneur-au-seuil-de-cette-nuit"
-  ],
-  "vespersPsalm1Antiphon": "Que ma langue s’attache à mon palais si je perds ton souvenir&nbsp;!",
-  "vespersPsalm1Antiphon2": "Loin de toi, Seigneur, comme en exil, nous cheminons dans la foi.",
-  "vespersPsalm3Antiphon": "Tu nous as rachetés par ton sang, Seigneur&nbsp;: tu fis de nous un peuple de rois.",
-  "vespersEvangelicAntiphon": "Seigneur, éternel est ton amour&nbsp;: du haut du ciel, tu regardes les humbles.",
-  "vespersPsalm2Antiphon": "Je chanterai le Seigneur en présence des anges.",
-  "vespersPsalm2Antiphon2": "Seigneur, tu fais tout pour moi&nbsp;: n’arrête pas l’œuvre de tes mains.",
-  "vespersReadingRef": "Col 3, 16",
-  "vespersReading": "Que la parole du Christ habite en vous dans toute sa richesse&nbsp;; instruisez-vous et reprenez-vous les uns les autres avec une vraie sagesse&nbsp;; par des psaumes, des hymnes et de libres louanges, chantez à Dieu, dans vos cœurs, votre reconnaissance.",
-  "vespersIntercession": "<p>Montre ta bonté,<br> Pardonne-nous, Seigneur.</p> <p>Montre ta bienveillance,<br> Exauce-nous, Seigneur.</p> <p>De tout péché et de tout mal,<br> Délivre-nous, Seigneur.</p> <p>Des embûches de l’Ennemi,<br> Délivre-nous, Seigneur.</p> <p>De l’injustice et de la haine,<br> Délivre-nous, Seigneur.</p> <p>Des faiblesses de la chair,<br> Délivre-nous, Seigneur.</p> <p>Des jugements de ta colère,<br> Délivre-nous, Seigneur.</p> <p>De la famine et de la guerre,<br> Délivre-nous, Seigneur.</p> <p>Des fléaux et calamités,<br> Délivre-nous, Seigneur.</p> <p>D’une mort imprévue,<br> Délivre-nous, Seigneur.</p> <p>De la mort éternelle,<br> Délivre-nous, Seigneur.</p> ",
-  "vespersResponsory": "<p>R/ Ouvre mon cœur, Seigneur,<br> à ta parole de lumière&nbsp;!<br> V/ J’ai fait de tes commandements mon cantique,<br> dans ma demeure d’étranger.&nbsp;R/ <br> V/ Heureux les humbles&nbsp;:<br> tu leur découvres le secret du Royaume.&nbsp;R/ <br></p>",
-  "vespersOration": "Que notre prière du soir monte jusqu’à toi, Seigneur, Père très saint, Dieu éternel et tout-puissant&nbsp;: que descende sur nous ta bénédiction, afin qu’avec ton aide, dès maintenant et pour toujours, nous soyons sauvés.",
+  "invitatory": {
+    "antiphon": [
+      "Adorons le Seigneur, il est notre Dieu."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_100",
+        "antiphon": [
+          "Je chanterai justice et bonté&nbsp;: à toi mes hymnes, Seigneur&nbsp;!",
+          "Ce qui plaît à mon Père, dit le Seigneur, je le fais toujours."
+        ]
+      },
+      {
+        "psalm": "AT_39",
+        "antiphon": [
+          "Béni sois-tu, Seigneur, Dieu de nos pères, loué soit ton nom&nbsp;!",
+          "Reçois nos cœurs brisés, nos esprits humiliés&nbsp;; que cette offrande trouve grâce devant toi&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_143a",
+        "antiphon": [
+          "Pour toi, Seigneur, je chante un chant nouveau.",
+          "Béni soit le Seigneur, mon rocher&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Is 55, 1",
+      "content": "Vous tous qui avez soif, venez, voici de l’eau&nbsp;! Même si vous n’avez pas d’argent, venez acheter et consommer&nbsp;; venez acheter du vin et du lait, sans argent et sans rien payer."
+    },
+    "hymn": [
+      "beni-de-dieu"
+    ],
+    "evangelicAntiphon": "Béni sois-tu, Seigneur, Dieu de tendresse et d’amour&nbsp;!",
+    "intercession": "<p>Notre Dieu est un Dieu patient&nbsp;; bénissons-le&nbsp;:</p> <p>R/ Béni sois-tu&nbsp;!</p> <p>Béni sois-tu pour ce jour&nbsp;: <br> –&nbsp;que nous tirions parti du temps présent pour hâter la venue de ton règne.</p> <p>Béni sois-tu pour ce monde en croissance&nbsp;: <br> –&nbsp;que nous lui annoncions la justice et la paix.</p> <p>Béni sois-tu pour l’Église que ton Esprit renouvelle&nbsp;: <br> –&nbsp;donne à ses fils la joie de l’espérance.</p> <p>Béni sois-tu pour la Terre Nouvelle que tu promets&nbsp;: <br> –&nbsp;guide nos pas jusqu’à la fin du jour.</p> ",
+    "responsory": "<p>R/ Conduis-nous, Seigneur, aux sources de la vie.<br> V/ Mon âme a soif de Dieu, le Dieu vivant.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "oration": "Augmente en nous la foi, Seigneur&nbsp;: fais-nous la grâce de tenir, dans ce monde, notre devoir de louange et de service."
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_101_1",
+        "antiphon": [
+          "Seigneur, entends ma prière, ne me voile pas ton visage."
+        ]
+      },
+      {
+        "psalm": "PSALM_101_2",
+        "antiphon": [
+          "Écoute, Seigneur, le cri des malheureux&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_101_3",
+        "antiphon": [
+          "Seigneur, tu as fondé la terre, et les cieux sont l’ouvrage de tes mains."
+        ]
+      }
+    ],
+    "biblicalReading": {
+      "title": "Une vie qui plaît à Dieu dans l’espérance de la Résurrection",
+      "ref": "1Th 4, 1-18",
+      "content": "<p>Pour le reste, frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu&nbsp;; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous le demandons, oui, nous vous en prions dans le Seigneur Jésus. Vous savez bien quelles instructions nous vous avons données de la part du Seigneur Jésus. La volonté de Dieu, c’est que vous viviez dans la sainteté, en vous abstenant de la débauche, et en veillant chacun à rester maître de son corps dans un esprit de sainteté et de respect, sans vous laisser entraîner par la convoitise comme font les païens qui ne connaissent pas Dieu. Dans ce domaine, il ne faut pas agir au détriment de son frère ni lui causer du tort, car de tout cela le Seigneur fait justice, comme nous vous l’avons déjà dit et attesté. En effet, Dieu nous a appelés, non pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté. Ainsi donc celui qui rejette mes instructions, ce n’est pas un homme qu’il rejette, c’est Dieu lui-même, lui qui vous donne son Esprit Saint. Pour ce qui est de l’amour fraternel, vous n’avez pas besoin que je vous en parle dans ma lettre, car vous avez appris vous-mêmes de Dieu à vous aimer les uns les autres, et c’est ce que vous faites envers tous les frères de la province de Macédoine. Frères, nous vous encourageons à progresser encore&nbsp;: ayez à cœur de vivre calmement, de vous occuper chacun de vos propres affaires et de travailler de vos mains comme nous vous l’avons ordonné. Ainsi, votre conduite méritera le respect des gens du dehors, et vous ne manquerez de rien. Frères, nous ne voulons pas vous laisser dans l’ignorance au sujet de ceux qui se sont endormis dans la mort&nbsp;; il ne faut pas que vous soyez abattus comme les autres, qui n’ont pas d’espérance. Jésus, nous le croyons, est mort et ressuscité&nbsp;; de même, nous le croyons aussi, ceux qui se sont endormis, Dieu, par Jésus, les emmènera avec lui. Car, sur la parole du Seigneur, nous vous déclarons ceci&nbsp;: nous les vivants, nous qui sommes encore là pour la venue du Seigneur, nous ne devancerons pas ceux qui se sont endormis. Au signal donné par la voix de l’archange, et par la trompette divine, le Seigneur lui-même descendra du ciel, et ceux qui sont morts dans le Christ ressusciteront d’abord. Ensuite, nous les vivants, nous qui sommes encore là, nous serons emportés sur les nuées du ciel, en même temps qu’eux, à la rencontre du Seigneur. Ainsi, nous serons pour toujours avec le Seigneur. Réconfortez-vous donc les uns les autres avec ce que je viens de dire.</p>",
+      "responsory": "<p>R/ Nous serons à jamais avec le Seigneur.</p> <p>Le Seigneur, au signal donné, viendra du ciel,<br> ceux qui sont morts en lui ressusciteront.</p> <p>Il rassemblera ses élus des quatre vents&nbsp;:<br> du bout de la terre au sommet du ciel.</p> <p>La volonté de Dieu c’est votre sanctification<br> Il vous a fait la grâce de son Esprit Saint.</p>"
+    },
+    "patristicReading": {
+      "title": "SERMON DE S. SOPHRONE DE JÉRUSALEM POUR LA FÊTE DES LUMIÈRES",
+      "subtitle": "Recevoir la lumière",
+      "content": "<p>Allons à la rencontre du Christ, nous tous qui honorons et vénérons son mystère avec tant de ferveur, avançons vers lui dans l’enthousiasme. Que tous sans exception participent à cette rencontre, que tous sans exception y portent leurs lumières. Si nos cierges procurent un tel éclat, c’est d’abord pour montrer la splendeur divine de celui qui vient, qui fait resplendir l’univers et l’inonde d’une lumière éternelle en repoussant les ténèbres mauvaises&nbsp;; c’est aussi et surtout pour manifester avec quelle splendeur de notre âme, nous-mêmes devons aller à la rencontre du Christ. De même, en effet, que la Mère de Dieu, la Vierge très pure, a porté dans ses bras la véritable lumière à la rencontre de ceux qui gisaient dans les ténèbres&nbsp;; de même nous, illuminés par ses rayons et tenant en mains une lumière visible pour tous, hâtons-nous vers celui qui est vraiment la lumière. C’est évident&nbsp;: puisque <i>la lumière est venue dans le monde </i>et l’a illuminé alors qu’il baignait dans les ténèbres, puisque <i>le Soleil levant qui vient d’en haut nous a visités</i>, ce mystère est le nôtre. C’est pour cela que nous avançons en tenant des cierges, c’est pour cela que nous accourons en portant des lumières, afin de signifier la lumière qui a brillé pour nous, mais aussi afin d’évoquer la splendeur que cette lumière nous donnera. Courons donc ensemble, allons tous à la rencontre de Dieu. ~ Cette lumière véritable, <i>qui éclaire tout homme venant en ce monde</i>, voici qu’elle vient. Soyons-en tous illuminés, mes frères, soyons-en tous resplendissants. Que nul d’entre nous ne demeure à l’écart de cette lumière, comme un étranger&nbsp;; que nul, alors qu’il en est inondé, ne s’obstine à rester plongé dans la nuit. Avançons tous dans la lumière, tous ensemble, illuminés, marchons à sa rencontre, avec le vieillard Syméon, accueillons cette lumière glorieuse et éternelle. Avec lui, exultons de tout notre cœur et chantons une hymne d’action de grâce à Dieu, Père de la lumière, qui nous a envoyé la clarté véritable pour chasser les ténèbres et nous rendre resplendissants. <i>Le salut </i>de Dieu, <i>qu’il a préparé à la face de tous les peuples </i>et qu’il a manifesté <i>pour la gloire </i>du nouvel <i>Israël </i>que nous sommes, voilà que<i> nous l’avons vu </i>à notre tour, grâce au Christ&nbsp;; et nous avons été aussitôt délivrés de la nuit de l’antique péché, comme Syméon le fut des liens de la vie présente, en voyant le Christ. Nous aussi, en embrassant par la foi le Christ venu de Bethléem à notre rencontre, nous qui venions <i>des nations païennes</i>, nous sommes devenus le peuple de Dieu, car c’est le Christ qui est <i>le salut </i>de Dieu le Père. Nous avons vu de nos yeux Dieu qui s’est fait chair. Maintenant que la présence de Dieu s’est montrée et que nous l’avons accueillie dans notre âme, nous sommes appelés le nouvel Israël&nbsp;: et nous célébrons sa venue par une fête annuelle pour ne jamais risquer de l’oublier.</p>",
+      "responsory": "<p>R/ Croyons en la lumière<br> pour devenir fils de lumière.</p> <p>Peuple de Dieu, temple vivant du Seigneur,<br> accueille ton Roi, le fils de la Vierge Marie.</p> <p>Syméon plein de joie l’a reçu dans ses bras.<br> Aujourd’hui reconnais-le dans sa faiblesse<br> et rends grâce à Dieu.</p>"
+    },
+    "verse": "<p>V/ Écoute mon enseignement, ô mon peuple,<br>sois attentif aux mots que je prononce.</p>",
+    "oration": "Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir&nbsp;: répands en nos cœurs la ferveur de ta charité, afin que t’aimant en toute chose et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir."
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_136",
+        "antiphon": [
+          "Que ma langue s’attache à mon palais si je perds ton souvenir&nbsp;!",
+          "Loin de toi, Seigneur, comme en exil, nous cheminons dans la foi."
+        ]
+      },
+      {
+        "psalm": "PSALM_137",
+        "antiphon": [
+          "Je chanterai le Seigneur en présence des anges.",
+          "Seigneur, tu fais tout pour moi&nbsp;: n’arrête pas l’œuvre de tes mains."
+        ]
+      },
+      {
+        "psalm": "NT_9",
+        "antiphon": [
+          "Tu nous as rachetés par ton sang, Seigneur&nbsp;: tu fis de nous un peuple de rois."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Col 3, 16",
+      "content": "Que la parole du Christ habite en vous dans toute sa richesse&nbsp;; instruisez-vous et reprenez-vous les uns les autres avec une vraie sagesse&nbsp;; par des psaumes, des hymnes et de libres louanges, chantez à Dieu, dans vos cœurs, votre reconnaissance."
+    },
+    "hymn": [
+      "seigneur-au-seuil-de-cette-nuit"
+    ],
+    "evangelicAntiphon": "Seigneur, éternel est ton amour&nbsp;: du haut du ciel, tu regardes les humbles.",
+    "intercession": "<p>Montre ta bonté,<br> Pardonne-nous, Seigneur.</p> <p>Montre ta bienveillance,<br> Exauce-nous, Seigneur.</p> <p>De tout péché et de tout mal,<br> Délivre-nous, Seigneur.</p> <p>Des embûches de l’Ennemi,<br> Délivre-nous, Seigneur.</p> <p>De l’injustice et de la haine,<br> Délivre-nous, Seigneur.</p> <p>Des faiblesses de la chair,<br> Délivre-nous, Seigneur.</p> <p>Des jugements de ta colère,<br> Délivre-nous, Seigneur.</p> <p>De la famine et de la guerre,<br> Délivre-nous, Seigneur.</p> <p>Des fléaux et calamités,<br> Délivre-nous, Seigneur.</p> <p>D’une mort imprévue,<br> Délivre-nous, Seigneur.</p> <p>De la mort éternelle,<br> Délivre-nous, Seigneur.</p> ",
+    "responsory": "<p>R/ Ouvre mon cœur, Seigneur,<br> à ta parole de lumière&nbsp;!<br> V/ J’ai fait de tes commandements mon cantique,<br> dans ma demeure d’étranger.&nbsp;R/ <br> V/ Heureux les humbles&nbsp;:<br> tu leur découvres le secret du Royaume.&nbsp;R/ <br></p>",
+    "oration": "Que notre prière du soir monte jusqu’à toi, Seigneur, Père très saint, Dieu éternel et tout-puissant&nbsp;: que descende sur nous ta bénédiction, afin qu’avec ton aide, dès maintenant et pour toujours, nous soyons sauvés."
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_18",
+        "antiphon": [
+          "Juste est ta justice&nbsp;; sûre est ta loi&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_87_1",
+        "antiphon": [
+          "Je t’appelle, Seigneur, tout le jour, je tends les mains vers toi&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_87_2",
+        "antiphon": [
+          "Je t’appelle, Seigneur, tout le jour, je tends les mains vers toi&nbsp;!"
+        ]
+      }
+    ]
+  },
   "sundayEvangelicAntiphonC": "Passant au milieu d’eux, Jésus allait son chemin.",
   "sundayEvangelicAntiphonB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
   "sundayEvangelicAntiphonA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
-  "readingHymn": "pour-que-l-homme-soit-un-fils",
-  "readingsPsalm1Antiphon": "Seigneur, entends ma prière, ne me voile pas ton visage.",
-  "readingsPsalm2Antiphon": "Écoute, Seigneur, le cri des malheureux&nbsp;!",
-  "readingsPsalm3Antiphon": "Seigneur, tu as fondé la terre, et les cieux sont l’ouvrage de tes mains.",
-  "readingsVerse": "<p>V/ Écoute mon enseignement, ô mon peuple,<br>sois attentif aux mots que je prononce.</p>",
-  "readingsBiblicalReadingTitle": "Une vie qui plaît à Dieu dans l’espérance de la Résurrection",
-  "readingsBiblicalReadingRef": "1Th 4, 1-18",
-  "readingsBiblicalReadingContent": "<p>Pour le reste, frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu&nbsp;; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous le demandons, oui, nous vous en prions dans le Seigneur Jésus. Vous savez bien quelles instructions nous vous avons données de la part du Seigneur Jésus. La volonté de Dieu, c’est que vous viviez dans la sainteté, en vous abstenant de la débauche, et en veillant chacun à rester maître de son corps dans un esprit de sainteté et de respect, sans vous laisser entraîner par la convoitise comme font les païens qui ne connaissent pas Dieu. Dans ce domaine, il ne faut pas agir au détriment de son frère ni lui causer du tort, car de tout cela le Seigneur fait justice, comme nous vous l’avons déjà dit et attesté. En effet, Dieu nous a appelés, non pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté. Ainsi donc celui qui rejette mes instructions, ce n’est pas un homme qu’il rejette, c’est Dieu lui-même, lui qui vous donne son Esprit Saint. Pour ce qui est de l’amour fraternel, vous n’avez pas besoin que je vous en parle dans ma lettre, car vous avez appris vous-mêmes de Dieu à vous aimer les uns les autres, et c’est ce que vous faites envers tous les frères de la province de Macédoine. Frères, nous vous encourageons à progresser encore&nbsp;: ayez à cœur de vivre calmement, de vous occuper chacun de vos propres affaires et de travailler de vos mains comme nous vous l’avons ordonné. Ainsi, votre conduite méritera le respect des gens du dehors, et vous ne manquerez de rien. Frères, nous ne voulons pas vous laisser dans l’ignorance au sujet de ceux qui se sont endormis dans la mort&nbsp;; il ne faut pas que vous soyez abattus comme les autres, qui n’ont pas d’espérance. Jésus, nous le croyons, est mort et ressuscité&nbsp;; de même, nous le croyons aussi, ceux qui se sont endormis, Dieu, par Jésus, les emmènera avec lui. Car, sur la parole du Seigneur, nous vous déclarons ceci&nbsp;: nous les vivants, nous qui sommes encore là pour la venue du Seigneur, nous ne devancerons pas ceux qui se sont endormis. Au signal donné par la voix de l’archange, et par la trompette divine, le Seigneur lui-même descendra du ciel, et ceux qui sont morts dans le Christ ressusciteront d’abord. Ensuite, nous les vivants, nous qui sommes encore là, nous serons emportés sur les nuées du ciel, en même temps qu’eux, à la rencontre du Seigneur. Ainsi, nous serons pour toujours avec le Seigneur. Réconfortez-vous donc les uns les autres avec ce que je viens de dire.</p>",
-  "readingsBiblicalReadingResponsory": "<p>R/ Nous serons à jamais avec le Seigneur.</p> <p>Le Seigneur, au signal donné, viendra du ciel,<br> ceux qui sont morts en lui ressusciteront.</p> <p>Il rassemblera ses élus des quatre vents&nbsp;:<br> du bout de la terre au sommet du ciel.</p> <p>La volonté de Dieu c’est votre sanctification<br> Il vous a fait la grâce de son Esprit Saint.</p>",
-  "readingsPatristicReadingTitle": "SERMON DE S. SOPHRONE DE JÉRUSALEM POUR LA FÊTE DES LUMIÈRES",
-  "readingsPatristicReadingSubtitle": "Recevoir la lumière",
-  "readingsPatristicReadingContent": "<p>Allons à la rencontre du Christ, nous tous qui honorons et vénérons son mystère avec tant de ferveur, avançons vers lui dans l’enthousiasme. Que tous sans exception participent à cette rencontre, que tous sans exception y portent leurs lumières. Si nos cierges procurent un tel éclat, c’est d’abord pour montrer la splendeur divine de celui qui vient, qui fait resplendir l’univers et l’inonde d’une lumière éternelle en repoussant les ténèbres mauvaises&nbsp;; c’est aussi et surtout pour manifester avec quelle splendeur de notre âme, nous-mêmes devons aller à la rencontre du Christ. De même, en effet, que la Mère de Dieu, la Vierge très pure, a porté dans ses bras la véritable lumière à la rencontre de ceux qui gisaient dans les ténèbres&nbsp;; de même nous, illuminés par ses rayons et tenant en mains une lumière visible pour tous, hâtons-nous vers celui qui est vraiment la lumière. C’est évident&nbsp;: puisque <i>la lumière est venue dans le monde </i>et l’a illuminé alors qu’il baignait dans les ténèbres, puisque <i>le Soleil levant qui vient d’en haut nous a visités</i>, ce mystère est le nôtre. C’est pour cela que nous avançons en tenant des cierges, c’est pour cela que nous accourons en portant des lumières, afin de signifier la lumière qui a brillé pour nous, mais aussi afin d’évoquer la splendeur que cette lumière nous donnera. Courons donc ensemble, allons tous à la rencontre de Dieu. ~ Cette lumière véritable, <i>qui éclaire tout homme venant en ce monde</i>, voici qu’elle vient. Soyons-en tous illuminés, mes frères, soyons-en tous resplendissants. Que nul d’entre nous ne demeure à l’écart de cette lumière, comme un étranger&nbsp;; que nul, alors qu’il en est inondé, ne s’obstine à rester plongé dans la nuit. Avançons tous dans la lumière, tous ensemble, illuminés, marchons à sa rencontre, avec le vieillard Syméon, accueillons cette lumière glorieuse et éternelle. Avec lui, exultons de tout notre cœur et chantons une hymne d’action de grâce à Dieu, Père de la lumière, qui nous a envoyé la clarté véritable pour chasser les ténèbres et nous rendre resplendissants. <i>Le salut </i>de Dieu, <i>qu’il a préparé à la face de tous les peuples </i>et qu’il a manifesté <i>pour la gloire </i>du nouvel <i>Israël </i>que nous sommes, voilà que<i> nous l’avons vu </i>à notre tour, grâce au Christ&nbsp;; et nous avons été aussitôt délivrés de la nuit de l’antique péché, comme Syméon le fut des liens de la vie présente, en voyant le Christ. Nous aussi, en embrassant par la foi le Christ venu de Bethléem à notre rencontre, nous qui venions <i>des nations païennes</i>, nous sommes devenus le peuple de Dieu, car c’est le Christ qui est <i>le salut </i>de Dieu le Père. Nous avons vu de nos yeux Dieu qui s’est fait chair. Maintenant que la présence de Dieu s’est montrée et que nous l’avons accueillie dans notre âme, nous sommes appelés le nouvel Israël&nbsp;: et nous célébrons sa venue par une fête annuelle pour ne jamais risquer de l’oublier.</p>",
-  "readingsPatristicReadingResponsory": "<p>R/ Croyons en la lumière<br> pour devenir fils de lumière.</p> <p>Peuple de Dieu, temple vivant du Seigneur,<br> accueille ton Roi, le fils de la Vierge Marie.</p> <p>Syméon plein de joie l’a reçu dans ses bras.<br> Aujourd’hui reconnais-le dans sa faiblesse<br> et rends grâce à Dieu.</p>",
-  "readingsOration": "Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir&nbsp;: répands en nos cœurs la ferveur de ta charité, afin que t’aimant en toute chose et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir.",
-  "middleOfDayPsalm1Antiphon": "Juste est ta justice&nbsp;; sûre est ta loi&nbsp;!",
-  "middleOfDayPsalm2Antiphon": "Je t’appelle, Seigneur, tout le jour, je tends les mains vers toi&nbsp;!",
-  "middleOfDayPsalm3Antiphon": "Je t’appelle, Seigneur, tout le jour, je tends les mains vers toi&nbsp;!",
-  "middleOfDayNoneReadingRef": "Is 55, 10-11",
-  "middleOfDayNoneReadingContent": "<p>La pluie et la neige qui descendent des cieux n’y retournent pas sans avoir abreuvé la terre, sans l’avoir fécondée et l’avoir fait germer pour donner la semence au semeur et le pain à celui qui a faim&nbsp;; ainsi ma parole, qui sort de ma bouche, ne me reviendra pas sans résultat, sans avoir fait ce que je veux, sans avoir accompli sa mission.</p>",
-  "middleOfDayTierceReadingRef": "1 Jn 3, 17-18",
-  "middleOfDayTierceReadingContent": "<p>Celui qui a de quoi vivre en ce monde, s’il voit son frère dans le besoin sans se laisser attendrir, comment l’amour de Dieu pourrait-il demeurer en lui&nbsp;? Mes enfants, nous devons aimer&nbsp;: non pas avec des paroles et des discours, mais avec des actes et en vérité.</p>",
-  "middleOfDaySexteReadingRef": "Dt 30, 11.14",
-  "middleOfDaySexteReadingContent": "<p>Cette loi que je te prescris aujourd’hui n’est pas au-dessus de tes forces ni hors de ton atteinte. Elle est tout près de toi, cette Parole, elle est dans ta bouche et dans ton cœur afin que tu la mettes en pratique.</p>",
-  "middleOfDayTierceResponsory": "<p>V/ L’homme de bien a pitié, il partage.<br>—  Toujours on fera mémoire du juste.</p>",
-  "middleOfDayNoneResponsory": "<p>V/ Le Seigneur envoie sa parole sur la terre&nbsp;:<br>— rapide, son verbe la parcourt.</p>",
-  "middleOfDaySexteResponsory": "<p>V/ Ta parole, Seigneur, est la lumière de mes pas,<br>—  la lampe de ma route.</p>",
-  "middleOfDaySexteOration": "Dieu qui as révélé à l’Apôtre Pierre ta volonté de sauver tous les hommes, accorde-nous de déployer toutes nos énergies au service de ce dessein de ton amour. Par Jésus, le Christ, notre Seigneur. Amen.",
-  "middleOfDayNoneOration": "Dieu qui as envoyé ton ange au centurion Corneille pour lui montrer le bon chemin, donne-nous de travailler au salut du monde&nbsp;: qu’avec l’humanité tout entière, en communion à ton Église, nous parvenions jusqu’à toi.",
-  "middleOfDayTierceOration": "Dieu qui as répandu ton Esprit Saint sur les Apôtres, envoie-nous ce même Esprit d’amour pour que nous témoignions de toi devant les hommes. Par Jésus, le Christ, notre Seigneur. Amen.",
-  "morningPsalm1": "PSALM_100",
-  "morningPsalm2": "AT_39",
-  "morningPsalm3": "PSALM_143a",
-  "readingsPsalm1": "PSALM_101_1",
-  "readingsPsalm2": "PSALM_101_2",
-  "readingsPsalm3": "PSALM_101_3",
-  "middleOfDayPsalm1": "PSALM_118_18",
-  "middleOfDayPsalm2": "PSALM_87_1",
-  "middleOfDayPsalm3": "PSALM_87_2",
-  "vespersPsalm1": "PSALM_136",
-  "vespersPsalm2": "PSALM_137",
-  "vespersPsalm3": "NT_9"
+  "readingHymn": "pour-que-l-homme-soit-un-fils"
 }

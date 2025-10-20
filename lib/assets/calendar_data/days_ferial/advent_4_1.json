@@ -1,27 +1,89 @@
 {
-  "invitatoryAntiphon": "Le Roi qui va venir, venez, adorons-le.",
-  "invitatoryAntiphon2": "Allons au-devant de celui qui vient.",
-  "invitatoryAntiphon3": "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.",
-  "morningPsalm3Antiphon": "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?",
-  "morningPsalm1Antiphon": "Reviens, Seigneur, pourquoi tarder&nbsp;? Ravise-toi par égard pour tes serviteurs.",
-  "morningPsalm2Antiphon": "Chantez au Seigneur un chant nouveau. Louez-le des extrémités de la terre&nbsp;!",
-  "vespersPsalm2Antiphon": "Dieu se souvient de son peuple humilié.",
-  "vespersPsalm1Antiphon": "Dieu se souvient de son peuple humilié.",
-  "readingsPsalm3Antiphon": "Où est ton trésor, là aussi sera ton cœur.",
-  "readingsPsalm2Antiphon": "Où est ton trésor, là aussi sera ton cœur.",
-  "readingsPsalm1Antiphon": "Où est ton trésor, là aussi sera ton cœur.",
-  "readingsVerse": "<p>V/ Montre-nous, Seigneur, ta bonté,<br> donne-nous enfin le Sauveur.</p>",
-  "middleOfDayPsalm1Antiphon": "Les prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie.",
-  "morningPsalm1": "PSALM_89",
-  "morningPsalm2": "AT_26",
-  "morningPsalm3": "PSALM_134_1",
-  "readingsPsalm1": "PSALM_72_1",
-  "readingsPsalm2": "PSALM_72_2",
-  "readingsPsalm3": "PSALM_72_3",
-  "middleOfDayPsalm1": "PSALM_118_17",
-  "middleOfDayPsalm2": "PSALM_81",
-  "middleOfDayPsalm3": "PSALM_119",
-  "vespersPsalm1": "PSALM_135_1",
-  "vespersPsalm2": "PSALM_135_2",
-  "vespersPsalm3": "NT_4"
+  "invitatory": {
+    "antiphon": [
+      "Le Roi qui va venir, venez, adorons-le.",
+      "Allons au-devant de celui qui vient.",
+      "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_89",
+        "antiphon": [
+          "Reviens, Seigneur, pourquoi tarder&nbsp;? Ravise-toi par égard pour tes serviteurs."
+        ]
+      },
+      {
+        "psalm": "AT_26",
+        "antiphon": [
+          "Chantez au Seigneur un chant nouveau. Louez-le des extrémités de la terre&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_134_1",
+        "antiphon": [
+          "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?"
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_72_1",
+        "antiphon": [
+          "Où est ton trésor, là aussi sera ton cœur."
+        ]
+      },
+      {
+        "psalm": "PSALM_72_2",
+        "antiphon": [
+          "Où est ton trésor, là aussi sera ton cœur."
+        ]
+      },
+      {
+        "psalm": "PSALM_72_3",
+        "antiphon": [
+          "Où est ton trésor, là aussi sera ton cœur."
+        ]
+      }
+    ],
+    "verse": "<p>V/ Montre-nous, Seigneur, ta bonté,<br> donne-nous enfin le Sauveur.</p>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_135_1",
+        "antiphon": [
+          "Dieu se souvient de son peuple humilié."
+        ]
+      },
+      {
+        "psalm": "PSALM_135_2",
+        "antiphon": [
+          "Dieu se souvient de son peuple humilié."
+        ]
+      },
+      {
+        "psalm": "NT_4"
+      }
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_17",
+        "antiphon": [
+          "Les prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
+        ]
+      },
+      {
+        "psalm": "PSALM_81"
+      },
+      {
+        "psalm": "PSALM_119"
+      }
+    ]
+  }
 }

@@ -1,26 +1,90 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "morningPsalm3Antiphon": "Reconnaissez que le Seigneur est Dieu.",
-  "morningPsalm1Antiphon": "Il est né d’une race de pécheurs, pour sauver l’homme pécheur.",
-  "morningPsalm2Antiphon": "Tu es un Dieu caché, Jésus, Sauveur des hommes.",
-  "vespersPsalm2Antiphon": "La Vierge a mis au monde un fils&nbsp;: Emmanuel, Dieu avec nous.",
-  "vespersPsalm1Antiphon": "Le Juste, mon serviteur, justifiera les multitudes.",
-  "vespersPsalm3Antiphon": "Toi seul est saint, toi seul es le Seigneur&nbsp;!",
-  "vespersOration": "<p>Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit&nbsp;: puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie.</p>",
-  "readingsPsalm3Antiphon": "Le Seigneur console son peuple, il prend pitié de ceux qui pleurent.",
-  "readingsPsalm2Antiphon": "Le Seigneur console son peuple, il prend pitié de ceux qui pleurent.",
-  "readingsPsalm1Antiphon": "Le Seigneur console son peuple, il prend pitié de ceux qui pleurent.",
-  "middleOfDayPsalm1Antiphon": "Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire.",
-  "morningPsalm1": "PSALM_50",
-  "morningPsalm2": "AT_27",
-  "morningPsalm3": "PSALM_99",
-  "readingsPsalm1": "PSALM_34_1",
-  "readingsPsalm2": "PSALM_34_2",
-  "readingsPsalm3": "PSALM_34_3",
-  "middleOfDayPsalm1": "PSALM_118_4",
-  "middleOfDayPsalm2": "PSALM_25",
-  "middleOfDayPsalm3": "PSALM_27",
-  "vespersPsalm1": "PSALM_40",
-  "vespersPsalm2": "PSALM_45",
-  "vespersPsalm3": "NT_11"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_50",
+        "antiphon": [
+          "Il est né d’une race de pécheurs, pour sauver l’homme pécheur."
+        ]
+      },
+      {
+        "psalm": "AT_27",
+        "antiphon": [
+          "Tu es un Dieu caché, Jésus, Sauveur des hommes."
+        ]
+      },
+      {
+        "psalm": "PSALM_99",
+        "antiphon": [
+          "Reconnaissez que le Seigneur est Dieu."
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_34_1",
+        "antiphon": [
+          "Le Seigneur console son peuple, il prend pitié de ceux qui pleurent."
+        ]
+      },
+      {
+        "psalm": "PSALM_34_2",
+        "antiphon": [
+          "Le Seigneur console son peuple, il prend pitié de ceux qui pleurent."
+        ]
+      },
+      {
+        "psalm": "PSALM_34_3",
+        "antiphon": [
+          "Le Seigneur console son peuple, il prend pitié de ceux qui pleurent."
+        ]
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_40",
+        "antiphon": [
+          "Le Juste, mon serviteur, justifiera les multitudes."
+        ]
+      },
+      {
+        "psalm": "PSALM_45",
+        "antiphon": [
+          "La Vierge a mis au monde un fils&nbsp;: Emmanuel, Dieu avec nous."
+        ]
+      },
+      {
+        "psalm": "NT_11",
+        "antiphon": [
+          "Toi seul est saint, toi seul es le Seigneur&nbsp;!"
+        ]
+      }
+    ],
+    "oration": "<p>Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit&nbsp;: puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_4",
+        "antiphon": [
+          "Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire."
+        ]
+      },
+      {
+        "psalm": "PSALM_25"
+      },
+      {
+        "psalm": "PSALM_27"
+      }
+    ]
+  }
 }

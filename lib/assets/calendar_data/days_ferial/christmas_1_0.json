@@ -1,16 +1,60 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "vespersOration": "<p>Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple&nbsp;; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.</p>",
-  "morningPsalm1": "PSALM_62",
-  "morningPsalm2": "AT_41",
-  "morningPsalm3": "PSALM_149",
-  "readingsPsalm1": "PSALM_1",
-  "readingsPsalm2": "PSALM_2",
-  "readingsPsalm3": "PSALM_3",
-  "middleOfDayPsalm1": "PSALM_117_1",
-  "middleOfDayPsalm2": "PSALM_117_2",
-  "middleOfDayPsalm3": "PSALM_117_3",
-  "vespersPsalm1": "PSALM_109",
-  "vespersPsalm2": "PSALM_113A",
-  "vespersPsalm3": "NT_12"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_62"
+      },
+      {
+        "psalm": "AT_41"
+      },
+      {
+        "psalm": "PSALM_149"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_1"
+      },
+      {
+        "psalm": "PSALM_2"
+      },
+      {
+        "psalm": "PSALM_3"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_109"
+      },
+      {
+        "psalm": "PSALM_113A"
+      },
+      {
+        "psalm": "NT_12"
+      }
+    ],
+    "oration": "<p>Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple&nbsp;; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1"
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ]
+  }
 }

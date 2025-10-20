@@ -1,28 +1,92 @@
 {
-  "invitatoryAntiphon": "Le Roi qui va venir, venez, adorons-le.",
-  "invitatoryAntiphon2": "Allons au-devant de celui qui vient.",
-  "invitatoryAntiphon3": "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.",
-  "morningPsalm3Antiphon": "L’Esprit du Seigneur est sur moi, l’Esprit du Seigneur m’a choisi pour porter la Bonne Nouvelle à ses pauvres.",
-  "morningPsalm2Antiphon": "Pour la cause de Sion, je ne me tairai pas avant que son Juste ne monte comme l’aurore.",
-  "morningPsalm1Antiphon": "Il viendra de Sion, le Tout-Puissant, c’est lui qui sauvera son peuple.",
-  "vespersPsalm2Antiphon": "Pour la cause de Sion, je ne me tairai pas avant que son Juste ne monte comme l’aurore.",
-  "vespersPsalm3Antiphon": "Gloire au Christ, premier-né d’entre les morts, souverain des rois de la terre&nbsp;!",
-  "vespersPsalm1Antiphon": "Il viendra de Sion, le Tout-Puissant, c’est lui qui sauvera son peuple.",
-  "readingsPsalm2Antiphon": "Le Fils de l’homme a pouvoir sur la terre de remettre les péchés.",
-  "readingsPsalm3Antiphon": "Le Fils de l’homme a pouvoir sur la terre de remettre les péchés.",
-  "readingsPsalm1Antiphon": "Le Fils de l’homme a pouvoir sur la terre de remettre les péchés.",
-  "readingsVerse": "<p>V/ Viens, Seigneur, montre-nous ton visage,<br> et nous serons sauvés.</p>",
-  "middleOfDayPsalm1Antiphon": "Vierge bénie entre toutes les femmes, Jésus, ton Enfant, est béni&nbsp;!",
-  "morningPsalm1": "PSALM_107",
-  "morningPsalm2": "AT_30",
-  "morningPsalm3": "PSALM_145",
-  "readingsPsalm1": "PSALM_102_1",
-  "readingsPsalm2": "PSALM_102_2",
-  "readingsPsalm3": "PSALM_102_3",
-  "middleOfDayPsalm1": "PSALM_118_19",
-  "middleOfDayPsalm2": "PSALM_93_1",
-  "middleOfDayPsalm3": "PSALM_93_2",
-  "vespersPsalm1": "PSALM_138_1",
-  "vespersPsalm2": "PSALM_138_2",
-  "vespersPsalm3": "NT_6"
+  "invitatory": {
+    "antiphon": [
+      "Le Roi qui va venir, venez, adorons-le.",
+      "Allons au-devant de celui qui vient.",
+      "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_107",
+        "antiphon": [
+          "Il viendra de Sion, le Tout-Puissant, c’est lui qui sauvera son peuple."
+        ]
+      },
+      {
+        "psalm": "AT_30",
+        "antiphon": [
+          "Pour la cause de Sion, je ne me tairai pas avant que son Juste ne monte comme l’aurore."
+        ]
+      },
+      {
+        "psalm": "PSALM_145",
+        "antiphon": [
+          "L’Esprit du Seigneur est sur moi, l’Esprit du Seigneur m’a choisi pour porter la Bonne Nouvelle à ses pauvres."
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_102_1",
+        "antiphon": [
+          "Le Fils de l’homme a pouvoir sur la terre de remettre les péchés."
+        ]
+      },
+      {
+        "psalm": "PSALM_102_2",
+        "antiphon": [
+          "Le Fils de l’homme a pouvoir sur la terre de remettre les péchés."
+        ]
+      },
+      {
+        "psalm": "PSALM_102_3",
+        "antiphon": [
+          "Le Fils de l’homme a pouvoir sur la terre de remettre les péchés."
+        ]
+      }
+    ],
+    "verse": "<p>V/ Viens, Seigneur, montre-nous ton visage,<br> et nous serons sauvés.</p>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_138_1",
+        "antiphon": [
+          "Il viendra de Sion, le Tout-Puissant, c’est lui qui sauvera son peuple."
+        ]
+      },
+      {
+        "psalm": "PSALM_138_2",
+        "antiphon": [
+          "Pour la cause de Sion, je ne me tairai pas avant que son Juste ne monte comme l’aurore."
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "Gloire au Christ, premier-né d’entre les morts, souverain des rois de la terre&nbsp;!"
+        ]
+      }
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Vierge bénie entre toutes les femmes, Jésus, ton Enfant, est béni&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_93_1"
+      },
+      {
+        "psalm": "PSALM_93_2"
+      }
+    ]
+  }
 }

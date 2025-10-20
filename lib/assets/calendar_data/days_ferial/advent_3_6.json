@@ -1,34 +1,75 @@
 {
-  "invitatoryAntiphon": "Le Roi qui va venir, venez, adorons-le.",
-  "invitatoryAntiphon2": "Allons au-devant de celui qui vient.",
-  "invitatoryAntiphon3": "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.",
-  "morningPsalm2Antiphon": "Je regarde vers mon Dieu, j’attends mon Sauveur&nbsp;!",
-  "morningPsalm1Antiphon": "Dieu se lèvera du Liban, resplendissant comme l’aurore.",
-  "morningPsalm3Antiphon": "Prépare-toi, Israël, à rencontrer ton Dieu, car il vient&nbsp;!",
-  "morningReadingRef": "Is 11, 1-2",
-  "morningReading": "Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur.",
-  "morningResponsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente. * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-  "readingsPsalm1Antiphon": "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés.",
-  "readingsPsalm2Antiphon": "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés.",
-  "readingsPsalm3Antiphon": "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés.",
-  "readingsVerse": "<p>V/ Il révèle à Jacob sa parole,<br> ses volontés et ses lois à Israël.&nbsp;</p>",
-  "middleOfDayPsalm1Antiphon": "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés.",
-  "middleOfDaySexteReadingRef": "Is 4, 3",
-  "middleOfDaySexteReadingContent": "<p>Ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints&nbsp;: tous seront inscrits dans Jérusalem, et ils vivront.</p>",
-  "middleOfDayTierceReadingRef": "Is 4, 2",
-  "middleOfDayTierceReadingContent": "<p>En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terra sera leur fierté et leur couronne.</p>",
-  "middleOfDayNoneReadingRef": "Is 61, 11",
-  "middleOfDayNoneReadingContent": "<p>De même que la terre fait éclore ses germes, et qu’un jardin fait éclore ses semences, ainsi le Seigneur fera germer la justice et la louange devant toutes les nations.</p>",
-  "middleOfDaySexteResponsory": "<p>V/ Le Seigneur apparaîtra dans sa gloire&nbsp;:<br>—  le peuple nouveau chantera son Dieu.</p>",
-  "middleOfDayNoneResponsory": "<p>V/ Viens, Seigneur, ne tarde pas.<br>—  Remets à ton peuple ses péchés.</p>",
-  "middleOfDayTierceResponsory": "<p>V/ Les nations craindront le nom du Seigneur,<br>—  et tous les rois de la terre, sa gloire.</p>",
-  "morningPsalm1": "PSALM_118_19",
-  "morningPsalm2": "AT_10",
-  "morningPsalm3": "PSALM_116",
-  "readingsPsalm1": "PSALM_106_1",
-  "readingsPsalm2": "PSALM_106_2",
-  "readingsPsalm3": "PSALM_106_3",
-  "middleOfDayPsalm1": "PSALM_118_16",
-  "middleOfDayPsalm2": "PSALM_33_1",
-  "middleOfDayPsalm3": "PSALM_33_2"
+  "invitatory": {
+    "antiphon": [
+      "Le Roi qui va venir, venez, adorons-le.",
+      "Allons au-devant de celui qui vient.",
+      "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Dieu se lèvera du Liban, resplendissant comme l’aurore."
+        ]
+      },
+      {
+        "psalm": "AT_10",
+        "antiphon": [
+          "Je regarde vers mon Dieu, j’attends mon Sauveur&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_116",
+        "antiphon": [
+          "Prépare-toi, Israël, à rencontrer ton Dieu, car il vient&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Is 11, 1-2",
+      "content": "Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
+    },
+    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente. * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_106_1",
+        "antiphon": [
+          "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés."
+        ]
+      },
+      {
+        "psalm": "PSALM_106_2",
+        "antiphon": [
+          "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés."
+        ]
+      },
+      {
+        "psalm": "PSALM_106_3",
+        "antiphon": [
+          "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés."
+        ]
+      }
+    ],
+    "verse": "<p>V/ Il révèle à Jacob sa parole,<br> ses volontés et ses lois à Israël.&nbsp;</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_16",
+        "antiphon": [
+          "Le salut vient de Dieu&nbsp;: c’est par grâce que nous sommes sauvés."
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
+  }
 }

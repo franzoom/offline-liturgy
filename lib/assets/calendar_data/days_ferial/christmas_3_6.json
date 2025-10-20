@@ -1,16 +1,60 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "vespersOration": "<p>Dieu éternel et tout-puissant, tu as voulu que, dans ton Fils unique, nous devenions pour toi de nouvelles créatures&nbsp;; que ta grâce nous modèle à l’image du Christ en qui notre nature est unie à la tienne. Lui qui règne.</p>",
-  "morningPsalm1": "PSALM_118_19",
-  "morningPsalm2": "AT_10",
-  "morningPsalm3": "PSALM_116",
-  "readingsPsalm1": "PSALM_106_1",
-  "readingsPsalm2": "PSALM_106_2",
-  "readingsPsalm3": "PSALM_106_3",
-  "middleOfDayPsalm1": "PSALM_118_16",
-  "middleOfDayPsalm2": "PSALM_33_1",
-  "middleOfDayPsalm3": "PSALM_33_2",
-  "vespersPsalm1": "PSALM_112",
-  "vespersPsalm2": "PSALM_115",
-  "vespersPsalm3": "NT_5"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19"
+      },
+      {
+        "psalm": "AT_10"
+      },
+      {
+        "psalm": "PSALM_116"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_106_1"
+      },
+      {
+        "psalm": "PSALM_106_2"
+      },
+      {
+        "psalm": "PSALM_106_3"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_112"
+      },
+      {
+        "psalm": "PSALM_115"
+      },
+      {
+        "psalm": "NT_5"
+      }
+    ],
+    "oration": "<p>Dieu éternel et tout-puissant, tu as voulu que, dans ton Fils unique, nous devenions pour toi de nouvelles créatures&nbsp;; que ta grâce nous modèle à l’image du Christ en qui notre nature est unie à la tienne. Lui qui règne.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_16"
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
+  }
 }

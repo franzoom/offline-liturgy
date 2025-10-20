@@ -1,41 +1,85 @@
 {
+  "morning": {
+    "reading": {
+      "ref": "Is 9, 5",
+      "content": "Un enfant nous est né, un fils nous a été donné&nbsp;; l’insigne du pouvoir est sur son épaule&nbsp;; on proclame son nom&nbsp;: «&nbsp;Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-Paix&nbsp;»."
+    },
+    "evangelicAntiphon": "À la naissance du Seigneur, les anges chantaient&nbsp;: le salut est à notre Dieu qui siège sur le trône et à l’Agneau.",
+    "intercession": "<p>R/Amour sans limite, bénis sois-tu, Fils de Dieu&nbsp;!</p> <p>Toi qui étais au commencement avec le Père,<br> tu es venu, homme parmi les hommes, pour nous révéler que tout homme est un frère.</p> <p>Toi, le Tout-Puissant, tu t’es fait pauvre pour nous enrichir de ta pauvreté.</p> <p>Toi, le Seigneur et le Maître, tu t’es mis au rang du serviteur pour nous relever par ton abaissement.</p> <p>Toi, la lumière et la vie, tu es venu dans le monde pour nous arracher à la nuit de la mort.</p> <p>Toi, le Fils unique, tu t’es manifesté dans notre chair&nbsp;:<br> accorde à ceux qui te reçoivent de devenir enfants de Dieu.</p>",
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_84",
+        "antiphon": [
+          "Un jour viendra où la justice fleurira sur le monde."
+        ]
+      },
+      {
+        "psalm": "PSALM_88-I",
+        "antiphon": [
+          "Amour et vérité précèdent ta face, Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_88-II",
+        "antiphon": [
+          "Le Père a envoyé son Fils comme Sauveur du monde, alléluia."
+        ]
+      }
+    ],
+    "biblicalReading": {
+      "title": "Par le Christ tout est réconcilié",
+      "ref": "Col 1, 15 –&nbsp;2, 3",
+      "content": "<p>Christ est l’image du Dieu invisible, le premier-né, avant toute créature&nbsp;: en lui, tout fut créé, dans le ciel et sur la terre. Les êtres visibles et invisibles, Puissances, Principautés, Souverainetés, Dominations, tout est créé par lui et pour lui. Il est avant toute chose, et tout subsiste en lui.</p> <p>Il est aussi la tête du corps, la tête de l’Église&nbsp;: c’est lui le commencement, le premier-né d’entre les morts, afin qu’il ait en tout la primauté. Car Dieu a jugé bon qu’habite en lui toute plénitude et que tout, par le Christ, lui soit enfin réconcilié, faisant la paix par le sang de sa Croix, la paix pour tous les êtres sur la terre et dans le ciel.</p> <p>Et vous, vous étiez jadis étrangers à Dieu, et même ses ennemis, par vos pensées et vos actes mauvais. Mais maintenant, Dieu vous a réconciliés avec lui, dans le corps du Christ, son corps de chair, par sa mort, afin de vous introduire en sa présence, saints, immaculés, irréprochables. Cela se réalise si vous restez solidement fondés dans la foi, sans vous détourner de l’espérance que vous avez reçue en écoutant l’Évangile proclamé à toute créature sous le ciel. De cet Évangile, moi, Paul, je suis devenu ministre.</p> <p>Maintenant je trouve la joie dans les souffrances que je supporte pour vous&nbsp;; ce qui reste à souffrir des épreuves du Christ dans ma propre chair, je l’accomplis pour son corps qui est l’Église. De cette Église, je suis devenu ministre, et la mission que Dieu m’a confiée, c’est de mener à bien pour vous l’annonce de sa parole, le mystère qui était caché depuis toujours à toutes les générations, mais qui maintenant a été manifesté à ceux qu’il a sanctifiés. Car Dieu a bien voulu leur faire connaître en quoi consiste la gloire sans prix de ce mystère parmi toutes les nations&nbsp;: le Christ est parmi vous, lui, l’espérance de la gloire&nbsp;! Ce Christ, nous l’annonçons&nbsp;: nous avertissons tout homme, nous instruisons chacun en toute sagesse, afin de l’amener à sa perfection dans le Christ. C’est pour cela que je m’épuise à combattre, avec la force du Christ dont la puissance agit en moi.</p> <p>Je veux en effet que vous sachiez quel dur combat je mène pour vous, et aussi pour les fidèles de Laodicée et pour tant d’autres qui ne m’ont jamais vu personnellement. Je combats pour que leurs cœurs soient remplis de courage et pour que, rassemblés dans l’amour, ils accèdent à la plénitude de l’intelligence dans toute sa richesse, et à la vraie connaissance du mystère de Dieu. Ce mystère, c’est le Christ, en qui se trouvent cachés tous les trésors de la sagesse et de la connaissance.</p>",
+      "responsory": "<p>R/ Paix par le sang de la croix&nbsp;!</p> Christ est le commencement, Premier-né d’entre les morts.</p> Il a plu à Dieu de tout réconcilier par le Christ et pour lui, sur la terre et dans les cieux.</p> Le mystère tenu caché au long des âges, Dieu le manifeste maintenant à ses saints.</p>"
+    },
+    "patristicReading": {
+      "title": "RÉFUTATION DE TOUTES LES HÉRÉSIES PAR SAINT HIPPOLYTE",
+      "subtitle": "Christ a pris notre humanité pour que nous ayons part à sa divinité",
+      "content": "<p>Telle est notre foi ~&nbsp;: nous ne nous laissons pas persuader par des paroles creuses, ni entraîner par des caprices du cœur, ni fasciner par le charme de beaux discours. Mais nous acquiesçons aux paroles proférées par la puissance divine.</p> <p>Ce sont les ordres que Dieu donnait au Verbe, et le Verbe les prononçait par l’intermédiaire des prophètes pour détourner l’homme de la désobéissance. Il ne le réduisait pas en esclavage par la contrainte, mais il l’appelait à choisir volontairement la liberté.</p> <p>Ce Verbe, Dieu l’envoya dans les derniers temps, mais non pour que sa parole soit transmise par un prophète&nbsp;; car il ne voulait pas que le Verbe se fit seulement soupçonner à travers une proclamation obscure. Il l’a envoyé se manifester en personne aux yeux des hommes, pour que le monde, en le voyant, soit sauvé. ~</p> <p>Nous avons appris que ce Verbe a pris chair d’une vierge et qu’il a porté l’homme ancien en rénovant sa nature ~. Nous savons qu’il s’est fait homme, de la même pâte que nous. Car s’il n’était pas ainsi, c’est en vain qu’il nous aurait commandé de l’imiter comme notre maître. Si cet homme est d’une autre substance, comment peut-il me prescrire de faire comme lui, à moi qui suis faible par nature&nbsp;? Et alors où est sa bonté, sa justice&nbsp;?</p> <p>Pour bien faire comprendre qu’il n’est pas différent de nous, il a voulu supporter la fatigue et connaître la faim&nbsp;; il n’a pas refusé d’avoir soif, il a trouvé son repos dans le sommeil, il n’a pas refusé la souffrance, il s’est soumis à la mort et il a rendu manifeste sa résurrection. En tout cela il a offert comme prémices sa propre humanité afin que toi, dans ta souffrance, tu ne perdes pas courage, mais que, reconnaissant que tu es toi-même homme, tu attendes, toi aussi, ce que le Père a donné à cet homme-là. ~</p> <p>Grâce à la connaissance du vrai Dieu, tu auras un corps immortel et incorruptible comme l’âme elle-même&nbsp;; tu recevras en partage le Royaume des cieux parce que tu auras reconnu, tandis que tu vivais sur la terre, le Roi céleste. Tu seras le familier de Dieu et le cohéritier du Christ. Tu ne seras plus l’esclave des convoitises, des souffrances et des maladies, car tu es devenu un dieu.</p> <p>Toutes les souffrances que tu as subies comme homme, Dieu te les envoyait parce que tu es un homme. Et tout ce qui appartient à Dieu, Dieu a promis de te le donner, lorsque tu auras été déifié, et engendré à l’immortalité. Voilà ce que signifie la maxime&nbsp;: «&nbsp;Connais-toi toi-même&nbsp;»&nbsp;: connais-toi en connaissant le Dieu qui t’a créé. Car se connaître appartient à l’homme appelé par Dieu, du fait qu’il est connu de lui.</p> <p>Ne soyez donc pas ennemis de vous-mêmes&nbsp;; n’hésitez pas à revenir en arrière. Car<i>le Christ est Dieu, au-dessus de tout</i>, lui qui a prescrit de laver les hommes du péché, qui a donné à l’homme ancien la perfection de l’homme nouveau&nbsp;; dès le commencement, il l’a appelé son image, et par cette ressemblance il a montré sa tendresse pour toi. Si tu obéis à ses prescriptions saintes, si, en étant bon, tu imites celui qui est bon, tu deviendras semblable à lui et il te comblera d’honneur. Car Dieu n’est pas un mendiant, lui qui t’a fait dieu, toi aussi, pour sa gloire.</p>",
+      "responsory": "<p>R/ Louange au Père qui nous révèle les secrets du Royaume&nbsp;!</p> Au commencement était le Verbe, le Verbe s’est fait chair.</p> La Sagesse a mis ses délices à fréquenter les enfants des hommes.</p> Heureux ceux qui gardent ses voies&nbsp;! Heureux ceux qui écoutent la Parole&nbsp;!</p>"
+    },
+    "verse": "<p>V/ Sur toute l’étendu de la terre, alléluia,<br> on a vu le salut de notre Dieu, alléluia.</p>"
+  },
+  "vespers": {
+    "reading": {
+      "ref": "cf. 2 P 1, 3-4",
+      "content": "Le Christ, dans sa puissance divine, nous a fait don de tout ce qu’il faut pour vivre en hommes religieux, grâce à la véritable connaissance de Celui qui nous a appelés par la gloire et la force qui lui appartiennent. Ainsi, Dieu nous a fait don de grandes richesses promises et vous deviendrez participants de la nature divine, en fuyant la dégradation que le désir produit dans le monde."
+    },
+    "evangelicAntiphon": "Nous te glorifions, sainte Mère de Dieu&nbsp;: c’est de toi que le Christ est né. Intercède pour ceux qui te glorifient.",
+    "intercession": "<p>Invoquons le Christ, berger des peuples, né à Bethléem de Juda&nbsp;:</p> <p>R/Sois avec nous, Seigneur, Emmanuel&nbsp;!</p> <p>Ô Christ, Sauveur, désiré des peuples,<br> –&nbsp;répands ton Évangile dans les pays qui n’ont pas reçu ta parole.</p> <p>Ô Christ, Seigneur, fais grandir ton Église, élargis ses demeures&nbsp;:<br> –&nbsp;qu’elle accueille les hommes de toutes les races.</p> <p>Ô Christ, Roi des rois, dirige l’esprit des chefs d’état&nbsp;:<br> –&nbsp;qu’ils recherchent la justice et la paix.</p> <p>Ô Christ, ami des pauvres,<br> –&nbsp;veille sur l’isolé, affermis la foi des persécutés.</p> <p>Ô Christ, consolateur de ceux qui pleurent, sois le courage des mourants,<br> –&nbsp;établis-les dans ta joie.</p>",
+    "responsory": "<p>R/ Le Verbe s’est fait chair.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a demeuré parmi nous. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+  },
+  "middleOfDay": {
+    "tierce": {
+      "reading": {
+        "ref": "Dt 4, 7",
+        "content": "Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons&nbsp;?"
+      },
+      "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
+    },
+    "sexte": {
+      "reading": {
+        "ref": "Is 12, 5-6",
+        "content": "Jouez pour le Seigneur&nbsp;! Car il a fait la merveille connue de toute la terre. Jubilez, criez de joie, habitants de Sion, car il est grand au milieu de toi, le Saint d’Israël."
+      },
+      "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
+    },
+    "none": {
+      "reading": {
+        "ref": "Cf. Tb 14, 6-7",
+        "content": "Tous abandonneront leurs idoles trompeuses, ils se rassembleront et viendront à Jérusalem. Ceux qui aiment Dieu en vérité seront dans la joie."
+      },
+      "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
+    }
+  },
   "celebrationTitle": "6<sup>ème</sup> Jour dans l’octave de la Nativité",
   "liturgicalGrade": 9,
   "liturgicalColor": "white",
-  "commons": ["christmas"],
-  "readingsPsalm1Antiphon": "Un jour viendra où la justice fleurira sur le monde.",
-  "readingsPsalm2Antiphon": "Amour et vérité précèdent ta face, Seigneur.",
-  "readingsPsalm3Antiphon": "Le Père a envoyé son Fils comme Sauveur du monde, alléluia.",
-  "readingsVerse": "<p>V/ Sur toute l’étendu de la terre, alléluia,<br> on a vu le salut de notre Dieu, alléluia.</p>",
-  "readingsBiblicalReadingTitle": "Par le Christ tout est réconcilié",
-  "readingsBiblicalReadingRef": "Col 1, 15 –&nbsp;2, 3",
-  "readingsBiblicalReadingContent": "<p>Christ est l’image du Dieu invisible, le premier-né, avant toute créature&nbsp;: en lui, tout fut créé, dans le ciel et sur la terre. Les êtres visibles et invisibles, Puissances, Principautés, Souverainetés, Dominations, tout est créé par lui et pour lui. Il est avant toute chose, et tout subsiste en lui.</p> <p>Il est aussi la tête du corps, la tête de l’Église&nbsp;: c’est lui le commencement, le premier-né d’entre les morts, afin qu’il ait en tout la primauté. Car Dieu a jugé bon qu’habite en lui toute plénitude et que tout, par le Christ, lui soit enfin réconcilié, faisant la paix par le sang de sa Croix, la paix pour tous les êtres sur la terre et dans le ciel.</p> <p>Et vous, vous étiez jadis étrangers à Dieu, et même ses ennemis, par vos pensées et vos actes mauvais. Mais maintenant, Dieu vous a réconciliés avec lui, dans le corps du Christ, son corps de chair, par sa mort, afin de vous introduire en sa présence, saints, immaculés, irréprochables. Cela se réalise si vous restez solidement fondés dans la foi, sans vous détourner de l’espérance que vous avez reçue en écoutant l’Évangile proclamé à toute créature sous le ciel. De cet Évangile, moi, Paul, je suis devenu ministre.</p> <p>Maintenant je trouve la joie dans les souffrances que je supporte pour vous&nbsp;; ce qui reste à souffrir des épreuves du Christ dans ma propre chair, je l’accomplis pour son corps qui est l’Église. De cette Église, je suis devenu ministre, et la mission que Dieu m’a confiée, c’est de mener à bien pour vous l’annonce de sa parole, le mystère qui était caché depuis toujours à toutes les générations, mais qui maintenant a été manifesté à ceux qu’il a sanctifiés. Car Dieu a bien voulu leur faire connaître en quoi consiste la gloire sans prix de ce mystère parmi toutes les nations&nbsp;: le Christ est parmi vous, lui, l’espérance de la gloire&nbsp;! Ce Christ, nous l’annonçons&nbsp;: nous avertissons tout homme, nous instruisons chacun en toute sagesse, afin de l’amener à sa perfection dans le Christ. C’est pour cela que je m’épuise à combattre, avec la force du Christ dont la puissance agit en moi.</p> <p>Je veux en effet que vous sachiez quel dur combat je mène pour vous, et aussi pour les fidèles de Laodicée et pour tant d’autres qui ne m’ont jamais vu personnellement. Je combats pour que leurs cœurs soient remplis de courage et pour que, rassemblés dans l’amour, ils accèdent à la plénitude de l’intelligence dans toute sa richesse, et à la vraie connaissance du mystère de Dieu. Ce mystère, c’est le Christ, en qui se trouvent cachés tous les trésors de la sagesse et de la connaissance.</p>",
-  "readingsBiblicalReadingResponsory": "<p>R/ Paix par le sang de la croix&nbsp;!</p> Christ est le commencement, Premier-né d’entre les morts.</p> Il a plu à Dieu de tout réconcilier par le Christ et pour lui, sur la terre et dans les cieux.</p> Le mystère tenu caché au long des âges, Dieu le manifeste maintenant à ses saints.</p>",
-  "readingsPatristicReadingTitle": "RÉFUTATION DE TOUTES LES HÉRÉSIES PAR SAINT HIPPOLYTE",
-  "readingsPatristicReadingSubtitle": "Christ a pris notre humanité pour que nous ayons part à sa divinité",
-  "readingsPatristicReadingContent": "<p>Telle est notre foi ~&nbsp;: nous ne nous laissons pas persuader par des paroles creuses, ni entraîner par des caprices du cœur, ni fasciner par le charme de beaux discours. Mais nous acquiesçons aux paroles proférées par la puissance divine.</p> <p>Ce sont les ordres que Dieu donnait au Verbe, et le Verbe les prononçait par l’intermédiaire des prophètes pour détourner l’homme de la désobéissance. Il ne le réduisait pas en esclavage par la contrainte, mais il l’appelait à choisir volontairement la liberté.</p> <p>Ce Verbe, Dieu l’envoya dans les derniers temps, mais non pour que sa parole soit transmise par un prophète&nbsp;; car il ne voulait pas que le Verbe se fit seulement soupçonner à travers une proclamation obscure. Il l’a envoyé se manifester en personne aux yeux des hommes, pour que le monde, en le voyant, soit sauvé. ~</p> <p>Nous avons appris que ce Verbe a pris chair d’une vierge et qu’il a porté l’homme ancien en rénovant sa nature ~. Nous savons qu’il s’est fait homme, de la même pâte que nous. Car s’il n’était pas ainsi, c’est en vain qu’il nous aurait commandé de l’imiter comme notre maître. Si cet homme est d’une autre substance, comment peut-il me prescrire de faire comme lui, à moi qui suis faible par nature&nbsp;? Et alors où est sa bonté, sa justice&nbsp;?</p> <p>Pour bien faire comprendre qu’il n’est pas différent de nous, il a voulu supporter la fatigue et connaître la faim&nbsp;; il n’a pas refusé d’avoir soif, il a trouvé son repos dans le sommeil, il n’a pas refusé la souffrance, il s’est soumis à la mort et il a rendu manifeste sa résurrection. En tout cela il a offert comme prémices sa propre humanité afin que toi, dans ta souffrance, tu ne perdes pas courage, mais que, reconnaissant que tu es toi-même homme, tu attendes, toi aussi, ce que le Père a donné à cet homme-là. ~</p> <p>Grâce à la connaissance du vrai Dieu, tu auras un corps immortel et incorruptible comme l’âme elle-même&nbsp;; tu recevras en partage le Royaume des cieux parce que tu auras reconnu, tandis que tu vivais sur la terre, le Roi céleste. Tu seras le familier de Dieu et le cohéritier du Christ. Tu ne seras plus l’esclave des convoitises, des souffrances et des maladies, car tu es devenu un dieu.</p> <p>Toutes les souffrances que tu as subies comme homme, Dieu te les envoyait parce que tu es un homme. Et tout ce qui appartient à Dieu, Dieu a promis de te le donner, lorsque tu auras été déifié, et engendré à l’immortalité. Voilà ce que signifie la maxime&nbsp;: «&nbsp;Connais-toi toi-même&nbsp;»&nbsp;: connais-toi en connaissant le Dieu qui t’a créé. Car se connaître appartient à l’homme appelé par Dieu, du fait qu’il est connu de lui.</p> <p>Ne soyez donc pas ennemis de vous-mêmes&nbsp;; n’hésitez pas à revenir en arrière. Car<i>le Christ est Dieu, au-dessus de tout</i>, lui qui a prescrit de laver les hommes du péché, qui a donné à l’homme ancien la perfection de l’homme nouveau&nbsp;; dès le commencement, il l’a appelé son image, et par cette ressemblance il a montré sa tendresse pour toi. Si tu obéis à ses prescriptions saintes, si, en étant bon, tu imites celui qui est bon, tu deviendras semblable à lui et il te comblera d’honneur. Car Dieu n’est pas un mendiant, lui qui t’a fait dieu, toi aussi, pour sa gloire.</p>",
-  "readingsPatristicReadingResponsory": "<p>R/ Louange au Père qui nous révèle les secrets du Royaume&nbsp;!</p> Au commencement était le Verbe, le Verbe s’est fait chair.</p> La Sagesse a mis ses délices à fréquenter les enfants des hommes.</p> Heureux ceux qui gardent ses voies&nbsp;! Heureux ceux qui écoutent la Parole&nbsp;!</p>",
-  "readingsPsalm1": "PSALM_84",
-  "readingsPsalm2": "PSALM_88-I",
-  "readingsPsalm3": "PSALM_88-II",
-  "morningEvangelicAntiphon": "À la naissance du Seigneur, les anges chantaient&nbsp;: le salut est à notre Dieu qui siège sur le trône et à l’Agneau.",
-  "morningReadingRef": "Is 9, 5",
-  "morningReading": "Un enfant nous est né, un fils nous a été donné&nbsp;; l’insigne du pouvoir est sur son épaule&nbsp;; on proclame son nom&nbsp;: «&nbsp;Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-Paix&nbsp;».",
-  "morningIntercession": "<p>R/Amour sans limite, bénis sois-tu, Fils de Dieu&nbsp;!</p> <p>Toi qui étais au commencement avec le Père,<br> tu es venu, homme parmi les hommes, pour nous révéler que tout homme est un frère.</p> <p>Toi, le Tout-Puissant, tu t’es fait pauvre pour nous enrichir de ta pauvreté.</p> <p>Toi, le Seigneur et le Maître, tu t’es mis au rang du serviteur pour nous relever par ton abaissement.</p> <p>Toi, la lumière et la vie, tu es venu dans le monde pour nous arracher à la nuit de la mort.</p> <p>Toi, le Fils unique, tu t’es manifesté dans notre chair&nbsp;:<br> accorde à ceux qui te reçoivent de devenir enfants de Dieu.</p>",
-  "morningResponsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-  "middleOfDayReading1Ref": "Dt 4, 7",
-  "middleOfDayReading1Content": "Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons&nbsp;?",
-  "middleOfDayResponsory1": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>",
-  "middleOfDayReading2Ref": "Is 12, 5-6",
-  "middleOfDayReading2Content": "Jouez pour le Seigneur&nbsp;! Car il a fait la merveille connue de toute la terre. Jubilez, criez de joie, habitants de Sion, car il est grand au milieu de toi, le Saint d’Israël.",
-  "middleOfDayResponsory2": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>",
-  "middleOfDayReading3Ref": "Cf. Tb 14, 6-7",
-  "middleOfDayReading3Content": "Tous abandonneront leurs idoles trompeuses, ils se rassembleront et viendront à Jérusalem. Ceux qui aiment Dieu en vérité seront dans la joie.",
-  "middleOfDayResponsory3": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>",
-  "vespersEvangelicAntiphon": "Nous te glorifions, sainte Mère de Dieu&nbsp;: c’est de toi que le Christ est né. Intercède pour ceux qui te glorifient.",
-  "vespersReadingRef": "cf. 2 P 1, 3-4",
-  "vespersReading": "Le Christ, dans sa puissance divine, nous a fait don de tout ce qu’il faut pour vivre en hommes religieux, grâce à la véritable connaissance de Celui qui nous a appelés par la gloire et la force qui lui appartiennent. Ainsi, Dieu nous a fait don de grandes richesses promises et vous deviendrez participants de la nature divine, en fuyant la dégradation que le désir produit dans le monde.",
-  "vespersIntercession": "<p>Invoquons le Christ, berger des peuples, né à Bethléem de Juda&nbsp;:</p> <p>R/Sois avec nous, Seigneur, Emmanuel&nbsp;!</p> <p>Ô Christ, Sauveur, désiré des peuples,<br> –&nbsp;répands ton Évangile dans les pays qui n’ont pas reçu ta parole.</p> <p>Ô Christ, Seigneur, fais grandir ton Église, élargis ses demeures&nbsp;:<br> –&nbsp;qu’elle accueille les hommes de toutes les races.</p> <p>Ô Christ, Roi des rois, dirige l’esprit des chefs d’état&nbsp;:<br> –&nbsp;qu’ils recherchent la justice et la paix.</p> <p>Ô Christ, ami des pauvres,<br> –&nbsp;veille sur l’isolé, affermis la foi des persécutés.</p> <p>Ô Christ, consolateur de ceux qui pleurent, sois le courage des mourants,<br> –&nbsp;établis-les dans ta joie.</p>",
-  "vespersResponsory": "<p>R/ Le Verbe s’est fait chair.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a demeuré parmi nous. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+  "commons": [
+    "christmas"
+  ],
   "oration": "Nous t'en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne."
 }

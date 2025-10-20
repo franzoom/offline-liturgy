@@ -1,5 +1,15 @@
 {
-  "middleOfDayPsalm1": "PSALM_118_20",
-  "middleOfDayPsalm2": "PSALM_127",
-  "middleOfDayPsalm3": "PSALM_128"
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_20"
+      },
+      {
+        "psalm": "PSALM_127"
+      },
+      {
+        "psalm": "PSALM_128"
+      }
+    ]
+  }
 }

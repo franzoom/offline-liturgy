@@ -1,26 +1,90 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "morningPsalm2Antiphon": "Je chanterai pour mon Dieu un chant nouveau.",
-  "morningPsalm3Antiphon": "Acclamez Dieu par vos cris de joie.",
-  "morningPsalm1Antiphon": "Le Verbe était la vraie lumière qui éclaire tout homme.",
-  "vespersPsalm3Antiphon": "Tu es l’image du Dieu invisible, le premier-né avant toute créature.",
-  "vespersPsalm2Antiphon": "Tu es la vraie lumière, le Sauveur du monde.",
-  "vespersPsalm1Antiphon": "Tu es la vraie lumière, le Sauveur du monde.",
-  "vespersOration": "Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne.",
-  "readingsPsalm3Antiphon": "Qui invoquera le nom de Jésus sera sauvé.",
-  "readingsPsalm2Antiphon": "Qui invoquera le nom de Jésus sera sauvé.",
-  "readingsPsalm1Antiphon": "Qui invoquera le nom de Jésus sera sauvé.",
-  "middleOfDayPsalm1Antiphon": "Nous avons vu la gloire de Dieu sur la face de son Christ.",
-  "morningPsalm1": "PSALM_35",
-  "morningPsalm2": "AT_7",
-  "morningPsalm3": "PSALM_46",
-  "readingsPsalm1": "PSALM_17_1",
-  "readingsPsalm2": "PSALM_17_2",
-  "readingsPsalm3": "PSALM_17_3",
-  "middleOfDayPsalm1": "PSALM_118_2",
-  "middleOfDayPsalm2": "PSALM_16_1",
-  "middleOfDayPsalm3": "PSALM_16_2",
-  "vespersPsalm1": "PSALM_26_1",
-  "vespersPsalm2": "PSALM_26_2",
-  "vespersPsalm3": "NT_6"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_35",
+        "antiphon": [
+          "Le Verbe était la vraie lumière qui éclaire tout homme."
+        ]
+      },
+      {
+        "psalm": "AT_7",
+        "antiphon": [
+          "Je chanterai pour mon Dieu un chant nouveau."
+        ]
+      },
+      {
+        "psalm": "PSALM_46",
+        "antiphon": [
+          "Acclamez Dieu par vos cris de joie."
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_17_1",
+        "antiphon": [
+          "Qui invoquera le nom de Jésus sera sauvé."
+        ]
+      },
+      {
+        "psalm": "PSALM_17_2",
+        "antiphon": [
+          "Qui invoquera le nom de Jésus sera sauvé."
+        ]
+      },
+      {
+        "psalm": "PSALM_17_3",
+        "antiphon": [
+          "Qui invoquera le nom de Jésus sera sauvé."
+        ]
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_26_1",
+        "antiphon": [
+          "Tu es la vraie lumière, le Sauveur du monde."
+        ]
+      },
+      {
+        "psalm": "PSALM_26_2",
+        "antiphon": [
+          "Tu es la vraie lumière, le Sauveur du monde."
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "Tu es l’image du Dieu invisible, le premier-né avant toute créature."
+        ]
+      }
+    ],
+    "oration": "Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne."
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_2",
+        "antiphon": [
+          "Nous avons vu la gloire de Dieu sur la face de son Christ."
+        ]
+      },
+      {
+        "psalm": "PSALM_16_1"
+      },
+      {
+        "psalm": "PSALM_16_2"
+      }
+    ]
+  }
 }

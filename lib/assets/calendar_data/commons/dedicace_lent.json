@@ -1,9 +1,21 @@
 {
+  "readings": {
+    "biblicalReading": {
+      "title": "",
+      "ref": "1R 8",
+      "content": ""
+    }
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "NT_11",
+        "antiphon": [
+          "Toutes les nations viendront se prosterner devant toi."
+        ]
+      }
+    ]
+  },
   "firstVespersPsalm3Antiphon": "Gloire à toi, Seigneur, par le Christ dans l'Église.",
-  "firstVerspersPsalm3": "NT_6",
-  "readingsBiblicalReadingTitle": "",
-  "readingsBiblicalReadingRef": "1R 8",
-  "readingsBiblicalReadingContent": "",
-  "vespersPsalm3Antiphon": "Toutes les nations viendront se prosterner devant toi.",
-  "vespersPsalm3": "NT_11"
+  "firstVerspersPsalm3": "NT_6"
 }

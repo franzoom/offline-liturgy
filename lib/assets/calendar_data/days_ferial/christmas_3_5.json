@@ -1,16 +1,60 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "vespersOration": "<p>Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde&nbsp;; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère.</p>",
-  "morningPsalm1": "PSALM_50",
-  "morningPsalm2": "AT_34",
-  "morningPsalm3": "PSALM_99",
-  "readingsPsalm1": "PSALM_68_1",
-  "readingsPsalm2": "PSALM_68_2",
-  "readingsPsalm3": "PSALM_68_3",
-  "middleOfDayPsalm1": "PSALM_21_1",
-  "middleOfDayPsalm2": "PSALM_21_2",
-  "middleOfDayPsalm3": "PSALM_21_3",
-  "vespersPsalm1": "PSALM_134_1",
-  "vespersPsalm2": "PSALM_134_2",
-  "vespersPsalm3": "NT_11"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_50"
+      },
+      {
+        "psalm": "AT_34"
+      },
+      {
+        "psalm": "PSALM_99"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_68_1"
+      },
+      {
+        "psalm": "PSALM_68_2"
+      },
+      {
+        "psalm": "PSALM_68_3"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_134_1"
+      },
+      {
+        "psalm": "PSALM_134_2"
+      },
+      {
+        "psalm": "NT_11"
+      }
+    ],
+    "oration": "<p>Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde&nbsp;; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_21_1"
+      },
+      {
+        "psalm": "PSALM_21_2"
+      },
+      {
+        "psalm": "PSALM_21_3"
+      }
+    ]
+  }
 }

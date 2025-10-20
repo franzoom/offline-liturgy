@@ -1,25 +1,87 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "morningPsalm1Antiphon": "Ton amour est plus grand que les cieux.",
-  "morningPsalm2Antiphon": "Il est venu nous rassembler comme un berger son troupeau.",
-  "morningPsalm3Antiphon": "Dieu est notre Dieu pour toujours.",
-  "vespersPsalm1Antiphon": "Fêtez le Seigneur, vous, ses fidèles&nbsp;!",
-  "vespersPsalm2Antiphon": "Aujourd’hui est arrivé notre salut&nbsp;: le Fils de l’homme est venu sauver ce qui était perdu.",
-  "vespersOration": "<p>Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils&nbsp;; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne.</p>",
-  "readingsPsalm1Antiphon": "Je te rendrai grâce parmi les peuples, Seigneur, mon Dieu.",
-  "readingsPsalm3Antiphon": "Je te rendrai grâce parmi les peuples, Seigneur, mon Dieu.",
-  "readingsPsalm2Antiphon": "Je te rendrai grâce parmi les peuples, Seigneur, mon Dieu.",
-  "middleOfDayPsalm1Antiphon": "Dieu enseigne aux humbles son chemin, il leur fait connaître son alliance.",
-  "morningPsalm1": "PSALM_56",
-  "morningPsalm2": "AT_36",
-  "morningPsalm3": "PSALM_47",
-  "readingsPsalm1": "PSALM_17_4",
-  "readingsPsalm2": "PSALM_17_5",
-  "readingsPsalm3": "PSALM_17_6",
-  "middleOfDayPsalm1": "PSALM_118_3",
-  "middleOfDayPsalm2": "PSALM_24_1",
-  "middleOfDayPsalm3": "PSALM_24_2",
-  "vespersPsalm1": "PSALM_29",
-  "vespersPsalm2": "PSALM_31",
-  "vespersPsalm3": "NT_10"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_56",
+        "antiphon": [
+          "Ton amour est plus grand que les cieux."
+        ]
+      },
+      {
+        "psalm": "AT_36",
+        "antiphon": [
+          "Il est venu nous rassembler comme un berger son troupeau."
+        ]
+      },
+      {
+        "psalm": "PSALM_47",
+        "antiphon": [
+          "Dieu est notre Dieu pour toujours."
+        ]
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_17_4",
+        "antiphon": [
+          "Je te rendrai grâce parmi les peuples, Seigneur, mon Dieu."
+        ]
+      },
+      {
+        "psalm": "PSALM_17_5",
+        "antiphon": [
+          "Je te rendrai grâce parmi les peuples, Seigneur, mon Dieu."
+        ]
+      },
+      {
+        "psalm": "PSALM_17_6",
+        "antiphon": [
+          "Je te rendrai grâce parmi les peuples, Seigneur, mon Dieu."
+        ]
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_29",
+        "antiphon": [
+          "Fêtez le Seigneur, vous, ses fidèles&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_31",
+        "antiphon": [
+          "Aujourd’hui est arrivé notre salut&nbsp;: le Fils de l’homme est venu sauver ce qui était perdu."
+        ]
+      },
+      {
+        "psalm": "NT_10"
+      }
+    ],
+    "oration": "<p>Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils&nbsp;; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_3",
+        "antiphon": [
+          "Dieu enseigne aux humbles son chemin, il leur fait connaître son alliance."
+        ]
+      },
+      {
+        "psalm": "PSALM_24_1"
+      },
+      {
+        "psalm": "PSALM_24_2"
+      }
+    ]
+  }
 }

@@ -1,16 +1,60 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "vespersOration": "<p>Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu&nbsp;; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne.</p>",
-  "morningPsalm1": "PSALM_84",
-  "morningPsalm2": "AT_20",
-  "morningPsalm3": "PSALM_66",
-  "readingsPsalm1": "PSALM_67_1",
-  "readingsPsalm2": "PSALM_67_2",
-  "readingsPsalm3": "PSALM_67_3",
-  "middleOfDayPsalm1": "PSALM_118_13",
-  "middleOfDayPsalm2": "PSALM_73_1",
-  "middleOfDayPsalm3": "PSALM_73_2",
-  "vespersPsalm1": "PSALM_124",
-  "vespersPsalm2": "PSALM_130",
-  "vespersPsalm3": "NT_9"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_84"
+      },
+      {
+        "psalm": "AT_20"
+      },
+      {
+        "psalm": "PSALM_66"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_67_1"
+      },
+      {
+        "psalm": "PSALM_67_2"
+      },
+      {
+        "psalm": "PSALM_67_3"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_124"
+      },
+      {
+        "psalm": "PSALM_130"
+      },
+      {
+        "psalm": "NT_9"
+      }
+    ],
+    "oration": "<p>Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu&nbsp;; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_13"
+      },
+      {
+        "psalm": "PSALM_73_1"
+      },
+      {
+        "psalm": "PSALM_73_2"
+      }
+    ]
+  }
 }

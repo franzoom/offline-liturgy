@@ -1,74 +1,138 @@
 {
-  "invitatoryAntiphon": "Adorons le Seigneur, il est notre Dieu.",
-  "morningHymn": [
-    "beni-de-dieu"
-  ],
-  "morningPsalm1Antiphon": "Envoie ta lumière et ta vérité&nbsp;: qu’elles guident mes pas&nbsp;!",
-  "morningPsalm1Antiphon2": "Tu es mon sauveur et mon Dieu&nbsp;: de nouveau je te rendrai grâce.",
-  "morningPsalm2Antiphon": "Tu me guériras, tu me feras vivre, et je chanterai ta louange.",
-  "morningPsalm2Antiphon2": "Le Seigneur n’est pas le Dieu des morts, mais le Dieu des vivants.",
-  "morningPsalm3Antiphon": "Heureux ton familier, ton élu, il habite ta demeure.",
-  "morningPsalm3Antiphon2": "Ta parole, Seigneur, féconde notre terre et prépare les moissons.",
-  "morningEvangelicAntiphon": "Béni sois-tu, Seigneur, qui fis les soirs et les matins&nbsp;!",
-  "morningReadingRef": "1 Th 5, 4-5",
-  "morningReading": "Frères, puisque vous n’êtes pas dans les ténèbres, le jour du Seigneur ne vous surprendra pas comme un voleur. En effet, vous êtes tous des fils de la lumière, des fils du jour&nbsp;; nous n’appartenons pas à la nuit et aux ténèbres.",
-  "morningIntercession": "<p>Par le Fils, et dans l’Esprit,<br> adressons notre prière au Père qui nous aime&nbsp;:</p> <p>R/ Fais-nous vivre de ton Esprit.</p> <p>Au matin du monde,<br> ton Esprit sur les eaux éveillait la vie.<br> —&nbsp;Éveille-nous à ta louange, pour ton service.</p> <p>À l’aube du salut,<br> ton Esprit en Marie formait le Messie.<br> —&nbsp;Forme-nous à l’obéissance, pour ton règne.</p> <p>Au jour de la Pentecôte,<br> ton Esprit parlait par la bouche des Apôtres.<br> —&nbsp;Mets sur nos lèvres la parole qui sauve.</p> <p>Au matin de ce jour,<br> l’Esprit travaille en nous.<br> —&nbsp;Qu’il habite nos prières et féconde nos efforts.</p> ",
-  "morningResponsory": "<p>R/ En toi est la source de la vie,<br>  * Par ta lumière, nous voyons la lumière.<br> V/ Seigneur, qu’il est précieux, ton amour. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-  "morningOration": "Seigneur, tu ouvres à ceux qui t’aiment les richesses de ton Esprit Saint, et tu fais grandir en eux ta propre vie en leur donnant part au corps de ton Fils&nbsp;; aide-les à se comporter dans le monde en enfants de Dieu appelés à la liberté&nbsp;: qu’ils répondent par la sainteté de leur vie à la mission prophétique de l’Église.",
-  "vespersHymn": [
-    "seigneur-au-seuil-de-cette-nuit"
-  ],
-  "vespersPsalm1Antiphon": "L’homme comblé ne dure pas&nbsp;!",
-  "vespersPsalm3Antiphon": "Tu nous as rachetés par ton sang, Seigneur&nbsp;; tu fis de nous un peuple de rois.",
-  "vespersPsalm2Antiphon": "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?",
-  "vespersEvangelicAntiphon": "Exultez dans le Christ&nbsp;: il vous enrichit par sa pauvreté.",
-  "vespersReadingRef": "Rm 3, 23-25a",
-  "vespersReading": "Tous les hommes sont pécheurs, ils sont tous privés de la gloire de Dieu, lui qui leur donne d’être des justes par sa seule grâce, en vertu de la rédemption accomplie dans le Christ Jésus. Car Dieu a exposé le Christ sur la croix afin que, par l’offrande de son sang, il soit le pardon pour ceux qui croient en lui. Ainsi Dieu voulait manifester sa justice.",
-  "vespersIntercession": "<p>Dans la confiance, prions le Christ qui fortifie son peuple et le conduit&nbsp;:</p> <p>R/ Garde-nous sur tes chemins.</p> <p>Ô Christ, Sagesse du Père, donne-nous d’entendre ta parole<br> —&nbsp;et de la mettre en pratique.</p> <p>Lumière des nations, éclaire ceux qui les gouvernent&nbsp;:<br> —&nbsp;qu’ils soient attentifs au bien des peuples.</p> <p>Dispensateur des dons de Dieu, tu as nourri les foules&nbsp;;<br> —&nbsp;que ta pitié nous porte à donner ce que nous avons à ceux qui n’ont rien.</p> <p>Médecin des âmes et des corps, suscite en nous ta charité,<br> —&nbsp;pour que nous visitions les malades, nos frères.</p> <p>Gloire du Père, vie et résurrection de nos morts,<br> —&nbsp;reçois-les dans ton Royaume.</p> ",
-  "vespersResponsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-  "vespersOration": "Seigneur Dieu, à toi le jour, à toi les nuits&nbsp;! Tu nous les donnes pour rythmer notre vie&nbsp;: à travers ombres et lumières, conduis-nous au jour qui ne finira pas.",
+  "invitatory": {
+    "antiphon": [
+      "Adorons le Seigneur, il est notre Dieu."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_42",
+        "antiphon": [
+          "Envoie ta lumière et ta vérité&nbsp;: qu’elles guident mes pas&nbsp;!",
+          "Tu es mon sauveur et mon Dieu&nbsp;: de nouveau je te rendrai grâce."
+        ]
+      },
+      {
+        "psalm": "AT_23",
+        "antiphon": [
+          "Tu me guériras, tu me feras vivre, et je chanterai ta louange.",
+          "Le Seigneur n’est pas le Dieu des morts, mais le Dieu des vivants."
+        ]
+      },
+      {
+        "psalm": "PSALM_64",
+        "antiphon": [
+          "Heureux ton familier, ton élu, il habite ta demeure.",
+          "Ta parole, Seigneur, féconde notre terre et prépare les moissons."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "1 Th 5, 4-5",
+      "content": "Frères, puisque vous n’êtes pas dans les ténèbres, le jour du Seigneur ne vous surprendra pas comme un voleur. En effet, vous êtes tous des fils de la lumière, des fils du jour&nbsp;; nous n’appartenons pas à la nuit et aux ténèbres."
+    },
+    "hymn": [
+      "beni-de-dieu"
+    ],
+    "evangelicAntiphon": "Béni sois-tu, Seigneur, qui fis les soirs et les matins&nbsp;!",
+    "intercession": "<p>Par le Fils, et dans l’Esprit,<br> adressons notre prière au Père qui nous aime&nbsp;:</p> <p>R/ Fais-nous vivre de ton Esprit.</p> <p>Au matin du monde,<br> ton Esprit sur les eaux éveillait la vie.<br> —&nbsp;Éveille-nous à ta louange, pour ton service.</p> <p>À l’aube du salut,<br> ton Esprit en Marie formait le Messie.<br> —&nbsp;Forme-nous à l’obéissance, pour ton règne.</p> <p>Au jour de la Pentecôte,<br> ton Esprit parlait par la bouche des Apôtres.<br> —&nbsp;Mets sur nos lèvres la parole qui sauve.</p> <p>Au matin de ce jour,<br> l’Esprit travaille en nous.<br> —&nbsp;Qu’il habite nos prières et féconde nos efforts.</p> ",
+    "responsory": "<p>R/ En toi est la source de la vie,<br>  * Par ta lumière, nous voyons la lumière.<br> V/ Seigneur, qu’il est précieux, ton amour. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "oration": "Seigneur, tu ouvres à ceux qui t’aiment les richesses de ton Esprit Saint, et tu fais grandir en eux ta propre vie en leur donnant part au corps de ton Fils&nbsp;; aide-les à se comporter dans le monde en enfants de Dieu appelés à la liberté&nbsp;: qu’ils répondent par la sainteté de leur vie à la mission prophétique de l’Église."
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_36_1",
+        "antiphon": [
+          "Remets ta vie au Seigneur, il la conduira."
+        ]
+      },
+      {
+        "psalm": "PSALM_36_2",
+        "antiphon": [
+          "Évite le mal, agis bien&nbsp;: le Seigneur soutient les justes."
+        ]
+      },
+      {
+        "psalm": "PSALM_36_3",
+        "antiphon": [
+          "Espère en Dieu et garde sa route."
+        ]
+      }
+    ],
+    "biblicalReading": {
+      "title": "Loi d’amour",
+      "ref": "Dt 6, 4-25",
+      "content": "<p>Écoute, Israël&nbsp;: le SEIGNEUR notre Dieu est l’Unique. Tu aimeras le SEIGNEUR ton Dieu de tout ton cœur, de toute ton âme et de toute ta force. Ces paroles que je te donne aujourd’hui resteront dans ton cœur. Tu les rediras à tes fils, tu les répéteras sans cesse, à la maison ou en voyage, que tu sois couché ou que tu sois levé&nbsp;; tu les attacheras à ton poignet comme un signe, elles seront un bandeau sur ton front, tu les inscriras à l’entrée de ta maison et aux portes de ta ville. Quand le SEIGNEUR ton Dieu te fera entrer dans le pays qu’il a juré à tes pères, Abraham, Isaac et Jacob, de te donner&nbsp;; quand tu auras des villes grandes et belles que tu n’as pas bâties, des maisons pleines de richesses que tu n’y as pas entassées, des citernes que tu n’as pas creusées, des vignes et des oliveraies que tu n’as pas plantées&nbsp;; quand tu auras bien mangé et te seras rassasié&nbsp;: alors garde-toi d’oublier le SEIGNEUR, lui qui t’a fait sortir d’Égypte, de la maison d’esclavage. Tu craindras le SEIGNEUR ton Dieu, tu le serviras, c’est par son nom que tu prêteras serment. Vous ne suivrez pas d’autres dieux, ces dieux des nations qui vous entourent, car le SEIGNEUR ton Dieu est un Dieu jaloux au milieu de toi. La colère du SEIGNEUR ton Dieu s’enflammerait contre toi et il te ferait disparaître de la face de la terre. Vous ne mettrez pas le SEIGNEUR votre Dieu à l’épreuve, comme vous l’avez fait à Massa. Vous observerez avec soin les commandements du SEIGNEUR votre Dieu, les édits et les décrets qu’il t’a prescrits. Tu feras ce qui est droit et bon aux yeux du SEIGNEUR, afin d’être heureux, et d’entrer, pour en prendre possession, dans le bon pays que le SEIGNEUR a juré de donner à tes pères, en chassant tous tes ennemis devant toi, comme l’a dit le SEIGNEUR. Et demain, quand ton fils te demandera&nbsp;: «&nbsp;Quels sont donc ces édits, ces décrets et ces ordonnances que le SEIGNEUR notre Dieu vous a prescrits&nbsp;?&nbsp;», alors tu diras à ton fils&nbsp;: «&nbsp;Nous étions esclaves de Pharaon, en Égypte, et le SEIGNEUR nous a fait sortir d’Égypte par la force de sa main. Sous nos yeux, le SEIGNEUR a accompli des signes et des prodiges grands et funestes contre l’Égypte, Pharaon et toute sa maison. Mais nous, il nous a fait sortir de là pour nous faire entrer dans le pays qu’il voulait nous donner, celui qu’il avait promis par serment à nos pères. Alors le SEIGNEUR nous a commandé de mettre en pratique tous ces décrets, pour que nous craignions le SEIGNEUR notre Dieu&nbsp;: ainsi, nous serons toujours heureux et il nous gardera en vie comme nous le sommes aujourd’hui. Et nous serons justes si nous veillons à mettre en pratique tous ces commandements, en présence du SEIGNEUR notre Dieu, comme il nous l’a prescrit.&nbsp;»</p>",
+      "responsory": "<p>R/ Je t’aime, Seigneur, ma force,<br> mon libérateur et le rocher de mon salut.</p> <p>Tu aimeras le Seigneur ton Dieu<br> de tout ton cœur, de toute ton âme,<br> de toute ta force.</p> <p>Garde-toi d’oublier le Seigneur<br> qui t’a fait sortir de la maison de servitude.</p> <p>Qui garde mes commandements, dit Jésus,<br> voilà celui qui m’aime, et mon Père l’aimera.</p>"
+    },
+    "patristicReading": {
+      "title": "LETTRE DE SAINT CLÉMENT DE ROME AUX CORINTHIENS",
+      "subtitle": "Hymne à l’amour de Dieu",
+      "content": "<p>Celui qui a l’amour dans le Christ, qu’il pratique les commandements du Christ. Ce lien en quoi consiste l’amour de Dieu, qui pourra l’expliquer&nbsp;? La grandeur de sa beauté, qui est capable de l’exprimer&nbsp;? Elles sont indicibles, les hauteurs où nous porte l’amour. L’amour nous unit à Dieu.<i> L’amour couvre la multitude des péchés</i>. L’amour supporte tout&nbsp;; l’amour est patient pour tout&nbsp;; rien de mesquin dans l’amour, rien de méprisant&nbsp;; l’amour ne connaît pas la division, ne pousse pas à la révolte&nbsp;; l’amour agit toujours dans la concorde&nbsp;; c’est dans l’amour que tous les élus de Dieu ont obtenu la perfection&nbsp;; sans l’amour, rien n’est agréable à Dieu. C’est dans l’amour que le Maître nous a fait venir à lui. C’est à cause de son amour pour nous que Jésus Christ notre Seigneur a donné son sang pour nous, selon la volonté de Dieu, sa chair pour notre chair, sa vie pour nos vies. Vous voyez, mes bien-aimés, combien l’amour est quelque chose de grand et d’admirable&nbsp;: il est impossible d’expliquer sa perfection. Qui sera capable d’y atteindre sinon ceux que Dieu en a rendus dignes&nbsp;? Prions-le donc, et demandons à sa miséricorde de nous trouver dans l’amour, purs de tout parti pris humain et irréprochables. Depuis Adam jusqu’aujourd’hui, toutes les générations ont disparu&nbsp;;&nbsp; mais ceux qui, par la grâce de Dieu, ont obtenu la perfection de l’amour, demeurent dans le séjour des saints, qui seront manifestés lorsque le Christ, dans son règne, viendra nous visiter. Comme dit l’Écriture&nbsp;: <i>Entrez un instant dans vos chambres, jusqu’à ce que ma colère et ma fureur soient passées. Je tiendrai compte d’un jour de fête et je vous ferai sortir de vos tombeaux</i>. Heureux sommes-nous, mes bien-aimés, si nous accomplissons les commandements de Dieu dans la concorde qui vient de l’amour, pour que nos péchés soient pardonnés à cause de l’amour. L’Écriture dit en effet&nbsp;:<i> Heureux ceux dont les iniquités sont pardonnées, dont les péchés sont effacés. Heureux l’homme à qui le Seigneur n’impute aucune faute, dont la bouche ignore le mensonge</i>. Cette béatitude concerne ceux que Dieu a élus par Jésus Christ notre Seigneur. À lui la gloire pour les siècles des siècles. Amen.</p>",
+      "responsory": "<p>R/ Celui qui garde sa Parole<br> demeure en Dieu, et Dieu en lui,<br> alléluia, alléluia&nbsp;!</p> <p>Aimons-nous les uns les autres,<br> puisque l’amour vient de Dieu.</p> <p>Nous savons qu’il demeure en nous<br> grâce à l’Esprit Saint qu’il nous a donné.</p>"
+    },
+    "verse": "<p>V/ Apprends-moi à bien saisir, à bien juger.<br>Je me fie à tes volontés.</p>",
+    "oration": "Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude."
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_48_1",
+        "antiphon": [
+          "L’homme comblé ne dure pas&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_48_2",
+        "antiphon": [
+          "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "NT_9",
+        "antiphon": [
+          "Tu nous as rachetés par ton sang, Seigneur&nbsp;; tu fis de nous un peuple de rois."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Rm 3, 23-25a",
+      "content": "Tous les hommes sont pécheurs, ils sont tous privés de la gloire de Dieu, lui qui leur donne d’être des justes par sa seule grâce, en vertu de la rédemption accomplie dans le Christ Jésus. Car Dieu a exposé le Christ sur la croix afin que, par l’offrande de son sang, il soit le pardon pour ceux qui croient en lui. Ainsi Dieu voulait manifester sa justice."
+    },
+    "hymn": [
+      "seigneur-au-seuil-de-cette-nuit"
+    ],
+    "evangelicAntiphon": "Exultez dans le Christ&nbsp;: il vous enrichit par sa pauvreté.",
+    "intercession": "<p>Dans la confiance, prions le Christ qui fortifie son peuple et le conduit&nbsp;:</p> <p>R/ Garde-nous sur tes chemins.</p> <p>Ô Christ, Sagesse du Père, donne-nous d’entendre ta parole<br> —&nbsp;et de la mettre en pratique.</p> <p>Lumière des nations, éclaire ceux qui les gouvernent&nbsp;:<br> —&nbsp;qu’ils soient attentifs au bien des peuples.</p> <p>Dispensateur des dons de Dieu, tu as nourri les foules&nbsp;;<br> —&nbsp;que ta pitié nous porte à donner ce que nous avons à ceux qui n’ont rien.</p> <p>Médecin des âmes et des corps, suscite en nous ta charité,<br> —&nbsp;pour que nous visitions les malades, nos frères.</p> <p>Gloire du Père, vie et résurrection de nos morts,<br> —&nbsp;reçois-les dans ton Royaume.</p> ",
+    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "oration": "Seigneur Dieu, à toi le jour, à toi les nuits&nbsp;! Tu nous les donnes pour rythmer notre vie&nbsp;: à travers ombres et lumières, conduis-nous au jour qui ne finira pas."
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_7",
+        "antiphon": [
+          "Que je chante ta loi, ô mon Dieu, sur la terre de mon exil."
+        ]
+      },
+      {
+        "psalm": "PSALM_52",
+        "antiphon": [
+          "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob, en Israël, quelle joie&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_53",
+        "antiphon": [
+          "Dieu me vient en aide, le Seigneur est mon appui."
+        ]
+      }
+    ]
+  },
   "sundayEvangelicAntiphonA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
   "sundayEvangelicAntiphonC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là.",
   "sundayEvangelicAntiphonB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
-  "readingHymn": "pour-que-l-homme-soit-un-fils",
-  "readingsPsalm1Antiphon": "Remets ta vie au Seigneur, il la conduira.",
-  "readingsPsalm3Antiphon": "Espère en Dieu et garde sa route.",
-  "readingsPsalm2Antiphon": "Évite le mal, agis bien&nbsp;: le Seigneur soutient les justes.",
-  "readingsVerse": "<p>V/ Apprends-moi à bien saisir, à bien juger.<br>Je me fie à tes volontés.</p>",
-  "readingsBiblicalReadingTitle": "Loi d’amour",
-  "readingsBiblicalReadingRef": "Dt 6, 4-25",
-  "readingsBiblicalReadingContent": "<p>Écoute, Israël&nbsp;: le SEIGNEUR notre Dieu est l’Unique. Tu aimeras le SEIGNEUR ton Dieu de tout ton cœur, de toute ton âme et de toute ta force. Ces paroles que je te donne aujourd’hui resteront dans ton cœur. Tu les rediras à tes fils, tu les répéteras sans cesse, à la maison ou en voyage, que tu sois couché ou que tu sois levé&nbsp;; tu les attacheras à ton poignet comme un signe, elles seront un bandeau sur ton front, tu les inscriras à l’entrée de ta maison et aux portes de ta ville. Quand le SEIGNEUR ton Dieu te fera entrer dans le pays qu’il a juré à tes pères, Abraham, Isaac et Jacob, de te donner&nbsp;; quand tu auras des villes grandes et belles que tu n’as pas bâties, des maisons pleines de richesses que tu n’y as pas entassées, des citernes que tu n’as pas creusées, des vignes et des oliveraies que tu n’as pas plantées&nbsp;; quand tu auras bien mangé et te seras rassasié&nbsp;: alors garde-toi d’oublier le SEIGNEUR, lui qui t’a fait sortir d’Égypte, de la maison d’esclavage. Tu craindras le SEIGNEUR ton Dieu, tu le serviras, c’est par son nom que tu prêteras serment. Vous ne suivrez pas d’autres dieux, ces dieux des nations qui vous entourent, car le SEIGNEUR ton Dieu est un Dieu jaloux au milieu de toi. La colère du SEIGNEUR ton Dieu s’enflammerait contre toi et il te ferait disparaître de la face de la terre. Vous ne mettrez pas le SEIGNEUR votre Dieu à l’épreuve, comme vous l’avez fait à Massa. Vous observerez avec soin les commandements du SEIGNEUR votre Dieu, les édits et les décrets qu’il t’a prescrits. Tu feras ce qui est droit et bon aux yeux du SEIGNEUR, afin d’être heureux, et d’entrer, pour en prendre possession, dans le bon pays que le SEIGNEUR a juré de donner à tes pères, en chassant tous tes ennemis devant toi, comme l’a dit le SEIGNEUR. Et demain, quand ton fils te demandera&nbsp;: «&nbsp;Quels sont donc ces édits, ces décrets et ces ordonnances que le SEIGNEUR notre Dieu vous a prescrits&nbsp;?&nbsp;», alors tu diras à ton fils&nbsp;: «&nbsp;Nous étions esclaves de Pharaon, en Égypte, et le SEIGNEUR nous a fait sortir d’Égypte par la force de sa main. Sous nos yeux, le SEIGNEUR a accompli des signes et des prodiges grands et funestes contre l’Égypte, Pharaon et toute sa maison. Mais nous, il nous a fait sortir de là pour nous faire entrer dans le pays qu’il voulait nous donner, celui qu’il avait promis par serment à nos pères. Alors le SEIGNEUR nous a commandé de mettre en pratique tous ces décrets, pour que nous craignions le SEIGNEUR notre Dieu&nbsp;: ainsi, nous serons toujours heureux et il nous gardera en vie comme nous le sommes aujourd’hui. Et nous serons justes si nous veillons à mettre en pratique tous ces commandements, en présence du SEIGNEUR notre Dieu, comme il nous l’a prescrit.&nbsp;»</p>",
-  "readingsBiblicalReadingResponsory": "<p>R/ Je t’aime, Seigneur, ma force,<br> mon libérateur et le rocher de mon salut.</p> <p>Tu aimeras le Seigneur ton Dieu<br> de tout ton cœur, de toute ton âme,<br> de toute ta force.</p> <p>Garde-toi d’oublier le Seigneur<br> qui t’a fait sortir de la maison de servitude.</p> <p>Qui garde mes commandements, dit Jésus,<br> voilà celui qui m’aime, et mon Père l’aimera.</p>",
-  "readingsPatristicReadingTitle": "LETTRE DE SAINT CLÉMENT DE ROME AUX CORINTHIENS",
-  "readingsPatristicReadingSubtitle": "Hymne à l’amour de Dieu",
-  "readingsPatristicReadingContent": "<p>Celui qui a l’amour dans le Christ, qu’il pratique les commandements du Christ. Ce lien en quoi consiste l’amour de Dieu, qui pourra l’expliquer&nbsp;? La grandeur de sa beauté, qui est capable de l’exprimer&nbsp;? Elles sont indicibles, les hauteurs où nous porte l’amour. L’amour nous unit à Dieu.<i> L’amour couvre la multitude des péchés</i>. L’amour supporte tout&nbsp;; l’amour est patient pour tout&nbsp;; rien de mesquin dans l’amour, rien de méprisant&nbsp;; l’amour ne connaît pas la division, ne pousse pas à la révolte&nbsp;; l’amour agit toujours dans la concorde&nbsp;; c’est dans l’amour que tous les élus de Dieu ont obtenu la perfection&nbsp;; sans l’amour, rien n’est agréable à Dieu. C’est dans l’amour que le Maître nous a fait venir à lui. C’est à cause de son amour pour nous que Jésus Christ notre Seigneur a donné son sang pour nous, selon la volonté de Dieu, sa chair pour notre chair, sa vie pour nos vies. Vous voyez, mes bien-aimés, combien l’amour est quelque chose de grand et d’admirable&nbsp;: il est impossible d’expliquer sa perfection. Qui sera capable d’y atteindre sinon ceux que Dieu en a rendus dignes&nbsp;? Prions-le donc, et demandons à sa miséricorde de nous trouver dans l’amour, purs de tout parti pris humain et irréprochables. Depuis Adam jusqu’aujourd’hui, toutes les générations ont disparu&nbsp;;&nbsp; mais ceux qui, par la grâce de Dieu, ont obtenu la perfection de l’amour, demeurent dans le séjour des saints, qui seront manifestés lorsque le Christ, dans son règne, viendra nous visiter. Comme dit l’Écriture&nbsp;: <i>Entrez un instant dans vos chambres, jusqu’à ce que ma colère et ma fureur soient passées. Je tiendrai compte d’un jour de fête et je vous ferai sortir de vos tombeaux</i>. Heureux sommes-nous, mes bien-aimés, si nous accomplissons les commandements de Dieu dans la concorde qui vient de l’amour, pour que nos péchés soient pardonnés à cause de l’amour. L’Écriture dit en effet&nbsp;:<i> Heureux ceux dont les iniquités sont pardonnées, dont les péchés sont effacés. Heureux l’homme à qui le Seigneur n’impute aucune faute, dont la bouche ignore le mensonge</i>. Cette béatitude concerne ceux que Dieu a élus par Jésus Christ notre Seigneur. À lui la gloire pour les siècles des siècles. Amen.</p>",
-  "readingsPatristicReadingResponsory": "<p>R/ Celui qui garde sa Parole<br> demeure en Dieu, et Dieu en lui,<br> alléluia, alléluia&nbsp;!</p> <p>Aimons-nous les uns les autres,<br> puisque l’amour vient de Dieu.</p> <p>Nous savons qu’il demeure en nous<br> grâce à l’Esprit Saint qu’il nous a donné.</p>",
-  "readingsOration": "Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.",
-  "middleOfDayPsalm1Antiphon": "Que je chante ta loi, ô mon Dieu, sur la terre de mon exil.",
-  "middleOfDayPsalm3Antiphon": "Dieu me vient en aide, le Seigneur est mon appui.",
-  "middleOfDayPsalm2Antiphon": "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob, en Israël, quelle joie&nbsp;!",
-  "middleOfDayTierceReadingRef": "1 Co 12, 4-6",
-  "middleOfDayTierceReadingContent": "<p>Les dons de la grâce sont variés, mais c’est toujours le même Esprit. Les fonctions dans l’Église sont variées, mais c’est toujours le même Seigneur. Les activités sont variées, mais c’est toujours le même Dieu qui agit en tous.</p>",
-  "middleOfDayNoneReadingRef": "1 Co 12, 24b.25-26",
-  "middleOfDayNoneReadingContent": "<p>Dieu a organisé le corps de telle façon qu’il n’y ait pas de division dans le corps, mais que les différents membres aient tous le souci les uns des autres. Si un membre souffre, tous les membres partagent sa souffrance&nbsp;; si un membre est à l’honneur, tous partagent sa joie.</p>",
-  "middleOfDaySexteReadingRef": "1 Co 12, 12-13",
-  "middleOfDaySexteReadingContent": "<p>Notre corps forme un tout, il a pourtant plusieurs membres&nbsp;; et tous les membres, malgré leur nombre, ne forment qu’un seul corps. Il en est ainsi pour le Christ. Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit.</p>",
-  "middleOfDayNoneResponsory": "<p>V/ Rassemble-nous, Seigneur, du milieu des nations,<br>— que nous rendions grâce à ton saint nom.</p>",
-  "middleOfDayTierceResponsory": "<p>V/ Son salut est proche de ceux qui le craignent.<br>—  La gloire habitera notre terre.</p>",
-  "middleOfDaySexteResponsory": "<p>V/ Père saint, garde-nous fidèles à ton nom&nbsp;:<br>— que notre unité soit parfaite.</p>",
-  "middleOfDaySexteOration": "Dieu qui as révélé à l’Apôtre Pierre ta volonté de sauver tous les hommes, accorde-nous de déployer toutes nos énergies au service de ce dessein de ton amour. Par Jésus, le Christ, notre Seigneur. Amen.",
-  "middleOfDayTierceOration": "Dieu qui as répandu ton Esprit Saint sur les Apôtres, envoie-nous ce même Esprit d’amour pour que nous témoignions de toi devant les hommes. Par Jésus, le Christ, notre Seigneur. Amen.",
-  "middleOfDayNoneOration": "Dieu qui as envoyé ton ange au centurion Corneille pour lui montrer le bon chemin, donne-nous de travailler au salut du monde&nbsp;: qu’avec l’humanité tout entière, en communion à ton Église, nous parvenions jusqu’à toi.",
-  "morningPsalm1": "PSALM_42",
-  "morningPsalm2": "AT_23",
-  "morningPsalm3": "PSALM_64",
-  "readingsPsalm1": "PSALM_36_1",
-  "readingsPsalm2": "PSALM_36_2",
-  "readingsPsalm3": "PSALM_36_3",
-  "middleOfDayPsalm1": "PSALM_118_7",
-  "middleOfDayPsalm2": "PSALM_52",
-  "middleOfDayPsalm3": "PSALM_53",
-  "vespersPsalm1": "PSALM_48_1",
-  "vespersPsalm2": "PSALM_48_2",
-  "vespersPsalm3": "NT_9"
+  "readingHymn": "pour-que-l-homme-soit-un-fils"
 }

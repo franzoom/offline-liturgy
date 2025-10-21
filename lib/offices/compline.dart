@@ -21,8 +21,8 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
   /// resolves the Complines choice for a given day.
   /// ask complineDetection to give informations about the Complines of the day
   /// and of tomorrow.
-  /// If tomorrow's Complines are a solemnity, today's Complines will
-  /// be a solmenity eve.
+  /// If tomorrow's Complines are a solemnity, today's Complines will be a solmenity eve.
+  /// return a list of possible Complines (in case of Solmenity and eve of Solemnity)
 
   Map<String, ComplineDefinition> todayComplineDefinition =
       complineDefinitionDetection(calendar, date);

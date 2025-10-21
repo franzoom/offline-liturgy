@@ -370,7 +370,42 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   date = dayShift(date, 1);
   paschalTimeDays++;
 
-  // Paschal days after the 2d Sunday till Pentecost
+  // Paschal days after the 2d Sunday till Ascension
+  while (date.isBefore(generalCalendar['ASCENSION']!)) {
+    String weekNumber = '${(paschalTimeDays / 7).floor() + 1}';
+    int dayOfWeek = date.weekday % 7;
+    defaultCelebrationTitle = 'PT_${weekNumber}_$dayOfWeek';
+    liturgicalGrade = dayOfWeek == 0 ? 2 : 13;
+    DayContent dayContent = DayContent(
+      liturgicalYear: liturgicalYear,
+      liturgicalTime: 'PaschalTime',
+      defaultCelebrationTitle: defaultCelebrationTitle,
+      liturgicalGrade: liturgicalGrade,
+      liturgicalColor: 'white',
+      breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
+      priority: {},
+    );
+    calendar.addDayContent(date, dayContent);
+    date = dayShift(date, 1);
+    paschalTimeDays++;
+  }
+
+  // Ascension
+  dayContent = DayContent(
+    liturgicalYear: liturgicalYear,
+    liturgicalTime: 'PaschalTime',
+    defaultCelebrationTitle: 'ASCENSION',
+    liturgicalGrade: 2,
+    liturgicalColor: 'white',
+    breviaryWeek: 2,
+    priority: {},
+  );
+  date = generalCalendar['ASCENSION']!;
+  calendar.addDayContent(date, dayContent);
+  paschalTimeDays++;
+  date = dayShift(date, 1);
+
+  //days between Ascension and Pentecost
   while (date.isBefore(generalCalendar['PENTECOST']!)) {
     String weekNumber = '${(paschalTimeDays / 7).floor() + 1}';
     int dayOfWeek = date.weekday % 7;
@@ -390,7 +425,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     paschalTimeDays++;
   }
 
-// Ajout de la Pentecôte
+  // Pentecost
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'PaschalTime',
@@ -403,7 +438,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   date = generalCalendar['PENTECOST']!;
   calendar.addDayContent(date, dayContent);
 
-  // moving on day forward to go the monday of Pentecost:
+  // moving one day forward to reach the Monday of Pentecost:
   date = dayShift(date, 1);
 
   // ADDING ORDINARY DAYS TILL SATURDAY AFTER CHRIST KING

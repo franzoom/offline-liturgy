@@ -14,12 +14,12 @@ void main() {
   final zegfqzgrf = ferialMorning;
 
   // lancement de la génération des Complies pour le jour demandé:
-  Map<String, ComplineDefinition> complineDefinitionResolved =
+  List<Map<String, ComplineDefinition>> possibleComplinesList =
       complineDefinitionResolution(calendar, date);
 
   //affichage de ces complies:
   Map<String, Compline> complineTextCompiled =
-      complineTextCompilation(complineDefinitionResolved);
+      complineTextCompilation(possibleComplinesList[0]);
 
   complineTextCompiled.forEach((key, compline) {
     print('Compline for $key:');
@@ -28,6 +28,8 @@ void main() {
     print('=========================');
   });
 
+/*
   String json = exportComplineToAelfJson(calendar, DateTime(2025, 10, 23));
   print("json: $json");
+  */
 }

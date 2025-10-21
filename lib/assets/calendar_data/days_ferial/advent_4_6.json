@@ -1,19 +1,61 @@
 {
-  "invitatoryAntiphon": "Le Roi qui va venir, venez, adorons-le.",
-  "invitatoryAntiphon2": "Allons au-devant de celui qui vient.",
-  "invitatoryAntiphon3": "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.",
-  "readingsPsalm1Antiphon": "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?",
-  "readingsPsalm3Antiphon": "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?",
-  "readingsPsalm2Antiphon": "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?",
-  "readingsVerse": "<p>V/ Dieu révèle à Jacob sa parole,<br> ses volontés et ses lois à Israël.</p>",
-  "middleOfDayPsalm1Antiphon": "Les Prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie.",
-  "morningPsalm1": "PSALM_91",
-  "morningPsalm2": "AT_38",
-  "morningPsalm3": "PSALM_8",
-  "readingsPsalm1": "PSALM_77_4",
-  "readingsPsalm2": "PSALM_77_5",
-  "readingsPsalm3": "PSALM_77_6",
-  "middleOfDayPsalm1": "PSALM_118_22",
-  "middleOfDayPsalm2": "PSALM_44_1",
-  "middleOfDayPsalm3": "PSALM_44_2"
+  "invitatory": {
+    "antiphon": [
+      "Le Roi qui va venir, venez, adorons-le.",
+      "Allons au-devant de celui qui vient.",
+      "Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_91"
+      },
+      {
+        "psalm": "AT_38"
+      },
+      {
+        "psalm": "PSALM_8"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_77_4",
+        "antiphon": [
+          "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "PSALM_77_5",
+        "antiphon": [
+          "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "PSALM_77_6",
+        "antiphon": [
+          "Quand nous sommes infidèles, le Seigneur reste fidèle&nbsp;; pourrait-il se renier lui-même&nbsp;?"
+        ]
+      }
+    ],
+    "verse": "<p>V/ Dieu révèle à Jacob sa parole,<br> ses volontés et ses lois à Israël.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_22",
+        "antiphon": [
+          "Les Prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
+        ]
+      },
+      {
+        "psalm": "PSALM_44_1"
+      },
+      {
+        "psalm": "PSALM_44_2"
+      }
+    ]
+  }
 }

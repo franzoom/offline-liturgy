@@ -1,27 +1,39 @@
 {
-  "firstVespersPsalm1Antiphon": "Les portes de Jérusalem retentiront de chants de joie ! Et ses demeures diront : Gloire à toi ! Alléluia !",
-  "firstVespersPsalm2Antiphon": "Dieu a consolidé les barres de tes portes, dans tes murs il a béni tes enfants, alléluia !",
-  "firstVespersEvangelicAntiphon": "Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !",
-  "readingsPsalm1Antiphon": "Portes, levez vos frontons, élevez-les, portes éternelles : qu’il entre, le Roi de gloire, alléluia !",
-  "readingsPsalm2Antiphon": "Heureux les habitants de ta maison, ils pourront te chanter encore, alléluia !",
-  "readingsPsalm3Antiphon": "Cité sainte, notre Mère, tu descends du ciel et d’auprès de Dieu, alléluia !",
-  "readingsVerse": "<p>V/ Vers ton temple saint, je me prosterne,<br> je crains et j’adore, alléluia !</p>",
-  "readingsBiblicalReadingTitle": "",
-  "readingsBiblicalReadingRef": "Ap 21, 9-27",
-  "readingsBiblicalReadingContent": "",
-  "readingsBiblicalReadingResponsory": "",
-  "invitatoryAntiphon": "Dans la maison de Dieu, adorons le Christ, époux de l'Église, alléluia !",
-  "morningPsalm1Antiphon": "Ma maison, dit le Seigneur, est la maison de la prière, alléluia !",
-  "morningPsalm2Antiphon": "Béni sois-tu, Seigneur, dans ton saint temple de gloire, alléluia !",
-  "morningPsalm3Antiphon": "Louez Dieu dans l’assemblée de ses fidèles, alléluia !",
-  "morningEvangelicAntiphon": "Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison, alléluia !",
-  "middleOfDayTierceAntiphon": "Vous êtes le temple de Dieu, la maison qu’il construit, alléluia !",
-  "middleOfDaySexteAntiphon": "La sainteté emplit ta maison, ô Seigneur, pour la suite des temps, alléluia !",
-  "middleOfDayNoneAntiphon": "Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc, alléluia !",
-  "middleOfDayResponsory1": "V/ Seigneur, j’aime la maison que tu habites,<br> le lieu où demeure ta gloire, alléluia !",
-  "middleOfDayResponsory2": "V/ Appelez le bonheur sur Jérusalem :<br> paix à ceux qui t’aiment, alléluia !",
-  "middleOfDayResponsory3": "V/ Venez dans sa maison lui rendre grâce,<br> dans sa demeure chanter ses louanges, alléluia !",
-  "vespersPsalm1Antiphon": "Sainte est la demeure du Très-Haut, la maison de Dieu chez les hommes, alléluia !",
-  "vespersPsalm2Antiphon": "Nous irons, pleins de joie, à la maison du Seigneur, alléluia !",
-  "vespersEvangelicAntiphon": "Voici le séjour que Dieu s’est choisi pour y faire sa demeure ; voici le temple que Dieu a consacré pour que son nom y soit invoqué, alléluia !"
+  "invitatory": {
+    "antiphon": [
+      "Dans la maison de Dieu, adorons le Christ, époux de l'Église, alléluia !"
+    ]
+  },
+  "firstVespers": {
+    "evangelicAntiphon": "Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !"
+  },
+  "morning": {
+    "evangelicAntiphon": "Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison, alléluia !"
+  },
+  "readings": {
+    "biblicalReading": {
+      "title": "",
+      "ref": "Ap 21, 9-27",
+      "content": "",
+      "responsory": ""
+    },
+    "verse": "<p>V/ Vers ton temple saint, je me prosterne,<br> je crains et j’adore, alléluia !</p>"
+  },
+  "vespers": {
+    "evangelicAntiphon": "Voici le séjour que Dieu s’est choisi pour y faire sa demeure ; voici le temple que Dieu a consacré pour que son nom y soit invoqué, alléluia !"
+  },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Vous êtes le temple de Dieu, la maison qu’il construit, alléluia !",
+      "responsory": "V/ Seigneur, j’aime la maison que tu habites,<br> le lieu où demeure ta gloire, alléluia !"
+    },
+    "sexte": {
+      "antiphon": "La sainteté emplit ta maison, ô Seigneur, pour la suite des temps, alléluia !",
+      "responsory": "V/ Appelez le bonheur sur Jérusalem :<br> paix à ceux qui t’aiment, alléluia !"
+    },
+    "none": {
+      "antiphon": "Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc, alléluia !",
+      "responsory": "V/ Venez dans sa maison lui rendre grâce,<br> dans sa demeure chanter ses louanges, alléluia !"
+    }
+  }
 }

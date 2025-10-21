@@ -1,87 +1,183 @@
 {
+  "invitatory": {
+    "antiphon": [
+      "Dieu saint, toute sainteté vient de toi&nbsp;!"
+    ]
+  },
+  "firstVespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_112",
+        "antiphon": [
+          "Célébrez notre Dieu, serviteurs du Seigneur !"
+        ]
+      },
+      {
+        "psalm": "PSALM_145",
+        "antiphon": [
+          "Heureux ceux qui ont faim et soif de la justice : ils seront rassasiés."
+        ]
+      },
+      {
+        "psalm": "NT_4",
+        "antiphon": [
+          "Béni soit Dieu qui nous a choisis pour marcher sans reproche devant lui."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Ph 3, 7-8",
+      "content": "Tous les avantages que j’avais, je les ai considérés comme une perte à cause du Christ ; oui, je considère toute cela comme une perte à cause de ce bien qui dépasse tout : la connaissance du Christ Jésus, mon Seigneur. À cause de lui, j’ai tout perdu ; je considère tout comme des balayures, en vue d’un seul avantage, le Christ."
+    },
+    "hymn": [
+      "l-etincelle-du-feu-divin"
+    ],
+    "evangelicAntiphon": "Heureux l’homme avisé qui a bâti sa maison sur le roc.",
+    "intercession": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>",
+    "responsory": "R/ Je peux tout<br> * en celui qui me rend fort.<br> V/ Lorsque je suis faible, je garde confiance,<br> * en celui qui me rend fort.<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>"
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_62",
+        "antiphon": [
+          "Dieu leur a donné une gloire sans fin, leur nom ne sera jamais oublié."
+        ]
+      },
+      {
+        "psalm": "AT_41",
+        "antiphon": [
+          "Serviteurs du Seigneur, bénissez le Seigneur, éternellement."
+        ]
+      },
+      {
+        "psalm": "PSALM_149",
+        "antiphon": [
+          "Ils exulteront, glorieux, criant leur joie à l’heure du triomphe."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Rm 12, 1-2",
+      "content": "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait."
+    },
+    "hymn": [
+      "de-toi-je-ne-sais-rien"
+    ],
+    "evangelicAntiphon": "Celui qui fait la vérité vient à la lumière : ses œuvres sont les œuvres de Dieu.",
+    "intercession": "<p>Bénissons le Christ, le Saint de Dieu !<br> Suivons-le dans la justice et la sainteté tout au long de nos jours.</p>  <p>R/Toi, le seul saint ! Toi, le seul Seigneur !</p>  <p>Tu as connu l’épreuve comme nous, et tu n’as pas péché.<br> — prends pitié de nous, Seigneur Jésus.</p> <p>Tu nous appelle à un parfait amour de charité,<br> — sanctifie-nous, Seigneur Jésus.</p> <p>Tu veux que nous soyons le sel de la terre et la lumière du monde,<br> — illumine-nous, Seigneur Jésus.</p> <p>Tu es venu pour servir, non pour être servi,<br> — change nos cœurs, Seigneur Jésus.</p> <p>Toi, splendeur de la gloire du Père et parfaite expression de son être,<br> — montre-nous ton visage, Seigneur Jésus.</p>",
+    "responsory": "R/ Que notre sacrifice en ce jour<br> trouve grâce devant toi.<br> V/ Nous te suivons et nous cherchons ta face. R/ <br> V/ À toi, louange et gloire éternellement. R/ <br>"
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_20",
+        "antiphon": [
+          "La vie qu’il demandait, tu la lui donnes, de longs jours, une vie sans fin."
+        ]
+      },
+      {
+        "psalm": "PSALM_91_1",
+        "antiphon": [
+          "Dieu nous a établis pour porter du fruit, et un fruit qui demeure."
+        ]
+      },
+      {
+        "psalm": "PSALM_91_2",
+        "antiphon": [
+          "Le juste grandira comme un palmier, il poussera comme un cèdre du Liban."
+        ]
+      }
+    ],
+    "biblicalReading": {
+      "title": "Votre vie est cachée avec le Christ en Dieu",
+      "ref": "Col 3, 1-17",
+      "content": "Si donc vous êtes ressuscités avec le Christ, recherchez les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Pensez aux réalités d’en haut, non à celles de la terre. En effet, vous êtes passés par la mort, et votre vie reste cachée avec le Christ en Dieu. Quand paraîtra le Christ, votre vie, alors vous aussi, vous paraîtrez avec lui dans la gloire.</p> <p>Faites donc mourir en vous ce qui n’appartient qu’à la terre : débauche, impureté, passion, désir mauvais, et cette soif de posséder, qui est une idolâtrie. Voilà ce qui provoque la colère de Dieu contre ceux qui lui désobéissent, voilà quelle était votre conduite autrefois lorsque, vous aussi, vous viviez dans ces désordres. Mais maintenant, vous aussi, débarrassez-vous de tout cela : colère, emportement, méchanceté, insultes, propos grossiers sortis de votre bouche. Plus de mensonge entre vous : vous vous êtes débarrassés de l’homme ancien qui était en vous et de ses façons d’agir, et vous vous êtes revêtus de l’homme nouveau qui, pour se conformer à l’image de son Créateur, se renouvelle sans cesse en vue de la pleine connaissance. Ainsi, il n’y a plus le païen et le Juif, le circoncis et l’incirconcis, il n’y a plus le barbare ou le primitif, l’esclave et l’homme libre ; mais il y a le Christ : il est tout, et en tous.</p> <p>Puisque vous avez été choisis par Dieu, que vous êtes sanctifiés, aimés par lui, revêtez-vous de tendresse et de compassion, de bonté, d’humilité, de douceur et de patience. Supportez-vous les uns les autres, et pardonnez-vous mutuellement si vous avez des reproches à vous faire. Le Seigneur vous a pardonné : faites de même. Par-dessus tout cela, ayez l’amour, qui est le lien le plus parfait. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés, vous qui formez un seul corps. Vivez dans l’action de grâce. Que la parole du Christ habite en vous dans toute sa richesse ; instruisez-vous et reprenez-vous les uns les autres en toute sagesse ; par des psaumes, des hymnes et des chants spirituels, chantez à Dieu, dans vos cœurs, votre reconnaissance. Et tout ce que vous dites, tout ce que vous faites, que ce soit toujours au nom du Seigneur Jésus, en offrant par lui votre action de grâce à Dieu le Père.</p>   <p>",
+      "responsory": "R/ Ressuscités avec le Christ,<br> cherchons les choses d’en-haut.</p> <p>Vous qui êtes baptisés dans le Christ,<br> vous avez revêtu le Christ.</p> <p>Revêtez l’homme nouveau, crée selon Dieu<br> dans la justice et la sainteté de la vérité.</p>"
+    },
+    "biblicalReading2": {
+      "title": "Le culte spirituel",
+      "ref": "Rm 12, 1-21",
+      "content": "Je vous exhorte donc, frères, par la tendresse de Dieu, à lui présenter votre corps — votre personne tout entière —, en sacrifice vivant, saint, capable de plaire à Dieu : c’est là, pour vous, la juste manière de lui rendre un culte. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour discerner quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait.</p> <p>Par la grâce qui m’a été accordée, je dis à chacun d’entre vous : n’ayez pas de prétentions déraisonnables, mais pensez à être raisonnables, chacun dans la mesure de la mission que Dieu lui a confiée. Prenons une comparaison : en un corps unique, nous avons plusieurs membres, qui n’ont pas tous la même fonction ; de même, nous qui sommes plusieurs, nous sommes un seul corps dans le Christ, et membres les uns des autres, chacun pour sa part. Et selon la grâce que Dieu nous a accordée, nous avons reçu des dons qui sont différents. Si c’est le don de prophétie, que ce soit à proportion du message confié ; si c’est le don de servir, que l’on serve ; si l’on est fait pour enseigner, que l’on enseigne ; pour réconforter, que l’on réconforte. Celui qui donne, qu’il soit généreux ; celui qui dirige, qu’il soit empressé ; celui qui pratique la miséricorde, qu’il ait le sourire.</p> <p>Que votre amour soit sans hypocrisie. Fuyez le mal avec horreur, attachez-vous au bien. Soyez unis les uns aux autres par l’affection fraternelle, rivalisez de respect les uns pour les autres. Ne ralentissez pas votre élan, restez dans la ferveur de l’Esprit, servez le Seigneur, ayez la joie de l’espérance, tenez bon dans l’épreuve, soyez assidus à la prière. Partagez avec les fidèles qui sont dans le besoin, pratiquez l’hospitalité avec empressement. Bénissez ceux qui vous persécutent ; souhaitez-leur du bien, et non pas du mal. Soyez joyeux avec ceux qui sont dans la joie, pleurez avec ceux qui pleurent. Soyez bien d’accord les uns avec les autres ; n’ayez pas le goût des grandeurs, mais laissez-vous attirer par ce qui est humble. Ne vous fiez pas à votre propre jugement. Ne rendez à personne le mal pour le mal, appliquez-vous à bien agir aux yeux de tous les hommes. Autant que possible, pour ce qui dépend de vous, vivez en paix avec tous les hommes. Bien-aimés, ne vous faites pas justice vous-mêmes, mais laissez agir la colère de Dieu. Car l’Écriture dit : C’est à moi de faire justice, c’est moi qui rendrai à chacun ce qui lui revient, dit le Seigneur. Mais si ton ennemi a faim, donne-lui à manger ; s’il a soif, donne-lui à boire : en agissant ainsi, tu entasseras sur sa tête des charbons ardents. Ne te laisse pas vaincre par le mal, mais sois vainqueur du mal par le bien.",
+      "responsory": "R/ Sanctifions le Christ, alléluia,<br> il est Seigneur, alléluia.</p> <p>Heureux les doux, heureux les artisans de paix :<br> ils seront appelés fils de Dieu.</p> <p>Ne rendez pas l’injure pour l’injure :<br> bénissez votre ennemi.</p> <p>Si vous devez souffrir pour la justice<br> réjouissez-vous et bondissez de joie.</p>   <br> <p class=\"antienne rouge\">Pour un saint qui a été marié</p> <p class=\"rouge\"><i>en Avent et au temps de Noël</i></p>  <h2 id=\"titre_lecture\">Lecture : Sanctifiez le Christ dans vos cœurs</h2> <p class=\"ref\">(1P 3, 7-17)</p>  <p>Vous les maris, sachez comprendre, dans la vie commune, que la femme est un être plus délicat ; accordez-lui l’honneur qui lui revient, puisqu’elle hérite, au même titre que vous, de la grâce de la vie. Ainsi, rien ne fera obstacle à vos prières.</p> <p>Vous tous, enfin, vivez en parfait accord, dans la sympathie, l’amour fraternel, la compassion et l’esprit d’humilité. Ne rendez pas le mal pour le mal, ni l’insulte pour l’insulte ; au contraire, invoquez sur les autres la bénédiction, car c’est à cela que vous avez été appelés, afin de recevoir en héritage cette bénédiction.</p> <p>En effet, comme il est écrit : <i>Celui qui veut aimer la vie et connaître des jours heureux, qu’il garde sa langue du mal et ses lèvres des paroles perfides ; qu’il se détourne du mal et qu’il fasse le bien, qu’il recherche la paix, et qu’il la poursuive. Car le Seigneur regarde les justes, il écoute, attentif à leur demande. Mais le Seigneur affronte les méchants</i>.</p> <p>Qui donc vous fera du mal, si vous cherchez le bien avec ardeur ? Mais s’il vous arrivait de souffrir pour la justice, heureux seriez-vous ! Comme dit l’Écriture : <i>N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler. Honorez dans vos cœurs la sainteté du Seigneur,</i> le Christ. Soyez prêts à tout moment à présenter une défense devant quiconque vous demande de rendre raison de l’espérance qui est en vous ; mais faites-le avec douceur et respect. Ayez une conscience droite, afin que vos adversaires soient pris de honte sur le point même où ils disent du mal de vous pour la bonne conduite que vous avez dans le Christ. Car mieux vaudrait souffrir en faisant le bien, si c’était la volonté de Dieu, plutôt qu’en faisant le mal.</p><p>(Stance)<br>Qui peut saisir le langage des étoiles,<br> qui peut surprendre la musique des âmes,<br> qui saura d’un cœur assez libre<br> connaître la Parole de la vie ?</p> <p>R/ Celui que ton Esprit habite, Seigneur,<br> accueille les secrets du Père.</p> <p>Heureux l’homme dont le regard<br> traverse l’invisible<br> pour chercher ton visage.</p> <p>Heureux l’homme dont l’esprit<br> découvre la sagesse<br> dans la folie de la croix.</p>  <br> <p class=\"rouge\"><i>au Temps ordinaire</i></p> <h2 id=\"titre_lecture\">Lecture : Époux chrétiens</h2> <p class=\"ref\">(Ep 5, 21-32)</p>  <p>Par respect pour le Christ, soyez soumis les uns aux autres ; les femmes, à leur mari, comme au Seigneur Jésus ; car, pour la femme, le mari est la tête, tout comme, pour l’Église, le Christ est la tête, lui qui est le Sauveur de son corps. Eh bien ! puisque l’Église se soumet au Christ, qu’il en soit toujours de même pour les femmes à l’égard de leur mari.</p> <p>Vous, les hommes, aimez votre femme à l’exemple du Christ : il a aimé l’Église, il s’est livré lui-même pour elle, afin de la rendre sainte en la purifiant par le bain de l’eau baptismale, accompagné d’une parole ; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni rien de tel ; il la voulait sainte et immaculée. C’est de la même façon que les maris doivent aimer leur femme : comme leur propre corps. Celui qui aime sa femme s’aime soi-même. Jamais personne n’a méprisé son propre corps : au contraire, on le nourrit, on en prend soin. C’est ce que fait le Christ pour l’Église, parce que nous sommes les membres de son corps. Comme dit l’Écriture : <i>À cause de cela, l’homme quittera \tson père et sa mère, il s’attachera à sa femme, et tous deux ne feront plus qu’un.</i> Ce mystère est grand : je le dis en référence au Christ et à l’Église.</p>   <p>R/ Dieu créa l’homme à son image :<br> homme et femme il les créa.</p> <p>Une femme parfaite est la joie de son mari ;<br> il passera dans la paix les années de sa vie.</p> <p>La grâce d’une femme est à l’intérieur du cœur,<br> parure incorruptible d’un esprit doux et paisible.</p> <p>Ce mystère est grand :<br> le Christ est l’époux de l’Église ;<br> il l’a aimée et s’est livré pour elle.</p>"
+    },
+    "patristicReading": {
+      "title": "Homélie de Saint Jean Chrysostome sur les Actes des Apôtres",
+      "subtitle": "« Que votre lumière brille aux yeux des hommes »",
+      "content": "Rien n’est plus froid qu’un chrétien indifférent au salut d’autrui. Tu ne peux pas ici alléguer ta pauvreté, car la veuve qui a donné deux piécettes viendra t’accuser. Pierre disait : <i>Je n’ai pas d’or ni d’argent</i>. Paul de même était si pauvre qu’il a souvent souffert de la faim, car il manquait de la nourriture indispensable. Tu ne peux pas alléguer ta naissance roturière, car les Apôtres étaient des gens obscurs, d’origine obscure. Tu ne peux pas mettre en avant ton ignorance, car eux aussi étaient des gens sans culture. ~ Tu ne peux alléguer que tu es mal portant, car Timothée était dans le même cas : il avait de <i>fréquents malaises</i>. ~ Chacun peut aider son prochain, s’il veut accomplir ce qui est à sa portée. Ne voyez-vous pas les arbres qui ne donnent pas de fruit, comme ils sont vigoureux, beaux, bien développés, feuillus et hauts ? Pourtant, si nous avions un jardin, nous préférerions beaucoup avoir des grenadiers et des oliviers donnant du fruit. Les autres arbres sont destinés à l’agrément, non à l’utilité. S’ils en ont une, elle est mince. Tels sont ceux qui ne s’intéressent qu’à leurs propres affaires ; ou plutôt, ils ne sont même pas comparables, car ils ne pourraient servir que de bois à brûler, tandis que les arbres dont nous parlons peuvent servir dans la construction, pour la charpente ou les boiseries. Telles étaient aussi les vierges de la parabole, pures, bien vêtues, chastes mais ne rendant service à personne. C’est pourquoi elles brûlent. Tel est le sort de ceux qui ne nourrissent pas le Christ. Considère que, parmi ceux-là, aucun n’est accusé pour des péchés qu’il aurait commis : ni débauche, ni parjure, ni rien de pareil ; mais ils sont accusés de n’avoir aucunement aidé leur prochain. C’est le cas de celui qui avait enfoui son talent : il peut présenter une vie sans désordre, mais il est inutile au prochain. Comment un tel homme peut-il être chrétien ? Réponds-moi. Si le levain mêlé à la farine ne la transforme pas tout entière en lui communiquant son action, est-ce que c’est vraiment du levain ? Ou encore : Si un parfum ne répand pas sa bonne odeur sur ceux qui approchent, est-ce que nous appellerons cela du parfum ? Ne dis pas : « Il m’est impossible d’influencer les autres», car Si tu es chrétien, il est impossible que cela ne se produise pas. De même que ce qui est dans la nature est incontestable, de même ici : c’est un fait qui appartient à la nature du chrétien. N’insulte pas Dieu. Si tu dis que le soleil ne peut pas briller, tu insultes Dieu. Si tu dis que le chrétien ne peut pas être utile, tu insultes Dieu, tu en fais un menteur. Il est plus facile pour le soleil de ne pas dégager de chaleur ou de lumière, il serait plus facile à la lumière d’être identique aux ténèbres que pour le chrétien de ne pas briller. Ne dis pas que c’est impossible : c’est le contraire qui est impossible. N’insulte pas Dieu. Si nous orientons bien notre vie, tout cela se fera, par une sorte de conséquence naturelle. La lumière du chrétien ne peut échapper à personne, un flambeau aussi brillant ne peut être caché par personne.",
+      "responsory": "<p>(Stance)<br>Toi qui cherches le Royaume, écoute&nbsp;:<br>l’amour, voilà le Royaume&nbsp;;<br>il est promesse de vie,<br>appel de liberté,<br>il est présence de l’éternité<br>au cœur du temps.</p>R/ Sur nous, Seigneur, envoie ton Esprit,<br> ta force d’amour !</p> <p>Comment reconnaître un frère<br> dans l’homme blessé, à l’écart de la route,<br> si tu ne viens éclairer notre regard ?</p> <p>Comment prendre en charge notre frère,<br> si d’abord tu ne viens<br> panser nos blessures ?</p>"
+    },
+    "patristicReading2": {
+      "title": "Homélie de Saint Augustin sur l’Évangile de Marc",
+      "subtitle": "« Si quelqu’un veut marcher à ma suite... »",
+      "content": "<i>Si quelqu’un veut marcher à ma suite, qu’il renonce à lui-même, qu’il prenne sa croix, et qu’il me suive.</i> Ce que le Seigneur a commandé semble dur et pénible : Si quelqu’un veut marcher à sa suite, qu’il renonce à lui-même ! Mais ce n’est ni dur ni pénible en réalité, parce que celui qui commande est celui qui aide à réaliser ce qu’il commande. Car elle est vraie aussi, la parole du psaume : <i>À cause des paroles de tes lèvres, j’ai suivi des chemins pénibles</i>. Et elle est vraie aussi, la parole que lui-même a prononcée : <i>Mon joug est facile à porter, et mon fardeau, léger</i>. Car tout ce qui est dur dans le commandement, l’amour le rend facile. Que signifie : <i>Qu’il prenne sa croix ?</i> Qu’il porte tout ce qui est pénible : qu’il me suive ainsi. Car lorsqu’il commencera à me suivre en conformant sa conduite à mes commandements, il aura beaucoup de gens pour le contredire, beaucoup pour s’opposer à lui, beaucoup pour le décourager. Et ceux-là agiront ainsi au titre de compagnons du Christ. Ils marchaient avec le Christ, ceux qui empêchaient les aveugles de crier. Qu’il s’agisse de menaces, de flatteries ou d’interdictions, si tu veux suivre le Christ, change tout cela en croix ; patiente, supporte, ne te laisse pas accabler. Nous sommes dans un monde qui est saint, qui est bon, réconcilié, sauvé, ou plutôt à sauver mais sauvé dès maintenant en espérance — <i>car nous avons été sauvés, mais c’est en espérance</i> —. Dans ce monde donc, c’est-à-dire dans l’Église, qui tout entière suit le Christ, il dit à tous : <i>Celui qui veut marcher à ma suite, qu’il renonce à lui-même</i>. Car cette parole n’est pas destinée aux vierges, à l’exclusion des femmes mariées ; aux veuves, à l’exclusion des épouses ; aux moines, à l’exclusion des époux ; aux clercs, à l’exclusion des laïcs. C’est toute l’Église, tout le corps, tous les membres, différenciés et répartis selon leurs tâches propres, qui doivent suivre le Christ. Qu’elle le suive tout entière, elle qui, est l’unique, elle qui est la colombe, elle qui est l’épouse ; qu’elle le suive, elle qui est rachetée et dotée par le sang de l’Époux. Elle a ici sa place, la pureté des vierges ; elle a ici sa place, la continence des veuves ; elle a ici sa place, la chasteté conjugale. Ces membres qui ont ici leur place, qu’ils suivent le Christ, chacun selon sa catégorie, chacun selon son rang, chacun à sa manière. Qu’ils renoncent à eux-mêmes, c’est-à-dire qu’ils ne s’appuient pas sur eux-mêmes ; qu’ils portent leur croix, c’est-à-dire qu’ils supportent dans le monde, pour le Christ, tout ce que le monde leur infligera. Qu’ils l’aiment, lui, le seul qui ne trompe pas, le seul qui ne se trompe pas, le seul qui ne ment pas : qu’ils l’aiment parce que ce qu’il promet est vrai. Mais parce qu’il ne le donne pas maintenant, la foi chancelle. Continue, persévère, supporte, accepte ce retard, et tu as porté la croix.",
+      "responsory": "R/ Connaître le Christ,<br>  la puissance de sa résurrection,<br>  et la communion à ses souffrances.</p> <p>Pour lui, j’ai tout perdu,<br>  et je cours vers le seul but :</p> <p>Lui, le premier, m’a saisi,<br>  de tout mon élan, je veux le saisir.</p>"
+    },
+    "hymn": [
+      "la-ou-il-n-y-a-rien"
+    ],
+    "verse": "V/ Le Seigneur conduit le juste par des voies droites.<br> Il lui montre le Royaume de Dieu.<br>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_14",
+        "antiphon": [
+          "Il fut trouvé irréprochable et juste ; à lui, la gloire sans fin."
+        ]
+      },
+      {
+        "psalm": "Psalm_111",
+        "antiphon": [
+          "Dieu veille sur ses amis ; il donne à ses élus grâce et miséricorde."
+        ]
+      },
+      {
+        "psalm": "NT_11",
+        "antiphon": [
+          "Ils chantent le cantique nouveau devant le trône de Dieu et de l’Agneau ; leur voix résonne par toute la terre."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Rm 8, 28-30",
+      "content": "Nous le savons, quand les hommes aiment Dieu, lui-même fait tout contribuer à leur bien, puisqu’ils sont appelés selon le dessein de son amour. Ceux qu’il connaissait par avance, il les a aussi destinés à être l’image de son Fils, pour faire de ce Fils l’aîné d’une multitude de frères. Ceux qu’il destinait à cette ressemblance, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes ; et ceux qu’il a justifiés, il leur a donné sa gloire."
+    },
+    "hymn": [
+      "l-etincelle-du-feu-divin"
+    ],
+    "evangelicAntiphon": "Serviteur fidèle et vigilant : entre dans la joie de ton maître.",
+    "intercession": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que nous le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>",
+    "responsory": "R/ Le Seigneur est juste :<br> * Les hommes droits le verront face à face.<br> V/ Il aime toute justice. *<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>"
+  },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Chez l’homme qui garde la parole du Christ, la charité est parfaite.",
+      "reading": {
+        "ref": "Ga 6, 8",
+        "content": "Ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle."
+      },
+      "responsory": "V/ Il est droit, il est bon, le Seigneur :<br> sa justice dirige les humbles.<br>"
+    },
+    "sexte": {
+      "antiphon": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
+      "reading": {
+        "ref": "1 Co 9, 26-27a",
+        "content": "Moi, si je cours, ce n’est pas sans fixer le but ; si je fais de la lutte, ce n’est pas en frappant dans le vide. Mais je traite durement mon corps, et je le réduis en esclavage."
+      },
+      "responsory": "V/ Heureux l’homme que tu instruis, Seigneur,<br> celui que tu enseignes par ta loi.<br>"
+    },
+    "none": {
+      "antiphon": "Rien n’égale, Seigneur, ta fidélité envers ceux qui espèrent en toi.",
+      "reading": {
+        "ref": "Ph 4, 8.9b",
+        "content": "Frères, tout ce qui est vrai et noble, tout ce qui est digne d’être aimé et honoré, tout ce qui s’appelle vertu et qui mérite des éloges, tout cela, prenez-le à votre compte. Et le Dieu de la paix sera avec vous."
+      },
+      "responsory": "V/ Tu les protèges, pour toi ils exultent,<br> ceux qui aiment ton nom, Seigneur !<br>"
+    }
+  },
   "commonTitle": "Commun des Saints",
   "liturgicalColor": "white",
-  "firstVespersHymn": [
-    "l-etincelle-du-feu-divin"
-  ],
-  "firstVespersPsalm1Antiphon": "Célébrez notre Dieu, serviteurs du Seigneur !",
-  "firstVespersPsalm1": "PSALM_112",
-  "firstVespersPsalm2Antiphon": "Heureux ceux qui ont faim et soif de la justice : ils seront rassasiés.",
-  "firstVespersPsalm2": "PSALM_145",
-  "firstVespersPsalm3Antiphon": "Béni soit Dieu qui nous a choisis pour marcher sans reproche devant lui.",
-  "firstVespersPsalm3": "NT_4",
-  "firstVespersEvangelicAntiphon": "Heureux l’homme avisé qui a bâti sa maison sur le roc.",
-  "firstVespersReadingRef": "Ph 3, 7-8",
-  "firstVespersReading": "Tous les avantages que j’avais, je les ai considérés comme une perte à cause du Christ ; oui, je considère toute cela comme une perte à cause de ce bien qui dépasse tout : la connaissance du Christ Jésus, mon Seigneur. À cause de lui, j’ai tout perdu ; je considère tout comme des balayures, en vue d’un seul avantage, le Christ.",
-  "firstVespersIntercession": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>",
-  "firstVespersResponsory": "R/ Je peux tout<br> * en celui qui me rend fort.<br> V/ Lorsque je suis faible, je garde confiance,<br> * en celui qui me rend fort.<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>",
-  "readingsHymn": [
-    "la-ou-il-n-y-a-rien"
-  ],
-  "readingsPsalm1Antiphon": "La vie qu’il demandait, tu la lui donnes, de longs jours, une vie sans fin.",
-  "readingsPsalm1": "PSALM_20",
-  "readingsPsalm2Antiphon": "Dieu nous a établis pour porter du fruit, et un fruit qui demeure.",
-  "readingsPsalm2": "PSALM_91_1",
-  "readingsPsalm3Antiphon": "Le juste grandira comme un palmier, il poussera comme un cèdre du Liban.",
-  "readingsPsalm3": "PSALM_91_2",
-  "readingsVerse": "V/ Le Seigneur conduit le juste par des voies droites.<br> Il lui montre le Royaume de Dieu.<br>",
-  "readingsBiblicalReadingTitle": "Votre vie est cachée avec le Christ en Dieu",
-  "readingsBiblicalReadingRef": "Col 3, 1-17",
-  "readingsBiblicalReadingContent": "Si donc vous êtes ressuscités avec le Christ, recherchez les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Pensez aux réalités d’en haut, non à celles de la terre. En effet, vous êtes passés par la mort, et votre vie reste cachée avec le Christ en Dieu. Quand paraîtra le Christ, votre vie, alors vous aussi, vous paraîtrez avec lui dans la gloire.</p> <p>Faites donc mourir en vous ce qui n’appartient qu’à la terre : débauche, impureté, passion, désir mauvais, et cette soif de posséder, qui est une idolâtrie. Voilà ce qui provoque la colère de Dieu contre ceux qui lui désobéissent, voilà quelle était votre conduite autrefois lorsque, vous aussi, vous viviez dans ces désordres. Mais maintenant, vous aussi, débarrassez-vous de tout cela : colère, emportement, méchanceté, insultes, propos grossiers sortis de votre bouche. Plus de mensonge entre vous : vous vous êtes débarrassés de l’homme ancien qui était en vous et de ses façons d’agir, et vous vous êtes revêtus de l’homme nouveau qui, pour se conformer à l’image de son Créateur, se renouvelle sans cesse en vue de la pleine connaissance. Ainsi, il n’y a plus le païen et le Juif, le circoncis et l’incirconcis, il n’y a plus le barbare ou le primitif, l’esclave et l’homme libre ; mais il y a le Christ : il est tout, et en tous.</p> <p>Puisque vous avez été choisis par Dieu, que vous êtes sanctifiés, aimés par lui, revêtez-vous de tendresse et de compassion, de bonté, d’humilité, de douceur et de patience. Supportez-vous les uns les autres, et pardonnez-vous mutuellement si vous avez des reproches à vous faire. Le Seigneur vous a pardonné : faites de même. Par-dessus tout cela, ayez l’amour, qui est le lien le plus parfait. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés, vous qui formez un seul corps. Vivez dans l’action de grâce. Que la parole du Christ habite en vous dans toute sa richesse ; instruisez-vous et reprenez-vous les uns les autres en toute sagesse ; par des psaumes, des hymnes et des chants spirituels, chantez à Dieu, dans vos cœurs, votre reconnaissance. Et tout ce que vous dites, tout ce que vous faites, que ce soit toujours au nom du Seigneur Jésus, en offrant par lui votre action de grâce à Dieu le Père.</p>   <p>",
-  "readingsBiblicalReadingResponsory": "R/ Ressuscités avec le Christ,<br> cherchons les choses d’en-haut.</p> <p>Vous qui êtes baptisés dans le Christ,<br> vous avez revêtu le Christ.</p> <p>Revêtez l’homme nouveau, crée selon Dieu<br> dans la justice et la sainteté de la vérité.</p>",
-  "readingsBiblicalReadingTitle2": "Le culte spirituel",
-  "readingsBiblicalReadingRef2": "Rm 12, 1-21",
-  "readingsBiblicalReadingContent2": "Je vous exhorte donc, frères, par la tendresse de Dieu, à lui présenter votre corps — votre personne tout entière —, en sacrifice vivant, saint, capable de plaire à Dieu : c’est là, pour vous, la juste manière de lui rendre un culte. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour discerner quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait.</p> <p>Par la grâce qui m’a été accordée, je dis à chacun d’entre vous : n’ayez pas de prétentions déraisonnables, mais pensez à être raisonnables, chacun dans la mesure de la mission que Dieu lui a confiée. Prenons une comparaison : en un corps unique, nous avons plusieurs membres, qui n’ont pas tous la même fonction ; de même, nous qui sommes plusieurs, nous sommes un seul corps dans le Christ, et membres les uns des autres, chacun pour sa part. Et selon la grâce que Dieu nous a accordée, nous avons reçu des dons qui sont différents. Si c’est le don de prophétie, que ce soit à proportion du message confié ; si c’est le don de servir, que l’on serve ; si l’on est fait pour enseigner, que l’on enseigne ; pour réconforter, que l’on réconforte. Celui qui donne, qu’il soit généreux ; celui qui dirige, qu’il soit empressé ; celui qui pratique la miséricorde, qu’il ait le sourire.</p> <p>Que votre amour soit sans hypocrisie. Fuyez le mal avec horreur, attachez-vous au bien. Soyez unis les uns aux autres par l’affection fraternelle, rivalisez de respect les uns pour les autres. Ne ralentissez pas votre élan, restez dans la ferveur de l’Esprit, servez le Seigneur, ayez la joie de l’espérance, tenez bon dans l’épreuve, soyez assidus à la prière. Partagez avec les fidèles qui sont dans le besoin, pratiquez l’hospitalité avec empressement. Bénissez ceux qui vous persécutent ; souhaitez-leur du bien, et non pas du mal. Soyez joyeux avec ceux qui sont dans la joie, pleurez avec ceux qui pleurent. Soyez bien d’accord les uns avec les autres ; n’ayez pas le goût des grandeurs, mais laissez-vous attirer par ce qui est humble. Ne vous fiez pas à votre propre jugement. Ne rendez à personne le mal pour le mal, appliquez-vous à bien agir aux yeux de tous les hommes. Autant que possible, pour ce qui dépend de vous, vivez en paix avec tous les hommes. Bien-aimés, ne vous faites pas justice vous-mêmes, mais laissez agir la colère de Dieu. Car l’Écriture dit : C’est à moi de faire justice, c’est moi qui rendrai à chacun ce qui lui revient, dit le Seigneur. Mais si ton ennemi a faim, donne-lui à manger ; s’il a soif, donne-lui à boire : en agissant ainsi, tu entasseras sur sa tête des charbons ardents. Ne te laisse pas vaincre par le mal, mais sois vainqueur du mal par le bien.",
-  "readingsBiblicalReadingResponsory2": "R/ Sanctifions le Christ, alléluia,<br> il est Seigneur, alléluia.</p> <p>Heureux les doux, heureux les artisans de paix :<br> ils seront appelés fils de Dieu.</p> <p>Ne rendez pas l’injure pour l’injure :<br> bénissez votre ennemi.</p> <p>Si vous devez souffrir pour la justice<br> réjouissez-vous et bondissez de joie.</p>   <br> <p class=\"antienne rouge\">Pour un saint qui a été marié</p> <p class=\"rouge\"><i>en Avent et au temps de Noël</i></p>  <h2 id=\"titre_lecture\">Lecture : Sanctifiez le Christ dans vos cœurs</h2> <p class=\"ref\">(1P 3, 7-17)</p>  <p>Vous les maris, sachez comprendre, dans la vie commune, que la femme est un être plus délicat ; accordez-lui l’honneur qui lui revient, puisqu’elle hérite, au même titre que vous, de la grâce de la vie. Ainsi, rien ne fera obstacle à vos prières.</p> <p>Vous tous, enfin, vivez en parfait accord, dans la sympathie, l’amour fraternel, la compassion et l’esprit d’humilité. Ne rendez pas le mal pour le mal, ni l’insulte pour l’insulte ; au contraire, invoquez sur les autres la bénédiction, car c’est à cela que vous avez été appelés, afin de recevoir en héritage cette bénédiction.</p> <p>En effet, comme il est écrit : <i>Celui qui veut aimer la vie et connaître des jours heureux, qu’il garde sa langue du mal et ses lèvres des paroles perfides ; qu’il se détourne du mal et qu’il fasse le bien, qu’il recherche la paix, et qu’il la poursuive. Car le Seigneur regarde les justes, il écoute, attentif à leur demande. Mais le Seigneur affronte les méchants</i>.</p> <p>Qui donc vous fera du mal, si vous cherchez le bien avec ardeur ? Mais s’il vous arrivait de souffrir pour la justice, heureux seriez-vous ! Comme dit l’Écriture : <i>N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler. Honorez dans vos cœurs la sainteté du Seigneur,</i> le Christ. Soyez prêts à tout moment à présenter une défense devant quiconque vous demande de rendre raison de l’espérance qui est en vous ; mais faites-le avec douceur et respect. Ayez une conscience droite, afin que vos adversaires soient pris de honte sur le point même où ils disent du mal de vous pour la bonne conduite que vous avez dans le Christ. Car mieux vaudrait souffrir en faisant le bien, si c’était la volonté de Dieu, plutôt qu’en faisant le mal.</p><p>(Stance)<br>Qui peut saisir le langage des étoiles,<br> qui peut surprendre la musique des âmes,<br> qui saura d’un cœur assez libre<br> connaître la Parole de la vie ?</p> <p>R/ Celui que ton Esprit habite, Seigneur,<br> accueille les secrets du Père.</p> <p>Heureux l’homme dont le regard<br> traverse l’invisible<br> pour chercher ton visage.</p> <p>Heureux l’homme dont l’esprit<br> découvre la sagesse<br> dans la folie de la croix.</p>  <br> <p class=\"rouge\"><i>au Temps ordinaire</i></p> <h2 id=\"titre_lecture\">Lecture : Époux chrétiens</h2> <p class=\"ref\">(Ep 5, 21-32)</p>  <p>Par respect pour le Christ, soyez soumis les uns aux autres ; les femmes, à leur mari, comme au Seigneur Jésus ; car, pour la femme, le mari est la tête, tout comme, pour l’Église, le Christ est la tête, lui qui est le Sauveur de son corps. Eh bien ! puisque l’Église se soumet au Christ, qu’il en soit toujours de même pour les femmes à l’égard de leur mari.</p> <p>Vous, les hommes, aimez votre femme à l’exemple du Christ : il a aimé l’Église, il s’est livré lui-même pour elle, afin de la rendre sainte en la purifiant par le bain de l’eau baptismale, accompagné d’une parole ; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni rien de tel ; il la voulait sainte et immaculée. C’est de la même façon que les maris doivent aimer leur femme : comme leur propre corps. Celui qui aime sa femme s’aime soi-même. Jamais personne n’a méprisé son propre corps : au contraire, on le nourrit, on en prend soin. C’est ce que fait le Christ pour l’Église, parce que nous sommes les membres de son corps. Comme dit l’Écriture : <i>À cause de cela, l’homme quittera \tson père et sa mère, il s’attachera à sa femme, et tous deux ne feront plus qu’un.</i> Ce mystère est grand : je le dis en référence au Christ et à l’Église.</p>   <p>R/ Dieu créa l’homme à son image :<br> homme et femme il les créa.</p> <p>Une femme parfaite est la joie de son mari ;<br> il passera dans la paix les années de sa vie.</p> <p>La grâce d’une femme est à l’intérieur du cœur,<br> parure incorruptible d’un esprit doux et paisible.</p> <p>Ce mystère est grand :<br> le Christ est l’époux de l’Église ;<br> il l’a aimée et s’est livré pour elle.</p>",
-  "readingsPatristicReadingTitle": "Homélie de Saint Jean Chrysostome sur les Actes des Apôtres",
-  "readingsPatristicReadingSubtitle": "« Que votre lumière brille aux yeux des hommes »",
-  "readingsPatristicReadingContent": "Rien n’est plus froid qu’un chrétien indifférent au salut d’autrui. Tu ne peux pas ici alléguer ta pauvreté, car la veuve qui a donné deux piécettes viendra t’accuser. Pierre disait : <i>Je n’ai pas d’or ni d’argent</i>. Paul de même était si pauvre qu’il a souvent souffert de la faim, car il manquait de la nourriture indispensable. Tu ne peux pas alléguer ta naissance roturière, car les Apôtres étaient des gens obscurs, d’origine obscure. Tu ne peux pas mettre en avant ton ignorance, car eux aussi étaient des gens sans culture. ~ Tu ne peux alléguer que tu es mal portant, car Timothée était dans le même cas : il avait de <i>fréquents malaises</i>. ~ Chacun peut aider son prochain, s’il veut accomplir ce qui est à sa portée. Ne voyez-vous pas les arbres qui ne donnent pas de fruit, comme ils sont vigoureux, beaux, bien développés, feuillus et hauts ? Pourtant, si nous avions un jardin, nous préférerions beaucoup avoir des grenadiers et des oliviers donnant du fruit. Les autres arbres sont destinés à l’agrément, non à l’utilité. S’ils en ont une, elle est mince. Tels sont ceux qui ne s’intéressent qu’à leurs propres affaires ; ou plutôt, ils ne sont même pas comparables, car ils ne pourraient servir que de bois à brûler, tandis que les arbres dont nous parlons peuvent servir dans la construction, pour la charpente ou les boiseries. Telles étaient aussi les vierges de la parabole, pures, bien vêtues, chastes mais ne rendant service à personne. C’est pourquoi elles brûlent. Tel est le sort de ceux qui ne nourrissent pas le Christ. Considère que, parmi ceux-là, aucun n’est accusé pour des péchés qu’il aurait commis : ni débauche, ni parjure, ni rien de pareil ; mais ils sont accusés de n’avoir aucunement aidé leur prochain. C’est le cas de celui qui avait enfoui son talent : il peut présenter une vie sans désordre, mais il est inutile au prochain. Comment un tel homme peut-il être chrétien ? Réponds-moi. Si le levain mêlé à la farine ne la transforme pas tout entière en lui communiquant son action, est-ce que c’est vraiment du levain ? Ou encore : Si un parfum ne répand pas sa bonne odeur sur ceux qui approchent, est-ce que nous appellerons cela du parfum ? Ne dis pas : « Il m’est impossible d’influencer les autres», car Si tu es chrétien, il est impossible que cela ne se produise pas. De même que ce qui est dans la nature est incontestable, de même ici : c’est un fait qui appartient à la nature du chrétien. N’insulte pas Dieu. Si tu dis que le soleil ne peut pas briller, tu insultes Dieu. Si tu dis que le chrétien ne peut pas être utile, tu insultes Dieu, tu en fais un menteur. Il est plus facile pour le soleil de ne pas dégager de chaleur ou de lumière, il serait plus facile à la lumière d’être identique aux ténèbres que pour le chrétien de ne pas briller. Ne dis pas que c’est impossible : c’est le contraire qui est impossible. N’insulte pas Dieu. Si nous orientons bien notre vie, tout cela se fera, par une sorte de conséquence naturelle. La lumière du chrétien ne peut échapper à personne, un flambeau aussi brillant ne peut être caché par personne.",
-  "readingsPatristicReadingResponsory": "<p>(Stance)<br>Toi qui cherches le Royaume, écoute&nbsp;:<br>l’amour, voilà le Royaume&nbsp;;<br>il est promesse de vie,<br>appel de liberté,<br>il est présence de l’éternité<br>au cœur du temps.</p>R/ Sur nous, Seigneur, envoie ton Esprit,<br> ta force d’amour !</p> <p>Comment reconnaître un frère<br> dans l’homme blessé, à l’écart de la route,<br> si tu ne viens éclairer notre regard ?</p> <p>Comment prendre en charge notre frère,<br> si d’abord tu ne viens<br> panser nos blessures ?</p>",
-  "readingsPatristicReadingTitle2": "Homélie de Saint Augustin sur l’Évangile de Marc",
-  "readingsPatristicReadingSubtitle2": "« Si quelqu’un veut marcher à ma suite... »",
-  "readingsPatristicReadingContent2": "<i>Si quelqu’un veut marcher à ma suite, qu’il renonce à lui-même, qu’il prenne sa croix, et qu’il me suive.</i> Ce que le Seigneur a commandé semble dur et pénible : Si quelqu’un veut marcher à sa suite, qu’il renonce à lui-même ! Mais ce n’est ni dur ni pénible en réalité, parce que celui qui commande est celui qui aide à réaliser ce qu’il commande. Car elle est vraie aussi, la parole du psaume : <i>À cause des paroles de tes lèvres, j’ai suivi des chemins pénibles</i>. Et elle est vraie aussi, la parole que lui-même a prononcée : <i>Mon joug est facile à porter, et mon fardeau, léger</i>. Car tout ce qui est dur dans le commandement, l’amour le rend facile. Que signifie : <i>Qu’il prenne sa croix ?</i> Qu’il porte tout ce qui est pénible : qu’il me suive ainsi. Car lorsqu’il commencera à me suivre en conformant sa conduite à mes commandements, il aura beaucoup de gens pour le contredire, beaucoup pour s’opposer à lui, beaucoup pour le décourager. Et ceux-là agiront ainsi au titre de compagnons du Christ. Ils marchaient avec le Christ, ceux qui empêchaient les aveugles de crier. Qu’il s’agisse de menaces, de flatteries ou d’interdictions, si tu veux suivre le Christ, change tout cela en croix ; patiente, supporte, ne te laisse pas accabler. Nous sommes dans un monde qui est saint, qui est bon, réconcilié, sauvé, ou plutôt à sauver mais sauvé dès maintenant en espérance — <i>car nous avons été sauvés, mais c’est en espérance</i> —. Dans ce monde donc, c’est-à-dire dans l’Église, qui tout entière suit le Christ, il dit à tous : <i>Celui qui veut marcher à ma suite, qu’il renonce à lui-même</i>. Car cette parole n’est pas destinée aux vierges, à l’exclusion des femmes mariées ; aux veuves, à l’exclusion des épouses ; aux moines, à l’exclusion des époux ; aux clercs, à l’exclusion des laïcs. C’est toute l’Église, tout le corps, tous les membres, différenciés et répartis selon leurs tâches propres, qui doivent suivre le Christ. Qu’elle le suive tout entière, elle qui, est l’unique, elle qui est la colombe, elle qui est l’épouse ; qu’elle le suive, elle qui est rachetée et dotée par le sang de l’Époux. Elle a ici sa place, la pureté des vierges ; elle a ici sa place, la continence des veuves ; elle a ici sa place, la chasteté conjugale. Ces membres qui ont ici leur place, qu’ils suivent le Christ, chacun selon sa catégorie, chacun selon son rang, chacun à sa manière. Qu’ils renoncent à eux-mêmes, c’est-à-dire qu’ils ne s’appuient pas sur eux-mêmes ; qu’ils portent leur croix, c’est-à-dire qu’ils supportent dans le monde, pour le Christ, tout ce que le monde leur infligera. Qu’ils l’aiment, lui, le seul qui ne trompe pas, le seul qui ne se trompe pas, le seul qui ne ment pas : qu’ils l’aiment parce que ce qu’il promet est vrai. Mais parce qu’il ne le donne pas maintenant, la foi chancelle. Continue, persévère, supporte, accepte ce retard, et tu as porté la croix.",
-  "readingsPatristicReadingResponsory2": "R/ Connaître le Christ,<br>  la puissance de sa résurrection,<br>  et la communion à ses souffrances.</p> <p>Pour lui, j’ai tout perdu,<br>  et je cours vers le seul but :</p> <p>Lui, le premier, m’a saisi,<br>  de tout mon élan, je veux le saisir.</p>",
-  "invitatoryAntiphon": "Dieu saint, toute sainteté vient de toi&nbsp;!",
-  "morningHymn": [
-    "de-toi-je-ne-sais-rien"
-  ],
-  "morningPsalm1Antiphon": "Dieu leur a donné une gloire sans fin, leur nom ne sera jamais oublié.",
-  "morningPsalm1": "PSALM_62",
-  "morningPsalm2Antiphon": "Serviteurs du Seigneur, bénissez le Seigneur, éternellement.",
-  "morningPsalm2": "AT_41",
-  "morningPsalm3Antiphon": "Ils exulteront, glorieux, criant leur joie à l’heure du triomphe.",
-  "morningPsalm3": "PSALM_149",
-  "morningEvangelicAntiphon": "Celui qui fait la vérité vient à la lumière : ses œuvres sont les œuvres de Dieu.",
-  "morningReadingRef": "Rm 12, 1-2",
-  "morningReading": "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait.",
-  "morningIntercession": "<p>Bénissons le Christ, le Saint de Dieu !<br> Suivons-le dans la justice et la sainteté tout au long de nos jours.</p>  <p>R/Toi, le seul saint ! Toi, le seul Seigneur !</p>  <p>Tu as connu l’épreuve comme nous, et tu n’as pas péché.<br> — prends pitié de nous, Seigneur Jésus.</p> <p>Tu nous appelle à un parfait amour de charité,<br> — sanctifie-nous, Seigneur Jésus.</p> <p>Tu veux que nous soyons le sel de la terre et la lumière du monde,<br> — illumine-nous, Seigneur Jésus.</p> <p>Tu es venu pour servir, non pour être servi,<br> — change nos cœurs, Seigneur Jésus.</p> <p>Toi, splendeur de la gloire du Père et parfaite expression de son être,<br> — montre-nous ton visage, Seigneur Jésus.</p>",
-  "morningResponsory": "R/ Que notre sacrifice en ce jour<br> trouve grâce devant toi.<br> V/ Nous te suivons et nous cherchons ta face. R/ <br> V/ À toi, louange et gloire éternellement. R/ <br>",
-  "middleOfDayTierceAntiphon": "Chez l’homme qui garde la parole du Christ, la charité est parfaite.",
-  "middleOfDaySexteAntiphon": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
-  "middleOfDayNoneAntiphon": "Rien n’égale, Seigneur, ta fidélité envers ceux qui espèrent en toi.",
-  "middleOfDayReading1Ref": "Ga 6, 8",
-  "middleOfDayReading1Content": "Ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle.",
-  "middleOfDayReading2Ref": "1 Co 9, 26-27a",
-  "middleOfDayReading2Content": "Moi, si je cours, ce n’est pas sans fixer le but ; si je fais de la lutte, ce n’est pas en frappant dans le vide. Mais je traite durement mon corps, et je le réduis en esclavage.",
-  "middleOfDayReading3Ref": "Ph 4, 8.9b",
-  "middleOfDayReading3Content": "Frères, tout ce qui est vrai et noble, tout ce qui est digne d’être aimé et honoré, tout ce qui s’appelle vertu et qui mérite des éloges, tout cela, prenez-le à votre compte. Et le Dieu de la paix sera avec vous.",
-  "middleOfDayResponsory1": "V/ Il est droit, il est bon, le Seigneur :<br> sa justice dirige les humbles.<br>",
-  "middleOfDayResponsory2": "V/ Heureux l’homme que tu instruis, Seigneur,<br> celui que tu enseignes par ta loi.<br>",
-  "middleOfDayResponsory3": "V/ Tu les protèges, pour toi ils exultent,<br> ceux qui aiment ton nom, Seigneur !<br>",
-  "vespersHymn": [
-    "l-etincelle-du-feu-divin"
-  ],
-  "vespersPsalm1Antiphon": "Il fut trouvé irréprochable et juste ; à lui, la gloire sans fin.",
-  "vespersPsalm1": "PSALM_14",
-  "vespersPsalm2Antiphon": "Dieu veille sur ses amis ; il donne à ses élus grâce et miséricorde.",
-  "vespersPsalm2": "Psalm_111",
-  "vespersPsalm3Antiphon": "Ils chantent le cantique nouveau devant le trône de Dieu et de l’Agneau ; leur voix résonne par toute la terre.",
-  "vespersPsalm3": "NT_11",
-  "vespersEvangelicAntiphon": "Serviteur fidèle et vigilant : entre dans la joie de ton maître.",
-  "vespersReadingRef": "Rm 8, 28-30",
-  "vespersReading": "Nous le savons, quand les hommes aiment Dieu, lui-même fait tout contribuer à leur bien, puisqu’ils sont appelés selon le dessein de son amour. Ceux qu’il connaissait par avance, il les a aussi destinés à être l’image de son Fils, pour faire de ce Fils l’aîné d’une multitude de frères. Ceux qu’il destinait à cette ressemblance, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes ; et ceux qu’il a justifiés, il leur a donné sa gloire.",
-  "vespersIntercession": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que nous le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>",
-  "vespersResponsory": "R/ Le Seigneur est juste :<br> * Les hommes droits le verront face à face.<br> V/ Il aime toute justice. *<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>",
   "oration": "Seigneur qui seul est saint, et sans qui nul homme n’est bon, accorde-nous, à la prière de saint N., de savoir répondre à ton appel pour n’est pas à jamais privés de ta gloire.",
   "oration2": "Dieu éternel et tout-puissant, tu nous donnes des preuves nouvelles de ton amour quand tu fais partager ta gloire aux saints du ciel ; permets que le secours de leur prière et la force de leur exemple nous aident à devenir semblables à ton Fils. Lui qui règne.",
   "oration3": "Permets, Dieu tout-puissant, que l’exemple des saints nous incite à mener une vie meilleure ; et tandis que nous célébrons la fête de saint N., fais-nous la grâce se savoir l’imiter."

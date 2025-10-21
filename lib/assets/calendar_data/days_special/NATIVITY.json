@@ -1,83 +1,183 @@
 {
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia&nbsp;! Venez, adorons-le&nbsp;!"
+    ]
+  },
+  "firstVespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_112",
+        "antiphon": [
+          "Il est apparu, le Roi de la paix, celui que le monde entier désirait contempler."
+        ]
+      },
+      {
+        "psalm": "PSALM_147",
+        "antiphon": [
+          "Dieu envoie sa Parole sur la terre&nbsp;: rapide, son Verbe la parcourt."
+        ]
+      },
+      {
+        "psalm": "NT_5",
+        "antiphon": [
+          "Le Verbe de Dieu, né du Père avant tous les siècles a pris chair aujourd’hui de notre chair&nbsp;: pour nous, il s’est anéanti."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "Ga 4, 4-5",
+      "content": "Lorsque les temps furent accomplis, Dieu a envoyé son Fils&nbsp;; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils."
+    },
+    "hymn": [
+      "aujourd-hui-dans-notre-monde"
+    ],
+    "evangelicAntiphon": "Quand le soleil apparaîtra, vous verrez le Roi des rois venu du Père s’élancer, tel un époux, hors de sa tente.",
+    "intercession": "<p>Adorons le Christ qui s’est fait semblable à nous, sauf le péché. Prions-le avec la ferveur de la foi&nbsp;:</p> <p>R/Jésus, notre Sauveur et notre frère, exauce-nous&nbsp;!</p> <p>En venant dans le monde, tu as inauguré le temps prédit par les prophètes&nbsp;:<br> —&nbsp;donne à ton Église une nouvelle jeunesse.</p> <p>Tu as partagé la faiblesse humaine&nbsp;:<br> —&nbsp;sois la force des faibles.</p> <p>Tu es né humble et pauvre&nbsp;:<br> —&nbsp;souviens-toi de ceux qui sont humiliés.</p> <p>Ta venue nous donne l’espérance de l’éternité&nbsp;:<br> —&nbsp;accorde aux mourants la certitude de vivre.</p> <p>Tu es descendu du ciel pour nous y conduire&nbsp;:<br> —&nbsp;associe les défunts à ta gloire.</p>",
+    "responsory": "<p>R/ Aujourd’hui, le Seigneur viendra.<br> * Au matin, vous verrez sa gloire&nbsp;!<br> V/ Les temps sont accomplis. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "oration": "Chaque année, Seigneur, tu ravives en nous la joyeuse espérance du salut&nbsp;; nous accueillons dans l’allégresse ton Fils unique qui vient nous racheter, accorde-nous de le regarder sans crainte quand il viendra nous juger. Lui qui règne. <span class=\"rouge\">On omet Complies si l’on participe à l’office de la nuit.</span>"
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_62",
+        "antiphon": [
+          "Qu’avez-vous vu, bergers&nbsp;? dites-nous. Qui donc est apparu sur terre&nbsp;? —&nbsp;Nous avons vu un nouveau-né, et des anges qui louaient le Seigneur, alléluia."
+        ]
+      },
+      {
+        "psalm": "AT_41",
+        "antiphon": [
+          "Je vous annonce une grande joie&nbsp;: Aujourd’hui vous est né le Sauveur du monde, alléluia."
+        ]
+      },
+      {
+        "psalm": "PSALM_149",
+        "antiphon": [
+          "Un petit enfant nous est né aujourd’hui&nbsp;: on l’appellera Dieu-fort, alléluia."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "He 1, 1-2",
+      "content": "Souvent, dans le passé, Dieu a parlé à nos pères par les prophètes sous des formes fragmentaires et variées&nbsp;; mais, dans les derniers temps, dans ces jours où nous sommes, il nous a parlé par ce Fils qu’il a établi héritier de toutes choses et par qui il a créé les mondes."
+    },
+    "hymn": [
+      "tout-le-ciel-s-emplit"
+    ],
+    "evangelicAntiphon": "Voici que les oracles s’accomplissent&nbsp;: la lumière du Très-Haut a surgi dans le monde&nbsp;; la vie nous est donnée&nbsp;; nous recevons en héritage la joie du Père, alléluia.",
+    "intercession": "<p>Louange au Verbe de Dieu&nbsp;!<br> Il était avant les siècles, il est né dans le temps&nbsp;:</p> <p>R/Joie au ciel, exulte la terre&nbsp;!</p> <p>Fils éternel de Dieu, en venant parmi les tiens, tu portais la joie&nbsp;:<br> —&nbsp;aujourd’hui tu nous combles d’allégresse.</p> <p>Jésus Sauveur, tu as manifesté la fidélité de notre Dieu&nbsp;:<br> —&nbsp;garde-nous fidèles à la foi de notre baptême.</p> <p>Roi du ciel et de la terre, les anges ont annoncé aux hommes la paix&nbsp;:<br> —&nbsp;conduis nos pas sur ses chemins.</p> <p>Toi, la Vigne véritable, tu viens nous donner le fruit de vie&nbsp;:<br> —&nbsp;comme les sarments reliés au cep, tiens-nous unis à toi.</p>",
+    "responsory": "<p>R/ Gloire à Dieu, paix aux hommes&nbsp;!<br> * Joie du ciel sur la terre&nbsp;!<br> V/ Pour tes merveilles, Seigneur Dieu,<br> ton peuple te rend grâce&nbsp;! *<br> V/ Ami des hommes, sois béni<br>pour ton règne qui vient&nbsp;! *<br> R/ Gloire à Dieu.<br></p>"
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_2",
+        "antiphon": [
+          "Le Seigneur m’a dit&nbsp;: Tu es mon Fils, moi, aujourd’hui, je t’ai engendré."
+        ]
+      },
+      {
+        "psalm": "PSALM_18A",
+        "antiphon": [
+          "Le Christ, Soleil de justice, nous est donné par la Vierge Marie."
+        ]
+      },
+      {
+        "psalm": "PSALM_44",
+        "antiphon": [
+          "Tu es le plus beau des enfants de l’homme, le Seigneur Dieu t’a consacré."
+        ]
+      }
+    ],
+    "biblicalReading": {
+      "title": "L’Esprit du Seigneur est sur lui",
+      "ref": "Is 11, 1-10",
+      "content": "<p>Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du SEIGNEUR&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du SEIGNEUR —&nbsp;qui lui inspirera la crainte du SEIGNEUR.</p> <p>Il ne jugera pas sur l’apparence&nbsp;; il ne se prononcera pas sur des rumeurs. Il jugera les petits avec justice&nbsp;; avec droiture, il se prononcera en faveur des humbles du pays. Du bâton de sa parole, il frappera le pays&nbsp;; du souffle de ses lèvres, il fera mourir le méchant. La justice est la ceinture de ses hanches&nbsp;; la fidélité est la ceinture de ses reins.</p> <p>Le loup habitera avec l’agneau, le léopard se couchera près du chevreau, le veau et le lionceau seront nourris ensemble, un petit garçon les conduira. La vache et l’ourse auront même pâture, leurs petits auront même gîte.</p> <p>Le lion, comme le bœuf, mangera du fourrage. Le nourrisson s’amusera sur le nid du cobra&nbsp;; sur le trou de la vipère, l’enfant étendra la main.</p> <p>Il n’y aura plus de mal ni de corruption sur toute ma montagne sainte&nbsp;; car la connaissance du SEIGNEUR remplira le pays comme les eaux recouvrent le fond de la mer.</p> <p>Ce jour-là, la racine de Jessé, père de David, sera dressée comme un étendard pour les peuples, les nations la chercheront, et la gloire sera sa demeure.</p>",
+      "responsory": "<p>R/ Ô merveilleux échange&nbsp;! Mystère de l’amour&nbsp;: Jésus, nous demeurons en toi&nbsp;!</p> Image éternelle du Père, tu portes notre péché pour nous vêtir de sainteté.</p> Parole éternelle du Père, tu apprends notre langage pour nous révéler l’indicible.</p> Lumière éternelle du Père, tu pénètres dans notre nuit pour y faire naître le jour.</p> Sagesse éternelle du Père, tu deviens nourriture pour nous donner le goût de Dieu.</p>"
+    },
+    "patristicReading": {
+      "title": "SERMON DE SAINT LÉON LE GRAND POUR NOËL",
+      "content": "<p>Notre Sauveur, mes bien-aimés, est né aujourd’hui&nbsp;: réjouissons-nous&nbsp;! Il n’est pas permis d’être triste, lorsqu’on célèbre l’anniversaire de la vie. Celui-ci détruit la crainte d’avoir à mourir, il nous donne la joie de l’éternité promise.</p> <p>Personne n’est tenu à l’écart de cette allégresse, car le même motif de joie est commun à tous. Notre Seigneur, chargé de détruire le péché et la mort, n’ayant trouvé personne qui en fût affranchi, est venu en affranchir tous les hommes. Que le saint exulte, car il approche du triomphe. Que le pécheur se réjouisse, car il est invité au pardon. Que le païen prenne courage, car il est appelé à la vie.</p> <p>En effet, le Fils de Dieu, à la plénitude des temps fixée dans la profondeur impénétrable du plan divin, a épousé la nature humaine pour la réconcilier avec son Créateur&nbsp;; c’est ainsi que le démon, inventeur de la mort, allait être vaincu par cette nature même qu’il avait vaincue. ~</p> <p>À la naissance du Seigneur, les anges bondissent de joie et chantent&nbsp;:<i>Gloire à Dieu au plus haut des cieux&nbsp;;</i>ils annoncent&nbsp;:<i>Paix sur la terre aux hommes que Dieu aime</i>. Ils voient en effet la Jérusalem céleste qui se construit avec toutes les nations du monde. Combien la pauvre humanité doit-elle se réjouir devant cette œuvre inouïe de la bonté divine, puisque celle-ci inspire une telle joie à la nature sublime des anges eux-mêmes&nbsp;!</p> <p>Mes bien-aimés, il nous faut donc rendre grâce à Dieu le Père, par son Fils, dans l’Esprit Saint&nbsp;; avec la grande miséricorde dont il nous a aimés, il nous a pris en pitié, et alors que<i>nous qui étions des morts par suite de nos fautes, il nous a donné la vie avec le Christ</i>pour que<i>nous soyons en lui</i><i>une création nouvelle</i>, une nouvelle œuvre de ses mains.</p> <p>Rejetons donc<i>l’homme ancien avec ses agissements</i>, et puisque nous sommes admis à participer à la naissance du Christ, renonçons à notre conduite charnelle.</p> <p>Chrétien, prends conscience de ta dignité. Puisque tu<i>participes</i>maintenant à<i>la nature divine</i>, ne dégénère pas en venant à la déchéance de ta vie passée. Rappelle-toi à quel chef tu appartiens, et de quel corps tu es membre. Souviens-toi que tu as été<i>arraché au pouvoir des ténèbres pour être placé dans la lumière et le royaume de Dieu</i>. Par le sacrement de baptême, tu es devenu temple du Saint-Esprit. Garde-toi de mettre en fuite un hôte si noble par tes actions mauvaises, et de retomber ainsi dans l’esclavage du démon, car tu as été racheté par le sang du Christ.</p>",
+      "responsory": "<p>R/ Ô merveilleux échange&nbsp;! Mystère de l’amour&nbsp;: Jésus, nous demeurons en toi&nbsp;!</p>"
+    },
+    "hymn": [
+      "le-fils-de-l-homme-est-ne"
+    ],
+    "verse": "<p>V/ Le Verbe s’est fait chair, alléluia.<br> Il a demeuré parmi nous, alléluia.</p>"
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_109",
+        "antiphon": [
+          "Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté&nbsp;: Comme la rosée qui naît de l’aurore, je t’ai engendré."
+        ]
+      },
+      {
+        "psalm": "PSALM_129",
+        "antiphon": [
+          "Oui, près du Seigneur est l’amour&nbsp;; près de lui abonde le rachat."
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui&nbsp;: c’est le Sauveur du monde."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "1 Jn 1, 1-3",
+      "content": "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage&nbsp;: nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ."
+    },
+    "hymn": [
+      "a-pleine-voix-chantons-pour-dieu"
+    ],
+    "evangelicAntiphon": "Aujourd’hui, le Christ est né&nbsp;; aujourd’hui, le Sauveur est apparu&nbsp;; aujourd’hui sur la terre exultent les anges et les archanges, aujourd’hui chantent les justes, pleins de joie&nbsp;: Gloire à Dieu au plus haut des cieux, alléluia&nbsp;!",
+    "intercession": "<p>Célébrons le Christ annoncé par les anges, et demandons son amour&nbsp;:</p> <p>R/Jésus, Sauveur, ton amour soit sur nous&nbsp;!</p> <p>Seigneur, tu réjouis ton Église par le mystère de ta naissance&nbsp;;<br> —&nbsp;comble-la de tes bienfaits.</p> <p>Pasteur des pasteurs et gardien de nos âmes,<br> —&nbsp;accorde au pape et à nos évêques d’être les fidèles serviteurs de ta grâce.</p> <p>Roi des siècles, tu as éprouvé les limites de l’espace et du temps&nbsp;:<br> —&nbsp;fais de nous les hôtes de ton éternité.</p> <p>Christ, espérance du monde, tu es apparu à la plénitude des temps&nbsp;:<br> —&nbsp;révèle ta présence à ceux qui ne te connaissent pas.</p> <p>Verbe de Dieu, par ton incarnation, tu as recréé notre nature atteinte par la mort&nbsp;:<br> —&nbsp;fais entrer nos frères défunts dans la création nouvelle.</p>",
+    "responsory": "<p>R/ Un enfant nous est né,<br> un fils nous est donné.<br> * Gloire à Dieu dans le ciel&nbsp;!<br> V/ Messager du Très-Haut<br> et Prince de la paix. *<br> V/ Le Verbe s’est fait chair,<br> il demeure parmi nous. *<br> R/ Un enfant nous est né&nbsp;!<br></p>",
+    "oration": "Père, toi qui as merveilleusement créé l’homme et, plus merveilleusement encore, rétabli sa dignité, fais-nous participer à la divinité de ton Fils, puisqu’il a voulu prendre notre humanité. Lui qui règne."
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_18B"
+      },
+      {
+        "psalm": "PSALM_46"
+      },
+      {
+        "psalm": "PSALM_47"
+      }
+    ],
+    "tierce": {
+      "antiphon": "Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.",
+      "reading": {
+        "ref": "Tt 2, 11-12",
+        "content": "La grâce de Dieu s’est manifestée pour le salut de tous les hommes. C’est elle qui nous apprend à rejeter le péché et les passions d’ici-bas, pour vivre dans le monde présent en hommes raisonnables, justes et religieux."
+      },
+      "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia."
+    },
+    "sexte": {
+      "antiphon": "Marie retenait toutes ces paroles et les méditait dans son cœur.",
+      "reading": {
+        "ref": "1 Jn 4, 9",
+        "content": "Voici comment Dieu a manifesté son amour parmi nous&nbsp;: Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui."
+      },
+      "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia."
+    },
+    "none": {
+      "antiphon": "Mes yeux ont vu le salut que tu préparais à la face des peuples.",
+      "reading": {
+        "ref": "Ac 10, 36",
+        "content": "Dieu a envoyé la Parole aux fils d’Israël, pour leur annoncer la paix de Jésus Christ&nbsp;: c’est lui, Jésus, qui est le Seigneur de tous."
+      },
+      "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia."
+    }
+  },
   "celebrationTitle": "Nativité du Seigneur",
   "liturgicalGrade": 2,
   "liturgicalColor": "white",
-  "morningPsalm1": "PSALM_62",
-  "morningPsalm2": "AT_41",
-  "morningPsalm3": "PSALM_149",
-  "firstVespersHymn": [
-    "aujourd-hui-dans-notre-monde"
-  ],
-  "firstVespersPsalm1Antiphon": "Il est apparu, le Roi de la paix, celui que le monde entier désirait contempler.",
-  "firstVespersPsalm2Antiphon": "Dieu envoie sa Parole sur la terre&nbsp;: rapide, son Verbe la parcourt.",
-  "firstVespersPsalm3Antiphon": "Le Verbe de Dieu, né du Père avant tous les siècles a pris chair aujourd’hui de notre chair&nbsp;: pour nous, il s’est anéanti.",
-  "firstVespersEvangelicAntiphon": "Quand le soleil apparaîtra, vous verrez le Roi des rois venu du Père s’élancer, tel un époux, hors de sa tente.",
-  "firstVespersReadingRef": "Ga 4, 4-5",
-  "firstVespersReading": "Lorsque les temps furent accomplis, Dieu a envoyé son Fils&nbsp;; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils.",
-  "firstVespersIntercession": "<p>Adorons le Christ qui s’est fait semblable à nous, sauf le péché. Prions-le avec la ferveur de la foi&nbsp;:</p> <p>R/Jésus, notre Sauveur et notre frère, exauce-nous&nbsp;!</p> <p>En venant dans le monde, tu as inauguré le temps prédit par les prophètes&nbsp;:<br> —&nbsp;donne à ton Église une nouvelle jeunesse.</p> <p>Tu as partagé la faiblesse humaine&nbsp;:<br> —&nbsp;sois la force des faibles.</p> <p>Tu es né humble et pauvre&nbsp;:<br> —&nbsp;souviens-toi de ceux qui sont humiliés.</p> <p>Ta venue nous donne l’espérance de l’éternité&nbsp;:<br> —&nbsp;accorde aux mourants la certitude de vivre.</p> <p>Tu es descendu du ciel pour nous y conduire&nbsp;:<br> —&nbsp;associe les défunts à ta gloire.</p>",
-  "firstVespersResponsory": "<p>R/ Aujourd’hui, le Seigneur viendra.<br> * Au matin, vous verrez sa gloire&nbsp;!<br> V/ Les temps sont accomplis. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-  "firstVespersPsalm1": "PSALM_112",
-  "firstVespersPsalm2": "PSALM_147",
-  "firstVespersPsalm3": "NT_5",
-  "readingsHymn": [
-    "le-fils-de-l-homme-est-ne"
-  ],
-  "readingsPsalm1Antiphon": "Le Seigneur m’a dit&nbsp;: Tu es mon Fils, moi, aujourd’hui, je t’ai engendré.",
-  "readingsPsalm2Antiphon": "Le Christ, Soleil de justice, nous est donné par la Vierge Marie.",
-  "readingsPsalm3Antiphon": "Tu es le plus beau des enfants de l’homme, le Seigneur Dieu t’a consacré.",
-  "readingsVerse": "<p>V/ Le Verbe s’est fait chair, alléluia.<br> Il a demeuré parmi nous, alléluia.</p>",
-  "readingsBiblicalReadingTitle": "L’Esprit du Seigneur est sur lui",
-  "readingsBiblicalReadingRef": "Is 11, 1-10",
-  "readingsBiblicalReadingContent": "<p>Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du SEIGNEUR&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du SEIGNEUR —&nbsp;qui lui inspirera la crainte du SEIGNEUR.</p> <p>Il ne jugera pas sur l’apparence&nbsp;; il ne se prononcera pas sur des rumeurs. Il jugera les petits avec justice&nbsp;; avec droiture, il se prononcera en faveur des humbles du pays. Du bâton de sa parole, il frappera le pays&nbsp;; du souffle de ses lèvres, il fera mourir le méchant. La justice est la ceinture de ses hanches&nbsp;; la fidélité est la ceinture de ses reins.</p> <p>Le loup habitera avec l’agneau, le léopard se couchera près du chevreau, le veau et le lionceau seront nourris ensemble, un petit garçon les conduira. La vache et l’ourse auront même pâture, leurs petits auront même gîte.</p> <p>Le lion, comme le bœuf, mangera du fourrage. Le nourrisson s’amusera sur le nid du cobra&nbsp;; sur le trou de la vipère, l’enfant étendra la main.</p> <p>Il n’y aura plus de mal ni de corruption sur toute ma montagne sainte&nbsp;; car la connaissance du SEIGNEUR remplira le pays comme les eaux recouvrent le fond de la mer.</p> <p>Ce jour-là, la racine de Jessé, père de David, sera dressée comme un étendard pour les peuples, les nations la chercheront, et la gloire sera sa demeure.</p>",
-  "readingsBiblicalReadingResponsory": "<p>R/ Ô merveilleux échange&nbsp;! Mystère de l’amour&nbsp;: Jésus, nous demeurons en toi&nbsp;!</p> Image éternelle du Père, tu portes notre péché pour nous vêtir de sainteté.</p> Parole éternelle du Père, tu apprends notre langage pour nous révéler l’indicible.</p> Lumière éternelle du Père, tu pénètres dans notre nuit pour y faire naître le jour.</p> Sagesse éternelle du Père, tu deviens nourriture pour nous donner le goût de Dieu.</p>",
-  "readingsPatristicReadingTitle": "SERMON DE SAINT LÉON LE GRAND POUR NOËL",
-  "readingsPatristicReadingContent": "<p>Notre Sauveur, mes bien-aimés, est né aujourd’hui&nbsp;: réjouissons-nous&nbsp;! Il n’est pas permis d’être triste, lorsqu’on célèbre l’anniversaire de la vie. Celui-ci détruit la crainte d’avoir à mourir, il nous donne la joie de l’éternité promise.</p> <p>Personne n’est tenu à l’écart de cette allégresse, car le même motif de joie est commun à tous. Notre Seigneur, chargé de détruire le péché et la mort, n’ayant trouvé personne qui en fût affranchi, est venu en affranchir tous les hommes. Que le saint exulte, car il approche du triomphe. Que le pécheur se réjouisse, car il est invité au pardon. Que le païen prenne courage, car il est appelé à la vie.</p> <p>En effet, le Fils de Dieu, à la plénitude des temps fixée dans la profondeur impénétrable du plan divin, a épousé la nature humaine pour la réconcilier avec son Créateur&nbsp;; c’est ainsi que le démon, inventeur de la mort, allait être vaincu par cette nature même qu’il avait vaincue. ~</p> <p>À la naissance du Seigneur, les anges bondissent de joie et chantent&nbsp;:<i>Gloire à Dieu au plus haut des cieux&nbsp;;</i>ils annoncent&nbsp;:<i>Paix sur la terre aux hommes que Dieu aime</i>. Ils voient en effet la Jérusalem céleste qui se construit avec toutes les nations du monde. Combien la pauvre humanité doit-elle se réjouir devant cette œuvre inouïe de la bonté divine, puisque celle-ci inspire une telle joie à la nature sublime des anges eux-mêmes&nbsp;!</p> <p>Mes bien-aimés, il nous faut donc rendre grâce à Dieu le Père, par son Fils, dans l’Esprit Saint&nbsp;; avec la grande miséricorde dont il nous a aimés, il nous a pris en pitié, et alors que<i>nous qui étions des morts par suite de nos fautes, il nous a donné la vie avec le Christ</i>pour que<i>nous soyons en lui</i><i>une création nouvelle</i>, une nouvelle œuvre de ses mains.</p> <p>Rejetons donc<i>l’homme ancien avec ses agissements</i>, et puisque nous sommes admis à participer à la naissance du Christ, renonçons à notre conduite charnelle.</p> <p>Chrétien, prends conscience de ta dignité. Puisque tu<i>participes</i>maintenant à<i>la nature divine</i>, ne dégénère pas en venant à la déchéance de ta vie passée. Rappelle-toi à quel chef tu appartiens, et de quel corps tu es membre. Souviens-toi que tu as été<i>arraché au pouvoir des ténèbres pour être placé dans la lumière et le royaume de Dieu</i>. Par le sacrement de baptême, tu es devenu temple du Saint-Esprit. Garde-toi de mettre en fuite un hôte si noble par tes actions mauvaises, et de retomber ainsi dans l’esclavage du démon, car tu as été racheté par le sang du Christ.</p>",
-  "readingsPatristicReadingResponsory": "<p>R/ Ô merveilleux échange&nbsp;! Mystère de l’amour&nbsp;: Jésus, nous demeurons en toi&nbsp;!</p>",
-  "readingsPsalm1": "PSALM_2",
-  "readingsPsalm2": "PSALM_18A",
-  "readingsPsalm3": "PSALM_44",
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia&nbsp;! Venez, adorons-le&nbsp;!",
-  "morningHymn": [
-    "tout-le-ciel-s-emplit"
-  ],
-  "morningPsalm1Antiphon": "Qu’avez-vous vu, bergers&nbsp;? dites-nous. Qui donc est apparu sur terre&nbsp;? —&nbsp;Nous avons vu un nouveau-né, et des anges qui louaient le Seigneur, alléluia.",
-  "morningPsalm2Antiphon": "Je vous annonce une grande joie&nbsp;: Aujourd’hui vous est né le Sauveur du monde, alléluia.",
-  "morningPsalm3Antiphon": "Un petit enfant nous est né aujourd’hui&nbsp;: on l’appellera Dieu-fort, alléluia.",
-  "morningEvangelicAntiphon": "Voici que les oracles s’accomplissent&nbsp;: la lumière du Très-Haut a surgi dans le monde&nbsp;; la vie nous est donnée&nbsp;; nous recevons en héritage la joie du Père, alléluia.",
-  "morningReadingRef": "He 1, 1-2",
-  "morningReading": "Souvent, dans le passé, Dieu a parlé à nos pères par les prophètes sous des formes fragmentaires et variées&nbsp;; mais, dans les derniers temps, dans ces jours où nous sommes, il nous a parlé par ce Fils qu’il a établi héritier de toutes choses et par qui il a créé les mondes.",
-  "morningIntercession": "<p>Louange au Verbe de Dieu&nbsp;!<br> Il était avant les siècles, il est né dans le temps&nbsp;:</p> <p>R/Joie au ciel, exulte la terre&nbsp;!</p> <p>Fils éternel de Dieu, en venant parmi les tiens, tu portais la joie&nbsp;:<br> —&nbsp;aujourd’hui tu nous combles d’allégresse.</p> <p>Jésus Sauveur, tu as manifesté la fidélité de notre Dieu&nbsp;:<br> —&nbsp;garde-nous fidèles à la foi de notre baptême.</p> <p>Roi du ciel et de la terre, les anges ont annoncé aux hommes la paix&nbsp;:<br> —&nbsp;conduis nos pas sur ses chemins.</p> <p>Toi, la Vigne véritable, tu viens nous donner le fruit de vie&nbsp;:<br> —&nbsp;comme les sarments reliés au cep, tiens-nous unis à toi.</p>",
-  "morningResponsory": "<p>R/ Gloire à Dieu, paix aux hommes&nbsp;!<br> * Joie du ciel sur la terre&nbsp;!<br> V/ Pour tes merveilles, Seigneur Dieu,<br> ton peuple te rend grâce&nbsp;! *<br> V/ Ami des hommes, sois béni<br>pour ton règne qui vient&nbsp;! *<br> R/ Gloire à Dieu.<br></p>",
-  "middleOfDayTierceAntiphon": "Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.",
-  "middleOfDaySexteAntiphon": "Marie retenait toutes ces paroles et les méditait dans son cœur.",
-  "middleOfDayNoneAntiphon": "Mes yeux ont vu le salut que tu préparais à la face des peuples.",
-  "middleOfDayReading1Ref": "Tt 2, 11-12",
-  "middleOfDayReading1Content": "La grâce de Dieu s’est manifestée pour le salut de tous les hommes. C’est elle qui nous apprend à rejeter le péché et les passions d’ici-bas, pour vivre dans le monde présent en hommes raisonnables, justes et religieux.",
-  "middleOfDayResponsory1": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.",
-  "middleOfDayReading2Ref": "1 Jn 4, 9",
-  "middleOfDayReading2Content": "Voici comment Dieu a manifesté son amour parmi nous&nbsp;: Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui.",
-  "middleOfDayResponsory2": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.",
-  "middleOfDayReading3Ref": "Ac 10, 36",
-  "middleOfDayReading3Content": "Dieu a envoyé la Parole aux fils d’Israël, pour leur annoncer la paix de Jésus Christ&nbsp;: c’est lui, Jésus, qui est le Seigneur de tous.",
-  "middleOfDayResponsory3": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.",
-  "middleOfDayPsalm1": "PSALM_18B",
-  "middleOfDayPsalm2": "PSALM_46",
-  "middleOfDayPsalm3": "PSALM_47",
-  "vespersHymn": [
-    "a-pleine-voix-chantons-pour-dieu"
-  ],
-  "vespersPsalm1Antiphon": "Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté&nbsp;: Comme la rosée qui naît de l’aurore, je t’ai engendré.",
-  "vespersPsalm2Antiphon": "Oui, près du Seigneur est l’amour&nbsp;; près de lui abonde le rachat.",
-  "vespersPsalm3Antiphon": "Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui&nbsp;: c’est le Sauveur du monde.",
-  "vespersEvangelicAntiphon": "Aujourd’hui, le Christ est né&nbsp;; aujourd’hui, le Sauveur est apparu&nbsp;; aujourd’hui sur la terre exultent les anges et les archanges, aujourd’hui chantent les justes, pleins de joie&nbsp;: Gloire à Dieu au plus haut des cieux, alléluia&nbsp;!",
-  "vespersReadingRef": "1 Jn 1, 1-3",
-  "vespersReading": "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage&nbsp;: nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ.",
-  "vespersIntercession": "<p>Célébrons le Christ annoncé par les anges, et demandons son amour&nbsp;:</p> <p>R/Jésus, Sauveur, ton amour soit sur nous&nbsp;!</p> <p>Seigneur, tu réjouis ton Église par le mystère de ta naissance&nbsp;;<br> —&nbsp;comble-la de tes bienfaits.</p> <p>Pasteur des pasteurs et gardien de nos âmes,<br> —&nbsp;accorde au pape et à nos évêques d’être les fidèles serviteurs de ta grâce.</p> <p>Roi des siècles, tu as éprouvé les limites de l’espace et du temps&nbsp;:<br> —&nbsp;fais de nous les hôtes de ton éternité.</p> <p>Christ, espérance du monde, tu es apparu à la plénitude des temps&nbsp;:<br> —&nbsp;révèle ta présence à ceux qui ne te connaissent pas.</p> <p>Verbe de Dieu, par ton incarnation, tu as recréé notre nature atteinte par la mort&nbsp;:<br> —&nbsp;fais entrer nos frères défunts dans la création nouvelle.</p>",
-  "vespersResponsory": "<p>R/ Un enfant nous est né,<br> un fils nous est donné.<br> * Gloire à Dieu dans le ciel&nbsp;!<br> V/ Messager du Très-Haut<br> et Prince de la paix. *<br> V/ Le Verbe s’est fait chair,<br> il demeure parmi nous. *<br> R/ Un enfant nous est né&nbsp;!<br></p>",
-  "vespersPsalm1": "PSALM_109",
-  "vespersPsalm2": "PSALM_129",
-  "vespersPsalm3": "NT_6",
-  "vespersOration": "Père, toi qui as merveilleusement créé l’homme et, plus merveilleusement encore, rétabli sa dignité, fais-nous participer à la divinité de ton Fils, puisqu’il a voulu prendre notre humanité. Lui qui règne.",
-  "firstVespersOration": "Chaque année, Seigneur, tu ravives en nous la joyeuse espérance du salut&nbsp;; nous accueillons dans l’allégresse ton Fils unique qui vient nous racheter, accorde-nous de le regarder sans crainte quand il viendra nous juger. Lui qui règne. <span class=\"rouge\">On omet Complies si l’on participe à l’office de la nuit.</span>",
   "oration": "Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit&nbsp;: puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie."
 }

@@ -1,41 +1,63 @@
 import 'day_offices_class.dart';
+import 'office_structures.dart';
 
+/// Morning prayer class with deeply nested structure support
+/// Extracts data from DayOffices and provides helper methods for access
 class Morning {
+  // General celebration information
   String? celebrationTitle;
   String? celebrationSubtitle;
   String? celebrationDescription;
   String? commonTitle;
   int? liturgicalGrade;
   String? liturgicalColor;
-  String? invitatoryAntiphon;
-  String? invitatoryAntiphon2;
-  List? invitatoryPsalms;
-  List<String>? morningHymn;
-  String? morningPsalm1Antiphon;
-  String? morningPsalm1Antiphon2;
-  String? morningPsalm1;
-  String? morningPsalm2Antiphon;
-  String? morningPsalm2Antiphon2;
-  String? morningPsalm2;
-  String? morningPsalm3Antiphon;
-  String? morningPsalm3Antiphon2;
-  String? morningPsalm3;
-  String? morningReadingRef;
-  String? morningReading;
-  String? morningResponsory;
-  String? morningEvangelicAntiphon;
-  String? morningEvangelicAntiphonA;
-  String? morningEvangelicAntiphonB;
-  String? morningEvangelicAntiphonC;
-  String? morningIntercessionDescription;
-  String? morningIntercession;
-  String? morningOration;
 
-  Morning();
+  // Invitatory data (keeps prefix as it's not part of morning office proper)
+  List<String>? invitatoryAntiphon;
+  List? invitatoryPsalms;
+
+  // Morning office elements (no prefix needed - we're in Morning class)
+  List<String>? hymn;
+  List<PsalmEntry>? psalmody;
+
+  // Reading fields (extracted from nested object)
+  String? readingRef;
+  String? reading;
+
+  String? responsory;
+  String? evangelicAntiphon;
+  String? evangelicAntiphonA;
+  String? evangelicAntiphonB;
+  String? evangelicAntiphonC;
+  String? intercessionDescription;
+  String? intercession;
+  String? oration;
+
+  Morning({
+    this.celebrationTitle,
+    this.celebrationSubtitle,
+    this.celebrationDescription,
+    this.commonTitle,
+    this.liturgicalGrade,
+    this.liturgicalColor,
+    this.invitatoryAntiphon,
+    this.invitatoryPsalms,
+    this.hymn,
+    this.psalmody,
+    this.readingRef,
+    this.reading,
+    this.responsory,
+    this.evangelicAntiphon,
+    this.evangelicAntiphonA,
+    this.evangelicAntiphonB,
+    this.evangelicAntiphonC,
+    this.intercessionDescription,
+    this.intercession,
+    this.oration,
+  });
 
   /// Creates a Morning instance from DayOffices data
   /// Maps corresponding fields from DayOffices to Morning
-  /// Note: commonTitle is not mapped as it doesn't exist in DayOffices
   static Morning fromDayOffices(DayOffices dayOffices) {
     return Morning()
       // Direct field mappings
@@ -44,41 +66,34 @@ class Morning {
       ..celebrationDescription = dayOffices.celebrationDescription
       ..liturgicalGrade = dayOffices.liturgicalGrade
       ..liturgicalColor = dayOffices.liturgicalColor
-      ..invitatoryAntiphon = dayOffices.invitatoryAntiphon
-      ..invitatoryAntiphon2 = dayOffices.invitatoryAntiphon2
-      ..morningHymn = dayOffices.morningHymn
-      ..morningPsalm1Antiphon = dayOffices.morningPsalm1Antiphon
-      ..morningPsalm1Antiphon2 = dayOffices.morningPsalm1Antiphon2
-      ..morningPsalm1 = dayOffices.morningPsalm1
-      ..morningPsalm2Antiphon = dayOffices.morningPsalm2Antiphon
-      ..morningPsalm2Antiphon2 = dayOffices.morningPsalm2Antiphon2
-      ..morningPsalm2 = dayOffices.morningPsalm2
-      ..morningPsalm3Antiphon = dayOffices.morningPsalm3Antiphon
-      ..morningPsalm3Antiphon2 = dayOffices.morningPsalm3Antiphon2
-      ..morningPsalm3 = dayOffices.morningPsalm3
-      ..morningReadingRef = dayOffices.morningReadingRef
-      ..morningReading = dayOffices.morningReading
-      ..morningResponsory = dayOffices.morningResponsory
-      // Map morningEvangelicAntiphon with fallback to evangelicAntiphon
-      ..morningEvangelicAntiphon =
-          dayOffices.morningEvangelicAntiphon ?? dayOffices.evangelicAntiphon
-      // Map Sunday variants to Morning variants
-      ..morningEvangelicAntiphonA = dayOffices.sundayEvangelicAntiphonA
-      ..morningEvangelicAntiphonB = dayOffices.sundayEvangelicAntiphonB
-      ..morningEvangelicAntiphonC = dayOffices.sundayEvangelicAntiphonC
-      ..morningIntercessionDescription =
-          dayOffices.morningIntercessionDescription
-      ..morningIntercession = dayOffices.morningIntercession
-      // Map morningOration with fallback to oration
-      ..morningOration = dayOffices.morningOration ?? dayOffices.oration;
+
+      // Invitatory data - now a list
+      ..invitatoryAntiphon = dayOffices.invitatory?.antiphon
+
+      // Morning office data
+      ..hymn = dayOffices.morning?.hymn
+      ..psalmody = dayOffices.morning?.psalmody
+
+      // Reading - extract from nested object
+      ..readingRef = dayOffices.morning?.reading?.ref
+      ..reading = dayOffices.morning?.reading?.content
+      ..responsory = dayOffices.morning?.responsory
+      ..evangelicAntiphon =
+          dayOffices.morning?.evangelicAntiphon ?? dayOffices.evangelicAntiphon
+      ..evangelicAntiphonA = dayOffices.morning?.evangelicAntiphonA ??
+          dayOffices.sundayEvangelicAntiphonA
+      ..evangelicAntiphonB = dayOffices.morning?.evangelicAntiphonB ??
+          dayOffices.sundayEvangelicAntiphonB
+      ..evangelicAntiphonC = dayOffices.morning?.evangelicAntiphonC ??
+          dayOffices.sundayEvangelicAntiphonC
+      ..intercessionDescription = dayOffices.morning?.intercessionDescription
+      ..intercession = dayOffices.morning?.intercession
+      ..oration = dayOffices.morning?.oration ?? dayOffices.oration;
   }
 
   /// Overlays data from another Morning instance onto this instance
   /// If a value exists in [overlay], it replaces the existing value
-  /// For fields with variants (2, 3), if the variant doesn't exist in [overlay],
-  /// it is removed from this instance
   void overlayWith(Morning overlay) {
-    // Simple fields - replace if overlay has a value
     if (overlay.celebrationTitle != null) {
       celebrationTitle = overlay.celebrationTitle;
     }
@@ -100,112 +115,65 @@ class Morning {
     if (overlay.invitatoryPsalms != null) {
       invitatoryPsalms = overlay.invitatoryPsalms;
     }
-    if (overlay.morningHymn != null) {
-      morningHymn = overlay.morningHymn;
+    if (overlay.hymn != null) {
+      hymn = overlay.hymn;
     }
-    if (overlay.morningReadingRef != null) {
-      morningReadingRef = overlay.morningReadingRef;
+    if (overlay.readingRef != null) {
+      readingRef = overlay.readingRef;
     }
-    if (overlay.morningReading != null) {
-      morningReading = overlay.morningReading;
+    if (overlay.reading != null) {
+      reading = overlay.reading;
     }
-    if (overlay.morningResponsory != null) {
-      morningResponsory = overlay.morningResponsory;
+    if (overlay.responsory != null) {
+      responsory = overlay.responsory;
     }
-    if (overlay.morningIntercessionDescription != null) {
-      morningIntercessionDescription = overlay.morningIntercessionDescription;
+    if (overlay.intercessionDescription != null) {
+      intercessionDescription = overlay.intercessionDescription;
     }
-    if (overlay.morningIntercession != null) {
-      morningIntercession = overlay.morningIntercession;
+    if (overlay.intercession != null) {
+      intercession = overlay.intercession;
     }
-    if (overlay.morningOration != null) {
-      morningOration = overlay.morningOration;
+    if (overlay.oration != null) {
+      oration = overlay.oration;
     }
 
-    // Handling fields with variants - invitatoryAntiphon
+    // Psalmody - replace entire list if overlay has one
+    if (overlay.psalmody != null) {
+      psalmody = overlay.psalmody;
+    }
+
+    // Invitatory antiphon - now a list
     if (overlay.invitatoryAntiphon != null) {
       invitatoryAntiphon = overlay.invitatoryAntiphon;
-      // If overlay doesn't have variant 2, remove it
-      if (overlay.invitatoryAntiphon2 == null) {
-        invitatoryAntiphon2 = null;
-      }
-    }
-    if (overlay.invitatoryAntiphon2 != null) {
-      invitatoryAntiphon2 = overlay.invitatoryAntiphon2;
     }
 
-    // Handling fields with variants - morningPsalm1
-    if (overlay.morningPsalm1 != null) {
-      morningPsalm1 = overlay.morningPsalm1;
-    }
-    if (overlay.morningPsalm1Antiphon != null) {
-      morningPsalm1Antiphon = overlay.morningPsalm1Antiphon;
-      // If overlay doesn't have variant 2, remove it
-      if (overlay.morningPsalm1Antiphon2 == null) {
-        morningPsalm1Antiphon2 = null;
+    // Evangelic antiphon variants
+    if (overlay.evangelicAntiphon != null) {
+      evangelicAntiphon = overlay.evangelicAntiphon;
+      if (overlay.evangelicAntiphonA == null) {
+        evangelicAntiphonA = null;
+      }
+      if (overlay.evangelicAntiphonB == null) {
+        evangelicAntiphonB = null;
+      }
+      if (overlay.evangelicAntiphonC == null) {
+        evangelicAntiphonC = null;
       }
     }
-    if (overlay.morningPsalm1Antiphon2 != null) {
-      morningPsalm1Antiphon2 = overlay.morningPsalm1Antiphon2;
+    if (overlay.evangelicAntiphonA != null) {
+      evangelicAntiphonA = overlay.evangelicAntiphonA;
     }
-
-    // Handling fields with variants - morningPsalm2
-    if (overlay.morningPsalm2 != null) {
-      morningPsalm2 = overlay.morningPsalm2;
+    if (overlay.evangelicAntiphonB != null) {
+      evangelicAntiphonB = overlay.evangelicAntiphonB;
     }
-    if (overlay.morningPsalm2Antiphon != null) {
-      morningPsalm2Antiphon = overlay.morningPsalm2Antiphon;
-      // If overlay doesn't have variant 2, remove it
-      if (overlay.morningPsalm2Antiphon2 == null) {
-        morningPsalm2Antiphon2 = null;
-      }
-    }
-    if (overlay.morningPsalm2Antiphon2 != null) {
-      morningPsalm2Antiphon2 = overlay.morningPsalm2Antiphon2;
-    }
-
-    // Handling fields with variants - morningPsalm3
-    if (overlay.morningPsalm3 != null) {
-      morningPsalm3 = overlay.morningPsalm3;
-    }
-    if (overlay.morningPsalm3Antiphon != null) {
-      morningPsalm3Antiphon = overlay.morningPsalm3Antiphon;
-      // If overlay doesn't have variant 2, remove it
-      if (overlay.morningPsalm3Antiphon2 == null) {
-        morningPsalm3Antiphon2 = null;
-      }
-    }
-    if (overlay.morningPsalm3Antiphon2 != null) {
-      morningPsalm3Antiphon2 = overlay.morningPsalm3Antiphon2;
-    }
-
-    // Handling fields with variants - morningEvangelicAntiphon
-    if (overlay.morningEvangelicAntiphon != null) {
-      morningEvangelicAntiphon = overlay.morningEvangelicAntiphon;
-      // If overlay doesn't have variants A, B, C, remove them
-      if (overlay.morningEvangelicAntiphonA == null) {
-        morningEvangelicAntiphonA = null;
-      }
-      if (overlay.morningEvangelicAntiphonB == null) {
-        morningEvangelicAntiphonB = null;
-      }
-      if (overlay.morningEvangelicAntiphonC == null) {
-        morningEvangelicAntiphonC = null;
-      }
-    }
-    if (overlay.morningEvangelicAntiphonA != null) {
-      morningEvangelicAntiphonA = overlay.morningEvangelicAntiphonA;
-    }
-    if (overlay.morningEvangelicAntiphonB != null) {
-      morningEvangelicAntiphonB = overlay.morningEvangelicAntiphonB;
-    }
-    if (overlay.morningEvangelicAntiphonC != null) {
-      morningEvangelicAntiphonC = overlay.morningEvangelicAntiphonC;
+    if (overlay.evangelicAntiphonC != null) {
+      evangelicAntiphonC = overlay.evangelicAntiphonC;
     }
   }
 
+  /// Sets the list of available invitatory psalms
+  /// Removes psalms already used in the morning office
   void setInvitatoryPsalms() {
-    // remove from the Invitatory psalms list those already used in the morning office
     List<String> availablePsalms = [
       'PSALM_94',
       'PSALM_99',
@@ -213,13 +181,91 @@ class Morning {
       'PSALM_23'
     ];
     List<String> usedPsalms = [];
-    if (morningPsalm1 != null && morningPsalm1!.isNotEmpty) {
-      usedPsalms.add(morningPsalm1!);
+
+    // Extract psalms from psalmody list
+    if (psalmody != null) {
+      for (var entry in psalmody!) {
+        if (entry.psalm.isNotEmpty) {
+          usedPsalms.add(entry.psalm);
+        }
+      }
     }
-    if (morningPsalm3 != null && morningPsalm3!.isNotEmpty) {
-      usedPsalms.add(morningPsalm3!);
-    }
+
     invitatoryPsalms =
         availablePsalms.where((psalm) => !usedPsalms.contains(psalm)).toList();
+  }
+
+  // ============================================================================
+  // Helper methods for accessing psalm data
+  // ============================================================================
+
+  /// Get psalm reference by index in psalmody
+  String? getPsalm(int index) {
+    if (psalmody == null || index >= psalmody!.length) return null;
+    return psalmody![index].psalm;
+  }
+
+  /// Get list of antiphons for a psalm by index
+  List<String>? getAntiphonList(int index) {
+    if (psalmody == null || index >= psalmody!.length) return null;
+    return psalmody![index].antiphon;
+  }
+
+  /// Get specific antiphon by psalm index and antiphon index
+  ///
+  /// Example: getAntiphon(0, 0) returns first antiphon of first psalm
+  String? getAntiphon(int psalmodyIndex, int antiphonIndex) {
+    final antiphonList = getAntiphonList(psalmodyIndex);
+    if (antiphonList == null || antiphonIndex >= antiphonList.length)
+      return null;
+    return antiphonList[antiphonIndex];
+  }
+
+  // ============================================================================
+  // Helper methods for accessing reading data
+  // ============================================================================
+
+  /// Get reading reference
+  String? getReadingRef() {
+    return readingRef;
+  }
+
+  /// Get reading content
+  String? getReadingContent() {
+    return reading;
+  }
+
+  // ============================================================================
+  // Helper methods for accessing invitatory data
+  // ============================================================================
+
+  /// Get invitatory antiphon by index
+  ///
+  /// Example: getInvitatoryAntiphon(0) returns first invitatory antiphon
+  String? getInvitatoryAntiphon(int index) {
+    if (invitatoryAntiphon == null || index >= invitatoryAntiphon!.length) {
+      return null;
+    }
+    return invitatoryAntiphon![index];
+  }
+
+  /// Get count of invitatory antiphons
+  int getInvitatoryAntiphonCount() {
+    return invitatoryAntiphon?.length ?? 0;
+  }
+
+  // ============================================================================
+  // Helper methods for accessing psalmody counts
+  // ============================================================================
+
+  /// Get number of psalms in psalmody
+  int getPsalmodyCount() {
+    return psalmody?.length ?? 0;
+  }
+
+  /// Get number of antiphons for a specific psalm
+  int getAntiphonCount(int psalmodyIndex) {
+    final antiphonList = getAntiphonList(psalmodyIndex);
+    return antiphonList?.length ?? 0;
   }
 }

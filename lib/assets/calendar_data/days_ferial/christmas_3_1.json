@@ -1,16 +1,60 @@
 {
-  "invitatoryAntiphon": "Le Christ est né pour nous, alléluia ! Venez, adorons-le.",
-  "vespersOration": "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine&nbsp;: nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin.",
-  "morningPsalm1": "PSALM_83",
-  "morningPsalm2": "AT_17",
-  "morningPsalm3": "PSALM_95",
-  "readingsPsalm1": "PSALM_49_1",
-  "readingsPsalm2": "PSALM_49_2",
-  "readingsPsalm3": "PSALM_49_3",
-  "middleOfDayPsalm1": "PSALM_118_12",
-  "middleOfDayPsalm2": "PSALM_70_1",
-  "middleOfDayPsalm3": "PSALM_70_2",
-  "vespersPsalm1": "PSALM_122",
-  "vespersPsalm2": "PSALM_123",
-  "vespersPsalm3": "NT_4"
+  "invitatory": {
+    "antiphon": [
+      "Le Christ est né pour nous, alléluia ! Venez, adorons-le."
+    ]
+  },
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_83"
+      },
+      {
+        "psalm": "AT_17"
+      },
+      {
+        "psalm": "PSALM_95"
+      }
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_49_1"
+      },
+      {
+        "psalm": "PSALM_49_2"
+      },
+      {
+        "psalm": "PSALM_49_3"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_122"
+      },
+      {
+        "psalm": "PSALM_123"
+      },
+      {
+        "psalm": "NT_4"
+      }
+    ],
+    "oration": "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine&nbsp;: nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_12"
+      },
+      {
+        "psalm": "PSALM_70_1"
+      },
+      {
+        "psalm": "PSALM_70_2"
+      }
+    ]
+  }
 }

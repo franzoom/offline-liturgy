@@ -1,38 +1,86 @@
 {
+  "morning": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_63"
+      },
+      {
+        "psalm": "AT_23"
+      },
+      {
+        "psalm": "PSALM_150"
+      }
+    ],
+    "hymn": [
+      "pour-inventer-d-autres-espaces"
+    ]
+  },
+  "readings": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_4"
+      },
+      {
+        "psalm": "PSALM_15"
+      },
+      {
+        "psalm": "PSALM_23"
+      }
+    ],
+    "hymn": [
+      "veilleurs-tenez-vous-en-eveil"
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_115",
+        "antiphon": [
+          "Mort, où est ta victoire&nbsp;? Où est-il, ô mort, ton aiguillon&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "PSALM_142",
+        "antiphon": [
+          "Comme Jonas, trois jours et trois nuits aux profondeurs des abîmes, ainsi Jésus, au cœur de la terre."
+        ]
+      },
+      {
+        "psalm": "NT_5",
+        "antiphon": [
+          "Du sanctuaire de son corps, Jésus disait&nbsp;: Détruisez ce temple&nbsp;; en trois jours, je le relèverai."
+        ]
+      }
+    ],
+    "reading": {
+      "ref": "1 P 1, 18-21",
+      "content": "Vous le savez&nbsp;: ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits&nbsp;; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire&nbsp;; ainsi vous mettez votre foi et votre espérance en Dieu."
+    },
+    "hymn": [
+      "brillez-deja-lueurs-de-paques"
+    ],
+    "evangelicAntiphon": "Maintenant le Fils de l’homme est glorifié, et Dieu est glorifié en lui&nbsp;; Dieu lui donnera sa propre gloire.",
+    "intercession": "<p>Le Fils de Dieu s’est anéanti&nbsp;; supplions-le dans l’espérance&nbsp;:</p> <p>Par l’eau et le sang de ton côté,<br> engendre ton Église.</p> <p>R/Engendre ton Église.</p> <p>Par ta déposition de la croix,<br> purifie ton Église.</p> <p>R/Purifie ton Église.</p> <p>Par les plaies de ton corps,<br> sanctifie ton Église.</p> <p>R/Sanctifie ton Église.</p> <p>Par ta mise au tombeau,<br> régénère ton Église.</p> <p>R/Régénère ton Église.</p> <p>Par ta descente aux enfers,<br> délivre ton Église.</p> <p>R/Délivre ton Église.</p>",
+    "responsory": "<p>R/ Le Christ s’est fait pour nous obéissant<br> <span class=\"espace\">jusqu’à la mort,</span><br> <span class=\"espace\">et la mort de la croix.</span><br> C’est pourquoi Dieu l’a exalté,<br> <span class=\"espace\">et lui a donné le Nom</span><br> <span class=\"espace\">qui est au-dessus de tout nom.</span><br></p>",
+    "oration": "Dieu éternel et tout-puissant, dont le Fils unique est descendu aux profondeurs de la terre, d’où il est remonté glorieux, accorde à tes fidèles, ensevelis avec lui dans le baptême, d’accéder par sa Résurrection à la vie éternelle. Lui qui règne."
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_26"
+      },
+      {
+        "psalm": "PSALM_29"
+      },
+      {
+        "psalm": "PSALM_75"
+      }
+    ],
+    "hymn": [
+      "maintenant-tout-repose"
+    ]
+  },
   "celebrationTitle": "Samedi Saint",
   "liturgicalGrade": 3,
-  "liturgicalColor": "violet",
-  "morningPsalm1": "PSALM_63",
-  "morningPsalm2": "AT_23",
-  "morningPsalm3": "PSALM_150",
-  "readingsHymn": [
-    "veilleurs-tenez-vous-en-eveil"
-  ],
-  "readingsPsalm1": "PSALM_4",
-  "readingsPsalm2": "PSALM_15",
-  "readingsPsalm3": "PSALM_23",
-  "morningHymn": [
-    "pour-inventer-d-autres-espaces"
-  ],
-  "middleOfDayHymn": [
-    "maintenant-tout-repose"
-  ],
-  "middleOfDayPsalm1": "PSALM_26",
-  "middleOfDayPsalm2": "PSALM_29",
-  "middleOfDayPsalm3": "PSALM_75",
-  "vespersHymn": [
-    "brillez-deja-lueurs-de-paques"
-  ],
-  "vespersPsalm1Antiphon": "Mort, où est ta victoire&nbsp;? Où est-il, ô mort, ton aiguillon&nbsp;?",
-  "vespersPsalm2Antiphon": "Comme Jonas, trois jours et trois nuits aux profondeurs des abîmes, ainsi Jésus, au cœur de la terre.",
-  "vespersPsalm3Antiphon": "Du sanctuaire de son corps, Jésus disait&nbsp;: Détruisez ce temple&nbsp;; en trois jours, je le relèverai.",
-  "vespersEvangelicAntiphon": "Maintenant le Fils de l’homme est glorifié, et Dieu est glorifié en lui&nbsp;; Dieu lui donnera sa propre gloire.",
-  "vespersReadingRef": "1 P 1, 18-21",
-  "vespersReading": "Vous le savez&nbsp;: ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits&nbsp;; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire&nbsp;; ainsi vous mettez votre foi et votre espérance en Dieu.",
-  "vespersIntercession": "<p>Le Fils de Dieu s’est anéanti&nbsp;; supplions-le dans l’espérance&nbsp;:</p> <p>Par l’eau et le sang de ton côté,<br> engendre ton Église.</p> <p>R/Engendre ton Église.</p> <p>Par ta déposition de la croix,<br> purifie ton Église.</p> <p>R/Purifie ton Église.</p> <p>Par les plaies de ton corps,<br> sanctifie ton Église.</p> <p>R/Sanctifie ton Église.</p> <p>Par ta mise au tombeau,<br> régénère ton Église.</p> <p>R/Régénère ton Église.</p> <p>Par ta descente aux enfers,<br> délivre ton Église.</p> <p>R/Délivre ton Église.</p>",
-  "vespersResponsory": "<p>R/ Le Christ s’est fait pour nous obéissant<br> <span class=\"espace\">jusqu’à la mort,</span><br> <span class=\"espace\">et la mort de la croix.</span><br> C’est pourquoi Dieu l’a exalté,<br> <span class=\"espace\">et lui a donné le Nom</span><br> <span class=\"espace\">qui est au-dessus de tout nom.</span><br></p>",
-  "vespersPsalm1": "PSALM_115",
-  "vespersPsalm2": "PSALM_142",
-  "vespersPsalm3": "NT_5",
-  "vespersOration": "Dieu éternel et tout-puissant, dont le Fils unique est descendu aux profondeurs de la terre, d’où il est remonté glorieux, accorde à tes fidèles, ensevelis avec lui dans le baptême, d’accéder par sa Résurrection à la vie éternelle. Lui qui règne."
+  "liturgicalColor": "violet"
 }

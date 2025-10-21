@@ -1,12 +1,10 @@
 import 'offline_liturgy.dart';
-import './classes/morning_class.dart';
-import './offices/morning.dart';
 
 //import 'classes/complineHymn_class.dart';
 
 void main() {
   Calendar calendar = Calendar(); // calendar creation
-  DateTime date = DateTime(2025, 09, 26);
+  DateTime date = DateTime(2025, 10, 22);
   String location = 'lyon';
   calendar =
       calendarFill(calendar, date.year, location); // calendar initialisation

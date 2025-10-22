@@ -2,7 +2,6 @@ import '../classes/calendar_class.dart'; //classe de calendar
 import '../classes/compline_class.dart';
 import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
-import '../assets/libraries/fixed_texts_library.dart';
 import '../assets/compline/compline_default.dart';
 import '../assets/compline/compline_paschal_time.dart';
 import '../assets/compline/compline_lent_time.dart';
@@ -14,16 +13,13 @@ import '../assets/compline/compline_christmas_time.dart';
 import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../tools/date_tools.dart';
-import 'dart:convert';
 
 List<Map<String, ComplineDefinition>> complineDefinitionResolution(
     Calendar calendar, DateTime date) {
-  /// Resolves the Complines choice for a given day.
-  /// Returns a list of possible Complines maps.
-  /// Usually returns only today's Complines,
-  /// but if tomorrow is a Solemnity, includes Solemnity Eve Complines.
-  /// If today is also a Solemnity and tomorrow is a Solemnity,
-  /// returns both options.
+  /// Resolves the Complines choice for a given day: returns a list of possible Complines maps.
+  /// Usually returns only today's Complines, but if tomorrow is a Solemnity,
+  /// includes Solemnity Eve Complines.
+  /// If today is also a Solemnity and tomorrow is a Solemnity, returns both options.
 
   List<Map<String, ComplineDefinition>> possibleComplines = [];
 

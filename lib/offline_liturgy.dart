@@ -6,7 +6,7 @@
 library;
 
 export 'classes/calendar_class.dart';
-export 'main_calendar_fill.dart';
+export 'feasts/main_calendar_fill.dart';
 export 'classes/compline_class.dart';
 export 'offices/compline.dart';
 export 'classes/morning_class.dart';

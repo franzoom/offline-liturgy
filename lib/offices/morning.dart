@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
-import '../common_calendar_definitions.dart';
+import '../feasts/common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/day_offices_class.dart';

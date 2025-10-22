@@ -1,13 +1,13 @@
-import 'classes/calendar_class.dart'; // calendar definition class
+import '../classes/calendar_class.dart'; // calendar definition class
 import 'common_calendar_definitions.dart'; //computation of the dates of the variables feasts
-import 'tools/date_tools.dart';
-import 'feasts/common_feasts.dart'; // feast list for the universal Church
-import './feasts/locations/lyon.dart';
-import './feasts/locations/paris.dart';
-import './feasts/locations/france.dart';
-import './feasts/locations/belgium.dart';
-import './feasts/locations/canada.dart';
-import './feasts/locations/europe.dart';
+import '../tools/date_tools.dart';
+import 'common_feasts.dart'; // feast list for the universal Church
+import 'locations/lyon.dart';
+import 'locations/paris.dart';
+import 'locations/france.dart';
+import 'locations/belgium.dart';
+import 'locations/canada.dart';
+import 'locations/europe.dart';
 
 Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // function used to fill the main elements of the liturgical calendar.

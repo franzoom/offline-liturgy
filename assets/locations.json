@@ -1,7 +1,7 @@
 {
   "continents": [
     {
-      "id": "africa",
+      "id": "afrique",
       "name_en": "Africa",
       "name_fr": "Afrique",
       "countries": []
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "id": "belgium",
+          "id": "belgique",
           "name_en": "Belgium",
           "name_fr": "Belgique",
           "dioceses": []
@@ -52,18 +52,24 @@
           "dioceses": []
         },
         {
+          "id": "suisse",
+          "name_en": "Switzerland",
+          "name_fr": "Suisse",
+          "dioceses": []
+        },
+        {
           "id": "monaco",
           "name_en": "Monaco",
           "name_fr": "Monaco",
           "dioceses": []
-        },
-        {
-          "id": "switzerland",
-          "name_en": "Switzerland",
-          "name_fr": "Suisse",
-          "dioceses": []
         }
       ]
+    },
+    {
+      "id": "romain",
+      "name_en": "Other (Roman Calendar)",
+      "name_fr": "Autre (Calendrier romain)",
+      "countries": []
     }
   ]
 }

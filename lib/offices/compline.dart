@@ -1,7 +1,8 @@
-import '../classes/calendar_class.dart'; //classe de calendar
+import '../classes/calendar_class.dart'; // Calendar class
 import '../classes/compline_class.dart';
 import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
+import '../assets/libraries/fixed_texts_library.dart';
 import '../assets/compline/compline_default.dart';
 import '../assets/compline/compline_paschal_time.dart';
 import '../assets/compline/compline_lent_time.dart';
@@ -13,13 +14,15 @@ import '../assets/compline/compline_christmas_time.dart';
 import '../tools/hymns_management.dart';
 import '../classes/hymns_class.dart';
 import '../tools/date_tools.dart';
+import 'dart:convert';
 
 List<Map<String, ComplineDefinition>> complineDefinitionResolution(
     Calendar calendar, DateTime date) {
-  /// Resolves the Complines choice for a given day: returns a list of possible Complines maps.
-  /// Usually returns only today's Complines, but if tomorrow is a Solemnity,
-  /// includes Solemnity Eve Complines.
-  /// If today is also a Solemnity and tomorrow is a Solemnity, returns both options.
+  /// Resolves the Complines choice for a given day.
+  /// Returns a list of possible Complines maps.
+  /// Usually returns only today's Complines,
+  /// but if tomorrow is a Solemnity or Sunday, includes Solemnity Eve Complines.
+  /// If today has multiple celebrations (Sunday + Solemnity), returns all options.
 
   List<Map<String, ComplineDefinition>> possibleComplines = [];
 
@@ -28,43 +31,55 @@ List<Map<String, ComplineDefinition>> complineDefinitionResolution(
   Map<String, ComplineDefinition> tomorrowComplineDefinition =
       complineDetection(calendar, dayShift(date, 1));
 
+  // If today has multiple Complines (e.g., Sunday + Solemnity), add them all
+  if (todayComplineDefinition.length > 1) {
+    for (var entry in todayComplineDefinition.entries) {
+      possibleComplines.add({entry.key: entry.value});
+    }
+    return possibleComplines;
+  }
+
   // Check if today is a Solemnity
   bool todayIsSolemnity = todayComplineDefinition.entries
       .any((entry) => entry.value.celebrationType == 'Solemnity');
 
-  // Check if tomorrow is a Solemnity with higher priority
-  bool tomorrowIsSolemnity = false;
-  MapEntry? tomorrowSolemnityEntry;
+  // Check if tomorrow requires Eve Complines (Solemnity OR Sunday with higher priority)
+  bool tomorrowNeedsEveComplines = false;
+  MapEntry? tomorrowEntry;
 
   for (var entry in tomorrowComplineDefinition.entries) {
-    if (entry.value.celebrationType == 'Solemnity' &&
-        entry.value.priority <
-            todayComplineDefinition.entries.first.value.priority) {
-      tomorrowIsSolemnity = true;
-      tomorrowSolemnityEntry = entry;
+    bool isSolemnity = entry.value.celebrationType == 'Solemnity';
+    bool isSunday = entry.value.dayOfWeek == 'sunday';
+    bool hasHigherPriority = entry.value.priority <
+        todayComplineDefinition.entries.first.value.priority;
+
+    if ((isSolemnity || isSunday) && hasHigherPriority) {
+      tomorrowNeedsEveComplines = true;
+      tomorrowEntry = entry;
       break;
     }
   }
+
   // Decision logic
-  if (tomorrowIsSolemnity && todayIsSolemnity) {
-    // Both options: today's Solemnity Complines AND Solemnity Eve Complines
+  if (tomorrowNeedsEveComplines && todayIsSolemnity) {
+    // Both options: today's Solemnity Complines AND Solemnity/Sunday Eve Complines
     possibleComplines.add(todayComplineDefinition);
     ComplineDefinition eveComplineDefinition = ComplineDefinition(
       dayOfWeek: 'saturday',
-      liturgicalTime: tomorrowSolemnityEntry!.value.liturgicalTime,
+      liturgicalTime: tomorrowEntry!.value.liturgicalTime,
       celebrationType: 'SolemnityEve',
-      priority: tomorrowSolemnityEntry.value.priority,
+      priority: tomorrowEntry.value.priority,
     );
-    possibleComplines.add({tomorrowSolemnityEntry.key: eveComplineDefinition});
-  } else if (tomorrowIsSolemnity) {
-    // Only Solemnity Eve Complines
+    possibleComplines.add({tomorrowEntry.key: eveComplineDefinition});
+  } else if (tomorrowNeedsEveComplines) {
+    // Only Solemnity/Sunday Eve Complines
     ComplineDefinition eveComplineDefinition = ComplineDefinition(
       dayOfWeek: 'saturday',
-      liturgicalTime: tomorrowSolemnityEntry!.value.liturgicalTime,
+      liturgicalTime: tomorrowEntry!.value.liturgicalTime,
       celebrationType: 'SolemnityEve',
-      priority: tomorrowSolemnityEntry.value.priority,
+      priority: tomorrowEntry.value.priority,
     );
-    possibleComplines.add({tomorrowSolemnityEntry.key: eveComplineDefinition});
+    possibleComplines.add({tomorrowEntry.key: eveComplineDefinition});
   } else {
     // Default: today's Complines
     possibleComplines.add(todayComplineDefinition);
@@ -75,8 +90,8 @@ List<Map<String, ComplineDefinition>> complineDefinitionResolution(
 
 Map<String, ComplineDefinition> complineDetection(
     Calendar calendar, DateTime date) {
-  /// detection of which Compline to use for a given day.
-  /// returns a Map  "day or feast name" : ComplineDefinition
+  /// Detection of which Compline to use for a given day.
+  /// Returns a Map "day or feast name" : ComplineDefinition
   Map<String, ComplineDefinition> complineDefined = {};
 
   DayContent? todayContent = calendar.getDayContent(date);
@@ -111,28 +126,33 @@ Map<String, ComplineDefinition> complineDetection(
       return complineDefined = {celebrationTitle: complineDefinition};
   }
   if (celebrationTitle.toLowerCase().contains('sunday')) {
-    // si c'est affiché comme un dimanche, (donc qu'il n'y a pas de solenmité "majeure" qui l'a remplacé),
-    // ajouter une solemnité si elle existe dans la liste du jour (priority).
+    // If displayed as a Sunday, check if there's also a solemnity
+    bool hasSolemnity = false;
     for (var entry in todayContent.priority.entries) {
       if (entry.key <= 4) {
-        ComplineDefinition complineDefinition = ComplineDefinition(
+        // Add the Solemnity Compline option
+        ComplineDefinition solemnityComplineDefinition = ComplineDefinition(
             dayOfWeek: todayName,
             liturgicalTime: liturgicalTime,
             celebrationType: 'Solemnity',
             priority: entry.key);
-        return complineDefined = {entry.value[0]: complineDefinition};
+        complineDefined[entry.value[0]] = solemnityComplineDefinition;
+        hasSolemnity = true;
+        break;
       }
     }
-    ComplineDefinition complineDefinition = ComplineDefinition(
+    // Always add the Sunday Compline option
+    ComplineDefinition sundayComplineDefinition = ComplineDefinition(
         dayOfWeek: todayName,
         liturgicalTime: liturgicalTime,
-        celebrationType: 'normal',
+        celebrationType: hasSolemnity ? 'Sunday' : 'normal',
         priority: 5);
-    return complineDefined = {celebrationTitle: complineDefinition};
+    complineDefined[celebrationTitle] = sundayComplineDefinition;
+    return complineDefined;
   }
-  // add other cases: Complines of the day and solemnity in the week
+  // Add other cases: Complines of the day and solemnity in the week
   if (liturgicalGrade <= 4) {
-    // firstable: major solemnities (in the root of the day Calendar)
+    // Firstly: major solemnities (in the root of the day Calendar)
     ComplineDefinition complineDefinition = ComplineDefinition(
         dayOfWeek: 'sunday',
         liturgicalTime: liturgicalTime,
@@ -140,7 +160,7 @@ Map<String, ComplineDefinition> complineDetection(
         priority: liturgicalGrade);
     return complineDefined = {celebrationTitle: complineDefinition};
   }
-  // the the added solemnities (in a sub directory of the Calendar)
+  // Then the added solemnities (in a sub directory of the Calendar)
   for (var entry in todayContent.priority.entries) {
     if (entry.key <= 4) {
       ComplineDefinition complineDefinition = ComplineDefinition(
@@ -151,7 +171,7 @@ Map<String, ComplineDefinition> complineDetection(
       return complineDefined = {entry.value[0]: complineDefinition};
     }
   }
-// concluding with the simple Complies if the day
+  // Concluding with the simple Complines of the day
   ComplineDefinition complineDefinition = ComplineDefinition(
       dayOfWeek: todayName,
       liturgicalTime: liturgicalTime,
@@ -162,39 +182,64 @@ Map<String, ComplineDefinition> complineDetection(
 
 Map<String, Compline> complineTextCompilation(
     Map<String, ComplineDefinition> complineDefinitionExported) {
-  // retourne la liste des complies compilées à partir des définitions de complies
-  // en utilisant la fonction getComplineText.
-  // La clé de la Map est le nom de la complie (jour ou fête)
-  // et la valeur est le texte de la complie.
+  // Returns the list of compiled Complines from Compline definitions
+  // using the getComplineText function.
+  // The Map key is the name of the Compline (day or feast)
+  // and the value is the text of the Compline.
   return complineDefinitionExported.map((key, value) {
-    // Transformation de chaque valeur avec getComplineText
+    // Transform each value with getComplineText
     final complineText = getComplineText(value);
     return MapEntry(key, complineText!);
   });
 }
 
 Compline? getComplineText(ComplineDefinition complineDefinition) {
-  // à partit de la définition de la complie, renvoie le texte de la complie
-  // suivant la classe Compline.
+  // From the Compline definition, returns the text of the Compline
+  // following the Compline class.
   String day = complineDefinition.dayOfWeek;
   Compline? dayCompline = defaultCompline[day];
   Compline? correctionCompline;
   String dayName;
   switch (complineDefinition.celebrationType) {
     case 'holy_thursday':
-      // On utilise le jeudi saint pour le Triduum
+      // Use Holy Thursday for the Triduum
       correctionCompline = lentTimeCompline['holy_thursday'];
       break;
     case 'holy_friday':
-      // On utilise le jeudi saint pour le Triduum
+      // Use Holy Friday for the Triduum
       correctionCompline = lentTimeCompline['holy_friday'];
       break;
     case 'holy_saturday':
-      // On utilise le jeudi saint pour le Triduum
+      // Use Holy Saturday for the Triduum
       correctionCompline = lentTimeCompline['holy_saturday'];
       break;
+    case 'Sunday':
+      // Use Sunday Complines (same as normal but with Sunday day)
+      dayName = 'sunday';
+      dayCompline = defaultCompline[dayName];
+      switch (complineDefinition.liturgicalTime) {
+        case 'OrdinaryTime':
+          correctionCompline = dayCompline;
+          break;
+        case 'LentTime':
+          correctionCompline = lentTimeCompline[dayName];
+          break;
+        case 'PaschalTime':
+          correctionCompline = paschalTimeCompline[dayName];
+          break;
+        case 'AdventTime':
+          correctionCompline = adventTimeCompline[dayName];
+          break;
+        case 'ChristmasTime':
+          correctionCompline = christmasTimeCompline[dayName];
+          break;
+        default:
+          correctionCompline = dayCompline;
+      }
+      correctionCompline?.celebrationType = complineDefinition.celebrationType;
+      break;
     case 'normal':
-      // On utilise le jour de la semaine pour le temps ordinaire
+      // Use the day of the week for Ordinary Time
       switch (complineDefinition.liturgicalTime) {
         case 'OrdinaryTime':
           return dayCompline;
@@ -249,7 +294,7 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
 }
 
 Compline mergeComplineDay(Compline base, Compline override) {
-  // replacement of default Complines elements by specifics ones
+  // Replacement of default Complines elements by specific ones
   return Compline(
     complineCommentary: override.complineCommentary ?? base.complineCommentary,
     celebrationType: override.celebrationType ?? base.celebrationType,
@@ -277,13 +322,13 @@ Compline mergeComplineDay(Compline base, Compline override) {
 void complineDisplay(Compline compline) {
   // Complines text display (temporary)
   if (compline.complineCommentary != null) {
-    print('Commentary: ${compline.complineCommentary ?? "Aucun commentaire"}');
+    print('Commentary: ${compline.complineCommentary ?? "No commentary"}');
   }
   if (compline.celebrationType != null &&
       compline.celebrationType != 'normal') {
     print('Celebration Type: ${compline.celebrationType}');
   }
-  print('------ HYMNES ------');
+  print('------ HYMNS ------');
   Map<String, Hymns> selectedHymns =
       filterHymnsByCodes(compline.complineHymns!, hymnsLibraryContent);
   displayHymns(selectedHymns);
@@ -313,7 +358,7 @@ void complineDisplay(Compline compline) {
   print('Responsory: ${compline.complineResponsory}');
   print('Evangelic Antiphon: ${compline.complineEvangelicAntiphon}');
   print('Oration: ${compline.complineOration}');
-  print('------ HYMNES MARIALES ------');
+  print('------ MARIAN HYMNS ------');
   selectedHymns =
       filterHymnsByCodes(compline.marialHymnRef!, hymnsLibraryContent);
   displayHymns(selectedHymns);

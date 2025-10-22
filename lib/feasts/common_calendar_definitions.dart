@@ -134,7 +134,7 @@ DateTime annunciation(DateTime easterDay) {
   // c'est le 25 mars, mais:
   // - si c'est un dimanche de Carême, on renvoie au lundi suivant
   // - si c'est pendant la Semaine Sainte ou l'Octave Pascal, on renvoie au lundi suivante le 2ème dimanche de Pâques
-  DateTime annunciationDay = DateTime(easterDay.year, 3, 23);
+  DateTime annunciationDay = DateTime(easterDay.year, 3, 25);
   if (annunciationDay.isAfter(easterDay.subtract(Duration(days: 7)))) {
     // si le 25 mars est après le dimanche des Rameaux, on renvoie au lundi suivant le 2ème dimanche de Pâques
     return DateTime(easterDay.year, easterDay.month, easterDay.day + 8);

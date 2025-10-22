@@ -1,7 +1,5 @@
 import 'offline_liturgy.dart';
 
-//import 'classes/complineHymn_class.dart';
-
 void main() {
   Calendar calendar = Calendar(); // calendar creation
   DateTime date = DateTime(2025, 10, 22);

@@ -65,6 +65,11 @@ Map<String, ComplineDefinition> complineDetection(
   }
   // chek if there are solemnities or if it's sunday (non empty)
   if (complineOfGivenDay.isNotEmpty) {
+    if (complineOfGivenDay.length > 1) {
+      final lowestEntry = complineOfGivenDay.entries
+          .reduce((a, b) => a.value.priority <= b.value.priority ? a : b);
+      complineOfGivenDay = {lowestEntry.key: lowestEntry.value};
+    }
     return complineOfGivenDay;
   }
 

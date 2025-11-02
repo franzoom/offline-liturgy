@@ -2,7 +2,7 @@ import 'offline_liturgy.dart';
 
 void main() {
   Calendar calendar = Calendar(); // calendar creation
-  DateTime date = DateTime(2025, 11, 1);
+  DateTime date = DateTime(2025, 11, 2);
   String location = 'lyon';
   calendar =
       calendarFill(calendar, date.year, location); // calendar initialisation

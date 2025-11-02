@@ -3,7 +3,7 @@ import '../../classes/compline_class.dart';
 final Map<String, Compline> christmasTimeCompline = {
   "saturday": Compline(
     complinePsalm1Antiphon:
-        "Nos yeux ont vu le salut: qui peut nous ravir notre joie?",
+        "Nos yeux ont vu le salut: qui peut nous ravir notre joie&nbsp;?",
     complinePsalm2Antiphon: "Sur le pays de l’ombre, une lumière s’est levée.",
     complineEvangelicAntiphon:
         "J’ai vu de mes yeux le Sauveur: lumière des peuples.",

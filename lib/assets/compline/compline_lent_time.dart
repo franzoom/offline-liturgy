@@ -7,7 +7,7 @@ final Map<String, Compline> lentTimeCompline = {
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -20,7 +20,7 @@ final Map<String, Compline> lentTimeCompline = {
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -29,7 +29,7 @@ final Map<String, Compline> lentTimeCompline = {
   "monday": Compline(
     complinePsalm1Antiphon: "Rassemble mon cœur pour qu’il te craigne.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -40,7 +40,7 @@ final Map<String, Compline> lentTimeCompline = {
     complinePsalm1Antiphon:
         "Ne me cache pas ton visage, car je compte sur toi.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -52,7 +52,7 @@ final Map<String, Compline> lentTimeCompline = {
     complinePsalm2Antiphon:
         "Auprès du Seigneur est la grâce, la pleine délivrance.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -62,7 +62,7 @@ final Map<String, Compline> lentTimeCompline = {
     complinePsalm1Antiphon: "Mon Dieu, tu ne peux m’abandonner à la mort.",
     complinePsalm1Antiphon2: " ",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -73,7 +73,7 @@ final Map<String, Compline> lentTimeCompline = {
         "Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?",
     complinePsalm1Antiphon2: " ",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -84,11 +84,11 @@ final Map<String, Compline> lentTimeCompline = {
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineResponsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.V/ Voici l’heure où le Fils de l’homme a été livré, voici le pouvoir des ténèbresR/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.<br>V/ Voici l’heure où le Fils de l’homme a été livré, voici le pouvoir des ténèbres. R/",
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -99,11 +99,11 @@ final Map<String, Compline> lentTimeCompline = {
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineResponsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.V/ Lui, le Fils, il a appris l’obéissance par les souffrances de sa passion. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.<br>V/ Lui, le Fils, il a appris l’obéissance par les souffrances de sa passion. R/",
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"
@@ -116,11 +116,11 @@ final Map<String, Compline> lentTimeCompline = {
         "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
     complinePsalm1Antiphon2: " ",
     complineResponsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.V/ C’est pourquoi Dieu l’a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix. <br>V/ C’est pourquoi Dieu l’a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
     complineEvangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
-      "sub-tuum-preasidium",
+      "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
       "salut-reine-des-cieux",
       "ave-regina-caelorum"

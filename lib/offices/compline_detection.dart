@@ -14,82 +14,76 @@ Map<String, ComplineDefinition> complineDetection(
   String celebrationTitle = todayContent.defaultCelebrationTitle.toLowerCase();
   int liturgicalGrade = todayContent.liturgicalGrade;
 
-  if (celebrationTitle == 'commemoration_of_all_the_faithful_departed') {
-    ComplineDefinition complineDefinition = ComplineDefinition(
-        dayOfWeek: todayName,
-        liturgicalTime: 'OrdinaryTime',
-        celebrationType: 'normal',
-        priority: 13);
-    return complineOfGivenDay = {celebrationTitle: complineDefinition};
-  }
-
   switch (celebrationTitle) {
-    case 'holy_thursday' || 'holy_friday' || 'holy_saturday':
+    case 'holy_thursday':
+    case 'holy_friday':
+    case 'holy_saturday':
       ComplineDefinition complineDefinition = ComplineDefinition(
           dayOfWeek: 'sunday',
-          liturgicalTime: 'LentTime',
+          liturgicalTime: 'lenttime',
           celebrationType: celebrationTitle,
           priority: 1);
-      return complineOfGivenDay = {celebrationTitle: complineDefinition};
+      return {celebrationTitle: complineDefinition};
     case 'ashes':
       ComplineDefinition complineDefinition = ComplineDefinition(
           dayOfWeek: 'wednesday',
-          liturgicalTime: 'OrdinaryTime',
+          liturgicalTime: 'ordinarytime',
           celebrationType: 'normal',
           priority: 13);
-      return complineOfGivenDay = {celebrationTitle: complineDefinition};
+      return {celebrationTitle: complineDefinition};
   }
-  if (celebrationTitle.toLowerCase().contains('sunday')) {
-    // If displayed as a Sunday, check if there's also a solemnity
-    bool hasSolemnity = false;
-    for (var entry in todayContent.priority.entries) {
-      if (entry.key <= 4) {
-        // Add the Solemnity Compline option
-        ComplineDefinition solemnityComplineDefinition = ComplineDefinition(
-            dayOfWeek: todayName,
-            liturgicalTime: liturgicalTime,
-            celebrationType: 'Solemnity',
-            priority: entry.key);
-        complineOfGivenDay[entry.value[0]] = solemnityComplineDefinition;
-        hasSolemnity = true;
-        break;
-      }
-    }
-    // Always add the Sunday Compline option
-    ComplineDefinition sundayComplineDefinition = ComplineDefinition(
-        dayOfWeek: todayName,
-        liturgicalTime: liturgicalTime,
-        celebrationType: hasSolemnity ? 'Sunday' : 'normal',
-        priority: 5);
-    complineOfGivenDay[celebrationTitle] = sundayComplineDefinition;
-    return complineOfGivenDay;
-  }
-  // Add other cases: Complines of the day and solemnity in the week
+
+  // Major solemnities (in the root of the day Calendar)
   if (liturgicalGrade <= 4) {
-    // Firstly: major solemnities (in the root of the day Calendar)
     ComplineDefinition complineDefinition = ComplineDefinition(
         dayOfWeek: 'sunday',
         liturgicalTime: liturgicalTime,
-        celebrationType: 'Solemnity',
+        celebrationType: 'solemnity',
         priority: liturgicalGrade);
-    return complineOfGivenDay = {celebrationTitle: complineDefinition};
+    return {celebrationTitle: complineDefinition};
   }
-  // Then the added solemnities (in a sub directory of the Calendar)
+
+  // Then look for the solemnities found in a sub directory of the Calendar
   for (var entry in todayContent.priority.entries) {
     if (entry.key <= 4) {
       ComplineDefinition complineDefinition = ComplineDefinition(
           dayOfWeek: 'sunday',
           liturgicalTime: liturgicalTime,
-          celebrationType: 'Solemnity',
+          celebrationType: 'solemnity',
           priority: entry.key);
-      return complineOfGivenDay = {entry.value[0]: complineDefinition};
+      complineOfGivenDay[entry.value[0]] = complineDefinition;
     }
   }
-  // Concluding with the simple Compline of the day
+  // Add the Sunday Compline option
+  if (todayName == 'sunday') {
+    ComplineDefinition sundayComplineDefinition = ComplineDefinition(
+        dayOfWeek: todayName,
+        liturgicalTime: liturgicalTime,
+        celebrationType: 'sunday',
+        priority: 5);
+    complineOfGivenDay[celebrationTitle] = sundayComplineDefinition;
+  }
+  // chek if there are solemnities or if it's sunday (non empty)
+  if (complineOfGivenDay.isNotEmpty) {
+    return complineOfGivenDay;
+  }
+
+  //otherwise:
+
+  if (celebrationTitle == 'commemoration_of_all_the_faithful_departed') {
+    ComplineDefinition complineDefinition = ComplineDefinition(
+        dayOfWeek: todayName,
+        liturgicalTime: 'ordinarytime',
+        celebrationType: 'normal',
+        priority: 13);
+    return {celebrationTitle: complineDefinition};
+  }
+
+// concluding with the simple Complines of the day
   ComplineDefinition complineDefinition = ComplineDefinition(
       dayOfWeek: todayName,
       liturgicalTime: liturgicalTime,
       celebrationType: 'normal',
       priority: liturgicalGrade);
-  return complineOfGivenDay = {todayName: complineDefinition};
+  return {todayName: complineDefinition};
 }

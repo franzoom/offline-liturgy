@@ -9,7 +9,7 @@ final Map<String, Compline> solemnityComplineOrdinaryTime = {
       },
       {
         "psalm": "PSALM_133",
-        "antiphon": ["Dans la paix, je reposerai."]
+        "antiphon": ["Au long des nuits, bénissez le Seigneur&nbsp;!"]
       }
     ],
     oration: [
@@ -24,7 +24,7 @@ final Map<String, Compline> solemnityComplineOrdinaryTime = {
       }
     ],
     oration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l'ennemi&nbsp;; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t’en supplions, Seigneur, visite cette maison, et repousse loin d’elle toutes les embûches de l’ennemi&nbsp;; que tes saints anges viennent l’habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
   ),
 };

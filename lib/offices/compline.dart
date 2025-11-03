@@ -5,7 +5,8 @@ import '../assets/compline/compline_paschal_time.dart';
 import '../assets/compline/compline_lent_time.dart';
 import '../assets/compline/compline_solemnity_lent_time.dart';
 import '../assets/compline/compline_solemnity_paschal_time.dart';
-import '../assets/compline/compline_solmenity_ordinary_time.dart';
+import '../assets/compline/compline_solemnity_ordinary_time.dart';
+import '../assets/compline/compline_solemnity_advent_christmas.dart';
 import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
 import '../tools/date_tools.dart';
@@ -42,7 +43,7 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
       confirmedTomorrowComplineDefinition[entry.key] = ComplineDefinition(
         dayOfWeek: 'saturday',
         liturgicalTime: value.liturgicalTime,
-        celebrationType: 'sundayeve',
+        celebrationType: 'normal',
         priority: value.priority,
       );
     } else if (value.celebrationType == 'solemnity') {
@@ -166,10 +167,8 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
           correctionCompline = solemnityComplinePaschalTime[dayName];
           break;
         case 'adventtime':
-          correctionCompline = adventTimeCompline[dayName];
-          break;
         case 'christmastime':
-          correctionCompline = christmasTimeCompline[dayName];
+          correctionCompline = solemnityComplineAdventChristmas[dayName];
           break;
         default:
           correctionCompline = dayCompline;

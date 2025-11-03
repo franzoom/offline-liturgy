@@ -2,9 +2,9 @@ import 'offline_liturgy.dart';
 
 void main() {
   Calendar calendar = Calendar(); // calendar creation
-  DateTime date = DateTime(2025, 12, 28);
+  DateTime date = DateTime(2025, 12, 7);
   String location = 'lyon';
-  calendar = calendarFill(calendar, date, location); // calendar initialisation
+  calendar = getCalendar(calendar, date, location); // calendar initialisation
 /*
   // lancement de la génération des Laudes pour le jour demandé:
   Map<String, Morning> ferialMorning = ferialMorningResolution(calendar, date);

@@ -1,4 +1,4 @@
-import '../../classes/compline_class.dart';
+import "../../classes/compline_class.dart";
 
 final Map<String, Compline> christmasTimeCompline = {
   "saturday": Compline(
@@ -11,10 +11,10 @@ final Map<String, Compline> christmasTimeCompline = {
       },
       {
         "psalm": "PSALM_133",
-        "antiphon": ["Sur le pays de l'ombre, une lumière s'est levée."]
+        "antiphon": ["Sur le pays de l’ombre, une lumière s’est levée."]
       }
     ],
-    evangelicAntiphon: "J'ai vu de mes yeux le Sauveur: lumière des peuples.",
+    evangelicAntiphon: "J’ai vu de mes yeux le Sauveur: lumière des peuples.",
   ),
   "sunday": Compline(
     psalmody: [
@@ -23,14 +23,14 @@ final Map<String, Compline> christmasTimeCompline = {
         "antiphon": ["Il suffit que tu ouvres les yeux, tu verras le salut."]
       }
     ],
-    evangelicAntiphon: "J'ai vu de mes yeux le Sauveur: lumière des peuples.",
+    evangelicAntiphon: "J’ai vu de mes yeux le Sauveur: lumière des peuples.",
   ),
   "monday": Compline(
     psalmody: [
       {
         "psalm": "PSALM_85",
         "antiphon": [
-          "Tous les peuples viendront t'adorer, car tu fais des merveilles."
+          "Tous les peuples viendront t’adorer, car tu fais des merveilles."
         ]
       }
     ],
@@ -40,7 +40,7 @@ final Map<String, Compline> christmasTimeCompline = {
       {
         "psalm": "PSALM_142",
         "antiphon": [
-          "Sur l'œuvre de tes mains, je médite, je tends le mains vers toi."
+          "Sur l’œuvre de tes mains, je médite, je tends le mains vers toi."
         ]
       }
     ],
@@ -50,12 +50,15 @@ final Map<String, Compline> christmasTimeCompline = {
       {
         "psalm": "PSALM_30_1",
         "antiphon": [
-          "Plus qu'un veilleur ne guette l'aurore, attends le Seigneur."
+          "Plus qu’un veilleur ne guette l’aurore, attends le Seigneur."
         ]
       },
       {
         "psalm": "PSALM_129",
-        "antiphon": ["", ""]
+        "antiphon": [
+          "Près de toi se trouve le pardon.",
+          "J’espère le Seigneur de toute mon âme."
+        ]
       }
     ],
   ),
@@ -63,7 +66,7 @@ final Map<String, Compline> christmasTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_15",
-        "antiphon": ["J'ai dit au Seigneur: Tu es mon Dieu!"]
+        "antiphon": ["J’ai dit au Seigneur: Tu es mon Dieu!"]
       }
     ],
   ),

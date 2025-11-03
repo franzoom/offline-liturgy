@@ -33,11 +33,11 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       }
     ],
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>* Alléluia, alléluia.<br>V/ Sur ton serviteur que s'illumine ta face.<br>* Alléluia, alléluia.<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>* Alléluia, alléluia.<br>V/ Sur ton serviteur que s’illumine ta face.<br>* Alléluia, alléluia.<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
     evangelicAntiphon:
         "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     oration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l'ennemi&nbsp;; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t’en supplions, Seigneur, visite cette maison, et repousse loin d’elle toutes les embûches de l’ennemi&nbsp;; que tes saints anges viennent l’habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       "o-vierge-marie-quelle-joie",

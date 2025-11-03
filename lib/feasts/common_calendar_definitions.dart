@@ -204,6 +204,7 @@ DateTime christKing(int year) {
 
 createLiturgicalDays(int year) {
   // creates the list of variable feasts and their date
+  print('defining variable feasts dates for liturgical year $year');
   Map<String, DateTime> liturgicalDays = {};
   liturgicalDays['NATIVITY'] = christmas(year);
   liturgicalDays['ADVENT'] = advent(year);

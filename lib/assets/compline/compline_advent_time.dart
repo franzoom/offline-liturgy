@@ -5,11 +5,11 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_4",
-        "antiphon": ["Sur nous,Seigneur, que s'illumine ton visage!"]
+        "antiphon": ["Sur nous,Seigneur, que s’illumine ton visage!"]
       },
       {
         "psalm": "PSALM_133",
-        "antiphon": ["Les ténèbres s'en vont, déjà brille la vraie lumière."]
+        "antiphon": ["Les ténèbres s’en vont, déjà brille la vraie lumière."]
       }
     ],
     evangelicAntiphon:
@@ -29,7 +29,7 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_85",
-        "antiphon": ["Vers toi, Seigneur, j'élève mon âme: veille sur moi."]
+        "antiphon": ["Vers toi, Seigneur, j’élève mon âme: veille sur moi."]
       }
     ],
   ),
@@ -38,7 +38,7 @@ final Map<String, Compline> adventTimeCompline = {
       {
         "psalm": "PSALM_142",
         "antiphon": [
-          "Vers toi, Seignuer j'élève mon âme, ne me cache pas ton visage."
+          "Vers toi, Seignuer j’élève mon âme, ne me cache pas ton visage."
         ]
       }
     ],
@@ -47,11 +47,14 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_30_1",
-        "antiphon": ["Mes jours sont dans ta main, Seigneur, j'espère en toi."]
+        "antiphon": ["Mes jours sont dans ta main, Seigneur, j’espère en toi."]
       },
       {
         "psalm": "PSALM_129",
-        "antiphon": ["", ""]
+        "antiphon": [
+          "Près de toi se trouve le pardon.",
+          "J’espère le Seigneur de toute mon âme."
+        ]
       }
     ],
   ),
@@ -67,7 +70,7 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_87",
-        "antiphon": ["Je t'appelle, Seigneur, je tends les mains vers toi."]
+        "antiphon": ["Je t’appelle, Seigneur, je tends les mains vers toi."]
       }
     ],
   ),

@@ -25,7 +25,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_90",
-        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+        "antiphon": ["À l’ombre de ses ailes, n’aie plus peur de la nuit."]
       }
     ],
     evangelicAntiphon:
@@ -41,7 +41,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_85",
-        "antiphon": ["Rassemble mon cœur pour qu'il te craigne."]
+        "antiphon": ["Rassemble mon cœur pour qu’il te craigne."]
       }
     ],
     marialHymnRef: [
@@ -88,7 +88,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_15",
-        "antiphon": ["Mon Dieu, tu ne peux m'abandonner à la mort."]
+        "antiphon": ["Mon Dieu, tu ne peux m’abandonner à la mort."]
       }
     ],
     marialHymnRef: [
@@ -118,11 +118,11 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_90",
-        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+        "antiphon": ["À l’ombre de ses ailes, n’aie plus peur de la nuit."]
       }
     ],
     responsory:
-        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort.<br>V/ Voici l'heure où le Fils de l'homme a été livré, voici le pouvoir des ténèbres. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.<br>V/ Voici l’heure où le Fils de l’homme a été livré, voici le pouvoir des ténèbres. R/",
     evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
@@ -136,11 +136,11 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_90",
-        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+        "antiphon": ["À l’ombre de ses ailes, n’aie plus peur de la nuit."]
       }
     ],
     responsory:
-        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix.<br>V/ Lui, le Fils, il a appris l'obéissance par les souffrances de sa passion. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.<br>V/ Lui, le Fils, il a appris l’obéissance par les souffrances de sa passion. R/",
     evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
@@ -156,11 +156,11 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       {
         "psalm": "PSALM_90",
-        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+        "antiphon": ["À l’ombre de ses ailes, n’aie plus peur de la nuit."]
       }
     ],
     responsory:
-        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix. <br>V/ C'est pourquoi Dieu l'a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix. <br>V/ C’est pourquoi Dieu l’a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
     evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [

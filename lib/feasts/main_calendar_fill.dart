@@ -12,7 +12,9 @@ import 'locations/europe.dart';
 Calendar getCalendar(Calendar calendar, DateTime eventDate, String location) {
   // calculating 2 years of calendar to avoid border problems (around first sundy of Advent)
   calendar = calendarFill(calendar, eventDate, location);
-  calendar = calendarFill(calendar, DateTime(eventDate.year + 1), location);
+  Calendar calendarNextYear = calendarFill(calendar,
+      DateTime(eventDate.year + 1, eventDate.month, eventDate.day), location);
+  calendar.calendarData.addAll(calendarNextYear.calendarData);
   return calendar;
 }
 
@@ -28,6 +30,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       adventDate.isAtSameMomentAs(eventDate)) {
     liturgicalYear++;
   }
+  print('generating Calendar for liturgical year $liturgicalYear');
 
   Map<String, DateTime> generalCalendar = createLiturgicalDays(liturgicalYear);
 
@@ -51,7 +54,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'advent',
+      liturgicalTime: 'adventtime',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
@@ -116,7 +119,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the Nativity of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
+    liturgicalTime: 'christmastime',
     defaultCelebrationTitle: 'mary_mother_of_god',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
@@ -149,7 +152,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 // adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
+    liturgicalTime: 'christmastime',
     defaultCelebrationTitle: 'EPIPHANY',
     liturgicalGrade: 3,
     liturgicalColor: 'white',
@@ -170,7 +173,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['BAPTISM']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmasferiale',
+      liturgicalTime: 'christmastime',
       defaultCelebrationTitle: 'christmas_feriale_2_$christmasFerialDays',
       liturgicalGrade: 13,
       liturgicalColor: 'white',
@@ -185,7 +188,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the Baptism of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
+    liturgicalTime: 'christmastime',
     defaultCelebrationTitle: 'BAPTISM',
     liturgicalGrade: 5,
     liturgicalColor: 'white',

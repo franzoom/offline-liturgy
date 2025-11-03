@@ -41,6 +41,7 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
     if (value.dayOfWeek.toLowerCase() == 'sunday') {
       tomorrowNeedsEveComplines = true;
       confirmedTomorrowComplineDefinition[entry.key] = ComplineDefinition(
+        complineDescription: 'Complies de la veille du dimanche',
         dayOfWeek: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'normal',
@@ -49,6 +50,7 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
     } else if (value.celebrationType == 'solemnity') {
       tomorrowNeedsEveComplines = true;
       confirmedTomorrowComplineDefinition[entry.key] = ComplineDefinition(
+        complineDescription: 'Complies de la veille de solennité',
         dayOfWeek: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'solemnityeve',

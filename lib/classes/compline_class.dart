@@ -1,8 +1,8 @@
 class Compline {
   final String?
-      commentary; // sert pour indiquer quand les Complies sont facultatives
+      commentary; // displays commentary if needed (for example: "no complines today")
   String?
-      celebrationType; //indique le nom du jour et si c'est une solennité ou une veille de solennité
+      celebrationType; // indicates if it's a normal day, a solemnity or eve of solemnity
   final List<String>? hymns;
   final List<Map<String, dynamic>>? psalmody;
   final Map<String, String>? reading;
@@ -25,14 +25,18 @@ class Compline {
 }
 
 class ComplineDefinition {
-  /// Cette classe sert à transmettre les information entre la résolution des complies possibles (complineResolution)
-  /// et son utilisation (complineDisplay par exemple).
+  /// This class is used to transmit informations througt the resolution fo the possible Complines
+  /// and thier use
+  final String
+      complineDescription; // will receive the description of the office
+  // for example "complines of the 2d sunday of Lent"
   final String dayOfWeek; // 'sunday', 'monday', etc.
   final String liturgicalTime;
-  final String celebrationType; // 'Solemnity', 'SolemnityEve' or 'normal'
+  final String celebrationType; // 'solemnity', 'solemnityEve' or 'normal'
   final int priority;
 
   ComplineDefinition({
+    required this.complineDescription,
     required this.dayOfWeek,
     required this.liturgicalTime,
     required this.celebrationType,

@@ -19,6 +19,7 @@ Map<String, ComplineDefinition> complineDetection(
     case 'holy_friday':
     case 'holy_saturday':
       ComplineDefinition complineDefinition = ComplineDefinition(
+          complineDescription: '',
           dayOfWeek: 'sunday',
           liturgicalTime: 'lenttime',
           celebrationType: celebrationTitle,
@@ -26,6 +27,7 @@ Map<String, ComplineDefinition> complineDetection(
       return {celebrationTitle: complineDefinition};
     case 'ashes':
       ComplineDefinition complineDefinition = ComplineDefinition(
+          complineDescription: 'Complies du mercredi des Cendres',
           dayOfWeek: 'wednesday',
           liturgicalTime: 'ordinarytime',
           celebrationType: 'normal',
@@ -36,6 +38,7 @@ Map<String, ComplineDefinition> complineDetection(
   // Major solemnities (in the root of the day Calendar)
   if (liturgicalGrade <= 4) {
     ComplineDefinition complineDefinition = ComplineDefinition(
+        complineDescription: 'Complies de la solennité',
         dayOfWeek: 'sunday',
         liturgicalTime: liturgicalTime,
         celebrationType: 'solemnity',
@@ -47,6 +50,7 @@ Map<String, ComplineDefinition> complineDetection(
   for (var entry in todayContent.priority.entries) {
     if (entry.key <= 4) {
       ComplineDefinition complineDefinition = ComplineDefinition(
+          complineDescription: 'Complies de la solennité',
           dayOfWeek: 'sunday',
           liturgicalTime: liturgicalTime,
           celebrationType: 'solemnity',
@@ -57,6 +61,7 @@ Map<String, ComplineDefinition> complineDetection(
   // Add the Sunday Compline option
   if (todayName == 'sunday') {
     ComplineDefinition sundayComplineDefinition = ComplineDefinition(
+        complineDescription: 'Complies du dimanche',
         dayOfWeek: todayName,
         liturgicalTime: liturgicalTime,
         celebrationType: 'sunday',
@@ -77,6 +82,7 @@ Map<String, ComplineDefinition> complineDetection(
 
   if (celebrationTitle == 'commemoration_of_all_the_faithful_departed') {
     ComplineDefinition complineDefinition = ComplineDefinition(
+        complineDescription: 'Complies de la commémoration des fidèles défunts',
         dayOfWeek: todayName,
         liturgicalTime: 'ordinarytime',
         celebrationType: 'normal',
@@ -86,6 +92,7 @@ Map<String, ComplineDefinition> complineDetection(
 
 // concluding with the simple Complines of the day
   ComplineDefinition complineDefinition = ComplineDefinition(
+      complineDescription: 'Complies du',
       dayOfWeek: todayName,
       liturgicalTime: liturgicalTime,
       celebrationType: 'normal',

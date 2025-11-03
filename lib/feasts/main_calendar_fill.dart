@@ -9,17 +9,33 @@ import 'locations/belgium.dart';
 import 'locations/canada.dart';
 import 'locations/europe.dart';
 
-Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
+Calendar getCalendar(Calendar calendar, DateTime eventDate, String location) {
+  // calculating 2 years of calendar to avoid border problems (around first sundy of Advent)
+  calendar = calendarFill(calendar, eventDate, location);
+  calendar = calendarFill(calendar, DateTime(eventDate.year + 1), location);
+  return calendar;
+}
+
+Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // function used to fill the main elements of the liturgical calendar.
   // fixes all the movable dates and feast of the Universal Church.
   // it returns a Calendar object with all the days filled.
+
+  //detection of the liturgical year concerned.
+  int liturgicalYear = eventDate.year;
+  DateTime adventDate = advent(liturgicalYear + 1);
+  if (adventDate.isBefore(eventDate) ||
+      adventDate.isAtSameMomentAs(eventDate)) {
+    liturgicalYear++;
+  }
+
   Map<String, DateTime> generalCalendar = createLiturgicalDays(liturgicalYear);
 
   String defaultCelebrationTitle = "";
   int liturgicalGrade = 0;
   // add the Avdent Days till Nativity day
   int adventDays = 0;
-  // adventDays is the number of days in Advent
+  // adventDays is the number of days in advent
   DateTime date = generalCalendar['ADVENT']!;
   while (date.isBefore(generalCalendar['NATIVITY']!)) {
     if (date.day < 17) {
@@ -35,7 +51,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'Advent',
+      liturgicalTime: 'advent',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
@@ -50,18 +66,18 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // adding the Nativity of the Lord
   DayContent dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'Christmas',
+    liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'NATIVITY',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
     priority: {},
   );
-  // Christmas is december, 25th of the previous year
+  // christmas is december, 25th of the previous year
   date = DateTime(liturgicalYear - 1, 12, 25);
   calendar.addDayContent(date, dayContent);
 
-  // adding the Christmas Octave
+  // adding the christmas Octave
   date = date.add(Duration(days: 1)); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
     if (date == generalCalendar['HOLY_FAMILY']) {
@@ -86,7 +102,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     }
     DayContent dayContent = DayContent(
         liturgicalYear: liturgicalYear,
-        liturgicalTime: 'ChristmasOctave',
+        liturgicalTime: 'christmasoctave',
         defaultCelebrationTitle: defaultCelebrationTitle,
         liturgicalGrade: liturgicalGrade,
         liturgicalColor: 'white',
@@ -100,7 +116,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // adding the Nativity of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'Christmas',
+    liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'mary_mother_of_god',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
@@ -118,7 +134,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'Christmas Feriale before Epiphany',
+      liturgicalTime: 'christmas Feriale before Epiphany',
       defaultCelebrationTitle:
           'christmas-ferial_before_epiphany_$christmasFerialDays',
       liturgicalGrade: 13,
@@ -133,7 +149,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 // adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'Christmas',
+    liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'EPIPHANY',
     liturgicalGrade: 3,
     liturgicalColor: 'white',
@@ -154,7 +170,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(generalCalendar['BAPTISM']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ChristmasFeriale',
+      liturgicalTime: 'christmasferiale',
       defaultCelebrationTitle: 'christmas_feriale_2_$christmasFerialDays',
       liturgicalGrade: 13,
       liturgicalColor: 'white',
@@ -169,7 +185,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // adding the Baptism of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'Christmas',
+    liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'BAPTISM',
     liturgicalGrade: 5,
     liturgicalColor: 'white',
@@ -189,7 +205,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalGrade = dayOfWeek == 0 ? 6 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'OrdinaryTime',
+      liturgicalTime: 'ordinarytime',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'green',
@@ -203,7 +219,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 // adding the Ashes Wednesday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'LentTime',
+    liturgicalTime: 'lenttime',
     defaultCelebrationTitle: 'lent_0_3',
     liturgicalGrade: 2,
     liturgicalColor: 'violet',
@@ -220,7 +236,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(generalCalendar['ASHES']!.add(Duration(days: 4)))) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'LentTime',
+      liturgicalTime: 'lenttime',
       defaultCelebrationTitle: 'lent_0_$lentDays',
       liturgicalGrade: 9,
       liturgicalColor: 'violet',
@@ -241,7 +257,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalGrade = dayOfWeek == 0 ? 2 : 9;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'LentTime',
+      liturgicalTime: 'lenttime',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
@@ -255,7 +271,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 // adding Palms Sunday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'LentTime',
+    liturgicalTime: 'lenttime',
     defaultCelebrationTitle: 'PALMS',
     liturgicalGrade: 2,
     liturgicalColor: 'red',
@@ -271,7 +287,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   while (date.isBefore(generalCalendar['HOLY_THURSDAY']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'HolyWeek',
+      liturgicalTime: 'holyweek',
       defaultCelebrationTitle:
           'lent_${(lentDays / 7).floor() + 1}_${lentDays % 7}',
       liturgicalGrade: 9,
@@ -287,7 +303,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // ajout du Jeudi Saint
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'HolyWeek',
+    liturgicalTime: 'holyweek',
     defaultCelebrationTitle: 'HOLY_THURSDAY',
     liturgicalGrade: 1,
     liturgicalColor: 'white',
@@ -300,7 +316,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // ajout du Vendredi Saint
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'HolyWeek',
+    liturgicalTime: 'holyweek',
     defaultCelebrationTitle: 'HOLY_FRIDAY',
     liturgicalGrade: 1,
     liturgicalColor: 'red',
@@ -313,7 +329,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // ajout du Samedi Saint
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'HolyWeek',
+    liturgicalTime: 'holyweek',
     defaultCelebrationTitle: 'HOLY_SATURDAY',
     liturgicalGrade: 1,
     liturgicalColor: 'black',
@@ -326,7 +342,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // ajout de Pâques
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'PaschalTime',
+    liturgicalTime: 'paschaltime',
     defaultCelebrationTitle: 'EASTER',
     liturgicalGrade: 1,
     liturgicalColor: 'white',
@@ -359,7 +375,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // Sunday of Mercy (2d Sunday of Paschal Time)
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'PaschalTime',
+    liturgicalTime: 'paschaltime',
     breviaryWeek: 2,
     defaultCelebrationTitle: 'SUNDAY_OF_DIVINE_MERCY',
     liturgicalGrade: 2,
@@ -378,7 +394,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalGrade = dayOfWeek == 0 ? 2 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'PaschalTime',
+      liturgicalTime: 'paschaltime',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'white',
@@ -393,7 +409,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // Ascension
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'PaschalTime',
+    liturgicalTime: 'paschaltime',
     defaultCelebrationTitle: 'ASCENSION',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
@@ -413,7 +429,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
     liturgicalGrade = dayOfWeek == 0 ? 2 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'PaschalTime',
+      liturgicalTime: 'paschaltime',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'white',
@@ -428,7 +444,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
   // Pentecost
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'PaschalTime',
+    liturgicalTime: 'paschaltime',
     defaultCelebrationTitle: 'PENTECOST',
     liturgicalGrade: 2,
     liturgicalColor: 'red',
@@ -457,7 +473,7 @@ Calendar calendarFill(Calendar calendar, int liturgicalYear, String location) {
 
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'OrdinaryTime',
+      liturgicalTime: 'ordinarytime',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'green',

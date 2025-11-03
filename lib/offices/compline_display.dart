@@ -6,8 +6,8 @@ import '../classes/hymns_class.dart';
 
 /// Complines text display (temporary)
 void complineDisplay(Compline compline) {
-  if (compline.complineCommentary != null) {
-    print('Commentary: ${compline.complineCommentary ?? "No commentary"}');
+  if (compline.commentary != null) {
+    print('Commentary: ${compline.commentary ?? "No commentary"}');
   }
   if (compline.celebrationType != null &&
       compline.celebrationType != 'normal') {
@@ -15,34 +15,38 @@ void complineDisplay(Compline compline) {
   }
   print('------ HYMNS ------');
   Map<String, Hymns> selectedHymns =
-      filterHymnsByCodes(compline.complineHymns!, hymnsLibraryContent);
+      filterHymnsByCodes(compline.hymns!, hymnsLibraryContent);
   displayHymns(selectedHymns);
-  print('Psalm 1 Antiphon 1: ${compline.complinePsalm1Antiphon}');
-  print('Psalm 1 Antiphon 2: ${compline.complinePsalm1Antiphon2}');
-  print('Psalm 1 title: ${psalms[compline.complinePsalm1]!.getTitle}');
-  print('Psalm 1 subtitle: ${psalms[compline.complinePsalm1]!.getSubtitle}');
-  print(
-      'Psalm 1 commentary: ${psalms[compline.complinePsalm1]!.getCommentary}');
-  print(
-      'Psalm 1 biblical reference: ${psalms[compline.complinePsalm1]!.getBiblicalReference}');
-  print('Psalm 1 content: ${psalms[compline.complinePsalm1]!.getContent}');
 
-  if (compline.complinePsalm2 != "") {
-    print('Psalm 2 Antiphon 1: ${compline.complinePsalm2Antiphon}');
-    print('Psalm 2 Antiphon 2: ${compline.complinePsalm2Antiphon2}');
-    print('Psalm 2 title: ${psalms[compline.complinePsalm1]!.getTitle}');
-    print('Psalm 2 subtitle: ${psalms[compline.complinePsalm1]!.getSubtitle}');
-    print(
-        'Psalm 2 commentary: ${psalms[compline.complinePsalm1]!.getCommentary}');
-    print(
-        'Psalm 2 biblical reference: ${psalms[compline.complinePsalm1]!.getBiblicalReference}');
-    print('Psalm 2 content: ${psalms[compline.complinePsalm1]!.getContent}');
+  print('------ PSALMODY ------');
+  if (compline.psalmody != null) {
+    for (var psalmItem in compline.psalmody!) {
+      String psalmCode = psalmItem['psalm'];
+      List<String> antiphons = List<String>.from(psalmItem['antiphon']);
+
+      print('Psalm Antiphon 1: ${antiphons[0]}');
+      if (antiphons.length > 1 && antiphons[1].isNotEmpty) {
+        print('Psalm Antiphon 2: ${antiphons[1]}');
+      }
+      print('Psalm title: ${psalms[psalmCode]!.getTitle}');
+      print('Psalm subtitle: ${psalms[psalmCode]!.getSubtitle}');
+      print('Psalm commentary: ${psalms[psalmCode]!.getCommentary}');
+      print(
+          'Psalm biblical reference: ${psalms[psalmCode]!.getBiblicalReference}');
+      print('Psalm content: ${psalms[psalmCode]!.getContent}');
+      print(''); // Empty line between psalms
+    }
   }
-  print('Reading Reference: ${compline.complineReadingRef}');
-  print('Reading: ${compline.complineReading}');
-  print('Responsory: ${compline.complineResponsory}');
-  print('Evangelic Antiphon: ${compline.complineEvangelicAntiphon}');
-  print('Oration: ${compline.complineOration}');
+
+  print('------ READING ------');
+  if (compline.reading != null) {
+    print('Reading Reference: ${compline.reading!['ref']}');
+    print('Reading: ${compline.reading!['content']}');
+  }
+
+  print('Responsory: ${compline.responsory}');
+  print('Evangelic Antiphon: ${compline.evangelicAntiphon}');
+  print('Oration: ${compline.oration}');
   print('------ MARIAN HYMNS ------');
   selectedHymns =
       filterHymnsByCodes(compline.marialHymnRef!, hymnsLibraryContent);

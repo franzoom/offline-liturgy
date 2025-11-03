@@ -2,9 +2,17 @@ import "../../classes/compline_class.dart";
 
 final Map<String, Compline> lentTimeCompline = {
   "saturday": Compline(
-    complinePsalm1Antiphon: "Pitié pour moi, Seigneur, écoute ma prière.",
-    complinePsalm2Antiphon: "Pitié pour moi, Seigneur, écoute ma prière.",
-    complineEvangelicAntiphon:
+    psalmody: [
+      {
+        "psalm": "PSALM_4",
+        "antiphon": ["Pitié pour moi, Seigneur, écoute ma prière."]
+      },
+      {
+        "psalm": "PSALM_133",
+        "antiphon": ["Pitié pour moi, Seigneur, écoute ma prière."]
+      }
+    ],
+    evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
       "sub-tuum-praesidium",
@@ -14,10 +22,13 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "sunday": Compline(
-    complinePsalm1Antiphon:
-        "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
-    complinePsalm1Antiphon2: " ",
-    complineEvangelicAntiphon:
+    psalmody: [
+      {
+        "psalm": "PSALM_90",
+        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+      }
+    ],
+    evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
       "sub-tuum-praesidium",
@@ -27,7 +38,12 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "monday": Compline(
-    complinePsalm1Antiphon: "Rassemble mon cœur pour qu’il te craigne.",
+    psalmody: [
+      {
+        "psalm": "PSALM_85",
+        "antiphon": ["Rassemble mon cœur pour qu'il te craigne."]
+      }
+    ],
     marialHymnRef: [
       "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
@@ -36,9 +52,13 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "tuesday": Compline(
-    complineHymns: ["vienne_la_nuit_de_dieu_lent", "te-lucis-ante-terminum"],
-    complinePsalm1Antiphon:
-        "Ne me cache pas ton visage, car je compte sur toi.",
+    hymns: ["vienne_la_nuit_de_dieu_lent", "te-lucis-ante-terminum"],
+    psalmody: [
+      {
+        "psalm": "PSALM_142",
+        "antiphon": ["Ne me cache pas ton visage, car je compte sur toi."]
+      }
+    ],
     marialHymnRef: [
       "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
@@ -47,10 +67,16 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "wednesday": Compline(
-    complinePsalm1Antiphon:
-        "Auprès du Seigneur est la grâce, la pleine délivrance.",
-    complinePsalm2Antiphon:
-        "Auprès du Seigneur est la grâce, la pleine délivrance.",
+    psalmody: [
+      {
+        "psalm": "PSALM_30_1",
+        "antiphon": ["Auprès du Seigneur est la grâce, la pleine délivrance."]
+      },
+      {
+        "psalm": "PSALM_129",
+        "antiphon": ["Auprès du Seigneur est la grâce, la pleine délivrance."]
+      }
+    ],
     marialHymnRef: [
       "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
@@ -59,8 +85,12 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "thursday": Compline(
-    complinePsalm1Antiphon: "Mon Dieu, tu ne peux m’abandonner à la mort.",
-    complinePsalm1Antiphon2: " ",
+    psalmody: [
+      {
+        "psalm": "PSALM_15",
+        "antiphon": ["Mon Dieu, tu ne peux m'abandonner à la mort."]
+      }
+    ],
     marialHymnRef: [
       "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
@@ -69,9 +99,14 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "friday": Compline(
-    complinePsalm1Antiphon:
-        "Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?",
-    complinePsalm1Antiphon2: " ",
+    psalmody: [
+      {
+        "psalm": "PSALM_87",
+        "antiphon": [
+          "Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?"
+        ]
+      }
+    ],
     marialHymnRef: [
       "sub-tuum-praesidium",
       "sous-l-abri-de-ta-misericorde",
@@ -80,12 +115,15 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "holy_thursday": Compline(
-    complinePsalm1Antiphon:
-        "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
-    complinePsalm1Antiphon2: " ",
-    complineResponsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.<br>V/ Voici l’heure où le Fils de l’homme a été livré, voici le pouvoir des ténèbres. R/",
-    complineEvangelicAntiphon:
+    psalmody: [
+      {
+        "psalm": "PSALM_90",
+        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+      }
+    ],
+    responsory:
+        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort.<br>V/ Voici l'heure où le Fils de l'homme a été livré, voici le pouvoir des ténèbres. R/",
+    evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
       "sub-tuum-praesidium",
@@ -95,12 +133,15 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "holy_friday": Compline(
-    complinePsalm1Antiphon:
-        "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
-    complinePsalm1Antiphon2: " ",
-    complineResponsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.<br>V/ Lui, le Fils, il a appris l’obéissance par les souffrances de sa passion. R/",
-    complineEvangelicAntiphon:
+    psalmody: [
+      {
+        "psalm": "PSALM_90",
+        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+      }
+    ],
+    responsory:
+        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix.<br>V/ Lui, le Fils, il a appris l'obéissance par les souffrances de sa passion. R/",
+    evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
       "sub-tuum-praesidium",
@@ -110,14 +151,17 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "holy_saturday": Compline(
-    complineCommentary:
+    commentary:
         "Si on ne participe pas à la Veillée pascale, on dit les Complies.",
-    complinePsalm1Antiphon:
-        "À l’ombre de ses ailes, n’aie plus peur de la nuit.",
-    complinePsalm1Antiphon2: " ",
-    complineResponsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix. <br>V/ C’est pourquoi Dieu l’a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
-    complineEvangelicAntiphon:
+    psalmody: [
+      {
+        "psalm": "PSALM_90",
+        "antiphon": ["À l'ombre de ses ailes, n'aie plus peur de la nuit."]
+      }
+    ],
+    responsory:
+        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix. <br>V/ C'est pourquoi Dieu l'a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
+    evangelicAntiphon:
         "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     marialHymnRef: [
       "sub-tuum-praesidium",

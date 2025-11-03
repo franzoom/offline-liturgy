@@ -12,7 +12,7 @@ Calendar checkAndFillCalendar(
   if (!calendarFile.existsSync() || savedLocation != location) {
     // if calendar.json doesn't exist, of if the location has changed, run the calendar calculation
     calendar.calendarData
-        .addAll(calendarFill(calendar, date.year, location).calendarData);
+        .addAll(calendarFill(calendar, date, location).calendarData);
     calendar.exportToJsonFile('./lib/assets/calendar.json');
     locationSave(location);
     return calendar;
@@ -21,15 +21,15 @@ Calendar checkAndFillCalendar(
     if (jsonString.trim().isEmpty) {
       // vérifier que le fichier n'est pas vide, auquel cas le remplir de l'année demandé
       calendar.calendarData
-          .addAll(calendarFill(calendar, date.year, location).calendarData);
+          .addAll(calendarFill(calendar, date, location).calendarData);
       calendar.exportToJsonFile('./lib/assets/calendar.json');
       return calendar;
     }
     // si le fichier existe et n'est pas vide, le lire
     calendar = Calendar.importFromJsonFile('./lib/assets/calendar.json');
     if (calendar.calendarData.isEmpty) {
-      calendar.calendarData.addAll(calendarFill(calendar, date.year, location)
-          as Map<DateTime, DayContent>);
+      calendar.calendarData.addAll(
+          calendarFill(calendar, date, location) as Map<DateTime, DayContent>);
       calendar.exportToJsonFile('./lib/assets/calendar.json');
       return calendar;
     }
@@ -40,11 +40,11 @@ Calendar checkAndFillCalendar(
   if (date.isBefore(firstDate)) {
     calendar = Calendar();
     for (int year = date.year; year <= firstDate.year; year++) {
-      calendar = calendarFill(calendar, year, location);
+      calendar = calendarFill(calendar, date, location);
     }
   } else if (date.isAfter(lastDate)) {
     for (int year = lastDate.year + 1; year <= date.year; year++) {
-      calendar = calendarFill(calendar, year, location);
+      calendar = calendarFill(calendar, date, location);
     }
   }
 

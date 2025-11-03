@@ -5,8 +5,9 @@ DateTime christmas(int year) {
   return DateTime(year - 1, 12, 25);
 }
 
-DateTime advent(DateTime christmasDay) {
+DateTime advent(int year) {
   //renvoie le jour du début de l'Avent pour une année donnée
+  DateTime christmasDay = christmas(year);
   int dayShift = christmasDay.weekday;
   return christmasDay.subtract(Duration(days: 21 + dayShift));
 }
@@ -195,18 +196,17 @@ DateTime immaculateConception(DateTime adventDay) {
 }
 
 DateTime christKing(int year) {
-  //renvoie le jour de la fête du Christ Roi à la fin de l'année liturgique
-  // c'est le dernier dimanche de l'année liturgique, soit le dimanche avant l'Avent de l'année suivante
-  DateTime christmasDay = DateTime(year, 12, 25);
-  DateTime adventDay = advent(christmasDay);
+  // Christ King feast, last sunday of the liturgical year.
+  // calculated by beeing the previous sunday before new liturgical year
+  DateTime adventDay = advent(year + 1);
   return adventDay.subtract(Duration(days: 7));
 }
 
 createLiturgicalDays(int year) {
-  //crée la liste des fêtes variables avec leur date
+  // creates the list of variable feasts and their date
   Map<String, DateTime> liturgicalDays = {};
   liturgicalDays['NATIVITY'] = christmas(year);
-  liturgicalDays['ADVENT'] = advent(liturgicalDays['NATIVITY']!);
+  liturgicalDays['ADVENT'] = advent(year);
   liturgicalDays['IMMACULATE_CONCEPTION'] =
       immaculateConception(liturgicalDays['ADVENT']!);
   liturgicalDays['HOLY_FAMILY'] = holyFamily(year);

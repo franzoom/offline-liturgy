@@ -118,6 +118,7 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
         case 'adventtime':
           correctionCompline = adventTimeCompline[dayName];
           break;
+        case 'christmasoctave':
         case 'christmastime':
           correctionCompline = christmasTimeCompline[dayName];
           break;
@@ -185,25 +186,14 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
 Compline mergeComplineDay(Compline base, Compline override) {
   // Replacement of default Complines elements by specific ones
   return Compline(
-    complineCommentary: override.complineCommentary ?? base.complineCommentary,
+    commentary: override.commentary ?? base.commentary,
     celebrationType: override.celebrationType ?? base.celebrationType,
-    complineHymns: override.complineHymns ?? base.complineHymns,
-    complinePsalm1Antiphon:
-        override.complinePsalm1Antiphon ?? base.complinePsalm1Antiphon,
-    complinePsalm1Antiphon2:
-        override.complinePsalm1Antiphon2 ?? base.complinePsalm1Antiphon2,
-    complinePsalm1: override.complinePsalm1 ?? base.complinePsalm1,
-    complinePsalm2Antiphon:
-        override.complinePsalm2Antiphon ?? base.complinePsalm2Antiphon,
-    complinePsalm2Antiphon2:
-        override.complinePsalm2Antiphon2 ?? base.complinePsalm2Antiphon2,
-    complinePsalm2: override.complinePsalm2 ?? base.complinePsalm2,
-    complineReadingRef: override.complineReadingRef ?? base.complineReadingRef,
-    complineReading: override.complineReading ?? base.complineReading,
-    complineResponsory: override.complineResponsory ?? base.complineResponsory,
-    complineEvangelicAntiphon:
-        override.complineEvangelicAntiphon ?? base.complineEvangelicAntiphon,
-    complineOration: override.complineOration ?? base.complineOration,
+    hymns: override.hymns ?? base.hymns,
+    psalmody: override.psalmody ?? base.psalmody,
+    reading: override.reading ?? base.reading,
+    responsory: override.responsory ?? base.responsory,
+    evangelicAntiphon: override.evangelicAntiphon ?? base.evangelicAntiphon,
+    oration: override.oration ?? base.oration,
     marialHymnRef: override.marialHymnRef ?? base.marialHymnRef,
   );
 }

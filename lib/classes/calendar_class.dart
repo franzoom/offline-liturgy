@@ -45,23 +45,20 @@ class DayContent {
 }
 
 class Calendar {
-  final Map<DateTime, DayContent> _calendarData = {};
+  final Map<DateTime, DayContent> calendarData = {};
   Calendar(); //constructeur par défaut
 
-  // mise en place d'un getter
-  Map<DateTime, DayContent> get calendarData => _calendarData;
-
   void addDayContent(DateTime date, DayContent content) {
-    _calendarData[date] = content;
+    calendarData[date] = content;
   }
 
   DayContent? getDayContent(DateTime date) {
-    return _calendarData[date];
+    return calendarData[date];
   }
 
   void addItemToDay(DateTime date, int priorityLevel, String item) {
-    if (_calendarData.containsKey(date)) {
-      DayContent dayContent = _calendarData[date]!;
+    if (calendarData.containsKey(date)) {
+      DayContent dayContent = calendarData[date]!;
       // Trouver la priorité actuelle de l'item, s'il existe
       int? existingPriority = dayContent.priority.entries
           .firstWhere(
@@ -119,8 +116,8 @@ class Calendar {
   /// Supprime une célébration spécifique à une date donnée.
   /// Si la liste de priorité devient vide après suppression, elle est retirée.
   void removeCelebrationFromDay(DateTime date, String title) {
-    if (!_calendarData.containsKey(date)) return;
-    DayContent content = _calendarData[date]!;
+    if (!calendarData.containsKey(date)) return;
+    DayContent content = calendarData[date]!;
     final keysToRemove = <int>[];
     content.priority.forEach((priorityLevel, items) {
       items.remove(title);
@@ -143,7 +140,7 @@ class Calendar {
     bool itemFound = false;
 
     // Parcourir toutes les dates du calendrier
-    _calendarData.forEach((date, dayContent) {
+    calendarData.forEach((date, dayContent) {
       if (!itemFound) {
         // Chercher dans les priorités
         dayContent.priority.forEach((priorityLevel, items) {
@@ -192,7 +189,7 @@ class Calendar {
   String _pad(int number) => number.toString().padLeft(2, '0');
 
   List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
-    final dayContent = _calendarData[date];
+    final dayContent = calendarData[date];
     if (dayContent == null) return [];
     String liturgicalTime = dayContent.liturgicalTime;
     final List<MapEntry<int, String>> items = [];
@@ -243,7 +240,7 @@ class Calendar {
   }
 
 //méthode de conversion en JSON
-  Map<String, dynamic> toJson() => _calendarData.map(
+  Map<String, dynamic> toJson() => calendarData.map(
         (key, value) => MapEntry(key.toIso8601String(), value.toJson()),
       );
   String toJsonString() => jsonEncode(toJson());
@@ -261,7 +258,7 @@ class Calendar {
     json.forEach((key, value) {
       final date = DateTime.parse(key);
       final dayContent = DayContent.fromJson(value);
-      calendar._calendarData[date] = dayContent;
+      calendar.calendarData[date] = dayContent;
     });
     return calendar;
   }
@@ -285,14 +282,14 @@ extension CalendarDisplay on Calendar {
     final buffer = StringBuffer();
     buffer.writeln('📆 *Calendrier Liturgique*');
     buffer.writeln('══════════════════════════════════════');
-    if (_calendarData.isEmpty) {
+    if (calendarData.isEmpty) {
       buffer.writeln('Aucun jour enregistré dans le calendrier.');
       return buffer.toString();
     }
 
-    final sortedDates = _calendarData.keys.toList()..sort();
+    final sortedDates = calendarData.keys.toList()..sort();
     for (final date in sortedDates) {
-      final content = _calendarData[date]!;
+      final content = calendarData[date]!;
       buffer.writeln('📅 ${_formatDate(date)}');
       buffer.writeln('──────────────────────────────');
       buffer.writeln('🗓️ Année liturgique  : ${content.liturgicalYear}');

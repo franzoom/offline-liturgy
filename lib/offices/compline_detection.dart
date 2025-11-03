@@ -1,6 +1,7 @@
 import '../classes/calendar_class.dart'; // Calendar class
 import '../classes/compline_class.dart';
 import '../tools/date_tools.dart';
+import 'package:offline_liturgy/assets/libraries/french_liturgy_labels.dart';
 
 Map<String, ComplineDefinition> complineDetection(
     Calendar calendar, DateTime date) {
@@ -19,7 +20,7 @@ Map<String, ComplineDefinition> complineDetection(
     case 'holy_friday':
     case 'holy_saturday':
       ComplineDefinition complineDefinition = ComplineDefinition(
-          complineDescription: '',
+          complineDescription: celebrationTypeLabels[celebrationTitle]!,
           dayOfWeek: 'sunday',
           liturgicalTime: 'lenttime',
           celebrationType: celebrationTitle,

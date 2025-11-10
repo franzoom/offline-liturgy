@@ -1,4 +1,4 @@
-/// Types de célébration
+/// Celebration Types
 const Map<String, String> celebrationTypeLabels = {
   'Solemnity': 'Solennité',
   'SolemnityEve': 'Veille de Solennité',
@@ -8,14 +8,28 @@ const Map<String, String> celebrationTypeLabels = {
   'normal': 'Férie',
 };
 
-/// Temps liturgiques
-const Map<String, String> liturgicalTimeLabels = {
-  'OrdinaryTime': 'Temps Ordinaire',
-  'LentTime': 'Temps du Carême',
-  'PaschalTime': 'Temps Pascal',
-  'AdventTime': 'Temps de l\'Avent',
-  'ChristmasTime': 'Temps de Noël',
+/// Liturgical Times
+const liturgicalTimeLabels = {
+  'advent': 'Temps de l\'Avent',
+  'ot': 'Temps Ordinaire',
+  'paschal': 'Temps Pascal',
+  'lent': 'Carême',
+  'christmas': 'Temps de Noël',
+  'holyweek': 'Semaine Sainte',
+  'paschaloctave': 'Octave Paschal',
+  'christmasoctave': 'Octave de Noël',
 };
+
+// Map days of the week
+const daysOfWeek = [
+  'dimanche',
+  'lundi',
+  'mardi',
+  'mercredi',
+  'jeudi',
+  'vendredi',
+  'samedi',
+];
 
 /// Jours de la semaine
 const Map<String, String> dayOfWeekLabels = {
@@ -62,3 +76,10 @@ final Map<String, String> fixedTexts = {
       "<p>Que Le Seigneur nous bénisse et nous garde,<br>le Père, le Fils, et le Saint-Esprit.<br>Amen.</p>",
   "or": "<p>ou</p>",
 };
+
+String getFrenchOrdinal(int number) {
+  if (number == 1) {
+    return '1er';
+  }
+  return '${number}ème';
+}

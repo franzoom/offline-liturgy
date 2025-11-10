@@ -75,11 +75,11 @@ List<String>? officeOfReadingsPsalms(
   Map<int, Map<String, List<String>>> finalList =
       readingPsalmsDefaultDistribution;
 // en dehors du temps ordinaire:
-  if (liturgicalTime != 'OrdinaryTime') {
+  if (liturgicalTime != 'ordinary') {
     finalList = mergePsalms(readingPsalmsDefaultDistribution,
         readingPsalmsPaschalOctaveDistribution);
   }
-  if (liturgicalTime == 'PaschalOctave') {
+  if (liturgicalTime == 'paschaloctave') {
     finalList = mergePsalms(readingPsalmsDefaultDistribution,
         readingPsalmsPaschalOctaveDistribution);
   }

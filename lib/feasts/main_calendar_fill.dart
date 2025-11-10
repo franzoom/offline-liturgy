@@ -54,7 +54,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'adventtime',
+      liturgicalTime: 'advent',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
@@ -69,8 +69,8 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the Nativity of the Lord
   DayContent dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'NATIVITY',
+    liturgicalTime: 'nativity',
+    defaultCelebrationTitle: 'nativity',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
@@ -84,7 +84,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   date = date.add(Duration(days: 1)); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
     if (date == generalCalendar['HOLY_FAMILY']) {
-      defaultCelebrationTitle = 'HOLY_FAMILY';
+      defaultCelebrationTitle = 'holy_family';
       liturgicalGrade = 6;
     } else {
       liturgicalGrade = 7;
@@ -119,7 +119,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the Nativity of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmastime',
+    liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'mary_mother_of_god',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
@@ -152,8 +152,8 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 // adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmastime',
-    defaultCelebrationTitle: 'EPIPHANY',
+    liturgicalTime: 'christmas',
+    defaultCelebrationTitle: 'epiphany',
     liturgicalGrade: 3,
     liturgicalColor: 'white',
     breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
@@ -173,7 +173,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['BAPTISM']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmastime',
+      liturgicalTime: 'christmas',
       defaultCelebrationTitle: 'christmas_feriale_2_$christmasFerialDays',
       liturgicalGrade: 13,
       liturgicalColor: 'white',
@@ -188,8 +188,8 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the Baptism of the Lord
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmastime',
-    defaultCelebrationTitle: 'BAPTISM',
+    liturgicalTime: 'christmas',
+    defaultCelebrationTitle: 'baptism',
     liturgicalGrade: 5,
     liturgicalColor: 'white',
     breviaryWeek: 1,
@@ -204,11 +204,11 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['ASHES']!)) {
     String weekNumber = '${(ordinaryTimeDays / 7).floor() + 1}';
     int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'OT_${weekNumber}_$dayOfWeek';
+    defaultCelebrationTitle = 'ot_${weekNumber}_$dayOfWeek';
     liturgicalGrade = dayOfWeek == 0 ? 6 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ordinarytime',
+      liturgicalTime: 'ot',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'green',
@@ -222,7 +222,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 // adding the Ashes Wednesday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'lenttime',
+    liturgicalTime: 'lent',
     defaultCelebrationTitle: 'lent_0_3',
     liturgicalGrade: 2,
     liturgicalColor: 'violet',
@@ -239,7 +239,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['ASHES']!.add(Duration(days: 4)))) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'lenttime',
+      liturgicalTime: 'lent',
       defaultCelebrationTitle: 'lent_0_$lentDays',
       liturgicalGrade: 9,
       liturgicalColor: 'violet',
@@ -260,7 +260,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade = dayOfWeek == 0 ? 2 : 9;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'lenttime',
+      liturgicalTime: 'lent',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
@@ -274,8 +274,8 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 // adding Palms Sunday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'lenttime',
-    defaultCelebrationTitle: 'PALMS',
+    liturgicalTime: 'lent',
+    defaultCelebrationTitle: 'palms',
     liturgicalGrade: 2,
     liturgicalColor: 'red',
     breviaryWeek: (lentDays / 7).floor() % 4 + 1,
@@ -307,7 +307,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'HOLY_THURSDAY',
+    defaultCelebrationTitle: 'holy_thursday',
     liturgicalGrade: 1,
     liturgicalColor: 'white',
     breviaryWeek: null,
@@ -320,7 +320,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'HOLY_FRIDAY',
+    defaultCelebrationTitle: 'holy_friday',
     liturgicalGrade: 1,
     liturgicalColor: 'red',
     breviaryWeek: null,
@@ -333,7 +333,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'HOLY_SATURDAY',
+    defaultCelebrationTitle: 'holy_saturday',
     liturgicalGrade: 1,
     liturgicalColor: 'black',
     breviaryWeek: null,
@@ -346,7 +346,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'paschaltime',
-    defaultCelebrationTitle: 'EASTER',
+    defaultCelebrationTitle: 'easter',
     liturgicalGrade: 1,
     liturgicalColor: 'white',
     breviaryWeek: null,
@@ -363,7 +363,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(dayShift(generalCalendar['EASTER']!, 7))) {
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'PaschalOctave',
+      liturgicalTime: 'paschaloctave',
       defaultCelebrationTitle:
           'PT_${(paschalTimeDays / 7).floor() + 1}_${paschalTimeDays % 7}',
       liturgicalGrade: 2,
@@ -413,7 +413,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'paschaltime',
-    defaultCelebrationTitle: 'ASCENSION',
+    defaultCelebrationTitle: 'ascension',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
     breviaryWeek: 2,
@@ -448,7 +448,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'paschaltime',
-    defaultCelebrationTitle: 'PENTECOST',
+    defaultCelebrationTitle: 'pentecost',
     liturgicalGrade: 2,
     liturgicalColor: 'red',
     breviaryWeek: 2,
@@ -471,12 +471,12 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       date.isBefore(generalCalendar['CHRIST_KING']!.add(Duration(days: 7)))) {
     String weekNumber = '${(ordinaryTimeDays / 7).floor() + 1}';
     int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'OT_${weekNumber}_$dayOfWeek';
+    defaultCelebrationTitle = 'ot_${weekNumber}_$dayOfWeek';
     liturgicalGrade = dayOfWeek == 0 ? 6 : 13;
 
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ordinarytime',
+      liturgicalTime: 'ot',
       defaultCelebrationTitle: defaultCelebrationTitle,
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'green',
@@ -489,20 +489,27 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   }
 
 // ADDING THE SOLEMNITIES AND FEASTS OVER THE ALREADY CREATED DATES
-  String eventName = 'IMMACULATE_CONCEPTION';
-  calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
-  eventName = 'ASCENSION';
-  calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
-  eventName = 'ANNUNCIATION';
-  calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
-  eventName = 'SAINT_JOSEPH';
-  calendar.addItemToDay(generalCalendar[eventName]!, 4, eventName);
-  eventName = 'HOLY_TRINITY';
-  calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
-  eventName = 'CORPUS_DOMINI';
-  calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
-  eventName = 'SACRED_HEART';
-  calendar.addItemToDay(generalCalendar[eventName]!, 3, eventName);
+  String eventName = 'immaculate_conception';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 3, eventName);
+  eventName = 'ascension';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 3, eventName);
+  eventName = 'annunciation';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 3, eventName);
+  eventName = 'saint_joseph';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 4, eventName);
+  eventName = 'holy_trinity';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 3, eventName);
+  eventName = 'corpus_domini';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 3, eventName);
+  eventName = 'sacred_heart';
+  calendar.addItemToDay(
+      generalCalendar[eventName.toUpperCase()]!, 3, eventName);
   eventName = 'saint_pieter_and_saint_paul';
   calendar.addItemToDay(generalCalendar[eventName]!, 4, eventName);
   eventName = 'saint_john_the_baptist';

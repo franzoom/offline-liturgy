@@ -27,33 +27,39 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
 
   Map<String, ComplineDefinition> possibleComplines = todayComplineDefinition;
 
-  // Check if today is a Solemnity
-  bool todayIsSolemnity = todayComplineDefinition.entries
-      .any((entry) => entry.value.celebrationType == 'solemnity');
+  // Check if today is a Solemnity or sunday
+  bool todayIsSolemnity = todayComplineDefinition.entries.any((entry) =>
+      entry.value.celebrationType == 'solemnity' ||
+      entry.value.dayOfWeek == 'sunday');
 
   // work on tommorow's potential Complines :
   // Check if tomorrow requires Eve Complines (Solemnity or Sunday)
-  // and adapt their datas to be considered as Eve (using saturdays's office)
+  // and adapt their datas to be considered as Eve
+  // (using saturdays's office according to the liturgical time)
   bool tomorrowNeedsEveComplines = false;
-  final confirmedTomorrowComplineDefinition = <String, ComplineDefinition>{};
+  Map<String, ComplineDefinition> eveComplineDefinition = {};
   for (var entry in tomorrowComplineDefinition.entries) {
     final value = entry.value;
-    if (value.dayOfWeek.toLowerCase() == 'sunday') {
+    if (value.celebrationType == 'solemnity') {
       tomorrowNeedsEveComplines = true;
-      confirmedTomorrowComplineDefinition[entry.key] = ComplineDefinition(
-        complineDescription: 'Complies de la veille du dimanche',
-        dayOfWeek: 'saturday',
-        liturgicalTime: value.liturgicalTime,
-        celebrationType: 'normal',
-        priority: value.priority,
-      );
-    } else if (value.celebrationType == 'solemnity') {
-      tomorrowNeedsEveComplines = true;
-      confirmedTomorrowComplineDefinition[entry.key] = ComplineDefinition(
-        complineDescription: 'Complies de la veille de solennité',
+      String eveComplineDescription =
+          eveStringReplacement(entry.value.complineDescription);
+      eveComplineDefinition[eveComplineDescription] = ComplineDefinition(
+        complineDescription: eveComplineDescription,
         dayOfWeek: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'solemnityeve',
+        priority: value.priority,
+      );
+    } else if (value.dayOfWeek == 'sunday') {
+      tomorrowNeedsEveComplines = true;
+      String eveComplineDescription =
+          eveStringReplacement(entry.value.complineDescription);
+      eveComplineDefinition[eveComplineDescription] = ComplineDefinition(
+        complineDescription: eveComplineDescription,
+        dayOfWeek: 'saturday',
+        liturgicalTime: value.liturgicalTime,
+        celebrationType: 'normal',
         priority: value.priority,
       );
     }
@@ -63,10 +69,10 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
   if (tomorrowNeedsEveComplines && todayIsSolemnity) {
     // Both options: today's Solemnity Complines AND Solemnity/Sunday Eve Complines
     // ==> adds the eve's Complines to the already existing today's Complines.
-    possibleComplines.addAll(confirmedTomorrowComplineDefinition);
+    possibleComplines.addAll(eveComplineDefinition);
   } else if (tomorrowNeedsEveComplines) {
     // Only Solemnity/Sunday Eve Complines: juste keep the Eve Complines
-    possibleComplines = confirmedTomorrowComplineDefinition;
+    possibleComplines = eveComplineDefinition;
   }
   return possibleComplines;
 }
@@ -109,20 +115,20 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
       dayName = 'sunday';
       dayCompline = defaultCompline[dayName];
       switch (complineDefinition.liturgicalTime.toLowerCase()) {
-        case 'ordinarytime':
+        case 'ot':
           correctionCompline = dayCompline;
           break;
-        case 'lenttime':
+        case 'lent':
           correctionCompline = lentTimeCompline[dayName];
           break;
-        case 'paschaltime':
+        case 'paschal':
           correctionCompline = paschalTimeCompline[dayName];
           break;
-        case 'adventtime':
+        case 'advent':
           correctionCompline = adventTimeCompline[dayName];
           break;
         case 'christmasoctave':
-        case 'christmastime':
+        case 'christmas':
           correctionCompline = christmasTimeCompline[dayName];
           break;
         default:
@@ -133,18 +139,18 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
     case 'normal':
       // Use the day of the week for Ordinary Time
       switch (complineDefinition.liturgicalTime.toLowerCase()) {
-        case 'ordinarytime':
+        case 'ot':
           return dayCompline;
-        case 'lenttime':
+        case 'lent':
           correctionCompline = lentTimeCompline[day];
           break;
-        case 'paschaltime':
+        case 'paschal':
           correctionCompline = paschalTimeCompline[day];
           break;
-        case 'adventtime':
+        case 'advent':
           correctionCompline = adventTimeCompline[day];
           break;
-        case 'christmastime':
+        case 'christmas':
           correctionCompline = christmasTimeCompline[day];
           break;
         default:
@@ -159,17 +165,17 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
           : 'saturday';
       dayCompline = defaultCompline[dayName];
       switch (complineDefinition.liturgicalTime) {
-        case 'ordinarytime':
+        case 'ot':
           correctionCompline = solemnityComplineOrdinaryTime[dayName];
           break;
-        case 'lenttime':
+        case 'lent':
           correctionCompline = solemnityComplineLentTime[dayName];
           break;
-        case 'paschaltime':
+        case 'paschal':
           correctionCompline = solemnityComplinePaschalTime[dayName];
           break;
-        case 'adventtime':
-        case 'christmastime':
+        case 'advent':
+        case 'christmas':
           correctionCompline = solemnityComplineAdventChristmas[dayName];
           break;
         default:
@@ -197,4 +203,9 @@ Compline mergeComplineDay(Compline base, Compline override) {
     oration: override.oration ?? base.oration,
     marialHymnRef: override.marialHymnRef ?? base.marialHymnRef,
   );
+}
+
+String eveStringReplacement(String complineDescription) {
+  return complineDescription.replaceAll(
+      'Complies de', 'Complies de la veille de');
 }

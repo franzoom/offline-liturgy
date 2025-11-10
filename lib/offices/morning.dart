@@ -17,8 +17,8 @@ bool detectFerialDays(String celebrationName) {
 /// Returns a Map with celebration name as key and Morning instance as value
 Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
   // Paths to liturgical data files
-  final String ferialFilePath = './lib/assets/calendar_data/days_ferial';
-  final String specialFilePath = './lib/assets/calendar_data/days_special';
+  final String ferialFilePath = './lib/assets/calendar_data/ferial_days';
+  final String specialFilePath = './lib/assets/calendar_data/special_days';
   final String commonsFilePath = './lib/assets/calendar_data/commons';
 
   Morning ferialMorning = Morning();

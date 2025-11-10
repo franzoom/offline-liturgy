@@ -2,7 +2,7 @@ import 'offline_liturgy.dart';
 
 void main() {
   Calendar calendar = Calendar(); // calendar creation
-  DateTime date = DateTime(2025, 12, 7);
+  DateTime date = DateTime(2024, 12, 8);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // calendar initialisation
 /*
@@ -19,7 +19,7 @@ void main() {
       complineTextCompilation(possibleComplines);
 
   complineTextCompiled.forEach((key, compline) {
-    print('Compline for $key:');
+    print('$key');
     print('=========================');
     complineDisplay(compline);
     print('=========================');

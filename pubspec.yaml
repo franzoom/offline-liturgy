@@ -9,12 +9,15 @@ environment:
 flutter:
   assets:
     - assets/locations.json
+    - assets/calendar_data/commons/
+    - assets/calendar_data/ferial_days/
+    - assets/calendar_data/special_days/
+    - assets/calendar_data/sanctoral/
 
 # Add regular dependencies here.
 dependencies:
   # path: ^1.8.0
   yaml: ^3.1.1
-
 
 dev_dependencies:
   lints: ^6.0.0

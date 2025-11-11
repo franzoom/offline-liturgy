@@ -10,10 +10,11 @@ import '../assets/compline/compline_solemnity_advent_christmas.dart';
 import '../assets/compline/compline_advent_time.dart';
 import '../assets/compline/compline_christmas_time.dart';
 import '../tools/date_tools.dart';
+import '../tools/data_loader.dart';
 import 'compline_detection.dart';
 
-Map<String, ComplineDefinition> complineDefinitionResolution(
-    Calendar calendar, DateTime date) {
+Future<Map<String, ComplineDefinition>> complineDefinitionResolution(
+    Calendar calendar, DateTime date, DataLoader dataLoader) async {
   /// Resolves the Complines choice for a given day.
   /// Returns a list of possible Complines maps.
   /// Usually returns only today's Complines,
@@ -21,9 +22,9 @@ Map<String, ComplineDefinition> complineDefinitionResolution(
   /// If today has multiple celebrations (Sunday + Solemnity), returns all options.
 
   Map<String, ComplineDefinition> todayComplineDefinition =
-      complineDetection(calendar, date);
+      await complineDetection(calendar, date, dataLoader);
   Map<String, ComplineDefinition> tomorrowComplineDefinition =
-      complineDetection(calendar, dayShift(date, 1));
+      await complineDetection(calendar, dayShift(date, 1), dataLoader);
 
   Map<String, ComplineDefinition> possibleComplines = todayComplineDefinition;
 

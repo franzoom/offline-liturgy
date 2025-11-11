@@ -1,25 +1,26 @@
 import 'dart:convert';
-import 'dart:io';
 import '../feasts/common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/day_offices_class.dart';
 import '../tools/extract_week_and_day.dart';
+import '../tools/data_loader.dart';
 
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
 bool detectFerialDays(String celebrationName) {
-  final prefixes = ['OT', 'advent', 'lent', 'christmas', 'easter'];
+  final prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationName.startsWith(prefix));
 }
 
 /// Resolves morning prayer for ferial days
 /// Returns a Map with celebration name as key and Morning instance as value
-Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
-  // Paths to liturgical data files
-  final String ferialFilePath = './lib/assets/calendar_data/ferial_days';
-  final String specialFilePath = './lib/assets/calendar_data/special_days';
-  final String commonsFilePath = './lib/assets/calendar_data/commons';
+Future<Map<String, Morning>> ferialMorningResolution(
+    Calendar calendar, DateTime date, DataLoader dataLoader) async {
+  // Paths to liturgical data files (relative to assets/)
+  final String ferialFilePath = 'calendar_data/ferial_days';
+  final String specialFilePath = 'calendar_data/special_days';
+  final String commonsFilePath = 'calendar_data/commons';
 
   Morning ferialMorning = Morning();
 
@@ -36,8 +37,8 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
   // ============================================================================
   // ORDINARY TIME
   // ============================================================================
-  if (celebrationName.startsWith('OT')) {
-    List dayDatas = extractWeekAndDay(celebrationName, "OT");
+  if (celebrationName.startsWith('ot')) {
+    List dayDatas = extractWeekAndDay(celebrationName, 'ot');
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
 
@@ -45,20 +46,21 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
       // Special case: Sunday
       // Use one of the 4 first sundays as reference
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      Morning ferialMorning = morningExtract(
-          File('$ferialFilePath/OT_{$referenceWeekNumber}_0.json'));
+      Morning ferialMorning = await morningExtract(
+          '$ferialFilePath/ot_${referenceWeekNumber}_0.json', dataLoader);
 
       if (weekNumber > 4) {
         // Add specific data for sundays after the 4th week
-        Morning sundayAuxData =
-            morningExtract(File('$ferialFilePath/OT_{$weekNumber}_0.json'));
+        Morning sundayAuxData = await morningExtract(
+            '$ferialFilePath/ot_${weekNumber}_0.json', dataLoader);
         ferialMorning.overlayWith(sundayAuxData);
       }
     } else {
       // Weekday: use only the 4 first weeks (with modulo)
       final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      ferialMorning = morningExtract(
-          File('$ferialFilePath/OT_${referenceWeekNumber}_$dayNumber.json'));
+      ferialMorning = await morningExtract(
+          '$ferialFilePath/ot_${referenceWeekNumber}_$dayNumber.json',
+          dataLoader);
     }
 
     // Add specific day information
@@ -77,19 +79,19 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
 
     if (date.day < 17) {
       // Days before December 17th
-      ferialMorning = morningExtract(
-          File('$ferialFilePath/advent_${weekNumber}_$dayNumber.json'));
+      ferialMorning = await morningExtract(
+          '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
       return {celebrationName: ferialMorning};
     } else {
       // Days from December 17th onwards (special days)
-      ferialMorning =
-          morningExtract(File('$specialFilePath/advent_${date.day}.json'));
+      ferialMorning = await morningExtract(
+          '$specialFilePath/advent_${date.day}.json', dataLoader);
 
       if (weekNumber == 3 && dayNumber == 0 && date.day == 17) {
         // 3rd Sunday of Advent on December 17th
         // Use December 17th data and add the 3rd Sunday oration
         Morning auxData =
-            morningExtract(File('$ferialFilePath/advent_3_0.json'));
+            await morningExtract('$ferialFilePath/advent_3_0.json', dataLoader);
         ferialMorning.oration = auxData.oration;
         return {celebrationName: ferialMorning};
       }
@@ -98,7 +100,7 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
         // 4th Sunday of Advent on December 24th
         // Use December 24th data and add the 4th Sunday oration
         Morning auxData =
-            morningExtract(File('$ferialFilePath/advent_4_0.json'));
+            await morningExtract('$ferialFilePath/advent_4_0.json', dataLoader);
         ferialMorning.oration = auxData.oration;
         return {celebrationName: ferialMorning};
       }
@@ -107,7 +109,7 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
         // 4th Sunday of Advent after December 17th
         // Use 4th Sunday data and add the evangelic antiphon of the day
         Morning sunday4Morning =
-            morningExtract(File('$ferialFilePath/advent_4_0.json'));
+            await morningExtract('$ferialFilePath/advent_4_0.json', dataLoader);
         sunday4Morning.evangelicAntiphon = ferialMorning.evangelicAntiphon;
         return {celebrationName: sunday4Morning};
       }
@@ -127,18 +129,19 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
     if (monthNumber == 12) {
       if (dayNumber < 29) {
         // Days before December 29th: proper office for Morning Prayer
-        Morning morningOffice =
-            morningExtract(File('$ferialFilePath/christmas_$dayNumber.json'));
-        Morning baseMorningOffice = morningExtract(File(
-            '$commonsFilePath/christmas_${breviaryWeek}_${date.weekday}.json'));
+        Morning morningOffice = await morningExtract(
+            '$ferialFilePath/christmas_$dayNumber.json', dataLoader);
+        Morning baseMorningOffice = await morningExtract(
+            '$commonsFilePath/christmas_${breviaryWeek}_${date.weekday}.json',
+            dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
         return {celebrationName: baseMorningOffice};
       } else {
         // Days from December 29th to 31st: use Common of Christmas
-        Morning morningOffice =
-            morningExtract(File('$specialFilePath/christmas_${date.day}.json'));
+        Morning morningOffice = await morningExtract(
+            '$specialFilePath/christmas_${date.day}.json', dataLoader);
         Morning baseMorningOffice =
-            morningExtract(File('$commonsFilePath/christmas.json'));
+            await morningExtract('$commonsFilePath/christmas.json', dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
         return {celebrationName: baseMorningOffice};
       }
@@ -147,16 +150,17 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
       if (date.isBefore(epiphany(date.year))) {
         // Before Epiphany: proper of the day with psalms and antiphons
         // of the 1st week of Christmas time
-        Morning morningOffice = morningExtract(File(
-            '$specialFilePath/christmas-ferial_before_epiphany_${date.day}.json'));
-        Morning baseMorningOffice = morningExtract(
-            File('$ferialFilePath/christmas_1_${date.weekday}.json'));
+        Morning morningOffice = await morningExtract(
+            '$specialFilePath/christmas-ferial_before_epiphany_${date.day}.json',
+            dataLoader);
+        Morning baseMorningOffice = await morningExtract(
+            '$ferialFilePath/christmas_1_${date.weekday}.json', dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
         return {celebrationName: baseMorningOffice};
       } else {
         // After Epiphany
-        Morning morningOffice = morningExtract(
-            File('$ferialFilePath/christmas_2_${date.weekday}.json'));
+        Morning morningOffice = await morningExtract(
+            '$ferialFilePath/christmas_2_${date.weekday}.json', dataLoader);
         return {celebrationName: morningOffice};
       }
     }
@@ -169,8 +173,8 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
     List dayDatas = extractWeekAndDay(celebrationName, "lent");
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
-    ferialMorning = morningExtract(
-        File('$ferialFilePath/lent_${weekNumber}_$dayNumber.json'));
+    ferialMorning = await morningExtract(
+        '$ferialFilePath/lent_${weekNumber}_$dayNumber.json', dataLoader);
     return {celebrationName: ferialMorning};
   }
 
@@ -181,23 +185,35 @@ Map<String, Morning> ferialMorningResolution(Calendar calendar, DateTime date) {
     List dayDatas = extractWeekAndDay(celebrationName, "PT");
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
-    ferialMorning = morningExtract(
-        File('$ferialFilePath/PT_${weekNumber}_$dayNumber.json'));
+    ferialMorning = await morningExtract(
+        '$ferialFilePath/PT_${weekNumber}_$dayNumber.json', dataLoader);
     return {celebrationName: ferialMorning};
   }
 
   // ============================================================================
   // OTHER FERIAL TIMES
   // ============================================================================
-  final File fileName = File('$ferialFilePath/$celebrationName');
-  ferialMorning = morningExtract(fileName);
+  ferialMorning =
+      await morningExtract('$ferialFilePath/$celebrationName.json', dataLoader);
   return {celebrationName: ferialMorning};
 }
 
 /// Extracts Morning data from a JSON file
-/// Reads the file, parses it as DayOffices, and converts to Morning
-Morning morningExtract(File fileName) {
-  String fileContent = fileName.readAsStringSync();
-  DayOffices dayOffices = DayOffices.fromJSON(jsonDecode(fileContent));
-  return Morning.fromDayOffices(dayOffices);
+/// Reads the file via DataLoader, parses it as DayOffices, and converts to Morning
+Future<Morning> morningExtract(
+    String relativePath, DataLoader dataLoader) async {
+  try {
+    String fileContent = await dataLoader.loadJson(relativePath);
+
+    // If file doesn't exist or is empty, return empty Morning
+    if (fileContent.isEmpty) {
+      return Morning();
+    }
+
+    DayOffices dayOffices = DayOffices.fromJSON(jsonDecode(fileContent));
+    return Morning.fromDayOffices(dayOffices);
+  } catch (e) {
+    // In case of error, return empty Morning
+    return Morning();
+  }
 }

@@ -1,12 +1,12 @@
 import 'dart:convert';
-import 'dart:io';
 import '../classes/calendar_class.dart'; // Calendar class
 import '../classes/compline_class.dart';
 import '../tools/date_tools.dart';
+import '../tools/data_loader.dart'; // Abstract interface for data loading
 import 'package:offline_liturgy/assets/libraries/french_liturgy_labels.dart';
 
-Map<String, ComplineDefinition> complineDetection(
-    Calendar calendar, DateTime date) {
+Future<Map<String, ComplineDefinition>> complineDetection(
+    Calendar calendar, DateTime date, DataLoader dataLoader) async {
   /// Detects which Compline to use for a given day.
   /// Returns a Map "day or feast name" : ComplineDefinition
 
@@ -38,12 +38,15 @@ Map<String, ComplineDefinition> complineDetection(
       return {celebrationTitle: complineDefinition};
   }
 
-  String complineDescription = getFrenchComplineDescription(celebrationTitle);
+  String complineDescription = await getFrenchComplineDescription(
+    celebrationTitle,
+    dataLoader,
+  );
 
   // Major solemnities (in the root of the day Calendar)
-  // for sundays of Advent or other times, the liturgical grade is very high,
+  // For sundays of Advent or other times, the liturgical grade is very high,
   // so we have to check if it's a sunday in the celebrationTitle (finishing with 0).
-  // normaly a major solemnity replaces the celebrationTitle of the day,
+  // Normally a major solemnity replaces the celebrationTitle of the day,
   // so the check is enough to solve the problem.
   if (liturgicalGrade <= 4 &&
       celebrationTitle[celebrationTitle.length - 1] != '0') {
@@ -56,11 +59,14 @@ Map<String, ComplineDefinition> complineDetection(
     return {complineDescription: complineDefinition};
   }
 
-  // Then look for the solemnities found in a subdirectories of Calendar
+  // Then look for the solemnities found in subdirectories of Calendar
   // (a solemnity must be at a higher grade than the root of the day)
   for (var entry in todayContent.priority.entries) {
     if (entry.key <= 4 && entry.key <= liturgicalGrade) {
-      String complineDescription = getFrenchComplineDescription(entry.value[0]);
+      String complineDescription = await getFrenchComplineDescription(
+        entry.value[0],
+        dataLoader,
+      );
       ComplineDefinition complineDefinition = ComplineDefinition(
           complineDescription: complineDescription,
           dayOfWeek: 'sunday',
@@ -71,7 +77,7 @@ Map<String, ComplineDefinition> complineDetection(
     }
   }
 
-  //otherwise, concluding with the simple Complines of the day
+  // Otherwise, concluding with the simple Complines of the day
   ComplineDefinition complineDefinition = ComplineDefinition(
       complineDescription: complineDescription,
       dayOfWeek: todayName,
@@ -81,8 +87,11 @@ Map<String, ComplineDefinition> complineDetection(
   return {complineDescription: complineDefinition};
 }
 
-/// function returning the french description of the complines
-String getFrenchComplineDescription(String celebrationTitle) {
+/// Returns the French description of the Complines
+Future<String> getFrenchComplineDescription(
+  String celebrationTitle,
+  DataLoader dataLoader,
+) async {
   // Convert to lowercase to avoid case issues
   final title = celebrationTitle.toLowerCase();
 
@@ -109,10 +118,10 @@ String getFrenchComplineDescription(String celebrationTitle) {
   }
 
   // If format is not valid, search in JSON files
-  // First in days_special
-  String result = _searchInJsonFile(
-    'lib/assets/calendar_data/special_days/$title.json',
-    title,
+  // First in special_days
+  String result = await _searchInJsonFile(
+    'calendar_data/special_days/$title.json',
+    dataLoader,
   );
 
   if (result.isNotEmpty) {
@@ -120,26 +129,28 @@ String getFrenchComplineDescription(String celebrationTitle) {
   }
 
   // Then in sanctoral
-  result = _searchInJsonFile(
-    'lib/assets/calendar_data/sanctoral/$title.json',
-    title,
+  result = await _searchInJsonFile(
+    'calendar_data/sanctoral/$title.json',
+    dataLoader,
   );
 
-  return 'Complies de $result';
+  return result.isNotEmpty ? 'Complies de $result' : 'Complies';
 }
 
 /// Helper function to search for celebrationTitle key in a JSON file
-String _searchInJsonFile(String filePath, String key) {
+Future<String> _searchInJsonFile(
+  String relativePath,
+  DataLoader dataLoader,
+) async {
   try {
-    final file = File(filePath);
+    // Load via DataLoader instead of File()
+    final content = await dataLoader.loadJson(relativePath);
 
-    // Check if file exists
-    if (!file.existsSync()) {
+    // If content is empty, file doesn't exist
+    if (content.isEmpty) {
       return '';
     }
 
-    // Read and parse JSON file
-    final content = file.readAsStringSync();
     final jsonData = json.decode(content) as Map<String, dynamic>;
 
     // Return the celebrationTitle value if it exists

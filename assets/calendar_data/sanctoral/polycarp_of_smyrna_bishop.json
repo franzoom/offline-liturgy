@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "S. Polycarpe",
+    "subtitle": "évêque et martyr",
+    "description": "Disciple de saint Jean, l’évêque Polycarpe est le dernier témoin de l’age apostolique. Il mourut sur le bûcher, au milieu du théâtre de Smyrne, en présence de tout le peuple, rendant grâce au Seigneur «&nbsp;d’avoir été jugé digne d’être compté au nombre des martyrs et de participer au calice du Christ&nbsp;». C’était le 23 février 155&nbsp;; il avait quatre‑vingt‑six ans.",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
+    "grade": 10,
+    "color": "red"
+  },
   "morning": {
-    "evangelicAntiphon": "Depuis si longtemps que je sers le Christ, il ne m’a fait aucun mal. Comment pourrais-je blasphémer mon Sauveur et mon Roi&nbsp;?"
+    "evangelicAntiphon": {
+      "common": "Depuis si longtemps que je sers le Christ, il ne m’a fait aucun mal. Comment pourrais-je blasphémer mon Sauveur et mon Roi&nbsp;?"
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,16 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Je te bénis, Seigneur, toi qui me donnes part à la coupe du Christ."
+    "evangelicAntiphon": {
+      "common": "Je te bénis, Seigneur, toi qui me donnes part à la coupe du Christ."
+    }
   },
-  "celebrationTitle": "S. Polycarpe",
-  "celebrationSubtitle": "évêque et martyr",
-  "celebrationDescription": "Disciple de saint Jean, l’évêque Polycarpe est le dernier témoin de l’age apostolique. Il mourut sur le bûcher, au milieu du théâtre de Smyrne, en présence de tout le peuple, rendant grâce au Seigneur «&nbsp;d’avoir été jugé digne d’être compté au nombre des martyrs et de participer au calice du Christ&nbsp;». C’était le 23 février 155&nbsp;; il avait quatre‑vingt‑six ans.",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "red",
-  "commons": [
-    "martyr",
-    "pastors_bishop"
-  ],
-  "oration": "Dieu de toute la création, tu as voulu que l’évêque saint Polycarpe, soit au nombre de tes martyrs&nbsp;; accorde-nous, à sa prière, de prendre part comme lui à la coupe du Christ, pour ressusciter à la vie éternelle."
+  "oration": [
+    "Dieu de toute la création, tu as voulu que l’évêque saint Polycarpe, soit au nombre de tes martyrs&nbsp;; accorde-nous, à sa prière, de prendre part comme lui à la coupe du Christ, pour ressusciter à la vie éternelle."
+  ]
 }

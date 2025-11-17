@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "À qui donc irions-nous, Seigneur&nbsp;? Tu as les paroles de la vie. Nous croyons que tu es le Fils de Dieu, alléluia.",
-    "intercession": "<p>Jésus de Nazareth, reconnu Fils de Dieu par ta résurrection,<br> –&nbsp;bénis et sanctifie tous les hommes.</p> <p>R/ Souviens-toi de tes frères.</p> <p>Premier des vivants, tu fais renaître celui qui croit en toi,<br> –&nbsp;donne aux baptisés de vivre en fils de lumière.</p> <p>Toi qui soutiens la confiance de ton Église en marche,<br> –&nbsp;donne-lui d’annoncer hardiment ta résurrection.</p> <p>Tu es entré après beaucoup de souffrances dans la gloire du Père,<br> –&nbsp;change en joie la peine des hommes.</p> <p>Tu nous appelles au festin du Royaume,<br> –&nbsp;sois le pain qui nous ressuscitera au dernier jour.</p> "
+    "evangelicAntiphon": {
+      "common": "À qui donc irions-nous, Seigneur&nbsp;? Tu as les paroles de la vie. Nous croyons que tu es le Fils de Dieu, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Jésus de Nazareth, reconnu Fils de Dieu par ta résurrection,<br> –&nbsp;bénis et sanctifie tous les hommes.</p> <p>R/ Souviens-toi de tes frères.</p> <p>Premier des vivants, tu fais renaître celui qui croit en toi,<br> –&nbsp;donne aux baptisés de vivre en fils de lumière.</p> <p>Toi qui soutiens la confiance de ton Église en marche,<br> –&nbsp;donne-lui d’annoncer hardiment ta résurrection.</p> <p>Tu es entré après beaucoup de souffrances dans la gloire du Père,<br> –&nbsp;change en joie la peine des hommes.</p> <p>Tu nous appelles au festin du Royaume,<br> –&nbsp;sois le pain qui nous ressuscitera au dernier jour.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>Je meurs pour tous, dit le Seigneur, afin de communiquer ma vie à tous, et j’ai fait de ma chair une rançon pour la chair de tous. Car la mort sera mise à mort dans ma mort, et la nature humaine qui était tombée ressuscitera avec moi. Pour cela je suis devenu l’un d’entre vous, c’est-à-dire un homme de la descendance d’Abraham, pour <i>me rendre semblable en tout à mes frères</i>. Saint Paul avait très bien compris cela, lorsqu’il disait&nbsp;: <i>Puisque les enfants ont tous une nature de chair et de sang, Jésus a voulu partager cette condition humaine&nbsp;; ainsi, par sa mort, il a pu réduire à l’impuissance celui qui possédait le pouvoir de la mort, c’est-à-dire le démon</i>. En effet, ni celui qui possédait le pouvoir de la mort, ni la mort elle-même, ne pouvaient être vaincus autrement. Il fallait que le Christ se donne pour nous, un seul en rançon pour tous car il était au-dessus de tous. C’est pourquoi il est dit dans les psaumes qu’il s’est offert pour nous à Dieu son Père comme une victime sans tache&nbsp;: <i>Tu ne voulais ni offrande ni sacrifice, mais tu m’as formé un corps. Tu ne demandais pas d’holocauste pour le péché. Alors j’ai dit&nbsp;: Voici, je viens.</i> ~ Il a été crucifié pour tous et au profit de tous, afin que, lui seul étant mort pour tous, nous vivions tous en lui. Car il n’était pas possible que <i>la mort le retienne en son pouvoir</i>, ou que la corruption triomphe de sa vie, comme cela aurait été naturel. Et que le Christ ait offert sa chair pour la vie du monde, apprenons-le par ses propres paroles. <i>Père saint</i>, dit-il, <i>garde-les</i>. Et encore&nbsp;: <i>Pour eux je me consacre moi-même</i>. ~ J<i>e me consacre</i>, dit-il. Autrement dit&nbsp;: je m’offre comme une très pure victime <i>d’agréable odeur</i>. En effet, ce qui était consacré, ce qu’on appelait sacré ou saint, selon la loi, c’est ce qui était apporté sur l’autel. Le Christ a donc donné son propre corps pour la vie de tous, et en retour il implanté sa vie en nous. De quelle manière, je vais essayer de le dire. Lorsque ce Verbe de Dieu, qui donne la vie, eut habité dans la chair, il la rétablit dans le bien qu’il avait en propre, c’est-à-dire dans la vie&nbsp;; et puisqu’il lui était totalement uni d’une manière inexprimable, il la rendit vivifiante, comme lui-même est vivifiant par nature. C’est pourquoi le corps du Christ communique la vie à ceux qui lui sont unis. Il chasse la mort qui se trouve chez les mortels et il éloigne la corruption, car il contient en lui-même le Verbe qui anéantit la corruption.</p>",
       "responsory": "<p>Le Bon Pasteur s’est livré lui-même<br> pour que vous ayez la vie.<br> Laissez-vous conduire à sa voix<br> et suivez-le en chantant&nbsp;:</p> <p>R/ Tu es la porte du royaume, alléluia,<br> tu es la route vers le Père, alléluia&nbsp;!</p> <p>Le Seigneur a les yeux sur ses fidèles,<br> sur ceux qui espèrent son amour.</p> <p>Pour nous préserver de la mort,<br> nous garder en vie au temps de la famine.</p>"
     },
-    "oration": "Dieu qui renouvelles par le baptême ceux qui croient en toi, protège leur naissance dans le Christ&nbsp;; défends-les contre les assauts du mal pour qu’ils répondent fidèlement à ta grâce."
+    "oration": [
+      "Dieu qui renouvelles par le baptême ceux qui croient en toi, protège leur naissance dans le Christ&nbsp;; défends-les contre les assauts du mal pour qu’ils répondent fidèlement à ta grâce."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_16",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +107,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Reste avec nous, Seigneur, car le soir vient, et la journée est déjà avancée, alléluia.",
-    "intercession": "<p>Prions le Christ, notre vie et notre résurrection&nbsp;:</p> <p>R/ Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Nous te prions, Ô Christ, pour ta sainte Église catholique&nbsp;: <br> –&nbsp;sanctifie-la pour qu’elle annonce ton règne aux nations,</p> <p>Nous t’implorons pour ceux qui subissent la maladie, le deuil, la servitude&nbsp;:<br> –&nbsp;guéris-les, fortifie-les, délivre-les.</p> <p>Nous te prions pour ceux qui ne suivent plus tes chemins&nbsp;:<br> –&nbsp;qu’ils découvrent ton pardon et la joie d’une vie nouvelle.</p> <p>Pour nous, pécheurs, nous t’implorons&nbsp;:<br> –&nbsp;accorde-nous de trouver en toi, qui n’as commis nulle faute, un juge miséricordieux.</p> <p>Pour tout homme en ce monde, nous te prions,<br> et pour ceux qui nous ont précédés.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_16",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Reste avec nous, Seigneur, car le soir vient, et la journée est déjà avancée, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Prions le Christ, notre vie et notre résurrection&nbsp;:</p> <p>R/ Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Nous te prions, Ô Christ, pour ta sainte Église catholique&nbsp;: <br> –&nbsp;sanctifie-la pour qu’elle annonce ton règne aux nations,</p> <p>Nous t’implorons pour ceux qui subissent la maladie, le deuil, la servitude&nbsp;:<br> –&nbsp;guéris-les, fortifie-les, délivre-les.</p> <p>Nous te prions pour ceux qui ne suivent plus tes chemins&nbsp;:<br> –&nbsp;qu’ils découvrent ton pardon et la joie d’une vie nouvelle.</p> <p>Pour nous, pécheurs, nous t’implorons&nbsp;:<br> –&nbsp;accorde-nous de trouver en toi, qui n’as commis nulle faute, un juge miséricordieux.</p> <p>Pour tout homme en ce monde, nous te prions,<br> et pour ceux qui nous ont précédés.</p> "
+    }
   }
 }

@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "un-jour-nouveau-commence"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_41",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Jr 15, 16",
+      "biblicalReference": "Jr 15, 16",
       "content": "Quand je rencontrais tes paroles, Seigneur, je les dévorais&nbsp;; elles faisaient ma joie, les délices de mon cœur, parce que ton nom a été invoqué sur moi, Seigneur, Dieu de l’univers."
     },
-    "hymn": [
-      "un-jour-nouveau-commence"
-    ],
-    "evangelicAntiphon": "Rassemble le peuple qui porte ton nom, Seigneur&nbsp;; remplis-le de ta louange&nbsp;!",
-    "intercession": "<p>Supplions Dieu qui a créé l’homme à son image et lui a confié l’univers&nbsp;:</p> <p>R/ Que notre vie te rende gloire&nbsp;!</p> <p>Tu nous as donné ton souffle vivant,</p> <p>Tu nous as donné de nommer toute chose,</p> <p>Tu nous as donné un monde à transformer,</p> <p>Tu nous as donné des frères à aimer,</p> ",
     "responsory": "<p>R/ Proche est ta parole, Seigneur,<br>  * Proche est ton amour&nbsp;!<br> V/ Aujourd’hui tu nous parles. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui nous as fait parvenir au début de ce jour, sauve-nous aujourd’hui par ta puissance&nbsp;: que nos cœurs ne s’abandonnent pas au péché mais que, par nos pensées, nos paroles et nos actes, nous cherchions la justice du Royaume."
+    "evangelicAntiphon": {
+      "common": "Rassemble le peuple qui porte ton nom, Seigneur&nbsp;; remplis-le de ta louange&nbsp;!",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Supplions Dieu qui a créé l’homme à son image et lui a confié l’univers&nbsp;:</p> <p>R/ Que notre vie te rende gloire&nbsp;!</p> <p>Tu nous as donné ton souffle vivant,</p> <p>Tu nous as donné de nommer toute chose,</p> <p>Tu nous as donné un monde à transformer,</p> <p>Tu nous as donné des frères à aimer,</p> "
+    },
+    "oration": [
+      "Dieu qui nous as fait parvenir au début de ce jour, sauve-nous aujourd’hui par ta puissance&nbsp;: que nos cœurs ne s’abandonnent pas au péché mais que, par nos pensées, nos paroles et nos actes, nous cherchions la justice du Royaume."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,37 +83,9 @@
       "responsory": "<p>R/ Vivons dans la charité<br> au service les uns des autres&nbsp;!</p> <p>Toute la loi s’accomplit<br> en cette parole unique&nbsp;:<br> Tu aimeras ton prochain comme toi-même.</p> <p>Je vous donne un commandement nouveau&nbsp;:<br> Aimez-vous les uns les autres,<br> comme je vous ai aimés.</p>"
     },
     "verse": "<p>V/ Guide-moi au chemin de tes ordres.<br> C’est toi, mon Dieu.</p>",
-    "oration": "Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_44_1",
-        "antiphon": [
-          "Tu es le plus beau des enfants de l’homme&nbsp;: Dieu te bénit pour toujours."
-        ]
-      },
-      {
-        "psalm": "PSALM_44_2",
-        "antiphon": [
-          "Voici l’Époux qui vient&nbsp;! Allez à la rencontre du Christ&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "NT_4"
-      }
-    ],
-    "reading": {
-      "ref": "1 Th 2, 13",
-      "content": "Voici pourquoi nous ne cessons de rendre grâce à Dieu. Quand vous avez reçu de notre bouche la parole de Dieu, vous l’avez accueillie pour ce qu’elle est réellement&nbsp;: non pas une parole d’hommes, mais la parole de Dieu qui est à l’œuvre en vous, les croyants."
-    },
-    "hymn": [
-      "frappe-a-ma-porte"
-    ],
-    "evangelicAntiphon": "Que les peuples te chantent, Seigneur, à jamais.",
-    "intercession": "<p>Supplions le Christ, qui appelle tous les hommes à la joie du salut&nbsp;:</p> <p>R/ Sauveur du monde, attire à toi les hommes.</p> <p>Seigneur, ta puissance est bonté&nbsp;;<br> —&nbsp;nous sommes faibles&nbsp;: viens à notre secours.</p> <p>Regarde ton Église dispersée dans le monde&nbsp;:<br> —&nbsp;qu’elle porte l’Évangile jusqu’aux terres lointaines.</p> <p>Tu n’es pas loin de chacun de nous&nbsp;;<br> —&nbsp;laisse-toi toucher par ceux qui t’approchent dans l’obscurité.</p> <p>Tu as guéri l’aveugle de naissance&nbsp;;<br> —&nbsp;prends pitié de nos infirmités.</p> <p>Accueille nos frères défunts dans la Cité sainte<br> —&nbsp;où Dieu sera tout en tous.</p> ",
-    "responsory": "<p>R/ Au commencement était la Parole&nbsp;:<br>  *  la Parole est venue dans le monde.<br> V/ Lumière qui éclaire tout homme,  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "À l’heure du sacrifice du soir, nous nous présentons devant toi, Seigneur, comme des serviteurs inutiles, mais recueille sur nos lèvres l’action de grâce pour tous les biens reçus de toi."
+    "oration": [
+      "Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -128,8 +109,43 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
-  "sundayEvangelicAntiphonC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là.",
-  "sundayEvangelicAntiphonB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
-  "readingHymn": "esprit-de-dieu-tres-pur-amour"
+  "vespers": {
+    "hymn": [
+      "frappe-a-ma-porte"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_44_1",
+        "antiphon": [
+          "Tu es le plus beau des enfants de l’homme&nbsp;: Dieu te bénit pour toujours."
+        ]
+      },
+      {
+        "psalm": "PSALM_44_2",
+        "antiphon": [
+          "Voici l’Époux qui vient&nbsp;! Allez à la rencontre du Christ&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "NT_4"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 Th 2, 13",
+      "content": "Voici pourquoi nous ne cessons de rendre grâce à Dieu. Quand vous avez reçu de notre bouche la parole de Dieu, vous l’avez accueillie pour ce qu’elle est réellement&nbsp;: non pas une parole d’hommes, mais la parole de Dieu qui est à l’œuvre en vous, les croyants."
+    },
+    "responsory": "<p>R/ Au commencement était la Parole&nbsp;:<br>  *  la Parole est venue dans le monde.<br> V/ Lumière qui éclaire tout homme,  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Que les peuples te chantent, Seigneur, à jamais.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Christ, qui appelle tous les hommes à la joie du salut&nbsp;:</p> <p>R/ Sauveur du monde, attire à toi les hommes.</p> <p>Seigneur, ta puissance est bonté&nbsp;;<br> —&nbsp;nous sommes faibles&nbsp;: viens à notre secours.</p> <p>Regarde ton Église dispersée dans le monde&nbsp;:<br> —&nbsp;qu’elle porte l’Évangile jusqu’aux terres lointaines.</p> <p>Tu n’es pas loin de chacun de nous&nbsp;;<br> —&nbsp;laisse-toi toucher par ceux qui t’approchent dans l’obscurité.</p> <p>Tu as guéri l’aveugle de naissance&nbsp;;<br> —&nbsp;prends pitié de nos infirmités.</p> <p>Accueille nos frères défunts dans la Cité sainte<br> —&nbsp;où Dieu sera tout en tous.</p> "
+    },
+    "oration": [
+      "À l’heure du sacrifice du soir, nous nous présentons devant toi, Seigneur, comme des serviteurs inutiles, mais recueille sur nos lèvres l’action de grâce pour tous les biens reçus de toi."
+    ]
+  }
 }

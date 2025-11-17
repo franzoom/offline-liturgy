@@ -1,9 +1,9 @@
 {
-  "firstVespers": {
-    "evanglicAntiphon": "Heureux qui pense au pauvre et vient en aide à ses frères."
-  },
+  "firstVespers": {},
   "morning": {
-    "evangelicAntiphon": "À l’amour que vous aurez les uns pour les autres, on reconnaîtra que vous êtes mes disciples."
+    "evangelicAntiphon": {
+      "common": "À l’amour que vous aurez les uns pour les autres, on reconnaîtra que vous êtes mes disciples."
+    }
   },
   "readings": {
     "biblicalReading2": {
@@ -20,8 +20,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Venez les bénis de mon Père : ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait."
+    "evangelicAntiphon": {
+      "common": "Venez les bénis de mon Père : ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait."
+    }
   },
-  "commonTitle": "Commun des Saints ayant exercé une activité caritative",
-  "oration": "Tu as voulu, Seigneur, que ton peuple observe tous tes commandements en t’aimant et en aimant son prochain ; accorde-nous de toujours agir avec charité, à l’exemple de saint N., pour être comptés parmis les bénis de ton Royaume."
+  "oration": [
+    "Tu as voulu, Seigneur, que ton peuple observe tous tes commandements en t’aimant et en aimant son prochain ; accorde-nous de toujours agir avec charité, à l’exemple de saint N., pour être comptés parmis les bénis de ton Royaume."
+  ]
 }

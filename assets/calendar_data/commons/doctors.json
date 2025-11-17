@@ -1,24 +1,31 @@
 {
+  "celebration": {
+    "color": "white"
+  },
+  "firstVespers": {
+    "reading": {
+      "biblicalReference": "Jc 3,17-18",
+      "content": "La sagesse qui vient de Dieu est d’abord droiture, et par suite elle est paix, tolérance, compréhension ; elle est pleine de miséricorde et féconde en bienfaits, sans partialité et sans hypocrisie. C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix."
+    },
+    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles, *<br> Gloire au Père. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Qui observe le plus petit de mes commandements sera grand dans le Royaume des cieux."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez à la source de la sagesse, venez, adorons le Seigneur&nbsp;!"
     ]
   },
-  "firstVespers": {
-    "reading": {
-      "ref": "Jc 3,17-18",
-      "content": "La sagesse qui vient de Dieu est d’abord droiture, et par suite elle est paix, tolérance, compréhension ; elle est pleine de miséricorde et féconde en bienfaits, sans partialité et sans hypocrisie. C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix."
-    },
-    "evangelicAntiphon": "Qui observe le plus petit de mes commandements sera grand dans le Royaume des cieux.",
-    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles, *<br> Gloire au Père. R/ <br>"
-  },
   "morning": {
     "reading": {
-      "ref": "Sg 7, 13-14",
+      "biblicalReference": "Sg 7, 13-14",
       "content": "Ce que j’ai appris avec simplicité, j’en fais part sans réserve, je ne tairai pas sa richesse. Car la sagesse est pour les hommes un trésor inépuisable. Ceux qui l’ont exploité se sont concilié l’amitié de Dieu. Nous sommes dans sa main : nous-mêmes, nos paroles, toute notre intelligence et notre savoir faire."
     },
-    "evangelicAntiphon": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.",
-    "responsory": "R/ L’Esprit de vérité nous guidera<br> vers la vérité tout entière.<br> V/ Ouvrière de toutes choses,<br> la sagesse m’a instruit. R/ <br> V/ Elle se laisse trouver<br> par ceux qui la cherchent. R/ <br>"
+    "responsory": "R/ L’Esprit de vérité nous guidera<br> vers la vérité tout entière.<br> V/ Ouvrière de toutes choses,<br> la sagesse m’a instruit. R/ <br> V/ Elle se laisse trouver<br> par ceux qui la cherchent. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -42,12 +49,12 @@
   },
   "vespers": {
     "reading": {
-      "ref": "Jc 3, 17-18",
+      "biblicalReference": "Jc 3, 17-18",
       "content": "La sagesse qui vient de Dieu est d’abord droiture, et par suite elle est paix, tolérance, compréhension ; elle est pleine de miséricorde et féconde en bienfaits, sans partialité et sans hypocrisie. C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix."
     },
-    "evangelicAntiphon": "Ô bienheureux N., maître de sagesse et lumière de l’Église, toi qui a cherché les volontés de Dieu, intercède pour nous auprès de lui.",
-    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles,<br> * en récompense de leurs peines.<br> Gloire au Père. R/ La sagesse.<br>"
-  },
-  "commonTitle": "Commun des Docteurs",
-  "liturgicalColor": "white"
+    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles,<br> * en récompense de leurs peines.<br> Gloire au Père. R/ La sagesse.<br>",
+    "evangelicAntiphon": {
+      "common": "Ô bienheureux N., maître de sagesse et lumière de l’Église, toi qui a cherché les volontés de Dieu, intercède pour nous auprès de lui."
+    }
+  }
 }

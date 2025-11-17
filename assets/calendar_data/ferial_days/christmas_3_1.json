@@ -30,6 +30,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_12"
+      },
+      {
+        "psalm": "PSALM_70_1"
+      },
+      {
+        "psalm": "PSALM_70_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -42,19 +55,8 @@
         "psalm": "NT_4"
       }
     ],
-    "oration": "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine&nbsp;: nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_12"
-      },
-      {
-        "psalm": "PSALM_70_1"
-      },
-      {
-        "psalm": "PSALM_70_2"
-      }
+    "oration": [
+      "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine&nbsp;: nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
     ]
   }
 }

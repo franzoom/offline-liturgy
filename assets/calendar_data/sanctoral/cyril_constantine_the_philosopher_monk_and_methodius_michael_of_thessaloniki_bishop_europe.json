@@ -1,6 +1,17 @@
 {
+  "celebration": {
+    "title": "S. Cyrille, moine et S. Méthode, évêque",
+    "description": "Les deux frères Constantin et Méthode furent envoyés en Moravie par le patriarche de Constantinople pour y annoncer le Christ. En 868, ils allèrent à Rome faire le point de leurs travaux avec le pape. Constantin y mourut sous le nom monastique de Cyrille (869). Quant à Méthode, ordonné archevêque de Sirmium, il repartit évangéliser les Slaves († 885). Ils ont été déclarés patrons de l'Europe par le pape saint Jean-Paul II le 31 décembre 1980.",
+    "commons": [
+      "pastors_multiple"
+    ],
+    "grade": 4,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Ils ont servi le Seigneur toute leur vie, dans la justice et la sainteté."
+    "evangelicAntiphon": {
+      "common": "Ils ont servi le Seigneur toute leur vie, dans la justice et la sainteté."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -11,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Dieu les appelle ses amis, car ils ont témoigné pour sa vérité."
+    "evangelicAntiphon": {
+      "common": "Dieu les appelle ses amis, car ils ont témoigné pour sa vérité."
+    }
   },
-  "celebrationTitle": "S. Cyrille, moine et S. Méthode, évêque",
-  "celebrationSubTitle": "patrons de l'Europe",
-  "celebrationDescription": "Les deux frères Constantin et Méthode furent envoyés en Moravie par le patriarche de Constantinople pour y annoncer le Christ. En 868, ils allèrent à Rome faire le point de leurs travaux avec le pape. Constantin y mourut sous le nom monastique de Cyrille (869). Quant à Méthode, ordonné archevêque de Sirmium, il repartit évangéliser les Slaves († 885). Ils ont été déclarés patrons de l'Europe par le pape saint Jean-Paul II le 31 décembre 1980.",
-  "liturgicalGrade": 4,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors_multiple"
-  ],
-  "oration": "Dieu qui as conduit les peuples slaves à la lumière, grâce aux deux frères saints Cyrille et Méthode, ouvre nos cœurs à l’intelligence de ta Parole : fais de nous un peuple de croyants, et que notre unité rende témoignage à l’Évangile."
+  "oration": [
+    "Dieu qui as conduit les peuples slaves à la lumière, grâce aux deux frères saints Cyrille et Méthode, ouvre nos cœurs à l’intelligence de ta Parole : fais de nous un peuple de croyants, et que notre unité rende témoignage à l’Évangile."
+  ]
 }

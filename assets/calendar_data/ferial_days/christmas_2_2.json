@@ -26,12 +26,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 4, 2-3",
+      "biblicalReference": "Is 4, 2-3",
       "content": "En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terre sera leur fierté et leur couronne. Alors, ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints&nbsp;: tous seront inscrits dans Jérusalem, et ils vivront."
     },
-    "evangelicAntiphon": "Au Seigneur, le Fils de Dieu et le grand Roi, les mages offrirent ces trois présents&nbsp;: l’or, l’encens et la myrrhe, alléluia.",
-    "intercession": "<p>Bénissons le Christ venu libérer sa créature<br> et supplions-le&nbsp;:</p> <p>R/ Jésus, notre Sauveur et notre frère, exauce-nous.</p> <p>Toi, la vie éternelle auprès du Père, tu es entré dans notre vie mortelle&nbsp;:<br> —&nbsp;recrée-nous par le mystère de ta naissance.</p> <p>Sans perdre ta divinité, tu as revêtu notre humanité&nbsp;:<br> —&nbsp;donne-nous de communier à la vie divine.</p> <p>Tu es venu illuminer le monde et le guider vers la sainteté&nbsp;:<br> —&nbsp;que ta parole soit la clarté de nos pas.</p> <p>Tu as pris chair de la Vierge Marie pour habiter chez les hommes&nbsp;:<br> —&nbsp;fais de nos cœurs ta demeure à jamais.</p> ",
-    "responsory": "<p>R/ Lève-toi, resplendis, car elle est venue, ta lumière&nbsp;!<br>  * La gloire du Seigneur s’est levée sur toi.<br> V/ Regarde alentour&nbsp;: tous les peuples viennent vers toi. * <br> V/ Ils s’avancent à la clarté de ton aurore. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Lève-toi, resplendis, car elle est venue, ta lumière&nbsp;!<br>  * La gloire du Seigneur s’est levée sur toi.<br> V/ Regarde alentour&nbsp;: tous les peuples viennent vers toi. * <br> V/ Ils s’avancent à la clarté de ton aurore. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Au Seigneur, le Fils de Dieu et le grand Roi, les mages offrirent ces trois présents&nbsp;: l’or, l’encens et la myrrhe, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Christ venu libérer sa créature<br> et supplions-le&nbsp;:</p> <p>R/ Jésus, notre Sauveur et notre frère, exauce-nous.</p> <p>Toi, la vie éternelle auprès du Père, tu es entré dans notre vie mortelle&nbsp;:<br> —&nbsp;recrée-nous par le mystère de ta naissance.</p> <p>Sans perdre ta divinité, tu as revêtu notre humanité&nbsp;:<br> —&nbsp;donne-nous de communier à la vie divine.</p> <p>Tu es venu illuminer le monde et le guider vers la sainteté&nbsp;:<br> —&nbsp;que ta parole soit la clarté de nos pas.</p> <p>Tu as pris chair de la Vierge Marie pour habiter chez les hommes&nbsp;:<br> —&nbsp;fais de nos cœurs ta demeure à jamais.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,7 +71,25 @@
       "responsory": "<p>R/ Un seul Seigneur, une seule foi,<br> un seul baptême, un seul Dieu et Père.</p> <p>Appelés à garder l’unité de l’Esprit<br> par le lien de la paix,<br> nous chantons et nous proclamons&nbsp;:</p> <p>Appelés à former un seul Corps<br> dans un seul Esprit,<br> nous chantons et nous proclamons&nbsp;:</p> <p>Appelés à partager une seul espérance<br> dans le Christ,<br> nous chantons et nous proclamons.</p>"
     },
     "verse": "<p>V/ Glorifie le Seigneur, Jérusalem,<br> il envoie sa Parole sur terre.</p>",
-    "oration": "Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu&nbsp;; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne."
+    "oration": [
+      "Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu&nbsp;; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_7",
+        "antiphon": [
+          "Oh si tu déchirais les cieux et si tu descendais&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_52"
+      },
+      {
+        "psalm": "PSALM_53"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -91,27 +113,15 @@
       }
     ],
     "reading": {
-      "ref": "Ep 2, 3b-5",
+      "biblicalReference": "Ep 2, 3b-5",
       "content": "Nous étions, de nous-mêmes, voués à la colère comme tous les autres. Mais Dieu est riche en miséricorde&nbsp;; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ&nbsp;: c’est bien par grâce que vous êtes sauvés."
     },
-    "evangelicAntiphon": "Tu parais, Jésus, lumière née de la lumière, et les mages t’apportent leurs présents, alléluia.",
-    "intercession": "<p>Unis à tous les chrétiens dans une même louange, invoquons Dieu notre Père&nbsp;:</p> <p>R/ Père très saint, écoute tes enfants.</p> <p>Pour les hommes à qui tu donnes la vie, le mouvement et l’être, nous te supplions&nbsp;:<br> —&nbsp;que chacun te découvre proche de lui.</p> <p>Pour ceux qui cherchent ton visage, Dieu caché dans les beautés de la création, nous implorons ton secours&nbsp;:<br> —&nbsp;conduis-les vers la lumière du Christ.</p> <p>Pour ceux qui te reconnaissent comme le Dieu unique et véritable, nous implorons ta bonté&nbsp;:<br> —&nbsp;manifeste-leur ton amour.</p> <p>Pour nous qui te confessons Père de Jésus, notre Seigneur, nous implorons ta fidélité&nbsp;:<br> —&nbsp;garde-nous dans la joie d’être tes fils.</p> <p>Pour nos frères défunts, qui ont cru en toi sur la terre, nous implorons ta pitié&nbsp;:<br> —&nbsp;donne-leur de contempler ta gloire.</p> ",
-    "responsory": "<p>R/ Dieu est amour, Dieu est lumière&nbsp;!<br> V/ Tu es, Seigneur, notre Père, notre Rédempteur.&nbsp;R/ <br> V/ Tu as envoyé ton Fils<br> pour que le monde soit sauvé.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_7",
-        "antiphon": [
-          "Oh si tu déchirais les cieux et si tu descendais&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_52"
-      },
-      {
-        "psalm": "PSALM_53"
-      }
-    ]
+    "responsory": "<p>R/ Dieu est amour, Dieu est lumière&nbsp;!<br> V/ Tu es, Seigneur, notre Père, notre Rédempteur.&nbsp;R/ <br> V/ Tu as envoyé ton Fils<br> pour que le monde soit sauvé.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Tu parais, Jésus, lumière née de la lumière, et les mages t’apportent leurs présents, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Unis à tous les chrétiens dans une même louange, invoquons Dieu notre Père&nbsp;:</p> <p>R/ Père très saint, écoute tes enfants.</p> <p>Pour les hommes à qui tu donnes la vie, le mouvement et l’être, nous te supplions&nbsp;:<br> —&nbsp;que chacun te découvre proche de lui.</p> <p>Pour ceux qui cherchent ton visage, Dieu caché dans les beautés de la création, nous implorons ton secours&nbsp;:<br> —&nbsp;conduis-les vers la lumière du Christ.</p> <p>Pour ceux qui te reconnaissent comme le Dieu unique et véritable, nous implorons ta bonté&nbsp;:<br> —&nbsp;manifeste-leur ton amour.</p> <p>Pour nous qui te confessons Père de Jésus, notre Seigneur, nous implorons ta fidélité&nbsp;:<br> —&nbsp;garde-nous dans la joie d’être tes fils.</p> <p>Pour nos frères défunts, qui ont cru en toi sur la terre, nous implorons ta pitié&nbsp;:<br> —&nbsp;donne-leur de contempler ta gloire.</p> "
+    }
   }
 }

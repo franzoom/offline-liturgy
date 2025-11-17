@@ -1,4 +1,14 @@
 {
+  "celebration": {
+    "title": "Sainte Marguerite Bourgeoys",
+    "subtitle": "vierge",
+    "description": "Marguerite Bourgeoys (1620-1700), née à Troyes, avait vingt‑trois ans quand elle arriva à Montréal comme institutrice. Après des débuts difficiles, elle put fonder une petite communauté, appelée à devenir la Congrégation des Sœurs de Notre‑Dame (1698). Une intrigante lui suscita de vives oppositions, qu’elle supporta avec abnégation.",
+    "commons": [
+      "virgins"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "Testament spirituel de Marguerite Bourgeoys",
@@ -6,13 +16,7 @@
       "responsory": "<p>R/ Ta parole, Seigneur, est lumière dans la nuit.</p><p>Vers qui pouvons-nous aller, Seigneur&nbsp;?<br>Toi seul nous conduis au Royaume.</p><p>Heureux qui suit jusqu’au bout<br>le chemin que tu lui traces.</p><p>Heureux qui médite en son cœur<br>les voies mystérieuses de l’amour.</p>"
     }
   },
-  "celebrationTitle": "Sainte Marguerite Bourgeoys",
-  "celebrationSubtitle": "vierge",
-  "celebrationDescription": "Marguerite Bourgeoys (1620-1700), née à Troyes, avait vingt‑trois ans quand elle arriva à Montréal comme institutrice. Après des débuts difficiles, elle put fonder une petite communauté, appelée à devenir la Congrégation des Sœurs de Notre‑Dame (1698). Une intrigante lui suscita de vives oppositions, qu’elle supporta avec abnégation.",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "white",
-  "commons": [
-    "virgins"
-  ],
-  "oration": "Seigneur Dieu, tu as appelé sainte Marguerite Bourgeoys à quitter son pays, au nom de sa foi, pour former la jeunesse à la vie chrétienne ; fais qu’à son exemple et à sa prière, nous puissions, par nos paroles et notre conduite, proclamer, sur toutes les routes qui mènent à toi, la présence et l’amour du Verbe incarné."
+  "oration": [
+    "Seigneur Dieu, tu as appelé sainte Marguerite Bourgeoys à quitter son pays, au nom de sa foi, pour former la jeunesse à la vie chrétienne ; fais qu’à son exemple et à sa prière, nous puissions, par nos paroles et notre conduite, proclamer, sur toutes les routes qui mènent à toi, la présence et l’amour du Verbe incarné."
+  ]
 }

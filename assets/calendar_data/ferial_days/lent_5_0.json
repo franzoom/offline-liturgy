@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Lv 23, 4-7",
+      "biblicalReference": "Lv 23, 4-7",
       "content": "Voici les solennités du Seigneur, les assemblées saintes auxquelles vous convoquerez, aux dates fixées, les fils d’Israël. Le quatorzième jour du premier mois, au coucher du soleil, ce sera la Pâque du Seigneur. Le quinzième jour de ce même mois, ce sera la fête des pains sans levain en l’honneur du Seigneur&nbsp;: pendant sept jours vous mangerez des pains sans levain. Le premier jour, vous tiendrez une assemblée sainte et vous ne ferez aucun travail d’esclave."
     },
-    "evangelicAntiphon": "Notre ami Lazare s’est endormi&nbsp;: j’irai et le réveillerai.",
-    "intercession": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> ",
     "responsory": "<p>R/ Voici qu’approchent les jours<br> où le Fils de l’homme va être livré,<br>  * Mais le troisième jour, il ressuscitera.<br> V/ En ces jours-là vous jeûnerez et vous pleurerez. * <br> V/ Les jours viendront où l’Époux sera enlevé. * <br></p>",
-    "oration": "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Notre ami Lazare s’est endormi&nbsp;: j’irai et le réveillerai."
+    },
+    "intercession": {
+      "content": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> "
+    },
+    "oration": [
+      "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -63,7 +69,28 @@
       "responsory": "<p>R/ Voici l’Agneau de Dieu<br> qui enlève le péché du monde.</p> <p>Jésus a enduré la croix<br> et renoncé à la joie qui lui revenait.</p> <p>Il s’est abaissé jusqu’à la mort,<br> et la mort de la croix.</p>"
     },
     "verse": "<p>V/ Celui qui garde ma parole<br> ne verra jamais la mort.</p>",
-    "oration": "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    "oration": [
+      "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1",
+        "antiphon": [
+          "Ma force et mon chant, c’est le Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ],
+    "oration": [
+      "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -87,29 +114,18 @@
       }
     ],
     "reading": {
-      "ref": "Ac 13, 26b-30",
+      "biblicalReference": "Ac 13, 26b-30",
       "content": "Frères, c’est à nous tous que ce message de salut a été envoyé. En effet, les habitants de Jérusalem et leurs chefs n’avaient pas su reconnaître Jésus, ni comprendre les paroles des prophètes qu’on lit chaque sabbat&nbsp;; et pourtant ils ont accompli ces mêmes paroles quand ils l’ont jugé. Sans avoir trouvé en lui aucun motif de condamnation à mort, ils ont réclamé à Pilate son exécution. Et, après avoir réalisé tout ce qui était écrit de lui, ils l’ont descendu de la croix et mis au tombeau. Mais Dieu l’a ressuscité d’entre les morts."
     },
-    "evangelicAntiphon": "Quand je serai élevé de terre, j’attirerai à moi tous les hommes.",
-    "intercession": "<p>Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui t’a fait confiance quand il était enfant,<br> afin qu’il n’ensevelisse pas cette confiance dans son passé,</p> <p>Pour l’homme que l’esprit du monde a pris,<br> afin qu’il puisse encore se retourner vers toi,</p> <p>Pour l’homme qui n’a pas retenu que tu viendrais de nuit,<br> afin qu’il veille en lui-même et t’attende,</p> <p>Pour l’homme enfermé dans le tombeau,<br> afin qu’il se lève à ton appel,</p> ",
     "responsory": "<p>R/ Nous t’adorons, ô Christ,<br> nous te bénissons.<br> V/ Tu as racheté le monde par ta croix.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117_1",
-        "antiphon": [
-          "Ma force et mon chant, c’est le Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_117_2"
-      },
-      {
-        "psalm": "PSALM_117_3"
-      }
-    ],
-    "oration": "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Quand je serai élevé de terre, j’attirerai à moi tous les hommes."
+    },
+    "intercession": {
+      "content": "<p>Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui t’a fait confiance quand il était enfant,<br> afin qu’il n’ensevelisse pas cette confiance dans son passé,</p> <p>Pour l’homme que l’esprit du monde a pris,<br> afin qu’il puisse encore se retourner vers toi,</p> <p>Pour l’homme qui n’a pas retenu que tu viendrais de nuit,<br> afin qu’il veille en lui-même et t’attende,</p> <p>Pour l’homme enfermé dans le tombeau,<br> afin qu’il se lève à ton appel,</p> "
+    },
+    "oration": [
+      "Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne."
+    ]
   }
 }

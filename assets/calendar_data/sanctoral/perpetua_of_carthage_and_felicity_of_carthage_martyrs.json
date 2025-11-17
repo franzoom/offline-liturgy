@@ -1,6 +1,17 @@
 {
+  "celebration": {
+    "title": "Saintes Perpétue et Félicité",
+    "description": "Perpétue n’était que catéchumène quand elle fut arrêtée. Âgée de vingt‑deux ans, elle était mère d’un tout jeune enfant. Félicité était enceinte et elle accoucha d’une fille dans la prison. Mais ni l’une ni l’autre ne faiblit lorsque, le 7 mars 303, elles pénétrèrent dans l’amphithéâtre de Carthage. C’est la main dans la main qu’elles s’avancèrent vers la vache furieuse qui devait les immoler.",
+    "commons": [
+      "martyrs-female"
+    ],
+    "grade": 10,
+    "color": "red"
+  },
   "morning": {
-    "evangelicAntiphon": "Heureux ceux qui sont persécutés pour la justice&nbsp;: le Royaume des cieux est à eux."
+    "evangelicAntiphon": {
+      "common": "Heureux ceux qui sont persécutés pour la justice&nbsp;: le Royaume des cieux est à eux."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +21,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Joie pour les saints qui ont suivit le Christ&nbsp;: ils ont versé leur sang pour lui, avec lui ils règnent à jamais."
+    "evangelicAntiphon": {
+      "common": "Joie pour les saints qui ont suivit le Christ&nbsp;: ils ont versé leur sang pour lui, avec lui ils règnent à jamais."
+    }
   },
-  "celebrationTitle": "Saintes Perpétue et Félicité",
-  "celebrationSubTitle": "(Fête en Afrique du Nord)",
-  "celebrationDescription": "Perpétue n’était que catéchumène quand elle fut arrêtée. Âgée de vingt‑deux ans, elle était mère d’un tout jeune enfant. Félicité était enceinte et elle accoucha d’une fille dans la prison. Mais ni l’une ni l’autre ne faiblit lorsque, le 7 mars 303, elles pénétrèrent dans l’amphithéâtre de Carthage. C’est la main dans la main qu’elles s’avancèrent vers la vache furieuse qui devait les immoler.",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "red",
-  "commons": [
-    "martyrs-female"
-  ],
-  "oration": "Dans leur amour pour toi, Seigneur, tes martyres Perpétue et Félicité ont trouvé la force de résister à leurs persécuteurs et de sur monter les tourments de la mort&nbsp;; donne-nous, à leur prière la grâce de t’aimer toujours davantage."
+  "oration": [
+    "Dans leur amour pour toi, Seigneur, tes martyres Perpétue et Félicité ont trouvé la force de résister à leurs persécuteurs et de sur monter les tourments de la mort&nbsp;; donne-nous, à leur prière la grâce de t’aimer toujours davantage."
+  ]
 }

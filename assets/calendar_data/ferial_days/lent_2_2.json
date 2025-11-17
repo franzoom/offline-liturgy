@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jl 2, 12-13",
+      "biblicalReference": "Jl 2, 12-13",
       "content": "Revenez à moi de tout votre cœur, dans le jeûne, les larmes et le deuil&nbsp;! Déchirez vos cœurs et non pas vos vêtements, et revenez au Seigneur votre Dieu, car il est tendre et miséricordieux, lent à la colère et plein d’amour, renonçant au châtiment."
     },
-    "evangelicAntiphon": "Un seul est votre maître, celui qui est aux cieux&nbsp;: le Christ, le Seigneur.",
-    "intercession": "<p>R/ Entends le cri des hommes monter vers toi, Seigneur.</p> <p>Écoute ceux qui souffrent dans leur corps ou leur esprit, ceux qui ont perdu toute espérance.</p> <p>Soutiens ceux qui partagent la détresse de leurs frères et s’efforcent de servir.</p> <p>Regarde ceux qui luttent pour le respect des personnes et les droits du pauvre.</p> <p>Travaille avec les artisans de paix qui préparent la venue de ton Règne.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  * Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    "evangelicAntiphon": {
+      "common": "Un seul est votre maître, celui qui est aux cieux&nbsp;: le Christ, le Seigneur."
+    },
+    "intercession": {
+      "content": "<p>R/ Entends le cri des hommes monter vers toi, Seigneur.</p> <p>Écoute ceux qui souffrent dans leur corps ou leur esprit, ceux qui ont perdu toute espérance.</p> <p>Soutiens ceux qui partagent la détresse de leurs frères et s’efforcent de servir.</p> <p>Regarde ceux qui luttent pour le respect des personnes et les droits du pauvre.</p> <p>Travaille avec les artisans de paix qui préparent la venue de ton Règne.</p> "
+    },
+    "oration": [
+      "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>Ces hommes méprisés, Stance<br> ces femmes humiliées,<br> ces enfants que tout rejette,<br> ces meurtris, ces torturés,<br> tous ces visages bafoués&nbsp;:<br> Seigneur Jésus,<br> c’est toi qui me regardes.</p> <p>R/ Oserons-nous reconnaître<br> celui qui fut transpercé&nbsp;?</p> <p>Comme un surgeon,<br> il grandît devant nous,<br> comme une racine en terre aride.</p> <p>Il n’a ni beauté, ni éclat,<br> homme des douleurs,<br> rebut d’humanité.</p> <p>Mais ce sont nos souffrances qu’il porte,<br> nos misères dont il est accablé.</p> <p>Le châtiment qui nous rend la paix est sur lui,<br> et c’est grâce à ses plaies<br> que nous sommes guéris.</p>"
     },
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    "oration": [
+      "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_7",
+        "antiphon": [
+          "Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère."
+        ]
+      },
+      {
+        "psalm": "PSALM_52"
+      },
+      {
+        "psalm": "PSALM_53"
+      }
+    ],
+    "oration": [
+      "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 14. 17.18b",
+      "biblicalReference": "Jc 2, 14. 17.18b",
       "content": "Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il&nbsp;? Cet homme-là peut-il être sauvé par sa foi&nbsp;? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas&nbsp;; moi, c’est par mes actes que je te montrerai ma foi."
     },
-    "evangelicAntiphon": "Tous, vous êtes frères, et vous n’avez d’autre Père que votre Père des cieux.",
-    "intercession": "<p>Prions Dieu notre Père, qui nous exauce toujours en Jésus son Fils&nbsp;:</p> <p>R/ Seigneur, comble-nous de tes bienfaits.</p> <p>Rends-nous familiers de ta parole<br> pour qu’elle nous habite et nous garde.</p> <p>Ouvre notre cœur au mystère de l’Église&nbsp;:<br> qu’elle soit pour nous le signe de l’Alliance.</p> <p>Apprends-nous à recevoir de ta main toute épreuve et toute joie&nbsp;:<br> que nous sachions te rendre grâce.</p> <p>Accorde à ceux qui meurent<br> de passer de ce monde au Royaume dans la Pâque de ton Fils.</p> ",
     "responsory": "<p>R/ Éclaire-moi selon ta parole,<br>  *  Que j’observe tes volontés.<br> V/ Incline mon cœur vers tes exigences.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_7",
-        "antiphon": [
-          "Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère."
-        ]
-      },
-      {
-        "psalm": "PSALM_52"
-      },
-      {
-        "psalm": "PSALM_53"
-      }
-    ],
-    "oration": "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    "evangelicAntiphon": {
+      "common": "Tous, vous êtes frères, et vous n’avez d’autre Père que votre Père des cieux."
+    },
+    "intercession": {
+      "content": "<p>Prions Dieu notre Père, qui nous exauce toujours en Jésus son Fils&nbsp;:</p> <p>R/ Seigneur, comble-nous de tes bienfaits.</p> <p>Rends-nous familiers de ta parole<br> pour qu’elle nous habite et nous garde.</p> <p>Ouvre notre cœur au mystère de l’Église&nbsp;:<br> qu’elle soit pour nous le signe de l’Alliance.</p> <p>Apprends-nous à recevoir de ta main toute épreuve et toute joie&nbsp;:<br> que nous sachions te rendre grâce.</p> <p>Accorde à ceux qui meurent<br> de passer de ce monde au Royaume dans la Pâque de ton Fils.</p> "
+    },
+    "oration": [
+      "Avec une inlassable bonté, Seigneur, veille sur ton Église&nbsp;; et puisque sans toi l’homme s’égare, soutiens-le toujours pour qu’il se détourne du mal et se dirige vers le salut."
+    ]
   }
 }

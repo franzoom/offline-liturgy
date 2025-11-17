@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "23 décembre",
+    "grade": 9,
+    "color": "violet"
+  },
   "morning": {
     "reading": {
-      "ref": "Jr 30, 21.22",
+      "biblicalReference": "Jr 30, 21.22",
       "content": "La communauté d’Israël aura pour prince l’un des siens, un chef né au milieu d’elle. Je lui permettrai d’approcher et il aura accès auprès de moi. Vous serez mon peuple, et je serai votre Dieu. Parole du Seigneur."
     },
-    "evangelicAntiphon": "Maintenant, tout est accompli de ce que l’ange avait annoncé à la Vierge Marie&nbsp;!",
-    "intercession": "<p>Implorons le Père qui a envoyé son Fils pour sauver les hommes&nbsp;:</p> <p>R/Montre-nous, Seigneur, ta miséricorde&nbsp;!</p> <p>Père très bon, quand nous proclamons notre foi dans le Christ,<br> fais que notre vie s’accorde à nos paroles.</p> <p>Toi qui as envoyé ton Fils pour notre salut,<br> pacifie la terre et le pays que nous habitons.</p> <p>La venue de ton Christ est une grande joie pour les peuples&nbsp;;<br> guide-les, par lui, jusqu’à la plénitude du bonheur.</p> <p>Que ta grâce nous donne de vivre avec sagesse,<br> tendus vers la manifestations de la gloire du Christ.</p>",
-    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br> * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent&nbsp;: *<br> V/ Justice et paix s’embrassent&nbsp;: *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br> * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent&nbsp;: *<br> V/ Justice et paix s’embrassent&nbsp;: *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Maintenant, tout est accompli de ce que l’ange avait annoncé à la Vierge Marie&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Implorons le Père qui a envoyé son Fils pour sauver les hommes&nbsp;:</p> <p>R/Montre-nous, Seigneur, ta miséricorde&nbsp;!</p> <p>Père très bon, quand nous proclamons notre foi dans le Christ,<br> fais que notre vie s’accorde à nos paroles.</p> <p>Toi qui as envoyé ton Fils pour notre salut,<br> pacifie la terre et le pays que nous habitons.</p> <p>La venue de ton Christ est une grande joie pour les peuples&nbsp;;<br> guide-les, par lui, jusqu’à la plénitude du bonheur.</p> <p>Que ta grâce nous donne de vivre avec sagesse,<br> tendus vers la manifestations de la gloire du Christ.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -22,40 +31,43 @@
       "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;: Car le Seigneur vient.</p> Je vis un ciel nouveau, une nouvelle terre&nbsp;; plus de pleurs, plus de cris, plus de peine&nbsp;: Car le Seigneur vient.</p> Dieu aura sa demeure parmi nous, nous serons son peuple et lui, Dieu sera avec nous&nbsp;: Car le Seigneur vient.</p> Nous ne chercherons plus l’éclat du soleil, la gloire de Dieu nous illuminera&nbsp;: Car le Seigneur vient.</p> Que l’univers chante et crie de joie&nbsp;: Car le Seigneur vient.</p>"
     }
   },
-  "vespers": {
-    "reading": {
-      "ref": "2 P 3. 8b-9",
-      "content": "Pour le Seigneur, un seul jour est comme mille ans, et mille ans sont comme un seul jour. Le Seigneur n’est pas en retard pour tenir sa promesse, comme le pensent certaines personnes&nbsp;; c’est pour vous qu’il patiente&nbsp;: car il n’accepte pas d’en laisser quelques-uns se perdre&nbsp;; mais il veut que tous aient le temps de se convertir."
-    },
-    "evangelicAntiphon": "Ô Emmanuel, notre Législateur et notre Roi, espérance et salut des nations, viens, Seigneur, viens nous sauver&nbsp;!",
-    "intercession": "<p> Avec ferveur, prions Celui qui annonce aux pauvres la bonne nouvelle&nbsp;:</p> <p>R/Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Révèle-toi, Seigneur, à ceux qui ne t’ont pas reconnu&nbsp;:<br> que ton salut les illumine.</p> <p>Que ton nom soit porté aux extrémités de la terre,<br> afin que tous les hommes découvrent tes sentiers.</p> <p>Toi qui es déjà venu pour sauver le monde,<br> viens à nouveau, achève ton œuvre.</p> <p>Toi qui nous appelles à la liberté,<br> défais les liens qui nous entravent.</p> <p>Toi qui es né dans notre chair et viendra pour le jugement,<br> conduis les défunts à la récompense éternelle.</p>",
-    "responsory": "<p>R/ Notre âme attend le Seigneur.<br> * En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent. *<br> V/ Sa gloire habitera notre terre. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Jr 29, 11.13",
+        "biblicalReference": "Jr 29, 11.13",
         "content": "Moi, je sais les projets que j’ai formés à votre sujet - oracle du Seigneur -, projets de prospérité et non de malheur&nbsp;: je vais vous donner un avenir et une espérance. Vous me rechercherez et vous me trouverez&nbsp;: vous me chercherez du fond de vous-mêmes."
       },
       "responsory": "<p>V/ Les nations craindront le nom du Seigneur,&nbsp;<br> et tous les rois de la terre, sa gloire.</p>"
     },
     "sexte": {
       "reading": {
-        "ref": "Jr 30, 18a",
+        "biblicalReference": "Jr 30, 18a",
         "content": "Ainsi parle le Seigneur&nbsp;: Voici que je vais ramener de captivité les tentes de Jacob, je prendrai en pitié ses demeures."
       },
       "responsory": "<p>V/ Le Seigneur apparaîtra dans sa gloire&nbsp;:<br> le peuple nouveau chantera son Dieu.</p>"
     },
     "none": {
       "reading": {
-        "ref": "Ba 3, 5-6a",
+        "biblicalReference": "Ba 3, 5-6a",
         "content": "Pour vous qui craignez mon nom, le soleil de justice se lèvera, portant la guérison dans ses rayons, et vous sortirez en bondissant comme de jeunes bêtes à la pâture, dit le Seigneur, le Tout-Puissant."
       },
       "responsory": "<p><p>V/ Viens, Seigneur, ne tarde pas.<br> Remets à ton peuple ses péchés.</p></p>"
     }
   },
-  "celebrationTitle": "23 décembre",
-  "liturgicalGrade": 9,
-  "liturgicalColor": "violet",
-  "oration": "Dieu éternel et tout-puissant, nous allons bientôt célébrer la naissance de ton Fils&nbsp;; il a voulu prendre chair de la Vierge Marie, il s’est lié pour toujours à notre humanité@nbsp;: qu’il montre ta miséricorde aux pauvres serviteurs que nous sommes. Lui qui règne."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "2 P 3. 8b-9",
+      "content": "Pour le Seigneur, un seul jour est comme mille ans, et mille ans sont comme un seul jour. Le Seigneur n’est pas en retard pour tenir sa promesse, comme le pensent certaines personnes&nbsp;; c’est pour vous qu’il patiente&nbsp;: car il n’accepte pas d’en laisser quelques-uns se perdre&nbsp;; mais il veut que tous aient le temps de se convertir."
+    },
+    "responsory": "<p>R/ Notre âme attend le Seigneur.<br> * En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent. *<br> V/ Sa gloire habitera notre terre. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Ô Emmanuel, notre Législateur et notre Roi, espérance et salut des nations, viens, Seigneur, viens nous sauver&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p> Avec ferveur, prions Celui qui annonce aux pauvres la bonne nouvelle&nbsp;:</p> <p>R/Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Révèle-toi, Seigneur, à ceux qui ne t’ont pas reconnu&nbsp;:<br> que ton salut les illumine.</p> <p>Que ton nom soit porté aux extrémités de la terre,<br> afin que tous les hommes découvrent tes sentiers.</p> <p>Toi qui es déjà venu pour sauver le monde,<br> viens à nouveau, achève ton œuvre.</p> <p>Toi qui nous appelles à la liberté,<br> défais les liens qui nous entravent.</p> <p>Toi qui es né dans notre chair et viendra pour le jugement,<br> conduis les défunts à la récompense éternelle.</p>"
+    }
+  },
+  "oration": [
+    "Dieu éternel et tout-puissant, nous allons bientôt célébrer la naissance de ton Fils&nbsp;; il a voulu prendre chair de la Vierge Marie, il s’est lié pour toujours à notre humanité@nbsp;: qu’il montre ta miséricorde aux pauvres serviteurs que nous sommes. Lui qui règne."
+  ]
 }

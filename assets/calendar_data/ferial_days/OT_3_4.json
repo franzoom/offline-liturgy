@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "tu-es-venu-seigneur"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_86",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "1 P 4, 10-11",
+      "biblicalReference": "1 P 4, 10-11",
       "content": "Ce que chacun de vous a reçu comme don de la grâce, mettez-le au service des autres, comme de bons gérants de la grâce de Dieu sous toutes ses formes&nbsp;: si quelqu’un a le don de parler, qu’il dise la parole de Dieu&nbsp;; s’il a le don du service, qu’il s’en acquitte avec la force que Dieu communique. Ainsi, en toute chose, Dieu recevra sa gloire par Jésus Christ."
     },
-    "hymn": [
-      "tu-es-venu-seigneur"
-    ],
-    "evangelicAntiphon": "Exaltez le Seigneur notre Dieu&nbsp;: il aime la justice.",
-    "intercession": "<p>Avec nos actions de grâce, présentons à Dieu nos demandes&nbsp;:</p> <p>R/ Écoute-nous, Dieu très bon.</p> <p>Béni sois-tu, Seigneur, qui as mis en nous le souffle de la vie&nbsp;:&nbsp;<br> —&nbsp;donne-nous de revivre par ton Esprit.</p> <p>À l’aube de ce jour, suscite en nous le désir de te servir&nbsp;:&nbsp;<br> —&nbsp;que nos travaux et nos joies te glorifient.</p> <p>Devant les pièges de l’argent et de l’orgueil,&nbsp;<br> —&nbsp;dessille nos yeux et guide nos pas.</p> <p>Rends-nous sensibles aux besoins de nos frères&nbsp;:&nbsp;<br> —&nbsp;que notre charité se fasse inventive.</p> ",
     "responsory": "<p>R/ Dieu, tu es mon Dieu,<br>  * Je te cherche dès l’aube.<br> V/ Comment découvrir ta lumière&nbsp;? * <br> V/ Où saisir un reflet de ta gloire&nbsp;? * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Nous t’en prions, Dieu de miséricorde, sur les hommes qui n’ont pas reçu ta lumière, fais lever ton soleil, Jésus, le Christ, notre Seigneur. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Exaltez le Seigneur notre Dieu&nbsp;: il aime la justice.",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Avec nos actions de grâce, présentons à Dieu nos demandes&nbsp;:</p> <p>R/ Écoute-nous, Dieu très bon.</p> <p>Béni sois-tu, Seigneur, qui as mis en nous le souffle de la vie&nbsp;:&nbsp;<br> —&nbsp;donne-nous de revivre par ton Esprit.</p> <p>À l’aube de ce jour, suscite en nous le désir de te servir&nbsp;:&nbsp;<br> —&nbsp;que nos travaux et nos joies te glorifient.</p> <p>Devant les pièges de l’argent et de l’orgueil,&nbsp;<br> —&nbsp;dessille nos yeux et guide nos pas.</p> <p>Rends-nous sensibles aux besoins de nos frères&nbsp;:&nbsp;<br> —&nbsp;que notre charité se fasse inventive.</p> "
+    },
+    "oration": [
+      "Nous t’en prions, Dieu de miséricorde, sur les hommes qui n’ont pas reçu ta lumière, fais lever ton soleil, Jésus, le Christ, notre Seigneur. Lui qui règne."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,37 +83,9 @@
       "responsory": "<p>R/ Vers toi j’ai les yeux levés,<br> Seigneur qui te tiens au ciel.</p> <p>Le jour du Seigneur arrive<br> comme un voleur en pleine nuit.</p> <p>Vous qui êtes enfants de la lumière,<br> enfants du jour, restez éveillés et sobres.</p> <p>Toujours joyeux, priez sans cesse,<br> en toute condition, soyez dans l’action de grâce.</p>"
     },
     "verse": "<p>V/ Seigneur, en toi est la source de vie.<br>En ta lumière, nous voyons la lumière.</p>",
-    "oration": "Sois favorable à tes fidèles, Seigneur et multiplie les dons de ta grâce&nbsp;: entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient attentifs à garder tes commandements."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_131_1",
-        "antiphon": [
-          "Entrons dans la demeure de Dieu, prosternons-nous devant lui."
-        ]
-      },
-      {
-        "psalm": "PSALM_131_2",
-        "antiphon": [
-          "Voici la demeure de Dieu parmi les hommes."
-        ]
-      },
-      {
-        "psalm": "NT_10"
-      }
-    ],
-    "reading": {
-      "ref": "1 P 3, 8-9",
-      "content": "Que tout le monde vive parfaitement uni, plein de sympathie, d’amour fraternel, de tendresse, de simplicité. Ne rendez pas le mal pour le mal, ni l’insulte pour l’insulte&nbsp;; au contraire, appelez sur les autres la bénédiction puisque, par vocation, vous devez recevoir en héritage les bénédictions de Dieu."
-    },
-    "hymn": [
-      "joie-et-lumiere"
-    ],
-    "evangelicAntiphon": "Heureux ceux qui ont faim et soif de la justice&nbsp;: ils seront rassasiés&nbsp;!",
-    "intercession": "<p>Prions avec foi Celui qui intercède pour nous auprès de son Père&nbsp;:</p> <p> R/ Souviens-toi, Seigneur, de ton amour. </p> <p> Seigneur Jésus, tu nous as dit de prier en tout temps&nbsp;:<br> —&nbsp;donne à ton Église de persévérer dans la prière.</p> <p> Nous te prions pour le pape N.&nbsp;:<br> —&nbsp;que sa foi ne défaille pas et qu’il encourage ses frères.</p> <p> Nous te prions pour les pécheurs&nbsp;:&nbsp;<br> —&nbsp;qu’ils connaissent la joie du pardon.</p> <p> Nous te prions pour ceux qui sont loin de leur pays&nbsp;:<br> —&nbsp;qu’ils trouvent une terre et des amis.</p> <p> Nous te prions pour ceux qui sont partis&nbsp;:&nbsp;<br> —&nbsp;qu’ils marchent sur la terre des vivants.</p>",
-    "responsory": "<p>R/ Bénissez ceux qui vous maudissent<br>  *  Et vous serez les fils du Très-Haut.<br> V/ Donnez sans espérer de retour.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Nous te bénissons, Seigneur, pour ce jour que tu nous as donné&nbsp;; et nous te supplions de nous pardonner pour le mal que nous avons commis."
+    "oration": [
+      "Sois favorable à tes fidèles, Seigneur et multiplie les dons de ta grâce&nbsp;: entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient attentifs à garder tes commandements."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -128,8 +109,43 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
-  "sundayEvangelicAntiphonC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture.",
-  "sundayEvangelicAntiphonA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
-  "readingHymn": "en-toute-vie-le-silence-dit-dieu"
+  "vespers": {
+    "hymn": [
+      "joie-et-lumiere"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_131_1",
+        "antiphon": [
+          "Entrons dans la demeure de Dieu, prosternons-nous devant lui."
+        ]
+      },
+      {
+        "psalm": "PSALM_131_2",
+        "antiphon": [
+          "Voici la demeure de Dieu parmi les hommes."
+        ]
+      },
+      {
+        "psalm": "NT_10"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 P 3, 8-9",
+      "content": "Que tout le monde vive parfaitement uni, plein de sympathie, d’amour fraternel, de tendresse, de simplicité. Ne rendez pas le mal pour le mal, ni l’insulte pour l’insulte&nbsp;; au contraire, appelez sur les autres la bénédiction puisque, par vocation, vous devez recevoir en héritage les bénédictions de Dieu."
+    },
+    "responsory": "<p>R/ Bénissez ceux qui vous maudissent<br>  *  Et vous serez les fils du Très-Haut.<br> V/ Donnez sans espérer de retour.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Heureux ceux qui ont faim et soif de la justice&nbsp;: ils seront rassasiés&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Prions avec foi Celui qui intercède pour nous auprès de son Père&nbsp;:</p> <p> R/ Souviens-toi, Seigneur, de ton amour. </p> <p> Seigneur Jésus, tu nous as dit de prier en tout temps&nbsp;:<br> —&nbsp;donne à ton Église de persévérer dans la prière.</p> <p> Nous te prions pour le pape N.&nbsp;:<br> —&nbsp;que sa foi ne défaille pas et qu’il encourage ses frères.</p> <p> Nous te prions pour les pécheurs&nbsp;:&nbsp;<br> —&nbsp;qu’ils connaissent la joie du pardon.</p> <p> Nous te prions pour ceux qui sont loin de leur pays&nbsp;:<br> —&nbsp;qu’ils trouvent une terre et des amis.</p> <p> Nous te prions pour ceux qui sont partis&nbsp;:&nbsp;<br> —&nbsp;qu’ils marchent sur la terre des vivants.</p>"
+    },
+    "oration": [
+      "Nous te bénissons, Seigneur, pour ce jour que tu nous as donné&nbsp;; et nous te supplions de nous pardonner pour le mal que nous avons commis."
+    ]
+  }
 }

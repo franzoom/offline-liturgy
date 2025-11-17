@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "La paix soit avec vous, alléluia&nbsp;! C’est moi, soyez sans crainte. Alléluia&nbsp;!",
-    "intercession": "<p>Invoquons Jésus ressuscité qui sans cesse intercède pour nous&nbsp;:</p> <p>R/ Pasteur éternel, sauve-nous&nbsp;!</p> <p>Seigneur Jésus, ton peuple s’éveille à un jour nouveau&nbsp;:<br> –&nbsp;nourris-le de ta parole et de ton pain.</p> <p>Ne permets pas que nous soyons victimes du loup qui dévore ni du mercenaire qui s’enfuit&nbsp;:<br> –&nbsp;apprends-nous à reconnaître ta voix.</p> <p>Fais-nous rejeter la tristesse du péché&nbsp;: <br> –&nbsp;sois toi-même la joie que nul ne pourra nous ravir.</p> <p>Rends-nous attentifs aux appels de nos frères, <br> –&nbsp;et donne ta paix à ceux que nulle présence ne console.</p> "
+    "evangelicAntiphon": {
+      "common": "La paix soit avec vous, alléluia&nbsp;! C’est moi, soyez sans crainte. Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Invoquons Jésus ressuscité qui sans cesse intercède pour nous&nbsp;:</p> <p>R/ Pasteur éternel, sauve-nous&nbsp;!</p> <p>Seigneur Jésus, ton peuple s’éveille à un jour nouveau&nbsp;:<br> –&nbsp;nourris-le de ta parole et de ton pain.</p> <p>Ne permets pas que nous soyons victimes du loup qui dévore ni du mercenaire qui s’enfuit&nbsp;:<br> –&nbsp;apprends-nous à reconnaître ta voix.</p> <p>Fais-nous rejeter la tristesse du péché&nbsp;: <br> –&nbsp;sois toi-même la joie que nul ne pourra nous ravir.</p> <p>Rends-nous attentifs aux appels de nos frères, <br> –&nbsp;et donne ta paix à ceux que nulle présence ne console.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,19 +66,8 @@
       "content": "<p><i>Dieu veut que tous les hommes soient sauvés et parviennent à la connaissance de la vérité, et souvent, dans le passé, il a parlé à nos pères par les prophètes sous des formes fragmenentaires et variées</i>. Lorsqu’est venue la plénitude des temps, Il a envoyé son Fils, le Verbe fait chair, consacré par l’onction du Saint-Esprit, pour <i>annoncer la Bonne Nouvelle aux pauvres, pour guérir les cœurs brisés</i>, comme «&nbsp;le médecin de la chair et de l’esprit&nbsp;», <i>le médiateur entre Dieu et les hommes</i>. Car c’est son humanité, dans l’unique Personne du Verbe, qui fut l’instrument de notre salut. C’est pourquoi, dans le Christ, «&nbsp;est apparue la parfaite rançon de notre réconciliation, et la plénitude du culte divin nous a été accordée.&nbsp;» Cette œuvre de la rédemption des hommes et de la parfaite glorification de Dieu avait eu pour prélude les merveilles de Dieu dans le peuple de l’ancienne Alliance. Mais c’est le Christ qui l’a accomplie, principalement par le mystère pascal de sa bienheureuse passion, de sa résurrection du séjour des morts et de son ascension dans la gloire. Par lui, «&nbsp;en mourant, il a détruit notre mort, en ressuscitant, il nous a rendu la vie&nbsp;». Car c’est du côté du Christ endormi sur la croix qu’est né «&nbsp;l’admirable sacrement de l’E’glise tout entière&nbsp;». C’est pourquoi, de même que le Christ avait été envoyé par le Père, ainsi lui-même envoya ses Apôtres, remplis de l’Esprit Saint. Ils devaient annoncer, en <i>prêchant l’Évangile à toute créature</i>, que le Fils de Dieu, par sa mort et sa résurrection, nous a délivrés du pouvoir de Satan ainsi que de la mort. Mais en outre, ils devaient exercer cette œuvre de salut qu’ils annonçaient, par le sacrifice et les sacrements autour desquels gravite toute la vie liturgique. C’est ainsi que, par le baptême, les hommes sont greffés sur le mystère pascal&nbsp;: <i>morts avec lui, ensevelis avec lui, ressuscités avec lui</i>, ils reçoivent l’esprit d’adoption des fils <i>par lequel nous crions vers le Père en l’appelant&nbsp;: Abba&nbsp;!</i> et ils deviennent ces vrais adorateurs que recherche le Père. Semblablement, chaque fois qu’ils mangent la Cène du Seigneur, ils annoncent sa mort <i>jusqu’à ce qu’il vienne</i>. C’est pourquoi, le jour même de la Pentecôte, où l’Église apparut au monde, <i>ceux qui accueillirent la parole</i> de Pierre <i>furent baptisés</i>. Et <i>ils étaient fidèles à écouter l’enseignement des Apôtres, à vivre en communion fraternelle, à rompre le pain et à participer aux prières. ~ Ils louaient Dieu et trouvaient un bon accueil auprès de tout le peuple.</i> Jamais, dans la suite, l’Église n’a omis de se réunir pour célébrer le mystère pascal, en lisant <i>dans toute l’Écriture ce qui le concernait</i>, en célébrant l’Eucharistie dans laquelle «&nbsp;sont rendus présents la victoire et le triomphe de sa mort» et, par là même, en rendant <i>grâce à Dieu pour son don ineffable</i>, dans le Christ Jésus, <i>pour que soit chantée sa gloire</i>.</p>",
       "responsory": "<p>Nous accueillons l’Esprit nouveau,<br> le Souffle d’allégresse,<br> le don gratuit du Fils ressuscité,<br> force des croyants.</p> <p>Nous entonnons le chant nouveau,<br> Les hymnes de louange,<br> L’amen appris du Verbe tout-puissant,<br> Gloire des sauvés.</p>"
     },
-    "oration": "Dieu qui as envoyé ton Fils pour nous sauver et pour faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père&nbsp;; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_109"
-      },
-      {
-        "psalm": "PSALM_113A"
-      },
-      {
-        "psalm": "NT_12"
-      }
+    "oration": [
+      "Dieu qui as envoyé ton Fils pour nous sauver et pour faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père&nbsp;; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle."
     ]
   },
   "middleOfDay": {
@@ -90,6 +83,19 @@
       },
       {
         "psalm": "PSALM_117_3"
+      }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_109"
+      },
+      {
+        "psalm": "PSALM_113A"
+      },
+      {
+        "psalm": "NT_12"
       }
     ]
   }

@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "S. Isidore",
+    "subtitle": "évêque et docteur de l'Église",
+    "description": "Isidore de Séville (560‑636) est le grand docteur de l’Espagne. Successeur de son frère Léandre comme évêque de Séville (601), il travailla à organiser l’Église dans le royaume wisigothique, spécialement en tenant des Conciles. Il aimait par‑dessus tout enseigner. La somme des connaissances qu’il a recueillies servit de manuel scolaire durant des générations.",
+    "commons": [
+      "pastors",
+      "doctors"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    "evangelicAntiphon": {
+      "common": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Ô bienheux Isidore, maître de sagesse et docteur de l'Église, toi qui as cherché les volontés de Dieu, intercède pour nous auprès de lui."
+    "evangelicAntiphon": {
+      "common": "Ô bienheux Isidore, maître de sagesse et docteur de l'Église, toi qui as cherché les volontés de Dieu, intercède pour nous auprès de lui."
+    }
   },
-  "celebrationTitle": "S. Isidore",
-  "celebrationSubtitle": "évêque et docteur de l'Église",
-  "celebrationDescription": "Isidore de Séville (560‑636) est le grand docteur de l’Espagne. Successeur de son frère Léandre comme évêque de Séville (601), il travailla à organiser l’Église dans le royaume wisigothique, spécialement en tenant des Conciles. Il aimait par‑dessus tout enseigner. La somme des connaissances qu’il a recueillies servit de manuel scolaire durant des générations.",
-  "liturgicalGrade": 12,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors", "doctors"
-  ],
-  "oration": "Daigne exaucer, Seigneur, les prières que nous t'adressons en la fête de saint Isidore de Séville: que ton Église trouve en lui un défenseur après l'avoir écouter comme un maître spirituel."
+  "oration": [
+    "Daigne exaucer, Seigneur, les prières que nous t'adressons en la fête de saint Isidore de Séville: que ton Église trouve en lui un défenseur après l'avoir écouter comme un maître spirituel."
+  ]
 }

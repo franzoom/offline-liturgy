@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Ac 5, 30-32",
+      "biblicalReference": "Ac 5, 30-32",
       "content": "Le Dieu de nos pères a ressuscité Jésus, que vous aviez exécuté en le pendant au bois du supplice. C’est lui que Dieu, par sa puissance, a élevé en faisant de lui le Chef, le Sauveur, pour apporter à Israël la conversion et le pardon des péchés. Quant à nous, nous sommes les témoins de tout cela, avec l’Esprit Saint, que Dieu a donné à ceux qui lui obéissent."
     },
-    "evangelicAntiphon": "Jésus Christ était mort, il est ressuscité à la droite de Dieu, il est toujours vivant, il intercède pour nous, alléluia.",
-    "intercession": "<p>Invoquons le Père des miséricordes, le Dieu de tout réconfort&nbsp;:</p> <p>R/ Envoie l’Esprit consolateur.</p> <p>Sur les pauvres et les petits, sur les méprisés, les opprimés,</p> <p>Sur les enfants mal-aimés, sur les vieillards délaissés,</p> <p>Sur les malades, les intoxiqués, les désespérés,</p> <p>Sur les victimes de la faim, de la guerre et de tous les fléaux,</p> <p>Sur les prisonniers, sur ceux que le monde rejette,</p> <p>Sur les hommes de désir qui cherchent la lumière.</p>",
-    "responsory": "<p>R/ Ô Christ, tu es le Fils du Dieu vivant.<br>  * Alléluia, alléluia&nbsp;!<br> V/ Tu es ressuscité d’entre les morts.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>"
+    "responsory": "<p>R/ Ô Christ, tu es le Fils du Dieu vivant.<br>  * Alléluia, alléluia&nbsp;!<br> V/ Tu es ressuscité d’entre les morts.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>",
+    "evangelicAntiphon": {
+      "common": "Jésus Christ était mort, il est ressuscité à la droite de Dieu, il est toujours vivant, il intercède pour nous, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Invoquons le Père des miséricordes, le Dieu de tout réconfort&nbsp;:</p> <p>R/ Envoie l’Esprit consolateur.</p> <p>Sur les pauvres et les petits, sur les méprisés, les opprimés,</p> <p>Sur les enfants mal-aimés, sur les vieillards délaissés,</p> <p>Sur les malades, les intoxiqués, les désespérés,</p> <p>Sur les victimes de la faim, de la guerre et de tous les fléaux,</p> <p>Sur les prisonniers, sur ceux que le monde rejette,</p> <p>Sur les hommes de désir qui cherchent la lumière.</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>R/ L’amour de Dieu est répandu dans nos cœurs<br> par le Saint-Esprit.</p> <p>Les nations sauront que je suis le Seigneur<br> quand éclatera ma sainteté à votre sujet.</p> <p>Je vous purifierai de tous vos péchés,<br> les nations le sauront&nbsp;: Je suis le Seigneur.</p> <p>Je vous donnerai un cœur nouveau,<br> je mettrai en vous un esprit nouveau.</p> <p>Je mettrai en vous, mon Esprit,<br> et vous marcherez selon mes lois.</p>"
     },
     "verse": "<p>V/ En ta résurrection, ô Christ, alléluia,<br>le ciel et la terre se réjouissent, alléluia.</p>",
-    "oration": "Dieu qui nous as ouvert la vie éternelle en exaltant ton Fils dans la gloire et en nous envoyant ton Esprit de lumière, fais qu’en participant à une telle grâce, nous soyons plus dévoués à te servir et obtenions une plus grande foi."
+    "oration": [
+      "Dieu qui nous as ouvert la vie éternelle en exaltant ton Fils dans la gloire et en nous envoyant ton Esprit de lumière, fais qu’en participant à une telle grâce, nous soyons plus dévoués à te servir et obtenions une plus grande foi."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_21_1",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_21_2"
+      },
+      {
+        "psalm": "PSALM_21_3"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +114,15 @@
       }
     ],
     "reading": {
-      "ref": "Ga 5, 16.22-23a.25",
+      "biblicalReference": "Ga 5, 16.22-23a.25",
       "content": "Vivez sous la conduite de l’Esprit de Dieu&nbsp;; alors vous n’obéirez pas aux tendances égoïstes de la chair. Voici ce que produit l’Esprit&nbsp;: amour, joie, paix, patience, bonté, bienveillance, foi, humilité et maîtrise de soi. Puisque l’Esprit nous fait vivre, laissons-nous conduire par l’Esprit."
     },
-    "evangelicAntiphon": "Unanimes, les Apôtres persévéraient dans la prière avec Marie, la mère de Jésus, alléluia.",
-    "intercession": "<p>Supplions Dieu de répandre son Esprit sur toute créature, ainsi qu’il l’a promis&nbsp;:</p> <p>R/ Ô Seigneur, envoie ton Esprit.</p> <p>Sur ceux qui ont faim, ceux qui pleurent,<br> ceux qui attendent un consolateur,</p> <p>Sur ceux qui ont besoin de ta Sagesse pour établir la justice et la paix,</p> <p>Sur les persécutés, les opprimés, les abandonnés,</p> <p>Sur ceux qui annoncent ta Parole et ceux qui en vivent,</p> <p>Sur ceux qui te connaissent et ceux qui te cherchent,</p> <p>Sur ceux qui te suivent et ceux qui se détournent de toi,</p> <p>Sur les vivants et les morts,</p>",
-    "responsory": "<p>R/ Toi, la paix que rien ne trouble,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> La guerre au cœur de l’homme&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_21_1",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_21_2"
-      },
-      {
-        "psalm": "PSALM_21_3"
-      }
-    ]
+    "responsory": "<p>R/ Toi, la paix que rien ne trouble,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> La guerre au cœur de l’homme&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>",
+    "evangelicAntiphon": {
+      "common": "Unanimes, les Apôtres persévéraient dans la prière avec Marie, la mère de Jésus, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Supplions Dieu de répandre son Esprit sur toute créature, ainsi qu’il l’a promis&nbsp;:</p> <p>R/ Ô Seigneur, envoie ton Esprit.</p> <p>Sur ceux qui ont faim, ceux qui pleurent,<br> ceux qui attendent un consolateur,</p> <p>Sur ceux qui ont besoin de ta Sagesse pour établir la justice et la paix,</p> <p>Sur les persécutés, les opprimés, les abandonnés,</p> <p>Sur ceux qui annoncent ta Parole et ceux qui en vivent,</p> <p>Sur ceux qui te connaissent et ceux qui te cherchent,</p> <p>Sur ceux qui te suivent et ceux qui se détournent de toi,</p> <p>Sur les vivants et les morts,</p>"
+    }
   }
 }

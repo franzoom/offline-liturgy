@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "nuee-de-feu"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_91",
@@ -25,16 +28,19 @@
       }
     ],
     "reading": {
-      "ref": "Rm 12, 14-16a",
+      "biblicalReference": "Rm 12, 14-16a",
       "content": "Bénissez ceux qui vous persécutent&nbsp;; souhaitez-leur du bien, et non pas du mal. Soyez joyeux avec ceux qui sont dans la joie, pleurez avec ceux qui pleurent. Soyez bien d’accord entre vous&nbsp;; n’ayez pas le goût des grandeurs, mais laissez-vous attirer par ce qui est simple."
     },
-    "hymn": [
-      "nuee-de-feu"
-    ],
-    "evangelicAntiphon": "Lève-toi sur le monde, Christ Jésus, Lumière éternelle, viens nous sauver.",
-    "intercession": "<p>Pour qu’il fasse de nous des artisans de paix, prions le Seigneur&nbsp;:</p> <p>Quand domine la haine,<br> <span class=\"espace\">que nous annoncions l’amour.</span></p> <p>Quand blesse l’offense,<br> <span class=\"espace\">que nous offrions le pardon.</span></p> <p>Quand sévit la discorde,<br> <span class=\"espace\">que nous bâtissions la paix.</span></p> <p>Quand s’installe l’erreur,<br> <span class=\"espace\">que nous proclamions la vérité.</span></p> <p>Quand paralyse le doute,<br> <span class=\"espace\">que nous réveillions la foi.</span></p> <p>Quand pèse la détresse,<br> <span class=\"espace\">que nous ranimions l’espérance.</span></p> <p>Quand s’épaississent les ténèbres,<br> <span class=\"espace\">que nous apportions la lumière.</span></p> <p>Quand règne la tristesse,<br> <span class=\"espace\">que nous libérions la joie.</span></p> ",
     "responsory": "<p>R/ Joie sur mes lèvres, louange en ma bouche&nbsp;!<br> V/ Tout au long du jour, ma langue redira ta justice.&nbsp;R/ <br> V/ Je revivrai les exploits du Seigneur.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Que nos lèvres, notre âme et toute notre vie proclament ta louange, Seigneur&nbsp;; et puisque tout notre être est un don de ta grâce, fais que notre existence te soit consacrée."
+    "evangelicAntiphon": {
+      "common": "Lève-toi sur le monde, Christ Jésus, Lumière éternelle, viens nous sauver."
+    },
+    "intercession": {
+      "content": "<p>Pour qu’il fasse de nous des artisans de paix, prions le Seigneur&nbsp;:</p> <p>Quand domine la haine,<br> <span class=\"espace\">que nous annoncions l’amour.</span></p> <p>Quand blesse l’offense,<br> <span class=\"espace\">que nous offrions le pardon.</span></p> <p>Quand sévit la discorde,<br> <span class=\"espace\">que nous bâtissions la paix.</span></p> <p>Quand s’installe l’erreur,<br> <span class=\"espace\">que nous proclamions la vérité.</span></p> <p>Quand paralyse le doute,<br> <span class=\"espace\">que nous réveillions la foi.</span></p> <p>Quand pèse la détresse,<br> <span class=\"espace\">que nous ranimions l’espérance.</span></p> <p>Quand s’épaississent les ténèbres,<br> <span class=\"espace\">que nous apportions la lumière.</span></p> <p>Quand règne la tristesse,<br> <span class=\"espace\">que nous libérions la joie.</span></p> "
+    },
+    "oration": [
+      "Que nos lèvres, notre âme et toute notre vie proclament ta louange, Seigneur&nbsp;; et puisque tout notre être est un don de ta grâce, fais que notre existence te soit consacrée."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -61,7 +67,9 @@
       "responsory": "<p>R/ Un seul Dieu&nbsp;:<br> un seul médiateur entre Dieu et les hommes&nbsp;:<br> Jésus, le Christ&nbsp;!</p> <p>Il est médiateur de l’Alliance nouvelle.<br> L’ancienne alliance a disparu.</p> <p>Par son propre sang, il nous a sanctifiés<br> et réconciliés avec Dieu.</p>"
     },
     "verse": "<p>V/ Fais-moi connaître, Seigneur, tes voies.<br>Enseigne-moi tes sentiers.</p>",
-    "oration": "Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour."
+    "oration": [
+      "Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -84,6 +92,5 @@
         ]
       }
     ]
-  },
-  "readingHymn": "comment-es-tu-foyer-de-feu"
+  }
 }

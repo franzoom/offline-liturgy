@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "S. François de Paule",
+    "subtitle": "ermite",
+    "description": "Né à Paola en Calabre (1416), François entendit très jeune l’appel à la vie d’ermite et il se retira dans une grotte. Mais les foules vinrent à lui et les ermitages se multiplièrent autour du sien. L’Ordre des Minimes devait en naître (1493). François mourut en France, à Plessis‑lez‑Tours, où l’avait appelé la confiance du roi Louis XI (1507).",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Je me tiens à la porte et je frappe. Si quelqu'un entend ma voix et me laisse entrer, je prendrai mon repas avec lui, et lui avec moi."
+    "evangelicAntiphon": {
+      "common": "Je me tiens à la porte et je frappe. Si quelqu'un entend ma voix et me laisse entrer, je prendrai mon repas avec lui, et lui avec moi."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Tous les trésors de la terre ne pourraient acheter l'amour."
+    "evangelicAntiphon": {
+      "common": "Tous les trésors de la terre ne pourraient acheter l'amour."
+    }
   },
-  "celebrationTitle": "S. François de Paule",
-  "celebrationSubtitle": "ermite",
-  "celebrationDescription": "Né à Paola en Calabre (1416), François entendit très jeune l’appel à la vie d’ermite et il se retira dans une grotte. Mais les foules vinrent à lui et les ermitages se multiplièrent autour du sien. L’Ordre des Minimes devait en naître (1493). François mourut en France, à Plessis‑lez‑Tours, où l’avait appelé la confiance du roi Louis XI (1507).",
-  "liturgicalGrade": 12,
-  "liturgicalColor": "white",
-  "commons": [
-    "saints-male_religious"
-  ],
-  "oration": "Dieu qui relèves les humbles, tu as donné la gloire de tes élus à saint François de Paule&nbsp;; fais qu'en lui ressemblant, et avec son aide, nous obtenions le bonheurpromis aux humbles."
+  "oration": [
+    "Dieu qui relèves les humbles, tu as donné la gloire de tes élus à saint François de Paule&nbsp;; fais qu'en lui ressemblant, et avec son aide, nous obtenions le bonheurpromis aux humbles."
+  ]
 }

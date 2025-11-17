@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "o-fils-unique-jesus-christ"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_85",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Jb 1, 21; 2, 10b",
+      "biblicalReference": "Jb 1, 21; 2, 10b",
       "content": "Sorti nu du ventre de ma mère, nu j’y retournerai. Le Seigneur a donné, le Seigneur a ôté&nbsp;: que le nom du Seigneur soit béni. Nous acceptons le bonheur comme un don de Dieu. Et le malheur, pourquoi ne l’accepterions-nous pas aussi&nbsp;?"
     },
-    "hymn": [
-      "o-fils-unique-jesus-christ"
-    ],
-    "evangelicAntiphon": "Bénissez le Seigneur&nbsp;: il se souvient de son amour en faveur de son peuple.",
-    "intercession": "<p>Bénissons le Christ qui aime l’Église et s’est livré pour elle&nbsp;:</p> <p>R/ Regarde ton peuple, Seigneur.</span></p> <p>Béni sois-tu, Pasteur de ton Église, pour la vie que tu lui donnes&nbsp;:<br> –&nbsp;que cette grâce soit notre joie.</p> <p>Béni sois-tu, Gardien du troupeau&nbsp;:<br> –&nbsp;garde tes disciples dans la fidélité à ton nom.</p> <p>Béni sois-tu, Chef du peuple choisi&nbsp;:<br> –&nbsp;entraîne-le dans l’amour de ta loi.</p> <p>Béni sois-tu, Pain de la vie&nbsp;:<br> –&nbsp;rends-nous forts pour accomplir l’œuvre du Père.</p> ",
     "responsory": "<p>R/ Rassasie-nous de ton amour au matin,<br>  * Que nos jours s’emplissent de joie.<br> V/ Rends-nous en joie tes jours de châtiment. * <br> V/ Vienne sur nous la douceur du Seigneur. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur, répands ta lumière dans nos esprits, pour que nous soyons toujours fidèles à te servir, puisque c’est toi qui nous as créés dans ta sagesse et qui nous diriges avec amour."
+    "evangelicAntiphon": {
+      "common": "Bénissez le Seigneur&nbsp;: il se souvient de son amour en faveur de son peuple.",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Christ qui aime l’Église et s’est livré pour elle&nbsp;:</p> <p>R/ Regarde ton peuple, Seigneur.</span></p> <p>Béni sois-tu, Pasteur de ton Église, pour la vie que tu lui donnes&nbsp;:<br> –&nbsp;que cette grâce soit notre joie.</p> <p>Béni sois-tu, Gardien du troupeau&nbsp;:<br> –&nbsp;garde tes disciples dans la fidélité à ton nom.</p> <p>Béni sois-tu, Chef du peuple choisi&nbsp;:<br> –&nbsp;entraîne-le dans l’amour de ta loi.</p> <p>Béni sois-tu, Pain de la vie&nbsp;:<br> –&nbsp;rends-nous forts pour accomplir l’œuvre du Père.</p> "
+    },
+    "oration": [
+      "Seigneur, répands ta lumière dans nos esprits, pour que nous soyons toujours fidèles à te servir, puisque c’est toi qui nous as créés dans ta sagesse et qui nous diriges avec amour."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,42 +83,9 @@
       "responsory": "<p>R/ Nous sommes morts au péché avec le Christ,<br> avec lui, vivons pour Dieu, alléluia&nbsp;!</p> <p>Le Christ est mort pour les péchés,<br> afin de nous présenter à Dieu.</p> <p>Mis à mort en sa chair,<br> ressuscité par l’Esprit,<br> il est à la droite de Dieu.</p>"
     },
     "verse": "<p>V/ Quand on découvre tes paroles, c’est la lumière,<br>et les simples comprennent.</p>",
-    "oration": "Dieu qui montres aux égarés la lumière de ta vérité pour qu’ils puissent reprendre le bon chemin, donne à tous ceux qui se déclarent chrétiens de rejeter ce qui est indigne de ce nom, et de rechercher ce qui lui fait honneur."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_125",
-        "antiphon": [
-          "Qui sème dans les larmes moissonne dans la joie.",
-          "Ils allaient, tout joyeux d’avoir souffert pour le Christ."
-        ]
-      },
-      {
-        "psalm": "PSALM_126",
-        "antiphon": [
-          "Que le Seigneur nous bâtisse la maison et garde la ville.",
-          "Sans moi, dit le Seigneur, vous ne pouvez rien faire."
-        ]
-      },
-      {
-        "psalm": "NT_6",
-        "antiphon": [
-          "Tout vient de lui, tout est pour lui, tout est en lui&nbsp;! Gloire à Dieu dans les siècles&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "Ep 3, 20-21",
-      "content": "Gloire à celui qui a le pouvoir de réaliser en nous par sa puissance infiniment plus que nous ne pouvons demander ou même imaginer, gloire à lui dans l’Église et dans le Christ Jésus pour toutes les générations dans les siècles des siècles. Amen."
-    },
-    "hymn": [
-      "a-la-mesure-sans-mesure"
-    ],
-    "evangelicAntiphon": "Heureux les doux&nbsp;: ils obtiendront la terre promise&nbsp;!",
-    "intercession": "<p>En proclamant Jésus «&nbsp;Seigneur&nbsp;», adressons-lui nos demandes&nbsp;:</p> <p>Ô Christ, tu nous appelles à combattre pour ton règne,<br> –&nbsp;arme-nous de patience et de douceur,</p> <p>R/ Par la force de ton Esprit.</p> <p>Tu envoies des disciples préparer la route devant toi&nbsp;;<br> –&nbsp;donne-leur d’annoncer l’Évangile avec assurance,</p> <p>Toi qui inspires à tant d’hommes et de femmes de te consacrer leur vie,<br> –&nbsp;accorde-leur de te suivre jusqu’au bout,</p> <p>Maître et Seigneur, tu as lavé les pieds de tes disciples&nbsp;;<br> –&nbsp;révèle-toi en ceux qui servent leurs frères,</p> <p>Fils du Dieu vivant, nous confions à ta miséricorde ceux que nous pleurons&nbsp;;<br> –&nbsp;toi qui as fait sortir Lazare de son tombeau,</p> ",
-    "responsory": "<p>R/ Gloire au Père de Jésus&nbsp;:<br>  *  Gloire à notre Dieu&nbsp;!<br> V/ Lui, le premier, nous a aimés.  * <br> V/ Il nous a délivrés de nos péchés.  * <br> V/ Il nous offre l’héritage des fils.  * <br> Gloire au Père de Jésus.  * <br></p>",
-    "oration": "Écoute, Seigneur, la voix de ton Église en prière, pardonne-lui, crée en elle un cœur pur&nbsp;: qu’elle soit généreuse à te servir et toujours plus sûre de toi."
+    "oration": [
+      "Dieu qui montres aux égarés la lumière de ta vérité pour qu’ils puissent reprendre le bon chemin, donne à tous ceux qui se déclarent chrétiens de rejeter ce qui est indigne de ce nom, et de rechercher ce qui lui fait honneur."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -133,8 +109,48 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
-  "sundayEvangelicAntiphonC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture.",
-  "sundayEvangelicAntiphonA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
-  "readingHymn": "o-toi-l-au-dela-de-tout"
+  "vespers": {
+    "hymn": [
+      "a-la-mesure-sans-mesure"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_125",
+        "antiphon": [
+          "Qui sème dans les larmes moissonne dans la joie.",
+          "Ils allaient, tout joyeux d’avoir souffert pour le Christ."
+        ]
+      },
+      {
+        "psalm": "PSALM_126",
+        "antiphon": [
+          "Que le Seigneur nous bâtisse la maison et garde la ville.",
+          "Sans moi, dit le Seigneur, vous ne pouvez rien faire."
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "Tout vient de lui, tout est pour lui, tout est en lui&nbsp;! Gloire à Dieu dans les siècles&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "Ep 3, 20-21",
+      "content": "Gloire à celui qui a le pouvoir de réaliser en nous par sa puissance infiniment plus que nous ne pouvons demander ou même imaginer, gloire à lui dans l’Église et dans le Christ Jésus pour toutes les générations dans les siècles des siècles. Amen."
+    },
+    "responsory": "<p>R/ Gloire au Père de Jésus&nbsp;:<br>  *  Gloire à notre Dieu&nbsp;!<br> V/ Lui, le premier, nous a aimés.  * <br> V/ Il nous a délivrés de nos péchés.  * <br> V/ Il nous offre l’héritage des fils.  * <br> Gloire au Père de Jésus.  * <br></p>",
+    "evangelicAntiphon": {
+      "common": "Heureux les doux&nbsp;: ils obtiendront la terre promise&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>En proclamant Jésus «&nbsp;Seigneur&nbsp;», adressons-lui nos demandes&nbsp;:</p> <p>Ô Christ, tu nous appelles à combattre pour ton règne,<br> –&nbsp;arme-nous de patience et de douceur,</p> <p>R/ Par la force de ton Esprit.</p> <p>Tu envoies des disciples préparer la route devant toi&nbsp;;<br> –&nbsp;donne-leur d’annoncer l’Évangile avec assurance,</p> <p>Toi qui inspires à tant d’hommes et de femmes de te consacrer leur vie,<br> –&nbsp;accorde-leur de te suivre jusqu’au bout,</p> <p>Maître et Seigneur, tu as lavé les pieds de tes disciples&nbsp;;<br> –&nbsp;révèle-toi en ceux qui servent leurs frères,</p> <p>Fils du Dieu vivant, nous confions à ta miséricorde ceux que nous pleurons&nbsp;;<br> –&nbsp;toi qui as fait sortir Lazare de son tombeau,</p> "
+    },
+    "oration": [
+      "Écoute, Seigneur, la voix de ton Église en prière, pardonne-lui, crée en elle un cœur pur&nbsp;: qu’elle soit généreuse à te servir et toujours plus sûre de toi."
+    ]
+  }
 }

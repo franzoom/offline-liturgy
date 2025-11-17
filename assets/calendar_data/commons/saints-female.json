@@ -1,8 +1,11 @@
 {
-  "invitatory": {
-    "atiphon": "Dieu qui seuol es saint, nou t'adorons !"
+  "celebration": {
+    "color": "white"
   },
   "firstVespers": {
+    "hymn": [
+      "bienheureuse-la-femme"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_112",
@@ -24,17 +27,21 @@
       }
     ],
     "reading": {
-      "ref": "Ph 3, 7-8",
+      "biblicalReference": "Ph 3, 7-8",
       "content": "Tous les avantages que j’avais, je les ai considérés comme une perte à cause du Christ ; oui, je considère toute cela comme une perte à cause de ce bien qui dépasse tout : la connaissance du Christ Jésus, mon Seigneur. À cause de lui, j’ai tout perdu ; je considère tout comme des balayures, en vue d’un seul avantage, le Christ."
     },
-    "hymn": [
-      "bienheureuse-la-femme"
-    ],
-    "evangelicAntiphon": "Voyez les fruits de son travail : ses œuvres font son éloge.",
-    "intercession": "<p>R/Souviens-toi, Seigneur, de ton Église !</p>  <p>Par les martyres qui n’ont pas craint d’affronter la mort,<br> — donne à ton Église le courage dans les épreuves.</p>  <p>Par les épouses qui ont vécu dans la sainteté,<br> — accorde à ton Église d’être le ferment de salut que tu offres au monde.</p>  <p>Par les veuves qui ont consacré leur solitude à la prière et à la charité,<br> — fais de ton Église le lieu où s’accomplit le dessein de ton amour.</p>  <p>Par les mères de famille que tu as bénies dans leurs enfants,<br> — donne à ton Église d’engendrer tous les hommes à une vie nouvelle.</p>  <p>Par toutes les saintes qui ont reçu la grâce de contempler ton visage,<br> — accorde aux défunts la joie de te voir sans fin.</p>",
-    "responsory": "R/ Je peux tout<br> * en celui qui me rend fort.<br> V/ Lorsque je suis faible, je garde confiance, *<br> Gloire au Père. R/ <br>"
+    "responsory": "R/ Je peux tout<br> * en celui qui me rend fort.<br> V/ Lorsque je suis faible, je garde confiance, *<br> Gloire au Père. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Voyez les fruits de son travail : ses œuvres font son éloge."
+    },
+    "intercession": {
+      "content": "<p>R/Souviens-toi, Seigneur, de ton Église !</p>  <p>Par les martyres qui n’ont pas craint d’affronter la mort,<br> — donne à ton Église le courage dans les épreuves.</p>  <p>Par les épouses qui ont vécu dans la sainteté,<br> — accorde à ton Église d’être le ferment de salut que tu offres au monde.</p>  <p>Par les veuves qui ont consacré leur solitude à la prière et à la charité,<br> — fais de ton Église le lieu où s’accomplit le dessein de ton amour.</p>  <p>Par les mères de famille que tu as bénies dans leurs enfants,<br> — donne à ton Église d’engendrer tous les hommes à une vie nouvelle.</p>  <p>Par toutes les saintes qui ont reçu la grâce de contempler ton visage,<br> — accorde aux défunts la joie de te voir sans fin.</p>"
+    }
   },
   "morning": {
+    "hymn": [
+      "ni-la-violence-des-puissants"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -56,17 +63,21 @@
       }
     ],
     "reading": {
-      "ref": "Rm 12, 1-2",
+      "biblicalReference": "Rm 12, 1-2",
       "content": "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait."
     },
-    "hymn": [
-      "ni-la-violence-des-puissants"
-    ],
-    "evangelicAntiphon": "Elle a offert tout ce qu’elle avait pour acquérir la perle de grand prix.",
-    "intercession": "<p>Avec les saintes de tous les temps, louons et invoquons notre Sauveur :</p>  <p>R/Viens, Seigneur Jésus !</p>  <p>Tu as beaucoup pardonné à la pécheresse parce qu’elle a beaucoup aimé :<br> — pardonne-nous, car nous avons beaucoup péché.</p>  <p>Sur les routes de Galilée, les saintes femmes te suivaient :<br> — accorde-nous de mettre nos pas dans tes pas.</p>  <p>Tu es le Maître que Marie écoutait et que Marthe servait :<br> — donne-nous de te servir dans la foi et l’amour.</p>  <p>Tu appelles frère, sœur, mère, celui qui fait ta volonté :<br> — conforme nos paroles et nos actes à ton vouloir.</p>  <p>Tu as fait des saintes femmes les premières messagères de ta résurrection :<br> — envoie-nous proclamer à tes frères que tu es le Vivant.</p>",
-    "responsory": "R/ Que notre sacrifice en ce jour<br> trouve grâce devant toi.<br> V/ Nous te suivons et nous cherchons ta face. R/ <br> V/ À toi, louange et gloire éternellement. R/ <br>"
+    "responsory": "R/ Que notre sacrifice en ce jour<br> trouve grâce devant toi.<br> V/ Nous te suivons et nous cherchons ta face. R/ <br> V/ À toi, louange et gloire éternellement. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Elle a offert tout ce qu’elle avait pour acquérir la perle de grand prix."
+    },
+    "intercession": {
+      "content": "<p>Avec les saintes de tous les temps, louons et invoquons notre Sauveur :</p>  <p>R/Viens, Seigneur Jésus !</p>  <p>Tu as beaucoup pardonné à la pécheresse parce qu’elle a beaucoup aimé :<br> — pardonne-nous, car nous avons beaucoup péché.</p>  <p>Sur les routes de Galilée, les saintes femmes te suivaient :<br> — accorde-nous de mettre nos pas dans tes pas.</p>  <p>Tu es le Maître que Marie écoutait et que Marthe servait :<br> — donne-nous de te servir dans la foi et l’amour.</p>  <p>Tu appelles frère, sœur, mère, celui qui fait ta volonté :<br> — conforme nos paroles et nos actes à ton vouloir.</p>  <p>Tu as fait des saintes femmes les premières messagères de ta résurrection :<br> — envoie-nous proclamer à tes frères que tu es le Vivant.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "mets-ta-lampe-sur-le-boisseau"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_18A",
@@ -105,12 +116,38 @@
       "content": "L’amour conjugal révèle sa vraie nature et sa vraie noblesse quand on le considère dans sa source suprême, Dieu qui est amour, <i>le Père de qui toute paternité tire son nom, au ciel et sur la terre.</i> Le mariage n’est donc pas l’effet du hasard ou un produit de l’évolution de forces naturelles inconscientes: c’est une sage institution du Créateur pour réaliser dans l’humanité son dessein d’amour. Par le moyen de la donation personnelle réciproque, qui leur est propre et exclusive, les époux tendent à la communion de leurs êtres en vue d’un mutuel perfectionnement personnel pour collaborer avec Dieu à la génération et à l’éducation de nouvelles vies. De plus, pour les baptisés, le mariage revêt la dignité de signe sacramentel de la grâce, en tant qu’il représente l’union du Christ et de l’Église. Dans cette lumière apparaissent clairement les notes et les exigences caractéristiques de l’amour conjugal, dont il est souverainement important d’avoir une idée exacte. C’est avant tout un amour pleinement humain, c’est-à-dire à la fois sensible et spirituel. Ce n’est donc pas un simple transport d’instinct et de sentiment, mais aussi et surtout un acte de la volonté libre, destiné à se maintenir et à grandir à travers les joies et les douleurs de la vie quotidienne, de sorte que les époux deviennent un seul cœur et une seule âme et atteignent ensemble leur perfection humaine. C’est ensuite un amour total, c’est-à-dire une forme toute spéciale d’amitié personnelle, par laquelle les époux partagent généreusement toutes choses, sans réserves indues ni calculs égoïstes. Qui aime vraiment son conjoint ne l’aime pas seulement pour ce qu’il reçoit de lui, mais pour lui-même, heureux de pouvoir l’enrichir du don de soi. C’est encore un amour fidèle et exclusif jusqu’à la mort. C’est bien ainsi, en effet, que le conçoivent l’époux et l’épouse le jour où ils assument librement et en pleine conscience l’engagement du lien matrimonial. Fidélité qui peut parfois être difficile, mais qui est toujours possible et toujours noble et méritoire, nul ne peut le nier. L’exemple de tant d’époux à travers les siècles prouve non seulement qu’elle est conforme à la nature du mariage, mais encore qu’elle est source de bonheur profond et durable. C’est enfin un amour fécond, qui ne s’épuise pas dans la communion entre époux, mais qui est destiné à se continuer en suscitant de nouvelles vies.",
       "responsory": "R/ Fais grandir entre nous, Seigneur,<br> l’accord et l’harmonie d’un même amour.</p> <p>Menez une vie digne de l’Évangile,<br> fermes dans un même esprit,<br> luttant d’un cœur unanime.</p> <p>Sans vous soucier de vos propres affaires,<br> ayez à cœur celles de vos frères,<br> à l’exemple du Christ Jésus.</p>"
     },
-    "hymn": [
-      "mets-ta-lampe-sur-le-boisseau"
-    ],
     "verse": "V/ Accueille les paroles de ma bouche,<br> Seigneur, mon rocher, mon défenseur.<br>"
   },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Sur mes serviteurs et mes servantes, je répandrai mon esprit.",
+      "reading": {
+        "biblicalReference": "Ga 6, 8",
+        "content": "Ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle."
+      },
+      "responsory": "V/ Heureux qui suit la loi du Seigneur,<br> heureux qui le cherche de tout cœur.<br>"
+    },
+    "sexte": {
+      "antiphon": "Mon cœur et ma chair crient de joie vers toi, ô Dieu vivant !",
+      "reading": {
+        "biblicalReference": "1 Co 9, 26-27a",
+        "content": "Moi, si je cours, ce n’est pas sans fixer le but ; si je fais de la lutte, ce n’est pas en frappant dans le vide. Mais je traite durement mon corps, et je le réduis en esclavage."
+      },
+      "responsory": "V/ J’ai trouvé celui que mon cœur aime,<br> je l’ai saisi et ne le lâcherai pas.<br>"
+    },
+    "none": {
+      "antiphon": "Je suis à mon bien-aimé, et mon bien-aimé est à moi.",
+      "reading": {
+        "biblicalReference": "Ph 4, 8.9b",
+        "content": "Frères, tout ce qui est vrai et noble, tout ce qui est digne d’être aimé et honoré, tout ce qui s’appelle vertu et qui mérite des éloges, tout cela, prenez-le à votre compte. Et le Dieu de la paix sera avec vous."
+      },
+      "responsory": "V/ Je chanterai justice et bonté :<br> à toi mes hymnes, Seigneur !<br>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "bienheureuse-la-femme"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_121",
@@ -132,44 +169,19 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 28-30",
+      "biblicalReference": "Rm 8, 28-30",
       "content": "Nous le savons, quand les hommes aiment Dieu, lui-même fait tout contribuer à leur bien, puisqu’ils sont appelés selon le dessein de son amour. Ceux qu’il connaissait par avance, il les a aussi destinés à être l’image de son Fils, pour faire de ce Fils l’aîné d’une multitude de frères. Ceux qu’il destinait à cette ressemblance, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes ; et ceux qu’il a justifiés, il leur a donné sa gloire."
     },
-    "hymn": [
-      "bienheureuse-la-femme"
-    ],
-    "evangelicAntiphon": "Mon cœur exulte à cause du Seigneur ; mon cœur se dilate à cause de mon Dieu : je suis dans la joie de son salut.",
-    "intercession": "<p>R/Souviens-toi, Seigneur, de ton Église !</p>  <p>Par les martyres qui n’ont pas craint d’affronter la mort,<br> — donne à ton Église le courage dans les épreuves.</p>  <p>Par les épouses qui ont vécu dans la sainteté,<br> — accorde à ton Église d’être le ferment de salut que tu offres au monde.</p>  <p>Par les veuves qui ont consacré leur solitude à la prière et à la charité,<br> — fais de ton Église le lieu où s’accomplit le dessein de ton amour.</p>  <p>Par les mères de famille que tu as bénies dans leurs enfants,<br> — donne à ton Église d’engendrer tous les hommes à une vie nouvelle.</p>  <p>Par toutes les saintes qui ont reçu la grâce de contempler ton visage,<br> — accorde aux défunts la joie de te voir sans fin.</p>",
-    "responsory": "R/ Allégresse pour qui s’abrite en toi,<br> joie éternelle !<br> V/ Tu les protèges, en toi ils exultent. R/ <br> V/ Tu bénis ceux qui aiment ton nom. R/ <br>"
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Sur mes serviteurs et mes servantes, je répandrai mon esprit.",
-      "reading": {
-        "ref": "Ga 6, 8",
-        "content": "Ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle."
-      },
-      "responsory": "V/ Heureux qui suit la loi du Seigneur,<br> heureux qui le cherche de tout cœur.<br>"
+    "responsory": "R/ Allégresse pour qui s’abrite en toi,<br> joie éternelle !<br> V/ Tu les protèges, en toi ils exultent. R/ <br> V/ Tu bénis ceux qui aiment ton nom. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Mon cœur exulte à cause du Seigneur ; mon cœur se dilate à cause de mon Dieu : je suis dans la joie de son salut."
     },
-    "sexte": {
-      "antiphon": "Mon cœur et ma chair crient de joie vers toi, ô Dieu vivant !",
-      "reading": {
-        "ref": "1 Co 9, 26-27a",
-        "content": "Moi, si je cours, ce n’est pas sans fixer le but ; si je fais de la lutte, ce n’est pas en frappant dans le vide. Mais je traite durement mon corps, et je le réduis en esclavage."
-      },
-      "responsory": "V/ J’ai trouvé celui que mon cœur aime,<br> je l’ai saisi et ne le lâcherai pas.<br>"
-    },
-    "none": {
-      "antiphon": "Je suis à mon bien-aimé, et mon bien-aimé est à moi.",
-      "reading": {
-        "ref": "Ph 4, 8.9b",
-        "content": "Frères, tout ce qui est vrai et noble, tout ce qui est digne d’être aimé et honoré, tout ce qui s’appelle vertu et qui mérite des éloges, tout cela, prenez-le à votre compte. Et le Dieu de la paix sera avec vous."
-      },
-      "responsory": "V/ Je chanterai justice et bonté :<br> à toi mes hymnes, Seigneur !<br>"
+    "intercession": {
+      "content": "<p>R/Souviens-toi, Seigneur, de ton Église !</p>  <p>Par les martyres qui n’ont pas craint d’affronter la mort,<br> — donne à ton Église le courage dans les épreuves.</p>  <p>Par les épouses qui ont vécu dans la sainteté,<br> — accorde à ton Église d’être le ferment de salut que tu offres au monde.</p>  <p>Par les veuves qui ont consacré leur solitude à la prière et à la charité,<br> — fais de ton Église le lieu où s’accomplit le dessein de ton amour.</p>  <p>Par les mères de famille que tu as bénies dans leurs enfants,<br> — donne à ton Église d’engendrer tous les hommes à une vie nouvelle.</p>  <p>Par toutes les saintes qui ont reçu la grâce de contempler ton visage,<br> — accorde aux défunts la joie de te voir sans fin.</p>"
     }
   },
-  "commonTitle": "Commun des Saintes",
-  "liturgicalColor": "white",
-  "oration": "Tu nous réjouis, Seigneur, par l’anniversaire de sainte N. ; tandis que nous la célébrons dans nos prières, fais que nous l’imitions par la sainteté de notre vie.",
-  "oration2": "Répands sur nous, Seigneur, cet esprit de contemplation et d’amour dont tu as comblé ta servante N. ; puissions-nous, en cherchant à te servir comme elle, croire et vivre de manière à te plaire."
+  "oration": [
+    "Tu nous réjouis, Seigneur, par l’anniversaire de sainte N. ; tandis que nous la célébrons dans nos prières, fais que nous l’imitions par la sainteté de notre vie.",
+    "Répands sur nous, Seigneur, cet esprit de contemplation et d’amour dont tu as comblé ta servante N. ; puissions-nous, en cherchant à te servir comme elle, croire et vivre de manière à te plaire."
+  ]
 }

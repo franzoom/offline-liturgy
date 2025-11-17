@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Za 9, 9a",
+      "biblicalReference": "Za 9, 9a",
       "content": "Exulte de toutes tes forces, fille de Sion&nbsp;! Pousse des cris de joie, fille de Jérusalem&nbsp;! Voici ton roi qui vient vers toi&nbsp;: il est juste et victorieux, humble et monté sur un âne, un âne tout jeune."
     },
-    "evangelicAntiphon": "Palmes à la main, allons au devant du Seigneur en chantant&nbsp;; Béni sois-tu, Seigneur.",
-    "intercession": "<p>Avec toutes les nations, suivons le Roi Jésus qui entre dans sa ville en triomphateur.</p> <p>R/ Fils de David, sauve-nous&nbsp;!</p> <p>Tu montes à Jérusalem, où tu seras jugé.</p> <p>Tu reçois l’acclamation de ton peuple,<br>et tu seras rejeté.</p> <p>Tu viens dans la douceur, assis sur un âne,<br>et tu seras cloué en croix.</p> <p>Tu foules un chemin de gloire,<br>et tu mourras humilié.</p> ",
     "responsory": "<p>R/ Portes, levez vos frontons&nbsp;:<br>  * Qu’il entre, le roi de gloire&nbsp;!<br> V/ Élevez-vous, portes éternelles&nbsp;: * <br> V/ C’est le Seigneur, Dieu de l’univers. * <br></p>",
-    "oration": "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Palmes à la main, allons au devant du Seigneur en chantant&nbsp;; Béni sois-tu, Seigneur."
+    },
+    "intercession": {
+      "content": "<p>Avec toutes les nations, suivons le Roi Jésus qui entre dans sa ville en triomphateur.</p> <p>R/ Fils de David, sauve-nous&nbsp;!</p> <p>Tu montes à Jérusalem, où tu seras jugé.</p> <p>Tu reçois l’acclamation de ton peuple,<br>et tu seras rejeté.</p> <p>Tu viens dans la douceur, assis sur un âne,<br>et tu seras cloué en croix.</p> <p>Tu foules un chemin de gloire,<br>et tu mourras humilié.</p> "
+    },
+    "oration": [
+      "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Gloire à toi, Sauveur des humbles&nbsp;:<br> tu nous élèves en ta victoire.</p> <p>Jésus se dépouilla lui-même&nbsp;:<br> prenant la condition d’esclave,<br> il se rendit semblable aux hommes.</p> <p>À son aspect, reconnu pour un homme,<br> il s’abaissa, en se faisant obéissant<br> jusqu’à la mort, et la mort de la croix.</p> <p>C’est pourquoi Dieu l’a élevé<br> et lui a donné le Nom<br> qui l’emporte sur tout nom.</p>"
     },
     "verse": "<p>V/ Quand j’aurai été élevé de terre,<br>j’attirerai à moi tous les hommes.</p>",
-    "oration": "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    "oration": [
+      "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_22",
+        "antiphon": [
+          "Ant. Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout. Ant. Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père. Ant. Pour moi, vivre, c’est le Christ et mourir est un gain, j’ai mis ma fierté dans la croix du Seigneur. <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_75_1"
+      },
+      {
+        "psalm": "PSALM_75_2"
+      }
+    ],
+    "oration": [
+      "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Ac 13, 26b-30",
+      "biblicalReference": "Ac 13, 26b-30",
       "content": "Frères, c’est à nous tous que ce message de salut a été envoyé. En effet, les habitants de Jérusalem et leurs chefs n’avaient pas su reconnaître Jésus, ni comprendre les paroles des prophètes qu’on lit chaque sabbat&nbsp;; et pourtant ils ont accompli ces mêmes paroles quand ils l’ont jugé. Sans avoir trouvé en lui aucun motif de condamnation à mort, ils ont réclamé à Pilate son exécution. Et, après avoir réalisé tout ce qui était écrit de lui, ils l’ont descendu de la croix et mis au tombeau. Mais Dieu l’a ressuscité d’entre les morts."
     },
-    "evangelicAntiphon": "Il est écrit&nbsp;: je frapperai le Pasteur et les brebis se disperseront. Quand je reviendrai du séjour des morts, je vous précéderai en Galilée.",
-    "intercession": "<p>Jésus, le Roi des siècles, entre à Jérusalem&nbsp;; il marche vers sa mort&nbsp;; implorons-le&nbsp;:</p> <p>R/ Oublie notre péché, prends pitié de nous&nbsp;!</p> <p>Jésus, Fils de David,<br> comme un voleur tu auras les mains liées.</p> <p>Jésus, Fils de David,<br> comme une pierre inutile tu seras rejeté.</p> <p>Jésus, Fils de David,<br> comme un prophète tu seras tué hors de la ville.</p> <p>Jésus, Fils de David,<br> comme un agneau tu seras immolé.</p> <p>Jésus, fils de l’homme et Fils de Dieu,<br> fais entrer nos morts dans la Jérusalem céleste.</p> ",
     "responsory": "<p>R/ Nous t’adorons, ô Christ,<br> nous te bénissons.<br> V/ Tu as racheté le monde par ta croix.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_22",
-        "antiphon": [
-          "Ant. Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout. Ant. Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père. Ant. Pour moi, vivre, c’est le Christ et mourir est un gain, j’ai mis ma fierté dans la croix du Seigneur. <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_75_1"
-      },
-      {
-        "psalm": "PSALM_75_2"
-      }
-    ],
-    "oration": "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Il est écrit&nbsp;: je frapperai le Pasteur et les brebis se disperseront. Quand je reviendrai du séjour des morts, je vous précéderai en Galilée."
+    },
+    "intercession": {
+      "content": "<p>Jésus, le Roi des siècles, entre à Jérusalem&nbsp;; il marche vers sa mort&nbsp;; implorons-le&nbsp;:</p> <p>R/ Oublie notre péché, prends pitié de nous&nbsp;!</p> <p>Jésus, Fils de David,<br> comme un voleur tu auras les mains liées.</p> <p>Jésus, Fils de David,<br> comme une pierre inutile tu seras rejeté.</p> <p>Jésus, Fils de David,<br> comme un prophète tu seras tué hors de la ville.</p> <p>Jésus, Fils de David,<br> comme un agneau tu seras immolé.</p> <p>Jésus, fils de l’homme et Fils de Dieu,<br> fais entrer nos morts dans la Jérusalem céleste.</p> "
+    },
+    "oration": [
+      "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix&nbsp;: accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+    ]
   }
 }

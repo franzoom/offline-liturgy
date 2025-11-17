@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Ne 8, 9.10",
+      "biblicalReference": "Ne 8, 9.10",
       "content": "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas&nbsp;! Car ce jour est consacré à notre Dieu&nbsp;! Ne vous affligez pas&nbsp;: la joie du Seigneur est votre rempart&nbsp;!"
     },
-    "evangelicAntiphon": "Christ a détruit la mort, et par son Évangile, il fait resplendir la vie.",
-    "intercession": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> ",
     "responsory": "<p>R/ La joie du Seigneur est notre rempart&nbsp;!<br> V/ Tu es béni, Seigneur notre Dieu,<br>d’éternité en éternité.&nbsp;R/ <br> V/ Que soit béni ton nom glorieux, <br>que terre et ciel te chantent sans fin.&nbsp;R/ <br> V/ Gloire et puissance au Père et au Fils, <br>au Saint-Esprit qui chante en nos cœurs.&nbsp;R/ <br></p>",
-    "oration": "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    "evangelicAntiphon": {
+      "common": "Christ a détruit la mort, et par son Évangile, il fait resplendir la vie."
+    },
+    "intercession": {
+      "content": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> "
+    },
+    "oration": [
+      "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Sur le visage du Christ<br> rayonne la gloire de Dieu.</p> <p>La loi fut donnée par Moïse,<br> la grâce et la vérité<br> sont venues par Jésus Christ.</p> <p>Personne n’a jamais vu Dieu.<br> Le Fils unique qui est dans le sein du Père<br> nous l’a fait connaître.</p>"
     },
     "verse": "<p>V/ Du sein de la nuée, la voix du Père a retenti&nbsp;:<br> Voici mon Fils, mon bien-aimé. Écoutez-le.</p>",
-    "oration": "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    "oration": [
+      "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_22",
+        "antiphon": [
+          "Passerais-je un ravin de ténèbres, je ne crains aucun mal."
+        ]
+      },
+      {
+        "psalm": "PSALM_75_1"
+      },
+      {
+        "psalm": "PSALM_75_2"
+      }
+    ],
+    "oration": [
+      "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 9, 24-25",
+      "biblicalReference": "1 Co 9, 24-25",
       "content": "Vous savez bien que, dans les courses du stade, tous les coureurs prennent le départ, mais un seul gagne le prix. Alors, vous, courez de manière à l’emporter. Tous les athlètes à l’entraînement s’imposent une discipline sévère&nbsp;; ils le font pour gagner une couronne de laurier qui va se faner, et nous, pour une couronne qui ne se fane pas."
     },
-    "evangelicAntiphon": "Ne dites pas ce que vous avez vu, avant que le Fils de l’homme ne ressuscite d’entre les morts.",
-    "intercession": "<p>Toi qui nous donnes la grâce de croire en toi, Sei­gneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui juge tes signes<br> comme les fables d’un monde enfant,</p> <p>Pour celui qui a de la peine à espérer en toi<br> et qui mise sur d’autres espoirs,</p> <p>Pour celui que ta louange ennuie<br> et qui reste indifférent à ta promesse,</p> <p>Pour ceux dont les yeux se sont fermés,<br> afin qu’ils s’ouvrent à ta lumière,</p> ",
     "responsory": "<p>R/ Pour le combat tu m’emplis de vaillance,<br>  *  Dieu de ma victoire.<br> V/ Que ta justice me conduise,  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_22",
-        "antiphon": [
-          "Passerais-je un ravin de ténèbres, je ne crains aucun mal."
-        ]
-      },
-      {
-        "psalm": "PSALM_75_1"
-      },
-      {
-        "psalm": "PSALM_75_2"
-      }
-    ],
-    "oration": "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    "evangelicAntiphon": {
+      "common": "Ne dites pas ce que vous avez vu, avant que le Fils de l’homme ne ressuscite d’entre les morts."
+    },
+    "intercession": {
+      "content": "<p>Toi qui nous donnes la grâce de croire en toi, Sei­gneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui juge tes signes<br> comme les fables d’un monde enfant,</p> <p>Pour celui qui a de la peine à espérer en toi<br> et qui mise sur d’autres espoirs,</p> <p>Pour celui que ta louange ennuie<br> et qui reste indifférent à ta promesse,</p> <p>Pour ceux dont les yeux se sont fermés,<br> afin qu’ils s’ouvrent à ta lumière,</p> "
+    },
+    "oration": [
+      "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin&nbsp;: et nous aurons le regard assez pur pour discerner ta gloire."
+    ]
   }
 }

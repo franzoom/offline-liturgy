@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 2, 3",
+      "biblicalReference": "Is 2, 3",
       "content": "Venez, montons à la montagne du Seigneur, au temple du Dieu de Jacob. Il nous enseignera ses chemins et nous suivrons ses sentiers. Car c’est de Sion que vient la Loi, de Jérusalem la parole du Seigneur."
     },
-    "evangelicAntiphon": "Du ciel viendra le Seigneur souverain&nbsp;: en sa main, la gloire et la puissance.",
-    "intercession": "<p>Frères bien-aimés, prions le Christ qui vient sauver de la mort ceux qui se tournent vers lui&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, source de vie&nbsp;!</p> <p>Alors que nous proclamons ta venue, purifie notre cœur de tout esprit de vanité.</p> <p>Que ton Église, fondée par toi sur le roc de ta parole, te sanctifie parmi toutes les nations.</p> <p>Que ta loi, lumière de nos yeux, protège et soutienne ceux qui comptent sur toi.</p> <p>Tu as donné mission à ton Église d’annoncer la joie de ta venue, accorde-nous de t’accueillir avec ferveur.</p> ",
-    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Du ciel viendra le Seigneur souverain&nbsp;: en sa main, la gloire et la puissance."
+    },
+    "intercession": {
+      "content": "<p>Frères bien-aimés, prions le Christ qui vient sauver de la mort ceux qui se tournent vers lui&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, source de vie&nbsp;!</p> <p>Alors que nous proclamons ta venue, purifie notre cœur de tout esprit de vanité.</p> <p>Que ton Église, fondée par toi sur le roc de ta parole, te sanctifie parmi toutes les nations.</p> <p>Que ta loi, lumière de nos yeux, protège et soutienne ceux qui comptent sur toi.</p> <p>Tu as donné mission à ton Église d’annoncer la joie de ta venue, accorde-nous de t’accueillir avec ferveur.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br> Car le Seigneur vient.</p> <p>Je vis un ciel nouveau, une nouvelle terre&nbsp;;<br> plus de pleurs, plus de cris, plus de peine&nbsp;:<br> Car le Seigneur vient.</p> <p>Dieu aura sa demeure parmi nous,<br> nous serons son peuple et lui, Dieu, sera avec nous&nbsp;:<br> Car le Seigneur vient.</p> <p>Nous ne chercherons plus l’éclat du soleil,<br> la gloire de Dieu nous illuminera&nbsp;:<br> Car le Seigneur vient.</p> <p>Que l’univers chante et crie de joie&nbsp;:<br> Car le Seigneur vient.</p>"
     },
     "verse": "<p>V/ Montre-nous, Seigneur, ta bonté,<br> donne-nous enfin le Sauveur.</p>",
-    "oration": "Prête l’oreille à nos prières, Seigneur&nbsp;: que la venue de ton Fils au milieu de nous éclaire la nuit de nos cœurs. Lui qui règne."
+    "oration": [
+      "Prête l’oreille à nos prières, Seigneur&nbsp;: que la venue de ton Fils au milieu de nous éclaire la nuit de nos cœurs. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_12",
+        "antiphon": [
+          "Je revivrai les exploits du Seigneur, et ma langue redira sa justice."
+        ]
+      },
+      {
+        "psalm": "PSALM_70_1"
+      },
+      {
+        "psalm": "PSALM_70_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "Ph 3, 20b-21",
+      "biblicalReference": "Ph 3, 20b-21",
       "content": "Nous attendons comme Sauveur le Seigneur Jésus Christ, lui qui transformera nos pauvres corps à l’image de son corps glorieux, avec la puissance qui le rend capable aussi de tout dominer."
     },
-    "evangelicAntiphon": "Dieu s’est penché sur son humble servante, tous les âges me diront bienheureuse.",
-    "intercession": "<p>Frères bien-aimés, présentons nos demandes au Christ,<br> le Juge des vivants et des morts&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, semence de vie&nbsp;!</p> <p>Que le monde te reçoive, germe de justice,<br> et que ta gloire habite notre terre.</p> <p>Dans ta bonté pour nous, tu as partagé notre faiblesse humaine&nbsp;;<br> accorde aux hommes le secours de ta puissance divine.</p> <p>Fais resplendir ta connaissance sur ceux que tu vois prisonniers des ténèbres de l’ignorance.</p> <p>Par ton humiliation, tu as pris sur toi notre injustice&nbsp;;<br> entré maintenant dans la gloire, donne-nous part à sa bénédiction.</p> <p>Tu te manifesteras en venant pour le jugement&nbsp;;<br> conduis nos frères défunts jusqu’à ton Royaume céleste.</p> ",
-    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce<br>  *  Ton nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_12",
-        "antiphon": [
-          "Je revivrai les exploits du Seigneur, et ma langue redira sa justice."
-        ]
-      },
-      {
-        "psalm": "PSALM_70_1"
-      },
-      {
-        "psalm": "PSALM_70_2"
-      }
-    ]
+    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce<br>  *  Ton nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Dieu s’est penché sur son humble servante, tous les âges me diront bienheureuse."
+    },
+    "intercession": {
+      "content": "<p>Frères bien-aimés, présentons nos demandes au Christ,<br> le Juge des vivants et des morts&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, semence de vie&nbsp;!</p> <p>Que le monde te reçoive, germe de justice,<br> et que ta gloire habite notre terre.</p> <p>Dans ta bonté pour nous, tu as partagé notre faiblesse humaine&nbsp;;<br> accorde aux hommes le secours de ta puissance divine.</p> <p>Fais resplendir ta connaissance sur ceux que tu vois prisonniers des ténèbres de l’ignorance.</p> <p>Par ton humiliation, tu as pris sur toi notre injustice&nbsp;;<br> entré maintenant dans la gloire, donne-nous part à sa bénédiction.</p> <p>Tu te manifesteras en venant pour le jugement&nbsp;;<br> conduis nos frères défunts jusqu’à ton Royaume céleste.</p> "
+    }
   }
 }

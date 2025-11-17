@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 45, 8",
+      "biblicalReference": "Is 45, 8",
       "content": "Que les cieux distillent la rosée, que les nuages répandent la justice, que la terre s’entrouvre et que le salut s’épanouisse, que la justice fasse éclater en même temps tous ses bourgeons."
     },
-    "evangelicAntiphon": "Je viens à ton secours, je suis ton Rédempteur, le Saint d’Israël.",
-    "intercession": "<p>Seigneur Jésus, venu du sein du Père pour partager notre vie,<br> libère-nous de tout ce qui nous retient loin de toi et loin de nos frères.</p> <p>R/ Visite-nous, Seigneur, dans ta miséricorde&nbsp;!</p> <p>Toi qui viendras manifester ta gloire à tes élus,<br> —&nbsp;creuse dans nos cœurs une attente aussi vaste que tes promesses.</p> <p>Toi qui nous conduis par la lumière de la foi,<br> —&nbsp;donne-nous imagination et courage pour accorder notre vie à notre foi.</p> <p>Toi qui frémissais de compassion devant les souffrances des hommes,<br> —&nbsp;soutiens les malades et ceux qui les soignent.</p> <p>Toi qui es venu offrir à tous les hommes le salut promis à Israël,<br> —&nbsp;protège ton Église contre toute ségrégation en elle-même et dans le monde.</p> ",
-    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Je viens à ton secours, je suis ton Rédempteur, le Saint d’Israël."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, venu du sein du Père pour partager notre vie,<br> libère-nous de tout ce qui nous retient loin de toi et loin de nos frères.</p> <p>R/ Visite-nous, Seigneur, dans ta miséricorde&nbsp;!</p> <p>Toi qui viendras manifester ta gloire à tes élus,<br> —&nbsp;creuse dans nos cœurs une attente aussi vaste que tes promesses.</p> <p>Toi qui nous conduis par la lumière de la foi,<br> —&nbsp;donne-nous imagination et courage pour accorder notre vie à notre foi.</p> <p>Toi qui frémissais de compassion devant les souffrances des hommes,<br> —&nbsp;soutiens les malades et ceux qui les soignent.</p> <p>Toi qui es venu offrir à tous les hommes le salut promis à Israël,<br> —&nbsp;protège ton Église contre toute ségrégation en elle-même et dans le monde.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ Toute chair saura,<br> que le Seigneur est notre Sauveur&nbsp;!</p> <p>Montre-nous ton visage,<br> et nous serons sauvés.</p> <p>Dieu lève-toi sur les cieux&nbsp;:<br> que ta gloire domine la terre&nbsp;!</p> <p>Ton amour vaut mieux que la vie.<br> Tu seras la louange de mes rêves.</p>"
     },
     "verse": "<p>V/ Ecoutez, tous les peuples, la parole du Seigneur,<br> annoncez-la aux îles lointaines.<br></p>",
-    "oration": "Réveille-nous, Seigneur, décide-nous à préparer les chemins de ton Fils, afin que, par le mystère de sa venue, nous puissions te servir d’un cœur purifié."
+    "oration": [
+      "Réveille-nous, Seigneur, décide-nous à préparer les chemins de ton Fils, afin que, par le mystère de sa venue, nous puissions te servir d’un cœur purifié."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_9",
+        "antiphon": [
+          "Voici le Roi, le Seigneur de la terre&nbsp;: il ôtera le joug qui nous opprime."
+        ]
+      },
+      {
+        "psalm": "PSALM_55"
+      },
+      {
+        "psalm": "PSALM_56"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "Jc 5, 7-8.9b",
+      "biblicalReference": "Jc 5, 7-8.9b",
       "content": "Frères, en attendant la venue du Seigneur, ayez de la patience. Voyez le cultivateur&nbsp;: il attend les produits précieux de la terre avec patience, jusqu’à ce qu’il ait fait la première et la dernière récoltes. Ayez de la patience, vous aussi, et soyez fermes, car la venue du Seigneur est proche. Voyez&nbsp;: le Juge est à notre porte."
     },
-    "evangelicAntiphon": "Il était avant moi, celui qui vient après moi.",
-    "intercession": "<p>Verbe éternel, dans ces temps qui sont les derniers, tu as pris notre nature, fais de notre vie une marche vers le Royaume des cieux.</p> <p>R/ Viens, Seigneur Jésus&nbsp;!</p> <p>Vraie lumière, qui éclaires tout homme en ce monde,<br> —&nbsp;dissipe les ténèbres de notre ignorance.</p> <p>Fils unique, qui es dans le sein du Père,<br> —&nbsp;donne-nous de comprendre combien Dieu nous aime.</p> <p>Christ Jésus, né comme un homme parmi les hommes,<br> —&nbsp;conforme-nous à ton image pour faire de nous des enfants de Dieu.</p> <p>Toi qui brises les portes de nos prisons,<br> —&nbsp;accueille au festin des noces ceux qui mendient leur pain à ta porte.</p> ",
-    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce&nbsp;:<br>  *  Ton Nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_9",
-        "antiphon": [
-          "Voici le Roi, le Seigneur de la terre&nbsp;: il ôtera le joug qui nous opprime."
-        ]
-      },
-      {
-        "psalm": "PSALM_55"
-      },
-      {
-        "psalm": "PSALM_56"
-      }
-    ]
+    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce&nbsp;:<br>  *  Ton Nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Il était avant moi, celui qui vient après moi."
+    },
+    "intercession": {
+      "content": "<p>Verbe éternel, dans ces temps qui sont les derniers, tu as pris notre nature, fais de notre vie une marche vers le Royaume des cieux.</p> <p>R/ Viens, Seigneur Jésus&nbsp;!</p> <p>Vraie lumière, qui éclaires tout homme en ce monde,<br> —&nbsp;dissipe les ténèbres de notre ignorance.</p> <p>Fils unique, qui es dans le sein du Père,<br> —&nbsp;donne-nous de comprendre combien Dieu nous aime.</p> <p>Christ Jésus, né comme un homme parmi les hommes,<br> —&nbsp;conforme-nous à ton image pour faire de nous des enfants de Dieu.</p> <p>Toi qui brises les portes de nos prisons,<br> —&nbsp;accueille au festin des noces ceux qui mendient leur pain à ta porte.</p> "
+    }
   }
 }

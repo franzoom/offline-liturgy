@@ -1,10 +1,11 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Le Seigneur, le Roi des martyrs, venez, adorons-le."
-    ]
+  "celebration": {
+    "color": "red"
   },
   "firstVespers": {
+    "hymn": [
+      "puissance-et-gloire-de-l-esprit"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_117_1",
@@ -26,17 +27,26 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 35.37-38",
+      "biblicalReference": "Rm 8, 35.37-38",
       "content": "Qui pourra nous séparer de l’amour du Christ ? La détresse ? L’angoisse ? La persécution ? La faim ? Le dénuement ? Le danger ? Le supplice ? En tout cela nous sommes les grands vainqueurs grâce à celui qui nous a aimés. J’en ai la certitude : ni la mort ni la vie, ni les esprits ni les puissances, ni le présent ni l’avenir, ni les astres, ni les cieux, ni les abîmes, ni aucune autre créature, rien ne pourra nous séparer de l’amour de Dieu qui est en Jésus Christ notre Seigneur."
     },
-    "hymn": [
-      "puissance-et-gloire-de-l-esprit"
-    ],
-    "evangelicAntiphon": "Jusqu’à la mort il a combattu pour la loi de son Dieu ; il avait construit sa maison sur le roc.",
-    "intercession": "<p>Nous souvenant, en cette fin de journée, du repas où le Roi des martyrs offrit sa vie pour nous, et de la croix où il remit son esprit à son Père, disons-lui notre amour :</p>  <p>R/Seigneur Jésus, nous t’adorons !</p>  <p>Toi qui nous as aimés jusqu’au bout,<br> tu es la source du courage, le modèles des martyrs, loué sois-tu !</p>  <p>Toi qui appelles tous les pécheurs,<br> et leur offres la vie, loué sois-tu !</p>  <p>Toi qui as confié à ton Église le sacrement de l’Alliance nouvelle pour la rémission des péchés, loué sois-tu !</p>  <p>Toi qui nous donnes aujourd’hui la grâce de la foi, loué sois-tu !</p>  <p>Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !</p>",
-    "responsory": "R/ Il n’est pas de plus grand amour<br> que de donner sa vie pour ceux qu’on aime.<br> V/ Ma vie, nul ne la prend ;<br> c’est moi qui la donne. R/ <br> V/ Faites entre vous<br> comme j’ai fait pour vous. R/ <br>"
+    "responsory": "R/ Il n’est pas de plus grand amour<br> que de donner sa vie pour ceux qu’on aime.<br> V/ Ma vie, nul ne la prend ;<br> c’est moi qui la donne. R/ <br> V/ Faites entre vous<br> comme j’ai fait pour vous. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Jusqu’à la mort il a combattu pour la loi de son Dieu ; il avait construit sa maison sur le roc."
+    },
+    "intercession": {
+      "content": "<p>Nous souvenant, en cette fin de journée, du repas où le Roi des martyrs offrit sa vie pour nous, et de la croix où il remit son esprit à son Père, disons-lui notre amour :</p>  <p>R/Seigneur Jésus, nous t’adorons !</p>  <p>Toi qui nous as aimés jusqu’au bout,<br> tu es la source du courage, le modèles des martyrs, loué sois-tu !</p>  <p>Toi qui appelles tous les pécheurs,<br> et leur offres la vie, loué sois-tu !</p>  <p>Toi qui as confié à ton Église le sacrement de l’Alliance nouvelle pour la rémission des péchés, loué sois-tu !</p>  <p>Toi qui nous donnes aujourd’hui la grâce de la foi, loué sois-tu !</p>  <p>Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !</p>"
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Le Seigneur, le Roi des martyrs, venez, adorons-le."
+    ]
   },
   "morning": {
+    "hymn": [
+      "si-l-esperance-t-a-fait-marcher"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -58,17 +68,21 @@
       }
     ],
     "reading": {
-      "ref": "2Co 1,3-5",
+      "biblicalReference": "2Co 1,3-5",
       "content": "Béni soit Dieu, le Père de notre Seigneur Jésus Christ, le Père plein de tendresse,  le Dieu de qui vient tout réconfort. Dans nos détresses, il nous réconforte ; ainsi,  nous pouvons réconforter tous ceux qui sont dans la détresse, grâce au réconfort  que nous recevons nous-mêmes de Dieu. De même que nous avons largement part aux souffrances  du Christ, de même, par le Christ, nous sommes largement réconfortés."
     },
-    "hymn": [
-      "si-l-esperance-t-a-fait-marcher"
-    ],
-    "evangelicAntiphon": "Qui perd sa vie en ce monde la trouve pour l’éternité.",
-    "intercession": "<p>Avec les martyrs qui ont donné leur vie pour la Parole de Dieu, louons notre Sauveur, le témoin fidèle :</p> <p>R/Nous t’acclamons, Seigneur de gloire !</p> <p>Par les martyrs qui ont accepté de mourir pour témoigner de la foi,<br> — donne-nous l’esprit de liberté.</p> <p>Par les martyrs qui ont versé leur sang pour confesser ton nom,<br> — accorde-nous la force de la foi.</p> <p>Par les martyrs qui t’ont suivi sur le chemin de la croix,<br> — fortifie-nous dans les épreuves.</p> <p>Par les martyrs qui ont lavé leur robe dans le sang de l’Agneau,<br> — fais-nous vaincre les tentations de ce monde.</p>",
-    "responsory": "R/ Le Seigneur est ma force et mon rempart :<br> * Mon cœur lui fait confiance.<br> V/ Ma chair a refleuri,<br> mes chants lui rendent grâce. * Mon cœur.<br> Gloire au Père. R/ Le Seigneur.<br>"
+    "responsory": "R/ Le Seigneur est ma force et mon rempart :<br> * Mon cœur lui fait confiance.<br> V/ Ma chair a refleuri,<br> mes chants lui rendent grâce. * Mon cœur.<br> Gloire au Père. R/ Le Seigneur.<br>",
+    "evangelicAntiphon": {
+      "common": "Qui perd sa vie en ce monde la trouve pour l’éternité."
+    },
+    "intercession": {
+      "content": "<p>Avec les martyrs qui ont donné leur vie pour la Parole de Dieu, louons notre Sauveur, le témoin fidèle :</p> <p>R/Nous t’acclamons, Seigneur de gloire !</p> <p>Par les martyrs qui ont accepté de mourir pour témoigner de la foi,<br> — donne-nous l’esprit de liberté.</p> <p>Par les martyrs qui ont versé leur sang pour confesser ton nom,<br> — accorde-nous la force de la foi.</p> <p>Par les martyrs qui t’ont suivi sur le chemin de la croix,<br> — fortifie-nous dans les épreuves.</p> <p>Par les martyrs qui ont lavé leur robe dans le sang de l’Agneau,<br> — fais-nous vaincre les tentations de ce monde.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "sauveur-du-monde-o-maitre"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_2",
@@ -101,12 +115,38 @@
       "content": "Les exploits glorieux des martyrs, qui font en tout lieu l’ornement de l’Église, nous permettent de comprendre par nous-mêmes la vérité de ce que nous avons chanté : <i>Aux yeux du Seigneur, la mort de ses saints a un grand prix</i>. En effet, elle a un grand prix à nos yeux, et aux yeux de celui pour le nom duquel ils sont morts. Mais le prix de toutes ces morts, c’est la mort d’un seul. Combien de morts a-t-il achetées, en mourant à lui seul, puisque, s’il n’était pas mort, le grain de blé ne se serait pas multiplié? Vous avez entendu ce qu’il disait lorsqu’il approchait de sa passion, c’est-à-dire alors qu’il approchait de notre rédemption : <i>Si le grain de blé tombé en terre ne meurt pas, il reste seul ; mais s’il meurt, il porte beaucoup de fruit</i>. Car sur la croix s est réalisée une affaire grandiose. C’est là que s’est ouverte la bourse contenant le prix de notre rançon : quand son côté a été ouvert par la lance qui le frappait, ce qui en a jailli, c’est le prix de l’univers. Les fidèles et les martyrs ont été achetés ; mais la foi des martyrs a fait ses preuves, leur sang en est témoin. Ce qui a été dépensé pour eux, ils l’ont rendu, et ils ont accompli la parole de saint Jean : <i>Le Christ a donné sa vit pour nous; nous aussi, nous devons donner notre vie pour nos frères</i>. Il est dit ailleurs : <i>Lorsque tu t’assieds à une table magnifique, regarde bien ce que l’on te sert, car il faut que tu en prépares autant</i>. C’est une table magnifique, celle où l’on mange le maître du banquet lui-même. Personne ne nourrit ses invités avec lui-même : c’est ce que fait le Christ Seigneur. Il est l’hôte qui invite, il est lui-même la nourriture et la boisson. Les martyrs ont donc fait attention à ce qu’ils mangeaient et buvaient, pour pouvoir en rendre autant. Mais comment auraient-ils pu en rendre autant, si celui qui a fait la première dépense ne leur avait donné de quoi lui rendre ? Aussi, qu’est-ce que nous recommande le psaume où nous avons chanté cette parole : <i>Aux veux du Seigneur, la mort de ses saints a un grand prix ?</i> L’homme a considéré combien il a reçu de Dieu; il a passé en revue combien la grâce du Tout-Puissant l’a comblé : il l’a créé ; après sa chute, il l’a cherché ; l’ayant trouvé, il lui a pardonné ; il a aidé ses pauvres forces dans le combat ; il ne l’a pas quitté lorsqu’il défaillait ; lorsqu’il a été vainqueur, il l’a couronné et il s’est donné lui-même en récompense. Lorsqu’il a considéré tout cela, l’homme s’est écrié : <i>Comment rendrai-je au Seigneur tout le bien qu’il m’a fait ? J’élèverai la coupe du salut</i>. Quelle est cette coupe ? La coupe amère et salubre de la passion ; la coupe que le malade craindrait de toucher, si le médecin n’y avait bu le premier. Voici quelle est cette coupe, nous reconnaissons qu’elle s’approche des lèvres du Christ, lorsqu’il dit : <i>Père, si c’est possible, que cette coupe passe loin de moi !</i> C’est de cette coupe que les martyrs ont dit : <i>J’élèverai la coupe du salut, et j’invoquerai le nom du Seigneur</i>. Tu ne crains donc pas de défaillir ? Non, répond-il. Pourquoi ? Parce que <i>j’invoquerai le nom du Seigneur</i>. Comment les martyrs seraient-ils victorieux, s’il n’était pas victorieux dans les martyrs, celui qui a dit : <i>Réjouissez-vous, parce que j’ai vaincu le monde</i>. Le Souverain des cieux dirigeait leur âme et leur langue, par eux il triomphait du diable sur terre, et au ciel il couronnait les martyrs. Heureux ceux qui ont bu ainsi à cette coupe ! Ils sont délivrés de leurs douleurs, ils sont comblés d’honneurs. Soyez donc attentifs, mes très chers : ce qui échappe à vos yeux, pensez-y dans votre âme et votre cœur, et constatez qu’<i>aux yeux du Seigneur, la mort de ses amis a un grand prix</i>.",
       "responsory": "<p>R/ Qui perd sa vie la trouvera !</p><p>Il n’est pas de plus grand amour,<br>que de mourir pour celui qu’on aime.</p><p>Entourés que nous sommes de témoins,<br>marchons les yeux fixés sur le Christ.</p>"
     },
-    "hymn": [
-      "sauveur-du-monde-o-maitre"
-    ],
     "verse": "V/ Je suis saisi par la détresse et l’angoisse ;<br> dans tes volontés, j’ai tout mon plaisir."
   },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Dieu lui a donné la palme des vainqueurs, car la Sagesse est plus forte que tout.",
+      "reading": {
+        "biblicalReference": "1 P 5, 10-11",
+        "content": "Dieu, qui donne toute grâce, lui qui vous a appelés dans le Christ à sa gloire  éternelle, vous rétablira, après que vous aurez souffert un peu de temps ; il vous  affermira, vous fortifiera, vous rendra inébranlables. À lui la puissance pour tous  les siècles. Amen."
+      },
+      "responsory": "V/ Le Seigneur l’a revêtu de la robe d’allégresse,<br> il a posé sur sa tête une couronne de beauté.<br>"
+    },
+    "sexte": {
+      "antiphon": "Dieu lui a donné la couronne des justes : il a reçu de lui un nom de gloire.",
+      "reading": {
+        "biblicalReference": "Jc 1, 12",
+        "content": "Heureux l’homme qui supporte l’épreuve avec persévérance, car, une fois vérifiée  sa qualité, il recevra la couronne de la vie comme la récompense promise à ceux qui  aiment Dieu."
+      },
+      "responsory": "V/ Sur Dieu, je prends appui,<br> plus rien ne me fait peur.<br>"
+    },
+    "none": {
+      "antiphon": "Il s’en va en pleurant : il jette la semence ; il s’en vient en chantant : il rapporte les gerbes.",
+      "reading": {
+        "biblicalReference": "Sg 3, 1-2a.3b",
+        "content": "La vie des justes est dans la main de Dieu, aucun tourment n’a de prise sur eux.  Celui qui ne réfléchit pas s’est imaginé qu’ils étaient morts, alors qu’ils sont  dans la paix."
+      },
+      "responsory": "V/ Il s’en vient, il s’en vient dans la joie,<br> il rapporte les gerbes.<br>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "puissance-et-gloire-de-l-esprit"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_114",
@@ -128,44 +168,19 @@
       }
     ],
     "reading": {
-      "ref": "1 P 4, 13-14",
+      "biblicalReference": "1 P 4, 13-14",
       "content": "Puisque vous communiez aux souffrances du Christ, réjouissez-vous, afin d’être  dans la joie et l’allégresse quand sa gloire se révélera. Si l’on vous insulte à  cause du nom du Christ, heureux êtes-vous, puisque l’Esprit de gloire, l’Esprit de  Dieu, repose sur vous."
     },
-    "hymn": [
-      "puissance-et-gloire-de-l-esprit"
-    ],
-    "evangelicAntiphon": "Heureux le vainqueur, entré dans la lumière et dans la paix de son Seigneur !",
-    "intercession": "<p>Nous souvenant, en cette fin de journée, du repas où le Roi des martyrs offrit sa vie pour nous, et de la croix où il remit son esprit à son Père, disons-lui notre amour :</p>  <p>R/Seigneur Jésus, nous t’adorons !</p>  <p>Toi qui nous as aimés jusqu’au bout,<br> tu es la source du courage, le modèles des martyrs, loué sois-tu !</p>  <p>Toi qui appelles tous les pécheurs,<br> et leur offres la vie, loué sois-tu !</p>  <p>Toi qui as confié à ton Église le sacrement de l’Alliance nouvelle pour la rémission des péchés, loué sois-tu !</p>  <p>Toi qui nous donnes aujourd’hui la grâce de la foi, loué sois-tu !</p>  <p>Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !</p>",
-    "responsory": "R/ Tu nous as éprouvés, ô Dieu,<br> * comme un métal qu’on affine.<br> V/ Nous sommes passés par l’eau et le feu, * comme.<br> Gloire au Père. R/ Tu nous as éprouvés."
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Dieu lui a donné la palme des vainqueurs, car la Sagesse est plus forte que tout.",
-      "reading": {
-        "ref": "1 P 5, 10-11",
-        "content": "Dieu, qui donne toute grâce, lui qui vous a appelés dans le Christ à sa gloire  éternelle, vous rétablira, après que vous aurez souffert un peu de temps ; il vous  affermira, vous fortifiera, vous rendra inébranlables. À lui la puissance pour tous  les siècles. Amen."
-      },
-      "responsory": "V/ Le Seigneur l’a revêtu de la robe d’allégresse,<br> il a posé sur sa tête une couronne de beauté.<br>"
+    "responsory": "R/ Tu nous as éprouvés, ô Dieu,<br> * comme un métal qu’on affine.<br> V/ Nous sommes passés par l’eau et le feu, * comme.<br> Gloire au Père. R/ Tu nous as éprouvés.",
+    "evangelicAntiphon": {
+      "common": "Heureux le vainqueur, entré dans la lumière et dans la paix de son Seigneur !"
     },
-    "sexte": {
-      "antiphon": "Dieu lui a donné la couronne des justes : il a reçu de lui un nom de gloire.",
-      "reading": {
-        "ref": "Jc 1, 12",
-        "content": "Heureux l’homme qui supporte l’épreuve avec persévérance, car, une fois vérifiée  sa qualité, il recevra la couronne de la vie comme la récompense promise à ceux qui  aiment Dieu."
-      },
-      "responsory": "V/ Sur Dieu, je prends appui,<br> plus rien ne me fait peur.<br>"
-    },
-    "none": {
-      "antiphon": "Il s’en va en pleurant : il jette la semence ; il s’en vient en chantant : il rapporte les gerbes.",
-      "reading": {
-        "ref": "Sg 3, 1-2a.3b",
-        "content": "La vie des justes est dans la main de Dieu, aucun tourment n’a de prise sur eux.  Celui qui ne réfléchit pas s’est imaginé qu’ils étaient morts, alors qu’ils sont  dans la paix."
-      },
-      "responsory": "V/ Il s’en vient, il s’en vient dans la joie,<br> il rapporte les gerbes.<br>"
+    "intercession": {
+      "content": "<p>Nous souvenant, en cette fin de journée, du repas où le Roi des martyrs offrit sa vie pour nous, et de la croix où il remit son esprit à son Père, disons-lui notre amour :</p>  <p>R/Seigneur Jésus, nous t’adorons !</p>  <p>Toi qui nous as aimés jusqu’au bout,<br> tu es la source du courage, le modèles des martyrs, loué sois-tu !</p>  <p>Toi qui appelles tous les pécheurs,<br> et leur offres la vie, loué sois-tu !</p>  <p>Toi qui as confié à ton Église le sacrement de l’Alliance nouvelle pour la rémission des péchés, loué sois-tu !</p>  <p>Toi qui nous donnes aujourd’hui la grâce de la foi, loué sois-tu !</p>  <p>Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !</p>"
     }
   },
-  "commonTitle": "Commun d'un martyr",
-  "liturgicalColor": "red",
-  "oration": "Dieu de puissance et de miséricorde, toi qui as donné à saint N., ton martyr, de pouvoir triompher dans la souffrance, accorde-nous, en ce jour où nous célébrons sa victoire, d’être toujours, avec ta grâce, plus forts que l’ennemi.",
-  "oration2": "Dieu éternel et tout-puissant, tu as donné à saint N. le courage de mourir pour la liberté de la foi ; que sa prière nous obtienne la grâce de supporter toute adversité par amour pour toi, et de tendre de toutes nos forces jusqu’à toi qui es notre vie.</p> <p class=\"antienne rouge\">pour une vierge martyre</p> <p>Tu nous réjouis chaque année, Seigneur, par la fête de sainte N. qui fut un modèle de pureté et de courage ; accorde-nous aujourd’hui l’appui de ses mérites.</p> <p class=\"antienne rouge\">pour une sainte martyre</p> <p>Dieu qui déploies ta puissance dans la faiblesse, écoute ceux qui célèbrent la gloire de sainte N. : elle a reçu de toi la force de vaincre, qu’elle nous obtienne la grâce de la victoire."
+  "oration": [
+    "Dieu de puissance et de miséricorde, toi qui as donné à saint N., ton martyr, de pouvoir triompher dans la souffrance, accorde-nous, en ce jour où nous célébrons sa victoire, d’être toujours, avec ta grâce, plus forts que l’ennemi.",
+    "Dieu éternel et tout-puissant, tu as donné à saint N. le courage de mourir pour la liberté de la foi ; que sa prière nous obtienne la grâce de supporter toute adversité par amour pour toi, et de tendre de toutes nos forces jusqu’à toi qui es notre vie.</p> <p class=\"antienne rouge\">pour une vierge martyre</p> <p>Tu nous réjouis chaque année, Seigneur, par la fête de sainte N. qui fut un modèle de pureté et de courage ; accorde-nous aujourd’hui l’appui de ses mérites.</p> <p class=\"antienne rouge\">pour une sainte martyre</p> <p>Dieu qui déploies ta puissance dans la faiblesse, écoute ceux qui célèbrent la gloire de sainte N. : elle a reçu de toi la force de vaincre, qu’elle nous obtienne la grâce de la victoire."
+  ]
 }

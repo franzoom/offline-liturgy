@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Rm 6, 8-11",
+      "biblicalReference": "Rm 6, 8-11",
       "content": "Si nous sommes passés par la mort avec le Christ, nous croyons que nous vivrons aussi avec lui. Nous le savons en effet&nbsp;: ressuscité d’entre les morts, le Christ ne meurt plus&nbsp;; sur lui la mort n’a plus aucun pouvoir. Car il est mort, et c’est au péché qu’il est mort une fois pour toutes&nbsp;; lui qui est vivant, c’est pour Dieu qu’il est vivant. De même vous aussi&nbsp;: pensez que vous êtes morts au péché, et vivants pour Dieu en Jésus Christ."
     },
-    "evangelicAntiphon": "Jésus leur expliqua dans toute l’Écriture ce qui le concernait, alléluia&nbsp;!",
-    "intercession": "<p>Jésus Sauveur, manifesté dans la chair,<br> arrache à la mort toute chair mortelle.</p> <p>R/ Jésus Christ, Seigneur, alléluia&nbsp;!</p> <p>Jésus Seigneur, justifié dans l’Esprit,<br> justifie ceux qui confessent ton nom.</p> <p>Roi de gloire, apparu aux anges,<br> règne sur tous les univers.</p> <p>Verbe vivant, proclamé dans les nations,<br> sois leur cri de victoire.</p> <p>Fils de Dieu, reconnu dans le monde,<br> révèle à tous la face du Père.</p> <p>Jésus, notre frère, enlevé dans la gloire,<br> tu reviendras nous prendre avec toi.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Pâque du Chef qui nous libère,<br> Fête des fêtes, Pâque des croyants.&nbsp;R/ <br> V/ Aujourd’hui s’ouvrent les tombeaux,<br> aujourd’hui s’est ouvert le paradis.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Pâque du Chef qui nous libère,<br> Fête des fêtes, Pâque des croyants.&nbsp;R/ <br> V/ Aujourd’hui s’ouvrent les tombeaux,<br> aujourd’hui s’est ouvert le paradis.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jésus leur expliqua dans toute l’Écriture ce qui le concernait, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Jésus Sauveur, manifesté dans la chair,<br> arrache à la mort toute chair mortelle.</p> <p>R/ Jésus Christ, Seigneur, alléluia&nbsp;!</p> <p>Jésus Seigneur, justifié dans l’Esprit,<br> justifie ceux qui confessent ton nom.</p> <p>Roi de gloire, apparu aux anges,<br> règne sur tous les univers.</p> <p>Verbe vivant, proclamé dans les nations,<br> sois leur cri de victoire.</p> <p>Fils de Dieu, reconnu dans le monde,<br> révèle à tous la face du Père.</p> <p>Jésus, notre frère, enlevé dans la gloire,<br> tu reviendras nous prendre avec toi.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>Pourquoi craignez-vous,<br> hommes de peu de foi&nbsp;?</p> <p>R/ Seigneur, nous marchons dans la nuit.</p> <p>Ne fallait-il pas<br> vous donner le pain<br> qui me fait reconnaître&nbsp;?</p> <p>R/ Seigneur, ouvre nos yeux<br> et nous verrons en toi<br> la lumière de Dieu.</p> <p>Ne fallait-il pas<br> que je rende vie<br> à tous ceux qui espèrent&nbsp;?</p> <p>R/ Seigneur, ouvre nos yeux<br> et nous verrons en toi<br> la lumière de Dieu.</p>"
     },
     "verse": "<p>V/ Dieu qui a ressuscité le Seigneur, alléluia.<br>nous ressuscitera aussi par sa puissance, alléluia.</p>",
-    "oration": "Dieu qui nous donnes chaque année la joie de fêter la résurrection du Seigneur, ouvre-nous, à travers ces fêtes d’ici-bas, le chemin vers la joie éternelle."
+    "oration": [
+      "Dieu qui nous donnes chaque année la joie de fêter la résurrection du Seigneur, ouvre-nous, à travers ces fêtes d’ici-bas, le chemin vers la joie éternelle."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_3",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_29_1"
+      },
+      {
+        "psalm": "PSALM_29_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +114,15 @@
       }
     ],
     "reading": {
-      "ref": "He 7, 24-27",
+      "biblicalReference": "He 7, 24-27",
       "content": "Jésus, puisqu’il demeure éternellement, possède le sacerdoce qui ne passe pas. C’est pourquoi il est en mesure de sauver d’une manière définitive ceux qui s’avancent vers Dieu grâce à lui, car il vit pour toujours, afin d’intercéder en leur faveur. C’était bien le grand prêtre qu’il nous fallait&nbsp;: saint, sans tache, sans aucune faute&nbsp;; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple&nbsp;; cela, il l’a fait une fois pour toutes en s’offrant lui-même."
     },
-    "evangelicAntiphon": "Quand il fut à table avec eux, Jésus rendit grâce et rompit le pain. Alors les disciples le reconnurent, alléluia&nbsp;!",
-    "intercession": "<p>R/ Reste avec nous, Seigneur Jésus.</p> <p>Toi qui rejoignais sur le chemin d’Emmaüs tes disciples découragés,<br> soutiens la foi de ceux qui doutent.</p> <p>Toi qui ouvris leur intelligence au sens des Écritures,<br> apprends-nous qu’il faut souffrir avec toi pour entrer dans ta gloire.</p> <p>Toi qui t’es fait reconnaître à la fraction du pain,<br> permets que nos partages révèlent ta présence.</p> <p>Toi qui brûles nos cœurs de la joie de Pâques,<br> fais qu’elle nous porte vers ceux qui s’éloignent tout tristes.</p> <p>Toi le Vivant, qui ne meurs plus,<br> donne ta vie à ceux qui ont connu la mort.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ &nbsp;Pâque du Chef qui nous libère,<br> Fête des fêtes, Pâque des croyants.&nbsp;R/ <br> V/ Aujourd’hui s’ouvrent les tombeaux,<br> aujourd’hui s’est ouvert le paradis.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_3",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_29_1"
-      },
-      {
-        "psalm": "PSALM_29_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ &nbsp;Pâque du Chef qui nous libère,<br> Fête des fêtes, Pâque des croyants.&nbsp;R/ <br> V/ Aujourd’hui s’ouvrent les tombeaux,<br> aujourd’hui s’est ouvert le paradis.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Quand il fut à table avec eux, Jésus rendit grâce et rompit le pain. Alors les disciples le reconnurent, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>R/ Reste avec nous, Seigneur Jésus.</p> <p>Toi qui rejoignais sur le chemin d’Emmaüs tes disciples découragés,<br> soutiens la foi de ceux qui doutent.</p> <p>Toi qui ouvris leur intelligence au sens des Écritures,<br> apprends-nous qu’il faut souffrir avec toi pour entrer dans ta gloire.</p> <p>Toi qui t’es fait reconnaître à la fraction du pain,<br> permets que nos partages révèlent ta présence.</p> <p>Toi qui brûles nos cœurs de la joie de Pâques,<br> fais qu’elle nous porte vers ceux qui s’éloignent tout tristes.</p> <p>Toi le Vivant, qui ne meurs plus,<br> donne ta vie à ceux qui ont connu la mort.</p> "
+    }
   }
 }

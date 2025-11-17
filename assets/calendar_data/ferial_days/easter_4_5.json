@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je m’en vais vous préparer une place, je reviendrai vous prendre avec moi, et là où je suis, vous serez vous aussi. Alléluia.",
-    "intercession": "<p>Contemplons l’Agneau vainqueur, immolé, toujours vivant&nbsp;:</p> <p>Toi, le Ressuscité, sauve-nous de la mort.<br> Sauve-nous de la mort&nbsp;!</p> <p>Toi, le Vivant, fais-nous revivre.<br> Fais-nous revivre&nbsp;!</p> <p>Toi, le Vainqueur, triomphe en nous du mal.<br> Triomphe en nous du mal&nbsp;!</p> <p>Toi, le Saint, consacre-nous dans la vérité.<br> Consacre-nous dans la vérité&nbsp;!</p> <p>Toi, le Seigneur, exalté dans la gloire,<br> prends-nous auprès de toi.<br> Prends-nous auprès de toi&nbsp;!</p> "
+    "evangelicAntiphon": {
+      "common": "Je m’en vais vous préparer une place, je reviendrai vous prendre avec moi, et là où je suis, vous serez vous aussi. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Contemplons l’Agneau vainqueur, immolé, toujours vivant&nbsp;:</p> <p>Toi, le Ressuscité, sauve-nous de la mort.<br> Sauve-nous de la mort&nbsp;!</p> <p>Toi, le Vivant, fais-nous revivre.<br> Fais-nous revivre&nbsp;!</p> <p>Toi, le Vainqueur, triomphe en nous du mal.<br> Triomphe en nous du mal&nbsp;!</p> <p>Toi, le Saint, consacre-nous dans la vérité.<br> Consacre-nous dans la vérité&nbsp;!</p> <p>Toi, le Seigneur, exalté dans la gloire,<br> prends-nous auprès de toi.<br> Prends-nous auprès de toi&nbsp;!</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>Voici quel est le chemin, mes bien-aimés, par lequel nous avons trouvé le salut&nbsp;: Jésus Christ, le grand prêtre qui présente nos offrandes, le protecteur et le soutien de notre faiblesse. Par lui nous fixons nos regards sur les hauteurs des cieux&nbsp;; par lui nous contemplons comme dans un miroir le visage pur et sublime du Père&nbsp;; par lui se sont ouverts les yeux de notre cœur&nbsp;; par lui notre intelligence bornée et ténébreuse s’épanouit à la lumière&nbsp;; par lui, le Maître qui a voulu nous faire goûter la connaissance immortelle, lui qui est <i>lumière éclatante de la gloire du Père</i>, ~ <i>placé bien au-dessus des anges, car il possède par héritage un nom bien plus grand que les leurs</i>. ~ Servons en soldats, mes frères, de toute notre ardeur, sous les commandements de ce chef irréprochable. Considérons les soldats qui servent sous nos chefs&nbsp;: avec quelle discipline, quelle docilité, quelle soumission ils exécutent les ordres qui leur sont donnés&nbsp;! Tous ne sont pas commandants en chef, ni chefs de mille, de cent ou de cinquante hommes, et ainsi de suite&nbsp;: chacun à son poste exécute ce que lui prescrivent le roi ou les chefs. Les grands ne peuvent rien faire sans les petits, ni les petits sans les grands&nbsp;: en toutes choses ils sont mélangés, et c’est ainsi qu’ils sont efficaces. Prenons l’exemple de notre corps&nbsp;: la tête n’est rien sans les pieds, et de même les pieds ne sont rien sans la tête. Les moindres de nos membres sont nécessaires et bienfaisants pour le corps entier&nbsp;; et même, tous servent le salut du corps entier en collaborant dans une soumission qui les unifie. Assurons donc le salut du corps entier que nous formons dans le Christ Jésus, et que chacun se soumette à son prochain, selon le charisme que celui-ci a reçu. Que le fort se préoccupe du faible, que le faible respecte le fort&nbsp;; que le riche subventionne le pauvre, que le pauvre rende grâce à Dieu qui lui a donné quelqu’un pour compenser son indigence. Que le sage montre sa sagesse non par des paroles, mais par de bonnes actions&nbsp;; que l’humble ne se rende pas témoignage à lui-même, mais qu’il en laisse le soin à un autre. Que celui qui est chaste dans sa chair ne s’en vante pas, sachant que c’est un autre qui lui accorde la continence. Songeons donc, mes frères, de quelle matière nous sommes nés&nbsp;; qu’étions-nous donc, quand nous sommes entrés dans le monde&nbsp;? À partir de quel tombeau, de quelle obscurité, celui qui nous a façonnés et créés nous a-t-il introduits dans ce monde qui lui appartient&nbsp;? Car il avait préparé ses bienfaits avant même notre naissance. Puisque nous tenons de lui tout cela, nous devons lui rendre grâce pour tout. À lui la gloire pour les siècles des siècles. Amen.</p>",
       "responsory": "<p>Créatures nouvelles dans le Christ,Stance<br> goûtez son pardon et sa paix&nbsp;:<br> Plus heureux que l’Apôtre Thomas<br> qui toucha les plaies de Jésus,<br> sans le voir, vous le croyez vivant<br> lorsque vous confessez dans l’Esprit Saint&nbsp;:</p> <p>R/ Tu es mon Seigneur et mon Dieu&nbsp;!<br> Alléluia&nbsp;! Alléluia&nbsp;!</p> <p>C’est moi le Seigneur ton Dieu,<br> qui t’ai fait monter de la terre d’Égypte.</p> <p>Je t’ai nourri de la farine du froment<br> et rassasié avec le miel du rocher.</p>"
     },
-    "oration": "Dieu à qui nous devons le salut et la liberté, écoute le cri de notre prière&nbsp;; puisque tu nous as rachetés par le sang de ton Fils, fais que nous puissions vivre de toi et trouver en toi le bonheur éternel."
+    "oration": [
+      "Dieu à qui nous devons le salut et la liberté, écoute le cri de notre prière&nbsp;; puisque tu nous as rachetés par le sang de ton Fils, fais que nous puissions vivre de toi et trouver en toi le bonheur éternel."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_21",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_132"
+      },
+      {
+        "psalm": "PSALM_139"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +107,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Le bon Pasteur donne sa vie pour ses brebis. Alléluia.",
-    "intercession": "<p>Supplions Jésus notre Sauveur qui a renouvelé la vie par sa croix&nbsp;:</p> <p>R/ Mets en nous, Seigneur, un esprit nouveau&nbsp;!</p> <p>Christ Sauveur, crucifié dans la chair, vivifié par l’Esprit&nbsp;:<br> –&nbsp;fais-nous mourir au péché et vivre pour le Père.</p> <p>Tu as envoyé tes disciples dans le monde entier&nbsp;:<br> –&nbsp;assiste aujourd’hui les ouvriers de l’Évangile.</p> <p>Face aux puissants, tu as témoigné de la vérité&nbsp;: <br> –&nbsp;inspire aux autorités le respect des consciences.</p> <p>Tu nous prépares un autre ciel, une autre terre&nbsp;: <br> –&nbsp;donne-nous de transformer ce monde à leur image.</p> <p>Tu es descendu aux enfers annoncer la Bonne Nouvelle&nbsp;: <br> –&nbsp;sois l’espérance et la joie de nos frères défunts.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_21",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_132"
-      },
-      {
-        "psalm": "PSALM_139"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Le bon Pasteur donne sa vie pour ses brebis. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Supplions Jésus notre Sauveur qui a renouvelé la vie par sa croix&nbsp;:</p> <p>R/ Mets en nous, Seigneur, un esprit nouveau&nbsp;!</p> <p>Christ Sauveur, crucifié dans la chair, vivifié par l’Esprit&nbsp;:<br> –&nbsp;fais-nous mourir au péché et vivre pour le Père.</p> <p>Tu as envoyé tes disciples dans le monde entier&nbsp;:<br> –&nbsp;assiste aujourd’hui les ouvriers de l’Évangile.</p> <p>Face aux puissants, tu as témoigné de la vérité&nbsp;: <br> –&nbsp;inspire aux autorités le respect des consciences.</p> <p>Tu nous prépares un autre ciel, une autre terre&nbsp;: <br> –&nbsp;donne-nous de transformer ce monde à leur image.</p> <p>Tu es descendu aux enfers annoncer la Bonne Nouvelle&nbsp;: <br> –&nbsp;sois l’espérance et la joie de nos frères défunts.</p> "
+    }
   }
 }

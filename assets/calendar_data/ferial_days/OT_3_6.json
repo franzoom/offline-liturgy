@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "qui-donc-est-dieu-pour-nous-aimer-ainsi"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_118_19",
@@ -27,16 +30,19 @@
       }
     ],
     "reading": {
-      "ref": "Ph 2, 14-15",
+      "biblicalReference": "Ph 2, 14-15",
       "content": "Faites tout sans récriminer et sans discuter&nbsp;; ainsi vous serez irréprochables et purs, vous qui êtes des enfants de Dieu sans tache au milieu d’une génération égarée et pervertie, où vous brillez comme les astres dans l’univers."
     },
-    "hymn": [
-      "qui-donc-est-dieu-pour-nous-aimer-ainsi"
-    ],
-    "evangelicAntiphon": "Béni soit Dieu&nbsp;: son amour s’est montré le plus fort.",
-    "intercession": "<p>Bénissons le Seigneur, en mémoire de son humble servante&nbsp;:</p> <p>R/ Béni soit Dieu&nbsp;!</p> <p>Seigneur Jésus, annoncé par les prophètes,<br> tu es né d’une Vierge.<br> —&nbsp;En mémoire de Marie à Bethléem,</p> <p>À la prière de ta mère,<br> tu as changé l’eau en vin.<br> —&nbsp;En mémoire de Marie à Cana,</p> <p>À l’heure de ta mort,<br> tu nous as confié ta mère.&nbsp;<br> —&nbsp;En mémoire de Marie au pied de la croix,</p> <p>Quand l’Esprit descendit sur les Apôtres,<br> ta mère priait au milieu d’eux.&nbsp;<br> —&nbsp;En mémoire de Marie au Cénacle,</p> ",
     "responsory": "<p>R/ Ta parole est la lumière de mes pas,<br>  * Je n’oublie rien de ta loi.<br> V/ À tout instant j’expose ma vie.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>",
-    "oration": "Sois attentif, Seigneur, à la louange et à la prière que nous te présentons aujourd’hui en faisant mémoire de la Vierge Marie&nbsp;: rends-nous capables d’accueillir comme elle le mystère de notre rédemption."
+    "evangelicAntiphon": {
+      "common": "Béni soit Dieu&nbsp;: son amour s’est montré le plus fort."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Seigneur, en mémoire de son humble servante&nbsp;:</p> <p>R/ Béni soit Dieu&nbsp;!</p> <p>Seigneur Jésus, annoncé par les prophètes,<br> tu es né d’une Vierge.<br> —&nbsp;En mémoire de Marie à Bethléem,</p> <p>À la prière de ta mère,<br> tu as changé l’eau en vin.<br> —&nbsp;En mémoire de Marie à Cana,</p> <p>À l’heure de ta mort,<br> tu nous as confié ta mère.&nbsp;<br> —&nbsp;En mémoire de Marie au pied de la croix,</p> <p>Quand l’Esprit descendit sur les Apôtres,<br> ta mère priait au milieu d’eux.&nbsp;<br> —&nbsp;En mémoire de Marie au Cénacle,</p> "
+    },
+    "oration": [
+      "Sois attentif, Seigneur, à la louange et à la prière que nous te présentons aujourd’hui en faisant mémoire de la Vierge Marie&nbsp;: rends-nous capables d’accueillir comme elle le mystère de notre rédemption."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -71,7 +77,9 @@
       "responsory": "<p>R/ Ta rosée, Seigneur, est une rosée de lumière&nbsp;;<br> la terre donnera aux ombres la vie.</p> <p>Dans le chemin de tes jugements, nous t’espérions.<br> Ton nom et ta mémoire sont le désir de l’âme.</p> <p>Les morts vont entendre la voix du Fils de Dieu,<br> ceux qui l’auront entendue vivront&nbsp;!</p>"
     },
     "verse": "<p>V/ Ta justice est pareille aux plus hautes montagnes,<br>tes jugements aux plus profonds abîmes.</p>",
-    "oration": "Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent ton inépuisable bonté&nbsp;; c’est leur fierté de t’avoir pour Créateur et Providence&nbsp;: restaure pour eux ta création, et l’ayant renouvelée, protège-là."
+    "oration": [
+      "Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent ton inépuisable bonté&nbsp;; c’est leur fierté de t’avoir pour Créateur et Providence&nbsp;: restaure pour eux ta création, et l’ayant renouvelée, protège-là."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -94,6 +102,5 @@
         ]
       }
     ]
-  },
-  "readingHymn": "le-seigneur-passe"
+  }
 }

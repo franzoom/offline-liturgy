@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 1, 16-18",
+      "biblicalReference": "Is 1, 16-18",
       "content": "Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien&nbsp;: recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine."
     },
-    "evangelicAntiphon": "Amassez dans les cieux le trésor que ne rongent ni la rouille ni les vers.",
-    "intercession": "<p>Jésus, maître de vie, conduis l’Église vers ta Pâque&nbsp;:</p> <p>R/ Nous te chanterons pour tes merveilles.</p> <p>Donne à notre cœur de discerner ses péchés.</p> <p>Apprends-nous à rechercher la nourriture qui demeure.</p> <p>Creuse en nous le désir de la sainteté.</p> <p>Accorde-nous la grâce de la charité.</p> <p>Écoute la prière de Marie, notre mère.</p> ",
     "responsory": "<p>R/ Le sang de Jésus nous purifie de tout péché.<br> V/ Venez et voyez les hauts faits de Dieu.&nbsp;R/ <br> V/ Acclamez Dieu, toute la terre.&nbsp;R/ <br></p>",
-    "oration": "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    "evangelicAntiphon": {
+      "common": "Amassez dans les cieux le trésor que ne rongent ni la rouille ni les vers."
+    },
+    "intercession": {
+      "content": "<p>Jésus, maître de vie, conduis l’Église vers ta Pâque&nbsp;:</p> <p>R/ Nous te chanterons pour tes merveilles.</p> <p>Donne à notre cœur de discerner ses péchés.</p> <p>Apprends-nous à rechercher la nourriture qui demeure.</p> <p>Creuse en nous le désir de la sainteté.</p> <p>Accorde-nous la grâce de la charité.</p> <p>Écoute la prière de Marie, notre mère.</p> "
+    },
+    "oration": [
+      "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -68,25 +74,9 @@
       "content": "<p>Notre Seigneur, le Verbe de Dieu, a d’abord amené les hommes à Dieu pour qu’ils soient ses serviteurs, puis il a libéré ceux qui lui étaient soumis, comme il le dit lui-même à ses disciples&nbsp;: <i>Je ne vous appelle plus serviteurs, car le serviteur ignore ce que fait son maître, mais je vous appelle mes amis, car tout ce que j’ai appris du Père, je vous l’ai révélé</i>. ~ En effet, l’amitié de Dieu confère à ceux qui y accèdent l’immortalité. Au commencement, Dieu modela Adam non par besoin, mais pour pouvoir cristalliser en lui ses bienfaits. Car c’est non seulement avant Adam, mais avant toute création que le Verbe glorifiait le Père, tout en demeurant en lui et lui-même était glorifié par le Père, comme il le dit lui-même&nbsp;: <i>Père, glorifie-moi de la gloire que j’avais auprès de toi, avant que le monde fût.</i> Ce n’est pas non plus par besoin de notre service qu’il nous ordonne de le suivre, mais pour nous procurer le salut. Car suivre le Sauveur, c’est participer à la lumière. Les hommes qui sont dans la lumière n’illuminent pas, eux, la lumière, mais par elle sont illuminés et par elle resplendissent&nbsp;: loin d’apporter quoi que ce soit à la lumière, ils en bénéficient et sont illuminés par elle. Ainsi en va-t-il du service de Dieu&nbsp;: à Dieu, il n’apporte rien, car Dieu n’a pas besoin du service humain. Mais à ceux qui le suivent et le servent, Dieu procure la vie incorruptible et la gloire éternelle. Il accorde ce bienfait à ceux qui le servent, parce qu’ils le servent, et à ceux qui le suivent, parce qu’ils le suivent mais ne reçoit d’eux nul bienfait&nbsp;: car il est riche, parfait, et sans besoin. Dieu sollicite le service des hommes par bonté et miséricorde pour combler de bienfaits ceux qui le servent avec persévérance. Car autant Dieu n’a besoin de rien, autant l’homme a besoin de la communion de Dieu. La gloire de l’homme, c’est de persévérer et demeurer au service de Dieu. Et c’est pourquoi le Seigneur disait à ses disciples&nbsp;: <i>Ce n’est pas vous qui m’avez choisi, mais moi qui vous ai choisi&nbsp;;</i> il voulait dire par là qu’eux ne le glorifiaient pas en le suivant, mais que pour avoir suivi le Fils de Dieu, ils étaient par lui glorifiés. Et ils disait encore&nbsp;: <i>Je veux que là où je suis, là ils soient aussi, pour qu’ils voient ma gloire</i>.</p>",
       "responsory": "<p>R/ Quand nous aimons, aimons le Seigneur notre Dieu<br> puisqu’il nous a aimés le premier</p> <p>Celui qui garde la parole du Seigneur,<br> en lui l’amour de Dieu atteint sa perfection.</p> <p>Ses commandements ne sont pas pesants&nbsp;:<br> celui qui naît de Dieu est vainqueur du monde.</p>"
     },
-    "oration": "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_121"
-      },
-      {
-        "psalm": "PSALM_129"
-      },
-      {
-        "psalm": "NT_5"
-      }
-    ],
-    "reading": {
-      "ref": "2 Co 6, 1 b-4a",
-      "content": "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture&nbsp;: Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
-    },
-    "oration": "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    "oration": [
+      "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -103,6 +93,28 @@
         "psalm": "PSALM_44_2"
       }
     ],
-    "oration": "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    "oration": [
+      "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_121"
+      },
+      {
+        "psalm": "PSALM_129"
+      },
+      {
+        "psalm": "NT_5"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "2 Co 6, 1 b-4a",
+      "content": "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture&nbsp;: Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+    },
+    "oration": [
+      "Dieu fort, Dieu éternel, regarde notre faiblesse&nbsp;: pour nous protéger, étends sur nous ta main toute-puissante."
+    ]
   }
 }

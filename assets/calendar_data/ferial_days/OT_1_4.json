@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "tu-es-venu-seigneur"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_56",
@@ -29,16 +32,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 66, 1-2",
+      "biblicalReference": "Is 66, 1-2",
       "content": "Ainsi parle le Seigneur&nbsp;: Le ciel est mon trône et la terre, l’escabeau de mes pieds. Quelle est donc la maison que vous bâtiriez pour moi&nbsp;? Quel serait l’emplacement de mon lieu de repos&nbsp;? De plus, tous ces êtres, c’est ma main qui les a faits et ils sont à moi, tous ces êtres —&nbsp;oracle du Seigneur&nbsp;—, c’est vers celui-ci que je regarde&nbsp;: vers l’humilié, celui qui a l’esprit abattu, et qui tremble à ma parole."
     },
-    "hymn": [
-      "tu-es-venu-seigneur"
-    ],
-    "evangelicAntiphon": "Béni soit le Seigneur, Soleil levant, lumière d’en haut qui vient nous visiter.",
-    "intercession": "<p>Rendons grâce au Christ qui nous donne aujourd’hui la lumière et supplions-le&nbsp;:</p> <p>R/ Sois pour nous lumière et vérité&nbsp;!</p> <p>Chaque jour tu renouvelles tes merveilles&nbsp;;&nbsp;<br> —&nbsp;ouvre nos yeux, donne-nous de les voir.</p> <p>Toi, le Fils de l’homme,<br> —&nbsp;fais-nous aimer notre condition d’homme.</p> <p>Tu as passé en faisant le bien&nbsp;;<br> —&nbsp;que chacun de nos actes serve nos frères.</p> <p>Tu es le Miséricordieux&nbsp;:<br> —&nbsp;accorde-nous patience et bonté tout au long de ce jour.</p> ",
     "responsory": "<p>R/ J’appelle de tout mon cœur,<br>  * Réponds-moi, Seigneur.<br> V/ Je garderai tes commandements. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui as séparé la lumière et les ténèbres, toi qui as appelé la lumière «&nbsp;jour&nbsp;» et les ténèbres «&nbsp;nuit&nbsp;», arrache aussi nos cœurs à l’obscurité du péché et fais-nous parvenir à la vraie lumière qui est le Christ. Lui qui règne avec toi et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen."
+    "evangelicAntiphon": {
+      "common": "Béni soit le Seigneur, Soleil levant, lumière d’en haut qui vient nous visiter."
+    },
+    "intercession": {
+      "content": "<p>Rendons grâce au Christ qui nous donne aujourd’hui la lumière et supplions-le&nbsp;:</p> <p>R/ Sois pour nous lumière et vérité&nbsp;!</p> <p>Chaque jour tu renouvelles tes merveilles&nbsp;;&nbsp;<br> —&nbsp;ouvre nos yeux, donne-nous de les voir.</p> <p>Toi, le Fils de l’homme,<br> —&nbsp;fais-nous aimer notre condition d’homme.</p> <p>Tu as passé en faisant le bien&nbsp;;<br> —&nbsp;que chacun de nos actes serve nos frères.</p> <p>Tu es le Miséricordieux&nbsp;:<br> —&nbsp;accorde-nous patience et bonté tout au long de ce jour.</p> "
+    },
+    "oration": [
+      "Dieu qui as séparé la lumière et les ténèbres, toi qui as appelé la lumière «&nbsp;jour&nbsp;» et les ténèbres «&nbsp;nuit&nbsp;», arrache aussi nos cœurs à l’obscurité du péché et fais-nous parvenir à la vraie lumière qui est le Christ. Lui qui règne avec toi et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,39 +80,9 @@
       "responsory": "<p>R/ Ô abîme de la richesse<br> et de la sagesse de Dieu&nbsp;:<br> tout est de lui, par lui et pour lui.</p> <p>Où trouver la force de le glorifier&nbsp;?<br> Il est le Très-Haut,<br> au-dessus de toutes ses œuvres.</p> <p>C’est le Seigneur qui a tout créé,<br> et à ceux qui l’aiment<br> il a donné la sagesse.</p>"
     },
     "verse": "<p>V/ Ouvre mes yeux à tes merveilles,<br>aux splendeurs de ta loi.</p>",
-    "oration": "Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_29",
-        "antiphon": [
-          "Quand j’ai crié vers toi, Seigneur mon Dieu, tu m’as guéri.",
-          "Pourquoi chercher parmi les morts Celui qui est vivant&nbsp;?"
-        ]
-      },
-      {
-        "psalm": "PSALM_31",
-        "antiphon": [
-          "Je rendrai grâce au Seigneur en confessant mon péché.",
-          "Bienheureux le pécheur qui accueille ton pardon."
-        ]
-      },
-      {
-        "psalm": "NT_10"
-      }
-    ],
-    "reading": {
-      "ref": "1 P 1, 6-9",
-      "content": "Tressaillez de joie, même s’il faut que vous soyez attristés, pour un peu de temps encore, par toutes sortes d’épreuves&nbsp;; elles vérifieront la qualité de votre foi qui est bien plus précieuse que l’or (cet or, voué pourtant à disparaître, qu’on vérifie par le feu). Tout cela doit donner à Dieu louange, gloire et honneur quand se révélera Jésus Christ, lui que vous aimez sans l’avoir vu, en qui vous croyez sans le voir encore&nbsp;; et vous tressaillez d’une joie inexprimable qui vous transfigure, car vous allez obtenir votre salut, qui est l’aboutissement de votre foi."
-    },
-    "hymn": [
-      "joie-et-lumiere"
-    ],
-    "evangelicAntiphon": "Par la force de son bras, le Seigneur relève les humbles.",
-    "intercession": "<p>Dieu est notre espérance&nbsp;; il est notre secours. Supplions-le&nbsp;:</p> <p>R/ Regarde, Seigneur, tes enfants&nbsp;!</p> <p>Dieu, notre Dieu, tu as scellé avec ton peuple une alliance éternelle,<br> —&nbsp;fais revivre en nous les merveilles de ton amour.</p> <p>Devant la violence des vents contraires,<br> —&nbsp;que le souffle de ton Esprit rassure les croyants.</p> <p>Que la cité terrestre ne cherche pas à s’édifier sans toi&nbsp;;<br> —&nbsp;et ceux qui la construisent n’auront pas travaillé en vain.</p> <p>Que la fidélité soutienne ceux qui luttent,<br> —&nbsp;que notre amitié pacifie ceux qui souffrent.</p> <p>Que nos frères défunts entrent au nombre des bienheureux,<br> —&nbsp;qu’un jour ils nous accueillent dans ton Paradis.</p> ",
-    "responsory": "<p>R/ Tu es le Chemin, la Vérité, la Vie,<br>  *  Jésus, Fils de Dieu&nbsp;!<br> V/ Qui veut trouver le Père doit passer par toi,  * <br> V/ Tu le conduis vers la joie sans déclin.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui fait resplendir la lumière après la nuit, accorde-nous de finir ce jour à l’abri des attaques de l’adversaire et de pouvoir te rendre grâce par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles. Amen."
+    "oration": [
+      "Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -130,5 +106,42 @@
       }
     ]
   },
-  "readingHymn": "en-toute-vie-le-silence-dit-dieu"
+  "vespers": {
+    "hymn": [
+      "joie-et-lumiere"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_29",
+        "antiphon": [
+          "Quand j’ai crié vers toi, Seigneur mon Dieu, tu m’as guéri.",
+          "Pourquoi chercher parmi les morts Celui qui est vivant&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "PSALM_31",
+        "antiphon": [
+          "Je rendrai grâce au Seigneur en confessant mon péché.",
+          "Bienheureux le pécheur qui accueille ton pardon."
+        ]
+      },
+      {
+        "psalm": "NT_10"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 P 1, 6-9",
+      "content": "Tressaillez de joie, même s’il faut que vous soyez attristés, pour un peu de temps encore, par toutes sortes d’épreuves&nbsp;; elles vérifieront la qualité de votre foi qui est bien plus précieuse que l’or (cet or, voué pourtant à disparaître, qu’on vérifie par le feu). Tout cela doit donner à Dieu louange, gloire et honneur quand se révélera Jésus Christ, lui que vous aimez sans l’avoir vu, en qui vous croyez sans le voir encore&nbsp;; et vous tressaillez d’une joie inexprimable qui vous transfigure, car vous allez obtenir votre salut, qui est l’aboutissement de votre foi."
+    },
+    "responsory": "<p>R/ Tu es le Chemin, la Vérité, la Vie,<br>  *  Jésus, Fils de Dieu&nbsp;!<br> V/ Qui veut trouver le Père doit passer par toi,  * <br> V/ Tu le conduis vers la joie sans déclin.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Par la force de son bras, le Seigneur relève les humbles."
+    },
+    "intercession": {
+      "content": "<p>Dieu est notre espérance&nbsp;; il est notre secours. Supplions-le&nbsp;:</p> <p>R/ Regarde, Seigneur, tes enfants&nbsp;!</p> <p>Dieu, notre Dieu, tu as scellé avec ton peuple une alliance éternelle,<br> —&nbsp;fais revivre en nous les merveilles de ton amour.</p> <p>Devant la violence des vents contraires,<br> —&nbsp;que le souffle de ton Esprit rassure les croyants.</p> <p>Que la cité terrestre ne cherche pas à s’édifier sans toi&nbsp;;<br> —&nbsp;et ceux qui la construisent n’auront pas travaillé en vain.</p> <p>Que la fidélité soutienne ceux qui luttent,<br> —&nbsp;que notre amitié pacifie ceux qui souffrent.</p> <p>Que nos frères défunts entrent au nombre des bienheureux,<br> —&nbsp;qu’un jour ils nous accueillent dans ton Paradis.</p> "
+    },
+    "oration": [
+      "Dieu qui fait resplendir la lumière après la nuit, accorde-nous de finir ce jour à l’abri des attaques de l’adversaire et de pouvoir te rendre grâce par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles. Amen."
+    ]
+  }
 }

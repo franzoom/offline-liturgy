@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "À moins de renaître d’en haut, alléluia, nul ne peut voir le Royaume de Dieu.",
-    "intercession": "<p>Bénissons le Père tout-puissant qui nous relève en son Fils&nbsp;!</p> <p>Pour la gloire du Ressuscité qui rayonne sur le monde,</p> <p>R/ Béni sois-tu&nbsp;!</p> <p>Pour la lumière de la foi qui pénètre nos cœurs,</p> <p>Pour l’avenir où tu nous engages avec toi,</p> <p>Pour le chemin de l’éternité ouvert à tous les hommes,</p> <p>Pour l’Esprit répandu sur toutes les nations,</p> <p>Pour l’amour qui transforme le monde,</p> "
+    "evangelicAntiphon": {
+      "common": "À moins de renaître d’en haut, alléluia, nul ne peut voir le Royaume de Dieu."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Père tout-puissant qui nous relève en son Fils&nbsp;!</p> <p>Pour la gloire du Ressuscité qui rayonne sur le monde,</p> <p>R/ Béni sois-tu&nbsp;!</p> <p>Pour la lumière de la foi qui pénètre nos cœurs,</p> <p>Pour l’avenir où tu nous engages avec toi,</p> <p>Pour le chemin de l’éternité ouvert à tous les hommes,</p> <p>Pour l’Esprit répandu sur toutes les nations,</p> <p>Pour l’amour qui transforme le monde,</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>La Pâque célébrée par les Juifs symbolisait le salut de leurs premiers-nés. Mais celle que nous célébrons est la cause du salut de tous les hommes, en commençant par le premier homme créé qui est sauvé et vivifié en eux tous. Les réalités partielles et provisoires, images et figures des réalités parfaites et éternelles, préludaient, ainsi que des esquisses, à la Vérité qui s’est maintenant levée à l’horizon&nbsp;; mais quand la Vérité est présente, la figure est périmée&nbsp;: c’est ainsi qu’après l’arrivée d’un roi, personne ne juge convenable de délaisser le roi vivant pour se prosterner devant son image. Il est donc bien évident que la figure est inférieure à la Vérité, quand la figure fête la vie éphémère des premiers-nés des Juifs, tandis que la Vérité fête la vie permanente de tous les hommes. Car ce n’est pas grand-chose d’échapper à la mort pour un temps bref quand on mourra peu après, mais c’est une grande chose que d’échapper totalement à la mort&nbsp;; c’est ce qui nous arrive, puisque <i>le Christ, notre Agneau pascal, a été immolé.</i> Le nom même de la fête prend toute son excellence si on le traduit en l’appliquant à la vérité. «&nbsp;Pâque&nbsp;», en effet, se traduit par «&nbsp;passage&nbsp;», puisque l’Exterminateur qui frappait les premiers-nés «&nbsp;passait» les maisons des Hébreux. Mais ce «&nbsp;passage» de l’Exterminateur, c’est chez nous qu’il est véritable, lorsque, une fois pour toutes, il «&nbsp;passe par-dessus&nbsp;» nous, qui avons été ressuscités par le Christ pour la vie éternelle. ~ Qu’est-ce que signifie, si on la considère par rapport à la Vérité, cette prescription de prendre pour <i>commencement</i> de l’année ce moment où s’accomplissent la Pâque et le salut des premiers-nés&nbsp;? Cela signifie que, pour nous aussi, le commencement de la vie éternelle, c’est le sacrifice de l’Agneau pascal. En effet, l’année symbolise l’éternité, parce qu’elle revient toujours en cercle sur elle-même, et ne s’arrête à aucun terme. Et le Christ, offert en victime pour notre salut, est le <i>Père de l’éternité à venir</i>. C’est-à-dire que, rendant périmée toute notre vie antérieure, il nous donne le commencement d’une autre vie <i>par le bain de la nouvelle naissance, à la ressemblance de sa mort et de sa résurrection</i>. En conséquence, tout homme qui connaît l’Agneau pascal immolé pour son salut doit considérer que pour lui le commencement de la vie, c’est le moment à partir duquel le Christ est immolé pour lui. Or le Christ est immolé pour lui lorsque lui-même reconnaît la grâce et comprend la vie procurée par cette immolation. Sachant cela, qu’il aspire à prendre le commencement de cette vie nouvelle et ne retourne plus vers l’ancienne, dont il atteint le terme. Car il est écrit&nbsp;: <i>Nous qui sommes morts au péché, comment continuerions-nous de vivre en lui&nbsp;?</i></p>",
       "responsory": "<p>R/ Notre Pâque immolée, alléluia,<br> c’est le Christ, alléluia, alléluia, alléluia&nbsp;!</p> <p>Pâque Nouvelle&nbsp;! Ô fête de l’Esprit&nbsp;!<br> Ô Pâque du Seigneur<br> qui pour nous descend du ciel&nbsp;!</p> <p>Pâque Nouvelle&nbsp;! Ô Christ ressuscité,<br> tu as vaincu la mort,<br> tu nous as donné la vie&nbsp;!</p>"
     },
-    "oration": "Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis."
+    "oration": [
+      "Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_6",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_39_1"
+      },
+      {
+        "psalm": "PSALM_39_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -82,23 +104,11 @@
         "psalm": "NT_4"
       }
     ],
-    "evangelicAntiphon": "Ce qui est né de la chair est chair. Ce qui est né de l’Esprit est esprit, alléluia.",
-    "intercession": "<p>Seigneur Jésus, tu accompagnais sur la route les disciples qui doutaient&nbsp;:<br> –&nbsp;soutiens l’Église dans sa marche, reste avec elle quand vient le soir.</p> <p>R/ Reste avec nous, Seigneur Jésus.</p> <p>Souviens-toi que nous sommes sans intelligence et lents à croire&nbsp;:<br> –&nbsp;augmente la foi de ton Église.</p> <p>Regarde avec bonté ceux qui marchent sans te reconnaître&nbsp;:<br> –&nbsp;manifeste-toi pour qu’ils découvrent leur Sauveur.</p> <p>Tu as tout réconcilié par ta croix&nbsp;:<br> –&nbsp;rassemble les nations dans l’unité de ton Corps.</p> <p>Toi, le juge des vivants et des morts,<br> –&nbsp;accorde ton pardon à ceux qui t’ont donné leur foi.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_6",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_39_1"
-      },
-      {
-        "psalm": "PSALM_39_2"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Ce qui est né de la chair est chair. Ce qui est né de l’Esprit est esprit, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu accompagnais sur la route les disciples qui doutaient&nbsp;:<br> –&nbsp;soutiens l’Église dans sa marche, reste avec elle quand vient le soir.</p> <p>R/ Reste avec nous, Seigneur Jésus.</p> <p>Souviens-toi que nous sommes sans intelligence et lents à croire&nbsp;:<br> –&nbsp;augmente la foi de ton Église.</p> <p>Regarde avec bonté ceux qui marchent sans te reconnaître&nbsp;:<br> –&nbsp;manifeste-toi pour qu’ils découvrent leur Sauveur.</p> <p>Tu as tout réconcilié par ta croix&nbsp;:<br> –&nbsp;rassemble les nations dans l’unité de ton Corps.</p> <p>Toi, le juge des vivants et des morts,<br> –&nbsp;accorde ton pardon à ceux qui t’ont donné leur foi.</p> "
+    }
   }
 }

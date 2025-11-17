@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jl 2, 12-13",
+      "biblicalReference": "Jl 2, 12-13",
       "content": "Revenez à moi de tout votre cœur, dans le jeûne, les larmes et le deuil&nbsp;! Déchirez vos cœurs et non pas vos vêtements, et revenez au Seigneur votre Dieu, car il est tendre et miséricordieux, lent à la colère et plein d’amour, renonçant au châtiment."
     },
-    "evangelicAntiphon": "Apprends-nous à prier, Seigneur, comme Jean l’apprit à ses disciples.",
-    "intercession": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  * Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    "evangelicAntiphon": {
+      "common": "Apprends-nous à prier, Seigneur, comme Jean l’apprit à ses disciples."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> "
+    },
+    "oration": [
+      "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Le Seigneur c’est l’Esprit,<br> l’Esprit du Seigneur, c’est la liberté.</p> <p>Nous ne sommes pas fils de servitude&nbsp;:<br> le Christ nous a libérés.</p> <p>Dieu a envoyé en nos cœurs l’Esprit de son Fils&nbsp;;<br> il crie&nbsp;: Abba&nbsp;! Père&nbsp;!</p>"
     },
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    "oration": [
+      "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_1",
+        "antiphon": [
+          "Heureux qui cherche Dieu de tout son cœur et marche dans sa loi."
+        ]
+      },
+      {
+        "psalm": "PSALM_12"
+      },
+      {
+        "psalm": "PSALM_13"
+      }
+    ],
+    "oration": [
+      "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 14. 17.18b",
+      "biblicalReference": "Jc 2, 14. 17.18b",
       "content": "Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il&nbsp;? Cet homme-là peut-il être sauvé par sa foi&nbsp;? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas&nbsp;; moi, c’est par mes actes que je te montrerai ma foi."
     },
-    "evangelicAntiphon": "Quand tu veux prier, entre dans ta chambre, ferme ta porte et parle à ton Père.",
-    "intercession": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>",
     "responsory": "<p>R/ Éclaire-moi selon ta parole,<br>  *  Que j’observe tes volontés.<br> V/ Incline mon cœur vers tes exigences.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_1",
-        "antiphon": [
-          "Heureux qui cherche Dieu de tout son cœur et marche dans sa loi."
-        ]
-      },
-      {
-        "psalm": "PSALM_12"
-      },
-      {
-        "psalm": "PSALM_13"
-      }
-    ],
-    "oration": "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    "evangelicAntiphon": {
+      "common": "Quand tu veux prier, entre dans ta chambre, ferme ta porte et parle à ton Père."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>"
+    },
+    "oration": [
+      "Regarde ta famille, Seigneur&nbsp;; et fais que notre esprit, affiné par la maîtrise de nos sens, resplen­disse à tes yeux du désir de te trouver."
+    ]
   }
 }

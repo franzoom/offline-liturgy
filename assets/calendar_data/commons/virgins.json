@@ -1,23 +1,33 @@
 {
+  "celebration": {
+    "color": "white"
+  },
+  "firstVespers": {
+    "hymn": [
+      "pour-toi-fils-de-dieu"
+    ],
+    "reading": {
+      "biblicalReference": "1Co 7, 32b.34a",
+      "content": "Celui qui n’est pas marié a le souci des affaires du Seigneur, il cherche comment plaire au Seigneur. La femme sans mari, ou celle qui reste vierge, a le souci des affaires du Seigneur ; elle veut lui consacrer son corps et son esprit."
+    },
+    "responsory": "R/ Ma part, c’est Dieu pour toujours :<br> * le Seigneur est bon pour qui se tourne vers lui.<br> V/ En silence j’attends son secours. *<br> Gloire au Père. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Vierge prévoyante et sage, quand vient l'Époux, tu entres avec lui dans la salle des noces."
+    },
+    "intercession": {
+      "content": "<p>Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;<br> bénissons-le de tout notre cœur :</p>  <p>R/Ô Christ, notre salut, Jésus, notre lumière !</p>  <p>Tu as voulu pour épouse une Église vierge et pure,<br> – rends-la irréprochable et sainte.</p>  <p>Les vierges sages ont couru au-devant de toi avec leurs lampes,<br> – donne aux femmes qui te sont consacrées de te rester fidèles.</p>   <p>Tu donnes à ton Église de garder sa foi intègre et pure,<br> – accorde cette même grâce à tous les chrétiens.</p>  <p>Nous célébrons aujourd’hui la fête de sainte N,<br> – que son intercession soit notre joie.</p>  <p>Tu accueilles les vierges sages au festin des noces,<br> – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.</p>"
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Jésus Christ, le Roi des vierges, venez, adorons-le.",
       "Venez, adorons l'Agneau de Dieu, luinque suivent les vierges."
     ]
   },
-  "firstVespers": {
-    "reading": {
-      "ref": "1Co 7, 32b.34a",
-      "content": "Celui qui n’est pas marié a le souci des affaires du Seigneur, il cherche comment plaire au Seigneur. La femme sans mari, ou celle qui reste vierge, a le souci des affaires du Seigneur ; elle veut lui consacrer son corps et son esprit."
-    },
-    "hymn": [
-      "pour-toi-fils-de-dieu"
-    ],
-    "evangelicAntiphon": "Vierge prévoyante et sage, quand vient l'Époux, tu entres avec lui dans la salle des noces.",
-    "intercession": "<p>Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;<br> bénissons-le de tout notre cœur :</p>  <p>R/Ô Christ, notre salut, Jésus, notre lumière !</p>  <p>Tu as voulu pour épouse une Église vierge et pure,<br> – rends-la irréprochable et sainte.</p>  <p>Les vierges sages ont couru au-devant de toi avec leurs lampes,<br> – donne aux femmes qui te sont consacrées de te rester fidèles.</p>   <p>Tu donnes à ton Église de garder sa foi intègre et pure,<br> – accorde cette même grâce à tous les chrétiens.</p>  <p>Nous célébrons aujourd’hui la fête de sainte N,<br> – que son intercession soit notre joie.</p>  <p>Tu accueilles les vierges sages au festin des noces,<br> – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.</p>",
-    "responsory": "R/ Ma part, c’est Dieu pour toujours :<br> * le Seigneur est bon pour qui se tourne vers lui.<br> V/ En silence j’attends son secours. *<br> Gloire au Père. R/ <br>"
-  },
   "morning": {
+    "hymn": [
+      "vous-qui-passiez-jadis"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -39,17 +49,21 @@
       }
     ],
     "reading": {
-      "ref": "Ct 8,7",
+      "biblicalReference": "Ct 8,7",
       "content": "Les torrents ne peuvent éteindre l’amour, les fleuves ne l’emporteront pas. Si quelqu’un offrait toutes les richesses de sa maison pour acheter l’amour, tout ce qu’il obtiendrait, c’est un profond mépris."
     },
-    "hymn": [
-      "vous-qui-passiez-jadis"
-    ],
-    "evangelicAntiphon": "La vierge sage est allée vers le Christ, resplendissante parmi ses compagnes.",
-    "intercession": "<p>Ô Christ, toi que les saintes vierges ont aimé d’un unique amour,<br> – fais que rien ne nous sépare de toi.</p>  R/Jésus, gloire des vierges, écoute-nous !</p>  <p>Tu as couronné Reine des vierges, Marie, ta mère,<br> – par son intercession, purifie nos cœurs.</p>  <p>À la prière des saintes femmes qui t’ont suivi de tout leur cœur,<br> – accorde-nous de marcher le cœur libre à travers ce monde qui passe.</p>  <p>Toi, l’Époux que les vierges sages ont su attendre,<br> – donne-nous un cœur vigilant, prompt à te reconnaître.</p>  <p>Par l’intercession de sainte N,<br> – fais-nous brûler d’amour en ta présence.</p>",
-    "responsory": "R/ Si quelqu’un garde ma Parole,<br> * mon Père l’aimera.<br> V/ Nous viendrons demeurer en lui. *<br> Gloire au Père et au Fils et au Saint-Esprit. R/"
+    "responsory": "R/ Si quelqu’un garde ma Parole,<br> * mon Père l’aimera.<br> V/ Nous viendrons demeurer en lui. *<br> Gloire au Père et au Fils et au Saint-Esprit. R/",
+    "evangelicAntiphon": {
+      "common": "La vierge sage est allée vers le Christ, resplendissante parmi ses compagnes."
+    },
+    "intercession": {
+      "content": "<p>Ô Christ, toi que les saintes vierges ont aimé d’un unique amour,<br> – fais que rien ne nous sépare de toi.</p>  R/Jésus, gloire des vierges, écoute-nous !</p>  <p>Tu as couronné Reine des vierges, Marie, ta mère,<br> – par son intercession, purifie nos cœurs.</p>  <p>À la prière des saintes femmes qui t’ont suivi de tout leur cœur,<br> – accorde-nous de marcher le cœur libre à travers ce monde qui passe.</p>  <p>Toi, l’Époux que les vierges sages ont su attendre,<br> – donne-nous un cœur vigilant, prompt à te reconnaître.</p>  <p>Par l’intercession de sainte N,<br> – fais-nous brûler d’amour en ta présence.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "voici-l-epoux"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_18A",
@@ -88,12 +102,38 @@
       "content": "Dès les origines de l’Église, il y eut des hommes et des femmes qui voulurent, par la pratique des conseils évangéliques, suivre le Christ avec une plus grande liberté et l’imiter plus exactement et qui, chacun à sa manière, menèrent une vie consacrée à Dieu. Beaucoup parmi eux, sous l’impulsion de l’Esprit Saint, vécurent dans la solitude, ou bien donèrent des familles religieuses que l’Église accueillit volontiers et approuva de son autorité. À partir de là se multiplia providentiellement une admirable variété de sociétés religieuses. Elles ont beaucoup contribué non seulement à ce que l’Église soit <i>bien armée pour toute bonne action</i> et prêtre pour que <i>les tâches du ministère soient accomplis et que se construise le corps du Christ</i>, mais encore à ce que l’Église se montre embellie des dons variés de ses enfants, <i>comme une fiancée parée pour son époux</i> et fasse connaître <i>les multiples aspects de la Sagesse de Dieu</i>. Dans une telle variété de dons, tous ceux que Dieu appelle à la pratique des conseils évangéliques, et qui en font fidèlement profession, se consacrent au Seigneur de façon spéciale, en suivant le Christ chaste et pauvre, qui, par son obéissance <i>jusqu’à la mort de la croix</i>, a racheté les hommes et les a sanctifiés. Poussés par cet amour que l’Esprit Saint répand dans leurs cœurs, ils vivent toujours davantage pour le Christ et <i>pour son corps qui est l’Église</i>. Plus ils s’unissent avec ferveur au Christ par cette donation d’eux-mêmes qui embrasse toute leur existence, plus la vie de l’Église est abondante et plus son apostolat devient vigoureux et fécond. ~ Les membres de tout institut religieux se rappelleront avant tout que, par la profession des conseils évangéliques, ils ont répondu à une vocation divine. Ainsi, non seulement <i>morts au péché</i>, mais encore ayant renoncé au monde, ils ne doivent plus vivre que pour Dieu seul. En effet, ils ont consacré toute leur vie à son service. Ceci constitue une consécration particulière qui s’enracine intimement dans la consécration baptismale et l’exprime avec la plus grande plénitude. ~ Ceux qui professent les conseils évangéliques doivent rechercher et aimer Dieu avant tout, lui <i>qui nous a aimes le premier</i> ; ils doivent, en toutes circonstances, s’appliquer à développer leur <i>vie cachée en Dieu avec le Christ</I>, car c’est I partir d’elle que découle et que s’impose l’amour du prochain pour le salut du monde et la construction de l’Église. C’est encore dans cette charité que la pratique des conseils évangéliques trouve son inspiration et son orientation. ~ La chasteté à cause du <i>Royaume des cieux</i> dont les religieux font profession, doit être regardée comme un grand don de la grâce. En effet, elle libère singulièrement le cœur de l’homme, pour qu’il brûle d’amour envers Dieu et envers tous les hommes. C’est pourquoi elle est un signe particulier des biens célestes, ainsi qu’un moyen très efficace pour les religieux de se dévouer allègrement au service divin et aux activités de l’apostolat. ~ C’est ainsi qu’ils évoquent aux yeux de tous les chrétiens cette admirable union fondée par Dieu et qui doit se manifester clairement dans le siècle futur, union par laquelle l’Église reconnaît le Christ pour son unique époux.",
       "responsory": "R/ Voix de mon Bien-aimé qui frappe à la porte :<br> « Ouvre-moi» ! alléluia !</p> <p>Si quelqu’un entend ma voix,<br> ensemble, nous prendrons notre repas,<br> moi près de lui, lui près de moi.</p> <p>Si quelqu’un garde ma parole,<br> mon Père l’aimera,<br> et nous viendrons à lui.</p>"
     },
-    "hymn": [
-      "voici-l-epoux"
-    ],
     "verse": "V/ Tu m’enseignes la route de la vie,<br> en ta présence la joie ne finit pas.<br>"
   },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Rester proche de Dieu fait tout mon bonheur.",
+      "reading": {
+        "biblicalReference": "Sg 8, 21a",
+        "content": "Je savais que je n’obtiendrais pas la Sagesse autrement que par un don de Dieu – et reconnaître de qui dépens un bienfait, c’était encore une preuve de discernement."
+      },
+      "responsory": "V/ Tenez dans vos mains votre lampe allumée.<br> l’Epoux vous introduira dans la salle des noces.<br>"
+    },
+    "sexte": {
+      "antiphon": "Que ta promesse me soutienne et je vivrai ; ne déçois pas mon attente.",
+      "reading": {
+        "biblicalReference": "1 Co 7, 25-26",
+        "content": "Au sujet du célibat, je n’ai pas reçu d’ordre spécial du Seigneur, mais je donne mon avis, moi qui suis devenu digne de confiance grâce au pardon du Seigneur. Je pense que le célibat est une chose bonne, étant donné les événements redoutables qui nous attendent ; oui, c’est une chose bonne de vivre ainsi."
+      },
+      "responsory": "V/ J’ai rencontré celui que j’aime,<br> je l’ai saisi, je ne le lâcherai pas.<br>"
+    },
+    "none": {
+      "antiphon": "Heureux les cœurs purs que Dieu s’est choisis : ils resplendiront de sa lumière.",
+      "reading": {
+        "biblicalReference": "Ap 19, 6b-7",
+        "content": "Le Seigneur notre Dieu a pris possession de sa royauté, lui le Tout-Puissant. Soyons dans la joie, exultons, rendons-lui gloire, car voici les noces de l’Agneau. Son épouse a revêtu ses parures."
+      },
+      "responsory": "V/ Voici l’Époux ! Sortez à sa rencontre !<br> Veillez donc, car vous ne savez ni le jour, ni l’heure.<br>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "dieu-ma-joie"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_121",
@@ -115,47 +155,19 @@
       }
     ],
     "reading": {
-      "ref": "1Co 7, 32b-34a",
+      "biblicalReference": "1Co 7, 32b-34a",
       "content": "Celui qui n’est pas marié a le souci des affaires du Seigneur, il cherche comment plaire au Seigneur. La femme sans mari, ou celle qui reste vierge, a le souci des affaires du Seigneur ; elle veut lui consacrer son corps et son esprit."
     },
-    "hymn": [
-      "dieu-ma-joie"
-    ],
-    "evangelicAntiphon": "Viens, épouse du Chrsit, reçois la couronne que Dieu t'a préparée.",
-    "intercession": "<p>Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;<br> bénissons-le de tout notre cœur :</p>  <p>R/Ô Christ, notre salut, Jésus, notre lumière !</p>  <p>Tu as voulu pour épouse une Église vierge et pure,<br> – rends-la irréprochable et sainte.</p>  <p>Les vierges sages ont couru au-devant de toi avec leurs lampes,<br> – donne aux femmes qui te sont consacrées de te rester fidèles.</p>   <p>Tu donnes à ton Église de garder sa foi intègre et pure,<br> – accorde cette même grâce à tous les chrétiens.</p>  <p>Nous célébrons aujourd’hui la fête de sainte N,<br> – que son intercession soit notre joie.</p>  <p>Tu accueilles les vierges sages au festin des noces,<br> – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.</p>",
-    "responsory": "R/ Heureux les invités<br> au festin de noces de l’Agneau !<br> V/ Je te fiancerai à moi pour toujours<br> dans l’amour et la fidélité. R/ <br> V/ Tu sauras que je suis le Seigneur :<br> ouvre ton cœur à l’allégresse. R/ <br>"
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Rester proche de Dieu fait tout mon bonheur.",
-      "reading": {
-        "ref": "Sg 8, 21a",
-        "content": "Je savais que je n’obtiendrais pas la Sagesse autrement que par un don de Dieu – et reconnaître de qui dépens un bienfait, c’était encore une preuve de discernement."
-      },
-      "responsory": "V/ Tenez dans vos mains votre lampe allumée.<br> l’Epoux vous introduira dans la salle des noces.<br>"
+    "responsory": "R/ Heureux les invités<br> au festin de noces de l’Agneau !<br> V/ Je te fiancerai à moi pour toujours<br> dans l’amour et la fidélité. R/ <br> V/ Tu sauras que je suis le Seigneur :<br> ouvre ton cœur à l’allégresse. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Viens, épouse du Chrsit, reçois la couronne que Dieu t'a préparée."
     },
-    "sexte": {
-      "antiphon": "Que ta promesse me soutienne et je vivrai ; ne déçois pas mon attente.",
-      "reading": {
-        "ref": "1 Co 7, 25-26",
-        "content": "Au sujet du célibat, je n’ai pas reçu d’ordre spécial du Seigneur, mais je donne mon avis, moi qui suis devenu digne de confiance grâce au pardon du Seigneur. Je pense que le célibat est une chose bonne, étant donné les événements redoutables qui nous attendent ; oui, c’est une chose bonne de vivre ainsi."
-      },
-      "responsory": "V/ J’ai rencontré celui que j’aime,<br> je l’ai saisi, je ne le lâcherai pas.<br>"
-    },
-    "none": {
-      "antiphon": "Heureux les cœurs purs que Dieu s’est choisis : ils resplendiront de sa lumière.",
-      "reading": {
-        "ref": "Ap 19, 6b-7",
-        "content": "Le Seigneur notre Dieu a pris possession de sa royauté, lui le Tout-Puissant. Soyons dans la joie, exultons, rendons-lui gloire, car voici les noces de l’Agneau. Son épouse a revêtu ses parures."
-      },
-      "responsory": "V/ Voici l’Époux ! Sortez à sa rencontre !<br> Veillez donc, car vous ne savez ni le jour, ni l’heure.<br>"
+    "intercession": {
+      "content": "<p>Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;<br> bénissons-le de tout notre cœur :</p>  <p>R/Ô Christ, notre salut, Jésus, notre lumière !</p>  <p>Tu as voulu pour épouse une Église vierge et pure,<br> – rends-la irréprochable et sainte.</p>  <p>Les vierges sages ont couru au-devant de toi avec leurs lampes,<br> – donne aux femmes qui te sont consacrées de te rester fidèles.</p>   <p>Tu donnes à ton Église de garder sa foi intègre et pure,<br> – accorde cette même grâce à tous les chrétiens.</p>  <p>Nous célébrons aujourd’hui la fête de sainte N,<br> – que son intercession soit notre joie.</p>  <p>Tu accueilles les vierges sages au festin des noces,<br> – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.</p>"
     }
   },
-  "commonTitle": "Commun des Vierges",
-  "liturgicalColor": "white",
-  "firstVerspersPsalm1": "PSALM_112",
-  "firstVerspersPsalm2": "PSALM_147",
-  "firstVerspersPsalm3": "NT_4",
-  "oration": "Dieu qui veux habiter les cœurs droits et sincères, donne-nous, par l’intercession de sainte N. de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.",
-  "oration2": "Exauce nos prières, Seigneur, en ce jour où nous rappelons les vertus de sainte N. : accorde-nous de persévérer dans ton amour et d’y progresser jusqu’au terme de notre vie.</p> <p class=\"antienne rouge\">pour plusieurs vierges</p> <p>Multiplie pour nous, Seigneur, les gestes de miséricorde, et puisque nous célébrons dans la joie la fête des saintes N. et N., donne-nous le bonheur d’être pour toujours avec tous ceux que tu as accueillis près de toi."
+  "oration": [
+    "Dieu qui veux habiter les cœurs droits et sincères, donne-nous, par l’intercession de sainte N. de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.",
+    "Exauce nos prières, Seigneur, en ce jour où nous rappelons les vertus de sainte N. : accorde-nous de persévérer dans ton amour et d’y progresser jusqu’au terme de notre vie.</p> <p class=\"antienne rouge\">pour plusieurs vierges</p> <p>Multiplie pour nous, Seigneur, les gestes de miséricorde, et puisque nous célébrons dans la joie la fête des saintes N. et N., donne-nous le bonheur d’être pour toujours avec tous ceux que tu as accueillis près de toi."
+  ]
 }

@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 11, 1-2",
+      "biblicalReference": "Is 11, 1-2",
       "content": "Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
     },
-    "evangelicAntiphon": "Ce jour-là, le Seigneur donnera un signe aux nations&nbsp;: il rassemblera les dispersés d’Israël&nbsp;!",
-    "intercession": "<p>Ô Christ notre Seigneur, dont les prophètes ont annoncé la naissance, fais grandir en nous le désir que tu viennes au monde.</p> <p>R/ Viens, Seigneur Jésus&nbsp;!</p> <p>Accorde-nous de vivre en ce monde avec sobriété, justice et ferveur, témoignant ainsi de notre espérance.</p> <p>Tu es venu consoler les hommes au cœur brisé&nbsp;:<br> accorde-nous de partager les peines les uns des autres.</p> <p>En vue du jour où tu jugeras les vivants et les morts, que ton pardon nous relève et nous garde vigilants.</p> ",
-    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente. * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente. * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Ce jour-là, le Seigneur donnera un signe aux nations&nbsp;: il rassemblera les dispersés d’Israël&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Ô Christ notre Seigneur, dont les prophètes ont annoncé la naissance, fais grandir en nous le désir que tu viennes au monde.</p> <p>R/ Viens, Seigneur Jésus&nbsp;!</p> <p>Accorde-nous de vivre en ce monde avec sobriété, justice et ferveur, témoignant ainsi de notre espérance.</p> <p>Tu es venu consoler les hommes au cœur brisé&nbsp;:<br> accorde-nous de partager les peines les uns des autres.</p> <p>En vue du jour où tu jugeras les vivants et les morts, que ton pardon nous relève et nous garde vigilants.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,9 @@
       "responsory": "<p>R/ Réjouis-toi, Marie,<br> tu donneras le Sauveur au monde&nbsp;!</p> <p>Il sera grand,<br> on l’appellera Fils du Très-Haut&nbsp;!</p> <p>Il vient chercher<br> ce qui était perdu.</p> <p>Il rassemblera<br> les enfants de Dieu dispersés.</p>"
     },
     "verse": "<p>V/ Il révèle à Jacob sa parole,<br> ses volontés et ses lois à Israël.</p>",
-    "oration": "Nous t’en prions, Dieu tout-puissant, que la splendeur de ta gloire se lève en nos cœurs&nbsp;: et l’avènement de ton Fils unique, dissipant les dernières ombres de la nuit, fera voir au grand jour que nous sommes fils de ta lumière."
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant, que la splendeur de ta gloire se lève en nos cœurs&nbsp;: et l’avènement de ton Fils unique, dissipant les dernières ombres de la nuit, fera voir au grand jour que nous sommes fils de ta lumière."
+    ]
   },
   "middleOfDay": {
     "psalmody": [

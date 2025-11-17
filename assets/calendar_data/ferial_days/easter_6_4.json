@@ -27,11 +27,15 @@
       }
     ],
     "reading": {
-      "ref": "He 10, 12-14",
+      "biblicalReference": "He 10, 12-14",
       "content": "Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté."
     },
-    "evangelicAntiphon": "Je suis sorti du Père et je suis venu dans le monde. Maintenant, je quitte le monde et je retourne au Père. Alléluia.",
-    "intercession": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/ Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p> "
+    "evangelicAntiphon": {
+      "common": "Je suis sorti du Père et je suis venu dans le monde. Maintenant, je quitte le monde et je retourne au Père. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/ Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -66,7 +70,25 @@
       "content": "<p>Aujourd’hui notre Seigneur Jésus Christ monte au ciel&nbsp;; que notre cœur y monte avec lui. Écoutons ce que nous dit l’Apôtre&nbsp;: <i>Vous êtes ressuscités, avec le Christ. Recherchez donc les réalités d’en haut&nbsp;: c’est là qu’est le Christ, assis à la droite de Dieu. Le but de votre vie est en haut, et non pas sur la terre</i>. De même que lui est monté, mais sans s’éloigner de nous, de même sommes-nous déjà là-haut avec lui, et pourtant ce qu’il nous a promis ne s’est pas encore réalisé dans notre corps. Il a déjà été élevé au-dessus des cieux&nbsp;; cependant il souffre sur la terre toutes les peines que nous ressentons, nous ses membres. Il a rendu témoignage à cette vérité lorsqu’il a crié du haut du ciel&nbsp;: <i>Saul, Saul, pourquoi me persécuter</i>&nbsp;? Et il avait dit aussi&nbsp;: <i>J’avais faim, et vous avez donné à manger</i>. Pourquoi ne travaillons-nous pas, nous aussi, sur la terre, de telle sorte que par la foi, l’espérance, la charité, grâce auxquelles nous nous relions à lui, nous reposerions déjà maintenant avec lui, dans le ciel&nbsp;? Lui, alors qu’il est là-bas, est aussi avec nous&nbsp;; et nous, alors que nous sommes ici, sommes aussi avec lui. Lui fait cela par sa divinité, sa puissance, son amour&nbsp;; et nous, si nous ne pouvons pas le faire comme lui par la divinité, nous le pouvons cependant par l’amour, mais en lui. Lui ne s’est pas éloigné du ciel lorsqu’il en est descendu pour venir vers nous&nbsp;; et il ne s’est pas éloigné de nous lorsqu’il est monté pour revenir au ciel. Il était là-haut, tout en étant ici-bas&nbsp;; lui-même en témoigne&nbsp;: <i>Nul n’est monté au ciel, sinon celui qui est descendu du ciel, le Fils de l’homme, qui est au ciel</i>. ~ Il a parlé ainsi en raison de l’unité qui existe entre lui et nous&nbsp;: il est notre tête, et nous sommes son corps. Cela ne s’applique à personne sinon à lui, parce que nous sommes lui, en tant qu’il est Fils de l’homme à cause de nous, et que nous sommes fils de Dieu à cause de lui. C’est bien pourquoi saint Paul affirme&nbsp;: <i>Notre corps forme un tout, il a pourtant plusieurs membres&nbsp;; et tous les membres, bien qu’étant plusieurs, ne forment qu’un seul corps. De même en est-il pour le Christ</i>. Il ne dit pas&nbsp;: le Christ est ainsi en lui-même, mais il dit&nbsp;: <i>De même en est-il pour le Christ</i> à l’égard de son corps. Le Christ, c’est donc beaucoup de membres en un seul corps. Il est descendu du ciel par miséricorde, et lui seul y est monté, mais par la grâce nous aussi sommes montés en sa personne. De ce fait, le Christ seul est descendu, et le Christ seul est monté&nbsp;; non que la dignité de la tête se répande indifféremment dans le corps, mais l’unité du corps ne lui permet pas de se séparer de la tête.</p>",
       "responsory": "<p>Verbe de Dieu, Stance<br> venu prendre chair<br> dans le sein de la Vierge,<br> tu voiles ta splendeur<br> pour vivre comme l’un de nous.<br> Aujourd’hui<br> plus radieux que le soleil,<br> tu disparais à nos yeux<br> et tu retournes près du Père<br> tandis que l’univers t’acclame&nbsp;:</p> <p>R/ Tu es Seigneur,<br> Gloire à toi, Fils de l’homme&nbsp;!<br> Règne sur la création.</p>"
     },
-    "oration": "Dieu qui élèves le Christ au-dessus de tout, ouvre-nous à la joie et à l’action de grâce, car l’Ascension de ton Fils est déjà notre victoire&nbsp;: nous sommes les membres de son corps, il nous a précédés dans la gloire auprès de toi, et c’est là que nous vivons en espérance."
+    "oration": [
+      "Dieu qui élèves le Christ au-dessus de tout, ouvre-nous à la joie et à l’action de grâce, car l’Ascension de ton Fils est déjà notre victoire&nbsp;: nous sommes les membres de son corps, il nous a précédés dans la gloire auprès de toi, et c’est là que nous vivons en espérance."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_9",
+        "antiphon": [
+          "Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia."
+        ]
+      },
+      {
+        "psalm": "PSALM_55"
+      },
+      {
+        "psalm": "PSALM_56"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,27 +112,15 @@
       }
     ],
     "reading": {
-      "ref": "1 P 3, 18.22",
+      "biblicalReference": "1 P 3, 18.22",
       "content": "Le Christ est mort pour les péchés, une fois pour toutes&nbsp;; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort&nbsp;; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu."
     },
-    "evangelicAntiphon": "Roi de gloire, Dieu de l’univers, toi qui montes au plus haut des cieux, ne nous laisse pas orphelins, envoie-nous celui que le Père a promis, l’Esprit de vérité, alléluia.",
-    "intercession": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/ Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix,<br> aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p> <p>Toi qui reviendras au dernier jour pour nous prendre avec toi,<br> –&nbsp;sois la résurrection des morts.</p> ",
-    "responsory": "<p>R/ Nous acclamons, Seigneur,<br> la splendeur de ta gloire éternelle&nbsp;!<br> V/ À toi, Seigneur, le règne,<br> la primauté sur l’univers&nbsp;!R/ <br> V/ C’est toi, le Maître de tout,<br> nous voici pour te rendre grâce.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_9",
-        "antiphon": [
-          "Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia."
-        ]
-      },
-      {
-        "psalm": "PSALM_55"
-      },
-      {
-        "psalm": "PSALM_56"
-      }
-    ]
+    "responsory": "<p>R/ Nous acclamons, Seigneur,<br> la splendeur de ta gloire éternelle&nbsp;!<br> V/ À toi, Seigneur, le règne,<br> la primauté sur l’univers&nbsp;!R/ <br> V/ C’est toi, le Maître de tout,<br> nous voici pour te rendre grâce.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Roi de gloire, Dieu de l’univers, toi qui montes au plus haut des cieux, ne nous laisse pas orphelins, envoie-nous celui que le Père a promis, l’Esprit de vérité, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Acclamons et louons le Seigneur, élevé au-dessus de tous&nbsp;:</p> <p>R/ Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix,<br> aujourd’hui tu es monté victorieux à la droite du Père,<br> –&nbsp;achève notre délivrance.</p> <p>Pendant quarante jours, tu t’es montré vivant à tes disciples,<br> –&nbsp;affermis notre foi.</p> <p>Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,<br> –&nbsp;intercède pour nous.</p> <p>Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,<br> –&nbsp;fortifie notre témoignage.</p> <p>Toi qui reviendras au dernier jour pour nous prendre avec toi,<br> –&nbsp;sois la résurrection des morts.</p> "
+    }
   }
 }

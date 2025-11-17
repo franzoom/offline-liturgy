@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Ac 10, 40-43",
+      "biblicalReference": "Ac 10, 40-43",
       "content": "Voici que Dieu a ressuscité Jésus le troisième jour. Il lui a donné de se montrer non pas à tout le peuple, mais seulement aux témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Il nous a chargés d’annoncer au peuple et de témoigner que Dieu l’a choisi comme Juge des vivants et des morts. C’est à lui que tous les prophètes rendent ce témoignage&nbsp;: Tout homme qui croit en lui reçoit par lui le pardon de ses péchés."
     },
-    "evangelicAntiphon": "Touche mes plaies, dit Jésus, et deviens un homme de foi. Alléluia&nbsp;!",
-    "intercession": "<p>Rendons grâce à Dieu le Père qui a sauvé son Fils de la mort&nbsp;:</p> <p>R/ Gloire à toi dans les siècles&nbsp;!</p> <p>Père saint, tu as glorifié ton Enfant bien-aimé&nbsp;;&nbsp;<br> –&nbsp;en lui tu nous appelles des ténèbres à ton admirable lumière&nbsp;:</p> <p>Tu nous as sauvés par la foi en ton Fils&nbsp;;<br> –&nbsp;affermis les croyants dans la foi de leur baptême&nbsp;:</p> <p>Tu tournes nos regards vers les réalités d’en haut&nbsp;<br> –&nbsp;libère-nous de l’emprise du péché&nbsp;:</p> <p>Que notre vie cachée en toi avec le Christ<br> –&nbsp;prépare les cieux nouveaux et la terre nouvelle&nbsp;:</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie <br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu, <br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie <br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu, <br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Touche mes plaies, dit Jésus, et deviens un homme de foi. Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Rendons grâce à Dieu le Père qui a sauvé son Fils de la mort&nbsp;:</p> <p>R/ Gloire à toi dans les siècles&nbsp;!</p> <p>Père saint, tu as glorifié ton Enfant bien-aimé&nbsp;;&nbsp;<br> –&nbsp;en lui tu nous appelles des ténèbres à ton admirable lumière&nbsp;:</p> <p>Tu nous as sauvés par la foi en ton Fils&nbsp;;<br> –&nbsp;affermis les croyants dans la foi de leur baptême&nbsp;:</p> <p>Tu tournes nos regards vers les réalités d’en haut&nbsp;<br> –&nbsp;libère-nous de l’emprise du péché&nbsp;:</p> <p>Que notre vie cachée en toi avec le Christ<br> –&nbsp;prépare les cieux nouveaux et la terre nouvelle&nbsp;:</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,7 +71,25 @@
       "responsory": "<p>Heureux ceux qui ont vu le Ressuscité Stance<br> et reconnu à ses plaies la victoire.<br> Mais heureux sommes-nous<br> de croire sans avoir vu<br> et, sans le voir encore,<br> d’aimer Jésus, notre Sauveur.</p> <p>R/ Seigneur, tu es vivant, nous t’avons reconnu,<br> au dernier jour nous te verrons.</p> <p>Pleurant près du tombeau,<br> soudain Marie se dresse&nbsp;:<br> qui donc l’appelle par son nom&nbsp;?</p> <p>À la table d’Emmaüs,<br> les voyageurs tout interdits se lèvent&nbsp;:<br> qui donc pour eux vient de rompre le pain&nbsp;?</p> <p>Réfugiés dans la chambre haute,<br> les disciples frémissent&nbsp;:<br> qui donc se tient au milieu d’eux&nbsp;?</p> <p>Approchant du rivage,<br> les pêcheurs soudain s’interrogent&nbsp;:<br> qui donc les attend près d’un feu&nbsp;?</p>"
     },
     "verse": "<p>V/ Les disciples furent remplis de joie, alléluia,<br> à la vue du Seigneur, alléluia&nbsp;!<br></p>",
-    "oration": "Dieu de miséricorde infinie, tu ranimes la foi de ton peuple par les célébrations pascales&nbsp;; augmente en nous ta grâce pour que nous comprenions toujours mieux quel baptême nous a purifiés, quel Esprit nous a fait renaître, et quel sang nous a rachetés."
+    "oration": [
+      "Dieu de miséricorde infinie, tu ranimes la foi de ton peuple par les célébrations pascales&nbsp;; augmente en nous ta grâce pour que nous comprenions toujours mieux quel baptême nous a purifiés, quel Esprit nous a fait renaître, et quel sang nous a rachetés."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_22",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_75_1"
+      },
+      {
+        "psalm": "PSALM_75_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -91,27 +113,15 @@
       }
     ],
     "reading": {
-      "ref": "He 10, 12-14",
+      "biblicalReference": "He 10, 12-14",
       "content": "Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté."
     },
-    "evangelicAntiphon": "Thomas a vu le Seigneur&nbsp;: il a cru. Heureux celui qui croit sans avoir vu&nbsp;! Alléluia&nbsp;!",
-    "intercession": "<p>Prions le Père tout-puissant qui nous a rendu la vie en Jésus ressuscité&nbsp;:</p> <p>R/ Amen&nbsp;! Amen&nbsp;! Alléluia&nbsp;!</p> <p>Par l’exaltation de Jésus sur la croix,&nbsp;<br> —&nbsp;attire à lui tous les hommes.</p> <p>Par le passage du Christ à travers les eaux de la mort,<br> —&nbsp;garde la foi des nouveaux baptisés.</p> <p>Par la victoire du Ressuscité sur les forces du mal,&nbsp;<br> —&nbsp;préserve les peuples de la violence.</p> <p>Par le don de l’unique Esprit au soir de Pâques,&nbsp;<br> —&nbsp;fais de ton Église le signe de l’unité.</p> <p>Par le sacrement du Corps et du Sang de ton Fils,&nbsp;<br> —&nbsp;que nos frères défunts participent à sa résurrection.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;:<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_22",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_75_1"
-      },
-      {
-        "psalm": "PSALM_75_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;:<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Thomas a vu le Seigneur&nbsp;: il a cru. Heureux celui qui croit sans avoir vu&nbsp;! Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Prions le Père tout-puissant qui nous a rendu la vie en Jésus ressuscité&nbsp;:</p> <p>R/ Amen&nbsp;! Amen&nbsp;! Alléluia&nbsp;!</p> <p>Par l’exaltation de Jésus sur la croix,&nbsp;<br> —&nbsp;attire à lui tous les hommes.</p> <p>Par le passage du Christ à travers les eaux de la mort,<br> —&nbsp;garde la foi des nouveaux baptisés.</p> <p>Par la victoire du Ressuscité sur les forces du mal,&nbsp;<br> —&nbsp;préserve les peuples de la violence.</p> <p>Par le don de l’unique Esprit au soir de Pâques,&nbsp;<br> —&nbsp;fais de ton Église le signe de l’unité.</p> <p>Par le sacrement du Corps et du Sang de ton Fils,&nbsp;<br> —&nbsp;que nos frères défunts participent à sa résurrection.</p> "
+    }
   }
 }

@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 53, 11b-12",
+      "biblicalReference": "Is 53, 11b-12",
       "content": "Parce qu’il a connu la souffrance, le juste, mon serviteur, justifiera les multitudes, il se chargera de leurs péchés. C’est pourquoi je lui donnerai la multitude en partage, les puissants seront la part qu’il recevra, car il s’est dépouillé lui-même jusqu’à la mort, il a été compté avec les pécheurs, alors qu’il portait le péché des multitudes et qu’il intercédait pour les pécheurs."
     },
-    "evangelicAntiphon": "La pierre qu’ont rejetée les bâtisseurs est devenue la pierre d’angle.",
-    "intercession": "<p>Nous voici devant toi, Seigneur Jésus,<br> comme le fils qui a dilapidé l’héritage&nbsp;:<br> toi, le Fils bien-aimé, conduis-nous vers le Père.</p> <p>R/ Conduis-nous vers le Père&nbsp;!</p> <p>Nous voici devant toi comme la pécheresse accusée&nbsp;:<br> toi qui es sans péché, donne-nous le pardon.</p> <p>R/ Donne-nous le pardon.</p> <p>Nous voici devant toi comme Zachée le publicain&nbsp;:<br> toi, l’ami des pécheurs, apprends-nous à donner.</p> <p>R/ Apprends-nous à donner.</p> <p>Nous voici devant toi comme la femme de Samarie&nbsp;:<br> toi, la source cachée, fais-nous boire l’eau vive.</p> <p>R/ Fais-nous boire l’eau vive.</p> <p>Nous voici près de toi comme Jean au Calvaire&nbsp;:<br> toi, le Fils de Marie, regarde ton Église.</p> <p>R/ Regarde ton Église.</p> ",
     "responsory": "<p>R/ Tu nous as rachetés, Seigneur, <br>au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    "evangelicAntiphon": {
+      "common": "La pierre qu’ont rejetée les bâtisseurs est devenue la pierre d’angle."
+    },
+    "intercession": {
+      "content": "<p>Nous voici devant toi, Seigneur Jésus,<br> comme le fils qui a dilapidé l’héritage&nbsp;:<br> toi, le Fils bien-aimé, conduis-nous vers le Père.</p> <p>R/ Conduis-nous vers le Père&nbsp;!</p> <p>Nous voici devant toi comme la pécheresse accusée&nbsp;:<br> toi qui es sans péché, donne-nous le pardon.</p> <p>R/ Donne-nous le pardon.</p> <p>Nous voici devant toi comme Zachée le publicain&nbsp;:<br> toi, l’ami des pécheurs, apprends-nous à donner.</p> <p>R/ Apprends-nous à donner.</p> <p>Nous voici devant toi comme la femme de Samarie&nbsp;:<br> toi, la source cachée, fais-nous boire l’eau vive.</p> <p>R/ Fais-nous boire l’eau vive.</p> <p>Nous voici près de toi comme Jean au Calvaire&nbsp;:<br> toi, le Fils de Marie, regarde ton Église.</p> <p>R/ Regarde ton Église.</p> "
+    },
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Le Seigneur a conclu avec nous une alliance,<br> sur la montagne, il nous a parlé face à face.</p> <p>Toutes les promesses de Dieu<br> ont leur oui dans le Christ,<br> et par lui nous disons «&nbsp;amen&nbsp;» à la gloire de Dieu.</p> <p>Le Seigneur nous affermit dans le Christ,<br> il nous a donné l’onction.</p> <p>Le Seigneur nous a marqués de son sceau,<br> il a mis dans nos cœurs les arrhes de l’Esprit.</p>"
     },
     "verse": "<p>V/ Revenons au Seigneur notre Dieu,<br>car il est tendre et miséricordieux.</p>",
-    "oration": "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_10",
+        "antiphon": [
+          "Tu mets à dure épreuve ton peuple&nbsp;; Dieu, porte-nous secours."
+        ]
+      },
+      {
+        "psalm": "PSALM_58"
+      },
+      {
+        "psalm": "PSALM_59"
+      }
+    ],
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 5, 16. 19-20",
+      "biblicalReference": "Jc 5, 16. 19-20",
       "content": "Reconnaissez vos péchés les uns devant les autres, et priez les uns pour les autres afin d’être guéris, car la supplication du juste agit avec beaucoup de puissance. Mes frères, si l’un de vous s’égare loin de la vérité et si quelqu’un l’amène à se convertir, alors, sachez-le&nbsp;: celui qui ramène un pécheur du chemin où il s’égarait se sauvera lui-même et couvrira une multitude de péchés."
     },
-    "evangelicAntiphon": "Le Royaume de Dieu sera donné à un peuple qui en rendra les fruits.",
-    "intercession": "<p>Adorons notre Sauveur, qui par sa mort a détruit la mort et par sa résurrection nous a rendu la vie&nbsp;:</p> <p>R/ Jésus Sauveur, nous t’adorons.</p> <p>En te faisant obéissant jusqu’à la mort,<br> tu nous apprends le plus grand amour.</p> <p>En prenant sur toi la malédiction du péché,<br> tu nous révèles la bienveillance du Père.</p> <p>En priant pour ceux qui t’ont mis en croix,<br> tu nous entraînes au pardon sans mesure.</p> <p>En ouvrant le paradis au malfaiteur repenti,<br> tu rends possible notre espérance.</p> <p>En ressuscitant le troisième jour,<br> tu relèves ceux qui sont endormis dans la paix.</p>",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  *  Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_10",
-        "antiphon": [
-          "Tu mets à dure épreuve ton peuple&nbsp;; Dieu, porte-nous secours."
-        ]
-      },
-      {
-        "psalm": "PSALM_58"
-      },
-      {
-        "psalm": "PSALM_59"
-      }
-    ],
-    "oration": "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    "evangelicAntiphon": {
+      "common": "Le Royaume de Dieu sera donné à un peuple qui en rendra les fruits."
+    },
+    "intercession": {
+      "content": "<p>Adorons notre Sauveur, qui par sa mort a détruit la mort et par sa résurrection nous a rendu la vie&nbsp;:</p> <p>R/ Jésus Sauveur, nous t’adorons.</p> <p>En te faisant obéissant jusqu’à la mort,<br> tu nous apprends le plus grand amour.</p> <p>En prenant sur toi la malédiction du péché,<br> tu nous révèles la bienveillance du Père.</p> <p>En priant pour ceux qui t’ont mis en croix,<br> tu nous entraînes au pardon sans mesure.</p> <p>En ouvrant le paradis au malfaiteur repenti,<br> tu rends possible notre espérance.</p> <p>En ressuscitant le troisième jour,<br> tu relèves ceux qui sont endormis dans la paix.</p>"
+    },
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant&nbsp;: purifie-nous au long de ce Carême, pour que nous parvenions avec un cœur limpide aux fêtes pascales qui approchent."
+    ]
   }
 }

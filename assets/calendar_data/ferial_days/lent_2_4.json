@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "cf. 1 R 8, 51-53a",
+      "biblicalReference": "cf. 1 R 8, 51-53a",
       "content": "Nous sommes, Seigneur, ton peuple et ton héritage. Que tes yeux soient ouverts à la supplication de ton serviteur et d’Israël, ton peuple, écoute-les toutes les fois qu’ils crieront vers toi. Car c’est toi qui les as mis à part pour toi comme héritage, parmi tous les peuples de la terre."
     },
-    "evangelicAntiphon": "S’ils n’écoutent ni Moïse, ni les pro­phètes, croiront-ils celui qui sortira de chez les morts&nbsp;?",
-    "intercession": "<p>Malgré nos fautes, Seigneur, ne ferme pas ton oreille, inspire-nous la vraie prière&nbsp;:</p> <p>R/ Kyrie, eleison.</p> <p>Viens à notre aide, nous périssons.</p> <p>Dis seulement une parole, et nous serons sauvés.</p> <p>Si tu le veux, tu peux nous guérir.</p> <p>Viens au secours de notre incroyance.</p> <p>Que nos yeux s’ouvrent et nous te suivrons.</p> <p>Souviens-toi de nous quand tu viendras dans ton Royaume.</p> <p>Apprends-nous toi-même à prier&nbsp;: Notre Père...</p> ",
     "responsory": "<p>R/ Nous sommes ton peuple, Seigneur.<br>  * Pitié, nous crions vers toi.<br> V/ Nous ployons sous le poids de nos fautes. * <br> V/ Écrasés de maux et de peines. * <br></p>",
-    "oration": "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    "evangelicAntiphon": {
+      "common": "S’ils n’écoutent ni Moïse, ni les pro­phètes, croiront-ils celui qui sortira de chez les morts&nbsp;?"
+    },
+    "intercession": {
+      "content": "<p>Malgré nos fautes, Seigneur, ne ferme pas ton oreille, inspire-nous la vraie prière&nbsp;:</p> <p>R/ Kyrie, eleison.</p> <p>Viens à notre aide, nous périssons.</p> <p>Dis seulement une parole, et nous serons sauvés.</p> <p>Si tu le veux, tu peux nous guérir.</p> <p>Viens au secours de notre incroyance.</p> <p>Que nos yeux s’ouvrent et nous te suivrons.</p> <p>Souviens-toi de nous quand tu viendras dans ton Royaume.</p> <p>Apprends-nous toi-même à prier&nbsp;: Notre Père...</p> "
+    },
+    "oration": [
+      "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ C’est le Seigneur ton Dieu que tu craindras,<br> c’est lui que tu serviras.</p> <p>Le cœur de l’homme cherche sa voie,<br> mais c’est le Seigneur qui affermit ses pas.</p> <p>La crainte du Seigneur est école de sagesse&nbsp;;<br> celui qui s’abaisse sera élevé.</p>"
     },
     "verse": "<p>V/ Celui qui médite la loi du Seigneur<br>donne du fruit en son temps.</p>",
-    "oration": "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    "oration": [
+      "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_9",
+        "antiphon": [
+          "C’est pour mon bien que j’ai souffert, ainsi ai-je appris tes commandements."
+        ]
+      },
+      {
+        "psalm": "PSALM_55"
+      },
+      {
+        "psalm": "PSALM_56"
+      }
+    ],
+    "oration": [
+      "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 4, 7-8. 10",
+      "biblicalReference": "Jc 4, 7-8. 10",
       "content": "Soumettez-vous à Dieu, et résistez au démon&nbsp;: il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains&nbsp;; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera."
     },
-    "evangelicAntiphon": "Le pauvre Lazare fut emporté par les anges dans le sein d’Abraham.",
-    "intercession": "<p>Seigneur, à qui pourrions-nous aller&nbsp;? Tu as les paroles de la vie éternelle.</p> <p>R/ Que ta parole soit notre lumière&nbsp;!</p> <p>Tu as dit&nbsp;: Vous êtes le sel de la terre,<br> vous êtes la lumière du monde.</p> <p>Tu as dit&nbsp;: Aimez vos ennemis,<br> faites du bien à ceux qui vous haïssent.</p> <p>Tu as dit&nbsp;: Soyez parfaits<br> comme votre Père est parfait.</p> <p>Tu as dit&nbsp;: Priez dans le secret,<br> demandez et vous recevrez.</p> <p>Tu as dit&nbsp;: Cherchez d’abord le Royaume,<br> entrez par la porte étroite.</p>",
     "responsory": "<p>R/ Seigneur, entends ma prière.<br>  *  Que mon cri parvienne jusqu’à toi&nbsp;!<br> V/ Le jour où j’appelle, écoute-moi.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_9",
-        "antiphon": [
-          "C’est pour mon bien que j’ai souffert, ainsi ai-je appris tes commandements."
-        ]
-      },
-      {
-        "psalm": "PSALM_55"
-      },
-      {
-        "psalm": "PSALM_56"
-      }
-    ],
-    "oration": "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    "evangelicAntiphon": {
+      "common": "Le pauvre Lazare fut emporté par les anges dans le sein d’Abraham."
+    },
+    "intercession": {
+      "content": "<p>Seigneur, à qui pourrions-nous aller&nbsp;? Tu as les paroles de la vie éternelle.</p> <p>R/ Que ta parole soit notre lumière&nbsp;!</p> <p>Tu as dit&nbsp;: Vous êtes le sel de la terre,<br> vous êtes la lumière du monde.</p> <p>Tu as dit&nbsp;: Aimez vos ennemis,<br> faites du bien à ceux qui vous haïssent.</p> <p>Tu as dit&nbsp;: Soyez parfaits<br> comme votre Père est parfait.</p> <p>Tu as dit&nbsp;: Priez dans le secret,<br> demandez et vous recevrez.</p> <p>Tu as dit&nbsp;: Cherchez d’abord le Royaume,<br> entrez par la porte étroite.</p>"
+    },
+    "oration": [
+      "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles, pour que, dociles à ton Esprit, ils soient fermes dans la foi et vraiment efficaces."
+    ]
   }
 }

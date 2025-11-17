@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "S. Jean-Baptiste de la Salle",
+    "subtitle": "prêtre",
+    "description": "Jean-Baptiste de la Salle (1651-1719) fut un pionnier en ouvrant une école qui offrait aux enfants pauvres un enseignement populaire. Reims, Paris, Rouen virent les premières fondations de ce prêtre rémois autour duquel s'étaient groupés quelques enseignants, les Frères des Écoles chrétiennes (1684). Dans sa vieillesse, le fondateur eut à subir de lourdes épreuves de la part de ses frères.",
+    "commons": [
+      "pastors",
+      "saints-male_educator"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Heureux celui qui a donné sans compter&nbsp;: il recevra sans mesure."
+    "evangelicAntiphon": {
+      "common": "Heureux celui qui a donné sans compter&nbsp;: il recevra sans mesure."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Laissez venir à moi les petits enfants&nbsp;: le Royaume est à ceux qui leur ressemblent."
+    "evangelicAntiphon": {
+      "common": "Laissez venir à moi les petits enfants&nbsp;: le Royaume est à ceux qui leur ressemblent."
+    }
   },
-  "celebrationTitle": "S. Jean-Baptiste de la Salle",
-  "celebrationSubtitle": "prêtre",
-  "celebrationDescription": "Jean-Baptiste de la Salle (1651-1719) fut un pionnier en ouvrant une école qui offrait aux enfants pauvres un enseignement populaire. Reims, Paris, Rouen virent les premières fondations de ce prêtre rémois autour duquel s'étaient groupés quelques enseignants, les Frères des Écoles chrétiennes (1684). Dans sa vieillesse, le fondateur eut à subir de lourdes épreuves de la part de ses frères.",
-  "liturgicalGrade": 10,
-  "commons": [
-    "pastors", "saints-male_educator"
-  ],
-  "liturgicalColor": "white",
-  "oration": "Dieu qui as choisi saint Jean-Baptiste de la Salle pour former les jeunes à la vie chrétienne, suscite enore dans ton Église des éducateurs qui se dévoueront tout entiers à cette œuvre de formation humaine et religieuse."
+  "oration": [
+    "Dieu qui as choisi saint Jean-Baptiste de la Salle pour former les jeunes à la vie chrétienne, suscite enore dans ton Église des éducateurs qui se dévoueront tout entiers à cette œuvre de formation humaine et religieuse."
+  ]
 }

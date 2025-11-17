@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "S. Stanislas",
+    "subtitle": "évêque et martyr",
+    "description": "Stanislas (1030‑1079) devint évêque de Cracovie (Pologne) peu après le martyre de Thomas Becket (1071). Bientôt Grégoire VII accéderait à la Chaire de Pierre. Stanislas devait mener, lui aussi, le combat pour la liberté de l’Église, en excommuniant un prince autocrate et corrompu. Celui‑ci le fit assassiner.",
+    "commons": [
+      "martyr",
+      "pastors"
+    ],
+    "grade": 10,
+    "color": "red"
+  },
   "morning": {
-    "evangelicAntiphon": "Celui qui perd sa vie en ce monde la trouve pour l'éternité."
+    "evangelicAntiphon": {
+      "common": "Celui qui perd sa vie en ce monde la trouve pour l'éternité."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Heureux le vainquerur, entrée dans la lumière et dans la paix de son Seigneur&nbsp;!"
+    "evangelicAntiphon": {
+      "common": "Heureux le vainquerur, entrée dans la lumière et dans la paix de son Seigneur&nbsp;!"
+    }
   },
-  "celebrationTitle": "S. Stanislas",
-  "celebrationSubtitle": "évêque et martyr",
-  "celebrationDescription": "Stanislas (1030‑1079) devint évêque de Cracovie (Pologne) peu après le martyre de Thomas Becket (1071). Bientôt Grégoire VII accéderait à la Chaire de Pierre. Stanislas devait mener, lui aussi, le combat pour la liberté de l’Église, en excommuniant un prince autocrate et corrompu. Celui‑ci le fit assassiner.",
-  "liturgicalGrade": 10,
-  "commons": [
-    "martyr", "pastors"
-  ],
-  "liturgicalColor": "red",
-  "oration": "Seigneur, c'est pour te rendre gloire que l'évêque saint Stnaislas est tombé sous les coups de ses persécuteurs&nbsp;; accorde-nous de rester jusqu'à la mort fermes dan la foi."
+  "oration": [
+    "Seigneur, c'est pour te rendre gloire que l'évêque saint Stnaislas est tombé sous les coups de ses persécuteurs&nbsp;; accorde-nous de rester jusqu'à la mort fermes dan la foi."
+  ]
 }

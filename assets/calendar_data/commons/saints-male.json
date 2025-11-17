@@ -1,10 +1,11 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Dieu saint, toute sainteté vient de toi&nbsp;!"
-    ]
+  "celebration": {
+    "color": "white"
   },
   "firstVespers": {
+    "hymn": [
+      "l-etincelle-du-feu-divin"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_112",
@@ -26,17 +27,26 @@
       }
     ],
     "reading": {
-      "ref": "Ph 3, 7-8",
+      "biblicalReference": "Ph 3, 7-8",
       "content": "Tous les avantages que j’avais, je les ai considérés comme une perte à cause du Christ ; oui, je considère toute cela comme une perte à cause de ce bien qui dépasse tout : la connaissance du Christ Jésus, mon Seigneur. À cause de lui, j’ai tout perdu ; je considère tout comme des balayures, en vue d’un seul avantage, le Christ."
     },
-    "hymn": [
-      "l-etincelle-du-feu-divin"
-    ],
-    "evangelicAntiphon": "Heureux l’homme avisé qui a bâti sa maison sur le roc.",
-    "intercession": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>",
-    "responsory": "R/ Je peux tout<br> * en celui qui me rend fort.<br> V/ Lorsque je suis faible, je garde confiance,<br> * en celui qui me rend fort.<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>"
+    "responsory": "R/ Je peux tout<br> * en celui qui me rend fort.<br> V/ Lorsque je suis faible, je garde confiance,<br> * en celui qui me rend fort.<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>",
+    "evangelicAntiphon": {
+      "common": "Heureux l’homme avisé qui a bâti sa maison sur le roc."
+    },
+    "intercession": {
+      "content": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>"
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Dieu saint, toute sainteté vient de toi&nbsp;!"
+    ]
   },
   "morning": {
+    "hymn": [
+      "de-toi-je-ne-sais-rien"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -58,17 +68,21 @@
       }
     ],
     "reading": {
-      "ref": "Rm 12, 1-2",
+      "biblicalReference": "Rm 12, 1-2",
       "content": "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait."
     },
-    "hymn": [
-      "de-toi-je-ne-sais-rien"
-    ],
-    "evangelicAntiphon": "Celui qui fait la vérité vient à la lumière : ses œuvres sont les œuvres de Dieu.",
-    "intercession": "<p>Bénissons le Christ, le Saint de Dieu !<br> Suivons-le dans la justice et la sainteté tout au long de nos jours.</p>  <p>R/Toi, le seul saint ! Toi, le seul Seigneur !</p>  <p>Tu as connu l’épreuve comme nous, et tu n’as pas péché.<br> — prends pitié de nous, Seigneur Jésus.</p> <p>Tu nous appelle à un parfait amour de charité,<br> — sanctifie-nous, Seigneur Jésus.</p> <p>Tu veux que nous soyons le sel de la terre et la lumière du monde,<br> — illumine-nous, Seigneur Jésus.</p> <p>Tu es venu pour servir, non pour être servi,<br> — change nos cœurs, Seigneur Jésus.</p> <p>Toi, splendeur de la gloire du Père et parfaite expression de son être,<br> — montre-nous ton visage, Seigneur Jésus.</p>",
-    "responsory": "R/ Que notre sacrifice en ce jour<br> trouve grâce devant toi.<br> V/ Nous te suivons et nous cherchons ta face. R/ <br> V/ À toi, louange et gloire éternellement. R/ <br>"
+    "responsory": "R/ Que notre sacrifice en ce jour<br> trouve grâce devant toi.<br> V/ Nous te suivons et nous cherchons ta face. R/ <br> V/ À toi, louange et gloire éternellement. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Celui qui fait la vérité vient à la lumière : ses œuvres sont les œuvres de Dieu."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Christ, le Saint de Dieu !<br> Suivons-le dans la justice et la sainteté tout au long de nos jours.</p>  <p>R/Toi, le seul saint ! Toi, le seul Seigneur !</p>  <p>Tu as connu l’épreuve comme nous, et tu n’as pas péché.<br> — prends pitié de nous, Seigneur Jésus.</p> <p>Tu nous appelle à un parfait amour de charité,<br> — sanctifie-nous, Seigneur Jésus.</p> <p>Tu veux que nous soyons le sel de la terre et la lumière du monde,<br> — illumine-nous, Seigneur Jésus.</p> <p>Tu es venu pour servir, non pour être servi,<br> — change nos cœurs, Seigneur Jésus.</p> <p>Toi, splendeur de la gloire du Père et parfaite expression de son être,<br> — montre-nous ton visage, Seigneur Jésus.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "la-ou-il-n-y-a-rien"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_20",
@@ -113,12 +127,38 @@
       "content": "<i>Si quelqu’un veut marcher à ma suite, qu’il renonce à lui-même, qu’il prenne sa croix, et qu’il me suive.</i> Ce que le Seigneur a commandé semble dur et pénible : Si quelqu’un veut marcher à sa suite, qu’il renonce à lui-même ! Mais ce n’est ni dur ni pénible en réalité, parce que celui qui commande est celui qui aide à réaliser ce qu’il commande. Car elle est vraie aussi, la parole du psaume : <i>À cause des paroles de tes lèvres, j’ai suivi des chemins pénibles</i>. Et elle est vraie aussi, la parole que lui-même a prononcée : <i>Mon joug est facile à porter, et mon fardeau, léger</i>. Car tout ce qui est dur dans le commandement, l’amour le rend facile. Que signifie : <i>Qu’il prenne sa croix ?</i> Qu’il porte tout ce qui est pénible : qu’il me suive ainsi. Car lorsqu’il commencera à me suivre en conformant sa conduite à mes commandements, il aura beaucoup de gens pour le contredire, beaucoup pour s’opposer à lui, beaucoup pour le décourager. Et ceux-là agiront ainsi au titre de compagnons du Christ. Ils marchaient avec le Christ, ceux qui empêchaient les aveugles de crier. Qu’il s’agisse de menaces, de flatteries ou d’interdictions, si tu veux suivre le Christ, change tout cela en croix ; patiente, supporte, ne te laisse pas accabler. Nous sommes dans un monde qui est saint, qui est bon, réconcilié, sauvé, ou plutôt à sauver mais sauvé dès maintenant en espérance — <i>car nous avons été sauvés, mais c’est en espérance</i> —. Dans ce monde donc, c’est-à-dire dans l’Église, qui tout entière suit le Christ, il dit à tous : <i>Celui qui veut marcher à ma suite, qu’il renonce à lui-même</i>. Car cette parole n’est pas destinée aux vierges, à l’exclusion des femmes mariées ; aux veuves, à l’exclusion des épouses ; aux moines, à l’exclusion des époux ; aux clercs, à l’exclusion des laïcs. C’est toute l’Église, tout le corps, tous les membres, différenciés et répartis selon leurs tâches propres, qui doivent suivre le Christ. Qu’elle le suive tout entière, elle qui, est l’unique, elle qui est la colombe, elle qui est l’épouse ; qu’elle le suive, elle qui est rachetée et dotée par le sang de l’Époux. Elle a ici sa place, la pureté des vierges ; elle a ici sa place, la continence des veuves ; elle a ici sa place, la chasteté conjugale. Ces membres qui ont ici leur place, qu’ils suivent le Christ, chacun selon sa catégorie, chacun selon son rang, chacun à sa manière. Qu’ils renoncent à eux-mêmes, c’est-à-dire qu’ils ne s’appuient pas sur eux-mêmes ; qu’ils portent leur croix, c’est-à-dire qu’ils supportent dans le monde, pour le Christ, tout ce que le monde leur infligera. Qu’ils l’aiment, lui, le seul qui ne trompe pas, le seul qui ne se trompe pas, le seul qui ne ment pas : qu’ils l’aiment parce que ce qu’il promet est vrai. Mais parce qu’il ne le donne pas maintenant, la foi chancelle. Continue, persévère, supporte, accepte ce retard, et tu as porté la croix.",
       "responsory": "R/ Connaître le Christ,<br>  la puissance de sa résurrection,<br>  et la communion à ses souffrances.</p> <p>Pour lui, j’ai tout perdu,<br>  et je cours vers le seul but :</p> <p>Lui, le premier, m’a saisi,<br>  de tout mon élan, je veux le saisir.</p>"
     },
-    "hymn": [
-      "la-ou-il-n-y-a-rien"
-    ],
     "verse": "V/ Le Seigneur conduit le juste par des voies droites.<br> Il lui montre le Royaume de Dieu.<br>"
   },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Chez l’homme qui garde la parole du Christ, la charité est parfaite.",
+      "reading": {
+        "biblicalReference": "Ga 6, 8",
+        "content": "Ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle."
+      },
+      "responsory": "V/ Il est droit, il est bon, le Seigneur :<br> sa justice dirige les humbles.<br>"
+    },
+    "sexte": {
+      "antiphon": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
+      "reading": {
+        "biblicalReference": "1 Co 9, 26-27a",
+        "content": "Moi, si je cours, ce n’est pas sans fixer le but ; si je fais de la lutte, ce n’est pas en frappant dans le vide. Mais je traite durement mon corps, et je le réduis en esclavage."
+      },
+      "responsory": "V/ Heureux l’homme que tu instruis, Seigneur,<br> celui que tu enseignes par ta loi.<br>"
+    },
+    "none": {
+      "antiphon": "Rien n’égale, Seigneur, ta fidélité envers ceux qui espèrent en toi.",
+      "reading": {
+        "biblicalReference": "Ph 4, 8.9b",
+        "content": "Frères, tout ce qui est vrai et noble, tout ce qui est digne d’être aimé et honoré, tout ce qui s’appelle vertu et qui mérite des éloges, tout cela, prenez-le à votre compte. Et le Dieu de la paix sera avec vous."
+      },
+      "responsory": "V/ Tu les protèges, pour toi ils exultent,<br> ceux qui aiment ton nom, Seigneur !<br>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "l-etincelle-du-feu-divin"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_14",
@@ -140,45 +180,19 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 28-30",
+      "biblicalReference": "Rm 8, 28-30",
       "content": "Nous le savons, quand les hommes aiment Dieu, lui-même fait tout contribuer à leur bien, puisqu’ils sont appelés selon le dessein de son amour. Ceux qu’il connaissait par avance, il les a aussi destinés à être l’image de son Fils, pour faire de ce Fils l’aîné d’une multitude de frères. Ceux qu’il destinait à cette ressemblance, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes ; et ceux qu’il a justifiés, il leur a donné sa gloire."
     },
-    "hymn": [
-      "l-etincelle-du-feu-divin"
-    ],
-    "evangelicAntiphon": "Serviteur fidèle et vigilant : entre dans la joie de ton maître.",
-    "intercession": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que nous le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>",
-    "responsory": "R/ Le Seigneur est juste :<br> * Les hommes droits le verront face à face.<br> V/ Il aime toute justice. *<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>"
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Chez l’homme qui garde la parole du Christ, la charité est parfaite.",
-      "reading": {
-        "ref": "Ga 6, 8",
-        "content": "Ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle."
-      },
-      "responsory": "V/ Il est droit, il est bon, le Seigneur :<br> sa justice dirige les humbles.<br>"
+    "responsory": "R/ Le Seigneur est juste :<br> * Les hommes droits le verront face à face.<br> V/ Il aime toute justice. *<br> Gloire au Père et au Fils et au Saint-EspritR/ <br>",
+    "evangelicAntiphon": {
+      "common": "Serviteur fidèle et vigilant : entre dans la joie de ton maître."
     },
-    "sexte": {
-      "antiphon": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
-      "reading": {
-        "ref": "1 Co 9, 26-27a",
-        "content": "Moi, si je cours, ce n’est pas sans fixer le but ; si je fais de la lutte, ce n’est pas en frappant dans le vide. Mais je traite durement mon corps, et je le réduis en esclavage."
-      },
-      "responsory": "V/ Heureux l’homme que tu instruis, Seigneur,<br> celui que tu enseignes par ta loi.<br>"
-    },
-    "none": {
-      "antiphon": "Rien n’égale, Seigneur, ta fidélité envers ceux qui espèrent en toi.",
-      "reading": {
-        "ref": "Ph 4, 8.9b",
-        "content": "Frères, tout ce qui est vrai et noble, tout ce qui est digne d’être aimé et honoré, tout ce qui s’appelle vertu et qui mérite des éloges, tout cela, prenez-le à votre compte. Et le Dieu de la paix sera avec vous."
-      },
-      "responsory": "V/ Tu les protèges, pour toi ils exultent,<br> ceux qui aiment ton nom, Seigneur !<br>"
+    "intercession": {
+      "content": "<p>Ô Père, source de toute sainteté, à la prière des saints et par la force de leur exemple, rends-nous semblables à ton Fils.</p> <p>R/Sanctifie-nous, toi, le seul saint !</p> <p>Père saint, tu veux que nous soyons appelés tes fils et que nous le soyons en vérité :<br> — que ton Église proclame ton nom par toute la terre !</p> <p>Père saint, tu veux que nous marchions en ta présence,<br> — fais-nous porter un fruit qui demeure.</p> <p>Père saint, dans le Christ, tu nous réconcilies avec toi,<br> — rassemble-nous en un seul corps.</p> <p>Père saint, tu nous recrées à ton image par ta Parole et tes sacrements :<br> — qu’un parfait amour de charité nous renouvelle.</p> <p>Père saint, tu pardonnes les péchés des hommes,<br> — donne à nos frères défunts la joie de te voir face à face.</p>"
     }
   },
-  "commonTitle": "Commun des Saints",
-  "liturgicalColor": "white",
-  "oration": "Seigneur qui seul est saint, et sans qui nul homme n’est bon, accorde-nous, à la prière de saint N., de savoir répondre à ton appel pour n’est pas à jamais privés de ta gloire.",
-  "oration2": "Dieu éternel et tout-puissant, tu nous donnes des preuves nouvelles de ton amour quand tu fais partager ta gloire aux saints du ciel ; permets que le secours de leur prière et la force de leur exemple nous aident à devenir semblables à ton Fils. Lui qui règne.",
-  "oration3": "Permets, Dieu tout-puissant, que l’exemple des saints nous incite à mener une vie meilleure ; et tandis que nous célébrons la fête de saint N., fais-nous la grâce se savoir l’imiter."
+  "oration": [
+    "Seigneur qui seul est saint, et sans qui nul homme n’est bon, accorde-nous, à la prière de saint N., de savoir répondre à ton appel pour n’est pas à jamais privés de ta gloire.",
+    "Dieu éternel et tout-puissant, tu nous donnes des preuves nouvelles de ton amour quand tu fais partager ta gloire aux saints du ciel ; permets que le secours de leur prière et la force de leur exemple nous aident à devenir semblables à ton Fils. Lui qui règne."
+  ]
 }

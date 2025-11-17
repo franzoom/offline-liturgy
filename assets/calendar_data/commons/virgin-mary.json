@@ -1,5 +1,11 @@
 {
+  "celebration": {
+    "color": "white"
+  },
   "firstVespers": {
+    "hymn": [
+      "pleine-de-grace-rejouis-toi"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_112",
@@ -21,17 +27,21 @@
       }
     ],
     "reading": {
-      "ref": "Ga 4, 4-5",
+      "biblicalReference": "Ga 4, 4-5",
       "content": "Lorsque les temps furent accomplis, Dieu a envoyé son Fils ; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils."
     },
-    "hymn": [
-      "pleine-de-grace-rejouis-toi"
-    ],
-    "evangelicAntiphon": "Dieu a fait pour toi des merveilles : tous les âges te diront bienheureuse.",
-    "intercession": "<p> Dieu notre Père, il nous est bon de te louer,<br> toi qui as voulu que toutes les générations de croyants honorent la Mère de ton Fils :</p>  <p>R/Que la Vierge bénie intercède pour nous.</p>  <p>Dieu qui fais des merveilles,<br> tu as introduit la Vierge Marie dans la gloire de ton Fils,<br> — tourne vers le ciel le regard des croyants.</p> <p>À chacun de nous tu as donné Marie pour mère,<br> — par son intercession, guéris les malades, console les affligés, pardonne aux pécheurs, accorde à tous le salut et la paix.</p> <p>Par ta grâce, Marie a été comblée de grâce ;<br> — que ta grâce nous obtienne aussi la joie en abondance.</p> <p>À la prière de Marie, viens en aide à ceux qui meurent :<br> — qu’ils vivent, avec le Christ, dans ton paradis.</p>",
-    "responsory": "R/ Réjouis-toi, comblée de grâce :<br> * Le Seigneur est avec toi.<br> V/ Tu es bénie entre toutes les femmes. * Le Seigneur.<br> Gloire au Père. R/ Réjouis-toi.<br>"
+    "responsory": "R/ Réjouis-toi, comblée de grâce :<br> * Le Seigneur est avec toi.<br> V/ Tu es bénie entre toutes les femmes. * Le Seigneur.<br> Gloire au Père. R/ Réjouis-toi.<br>",
+    "evangelicAntiphon": {
+      "common": "Dieu a fait pour toi des merveilles : tous les âges te diront bienheureuse."
+    },
+    "intercession": {
+      "content": "<p> Dieu notre Père, il nous est bon de te louer,<br> toi qui as voulu que toutes les générations de croyants honorent la Mère de ton Fils :</p>  <p>R/Que la Vierge bénie intercède pour nous.</p>  <p>Dieu qui fais des merveilles,<br> tu as introduit la Vierge Marie dans la gloire de ton Fils,<br> — tourne vers le ciel le regard des croyants.</p> <p>À chacun de nous tu as donné Marie pour mère,<br> — par son intercession, guéris les malades, console les affligés, pardonne aux pécheurs, accorde à tous le salut et la paix.</p> <p>Par ta grâce, Marie a été comblée de grâce ;<br> — que ta grâce nous obtienne aussi la joie en abondance.</p> <p>À la prière de Marie, viens en aide à ceux qui meurent :<br> — qu’ils vivent, avec le Christ, dans ton paradis.</p>"
+    }
   },
   "morning": {
+    "hymn": [
+      "marie-tu-etais-la"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -53,18 +63,22 @@
       }
     ],
     "reading": {
-      "ref": "cf. Is 61, 10",
+      "biblicalReference": "cf. Is 61, 10",
       "content": "Je tressaille de joie dans le Seigneur, mon âme exulte en mon Dieu. Car il m’a  enveloppée du manteau de l’innocence, il m’a fait revêtir les vêtements du salut,  comme une mariée met ses bijoux."
     },
-    "hymn": [
-      "marie-tu-etais-la"
-    ],
-    "evangelicAntiphon": "À cause d’Ève, l’ange ferma la porte du Paradis ; grâce à Marie, s’est ouverte pour nous la porte de la vie.",
-    "intercession": "<p>Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :</p>  <p>R/Jésus, fils de Marie, exauce-nous !</p>  <p>Soleil de Justice,<br> la Vierge te précède comme l’aurore avant le jour :<br> – donne-nous de marcher dans ta lumière.</p>  <p>Verbe éternel, tu as choisi pour Mère la Vierge très pure :<br> – délivre-nous des liens du péché.</p>  <p>Notre Sauveur,<br> tu as voulu que Marie te suive au Calvaire :<br> – accorde-nous d’espérer la joie de Pâques.</p>  <p>Fils unique de Dieu, à l’heure où tu t’es offert sur la croix,<br> tu nous as donné Marie pour mère :<br> – écoute sa prière quand elle intercède pour nous.</p>",
-    "intercession2": "<p>Prions notre Sauveur qui a voulu naître de la Vierge Marie, et redisons avec elle :</p>  <p>R/Notre âme exalte le Seigneur.  <p>Fils du Dieu vivant,<br> par ta passion tu as préservé ta Mère de toute souillure :<br> – garde-nous du péché.</p>  <p>Rédempteur des hommes,<br> tu t’es incarné dans le sein de la Vierge Marie :<br> – fais de nous le temple de l’Esprit Saint.</p>  <p>Maître des intelligences,<br> tes paroles et tes gestes pénétraient le cœur de ta Mère :<br> – apprends-nous à garder en nos cœurs ta parole.</p>  <p>Sauveur du monde,<br> tu as voulu que Marie soit au pied de la croix :<br> – accorde-nous la force au milieu des épreuves.</p>  <p> Jésus ressuscité qui règnes à la droite du Père,<br> tu as glorifié Marie dans son âme et dans son corps,<br> – oriente nos désirs vers le ciel.</p>",
-    "responsory": "R/ Mon âme exalte le Seigneur :<br> éternel est son amour !<br> V/ Chante et réjouis-toi, fille de Sion,R/ <br> Gloire au Père. R/ <br>"
+    "responsory": "R/ Mon âme exalte le Seigneur :<br> éternel est son amour !<br> V/ Chante et réjouis-toi, fille de Sion,R/ <br> Gloire au Père. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "À cause d’Ève, l’ange ferma la porte du Paradis ; grâce à Marie, s’est ouverte pour nous la porte de la vie."
+    },
+    "intercession": {
+      "content": "<p>Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :</p>  <p>R/Jésus, fils de Marie, exauce-nous !</p>  <p>Soleil de Justice,<br> la Vierge te précède comme l’aurore avant le jour :<br> – donne-nous de marcher dans ta lumière.</p>  <p>Verbe éternel, tu as choisi pour Mère la Vierge très pure :<br> – délivre-nous des liens du péché.</p>  <p>Notre Sauveur,<br> tu as voulu que Marie te suive au Calvaire :<br> – accorde-nous d’espérer la joie de Pâques.</p>  <p>Fils unique de Dieu, à l’heure où tu t’es offert sur la croix,<br> tu nous as donné Marie pour mère :<br> – écoute sa prière quand elle intercède pour nous.</p>"
+    },
+    "intercession2": "<p>Prions notre Sauveur qui a voulu naître de la Vierge Marie, et redisons avec elle :</p>  <p>R/Notre âme exalte le Seigneur.  <p>Fils du Dieu vivant,<br> par ta passion tu as préservé ta Mère de toute souillure :<br> – garde-nous du péché.</p>  <p>Rédempteur des hommes,<br> tu t’es incarné dans le sein de la Vierge Marie :<br> – fais de nous le temple de l’Esprit Saint.</p>  <p>Maître des intelligences,<br> tes paroles et tes gestes pénétraient le cœur de ta Mère :<br> – apprends-nous à garder en nos cœurs ta parole.</p>  <p>Sauveur du monde,<br> tu as voulu que Marie soit au pied de la croix :<br> – accorde-nous la force au milieu des épreuves.</p>  <p> Jésus ressuscité qui règnes à la droite du Père,<br> tu as glorifié Marie dans son âme et dans son corps,<br> – oriente nos désirs vers le ciel.</p>"
   },
   "readings": {
+    "hymn": [
+      "o-toi-dont-la-beaute"
+    ],
     "biblicalReading": {
       "title": "L’Emmanuel, roi de Paix",
       "ref": "Is 7, 10-14; 11, 1-9",
@@ -95,12 +109,38 @@
       "content": "Par le dessein de la Providence, la bienheureuse Vierge Marie était prédestinée de toute éternité à être la Mère de Dieu en liaison avec l’incarnation du Verbe divin. Elle a été sur cette terre la sainte Mère du Rédempteur, sa généreuse coopératrice à un titre unique, et l’humble servante du Seigneur. En concevant le Christ, en le mettant au monde, en le nourrissant, en le présentant dans le temple à son Père, en partageant les souffrances de son Fils qui mourait sur la croix, elle a coopéré à l’œuvre du Sauveur d’une façon absolument incomparable, par son obéissance, sa foi, son espérance, son ardente charité, pour la restauration de la vie surnaturelle dans les âmes. Voilà pourquoi elle est notre mère dans l’ordre de la grâce. Cette maternité de Marie dans la dispensation de la grâce dure toujours. Et cela, depuis le consentement qu’à l’Annonciation elle a donné dans la foi, consentement qu’elle a maintenu avec constance au pied de la croix, jusqu’à ce que le nombre des élus ait atteint son éternel achèvement. En effet, au ciel, après son Assomption, elle n’a pas abandonné cette fonction pour l’accomplissement de notre salut ; par de multiples intercessions, elle continue à nous obtenir les dons qui assurent notre salut éternel. Son amour maternel la rend attentive aux frères de son Fils qui n’ont pas achevé leur pèlerinage, et qui vivent au milieu des dangers et des angoisses, jusqu’à ce qu’ils aient le bonheur de parvenir à la patrie. C’est pourquoi la bienheureuse Vierge est invoquée dans l’Église sous les titres d’Avocate, d’Auxiliatrice, de Secourable, de Médiatrice. Mais il faut entendre cela de telle sorte que rien ne soit enlevé ni ajouté à la dignité et àl’efficacité du Christ, unique Médiateur. En effet, aucune créature ne peut jamais être égalée au Verbe incarné, au Rédempteur. Mais, de même que le sacerdoce du Christ est participé de manières diverses soit par les ministres, soit par le peuple fidèle ; de même que l’unique bonté de Dieu se répand réellement sur les créatures de diverses façons : ainsi l’unique médiation du Rédempteur n’exclut pas, mais suscite une coopération variée, participée différemment par les créatures, à partir d’une source unique. Cette fonction subordonnée de Marie, l’Église la professe sans hésitation. Elle ne cesse d’en faire l’expérience et elle la présente avec faveur à l’amour des fidèles, afin que s’appuient sur ce secours maternel pour s’unir plus profondément à notre Médiateur et Sauveur.",
       "responsory": "R/ Tu es la gloire de notre peuple, Vierge Marie !</p> <p>Ton nom sera, de par Dieu, pour toujours ;<br> « Celle qui a trouvé grâce devant lui ».</p> <p>Lève-toi, tiens-toi sur la hauteur,<br> debout près de la croix !</p> <p>Vois tes enfants, du levant au couchant rassemblés,<br> car ton Fils attire tout à lui !</p>"
     },
-    "hymn": [
-      "o-toi-dont-la-beaute"
-    ],
     "verse": "<p>V/ Heureux ceux qui écoutent la parole de Dieu.<br> Heureux ceux qui la mettent en pratique.</p>"
   },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Unanimes, les Apôtres persévéraient dans la prière, avec Marie, la Mère de Jésus.",
+      "reading": {
+        "biblicalReference": "So 3, 14.15b",
+        "content": "Pousse des cris de joie, fille de Sion ! Éclate en ovations, Israël ! Réjouis-toi, tressaille d’allégresse, fille de Jérusalem ! le roi d’Israel, le Seigneur, est en toi."
+      },
+      "responsory": "V/ Vierge Mère de Dieu, glorieuse Reine du monde,<br> intercède pour nous auprès du Seigeur.<br>"
+    },
+    "sexte": {
+      "antiphon": "La Mère de Jésus dit aux serviteurs : Tout ce qu’il vous dira, faites-le.",
+      "reading": {
+        "biblicalReference": "Za 9, 9a",
+        "content": "Exulte de toutes tes forces, fille de Sion ! Pousse des cris de joie, fille de Jérusalem ! Voici ton roi qui vient vers toi : il est juste et victorieux."
+      },
+      "responsory": "V/ Heureuse la Vierge Marie :<br> elle a mis au monde le roi du ciel.<br>"
+    },
+    "none": {
+      "antiphon": "Jésus dit à sa Mère : Femme, voici ton fils. Il dit ensuite au disciple : Voici ta Mère.",
+      "reading": {
+        "biblicalReference": "Jdt 14,7",
+        "content": "Bénie sois-tu dans toutes les tentes de Jacob et dans toutes les nations ; en entendant ton nom, elles glorifieront le Dieu d’Israël."
+      },
+      "responsory": "V/ Marie retenait tous ces événements,<br> elle les méditait dans son cœur.<br>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "humble-servante-du-seigneur"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_121",
@@ -122,49 +162,19 @@
       }
     ],
     "reading": {
-      "ref": "Ga 4, 4-5",
+      "biblicalReference": "Ga 4, 4-5",
       "content": "Lorsque les temps furent accomplis, Dieu a envoyé son Fils ; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils."
     },
-    "hymn": [
-      "humble-servante-du-seigneur"
-    ],
-    "hymn2": "vous-etes-sans-pareille",
-    "hymn3": "ave-maris-stella",
-    "evangelicAntiphon": "Heureuse es-tu, Vierge Marie, toi qui a cru ! En toi s’est accomplie la Parole de Dieu.",
-    "intercession": "<p>Bénissons notre Dieu : il a voulu que toutes les générations proclament bienheureuse  la Mère de son Fils.</b>  <p>R/Béni sois-tu Seigneur !</p>  <p>Pour ton humble servante, attentive à ta parole,<br> modèle du cœur qui écoute,</p>  <p>Pour celle qui a mis ton Fils au monde,<br> la mère de l’Homme nouveau,</p>  <p>Pour celle qui a veillé sur la croissance de Jésus,<br> présence maternelle dans l’Église,</p>  <p>Pour celle qui s’est tenue debout au pied de la croix,<br> force des accablés,</p>  <p>Pour celle que tu as remplie de joie au matin de Pâques,<br> espérance des vivants,</p>  <p>Pour celle que tu as fait monter au ciel, près de ton Fils,<br> secours des mourants,</p>",
-    "responsory": "R/ Réjouis-toi, comblée de grâce :<br> * Le Seigneur est avec toi.<br> V/ Tu es bénie entre toutes les femmes. * Le Seigneur.<br> Gloire au Père. R/ Réjouis-toi.<br>"
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Unanimes, les Apôtres persévéraient dans la prière, avec Marie, la Mère de Jésus.",
-      "reading": {
-        "ref": "So 3, 14.15b",
-        "content": "Pousse des cris de joie, fille de Sion ! Éclate en ovations, Israël ! Réjouis-toi, tressaille d’allégresse, fille de Jérusalem ! le roi d’Israel, le Seigneur, est en toi."
-      },
-      "responsory": "V/ Vierge Mère de Dieu, glorieuse Reine du monde,<br> intercède pour nous auprès du Seigeur.<br>"
+    "responsory": "R/ Réjouis-toi, comblée de grâce :<br> * Le Seigneur est avec toi.<br> V/ Tu es bénie entre toutes les femmes. * Le Seigneur.<br> Gloire au Père. R/ Réjouis-toi.<br>",
+    "evangelicAntiphon": {
+      "common": "Heureuse es-tu, Vierge Marie, toi qui a cru ! En toi s’est accomplie la Parole de Dieu."
     },
-    "sexte": {
-      "antiphon": "La Mère de Jésus dit aux serviteurs : Tout ce qu’il vous dira, faites-le.",
-      "reading": {
-        "ref": "Za 9, 9a",
-        "content": "Exulte de toutes tes forces, fille de Sion ! Pousse des cris de joie, fille de Jérusalem ! Voici ton roi qui vient vers toi : il est juste et victorieux."
-      },
-      "responsory": "V/ Heureuse la Vierge Marie :<br> elle a mis au monde le roi du ciel.<br>"
-    },
-    "none": {
-      "antiphon": "Jésus dit à sa Mère : Femme, voici ton fils. Il dit ensuite au disciple : Voici ta Mère.",
-      "reading": {
-        "ref": "Jdt 14,7",
-        "content": "Bénie sois-tu dans toutes les tentes de Jacob et dans toutes les nations ; en entendant ton nom, elles glorifieront le Dieu d’Israël."
-      },
-      "responsory": "V/ Marie retenait tous ces événements,<br> elle les méditait dans son cœur.<br>"
+    "intercession": {
+      "content": "<p>Bénissons notre Dieu : il a voulu que toutes les générations proclament bienheureuse  la Mère de son Fils.</b>  <p>R/Béni sois-tu Seigneur !</p>  <p>Pour ton humble servante, attentive à ta parole,<br> modèle du cœur qui écoute,</p>  <p>Pour celle qui a mis ton Fils au monde,<br> la mère de l’Homme nouveau,</p>  <p>Pour celle qui a veillé sur la croissance de Jésus,<br> présence maternelle dans l’Église,</p>  <p>Pour celle qui s’est tenue debout au pied de la croix,<br> force des accablés,</p>  <p>Pour celle que tu as remplie de joie au matin de Pâques,<br> espérance des vivants,</p>  <p>Pour celle que tu as fait monter au ciel, près de ton Fils,<br> secours des mourants,</p>"
     }
   },
-  "commonTitle": "Commun de la Vierge Marie",
-  "liturgicalColor": "white",
-  "readingPsalm1": "PSALM_23",
-  "readingPsalm2": "PSALM_45",
-  "readingPsalm3": "PSALM_86",
-  "oration": "Accorde à tes serviteurs, Dieu très bon, de posséder la santé de l’âme et du corps, et par la glorieuse intercession de la sainte Vierge Marie, d’être libérés des tristesses de ce monde, et de goûter les joies de l’éternité.",
-  "oration2": "Seigneur Jésus, toi qui as choisi pour père la bienheureuse Vierge Marie, permets qu'assurés de sa protection nous puissions l'honorer d'un cœur joyeux."
+  "oration": [
+    "Accorde à tes serviteurs, Dieu très bon, de posséder la santé de l’âme et du corps, et par la glorieuse intercession de la sainte Vierge Marie, d’être libérés des tristesses de ce monde, et de goûter les joies de l’éternité.",
+    "Seigneur Jésus, toi qui as choisi pour père la bienheureuse Vierge Marie, permets qu'assurés de sa protection nous puissions l'honorer d'un cœur joyeux."
+  ]
 }

@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "nuee-de-feu"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_91",
@@ -25,16 +28,19 @@
       }
     ],
     "reading": {
-      "ref": "2 P 3, 13-14",
+      "biblicalReference": "2 P 3, 13-14",
       "content": "Ce que nous attendons, selon la promesse du Seigneur, c’est un ciel nouveau et une terre nouvelle où résidera la justice. Dans l’attente de ce jour, frères bien-aimés, faites donc tout pour que le Christ vous trouve nets et irréprochables, dans la paix."
     },
-    "hymn": [
-      "nuee-de-feu"
-    ],
-    "evangelicAntiphon": "Sur nous se lèvera le Soleil de justice, le Christ notre Dieu.",
-    "intercession": "<p>En union avec Marie, Mère de Dieu, et tous les saints, nous supplions le Seigneur&nbsp;:</p> <p>R/ Délivre-nous, Seigneur.</p> <p>Par le mystère de ta sainte incarnation,</p> <p>Par ta venue en ce monde,</p> <p>Par ta naissance et ton épiphanie,</p> <p>Par ton baptême et ton jeûne au désert,</p> <p>Par ta croix et ta passion,</p> <p>Par ta mort et ta mise au tombeau,</p> <p>Par ta résurrection du séjour des morts,</p> <p>Par ton admirable ascension,</p> <p>Par la venue du Saint-Esprit consolateur,</p> <p>Au jour du jugement,</p> ",
     "responsory": "<p>R/ Christ est notre lumière, notre soleil levant&nbsp;!<br> V/ Qui regarde vers lui resplendira <br>sans ombre ni trouble au visage. R/ <br> V/ Il vient nous visiter,<br>en lui la joie de notre cœur. R/ </p>",
-    "oration": "Dieu éternel et tout-puissant, tu es la lumière de toutes les lumières, et le jour qui ne finit pas&nbsp;; dès le matin de ce jour nouveau nous te prions&nbsp;: que la clarté de ta présence, en chassant la nuit du péché, illumine nos cœurs."
+    "evangelicAntiphon": {
+      "common": "Sur nous se lèvera le Soleil de justice, le Christ notre Dieu."
+    },
+    "intercession": {
+      "content": "<p>En union avec Marie, Mère de Dieu, et tous les saints, nous supplions le Seigneur&nbsp;:</p> <p>R/ Délivre-nous, Seigneur.</p> <p>Par le mystère de ta sainte incarnation,</p> <p>Par ta venue en ce monde,</p> <p>Par ta naissance et ton épiphanie,</p> <p>Par ton baptême et ton jeûne au désert,</p> <p>Par ta croix et ta passion,</p> <p>Par ta mort et ta mise au tombeau,</p> <p>Par ta résurrection du séjour des morts,</p> <p>Par ton admirable ascension,</p> <p>Par la venue du Saint-Esprit consolateur,</p> <p>Au jour du jugement,</p> "
+    },
+    "oration": [
+      "Dieu éternel et tout-puissant, tu es la lumière de toutes les lumières, et le jour qui ne finit pas&nbsp;; dès le matin de ce jour nouveau nous te prions&nbsp;: que la clarté de ta présence, en chassant la nuit du péché, illumine nos cœurs."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -70,7 +76,9 @@
       "responsory": "<p>R/ Poursuis la justice, la piété,<br> combats le bon combat de la foi.</p> <p>La racine de tous les maux,<br> c’est l’amour de l’argent&nbsp;;<br> pour s’y être livrés,<br> certains se sont égarés loin de la foi.</p> <p>Ne place pas ta confiance<br> dans des richesses précaires&nbsp;;<br> conquiers la vie éternelle<br> à laquelle tu as été appelé.</p>"
     },
     "verse": "<p>V/ De ton amour, Seigneur, la terre est pleine,<br>apprends-moi tes volontés.</p>",
-    "oration": "Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage."
+    "oration": [
+      "Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -93,6 +101,5 @@
         ]
       }
     ]
-  },
-  "readingHymn": "comment-es-tu-foyer-de-feu"
+  }
 }

@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "cf. 1 R 8, 51-53a",
+      "biblicalReference": "cf. 1 R 8, 51-53a",
       "content": "Nous sommes, Seigneur, ton peuple et ton héritage. Que tes yeux soient ouverts à la supplication de ton serviteur et d’Israël, ton peuple, écoute-les toutes les fois qu’ils crieront vers toi. Car c’est toi qui les as mis à part pour toi comme héritage, parmi tous les peuples de la terre."
     },
-    "evangelicAntiphon": "Si j’expulse les démons par le doigt de Dieu, le règne de Dieu est venu parmi vous.",
-    "intercession": "<p>Père des lumières, ton Christ a brillé sur nous pour que nous ne marchions pas dans les ténèbres&nbsp;; nous t’implorons&nbsp;:</p> <p>R/ Que ta Parole soit la lampe de nos pas&nbsp;!</p> <p>Accorde-nous d’avancer aujourd’hui sur ses traces et de vivre à sa ressemblance.</p> <p>Fais-nous vivre dans la vérité, et nous viendrons à ta lumière.</p> <p>Donne-nous assez d’amour pour oublier notre intérêt et vouloir le bien de tous.</p> <p>Aide-nous à travailler dans la patience pour que nous préparions la venue de ton jour.</p> ",
     "responsory": "<p>R/ Nous sommes ton peuple, Seigneur.<br>  * Pitié, nous crions vers toi.<br> V/ Nous ployons sous le poids de nos fautes. * <br> V/ Écrasés de maux et de peines. * <br></p>",
-    "oration": "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    "evangelicAntiphon": {
+      "common": "Si j’expulse les démons par le doigt de Dieu, le règne de Dieu est venu parmi vous."
+    },
+    "intercession": {
+      "content": "<p>Père des lumières, ton Christ a brillé sur nous pour que nous ne marchions pas dans les ténèbres&nbsp;; nous t’implorons&nbsp;:</p> <p>R/ Que ta Parole soit la lampe de nos pas&nbsp;!</p> <p>Accorde-nous d’avancer aujourd’hui sur ses traces et de vivre à sa ressemblance.</p> <p>Fais-nous vivre dans la vérité, et nous viendrons à ta lumière.</p> <p>Donne-nous assez d’amour pour oublier notre intérêt et vouloir le bien de tous.</p> <p>Aide-nous à travailler dans la patience pour que nous préparions la venue de ton jour.</p> "
+    },
+    "oration": [
+      "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>L’attente est longue, Fils de l’homme, Stance<br> et le vent aigre de l’ennui<br> en nos cœurs menace la flamme&nbsp;;<br> brillera-t-elle encore<br> pour éclairer dans la nuit ton visage,<br> quand tu viendras frapper à notre porte&nbsp;?</p> <p>R/ Demeure avec nous, Seigneur,<br> pour qu’au dernier jour<br> tu trouves la foi sur la terre.</p> <p>Veillez dans la prière&nbsp;:<br> je viendrai vous surprendre<br> de nuit, comme un voleur.</p> <p>Veillez dans la prière<br> pour ne pas entrer en tentation&nbsp;;<br> qui tiendra jusqu’à la fin sera sauvé.</p> <p>Veillez dans la prière&nbsp;:<br> celui qui sera prêt,<br> je le servirai moi-même dans mon Royaume.</p>"
     },
     "verse": "<p>V/ Celui qui médite la loi du Seigneur<br>donne du fruit en son temps.</p>",
-    "oration": "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    "oration": [
+      "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_15",
+        "antiphon": [
+          "Ne retiens pas contre nous nos péchés&nbsp;; que nous vienne bientôt ta tendresse, car nous sommes à bout de force."
+        ]
+      },
+      {
+        "psalm": "PSALM_78"
+      },
+      {
+        "psalm": "PSALM_79"
+      }
+    ],
+    "oration": [
+      "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 4, 7-8. 10",
+      "biblicalReference": "Jc 4, 7-8. 10",
       "content": "Soumettez-vous à Dieu, et résistez au démon&nbsp;: il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains&nbsp;; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera."
     },
-    "evangelicAntiphon": "Heureuse la mère qui t’a porté, la femme qui t’a nourri&nbsp;! Heureux plutôt qui entend la Parole de Dieu et qui la garde.",
-    "intercession": "<p>Dieu notre Père, convertis-nous à la loi nouvelle de ton Christ&nbsp;:</p> <p>R/ Père, allume en nous le feu de son amour.</p> <p>Il a proclamé la Bonne Nouvelle,<br> il a passé parmi nous en faisant le bien.</p> <p>Il a nourri les foules au désert,<br> il s’est livré dans le pain et le vin.</p> <p>Il a guéri les malades,<br> il a pardonné les péchés.</p> <p>Il a maîtrisé la mer et les vents,<br> il a prié pour la foi de Pierre.</p> <p>Il a pleuré sur Jérusalem,<br> il a ressuscité Lazare.</p>",
     "responsory": "<p>R/ Seigneur, entends ma prière.<br>  *  Que mon cri parvienne jusqu’à toi&nbsp;!<br> V/ Le jour où j’appelle, écoute-moi.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_15",
-        "antiphon": [
-          "Ne retiens pas contre nous nos péchés&nbsp;; que nous vienne bientôt ta tendresse, car nous sommes à bout de force."
-        ]
-      },
-      {
-        "psalm": "PSALM_78"
-      },
-      {
-        "psalm": "PSALM_79"
-      }
-    ],
-    "oration": "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    "evangelicAntiphon": {
+      "common": "Heureuse la mère qui t’a porté, la femme qui t’a nourri&nbsp;! Heureux plutôt qui entend la Parole de Dieu et qui la garde."
+    },
+    "intercession": {
+      "content": "<p>Dieu notre Père, convertis-nous à la loi nouvelle de ton Christ&nbsp;:</p> <p>R/ Père, allume en nous le feu de son amour.</p> <p>Il a proclamé la Bonne Nouvelle,<br> il a passé parmi nous en faisant le bien.</p> <p>Il a nourri les foules au désert,<br> il s’est livré dans le pain et le vin.</p> <p>Il a guéri les malades,<br> il a pardonné les péchés.</p> <p>Il a maîtrisé la mer et les vents,<br> il a prié pour la foi de Pierre.</p> <p>Il a pleuré sur Jérusalem,<br> il a ressuscité Lazare.</p>"
+    },
+    "oration": [
+      "Nous t’en supplions humblement, Seigneur&nbsp;: à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    ]
   }
 }

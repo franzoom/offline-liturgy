@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "Sainte Françoise Romaine",
+    "subtitle": "religieuse",
+    "description": "Romaine de naissance, Françoise Ponziani (1384‑1440) fut d’abord une épouse modèle et une mère attentive à l’éducation de ses enfants. Dans sa vie elle faisait une large place à la prière et au service des pauvres. Après la mort de son mari, elle groupa autour d’elle quelques femmes désireuses de mener la vie consacrée sous la Règle de saint Benoît.",
+    "commons": [
+      "saints-female_religious"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Qui fait la volonté de mon Père, dit le Seigneur, sera mon frère, ma sœur et ma mère."
+    "evangelicAntiphon": {
+      "common": "Qui fait la volonté de mon Père, dit le Seigneur, sera mon frère, ma sœur et ma mère."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Vous avez tout quitté et vous m’avez suivi, recevez le centuple: héritez la vie éternelle."
+    "evangelicAntiphon": {
+      "common": "Vous avez tout quitté et vous m’avez suivi, recevez le centuple: héritez la vie éternelle."
+    }
   },
-  "celebrationTitle": "Sainte Françoise Romaine",
-  "celebrationSubtitle": "religieuse",
-  "celebrationDescription": "Romaine de naissance, Françoise Ponziani (1384‑1440) fut d’abord une épouse modèle et une mère attentive à l’éducation de ses enfants. Dans sa vie elle faisait une large place à la prière et au service des pauvres. Après la mort de son mari, elle groupa autour d’elle quelques femmes désireuses de mener la vie consacrée sous la Règle de saint Benoît.",
-  "commons": [
-    "saints-female_religious"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": 12,
-  "oration": "Tu nous as donné, Seigneur, en sainte Françoise Romaine un modèle de vie conjugale, puis de vie religieuse; garde-nous toujours fidèles à te servir afin que nous sachions te reconnaître et te suivre dans toutes les circonstances de notre vie."
+  "oration": [
+    "Tu nous as donné, Seigneur, en sainte Françoise Romaine un modèle de vie conjugale, puis de vie religieuse; garde-nous toujours fidèles à te servir afin que nous sachions te reconnaître et te suivre dans toutes les circonstances de notre vie."
+  ]
 }

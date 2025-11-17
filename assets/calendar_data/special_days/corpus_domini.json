@@ -1,10 +1,13 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Pain qui donnes la vie, Christ et Seigneur, louange à toi."
-    ]
+  "celebration": {
+    "title": "Le Saint Sacrement du Corps et du Sang du Christ",
+    "grade": 3,
+    "color": "white"
   },
   "firstVespers": {
+    "hymn": [
+      "la-nuit-qu-il-fut-livre"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_110",
@@ -26,17 +29,26 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 10, 16-17",
+      "biblicalReference": "1 Co 10, 16-17",
       "content": "La coupe d’action de grâce que nous bénissons, n’est-elle pas communion au sang du Christ&nbsp;? Le pain que nous rompons, n’est-il pas communion au corps du Christ&nbsp;? Puisqu’il y a un seul pain, la multitude que nous sommes est un seul corps, car nous avons tous part à un seul pain."
     },
-    "hymn": [
-      "la-nuit-qu-il-fut-livre"
-    ],
-    "evangelicAntiphon": "Seigneur, que ton Esprit est bon&nbsp;! Tu montres ta tendresse pour tes fils en leur donnant le pain du ciel&nbsp;; tu combles de biens les affamés et tu renvoies les riches les mains vides.",
-    "intercession": "<p>Prions dans la joie le Seigneur Jésus Christ. Pain de notre vie&nbsp;:</p> <p>R/Béni sois-tu, Seigneur, pour ton corps et ton sang&nbsp;!</p> <p>O Christ, tu nous as dit de rendre grâce en mémoire de toi,<br> —&nbsp;garde-nous fidèles à célébrer ce mystère.</p> <p>Prêtre unique du Dieu Très-Haut,<br> —&nbsp;donne aux serviteurs de l’Eucharistie d’imiter dans leur vie ce qu’ils célèbrent.</p> <p>Tu rassembles en un seul corps ceux qui participent au même pain&nbsp;:<br> —&nbsp;préserve l’unité des croyants.</p> <p>Tu es le pain envoyé par le Père pour notre guérison&nbsp;:<br> —&nbsp;rends la santé aux corps et aux âmes.</p> <p>Tu nous as confié l’Eucharistie pour annoncer ta mort et ta résurrection&nbsp;:<br> —&nbsp;donne la vie éternelle à ceux qui attendent ton retour.</p>",
-    "responsory": "<p>R/ Jésus, tu es le pain de Dieu,<br> * Tu nous donnes la vie.<br> V/ Tu es la manne des temps nouveaux. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Jésus, tu es le pain de Dieu,<br> * Tu nous donnes la vie.<br> V/ Tu es la manne des temps nouveaux. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Seigneur, que ton Esprit est bon&nbsp;! Tu montres ta tendresse pour tes fils en leur donnant le pain du ciel&nbsp;; tu combles de biens les affamés et tu renvoies les riches les mains vides."
+    },
+    "intercession": {
+      "content": "<p>Prions dans la joie le Seigneur Jésus Christ. Pain de notre vie&nbsp;:</p> <p>R/Béni sois-tu, Seigneur, pour ton corps et ton sang&nbsp;!</p> <p>O Christ, tu nous as dit de rendre grâce en mémoire de toi,<br> —&nbsp;garde-nous fidèles à célébrer ce mystère.</p> <p>Prêtre unique du Dieu Très-Haut,<br> —&nbsp;donne aux serviteurs de l’Eucharistie d’imiter dans leur vie ce qu’ils célèbrent.</p> <p>Tu rassembles en un seul corps ceux qui participent au même pain&nbsp;:<br> —&nbsp;préserve l’unité des croyants.</p> <p>Tu es le pain envoyé par le Père pour notre guérison&nbsp;:<br> —&nbsp;rends la santé aux corps et aux âmes.</p> <p>Tu nous as confié l’Eucharistie pour annoncer ta mort et ta résurrection&nbsp;:<br> —&nbsp;donne la vie éternelle à ceux qui attendent ton retour.</p>"
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Pain qui donnes la vie, Christ et Seigneur, louange à toi."
+    ]
   },
   "morning": {
+    "hymn": [
+      "quand-vint-le-jour"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -58,17 +70,21 @@
       }
     ],
     "reading": {
-      "ref": "Ml 1, 11",
+      "biblicalReference": "Ml 1, 11",
       "content": "Du Levant au Couchant, grand est mon nom parmi les nations. En tout lieu un sacrifice d’encens est présenté à mon nom, ainsi qu’une offrande pure, car grand est mon nom parmi les nations, dit le Seigneur, le tout-puissant."
     },
-    "hymn": [
-      "quand-vint-le-jour"
-    ],
-    "evangelicAntiphon": "Je suis le pain vivant qui descend du ciel. Qui mange de ce pain vivra pour toujours. Alléluia.",
-    "intercession": "<p>Réjouissons-nous dans le Seigneur Jésus, notre Pain de vie&nbsp;:</p> <p>R/Heureux les invités à ton repas, Seigneur&nbsp;!</p> <p><p>Prêtre de l’alliance nouvelle, tu as offert le sacrifice parfait sur l’autel de la croix&nbsp;:<br> —&nbsp;fais-nous la grâce de nous offrir avec toi.</p> <p>Roi de justice et de paix, tu te livres en donnant le pain et le vin&nbsp;:<br> —&nbsp;apprends-nous à te recevoir dans la foi.</p> <p>Toi, la manne venue du ciel, tu nourris l’Église par ton corps et ton sang&nbsp;:<br> —&nbsp;fortifie-la dans sa marche vers le Père.</p> <p>Compagnon caché de nos vies, tu te tiens à la porte et tu frappes&nbsp;:<br> —&nbsp;entre et viens t’asseoir à notre table.</p> <p>Unique adorateur du Père, tu envoies l’Église par le monde présenter l’offrande de ton corps&nbsp;:<br> —&nbsp;rassemble en toi ceux que tu nourris du même pain.</p>",
-    "responsory": "<p>R/ Dieu les a nourris de la fleur du froment,<br> * Alléluia, alléluia&nbsp;!<br> V/ Du vin de sa vigne, il les abreuve. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>"
+    "responsory": "<p>R/ Dieu les a nourris de la fleur du froment,<br> * Alléluia, alléluia&nbsp;!<br> V/ Du vin de sa vigne, il les abreuve. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>",
+    "evangelicAntiphon": {
+      "common": "Je suis le pain vivant qui descend du ciel. Qui mange de ce pain vivra pour toujours. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Réjouissons-nous dans le Seigneur Jésus, notre Pain de vie&nbsp;:</p> <p>R/Heureux les invités à ton repas, Seigneur&nbsp;!</p> <p><p>Prêtre de l’alliance nouvelle, tu as offert le sacrifice parfait sur l’autel de la croix&nbsp;:<br> —&nbsp;fais-nous la grâce de nous offrir avec toi.</p> <p>Roi de justice et de paix, tu te livres en donnant le pain et le vin&nbsp;:<br> —&nbsp;apprends-nous à te recevoir dans la foi.</p> <p>Toi, la manne venue du ciel, tu nourris l’Église par ton corps et ton sang&nbsp;:<br> —&nbsp;fortifie-la dans sa marche vers le Père.</p> <p>Compagnon caché de nos vies, tu te tiens à la porte et tu frappes&nbsp;:<br> —&nbsp;entre et viens t’asseoir à notre table.</p> <p>Unique adorateur du Père, tu envoies l’Église par le monde présenter l’offrande de ton corps&nbsp;:<br> —&nbsp;rassemble en toi ceux que tu nourris du même pain.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "mendiant-du-jour"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_22",
@@ -101,12 +117,49 @@
       "content": "<p>Le Fils unique de Dieu, voulant nous faire participer à sa divinité, a pris notre nature afin de diviniser les hommes, lui qui s’est fait homme.</p> <p>En outre, ce qu’il a pris de nous, il nous l’a entièrement donné pour notre salut. En effet, sur l’autel de la croix il a offert son corps en sacrifice à Dieu le Père afin de nous réconcilier avec lui&nbsp;; et il a répandu son sang pour qu’il soit en même temps notre rançon et notre baptême&nbsp;: rachetés d’un lamentable esclavage, nous serions purifiés de tous nos péchés.</p> <p>Et pour que nous gardions toujours la mémoire d’un si grand bienfait, il a laissé aux fidèles son corps à manger et son sang à boire, sous les dehors du pain et du vin.</p> <p>Banquet précieux et stupéfiant, qui apporte le salut et qui est rempli de douceur&nbsp;! Peut-il y avoir rien de plus précieux que ce banquet où l’on ne nous propose plus, comme dans l’ancienne Loi, de manger la chair des veaux et des boucs, mais le Christ qui est vraiment Dieu&nbsp;? Y a-t-il rien de plus admirable que ce sacrement&nbsp;? ~</p> <p>Aucun sacrement ne produit des effets plus salutaires que celui-ci&nbsp;: il efface les péchés, accroît les vertus et comble l’âme surabondamment de tous les dons spirituels&nbsp;!</p> <p>Il est offert dans l’Église pour les vivants et pour les morts afin de profiter à tous, étant institué pour le salut de tous.</p> <p>Enfin, personne n’est capable d’exprimer les délices de ce sacrement, puisqu’on y goûte la douceur spirituelle à sa source et on y célèbre la mémoire de cet amour insurpassable, que le Christ a montré dans sa passion.</p> <p>Il voulait que l’immensité de cet amour se grave plus profondément dans le cœur des fidèles. C’est pourquoi à la dernière Cène, après avoir célébré la Pâque avec ses disciples, lorsqu’il allait passer de ce monde à son Père, il institua ce sacrement comme le mémorial perpétuel de sa passion, l’accomplissement des anciennes préfigurations, le plus grand de tous ses miracles&nbsp;; et à ceux que son absence remplirait de tristesse, il laissa ce sacrement comme réconfort incomparable.</p>",
       "responsory": "<p>R/ Vois notre faim, Sauveur du monde partage-nous ta parole et ton pain.</p>"
     },
-    "hymn": [
-      "mendiant-du-jour"
-    ],
     "verse": "<p>V/ La Sagesse a bâti sa maison, alléluia,<br> elle a dressé sa table et mélangé son vin, alléluia.<br></p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117-I"
+      },
+      {
+        "psalm": "PSALM_117-II"
+      },
+      {
+        "psalm": "PSALM_117-III"
+      }
+    ],
+    "tierce": {
+      "antiphon": "J’ai désiré d’un grand désir manger cette Pâque avec vous, avant de souffrir. Alléluia.",
+      "reading": {
+        "biblicalReference": "Sg 16, 20",
+        "content": "Tu as distribué, Seigneur, à ton peuple une nourriture d’anges, tu lui as procuré du ciel, sans effort de sa part, un pain tout préparé, ayant la capacité de toute saveur et adapté à tous les goûts."
+      },
+      "responsory": "<p>V/ J’avancerai jusqu’à l’autel de Dieu, alléluia,<br> vers Dieu qui est toute ma joie, alléluia.</p>"
+    },
+    "sexte": {
+      "antiphon": "Pendant le repas, Jésus prit le pain, rendit grâce, le rompit et le donna à ses disciples, alléluia.",
+      "reading": {
+        "biblicalReference": "Pr 9, 1-2",
+        "content": "La Sagesse a bâti sa maison, elle a sculpté sept colonnes, elle a tué ses bêtes, apprêté son vin et dressé sa table."
+      },
+      "responsory": "<p>V/ Tu envoyais du ciel un pain tout préparé, alléluia,<br> un pain qui comblait tous les goûts, alléluia.</p>"
+    },
+    "none": {
+      "antiphon": "Ils ont reconnu le Seigneur, alléluia, à la fraction du pain, alléluia, alléluia.",
+      "reading": {
+        "biblicalReference": "Ac 2, 42.47a",
+        "content": "Les frères étaient fidèles à écouter l’enseignement des Apôtres et à vivre en communion fraternelle, à rompre le pain et à participer aux prières. Ils louaient Dieu et trouvaient un bon accueil auprès de tout le peuple."
+      },
+      "responsory": "<p>V/ Reste avec nous, Seigneur, alléluia,<br> le soir approche, alléluia.</p>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "tous-les-chemins"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_109",
@@ -128,55 +181,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 11, 23-25",
+      "biblicalReference": "1 Co 11, 23-25",
       "content": "Je vous ai transmis, moi, Paul, ce que j’ai reçu de la tradition qui vient du Seigneur&nbsp;: la nuit même où il était livré, le Seigneur Jésus prit du pain, puis, ayant rendu grâce, il le rompit, et dit&nbsp;: «&nbsp;Ceci est mon corps, donné pour vous. Faites cela en mémoire de moi&nbsp;». Après le repas, il fit de même avec la coupe, en disant&nbsp;: «&nbsp;Cette coupe est la nouvelle Alliance établie par mon sang. Chaque fois que vous en boirez, faites cela en mémoire de moi.&nbsp;»"
     },
-    "hymn": [
-      "tous-les-chemins"
-    ],
-    "evangelicAntiphon": "Banquet très saint où le Christ est reçu en nourriture&nbsp;: le mémorial de sa passion est célébré, notre âme est remplie de sa grâce, et la gloire à venir nous est déjà donnée, alléluia.",
-    "intercession": "<p>Prions dans la joie le Seigneur Jésus Christ, Pain de notre vie&nbsp;:</p> <p>R/Béni sois-tu, Seigneur, pour ton corps et ton sang&nbsp;!</p> <p>Ô Christ, tu nous as dit de rendre grâce en mémoire de toi&nbsp;:<br> —&nbsp;garde-nous fidèles à célébrer ce mystère.</p> <p>Prêtre unique du Dieu Très-Haut,<br> —&nbsp;donne aux serviteurs de l’eucharistie d’imiter dans leur vie ce qu’ils célèbrent.</p> <p>Tu rassembles en un seul corps ceux qui participent au même pain&nbsp;:<br> —&nbsp;préserve l’unité des croyants.</p> <p>Tu es le pain envoyé par le Père pour notre guérison&nbsp;:<br> —&nbsp;rends la santé aux corps et aux âmes.</p> <p>Tu nous as confié l’eucharistie pour annoncer ta mort et ta résurrection&nbsp;:<br> —&nbsp;donne la vie éternelle à ceux qui attendent ton retour.</p>",
-    "responsory": "<p>R/ Vois notre faim, Sauveur du monde,<br> * Partage-nous ta parole et ton pain.<br> V/ Je suis le pain de la vie&nbsp;:<br> qui vient à moi n’aura jamais faim,<br> qui croit en moi n’aura jamais soif. *<br> V/ Qui mange ma chair et boit mon sang a la vie éternelle,<br> et moi, je le ressusciterai au dernier jour.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117-I"
-      },
-      {
-        "psalm": "PSALM_117-II"
-      },
-      {
-        "psalm": "PSALM_117-III"
-      }
-    ],
-    "tierce": {
-      "antiphon": "J’ai désiré d’un grand désir manger cette Pâque avec vous, avant de souffrir. Alléluia.",
-      "reading": {
-        "ref": "Sg 16, 20",
-        "content": "Tu as distribué, Seigneur, à ton peuple une nourriture d’anges, tu lui as procuré du ciel, sans effort de sa part, un pain tout préparé, ayant la capacité de toute saveur et adapté à tous les goûts."
-      },
-      "responsory": "<p>V/ J’avancerai jusqu’à l’autel de Dieu, alléluia,<br> vers Dieu qui est toute ma joie, alléluia.</p>"
+    "responsory": "<p>R/ Vois notre faim, Sauveur du monde,<br> * Partage-nous ta parole et ton pain.<br> V/ Je suis le pain de la vie&nbsp;:<br> qui vient à moi n’aura jamais faim,<br> qui croit en moi n’aura jamais soif. *<br> V/ Qui mange ma chair et boit mon sang a la vie éternelle,<br> et moi, je le ressusciterai au dernier jour.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Banquet très saint où le Christ est reçu en nourriture&nbsp;: le mémorial de sa passion est célébré, notre âme est remplie de sa grâce, et la gloire à venir nous est déjà donnée, alléluia."
     },
-    "sexte": {
-      "antiphon": "Pendant le repas, Jésus prit le pain, rendit grâce, le rompit et le donna à ses disciples, alléluia.",
-      "reading": {
-        "ref": "Pr 9, 1-2",
-        "content": "La Sagesse a bâti sa maison, elle a sculpté sept colonnes, elle a tué ses bêtes, apprêté son vin et dressé sa table."
-      },
-      "responsory": "<p>V/ Tu envoyais du ciel un pain tout préparé, alléluia,<br> un pain qui comblait tous les goûts, alléluia.</p>"
-    },
-    "none": {
-      "antiphon": "Ils ont reconnu le Seigneur, alléluia, à la fraction du pain, alléluia, alléluia.",
-      "reading": {
-        "ref": "Ac 2, 42.47a",
-        "content": "Les frères étaient fidèles à écouter l’enseignement des Apôtres et à vivre en communion fraternelle, à rompre le pain et à participer aux prières. Ils louaient Dieu et trouvaient un bon accueil auprès de tout le peuple."
-      },
-      "responsory": "<p>V/ Reste avec nous, Seigneur, alléluia,<br> le soir approche, alléluia.</p>"
+    "intercession": {
+      "content": "<p>Prions dans la joie le Seigneur Jésus Christ, Pain de notre vie&nbsp;:</p> <p>R/Béni sois-tu, Seigneur, pour ton corps et ton sang&nbsp;!</p> <p>Ô Christ, tu nous as dit de rendre grâce en mémoire de toi&nbsp;:<br> —&nbsp;garde-nous fidèles à célébrer ce mystère.</p> <p>Prêtre unique du Dieu Très-Haut,<br> —&nbsp;donne aux serviteurs de l’eucharistie d’imiter dans leur vie ce qu’ils célèbrent.</p> <p>Tu rassembles en un seul corps ceux qui participent au même pain&nbsp;:<br> —&nbsp;préserve l’unité des croyants.</p> <p>Tu es le pain envoyé par le Père pour notre guérison&nbsp;:<br> —&nbsp;rends la santé aux corps et aux âmes.</p> <p>Tu nous as confié l’eucharistie pour annoncer ta mort et ta résurrection&nbsp;:<br> —&nbsp;donne la vie éternelle à ceux qui attendent ton retour.</p>"
     }
   },
-  "celebrationTitle": "Le Saint Sacrement du Corps et du Sang du Christ",
-  "liturgicalGrade": 3,
-  "liturgicalColor": "white",
-  "oration": "Seigneur Jésus Christ, dans cet admirable sacrement, tu nous as laissé le mémorial de ta passion&nbsp;; donne-nous de vénérer d’un si grand amour le mystère de ton corps et de ton sang, que nous puissions recueillir sans cesse le fruit de ta rédemption. Toi qui règnes."
+  "oration": [
+    "Seigneur Jésus Christ, dans cet admirable sacrement, tu nous as laissé le mémorial de ta passion&nbsp;; donne-nous de vénérer d’un si grand amour le mystère de ton corps et de ton sang, que nous puissions recueillir sans cesse le fruit de ta rédemption. Toi qui règnes."
+  ]
 }

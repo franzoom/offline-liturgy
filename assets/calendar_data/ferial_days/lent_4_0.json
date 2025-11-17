@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Ne 8, 9.10",
+      "biblicalReference": "Ne 8, 9.10",
       "content": "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas&nbsp;! Car ce jour est consacré à notre Dieu&nbsp;! Ne vous affligez pas&nbsp;: la joie du Seigneur est votre rempart&nbsp;!"
     },
-    "evangelicAntiphon": "Qui peut ouvrir les yeux d’un aveugle de naissance sinon le Christ, le Fils de Dieu&nbsp;?",
-    "intercession": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> ",
     "responsory": "<p>R/ La joie du Seigneur est notre rempart&nbsp;!<br> V/ Tu es béni, Seigneur notre Dieu,<br>d’éternité en éternité.&nbsp;R/ <br> V/ Que soit béni ton nom glorieux, <br>que terre et ciel te chantent sans fin.&nbsp;R/ <br> V/ Gloire et puissance au Père et au Fils, <br>au Saint-Esprit qui chante en nos cœurs.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    "evangelicAntiphon": {
+      "common": "Qui peut ouvrir les yeux d’un aveugle de naissance sinon le Christ, le Fils de Dieu&nbsp;?"
+    },
+    "intercession": {
+      "content": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> "
+    },
+    "oration": [
+      "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -63,7 +69,28 @@
       "responsory": "<p>R/ Jésus, tu es prêtre pour l’éternité&nbsp;!</p> <p>Tu demeures pour l’éternité,<br> tu sauves pour toujours<br> ceux qui par toi s’approchent de Dieu.</p> <p>Tu as prié ton Père&nbsp;:<br> «&nbsp;Pour eux je me consacre moi-même.&nbsp;»<br> Toujours vivant, tu intercèdes pour nous.</p>"
     },
     "verse": "<p>V/ Tes paroles, Seigneur, sont pour nous l’esprit et la vie.<br>Tu as les paroles de la vie éternelle.</p>",
-    "oration": "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    "oration": [
+      "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_22",
+        "antiphon": [
+          "Passerais-je un ravin de ténèbres, je ne crains aucun mal."
+        ]
+      },
+      {
+        "psalm": "PSALM_75_1"
+      },
+      {
+        "psalm": "PSALM_75_2"
+      }
+    ],
+    "oration": [
+      "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -87,29 +114,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 9, 24-25",
+      "biblicalReference": "1 Co 9, 24-25",
       "content": "Vous savez bien que, dans les courses du stade, tous les coureurs prennent le départ, mais un seul gagne le prix. Alors, vous, courez de manière à l’emporter. Tous les athlètes à l’entraînement s’imposent une discipline sévère&nbsp;; ils le font pour gagner une couronne de laurier qui va se faner, et nous, pour une couronne qui ne se fane pas."
     },
-    "evangelicAntiphon": "Il fallait se réjouir et festoyer, car ton frère était mort et le voici vivant.",
-    "intercession": "<p>Toi qui nous donnes la grâce de croire en toi, Sei­gneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour les hommes qui travaillent à la paix en ce monde,<br> afin que leur amour de l’humanité cherche ton amour,</p> <p>Pour les hommes aveuglés par le péché du monde,<br> afin qu’ils s’exposent sans prévention à ton espérance,</p> <p>Pour les croyants qui n’ouvrent pas leurs yeux sur le monde,<br> afin qu’ils n’étouffent pas au fond d’eux la lumière,</p> <p>Pour les hommes dont le regard s’est éteint,<br> afin qu’ils s’éveillent à ton jour,</p> ",
     "responsory": "<p>R/ Pour le combat tu m’emplis de vaillance,<br>  *  Dieu de ma victoire.<br> V/ Que ta justice me conduise,  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_22",
-        "antiphon": [
-          "Passerais-je un ravin de ténèbres, je ne crains aucun mal."
-        ]
-      },
-      {
-        "psalm": "PSALM_75_1"
-      },
-      {
-        "psalm": "PSALM_75_2"
-      }
-    ],
-    "oration": "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    "evangelicAntiphon": {
+      "common": "Il fallait se réjouir et festoyer, car ton frère était mort et le voici vivant."
+    },
+    "intercession": {
+      "content": "<p>Toi qui nous donnes la grâce de croire en toi, Sei­gneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour les hommes qui travaillent à la paix en ce monde,<br> afin que leur amour de l’humanité cherche ton amour,</p> <p>Pour les hommes aveuglés par le péché du monde,<br> afin qu’ils s’exposent sans prévention à ton espérance,</p> <p>Pour les croyants qui n’ouvrent pas leurs yeux sur le monde,<br> afin qu’ils n’étouffent pas au fond d’eux la lumière,</p> <p>Pour les hommes dont le regard s’est éteint,<br> afin qu’ils s’éveillent à ton jour,</p> "
+    },
+    "oration": [
+      "Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent."
+    ]
   }
 }

@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "S. Timothée et S. Tite",
+    "subtitle": "évêques",
+    "description": "Timothée et Tite furent, avec Luc, les fidèles collaborateurs de saint Paul. Le premier, élevé par une mère juive, avait été baptisé par Paul, et il le suivit dans ses missions avant d’être établi par lui la tête de l’Église d’Éphèse. Quant à Tite, Paul se l’adjoignit à Antioche dès le début de son apostolat. Il lui confia ensuite l’évangélisation de la Crète.",
+    "commons": [
+      "pastors_multiple"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Proclame la parole à temps et à contre-temps, toujours avec patience et souci d’enseigner."
+    "evangelicAntiphon": {
+      "common": "Proclame la parole à temps et à contre-temps, toujours avec patience et souci d’enseigner."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Vivons avec justice et droiture, attendons la venue du Seigneur."
+    "evangelicAntiphon": {
+      "common": "Vivons avec justice et droiture, attendons la venue du Seigneur."
+    }
   },
-  "celebrationTitle": "S. Timothée et S. Tite",
-  "celebrationSubtitle": "évêques",
-  "celebrationDescription": "Timothée et Tite furent, avec Luc, les fidèles collaborateurs de saint Paul. Le premier, élevé par une mère juive, avait été baptisé par Paul, et il le suivit dans ses missions avant d’être établi par lui la tête de l’Église d’Éphèse. Quant à Tite, Paul se l’adjoignit à Antioche dès le début de son apostolat. Il lui confia ensuite l’évangélisation de la Crète.",
-  "liturgicalGrade": 10,
-  "commons": [
-    "pastors_multiple"
-  ],
-  "liturgicalColor": "white",
-  "oration": "Dieu qui as donné à Tite et à Timothée une vertu digne des Apôtres, fais que soutenus par leurs prières, vivant avec justice et piété dans ce monde, nous parvenions au ciel, notre patrie."
+  "oration": [
+    "Dieu qui as donné à Tite et à Timothée une vertu digne des Apôtres, fais que soutenus par leurs prières, vivant avec justice et piété dans ce monde, nous parvenions au ciel, notre patrie."
+  ]
 }

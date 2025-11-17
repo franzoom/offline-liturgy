@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "qui-donc-est-dieu-pour-se-livrer-perdant"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_50",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Ep 2, 13-16",
+      "biblicalReference": "Ep 2, 13-16",
       "content": "Maintenant, dans le Christ Jésus, vous qui étiez loin, vous êtes devenus proches par le sang du Christ. C’est lui, le Christ, qui est notre paix&nbsp;: des deux, Israël et les païens, il a fait un seul peuple&nbsp;; par sa chair crucifiée, il a fait tomber ce qui les séparait, le mur de la haine, en supprimant les prescriptions juridiques de la loi de Moïse. Il voulait ainsi rassembler les uns et les autres en faisant la paix, et créer en lui un seul Homme nouveau. Les uns comme les autres, réunis en un seul corps, Il voulait les réconcilier avec Dieu par la croix&nbsp;: en sa personne, il a tué la haine."
     },
-    "hymn": [
-      "qui-donc-est-dieu-pour-se-livrer-perdant"
-    ],
-    "evangelicAntiphon": "Par l’amour du cœur de notre Dieu, la lumière d’en haut vient nous visiter.",
-    "intercession": "<p>Seigneur Jésus, nous étions dans les ténèbres&nbsp;:<br> –&nbsp;tu ouvres nos yeux à la lumière.</p> <p>R/ Pour cette merveille&nbsp;: Alléluia&nbsp;!</p> <p>Seigneur Jésus, nous avions blasphémé ton nom&nbsp;:<br> –&nbsp;tu as pardonné notre faute.</p> <p>Seigneur Jésus, nous étions séparés de toi&nbsp;:<br> –&nbsp;tu nous rétablis dans ton alliance.</p> <p>Seigneur Jésus, nous vivions désunis&nbsp;:<br> –&nbsp;tu nous rassembles dans ton Corps.</p> <p>Seigneur Jésus, nous étions morts&nbsp;:<br> –&nbsp;par ta mort, tu nous rends la vie.</p> ",
     "responsory": "<p>R/ Par son sang, par sa croix, le Christ est notre paix.<br> V/ Vous qui étiez loin, en lui vous êtes proches.&nbsp;R/ <br> V/ Il a tué la haine et fait de nous son corps.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur, tu nous fais maintenant la grâce de ta louange. Accorde-nous de pouvoir te chanter avec tous les saints, éternellement."
+    "evangelicAntiphon": {
+      "common": "Par l’amour du cœur de notre Dieu, la lumière d’en haut vient nous visiter.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, nous étions dans les ténèbres&nbsp;:<br> –&nbsp;tu ouvres nos yeux à la lumière.</p> <p>R/ Pour cette merveille&nbsp;: Alléluia&nbsp;!</p> <p>Seigneur Jésus, nous avions blasphémé ton nom&nbsp;:<br> –&nbsp;tu as pardonné notre faute.</p> <p>Seigneur Jésus, nous étions séparés de toi&nbsp;:<br> –&nbsp;tu nous rétablis dans ton alliance.</p> <p>Seigneur Jésus, nous vivions désunis&nbsp;:<br> –&nbsp;tu nous rassembles dans ton Corps.</p> <p>Seigneur Jésus, nous étions morts&nbsp;:<br> –&nbsp;par ta mort, tu nous rends la vie.</p> "
+    },
+    "oration": [
+      "Seigneur, tu nous fais maintenant la grâce de ta louange. Accorde-nous de pouvoir te chanter avec tous les saints, éternellement."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,42 +83,9 @@
       "responsory": "<p>R/ Dieu a tant aimé le monde,<br> qu’il a donné son Fils unique.</p> <p>Ce n’est pas nous qui avons aimé Dieu&nbsp;:<br> lui, le premier, nous a aimés.</p> <p>Son Fils, son unique, il l’a offert<br> pour les péchés du monde entier.</p> <p>À tous ceux qui croient au Christ,<br> il donne la vie éternelle.</p>"
     },
     "verse": "<p>V/ Tu es mon rempart et mon refuge&nbsp;:<br>j’espère en ta parole.</p>",
-    "oration": "Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels&nbsp;: puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce&nbsp;; ainsi nous pourrons, en observant tes commandements, vouloir et agir de manière à répondre à ton amour."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_114",
-        "antiphon": [
-          "J’éprouvais la tristesse et l’angoisse&nbsp;: le Seigneur m’a sauvé, alléluia&nbsp;!",
-          "Le Seigneur défend les petits&nbsp;; notre Dieu est tendresse."
-        ]
-      },
-      {
-        "psalm": "PSALM_120",
-        "antiphon": [
-          "Le secours me vient du Seigneur qui a fait le ciel et la terre.",
-          "Le Seigneur te gardera de tout mal pour la vie éternelle."
-        ]
-      },
-      {
-        "psalm": "NT_11",
-        "antiphon": [
-          "R/ Grandes sont tes œuvres, Seigneur&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "1 Co 2, 7-10a",
-      "content": "Nous proclamons la sagesse du mystère de Dieu, sagesse tenue cachée, prévue par lui dès avant les siècles, pour nous donner la gloire. Aucun de ceux qui dominent ce monde ne l’a connue, car, s’ils l’avaient connue, ils n’auraient jamais crucifié le Seigneur de gloire. Mais ce que nous proclamons, c’est, comme dit l’Écriture, ce que personne n’avait vu de ses yeux ni entendu de ses oreilles, ce que le cœur de l’homme n’avait pas imaginé, ce qui avait été préparé pour ceux qui aiment Dieu. Et c’est à nous que Dieu, par l’Esprit, a révélé cette sagesse."
-    },
-    "hymn": [
-      "regarde-ou-nous-risquons-d-aller"
-    ],
-    "evangelicAntiphon": "Le Seigneur est justice et pitié, notre Dieu est tendresse.",
-    "intercession": "<p>Regardons Celui que nous avons transpercé et confessons notre foi&nbsp;:</p> <p>R/ Vraiment, tu es le Fils de Dieu&nbsp;!</p> <p>Béni sois-tu, Sauveur du genre humain, pour ta passion glorieuse&nbsp;:<br> –&nbsp;ton sang nous a rachetés,</p> <p>De ton côté ouvert d’où jaillit l’eau vive,<br> –&nbsp;répands l’Esprit sur tous les hommes.</p> <p>Tu envoies au monde des témoins de ta résurrection&nbsp;:<br> –&nbsp;qu’ils proclament ta croix victorieuse.</p> <p>Christ en agonie jusqu’à la fin du monde,<br> –&nbsp;n’oublie pas les membres souffrants de ton Corps.</p> <p>Toi qui es sorti vivant du tombeau,<br> –&nbsp;éveille ceux qui sont endormis dans la mort.</p> ",
-    "responsory": "<p>R/ La folie de la croix du Christ<br> a révélé la sagesse de Dieu.<br> V/ Ils regarderont celui qu’ils ont transpercé.&nbsp;R/ <br> V/ De son côté ouvert ont jailli le sang et l’eau.&nbsp;R/ <br></p>",
-    "oration": "Puisque ta sagesse inexprimable, Seigneur, se manifeste étonnamment dans le scandale de la croix, accorde-nous de savoir contempler la gloire dans la passion de ton Fils, pour que nous mettions dans sa croix notre espérance et notre fierté. Lui qui règne."
+    "oration": [
+      "Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels&nbsp;: puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce&nbsp;; ainsi nous pourrons, en observant tes commandements, vouloir et agir de manière à répondre à ton amour."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -133,8 +109,48 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
-  "sundayEvangelicAntiphonC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là.",
-  "sundayEvangelicAntiphonB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
-  "readingHymn": "retournez-vous-voici-l-esprit"
+  "vespers": {
+    "hymn": [
+      "regarde-ou-nous-risquons-d-aller"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_114",
+        "antiphon": [
+          "J’éprouvais la tristesse et l’angoisse&nbsp;: le Seigneur m’a sauvé, alléluia&nbsp;!",
+          "Le Seigneur défend les petits&nbsp;; notre Dieu est tendresse."
+        ]
+      },
+      {
+        "psalm": "PSALM_120",
+        "antiphon": [
+          "Le secours me vient du Seigneur qui a fait le ciel et la terre.",
+          "Le Seigneur te gardera de tout mal pour la vie éternelle."
+        ]
+      },
+      {
+        "psalm": "NT_11",
+        "antiphon": [
+          "R/ Grandes sont tes œuvres, Seigneur&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 Co 2, 7-10a",
+      "content": "Nous proclamons la sagesse du mystère de Dieu, sagesse tenue cachée, prévue par lui dès avant les siècles, pour nous donner la gloire. Aucun de ceux qui dominent ce monde ne l’a connue, car, s’ils l’avaient connue, ils n’auraient jamais crucifié le Seigneur de gloire. Mais ce que nous proclamons, c’est, comme dit l’Écriture, ce que personne n’avait vu de ses yeux ni entendu de ses oreilles, ce que le cœur de l’homme n’avait pas imaginé, ce qui avait été préparé pour ceux qui aiment Dieu. Et c’est à nous que Dieu, par l’Esprit, a révélé cette sagesse."
+    },
+    "responsory": "<p>R/ La folie de la croix du Christ<br> a révélé la sagesse de Dieu.<br> V/ Ils regarderont celui qu’ils ont transpercé.&nbsp;R/ <br> V/ De son côté ouvert ont jailli le sang et l’eau.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Seigneur est justice et pitié, notre Dieu est tendresse.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Regardons Celui que nous avons transpercé et confessons notre foi&nbsp;:</p> <p>R/ Vraiment, tu es le Fils de Dieu&nbsp;!</p> <p>Béni sois-tu, Sauveur du genre humain, pour ta passion glorieuse&nbsp;:<br> –&nbsp;ton sang nous a rachetés,</p> <p>De ton côté ouvert d’où jaillit l’eau vive,<br> –&nbsp;répands l’Esprit sur tous les hommes.</p> <p>Tu envoies au monde des témoins de ta résurrection&nbsp;:<br> –&nbsp;qu’ils proclament ta croix victorieuse.</p> <p>Christ en agonie jusqu’à la fin du monde,<br> –&nbsp;n’oublie pas les membres souffrants de ton Corps.</p> <p>Toi qui es sorti vivant du tombeau,<br> –&nbsp;éveille ceux qui sont endormis dans la mort.</p> "
+    },
+    "oration": [
+      "Puisque ta sagesse inexprimable, Seigneur, se manifeste étonnamment dans le scandale de la croix, accorde-nous de savoir contempler la gloire dans la passion de ton Fils, pour que nous mettions dans sa croix notre espérance et notre fierté. Lui qui règne."
+    ]
+  }
 }

@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "un-jour-nouveau-commence"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_89",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Jdt 8, 25-26a.27b",
+      "biblicalReference": "Jdt 8, 25-26a.27b",
       "content": "Rendons grâce au Seigneur notre Dieu qui nous éprouve comme nos pères. Rappelez-vous tout ce qu’il a fait avec Abraham et combien il a éprouvé Isaac et tout ce qui arriva à Jacob. C’est pour les avertir que le Seigneur flagelle ceux qui s’approchent de lui."
     },
-    "hymn": [
-      "un-jour-nouveau-commence"
-    ],
-    "evangelicAntiphon": "Béni soit le Seigneur&nbsp;: il visite son peuple et lui redonne vie.",
-    "intercession": "<p>Bénissons le Seigneur qui veut le bonheur de ses enfants.</p> <p>R/ Ami des hommes, sois béni&nbsp;!</p> <p>Tu invites à la pauvreté des cœurs,</p> <p>Tu donnes la terre en partage,</p> <p>Tu consoles ceux qui pleurent,</p> <p>Tu rassasies ceux qui ont faim de la justice,</p> <p>Tu fais miséricorde aux miséricordieux,</p> <p>Tu te révèles aux cœurs purs,</p> <p>Tu appelles tes fils ceux qui font la paix,</p> <p>Tu donnes ton Royaume aux persécutés.</p> ",
     "responsory": "<p>R/ Nous sommes entrés dans l’eau et le feu&nbsp;:<br>  * Tu nous as fait sortir dans l’abondance.<br> V/ C’est toi, Dieu qui nous as éprouvés,<br> &nbsp; affinés comme on affine un métal.<br>  * Tu nous as fait sortir dans l’abondance.<br> &nbsp; Gloire au Père.&nbsp;R/ Nous sommes entrés.<br></p>",
-    "oration": "Tu demandes à l’humanité, Dieu créateur, de se perfectionner de jour en jour et d’achever par son travail l’œuvre immense de la création&nbsp;; aide-nous à faire que tous les hommes aient des conditions de travail qui respectent leur dignité&nbsp;: qu’en s’efforçant d’améliorer leur propre sort, ils agissent avec un esprit de solidarité et de service."
+    "evangelicAntiphon": {
+      "common": "Béni soit le Seigneur&nbsp;: il visite son peuple et lui redonne vie.",
+      "yearA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
+      "yearB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
+      "yearC": "Passant au milieu d’eux, Jésus allait son chemin."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Seigneur qui veut le bonheur de ses enfants.</p> <p>R/ Ami des hommes, sois béni&nbsp;!</p> <p>Tu invites à la pauvreté des cœurs,</p> <p>Tu donnes la terre en partage,</p> <p>Tu consoles ceux qui pleurent,</p> <p>Tu rassasies ceux qui ont faim de la justice,</p> <p>Tu fais miséricorde aux miséricordieux,</p> <p>Tu te révèles aux cœurs purs,</p> <p>Tu appelles tes fils ceux qui font la paix,</p> <p>Tu donnes ton Royaume aux persécutés.</p> "
+    },
+    "oration": [
+      "Tu demandes à l’humanité, Dieu créateur, de se perfectionner de jour en jour et d’achever par son travail l’œuvre immense de la création&nbsp;; aide-nous à faire que tous les hommes aient des conditions de travail qui respectent leur dignité&nbsp;: qu’en s’efforçant d’améliorer leur propre sort, ils agissent avec un esprit de solidarité et de service."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,31 +83,9 @@
       "responsory": "<p>R/ Il y a un seul pain,<br> et nous sommes tous un seul corps,<br> car nous avons tous part à un seul pain.</p> <p>L’amour dont nous aimons,<br> n’est-il pas communion à l’amour du Christ&nbsp;?</p> <p>Garde-nous, Seigneur,<br> dans l’unité de l’Esprit, par le lien de la paix.</p>"
     },
     "verse": "<p>V/ Ta parole est la lumière de mes pas,<br>la lampe sur ma route.</p>",
-    "oration": "Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_135_1"
-      },
-      {
-        "psalm": "PSALM_135_2"
-      },
-      {
-        "psalm": "NT_4"
-      }
-    ],
-    "reading": {
-      "ref": "1 Th 3, 12-13",
-      "content": "Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints."
-    },
-    "hymn": [
-      "frappe-a-ma-porte"
-    ],
-    "evangelicAntiphon": "Rendez grâce au Dieu du ciel&nbsp;: à toute chair il donne le pain.",
-    "intercession": "<p>Supplions le Christ qui n’abandonne pas les siens&nbsp;:</p> <p>R/ Exauce-nous, Seigneur Dieu.</p> <p>Toi, notre Lumière, illumine ton Église<br> —&nbsp;qu’elle révèle ta gloire aux nations.</p> <p>Veille sur tes pasteurs, les évêques, les prêtres et les diacres&nbsp;:<br> —&nbsp;que leur vie se modèle sur la parole qu’ils annoncent.</p> <p>Par ta croix, tu as donné la paix au monde<br> —&nbsp;accorde-nous de travailler à l’entente des peuples.</p> <p>Donne ta grâce aux époux chrétiens,<br> —&nbsp;qu’ils soient témoins de ton alliance, jour après jour.</p> <p>Pardonne aux défunts toutes leurs fautes, <br> —&nbsp;qu’ils vivent parmi les saints du ciel.</p> ",
-    "responsory": "<p>R/ Voyez quel grand amour nous est donné&nbsp;!<br> V/ Enfants de Dieu, nous le sommes,<br> &nbsp; dans le Fils unique&nbsp;!&nbsp;R/ <br> V/ Au-delà de toute souffrance<br> &nbsp; une joie sans fin nous attend.&nbsp;R/ <br></p>",
-    "oration": "Reste avec nous, Seigneur, car il se fait tard et déjà le jour baisse. Illumine nos cœurs sur la route pour qu’ils te découvrent dans les Écritures et dans le pain partagé. Toi qui règnes."
+    "oration": [
+      "Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -122,8 +109,37 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonC": "Passant au milieu d’eux, Jésus allait son chemin.",
-  "sundayEvangelicAntiphonB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
-  "sundayEvangelicAntiphonA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
-  "readingHymn": "esprit-de-dieu-tres-pur-amour"
+  "vespers": {
+    "hymn": [
+      "frappe-a-ma-porte"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_135_1"
+      },
+      {
+        "psalm": "PSALM_135_2"
+      },
+      {
+        "psalm": "NT_4"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 Th 3, 12-13",
+      "content": "Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints."
+    },
+    "responsory": "<p>R/ Voyez quel grand amour nous est donné&nbsp;!<br> V/ Enfants de Dieu, nous le sommes,<br> &nbsp; dans le Fils unique&nbsp;!&nbsp;R/ <br> V/ Au-delà de toute souffrance<br> &nbsp; une joie sans fin nous attend.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Rendez grâce au Dieu du ciel&nbsp;: à toute chair il donne le pain.",
+      "yearA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
+      "yearB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
+      "yearC": "Passant au milieu d’eux, Jésus allait son chemin."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Christ qui n’abandonne pas les siens&nbsp;:</p> <p>R/ Exauce-nous, Seigneur Dieu.</p> <p>Toi, notre Lumière, illumine ton Église<br> —&nbsp;qu’elle révèle ta gloire aux nations.</p> <p>Veille sur tes pasteurs, les évêques, les prêtres et les diacres&nbsp;:<br> —&nbsp;que leur vie se modèle sur la parole qu’ils annoncent.</p> <p>Par ta croix, tu as donné la paix au monde<br> —&nbsp;accorde-nous de travailler à l’entente des peuples.</p> <p>Donne ta grâce aux époux chrétiens,<br> —&nbsp;qu’ils soient témoins de ton alliance, jour après jour.</p> <p>Pardonne aux défunts toutes leurs fautes, <br> —&nbsp;qu’ils vivent parmi les saints du ciel.</p> "
+    },
+    "oration": [
+      "Reste avec nous, Seigneur, car il se fait tard et déjà le jour baisse. Illumine nos cœurs sur la route pour qu’ils te découvrent dans les Écritures et dans le pain partagé. Toi qui règnes."
+    ]
+  }
 }

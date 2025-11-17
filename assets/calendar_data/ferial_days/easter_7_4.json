@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 10-11",
+      "biblicalReference": "Rm 8, 10-11",
       "content": "Si le Christ est en vous, votre corps a beau être voué à la mort à cause du péché, l’Esprit est votre vie, parce que vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous."
     },
-    "evangelicAntiphon": "Allez dans le monde entier&nbsp;; enseignez toutes les nations, baptisez-les au nom du Père et du Fils et du Saint-Esprit. Alléluia.",
-    "intercession": "<p>Bénissons le Christ, qui nous donne accès au Père dans l’Esprit&nbsp;:</p> <p>R/ Christ vainqueur, écoute-nous&nbsp;!</p> <p>Ressuscité des morts, tu sièges à la droite du Père&nbsp;:<br> –&nbsp;intercède pour nous dans ta fidélité.</p> <p>Que ton Esprit soit l’hôte de nos cœurs,<br> –&nbsp;préserve-nous de jamais le contrister.</p> <p>Tiens-nous unis à toi par l’Esprit,<br> –&nbsp;que rien, ni la persécution, ni la mort, ne nous sépare de ton amour.</p> <p>Apprends-nous à nous supporter, à nous soutenir mutuellement,<br> –&nbsp;toi qui nous as pris en charge pour l’honneur de ton Père.</p>",
-    "responsory": "<p>R/ Jésus s’est levé du tombeau.<br>  * Alléluia, alléluia&nbsp;!<br> V/ Lui qui fut cloué pour nous sur le bois.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>"
+    "responsory": "<p>R/ Jésus s’est levé du tombeau.<br>  * Alléluia, alléluia&nbsp;!<br> V/ Lui qui fut cloué pour nous sur le bois.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>",
+    "evangelicAntiphon": {
+      "common": "Allez dans le monde entier&nbsp;; enseignez toutes les nations, baptisez-les au nom du Père et du Fils et du Saint-Esprit. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Christ, qui nous donne accès au Père dans l’Esprit&nbsp;:</p> <p>R/ Christ vainqueur, écoute-nous&nbsp;!</p> <p>Ressuscité des morts, tu sièges à la droite du Père&nbsp;:<br> –&nbsp;intercède pour nous dans ta fidélité.</p> <p>Que ton Esprit soit l’hôte de nos cœurs,<br> –&nbsp;préserve-nous de jamais le contrister.</p> <p>Tiens-nous unis à toi par l’Esprit,<br> –&nbsp;que rien, ni la persécution, ni la mort, ne nous sépare de ton amour.</p> <p>Apprends-nous à nous supporter, à nous soutenir mutuellement,<br> –&nbsp;toi qui nous as pris en charge pour l’honneur de ton Père.</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>R/  L’Esprit venu d’en haut<br> sera répandu sur nous&nbsp;!</p> <p>Mon peuple habitera un séjour de paix&nbsp;;<br> heureux seront-ils&nbsp;:<br> ils sèmeront partout où il y a de l’eau.</p> <p>Je vous laisse la paix, dit le Seigneur.<br> Je vous donne ma joie.<br> Que votre cœur cesse de se troubler.</p>"
     },
     "verse": "<p>V/ Dieu qui a ressuscité le Seigneur, alléluia.<br>nous ressuscitera aussi par sa puissance, alléluia.</p>",
-    "oration": "Que ton Esprit Saint, Dieu créateur, nous transforme par ses dons&nbsp;: qu’il change notre cœur en un cœur que tu aimes, parfaitement accordé à ta volonté."
+    "oration": [
+      "Que ton Esprit Saint, Dieu créateur, nous transforme par ses dons&nbsp;: qu’il change notre cœur en un cœur que tu aimes, parfaitement accordé à ta volonté."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_15",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_78"
+      },
+      {
+        "psalm": "PSALM_79"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -89,27 +111,15 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 6, 19-20",
+      "biblicalReference": "1 Co 6, 19-20",
       "content": "Ne le savez-vous pas&nbsp;? Votre corps est le temple de l’Esprit Saint, qui est en vous et que vous avez reçu de Dieu&nbsp;; vous ne vous appartenez plus à vous-mêmes, car le Seigneur vous a achetés très cher. Rendez gloire à Dieu dans votre corps."
     },
-    "evangelicAntiphon": "Quand viendra l’Esprit de vérité, il vous guidera vers la vérité tout entière, il vous annoncera ce qui doit arriver. Alléluia.",
-    "intercession": "<p>Seigneur Jésus, qui as promis à ton Église l’Esprit d’unité,<br> –&nbsp;donne-lui de surmonter toute division.</p> <p>R/ Rassemble-nous dans ton amour.</p> <p>Toi qui priais dans l’Esprit pour accomplir l’œuvre du Père,<br> –&nbsp;accorde à tes serviteurs l’esprit de prière pour que leur travail soit le tien.</p> <p>Toi qui libérais de leurs démons les possédés,<br> –&nbsp;libère ce monde des puissances du mal.</p> <p>Toi qui es entré dans ton règne,<br> –&nbsp;assiste les responsables des nations dans leur souci du bien de tous.</p> <p>Toi qui vis à jamais dans la gloire du Père,<br> –&nbsp;élève auprès de toi ceux qui nous ont quittés.</p>",
-    "responsory": "<p>R/ Toi, la grâce des coupables,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> Le sel qui nous décape&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_15",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_78"
-      },
-      {
-        "psalm": "PSALM_79"
-      }
-    ]
+    "responsory": "<p>R/ Toi, la grâce des coupables,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> Le sel qui nous décape&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>",
+    "evangelicAntiphon": {
+      "common": "Quand viendra l’Esprit de vérité, il vous guidera vers la vérité tout entière, il vous annoncera ce qui doit arriver. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, qui as promis à ton Église l’Esprit d’unité,<br> –&nbsp;donne-lui de surmonter toute division.</p> <p>R/ Rassemble-nous dans ton amour.</p> <p>Toi qui priais dans l’Esprit pour accomplir l’œuvre du Père,<br> –&nbsp;accorde à tes serviteurs l’esprit de prière pour que leur travail soit le tien.</p> <p>Toi qui libérais de leurs démons les possédés,<br> –&nbsp;libère ce monde des puissances du mal.</p> <p>Toi qui es entré dans ton règne,<br> –&nbsp;assiste les responsables des nations dans leur souci du bien de tous.</p> <p>Toi qui vis à jamais dans la gloire du Père,<br> –&nbsp;élève auprès de toi ceux qui nous ont quittés.</p>"
+    }
   }
 }

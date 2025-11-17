@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Ex 19, 4-6a",
+      "biblicalReference": "Ex 19, 4-6a",
       "content": "Vous avez vu comment je vous ai portés comme sur les ailes d’un aigle pour vous amener jusqu’à moi. Et maintenant, si vous entendez ma voix et gardez mon Alliance, vous serez mon domaine particulier parmi tous les peuples —&nbsp;car toute la terre m’appartient —&nbsp;et vous serez pour moi un royaume de prêtres, une nation sainte."
     },
-    "evangelicAntiphon": "Le centurion vint trouver Jésus&nbsp;; il le suppliait de guérir son fils.",
-    "intercession": "<p>Dieu libre et saint, enseigne-nous ta loi de liberté.</p> <p>R/ Enseigne-nous ta loi de liberté.</p> <p>Ouvre notre esprit au sens caché de l’univers.</p> <p>Détache-nous des idoles formées par nos désirs.</p> <p>Apprends-nous à donner de notre nécessaire.</p> <p>Ne nous laisse pas asservir par l’argent.</p> <p>Donne à tous la joie de travailler à ton œuvre.</p> <p>Fais-nous voir en tout homme l’homme libéré par le Christ.</p> ",
     "responsory": "<p>R/ Heureux le peuple qui a pour Dieu le Seigneur&nbsp;!<br> V/ Courons notre épreuve, <br>les yeux fixés sur Jésus.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    "evangelicAntiphon": {
+      "common": "Le centurion vint trouver Jésus&nbsp;; il le suppliait de guérir son fils."
+    },
+    "intercession": {
+      "content": "<p>Dieu libre et saint, enseigne-nous ta loi de liberté.</p> <p>R/ Enseigne-nous ta loi de liberté.</p> <p>Ouvre notre esprit au sens caché de l’univers.</p> <p>Détache-nous des idoles formées par nos désirs.</p> <p>Apprends-nous à donner de notre nécessaire.</p> <p>Ne nous laisse pas asservir par l’argent.</p> <p>Donne à tous la joie de travailler à ton œuvre.</p> <p>Fais-nous voir en tout homme l’homme libéré par le Christ.</p> "
+    },
+    "oration": [
+      "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Un seul Dieu&nbsp;!<br> Un seul médiateur entre Dieu et les hommes&nbsp;:<br> Jésus le Christ&nbsp;!</p> <p>Il est médiateur de l’Alliance nouvelle.<br> L’ancienne alliance a disparu.</p> <p>Par son propre sang, il nous a sanctifiés<br> et réconciliés avec Dieu.</p>"
     },
     "verse": "<p>V/ Convertissez-vous et croyez à la Bonne Nouvelle,<br> le Règne de Dieu est là.</p>",
-    "oration": "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    "oration": [
+      "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_17",
+        "antiphon": [
+          "La bouche grande ouverte, j’aspire, assoiffé de tes volontés."
+        ]
+      },
+      {
+        "psalm": "PSALM_81"
+      },
+      {
+        "psalm": "PSALM_119"
+      }
+    ],
+    "oration": [
+      "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,29 +117,18 @@
       }
     ],
     "reading": {
-      "ref": "Rm 12, 1-2",
+      "biblicalReference": "Rm 12, 1-2",
       "content": "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu&nbsp;: c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez­-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu&nbsp;: ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait."
     },
-    "evangelicAntiphon": "À l’heure où Jésus disait&nbsp;: Ton fils est vivant, l’enfant fut guéri.",
-    "intercession": "<p>Reçois notre vie, Dieu créateur,<br> comme un sacrifice vivant et saint.</p> <p>R/ Que ton amour, Seigneur, soit sur nous&nbsp;!</p> <p>Renouvelle notre cœur,<br> fais-nous connaître ta volonté.</p> <p>Fortifie-nous contre l’esprit du monde,<br> brise nos résistances à ton Esprit.</p> <p>Éclaire-nous sur nous-mêmes&nbsp;:<br> donne-nous d’aimer l’œuvre de tes mains.</p> <p>Apprends-nous à te rencontrer&nbsp;:<br> montre-nous en chacun ta présence et tes dons.</p> <p>Achève en nos défunts ton œuvre de salut,<br> reçois leur vie, Dieu créateur.</p> ",
     "responsory": "<p>R/ J’appelle de tout cœur&nbsp;:<br>  *  Réponds-moi, Seigneur&nbsp;!<br> V/ Je garderai tes volontés.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_17",
-        "antiphon": [
-          "La bouche grande ouverte, j’aspire, assoiffé de tes volontés."
-        ]
-      },
-      {
-        "psalm": "PSALM_81"
-      },
-      {
-        "psalm": "PSALM_119"
-      }
-    ],
-    "oration": "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    "evangelicAntiphon": {
+      "common": "À l’heure où Jésus disait&nbsp;: Ton fils est vivant, l’enfant fut guéri."
+    },
+    "intercession": {
+      "content": "<p>Reçois notre vie, Dieu créateur,<br> comme un sacrifice vivant et saint.</p> <p>R/ Que ton amour, Seigneur, soit sur nous&nbsp;!</p> <p>Renouvelle notre cœur,<br> fais-nous connaître ta volonté.</p> <p>Fortifie-nous contre l’esprit du monde,<br> brise nos résistances à ton Esprit.</p> <p>Éclaire-nous sur nous-mêmes&nbsp;:<br> donne-nous d’aimer l’œuvre de tes mains.</p> <p>Apprends-nous à te rencontrer&nbsp;:<br> montre-nous en chacun ta présence et tes dons.</p> <p>Achève en nos défunts ton œuvre de salut,<br> reçois leur vie, Dieu créateur.</p> "
+    },
+    "oration": [
+      "Dieu qui renouvelles ce monde au moyen de tes sacrements, fais que ton Église progresse par ces biens du ciel et ne manque jamais de tes secours ici-bas."
+    ]
   }
 }

@@ -1,4 +1,9 @@
 {
+  "celebration": {
+    "title": "Mercredi Saint",
+    "grade": 3,
+    "color": "violet"
+  },
   "invitatory": {
     "antiphon": [
       "Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.",
@@ -27,12 +32,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 50, 5-7",
+      "biblicalReference": "Is 50, 5-7",
       "content": "Le Seigneur Dieu m’a ouvert l’oreille, et moi, je ne me suis pas révolté, je ne me suis pas dérobé. J’ai présenté mon dos à ceux qui me frappaient, et mes joues à ceux qui m’arrachaient la barbe. Je n’ai pas protégé mon visage des outrages et des crachats. Le Seigneur Dieu vient à mon secours&nbsp;: c’est pourquoi je ne suis pas atteint par les outrages, c’est pourquoi j’ai rendu mon visage dur comme pierre&nbsp;: je sais que je ne serai pas confondu."
     },
-    "evangelicAntiphon": "Poussé par l’Esprit, Jésus s’est offert lui-même à son Père&nbsp;; son sang nous purifie des œuvres mortes pour que nous servions le Dieu vivant.",
-    "intercession": "<p>Supplions le Christ qui nous a aimés jusqu’à la mort&nbsp;:</p> <p>R/ Sauve-nous par ton amour.</p> <p>Jésus que l’on a bafoué sans raison, <br> –&nbsp;prends pitié de ceux dont l’amour est trahi.</p> <p>Jésus que l’amour du Royaume a perdu, <br> –&nbsp;prends pitié de ceux que l’on met en prison.</p> <p>Jésus qui n’as pas trouvé de consolateur, <br> –&nbsp;prends pitié de ceux qui sont affligés.</p> <p>Jésus que l’on abreuva de vinaigre, <br> –&nbsp;prends pitié de ceux qui souffrent pour la justice.</p> <p>Jésus humilié par les hommes, sauvé par Dieu, <br> –&nbsp;sois la joie et la fête des pauvres.</p> ",
-    "responsory": "<p>R/ Comme un agneau que l’on mène à l’abattoir,<br> il n’ouvre pas la bouche.<br>  * Qui donc a eu souci de son destin&nbsp;?<br> V/ Frappé à cause des péchés de son peuple, <br>il a été supprimé. * <br> V/ Broyé par la souffrance, <br>il a plu au Seigneur. * </p>"
+    "responsory": "<p>R/ Comme un agneau que l’on mène à l’abattoir,<br> il n’ouvre pas la bouche.<br>  * Qui donc a eu souci de son destin&nbsp;?<br> V/ Frappé à cause des péchés de son peuple, <br>il a été supprimé. * <br> V/ Broyé par la souffrance, <br>il a plu au Seigneur. * </p>",
+    "evangelicAntiphon": {
+      "common": "Poussé par l’Esprit, Jésus s’est offert lui-même à son Père&nbsp;; son sang nous purifie des œuvres mortes pour que nous servions le Dieu vivant."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Christ qui nous a aimés jusqu’à la mort&nbsp;:</p> <p>R/ Sauve-nous par ton amour.</p> <p>Jésus que l’on a bafoué sans raison, <br> –&nbsp;prends pitié de ceux dont l’amour est trahi.</p> <p>Jésus que l’amour du Royaume a perdu, <br> –&nbsp;prends pitié de ceux que l’on met en prison.</p> <p>Jésus qui n’as pas trouvé de consolateur, <br> –&nbsp;prends pitié de ceux qui sont affligés.</p> <p>Jésus que l’on abreuva de vinaigre, <br> –&nbsp;prends pitié de ceux qui souffrent pour la justice.</p> <p>Jésus humilié par les hommes, sauvé par Dieu, <br> –&nbsp;sois la joie et la fête des pauvres.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,6 +78,22 @@
     },
     "verse": "<p>V/ Quand j’aurai été élevé de terre,<br>j’attirerai à moi tous les hommes.</p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_8",
+        "antiphon": [
+          "Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout."
+        ]
+      },
+      {
+        "psalm": "PSALM_54_1_2"
+      },
+      {
+        "psalm": "PSALM_54_3"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -91,31 +116,18 @@
       }
     ],
     "reading": {
-      "ref": "Ep 4, 32 - 5,2",
+      "biblicalReference": "Ep 4, 32 - 5,2",
       "content": "Soyez entre vous pleins de générosité et de ten­dresse. Pardonnez-vous les uns aux autres comme Dieu vous a pardonné dans le Christ. Oui, cherchez à imiter Dieu puisque vous êtes ses enfants bien-aimés. Vivez dans l’amour comme le Christ nous a aimés et s’est livré pour nous en offrant à Dieu le sacrifice qui pouvait lui plaire."
     },
-    "evangelicAntiphon": "Le Maître te fait dire&nbsp;: Mon temps est proche&nbsp;; j’irai chez toi célébrer la Pâque avec mes disciples.",
-    "intercession": "<p>En contemplant la passion de Jésus, notre Sauveur, nous supplions&nbsp;:</p> <p>Pour ceux que la tristesse accable,<br> –&nbsp;souviens-toi de ton agonie,</p> <p>R/ Ô Jésus, notre Sauveur&nbsp;!</p> <p>Pour ceux qui sont blessés dans leur chair,<br> –&nbsp;souviens-toi de tes tortures.</p> <p>Pour ceux qui souffrent la dérision,<br> –&nbsp;souviens-toi de la couronne d’épines.</p> <p>Pour ceux qui désespèrent de la vie,<br> –&nbsp;souviens-toi de ton cri vers le Père.</p> <p>Pour ceux qui meurent aujourd’hui,<br> –&nbsp;souviens-toi de ta mort sur la croix.</p> <p>Pour ceux qui espèrent contre toute espérance,<br> –&nbsp;que resplendisse ta résurrection.</p> ",
-    "responsory": "<p>R/ Il n’est pas de plus grand amour<br> que de donner sa vie pour ceux qu’on aime.<br> V/ Ma vie, nul ne la prend&nbsp;;<br> c’est moi qui la donne.&nbsp;R/ <br> V/ Faites entre vous<br> comme j’ai fait pour vous.&nbsp;R/ </p>"
+    "responsory": "<p>R/ Il n’est pas de plus grand amour<br> que de donner sa vie pour ceux qu’on aime.<br> V/ Ma vie, nul ne la prend&nbsp;;<br> c’est moi qui la donne.&nbsp;R/ <br> V/ Faites entre vous<br> comme j’ai fait pour vous.&nbsp;R/ </p>",
+    "evangelicAntiphon": {
+      "common": "Le Maître te fait dire&nbsp;: Mon temps est proche&nbsp;; j’irai chez toi célébrer la Pâque avec mes disciples."
+    },
+    "intercession": {
+      "content": "<p>En contemplant la passion de Jésus, notre Sauveur, nous supplions&nbsp;:</p> <p>Pour ceux que la tristesse accable,<br> –&nbsp;souviens-toi de ton agonie,</p> <p>R/ Ô Jésus, notre Sauveur&nbsp;!</p> <p>Pour ceux qui sont blessés dans leur chair,<br> –&nbsp;souviens-toi de tes tortures.</p> <p>Pour ceux qui souffrent la dérision,<br> –&nbsp;souviens-toi de la couronne d’épines.</p> <p>Pour ceux qui désespèrent de la vie,<br> –&nbsp;souviens-toi de ton cri vers le Père.</p> <p>Pour ceux qui meurent aujourd’hui,<br> –&nbsp;souviens-toi de ta mort sur la croix.</p> <p>Pour ceux qui espèrent contre toute espérance,<br> –&nbsp;que resplendisse ta résurrection.</p> "
+    }
   },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_8",
-        "antiphon": [
-          "Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout."
-        ]
-      },
-      {
-        "psalm": "PSALM_54_1_2"
-      },
-      {
-        "psalm": "PSALM_54_3"
-      }
-    ]
-  },
-  "celebrationTitle": "Mercredi Saint",
-  "liturgicalGrade": 3,
-  "liturgicalColor": "violet",
-  "oration": "Puisque tu as voulu, Seigneur, que ton Fils fût crucifié pour nous afin de nous arracher au pouvoir de Satan, fais que nous puissions recevoir la grâce de la résurrection."
+  "oration": [
+    "Puisque tu as voulu, Seigneur, que ton Fils fût crucifié pour nous afin de nous arracher au pouvoir de Satan, fais que nous puissions recevoir la grâce de la résurrection."
+  ]
 }

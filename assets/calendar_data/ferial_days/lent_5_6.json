@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 65, 1b-3a",
+      "biblicalReference": "Is 65, 1b-3a",
       "content": "J’ai dit&nbsp;: «&nbsp;Me voici, me voici&nbsp;» à une nation qui n’invoquait pas mon nom. J’ai tendu mes mains, à longueur de jour, vers un peuple rebelle, vers ceux qui suivent le chemin qui n’est pas bon, qui sont à la remorque de leurs propres pensées. C’est un peuple qui me vexe, en face, sans arrêt."
     },
-    "evangelicAntiphon": "Jésus devait mourir afin de rassembler dans l’unité les enfants de Dieu dispersés.",
-    "intercession": "<p>Par toi, Jésus Sauveur, l’aveugle a vu la lumière&nbsp;;<br> dévoile à nos yeux ta présence.</p> <p>R/ Toi, notre ami, exauce-nous&nbsp;!</p> <p>Tu as délié la langue du muet,<br> apprends-nous à célébrer ta louange.</p> <p>Tu as ouvert les oreilles du sourd,<br> garde-nous attentifs à ta parole.</p> <p>Tu as guéri le paralytique,<br> donne-nous de courir dans la voie de ton amour,</p> <p>Tu as fait sortir Lazare de son tombeau,<br> ramène à la vie ceux que le péché retient dans la mort.</p> ",
     "responsory": "<p>R/ Il m’appelle, et moi, je lui réponds&nbsp;:<br>  * Je veux le libérer, le glorifier.<br> V/ Je suis avec lui dans l’épreuve. * <br> V/ Je ferai qu’il voie mon salut. * <br></p>",
-    "oration": "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    "evangelicAntiphon": {
+      "common": "Jésus devait mourir afin de rassembler dans l’unité les enfants de Dieu dispersés."
+    },
+    "intercession": {
+      "content": "<p>Par toi, Jésus Sauveur, l’aveugle a vu la lumière&nbsp;;<br> dévoile à nos yeux ta présence.</p> <p>R/ Toi, notre ami, exauce-nous&nbsp;!</p> <p>Tu as délié la langue du muet,<br> apprends-nous à célébrer ta louange.</p> <p>Tu as ouvert les oreilles du sourd,<br> garde-nous attentifs à ta parole.</p> <p>Tu as guéri le paralytique,<br> donne-nous de courir dans la voie de ton amour,</p> <p>Tu as fait sortir Lazare de son tombeau,<br> ramène à la vie ceux que le péché retient dans la mort.</p> "
+    },
+    "oration": [
+      "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Pour aller à Jésus, sortons hors du camp<br> en portant son opprobre.</p> <p>Jésus, pour sanctifier le peuple par son sang,<br> a souffert hors de la ville.</p> <p>Ils sauront que le Seigneur les a dispersés<br> dans les pays étrangers.</p> <p>Nous n’avons pas sur la terre de cité permanente,<br> mais nous cherchons celle de l’avenir.</p>"
     },
     "verse": "<p>V/ Celui qui fait la vérité<br> vient à la lumière.</p>",
-    "oration": "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    "oration": [
+      "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_5",
+        "antiphon": [
+          "Venez, mes fils, écoutez-moi&nbsp;: je vous enseigne la crainte du Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ],
+    "oration": [
+      "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "1 P 1, 18-21",
+      "biblicalReference": "1 P 1, 18-21",
       "content": "Vous le savez&nbsp;: ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits&nbsp;; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire&nbsp;; ainsi vous mettez votre foi et votre espérance en Dieu."
     },
-    "evangelicAntiphon": "Si le grain qui tombe en terre ne meurt pas, il reste seul, mais s’il meurt, il porte beaucoup de fruit.",
-    "intercession": "<p>Dieu a fait renaître son peuple d’un germe incorruptible, sa Parole éternelle. En ce temps de carême, supplions-le&nbsp;:</p> <p>R/ Souviens-toi de ton alliance.</p> <p>Accorde à ton peuple un cœur neuf pour entendre à nouveau ta parole.</p> <p>Donne à ton Église les pasteurs dont elle a besoin pour avancer dans la vérité.</p> <p>Soutiens dans leur engagement ceux qui ont tout quitté pour suivre le Christ.</p> <p>Ouvre aux mystères de ta parole ceux que tu prépares au baptême.</p> <p>Parle au cœur des pécheurs pour qu’ils appellent sur eux ton pardon.</p> <p>Fais miséricorde à tous nos morts&nbsp;: qu’ils chantent dans l’éternité ta louange.</p> ",
     "responsory": "<p>R/ Jésus, souviens-toi de nous,<br> quand tu viendras dans ton Royaume.<br> V/ Toi qui ne repousses pas le cœur brisé,R/ <br> V/ Toi qui t’es fait obéissant jusqu’à la mort,R/ <br> V/ Par ton côté ouvert, par tes mains transpercées,R/ <br></p>",
-    "oration": "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_5",
-        "antiphon": [
-          "Venez, mes fils, écoutez-moi&nbsp;: je vous enseigne la crainte du Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
-    ],
-    "oration": "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    "evangelicAntiphon": {
+      "common": "Si le grain qui tombe en terre ne meurt pas, il reste seul, mais s’il meurt, il porte beaucoup de fruit."
+    },
+    "intercession": {
+      "content": "<p>Dieu a fait renaître son peuple d’un germe incorruptible, sa Parole éternelle. En ce temps de carême, supplions-le&nbsp;:</p> <p>R/ Souviens-toi de ton alliance.</p> <p>Accorde à ton peuple un cœur neuf pour entendre à nouveau ta parole.</p> <p>Donne à ton Église les pasteurs dont elle a besoin pour avancer dans la vérité.</p> <p>Soutiens dans leur engagement ceux qui ont tout quitté pour suivre le Christ.</p> <p>Ouvre aux mystères de ta parole ceux que tu prépares au baptême.</p> <p>Parle au cœur des pécheurs pour qu’ils appellent sur eux ton pardon.</p> <p>Fais miséricorde à tous nos morts&nbsp;: qu’ils chantent dans l’éternité ta louange.</p> "
+    },
+    "oration": [
+      "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple&nbsp;; regarde avec bienveillance tous ceux qui t’appartiennent&nbsp;: que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    ]
   }
 }

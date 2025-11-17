@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jl 2, 12-13",
+      "biblicalReference": "Jl 2, 12-13",
       "content": "Revenez à moi de tout votre cœur, dans le jeûne, les larmes et le deuil&nbsp;! Déchirez vos cœurs et non pas vos vêtements, et revenez au Seigneur votre Dieu, car il est tendre et miséricordieux, lent à la colère et plein d’amour, renonçant au châtiment."
     },
-    "evangelicAntiphon": "Pardonnez aux hommes leurs offenses, et votre Père du ciel vous pardonnera.",
-    "intercession": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  * Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    "evangelicAntiphon": {
+      "common": "Pardonnez aux hommes leurs offenses, et votre Père du ciel vous pardonnera."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> "
+    },
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>Toi qui cherches le Royaume, écoute&nbsp;: Stance<br> l’amour, voilà le Royaume&nbsp;;<br> il est promesse de vie,<br> appel de liberté,<br> il est présence de l’éternité<br> au cœur du temps.</p> <p>R/ Sur nous, Seigneur, envoie ton Esprit,<br> ta force d’amour&nbsp;!</p> <p>Comment reconnaître un frère<br> dans l’homme blessé, à l’écart de la route,<br> si tu ne viens éclairer notre regard&nbsp;?</p> <p>Comment prendre en charge notre frère,<br> si d’abord tu ne viens<br> panser nos blessures&nbsp;?</p>"
     },
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_13",
+        "antiphon": [
+          "Pourquoi retenir ta main&nbsp;? Lève-toi, Dieu, défends ta cause."
+        ]
+      },
+      {
+        "psalm": "PSALM_73_1"
+      },
+      {
+        "psalm": "PSALM_73_2"
+      }
+    ],
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 14. 17.18b",
+      "biblicalReference": "Jc 2, 14. 17.18b",
       "content": "Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il&nbsp;? Cet homme-là peut-il être sauvé par sa foi&nbsp;? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas&nbsp;; moi, c’est par mes actes que je te montrerai ma foi."
     },
-    "evangelicAntiphon": "Si vous ne pardonnez pas de tout votre cœur, le Père du ciel vous traitera sans pitié.",
-    "intercession": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>",
     "responsory": "<p>R/ Éclaire-moi selon ta parole,<br>  *  Que j’observe tes volontés.<br> V/ Incline mon cœur vers tes exigences.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_13",
-        "antiphon": [
-          "Pourquoi retenir ta main&nbsp;? Lève-toi, Dieu, défends ta cause."
-        ]
-      },
-      {
-        "psalm": "PSALM_73_1"
-      },
-      {
-        "psalm": "PSALM_73_2"
-      }
-    ],
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    "evangelicAntiphon": {
+      "common": "Si vous ne pardonnez pas de tout votre cœur, le Père du ciel vous traitera sans pitié."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>"
+    },
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
   }
 }

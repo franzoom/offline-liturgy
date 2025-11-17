@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Gn 49, 10",
+      "biblicalReference": "Gn 49, 10",
       "content": "La royauté n’échappera point à Juda, ni le commandement à sa descendance, jusqu’à ce que vienne celui à qui le pouvoir appartient, à qui les peuples obéiront."
     },
-    "evangelicAntiphon": "Un rameau sortira de la racine de Jessé, la gloire du Seigneur couvrira la terre, toute chair verra le salut de Dieu.",
-    "intercession": "<p>Père de miséricorde, viens à nouveau visiter ton peuple, rassemble-nous dans le désir de ta gloire.</p> <p>R/ Seigneur, que ton règne vienne&nbsp;!</p> <p>Donne-nous de porter les fruits d’une conversion véritable,<br> et de trouver notre liberté à faire ta volonté.</p> <p>Aplanis en notre cœur le chemin de ton Fils unique,<br> fais-nous vivre de sa parole et de son Esprit.</p> <p>Abaisse nos montagnes d’orgueil,<br> et comble les abîmes de notre faiblesse.</p> <p>Abats les barrières de haine qui séparent les peuples,<br> ouvre entre les hommes des chemins d’amitié.</p> ",
-    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Un rameau sortira de la racine de Jessé, la gloire du Seigneur couvrira la terre, toute chair verra le salut de Dieu."
+    },
+    "intercession": {
+      "content": "<p>Père de miséricorde, viens à nouveau visiter ton peuple, rassemble-nous dans le désir de ta gloire.</p> <p>R/ Seigneur, que ton règne vienne&nbsp;!</p> <p>Donne-nous de porter les fruits d’une conversion véritable,<br> et de trouver notre liberté à faire ta volonté.</p> <p>Aplanis en notre cœur le chemin de ton Fils unique,<br> fais-nous vivre de sa parole et de son Esprit.</p> <p>Abaisse nos montagnes d’orgueil,<br> et comble les abîmes de notre faiblesse.</p> <p>Abats les barrières de haine qui séparent les peuples,<br> ouvre entre les hommes des chemins d’amitié.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ Un jour viendra où Dieu se montrera,<br> Un jour verra la fin de nos combats&nbsp;:<br> Printemps de gloire aux plaines de la terre,<br> Sa vie joyeuse éveillera les corps,<br> Et Dieu vivant sera pour toujours<br> Le cœur d’un monde ouvert à l’amour.</p>"
     },
     "verse": "<p>V/ Préparez les chemins du Seigneur,<br> aplanissez la route.</p>",
-    "oration": "En réponse à nos appels, Seigneur, accorde ton secours à ceux qui luttent et qui peinent&nbsp;: que la présence au milieu de nous de celui qui doit venir, ton Fils bien-aimé, nous redonne courage et nous préserve de la dégradation du péché."
+    "oration": [
+      "En réponse à nos appels, Seigneur, accorde ton secours à ceux qui luttent et qui peinent&nbsp;: que la présence au milieu de nous de celui qui doit venir, ton Fils bien-aimé, nous redonne courage et nous préserve de la dégradation du péché."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_1",
+        "antiphon": [
+          "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob&nbsp;! en Israël, quelle joie&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_12"
+      },
+      {
+        "psalm": "PSALM_13"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "cf. 1 Co 1, 7b-9",
+      "biblicalReference": "cf. 1 Co 1, 7b-9",
       "content": "Nous attendons de voir se révéler notre Seigneur Jésus Christ. C’est lui qui nous fera tenir solidement jusqu’au bout, et nous serons sans reproche au jour de notre Seigneur Jésus Christ. Car Dieu est fidèle, lui qui nous a appelés à vivre en communion avec son Fils."
     },
-    "evangelicAntiphon": "Cherchez le Seigneur&nbsp;: il se laisse trouver. Invoquez-le, car il est proche, alléluia&nbsp;!",
-    "intercession": "<p>Verbe éternel, manifesté dans la chair, tu es pour tout homme le chemin qui conduit vers le Père, nous t’en supplions&nbsp;:</p> <p>R/ Viens, Seigneur, et sauve-nous&nbsp;!</p> <p>En toi, nous avons la vie, le mouvement et l’être,<br> suscite en nos cœurs la louange et la miséricorde.</p> <p>Tu es tout proche de chacun d’entre nous,<br> montre-toi à ceux qui te cherchent.</p> <p>Ami des pauvres et réconfort de ceux qui souffrent,<br> fais de nous des artisans de libération, des messagers de ta joie.</p> <p>Tu aimes la vie, tu n’as pas créé la mort&nbsp;:<br> délivre-nous de la mort éternelle, nous et ceux qui nous ont précédés.</p> ",
-    "responsory": "<p>R/ Notre âme attend le Seigneur,<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.  * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_1",
-        "antiphon": [
-          "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob&nbsp;! en Israël, quelle joie&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_12"
-      },
-      {
-        "psalm": "PSALM_13"
-      }
-    ]
+    "responsory": "<p>R/ Notre âme attend le Seigneur,<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.  * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Cherchez le Seigneur&nbsp;: il se laisse trouver. Invoquez-le, car il est proche, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Verbe éternel, manifesté dans la chair, tu es pour tout homme le chemin qui conduit vers le Père, nous t’en supplions&nbsp;:</p> <p>R/ Viens, Seigneur, et sauve-nous&nbsp;!</p> <p>En toi, nous avons la vie, le mouvement et l’être,<br> suscite en nos cœurs la louange et la miséricorde.</p> <p>Tu es tout proche de chacun d’entre nous,<br> montre-toi à ceux qui te cherchent.</p> <p>Ami des pauvres et réconfort de ceux qui souffrent,<br> fais de nous des artisans de libération, des messagers de ta joie.</p> <p>Tu aimes la vie, tu n’as pas créé la mort&nbsp;:<br> délivre-nous de la mort éternelle, nous et ceux qui nous ont précédés.</p> "
+    }
   }
 }

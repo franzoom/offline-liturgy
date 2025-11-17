@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "beni-de-dieu"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_42",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "1 Th 5, 4-5",
+      "biblicalReference": "1 Th 5, 4-5",
       "content": "Frères, puisque vous n’êtes pas dans les ténèbres, le jour du Seigneur ne vous surprendra pas comme un voleur. En effet, vous êtes tous des fils de la lumière, des fils du jour&nbsp;; nous n’appartenons pas à la nuit et aux ténèbres."
     },
-    "hymn": [
-      "beni-de-dieu"
-    ],
-    "evangelicAntiphon": "Béni sois-tu, Seigneur, qui fis les soirs et les matins&nbsp;!",
-    "intercession": "<p>Par le Fils, et dans l’Esprit,<br> adressons notre prière au Père qui nous aime&nbsp;:</p> <p>R/ Fais-nous vivre de ton Esprit.</p> <p>Au matin du monde,<br> ton Esprit sur les eaux éveillait la vie.<br> —&nbsp;Éveille-nous à ta louange, pour ton service.</p> <p>À l’aube du salut,<br> ton Esprit en Marie formait le Messie.<br> —&nbsp;Forme-nous à l’obéissance, pour ton règne.</p> <p>Au jour de la Pentecôte,<br> ton Esprit parlait par la bouche des Apôtres.<br> —&nbsp;Mets sur nos lèvres la parole qui sauve.</p> <p>Au matin de ce jour,<br> l’Esprit travaille en nous.<br> —&nbsp;Qu’il habite nos prières et féconde nos efforts.</p> ",
     "responsory": "<p>R/ En toi est la source de la vie,<br>  * Par ta lumière, nous voyons la lumière.<br> V/ Seigneur, qu’il est précieux, ton amour. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur, tu ouvres à ceux qui t’aiment les richesses de ton Esprit Saint, et tu fais grandir en eux ta propre vie en leur donnant part au corps de ton Fils&nbsp;; aide-les à se comporter dans le monde en enfants de Dieu appelés à la liberté&nbsp;: qu’ils répondent par la sainteté de leur vie à la mission prophétique de l’Église."
+    "evangelicAntiphon": {
+      "common": "Béni sois-tu, Seigneur, qui fis les soirs et les matins&nbsp;!",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Par le Fils, et dans l’Esprit,<br> adressons notre prière au Père qui nous aime&nbsp;:</p> <p>R/ Fais-nous vivre de ton Esprit.</p> <p>Au matin du monde,<br> ton Esprit sur les eaux éveillait la vie.<br> —&nbsp;Éveille-nous à ta louange, pour ton service.</p> <p>À l’aube du salut,<br> ton Esprit en Marie formait le Messie.<br> —&nbsp;Forme-nous à l’obéissance, pour ton règne.</p> <p>Au jour de la Pentecôte,<br> ton Esprit parlait par la bouche des Apôtres.<br> —&nbsp;Mets sur nos lèvres la parole qui sauve.</p> <p>Au matin de ce jour,<br> l’Esprit travaille en nous.<br> —&nbsp;Qu’il habite nos prières et féconde nos efforts.</p> "
+    },
+    "oration": [
+      "Seigneur, tu ouvres à ceux qui t’aiment les richesses de ton Esprit Saint, et tu fais grandir en eux ta propre vie en leur donnant part au corps de ton Fils&nbsp;; aide-les à se comporter dans le monde en enfants de Dieu appelés à la liberté&nbsp;: qu’ils répondent par la sainteté de leur vie à la mission prophétique de l’Église."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,40 +83,9 @@
       "responsory": "<p>R/ Celui qui garde sa Parole<br> demeure en Dieu, et Dieu en lui,<br> alléluia, alléluia&nbsp;!</p> <p>Aimons-nous les uns les autres,<br> puisque l’amour vient de Dieu.</p> <p>Nous savons qu’il demeure en nous<br> grâce à l’Esprit Saint qu’il nous a donné.</p>"
     },
     "verse": "<p>V/ Apprends-moi à bien saisir, à bien juger.<br>Je me fie à tes volontés.</p>",
-    "oration": "Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_48_1",
-        "antiphon": [
-          "L’homme comblé ne dure pas&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_48_2",
-        "antiphon": [
-          "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?"
-        ]
-      },
-      {
-        "psalm": "NT_9",
-        "antiphon": [
-          "Tu nous as rachetés par ton sang, Seigneur&nbsp;; tu fis de nous un peuple de rois."
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "Rm 3, 23-25a",
-      "content": "Tous les hommes sont pécheurs, ils sont tous privés de la gloire de Dieu, lui qui leur donne d’être des justes par sa seule grâce, en vertu de la rédemption accomplie dans le Christ Jésus. Car Dieu a exposé le Christ sur la croix afin que, par l’offrande de son sang, il soit le pardon pour ceux qui croient en lui. Ainsi Dieu voulait manifester sa justice."
-    },
-    "hymn": [
-      "seigneur-au-seuil-de-cette-nuit"
-    ],
-    "evangelicAntiphon": "Exultez dans le Christ&nbsp;: il vous enrichit par sa pauvreté.",
-    "intercession": "<p>Dans la confiance, prions le Christ qui fortifie son peuple et le conduit&nbsp;:</p> <p>R/ Garde-nous sur tes chemins.</p> <p>Ô Christ, Sagesse du Père, donne-nous d’entendre ta parole<br> —&nbsp;et de la mettre en pratique.</p> <p>Lumière des nations, éclaire ceux qui les gouvernent&nbsp;:<br> —&nbsp;qu’ils soient attentifs au bien des peuples.</p> <p>Dispensateur des dons de Dieu, tu as nourri les foules&nbsp;;<br> —&nbsp;que ta pitié nous porte à donner ce que nous avons à ceux qui n’ont rien.</p> <p>Médecin des âmes et des corps, suscite en nous ta charité,<br> —&nbsp;pour que nous visitions les malades, nos frères.</p> <p>Gloire du Père, vie et résurrection de nos morts,<br> —&nbsp;reçois-les dans ton Royaume.</p> ",
-    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur Dieu, à toi le jour, à toi les nuits&nbsp;! Tu nous les donnes pour rythmer notre vie&nbsp;: à travers ombres et lumières, conduis-nous au jour qui ne finira pas."
+    "oration": [
+      "Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -131,8 +109,46 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
-  "sundayEvangelicAntiphonC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là.",
-  "sundayEvangelicAntiphonB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
-  "readingHymn": "pour-que-l-homme-soit-un-fils"
+  "vespers": {
+    "hymn": [
+      "seigneur-au-seuil-de-cette-nuit"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_48_1",
+        "antiphon": [
+          "L’homme comblé ne dure pas&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_48_2",
+        "antiphon": [
+          "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?"
+        ]
+      },
+      {
+        "psalm": "NT_9",
+        "antiphon": [
+          "Tu nous as rachetés par ton sang, Seigneur&nbsp;; tu fis de nous un peuple de rois."
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "Rm 3, 23-25a",
+      "content": "Tous les hommes sont pécheurs, ils sont tous privés de la gloire de Dieu, lui qui leur donne d’être des justes par sa seule grâce, en vertu de la rédemption accomplie dans le Christ Jésus. Car Dieu a exposé le Christ sur la croix afin que, par l’offrande de son sang, il soit le pardon pour ceux qui croient en lui. Ainsi Dieu voulait manifester sa justice."
+    },
+    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Exultez dans le Christ&nbsp;: il vous enrichit par sa pauvreté.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Dans la confiance, prions le Christ qui fortifie son peuple et le conduit&nbsp;:</p> <p>R/ Garde-nous sur tes chemins.</p> <p>Ô Christ, Sagesse du Père, donne-nous d’entendre ta parole<br> —&nbsp;et de la mettre en pratique.</p> <p>Lumière des nations, éclaire ceux qui les gouvernent&nbsp;:<br> —&nbsp;qu’ils soient attentifs au bien des peuples.</p> <p>Dispensateur des dons de Dieu, tu as nourri les foules&nbsp;;<br> —&nbsp;que ta pitié nous porte à donner ce que nous avons à ceux qui n’ont rien.</p> <p>Médecin des âmes et des corps, suscite en nous ta charité,<br> —&nbsp;pour que nous visitions les malades, nos frères.</p> <p>Gloire du Père, vie et résurrection de nos morts,<br> —&nbsp;reçois-les dans ton Royaume.</p> "
+    },
+    "oration": [
+      "Seigneur Dieu, à toi le jour, à toi les nuits&nbsp;! Tu nous les donnes pour rythmer notre vie&nbsp;: à travers ombres et lumières, conduis-nous au jour qui ne finira pas."
+    ]
+  }
 }

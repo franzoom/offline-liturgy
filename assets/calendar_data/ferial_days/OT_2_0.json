@@ -1,10 +1,8 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
-    ]
-  },
   "firstVespers": {
+    "hymn": [
+      "le-jour-s-acheve"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_118_14",
@@ -28,17 +26,29 @@
       }
     ],
     "reading": {
-      "ref": "Col 1, 2b-6a",
+      "biblicalReference": "Col 1, 2b-6a",
       "content": "Que Dieu notre Père vous donne la grâce et la paix. Nous rendons grâce à Dieu, le Père de notre Seigneur Jésus Christ, en priant pour vous à tout instant. Nous avons entendu parler de votre foi dans le Christ Jésus et de l’amour que vous avez pour tous les fidèles dans l’espérance de ce qui vous attend au ciel&nbsp;; vous en avez déjà reçu l’annonce par la parole de vérité, la Bonne Nouvelle qui est parvenue jusqu’à vous, elle qui porte du fruit et progresse dans le monde entier."
     },
-    "hymn": [
-      "le-jour-s-acheve"
-    ],
-    "evangelicAntiphon": "Le Seigneur s’est relevé d’entre les morts&nbsp;; c’est pour nous jour de fête et de joie, alléluia&nbsp;!",
-    "intercession": "<p>À la veille du jour du Seigneur, supplions-le de regarder avec bonté ce que fut notre vie pendant la semaine&nbsp;:</p> <p>R/ Accueille-nous, Seigneur, en ta bonté.</p> <p>Créateur souverain, tu nous as confié le monde&nbsp;:<br> —&nbsp;pour tout progrès, merci&nbsp;;<br> &nbsp;&nbsp; pour toute lâcheté, pardon.</p> <p>Tu nous as donné des compagnons de travail&nbsp;:<br> —&nbsp;pour les secours donnés et reçus, merci&nbsp;;<br> &nbsp;&nbsp; pour les malveillances et les jalousies, pardon.</p> <p>Tu nous as donné des frères&nbsp;:<br> —&nbsp;pour les témoignages d’affection, merci&nbsp;;<br> &nbsp;&nbsp;&nbsp;pour tout manque d’amour, pardon.</p> <p>Tu nous as donné de rencontrer des inconnus&nbsp;:<br> —&nbsp;pour les amitiés qui se sont nouées, merci&nbsp;;&nbsp;<br> &nbsp;&nbsp;&nbsp;pour nos indifférences, pardon.</p> <p>Regarde avec bonté ceux qui sont morts de mort brutale ou dans l’isolement&nbsp;:<br> —&nbsp;accueille-les dans le repos éternel.</p> ",
-    "responsory": "<p>R/ La Bonne Nouvelle est venue jusqu’à nous.<br>  *  Alléluia, alléluia.<br> V/ La Parole qui porte fruit.  * <br> V/ L’espérance du règne à venir.  * &nbsp;<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ La Bonne Nouvelle est venue jusqu’à nous.<br>  *  Alléluia, alléluia.<br> V/ La Parole qui porte fruit.  * <br> V/ L’espérance du règne à venir.  * &nbsp;<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Seigneur s’est relevé d’entre les morts&nbsp;; c’est pour nous jour de fête et de joie, alléluia&nbsp;!",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>À la veille du jour du Seigneur, supplions-le de regarder avec bonté ce que fut notre vie pendant la semaine&nbsp;:</p> <p>R/ Accueille-nous, Seigneur, en ta bonté.</p> <p>Créateur souverain, tu nous as confié le monde&nbsp;:<br> —&nbsp;pour tout progrès, merci&nbsp;;<br> &nbsp;&nbsp; pour toute lâcheté, pardon.</p> <p>Tu nous as donné des compagnons de travail&nbsp;:<br> —&nbsp;pour les secours donnés et reçus, merci&nbsp;;<br> &nbsp;&nbsp; pour les malveillances et les jalousies, pardon.</p> <p>Tu nous as donné des frères&nbsp;:<br> —&nbsp;pour les témoignages d’affection, merci&nbsp;;<br> &nbsp;&nbsp;&nbsp;pour tout manque d’amour, pardon.</p> <p>Tu nous as donné de rencontrer des inconnus&nbsp;:<br> —&nbsp;pour les amitiés qui se sont nouées, merci&nbsp;;&nbsp;<br> &nbsp;&nbsp;&nbsp;pour nos indifférences, pardon.</p> <p>Regarde avec bonté ceux qui sont morts de mort brutale ou dans l’isolement&nbsp;:<br> —&nbsp;accueille-les dans le repos éternel.</p> "
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
+    ]
   },
   "morning": {
+    "hymn": [
+      "o-pere-des-siecles-du-monde"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_117",
@@ -59,15 +69,19 @@
       }
     ],
     "reading": {
-      "ref": "Ez 36, 25-27",
+      "biblicalReference": "Ez 36, 25-27",
       "content": "Je verserai sur vous une eau pure, et vous serez purifiés. De toutes vos souillures, de toutes vos idoles, je vous purifierai. Je vous donnerai un cœur nouveau, je mettrai en vous un esprit nouveau. J’enlèverai votre cœur de pierre, et je vous donnerai un cœur de chair. Je mettrai en vous mon esprit&nbsp;: alors vous suivrez mes lois, vous observerez mes commandements et vous y serez fidèles."
     },
-    "hymn": [
-      "o-pere-des-siecles-du-monde"
-    ],
-    "evangelicAntiphon": "Libre, tu t’éveilles, premier-né d’entre les morts&nbsp;! De ton cœur naît l’Église à l’image de Dieu, car toi seul tu baptises dans l’Esprit et le feu, alléluia.",
-    "intercession": "<p>Jésus, Fils du Dieu vivant,</p> <p>R/ De grâce, écoute-nous.</p> <p>Accorde à tous les peuples la justice et la paix.</p> <p>Rassemble en ton Corps ceux qui confessent ton nom.</p> <p>Conduis tous les hommes à la lumière de l’Évangile.</p> <p>Affermis-nous et garde-nous fidèles à ton service.</p> <p>Élève nos désirs vers les biens éternels.</p> <p>Sois bienfaisant pour nos bienfaiteurs.</p> <p>Donne à chacun les fruits de la terre,<br> pour que nous puissions te rendre grâce.</p> ",
-    "responsory": "<p>R/ Crée en moi un cœur pur, ô mon Dieu,<br>  * Renouvelle mon esprit.<br> V/ Rends-moi la joie d’être sauvé. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Crée en moi un cœur pur, ô mon Dieu,<br>  * Renouvelle mon esprit.<br> V/ Rends-moi la joie d’être sauvé. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Libre, tu t’éveilles, premier-né d’entre les morts&nbsp;! De ton cœur naît l’Église à l’image de Dieu, car toi seul tu baptises dans l’Esprit et le feu, alléluia.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Jésus, Fils du Dieu vivant,</p> <p>R/ De grâce, écoute-nous.</p> <p>Accorde à tous les peuples la justice et la paix.</p> <p>Rassemble en ton Corps ceux qui confessent ton nom.</p> <p>Conduis tous les hommes à la lumière de l’Évangile.</p> <p>Affermis-nous et garde-nous fidèles à ton service.</p> <p>Élève nos désirs vers les biens éternels.</p> <p>Sois bienfaisant pour nos bienfaiteurs.</p> <p>Donne à chacun les fruits de la terre,<br> pour que nous puissions te rendre grâce.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -103,38 +117,9 @@
       "responsory": "<p>R/ Un seul troupeau, un seul berger&nbsp;!</p> <p>Le Seigneur va rassembler ses enfants dispersés,<br> il en fera une seule nation,<br> et un seul roi régnera sur eux.</p> <p>Le Christ, notre paix, a détruit les séparations&nbsp;:<br> en un seul corps,<br> il nous rassemble par la croix.</p>"
     },
     "verse": "<p>V/ Heureux les yeux qui voient ce que vous voyez,<br>et les oreilles qui entendent ce que vous entendez.</p>",
-    "oration": "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre&nbsp;: exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_109",
-        "antiphon": [
-          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
-          "Gloire à Jésus, le prince de la vie&nbsp;: Dieu l’a ressuscité d’entre les morts&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_113B",
-        "antiphon": [
-          "Notre Dieu, il est au ciel&nbsp;; tout ce qu’il veut, il le fait, alléluia&nbsp;!",
-          "Un seul Dieu, le Père&nbsp;; un seul Seigneur, Jésus Christ."
-        ]
-      },
-      {
-        "psalm": "NT_12"
-      }
-    ],
-    "reading": {
-      "ref": "2 Th 2, 13-14",
-      "content": "Nous devons continuellement rendre grâce à Dieu pour vous, frères aimés du Seigneur, car Dieu vous a choisis dès le commencement, pour être sauvés par l’Esprit qui sanctifie et par la foi en la vérité. C’est à cela qu’il vous a appelés par notre Évangile, à posséder la gloire de notre Seigneur Jésus Christ."
-    },
-    "hymn": [
-      "peuples-criez-de-joie"
-    ],
-    "evangelicAntiphon": "Aujourd’hui, nous sommes le peuple de Dieu, il nous a montré son amour, dans le Christ il nous a fait renaître, alléluia.",
-    "intercession": "<p>Avec les témoins du Christ ressuscité sur qui nous appuyons notre foi, rendons grâce à Dieu le Père&nbsp;:</p> <p>R/ Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Loué sois-tu pour Jésus de Nazareth, le prophète puissant par la parole et par les actes&nbsp;:<br> il a été crucifié, il est à jamais vivant.</p> <p>Pour le Messie que tu as envoyé&nbsp;:<br> en son nom, les boiteux marchent, les aveugles voient, les sourds entendent.</p> <p>Pour ton Fils qui s’est fait obéissant jusqu’à mourir sur la croix&nbsp;:<br> il est exalté au-dessus de tout nom.</p> <p>Pour le Christ ressuscité qui s’est fait reconnaître au partage du pain,<br> il est au milieu des siens pour la suite des jours.</p> <p>Pour le premier-né d’entre les morts&nbsp;:<br> il entraîne vers toi tous ceux que la mort retenait captifs.</p> ",
-    "responsory": "<p>R/ Je bénirai le Seigneur,<br>  *  Toujours et partout.<br> V/ Sa louange sans cesse à mes lèvres.  * <br> V/ Magnifiez avec moi le Seigneur.  * <br> V/ Exaltons tous ensemble son nom.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "oration": [
+      "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre&nbsp;: exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -158,8 +143,42 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
-  "sundayEvangelicAntiphonC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là.",
-  "sundayEvangelicAntiphonB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
-  "readingHymn": "voici-la-nuit"
+  "vespers": {
+    "hymn": [
+      "peuples-criez-de-joie"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_109",
+        "antiphon": [
+          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
+          "Gloire à Jésus, le prince de la vie&nbsp;: Dieu l’a ressuscité d’entre les morts&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_113B",
+        "antiphon": [
+          "Notre Dieu, il est au ciel&nbsp;; tout ce qu’il veut, il le fait, alléluia&nbsp;!",
+          "Un seul Dieu, le Père&nbsp;; un seul Seigneur, Jésus Christ."
+        ]
+      },
+      {
+        "psalm": "NT_12"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "2 Th 2, 13-14",
+      "content": "Nous devons continuellement rendre grâce à Dieu pour vous, frères aimés du Seigneur, car Dieu vous a choisis dès le commencement, pour être sauvés par l’Esprit qui sanctifie et par la foi en la vérité. C’est à cela qu’il vous a appelés par notre Évangile, à posséder la gloire de notre Seigneur Jésus Christ."
+    },
+    "responsory": "<p>R/ Je bénirai le Seigneur,<br>  *  Toujours et partout.<br> V/ Sa louange sans cesse à mes lèvres.  * <br> V/ Magnifiez avec moi le Seigneur.  * <br> V/ Exaltons tous ensemble son nom.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Aujourd’hui, nous sommes le peuple de Dieu, il nous a montré son amour, dans le Christ il nous a fait renaître, alléluia.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Avec les témoins du Christ ressuscité sur qui nous appuyons notre foi, rendons grâce à Dieu le Père&nbsp;:</p> <p>R/ Loué sois-tu, Seigneur de gloire&nbsp;!</p> <p>Loué sois-tu pour Jésus de Nazareth, le prophète puissant par la parole et par les actes&nbsp;:<br> il a été crucifié, il est à jamais vivant.</p> <p>Pour le Messie que tu as envoyé&nbsp;:<br> en son nom, les boiteux marchent, les aveugles voient, les sourds entendent.</p> <p>Pour ton Fils qui s’est fait obéissant jusqu’à mourir sur la croix&nbsp;:<br> il est exalté au-dessus de tout nom.</p> <p>Pour le Christ ressuscité qui s’est fait reconnaître au partage du pain,<br> il est au milieu des siens pour la suite des jours.</p> <p>Pour le premier-né d’entre les morts&nbsp;:<br> il entraîne vers toi tous ceux que la mort retenait captifs.</p> "
+    }
+  }
 }

@@ -1,4 +1,14 @@
 {
+  "celebration": {
+    "title": "S. Remi",
+    "subtitle": "évêque",
+    "description": "Rémi fut évêque de Reims pendant soixante‑dix ans († vers 530). Son nom est attaché au baptême de Clovis et à l’entrée des Francs dans l’Église catholique. Mais l’événement ne fut pas fortuit. En effet, Rémi avait exercé de longue date une influence déterminante dans le cheminement du roi franc vers la foi.",
+    "commons": [
+      "pastors"
+    ],
+    "grade": "10",
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "De l’histoire des Francs par Grégoire de Tours",
@@ -7,13 +17,7 @@
       "responsory": "<p>R/ L’Évêque Remi conduisit Clovis à la fontaine et le baptisa.</p> Toute la foule apprit que le roi des Francs était catéchumène&nbsp;;</p> Dans l’eau sainte, le nouveau Constantin voulait effacer la lèpre spirituelle et les souillures de son passé.</p>"
     }
   },
-  "celebrationTitle": "S. Remi",
-  "celebrationSubtitle": "évêque",
-  "celebrationDescription": "Rémi fut évêque de Reims pendant soixante‑dix ans († vers 530). Son nom est attaché au baptême de Clovis et à l’entrée des Francs dans l’Église catholique. Mais l’événement ne fut pas fortuit. En effet, Rémi avait exercé de longue date une influence déterminante dans le cheminement du roi franc vers la foi.",
-  "commons": [
-    "pastors"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": "10",
-  "oration": "Dieu très bon, tu as mis au cœur de saint Remi une telle sollicitude envers nous qui étions si loin de Toi, qu’il nous a envoyé des Pasteurs dignes de l’Évangile&nbsp;: accorde à celui qui, ici-bas, désira d’une telle ardeur notre salut, de se distinguer dans le ciel comme le plus efficace des protecteurs."
+  "oration": [
+    "Dieu très bon, tu as mis au cœur de saint Remi une telle sollicitude envers nous qui étions si loin de Toi, qu’il nous a envoyé des Pasteurs dignes de l’Évangile&nbsp;: accorde à celui qui, ici-bas, désira d’une telle ardeur notre salut, de se distinguer dans le ciel comme le plus efficace des protecteurs."
+  ]
 }

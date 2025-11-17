@@ -3,17 +3,18 @@ import 'tools/data_loader.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2024, 12, 8);
+  DateTime date = DateTime(2025, 11, 17);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
   // Create a DataLoader for pure Dart usage
   final dataLoader = FileSystemDataLoader();
-/*
+
   // Launch Morning prayer generation for the requested day:
   final ferialMornings =
       await ferialMorningResolution(calendar, date, dataLoader);
-*/
+  final essai = ferialMornings;
+
   // Launch Compline generation for the requested day:
   Map<String, ComplineDefinition> possibleComplines =
       await complineDefinitionResolution(calendar, date, dataLoader);

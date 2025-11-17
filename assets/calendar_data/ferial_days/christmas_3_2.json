@@ -30,6 +30,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_13"
+      },
+      {
+        "psalm": "PSALM_73_1"
+      },
+      {
+        "psalm": "PSALM_73_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -42,19 +55,8 @@
         "psalm": "NT_9"
       }
     ],
-    "oration": "<p>Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu&nbsp;; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_13"
-      },
-      {
-        "psalm": "PSALM_73_1"
-      },
-      {
-        "psalm": "PSALM_73_2"
-      }
+    "oration": [
+      "<p>Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu&nbsp;; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne.</p>"
     ]
   }
 }

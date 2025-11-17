@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jl 2, 12-13",
+      "biblicalReference": "Jl 2, 12-13",
       "content": "Revenez à moi de tout votre cœur, dans le jeûne, les larmes et le deuil&nbsp;! Déchirez vos cœurs et non pas vos vêtements, et revenez au Seigneur votre Dieu, car il est tendre et miséricordieux, lent à la colère et plein d’amour, renonçant au châtiment."
     },
-    "evangelicAntiphon": "Celui qui m’a guéri m’a dit de prendre mon brancard et de marcher.",
-    "intercession": "<p>R/ Entends le cri des hommes monter vers toi, Seigneur.</p> <p>Écoute ceux qui souffrent dans leur corps ou leur esprit, ceux qui ont perdu toute espérance.</p> <p>Soutiens ceux qui partagent la détresse de leurs frères et s’efforcent de servir.</p> <p>Regarde ceux qui luttent pour le respect des personnes et les droits du pauvre.</p> <p>Travaille avec les artisans de paix qui préparent la venue de ton Règne.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  * Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    "evangelicAntiphon": {
+      "common": "Celui qui m’a guéri m’a dit de prendre mon brancard et de marcher."
+    },
+    "intercession": {
+      "content": "<p>R/ Entends le cri des hommes monter vers toi, Seigneur.</p> <p>Écoute ceux qui souffrent dans leur corps ou leur esprit, ceux qui ont perdu toute espérance.</p> <p>Soutiens ceux qui partagent la détresse de leurs frères et s’efforcent de servir.</p> <p>Regarde ceux qui luttent pour le respect des personnes et les droits du pauvre.</p> <p>Travaille avec les artisans de paix qui préparent la venue de ton Règne.</p> "
+    },
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Dieu nous a tant aimés&nbsp;:<br> nous aussi, aimons-nous les uns les autres.</p> <p>Aimer son prochain comme soi-même<br> vaut mieux que tous les sacrifices.</p> <p>Agir avec amour, c’est présenter une oblation,<br> fuir l’injustice, c’est offrir un sacrifice.</p>"
     },
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_18",
+        "antiphon": [
+          "Que ma prière parvienne jusqu’à toi&nbsp;! Ouvre l’oreille à ma plainte."
+        ]
+      },
+      {
+        "psalm": "PSALM_87_1"
+      },
+      {
+        "psalm": "PSALM_87_2"
+      }
+    ],
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 14. 17.18b",
+      "biblicalReference": "Jc 2, 14. 17.18b",
       "content": "Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il&nbsp;? Cet homme-là peut-il être sauvé par sa foi&nbsp;? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas&nbsp;; moi, c’est par mes actes que je te montrerai ma foi."
     },
-    "evangelicAntiphon": "Te voilà maintenant guéri, ne pèche plus, il pourrait t’arriver pire encore.",
-    "intercession": "<p>Prions Dieu notre Père, qui nous exauce toujours en Jésus son Fils&nbsp;:</p> <p>R/ Seigneur, comble-nous de tes bienfaits.</p> <p>Rends-nous familiers de ta parole<br> pour qu’elle nous habite et nous garde.</p> <p>Ouvre notre cœur au mystère de l’Église&nbsp;:<br> qu’elle soit pour nous le signe de l’Alliance.</p> <p>Apprends-nous à recevoir de ta main toute épreuve et toute joie&nbsp;:<br> que nous sachions te rendre grâce.</p> <p>Accorde à ceux qui meurent<br> de passer de ce monde au Royaume dans la Pâque de ton Fils.</p> ",
     "responsory": "<p>R/ Éclaire-moi selon ta parole,<br>  *  Que j’observe tes volontés.<br> V/ Incline mon cœur vers tes exigences.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_18",
-        "antiphon": [
-          "Que ma prière parvienne jusqu’à toi&nbsp;! Ouvre l’oreille à ma plainte."
-        ]
-      },
-      {
-        "psalm": "PSALM_87_1"
-      },
-      {
-        "psalm": "PSALM_87_2"
-      }
-    ],
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    "evangelicAntiphon": {
+      "common": "Te voilà maintenant guéri, ne pèche plus, il pourrait t’arriver pire encore."
+    },
+    "intercession": {
+      "content": "<p>Prions Dieu notre Père, qui nous exauce toujours en Jésus son Fils&nbsp;:</p> <p>R/ Seigneur, comble-nous de tes bienfaits.</p> <p>Rends-nous familiers de ta parole<br> pour qu’elle nous habite et nous garde.</p> <p>Ouvre notre cœur au mystère de l’Église&nbsp;:<br> qu’elle soit pour nous le signe de l’Alliance.</p> <p>Apprends-nous à recevoir de ta main toute épreuve et toute joie&nbsp;:<br> que nous sachions te rendre grâce.</p> <p>Accorde à ceux qui meurent<br> de passer de ce monde au Royaume dans la Pâque de ton Fils.</p> "
+    },
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
   }
 }

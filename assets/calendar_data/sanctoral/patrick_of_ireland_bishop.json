@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "Saint Patrick",
+    "subtitle": "évêque",
+    "description": "Patrick était né en Grande‑Bretagne vers 385. Il décida de consacrer sa vie à l’évangélisation de l’Irlande. Homme de prière et d’une austérité étonnante, il avait aussi un sens pratique qui lui permit d’adapter son apostolat aux conditions sociales et politiques des Celtes, Ordonné évêque, il réussit à implanter solidement l’Église dans l’ensemble de l’île († vers 461).",
+    "commons": [
+      "pastors-bishop"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Allez, enseignez tous les hommes, baptisez-les au nom du Père et du Fils et du Saint-Esprit."
+    "evangelicAntiphon": {
+      "common": "Allez, enseignez tous les hommes, baptisez-les au nom du Père et du Fils et du Saint-Esprit."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Beaucoup viendront d’orient et d’occident s’asseoir avec les fils d’Abraham au festin du Royaume."
+    "evangelicAntiphon": {
+      "common": "Beaucoup viendront d’orient et d’occident s’asseoir avec les fils d’Abraham au festin du Royaume."
+    }
   },
-  "celebrationTitle": "Saint Patrick",
-  "celebrationSubtitle": "évêque",
-  "celebrationDescription": "Patrick était né en Grande‑Bretagne vers 385. Il décida de consacrer sa vie à l’évangélisation de l’Irlande. Homme de prière et d’une austérité étonnante, il avait aussi un sens pratique qui lui permit d’adapter son apostolat aux conditions sociales et politiques des Celtes, Ordonné évêque, il réussit à implanter solidement l’Église dans l’ensemble de l’île († vers 461).",
-  "commons": [
-    "pastors-bishop"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": 12,
-  "oration": "Pour te faire connaître, Seigneur, aux peuples d’Irlande tu as choisi l’évêque saint Patrice; à sa prière et par ses mérites, accorde à ceux qui ont la joie d’être chrétiens d’annoncer aux hommes les merveilles de ton amour. "
+  "oration": [
+    "Pour te faire connaître, Seigneur, aux peuples d’Irlande tu as choisi l’évêque saint Patrice; à sa prière et par ses mérites, accorde à ceux qui ont la joie d’être chrétiens d’annoncer aux hommes les merveilles de ton amour. "
+  ]
 }

@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Le Christ a connu la mort et connu la vie pour devenir le Seigneur des morts et des vivants, alléluia.",
-    "intercession": "<p>Jésus de Nazareth, reconnu Fils de Dieu par ta résurrection,<br> –&nbsp;bénis et sanctifie tous les hommes.</p> <p>R/ Souviens-toi de tes frères.</p> <p>Premier des vivants, tu fais renaître celui qui croit en toi,<br> –&nbsp;donne aux baptisés de vivre en fils de lumière.</p> <p>Toi qui soutiens la confiance de ton Église en marche,<br> –&nbsp;donne-lui d’annoncer hardiment ta résurrection.</p> <p>Tu es entré après beaucoup de souffrances dans la gloire du Père,<br> –&nbsp;change en joie la peine des hommes.</p> <p>Tu nous appelles au festin du Royaume,<br> –&nbsp;sois le pain qui nous ressuscitera au dernier jour.</p> "
+    "evangelicAntiphon": {
+      "common": "Le Christ a connu la mort et connu la vie pour devenir le Seigneur des morts et des vivants, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Jésus de Nazareth, reconnu Fils de Dieu par ta résurrection,<br> –&nbsp;bénis et sanctifie tous les hommes.</p> <p>R/ Souviens-toi de tes frères.</p> <p>Premier des vivants, tu fais renaître celui qui croit en toi,<br> –&nbsp;donne aux baptisés de vivre en fils de lumière.</p> <p>Toi qui soutiens la confiance de ton Église en marche,<br> –&nbsp;donne-lui d’annoncer hardiment ta résurrection.</p> <p>Tu es entré après beaucoup de souffrances dans la gloire du Père,<br> –&nbsp;change en joie la peine des hommes.</p> <p>Tu nous appelles au festin du Royaume,<br> –&nbsp;sois le pain qui nous ressuscitera au dernier jour.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>La méditation, dans notre vie présente, doit consister à louer Dieu, car l’allégresse éternelle de notre vie future sera une louange de Dieu&nbsp;; et personne ne peut être adapté à la vie future s’il ne s’y exerce pas dès maintenant. Maintenant donc nous louons Dieu, mais nous le supplions aussi. Notre louange comporte la joie&nbsp;; notre supplication, le gémissement. Car on nous a promis quelque chose que nous ne possédons pas encore&nbsp;; et parce que l’auteur de la promesse est véridique, nous trouvons notre joie dans l’espérance&nbsp;; mais parce que nous ne possédons pas encore, notre désir nous fait gémir. Il nous est bon de persévérer dans le désir jusqu’à ce que vienne le bonheur promis, jusqu’à ce que le gémissement disparaisse et que la louange demeure seule. Il y a donc deux époques&nbsp;: l’époque actuelle qui se passe dans les tentations et les épreuves de cette vie&nbsp;; et une seconde époque, qui sera celle de la sécurité et de l’allégresse sans fin. Aussi deux époques ont-elle été instituées pour nous&nbsp;: avant Pâques et après Pâques. L’époque antérieure à Pâques symbolise l’épreuve où nous sommes maintenant&nbsp;; et ce que nous célébrons en ces jours qui suivent Pâques symbolise la béatitude qui sera plus tard la nôtre. Avant Pâques nous célébrons donc ce que nous sommes en train de vivre&nbsp;; après Pâques, ce que nous célébrons symbolise ce que nous ne possédons pas encore. C’est pourquoi, dans la première époque, nous nous entraînons par le jeûne et la prière&nbsp;; mais dans l’époque présente, nous abandonnons le jeûne et nous vivons dans la louange. Tel est le sens de l’Alléluia que nous chantons. ~ L’une et l’autre époques nous ont été figurées, l’une et l’autre nous ont été manifestées dans notre chef. La passion du Seigneur nous montre la vie présente qui nous oblige à peiner, à subir les épreuves et finalement à mourir&nbsp;; la résurrection et la glorification du Seigneur nous montrent la vie que nous recevrons. ~ Nous vous exhortons, mes frères, à louer Dieu en ce moment, et c’est ce que nous faisons tous lorsque nous disons&nbsp;: <i>Alléluia. Loue le Seigneur</i>. Tu le dis à un autre, lui-même te dit la même chose. Lorsque tous font la même exhortation, tous y répondent. Mais louez-le par tout vous-mêmes&nbsp;: c’est-à-dire que votre langue et votre voix ne doivent pas être seules à louer Dieu&nbsp;; louez-le aussi par votre conscience, par votre vie, par vos actions. Évidemment, nous le louons maintenant, quand nous sommes rassemblés dans l’église&nbsp;; lorsque chacun s’en va chez soi, il semble cesser de louer Dieu. S’il ne cesse pas de bien vivre, il loue Dieu continuellement. Ta louange ne cesse que lorsque tu te détournes de la justice et de ce qui plaît à Dieu. Car si tu ne te détournes jamais de la vie vertueuse, ta bouche est muette, mais ta vie est une acclamation et Dieu prête l’oreille au chant de ton cœur. Comme nos oreilles entendent nos voix, c’est ainsi que Dieu entend nos pensées.</p>",
       "responsory": "<p>J’ai vu l’eau vive<br> jaillissant du cœur du Christ, alléluia&nbsp;!<br> Tous ceux que lave cette eau<br> seront sauvés et chanteront&nbsp;: Alléluia&nbsp;!</p> <p>R/ Alléluia, Alléluia, Alléluia&nbsp;!</p> <p>J’ai vu la source devenir<br> un fleuve immense, alléluia&nbsp;!</p> <p>Les fils de Dieu rassemblés<br> chantaient leur joie d’être sauvés, alléluia&nbsp;!</p>"
     },
-    "oration": "Dieu qui donnes la vie éternelle aux hommes en les faisant renaître par le baptême, nous te prions&nbsp;: dans le Christ, tu nous as justifiés et rendus capables d’une existence immortelle&nbsp;; conduis-nous désormais par ta grâce jusqu’à la gloire qu’il possède en plénitude."
+    "oration": [
+      "Dieu qui donnes la vie éternelle aux hommes en les faisant renaître par le baptême, nous te prions&nbsp;: dans le Christ, tu nous as justifiés et rendus capables d’une existence immortelle&nbsp;; conduis-nous désormais par ta grâce jusqu’à la gloire qu’il possède en plénitude."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_5",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +107,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Pour aller vers le Père, il faut passer par moi. Alléluia.",
-    "intercession": "<p>Prions le Christ, notre vie et notre résurrection&nbsp;:</p> <p>R/ Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Nous te prions, Ô Christ, pour ta sainte Église catholique&nbsp;: <br> –&nbsp;sanctifie-la pour qu’elle annonce ton règne aux nations,</p> <p>Nous t’implorons pour ceux qui subissent la maladie, le deuil, la servitude&nbsp;:<br> –&nbsp;guéris-les, fortifie-les, délivre-les.</p> <p>Nous te prions pour ceux qui ne suivent plus tes chemins&nbsp;:<br> –&nbsp;qu’ils découvrent ton pardon et la joie d’une vie nouvelle.</p> <p>Pour nous, pécheurs, nous t’implorons&nbsp;:<br> –&nbsp;accorde-nous de trouver en toi, qui n’as commis nulle faute, un juge miséricordieux.</p> <p>Pour tout homme en ce monde, nous te prions,<br> et pour ceux qui nous ont précédés.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_5",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Je suis le Chemin, la Vérité et la Vie, dit le Seigneur. Pour aller vers le Père, il faut passer par moi. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Prions le Christ, notre vie et notre résurrection&nbsp;:</p> <p>R/ Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Nous te prions, Ô Christ, pour ta sainte Église catholique&nbsp;: <br> –&nbsp;sanctifie-la pour qu’elle annonce ton règne aux nations,</p> <p>Nous t’implorons pour ceux qui subissent la maladie, le deuil, la servitude&nbsp;:<br> –&nbsp;guéris-les, fortifie-les, délivre-les.</p> <p>Nous te prions pour ceux qui ne suivent plus tes chemins&nbsp;:<br> –&nbsp;qu’ils découvrent ton pardon et la joie d’une vie nouvelle.</p> <p>Pour nous, pécheurs, nous t’implorons&nbsp;:<br> –&nbsp;accorde-nous de trouver en toi, qui n’as commis nulle faute, un juge miséricordieux.</p> <p>Pour tout homme en ce monde, nous te prions,<br> et pour ceux qui nous ont précédés.</p> "
+    }
   }
 }

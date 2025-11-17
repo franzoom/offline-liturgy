@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Jr 30, 21.22",
+      "biblicalReference": "Jr 30, 21.22",
       "content": "La communauté d’Israël aura pour prince l’un des siens, un chef né au milieu d’elle. Je lui permettrai d’approcher et il aura accès auprès de moi. Vous serez mon peuple, et je serai votre Dieu. Parole du Seigneur."
     },
-    "evangelicAntiphon": "Vivez dans la justice et la droiture pour hâter mon salut, car il est proche.",
-    "intercession": "<p>Implorons le Père qui a envoyé son Fils pour sauver les hommes&nbsp;:</p> <p>R/ Montre-nous, Seigneur ta miséricorde&nbsp;!</p> <p>Père très bon, quand nous proclamons notre foi dans le Christ,<br> fais que notre vie s’accorde à nos paroles.</p> <p>Toi qui as envoyé ton Fils pour notre salut,<br> pacifie la terre et le pays que nous habitons.</p> <p>La venus de ton Christ est une grande joie pour les peuples&nbsp;;<br> guides-les, par lui, jusqu’à la plénitude du bonheur.</p> <p>Que ta grâce nous donne de vivre avec sagesse,<br> tendus vers la manifestations de la gloire du Christ.</p> ",
-    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Vivez dans la justice et la droiture pour hâter mon salut, car il est proche."
+    },
+    "intercession": {
+      "content": "<p>Implorons le Père qui a envoyé son Fils pour sauver les hommes&nbsp;:</p> <p>R/ Montre-nous, Seigneur ta miséricorde&nbsp;!</p> <p>Père très bon, quand nous proclamons notre foi dans le Christ,<br> fais que notre vie s’accorde à nos paroles.</p> <p>Toi qui as envoyé ton Fils pour notre salut,<br> pacifie la terre et le pays que nous habitons.</p> <p>La venus de ton Christ est une grande joie pour les peuples&nbsp;;<br> guides-les, par lui, jusqu’à la plénitude du bonheur.</p> <p>Que ta grâce nous donne de vivre avec sagesse,<br> tendus vers la manifestations de la gloire du Christ.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ En ces jours-là, les sourds entendront,<br> les yeux des aveugles s’ouvriront.</p> <p>Que les humbles se réjouissent,<br> que les pauvres exultent dans le Seigneur.</p> <p>Désormais, dit le Seigneur,<br> Jacob n’aura plus de honte,<br> il verra l’œuvre de mes mains.</p>"
     },
     "verse": "<p>V/ Que vienne à moi, Seigneur, ton amour,<br> et ton salut, selon ta promesse.</p>",
-    "oration": "Nous t’en supplions, Seigneur, que ta grâce nous devance et nous accompagne toujours, afin que nous puissions obtenir de la venue tant désirée de ton Fils notre soutien en cette vie et pour la vie éternelle."
+    "oration": [
+      "Nous t’en supplions, Seigneur, que ta grâce nous devance et nous accompagne toujours, afin que nous puissions obtenir de la venue tant désirée de ton Fils notre soutien en cette vie et pour la vie éternelle."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_21_1",
+        "antiphon": [
+          "Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion."
+        ]
+      },
+      {
+        "psalm": "PSALM_21_2"
+      },
+      {
+        "psalm": "PSALM_21_3"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "2 P 3. 8b-9",
+      "biblicalReference": "2 P 3. 8b-9",
       "content": "Pour le Seigneur, un seul jour est comme mille ans, et mille ans sont comme un seul jour. Le Seigneur n’est pas en retard pour tenir sa promesse, comme le pensent certaines personnes&nbsp;; c’est pour vous qu’il patiente&nbsp;: car il n’accepte pas d’en laisser quelques-uns se perdre&nbsp;; mais il veut que tous aient le temps de se convertir."
     },
-    "evangelicAntiphon": "Jean Baptiste a rendu témoignage&nbsp;: celui qui vient après moi est passé devant moi.",
-    "intercession": "<p>Avec ferveur, prions Celui qui annonce aux pauvres la Bonne Nouvelle&nbsp;:</p> <p>R/ Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Révèle-toi, Seigneur, à ceux qui ne t’ont pas reconnu&nbsp;:<br> que ton salut les illumine.</p> <p>Que ton nom soit porté aux extrémités de la terre<br> afin que tous les hommes découvrent tes sentiers.</p> <p>Toi qui es déjà venu pour sauver le monde,<br> viens à nouveau, achève ton œuvre.</p> <p>Toi qui nous appelles à la liberté,<br> défais les liens qui nous entravent.</p> <p>Toi qui es né dans notre chair et viendras pour le jugement,<br> conduis les défunts à la récompense éternelle.</p> ",
-    "responsory": "<p>R/ Notre âme attend le Seigneur.<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.&nbsp; * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_21_1",
-        "antiphon": [
-          "Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion."
-        ]
-      },
-      {
-        "psalm": "PSALM_21_2"
-      },
-      {
-        "psalm": "PSALM_21_3"
-      }
-    ]
+    "responsory": "<p>R/ Notre âme attend le Seigneur.<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.&nbsp; * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jean Baptiste a rendu témoignage&nbsp;: celui qui vient après moi est passé devant moi."
+    },
+    "intercession": {
+      "content": "<p>Avec ferveur, prions Celui qui annonce aux pauvres la Bonne Nouvelle&nbsp;:</p> <p>R/ Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Révèle-toi, Seigneur, à ceux qui ne t’ont pas reconnu&nbsp;:<br> que ton salut les illumine.</p> <p>Que ton nom soit porté aux extrémités de la terre<br> afin que tous les hommes découvrent tes sentiers.</p> <p>Toi qui es déjà venu pour sauver le monde,<br> viens à nouveau, achève ton œuvre.</p> <p>Toi qui nous appelles à la liberté,<br> défais les liens qui nous entravent.</p> <p>Toi qui es né dans notre chair et viendras pour le jugement,<br> conduis les défunts à la récompense éternelle.</p> "
+    }
   }
 }

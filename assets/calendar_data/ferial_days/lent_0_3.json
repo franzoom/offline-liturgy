@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Dt 7, 6. 8-9",
+      "biblicalReference": "Dt 7, 6. 8-9",
       "content": "Tu es un peuple consacré au Seigneur ton Dieu&nbsp;: c’est toi qu’il a choisi pour être son peuple particulier, parmi tous les peuples de la terre. C’est par amour pour vous, et par fidélité au serment fait à vos pères, que le Seigneur vous a fait sortir par la force de sa main, et vous a délivrés de la maison d’esclavage et de la main de Pharaon, roi d’Égypte. Vous saurez donc que le Seigneur votre Dieu est le vrai Dieu, le Dieu fidèle qui garde son Alliance et son amour pour mille générations à ceux qui l’aiment et gardent ses commandements."
     },
-    "evangelicAntiphon": "Quand vous jeûnez, parfumez votre tête, ne jeûnez pas pour être vus des hommes, mais de votre Père qui voit dans le secret.",
-    "intercession": "<p>Jour après jour, cherchons le Seigneur&nbsp;:<br> qu’il mette en nous le désir de le suivre.</p> <p>R/ Seigneur, fais-nous connaître tes chemins.</p> <p>Toi qui nous invites à la pénitence,<br> tu nous appelles à la vie.</p> <p>Enseigne-nous le jeûne que tu préfères&nbsp;:<br> ouvrir les prisons, nourrir les affamés.</p> <p>Apprends-nous à donner sans retour<br> ce que nous avons et ce que nous sommes.</p> <p>Donne-nous de marcher dans la voie de pauvreté<br> où tu conduisais Marie, ta servante.</p> ",
     "responsory": "<p>R/ Dieu nous a aimés le premier.<br>  * Il a fait alliance avec nous.<br> V/ Sa tendresse est sans mesure. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    "evangelicAntiphon": {
+      "common": "Quand vous jeûnez, parfumez votre tête, ne jeûnez pas pour être vus des hommes, mais de votre Père qui voit dans le secret."
+    },
+    "intercession": {
+      "content": "<p>Jour après jour, cherchons le Seigneur&nbsp;:<br> qu’il mette en nous le désir de le suivre.</p> <p>R/ Seigneur, fais-nous connaître tes chemins.</p> <p>Toi qui nous invites à la pénitence,<br> tu nous appelles à la vie.</p> <p>Enseigne-nous le jeûne que tu préfères&nbsp;:<br> ouvrir les prisons, nourrir les affamés.</p> <p>Apprends-nous à donner sans retour<br> ce que nous avons et ce que nous sommes.</p> <p>Donne-nous de marcher dans la voie de pauvreté<br> où tu conduisais Marie, ta servante.</p> "
+    },
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Venez, montons à la montagne du Seigneur<br> pour qu’il nous enseigne ses voies.</p> <p>Moi, le Seigneur, je t’enseigne ce qui t’est salutaire,<br> je te fais cheminer sur les sentiers où tu marches.</p> <p>Je suis le Chemin, la Vérité et la Vie.<br> Qui me suit ne marche pas dans les ténèbres.</p>"
     },
     "verse": "<p>V/ Convertissez-vous et faites pénitence,<br>faites-vous un cœur et un esprit nouveau.</p>",
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Voici venus les jours de la pénitence, le temps du pardon et du salut."
+        ]
+      },
+      {
+        "psalm": "PSALM_93_1"
+      },
+      {
+        "psalm": "PSALM_93_2"
+      }
+    ],
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Ph 2, 12b-15a",
+      "biblicalReference": "Ph 2, 12b-15a",
       "content": "Travaillez à votre salut dans la crainte de Dieu et en tremblant. Car c’est l’action de Dieu qui produit en vous la volonté et l’action, parce qu’il veut votre bien. Faites tout sans récriminer et sans discuter&nbsp;; ainsi vous serez irréprochables et purs, vous qui êtes des enfants de Dieu sans tache."
     },
-    "evangelicAntiphon": "Quand tu fais l’aumône, que ta main gauche ignore ce que donne ta main droite.",
-    "intercession": "<p>N’oublions pas que l’amour du Seigneur est de toujours à toujours, supplions le Christ, ami des hommes&nbsp;:</p> <p>R/ Souviens-toi que nous sommes poussière.</p> <p>Toi qui guéris la fille de la Cananéenne,</p> <p>Toi qui renouvelles la chair du lépreux,</p> <p>Toi qui délivres les possédés,</p> <p>Toi qui t’assieds à la table des pécheurs,</p> <p>Toi qui connais le cœur de Madeleine,</p> <p>Toi qui pardonnes le reniement de Pierre,</p> <p>Toi qui réclames à la tombe la vie de Lazare.</p> ",
     "responsory": "<p>R/ Sur Dieu, dont j’exalte la parole,<br>  *  Sur Dieu je prends appui.<br> V/ Plus rien ne me fait peur.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_19",
-        "antiphon": [
-          "Voici venus les jours de la pénitence, le temps du pardon et du salut."
-        ]
-      },
-      {
-        "psalm": "PSALM_93_1"
-      },
-      {
-        "psalm": "PSALM_93_2"
-      }
-    ],
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    "evangelicAntiphon": {
+      "common": "Quand tu fais l’aumône, que ta main gauche ignore ce que donne ta main droite."
+    },
+    "intercession": {
+      "content": "<p>N’oublions pas que l’amour du Seigneur est de toujours à toujours, supplions le Christ, ami des hommes&nbsp;:</p> <p>R/ Souviens-toi que nous sommes poussière.</p> <p>Toi qui guéris la fille de la Cananéenne,</p> <p>Toi qui renouvelles la chair du lépreux,</p> <p>Toi qui délivres les possédés,</p> <p>Toi qui t’assieds à la table des pécheurs,</p> <p>Toi qui connais le cœur de Madeleine,</p> <p>Toi qui pardonnes le reniement de Pierre,</p> <p>Toi qui réclames à la tombe la vie de Lazare.</p> "
+    },
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
   }
 }

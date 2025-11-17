@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "7 janvier (avant l’Épiphanie)",
+    "grade": 13,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "Is 9, 5",
+      "biblicalReference": "Is 9, 5",
       "content": "Un enfant nous est né, un fils nous a été donné&nbsp;; l’insigne du pouvoir est sur son épaule&nbsp;; on proclame son nom&nbsp;: «&nbsp;Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-paix&nbsp;»."
     },
-    "evangelicAntiphon": "C’est de lui qu’il est écrit&nbsp;: Le Christ est né en Israël et son règne sera sans fin.",
-    "intercession": "<p>Rédempteur du monde,<br> tu es venu détruire le mur qui séparait juifs et païens&nbsp;:<br> —&nbsp;aide-nous à combattre tout obstacle à l’unité.</p> <p>R/Verbe de Dieu, sois notre force&nbsp;!</p> <p>Tu t’es incarné pour être présent à tout homme&nbsp;:<br> —&nbsp;fais-nous discerner ton visage dans notre prochain.</p> <p>Tu as révélé aux hommes le cœur du Père&nbsp;:<br> —&nbsp;montre-nous comment accorder nos actes à ta parole.</p> <p>Dieu avec nous, tu veux faire toute chose nouvelle&nbsp;:<br> —&nbsp;recrée notre être tout entier, et notre cœur sera semence de vie.</p>",
-    "responsory": "<p>R/ Les rois se prosterneront devant lui.<br> * Tous les pays le serviront.<br> V/ En ces jours-là, fleurira la justice.&nbsp;*<br> V/ Il délivrera le pauvre qui appelle.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Les rois se prosterneront devant lui.<br> * Tous les pays le serviront.<br> V/ En ces jours-là, fleurira la justice.&nbsp;*<br> V/ Il délivrera le pauvre qui appelle.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "C’est de lui qu’il est écrit&nbsp;: Le Christ est né en Israël et son règne sera sans fin."
+    },
+    "intercession": {
+      "content": "<p>Rédempteur du monde,<br> tu es venu détruire le mur qui séparait juifs et païens&nbsp;:<br> —&nbsp;aide-nous à combattre tout obstacle à l’unité.</p> <p>R/Verbe de Dieu, sois notre force&nbsp;!</p> <p>Tu t’es incarné pour être présent à tout homme&nbsp;:<br> —&nbsp;fais-nous discerner ton visage dans notre prochain.</p> <p>Tu as révélé aux hommes le cœur du Père&nbsp;:<br> —&nbsp;montre-nous comment accorder nos actes à ta parole.</p> <p>Dieu avec nous, tu veux faire toute chose nouvelle&nbsp;:<br> —&nbsp;recrée notre être tout entier, et notre cœur sera semence de vie.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -26,28 +35,27 @@
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Dt 4, 7",
+        "biblicalReference": "Dt 4, 7",
         "content": "Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons&nbsp;?"
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "Is 12, 5-6",
+        "biblicalReference": "Is 12, 5-6",
         "content": "Jouez pour le Seigneur&nbsp;! Car il a fait la merveille connue de toute la terre. Jubilez, criez de joie, habitants de Sion, car il est grand au milieu de toi, le Saint d’Israël."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Cf. Tb 14, 6-7",
+        "biblicalReference": "Cf. Tb 14, 6-7",
         "content": "Tous abandonneront leurs idoles trompeuses, ils se rassembleront et viendront à Jérusalem. Ceux qui aiment Dieu en vérité seront dans la joie."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "7 janvier (avant l’Épiphanie)",
-  "liturgicalColor": "white",
-  "liturgicalGrade": 13,
-  "oration": "Dieu éternel et tout-puissant, par la naissance de ton Fils unique, tu as voulu te manifester dans une lumière nouvelle&nbsp;; puisqu’il s’est associé à la vie des hommes, en devenant l’enfant de la Vierge, accorde-nous d’avoir part à sa vie dans le Royaume. Lui qui règne."
+  "oration": [
+    "Dieu éternel et tout-puissant, par la naissance de ton Fils unique, tu as voulu te manifester dans une lumière nouvelle&nbsp;; puisqu’il s’est associé à la vie des hommes, en devenant l’enfant de la Vierge, accorde-nous d’avoir part à sa vie dans le Royaume. Lui qui règne."
+  ]
 }

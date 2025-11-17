@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 45, 8",
+      "biblicalReference": "Is 45, 8",
       "content": "Que les cieux distillent la rosée, que les nuages répandent la justice, que la terre s’entrouvre et que le salut s’épanouisse, que la justice fasse éclater en même temps tous ses bourgeons."
     },
-    "evangelicAntiphon": "Éveille-toi, Seigneur, et revêts ta puissance.",
-    "intercession": "<p>Avec une joie renouvelée, prions notre Rédempteur,<br> qui nous justifie par la grâce de sa venue&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, justice de Dieu&nbsp;!</p> <p>Toi dont les prophètes avaient annoncé la naissance,<br> fortifie ce que tu fais renaître en nous.</p> <p>Toi qui es venu guérir les cœurs contrits,<br> libère ton peuple de ses tristesses.</p> <p>Toi qui es venu réconcilier le monde avec Dieu,<br> quand tu viendras pour le jugement, ne nous condamne pas.</p> <p>Nous proclamons aujourd’hui ton salut&nbsp;;<br> donne-nous d’en connaître la joie.</p> ",
-    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Éveille-toi, Seigneur, et revêts ta puissance."
+    },
+    "intercession": {
+      "content": "<p>Avec une joie renouvelée, prions notre Rédempteur,<br> qui nous justifie par la grâce de sa venue&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, justice de Dieu&nbsp;!</p> <p>Toi dont les prophètes avaient annoncé la naissance,<br> fortifie ce que tu fais renaître en nous.</p> <p>Toi qui es venu guérir les cœurs contrits,<br> libère ton peuple de ses tristesses.</p> <p>Toi qui es venu réconcilier le monde avec Dieu,<br> quand tu viendras pour le jugement, ne nous condamne pas.</p> <p>Nous proclamons aujourd’hui ton salut&nbsp;;<br> donne-nous d’en connaître la joie.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ En ces jours-là, les sourds entendront,<br> les yeux des aveugles s’ouvriront.</p> <p>Que les humbles se réjouissent,<br> que les pauvres exultent dans le Seigneur.</p> <p>Désormais, dit le Seigneur,<br> Jacob n’aura plus de honte,<br> il verra l’œuvre de mes mains.</p>"
     },
     "verse": "<p>V/ Écoutez, tous les peuples, la parole du Seigneur,<br> annoncez-la aux îles lointaines.</p>",
-    "oration": "Seigneur, nous sommes des serviteurs indignes de toi, et nous sentons avec tristesse tout le mal qui fausse notre vie&nbsp;; donne-nous cependant de trouver notre joie dans la naissance de ton Fils, car il vient pour nous sauver. Lui qui règne."
+    "oration": [
+      "Seigneur, nous sommes des serviteurs indignes de toi, et nous sentons avec tristesse tout le mal qui fausse notre vie&nbsp;; donne-nous cependant de trouver notre joie dans la naissance de ton Fils, car il vient pour nous sauver. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_15",
+        "antiphon": [
+          "J’espère en ta parole&nbsp;: ne déçois pas mon attente."
+        ]
+      },
+      {
+        "psalm": "PSALM_78"
+      },
+      {
+        "psalm": "PSALM_79"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "Jc 5, 7-8.9b",
+      "biblicalReference": "Jc 5, 7-8.9b",
       "content": "Frères, en attendant la venue du Seigneur, ayez de la patience. Voyez le cultivateur&nbsp;: il attend les produits précieux de la terre avec patience, jusqu’à ce qu’il ait fait la première et la dernière récoltes. Ayez de la patience, vous aussi, et soyez fermes, car la venue du Seigneur est proche. Voyez&nbsp;: le Juge est à notre porte."
     },
-    "evangelicAntiphon": "Réjouis-toi, Jérusalem, vous qui l’aimez, rassemblez-vous, exultez de sa joie.",
-    "intercession": "<p>Dans l’allégresse, prions le Seigneur qui s’est humilié pour nous&nbsp;:</p> <p>R/ Viens, Seigneur Jésus, fruit de la terre et don du ciel&nbsp;!</p> <p>Ô Emmanuel, venu renouveler le monde,<br> purifie nos âmes et nos corps.</p> <p>Dans le mystère de ton incarnation, tu nous appelles tes frères&nbsp;;<br> garde-nous d’écouter d’autres voix.</p> <p>Accorde-nous d’accueillir pleinement ton salut&nbsp;:<br> que ton jugement soit notre délivrance.</p> <p>Ton pardon généreux est de chaque instant&nbsp;:<br> laisse-nous espérer la gloire sans fin.</p> <p>Nous te confions nos frères qui sont morts&nbsp;;<br> qu’ils vivent de toi pour toujours.</p> ",
-    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce&nbsp;:<br>  *  Ton Nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_15",
-        "antiphon": [
-          "J’espère en ta parole&nbsp;: ne déçois pas mon attente."
-        ]
-      },
-      {
-        "psalm": "PSALM_78"
-      },
-      {
-        "psalm": "PSALM_79"
-      }
-    ]
+    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce&nbsp;:<br>  *  Ton Nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Réjouis-toi, Jérusalem, vous qui l’aimez, rassemblez-vous, exultez de sa joie."
+    },
+    "intercession": {
+      "content": "<p>Dans l’allégresse, prions le Seigneur qui s’est humilié pour nous&nbsp;:</p> <p>R/ Viens, Seigneur Jésus, fruit de la terre et don du ciel&nbsp;!</p> <p>Ô Emmanuel, venu renouveler le monde,<br> purifie nos âmes et nos corps.</p> <p>Dans le mystère de ton incarnation, tu nous appelles tes frères&nbsp;;<br> garde-nous d’écouter d’autres voix.</p> <p>Accorde-nous d’accueillir pleinement ton salut&nbsp;:<br> que ton jugement soit notre délivrance.</p> <p>Ton pardon généreux est de chaque instant&nbsp;:<br> laisse-nous espérer la gloire sans fin.</p> <p>Nous te confions nos frères qui sont morts&nbsp;;<br> qu’ils vivent de toi pour toujours.</p> "
+    }
   }
 }

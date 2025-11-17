@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 1, 16-18",
+      "biblicalReference": "Is 1, 16-18",
       "content": "Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien&nbsp;: recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine."
     },
-    "evangelicAntiphon": "Priez pour qui vous fait du mal et vous serez vraiment fils de Dieu.",
-    "intercession": "<p>Par toi, Jésus Sauveur, l’aveugle a vu la lumière&nbsp;;<br> dévoile à nos yeux ta présence.</p> <p>R/ Toi, notre ami, exauce-nous&nbsp;!</p> <p>Tu as délié la langue du muet,<br> apprends-nous à célébrer ta louange.</p> <p>Tu as ouvert les oreilles du sourd,<br> garde-nous attentifs à ta parole.</p> <p>Tu as guéri le paralytique,<br> donne-nous de courir dans la voie de ton amour,</p> <p>Tu as fait sortir Lazare de son tombeau,<br> ramène à la vie ceux que le péché retient dans la mort.</p> ",
     "responsory": "<p>R/ Le sang de Jésus nous purifie de tout péché.<br> V/ Venez et voyez les hauts faits de Dieu.&nbsp;R/ <br> V/ Acclamez Dieu, toute la terre.&nbsp;R/ <br></p>",
-    "oration": "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    "evangelicAntiphon": {
+      "common": "Priez pour qui vous fait du mal et vous serez vraiment fils de Dieu."
+    },
+    "intercession": {
+      "content": "<p>Par toi, Jésus Sauveur, l’aveugle a vu la lumière&nbsp;;<br> dévoile à nos yeux ta présence.</p> <p>R/ Toi, notre ami, exauce-nous&nbsp;!</p> <p>Tu as délié la langue du muet,<br> apprends-nous à célébrer ta louange.</p> <p>Tu as ouvert les oreilles du sourd,<br> garde-nous attentifs à ta parole.</p> <p>Tu as guéri le paralytique,<br> donne-nous de courir dans la voie de ton amour,</p> <p>Tu as fait sortir Lazare de son tombeau,<br> ramène à la vie ceux que le péché retient dans la mort.</p> "
+    },
+    "oration": [
+      "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>Cortèges de mort Stance<br> en marche vers le néant,<br> nos pas ont croisé<br> ceux du Fils de l’Homme.<br> Cortège de fête<br> en marche vers la lumière,<br> nos pas ont suivi<br> le Seigneur des vivants.</p> <p>R/ Jésus, tu es la parole de vie éternelle.</p> <p>Face à la mort qui sépare et détruit,<br> voici ta vie qui rassemble et bâtit.</p> <p>Face au destin qui surprend et opprime,<br> voici l’offrande libre de toi-même.</p>"
     },
     "verse": "<p>V/ Celui qui fait la vérité<br>vient à la lumière.</p>",
-    "oration": "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    "oration": [
+      "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_5",
+        "antiphon": [
+          "Venez, mes fils, écoutez-moi&nbsp;: je vous enseigne la crainte du Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ],
+    "oration": [
+      "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "2 Co 6, 1 b-4a",
+      "biblicalReference": "2 Co 6, 1 b-4a",
       "content": "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture&nbsp;: Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
     },
-    "evangelicAntiphon": "L’homme ne vit pas seulement de pain, mais de toute parole sortant de la bouche de Dieu.",
-    "intercession": "<p>Dieu a fait renaître son peuple d’un germe incorruptible, sa Parole éternelle. En ce temps de carême, supplions-le&nbsp;:</p> <p>R/ Souviens-toi de ton alliance.</p> <p>Accorde à ton peuple un cœur neuf pour entendre à nouveau ta parole.</p> <p>Donne à ton Église les pasteurs dont elle a besoin pour avancer dans la vérité.</p> <p>Soutiens dans leur engagement ceux qui ont tout quitté pour suivre le Christ.</p> <p>Ouvre aux mystères de ta parole ceux que tu prépares au baptême.</p> <p>Parle au cœur des pécheurs pour qu’ils appellent sur eux ton pardon.</p> <p>Fais miséricorde à tous nos morts&nbsp;: qu’ils chantent dans l’éternité ta louange.</p> ",
     "responsory": "<p>R/ Voici le temps favorable.<br>  *  Voici le jour du salut.<br> V/ Rassemblez-vous, venez, approchez tous,<br> survivants des nations.  * <br> V/ Tournez-vous vers moi, vous serez sauvés,<br> tous les lointains de la terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_5",
-        "antiphon": [
-          "Venez, mes fils, écoutez-moi&nbsp;: je vous enseigne la crainte du Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
-    ],
-    "oration": "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    "evangelicAntiphon": {
+      "common": "L’homme ne vit pas seulement de pain, mais de toute parole sortant de la bouche de Dieu."
+    },
+    "intercession": {
+      "content": "<p>Dieu a fait renaître son peuple d’un germe incorruptible, sa Parole éternelle. En ce temps de carême, supplions-le&nbsp;:</p> <p>R/ Souviens-toi de ton alliance.</p> <p>Accorde à ton peuple un cœur neuf pour entendre à nouveau ta parole.</p> <p>Donne à ton Église les pasteurs dont elle a besoin pour avancer dans la vérité.</p> <p>Soutiens dans leur engagement ceux qui ont tout quitté pour suivre le Christ.</p> <p>Ouvre aux mystères de ta parole ceux que tu prépares au baptême.</p> <p>Parle au cœur des pécheurs pour qu’ils appellent sur eux ton pardon.</p> <p>Fais miséricorde à tous nos morts&nbsp;: qu’ils chantent dans l’éternité ta louange.</p> "
+    },
+    "oration": [
+      "Dieu éternel, notre Père, daigne tourner vers toi notre cœur, afin que nous soyons tout entiers à ton service, dans la recherche de l’unique néces­saire, et une vie remplie de charité."
+    ]
   }
 }

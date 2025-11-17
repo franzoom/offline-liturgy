@@ -48,6 +48,22 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_5",
+        "antiphon": [
+          "Qui regarde vers lui resplendira."
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -69,22 +85,8 @@
         ]
       }
     ],
-    "oration": "Apprends-nous, Seigneur, l’amour de nos ennemis, à l’exemple de saint Étienne, le premier de tes martyrs, lui qui sut implorer le pardon pour ses propres bourreaux."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_5",
-        "antiphon": [
-          "Qui regarde vers lui resplendira."
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
+    "oration": [
+      "Apprends-nous, Seigneur, l’amour de nos ennemis, à l’exemple de saint Étienne, le premier de tes martyrs, lui qui sut implorer le pardon pour ses propres bourreaux."
     ]
   }
 }

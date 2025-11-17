@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Dt 7, 6. 8-9",
+      "biblicalReference": "Dt 7, 6. 8-9",
       "content": "Tu es un peuple consacré au Seigneur ton Dieu&nbsp;: c’est toi qu’il a choisi pour être son peuple particulier, parmi tous les peuples de la terre. C’est par amour pour vous, et par fidélité au serment fait à vos pères, que le Seigneur vous a fait sortir par la force de sa main, et vous a délivrés de la maison d’esclavage et de la main de Pharaon, roi d’Égypte. Vous saurez donc que le Seigneur votre Dieu est le vrai Dieu, le Dieu fidèle qui garde son Alliance et son amour pour mille générations à ceux qui l’aiment et gardent ses commandements."
     },
-    "evangelicAntiphon": "Tout homme qui écoute ma parole et croit en celui qui m’a envoyé est passé de la mort à la vie.",
-    "intercession": "<p>Jour après jour, cherchons le Seigneur&nbsp;:<br> qu’il mette en nous le désir de le suivre.</p> <p>R/ Seigneur, fais-nous connaître tes chemins.</p> <p>Toi qui nous invites à la pénitence,<br> tu nous appelles à la vie.</p> <p>Enseigne-nous le jeûne que tu préfères&nbsp;:<br> ouvrir les prisons, nourrir les affamés.</p> <p>Apprends-nous à donner sans retour<br> ce que nous avons et ce que nous sommes.</p> <p>Donne-nous de marcher dans la voie de pauvreté<br> où tu conduisais Marie, ta servante.</p> ",
     "responsory": "<p>R/ Dieu nous a aimés le premier.<br>  * Il a fait alliance avec nous.<br> V/ Sa tendresse est sans mesure. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    "evangelicAntiphon": {
+      "common": "Tout homme qui écoute ma parole et croit en celui qui m’a envoyé est passé de la mort à la vie."
+    },
+    "intercession": {
+      "content": "<p>Jour après jour, cherchons le Seigneur&nbsp;:<br> qu’il mette en nous le désir de le suivre.</p> <p>R/ Seigneur, fais-nous connaître tes chemins.</p> <p>Toi qui nous invites à la pénitence,<br> tu nous appelles à la vie.</p> <p>Enseigne-nous le jeûne que tu préfères&nbsp;:<br> ouvrir les prisons, nourrir les affamés.</p> <p>Apprends-nous à donner sans retour<br> ce que nous avons et ce que nous sommes.</p> <p>Donne-nous de marcher dans la voie de pauvreté<br> où tu conduisais Marie, ta servante.</p> "
+    },
+    "oration": [
+      "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Seigneur Jésus,<br> crucifié en raison de ta faiblesse,<br> tu es vivant par la puissance de Dieu.</p> <p>Nous aussi, nous sommes faibles dans le Christ,<br> mais nous vivrons avec lui, de par Dieu.</p> <p>Voyez si vous êtes dans la foi,<br> mettez-vous à l’épreuve&nbsp;:<br> ne reconnaissez-vous pas la vie du Christ en vous&nbsp;?</p>"
     },
     "verse": "<p>V/ Convertissez-vous et faites pénitence,<br>faites-vous un cœur et un esprit nouveau.</p>",
-    "oration": "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    "oration": [
+      "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Heureux l’homme que tu châties, Seigneur, celui que tu enseignes par ta loi."
+        ]
+      },
+      {
+        "psalm": "PSALM_93_1"
+      },
+      {
+        "psalm": "PSALM_93_2"
+      }
+    ],
+    "oration": [
+      "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Ph 2, 12b-15a",
+      "biblicalReference": "Ph 2, 12b-15a",
       "content": "Travaillez à votre salut dans la crainte de Dieu et en tremblant. Car c’est l’action de Dieu qui produit en vous la volonté et l’action, parce qu’il veut votre bien. Faites tout sans récriminer et sans discuter&nbsp;; ainsi vous serez irréprochables et purs, vous qui êtes des enfants de Dieu sans tache."
     },
-    "evangelicAntiphon": "Je ne fais rien de moi-même, dit le Seigneur&nbsp;; j’écoute le jugement du Père, et mon jugement est juste.",
-    "intercession": "<p>N’oublions pas que l’amour du Seigneur est de toujours à toujours, supplions le Christ, ami des hommes&nbsp;:</p> <p>R/ Souviens-toi que nous sommes poussière.</p> <p>Toi qui guéris la fille de la Cananéenne,</p> <p>Toi qui renouvelles la chair du lépreux,</p> <p>Toi qui délivres les possédés,</p> <p>Toi qui t’assieds à la table des pécheurs,</p> <p>Toi qui connais le cœur de Madeleine,</p> <p>Toi qui pardonnes le reniement de Pierre,</p> <p>Toi qui réclames à la tombe la vie de Lazare.</p> ",
     "responsory": "<p>R/ Sur Dieu, dont j’exalte la parole,<br>  *  Sur Dieu je prends appui.<br> V/ Plus rien ne me fait peur.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_19",
-        "antiphon": [
-          "Heureux l’homme que tu châties, Seigneur, celui que tu enseignes par ta loi."
-        ]
-      },
-      {
-        "psalm": "PSALM_93_1"
-      },
-      {
-        "psalm": "PSALM_93_2"
-      }
-    ],
-    "oration": "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    "evangelicAntiphon": {
+      "common": "Je ne fais rien de moi-même, dit le Seigneur&nbsp;; j’écoute le jugement du Père, et mon jugement est juste."
+    },
+    "intercession": {
+      "content": "<p>N’oublions pas que l’amour du Seigneur est de toujours à toujours, supplions le Christ, ami des hommes&nbsp;:</p> <p>R/ Souviens-toi que nous sommes poussière.</p> <p>Toi qui guéris la fille de la Cananéenne,</p> <p>Toi qui renouvelles la chair du lépreux,</p> <p>Toi qui délivres les possédés,</p> <p>Toi qui t’assieds à la table des pécheurs,</p> <p>Toi qui connais le cœur de Madeleine,</p> <p>Toi qui pardonnes le reniement de Pierre,</p> <p>Toi qui réclames à la tombe la vie de Lazare.</p> "
+    },
+    "oration": [
+      "Dieu qui réponds à la pénitence en récompensant les justes et en pardonnant aux pécheurs, prends pitié de nous, écoute-nous&nbsp;: que l’aveu de nos fautes nous obtienne la grâce de ton pardon."
+    ]
   }
 }

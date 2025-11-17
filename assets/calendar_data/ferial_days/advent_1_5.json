@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Jr 30, 21.22",
+      "biblicalReference": "Jr 30, 21.22",
       "content": "La communauté d’Israël aura pour prince l’un des siens, un chef né au milieu d’elle. Je lui permettrai d’approcher et il aura accès auprès de moi. Vous serez mon peuple, et je serai votre Dieu. Parole du Seigneur."
     },
-    "evangelicAntiphon": "Voici que vient l’homme-Dieu&nbsp;! Voici le Fils de David qui montera sur le trône, alléluia.",
-    "intercession": "<p>Seigneur Jésus, venu nous appeler à ton Royaume de lumière, que cette lumière éclaire nos vies.</p> <p>R/ Tu es proche, Seigneur&nbsp;: vienne ton jour&nbsp;!</p> <p>Tu te tiens, comme un inconnu, au milieu de nous&nbsp;:<br> —&nbsp;accorde aux hommes de notre temps de reconnaître ton visage.</p> <p>Tu es plus proche de nous que nous-mêmes&nbsp;:<br> —&nbsp;fais-nous la grâce de te préférer à tout.</p> <p>Tu nous aimes d’un amour sans condition&nbsp;:<br> —&nbsp;apprends-nous à nous accueillir les uns les autres.</p> <p>Ta miséricorde te porte au secours des hommes éprouvés&nbsp;:<br> —&nbsp;viens au-devant de ceux qui t’attendent sans le savoir.</p> ",
-    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Voici que vient l’homme-Dieu&nbsp;! Voici le Fils de David qui montera sur le trône, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, venu nous appeler à ton Royaume de lumière, que cette lumière éclaire nos vies.</p> <p>R/ Tu es proche, Seigneur&nbsp;: vienne ton jour&nbsp;!</p> <p>Tu te tiens, comme un inconnu, au milieu de nous&nbsp;:<br> —&nbsp;accorde aux hommes de notre temps de reconnaître ton visage.</p> <p>Tu es plus proche de nous que nous-mêmes&nbsp;:<br> —&nbsp;fais-nous la grâce de te préférer à tout.</p> <p>Tu nous aimes d’un amour sans condition&nbsp;:<br> —&nbsp;apprends-nous à nous accueillir les uns les autres.</p> <p>Ta miséricorde te porte au secours des hommes éprouvés&nbsp;:<br> —&nbsp;viens au-devant de ceux qui t’attendent sans le savoir.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ Ce soir peut-être aux pas d’un inconnu,<br> Nos yeux liront les routes de Jésus,<br> Visage d’homme aux traits marqués de coups,<br> Cortège d’hommes aux poings levés vers nous&nbsp;:<br> Te voir, Seigneur, en tout homme né<br> Sous le soleil pour ta liberté.</p>"
     },
     "verse": "<p>V/ Que vienne à moi, Seigneur, ton amour,<br> et ton salut, selon ta promesse.</p>",
-    "oration": "Déploie, Seigneur, ta puissance et viens&nbsp;: puisque, dans le péril où nous mettent nos péchés, nous ne pouvons obtenir que de toi la délivrance et le salut. Toi qui règnes."
+    "oration": [
+      "Déploie, Seigneur, ta puissance et viens&nbsp;: puisque, dans le péril où nous mettent nos péchés, nous ne pouvons obtenir que de toi la délivrance et le salut. Toi qui règnes."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_4",
+        "antiphon": [
+          "La loi viendra de Sion, et de Jérusalem, la parole du Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_25"
+      },
+      {
+        "psalm": "PSALM_27"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "2 P 3. 8b-9",
+      "biblicalReference": "2 P 3. 8b-9",
       "content": "Pour le Seigneur, un seul jour est comme mille ans, et mille ans sont comme un seul jour. Le Seigneur n’est pas en retard pour tenir sa promesse, comme le pensent certaines personnes&nbsp;; c’est pour vous qu’il patiente&nbsp;: car il n’accepte pas d’en laisser quelques-uns se perdre&nbsp;; mais il veut que tous aient le temps de se convertir."
     },
-    "evangelicAntiphon": "Du pays d’Égypte j’ai rappelé mon Fils&nbsp;: il viendra, il sauvera son peuple.",
-    "intercession": "<p>Seigneur Jésus, Berger du peuple de Dieu,<br> rassemble son Église dans l’unité de la foi et de l’amour.</p> <p>R/ Visite-nous par ton amour&nbsp;!</p> <p>Viens en aide aux pasteurs de ton peuple,<br> —&nbsp;qu’ils conduisent leurs frères dans la vérité, jusqu’au jour de ta venue.</p> <p>Choisis parmi nous des messagers de ta parole,<br> —&nbsp;qu’ils annoncent l’Évangile à toute la terre.</p> <p>Prends pitié de ceux qui peinent et défaillent en chemin,<br> —&nbsp;donne-leur de rencontrer le soutien d’un ami.</p> <p>Reconnais ceux qui ont ici-bas écouté ta voix,<br> —&nbsp;fais-les entrer dans la paix du ciel.</p> ",
-    "responsory": "<p>R/ Notre âme attend le Seigneur.<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.&nbsp; * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_4",
-        "antiphon": [
-          "La loi viendra de Sion, et de Jérusalem, la parole du Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_25"
-      },
-      {
-        "psalm": "PSALM_27"
-      }
-    ]
+    "responsory": "<p>R/ Notre âme attend le Seigneur.<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.&nbsp; * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Du pays d’Égypte j’ai rappelé mon Fils&nbsp;: il viendra, il sauvera son peuple."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, Berger du peuple de Dieu,<br> rassemble son Église dans l’unité de la foi et de l’amour.</p> <p>R/ Visite-nous par ton amour&nbsp;!</p> <p>Viens en aide aux pasteurs de ton peuple,<br> —&nbsp;qu’ils conduisent leurs frères dans la vérité, jusqu’au jour de ta venue.</p> <p>Choisis parmi nous des messagers de ta parole,<br> —&nbsp;qu’ils annoncent l’Évangile à toute la terre.</p> <p>Prends pitié de ceux qui peinent et défaillent en chemin,<br> —&nbsp;donne-leur de rencontrer le soutien d’un ami.</p> <p>Reconnais ceux qui ont ici-bas écouté ta voix,<br> —&nbsp;fais-les entrer dans la paix du ciel.</p> "
+    }
   }
 }

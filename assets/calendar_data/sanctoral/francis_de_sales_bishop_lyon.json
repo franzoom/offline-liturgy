@@ -1,18 +1,22 @@
 {
+  "celebration": {
+    "title": "S. François de Sales, patron du clergé de Lyon",
+    "subtitle": "évêque et docteur de l’Église",
+    "description": "François de Sales (1567-1622) fut essentiellement un pasteur. Missionnaire, puis évêque de Genève résidant à Annecy, fondateur de la Visitation avec Jeanne Françoise de Chantal, il se fit tout à tous par la parole et par l’écrit, traitant de théologie avec les Protestants, mettant la vie spirituelle à la portée des laïcs, attentif aux petits comme aux grands.",
+    "commons": [
+      "pastors",
+      "doctors"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "LETTRE À LA PRÉSIDENTE BRULART, 13 octobre 1604",
       "content": "<p>Il faut considérer qu’il n’y a nulle vocation qui n’ait ses ennuis, ses amertumes et aversions et, qui plus est - si ce n’est ceux qui sont pleinement résignés en la volonté de Dieu - chacun voudrait volontiers échanger sa condition pour celle des autres : ceux qui sont évêques voudraient ne l’être pas ; ceux qui sont mariés voudraient ne l’être pas, et ceux qui ne le sont le voudraient être. D’où vient cette générale inquiétude des esprits, sinon d’un certain déplaisir que nous avons à la contrainte, et une malignité d’esprit qui nous fait penser que chacun est mieux que nous ? Mais c’est tout un : quiconque n’est pleinement résigné, qu’il tourne deçà et delà, il n’aura jamais repos. Ceux qui ont la fièvre ne trouvent nulle place bonne, ils n’ont pas demeuré un quart d’heure en un lit qu’ils voudraient être en un autre ; ce n’est pas la faute du lit, mais c’est la fièvre qui les tourmente partout. Une personne qui n’a pas la fièvre de sa propre volonté se contente de tout ; pourvu que Dieu soit servi, elle ne se soucie pas en quelle qualité Dieu l’emploie : pourvu qu’elle fasse la volonté divine, cela lui est égal. Mais ce n’est pas tout. Il faut non seulement vouloir faire la volonté de Dieu, mais pour être dévot, il la faut faire gaiement. Si je n’étais pas évêque, peut- être que, sachant ce que je sais, je ne le voudrais pas être ; mais l’étant, non seulement je suis obligé de faire ce que cette pénible vocation requiert, mais je dois le faire joyeusement, et je dois me plaire en cela et le faire de bon gré. C’est la parole de saint Paul : « Que chacun demeure en sa vocation devant Dieu » (1 Co 7, 24). Il ne faut pas porter la croix des autres, mais la sienne ; et pour porter chacun la sienne, notre Seigneur veut qu’un chacun se renonce soi-même, c’est-à-dire à sa propre volonté. Je voudrais bien ceci et cela ; je serais mieux ici et là : ce sont des tentations. Notre Seigneur sait bien ce qu’il fait : faisons ce qu’il veut, demeurons où il nous a mis.</p>"
     }
   },
-  "celebrationTitle": "S. François de Sales, patron du clergé de Lyon",
-  "celebrationSubtitle": "évêque et docteur de l’Église",
-  "celebrationDescription": "François de Sales (1567-1622) fut essentiellement un pasteur. Missionnaire, puis évêque de Genève résidant à Annecy, fondateur de la Visitation avec Jeanne Françoise de Chantal, il se fit tout à tous par la parole et par l’écrit, traitant de théologie avec les Protestants, mettant la vie spirituelle à la portée des laïcs, attentif aux petits comme aux grands.",
-  "commons": [
-    "pastors",
-    "doctors"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": 10,
-  "oration": "Pour le salut des âmes, Seigneur, tu as voulu que l’évêque saint François de Sales  devienne le serviteur de tous en toutes choses ; fais que, soutenus par son  exemple, nous donnions une preuve de ta douce charité en nous dévouant pour nos frères."
+  "oration": [
+    "Pour le salut des âmes, Seigneur, tu as voulu que l’évêque saint François de Sales  devienne le serviteur de tous en toutes choses ; fais que, soutenus par son  exemple, nous donnions une preuve de ta douce charité en nous dévouant pour nos frères."
+  ]
 }

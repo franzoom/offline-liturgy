@@ -1,4 +1,14 @@
 {
+  "celebration": {
+    "title": "S. Jean Bosco",
+    "subtitle": "prêtre",
+    "commons": [
+      "pastors",
+      "saints-male"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "LETTRE DE S. JEAN BOSCO À SES CONFRÈRES",
@@ -6,14 +16,7 @@
       "responsory": "<p>R/ Gloire à Dieu qui donne avec générosité.</p> Dieu aime qui donne avec joie&nbsp;; il a pouvoir de vous combler.</p> Celui qui fournit au laboureur la semence et la paix, vous donnera, à vous aussi, la semence en abondance.</p> Votre générosité ne pourvoit pas seulement aux besoins de vos frères, elle est encore source d’action de grâce envers Dieu.</p>"
     }
   },
-  "celebrationTitle": "S. Jean Bosco",
-  "celebrationSubtitle": "prêtre",
-  "celeberationDescription": "Prêtre de Turin, Jean Bosco (1815-1888) a consacré toute sa vie à la jeunesse populaire de cette ville, mais son regard s’étendait bien au‑delà du Piémont. C’est pourquoi il fonda la Congrégation des Salésiens et celle de Marie‑Auxiliatrice, qui se mettraient au service des jeunes non seulement en Europe mais jusqu’à la lointaine Terre de Feu.",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors",
-    "saints-male"
-  ],
-  "oration": "Dieu qui as suscité saint Jean Bosco pour donner à la jeunesse un maître et un père, inspire-nous le même amour qui nous fera chercher le salut de nos frères en ne servant que toi seul."
+  "oration": [
+    "Dieu qui as suscité saint Jean Bosco pour donner à la jeunesse un maître et un père, inspire-nous le même amour qui nous fera chercher le salut de nos frères en ne servant que toi seul."
+  ]
 }

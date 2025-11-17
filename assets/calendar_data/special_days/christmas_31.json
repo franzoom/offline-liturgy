@@ -1,12 +1,24 @@
 {
+  "celebration": {
+    "title": "7<sup>ème</sup> Jour dans l’octave de la Nativité",
+    "commons": [
+      "christmas"
+    ],
+    "grade": 9,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "Is 4, 2-3",
+      "biblicalReference": "Is 4, 2-3",
       "content": "En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terre sera leur fierté et leur couronne. Alors, ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints&nbsp;: tous seront inscrits dans Jérusalem, et ils vivront."
     },
-    "evangelicAntiphon": "Tous les anges du ciel chantaient les louanges de Dieu&nbsp;: Gloire à Dieu au plus haut des cieux et paix sur la terre aux hommes qu’il aime&nbsp;!",
-    "intercession": "<p>R/Fils du Dieu vivant, exauce-nous&nbsp;!</p> <p>Ô Christ, né du Père avant tous les siècles,<br> venu dans le monde à la plénitude des temps,<br> –&nbsp;nous t’en prions&nbsp;: conduis l’homme à son accomplissement.</p> <p>Ô Christ, splendeur de la gloire du Père,<br> toi qui soutiens l’univers par ta parole puissante,<br> –&nbsp;nous t’en prions&nbsp;: accorde à toute créature la délivrance de ton salut.</p> <p>Ô Christ, depuis toujours auprès du Père,<br> né à Bethléem selon les prophéties,<br> –&nbsp;nous t’en prions&nbsp;: pour que l’Église rayonne ta lumière donne-lui la pauvreté.</p> <p>Ô Christ, vrai Dieu et vrai homme,<br> Seigneur et fils de David,<br> –&nbsp;nous t’en prions&nbsp;: qu’Israël reconnaisse en toi son Messie.</p>",
-    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Tous les anges du ciel chantaient les louanges de Dieu&nbsp;: Gloire à Dieu au plus haut des cieux et paix sur la terre aux hommes qu’il aime&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>R/Fils du Dieu vivant, exauce-nous&nbsp;!</p> <p>Ô Christ, né du Père avant tous les siècles,<br> venu dans le monde à la plénitude des temps,<br> –&nbsp;nous t’en prions&nbsp;: conduis l’homme à son accomplissement.</p> <p>Ô Christ, splendeur de la gloire du Père,<br> toi qui soutiens l’univers par ta parole puissante,<br> –&nbsp;nous t’en prions&nbsp;: accorde à toute créature la délivrance de ton salut.</p> <p>Ô Christ, depuis toujours auprès du Père,<br> né à Bethléem selon les prophéties,<br> –&nbsp;nous t’en prions&nbsp;: pour que l’Église rayonne ta lumière donne-lui la pauvreté.</p> <p>Ô Christ, vrai Dieu et vrai homme,<br> Seigneur et fils de David,<br> –&nbsp;nous t’en prions&nbsp;: qu’Israël reconnaisse en toi son Messie.</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -46,31 +58,27 @@
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Is 45, 13",
+        "biblicalReference": "Is 45, 13",
         "content": "C’est moi qui, selon la justice, ai fait surgir cet homme et j’aplanirai tous ses chemins. C’est lui qui rebâtira ma ville&nbsp;; et il renverra mes déportés, sans qu’il leur en coûte ni paiement, ni commission, dit le Seigneur, le Tout-Puissant."
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "Is 48, 20b",
+        "biblicalReference": "Is 48, 20b",
         "content": "D’une voix retentissante annoncez-le, faites-le entendre, ébruitez-le jusqu’aux extrémités de la terre, dites&nbsp;: Le Seigneur a racheté sons serviteur Jacob."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Is 65, 1",
+        "biblicalReference": "Is 65, 1",
         "content": "Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit&nbsp;: \"Me voici, me voici\" à une nation qui n’invoquait pas mon nom."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "7<sup>ème</sup> Jour dans l’octave de la Nativité",
-  "liturgicalGrade": 9,
-  "liturgicalColor": "white",
-  "commons": [
-    "christmas"
-  ],
-  "oration": "Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils&nbsp;; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne."
+  "oration": [
+    "Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils&nbsp;; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne."
+  ]
 }

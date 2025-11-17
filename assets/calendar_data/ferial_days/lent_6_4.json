@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "He 2, 9b-10",
+      "biblicalReference": "He 2, 9b-10",
       "content": "Nous voyons Jésus couronné de gloire et d’honneur à cause de sa passion et de sa mort. S’il a fait l’expérience de la mort, c’est, par grâce de Dieu, pour le salut de tous. En effet, puisque le créateur et maître de tout voulait avoir une multitude de fils à conduire jusqu’à la gloire, il était normal qu’il mène à sa perfection, par la souffrance, celui qui est à l’origine du salut de tous."
     },
-    "evangelicAntiphon": "J’ai désiré d’un grand désir manger cette Pâque avec vous avant de souffrir.",
-    "intercession": "<p>Unis à Jésus qui entre dans sa passion, supplions le Père des hommes&nbsp;:</p> <p>Rappelle-toi l’homme que les siens ont trahi.</p> <p>R/ Seigneur, rappelle-toi.</p> <p>L’abandonné qui redoute les heures de la nuit.</p> <p>L’innocent que l’on arrête comme un malfaiteur.</p> <p>L’accusé injustement condamné.</p> <p>Le prisonnier frappé, humilié.</p> <p>Le juste que l’on mène à la mort.</P> <p>Celui qui jusqu’au bout te fait confiance.</p> ",
     "responsory": "<p>R/ Souviens-toi de Jésus Christ<br> ressuscité d’entre les morts&nbsp;:<br>  * Il est notre salut, notre gloire éternelle.<br> V/ Si nous mourons avec lui, <br>avec lui nous vivrons. * <br> V/ Si nous souffrons avec lui, <br>avec lui nous régnerons. * <br> R/ Souviens-toi.<br></p>",
-    "oration": "Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce&nbsp;; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons."
+    "evangelicAntiphon": {
+      "common": "J’ai désiré d’un grand désir manger cette Pâque avec vous avant de souffrir."
+    },
+    "intercession": {
+      "content": "<p>Unis à Jésus qui entre dans sa passion, supplions le Père des hommes&nbsp;:</p> <p>Rappelle-toi l’homme que les siens ont trahi.</p> <p>R/ Seigneur, rappelle-toi.</p> <p>L’abandonné qui redoute les heures de la nuit.</p> <p>L’innocent que l’on arrête comme un malfaiteur.</p> <p>L’accusé injustement condamné.</p> <p>Le prisonnier frappé, humilié.</p> <p>Le juste que l’on mène à la mort.</P> <p>Celui qui jusqu’au bout te fait confiance.</p> "
+    },
+    "oration": [
+      "Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce&nbsp;; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Voici l’Agneau de Dieu<br> qui enlève le péché du monde.</p> <p>Jésus a enduré la croix<br> et renoncé à la joie qui lui revenait.</p> <p>Il s’est abaissé jusqu’à la mort,<br> et la mort de la croix.</p>"
     },
     "verse": "<p>V/ Quand j’aurai été élevé de terre,<br>j’attirerai à moi tous les hommes.</p>",
-    "oration": "Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce&nbsp;; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons."
+    "oration": [
+      "Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce&nbsp;; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_9",
+        "antiphon": [
+          "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
+        ]
+      },
+      {
+        "psalm": "PSALM_55"
+      },
+      {
+        "psalm": "PSALM_56"
+      }
+    ],
+    "oration": [
+      "Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce&nbsp;; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "He 13, 12-15",
+      "biblicalReference": "He 13, 12-15",
       "content": "Jésus, voulant sanctifier le peuple par son propre sang, a souffert sa Passion en dehors de l’enceinte de la ville. Eh bien&nbsp;! pour aller à sa rencontre, sortons en dehors de l’enceinte, en portant la même humiliation que lui. Car la cité que nous avons ici-bas n’est pas définitive&nbsp;: nous attendons la cité future. En toute circonstance, offrons à Dieu, par Jésus, un sacrifice de louange, c’est-à-dire l’acte de foi qui sort de nos lèvres en l’honneur de son nom."
     },
-    "evangelicAntiphon": "Jésus prit le pain, le rompit, et le donna à ses disciples.",
-    "intercession": "<p>En communion avec les disciples que le Seigneur invite ce soir à son dernier repas, prions&nbsp;:</p> <p>R/ Béni sois-tu, Seigneur, pour ton corps et ton sang&nbsp;!</p> <p>Prêtre du Dieu Très-Haut,<br> tu t’es offert toi-même une fois pour toutes en sacrifice&nbsp;;<br>—&nbsp;apprends-nous à nous offrir avec toi.</p> <p>Jésus Sauveur,<br> tu as accepté la coupe amère de la passion&nbsp;;<br>—&nbsp;enseigne-nous à faire la volonté du Père.</p> <p>Rédempteur des hommes,<br> tu invites ton Église à célébrer l’eucharistie en mémoire de toi&nbsp;;<br>—&nbsp;garde toujours unis ceux qui partagent le même pain.</p> <p>Bon Pasteur, ceux que tu nourris de toi,<br> —&nbsp;transforme-les en toi.</p> <p>Agneau de Dieu,<br> immolé, toujours vivant,<br>—&nbsp;conduis au terme du passage ceux qui ont franchi la mort.</p> ",
     "responsory": "<p>R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.<br> V/ S’étant levé de table,<br> Jésus lava les pieds de ses disciples.&nbsp;R/ <br> V/ Père, s’il est possible,<br> que cette coupe s’éloigne de moi, <br> mais que ta volonté soit faite.&nbsp;R/ <br></p>",
-    "oration": "Pour ta gloire, Seigneur, et le salut du genre humain, tu as fait du Christ ton Prêtre éternel et souverain&nbsp;; accorde au peuple qui t’appartient au prix de son sang et qui célèbre aujourd’hui son mémorial d’obtenir les richesse de vie venues de sa croix et de sa résurrection. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_9",
-        "antiphon": [
-          "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
-        ]
-      },
-      {
-        "psalm": "PSALM_55"
-      },
-      {
-        "psalm": "PSALM_56"
-      }
-    ],
-    "oration": "Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce&nbsp;; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons."
+    "evangelicAntiphon": {
+      "common": "Jésus prit le pain, le rompit, et le donna à ses disciples."
+    },
+    "intercession": {
+      "content": "<p>En communion avec les disciples que le Seigneur invite ce soir à son dernier repas, prions&nbsp;:</p> <p>R/ Béni sois-tu, Seigneur, pour ton corps et ton sang&nbsp;!</p> <p>Prêtre du Dieu Très-Haut,<br> tu t’es offert toi-même une fois pour toutes en sacrifice&nbsp;;<br>—&nbsp;apprends-nous à nous offrir avec toi.</p> <p>Jésus Sauveur,<br> tu as accepté la coupe amère de la passion&nbsp;;<br>—&nbsp;enseigne-nous à faire la volonté du Père.</p> <p>Rédempteur des hommes,<br> tu invites ton Église à célébrer l’eucharistie en mémoire de toi&nbsp;;<br>—&nbsp;garde toujours unis ceux qui partagent le même pain.</p> <p>Bon Pasteur, ceux que tu nourris de toi,<br> —&nbsp;transforme-les en toi.</p> <p>Agneau de Dieu,<br> immolé, toujours vivant,<br>—&nbsp;conduis au terme du passage ceux qui ont franchi la mort.</p> "
+    },
+    "oration": [
+      "Pour ta gloire, Seigneur, et le salut du genre humain, tu as fait du Christ ton Prêtre éternel et souverain&nbsp;; accorde au peuple qui t’appartient au prix de son sang et qui célèbre aujourd’hui son mémorial d’obtenir les richesse de vie venues de sa croix et de sa résurrection. Lui qui règne."
+    ]
   }
 }

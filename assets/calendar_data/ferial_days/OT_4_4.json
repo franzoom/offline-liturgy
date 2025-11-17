@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "pere-du-premier-mot"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_142",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 18-21",
+      "biblicalReference": "Rm 8, 18-21",
       "content": "J’estime qu’il n’y a pas de commune mesure entre les souffrances du temps présent et la gloire que Dieu va bientôt révéler en nous. En effet, la création aspire de toutes ses forces à voir cette révélation des fils de Dieu. Car la création a été livrée au pouvoir du néant, non parce qu’elle l’a voulu, mais à cause de celui qui l’a livrée à ce pouvoir. Pourtant, elle a gardé l’espérance d’être, elle aussi, libérée de l’esclavage, de la dégradation inévitable, pour connaître la liberté, la gloire des enfants de Dieu."
     },
-    "hymn": [
-      "pere-du-premier-mot"
-    ],
-    "evangelicAntiphon": "Il est beau de chanter ta louange, Seigneur, toi qui élèves les humbles.",
-    "intercession": "<p>Prions avec foi le Père tout-puissant,<br> prions Jésus, le Fils unique,<br> prions le Saint Esprit de Dieu.</p> <p>R/ Ô Seigneur, écoute et prends pitié&nbsp;!</p> <p>Pour l’Église immaculée du Dieu vivant,<br> répandue par tout l’univers,<br> invoquons la richesse des grâces divines.</p> <p>Pour les ministres consacrés au Seigneur,<br> pour le peuple qui adore Dieu en vérité,<br> supplions le Christ, notre Seigneur.</p> <p>Pour ceux qui dispensent fidèlement la parole,<br> demandons la sagesse infinie du Verbe de Dieu.</p> <p>Pour les vierges d’esprit et de corps<br> à cause du règne de Dieu,<br> pour ceux qui peinent sur le chemin de la vie parfaite,<br> prions celui qui donne l’Esprit.<br> <p>Pour ceux qui gouvernent les peuples,<br> pour que règnent la justice et le droit,<br> demandons la force de Dieu.</p> <p>Pour l’alternance heureuse des saisons,<br> pour les bienfaits de la pluie et des vents,<br> invoquons le Seigneur qui gouverne le monde.</p> ",
     "responsory": "<p>R/ Je chanterai ta force, ô mon Dieu.<br>  * Au matin, j’acclamerai ton amour.<br> V/ Réveille-toi&nbsp;! Viens à moi, regarde&nbsp;! * <br> V/ Le Dieu de mon amour vient à moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Donne à ceux qui te prient, Seigneur, l’abondance de ta grâce. Avec ton aide, qu’ils suivent tes commandements pour y trouver dès maintenant leur bonheur, pour en recevoir, dans l’éternité, ta joie."
+    "evangelicAntiphon": {
+      "common": "Il est beau de chanter ta louange, Seigneur, toi qui élèves les humbles.",
+      "yearA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
+      "yearB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
+      "yearC": "Passant au milieu d’eux, Jésus allait son chemin."
+    },
+    "intercession": {
+      "content": "<p>Prions avec foi le Père tout-puissant,<br> prions Jésus, le Fils unique,<br> prions le Saint Esprit de Dieu.</p> <p>R/ Ô Seigneur, écoute et prends pitié&nbsp;!</p> <p>Pour l’Église immaculée du Dieu vivant,<br> répandue par tout l’univers,<br> invoquons la richesse des grâces divines.</p> <p>Pour les ministres consacrés au Seigneur,<br> pour le peuple qui adore Dieu en vérité,<br> supplions le Christ, notre Seigneur.</p> <p>Pour ceux qui dispensent fidèlement la parole,<br> demandons la sagesse infinie du Verbe de Dieu.</p> <p>Pour les vierges d’esprit et de corps<br> à cause du règne de Dieu,<br> pour ceux qui peinent sur le chemin de la vie parfaite,<br> prions celui qui donne l’Esprit.<br> <p>Pour ceux qui gouvernent les peuples,<br> pour que règnent la justice et le droit,<br> demandons la force de Dieu.</p> <p>Pour l’alternance heureuse des saisons,<br> pour les bienfaits de la pluie et des vents,<br> invoquons le Seigneur qui gouverne le monde.</p> "
+    },
+    "oration": [
+      "Donne à ceux qui te prient, Seigneur, l’abondance de ta grâce. Avec ton aide, qu’ils suivent tes commandements pour y trouver dès maintenant leur bonheur, pour en recevoir, dans l’éternité, ta joie."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,40 +83,9 @@
       "responsory": "<p>R/ Tout homme qui croit en Jésus Christ<br> aura la vie éternelle.</p> <p>Je n’ai rien voulu savoir parmi vous,<br> sinon Jésus Christ, et Jésus Christ crucifié.</p> <p>Nous avons cru, nous aussi, au Christ Jésus,<br> afin d’être justifiés par la foi au Christ.</p>"
     },
     "verse": "<p>V/ Pour ton serviteur, illumine ta face.<br>Apprends-moi tes volontés.</p>",
-    "oration": "Dieu puissant, de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom&nbsp;; resserre nos liens avec toi, pour développer ce qui est bon en nous&nbsp;; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_143_1",
-        "antiphon": [
-          "Béni soit le Seigneur, mon rocher&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_143_2",
-        "antiphon": [
-          "Heureux le peuple qui a pour Dieu le Seigneur&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "NT_10",
-        "antiphon": [
-          "Il a pris possession de son règne, le Seigneur Dieu, Maître de tout&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "Col 1, 23",
-      "content": "Par la foi, tenez, solides et fermes&nbsp;; ne vous laissez pas détourner de l’espérance que vous avez reçue en écoutant l’Évangile proclamé à toute créature sous le ciel."
-    },
-    "hymn": [
-      "o-pere"
-    ],
-    "evangelicAntiphon": "Pour toi je chanterai un chant nouveau, pour toi, mon Dieu&nbsp;!",
-    "intercession": "<p>Prions avec foi le Père tout-puissant,<br> prions Jésus, le Fils unique,<br> prions le Saint Esprit de Dieu.</p> <p>R/ Ô Seigneur, écoute et prends pitié&nbsp;!</p> <p>Pour ceux que le Père attire à son Fils<br> et qui se préparent au baptême,<br> supplions la bonté du Dieu tout-puissant.</p> <p>Pour ceux que retiennent la faiblesse humaine,<br> l’esprit de haine, d’envie et les erreurs du monde,<br> implorons la tendresse du Rédempteur.</p> <p>Pour les absents, pour les prisonniers,<br> pour le faible qu’on opprime, le juste persécuté,<br> supplions Jésus le Sauveur.</p> <p>Pour les chrétiens divisés, pour les fils d’Israël,<br> pour les musulmans, et les hommes de toutes religions,<br> invoquons le Seigneur de vérité.</p> <p>Pour les ouvriers de l’Évangile,<br> pour ceux qui servent leurs frères avec amour,<br> prions le Dieu des miséricordes.</p> <p>Pour le repos des trépassés,<br> invoquons le Seigneur des esprits<br> et le Juge de toute chair.</p> ",
-    "responsory": "<p>R/ Je n’ai de repos qu’en Dieu seul,<br>  *  Mon espoir vient de lui.<br> V/ Lui seul est mon rocher, mon salut.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur Dieu, tu nous as donné ton Fils pour qu’il soit avec nous jusqu’à la fin du monde&nbsp;; augmente notre foi pour qu’au milieu des épreuves nous discernions sa présence et son action. Lui qui règne."
+    "oration": [
+      "Dieu puissant, de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom&nbsp;; resserre nos liens avec toi, pour développer ce qui est bon en nous&nbsp;; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -131,8 +109,46 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonC": "Passant au milieu d’eux, Jésus allait son chemin.",
-  "sundayEvangelicAntiphonB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
-  "sundayEvangelicAntiphonA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
-  "readingHymn": "qu-il-soit-beni-qu-il-vienne"
+  "vespers": {
+    "hymn": [
+      "o-pere"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_143_1",
+        "antiphon": [
+          "Béni soit le Seigneur, mon rocher&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_143_2",
+        "antiphon": [
+          "Heureux le peuple qui a pour Dieu le Seigneur&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "NT_10",
+        "antiphon": [
+          "Il a pris possession de son règne, le Seigneur Dieu, Maître de tout&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "Col 1, 23",
+      "content": "Par la foi, tenez, solides et fermes&nbsp;; ne vous laissez pas détourner de l’espérance que vous avez reçue en écoutant l’Évangile proclamé à toute créature sous le ciel."
+    },
+    "responsory": "<p>R/ Je n’ai de repos qu’en Dieu seul,<br>  *  Mon espoir vient de lui.<br> V/ Lui seul est mon rocher, mon salut.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Pour toi je chanterai un chant nouveau, pour toi, mon Dieu&nbsp;!",
+      "yearA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
+      "yearB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
+      "yearC": "Passant au milieu d’eux, Jésus allait son chemin."
+    },
+    "intercession": {
+      "content": "<p>Prions avec foi le Père tout-puissant,<br> prions Jésus, le Fils unique,<br> prions le Saint Esprit de Dieu.</p> <p>R/ Ô Seigneur, écoute et prends pitié&nbsp;!</p> <p>Pour ceux que le Père attire à son Fils<br> et qui se préparent au baptême,<br> supplions la bonté du Dieu tout-puissant.</p> <p>Pour ceux que retiennent la faiblesse humaine,<br> l’esprit de haine, d’envie et les erreurs du monde,<br> implorons la tendresse du Rédempteur.</p> <p>Pour les absents, pour les prisonniers,<br> pour le faible qu’on opprime, le juste persécuté,<br> supplions Jésus le Sauveur.</p> <p>Pour les chrétiens divisés, pour les fils d’Israël,<br> pour les musulmans, et les hommes de toutes religions,<br> invoquons le Seigneur de vérité.</p> <p>Pour les ouvriers de l’Évangile,<br> pour ceux qui servent leurs frères avec amour,<br> prions le Dieu des miséricordes.</p> <p>Pour le repos des trépassés,<br> invoquons le Seigneur des esprits<br> et le Juge de toute chair.</p> "
+    },
+    "oration": [
+      "Seigneur Dieu, tu nous as donné ton Fils pour qu’il soit avec nous jusqu’à la fin du monde&nbsp;; augmente notre foi pour qu’au milieu des épreuves nous discernions sa présence et son action. Lui qui règne."
+    ]
+  }
 }

@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "5 janvier (avant l’Épiphanie)",
+    "grade": 13,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "Sg 7, 26-27",
+      "biblicalReference": "Sg 7, 26-27",
       "content": "La Sagesse est le reflet de la lumière éternelle, le miroir sans tache de l’activité de Dieu, l’image de sa bonté. Comme elle est unique, elle peut tout&nbsp;; et sans sortir d’elle-même, elle renouvelle l’univers."
     },
-    "evangelicAntiphon": "Le Seigneur visite et rachète son peuple.",
-    "intercession": "<p>R/Verbe de Dieu, par ta naissance, sauve-nous&nbsp;!</p> <p>Roi de l’univers<br> que les bergers ont trouvé dans une crèche,<br> —&nbsp;donne-nous le désir de ta pauvreté.</p> <p>Maître du ciel,<br> tu as habité parmi nous sur la terre,<br> —&nbsp;enseigne-nous le respect pour le plus petit de nos frères.</p> <p>Lumière éternelle,<br> tu as pris chair, mais non pas le péché,<br> —&nbsp;que tes fidèles dans le monde ne soient pas du monde.</p> <p>Époux divin de l’Église,<br> tu es sa forteresse imprenable,<br> —&nbsp;fais-nous la grâce d’y demeurer pour notre salut.</p>",
-    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Seigneur visite et rachète son peuple."
+    },
+    "intercession": {
+      "content": "<p>R/Verbe de Dieu, par ta naissance, sauve-nous&nbsp;!</p> <p>Roi de l’univers<br> que les bergers ont trouvé dans une crèche,<br> —&nbsp;donne-nous le désir de ta pauvreté.</p> <p>Maître du ciel,<br> tu as habité parmi nous sur la terre,<br> —&nbsp;enseigne-nous le respect pour le plus petit de nos frères.</p> <p>Lumière éternelle,<br> tu as pris chair, mais non pas le péché,<br> —&nbsp;que tes fidèles dans le monde ne soient pas du monde.</p> <p>Époux divin de l’Église,<br> tu es sa forteresse imprenable,<br> —&nbsp;fais-nous la grâce d’y demeurer pour notre salut.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -23,40 +32,43 @@
     },
     "verse": "<p>V/ Le Verbe est la vraie lumière,<br> qui éclaire tous les hommes.</p>"
   },
-  "vespers": {
-    "reading": {
-      "ref": "1 Jn 5, 20",
-      "content": "Nous savons que le Fils de Dieu est venu nous donner l’intelligence pour nous faire connaître Celui qui est vrai, et nous sommes en Celui qui est vrai, dans son Fils Jésus Christ. C’est lui qui est le Dieu vrai, et la vie éternelle."
-    },
-    "evangelicAntiphon": "Celui dont parlaient Moïse et les prophètes, nous l’avons trouvé&nbsp;: c’est le fils de Joseph, Jésus de Nazareth.",
-    "intercession": "<p>R/Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Fils unique, né pour le salut de l’humanité,<br> ton amour plus fort que la mort soutient notre espérance.</p> <p>Conseiller admirable, rempli de l’Esprit de sagesse,<br> tu viens conduire les peuples à la connaissance de la vérité.</p> <p>Dieu fort, roi de puissance,<br> tu relèves le courage de ceux qui faiblissent.</p> <p>Père des siècles à venir, Prophète glorieux,<br> ta lumière transfigure la race humaine défigurée.</p> <p>Prince de la paix, venu établir le Royaume,<br> toi seul pacifies le monde.</p> <p>Emmanuel, Dieu-avec-nous,<br> dans ton alliance, tu nous ramènes au Père.</p>",
-    "responsory": "<p>R/ Où est votre trésor, là sera votre cœur&nbsp;!<br> V/ Votre vie est cachée en Dieu avec le Christ.&nbsp;R/ <br> V/ Quand le Christ, votre vie, paraîtra,<br> vous paraîtrez avec lui en pleine gloire.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Ez 20, 41-42a",
+        "biblicalReference": "Ez 20, 41-42a",
         "content": "Comme un parfum apaisant, je vous accueillerai, lorsque je vous ferai sortir du milieu des peuples et que je vous rassemblerai hors des pays où vous avez été dispersés. Par vous, je montrerai ma sainteté aux yeux des nations. Vous connaîtrez que je suis le Seigneur."
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "Ez 34, 11-12",
+        "biblicalReference": "Ez 34, 11-12",
         "content": "J’irai moi-même à la recherche de mes brebis, et je veillerai sur elles. Comme un berger veille sur les brebis de son troupeau quand elles sont dispersées, ainsi je veillerai sur mes brebis, et j’irai les délivrer dans tous les endroits où elles ont été dispersées."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Mi 2, 12a",
+        "biblicalReference": "Mi 2, 12a",
         "content": "Je vais te rassembler, Jacob, tout entier, je vais réunir le reste d’Israël. Je les mettrai ensemble, comme les brebis de Boçra, comme un troupeau au milieu de son pâturage."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "5 janvier (avant l’Épiphanie)",
-  "liturgicalColor": "white",
-  "liturgicalGrade": 13,
-  "oration": "Dieu tout-puissant, la rédemption de ton peuple a merveilleusement commencé avec la naissance de ton Fils&nbsp;; accorde à tes serviteurs une foi solide pour qu’ils se laissent conduire par lui et obtiennent la gloire que tu leur promets."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "1 Jn 5, 20",
+      "content": "Nous savons que le Fils de Dieu est venu nous donner l’intelligence pour nous faire connaître Celui qui est vrai, et nous sommes en Celui qui est vrai, dans son Fils Jésus Christ. C’est lui qui est le Dieu vrai, et la vie éternelle."
+    },
+    "responsory": "<p>R/ Où est votre trésor, là sera votre cœur&nbsp;!<br> V/ Votre vie est cachée en Dieu avec le Christ.&nbsp;R/ <br> V/ Quand le Christ, votre vie, paraîtra,<br> vous paraîtrez avec lui en pleine gloire.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Celui dont parlaient Moïse et les prophètes, nous l’avons trouvé&nbsp;: c’est le fils de Joseph, Jésus de Nazareth."
+    },
+    "intercession": {
+      "content": "<p>R/Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Fils unique, né pour le salut de l’humanité,<br> ton amour plus fort que la mort soutient notre espérance.</p> <p>Conseiller admirable, rempli de l’Esprit de sagesse,<br> tu viens conduire les peuples à la connaissance de la vérité.</p> <p>Dieu fort, roi de puissance,<br> tu relèves le courage de ceux qui faiblissent.</p> <p>Père des siècles à venir, Prophète glorieux,<br> ta lumière transfigure la race humaine défigurée.</p> <p>Prince de la paix, venu établir le Royaume,<br> toi seul pacifies le monde.</p> <p>Emmanuel, Dieu-avec-nous,<br> dans ton alliance, tu nous ramènes au Père.</p>"
+    }
+  },
+  "oration": [
+    "Dieu tout-puissant, la rédemption de ton peuple a merveilleusement commencé avec la naissance de ton Fils&nbsp;; accorde à tes serviteurs une foi solide pour qu’ils se laissent conduire par lui et obtiennent la gloire que tu leur promets."
+  ]
 }

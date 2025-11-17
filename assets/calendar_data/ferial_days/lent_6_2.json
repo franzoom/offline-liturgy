@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Za 12, 10-11a",
+      "biblicalReference": "Za 12, 10-11a",
       "content": "Je répandrai sur la maison de David et sur les habitants de Jérusalem un esprit qui fera naître en eux bonté et supplication. Ils lèveront les yeux vers celui qu’ils ont transpercé&nbsp;; ils feront une lamentation sur lui comme sur un fils unique&nbsp;; ils pleureront sur lui amèrement comme sur un premier-né. En ce jour-là, il y aura grande lamentation dans Jérusalem."
     },
-    "evangelicAntiphon": "Père, glorifie-moi auprès de toi de la gloire que j’avais avant la création du monde.",
-    "intercession": "<p>Par sa mort sur la croix, le Christ a sauvé le genre humain. Bénissons-le&nbsp;:</p> <p>R/ Béni sois-tu, ô Christ, notre Sauveur&nbsp;!</p> <p>Du ciel, tu es descendu comme la lumière.</p> <p>De Marie, tu es né comme le germe divin.</p> <p>De la croix, tu es tombé comme le fruit.</p> <p>Au ciel, tu es monté, prémices des vivants.</p> <p>Tu te présentes au Père comme l’offrande parfaite.</p> ",
     "responsory": "<p>R/ Réveille-toi&nbsp;!<br>  * Pourquoi dors-tu, Seigneur&nbsp;?<br> V/ Maintenant, tu nous humilies, tu nous rejettes. * <br> V/ Ne nous rejette pas pour toujours. * <br> V/ Rachète-nous, au nom de ton amour. * <br></p>",
-    "oration": "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    "evangelicAntiphon": {
+      "common": "Père, glorifie-moi auprès de toi de la gloire que j’avais avant la création du monde."
+    },
+    "intercession": {
+      "content": "<p>Par sa mort sur la croix, le Christ a sauvé le genre humain. Bénissons-le&nbsp;:</p> <p>R/ Béni sois-tu, ô Christ, notre Sauveur&nbsp;!</p> <p>Du ciel, tu es descendu comme la lumière.</p> <p>De Marie, tu es né comme le germe divin.</p> <p>De la croix, tu es tombé comme le fruit.</p> <p>Au ciel, tu es monté, prémices des vivants.</p> <p>Tu te présentes au Père comme l’offrande parfaite.</p> "
+    },
+    "oration": [
+      "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Si nous mourons avec toi, Seigneur,<br> avec toi nous entrerons dans la vie.</p> <p>Nous portons en notre corps la mort de Jésus,<br> afin que sa vie soit aussi manifestée<br> dans notre corps.</p> <p>Celui qui a ressuscité le Seigneur Jésus<br> nous ressuscitera, nous aussi,<br> et nous placera près de lui.</p>"
     },
     "verse": "<p>V/ Quand j’aurai été élevé de terre,<br>j’attirerai à moi tous les hommes.</p>",
-    "oration": "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    "oration": [
+      "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_7",
+        "antiphon": [
+          "Pour moi, vivre, c’est le Christ et mourir est un gain, j’ai mis ma fierté dans la croix du Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_52"
+      },
+      {
+        "psalm": "PSALM_53"
+      }
+    ],
+    "oration": [
+      "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 1, 27b-30",
+      "biblicalReference": "1 Co 1, 27b-30",
       "content": "Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi pour couvrir de confusion ce qui est fort&nbsp;; ce qui est d’origine modeste, méprisé dans le monde, ce qui n’est rien, voilà ce que Dieu a choisi pour détruire ce qui est quelque chose, afin que personne ne puisse s’enorgueillir devant Dieu. C’est grâce à Dieu, en effet, que vous êtes dans le Christ Jésus, qui a été envoyé par lui pour être notre sagesse, pour être notre justice, notre sanctification, notre rédemption."
     },
-    "evangelicAntiphon": "J’ai le pouvoir de donner ma vie, j’ai le pouvoir de la reprendre.",
-    "intercession": "<p>Regardons celui que nous avons transpercé, et confessons notre foi&nbsp;:</p> <p>R/ Vraiment, tu es le Fils de Dieu&nbsp;!</p> <p>Béni sois-tu, Sauveur du genre humain, pour ta passion glorieuse&nbsp;:<br> –&nbsp;ton sang nous a rachetés.</p> <p>De ton côté ouvert d’où jaillit l’eau vive,<br> –&nbsp;répands l’Esprit sur tous les hommes.</p> <p>Tu envoies au monde des témoins de ta résurrection&nbsp;:<br> –&nbsp;qu’ils proclament ta croix victorieuse.</p> <p>Christ en agonie jusqu’à la fin du monde,<br> –&nbsp;n’oublie pas les membres souffrants de ton Corps.</p> <p>Toi qui es sorti vivant du tombeau,<br> –&nbsp;éveille ceux qui se sont endormis dans la mort.</p> ",
     "responsory": "<p>R/ Il n’avait ni beauté, ni éclat.<br>  *  Par ses souffrances, nous sommes guéris.<br> V/ Il était méprisé, abandonné.  * <br> V/ C’était nos souffrances qu’il portait.  * <br></p>",
-    "oration": "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_7",
-        "antiphon": [
-          "Pour moi, vivre, c’est le Christ et mourir est un gain, j’ai mis ma fierté dans la croix du Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_52"
-      },
-      {
-        "psalm": "PSALM_53"
-      }
-    ],
-    "oration": "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    "evangelicAntiphon": {
+      "common": "J’ai le pouvoir de donner ma vie, j’ai le pouvoir de la reprendre."
+    },
+    "intercession": {
+      "content": "<p>Regardons celui que nous avons transpercé, et confessons notre foi&nbsp;:</p> <p>R/ Vraiment, tu es le Fils de Dieu&nbsp;!</p> <p>Béni sois-tu, Sauveur du genre humain, pour ta passion glorieuse&nbsp;:<br> –&nbsp;ton sang nous a rachetés.</p> <p>De ton côté ouvert d’où jaillit l’eau vive,<br> –&nbsp;répands l’Esprit sur tous les hommes.</p> <p>Tu envoies au monde des témoins de ta résurrection&nbsp;:<br> –&nbsp;qu’ils proclament ta croix victorieuse.</p> <p>Christ en agonie jusqu’à la fin du monde,<br> –&nbsp;n’oublie pas les membres souffrants de ton Corps.</p> <p>Toi qui es sorti vivant du tombeau,<br> –&nbsp;éveille ceux qui se sont endormis dans la mort.</p> "
+    },
+    "oration": [
+      "Aide-nous, Dieu éternel et tout-puissant, à célébrer les mystères de la passion du Seigneur de telle sorte que nous obtenions le pardon."
+    ]
   }
 }

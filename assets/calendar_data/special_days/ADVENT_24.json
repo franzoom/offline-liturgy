@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "24 décembre",
+    "grade": 9,
+    "color": "violet"
+  },
   "morning": {
     "reading": {
-      "ref": "Is 11, 1-2",
+      "biblicalReference": "Is 11, 1-2",
       "content": "Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
     },
-    "evangelicAntiphon": "Il vient, le Père de la gloire, il vient, notre Sauveur, le Fils de la Vierge Marie. Bientôt nous le contemplerons dans sa clarté, alléluia&nbsp;!",
-    "intercession": "<p>Prions dans la foi Celui qui vient accomplir la promesse&nbsp;:</p> <p>R/Sois avec nous, Emmanuel&nbsp;!</p> <p>Ô Christ, venu partager notre vie,<br> relève-nous, remodèle en nous ton image.</p> <p>Toi qui es né dans le monde pour dire aux hommes l’Évangile,<br> donne-nous assez de foi pour l’accueillir.</p> <p>Nous désirons connaître ton visage&nbsp;:<br> réjouis-nous bientôt par ta naissance.</p> <p>Tu es béni, toi qui règnes sur toutes choses&nbsp;:<br> tiens-nous dans l’espérance de ta splendeur.</p>",
-    "responsory": "<p>R/ Demain, le Seigneur viendra,<br> au matin, vous verrez sa gloire.<br> V/ L’iniquité de la terre sera effacée.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Demain, le Seigneur viendra,<br> au matin, vous verrez sa gloire.<br> V/ L’iniquité de la terre sera effacée.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Il vient, le Père de la gloire, il vient, notre Sauveur, le Fils de la Vierge Marie. Bientôt nous le contemplerons dans sa clarté, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Prions dans la foi Celui qui vient accomplir la promesse&nbsp;:</p> <p>R/Sois avec nous, Emmanuel&nbsp;!</p> <p>Ô Christ, venu partager notre vie,<br> relève-nous, remodèle en nous ton image.</p> <p>Toi qui es né dans le monde pour dire aux hommes l’Évangile,<br> donne-nous assez de foi pour l’accueillir.</p> <p>Nous désirons connaître ton visage&nbsp;:<br> réjouis-nous bientôt par ta naissance.</p> <p>Tu es béni, toi qui règnes sur toutes choses&nbsp;:<br> tiens-nous dans l’espérance de ta splendeur.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -25,28 +34,27 @@
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Is 4, 2",
+        "biblicalReference": "Is 4, 2",
         "content": "En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terra sera leur fierté et leur couronne."
       },
       "responsory": "<p>V/ Les nations craindront le nom du Seigneur,<br> et tous les rois de la terre, sa gloire.</p>"
     },
     "sexte": {
       "reading": {
-        "ref": "Is 4, 3",
+        "biblicalReference": "Is 4, 3",
         "content": "Ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints&nbsp;: tous seront inscrits dans Jérusalem, et ils vivront."
       },
       "responsory": "<p>V/ Le Seigneur apparaîtra dans sa gloire&nbsp;:<br> le peuple nouveau chantera son Dieu.</p>"
     },
     "none": {
       "reading": {
-        "ref": "Is 61, 11",
+        "biblicalReference": "Is 61, 11",
         "content": "De même que la terre fait éclore ses germes, et qu’un jardin fait éclore ses semences, ainsi le Seigneur fera germer la justice et la louange devant toutes les nations."
       },
       "responsory": "<p>V/ Viens, Seigneur, ne tarde pas.<br> Remets à ton peuple ses péchés.</p>"
     }
   },
-  "celebrationTitle": "24 décembre",
-  "liturgicalGrade": 9,
-  "liturgicalColor": "violet",
-  "oration": "Seigneur Jésus, hâte-toi, ne tarde plus&nbsp;: que ta venue réconforte et révèle ceux qui ont foi dans ton amour. Toi qui règnes."
+  "oration": [
+    "Seigneur Jésus, hâte-toi, ne tarde plus&nbsp;: que ta venue réconforte et révèle ceux qui ont foi dans ton amour. Toi qui règnes."
+  ]
 }

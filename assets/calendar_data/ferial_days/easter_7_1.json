@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Rm 10, 8-10",
+      "biblicalReference": "Rm 10, 8-10",
       "content": "Nous lisons dans l’Écriture&nbsp;: «&nbsp;La Parole est près de toi&nbsp;; elle est dans ta bouche et dans ton cœur.&nbsp;» Cette Parole, c’est le message de la foi que nous proclamons. Donc, si tu affirmes de ta bouche que Jésus est Seigneur, si tu crois dans ton cœur que Dieu l’a ressuscité d’entre les morts, alors tu seras sauvé. Celui qui croit du fond de son cœur devient juste&nbsp;; celui qui, de sa bouche, affirme sa foi parvient au salut."
     },
-    "evangelicAntiphon": "Vous aurez à souffrir dans le monde, mais ne craignez pas&nbsp;: je suis vainqueur du monde. Alléluia.",
-    "intercession": "<p>Avec tous ceux qui ont été justifiés dans l’Esprit de Dieu, élevons vers le Christ une prière unanime&nbsp;:</p> <p>R/ Roi de gloire, répands sur nous ton Esprit&nbsp;!</p> <p>Verbe de vérité, fais rayonner sur nous ta lumière&nbsp;:<br> –&nbsp;que nos paroles et nos actes témoignent de toi devant les hommes.</p> <p>Sagesse de Dieu, emplis-nous des dons de l’Esprit&nbsp;:<br> –&nbsp;que notre désir accueille ce que son souffle nous inspire.</p> <p>Splendeur du Père, porte la lumière de l’Esprit jusqu’aux ténèbres de nos cœurs&nbsp;:<br> –&nbsp;qu’il soit lui-même notre prière.</p> <p>Jésus, notre gloire éternelle, imprègne-nous de ton amour&nbsp;:<br> –&nbsp;que nous vivions en frères dans l’espérance du Royaume.</p>",
-    "responsory": "<p>R/ Jésus s’est levé du tombeau.<br>  * Alléluia, alléluia&nbsp;!<br> V/ Lui qui fut cloué pour nous sur le bois.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>"
+    "responsory": "<p>R/ Jésus s’est levé du tombeau.<br>  * Alléluia, alléluia&nbsp;!<br> V/ Lui qui fut cloué pour nous sur le bois.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>",
+    "evangelicAntiphon": {
+      "common": "Vous aurez à souffrir dans le monde, mais ne craignez pas&nbsp;: je suis vainqueur du monde. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Avec tous ceux qui ont été justifiés dans l’Esprit de Dieu, élevons vers le Christ une prière unanime&nbsp;:</p> <p>R/ Roi de gloire, répands sur nous ton Esprit&nbsp;!</p> <p>Verbe de vérité, fais rayonner sur nous ta lumière&nbsp;:<br> –&nbsp;que nos paroles et nos actes témoignent de toi devant les hommes.</p> <p>Sagesse de Dieu, emplis-nous des dons de l’Esprit&nbsp;:<br> –&nbsp;que notre désir accueille ce que son souffle nous inspire.</p> <p>Splendeur du Père, porte la lumière de l’Esprit jusqu’aux ténèbres de nos cœurs&nbsp;:<br> –&nbsp;qu’il soit lui-même notre prière.</p> <p>Jésus, notre gloire éternelle, imprègne-nous de ton amour&nbsp;:<br> –&nbsp;que nous vivions en frères dans l’espérance du Royaume.</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>R/ Allons dans la joie puiser aux sources du salut.</p> <p>Celui qui boira de l’eau que je lui donnerai<br> n’aura plus jamais soif.</p> <p>L’eau que je vous donnerai deviendra en vous<br> source jaillissant en vie éternelle.</p>"
     },
     "verse": "<p>V/ Mon cœur et ma chair sont un cri, alléluia,<br>vers le Dieu vivant, alléluia.</p>",
-    "oration": "Seigneur, nous t’en prions&nbsp;: que descende sur nous la force de l’Esprit Saint pour que nous puissions discerner ta volonté et l’accomplir tout au long de notre vie."
+    "oration": [
+      "Seigneur, nous t’en prions&nbsp;: que descende sur nous la force de l’Esprit Saint pour que nous puissions discerner ta volonté et l’accomplir tout au long de notre vie."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_12",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_70_1"
+      },
+      {
+        "psalm": "PSALM_70_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +114,15 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 14-17",
+      "biblicalReference": "Rm 8, 14-17",
       "content": "Tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu. L’Esprit que vous avez reçu ne fait pas de vous des esclaves, des gens qui ont encore peur&nbsp;; c’est un Esprit qui fait de vous des fils&nbsp;; poussés par cet Esprit, nous crions vers le Père en l’appelant&nbsp;: «&nbsp;Abba&nbsp;!&nbsp;» C’est donc l’Esprit Saint lui-même qui affirme à notre esprit que nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers&nbsp;; héritiers de Dieu, héritiers avec le Christ, à condition de souffrir avec lui pour être avec lui dans la gloire."
     },
-    "evangelicAntiphon": "L’Esprit de vérité demeure auprès de vous, il est en vous. Alléluia.",
-    "intercession": "<p>Nous ne savons pas prier comme il faut&nbsp;;<br> demandons au Christ que son Esprit nous enseigne&nbsp;:</p> <p>R/ Exauce-nous, Seigneur de gloire&nbsp;!</p> <p>Ô Christ, Tête du Corps qui est l’Église,<br> –&nbsp;donne-lui d’être un reflet de ta lumière au milieu des hommes.</p> <p>Toi, notre Pasteur éternel, accorde le discernement aux pasteurs que tu as choisis&nbsp;:<br> –&nbsp;qu’ils conduisent ton peuple dans la vérité.</p> <p>Tu as été conçu de la Vierge Marie dans l’ombre de l’Esprit,<br> –&nbsp;garde fidèles à ton amour ceux qui vivent le célibat consacré.</p> <p>Toi, le Maître de tout, riche en miséricorde, <br> –&nbsp;viens au secours des pauvres de la terre.</p> <p>Toi qui t’es appauvri pour nous enrichir, <br> –&nbsp;donne-nous l’esprit de partage.</p> <p>Toi, le Fils éternel du Père,<br> –&nbsp;fais entrer nos frères défunts dans la pleine liberté des enfants de Dieu.</p>",
-    "responsory": "<p>R/ Toi, la source des eaux vives,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> La soif que rien n’apaise&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_12",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_70_1"
-      },
-      {
-        "psalm": "PSALM_70_2"
-      }
-    ]
+    "responsory": "<p>R/ Toi, la source des eaux vives,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> La soif que rien n’apaise&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>",
+    "evangelicAntiphon": {
+      "common": "L’Esprit de vérité demeure auprès de vous, il est en vous. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Nous ne savons pas prier comme il faut&nbsp;;<br> demandons au Christ que son Esprit nous enseigne&nbsp;:</p> <p>R/ Exauce-nous, Seigneur de gloire&nbsp;!</p> <p>Ô Christ, Tête du Corps qui est l’Église,<br> –&nbsp;donne-lui d’être un reflet de ta lumière au milieu des hommes.</p> <p>Toi, notre Pasteur éternel, accorde le discernement aux pasteurs que tu as choisis&nbsp;:<br> –&nbsp;qu’ils conduisent ton peuple dans la vérité.</p> <p>Tu as été conçu de la Vierge Marie dans l’ombre de l’Esprit,<br> –&nbsp;garde fidèles à ton amour ceux qui vivent le célibat consacré.</p> <p>Toi, le Maître de tout, riche en miséricorde, <br> –&nbsp;viens au secours des pauvres de la terre.</p> <p>Toi qui t’es appauvri pour nous enrichir, <br> –&nbsp;donne-nous l’esprit de partage.</p> <p>Toi, le Fils éternel du Père,<br> –&nbsp;fais entrer nos frères défunts dans la pleine liberté des enfants de Dieu.</p>"
+    }
   }
 }

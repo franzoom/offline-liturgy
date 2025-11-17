@@ -49,6 +49,22 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_18B",
+        "antiphon": [
+          "Voici l’Enfant&nbsp;: Signe dressé pour les nations, justice de Dieu parmi les hommes."
+        ]
+      },
+      {
+        "psalm": "PSALM_7_1"
+      },
+      {
+        "psalm": "PSALM_7_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -70,22 +86,8 @@
         ]
       }
     ],
-    "oration": "Puisqu’en ce jour, Seigneur, les saints Innocents ont annoncé ta gloire, non point par la parole, mais par leur seule mort&nbsp;; fais que notre vie tout entière témoigne de la foi que notre bouche proclame."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_18B",
-        "antiphon": [
-          "Voici l’Enfant&nbsp;: Signe dressé pour les nations, justice de Dieu parmi les hommes."
-        ]
-      },
-      {
-        "psalm": "PSALM_7_1"
-      },
-      {
-        "psalm": "PSALM_7_2"
-      }
+    "oration": [
+      "Puisqu’en ce jour, Seigneur, les saints Innocents ont annoncé ta gloire, non point par la parole, mais par leur seule mort&nbsp;; fais que notre vie tout entière témoigne de la foi que notre bouche proclame."
     ]
   }
 }

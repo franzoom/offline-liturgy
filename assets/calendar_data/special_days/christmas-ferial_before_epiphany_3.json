@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "3 janvier (avant l’Épiphanie)",
+    "grade": 13,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "Is 62, 11b-12a",
+      "biblicalReference": "Is 62, 11b-12a",
       "content": "Dites à la fille de Sion&nbsp;: Voici ton Sauveur qui vient, le fruit de sa victoire l’accompagne et ses trophées le précèdent. On vous appellera «&nbsp;Peuple-saint&nbsp;», «&nbsp;Rachetés-par-le-Seigneur&nbsp;»."
     },
-    "evangelicAntiphon": "Le Verbe s’est fait chair, il a demeuré parmi nous, plein de grâce et de vérité. Tous, nous avons part à sa plénitude et recevons grâce après grâce.",
-    "intercession": "<p>R/Gloire à Dieu&nbsp;! Aux hommes paix sur la terre&nbsp;!</p> <p>Tu t’es fait homme, ô Christ,<br> et tu as demeuré parmi nous.</p> <p>Tu t’es fait homme, ô Christ,<br> et tu marches à notre pas.</p> <p>Tu t’es fait homme, ô Christ,<br> et ton visage sera le nôtre.</p> <p>Tu t’es fait homme, ô Christ,<br> et ta voix éveille la nôtre.</p> <p>Tu t’es fait homme, ô Christ,<br> et tu nous mènes au véritable amour.</p> <p>Tu t’es fait homme, ô Christ,<br> et tu rassembles tes frères.</p> <p>Tu t’es fait homme, ô Christ,<br> et nous devenons fils de Dieu.</p>",
-    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>"
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>",
+    "evangelicAntiphon": {
+      "common": "Le Verbe s’est fait chair, il a demeuré parmi nous, plein de grâce et de vérité. Tous, nous avons part à sa plénitude et recevons grâce après grâce."
+    },
+    "intercession": {
+      "content": "<p>R/Gloire à Dieu&nbsp;! Aux hommes paix sur la terre&nbsp;!</p> <p>Tu t’es fait homme, ô Christ,<br> et tu as demeuré parmi nous.</p> <p>Tu t’es fait homme, ô Christ,<br> et tu marches à notre pas.</p> <p>Tu t’es fait homme, ô Christ,<br> et ton visage sera le nôtre.</p> <p>Tu t’es fait homme, ô Christ,<br> et ta voix éveille la nôtre.</p> <p>Tu t’es fait homme, ô Christ,<br> et tu nous mènes au véritable amour.</p> <p>Tu t’es fait homme, ô Christ,<br> et tu rassembles tes frères.</p> <p>Tu t’es fait homme, ô Christ,<br> et nous devenons fils de Dieu.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -23,40 +32,43 @@
     },
     "verse": "<p>V/ Le Fils de Dieu est venu<br> nous faire connaître le Père.</p>"
   },
-  "vespers": {
-    "reading": {
-      "ref": "1 Jn 1, 5b.7",
-      "content": "Dieu est lumière, il n’y a pas de ténèbres en lui. Si nous marchons dans la lumière, comme il est lui-même dans la lumière, nous sommes en communion les uns avec les autres, et le sang de Jésus son Fils nous purifie de tout péché."
-    },
-    "evangelicAntiphon": "Réjouissons-nous dans le Seigneur, exultons d’allégresse dans l’Esprit&nbsp;: le salut éternel est apparu dans le monde, alléluia.",
-    "intercession": "<p>R/Gloire à Dieu&nbsp;! Aux hommes paix sur la terre&nbsp;!</p> <p>Seigneur Jésus, ton visage<br> nous montre celui de Dieu.</p> <p>Seigneur Jésus, ton regard<br> nous consacre frères.</p> <p>Seigneur Jésus, ta vie<br> nous révèle le don véritable.</p> <p>Seigneur Jésus, ta mort<br> nous découvre le cœur du Père et la souffrance de tous.</p> <p>Seigneur Jésus, ta victoire<br> nous donne de vivre le véritable amour.</p>",
-    "responsory": "<p>R/ Image du Dieu invisible,<br> * Christ est le commencement.<br> V/ Né avant toute créature,&nbsp;*<br> V/ Premier-né d’entre les morts,&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Is 2, 3b-4",
+        "biblicalReference": "Is 2, 3b-4",
         "content": "C’est de Sion que vient la Loi, de Jérusalem la parole du Seigneur. Il sera le juge des nations, l’arbitre de la multitude des peuples. De leurs épées, ils forgeront des socs de charrue, et de leurs lances, des faucilles. On ne lèvera plus l’épée nation contre nation, on ne s’entraînera plus pour la guerre."
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "Is 9, 1",
+        "biblicalReference": "Is 9, 1",
         "content": "Le peuple qui marchait dans les ténèbres a vu se lever une grande lumière&nbsp;; sur ceux qui habitaient le pays de l’ombre, une lumière a resplendi."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Is 60, 4b-5",
+        "biblicalReference": "Is 60, 4b-5",
         "content": "Tes fils, Jérusalem, reviennent de loin, et tes filles sont portées sur les bras. Alors tu verras, tu seras radieuse&nbsp;; ton cœur frémira et se dilatera. Les trésors d’au-delà des mers afflueront vers toi avec les richesses des nations."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "3 janvier (avant l’Épiphanie)",
-  "liturgicalColor": "white",
-  "liturgicalGrade": 13,
-  "oration": "Seigneur, tu as voulu que ton Fils naisse de la Vierge bénie, afin que son humanité ne soit pas soumise à la condamnation de notre race&nbsp;; accorde-nous d’échapper à l’engrenage du péché, puisque le Christ nous donne part à la nouvelle création. Lui qui règne."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "1 Jn 1, 5b.7",
+      "content": "Dieu est lumière, il n’y a pas de ténèbres en lui. Si nous marchons dans la lumière, comme il est lui-même dans la lumière, nous sommes en communion les uns avec les autres, et le sang de Jésus son Fils nous purifie de tout péché."
+    },
+    "responsory": "<p>R/ Image du Dieu invisible,<br> * Christ est le commencement.<br> V/ Né avant toute créature,&nbsp;*<br> V/ Premier-né d’entre les morts,&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Réjouissons-nous dans le Seigneur, exultons d’allégresse dans l’Esprit&nbsp;: le salut éternel est apparu dans le monde, alléluia."
+    },
+    "intercession": {
+      "content": "<p>R/Gloire à Dieu&nbsp;! Aux hommes paix sur la terre&nbsp;!</p> <p>Seigneur Jésus, ton visage<br> nous montre celui de Dieu.</p> <p>Seigneur Jésus, ton regard<br> nous consacre frères.</p> <p>Seigneur Jésus, ta vie<br> nous révèle le don véritable.</p> <p>Seigneur Jésus, ta mort<br> nous découvre le cœur du Père et la souffrance de tous.</p> <p>Seigneur Jésus, ta victoire<br> nous donne de vivre le véritable amour.</p>"
+    }
+  },
+  "oration": [
+    "Seigneur, tu as voulu que ton Fils naisse de la Vierge bénie, afin que son humanité ne soit pas soumise à la condamnation de notre race&nbsp;; accorde-nous d’échapper à l’engrenage du péché, puisque le Christ nous donne part à la nouvelle création. Lui qui règne."
+  ]
 }

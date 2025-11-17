@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Ne 8, 9.10",
+      "biblicalReference": "Ne 8, 9.10",
       "content": "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas&nbsp;! Car ce jour est consacré à notre Dieu&nbsp;! Ne vous affligez pas&nbsp;: la joie du Seigneur est votre rempart&nbsp;!"
     },
-    "evangelicAntiphon": "Jésus fut conduit par l’Esprit au désert pour être tenté par Satan&nbsp;: il jeûna quarante jours, quarante nuits, et connut la faim.",
-    "intercession": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> ",
     "responsory": "<p>R/ La joie du Seigneur est notre rempart&nbsp;!<br> V/ Tu es béni, Seigneur notre Dieu,<br>d’éternité en éternité.&nbsp;R/ <br> V/ Que soit béni ton nom glorieux, <br>que terre et ciel te chantent sans fin.&nbsp;R/ <br> V/ Gloire et puissance au Père et au Fils, <br>au Saint-Esprit qui chante en nos cœurs.&nbsp;R/ <br></p>",
-    "oration": "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Jésus fut conduit par l’Esprit au désert pour être tenté par Satan&nbsp;: il jeûna quarante jours, quarante nuits, et connut la faim."
+    },
+    "intercession": {
+      "content": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> "
+    },
+    "oration": [
+      "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Où abonde le péché,<br> la grâce surabonde.</p> <p>Dieu enferma tous les hommes<br> dans la désobéissance<br> pour faire à tous miséricorde.</p> <p>Tous ont péché et sont privés de la gloire de Dieu,<br> mais Jésus Christ les a justifiés.</p>"
     },
     "verse": "<p>V/ L’homme ne vit pas seulement de pain,<br>mais de toute parole qui sort de la bouche de Dieu.</p>",
-    "oration": "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    "oration": [
+      "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1",
+        "antiphon": [
+          "Ma force et mon chant, c’est le Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ],
+    "oration": [
+      "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 9, 24-25",
+      "biblicalReference": "1 Co 9, 24-25",
       "content": "Vous savez bien que, dans les courses du stade, tous les coureurs prennent le départ, mais un seul gagne le prix. Alors, vous, courez de manière à l’emporter. Tous les athlètes à l’entraînement s’imposent une discipline sévère&nbsp;; ils le font pour gagner une couronne de laurier qui va se faner, et nous, pour une couronne qui ne se fane pas."
     },
-    "evangelicAntiphon": "Veille sur nous, Sauveur éternel. Garde-nous des ruses du démon, toi, notre force à jamais.",
-    "intercession": "<p>Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui désespère<br> et ne trouve en lui que le vide,</p> <p>Pour l’homme qui a faim de vérité<br> et qui ne cherche pas sa subsistance dans ta Parole,</p> <p>Pour les hommes qui ne peuvent rien sur terre<br> et pour ceux qui exercent leur puissance contre toi,</p> <p>Pour les hommes qui sont morts,<br> et qui attendent la vie promise,</p> ",
     "responsory": "<p>R/ Pour le combat tu m’emplis de vaillance,<br>  *  Dieu de ma victoire.<br> V/ Que ta justice me conduise,  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117_1",
-        "antiphon": [
-          "Ma force et mon chant, c’est le Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_117_2"
-      },
-      {
-        "psalm": "PSALM_117_3"
-      }
-    ],
-    "oration": "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Veille sur nous, Sauveur éternel. Garde-nous des ruses du démon, toi, notre force à jamais."
+    },
+    "intercession": {
+      "content": "<p>Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui désespère<br> et ne trouve en lui que le vide,</p> <p>Pour l’homme qui a faim de vérité<br> et qui ne cherche pas sa subsistance dans ta Parole,</p> <p>Pour les hommes qui ne peuvent rien sur terre<br> et pour ceux qui exercent leur puissance contre toi,</p> <p>Pour les hommes qui sont morts,<br> et qui attendent la vie promise,</p> "
+    },
+    "oration": [
+      "Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne."
+    ]
   }
 }

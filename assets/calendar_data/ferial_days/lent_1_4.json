@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "cf. 1 R 8, 51-53a",
+      "biblicalReference": "cf. 1 R 8, 51-53a",
       "content": "Nous sommes, Seigneur, ton peuple et ton héritage. Que tes yeux soient ouverts à la supplication de ton serviteur et d’Israël, ton peuple, écoute-les toutes les fois qu’ils crieront vers toi. Car c’est toi qui les as mis à part pour toi comme héritage, parmi tous les peuples de la terre."
     },
-    "evangelicAntiphon": "Si vous donnez à vos enfants ce qui est bon, combien plus votre Père des cieux comblera-t-il ceux qui l’implorent&nbsp;!",
-    "intercession": "<p>Père des lumières, ton Christ a brillé sur nous pour que nous ne marchions pas dans les ténèbres&nbsp;; nous t’implorons&nbsp;:</p> <p>R/ Que ta Parole soit la lampe de nos pas&nbsp;!</p> <p>Accorde-nous d’avancer aujourd’hui sur ses traces et de vivre à sa ressemblance.</p> <p>Fais-nous vivre dans la vérité, et nous viendrons à ta lumière.</p> <p>Donne-nous assez d’amour pour oublier notre intérêt et vouloir le bien de tous.</p> <p>Aide-nous à travailler dans la patience pour que nous préparions la venue de ton jour.</p> ",
     "responsory": "<p>R/ Nous sommes ton peuple, Seigneur.<br>  * Pitié, nous crions vers toi.<br> V/ Nous ployons sous le poids de nos fautes. * <br> V/ Écrasés de maux et de peines. * <br></p>",
-    "oration": "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    "evangelicAntiphon": {
+      "common": "Si vous donnez à vos enfants ce qui est bon, combien plus votre Père des cieux comblera-t-il ceux qui l’implorent&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Père des lumières, ton Christ a brillé sur nous pour que nous ne marchions pas dans les ténèbres&nbsp;; nous t’implorons&nbsp;:</p> <p>R/ Que ta Parole soit la lampe de nos pas&nbsp;!</p> <p>Accorde-nous d’avancer aujourd’hui sur ses traces et de vivre à sa ressemblance.</p> <p>Fais-nous vivre dans la vérité, et nous viendrons à ta lumière.</p> <p>Donne-nous assez d’amour pour oublier notre intérêt et vouloir le bien de tous.</p> <p>Aide-nous à travailler dans la patience pour que nous préparions la venue de ton jour.</p> "
+    },
+    "oration": [
+      "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Jésus, tu es venu<br> pour que les brebis aient la vie,<br> la vie en abondance.</p> <p>Parole du Seigneur&nbsp;:<br> J’aurai soin moi-même de mon troupeau<br> et je le passerai en revue.</p> <p>Je chercherai la brebis perdue,<br> avec justice je ferai paître mon troupeau.</p> <p>Je les rassemblerai des pays étrangers<br> et les ramènerai sur leur terre.</p>"
     },
     "verse": "<p>V/ Celui qui médite la loi du Seigneur<br>donne du fruit en son temps.</p>",
-    "oration": "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    "oration": [
+      "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_3",
+        "antiphon": [
+          "Vois ma misère et ma peine, enlève tous mes péchés."
+        ]
+      },
+      {
+        "psalm": "PSALM_24_1"
+      },
+      {
+        "psalm": "PSALM_24_2"
+      }
+    ],
+    "oration": [
+      "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,29 +117,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 4, 7-8. 10",
+      "biblicalReference": "Jc 4, 7-8. 10",
       "content": "Soumettez-vous à Dieu, et résistez au démon&nbsp;: il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains&nbsp;; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera."
     },
-    "evangelicAntiphon": "Demandez, on vous donnera&nbsp;; cherchez, et vous trouverez&nbsp;; frappez, on vous ouvrira.",
-    "intercession": "<p>Dieu notre Père, convertis-nous à la loi nouvelle de ton Christ&nbsp;:</p> <p>R/ Père, allume en nous le feu de son amour.</p> <p>Il a proclamé la Bonne Nouvelle,<br> il a passé parmi nous en faisant le bien.</p> <p>Il a nourri les foules au désert,<br> il s’est livré dans le pain et le vin.</p> <p>Il a guéri les malades,<br> il a pardonné les péchés.</p> <p>Il a maîtrisé la mer et les vents,<br> il a prié pour la foi de Pierre.</p> <p>Il a pleuré sur Jérusalem,<br> il a ressuscité Lazare.</p>",
     "responsory": "<p>R/ Seigneur, entends ma prière.<br>  *  Que mon cri parvienne jusqu’à toi&nbsp;!<br> V/ Le jour où j’appelle, écoute-moi.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_3",
-        "antiphon": [
-          "Vois ma misère et ma peine, enlève tous mes péchés."
-        ]
-      },
-      {
-        "psalm": "PSALM_24_1"
-      },
-      {
-        "psalm": "PSALM_24_2"
-      }
-    ],
-    "oration": "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    "evangelicAntiphon": {
+      "common": "Demandez, on vous donnera&nbsp;; cherchez, et vous trouverez&nbsp;; frappez, on vous ouvrira."
+    },
+    "intercession": {
+      "content": "<p>Dieu notre Père, convertis-nous à la loi nouvelle de ton Christ&nbsp;:</p> <p>R/ Père, allume en nous le feu de son amour.</p> <p>Il a proclamé la Bonne Nouvelle,<br> il a passé parmi nous en faisant le bien.</p> <p>Il a nourri les foules au désert,<br> il s’est livré dans le pain et le vin.</p> <p>Il a guéri les malades,<br> il a pardonné les péchés.</p> <p>Il a maîtrisé la mer et les vents,<br> il a prié pour la foi de Pierre.</p> <p>Il a pleuré sur Jérusalem,<br> il a ressuscité Lazare.</p>"
+    },
+    "oration": [
+      "Inspire-nous, Seigneur, de toujours concevoir ce qui est juste et de l’accomplir avec empressement&nbsp;; sans toi nous ne pouvons pas exister, fais-nous vivre en accord avec toi."
+    ]
   }
 }

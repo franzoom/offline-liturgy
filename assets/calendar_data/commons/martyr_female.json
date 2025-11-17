@@ -1,6 +1,10 @@
 {
   "firstVespers": {
-    "evangelicAntiphon": "Sa force était la force de Dieu : sa clarté jamais ne s'éteindra"
+    "evangelicAntiphon": {
+      "common": "Sa force était la force de Dieu : sa clarté jamais ne s'éteindra"
+    }
   },
-  "oration": "Dieu qui déploies ta puissance dans la faiblesse, écoute ceux qui célèbrent la gloire de sainte N. : elle a reçu de toi la force de vaincre, qu'elle nous obtienne la grâce de la victoire."
+  "oration": [
+    "Dieu qui déploies ta puissance dans la faiblesse, écoute ceux qui célèbrent la gloire de sainte N. : elle a reçu de toi la force de vaincre, qu'elle nous obtienne la grâce de la victoire."
+  ]
 }

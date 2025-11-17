@@ -1,10 +1,8 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Venez, crions de joie pour Dieu, notre Sauveur."
-    ]
-  },
   "firstVespers": {
+    "hymn": [
+      "il-viendra"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_112",
@@ -28,17 +26,29 @@
       }
     ],
     "reading": {
-      "ref": "He 13, 20-21",
+      "biblicalReference": "He 13, 20-21",
       "content": "Que le Dieu de la paix, lui qui a fait remonter d’entre les morts le berger des brebis, Pasteur par excellence, grâce au sang de l’Alliance éternelle, notre Seigneur Jésus, que ce Dieu vous munisse de tout ce qui est bon pour accomplir sa volonté, qu’il réalise en nous ce qui plaît à ses yeux par Jésus Christ, à qui appartient la gloire pour les siècles des siècles. Amen."
     },
-    "hymn": [
-      "il-viendra"
-    ],
-    "evangelicAntiphon": "Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.",
-    "intercession": "<p>Nous souvenant que le Christ eut pitié des foules, nous le prions&nbsp;:</p> <p>R/ Seigneur, montre-nous ton amour&nbsp;!</p> <p>Nous tenons de ta bonté la joie de ce jour,&nbsp;<br> —&nbsp;qu’elle te revienne en action de grâce.</p> <p>Toi, lumière et salut des nations,&nbsp;<br> —&nbsp;sois la force des témoins que tu as envoyés.</p> <p>Toi qui entends le cri du malheureux,&nbsp;<br> —&nbsp;garde-nous d’être sourds aux appels de détresse.</p> <p>Médecin des âmes et des corps,&nbsp;<br> —&nbsp;visite-nous et guéris-nous.</p> <p>Souviens-toi des morts tombés dans l’oubli&nbsp;:&nbsp;<br> —&nbsp;que leur nom soit inscrit au Livre de vie.</p> ",
-    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Nous souvenant que le Christ eut pitié des foules, nous le prions&nbsp;:</p> <p>R/ Seigneur, montre-nous ton amour&nbsp;!</p> <p>Nous tenons de ta bonté la joie de ce jour,&nbsp;<br> —&nbsp;qu’elle te revienne en action de grâce.</p> <p>Toi, lumière et salut des nations,&nbsp;<br> —&nbsp;sois la force des témoins que tu as envoyés.</p> <p>Toi qui entends le cri du malheureux,&nbsp;<br> —&nbsp;garde-nous d’être sourds aux appels de détresse.</p> <p>Médecin des âmes et des corps,&nbsp;<br> —&nbsp;visite-nous et guéris-nous.</p> <p>Souviens-toi des morts tombés dans l’oubli&nbsp;:&nbsp;<br> —&nbsp;que leur nom soit inscrit au Livre de vie.</p> "
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Venez, crions de joie pour Dieu, notre Sauveur."
+    ]
   },
   "morning": {
+    "hymn": [
+      "n-allons-plus-nous-derobant"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_92",
@@ -59,15 +69,19 @@
       }
     ],
     "reading": {
-      "ref": "Ez 37, 12b-14",
+      "biblicalReference": "Ez 37, 12b-14",
       "content": "Ainsi parle le Seigneur Dieu&nbsp;: je vais ouvrir vos tombeaux et je vous en ferai sortir, ô mon peuple, et je vous ramènerai sur la terre d’Israël. Vous saurez que je suis le Seigneur, quand j’ouvrirai vos tombeaux et vous en ferai sortir, ô mon peuple&nbsp;! Je mettrai en vous mon esprit, et vous vivrez&nbsp;; je vous installerai sur votre terre, et vous saurez que je suis le Seigneur&nbsp;: je l’ai dit et je le ferai. Parole du Seigneur."
     },
-    "hymn": [
-      "n-allons-plus-nous-derobant"
-    ],
-    "evangelicAntiphon": "Gloire à toi, Christ ressuscité, Soleil levant qui viens nous visiter, alléluia&nbsp;!",
-    "intercession": "<p>Dans l’action de grâce, prions le Christ, le Fils du Dieu vivant&nbsp;:</p> <p>R/ Alléluia&nbsp;!</p> <p>Seigneur Jésus, lumière de lumière,<br> éclaire-nous en ce jour qui commence.</p> <p>Toi qui viens à notre rencontre,<br> sois de toutes nos rencontres aujourd’hui.</p> <p>Toi qui nous accueilles quand nous te recevons,<br> rends-nous accueillants à tous ceux qui te cherchent.</p> <p>Toi qui t’es fait nourriture et breuvage,<br> maintiens en nous l’énergie de l’eucharistie.</p> <p>Seigneur Jésus, lumière sur la vie et sur la mort des hommes,<br> éclaire à travers nous ceux qui sont heureux et ceux qui souffrent.</p> ",
-    "responsory": "<p>R/ Toi, la Résurrection et la Vie,<br>  * Jésus, tu as détruit la mort.<br> V/ Je mettrai en vous mon Esprit et vous vivrez. * <br> V/ Je suis le Seigneur&nbsp;: je l’ai dit et je le ferai. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Toi, la Résurrection et la Vie,<br>  * Jésus, tu as détruit la mort.<br> V/ Je mettrai en vous mon Esprit et vous vivrez. * <br> V/ Je suis le Seigneur&nbsp;: je l’ai dit et je le ferai. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Gloire à toi, Christ ressuscité, Soleil levant qui viens nous visiter, alléluia&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Dans l’action de grâce, prions le Christ, le Fils du Dieu vivant&nbsp;:</p> <p>R/ Alléluia&nbsp;!</p> <p>Seigneur Jésus, lumière de lumière,<br> éclaire-nous en ce jour qui commence.</p> <p>Toi qui viens à notre rencontre,<br> sois de toutes nos rencontres aujourd’hui.</p> <p>Toi qui nous accueilles quand nous te recevons,<br> rends-nous accueillants à tous ceux qui te cherchent.</p> <p>Toi qui t’es fait nourriture et breuvage,<br> maintiens en nous l’énergie de l’eucharistie.</p> <p>Seigneur Jésus, lumière sur la vie et sur la mort des hommes,<br> éclaire à travers nous ceux qui sont heureux et ceux qui souffrent.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -103,38 +117,9 @@
       "responsory": "<p>R/ Lorsque nous invoquons le Père,<br> ne nous séparons pas du Fils.</p> <p>Reconnaissons en lui notre voix,<br> reconnaissons en nous la sienne.</p> <p>Il prie pour nous, comme notre prêtre,<br> il prie en nous comme notre tête,<br> nous le prions comme notre Dieu.</p>"
     },
     "verse": "<p>V/ Si vous gardez ma parole,<br>vous saurez que vous êtes mes disciples.</p>",
-    "oration": "Dieu, éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_109",
-        "antiphon": [
-          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
-          "Au torrent il s’abreuve en chemin, c’est pourquoi il redresse la tête."
-        ]
-      },
-      {
-        "psalm": "PSALM_110",
-        "antiphon": [
-          "Dans sa tendresse, le Seigneur nous a laissé le mémorial de ses merveilles, alléluia.",
-          "Gloire à toi, Fils de Dieu, notre nouvelle Alliance pour toujours."
-        ]
-      },
-      {
-        "psalm": "NT_12"
-      }
-    ],
-    "reading": {
-      "ref": "1 P 1, 3-5",
-      "content": "Béni soit Dieu, le Père de Jésus Christ notre Seigneur&nbsp;: dans sa grande miséricorde, il nous a fait renaître grâce à la résurrection de Jésus Christ pour une vivante espérance, pour l’héritage qui ne connaîtra ni destruction, ni souillure, ni vieillissement. Cet héritage vous est réservé dans les cieux, à vous que la puissance de Dieu garde par la foi, en vue du salut qui est prêt à se manifester à la fin des temps."
-    },
-    "hymn": [
-      "reste-avec-nous-seigneur-jesus"
-    ],
-    "evangelicAntiphon": "Ressuscité des morts, le Christ ne meurt plus, alléluia&nbsp;! Sur lui la mort n’a plus aucun pouvoir, alléluia&nbsp;!",
-    "intercession": "<p>Invoquons notre Seigneur, le Christ toujours vivant qui intercède pour nous auprès de son Père&nbsp;:</p> <p> R/ Souviens-toi de ton peuple, Seigneur&nbsp;! </p> <p> Jésus, soleil de nos vies, tandis que baisse le jour, nous te prions pour tous les hommes&nbsp;:<br> qu’ils se confient toujours à ta lumière sans déclin.</p> <p> Regarde ceux que ton nom a rassemblés&nbsp;:<br> qu’ils soient le temple de ton Esprit Saint.</p> <p> Veille sur le pape N.&nbsp;:<br> donne-lui ta force et ta joie.</p> <p> Conduis ceux qui cherchent ici-bas leur chemin&nbsp;:<br> qu’ils arrivent au bout du voyage.</p> <p> Prends avec toi les défunts&nbsp;:<br> qu’ils reposent dans la paix.</p>",
-    "responsory": "<p>R/ Béni soit le Seigneur&nbsp;:<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Du levant au couchant du soleil.  * <br> V/ Maintenant et pour les siècles des siècles.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "oration": [
+      "Dieu, éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -158,8 +143,42 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
-  "sundayEvangelicAntiphonC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture.",
-  "sundayEvangelicAntiphonA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
-  "readingHymn": "au-commencement"
+  "vespers": {
+    "hymn": [
+      "reste-avec-nous-seigneur-jesus"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_109",
+        "antiphon": [
+          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
+          "Au torrent il s’abreuve en chemin, c’est pourquoi il redresse la tête."
+        ]
+      },
+      {
+        "psalm": "PSALM_110",
+        "antiphon": [
+          "Dans sa tendresse, le Seigneur nous a laissé le mémorial de ses merveilles, alléluia.",
+          "Gloire à toi, Fils de Dieu, notre nouvelle Alliance pour toujours."
+        ]
+      },
+      {
+        "psalm": "NT_12"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 P 1, 3-5",
+      "content": "Béni soit Dieu, le Père de Jésus Christ notre Seigneur&nbsp;: dans sa grande miséricorde, il nous a fait renaître grâce à la résurrection de Jésus Christ pour une vivante espérance, pour l’héritage qui ne connaîtra ni destruction, ni souillure, ni vieillissement. Cet héritage vous est réservé dans les cieux, à vous que la puissance de Dieu garde par la foi, en vue du salut qui est prêt à se manifester à la fin des temps."
+    },
+    "responsory": "<p>R/ Béni soit le Seigneur&nbsp;:<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Du levant au couchant du soleil.  * <br> V/ Maintenant et pour les siècles des siècles.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Ressuscité des morts, le Christ ne meurt plus, alléluia&nbsp;! Sur lui la mort n’a plus aucun pouvoir, alléluia&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Invoquons notre Seigneur, le Christ toujours vivant qui intercède pour nous auprès de son Père&nbsp;:</p> <p> R/ Souviens-toi de ton peuple, Seigneur&nbsp;! </p> <p> Jésus, soleil de nos vies, tandis que baisse le jour, nous te prions pour tous les hommes&nbsp;:<br> qu’ils se confient toujours à ta lumière sans déclin.</p> <p> Regarde ceux que ton nom a rassemblés&nbsp;:<br> qu’ils soient le temple de ton Esprit Saint.</p> <p> Veille sur le pape N.&nbsp;:<br> donne-lui ta force et ta joie.</p> <p> Conduis ceux qui cherchent ici-bas leur chemin&nbsp;:<br> qu’ils arrivent au bout du voyage.</p> <p> Prends avec toi les défunts&nbsp;:<br> qu’ils reposent dans la paix.</p>"
+    }
+  }
 }

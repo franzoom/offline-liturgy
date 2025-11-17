@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "splendeur-jaillie-du-sein-de-dieu"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_83",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 12-13",
+      "biblicalReference": "Jc 2, 12-13",
       "content": "Parlez et agissez comme des gens qui vont être jugés par une loi de liberté. Car le jugement est sans miséricorde pour celui qui n’a pas fait miséricorde, mais la miséricorde se moque du jugement."
     },
-    "hymn": [
-      "splendeur-jaillie-du-sein-de-dieu"
-    ],
-    "evangelicAntiphon": "Seigneur, Dieu de l’univers, heureux qui espère en toi&nbsp;!",
-    "intercession": "<p>Dieu notre Maître, nous te supplions&nbsp;:</p> <p>R/ Que brille sur nous ton visage&nbsp;!</p> <p>Ouvre les yeux de notre cœur, que nous puissions te connaître.</p> <p>Délivre-nous du péché par ta puissance.</p> <p>Garde-nous de craindre ceux qui nous haïssent.</p> <p>Fais-nous vivre dans la concorde et la paix,<br> ainsi que tous les habitants de la terre.</p> <p>Accorde à tes enfants la joie et le bonheur.</p> ",
     "responsory": "<p>R/ Heureux qui pense au faible et au pauvre&nbsp;:<br>  * Il obtiendra miséricorde.<br> V/ L’homme de bien a pitié, il partage&nbsp;:&nbsp; * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur, Roi du ciel et de la terre, dirige et sanctifie, ordonne et gouverne aujourd’hui nos cœurs et nos corps, nos pensées, nos paroles et nos actions&nbsp;: fais-nous suivre ta volonté et tes ordres afin qu’ici bas et pour toujours nous vivions, par ta grâce, libres et sauvés. Toi qui règnes."
+    "evangelicAntiphon": {
+      "common": "Seigneur, Dieu de l’univers, heureux qui espère en toi&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Dieu notre Maître, nous te supplions&nbsp;:</p> <p>R/ Que brille sur nous ton visage&nbsp;!</p> <p>Ouvre les yeux de notre cœur, que nous puissions te connaître.</p> <p>Délivre-nous du péché par ta puissance.</p> <p>Garde-nous de craindre ceux qui nous haïssent.</p> <p>Fais-nous vivre dans la concorde et la paix,<br> ainsi que tous les habitants de la terre.</p> <p>Accorde à tes enfants la joie et le bonheur.</p> "
+    },
+    "oration": [
+      "Seigneur, Roi du ciel et de la terre, dirige et sanctifie, ordonne et gouverne aujourd’hui nos cœurs et nos corps, nos pensées, nos paroles et nos actions&nbsp;: fais-nous suivre ta volonté et tes ordres afin qu’ici bas et pour toujours nous vivions, par ta grâce, libres et sauvés. Toi qui règnes."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,42 +83,9 @@
       "responsory": "<p>R/ Dieu créa l’homme à son image&nbsp;:<br> homme et femme il les créa.</p> <p>Une femme parfaite est la joie de son mari&nbsp;;<br> il passera dans la paix les années de sa vie.</p> <p>La grâce d’une femme est à l’intérieur du cœur,<br> parure incorruptible d’un esprit doux et paisible.</p> <p>Le Christ est l’époux de l’Église&nbsp;;<br> il l’a aimée et s’est livré pour elle.</p>"
     },
     "verse": "<p>V/ Écoute ma loi, ô mon peuple.<br>Je suis le Seigneur, ton Dieu.</p>",
-    "oration": "Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière&nbsp;; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_122",
-        "antiphon": [
-          "Nos yeux levés vers toi, Seigneur, attendent ta pitié.",
-          "Ce que veut mon Père, je le fais toujours."
-        ]
-      },
-      {
-        "psalm": "PSALM_123",
-        "antiphon": [
-          "Notre secours est dans le nom du Seigneur qui a fait le ciel et la terre.",
-          "C’est par beaucoup de souffrances qu’on parvient au Royaume de Dieu."
-        ]
-      },
-      {
-        "psalm": "NT_4",
-        "antiphon": [
-          "Béni sois-tu, notre Père, qui nous as bénis dans le Christ&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "Jc 4, 11-12",
-      "content": "Frères, cessez de dire du mal les uns des autres&nbsp;; dire du mal de son frère ou juger son frère, c’est dire du mal de la Loi et juger la Loi. Or, si tu juges la Loi, tu n’en es plus le fidèle sujet, tu en es le juge. Un seul est à la fois législateur et juge, celui qui a le pouvoir de sauver et de perdre. Pour qui te prends-tu donc, toi qui juges ton prochain&nbsp;?"
-    },
-    "hymn": [
-      "o-dieu-qui-fis-jaillir-de-l-ombre"
-    ],
-    "evangelicAntiphon": "Heureux ceux qui pleurent&nbsp;: ils seront consolés&nbsp;!",
-    "intercession": "<p>Prions Dieu, Maître de l’univers, Père des hommes&nbsp;:</p> <p> R/ Seigneur, sauve-nous. </p> <p> Sauve les opprimés.</p> <p> Prends pitié des petits.</p> <p> Relève ceux qui tombent.</p> <p> Montre-toi aux désemparés.</p> <p> Guéris les malades.</p> <p> Rassasie les affamés.</p> <p> Libère les prisonniers.</p> <p> Fortifie les faibles.</p> <p> Affermis la foi des timides.</p> <p> Rassemble tes fils égarés.</p>",
-    "responsory": "<p>R/ Heureux qui ne juge pas&nbsp;:<br>  *  Il ne sera pas jugé.<br> V/ &nbsp;Celui qui aime son frère<br> demeure dans la lumière.&nbsp; * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu de lumière, à l’heure où le soir tombe, nous te prions d’illuminer nos ténèbres et de fermer les yeux sur nos péchés."
+    "oration": [
+      "Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière&nbsp;; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -133,8 +109,48 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
-  "sundayEvangelicAntiphonC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture.",
-  "sundayEvangelicAntiphonA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
-  "readingHymn": "dieu-ce-monde-etait-encore-absent"
+  "vespers": {
+    "hymn": [
+      "o-dieu-qui-fis-jaillir-de-l-ombre"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_122",
+        "antiphon": [
+          "Nos yeux levés vers toi, Seigneur, attendent ta pitié.",
+          "Ce que veut mon Père, je le fais toujours."
+        ]
+      },
+      {
+        "psalm": "PSALM_123",
+        "antiphon": [
+          "Notre secours est dans le nom du Seigneur qui a fait le ciel et la terre.",
+          "C’est par beaucoup de souffrances qu’on parvient au Royaume de Dieu."
+        ]
+      },
+      {
+        "psalm": "NT_4",
+        "antiphon": [
+          "Béni sois-tu, notre Père, qui nous as bénis dans le Christ&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "Jc 4, 11-12",
+      "content": "Frères, cessez de dire du mal les uns des autres&nbsp;; dire du mal de son frère ou juger son frère, c’est dire du mal de la Loi et juger la Loi. Or, si tu juges la Loi, tu n’en es plus le fidèle sujet, tu en es le juge. Un seul est à la fois législateur et juge, celui qui a le pouvoir de sauver et de perdre. Pour qui te prends-tu donc, toi qui juges ton prochain&nbsp;?"
+    },
+    "responsory": "<p>R/ Heureux qui ne juge pas&nbsp;:<br>  *  Il ne sera pas jugé.<br> V/ &nbsp;Celui qui aime son frère<br> demeure dans la lumière.&nbsp; * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Heureux ceux qui pleurent&nbsp;: ils seront consolés&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Prions Dieu, Maître de l’univers, Père des hommes&nbsp;:</p> <p> R/ Seigneur, sauve-nous. </p> <p> Sauve les opprimés.</p> <p> Prends pitié des petits.</p> <p> Relève ceux qui tombent.</p> <p> Montre-toi aux désemparés.</p> <p> Guéris les malades.</p> <p> Rassasie les affamés.</p> <p> Libère les prisonniers.</p> <p> Fortifie les faibles.</p> <p> Affermis la foi des timides.</p> <p> Rassemble tes fils égarés.</p>"
+    },
+    "oration": [
+      "Dieu de lumière, à l’heure où le soir tombe, nous te prions d’illuminer nos ténèbres et de fermer les yeux sur nos péchés."
+    ]
+  }
 }

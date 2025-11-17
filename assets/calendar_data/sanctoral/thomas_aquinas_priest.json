@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "S. Thomas d’Aquin",
+    "subtitle": "prêtre et docteur de l’Église",
+    "description": "Thomas d’Aquin (1225-1274) a réalisé en plénitude l’idéal dominicain : contempler et transmettre aux autres le fruit de sa contemplation. Philosophe et théologien, professeur, Thomas a beaucoup réfléchi, beaucoup enseigné, beaucoup écrit. Mais, contemplatif avant tout, il a surtout beaucoup prié et il s’est soumis à une rude discipline pour accéder à la pure Lumière.",
+    "commons": [
+      "pastors",
+      "doctors"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Bénis soit le Seigneur&nbsp;! Thomas l’a aimé dans la prière, le travail et la recherche de la vérité."
+    "evangelicAntiphon": {
+      "common": "Bénis soit le Seigneur&nbsp;! Thomas l’a aimé dans la prière, le travail et la recherche de la vérité."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,16 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "À ceux qui la désirent la Sagesse est donnée&nbsp;; ceux qui la possèdent deviennent amis de Dieu."
+    "evangelicAntiphon": {
+      "common": "À ceux qui la désirent la Sagesse est donnée&nbsp;; ceux qui la possèdent deviennent amis de Dieu."
+    }
   },
-  "celebrationTitle": "S. Thomas d’Aquin",
-  "celebrationSubtitle": "prêtre et docteur de l’Église",
-  "celebrationDescription": "Thomas d’Aquin (1225-1274) a réalisé en plénitude l’idéal dominicain : contempler et transmettre aux autres le fruit de sa contemplation. Philosophe et théologien, professeur, Thomas a beaucoup réfléchi, beaucoup enseigné, beaucoup écrit. Mais, contemplatif avant tout, il a surtout beaucoup prié et il s’est soumis à une rude discipline pour accéder à la pure Lumière.",
-  "liturgicalGrade": 10,
-  "commons": [
-    "pastors",
-    "doctors"
-  ],
-  "liturgicalColor": "white",
-  "oration": "Dieu qui as fait de saint Thomas d’Aquin un modèle admirable par sa recherche d’une vie sainte et son amour de la science sacrée, accorde-nous de comprendre ses enseignements et de suivre ses exemples."
+  "oration": [
+    "Dieu qui as fait de saint Thomas d’Aquin un modèle admirable par sa recherche d’une vie sainte et son amour de la science sacrée, accorde-nous de comprendre ses enseignements et de suivre ses exemples."
+  ]
 }

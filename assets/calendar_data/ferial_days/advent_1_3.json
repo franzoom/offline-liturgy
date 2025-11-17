@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 7, 14b-15",
+      "biblicalReference": "Is 7, 14b-15",
       "content": "Voici que la jeune femme est enceinte, elle enfantera un fils, et on l’appellera Emmanuel, (c’est-à-dire&nbsp;: Dieu avec nous). De crème et de miel il se nourrira, et il saura rejeter le mal et choisir le bien."
     },
-    "evangelicAntiphon": "Il vient après moi, celui qui est plus grand que moi.",
-    "intercession": "<p>Verbe de Dieu, venu partager notre condition d’homme, fais grandir en nous le désir d’avoir part à ta gloire.</p> <p>R/ En toi notre salut, Seigneur, Emmanuel&nbsp;!</p> <p>Prince de la paix, venu pour changer les épées en charrues et les lances en faucilles,<br> fais-nous passer de la haine à l’amour, de l’injure au pardon.</p> <p>Envoyé du Père pour annoncer la délivrance des captifs,<br> rends-nous solidaires de la lutte pour la justice et la vérité.</p> <p>Maître de justice, qui ne juges pas sur l’apparence,<br> donne-nous de vivre dans l’humilité et d’accomplir la vérité.</p> <p>Quand tu viendras avec puissance et grande gloire,<br> accorde-nous de paraître devant toi dans l’assurance de ta miséricorde.</p> ",
-    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente, * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte, * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente, * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte, * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Il vient après moi, celui qui est plus grand que moi."
+    },
+    "intercession": {
+      "content": "<p>Verbe de Dieu, venu partager notre condition d’homme, fais grandir en nous le désir d’avoir part à ta gloire.</p> <p>R/ En toi notre salut, Seigneur, Emmanuel&nbsp;!</p> <p>Prince de la paix, venu pour changer les épées en charrues et les lances en faucilles,<br> fais-nous passer de la haine à l’amour, de l’injure au pardon.</p> <p>Envoyé du Père pour annoncer la délivrance des captifs,<br> rends-nous solidaires de la lutte pour la justice et la vérité.</p> <p>Maître de justice, qui ne juges pas sur l’apparence,<br> donne-nous de vivre dans l’humilité et d’accomplir la vérité.</p> <p>Quand tu viendras avec puissance et grande gloire,<br> accorde-nous de paraître devant toi dans l’assurance de ta miséricorde.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ Viens bientôt, Sauveur du monde,<br> Lève-toi, clarté d’en haut&nbsp;;<br> Vrai soleil du jour nouveau,<br> Viens percer la nuit profonde.</p> <p>Ta naissance dans l’histoire<br> transfigure nos tourments<br> En douleurs d’enfantement<br> Où, déjà, surgit ta gloire.</p>"
     },
     "verse": "<p>V/ Viens, Seigneur, montre-nous ton visage,<br> et nous serons sauvés.<br></p>",
-    "oration": "Apprête nos cœurs, Dieu très bon, par la puissance de ta grâce, pour qu’au jour où ton Fils viendra, il nous juge dignes de prendre place à sa table et de recevoir, de sa main, le pain du ciel. Lui qui règne."
+    "oration": [
+      "Apprête nos cœurs, Dieu très bon, par la puissance de ta grâce, pour qu’au jour où ton Fils viendra, il nous juge dignes de prendre place à sa table et de recevoir, de sa main, le pain du ciel. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_2",
+        "antiphon": [
+          "Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance."
+        ]
+      },
+      {
+        "psalm": "PSALM_16_1"
+      },
+      {
+        "psalm": "PSALM_16_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 4, 5",
+      "biblicalReference": "1 Co 4, 5",
       "content": "Ne portez pas de jugement prématuré, mais attendez la venue du Seigneur, car il mettra en lumière ce qui est caché dans les ténèbres, et il fera paraître les intentions secrètes. Alors, la louange qui revient à chacun lui sera donnée par Dieu."
     },
-    "evangelicAntiphon": "La loi viendra de Sion, et de Jérusalem, la parole du Seigneur&nbsp;!",
-    "intercession": "<p>Dieu fidèle, prends soin de ton Église, cette vigne que ta main a plantée, inspire ses pasteurs pour qu’ils veillent sur sa fidélité.</p> <p>R/ Que vienne, Seigneur, ton règne de paix&nbsp;!</p> <p>Souviens-toi de tous les fils d’Abraham,<br> —&nbsp;accomplis tes promesses, élargis le cœur des chrétiens.</p> <p>Regarde tous les peuples de la terre,<br> —&nbsp;donne-leur de découvrir ton amour sans limite.</p> <p>Soutiens à travers le monde tous les artisans de paix,<br> —&nbsp;qu’ils ne se lassent pas d’espérer ton Royaume.</p> <p>Rappelle à toi tous ceux qui ont quitté cette vie,<br> —&nbsp;reçois-les dans la gloire auprès de toi.</p> ",
-    "responsory": "<p>R/ Voici le temps favorable,<br>  *  Voici le jour du salut&nbsp;!<br> V/ Le Royaume de Dieu est tout proche.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_2",
-        "antiphon": [
-          "Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance."
-        ]
-      },
-      {
-        "psalm": "PSALM_16_1"
-      },
-      {
-        "psalm": "PSALM_16_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le temps favorable,<br>  *  Voici le jour du salut&nbsp;!<br> V/ Le Royaume de Dieu est tout proche.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "La loi viendra de Sion, et de Jérusalem, la parole du Seigneur&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Dieu fidèle, prends soin de ton Église, cette vigne que ta main a plantée, inspire ses pasteurs pour qu’ils veillent sur sa fidélité.</p> <p>R/ Que vienne, Seigneur, ton règne de paix&nbsp;!</p> <p>Souviens-toi de tous les fils d’Abraham,<br> —&nbsp;accomplis tes promesses, élargis le cœur des chrétiens.</p> <p>Regarde tous les peuples de la terre,<br> —&nbsp;donne-leur de découvrir ton amour sans limite.</p> <p>Soutiens à travers le monde tous les artisans de paix,<br> —&nbsp;qu’ils ne se lassent pas d’espérer ton Royaume.</p> <p>Rappelle à toi tous ceux qui ont quitté cette vie,<br> —&nbsp;reçois-les dans la gloire auprès de toi.</p> "
+    }
   }
 }

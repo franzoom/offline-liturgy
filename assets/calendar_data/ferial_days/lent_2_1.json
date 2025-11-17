@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Ex 19, 4-6a",
+      "biblicalReference": "Ex 19, 4-6a",
       "content": "Vous avez vu comment je vous ai portés comme sur les ailes d’un aigle pour vous amener jusqu’à moi. Et maintenant, si vous entendez ma voix et gardez mon Alliance, vous serez mon domaine particulier parmi tous les peuples —&nbsp;car toute la terre m’appartient&nbsp;— et vous serez pour moi un royaume de prêtres, une nation sainte."
     },
-    "evangelicAntiphon": "Soyez miséricordieux comme votre Père est miséricordieux.",
-    "intercession": "<p>Dieu libre et saint, enseigne-nous ta loi de liberté.</p> <p>R/ Enseigne-nous ta loi de liberté.</p> <p>Ouvre notre esprit au sens caché de l’univers.</p> <p>Détache-nous des idoles formées par nos désirs.</p> <p>Apprends-nous à donner de notre nécessaire.</p> <p>Ne nous laisse pas asservir par l’argent.</p> <p>Donne à tous la joie de travailler à ton œuvre.</p> <p>Fais-nous voir en tout homme l’homme libéré par le Christ.</p> ",
     "responsory": "<p>R/ Heureux le peuple qui a pour Dieu le Seigneur&nbsp;!<br> V/ Courons notre épreuve, <br>les yeux fixés sur Jésus.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    "evangelicAntiphon": {
+      "common": "Soyez miséricordieux comme votre Père est miséricordieux."
+    },
+    "intercession": {
+      "content": "<p>Dieu libre et saint, enseigne-nous ta loi de liberté.</p> <p>R/ Enseigne-nous ta loi de liberté.</p> <p>Ouvre notre esprit au sens caché de l’univers.</p> <p>Détache-nous des idoles formées par nos désirs.</p> <p>Apprends-nous à donner de notre nécessaire.</p> <p>Ne nous laisse pas asservir par l’argent.</p> <p>Donne à tous la joie de travailler à ton œuvre.</p> <p>Fais-nous voir en tout homme l’homme libéré par le Christ.</p> "
+    },
+    "oration": [
+      "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Qui est vainqueur du monde,<br> sinon celui qui croit&nbsp;?</p> <p>Par la foi,<br> Moïse choisit d’être maltraité avec son peuple<br> plutôt que de jouir pour un temps du péché.</p> <p>Par la foi,<br> Moïse considéra l’humiliation du Christ<br> comme un trésor plus grand<br> que les richesses d’Égypte.</p>"
     },
     "verse": "<p>V/ Seigneur, à qui irions-nous&nbsp;?<br>Tu as les paroles de la vie éternelle.</p>",
-    "oration": "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    "oration": [
+      "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_6",
+        "antiphon": [
+          "C’est l’amour que je veux, dit le Seigneur, et non les sacrifices."
+        ]
+      },
+      {
+        "psalm": "PSALM_39_1"
+      },
+      {
+        "psalm": "PSALM_39_2"
+      }
+    ],
+    "oration": [
+      "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,29 +117,18 @@
       }
     ],
     "reading": {
-      "ref": "Rm 12, 1-2",
+      "biblicalReference": "Rm 12, 1-2",
       "content": "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu&nbsp;: c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez­-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu&nbsp;: ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait."
     },
-    "evangelicAntiphon": "Ne jugez pas, et vous ne serez pas jugés.",
-    "intercession": "<p>Reçois notre vie, Dieu créateur,<br> comme un sacrifice vivant et saint.</p> <p>R/ Que ton amour, Seigneur, soit sur nous&nbsp;!</p> <p>Renouvelle notre cœur,<br> fais-nous connaître ta volonté.</p> <p>Fortifie-nous contre l’esprit du monde,<br> brise nos résistances à ton Esprit.</p> <p>Éclaire-nous sur nous-mêmes&nbsp;:<br> donne-nous d’aimer l’œuvre de tes mains.</p> <p>Apprends-nous à te rencontrer&nbsp;:<br> montre-nous en chacun ta présence et tes dons.</p> <p>Achève en nos défunts ton œuvre de salut,<br> reçois leur vie, Dieu créateur.</p> ",
     "responsory": "<p>R/ J’appelle de tout cœur&nbsp;:<br>  *  Réponds-moi, Seigneur&nbsp;!<br> V/ Je garderai tes volontés.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_6",
-        "antiphon": [
-          "C’est l’amour que je veux, dit le Seigneur, et non les sacrifices."
-        ]
-      },
-      {
-        "psalm": "PSALM_39_1"
-      },
-      {
-        "psalm": "PSALM_39_2"
-      }
-    ],
-    "oration": "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    "evangelicAntiphon": {
+      "common": "Ne jugez pas, et vous ne serez pas jugés."
+    },
+    "intercession": {
+      "content": "<p>Reçois notre vie, Dieu créateur,<br> comme un sacrifice vivant et saint.</p> <p>R/ Que ton amour, Seigneur, soit sur nous&nbsp;!</p> <p>Renouvelle notre cœur,<br> fais-nous connaître ta volonté.</p> <p>Fortifie-nous contre l’esprit du monde,<br> brise nos résistances à ton Esprit.</p> <p>Éclaire-nous sur nous-mêmes&nbsp;:<br> donne-nous d’aimer l’œuvre de tes mains.</p> <p>Apprends-nous à te rencontrer&nbsp;:<br> montre-nous en chacun ta présence et tes dons.</p> <p>Achève en nos défunts ton œuvre de salut,<br> reçois leur vie, Dieu créateur.</p> "
+    },
+    "oration": [
+      "Pour guérir nos âmes, Seigneur, tu nous prescris de discipliner nos corps&nbsp;; donne-nous de pouvoir nous garder du péché et de répondre ainsi aux exigences de ton amour."
+    ]
   }
 }

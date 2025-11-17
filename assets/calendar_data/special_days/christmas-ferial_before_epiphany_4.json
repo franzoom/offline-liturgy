@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "4 janvier (avant l’Épiphanie)",
+    "grade": 13,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "Is 45, 22-23",
+      "biblicalReference": "Is 45, 22-23",
       "content": "Tournez-vous vers moi pour être sauvés, habitants de la terre entière. Car c’est moi qui suis Dieu, il n’y en a pas d’autre. Je le jure par moi-même —&nbsp;de ma bouche sortira le salut, cette parole ne reviendra pas en arrière —&nbsp;: devant moi toute créature tombera à genoux, par moi jurera toute langue."
     },
-    "evangelicAntiphon": "L’homme nouveau est né dans le Christ&nbsp;: il prend notre chair et sa faiblesse, et Dieu lui-même demeure en lui, alléluia.",
-    "intercession": "<p>Soyons dans la joie pour invoquer le Verbe de Dieu qui s’est manifesté en notre chair&nbsp;:</p> <p>R/Seigneur, sois notre vie&nbsp;!</p> <p>Libérateur du genre humain,<br> tu es né de la Vierge Marie pour nous renouveler&nbsp;:<br> —&nbsp;à sa prière préserve-nous du vieillissement du péché.</p> <p>Tu as fait briller sur la terre la justice du ciel&nbsp;:<br> —&nbsp;que cette lumière nous conduise aujourd’hui.</p> <p>Tu nous as manifesté l’amour infini de ton Père&nbsp;:<br> —&nbsp;que notre vie le révèle à nos frères.</p> <p>Tu as choisi d’habiter parmi nous&nbsp;:<br> —&nbsp;rends-nous dignes de ta présence.</p>",
-    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "L’homme nouveau est né dans le Christ&nbsp;: il prend notre chair et sa faiblesse, et Dieu lui-même demeure en lui, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Soyons dans la joie pour invoquer le Verbe de Dieu qui s’est manifesté en notre chair&nbsp;:</p> <p>R/Seigneur, sois notre vie&nbsp;!</p> <p>Libérateur du genre humain,<br> tu es né de la Vierge Marie pour nous renouveler&nbsp;:<br> —&nbsp;à sa prière préserve-nous du vieillissement du péché.</p> <p>Tu as fait briller sur la terre la justice du ciel&nbsp;:<br> —&nbsp;que cette lumière nous conduise aujourd’hui.</p> <p>Tu nous as manifesté l’amour infini de ton Père&nbsp;:<br> —&nbsp;que notre vie le révèle à nos frères.</p> <p>Tu as choisi d’habiter parmi nous&nbsp;:<br> —&nbsp;rends-nous dignes de ta présence.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -23,40 +32,43 @@
     },
     "verse": "<p>V/ Le Verbe était la vie,<br> lumière pour les hommes.</p>"
   },
-  "vespers": {
-    "reading": {
-      "ref": "Rm 8, 3-4",
-      "content": "Quand Dieu a envoyé son propre Fils dans notre condition humaine de pécheurs pour vaincre le péché, il a fait ce que la loi de Moïse ne pouvait pas faire à cause de la faiblesse humaine&nbsp;: il a détruit le péché dans l’homme charnel. Il voulait ainsi que les exigences de la Loi se réalisent en nous qui ne vivons pas sous l’emprise de la chair, mais de l’Esprit."
-    },
-    "evangelicAntiphon": "Je suis sorti de Dieu&nbsp;; je ne viens pas de moi-même&nbsp;: c’est mon Père qui m’envoie.",
-    "intercession": "<p>Pour que l’Église accueille dans la ferveur la lumière du Christ,</p> <p>R/Dieu fidèle, nous te prions&nbsp;!</p> <p>Pour que tout homme renaisse à une vie nouvelle, <p>Pour que les pauvres, les prisonniers, les réfugiés soient visités par la paix de Noël,</p> <p>Pour que l’amour de nos frères soit rencontre du Verbe incarné,</p> <p>Pour que nos cœurs s’émerveillent du don que tu nous fais en ton Christ,</p> <p>Pour que tes serviteurs défunts soient illuminés par la naissance de Jésus,</p> <p>Pour que notre joie soit parfaite.</p>",
-    "responsory": "<p>R/ Image du Dieu invisible,<br> * Christ est le commencement.<br> V/ Né avant toute créature,&nbsp;*<br> V/ Premier-né d’entre les morts,&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Cf. Jr 31, 7-8",
+        "biblicalReference": "Cf. Jr 31, 7-8",
         "content": "Poussez des cris de joie pour Jacob&nbsp;! Faites résonner vos louanges et criez tous&nbsp;: Seigneur, sauve ton peuple, le reste d’Israël&nbsp;! Voici que je les fais revenir du pays du Nord, et que je les rassemble des extrémités du monde."
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "Jr 31, 11-12",
+        "biblicalReference": "Jr 31, 11-12",
         "content": "Le Seigneur a racheté Jacob, il l’a délivré de la main d’un plus fort. Ils viendront, hurlant de joie au mont Sion, ils afflueront vers les biens du Seigneur."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Za 8, 7-8",
+        "biblicalReference": "Za 8, 7-8",
         "content": "Voici que je sauve mon peuple, en le ramenant du pays de l’orient et du pays de l’occident. Je les ferai venir pour qu’ils demeurent au milieu de Jérusalem. Ils seront mon peuple et je serai leur Dieu, dans la fidélité et la justice."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "4 janvier (avant l’Épiphanie)",
-  "liturgicalColor": "white",
-  "liturgicalGrade": 13,
-  "oration": "Dieu éternel et tout-puissant, une lumière nouvelle dans les cieux a fait connaître que le Sauveur venait racheter le monde&nbsp;; nous t’en prions&nbsp;: que cette lumière du salut se lève chaque jour pour le renouveau de nos cœurs."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "Rm 8, 3-4",
+      "content": "Quand Dieu a envoyé son propre Fils dans notre condition humaine de pécheurs pour vaincre le péché, il a fait ce que la loi de Moïse ne pouvait pas faire à cause de la faiblesse humaine&nbsp;: il a détruit le péché dans l’homme charnel. Il voulait ainsi que les exigences de la Loi se réalisent en nous qui ne vivons pas sous l’emprise de la chair, mais de l’Esprit."
+    },
+    "responsory": "<p>R/ Image du Dieu invisible,<br> * Christ est le commencement.<br> V/ Né avant toute créature,&nbsp;*<br> V/ Premier-né d’entre les morts,&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Je suis sorti de Dieu&nbsp;; je ne viens pas de moi-même&nbsp;: c’est mon Père qui m’envoie."
+    },
+    "intercession": {
+      "content": "<p>Pour que l’Église accueille dans la ferveur la lumière du Christ,</p> <p>R/Dieu fidèle, nous te prions&nbsp;!</p> <p>Pour que tout homme renaisse à une vie nouvelle, <p>Pour que les pauvres, les prisonniers, les réfugiés soient visités par la paix de Noël,</p> <p>Pour que l’amour de nos frères soit rencontre du Verbe incarné,</p> <p>Pour que nos cœurs s’émerveillent du don que tu nous fais en ton Christ,</p> <p>Pour que tes serviteurs défunts soient illuminés par la naissance de Jésus,</p> <p>Pour que notre joie soit parfaite.</p>"
+    }
+  },
+  "oration": [
+    "Dieu éternel et tout-puissant, une lumière nouvelle dans les cieux a fait connaître que le Sauveur venait racheter le monde&nbsp;; nous t’en prions&nbsp;: que cette lumière du salut se lève chaque jour pour le renouveau de nos cœurs."
+  ]
 }

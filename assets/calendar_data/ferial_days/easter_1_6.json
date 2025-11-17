@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Rm 14, 7-9",
+      "biblicalReference": "Rm 14, 7-9",
       "content": "Aucun d’entre nous ne vit pour soi-même, et aucun ne meurt pour soi-même&nbsp;: si nous vivons, nous vivons pour le Seigneur&nbsp;; si nous mourons, nous mourons pour le Seigneur. Dans notre vie comme dans notre mort, nous appartenons au Seigneur. Car, si le Christ a connu la mort, puis la vie, c’est pour devenir le Seigneur et des morts et des vivants."
     },
-    "evangelicAntiphon": "Ressuscité le premier jour de la semaine, Jésus se manifesta d’abord à Marie de Magdala, alléluia.",
-    "intercession": "<p>Jésus de Nazareth, reconnu Fils de Dieu par ta résurrection,<br> –&nbsp;bénis et sanctifie tous les hommes.</p> <p>R/ Souviens-toi de tes frères.</p> <p>Premier des vivants, tu fais renaître celui qui croit en toi,<br> –&nbsp;donne aux baptisés de vivre en fils de lumière.</p> <p>Toi qui soutiens la confiance de ton Église en marche,<br> –&nbsp;donne-lui d’annoncer hardiment ta résurrection.</p> <p>Tu es entré, après beaucoup de souffrances, dans la gloire du Père,<br> –&nbsp;transforme en joie la peine des hommes.</p> <p>Tu nous appelles au festin du Royaume,<br> –&nbsp;sois le pain qui nous ressuscitera au dernier jour.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Pâque nouvelle, fête de l’Esprit&nbsp;!<br> Victoire du Seigneur, victoire sur la mort.&nbsp;R/ <br> V/ Pâque nouvelle, joie de l’univers&nbsp;!<br> Alléluia&nbsp;! Alléluia&nbsp;! Alléluia&nbsp;!R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Pâque nouvelle, fête de l’Esprit&nbsp;!<br> Victoire du Seigneur, victoire sur la mort.&nbsp;R/ <br> V/ Pâque nouvelle, joie de l’univers&nbsp;!<br> Alléluia&nbsp;! Alléluia&nbsp;! Alléluia&nbsp;!R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Ressuscité le premier jour de la semaine, Jésus se manifesta d’abord à Marie de Magdala, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Jésus de Nazareth, reconnu Fils de Dieu par ta résurrection,<br> –&nbsp;bénis et sanctifie tous les hommes.</p> <p>R/ Souviens-toi de tes frères.</p> <p>Premier des vivants, tu fais renaître celui qui croit en toi,<br> –&nbsp;donne aux baptisés de vivre en fils de lumière.</p> <p>Toi qui soutiens la confiance de ton Église en marche,<br> –&nbsp;donne-lui d’annoncer hardiment ta résurrection.</p> <p>Tu es entré, après beaucoup de souffrances, dans la gloire du Père,<br> –&nbsp;transforme en joie la peine des hommes.</p> <p>Tu nous appelles au festin du Royaume,<br> –&nbsp;sois le pain qui nous ressuscitera au dernier jour.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>Nous partageons le Pain nouveau,<br> La table fraternelle,<br> Le Corps brisé, la chair du Fils de Dieu,<br> Pâque des chrétiens.</p> <p>Nous célébrons le Vin nouveau,<br> La coupe de lumière,<br> Le Sang jailli du Cœur de Jésus Christ,<br> Vie des baptisés.</p>"
     },
     "verse": "<p>V/ Dieu a ressuscité le Christ d’entre les morts, alléluia.<br>En lui notre foi et notre espoir, alléluia.</p>",
-    "oration": "Dieu qui donnes sans cesse ta grâce pour augmenter le nombre de tes enfants, veille sur ceux que tu viens d’agréger à ton peuple&nbsp;; ils ont pris naissance dans le baptême&nbsp;: qu’ils soient revêtus de l’immortalité du Christ, pour se présenter à la table de ses noces. Lui qui règne."
+    "oration": [
+      "Dieu qui donnes sans cesse ta grâce pour augmenter le nombre de tes enfants, veille sur ceux que tu viens d’agréger à ton peuple&nbsp;; ils ont pris naissance dans le baptême&nbsp;: qu’ils soient revêtus de l’immortalité du Christ, pour se présenter à la table de ses noces. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_5",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +114,15 @@
       }
     ],
     "reading": {
-      "ref": "1 P 2, 9-10",
+      "biblicalReference": "1 P 2, 9-10",
       "content": "C’est vous qui êtes la race choisie, le sacerdoce royal, la nation sainte, le peuple qui appartient à Dieu&nbsp;; vous êtes donc chargés d’annoncer les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Car autrefois vous n’étiez pas son peuple, mais aujourd’hui vous êtes le peuple de Dieu. Vous étiez privés d’amour, mais aujourd’hui Dieu vous a montré son amour."
     },
-    "evangelicAntiphon": "Le huitième jour, Jésus vint, toutes portes closes&nbsp;; il dit aux disciples&nbsp;: La paix soit avec vous&nbsp;! Alléluia&nbsp;!",
-    "intercession": "<p>Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix&nbsp;:</p> <p>R/ Souviens-toi de ton Église.</p> <p>Jésus, pierre rejetée par les bâtisseurs et devenue la pierre d’angle,<br> –&nbsp;fais de nous les pierres vivantes de ton Église.</p> <p>Jésus, témoin fidèle et vrai, premier-né d’entre les morts,<br> –&nbsp;donne à ton Église de témoigner hardiment au milieu du monde.</p> <p>Jésus, Époux de l’Église née de ton côté transpercé,<br> –&nbsp;accorde aux religieux d’entrer dans ce mystère d’alliance.</p> <p>Jésus, Premier et Dernier, qui étais mort et qui es vivant, <br> –&nbsp;fais grandir ta vie dans les baptisés.</p> <p>Jésus, flambeau de la Cité de Dieu,<br> –&nbsp;répands ta clarté sur les défunts.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;:<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_5",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;:<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le huitième jour, Jésus vint, toutes portes closes&nbsp;; il dit aux disciples&nbsp;: La paix soit avec vous&nbsp;! Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix&nbsp;:</p> <p>R/ Souviens-toi de ton Église.</p> <p>Jésus, pierre rejetée par les bâtisseurs et devenue la pierre d’angle,<br> –&nbsp;fais de nous les pierres vivantes de ton Église.</p> <p>Jésus, témoin fidèle et vrai, premier-né d’entre les morts,<br> –&nbsp;donne à ton Église de témoigner hardiment au milieu du monde.</p> <p>Jésus, Époux de l’Église née de ton côté transpercé,<br> –&nbsp;accorde aux religieux d’entrer dans ce mystère d’alliance.</p> <p>Jésus, Premier et Dernier, qui étais mort et qui es vivant, <br> –&nbsp;fais grandir ta vie dans les baptisés.</p> <p>Jésus, flambeau de la Cité de Dieu,<br> –&nbsp;répands ta clarté sur les défunts.</p> "
+    }
   }
 }

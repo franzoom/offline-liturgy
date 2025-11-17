@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "S. Basile le Grand et S. Grégoire de Naziance",
+    "subtitle": "évêques et docteurs de l’Église",
+    "description": "<p>Basile (330-379) mena d’abord la vie monastique et il rédigea des Règles que suivent encore de nos jours les moines d’Orient, puis il devint évêque de Césarée, sa ville natale (370). Tant par son action que par ses écrits il s’affirma comme le défenseur énergique des pauvres, le mainteneur de la liberté de l’Église et de l’intégrité de la foi.<br><br>Ami de Basile, dont il partagea la vie d’étudiant et de moine, Grégoire le Théologien (330‑389/390) fut, durant dix-huit mois, évêque de Constantinople (381) mais, peu doué pour l’action, il se retira ensuite à Nazianze où il était né. Il devait y vivre dans la contemplation de Dieu et la composition d’ouvrages d’une grande profondeur de pensée.</p>",
+    "commons": [
+      "pastors_multiple",
+      "doctors"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    "evangelicAntiphon": {
+      "common": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,16 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu."
+    "evangelicAntiphon": {
+      "common": "Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu."
+    }
   },
-  "celebrationTitle": "S. Basile le Grand et S. Grégoire de Naziance",
-  "celebrationSubtitle": "évêques et docteurs de l’Église",
-  "celebrationDescription": "<p>Basile (330-379) mena d’abord la vie monastique et il rédigea des Règles que suivent encore de nos jours les moines d’Orient, puis il devint évêque de Césarée, sa ville natale (370). Tant par son action que par ses écrits il s’affirma comme le défenseur énergique des pauvres, le mainteneur de la liberté de l’Église et de l’intégrité de la foi.<br><br>Ami de Basile, dont il partagea la vie d’étudiant et de moine, Grégoire le Théologien (330‑389/390) fut, durant dix-huit mois, évêque de Constantinople (381) mais, peu doué pour l’action, il se retira ensuite à Nazianze où il était né. Il devait y vivre dans la contemplation de Dieu et la composition d’ouvrages d’une grande profondeur de pensée.</p>",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors_multiple",
-    "doctors"
-  ],
-  "oration": "Tu as voulu, Seigneur, illuminer ton Église par l’enseignement et par les exemples de saint Basile et de saint Grégoire de Nazianze&nbsp;; accorde-nous de chercher humblement à connaître ta vérité pour que ta charité imprègne notre vie."
+  "oration": [
+    "Tu as voulu, Seigneur, illuminer ton Église par l’enseignement et par les exemples de saint Basile et de saint Grégoire de Nazianze&nbsp;; accorde-nous de chercher humblement à connaître ta vérité pour que ta charité imprègne notre vie."
+  ]
 }

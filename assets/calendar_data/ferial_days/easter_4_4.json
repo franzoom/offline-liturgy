@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Le serviteur n’est pas plus grand que son maître. S’il ressemble à son maître, il sera parfait, alléluia.",
-    "intercession": "<p>Ô Christ, Fils du Dieu vivant, écoute ceux qui t’implorent&nbsp;:</p> <p>R/ Nous t’en prions, Jésus ressuscité.</p> <p>Depuis la nuée lumineuse, tu éclairais ton peuple en marche&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la lumière de vie.</p> <p>Par la voix de Moïse, tu as enseigné ton peuple sur la montagne&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la Parole de vie.</p> <p>Par le don de la manne, tu as nourri ton peuple dans le désert&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui le Pain de vie.</p> <p>Par l’eau jaillie du rocher, tu as abreuvé ton peuple&nbsp;:<br> –&nbsp;donne-nous aujourd’hui l’Esprit de vie.</p> "
+    "evangelicAntiphon": {
+      "common": "Le serviteur n’est pas plus grand que son maître. S’il ressemble à son maître, il sera parfait, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Ô Christ, Fils du Dieu vivant, écoute ceux qui t’implorent&nbsp;:</p> <p>R/ Nous t’en prions, Jésus ressuscité.</p> <p>Depuis la nuée lumineuse, tu éclairais ton peuple en marche&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la lumière de vie.</p> <p>Par la voix de Moïse, tu as enseigné ton peuple sur la montagne&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la Parole de vie.</p> <p>Par le don de la manne, tu as nourri ton peuple dans le désert&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui le Pain de vie.</p> <p>Par l’eau jaillie du rocher, tu as abreuvé ton peuple&nbsp;:<br> –&nbsp;donne-nous aujourd’hui l’Esprit de vie.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>Le Seigneur Jésus affirme qu’il donne à ses disciples un commandement nouveau, celui de l’amour mutuel, lorsqu’il dit&nbsp;: <i>Je vous donne un commandement nouveau, c’est de vous aimer les uns les autres</i>. Est-ce que ce commandement n’existait pas déjà dans la loi ancienne, puisqu’il y est écrit&nbsp;: <i>Tu aimeras ton prochain comme toi-même&nbsp;?</i> Pourquoi donc le Seigneur appelle-t-il nouveau un commandement qui est évidemment si ancien&nbsp;? Est-ce un commandement nouveau parce qu’en nous dépouillant de l’homme ancien il nous revêt de l’homme nouveau&nbsp;? Certes, l’homme qui écoute ce commandement, ou plutôt qui y obéit, est renouvelé non par n’importe quel amour mais par celui que le Seigneur a précisé, en ajoutant, afin de le distinguer de l’amour charnel&nbsp;: <i>Comme je vous ai aimés</i>. ~ C’est cet amour-là qui nous renouvelle, pour que nous soyons des hommes nouveaux, les héritiers du testament nouveau, les chantres du cantique nouveau. Cet amour-là, frères très chers, a renouvelé même les justes d’autrefois, les patriarches et les prophètes, comme il a renouvelé plus tard les saints Apôtres&nbsp;; c’est lui qui renouvelle maintenant les nations païennes et qui, de tout le genre humain, dispersé sur toute la surface de la terre, suscite et rassemble le peuple nouveau, le corps de la nouvelle épousée du Fils de Dieu, celle dont il est dit dans le Cantique des cantiques&nbsp;: <i>Quelle est celle-ci qui s’élève, toute blanche&nbsp;?</i> Toute blanche, parce que renouvelée. Par quoi, sinon par le commandement nouveau&nbsp;? C’est pourquoi, en elle, ses membres doivent se soucier les uns des autres. <i>Si un membre souffre, tous les membres souffrent avec lui&nbsp;; si un membre est à l’honneur, tous les membres se réjouissent avec lui</i>. Ils entendent, en effet, et observent cette parole&nbsp;: <i>Je vous donne un commandement nouveau, c’est de vous aimer les uns les autres</i>, non pas comme font les débauchés, ni les hommes qui s’aiment simplement parce qu’ils sont des hommes&nbsp;; mais comme s’aiment ceux qui sont tous des dieux et les fils du Très-Haut, si bien qu’ils sont les frères de son Fils unique. Ceux-là s’aiment les uns les autres parce que lui-même les a aimés, pour les conduire à la fin qui les comblera, là où leur désir pourra se rassasier de tous les biens. En effet, aucun désir ne restera insatisfait lorsque Dieu sera tout en tous. ~ Celui qui nous donne cet amour est celui qui dit&nbsp;: <i>Comme je vous ai aimés, aimez-vous les uns les autres</i>. C’est pour cela qu’il nous a aimés&nbsp;: afin qu’à notre tour nous nous aimions les uns les autres. Il nous en a rendus capables en nous aimant, afin que par l’amour mutuel nous soyons liés entre nous et que, par l’union très douce qui lie ses membres, nous soyons le corps d’une telle Tête.</p>",
       "responsory": "<p>Il n’est pas de plus grand amour<br> que de mourir pour celui qu’on aime.</p> <p>R/ Qui perd sa vie la trouvera, alléluia.</p> <p> Christ a donné sa vie pour nous&nbsp;;<br> donnons-la, nous aussi, pour nos frères.</p> <p> Nous sommes passés de la mort à la vie,<br> puisque nous aimons nos frères.</p>"
     },
-    "oration": "Dieu qui relèves la nature humaine bien au-dessus de sa condition originelle, souviens-toi de cette œuvre de ton amour&nbsp;: maintiens dans ta bénédiction ceux que tu as régénérés."
+    "oration": [
+      "Dieu qui relèves la nature humaine bien au-dessus de sa condition originelle, souviens-toi de cette œuvre de ton amour&nbsp;: maintiens dans ta bénédiction ceux que tu as régénérés."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_20",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_127"
+      },
+      {
+        "psalm": "PSALM_128"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +107,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je suis venu pour que les hommes aient la vie, et pour qu’ils l’aient en abondance. Alléluia.",
-    "intercession": "<p>Prions Jésus notre Sauveur, vainqueur du mal par la croix&nbsp;:</p> <p>R/ Viens à notre aide, Jésus ressuscité&nbsp;!</p> <p>Par ta résurrection, tu es entré dans le sanctuaire éternel&nbsp;:<br> –&nbsp;conduis-nous vers la gloire du Père.</p> <p>Par ta résurrection, tu as confirmé la foi de tes Apôtres&nbsp;:<br> –&nbsp;donne aux évêques et aux prêtres d’être fidèles à transmettre ton message.</p> <p>Par ta résurrection, tu es devenu notre paix&nbsp;:<br> –&nbsp;fais vivre tous les baptisés en communion de foi et d’amour.</p> <p>Par ta résurrection, tu as guéri le paralytique&nbsp;:<br> –&nbsp;regarde nos malades et manifeste en eux ta gloire.</p> <p>Toi, le premier entre les vivants,<br> –&nbsp;fais entrer dans la vie ceux qui sont morts en toi.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_20",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_127"
-      },
-      {
-        "psalm": "PSALM_128"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Je suis venu pour que les hommes aient la vie, et pour qu’ils l’aient en abondance. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Prions Jésus notre Sauveur, vainqueur du mal par la croix&nbsp;:</p> <p>R/ Viens à notre aide, Jésus ressuscité&nbsp;!</p> <p>Par ta résurrection, tu es entré dans le sanctuaire éternel&nbsp;:<br> –&nbsp;conduis-nous vers la gloire du Père.</p> <p>Par ta résurrection, tu as confirmé la foi de tes Apôtres&nbsp;:<br> –&nbsp;donne aux évêques et aux prêtres d’être fidèles à transmettre ton message.</p> <p>Par ta résurrection, tu es devenu notre paix&nbsp;:<br> –&nbsp;fais vivre tous les baptisés en communion de foi et d’amour.</p> <p>Par ta résurrection, tu as guéri le paralytique&nbsp;:<br> –&nbsp;regarde nos malades et manifeste en eux ta gloire.</p> <p>Toi, le premier entre les vivants,<br> –&nbsp;fais entrer dans la vie ceux qui sont morts en toi.</p> "
+    }
   }
 }

@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 7, 14b-15",
+      "biblicalReference": "Is 7, 14b-15",
       "content": "Voici que la jeune femme est enceinte, elle enfantera un fils, et on l’appellera Emmanuel, (c’est-à-dire&nbsp;: Dieu avec nous). De crème et de miel il se nourrira, et il saura rejeter le mal et choisir le bien."
     },
-    "evangelicAntiphon": "Console-toi&nbsp;! Console-toi, mon peuple&nbsp;! dit le Seigneur votre Dieu.",
-    "intercession": "<p>Prions notre Seigneur Jésus Christ qui nous visite dans sa grande miséricorde&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, tendresse de Dieu&nbsp;!</p> <p>Tu es sorti du sein du Père pour revêtir notre humanité&nbsp;;<br> libère notre vie du péché et de la seconde mort.</p> <p>Tu viendras manifester la gloire parmi tes élus&nbsp;;<br> fais entendre aujourd’hui ton appel à ceux qui sont loin de toi.</p> <p>Nous nous glorifions dans ta louange&nbsp;;<br> dès maintenant, visite-nous par ton salut.</p> <p>Tu nous as conduits, par la foi, vers ta lumière&nbsp;:<br> fais-nous vivre, par ta justice, de manière à te plaire.</p> ",
-    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente, * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte, * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur est avec toi,<br>  * Marie, pleine de grâce.<br> V/ Dieu t’a regardée&nbsp;: il a comblé ton attente, * <br> V/ Il vient, le jour se lève&nbsp;; la terre entière exulte, * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Console-toi&nbsp;! Console-toi, mon peuple&nbsp;! dit le Seigneur votre Dieu."
+    },
+    "intercession": {
+      "content": "<p>Prions notre Seigneur Jésus Christ qui nous visite dans sa grande miséricorde&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, tendresse de Dieu&nbsp;!</p> <p>Tu es sorti du sein du Père pour revêtir notre humanité&nbsp;;<br> libère notre vie du péché et de la seconde mort.</p> <p>Tu viendras manifester la gloire parmi tes élus&nbsp;;<br> fais entendre aujourd’hui ton appel à ceux qui sont loin de toi.</p> <p>Nous nous glorifions dans ta louange&nbsp;;<br> dès maintenant, visite-nous par ton salut.</p> <p>Tu nous as conduits, par la foi, vers ta lumière&nbsp;:<br> fais-nous vivre, par ta justice, de manière à te plaire.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>Le Seigneur vient, levons les yeux&nbsp;: Stance<br> Voici le jour du Fils de l’homme&nbsp;;<br> Sa clarté chasse la nuit de nos péchés<br> et toute chair verra le salut de notre Dieu&nbsp;!</p> <p>R/ Vers toi, Seigneur, j’élève mon âme,<br> ceux qui t’espèrent ne seront pas déçus.</p> <p>Dirige-moi dans ta vérité, enseigne-moi,<br> c’est toi le Dieu de mon salut.</p> <p>En toi, tout le jour, j’espère<br> en raison de ta bonté, Seigneur. <p>Souviens-toi de ta tendresse, Seigneur, de ton amour, car ils sont de toujours.</p>"
     },
     "verse": "<p>V/ Viens, Seigneur, montre-nous ton visage,<br> et nous serons sauvés.</p>",
-    "oration": "Nous t’en prions, Dieu tout-puissant, que les fêtes prochaines de la venue de ton Fils nous apportent la grâce pour la vie présente et nous préparent au bonheur pour l’éternité."
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant, que les fêtes prochaines de la venue de ton Fils nous apportent la grâce pour la vie présente et nous préparent au bonheur pour l’éternité."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_14",
+        "antiphon": [
+          "Mon secours, mon libérateur, Seigneur, ne tarde pas."
+        ]
+      },
+      {
+        "psalm": "PSALM_69"
+      },
+      {
+        "psalm": "PSALM_74"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,27 +115,15 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 4, 5",
+      "biblicalReference": "1 Co 4, 5",
       "content": "Ne portez pas de jugement prématuré, mais attendez la venue du Seigneur, car il mettra en lumière ce qui est caché dans les ténèbres, et il fera paraître les intentions secrètes. Alors, la louange qui revient à chacun lui sera donnée par Dieu."
     },
-    "evangelicAntiphon": "Seigneur, tu es celui qui doit venir, celui que nous attendons, le Sauveur de ton peuple.",
-    "intercession": "<p>Dans l’humilité et la confiance, prions pour être libérés de la nuit&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, Sauveur des hommes&nbsp;!</p> <p>Rassemble ton peuple de toutes les régions de la terre,<br> confirme l’alliance que tu as conclue avec lui.</p> <p>Agneau de Dieu, venu ôter les péchés du monde,<br> purifie-le de toute souillure.</p> <p>Toi qui es venu sauver ce qui était perdu,<br> ne cesse pas de pardonner.</p> <p>Toi que nous contemplons dans la foi,<br> fais-nous partager la joie éternelle, à l’heure du jugement.</p> <p>Toi qui jugeras les vivants et les morts,<br> reçois parmi les bienheureux les âmes de nos frères défunts.</p> ",
-    "responsory": "<p>R/ Voici le temps favorable,<br>  *  Voici le jour du salut&nbsp;!<br> V/ Le Royaume de Dieu est tout proche.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_14",
-        "antiphon": [
-          "Mon secours, mon libérateur, Seigneur, ne tarde pas."
-        ]
-      },
-      {
-        "psalm": "PSALM_69"
-      },
-      {
-        "psalm": "PSALM_74"
-      }
-    ]
+    "responsory": "<p>R/ Voici le temps favorable,<br>  *  Voici le jour du salut&nbsp;!<br> V/ Le Royaume de Dieu est tout proche.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Seigneur, tu es celui qui doit venir, celui que nous attendons, le Sauveur de ton peuple."
+    },
+    "intercession": {
+      "content": "<p>Dans l’humilité et la confiance, prions pour être libérés de la nuit&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, Sauveur des hommes&nbsp;!</p> <p>Rassemble ton peuple de toutes les régions de la terre,<br> confirme l’alliance que tu as conclue avec lui.</p> <p>Agneau de Dieu, venu ôter les péchés du monde,<br> purifie-le de toute souillure.</p> <p>Toi qui es venu sauver ce qui était perdu,<br> ne cesse pas de pardonner.</p> <p>Toi que nous contemplons dans la foi,<br> fais-nous partager la joie éternelle, à l’heure du jugement.</p> <p>Toi qui jugeras les vivants et les morts,<br> reçois parmi les bienheureux les âmes de nos frères défunts.</p> "
+    }
   }
 }

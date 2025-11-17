@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "Sainte Bernadette Soubirous",
+    "subtitle": "vierge",
+    "description": "Bernadette Soubirous (1844-1879), l’humble voyante de Lourdes, est aussi la religieuse qui vécut à Nevers les treize dernières années de sa vie, effacée et silencieuse, persuadée de n’être « bonne à rien », toute recueillie dans le souvenir de la parole que Marie lui avait dite&nbsp;: «&nbsp;Je ne vous promets pas de vous rendre heureuse en ce monde, mais dans l’autre.&nbsp;»",
+    "commons": [
+      "virgins"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Béni sois-tu, Seigneur du ciel et de la terre, d’avoir révélé aux tout-petits les mystères du Royaume."
+    "evangelicAntiphon": {
+      "common": "Béni sois-tu, Seigneur du ciel et de la terre, d’avoir révélé aux tout-petits les mystères du Royaume."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -11,15 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Béni sois-tu, Seigneur du ciel et de la terre, d’avoir révélé aux tout-petits les mystères du Royaume."
+    "evangelicAntiphon": {
+      "common": "Béni sois-tu, Seigneur du ciel et de la terre, d’avoir révélé aux tout-petits les mystères du Royaume."
+    }
   },
-  "celebrationTitle": "Sainte Bernadette Soubirous",
-  "celebrationSubtitle": "vierge",
-  "celebrationDescription": "Bernadette Soubirous (1844-1879), l’humble voyante de Lourdes, est aussi la religieuse qui vécut à Nevers les treize dernières années de sa vie, effacée et silencieuse, persuadée de n’être « bonne à rien », toute recueillie dans le souvenir de la parole que Marie lui avait dite&nbsp;: «&nbsp;Je ne vous promets pas de vous rendre heureuse en ce monde, mais dans l’autre.&nbsp;»",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "white",
-  "commons": [
-    "virgins"
-  ],
-  "oration": "Tu prends la défense des humbles, Seigneur, tu les aimes et les glorifies, et tu as donné à sainte Bernadette d’étonnantes grâces de patience et de charité ; fais qu’à sa prière et à son exemple, en suivant simplement les chemins de la foi, nous puissions te contempler dans le royaume des Cieux."
+  "oration": [
+    "Tu prends la défense des humbles, Seigneur, tu les aimes et les glorifies, et tu as donné à sainte Bernadette d’étonnantes grâces de patience et de charité ; fais qu’à sa prière et à son exemple, en suivant simplement les chemins de la foi, nous puissions te contempler dans le royaume des Cieux."
+  ]
 }

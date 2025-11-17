@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 1, 16-18",
+      "biblicalReference": "Is 1, 16-18",
       "content": "Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien&nbsp;: recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine."
     },
-    "evangelicAntiphon": "Père, j’ai péché contre le ciel et contre toi, je ne mérite plus d’être appelé ton fils.",
-    "intercession": "<p>Jésus, maître de vie, conduis l’Église vers ta Pâque&nbsp;:</p> <p>R/ Nous te chanterons pour tes merveilles.</p> <p>Donne à notre cœur de discerner ses péchés.</p> <p>Apprends-nous à rechercher la nourriture qui demeure.</p> <p>Creuse en nous le désir de la sainteté.</p> <p>Accorde-nous la grâce de la charité.</p> <p>Écoute la prière de Marie, notre Mère.</p> ",
     "responsory": "<p>R/ Le sang de Jésus nous purifie de tout péché.<br> V/ Venez et voyez les hauts faits de Dieu.&nbsp;R/ <br> V/ Acclamez Dieu, toute la terre.&nbsp;R/ <br></p>",
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    "evangelicAntiphon": {
+      "common": "Père, j’ai péché contre le ciel et contre toi, je ne mérite plus d’être appelé ton fils."
+    },
+    "intercession": {
+      "content": "<p>Jésus, maître de vie, conduis l’Église vers ta Pâque&nbsp;:</p> <p>R/ Nous te chanterons pour tes merveilles.</p> <p>Donne à notre cœur de discerner ses péchés.</p> <p>Apprends-nous à rechercher la nourriture qui demeure.</p> <p>Creuse en nous le désir de la sainteté.</p> <p>Accorde-nous la grâce de la charité.</p> <p>Écoute la prière de Marie, notre Mère.</p> "
+    },
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Je t’aime, Seigneur, ma force,<br> mon libérateur et le rocher de mon salut.</p> <p>Tu aimeras le Seigneur ton Dieu<br> de tout ton cœur, de toute ton âme,<br> de toute ta force.</p> <p>Garde-toi d’oublier le Seigneur<br> qui t’a fait sortir de la maison de servitude.</p> <p>Qui garde mes commandements, dit Jésus,<br> voilà celui qui m’aime, et mon Père l’aimera.</p>"
     },
     "verse": "<p>V/ Celui qui fait la vérité<br>vient à la lumière.</p>",
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_11",
+        "antiphon": [
+          "Fais-moi vivre selon ton amour, que je sois fidèle à ta parole."
+        ]
+      },
+      {
+        "psalm": "PSALM_60"
+      },
+      {
+        "psalm": "PSALM_63"
+      }
+    ],
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "2 Co 6, 1 b-4a",
+      "biblicalReference": "2 Co 6, 1 b-4a",
       "content": "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture&nbsp;: Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
     },
-    "evangelicAntiphon": "Une voix disait depuis la nuée&nbsp;: Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le.",
-    "intercession": "<p>Reconnaissons la sainteté de notre Dieu&nbsp;:</p> <p>R/ Seigneur, toi seul es saint&nbsp;!</p> <p>Seigneur Dieu, source du pardon,<br> fais-nous reconnaître nos fautes en nous tournant vers le Crucifié.</p> <p>Apprends-nous à nous dépouiller du vieil homme et de ses convoitises,<br> pour revêtir l’homme nouveau, recréé en ton Fils.</p> <p>Garde ton peuple, uni à ses pasteurs,<br> dans la fidélité à l’enseignement des Apôtres.</p> <p>Transforme en artisans d’unité dans le Corps de ton Christ<br> ceux qui communient au même pain.</p> <p>Reçois dans ta gloire ceux qui ont quitté ce monde,<br> augmente notre désir de te voir un jour face à face.</p> ",
     "responsory": "<p>R/ Voici le temps favorable.<br>  *  Voici le jour du salut.<br> V/ Rassemblez-vous, venez, approchez tous,<br> survivants des nations.  * <br> V/ Tournez-vous vers moi, vous serez sauvés,<br> tous les lointains de la terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_11",
-        "antiphon": [
-          "Fais-moi vivre selon ton amour, que je sois fidèle à ta parole."
-        ]
-      },
-      {
-        "psalm": "PSALM_60"
-      },
-      {
-        "psalm": "PSALM_63"
-      }
-    ],
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    "evangelicAntiphon": {
+      "common": "Une voix disait depuis la nuée&nbsp;: Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le."
+    },
+    "intercession": {
+      "content": "<p>Reconnaissons la sainteté de notre Dieu&nbsp;:</p> <p>R/ Seigneur, toi seul es saint&nbsp;!</p> <p>Seigneur Dieu, source du pardon,<br> fais-nous reconnaître nos fautes en nous tournant vers le Crucifié.</p> <p>Apprends-nous à nous dépouiller du vieil homme et de ses convoitises,<br> pour revêtir l’homme nouveau, recréé en ton Fils.</p> <p>Garde ton peuple, uni à ses pasteurs,<br> dans la fidélité à l’enseignement des Apôtres.</p> <p>Transforme en artisans d’unité dans le Corps de ton Christ<br> ceux qui communient au même pain.</p> <p>Reçois dans ta gloire ceux qui ont quitté ce monde,<br> augmente notre désir de te voir un jour face à face.</p> "
+    },
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
   }
 }

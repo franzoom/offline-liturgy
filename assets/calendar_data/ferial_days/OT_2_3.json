@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "tel-un-brouillard-qui-se-dechire"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_76",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 35.37",
+      "biblicalReference": "Rm 8, 35.37",
       "content": "Qui pourra nous séparer de l’amour du Christ&nbsp;? La détresse&nbsp;? L’angoisse&nbsp;? La persécution&nbsp;? La faim&nbsp;? Le dénuement&nbsp;? Le danger&nbsp;? Le supplice&nbsp;? En tout cela nous sommes les grands vainqueurs grâce à celui qui nous a aimés."
     },
-    "hymn": [
-      "tel-un-brouillard-qui-se-dechire"
-    ],
-    "evangelicAntiphon": "Servons le Seigneur dans la justice et la sainteté véritables.",
-    "intercession": "<p>Dans la paix de l’Esprit Saint, prions le Seigneur Dieu&nbsp;:</p> <p>R/ Kyrie, eleison.</p> <p>Pour que l’Église grandisse<br> et que les chrétiens demeurent dans l’unité,</p> <p>Pour la famille de Dieu,<br> ici rassemblée au nom du Christ,</p> <p>Pour le peuple chrétien et pour ses pasteurs,<br> le pape, les évêques et les prêtres,</p> <p>Pour que le travail de ce jour nous rapproche de Dieu<br> et nous procure le pain quotidien,</p> <p>Pour nos frères qui souffrent<br> dans leur âme ou dans leur corps.</p> ",
     "responsory": "<p>R/ Je peux tout en celui qui me fortifie,<br> V/ Dans l’angoisse, dans les épreuves.&nbsp;R/ <br> V/ Lorsque je suis faible, c’est alors que je suis fort.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Tu as voulu, Seigneur, que la puissance de l’Évangile travaille le monde à la manière d’un ferment&nbsp;; veille sur tous ceux qui ont à répondre à leur vocation chrétienne au milieu des occupations de ce monde&nbsp;: qu’ils cherchent toujours l’Esprit du Christ, pour qu’en accomplissant leurs tâches d’hommes, ils travaillent à l’avènement de ton Règne."
+    "evangelicAntiphon": {
+      "common": "Servons le Seigneur dans la justice et la sainteté véritables.",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Dans la paix de l’Esprit Saint, prions le Seigneur Dieu&nbsp;:</p> <p>R/ Kyrie, eleison.</p> <p>Pour que l’Église grandisse<br> et que les chrétiens demeurent dans l’unité,</p> <p>Pour la famille de Dieu,<br> ici rassemblée au nom du Christ,</p> <p>Pour le peuple chrétien et pour ses pasteurs,<br> le pape, les évêques et les prêtres,</p> <p>Pour que le travail de ce jour nous rapproche de Dieu<br> et nous procure le pain quotidien,</p> <p>Pour nos frères qui souffrent<br> dans leur âme ou dans leur corps.</p> "
+    },
+    "oration": [
+      "Tu as voulu, Seigneur, que la puissance de l’Évangile travaille le monde à la manière d’un ferment&nbsp;; veille sur tous ceux qui ont à répondre à leur vocation chrétienne au milieu des occupations de ce monde&nbsp;: qu’ils cherchent toujours l’Esprit du Christ, pour qu’en accomplissant leurs tâches d’hommes, ils travaillent à l’avènement de ton Règne."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,41 +83,9 @@
       "responsory": "<p>R/ Dieu a tant aimé le monde<br> qu’il a donné son Fils unique.</p> <p>Ce n’est pas nous qui avons aimé Dieu&nbsp;:<br> lui, le premier, nous a aimés.</p> <p>Son Fils, son unique, il l’a offert<br> pour les péchés du monde entier.</p> <p>À tous ceux qui croient au Christ,<br> il donne la vie éternelle.</p>"
     },
     "verse": "<p>V/ Ils ont publié l’œuvre de Dieu,<br>ils ont compris ses merveilles.</p>",
-    "oration": "Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins&nbsp;: tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_61",
-        "antiphon": [
-          "Lui seul est mon rocher, mon salut, ma citadelle&nbsp;: je suis inébranlable.",
-          "Nous avons cette joyeuse espérance&nbsp;: notre Sauveur paraîtra dans la gloire."
-        ]
-      },
-      {
-        "psalm": "PSALM_66",
-        "antiphon": [
-          "1R/ du psaume. 2 Ant. À toi, Dieu, la louange unanime des peuples&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "NT_6",
-        "antiphon": [
-          "R/ Gloire à toi, premier-né d’entre les morts."
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "1P 5, 5b-7",
-      "content": "Revêtez-vous tous d’humilité dans vos rapports les uns avec les autres. En effet Dieu s’oppose aux orgueilleux, aux humbles il accorde sa grâce. Tenez-vous donc humblement sous la main puissante de Dieu pour qu’il vous élève quand le jugement viendra. Déchargez-vous sur lui de tous vos soucis puisqu’il s’occupe de vous."
-    },
-    "hymn": [
-      "ouvre-mes-yeux-seigneur"
-    ],
-    "evangelicAntiphon": "À toi, Dieu, toute gloire&nbsp;! À toi, Seigneur, la grâce&nbsp;!",
-    "intercession": "<p>Dieu se révèle aux pauvres et aux petits.<br> Prions-le dans la simplicité du cœur&nbsp;:</p> <p>R/ En ta tendresse, écoute nos prières.</p> <p>Que tous les peuples te reconnaissent vrai Dieu,<br> et Jésus Christ, le Sauveur que tu as envoyé.</p> <p>Souviens-toi de ton Église&nbsp;: garde-la de tout mal&nbsp;;<br> qu’elle grandisse en ton amour.</p> <p>Souviens-toi de nos parents, de nos amis, de nos bienfaiteurs.</p> <p>Souviens-toi de ceux qui portent le poids du jour.</p> <p>Dieu de miséricorde, souviens-toi de ceux qui sont morts aujourd’hui&nbsp;: qu’ils entrent dans ton Royaume.</p> ",
-    "responsory": "<p>R/ Qu’est-ce que l’homme, Seigneur,<br> pour que tu le visites&nbsp;?<br>  *  Tu mets toute chose à ses pieds.<br> V/ L’homme ici-bas n’est qu’un souffle.&nbsp; * <br> V/ Tu l’as voulu un peu moindre qu’un Dieu. * <br></p>",
-    "oration": "Seigneur, ton nom est saint, ton amour s’étend d’âge en âge&nbsp;; reçois la prière de ton Église et fais-lui la grâce de ta louange."
+    "oration": [
+      "Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins&nbsp;: tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -132,8 +109,47 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
-  "sundayEvangelicAntiphonC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là.",
-  "sundayEvangelicAntiphonB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
-  "readingHymn": "dieu-que-nul-oeil-de-creature"
+  "vespers": {
+    "hymn": [
+      "ouvre-mes-yeux-seigneur"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_61",
+        "antiphon": [
+          "Lui seul est mon rocher, mon salut, ma citadelle&nbsp;: je suis inébranlable.",
+          "Nous avons cette joyeuse espérance&nbsp;: notre Sauveur paraîtra dans la gloire."
+        ]
+      },
+      {
+        "psalm": "PSALM_66",
+        "antiphon": [
+          "1R/ du psaume. 2 Ant. À toi, Dieu, la louange unanime des peuples&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "R/ Gloire à toi, premier-né d’entre les morts."
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1P 5, 5b-7",
+      "content": "Revêtez-vous tous d’humilité dans vos rapports les uns avec les autres. En effet Dieu s’oppose aux orgueilleux, aux humbles il accorde sa grâce. Tenez-vous donc humblement sous la main puissante de Dieu pour qu’il vous élève quand le jugement viendra. Déchargez-vous sur lui de tous vos soucis puisqu’il s’occupe de vous."
+    },
+    "responsory": "<p>R/ Qu’est-ce que l’homme, Seigneur,<br> pour que tu le visites&nbsp;?<br>  *  Tu mets toute chose à ses pieds.<br> V/ L’homme ici-bas n’est qu’un souffle.&nbsp; * <br> V/ Tu l’as voulu un peu moindre qu’un Dieu. * <br></p>",
+    "evangelicAntiphon": {
+      "common": "À toi, Dieu, toute gloire&nbsp;! À toi, Seigneur, la grâce&nbsp;!",
+      "yearA": "Jean-Baptiste a rendu témoignage&nbsp;: Voici l’Agneau de Dieu qui enlève le péché du monde.",
+      "yearB": "Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.",
+      "yearC": "Jésus fut invité aux noces, à Cana de Galilée&nbsp;; et sa mère était là."
+    },
+    "intercession": {
+      "content": "<p>Dieu se révèle aux pauvres et aux petits.<br> Prions-le dans la simplicité du cœur&nbsp;:</p> <p>R/ En ta tendresse, écoute nos prières.</p> <p>Que tous les peuples te reconnaissent vrai Dieu,<br> et Jésus Christ, le Sauveur que tu as envoyé.</p> <p>Souviens-toi de ton Église&nbsp;: garde-la de tout mal&nbsp;;<br> qu’elle grandisse en ton amour.</p> <p>Souviens-toi de nos parents, de nos amis, de nos bienfaiteurs.</p> <p>Souviens-toi de ceux qui portent le poids du jour.</p> <p>Dieu de miséricorde, souviens-toi de ceux qui sont morts aujourd’hui&nbsp;: qu’ils entrent dans ton Royaume.</p> "
+    },
+    "oration": [
+      "Seigneur, ton nom est saint, ton amour s’étend d’âge en âge&nbsp;; reçois la prière de ton Église et fais-lui la grâce de ta louange."
+    ]
+  }
 }

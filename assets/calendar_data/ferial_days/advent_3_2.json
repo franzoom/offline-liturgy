@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Gn 49, 10",
+      "biblicalReference": "Gn 49, 10",
       "content": "La royauté n’échappera point à Juda, ni le commandement à sa descendance, jusqu’à ce que vienne celui à qui le pouvoir appartient, à qui les peuples obéiront."
     },
-    "evangelicAntiphon": "Lève-toi, lève-toi, Jérusalem, libère-toi de tes chaînes.",
-    "intercession": "<p>Frères bien-aimés, adressons notre prière et notre joyeuse acclamation au Christ, la Parole qui illumine tout homme en ce monde&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, Lumière d’en haut&nbsp;!</p> <p>Que la lumière de ta présence dissipe nos ténèbres<br> et nous ouvre à tes dons.</p> <p>Sauve-nous, toi notre Dieu fait homme,<br> pour qu’en ce jour nous confessions ton nom.</p> <p>Enflamme nos cœurs pour leur donner une soif ardente de toi<br> et un grand désir de ta communion.</p> <p>Toi qui as pris sur toi notre faiblesse,<br> secours les malades et ceux qui affronteront aujourd’hui la mort.</p> ",
-    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br>  * Car le Seigneur vient.<br> V/ Amour et vérité se rencontrent. * <br> V/ Justice et paix s’embrassent. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Lève-toi, lève-toi, Jérusalem, libère-toi de tes chaînes."
+    },
+    "intercession": {
+      "content": "<p>Frères bien-aimés, adressons notre prière et notre joyeuse acclamation au Christ, la Parole qui illumine tout homme en ce monde&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, Lumière d’en haut&nbsp;!</p> <p>Que la lumière de ta présence dissipe nos ténèbres<br> et nous ouvre à tes dons.</p> <p>Sauve-nous, toi notre Dieu fait homme,<br> pour qu’en ce jour nous confessions ton nom.</p> <p>Enflamme nos cœurs pour leur donner une soif ardente de toi<br> et un grand désir de ta communion.</p> <p>Toi qui as pris sur toi notre faiblesse,<br> secours les malades et ceux qui affronteront aujourd’hui la mort.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>Il est au milieu de vous, Stance<br> celui que vous ne connaissez pas&nbsp;;<br> préparez le chemin du Seigneur,<br> écoutez sa voix, amis de l’Epoux,<br> pour que votre joie soit parfaite.</p> <p>R/ Réjouissez-vous dans le Seigneur&nbsp;!<br> Réjouissez-vous, car il est proche&nbsp;!</p> <p>Ta complaisance, Seigneur, est pour la terre,<br> tu fais revenir les captifs de Jacob.</p> <p>N’est-ce pas toi qui reviens nous vivifier&nbsp;?<br> Et ton peuple en toi se réjouit.</p> <p>Justice marchera devant lui,<br> et paix sur la trace de ses pas.</p>"
     },
     "verse": "<p>V/ Préparez les chemins du Seigneur,<br> aplanissez la route.</p>",
-    "oration": "Dieu qui as fait de nous une créature nouvelle dans ton Fils, regarde avec bonté l’œuvre de ta miséricorde, et tandis que nous attendons sa venue, préserve-nous de toute déchéance."
+    "oration": [
+      "Dieu qui as fait de nous une créature nouvelle dans ton Fils, regarde avec bonté l’œuvre de ta miséricorde, et tandis que nous attendons sa venue, préserve-nous de toute déchéance."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_13",
+        "antiphon": [
+          "Rappelle-toi, Seigneur&nbsp;: n’oublie pas sans fin la vie de tes pauvres."
+        ]
+      },
+      {
+        "psalm": "PSALM_73_1"
+      },
+      {
+        "psalm": "PSALM_73_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,27 +112,15 @@
       }
     ],
     "reading": {
-      "ref": "cf. 1 Co 1, 7b-9",
+      "biblicalReference": "cf. 1 Co 1, 7b-9",
       "content": "Nous attendons de voir se révéler notre Seigneur Jésus Christ. C’est lui qui nous fera tenir solidement jusqu’au bout, et nous serons sans reproche au jour de notre Seigneur Jésus Christ. Car Dieu est fidèle, lui qui nous a appelés à vivre en communion avec son Fils."
     },
-    "evangelicAntiphon": "Une vierge enfantera un fils. On lui donnera le nom d’Emmanuel.",
-    "intercession": "<p>Avec joie, frères très chers, implorons le Christ, notre Rédempteur et Seigneur, qui se manifestera au dernier jour&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, présence de Dieu&nbsp;!</p> <p>Sauveur, né dans la chair pour prendre le joug de la Loi,<br> obtiens-nous la liberté des fils.</p> <p>Toi, dont la divinité a assumé notre nature,<br> apporte ta vie à notre humanité.</p> <p>Par ta présence, purifie nos désirs,<br> oriente-les vers ton amour.</p> <p>Que nous puissions te servir d’une conscience pure,<br> et nous réjouir avec toi dans la gloire.</p> <p>Que la rosée de ta miséricorde<br> entoure les défunts de tendresse et de joie.</p> ",
-    "responsory": "<p>R/ Notre âme attend le Seigneur,<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.  * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_13",
-        "antiphon": [
-          "Rappelle-toi, Seigneur&nbsp;: n’oublie pas sans fin la vie de tes pauvres."
-        ]
-      },
-      {
-        "psalm": "PSALM_73_1"
-      },
-      {
-        "psalm": "PSALM_73_2"
-      }
-    ]
+    "responsory": "<p>R/ Notre âme attend le Seigneur,<br>  *  En lui la joie de notre cœur.<br> V/ Son salut est proche de ceux qui le craignent.  * <br> V/ Sa gloire habitera notre terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Une vierge enfantera un fils. On lui donnera le nom d’Emmanuel."
+    },
+    "intercession": {
+      "content": "<p>Avec joie, frères très chers, implorons le Christ, notre Rédempteur et Seigneur, qui se manifestera au dernier jour&nbsp;:</p> <p>R/ Viens, Seigneur Jésus&nbsp;! Viens, présence de Dieu&nbsp;!</p> <p>Sauveur, né dans la chair pour prendre le joug de la Loi,<br> obtiens-nous la liberté des fils.</p> <p>Toi, dont la divinité a assumé notre nature,<br> apporte ta vie à notre humanité.</p> <p>Par ta présence, purifie nos désirs,<br> oriente-les vers ton amour.</p> <p>Que nous puissions te servir d’une conscience pure,<br> et nous réjouir avec toi dans la gloire.</p> <p>Que la rosée de ta miséricorde<br> entoure les défunts de tendresse et de joie.</p> "
+    }
   }
 }

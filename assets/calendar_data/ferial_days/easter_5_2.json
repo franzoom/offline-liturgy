@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je vous laisse la paix, alléluia, je vous donne ma paix. Alléluia.",
-    "intercession": "<p>Ô Christ, tu as choisi des femmes pour annoncer ta résurrection aux Apôtres,<br> –&nbsp;fais que nous recevions leur témoignage.</p> <p>R/ Exauce-nous, Seigneur de gloire&nbsp;!</p> <p>Tu t’es fait connaître de Marie qui te cherchait parmi les morts,<br> –&nbsp;prononce le nom qui nous retournera vers toi.</p> <p>Tu as laissé vide le tombeau, <br> –&nbsp;garde-nous de te chercher où tu n’es pas.</p> <p>Tu es monté vers ton Père et notre Père,<br> –&nbsp;suscite parmi tes frères des témoins de ta présence.</p> "
+    "evangelicAntiphon": {
+      "common": "Je vous laisse la paix, alléluia, je vous donne ma paix. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Ô Christ, tu as choisi des femmes pour annoncer ta résurrection aux Apôtres,<br> –&nbsp;fais que nous recevions leur témoignage.</p> <p>R/ Exauce-nous, Seigneur de gloire&nbsp;!</p> <p>Tu t’es fait connaître de Marie qui te cherchait parmi les morts,<br> –&nbsp;prononce le nom qui nous retournera vers toi.</p> <p>Tu as laissé vide le tombeau, <br> –&nbsp;garde-nous de te chercher où tu n’es pas.</p> <p>Tu es monté vers ton Père et notre Père,<br> –&nbsp;suscite parmi tes frères des témoins de ta présence.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>Le Seigneur dit ~ qu’il est lui-même la vigne, pour nous apprendre à nous attacher à son amour et nous montrer combien d’avantages nous retirons de notre union avec lui. Et il compare aux sarments ceux qui lui sont unis, ajustés en quelque sorte et fixés en lui&nbsp;: ceux-là sont déjà <i>participants de sa nature</i> du fait qu’ils ont reçu le Saint-Esprit en partage. Car ce qui nous unit au Christ Sauveur, c’est son Esprit Saint. L’union avec la vigne de ceux qui se joignent à elle vient de leur libre choix&nbsp;; mais de la part de la vigne à notre égard, cela vient de sa nature. C’est en vertu d’un bon choix que nous nous avançons par la foi, et nous devenons de sa race parce que nous avons reçu de lui la dignité de fils adoptifs. En effet, selon saint Paul, <i>celui qui s’unit au Seigneur ne fait plus qu’un esprit avec lui</i>. En d’autres endroits de l’Écriture, par la voix du Prophète, le Christ est appelé base et fondement. En effet, c’est sur lui que nous sommes bâtis, et nous sommes appelés pierres vivantes et spirituelles, <i>en vue d’un sacerdoce saint, pour devenir une habitation de Dieu dans l’Esprit</i>, et nous ne pouvons pas entrer dans cet édifice si nous n’avons pas le Christ comme fondation. C’est dans le même sens que Jésus dit ici qu’il est la vigne qui engendre et nourrit les sarments. En effet, nous avons reçu la nouvelle naissance de lui et en lui, dans l’Esprit, en vue de porter des fruits de vie&nbsp;; non pas de la vie ancienne et dépassée, mais de la vie renouvelée par la foi et l’amour envers lui. Maintenons-nous dans cet état, greffés en quelque sorte sur le Christ, attachés coûte que coûte au commandement sacré qui nous a été donné. Évertuons-nous à conserver les avantages de notre noblesse, c’est-à-dire à ne laisser aucunement contrister le Saint-Esprit qui a fait son habitation en nous, et par qui l’on sait que Dieu demeure en nous. Comment nous sommes dans le Christ, et lui en nous, le sage saint Jean nous l’a montré par cette parole&nbsp;: <i>Nous reconnaissons qu’il demeure en nous, et nous en lui, parce qu’il nous a donné son Esprit</i>. ~ De même que la souche de la vigne fournit et distribue aux sarments la qualité naturelle qui lui est propre et qui est en elle, c’est ainsi que le Verbe, Fils unique de Dieu le Père, introduit chez les saints une sorte de parenté avec sa nature en leur donnant l’Esprit, surtout à ceux qui lui sont unis par la foi et par une parfaite sainteté. Il les nourrit et fait progresser leur piété, il développe en eux la science de toute vertu et de toute bonté.</p>",
       "responsory": "<p>Si tu savais le don de Dieu, Stance<br> si tu croyais celui qui te parle,<br> tu connaîtrais le Père en esprit et en vérité.<br> Laisse les puits de Samarie<br> et viens boire l’eau vive du Rocher&nbsp;:<br> Jésus Christ.</p> <p>R/ Seigneur, donne-moi cette eau,<br> que je n’aie plus jamais soif&nbsp;!</p> <p>En toi est la source de vie,<br> par ta lumière nous voyons la lumière.</p> <p>Garde ton amour à ceux qui t’ont connu,<br> la justice à tous les cœurs droits.</p>"
     },
-    "oration": "Dieu qui nous recrées pour la vie éternelle dans la résurrection du Christ, fortifie la foi et l’espérance de ton peuple&nbsp;: ne laisse pas le doute entamer notre confiance en la promesse que toi-même nous as faite."
+    "oration": [
+      "Dieu qui nous recrées pour la vie éternelle dans la résurrection du Christ, fortifie la foi et l’espérance de ton peuple&nbsp;: ne laisse pas le doute entamer notre confiance en la promesse que toi-même nous as faite."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_1",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_12"
+      },
+      {
+        "psalm": "PSALM_13"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +107,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Si vous m’aimiez, vous seriez dans la joie, car je vais vers le Père. Alléluia.",
-    "intercession": "<p>Après avoir connu l’obscurité du tombeau,<br> tu es entré dans la lumière à jamais nouvelle&nbsp;;<br>Seigneur Jésus, entends notre prière&nbsp;:</p> <p>R/ Roi de gloire, exauce-nous&nbsp;!</p> <p>Christ, vainqueur des ténèbres,<br> accorde à tous les membres de ton Corps <br>de mener jusqu’au bout le combat de la foi.</p> <p>Donne aux catéchistes et aux théologiens<br> la passion de ta vérité.</p> <p>Que les évêques, les prêtres et les diacres<br> conduisent ton peuple avec zèle et discernement.</p> <p>Par la puissance de ta croix glorieuse,<br> que tes disciples ouvrent les prisons, brisent les chaînes, libèrent les opprimés.</p> <p>Tu es descendu aux enfers pour en ramener les captifs,<br> entraîne-les vers la libre Jérusalem.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_1",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_12"
-      },
-      {
-        "psalm": "PSALM_13"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Si vous m’aimiez, vous seriez dans la joie, car je vais vers le Père. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Après avoir connu l’obscurité du tombeau,<br> tu es entré dans la lumière à jamais nouvelle&nbsp;;<br>Seigneur Jésus, entends notre prière&nbsp;:</p> <p>R/ Roi de gloire, exauce-nous&nbsp;!</p> <p>Christ, vainqueur des ténèbres,<br> accorde à tous les membres de ton Corps <br>de mener jusqu’au bout le combat de la foi.</p> <p>Donne aux catéchistes et aux théologiens<br> la passion de ta vérité.</p> <p>Que les évêques, les prêtres et les diacres<br> conduisent ton peuple avec zèle et discernement.</p> <p>Par la puissance de ta croix glorieuse,<br> que tes disciples ouvrent les prisons, brisent les chaînes, libèrent les opprimés.</p> <p>Tu es descendu aux enfers pour en ramener les captifs,<br> entraîne-les vers la libre Jérusalem.</p> "
+    }
   }
 }

@@ -1,14 +1,18 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "common": "Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !"
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Dans la maison de Dieu, adorons le Christ, époux de l'Église, alléluia !"
     ]
   },
-  "firstVespers": {
-    "evangelicAntiphon": "Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !"
-  },
   "morning": {
-    "evangelicAntiphon": "Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison, alléluia !"
+    "evangelicAntiphon": {
+      "common": "Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison, alléluia !"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -18,9 +22,6 @@
       "responsory": ""
     },
     "verse": "<p>V/ Vers ton temple saint, je me prosterne,<br> je crains et j’adore, alléluia !</p>"
-  },
-  "vespers": {
-    "evangelicAntiphon": "Voici le séjour que Dieu s’est choisi pour y faire sa demeure ; voici le temple que Dieu a consacré pour que son nom y soit invoqué, alléluia !"
   },
   "middleOfDay": {
     "tierce": {
@@ -34,6 +35,11 @@
     "none": {
       "antiphon": "Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc, alléluia !",
       "responsory": "V/ Venez dans sa maison lui rendre grâce,<br> dans sa demeure chanter ses louanges, alléluia !"
+    }
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "common": "Voici le séjour que Dieu s’est choisi pour y faire sa demeure ; voici le temple que Dieu a consacré pour que son nom y soit invoqué, alléluia !"
     }
   }
 }

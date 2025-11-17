@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "soleil-levant"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_23",
@@ -29,16 +32,19 @@
       }
     ],
     "reading": {
-      "ref": "Rm 13, 11b.12 13a",
+      "biblicalReference": "Rm 13, 11b.12 13a",
       "content": "C’est le moment, l’heure est venue de sortir de votre sommeil. La nuit est bientôt finie, le jour est tout proche. Rejetons les activités des ténèbres, revêtons-nous pour le combat de la lumière. Conduisons-nous honnêtement, comme on le fait en plein jour."
     },
-    "hymn": [
-      "soleil-levant"
-    ],
-    "evangelicAntiphon": "Nous devançons le soleil pour te rendre grâce, Dieu de l’univers.",
-    "intercession": "<p>Appelés avec le Christ à devenir louange à la gloire de son Père, nous l’acclamons&nbsp;:</p> <p>R/ Notre Sauveur et notre Dieu&nbsp;!</p> <p>Réveillés de notre sommeil et relevés d’entre les morts,<br> —&nbsp;nous offrons par toi le sacrifice de louange.</p> <p>Donne-nous de garder aujourd’hui tes commandements,<br> —&nbsp;en faisant comme toi ce qui plaît au Père.</p> <p>À chaque heure de ce jour, puissions-nous te bénir&nbsp;:<br> —&nbsp;que nos paroles et nos actes soient ta vraie louange.</p> <p>Accorde-nous de ne contrister personne aujourd’hui&nbsp;;<br> —&nbsp;à ceux qui nous rencontrent, fais-nous porter la joie.</p> ",
     "responsory": "<p>R/ Dieu, tu es mon Dieu,<br>  * Je te cherche dès l’aube.<br> V/ Comment découvrir ta lumière&nbsp;? * <br> V/ Où saisir un reflet de ta gloire&nbsp;? * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Seigneur, notre Dieu, tu nous as envoyé ton Fils Jésus&nbsp;: dans nos ténèbres, il a fait jaillir la lumière de sa vie&nbsp;; qu’il nous réveille maintenant de tout sommeil, qu’il nous relève de toute mort. Grâce à lui, nous vivrons pour toi et nous marcherons vers ton Royaume. Toi qui règnes avec lui et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen."
+    "evangelicAntiphon": {
+      "common": "Nous devançons le soleil pour te rendre grâce, Dieu de l’univers."
+    },
+    "intercession": {
+      "content": "<p>Appelés avec le Christ à devenir louange à la gloire de son Père, nous l’acclamons&nbsp;:</p> <p>R/ Notre Sauveur et notre Dieu&nbsp;!</p> <p>Réveillés de notre sommeil et relevés d’entre les morts,<br> —&nbsp;nous offrons par toi le sacrifice de louange.</p> <p>Donne-nous de garder aujourd’hui tes commandements,<br> —&nbsp;en faisant comme toi ce qui plaît au Père.</p> <p>À chaque heure de ce jour, puissions-nous te bénir&nbsp;:<br> —&nbsp;que nos paroles et nos actes soient ta vraie louange.</p> <p>Accorde-nous de ne contrister personne aujourd’hui&nbsp;;<br> —&nbsp;à ceux qui nous rencontrent, fais-nous porter la joie.</p> "
+    },
+    "oration": [
+      "Seigneur, notre Dieu, tu nous as envoyé ton Fils Jésus&nbsp;: dans nos ténèbres, il a fait jaillir la lumière de sa vie&nbsp;; qu’il nous réveille maintenant de tout sommeil, qu’il nous relève de toute mort. Grâce à lui, nous vivrons pour toi et nous marcherons vers ton Royaume. Toi qui règnes avec lui et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,42 +80,9 @@
       "responsory": "<p>R/  Je t’aime, Seigneur, ma force,<br> mon libérateur et le rocher de mon salut.</p> <p>Tu aimeras le Seigneur ton Dieu,<br> de tout ton cœur, de toute ton âme,<br> de toute ta force.</p> <p>Garde-toi d’oublier le Seigneur<br> qui t’a fait sortir de la maison de servitude.</p> <p>Qui garde mes commandements, dit Jésus,<br> voilà celui qui m’aime, et mon Père l’aimera.</p>"
     },
     "verse": "<p>V/ Il dirige les humbles dans la justice,<br>il enseigne aux malheureux ses chemins.</p>",
-    "oration": "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre&nbsp;: exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_19",
-        "antiphon": [
-          "Le Seigneur donne la victoire à son Messie.",
-          "Que Dieu te réponde au jour de détresse&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_20",
-        "antiphon": [
-          "Dresse-toi, Seigneur, dans ta force&nbsp;: nous chanterons ta vaillance.",
-          "Ta grâce, Seigneur, nous rend inébranlables."
-        ]
-      },
-      {
-        "psalm": "NT_9",
-        "antiphon": [
-          "R/ Gloire à l’Agneau immolé&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "1 Jn 3, 1a.2",
-      "content": "Voyez comme il est grand, l’amour dont le Père nous a comblés&nbsp;: il a voulu que nous soyons appelés enfants de Dieu, —&nbsp;et nous le sommes&nbsp;—. Bien-aimés, dès maintenant, nous sommes enfants de Dieu, mais ce que nous serons ne paraît pas encore clairement. Nous le savons&nbsp;: lorsque le Fils de Dieu paraîtra, nous serons semblables à lui parce que nous le verrons tel qu’il est."
-    },
-    "hymn": [
-      "sans-fin-seigneur-dieu-notre-pere"
-    ],
-    "evangelicAntiphon": "Le Seigneur fit pour moi des merveilles&nbsp;: saint est son nom&nbsp;!",
-    "intercession": "<p>Avec un cœur d’enfant, supplions Dieu, notre Père, et disons-lui&nbsp;:</p> <p>R/ Père, fais-nous voir ton amour&nbsp;!</p> <p>Père très bon, en ton Fils bien-aimé, nous sommes frères&nbsp;:<br> —&nbsp;accorde-nous de vivre ensemble et d’être unis.</p> <p>Laisse venir à toi les enfants&nbsp;:<br> —&nbsp;ton Royaume est à ceux qui leur ressemblent.</p> <p>Donne à ceux qui préparent l’avenir&nbsp;<br> —&nbsp;de bâtir un monde juste et fraternel.</p> <p>Tu nous demandes d’aimer nos ennemis&nbsp;:<br> —&nbsp;convertis leur cœur et le nôtre.</p> <p>Accueille tes enfants dans ta demeure éternelle&nbsp;:&nbsp;<br> —&nbsp;qu’ils voient la douceur de ta face.</p> ",
-    "responsory": "<p>R/ Bénis le Seigneur, ô mon âme,<br>  *  Bénis son nom très saint, tout mon être.<br> V/ Il te couronne d’amour et de tendresse.  * <br> V/ N’oublie aucun de ses bienfaits.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu tout-puissant, qui nous as donné de vivre jusqu’à maintenant, vers toi nous levons les mains pour te rendre ce soir toute grâce reçue&nbsp;; accepte notre offrande par le Christ notre Seigneur. Lui qui règne avec toi et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen."
+    "oration": [
+      "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre&nbsp;: exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -133,5 +106,45 @@
       }
     ]
   },
-  "readingHymn": "un-chant-rassemble-dans-la-nuit"
+  "vespers": {
+    "hymn": [
+      "sans-fin-seigneur-dieu-notre-pere"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_19",
+        "antiphon": [
+          "Le Seigneur donne la victoire à son Messie.",
+          "Que Dieu te réponde au jour de détresse&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_20",
+        "antiphon": [
+          "Dresse-toi, Seigneur, dans ta force&nbsp;: nous chanterons ta vaillance.",
+          "Ta grâce, Seigneur, nous rend inébranlables."
+        ]
+      },
+      {
+        "psalm": "NT_9",
+        "antiphon": [
+          "R/ Gloire à l’Agneau immolé&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 Jn 3, 1a.2",
+      "content": "Voyez comme il est grand, l’amour dont le Père nous a comblés&nbsp;: il a voulu que nous soyons appelés enfants de Dieu, —&nbsp;et nous le sommes&nbsp;—. Bien-aimés, dès maintenant, nous sommes enfants de Dieu, mais ce que nous serons ne paraît pas encore clairement. Nous le savons&nbsp;: lorsque le Fils de Dieu paraîtra, nous serons semblables à lui parce que nous le verrons tel qu’il est."
+    },
+    "responsory": "<p>R/ Bénis le Seigneur, ô mon âme,<br>  *  Bénis son nom très saint, tout mon être.<br> V/ Il te couronne d’amour et de tendresse.  * <br> V/ N’oublie aucun de ses bienfaits.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Seigneur fit pour moi des merveilles&nbsp;: saint est son nom&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Avec un cœur d’enfant, supplions Dieu, notre Père, et disons-lui&nbsp;:</p> <p>R/ Père, fais-nous voir ton amour&nbsp;!</p> <p>Père très bon, en ton Fils bien-aimé, nous sommes frères&nbsp;:<br> —&nbsp;accorde-nous de vivre ensemble et d’être unis.</p> <p>Laisse venir à toi les enfants&nbsp;:<br> —&nbsp;ton Royaume est à ceux qui leur ressemblent.</p> <p>Donne à ceux qui préparent l’avenir&nbsp;<br> —&nbsp;de bâtir un monde juste et fraternel.</p> <p>Tu nous demandes d’aimer nos ennemis&nbsp;:<br> —&nbsp;convertis leur cœur et le nôtre.</p> <p>Accueille tes enfants dans ta demeure éternelle&nbsp;:&nbsp;<br> —&nbsp;qu’ils voient la douceur de ta face.</p> "
+    },
+    "oration": [
+      "Dieu tout-puissant, qui nous as donné de vivre jusqu’à maintenant, vers toi nous levons les mains pour te rendre ce soir toute grâce reçue&nbsp;; accepte notre offrande par le Christ notre Seigneur. Lui qui règne avec toi et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen."
+    ]
+  }
 }

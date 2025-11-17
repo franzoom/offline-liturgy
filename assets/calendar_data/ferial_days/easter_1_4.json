@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 10-11",
+      "biblicalReference": "Rm 8, 10-11",
       "content": "Si le Christ est en vous, votre corps a beau être voué à la mort à cause du péché, l’Esprit est votre vie, parce que vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous."
     },
-    "evangelicAntiphon": "Jésus vint au milieu de ses disciples&nbsp;; il leur dit&nbsp;: La paix soit avec vous. Alléluia&nbsp;!",
-    "intercession": "<p>Jésus ressuscité, tu réjouis ton Église par ta présence, écoute sa prière&nbsp;:</p> <p>R/ Christ vainqueur, sois au milieu de nous.</p> <p>Tu as vaincu la mort et le péché, <br> –&nbsp;libère-nous des puissances du mal.</p> <p>Viens à nous dans ta force invincible, <br> –&nbsp;montre-nous la douceur de ton amour.</p> <p>Toi seul réconcilies, toi seul régénères, <br> –&nbsp;que tes baptisés changent ce monde sans justice.</p> <p>Soutiens notre combat tant qu’il dure, <br> –&nbsp;jusqu’à l’heure de ton retour.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jésus vint au milieu de ses disciples&nbsp;; il leur dit&nbsp;: La paix soit avec vous. Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Jésus ressuscité, tu réjouis ton Église par ta présence, écoute sa prière&nbsp;:</p> <p>R/ Christ vainqueur, sois au milieu de nous.</p> <p>Tu as vaincu la mort et le péché, <br> –&nbsp;libère-nous des puissances du mal.</p> <p>Viens à nous dans ta force invincible, <br> –&nbsp;montre-nous la douceur de ton amour.</p> <p>Toi seul réconcilies, toi seul régénères, <br> –&nbsp;que tes baptisés changent ce monde sans justice.</p> <p>Soutiens notre combat tant qu’il dure, <br> –&nbsp;jusqu’à l’heure de ton retour.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>Hommes nouveaux Stance<br> baptisés dans le Christ, alléluia,<br> vous avez revêtu le Christ, alléluia&nbsp;!<br> Héritiers avec lui d’un Royaume de lumière,<br> vous possédez la liberté des fils de Dieu<br> pour annoncer au monde&nbsp;:</p> <p>R/ Nous sommes au Christ,<br> et le Christ est à Dieu.<br> Alléluia&nbsp;! Alléluia&nbsp;!</p> <p>Venez, voyez les gestes de Dieu,<br> redoutable en hauts faits pour les hommes.</p> <p>Il changea la mer en terre ferme,<br> on passa le fleuve à pied sec.</p>"
     },
     "verse": "<p>V/ En ta résurrection, ô Christ, alléluia.<br>le ciel et la terre se réjouissent, alléluia.</p>",
-    "oration": "Dieu qui as uni tant de peuples divers dans la même confession de ton nom, accorde à tous les baptisés d’avoir au cœur la même foi et dans la vie le même amour."
+    "oration": [
+      "Dieu qui as uni tant de peuples divers dans la même confession de ton nom, accorde à tous les baptisés d’avoir au cœur la même foi et dans la vie le même amour."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_4",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_75_1"
+      },
+      {
+        "psalm": "PSALM_75_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +114,15 @@
       }
     ],
     "reading": {
-      "ref": "1 P 3, 18.22",
+      "biblicalReference": "1 P 3, 18.22",
       "content": "Le Christ est mort pour les péchés, une fois pour toutes&nbsp;; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort&nbsp;; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu."
     },
-    "evangelicAntiphon": "Voyez mes mains et mes pieds&nbsp;: c’est bien moi. Alléluia&nbsp;!",
-    "intercession": "<p>Seigneur Jésus, tu es mort et ressuscité pour le salut de tous les hommes, souviens-toi de chacun&nbsp;:</p> <p>R/ Visite-nous, Seigneur ressuscité.</p> <p>Toi, le médecin des âmes et des corps,<br> –&nbsp;relève et fortifie les malades.</p> <p>Secours des opprimés,<br> –&nbsp;soutiens ceux que frappe l’injustice ou l’échec.</p> <p>Frère de l’homme seul et misérable,<br> –&nbsp;réconforte celui qui souffre l’épreuve et le deuil.</p> <p>Par ta croix, la joie est entrée dans le monde&nbsp;:<br> –&nbsp;accorde à nos défunts la plénitude de cette joie.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_4",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_75_1"
-      },
-      {
-        "psalm": "PSALM_75_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Voyez mes mains et mes pieds&nbsp;: c’est bien moi. Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu es mort et ressuscité pour le salut de tous les hommes, souviens-toi de chacun&nbsp;:</p> <p>R/ Visite-nous, Seigneur ressuscité.</p> <p>Toi, le médecin des âmes et des corps,<br> –&nbsp;relève et fortifie les malades.</p> <p>Secours des opprimés,<br> –&nbsp;soutiens ceux que frappe l’injustice ou l’échec.</p> <p>Frère de l’homme seul et misérable,<br> –&nbsp;réconforte celui qui souffre l’épreuve et le deuil.</p> <p>Par ta croix, la joie est entrée dans le monde&nbsp;:<br> –&nbsp;accorde à nos défunts la plénitude de cette joie.</p> "
+    }
   }
 }

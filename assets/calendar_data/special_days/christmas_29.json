@@ -1,12 +1,24 @@
 {
+  "celebration": {
+    "title": "5<sup>ème</sup> Jour dans l’octave de la Nativité",
+    "commons": [
+      "christmas"
+    ],
+    "grade": 9,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "He 1, 1-2",
+      "biblicalReference": "He 1, 1-2",
       "content": "Souvent, dans le passé, Dieu a parlé à nos pères par les prophètes sous des formes fragmentaires et variées&nbsp;; mais, dans les derniers temps, dans ces jours où nous sommes, il nous a parlé par ce Fils qu’il a établi héritier de toutes choses et par qui il a créé les mondes."
     },
-    "evangelicAntiphon": "Les bergers se disaient entre eux&nbsp;: Allons jusqu’à Bethléem et voyons ce que le Seigneur nous a fait connaître.",
-    "intercession": "<p>R/Gloire à Dieu&nbsp;! Aux hommes, paix sur la terre&nbsp;!</p> <p>Dieu tout-puissant, Père de notre Seigneur Jésus Christ, en ce temps où l’Église entière célèbre ton amour rédempteur,<br> —&nbsp;reçois notre louange.</p> <p>Depuis toujours, tu fais resplendir la promesse de ta victoire par le Christ notre Sauveur,<br> —&nbsp;accorde à tous les hommes la lumière de l’Évangile.</p> <p>Par ton Messie, joie d’Abraham et désiré des nations, espérance des patriarches et des prophètes,<br> —&nbsp;rassemble Israël et tous les peuples en un seul corps.</p> <p>Tu as voulu que la naissance de ton Fils fût annoncée par les anges et célébrée par tous les fidèles,<br> —&nbsp;donne à la terre la paix proclamée dans les cieux.</p>",
-    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Les bergers se disaient entre eux&nbsp;: Allons jusqu’à Bethléem et voyons ce que le Seigneur nous a fait connaître."
+    },
+    "intercession": {
+      "content": "<p>R/Gloire à Dieu&nbsp;! Aux hommes, paix sur la terre&nbsp;!</p> <p>Dieu tout-puissant, Père de notre Seigneur Jésus Christ, en ce temps où l’Église entière célèbre ton amour rédempteur,<br> —&nbsp;reçois notre louange.</p> <p>Depuis toujours, tu fais resplendir la promesse de ta victoire par le Christ notre Sauveur,<br> —&nbsp;accorde à tous les hommes la lumière de l’Évangile.</p> <p>Par ton Messie, joie d’Abraham et désiré des nations, espérance des patriarches et des prophètes,<br> —&nbsp;rassemble Israël et tous les peuples en un seul corps.</p> <p>Tu as voulu que la naissance de ton Fils fût annoncée par les anges et célébrée par tous les fidèles,<br> —&nbsp;donne à la terre la paix proclamée dans les cieux.</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -43,43 +55,43 @@
     },
     "verse": "<p>V/ Les bergers louaient Dieu,<br> pour tout ce qu’ils avaient vu et entendu.</p>"
   },
-  "vespers": {
-    "reading": {
-      "ref": "1 Jn 1, 1-3",
-      "content": "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage&nbsp;: nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ."
-    },
-    "evangelicAntiphon": "Le Roi du ciel a voulu naître d’une vierge pour introduire en son Royaume l’homme déchu.",
-    "intercession": "<p>Par le Fils bien-aimé, joie de toute la terre, bénissons notre Père du ciel&nbsp;:</p> <p>R/Béni sois-tu, Dieu de miséricorde&nbsp;!</p> <p>Toi qui veux le salut de tous les hommes, nous te rendons grâce de nous avoir donné ton Fils unique&nbsp;:<br> —&nbsp;réjouis la terre entière par sa naissance.</p> <p>Tu as envoyé ton Fils annoncer la liberté aux captifs et proclamer le temps de la grâce&nbsp;:<br> —&nbsp;accorde au monde la paix.</p> <p>Tu as conduit les sages des peuples vers l’Enfant&nbsp;:<br> —&nbsp;reçois l’offrande de ceux qui t’adorent.</p> <p>Tu appelles tous les hommes à ton admirable lumière&nbsp;:<br> —guide-les vers l’Enfant et sa mère.</p> <p>Par le messie de Bethléem, lumière des nations,<br> —&nbsp;révèle ta gloire aux frères que tu as laissé s’en aller dans la paix.</p>",
-    "responsory": "<p>R/ Le Verbe s’est fait chair.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a demeuré parmi nous. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Tt 2, 11-12",
+        "biblicalReference": "Tt 2, 11-12",
         "content": "La grâce de Dieu s’est manifestée pour le salut de tous les hommes. C’est elle qui nous apprend à rejeter le péché et les passions d’ici-bas, pour vivre dans le monde présent en hommes raisonnables, justes et religieux."
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "1 Jn 4, 9",
+        "biblicalReference": "1 Jn 4, 9",
         "content": "Voici comment Dieu a manifesté son amour parmi nous&nbsp;: Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Ac 10, 36",
+        "biblicalReference": "Ac 10, 36",
         "content": "Dieu a envoyé la Parole aux fils d’Israël, pour leur annoncer la paix de Jésus Christ&nbsp;: c’est lui, Jésus, qui est le Seigneur de tous."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "5<sup>ème</sup> Jour dans l’octave de la Nativité",
-  "liturgicalGrade": 9,
-  "liturgicalColor": "white",
-  "commons": [
-    "christmas"
-  ],
-  "oration": "Dieu que nul œil ne peut voir, tu as dissipé les ténèbres du monde en lui envoyant ta lumière&nbsp;; tourne vers nous ton visage de paix, et nos louanges proclameront l’incroyable largesse que tu nous fais dans la naissance de ton Fils unique. Lui qui règne."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "1 Jn 1, 1-3",
+      "content": "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage&nbsp;: nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ."
+    },
+    "responsory": "<p>R/ Le Verbe s’est fait chair.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a demeuré parmi nous. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Roi du ciel a voulu naître d’une vierge pour introduire en son Royaume l’homme déchu."
+    },
+    "intercession": {
+      "content": "<p>Par le Fils bien-aimé, joie de toute la terre, bénissons notre Père du ciel&nbsp;:</p> <p>R/Béni sois-tu, Dieu de miséricorde&nbsp;!</p> <p>Toi qui veux le salut de tous les hommes, nous te rendons grâce de nous avoir donné ton Fils unique&nbsp;:<br> —&nbsp;réjouis la terre entière par sa naissance.</p> <p>Tu as envoyé ton Fils annoncer la liberté aux captifs et proclamer le temps de la grâce&nbsp;:<br> —&nbsp;accorde au monde la paix.</p> <p>Tu as conduit les sages des peuples vers l’Enfant&nbsp;:<br> —&nbsp;reçois l’offrande de ceux qui t’adorent.</p> <p>Tu appelles tous les hommes à ton admirable lumière&nbsp;:<br> —guide-les vers l’Enfant et sa mère.</p> <p>Par le messie de Bethléem, lumière des nations,<br> —&nbsp;révèle ta gloire aux frères que tu as laissé s’en aller dans la paix.</p>"
+    }
+  },
+  "oration": [
+    "Dieu que nul œil ne peut voir, tu as dissipé les ténèbres du monde en lui envoyant ta lumière&nbsp;; tourne vers nous ton visage de paix, et nos louanges proclameront l’incroyable largesse que tu nous fais dans la naissance de ton Fils unique. Lui qui règne."
+  ]
 }

@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Za 12, 10-11a",
+      "biblicalReference": "Za 12, 10-11a",
       "content": "Je répandrai sur la maison de David et sur les habitants de Jérusalem un esprit qui fera naître en eux bonté et supplication. Ils lèveront les yeux vers celui qu’ils ont transpercé&nbsp;; ils feront une lamentation sur lui comme sur un fils unique&nbsp;; ils pleureront sur lui amèrement comme sur un premier-né. En ce jour-là, il y aura grande lamentation dans Jérusalem."
     },
-    "evangelicAntiphon": "Quand vous aurez élevé le Fils de l’homme, vous connaîtrez que Je suis.",
-    "intercession": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> ",
     "responsory": "<p>R/ Réveille-toi&nbsp;!<br>  * Pourquoi dors-tu, Seigneur&nbsp;?<br> V/ Maintenant, tu nous humilies, tu nous rejettes. * <br> V/ Ne nous rejette pas pour toujours. * <br> V/ Rachète-nous, au nom de ton amour. * <br></p>",
-    "oration": "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    "evangelicAntiphon": {
+      "common": "Quand vous aurez élevé le Fils de l’homme, vous connaîtrez que Je suis."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> "
+    },
+    "oration": [
+      "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Dans ton sang, Seigneur Jésus,<br> tu nous as rachetés pour Dieu&nbsp;!</p> <p>Comme un agneau sans défaut et sans tache,<br> Jésus s’est offert lui-même à Dieu.</p> <p>Son sang nous purifie des œuvres de mort&nbsp;:<br> nous servirons le Dieu vivant&nbsp;!</p>"
     },
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    "oration": [
+      "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_1",
+        "antiphon": [
+          "Heureux qui cherche Dieu de tout son cœur et marche dans sa loi."
+        ]
+      },
+      {
+        "psalm": "PSALM_12"
+      },
+      {
+        "psalm": "PSALM_13"
+      }
+    ],
+    "oration": [
+      "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 1, 27b-30",
+      "biblicalReference": "1 Co 1, 27b-30",
       "content": "Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi pour couvrir de confusion ce qui est fort&nbsp;; ce qui est d’origine modeste, méprisé dans le monde, ce qui n’est rien, voilà ce que Dieu a choisi pour détruire ce qui est quelque chose, afin que personne ne puisse s’enorgueillir devant Dieu. C’est grâce à Dieu, en effet, que vous êtes dans le Christ Jésus, qui a été envoyé par lui pour être notre sagesse, pour être notre justice, notre sanctification, notre rédemption."
     },
-    "evangelicAntiphon": "Le Père qui m’a envoyé est avec moi, il ne me laisse jamais seul, car je fais toujours ce qui lui plaît.",
-    "intercession": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>",
     "responsory": "<p>R/ Il n’avait ni beauté, ni éclat.<br>  *  Par ses souffrances, nous sommes guéris.<br> V/ Il était méprisé, abandonné.  * <br> V/ C’était nos souffrances qu’il portait.  * <br></p>",
-    "oration": "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_1",
-        "antiphon": [
-          "Heureux qui cherche Dieu de tout son cœur et marche dans sa loi."
-        ]
-      },
-      {
-        "psalm": "PSALM_12"
-      },
-      {
-        "psalm": "PSALM_13"
-      }
-    ],
-    "oration": "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    "evangelicAntiphon": {
+      "common": "Le Père qui m’a envoyé est avec moi, il ne me laisse jamais seul, car je fais toujours ce qui lui plaît."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>"
+    },
+    "oration": [
+      "Seigneur, accorde-nous la grâce de persévérer dans ta volonté&nbsp;; afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté."
+    ]
   }
 }

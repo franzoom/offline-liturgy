@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "qui-donc-est-dieu-pour-nous-aimer-ainsi"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_118_19",
@@ -27,16 +30,19 @@
       }
     ],
     "reading": {
-      "ref": "2 P 1, 10-11",
+      "biblicalReference": "2 P 1, 10-11",
       "content": "Frères, redoublez d’efforts pour confirmer l’appel et le choix dont vous avez bénéficié&nbsp;; en agissant ainsi, vous ne risquez pas de tomber. C’est ainsi que vous sera généreusement accordée l’entrée dans le royaume éternel de notre Seigneur et Sauveur Jésus Christ."
     },
-    "hymn": [
-      "qui-donc-est-dieu-pour-nous-aimer-ainsi"
-    ],
-    "evangelicAntiphon": "Lumière des nations, Sauveur des hommes, béni sois-tu, Seigneur&nbsp;!",
-    "intercession": "<p>Avec toutes les générations qui ont chanté la gloire de la Vierge Marie, disons à Dieu notre reconnaissance&nbsp;:</p> <p>R/ Nous te louons, Seigneur, et nous te bénissons&nbsp;!</p> <p>Pour l’humilité de la Vierge, et sa docilité à ta Parole,</p> <p>Pour son allégresse et pour l’œuvre en elle de l’Esprit,</p> <p>Pour l’enfant qu’elle a porté, qu’elle a couché dans la mangeoire,</p> <p>Pour son offrande au Temple et son obéissance à la Loi,</p> <p>Pour sa présence à Cana, pour sa tranquille prière,</p> <p>Pour sa foi dans l’épreuve, pour sa force au calvaire,</p> <p>Pour sa joie au matin de Pâques, et parce qu’elle est notre mère.</p> ",
     "responsory": "<p>R/ Voyez quel grand amour nous est donné&nbsp;!<br> V/ Enfants de Dieu, nous le sommes <br>dans le Fils unique&nbsp;! R/ <br> V/ Au-delà de toute souffrance, <br>une joie sans fin nous attend. R/ </p>",
-    "oration": "Écoute-nous, Seigneur, et accorde-nous la paix profonde que nous te demandons. Ainsi en te cherchant tous les jours de notre vie, et soutenus par la prière de la Vierge Marie, nous parviendrons sans encombre jusqu’à toi. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles. Amen."
+    "evangelicAntiphon": {
+      "common": "Lumière des nations, Sauveur des hommes, béni sois-tu, Seigneur&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Avec toutes les générations qui ont chanté la gloire de la Vierge Marie, disons à Dieu notre reconnaissance&nbsp;:</p> <p>R/ Nous te louons, Seigneur, et nous te bénissons&nbsp;!</p> <p>Pour l’humilité de la Vierge, et sa docilité à ta Parole,</p> <p>Pour son allégresse et pour l’œuvre en elle de l’Esprit,</p> <p>Pour l’enfant qu’elle a porté, qu’elle a couché dans la mangeoire,</p> <p>Pour son offrande au Temple et son obéissance à la Loi,</p> <p>Pour sa présence à Cana, pour sa tranquille prière,</p> <p>Pour sa foi dans l’épreuve, pour sa force au calvaire,</p> <p>Pour sa joie au matin de Pâques, et parce qu’elle est notre mère.</p> "
+    },
+    "oration": [
+      "Écoute-nous, Seigneur, et accorde-nous la paix profonde que nous te demandons. Ainsi en te cherchant tous les jours de notre vie, et soutenus par la prière de la Vierge Marie, nous parviendrons sans encombre jusqu’à toi. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles. Amen."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -72,7 +78,9 @@
       "responsory": "<p>R/ Tu es digne, ô notre Dieu,<br> de recevoir gloire et puissance,<br> car c’est toi qui créas l’univers.</p> <p>Par sa parole, le Seigneur a fait ses œuvres,<br> et la création obéit à sa volonté.</p> <p>Que toutes ses œuvres sont aimables&nbsp;:<br> comme une étincelle que l’on pourrait contempler.</p> <p>Dès son lever, le soleil proclame&nbsp;:<br> Quelle merveille, l’œuvre du Très-Haut&nbsp;!</p>"
     },
     "verse": "<p>V/ Venez, voyez l’œuvre de Dieu&nbsp;:<br>sur la terre, il fait des merveilles.</p>",
-    "oration": "Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce, alors tu pourras venir en nous pour y faire ta demeure."
+    "oration": [
+      "Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce, alors tu pourras venir en nous pour y faire ta demeure."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -95,6 +103,5 @@
         ]
       }
     ]
-  },
-  "readingHymn": "le-seigneur-passe"
+  }
 }

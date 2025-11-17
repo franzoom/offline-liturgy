@@ -1,4 +1,14 @@
 {
+  "celebration": {
+    "title": "Saint Amand",
+    "subtitle": "évêque",
+    "description": "Amand, était, pense-t-on, originaire d’Aquitaine. L’évangélisateur de la Gaule Belgique fut essentiellement un missionnaire en perpétuelle pérégrination. Ordonné évêque, il n’occupa que trois ans le siège de Maestricht (646-649). Il fonda plusieurs monastères, entre autres ceux de Gand, de Nivelles et d’Elnone (Saint-Amand-les-Eaux), où il mourut vers 679.",
+    "commons": [
+      "pastors"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "Lettre du pape Martin I<sup>er</sup> à Saint Amand",
@@ -6,13 +16,7 @@
       "responsory": "<p>R/ Il n’est pas de plus grand amour<br>que de donner sa vie pour ceux qu’on aime.</p><p>Vous serez mes amis,<br>si vous faites ma volonté.</p><p>Moi, le Maître et Seigneur,<br>je vous ai donné l’exemple.</p><p>Heureux serez-vous, sachant cela,<br>si vous donnez votre vie.</p>"
     }
   },
-  "celebrationTitle": "Saint Amand",
-  "celebrationSubtitle": "évêque",
-  "celebrationDescription": "Amand, était, pense-t-on, originaire d’Aquitaine. L’évangélisateur de la Gaule Belgique fut essentiellement un missionnaire en perpétuelle pérégrination. Ordonné évêque, il n’occupa que trois ans le siège de Maestricht (646-649). Il fonda plusieurs monastères, entre autres ceux de Gand, de Nivelles et d’Elnone (Saint-Amand-les-Eaux), où il mourut vers 679.",
-  "commons": [
-    "pastors"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": 10,
-  "oration": "Seigneur, tu as appelé nos pères à la lumière de l’Évangile par la prédication de l’évêque saint Amand; accorde-nous, à son intercession, de croître en sainteté et de connaître toujours mieux ton Fils, Jésus, le Christ, notre Seigneur."
+  "oration": [
+    "Seigneur, tu as appelé nos pères à la lumière de l’Évangile par la prédication de l’évêque saint Amand; accorde-nous, à son intercession, de croître en sainteté et de connaître toujours mieux ton Fils, Jésus, le Christ, notre Seigneur."
+  ]
 }

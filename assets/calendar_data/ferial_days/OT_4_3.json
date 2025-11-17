@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "tel-un-brouillard-qui-se-dechire"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_107",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "Dt 4, 39-40a",
+      "biblicalReference": "Dt 4, 39-40a",
       "content": "Sache donc aujourd’hui, et médite cela dans ton cœur&nbsp;: le Seigneur est Dieu, là-haut dans le ciel comme ici-bas sur la terre, et il n’y en a pas d’autre. Tu garderas tous les jours les commandements et les ordres du Seigneur que je te donne aujourd’hui."
     },
-    "hymn": [
-      "tel-un-brouillard-qui-se-dechire"
-    ],
-    "evangelicAntiphon": "Croyez en la lumière, et vous serez des fils de lumière.",
-    "intercession": "<p>Les yeux levés vers le Christ, Splendeur de la gloire du Père, nous le prions&nbsp;:</p> <p>Tu es l’origine et le terme de notre foi&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Toi qui nous appelles des ténèbres à ta lumière,<br> —&nbsp;prends pitié de nous.</p> <p>Tu as ouvert les yeux des aveugles et l’oreille des sourds&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Guéris-nous de l’incrédulité&nbsp;;<br> —&nbsp;prends pitié de nous.</p> <p>Tu nous as rassemblés en un seul corps&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Garde-nous de séparer ce que tu as uni&nbsp;;<br> —&nbsp;prends pitié de nous.</p> <p>Tu donnes la force dans la tentation, la patience dans l’épreuve&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Que notre vie soit louange de grâce&nbsp;;<br> —&nbsp;prends pitié de nous.</p> ",
     "responsory": "<p>R/ Gloire à Dieu au plus haut des cieux&nbsp;!<br> V/ Qu’il est précieux, ton amour, ô mon Dieu. R/ <br> V/ Aux torrents du Paradis, tu nous abreuves.&nbsp;R/ </p>",
-    "oration": "Souviens-toi, Seigneur, de ton Alliance scellée dans le sang de ton Fils, rappelle à ton peuple le pardon que tu lui offres, et rends-lui la joie d’être sauvé."
+    "evangelicAntiphon": {
+      "common": "Croyez en la lumière, et vous serez des fils de lumière.",
+      "yearA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
+      "yearB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
+      "yearC": "Passant au milieu d’eux, Jésus allait son chemin."
+    },
+    "intercession": {
+      "content": "<p>Les yeux levés vers le Christ, Splendeur de la gloire du Père, nous le prions&nbsp;:</p> <p>Tu es l’origine et le terme de notre foi&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Toi qui nous appelles des ténèbres à ta lumière,<br> —&nbsp;prends pitié de nous.</p> <p>Tu as ouvert les yeux des aveugles et l’oreille des sourds&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Guéris-nous de l’incrédulité&nbsp;;<br> —&nbsp;prends pitié de nous.</p> <p>Tu nous as rassemblés en un seul corps&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Garde-nous de séparer ce que tu as uni&nbsp;;<br> —&nbsp;prends pitié de nous.</p> <p>Tu donnes la force dans la tentation, la patience dans l’épreuve&nbsp;;<br> —&nbsp;béni sois-tu&nbsp;!</p> <p>Que notre vie soit louange de grâce&nbsp;;<br> —&nbsp;prends pitié de nous.</p> "
+    },
+    "oration": [
+      "Souviens-toi, Seigneur, de ton Alliance scellée dans le sang de ton Fils, rappelle à ton peuple le pardon que tu lui offres, et rends-lui la joie d’être sauvé."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,40 +83,9 @@
       "responsory": "<p>R/ Tous ceux qu’anime l’Esprit de Dieu<br> sont fils de Dieu.</p> <p>Cherchez le Seigneur avec simplicité de cœur&nbsp;:<br> il se révèle à ceux qui l’accueillent.</p> <p>L’Esprit du Seigneur remplit l’univers,<br> il rassemble en lui tout ce qui est.</p>"
     },
     "verse": "<p>V/ Ouvre mes yeux à tes merveilles,<br>aux splendeurs de ta loi.</p>",
-    "oration": "Dieu qui peux mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets&nbsp;; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_138_1",
-        "antiphon": [
-          "Ô mon Dieu, tu me connais&nbsp;; ton amour me conduit."
-        ]
-      },
-      {
-        "psalm": "PSALM_138_2",
-        "antiphon": [
-          "Dieu qui scrutes les reins et les cœurs, tu rends à chacun selon ses œuvres."
-        ]
-      },
-      {
-        "psalm": "NT_6",
-        "antiphon": [
-          "R/ Gloire à toi, premier-né d’entre les morts&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "1 Jn 2, 3-6",
-      "content": "Voici comment nous pouvons savoir que nous connaissons Jésus Christ&nbsp;: c’est en gardant ses commandements. Celui qui dit&nbsp;: «&nbsp;Je le connais&nbsp;», et qui ne garde pas ses commandements, est un menteur&nbsp;: la vérité n’est pas en lui. Mais en celui qui garde fidèlement sa parole, l’amour de Dieu atteint vraiment la perfection&nbsp;: voilà comment nous reconnaissons que nous sommes en lui. Celui qui déclare demeurer en lui doit marcher lui-même dans la voie où lui, Jésus, a marché."
-    },
-    "hymn": [
-      "ouvre-mes-yeux-seigneur"
-    ],
-    "evangelicAntiphon": "Pour toi, Seigneur, la nuit comme le jour est lumière.",
-    "intercession": "<p>Prions Dieu notre Père, dont la miséricorde pour son peuple est infinie&nbsp;:</p> <p>R/ Achève en nous ton ouvrage, Seigneur.</p> <p>Seigneur, puisque tu as envoyé ton Fils sauver le monde et non pas le juger,<br> —&nbsp;donne-nous en abondance les fruits de la croix.</p> <p>Tu as établi tes prêtres intendants des mystères du Christ&nbsp;:<br> —&nbsp;donne-leur un cœur fidèle, sage et bon.</p> <p>À ceux que tu as appelés à la chasteté en vue du Royaume,<br> —&nbsp;donne de suivre ton Fils.</p> <p>Tu as créé l’homme à ton image, homme et femme tu les créas&nbsp;;<br> —&nbsp;donne-leur cette grâce de l’unité.</p> <p>Toi qui reçois l’offrande de ton Fils,<br> —&nbsp;ne condamne pas nos défunts, mais accorde-leur ton pardon.</p> ",
-    "responsory": "<p>R/ Tu es le Chemin, la Vérité, la Vie,<br>  *  Jésus, Fils de Dieu&nbsp;!<br> V/ Qui veut trouver le Père doit passer par toi,  * <br> V/ Tu le conduis vers la joie sans déclin,  * <br></p>",
-    "oration": "Pour le bien de tous et pour ta gloire, Seigneur, tu as voulu que chaque membre de ton peuple te serve selon sa grâce et les appels de l’Esprit&nbsp;; accorde à chacun de trouver sa fonction dans l’Église, en vue de constituer avec ses frères le corps de Jésus Christ. Lui qui règne."
+    "oration": [
+      "Dieu qui peux mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets&nbsp;; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -131,8 +109,46 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonC": "Passant au milieu d’eux, Jésus allait son chemin.",
-  "sundayEvangelicAntiphonB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
-  "sundayEvangelicAntiphonA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
-  "readingHymn": "dieu-que-nul-oeil-de-creature"
+  "vespers": {
+    "hymn": [
+      "ouvre-mes-yeux-seigneur"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_138_1",
+        "antiphon": [
+          "Ô mon Dieu, tu me connais&nbsp;; ton amour me conduit."
+        ]
+      },
+      {
+        "psalm": "PSALM_138_2",
+        "antiphon": [
+          "Dieu qui scrutes les reins et les cœurs, tu rends à chacun selon ses œuvres."
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "R/ Gloire à toi, premier-né d’entre les morts&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 Jn 2, 3-6",
+      "content": "Voici comment nous pouvons savoir que nous connaissons Jésus Christ&nbsp;: c’est en gardant ses commandements. Celui qui dit&nbsp;: «&nbsp;Je le connais&nbsp;», et qui ne garde pas ses commandements, est un menteur&nbsp;: la vérité n’est pas en lui. Mais en celui qui garde fidèlement sa parole, l’amour de Dieu atteint vraiment la perfection&nbsp;: voilà comment nous reconnaissons que nous sommes en lui. Celui qui déclare demeurer en lui doit marcher lui-même dans la voie où lui, Jésus, a marché."
+    },
+    "responsory": "<p>R/ Tu es le Chemin, la Vérité, la Vie,<br>  *  Jésus, Fils de Dieu&nbsp;!<br> V/ Qui veut trouver le Père doit passer par toi,  * <br> V/ Tu le conduis vers la joie sans déclin,  * <br></p>",
+    "evangelicAntiphon": {
+      "common": "Pour toi, Seigneur, la nuit comme le jour est lumière.",
+      "yearA": "Si l’on vous persécute à cause de moi, réjouissez-vous&nbsp;: votre récompense sera grande dans les cieux.",
+      "yearB": "Dans toute la Galilée, se répandait la renommée du Seigneur.",
+      "yearC": "Passant au milieu d’eux, Jésus allait son chemin."
+    },
+    "intercession": {
+      "content": "<p>Prions Dieu notre Père, dont la miséricorde pour son peuple est infinie&nbsp;:</p> <p>R/ Achève en nous ton ouvrage, Seigneur.</p> <p>Seigneur, puisque tu as envoyé ton Fils sauver le monde et non pas le juger,<br> —&nbsp;donne-nous en abondance les fruits de la croix.</p> <p>Tu as établi tes prêtres intendants des mystères du Christ&nbsp;:<br> —&nbsp;donne-leur un cœur fidèle, sage et bon.</p> <p>À ceux que tu as appelés à la chasteté en vue du Royaume,<br> —&nbsp;donne de suivre ton Fils.</p> <p>Tu as créé l’homme à ton image, homme et femme tu les créas&nbsp;;<br> —&nbsp;donne-leur cette grâce de l’unité.</p> <p>Toi qui reçois l’offrande de ton Fils,<br> —&nbsp;ne condamne pas nos défunts, mais accorde-leur ton pardon.</p> "
+    },
+    "oration": [
+      "Pour le bien de tous et pour ta gloire, Seigneur, tu as voulu que chaque membre de ton peuple te serve selon sa grâce et les appels de l’Esprit&nbsp;; accorde à chacun de trouver sa fonction dans l’Église, en vue de constituer avec ses frères le corps de Jésus Christ. Lui qui règne."
+    ]
+  }
 }

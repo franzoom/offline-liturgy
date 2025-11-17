@@ -1,10 +1,13 @@
 {
   "firstVespers": {
-    "evangelicAntiphon": "Tu seras ma fiancée pour toujours, ma fiancée dans l'amour et la tendresse."
+    "evangelicAntiphon": {
+      "common": "Tu seras ma fiancée pour toujours, ma fiancée dans l'amour et la tendresse."
+    }
   },
   "morning": {
-    "evangelicAntiphon": "Qui fait la volonté de mon Père, dit le Seigneur, sera mon frère ma sœur et ma mère.",
-    "evangelicAntiphon2": "Le Seigneur est mon partage, il est bon pour celui qui le cherche."
+    "evangelicAntiphon": {
+      "common": "Qui fait la volonté de mon Père, dit le Seigneur, sera mon frère ma sœur et ma mère."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -21,9 +24,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Vous avez tout quitté pour me suivre&nbsp;: recevez le centuple et la vie éternelle.",
-    "evangelicAntiphon2": "Quand des frères sont unis et rendent grâce au Seigneur, Dieu lui-même les bénit."
+    "evangelicAntiphon": {
+      "common": "Vous avez tout quitté pour me suivre&nbsp;: recevez le centuple et la vie éternelle."
+    }
   },
-  "commonTitle": "Commun des Saintes religieuses",
-  "oration": "Tu as donné, Seigneur, à saint N. la grâce d’imiter le Christ humble et pauvre ; accorde-nous, par son intercession, de suivre fidèlement l’appel que nous avons reçu et d’atteindre à la perfection dont tu nous as donné l’exemple dans la personne de Jésus ton Fils. Lui qui règne."
+  "oration": [
+    "Tu as donné, Seigneur, à saint N. la grâce d’imiter le Christ humble et pauvre ; accorde-nous, par son intercession, de suivre fidèlement l’appel que nous avons reçu et d’atteindre à la perfection dont tu nous as donné l’exemple dans la personne de Jésus ton Fils. Lui qui règne."
+  ]
 }

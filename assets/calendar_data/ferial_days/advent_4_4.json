@@ -51,6 +51,22 @@
     ],
     "verse": "<p>V/ Écoutez, tous les peuples, la parole du Seigneur,<br> annoncez-la aux îles lointaines.</p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_20",
+        "antiphon": [
+          "Les Prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
+        ]
+      },
+      {
+        "psalm": "PSALM_127"
+      },
+      {
+        "psalm": "PSALM_128"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -70,22 +86,6 @@
         "antiphon": [
           "Vienne le Seigneur, le roi de la gloire&nbsp;! Vienne le Messie, le Fils de Dieu&nbsp;!"
         ]
-      }
-    ]
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_20",
-        "antiphon": [
-          "Les Prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
-        ]
-      },
-      {
-        "psalm": "PSALM_127"
-      },
-      {
-        "psalm": "PSALM_128"
       }
     ]
   }

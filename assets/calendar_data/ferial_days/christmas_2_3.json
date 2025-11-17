@@ -26,12 +26,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 49, 8b-9",
+      "biblicalReference": "Is 49, 8b-9",
       "content": "Je t’ai destiné à être l’homme de mon Alliance avec le peuple pour relever le pays, pour répartir les terres dévastées, pour dire aux captifs&nbsp;: Sortez de votre prison&nbsp;; à ceux qui sont dans les ténèbres&nbsp;: Venez à la lumière&nbsp;!"
     },
-    "evangelicAntiphon": "Nous avons vu son étoile en Orient et nous venons, avec nos présents, adorer le Seigneur.",
-    "intercession": "<p>Bénissons le Christ, le Fils du Dieu vivant, qui s’est fait homme à la plénitude des temps.</p> <p>R/ Béni sois-tu Seigneur&nbsp;!</p> <p>Ô Verbe de Dieu, créateur de l’univers, venu sur notre terre pour sauver les hommes.<br> —&nbsp;fais de nous les témoins de cette bonne nouvelle.</p> <p>Soleil de justice, qui as brillé depuis le sein du Père,<br> —&nbsp;éclaire ceux qui gisent dans l’ombre de la mort.</p> <p>Dieu éternellement jeune, petit enfant déposé dans une crèche, <br> —&nbsp;renouvelle en nous la simplicité de l’enfance.</p> <p>Pain vivant venu du ciel pour nous donner la vie éternelle,<br> —&nbsp;réjouis nos cœurs par ton Eucharistie.</p> ",
-    "responsory": "<p>R/ Lève-toi, resplendis, car elle est venue, ta lumière&nbsp;!<br>  * La gloire du Seigneur s’est levée sur toi.<br> V/ Regarde alentour&nbsp;: tous les peuples viennent vers toi. * <br> V/ Ils s’avancent à la clarté de ton aurore. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Lève-toi, resplendis, car elle est venue, ta lumière&nbsp;!<br>  * La gloire du Seigneur s’est levée sur toi.<br> V/ Regarde alentour&nbsp;: tous les peuples viennent vers toi. * <br> V/ Ils s’avancent à la clarté de ton aurore. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Nous avons vu son étoile en Orient et nous venons, avec nos présents, adorer le Seigneur."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Christ, le Fils du Dieu vivant, qui s’est fait homme à la plénitude des temps.</p> <p>R/ Béni sois-tu Seigneur&nbsp;!</p> <p>Ô Verbe de Dieu, créateur de l’univers, venu sur notre terre pour sauver les hommes.<br> —&nbsp;fais de nous les témoins de cette bonne nouvelle.</p> <p>Soleil de justice, qui as brillé depuis le sein du Père,<br> —&nbsp;éclaire ceux qui gisent dans l’ombre de la mort.</p> <p>Dieu éternellement jeune, petit enfant déposé dans une crèche, <br> —&nbsp;renouvelle en nous la simplicité de l’enfance.</p> <p>Pain vivant venu du ciel pour nous donner la vie éternelle,<br> —&nbsp;réjouis nos cœurs par ton Eucharistie.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,7 +71,25 @@
       "responsory": "<p>Le monde s’ouvre à la vie, Stance<br> l’homme reçoit l’Esprit,<br> au souffle du Très-Haut<br> se lève un peuple nouveau<br> de toute race, langue et frontière.</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p> <p>C’est dans l’Esprit Saint<br> que vous serez baptisés&nbsp;:</p>"
     },
     "verse": "<p>V/ Dieu nous enseigne ses voies,<br> pour que nous suivions ses sentiers.</p>",
-    "oration": "Seigneur notre Dieu, soleil qui brille pour toutes les nations, accorde aux peuples de la terre de vivre en paix, et fais lever en nos cœurs l’admirable lumière qui a guidé les mages vers ton Fils. Lui qui règne."
+    "oration": [
+      "Seigneur notre Dieu, soleil qui brille pour toutes les nations, accorde aux peuples de la terre de vivre en paix, et fais lever en nos cœurs l’admirable lumière qui a guidé les mages vers ton Fils. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_8",
+        "antiphon": [
+          "Cet enfant se lèvera&nbsp;: signe contredit, Sauveur de son peuple."
+        ]
+      },
+      {
+        "psalm": "PSALM_54_1_2"
+      },
+      {
+        "psalm": "PSALM_54_3"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -91,27 +113,15 @@
       }
     ],
     "reading": {
-      "ref": "Col 1, 13-15",
+      "biblicalReference": "Col 1, 13-15",
       "content": "Dieu nous a arrachés au pouvoir des ténèbres, il nous a fait entrer dans le Royaume de son Fils bien-aimé, par qui nous sommes rachetés et par qui nos péchés sont pardonnés. Il est l’image du Dieu invisible, le premier-né par rapport à toute créature."
     },
-    "evangelicAntiphon": "Hérode interrogeait les mages&nbsp;: Quel signe vous a guidés vers le Roi nouveau-né&nbsp;? Nous avons vu l’étoile étincelante dont l’éclat illumine le monde.",
-    "intercession": "<p>Contemplons le Christ, l’Agneau de Dieu qui enlève nos péchés, et supplions-le&nbsp;:</p> <p>R/ Que vienne sur nous ta miséricorde&nbsp;!</p> <p>Prêtre éternel,<br> en venant dans le monde, tu as inauguré l’Alliance nouvelle&nbsp;:<br> —&nbsp;accorde-nous de prendre part à l’offrande de ton Église.</p> <p>Sauveur du monde,<br> ta naissance a rempli de joie la terre entière&nbsp;:<br> —&nbsp;prends pitié des pécheurs&nbsp;: qu’ils puissent se réjouir en toi.</p> <p>Médecin des âmes et des corps,<br> tu es venu visiter notre faiblesse&nbsp;:<br> —&nbsp;soulage et guéris les malades.</p> <p>Roi puissant,<br> tu as brisé les chaînes de l’esclavage ancien&nbsp;:<br> —&nbsp;libère les hommes de toute servitude.</p> <p>Jésus, notre berger,<br> tu es toi-même la porte ouverte sur le ciel&nbsp;:<br> —&nbsp;fais entrer nos frères défunts dans la gloire du Père.</p>",
-    "responsory": "<p>R/ À notre Dieu et à son Christ,<br> la royauté sur l’univers, alléluia&nbsp;!<br> V/ Que les peuples du monde le bénissent&nbsp;!R/ <br> V/ Toute la terre soit remplie de sa gloire&nbsp;!R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_8",
-        "antiphon": [
-          "Cet enfant se lèvera&nbsp;: signe contredit, Sauveur de son peuple."
-        ]
-      },
-      {
-        "psalm": "PSALM_54_1_2"
-      },
-      {
-        "psalm": "PSALM_54_3"
-      }
-    ]
+    "responsory": "<p>R/ À notre Dieu et à son Christ,<br> la royauté sur l’univers, alléluia&nbsp;!<br> V/ Que les peuples du monde le bénissent&nbsp;!R/ <br> V/ Toute la terre soit remplie de sa gloire&nbsp;!R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Hérode interrogeait les mages&nbsp;: Quel signe vous a guidés vers le Roi nouveau-né&nbsp;? Nous avons vu l’étoile étincelante dont l’éclat illumine le monde."
+    },
+    "intercession": {
+      "content": "<p>Contemplons le Christ, l’Agneau de Dieu qui enlève nos péchés, et supplions-le&nbsp;:</p> <p>R/ Que vienne sur nous ta miséricorde&nbsp;!</p> <p>Prêtre éternel,<br> en venant dans le monde, tu as inauguré l’Alliance nouvelle&nbsp;:<br> —&nbsp;accorde-nous de prendre part à l’offrande de ton Église.</p> <p>Sauveur du monde,<br> ta naissance a rempli de joie la terre entière&nbsp;:<br> —&nbsp;prends pitié des pécheurs&nbsp;: qu’ils puissent se réjouir en toi.</p> <p>Médecin des âmes et des corps,<br> tu es venu visiter notre faiblesse&nbsp;:<br> —&nbsp;soulage et guéris les malades.</p> <p>Roi puissant,<br> tu as brisé les chaînes de l’esclavage ancien&nbsp;:<br> —&nbsp;libère les hommes de toute servitude.</p> <p>Jésus, notre berger,<br> tu es toi-même la porte ouverte sur le ciel&nbsp;:<br> —&nbsp;fais entrer nos frères défunts dans la gloire du Père.</p>"
+    }
   }
 }

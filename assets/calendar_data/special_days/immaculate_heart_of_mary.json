@@ -1,4 +1,12 @@
 {
+  "celebration": {
+    "title": "Cœur Immaculé de la Vierge Marie",
+    "commons": [
+      "virgin-mary"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "SERMON DE S. LAURENT JUSTINIIEN",
@@ -6,11 +14,7 @@
       "responsory": "<p>R/ Le Seigneur est avec toi, Marie, pleine de grâce&nbsp;!</p> Ton cœur en éveil attendait le Messie.</p> Et Dieu t’a regardée, il a comblé ton attente.</p> Il vient, le jour se lève, la terre entière exulte.</p>"
     }
   },
-  "celebrationTitle": "Cœur Immaculé de la Vierge Marie",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "white",
-  "commons": [
-    "virgin-mary"
-  ],
-  "oration": "Dieu qui as préparé dans le Cœur de la Vierge Marie une demeure digne de l’Esprit Saint&nbsp;; accorde-nous, par son intercession, de devenir le temple de ta gloire."
+  "oration": [
+    "Dieu qui as préparé dans le Cœur de la Vierge Marie une demeure digne de l’Esprit Saint&nbsp;; accorde-nous, par son intercession, de devenir le temple de ta gloire."
+  ]
 }

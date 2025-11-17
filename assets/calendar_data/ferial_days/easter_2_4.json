@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Le Père aime le Fils, alléluia&nbsp;! Il a tout remis en sa main, alléluia&nbsp;!",
-    "intercession": "<p>Ô Christ, Fils du Dieu vivant, écoute ceux qui t’implorent&nbsp;:</p> <p>R/ Nous t’en prions, Jésus ressuscité.</p> <p>Depuis la nuée lumineuse, tu éclairais ton peuple en marche&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la lumière de vie.</p> <p>Par la voix de Moïse, tu as enseigné ton peuple sur la montagne&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la Parole de vie.</p> <p>Par le don de la manne, tu as nourri ton peuple dans le désert&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui le Pain de vie.</p> <p>Par l’eau jaillie du rocher, tu as abreuvé ton peuple&nbsp;:<br> –&nbsp;donne-nous aujourd’hui l’Esprit de vie.</p> "
+    "evangelicAntiphon": {
+      "common": "Le Père aime le Fils, alléluia&nbsp;! Il a tout remis en sa main, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Ô Christ, Fils du Dieu vivant, écoute ceux qui t’implorent&nbsp;:</p> <p>R/ Nous t’en prions, Jésus ressuscité.</p> <p>Depuis la nuée lumineuse, tu éclairais ton peuple en marche&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la lumière de vie.</p> <p>Par la voix de Moïse, tu as enseigné ton peuple sur la montagne&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui la Parole de vie.</p> <p>Par le don de la manne, tu as nourri ton peuple dans le désert&nbsp;:<br> –&nbsp;sois pour nous aujourd’hui le Pain de vie.</p> <p>Par l’eau jaillie du rocher, tu as abreuvé ton peuple&nbsp;:<br> –&nbsp;donne-nous aujourd’hui l’Esprit de vie.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>Le sacrifice céleste institué par le Christ est vraiment l’héritage légué par son testament nouveau&nbsp;; il nous l’a laissé la nuit où il allait être livré pour être crucifié, comme un gage de sa présence. Il est le viatique de notre voyage, notre nourriture sur le chemin de la vie, jusqu’à ce que nous soyons parvenus à celle-ci, en quittant ce monde. C’est pourquoi le Seigneur disait&nbsp;: <i>Si vous ne mangez pas ma chair et ne buvez pas mon sang, vous n’aurez pas la vie en vous.</i> Il a voulu que ses bienfaits demeurent parmi nous&nbsp;; il a voulu que les âmes rachetées par son sang précieux soient toujours sanctifiées à l’image de sa propre passion. C’est pourquoi il donne l’ordre à ses disciples fidèles, qu’il établit les premiers prêtres de son Église, de célébrer sans fin ces mystères de la vie éternelle. Et il est nécessaire que tous les prêtres, de toutes les Églises du monde, les célèbrent jusqu’à ce que le Christ revienne du ciel. C’est ainsi que les prêtres eux-mêmes et tout le peuple des fidèles devraient avoir chaque jour devant les yeux la représentation de la passion du Christ&nbsp;; en la tenant dans nos mains, en la recevant dans notre bouche et notre cœur, nous garderions un souvenir ineffaçable de notre rédemption. Ensuite, il faut que le pain soit fait avec la farine de nombreux grains de froment, mêlée à de l’eau, et reçoive du feu son achèvement. On y trouve donc une image ressemblante du corps du Christ, car nous savons qu’il forme un seul corps avec la multitude des hommes, et qu’il a reçu son achèvement du feu de l’Esprit Saint. En effet, le Christ est né du Saint-Esprit et, parce qu’<i>il devait ainsi accomplir parfaitement ce qui est juste</i>, il entre dans les eaux du baptême pour les consacrer&nbsp;; alors, rempli du Saint-Esprit qui était descendu sur lui sous la figure d’une colombe, il s’éloigne du Jourdain, comme l’affirme l’Évangile&nbsp;: <i>Jésus, rempli de l’Esprit Saint, s’éloigna des bords du Jourdain</i>. De même, le vin de son sang est tiré de plusieurs grappes, c’est-à-dire de raisins de la vigne plantée par lui, écrasés sous le pressoir de la croix&nbsp;; versé dans le cœur des fidèles au moyen de grandes coupes, il y bouillonne par sa propre vertu. C’est là le sacrifice de la Pâque, qui apporte le salut à tous ceux qui sont libérés de l’esclavage de l’Egypte et de Pharaon, c’est-à-dire du démon. Recevez-le en union avec nous, dans toute l’avidité d’un cœur religieux. Notre Seigneur Jésus Christ lui-même, que nous croyons présent dans ses sacrements, nous sanctifie en profondeur, et sa vertu sans prix demeure pour tous les siècles.</p>",
       "responsory": "<p>R/ Il y a un seul pain,<br> et nous sommes tous un seul corps,<br> car nous avons tous part à un seul pain.</p> <p>L’amour dont nous aimons,<br> n’est-il pas communion<br> à l’amour du Christ&nbsp;?</p> <p>Garde-nous, Seigneur,<br> dans l’unité de l’Esprit<br> par le lien de la paix.</p>"
     },
-    "oration": "Accorde-nous, Dieu très bon, de voir fructifier tout au long de notre vie les grâces que nous offre le temps pascal."
+    "oration": [
+      "Accorde-nous, Dieu très bon, de voir fructifier tout au long de notre vie les grâces que nous offre le temps pascal."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_9",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_55"
+      },
+      {
+        "psalm": "PSALM_56"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +107,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Celui qui croit dans le Fils a la vie éternelle, alléluia&nbsp;!",
-    "intercession": "<p>Prions Jésus notre Sauveur, vainqueur du mal par la croix&nbsp;:</p> <p>R/ Viens à notre aide, Jésus ressuscité&nbsp;!</p> <p>Par ta résurrection, tu es entré dans le sanctuaire éternel&nbsp;:<br> –&nbsp;conduis-nous vers la gloire du Père.</p> <p>Par ta résurrection, tu as confirmé la foi de tes Apôtres&nbsp;:<br> –&nbsp;donne aux évêques et aux prêtres d’être fidèles à transmettre ton message.</p> <p>Par ta résurrection, tu es devenu notre paix&nbsp;:<br> –&nbsp;fais vivre tous les baptisés en communion de foi et d’amour.</p> <p>Par ta résurrection, tu as guéri le paralytique&nbsp;:<br> –&nbsp;regarde nos malades et manifeste en eux ta gloire.</p> <p>Toi, le premier entre les vivants,<br> –&nbsp;fais entrer dans la vie ceux qui sont morts en toi.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_9",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_55"
-      },
-      {
-        "psalm": "PSALM_56"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Celui qui croit dans le Fils a la vie éternelle, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Prions Jésus notre Sauveur, vainqueur du mal par la croix&nbsp;:</p> <p>R/ Viens à notre aide, Jésus ressuscité&nbsp;!</p> <p>Par ta résurrection, tu es entré dans le sanctuaire éternel&nbsp;:<br> –&nbsp;conduis-nous vers la gloire du Père.</p> <p>Par ta résurrection, tu as confirmé la foi de tes Apôtres&nbsp;:<br> –&nbsp;donne aux évêques et aux prêtres d’être fidèles à transmettre ton message.</p> <p>Par ta résurrection, tu es devenu notre paix&nbsp;:<br> –&nbsp;fais vivre tous les baptisés en communion de foi et d’amour.</p> <p>Par ta résurrection, tu as guéri le paralytique&nbsp;:<br> –&nbsp;regarde nos malades et manifeste en eux ta gloire.</p> <p>Toi, le premier entre les vivants,<br> –&nbsp;fais entrer dans la vie ceux qui sont morts en toi.</p> "
+    }
   }
 }

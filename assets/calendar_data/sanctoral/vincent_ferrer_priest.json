@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "S. Vincent Ferrier",
+    "subtitle": "prêtre",
+    "description": "En vrai fils de saint Dominique, Vincent Ferrier fut avant tout un prêcheur. De Valence (Espagne) où il naquit (1350) à Vannes où il mourut (1419), il chemina sans cesse à travers la France, L’Italie, la Suisse, exhortant les foules à la conversion, dans l’attente du retour du Christ que semblaient annoncer les calamités de son temps, la guerre et le schisme.",
+    "commons": [
+      "pastors"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Ce n'est pas vous qui parlerez: mais l'Esprit de votre Père parlera en vous."
+    "evangelicAntiphon": {
+      "common": "Ce n'est pas vous qui parlerez: mais l'Esprit de votre Père parlera en vous."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Libre à l'égard de tous, je me suis fait l'esclave de tous pour que chacun puisse être sauvé."
+    "evangelicAntiphon": {
+      "common": "Libre à l'égard de tous, je me suis fait l'esclave de tous pour que chacun puisse être sauvé."
+    }
   },
-  "celebrationTitle": "S. Vincent Ferrier",
-  "celebrationSubtitle": "prêtre",
-  "celebrationDescription": "En vrai fils de saint Dominique, Vincent Ferrier fut avant tout un prêcheur. De Valence (Espagne) où il naquit (1350) à Vannes où il mourut (1419), il chemina sans cesse à travers la France, L’Italie, la Suisse, exhortant les foules à la conversion, dans l’attente du retour du Christ que semblaient annoncer les calamités de son temps, la guerre et le schisme.",
-  "liturgicalGrade": 12,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors"
-  ],
-  "oration": "Dieu qui as choisi saint Vincent Ferrier pour la prédication de l'Évangile, donne-nous le bonheur de voir un jour dans le Royaume des cieux celui dont il annonçait ici-bas la venue comme juge, Jésus, le Christ, notre Seigneur."
+  "oration": [
+    "Dieu qui as choisi saint Vincent Ferrier pour la prédication de l'Évangile, donne-nous le bonheur de voir un jour dans le Royaume des cieux celui dont il annonçait ici-bas la venue comme juge, Jésus, le Christ, notre Seigneur."
+  ]
 }

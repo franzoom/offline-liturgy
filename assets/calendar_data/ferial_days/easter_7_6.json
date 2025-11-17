@@ -27,11 +27,15 @@
       }
     ],
     "reading": {
-      "ref": "Ep 2, 19-22",
+      "biblicalReference": "Ep 2, 19-22",
       "content": "Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction qui a pour fondations les Apôtres et les prophètes&nbsp;; et la pierre angulaire, c’est le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments de la construction pour devenir par l’Esprit Saint la demeure de Dieu."
     },
-    "evangelicAntiphon": "Je suis avec vous, tous les jours jusqu’à la fin des temps. Alléluia.",
-    "intercession": "<p>En mémoire de la Vierge Marie et des Apôtres, qui priaient au Cénacle dans l’attente de l’Esprit consolateur, nous supplions&nbsp;:</p> <p>Esprit de lumière et d’amour,<br> Souffle puissant du Très-Haut,<br> Source de tous les dons,</p> <p>Guéris ce qui est blessé,<br> lave ce qui est souillé,<br> rends droit ce qui est faussé.</p> <p>Dans la peine, sois le repos,<br> dans la fièvre la fraîcheur,<br> la consolation dans les larmes.</p> <p>Sois la force dans la faiblesse,<br> la confiance dans le doute,<br> notre espérance dans la détresse.</p> <p>Sois pour nous l’Amour du Père dans le Fils.</p>"
+    "evangelicAntiphon": {
+      "common": "Je suis avec vous, tous les jours jusqu’à la fin des temps. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>En mémoire de la Vierge Marie et des Apôtres, qui priaient au Cénacle dans l’attente de l’Esprit consolateur, nous supplions&nbsp;:</p> <p>Esprit de lumière et d’amour,<br> Souffle puissant du Très-Haut,<br> Source de tous les dons,</p> <p>Guéris ce qui est blessé,<br> lave ce qui est souillé,<br> rends droit ce qui est faussé.</p> <p>Dans la peine, sois le repos,<br> dans la fièvre la fraîcheur,<br> la consolation dans les larmes.</p> <p>Sois la force dans la faiblesse,<br> la confiance dans le doute,<br> notre espérance dans la détresse.</p> <p>Sois pour nous l’Amour du Père dans le Fils.</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,7 +71,25 @@
       "responsory": "<p>R/ Grandes, merveilleuses, tes œuvres,<br> Seigneur Dieu, maître de tout&nbsp;!</p> <p>Qui est comme toi parmi les dieux, Seigneur&nbsp;?<br> Qui est comme toi, magnifique en sainteté,<br> formidable en exploits, auteur de prodiges&nbsp;?</p> <p>Toutes les nations viendront<br> pour se prosterner devant toi,<br> car voici manifestés tes jugements.</p>"
     },
     "verse": "<p>V/ Ils ont publié l’œuvre de Dieu, alléluia,<br> ils ont compris ses merveilles, alléluia.</p>",
-    "oration": "Au terme de ces fêtes pascales, accorde-nous, Dieu tout-puissant, de garder la Pâque de ton Fils présente dans notre vie."
+    "oration": [
+      "Au terme de ces fêtes pascales, accorde-nous, Dieu tout-puissant, de garder la Pâque de ton Fils présente dans notre vie."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_16",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_33_1"
+      },
+      {
+        "psalm": "PSALM_33_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -91,27 +113,15 @@
       }
     ],
     "reading": {
-      "ref": "1 P 2, 9-10",
+      "biblicalReference": "1 P 2, 9-10",
       "content": "C’est vous qui êtes la race choisie, le sacerdoce royal, la nation sainte, le peuple qui appartient à Dieu&nbsp;; vous êtes donc chargés d’annoncer les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Car autrefois vous n’étiez pas son peuple, mais aujourd’hui vous êtes le peuple de Dieu. Vous étiez privés d’amour, mais aujourd’hui Dieu vous a montré son amour."
     },
-    "evangelicAntiphon": "Je ne vous laisserai pas orphelins&nbsp;: je m’en vais et je viens à vous, votre cœur se réjouira. Alléluia.",
-    "intercession": "<p>Bénissons le Christ, sur qui l’Esprit Saint est descendu comme une colombe&nbsp;:</p> <p>R/ Exauce-nous, Seigneur de gloire.</p> <p>Envoie, Seigneur Jésus, l’Esprit que tu as promis&nbsp;: <br> –&nbsp;qu’il rajeunisse ton Église.</p> <p>Que toutes les nations célèbrent en toi l’Envoyé de Dieu,<br> –&nbsp;et qu’Israël reconnaisse que tu l’as visité.</p> <p>Toi qui fais toutes choses nouvelles,<br> –&nbsp;éloigne de nous ce qui contriste l’Esprit Saint.</p> <p>Toi qui remettras à ton Père l’univers enfin réconcilié,<br> –&nbsp;rassemble les hommes dans l’unité de l’Esprit.</p> <p>Que ton Esprit habite en nous&nbsp;: <br> –&nbsp;qu’il vivifie nos âmes et ressuscite nos corps.</p> ",
-    "responsory": "<p>R/ Toi, l’amour qui fais le monde,<br> Esprit de Dieu pour notre terre,<br> Comment es-tu<br> Le souffle qui disperse&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_16",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_33_1"
-      },
-      {
-        "psalm": "PSALM_33_2"
-      }
-    ]
+    "responsory": "<p>R/ Toi, l’amour qui fais le monde,<br> Esprit de Dieu pour notre terre,<br> Comment es-tu<br> Le souffle qui disperse&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>",
+    "evangelicAntiphon": {
+      "common": "Je ne vous laisserai pas orphelins&nbsp;: je m’en vais et je viens à vous, votre cœur se réjouira. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Christ, sur qui l’Esprit Saint est descendu comme une colombe&nbsp;:</p> <p>R/ Exauce-nous, Seigneur de gloire.</p> <p>Envoie, Seigneur Jésus, l’Esprit que tu as promis&nbsp;: <br> –&nbsp;qu’il rajeunisse ton Église.</p> <p>Que toutes les nations célèbrent en toi l’Envoyé de Dieu,<br> –&nbsp;et qu’Israël reconnaisse que tu l’as visité.</p> <p>Toi qui fais toutes choses nouvelles,<br> –&nbsp;éloigne de nous ce qui contriste l’Esprit Saint.</p> <p>Toi qui remettras à ton Père l’univers enfin réconcilié,<br> –&nbsp;rassemble les hommes dans l’unité de l’Esprit.</p> <p>Que ton Esprit habite en nous&nbsp;: <br> –&nbsp;qu’il vivifie nos âmes et ressuscite nos corps.</p> "
+    }
   }
 }

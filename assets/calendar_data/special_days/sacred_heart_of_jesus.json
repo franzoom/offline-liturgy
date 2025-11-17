@@ -1,10 +1,12 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Regardons celui que nous avons transpercé, approchons-nous du cœur de Dieu."
-    ]
+  "celebration": {
+    "title": "Le Sacré Cœur de Jésus",
+    "color": "white"
   },
   "firstVespers": {
+    "hymn": [
+      "j-ai-vu-l-eau-vive"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_112",
@@ -26,17 +28,26 @@
       }
     ],
     "reading": {
-      "ref": "Ep 5, 25b-27",
+      "biblicalReference": "Ep 5, 25b-27",
       "content": "Le Christ a aimé l’Église, il s’est livré pour elle&nbsp;; il voulait la rendre sainte en la purifiant par le bain du baptême et la Parole de vie&nbsp;; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni aucun défaut, il la voulait sainte et irréprochable."
     },
-    "hymn": [
-      "j-ai-vu-l-eau-vive"
-    ],
-    "evangelicAntiphon": "Je suis venu apporter sur la terre un feu&nbsp;: comme je voudrais qu’il fût déjà allumé&nbsp;!",
-    "intercession": "<p>Jésus crucifié, de ton côté ouvert ont coulé l’eau et le sang. Entends la prière de l’Église, ton Épouse&nbsp;:</p> <p>R/Kyrie eleison.</p> <p>Jésus, temple saint de Dieu,<br> demeure du Très-Haut, porte du ciel,<br> —&nbsp;construis ton Église.</p> <p>Jésus, ami des hommes, frère des pauvres,<br> maître de tous les cœurs,<br> —&nbsp;souviens-toi de ton Alliance.</p> <p>Jésus, notre paix et notre réconciliation,<br> soulagement de ceux qui peinent, repos de nos âmes,<br> —&nbsp;attire vers toi les pécheurs.</p> <p>Jésus, chemin des brebis, Agneau vainqueur du péché,<br> notre vie et notre résurrection,<br> —&nbsp;donne-nous accès auprès du Père.</p> <p>Jésus, obéissant jusqu’à la mort, transpercé par la lance,<br> enveloppé dans le suaire,<br> —&nbsp;réveille ceux qui dorment dans la mort.</p>",
-    "responsory": "<p>R/ Les projets de son cœur subsistent d’âge en âge&nbsp;:<br> * Heureux le peuple dont le Seigneur est le Dieu&nbsp;!<br> V/ Que ton amour, Seigneur, soit sur nous,<br> comme notre espoir est en toi. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Les projets de son cœur subsistent d’âge en âge&nbsp;:<br> * Heureux le peuple dont le Seigneur est le Dieu&nbsp;!<br> V/ Que ton amour, Seigneur, soit sur nous,<br> comme notre espoir est en toi. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Je suis venu apporter sur la terre un feu&nbsp;: comme je voudrais qu’il fût déjà allumé&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Jésus crucifié, de ton côté ouvert ont coulé l’eau et le sang. Entends la prière de l’Église, ton Épouse&nbsp;:</p> <p>R/Kyrie eleison.</p> <p>Jésus, temple saint de Dieu,<br> demeure du Très-Haut, porte du ciel,<br> —&nbsp;construis ton Église.</p> <p>Jésus, ami des hommes, frère des pauvres,<br> maître de tous les cœurs,<br> —&nbsp;souviens-toi de ton Alliance.</p> <p>Jésus, notre paix et notre réconciliation,<br> soulagement de ceux qui peinent, repos de nos âmes,<br> —&nbsp;attire vers toi les pécheurs.</p> <p>Jésus, chemin des brebis, Agneau vainqueur du péché,<br> notre vie et notre résurrection,<br> —&nbsp;donne-nous accès auprès du Père.</p> <p>Jésus, obéissant jusqu’à la mort, transpercé par la lance,<br> enveloppé dans le suaire,<br> —&nbsp;réveille ceux qui dorment dans la mort.</p>"
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Regardons celui que nous avons transpercé, approchons-nous du cœur de Dieu."
+    ]
   },
   "morning": {
+    "hymn": [
+      "les-enfants-nes-de-ton-sang"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -58,17 +69,21 @@
       }
     ],
     "reading": {
-      "ref": "Jr 31, 33",
+      "biblicalReference": "Jr 31, 33",
       "content": "Voici quelle sera l’Alliance que je conclurai avec la maison d’Israël quand ces jours-là seront passés, déclare le Seigneur. Je mettrai ma Loi au plus profond d’eux-mêmes&nbsp;; je l’inscrirai dans leur cœur. Je serai leur Dieu, et ils seront mon peuple."
     },
-    "hymn": [
-      "les-enfants-nes-de-ton-sang"
-    ],
-    "evangelicAntiphon": "Dans son amour et sa tendresse, alléluia, Dieu nous a visités&nbsp;: il a racheté son peuple, alléluia&nbsp;!",
-    "intercession": "<p>Regardons celui que nous avons transpercé et disons-lui avec amour&nbsp;:<br> Béni sois-tu et prends pitié de nous.</p> <p>Jésus, en toi habite la divinité&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Fais-nous vivre de ta vie,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, en toi le Père met tout son amour&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Apprends-nous à écouter ta parole,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, en toi le Père nous manifeste sa tendresse&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Révèle dans l’Église toute la sagesse de Dieu,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, de ta plénitude nous avons tout reçu&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Accorde-nous surabondance de grâce,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, source de vie&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Rends-nous saints et immaculés dans l’amour,<br> —&nbsp;Prends pitié de nous.</p>",
-    "responsory": "<p>R/ Donne-nous, Seigneur, un cœur nouveau,<br> mets en nous, Seigneur, un esprit nouveau.<br> V/ Si quelqu’un a soif, qu’il vienne à moi et qu’il boive.&nbsp;R/ <br> V/ Je mettrai en vous mon Esprit et vous vivrez.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Donne-nous, Seigneur, un cœur nouveau,<br> mets en nous, Seigneur, un esprit nouveau.<br> V/ Si quelqu’un a soif, qu’il vienne à moi et qu’il boive.&nbsp;R/ <br> V/ Je mettrai en vous mon Esprit et vous vivrez.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Dans son amour et sa tendresse, alléluia, Dieu nous a visités&nbsp;: il a racheté son peuple, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Regardons celui que nous avons transpercé et disons-lui avec amour&nbsp;:<br> Béni sois-tu et prends pitié de nous.</p> <p>Jésus, en toi habite la divinité&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Fais-nous vivre de ta vie,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, en toi le Père met tout son amour&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Apprends-nous à écouter ta parole,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, en toi le Père nous manifeste sa tendresse&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Révèle dans l’Église toute la sagesse de Dieu,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, de ta plénitude nous avons tout reçu&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Accorde-nous surabondance de grâce,<br> —&nbsp;Prends pitié de nous.</p> <p>Jésus, source de vie&nbsp;:<br> —&nbsp;Béni sois-tu&nbsp;!<br> Rends-nous saints et immaculés dans l’amour,<br> —&nbsp;Prends pitié de nous.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "le-fils-bien-aime"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_35",
@@ -101,12 +116,49 @@
       "content": "<p>Considère attentivement, toi qui as été racheté, quel est celui qui, pour toi, est suspendu à la Croix, quelle est sa grandeur, quelle est sa sainteté, lui dont la mort rend la vie à ceux qui sont morts, lui dont le trépas met en deuil le ciel et la terre, et fait se briser les pierres les plus dures.</p> <p>Pour que, du côté du Christ endormi sur la Croix, surgisse l’Église, et pour que soit accomplie la parole de l’Écriture&nbsp;:<i>Ils contempleront celui qu’ils ont transpercé</i>, la sagesse divine a bien voulu que la lance d’un soldat ouvre et transperce ce côté. Il en sortit du sang et de l’eau, et c’était le prix de notre salut qui s’écoulait ainsi. Jailli de sa source, c’est-à-dire du plus profond du cœur du Christ, il donne aux sacrements de l’Église le pouvoir de conférer la vie de la grâce et, à ceux qui ont déjà en eux la vie du Christ, il donne à boire de cette<i>eau vive qui jaillit jusque dans la vie éternelle</i>.</p> <p>Debout&nbsp;! toi qui es aimé du Christ, sois donc comme la colombe<i>qui fait son nid sur le bord de l’abîme</i>. Et là, comme<i>l’oiseau qui a trouvé un nid</i>, ne te relâche pas de ta vigilance&nbsp;; là, comme la tourterelle, viens cacher les enfants de ton amour chaste, et de cette plaie approche tes lèvres<i>pour puiser de l’eau à la source du Sauveur</i>. C’est là qu’on trouve<i>la source qui jaillissait au milieu du Paradis</i>et qui,<i>se partageant en quatre bras</i>puis répandue dans les cœurs aimants, arrose et féconde la terre tout entière.</p> <p>À cette source de vie et de lumière, accours donc, animé d’un brûlant désir, qui que tu sois, toi qui es donné à Dieu, et de toute ta force, du plus profond de ton cœur, crie vers lui&nbsp;: Ô beauté ineffable du Dieu très-haut, éclat très pur de l’éternelle lumière, vie qui communique la vie à tous les vivants, lumière qui donne son éclat à toute lumière, toi qui conserves dans leur immuable splendeur et leur diversité les astres qui brillent, depuis la première aurore, devant le trône de ta divinité&nbsp;!</p> <p>Ô jaillissement éternel et inaccessible, plein de lumière et de douceur, de cette source cachée à tous les regards humains&nbsp;! profondeur sans fond, hauteur sans limite, grandeur incommensurable et pureté inviolable&nbsp;!</p> <p>C’est de toi que coule ce fleuve<i>qui réjouit la cité de Dieu</i>et c’est grâce à toi qu’<i>aux accents des acclamations et des actions de grâce</i>, nous pouvons te chanter le cantique de louange, car nous pouvons témoigner, par expérience, qu’<i>en toi est la source de la vie</i>, et que<i>par ta lumière, nous verrons la lumière</i>.</p>",
       "responsory": "<p>R/ Alléluia, alléluia, alléluia.</p>"
     },
-    "hymn": [
-      "le-fils-bien-aime"
-    ],
     "verse": "<p>V/ Je me rappelle les hauts-faits du Seigneur,<br> je me rappellle ses merveilles.<br></p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117-I"
+      },
+      {
+        "psalm": "PSALM_117-II"
+      },
+      {
+        "psalm": "PSALM_117-III"
+      }
+    ],
+    "tierce": {
+      "antiphon": "O mon peuple, que t’ai-je fait&nbsp;? En quoi t’ai-je contristé&nbsp;? Réponds-moi.",
+      "reading": {
+        "biblicalReference": "Jr 31, 2-4a",
+        "content": "Ainsi parle le Seigneur&nbsp;: Il a trouvé grâce dans le désert, le peuple qui a échappé au massacre&nbsp;; Israël est en route vers son repos. Depuis des temps lointains, le Seigneur s’est montré à lui. Je t’ai aimée d’un amour éternel, aussi je te garde ma bienveillance, je vais te rétablir, et tu seras relevée, vierge d’Israël."
+      },
+      "responsory": "<p>V/ Exultant de joie, vous puiserez les eaux<br> aux sources du salut.</p>"
+    },
+    "sexte": {
+      "antiphon": "Mon cœur en moi est brisé, je tremble de tous mes os.",
+      "reading": {
+        "biblicalReference": "Jr 32, 40",
+        "content": "Je conclurai avec eux une Alliance éternelle&nbsp;: je ne cesserai de les poursuivre de mes bienfaits et je ferai qu’ils me respectent profondément, sans plus jamais s’écarter de moi."
+      },
+      "responsory": "<p>V/ J’espérai un secours mais en vain,<br> des consolateurs, je n’en ai pas trouvé.</p>"
+    },
+    "none": {
+      "antiphon": "La lance du soldat ouvrit le côté de Jésus. Aussitôt il en sortit du sang et de l’eau.",
+      "reading": {
+        "biblicalReference": "Rm 5, 8-9",
+        "content": "La preuve que Dieu nous aime, c’est que le Christ est mort pour nous, alors que nous étions encore pécheurs. À plus forte raison, maintenant que le sang du Christ nous a fait devenir des justes, nous serons sauvés par lui de la colère de Dieu."
+      },
+      "responsory": "<p>V/ À cause de nos fautes, il a été transpercé,<br> par ses blessures, nous sommes guéris.</p>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "nous-partageons-le-pain-nouveau"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_109",
@@ -128,55 +180,18 @@
       }
     ],
     "reading": {
-      "ref": "Ep 2, 4-7",
+      "biblicalReference": "Ep 2, 4-7",
       "content": "Dieu est riche en miséricorde&nbsp;; à cause du grand amour dont il nous a aimés, nous qui étions des morts par suite de nos fautes, il nous a fait revivre avec le Christ&nbsp;: c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités&nbsp;; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus. Par sa bonté pour nous dans le Christ Jésus, il voulait montrer, au long des âges futurs, la richesse infinie de sa grâce."
     },
-    "hymn": [
-      "nous-partageons-le-pain-nouveau"
-    ],
-    "evangelicAntiphon": "Le Seigneur nous porte dans ses bras, il nous tient sur son cœur, il se souvient de son amour, alléluia.",
-    "intercession": "<p>Jésus crucifié, de ton côté ouvert ont coulé l’eau et le sang. Entends la prière de l’Église, ton Épouse&nbsp;:</p> <p>R/Kyrie eleison.</p> <p>Jésus, temple saint de Dieu,<br> demeure du Très-Haut, porte du ciel,<br> —&nbsp;construis ton Église.</p> <p>Jésus, ami des hommes, frère des pauvres,<br> maître de tous les cœurs,<br> —&nbsp;souviens-toi de ton Alliance.</p> <p>Jésus, notre paix et notre réconciliation,<br> soulagement de ceux qui peinent, repos de nos âmes,<br> —&nbsp;attire vers toi les pécheurs.</p> <p>Jésus, chemin des brebis, Agneau vainqueur du péché,<br> notre vie et notre résurrection,<br> —&nbsp;donne-nous accès auprès du Père.</p> <p>Jésus, obéissant jusqu’à la mort, transpercé par la lance, enveloppé dans le suaire,<br> —&nbsp;réveille ceux qui dorment dans la mort.</p>",
-    "responsory": "<p>R/ Les projets de son cœur subsistent d’âge en âge&nbsp;:<br> * Heureux le peuple dont le Seigneur est le Dieu&nbsp;!<br> V/ Que ton amour, Seigneur, soit sur nous,<br> comme notre espoir est en toi. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117-I"
-      },
-      {
-        "psalm": "PSALM_117-II"
-      },
-      {
-        "psalm": "PSALM_117-III"
-      }
-    ],
-    "tierce": {
-      "antiphon": "O mon peuple, que t’ai-je fait&nbsp;? En quoi t’ai-je contristé&nbsp;? Réponds-moi.",
-      "reading": {
-        "ref": "Jr 31, 2-4a",
-        "content": "Ainsi parle le Seigneur&nbsp;: Il a trouvé grâce dans le désert, le peuple qui a échappé au massacre&nbsp;; Israël est en route vers son repos. Depuis des temps lointains, le Seigneur s’est montré à lui. Je t’ai aimée d’un amour éternel, aussi je te garde ma bienveillance, je vais te rétablir, et tu seras relevée, vierge d’Israël."
-      },
-      "responsory": "<p>V/ Exultant de joie, vous puiserez les eaux<br> aux sources du salut.</p>"
+    "responsory": "<p>R/ Les projets de son cœur subsistent d’âge en âge&nbsp;:<br> * Heureux le peuple dont le Seigneur est le Dieu&nbsp;!<br> V/ Que ton amour, Seigneur, soit sur nous,<br> comme notre espoir est en toi. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Seigneur nous porte dans ses bras, il nous tient sur son cœur, il se souvient de son amour, alléluia."
     },
-    "sexte": {
-      "antiphon": "Mon cœur en moi est brisé, je tremble de tous mes os.",
-      "reading": {
-        "ref": "Jr 32, 40",
-        "content": "Je conclurai avec eux une Alliance éternelle&nbsp;: je ne cesserai de les poursuivre de mes bienfaits et je ferai qu’ils me respectent profondément, sans plus jamais s’écarter de moi."
-      },
-      "responsory": "<p>V/ J’espérai un secours mais en vain,<br> des consolateurs, je n’en ai pas trouvé.</p>"
-    },
-    "none": {
-      "antiphon": "La lance du soldat ouvrit le côté de Jésus. Aussitôt il en sortit du sang et de l’eau.",
-      "reading": {
-        "ref": "Rm 5, 8-9",
-        "content": "La preuve que Dieu nous aime, c’est que le Christ est mort pour nous, alors que nous étions encore pécheurs. À plus forte raison, maintenant que le sang du Christ nous a fait devenir des justes, nous serons sauvés par lui de la colère de Dieu."
-      },
-      "responsory": "<p>V/ À cause de nos fautes, il a été transpercé,<br> par ses blessures, nous sommes guéris.</p>"
+    "intercession": {
+      "content": "<p>Jésus crucifié, de ton côté ouvert ont coulé l’eau et le sang. Entends la prière de l’Église, ton Épouse&nbsp;:</p> <p>R/Kyrie eleison.</p> <p>Jésus, temple saint de Dieu,<br> demeure du Très-Haut, porte du ciel,<br> —&nbsp;construis ton Église.</p> <p>Jésus, ami des hommes, frère des pauvres,<br> maître de tous les cœurs,<br> —&nbsp;souviens-toi de ton Alliance.</p> <p>Jésus, notre paix et notre réconciliation,<br> soulagement de ceux qui peinent, repos de nos âmes,<br> —&nbsp;attire vers toi les pécheurs.</p> <p>Jésus, chemin des brebis, Agneau vainqueur du péché,<br> notre vie et notre résurrection,<br> —&nbsp;donne-nous accès auprès du Père.</p> <p>Jésus, obéissant jusqu’à la mort, transpercé par la lance, enveloppé dans le suaire,<br> —&nbsp;réveille ceux qui dorment dans la mort.</p>"
     }
   },
-  "celebrationTitle": "Le Sacré Cœur de Jésus",
-  "feastGrade": 3,
-  "liturgicalColor": "white",
-  "oration": "Seigneur notre Père, en vénérant le Cœur de ton Fils bien-aimé, nous disons les merveilles de ton amour pour nous&nbsp;; fais que nous recevions de cette source divine une grâce plus abondante."
+  "oration": [
+    "Seigneur notre Père, en vénérant le Cœur de ton Fils bien-aimé, nous disons les merveilles de ton amour pour nous&nbsp;; fais que nous recevions de cette source divine une grâce plus abondante."
+  ]
 }

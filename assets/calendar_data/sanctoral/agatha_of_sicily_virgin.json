@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "Ste Agathe, vierge et martyre",
+    "description": "Agathe est une jeune Sicilienne qui mourut pour le Christ à Catane lors de la persécution de Dèce (251). Ses concitoyens l’ont toujours invoquée avec confiance, spécialement lors des éruptions de l’Etna, et son culte s’est répandu aussi bien en Orient qu’en Occident.",
+    "commons": [
+      "virgins",
+      "martyrs_female_virgin"
+    ],
+    "grade": 10,
+    "color": "red"
+  },
   "morning": {
-    "evangelicAntiphon": "Joyeuse et rayonnante, Agathe marchait vers la prison comme pour une fête."
+    "evangelicAntiphon": {
+      "common": "Joyeuse et rayonnante, Agathe marchait vers la prison comme pour une fête."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -11,15 +23,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Grâces te soient rendues, Seigneur  Jésus : tu m’as fait triompher de mes bourreaux, conduis-moi jusqu’à ta gloire éternelle."
+    "evangelicAntiphon": {
+      "common": "Grâces te soient rendues, Seigneur  Jésus : tu m’as fait triompher de mes bourreaux, conduis-moi jusqu’à ta gloire éternelle."
+    }
   },
-  "celebrationTitle": "Ste Agathe, vierge et martyre",
-  "celebrationDescription": "Agathe est une jeune Sicilienne qui mourut pour le Christ à Catane lors de la persécution de Dèce (251). Ses concitoyens l’ont toujours invoquée avec confiance, spécialement lors des éruptions de l’Etna, et son culte s’est répandu aussi bien en Orient qu’en Occident.",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "red",
-  "commons": [
-    "virgins",
-    "martyrs_female_virgin"
-  ],
-  "oration": "Que sainte Agathe implore pour nous ton pardon, Seigneur, elle qui sut également  te plaire par la consécration de sa virginité et par son courage dans le martyre."
+  "oration": [
+    "Que sainte Agathe implore pour nous ton pardon, Seigneur, elle qui sut également  te plaire par la consécration de sa virginité et par son courage dans le martyre."
+  ]
 }

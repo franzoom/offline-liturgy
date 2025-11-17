@@ -26,12 +26,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 45, 22-23",
+      "biblicalReference": "Is 45, 22-23",
       "content": "Tournez-vous vers moi pour être sauvés, habitants de la terre entière. Car c’est moi qui suis Dieu, il n’y en a pas d’autre. Je le jure par moi-même —&nbsp;de ma bouche sortira le salut, cette parole ne reviendra pas en arrière&nbsp;—&nbsp;: devant moi toute créature tombera à genoux, par moi jurera toute langue."
     },
-    "evangelicAntiphon": "Jérusalem, tes oppresseurs approcheront de toi, ils se prosterneront à tes pieds.",
-    "intercession": "<p>Invoquons le Verbe créateur, qui est né d’une femme pour créer l’homme nouveau&nbsp;:</p> <p>R/ Jésus, notre lumière et notre salut&nbsp;!</p> <p>Toi, homme parmi les hommes,<br> —&nbsp;sois pour nous le visage du Père.</p> <p>Tu es descendu comme la rosée sur la terre&nbsp;:<br> —&nbsp;imprègne-nous des eaux vives de la grâce.</p> <p>Tu nous donnes la joie de célébrer ta naissance&nbsp;:<br> —&nbsp;fais grandir en nous la vie d’enfants de Dieu.</p> <p>Tu as confié à ton Église ta parole et ton corps&nbsp;:<br> —&nbsp;qu’ils soient notre pain tous les jours.</p> ",
-    "responsory": "<p>R/ Les rois se prosterneront devant lui.<br>  * Tous les pays le serviront.<br> V/ En ces jours-là fleurira la justice. * <br> V/ Il délivrera le pauvre qui appelle. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Les rois se prosterneront devant lui.<br>  * Tous les pays le serviront.<br> V/ En ces jours-là fleurira la justice. * <br> V/ Il délivrera le pauvre qui appelle. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jérusalem, tes oppresseurs approcheront de toi, ils se prosterneront à tes pieds."
+    },
+    "intercession": {
+      "content": "<p>Invoquons le Verbe créateur, qui est né d’une femme pour créer l’homme nouveau&nbsp;:</p> <p>R/ Jésus, notre lumière et notre salut&nbsp;!</p> <p>Toi, homme parmi les hommes,<br> —&nbsp;sois pour nous le visage du Père.</p> <p>Tu es descendu comme la rosée sur la terre&nbsp;:<br> —&nbsp;imprègne-nous des eaux vives de la grâce.</p> <p>Tu nous donnes la joie de célébrer ta naissance&nbsp;:<br> —&nbsp;fais grandir en nous la vie d’enfants de Dieu.</p> <p>Tu as confié à ton Église ta parole et ton corps&nbsp;:<br> —&nbsp;qu’ils soient notre pain tous les jours.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,7 +71,25 @@
       "responsory": "<p>R/ L’amour de Dieu est répandu dans nos cœurs<br> par le Saint-Esprit.</p> <p>Les nations sauront que je suis le Seigneur<br> quand éclatera ma sainteté à votre sujet.</p> <p>Je vous purifierai de tous vos péchés&nbsp;;<br> les nations le sauront&nbsp;: Je suis le Seigneur.</p> <p>Je vous donnerai un cœur nouveau,<br> je mettrai en vous un esprit nouveau.</p> <p>Je mettrai en vous mon Esprit,<br> et vous marcherez selon mes lois.</p>"
     },
     "verse": "<p>V/ Le Verbe était la vie,<br> lumière pour les hommes.</p>",
-    "oration": "Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde&nbsp;; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère."
+    "oration": [
+      "Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde&nbsp;; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_10",
+        "antiphon": [
+          "Le Dieu de mon amour vient à moi."
+        ]
+      },
+      {
+        "psalm": "PSALM_58"
+      },
+      {
+        "psalm": "PSALM_59"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -91,28 +113,18 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 3-4",
+      "biblicalReference": "Rm 8, 3-4",
       "content": "Quand Dieu a envoyé son propre Fils dans notre condition humaine de pécheurs pour vaincre le péché, il a fait ce que la loi de Moïse ne pouvait pas faire à cause de la faiblesse humaine&nbsp;: il a détruit le péché dans l’homme charnel. Il voulait ainsi que les exigences de la Loi se réalisent en nous qui ne vivons pas sous l’emprise de la chair, mais de l’Esprit."
     },
-    "evangelicAntiphon": "Les mages, avertis par un ange, reganèrent leur pays par un autre chemin.",
-    "intercession": "<p>R/ Ô notre Père, entends notre prière&nbsp;!</p> <p>Toi qui fais resplendir ton Église de la lumière du Christ,<br> —&nbsp;donne-lui de porter témoignage aux extrémités du monde.</p> <p>Toi qui as conduit vers ton Fils les sages des nations.<br> —&nbsp;révèle ton visage à ceux qui cherchent la vérité.</p> <p>Toi qui appelles tous les peuples à ton admirable lumière,<br> —&nbsp;donne à tout homme de rencontrer un témoin du Christ.</p> <p>Toi qui manifestes au monde le temps de ta grâce,<br> —&nbsp;envoie des messagers annoncer la délivrance.</p> <p>Toi qui nous réjouis par la naissance du Christ,<br> —&nbsp;accorde à nos frères défunts la joie parfaite.</p> ",
     "responsory": "<p>R/ Dieu est amour, Dieu est lumière&nbsp;!<br> V/ Tu es, Seigneur, notre Père, notre Rédempteur.&nbsp;R/ <br> V/ Tu as envoyé ton Fils<br> pour que le monde soit sauvé.&nbsp;R/ <br></p>",
-    "oration": "Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel&nbsp;; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_10",
-        "antiphon": [
-          "Le Dieu de mon amour vient à moi."
-        ]
-      },
-      {
-        "psalm": "PSALM_58"
-      },
-      {
-        "psalm": "PSALM_59"
-      }
+    "evangelicAntiphon": {
+      "common": "Les mages, avertis par un ange, reganèrent leur pays par un autre chemin."
+    },
+    "intercession": {
+      "content": "<p>R/ Ô notre Père, entends notre prière&nbsp;!</p> <p>Toi qui fais resplendir ton Église de la lumière du Christ,<br> —&nbsp;donne-lui de porter témoignage aux extrémités du monde.</p> <p>Toi qui as conduit vers ton Fils les sages des nations.<br> —&nbsp;révèle ton visage à ceux qui cherchent la vérité.</p> <p>Toi qui appelles tous les peuples à ton admirable lumière,<br> —&nbsp;donne à tout homme de rencontrer un témoin du Christ.</p> <p>Toi qui manifestes au monde le temps de ta grâce,<br> —&nbsp;envoie des messagers annoncer la délivrance.</p> <p>Toi qui nous réjouis par la naissance du Christ,<br> —&nbsp;accorde à nos frères défunts la joie parfaite.</p> "
+    },
+    "oration": [
+      "Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel&nbsp;; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne."
     ]
   }
 }

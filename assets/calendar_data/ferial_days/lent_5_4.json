@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "He 2, 9b-10",
+      "biblicalReference": "He 2, 9b-10",
       "content": "Nous voyons Jésus couronné de gloire et d’honneur à cause de sa passion et de sa mort. S’il a fait l’expérience de la mort, c’est, par grâce de Dieu, pour le salut de tous. En effet, puisque le créateur et maître de tout voulait avoir une multitude de fils à conduire jusqu’à la gloire, il était normal qu’il mène à sa perfection, par la souffrance, celui qui est à l’origine du salut de tous."
     },
-    "evangelicAntiphon": "Celui qui est de Dieu écoute les paroles de Dieu.",
-    "intercession": "<p>Père des lumières, ton Christ a brillé sur nous pour que nous ne marchions pas dans les ténèbres&nbsp;; nous t’implorons&nbsp;:</p> <p>R/ Que ta Parole soit la lampe de nos pas&nbsp;!</p> <p>Accorde-nous d’avancer aujourd’hui sur ses traces et de vivre à sa ressemblance.</p> <p>Fais-nous vivre dans la vérité, et nous viendrons à ta lumière.</p> <p>Donne-nous assez d’amour pour oublier notre intérêt et vouloir le bien de tous.</p> <p>Aide-nous à travailler dans la patience pour que nous préparions la venue de ton jour.</p> ",
     "responsory": "<p>R/ Souviens-toi de Jésus Christ<br> ressuscité d’entre les morts&nbsp;:<br>  * Il est notre salut, notre gloire éternelle.<br> V/ Si nous mourons avec lui, <br>avec lui nous vivrons. * <br> V/ Si nous souffrons avec lui, <br>avec lui nous régnerons. * R/ <br></p>",
-    "oration": "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    "evangelicAntiphon": {
+      "common": "Celui qui est de Dieu écoute les paroles de Dieu."
+    },
+    "intercession": {
+      "content": "<p>Père des lumières, ton Christ a brillé sur nous pour que nous ne marchions pas dans les ténèbres&nbsp;; nous t’implorons&nbsp;:</p> <p>R/ Que ta Parole soit la lampe de nos pas&nbsp;!</p> <p>Accorde-nous d’avancer aujourd’hui sur ses traces et de vivre à sa ressemblance.</p> <p>Fais-nous vivre dans la vérité, et nous viendrons à ta lumière.</p> <p>Donne-nous assez d’amour pour oublier notre intérêt et vouloir le bien de tous.</p> <p>Aide-nous à travailler dans la patience pour que nous préparions la venue de ton jour.</p> "
+    },
+    "oration": [
+      "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Gloire au Seigneur, c’est lui notre Dieu&nbsp;!</p> <p>Il nous a délivrés de la servitude,<br> avec autorité et puissance.</p> <p>Jadis vous n’étiez pas un peuple,<br> vous êtes maintenant le peuple de Dieu.</p> <p>Vous êtes la race élue, la nation sainte,<br> le peuple que Dieu s’est acquis.</p>"
     },
     "verse": "<p>V/ Celui qui médite la loi du Seigneur<br> donne du fruit en son temps.</p>",
-    "oration": "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    "oration": [
+      "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_3",
+        "antiphon": [
+          "Vois ma misère et ma peine, enlève tous mes péchés."
+        ]
+      },
+      {
+        "psalm": "PSALM_24_1"
+      },
+      {
+        "psalm": "PSALM_24_2"
+      }
+    ],
+    "oration": [
+      "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,29 +117,18 @@
       }
     ],
     "reading": {
-      "ref": "He 13, 12-15",
+      "biblicalReference": "He 13, 12-15",
       "content": "Jésus, voulant sanctifier le peuple par son propre sang, a souffert sa Passion en dehors de l’enceinte de la ville. Eh bien&nbsp;! pour aller à sa rencontre, sortons en dehors de l’enceinte, en portant la même humiliation que lui. Car la cité que nous avons ici-bas n’est pas définitive&nbsp;: nous attendons la cité future. En toute circonstance, offrons à Dieu, par Jésus, un sacrifice de louange, c’est-à-dire l’acte de foi qui sort de nos lèvres en l’honneur de son nom."
     },
-    "evangelicAntiphon": "En vérité, je vous le dis, avant qu’Abraham fût, Je suis.",
-    "intercession": "<p>Dieu notre Père, convertis-nous à la loi nouvelle de ton Christ&nbsp;:</p> <p>R/ Père, allume en nous le feu de son amour.</p> <p>Il a proclamé la Bonne Nouvelle,<br> il a passé parmi nous en faisant le bien.</p> <p>Il a nourri les foules au désert,<br> il s’est livré dans le pain et le vin.</p> <p>Il a guéri les malades,<br> il a pardonné les péchés.</p> <p>Il a maîtrisé la mer et les vents,<br> il a prié pour la foi de Pierre.</p> <p>Il a pleuré sur Jérusalem,<br> il a ressuscité Lazare.</p>",
     "responsory": "<p>R/ Nous t’adorons, ô Christ,<br> nous te bénissons.<br> V/ Tu as racheté le monde par ta croix.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_3",
-        "antiphon": [
-          "Vois ma misère et ma peine, enlève tous mes péchés."
-        ]
-      },
-      {
-        "psalm": "PSALM_24_1"
-      },
-      {
-        "psalm": "PSALM_24_2"
-      }
-    ],
-    "oration": "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    "evangelicAntiphon": {
+      "common": "En vérité, je vous le dis, avant qu’Abraham fût, Je suis."
+    },
+    "intercession": {
+      "content": "<p>Dieu notre Père, convertis-nous à la loi nouvelle de ton Christ&nbsp;:</p> <p>R/ Père, allume en nous le feu de son amour.</p> <p>Il a proclamé la Bonne Nouvelle,<br> il a passé parmi nous en faisant le bien.</p> <p>Il a nourri les foules au désert,<br> il s’est livré dans le pain et le vin.</p> <p>Il a guéri les malades,<br> il a pardonné les péchés.</p> <p>Il a maîtrisé la mer et les vents,<br> il a prié pour la foi de Pierre.</p> <p>Il a pleuré sur Jérusalem,<br> il a ressuscité Lazare.</p>"
+    },
+    "oration": [
+      "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde&nbsp;: purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    ]
   }
 }

@@ -30,6 +30,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_21_1"
+      },
+      {
+        "psalm": "PSALM_21_2"
+      },
+      {
+        "psalm": "PSALM_21_3"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -42,19 +55,8 @@
         "psalm": "NT_11"
       }
     ],
-    "oration": "<p>Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde&nbsp;; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_21_1"
-      },
-      {
-        "psalm": "PSALM_21_2"
-      },
-      {
-        "psalm": "PSALM_21_3"
-      }
+    "oration": [
+      "<p>Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde&nbsp;; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère.</p>"
     ]
   }
 }

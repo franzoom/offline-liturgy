@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Ne 8, 9.10",
+      "biblicalReference": "Ne 8, 9.10",
       "content": "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas&nbsp;! Car ce jour est consacré à notre Dieu&nbsp;! Ne vous affligez pas&nbsp;: la joie du Seigneur est votre rempart&nbsp;!"
     },
-    "evangelicAntiphon": "Du sanctuaire de son corps, le Seigneur disait&nbsp;: Détruisez ce temple, en trois jours je le rebâtirai.",
-    "intercession": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> ",
     "responsory": "<p>R/ La joie du Seigneur est notre rempart&nbsp;!<br> V/ Tu es béni, Seigneur notre Dieu,<br>d’éternité en éternité.&nbsp;R/ <br> V/ Que soit béni ton nom glorieux, <br>que terre et ciel te chantent sans fin.&nbsp;R/ <br> V/ Gloire et puissance au Père et au Fils, <br>au Saint-Esprit qui chante en nos cœurs.&nbsp;R/ <br></p>",
-    "oration": "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    "evangelicAntiphon": {
+      "common": "Du sanctuaire de son corps, le Seigneur disait&nbsp;: Détruisez ce temple, en trois jours je le rebâtirai."
+    },
+    "intercession": {
+      "content": "<p>Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.</p> <p>R/ Notre Seigneur et notre frère, louange à toi&nbsp;!</p> <p>Jésus, Fils de Dieu, transfiguré sur la montagne,<br> tu nous révèles que la croix est le chemin de ta gloire.</p> <p>Jésus, don de Dieu, source vive,<br> tu apaises notre soif de la vie véritable.</p> <p>Jésus, lumière du monde, tu rends la vue aux aveugles<br> et nous te reconnaissons Fils de Dieu.</p> <p>Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau<br> et tu nous appelles tous à la résurrection.</p> "
+    },
+    "oration": [
+      "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -63,7 +69,28 @@
       "responsory": "<p>R/ Heureux qui pense au faible et au pauvre&nbsp;!</p> <p>Le Seigneur écoute le désir des pauvres,<br> il les accueille, il les rassure.</p> <p>Dieu les as choisis pour héritiers du Royaume<br> promis à ceux qui l’aiment&nbsp;!</p>"
     },
     "verse": "<p>V/ Viens manger le pain de l’intelligence,<br>et boire l’eau de la sagesse.</p>",
-    "oration": "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    "oration": [
+      "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1",
+        "antiphon": [
+          "Ma force et mon chant, c’est le Seigneur."
+        ]
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ],
+    "oration": [
+      "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -87,29 +114,18 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 9, 24-25",
+      "biblicalReference": "1 Co 9, 24-25",
       "content": "Vous savez bien que, dans les courses du stade, tous les coureurs prennent le départ, mais un seul gagne le prix. Alors, vous, courez de manière à l’emporter. Tous les athlètes à l’entraînement s’imposent une discipline sévère&nbsp;; ils le font pour gagner une couronne de laurier qui va se faner, et nous, pour une couronne qui ne se fane pas."
     },
-    "evangelicAntiphon": "Qui boira l’eau que je lui donnerai n’aura plus jamais soif.",
-    "intercession": "<p>Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui te juge encore<br> indifférent à la vie de ce monde,</p> <p>Pour celui qui ne trouve aucun sens à l’existence<br> alors que le don de Dieu le lui offre,</p> <p>Pour celui qui laisse dormir son baptême,<br> au lieu de se laisser envahir par lui,</p> <p>Pour ceux qui sont passés par la mort,<br> et que nous confions à ta miséricorde,</p> ",
     "responsory": "<p>R/ Pour le combat tu m’emplis de vaillance,<br>  *  Dieu de ma victoire.<br> V/ Que ta justice me conduise,  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117_1",
-        "antiphon": [
-          "Ma force et mon chant, c’est le Seigneur."
-        ]
-      },
-      {
-        "psalm": "PSALM_117_2"
-      },
-      {
-        "psalm": "PSALM_117_3"
-      }
-    ],
-    "oration": "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    "evangelicAntiphon": {
+      "common": "Qui boira l’eau que je lui donnerai n’aura plus jamais soif."
+    },
+    "intercession": {
+      "content": "<p>Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains&nbsp;:</p> <p>R/ Nous t’implorons, Seigneur&nbsp;!</p> <p>Pour l’homme qui te juge encore<br> indifférent à la vie de ce monde,</p> <p>Pour celui qui ne trouve aucun sens à l’existence<br> alors que le don de Dieu le lui offre,</p> <p>Pour celui qui laisse dormir son baptême,<br> au lieu de se laisser envahir par lui,</p> <p>Pour ceux qui sont passés par la mort,<br> et que nous confions à ta miséricorde,</p> "
+    },
+    "oration": [
+      "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi&nbsp;; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage&nbsp;; écoute l’aveu de notre faiblesse&nbsp;: nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    ]
   }
 }

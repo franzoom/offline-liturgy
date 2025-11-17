@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jr 11, 19-20",
+      "biblicalReference": "Jr 11, 19-20",
       "content": "Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas ce qu’ils préparaient contre moi. Ils disaient&nbsp;: «&nbsp;Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom.&nbsp;» Seigneur de l’univers, toi qui juges avec justice, qui scrutes les reins et les cœurs, fais-moi voir la vengeance que tu leur infligeras, car c’est à toi que je confie ma cause."
     },
-    "evangelicAntiphon": "Père juste, le monde ne t’a pas connu, mais moi, je t’ai connu, toi qui m’as envoyé.",
-    "intercession": "<p>Supplions le Christ qui nous a aimés jusqu’à la mort.</p> <p>R/ Sauve-nous par ton amour.</p> <p>Jésus que l’on a bafoué sans raison, <br>–&nbsp;prends pitié de ceux dont l’amour est trahi.</p> <p>Jésus que l’amour du Royaume a perdu, <br>–&nbsp;prends pitié de ceux que l’on met en prison.</p> <p>Jésus qui n’as pas trouvé de consolateur, <br>–&nbsp;prends pitié de ceux qui sont affligés.</p> <p>Jésus que l’on abreuva de vinaigre,<br>–&nbsp;prends pitié de ceux qui souffrent pour la justice.</p> <p>Jésus, humilié par les hommes, sauvé par Dieu, <br>–&nbsp;sois la joie et la fête des pauvres.</p></p> ",
     "responsory": "<p>R/ Souviens-toi de Jésus Christ<br> ressuscité d’entre les morts&nbsp;:<br>  * Il est notre salut, notre gloire éternelle.<br> V/ Si nous mourons avec lui, <br>avec lui nous vivrons. * <br> V/ Si nous souffrons avec lui, <br>avec lui nous régnerons. * <br> R/ Souviens-toi.<br></p>",
-    "oration": "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Père juste, le monde ne t’a pas connu, mais moi, je t’ai connu, toi qui m’as envoyé."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Christ qui nous a aimés jusqu’à la mort.</p> <p>R/ Sauve-nous par ton amour.</p> <p>Jésus que l’on a bafoué sans raison, <br>–&nbsp;prends pitié de ceux dont l’amour est trahi.</p> <p>Jésus que l’amour du Royaume a perdu, <br>–&nbsp;prends pitié de ceux que l’on met en prison.</p> <p>Jésus qui n’as pas trouvé de consolateur, <br>–&nbsp;prends pitié de ceux qui sont affligés.</p> <p>Jésus que l’on abreuva de vinaigre,<br>–&nbsp;prends pitié de ceux qui souffrent pour la justice.</p> <p>Jésus, humilié par les hommes, sauvé par Dieu, <br>–&nbsp;sois la joie et la fête des pauvres.</p></p> "
+    },
+    "oration": [
+      "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>Ta mort est vaine aux yeux de chair&nbsp;; Stance<br> mais, pour celui qui croit,<br> elle est vie éternelle.<br> Jésus, tu es vainqueur<br> chaque fois que dans l’homme<br> l’Esprit peut s’écrier&nbsp;:<br> «&nbsp;Tu es le Christ, le Fils du Dieu vivant&nbsp;»&nbsp;!</p> <p>R/ Tu es le Fils du Dieu vivant,<br> tu es le Seigneur&nbsp;!</p> <p>Comme un surgeon, tu as grandi devant nous,<br> racine vive sur notre terre aride,<br> et nous te méprisions.</p> <p>Tu as donné ta vie, tu as été comblé.<br> Après l’épreuve, tu as vu la lumière&nbsp;:<br> maintenant, nos yeux s’ouvrent.</p> <p>Tous nos regards se tournent vers toi&nbsp;:<br> tu es le Messie, le Saint d’Israël&nbsp;;<br> pour toi chantent nos cœurs.</p>"
     },
     "verse": "<p>V/ Quand j’aurai été élevé de terre,<br>j’attirerai à moi tous les hommes.</p>",
-    "oration": "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    "oration": [
+      "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_6",
+        "antiphon": [
+          "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
+        ]
+      },
+      {
+        "psalm": "PSALM_39_1"
+      },
+      {
+        "psalm": "PSALM_39_2"
+      }
+    ],
+    "oration": [
+      "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Rm 5, 8-9",
+      "biblicalReference": "Rm 5, 8-9",
       "content": "La preuve que Dieu nous aime, c’est que le Christ est mort pour nous, alors que nous étions encore pécheurs. À plus forte raison, maintenant que le sang du Christ nous a fait devenir des justes, nous serons sauvés par lui de la colère de Dieu."
     },
-    "evangelicAntiphon": "Comme le serpent fut élevé dans le désert, il faut que le Fils de l’homme soit élevé de terre pour que tout homme qui croit en lui ait la vie éternelle.",
-    "intercession": "<p>En contemplant la passion de Jésus, notre Sauveur, nous supplions&nbsp;:</p> <p>Pour ceux que la tristesse accable,<br> –&nbsp;souviens-toi de ton agonie.</p> <p>R/ Ô Jésus, notre Sauveur&nbsp;!</p> <p>Pour ceux qui sont blessés dans leur chair,<br> –&nbsp;souviens-toi de tes tortures.</p> <p>Pour ceux qui souffrent la dérision,<br> –&nbsp;souviens-toi de ta couronne d’épines.</p> <p>Pour ceux qui désespèrent de la vie,<br> –&nbsp;souviens-toi de ton cri vers le Père.</p> <p>Pour ceux qui meurent aujourd’hui,<br> –&nbsp;souviens-toi de ta mort sur la croix.</p> <p>Pour ceux qui espèrent contre toute espérance,<br> –&nbsp;que resplendisse ta résurrection.</p> ",
     "responsory": "<p>R/ Jésus, souviens-toi de nous,<br> quand tu viendras dans ton Royaume.<br> V/ Toi qui ne repousses pas le cœur brisé,R/ <br> V/ Toi qui t’es fait obéissant jusqu’à la mort,R/ <br> V/ Par ton côté ouvert, par tes mains transpercées,R/ <br></p>",
-    "oration": "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_6",
-        "antiphon": [
-          "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
-        ]
-      },
-      {
-        "psalm": "PSALM_39_1"
-      },
-      {
-        "psalm": "PSALM_39_2"
-      }
-    ],
-    "oration": "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    "evangelicAntiphon": {
+      "common": "Comme le serpent fut élevé dans le désert, il faut que le Fils de l’homme soit élevé de terre pour que tout homme qui croit en lui ait la vie éternelle."
+    },
+    "intercession": {
+      "content": "<p>En contemplant la passion de Jésus, notre Sauveur, nous supplions&nbsp;:</p> <p>Pour ceux que la tristesse accable,<br> –&nbsp;souviens-toi de ton agonie.</p> <p>R/ Ô Jésus, notre Sauveur&nbsp;!</p> <p>Pour ceux qui sont blessés dans leur chair,<br> –&nbsp;souviens-toi de tes tortures.</p> <p>Pour ceux qui souffrent la dérision,<br> –&nbsp;souviens-toi de ta couronne d’épines.</p> <p>Pour ceux qui désespèrent de la vie,<br> –&nbsp;souviens-toi de ton cri vers le Père.</p> <p>Pour ceux qui meurent aujourd’hui,<br> –&nbsp;souviens-toi de ta mort sur la croix.</p> <p>Pour ceux qui espèrent contre toute espérance,<br> –&nbsp;que resplendisse ta résurrection.</p> "
+    },
+    "oration": [
+      "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    ]
   }
 }

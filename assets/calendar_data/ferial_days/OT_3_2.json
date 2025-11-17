@@ -5,6 +5,9 @@
     ]
   },
   "morning": {
+    "hymn": [
+      "soleil-levant"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_84",
@@ -29,16 +32,22 @@
       }
     ],
     "reading": {
-      "ref": "1 Jn 4, 14-15",
+      "biblicalReference": "1 Jn 4, 14-15",
       "content": "Nous qui avons vu, nous attestons que le Père a envoyé son Fils comme Sauveur du monde. Celui qui proclame que Jésus est le Fils de Dieu, Dieu demeure en lui, et lui en Dieu."
     },
-    "hymn": [
-      "soleil-levant"
-    ],
-    "evangelicAntiphon": "Prenez appui sur le Seigneur&nbsp;: il vous assure la paix.",
-    "intercession": "<p>Au matin de ce nouveau jour, prions le Christ Seigneur&nbsp;:</p> <p>R/ Exauce-nous, Seigneur.</p> <p>Jésus Christ, Premier-né avant toute créature, <br> –&nbsp;éveille nos sens à la beauté de ton œuvre.</p> <p>Jésus Christ, Lumière qui se lève sur le monde, <br> –&nbsp;découvre à notre esprit tes volontés.</p> <p>Jésus Christ, Fils bien-aimé du Père, <br> –&nbsp;inspire-nous l’amour filial et fraternel.</p> <p>Jésus Christ, Source jaillissante de vie, <br> –&nbsp;féconde le travail de ce jour.</p> <p>Jésus Christ, Ami des pauvres et des petits, <br> –&nbsp;rends-nous attentifs à leur appel.</p> ",
     "responsory": "<p>R/ Ô Christ, le Fils du Dieu vivant,<br>  * Pitié pour nous.<br> V/ Toi qui es assis à la droite du Père, * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Dieu qui ne cesses de créer l’univers, tu as voulu associer l’homme à ton ouvrage&nbsp;; regarde le travail que nous avons à faire&nbsp;: qu’il nous permette de gagner notre vie, qu’il soit utile à ceux dont nous avons la charge et serve à l’avènement de ton Royaume."
+    "evangelicAntiphon": {
+      "common": "Prenez appui sur le Seigneur&nbsp;: il vous assure la paix.",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Au matin de ce nouveau jour, prions le Christ Seigneur&nbsp;:</p> <p>R/ Exauce-nous, Seigneur.</p> <p>Jésus Christ, Premier-né avant toute créature, <br> –&nbsp;éveille nos sens à la beauté de ton œuvre.</p> <p>Jésus Christ, Lumière qui se lève sur le monde, <br> –&nbsp;découvre à notre esprit tes volontés.</p> <p>Jésus Christ, Fils bien-aimé du Père, <br> –&nbsp;inspire-nous l’amour filial et fraternel.</p> <p>Jésus Christ, Source jaillissante de vie, <br> –&nbsp;féconde le travail de ce jour.</p> <p>Jésus Christ, Ami des pauvres et des petits, <br> –&nbsp;rends-nous attentifs à leur appel.</p> "
+    },
+    "oration": [
+      "Dieu qui ne cesses de créer l’univers, tu as voulu associer l’homme à ton ouvrage&nbsp;; regarde le travail que nous avons à faire&nbsp;: qu’il nous permette de gagner notre vie, qu’il soit utile à ceux dont nous avons la charge et serve à l’avènement de ton Royaume."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -74,42 +83,9 @@
       "responsory": "<p>R/ Gloire éternelle au Christ,<br> gloire au Vivant, alléluia&nbsp;!</p> <p>Il est le commencement,<br> premier né d’entre les morts.</p> <p>Lui, le premier, nous a aimés&nbsp;:<br> il nous a délivrés de nos péchés.</p> <p>Il est le premier et le dernier,<br> le voici qui vient, nous le verrons&nbsp;!</p>"
     },
     "verse": "<p>V/ J’écoute&nbsp;: Que dira le Seigneur&nbsp;?<br>Ce qu’il dit, c’est la paix pour ses fidèles.</p>",
-    "oration": "Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte&nbsp;: tu les as tirés de l’esclavage du péché&nbsp;; fais-leur connaître le bonheur impérissable."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_124",
-        "antiphon": [
-          "Le Seigneur entoure son peuple dès maintenant et à jamais.",
-          "Le Seigneur est fidèle&nbsp;: il vous garde et vous affermit."
-        ]
-      },
-      {
-        "psalm": "PSALM_130",
-        "antiphon": [
-          "Je tiens mon âme égale et silencieuse.",
-          "L’amour parfait chasse la crainte."
-        ]
-      },
-      {
-        "psalm": "NT_9",
-        "antiphon": [
-          "R/ Puissance, honneur et gloire à l’Agneau de Dieu&nbsp;!"
-        ]
-      }
-    ],
-    "reading": {
-      "ref": "Rm 12, 9-12",
-      "content": "Que votre amour soit sans hypocrisie. Fuyez le mal avec horreur, attachez-vous au bien. Soyez unis les uns aux autres par l’affection fraternelle, rivalisez de respect les uns pour les autres. Ne brisez pas l’élan de votre générosité, mais laissez jaillir l’Esprit&nbsp;; soyez les serviteurs du Seigneur. Aux jours d’espérance, soyez dans la joie&nbsp;; aux jours d’épreuve, tenez bon&nbsp;; priez avec persévérance."
-    },
-    "hymn": [
-      "sans-fin-seigneur-dieu-notre-pere"
-    ],
-    "evangelicAntiphon": "Heureux les artisans de paix&nbsp;: ils seront appelés fils de Dieu&nbsp;!",
-    "intercession": "<p>Bénissons le Seigneur du ciel et de la terre, qui révèle aux petits les merveilles de son amour&nbsp;:</p> <p> R/ Tu es l’espérance des hommes. </p> <p> Par Jésus Christ, tu es venu jusqu’à nous&nbsp;;<br> –&nbsp;qu’il nous conduise à toi, son Père et notre Père.</p> <p> Le pouvoir des puissants est dans ta main&nbsp;;<br> –&nbsp;dirige ceux qui nous gouvernent.</p> <p> Chacune des créatures est un reflet de ta splendeur&nbsp;;<br> –&nbsp;inspire à ceux qui cherchent des images de ta gloire.</p> <p> Tu ne veux pas que nous soyons tentés au-delà de nos forces&nbsp;;&nbsp;<br> –&nbsp;fais que nous tenions dans les épreuves.</p> <p> Tu as promis de ressusciter les hommes au dernier Jour&nbsp;;&nbsp;<br> –&nbsp;souviens-toi de ceux qui sont morts aujourd’hui.</p>",
-    "responsory": "<p>R/ Seigneur, maître de la vie,<br>  *  Répands ton Esprit sur l’univers.<br> V/ Seigneur, tu es grand et glorieux.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Laisse monter vers toi, Seigneur, le bruit de notre terre pour l’accueillir dans ton silence, et fais descendre sur nous ta paix, Jésus, ton Fils, Dieu à jamais."
+    "oration": [
+      "Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte&nbsp;: tu les as tirés de l’esclavage du péché&nbsp;; fais-leur connaître le bonheur impérissable."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -133,8 +109,48 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
-  "sundayEvangelicAntiphonC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture.",
-  "sundayEvangelicAntiphonA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
-  "readingHymn": "un-chant-rassemble-dans-la-nuit"
+  "vespers": {
+    "hymn": [
+      "sans-fin-seigneur-dieu-notre-pere"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_124",
+        "antiphon": [
+          "Le Seigneur entoure son peuple dès maintenant et à jamais.",
+          "Le Seigneur est fidèle&nbsp;: il vous garde et vous affermit."
+        ]
+      },
+      {
+        "psalm": "PSALM_130",
+        "antiphon": [
+          "Je tiens mon âme égale et silencieuse.",
+          "L’amour parfait chasse la crainte."
+        ]
+      },
+      {
+        "psalm": "NT_9",
+        "antiphon": [
+          "R/ Puissance, honneur et gloire à l’Agneau de Dieu&nbsp;!"
+        ]
+      }
+    ],
+    "reading": {
+      "biblicalReference": "Rm 12, 9-12",
+      "content": "Que votre amour soit sans hypocrisie. Fuyez le mal avec horreur, attachez-vous au bien. Soyez unis les uns aux autres par l’affection fraternelle, rivalisez de respect les uns pour les autres. Ne brisez pas l’élan de votre générosité, mais laissez jaillir l’Esprit&nbsp;; soyez les serviteurs du Seigneur. Aux jours d’espérance, soyez dans la joie&nbsp;; aux jours d’épreuve, tenez bon&nbsp;; priez avec persévérance."
+    },
+    "responsory": "<p>R/ Seigneur, maître de la vie,<br>  *  Répands ton Esprit sur l’univers.<br> V/ Seigneur, tu es grand et glorieux.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Heureux les artisans de paix&nbsp;: ils seront appelés fils de Dieu&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Seigneur du ciel et de la terre, qui révèle aux petits les merveilles de son amour&nbsp;:</p> <p> R/ Tu es l’espérance des hommes. </p> <p> Par Jésus Christ, tu es venu jusqu’à nous&nbsp;;<br> –&nbsp;qu’il nous conduise à toi, son Père et notre Père.</p> <p> Le pouvoir des puissants est dans ta main&nbsp;;<br> –&nbsp;dirige ceux qui nous gouvernent.</p> <p> Chacune des créatures est un reflet de ta splendeur&nbsp;;<br> –&nbsp;inspire à ceux qui cherchent des images de ta gloire.</p> <p> Tu ne veux pas que nous soyons tentés au-delà de nos forces&nbsp;;&nbsp;<br> –&nbsp;fais que nous tenions dans les épreuves.</p> <p> Tu as promis de ressusciter les hommes au dernier Jour&nbsp;;&nbsp;<br> –&nbsp;souviens-toi de ceux qui sont morts aujourd’hui.</p>"
+    },
+    "oration": [
+      "Laisse monter vers toi, Seigneur, le bruit de notre terre pour l’accueillir dans ton silence, et fais descendre sur nous ta paix, Jésus, ton Fils, Dieu à jamais."
+    ]
+  }
 }

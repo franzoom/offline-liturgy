@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Ac 10, 40-43",
+      "biblicalReference": "Ac 10, 40-43",
       "content": "Voici que Dieu a ressuscité Jésus le troisième jour. Il lui a donné de se montrer non pas à tout le peuple, mais seulement aux témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Il nous a chargés d’annoncer au peuple et de témoigner que Dieu l’a choisi comme Juge des vivants et des morts. C’est à lui que tous les prophètes rendent ce témoignage&nbsp;: Tout homme qui croit en lui reçoit par lui le pardon de ses péchés."
     },
-    "evangelicAntiphon": "Sur la terre, je t’ai glorifié, ô mon Père, j’ai rempli la mission que tu m’avais confiée. Alléluia.",
-    "intercession": "<p>Implorons le Seigneur de vérité, le dispensateur de tous les dons&nbsp;:</p> <p>R/ Ô Seigneur, répands ton Esprit.</p> <p>Sur les humbles de cœur et les pauvres en esprit,</p> <p>Sur ceux qui pleurent et les affamés de justice,</p> <p>Sur les chercheurs de Dieu et les assoiffés d’absolu,</p> <p>Sur les artisans de paix et les miséricordieux,</p> <p>Sur ceux qui annoncent l’Évangile et ceux qui l’entendent,</p> <p>Sur les contemplatifs et sur les solitaires,</p> <p>Sur ceux qui prient ensemble et ceux qui prient dans le secret,</p> <p>Sur ton peuple et sur tous les peuples,</p> <p>Sur tous les hommes que tu as créés et rachetés,</p>",
-    "responsory": "<p>R/ Le Seigneur est vraiment ressuscité.<br>  * Alléluia, alléluia.<br> V/ Il est apparu à Simon. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>"
+    "responsory": "<p>R/ Le Seigneur est vraiment ressuscité.<br>  * Alléluia, alléluia.<br> V/ Il est apparu à Simon. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>",
+    "evangelicAntiphon": {
+      "common": "Sur la terre, je t’ai glorifié, ô mon Père, j’ai rempli la mission que tu m’avais confiée. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Implorons le Seigneur de vérité, le dispensateur de tous les dons&nbsp;:</p> <p>R/ Ô Seigneur, répands ton Esprit.</p> <p>Sur les humbles de cœur et les pauvres en esprit,</p> <p>Sur ceux qui pleurent et les affamés de justice,</p> <p>Sur les chercheurs de Dieu et les assoiffés d’absolu,</p> <p>Sur les artisans de paix et les miséricordieux,</p> <p>Sur ceux qui annoncent l’Évangile et ceux qui l’entendent,</p> <p>Sur les contemplatifs et sur les solitaires,</p> <p>Sur ceux qui prient ensemble et ceux qui prient dans le secret,</p> <p>Sur ton peuple et sur tous les peuples,</p> <p>Sur tous les hommes que tu as créés et rachetés,</p>"
+    }
   },
   "readings": {
     "psalmody": [
@@ -68,7 +72,25 @@
       "responsory": "<p>R/ Le Seigneur, c’est l’Esprit,<br> l’Esprit du Seigneur, c’est la liberté.</p> <p> Nous ne sommes pas fils de servitude&nbsp;:<br> le Christ nous a libérés.</p> <p> Dieu a envoyé en nos cœurs l’Esprit de son Fils,<br> il crie&nbsp;: «&nbsp;Abba Père&nbsp;»</p>"
     },
     "verse": "<p>V/ Ma chair a refleuri, alléluia,<br>de tour cœur, je rends grâce, alléluia.</p>",
-    "oration": "Entends notre prière, Seigneur&nbsp;: nous croyons que le Sauveur des hommes est auprès de toi dans la gloire&nbsp;; fais-nous croire aussi qu’il est encore avec nous jusqu’à la fin des temps, comme il nous l’a promis."
+    "oration": [
+      "Entends notre prière, Seigneur&nbsp;: nous croyons que le Sauveur des hommes est auprès de toi dans la gloire&nbsp;; fais-nous croire aussi qu’il est encore avec nous jusqu’à la fin des temps, comme il nous l’a promis."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +114,15 @@
       }
     ],
     "reading": {
-      "ref": "He 10, 12-14",
+      "biblicalReference": "He 10, 12-14",
       "content": "Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté."
     },
-    "evangelicAntiphon": "Quand viendra le Défenseur que je vous enverrai, l’Esprit de vérité qui procède du Père, il rendra témoignage de moi. Alléluia.",
-    "intercession": "<p>Père très saint,<br> pour continuer l’œuvre de ton Fils enlevé dans la gloire,</p> <p>R/ Ô Seigneur, envoie ton Esprit.</p> <p>Pour qu’il parle aujourd’hui par la bouche de tes envoyés,</p> <p>Pour qu’il ouvre l’oreille de ceux qui écoutent ta parole,</p> <p>Pour qu’il guérisse par la main de tes disciples,</p> <p>Pour qu’il emplisse de joie le cœur des croyants,</p> <p>Pour qu’il réveille les morts au jour du jugement,</p> ",
-    "responsory": "<p>R/ Toi , la force qui rassemble,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> Le glaive qui divise&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117_1",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_117_2"
-      },
-      {
-        "psalm": "PSALM_117_3"
-      }
-    ]
+    "responsory": "<p>R/ Toi , la force qui rassemble,<br> Esprit le Dieu pour notre terre,<br> Comment es-tu<br> Le glaive qui divise&nbsp;?<br> <p class=\"antienne rouge\"><i>ou bien</i></p> R/ Spíritus Paráclitus,<br>  *  Allelúia, allelúia. Spíritus.<br> V/ Docébit vos ómnia.<br>  *  Allelúia, allelúia.<br> Glória Patri. Spíritus.<br></p>",
+    "evangelicAntiphon": {
+      "common": "Quand viendra le Défenseur que je vous enverrai, l’Esprit de vérité qui procède du Père, il rendra témoignage de moi. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Père très saint,<br> pour continuer l’œuvre de ton Fils enlevé dans la gloire,</p> <p>R/ Ô Seigneur, envoie ton Esprit.</p> <p>Pour qu’il parle aujourd’hui par la bouche de tes envoyés,</p> <p>Pour qu’il ouvre l’oreille de ceux qui écoutent ta parole,</p> <p>Pour qu’il guérisse par la main de tes disciples,</p> <p>Pour qu’il emplisse de joie le cœur des croyants,</p> <p>Pour qu’il réveille les morts au jour du jugement,</p> "
+    }
   }
 }

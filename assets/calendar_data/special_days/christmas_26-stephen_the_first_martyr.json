@@ -1,10 +1,21 @@
 {
+  "celebration": {
+    "title": "S. Étienne, premier martyr",
+    "commons": [
+      "martyrs"
+    ],
+    "grade": 9,
+    "color": "red"
+  },
   "invitatory": {
     "antiphon": [
       "Venez, adorons le Christ en sa naissance&nbsp;: il est le roi des martyrs."
     ]
   },
   "morning": {
+    "hymn": [
+      "premier-martyr-de-la-foi"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -26,17 +37,21 @@
       }
     ],
     "reading": {
-      "ref": "Ac 6, 2b-5a",
+      "biblicalReference": "Ac 6, 2b-5a",
       "content": "Il n’est pas normal que nous délaissions la Parole de Dieu pour le service des repas. Cherchez plutôt, frères, sept d’entre vous, qui soient des hommes estimés de tous, remplis de l’Esprit Saint et de sagesse, et nous leur confierons cette tâche. Pour notre part, nous resterons fidèles à la prière et au service de la Parole."
     },
-    "hymn": [
-      "premier-martyr-de-la-foi"
-    ],
-    "evangelicAntiphon": "Les portes du ciel s’ouvrent pour Étienne&nbsp;: il reçoit, le premier, la couronne des martyrs.",
-    "intercession": "<p>Avec les martyrs qui ont donné leur vie pour la Parole de Dieu, louons notre Sauveur, le témoin fidèle&nbsp;:</p> <p>R/Nous t’acclamons, Seigneur de gloire&nbsp;!</p> <p>Par les martyrs qui ont accepté de mourir pour témoigner de la foi,<br> —&nbsp;donne-nous l’esprit de liberté.</p> <p>Par les martyrs qui ont versé leur sang pour confesser ton nom,<br> —&nbsp;accorde-nous la force de la foi.</p> <p>Par les martyrs qui t’ont suivi sur le chemin de la croix,<br> —&nbsp;fortifie-nous dans les épreuves.</p> <p>Par les martyrs qui ont lavé leur robe dans le sang de l’Agneau,<br> —&nbsp;fais-nous vaincre les tentations de ce monde.</p>",
-    "responsory": "<p>R/ Seigneur Jésus, reçois mon esprit.<br> V/ Ne leur compte pas ce péché.&nbsp;R/ <br> V/ Je vois le Fils de l’homme<br> à la droite de Dieu.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Seigneur Jésus, reçois mon esprit.<br> V/ Ne leur compte pas ce péché.&nbsp;R/ <br> V/ Je vois le Fils de l’homme<br> à la droite de Dieu.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Les portes du ciel s’ouvrent pour Étienne&nbsp;: il reçoit, le premier, la couronne des martyrs."
+    },
+    "intercession": {
+      "content": "<p>Avec les martyrs qui ont donné leur vie pour la Parole de Dieu, louons notre Sauveur, le témoin fidèle&nbsp;:</p> <p>R/Nous t’acclamons, Seigneur de gloire&nbsp;!</p> <p>Par les martyrs qui ont accepté de mourir pour témoigner de la foi,<br> —&nbsp;donne-nous l’esprit de liberté.</p> <p>Par les martyrs qui ont versé leur sang pour confesser ton nom,<br> —&nbsp;accorde-nous la force de la foi.</p> <p>Par les martyrs qui t’ont suivi sur le chemin de la croix,<br> —&nbsp;fortifie-nous dans les épreuves.</p> <p>Par les martyrs qui ont lavé leur robe dans le sang de l’Agneau,<br> —&nbsp;fais-nous vaincre les tentations de ce monde.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "il-est-grand-celui-qui-donne-la-vie"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_2",
@@ -69,10 +84,30 @@
       "content": "<p>Hier nous avons célébré la naissance temporelle de notre Roi éternel&nbsp;; aujourd’hui nous célébrons la passion triomphale de son soldat.</p> <p>Hier, en effet, notre Roi, revêtu de notre chair, sortant du palais d’un sein virginal, a daigné visiter notre monde&nbsp;; aujourd’hui le soldat sortant de la tente de son corps, est parti pour le ciel en triomphateur. ~</p> <p>Notre Roi, alors qu’il est le Très-Haut, est venu vers nous dans l’humilité, mais il ne pouvait pas venir les mains vides. Il apportait à ses soldats un don magnifique, non seulement pour leur confier une richesse considérable, mais aussi pour les rendre absolument invincibles dans le combat. Car il leur apportait le don de la charité, qui conduirait les hommes à partager la vie divine.</p> <p>Ce qu’il apportait, il l’a distribué&nbsp;; mais lui-même n’y a rien perdu car, s’il a transformé en richesse la pauvreté de ces fidèles, lui-même est resté comblé de trésors inépuisables.</p> <p>La charité qui a fait descendre le Christ du ciel sur la terre, c’est elle qui a élevé saint Étienne de la terre jusqu’au ciel. La charité, qui existait d’abord chez le Roi, c’est elle qui, à sa suite, a resplendi chez le soldat. ~</p> <p>Étienne, pour obtenir de recevoir la couronne que signifie son nom, avait pour armes la charité, et grâce à elle il était entièrement vainqueur. Par l’amour de Dieu, il n’a pas reculé devant l’hostilité des Juifs&nbsp;; par l’amour du prochain, il a intercédé pour ceux qui le lapidaient. Par cette charité, il leur reprochait leur erreur, afin qu’ils se corrigent&nbsp;; par cette charité, il priait pour ceux qui le lapidaient, afin que le châtiment leur soit épargné.</p> <p>Fortifié par la charité, il a vaincu Saul qui s’opposait cruellement à lui et, après l’avoir eu comme persécuteur sur terre, il a obtenu de l’avoir pour compagnon dans le ciel. Sa sainte et persévérante charité désirait gagner à lui par la prière ceux qu’il n’avait pu convertir par ses avertissements. ~</p> <p>Et voici que maintenant Paul partage la joie d’Étienne, il jouit avec Étienne de la gloire du Christ, il exulte avec Étienne, il règne avec lui. Là où Étienne est allé le premier, mis à mort par la lapidation de Paul, c’est là que Paul l’a suivi, secouru par les prières d’Étienne.</p> <p>C’est ici la vraie vie, mes frères, celle où Paul n’est pas accablé pour le meurtre d’Étienne, mais où Étienne se réjouit de la compagnie de Paul parce que la charité apporte sa joie à l’un comme à l’autre. Chez Étienne, la charité a surmonté l’hostilité des Juifs&nbsp;; chez Paul, la charité a recouvert une multitude de péchés. Chez l’un comme chez l’autre, la charité a pareillement obtenu de posséder le royaume des cieux.</p> <p>La charité est donc la source et l’origine de tous les biens, une protection invincible, la route qui mène au ciel. Celui qui marche selon la charité ne pourra ni s’égarer, ni avoir de crainte. Elle dirige, elle protège, elle conduit au but.</p> <p>C’est pourquoi, mes frères, puisque le Christ a dressé l’échelle de la charité, par laquelle tout chrétien peut monter au ciel, soyez courageusement fidèles à la pure charité, pratiquez-la entre vous et, en progressant dans la charité, faites votre ascension.</p>",
       "responsory": "<p>R/ Mettons au service les uns des autres les dons reçus de l’Esprit.</p> Pour porter devant Dieu la cause de ses frères Moïse plaça à leur tête des hommes valeureux.</p> Pour se consacrer à la prière et à la Parole, les Apôtres désignèrent au service de leurs frères des hommes remplis de l’Esprit.</p>"
     },
-    "hymn": [
-      "il-est-grand-celui-qui-donne-la-vie"
-    ],
     "verse": "<p>V/ Saisi par la détresse et l’angoisse,<br> je compte sur ta parole.</p>"
+  },
+  "middleOfDay": {
+    "tierce": {
+      "reading": {
+        "biblicalReference": "1 P 5, 10-11",
+        "content": "Dieu, qui donne toute grâce, lui qui vous a appelés dans le Christ à sa gloire éternelle, vous rétablira, après que vous aurez souffert un peu de temps&nbsp;; il vous affermira, vous fortifiera, vous rendra inébranlables. À lui la puissance pour tous les siècles. Amen."
+      },
+      "responsory": "V/ Le Seigneur l’a revêtu de la robe d’allégresse&nbsp;:<br> il a posé sur sa tête une couronne de beauté.<br>"
+    },
+    "sexte": {
+      "reading": {
+        "biblicalReference": "Jc 1, 12",
+        "content": "Heureux l’homme qui supporte l’épreuve avec persévérance, car, une fois vérifiée sa qualité, il recevra la couronne de la vie comme la récompense promise à ceux qui aiment Dieu."
+      },
+      "responsory": "V/ Sur Dieu, je prends appui&nbsp;:<br> plus rien ne me fait peur.<br>"
+    },
+    "none": {
+      "reading": {
+        "biblicalReference": "Sg 3, 1-2a.3b",
+        "content": "La vie des justes est dans la main de Dieu, aucun tourment n’a de prise sur eux. Celui qui ne réfléchit pas s’est imaginé qu’ils étaient morts, alors qu’ils sont dans la paix."
+      },
+      "responsory": "V/ Il s’en vient, il s’en vient dans la joie,<br> il rapporte les gerbes.<br>"
+    }
   },
   "vespers": {
     "psalmody": [
@@ -87,42 +122,21 @@
       }
     ],
     "reading": {
-      "ref": "1 Jn 1, 5b.7",
+      "biblicalReference": "1 Jn 1, 5b.7",
       "content": "Dieu est lumière, il n’y a pas de ténèbres en lui. Si nous marchons dans la lumière, comme il est lui-même dans la lumière, nous sommes en communion les uns avec les autres, et le sang de Jésus son Fils nous purifie de tout péché."
     },
-    "evangelicAntiphon": "Un silence paisible enveloppait toutes choses, la nuit en était au milieu de son cours&nbsp;; alors la Parole puissante s’élança du trône royal, alléluia&nbsp;!",
-    "intercession": "<p>Par le mystère de ton incarnation<br> par ta naissance et ton enfance,<br> par ta vie toute consacrée,</p> <p>R/Délivre-nous, Seigneur Jésus&nbsp;!</p> <p>Par ton labeur et ta fatigue,<br> par tes marches et ta parole,<br> par tes rencontres avec les pécheurs,</p> <p>Par l’agonie de ta passion,<br> par ta solitude et ta croix,<br> par ta mort et ta sépulture,</p> <p>Par ta résurrection et ton ascension,<br> par le don du Saint-Esprit,<br> par ta joie et par ta gloire,</p>",
     "responsory": "<p>R/ Le Verbe s’est fait chair.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a demeuré parmi nous. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne."
-  },
-  "middleOfDay": {
-    "tierce": {
-      "reading": {
-        "ref": "1 P 5, 10-11",
-        "content": "Dieu, qui donne toute grâce, lui qui vous a appelés dans le Christ à sa gloire éternelle, vous rétablira, après que vous aurez souffert un peu de temps&nbsp;; il vous affermira, vous fortifiera, vous rendra inébranlables. À lui la puissance pour tous les siècles. Amen."
-      },
-      "responsory": "V/ Le Seigneur l’a revêtu de la robe d’allégresse&nbsp;:<br> il a posé sur sa tête une couronne de beauté.<br>"
+    "evangelicAntiphon": {
+      "common": "Un silence paisible enveloppait toutes choses, la nuit en était au milieu de son cours&nbsp;; alors la Parole puissante s’élança du trône royal, alléluia&nbsp;!"
     },
-    "sexte": {
-      "reading": {
-        "ref": "Jc 1, 12",
-        "content": "Heureux l’homme qui supporte l’épreuve avec persévérance, car, une fois vérifiée sa qualité, il recevra la couronne de la vie comme la récompense promise à ceux qui aiment Dieu."
-      },
-      "responsory": "V/ Sur Dieu, je prends appui&nbsp;:<br> plus rien ne me fait peur.<br>"
+    "intercession": {
+      "content": "<p>Par le mystère de ton incarnation<br> par ta naissance et ton enfance,<br> par ta vie toute consacrée,</p> <p>R/Délivre-nous, Seigneur Jésus&nbsp;!</p> <p>Par ton labeur et ta fatigue,<br> par tes marches et ta parole,<br> par tes rencontres avec les pécheurs,</p> <p>Par l’agonie de ta passion,<br> par ta solitude et ta croix,<br> par ta mort et ta sépulture,</p> <p>Par ta résurrection et ton ascension,<br> par le don du Saint-Esprit,<br> par ta joie et par ta gloire,</p>"
     },
-    "none": {
-      "reading": {
-        "ref": "Sg 3, 1-2a.3b",
-        "content": "La vie des justes est dans la main de Dieu, aucun tourment n’a de prise sur eux. Celui qui ne réfléchit pas s’est imaginé qu’ils étaient morts, alors qu’ils sont dans la paix."
-      },
-      "responsory": "V/ Il s’en vient, il s’en vient dans la joie,<br> il rapporte les gerbes.<br>"
-    }
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne."
+    ]
   },
-  "celebrationTitle": "S. Étienne, premier martyr",
-  "liturgicalGrade": 9,
-  "liturgicalColor": "red",
-  "commons": [
-    "martyrs"
-  ],
-  "oration": "Apprends-nous, Seigneur, l’amour de nos ennemis, à l’exemple de saint Étienne, le premier de tes martyrs, lui qui sut implorer le pardon pour ses propres bourreaux."
+  "oration": [
+    "Apprends-nous, Seigneur, l’amour de nos ennemis, à l’exemple de saint Étienne, le premier de tes martyrs, lui qui sut implorer le pardon pour ses propres bourreaux."
+  ]
 }

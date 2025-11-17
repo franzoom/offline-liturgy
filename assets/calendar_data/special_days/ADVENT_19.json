@@ -1,12 +1,21 @@
 {
+  "celebration": {
+    "title": "19 décembre",
+    "grade": 9,
+    "color": "violet"
+  },
   "morning": {
     "reading": {
-      "ref": "Is 2, 3",
+      "biblicalReference": "Is 2, 3",
       "content": "Venez, montons à la montagne du Seigneur, au temple du Dieu de Jacob. Il nous enseignera ses chemins et nous suivrons ses sentiers. Car c’est de Sion que vient la Loi, de Jérusalem la parole du Seigneur."
     },
-    "evangelicAntiphon": "Comme un soleil, le Sauveur se lèvera. Comme la pluie sur le gazon, il descendra dans le sein de la Vierge, alléluia.",
-    "intercession": "<p>Frères bien-aimés, prions le Christ qui vient sauver de la mort ceux qui se tournent vers lui&nbsp;:</p> <p>R/Viens, Seigneur Jésus&nbsp;! Viens, source de vie&nbsp;!</p> <p>Alors que nous proclamons ta venue, purifie notre cœur de tout esprit de vanité.</p> <p>Que ton Église, fondée par toi sur le roc de ta parole, te sanctifie parmi toutes les nations.</p> <p>Que ta loi, lumière de nos yeux, protège et soutienne ceux qui comptent sur toi.</p> <p>Tu as donné mission à ton Église d’annoncer la joie de ta venue, accorde-nous de t’accueillir avec ferveur.</p>",
-    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br> * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. *<br> V/ Toute chair verra sa gloire. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br> * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. *<br> V/ Toute chair verra sa gloire. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Comme un soleil, le Sauveur se lèvera. Comme la pluie sur le gazon, il descendra dans le sein de la Vierge, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Frères bien-aimés, prions le Christ qui vient sauver de la mort ceux qui se tournent vers lui&nbsp;:</p> <p>R/Viens, Seigneur Jésus&nbsp;! Viens, source de vie&nbsp;!</p> <p>Alors que nous proclamons ta venue, purifie notre cœur de tout esprit de vanité.</p> <p>Que ton Église, fondée par toi sur le roc de ta parole, te sanctifie parmi toutes les nations.</p> <p>Que ta loi, lumière de nos yeux, protège et soutienne ceux qui comptent sur toi.</p> <p>Tu as donné mission à ton Église d’annoncer la joie de ta venue, accorde-nous de t’accueillir avec ferveur.</p>"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -22,40 +31,43 @@
       "responsory": "<p>R/ Réjouissez-vous dans le Seigneur&nbsp;! Réjouissez-vous, car il est proche&nbsp;!</p> Ta complaisance, Seigneur, est pour la terre, tu fais revenir les captifs de Jacob.</p> N’est-ce pas toi qui reviens nous vivifier&nbsp;? Et ton peuple en toi se réjouit.</p> Justice marchera devant lui, et paix sur la trace de ses pas.</p>"
     }
   },
-  "vespers": {
-    "reading": {
-      "ref": "Ph 3, 20b-21",
-      "content": "Nous attendons comme Sauveur le Seigneur Jésus Christ, lui qui transformera nos pauvres corps à l’image de son corps glorieux, avec la puissance qui le rend capable aussi de tout dominer."
-    },
-    "evangelicAntiphon": "Ô Rameau de Jessé, étendard dressé à la face des nations, les rois sont muets devant toi, tandis que les peuples t’appellent&nbsp;: Délivre-nous, ne tarde plus, viens, Seigneur, viens nous sauver&nbsp;!",
-    "intercession": "<p> Frères bien-aimés, présentons nos demandes au Christ, le Juge des vivants et des morts&nbsp;:</p> <p>R/Viens, Seigneur Jésus&nbsp;! Viens, semence de vie&nbsp;!</p> <p>Que le monde te reçoive, germe de justice,<br> et que ta gloire habite notre terre.</p> <p>Dans ta bonté pour nous, tu as partagé notre faiblesse humaine&nbsp;;<br> accorde aux hommes le secours de ta puissance divine.</p> <p>Fais resplendir ta connaissance sur ceux que tu vois prisonniers des ténèbres de l’ignorance.</p> <p>Par ton humiliation, tu as pris sur toi notre injustice&nbsp;;<br> entré maintenant dans la gloire, donne-nous part à ta bénédiction.</p> <p>Tu te manifesteras en venant pour le jugement&nbsp;;<br> conduis nos frères défunts jusqu’à ton Royaume céleste.</p>",
-    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce&nbsp;:<br> * Ton nom est proche.<br> V/ De toi vient le relèvement.&nbsp;*<br> <p>Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p><br></p>"
-  },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Cf. Is 10, 20-21",
+        "biblicalReference": "Cf. Is 10, 20-21",
         "content": "Il adviendra, en ce jour-là, que le reste d’Israël et les rescapés de la maison de Jacob s’appuieront vraiment sur le Seigneur, sur le Saint d’Israël. Un reste reviendra, le reste de Jacob, vers le Dieu-Fort."
       },
       "responsory": "<p>V/ Les nations craindront le nom du Seigneur,<br> et tous les rois de la terre, sa gloire.</p>"
     },
     "sexte": {
       "reading": {
-        "ref": "Cf. Is 10, 24-27",
+        "biblicalReference": "Cf. Is 10, 24-27",
         "content": "Ainsi parle le Seigneur, Dieu de l’univers&nbsp;: Ô mon peuple qui habites en Sion, ne crains pas. Il adviendra, en ce jour-là, que le fardeau glissera de ton épaule et le joug, de ta nuque."
       },
       "responsory": "<p>V/ Le Seigneur apparaîtra dans sa gloire&nbsp;:<br> le peuple nouveau chantera son Dieu.</p>"
     },
     "none": {
       "reading": {
-        "ref": "Is 13,22b - 14,1a",
+        "biblicalReference": "Is 13,22b - 14,1a",
         "content": "Son heure est proche, son jour ne tardera pas. Le Seigneur aura pitié de Jacob. Il choisira encore Israël."
       },
       "responsory": "<p>V/ Viens, Seigneur, ne tarde pas.<br> Remets à ton peuple ses péchés.</p>"
     }
   },
-  "celebrationTitle": "19 décembre",
-  "liturgicalGrade": 9,
-  "liturgicalColor": "violet",
-  "oration": "Par le signe merveilleux de la Vierge qui enfante tu as fait connaître au monde, Seigneur, la splendeur de ta gloire&nbsp;; aide-nous à célébrer le mystère de l’incarnation avec une foi sans défaut et dans l’obéissance du cœur."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "Ph 3, 20b-21",
+      "content": "Nous attendons comme Sauveur le Seigneur Jésus Christ, lui qui transformera nos pauvres corps à l’image de son corps glorieux, avec la puissance qui le rend capable aussi de tout dominer."
+    },
+    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce&nbsp;:<br> * Ton nom est proche.<br> V/ De toi vient le relèvement.&nbsp;*<br> <p>Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p><br></p>",
+    "evangelicAntiphon": {
+      "common": "Ô Rameau de Jessé, étendard dressé à la face des nations, les rois sont muets devant toi, tandis que les peuples t’appellent&nbsp;: Délivre-nous, ne tarde plus, viens, Seigneur, viens nous sauver&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p> Frères bien-aimés, présentons nos demandes au Christ, le Juge des vivants et des morts&nbsp;:</p> <p>R/Viens, Seigneur Jésus&nbsp;! Viens, semence de vie&nbsp;!</p> <p>Que le monde te reçoive, germe de justice,<br> et que ta gloire habite notre terre.</p> <p>Dans ta bonté pour nous, tu as partagé notre faiblesse humaine&nbsp;;<br> accorde aux hommes le secours de ta puissance divine.</p> <p>Fais resplendir ta connaissance sur ceux que tu vois prisonniers des ténèbres de l’ignorance.</p> <p>Par ton humiliation, tu as pris sur toi notre injustice&nbsp;;<br> entré maintenant dans la gloire, donne-nous part à ta bénédiction.</p> <p>Tu te manifesteras en venant pour le jugement&nbsp;;<br> conduis nos frères défunts jusqu’à ton Royaume céleste.</p>"
+    }
+  },
+  "oration": [
+    "Par le signe merveilleux de la Vierge qui enfante tu as fait connaître au monde, Seigneur, la splendeur de ta gloire&nbsp;; aide-nous à célébrer le mystère de l’incarnation avec une foi sans défaut et dans l’obéissance du cœur."
+  ]
 }

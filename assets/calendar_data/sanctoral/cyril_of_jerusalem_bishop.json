@@ -1,6 +1,19 @@
 {
+  "celebration": {
+    "title": "Saint Cyrille de Jérusalem",
+    "subtitle": "évêque et docteur de l'Église",
+    "description": "L’évêque Cyrille de Jérusalem († 386 ou 387) connut de multiples tribulations pour défendre la foi en la divinité du Christ. Il fut exilé à trois reprises. Il a laissé des Catéchèses baptismales, qui font connaître comment on préparait les adultes au baptême dans la seconde moitié du 4<sup>ème</sup> siècle.",
+    "commons": [
+      "pastors_bishop",
+      "doctors"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    "evangelicAntiphon": {
+      "common": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -9,14 +22,7 @@
       "responsory": "<p>R/ Heureux les invités aux noces de l'Agneau!</p><p>Soyez dans la joie et l'allégresse :<br>voici les noces de l'Agneau<br>et son épouse s'est faite belle.</p><p>Je te fiancerai à moi pour toujours,<br>dans l'amour et dans la fidélité.<br>Tu sauras que je suis le Seigneur.</p>"
     }
   },
-  "celebrationTitle": "Saint Cyrille de Jérusalem",
-  "celebrationSubtitle": "évêque et docteur de l'Église",
-  "celebrationDescription": "L’évêque Cyrille de Jérusalem († 386 ou 387) connut de multiples tribulations pour défendre la foi en la divinité du Christ. Il fut exilé à trois reprises. Il a laissé des Catéchèses baptismales, qui font connaître comment on préparait les adultes au baptême dans la seconde moitié du 4<sup>ème</sup> siècle.",
-  "commons": [
-    "pastors_bishop",
-    "doctors"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": 12,
-  "oration": "Seigneur, tu as permis que ton Eglise pénètre davantage les mystères du salut grâce à l'enseignement de saint Cyrille, évêque de Jérusalem; accorde-nous, par son intercession, de si bien connaître ton Fils que nous vivions plus intensément de sa vie."
+  "oration": [
+    "Seigneur, tu as permis que ton Eglise pénètre davantage les mystères du salut grâce à l'enseignement de saint Cyrille, évêque de Jérusalem; accorde-nous, par son intercession, de si bien connaître ton Fils que nous vivions plus intensément de sa vie."
+  ]
 }

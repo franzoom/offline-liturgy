@@ -26,12 +26,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 9, 5",
+      "biblicalReference": "Is 9, 5",
       "content": "Un enfant nous est né, un fils nous a été donné&nbsp;; l’insigne du pouvoir est sur son épaule&nbsp;; on proclame son nom&nbsp;: «&nbsp;Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-Paix&nbsp;»."
     },
-    "evangelicAntiphon": "Venus d’Orient jusqu’à Bethléem, les mages adorent le Seigneur et lui offrent leurs présents&nbsp;: l’or est offert au Roi, l’encens au vrai Dieu, et la myrrhe pour sa sépulture, alléluia.",
-    "intercession": "<p>Rédempteur du monde,<br> tu es venu détruire le mur qui séparait juifs et païens&nbsp;: <br> —&nbsp;aide-nous à combattre tout obstacle à l’unité.</p> <p>R/ Verbe de Dieu, sois notre force&nbsp;!</p> <p>Tu t’es incarné pour être présent à tout homme&nbsp;:<br> —&nbsp;fais-nous discerner ton visage dans notre prochain.</p> <p>Tu as révélé aux hommes le cœur du Père &nbsp;:<br> —&nbsp;montre-nous comment accorder nos actes à ta parole.</p> <p>Dieu avec nous, tu veux faire toute chose nouvelle&nbsp;:<br> —&nbsp;recrée notre être tout entier, et notre cœur sera semence de vie.</p> ",
-    "responsory": "<p>R/ Les rois se prosterneront devant lui.<br>  * Tous les pays le serviront.<br> V/ En ces jours-là, fleurira la justice. * <br> V/ Il délivrera le pauvre qui appelle. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Les rois se prosterneront devant lui.<br>  * Tous les pays le serviront.<br> V/ En ces jours-là, fleurira la justice. * <br> V/ Il délivrera le pauvre qui appelle. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Venus d’Orient jusqu’à Bethléem, les mages adorent le Seigneur et lui offrent leurs présents&nbsp;: l’or est offert au Roi, l’encens au vrai Dieu, et la myrrhe pour sa sépulture, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Rédempteur du monde,<br> tu es venu détruire le mur qui séparait juifs et païens&nbsp;: <br> —&nbsp;aide-nous à combattre tout obstacle à l’unité.</p> <p>R/ Verbe de Dieu, sois notre force&nbsp;!</p> <p>Tu t’es incarné pour être présent à tout homme&nbsp;:<br> —&nbsp;fais-nous discerner ton visage dans notre prochain.</p> <p>Tu as révélé aux hommes le cœur du Père &nbsp;:<br> —&nbsp;montre-nous comment accorder nos actes à ta parole.</p> <p>Dieu avec nous, tu veux faire toute chose nouvelle&nbsp;:<br> —&nbsp;recrée notre être tout entier, et notre cœur sera semence de vie.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,7 +71,25 @@
       "responsory": "<p>R/ Seigneur Jésus, tu es la lumière du monde.</p> <p>Voici, dit le Seigneur, que je suscite mon serviteur&nbsp;:<br> et j’écarterai l’impiété de ce pays.</p> <p>Jésus vint avec la puissance de l’Esprit<br> et sa renommée se répandit alentour.</p> <p>L’Esprit du Seigneur est sur moi, disait-il,<br> car il m’a consacré par l’onction.</p>"
     },
     "verse": "<p>V/ Les cieux ont proclamé sa justice,<br> tous les peuples ont vu sa gloire.</p>",
-    "oration": "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine&nbsp;: nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
+    "oration": [
+      "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine&nbsp;: nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_6",
+        "antiphon": [
+          "Voici que je viens, Seigneur, pour accomplir ta volonté."
+        ]
+      },
+      {
+        "psalm": "PSALM_39_1"
+      },
+      {
+        "psalm": "PSALM_39_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -88,27 +110,15 @@
       }
     ],
     "reading": {
-      "ref": "cf. 2 P 1, 3-4",
+      "biblicalReference": "cf. 2 P 1, 3-4",
       "content": "Le Christ, dans sa puissance divine, nous a fait don de tout ce qu’il faut pour vivre en hommes religieux, grâce à la véritable connaissance de Celui qui nous a appelés par la gloire et la force qui lui appartiennent. Ainsi Dieu nous a fait don des grandes richesses promises et vous deviendrez participants de la nature divine, en fuyant la dégradation que le désir produit dans le monde."
     },
-    "evangelicAntiphon": "À la vue de l’étoile, les mages eurent une grande joie&nbsp;; entrés dans la maison, ils offrirent au Seigneur l’or, l’encens et la myrrhe.",
-    "intercession": "<p>R/ Ô Christ, lumière sans déclin, resplendis sur nous&nbsp;!</p> <p>Par ta venue, tu as donné naissance à l’Église qui est ton Corps&nbsp;:<br> —&nbsp;fais-la grandir dans la charité&nbsp;!</p> <p>Tu tiens en ta main le ciel et la terre&nbsp;:<br> —&nbsp;que les nations et leurs chefs reconnaissent ta puissance&nbsp;!</p> <p>Ton incarnation t’a consacré prêtre éternel&nbsp;:<br> —&nbsp;que les prêtres soient de dignes serviteurs de ta rédemption&nbsp;!</p> <p>Dans le sein virginal de Marie, tu as uni l’humanité à la divinité&nbsp;:<br> —&nbsp;bénis ceux qui te consacrent leur chasteté&nbsp;!</p> <p>Naissant dans une chair mortelle, tu venais détruire la mort que tu n’as pas créée&nbsp;:<br> —&nbsp;conduis à la vie éternelle ceux qui nous ont quittés&nbsp;!</p> ",
-    "responsory": "<p>R/ À notre Dieu et à son Christ,<br> la royauté sur l’univers, alléluia&nbsp;!<br> V/ Que les peuples du monde le bénissent&nbsp;!R/ <br> V/ Toute la terre soit remplie de sa gloire&nbsp;!R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_6",
-        "antiphon": [
-          "Voici que je viens, Seigneur, pour accomplir ta volonté."
-        ]
-      },
-      {
-        "psalm": "PSALM_39_1"
-      },
-      {
-        "psalm": "PSALM_39_2"
-      }
-    ]
+    "responsory": "<p>R/ À notre Dieu et à son Christ,<br> la royauté sur l’univers, alléluia&nbsp;!<br> V/ Que les peuples du monde le bénissent&nbsp;!R/ <br> V/ Toute la terre soit remplie de sa gloire&nbsp;!R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "À la vue de l’étoile, les mages eurent une grande joie&nbsp;; entrés dans la maison, ils offrirent au Seigneur l’or, l’encens et la myrrhe."
+    },
+    "intercession": {
+      "content": "<p>R/ Ô Christ, lumière sans déclin, resplendis sur nous&nbsp;!</p> <p>Par ta venue, tu as donné naissance à l’Église qui est ton Corps&nbsp;:<br> —&nbsp;fais-la grandir dans la charité&nbsp;!</p> <p>Tu tiens en ta main le ciel et la terre&nbsp;:<br> —&nbsp;que les nations et leurs chefs reconnaissent ta puissance&nbsp;!</p> <p>Ton incarnation t’a consacré prêtre éternel&nbsp;:<br> —&nbsp;que les prêtres soient de dignes serviteurs de ta rédemption&nbsp;!</p> <p>Dans le sein virginal de Marie, tu as uni l’humanité à la divinité&nbsp;:<br> —&nbsp;bénis ceux qui te consacrent leur chasteté&nbsp;!</p> <p>Naissant dans une chair mortelle, tu venais détruire la mort que tu n’as pas créée&nbsp;:<br> —&nbsp;conduis à la vie éternelle ceux qui nous ont quittés&nbsp;!</p> "
+    }
   }
 }

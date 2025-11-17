@@ -4,54 +4,38 @@ import 'office_structures.dart';
 /// Morning prayer class with deeply nested structure support
 /// Extracts data from DayOffices and provides helper methods for access
 class Morning {
-  // General celebration information
-  String? celebrationTitle;
-  String? celebrationSubtitle;
-  String? celebrationDescription;
-  String? commonTitle;
-  int? liturgicalGrade;
-  String? liturgicalColor;
+  // Celebration information (nested object)
+  Celebration? celebration;
 
-  // Invitatory data (keeps prefix as it's not part of morning office proper)
-  List<String>? invitatoryAntiphon;
-  List? invitatoryPsalms;
+  // Invitatory data (nested object)
+  Invitatory? invitatory;
 
-  // Morning office elements (no prefix needed - we're in Morning class)
+  // Morning office elements
   List<String>? hymn;
   List<PsalmEntry>? psalmody;
 
-  // Reading fields (extracted from nested object)
-  String? readingRef;
-  String? reading;
+  // Reading (nested object)
+  Reading? reading;
 
   String? responsory;
-  String? evangelicAntiphon;
-  String? evangelicAntiphonA;
-  String? evangelicAntiphonB;
-  String? evangelicAntiphonC;
-  String? intercessionDescription;
-  String? intercession;
-  String? oration;
+
+  // Evangelic antiphon (nested object)
+  EvangelicAntiphon? evangelicAntiphon;
+
+  // Intercession (nested object)
+  Intercession? intercession;
+
+  // Oration as list
+  List<String>? oration;
 
   Morning({
-    this.celebrationTitle,
-    this.celebrationSubtitle,
-    this.celebrationDescription,
-    this.commonTitle,
-    this.liturgicalGrade,
-    this.liturgicalColor,
-    this.invitatoryAntiphon,
-    this.invitatoryPsalms,
+    this.celebration,
+    this.invitatory,
     this.hymn,
     this.psalmody,
-    this.readingRef,
     this.reading,
     this.responsory,
     this.evangelicAntiphon,
-    this.evangelicAntiphonA,
-    this.evangelicAntiphonB,
-    this.evangelicAntiphonC,
-    this.intercessionDescription,
     this.intercession,
     this.oration,
   });
@@ -59,82 +43,225 @@ class Morning {
   /// Creates a Morning instance from DayOffices data
   /// Maps corresponding fields from DayOffices to Morning
   static Morning fromDayOffices(DayOffices dayOffices) {
-    return Morning()
-      // Direct field mappings
-      ..celebrationTitle = dayOffices.celebrationTitle
-      ..celebrationSubtitle = dayOffices.celebrationSubtitle
-      ..celebrationDescription = dayOffices.celebrationDescription
-      ..liturgicalGrade = dayOffices.liturgicalGrade
-      ..liturgicalColor = dayOffices.liturgicalColor
+    // Build Celebration object
+    Celebration? celebration;
+    if (dayOffices.celebration != null) {
+      celebration = Celebration(
+        title: dayOffices.celebration!.title,
+        subtitle: dayOffices.celebration!.subtitle,
+        description: dayOffices.celebration!.description,
+        commons: dayOffices.celebration!.commons,
+        grade: dayOffices.celebration!.grade,
+        color: dayOffices.celebration!.color,
+      );
+    }
 
-      // Invitatory data - now a list
-      ..invitatoryAntiphon = dayOffices.invitatory?.antiphon
+    // Build Invitatory object
+    Invitatory? invitatory;
+    if (dayOffices.invitatory != null) {
+      invitatory = Invitatory(
+        antiphon: dayOffices.invitatory!.antiphon,
+        psalms: null, // Will be set by setInvitatoryPsalms
+      );
+    }
 
-      // Morning office data
-      ..hymn = dayOffices.morning?.hymn
-      ..psalmody = dayOffices.morning?.psalmody
+    // Build Reading object
+    Reading? reading;
+    if (dayOffices.morning?.reading != null) {
+      reading = Reading(
+        biblicalReference: dayOffices.morning!.reading!.biblicalReference,
+        content: dayOffices.morning!.reading!.content,
+      );
+    }
 
-      // Reading - extract from nested object
-      ..readingRef = dayOffices.morning?.reading?.ref
-      ..reading = dayOffices.morning?.reading?.content
-      ..responsory = dayOffices.morning?.responsory
-      ..evangelicAntiphon =
-          dayOffices.morning?.evangelicAntiphon ?? dayOffices.evangelicAntiphon
-      ..evangelicAntiphonA = dayOffices.morning?.evangelicAntiphonA ??
-          dayOffices.sundayEvangelicAntiphonA
-      ..evangelicAntiphonB = dayOffices.morning?.evangelicAntiphonB ??
-          dayOffices.sundayEvangelicAntiphonB
-      ..evangelicAntiphonC = dayOffices.morning?.evangelicAntiphonC ??
-          dayOffices.sundayEvangelicAntiphonC
-      ..intercessionDescription = dayOffices.morning?.intercessionDescription
-      ..intercession = dayOffices.morning?.intercession
-      ..oration = dayOffices.morning?.oration ?? dayOffices.oration;
+    // Build EvangelicAntiphon object
+    EvangelicAntiphon? evangelicAntiphon;
+
+    // Priority:
+    // 1. Use morning.evangelicAntiphon object if it exists (already structured)
+    // 2. Fall back to legacy root-level fields
+    if (dayOffices.morning?.evangelicAntiphon != null) {
+      evangelicAntiphon = EvangelicAntiphon(
+        common: dayOffices.morning!.evangelicAntiphon!.common,
+        yearA: dayOffices.morning!.evangelicAntiphon!.yearA,
+        yearB: dayOffices.morning!.evangelicAntiphon!.yearB,
+        yearC: dayOffices.morning!.evangelicAntiphon!.yearC,
+      );
+    } else if (dayOffices.evangelicAntiphon != null ||
+        dayOffices.sundayEvangelicAntiphonA != null ||
+        dayOffices.sundayEvangelicAntiphonB != null ||
+        dayOffices.sundayEvangelicAntiphonC != null) {
+      // Legacy: build from root-level fields
+      evangelicAntiphon = EvangelicAntiphon(
+        common: dayOffices.evangelicAntiphon,
+        yearA: dayOffices.sundayEvangelicAntiphonA,
+        yearB: dayOffices.sundayEvangelicAntiphonB,
+        yearC: dayOffices.sundayEvangelicAntiphonC,
+      );
+    }
+
+    // Build Intercession object
+    Intercession? intercession;
+    if (dayOffices.morning?.intercession != null) {
+      intercession = Intercession(
+        description: dayOffices.morning!.intercession!.description,
+        content: dayOffices.morning!.intercession!.content,
+      );
+    }
+
+    // Build oration list
+    List<String>? oration;
+    if (dayOffices.morning?.oration != null) {
+      oration = List<String>.from(dayOffices.morning!.oration!);
+    } else if (dayOffices.oration != null) {
+      oration = List<String>.from(dayOffices.oration!);
+    }
+
+    return Morning(
+      celebration: celebration,
+      invitatory: invitatory,
+      hymn: dayOffices.morning?.hymn,
+      psalmody: dayOffices.morning?.psalmody,
+      reading: reading,
+      responsory: dayOffices.morning?.responsory,
+      evangelicAntiphon: evangelicAntiphon,
+      intercession: intercession,
+      oration: oration,
+    );
   }
 
   /// Overlays data from another Morning instance onto this instance
   /// If a value exists in [overlay], it replaces the existing value
   void overlayWith(Morning overlay) {
-    if (overlay.celebrationTitle != null) {
-      celebrationTitle = overlay.celebrationTitle;
+    // Celebration - field by field
+    if (overlay.celebration != null) {
+      if (celebration == null) {
+        celebration = Celebration(
+          title: overlay.celebration!.title,
+          subtitle: overlay.celebration!.subtitle,
+          description: overlay.celebration!.description,
+          commons: overlay.celebration!.commons,
+          grade: overlay.celebration!.grade,
+          color: overlay.celebration!.color,
+        );
+      } else {
+        if (overlay.celebration!.title != null) {
+          celebration = Celebration(
+            title: overlay.celebration!.title,
+            subtitle: celebration!.subtitle,
+            description: celebration!.description,
+            commons: celebration!.commons,
+            grade: celebration!.grade,
+            color: celebration!.color,
+          );
+        }
+        if (overlay.celebration!.subtitle != null) {
+          celebration = Celebration(
+            title: celebration!.title,
+            subtitle: overlay.celebration!.subtitle,
+            description: celebration!.description,
+            commons: celebration!.commons,
+            grade: celebration!.grade,
+            color: celebration!.color,
+          );
+        }
+        if (overlay.celebration!.description != null) {
+          celebration = Celebration(
+            title: celebration!.title,
+            subtitle: celebration!.subtitle,
+            description: overlay.celebration!.description,
+            commons: celebration!.commons,
+            grade: celebration!.grade,
+            color: celebration!.color,
+          );
+        }
+        if (overlay.celebration!.commons != null) {
+          celebration = Celebration(
+            title: celebration!.title,
+            subtitle: celebration!.subtitle,
+            description: celebration!.description,
+            commons: overlay.celebration!.commons,
+            grade: celebration!.grade,
+            color: celebration!.color,
+          );
+        }
+        if (overlay.celebration!.grade != null) {
+          celebration = Celebration(
+            title: celebration!.title,
+            subtitle: celebration!.subtitle,
+            description: celebration!.description,
+            commons: celebration!.commons,
+            grade: overlay.celebration!.grade,
+            color: celebration!.color,
+          );
+        }
+        if (overlay.celebration!.color != null) {
+          celebration = Celebration(
+            title: celebration!.title,
+            subtitle: celebration!.subtitle,
+            description: celebration!.description,
+            commons: celebration!.commons,
+            grade: celebration!.grade,
+            color: overlay.celebration!.color,
+          );
+        }
+      }
     }
-    if (overlay.celebrationSubtitle != null) {
-      celebrationSubtitle = overlay.celebrationSubtitle;
+
+    // Invitatory - field by field
+    if (overlay.invitatory != null) {
+      if (invitatory == null) {
+        invitatory = Invitatory(
+          antiphon: overlay.invitatory!.antiphon,
+          psalms: overlay.invitatory!.psalms,
+        );
+      } else {
+        if (overlay.invitatory!.antiphon != null) {
+          invitatory = Invitatory(
+            antiphon: overlay.invitatory!.antiphon,
+            psalms: invitatory!.psalms,
+          );
+        }
+        if (overlay.invitatory!.psalms != null) {
+          invitatory = Invitatory(
+            antiphon: invitatory!.antiphon,
+            psalms: overlay.invitatory!.psalms,
+          );
+        }
+      }
     }
-    if (overlay.celebrationDescription != null) {
-      celebrationDescription = overlay.celebrationDescription;
-    }
-    if (overlay.commonTitle != null) {
-      commonTitle = overlay.commonTitle;
-    }
-    if (overlay.liturgicalGrade != null) {
-      liturgicalGrade = overlay.liturgicalGrade;
-    }
-    if (overlay.liturgicalColor != null) {
-      liturgicalColor = overlay.liturgicalColor;
-    }
-    if (overlay.invitatoryPsalms != null) {
-      invitatoryPsalms = overlay.invitatoryPsalms;
-    }
+
+    // Hymn
     if (overlay.hymn != null) {
       hymn = overlay.hymn;
     }
-    if (overlay.readingRef != null) {
-      readingRef = overlay.readingRef;
-    }
+
+    // Reading - field by field
     if (overlay.reading != null) {
-      reading = overlay.reading;
+      if (reading == null) {
+        reading = Reading(
+          biblicalReference: overlay.reading!.biblicalReference,
+          content: overlay.reading!.content,
+        );
+      } else {
+        if (overlay.reading!.biblicalReference != null) {
+          reading = Reading(
+            biblicalReference: overlay.reading!.biblicalReference,
+            content: reading!.content,
+          );
+        }
+        if (overlay.reading!.content != null) {
+          reading = Reading(
+            biblicalReference: reading!.biblicalReference,
+            content: overlay.reading!.content,
+          );
+        }
+      }
     }
+
+    // Responsory
     if (overlay.responsory != null) {
       responsory = overlay.responsory;
-    }
-    if (overlay.intercessionDescription != null) {
-      intercessionDescription = overlay.intercessionDescription;
-    }
-    if (overlay.intercession != null) {
-      intercession = overlay.intercession;
-    }
-    if (overlay.oration != null) {
-      oration = overlay.oration;
     }
 
     // Psalmody - replace entire list if overlay has one
@@ -142,32 +269,77 @@ class Morning {
       psalmody = overlay.psalmody;
     }
 
-    // Invitatory antiphon - now a list
-    if (overlay.invitatoryAntiphon != null) {
-      invitatoryAntiphon = overlay.invitatoryAntiphon;
+    // Evangelic antiphon - field by field
+    if (overlay.evangelicAntiphon != null) {
+      if (evangelicAntiphon == null) {
+        evangelicAntiphon = EvangelicAntiphon(
+          common: overlay.evangelicAntiphon!.common,
+          yearA: overlay.evangelicAntiphon!.yearA,
+          yearB: overlay.evangelicAntiphon!.yearB,
+          yearC: overlay.evangelicAntiphon!.yearC,
+        );
+      } else {
+        if (overlay.evangelicAntiphon!.common != null) {
+          evangelicAntiphon = EvangelicAntiphon(
+            common: overlay.evangelicAntiphon!.common,
+            yearA: overlay.evangelicAntiphon!.yearA ?? evangelicAntiphon!.yearA,
+            yearB: overlay.evangelicAntiphon!.yearB ?? evangelicAntiphon!.yearB,
+            yearC: overlay.evangelicAntiphon!.yearC ?? evangelicAntiphon!.yearC,
+          );
+        }
+        if (overlay.evangelicAntiphon!.yearA != null) {
+          evangelicAntiphon = EvangelicAntiphon(
+            common: evangelicAntiphon!.common,
+            yearA: overlay.evangelicAntiphon!.yearA,
+            yearB: evangelicAntiphon!.yearB,
+            yearC: evangelicAntiphon!.yearC,
+          );
+        }
+        if (overlay.evangelicAntiphon!.yearB != null) {
+          evangelicAntiphon = EvangelicAntiphon(
+            common: evangelicAntiphon!.common,
+            yearA: evangelicAntiphon!.yearA,
+            yearB: overlay.evangelicAntiphon!.yearB,
+            yearC: evangelicAntiphon!.yearC,
+          );
+        }
+        if (overlay.evangelicAntiphon!.yearC != null) {
+          evangelicAntiphon = EvangelicAntiphon(
+            common: evangelicAntiphon!.common,
+            yearA: evangelicAntiphon!.yearA,
+            yearB: evangelicAntiphon!.yearB,
+            yearC: overlay.evangelicAntiphon!.yearC,
+          );
+        }
+      }
     }
 
-    // Evangelic antiphon variants
-    if (overlay.evangelicAntiphon != null) {
-      evangelicAntiphon = overlay.evangelicAntiphon;
-      if (overlay.evangelicAntiphonA == null) {
-        evangelicAntiphonA = null;
-      }
-      if (overlay.evangelicAntiphonB == null) {
-        evangelicAntiphonB = null;
-      }
-      if (overlay.evangelicAntiphonC == null) {
-        evangelicAntiphonC = null;
+    // Intercession - field by field
+    if (overlay.intercession != null) {
+      if (intercession == null) {
+        intercession = Intercession(
+          description: overlay.intercession!.description,
+          content: overlay.intercession!.content,
+        );
+      } else {
+        if (overlay.intercession!.description != null) {
+          intercession = Intercession(
+            description: overlay.intercession!.description,
+            content: intercession!.content,
+          );
+        }
+        if (overlay.intercession!.content != null) {
+          intercession = Intercession(
+            description: intercession!.description,
+            content: overlay.intercession!.content,
+          );
+        }
       }
     }
-    if (overlay.evangelicAntiphonA != null) {
-      evangelicAntiphonA = overlay.evangelicAntiphonA;
-    }
-    if (overlay.evangelicAntiphonB != null) {
-      evangelicAntiphonB = overlay.evangelicAntiphonB;
-    }
-    if (overlay.evangelicAntiphonC != null) {
-      evangelicAntiphonC = overlay.evangelicAntiphonC;
+
+    // Oration
+    if (overlay.oration != null) {
+      oration = overlay.oration;
     }
   }
 
@@ -191,8 +363,20 @@ class Morning {
       }
     }
 
-    invitatoryPsalms =
+    List filteredPsalms =
         availablePsalms.where((psalm) => !usedPsalms.contains(psalm)).toList();
+
+    if (invitatory == null) {
+      invitatory = Invitatory(
+        antiphon: null,
+        psalms: filteredPsalms,
+      );
+    } else {
+      invitatory = Invitatory(
+        antiphon: invitatory!.antiphon,
+        psalms: filteredPsalms,
+      );
+    }
   }
 
   // ============================================================================
@@ -225,14 +409,14 @@ class Morning {
   // Helper methods for accessing reading data
   // ============================================================================
 
-  /// Get reading reference
-  String? getReadingRef() {
-    return readingRef;
+  /// Get reading biblical reference
+  String? getReadingBiblicalReference() {
+    return reading?.biblicalReference;
   }
 
   /// Get reading content
   String? getReadingContent() {
-    return reading;
+    return reading?.content;
   }
 
   // ============================================================================
@@ -243,15 +427,15 @@ class Morning {
   ///
   /// Example: getInvitatoryAntiphon(0) returns first invitatory antiphon
   String? getInvitatoryAntiphon(int index) {
-    if (invitatoryAntiphon == null || index >= invitatoryAntiphon!.length) {
+    if (invitatory?.antiphon == null || index >= invitatory!.antiphon!.length) {
       return null;
     }
-    return invitatoryAntiphon![index];
+    return invitatory!.antiphon![index];
   }
 
   /// Get count of invitatory antiphons
   int getInvitatoryAntiphonCount() {
-    return invitatoryAntiphon?.length ?? 0;
+    return invitatory?.antiphon?.length ?? 0;
   }
 
   // ============================================================================
@@ -267,5 +451,96 @@ class Morning {
   int getAntiphonCount(int psalmodyIndex) {
     final antiphonList = getAntiphonList(psalmodyIndex);
     return antiphonList?.length ?? 0;
+  }
+
+  // ============================================================================
+  // Helper methods for accessing evangelic antiphon
+  // ============================================================================
+
+  /// Get common evangelic antiphon
+  String? getEvangelicAntiphonCommon() {
+    return evangelicAntiphon?.common;
+  }
+
+  /// Get evangelic antiphon for year A
+  String? getEvangelicAntiphonYearA() {
+    return evangelicAntiphon?.yearA;
+  }
+
+  /// Get evangelic antiphon for year B
+  String? getEvangelicAntiphonYearB() {
+    return evangelicAntiphon?.yearB;
+  }
+
+  /// Get evangelic antiphon for year C
+  String? getEvangelicAntiphonYearC() {
+    return evangelicAntiphon?.yearC;
+  }
+
+  // ============================================================================
+  // Helper methods for accessing intercession
+  // ============================================================================
+
+  /// Get intercession description
+  String? getIntercessionDescription() {
+    return intercession?.description;
+  }
+
+  /// Get intercession content
+  String? getIntercessionContent() {
+    return intercession?.content;
+  }
+
+  // ============================================================================
+  // Helper methods for accessing oration
+  // ============================================================================
+
+  /// Get oration by index
+  ///
+  /// Example: getOration(0) returns first oration
+  String? getOration(int index) {
+    if (oration == null || index >= oration!.length) {
+      return null;
+    }
+    return oration![index];
+  }
+
+  /// Get count of orations
+  int getOrationCount() {
+    return oration?.length ?? 0;
+  }
+
+  // ============================================================================
+  // Helper methods for accessing celebration data
+  // ============================================================================
+
+  /// Get celebration title
+  String? getCelebrationTitle() {
+    return celebration?.title;
+  }
+
+  /// Get celebration subtitle
+  String? getCelebrationSubtitle() {
+    return celebration?.subtitle;
+  }
+
+  /// Get celebration description
+  String? getCelebrationDescription() {
+    return celebration?.description;
+  }
+
+  /// Get celebration commons
+  List? getCelebrationCommons() {
+    return celebration?.commons;
+  }
+
+  /// Get liturgical grade
+  int? getLiturgicalGrade() {
+    return celebration?.grade;
+  }
+
+  /// Get liturgical color
+  String? getLiturgicalColor() {
+    return celebration?.color;
   }
 }

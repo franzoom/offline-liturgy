@@ -28,12 +28,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 2, 3",
+      "biblicalReference": "Is 2, 3",
       "content": "Venez, montons à la montagne du Seigneur, au temple du Dieu de Jacob. Il nous enseignera ses chemins et nous suivrons ses sentiers. Car c’est de Sion que vient la Loi, de Jérusalem la parole du Seigneur."
     },
-    "evangelicAntiphon": "Convertissez-vous&nbsp;: proche est le Royaume, alléluia.",
-    "intercession": "<p>Nous t’en prions, Jésus notre Sauveur venu annoncer aux pauvres la bonne nouvelle du salut&nbsp;:</p> <p>R/ Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Fais-toi connaître de ceux qui ne t’ont pas rencontré&nbsp;:<br> qu’ils voient ton salut et confessent ton nom.</p> <p>Que l’Évangile soit proclamé en tout lieu,<br> pour que tous les hommes découvrent ton chemin.</p> <p>Déploie ta grâce en notre vie,<br> pour que nous te servions avec générosité et persévérance.</p> <p>Préserve en nous la liberté que tu as éveillée&nbsp;:<br> qu’elle nous rende attentifs à notre prochain.</p> <p>Quand tu paraîtras pour juger les vivants et les morts,<br> porte sur nous un regard de miséricorde.</p> ",
-    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Convertissez-vous&nbsp;: proche est le Royaume, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Nous t’en prions, Jésus notre Sauveur venu annoncer aux pauvres la bonne nouvelle du salut&nbsp;:</p> <p>R/ Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Fais-toi connaître de ceux qui ne t’ont pas rencontré&nbsp;:<br> qu’ils voient ton salut et confessent ton nom.</p> <p>Que l’Évangile soit proclamé en tout lieu,<br> pour que tous les hommes découvrent ton chemin.</p> <p>Déploie ta grâce en notre vie,<br> pour que nous te servions avec générosité et persévérance.</p> <p>Préserve en nous la liberté que tu as éveillée&nbsp;:<br> qu’elle nous rende attentifs à notre prochain.</p> <p>Quand tu paraîtras pour juger les vivants et les morts,<br> porte sur nous un regard de miséricorde.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -69,7 +73,25 @@
       "responsory": "<p>R/ Venez, montons à la maison du Seigneur&nbsp;!</p> <p>Le Messie doit venir, celui qu’on appelle Christ.<br> Il nous annoncera toute chose.</p> <p>Il nous enseignera ses voies,<br> nous suivrons ses sentiers.</p>"
     },
     "verse": "<p>V/ Montre-nous, Seigneur, ta bonté,<br> donne-nous enfin le Sauveur.</p>",
-    "oration": "Que notre prière, Seigneur, se fraie un chemin jusqu’à toi&nbsp;: suscite au cœur de ceux qui te servent les désirs purs, les désirs forts, qui les prépareront au mystère de l’incarnation de ton Fils. Lui qui règne."
+    "oration": [
+      "Que notre prière, Seigneur, se fraie un chemin jusqu’à toi&nbsp;: suscite au cœur de ceux qui te servent les désirs purs, les désirs forts, qui les prépareront au mystère de l’incarnation de ton Fils. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_6",
+        "antiphon": [
+          "Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse."
+        ]
+      },
+      {
+        "psalm": "PSALM_39_1"
+      },
+      {
+        "psalm": "PSALM_39_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -90,27 +112,15 @@
       }
     ],
     "reading": {
-      "ref": "Ph 3, 20b-21",
+      "biblicalReference": "Ph 3, 20b-21",
       "content": "Nous attendons comme Sauveur le Seigneur Jésus Christ, lui qui transformera nos pauvres corps à l’image de son corps glorieux, avec la puissance qui le rend capable aussi de tout dominer."
     },
-    "evangelicAntiphon": "Voici le Roi, le Seigneur de la terre&nbsp;: il ôtera le joug qui nous opprime.",
-    "intercession": "<p>Seigneur Jésus envoyé par le Père,<br>montre-nous le chemin qui mène à ta demeure.</p> <p>R/ Viens, Seigneur, et sauve-nous&nbsp;!</p> <p>Seigneur Jésus, conçu du Saint-Esprit,<br> renouvelle nos cœurs par sa puissance.</p> <p>Seigneur Jésus, qui as pris chair de la Vierge Marie,<br> rassemble-nous dans l’unité de ton Corps.</p> <p>Seigneur Jésus, devenu l’un de nous,<br> rends-nous solidaires de tout homme.</p> <p>Seigneur Jésus, espérance des nations,<br> souviens-toi de tous les hommes qui, depuis les origines,<br> ont espéré la vie qui ne finit pas.</p> ",
-    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce<br>  *  Ton nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_6",
-        "antiphon": [
-          "Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse."
-        ]
-      },
-      {
-        "psalm": "PSALM_39_1"
-      },
-      {
-        "psalm": "PSALM_39_2"
-      }
-    ]
+    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce<br>  *  Ton nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Voici le Roi, le Seigneur de la terre&nbsp;: il ôtera le joug qui nous opprime."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus envoyé par le Père,<br>montre-nous le chemin qui mène à ta demeure.</p> <p>R/ Viens, Seigneur, et sauve-nous&nbsp;!</p> <p>Seigneur Jésus, conçu du Saint-Esprit,<br> renouvelle nos cœurs par sa puissance.</p> <p>Seigneur Jésus, qui as pris chair de la Vierge Marie,<br> rassemble-nous dans l’unité de ton Corps.</p> <p>Seigneur Jésus, devenu l’un de nous,<br> rends-nous solidaires de tout homme.</p> <p>Seigneur Jésus, espérance des nations,<br> souviens-toi de tous les hommes qui, depuis les origines,<br> ont espéré la vie qui ne finit pas.</p> "
+    }
   }
 }

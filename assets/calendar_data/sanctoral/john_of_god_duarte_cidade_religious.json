@@ -1,6 +1,18 @@
 {
+  "celebration": {
+    "title": "Saint jean de Dieu",
+    "subtitle": "religieux",
+    "description": "Jean de Dieu (1495‑1550), qui était d’origine portugaise, se fixa à Grenade (Espagne) après une jeunesse aventureuse. Bouleversé à la vue du dénuement des hôpitaux, il se mit à recueillir les malades chez lui et à les soigner, mendiant leur nourriture quotidienne. Ainsi naquit l’Ordre des Frères de saint Jean de Dieu, qui perpétue encore de nos jours son action.",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "morning": {
-    "evangelicAntiphon": "À l'amour que vous aurez les uns pour les autres, on reconnaîtra que vous êtes mes disciples."
+    "evangelicAntiphon": {
+      "common": "À l'amour que vous aurez les uns pour les autres, on reconnaîtra que vous êtes mes disciples."
+    }
   },
   "readings": {
     "patristicReading": {
@@ -10,15 +22,11 @@
     }
   },
   "vespers": {
-    "evangelicAntiphon": "Recevez le Royaume préparé pour vous: ce que vous avez tait à l'un de ces petits, c'est à moi que vous l'avez fait."
+    "evangelicAntiphon": {
+      "common": "Recevez le Royaume préparé pour vous: ce que vous avez tait à l'un de ces petits, c'est à moi que vous l'avez fait."
+    }
   },
-  "celebrationTitle": "Saint jean de Dieu",
-  "celebrationSubtitle": "religieux",
-  "celebrationDescription": "Jean de Dieu (1495‑1550), qui était d’origine portugaise, se fixa à Grenade (Espagne) après une jeunesse aventureuse. Bouleversé à la vue du dénuement des hôpitaux, il se mit à recueillir les malades chez lui et à les soigner, mendiant leur nourriture quotidienne. Ainsi naquit l’Ordre des Frères de saint Jean de Dieu, qui perpétue encore de nos jours son action.",
-  "commons": [
-    "saints-male_religious"
-  ],
-  "liturgicalColor": "white",
-  "liturgicalGrade": 12,
-  "oration": "Toi qui as mis au cœur de saint Jean de Dieu un esprit de tendre compassion, Seigneur, nous te prions: donne-nous de servir nos frères avec charité, et de pouvoir ainsi trouver place en ton Royaume."
+  "oration": [
+    "Toi qui as mis au cœur de saint Jean de Dieu un esprit de tendre compassion, Seigneur, nous te prions: donne-nous de servir nos frères avec charité, et de pouvoir ainsi trouver place en ton Royaume."
+  ]
 }

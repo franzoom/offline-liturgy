@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 50, 5-7",
+      "biblicalReference": "Is 50, 5-7",
       "content": "Le Seigneur Dieu m’a ouvert l’oreille, et moi, je ne me suis pas révolté, je ne me suis pas dérobé. J’ai présenté mon dos à ceux qui me frappaient, et mes joues à ceux qui m’arrachaient la barbe. Je n’ai pas protégé mon visage des outrages et des crachats. Le Seigneur Dieu vient à mon secours&nbsp;: c’est pourquoi je ne suis pas atteint par les outrages, c’est pourquoi j’ai rendu mon visage dur comme pierre&nbsp;: je sais que je ne serai pas confondu."
     },
-    "evangelicAntiphon": "Vous êtes vraiment mes disciples si vous demeurez dans ma parole.",
-    "intercession": "<p>Seigneur Dieu, tu veux que l’homme devienne créature nouvelle dans le Christ&nbsp;; nous t’invoquons avec persévérance&nbsp;:</p> <p>R/ Par ton Esprit, renouvelle nos cœurs.</p> <p>Tu nous promets un ciel nouveau et une terre nouvelle&nbsp;:<br> accorde-nous la grâce de travailler à cet avènement.</p> <p>Tu nous appelles à fixer nos regards sur les réalités d’en haut&nbsp;:<br> maîtrise nos avidités, purifie notre désir.</p> <p>Tu nous révèles l’unique nécessaire&nbsp;:<br> ne permets pas que la dispersion nous aveugle.</p> <p>Tu nous as donné ton Esprit afin qu’il agisse en nous&nbsp;:<br> fais qu’il nous porte au combat pour la justice et la vérité.</p> ",
     "responsory": "<p>R/ Comme un agneau que l’on mène à l’abattoir,<br> il n’ouvre pas la bouche.<br>  * Qui donc a eu souci de son destin&nbsp;?<br> V/ Frappé à cause des péchés de son peuple, <br>il a été supprimé. * <br> V/ Broyé par la souffrance, <br>il a plu au Seigneur. * <br></p>",
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    "evangelicAntiphon": {
+      "common": "Vous êtes vraiment mes disciples si vous demeurez dans ma parole."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Dieu, tu veux que l’homme devienne créature nouvelle dans le Christ&nbsp;; nous t’invoquons avec persévérance&nbsp;:</p> <p>R/ Par ton Esprit, renouvelle nos cœurs.</p> <p>Tu nous promets un ciel nouveau et une terre nouvelle&nbsp;:<br> accorde-nous la grâce de travailler à cet avènement.</p> <p>Tu nous appelles à fixer nos regards sur les réalités d’en haut&nbsp;:<br> maîtrise nos avidités, purifie notre désir.</p> <p>Tu nous révèles l’unique nécessaire&nbsp;:<br> ne permets pas que la dispersion nous aveugle.</p> <p>Tu nous as donné ton Esprit afin qu’il agisse en nous&nbsp;:<br> fais qu’il nous porte au combat pour la justice et la vérité.</p> "
+    },
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Seigneur Jésus, enseigne-nous à prier.</p> <p>Pleine de force,<br> la supplication fervente du juste.</p> <p>Tout ce que vous demanderez en mon nom,<br> mon Père vous l’accordera.</p> <p>Demandez et vous recevrez&nbsp;;<br> parfaite alors sera votre joie.</p>"
     },
     "verse": "<p>V/ Convertissez-vous et faites pénitence,<br>faites-vous un cœur et un esprit nouveau.</p>",
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_2",
+        "antiphon": [
+          "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
+        ]
+      },
+      {
+        "psalm": "PSALM_16_1"
+      },
+      {
+        "psalm": "PSALM_16_2"
+      }
+    ],
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Ep 4, 32 - 5,2",
+      "biblicalReference": "Ep 4, 32 - 5,2",
       "content": "Soyez entre vous pleins de générosité et de ten­dresse. Pardonnez-vous les uns aux autres comme Dieu vous a pardonné dans le Christ. Oui, cherchez à imiter Dieu puisque vous êtes ses enfants bien-aimés. Vivez dans l’amour comme le Christ nous a aimés et s’est livré pour nous en offrant à Dieu le sacrifice qui pouvait lui plaire."
     },
-    "evangelicAntiphon": "Pourquoi cherchez-vous à me tuer, moi qui vous ai dit la vérité&nbsp;?",
-    "intercession": "<p>Par notre baptême, Seigneur Dieu, tu nous as fait revêtir l’homme nouveau&nbsp;: renouvelle notre regard dans la contemplation de ton visage.</p> <p>R/ En toi la source de la vie&nbsp;!</p> <p>Donne-nous des yeux pour te voir en nos frères et en nous.</p> <p>Affermis en nos cœurs la douceur et la patience.</p> <p>Que nos œuvres témoignent de toi.</p> <p>Apprends-nous à pardonner comme tu pardonnes.</p> <p>Que nous te rendions grâce pour ta miséricorde.</p> <p>Établis le monde dans la paix du Christ.</p> <p>Révèle à nos défunts ton visage de lumière.</p>",
     "responsory": "<p>R/ Il n’est pas de plus grand amour<br> que de donner sa vie pour ceux qu’on aime.<br> V/ Ma vie, nul ne la prend&nbsp;;<br> c’est moi qui la donne.&nbsp;R/ <br> V/ Faites entre vous<br> comme j’ai fait pour vous.&nbsp;R/ <br></p>",
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_2",
-        "antiphon": [
-          "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
-        ]
-      },
-      {
-        "psalm": "PSALM_16_1"
-      },
-      {
-        "psalm": "PSALM_16_2"
-      }
-    ],
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    "evangelicAntiphon": {
+      "common": "Pourquoi cherchez-vous à me tuer, moi qui vous ai dit la vérité&nbsp;?"
+    },
+    "intercession": {
+      "content": "<p>Par notre baptême, Seigneur Dieu, tu nous as fait revêtir l’homme nouveau&nbsp;: renouvelle notre regard dans la contemplation de ton visage.</p> <p>R/ En toi la source de la vie&nbsp;!</p> <p>Donne-nous des yeux pour te voir en nos frères et en nous.</p> <p>Affermis en nos cœurs la douceur et la patience.</p> <p>Que nos œuvres témoignent de toi.</p> <p>Apprends-nous à pardonner comme tu pardonnes.</p> <p>Que nous te rendions grâce pour ta miséricorde.</p> <p>Établis le monde dans la paix du Christ.</p> <p>Révèle à nos défunts ton visage de lumière.</p>"
+    },
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
   }
 }

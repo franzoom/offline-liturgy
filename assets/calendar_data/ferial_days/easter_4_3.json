@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Moi qui suis la lumière, je suis venu dans le monde pour que celui qui croit en moi ne reste pas dans les ténèbres. Alléluia.",
-    "intercession": "<p>Tournons-nous vers le Père&nbsp;: comme il a tiré son Fils des ténèbres, qu’il nous fasse aujourd’hui marcher dans la lumière&nbsp;:</p> <p>R/ Sois notre Dieu, Dieu de Jésus Christ&nbsp;!</p> <p>Dieu de lumière, pénètre nos cœurs de ta clarté <br> –&nbsp;pour qu’en toute vérité nous puissions te prier&nbsp;:</p> <p>Purifie nos intentions, fortifie nos désirs,<br> –&nbsp;rends-nous fermes dans l’assurance qui nous fait crier vers toi&nbsp;:</p> <p>Fais que nos yeux te voient dans les pauvres, <br> –&nbsp;et qu’avec eux nous t’implorions&nbsp;:</p> <p>Réjouis-nous de tes biens tout au long de ce jour, <br> –&nbsp;et, sûrs de ton amour, nous pourrons chanter&nbsp;:</p> "
+    "evangelicAntiphon": {
+      "common": "Moi qui suis la lumière, je suis venu dans le monde pour que celui qui croit en moi ne reste pas dans les ténèbres. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Tournons-nous vers le Père&nbsp;: comme il a tiré son Fils des ténèbres, qu’il nous fasse aujourd’hui marcher dans la lumière&nbsp;:</p> <p>R/ Sois notre Dieu, Dieu de Jésus Christ&nbsp;!</p> <p>Dieu de lumière, pénètre nos cœurs de ta clarté <br> –&nbsp;pour qu’en toute vérité nous puissions te prier&nbsp;:</p> <p>Purifie nos intentions, fortifie nos désirs,<br> –&nbsp;rends-nous fermes dans l’assurance qui nous fait crier vers toi&nbsp;:</p> <p>Fais que nos yeux te voient dans les pauvres, <br> –&nbsp;et qu’avec eux nous t’implorions&nbsp;:</p> <p>Réjouis-nous de tes biens tout au long de ce jour, <br> –&nbsp;et, sûrs de ton amour, nous pourrons chanter&nbsp;:</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -62,7 +66,25 @@
       "content": "<p>Parce que véritablement <i>le Verbe s’est fait chair</i>, c’est véritablement aussi que nous mangeons le Verbe incarné en communiant au banquet du Seigneur. Comment ne doit-on pas penser qu’il demeure en nous par nature&nbsp;? En effet, par sa naissance comme homme, il a assumé notre nature charnelle d’une façon désormais définitive et, dans le sacrement de sa chair donnée en communion, il a uni sa nature charnelle à sa nature éternelle. C’est ainsi que tous nous formons un seul être, parce que le Père est dans le Christ et que le Christ est en nous. ~ Que nous sommes en lui par le sacrement de la communion à sa chair et à son sang, lui-même l’affirme lorsqu’il dit&nbsp;: <i>Et ce monde désormais ne me voit plus&nbsp;; mais vous, vous me verrez vivant parce que je vis, et vous vivrez aussi&nbsp;; parce que je suis dans le Père, que vous êtes en moi, et moi en vous</i>. S’il voulait parler seulement d’une unité de volonté, pourquoi a-t-il exposé une progression et un ordre dans la consommation de cette unité&nbsp;? N’est-ce pas parce lui-même étant dans le Père par sa nature divine, nous au contraire étant en lui en vertu de sa naissance corporelle, on doit croire que, réciproquement, il est en nous par le mystère sacramentel&nbsp;? Ceci enseigne la parfaite unité réalisée par le médiateur&nbsp;: tandis que nous demeurons en lui, lui-même demeure en nous. Et ainsi nous progressons dans notre unité avec le Père, puisque le Fils demeure en lui par nature selon sa naissance éternelle et que nous-mêmes aussi sommes dans le Fils par nature, tandis que lui par nature demeure en nous. Que cette unité soit en nous produite par sa nature, lui-même l’affirme ainsi&nbsp;: <i>Celui qui mange ma chair et boit mon sang demeure en moi, et moi en lui</i>. Car ce n’est pas tout homme qui sera en lui, mais celui en qui il sera lui-même&nbsp;: c’est seulement celui qui mangera sa chair qui aura en lui la chair assumée par le Fils. Plus haut, il avait déjà enseigné le sacrement de cette parfaite unité, en disant&nbsp;: <i>De même que le Père, qui est la vie, m’a envoyé, et que moi je vis par le Père, de même aussi celui qui mangera ma chair vivra par moi</i>. Donc, il vit par le Père&nbsp;; et de la manière dont il vit par le Père, nous-mêmes vivons par sa chair. Tout ce parallèle est à la base de notre intelligence du mystère&nbsp;; il nous fait comprendre, par le modèle proposé, ce qui se passe. Donc, ce qui nous donne la vie, c’est que, dans les êtres charnels que nous sommes, le Christ demeure en nous par sa chair&nbsp;; et il nous fera vivre en vertu du principe qui le fait vivre par le Père.</p>",
       "responsory": "<p>R/ Allons dans la joie puiser aux sources du salut&nbsp;!</p> <p> Celui qui boira de l’eau que je lui donnerai<br> n’aura plus jamais soif.</p> <p> L’eau que je vous donnerai deviendra en vous<br> source jaillissant en vie éternelle.</p>"
     },
-    "oration": "Tu as révélé, Seigneur, que tu serais la vie de tes fidèles, la gloire des humbles et le bonheur des justes&nbsp;; réponds à ceux qui te supplient&nbsp;: ils ont soif des biens que tu promets, ouvre-leur tes réserves de grâce."
+    "oration": [
+      "Tu as révélé, Seigneur, que tu serais la vie de tes fidèles, la gloire des humbles et le bonheur des justes&nbsp;; réponds à ceux qui te supplient&nbsp;: ils ont soif des biens que tu promets, ouvre-leur tes réserves de grâce."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_93_1"
+      },
+      {
+        "psalm": "PSALM_93_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -82,23 +104,11 @@
         "psalm": "NT_6"
       }
     ],
-    "evangelicAntiphon": "Ce n’est pas pour juger le monde que Dieu a envoyé son Fils, mais pour le sauver, alléluia.",
-    "intercession": "<p>Supplions le Tout-Puissant qui nous a rendu la vie en Jésus ressuscité&nbsp;:</p> <p>R/ Comble-nous de ta miséricorde.</p> <p>Dieu de nos pères, tu as fait passer ton peuple par les eaux du baptême&nbsp;:<br> –&nbsp;convertis nos cœurs à la vie nouvelle.</p> <p>Tu nous as ramenés de la dispersion vers le Pasteur de nos âmes&nbsp;:<br> –&nbsp;donne-nous d’être fidèles à sa voix.</p> <p>Tu as voulu que la Parole du salut vienne du peuple juif&nbsp;:<br> –&nbsp;révèle aux enfants d’Israël que la promesse faite à leurs pères est accomplie.</p> <p>Tu as réconcilié tous les êtres dans le Christ&nbsp;:<br> –&nbsp;ne laisse pas les amis séparés, les époux désunis.</p> <p>Tu as fait voir à Étienne la gloire de ton Fils&nbsp;:<br> –&nbsp;ouvre ton Paradis à ceux qui sont morts pour lui.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_19",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_93_1"
-      },
-      {
-        "psalm": "PSALM_93_2"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Ce n’est pas pour juger le monde que Dieu a envoyé son Fils, mais pour le sauver, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Tout-Puissant qui nous a rendu la vie en Jésus ressuscité&nbsp;:</p> <p>R/ Comble-nous de ta miséricorde.</p> <p>Dieu de nos pères, tu as fait passer ton peuple par les eaux du baptême&nbsp;:<br> –&nbsp;convertis nos cœurs à la vie nouvelle.</p> <p>Tu nous as ramenés de la dispersion vers le Pasteur de nos âmes&nbsp;:<br> –&nbsp;donne-nous d’être fidèles à sa voix.</p> <p>Tu as voulu que la Parole du salut vienne du peuple juif&nbsp;:<br> –&nbsp;révèle aux enfants d’Israël que la promesse faite à leurs pères est accomplie.</p> <p>Tu as réconcilié tous les êtres dans le Christ&nbsp;:<br> –&nbsp;ne laisse pas les amis séparés, les époux désunis.</p> <p>Tu as fait voir à Étienne la gloire de ton Fils&nbsp;:<br> –&nbsp;ouvre ton Paradis à ceux qui sont morts pour lui.</p> "
+    }
   }
 }

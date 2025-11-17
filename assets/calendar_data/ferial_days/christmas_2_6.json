@@ -26,12 +26,16 @@
       }
     ],
     "reading": {
-      "ref": "Sg 7, 26-27",
+      "biblicalReference": "Sg 7, 26-27",
       "content": "La Sagesse est le reflet de la lumière éternelle, le miroir sans tache de l’activité de Dieu, l’image de sa bonté. Comme elle est unique, elle peut tout&nbsp;; et sans sortir d’elle-même, elle renouvelle l’univers. De génération en génération, elle se transmet à des âmes saintes, pour en faire des prophètes et des amis de Dieu."
     },
-    "evangelicAntiphon": "À Cana de Galilée, fut accompli le premier des signes de Jésus&nbsp;: là il manifesta sa gloire.",
-    "intercession": "<p>R/ Fils du Dieu vivant, exauce-nous&nbsp;!</p> <p>Seigneur Jésus, qui nous a fait connaître l’amour du Père&nbsp;:<br> —&nbsp;donne-nous de nous aimer les uns les autres afin que le monde croie.</p> <p>Tu t’es montré le Seigneur de la vie&nbsp;:<br> —&nbsp;fais-nous vivre de ta plénitude.</p> <p>Quand la mort accomplit son œuvre en nous,&nbsp;<br> —&nbsp;que ta résurrection soit aussi manifestée.</p> <p>Tu t’es révélé Sagesse de Dieu&nbsp;:<br> —&nbsp;fais-nous voir toute chose à la lumière de ta vérité.</p> ",
-    "responsory": "<p>R/ Lève-toi, resplendis, car elle est venue, ta lumière&nbsp;!<br>  * La gloire du Seigneur s’est levée sur toi.<br> V/ Regarde alentour&nbsp;: tous les peuples viennent vers toi. * <br> V/ Ils s’avancent à la clarté de ton aurore. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Lève-toi, resplendis, car elle est venue, ta lumière&nbsp;!<br>  * La gloire du Seigneur s’est levée sur toi.<br> V/ Regarde alentour&nbsp;: tous les peuples viennent vers toi. * <br> V/ Ils s’avancent à la clarté de ton aurore. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "À Cana de Galilée, fut accompli le premier des signes de Jésus&nbsp;: là il manifesta sa gloire."
+    },
+    "intercession": {
+      "content": "<p>R/ Fils du Dieu vivant, exauce-nous&nbsp;!</p> <p>Seigneur Jésus, qui nous a fait connaître l’amour du Père&nbsp;:<br> —&nbsp;donne-nous de nous aimer les uns les autres afin que le monde croie.</p> <p>Tu t’es montré le Seigneur de la vie&nbsp;:<br> —&nbsp;fais-nous vivre de ta plénitude.</p> <p>Quand la mort accomplit son œuvre en nous,&nbsp;<br> —&nbsp;que ta résurrection soit aussi manifestée.</p> <p>Tu t’es révélé Sagesse de Dieu&nbsp;:<br> —&nbsp;fais-nous voir toute chose à la lumière de ta vérité.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -67,21 +71,9 @@
       "responsory": "<p>R/ Ton Dieu sera ta beauté, ta lumière éternelle&nbsp;!</p> <p>Jérusalem, tes portes seront de cristal,<br> et tes murs, de rubis,<br> et l’on chantera sur tes places&nbsp;:<br> Alléluia, alléluia&nbsp;!</p> <p>Ta splendeur illuminera<br> toutes les contrées de la terre&nbsp;;<br> les peuples viendront de loin<br> adorer le Seigneur dans tes murs.</p>"
     },
     "verse": "<p>V/ Le Verbe est la vraie lumière,<br> qui éclaire tous les hommes.</p>",
-    "oration": "Dieu éternel et tout-puissant, tu as voulu que, dans ton Fils unique, nous devenions pour toi de nouvelles créatures&nbsp;; que ta grâce nous modèle à l’image du Christ en qui notre nature est unie à la tienne. Lui qui règne."
-  },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_14"
-      },
-      {
-        "psalm": "PSALM_15"
-      },
-      {
-        "psalm": "NT_5"
-      }
-    ],
-    "oration": "Tu as voulu, Seigneur, illuminer ton Église par l’enseignement et par les exemples de saint Basile et de saint Grégoire de Nazianze&nbsp;; accorde-nous de chercher humblement à connaître ta vérité pour que ta charité imprègne notre vie."
+    "oration": [
+      "Dieu éternel et tout-puissant, tu as voulu que, dans ton Fils unique, nous devenions pour toi de nouvelles créatures&nbsp;; que ta grâce nous modèle à l’image du Christ en qui notre nature est unie à la tienne. Lui qui règne."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -97,6 +89,22 @@
       {
         "psalm": "PSALM_63"
       }
+    ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_14"
+      },
+      {
+        "psalm": "PSALM_15"
+      },
+      {
+        "psalm": "NT_5"
+      }
+    ],
+    "oration": [
+      "Tu as voulu, Seigneur, illuminer ton Église par l’enseignement et par les exemples de saint Basile et de saint Grégoire de Nazianze&nbsp;; accorde-nous de chercher humblement à connaître ta vérité pour que ta charité imprègne notre vie."
     ]
   }
 }

@@ -48,6 +48,22 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_3",
+        "antiphon": [
+          "Dieu enseigne aux humbles son chemin, il leur fait connaître son alliance."
+        ]
+      },
+      {
+        "psalm": "PSALM_24_1"
+      },
+      {
+        "psalm": "PSALM_24_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -66,22 +82,8 @@
         "psalm": "NT_10"
       }
     ],
-    "oration": "<p>Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils&nbsp;; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_3",
-        "antiphon": [
-          "Dieu enseigne aux humbles son chemin, il leur fait connaître son alliance."
-        ]
-      },
-      {
-        "psalm": "PSALM_24_1"
-      },
-      {
-        "psalm": "PSALM_24_2"
-      }
+    "oration": [
+      "<p>Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils&nbsp;; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne.</p>"
     ]
   }
 }

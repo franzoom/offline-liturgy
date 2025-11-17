@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 53, 11b-12",
+      "biblicalReference": "Is 53, 11b-12",
       "content": "Parce qu’il a connu la souffrance, le juste, mon serviteur, justifiera les multitudes, il se chargera de leurs péchés. C’est pourquoi je lui donnerai la multitude en partage, les puissants seront la part qu’il recevra, car il s’est dépouillé lui-même jusqu’à la mort, il a été compté avec les pécheurs, alors qu’il portait le péché des multitudes et qu’il intercédait pour les pécheurs."
     },
-    "evangelicAntiphon": "Voici le premier des commandements&nbsp;: Tu aimeras de tout ton cœur le Seigneur ton Dieu.",
-    "intercession": "<p>Levons les yeux vers le Fils de Dieu, mort sur la croix, vivant pour les siècles&nbsp;:</p> <p>R/ Par ta souffrance et par ta croix, sauve-nous.</p> <p>Tu as lutté contre Satan.</p> <p>Tu as connu la soif et la faim.</p> <p>Tu as enduré la fatigue du chemin.</p> <p>Tu n’avais pas d’endroit où reposer ta tête.</p> <p>Tu as été rejeté par ton peuple.</p> <p>Tu as été abandonné par les tiens.</p> <p>Tu as fait la volonté du Père.</p> ",
     "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    "evangelicAntiphon": {
+      "common": "Voici le premier des commandements&nbsp;: Tu aimeras de tout ton cœur le Seigneur ton Dieu."
+    },
+    "intercession": {
+      "content": "<p>Levons les yeux vers le Fils de Dieu, mort sur la croix, vivant pour les siècles&nbsp;:</p> <p>R/ Par ta souffrance et par ta croix, sauve-nous.</p> <p>Tu as lutté contre Satan.</p> <p>Tu as connu la soif et la faim.</p> <p>Tu as enduré la fatigue du chemin.</p> <p>Tu n’avais pas d’endroit où reposer ta tête.</p> <p>Tu as été rejeté par ton peuple.</p> <p>Tu as été abandonné par les tiens.</p> <p>Tu as fait la volonté du Père.</p> "
+    },
+    "oration": [
+      "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -69,7 +75,28 @@
       "responsory": "<p>R/ Mon cœur et ma chair sont un cri<br> vers le Dieu vivant&nbsp;!</p> <p>Au prix du sang qu’il a versé,<br> Jésus nous conduit vers le Père.</p> <p>Son sang nous purifie des œuvres de mort&nbsp;:<br> nous servirons le Dieu vivant.</p>"
     },
     "verse": "<p>V/ Revenons au Seigneur notre Dieu,<br>car il est tendre et miséricordieux.</p>",
-    "oration": "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    "oration": [
+      "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_21_1",
+        "antiphon": [
+          "Pour avoir connu la souffrance, le juste justifiera les multitudes."
+        ]
+      },
+      {
+        "psalm": "PSALM_21_2"
+      },
+      {
+        "psalm": "PSALM_21_3"
+      }
+    ],
+    "oration": [
+      "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 5, 16. 19-20",
+      "biblicalReference": "Jc 5, 16. 19-20",
       "content": "Reconnaissez vos péchés les uns devant les autres, et priez les uns pour les autres afin d’être guéris, car la supplication du juste agit avec beaucoup de puissance. Mes frères, si l’un de vous s’égare loin de la vérité et si quelqu’un l’amène à se convertir, alors, sachez-le&nbsp;: celui qui ramène un pécheur du chemin où il s’égarait se sauvera lui-même et couvrira une multitude de péchés."
     },
-    "evangelicAntiphon": "Aimer son prochain comme soi-même vaut mieux que tous les sacrifices.",
-    "intercession": "<p>Prions le Christ, notre Sauveur, qui nous délivre par sa mort et sa résurrection&nbsp;:</p> <p>R/ Seigneur Jésus, prends pitié de nous.</p> <p>Tu es monté à Jérusalem pour souffrir la passion et entrer dans ta gloire&nbsp;:<br> conduis ton Église jusqu’à la Pâque éternelle.</p> <p>Sur la croix, tu as exaucé le malfaiteur repenti&nbsp;:<nr> ouvre ton paradis aux pécheurs que nous sommes.</p> <p>Ton cœur a été percé par la lance&nbsp;:<br> purifie-nous dans l’eau et le sang.</p> <p>Tu as changé la croix en arbre de vie&nbsp;:<br> donne-nous de manger le fruit du salut.</p> <p>Tu es descendu au séjour des morts avant de monter vers ton Père&nbsp;:<br> arrache à la servitude ceux qui attendent leur libération.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  *  Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_21_1",
-        "antiphon": [
-          "Pour avoir connu la souffrance, le juste justifiera les multitudes."
-        ]
-      },
-      {
-        "psalm": "PSALM_21_2"
-      },
-      {
-        "psalm": "PSALM_21_3"
-      }
-    ],
-    "oration": "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    "evangelicAntiphon": {
+      "common": "Aimer son prochain comme soi-même vaut mieux que tous les sacrifices."
+    },
+    "intercession": {
+      "content": "<p>Prions le Christ, notre Sauveur, qui nous délivre par sa mort et sa résurrection&nbsp;:</p> <p>R/ Seigneur Jésus, prends pitié de nous.</p> <p>Tu es monté à Jérusalem pour souffrir la passion et entrer dans ta gloire&nbsp;:<br> conduis ton Église jusqu’à la Pâque éternelle.</p> <p>Sur la croix, tu as exaucé le malfaiteur repenti&nbsp;:<nr> ouvre ton paradis aux pécheurs que nous sommes.</p> <p>Ton cœur a été percé par la lance&nbsp;:<br> purifie-nous dans l’eau et le sang.</p> <p>Tu as changé la croix en arbre de vie&nbsp;:<br> donne-nous de manger le fruit du salut.</p> <p>Tu es descendu au séjour des morts avant de monter vers ton Père&nbsp;:<br> arrache à la servitude ceux qui attendent leur libération.</p> "
+    },
+    "oration": [
+      "Répands ta grâce en nos cœurs, Dieu de bonté&nbsp;: que nous sachions refréner nos désirs terrestres pour mieux entendre ta parole."
+    ]
   }
 }

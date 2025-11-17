@@ -1,7 +1,10 @@
 {
   "firstVespers": {
-    "evangelicAntiphon": "Glorifiez-vous de son nom très saint : joie pour les cœurs qui cherchent Dieu."
+    "evangelicAntiphon": {
+      "common": "Glorifiez-vous de son nom très saint : joie pour les cœurs qui cherchent Dieu."
+    }
   },
-  "commonTitle": "Commun de plusieurs Saintes",
-  "oration": "Nous t’en prions, Dieu tout-puissant : que l’intercession des saintes N. et N. nous obtienne la grâce d’imiter ce que nous admirons en elles, puisque la sainteté de leur vie peut servir d’exemple à chacun de nous."
+  "oration": [
+    "Nous t’en prions, Dieu tout-puissant : que l’intercession des saintes N. et N. nous obtienne la grâce d’imiter ce que nous admirons en elles, puisque la sainteté de leur vie peut servir d’exemple à chacun de nous."
+  ]
 }

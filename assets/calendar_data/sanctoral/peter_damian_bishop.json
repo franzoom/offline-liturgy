@@ -1,4 +1,15 @@
 {
+  "celebration": {
+    "title": "Saint Pierre Damien",
+    "subtitle": "évêque et docteur de l’Église",
+    "description": "Pierre Damien, né à Ravenne (1007), mena la vie érémitique à Font Avellane avant de devenir le collaborateur des papes pour la réforme de l’Église. Fait cardinal évêque d’Ostie (1057), chargé de multiples légations en Italie, en France et en Allemagne, il mena une lutte énergique pour rendre au clergé sa dignité et à l’Église la liberté († 1072).",
+    "commons": [
+      "pastors_bishop",
+      "doctors"
+    ],
+    "grade": 12,
+    "color": "white"
+  },
   "readings": {
     "patristicReading": {
       "title": "Lettre de saint Pierre Damien à un malade",
@@ -7,14 +18,7 @@
       "responsory": "<p>R/ Sanctifions le Christ, alléluia,<br>il est Seigneur, alléluia.</p><p>Heureux les doux, heureux les artisans de paix:<br>ils seront appelés fils de Dieu.</p><p>Ne rendez pas l’injure pour l’injure :<br>bénissez votre ennemi.</p><p>Si vous devez souffrir pour la justice,<br> réjouissez-vous et bondissez de joie.</p>"
     }
   },
-  "celebrationTitle": "Saint Pierre Damien",
-  "celebrationSubtitle": "évêque et docteur de l’Église",
-  "celebrationDescription": "Pierre Damien, né à Ravenne (1007), mena la vie érémitique à Font Avellane avant de devenir le collaborateur des papes pour la réforme de l’Église. Fait cardinal évêque d’Ostie (1057), chargé de multiples légations en Italie, en France et en Allemagne, il mena une lutte énergique pour rendre au clergé sa dignité et à l’Église la liberté († 1072).",
-  "liturgicalGrade": 12,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors_bishop",
-    "doctors"
-  ],
-  "oration": "Accorde-nous, Dieu tout-puissant, de suivre les exemples et les exhortations du saint évêque Pierre Damien, afin que, sans rien préférer au Christ, et toujours "
+  "oration": [
+    "Accorde-nous, Dieu tout-puissant, de suivre les exemples et les exhortations du saint évêque Pierre Damien, afin que, sans rien préférer au Christ, et toujours "
+  ]
 }

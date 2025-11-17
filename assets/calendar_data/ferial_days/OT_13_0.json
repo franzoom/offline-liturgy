@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Qui vous reçoit, me reçoit&nbsp;; qui me reçoit, reçoit celui qui m’a envoyé.",
+      "yearB": "Jésus saisit la main de l’enfant et lui dit&nbsp;: Lève-toi&nbsp;!",
+      "yearC": "Qui met la main à la charrue et regarde en arrière n’est pas digne du Royaume de Dieu."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Qui vous reçoit, me reçoit&nbsp;; qui me reçoit, reçoit celui qui m’a envoyé.",
+      "yearB": "Jésus saisit la main de l’enfant et lui dit&nbsp;: Lève-toi&nbsp;!",
+      "yearC": "Qui met la main à la charrue et regarde en arrière n’est pas digne du Royaume de Dieu."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière&nbsp;; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Qui vous reçoit, me reçoit&nbsp;; qui me reçoit, reçoit celui qui m’a envoyé.",
+      "yearB": "Jésus saisit la main de l’enfant et lui dit&nbsp;: Lève-toi&nbsp;!",
+      "yearC": "Qui met la main à la charrue et regarde en arrière n’est pas digne du Royaume de Dieu."
+    }
   }
 }

@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Allez, vous aussi, à ma vigne&nbsp;: je vous donnerai ce qui est juste.",
+      "yearB": "Si quelqu’un veut être le premier, qu’il soit le serviteur de tous.",
+      "yearC": "Vous ne pouvez servir deux maîtres&nbsp;: Dieu et l’argent."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Allez, vous aussi, à ma vigne&nbsp;: je vous donnerai ce qui est juste.",
+      "yearB": "Si quelqu’un veut être le premier, qu’il soit le serviteur de tous.",
+      "yearC": "Vous ne pouvez servir deux maîtres&nbsp;: Dieu et l’argent."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Seigneur, tu as voulu que toute la loi consiste à t’aimer et à aimer son prochain&nbsp;: donne-nous de garder tes commandements, et de parvenir ainsi à la vie éternelle."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Allez, vous aussi, à ma vigne&nbsp;: je vous donnerai ce qui est juste.",
+      "yearB": "Si quelqu’un veut être le premier, qu’il soit le serviteur de tous.",
+      "yearC": "Vous ne pouvez servir deux maîtres&nbsp;: Dieu et l’argent."
+    }
   }
 }

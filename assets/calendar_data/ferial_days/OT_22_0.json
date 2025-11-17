@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?",
+      "yearB": "Tout ce qui rend l’homme impur vient du cœur de l’homme.",
+      "yearC": "Prends la dernière place, et le maître du festin te dira&nbsp;: Mon ami, monte plus haut."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?",
+      "yearB": "Tout ce qui rend l’homme impur vient du cœur de l’homme.",
+      "yearC": "Prends la dernière place, et le maître du festin te dira&nbsp;: Mon ami, monte plus haut."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu puissant de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom&nbsp;; resserre nos liens avec toi, pour développer ce qui est bon en nous&nbsp;; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme&nbsp;?",
+      "yearB": "Tout ce qui rend l’homme impur vient du cœur de l’homme.",
+      "yearC": "Prends la dernière place, et le maître du festin te dira&nbsp;: Mon ami, monte plus haut."
+    }
   }
 }

@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Vers la fin de la nuit, Jésus s’avança en marchant sur la mer&nbsp;: C’est moi, ne craignez pas&nbsp;!",
+      "yearB": "Nul ne vient à moi, si le Père ne l’attire.",
+      "yearC": "Là où est ton trésor, là aussi sera ton cœur."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Vers la fin de la nuit, Jésus s’avança en marchant sur la mer&nbsp;: C’est moi, ne craignez pas&nbsp;!",
+      "yearB": "Nul ne vient à moi, si le Père ne l’attire.",
+      "yearC": "Là où est ton trésor, là aussi sera ton cœur."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Vers la fin de la nuit, Jésus s’avança en marchant sur la mer&nbsp;: C’est moi, ne craignez pas&nbsp;!",
+      "yearB": "Nul ne vient à moi, si le Père ne l’attire.",
+      "yearC": "Là où est ton trésor, là aussi sera ton cœur."
+    }
   }
 }

@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Rendez à César ce qui est à César et à Dieu ce qui est à Dieu.",
+      "yearB": "Le Fils de l’homme n’est pas venu pour être servi mais pour servir.",
+      "yearC": "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?"
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Rendez à César ce qui est à César et à Dieu ce qui est à Dieu.",
+      "yearB": "Le Fils de l’homme n’est pas venu pour être servi mais pour servir.",
+      "yearC": "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Rendez à César ce qui est à César et à Dieu ce qui est à Dieu.",
+      "yearB": "Le Fils de l’homme n’est pas venu pour être servi mais pour servir.",
+      "yearC": "Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre&nbsp;?"
+    }
   }
 }

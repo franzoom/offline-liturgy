@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Vous êtes le sel de la terre&nbsp;; si le sel n’a plus de saveur, à quoi servira-t-il&nbsp;?",
+      "yearB": "Bien avant l’aube, Jésus se leva&nbsp;; il partit dans un endroit désert pour y prier.",
+      "yearC": "Maître, nous avons peiné toute la nuit, mais sur ton ordre, je jetterai le filet."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Vous êtes le sel de la terre&nbsp;; si le sel n’a plus de saveur, à quoi servira-t-il&nbsp;?",
+      "yearB": "Bien avant l’aube, Jésus se leva&nbsp;; il partit dans un endroit désert pour y prier.",
+      "yearC": "Maître, nous avons peiné toute la nuit, mais sur ton ordre, je jetterai le filet."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dans ton amour inlassable, Seigneur, veille sur ta famille&nbsp;; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Vous êtes le sel de la terre&nbsp;; si le sel n’a plus de saveur, à quoi servira-t-il&nbsp;?",
+      "yearB": "Bien avant l’aube, Jésus se leva&nbsp;; il partit dans un endroit désert pour y prier.",
+      "yearC": "Maître, nous avons peiné toute la nuit, mais sur ton ordre, je jetterai le filet."
+    }
   }
 }

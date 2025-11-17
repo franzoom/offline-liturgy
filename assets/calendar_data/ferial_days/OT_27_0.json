@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Le Maître confiera sa vigne à d’autres vignerons pour qu’elle donne son fruit au temps voulu.",
+      "yearB": "Laissez les enfants venir à moi&nbsp;: le Royaume est à ceux qui leur ressemblent.",
+      "yearC": "Quand tu auras fait ce que Dieu a commandé, tu diras&nbsp;: Je suis un serviteur inutile."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Le Maître confiera sa vigne à d’autres vignerons pour qu’elle donne son fruit au temps voulu.",
+      "yearB": "Laissez les enfants venir à moi&nbsp;: le Royaume est à ceux qui leur ressemblent.",
+      "yearC": "Quand tu auras fait ce que Dieu a commandé, tu diras&nbsp;: Je suis un serviteur inutile."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs&nbsp;; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Le Maître confiera sa vigne à d’autres vignerons pour qu’elle donne son fruit au temps voulu.",
+      "yearB": "Laissez les enfants venir à moi&nbsp;: le Royaume est à ceux qui leur ressemblent.",
+      "yearC": "Quand tu auras fait ce que Dieu a commandé, tu diras&nbsp;: Je suis un serviteur inutile."
+    }
   }
 }

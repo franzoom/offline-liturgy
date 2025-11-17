@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Tu ne veux pas de sacrifices, mais tu veux l’amour&nbsp;: tu ne viens pas appeler les justes, mais les pécheurs.",
+      "yearB": "Celui qui fait la volonté de Dieu, celui-là est mon frère, ma sœur, et ma mère.",
+      "yearC": "Un grand prophète s’est levé parmi nous&nbsp;: Dieu a visité son peuple."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Tu ne veux pas de sacrifices, mais tu veux l’amour&nbsp;: tu ne viens pas appeler les justes, mais les pécheurs.",
+      "yearB": "Celui qui fait la volonté de Dieu, celui-là est mon frère, ma sœur, et ma mère.",
+      "yearC": "Un grand prophète s’est levé parmi nous&nbsp;: Dieu a visité son peuple."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Seigneur, source de tout bien, réponds sans te lasser à notre appel&nbsp;: inspire-nous ce qui est juste, aide-nous à l’accomplir."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Tu ne veux pas de sacrifices, mais tu veux l’amour&nbsp;: tu ne viens pas appeler les justes, mais les pécheurs.",
+      "yearB": "Celui qui fait la volonté de Dieu, celui-là est mon frère, ma sœur, et ma mère.",
+      "yearC": "Un grand prophète s’est levé parmi nous&nbsp;: Dieu a visité son peuple."
+    }
   }
 }

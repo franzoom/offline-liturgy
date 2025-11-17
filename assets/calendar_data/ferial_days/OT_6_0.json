@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Heureux qui écoute la Parole et qui la garde.",
+      "yearB": "Le lépreux, à genoux, suppliait Jésus&nbsp;: Si tu le veux, tu peux me guérir.",
+      "yearC": "Si l’on vous persécute à cause de moi, réjouissez-vous, votre récompense sera grande dans les cieux."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Heureux qui écoute la Parole et qui la garde.",
+      "yearB": "Le lépreux, à genoux, suppliait Jésus&nbsp;: Si tu le veux, tu peux me guérir.",
+      "yearC": "Si l’on vous persécute à cause de moi, réjouissez-vous, votre récompense sera grande dans les cieux."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce&nbsp;; alors tu pourras venir en nous pour y faire ta demeure."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Heureux qui écoute la Parole et qui la garde.",
+      "yearB": "Le lépreux, à genoux, suppliait Jésus&nbsp;: Si tu le veux, tu peux me guérir.",
+      "yearC": "Si l’on vous persécute à cause de moi, réjouissez-vous, votre récompense sera grande dans les cieux."
+    }
   }
 }

@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Dieu a visité la terre&nbsp;: le semeur est sorti pour semer la Parole.",
+      "yearB": "N’emportez rien pour la route&nbsp;; chassez les démons; guérissez les malades.",
+      "yearC": "Tu aimeras ton Dieu de tout ton cœur&nbsp;; tu aimeras ton frère comme toi-même."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Dieu a visité la terre&nbsp;: le semeur est sorti pour semer la Parole.",
+      "yearB": "N’emportez rien pour la route&nbsp;; chassez les démons; guérissez les malades.",
+      "yearC": "Tu aimeras ton Dieu de tout ton cœur&nbsp;; tu aimeras ton frère comme toi-même."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu qui montres aux égarés la lumière de ta vérité pour qu’ils puissent reprendre le bon chemin&nbsp;; donne à tous ceux qui se déclarent chrétiens de rejeter ce qui est indigne de ce nom, et de rechercher ce qui lui fait honneur."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Dieu a visité la terre&nbsp;: le semeur est sorti pour semer la Parole.",
+      "yearB": "N’emportez rien pour la route&nbsp;; chassez les démons; guérissez les malades.",
+      "yearC": "Tu aimeras ton Dieu de tout ton cœur&nbsp;; tu aimeras ton frère comme toi-même."
+    }
   }
 }

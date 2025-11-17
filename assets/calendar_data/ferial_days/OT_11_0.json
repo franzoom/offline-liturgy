@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Allez sur les routes du monde&nbsp;: annoncer le Royaume de Dieu.",
+      "yearB": "Nuit et jour, germe et grandit la semence du Royaume.",
+      "yearC": "Tes péchés sont pardonnés&nbsp;; ta foi t’a sauvé&nbsp;: va en paix."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Allez sur les routes du monde&nbsp;: annoncer le Royaume de Dieu.",
+      "yearB": "Nuit et jour, germe et grandit la semence du Royaume.",
+      "yearC": "Tes péchés sont pardonnés&nbsp;; ta foi t’a sauvé&nbsp;: va en paix."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels&nbsp;: puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce&nbsp;; ainsi nous pourrons, en observant tes commandements, vouloir et agir de manière à répondre à ton amour."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Allez sur les routes du monde&nbsp;: annoncer le Royaume de Dieu.",
+      "yearB": "Nuit et jour, germe et grandit la semence du Royaume.",
+      "yearC": "Tes péchés sont pardonnés&nbsp;; ta foi t’a sauvé&nbsp;: va en paix."
+    }
   }
 }

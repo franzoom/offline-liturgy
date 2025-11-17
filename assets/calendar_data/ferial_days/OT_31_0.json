@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Vous n’avez qu’un seul Père, celui qui est aux cieux&nbsp;; vous n’avez qu’un seul Maître, le Christ et Seigneur.",
+      "yearB": "Tu aimeras ton Dieu de tout ton cœur&nbsp;; tu aimeras ton frère comme toi-même.",
+      "yearC": "Le Fils de l’homme est venu chercher et sauver ce qui était perdu."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Vous n’avez qu’un seul Père, celui qui est aux cieux&nbsp;; vous n’avez qu’un seul Maître, le Christ et Seigneur.",
+      "yearB": "Tu aimeras ton Dieu de tout ton cœur&nbsp;; tu aimeras ton frère comme toi-même.",
+      "yearC": "Le Fils de l’homme est venu chercher et sauver ce qui était perdu."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir&nbsp;; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Vous n’avez qu’un seul Père, celui qui est aux cieux&nbsp;; vous n’avez qu’un seul Maître, le Christ et Seigneur.",
+      "yearB": "Tu aimeras ton Dieu de tout ton cœur&nbsp;; tu aimeras ton frère comme toi-même.",
+      "yearC": "Le Fils de l’homme est venu chercher et sauver ce qui était perdu."
+    }
   }
 }

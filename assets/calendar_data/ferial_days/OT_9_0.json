@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
+      "yearB": "Le sabbat est au service de l’hommme et le Fils de l’homme est maître du sabbat.",
+      "yearC": "Seigneur, je ne suis pas digne que tu entres sous mon toit, mais sur un mot de ta bouche, mon serviteur sera guéri."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
+      "yearB": "Le sabbat est au service de l’hommme et le Fils de l’homme est maître du sabbat.",
+      "yearC": "Seigneur, je ne suis pas digne que tu entres sous mon toit, mais sur un mot de ta bouche, mon serviteur sera guéri."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins&nbsp;: tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Qui fait la volonté de mon Père entrera dans le Royaume des cieux.",
+      "yearB": "Le sabbat est au service de l’hommme et le Fils de l’homme est maître du sabbat.",
+      "yearC": "Seigneur, je ne suis pas digne que tu entres sous mon toit, mais sur un mot de ta bouche, mon serviteur sera guéri."
+    }
   }
 }

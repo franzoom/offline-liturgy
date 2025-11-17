@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Qui me reconnaîtra devant les hommes, je le reconnaîtrai devant mon Père",
+      "yearB": "Saisis d’une grande crainte, les disciples disaient&nbsp;: Qui donc est cet homme&nbsp;? Même le vent et la mer lui obéissent&nbsp;!",
+      "yearC": "Celui qui veut marcher à ma suite, qu’il se renonce lui-même, qu’il prenne sa croix et qu’il me suive."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Qui me reconnaîtra devant les hommes, je le reconnaîtrai devant mon Père",
+      "yearB": "Saisis d’une grande crainte, les disciples disaient&nbsp;: Qui donc est cet homme&nbsp;? Même le vent et la mer lui obéissent&nbsp;!",
+      "yearC": "Celui qui veut marcher à ma suite, qu’il se renonce lui-même, qu’il prenne sa croix et qu’il me suive."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Qui me reconnaîtra devant les hommes, je le reconnaîtrai devant mon Père",
+      "yearB": "Saisis d’une grande crainte, les disciples disaient&nbsp;: Qui donc est cet homme&nbsp;? Même le vent et la mer lui obéissent&nbsp;!",
+      "yearC": "Celui qui veut marcher à ma suite, qu’il se renonce lui-même, qu’il prenne sa croix et qu’il me suive."
+    }
   }
 }

@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Autant de fois qu’il t’aura offensé, tu pardonneras à ton frère.",
+      "yearB": "Qui perd sa vie à cause du Seigneur et de l’Évangile la sauvera.",
+      "yearC": "Grande est la joie des anges de Dieu pour un seul pécheur qui retourne vers lui."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Autant de fois qu’il t’aura offensé, tu pardonneras à ton frère.",
+      "yearB": "Qui perd sa vie à cause du Seigneur et de l’Évangile la sauvera.",
+      "yearC": "Grande est la joie des anges de Dieu pour un seul pécheur qui retourne vers lui."
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Autant de fois qu’il t’aura offensé, tu pardonneras à ton frère.",
+      "yearB": "Qui perd sa vie à cause du Seigneur et de l’Évangile la sauvera.",
+      "yearC": "Grande est la joie des anges de Dieu pour un seul pécheur qui retourne vers lui."
+    }
   }
 }

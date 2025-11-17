@@ -1,8 +1,22 @@
 {
+  "firstVespers": {
+    "evangelicAntiphon": {
+      "yearA": "Prenant les pains, Jésus rendit grâce, les rompit et les donna. Et tous mangèrent à leur faim.",
+      "yearB": "Ne cherchez pas la nourriture qui périt, mais celle qui fait vivre pour l’éternité.",
+      "yearC": "Malheur à qui amasse pour lui-même&nbsp;! Heureux qui est riche en vue de Dieu&nbsp;!"
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Peuple choisi par Dieu, viens adorer ton chef et ton pasteur."
     ]
+  },
+  "morning": {
+    "evangelicAntiphon": {
+      "yearA": "Prenant les pains, Jésus rendit grâce, les rompit et les donna. Et tous mangèrent à leur faim.",
+      "yearB": "Ne cherchez pas la nourriture qui périt, mais celle qui fait vivre pour l’éternité.",
+      "yearC": "Malheur à qui amasse pour lui-même&nbsp;! Heureux qui est riche en vue de Dieu&nbsp;!"
+    }
   },
   "readings": {
     "biblicalReading": {
@@ -20,5 +34,12 @@
     "oration": [
       "Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent ton inépuisable bonté&nbsp;; c’est leur fierté de t’avoir pour Créateur et Providence&nbsp;: restaure pour eux ta création, et l’ayant renouvelée, protège-la."
     ]
+  },
+  "vespers": {
+    "evangelicAntiphon": {
+      "yearA": "Prenant les pains, Jésus rendit grâce, les rompit et les donna. Et tous mangèrent à leur faim.",
+      "yearB": "Ne cherchez pas la nourriture qui périt, mais celle qui fait vivre pour l’éternité.",
+      "yearC": "Malheur à qui amasse pour lui-même&nbsp;! Heureux qui est riche en vue de Dieu&nbsp;!"
+    }
   }
 }

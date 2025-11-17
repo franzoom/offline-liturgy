@@ -3,6 +3,7 @@ import '../feasts/common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/day_offices_class.dart';
+import '../classes/office_structures.dart';
 import '../tools/extract_week_and_day.dart';
 import '../tools/data_loader.dart';
 
@@ -63,9 +64,17 @@ Future<Map<String, Morning>> ferialMorningResolution(
           dataLoader);
     }
 
-    // Add specific day information
-    ferialMorning.liturgicalGrade = calendarDay?.liturgicalGrade;
-    ferialMorning.celebrationTitle = calendarDay?.defaultCelebrationTitle;
+    // Add specific day information from calendar
+    ferialMorning.celebration ??= Celebration();
+    ferialMorning.celebration = Celebration(
+      title: calendarDay?.defaultCelebrationTitle,
+      subtitle: ferialMorning.celebration?.subtitle,
+      description: ferialMorning.celebration?.description,
+      commons: ferialMorning.celebration?.commons,
+      grade: calendarDay?.liturgicalGrade,
+      color: ferialMorning.celebration?.color,
+    );
+
     return {celebrationName: ferialMorning};
   }
 
@@ -110,7 +119,17 @@ Future<Map<String, Morning>> ferialMorningResolution(
         // Use 4th Sunday data and add the evangelic antiphon of the day
         Morning sunday4Morning =
             await morningExtract('$ferialFilePath/advent_4_0.json', dataLoader);
-        sunday4Morning.evangelicAntiphon = ferialMorning.evangelicAntiphon;
+
+        // Keep the evangelic antiphon from ferialMorning
+        if (ferialMorning.evangelicAntiphon != null) {
+          sunday4Morning.evangelicAntiphon = EvangelicAntiphon(
+            common: ferialMorning.evangelicAntiphon!.common,
+            yearA: ferialMorning.evangelicAntiphon!.yearA,
+            yearB: ferialMorning.evangelicAntiphon!.yearB,
+            yearC: ferialMorning.evangelicAntiphon!.yearC,
+          );
+        }
+
         return {celebrationName: sunday4Morning};
       }
 

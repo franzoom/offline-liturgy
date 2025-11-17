@@ -3,6 +3,134 @@
 /// Note: Throughout this file, the key "antiphon" (singular) is used
 /// even when it contains a list of multiple antiphons.
 
+/// Represents celebration information
+class Celebration {
+  final String? title;
+  final String? subtitle;
+  final String? description;
+  final List? commons;
+  final int? grade;
+  final String? color;
+
+  Celebration({
+    this.title,
+    this.subtitle,
+    this.description,
+    this.commons,
+    this.grade,
+    this.color,
+  });
+
+  factory Celebration.fromJson(Map<String, dynamic> json) {
+    return Celebration(
+      title: json['title'] as String?,
+      subtitle: json['subtitle'] as String?,
+      description: json['description'] as String?,
+      commons: json['commons'] as List?,
+      grade: json['grade'] as int?,
+      color: json['color'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (title != null) 'title': title,
+      if (subtitle != null) 'subtitle': subtitle,
+      if (description != null) 'description': description,
+      if (commons != null) 'commons': commons,
+      if (grade != null) 'grade': grade,
+      if (color != null) 'color': color,
+    };
+  }
+}
+
+/// Represents invitatory with antiphon and psalms
+class Invitatory {
+  final List<String>? antiphon;
+  final List? psalms;
+
+  Invitatory({
+    this.antiphon,
+    this.psalms,
+  });
+
+  factory Invitatory.fromJson(Map<String, dynamic> json) {
+    return Invitatory(
+      antiphon: json['antiphon'] != null
+          ? (json['antiphon'] is List
+              ? List<String>.from(json['antiphon'])
+              : [json['antiphon'] as String])
+          : null,
+      psalms: json['psalms'] as List?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (antiphon != null && antiphon!.isNotEmpty) 'antiphon': antiphon,
+      if (psalms != null) 'psalms': psalms,
+    };
+  }
+}
+
+/// Represents evangelic antiphon with common and yearly variants
+class EvangelicAntiphon {
+  final String? common;
+  final String? yearA;
+  final String? yearB;
+  final String? yearC;
+
+  EvangelicAntiphon({
+    this.common,
+    this.yearA,
+    this.yearB,
+    this.yearC,
+  });
+
+  factory EvangelicAntiphon.fromJson(Map<String, dynamic> json) {
+    return EvangelicAntiphon(
+      common: json['common'] as String?,
+      yearA: json['yearA'] as String?,
+      yearB: json['yearB'] as String?,
+      yearC: json['yearC'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (common != null) 'common': common,
+      if (yearA != null) 'yearA': yearA,
+      if (yearB != null) 'yearB': yearB,
+      if (yearC != null) 'yearC': yearC,
+    };
+  }
+}
+
+/// Represents intercession with description and content
+class Intercession {
+  final String? description;
+  final String? content;
+
+  Intercession({
+    this.description,
+    this.content,
+  });
+
+  factory Intercession.fromJson(Map<String, dynamic> json) {
+    return Intercession(
+      description: json['description'] as String?,
+      content: json['content'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (description != null) 'description': description,
+      if (content != null) 'content': content,
+    };
+  }
+}
+
 /// Represents a single psalm with its antiphons
 class PsalmEntry {
   final String psalm;
@@ -30,7 +158,33 @@ class PsalmEntry {
   }
 }
 
-/// Represents a reading with reference and content
+/// Represents a reading with biblical reference and content
+class Reading {
+  final String? biblicalReference;
+  final String? content;
+
+  Reading({
+    this.biblicalReference,
+    this.content,
+  });
+
+  factory Reading.fromJson(Map<String, dynamic> json) {
+    return Reading(
+      biblicalReference: json['biblicalReference'] as String?,
+      content: json['content'] as String?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      if (biblicalReference != null) 'biblicalReference': biblicalReference,
+      if (content != null) 'content': content,
+    };
+  }
+}
+
+/// Legacy class name for backward compatibility in some contexts
+/// Use Reading instead for new code
 class ReadingEntry {
   final String? ref;
   final String? content;
@@ -89,7 +243,7 @@ class InvitatoryOffice {
 /// Hour office for middle of day (tierce, sexte, none)
 class HourOffice {
   final String? antiphon;
-  final ReadingEntry? reading;
+  final Reading? reading;
   final String? responsory;
 
   HourOffice({
@@ -102,7 +256,7 @@ class HourOffice {
     return HourOffice(
       antiphon: json['antiphon'] as String?,
       reading: json['reading'] != null
-          ? ReadingEntry.fromJson(json['reading'] as Map<String, dynamic>)
+          ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
           : null,
       responsory: json['responsory'] as String?,
     );
@@ -123,7 +277,7 @@ class MiddleOfDayOffice {
   final HourOffice? sexte;
   final HourOffice? none;
   final List<PsalmEntry>? psalmody;
-  final String? oration;
+  final List<String>? oration;
   // Legacy fields for direct psalm references
   final String? psalm1;
   final String? psalm2;
@@ -156,7 +310,8 @@ class MiddleOfDayOffice {
               .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
               .toList()
           : null,
-      oration: json['oration'] as String?,
+      oration:
+          json['oration'] != null ? List<String>.from(json['oration']) : null,
       psalm1: json['psalm1'] as String?,
       psalm2: json['psalm2'] as String?,
       psalm3: json['psalm3'] as String?,
@@ -254,7 +409,7 @@ class ReadingsOffice {
   final PatristicReadingEntry? patristicReading;
   final PatristicReadingEntry? patristicReading2;
   final PatristicReadingEntry? patristicReading3;
-  final String? oration;
+  final List<String>? oration;
 
   ReadingsOffice({
     this.hymn,
@@ -297,7 +452,8 @@ class ReadingsOffice {
           ? PatristicReadingEntry.fromJson(
               json['patristicReading3'] as Map<String, dynamic>)
           : null,
-      oration: json['oration'] as String?,
+      oration:
+          json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
   }
 
@@ -325,16 +481,13 @@ class ReadingsOffice {
 class MorningOffice {
   final List<String>? hymn;
   final List<PsalmEntry>? psalmody;
-  final ReadingEntry? reading;
+  final Reading? reading;
   final String? responsory;
-  final String? evangelicAntiphon;
-  final String? evangelicAntiphonA;
-  final String? evangelicAntiphonB;
-  final String? evangelicAntiphonC;
-  final String? intercessionDescription;
-  final String? intercession;
-  final String? intercession2;
-  final String? oration;
+  final EvangelicAntiphon? evangelicAntiphon;
+  final Intercession? intercession;
+  final String?
+      intercession2; // Legacy field, some offices have a second intercession as string
+  final List<String>? oration;
 
   MorningOffice({
     this.hymn,
@@ -342,10 +495,6 @@ class MorningOffice {
     this.reading,
     this.responsory,
     this.evangelicAntiphon,
-    this.evangelicAntiphonA,
-    this.evangelicAntiphonB,
-    this.evangelicAntiphonC,
-    this.intercessionDescription,
     this.intercession,
     this.intercession2,
     this.oration,
@@ -360,17 +509,19 @@ class MorningOffice {
               .toList()
           : null,
       reading: json['reading'] != null
-          ? ReadingEntry.fromJson(json['reading'] as Map<String, dynamic>)
+          ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
           : null,
       responsory: json['responsory'] as String?,
-      evangelicAntiphon: json['evangelicAntiphon'] as String?,
-      evangelicAntiphonA: json['evangelicAntiphonA'] as String?,
-      evangelicAntiphonB: json['evangelicAntiphonB'] as String?,
-      evangelicAntiphonC: json['evangelicAntiphonC'] as String?,
-      intercessionDescription: json['intercessionDescription'] as String?,
-      intercession: json['intercession'] as String?,
+      evangelicAntiphon: json['evangelicAntiphon'] != null
+          ? EvangelicAntiphon.fromJson(
+              json['evangelicAntiphon'] as Map<String, dynamic>)
+          : null,
+      intercession: json['intercession'] != null
+          ? Intercession.fromJson(json['intercession'] as Map<String, dynamic>)
+          : null,
       intercession2: json['intercession2'] as String?,
-      oration: json['oration'] as String?,
+      oration:
+          json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
   }
 
@@ -381,13 +532,9 @@ class MorningOffice {
         'psalmody': psalmody!.map((e) => e.toJson()).toList(),
       if (reading != null) 'reading': reading!.toJson(),
       if (responsory != null) 'responsory': responsory,
-      if (evangelicAntiphon != null) 'evangelicAntiphon': evangelicAntiphon,
-      if (evangelicAntiphonA != null) 'evangelicAntiphonA': evangelicAntiphonA,
-      if (evangelicAntiphonB != null) 'evangelicAntiphonB': evangelicAntiphonB,
-      if (evangelicAntiphonC != null) 'evangelicAntiphonC': evangelicAntiphonC,
-      if (intercessionDescription != null)
-        'intercessionDescription': intercessionDescription,
-      if (intercession != null) 'intercession': intercession,
+      if (evangelicAntiphon != null)
+        'evangelicAntiphon': evangelicAntiphon!.toJson(),
+      if (intercession != null) 'intercession': intercession!.toJson(),
       if (intercession2 != null) 'intercession2': intercession2,
       if (oration != null) 'oration': oration,
     };
@@ -398,11 +545,11 @@ class MorningOffice {
 class VespersOffice {
   final List<String>? hymn;
   final List<PsalmEntry>? psalmody;
-  final ReadingEntry? reading;
+  final Reading? reading;
   final String? responsory;
-  final String? evangelicAntiphon;
-  final String? intercession;
-  final String? oration;
+  final EvangelicAntiphon? evangelicAntiphon;
+  final Intercession? intercession;
+  final List<String>? oration;
 
   VespersOffice({
     this.hymn,
@@ -423,12 +570,18 @@ class VespersOffice {
               .toList()
           : null,
       reading: json['reading'] != null
-          ? ReadingEntry.fromJson(json['reading'] as Map<String, dynamic>)
+          ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
           : null,
       responsory: json['responsory'] as String?,
-      evangelicAntiphon: json['evangelicAntiphon'] as String?,
-      intercession: json['intercession'] as String?,
-      oration: json['oration'] as String?,
+      evangelicAntiphon: json['evangelicAntiphon'] != null
+          ? EvangelicAntiphon.fromJson(
+              json['evangelicAntiphon'] as Map<String, dynamic>)
+          : null,
+      intercession: json['intercession'] != null
+          ? Intercession.fromJson(json['intercession'] as Map<String, dynamic>)
+          : null,
+      oration:
+          json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
   }
 
@@ -439,8 +592,9 @@ class VespersOffice {
         'psalmody': psalmody!.map((e) => e.toJson()).toList(),
       if (reading != null) 'reading': reading!.toJson(),
       if (responsory != null) 'responsory': responsory,
-      if (evangelicAntiphon != null) 'evangelicAntiphon': evangelicAntiphon,
-      if (intercession != null) 'intercession': intercession,
+      if (evangelicAntiphon != null)
+        'evangelicAntiphon': evangelicAntiphon!.toJson(),
+      if (intercession != null) 'intercession': intercession!.toJson(),
       if (oration != null) 'oration': oration,
     };
   }

@@ -1,21 +1,29 @@
 {
+  "commonTitle": "Commun des Saintes éducatrices",
   "firstVespers": {
-    "evangelicAntiphon": "La sagesse élève ses enfants et prend soin de ceux qui la cherchent."
+    "evangelicAntiphon": {
+      "common": "La sagesse élève ses enfants et prend soin de ceux qui la cherchent."
+    }
   },
   "morning": {
-    "evangelicAntiphon": "Heureux qui a donné sans compter&nbsp;: il recevra sans mesure."
+    "evangelicAntiphon": {
+      "common": "Heureux qui a donné sans compter&nbsp;: il recevra sans mesure."
+    }
   },
   "readings": {
-    "patristicReading": {
-      "title": "Homélie de saint Jean Chrysostome sur S. Matthieu",
-      "subtitle": "Que pas un de ces petits ne se perde"
-    },
-    "patricticReadingContent": "Quand le Seigneur dit : <i>Gardez-vous de mépriser un seul de ces petits car, je vous le dis, leurs anges dans les cieux voient sans cesse la face de mon Père qui est aux cieux. je suis venu pour les sauver. Votre Père, qui est aux cieux, veut qu'aucun de ces petits ne se perdre.</i>I ldisait cela pour acroître le zèle de ceux qui sont chargés de ces enfants.<br> Vois-tu de quelle muraille protectrice il a entouré les enfants, quelle est son ardeur contre ceux qui les méprisent et qui les perdent ? II menace de supplices effroyables ceux qui leur sont une occasion de chute ; il promet de grands biens à ceux qui les soignent, qui s'en occupent, et il appuie cela par son propre exemple et celui de son Père. Nous-memes, imitons-le en ne refusant aucun des labeurs apparemment modestes et pénibles au service de nos frères. Au contraire, lorsqu'il s'agit de servir, si petit, si commun que soit l'interessé, si penible que soit le travail, faudrait-il passer des montagnes et des precipices, on doit tout supporter pour le salut d'un frère. Dieu a un si grand souci de l'ame qu'il n'a pas refusé son Fils unique. Aussi, je vous en conjure, des que nous sortons de chez nous le matin, ayons pour unique but, pour principal souci de sauver un frère en danger.<br>Certes, rien n'est aussi précieux que l'âme : Quel avantage un homme aura-t-il gagner le monde entier, s’il y perd son âme? Mais l'amour de l'argent a tout perverti et abaisse, il a ébranlé la crainte de Dieu, en occupant les âmes comme un tyran occupe sa citadelle. C'est pour cela que nous négligeons le salut de nos enfants. Nous n'avons plus qu'un souci : comment, après avoir augmenté nos richesses, les laisser à d'autres, et ceux-ci à d'autres encore après eux, si bien que nous ne devenons pas possesseurs, mais transmetteurs, pour ainsi dire, de notre argent et de nos propriétés. C'est la grande folie, et qui met les enfants d'hommes libres au-dessous des esclaves. Car nous corrigeons les esclaves non dans leur intérêt, mais dans le notre ; tandis que nos enfants ne jouissent même pas de cette prévoyance : nous avons pour eux plus de négligence que pour nos esclaves.<br>Mais pourquoi parler des esclaves ? Nos enfants sont plus négligés que notre bétail, nous nous occupons davantage des ânes et des chevaux que de nos fils. Si l'on a un mulet, on se fait grand souci de lui trouver un très bon muletier, qui ne soit ni brutal, ni voleur, ni buveur, ni ignorant son métier. Mais s'il nous faut confier notre enfant à un pédagogue, nous prenons au hasard le premier venu, alors qu'il n'y a pas de métier audessus de celui-là.<br>Qu'y a-t-il de comparable a l’art de former une âme, de modeler un jeune esprit ? Celui qui exerce un tel savoir doit être plus habile que n'importe quel peintre ou n'importe quel statuaire. Mais nous n'en tenons aucun compte, et tout ce que nous recherchons, c'est qu'il enseigne à bien parler. Et si nous nous en préoccupons, c'est encore en vue du profit. On n'apprend pas la langue afin de pouvoir bien parler mais afin de gagner de l'argent. Si l'on pouvait s'enrichir sans cela, nous n'aurions aucun souci de le faire apprendre à nos enfants.<br> Tu vois quelle est la tyrannie des richesses? Comme elle s'empare de tout, comme elle entraîne les hommes où elle veut, ainsi que l'on conduit des bêtes entravées ? Mais quel avantage retirons-nous d'une conduite aussi blâmable? En paroles nous rejetons cette tyrannie, mais en fait elle nous domine. Cependant nous ne cesserons pas de vous detourner d'elle par nos discours. Si nous y réussissons, ce sera pour notre avantage et pour le vôtre. Et si vous demeurez dans ces dispositions, nous aurons accompli tout notre devoir.<br> Que Dieu vous délivre de cette maladie ; quant à nous, qu'il nous accorde d'être fiers de vous. Parce que c'est à lui qu'appartiennent la gloire et la puissance pour les siècles des siècles.",
-    "patricticReadingresponsory": "<p>R/ Toute chair saura que le Seigneur Dieu<br>est notre Sauveur&nbsp;!<br><br>Je t'ai gravé sur les paumes de mes mains,<br>Tu es toujours devant moi.<br><br>Une mère oublierait-elle l'enfant qu'elle nourrit&nbsp;?<br>Moi, le Seigneur, je ne t'oublierai jamais."
+    "patristicReading": [
+      {
+        "title": "Homélie de saint Jean Chrysostome sur S. Matthieu",
+        "subtitle": "Que pas un de ces petits ne se perde"
+      }
+    ]
   },
   "vespers": {
-    "evangelicAntiphon": "Laissez venir à moi els petits enfants&nbsp;: le Royaume est à ceux qui leur ressemblent."
+    "evangelicAntiphon": {
+      "common": "Laissez venir à moi els petits enfants&nbsp;: le Royaume est à ceux qui leur ressemblent."
+    }
   },
-  "commonTitle": "Commun des Saintes éducatrices",
-  "oration": "Dieu qui as suscité saint N. dans ton Église pour qu’il enseigne aux autres le chemin du salut, accorde-nous de suivre, comme lui, le Christ notre maître afin d’arriver vers toi en compagnie de nos frères."
+  "oration": [
+    "Dieu qui as suscité saint N. dans ton Église pour qu’il enseigne aux autres le chemin du salut, accorde-nous de suivre, comme lui, le Christ notre maître afin d’arriver vers toi en compagnie de nos frères."
+  ]
 }

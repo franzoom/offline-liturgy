@@ -51,6 +51,22 @@
     ],
     "verse": "<p>V/ Viens, Seigneur, montre-nous ton visage,<br> et nous serons sauvés.</p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Vierge bénie entre toutes les femmes, Jésus, ton Enfant, est béni&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_93_1"
+      },
+      {
+        "psalm": "PSALM_93_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -70,22 +86,6 @@
         "antiphon": [
           "Gloire au Christ, premier-né d’entre les morts, souverain des rois de la terre&nbsp;!"
         ]
-      }
-    ]
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_19",
-        "antiphon": [
-          "Vierge bénie entre toutes les femmes, Jésus, ton Enfant, est béni&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_93_1"
-      },
-      {
-        "psalm": "PSALM_93_2"
       }
     ]
   }

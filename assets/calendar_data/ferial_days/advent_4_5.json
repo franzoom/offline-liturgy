@@ -51,6 +51,22 @@
     ],
     "verse": "<p>V/ Que vienne à moi, Seigneur, ton amour,<br> et son salut, selon ta promesse.</p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_21",
+        "antiphon": [
+          "L’ange dit à Marie&nbsp;: Je te salue, comblée de grâce, le Seigneur est avec toi&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_132"
+      },
+      {
+        "psalm": "PSALM_139"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -70,22 +86,6 @@
         "antiphon": [
           "Ton chemin sera connu sur la terre, ton salut parmi toutes les nations."
         ]
-      }
-    ]
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_21",
-        "antiphon": [
-          "L’ange dit à Marie&nbsp;: Je te salue, comblée de grâce, le Seigneur est avec toi&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_132"
-      },
-      {
-        "psalm": "PSALM_139"
       }
     ]
   }

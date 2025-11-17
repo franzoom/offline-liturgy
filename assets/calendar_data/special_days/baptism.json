@@ -1,10 +1,12 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Adorons le Seigneu Jésus, le Fils bien-aimé de Dieu notre Père."
-    ]
+  "celebration": {
+    "title": "Baptême du Seigneur",
+    "color": "white"
   },
   "firstVespers": {
+    "hymn": [
+      "jesus-parait"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_134-I",
@@ -26,17 +28,26 @@
       }
     ],
     "reading": {
-      "ref": "Ac 10, 37-38",
+      "biblicalReference": "Ac 10, 37-38",
       "content": "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean&nbsp;: Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
     },
-    "hymn": [
-      "jesus-parait"
-    ],
-    "evangelicAntiphon": "Le Sauveur vient au baptême relever notre humanité déchue, nous guérir à travers les eaux et nous vêtir d’immortalité.",
-    "intercession": "<p>En ce jour où le Christ, notre Rédempteur, a voulu être baptisé par Jean dans le Jourdain, supplions-le&nbsp;:</p> <p>R/Seigneur, envoie sur nous ton Esprit.</p> <p>Serviteur de Dieu, en qui le Père met sa joie,<br> —&nbsp;envoie sur nous ton Esprit.</p> <p>Élu de Dieu, toi qui ne brises pas le roseau froissé,<br> —&nbsp;prends pitié des hommes qui te cherchent en vérité.</p> <p>Lumière des nations, toi que le Père a choisi pour sceller la nouvelle Alliance,<br> —&nbsp;ouvre les yeux des aveugles par l’eau du baptême.</p> <p>Sauveur du monde, toi que le Père a consacré dans l’Esprit,<br> —&nbsp;consacre-nous dans la vérité.</p> <p>Fils de Dieu, notre espérance, toi qui conduis les hommes au salut,<br> —&nbsp;reçois nos frères défunts dans ton Royaume.</p>",
-    "responsory": "<p>R/ Fils bien-aimé de Dieu,<br> l’Esprit du Seigneur repose sur toi.<br> V/ La voix du Seigneur domine les eaux.&nbsp;R/ <br> Gloire au Père.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Fils bien-aimé de Dieu,<br> l’Esprit du Seigneur repose sur toi.<br> V/ La voix du Seigneur domine les eaux.&nbsp;R/ <br> Gloire au Père.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Sauveur vient au baptême relever notre humanité déchue, nous guérir à travers les eaux et nous vêtir d’immortalité."
+    },
+    "intercession": {
+      "content": "<p>En ce jour où le Christ, notre Rédempteur, a voulu être baptisé par Jean dans le Jourdain, supplions-le&nbsp;:</p> <p>R/Seigneur, envoie sur nous ton Esprit.</p> <p>Serviteur de Dieu, en qui le Père met sa joie,<br> —&nbsp;envoie sur nous ton Esprit.</p> <p>Élu de Dieu, toi qui ne brises pas le roseau froissé,<br> —&nbsp;prends pitié des hommes qui te cherchent en vérité.</p> <p>Lumière des nations, toi que le Père a choisi pour sceller la nouvelle Alliance,<br> —&nbsp;ouvre les yeux des aveugles par l’eau du baptême.</p> <p>Sauveur du monde, toi que le Père a consacré dans l’Esprit,<br> —&nbsp;consacre-nous dans la vérité.</p> <p>Fils de Dieu, notre espérance, toi qui conduis les hommes au salut,<br> —&nbsp;reçois nos frères défunts dans ton Royaume.</p>"
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Adorons le Seigneu Jésus, le Fils bien-aimé de Dieu notre Père."
+    ]
   },
   "morning": {
+    "hymn": [
+      "peuples-criez-de-joie"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -58,17 +69,21 @@
       }
     ],
     "reading": {
-      "ref": "Is 61, 1-2a",
+      "biblicalReference": "Is 61, 1-2a",
       "content": "L’Esprit du Seigneur est sur moi parce que le Seigneur m’a consacré par l’onction. Il m’a envoyé porter la bonne nouvelle aux pauvres, guérir ceux qui ont le cœur brisé, annoncer aux prisonniers la délivrance, et aux captifs la liberté, annoncer une année de bienfaits accordée par le Seigneur."
     },
-    "hymn": [
-      "peuples-criez-de-joie"
-    ],
-    "evangelicAntiphon": "Marqué du signe de l’Esprit, Jésus remonte des eaux&nbsp;; le Précurseur le reconnaît et prophétise&nbsp;: Voici l’Agneau qui nous donne la paix et consacre le monde.",
-    "intercession": "<p>Supplions le Messie qui fut manifesté aux hommes en recevant le baptême de Jean&nbsp;:</p> <p>R/Kyrie, eleison.</p> <p>Ô Christ, descendu dans les eaux du Jourdain, tu t’es mis au rang des pécheurs,<br> —&nbsp;relève en toi l’homme déchu.</p> <p>Par ton baptême, tu as fait de nous les enfants du Père,<br> —&nbsp;répands l’Esprit d’adoption sur ceux que tu aimes.</p> <p>Par ton baptême, tu nous pénètres de ta lumière,<br> —&nbsp;envoie-nous dans le monde porter témoignage de l’Évangile.</p> <p>Par ton baptême, tu as sanctifié la création,<br> —&nbsp;renouvelle l’esprit d’adoration de tous les baptisés.</p> <p>Par ton baptême, tu as ouvert aux croyants la porte de la vie,<br> —&nbsp;donne à tous les hommes d’accéder au salut.</p>",
-    "responsory": "<p>R/ Gloire à toi, Messie de Dieu, Fils du Dieu vivant&nbsp;!<br> V/ Tu es venu par l’eau et par le sang.&nbsp;R/ <br> V/ Le ciel s’est ouvert, le Père a parlé.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Gloire à toi, Messie de Dieu, Fils du Dieu vivant&nbsp;!<br> V/ Tu es venu par l’eau et par le sang.&nbsp;R/ <br> V/ Le ciel s’est ouvert, le Père a parlé.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Marqué du signe de l’Esprit, Jésus remonte des eaux&nbsp;; le Précurseur le reconnaît et prophétise&nbsp;: Voici l’Agneau qui nous donne la paix et consacre le monde."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Messie qui fut manifesté aux hommes en recevant le baptême de Jean&nbsp;:</p> <p>R/Kyrie, eleison.</p> <p>Ô Christ, descendu dans les eaux du Jourdain, tu t’es mis au rang des pécheurs,<br> —&nbsp;relève en toi l’homme déchu.</p> <p>Par ton baptême, tu as fait de nous les enfants du Père,<br> —&nbsp;répands l’Esprit d’adoption sur ceux que tu aimes.</p> <p>Par ton baptême, tu nous pénètres de ta lumière,<br> —&nbsp;envoie-nous dans le monde porter témoignage de l’Évangile.</p> <p>Par ton baptême, tu as sanctifié la création,<br> —&nbsp;renouvelle l’esprit d’adoration de tous les baptisés.</p> <p>Par ton baptême, tu as ouvert aux croyants la porte de la vie,<br> —&nbsp;donne à tous les hommes d’accéder au salut.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "sauves-des-memes-eaux"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_28",
@@ -89,24 +104,54 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Le «&nbsp;serviteur&nbsp;» de Dieu, lumière des peuples",
-      "ref": "Is 42, 1-9; 49, 1-9",
-      "content": "<p>Voici mon serviteur que je soutiens, mon élu qui a toute ma faveur. J’ai fait reposer sur lui mon esprit&nbsp;; aux nations, il proclamera le droit. Il ne criera pas, il ne haussera pas le ton, il ne fera pas entendre sa voix au-dehors. Il ne brisera pas le roseau qui fléchit, il n’éteindra pas la mèche qui faiblit, il proclamera le droit en vérité. Il ne faiblira pas, il ne fléchira pas, jusqu’à ce qu’il établisse le droit sur la terre, et que les îles lointaines aspirent à recevoir ses lois.</p> <p>Ainsi parle Dieu, le SEIGNEUR, qui crée les cieux et les déploie, qui affermit la terre et ce qu’elle produit&nbsp;; il donne le souffle au peuple qui l’habite, et l’esprit à ceux qui la parcourent&nbsp;:</p> <p>Moi, le SEIGNEUR, je t’ai appelé selon la justice&nbsp;; je te saisis par la main, je te façonne, je fais de toi l’alliance du peuple, la lumière des nations&nbsp;: tu ouvriras les yeux des aveugles, tu feras sortir les captifs de leur prison, et, de leur cachot, ceux qui habitent les ténèbres.</p> <p>Je suis le SEIGNEUR, tel est mon nom&nbsp;; et je ne céderai pas ma gloire à un autre, ni ma louange aux idoles. Les événements passés, voici qu’ils sont arrivés. Les nouveaux, c’est moi qui les annonce&nbsp;; avant qu’ils ne germent, je vous les fais connaître.</p> <p>Écoutez-moi, îles lointaines&nbsp;! Peuples éloignés, soyez attentifs&nbsp;! J’étais encore dans le sein maternel quand le SEIGNEUR m’a appelé&nbsp;; j’étais encore dans les entrailles de ma mère quand il a prononcé mon nom. Il a fait de ma bouche une épée tranchante, il m’a protégé par l’ombre de sa main&nbsp;; il a fait de moi une flèche acérée, il m’a caché dans son carquois.</p> <p>Il m’a dit&nbsp;: «&nbsp;Tu es mon serviteur, Israël, en toi je manifesterai ma splendeur.&nbsp;» Et moi, je disais&nbsp;: «&nbsp;Je me suis fatigué pour rien, c’est pour le néant, c’est en pure perte que j’ai usé mes forces.&nbsp;» Et pourtant, mon droit subsistait auprès du SEIGNEUR, ma récompense, auprès de mon Dieu.</p> <p>Maintenant le SEIGNEUR parle, lui qui m’a façonné dès le sein de ma mère pour que je sois son serviteur, que je lui ramène Jacob, que je lui rassemble Israël. Oui, j’ai de la valeur aux yeux du SEIGNEUR, c’est mon Dieu qui est ma force.</p> <p>Et il dit&nbsp;: «&nbsp;C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob, ramener les rescapés d’Israël&nbsp;: je fais de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre.&nbsp;»</p> <p>Ainsi parle le SEIGNEUR, rédempteur et saint d’Israël, au serviteur méprisé, détesté par les nations, esclave des puissants&nbsp;: Les rois verront, ils se lèveront, les grands se prosterneront, à cause du SEIGNEUR qui est fidèle, du Saint d’Israël qui t’a choisi.</p> <p>Ainsi parle le SEIGNEUR&nbsp;: Au temps favorable, je t’ai exaucé, au jour du salut, je t’ai secouru. Je t’ai façonné, établi, pour que tu sois l’alliance du peuple, pour relever le pays, restituer les héritages dévastés et dire aux prisonniers&nbsp;: «&nbsp;Sortez&nbsp;!&nbsp;», aux captifs des ténèbres&nbsp;: «&nbsp;Montrez-vous&nbsp;!&nbsp;» Au long des routes, ils pourront paître&nbsp;; sur les hauteurs dénudées seront leurs pâturages.</p>",
-      "responsory": "<p>R/ Jésus, tu es le Messie, le Fils du Dieu vivant&nbsp;!</p> Le Seigneur l’avait d’avance annoncé&nbsp;: Voici mon serviteur que je soutiens, mon élu en qui j’ai mis toute ma joie.</p> Christ aujourd’hui se fait baptiser au Jourdain. Les cieux s’ouvrent, une voix se fait entendre.</p> L’Esprit descend, des cieux la voix proclame&nbsp;: Celui-ci est mon Fils bien-aimé, celui qu’il m’a plu de choisir.</p>"
-    },
-    "patristicReading": {
-      "title": "SERMON DE SAINT GRÉGOIRE DE NAZIANZE POUR LA FÊTE DES LUMIÈRES",
-      "subtitle": "«&nbsp;Ceux qui voient la lumière sont dans la lumière&nbsp;»",
-      "content": "<p>Le Christ est illuminé par le baptême, resplendissons avec lui&nbsp;; il est plongé dans l’eau, descendons avec lui pour remonter avec lui. ~</p> <p>Jean est en train de baptiser, et Jésus s’approche&nbsp;; peut-être pour sanctifier celui qui va le baptiser&nbsp;; certainement pour ensevelir tout entier le vieil Adam au fond de l’eau. Mais avant cela et en vue de cela, il sanctifie le Jourdain. Et comme il est esprit et chair, il veut pouvoir initier par l’eau et par l’Esprit.</p> <p>Le Baptiste n’accepte pas de le baptiser. Jésus insiste. Mais&nbsp;:<i>C’est moi qui ai besoin d’être baptisé par toi</i>. Voilà comment la lampe s’adresse au soleil, la voix à la Parole, l’ami de l’Époux à l’Époux,<i>le plus grand des enfants des femmes au premier-né de toute la création</i>; celui qui avait bondi dans le sein de sa mère à celui qui avait été adoré dans le sein de la sienne, le précurseur présent et futur à celui qui vient d’apparaître et qui réapparaîtra.<i>C’est moi qui ai besoin d’être baptisé par toi</i>. Que Jean ajoute donc&nbsp;: et en me sacrifiant pour toi. Il savait en effet qu’il recevrait le baptême du martyre&nbsp;; ou, comme Pierre, que ses pieds ne seraient pas seuls purifiés. ~</p> <p>Mais voici Jésus qui remonte hors de l’eau. En effet, il porte le monde. Avec lui, il le fait monter&nbsp;;<i>il voit les cieux se déchirer et s’ouvrir</i>, alors qu’Adam les avait fermés pour lui et sa descendance, quand il fut expulsé du paradis que défendait l’épée de feu.</p> <p>Alors l’Esprit atteste sa divinité, car il accourt vers celui qui est de même nature. Une voix descend du ciel, pour rendre témoignage à celui qui en venait&nbsp;; et, sous l’apparence d’une colombe, elle honore le corps, puisque Dieu, en se montrant sous une apparence corporelle, divinise aussi le corps. C’est ainsi que, bien des siècles auparavant, une colombe est venue annoncer la bonne nouvelle de la fin du déluge. ~</p> <p>Pour nous, honorons aujourd’hui le baptême du Christ, et célébrons cette fête de façon irréprochable. ~</p> <p>Soyez entièrement purifiés, et purifiez-vous encore. Car rien ne donne à Dieu autant de joie que le redressement et salut de l’homme&nbsp;: c’est à cela que tend tout ce discours tout ce mystère. Soyez<i>comme des sources de lumière dans le monde</i>, une force vitale pour les autres hommes. Comme des lumières parfaites secondant la grande Lumière, soyez initiés à la vie de lumière qui est au ciel&nbsp;; soyez illuminés avec plus de clarté et d’éclat par la sainte Trinité, dont vous avez reçu maintenant, d’une façon restreinte, un seul rayon, venant de l’unique divinité, en Jésus Christ notre Seigneur, à qui appartiennent la gloire et la puissance pour les siècles des siècles. Amen.</p>",
-      "responsory": "<p>R/ Seigneur Jésus, tu es la lumière du monde&nbsp;!</p> L’Esprit du Seigneur Dieu est sur moi, disait-il, car il m’a consacré par l’onction.</p> Il m’a envoyé porter la Bonne Nouvelle aux pauvres, proclamer la liberté, annoncer le temps de grâce.</p> C’est de Dieu que je suis sorti et que je viens, je ne suis pas venu de moi-même. Dieu m’a envoyé.</p>"
-    },
-    "hymn": [
-      "sauves-des-memes-eaux"
+    "biblicalReading": [
+      {
+        "title": "Le «&nbsp;serviteur&nbsp;» de Dieu, lumière des peuples",
+        "ref": "Is 42, 1-9; 49, 1-9",
+        "content": "<p>Voici mon serviteur que je soutiens, mon élu qui a toute ma faveur. J’ai fait reposer sur lui mon esprit&nbsp;; aux nations, il proclamera le droit. Il ne criera pas, il ne haussera pas le ton, il ne fera pas entendre sa voix au-dehors. Il ne brisera pas le roseau qui fléchit, il n’éteindra pas la mèche qui faiblit, il proclamera le droit en vérité. Il ne faiblira pas, il ne fléchira pas, jusqu’à ce qu’il établisse le droit sur la terre, et que les îles lointaines aspirent à recevoir ses lois.</p> <p>Ainsi parle Dieu, le SEIGNEUR, qui crée les cieux et les déploie, qui affermit la terre et ce qu’elle produit&nbsp;; il donne le souffle au peuple qui l’habite, et l’esprit à ceux qui la parcourent&nbsp;:</p> <p>Moi, le SEIGNEUR, je t’ai appelé selon la justice&nbsp;; je te saisis par la main, je te façonne, je fais de toi l’alliance du peuple, la lumière des nations&nbsp;: tu ouvriras les yeux des aveugles, tu feras sortir les captifs de leur prison, et, de leur cachot, ceux qui habitent les ténèbres.</p> <p>Je suis le SEIGNEUR, tel est mon nom&nbsp;; et je ne céderai pas ma gloire à un autre, ni ma louange aux idoles. Les événements passés, voici qu’ils sont arrivés. Les nouveaux, c’est moi qui les annonce&nbsp;; avant qu’ils ne germent, je vous les fais connaître.</p> <p>Écoutez-moi, îles lointaines&nbsp;! Peuples éloignés, soyez attentifs&nbsp;! J’étais encore dans le sein maternel quand le SEIGNEUR m’a appelé&nbsp;; j’étais encore dans les entrailles de ma mère quand il a prononcé mon nom. Il a fait de ma bouche une épée tranchante, il m’a protégé par l’ombre de sa main&nbsp;; il a fait de moi une flèche acérée, il m’a caché dans son carquois.</p> <p>Il m’a dit&nbsp;: «&nbsp;Tu es mon serviteur, Israël, en toi je manifesterai ma splendeur.&nbsp;» Et moi, je disais&nbsp;: «&nbsp;Je me suis fatigué pour rien, c’est pour le néant, c’est en pure perte que j’ai usé mes forces.&nbsp;» Et pourtant, mon droit subsistait auprès du SEIGNEUR, ma récompense, auprès de mon Dieu.</p> <p>Maintenant le SEIGNEUR parle, lui qui m’a façonné dès le sein de ma mère pour que je sois son serviteur, que je lui ramène Jacob, que je lui rassemble Israël. Oui, j’ai de la valeur aux yeux du SEIGNEUR, c’est mon Dieu qui est ma force.</p> <p>Et il dit&nbsp;: «&nbsp;C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob, ramener les rescapés d’Israël&nbsp;: je fais de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre.&nbsp;»</p> <p>Ainsi parle le SEIGNEUR, rédempteur et saint d’Israël, au serviteur méprisé, détesté par les nations, esclave des puissants&nbsp;: Les rois verront, ils se lèveront, les grands se prosterneront, à cause du SEIGNEUR qui est fidèle, du Saint d’Israël qui t’a choisi.</p> <p>Ainsi parle le SEIGNEUR&nbsp;: Au temps favorable, je t’ai exaucé, au jour du salut, je t’ai secouru. Je t’ai façonné, établi, pour que tu sois l’alliance du peuple, pour relever le pays, restituer les héritages dévastés et dire aux prisonniers&nbsp;: «&nbsp;Sortez&nbsp;!&nbsp;», aux captifs des ténèbres&nbsp;: «&nbsp;Montrez-vous&nbsp;!&nbsp;» Au long des routes, ils pourront paître&nbsp;; sur les hauteurs dénudées seront leurs pâturages.</p>",
+        "responsory": "<p>R/ Jésus, tu es le Messie, le Fils du Dieu vivant&nbsp;!</p> Le Seigneur l’avait d’avance annoncé&nbsp;: Voici mon serviteur que je soutiens, mon élu en qui j’ai mis toute ma joie.</p> Christ aujourd’hui se fait baptiser au Jourdain. Les cieux s’ouvrent, une voix se fait entendre.</p> L’Esprit descend, des cieux la voix proclame&nbsp;: Celui-ci est mon Fils bien-aimé, celui qu’il m’a plu de choisir.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "SERMON DE SAINT GRÉGOIRE DE NAZIANZE POUR LA FÊTE DES LUMIÈRES",
+        "subtitle": "«&nbsp;Ceux qui voient la lumière sont dans la lumière&nbsp;»",
+        "content": "<p>Le Christ est illuminé par le baptême, resplendissons avec lui&nbsp;; il est plongé dans l’eau, descendons avec lui pour remonter avec lui. ~</p> <p>Jean est en train de baptiser, et Jésus s’approche&nbsp;; peut-être pour sanctifier celui qui va le baptiser&nbsp;; certainement pour ensevelir tout entier le vieil Adam au fond de l’eau. Mais avant cela et en vue de cela, il sanctifie le Jourdain. Et comme il est esprit et chair, il veut pouvoir initier par l’eau et par l’Esprit.</p> <p>Le Baptiste n’accepte pas de le baptiser. Jésus insiste. Mais&nbsp;:<i>C’est moi qui ai besoin d’être baptisé par toi</i>. Voilà comment la lampe s’adresse au soleil, la voix à la Parole, l’ami de l’Époux à l’Époux,<i>le plus grand des enfants des femmes au premier-né de toute la création</i>; celui qui avait bondi dans le sein de sa mère à celui qui avait été adoré dans le sein de la sienne, le précurseur présent et futur à celui qui vient d’apparaître et qui réapparaîtra.<i>C’est moi qui ai besoin d’être baptisé par toi</i>. Que Jean ajoute donc&nbsp;: et en me sacrifiant pour toi. Il savait en effet qu’il recevrait le baptême du martyre&nbsp;; ou, comme Pierre, que ses pieds ne seraient pas seuls purifiés. ~</p> <p>Mais voici Jésus qui remonte hors de l’eau. En effet, il porte le monde. Avec lui, il le fait monter&nbsp;;<i>il voit les cieux se déchirer et s’ouvrir</i>, alors qu’Adam les avait fermés pour lui et sa descendance, quand il fut expulsé du paradis que défendait l’épée de feu.</p> <p>Alors l’Esprit atteste sa divinité, car il accourt vers celui qui est de même nature. Une voix descend du ciel, pour rendre témoignage à celui qui en venait&nbsp;; et, sous l’apparence d’une colombe, elle honore le corps, puisque Dieu, en se montrant sous une apparence corporelle, divinise aussi le corps. C’est ainsi que, bien des siècles auparavant, une colombe est venue annoncer la bonne nouvelle de la fin du déluge. ~</p> <p>Pour nous, honorons aujourd’hui le baptême du Christ, et célébrons cette fête de façon irréprochable. ~</p> <p>Soyez entièrement purifiés, et purifiez-vous encore. Car rien ne donne à Dieu autant de joie que le redressement et salut de l’homme&nbsp;: c’est à cela que tend tout ce discours tout ce mystère. Soyez<i>comme des sources de lumière dans le monde</i>, une force vitale pour les autres hommes. Comme des lumières parfaites secondant la grande Lumière, soyez initiés à la vie de lumière qui est au ciel&nbsp;; soyez illuminés avec plus de clarté et d’éclat par la sainte Trinité, dont vous avez reçu maintenant, d’une façon restreinte, un seul rayon, venant de l’unique divinité, en Jésus Christ notre Seigneur, à qui appartiennent la gloire et la puissance pour les siècles des siècles. Amen.</p>",
+        "responsory": "<p>R/ Seigneur Jésus, tu es la lumière du monde&nbsp;!</p> L’Esprit du Seigneur Dieu est sur moi, disait-il, car il m’a consacré par l’onction.</p> Il m’a envoyé porter la Bonne Nouvelle aux pauvres, proclamer la liberté, annoncer le temps de grâce.</p> C’est de Dieu que je suis sorti et que je viens, je ne suis pas venu de moi-même. Dieu m’a envoyé.</p>"
+      }
     ],
     "verse": "<p>V/ Celui-ci est mon Fils bien-aimé,<br> Écoutez-le.</p>"
   },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Jean se refusait à baptiser Jésus&nbsp;: C’est moi qui ai besoin de ton baptême et c’est toi qui viens à moi&nbsp;!",
+      "reading": {
+        "biblicalReference": "Is 11, 1-2",
+        "content": "Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
+      },
+      "responsory": "V/ Il faut que lui grandisse,<br> et que je diminue.<br>"
+    },
+    "sexte": {
+      "antiphon": "C’est ainsi qu’il nous convient d’accomplir toute justice.",
+      "reading": {
+        "biblicalReference": "Is 42, 1",
+        "content": "Voici mon serviteur que je soutiens, mon élu en qui j’ai mis toute ma joie. J’ai fait reposer sur lui mon esprit, devant les nations il fera paraître le jugement que j’ai prononcé."
+      },
+      "responsory": "V/ Voici mon serviteur que je soutiens,<br> mon élu en qui j’ai mis toute ma joie.<br>"
+    },
+    "none": {
+      "antiphon": "J’ai vu l’Esprit, tel une colombe, descendre du ciel et demeurer sur lui.",
+      "reading": {
+        "biblicalReference": "Is 49, 6",
+        "content": "Le Seigneur parle ainsi&nbsp;: C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël&nbsp;: je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
+      },
+      "responsory": "V/ J’ai fait reposer sur lui mon Esprit,<br> il sera la lumière des nations.<br>"
+    }
+  },
   "vespers": {
+    "hymn": [
+      "l-esprit-de-dieu-repose-sur-moi"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_109",
@@ -128,44 +173,18 @@
       }
     ],
     "reading": {
-      "ref": "Ac 10, 37-38",
+      "biblicalReference": "Ac 10, 37-38",
       "content": "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean&nbsp;: Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
     },
-    "hymn": [
-      "l-esprit-de-dieu-repose-sur-moi"
-    ],
-    "evangelicAntiphon": "Jésus nous a aimés, il nous a lavés de nos péchés par son sang. Jésus a fait de nous un royaume et des prêtres pour Dieu son Père. À lui gloire et puissance pour toujours&nbsp;!",
-    "intercession": "<p>En ce jour où le Christ, notre Rédempteur, a voulu être baptisé par Jean dans le Jourdain, supplions-le&nbsp;:</p> <p>R/Seigneur, envoie sur nous ton Esprit.</p> <p>Serviteur de Dieu, en qui le Père met sa joie,<br> —&nbsp;envoie sur nous ton Esprit.</p> <p>Élu de Dieu, toi qui ne brises pas le roseau froissé,<br> —&nbsp;prends pitié des hommes qui te cherchent en vérité.</p> <p>Lumière des nations, toi que le Père a choisi pour sceller la nouvelle Alliance,<br> —&nbsp;ouvre les yeux des aveugles par l’eau du baptême.</p> <p>Sauveur du monde, toi que le Père a consacré dans l’Esprit,<br> —&nbsp;consacre-nous dans la vérité.</p> <p>Fils de Dieu, notre espérance, toi qui conduis les hommes au salut,<br> —&nbsp;reçois nos frères défunts dans ton Royaume.</p>",
-    "responsory": "<p>R/ Fils bien-aimé de Dieu,<br> l’Esprit du Seigneur repose sur toi.<br> V/ La voix du Seigneur domine les eaux.&nbsp;R/ <br> Gloire au Père.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Jean se refusait à baptiser Jésus&nbsp;: C’est moi qui ai besoin de ton baptême et c’est toi qui viens à moi&nbsp;!",
-      "reading": {
-        "ref": "Is 11, 1-2",
-        "content": "Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur&nbsp;: esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
-      },
-      "responsory": "V/ Il faut que lui grandisse,<br> et que je diminue.<br>"
+    "responsory": "<p>R/ Fils bien-aimé de Dieu,<br> l’Esprit du Seigneur repose sur toi.<br> V/ La voix du Seigneur domine les eaux.&nbsp;R/ <br> Gloire au Père.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jésus nous a aimés, il nous a lavés de nos péchés par son sang. Jésus a fait de nous un royaume et des prêtres pour Dieu son Père. À lui gloire et puissance pour toujours&nbsp;!"
     },
-    "sexte": {
-      "antiphon": "C’est ainsi qu’il nous convient d’accomplir toute justice.",
-      "reading": {
-        "ref": "Is 42, 1",
-        "content": "Voici mon serviteur que je soutiens, mon élu en qui j’ai mis toute ma joie. J’ai fait reposer sur lui mon esprit, devant les nations il fera paraître le jugement que j’ai prononcé."
-      },
-      "responsory": "V/ Voici mon serviteur que je soutiens,<br> mon élu en qui j’ai mis toute ma joie.<br>"
-    },
-    "none": {
-      "antiphon": "J’ai vu l’Esprit, tel une colombe, descendre du ciel et demeurer sur lui.",
-      "reading": {
-        "ref": "Is 49, 6",
-        "content": "Le Seigneur parle ainsi&nbsp;: C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël&nbsp;: je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
-      },
-      "responsory": "V/ J’ai fait reposer sur lui mon Esprit,<br> il sera la lumière des nations.<br>"
+    "intercession": {
+      "content": "<p>En ce jour où le Christ, notre Rédempteur, a voulu être baptisé par Jean dans le Jourdain, supplions-le&nbsp;:</p> <p>R/Seigneur, envoie sur nous ton Esprit.</p> <p>Serviteur de Dieu, en qui le Père met sa joie,<br> —&nbsp;envoie sur nous ton Esprit.</p> <p>Élu de Dieu, toi qui ne brises pas le roseau froissé,<br> —&nbsp;prends pitié des hommes qui te cherchent en vérité.</p> <p>Lumière des nations, toi que le Père a choisi pour sceller la nouvelle Alliance,<br> —&nbsp;ouvre les yeux des aveugles par l’eau du baptême.</p> <p>Sauveur du monde, toi que le Père a consacré dans l’Esprit,<br> —&nbsp;consacre-nous dans la vérité.</p> <p>Fils de Dieu, notre espérance, toi qui conduis les hommes au salut,<br> —&nbsp;reçois nos frères défunts dans ton Royaume.</p>"
     }
   },
-  "celebrationTitle": "Baptême du Seigneur",
-  "celebrationGrande": 5,
-  "liturgicalColor": "white",
-  "oration": "Dieu éternel et tout-puissant, quand le Christ fut baptisé dans le Jourdain, et que l’Esprit Saint reposa sur lui, tu l’as désigné comme ton Fils bien-aimé&nbsp;; accorde à tes fils adoptifs, nés de l’eau et de l’Esprit, de se garder toujours dans ta sainte volonté."
+  "oration": [
+    "Dieu éternel et tout-puissant, quand le Christ fut baptisé dans le Jourdain, et que l’Esprit Saint reposa sur lui, tu l’as désigné comme ton Fils bien-aimé&nbsp;; accorde à tes fils adoptifs, nés de l’eau et de l’Esprit, de se garder toujours dans ta sainte volonté."
+  ]
 }

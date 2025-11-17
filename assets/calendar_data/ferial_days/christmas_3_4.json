@@ -30,6 +30,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_15"
+      },
+      {
+        "psalm": "PSALM_78"
+      },
+      {
+        "psalm": "PSALM_79"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -42,19 +55,8 @@
         "psalm": "NT_10"
       }
     ],
-    "oration": "<p>Seigneur, avec ton Fils bien-aimé, l’aurore de ton jour éternel s’est levée sur toutes les nations&nbsp;: accorde à ton peuple de reconnaître la gloire de son Rédempteur et de parvenir à la lumière qui ne s’éteint pas.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_15"
-      },
-      {
-        "psalm": "PSALM_78"
-      },
-      {
-        "psalm": "PSALM_79"
-      }
+    "oration": [
+      "<p>Seigneur, avec ton Fils bien-aimé, l’aurore de ton jour éternel s’est levée sur toutes les nations&nbsp;: accorde à ton peuple de reconnaître la gloire de son Rédempteur et de parvenir à la lumière qui ne s’éteint pas.</p>"
     ]
   }
 }

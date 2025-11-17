@@ -29,12 +29,16 @@
       }
     ],
     "reading": {
-      "ref": "Is 2, 3",
+      "biblicalReference": "Is 2, 3",
       "content": "Venez, montons à la montagne du Seigneur, au temple du Dieu de Jacob. Il nous enseignera ses chemins et nous suivrons ses sentiers. Car c’est de Sion que vient la Loi, de Jérusalem la parole du Seigneur."
     },
-    "evangelicAntiphon": "Lève les yeux, Jérusalem, vois la puissance de ton Roi&nbsp;: le Sauveur vient briser tes chaînes.",
-    "intercession": "<p>Nous t’en prions, Jésus notre Sauveur venu annoncer aux pauvres la bonne nouvelle du salut&nbsp;:</p> <p>R/ Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Fais-toi connaître de ceux qui ne t’ont pas rencontré&nbsp;:<br> qu’ils voient ton salut et confessent ton nom.</p> <p>Que l’Évangile soit proclamé en tout lieu,<br> pour que tous les hommes découvrent ton chemin.</p> <p>Déploie ta grâce en notre vie,<br> pour que nous te servions avec générosité et persévérance.</p> <p>Préserve en nous la liberté que tu as éveillée&nbsp;:<br> qu’elle nous rende attentifs à notre prochain.</p> <p>Quand tu paraîtras pour juger les vivants et les morts,<br> porte sur nous un regard de miséricorde.</p> ",
-    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici votre Dieu&nbsp;!<br>  * Voici le Seigneur Dieu&nbsp;!<br> V/ Il vient avec puissance. * <br> V/ Toute chair verra sa gloire. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Lève les yeux, Jérusalem, vois la puissance de ton Roi&nbsp;: le Sauveur vient briser tes chaînes."
+    },
+    "intercession": {
+      "content": "<p>Nous t’en prions, Jésus notre Sauveur venu annoncer aux pauvres la bonne nouvelle du salut&nbsp;:</p> <p>R/ Révèle à tous les hommes ta gloire&nbsp;!</p> <p>Fais-toi connaître de ceux qui ne t’ont pas rencontré&nbsp;:<br> qu’ils voient ton salut et confessent ton nom.</p> <p>Que l’Évangile soit proclamé en tout lieu,<br> pour que tous les hommes découvrent ton chemin.</p> <p>Déploie ta grâce en notre vie,<br> pour que nous te servions avec générosité et persévérance.</p> <p>Préserve en nous la liberté que tu as éveillée&nbsp;:<br> qu’elle nous rende attentifs à notre prochain.</p> <p>Quand tu paraîtras pour juger les vivants et les morts,<br> porte sur nous un regard de miséricorde.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -57,20 +61,42 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Promesses enthousiastes pour un avenir lointain",
-      "ref": "Is 1, 21-27; 2, 1-5",
-      "content": "<p>Comment&nbsp;! Elle s’est prostituée, la cité fidèle&nbsp;! Le droit y régnait, la justice l’habitait, et maintenant, ce sont les meurtriers. Ton argent n’est plus que scories, ton meilleur vin est mêlé d’eau. Tes princes sont des rebelles, complices de voleurs, tous avides de cadeaux, courant les pots-de-vin&nbsp;; ils ne rendent pas justice à l’orphelin, la cause de la veuve ne les touche pas. Voilà pourquoi —&nbsp;oracle du Maître et SEIGNEUR de l’univers, Force d’Israël —&nbsp;: Malheur&nbsp;! Je prendrai ma revanche sur mes adversaires, je me vengerai de mes ennemis. Je ramènerai ma main sur toi&nbsp;; comme le fait la potasse, j’ôterai tes scories, j’enlèverai tous tes déchets. Je rendrai tes juges tels que jadis, tes conseillers comme autrefois. Alors on t’appellera «&nbsp;Ville de justice&nbsp;», «&nbsp;Cité fidèle&nbsp;». Par le droit, Sion sera délivrée&nbsp;; ils le seront par la justice, ceux des siens qui se convertiront. <i>Parole d’Isaïe, fils d’Amots, —&nbsp;ce qu’il a vu au sujet de Juda et de Jérusalem.</i> Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, s’élèvera au-dessus des collines. Vers elle afflueront toutes les nations et viendront des peuples nombreux. Ils diront&nbsp;: «&nbsp;Venez&nbsp;! montons à la montagne du SEIGNEUR, à la maison du Dieu de Jacob&nbsp;! Qu’il nous enseigne ses chemins, et nous irons par ses sentiers.&nbsp;» Oui, la loi sortira de Sion, et de Jérusalem, la parole du SEIGNEUR. Il sera juge entre les nations et l’arbitre de peuples nombreux. De leurs épées, ils forgeront des socs, et de leurs lances, des faucilles. Jamais nation contre nation ne lèvera l’épée&nbsp;; ils n’apprendront plus la guerre. Venez, maison de Jacob&nbsp;! Marchons à la lumière du SEIGNEUR.</p>",
-      "responsory": "<p>R/ Venez, montons à la maison du Seigneur&nbsp;!</p> <p>Le Messie doit venir, celui qu’on appelle Christ.<br> Il nous annoncera toute chose.</p> <p>Il nous enseignera ses voies,<br> nous suivrons ses sentiers.</p>"
-    },
-    "patristicReading": {
-      "title": "LETTRE PASTORALE DE SAINT CHARLES BORROMÉE",
-      "subtitle": "Le sens de l’Avent",
-      "content": "<p>Voici, mes bien-aimés, ce temps célébré avec tant de ferveur, et, comme dit l’Esprit Saint, temps de la faveur divine, période de salut, de paix et de réconciliation&nbsp;; temps jadis désiré très ardemment par les vœux et les aspirations instantes des anciens prophètes et patriarches, et qui a été vu enfin par le juste Siméon avec une joie débordante&nbsp;! Puisqu’il a toujours été célébré par l’Église avec tant de ferveur, nous-mêmes devons aussi le passer religieusement dans les louanges et les actions de grâce adressées au Père éternel pour la miséricorde qu’il a manifestée dans ce mystère. Oui, par cet avènement de son Fils unique, en vertu de son immense amour pour nous, pécheurs, il l’a envoyé alors pour nous délivrer de la tyrannie et de l’empire du démon, nous inviter à aller au ciel, nous faire pénétrer dans les mystères célestes, nous montrer la Vérité en personne, nous former à la pureté des mœurs, nous donner les germes des vertus, nous enrichir des trésors de sa grâce et enfin nous adopter pour ses fils et pour héritiers de la vie éternelle. Du fait que ce mystère est revécu chaque année par l’Église, nous sommes exhortés à rappeler sans cesse le souvenir de tant d’amour envers nous. Cela nous enseigne aussi que l’avènement du Christ n’a pas profité seulement à ceux qui vivaient à l’époque du Sauveur, mais que sa vertu devait être communiquée aussi à nous tous&nbsp;; du moins si nous voulons, par le moyen de la foi et des sacrements, accueillir la grâce qu’il nous a méritée et diriger notre vie selon cette grâce en lui obéissant. L’Église nous demande encore de comprendre ceci&nbsp;: de même qu’il est venu au monde une seule fois en s’incarnant, de même, si nous enlevons tout obstacle de notre part, il est prêt à venir à nous de nouveau, à toute heure et à tout instant, pour habiter spirituellement dans nos cœurs avec l’abondance de ses grâces. Aussi l’Église, comme une mère très affectueuse et très préoccupée de notre salut, à l’occasion de ce temps, nous enseigne, par des hymnes, des cantiques, et par toutes les paroles et les rites que lui a inspirés le Saint-Esprit, comment accueillir avec gratitude un si grand bienfait et comment nous enrichir de ses fruits. Ainsi notre âme se disposera à l’avènement du Christ avec autant de soin que s’il devait encore venir au monde, et de la manière même dont les pères de l’Ancien Testament, par leurs paroles comme par leurs exemples, nous ont appris à les imiter.</p>",
-      "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br> Car le Seigneur vient.</p> <p>Je vis un ciel nouveau, une nouvelle terre&nbsp;;<br> plus de pleurs, plus de cris, plus de peine&nbsp;:<br> Car le Seigneur vient.</p> <p>Dieu aura sa demeure parmi nous,<br> nous serons son peuple et lui, Dieu, sera avec nous&nbsp;:<br> Car le Seigneur vient.</p> <p>Nous ne chercherons plus l’éclat du soleil,<br> la gloire de Dieu nous illuminera&nbsp;:<br> Car le Seigneur vient.</p> <p>Que l’univers chante et crie de joie&nbsp;:<br> Car le Seigneur vient.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Promesses enthousiastes pour un avenir lointain",
+        "ref": "Is 1, 21-27; 2, 1-5",
+        "content": "<p>Comment&nbsp;! Elle s’est prostituée, la cité fidèle&nbsp;! Le droit y régnait, la justice l’habitait, et maintenant, ce sont les meurtriers. Ton argent n’est plus que scories, ton meilleur vin est mêlé d’eau. Tes princes sont des rebelles, complices de voleurs, tous avides de cadeaux, courant les pots-de-vin&nbsp;; ils ne rendent pas justice à l’orphelin, la cause de la veuve ne les touche pas. Voilà pourquoi —&nbsp;oracle du Maître et SEIGNEUR de l’univers, Force d’Israël —&nbsp;: Malheur&nbsp;! Je prendrai ma revanche sur mes adversaires, je me vengerai de mes ennemis. Je ramènerai ma main sur toi&nbsp;; comme le fait la potasse, j’ôterai tes scories, j’enlèverai tous tes déchets. Je rendrai tes juges tels que jadis, tes conseillers comme autrefois. Alors on t’appellera «&nbsp;Ville de justice&nbsp;», «&nbsp;Cité fidèle&nbsp;». Par le droit, Sion sera délivrée&nbsp;; ils le seront par la justice, ceux des siens qui se convertiront. <i>Parole d’Isaïe, fils d’Amots, —&nbsp;ce qu’il a vu au sujet de Juda et de Jérusalem.</i> Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, s’élèvera au-dessus des collines. Vers elle afflueront toutes les nations et viendront des peuples nombreux. Ils diront&nbsp;: «&nbsp;Venez&nbsp;! montons à la montagne du SEIGNEUR, à la maison du Dieu de Jacob&nbsp;! Qu’il nous enseigne ses chemins, et nous irons par ses sentiers.&nbsp;» Oui, la loi sortira de Sion, et de Jérusalem, la parole du SEIGNEUR. Il sera juge entre les nations et l’arbitre de peuples nombreux. De leurs épées, ils forgeront des socs, et de leurs lances, des faucilles. Jamais nation contre nation ne lèvera l’épée&nbsp;; ils n’apprendront plus la guerre. Venez, maison de Jacob&nbsp;! Marchons à la lumière du SEIGNEUR.</p>",
+        "responsory": "<p>R/ Venez, montons à la maison du Seigneur&nbsp;!</p> <p>Le Messie doit venir, celui qu’on appelle Christ.<br> Il nous annoncera toute chose.</p> <p>Il nous enseignera ses voies,<br> nous suivrons ses sentiers.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "LETTRE PASTORALE DE SAINT CHARLES BORROMÉE",
+        "subtitle": "Le sens de l’Avent",
+        "content": "<p>Voici, mes bien-aimés, ce temps célébré avec tant de ferveur, et, comme dit l’Esprit Saint, temps de la faveur divine, période de salut, de paix et de réconciliation&nbsp;; temps jadis désiré très ardemment par les vœux et les aspirations instantes des anciens prophètes et patriarches, et qui a été vu enfin par le juste Siméon avec une joie débordante&nbsp;! Puisqu’il a toujours été célébré par l’Église avec tant de ferveur, nous-mêmes devons aussi le passer religieusement dans les louanges et les actions de grâce adressées au Père éternel pour la miséricorde qu’il a manifestée dans ce mystère. Oui, par cet avènement de son Fils unique, en vertu de son immense amour pour nous, pécheurs, il l’a envoyé alors pour nous délivrer de la tyrannie et de l’empire du démon, nous inviter à aller au ciel, nous faire pénétrer dans les mystères célestes, nous montrer la Vérité en personne, nous former à la pureté des mœurs, nous donner les germes des vertus, nous enrichir des trésors de sa grâce et enfin nous adopter pour ses fils et pour héritiers de la vie éternelle. Du fait que ce mystère est revécu chaque année par l’Église, nous sommes exhortés à rappeler sans cesse le souvenir de tant d’amour envers nous. Cela nous enseigne aussi que l’avènement du Christ n’a pas profité seulement à ceux qui vivaient à l’époque du Sauveur, mais que sa vertu devait être communiquée aussi à nous tous&nbsp;; du moins si nous voulons, par le moyen de la foi et des sacrements, accueillir la grâce qu’il nous a méritée et diriger notre vie selon cette grâce en lui obéissant. L’Église nous demande encore de comprendre ceci&nbsp;: de même qu’il est venu au monde une seule fois en s’incarnant, de même, si nous enlevons tout obstacle de notre part, il est prêt à venir à nous de nouveau, à toute heure et à tout instant, pour habiter spirituellement dans nos cœurs avec l’abondance de ses grâces. Aussi l’Église, comme une mère très affectueuse et très préoccupée de notre salut, à l’occasion de ce temps, nous enseigne, par des hymnes, des cantiques, et par toutes les paroles et les rites que lui a inspirés le Saint-Esprit, comment accueillir avec gratitude un si grand bienfait et comment nous enrichir de ses fruits. Ainsi notre âme se disposera à l’avènement du Christ avec autant de soin que s’il devait encore venir au monde, et de la manière même dont les pères de l’Ancien Testament, par leurs paroles comme par leurs exemples, nous ont appris à les imiter.</p>",
+        "responsory": "<p>R/ Que l’univers chante et crie de joie&nbsp;:<br> Car le Seigneur vient.</p> <p>Je vis un ciel nouveau, une nouvelle terre&nbsp;;<br> plus de pleurs, plus de cris, plus de peine&nbsp;:<br> Car le Seigneur vient.</p> <p>Dieu aura sa demeure parmi nous,<br> nous serons son peuple et lui, Dieu, sera avec nous&nbsp;:<br> Car le Seigneur vient.</p> <p>Nous ne chercherons plus l’éclat du soleil,<br> la gloire de Dieu nous illuminera&nbsp;:<br> Car le Seigneur vient.</p> <p>Que l’univers chante et crie de joie&nbsp;:<br> Car le Seigneur vient.</p>"
+      }
+    ],
     "verse": "<p>V/ Montre-nous, Seigneur, ta bonté,<br> donne-nous enfin le Sauveur.</p>",
-    "oration": "Accorde-nous, Seigneur, d’attendre sans faiblir la venue de ton Fils, pour qu’au jour où il viendra frapper à notre porte, il nous trouve vigilants dans la prière, heureux de chanter sa louange. Lui qui règne."
+    "oration": [
+      "Accorde-nous, Seigneur, d’attendre sans faiblir la venue de ton Fils, pour qu’au jour où il viendra frapper à notre porte, il nous trouve vigilants dans la prière, heureux de chanter sa louange. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_18B",
+        "antiphon": [
+          "Je viens sans tarder rendre à chacun selon ses œuvres."
+        ]
+      },
+      {
+        "psalm": "PSALM_7_1"
+      },
+      {
+        "psalm": "PSALM_7_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -94,27 +120,15 @@
       }
     ],
     "reading": {
-      "ref": "Ph 3, 20b-21",
+      "biblicalReference": "Ph 3, 20b-21",
       "content": "Nous attendons comme Sauveur le Seigneur Jésus Christ, lui qui transformera nos pauvres corps à l’image de son corps glorieux, avec la puissance qui le rend capable aussi de tout dominer."
     },
-    "evangelicAntiphon": "L’ange du Seigneur annonce à Marie que l’Esprit la couvrira de son ombre, alléluia.",
-    "intercession": "<p>Seigneur Jésus envoyé par le Père,<br>montre-nous le chemin qui mène à ta demeure.</p> <p>R/ Viens, Seigneur, et sauve-nous&nbsp;!</p> <p>Seigneur Jésus, conçu du Saint-Esprit,<br> renouvelle nos cœurs par sa puissance.</p> <p>Seigneur Jésus, qui as pris chair de la Vierge Marie,<br> rassemble-nous dans l’unité de ton Corps.</p> <p>Seigneur Jésus, devenu l’un de nous,<br> rends-nous solidaires de tout homme.</p> <p>Seigneur Jésus, espérance des nations,<br> souviens-toi de tous les hommes qui, depuis les origines,<br> ont espéré la vie qui ne finit pas.</p> ",
-    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce<br>  *  Ton nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_18B",
-        "antiphon": [
-          "Je viens sans tarder rendre à chacun selon ses œuvres."
-        ]
-      },
-      {
-        "psalm": "PSALM_7_1"
-      },
-      {
-        "psalm": "PSALM_7_2"
-      }
-    ]
+    "responsory": "<p>R/ À toi, Dieu, nous rendons grâce<br>  *  Ton nom est proche.<br> V/ De toi vient le relèvement.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "L’ange du Seigneur annonce à Marie que l’Esprit la couvrira de son ombre, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus envoyé par le Père,<br>montre-nous le chemin qui mène à ta demeure.</p> <p>R/ Viens, Seigneur, et sauve-nous&nbsp;!</p> <p>Seigneur Jésus, conçu du Saint-Esprit,<br> renouvelle nos cœurs par sa puissance.</p> <p>Seigneur Jésus, qui as pris chair de la Vierge Marie,<br> rassemble-nous dans l’unité de ton Corps.</p> <p>Seigneur Jésus, devenu l’un de nous,<br> rends-nous solidaires de tout homme.</p> <p>Seigneur Jésus, espérance des nations,<br> souviens-toi de tous les hommes qui, depuis les origines,<br> ont espéré la vie qui ne finit pas.</p> "
+    }
   }
 }

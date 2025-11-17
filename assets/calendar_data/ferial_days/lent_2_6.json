@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 1, 16-18",
+      "biblicalReference": "Is 1, 16-18",
       "content": "Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien&nbsp;: recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine."
     },
-    "evangelicAntiphon": "Père, j’ai péché contre le ciel et contre toi, je ne mérite plus d’être appelé ton fils.",
-    "intercession": "<p>Jésus, maître de vie, conduis l’Église vers ta Pâque&nbsp;:</p> <p>R/ Nous te chanterons pour tes merveilles.</p> <p>Donne à notre cœur de discerner ses péchés.</p> <p>Apprends-nous à rechercher la nourriture qui demeure.</p> <p>Creuse en nous le désir de la sainteté.</p> <p>Accorde-nous la grâce de la charité.</p> <p>Écoute la prière de Marie, notre Mère.</p> ",
     "responsory": "<p>R/ Le sang de Jésus nous purifie de tout péché.<br> V/ Venez et voyez les hauts faits de Dieu.&nbsp;R/ <br> V/ Acclamez Dieu, toute la terre.&nbsp;R/ <br></p>",
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    "evangelicAntiphon": {
+      "common": "Père, j’ai péché contre le ciel et contre toi, je ne mérite plus d’être appelé ton fils."
+    },
+    "intercession": {
+      "content": "<p>Jésus, maître de vie, conduis l’Église vers ta Pâque&nbsp;:</p> <p>R/ Nous te chanterons pour tes merveilles.</p> <p>Donne à notre cœur de discerner ses péchés.</p> <p>Apprends-nous à rechercher la nourriture qui demeure.</p> <p>Creuse en nous le désir de la sainteté.</p> <p>Accorde-nous la grâce de la charité.</p> <p>Écoute la prière de Marie, notre Mère.</p> "
+    },
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Les dix commandements",
-      "ref": "Ex 20, 1-17",
-      "content": "<p>Alors Dieu prononça toutes les paroles que voici&nbsp;: «&nbsp;Je suis le SEIGNEUR ton Dieu, qui t’ai fait sortir du pays d’Égypte, de la maison d’esclavage. Tu n’auras pas d’autres dieux en face de moi. Tu ne feras aucune idole, aucune image de ce qui est là-haut dans les cieux, ou en bas sur la terre, ou dans les eaux par-dessous la terre. Tu ne te prosterneras pas devant ces dieux, pour leur rendre un culte. Car moi, le SEIGNEUR ton Dieu, je suis un Dieu jaloux&nbsp;: chez ceux qui me haïssent, je punis la faute des pères sur les fils, jusqu’à la troisième et la quatrième génération&nbsp;; mais ceux qui m’aiment et observent mes commandements, je leur montre ma fidélité jusqu’à la millième génération. Tu n’invoqueras pas en vain le nom du SEIGNEUR ton Dieu, car le SEIGNEUR ne laissera pas impuni celui qui invoque en vain son nom. Souviens-toi du jour du sabbat pour le sanctifier. Pendant six jours tu travailleras et tu feras tout ton ouvrage&nbsp;; mais le septième jour est le jour du repos, sabbat en l’honneur du SEIGNEUR ton Dieu&nbsp;: tu ne feras aucun ouvrage, ni toi, ni ton fils, ni ta fille, ni ton serviteur, ni ta servante, ni tes bêtes, ni l’immigré qui est dans ta ville. Car en six jours le SEIGNEUR a fait le ciel, la terre, la mer et tout ce qu’ils contiennent, mais il s’est reposé le septième jour. C’est pourquoi le SEIGNEUR a béni le jour du sabbat et l’a sanctifié. Honore ton père et ta mère, afin d’avoir longue vie sur la terre que te donne le SEIGNEUR ton Dieu. Tu ne commettras pas de meurtre.<br> <p>Tu ne commettras pas d’adultère.<br> <p>Tu ne commettras pas de vol.<br> <p>Tu ne porteras pas de faux témoignage contre ton prochain.<br> <p>Tu ne convoiteras pas la maison de ton prochain&nbsp;; tu ne convoiteras pas la femme de ton prochain, ni son serviteur, ni sa servante, ni son bœuf, ni son âne&nbsp;: rien de ce qui lui appartient.&nbsp;»</p>",
-      "responsory": "<p>R/ Celui qui vit dans l’amour<br> accomplit toute la loi.</p> <p>La loi du SEIGNEUR est parfaite,<br> qui redonne la vie.</p> <p>La charte du SEIGNEUR est sûre<br> qui rend sages les simples.</p> <p>Le commandement du SEIGNEUR est limpide,<br> il clarifie le regard.</p>"
-    },
-    "patristicReading": {
-      "title": "SERMON DE SAINT AMBROISE",
-      "subtitle": "«&nbsp;Là où est ton trésor…&nbsp;»",
-      "content": "<p>Le trésor de l’homme est situé là où est son cœur&nbsp;; car le Seigneur n’a pas coutume de refuser quelque chose de bon à ceux qui lui demandent. Puisque le Seigneur est bon, et surtout envers ceux qui espèrent en lui, attachons-nous à lui, soyons avec lui de toute notre âme, de tout notre cœur, de toutes nos forces pour être dans sa lumière, pour contempler sa gloire et pour posséder la grâce du bonheur céleste. Tendons nos esprits vers ce bien, soyons en lui, vivons en lui, attachons nous à lui, à ce bien qui dépasse toute pensée et toute réflexion, qui jouit d’une paix et d’une tranquillité perpétuelles&nbsp;; <i>une paix qui surpasse</i> toute pensée et <i>tout sentiment</i>. Il est ce bien qui pénètre toute chose&nbsp;; tous nous vivons en lui et nous dépendons de lui&nbsp;; il n’y a rien au-dessus de lui, car il est divin. <i>Personne</i>, en effet, <i>n’est bon, sinon Dieu seul</i>. Ce qui est bon est divin, ce qui est divin est bon, c’est pourquoi il est dit&nbsp;: <i>Lorsque tu ouvres la main, Seigneur, tous sont comblés de ta bonté</i>. C’est en effet par la bonté de Dieu que nous sont accordés tous les biens qui ne comportent aucun mélange de mal. Ce sont les biens que l’Écriture promet aux fidèles&nbsp;: <i>Vous mangerez les biens du pays</i>. ~ Nous sommes morts avec le Christ ~&nbsp;; <i>nous portons la mort du Christ dans notre corps, pour que la vie du Christ soit elle aussi manifestée en nous</i>. Nous ne vivons donc plus de notre vie, mais de la vie du Christ, vie d’innocence, vie de pureté, vie de simplicité et de toutes les vertus. Nous sommes ressuscités avec le Christ&nbsp;: vivons en lui, élevons nous en lui afin que, sur la terre, le serpent ne puisse plus nous atteindre au talon pour nous blesser. Fuyons hors d’ici. Tu peux fuir en esprit, même si tu es retenu physiquement. Tu peux à la fois demeurer ici et être en présence du Seigneur, si ton âme s’attache à lui, si, par la pensée, tu marches derrière lui, si tu suis ses chemins par la foi, non par la vue, si tu te réfugies en lui&nbsp;; car il est <i>refuge et force</i>, lui à qui David disait&nbsp;: <i>Vers toi je me suis réfugié et je n’ai pas été déçu</i>. Puisque Dieu est un refuge, car Dieu est au ciel et au dessus des cieux, c’est donc bien là qu’il faut fuir loin d’ici, là où est la paix, le repos de nos labeurs, là où nous ferons le festin du grand sabbat, comme dit Moïse&nbsp;: <i>Les sabbats du pays seront votre nourriture</i>. C’est un festin, en effet, c’est la plénitude de la réjouissance et de la tranquillité que de se reposer en Dieu et de contempler sa béatitude. ~ Courons comme les cerfs vers la source des eaux&nbsp;; la soif ressentie par David, que notre âme la ressente aussi. Quelle est cette source&nbsp;? Écoute David qui le dit&nbsp;: <i>En toi est la source de la joie</i>. Que mon âme dise à cette source&nbsp;: <i>Quand pourrai-je venir et paraître devant ta face&nbsp;?</i> Car la source, c’est Dieu.</p>",
-      "responsory": "<p>R/ Je t’aime, Seigneur, ma force,<br> mon libérateur et le rocher de mon salut.</p> <p>Tu aimeras le Seigneur ton Dieu<br> de tout ton cœur, de toute ton âme,<br> de toute ta force.</p> <p>Garde-toi d’oublier le Seigneur<br> qui t’a fait sortir de la maison de servitude.</p> <p>Qui garde mes commandements, dit Jésus,<br> voilà celui qui m’aime, et mon Père l’aimera.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Les dix commandements",
+        "ref": "Ex 20, 1-17",
+        "content": "<p>Alors Dieu prononça toutes les paroles que voici&nbsp;: «&nbsp;Je suis le SEIGNEUR ton Dieu, qui t’ai fait sortir du pays d’Égypte, de la maison d’esclavage. Tu n’auras pas d’autres dieux en face de moi. Tu ne feras aucune idole, aucune image de ce qui est là-haut dans les cieux, ou en bas sur la terre, ou dans les eaux par-dessous la terre. Tu ne te prosterneras pas devant ces dieux, pour leur rendre un culte. Car moi, le SEIGNEUR ton Dieu, je suis un Dieu jaloux&nbsp;: chez ceux qui me haïssent, je punis la faute des pères sur les fils, jusqu’à la troisième et la quatrième génération&nbsp;; mais ceux qui m’aiment et observent mes commandements, je leur montre ma fidélité jusqu’à la millième génération. Tu n’invoqueras pas en vain le nom du SEIGNEUR ton Dieu, car le SEIGNEUR ne laissera pas impuni celui qui invoque en vain son nom. Souviens-toi du jour du sabbat pour le sanctifier. Pendant six jours tu travailleras et tu feras tout ton ouvrage&nbsp;; mais le septième jour est le jour du repos, sabbat en l’honneur du SEIGNEUR ton Dieu&nbsp;: tu ne feras aucun ouvrage, ni toi, ni ton fils, ni ta fille, ni ton serviteur, ni ta servante, ni tes bêtes, ni l’immigré qui est dans ta ville. Car en six jours le SEIGNEUR a fait le ciel, la terre, la mer et tout ce qu’ils contiennent, mais il s’est reposé le septième jour. C’est pourquoi le SEIGNEUR a béni le jour du sabbat et l’a sanctifié. Honore ton père et ta mère, afin d’avoir longue vie sur la terre que te donne le SEIGNEUR ton Dieu. Tu ne commettras pas de meurtre.<br> <p>Tu ne commettras pas d’adultère.<br> <p>Tu ne commettras pas de vol.<br> <p>Tu ne porteras pas de faux témoignage contre ton prochain.<br> <p>Tu ne convoiteras pas la maison de ton prochain&nbsp;; tu ne convoiteras pas la femme de ton prochain, ni son serviteur, ni sa servante, ni son bœuf, ni son âne&nbsp;: rien de ce qui lui appartient.&nbsp;»</p>",
+        "responsory": "<p>R/ Celui qui vit dans l’amour<br> accomplit toute la loi.</p> <p>La loi du SEIGNEUR est parfaite,<br> qui redonne la vie.</p> <p>La charte du SEIGNEUR est sûre<br> qui rend sages les simples.</p> <p>Le commandement du SEIGNEUR est limpide,<br> il clarifie le regard.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "SERMON DE SAINT AMBROISE",
+        "subtitle": "«&nbsp;Là où est ton trésor…&nbsp;»",
+        "content": "<p>Le trésor de l’homme est situé là où est son cœur&nbsp;; car le Seigneur n’a pas coutume de refuser quelque chose de bon à ceux qui lui demandent. Puisque le Seigneur est bon, et surtout envers ceux qui espèrent en lui, attachons-nous à lui, soyons avec lui de toute notre âme, de tout notre cœur, de toutes nos forces pour être dans sa lumière, pour contempler sa gloire et pour posséder la grâce du bonheur céleste. Tendons nos esprits vers ce bien, soyons en lui, vivons en lui, attachons nous à lui, à ce bien qui dépasse toute pensée et toute réflexion, qui jouit d’une paix et d’une tranquillité perpétuelles&nbsp;; <i>une paix qui surpasse</i> toute pensée et <i>tout sentiment</i>. Il est ce bien qui pénètre toute chose&nbsp;; tous nous vivons en lui et nous dépendons de lui&nbsp;; il n’y a rien au-dessus de lui, car il est divin. <i>Personne</i>, en effet, <i>n’est bon, sinon Dieu seul</i>. Ce qui est bon est divin, ce qui est divin est bon, c’est pourquoi il est dit&nbsp;: <i>Lorsque tu ouvres la main, Seigneur, tous sont comblés de ta bonté</i>. C’est en effet par la bonté de Dieu que nous sont accordés tous les biens qui ne comportent aucun mélange de mal. Ce sont les biens que l’Écriture promet aux fidèles&nbsp;: <i>Vous mangerez les biens du pays</i>. ~ Nous sommes morts avec le Christ ~&nbsp;; <i>nous portons la mort du Christ dans notre corps, pour que la vie du Christ soit elle aussi manifestée en nous</i>. Nous ne vivons donc plus de notre vie, mais de la vie du Christ, vie d’innocence, vie de pureté, vie de simplicité et de toutes les vertus. Nous sommes ressuscités avec le Christ&nbsp;: vivons en lui, élevons nous en lui afin que, sur la terre, le serpent ne puisse plus nous atteindre au talon pour nous blesser. Fuyons hors d’ici. Tu peux fuir en esprit, même si tu es retenu physiquement. Tu peux à la fois demeurer ici et être en présence du Seigneur, si ton âme s’attache à lui, si, par la pensée, tu marches derrière lui, si tu suis ses chemins par la foi, non par la vue, si tu te réfugies en lui&nbsp;; car il est <i>refuge et force</i>, lui à qui David disait&nbsp;: <i>Vers toi je me suis réfugié et je n’ai pas été déçu</i>. Puisque Dieu est un refuge, car Dieu est au ciel et au dessus des cieux, c’est donc bien là qu’il faut fuir loin d’ici, là où est la paix, le repos de nos labeurs, là où nous ferons le festin du grand sabbat, comme dit Moïse&nbsp;: <i>Les sabbats du pays seront votre nourriture</i>. C’est un festin, en effet, c’est la plénitude de la réjouissance et de la tranquillité que de se reposer en Dieu et de contempler sa béatitude. ~ Courons comme les cerfs vers la source des eaux&nbsp;; la soif ressentie par David, que notre âme la ressente aussi. Quelle est cette source&nbsp;? Écoute David qui le dit&nbsp;: <i>En toi est la source de la joie</i>. Que mon âme dise à cette source&nbsp;: <i>Quand pourrai-je venir et paraître devant ta face&nbsp;?</i> Car la source, c’est Dieu.</p>",
+        "responsory": "<p>R/ Je t’aime, Seigneur, ma force,<br> mon libérateur et le rocher de mon salut.</p> <p>Tu aimeras le Seigneur ton Dieu<br> de tout ton cœur, de toute ton âme,<br> de toute ta force.</p> <p>Garde-toi d’oublier le Seigneur<br> qui t’a fait sortir de la maison de servitude.</p> <p>Qui garde mes commandements, dit Jésus,<br> voilà celui qui m’aime, et mon Père l’aimera.</p>"
+      }
+    ],
     "verse": "<p>V/ Celui qui fait la vérité<br>vient à la lumière.</p>",
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_11",
+        "antiphon": [
+          "Fais-moi vivre selon ton amour, que je sois fidèle à ta parole."
+        ]
+      },
+      {
+        "psalm": "PSALM_60"
+      },
+      {
+        "psalm": "PSALM_63"
+      }
+    ],
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "2 Co 6, 1 b-4a",
+      "biblicalReference": "2 Co 6, 1 b-4a",
       "content": "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture&nbsp;: Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
     },
-    "evangelicAntiphon": "Une voix disait depuis la nuée&nbsp;: Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le.",
-    "intercession": "<p>Reconnaissons la sainteté de notre Dieu&nbsp;:</p> <p>R/ Seigneur, toi seul es saint&nbsp;!</p> <p>Seigneur Dieu, source du pardon,<br> fais-nous reconnaître nos fautes en nous tournant vers le Crucifié.</p> <p>Apprends-nous à nous dépouiller du vieil homme et de ses convoitises,<br> pour revêtir l’homme nouveau, recréé en ton Fils.</p> <p>Garde ton peuple, uni à ses pasteurs,<br> dans la fidélité à l’enseignement des Apôtres.</p> <p>Transforme en artisans d’unité dans le Corps de ton Christ<br> ceux qui communient au même pain.</p> <p>Reçois dans ta gloire ceux qui ont quitté ce monde,<br> augmente notre désir de te voir un jour face à face.</p> ",
     "responsory": "<p>R/ Voici le temps favorable.<br>  *  Voici le jour du salut.<br> V/ Rassemblez-vous, venez, approchez tous,<br> survivants des nations.  * <br> V/ Tournez-vous vers moi, vous serez sauvés,<br> tous les lointains de la terre.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_11",
-        "antiphon": [
-          "Fais-moi vivre selon ton amour, que je sois fidèle à ta parole."
-        ]
-      },
-      {
-        "psalm": "PSALM_60"
-      },
-      {
-        "psalm": "PSALM_63"
-      }
-    ],
-    "oration": "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    "evangelicAntiphon": {
+      "common": "Une voix disait depuis la nuée&nbsp;: Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le."
+    },
+    "intercession": {
+      "content": "<p>Reconnaissons la sainteté de notre Dieu&nbsp;:</p> <p>R/ Seigneur, toi seul es saint&nbsp;!</p> <p>Seigneur Dieu, source du pardon,<br> fais-nous reconnaître nos fautes en nous tournant vers le Crucifié.</p> <p>Apprends-nous à nous dépouiller du vieil homme et de ses convoitises,<br> pour revêtir l’homme nouveau, recréé en ton Fils.</p> <p>Garde ton peuple, uni à ses pasteurs,<br> dans la fidélité à l’enseignement des Apôtres.</p> <p>Transforme en artisans d’unité dans le Corps de ton Christ<br> ceux qui communient au même pain.</p> <p>Reçois dans ta gloire ceux qui ont quitté ce monde,<br> augmente notre désir de te voir un jour face à face.</p> "
+    },
+    "oration": [
+      "Par ta grâce tu nous guéris, Seigneur, et tu nous donnes déjà les biens du ciel alors que nous som­mes encore sur la terre&nbsp;; dirige toi-même notre vie de chaque jour et conduis-la jusqu’à cette lumière où tu veux nous accueillir."
+    ]
   }
 }

@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Ac 10, 40-43",
+      "biblicalReference": "Ac 10, 40-43",
       "content": "Voici que Dieu a ressuscité Jésus le troisième jour. Il lui a donné de se montrer non pas à tout le peuple, mais seulement aux témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Il nous a chargés d’annoncer au peuple et de témoigner que Dieu l’a choisi comme Juge des vivants et des morts. C’est à lui que tous les prophètes rendent ce témoignage&nbsp;: Tout homme qui croit en lui reçoit par lui le pardon de ses péchés."
     },
-    "evangelicAntiphon": "Le soleil s’est levé&nbsp;: ne cherchez plus parmi les morts le Fils de l’homme&nbsp;: il a brisé les verrous de la mort, alléluia&nbsp;!",
-    "intercession": "<p>Acclamons Jésus Christ&nbsp;: Dieu l’a ressuscité, il nous ressuscitera avec lui.</p> <p>R/ Gloire à toi, Jésus, notre vie&nbsp;!</p> <p>Ô Christ, radieuse lumière qui brille dans nos ténèbres,<br> tu as sanctifié pour toujours notre condition mortelle.</p> <p>Seigneur, toi qui as marché sur la voie du calvaire,<br> tu nous appelles à te suivre pour mourir et ressusciter avec toi.</p> <p>Fils du Père, notre frère et notre maître,<br> tu fais de nous un peuple de prêtres et de rois.</p> <p>Roi de gloire,<br> nous attendons le jour éclatant de ta manifestation&nbsp;:<br> alors nous te verrons tel que tu es,<br> et nous serons semblables à toi.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;;<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;;<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le soleil s’est levé&nbsp;: ne cherchez plus parmi les morts le Fils de l’homme&nbsp;: il a brisé les verrous de la mort, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Acclamons Jésus Christ&nbsp;: Dieu l’a ressuscité, il nous ressuscitera avec lui.</p> <p>R/ Gloire à toi, Jésus, notre vie&nbsp;!</p> <p>Ô Christ, radieuse lumière qui brille dans nos ténèbres,<br> tu as sanctifié pour toujours notre condition mortelle.</p> <p>Seigneur, toi qui as marché sur la voie du calvaire,<br> tu nous appelles à te suivre pour mourir et ressusciter avec toi.</p> <p>Fils du Père, notre frère et notre maître,<br> tu fais de nous un peuple de prêtres et de rois.</p> <p>Roi de gloire,<br> nous attendons le jour éclatant de ta manifestation&nbsp;:<br> alors nous te verrons tel que tu es,<br> et nous serons semblables à toi.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -46,11 +50,31 @@
         "psalm": "PSALM_0"
       }
     ],
-    "biblicalReading": {
-      "content": "<p></p>"
-    },
+    "biblicalReading": [
+      {
+        "content": "<p></p>"
+      }
+    ],
     "verse": "<p></p>",
-    "oration": "Aujourd’hui, Dieu notre Père, tu nous ouvres la vie éternelle par la victoire de ton Fils sur la mort, et nous fêtons sa résurrection. Que ton Esprit fasse de nous des hommes nouveaux pour que nous ressuscitions avec le Christ dans la lumière de la vie. Lui qui règne."
+    "oration": [
+      "Aujourd’hui, Dieu notre Père, tu nous ouvres la vie éternelle par la victoire de ton Fils sur la mort, et nous fêtons sa résurrection. Que ton Esprit fasse de nous des hommes nouveaux pour que nous ressuscitions avec le Christ dans la lumière de la vie. Lui qui règne."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_8",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_18A"
+      },
+      {
+        "psalm": "PSALM_18B"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -74,27 +98,15 @@
       }
     ],
     "reading": {
-      "ref": "He 10, 12-14",
+      "biblicalReference": "He 10, 12-14",
       "content": "Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté."
     },
-    "evangelicAntiphon": "Jésus vient, toutes portes closes. Il se tient au milieu de ses disciples. Il leur dit&nbsp;: La paix soit avec vous&nbsp;! Alléluia&nbsp;!",
-    "intercession": "<p>À Jésus, le Vivant, qui ne cesse d’intercéder pour nous, adressons notre prière&nbsp;:</p> <p>R/ Roi de gloire, exauce-nous&nbsp;!</p> <p>Ô Christ, lumière et salut du monde,<br> répands le feu de ton Esprit sur ceux qui confessent ta résurrection.</p> <p>Permets aux fils d’Abraham, d’Isaac et de Jacob<br> de reconnaître en toi le messie de leur espérance.</p> <p>Ceux que tu as fait renaître, ceux que tu as nourris,<br> conduis-les à la plénitude du Royaume.</p> <p>Que toute terre habitée<br> soit illuminée de la lumière de Pâques.</p> <p>Par ton obéissance jusqu’à la mort,<br> par ton exaltation à la droite du Père,<br>ouvre à tes frères les portes du Paradis.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;:<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_8",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_18A"
-      },
-      {
-        "psalm": "PSALM_18B"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Peuples, rayonnez de joie&nbsp;:<br> voici la Pâque du Seigneur.&nbsp;R/ <br> V/ Voici le jour où le Christ, notre Dieu,<br> nous conduit de la mort à la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jésus vient, toutes portes closes. Il se tient au milieu de ses disciples. Il leur dit&nbsp;: La paix soit avec vous&nbsp;! Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>À Jésus, le Vivant, qui ne cesse d’intercéder pour nous, adressons notre prière&nbsp;:</p> <p>R/ Roi de gloire, exauce-nous&nbsp;!</p> <p>Ô Christ, lumière et salut du monde,<br> répands le feu de ton Esprit sur ceux qui confessent ta résurrection.</p> <p>Permets aux fils d’Abraham, d’Isaac et de Jacob<br> de reconnaître en toi le messie de leur espérance.</p> <p>Ceux que tu as fait renaître, ceux que tu as nourris,<br> conduis-les à la plénitude du Royaume.</p> <p>Que toute terre habitée<br> soit illuminée de la lumière de Pâques.</p> <p>Par ton obéissance jusqu’à la mort,<br> par ton exaltation à la droite du Père,<br>ouvre à tes frères les portes du Paradis.</p> "
+    }
   }
 }

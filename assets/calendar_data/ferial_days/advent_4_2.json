@@ -51,6 +51,22 @@
     ],
     "verse": "<p>V/ Préparez les chemins du Seigneur,<br> aplanissez la route.</p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_18",
+        "antiphon": [
+          "L’Ange dit à Marie&nbsp;: je te salue, comblée de grâce&nbsp;! Le Seigneur est avec toi&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_87_1"
+      },
+      {
+        "psalm": "PSALM_87_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -70,22 +86,6 @@
         "antiphon": [
           "Voici le Seigneur, le Souverain des rois de la terre&nbsp;! Heureux qui se tient prêt à l’accueillir&nbsp;!"
         ]
-      }
-    ]
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_18",
-        "antiphon": [
-          "L’Ange dit à Marie&nbsp;: je te salue, comblée de grâce&nbsp;! Le Seigneur est avec toi&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_87_1"
-      },
-      {
-        "psalm": "PSALM_87_2"
       }
     ]
   }

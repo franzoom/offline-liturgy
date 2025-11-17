@@ -1,10 +1,22 @@
 {
+  "firstVespers": {
+    "psalmody": [
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "Gloire à toi, Seigneur, par le Christ dans l'Église."
+        ]
+      }
+    ]
+  },
   "readings": {
-    "biblicalReading": {
-      "title": "",
-      "ref": "1R 8",
-      "content": ""
-    }
+    "biblicalReading": [
+      {
+        "title": "",
+        "ref": "1R 8",
+        "content": ""
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -15,7 +27,5 @@
         ]
       }
     ]
-  },
-  "firstVespersPsalm3Antiphon": "Gloire à toi, Seigneur, par le Christ dans l'Église.",
-  "firstVerspersPsalm3": "NT_6"
+  }
 }

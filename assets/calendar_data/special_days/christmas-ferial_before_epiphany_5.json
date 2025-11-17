@@ -1,62 +1,78 @@
 {
+  "celebration": {
+    "title": "5 janvier (avant l’Épiphanie)",
+    "grade": 13,
+    "color": "white"
+  },
   "morning": {
     "reading": {
-      "ref": "Sg 7, 26-27",
+      "biblicalReference": "Sg 7, 26-27",
       "content": "La Sagesse est le reflet de la lumière éternelle, le miroir sans tache de l’activité de Dieu, l’image de sa bonté. Comme elle est unique, elle peut tout&nbsp;; et sans sortir d’elle-même, elle renouvelle l’univers."
     },
-    "evangelicAntiphon": "Le Seigneur visite et rachète son peuple.",
-    "intercession": "<p>R/Verbe de Dieu, par ta naissance, sauve-nous&nbsp;!</p> <p>Roi de l’univers<br> que les bergers ont trouvé dans une crèche,<br> —&nbsp;donne-nous le désir de ta pauvreté.</p> <p>Maître du ciel,<br> tu as habité parmi nous sur la terre,<br> —&nbsp;enseigne-nous le respect pour le plus petit de nos frères.</p> <p>Lumière éternelle,<br> tu as pris chair, mais non pas le péché,<br> —&nbsp;que tes fidèles dans le monde ne soient pas du monde.</p> <p>Époux divin de l’Église,<br> tu es sa forteresse imprenable,<br> —&nbsp;fais-nous la grâce d’y demeurer pour notre salut.</p>",
-    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Le Seigneur s’est rappelé son amour.<br> * Alléluia, alléluia&nbsp;!<br> V/ Il a révélé sa justice aux nations.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le Seigneur visite et rachète son peuple."
+    },
+    "intercession": {
+      "content": "<p>R/Verbe de Dieu, par ta naissance, sauve-nous&nbsp;!</p> <p>Roi de l’univers<br> que les bergers ont trouvé dans une crèche,<br> —&nbsp;donne-nous le désir de ta pauvreté.</p> <p>Maître du ciel,<br> tu as habité parmi nous sur la terre,<br> —&nbsp;enseigne-nous le respect pour le plus petit de nos frères.</p> <p>Lumière éternelle,<br> tu as pris chair, mais non pas le péché,<br> —&nbsp;que tes fidèles dans le monde ne soient pas du monde.</p> <p>Époux divin de l’Église,<br> tu es sa forteresse imprenable,<br> —&nbsp;fais-nous la grâce d’y demeurer pour notre salut.</p>"
+    }
   },
   "readings": {
-    "biblicalReading": {
-      "title": "Préoccupation de l’apôtre",
-      "ref": "Col 4, 2-18",
-      "content": "<p>Soyez assidus à la prière&nbsp;; qu’elle vous tienne vigilants dans l’action de grâce. Priez en même temps pour nous, afin que Dieu ouvre une porte à notre parole et que nous annoncions le mystère du Christ, pour lequel je suis en prison&nbsp;; ainsi, je le manifesterai comme je me dois d’en parler. Conduisez-vous avec sagesse envers ceux du dehors, en tirant parti du moment favorable. Que vos paroles soient toujours bienveillantes, qu’elles ne manquent pas de sel, vous saurez ainsi répondre à chacun comme il faut.</p> <p>Vous serez informés de tout ce qui me concerne, par Tychique, le frère bien-aimé, fidèle ministre et mon compagnon de service, dans le Seigneur. Je l’envoie spécialement auprès de vous afin que vous ayez de nos nouvelles et qu’il réconforte vos cœurs&nbsp;; je l’envoie avec Onésime, le frère fidèle et bien-aimé, qui est de chez vous&nbsp;; ils vous informeront de tout ce qui se passe ici.</p> <p>Vous avez les salutations d’Aristarque, mon compagnon de captivité, et celles de Marc, le cousin de Barnabé —&nbsp;vous avez reçu des instructions à son sujet&nbsp;: s’il vient chez vous, accueillez-le —&nbsp;; vous avez aussi les salutations de Jésus appelé Justus&nbsp;: ces trois-là sont les seuls d’origine juive à travailler avec moi au règne de Dieu, ils ont été pour moi une consolation. Vous avez les salutations d’Épaphras, qui est de chez vous&nbsp;: un serviteur du Christ Jésus, qui mène sans cesse pour vous le combat de la prière, afin que vous teniez debout, comme des gens parfaits et pleinement accordés à la volonté de Dieu&nbsp;; je lui rends ce témoignage qu’il se donne beaucoup de peine pour vous, pour ceux de Laodicée et ceux de Hiérapolis. Vous avez la salutation de Luc, le médecin bien-aimé, et de Démas.</p> <p>Saluez les frères de Laodicée, et aussi Nympha et l’Église qui se rassemble dans sa maison. Et quand on aura lu cette lettre chez vous, faites en sorte qu’on la lise aussi dans l’Église de Laodicée&nbsp;; lisez aussi vous-mêmes celle qui vous viendra de Laodicée. Enfin dites à Archippe&nbsp;: «&nbsp;Veille à bien accomplir le ministère que tu as reçu dans le Seigneur.&nbsp;»</p> <p>La salutation est de ma main à moi, Paul. Souvenez-vous que je suis en prison. La grâce soit avec vous.</p>",
-      "responsory": "<p>R/ Joie pour qui cherche en Dieu son refuge, éternels cris de joie.</p> Dès le matin je suis tendu vers toi et je reste en éveil.</p> Oui, tu bénis le juste, Seigneur, tu l’entoures du rempart de ta grâce.</p> Ouvre mes lèvres et ma bouche annoncera ta louange&nbsp;!</p>"
-    },
-    "patristicReading": {
-      "title": "SERMON DE SAINT AUGUSTIN POUR NOËL",
-      "subtitle": "«&nbsp;Jusqu’à ce que vienne l’achèvement&nbsp;»",
-      "content": "<p>Qui donc, parmi les hommes, connaît tous les trésors de sagesse et de science cachés dans le Christ, et enfouis dans la pauvreté de sa chair&nbsp;? Car<i>lui qui est riche est devenu pauvre à cause de nous, pour que nous devenions riches par sa pauvreté</i>. Puisqu’il venait pour endosser la condition mortelle et pour terrasser la mort elle-même, il s’est infiltré dans l’état de pauvre&nbsp;; mais lui qui nous a promis des richesses lointaines n’a pas réellement perdu celles dont il s’est éloigné.</p> <p><i>Comme ils sont surabondants, ses bienfaits&nbsp;! Il les tient en réserve pour ceux qui le craignent, il en comble ceux qui espèrent en lui&nbsp;!</p> <p>Car notre connaissance est partielle, jusqu’à ce que vienne l’achèvement.</i>Afin que nous devenions capables de le saisir, celui qui est égal au Père comme ayant la nature de Dieu est devenu semblable à nous en prenant la nature du serviteur, et il nous recrée à la ressemblance de Dieu. Devenu fils d’homme, l’unique Fils de Dieu transforme de nombreux hommes en fils de Dieu. Et après avoir nourri les serviteurs par sa nature visible de serviteur, il les rend libres pour qu’ils puissent contempler la nature de Dieu.</p> <p>Car<i>nous sommes enfants de Dieu, mais ce que nous serons ne paraît pas encore clairement. Nous le savons, lorsque le Fils de Dieu paraîtra, nous serons semblables à lui parce que nous le verrons tel qu’il est</i>. En quoi consistent, en effet, ces trésors de sagesse et de science, ces richesses divines&nbsp;? Tout ce que nous savons, c’est qu’ils nous suffisent pleinement. Et cette surabondance de ses bienfaits&nbsp;? Tout ce que nous savons, c’est qu’elle nous rassasie.<i>Montre-nous le Père</i>, donc,<i>et cela nous suffit</i>.</p> <p>Et dans les psaumes, l’un d’entre nous, l’un de ceux qui sont en nous ou parlent de nous, dit au Seigneur&nbsp;:<i>Je serai rassasié lorsque se manifestera ta gloire</i>. Lui-même et le Père ne sont qu’ un, et celui qui le voit voit aussi le Père. Donc<i>le Seigneur de l’univers, c’est lui, le Roi de gloire. Nous faisant revenir, il nous montrera son visage&nbsp;; nous serons sauvés</i>, nous serons rassasiés, et cela nous suffira.</p> <p>En attendant que réellement il nous montre ce qui nous suffit, en attendant de boire à cette source de vie et d’être rassasiés, tandis que nous progressons par la foi en voyageant loin de lui, tandis que nous avons faim et soif de la justice, et que nous désirons d’une ardeur inexprimable contempler la beauté de la nature divine, célébrons avec ferveur le jour de sa naissance, où il prend la nature de serviteur.</p> <p>Puisque nous ne pouvons pas encore contempler sa génération par le Père<i>dès l’aurore</i>, célébrons sa naissance d’une vierge, aux heures de la nuit. Puisque nous ne saisissons pas encore que<i>son nom existait avant le soleil</i>, reconnaissons<i>qu’il a posé sa tente dans le soleil</i>. Puisque notre regard ne découvre pas encore le Fils unique demeurant en son Père, souvenons-nous de l’Époux<i>sortant de la chambre nuptiale</i>. Puisque nous ne sommes pas encore capables de savourer le banquet de notre Père reconnaissons la crèche de notre Seigneur Jésus Christ.</p>",
-      "responsory": "<p>R/ C’est toi le chemin, la vérité, la vie, Jésus, Fils de Dieu&nbsp;!</p> Qui veut trouver le Père doit passer par toi.</p> Tu nous conduis vers la joie sans déclin.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Préoccupation de l’apôtre",
+        "ref": "Col 4, 2-18",
+        "content": "<p>Soyez assidus à la prière&nbsp;; qu’elle vous tienne vigilants dans l’action de grâce. Priez en même temps pour nous, afin que Dieu ouvre une porte à notre parole et que nous annoncions le mystère du Christ, pour lequel je suis en prison&nbsp;; ainsi, je le manifesterai comme je me dois d’en parler. Conduisez-vous avec sagesse envers ceux du dehors, en tirant parti du moment favorable. Que vos paroles soient toujours bienveillantes, qu’elles ne manquent pas de sel, vous saurez ainsi répondre à chacun comme il faut.</p> <p>Vous serez informés de tout ce qui me concerne, par Tychique, le frère bien-aimé, fidèle ministre et mon compagnon de service, dans le Seigneur. Je l’envoie spécialement auprès de vous afin que vous ayez de nos nouvelles et qu’il réconforte vos cœurs&nbsp;; je l’envoie avec Onésime, le frère fidèle et bien-aimé, qui est de chez vous&nbsp;; ils vous informeront de tout ce qui se passe ici.</p> <p>Vous avez les salutations d’Aristarque, mon compagnon de captivité, et celles de Marc, le cousin de Barnabé —&nbsp;vous avez reçu des instructions à son sujet&nbsp;: s’il vient chez vous, accueillez-le —&nbsp;; vous avez aussi les salutations de Jésus appelé Justus&nbsp;: ces trois-là sont les seuls d’origine juive à travailler avec moi au règne de Dieu, ils ont été pour moi une consolation. Vous avez les salutations d’Épaphras, qui est de chez vous&nbsp;: un serviteur du Christ Jésus, qui mène sans cesse pour vous le combat de la prière, afin que vous teniez debout, comme des gens parfaits et pleinement accordés à la volonté de Dieu&nbsp;; je lui rends ce témoignage qu’il se donne beaucoup de peine pour vous, pour ceux de Laodicée et ceux de Hiérapolis. Vous avez la salutation de Luc, le médecin bien-aimé, et de Démas.</p> <p>Saluez les frères de Laodicée, et aussi Nympha et l’Église qui se rassemble dans sa maison. Et quand on aura lu cette lettre chez vous, faites en sorte qu’on la lise aussi dans l’Église de Laodicée&nbsp;; lisez aussi vous-mêmes celle qui vous viendra de Laodicée. Enfin dites à Archippe&nbsp;: «&nbsp;Veille à bien accomplir le ministère que tu as reçu dans le Seigneur.&nbsp;»</p> <p>La salutation est de ma main à moi, Paul. Souvenez-vous que je suis en prison. La grâce soit avec vous.</p>",
+        "responsory": "<p>R/ Joie pour qui cherche en Dieu son refuge, éternels cris de joie.</p> Dès le matin je suis tendu vers toi et je reste en éveil.</p> Oui, tu bénis le juste, Seigneur, tu l’entoures du rempart de ta grâce.</p> Ouvre mes lèvres et ma bouche annoncera ta louange&nbsp;!</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "SERMON DE SAINT AUGUSTIN POUR NOËL",
+        "subtitle": "«&nbsp;Jusqu’à ce que vienne l’achèvement&nbsp;»",
+        "content": "<p>Qui donc, parmi les hommes, connaît tous les trésors de sagesse et de science cachés dans le Christ, et enfouis dans la pauvreté de sa chair&nbsp;? Car<i>lui qui est riche est devenu pauvre à cause de nous, pour que nous devenions riches par sa pauvreté</i>. Puisqu’il venait pour endosser la condition mortelle et pour terrasser la mort elle-même, il s’est infiltré dans l’état de pauvre&nbsp;; mais lui qui nous a promis des richesses lointaines n’a pas réellement perdu celles dont il s’est éloigné.</p> <p><i>Comme ils sont surabondants, ses bienfaits&nbsp;! Il les tient en réserve pour ceux qui le craignent, il en comble ceux qui espèrent en lui&nbsp;!</p> <p>Car notre connaissance est partielle, jusqu’à ce que vienne l’achèvement.</i>Afin que nous devenions capables de le saisir, celui qui est égal au Père comme ayant la nature de Dieu est devenu semblable à nous en prenant la nature du serviteur, et il nous recrée à la ressemblance de Dieu. Devenu fils d’homme, l’unique Fils de Dieu transforme de nombreux hommes en fils de Dieu. Et après avoir nourri les serviteurs par sa nature visible de serviteur, il les rend libres pour qu’ils puissent contempler la nature de Dieu.</p> <p>Car<i>nous sommes enfants de Dieu, mais ce que nous serons ne paraît pas encore clairement. Nous le savons, lorsque le Fils de Dieu paraîtra, nous serons semblables à lui parce que nous le verrons tel qu’il est</i>. En quoi consistent, en effet, ces trésors de sagesse et de science, ces richesses divines&nbsp;? Tout ce que nous savons, c’est qu’ils nous suffisent pleinement. Et cette surabondance de ses bienfaits&nbsp;? Tout ce que nous savons, c’est qu’elle nous rassasie.<i>Montre-nous le Père</i>, donc,<i>et cela nous suffit</i>.</p> <p>Et dans les psaumes, l’un d’entre nous, l’un de ceux qui sont en nous ou parlent de nous, dit au Seigneur&nbsp;:<i>Je serai rassasié lorsque se manifestera ta gloire</i>. Lui-même et le Père ne sont qu’ un, et celui qui le voit voit aussi le Père. Donc<i>le Seigneur de l’univers, c’est lui, le Roi de gloire. Nous faisant revenir, il nous montrera son visage&nbsp;; nous serons sauvés</i>, nous serons rassasiés, et cela nous suffira.</p> <p>En attendant que réellement il nous montre ce qui nous suffit, en attendant de boire à cette source de vie et d’être rassasiés, tandis que nous progressons par la foi en voyageant loin de lui, tandis que nous avons faim et soif de la justice, et que nous désirons d’une ardeur inexprimable contempler la beauté de la nature divine, célébrons avec ferveur le jour de sa naissance, où il prend la nature de serviteur.</p> <p>Puisque nous ne pouvons pas encore contempler sa génération par le Père<i>dès l’aurore</i>, célébrons sa naissance d’une vierge, aux heures de la nuit. Puisque nous ne saisissons pas encore que<i>son nom existait avant le soleil</i>, reconnaissons<i>qu’il a posé sa tente dans le soleil</i>. Puisque notre regard ne découvre pas encore le Fils unique demeurant en son Père, souvenons-nous de l’Époux<i>sortant de la chambre nuptiale</i>. Puisque nous ne sommes pas encore capables de savourer le banquet de notre Père reconnaissons la crèche de notre Seigneur Jésus Christ.</p>",
+        "responsory": "<p>R/ C’est toi le chemin, la vérité, la vie, Jésus, Fils de Dieu&nbsp;!</p> Qui veut trouver le Père doit passer par toi.</p> Tu nous conduis vers la joie sans déclin.</p>"
+      }
+    ],
     "verse": "<p>V/ Le Verbe est la vraie lumière,<br> qui éclaire tous les hommes.</p>"
-  },
-  "vespers": {
-    "reading": {
-      "ref": "1 Jn 5, 20",
-      "content": "Nous savons que le Fils de Dieu est venu nous donner l’intelligence pour nous faire connaître Celui qui est vrai, et nous sommes en Celui qui est vrai, dans son Fils Jésus Christ. C’est lui qui est le Dieu vrai, et la vie éternelle."
-    },
-    "evangelicAntiphon": "Celui dont parlaient Moïse et les prophètes, nous l’avons trouvé&nbsp;: c’est le fils de Joseph, Jésus de Nazareth.",
-    "intercession": "<p>R/Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Fils unique, né pour le salut de l’humanité,<br> ton amour plus fort que la mort soutient notre espérance.</p> <p>Conseiller admirable, rempli de l’Esprit de sagesse,<br> tu viens conduire les peuples à la connaissance de la vérité.</p> <p>Dieu fort, roi de puissance,<br> tu relèves le courage de ceux qui faiblissent.</p> <p>Père des siècles à venir, Prophète glorieux,<br> ta lumière transfigure la race humaine défigurée.</p> <p>Prince de la paix, venu établir le Royaume,<br> toi seul pacifies le monde.</p> <p>Emmanuel, Dieu-avec-nous,<br> dans ton alliance, tu nous ramènes au Père.</p>",
-    "responsory": "<p>R/ Où est votre trésor, là sera votre cœur&nbsp;!<br> V/ Votre vie est cachée en Dieu avec le Christ.&nbsp;R/ <br> V/ Quand le Christ, votre vie, paraîtra,<br> vous paraîtrez avec lui en pleine gloire.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
   },
   "middleOfDay": {
     "tierce": {
       "reading": {
-        "ref": "Ez 20, 41-42a",
+        "biblicalReference": "Ez 20, 41-42a",
         "content": "Comme un parfum apaisant, je vous accueillerai, lorsque je vous ferai sortir du milieu des peuples et que je vous rassemblerai hors des pays où vous avez été dispersés. Par vous, je montrerai ma sainteté aux yeux des nations. Vous connaîtrez que je suis le Seigneur."
       },
       "responsory": "V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.<br>"
     },
     "sexte": {
       "reading": {
-        "ref": "Ez 34, 11-12",
+        "biblicalReference": "Ez 34, 11-12",
         "content": "J’irai moi-même à la recherche de mes brebis, et je veillerai sur elles. Comme un berger veille sur les brebis de son troupeau quand elles sont dispersées, ainsi je veillerai sur mes brebis, et j’irai les délivrer dans tous les endroits où elles ont été dispersées."
       },
       "responsory": "V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.<br>"
     },
     "none": {
       "reading": {
-        "ref": "Mi 2, 12a",
+        "biblicalReference": "Mi 2, 12a",
         "content": "Je vais te rassembler, Jacob, tout entier, je vais réunir le reste d’Israël. Je les mettrai ensemble, comme les brebis de Boçra, comme un troupeau au milieu de son pâturage."
       },
       "responsory": "V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.<br>"
     }
   },
-  "celebrationTitle": "5 janvier (avant l’Épiphanie)",
-  "liturgicalColor": "white",
-  "liturgicalGrade": 13,
-  "oration": "Dieu tout-puissant, la rédemption de ton peuple a merveilleusement commencé avec la naissance de ton Fils&nbsp;; accorde à tes serviteurs une foi solide pour qu’ils se laissent conduire par lui et obtiennent la gloire que tu leur promets."
+  "vespers": {
+    "reading": {
+      "biblicalReference": "1 Jn 5, 20",
+      "content": "Nous savons que le Fils de Dieu est venu nous donner l’intelligence pour nous faire connaître Celui qui est vrai, et nous sommes en Celui qui est vrai, dans son Fils Jésus Christ. C’est lui qui est le Dieu vrai, et la vie éternelle."
+    },
+    "responsory": "<p>R/ Où est votre trésor, là sera votre cœur&nbsp;!<br> V/ Votre vie est cachée en Dieu avec le Christ.&nbsp;R/ <br> V/ Quand le Christ, votre vie, paraîtra,<br> vous paraîtrez avec lui en pleine gloire.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Celui dont parlaient Moïse et les prophètes, nous l’avons trouvé&nbsp;: c’est le fils de Joseph, Jésus de Nazareth."
+    },
+    "intercession": {
+      "content": "<p>R/Fils du Dieu vivant, sauve-nous&nbsp;!</p> <p>Fils unique, né pour le salut de l’humanité,<br> ton amour plus fort que la mort soutient notre espérance.</p> <p>Conseiller admirable, rempli de l’Esprit de sagesse,<br> tu viens conduire les peuples à la connaissance de la vérité.</p> <p>Dieu fort, roi de puissance,<br> tu relèves le courage de ceux qui faiblissent.</p> <p>Père des siècles à venir, Prophète glorieux,<br> ta lumière transfigure la race humaine défigurée.</p> <p>Prince de la paix, venu établir le Royaume,<br> toi seul pacifies le monde.</p> <p>Emmanuel, Dieu-avec-nous,<br> dans ton alliance, tu nous ramènes au Père.</p>"
+    }
+  },
+  "oration": [
+    "Dieu tout-puissant, la rédemption de ton peuple a merveilleusement commencé avec la naissance de ton Fils&nbsp;; accorde à tes serviteurs une foi solide pour qu’ils se laissent conduire par lui et obtiennent la gloire que tu leur promets."
+  ]
 }

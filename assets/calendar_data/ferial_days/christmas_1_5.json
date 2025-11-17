@@ -48,6 +48,22 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_4",
+        "antiphon": [
+          "Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire."
+        ]
+      },
+      {
+        "psalm": "PSALM_25"
+      },
+      {
+        "psalm": "PSALM_27"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -69,22 +85,8 @@
         ]
       }
     ],
-    "oration": "<p>Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit&nbsp;: puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_4",
-        "antiphon": [
-          "Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire."
-        ]
-      },
-      {
-        "psalm": "PSALM_25"
-      },
-      {
-        "psalm": "PSALM_27"
-      }
+    "oration": [
+      "<p>Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit&nbsp;: puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie.</p>"
     ]
   }
 }

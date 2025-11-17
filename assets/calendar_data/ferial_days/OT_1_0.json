@@ -1,10 +1,8 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
-    ]
-  },
   "firstVespers": {
+    "hymn": [
+      "il-viendra"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_140",
@@ -28,17 +26,26 @@
       }
     ],
     "reading": {
-      "ref": "Rm 11, 33-36",
+      "biblicalReference": "Rm 11, 33-36",
       "content": "Quelle profondeur dans la richesse, la sagesse et la science de Dieu&nbsp;! Ses décisions sont insondables, ses chemins sont impénétrables&nbsp;! Qui a connu la pensée du Seigneur&nbsp;? Qui a été son conseiller&nbsp;? Qui lui a donné en premier et mériterait de recevoir en retour&nbsp;? Car tout est de lui, et par lui, et pour lui. À lui la gloire pour l’éternité&nbsp;! Amen."
     },
-    "hymn": [
-      "il-viendra"
-    ],
-    "evangelicAntiphon": "Pâque nouvelle, ô Christ ressuscité, tu as vaincu la mort, tu nous donnes la vie, alléluia.",
-    "intercession": "<p>Pour rendre gloire au Père, au Fils et à l’Esprit, prions et supplions&nbsp;:<br> <p>R/ Sauve-nous, Dieu de l’univers&nbsp;!</p> <p>Béni sois-tu, Seigneur, pour le monde et ses merveilles&nbsp;:&nbsp;<br> —&nbsp;que ta justice et ton amour emplissent la terre.</p> <p>Béni sois-tu, Seigneur, Parole vivante du Père&nbsp;:&nbsp;<br> —&nbsp;que ton Évangile parvienne à toutes les nations.</p> <p>Béni sois-tu, Seigneur, Esprit de vie&nbsp;:&nbsp;<br> —&nbsp;que ton souffle renouvelle la face de la terre.</p> <p>Béni sois-tu, Seigneur de ton peuple&nbsp;:&nbsp;<br> —&nbsp;que ton Église témoigne pour l’espérance.</p> <p>Béni sois-tu, Seigneur des vivants&nbsp;:&nbsp;<br> —&nbsp;fais entrer les défunts dans l’éternelle joie.</p> ",
-    "responsory": "<p>R/ Louez le Seigneur du haut des cieux&nbsp;!<br>  *  Louez-le, tous les univers&nbsp;!<br> V/ Louez-le aux profondeurs des abîmes&nbsp;!  * <br> V/ Louez-le, tous les peuples de la terre&nbsp;!  * <br> V/ Louez-le, tous ses fidèles&nbsp;!  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Louez le Seigneur du haut des cieux&nbsp;!<br>  *  Louez-le, tous les univers&nbsp;!<br> V/ Louez-le aux profondeurs des abîmes&nbsp;!  * <br> V/ Louez-le, tous les peuples de la terre&nbsp;!  * <br> V/ Louez-le, tous ses fidèles&nbsp;!  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Pâque nouvelle, ô Christ ressuscité, tu as vaincu la mort, tu nous donnes la vie, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Pour rendre gloire au Père, au Fils et à l’Esprit, prions et supplions&nbsp;:<br> <p>R/ Sauve-nous, Dieu de l’univers&nbsp;!</p> <p>Béni sois-tu, Seigneur, pour le monde et ses merveilles&nbsp;:&nbsp;<br> —&nbsp;que ta justice et ton amour emplissent la terre.</p> <p>Béni sois-tu, Seigneur, Parole vivante du Père&nbsp;:&nbsp;<br> —&nbsp;que ton Évangile parvienne à toutes les nations.</p> <p>Béni sois-tu, Seigneur, Esprit de vie&nbsp;:&nbsp;<br> —&nbsp;que ton souffle renouvelle la face de la terre.</p> <p>Béni sois-tu, Seigneur de ton peuple&nbsp;:&nbsp;<br> —&nbsp;que ton Église témoigne pour l’espérance.</p> <p>Béni sois-tu, Seigneur des vivants&nbsp;:&nbsp;<br> —&nbsp;fais entrer les défunts dans l’éternelle joie.</p> "
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Venez, crions de joie pour Dieu, notre Sauveur&nbsp;!"
+    ]
   },
   "morning": {
+    "hymn": [
+      "n-allons-plus-nous-derobant"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -59,15 +66,16 @@
       }
     ],
     "reading": {
-      "ref": "Ap 7, 10.12",
+      "biblicalReference": "Ap 7, 10.12",
       "content": "Le salut est donné par notre Dieu, lui qui siège sur le Trône, et par l’Agneau&nbsp;! Louange, gloire, sagesse et action de grâce, honneur, puissance et force à notre Dieu pour les siècles des siècles&nbsp;! Amen&nbsp;!"
     },
-    "hymn": [
-      "n-allons-plus-nous-derobant"
-    ],
-    "evangelicAntiphon": "Bénissez le Seigneur notre Dieu, faites retentir sa louange&nbsp;: il nous a rendu la vie, alléluia.",
-    "intercession": "<p>Louons le Christ Seigneur, soleil de notre jour, qui éclaire tout homme et ne connaît pas de déclin&nbsp;:</p> <p>R/ Tu es la Vie, Seigneur, tu es le Salut&nbsp;!</p> <p>Nous accueillons le jour que ta bonté nous accorde,<br> –&nbsp;le jour où tu surgis de la mort.</p> <p>Par l’eau du baptême, tu nous as fait renaître,<br> –&nbsp;fais-nous vivre du souffle de ton Esprit.</p> <p>À la table de ta Parole et de ton Corps, tu nous invites,<br> –&nbsp;rassemble-nous dans la joie et la simplicité du cœur.</p> <p>Pour tant de grâce, nous te rendons grâce&nbsp;:<br> –&nbsp;fais que nous passions avec toi de ce monde au Père.</p> ",
-    "responsory": "<p>R/ Ô Christ, le Fils du Dieu vivant<br>  * Pitié pour nous.<br> V/ Toi qui es assis à la droite du Père. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Ô Christ, le Fils du Dieu vivant<br>  * Pitié pour nous.<br> V/ Toi qui es assis à la droite du Père. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Bénissez le Seigneur notre Dieu, faites retentir sa louange&nbsp;: il nous a rendu la vie, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Louons le Christ Seigneur, soleil de notre jour, qui éclaire tout homme et ne connaît pas de déclin&nbsp;:</p> <p>R/ Tu es la Vie, Seigneur, tu es le Salut&nbsp;!</p> <p>Nous accueillons le jour que ta bonté nous accorde,<br> –&nbsp;le jour où tu surgis de la mort.</p> <p>Par l’eau du baptême, tu nous as fait renaître,<br> –&nbsp;fais-nous vivre du souffle de ton Esprit.</p> <p>À la table de ta Parole et de ton Corps, tu nous invites,<br> –&nbsp;rassemble-nous dans la joie et la simplicité du cœur.</p> <p>Pour tant de grâce, nous te rendons grâce&nbsp;:<br> –&nbsp;fais que nous passions avec toi de ce monde au Père.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -92,37 +100,6 @@
     ],
     "verse": "<p>V/ Que la parole du Christ habite en vous dans sa richesse.<br>Instruisons-nous les uns les autres en toute sagesse.</p>"
   },
-  "vespers": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_109",
-        "antiphon": [
-          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
-          "Dieu a tiré le Christ de la mort et l’a fait siéger dans sa gloire."
-        ]
-      },
-      {
-        "psalm": "PSALM_113A",
-        "antiphon": [
-          "Devant la face du Seigneur, l’eau vive jaillira, alléluia&nbsp;!",
-          "Baptisé dans la mort du Seigneur, nous vivrons avec lui."
-        ]
-      },
-      {
-        "psalm": "NT_12"
-      }
-    ],
-    "reading": {
-      "ref": "2 Co 1, 3-4",
-      "content": "Béni soit Dieu, le Père de notre Seigneur Jésus Christ, le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte&nbsp;; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse, grâce au réconfort que nous recevons nous-mêmes de Dieu."
-    },
-    "hymn": [
-      "reste-avec-nous-seigneur-jesus"
-    ],
-    "evangelicAntiphon": "Baptisés dans le Christ, vous avez revêtu le Christ, alléluia.",
-    "intercession": "<p>Adorons le Christ, Seigneur. Il est la tête&nbsp;; nous sommes les membres de son corps&nbsp;:</p> <p>R/ Vienne ton règne, Seigneur&nbsp;!</p> <p>Christ, ami des hommes, tu as établi ton Église signe de salut pour les peuples&nbsp;:<br> –&nbsp;qu’elle soit fidèle à sa mission.</p> <p>Tu veux rassembler tes frères en un seul Corps&nbsp;;<br> –&nbsp;avive en nous le désir de l’unité.</p> <p>Garde en communion le pape et les évêques&nbsp;;<br> –&nbsp;qu’ils servent ton peuple au milieu des nations.</p> <p>Accorde au monde la paix&nbsp;;<br> –&nbsp;fais-nous les artisans de ta justice.</p> <p>Ta résurrection nous a ouvert les portes de la vie&nbsp;:<br> –&nbsp;qu’ils entrent, ceux qui ont mis leur espérance en toi.</p> ",
-    "responsory": "<p>R/ Béni soit le Seigneur&nbsp;;<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Du levant au couchant du soleil.  * <br> V/ Maintenant et pour les siècles des siècles.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
-  },
   "middleOfDay": {
     "psalmody": [
       {
@@ -145,5 +122,39 @@
       }
     ]
   },
-  "readingHymn": "au-commencement"
+  "vespers": {
+    "hymn": [
+      "reste-avec-nous-seigneur-jesus"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_109",
+        "antiphon": [
+          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
+          "Dieu a tiré le Christ de la mort et l’a fait siéger dans sa gloire."
+        ]
+      },
+      {
+        "psalm": "PSALM_113A",
+        "antiphon": [
+          "Devant la face du Seigneur, l’eau vive jaillira, alléluia&nbsp;!",
+          "Baptisé dans la mort du Seigneur, nous vivrons avec lui."
+        ]
+      },
+      {
+        "psalm": "NT_12"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "2 Co 1, 3-4",
+      "content": "Béni soit Dieu, le Père de notre Seigneur Jésus Christ, le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte&nbsp;; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse, grâce au réconfort que nous recevons nous-mêmes de Dieu."
+    },
+    "responsory": "<p>R/ Béni soit le Seigneur&nbsp;;<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Du levant au couchant du soleil.  * <br> V/ Maintenant et pour les siècles des siècles.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Baptisés dans le Christ, vous avez revêtu le Christ, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Adorons le Christ, Seigneur. Il est la tête&nbsp;; nous sommes les membres de son corps&nbsp;:</p> <p>R/ Vienne ton règne, Seigneur&nbsp;!</p> <p>Christ, ami des hommes, tu as établi ton Église signe de salut pour les peuples&nbsp;:<br> –&nbsp;qu’elle soit fidèle à sa mission.</p> <p>Tu veux rassembler tes frères en un seul Corps&nbsp;;<br> –&nbsp;avive en nous le désir de l’unité.</p> <p>Garde en communion le pape et les évêques&nbsp;;<br> –&nbsp;qu’ils servent ton peuple au milieu des nations.</p> <p>Accorde au monde la paix&nbsp;;<br> –&nbsp;fais-nous les artisans de ta justice.</p> <p>Ta résurrection nous a ouvert les portes de la vie&nbsp;:<br> –&nbsp;qu’ils entrent, ceux qui ont mis leur espérance en toi.</p> "
+    }
+  }
 }

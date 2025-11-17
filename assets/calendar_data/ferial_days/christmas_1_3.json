@@ -48,6 +48,22 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_2",
+        "antiphon": [
+          "Nous avons vu la gloire de Dieu sur la face de son Christ."
+        ]
+      },
+      {
+        "psalm": "PSALM_16_1"
+      },
+      {
+        "psalm": "PSALM_16_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -69,22 +85,8 @@
         ]
       }
     ],
-    "oration": "Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_2",
-        "antiphon": [
-          "Nous avons vu la gloire de Dieu sur la face de son Christ."
-        ]
-      },
-      {
-        "psalm": "PSALM_16_1"
-      },
-      {
-        "psalm": "PSALM_16_2"
-      }
+    "oration": [
+      "Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne."
     ]
   }
 }

@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jl 2, 12-13",
+      "biblicalReference": "Jl 2, 12-13",
       "content": "Revenez à moi de tout votre cœur, dans le jeûne, les larmes et le deuil&nbsp;! Déchirez vos cœurs et non pas vos vêtements, et revenez au Seigneur votre Dieu, car il est tendre et miséricordieux, lent à la colère et plein d’amour, renonçant au châtiment."
     },
-    "evangelicAntiphon": "Pardonnez aux hommes leurs offenses, et votre Père du ciel vous pardonnera.",
-    "intercession": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  * Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    "evangelicAntiphon": {
+      "common": "Pardonnez aux hommes leurs offenses, et votre Père du ciel vous pardonnera."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu es venu nous appeler à la conversion du cœur, nous crions vers toi&nbsp;:</p> <p>R/ Seigneur, sauve-nous&nbsp;!</p> <p>Nous confessons que nous avons péché&nbsp;:<br> dans ta miséricorde, accorde-nous ton pardon.</p> <p>Fais-nous garder ta parole dans un cœur patient&nbsp;:<br> qu’elle donne son fruit au temps favorable.</p> <p>Conduis-nous vers ton eucharistie<br> pour que nous vivions pleinement le mystère de Pâques.</p> <p>Engage nos forces pour ta justice,<br> que l’Église te serve en servant les hommes.</p> "
+    },
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Idolâtrie d’Israël",
-      "ref": "Ex 32, 1-20",
-      "content": "<p>Le peuple vit que Moïse tardait à descendre de la montagne. Il se rassembla contre Aaron et lui dit&nbsp;: «&nbsp;Debout&nbsp;! Fais-nous des dieux qui marchent devant nous. Car ce Moïse, l’homme qui nous a fait monter du pays d’Égypte, nous ne savons pas ce qui lui est arrivé.&nbsp;» Aaron leur répondit&nbsp;: «&nbsp;Enlevez les boucles d’or qui sont aux oreilles de vos femmes, de vos fils, de vos filles, et apportez-les moi.&nbsp;» Tout le peuple se dépouilla des boucles d’or qu’ils avaient aux oreilles et ils les apportèrent à Aaron. Il reçut l’or de leurs mains, le façonna au burin et en fit un veau en métal fondu. Ils dirent alors&nbsp;: «&nbsp;Israël, voici tes dieux, qui t’ont fait monter du pays d’Égypte.&nbsp;» Ce que voyant, Aaron bâtit un autel en face du veau en métal fondu et il proclama&nbsp;: «&nbsp;Demain, fête pour le SEIGNEUR&nbsp;!&nbsp;» Le lendemain, levés de bon matin, ils offrirent des holocaustes et présentèrent des sacrifices de paix&nbsp;; le peuple s’assit pour manger et boire&nbsp;; puis il se leva pour se divertir. Le SEIGNEUR parla à Moïse&nbsp;: «&nbsp;Va, descends, car ton peuple s’est corrompu, lui que tu as fait monter du pays d’Égypte. Ils n’auront pas mis longtemps à s’écarter du chemin que je leur avais ordonné de suivre&nbsp;! Ils se sont fait un veau en métal fondu et se sont prosternés devant lui. Ils lui ont offert des sacrifices en proclamant&nbsp;: “Israël, voici tes dieux, qui t’ont fait monter du pays d’Égypte.”&nbsp;» Le SEIGNEUR dit encore à Moïse&nbsp;: «&nbsp;Je vois que ce peuple est un peuple à la nuque raide. Maintenant, laisse-moi faire&nbsp;; ma colère va s’enflammer contre eux et je vais les exterminer&nbsp;! Mais, de toi, je ferai une grande nation.&nbsp;» Moïse apaisa le visage du SEIGNEUR son Dieu en disant&nbsp;: «&nbsp;Pourquoi, SEIGNEUR, ta colère s’enflammerait-elle contre ton peuple, que tu as fait sortir du pays d’Égypte par ta grande force et ta main puissante&nbsp;? Pourquoi donner aux Égyptiens l’occasion de dire&nbsp;: “C’est par méchanceté qu’il les a fait sortir&nbsp;; il voulait les tuer dans les montagnes et les exterminer à la surface de la terre”&nbsp;? Reviens de l’ardeur de ta colère, renonce au mal que tu veux faire à ton peuple. Souviens-toi de tes serviteurs, Abraham, Isaac et Israël, à qui tu as juré par toi-même&nbsp;: “Je multiplierai votre descendance comme les étoiles du ciel&nbsp;; je donnerai, comme je l’ai dit, tout ce pays à vos descendants, et il sera pour toujours leur héritage.”&nbsp;» Le SEIGNEUR renonça au mal qu’il avait voulu faire à son peuple. Moïse redescendit de la montagne. Il portait les deux tables du Témoignage&nbsp;; ces tables étaient écrites sur les deux faces&nbsp;; elles étaient l’œuvre de Dieu, et l’écriture, c’était l’écriture de Dieu, gravée sur ces tables. Josué entendit le bruit et le tumulte du peuple et dit à Moïse&nbsp;: «&nbsp;Bruit de bataille dans le camp.&nbsp;» Moïse répliqua&nbsp;: «&nbsp;Ces bruits, ce ne sont pas des chants de victoire ni de défaite&nbsp;; ce que j’entends, ce sont des cantiques qui se répondent.&nbsp;» Comme il approchait du camp, il aperçut le veau et les danses. Il s’enflamma de colère, il jeta les tables qu’il portait, et les brisa au bas de la montagne. Il se saisit du veau qu’ils avaient fait, le brûla, le réduisit en poussière, qu’il répandit à la surface de l’eau. Et cette eau, il la fit boire aux fils d’Israël.</p>",
-      "responsory": "<p>R/ Un seul Dieu&nbsp;!<br> Un seul médiateur entre Dieu et les hommes&nbsp;:<br> le Christ Jésus&nbsp;!</p> <p>Nous avions échangé la vérité de Dieu<br> contre le mensonge,<br> mais Jésus toujours vivant intercède pour nous.</p> <p>Nous avions oublié Dieu qui nous sauve,<br> mais son élu a surgi devant lui<br> pour empêcher sa colère&nbsp;!</p>"
-    },
-    "patristicReading": {
-      "title": "HOMÉLIE DE SAINT PIERRE CHRYSOLOGUE",
-      "subtitle": "Prière, jeûne, partage",
-      "content": "<p>Il y a trois actes, mes frères, trois actes en lesquels la foi se tient, la piété consiste, la vertu se maintient&nbsp;: la prière, le jeûne, la miséricorde. La prière frappe à la porte, le jeûne obtient, la miséricorde reçoit. Prière, miséricorde, jeûne, les trois ne font qu’un et se donnent mutuellement la vie. En effet, le jeûne est l’âme de la prière, la miséricorde est la vie du jeûne. Que personne ne les divise&nbsp;: les trois ne peuvent se séparer. Celui qui en pratique seulement un ou deux, celui-là n’a rien. Donc, celui qui prie doit jeûner&nbsp;; celui qui jeûne doit avoir pitié&nbsp;; qu’il écoute l’homme qui demande, et qui en demandant souhaite être écouté&nbsp;; il se fait entendre de Dieu, celui qui ne refuse pas d’entendre lorsqu’on le supplie. Celui qui pratique le jeûne doit comprendre le jeûne&nbsp;: il doit sympathiser avec l’homme qui a faim, s’il veut que Dieu sympathise avec sa propre faim&nbsp;; il doit faire miséricorde, celui qui espère obtenir miséricorde&nbsp;; celui qui veut bénéficier de la bonté doit la pratiquer&nbsp;; celui qui veut qu’on lui donne doit donner. C’est être un solliciteur insolent, que demander pour soi-même ce qu’on refuse à autrui. Sois la norme de la miséricorde à ton égard&nbsp;: si tu veux qu’on te fasse miséricorde de telle façon, selon telle mesure, avec telle promptitude, fais toi-même miséricorde aux autres, avec la même promptitude, la même mesure, la même façon. Donc la prière, la miséricorde, le jeûne doivent former un patronage pour nous recommander à Dieu, doivent former un seul plaidoyer en notre faveur, une seule prière en notre faveur sous cette triple forme. ~ Ce que nous avons perdu par le mépris, nous devons le conquérir par le jeûne&nbsp;; immolons nos vies par le jeûne parce qu’il n’est rien que nous puissions offrir à Dieu de plus important, comme le prouve le Prophète lorsqu’il dit&nbsp;:<i> Le sacrifice qui plaît à Dieu, c’est un esprit brisé&nbsp;; le cœur qui est broyé et abaissé, Dieu ne le méprise pas. </i> Offre à Dieu ta vie, offre l’oblation du jeûne pour qu’il y ait là une offrande pure, un sacrifice saint, une victime vivante qui insiste en ta faveur et qui soit donnée à Dieu. Celui qui ne lui donnera pas cela n’aura pas d’excuse, parce qu’on a toujours soi-même à offrir. Mais pour que ces dons soient agréés, il faut que vienne ensuite la miséricorde. Le jeûne ne porte pas de fruit s’il n’est pas arrosé par la miséricorde&nbsp;; le jeûne se dessèche par la sécheresse de la miséricorde&nbsp;; ce que la pluie est pour la terre, la miséricorde l’est pour le jeûne. Celui qui jeûne peut bien cultiver son cœur, purifier sa chair, arracher les vices, semer les vertus&nbsp;: s’il n’y verse pas les flots de la miséricorde, il ne recueille pas de fruit. Toi qui jeûnes, ton champ jeûne aussi, s’il est privé de miséricorde&nbsp;; toi qui jeûnes, ce que tu répands par ta miséricorde rejaillira dans ta grange. Pour ne pas gaspiller par ton avarice, recueille par tes largesses. En donnant au pauvre, donne à toi-même&nbsp;; car ce que tu n’abandonnes pas à autrui, tu ne l’auras pas.</p>",
-      "responsory": "<p>Toi qui cherches le Royaume, écoute&nbsp;: Stance<br> l’amour, voilà le Royaume&nbsp;;<br> il est promesse de vie,<br> appel de liberté,<br> il est présence de l’éternité<br> au cœur du temps.</p> <p>R/ Sur nous, Seigneur, envoie ton Esprit,<br> ta force d’amour&nbsp;!</p> <p>Comment reconnaître un frère<br> dans l’homme blessé, à l’écart de la route,<br> si tu ne viens éclairer notre regard&nbsp;?</p> <p>Comment prendre en charge notre frère,<br> si d’abord tu ne viens<br> panser nos blessures&nbsp;?</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Idolâtrie d’Israël",
+        "ref": "Ex 32, 1-20",
+        "content": "<p>Le peuple vit que Moïse tardait à descendre de la montagne. Il se rassembla contre Aaron et lui dit&nbsp;: «&nbsp;Debout&nbsp;! Fais-nous des dieux qui marchent devant nous. Car ce Moïse, l’homme qui nous a fait monter du pays d’Égypte, nous ne savons pas ce qui lui est arrivé.&nbsp;» Aaron leur répondit&nbsp;: «&nbsp;Enlevez les boucles d’or qui sont aux oreilles de vos femmes, de vos fils, de vos filles, et apportez-les moi.&nbsp;» Tout le peuple se dépouilla des boucles d’or qu’ils avaient aux oreilles et ils les apportèrent à Aaron. Il reçut l’or de leurs mains, le façonna au burin et en fit un veau en métal fondu. Ils dirent alors&nbsp;: «&nbsp;Israël, voici tes dieux, qui t’ont fait monter du pays d’Égypte.&nbsp;» Ce que voyant, Aaron bâtit un autel en face du veau en métal fondu et il proclama&nbsp;: «&nbsp;Demain, fête pour le SEIGNEUR&nbsp;!&nbsp;» Le lendemain, levés de bon matin, ils offrirent des holocaustes et présentèrent des sacrifices de paix&nbsp;; le peuple s’assit pour manger et boire&nbsp;; puis il se leva pour se divertir. Le SEIGNEUR parla à Moïse&nbsp;: «&nbsp;Va, descends, car ton peuple s’est corrompu, lui que tu as fait monter du pays d’Égypte. Ils n’auront pas mis longtemps à s’écarter du chemin que je leur avais ordonné de suivre&nbsp;! Ils se sont fait un veau en métal fondu et se sont prosternés devant lui. Ils lui ont offert des sacrifices en proclamant&nbsp;: “Israël, voici tes dieux, qui t’ont fait monter du pays d’Égypte.”&nbsp;» Le SEIGNEUR dit encore à Moïse&nbsp;: «&nbsp;Je vois que ce peuple est un peuple à la nuque raide. Maintenant, laisse-moi faire&nbsp;; ma colère va s’enflammer contre eux et je vais les exterminer&nbsp;! Mais, de toi, je ferai une grande nation.&nbsp;» Moïse apaisa le visage du SEIGNEUR son Dieu en disant&nbsp;: «&nbsp;Pourquoi, SEIGNEUR, ta colère s’enflammerait-elle contre ton peuple, que tu as fait sortir du pays d’Égypte par ta grande force et ta main puissante&nbsp;? Pourquoi donner aux Égyptiens l’occasion de dire&nbsp;: “C’est par méchanceté qu’il les a fait sortir&nbsp;; il voulait les tuer dans les montagnes et les exterminer à la surface de la terre”&nbsp;? Reviens de l’ardeur de ta colère, renonce au mal que tu veux faire à ton peuple. Souviens-toi de tes serviteurs, Abraham, Isaac et Israël, à qui tu as juré par toi-même&nbsp;: “Je multiplierai votre descendance comme les étoiles du ciel&nbsp;; je donnerai, comme je l’ai dit, tout ce pays à vos descendants, et il sera pour toujours leur héritage.”&nbsp;» Le SEIGNEUR renonça au mal qu’il avait voulu faire à son peuple. Moïse redescendit de la montagne. Il portait les deux tables du Témoignage&nbsp;; ces tables étaient écrites sur les deux faces&nbsp;; elles étaient l’œuvre de Dieu, et l’écriture, c’était l’écriture de Dieu, gravée sur ces tables. Josué entendit le bruit et le tumulte du peuple et dit à Moïse&nbsp;: «&nbsp;Bruit de bataille dans le camp.&nbsp;» Moïse répliqua&nbsp;: «&nbsp;Ces bruits, ce ne sont pas des chants de victoire ni de défaite&nbsp;; ce que j’entends, ce sont des cantiques qui se répondent.&nbsp;» Comme il approchait du camp, il aperçut le veau et les danses. Il s’enflamma de colère, il jeta les tables qu’il portait, et les brisa au bas de la montagne. Il se saisit du veau qu’ils avaient fait, le brûla, le réduisit en poussière, qu’il répandit à la surface de l’eau. Et cette eau, il la fit boire aux fils d’Israël.</p>",
+        "responsory": "<p>R/ Un seul Dieu&nbsp;!<br> Un seul médiateur entre Dieu et les hommes&nbsp;:<br> le Christ Jésus&nbsp;!</p> <p>Nous avions échangé la vérité de Dieu<br> contre le mensonge,<br> mais Jésus toujours vivant intercède pour nous.</p> <p>Nous avions oublié Dieu qui nous sauve,<br> mais son élu a surgi devant lui<br> pour empêcher sa colère&nbsp;!</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "HOMÉLIE DE SAINT PIERRE CHRYSOLOGUE",
+        "subtitle": "Prière, jeûne, partage",
+        "content": "<p>Il y a trois actes, mes frères, trois actes en lesquels la foi se tient, la piété consiste, la vertu se maintient&nbsp;: la prière, le jeûne, la miséricorde. La prière frappe à la porte, le jeûne obtient, la miséricorde reçoit. Prière, miséricorde, jeûne, les trois ne font qu’un et se donnent mutuellement la vie. En effet, le jeûne est l’âme de la prière, la miséricorde est la vie du jeûne. Que personne ne les divise&nbsp;: les trois ne peuvent se séparer. Celui qui en pratique seulement un ou deux, celui-là n’a rien. Donc, celui qui prie doit jeûner&nbsp;; celui qui jeûne doit avoir pitié&nbsp;; qu’il écoute l’homme qui demande, et qui en demandant souhaite être écouté&nbsp;; il se fait entendre de Dieu, celui qui ne refuse pas d’entendre lorsqu’on le supplie. Celui qui pratique le jeûne doit comprendre le jeûne&nbsp;: il doit sympathiser avec l’homme qui a faim, s’il veut que Dieu sympathise avec sa propre faim&nbsp;; il doit faire miséricorde, celui qui espère obtenir miséricorde&nbsp;; celui qui veut bénéficier de la bonté doit la pratiquer&nbsp;; celui qui veut qu’on lui donne doit donner. C’est être un solliciteur insolent, que demander pour soi-même ce qu’on refuse à autrui. Sois la norme de la miséricorde à ton égard&nbsp;: si tu veux qu’on te fasse miséricorde de telle façon, selon telle mesure, avec telle promptitude, fais toi-même miséricorde aux autres, avec la même promptitude, la même mesure, la même façon. Donc la prière, la miséricorde, le jeûne doivent former un patronage pour nous recommander à Dieu, doivent former un seul plaidoyer en notre faveur, une seule prière en notre faveur sous cette triple forme. ~ Ce que nous avons perdu par le mépris, nous devons le conquérir par le jeûne&nbsp;; immolons nos vies par le jeûne parce qu’il n’est rien que nous puissions offrir à Dieu de plus important, comme le prouve le Prophète lorsqu’il dit&nbsp;:<i> Le sacrifice qui plaît à Dieu, c’est un esprit brisé&nbsp;; le cœur qui est broyé et abaissé, Dieu ne le méprise pas. </i> Offre à Dieu ta vie, offre l’oblation du jeûne pour qu’il y ait là une offrande pure, un sacrifice saint, une victime vivante qui insiste en ta faveur et qui soit donnée à Dieu. Celui qui ne lui donnera pas cela n’aura pas d’excuse, parce qu’on a toujours soi-même à offrir. Mais pour que ces dons soient agréés, il faut que vienne ensuite la miséricorde. Le jeûne ne porte pas de fruit s’il n’est pas arrosé par la miséricorde&nbsp;; le jeûne se dessèche par la sécheresse de la miséricorde&nbsp;; ce que la pluie est pour la terre, la miséricorde l’est pour le jeûne. Celui qui jeûne peut bien cultiver son cœur, purifier sa chair, arracher les vices, semer les vertus&nbsp;: s’il n’y verse pas les flots de la miséricorde, il ne recueille pas de fruit. Toi qui jeûnes, ton champ jeûne aussi, s’il est privé de miséricorde&nbsp;; toi qui jeûnes, ce que tu répands par ta miséricorde rejaillira dans ta grange. Pour ne pas gaspiller par ton avarice, recueille par tes largesses. En donnant au pauvre, donne à toi-même&nbsp;; car ce que tu n’abandonnes pas à autrui, tu ne l’auras pas.</p>",
+        "responsory": "<p>Toi qui cherches le Royaume, écoute&nbsp;: Stance<br> l’amour, voilà le Royaume&nbsp;;<br> il est promesse de vie,<br> appel de liberté,<br> il est présence de l’éternité<br> au cœur du temps.</p> <p>R/ Sur nous, Seigneur, envoie ton Esprit,<br> ta force d’amour&nbsp;!</p> <p>Comment reconnaître un frère<br> dans l’homme blessé, à l’écart de la route,<br> si tu ne viens éclairer notre regard&nbsp;?</p> <p>Comment prendre en charge notre frère,<br> si d’abord tu ne viens<br> panser nos blessures&nbsp;?</p>"
+      }
+    ],
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_13",
+        "antiphon": [
+          "Pourquoi retenir ta main&nbsp;? Lève-toi, Dieu, défends ta cause."
+        ]
+      },
+      {
+        "psalm": "PSALM_73_1"
+      },
+      {
+        "psalm": "PSALM_73_2"
+      }
+    ],
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 14. 17.18b",
+      "biblicalReference": "Jc 2, 14. 17.18b",
       "content": "Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il&nbsp;? Cet homme-là peut-il être sauvé par sa foi&nbsp;? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas&nbsp;; moi, c’est par mes actes que je te montrerai ma foi."
     },
-    "evangelicAntiphon": "Si vous ne pardonnez pas de tout votre cœur, le Père du ciel vous traitera sans pitié.",
-    "intercession": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>",
     "responsory": "<p>R/ Éclaire-moi selon ta parole,<br>  *  Que j’observe tes volontés.<br> V/ Incline mon cœur vers tes exigences.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_13",
-        "antiphon": [
-          "Pourquoi retenir ta main&nbsp;? Lève-toi, Dieu, défends ta cause."
-        ]
-      },
-      {
-        "psalm": "PSALM_73_1"
-      },
-      {
-        "psalm": "PSALM_73_2"
-      }
-    ],
-    "oration": "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    "evangelicAntiphon": {
+      "common": "Si vous ne pardonnez pas de tout votre cœur, le Père du ciel vous traitera sans pitié."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu nous as demandé de veiller pour ne pas entrer en tentation, nous appelons vers toi&nbsp;:</p> <p>R/ Écoute et prends pitié&nbsp;!</p> <p>Tu as promis, quand deux ou trois prieraient en ton nom, d’être au milieu d’eux,<br> enseigne-nous la prière véritable.</p> <p>Purifie ton Église qui te cherche en ce temps de pénitence,<br> qu’elle avance vers Pâques dans la force de l’Esprit.</p> <p>Toi qui as tant aimé les hommes,<br> saisis-nous de ta charité.</p> <p>Tu as souffert la croix pour le salut du monde,<br> fais-nous lutter pour ta justice.</p> <p>Reçois dans l’éternité bienheureuse ceux qui meurent,<br> et donne-nous d’accueillir notre mort comme un passage vers la vie.</p>"
+    },
+    "oration": [
+      "Ne nous prive pas de ta grâce, Dieu fidèle&nbsp;: qu’elle nous consacre à ton service et nous assiste toujours."
+    ]
   }
 }

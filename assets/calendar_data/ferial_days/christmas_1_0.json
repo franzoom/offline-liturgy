@@ -30,6 +30,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1"
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -42,19 +55,8 @@
         "psalm": "NT_12"
       }
     ],
-    "oration": "<p>Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple&nbsp;; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117_1"
-      },
-      {
-        "psalm": "PSALM_117_2"
-      },
-      {
-        "psalm": "PSALM_117_3"
-      }
+    "oration": [
+      "<p>Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple&nbsp;; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.</p>"
     ]
   }
 }

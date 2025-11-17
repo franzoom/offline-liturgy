@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Quand paraîtra votre berger, vous recevrez la couronne de gloire qui ne se flétrit pas, alléluia.",
-    "intercession": "<p>Invoquons Jésus ressuscité qui sans cesse intercède pour nous&nbsp;:</p> <p>R/ Pasteur éternel, sauve-nous&nbsp;!</p> <p>Seigneur Jésus, ton peuple s’éveille à un jour nouveau&nbsp;:<br> –&nbsp;nourris-le de ta parole et de ton pain.</p> <p>Ne permets pas que nous soyons victimes du loup qui dévore ni du mercenaire qui s’enfuit&nbsp;:<br> –&nbsp;apprends-nous à reconnaître ta voix.</p> <p>Fais-nous rejeter la tristesse du péché&nbsp;: <br> –&nbsp;sois toi-même la joie que nul ne pourra nous ravir.</p> <p>Rends-nous attentifs aux appels de nos frères, <br> –&nbsp;et donne ta paix à ceux que nulle présence ne console.</p> "
+    "evangelicAntiphon": {
+      "common": "Quand paraîtra votre berger, vous recevrez la couronne de gloire qui ne se flétrit pas, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Invoquons Jésus ressuscité qui sans cesse intercède pour nous&nbsp;:</p> <p>R/ Pasteur éternel, sauve-nous&nbsp;!</p> <p>Seigneur Jésus, ton peuple s’éveille à un jour nouveau&nbsp;:<br> –&nbsp;nourris-le de ta parole et de ton pain.</p> <p>Ne permets pas que nous soyons victimes du loup qui dévore ni du mercenaire qui s’enfuit&nbsp;:<br> –&nbsp;apprends-nous à reconnaître ta voix.</p> <p>Fais-nous rejeter la tristesse du péché&nbsp;: <br> –&nbsp;sois toi-même la joie que nul ne pourra nous ravir.</p> <p>Rends-nous attentifs aux appels de nos frères, <br> –&nbsp;et donne ta paix à ceux que nulle présence ne console.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -50,18 +54,40 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "La chute de Babylone",
-      "ref": "Ap 18, 1-20",
-      "content": "<p>Après cela, j’ai vu descendre du ciel un autre ange, ayant un grand pouvoir, et la terre fut illuminée de sa gloire. Il s’écria d’une voix puissante&nbsp;: «&nbsp;Elle est tombée, elle est tombée, Babylone la Grande&nbsp;! La voilà devenue tanière de démons, repaire de tous les esprits impurs, repaire de tous les oiseaux impurs, repaire de toutes les bêtes impures et répugnantes&nbsp;! Car toutes les nations ont bu du vin de sa fureur, de sa prostitution&nbsp;; les rois de la terre se sont prostitués avec elle, et les marchands de la terre se sont enrichis de son luxe insolent.&nbsp;» Et j’entendis une autre voix venant du ciel qui disait&nbsp;: «&nbsp;Sortez de la ville, vous mon peuple, pour ne pas prendre part à ses péchés et ne rien subir des fléaux qui l’affligent. Car ses péchés se sont amoncelés jusqu’au ciel, et, de ses injustices, Dieu s’est souvenu. Traitez-la comme elle vous a traités, rendez-lui au double selon ses actes&nbsp;; dans la coupe qu’elle a préparée, préparez-lui le double. À la mesure de la gloire et du luxe qu’elle a étalés, donnez-lui torture et deuil. Car elle dit dans son cœur&nbsp;: “Je trône, je suis reine, je ne suis pas veuve, je ne verrai jamais le deuil.” C’est pourquoi des fléaux, en un seul jour, viendront sur elle&nbsp;: mort, deuil, famine, et elle sera brûlée au feu, car il est fort, le Seigneur Dieu qui l’a jugée.&nbsp;» Alors, ils pleureront et se lamenteront sur elle, les rois de la terre qui se sont prostitués avec elle et qui ont partagé son luxe, quand ils verront la fumée de son incendie. Ils se tiendront à distance par peur de ses tortures, et ils diront&nbsp;: «&nbsp;Malheur&nbsp;! Malheur&nbsp;! la grande ville, Babylone, ville puissante&nbsp;: en une heure, ton jugement est arrivé&nbsp;!&nbsp;» Et les marchands de la terre pleurent et prennent le deuil à cause d’elle, puisque personne n’achète plus leur cargaison&nbsp;: cargaison d’or, d’argent, de pierres précieuses et de perles, de lin fin, de pourpre, de soie et d’écarlate&nbsp;; toutes sortes de bois odorants, d’objets en ivoire, en bois très précieux, en bronze, en fer et en marbre&nbsp;; cannelle, épices, parfums, baume et encens, vin, huile, fleur de farine et blé, bestiaux et moutons, chevaux et chariots, esclaves et marchandise humaine. «&nbsp;Les fruits mûrs de tes convoitises sont partis loin de toi, tout ce qui était brillance et splendeur est perdu pour toi, et cela plus jamais ne se retrouvera.&nbsp;» Les marchands qu’elle avait ainsi enrichis se tiendront à distance par peur de ses tortures, dans les pleurs et le deuil. Ils diront&nbsp;: «&nbsp;Malheur&nbsp;! Malheur&nbsp;! La grande ville, vêtue de lin fin, de pourpre et d’écarlate, toute parée d’or, de pierres précieuses et de perles, car, en une heure, tant de richesses furent dévastées&nbsp;!&nbsp;» Tous les capitaines de navires et ceux qui font le cabotage, les marins et tous les travailleurs de la mer se tenaient à distance, et ils criaient en voyant la fumée de son incendie. Ils disaient&nbsp;: «&nbsp;Quelle ville fut comparable à la grande ville&nbsp;?&nbsp;» Et jetant de la poussière sur leur tête, ils criaient dans les pleurs et le deuil. Ils disaient&nbsp;: «&nbsp;Malheur&nbsp;! Malheur&nbsp;! La grande ville, dont l’opulence enrichissait tous ceux qui avaient des bateaux sur la mer&nbsp;: en une heure, elle a été dévastée&nbsp;!&nbsp;» Ciel, sois dans la joie à cause d’elle, ainsi que vous, les saints, les apôtres et les prophètes, car Dieu, en la jugeant, vous a rendu justice.</p>",
-      "responsory": "<p>R/ Venez, allons à la maison du Seigneur, alléluia&nbsp;!</p> <p>Sortez de Babylone, ô mon peuple,<br> sinon vous serez solidaires de ses fautes,<br> et vous aurez votre part de ses plaies.</p> <p>Vous ne sortirez pas en fuyards&nbsp;:<br> à votre tête marchera le Seigneur.</p> <p>Il vous mènera au sommet des montagnes,<br> vers le sanctuaire préparé par ses mains.</p>"
-    },
-    "patristicReading": {
-      "title": "COMMENTAIRE DE SAINT CYRILLE D’ALEXANDRIE SUR LA LETTRE AUX ROMAINS",
-      "content": "<p><b>«&nbsp;C’est le Christ qui est notre paix&nbsp;:<br> des deux, il a fait un seul peuple…&nbsp;» </b> Il est écrit&nbsp;: <i>Tous, tant que nous sommes, nous formons un seul corps et nous sommes membres les uns des autres</i>, car le Christ nous rassemble dans l’unité par les liens de l’amour&nbsp;: <i>C’est lui qui, des deux, a fait un seul peuple&nbsp;; il a fait tomber le mur qui les séparait, la haine, en supprimant les prescriptions juridiques de la Loi</i>. Il faut donc que nous ayons les mêmes sentiments réciproques&nbsp;; <i>si un membre souffre, que tous les membres partagent sa souffrance&nbsp;; si un membre est à l’honneur, que tous partagent sa joie</i>. C’est pourquoi, dit encore saint Paul, <i>accueillez-vous les uns les autres comme le Christ vous a accueillis pour la gloire de Dieu</i>. Accueillons-nous les uns les autres, si nous voulons avoir les mêmes sentiments. <i>Portons les fardeaux les uns des autres&nbsp;; rassemblés dans la paix, gardons l’unité dans un même Esprit</i>. C’est ainsi que Dieu nous a accueillis dans le Christ. Car celui-ci a dit vrai&nbsp;: <i>Dieu a tant aimé le monde qu’il a donné son Fils pour nous</i>. En effet, le Fils a été donné en rançon de notre vie à tous, nous avons été affranchis de la mort, rachetés de la mort et du péché. Saint Paul éclaire les perspectives de ce plan de salut lorsqu’il dit que <i>le Christ s’est fait le serviteur de la circoncision en raison de la fidélité de Dieu</i>. Car Dieu avait promis aux patriarches, pères des Juifs, qu’il bénirait leur descendance qui deviendrait aussi nombreuse que les astres du ciel. C’est pour cela que le Verbe, qui est Dieu, s’est manifesté dans la chair et s’est fait homme. Il maintient dans l’existence toute la création et il assure le bien-être de tout ce qui existe, puisqu’il est Dieu. Mais il est venu en ce monde en s’incarnant <i>non pour être servi, mais, </i>comme il le dit lui-même<i>, pour servir et donner sa vie en rançon pour la multitude</i>. Il le reconnaissait bien&nbsp;: il est venu évidemment pour accomplir les promesses faites à Israël, puisqu’il disait&nbsp;: <i>Je n’ai été envoyé qu’aux brebis perdues d’lsraël</i>. C’est pourquoi saint Paul ne ment pas lorsqu’il dit que le Christ <i>s’est fait le serviteur des Juifs pour garantir les promesses faites à leurs pères</i>. Mais il dit aussi que le Christ a été chargé par Dieu le Père de faire obtenir <i>miséricorde aux païens, afin qu’eux aussi le glorifient</i> comme le Créateur et l’Artisan de toutes choses, le Sauveur et le Rédempteur. ~ Ainsi, la clémence divine s’est étendue à tous, les païens ont été accueillis, et le mystère de la sagesse accompli dans le Christ n’a pas dévié de son but de miséricorde. Pour remplacer ceux qui sont tombés, c’est le monde entier qui a été sauvé par la compassion de Dieu.</p>",
-      "responsory": "<p>R/ Dieu a tant aimé le monde, alléluia,<br> qu’il a donné son Fils unique, alléluia.</p> <p>Ce n’est pas nous qui avons aimé Dieu&nbsp;:<br> lui, le premier, nous a aimés.</p> <p>Son Fils, son unique, il l’a offert<br> pour les péchés du monde entier.</p> <p>À tous ceux qui croient au Christ,<br> il donne la vie éternelle.</p>"
-    },
-    "oration": "Dieu qui nous as recréés par le baptême, fais-nous vivre toujours davantage du mystère pascal&nbsp;: que ta grâce nous accorde de porter beaucoup de fruit et de parvenir aux joies de la vie éternelle."
+    "biblicalReading": [
+      {
+        "title": "La chute de Babylone",
+        "ref": "Ap 18, 1-20",
+        "content": "<p>Après cela, j’ai vu descendre du ciel un autre ange, ayant un grand pouvoir, et la terre fut illuminée de sa gloire. Il s’écria d’une voix puissante&nbsp;: «&nbsp;Elle est tombée, elle est tombée, Babylone la Grande&nbsp;! La voilà devenue tanière de démons, repaire de tous les esprits impurs, repaire de tous les oiseaux impurs, repaire de toutes les bêtes impures et répugnantes&nbsp;! Car toutes les nations ont bu du vin de sa fureur, de sa prostitution&nbsp;; les rois de la terre se sont prostitués avec elle, et les marchands de la terre se sont enrichis de son luxe insolent.&nbsp;» Et j’entendis une autre voix venant du ciel qui disait&nbsp;: «&nbsp;Sortez de la ville, vous mon peuple, pour ne pas prendre part à ses péchés et ne rien subir des fléaux qui l’affligent. Car ses péchés se sont amoncelés jusqu’au ciel, et, de ses injustices, Dieu s’est souvenu. Traitez-la comme elle vous a traités, rendez-lui au double selon ses actes&nbsp;; dans la coupe qu’elle a préparée, préparez-lui le double. À la mesure de la gloire et du luxe qu’elle a étalés, donnez-lui torture et deuil. Car elle dit dans son cœur&nbsp;: “Je trône, je suis reine, je ne suis pas veuve, je ne verrai jamais le deuil.” C’est pourquoi des fléaux, en un seul jour, viendront sur elle&nbsp;: mort, deuil, famine, et elle sera brûlée au feu, car il est fort, le Seigneur Dieu qui l’a jugée.&nbsp;» Alors, ils pleureront et se lamenteront sur elle, les rois de la terre qui se sont prostitués avec elle et qui ont partagé son luxe, quand ils verront la fumée de son incendie. Ils se tiendront à distance par peur de ses tortures, et ils diront&nbsp;: «&nbsp;Malheur&nbsp;! Malheur&nbsp;! la grande ville, Babylone, ville puissante&nbsp;: en une heure, ton jugement est arrivé&nbsp;!&nbsp;» Et les marchands de la terre pleurent et prennent le deuil à cause d’elle, puisque personne n’achète plus leur cargaison&nbsp;: cargaison d’or, d’argent, de pierres précieuses et de perles, de lin fin, de pourpre, de soie et d’écarlate&nbsp;; toutes sortes de bois odorants, d’objets en ivoire, en bois très précieux, en bronze, en fer et en marbre&nbsp;; cannelle, épices, parfums, baume et encens, vin, huile, fleur de farine et blé, bestiaux et moutons, chevaux et chariots, esclaves et marchandise humaine. «&nbsp;Les fruits mûrs de tes convoitises sont partis loin de toi, tout ce qui était brillance et splendeur est perdu pour toi, et cela plus jamais ne se retrouvera.&nbsp;» Les marchands qu’elle avait ainsi enrichis se tiendront à distance par peur de ses tortures, dans les pleurs et le deuil. Ils diront&nbsp;: «&nbsp;Malheur&nbsp;! Malheur&nbsp;! La grande ville, vêtue de lin fin, de pourpre et d’écarlate, toute parée d’or, de pierres précieuses et de perles, car, en une heure, tant de richesses furent dévastées&nbsp;!&nbsp;» Tous les capitaines de navires et ceux qui font le cabotage, les marins et tous les travailleurs de la mer se tenaient à distance, et ils criaient en voyant la fumée de son incendie. Ils disaient&nbsp;: «&nbsp;Quelle ville fut comparable à la grande ville&nbsp;?&nbsp;» Et jetant de la poussière sur leur tête, ils criaient dans les pleurs et le deuil. Ils disaient&nbsp;: «&nbsp;Malheur&nbsp;! Malheur&nbsp;! La grande ville, dont l’opulence enrichissait tous ceux qui avaient des bateaux sur la mer&nbsp;: en une heure, elle a été dévastée&nbsp;!&nbsp;» Ciel, sois dans la joie à cause d’elle, ainsi que vous, les saints, les apôtres et les prophètes, car Dieu, en la jugeant, vous a rendu justice.</p>",
+        "responsory": "<p>R/ Venez, allons à la maison du Seigneur, alléluia&nbsp;!</p> <p>Sortez de Babylone, ô mon peuple,<br> sinon vous serez solidaires de ses fautes,<br> et vous aurez votre part de ses plaies.</p> <p>Vous ne sortirez pas en fuyards&nbsp;:<br> à votre tête marchera le Seigneur.</p> <p>Il vous mènera au sommet des montagnes,<br> vers le sanctuaire préparé par ses mains.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "COMMENTAIRE DE SAINT CYRILLE D’ALEXANDRIE SUR LA LETTRE AUX ROMAINS",
+        "content": "<p><b>«&nbsp;C’est le Christ qui est notre paix&nbsp;:<br> des deux, il a fait un seul peuple…&nbsp;» </b> Il est écrit&nbsp;: <i>Tous, tant que nous sommes, nous formons un seul corps et nous sommes membres les uns des autres</i>, car le Christ nous rassemble dans l’unité par les liens de l’amour&nbsp;: <i>C’est lui qui, des deux, a fait un seul peuple&nbsp;; il a fait tomber le mur qui les séparait, la haine, en supprimant les prescriptions juridiques de la Loi</i>. Il faut donc que nous ayons les mêmes sentiments réciproques&nbsp;; <i>si un membre souffre, que tous les membres partagent sa souffrance&nbsp;; si un membre est à l’honneur, que tous partagent sa joie</i>. C’est pourquoi, dit encore saint Paul, <i>accueillez-vous les uns les autres comme le Christ vous a accueillis pour la gloire de Dieu</i>. Accueillons-nous les uns les autres, si nous voulons avoir les mêmes sentiments. <i>Portons les fardeaux les uns des autres&nbsp;; rassemblés dans la paix, gardons l’unité dans un même Esprit</i>. C’est ainsi que Dieu nous a accueillis dans le Christ. Car celui-ci a dit vrai&nbsp;: <i>Dieu a tant aimé le monde qu’il a donné son Fils pour nous</i>. En effet, le Fils a été donné en rançon de notre vie à tous, nous avons été affranchis de la mort, rachetés de la mort et du péché. Saint Paul éclaire les perspectives de ce plan de salut lorsqu’il dit que <i>le Christ s’est fait le serviteur de la circoncision en raison de la fidélité de Dieu</i>. Car Dieu avait promis aux patriarches, pères des Juifs, qu’il bénirait leur descendance qui deviendrait aussi nombreuse que les astres du ciel. C’est pour cela que le Verbe, qui est Dieu, s’est manifesté dans la chair et s’est fait homme. Il maintient dans l’existence toute la création et il assure le bien-être de tout ce qui existe, puisqu’il est Dieu. Mais il est venu en ce monde en s’incarnant <i>non pour être servi, mais, </i>comme il le dit lui-même<i>, pour servir et donner sa vie en rançon pour la multitude</i>. Il le reconnaissait bien&nbsp;: il est venu évidemment pour accomplir les promesses faites à Israël, puisqu’il disait&nbsp;: <i>Je n’ai été envoyé qu’aux brebis perdues d’lsraël</i>. C’est pourquoi saint Paul ne ment pas lorsqu’il dit que le Christ <i>s’est fait le serviteur des Juifs pour garantir les promesses faites à leurs pères</i>. Mais il dit aussi que le Christ a été chargé par Dieu le Père de faire obtenir <i>miséricorde aux païens, afin qu’eux aussi le glorifient</i> comme le Créateur et l’Artisan de toutes choses, le Sauveur et le Rédempteur. ~ Ainsi, la clémence divine s’est étendue à tous, les païens ont été accueillis, et le mystère de la sagesse accompli dans le Christ n’a pas dévié de son but de miséricorde. Pour remplacer ceux qui sont tombés, c’est le monde entier qui a été sauvé par la compassion de Dieu.</p>",
+        "responsory": "<p>R/ Dieu a tant aimé le monde, alléluia,<br> qu’il a donné son Fils unique, alléluia.</p> <p>Ce n’est pas nous qui avons aimé Dieu&nbsp;:<br> lui, le premier, nous a aimés.</p> <p>Son Fils, son unique, il l’a offert<br> pour les péchés du monde entier.</p> <p>À tous ceux qui croient au Christ,<br> il donne la vie éternelle.</p>"
+      }
+    ],
+    "oration": [
+      "Dieu qui nous as recréés par le baptême, fais-nous vivre toujours davantage du mystère pascal&nbsp;: que ta grâce nous accorde de porter beaucoup de fruit et de parvenir aux joies de la vie éternelle."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_22",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_44_1"
+      },
+      {
+        "psalm": "PSALM_44_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -84,23 +110,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je vous le dis&nbsp;: Je suis la porte. Si quelqu’un entre par moi, il sera sauvé, il trouvera de quoi se nourrir. Alléluia.",
-    "intercession": "<p>Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix&nbsp;:</p> <p>R/ Souviens-toi de ton Église.</p> <p>Jésus, pierre rejetée par les bâtisseurs et devenue la pierre d’angle,<br> –&nbsp;fais de nous les pierres vivantes de ton Église.</p> <p>Jésus, témoin fidèle et vrai, premier-né d’entre les morts,<br> –&nbsp;donne à ton Église de témoigner hardiment au milieu du monde.</p> <p>Jésus, Époux de l’Église née de ton côté transpercé,<br> –&nbsp;accorde aux religieux d’entrer dans ce mystère d’alliance.</p> <p>Jésus, Premier et Dernier, qui étais mort et qui es vivant,<br> –&nbsp;fais grandir ta vie dans les baptisés.</p> <p>Jésus, flambeau de la Cité de Dieu, <br> –&nbsp;répands ta clarté sur les défunts.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_22",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_44_1"
-      },
-      {
-        "psalm": "PSALM_44_2"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Je vous le dis&nbsp;: Je suis la porte. Si quelqu’un entre par moi, il sera sauvé, il trouvera de quoi se nourrir. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix&nbsp;:</p> <p>R/ Souviens-toi de ton Église.</p> <p>Jésus, pierre rejetée par les bâtisseurs et devenue la pierre d’angle,<br> –&nbsp;fais de nous les pierres vivantes de ton Église.</p> <p>Jésus, témoin fidèle et vrai, premier-né d’entre les morts,<br> –&nbsp;donne à ton Église de témoigner hardiment au milieu du monde.</p> <p>Jésus, Époux de l’Église née de ton côté transpercé,<br> –&nbsp;accorde aux religieux d’entrer dans ce mystère d’alliance.</p> <p>Jésus, Premier et Dernier, qui étais mort et qui es vivant,<br> –&nbsp;fais grandir ta vie dans les baptisés.</p> <p>Jésus, flambeau de la Cité de Dieu, <br> –&nbsp;répands ta clarté sur les défunts.</p> "
+    }
   }
 }

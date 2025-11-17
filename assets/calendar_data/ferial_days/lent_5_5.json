@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 52, 13-15",
+      "biblicalReference": "Is 52, 13-15",
       "content": "Mon serviteur réussira, dit le Seigneur&nbsp;; il montera, il s’élèvera, il sera exalté&nbsp;! La multitude avait été consternée en le voyant, car il était si défiguré qu’il ne ressemblait plus à un homme. De même, devant lui les rois resteront bouche bée, car ils verront ce qu’on ne leur avait jamais dit, ils découvriront ce dont ils n’avaient jamais entendu parler."
     },
-    "evangelicAntiphon": "Alors vous connaîtrez que le Père est en moi, comme je suis dans le Père.",
-    "intercession": "<p>Levons les yeux vers le Fils de Dieu, mort sur la croix, vivant pour les siècles&nbsp;:</p> <p>R/ Par ta souffrance et par ta croix, sauve-nous.</p> <p>Tu as lutté contre Satan.</p> <p>Tu as connu la soif et la faim.</p> <p>Tu as enduré la fatigue du chemin.</p> <p>Tu n’avais pas d’endroit où reposer ta tête.</p> <p>Tu as été rejeté par ton peuple.</p> <p>Tu as été abandonné par les tiens.</p> <p>Tu as fait la volonté du Père.</p> ",
     "responsory": "<p>R/ Il n’avait ni beauté, ni éclat.<br>  * Par ses souffrances, nous sommes guéris.<br> V/ Il était méprisé, abandonné. * <br> V/ C’était nos souffrances qu’il portait. * <br></p>",
-    "oration": "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    "evangelicAntiphon": {
+      "common": "Alors vous connaîtrez que le Père est en moi, comme je suis dans le Père."
+    },
+    "intercession": {
+      "content": "<p>Levons les yeux vers le Fils de Dieu, mort sur la croix, vivant pour les siècles&nbsp;:</p> <p>R/ Par ta souffrance et par ta croix, sauve-nous.</p> <p>Tu as lutté contre Satan.</p> <p>Tu as connu la soif et la faim.</p> <p>Tu as enduré la fatigue du chemin.</p> <p>Tu n’avais pas d’endroit où reposer ta tête.</p> <p>Tu as été rejeté par ton peuple.</p> <p>Tu as été abandonné par les tiens.</p> <p>Tu as fait la volonté du Père.</p> "
+    },
+    "oration": [
+      "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Le Christ, prêtre pour l’éternité",
-      "ref": "He 7, 11-28",
-      "content": "<p>Si l’on atteignait la perfection par le moyen du sacerdoce lévitique, sur lequel repose la législation du peuple, pourquoi faudrait-il que se lève un autre prêtre de l’ordre de Melkisédek, et qu’il ne soit pas appelé prêtre de l’ordre d’Aaron&nbsp;? Or s’il y a changement de sacerdoce, il y a nécessairement aussi changement de loi. Celui dont il s’agit ici appartient à une autre tribu, dont aucun membre n’a jamais été au service de l’autel. En effet, il est clair que notre Seigneur a surgi de la tribu de Juda, pour laquelle Moïse ne dit rien quand il parle des prêtres. Les choses sont encore beaucoup plus claires si cet autre prêtre se lève à la ressemblance de Melkisédek et devient prêtre, non pas selon une exigence légale de filiation humaine, mais par la puissance d’une vie indestructible. Car voici le témoignage de l’Écriture&nbsp;: <i>Toi, tu es prêtre de l’ordre de Melkisédek pour l’éternité</i>. On a là, d’une part, l’abrogation du commandement précédent, à cause de sa faiblesse et de son inutilité —&nbsp;puisque la Loi n’a rien mené à la perfection —&nbsp;et, d’autre part, l’introduction d’une espérance meilleure qui nous fait approcher de Dieu. Cela ne s’est pas fait sans qu’il y ait eu prestation de serment&nbsp;: en effet, tandis que les autres devenaient prêtres sans aucun serment, celui-là a fait l’objet d’un serment de la part de celui qui lui a dit&nbsp;: <i>Le Seigneur l’a juré dans un serment irrévocable&nbsp;; toi, tu es prêtre pour l’éternité</i>. Pour cette raison, Jésus est devenu le garant d’une alliance meilleure. Jusque-là, un grand nombre de prêtres se sont succédé parce que la mort les empêchait de rester en fonction. Jésus, lui, parce qu’il demeure pour l’éternité, possède un sacerdoce qui ne passe pas. C’est pourquoi il est capable de sauver d’une manière définitive ceux qui par lui s’avancent vers Dieu, car il est toujours vivant pour intercéder en leur faveur. C’est bien le grand prêtre qu’il nous fallait&nbsp;: saint, innocent, immaculé&nbsp;; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple&nbsp;; cela, il l’a fait une fois pour toutes en s’offrant lui-même. La loi de Moïse établit comme grands prêtres des hommes remplis de faiblesse&nbsp;; mais la parole du serment divin, qui vient après la Loi, établit comme grand prêtre le Fils, conduit pour l’éternité à sa perfection.</p>",
-      "responsory": "<p>R/ Jésus, tu es grand prêtre des biens à venir&nbsp;!</p> <p>Entré une fois pour toutes dans le sanctuaire,<br> tu nous libères pour toujours</p> <p>Comme une victime sans tache,<br> tu t’es offert toi-même à Dieu.</p>"
-    },
-    "patristicReading": {
-      "title": "LETTRE DE SAINT FULGENCE DE RUSPE",
-      "subtitle": "«&nbsp;Il s’est livré pour nous&nbsp;»",
-      "content": "<p>La Sainte Trinité, Dieu unique du nouveau et de l’ancien Testament, prescrivait à nos pères de lui offrir en sacrifice la chair des animaux. Ces animaux préfiguraient l’offrande très agréable de ce sacrifice que l’unique Fils de Dieu devait offrir miséricordieusement pour nous, en immolant sa chair. C’est lui, en effet, selon l’enseignement de l’Apôtre, qui <i>s’est livré pour nous en offrant à Dieu le sacrifice qui pouvait lui plaire</i>. C’est lui, vrai Dieu et vrai grand prêtre, qui pour nous <i>est entré une fois pour toutes dans le sanctuaire en répandant non pas le sang des animaux, mais son propre sang.</i> C’est ce que préfigurait le grand prêtre juif quand il entrait dans le sanctuaire, chaque année, en répandant le sang. C’est donc lui qui, en lui seul, a présenté tout ce qu’il savait être nécessaire de réaliser pour notre rédemption. Oui, il était à la fois le prêtre et le sacrifice, à la fois Dieu et le temple. Prêtre dont la médiation nous réconcilie&nbsp;; sacrifice qui opère la réconciliation&nbsp;; temple dans lequel se fait notre réconciliation&nbsp;; Dieu avec qui nous sommes réconciliés. Il est à lui seul le prêtre, le sacrifice et le temple, car, étant Dieu, il est tout cela selon la condition de serviteur. Mais il n’est pas Dieu à lui seul, car il l’est avec le Père et l’Esprit Saint selon la condition de Dieu. ~ Tu dois donc croire très fermement et sans aucune hésitation que l’unique Verbe de Dieu lui-même s’est offert pour nous à Dieu en sacrifice capable de lui plaire. C’est à Lui, avec le Père et l’Esprit Saint, que les patriarches, les prophètes et les prêtres, au temps de l’ancienne Alliance, offraient des animaux en sacrifice&nbsp;; et c’est à lui, avec le Père et l’Esprit Saint qui ont avec lui une même divinité, que la sainte Église catholique, dans le monde entier, ne cesse d’offrir le sacrifice du pain et du vin, dans la foi et la charité. La chair de ces animaux immolés jadis préfigurait la chair du Christ que lui-même, étranger au péché, offrirait pour nos péchés, elle préfigurait le sang qu’il répandrait pour le pardon de nos péchés. Mais dans notre sacrifice il y a l’action de grâce et la mémoire de la chair du Christ qu’il a offerte pour nous, et du sang que lui-même, Dieu, a répandu pour nous. Saint Paul, dans les Actes des Apôtres, dit à ce sujet&nbsp;: <i>Veillez sur vous-mêmes et sur tout le troupeau où l’Esprit Saint vous a placés comme responsables pour être les pasteurs de l’Église de Dieu, qu’il a acquise par son sang</i>. Les sacrifices d’autrefois symbolisaient donc d’une manière figurative ce que nous aurions à donner. Dans le sacrifice d’aujourd’hui nous est montré clairement ce qui nous a déjà été donné. Les sacrifices d’autrefois annonçaient à l’avance que le Fils de Dieu serait mis à mort pour les impies. Le sacrifice d’aujourd’hui annonce qu’il a été mis à mort pour les impies. Saint Paul nous l’atteste&nbsp;: <i>Le Christ, alors que nous n’étions encore capables de rien, au temps fixé par Dieu, est mort pour les impies que nous étions. Et encore&nbsp;: Quand nous étions encore ses ennemis, Dieu nous a réconciliés avec lui par la mort de son Fils.</i></p>",
-      "responsory": "<p>R/ Jésus, tu es grand prêtre des biens à venir&nbsp;!</p> <p>Entré une fois pour toutes dans le sanctuaire,<br> tu nous libères pour toujours.</p> <p>Comme une victime sans tache,<br> Tu t’es offert toi-même à Dieu.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Le Christ, prêtre pour l’éternité",
+        "ref": "He 7, 11-28",
+        "content": "<p>Si l’on atteignait la perfection par le moyen du sacerdoce lévitique, sur lequel repose la législation du peuple, pourquoi faudrait-il que se lève un autre prêtre de l’ordre de Melkisédek, et qu’il ne soit pas appelé prêtre de l’ordre d’Aaron&nbsp;? Or s’il y a changement de sacerdoce, il y a nécessairement aussi changement de loi. Celui dont il s’agit ici appartient à une autre tribu, dont aucun membre n’a jamais été au service de l’autel. En effet, il est clair que notre Seigneur a surgi de la tribu de Juda, pour laquelle Moïse ne dit rien quand il parle des prêtres. Les choses sont encore beaucoup plus claires si cet autre prêtre se lève à la ressemblance de Melkisédek et devient prêtre, non pas selon une exigence légale de filiation humaine, mais par la puissance d’une vie indestructible. Car voici le témoignage de l’Écriture&nbsp;: <i>Toi, tu es prêtre de l’ordre de Melkisédek pour l’éternité</i>. On a là, d’une part, l’abrogation du commandement précédent, à cause de sa faiblesse et de son inutilité —&nbsp;puisque la Loi n’a rien mené à la perfection —&nbsp;et, d’autre part, l’introduction d’une espérance meilleure qui nous fait approcher de Dieu. Cela ne s’est pas fait sans qu’il y ait eu prestation de serment&nbsp;: en effet, tandis que les autres devenaient prêtres sans aucun serment, celui-là a fait l’objet d’un serment de la part de celui qui lui a dit&nbsp;: <i>Le Seigneur l’a juré dans un serment irrévocable&nbsp;; toi, tu es prêtre pour l’éternité</i>. Pour cette raison, Jésus est devenu le garant d’une alliance meilleure. Jusque-là, un grand nombre de prêtres se sont succédé parce que la mort les empêchait de rester en fonction. Jésus, lui, parce qu’il demeure pour l’éternité, possède un sacerdoce qui ne passe pas. C’est pourquoi il est capable de sauver d’une manière définitive ceux qui par lui s’avancent vers Dieu, car il est toujours vivant pour intercéder en leur faveur. C’est bien le grand prêtre qu’il nous fallait&nbsp;: saint, innocent, immaculé&nbsp;; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple&nbsp;; cela, il l’a fait une fois pour toutes en s’offrant lui-même. La loi de Moïse établit comme grands prêtres des hommes remplis de faiblesse&nbsp;; mais la parole du serment divin, qui vient après la Loi, établit comme grand prêtre le Fils, conduit pour l’éternité à sa perfection.</p>",
+        "responsory": "<p>R/ Jésus, tu es grand prêtre des biens à venir&nbsp;!</p> <p>Entré une fois pour toutes dans le sanctuaire,<br> tu nous libères pour toujours</p> <p>Comme une victime sans tache,<br> tu t’es offert toi-même à Dieu.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "LETTRE DE SAINT FULGENCE DE RUSPE",
+        "subtitle": "«&nbsp;Il s’est livré pour nous&nbsp;»",
+        "content": "<p>La Sainte Trinité, Dieu unique du nouveau et de l’ancien Testament, prescrivait à nos pères de lui offrir en sacrifice la chair des animaux. Ces animaux préfiguraient l’offrande très agréable de ce sacrifice que l’unique Fils de Dieu devait offrir miséricordieusement pour nous, en immolant sa chair. C’est lui, en effet, selon l’enseignement de l’Apôtre, qui <i>s’est livré pour nous en offrant à Dieu le sacrifice qui pouvait lui plaire</i>. C’est lui, vrai Dieu et vrai grand prêtre, qui pour nous <i>est entré une fois pour toutes dans le sanctuaire en répandant non pas le sang des animaux, mais son propre sang.</i> C’est ce que préfigurait le grand prêtre juif quand il entrait dans le sanctuaire, chaque année, en répandant le sang. C’est donc lui qui, en lui seul, a présenté tout ce qu’il savait être nécessaire de réaliser pour notre rédemption. Oui, il était à la fois le prêtre et le sacrifice, à la fois Dieu et le temple. Prêtre dont la médiation nous réconcilie&nbsp;; sacrifice qui opère la réconciliation&nbsp;; temple dans lequel se fait notre réconciliation&nbsp;; Dieu avec qui nous sommes réconciliés. Il est à lui seul le prêtre, le sacrifice et le temple, car, étant Dieu, il est tout cela selon la condition de serviteur. Mais il n’est pas Dieu à lui seul, car il l’est avec le Père et l’Esprit Saint selon la condition de Dieu. ~ Tu dois donc croire très fermement et sans aucune hésitation que l’unique Verbe de Dieu lui-même s’est offert pour nous à Dieu en sacrifice capable de lui plaire. C’est à Lui, avec le Père et l’Esprit Saint, que les patriarches, les prophètes et les prêtres, au temps de l’ancienne Alliance, offraient des animaux en sacrifice&nbsp;; et c’est à lui, avec le Père et l’Esprit Saint qui ont avec lui une même divinité, que la sainte Église catholique, dans le monde entier, ne cesse d’offrir le sacrifice du pain et du vin, dans la foi et la charité. La chair de ces animaux immolés jadis préfigurait la chair du Christ que lui-même, étranger au péché, offrirait pour nos péchés, elle préfigurait le sang qu’il répandrait pour le pardon de nos péchés. Mais dans notre sacrifice il y a l’action de grâce et la mémoire de la chair du Christ qu’il a offerte pour nous, et du sang que lui-même, Dieu, a répandu pour nous. Saint Paul, dans les Actes des Apôtres, dit à ce sujet&nbsp;: <i>Veillez sur vous-mêmes et sur tout le troupeau où l’Esprit Saint vous a placés comme responsables pour être les pasteurs de l’Église de Dieu, qu’il a acquise par son sang</i>. Les sacrifices d’autrefois symbolisaient donc d’une manière figurative ce que nous aurions à donner. Dans le sacrifice d’aujourd’hui nous est montré clairement ce qui nous a déjà été donné. Les sacrifices d’autrefois annonçaient à l’avance que le Fils de Dieu serait mis à mort pour les impies. Le sacrifice d’aujourd’hui annonce qu’il a été mis à mort pour les impies. Saint Paul nous l’atteste&nbsp;: <i>Le Christ, alors que nous n’étions encore capables de rien, au temps fixé par Dieu, est mort pour les impies que nous étions. Et encore&nbsp;: Quand nous étions encore ses ennemis, Dieu nous a réconciliés avec lui par la mort de son Fils.</i></p>",
+        "responsory": "<p>R/ Jésus, tu es grand prêtre des biens à venir&nbsp;!</p> <p>Entré une fois pour toutes dans le sanctuaire,<br> tu nous libères pour toujours.</p> <p>Comme une victime sans tache,<br> Tu t’es offert toi-même à Dieu.</p>"
+      }
+    ],
     "verse": "<p>V/ Revenons au Seigneur notre Dieu,<br> car il est tendre et miséricordieux.</p>",
-    "oration": "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    "oration": [
+      "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_4",
+        "antiphon": [
+          "J’ai choisi la voie de la fidélité&nbsp;; mets au large mon cœur."
+        ]
+      },
+      {
+        "psalm": "PSALM_25"
+      },
+      {
+        "psalm": "PSALM_27"
+      }
+    ],
+    "oration": [
+      "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "1 P 2, 21b-24",
+      "biblicalReference": "1 P 2, 21b-24",
       "content": "Le Christ lui-même a souffert pour vous et vous a laissé son exemple afin que vous suiviez ses traces, lui qui n’a jamais commis de péché ni proféré de mensonge&nbsp;: couvert d’insultes, il n’insultait pas&nbsp;; accablé de souffrances, il ne menaçait pas, mais il confiait sa cause à Celui qui juge avec justice. Dans son corps, il a porté nos péchés sur le bois de la croix afin que nous puis­sions mourir à nos péchés et vivre dans la justice&nbsp;: c’est par ses blessures que vous avez été guéris."
     },
-    "evangelicAntiphon": "Si je fais les œuvres de mon Père, croyez aux œuvres que je fais en son nom.",
-    "intercession": "<p>Prions le Christ, notre Sauveur, qui nous délivre par sa mort et sa résurrection&nbsp;:</p> <p>R/ Seigneur Jésus, prends pitié de nous.</p> <p>Tu es monté à Jérusalem pour souffrir la passion et entrer dans ta gloire&nbsp;:<br> conduis ton Église jusqu’à la Pâque éternelle.</p> <p>Sur la croix, tu as exaucé le malfaiteur repenti&nbsp;:<nr> ouvre ton paradis aux pécheurs que nous sommes.</p> <p>Ton cœur a été percé par la lance&nbsp;:<br> purifie-nous dans l’eau et le sang.</p> <p>Tu as changé la croix en arbre de vie&nbsp;:<br> donne-nous de manger le fruit du salut.</p> <p>Tu es descendu au séjour des morts avant de monter vers ton Père&nbsp;:<br> arrache à la servitude ceux qui attendent leur libération.</p> ",
     "responsory": "<p>R/ Comme un agneau que l’on mène à l’abattoir,<br> il n’ouvre pas la bouche.<br>  *  Qui donc a eu souci de son peuple.<br> V/ Frappé à cause des péchés de son peuple,<br> il a été supprimé.  * <br> V/ Broyé par la souffrance,<br> il a plu au Seigneur.  * <br></p>",
-    "oration": "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_4",
-        "antiphon": [
-          "J’ai choisi la voie de la fidélité&nbsp;; mets au large mon cœur."
-        ]
-      },
-      {
-        "psalm": "PSALM_25"
-      },
-      {
-        "psalm": "PSALM_27"
-      }
-    ],
-    "oration": "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    "evangelicAntiphon": {
+      "common": "Si je fais les œuvres de mon Père, croyez aux œuvres que je fais en son nom."
+    },
+    "intercession": {
+      "content": "<p>Prions le Christ, notre Sauveur, qui nous délivre par sa mort et sa résurrection&nbsp;:</p> <p>R/ Seigneur Jésus, prends pitié de nous.</p> <p>Tu es monté à Jérusalem pour souffrir la passion et entrer dans ta gloire&nbsp;:<br> conduis ton Église jusqu’à la Pâque éternelle.</p> <p>Sur la croix, tu as exaucé le malfaiteur repenti&nbsp;:<nr> ouvre ton paradis aux pécheurs que nous sommes.</p> <p>Ton cœur a été percé par la lance&nbsp;:<br> purifie-nous dans l’eau et le sang.</p> <p>Tu as changé la croix en arbre de vie&nbsp;:<br> donne-nous de manger le fruit du salut.</p> <p>Tu es descendu au séjour des morts avant de monter vers ton Père&nbsp;:<br> arrache à la servitude ceux qui attendent leur libération.</p> "
+    },
+    "oration": [
+      "Pardonne, Seigneur, les torts de ton peuple&nbsp;; puisque notre faiblesse nous a rendus captifs du péché, que ta tendresse nous en délivre."
+    ]
   }
 }

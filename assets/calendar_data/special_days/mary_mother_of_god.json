@@ -1,8 +1,12 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Célébrons la Vierge Marie, adorons Jésus, son enfant."
-    ]
+  "celebration": {
+    "title": "Sainte Marie, Mère de Dieu",
+    "description": "<p>Huit jours après la Nativité du Seigneur et Sauveur Jésus-Christ, nous célébrons sa Mère, celle qui lui a donné son être humain, corps et âme par l'Esprit-Saint qui vient sur elle la plaçant dans l'orbite de la paternité divine. C'est pourquoi le concile d'Ephèse en 431, la proclama la Theotokos, la Mère de Dieu, puisque son fils est Dieu, ce qui ne préjuge pas de la différence entre Marie créature humaine et Jésus Fils éternel de Dieu.<br>En l’Octave de la Nativité du Seigneur et au jour de sa circoncision, solennité de sainte Marie Mère de Dieu. Au concile d’Ephèse, les Pères l’acclamèrent Théotokos, parce que, en elle, le Verbe prit chair et le Fils de Dieu habita parmi les hommes, lui, le prince de la paix, à qui a été donné le nom au dessus de tout nom.</p>",
+    "commons": [
+      "virgin-mary"
+    ],
+    "grade": 3,
+    "color": "white"
   },
   "firstVespers": {
     "psalmody": [
@@ -26,14 +30,26 @@
       }
     ],
     "reading": {
-      "ref": "Ga 4, 4-5",
+      "biblicalReference": "Ga 4, 4-5",
       "content": "Lorsque les temps furent accomplis, Dieu a envoyé son Fils&nbsp;; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils."
     },
-    "evangelicAntiphon": "Dans son amour extrême pour les hommes, Dieu leur envoya son Fils&nbsp;: prenant notre chair, notre chair de péché, il naquit d’une femme et fut soumis à la loi. Gloire au Fils bien-aimé&nbsp;!",
-    "intercession": "<p>Béni soit Jésus, notre Sauveur, venu nous rassembler en lui.<br> À lui, notre prière et notre supplication.</p> <p>R/Jésus, notre force et notre paix, exauce-nous.</p> <p>Ta naissance a révélé aux hommes de quel amour tu les aimes&nbsp;:<br> —&nbsp;garde-nous dans l’action de grâce.</p> <p>Tu as comblé de grâce ta mère, la Vierge Marie&nbsp;:<br> —&nbsp;accorde à ton Église l’abondance de tes dons.</p> <p>Tu es venu annoncer au monde son pardon et sa délivrance&nbsp;:<br> —&nbsp;multiplie le nombre de ceux qui t’écoutent.</p> <p>En naissant de la Vierge Marie, tu t’es fait notre frère&nbsp;:<br> —&nbsp;enseigne aux hommes à s’aimer les uns les autres.</p> <p>Tu es apparu dans le monde comme la lumière sans déclin&nbsp;:<br> —&nbsp;que nos frères défunts te voient face à face.</p>",
-    "responsory": "<p>R/ Les temps sont accomplis&nbsp;:<br> * Il est né d’une femme,<br> celui qui nous rend fils de Dieu.<br> V/ Marie tressaille et s’émerveille. *<br> V/ L’Église d’âge en âge transmet la Parole. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>"
+    "responsory": "<p>R/ Les temps sont accomplis&nbsp;:<br> * Il est né d’une femme,<br> celui qui nous rend fils de Dieu.<br> V/ Marie tressaille et s’émerveille. *<br> V/ L’Église d’âge en âge transmet la Parole. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ </p>",
+    "evangelicAntiphon": {
+      "common": "Dans son amour extrême pour les hommes, Dieu leur envoya son Fils&nbsp;: prenant notre chair, notre chair de péché, il naquit d’une femme et fut soumis à la loi. Gloire au Fils bien-aimé&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Béni soit Jésus, notre Sauveur, venu nous rassembler en lui.<br> À lui, notre prière et notre supplication.</p> <p>R/Jésus, notre force et notre paix, exauce-nous.</p> <p>Ta naissance a révélé aux hommes de quel amour tu les aimes&nbsp;:<br> —&nbsp;garde-nous dans l’action de grâce.</p> <p>Tu as comblé de grâce ta mère, la Vierge Marie&nbsp;:<br> —&nbsp;accorde à ton Église l’abondance de tes dons.</p> <p>Tu es venu annoncer au monde son pardon et sa délivrance&nbsp;:<br> —&nbsp;multiplie le nombre de ceux qui t’écoutent.</p> <p>En naissant de la Vierge Marie, tu t’es fait notre frère&nbsp;:<br> —&nbsp;enseigne aux hommes à s’aimer les uns les autres.</p> <p>Tu es apparu dans le monde comme la lumière sans déclin&nbsp;:<br> —&nbsp;que nos frères défunts te voient face à face.</p>"
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Célébrons la Vierge Marie, adorons Jésus, son enfant."
+    ]
   },
   "morning": {
+    "hymn": [
+      "en-notre-coeur"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_62",
@@ -55,17 +71,21 @@
       }
     ],
     "reading": {
-      "ref": "Mi 5, 1-2ab.3-4a",
+      "biblicalReference": "Mi 5, 1-2ab.3-4a",
       "content": "Bethléem Ephrata, c’est de toi que je ferai sortir celui qui doit gouverner Israël. Ses origines remontent aux temps anciens, à l’aube des siècles. Après un temps de délaissement, viendra un jour où enfantera celle qui doit enfanter. Il se dressera et il sera le berger d’Israël par la puissance du Seigneur, par la majesté du nom de son Dieu. Désormais sa puissance s’étendra jusqu’aux extrémités de la terre, et lui-même, il sera la paix&nbsp;!"
     },
-    "hymn": [
-      "en-notre-coeur"
-    ],
-    "evangelicAntiphon": "Aujourd’hui nous est révélé un étonnant mystère&nbsp;: quand Dieu se fait homme, paraît un monde nouveau&nbsp;; en devenant ce que tu n’étais pas, tu demeures celui que tu es&nbsp;: Gloire à toi, Verbe fait chair&nbsp;!",
-    "intercession": "<p>À Jésus, né de la Vierge Marie par la puissance de l’Esprit, notre louange et notre prière&nbsp;!</p> <p>R/Jésus, fils de la Vierge Marie, exauce-nous&nbsp;!</p> <p>Ô Christ, né parmi nous dans l’humilité,<br> prince de la paix, conseiller merveilleux,<br> étends au monde entier le règne de la paix.</p> <p>Toi qui nous as montré, par ta venue,<br> le prix que nous avons à tes yeux,<br> accorde-nous de te glorifier par les actes de notre vie.</p> <p>Toi qui t’es fait semblable à nous,<br> rends-nous semblables à toi.</p> <p>Toi qui t’es voulu participant de notre vie,<br> donne-nous part à ton Royaume.</p>",
-    "responsory": "<p>R/ Les temps sont accomplis&nbsp;:<br> * Il est né d’une femme,<br> celui qui nous rend fils de Dieu.<br> V/ Par la puissance du Seigneur,<br> il fera paître son troupeau. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>"
+    "responsory": "<p>R/ Les temps sont accomplis&nbsp;:<br> * Il est né d’une femme,<br> celui qui nous rend fils de Dieu.<br> V/ Par la puissance du Seigneur,<br> il fera paître son troupeau. *<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>",
+    "evangelicAntiphon": {
+      "common": "Aujourd’hui nous est révélé un étonnant mystère&nbsp;: quand Dieu se fait homme, paraît un monde nouveau&nbsp;; en devenant ce que tu n’étais pas, tu demeures celui que tu es&nbsp;: Gloire à toi, Verbe fait chair&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>À Jésus, né de la Vierge Marie par la puissance de l’Esprit, notre louange et notre prière&nbsp;!</p> <p>R/Jésus, fils de la Vierge Marie, exauce-nous&nbsp;!</p> <p>Ô Christ, né parmi nous dans l’humilité,<br> prince de la paix, conseiller merveilleux,<br> étends au monde entier le règne de la paix.</p> <p>Toi qui nous as montré, par ta venue,<br> le prix que nous avons à tes yeux,<br> accorde-nous de te glorifier par les actes de notre vie.</p> <p>Toi qui t’es fait semblable à nous,<br> rends-nous semblables à toi.</p> <p>Toi qui t’es voulu participant de notre vie,<br> donne-nous part à ton Royaume.</p>"
+    }
   },
   "readings": {
+    "hymn": [
+      "il-est-ne-il-nous-est-donne"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_23",
@@ -86,22 +106,60 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "En tous points Jésus s’est fait semblable à ses frères",
-      "ref": "He 2, 9-17",
-      "content": "<p>Jésus, qui a été abaissé un peu au-dessous des anges, nous le voyons couronné de gloire et d’honneur à cause de sa Passion et de sa mort. Si donc il a fait l’expérience de la mort, c’est, par grâce de Dieu, au profit de tous.</p> <p>Celui pour qui et par qui tout existe voulait conduire une multitude de fils jusqu’à la gloire&nbsp;; c’est pourquoi il convenait qu’il mène à sa perfection, par des souffrances, celui qui est à l’origine de leur salut. Car celui qui sanctifie, et ceux qui sont sanctifiés, doivent tous avoir même origine&nbsp;; pour cette raison, Jésus n’a pas honte de les appeler ses frères, quand il dit&nbsp;:<i>Je proclamerai ton nom devant mes frères, je te chanterai en pleine assemblée,</i>et encore&nbsp;:<i>Moi, je mettrai ma confiance en lui,</i>et encore&nbsp;:<i>Me voici, moi et les enfants que Dieu m’a donnés.</i></p> <p>Puisque les enfants des hommes ont en commun le sang et la chair, Jésus a partagé, lui aussi, pareille condition&nbsp;: ainsi, par sa mort, il a pu réduire à l’impuissance celui qui possédait le pouvoir de la mort, c’est-à-dire le diable, et il a rendu libres tous ceux qui, par crainte de la mort, passaient toute leur vie dans une situation d’esclaves. Car ceux qu’il prend en charge, ce ne sont pas les anges, c’est la descendance d’Abraham. Il lui fallait donc se rendre en tout semblable à ses frères, pour devenir un grand prêtre miséricordieux et digne de foi pour les relations avec Dieu, afin d’enlever les péchés du peuple.</p>",
-      "responsory": "<p>R/ Joie dans le ciel, paix sur la terre&nbsp;!</p> Au souffle qui passe en elle , Marie tressaille et s’émerveille.</p> Les pauvres sont venus&nbsp;; ils glorifient et louent l’Éternel.</p> D’âge en âge l’Église reçoit la Parole de vie.</p>"
-    },
-    "patristicReading": {
-      "title": "LETTRE DE SAINT ATHANASE À ÉPICTÈTE, ÉVÊQUE DE CORINTHE",
-      "subtitle": "En Marie, Dieu s’est vraiment fait homme",
-      "content": "<p><i>Le Verbe a pris en charge la descendance d’Abraham, c’est pourquoi il devait se faire en tous points semblable à ses frères</i>et prendre un corps pareil au nôtre. Aussi Marie est-elle vraiment nécessaire pour qu’il prenne ce corps en elle et l’offre en notre faveur comme étant le sien. ~ L’Écriture rappelle son enfantement et dit&nbsp;:<i>Elle emmaillota son fils</i>; le sein qui l’allaita a été déclaré bienheureux, et l’on a considéré qu’il est né d’elle comme pour l’offrande d’un sacrifice. ~ Gabriel le lui avait annoncé en termes soigneusement choisis. Il n’a pas dit, de façon banale&nbsp;: «&nbsp;Celui qui va naître en toi&nbsp;» pour ne pas faire croire que ce serait un corps extérieur introduit du dehors&nbsp;; il a dit&nbsp;:<i>Celui qui va naître de toi</i>, pour inviter à croire que celui qui allait naître sortirait d’elle. ~</p> <p>Tout cela s’est fait ainsi pour que le Verbe, en assumant notre nature et en l’offrant en sacrifice, la fasse totalement sienne. Il a voulu nous revêtir ensuite de sa propre nature, ce qui permet à saint Paul de dire&nbsp;:<i>Il faut que cet être corruptible revête l’incorruptibilité, que cet être mortel revête l’immortalité</i>. Cela ne s’est pas fait de façon fictive comme certains hérétiques l’ont encore imaginé&nbsp;: jamais de la vie&nbsp;! Le Sauveur est devenu vraiment homme, et le salut de l’homme tout entier est venu de là. ~ Notre salut n’est pas une apparence, il n’est pas pour le corps seul, mais pour l’homme tout entier, âme et corps, et ce salut est venu du Verbe lui-même.</p> <p>Ce qui est venu de Marie était donc humain par nature, selon les Écritures, et le corps du Seigneur était un vrai corps&nbsp;; oui, un vrai corps, puisqu’il était identique au nôtre, car Marie est notre sœur, puisque nous descendons tous d’Adam. ~</p> <p>Bien entendu, le Verbe ne s’est pas transformé en chair&nbsp;; il a seulement pris notre nature&nbsp;; le mot de saint Jean&nbsp;:<i>le Verbe s’est fait chair</i>ne signifie pas autre chose, ainsi qu’on peut le voir à des expressions analogues, par exemple chez saint Paul&nbsp;:<i>le Christ s’est fait malédiction pour nous</i>. ~</p> <p>L’union du Verbe à la nature n’ajoute rien à la Trinité, tandis que le corps humain a reçu un grand avantage de sa communion et de son unité avec le Verbe&nbsp;: de mortel il est devenu immortel, de purement humain il est devenu spirituel et lui qui vient de la terre, il franchit les portes du ciel.</p> <p>Certes, même après que le Verbe a pris un corps en Marie, la Trinité demeure la Trinité, sans addition ni diminution. Elle est toujours parfaite&nbsp;: dans la Trinité on reconnaît l’unique divinité, et c’est ainsi que dans l’Église on proclame un seul Dieu, le Père du Verbe.</p>",
-      "responsory": "<p>Les temps sont accomplis&nbsp;:<br>Aujourd’hui naît d’une femme,<br>celui qui nous rend fils de Dieu.<br>Son visage brille sur nous<br>et son Esprit pénètre nos cœurs.</p><p>R/ Joie dans le ciel, paix sur la terre&nbsp;!</p>"
-    },
-    "hymn": [
-      "il-est-ne-il-nous-est-donne"
+    "biblicalReading": [
+      {
+        "title": "En tous points Jésus s’est fait semblable à ses frères",
+        "ref": "He 2, 9-17",
+        "content": "<p>Jésus, qui a été abaissé un peu au-dessous des anges, nous le voyons couronné de gloire et d’honneur à cause de sa Passion et de sa mort. Si donc il a fait l’expérience de la mort, c’est, par grâce de Dieu, au profit de tous.</p> <p>Celui pour qui et par qui tout existe voulait conduire une multitude de fils jusqu’à la gloire&nbsp;; c’est pourquoi il convenait qu’il mène à sa perfection, par des souffrances, celui qui est à l’origine de leur salut. Car celui qui sanctifie, et ceux qui sont sanctifiés, doivent tous avoir même origine&nbsp;; pour cette raison, Jésus n’a pas honte de les appeler ses frères, quand il dit&nbsp;:<i>Je proclamerai ton nom devant mes frères, je te chanterai en pleine assemblée,</i>et encore&nbsp;:<i>Moi, je mettrai ma confiance en lui,</i>et encore&nbsp;:<i>Me voici, moi et les enfants que Dieu m’a donnés.</i></p> <p>Puisque les enfants des hommes ont en commun le sang et la chair, Jésus a partagé, lui aussi, pareille condition&nbsp;: ainsi, par sa mort, il a pu réduire à l’impuissance celui qui possédait le pouvoir de la mort, c’est-à-dire le diable, et il a rendu libres tous ceux qui, par crainte de la mort, passaient toute leur vie dans une situation d’esclaves. Car ceux qu’il prend en charge, ce ne sont pas les anges, c’est la descendance d’Abraham. Il lui fallait donc se rendre en tout semblable à ses frères, pour devenir un grand prêtre miséricordieux et digne de foi pour les relations avec Dieu, afin d’enlever les péchés du peuple.</p>",
+        "responsory": "<p>R/ Joie dans le ciel, paix sur la terre&nbsp;!</p> Au souffle qui passe en elle , Marie tressaille et s’émerveille.</p> Les pauvres sont venus&nbsp;; ils glorifient et louent l’Éternel.</p> D’âge en âge l’Église reçoit la Parole de vie.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "LETTRE DE SAINT ATHANASE À ÉPICTÈTE, ÉVÊQUE DE CORINTHE",
+        "subtitle": "En Marie, Dieu s’est vraiment fait homme",
+        "content": "<p><i>Le Verbe a pris en charge la descendance d’Abraham, c’est pourquoi il devait se faire en tous points semblable à ses frères</i>et prendre un corps pareil au nôtre. Aussi Marie est-elle vraiment nécessaire pour qu’il prenne ce corps en elle et l’offre en notre faveur comme étant le sien. ~ L’Écriture rappelle son enfantement et dit&nbsp;:<i>Elle emmaillota son fils</i>; le sein qui l’allaita a été déclaré bienheureux, et l’on a considéré qu’il est né d’elle comme pour l’offrande d’un sacrifice. ~ Gabriel le lui avait annoncé en termes soigneusement choisis. Il n’a pas dit, de façon banale&nbsp;: «&nbsp;Celui qui va naître en toi&nbsp;» pour ne pas faire croire que ce serait un corps extérieur introduit du dehors&nbsp;; il a dit&nbsp;:<i>Celui qui va naître de toi</i>, pour inviter à croire que celui qui allait naître sortirait d’elle. ~</p> <p>Tout cela s’est fait ainsi pour que le Verbe, en assumant notre nature et en l’offrant en sacrifice, la fasse totalement sienne. Il a voulu nous revêtir ensuite de sa propre nature, ce qui permet à saint Paul de dire&nbsp;:<i>Il faut que cet être corruptible revête l’incorruptibilité, que cet être mortel revête l’immortalité</i>. Cela ne s’est pas fait de façon fictive comme certains hérétiques l’ont encore imaginé&nbsp;: jamais de la vie&nbsp;! Le Sauveur est devenu vraiment homme, et le salut de l’homme tout entier est venu de là. ~ Notre salut n’est pas une apparence, il n’est pas pour le corps seul, mais pour l’homme tout entier, âme et corps, et ce salut est venu du Verbe lui-même.</p> <p>Ce qui est venu de Marie était donc humain par nature, selon les Écritures, et le corps du Seigneur était un vrai corps&nbsp;; oui, un vrai corps, puisqu’il était identique au nôtre, car Marie est notre sœur, puisque nous descendons tous d’Adam. ~</p> <p>Bien entendu, le Verbe ne s’est pas transformé en chair&nbsp;; il a seulement pris notre nature&nbsp;; le mot de saint Jean&nbsp;:<i>le Verbe s’est fait chair</i>ne signifie pas autre chose, ainsi qu’on peut le voir à des expressions analogues, par exemple chez saint Paul&nbsp;:<i>le Christ s’est fait malédiction pour nous</i>. ~</p> <p>L’union du Verbe à la nature n’ajoute rien à la Trinité, tandis que le corps humain a reçu un grand avantage de sa communion et de son unité avec le Verbe&nbsp;: de mortel il est devenu immortel, de purement humain il est devenu spirituel et lui qui vient de la terre, il franchit les portes du ciel.</p> <p>Certes, même après que le Verbe a pris un corps en Marie, la Trinité demeure la Trinité, sans addition ni diminution. Elle est toujours parfaite&nbsp;: dans la Trinité on reconnaît l’unique divinité, et c’est ainsi que dans l’Église on proclame un seul Dieu, le Père du Verbe.</p>",
+        "responsory": "<p>Les temps sont accomplis&nbsp;:<br>Aujourd’hui naît d’une femme,<br>celui qui nous rend fils de Dieu.<br>Son visage brille sur nous<br>et son Esprit pénètre nos cœurs.</p><p>R/ Joie dans le ciel, paix sur la terre&nbsp;!</p>"
+      }
     ],
     "verse": "<p>V/ Le Verbe s’est fait chair, alléluia,<br> il a demeuré parmi nous, alléluia.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_122"
+      },
+      {
+        "psalm": "PSALM_123"
+      },
+      {
+        "psalm": "PSALM_124"
+      }
+    ],
+    "tierce": {
+      "antiphon": "Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.",
+      "reading": {
+        "biblicalReference": "So 3, 14-15b",
+        "content": "Pousse des cris de joie, fille de Sion&nbsp;! Éclate en ovations, Israël&nbsp;! Réjouis-toi, tressaille d’allégresse, fille de Jérusalem&nbsp;! Le roi d’Israël, le Seigneur, est en toi."
+      },
+      "responsory": "<p>V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.</p>"
+    },
+    "sexte": {
+      "antiphon": "Marie retenait toutes ces paroles et les méditait dans son cœur.",
+      "reading": {
+        "biblicalReference": "Za 9, 9a",
+        "content": "Exulte de toutes tes forces, fille de Sion&nbsp;! Pousse des cris de joie, fille de Jérusalem&nbsp;! Voici ton roi qui vient vers toi&nbsp;: il est juste et victorieux."
+      },
+      "responsory": "<p>V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.</p>"
+    },
+    "none": {
+      "antiphon": "Mes yeux ont vu le salut que tu préparais à la face des peuples.",
+      "reading": {
+        "biblicalReference": "Ba 5, 3-4",
+        "content": "Jérusalem, Dieu va déployer ta splendeur partout sous le ciel, car Dieu pour toujours te donnera ces noms&nbsp;: «&nbsp;Paix-de-la-justice&nbsp;» et «&nbsp;Gloire-de-la-piété-envers-Dieu&nbsp;»."
+      },
+      "responsory": "<p>V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.</p>"
+    }
   },
   "vespers": {
     "psalmody": [
@@ -125,56 +183,18 @@
       }
     ],
     "reading": {
-      "ref": "Ga 4, 4-5",
+      "biblicalReference": "Ga 4, 4-5",
       "content": "Lorsque les temps furent accomplis, Dieu a envoyé son Fils&nbsp;; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils."
     },
-    "evangelicAntiphon": "Heureuse la femme qui t’a porté, heureuse la mère qui t’a nourri, Jésus, Christ et Sauveur du monde.",
-    "intercession": "<p>Invoquons avec joie le Christ, Dieu-avec-nous, que la Vierge a mis au monde&nbsp;:</p> <p>R/Jésus, fils de la Vierge Marie, exauce-nous.</p> <p>Toi qui as donné la joie d’être mère à la Vierge Marie,<br> —&nbsp;accorde aux parents de pouvoir se réjouir dans leurs enfants.</p> <p>Toi qui as vécu petit enfant à Nazareth,<br> —&nbsp;fais grandir les enfants dans l’amour du Père.</p> <p>Toi qui veux faire du genre humain le peuple de Dieu,<br> —&nbsp;préserve les nations de l’esprit de discorde.</p> <p>Toi qui es venu instaurer ton règne de justice et de paix,<br> —&nbsp;soutiens nos efforts pour l’union fraternelle.</p> <p>Toi qui as choisi de naître à la lumière de ce monde,<br> —&nbsp;donne à ceux qui meurent de naître à la lumière éternelle.</p>",
-    "responsory": "<p>R/ Les temps sont accomplis&nbsp;:<br> * Il est né d’une femme,<br> celui qui nous rend fils de Dieu.<br> V/ Marie tressaille et s’émerveille.&nbsp;*<br> V/ L’Église d’âge en âge transmet la Parole.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_122"
-      },
-      {
-        "psalm": "PSALM_123"
-      },
-      {
-        "psalm": "PSALM_124"
-      }
-    ],
-    "tierce": {
-      "antiphon": "Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.",
-      "reading": {
-        "ref": "So 3, 14-15b",
-        "content": "Pousse des cris de joie, fille de Sion&nbsp;! Éclate en ovations, Israël&nbsp;! Réjouis-toi, tressaille d’allégresse, fille de Jérusalem&nbsp;! Le roi d’Israël, le Seigneur, est en toi."
-      },
-      "responsory": "<p>V/ Le Seigneur s’est rappelé son amour, alléluia&nbsp;;<br> sa fidélité en faveur d’Israël, alléluia.</p>"
+    "responsory": "<p>R/ Les temps sont accomplis&nbsp;:<br> * Il est né d’une femme,<br> celui qui nous rend fils de Dieu.<br> V/ Marie tressaille et s’émerveille.&nbsp;*<br> V/ L’Église d’âge en âge transmet la Parole.&nbsp;*<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/</p>",
+    "evangelicAntiphon": {
+      "common": "Heureuse la femme qui t’a porté, heureuse la mère qui t’a nourri, Jésus, Christ et Sauveur du monde."
     },
-    "sexte": {
-      "antiphon": "Marie retenait toutes ces paroles et les méditait dans son cœur.",
-      "reading": {
-        "ref": "Za 9, 9a",
-        "content": "Exulte de toutes tes forces, fille de Sion&nbsp;! Pousse des cris de joie, fille de Jérusalem&nbsp;! Voici ton roi qui vient vers toi&nbsp;: il est juste et victorieux."
-      },
-      "responsory": "<p>V/ Tous les confins de la terre ont vu, alléluia,<br> le salut de notre Dieu, alléluia.</p>"
-    },
-    "none": {
-      "antiphon": "Mes yeux ont vu le salut que tu préparais à la face des peuples.",
-      "reading": {
-        "ref": "Ba 5, 3-4",
-        "content": "Jérusalem, Dieu va déployer ta splendeur partout sous le ciel, car Dieu pour toujours te donnera ces noms&nbsp;: «&nbsp;Paix-de-la-justice&nbsp;» et «&nbsp;Gloire-de-la-piété-envers-Dieu&nbsp;»."
-      },
-      "responsory": "<p>V/ Amour et vérité se rencontrent, alléluia,<br> justice et paix s’embrassent, alléluia.</p>"
+    "intercession": {
+      "content": "<p>Invoquons avec joie le Christ, Dieu-avec-nous, que la Vierge a mis au monde&nbsp;:</p> <p>R/Jésus, fils de la Vierge Marie, exauce-nous.</p> <p>Toi qui as donné la joie d’être mère à la Vierge Marie,<br> —&nbsp;accorde aux parents de pouvoir se réjouir dans leurs enfants.</p> <p>Toi qui as vécu petit enfant à Nazareth,<br> —&nbsp;fais grandir les enfants dans l’amour du Père.</p> <p>Toi qui veux faire du genre humain le peuple de Dieu,<br> —&nbsp;préserve les nations de l’esprit de discorde.</p> <p>Toi qui es venu instaurer ton règne de justice et de paix,<br> —&nbsp;soutiens nos efforts pour l’union fraternelle.</p> <p>Toi qui as choisi de naître à la lumière de ce monde,<br> —&nbsp;donne à ceux qui meurent de naître à la lumière éternelle.</p>"
     }
   },
-  "celebrationTitle": "Sainte Marie, Mère de Dieu",
-  "celebrationDescription": "<p>Huit jours après la Nativité du Seigneur et Sauveur Jésus-Christ, nous célébrons sa Mère, celle qui lui a donné son être humain, corps et âme par l'Esprit-Saint qui vient sur elle la plaçant dans l'orbite de la paternité divine. C'est pourquoi le concile d'Ephèse en 431, la proclama la Theotokos, la Mère de Dieu, puisque son fils est Dieu, ce qui ne préjuge pas de la différence entre Marie créature humaine et Jésus Fils éternel de Dieu.<br>En l’Octave de la Nativité du Seigneur et au jour de sa circoncision, solennité de sainte Marie Mère de Dieu. Au concile d’Ephèse, les Pères l’acclamèrent Théotokos, parce que, en elle, le Verbe prit chair et le Fils de Dieu habita parmi les hommes, lui, le prince de la paix, à qui a été donné le nom au dessus de tout nom.</p>",
-  "liturgicalGrade": 3,
-  "liturgicalColor": "white",
-  "commons": [
-    "virgin-mary"
-  ],
-  "oration": "Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel&nbsp;; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne."
+  "oration": [
+    "Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel&nbsp;; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne."
+  ]
 }

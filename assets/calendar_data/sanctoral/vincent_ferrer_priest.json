@@ -1,24 +1,34 @@
 {
-  "morning": {
-    "evangelicAntiphon": "Ce n'est pas vous qui parlerez: mais l'Esprit de votre Père parlera en vous."
+  "celebration": {
+    "title": "S. Vincent Ferrier",
+    "subtitle": "prêtre",
+    "description": "En vrai fils de saint Dominique, Vincent Ferrier fut avant tout un prêcheur. De Valence (Espagne) où il naquit (1350) à Vannes où il mourut (1419), il chemina sans cesse à travers la France, L’Italie, la Suisse, exhortant les foules à la conversion, dans l’attente du retour du Christ que semblaient annoncer les calamités de son temps, la guerre et le schisme.",
+    "commons": [
+      "pastors"
+    ],
+    "grade": 12,
+    "color": "white"
   },
-  "readings": {
-    "patristicReading": {
-      "title": "Traité de la vie spirituelle de S. Vincent Ferrier",
-      "content": "<p>Dans les prédications et les exhortations, emploie un langage simple, celui d'un entretien familier, pour expliquer en détail ce qu'il faut faire. Autant que possible, donne des exemples, afin que le pécheur, chargé de tel péché, se sente atteint comme si tu prêchais pour lui seul. Mais parle de telle sorte que tes paroles apparaissent bien comme ne venant pas d'un esprit orgueilleux ou irrité, mais plutôt de la tendresse d'une charité et d'une bonté paternelle. Sois pareil à un père qui s'afflige de voir ses enfants coupables, ou gravement malades, jetés dans un fossé profond: il essaie de les ramener, de les délivrer, il veut les caresser comme une mère, comme quelqu'un qui se réjouit de voir leur progrès et de pouvoir espérer pour eux la gloire du paradis.<br>C'est ainsi qu'on fait ordinairement du bien à ses auditeurs. Car un exposé général sur les vertus et les vices ne les touche guère.<br>De même dans les confessions : que tu encourages aimablement les timides, ou que tu menaces sévèrement les endurcis, montre toujours la tendresse de la charité. Que le pécheur comprenne toujours que tes paroles sont inspirées par la charité pure. C'est pourquoi les paroles charitables et douces doivent toujours précéder les paroles mordantes.<br>Toi qui désires être utile aux âmes qui t'approchent, commence par recourir à Dieu de tout ton cœur. Fais-lui simplement cette demande: qu'il daigne répandre en toi cette charité qui est l'essentiel des vertus et qui te permettra d'accomplir ce que tu souhaites.</p>",
-      "responsory": "<p>R/ Seigneur, qui habitera sur ta montagne sainte?</p><p>Celui qui juge avec justice<br>en écoutant le petit comme le grand.</p><p>Celui qui ne craint pas l’homme,<br>sachant que le jugement relève de Dieu.</p><p>Celui qui refuse d'être acheté<br>pour accabler un innocent. (Pas de R).</p>"
+  "morning": {
+    "evangelicAntiphon": {
+      "common": "Ce n'est pas vous qui parlerez: mais l'Esprit de votre Père parlera en vous."
     }
   },
-  "vespers": {
-    "evangelicAntiphon": "Libre à l'égard de tous, je me suis fait l'esclave de tous pour que chacun puisse être sauvé."
+  "readings": {
+    "patristicReading": [
+      {
+        "title": "Traité de la vie spirituelle de S. Vincent Ferrier",
+        "content": "<p>Dans les prédications et les exhortations, emploie un langage simple, celui d'un entretien familier, pour expliquer en détail ce qu'il faut faire. Autant que possible, donne des exemples, afin que le pécheur, chargé de tel péché, se sente atteint comme si tu prêchais pour lui seul. Mais parle de telle sorte que tes paroles apparaissent bien comme ne venant pas d'un esprit orgueilleux ou irrité, mais plutôt de la tendresse d'une charité et d'une bonté paternelle. Sois pareil à un père qui s'afflige de voir ses enfants coupables, ou gravement malades, jetés dans un fossé profond: il essaie de les ramener, de les délivrer, il veut les caresser comme une mère, comme quelqu'un qui se réjouit de voir leur progrès et de pouvoir espérer pour eux la gloire du paradis.<br>C'est ainsi qu'on fait ordinairement du bien à ses auditeurs. Car un exposé général sur les vertus et les vices ne les touche guère.<br>De même dans les confessions : que tu encourages aimablement les timides, ou que tu menaces sévèrement les endurcis, montre toujours la tendresse de la charité. Que le pécheur comprenne toujours que tes paroles sont inspirées par la charité pure. C'est pourquoi les paroles charitables et douces doivent toujours précéder les paroles mordantes.<br>Toi qui désires être utile aux âmes qui t'approchent, commence par recourir à Dieu de tout ton cœur. Fais-lui simplement cette demande: qu'il daigne répandre en toi cette charité qui est l'essentiel des vertus et qui te permettra d'accomplir ce que tu souhaites.</p>",
+        "responsory": "<p>R/ Seigneur, qui habitera sur ta montagne sainte?</p><p>Celui qui juge avec justice<br>en écoutant le petit comme le grand.</p><p>Celui qui ne craint pas l’homme,<br>sachant que le jugement relève de Dieu.</p><p>Celui qui refuse d'être acheté<br>pour accabler un innocent. (Pas de R).</p>"
+      }
+    ]
   },
-  "celebrationTitle": "S. Vincent Ferrier",
-  "celebrationSubtitle": "prêtre",
-  "celebrationDescription": "En vrai fils de saint Dominique, Vincent Ferrier fut avant tout un prêcheur. De Valence (Espagne) où il naquit (1350) à Vannes où il mourut (1419), il chemina sans cesse à travers la France, L’Italie, la Suisse, exhortant les foules à la conversion, dans l’attente du retour du Christ que semblaient annoncer les calamités de son temps, la guerre et le schisme.",
-  "liturgicalGrade": 12,
-  "liturgicalColor": "white",
-  "commons": [
-    "pastors"
-  ],
-  "oration": "Dieu qui as choisi saint Vincent Ferrier pour la prédication de l'Évangile, donne-nous le bonheur de voir un jour dans le Royaume des cieux celui dont il annonçait ici-bas la venue comme juge, Jésus, le Christ, notre Seigneur."
+  "vespers": {
+    "evangelicAntiphon": {
+      "common": "Libre à l'égard de tous, je me suis fait l'esclave de tous pour que chacun puisse être sauvé."
+    }
+  },
+  "oration": [
+    "Dieu qui as choisi saint Vincent Ferrier pour la prédication de l'Évangile, donne-nous le bonheur de voir un jour dans le Royaume des cieux celui dont il annonçait ici-bas la venue comme juge, Jésus, le Christ, notre Seigneur."
+  ]
 }

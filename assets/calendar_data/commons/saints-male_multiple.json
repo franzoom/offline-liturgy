@@ -1,12 +1,18 @@
 {
+  "commonTitle": "Commun de plusieurs Saints",
   "firstVespers": {
-    "evangelicAntiphon": "Dieu veille sur ceux qui le craignent, qui mettent leur espoir en son amour."
+    "evangelicAntiphon": {
+      "common": "Dieu veille sur ceux qui le craignent, qui mettent leur espoir en son amour."
+    }
   },
   "morning": {
-    "evangelicAntiphon": "Heureux les artisants de paix, heureux les cœurs purs&nbsp;: ils verront Dieu&nbsp;!"
+    "evangelicAntiphon": {
+      "common": "Heureux les artisants de paix, heureux les cœurs purs&nbsp;: ils verront Dieu&nbsp;!"
+    }
   },
   "vespers": {
-    "evangelicAntiphon": "Jusqu'à la mort, ils ont été fidèles&nbsp;; ils recevront de Dieu la couronne de la vie."
-  },
-  "commonTitle": "Commun de plusieurs Saints"
+    "evangelicAntiphon": {
+      "common": "Jusqu'à la mort, ils ont été fidèles&nbsp;; ils recevront de Dieu la couronne de la vie."
+    }
+  }
 }

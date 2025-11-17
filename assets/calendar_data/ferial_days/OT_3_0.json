@@ -1,10 +1,8 @@
 {
-  "invitatory": {
-    "antiphon": [
-      "Venez, crions de joie pour Dieu, notre Sauveur."
-    ]
-  },
   "firstVespers": {
+    "hymn": [
+      "il-viendra"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_112",
@@ -28,17 +26,29 @@
       }
     ],
     "reading": {
-      "ref": "He 13, 20-21",
+      "biblicalReference": "He 13, 20-21",
       "content": "Que le Dieu de la paix, lui qui a fait remonter d’entre les morts le berger des brebis, Pasteur par excellence, grâce au sang de l’Alliance éternelle, notre Seigneur Jésus, que ce Dieu vous munisse de tout ce qui est bon pour accomplir sa volonté, qu’il réalise en nous ce qui plaît à ses yeux par Jésus Christ, à qui appartient la gloire pour les siècles des siècles. Amen."
     },
-    "hymn": [
-      "il-viendra"
-    ],
-    "evangelicAntiphon": "Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.",
-    "intercession": "<p>Nous souvenant que le Christ eut pitié des foules, nous le prions&nbsp;:</p> <p>R/ Seigneur, montre-nous ton amour&nbsp;!</p> <p>Nous tenons de ta bonté la joie de ce jour,&nbsp;<br> —&nbsp;qu’elle te revienne en action de grâce.</p> <p>Toi, lumière et salut des nations,&nbsp;<br> —&nbsp;sois la force des témoins que tu as envoyés.</p> <p>Toi qui entends le cri du malheureux,&nbsp;<br> —&nbsp;garde-nous d’être sourds aux appels de détresse.</p> <p>Médecin des âmes et des corps,&nbsp;<br> —&nbsp;visite-nous et guéris-nous.</p> <p>Souviens-toi des morts tombés dans l’oubli&nbsp;:&nbsp;<br> —&nbsp;que leur nom soit inscrit au Livre de vie.</p> ",
-    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br> au prix de ton sang.<br> V/ Hommes de toute race, langue, peuple et nation.&nbsp;R/ <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Nous souvenant que le Christ eut pitié des foules, nous le prions&nbsp;:</p> <p>R/ Seigneur, montre-nous ton amour&nbsp;!</p> <p>Nous tenons de ta bonté la joie de ce jour,&nbsp;<br> —&nbsp;qu’elle te revienne en action de grâce.</p> <p>Toi, lumière et salut des nations,&nbsp;<br> —&nbsp;sois la force des témoins que tu as envoyés.</p> <p>Toi qui entends le cri du malheureux,&nbsp;<br> —&nbsp;garde-nous d’être sourds aux appels de détresse.</p> <p>Médecin des âmes et des corps,&nbsp;<br> —&nbsp;visite-nous et guéris-nous.</p> <p>Souviens-toi des morts tombés dans l’oubli&nbsp;:&nbsp;<br> —&nbsp;que leur nom soit inscrit au Livre de vie.</p> "
+    }
+  },
+  "invitatory": {
+    "antiphon": [
+      "Venez, crions de joie pour Dieu, notre Sauveur."
+    ]
   },
   "morning": {
+    "hymn": [
+      "n-allons-plus-nous-derobant"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_92",
@@ -59,15 +69,19 @@
       }
     ],
     "reading": {
-      "ref": "Ez 37, 12b-14",
+      "biblicalReference": "Ez 37, 12b-14",
       "content": "Ainsi parle le Seigneur Dieu&nbsp;: je vais ouvrir vos tombeaux et je vous en ferai sortir, ô mon peuple, et je vous ramènerai sur la terre d’Israël. Vous saurez que je suis le Seigneur, quand j’ouvrirai vos tombeaux et vous en ferai sortir, ô mon peuple&nbsp;! Je mettrai en vous mon esprit, et vous vivrez&nbsp;; je vous installerai sur votre terre, et vous saurez que je suis le Seigneur&nbsp;: je l’ai dit et je le ferai. Parole du Seigneur."
     },
-    "hymn": [
-      "n-allons-plus-nous-derobant"
-    ],
-    "evangelicAntiphon": "Gloire à toi, Christ ressuscité, Soleil levant qui viens nous visiter, alléluia&nbsp;!",
-    "intercession": "<p>Dans l’action de grâce, prions le Christ, le Fils du Dieu vivant&nbsp;:</p> <p>R/ Alléluia&nbsp;!</p> <p>Seigneur Jésus, lumière de lumière,<br> éclaire-nous en ce jour qui commence.</p> <p>Toi qui viens à notre rencontre,<br> sois de toutes nos rencontres aujourd’hui.</p> <p>Toi qui nous accueilles quand nous te recevons,<br> rends-nous accueillants à tous ceux qui te cherchent.</p> <p>Toi qui t’es fait nourriture et breuvage,<br> maintiens en nous l’énergie de l’eucharistie.</p> <p>Seigneur Jésus, lumière sur la vie et sur la mort des hommes,<br> éclaire à travers nous ceux qui sont heureux et ceux qui souffrent.</p> ",
-    "responsory": "<p>R/ Toi, la Résurrection et la Vie,<br>  * Jésus, tu as détruit la mort.<br> V/ Je mettrai en vous mon Esprit et vous vivrez. * <br> V/ Je suis le Seigneur&nbsp;: je l’ai dit et je le ferai. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Toi, la Résurrection et la Vie,<br>  * Jésus, tu as détruit la mort.<br> V/ Je mettrai en vous mon Esprit et vous vivrez. * <br> V/ Je suis le Seigneur&nbsp;: je l’ai dit et je le ferai. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Gloire à toi, Christ ressuscité, Soleil levant qui viens nous visiter, alléluia&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Dans l’action de grâce, prions le Christ, le Fils du Dieu vivant&nbsp;:</p> <p>R/ Alléluia&nbsp;!</p> <p>Seigneur Jésus, lumière de lumière,<br> éclaire-nous en ce jour qui commence.</p> <p>Toi qui viens à notre rencontre,<br> sois de toutes nos rencontres aujourd’hui.</p> <p>Toi qui nous accueilles quand nous te recevons,<br> rends-nous accueillants à tous ceux qui te cherchent.</p> <p>Toi qui t’es fait nourriture et breuvage,<br> maintiens en nous l’énergie de l’eucharistie.</p> <p>Seigneur Jésus, lumière sur la vie et sur la mort des hommes,<br> éclaire à travers nous ceux qui sont heureux et ceux qui souffrent.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -90,51 +104,26 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Les lévites. Les faux prophètes",
-      "ref": "Dt 18, 1-22",
-      "content": "<p>Les prêtres lévites, la tribu de Lévi tout entière, n’auront ni part ni héritage avec Israël&nbsp;: ils se nourriront des sacrifices par le feu, offerts au SEIGNEUR, et de son patrimoine. Cette tribu n’aura pas d’héritage au milieu de ses frères, mais le SEIGNEUR sera son héritage, comme il le lui a dit. Voici quels seront les droits des prêtres sur le peuple, sur ceux qui offrent en sacrifice un bœuf ou un mouton&nbsp;: on donnera au prêtre l’épaule, les joues et la panse. Tu lui donneras les prémices de ton froment, de ton vin nouveau et de ton huile fraîche, ainsi que les prémices de la toison de ton petit bétail. Car c’est lui, le prêtre, que le SEIGNEUR ton Dieu a choisi parmi toutes les tribus pour se tenir en sa présence et servir en son nom, lui et ses fils, tous les jours. Si le lévite vient de l’une de tes villes, de tout endroit en Israël où il séjourne, et qu’il désire entrer au lieu choisi par le SEIGNEUR, il servira au nom du SEIGNEUR son Dieu comme tous ses frères lévites qui se tiennent là, en présence du SEIGNEUR. Il aura pour se nourrir une part égale à la leur, outre ce que chacun pourra tirer de la vente des biens paternels. Lorsque tu seras entré dans le pays que le SEIGNEUR ton Dieu te donne, tu n’apprendras pas à commettre les abominations que commettent ces nations-là. On ne trouvera chez toi personne qui fasse passer son fils ou sa fille par le feu, personne qui scrute les présages, ou pratique astrologie, incantation, enchantement, personne qui use de magie, interroge les spectres et les esprits, ou consulte les morts. Car quiconque fait cela est en abomination pour le SEIGNEUR, et c’est à cause de telles abominations que le SEIGNEUR ton Dieu dépossède les nations devant toi. Toi, tu seras parfait à l’égard du SEIGNEUR ton Dieu. Ces nations que tu vas déposséder écoutent les astrologues et ceux qui scrutent les présages. Mais à toi, ce n’est pas cela que t’a donné le SEIGNEUR ton Dieu. Au milieu de vous, parmi vos frères, le SEIGNEUR votre Dieu fera se lever un prophète comme moi, et vous l’écouterez. C’est bien ce que vous avez demandé au SEIGNEUR votre Dieu, au mont Horeb, le jour de l’assemblée, quand vous disiez&nbsp;: «&nbsp;Je ne veux plus entendre la voix du SEIGNEUR mon Dieu, je ne veux plus voir cette grande flamme, je ne veux pas mourir&nbsp;!&nbsp;» Et le SEIGNEUR me dit alors&nbsp;: «&nbsp;Ils ont bien fait de dire cela. Je ferai se lever au milieu de leurs frères un prophète comme toi&nbsp;; je mettrai dans sa bouche mes paroles, et il leur dira tout ce que je lui prescrirai. Si quelqu’un n’écoute pas les paroles que ce prophète prononcera en mon nom, moi-même je lui en demanderai compte. Mais un prophète qui aurait la présomption de dire en mon nom une parole que je ne lui aurais pas prescrite, ou qui parlerait au nom d’autres dieux, ce prophète-là mourra.&nbsp;» Peut-être te demanderas-tu&nbsp;: «&nbsp;Comment reconnaîtrons-nous que le SEIGNEUR n’a pas dit cette parole&nbsp;?&nbsp;» Si le prophète parle au nom du SEIGNEUR, et que la parole reste sans effet et ne s’accomplit pas, alors le SEIGNEUR n’a pas dit cette parole&nbsp;: le prophète l’a dite avec présomption. Tu ne dois pas en avoir peur&nbsp;!</p>",
-      "responsory": "<p>R/ Un grand prophète s’est levé parmi nous&nbsp;:<br> Dieu a visité son peuple.</p> <p>Je leur susciterai du milieu de leurs frères,<br> dit le Seigneur,<br> un prophète semblable à Moïse.</p> <p>Je mettrai mes paroles dans sa bouche,<br> dit le Seigneur,<br> il les proclamera à mon peuple.</p> <p>À la vue du signe que Jésus venait de faire,<br> les gens dirent&nbsp;:<br> C’est lui, le prophète qui doit venir.</p>"
-    },
-    "patristicReading": {
-      "title": "Actes du Concile Vatican II&nbsp;: la Liturgie",
-      "subtitle": "Présence du Christ à son Église dans la Liturgie.",
-      "content": "<p>Le Christ est toujours là auprès de son Église, surtout dans les actions liturgiques. Il est là présent dans le sacrifice de la messe&nbsp;: dans la personne du ministre, car «&nbsp;celui qui offre maintenant par le ministère des prêtres, est celui-là même qui s’offrit alors lui-même sur la croix.&nbsp;»&nbsp;Il est présent surtout sous les espèces eucharistiques. Il est là présent par sa vertu dans les sacrements au point que, lorsque quelqu’un baptise, c’est lui qui baptise. Il est là présent dans sa parole, car c’est lui qui parle tandis qu’on lit dans l’Église les Saintes Écritures. Enfin il est là présent lorsque l’Église prie et chante les psaumes, lui qui a promis&nbsp;: <i>Quand deux ou trois sont réunis en mon nom, je suis là au milieu d’eux</i>. Effectivement, pour l’accomplissement de cette grande œuvre par laquelle Dieu est parfaitement glorifié et les hommes sanctifiés, le Christ s’associe toujours l’Église, son Épouse bien-aimée qui l’invoque comme son Seigneur et qui passe par lui pour rendre son culte au Père éternel. C’est donc à juste titre que la liturgie est considérée comme l’exercice de la fonction sacerdotale de Jésus Christ, exercice dans lequel la sanctification de l’homme est signifiée par des signes sensibles et est réalisée d’une manière propre à chacun d’eux. Là, le culte public intégral est exercé par le Corps mystique de Jésus Christ, c’est-à-dire par le Chef et par ses membres. Par suite, toute célébration liturgique, en tant qu’œuvre du Christ prêtre et de son Corps qui est l’Église, est une action sacrée par excellence, dont nulle autre action de l’Église ne peut égaler l’efficacité au même titre et au même degré. Dans la liturgie terrestre, nous participons, par un avant-goût, à cette liturgie céleste qui se célèbre dans la sainte Cité de Jérusalem à laquelle nous tendons comme des voyageurs&nbsp;; c’est là que le Christ <i>siège à la droite </i>de Dieu <i>comme ministre du vrai sanctuaire et de la véritable tente</i>. Avec toute l’armée des chœurs célestes, nous chantons au Seigneur l’hymne de gloire&nbsp;; en vénérant la mémoire des saints, nous espérons partager leur société&nbsp;; <i>nous attendons comme sauveur le Seigneur Jésus Christ</i>, jusqu’au moment où <i>il paraîtra, lui, notre vie, et où, nous aussi, nous paraîtrons avec lui en pleine gloire</i>. ~ L’Église célèbre le mystère pascal, en vertu d’une tradition apostolique qui remonte au jour même de la résurrection du Christ, chaque huitième jour, qui est nommé à bon droit «&nbsp; jour du Seigneur&nbsp;» ou dimanche. Ce jour-là, en effet, les fidèles doivent se rassembler pour que, en entendant la parole de Dieu et en participant à l’Eucharistie, ils se souviennent de la passion, de la résurrection et de la gloire du Seigneur Jésus&nbsp;; pour qu’ils rendent grâce à Dieu qui les a <i>fait renaître, grâce à la résurrection de Jésus Christ, pour une vivante espérance</i>. Aussi le jour dominical est-il le jour de fête primordial, qu’il faut proposer et inculquer à la piété des fidèles, de sorte qu’il devienne aussi jour de joie et de cessation du travail. Les autres célébrations, à moins qu’elles ne soient véritablement de la plus haute importance, ne doivent pas l’emporter sur lui, car il est le fondement et le noyau de toute l’année liturgique.</p>",
-      "responsory": "<p>R/ Lorsque nous invoquons le Père,<br> ne nous séparons pas du Fils.</p> <p>Reconnaissons en lui notre voix,<br> reconnaissons en nous la sienne.</p> <p>Il prie pour nous, comme notre prêtre,<br> il prie en nous comme notre tête,<br> nous le prions comme notre Dieu.</p>"
-    },
-    "verse": "<p>V/ Si vous gardez ma parole,<br>vous saurez que vous êtes mes disciples.</p>",
-    "oration": "Dieu, éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance."
-  },
-  "vespers": {
-    "psalmody": [
+    "biblicalReading": [
       {
-        "psalm": "PSALM_109",
-        "antiphon": [
-          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
-          "Au torrent il s’abreuve en chemin, c’est pourquoi il redresse la tête."
-        ]
-      },
-      {
-        "psalm": "PSALM_110",
-        "antiphon": [
-          "Dans sa tendresse, le Seigneur nous a laissé le mémorial de ses merveilles, alléluia.",
-          "Gloire à toi, Fils de Dieu, notre nouvelle Alliance pour toujours."
-        ]
-      },
-      {
-        "psalm": "NT_12"
+        "title": "Les lévites. Les faux prophètes",
+        "ref": "Dt 18, 1-22",
+        "content": "<p>Les prêtres lévites, la tribu de Lévi tout entière, n’auront ni part ni héritage avec Israël&nbsp;: ils se nourriront des sacrifices par le feu, offerts au SEIGNEUR, et de son patrimoine. Cette tribu n’aura pas d’héritage au milieu de ses frères, mais le SEIGNEUR sera son héritage, comme il le lui a dit. Voici quels seront les droits des prêtres sur le peuple, sur ceux qui offrent en sacrifice un bœuf ou un mouton&nbsp;: on donnera au prêtre l’épaule, les joues et la panse. Tu lui donneras les prémices de ton froment, de ton vin nouveau et de ton huile fraîche, ainsi que les prémices de la toison de ton petit bétail. Car c’est lui, le prêtre, que le SEIGNEUR ton Dieu a choisi parmi toutes les tribus pour se tenir en sa présence et servir en son nom, lui et ses fils, tous les jours. Si le lévite vient de l’une de tes villes, de tout endroit en Israël où il séjourne, et qu’il désire entrer au lieu choisi par le SEIGNEUR, il servira au nom du SEIGNEUR son Dieu comme tous ses frères lévites qui se tiennent là, en présence du SEIGNEUR. Il aura pour se nourrir une part égale à la leur, outre ce que chacun pourra tirer de la vente des biens paternels. Lorsque tu seras entré dans le pays que le SEIGNEUR ton Dieu te donne, tu n’apprendras pas à commettre les abominations que commettent ces nations-là. On ne trouvera chez toi personne qui fasse passer son fils ou sa fille par le feu, personne qui scrute les présages, ou pratique astrologie, incantation, enchantement, personne qui use de magie, interroge les spectres et les esprits, ou consulte les morts. Car quiconque fait cela est en abomination pour le SEIGNEUR, et c’est à cause de telles abominations que le SEIGNEUR ton Dieu dépossède les nations devant toi. Toi, tu seras parfait à l’égard du SEIGNEUR ton Dieu. Ces nations que tu vas déposséder écoutent les astrologues et ceux qui scrutent les présages. Mais à toi, ce n’est pas cela que t’a donné le SEIGNEUR ton Dieu. Au milieu de vous, parmi vos frères, le SEIGNEUR votre Dieu fera se lever un prophète comme moi, et vous l’écouterez. C’est bien ce que vous avez demandé au SEIGNEUR votre Dieu, au mont Horeb, le jour de l’assemblée, quand vous disiez&nbsp;: «&nbsp;Je ne veux plus entendre la voix du SEIGNEUR mon Dieu, je ne veux plus voir cette grande flamme, je ne veux pas mourir&nbsp;!&nbsp;» Et le SEIGNEUR me dit alors&nbsp;: «&nbsp;Ils ont bien fait de dire cela. Je ferai se lever au milieu de leurs frères un prophète comme toi&nbsp;; je mettrai dans sa bouche mes paroles, et il leur dira tout ce que je lui prescrirai. Si quelqu’un n’écoute pas les paroles que ce prophète prononcera en mon nom, moi-même je lui en demanderai compte. Mais un prophète qui aurait la présomption de dire en mon nom une parole que je ne lui aurais pas prescrite, ou qui parlerait au nom d’autres dieux, ce prophète-là mourra.&nbsp;» Peut-être te demanderas-tu&nbsp;: «&nbsp;Comment reconnaîtrons-nous que le SEIGNEUR n’a pas dit cette parole&nbsp;?&nbsp;» Si le prophète parle au nom du SEIGNEUR, et que la parole reste sans effet et ne s’accomplit pas, alors le SEIGNEUR n’a pas dit cette parole&nbsp;: le prophète l’a dite avec présomption. Tu ne dois pas en avoir peur&nbsp;!</p>",
+        "responsory": "<p>R/ Un grand prophète s’est levé parmi nous&nbsp;:<br> Dieu a visité son peuple.</p> <p>Je leur susciterai du milieu de leurs frères,<br> dit le Seigneur,<br> un prophète semblable à Moïse.</p> <p>Je mettrai mes paroles dans sa bouche,<br> dit le Seigneur,<br> il les proclamera à mon peuple.</p> <p>À la vue du signe que Jésus venait de faire,<br> les gens dirent&nbsp;:<br> C’est lui, le prophète qui doit venir.</p>"
       }
     ],
-    "reading": {
-      "ref": "1 P 1, 3-5",
-      "content": "Béni soit Dieu, le Père de Jésus Christ notre Seigneur&nbsp;: dans sa grande miséricorde, il nous a fait renaître grâce à la résurrection de Jésus Christ pour une vivante espérance, pour l’héritage qui ne connaîtra ni destruction, ni souillure, ni vieillissement. Cet héritage vous est réservé dans les cieux, à vous que la puissance de Dieu garde par la foi, en vue du salut qui est prêt à se manifester à la fin des temps."
-    },
-    "hymn": [
-      "reste-avec-nous-seigneur-jesus"
+    "patristicReading": [
+      {
+        "title": "Actes du Concile Vatican II&nbsp;: la Liturgie",
+        "subtitle": "Présence du Christ à son Église dans la Liturgie.",
+        "content": "<p>Le Christ est toujours là auprès de son Église, surtout dans les actions liturgiques. Il est là présent dans le sacrifice de la messe&nbsp;: dans la personne du ministre, car «&nbsp;celui qui offre maintenant par le ministère des prêtres, est celui-là même qui s’offrit alors lui-même sur la croix.&nbsp;»&nbsp;Il est présent surtout sous les espèces eucharistiques. Il est là présent par sa vertu dans les sacrements au point que, lorsque quelqu’un baptise, c’est lui qui baptise. Il est là présent dans sa parole, car c’est lui qui parle tandis qu’on lit dans l’Église les Saintes Écritures. Enfin il est là présent lorsque l’Église prie et chante les psaumes, lui qui a promis&nbsp;: <i>Quand deux ou trois sont réunis en mon nom, je suis là au milieu d’eux</i>. Effectivement, pour l’accomplissement de cette grande œuvre par laquelle Dieu est parfaitement glorifié et les hommes sanctifiés, le Christ s’associe toujours l’Église, son Épouse bien-aimée qui l’invoque comme son Seigneur et qui passe par lui pour rendre son culte au Père éternel. C’est donc à juste titre que la liturgie est considérée comme l’exercice de la fonction sacerdotale de Jésus Christ, exercice dans lequel la sanctification de l’homme est signifiée par des signes sensibles et est réalisée d’une manière propre à chacun d’eux. Là, le culte public intégral est exercé par le Corps mystique de Jésus Christ, c’est-à-dire par le Chef et par ses membres. Par suite, toute célébration liturgique, en tant qu’œuvre du Christ prêtre et de son Corps qui est l’Église, est une action sacrée par excellence, dont nulle autre action de l’Église ne peut égaler l’efficacité au même titre et au même degré. Dans la liturgie terrestre, nous participons, par un avant-goût, à cette liturgie céleste qui se célèbre dans la sainte Cité de Jérusalem à laquelle nous tendons comme des voyageurs&nbsp;; c’est là que le Christ <i>siège à la droite </i>de Dieu <i>comme ministre du vrai sanctuaire et de la véritable tente</i>. Avec toute l’armée des chœurs célestes, nous chantons au Seigneur l’hymne de gloire&nbsp;; en vénérant la mémoire des saints, nous espérons partager leur société&nbsp;; <i>nous attendons comme sauveur le Seigneur Jésus Christ</i>, jusqu’au moment où <i>il paraîtra, lui, notre vie, et où, nous aussi, nous paraîtrons avec lui en pleine gloire</i>. ~ L’Église célèbre le mystère pascal, en vertu d’une tradition apostolique qui remonte au jour même de la résurrection du Christ, chaque huitième jour, qui est nommé à bon droit «&nbsp; jour du Seigneur&nbsp;» ou dimanche. Ce jour-là, en effet, les fidèles doivent se rassembler pour que, en entendant la parole de Dieu et en participant à l’Eucharistie, ils se souviennent de la passion, de la résurrection et de la gloire du Seigneur Jésus&nbsp;; pour qu’ils rendent grâce à Dieu qui les a <i>fait renaître, grâce à la résurrection de Jésus Christ, pour une vivante espérance</i>. Aussi le jour dominical est-il le jour de fête primordial, qu’il faut proposer et inculquer à la piété des fidèles, de sorte qu’il devienne aussi jour de joie et de cessation du travail. Les autres célébrations, à moins qu’elles ne soient véritablement de la plus haute importance, ne doivent pas l’emporter sur lui, car il est le fondement et le noyau de toute l’année liturgique.</p>",
+        "responsory": "<p>R/ Lorsque nous invoquons le Père,<br> ne nous séparons pas du Fils.</p> <p>Reconnaissons en lui notre voix,<br> reconnaissons en nous la sienne.</p> <p>Il prie pour nous, comme notre prêtre,<br> il prie en nous comme notre tête,<br> nous le prions comme notre Dieu.</p>"
+      }
     ],
-    "evangelicAntiphon": "Ressuscité des morts, le Christ ne meurt plus, alléluia&nbsp;! Sur lui la mort n’a plus aucun pouvoir, alléluia&nbsp;!",
-    "intercession": "<p>Invoquons notre Seigneur, le Christ toujours vivant qui intercède pour nous auprès de son Père&nbsp;:</p> <p> R/ Souviens-toi de ton peuple, Seigneur&nbsp;! </p> <p> Jésus, soleil de nos vies, tandis que baisse le jour, nous te prions pour tous les hommes&nbsp;:<br> qu’ils se confient toujours à ta lumière sans déclin.</p> <p> Regarde ceux que ton nom a rassemblés&nbsp;:<br> qu’ils soient le temple de ton Esprit Saint.</p> <p> Veille sur le pape N.&nbsp;:<br> donne-lui ta force et ta joie.</p> <p> Conduis ceux qui cherchent ici-bas leur chemin&nbsp;:<br> qu’ils arrivent au bout du voyage.</p> <p> Prends avec toi les défunts&nbsp;:<br> qu’ils reposent dans la paix.</p>",
-    "responsory": "<p>R/ Béni soit le Seigneur&nbsp;:<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Du levant au couchant du soleil.  * <br> V/ Maintenant et pour les siècles des siècles.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>"
+    "verse": "<p>V/ Si vous gardez ma parole,<br>vous saurez que vous êtes mes disciples.</p>",
+    "oration": [
+      "Dieu, éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -158,8 +147,42 @@
       }
     ]
   },
-  "sundayEvangelicAntiphonB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
-  "sundayEvangelicAntiphonC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture.",
-  "sundayEvangelicAntiphonA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
-  "readingHymn": "au-commencement"
+  "vespers": {
+    "hymn": [
+      "reste-avec-nous-seigneur-jesus"
+    ],
+    "psalmody": [
+      {
+        "psalm": "PSALM_109",
+        "antiphon": [
+          "Oracle du Seigneur à mon seigneur&nbsp;: Siège à ma droite.",
+          "Au torrent il s’abreuve en chemin, c’est pourquoi il redresse la tête."
+        ]
+      },
+      {
+        "psalm": "PSALM_110",
+        "antiphon": [
+          "Dans sa tendresse, le Seigneur nous a laissé le mémorial de ses merveilles, alléluia.",
+          "Gloire à toi, Fils de Dieu, notre nouvelle Alliance pour toujours."
+        ]
+      },
+      {
+        "psalm": "NT_12"
+      }
+    ],
+    "reading": {
+      "biblicalReference": "1 P 1, 3-5",
+      "content": "Béni soit Dieu, le Père de Jésus Christ notre Seigneur&nbsp;: dans sa grande miséricorde, il nous a fait renaître grâce à la résurrection de Jésus Christ pour une vivante espérance, pour l’héritage qui ne connaîtra ni destruction, ni souillure, ni vieillissement. Cet héritage vous est réservé dans les cieux, à vous que la puissance de Dieu garde par la foi, en vue du salut qui est prêt à se manifester à la fin des temps."
+    },
+    "responsory": "<p>R/ Béni soit le Seigneur&nbsp;:<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Du levant au couchant du soleil.  * <br> V/ Maintenant et pour les siècles des siècles.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Ressuscité des morts, le Christ ne meurt plus, alléluia&nbsp;! Sur lui la mort n’a plus aucun pouvoir, alléluia&nbsp;!",
+      "yearA": "Jésus parcourait la Galilée&nbsp;; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.",
+      "yearB": "Les temps sont accomplis, voici le Règne de Dieu&nbsp;: croyez à la Bonne Nouvelle.",
+      "yearC": "Aujourd’hui s’accomplit pour vous la parole de l’Écriture."
+    },
+    "intercession": {
+      "content": "<p>Invoquons notre Seigneur, le Christ toujours vivant qui intercède pour nous auprès de son Père&nbsp;:</p> <p> R/ Souviens-toi de ton peuple, Seigneur&nbsp;! </p> <p> Jésus, soleil de nos vies, tandis que baisse le jour, nous te prions pour tous les hommes&nbsp;:<br> qu’ils se confient toujours à ta lumière sans déclin.</p> <p> Regarde ceux que ton nom a rassemblés&nbsp;:<br> qu’ils soient le temple de ton Esprit Saint.</p> <p> Veille sur le pape N.&nbsp;:<br> donne-lui ta force et ta joie.</p> <p> Conduis ceux qui cherchent ici-bas leur chemin&nbsp;:<br> qu’ils arrivent au bout du voyage.</p> <p> Prends avec toi les défunts&nbsp;:<br> qu’ils reposent dans la paix.</p>"
+    }
+  }
 }

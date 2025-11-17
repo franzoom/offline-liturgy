@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 53, 11b-12",
+      "biblicalReference": "Is 53, 11b-12",
       "content": "Parce qu’il a connu la souffrance, le juste, mon serviteur, justifiera les multitudes, il se chargera de leurs péchés. C’est pourquoi je lui donnerai la multitude en partage, les puissants seront la part qu’il recevra, car il s’est dépouillé lui-même jusqu’à la mort, il a été compté avec les pécheurs, alors qu’il portait le péché des multitudes et qu’il intercédait pour les pécheurs."
     },
-    "evangelicAntiphon": "Si tu revêts d’un manteau celui qui est nu, ta lumière jaillira comme l’aurore, ta justice marchera devant toi.",
-    "intercession": "<p>Nous voici devant toi, Seigneur Jésus,<br> comme le fils qui a dilapidé l’héritage&nbsp;: <br> toi, le Fils bien-aimé, conduis-nous vers le Père.</p> <p>R/ Conduis-nous vers le Père.</p> <p>Nous voici devant toi comme la pécheresse accusée&nbsp;:<br> toi qui es sans péché, donne-nous le pardon.</p> <p>R/ Donne-nous le pardon.</p> <p>Nous voici devant toi comme Zachée le publicain&nbsp;:<br> toi, l’ami des pécheurs, apprends-nous à donner.</p> <p>R/ Apprends-nous à donner.</p> <p>Nous voici devant toi comme la femme de Samarie&nbsp;:<br> toi, la source cachée, fais-nous boire l’eau vive.</p> <p>R/ Fais-nous boire l’eau vive.</p> <p>Nous voici près de toi comme Jean au Calvaire&nbsp;:<br> toi, le Fils de Marie, regarde ton Église.</p> <p>R/ Regarde ton Église.</p> ",
     "responsory": "<p>R/ Tu nous as rachetés, Seigneur,<br>au prix de ton sang.<br> V/ Hommes de toutes race, langue, peuple et nation.<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    "evangelicAntiphon": {
+      "common": "Si tu revêts d’un manteau celui qui est nu, ta lumière jaillira comme l’aurore, ta justice marchera devant toi."
+    },
+    "intercession": {
+      "content": "<p>Nous voici devant toi, Seigneur Jésus,<br> comme le fils qui a dilapidé l’héritage&nbsp;: <br> toi, le Fils bien-aimé, conduis-nous vers le Père.</p> <p>R/ Conduis-nous vers le Père.</p> <p>Nous voici devant toi comme la pécheresse accusée&nbsp;:<br> toi qui es sans péché, donne-nous le pardon.</p> <p>R/ Donne-nous le pardon.</p> <p>Nous voici devant toi comme Zachée le publicain&nbsp;:<br> toi, l’ami des pécheurs, apprends-nous à donner.</p> <p>R/ Apprends-nous à donner.</p> <p>Nous voici devant toi comme la femme de Samarie&nbsp;:<br> toi, la source cachée, fais-nous boire l’eau vive.</p> <p>R/ Fais-nous boire l’eau vive.</p> <p>Nous voici près de toi comme Jean au Calvaire&nbsp;:<br> toi, le Fils de Marie, regarde ton Église.</p> <p>R/ Regarde ton Église.</p> "
+    },
+    "oration": [
+      "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Moïse, le défenseur des Hébreux persécutés",
-      "ref": "Ex 2, 1-22",
-      "content": "<p>Un homme de la tribu de Lévi avait épousé une femme de la même tribu. Elle devint enceinte, et elle enfanta un fils. Voyant qu’il était beau, elle le cacha durant trois mois. Lorsqu’il lui fut impossible de le tenir caché plus longtemps, elle prit une corbeille de jonc, qu’elle enduisit de bitume et de goudron. Elle y plaça l’enfant, et déposa la corbeille au bord du Nil, au milieu des roseaux. La sœur de l’enfant se tenait à distance pour voir ce qui allait arriver. La fille de Pharaon descendit au fleuve pour s’y baigner, tandis que ses suivantes se promenaient sur la rive. Elle aperçut la corbeille parmi les roseaux et envoya sa servante pour la prendre. Elle l’ouvrit et elle vit l’enfant. C’était un petit garçon, il pleurait. Elle en eut pitié et dit&nbsp;: «&nbsp;C’est un enfant des Hébreux.&nbsp;» La sœur de l’enfant dit alors à la fille de Pharaon&nbsp;: «&nbsp;Veux-tu que j’aille te chercher, parmi les femmes des Hébreux, une nourrice qui, pour toi, nourrira l’enfant&nbsp;?&nbsp;» La fille de Pharaon lui répondit&nbsp;: «&nbsp;Va.&nbsp;» La jeune fille alla donc chercher la mère de l’enfant. La fille de Pharaon dit à celle-ci&nbsp;: «&nbsp;Emmène cet enfant et nourris-le pour moi. C’est moi qui te donnerai ton salaire.&nbsp;» Alors la femme emporta l’enfant et le nourrit. Lorsque l’enfant eut grandi, elle le ramena à la fille de Pharaon qui le traita comme son propre fils&nbsp;; elle lui donna le nom de Moïse, en disant&nbsp;: «&nbsp;Je l’ai tiré des eaux.&nbsp;» Or vint le jour où Moïse, qui avait grandi, se rendit auprès de ses frères et les vit accablés de corvées. Il vit un Égyptien qui frappait un Hébreu, l’un de ses frères. Regardant autour de lui et ne voyant personne, il frappa à mort l’Égyptien et l’enfouit dans le sable. Le lendemain, il sortit de nouveau&nbsp;: voici que deux Hébreux se battaient. Il dit à l’agresseur&nbsp;: «&nbsp;Pourquoi frappes-tu ton compagnon&nbsp;?&nbsp;» L’homme lui répliqua&nbsp;: «&nbsp;Qui t’a institué chef et juge sur nous&nbsp;? Veux-tu me tuer comme tu as tué l’Égyptien&nbsp;?&nbsp;» Moïse eut peur et se dit&nbsp;: «&nbsp;Pas de doute, la chose est connue.&nbsp;» Pharaon en fut informé et chercha à faire tuer Moïse. Celui-ci s’enfuit loin de Pharaon et habita au pays de Madiane. Il vint s’asseoir près du puits. Le prêtre de Madiane avait sept filles. Elles allèrent puiser de l’eau et remplir les auges pour abreuver le troupeau de leur père. Des bergers survinrent et voulurent les chasser. Alors Moïse se leva pour leur porter secours et il abreuva leur troupeau. Elles retournèrent chez Réouël, leur père, qui leur dit&nbsp;: «&nbsp;Pourquoi êtes-vous revenues si tôt, aujourd’hui&nbsp;?&nbsp;» Elles répondirent&nbsp;: «&nbsp;Un Égyptien nous a délivrées de la main des bergers, il a même puisé l’eau pour nous et abreuvé le troupeau&nbsp;!&nbsp;» Réouël demanda&nbsp;: «&nbsp;Mais où est-il&nbsp;? Pourquoi l’avez-vous laissé là-bas&nbsp;? Appelez-le&nbsp;! Invitez-le à manger&nbsp;!&nbsp;» Et Moïse accepta de s’établir chez cet homme qui lui donna comme épouse sa fille Cippora. Elle enfanta un fils à qui Moïse donna le nom de Guershom (ce qui signifie&nbsp;: Immigré en ce lieu) car, dit-il, «&nbsp;Je suis devenu un immigré en terre étrangère&nbsp;».</p>",
-      "responsory": "<p>R/ Qui est vainqueur du monde,<br> sinon celui qui croit&nbsp;?</p> <p>Par la foi,<br> Moïse choisit d’être maltraité avec son peuple<br> plutôt que de jouir pour un temps du péché.</p> <p>Par la foi,<br> Moïse considéra l’humiliation du Christ<br> comme un trésor plus grand<br> que les richesses d’Égypte.</p>"
-    },
-    "patristicReading": {
-      "title": "Homélie du V<sup>ème</sup> siècle",
-      "subtitle": "La prière est la lumière de l’âme",
-      "content": "<p>Le bien suprême, c’est la prière, l’entretien familier avec Dieu. Elle est communication avec Dieu et union avec lui. De même que les yeux du corps sont éclairés quand ils voient la lumière, ainsi l’âme tendue vers Dieu est illuminée par son inexprimable lumière. La prière n’est donc pas l’effet d’une attitude extérieure, mais elle vient du cœur. Elle ne se limite pas à des heures ou à des moments déterminés, mais elle déploie son activité sans relâche, nuit et jour. En effet, il ne convient pas seulement que la pensée se porte rapidement vers Dieu lorsqu’elle s’applique à la prière&nbsp;; il faut aussi, même lorsqu’elle est absorbée par d’autres occupations —&nbsp;comme le soin des pauvres ou d’autres soucis de bienfaisance&nbsp;—, y mêler le désir et le souvenir de Dieu, afin que tout demeure comme une nourriture très savoureuse, assaisonnée par l’amour de Dieu, à offrir au Seigneur de l’univers. Et nous pouvons en retirer un grand avantage, tout au long de notre vie, si nous y consacrons une bonne part de notre temps. La prière est la lumière de l’âme, la vraie connaissance de Dieu, la médiatrice entre Dieu et les hommes. Par elle, l’âme s’élève vers le ciel, et embrasse Dieu dans une étreinte inexprimable&nbsp;; assoiffée du lait divin, comme un nourrisson, elle crie avec larmes vers sa mère. Elle exprime ses volontés profondes et elle reçoit des présents qui dépassent toute la nature visible. Car la prière se présente comme une puissante ambassadrice, elle réjouit, elle apaise l’âme. Lorsque je parle de prière, ne t’imagine pas qu’il s’agisse de paroles. Elle est un élan vers Dieu, un amour indicible qui ne vient pas des hommes et dont l’Apôtre parle ainsi&nbsp;: <i>Nous ne savons pas prier comme il faut, mais l’Esprit lui-même intervient pour nous par des cris inexprimables</i>. Une telle prière, si Dieu en fait la grâce à quelqu’un, est pour lui une richesse inaliénable, un aliment céleste qui rassasie l’âme. Celui qui l’a goûté est saisi pour le Seigneur d’un désir éternel, comme d’un feu dévorant qui embrase son cœur. Lorsque tu la pratiques dans sa pureté originelle, orne ta maison de douceur et d’humilité, illumine-la par la justice&nbsp;; orne-la de bonnes actions comme d’un revêtement précieux&nbsp;; décore ta maison, au lieu de pierres de taille et de mosaïques, par la foi et la patience. Au-dessus de tout cela, place la prière au sommet de l’édifice pour porter ta maison à son achèvement. Ainsi tu te prépareras pour le Seigneur comme une demeure parfaite. Tu pourras l’y accueillir comme dans un palais royal et resplendissant, toi qui, par la grâce, le possèdes déjà dans le temple de ton âme.</p>",
-      "responsory": "<p>Long cri vers Dieu dans la détresse, Stance<br> mains levées, cœur ouvert,<br> remise totale au Père,<br> force de la faiblesse,<br> Jésus, notre prière,<br> ouvre-nous le chemin vers le Père.</p> <p>R/ Ouvre-nous le chemin vers le Père.</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;Demandez et vous recevrez&nbsp;»,</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;Celui qui cherche trouve&nbsp;»,</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;À celui qui frappe on ouvrira&nbsp;»,</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;Demandez l’Esprit, il vous sera donné&nbsp;»,</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Moïse, le défenseur des Hébreux persécutés",
+        "ref": "Ex 2, 1-22",
+        "content": "<p>Un homme de la tribu de Lévi avait épousé une femme de la même tribu. Elle devint enceinte, et elle enfanta un fils. Voyant qu’il était beau, elle le cacha durant trois mois. Lorsqu’il lui fut impossible de le tenir caché plus longtemps, elle prit une corbeille de jonc, qu’elle enduisit de bitume et de goudron. Elle y plaça l’enfant, et déposa la corbeille au bord du Nil, au milieu des roseaux. La sœur de l’enfant se tenait à distance pour voir ce qui allait arriver. La fille de Pharaon descendit au fleuve pour s’y baigner, tandis que ses suivantes se promenaient sur la rive. Elle aperçut la corbeille parmi les roseaux et envoya sa servante pour la prendre. Elle l’ouvrit et elle vit l’enfant. C’était un petit garçon, il pleurait. Elle en eut pitié et dit&nbsp;: «&nbsp;C’est un enfant des Hébreux.&nbsp;» La sœur de l’enfant dit alors à la fille de Pharaon&nbsp;: «&nbsp;Veux-tu que j’aille te chercher, parmi les femmes des Hébreux, une nourrice qui, pour toi, nourrira l’enfant&nbsp;?&nbsp;» La fille de Pharaon lui répondit&nbsp;: «&nbsp;Va.&nbsp;» La jeune fille alla donc chercher la mère de l’enfant. La fille de Pharaon dit à celle-ci&nbsp;: «&nbsp;Emmène cet enfant et nourris-le pour moi. C’est moi qui te donnerai ton salaire.&nbsp;» Alors la femme emporta l’enfant et le nourrit. Lorsque l’enfant eut grandi, elle le ramena à la fille de Pharaon qui le traita comme son propre fils&nbsp;; elle lui donna le nom de Moïse, en disant&nbsp;: «&nbsp;Je l’ai tiré des eaux.&nbsp;» Or vint le jour où Moïse, qui avait grandi, se rendit auprès de ses frères et les vit accablés de corvées. Il vit un Égyptien qui frappait un Hébreu, l’un de ses frères. Regardant autour de lui et ne voyant personne, il frappa à mort l’Égyptien et l’enfouit dans le sable. Le lendemain, il sortit de nouveau&nbsp;: voici que deux Hébreux se battaient. Il dit à l’agresseur&nbsp;: «&nbsp;Pourquoi frappes-tu ton compagnon&nbsp;?&nbsp;» L’homme lui répliqua&nbsp;: «&nbsp;Qui t’a institué chef et juge sur nous&nbsp;? Veux-tu me tuer comme tu as tué l’Égyptien&nbsp;?&nbsp;» Moïse eut peur et se dit&nbsp;: «&nbsp;Pas de doute, la chose est connue.&nbsp;» Pharaon en fut informé et chercha à faire tuer Moïse. Celui-ci s’enfuit loin de Pharaon et habita au pays de Madiane. Il vint s’asseoir près du puits. Le prêtre de Madiane avait sept filles. Elles allèrent puiser de l’eau et remplir les auges pour abreuver le troupeau de leur père. Des bergers survinrent et voulurent les chasser. Alors Moïse se leva pour leur porter secours et il abreuva leur troupeau. Elles retournèrent chez Réouël, leur père, qui leur dit&nbsp;: «&nbsp;Pourquoi êtes-vous revenues si tôt, aujourd’hui&nbsp;?&nbsp;» Elles répondirent&nbsp;: «&nbsp;Un Égyptien nous a délivrées de la main des bergers, il a même puisé l’eau pour nous et abreuvé le troupeau&nbsp;!&nbsp;» Réouël demanda&nbsp;: «&nbsp;Mais où est-il&nbsp;? Pourquoi l’avez-vous laissé là-bas&nbsp;? Appelez-le&nbsp;! Invitez-le à manger&nbsp;!&nbsp;» Et Moïse accepta de s’établir chez cet homme qui lui donna comme épouse sa fille Cippora. Elle enfanta un fils à qui Moïse donna le nom de Guershom (ce qui signifie&nbsp;: Immigré en ce lieu) car, dit-il, «&nbsp;Je suis devenu un immigré en terre étrangère&nbsp;».</p>",
+        "responsory": "<p>R/ Qui est vainqueur du monde,<br> sinon celui qui croit&nbsp;?</p> <p>Par la foi,<br> Moïse choisit d’être maltraité avec son peuple<br> plutôt que de jouir pour un temps du péché.</p> <p>Par la foi,<br> Moïse considéra l’humiliation du Christ<br> comme un trésor plus grand<br> que les richesses d’Égypte.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "Homélie du V<sup>ème</sup> siècle",
+        "subtitle": "La prière est la lumière de l’âme",
+        "content": "<p>Le bien suprême, c’est la prière, l’entretien familier avec Dieu. Elle est communication avec Dieu et union avec lui. De même que les yeux du corps sont éclairés quand ils voient la lumière, ainsi l’âme tendue vers Dieu est illuminée par son inexprimable lumière. La prière n’est donc pas l’effet d’une attitude extérieure, mais elle vient du cœur. Elle ne se limite pas à des heures ou à des moments déterminés, mais elle déploie son activité sans relâche, nuit et jour. En effet, il ne convient pas seulement que la pensée se porte rapidement vers Dieu lorsqu’elle s’applique à la prière&nbsp;; il faut aussi, même lorsqu’elle est absorbée par d’autres occupations —&nbsp;comme le soin des pauvres ou d’autres soucis de bienfaisance&nbsp;—, y mêler le désir et le souvenir de Dieu, afin que tout demeure comme une nourriture très savoureuse, assaisonnée par l’amour de Dieu, à offrir au Seigneur de l’univers. Et nous pouvons en retirer un grand avantage, tout au long de notre vie, si nous y consacrons une bonne part de notre temps. La prière est la lumière de l’âme, la vraie connaissance de Dieu, la médiatrice entre Dieu et les hommes. Par elle, l’âme s’élève vers le ciel, et embrasse Dieu dans une étreinte inexprimable&nbsp;; assoiffée du lait divin, comme un nourrisson, elle crie avec larmes vers sa mère. Elle exprime ses volontés profondes et elle reçoit des présents qui dépassent toute la nature visible. Car la prière se présente comme une puissante ambassadrice, elle réjouit, elle apaise l’âme. Lorsque je parle de prière, ne t’imagine pas qu’il s’agisse de paroles. Elle est un élan vers Dieu, un amour indicible qui ne vient pas des hommes et dont l’Apôtre parle ainsi&nbsp;: <i>Nous ne savons pas prier comme il faut, mais l’Esprit lui-même intervient pour nous par des cris inexprimables</i>. Une telle prière, si Dieu en fait la grâce à quelqu’un, est pour lui une richesse inaliénable, un aliment céleste qui rassasie l’âme. Celui qui l’a goûté est saisi pour le Seigneur d’un désir éternel, comme d’un feu dévorant qui embrase son cœur. Lorsque tu la pratiques dans sa pureté originelle, orne ta maison de douceur et d’humilité, illumine-la par la justice&nbsp;; orne-la de bonnes actions comme d’un revêtement précieux&nbsp;; décore ta maison, au lieu de pierres de taille et de mosaïques, par la foi et la patience. Au-dessus de tout cela, place la prière au sommet de l’édifice pour porter ta maison à son achèvement. Ainsi tu te prépareras pour le Seigneur comme une demeure parfaite. Tu pourras l’y accueillir comme dans un palais royal et resplendissant, toi qui, par la grâce, le possèdes déjà dans le temple de ton âme.</p>",
+        "responsory": "<p>Long cri vers Dieu dans la détresse, Stance<br> mains levées, cœur ouvert,<br> remise totale au Père,<br> force de la faiblesse,<br> Jésus, notre prière,<br> ouvre-nous le chemin vers le Père.</p> <p>R/ Ouvre-nous le chemin vers le Père.</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;Demandez et vous recevrez&nbsp;»,</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;Celui qui cherche trouve&nbsp;»,</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;À celui qui frappe on ouvrira&nbsp;»,</p> <p>Toi qui as dit&nbsp;:<br> «&nbsp;Demandez l’Esprit, il vous sera donné&nbsp;»,</p>"
+      }
+    ],
     "verse": "<p>V/ Revenons au Seigneur, notre Dieu,<br>car il est tendre et miséricordieux.</p>",
-    "oration": "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    "oration": [
+      "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_21",
+        "antiphon": [
+          "Grande est la paix de qui aime ta loi."
+        ]
+      },
+      {
+        "psalm": "PSALM_132"
+      },
+      {
+        "psalm": "PSALM_139"
+      }
+    ],
+    "oration": [
+      "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 5, 16. 19-20",
+      "biblicalReference": "Jc 5, 16. 19-20",
       "content": "Reconnaissez vos péchés les uns devant les autres, et priez les uns pour les autres afin d’être guéris, car la supplication du juste agit avec beaucoup de puissance. Mes frères, si l’un de vous s’égare loin de la vérité et si quelqu’un l’amène à se convertir, alors, sachez-le&nbsp;: celui qui ramène un pécheur du chemin où il s’égarait se sauvera lui-même et couvrira une multitude de péchés."
     },
-    "evangelicAntiphon": "Quand l’époux leur sera enlevé, alors les invités de la noce jeûneront.",
-    "intercession": "<p>Adorons notre Sauveur, qui par sa mort a détruit la mort et par sa résurrection nous a rendu la vie&nbsp;:</p> <p>R/ Jésus Sauveur, nous t’adorons.</p> <p>En te faisant obéissant jusqu’à la mort,<br> tu nous apprends le plus grand amour.</p> <p>En prenant sur toi la malédiction du péché,<br> tu nous révèles la bienveillance du Père.</p> <p>En priant pour ceux qui t’ont mis en croix,<br> tu nous entraînes au pardon sans mesure.</p> <p>En ouvrant le paradis au malfaiteur repenti,<br> tu rends possible notre espérance.</p> <p>En ressuscitant le troisième jour,<br> tu relèves ceux qui sont endormis dans la paix.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  *  Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi.<br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_21",
-        "antiphon": [
-          "Grande est la paix de qui aime ta loi."
-        ]
-      },
-      {
-        "psalm": "PSALM_132"
-      },
-      {
-        "psalm": "PSALM_139"
-      }
-    ],
-    "oration": "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    "evangelicAntiphon": {
+      "common": "Quand l’époux leur sera enlevé, alors les invités de la noce jeûneront."
+    },
+    "intercession": {
+      "content": "<p>Adorons notre Sauveur, qui par sa mort a détruit la mort et par sa résurrection nous a rendu la vie&nbsp;:</p> <p>R/ Jésus Sauveur, nous t’adorons.</p> <p>En te faisant obéissant jusqu’à la mort,<br> tu nous apprends le plus grand amour.</p> <p>En prenant sur toi la malédiction du péché,<br> tu nous révèles la bienveillance du Père.</p> <p>En priant pour ceux qui t’ont mis en croix,<br> tu nous entraînes au pardon sans mesure.</p> <p>En ouvrant le paradis au malfaiteur repenti,<br> tu rends possible notre espérance.</p> <p>En ressuscitant le troisième jour,<br> tu relèves ceux qui sont endormis dans la paix.</p> "
+    },
+    "oration": [
+      "Que ta bienveillance nous accompagne, Seigneur, durant ces jours de privation, pour que la discipline imposée à nos corps soit vraiment pratiquée avec amour."
+    ]
   }
 }

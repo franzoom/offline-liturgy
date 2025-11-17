@@ -1,4 +1,13 @@
 {
+  "celebration": {
+    "title": "Conversion de S. Paul, Apôtre",
+    "description": "Sur la route de Damas Saul de Tarse a fait une double découverte : Jésus de Nazareth est le Béni de Dieu, le Ressuscité de Pâques, et il ne fait qu’un avec ses frères. Toute la vie de Paul devait être marquée par cette illumination.",
+    "commons": [
+      "apostles"
+    ],
+    "grade": 7,
+    "color": "white"
+  },
   "morning": {
     "psalmody": [
       {
@@ -21,13 +30,18 @@
       }
     ],
     "reading": {
-      "ref": "Ac 26, 16b-18",
+      "biblicalReference": "Ac 26, 16b-18",
       "content": "Voici pourquoi je te suis apparu&nbsp;: je t’ai destiné à être serviteur et témoin de la vision où tu viens de me voir ainsi que des visions où je t’apparaîtrai encore. Je te délivre déjà du peuple et des nations païennes vers qui je t’envoie pour leur ouvrir les yeux, les détourner des ténèbres vers la lumière, de l’empire de Satan vers Dieu, afin qu’ils reçoivent le pardon des péchés et une part d’héritage avec les sanctifiés, par la foi en moi."
     },
-    "evangelicAntiphon": "Célébrons la conversion de l’Apôtre Paul&nbsp;; le persécuteur est devenu héraut de l’Évangile.",
-    "responsory": "<p>R/ Paul, Apôtre des nations<br> * le Seigneur t’a choisi&nbsp;!<br> V/ Pour annoncer sa Parole, *<br> V/ Pour souffrir en son nom, *<br> Gloire au Père, et au Fils, et au Saint-Esprit.&nbsp;R/</p>"
+    "responsory": "<p>R/ Paul, Apôtre des nations<br> * le Seigneur t’a choisi&nbsp;!<br> V/ Pour annoncer sa Parole, *<br> V/ Pour souffrir en son nom, *<br> Gloire au Père, et au Fils, et au Saint-Esprit.&nbsp;R/</p>",
+    "evangelicAntiphon": {
+      "common": "Célébrons la conversion de l’Apôtre Paul&nbsp;; le persécuteur est devenu héraut de l’Évangile."
+    }
   },
   "readings": {
+    "hymn": [
+      "quel-est-ce-voyageur"
+    ],
     "psalmody": [
       {
         "psalm": "PSALM_18A",
@@ -48,22 +62,49 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Paul le Juif devient Apôtre du Christ",
-      "ref": "Ga 1, 11-24",
-      "content": "<p>Frères, je tiens à ce que vous le sachiez, l’Évangile que j’ai proclamé n’est pas une invention humaine. Ce n’est pas non plus d’un homme que je l’ai reçu ou appris, mais par révélation de Jésus Christ.</p> <p>Vous avez entendu parler du comportement que j’avais autrefois dans le judaïsme&nbsp;: je menais une persécution effrénée contre l’Église de Dieu, et je cherchais à la détruire. J’allais plus loin dans le judaïsme que la plupart de mes frères de race qui avaient mon âge, et, plus que les autres, je défendais avec une ardeur jalouse les traditions de mes pères. Mais Dieu m’avait mis à part dès le sein de ma mère&nbsp;; dans sa grâce, il m’a appelé&nbsp;; et il a trouvé bon de révéler en moi son Fils, pour que je l’annonce parmi les nations païennes. Aussitôt, sans prendre l’avis de personne, sans même monter à Jérusalem pour y rencontrer ceux qui étaient Apôtres avant moi, je suis parti pour l’Arabie et, de là, je suis retourné à Damas. Puis, trois ans après, je suis monté à Jérusalem pour faire la connaissance de Pierre, et je suis resté quinze jours auprès de lui. Je n’ai vu aucun des autres Apôtres sauf Jacques, le frère du Seigneur. En vous écrivant cela, —&nbsp;je le déclare devant Dieu —&nbsp;je ne mens pas. Ensuite, je me suis rendu dans les régions de Syrie et de Cilicie. Mais pour les Églises de Judée qui sont dans le Christ, mon visage restait inconnu&nbsp;; elles avaient simplement entendu dire&nbsp;: «&nbsp;Celui qui nous persécutait naguère annonce aujourd’hui la foi qu’il cherchait alors à détruire.&nbsp;» Et l’on rendait gloire à Dieu à mon sujet.</p>",
-      "responsory": "R/ Victoire du Christ en son Apôtre&nbsp;!</p> Contre Jésus, il allait à Damas, pour Jésus, il sillonnera le monde.</p> Dans la justice de la loi, il mettait son orgueil, la grâce de l’Esprit fera toute sa fierté.</p>"
-    },
-    "patristicReading": {
-      "title": "HOMÉLIE DE S. JEAN CHRYSOSTOME À LA LOUANGE DE PAUL",
-      "subtitle": "Amour de Paul pour le Christ",
-      "content": "<p>Qu’est-ce que l’homme&nbsp;? Quelle est la noblesse de notre nature&nbsp;? De quelle vertu est capable cette créature vivante&nbsp;? Paul nous l’a montré mieux que n’importe qui. ~</p> <p>Chaque jour, il montait plus haut, il était animé d’un nouveau courage contre les dangers qui s’élevaient contre lui. Il le disait clairement&nbsp;:<i>Oubliant ce qui est en arrière, et tendu vers l’avant</i>. ~ Alors qu’il s’attendait à la mort, il appelait à partager cette joie&nbsp;:<i>Soyez joyeux et réjouissez-vous avec moi</i>. Exposé aux dangers, aux insultes, et à toute sorte d’humiliations, il exulte encore et il écrit aux Corinthiens&nbsp;:<i>C’est pourquoi j’accepte de grand cœur les faiblesses, les insultes, les persécutions</i>. Il appelait cela les armes de la justice et montrait qu’il en recueillait le plus grand fruit.</p> <p>Il échappait de toutes parts à ses ennemis. Accablé de coups, d’insultes, d’outrages, il célébrait une sorte de triomphe continuel&nbsp;;&nbsp;partout il érigeait des trophées, il s’en glorifiait et il en rendait grâce à Dieu, en disant&nbsp;:<i>Rendons grâce à Dieu qui nous emmène en tout temps dans son triomphe</i>.</p> <p>Il recherchait la honte et les insultes que lui valait sa prédication, plus que nous ne recherchons les honneurs&nbsp;; la mort, plus que nous la vie&nbsp;; la pauvreté, plus que nous la richesse&nbsp;; les labeurs, plus que d’autres le repos. ~ Une seule chose lui paraissait à redouter et à fuir&nbsp;: offenser Dieu, et rien d’autre. De même rien ne lui paraissait à désirer que de plaire à Dieu. ~</p> <p>Ce qu’il tenait pour supérieur à tout, c’était l’amour du Christ&nbsp;; avec cela, il estimait qu’il était le plus heureux des hommes. En dehors de cela, il ne souhaitait d’être ni parmi les souverains, ni parmi les chefs, ni parmi les autorités&nbsp;; mais il préférait être parmi les derniers et même au nombre des condamnés avec cet amour, plutôt que, en dehors de lui, parmi les hommes haut placés et couverts d’honneurs.</p> <p>Il n’y avait pour lui qu’un seul supplice&nbsp;: perdre cet amour. Pour lui c’était la géhenne, le châtiment, un malheur infini. En revanche, jouir de cet amour, c’était pour lui posséder la vie, le monde, son bon ange, le présent et l’avenir, la royauté, la promesse, le bonheur infini. Tout ce qui peut nous arriver ici-bas, en dehors de cela, il ne le jugeait ni pénible, ni agréable.</p> <p>Il méprisait toutes les choses visibles autant que de l’herbe pourrie. Les tyrans et les peuples pleins de fureur lui semblaient des moucherons&nbsp;; la mort, les châtiments, tous les supplices&nbsp;: des jeux d’enfants, du moment qu’il avait à souffrir pour le Christ.</p>",
-      "responsory": "<p>R/ Victoire du Christ en son Apôtre&nbsp;!</p>"
-    },
-    "hymn": [
-      "quel-est-ce-voyageur"
+    "biblicalReading": [
+      {
+        "title": "Paul le Juif devient Apôtre du Christ",
+        "ref": "Ga 1, 11-24",
+        "content": "<p>Frères, je tiens à ce que vous le sachiez, l’Évangile que j’ai proclamé n’est pas une invention humaine. Ce n’est pas non plus d’un homme que je l’ai reçu ou appris, mais par révélation de Jésus Christ.</p> <p>Vous avez entendu parler du comportement que j’avais autrefois dans le judaïsme&nbsp;: je menais une persécution effrénée contre l’Église de Dieu, et je cherchais à la détruire. J’allais plus loin dans le judaïsme que la plupart de mes frères de race qui avaient mon âge, et, plus que les autres, je défendais avec une ardeur jalouse les traditions de mes pères. Mais Dieu m’avait mis à part dès le sein de ma mère&nbsp;; dans sa grâce, il m’a appelé&nbsp;; et il a trouvé bon de révéler en moi son Fils, pour que je l’annonce parmi les nations païennes. Aussitôt, sans prendre l’avis de personne, sans même monter à Jérusalem pour y rencontrer ceux qui étaient Apôtres avant moi, je suis parti pour l’Arabie et, de là, je suis retourné à Damas. Puis, trois ans après, je suis monté à Jérusalem pour faire la connaissance de Pierre, et je suis resté quinze jours auprès de lui. Je n’ai vu aucun des autres Apôtres sauf Jacques, le frère du Seigneur. En vous écrivant cela, —&nbsp;je le déclare devant Dieu —&nbsp;je ne mens pas. Ensuite, je me suis rendu dans les régions de Syrie et de Cilicie. Mais pour les Églises de Judée qui sont dans le Christ, mon visage restait inconnu&nbsp;; elles avaient simplement entendu dire&nbsp;: «&nbsp;Celui qui nous persécutait naguère annonce aujourd’hui la foi qu’il cherchait alors à détruire.&nbsp;» Et l’on rendait gloire à Dieu à mon sujet.</p>",
+        "responsory": "R/ Victoire du Christ en son Apôtre&nbsp;!</p> Contre Jésus, il allait à Damas, pour Jésus, il sillonnera le monde.</p> Dans la justice de la loi, il mettait son orgueil, la grâce de l’Esprit fera toute sa fierté.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "HOMÉLIE DE S. JEAN CHRYSOSTOME À LA LOUANGE DE PAUL",
+        "subtitle": "Amour de Paul pour le Christ",
+        "content": "<p>Qu’est-ce que l’homme&nbsp;? Quelle est la noblesse de notre nature&nbsp;? De quelle vertu est capable cette créature vivante&nbsp;? Paul nous l’a montré mieux que n’importe qui. ~</p> <p>Chaque jour, il montait plus haut, il était animé d’un nouveau courage contre les dangers qui s’élevaient contre lui. Il le disait clairement&nbsp;:<i>Oubliant ce qui est en arrière, et tendu vers l’avant</i>. ~ Alors qu’il s’attendait à la mort, il appelait à partager cette joie&nbsp;:<i>Soyez joyeux et réjouissez-vous avec moi</i>. Exposé aux dangers, aux insultes, et à toute sorte d’humiliations, il exulte encore et il écrit aux Corinthiens&nbsp;:<i>C’est pourquoi j’accepte de grand cœur les faiblesses, les insultes, les persécutions</i>. Il appelait cela les armes de la justice et montrait qu’il en recueillait le plus grand fruit.</p> <p>Il échappait de toutes parts à ses ennemis. Accablé de coups, d’insultes, d’outrages, il célébrait une sorte de triomphe continuel&nbsp;;&nbsp;partout il érigeait des trophées, il s’en glorifiait et il en rendait grâce à Dieu, en disant&nbsp;:<i>Rendons grâce à Dieu qui nous emmène en tout temps dans son triomphe</i>.</p> <p>Il recherchait la honte et les insultes que lui valait sa prédication, plus que nous ne recherchons les honneurs&nbsp;; la mort, plus que nous la vie&nbsp;; la pauvreté, plus que nous la richesse&nbsp;; les labeurs, plus que d’autres le repos. ~ Une seule chose lui paraissait à redouter et à fuir&nbsp;: offenser Dieu, et rien d’autre. De même rien ne lui paraissait à désirer que de plaire à Dieu. ~</p> <p>Ce qu’il tenait pour supérieur à tout, c’était l’amour du Christ&nbsp;; avec cela, il estimait qu’il était le plus heureux des hommes. En dehors de cela, il ne souhaitait d’être ni parmi les souverains, ni parmi les chefs, ni parmi les autorités&nbsp;; mais il préférait être parmi les derniers et même au nombre des condamnés avec cet amour, plutôt que, en dehors de lui, parmi les hommes haut placés et couverts d’honneurs.</p> <p>Il n’y avait pour lui qu’un seul supplice&nbsp;: perdre cet amour. Pour lui c’était la géhenne, le châtiment, un malheur infini. En revanche, jouir de cet amour, c’était pour lui posséder la vie, le monde, son bon ange, le présent et l’avenir, la royauté, la promesse, le bonheur infini. Tout ce qui peut nous arriver ici-bas, en dehors de cela, il ne le jugeait ni pénible, ni agréable.</p> <p>Il méprisait toutes les choses visibles autant que de l’herbe pourrie. Les tyrans et les peuples pleins de fureur lui semblaient des moucherons&nbsp;; la mort, les châtiments, tous les supplices&nbsp;: des jeux d’enfants, du moment qu’il avait à souffrir pour le Christ.</p>",
+        "responsory": "<p>R/ Victoire du Christ en son Apôtre&nbsp;!</p>"
+      }
     ],
     "verse": "V/ Le Seigneur est tendresse et pitié<br> lent à la colère et plein d’amour.<br>"
+  },
+  "middleOfDay": {
+    "tierce": {
+      "antiphon": "Celui qui t’est apparu en chemin m’a envoyé vers toi pour que tu recouvres la vue et que tu sois rempli de l’Esprit Saint.",
+      "reading": {
+        "biblicalReference": "1 Tm 1, 12-13a",
+        "content": "Je suis plein de reconnaissance pour celui qui me donne la force, Jésus Christ notre Seigneur, car il m’a fait confiance en me chargeant du ministère, moi qui autrefois ne savais que blasphémer, persécuter, insulter. Mais le Christ m’a pardonné."
+      },
+      "responsory": "<p>V/ Réjouissez-vous, dit le Seigneur,<br> vos noms sont inscrits dans les cieux.</p>"
+    },
+    "sexte": {
+      "antiphon": "Sur le chemin de Damas, une lumière venue du ciel l’enveloppe soudain de sa clarté.",
+      "reading": {
+        "biblicalReference": "1 Tm 1, 14-15",
+        "content": "La grâce de notre Seigneur a été la plus forte, avec la foi et l’amour dans le Christ Jésus. Voici une parole sûre, et qui mérite d’être accueillie sans réserve&nbsp;: le Christ Jésus est venu dans le monde pour sauver les pécheurs&nbsp;; et moi, le premier, je suis pécheur."
+      },
+      "responsory": "<p>V/ Tu es la lumière de ma lampe,<br> Seigneur mon Dieu, tu éclaires ma nuit.</p>"
+    },
+    "none": {
+      "antiphon": "Je suis Jésus de Nazareth, c’est moi que tu persécutes.",
+      "reading": {
+        "biblicalReference": "1 Tm 1, 16",
+        "content": "Si le Christ Jésus m’a pardonné, c’est pour que je sois le premier en qui toute sa générosité se manifesterait&nbsp;; je devais être le premier exemple de ceux qui croiraient en lui pour la vie éternelle."
+      },
+      "responsory": "<p>V/ Toujours, je rendrai goire à ton nom, Seigneur&nbsp;:<br> il est grand ton amour pour moi.</p>"
+    }
   },
   "vespers": {
     "psalmody": [
@@ -87,44 +128,15 @@
       }
     ],
     "reading": {
-      "ref": "1 Co 15, 9-10",
+      "biblicalReference": "1 Co 15, 9-10",
       "content": "Moi, je suis le plus petit des Apôtres, je ne suis pas digne d’être appelé Apôtre, puisque j’ai persécuté l’Église de Dieu. Mais ce que je suis, je le suis par la grâce de Dieu, et la grâce dont il m’a comblé n’a pas été stérile&nbsp;: je me suis donné de la peine plus que tous les autres&nbsp;; à vrai dire, ce n’est pas moi, c’est la grâce de Dieu avec moi."
     },
-    "evangelicAntiphon": "Paul, Apôtre des nations, prédicateur de la vérité, intercède pour nous auprès de Dieu qui t’a choisi.",
-    "responsory": "<p>R/ Une grande lumière m’entoure&nbsp;:<br> * Seigneur, que veux-tu que je fasse&nbsp;?<br> V/ La voix me dit&nbsp;: Je suis celui que tu persécutes. *<br> V/ Tu seras témoin devant tous les hommes.&nbsp;R/</p>"
-  },
-  "middleOfDay": {
-    "tierce": {
-      "antiphon": "Celui qui t’est apparu en chemin m’a envoyé vers toi pour que tu recouvres la vue et que tu sois rempli de l’Esprit Saint.",
-      "reading": {
-        "ref": "1 Tm 1, 12-13a",
-        "content": "Je suis plein de reconnaissance pour celui qui me donne la force, Jésus Christ notre Seigneur, car il m’a fait confiance en me chargeant du ministère, moi qui autrefois ne savais que blasphémer, persécuter, insulter. Mais le Christ m’a pardonné."
-      },
-      "responsory": "<p>V/ Réjouissez-vous, dit le Seigneur,<br> vos noms sont inscrits dans les cieux.</p>"
-    },
-    "sexte": {
-      "antiphon": "Sur le chemin de Damas, une lumière venue du ciel l’enveloppe soudain de sa clarté.",
-      "reading": {
-        "ref": "1 Tm 1, 14-15",
-        "content": "La grâce de notre Seigneur a été la plus forte, avec la foi et l’amour dans le Christ Jésus. Voici une parole sûre, et qui mérite d’être accueillie sans réserve&nbsp;: le Christ Jésus est venu dans le monde pour sauver les pécheurs&nbsp;; et moi, le premier, je suis pécheur."
-      },
-      "responsory": "<p>V/ Tu es la lumière de ma lampe,<br> Seigneur mon Dieu, tu éclaires ma nuit.</p>"
-    },
-    "none": {
-      "antiphon": "Je suis Jésus de Nazareth, c’est moi que tu persécutes.",
-      "reading": {
-        "ref": "1 Tm 1, 16",
-        "content": "Si le Christ Jésus m’a pardonné, c’est pour que je sois le premier en qui toute sa générosité se manifesterait&nbsp;; je devais être le premier exemple de ceux qui croiraient en lui pour la vie éternelle."
-      },
-      "responsory": "<p>V/ Toujours, je rendrai goire à ton nom, Seigneur&nbsp;:<br> il est grand ton amour pour moi.</p>"
+    "responsory": "<p>R/ Une grande lumière m’entoure&nbsp;:<br> * Seigneur, que veux-tu que je fasse&nbsp;?<br> V/ La voix me dit&nbsp;: Je suis celui que tu persécutes. *<br> V/ Tu seras témoin devant tous les hommes.&nbsp;R/</p>",
+    "evangelicAntiphon": {
+      "common": "Paul, Apôtre des nations, prédicateur de la vérité, intercède pour nous auprès de Dieu qui t’a choisi."
     }
   },
-  "celebrationTitle": "Conversion de S. Paul, Apôtre",
-  "celebrationDescription": "Sur la route de Damas Saul de Tarse a fait une double découverte : Jésus de Nazareth est le Béni de Dieu, le Ressuscité de Pâques, et il ne fait qu’un avec ses frères. Toute la vie de Paul devait être marquée par cette illumination.",
-  "liturgicalGrade": 7,
-  "liturgicalColor": "white",
-  "commons": [
-    "apostles"
-  ],
-  "oration": "Dieu qui as instruit le monde entier par la parole de l’Apôtre saint Paul, dont nous célébrons aujourd’hui la conversion. Accorde-nous d’aller vers toi en cherchant à lui ressembler, et d’être, dans le monde, les témoins de ton Évangile."
+  "oration": [
+    "Dieu qui as instruit le monde entier par la parole de l’Apôtre saint Paul, dont nous célébrons aujourd’hui la conversion. Accorde-nous d’aller vers toi en cherchant à lui ressembler, et d’être, dans le monde, les témoins de ton Évangile."
+  ]
 }

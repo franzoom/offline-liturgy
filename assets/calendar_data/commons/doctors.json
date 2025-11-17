@@ -1,53 +1,65 @@
 {
+  "celebration": {
+    "color": "white"
+  },
+  "commonTitle": "Commun des Docteurs",
+  "firstVespers": {
+    "reading": {
+      "biblicalReference": "Jc 3,17-18",
+      "content": "La sagesse qui vient de Dieu est d’abord droiture, et par suite elle est paix, tolérance, compréhension ; elle est pleine de miséricorde et féconde en bienfaits, sans partialité et sans hypocrisie. C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix."
+    },
+    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles, *<br> Gloire au Père. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Qui observe le plus petit de mes commandements sera grand dans le Royaume des cieux."
+    }
+  },
   "invitatory": {
     "antiphon": [
       "Venez à la source de la sagesse, venez, adorons le Seigneur&nbsp;!"
     ]
   },
-  "firstVespers": {
-    "reading": {
-      "ref": "Jc 3,17-18",
-      "content": "La sagesse qui vient de Dieu est d’abord droiture, et par suite elle est paix, tolérance, compréhension ; elle est pleine de miséricorde et féconde en bienfaits, sans partialité et sans hypocrisie. C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix."
-    },
-    "evangelicAntiphon": "Qui observe le plus petit de mes commandements sera grand dans le Royaume des cieux.",
-    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles, *<br> Gloire au Père. R/ <br>"
-  },
   "morning": {
     "reading": {
-      "ref": "Sg 7, 13-14",
+      "biblicalReference": "Sg 7, 13-14",
       "content": "Ce que j’ai appris avec simplicité, j’en fais part sans réserve, je ne tairai pas sa richesse. Car la sagesse est pour les hommes un trésor inépuisable. Ceux qui l’ont exploité se sont concilié l’amitié de Dieu. Nous sommes dans sa main : nous-mêmes, nos paroles, toute notre intelligence et notre savoir faire."
     },
-    "evangelicAntiphon": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.",
-    "responsory": "R/ L’Esprit de vérité nous guidera<br> vers la vérité tout entière.<br> V/ Ouvrière de toutes choses,<br> la sagesse m’a instruit. R/ <br> V/ Elle se laisse trouver<br> par ceux qui la cherchent. R/ <br>"
+    "responsory": "R/ L’Esprit de vérité nous guidera<br> vers la vérité tout entière.<br> V/ Ouvrière de toutes choses,<br> la sagesse m’a instruit. R/ <br> V/ Elle se laisse trouver<br> par ceux qui la cherchent. R/ <br>",
+    "evangelicAntiphon": {
+      "common": "Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel."
+    }
   },
   "readings": {
-    "biblicalReading": {
-      "title": "Le sage est attentif à la Parole",
-      "ref": "Si 39,1-10",
-      "content": "Il cherchera à connaître la sagesse de tous les anciens et se consacrera à la lecture des prophètes. Il retiendra l’histoire des hommes célèbres, il pénétrera dans les détours des paraboles, il cherchera le sens caché des proverbes, il retournera dans sa tête les énigmes des paraboles.</p> <p>Il aura une place au service des grands, il se fera remarquer par les chefs, il voyagera dans les pays étrangers, car il a l’expérience du bien et du mal que font les hommes.</p> <p>Il s’appliquera de tout son cœur à servir dès le matin le Seigneur qui l’a créé. Il présentera sa supplication devant le Très-Haut, il ouvrira la bouche pour la prière et il suppliera pour ses péchés.</p> <p>Si le Seigneur souverain le veut, il sera rempli de l’esprit d’intelligence, il répandra comme une ondée ses paroles de sagesse, et dans la prière il rendra grâce au Seigneur. Il suivra le droit chemin dans ses décisions comme dans son savoir, et il méditera sur les secrets de Dieu. Il fera connaître l’enseignement qu’il a reçu et mettra sa fierté dans la loi de l’Alliance prescrite par le Seigneur.</p> <p>Beaucoup feront l’éloge de son intelligence ; et jamais on ne l’oubliera. Son souvenir ne disparaîtra pas, son nom vivra de génération en génération. Les nations raconteront sa sagesse, l’assemblée proclamera ses louanges.</p>   <p>",
-      "responsory": "R/ À toi, Seigneur notre Dieu, les choses cachées,<br> à nous celles que tu nous as révélées<br> pour que nous vivions de ta Parole.</p> <p>Le Seigneur vous a donné un cœur pour connaître,<br> des yeux pour voir, des oreilles pour entendre.</p> <p>Voici l’alliance jurée par le Seigneur :<br> Il fera de toi un grand peuple, et lui sera ton Dieu.</p> <p>Que nul d’entre vous ne détourne son cœur du Seigneur en allant servir les dieux des nations.</p>"
-    },
-    "patristicReading": {
-      "title": "Traité de Guillaume de Saint-Thierry",
-      "subtitle": "C’est dans le Saint-Esprit qu’il faut chercher l’intelligence de la foi",
-      "content": "Pour toi, âme fidèle, lorsque ta nature hésite devant les mystères trop profonds de la foi, dis sans crainte, non pour t’opposer, mais avec le désir d’obéir : <i>Comment cela arrivera-t-il ?</i> Que ta question soit une prière, qu’elle soit amour, piété, humble désir. Qu’elle ne scrute pas avec hauteur la majesté divine, mais cherche le salut dans les moyens de salut du Dieu de notre délivrance. Alors l’Ange du grand Conseil te répondra : <i>Lorsque viendra le consolateur que je vous enverrai du Père, il rendra témoignage de moi et vous enseignera toutes choses : toute vérité vous viendra de l’Esprit de vérité. Qui donc connaît les secrets de l’homme, si ce n’est l’esprit de l’homme qui est en lui ? De même, nul ne connaît les secrets de Dieu, sinon l’Esprit de Dieu.</i> Hâte-toi donc de communier à l’Esprit Saint. Il est là dès qu’on l’invoque ; si on l’invoque, c’est qu’il est déjà présent. Appelé, il vient ; il arrive dans l’abondance des bénédictions divines. C’est lui le fleuve impétueux qui réjouit la cité de Dieu. Lors de sa venue, s’il te trouve humble et sans inquiétude, mais tremblant à la parole de Dieu, il reposera sur toi et te révélera ce que Dieu cache aux sages et aux prudents de ce monde. Commenceront à briller pour toi toutes ces vérités que la Sagesse pouvait dire aux disciples alors qu’elle était sur terre, mais qu’ils ne pouvaient porter avant la venue de l’Esprit de vérité qui leur enseignerait toute vérité. Pour recevoir et apprendre cette vérité, il est vain d’attendre de la bouche d’un homme ce qu’il n’a pu recevoir ni apprendre des lèvres de la Vérité elle-même. Car, selon l’affirmation de cette vérité, <i>Dieu est Esprit ;</i> et, de même que ceux qui l’adorent doivent nécessairement l’adorer <i>en esprit et en vérité,</i> de même ceux qui désirent le connaître ne doivent chercher que dans l’Esprit Saint l’intelligence de la foi et le sens de cette vérité pure et sans mélange. Parmi les ténèbres et l’ignorance de cette vie, il est lui-même pour les pauvres en esprit la lumière qui éclaire, la charité qui attire, la douceur qui saisit, il est l’accès de l’homme auprès de Dieu, l’amour de celui qui aime, la piété de celui qui se livre sans réserve. C’est lui qui, de conviction en conviction, révèle aux croyants la justice de Dieu ; il donne grâce pour grâce, et à la foi qui s’attache à l’écoute de la Parole, il donne en retour la foi illuminée.",
-      "responsory": "R/ Vivante est la Parole de Dieu<br> plus pénétrante qu’un glaive.</p> <p> Fils d’homme, je t’ai fait sentinelle :<br> de ma part, tu avertiras mon peuple.</p> <p> Fils d’homme, porte-leur ma parole,<br> qu’elle habite en eux avec toute sa richesse.</p>"
-    },
-    "patristicReading2": {
-      "title": "Actes du II<sup>ème</sup> Concile du Vatican",
-      "subtitle": "La révélation divine",
-      "content": "Dans le Christ Seigneur, toute la Révélation du Dieu Très-Haut trouve son achèvement : la bonne nouvelle annoncée par les Prophètes et accomplie en sa personne, il L’a pro­mulguée de sa bouche et il a donné aux Apôtres l’ordre de la prêcher à tous, comme la source de toute vérité salvatrice et de toute règle morale, en même temps qu’ils communiqueraient les dons de Dieu. Les Apôtres exécutèrent fidèlement cet ordre : par leur prédication, par leur exemple, par les institu­tions qu’ils établirent, ils transmirent ce qu’ils avaient appris de la bouche du Christ, en le voyant vivre et agir et aussi ce que le Saint-Esprit leur suggérait. Eux-mêmes, et d’autres personnes se rattachant à eux, consignèrent également par écrit le message du salut, sous l’inspiration du Saint-Esprit. Mais pour que l’Évangile soit continuellement gardé intact et vivant dans l’Église, les apôtres laissèrent pour leur succéder les évêques auxquels ils confièrent le pou­voir d’enseigner à leur place. ~ La Tradition reçue des Apôtres comprend tout ce qui contribue à conduire saintement le peuple de Dieu ainsi qu’à développer sa foi. C’est ainsi que l’Église, dans sa doctrine, sa vie et son culte, perpétue et transmet à toutes les générations tout ce qu’elle est elle-même, tout ce qu’elle croit. Cette Tradition qui vient des Apôtres progresse dans l’Église, avec l’assistance du Saint-Esprit. En effet, la perception des réalités aussi bien que des paroles transmises s’accroit par la contemplation et la recherche des croyants qui les méditent dans leur cœur ; par l’intelligence profonde des réalités spirituelles qu’ils expérimentent ; enfin par la prédication de ceux qui, avec la transmission de l’épiscopat, ont reçu un charisme assuré de vérité. Autrement dit, l’Église, au cours des siècles, tend constamment vers la plénitude de la vérité divine, jusqu’à ce que les paroles de Dieu trouvent en elle leur achèvement. Les affirmations des Pères attestent la présence vivifiante de cette Tradition, dont les richesses se répandent dans la pratique et la vie de l’Église qui croit et qui prie. Cette même Tradition fait connaître à l’Église le catalogue officiel et complet des Livres Saints. C’est elle qui, dans l’Église, fait comprendre plus profondément la Sainte Écriture et la rend perpétuellement efficace. Ainsi Dieu, qui a parlé jadis, ne cesse de converser avec l’Épouse de son Fils bien-aimé ; l’Esprit Saint, par qui la voix vivante de l’Évangile retentit dans l’Église, et par l’Église dans le monde, introduit les croyants dans la vérité tout entière et fait que la parole du Christ habite en eux avec toute sa richesse.",
-      "responsory": "R/ C’est toi le chemin, la vérité, la vie,<br> Jésus, Fils de Dieu !</p> <p> Qui veut trouver le Père<br> doit passer par toi.</p> <p> Tu nous conduis<br> vers la joie sans déclin.</p>"
-    }
+    "biblicalReading": [
+      {
+        "title": "Le sage est attentif à la Parole",
+        "ref": "Si 39,1-10",
+        "content": "Il cherchera à connaître la sagesse de tous les anciens et se consacrera à la lecture des prophètes. Il retiendra l’histoire des hommes célèbres, il pénétrera dans les détours des paraboles, il cherchera le sens caché des proverbes, il retournera dans sa tête les énigmes des paraboles.</p> <p>Il aura une place au service des grands, il se fera remarquer par les chefs, il voyagera dans les pays étrangers, car il a l’expérience du bien et du mal que font les hommes.</p> <p>Il s’appliquera de tout son cœur à servir dès le matin le Seigneur qui l’a créé. Il présentera sa supplication devant le Très-Haut, il ouvrira la bouche pour la prière et il suppliera pour ses péchés.</p> <p>Si le Seigneur souverain le veut, il sera rempli de l’esprit d’intelligence, il répandra comme une ondée ses paroles de sagesse, et dans la prière il rendra grâce au Seigneur. Il suivra le droit chemin dans ses décisions comme dans son savoir, et il méditera sur les secrets de Dieu. Il fera connaître l’enseignement qu’il a reçu et mettra sa fierté dans la loi de l’Alliance prescrite par le Seigneur.</p> <p>Beaucoup feront l’éloge de son intelligence ; et jamais on ne l’oubliera. Son souvenir ne disparaîtra pas, son nom vivra de génération en génération. Les nations raconteront sa sagesse, l’assemblée proclamera ses louanges.</p>   <p>",
+        "responsory": "R/ À toi, Seigneur notre Dieu, les choses cachées,<br> à nous celles que tu nous as révélées<br> pour que nous vivions de ta Parole.</p> <p>Le Seigneur vous a donné un cœur pour connaître,<br> des yeux pour voir, des oreilles pour entendre.</p> <p>Voici l’alliance jurée par le Seigneur :<br> Il fera de toi un grand peuple, et lui sera ton Dieu.</p> <p>Que nul d’entre vous ne détourne son cœur du Seigneur en allant servir les dieux des nations.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "Traité de Guillaume de Saint-Thierry",
+        "subtitle": "C’est dans le Saint-Esprit qu’il faut chercher l’intelligence de la foi",
+        "content": "Pour toi, âme fidèle, lorsque ta nature hésite devant les mystères trop profonds de la foi, dis sans crainte, non pour t’opposer, mais avec le désir d’obéir : <i>Comment cela arrivera-t-il ?</i> Que ta question soit une prière, qu’elle soit amour, piété, humble désir. Qu’elle ne scrute pas avec hauteur la majesté divine, mais cherche le salut dans les moyens de salut du Dieu de notre délivrance. Alors l’Ange du grand Conseil te répondra : <i>Lorsque viendra le consolateur que je vous enverrai du Père, il rendra témoignage de moi et vous enseignera toutes choses : toute vérité vous viendra de l’Esprit de vérité. Qui donc connaît les secrets de l’homme, si ce n’est l’esprit de l’homme qui est en lui ? De même, nul ne connaît les secrets de Dieu, sinon l’Esprit de Dieu.</i> Hâte-toi donc de communier à l’Esprit Saint. Il est là dès qu’on l’invoque ; si on l’invoque, c’est qu’il est déjà présent. Appelé, il vient ; il arrive dans l’abondance des bénédictions divines. C’est lui le fleuve impétueux qui réjouit la cité de Dieu. Lors de sa venue, s’il te trouve humble et sans inquiétude, mais tremblant à la parole de Dieu, il reposera sur toi et te révélera ce que Dieu cache aux sages et aux prudents de ce monde. Commenceront à briller pour toi toutes ces vérités que la Sagesse pouvait dire aux disciples alors qu’elle était sur terre, mais qu’ils ne pouvaient porter avant la venue de l’Esprit de vérité qui leur enseignerait toute vérité. Pour recevoir et apprendre cette vérité, il est vain d’attendre de la bouche d’un homme ce qu’il n’a pu recevoir ni apprendre des lèvres de la Vérité elle-même. Car, selon l’affirmation de cette vérité, <i>Dieu est Esprit ;</i> et, de même que ceux qui l’adorent doivent nécessairement l’adorer <i>en esprit et en vérité,</i> de même ceux qui désirent le connaître ne doivent chercher que dans l’Esprit Saint l’intelligence de la foi et le sens de cette vérité pure et sans mélange. Parmi les ténèbres et l’ignorance de cette vie, il est lui-même pour les pauvres en esprit la lumière qui éclaire, la charité qui attire, la douceur qui saisit, il est l’accès de l’homme auprès de Dieu, l’amour de celui qui aime, la piété de celui qui se livre sans réserve. C’est lui qui, de conviction en conviction, révèle aux croyants la justice de Dieu ; il donne grâce pour grâce, et à la foi qui s’attache à l’écoute de la Parole, il donne en retour la foi illuminée.",
+        "responsory": "R/ Vivante est la Parole de Dieu<br> plus pénétrante qu’un glaive.</p> <p> Fils d’homme, je t’ai fait sentinelle :<br> de ma part, tu avertiras mon peuple.</p> <p> Fils d’homme, porte-leur ma parole,<br> qu’elle habite en eux avec toute sa richesse.</p>"
+      },
+      {
+        "title": "Actes du II<sup>ème</sup> Concile du Vatican",
+        "subtitle": "La révélation divine",
+        "content": "Dans le Christ Seigneur, toute la Révélation du Dieu Très-Haut trouve son achèvement : la bonne nouvelle annoncée par les Prophètes et accomplie en sa personne, il L’a pro­mulguée de sa bouche et il a donné aux Apôtres l’ordre de la prêcher à tous, comme la source de toute vérité salvatrice et de toute règle morale, en même temps qu’ils communiqueraient les dons de Dieu. Les Apôtres exécutèrent fidèlement cet ordre : par leur prédication, par leur exemple, par les institu­tions qu’ils établirent, ils transmirent ce qu’ils avaient appris de la bouche du Christ, en le voyant vivre et agir et aussi ce que le Saint-Esprit leur suggérait. Eux-mêmes, et d’autres personnes se rattachant à eux, consignèrent également par écrit le message du salut, sous l’inspiration du Saint-Esprit. Mais pour que l’Évangile soit continuellement gardé intact et vivant dans l’Église, les apôtres laissèrent pour leur succéder les évêques auxquels ils confièrent le pou­voir d’enseigner à leur place. ~ La Tradition reçue des Apôtres comprend tout ce qui contribue à conduire saintement le peuple de Dieu ainsi qu’à développer sa foi. C’est ainsi que l’Église, dans sa doctrine, sa vie et son culte, perpétue et transmet à toutes les générations tout ce qu’elle est elle-même, tout ce qu’elle croit. Cette Tradition qui vient des Apôtres progresse dans l’Église, avec l’assistance du Saint-Esprit. En effet, la perception des réalités aussi bien que des paroles transmises s’accroit par la contemplation et la recherche des croyants qui les méditent dans leur cœur ; par l’intelligence profonde des réalités spirituelles qu’ils expérimentent ; enfin par la prédication de ceux qui, avec la transmission de l’épiscopat, ont reçu un charisme assuré de vérité. Autrement dit, l’Église, au cours des siècles, tend constamment vers la plénitude de la vérité divine, jusqu’à ce que les paroles de Dieu trouvent en elle leur achèvement. Les affirmations des Pères attestent la présence vivifiante de cette Tradition, dont les richesses se répandent dans la pratique et la vie de l’Église qui croit et qui prie. Cette même Tradition fait connaître à l’Église le catalogue officiel et complet des Livres Saints. C’est elle qui, dans l’Église, fait comprendre plus profondément la Sainte Écriture et la rend perpétuellement efficace. Ainsi Dieu, qui a parlé jadis, ne cesse de converser avec l’Épouse de son Fils bien-aimé ; l’Esprit Saint, par qui la voix vivante de l’Évangile retentit dans l’Église, et par l’Église dans le monde, introduit les croyants dans la vérité tout entière et fait que la parole du Christ habite en eux avec toute sa richesse.",
+        "responsory": "R/ C’est toi le chemin, la vérité, la vie,<br> Jésus, Fils de Dieu !</p> <p> Qui veut trouver le Père<br> doit passer par toi.</p> <p> Tu nous conduis<br> vers la joie sans déclin.</p>"
+      }
+    ]
   },
   "vespers": {
     "reading": {
-      "ref": "Jc 3, 17-18",
+      "biblicalReference": "Jc 3, 17-18",
       "content": "La sagesse qui vient de Dieu est d’abord droiture, et par suite elle est paix, tolérance, compréhension ; elle est pleine de miséricorde et féconde en bienfaits, sans partialité et sans hypocrisie. C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix."
     },
-    "evangelicAntiphon": "Ô bienheureux N., maître de sagesse et lumière de l’Église, toi qui a cherché les volontés de Dieu, intercède pour nous auprès de lui.",
-    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles,<br> * en récompense de leurs peines.<br> Gloire au Père. R/ La sagesse.<br>"
-  },
-  "commonTitle": "Commun des Docteurs",
-  "liturgicalColor": "white"
+    "responsory": "R/ La sagesse a conduit les saints<br> sur un chemin de merveilles,<br> * en récompense de leurs peines.<br> V/ Le jour, elle fut pour eux un abri<br> et la nuit, une clarté d’étoiles,<br> * en récompense de leurs peines.<br> Gloire au Père. R/ La sagesse.<br>",
+    "evangelicAntiphon": {
+      "common": "Ô bienheureux N., maître de sagesse et lumière de l’Église, toi qui a cherché les volontés de Dieu, intercède pour nous auprès de lui."
+    }
+  }
 }

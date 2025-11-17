@@ -31,6 +31,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_22"
+      },
+      {
+        "psalm": "PSALM_44_1"
+      },
+      {
+        "psalm": "PSALM_44_2"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -53,24 +66,15 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 11",
+      "biblicalReference": "Rm 8, 11",
       "content": "Si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous."
     },
-    "evangelicAntiphon": "Viens, Esprit Saint, remplis le cœur de tes fidèles, allume en eux le feu de ton amour, toi qui as uni dans la même foi toutes les langues de la terre, alléluia.",
-    "intercession": "<p>Prions notre Dieu qui rassemble les hommes dans le Christ, par le don de l’Esprit&nbsp;:</p> <p>R/ Seigneur, envoie ton Esprit.</p> <p>Seigneur du ciel et de la terre,<br> tu veux sauver toute créature par la Pâque de ton Christ,<br> –&nbsp;éclaire les hommes par la grâce de l’Esprit.</p> <p>Toi qui réunis dans une même foi tes enfants dispersés&nbsp;:<br> –&nbsp;accorde aux croyants, par l’unique baptême dans l’Esprit, d’être une seule âme et un seul cœur.</p> <p>Toi qui nous as donné de ton Esprit,<br> –&nbsp;fais-nous travailler en ce monde pour la justice et pour la paix.</p> <p>Toi dont l’Esprit renouvelle toute chose,<br> –&nbsp;sois le recours des faibles, la guérison des malades, le salut pour tous.</p> <p>Toi qui as ressuscité ton Fils d’entre les morts par la puissance de l’Esprit,<br> –&nbsp;donne à nos corps mortels la vie qui n’a pas de fin.</p>",
-    "responsory": "<p>R/ Quand viendra l’Esprit de vérité,<br> il vous enseignera toute chose.<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Il vous guidera vers la vérité tout entière.  * <br> Gloire au Père.&nbsp;R/ Quand viendra.<br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_22"
-      },
-      {
-        "psalm": "PSALM_44_1"
-      },
-      {
-        "psalm": "PSALM_44_2"
-      }
-    ]
+    "responsory": "<p>R/ Quand viendra l’Esprit de vérité,<br> il vous enseignera toute chose.<br>  *  Alléluia, alléluia&nbsp;!<br> V/ Il vous guidera vers la vérité tout entière.  * <br> Gloire au Père.&nbsp;R/ Quand viendra.<br></p>",
+    "evangelicAntiphon": {
+      "common": "Viens, Esprit Saint, remplis le cœur de tes fidèles, allume en eux le feu de ton amour, toi qui as uni dans la même foi toutes les langues de la terre, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Prions notre Dieu qui rassemble les hommes dans le Christ, par le don de l’Esprit&nbsp;:</p> <p>R/ Seigneur, envoie ton Esprit.</p> <p>Seigneur du ciel et de la terre,<br> tu veux sauver toute créature par la Pâque de ton Christ,<br> –&nbsp;éclaire les hommes par la grâce de l’Esprit.</p> <p>Toi qui réunis dans une même foi tes enfants dispersés&nbsp;:<br> –&nbsp;accorde aux croyants, par l’unique baptême dans l’Esprit, d’être une seule âme et un seul cœur.</p> <p>Toi qui nous as donné de ton Esprit,<br> –&nbsp;fais-nous travailler en ce monde pour la justice et pour la paix.</p> <p>Toi dont l’Esprit renouvelle toute chose,<br> –&nbsp;sois le recours des faibles, la guérison des malades, le salut pour tous.</p> <p>Toi qui as ressuscité ton Fils d’entre les morts par la puissance de l’Esprit,<br> –&nbsp;donne à nos corps mortels la vie qui n’a pas de fin.</p>"
+    }
   }
 }

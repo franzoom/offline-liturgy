@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je suis le bon Pasteur, je connais mes brebis, pour elles je donne ma vie. Alléluia.",
-    "intercession": "<p>Bénissons le Père tout-puissant qui nous relève en son Fils&nbsp;!</p> <p>Pour la gloire du Ressuscité qui rayonne sur le monde,</p> <p>R/ Béni sois-tu&nbsp;!</p> <p>Pour la lumière de la foi qui pénètre nos cœurs,</p> <p>Pour l’avenir où tu nous engages avec toi,</p> <p>Pour le chemin de l’éternité ouvert à tous les hommes,</p> <p>Pour l’Esprit répandu sur toutes les nations,</p> <p>Pour l’amour qui transforme le monde,</p> "
+    "evangelicAntiphon": {
+      "common": "Je suis le bon Pasteur, je connais mes brebis, pour elles je donne ma vie. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Bénissons le Père tout-puissant qui nous relève en son Fils&nbsp;!</p> <p>Pour la gloire du Ressuscité qui rayonne sur le monde,</p> <p>R/ Béni sois-tu&nbsp;!</p> <p>Pour la lumière de la foi qui pénètre nos cœurs,</p> <p>Pour l’avenir où tu nous engages avec toi,</p> <p>Pour le chemin de l’éternité ouvert à tous les hommes,</p> <p>Pour l’Esprit répandu sur toutes les nations,</p> <p>Pour l’amour qui transforme le monde,</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -50,37 +54,25 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Les deux bêtes",
-      "ref": "Ap 13, 1-18",
-      "content": "<p>Alors, j’ai vu monter de la mer une Bête ayant dix cornes et sept têtes, avec un diadème sur chacune des dix cornes et, sur les têtes, des noms blasphématoires. Et la Bête que j’ai vue ressemblait à une panthère&nbsp;; ses pattes étaient comme celles d’un ours, et sa gueule, comme celle d’un lion. Le Dragon lui donna sa puissance et son trône, et un grand pouvoir. L’une de ses têtes était comme blessée à mort, mais sa plaie mortelle fut guérie. Émerveillée, la terre entière suivit la Bête, et l’on se prosterna devant le Dragon parce qu’il avait donné le pouvoir à la Bête. Et, devant elle, on se prosterna aussi, en disant&nbsp;: «&nbsp;Qui est comparable à la Bête, et qui peut lui faire la guerre&nbsp;?&nbsp;» Il lui fut donné une bouche qui disait des énormités, des blasphèmes, et il lui fut donné pouvoir d’agir pendant quarante-deux mois. Elle ouvrit la bouche pour proférer des blasphèmes contre Dieu, pour blasphémer contre son nom et sa demeure, contre ceux qui demeurent au ciel. Il lui fut donné de faire la guerre aux saints et de les vaincre, il lui fut donné pouvoir sur toute tribu, peuple, langue et nation. Ils se prosterneront devant elle, tous ceux qui habitent sur la terre, et dont le nom n’est pas inscrit dans le livre de vie de l’Agneau immolé, depuis la fondation du monde. Si quelqu’un a des oreilles, qu’il entende. Si quelqu’un doit aller en captivité, il ira en captivité&nbsp;; si quelqu’un doit être tué par l’épée, il sera tué par l’épée. C’est ici qu’on reconnaît la persévérance et la foi des saints. Puis, j’ai vu monter de la terre une autre Bête&nbsp;; elle avait deux cornes comme un agneau, et elle parlait comme un dragon. Elle exerce tout le pouvoir de la première Bête en sa présence, amenant la terre et tous ceux qui l’habitent à se prosterner devant la première Bête, dont la plaie mortelle a été guérie. Elle produit de grands signes, jusqu’à faire descendre le feu du ciel sur la terre aux yeux des hommes&nbsp;: elle égare les habitants de la terre par les signes qu’il lui a été donné de produire en présence de la Bête&nbsp;; elle dit aux habitants de la terre de dresser une image en l’honneur de la première Bête qui porte une plaie faite par l’épée mais qui a repris vie. Il lui a été donné d’animer l’image de la Bête, au point que cette image se mette à parler, et fasse tuer tous ceux qui ne se prosternent pas devant elle. À tous, petits et grands, riches et pauvres, hommes libres et esclaves, elle fait mettre une marque sur la main droite ou sur le front, afin que personne ne puisse acheter ou vendre, s’il ne porte cette marque-là&nbsp;: le nom de la Bête ou le chiffre de son nom. C’est ici qu’on reconnaît la sagesse. Celui qui a l’intelligence, qu’il se mette à calculer le chiffre de la Bête, car c’est un chiffre d’homme, et ce chiffre est six cent soixante-six.</p>",
-      "responsory": "<p>R/ À toi seul, Fils du vrai Dieu,<br> la gloire et la louange, alléluia.</p> <p>Qui se déclarera pour moi devant les hommes,<br> je me déclarerai pour lui devant mon Père.</p> <p>Qui aura tenu bon jusqu’à la fin,<br> je lui donnerai la vie éternelle.</p>"
-    },
-    "patristicReading": {
-      "title": "TRAITÉ DE SAINT BASILE SUR LE SAINT-ESPRIT",
-      "subtitle": "«&nbsp;Renaître de l’eau et de l’Esprit&nbsp;»",
-      "content": "<p>Le Seigneur, qui nous dispense la vie, a établi une alliance avec nous, le baptême, qui comporte une figure de la mort et une figure de la vie&nbsp;; l’image de la mort est accomplie par l’eau&nbsp;; et quant à la vie, c’est l’Esprit qui nous en fournit le premier don. Ainsi apparaît en pleine lumière l’objet de notre recherche&nbsp;: pourquoi l’eau est-elle jointe à l’Esprit&nbsp;? C’est que le baptême vise un double but&nbsp;: <i>réduire à l’impuissance l’être de péché</i> afin de ne plus <i>porter des fruits pour la mort&nbsp;;</i> mais aussi vivre de l’Esprit et <i>porter des fruits qui conduisent à la sanctification</i>. L’eau offre l’image de la mort en recevant le corps comme dans un tombeau&nbsp;; l’Esprit infuse la force vivifiante en renouvelant nos âmes, qu’il fait passer de la mort du péché à la vie originelle. C’est donc cela, <i>renaître de l’eau et de l’Esprit</i>&nbsp;: la mort s’accomplit dans l’eau, et c’est l’Esprit qui produit notre vie. C’est en trois immersions avec autant d’invocations que s’accomplit le grand mystère du baptême, afin que soit représentée la figure de la mort et que l’âme des baptisés soit illuminée par la communication de la connaissance de Dieu. Aussi bien, s’il y a dans l’eau une grâce, elle ne vient pas de la nature de l’eau, mais de la présence de l’Esprit. Car <i>le baptême n’est pas la suppression d’une souillure extérieure, mais l’engagement envers Dieu d’une conscience droite</i>. C’est donc pour nous préparer à la vie de ressuscités que le Seigneur nous propose de vivre selon l’Évangile, lorsqu’il nous prescrit de renoncer à la colère, de supporter le mal avec patience, de nous détacher des plaisirs, de ne pas désirer la richesse. Ainsi nous fait-il suivre la voie droite, lorsque nous adoptons à l’avance, par libre choix, ce que nous posséderons comme naturellement dans cette vie future. ~ C’est par l’Esprit Saint que se fait la réintégration au paradis, la montée vers le royaume des cieux, le retour à la vie des fils adoptifs. Par lui nous avons l’audace d’appeler Dieu notre Père&nbsp;; il nous donne d’être en communion avec la grâce du Christ, de nous nommer fils de lumière, de participer à la gloire éternelle et, pour tout dire en un mot, d’être comblés de toute bénédiction dans ce siècle et dans le siècle à venir&nbsp;; de voir dans un miroir, comme s’ils étaient déjà présents, la grâce des biens promis, dont la foi nous fait attendre la jouissance. Car si le premier don est aussi riche, qu’en sera-t-il du versement complet&nbsp;? Et si les prémices sont aussi belles, qu’en sera-t-il de la plénitude totale&nbsp;?</p>",
-      "responsory": "<p> Le monde s’ouvre à la vie, Stance<br> l’homme reçoit l’Esprit.<br> Au souffle du Très-Haut,<br> se lève un peuple nouveau<br> de toute race, langue et frontière,</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p> <p> C’est dans l’Esprit Saint<br> que vous serez baptisés&nbsp;:</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p>"
-    },
-    "oration": "Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte&nbsp;: tu les as tirés de l’esclavage du péché&nbsp;; fais-leur connaître le bonheur impérissable."
-  },
-  "vespers": {
-    "psalmody": [
+    "biblicalReading": [
       {
-        "psalm": "PSALM_135_1",
-        "antiphon": [
-          "Dieu nous sauve de la main de l’oppresseur, alléluia."
-        ]
-      },
-      {
-        "psalm": "PSALM_135_2"
-      },
-      {
-        "psalm": "NT_4"
+        "title": "Les deux bêtes",
+        "ref": "Ap 13, 1-18",
+        "content": "<p>Alors, j’ai vu monter de la mer une Bête ayant dix cornes et sept têtes, avec un diadème sur chacune des dix cornes et, sur les têtes, des noms blasphématoires. Et la Bête que j’ai vue ressemblait à une panthère&nbsp;; ses pattes étaient comme celles d’un ours, et sa gueule, comme celle d’un lion. Le Dragon lui donna sa puissance et son trône, et un grand pouvoir. L’une de ses têtes était comme blessée à mort, mais sa plaie mortelle fut guérie. Émerveillée, la terre entière suivit la Bête, et l’on se prosterna devant le Dragon parce qu’il avait donné le pouvoir à la Bête. Et, devant elle, on se prosterna aussi, en disant&nbsp;: «&nbsp;Qui est comparable à la Bête, et qui peut lui faire la guerre&nbsp;?&nbsp;» Il lui fut donné une bouche qui disait des énormités, des blasphèmes, et il lui fut donné pouvoir d’agir pendant quarante-deux mois. Elle ouvrit la bouche pour proférer des blasphèmes contre Dieu, pour blasphémer contre son nom et sa demeure, contre ceux qui demeurent au ciel. Il lui fut donné de faire la guerre aux saints et de les vaincre, il lui fut donné pouvoir sur toute tribu, peuple, langue et nation. Ils se prosterneront devant elle, tous ceux qui habitent sur la terre, et dont le nom n’est pas inscrit dans le livre de vie de l’Agneau immolé, depuis la fondation du monde. Si quelqu’un a des oreilles, qu’il entende. Si quelqu’un doit aller en captivité, il ira en captivité&nbsp;; si quelqu’un doit être tué par l’épée, il sera tué par l’épée. C’est ici qu’on reconnaît la persévérance et la foi des saints. Puis, j’ai vu monter de la terre une autre Bête&nbsp;; elle avait deux cornes comme un agneau, et elle parlait comme un dragon. Elle exerce tout le pouvoir de la première Bête en sa présence, amenant la terre et tous ceux qui l’habitent à se prosterner devant la première Bête, dont la plaie mortelle a été guérie. Elle produit de grands signes, jusqu’à faire descendre le feu du ciel sur la terre aux yeux des hommes&nbsp;: elle égare les habitants de la terre par les signes qu’il lui a été donné de produire en présence de la Bête&nbsp;; elle dit aux habitants de la terre de dresser une image en l’honneur de la première Bête qui porte une plaie faite par l’épée mais qui a repris vie. Il lui a été donné d’animer l’image de la Bête, au point que cette image se mette à parler, et fasse tuer tous ceux qui ne se prosternent pas devant elle. À tous, petits et grands, riches et pauvres, hommes libres et esclaves, elle fait mettre une marque sur la main droite ou sur le front, afin que personne ne puisse acheter ou vendre, s’il ne porte cette marque-là&nbsp;: le nom de la Bête ou le chiffre de son nom. C’est ici qu’on reconnaît la sagesse. Celui qui a l’intelligence, qu’il se mette à calculer le chiffre de la Bête, car c’est un chiffre d’homme, et ce chiffre est six cent soixante-six.</p>",
+        "responsory": "<p>R/ À toi seul, Fils du vrai Dieu,<br> la gloire et la louange, alléluia.</p> <p>Qui se déclarera pour moi devant les hommes,<br> je me déclarerai pour lui devant mon Père.</p> <p>Qui aura tenu bon jusqu’à la fin,<br> je lui donnerai la vie éternelle.</p>"
       }
     ],
-    "evangelicAntiphon": "Les brebis qui ne sont pas de cet enclos écouteront ma voix. Il y aura un seul troupeau, un seul Pasteur. Alléluia.",
-    "intercession": "<p>Seigneur Jésus, tu accompagnais sur la route les disciples qui doutaient&nbsp;:<br> –&nbsp;soutiens l’Église dans sa marche, reste avec elle quand vient le soir.</p> <p>R/ Reste avec nous, Seigneur Jésus.</p> <p>Souviens-toi que nous sommes sans intelligence et lents à croire&nbsp;:<br> –&nbsp;augmente la foi de ton Église.</p> <p>Regarde avec bonté ceux qui marchent sans te reconnaître&nbsp;:<br> –&nbsp;manifeste-toi pour qu’ils découvrent leur Sauveur.</p> <p>Tu as tout réconcilié par ta croix&nbsp;:<br> –&nbsp;rassemble les nations dans l’unité de ton Corps.</p> <p>Toi, le juge des vivants et des morts,<br> –&nbsp;accorde ton pardon à ceux qui t’ont donné leur foi.</p> "
+    "patristicReading": [
+      {
+        "title": "TRAITÉ DE SAINT BASILE SUR LE SAINT-ESPRIT",
+        "subtitle": "«&nbsp;Renaître de l’eau et de l’Esprit&nbsp;»",
+        "content": "<p>Le Seigneur, qui nous dispense la vie, a établi une alliance avec nous, le baptême, qui comporte une figure de la mort et une figure de la vie&nbsp;; l’image de la mort est accomplie par l’eau&nbsp;; et quant à la vie, c’est l’Esprit qui nous en fournit le premier don. Ainsi apparaît en pleine lumière l’objet de notre recherche&nbsp;: pourquoi l’eau est-elle jointe à l’Esprit&nbsp;? C’est que le baptême vise un double but&nbsp;: <i>réduire à l’impuissance l’être de péché</i> afin de ne plus <i>porter des fruits pour la mort&nbsp;;</i> mais aussi vivre de l’Esprit et <i>porter des fruits qui conduisent à la sanctification</i>. L’eau offre l’image de la mort en recevant le corps comme dans un tombeau&nbsp;; l’Esprit infuse la force vivifiante en renouvelant nos âmes, qu’il fait passer de la mort du péché à la vie originelle. C’est donc cela, <i>renaître de l’eau et de l’Esprit</i>&nbsp;: la mort s’accomplit dans l’eau, et c’est l’Esprit qui produit notre vie. C’est en trois immersions avec autant d’invocations que s’accomplit le grand mystère du baptême, afin que soit représentée la figure de la mort et que l’âme des baptisés soit illuminée par la communication de la connaissance de Dieu. Aussi bien, s’il y a dans l’eau une grâce, elle ne vient pas de la nature de l’eau, mais de la présence de l’Esprit. Car <i>le baptême n’est pas la suppression d’une souillure extérieure, mais l’engagement envers Dieu d’une conscience droite</i>. C’est donc pour nous préparer à la vie de ressuscités que le Seigneur nous propose de vivre selon l’Évangile, lorsqu’il nous prescrit de renoncer à la colère, de supporter le mal avec patience, de nous détacher des plaisirs, de ne pas désirer la richesse. Ainsi nous fait-il suivre la voie droite, lorsque nous adoptons à l’avance, par libre choix, ce que nous posséderons comme naturellement dans cette vie future. ~ C’est par l’Esprit Saint que se fait la réintégration au paradis, la montée vers le royaume des cieux, le retour à la vie des fils adoptifs. Par lui nous avons l’audace d’appeler Dieu notre Père&nbsp;; il nous donne d’être en communion avec la grâce du Christ, de nous nommer fils de lumière, de participer à la gloire éternelle et, pour tout dire en un mot, d’être comblés de toute bénédiction dans ce siècle et dans le siècle à venir&nbsp;; de voir dans un miroir, comme s’ils étaient déjà présents, la grâce des biens promis, dont la foi nous fait attendre la jouissance. Car si le premier don est aussi riche, qu’en sera-t-il du versement complet&nbsp;? Et si les prémices sont aussi belles, qu’en sera-t-il de la plénitude totale&nbsp;?</p>",
+        "responsory": "<p> Le monde s’ouvre à la vie, Stance<br> l’homme reçoit l’Esprit.<br> Au souffle du Très-Haut,<br> se lève un peuple nouveau<br> de toute race, langue et frontière,</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p> <p> C’est dans l’Esprit Saint<br> que vous serez baptisés&nbsp;:</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p>"
+      }
+    ],
+    "oration": [
+      "Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte&nbsp;: tu les as tirés de l’esclavage du péché&nbsp;; fais-leur connaître le bonheur impérissable."
+    ]
   },
   "middleOfDay": {
     "psalmody": [
@@ -97,5 +89,27 @@
         "psalm": "PSALM_119"
       }
     ]
+  },
+  "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_135_1",
+        "antiphon": [
+          "Dieu nous sauve de la main de l’oppresseur, alléluia."
+        ]
+      },
+      {
+        "psalm": "PSALM_135_2"
+      },
+      {
+        "psalm": "NT_4"
+      }
+    ],
+    "evangelicAntiphon": {
+      "common": "Les brebis qui ne sont pas de cet enclos écouteront ma voix. Il y aura un seul troupeau, un seul Pasteur. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu accompagnais sur la route les disciples qui doutaient&nbsp;:<br> –&nbsp;soutiens l’Église dans sa marche, reste avec elle quand vient le soir.</p> <p>R/ Reste avec nous, Seigneur Jésus.</p> <p>Souviens-toi que nous sommes sans intelligence et lents à croire&nbsp;:<br> –&nbsp;augmente la foi de ton Église.</p> <p>Regarde avec bonté ceux qui marchent sans te reconnaître&nbsp;:<br> –&nbsp;manifeste-toi pour qu’ils découvrent leur Sauveur.</p> <p>Tu as tout réconcilié par ta croix&nbsp;:<br> –&nbsp;rassemble les nations dans l’unité de ton Corps.</p> <p>Toi, le juge des vivants et des morts,<br> –&nbsp;accorde ton pardon à ceux qui t’ont donné leur foi.</p> "
+    }
   }
 }

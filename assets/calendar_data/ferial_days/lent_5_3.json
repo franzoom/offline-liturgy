@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Is 50, 5-7",
+      "biblicalReference": "Is 50, 5-7",
       "content": "Le Seigneur Dieu m’a ouvert l’oreille, et moi, je ne me suis pas révolté, je ne me suis pas dérobé. J’ai présenté mon dos à ceux qui me frappaient, et mes joues à ceux qui m’arrachaient la barbe. Je n’ai pas protégé mon visage des outrages et des crachats. Le Seigneur Dieu vient à mon secours&nbsp;: c’est pourquoi je ne suis pas atteint par les outrages, c’est pourquoi j’ai rendu mon visage dur comme pierre&nbsp;: je sais que je ne serai pas confondu."
     },
-    "evangelicAntiphon": "Vous êtes vraiment mes disciples si vous demeurez dans ma parole.",
-    "intercession": "<p>Seigneur Dieu, tu veux que l’homme devienne créature nouvelle dans le Christ&nbsp;; nous t’invoquons avec persévérance&nbsp;:</p> <p>R/ Par ton Esprit, renouvelle nos cœurs.</p> <p>Tu nous promets un ciel nouveau et une terre nouvelle&nbsp;:<br> accorde-nous la grâce de travailler à cet avènement.</p> <p>Tu nous appelles à fixer nos regards sur les réalités d’en haut&nbsp;:<br> maîtrise nos avidités, purifie notre désir.</p> <p>Tu nous révèles l’unique nécessaire&nbsp;:<br> ne permets pas que la dispersion nous aveugle.</p> <p>Tu nous as donné ton Esprit afin qu’il agisse en nous&nbsp;:<br> fais qu’il nous porte au combat pour la justice et la vérité.</p> ",
     "responsory": "<p>R/ Comme un agneau que l’on mène à l’abattoir,<br> il n’ouvre pas la bouche.<br>  * Qui donc a eu souci de son destin&nbsp;?<br> V/ Frappé à cause des péchés de son peuple, <br>il a été supprimé. * <br> V/ Broyé par la souffrance, <br>il a plu au Seigneur. * <br></p>",
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    "evangelicAntiphon": {
+      "common": "Vous êtes vraiment mes disciples si vous demeurez dans ma parole."
+    },
+    "intercession": {
+      "content": "<p>Seigneur Dieu, tu veux que l’homme devienne créature nouvelle dans le Christ&nbsp;; nous t’invoquons avec persévérance&nbsp;:</p> <p>R/ Par ton Esprit, renouvelle nos cœurs.</p> <p>Tu nous promets un ciel nouveau et une terre nouvelle&nbsp;:<br> accorde-nous la grâce de travailler à cet avènement.</p> <p>Tu nous appelles à fixer nos regards sur les réalités d’en haut&nbsp;:<br> maîtrise nos avidités, purifie notre désir.</p> <p>Tu nous révèles l’unique nécessaire&nbsp;:<br> ne permets pas que la dispersion nous aveugle.</p> <p>Tu nous as donné ton Esprit afin qu’il agisse en nous&nbsp;:<br> fais qu’il nous porte au combat pour la justice et la vérité.</p> "
+    },
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Promesse de Dieu, notre espérance",
-      "ref": "He 6, 9-20",
-      "content": "<p>En ce qui vous concerne, mes bien-aimés, et malgré ce que nous venons de dire, nous sommes convaincus que vous êtes dans la meilleure de ces situations, celle qui est liée au salut. Car Dieu n’est pas injuste&nbsp;: il n’oublie pas votre action ni l’amour que vous avez manifesté à son égard, en vous mettant au service des fidèles et en vous y tenant. Notre désir est que chacun d’entre vous manifeste le même empressement jusqu’à la fin, pour que votre espérance se réalise pleinement&nbsp;; ne devenez pas paresseux, imitez plutôt ceux qui, par la foi et la persévérance, obtiennent l’héritage promis. Quand Dieu fit la promesse à Abraham, comme il ne pouvait prêter serment par quelqu’un de plus grand que lui, il prêta serment par lui-même, et il dit&nbsp;: <i>Je te comblerai de bénédictions et je multiplierai ta descendance .</i> Et ainsi, par sa persévérance, Abraham a obtenu ce que Dieu lui avait promis. Les hommes prêtent serment par un plus grand qu’eux, et le serment est entre eux une garantie qui met fin à toute discussion&nbsp;; Dieu a donc pris le moyen du serment quand il a voulu montrer aux héritiers de la promesse, de manière encore plus claire, que sa décision était irrévocable. Dieu s’est ainsi engagé doublement de façon irrévocable, et il est impossible que Dieu ait menti. Cela nous encourage fortement, nous qui avons cherché refuge dans l’espérance qui nous était proposée et que nous avons saisie. Cette espérance, nous la tenons comme une ancre sûre et solide pour l’âme&nbsp;; elle entre au-delà du rideau, dans le Sanctuaire où Jésus est entré pour nous en précurseur, lui qui est devenu <i>grand prêtre de l’ordre de Melkisédek pour l’éternité</i>.</p>",
-      "responsory": "<p>R/ Jésus toujours vivant,<br> intercède pour nous auprès du Père.</p> <p>Imitons ceux qui reçoivent,<br> par la persévérance et la foi,<br> l’héritage des promesses.</p> <p>L’ancre de notre espérance,<br> c’est le Christ auprès du Père.</p>"
-    },
-    "patristicReading": {
-      "title": "COMMENTAIRE DE SAINT AUGUSTIN SUR LE PSAUME 85",
-      "subtitle": "Jésus, Dieu avec Dieu, homme avec les hommes",
-      "content": "<p>Dieu ne pouvait pas faire de plus grand don aux hommes que d’établir le Verbe, par qui il a tout créé, comme leur tête, et de les relier à lui comme des membres, pour qu’il soit Fils de Dieu et fils d’homme, un seul Dieu avec le Père, un seul homme avec les hommes. C’est au point que lorsque nous parlons à Dieu dans la prière, nous ne séparons pas son Fils de lui&nbsp;; lorsque le corps du Fils est en prière, il ne se sépare pas de sa tête. Notre Seigneur Jésus Christ, Fils de Dieu, est seul <i>le Sauveur de son corps</i>, lui qui prie pour nous, et qui prie en nous, et qui est prié par nous. Il prie pour nous comme notre prêtre il prie en nous comme notre tête&nbsp;; il est prié par nous comme notre Dieu. Reconnaissons donc notre voix en lui, et sa voix en nous. Et lorsqu’il est dit, au sujet du Seigneur Jésus Christ, surtout dans les prophéties, une parole qui concerne une bassesse indigne de Dieu, n’hésitons pas à la lui attribuer, puisqu’il n’a pas hésité à s’unir à nous. Toute la création est à son service, parce que toute la création est son œuvre. Nous considérons sa souveraineté et sa divinité quand nous entendons dire&nbsp;: <i>Au commencement était le Verbe, et le Verbe était avec Dieu, et le Verbe était Dieu. Il était au commencement avec Dieu. Par lui tout s’est fait, et sans lui rien ne s’est fait</i>. Alors nous contemplons cette divinité du Fils de Dieu qui surpasse et dépasse infiniment ce qu’il y a de plus haut chez les créatures. Mais d’autres endroits des Écritures nous le font voir en train de gémir, de prier, de rendre grâce. Alors nous hésitons à lui rapporter ces paroles, parce que notre pensée, qui vient de contempler sa divinité, répugne à descendre jusqu’à sa bassesse. Il nous semble que c’est lui faire injure que de reconnaître ces paroles qui concernent l’homme chez celui auquel on adressait d’autres paroles lorsqu’on priait Dieu. On est embarrassé bien souvent, on essaie de changer le sens de ces mots&nbsp;; on ne trouve rien dans l’Écriture qui ne nous invite à revenir à lui et ne nous interdise de nous écarter de lui. Il faut donc s’éveiller, demeurer vigilant dans sa foi, et découvrir celui que l’on contemplait peu de temps auparavant <i>dans la condition de Dieu</i>, comme ayant <i>pris la condition de serviteur. Devenu semblable aux hommes et reconnu comme un homme à son comportement, il s’est abaissé lui-même en devenant obéissant jusqu ’à mourir.</i> Et lorsqu’il était attaché à la croix, il a voulu s’approprier les paroles du psaume en disant&nbsp;: <i>Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné&nbsp;?<br> </i><br> Dans sa condition de Dieu, il reçoit notre prière, et dans la condition de serviteur, il prie. Là, il est le créateur, ici il est créé. Sans subir lui-même de changement, il assume la créature pour la changer, il fait de nous un seul homme avec lui, tête et corps. Nous prions donc vers lui, par lui, en lui, nous parlons avec lui et il parle avec nous.</p>",
-      "responsory": "<p>R/ Seigneur Jésus, enseigne-nous à prier.</p> <p>Pleine de force,<br> la supplication fervente du juste.</p> <p>Tout ce que vous demanderez en mon nom,<br> mon Père vous l’accordera.</p> <p>Demandez et vous recevrez&nbsp;;<br> parfaite alors sera votre joie.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Promesse de Dieu, notre espérance",
+        "ref": "He 6, 9-20",
+        "content": "<p>En ce qui vous concerne, mes bien-aimés, et malgré ce que nous venons de dire, nous sommes convaincus que vous êtes dans la meilleure de ces situations, celle qui est liée au salut. Car Dieu n’est pas injuste&nbsp;: il n’oublie pas votre action ni l’amour que vous avez manifesté à son égard, en vous mettant au service des fidèles et en vous y tenant. Notre désir est que chacun d’entre vous manifeste le même empressement jusqu’à la fin, pour que votre espérance se réalise pleinement&nbsp;; ne devenez pas paresseux, imitez plutôt ceux qui, par la foi et la persévérance, obtiennent l’héritage promis. Quand Dieu fit la promesse à Abraham, comme il ne pouvait prêter serment par quelqu’un de plus grand que lui, il prêta serment par lui-même, et il dit&nbsp;: <i>Je te comblerai de bénédictions et je multiplierai ta descendance .</i> Et ainsi, par sa persévérance, Abraham a obtenu ce que Dieu lui avait promis. Les hommes prêtent serment par un plus grand qu’eux, et le serment est entre eux une garantie qui met fin à toute discussion&nbsp;; Dieu a donc pris le moyen du serment quand il a voulu montrer aux héritiers de la promesse, de manière encore plus claire, que sa décision était irrévocable. Dieu s’est ainsi engagé doublement de façon irrévocable, et il est impossible que Dieu ait menti. Cela nous encourage fortement, nous qui avons cherché refuge dans l’espérance qui nous était proposée et que nous avons saisie. Cette espérance, nous la tenons comme une ancre sûre et solide pour l’âme&nbsp;; elle entre au-delà du rideau, dans le Sanctuaire où Jésus est entré pour nous en précurseur, lui qui est devenu <i>grand prêtre de l’ordre de Melkisédek pour l’éternité</i>.</p>",
+        "responsory": "<p>R/ Jésus toujours vivant,<br> intercède pour nous auprès du Père.</p> <p>Imitons ceux qui reçoivent,<br> par la persévérance et la foi,<br> l’héritage des promesses.</p> <p>L’ancre de notre espérance,<br> c’est le Christ auprès du Père.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "COMMENTAIRE DE SAINT AUGUSTIN SUR LE PSAUME 85",
+        "subtitle": "Jésus, Dieu avec Dieu, homme avec les hommes",
+        "content": "<p>Dieu ne pouvait pas faire de plus grand don aux hommes que d’établir le Verbe, par qui il a tout créé, comme leur tête, et de les relier à lui comme des membres, pour qu’il soit Fils de Dieu et fils d’homme, un seul Dieu avec le Père, un seul homme avec les hommes. C’est au point que lorsque nous parlons à Dieu dans la prière, nous ne séparons pas son Fils de lui&nbsp;; lorsque le corps du Fils est en prière, il ne se sépare pas de sa tête. Notre Seigneur Jésus Christ, Fils de Dieu, est seul <i>le Sauveur de son corps</i>, lui qui prie pour nous, et qui prie en nous, et qui est prié par nous. Il prie pour nous comme notre prêtre il prie en nous comme notre tête&nbsp;; il est prié par nous comme notre Dieu. Reconnaissons donc notre voix en lui, et sa voix en nous. Et lorsqu’il est dit, au sujet du Seigneur Jésus Christ, surtout dans les prophéties, une parole qui concerne une bassesse indigne de Dieu, n’hésitons pas à la lui attribuer, puisqu’il n’a pas hésité à s’unir à nous. Toute la création est à son service, parce que toute la création est son œuvre. Nous considérons sa souveraineté et sa divinité quand nous entendons dire&nbsp;: <i>Au commencement était le Verbe, et le Verbe était avec Dieu, et le Verbe était Dieu. Il était au commencement avec Dieu. Par lui tout s’est fait, et sans lui rien ne s’est fait</i>. Alors nous contemplons cette divinité du Fils de Dieu qui surpasse et dépasse infiniment ce qu’il y a de plus haut chez les créatures. Mais d’autres endroits des Écritures nous le font voir en train de gémir, de prier, de rendre grâce. Alors nous hésitons à lui rapporter ces paroles, parce que notre pensée, qui vient de contempler sa divinité, répugne à descendre jusqu’à sa bassesse. Il nous semble que c’est lui faire injure que de reconnaître ces paroles qui concernent l’homme chez celui auquel on adressait d’autres paroles lorsqu’on priait Dieu. On est embarrassé bien souvent, on essaie de changer le sens de ces mots&nbsp;; on ne trouve rien dans l’Écriture qui ne nous invite à revenir à lui et ne nous interdise de nous écarter de lui. Il faut donc s’éveiller, demeurer vigilant dans sa foi, et découvrir celui que l’on contemplait peu de temps auparavant <i>dans la condition de Dieu</i>, comme ayant <i>pris la condition de serviteur. Devenu semblable aux hommes et reconnu comme un homme à son comportement, il s’est abaissé lui-même en devenant obéissant jusqu ’à mourir.</i> Et lorsqu’il était attaché à la croix, il a voulu s’approprier les paroles du psaume en disant&nbsp;: <i>Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné&nbsp;?<br> </i><br> Dans sa condition de Dieu, il reçoit notre prière, et dans la condition de serviteur, il prie. Là, il est le créateur, ici il est créé. Sans subir lui-même de changement, il assume la créature pour la changer, il fait de nous un seul homme avec lui, tête et corps. Nous prions donc vers lui, par lui, en lui, nous parlons avec lui et il parle avec nous.</p>",
+        "responsory": "<p>R/ Seigneur Jésus, enseigne-nous à prier.</p> <p>Pleine de force,<br> la supplication fervente du juste.</p> <p>Tout ce que vous demanderez en mon nom,<br> mon Père vous l’accordera.</p> <p>Demandez et vous recevrez&nbsp;;<br> parfaite alors sera votre joie.</p>"
+      }
+    ],
     "verse": "<p>V/ Convertissez-vous et faites pénitence,<br>faites-vous un cœur et un esprit nouveau.</p>",
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_2",
+        "antiphon": [
+          "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
+        ]
+      },
+      {
+        "psalm": "PSALM_16_1"
+      },
+      {
+        "psalm": "PSALM_16_2"
+      }
+    ],
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "Ep 4, 32 - 5,2",
+      "biblicalReference": "Ep 4, 32 - 5,2",
       "content": "Soyez entre vous pleins de générosité et de ten­dresse. Pardonnez-vous les uns aux autres comme Dieu vous a pardonné dans le Christ. Oui, cherchez à imiter Dieu puisque vous êtes ses enfants bien-aimés. Vivez dans l’amour comme le Christ nous a aimés et s’est livré pour nous en offrant à Dieu le sacrifice qui pouvait lui plaire."
     },
-    "evangelicAntiphon": "Pourquoi cherchez-vous à me tuer, moi qui vous ai dit la vérité&nbsp;?",
-    "intercession": "<p>Par notre baptême, Seigneur Dieu, tu nous as fait revêtir l’homme nouveau&nbsp;: renouvelle notre regard dans la contemplation de ton visage.</p> <p>R/ En toi la source de la vie&nbsp;!</p> <p>Donne-nous des yeux pour te voir en nos frères et en nous.</p> <p>Affermis en nos cœurs la douceur et la patience.</p> <p>Que nos œuvres témoignent de toi.</p> <p>Apprends-nous à pardonner comme tu pardonnes.</p> <p>Que nous te rendions grâce pour ta miséricorde.</p> <p>Établis le monde dans la paix du Christ.</p> <p>Révèle à nos défunts ton visage de lumière.</p>",
     "responsory": "<p>R/ Il n’est pas de plus grand amour<br> que de donner sa vie pour ceux qu’on aime.<br> V/ Ma vie, nul ne la prend&nbsp;;<br> c’est moi qui la donne.&nbsp;R/ <br> V/ Faites entre vous<br> comme j’ai fait pour vous.&nbsp;R/ <br></p>",
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_2",
-        "antiphon": [
-          "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
-        ]
-      },
-      {
-        "psalm": "PSALM_16_1"
-      },
-      {
-        "psalm": "PSALM_16_2"
-      }
-    ],
-    "oration": "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    "evangelicAntiphon": {
+      "common": "Pourquoi cherchez-vous à me tuer, moi qui vous ai dit la vérité&nbsp;?"
+    },
+    "intercession": {
+      "content": "<p>Par notre baptême, Seigneur Dieu, tu nous as fait revêtir l’homme nouveau&nbsp;: renouvelle notre regard dans la contemplation de ton visage.</p> <p>R/ En toi la source de la vie&nbsp;!</p> <p>Donne-nous des yeux pour te voir en nos frères et en nous.</p> <p>Affermis en nos cœurs la douceur et la patience.</p> <p>Que nos œuvres témoignent de toi.</p> <p>Apprends-nous à pardonner comme tu pardonnes.</p> <p>Que nous te rendions grâce pour ta miséricorde.</p> <p>Établis le monde dans la paix du Christ.</p> <p>Révèle à nos défunts ton visage de lumière.</p>"
+    },
+    "oration": [
+      "Dieu très bon, éclaire le cœur de tes fidèles qui se purifient dans la pénitence&nbsp;; toi qui nous as donné le goût de te servir, ne reste pas sourd à notre prière."
+    ]
   }
 }

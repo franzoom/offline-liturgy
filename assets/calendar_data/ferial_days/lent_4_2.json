@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Jl 2, 12-13",
+      "biblicalReference": "Jl 2, 12-13",
       "content": "Revenez à moi de tout votre cœur, dans le jeûne, les larmes et le deuil&nbsp;! Déchirez vos cœurs et non pas vos vêtements, et revenez au Seigneur votre Dieu, car il est tendre et miséricordieux, lent à la colère et plein d’amour, renonçant au châtiment."
     },
-    "evangelicAntiphon": "Celui qui m’a guéri m’a dit de prendre mon brancard et de marcher.",
-    "intercession": "<p>R/ Entends le cri des hommes monter vers toi, Seigneur.</p> <p>Écoute ceux qui souffrent dans leur corps ou leur esprit, ceux qui ont perdu toute espérance.</p> <p>Soutiens ceux qui partagent la détresse de leurs frères et s’efforcent de servir.</p> <p>Regarde ceux qui luttent pour le respect des personnes et les droits du pauvre.</p> <p>Travaille avec les artisans de paix qui préparent la venue de ton Règne.</p> ",
     "responsory": "<p>R/ Guéris-moi, Dieu très saint,<br>  * Car j’ai péché contre toi.<br> V/ Prends pitié de moi, relève-moi. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    "evangelicAntiphon": {
+      "common": "Celui qui m’a guéri m’a dit de prendre mon brancard et de marcher."
+    },
+    "intercession": {
+      "content": "<p>R/ Entends le cri des hommes monter vers toi, Seigneur.</p> <p>Écoute ceux qui souffrent dans leur corps ou leur esprit, ceux qui ont perdu toute espérance.</p> <p>Soutiens ceux qui partagent la détresse de leurs frères et s’efforcent de servir.</p> <p>Regarde ceux qui luttent pour le respect des personnes et les droits du pauvre.</p> <p>Travaille avec les artisans de paix qui préparent la venue de ton Règne.</p> "
+    },
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Soyez saints, parce que je suis Saint",
-      "ref": "Lv 19, 1-18.31-37",
-      "content": "<p>Le SEIGNEUR parla à Moïse et dit&nbsp;: «&nbsp;Parle à toute l’assemblée des fils d’Israël. Tu leur diras&nbsp;: Soyez saints, car moi, le SEIGNEUR votre Dieu, je suis saint. Chacun de vous respectera sa mère et son père, et observera mes sabbats. Je suis le SEIGNEUR votre Dieu. Ne vous tournez pas vers les idoles, ne vous faites pas des dieux en métal fondu. Je suis le SEIGNEUR votre Dieu. Quand vous faites un sacrifice de paix pour le SEIGNEUR, faites ce sacrifice de manière à être agréés. On le mangera le jour même et le lendemain&nbsp;; ce qui en restera le troisième jour sera brûlé au feu. Si on le mangeait le troisième jour, ce serait une viande immonde qui ne saurait être agréée. Celui qui en mangera portera le poids de son péché, car il aura profané ce qui a été consacré au SEIGNEUR&nbsp;: cet individu sera retranché de son peuple. Lorsque vous moissonnerez vos terres, tu ne moissonneras pas jusqu’à la lisière du champ. Tu ne ramasseras pas les glanures de ta moisson, tu ne grappilleras pas dans ta vigne, tu ne ramasseras pas les fruits tombés dans ta vigne&nbsp;: tu les laisseras au pauvre et à l’immigré. Je suis le SEIGNEUR votre Dieu. Vous ne volerez pas, vous ne mentirez pas, vous ne tromperez aucun de vos compatriotes. Vous ne ferez pas de faux serments par mon nom&nbsp;: tu profanerais le nom de ton Dieu. Je suis le SEIGNEUR. Tu n’exploiteras pas ton prochain, tu ne le dépouilleras pas&nbsp;: tu ne retiendras pas jusqu’au matin la paye du salarié. Tu ne maudiras pas un sourd, tu ne mettras pas d’obstacle devant un aveugle&nbsp;: tu craindras ton Dieu. Je suis le SEIGNEUR. Quand vous siégerez au tribunal, vous ne commettrez pas d’injustice&nbsp;; tu n’avantageras pas le faible, tu ne favoriseras pas le puissant&nbsp;: tu jugeras ton compatriote avec justice. Tu ne répandras pas de calomnies contre quelqu’un de ton peuple, tu ne réclameras pas la mort de ton prochain. Je suis le SEIGNEUR. Tu ne haïras pas ton frère dans ton cœur. Mais tu devras réprimander ton compatriote, et tu ne toléreras pas la faute qui est en lui. Tu ne te vengeras pas. Tu ne garderas pas de rancune contre les fils de ton peuple. Tu aimeras ton prochain comme toi-même. Je suis le SEIGNEUR. N’interrogez pas les nécromanciens et ne consultez pas les voyants&nbsp;: ils vous rendraient impurs. Je suis le SEIGNEUR votre Dieu. Tu te lèveras devant des cheveux blancs, tu honoreras la personne du vieillard et tu craindras ton Dieu. Je suis le SEIGNEUR. Quand un immigré résidera avec vous dans votre pays, vous ne l’exploiterez pas. L’immigré qui réside avec vous sera parmi vous comme un Israélite de souche, et tu l’aimeras comme toi-même, car vous-mêmes avez été immigrés au pays d’Égypte. Je suis le SEIGNEUR votre Dieu. Vous ne commettrez pas d’injustice dans l’exercice du droit, ni en matière de mesures de longueur, de poids ou de capacité. Vous aurez des balances justes, des poids justes, des mesures de capacité justes, épha ou hine. Je suis le SEIGNEUR votre Dieu qui vous ai fait sortir du pays d’Égypte. Observez tous mes décrets et toutes mes ordonnances, et mettez-les en pratique. Je suis le SEIGNEUR.&nbsp;»</p>",
-      "responsory": "<p>R/ Vivons dans la charité,<br> au service les uns des autres&nbsp;!</p> <p>Toute la loi s’accomplit<br> en cette parole unique&nbsp;:<br> Tu aimeras ton prochain comme toi-même.</p> <p>Je vous donne un commandement nouveau&nbsp;:<br> Aimez-vous les uns les autres,<br> comme je vous ai aimés.</p>"
-    },
-    "patristicReading": {
-      "title": "SERMON DE SAINT LÉON LE GRAND",
-      "subtitle": "«&nbsp;Soyez les imitateurs de Dieu, puisque vous êtes ses enfants bien-aimés&nbsp;»",
-      "content": "<p>Le Seigneur dit dans l’évangile de saint Jean&nbsp;: <i>Tous reconnaîtront que vous êtes mes disciples si vous vous aimez les uns les autres.</i> Et on lit dans la lettre de cet Apôtre&nbsp;: <i>Mes bien-aimés, aimons-nous les uns les autres, puisque l’amour vient de Dieu. Tous ceux qui aiment sont enfants de Dieu, et ils connaissent Dieu. Celui qui n’aime pas ne connaît pas Dieu, car Dieu est amour.</i> Que les fidèles scrutent donc leur âme et discernent par un examen loyal les sentiments profonds de leur cœur. S’ils découvrent que leur conscience a en réserve des fruits de charité, ils peuvent être certains que Dieu est en eux&nbsp;; et pour se rendre de plus en plus accueillants à un tel hôte, qu’ils se dilatent par les œuvres d’une miséricorde inlassable. En effet, si Dieu est amour, la charité ne doit pas avoir de bornes, car la divinité ne peut s’enfermer dans aucune limite. Toutes les époques conviennent, mes bien-aimés, pour pratiquer le bien de la charité&nbsp;; cependant les jours présents nous y invitent plus spécialement. Ceux qui désirent recevoir la Pâque du Seigneur avec une âme et un corps sanctifiés doivent s’efforcer surtout d’acquérir cette perfection, qui renferme en elle toutes les vertus et qui <i>couvre une multitude de péchés.</i> Et c’est pourquoi, sur le point de célébrer ce mystère qui dépasse tous les autres, par lequel le sang de Jésus Christ a effacé toutes nos iniquités, préparons en premier lieu des sacrifices de miséricorde. Ce que la bonté de Dieu nous a octroyé, donnons-le, nous aussi, à ceux qui ont péché contre nous. ~ Il faut aussi que notre libéralité se montre plus bienfaisante envers les pauvres et ceux qui sont accablés par toutes sortes de malheurs, afin que de nombreuses voix rendent grâce à Dieu, et que le réconfort donné aux indigents vienne recommander nos jeûnes. Aucune générosité de la part des fidèles ne réjouit Dieu davantage que celle qui se prodigue en faveur de ses pauvres&nbsp;; et là où il rencontre un souci de miséricorde, il reconnaît l’image de sa propre bonté. Ne craignons pas d’épuiser nos ressources par de telles dépenses, car la bonté elle-même est une grande richesse, et les largesses ne peuvent manquer de fonds, là où c’est le Christ qui nourrit et qui est nourri. Dans toute cette activité intervient la main qui augmente le pain en le rompant, et le multiplie en le distribuant. Celui qui donne, qu’il soit tranquille et joyeux, car il aura le plus grand bénéfice quand il aura gardé pour lui le minimum. Comme dit saint Paul&nbsp;: <i>Celui qui fournit la semence au semeur et le pain pour la nourriture multipliera aussi vos semences et fera croître les fruits de votre justice</i> dans le Christ Jésus notre Seigneur, qui vit et règne avec le Père et le Saint-Esprit pour les siècles des siècles. Amen.</p>",
-      "responsory": "<p>R/ Dieu nous a tant aimés&nbsp;:<br> nous aussi, aimons-nous les uns les autres.</p> <p>Aimer son prochain comme soi-même<br> vaut mieux que tous les sacrifices.</p> <p>Agir avec amour, c’est présenter une oblation,<br> fuir l’injustice, c’est offrir un sacrifice.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Soyez saints, parce que je suis Saint",
+        "ref": "Lv 19, 1-18.31-37",
+        "content": "<p>Le SEIGNEUR parla à Moïse et dit&nbsp;: «&nbsp;Parle à toute l’assemblée des fils d’Israël. Tu leur diras&nbsp;: Soyez saints, car moi, le SEIGNEUR votre Dieu, je suis saint. Chacun de vous respectera sa mère et son père, et observera mes sabbats. Je suis le SEIGNEUR votre Dieu. Ne vous tournez pas vers les idoles, ne vous faites pas des dieux en métal fondu. Je suis le SEIGNEUR votre Dieu. Quand vous faites un sacrifice de paix pour le SEIGNEUR, faites ce sacrifice de manière à être agréés. On le mangera le jour même et le lendemain&nbsp;; ce qui en restera le troisième jour sera brûlé au feu. Si on le mangeait le troisième jour, ce serait une viande immonde qui ne saurait être agréée. Celui qui en mangera portera le poids de son péché, car il aura profané ce qui a été consacré au SEIGNEUR&nbsp;: cet individu sera retranché de son peuple. Lorsque vous moissonnerez vos terres, tu ne moissonneras pas jusqu’à la lisière du champ. Tu ne ramasseras pas les glanures de ta moisson, tu ne grappilleras pas dans ta vigne, tu ne ramasseras pas les fruits tombés dans ta vigne&nbsp;: tu les laisseras au pauvre et à l’immigré. Je suis le SEIGNEUR votre Dieu. Vous ne volerez pas, vous ne mentirez pas, vous ne tromperez aucun de vos compatriotes. Vous ne ferez pas de faux serments par mon nom&nbsp;: tu profanerais le nom de ton Dieu. Je suis le SEIGNEUR. Tu n’exploiteras pas ton prochain, tu ne le dépouilleras pas&nbsp;: tu ne retiendras pas jusqu’au matin la paye du salarié. Tu ne maudiras pas un sourd, tu ne mettras pas d’obstacle devant un aveugle&nbsp;: tu craindras ton Dieu. Je suis le SEIGNEUR. Quand vous siégerez au tribunal, vous ne commettrez pas d’injustice&nbsp;; tu n’avantageras pas le faible, tu ne favoriseras pas le puissant&nbsp;: tu jugeras ton compatriote avec justice. Tu ne répandras pas de calomnies contre quelqu’un de ton peuple, tu ne réclameras pas la mort de ton prochain. Je suis le SEIGNEUR. Tu ne haïras pas ton frère dans ton cœur. Mais tu devras réprimander ton compatriote, et tu ne toléreras pas la faute qui est en lui. Tu ne te vengeras pas. Tu ne garderas pas de rancune contre les fils de ton peuple. Tu aimeras ton prochain comme toi-même. Je suis le SEIGNEUR. N’interrogez pas les nécromanciens et ne consultez pas les voyants&nbsp;: ils vous rendraient impurs. Je suis le SEIGNEUR votre Dieu. Tu te lèveras devant des cheveux blancs, tu honoreras la personne du vieillard et tu craindras ton Dieu. Je suis le SEIGNEUR. Quand un immigré résidera avec vous dans votre pays, vous ne l’exploiterez pas. L’immigré qui réside avec vous sera parmi vous comme un Israélite de souche, et tu l’aimeras comme toi-même, car vous-mêmes avez été immigrés au pays d’Égypte. Je suis le SEIGNEUR votre Dieu. Vous ne commettrez pas d’injustice dans l’exercice du droit, ni en matière de mesures de longueur, de poids ou de capacité. Vous aurez des balances justes, des poids justes, des mesures de capacité justes, épha ou hine. Je suis le SEIGNEUR votre Dieu qui vous ai fait sortir du pays d’Égypte. Observez tous mes décrets et toutes mes ordonnances, et mettez-les en pratique. Je suis le SEIGNEUR.&nbsp;»</p>",
+        "responsory": "<p>R/ Vivons dans la charité,<br> au service les uns des autres&nbsp;!</p> <p>Toute la loi s’accomplit<br> en cette parole unique&nbsp;:<br> Tu aimeras ton prochain comme toi-même.</p> <p>Je vous donne un commandement nouveau&nbsp;:<br> Aimez-vous les uns les autres,<br> comme je vous ai aimés.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "SERMON DE SAINT LÉON LE GRAND",
+        "subtitle": "«&nbsp;Soyez les imitateurs de Dieu, puisque vous êtes ses enfants bien-aimés&nbsp;»",
+        "content": "<p>Le Seigneur dit dans l’évangile de saint Jean&nbsp;: <i>Tous reconnaîtront que vous êtes mes disciples si vous vous aimez les uns les autres.</i> Et on lit dans la lettre de cet Apôtre&nbsp;: <i>Mes bien-aimés, aimons-nous les uns les autres, puisque l’amour vient de Dieu. Tous ceux qui aiment sont enfants de Dieu, et ils connaissent Dieu. Celui qui n’aime pas ne connaît pas Dieu, car Dieu est amour.</i> Que les fidèles scrutent donc leur âme et discernent par un examen loyal les sentiments profonds de leur cœur. S’ils découvrent que leur conscience a en réserve des fruits de charité, ils peuvent être certains que Dieu est en eux&nbsp;; et pour se rendre de plus en plus accueillants à un tel hôte, qu’ils se dilatent par les œuvres d’une miséricorde inlassable. En effet, si Dieu est amour, la charité ne doit pas avoir de bornes, car la divinité ne peut s’enfermer dans aucune limite. Toutes les époques conviennent, mes bien-aimés, pour pratiquer le bien de la charité&nbsp;; cependant les jours présents nous y invitent plus spécialement. Ceux qui désirent recevoir la Pâque du Seigneur avec une âme et un corps sanctifiés doivent s’efforcer surtout d’acquérir cette perfection, qui renferme en elle toutes les vertus et qui <i>couvre une multitude de péchés.</i> Et c’est pourquoi, sur le point de célébrer ce mystère qui dépasse tous les autres, par lequel le sang de Jésus Christ a effacé toutes nos iniquités, préparons en premier lieu des sacrifices de miséricorde. Ce que la bonté de Dieu nous a octroyé, donnons-le, nous aussi, à ceux qui ont péché contre nous. ~ Il faut aussi que notre libéralité se montre plus bienfaisante envers les pauvres et ceux qui sont accablés par toutes sortes de malheurs, afin que de nombreuses voix rendent grâce à Dieu, et que le réconfort donné aux indigents vienne recommander nos jeûnes. Aucune générosité de la part des fidèles ne réjouit Dieu davantage que celle qui se prodigue en faveur de ses pauvres&nbsp;; et là où il rencontre un souci de miséricorde, il reconnaît l’image de sa propre bonté. Ne craignons pas d’épuiser nos ressources par de telles dépenses, car la bonté elle-même est une grande richesse, et les largesses ne peuvent manquer de fonds, là où c’est le Christ qui nourrit et qui est nourri. Dans toute cette activité intervient la main qui augmente le pain en le rompant, et le multiplie en le distribuant. Celui qui donne, qu’il soit tranquille et joyeux, car il aura le plus grand bénéfice quand il aura gardé pour lui le minimum. Comme dit saint Paul&nbsp;: <i>Celui qui fournit la semence au semeur et le pain pour la nourriture multipliera aussi vos semences et fera croître les fruits de votre justice</i> dans le Christ Jésus notre Seigneur, qui vit et règne avec le Père et le Saint-Esprit pour les siècles des siècles. Amen.</p>",
+        "responsory": "<p>R/ Dieu nous a tant aimés&nbsp;:<br> nous aussi, aimons-nous les uns les autres.</p> <p>Aimer son prochain comme soi-même<br> vaut mieux que tous les sacrifices.</p> <p>Agir avec amour, c’est présenter une oblation,<br> fuir l’injustice, c’est offrir un sacrifice.</p>"
+      }
+    ],
     "verse": "<p>V/ C’est maintenant le jour favorable,<br>c’est maintenant le jour du salut.</p>",
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_18",
+        "antiphon": [
+          "Que ma prière parvienne jusqu’à toi&nbsp;! Ouvre l’oreille à ma plainte."
+        ]
+      },
+      {
+        "psalm": "PSALM_87_1"
+      },
+      {
+        "psalm": "PSALM_87_2"
+      }
+    ],
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "Jc 2, 14. 17.18b",
+      "biblicalReference": "Jc 2, 14. 17.18b",
       "content": "Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il&nbsp;? Cet homme-là peut-il être sauvé par sa foi&nbsp;? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas&nbsp;; moi, c’est par mes actes que je te montrerai ma foi."
     },
-    "evangelicAntiphon": "Te voilà maintenant guéri, ne pèche plus, il pourrait t’arriver pire encore.",
-    "intercession": "<p>Prions Dieu notre Père, qui nous exauce toujours en Jésus son Fils&nbsp;:</p> <p>R/ Seigneur, comble-nous de tes bienfaits.</p> <p>Rends-nous familiers de ta parole<br> pour qu’elle nous habite et nous garde.</p> <p>Ouvre notre cœur au mystère de l’Église&nbsp;:<br> qu’elle soit pour nous le signe de l’Alliance.</p> <p>Apprends-nous à recevoir de ta main toute épreuve et toute joie&nbsp;:<br> que nous sachions te rendre grâce.</p> <p>Accorde à ceux qui meurent<br> de passer de ce monde au Royaume dans la Pâque de ton Fils.</p> ",
     "responsory": "<p>R/ Éclaire-moi selon ta parole,<br>  *  Que j’observe tes volontés.<br> V/ Incline mon cœur vers tes exigences.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_18",
-        "antiphon": [
-          "Que ma prière parvienne jusqu’à toi&nbsp;! Ouvre l’oreille à ma plainte."
-        ]
-      },
-      {
-        "psalm": "PSALM_87_1"
-      },
-      {
-        "psalm": "PSALM_87_2"
-      }
-    ],
-    "oration": "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    "evangelicAntiphon": {
+      "common": "Te voilà maintenant guéri, ne pèche plus, il pourrait t’arriver pire encore."
+    },
+    "intercession": {
+      "content": "<p>Prions Dieu notre Père, qui nous exauce toujours en Jésus son Fils&nbsp;:</p> <p>R/ Seigneur, comble-nous de tes bienfaits.</p> <p>Rends-nous familiers de ta parole<br> pour qu’elle nous habite et nous garde.</p> <p>Ouvre notre cœur au mystère de l’Église&nbsp;:<br> qu’elle soit pour nous le signe de l’Alliance.</p> <p>Apprends-nous à recevoir de ta main toute épreuve et toute joie&nbsp;:<br> que nous sachions te rendre grâce.</p> <p>Accorde à ceux qui meurent<br> de passer de ce monde au Royaume dans la Pâque de ton Fils.</p> "
+    },
+    "oration": [
+      "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir&nbsp;: qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    ]
   }
 }

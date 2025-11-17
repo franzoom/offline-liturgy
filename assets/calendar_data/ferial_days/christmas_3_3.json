@@ -30,6 +30,19 @@
       }
     ]
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_14"
+      },
+      {
+        "psalm": "PSALM_69"
+      },
+      {
+        "psalm": "PSALM_74"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -42,19 +55,8 @@
         "psalm": "NT_6"
       }
     ],
-    "oration": "<p>Seigneur notre Dieu, soleil qui brille pour toutes les nations, accorde aux peuples de la terre de vivre en paix, et fais lever en nos cœurs l’admirable lumière qui a guidé les mages vers ton Fils. Lui qui règne.</p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_14"
-      },
-      {
-        "psalm": "PSALM_69"
-      },
-      {
-        "psalm": "PSALM_74"
-      }
+    "oration": [
+      "<p>Seigneur notre Dieu, soleil qui brille pour toutes les nations, accorde aux peuples de la terre de vivre en paix, et fais lever en nos cœurs l’admirable lumière qui a guidé les mages vers ton Fils. Lui qui règne.</p>"
     ]
   }
 }

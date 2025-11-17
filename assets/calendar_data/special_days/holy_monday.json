@@ -1,4 +1,9 @@
 {
+  "celebration": {
+    "title": "Lundi Saint",
+    "grade": 3,
+    "color": "violet"
+  },
   "invitatory": {
     "antiphon": [
       "Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.",
@@ -27,12 +32,16 @@
       }
     ],
     "reading": {
-      "ref": "Jr 11, 19-20",
+      "biblicalReference": "Jr 11, 19-20",
       "content": "Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas ce qu’ils préparaient contre moi. Ils disaient&nbsp;: «&nbsp;Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom.&nbsp;» Seigneur de l’univers, toi qui juges avec justice, qui scrutes les reins et les cœurs, fais-moi voir la vengeance que tu leur infligeras, car c’est à toi que je confie ma cause."
     },
-    "evangelicAntiphon": "Père juste, le monde ne t’a pas connu, mais moi, je t’ai connu, toi qui m’as envoyé.",
-    "intercession": "<p>Supplions le Christ qui nous a aimés jusqu’à la mort.</p> <p>R/ Sauve-nous par ton amour.</p> <p>Jésus que l’on a bafoué sans raison, <br>–&nbsp;prends pitié de ceux dont l’amour est trahi.</p> <p>Jésus que l’amour du Royaume a perdu, <br>–&nbsp;prends pitié de ceux que l’on met en prison.</p> <p>Jésus qui n’as pas trouvé de consolateur, <br>–&nbsp;prends pitié de ceux qui sont affligés.</p> <p>Jésus que l’on abreuva de vinaigre,<br>–&nbsp;prends pitié de ceux qui souffrent pour la justice.</p> <p>Jésus, humilié par les hommes, sauvé par Dieu, <br>–&nbsp;sois la joie et la fête des pauvres.</p></p> ",
-    "responsory": "<p>R/ Souviens-toi de Jésus Christ<br> ressuscité d’entre les morts&nbsp;:<br>  * Il est notre salut, notre gloire éternelle.<br> V/ Si nous mourons avec lui, <br>avec lui nous vivrons. * <br> V/ Si nous souffrons avec lui, <br>avec lui nous régnerons. * <br> R/ Souviens-toi.</p>"
+    "responsory": "<p>R/ Souviens-toi de Jésus Christ<br> ressuscité d’entre les morts&nbsp;:<br>  * Il est notre salut, notre gloire éternelle.<br> V/ Si nous mourons avec lui, <br>avec lui nous vivrons. * <br> V/ Si nous souffrons avec lui, <br>avec lui nous régnerons. * <br> R/ Souviens-toi.</p>",
+    "evangelicAntiphon": {
+      "common": "Père juste, le monde ne t’a pas connu, mais moi, je t’ai connu, toi qui m’as envoyé."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Christ qui nous a aimés jusqu’à la mort.</p> <p>R/ Sauve-nous par ton amour.</p> <p>Jésus que l’on a bafoué sans raison, <br>–&nbsp;prends pitié de ceux dont l’amour est trahi.</p> <p>Jésus que l’amour du Royaume a perdu, <br>–&nbsp;prends pitié de ceux que l’on met en prison.</p> <p>Jésus qui n’as pas trouvé de consolateur, <br>–&nbsp;prends pitié de ceux qui sont affligés.</p> <p>Jésus que l’on abreuva de vinaigre,<br>–&nbsp;prends pitié de ceux qui souffrent pour la justice.</p> <p>Jésus, humilié par les hommes, sauvé par Dieu, <br>–&nbsp;sois la joie et la fête des pauvres.</p></p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -55,19 +64,39 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Appel à la foi et à l’endurance",
-      "ref": "He 10, 19-39",
-      "content": "<p>Frères, c’est avec assurance que nous pouvons entrer dans le véritable sanctuaire grâce au sang de Jésus&nbsp;: nous avons là un chemin nouveau et vivant qu’il a inauguré en franchissant le rideau du Sanctuaire&nbsp;; or, ce rideau est sa chair. Et nous avons le prêtre par excellence, celui qui est établi sur la maison de Dieu. Avançons-nous donc vers Dieu avec un cœur sincère et dans la plénitude de la foi, le cœur purifié de ce qui souille notre conscience, le corps lavé par une eau pure. Continuons sans fléchir d’affirmer notre espérance, car il est fidèle, celui qui a promis. Soyons attentifs les uns aux autres pour nous stimuler à vivre dans l’amour et à bien agir. Ne délaissons pas nos assemblées, comme certains en ont pris l’habitude, mais encourageons-nous, d’autant plus que vous voyez s’approcher le Jour du Seigneur. Car si nous demeurons volontairement dans le péché après avoir reçu la pleine connaissance de la vérité, il ne reste plus pour les péchés aucun sacrifice, mais une attente redoutable du jugement et l’ardeur d’un feu qui va dévorer les rebelles. Si quelqu’un enfreint la loi de Moïse, c’est sans pitié <i>qu’il est mis à mort sur la parole de deux ou trois témoins.</i> Qu’en pensez-vous&nbsp;? Ne sera-t-elle pas encore plus grave, la peine que méritera celui qui aura foulé aux pieds le Fils de Dieu, tenu pour profane le sang de l’Alliance par lequel il a été sanctifié, et outragé l’Esprit qui donne la grâce&nbsp;? Car nous connaissons celui qui a dit&nbsp;: <i>C’est à moi de faire justice, c’est moi qui rendrai à chacun ce qui lui revient&nbsp;;</i> et encore&nbsp;: <i>Le Seigneur jugera son peuple.</i> Il est redoutable de tomber entre les mains du Dieu vivant&nbsp;! Souvenez-vous de ces premiers jours où vous veniez de recevoir la lumière du Christ&nbsp;: vous avez soutenu alors le dur combat des souffrances, tantôt donnés en spectacle sous les insultes et les brimades, tantôt solidaires de ceux qu’on traitait ainsi. En effet, vous avez montré de la compassion à ceux qui étaient en prison&nbsp;; vous avez accepté avec joie qu’on vous arrache vos biens, car vous étiez sûrs de posséder un bien encore meilleur, et permanent. Ne perdez pas votre assurance&nbsp;; grâce à elle, vous serez largement récompensés. Car l’endurance vous est nécessaire pour accomplir la volonté de Dieu et obtenir ainsi la réalisation des promesses. En effet, encore <i>un peu, très peu de temps, et celui qui doit venir arrivera, il ne tardera pas. Celui qui est juste à mes yeux par la foi vivra&nbsp;; mais s’il abandonne, je ne trouve plus mon bonheur en lui.</i> Or nous ne sommes pas, nous, de ceux qui abandonnent et vont à leur perte, mais de ceux qui ont la foi et sauvegardent leur âme.</p>",
-      "responsory": "<p>R/ Le juste par la foi vivra&nbsp;!</p> <p>Approchons-nous de Dieu avec un cœur droit<br> et dans la plénitude de la foi.</p> <p>Ne soyons pas des hommes à faire défection,<br> mais des hommes de foi pour le salut de nos âmes.</p> <p>Qui persévère jusqu’à la fin,<br> celui-là sera sauvé.</p>"
-    },
-    "patristicReading": {
-      "title": "SERMON DE SAINT AUGUSTIN SUR LA PASSION DU SEIGNEUR",
-      "subtitle": "Il nous donnera sa vie, puisqu’il nous a déjà donné sa mort",
-      "content": "<p>La passion de notre Seigneur et Sauveur Jésus Christ nous garantit la gloire et nous enseigne la patience. Les cœurs des croyants peuvent tout attendre de la grâce de Dieu, car pour eux le Fils unique de Dieu, coéternel au Père, n’a pas jugé suffisant d’être un homme en naissant des hommes, mais il est allé jusqu’à mourir par la main des hommes qu’il a crées. Ce que Dieu nous promet pour l’avenir est grand&nbsp;; mais bien plus grand ce que nous commémorons comme réalisé dans le passé. Où étaient-ils, quels hommes étaient-ils, ces croyants, quand <i>le Christ est mort pour des coupables&nbsp;?</i> On ne peut douter qu’il leur donnera sa vie, puisqu’il leur a déjà donné sa mort. Pourquoi la faiblesse humaine hésite-t-elle à croire ce qui arrivera un jour&nbsp;: que les hommes puissent vivre avec Dieu&nbsp;? Ce qui s’est déjà réalisé est encore beaucoup plus incroyable&nbsp;: Dieu est mort pour les hommes. Car le Christ est <i>ce Verbe qui était au commencement, ce Verbe qui était avec Dieu, ce Verbe qui était Dieu. Et ce Verbe de Dieu s’est fait chair, et il a établi sa demeure parmi nous</i>. Car il n’aurait pas eu en lui-même de quoi mourir pour nous, sans cette chair mortelle qu’il a tirée de nous. C’est ainsi que l’être immortel a pu mourir, c’est ainsi qu’il a voulu donner la vie aux mortels&nbsp;: il devait dans l’avenir les faire participer à ce qu’il est, après avoir d’abord participé lui-même à ce qu’ils sont. Car nous n’avions pas en nous de quoi vivre, et il n’avait pas en lui de quoi mourir. Il a donc établi avec nous un merveilleux échange de participation réciproque. Ce qui vient de nous, c’est par cela qu’il est mort&nbsp;; ce qui vient de lui, c’est par cela que nous vivrons. ~ Par conséquent, nous ne devons pas rougir de la mort de notre Seigneur&nbsp;; bien au contraire, nous devons y mettre toute notre confiance et y trouver toute notre gloire. Du fait même qu’il recevait de nous la mort qu’il trouvait en nous, il nous a promis, dans sa grande fidélité, de nous donner en lui la vie que nous ne pouvons pas tenir de nous. Il nous a tellement aimés qu’il a souffert pour les pécheurs, lui qui est sans péché, ce que nous avons mérité par le péché&nbsp;; comment alors ne nous donnera-t-il pas ce qu’il donne aux justes, lui qui justifie&nbsp;? Comment lui, dont la promesse est vérité, ne nous rendra-t-il pas en échange les récompenses des saints, lui qui, sans crime, a subi le châtiment des criminels&nbsp;? C’est pourquoi, mes frères, confessons hardiment et même professons que le Christ a été crucifié pour nous&nbsp;; proclamons-le sans crainte, mais avec joie&nbsp;; sans honte, mais avec fierté. L’Apôtre Paul a vu là un titre de gloire qu’il nous a recommandé. Il pouvait rappeler, au sujet du Christ, beaucoup de grandeurs divines&nbsp;; cependant il affirme ne pas se glorifier des merveilles du Christ, par exemple qu’étant Dieu auprès du Père, il a créé le monde&nbsp;; qu’étant homme comme nous, il a commandé au monde. Mais il dit&nbsp;: <i>Je ne veux me glorifier que de la croix de notre Seigneur Jésus Christ.</i></p>",
-      "responsory": "<p>Ta mort est vaine aux yeux de chair&nbsp;; Stance<br> mais, pour celui qui croit,<br> elle est vie éternelle.<br> Jésus, tu es vainqueur<br> chaque fois que dans l’homme<br> l’Esprit peut s’écrier&nbsp;:<br> «&nbsp;Tu es le Christ, le Fils du Dieu vivant&nbsp;»&nbsp;!</p> <p>R/ Tu es le Fils du Dieu vivant,<br> tu es le Seigneur&nbsp;!</p> <p>Comme un surgeon, tu as grandi devant nous,<br> racine vive sur notre terre aride,<br> et nous te méprisions.</p> <p>Tu as donné ta vie, tu as été comblé.<br> Après l’épreuve, tu as vu la lumière&nbsp;:<br> maintenant, nos yeux s’ouvrent.</p> <p>Tous nos regards se tournent vers toi&nbsp;:<br> tu es le Messie, le Saint d’Israël&nbsp;;<br> pour toi chantent nos cœurs.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Appel à la foi et à l’endurance",
+        "ref": "He 10, 19-39",
+        "content": "<p>Frères, c’est avec assurance que nous pouvons entrer dans le véritable sanctuaire grâce au sang de Jésus&nbsp;: nous avons là un chemin nouveau et vivant qu’il a inauguré en franchissant le rideau du Sanctuaire&nbsp;; or, ce rideau est sa chair. Et nous avons le prêtre par excellence, celui qui est établi sur la maison de Dieu. Avançons-nous donc vers Dieu avec un cœur sincère et dans la plénitude de la foi, le cœur purifié de ce qui souille notre conscience, le corps lavé par une eau pure. Continuons sans fléchir d’affirmer notre espérance, car il est fidèle, celui qui a promis. Soyons attentifs les uns aux autres pour nous stimuler à vivre dans l’amour et à bien agir. Ne délaissons pas nos assemblées, comme certains en ont pris l’habitude, mais encourageons-nous, d’autant plus que vous voyez s’approcher le Jour du Seigneur. Car si nous demeurons volontairement dans le péché après avoir reçu la pleine connaissance de la vérité, il ne reste plus pour les péchés aucun sacrifice, mais une attente redoutable du jugement et l’ardeur d’un feu qui va dévorer les rebelles. Si quelqu’un enfreint la loi de Moïse, c’est sans pitié <i>qu’il est mis à mort sur la parole de deux ou trois témoins.</i> Qu’en pensez-vous&nbsp;? Ne sera-t-elle pas encore plus grave, la peine que méritera celui qui aura foulé aux pieds le Fils de Dieu, tenu pour profane le sang de l’Alliance par lequel il a été sanctifié, et outragé l’Esprit qui donne la grâce&nbsp;? Car nous connaissons celui qui a dit&nbsp;: <i>C’est à moi de faire justice, c’est moi qui rendrai à chacun ce qui lui revient&nbsp;;</i> et encore&nbsp;: <i>Le Seigneur jugera son peuple.</i> Il est redoutable de tomber entre les mains du Dieu vivant&nbsp;! Souvenez-vous de ces premiers jours où vous veniez de recevoir la lumière du Christ&nbsp;: vous avez soutenu alors le dur combat des souffrances, tantôt donnés en spectacle sous les insultes et les brimades, tantôt solidaires de ceux qu’on traitait ainsi. En effet, vous avez montré de la compassion à ceux qui étaient en prison&nbsp;; vous avez accepté avec joie qu’on vous arrache vos biens, car vous étiez sûrs de posséder un bien encore meilleur, et permanent. Ne perdez pas votre assurance&nbsp;; grâce à elle, vous serez largement récompensés. Car l’endurance vous est nécessaire pour accomplir la volonté de Dieu et obtenir ainsi la réalisation des promesses. En effet, encore <i>un peu, très peu de temps, et celui qui doit venir arrivera, il ne tardera pas. Celui qui est juste à mes yeux par la foi vivra&nbsp;; mais s’il abandonne, je ne trouve plus mon bonheur en lui.</i> Or nous ne sommes pas, nous, de ceux qui abandonnent et vont à leur perte, mais de ceux qui ont la foi et sauvegardent leur âme.</p>",
+        "responsory": "<p>R/ Le juste par la foi vivra&nbsp;!</p> <p>Approchons-nous de Dieu avec un cœur droit<br> et dans la plénitude de la foi.</p> <p>Ne soyons pas des hommes à faire défection,<br> mais des hommes de foi pour le salut de nos âmes.</p> <p>Qui persévère jusqu’à la fin,<br> celui-là sera sauvé.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "SERMON DE SAINT AUGUSTIN SUR LA PASSION DU SEIGNEUR",
+        "subtitle": "Il nous donnera sa vie, puisqu’il nous a déjà donné sa mort",
+        "content": "<p>La passion de notre Seigneur et Sauveur Jésus Christ nous garantit la gloire et nous enseigne la patience. Les cœurs des croyants peuvent tout attendre de la grâce de Dieu, car pour eux le Fils unique de Dieu, coéternel au Père, n’a pas jugé suffisant d’être un homme en naissant des hommes, mais il est allé jusqu’à mourir par la main des hommes qu’il a crées. Ce que Dieu nous promet pour l’avenir est grand&nbsp;; mais bien plus grand ce que nous commémorons comme réalisé dans le passé. Où étaient-ils, quels hommes étaient-ils, ces croyants, quand <i>le Christ est mort pour des coupables&nbsp;?</i> On ne peut douter qu’il leur donnera sa vie, puisqu’il leur a déjà donné sa mort. Pourquoi la faiblesse humaine hésite-t-elle à croire ce qui arrivera un jour&nbsp;: que les hommes puissent vivre avec Dieu&nbsp;? Ce qui s’est déjà réalisé est encore beaucoup plus incroyable&nbsp;: Dieu est mort pour les hommes. Car le Christ est <i>ce Verbe qui était au commencement, ce Verbe qui était avec Dieu, ce Verbe qui était Dieu. Et ce Verbe de Dieu s’est fait chair, et il a établi sa demeure parmi nous</i>. Car il n’aurait pas eu en lui-même de quoi mourir pour nous, sans cette chair mortelle qu’il a tirée de nous. C’est ainsi que l’être immortel a pu mourir, c’est ainsi qu’il a voulu donner la vie aux mortels&nbsp;: il devait dans l’avenir les faire participer à ce qu’il est, après avoir d’abord participé lui-même à ce qu’ils sont. Car nous n’avions pas en nous de quoi vivre, et il n’avait pas en lui de quoi mourir. Il a donc établi avec nous un merveilleux échange de participation réciproque. Ce qui vient de nous, c’est par cela qu’il est mort&nbsp;; ce qui vient de lui, c’est par cela que nous vivrons. ~ Par conséquent, nous ne devons pas rougir de la mort de notre Seigneur&nbsp;; bien au contraire, nous devons y mettre toute notre confiance et y trouver toute notre gloire. Du fait même qu’il recevait de nous la mort qu’il trouvait en nous, il nous a promis, dans sa grande fidélité, de nous donner en lui la vie que nous ne pouvons pas tenir de nous. Il nous a tellement aimés qu’il a souffert pour les pécheurs, lui qui est sans péché, ce que nous avons mérité par le péché&nbsp;; comment alors ne nous donnera-t-il pas ce qu’il donne aux justes, lui qui justifie&nbsp;? Comment lui, dont la promesse est vérité, ne nous rendra-t-il pas en échange les récompenses des saints, lui qui, sans crime, a subi le châtiment des criminels&nbsp;? C’est pourquoi, mes frères, confessons hardiment et même professons que le Christ a été crucifié pour nous&nbsp;; proclamons-le sans crainte, mais avec joie&nbsp;; sans honte, mais avec fierté. L’Apôtre Paul a vu là un titre de gloire qu’il nous a recommandé. Il pouvait rappeler, au sujet du Christ, beaucoup de grandeurs divines&nbsp;; cependant il affirme ne pas se glorifier des merveilles du Christ, par exemple qu’étant Dieu auprès du Père, il a créé le monde&nbsp;; qu’étant homme comme nous, il a commandé au monde. Mais il dit&nbsp;: <i>Je ne veux me glorifier que de la croix de notre Seigneur Jésus Christ.</i></p>",
+        "responsory": "<p>Ta mort est vaine aux yeux de chair&nbsp;; Stance<br> mais, pour celui qui croit,<br> elle est vie éternelle.<br> Jésus, tu es vainqueur<br> chaque fois que dans l’homme<br> l’Esprit peut s’écrier&nbsp;:<br> «&nbsp;Tu es le Christ, le Fils du Dieu vivant&nbsp;»&nbsp;!</p> <p>R/ Tu es le Fils du Dieu vivant,<br> tu es le Seigneur&nbsp;!</p> <p>Comme un surgeon, tu as grandi devant nous,<br> racine vive sur notre terre aride,<br> et nous te méprisions.</p> <p>Tu as donné ta vie, tu as été comblé.<br> Après l’épreuve, tu as vu la lumière&nbsp;:<br> maintenant, nos yeux s’ouvrent.</p> <p>Tous nos regards se tournent vers toi&nbsp;:<br> tu es le Messie, le Saint d’Israël&nbsp;;<br> pour toi chantent nos cœurs.</p>"
+      }
+    ],
     "verse": "<p>V/ Quand j’aurai été élevé de terre,<br>j’attirerai à moi tous les hommes.</p>"
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_6",
+        "antiphon": [
+          "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
+        ]
+      },
+      {
+        "psalm": "PSALM_39_1"
+      },
+      {
+        "psalm": "PSALM_39_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -91,31 +120,18 @@
       }
     ],
     "reading": {
-      "ref": "Rm 5, 8-9",
+      "biblicalReference": "Rm 5, 8-9",
       "content": "La preuve que Dieu nous aime, c’est que le Christ est mort pour nous, alors que nous étions encore pécheurs. À plus forte raison, maintenant que le sang du Christ nous a fait devenir des justes, nous serons sauvés par lui de la colère de Dieu."
     },
-    "evangelicAntiphon": "Comme le serpent fut élevé dans le désert, il faut que le Fils de l’homme soit élevé de terre pour que tout homme qui croit en lui ait la vie éternelle.",
-    "intercession": "<p>En contemplant la passion de Jésus, notre Sauveur, nous supplions&nbsp;:</p> <p>Pour ceux que la tristesse accable,<br> –&nbsp;souviens-toi de ton agonie.</p> <p>R/ Ô Jésus, notre Sauveur&nbsp;!</p> <p>Pour ceux qui sont blessés dans leur chair,<br> –&nbsp;souviens-toi de tes tortures.</p> <p>Pour ceux qui souffrent la dérision,<br> –&nbsp;souviens-toi de ta couronne d’épines.</p> <p>Pour ceux qui désespèrent de la vie,<br> –&nbsp;souviens-toi de ton cri vers le Père.</p> <p>Pour ceux qui meurent aujourd’hui,<br> –&nbsp;souviens-toi de ta mort sur la croix.</p> <p>Pour ceux qui espèrent contre toute espérance,<br> –&nbsp;que resplendisse ta résurrection.</p> ",
-    "responsory": "<p>R/ Jésus, souviens-toi de nous,<br> quand tu viendras dans ton Royaume.<br> V/ Toi qui ne repousses pas le cœur brisé,R/ <br> V/ Toi qui t’es fait obéissant jusqu’à la mort,R/ <br> V/ Par ton côté ouvert, par tes mains transpercées,R/ <br></p>"
+    "responsory": "<p>R/ Jésus, souviens-toi de nous,<br> quand tu viendras dans ton Royaume.<br> V/ Toi qui ne repousses pas le cœur brisé,R/ <br> V/ Toi qui t’es fait obéissant jusqu’à la mort,R/ <br> V/ Par ton côté ouvert, par tes mains transpercées,R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Comme le serpent fut élevé dans le désert, il faut que le Fils de l’homme soit élevé de terre pour que tout homme qui croit en lui ait la vie éternelle."
+    },
+    "intercession": {
+      "content": "<p>En contemplant la passion de Jésus, notre Sauveur, nous supplions&nbsp;:</p> <p>Pour ceux que la tristesse accable,<br> –&nbsp;souviens-toi de ton agonie.</p> <p>R/ Ô Jésus, notre Sauveur&nbsp;!</p> <p>Pour ceux qui sont blessés dans leur chair,<br> –&nbsp;souviens-toi de tes tortures.</p> <p>Pour ceux qui souffrent la dérision,<br> –&nbsp;souviens-toi de ta couronne d’épines.</p> <p>Pour ceux qui désespèrent de la vie,<br> –&nbsp;souviens-toi de ton cri vers le Père.</p> <p>Pour ceux qui meurent aujourd’hui,<br> –&nbsp;souviens-toi de ta mort sur la croix.</p> <p>Pour ceux qui espèrent contre toute espérance,<br> –&nbsp;que resplendisse ta résurrection.</p> "
+    }
   },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_6",
-        "antiphon": [
-          "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
-        ]
-      },
-      {
-        "psalm": "PSALM_39_1"
-      },
-      {
-        "psalm": "PSALM_39_2"
-      }
-    ]
-  },
-  "celebrationTitle": "Lundi Saint",
-  "liturgicalGrade": 3,
-  "liturgicalColor": "violet",
-  "oration": "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+  "oration": [
+    "Dieu tout-puissant, nous t’en supplions&nbsp;: quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+  ]
 }

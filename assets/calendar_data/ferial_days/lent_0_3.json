@@ -27,13 +27,19 @@
       }
     ],
     "reading": {
-      "ref": "Dt 7, 6. 8-9",
+      "biblicalReference": "Dt 7, 6. 8-9",
       "content": "Tu es un peuple consacré au Seigneur ton Dieu&nbsp;: c’est toi qu’il a choisi pour être son peuple particulier, parmi tous les peuples de la terre. C’est par amour pour vous, et par fidélité au serment fait à vos pères, que le Seigneur vous a fait sortir par la force de sa main, et vous a délivrés de la maison d’esclavage et de la main de Pharaon, roi d’Égypte. Vous saurez donc que le Seigneur votre Dieu est le vrai Dieu, le Dieu fidèle qui garde son Alliance et son amour pour mille générations à ceux qui l’aiment et gardent ses commandements."
     },
-    "evangelicAntiphon": "Quand vous jeûnez, parfumez votre tête, ne jeûnez pas pour être vus des hommes, mais de votre Père qui voit dans le secret.",
-    "intercession": "<p>Jour après jour, cherchons le Seigneur&nbsp;:<br> qu’il mette en nous le désir de le suivre.</p> <p>R/ Seigneur, fais-nous connaître tes chemins.</p> <p>Toi qui nous invites à la pénitence,<br> tu nous appelles à la vie.</p> <p>Enseigne-nous le jeûne que tu préfères&nbsp;:<br> ouvrir les prisons, nourrir les affamés.</p> <p>Apprends-nous à donner sans retour<br> ce que nous avons et ce que nous sommes.</p> <p>Donne-nous de marcher dans la voie de pauvreté<br> où tu conduisais Marie, ta servante.</p> ",
     "responsory": "<p>R/ Dieu nous a aimés le premier.<br>  * Il a fait alliance avec nous.<br> V/ Sa tendresse est sans mesure. * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    "evangelicAntiphon": {
+      "common": "Quand vous jeûnez, parfumez votre tête, ne jeûnez pas pour être vus des hommes, mais de votre Père qui voit dans le secret."
+    },
+    "intercession": {
+      "content": "<p>Jour après jour, cherchons le Seigneur&nbsp;:<br> qu’il mette en nous le désir de le suivre.</p> <p>R/ Seigneur, fais-nous connaître tes chemins.</p> <p>Toi qui nous invites à la pénitence,<br> tu nous appelles à la vie.</p> <p>Enseigne-nous le jeûne que tu préfères&nbsp;:<br> ouvrir les prisons, nourrir les affamés.</p> <p>Apprends-nous à donner sans retour<br> ce que nous avons et ce que nous sommes.</p> <p>Donne-nous de marcher dans la voie de pauvreté<br> où tu conduisais Marie, ta servante.</p> "
+    },
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
   },
   "readings": {
     "psalmody": [
@@ -56,20 +62,45 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Le jeûne qui plaît à Dieu",
-      "ref": "Is 58, 1-12",
-      "content": "<p>Crie à pleine gorge&nbsp;! Ne te retiens pas&nbsp;! Que s’élève ta voix comme le cor&nbsp;! Dénonce à mon peuple sa révolte, à la maison de Jacob ses péchés. Ils viennent me consulter jour après jour, ils veulent connaître mes chemins. Comme une nation qui pratiquerait la justice et n’abandonnerait pas le droit de son Dieu, ils me demandent des ordonnances justes, ils voudraient que Dieu soit proche&nbsp;: «&nbsp;Quand nous jeûnons, pourquoi ne le vois-tu pas&nbsp;? Quand nous faisons pénitence, pourquoi ne le sais-tu pas&nbsp;?&nbsp;» Oui, mais le jour où vous jeûnez, vous savez bien faire vos affaires, et vous traitez durement ceux qui peinent pour vous. Votre jeûne se passe en disputes et querelles, en coups de poing sauvages. Ce n’est pas en jeûnant comme vous le faites aujourd’hui que vous ferez entendre là-haut votre voix. Est-ce là le jeûne qui me plaît, un jour où l’homme se rabaisse&nbsp;? S’agit-il de courber la tête comme un roseau, de coucher sur le sac et la cendre&nbsp;? Appelles-tu cela un jeûne, un jour agréable au SEIGNEUR&nbsp;? Le jeûne qui me plaît, n’est-ce pas ceci&nbsp;: faire tomber les chaînes injustes, délier les attaches du joug, rendre la liberté aux opprimés, briser tous les jougs&nbsp;? N’est-ce pas partager ton pain avec celui qui a faim, accueillir chez toi les pauvres sans abri, couvrir celui que tu verras sans vêtement, ne pas te dérober à ton semblable&nbsp;? Alors ta lumière jaillira comme l’aurore, et tes forces reviendront vite. Devant toi marchera ta justice, et la gloire du SEIGNEUR fermera la marche. Alors, si tu appelles, le SEIGNEUR répondra&nbsp;; si tu cries, il dira&nbsp;: «&nbsp;Me voici.&nbsp;» Si tu fais disparaître de chez toi le joug, le geste accusateur, la parole malfaisante, si tu donnes à celui qui a faim ce que toi, tu désires, et si tu combles les désirs du malheureux, ta lumière se lèvera dans les ténèbres et ton obscurité sera lumière de midi. Le SEIGNEUR sera toujours ton guide. En plein désert, il comblera tes désirs et te rendra vigueur. Tu seras comme un jardin bien irrigué, comme une source où les eaux ne manquent jamais. Tu rebâtiras les ruines anciennes, tu restaureras les fondations séculaires. On t’appellera&nbsp;: «&nbsp;Celui qui répare les brèches&nbsp;», «&nbsp;Celui qui remet en service les chemins&nbsp;».</p>",
-      "responsory": "<p>R/ Partage ton pain avec l’affamé,<br> voilà le jeûne qui plaît à Dieu.</p> <p>Ouvre ton cœur au pauvre&nbsp;: c’est ton frère.<br> Et si tu cries, le Seigneur répondra&nbsp;;<br> à tes appels, il dira&nbsp;: Me voici&nbsp;!</p> <p>Ouvre ton cœur au pauvre&nbsp;: c’est ton frère.<br> Et quand le Fils de l’homme viendra, il te dira&nbsp;:<br> J’avais faim et tu m’as donné à manger.</p>"
-    },
-    "patristicReading": {
-      "title": "LETTRE DE SAINT CLÉMENT DE ROME AUX CORINTHIENS",
-      "subtitle": "«&nbsp;Convertissez-vous&nbsp;»",
-      "content": "<p>Fixons nos regards sur le sang du Christ, et comprenons combien il a de valeur pour son Père, puisque, répandu pour notre salut, il a procuré au monde entier la grâce de la conversion. Parcourons toutes les générations et nous apprendrons que, de génération en génération, le Maître <i>a offert la possibilité de se convertir</i> à tous ceux qui voulaient se retourner vers lui. Noé prêcha la conversion, et ceux qui l’écoutèrent furent sauvés. Jonas annonça aux Ninivites la destruction qui les menaçait. Ils se repentirent de leurs péchés, ils apaisèrent Dieu par leurs supplications et ils obtinrent le salut, bien qu’étrangers à Dieu. Les ministres de la grâce de Dieu, sous l’inspiration de l’Esprit Saint, ont parlé de la conversion. Le Maître de l’univers lui-même en a parlé avec serment&nbsp;: <i>Aussi vrai que je suis vivant, parole du Seigneur, je ne veux pas la mort du pécheur mais sa conversion</i>. Et il ajoute cette sentence pleine de bonté&nbsp;: <i>Convertissez-vous, maison d’Israël, de votre iniquité. Dis aux fils de mon peuple&nbsp;: Vos péchés monteraient-ils de la terre jusqu’au ciel, seraient-ils plus rouges que l’écarlate et plus noirs qu’un vêtement de deuil, si vous vous retournez vers moi de tout votre cœur et me dites&nbsp;:’Père&nbsp;!’, je vous écouterai comme un peuple saint</i>. ~ Voilà ce qu’il a fixé par sa volonté toute-puissante, parce qu’il veut faire participer tous ceux qu’il aime à la conversion. C’est pourquoi nous devons obéir à sa magnifique et glorieuse volonté. Implorons humblement sa miséricorde et sa bonté, prosternons-nous, tournons-nous vers sa compassion en abandonnant les préoccupations frivoles, la discorde et la jalousie qui conduisent à la mort. ~ Ayons d’humbles sentiments, mes frères, rejetons tous les sentiments de jactance, d’orgueil, de folie et de colère, et agissons selon l’Écriture. En effet l’Esprit Saint a dit&nbsp;: <i>Que le sage ne s’enorgueillisse pas de sa sagesse, ni le riche de sa richesse, mais que celui qui veut s’enorgueillir s’enorgueillisse, dans le Seigneur, de le chercher, et de pratiquer le droit et la justice</i>. Souvenons-nous surtout des paroles du Seigneur Jésus, lorsqu’il nous enseignait la bienveillance et la patience. Car il parlait ainsi&nbsp;: <i>Soyez miséricordieux, pour qu’on vous fasse miséricorde&nbsp;; pardonnez, afin qu’on vous pardonne&nbsp;; comme vous agissez, ainsi on agira avec vous&nbsp;; comme vous donnez, ainsi on vous donnera&nbsp;; comme vous jugez, c’est ainsi que vous serez jugés&nbsp;; comme vous exercerez la bonté, ainsi sera-t-elle exercée envers vous&nbsp;; la mesure dont vous vous servez pour les autres servira aussi pour vous</i>. Attachons-nous fermement à ce précepte et à ces commandements, afin de nous conduire en obéissant à ces paroles sacrées, avec d’humbles sentiments. Car voici ce que dit la parole sainte&nbsp;: <i>Vers qui tournerai-je mon regard, sinon vers l’homme doux, pacifique, qui tremble à mes paroles&nbsp;?</i> ~ Puisque nous avons part à des actions si nombreuses, grandes et éclatantes, qui nous ont été données en exemple, tournons de nouveau notre course vers le but qui nous a été proposé dès le commencement, vers la paix. Regardons attentivement le Père et créateur du monde entier, attachons-nous à ses bienfaits magnifiques et insurpassables, qu’il nous donne dans la paix.</p>",
-      "responsory": "<p>R/ Venez, montons à la montagne du Seigneur<br> pour qu’il nous enseigne ses voies.</p> <p>Moi, le Seigneur, je t’enseigne ce qui t’est salutaire,<br> je te fais cheminer sur les sentiers où tu marches.</p> <p>Je suis le Chemin, la Vérité et la Vie.<br> Qui me suit ne marche pas dans les ténèbres.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Le jeûne qui plaît à Dieu",
+        "ref": "Is 58, 1-12",
+        "content": "<p>Crie à pleine gorge&nbsp;! Ne te retiens pas&nbsp;! Que s’élève ta voix comme le cor&nbsp;! Dénonce à mon peuple sa révolte, à la maison de Jacob ses péchés. Ils viennent me consulter jour après jour, ils veulent connaître mes chemins. Comme une nation qui pratiquerait la justice et n’abandonnerait pas le droit de son Dieu, ils me demandent des ordonnances justes, ils voudraient que Dieu soit proche&nbsp;: «&nbsp;Quand nous jeûnons, pourquoi ne le vois-tu pas&nbsp;? Quand nous faisons pénitence, pourquoi ne le sais-tu pas&nbsp;?&nbsp;» Oui, mais le jour où vous jeûnez, vous savez bien faire vos affaires, et vous traitez durement ceux qui peinent pour vous. Votre jeûne se passe en disputes et querelles, en coups de poing sauvages. Ce n’est pas en jeûnant comme vous le faites aujourd’hui que vous ferez entendre là-haut votre voix. Est-ce là le jeûne qui me plaît, un jour où l’homme se rabaisse&nbsp;? S’agit-il de courber la tête comme un roseau, de coucher sur le sac et la cendre&nbsp;? Appelles-tu cela un jeûne, un jour agréable au SEIGNEUR&nbsp;? Le jeûne qui me plaît, n’est-ce pas ceci&nbsp;: faire tomber les chaînes injustes, délier les attaches du joug, rendre la liberté aux opprimés, briser tous les jougs&nbsp;? N’est-ce pas partager ton pain avec celui qui a faim, accueillir chez toi les pauvres sans abri, couvrir celui que tu verras sans vêtement, ne pas te dérober à ton semblable&nbsp;? Alors ta lumière jaillira comme l’aurore, et tes forces reviendront vite. Devant toi marchera ta justice, et la gloire du SEIGNEUR fermera la marche. Alors, si tu appelles, le SEIGNEUR répondra&nbsp;; si tu cries, il dira&nbsp;: «&nbsp;Me voici.&nbsp;» Si tu fais disparaître de chez toi le joug, le geste accusateur, la parole malfaisante, si tu donnes à celui qui a faim ce que toi, tu désires, et si tu combles les désirs du malheureux, ta lumière se lèvera dans les ténèbres et ton obscurité sera lumière de midi. Le SEIGNEUR sera toujours ton guide. En plein désert, il comblera tes désirs et te rendra vigueur. Tu seras comme un jardin bien irrigué, comme une source où les eaux ne manquent jamais. Tu rebâtiras les ruines anciennes, tu restaureras les fondations séculaires. On t’appellera&nbsp;: «&nbsp;Celui qui répare les brèches&nbsp;», «&nbsp;Celui qui remet en service les chemins&nbsp;».</p>",
+        "responsory": "<p>R/ Partage ton pain avec l’affamé,<br> voilà le jeûne qui plaît à Dieu.</p> <p>Ouvre ton cœur au pauvre&nbsp;: c’est ton frère.<br> Et si tu cries, le Seigneur répondra&nbsp;;<br> à tes appels, il dira&nbsp;: Me voici&nbsp;!</p> <p>Ouvre ton cœur au pauvre&nbsp;: c’est ton frère.<br> Et quand le Fils de l’homme viendra, il te dira&nbsp;:<br> J’avais faim et tu m’as donné à manger.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "LETTRE DE SAINT CLÉMENT DE ROME AUX CORINTHIENS",
+        "subtitle": "«&nbsp;Convertissez-vous&nbsp;»",
+        "content": "<p>Fixons nos regards sur le sang du Christ, et comprenons combien il a de valeur pour son Père, puisque, répandu pour notre salut, il a procuré au monde entier la grâce de la conversion. Parcourons toutes les générations et nous apprendrons que, de génération en génération, le Maître <i>a offert la possibilité de se convertir</i> à tous ceux qui voulaient se retourner vers lui. Noé prêcha la conversion, et ceux qui l’écoutèrent furent sauvés. Jonas annonça aux Ninivites la destruction qui les menaçait. Ils se repentirent de leurs péchés, ils apaisèrent Dieu par leurs supplications et ils obtinrent le salut, bien qu’étrangers à Dieu. Les ministres de la grâce de Dieu, sous l’inspiration de l’Esprit Saint, ont parlé de la conversion. Le Maître de l’univers lui-même en a parlé avec serment&nbsp;: <i>Aussi vrai que je suis vivant, parole du Seigneur, je ne veux pas la mort du pécheur mais sa conversion</i>. Et il ajoute cette sentence pleine de bonté&nbsp;: <i>Convertissez-vous, maison d’Israël, de votre iniquité. Dis aux fils de mon peuple&nbsp;: Vos péchés monteraient-ils de la terre jusqu’au ciel, seraient-ils plus rouges que l’écarlate et plus noirs qu’un vêtement de deuil, si vous vous retournez vers moi de tout votre cœur et me dites&nbsp;:’Père&nbsp;!’, je vous écouterai comme un peuple saint</i>. ~ Voilà ce qu’il a fixé par sa volonté toute-puissante, parce qu’il veut faire participer tous ceux qu’il aime à la conversion. C’est pourquoi nous devons obéir à sa magnifique et glorieuse volonté. Implorons humblement sa miséricorde et sa bonté, prosternons-nous, tournons-nous vers sa compassion en abandonnant les préoccupations frivoles, la discorde et la jalousie qui conduisent à la mort. ~ Ayons d’humbles sentiments, mes frères, rejetons tous les sentiments de jactance, d’orgueil, de folie et de colère, et agissons selon l’Écriture. En effet l’Esprit Saint a dit&nbsp;: <i>Que le sage ne s’enorgueillisse pas de sa sagesse, ni le riche de sa richesse, mais que celui qui veut s’enorgueillir s’enorgueillisse, dans le Seigneur, de le chercher, et de pratiquer le droit et la justice</i>. Souvenons-nous surtout des paroles du Seigneur Jésus, lorsqu’il nous enseignait la bienveillance et la patience. Car il parlait ainsi&nbsp;: <i>Soyez miséricordieux, pour qu’on vous fasse miséricorde&nbsp;; pardonnez, afin qu’on vous pardonne&nbsp;; comme vous agissez, ainsi on agira avec vous&nbsp;; comme vous donnez, ainsi on vous donnera&nbsp;; comme vous jugez, c’est ainsi que vous serez jugés&nbsp;; comme vous exercerez la bonté, ainsi sera-t-elle exercée envers vous&nbsp;; la mesure dont vous vous servez pour les autres servira aussi pour vous</i>. Attachons-nous fermement à ce précepte et à ces commandements, afin de nous conduire en obéissant à ces paroles sacrées, avec d’humbles sentiments. Car voici ce que dit la parole sainte&nbsp;: <i>Vers qui tournerai-je mon regard, sinon vers l’homme doux, pacifique, qui tremble à mes paroles&nbsp;?</i> ~ Puisque nous avons part à des actions si nombreuses, grandes et éclatantes, qui nous ont été données en exemple, tournons de nouveau notre course vers le but qui nous a été proposé dès le commencement, vers la paix. Regardons attentivement le Père et créateur du monde entier, attachons-nous à ses bienfaits magnifiques et insurpassables, qu’il nous donne dans la paix.</p>",
+        "responsory": "<p>R/ Venez, montons à la montagne du Seigneur<br> pour qu’il nous enseigne ses voies.</p> <p>Moi, le Seigneur, je t’enseigne ce qui t’est salutaire,<br> je te fais cheminer sur les sentiers où tu marches.</p> <p>Je suis le Chemin, la Vérité et la Vie.<br> Qui me suit ne marche pas dans les ténèbres.</p>"
+      }
+    ],
     "verse": "<p>V/ Convertissez-vous et faites pénitence,<br>faites-vous un cœur et un esprit nouveau.</p>",
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_19",
+        "antiphon": [
+          "Voici venus les jours de la pénitence, le temps du pardon et du salut."
+        ]
+      },
+      {
+        "psalm": "PSALM_93_1"
+      },
+      {
+        "psalm": "PSALM_93_2"
+      }
+    ],
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -93,29 +124,18 @@
       }
     ],
     "reading": {
-      "ref": "Ph 2, 12b-15a",
+      "biblicalReference": "Ph 2, 12b-15a",
       "content": "Travaillez à votre salut dans la crainte de Dieu et en tremblant. Car c’est l’action de Dieu qui produit en vous la volonté et l’action, parce qu’il veut votre bien. Faites tout sans récriminer et sans discuter&nbsp;; ainsi vous serez irréprochables et purs, vous qui êtes des enfants de Dieu sans tache."
     },
-    "evangelicAntiphon": "Quand tu fais l’aumône, que ta main gauche ignore ce que donne ta main droite.",
-    "intercession": "<p>N’oublions pas que l’amour du Seigneur est de toujours à toujours, supplions le Christ, ami des hommes&nbsp;:</p> <p>R/ Souviens-toi que nous sommes poussière.</p> <p>Toi qui guéris la fille de la Cananéenne,</p> <p>Toi qui renouvelles la chair du lépreux,</p> <p>Toi qui délivres les possédés,</p> <p>Toi qui t’assieds à la table des pécheurs,</p> <p>Toi qui connais le cœur de Madeleine,</p> <p>Toi qui pardonnes le reniement de Pierre,</p> <p>Toi qui réclames à la tombe la vie de Lazare.</p> ",
     "responsory": "<p>R/ Sur Dieu, dont j’exalte la parole,<br>  *  Sur Dieu je prends appui.<br> V/ Plus rien ne me fait peur.  * <br> Gloire au Père et au Fils et au Saint-Esprit.&nbsp;R/ <br></p>",
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_19",
-        "antiphon": [
-          "Voici venus les jours de la pénitence, le temps du pardon et du salut."
-        ]
-      },
-      {
-        "psalm": "PSALM_93_1"
-      },
-      {
-        "psalm": "PSALM_93_2"
-      }
-    ],
-    "oration": "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    "evangelicAntiphon": {
+      "common": "Quand tu fais l’aumône, que ta main gauche ignore ce que donne ta main droite."
+    },
+    "intercession": {
+      "content": "<p>N’oublions pas que l’amour du Seigneur est de toujours à toujours, supplions le Christ, ami des hommes&nbsp;:</p> <p>R/ Souviens-toi que nous sommes poussière.</p> <p>Toi qui guéris la fille de la Cananéenne,</p> <p>Toi qui renouvelles la chair du lépreux,</p> <p>Toi qui délivres les possédés,</p> <p>Toi qui t’assieds à la table des pécheurs,</p> <p>Toi qui connais le cœur de Madeleine,</p> <p>Toi qui pardonnes le reniement de Pierre,</p> <p>Toi qui réclames à la tombe la vie de Lazare.</p> "
+    },
+    "oration": [
+      "Accorde-nous, Seigneur, de savoir commencer saintement, par une journée de jeûne, notre entraînement au combat spirituel&nbsp;: que nos privations nous rendent plus forts pour lutter contre l’esprit du mal."
+    ]
   }
 }

@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Celui qui demeure en moi, et en qui je demeure, portera beaucoup de fruit. Alléluia.",
-    "intercession": "<p>Acclamons Jésus Christ&nbsp;: Dieu l’a ressuscité, il nous ressuscitera avec lui.</p> <p>R/ Gloire à toi, Jésus, notre vie&nbsp;!</p> <p>Ô Christ, radieuse lumière qui brille dans nos ténèbres,<br> tu as sanctifié pour toujours notre condition mortelle.</p> <p>Seigneur, toi qui as marché sur la voie du Calvaire,<br> tu nous appelles à te suivre pour mourir et ressusciter avec toi.</p> <p>Fils du Père, notre frère et notre maître,<br> tu fais de nous un peuple de prêtres et de rois.</p> <p>Roi de gloire, nous attendons le jour éclatant de ta manifestation&nbsp;:<br> alors nous te verrons tel que tu es, et nous serons semblables à toi.</p> "
+    "evangelicAntiphon": {
+      "common": "Celui qui demeure en moi, et en qui je demeure, portera beaucoup de fruit. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Acclamons Jésus Christ&nbsp;: Dieu l’a ressuscité, il nous ressuscitera avec lui.</p> <p>R/ Gloire à toi, Jésus, notre vie&nbsp;!</p> <p>Ô Christ, radieuse lumière qui brille dans nos ténèbres,<br> tu as sanctifié pour toujours notre condition mortelle.</p> <p>Seigneur, toi qui as marché sur la voie du Calvaire,<br> tu nous appelles à te suivre pour mourir et ressusciter avec toi.</p> <p>Fils du Père, notre frère et notre maître,<br> tu fais de nous un peuple de prêtres et de rois.</p> <p>Roi de gloire, nous attendons le jour éclatant de ta manifestation&nbsp;:<br> alors nous te verrons tel que tu es, et nous serons semblables à toi.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -50,19 +54,41 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Les noces de l’Agneau",
-      "ref": "Ap 18, 21 –&nbsp;19, 10",
-      "content": "<p>Alors un ange plein de force prit une pierre pareille à une grande meule, et la précipita dans la mer, en disant&nbsp;: «&nbsp;Ainsi, d’un coup, sera précipitée Babylone, la grande ville, on ne la retrouvera jamais plus. La voix des joueurs de cithares et des musiciens, des joueurs de flûte et de trompette, chez toi ne s’entendra jamais plus. Aucun artisan d’aucun métier chez toi ne se trouvera jamais plus, et la voix de la meule chez toi ne s’entendra jamais plus. La lumière de la lampe chez toi ne brillera jamais plus. La voix du jeune époux et de son épouse chez toi ne s’entendra jamais plus. Pourtant, tes marchands étaient les magnats de la terre, et tes sortilèges égaraient toutes les nations&nbsp;! Mais c’est chez toi qu’on a trouvé le sang des prophètes et des saints, et de tous ceux qui furent immolés sur la terre.&nbsp;» Après cela, j’entendis comme la voix forte d’une foule immense dans le ciel, qui proclamait&nbsp;: «&nbsp;Alléluia&nbsp;! Le salut, la gloire, la puissance à notre Dieu. Ils sont vrais, ils sont justes, ses jugements. Il a jugé la grande prostituée qui corrompait la terre par sa prostitution&nbsp;; il a réclamé justice du sang de ses serviteurs, qu’elle a versé de sa main.&nbsp;» Et la foule reprit&nbsp;: «&nbsp;Alléluia&nbsp;! La fumée de l’incendie s’élève pour les siècles des siècles.&nbsp;» Les vingt-quatre Anciens et les quatre Vivants se prosternèrent et adorèrent Dieu qui siège sur le trône&nbsp;; ils proclamaient&nbsp;: «&nbsp;Amen&nbsp;! Alléluia&nbsp;!&nbsp;» Et du Trône sortit une voix qui disait&nbsp;: «&nbsp;Louez notre Dieu, vous tous qui le servez, vous tous qui le craignez, les petits et les grands.&nbsp;» Alors j’entendis comme la voix d’une foule immense, comme la voix des grandes eaux, ou celle de violents coups de tonnerre. Elle proclamait&nbsp;: «&nbsp;Alléluia&nbsp;! Il règne, le Seigneur notre Dieu, le Souverain de l’univers. Soyons dans la joie, exultons, et rendons gloire à Dieu&nbsp;! Car elles sont venues, les Noces de l’Agneau, et pour lui son épouse a revêtu sa parure. Un vêtement de lin fin lui a été donné, splendide et pur.&nbsp;» Car le lin, ce sont les actions justes des saints. Puis l’ange me dit&nbsp;: «&nbsp;Écris&nbsp;: Heureux les invités au repas des noces de l’Agneau&nbsp;!&nbsp;» Il ajouta&nbsp;: «&nbsp;Ce sont les paroles véritables de Dieu.&nbsp;» Je me jetai à ses pieds pour me prosterner devant lui. Il me dit&nbsp;: «&nbsp;Non, ne fais pas cela&nbsp;! Je suis un serviteur comme toi, comme tes frères qui portent le témoignage de Jésus. Prosterne-toi devant Dieu&nbsp;! Car c’est le témoignage de Jésus qui inspire la prophétie.&nbsp;»</p>",
-      "responsory": "<p>R/ Alléluia, alléluia&nbsp;!</p> <p>Le salut, la puissance,<br> la gloire à notre Dieu&nbsp;!<br> Ils sont justes, ils sont vrais,<br> ses jugements.</p> <p>Célébrez notre Dieu,<br> serviteurs du Seigneur,<br> vous tous qui le craignez,<br> les petits et les grands.</p> <p>Il règne, le Seigneur,<br> notre Dieu tout-puissant,<br> Exultons, crions de joie,<br> et rendons-lui la gloire&nbsp;!</p> <p>Car elles sont venues,<br> les Noces de l’Agneau,<br> Et pour lui son épouse<br> a revêtu sa parure.</p>"
-    },
-    "patristicReading": {
-      "title": "HOMÉLIE DE SAINT MAXIME DE TURIN POUR LA PÂQUE",
-      "subtitle": "Le jour qui n’a pas de nuit",
-      "content": "<p>Par la résurrection du Christ, les enfers s’ouvrent, par les nouveaux membres de l’Église, la terre est renouvelée, et le ciel est ouvert par le Saint-Esprit. Car les enfers en s’ouvrant laissent sortir les morts, la terre renouvelée fait germer ceux qui ressuscitent, le ciel ouvert accueille ceux qui y montent. Enfin le malfaiteur monte au paradis, <i>les corps des saints entrent dans la Cité sainte</i>, les morts reviennent à la vie&nbsp;; à la résurrection du Christ, tous les éléments sont comme transfigurés. Les enfers font remonter ceux qu’ils détenaient, la terre envoie au ciel ceux qu’elle avait ensevelis, le ciel présente au Seigneur ceux qu’il accueille&nbsp;; par une seule et même action la passion du Sauveur fait remonter des abîmes, élève au-dessus de la terre, fait trouver place dans les hauteurs. Car la résurrection du Christ est vie pour les morts, pardon pour les pécheurs, gloire pour les saints. Le saint Prophète invite toutes les créatures à fêter la résurrection du Christ, car il dit qu’il faut <i>exulter et se réjouir en ce jour que le Seigneur a fait. ~</i> La lumière du Christ est un jour qui n’a pas de nuit, un jour qui n’a pas de fin. ~ Que le Christ soit lui-même ce jour, l’Apôtre nous le dit&nbsp;: <i>La nuit est partie, le jour est arrivé. La nuit est partie</i>, dit-il, donc elle ne viendra plus&nbsp;; comprenez-le&nbsp;: lorsque survient la lumière du Christ, elle dissipe les ténèbres du démon, et elle n’est pas suivie par la nuit du péché&nbsp;; elle chasse par sa splendeur permanente l’obscurité présente, elle arrête la progression sournoise du péché. ~ C’est le Fils en personne qui est le jour, car le Père qui est aussi le jour lui dévoile son mystère. Je dis bien&nbsp;: il est le jour, lui qui a dit par la bouche de Salomon&nbsp;: <i>J’ai fait se lever dans le ciel la lumière sans déclin</i>. De même que la nuit ne succède jamais à ce jour céleste, de même les ténèbres du péché ne succèdent pas à la justice du Christ. C’est pour toujours que la lumière céleste resplendit, éclaire et brille, et aucune obscurité ne peut l’emprisonner. De même, c’est pour toujours que la lumière du Christ étincelle, rayonne, illumine, et ne peut être arrêtée par aucune obscurité des péchés, ce qui fait dire à saint Jean&nbsp;: <i>La lumière brille dans les ténèbres, et les ténèbres ne l’ont pas arrêtée. ~</i> Donc, mes frères, nous devons tous exulter en ce saint jour. Que personne ne se soustraie à la joie commune parce qu’il a conscience de ses péchés, que personne ne soit écarté des prières communes par le fardeau de ses fautes&nbsp;! En un tel jour, même le pécheur ne doit pas désespérer du pardon&nbsp;; c’est en effet un grand privilège. Si un malfaiteur a obtenu le paradis, pourquoi le chrétien n’obtiendrait-il pas le pardon&nbsp;?</p>",
-      "responsory": "<p>Créatures nouvelles dans le Christ, Stance<br> goûtez son pardon et sa paix&nbsp;:<br> Plus heureux que l’Apôtre Thomas<br> qui toucha les plaies de Jésus,<br> sans le voir, vous le croyez vivant<br> lorsque vous confessez dans l’Esprit Saint&nbsp;:</p> <p>R/ Tu es mon Seigneur et mon Dieu&nbsp;!<br> Alléluia&nbsp;! Alléluia&nbsp;!</p> <p>C’est moi le Seigneur ton Dieu,<br> qui t’ai fait monter de la terre d’Égypte.</p> <p>Je t’ai nourri de la farine du froment<br> et rassasié avec le miel du rocher.</p>"
-    },
-    "oration": "Dieu qui as envoyé ton Fils pour nous sauver et pour faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père&nbsp;; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle."
+    "biblicalReading": [
+      {
+        "title": "Les noces de l’Agneau",
+        "ref": "Ap 18, 21 –&nbsp;19, 10",
+        "content": "<p>Alors un ange plein de force prit une pierre pareille à une grande meule, et la précipita dans la mer, en disant&nbsp;: «&nbsp;Ainsi, d’un coup, sera précipitée Babylone, la grande ville, on ne la retrouvera jamais plus. La voix des joueurs de cithares et des musiciens, des joueurs de flûte et de trompette, chez toi ne s’entendra jamais plus. Aucun artisan d’aucun métier chez toi ne se trouvera jamais plus, et la voix de la meule chez toi ne s’entendra jamais plus. La lumière de la lampe chez toi ne brillera jamais plus. La voix du jeune époux et de son épouse chez toi ne s’entendra jamais plus. Pourtant, tes marchands étaient les magnats de la terre, et tes sortilèges égaraient toutes les nations&nbsp;! Mais c’est chez toi qu’on a trouvé le sang des prophètes et des saints, et de tous ceux qui furent immolés sur la terre.&nbsp;» Après cela, j’entendis comme la voix forte d’une foule immense dans le ciel, qui proclamait&nbsp;: «&nbsp;Alléluia&nbsp;! Le salut, la gloire, la puissance à notre Dieu. Ils sont vrais, ils sont justes, ses jugements. Il a jugé la grande prostituée qui corrompait la terre par sa prostitution&nbsp;; il a réclamé justice du sang de ses serviteurs, qu’elle a versé de sa main.&nbsp;» Et la foule reprit&nbsp;: «&nbsp;Alléluia&nbsp;! La fumée de l’incendie s’élève pour les siècles des siècles.&nbsp;» Les vingt-quatre Anciens et les quatre Vivants se prosternèrent et adorèrent Dieu qui siège sur le trône&nbsp;; ils proclamaient&nbsp;: «&nbsp;Amen&nbsp;! Alléluia&nbsp;!&nbsp;» Et du Trône sortit une voix qui disait&nbsp;: «&nbsp;Louez notre Dieu, vous tous qui le servez, vous tous qui le craignez, les petits et les grands.&nbsp;» Alors j’entendis comme la voix d’une foule immense, comme la voix des grandes eaux, ou celle de violents coups de tonnerre. Elle proclamait&nbsp;: «&nbsp;Alléluia&nbsp;! Il règne, le Seigneur notre Dieu, le Souverain de l’univers. Soyons dans la joie, exultons, et rendons gloire à Dieu&nbsp;! Car elles sont venues, les Noces de l’Agneau, et pour lui son épouse a revêtu sa parure. Un vêtement de lin fin lui a été donné, splendide et pur.&nbsp;» Car le lin, ce sont les actions justes des saints. Puis l’ange me dit&nbsp;: «&nbsp;Écris&nbsp;: Heureux les invités au repas des noces de l’Agneau&nbsp;!&nbsp;» Il ajouta&nbsp;: «&nbsp;Ce sont les paroles véritables de Dieu.&nbsp;» Je me jetai à ses pieds pour me prosterner devant lui. Il me dit&nbsp;: «&nbsp;Non, ne fais pas cela&nbsp;! Je suis un serviteur comme toi, comme tes frères qui portent le témoignage de Jésus. Prosterne-toi devant Dieu&nbsp;! Car c’est le témoignage de Jésus qui inspire la prophétie.&nbsp;»</p>",
+        "responsory": "<p>R/ Alléluia, alléluia&nbsp;!</p> <p>Le salut, la puissance,<br> la gloire à notre Dieu&nbsp;!<br> Ils sont justes, ils sont vrais,<br> ses jugements.</p> <p>Célébrez notre Dieu,<br> serviteurs du Seigneur,<br> vous tous qui le craignez,<br> les petits et les grands.</p> <p>Il règne, le Seigneur,<br> notre Dieu tout-puissant,<br> Exultons, crions de joie,<br> et rendons-lui la gloire&nbsp;!</p> <p>Car elles sont venues,<br> les Noces de l’Agneau,<br> Et pour lui son épouse<br> a revêtu sa parure.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "HOMÉLIE DE SAINT MAXIME DE TURIN POUR LA PÂQUE",
+        "subtitle": "Le jour qui n’a pas de nuit",
+        "content": "<p>Par la résurrection du Christ, les enfers s’ouvrent, par les nouveaux membres de l’Église, la terre est renouvelée, et le ciel est ouvert par le Saint-Esprit. Car les enfers en s’ouvrant laissent sortir les morts, la terre renouvelée fait germer ceux qui ressuscitent, le ciel ouvert accueille ceux qui y montent. Enfin le malfaiteur monte au paradis, <i>les corps des saints entrent dans la Cité sainte</i>, les morts reviennent à la vie&nbsp;; à la résurrection du Christ, tous les éléments sont comme transfigurés. Les enfers font remonter ceux qu’ils détenaient, la terre envoie au ciel ceux qu’elle avait ensevelis, le ciel présente au Seigneur ceux qu’il accueille&nbsp;; par une seule et même action la passion du Sauveur fait remonter des abîmes, élève au-dessus de la terre, fait trouver place dans les hauteurs. Car la résurrection du Christ est vie pour les morts, pardon pour les pécheurs, gloire pour les saints. Le saint Prophète invite toutes les créatures à fêter la résurrection du Christ, car il dit qu’il faut <i>exulter et se réjouir en ce jour que le Seigneur a fait. ~</i> La lumière du Christ est un jour qui n’a pas de nuit, un jour qui n’a pas de fin. ~ Que le Christ soit lui-même ce jour, l’Apôtre nous le dit&nbsp;: <i>La nuit est partie, le jour est arrivé. La nuit est partie</i>, dit-il, donc elle ne viendra plus&nbsp;; comprenez-le&nbsp;: lorsque survient la lumière du Christ, elle dissipe les ténèbres du démon, et elle n’est pas suivie par la nuit du péché&nbsp;; elle chasse par sa splendeur permanente l’obscurité présente, elle arrête la progression sournoise du péché. ~ C’est le Fils en personne qui est le jour, car le Père qui est aussi le jour lui dévoile son mystère. Je dis bien&nbsp;: il est le jour, lui qui a dit par la bouche de Salomon&nbsp;: <i>J’ai fait se lever dans le ciel la lumière sans déclin</i>. De même que la nuit ne succède jamais à ce jour céleste, de même les ténèbres du péché ne succèdent pas à la justice du Christ. C’est pour toujours que la lumière céleste resplendit, éclaire et brille, et aucune obscurité ne peut l’emprisonner. De même, c’est pour toujours que la lumière du Christ étincelle, rayonne, illumine, et ne peut être arrêtée par aucune obscurité des péchés, ce qui fait dire à saint Jean&nbsp;: <i>La lumière brille dans les ténèbres, et les ténèbres ne l’ont pas arrêtée. ~</i> Donc, mes frères, nous devons tous exulter en ce saint jour. Que personne ne se soustraie à la joie commune parce qu’il a conscience de ses péchés, que personne ne soit écarté des prières communes par le fardeau de ses fautes&nbsp;! En un tel jour, même le pécheur ne doit pas désespérer du pardon&nbsp;; c’est en effet un grand privilège. Si un malfaiteur a obtenu le paradis, pourquoi le chrétien n’obtiendrait-il pas le pardon&nbsp;?</p>",
+        "responsory": "<p>Créatures nouvelles dans le Christ, Stance<br> goûtez son pardon et sa paix&nbsp;:<br> Plus heureux que l’Apôtre Thomas<br> qui toucha les plaies de Jésus,<br> sans le voir, vous le croyez vivant<br> lorsque vous confessez dans l’Esprit Saint&nbsp;:</p> <p>R/ Tu es mon Seigneur et mon Dieu&nbsp;!<br> Alléluia&nbsp;! Alléluia&nbsp;!</p> <p>C’est moi le Seigneur ton Dieu,<br> qui t’ai fait monter de la terre d’Égypte.</p> <p>Je t’ai nourri de la farine du froment<br> et rassasié avec le miel du rocher.</p>"
+      }
+    ],
+    "oration": [
+      "Dieu qui as envoyé ton Fils pour nous sauver et pour faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père&nbsp;; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_117_1",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_117_2"
+      },
+      {
+        "psalm": "PSALM_117_3"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +111,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Je vous donne un commandement nouveau&nbsp;: aimez-vous les uns les autres comme je vous ai aimés. Alléluia.",
-    "intercession": "<p>À Jésus, le Vivant, qui ne cesse d’intercéder pour nous, adressons notre prière&nbsp;:</p> <p>R/ Roi de gloire, exauce-nous&nbsp;!</p> <p>Ô Christ, lumière et salut du monde,<br> répands le feu de ton Esprit sur ceux qui confessent ta résurrection.</p> <p>Permets aux fils d’Abraham, d’Isaac et de Jacob<br> de reconnaître en toi le messie de leur espérance.</p> <p>Ceux que tu as fait renaître, ceux que tu as nourris,<br> conduis-les à la plénitude du Royaume.</p> <p>Que toute terre habitée<br> soit illuminée de la lumière de Pâques.</p> <p>Par ton obéissance jusqu’à la mort, par ton exaltation à la droite du Père,<br> ouvre à tes frères les portes du Paradis.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_117_1",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_117_2"
-      },
-      {
-        "psalm": "PSALM_117_3"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Je vous donne un commandement nouveau&nbsp;: aimez-vous les uns les autres comme je vous ai aimés. Alléluia."
+    },
+    "intercession": {
+      "content": "<p>À Jésus, le Vivant, qui ne cesse d’intercéder pour nous, adressons notre prière&nbsp;:</p> <p>R/ Roi de gloire, exauce-nous&nbsp;!</p> <p>Ô Christ, lumière et salut du monde,<br> répands le feu de ton Esprit sur ceux qui confessent ta résurrection.</p> <p>Permets aux fils d’Abraham, d’Isaac et de Jacob<br> de reconnaître en toi le messie de leur espérance.</p> <p>Ceux que tu as fait renaître, ceux que tu as nourris,<br> conduis-les à la plénitude du Royaume.</p> <p>Que toute terre habitée<br> soit illuminée de la lumière de Pâques.</p> <p>Par ton obéissance jusqu’à la mort, par ton exaltation à la droite du Père,<br> ouvre à tes frères les portes du Paradis.</p> "
+    }
   }
 }

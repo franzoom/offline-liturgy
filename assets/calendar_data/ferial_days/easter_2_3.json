@@ -26,8 +26,12 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Dieu a tant aimé le monde qu’il a donné son Fils unique. Ceux qui croiront en lui vivront éternellement, alléluia.",
-    "intercession": "<p>Tournons-nous vers le Père&nbsp;: comme il a tiré son Fils des ténèbres, qu’il nous fasse aujourd’hui marcher dans la lumière&nbsp;:</p> <p>R/ Sois notre Dieu, Dieu de Jésus Christ&nbsp;!</p> <p>Dieu de lumière, pénètre nos cœurs de ta clarté <br> –&nbsp;pour qu’en toute vérité nous puissions te prier&nbsp;:</p> <p>Purifie nos intentions, fortifie nos désirs,<br> –&nbsp;rends-nous fermes dans l’assurance qui nous fait crier vers toi&nbsp;:</p> <p>Fais que nos yeux te voient dans les pauvres, <br> –&nbsp;et qu’avec eux nous t’implorions&nbsp;:</p> <p>Réjouis-nous de tes biens tout au long de ce jour, <br> –&nbsp;et, sûrs de ton amour, nous pourrons chanter&nbsp;:</p> "
+    "evangelicAntiphon": {
+      "common": "Dieu a tant aimé le monde qu’il a donné son Fils unique. Ceux qui croiront en lui vivront éternellement, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Tournons-nous vers le Père&nbsp;: comme il a tiré son Fils des ténèbres, qu’il nous fasse aujourd’hui marcher dans la lumière&nbsp;:</p> <p>R/ Sois notre Dieu, Dieu de Jésus Christ&nbsp;!</p> <p>Dieu de lumière, pénètre nos cœurs de ta clarté <br> –&nbsp;pour qu’en toute vérité nous puissions te prier&nbsp;:</p> <p>Purifie nos intentions, fortifie nos désirs,<br> –&nbsp;rends-nous fermes dans l’assurance qui nous fait crier vers toi&nbsp;:</p> <p>Fais que nos yeux te voient dans les pauvres, <br> –&nbsp;et qu’avec eux nous t’implorions&nbsp;:</p> <p>Réjouis-nous de tes biens tout au long de ce jour, <br> –&nbsp;et, sûrs de ton amour, nous pourrons chanter&nbsp;:</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -50,19 +54,41 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Lettres aux Églises de Pergame et de Thyatire",
-      "ref": "Ap 2, 12-29",
-      "content": "<p>À l’ange de l’Église qui est à Pergame, écris&nbsp;: Ainsi parle celui qui a le glaive acéré à deux tranchants&nbsp;: Je sais où tu habites&nbsp;: c’est là que Satan a son trône&nbsp;; mais tu tiens ferme à mon nom, et tu n’as pas renié ma foi, même dans les jours où Antipas, mon témoin fidèle, a été mis à mort chez vous, là où Satan habite. Mais j’ai quelque chose contre toi&nbsp;: tu as là des gens qui tiennent ferme à la doctrine de Balaam&nbsp;; celui-ci enseignait à Balaq comment faire trébucher les fils d’Israël, pour qu’ils mangent des viandes offertes aux idoles et qu’ils se prostituent. De même, tu as, toi aussi, des gens qui tiennent ferme à la doctrine des Nicolaïtes. Eh bien, convertis-toi&nbsp;: sinon je vais venir à toi sans tarder&nbsp;; avec le glaive de ma bouche je les combattrai. Celui qui a des oreilles, qu’il entende ce que l’Esprit dit aux Églises. Au vainqueur je donnerai de la manne cachée, je lui donnerai un caillou blanc, et, inscrit sur ce caillou, un nom nouveau que nul ne sait, sauf celui qui le reçoit. À l’ange de l’Église qui est à Thyatire, écris&nbsp;: Ainsi parle le Fils de Dieu, celui qui a les yeux comme une flamme ardente et des pieds qui semblent de bronze précieux&nbsp;: Je connais tes actions, je sais ton amour, ta foi, ton engagement, ta persévérance, et tes dernières actions surpassent les premières. Mais j’ai contre toi que tu laisses faire Jézabel, cette femme qui se dit prophétesse, et qui égare mes serviteurs en leur enseignant à se prostituer et à manger des viandes offertes aux idoles. Je lui ai donné du temps pour se convertir, mais elle ne veut pas se convertir de sa prostitution. Voici que je vais la jeter sur un lit de grande détresse, elle et ses compagnons d’adultère, à moins que, renonçant aux agissements de cette femme, ils ne se convertissent&nbsp;; et ses enfants, je vais les frapper de mort. Toutes les Églises reconnaîtront que moi, je suis celui qui scrute les reins et les cœurs, et je donnerai à chacun de vous selon ses œuvres. Mais vous, les autres de Thyatire, qui ne partagez pas cette doctrine et n’avez pas connu les «&nbsp;profondeurs de Satan&nbsp;» —&nbsp;comme ils disent&nbsp;—, je vous déclare que je ne vous impose pas d’autre fardeau&nbsp;; tenez fermement, du moins, ce que vous avez, jusqu’à ce que je vienne. Le vainqueur, celui qui reste fidèle jusqu’à la fin à ma façon d’agir, je lui donnerai autorité sur les nations, et il les conduira avec un sceptre de fer, comme des vases de potier que l’on brise. Il sera comme moi qui ai reçu autorité de mon Père, et je lui donnerai l’étoile du matin. Celui qui a des oreilles, qu’il entende ce que l’Esprit dit aux Églises.</p>",
-      "responsory": "<p>R/ Point de ténèbre devant toi,<br> Lumière du monde, alléluia&nbsp;!</p> <p>Le Fils de l’homme va venir<br> dans la gloire de son Père&nbsp;:<br> à chacun il rendra selon sa conduite.</p> <p>Tes yeux sont une flamme ardente<br> qui connaît le fond des cœurs.</p> <p>Scrute-moi, Seigneur, connais mon cœur,<br> conduis-moi sur le chemin d’éternité.</p>"
-    },
-    "patristicReading": {
-      "title": "SERMON DE SAINT LÉON LE GRAND SUR LA PASSION",
-      "subtitle": "Le Christ est vivant dans son Église",
-      "content": "<p>Il n’y a pas de doute, mes bien-aimés, qu’en prenant la nature humaine, le Fils de Dieu s’y est uni très étroitement&nbsp;; au point que, non seulement chez cet homme qui est le <i>premier-né de toute créature</i>, mais encore chez tous les saints, ce n’est qu’un seul et même Christ&nbsp;; et comme on ne peut séparer la tête de ses membres, on ne peut pas non plus séparer les membres de leur tête. Que <i>Dieu soit tout en tous</i>, cela n’appartient pas à la vie présente, mais à la vie éternelle. Toutefois, même maintenant, il habite son temple, qui est l’Église, sans pouvoir en être séparé, comme il l’a lui-même promis&nbsp;: <i>Voici que je suis avec vous tous les jours jusqu’à la fin des temps</i>. ~ Tout ce que le Fils de Dieu a fait et enseigné pour la réconciliation du monde, nous ne le connaissons pas seulement par l’histoire du passé, mais encore nous en éprouvons l’efficacité par ses œuvres présentes. C’est lui qui, né d’une mère vierge par l’action du Saint-Esprit, rend féconde son Église très pure, en vertu de cet Esprit&nbsp;; aussi, par l’enfantement du baptême, une foule innombrable de fils de Dieu sont engendrés, dont il est dit&nbsp;: <i>Ils ne sont pas nés de la chair et du sang, ni d’une volonté charnelle, ni d’une volonté d’homme&nbsp;: ils sont nés de Dieu</i>. C’est en lui que la descendance d’Abraham est bénie parce que le monde entier se reconnaît en elle&nbsp;: le patriarche devient père des nations lorsque naissent des fils de la promesse, non pas de la chair mais en vertu de la foi. C’est lui qui, sans excepter aucun peuple, forme de toutes les nations qui sont sous le ciel un seul troupeau de brebis saintes, et qui accomplit chaque jour ce qu’il avait promis&nbsp;: <i>J’ai encore d’autres brebis, qui ne sont pas de cette bergerie&nbsp;: il faut que je les conduise avec les autres. Elles écouteront ma voix&nbsp;: il y aura un seul troupeau, un seul pasteur</i>. Il a dit à saint Pierre, le premier des Apôtres&nbsp;: <i>Conduis mes brebis</i>. Mais celui qui régit la charge de tous les pasteurs, c’est le Seigneur seul&nbsp;; et il nourrit ceux qui viennent vers la «&nbsp;pierre&nbsp;» dans des pâturages si plaisants et si bien arrosés que des brebis innombrables, fortifiées par la richesse de son amour, n’hésitent pas à mourir pour le nom de leur pasteur, de même que le bon Pasteur a daigné donner sa vie pour ses brebis. C’est à lui, c’est à ses souffrances que s’associe non seulement l’héroïsme des martyrs, mais aussi la foi de tous les fidèles qui renaissent, et cela dans le sacrement même de leur régénération. ~ Voici comment la Pâque du Seigneur est célébrée dignement, <i>avec le pain sans levain de la droiture et de la vérité</i>&nbsp;: lorsque la nouvelle créature a rejeté le ferment de l’ancienne malice, et qu’elle s’enivre et se nourrit du Seigneur lui-même. Car tout l’effet de la participation au corps et au sang du Christ est de nous transformer en ce que nous consommons&nbsp;; morts avec lui, ensevelis avec lui, ressuscités avec lui, portons-le toujours dans notre esprit et dans notre chair.</p>",
-      "responsory": "<p>R/ Allons dans la joie puiser aux sources du salut&nbsp;!</p> <p>Celui qui boira de l’eau que je lui donnerai<br> n’aura plus jamais soif.</p> <p>L’eau que je vous donnerai deviendra en vous<br> source jaillissant en vie éternelle.</p>"
-    },
-    "oration": "Chaque année, Seigneur, tu nous fais revivre le mystère pascal où l’homme, rétabli dans sa dignité, trouve l’espérance de la résurrection&nbsp;; donne-nous de toujours accueillir avec amour ce que nous célébrons dans la foi."
+    "biblicalReading": [
+      {
+        "title": "Lettres aux Églises de Pergame et de Thyatire",
+        "ref": "Ap 2, 12-29",
+        "content": "<p>À l’ange de l’Église qui est à Pergame, écris&nbsp;: Ainsi parle celui qui a le glaive acéré à deux tranchants&nbsp;: Je sais où tu habites&nbsp;: c’est là que Satan a son trône&nbsp;; mais tu tiens ferme à mon nom, et tu n’as pas renié ma foi, même dans les jours où Antipas, mon témoin fidèle, a été mis à mort chez vous, là où Satan habite. Mais j’ai quelque chose contre toi&nbsp;: tu as là des gens qui tiennent ferme à la doctrine de Balaam&nbsp;; celui-ci enseignait à Balaq comment faire trébucher les fils d’Israël, pour qu’ils mangent des viandes offertes aux idoles et qu’ils se prostituent. De même, tu as, toi aussi, des gens qui tiennent ferme à la doctrine des Nicolaïtes. Eh bien, convertis-toi&nbsp;: sinon je vais venir à toi sans tarder&nbsp;; avec le glaive de ma bouche je les combattrai. Celui qui a des oreilles, qu’il entende ce que l’Esprit dit aux Églises. Au vainqueur je donnerai de la manne cachée, je lui donnerai un caillou blanc, et, inscrit sur ce caillou, un nom nouveau que nul ne sait, sauf celui qui le reçoit. À l’ange de l’Église qui est à Thyatire, écris&nbsp;: Ainsi parle le Fils de Dieu, celui qui a les yeux comme une flamme ardente et des pieds qui semblent de bronze précieux&nbsp;: Je connais tes actions, je sais ton amour, ta foi, ton engagement, ta persévérance, et tes dernières actions surpassent les premières. Mais j’ai contre toi que tu laisses faire Jézabel, cette femme qui se dit prophétesse, et qui égare mes serviteurs en leur enseignant à se prostituer et à manger des viandes offertes aux idoles. Je lui ai donné du temps pour se convertir, mais elle ne veut pas se convertir de sa prostitution. Voici que je vais la jeter sur un lit de grande détresse, elle et ses compagnons d’adultère, à moins que, renonçant aux agissements de cette femme, ils ne se convertissent&nbsp;; et ses enfants, je vais les frapper de mort. Toutes les Églises reconnaîtront que moi, je suis celui qui scrute les reins et les cœurs, et je donnerai à chacun de vous selon ses œuvres. Mais vous, les autres de Thyatire, qui ne partagez pas cette doctrine et n’avez pas connu les «&nbsp;profondeurs de Satan&nbsp;» —&nbsp;comme ils disent&nbsp;—, je vous déclare que je ne vous impose pas d’autre fardeau&nbsp;; tenez fermement, du moins, ce que vous avez, jusqu’à ce que je vienne. Le vainqueur, celui qui reste fidèle jusqu’à la fin à ma façon d’agir, je lui donnerai autorité sur les nations, et il les conduira avec un sceptre de fer, comme des vases de potier que l’on brise. Il sera comme moi qui ai reçu autorité de mon Père, et je lui donnerai l’étoile du matin. Celui qui a des oreilles, qu’il entende ce que l’Esprit dit aux Églises.</p>",
+        "responsory": "<p>R/ Point de ténèbre devant toi,<br> Lumière du monde, alléluia&nbsp;!</p> <p>Le Fils de l’homme va venir<br> dans la gloire de son Père&nbsp;:<br> à chacun il rendra selon sa conduite.</p> <p>Tes yeux sont une flamme ardente<br> qui connaît le fond des cœurs.</p> <p>Scrute-moi, Seigneur, connais mon cœur,<br> conduis-moi sur le chemin d’éternité.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "SERMON DE SAINT LÉON LE GRAND SUR LA PASSION",
+        "subtitle": "Le Christ est vivant dans son Église",
+        "content": "<p>Il n’y a pas de doute, mes bien-aimés, qu’en prenant la nature humaine, le Fils de Dieu s’y est uni très étroitement&nbsp;; au point que, non seulement chez cet homme qui est le <i>premier-né de toute créature</i>, mais encore chez tous les saints, ce n’est qu’un seul et même Christ&nbsp;; et comme on ne peut séparer la tête de ses membres, on ne peut pas non plus séparer les membres de leur tête. Que <i>Dieu soit tout en tous</i>, cela n’appartient pas à la vie présente, mais à la vie éternelle. Toutefois, même maintenant, il habite son temple, qui est l’Église, sans pouvoir en être séparé, comme il l’a lui-même promis&nbsp;: <i>Voici que je suis avec vous tous les jours jusqu’à la fin des temps</i>. ~ Tout ce que le Fils de Dieu a fait et enseigné pour la réconciliation du monde, nous ne le connaissons pas seulement par l’histoire du passé, mais encore nous en éprouvons l’efficacité par ses œuvres présentes. C’est lui qui, né d’une mère vierge par l’action du Saint-Esprit, rend féconde son Église très pure, en vertu de cet Esprit&nbsp;; aussi, par l’enfantement du baptême, une foule innombrable de fils de Dieu sont engendrés, dont il est dit&nbsp;: <i>Ils ne sont pas nés de la chair et du sang, ni d’une volonté charnelle, ni d’une volonté d’homme&nbsp;: ils sont nés de Dieu</i>. C’est en lui que la descendance d’Abraham est bénie parce que le monde entier se reconnaît en elle&nbsp;: le patriarche devient père des nations lorsque naissent des fils de la promesse, non pas de la chair mais en vertu de la foi. C’est lui qui, sans excepter aucun peuple, forme de toutes les nations qui sont sous le ciel un seul troupeau de brebis saintes, et qui accomplit chaque jour ce qu’il avait promis&nbsp;: <i>J’ai encore d’autres brebis, qui ne sont pas de cette bergerie&nbsp;: il faut que je les conduise avec les autres. Elles écouteront ma voix&nbsp;: il y aura un seul troupeau, un seul pasteur</i>. Il a dit à saint Pierre, le premier des Apôtres&nbsp;: <i>Conduis mes brebis</i>. Mais celui qui régit la charge de tous les pasteurs, c’est le Seigneur seul&nbsp;; et il nourrit ceux qui viennent vers la «&nbsp;pierre&nbsp;» dans des pâturages si plaisants et si bien arrosés que des brebis innombrables, fortifiées par la richesse de son amour, n’hésitent pas à mourir pour le nom de leur pasteur, de même que le bon Pasteur a daigné donner sa vie pour ses brebis. C’est à lui, c’est à ses souffrances que s’associe non seulement l’héroïsme des martyrs, mais aussi la foi de tous les fidèles qui renaissent, et cela dans le sacrement même de leur régénération. ~ Voici comment la Pâque du Seigneur est célébrée dignement, <i>avec le pain sans levain de la droiture et de la vérité</i>&nbsp;: lorsque la nouvelle créature a rejeté le ferment de l’ancienne malice, et qu’elle s’enivre et se nourrit du Seigneur lui-même. Car tout l’effet de la participation au corps et au sang du Christ est de nous transformer en ce que nous consommons&nbsp;; morts avec lui, ensevelis avec lui, ressuscités avec lui, portons-le toujours dans notre esprit et dans notre chair.</p>",
+        "responsory": "<p>R/ Allons dans la joie puiser aux sources du salut&nbsp;!</p> <p>Celui qui boira de l’eau que je lui donnerai<br> n’aura plus jamais soif.</p> <p>L’eau que je vous donnerai deviendra en vous<br> source jaillissant en vie éternelle.</p>"
+      }
+    ],
+    "oration": [
+      "Chaque année, Seigneur, tu nous fais revivre le mystère pascal où l’homme, rétabli dans sa dignité, trouve l’espérance de la résurrection&nbsp;; donne-nous de toujours accueillir avec amour ce que nous célébrons dans la foi."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_8",
+        "antiphon": [
+          "Alléluia, alléluia, alléluia&nbsp;!"
+        ]
+      },
+      {
+        "psalm": "PSALM_54_1_2"
+      },
+      {
+        "psalm": "PSALM_54_3"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -85,23 +111,11 @@
         ]
       }
     ],
-    "evangelicAntiphon": "Celui qui fait la vérité vient à la lumière, et ses œuvres sont les œuvres de Dieu, alléluia.",
-    "intercession": "<p>Supplions le Tout-Puissant qui nous a rendu la vie en Jésus ressuscité&nbsp;:</p> <p>R/ Comble-nous de ta miséricorde.</p> <p>Dieu de nos pères, tu as fait passer ton peuple par les eaux du baptême&nbsp;:<br> –&nbsp;convertis nos cœurs à la vie nouvelle.</p> <p>Tu nous as ramenés de la dispersion vers le Pasteur de nos âmes&nbsp;:<br> –&nbsp;donne-nous d’être fidèles à sa voix.</p> <p>Tu as voulu que la Parole du salut vienne du peuple juif&nbsp;:<br> –&nbsp;révèle aux enfants d’Israël que la promesse faite à leurs pères est accomplie.</p> <p>Tu as réconcilié tous les êtres dans le Christ&nbsp;:<br> –&nbsp;ne laisse pas les amis séparés, les époux désunis.</p> <p>Tu as fait voir à Étienne la gloire de ton Fils&nbsp;:<br> –&nbsp;ouvre ton Paradis à ceux qui sont morts pour lui.</p> "
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_8",
-        "antiphon": [
-          "Alléluia, alléluia, alléluia&nbsp;!"
-        ]
-      },
-      {
-        "psalm": "PSALM_54_1_2"
-      },
-      {
-        "psalm": "PSALM_54_3"
-      }
-    ]
+    "evangelicAntiphon": {
+      "common": "Celui qui fait la vérité vient à la lumière, et ses œuvres sont les œuvres de Dieu, alléluia."
+    },
+    "intercession": {
+      "content": "<p>Supplions le Tout-Puissant qui nous a rendu la vie en Jésus ressuscité&nbsp;:</p> <p>R/ Comble-nous de ta miséricorde.</p> <p>Dieu de nos pères, tu as fait passer ton peuple par les eaux du baptême&nbsp;:<br> –&nbsp;convertis nos cœurs à la vie nouvelle.</p> <p>Tu nous as ramenés de la dispersion vers le Pasteur de nos âmes&nbsp;:<br> –&nbsp;donne-nous d’être fidèles à sa voix.</p> <p>Tu as voulu que la Parole du salut vienne du peuple juif&nbsp;:<br> –&nbsp;révèle aux enfants d’Israël que la promesse faite à leurs pères est accomplie.</p> <p>Tu as réconcilié tous les êtres dans le Christ&nbsp;:<br> –&nbsp;ne laisse pas les amis séparés, les époux désunis.</p> <p>Tu as fait voir à Étienne la gloire de ton Fils&nbsp;:<br> –&nbsp;ouvre ton Paradis à ceux qui sont morts pour lui.</p> "
+    }
   }
 }

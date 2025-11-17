@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Rm 8, 10-11",
+      "biblicalReference": "Rm 8, 10-11",
       "content": "Si le Christ est en vous, votre corps a beau être voué à la mort à cause du péché, l’Esprit est votre vie, parce que vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous."
     },
-    "evangelicAntiphon": "Jésus vint au milieu de ses disciples&nbsp;; il leur dit&nbsp;: La paix soit avec vous. Alléluia&nbsp;!",
-    "intercession": "<p>Jésus ressuscité, tu réjouis ton Église par ta présence, écoute sa prière&nbsp;:</p> <p>R/ Christ vainqueur, sois au milieu de nous.</p> <p>Tu as vaincu la mort et le péché, <br> –&nbsp;libère-nous des puissances du mal.</p> <p>Viens à nous dans ta force invincible, <br> –&nbsp;montre-nous la douceur de ton amour.</p> <p>Toi seul réconcilies, toi seul régénères, <br> –&nbsp;que tes baptisés changent ce monde sans justice.</p> <p>Soutiens notre combat tant qu’il dure, <br> –&nbsp;jusqu’à l’heure de ton retour.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Jésus vint au milieu de ses disciples&nbsp;; il leur dit&nbsp;: La paix soit avec vous. Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Jésus ressuscité, tu réjouis ton Église par ta présence, écoute sa prière&nbsp;:</p> <p>R/ Christ vainqueur, sois au milieu de nous.</p> <p>Tu as vaincu la mort et le péché, <br> –&nbsp;libère-nous des puissances du mal.</p> <p>Viens à nous dans ta force invincible, <br> –&nbsp;montre-nous la douceur de ton amour.</p> <p>Toi seul réconcilies, toi seul régénères, <br> –&nbsp;que tes baptisés changent ce monde sans justice.</p> <p>Soutiens notre combat tant qu’il dure, <br> –&nbsp;jusqu’à l’heure de ton retour.</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -55,20 +59,42 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Témoins du Christ",
-      "ref": "1P 3, 1-17",
-      "content": "<p>Vous les femmes, soyez soumises à votre mari, pour que, même si certains refusent d’obéir à la parole de Dieu, ils soient gagnés par la conduite de leur femme et non par des paroles, en ouvrant les yeux devant votre attitude pure et pleine de respect. Que votre parure ne soit pas extérieure — coiffure élaborée, bijoux d’or, vêtements recherchés –&nbsp;mais qu’elle soit une qualité d’humanité au plus intime de votre cœur, parure impérissable d’un esprit doux et paisible&nbsp;: voilà ce qui a grande valeur devant Dieu. C’est cela qui faisait la parure des saintes femmes de jadis, elles qui espéraient en Dieu, soumises chacune à leur mari, comme Sara qui obéissait à Abraham, en l’appelant seigneur. Vous êtes devenues les filles de Sara en faisant le bien, sans vous laisser troubler par aucune crainte. De même, vous les maris, sachez comprendre, dans la vie commune, que la femme est un être plus délicat&nbsp;; accordez-lui l’honneur qui lui revient, puisqu’elle hérite, au même titre que vous, de la grâce de la vie. Ainsi, rien ne fera obstacle à vos prières. Vous tous, enfin, vivez en parfait accord, dans la sympathie, l’amour fraternel, la compassion et l’esprit d’humilité. Ne rendez pas le mal pour le mal, ni l’insulte pour l’insulte&nbsp;; au contraire, invoquez sur les autres la bénédiction, car c’est à cela que vous avez été appelés, afin de recevoir en héritage cette bénédiction. En effet, comme il est écrit&nbsp;: <i>Celui qui veut aimer la vie et connaître des jours heureux, qu’il garde sa langue du mal et ses lèvres des paroles perfides&nbsp;; qu’il se détourne du mal et qu’il fasse le bien, qu’il recherche la paix, et qu’il la poursuive</i>. Car <i>le Seigneur regarde les justes, il écoute, attentif à leur demande. Mais le Seigneur affronte les méchants</i>. Qui donc vous fera du mal, si vous cherchez le bien avec ardeur&nbsp;? Mais s’il vous arrivait de souffrir pour la justice, heureux seriez-vous&nbsp;! Comme dit l’Écriture&nbsp;: <i>N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler</i>. <i>Honorez</i> dans vos cœurs la sainteté du Seigneur, le Christ. Soyez prêts à tout moment à présenter une défense devant quiconque vous demande de rendre raison de l’espérance qui est en vous&nbsp;; mais faites-le avec douceur et respect. Ayez une conscience droite, afin que vos adversaires soient pris de honte sur le point même où ils disent du mal de vous pour la bonne conduite que vous avez dans le Christ. Car mieux vaudrait souffrir en faisant le bien, si c’était la volonté de Dieu, plutôt qu’en faisant le mal.</p>",
-      "responsory": "<p>R/ Sanctifions le Christ, alléluia,<br> il est Seigneur, alléluia.</p> <p>Heureux les doux, heureux les artisans de paix&nbsp;:<br> ils seront appelés fils de Dieu.</p> <p>Ne rendez pas l’injure pour l’injure&nbsp;:<br> bénissez votre ennemi.</p> <p>Si vous devez souffrir pour la justice,<br> réjouissez-vous et bondissez de joie.</p>"
-    },
-    "patristicReading": {
-      "title": "CATÉCHÈSE DE JÉRUSALEM AUX NOUVEAUX BAPTISÉS",
-      "subtitle": "Baptisés dans la mort et la résurrection du Christ",
-      "content": "<p>Vous avez été conduits par la main à la piscine du baptême, comme le Christ est allé de la croix au tombeau qui est devant vous. On a demandé à chacun s’il croyait au nom du Père et du Fils, et du Saint-Esprit. Vous avez proclamé la confession de foi qui donne le salut et vous avez été plongés trois fois dans l’eau, et ensuite vous en êtes sortis. C’est ainsi que vous avez rappelé symboliquement la sépulture du Christ pendant trois jours. De même, en effet, que notre Sauveur a passé <i>trois jours et trois nuits au cœur de la terre</i>, c’est ainsi que vous, en sortant de l’eau pour la première fois, vous avez représenté la première journée du Christ dans la terre&nbsp;; et la nuit, en étant plongés. Celui qui est dans la nuit ne voit plus rien, tandis que celui qui est dans le jour vit dans la lumière. C’est ainsi qu’en étant plongés comme dans la nuit vous ne voyiez rien&nbsp;; mais en sortant de l’eau vous vous retrouviez comme dans le jour. Dans un même moment vous mouriez et vous naissiez. Cette eau de salut est devenue à la fois votre sépulture et votre mère. Ce que Salomon dit à un autre sujet pourrait s’appliquer à vous&nbsp;: <i>Il y a un temps pour enfanter, et un temps pour mourir</i>. Mais pour vous c’était l’inverse&nbsp;: un temps pour mourir et un temps pour naître. Un seul temps a produit les deux effets, et votre naissance a coïncidé avec votre mort. Chose étrange et incroyable&nbsp;! Nous n’avons pas été véritablement morts ni véritablement ensevelis, et nous avons ressuscité sans être véritablement crucifiés. Mais si la représentation ne réalise qu’une image, le salut, lui, est véritable. Le Christ a été réellement crucifié, réellement enseveli, et il a ressuscité véritablement. Et tout ceci nous est accordé par grâce. Unis par la représentation de ses souffrances, c’est en toute vérité que nous gagnons le salut. Bonté excessive pour les hommes&nbsp;! Le Christ a reçu les clous dans ses mains toutes pures, et il a souffert&nbsp;; et moi, qui n’ai connu ni la souffrance ni la peine, il me fait, par pure grâce, participer au salut&nbsp;! Personne donc ne doit penser que le baptême consiste simplement dans le pardon des péchés et la grâce de la filiation adoptive&nbsp;; il en était ainsi pour le baptême de Jean, qui ne procurait que le pardon des péchés. Mais nous savons très précisément que notre baptême, s’il est purification des péchés et nous attire le don de l’Esprit Saint, est aussi l’empreinte et l’image de la passion du Christ. C’est pourquoi saint Paul proclamait&nbsp;: Ne le savez-vous pas&nbsp;? <i>Nous tous, qui avons été baptisés en Jésus Christ, c’est dans sa mort que nous avons été baptisés. Nous avons donc été mis au tombeau avec lui par le baptême</i>.</p>",
-      "responsory": "<p>Hommes nouveaux Stance<br> baptisés dans le Christ, alléluia,<br> vous avez revêtu le Christ, alléluia&nbsp;!<br> Héritiers avec lui d’un Royaume de lumière,<br> vous possédez la liberté des fils de Dieu<br> pour annoncer au monde&nbsp;:</p> <p>R/ Nous sommes au Christ,<br> et le Christ est à Dieu.<br> Alléluia&nbsp;! Alléluia&nbsp;!</p> <p>Venez, voyez les gestes de Dieu,<br> redoutable en hauts faits pour les hommes.</p> <p>Il changea la mer en terre ferme,<br> on passa le fleuve à pied sec.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Témoins du Christ",
+        "ref": "1P 3, 1-17",
+        "content": "<p>Vous les femmes, soyez soumises à votre mari, pour que, même si certains refusent d’obéir à la parole de Dieu, ils soient gagnés par la conduite de leur femme et non par des paroles, en ouvrant les yeux devant votre attitude pure et pleine de respect. Que votre parure ne soit pas extérieure — coiffure élaborée, bijoux d’or, vêtements recherchés –&nbsp;mais qu’elle soit une qualité d’humanité au plus intime de votre cœur, parure impérissable d’un esprit doux et paisible&nbsp;: voilà ce qui a grande valeur devant Dieu. C’est cela qui faisait la parure des saintes femmes de jadis, elles qui espéraient en Dieu, soumises chacune à leur mari, comme Sara qui obéissait à Abraham, en l’appelant seigneur. Vous êtes devenues les filles de Sara en faisant le bien, sans vous laisser troubler par aucune crainte. De même, vous les maris, sachez comprendre, dans la vie commune, que la femme est un être plus délicat&nbsp;; accordez-lui l’honneur qui lui revient, puisqu’elle hérite, au même titre que vous, de la grâce de la vie. Ainsi, rien ne fera obstacle à vos prières. Vous tous, enfin, vivez en parfait accord, dans la sympathie, l’amour fraternel, la compassion et l’esprit d’humilité. Ne rendez pas le mal pour le mal, ni l’insulte pour l’insulte&nbsp;; au contraire, invoquez sur les autres la bénédiction, car c’est à cela que vous avez été appelés, afin de recevoir en héritage cette bénédiction. En effet, comme il est écrit&nbsp;: <i>Celui qui veut aimer la vie et connaître des jours heureux, qu’il garde sa langue du mal et ses lèvres des paroles perfides&nbsp;; qu’il se détourne du mal et qu’il fasse le bien, qu’il recherche la paix, et qu’il la poursuive</i>. Car <i>le Seigneur regarde les justes, il écoute, attentif à leur demande. Mais le Seigneur affronte les méchants</i>. Qui donc vous fera du mal, si vous cherchez le bien avec ardeur&nbsp;? Mais s’il vous arrivait de souffrir pour la justice, heureux seriez-vous&nbsp;! Comme dit l’Écriture&nbsp;: <i>N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler</i>. <i>Honorez</i> dans vos cœurs la sainteté du Seigneur, le Christ. Soyez prêts à tout moment à présenter une défense devant quiconque vous demande de rendre raison de l’espérance qui est en vous&nbsp;; mais faites-le avec douceur et respect. Ayez une conscience droite, afin que vos adversaires soient pris de honte sur le point même où ils disent du mal de vous pour la bonne conduite que vous avez dans le Christ. Car mieux vaudrait souffrir en faisant le bien, si c’était la volonté de Dieu, plutôt qu’en faisant le mal.</p>",
+        "responsory": "<p>R/ Sanctifions le Christ, alléluia,<br> il est Seigneur, alléluia.</p> <p>Heureux les doux, heureux les artisans de paix&nbsp;:<br> ils seront appelés fils de Dieu.</p> <p>Ne rendez pas l’injure pour l’injure&nbsp;:<br> bénissez votre ennemi.</p> <p>Si vous devez souffrir pour la justice,<br> réjouissez-vous et bondissez de joie.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "CATÉCHÈSE DE JÉRUSALEM AUX NOUVEAUX BAPTISÉS",
+        "subtitle": "Baptisés dans la mort et la résurrection du Christ",
+        "content": "<p>Vous avez été conduits par la main à la piscine du baptême, comme le Christ est allé de la croix au tombeau qui est devant vous. On a demandé à chacun s’il croyait au nom du Père et du Fils, et du Saint-Esprit. Vous avez proclamé la confession de foi qui donne le salut et vous avez été plongés trois fois dans l’eau, et ensuite vous en êtes sortis. C’est ainsi que vous avez rappelé symboliquement la sépulture du Christ pendant trois jours. De même, en effet, que notre Sauveur a passé <i>trois jours et trois nuits au cœur de la terre</i>, c’est ainsi que vous, en sortant de l’eau pour la première fois, vous avez représenté la première journée du Christ dans la terre&nbsp;; et la nuit, en étant plongés. Celui qui est dans la nuit ne voit plus rien, tandis que celui qui est dans le jour vit dans la lumière. C’est ainsi qu’en étant plongés comme dans la nuit vous ne voyiez rien&nbsp;; mais en sortant de l’eau vous vous retrouviez comme dans le jour. Dans un même moment vous mouriez et vous naissiez. Cette eau de salut est devenue à la fois votre sépulture et votre mère. Ce que Salomon dit à un autre sujet pourrait s’appliquer à vous&nbsp;: <i>Il y a un temps pour enfanter, et un temps pour mourir</i>. Mais pour vous c’était l’inverse&nbsp;: un temps pour mourir et un temps pour naître. Un seul temps a produit les deux effets, et votre naissance a coïncidé avec votre mort. Chose étrange et incroyable&nbsp;! Nous n’avons pas été véritablement morts ni véritablement ensevelis, et nous avons ressuscité sans être véritablement crucifiés. Mais si la représentation ne réalise qu’une image, le salut, lui, est véritable. Le Christ a été réellement crucifié, réellement enseveli, et il a ressuscité véritablement. Et tout ceci nous est accordé par grâce. Unis par la représentation de ses souffrances, c’est en toute vérité que nous gagnons le salut. Bonté excessive pour les hommes&nbsp;! Le Christ a reçu les clous dans ses mains toutes pures, et il a souffert&nbsp;; et moi, qui n’ai connu ni la souffrance ni la peine, il me fait, par pure grâce, participer au salut&nbsp;! Personne donc ne doit penser que le baptême consiste simplement dans le pardon des péchés et la grâce de la filiation adoptive&nbsp;; il en était ainsi pour le baptême de Jean, qui ne procurait que le pardon des péchés. Mais nous savons très précisément que notre baptême, s’il est purification des péchés et nous attire le don de l’Esprit Saint, est aussi l’empreinte et l’image de la passion du Christ. C’est pourquoi saint Paul proclamait&nbsp;: Ne le savez-vous pas&nbsp;? <i>Nous tous, qui avons été baptisés en Jésus Christ, c’est dans sa mort que nous avons été baptisés. Nous avons donc été mis au tombeau avec lui par le baptême</i>.</p>",
+        "responsory": "<p>Hommes nouveaux Stance<br> baptisés dans le Christ, alléluia,<br> vous avez revêtu le Christ, alléluia&nbsp;!<br> Héritiers avec lui d’un Royaume de lumière,<br> vous possédez la liberté des fils de Dieu<br> pour annoncer au monde&nbsp;:</p> <p>R/ Nous sommes au Christ,<br> et le Christ est à Dieu.<br> Alléluia&nbsp;! Alléluia&nbsp;!</p> <p>Venez, voyez les gestes de Dieu,<br> redoutable en hauts faits pour les hommes.</p> <p>Il changea la mer en terre ferme,<br> on passa le fleuve à pied sec.</p>"
+      }
+    ],
     "verse": "<p>V/ En ta résurrection, ô Christ, alléluia.<br>le ciel et la terre se réjouissent, alléluia.</p>",
-    "oration": "Dieu qui as uni tant de peuples divers dans la même confession de ton nom, accorde à tous les baptisés d’avoir au cœur la même foi et dans la vie le même amour."
+    "oration": [
+      "Dieu qui as uni tant de peuples divers dans la même confession de ton nom, accorde à tous les baptisés d’avoir au cœur la même foi et dans la vie le même amour."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_4",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_75_1"
+      },
+      {
+        "psalm": "PSALM_75_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +118,15 @@
       }
     ],
     "reading": {
-      "ref": "1 P 3, 18.22",
+      "biblicalReference": "1 P 3, 18.22",
       "content": "Le Christ est mort pour les péchés, une fois pour toutes&nbsp;; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort&nbsp;; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu."
     },
-    "evangelicAntiphon": "Voyez mes mains et mes pieds&nbsp;: c’est bien moi. Alléluia&nbsp;!",
-    "intercession": "<p>Seigneur Jésus, tu es mort et ressuscité pour le salut de tous les hommes, souviens-toi de chacun&nbsp;:</p> <p>R/ Visite-nous, Seigneur ressuscité.</p> <p>Toi, le médecin des âmes et des corps,<br> –&nbsp;relève et fortifie les malades.</p> <p>Secours des opprimés,<br> –&nbsp;soutiens ceux que frappe l’injustice ou l’échec.</p> <p>Frère de l’homme seul et misérable,<br> –&nbsp;réconforte celui qui souffre l’épreuve et le deuil.</p> <p>Par ta croix, la joie est entrée dans le monde&nbsp;:<br> –&nbsp;accorde à nos défunts la plénitude de cette joie.</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_4",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_75_1"
-      },
-      {
-        "psalm": "PSALM_75_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Du silence du tombeau<br> est monté un chant nouveau.&nbsp;R/ <br> V/ L’Église chante son Seigneur<br> et Dieu habite les louanges de son peuple.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Voyez mes mains et mes pieds&nbsp;: c’est bien moi. Alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Seigneur Jésus, tu es mort et ressuscité pour le salut de tous les hommes, souviens-toi de chacun&nbsp;:</p> <p>R/ Visite-nous, Seigneur ressuscité.</p> <p>Toi, le médecin des âmes et des corps,<br> –&nbsp;relève et fortifie les malades.</p> <p>Secours des opprimés,<br> –&nbsp;soutiens ceux que frappe l’injustice ou l’échec.</p> <p>Frère de l’homme seul et misérable,<br> –&nbsp;réconforte celui qui souffre l’épreuve et le deuil.</p> <p>Par ta croix, la joie est entrée dans le monde&nbsp;:<br> –&nbsp;accorde à nos défunts la plénitude de cette joie.</p> "
+    }
   }
 }

@@ -1,31 +1,41 @@
 {
+  "celebration": {
+    "title": "Bienheureuse Vierge Marie, Mère de l’Église",
+    "commons": [
+      "virgin-mary"
+    ],
+    "grade": 10,
+    "color": "white"
+  },
   "morning": {
     "hymn": [
       "quae-caritatis-fulgidum"
     ],
-    "evangelicAntiphon": "Le Seigneur dit à sa mère&nbsp;: «&nbsp;Femme, voici ton fils.&nbsp;» Et il dit au disciple&nbsp;: «&nbsp;Voici ta mère.&nbsp;»"
+    "evangelicAntiphon": {
+      "common": "Le Seigneur dit à sa mère&nbsp;: «&nbsp;Femme, voici ton fils.&nbsp;» Et il dit au disciple&nbsp;: «&nbsp;Voici ta mère.&nbsp;»"
+    }
   },
   "readings": {
-    "patristicReading": {
-      "title": "De l’allocution du pape Saint Paul VI, lors de la clôture de la troisième session du concile Vatican II",
-      "content": "<p>Considérant les rapports étroits entre Marie et l’Église, c’est pour sa gloire et pour notre réconfort que nous proclamons la Très Sainte Vierge Marie Mère de l’Église, c’est-à-dire de tout le peuple de Dieu, aussi bien des fidèles que des pasteurs, que nous l’appelons Mère très aimante&nbsp;; et nous voulons que, dorénavant, avec ce titre si doux, la Vierge soit encore davantage honorée et invoquée par tout le peuple chrétien.</p> <p>Il s’agit d’un titre, Vénérables Frères, qui n’est pas nouveau pour la piété des chrétiens —&nbsp;c’est même de préférence sous ce nom de Mère que les chrétiens et toute l’Église aiment invoquer Marie. Ce titre, en vérité, appartient à l’authentique substance de la dévotion à Marie, trouvant sa justification dans la dignité même de la Mère du Verbe incarné.</p> <p>De même que la maternité divine est le fondement de la relation spéciale de Marie avec le Christ et de sa présence dans l’économie du salut opéré par le Christ Jésus, de même elle constitue le fondement principal des rapports entre Marie et l’Église, car elle est Mère de Celui qui, depuis le premier instant de l’Incarnation dans son sein virginal, s’est uni, en tant que chef, son Corps mystique qui est l’Église. Marie, donc, en tant que Mère du Christ, est Mère aussi de tous les pasteurs et fidèles, c’est-à-dire de l’Église.</p> <p>C’est donc l’âme pleine de confiance et d’amour filial que nous levons les yeux vers elle, malgré notre indignité et notre faiblesse. Elle, qui nous a donné avec Jésus la source de la grâce, ne manquera pas de secourir l’Église alors que, dans l’abondance des dons du Saint-Esprit, l’Épouse du Christ s’adonne avec un nouvel élan à sa mission de salut.</p> <p>Et notre confiance est encore ravivée et renforcée lorsque nous considérons les liens très étroits qui lient notre Mère du ciel au genre humain. Dans toute la richesse des prérogatives admirables dont Dieu l’a dotée pour la rendre digne d’être la Mère du Verbe incarné, elle n’en est pas moins toute proche de nous. Fille d’Adam comme nous, et donc notre sœur par le lien de la nature, elle est cependant la créature préservée du péché originel à cause des futurs mérites du Sauveur, et qui, aux privilèges qu’elle a obtenus, joint la vertu personnelle d’une foi totale et exemplaire, méritant l’éloge évangélique&nbsp;: «&nbsp;Bienheureuse, toi qui as cru.&nbsp;»</p> <p>Durant sa vie terrestre, elle a réalisé la figure parfaite du disciple du Christ, miroir de toutes les vertus, et elle a incarné les béatitudes évangéliques proclamées par le Christ. C’est pourquoi en elle toute l’Église, dans son incomparable variété de vie et d’œuvres, atteint la plus authentique forme de l’imitation parfaite du Christ.</p>",
-      "responsory": "<p>R/ L’Esprit Saint est venu en Marie&nbsp;: la Puissance du Très-Haut l’a prise sous son ombre.</p> Celle qui fut associée à la passion de son Fils, il l’a comblée aussi pour qu’elle soit la Mère des rachetés.</p> Gloire au Père.</p>"
-    },
     "hymn": [
       "o-virgo-mater-filia"
+    ],
+    "patristicReading": [
+      {
+        "title": "De l’allocution du pape Saint Paul VI, lors de la clôture de la troisième session du concile Vatican II",
+        "content": "<p>Considérant les rapports étroits entre Marie et l’Église, c’est pour sa gloire et pour notre réconfort que nous proclamons la Très Sainte Vierge Marie Mère de l’Église, c’est-à-dire de tout le peuple de Dieu, aussi bien des fidèles que des pasteurs, que nous l’appelons Mère très aimante&nbsp;; et nous voulons que, dorénavant, avec ce titre si doux, la Vierge soit encore davantage honorée et invoquée par tout le peuple chrétien.</p> <p>Il s’agit d’un titre, Vénérables Frères, qui n’est pas nouveau pour la piété des chrétiens —&nbsp;c’est même de préférence sous ce nom de Mère que les chrétiens et toute l’Église aiment invoquer Marie. Ce titre, en vérité, appartient à l’authentique substance de la dévotion à Marie, trouvant sa justification dans la dignité même de la Mère du Verbe incarné.</p> <p>De même que la maternité divine est le fondement de la relation spéciale de Marie avec le Christ et de sa présence dans l’économie du salut opéré par le Christ Jésus, de même elle constitue le fondement principal des rapports entre Marie et l’Église, car elle est Mère de Celui qui, depuis le premier instant de l’Incarnation dans son sein virginal, s’est uni, en tant que chef, son Corps mystique qui est l’Église. Marie, donc, en tant que Mère du Christ, est Mère aussi de tous les pasteurs et fidèles, c’est-à-dire de l’Église.</p> <p>C’est donc l’âme pleine de confiance et d’amour filial que nous levons les yeux vers elle, malgré notre indignité et notre faiblesse. Elle, qui nous a donné avec Jésus la source de la grâce, ne manquera pas de secourir l’Église alors que, dans l’abondance des dons du Saint-Esprit, l’Épouse du Christ s’adonne avec un nouvel élan à sa mission de salut.</p> <p>Et notre confiance est encore ravivée et renforcée lorsque nous considérons les liens très étroits qui lient notre Mère du ciel au genre humain. Dans toute la richesse des prérogatives admirables dont Dieu l’a dotée pour la rendre digne d’être la Mère du Verbe incarné, elle n’en est pas moins toute proche de nous. Fille d’Adam comme nous, et donc notre sœur par le lien de la nature, elle est cependant la créature préservée du péché originel à cause des futurs mérites du Sauveur, et qui, aux privilèges qu’elle a obtenus, joint la vertu personnelle d’une foi totale et exemplaire, méritant l’éloge évangélique&nbsp;: «&nbsp;Bienheureuse, toi qui as cru.&nbsp;»</p> <p>Durant sa vie terrestre, elle a réalisé la figure parfaite du disciple du Christ, miroir de toutes les vertus, et elle a incarné les béatitudes évangéliques proclamées par le Christ. C’est pourquoi en elle toute l’Église, dans son incomparable variété de vie et d’œuvres, atteint la plus authentique forme de l’imitation parfaite du Christ.</p>",
+        "responsory": "<p>R/ L’Esprit Saint est venu en Marie&nbsp;: la Puissance du Très-Haut l’a prise sous son ombre.</p> Celle qui fut associée à la passion de son Fils, il l’a comblée aussi pour qu’elle soit la Mère des rachetés.</p> Gloire au Père.</p>"
+      }
     ]
   },
   "vespers": {
     "hymn": [
       "ave-maris-stella"
     ],
-    "evangelicAntiphon": "Les disciples, d’un seul cœur, persévéraient dans la prière avec Marie, la mère de Jésus."
+    "evangelicAntiphon": {
+      "common": "Les disciples, d’un seul cœur, persévéraient dans la prière avec Marie, la mère de Jésus."
+    }
   },
-  "celebrationTitle": "Bienheureuse Vierge Marie, Mère de l’Église",
-  "liturgicalGrade": 10,
-  "liturgicalColor": "white",
-  "commons": [
-    "virgin-mary"
-  ],
-  "oration": "Dieu, Père de toute miséricorde, ton Fils unique, cloué sur la croix, a voulu que la bienheureuse Vierge Marie, sa mère, soit aussi notre mère&nbsp;; accorde à ton Église, soutenue par son amour, la joie de donner naissance à des enfants toujours plus nombreux, de les voir grandir en sainteté et d’attirer à elle toutes les familles des peuples."
+  "oration": [
+    "Dieu, Père de toute miséricorde, ton Fils unique, cloué sur la croix, a voulu que la bienheureuse Vierge Marie, sa mère, soit aussi notre mère&nbsp;; accorde à ton Église, soutenue par son amour, la joie de donner naissance à des enfants toujours plus nombreux, de les voir grandir en sainteté et d’attirer à elle toutes les familles des peuples."
+  ]
 }

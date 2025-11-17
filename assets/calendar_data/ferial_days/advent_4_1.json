@@ -51,6 +51,22 @@
     ],
     "verse": "<p>V/ Montre-nous, Seigneur, ta bonté,<br> donne-nous enfin le Sauveur.</p>"
   },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_17",
+        "antiphon": [
+          "Les prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
+        ]
+      },
+      {
+        "psalm": "PSALM_81"
+      },
+      {
+        "psalm": "PSALM_119"
+      }
+    ]
+  },
   "vespers": {
     "psalmody": [
       {
@@ -67,22 +83,6 @@
       },
       {
         "psalm": "NT_4"
-      }
-    ]
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_17",
-        "antiphon": [
-          "Les prophètes l’ont dit&nbsp;: le Sauveur naîtra de la Vierge Marie."
-        ]
-      },
-      {
-        "psalm": "PSALM_81"
-      },
-      {
-        "psalm": "PSALM_119"
       }
     ]
   }

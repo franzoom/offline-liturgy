@@ -27,12 +27,16 @@
       }
     ],
     "reading": {
-      "ref": "Ac 5, 30-32",
+      "biblicalReference": "Ac 5, 30-32",
       "content": "Le Dieu de nos pères a ressuscité Jésus, que vous aviez exécuté en le pendant au bois du supplice. C’est lui que Dieu, par sa puissance, a élevé en faisant de lui le Chef, le Sauveur, pour apporter à Israël la conversion et le pardon des péchés. Quant à nous, nous sommes les témoins de tout cela, avec l’Esprit Saint, que Dieu a donné à ceux qui lui obéissent."
     },
-    "evangelicAntiphon": "Le disciple que Jésus aimait dit à Pierre&nbsp;: C’est le Seigneur&nbsp;! Alléluia.",
-    "intercession": "<p>Jésus, notre berger, ta mort disperse le troupeau,<br> ta résurrection le rassemble.</p> <p>R/ Ô Christ ressuscité, gloire à toi&nbsp;!</p> <p>Tu laisses vide le tombeau,<br> tu te montres vivant à ceux qui croient.</p> <p>La peur tient tes Apôtres enfermés,<br> tu parais et les envoies jusqu’au bout du monde.</p> <p>Sans toi, les pêcheurs du lac n’ont rien pris,<br> au matin, tu remplis leur filet.</p> <p>Ta passion avait troublé leur cœur,<br> mais tu leur dis&nbsp;: La paix soit avec vous&nbsp;!</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Voici le jour où l’Agneau immolé<br> est entré dans la gloire.&nbsp;R/ <br> V/ Par sa mort, il a détruit la mort,<br> aux morts il a rendu la vie.&nbsp;R/ <br></p>"
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Voici le jour où l’Agneau immolé<br> est entré dans la gloire.&nbsp;R/ <br> V/ Par sa mort, il a détruit la mort,<br> aux morts il a rendu la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Le disciple que Jésus aimait dit à Pierre&nbsp;: C’est le Seigneur&nbsp;! Alléluia."
+    },
+    "intercession": {
+      "content": "<p>Jésus, notre berger, ta mort disperse le troupeau,<br> ta résurrection le rassemble.</p> <p>R/ Ô Christ ressuscité, gloire à toi&nbsp;!</p> <p>Tu laisses vide le tombeau,<br> tu te montres vivant à ceux qui croient.</p> <p>La peur tient tes Apôtres enfermés,<br> tu parais et les envoies jusqu’au bout du monde.</p> <p>Sans toi, les pêcheurs du lac n’ont rien pris,<br> au matin, tu remplis leur filet.</p> <p>Ta passion avait troublé leur cœur,<br> mais tu leur dis&nbsp;: La paix soit avec vous&nbsp;!</p> "
+    }
   },
   "readings": {
     "psalmody": [
@@ -55,20 +59,42 @@
         ]
       }
     ],
-    "biblicalReading": {
-      "title": "Attente de la manifestation du Seigneur",
-      "ref": "1P 3, 18 –&nbsp;4, 11",
-      "content": "<p>Car le Christ, lui aussi, a souffert pour les péchés, une seule fois, lui, le juste, pour les injustes, afin de vous introduire devant Dieu&nbsp;; il a été mis à mort dans la chair, mais vivifié dans l’Esprit. C’est en lui qu’il est parti proclamer son message aux esprits qui étaient en captivité. Ceux-ci, jadis, avaient refusé d’obéir, au temps où se prolongeait la patience de Dieu, quand Noé construisit l’arche, dans laquelle un petit nombre, en tout huit personnes, furent sauvées à travers l’eau. C’était une figure du baptême qui vous sauve maintenant&nbsp;: le baptême ne purifie pas de souillures extérieures, mais il est l’engagement envers Dieu d’une conscience droite et il sauve par la résurrection de Jésus Christ, lui qui est à la droite de Dieu, après s’en être allé au ciel, lui à qui sont soumis les anges, ainsi que les Souverainetés et les Puissances. Puisque le Christ a donc souffert dans la chair, vous aussi, armez-vous de la même pensée, à savoir&nbsp;: quiconque a souffert dans la chair en a fini avec le péché&nbsp;; alors, vous vivrez le temps qui reste à passer dans la chair, non plus selon les convoitises humaines mais selon la volonté de Dieu. Il a assez duré, le temps passé à faire ce que veulent les gens des nations, quand vous vous laissiez aller aux débauches, aux convoitises, à l’ivrognerie, aux orgies, aux beuveries et aux cultes interdits des idoles. À ce propos, ils trouvent étrange que vous ne couriez plus avec eux vers les mêmes débordements d’inconduite, et ils vous couvrent d’injures. Ils auront des comptes à rendre à Celui qui se tient prêt à juger les vivants et les morts. C’est pour cela que l’Évangile a été annoncé aussi aux morts, afin que, jugés selon les hommes dans la chair, ils vivent selon Dieu dans l’Esprit. La fin de toutes choses est proche. Soyez donc raisonnables et sobres en vue de la prière. Avant tout, ayez entre vous une charité intense, car <i>la charité couvre une multitude de péchés</i>. Pratiquez l’hospitalité les uns envers les autres sans récriminer. Ce que chacun de vous a reçu comme don de la grâce, mettez-le au service des autres, en bons gérants de la grâce de Dieu qui est si diverse&nbsp;: si quelqu’un parle, qu’il le fasse comme pour des paroles de Dieu&nbsp;; celui qui assure le service, qu’il s’en acquitte comme avec la force procurée par Dieu. Ainsi, en tout, Dieu sera glorifié par Jésus Christ, à qui appartiennent la gloire et la souveraineté pour les siècles des siècles. Amen.</p>",
-      "responsory": "<p>R/ Nous sommes morts au péché avec le Christ,<br> avec lui, vivons pour Dieu, alléluia&nbsp;!</p> <p>Le Christ est mort pour les péchés,<br> afin de nous présenter à Dieu.</p> <p>Mis à mort en sa chair,<br> ressuscité par l’Esprit,<br> il est à la droite de Dieu.</p>"
-    },
-    "patristicReading": {
-      "title": "CATÉCHÈSE DE JÉRUSALEM AUX NOUVEAUX BAPTISÉS",
-      "subtitle": "Par la chrismation, le baptisé devient «&nbsp;Christ&nbsp;»",
-      "content": "<p>Vous avez été baptisés dans le Christ, et vous avez revêtu le Christ&nbsp;; vous avez donc été configurés au Fils de Dieu. En effet, Dieu qui nous a prédestinés à la filiation adoptive nous a configurés au corps de gloire du Christ. Puisque vous êtes maintenant participants du Christ, vous êtes a juste titre appelés vous-mêmes «&nbsp;christs&nbsp;», et c’est de vous que Dieu disait&nbsp;: <i>Ne touchez pas à mes christs</i>. Or, vous êtes devenus des christs en recevant l’empreinte de l’Esprit Saint&nbsp;; et tout s’est accompli pour vous en image, parce que vous êtes les images du Christ. Pour lui, quand il se fut baigné dans le fleuve du Jourdain et qu’il eut communiqué aux eaux le contact de sa divinité, il en remonta&nbsp;; et la venue substantielle du Saint-Esprit sur lui se produisit, le semblable se reposant sur le semblable. Il en est pareillement pour vous&nbsp;: une fois que vous êtes remontés de la piscine sainte, eut lieu la chrismation, image exacte de celle dont fut marqué le Christ. Il s’agit de l’Esprit Saint. Le prophète Isaïe, faisant parler le Seigneur, disait de lui&nbsp;: <i>L’Esprit du Seigneur est sur moi&nbsp;; car il m’a consacré par la chrismation ; il m’a envoyé porter la Bonne Nouvelle aux pauvres</i>. En effet, le Christ n’a pas été chrismé par les hommes d’une huile ou d’un parfum matériels. Mais c’est le Père qui, l’ayant consacré d’avance comme le Sauveur du monde l’a marqué de l’Esprit Saint, comme le dit saint Pierre&nbsp;: <i>Jésus de Nazareth, que Dieu a chrismé d’Esprit Saint</i>. Et le prophète David proclamait&nbsp;: <i>Ô Dieu, ton trône est pour les siècles des siècles&nbsp;: c’est un sceptre de droiture, le sceptre de ta royauté. Tu aimes la justice et tu hais l’impiété&nbsp;; c’est pourquoi Dieu, ton Dieu, t’a consacré d’une huile d’allégresse, de préférence à tes rivaux</i>. ~ Le Christ a été marqué par l’huile spirituelle d’allégresse, c’est-à-dire par l’Esprit Saint, qui est appelé huile d’allégresse parce qu’il est l’auteur de l’allégresse spirituelle&nbsp;; et vous, vous avez été oints de parfum, vous êtes devenus participants et compagnons du Christ. Mais ne va pas t’imaginer que ce parfum est quelque chose d’ordinaire. ~ Ce saint parfum, après l’invocation pour obtenir le Saint-Esprit, n’est plus un parfum ordinaire et, pourrait-on dire, commun. Il est don spirituel du Christ, devenu, par la présence de l’Esprit Saint, agent efficace de sa divinité. C’est de ce parfum qu’on te chrisme symboliquement sur le front et les autres organes des sens. Tandis que ton corps est oint de parfum visible, l’âme est sanctifiée par le saint et vivifiant Esprit.</p>",
-      "responsory": "<p>Le monde s’ouvre à la vie,<br> l’homme reçoit l’Esprit.<br> Au souffle du Très-Haut<br> se lève un peuple nouveau<br> de toute race, langue et frontière,</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.<br> <p>C’est dans l’Esprit Saint<br> que vous serez baptisés&nbsp;:</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p>"
-    },
+    "biblicalReading": [
+      {
+        "title": "Attente de la manifestation du Seigneur",
+        "ref": "1P 3, 18 –&nbsp;4, 11",
+        "content": "<p>Car le Christ, lui aussi, a souffert pour les péchés, une seule fois, lui, le juste, pour les injustes, afin de vous introduire devant Dieu&nbsp;; il a été mis à mort dans la chair, mais vivifié dans l’Esprit. C’est en lui qu’il est parti proclamer son message aux esprits qui étaient en captivité. Ceux-ci, jadis, avaient refusé d’obéir, au temps où se prolongeait la patience de Dieu, quand Noé construisit l’arche, dans laquelle un petit nombre, en tout huit personnes, furent sauvées à travers l’eau. C’était une figure du baptême qui vous sauve maintenant&nbsp;: le baptême ne purifie pas de souillures extérieures, mais il est l’engagement envers Dieu d’une conscience droite et il sauve par la résurrection de Jésus Christ, lui qui est à la droite de Dieu, après s’en être allé au ciel, lui à qui sont soumis les anges, ainsi que les Souverainetés et les Puissances. Puisque le Christ a donc souffert dans la chair, vous aussi, armez-vous de la même pensée, à savoir&nbsp;: quiconque a souffert dans la chair en a fini avec le péché&nbsp;; alors, vous vivrez le temps qui reste à passer dans la chair, non plus selon les convoitises humaines mais selon la volonté de Dieu. Il a assez duré, le temps passé à faire ce que veulent les gens des nations, quand vous vous laissiez aller aux débauches, aux convoitises, à l’ivrognerie, aux orgies, aux beuveries et aux cultes interdits des idoles. À ce propos, ils trouvent étrange que vous ne couriez plus avec eux vers les mêmes débordements d’inconduite, et ils vous couvrent d’injures. Ils auront des comptes à rendre à Celui qui se tient prêt à juger les vivants et les morts. C’est pour cela que l’Évangile a été annoncé aussi aux morts, afin que, jugés selon les hommes dans la chair, ils vivent selon Dieu dans l’Esprit. La fin de toutes choses est proche. Soyez donc raisonnables et sobres en vue de la prière. Avant tout, ayez entre vous une charité intense, car <i>la charité couvre une multitude de péchés</i>. Pratiquez l’hospitalité les uns envers les autres sans récriminer. Ce que chacun de vous a reçu comme don de la grâce, mettez-le au service des autres, en bons gérants de la grâce de Dieu qui est si diverse&nbsp;: si quelqu’un parle, qu’il le fasse comme pour des paroles de Dieu&nbsp;; celui qui assure le service, qu’il s’en acquitte comme avec la force procurée par Dieu. Ainsi, en tout, Dieu sera glorifié par Jésus Christ, à qui appartiennent la gloire et la souveraineté pour les siècles des siècles. Amen.</p>",
+        "responsory": "<p>R/ Nous sommes morts au péché avec le Christ,<br> avec lui, vivons pour Dieu, alléluia&nbsp;!</p> <p>Le Christ est mort pour les péchés,<br> afin de nous présenter à Dieu.</p> <p>Mis à mort en sa chair,<br> ressuscité par l’Esprit,<br> il est à la droite de Dieu.</p>"
+      }
+    ],
+    "patristicReading": [
+      {
+        "title": "CATÉCHÈSE DE JÉRUSALEM AUX NOUVEAUX BAPTISÉS",
+        "subtitle": "Par la chrismation, le baptisé devient «&nbsp;Christ&nbsp;»",
+        "content": "<p>Vous avez été baptisés dans le Christ, et vous avez revêtu le Christ&nbsp;; vous avez donc été configurés au Fils de Dieu. En effet, Dieu qui nous a prédestinés à la filiation adoptive nous a configurés au corps de gloire du Christ. Puisque vous êtes maintenant participants du Christ, vous êtes a juste titre appelés vous-mêmes «&nbsp;christs&nbsp;», et c’est de vous que Dieu disait&nbsp;: <i>Ne touchez pas à mes christs</i>. Or, vous êtes devenus des christs en recevant l’empreinte de l’Esprit Saint&nbsp;; et tout s’est accompli pour vous en image, parce que vous êtes les images du Christ. Pour lui, quand il se fut baigné dans le fleuve du Jourdain et qu’il eut communiqué aux eaux le contact de sa divinité, il en remonta&nbsp;; et la venue substantielle du Saint-Esprit sur lui se produisit, le semblable se reposant sur le semblable. Il en est pareillement pour vous&nbsp;: une fois que vous êtes remontés de la piscine sainte, eut lieu la chrismation, image exacte de celle dont fut marqué le Christ. Il s’agit de l’Esprit Saint. Le prophète Isaïe, faisant parler le Seigneur, disait de lui&nbsp;: <i>L’Esprit du Seigneur est sur moi&nbsp;; car il m’a consacré par la chrismation ; il m’a envoyé porter la Bonne Nouvelle aux pauvres</i>. En effet, le Christ n’a pas été chrismé par les hommes d’une huile ou d’un parfum matériels. Mais c’est le Père qui, l’ayant consacré d’avance comme le Sauveur du monde l’a marqué de l’Esprit Saint, comme le dit saint Pierre&nbsp;: <i>Jésus de Nazareth, que Dieu a chrismé d’Esprit Saint</i>. Et le prophète David proclamait&nbsp;: <i>Ô Dieu, ton trône est pour les siècles des siècles&nbsp;: c’est un sceptre de droiture, le sceptre de ta royauté. Tu aimes la justice et tu hais l’impiété&nbsp;; c’est pourquoi Dieu, ton Dieu, t’a consacré d’une huile d’allégresse, de préférence à tes rivaux</i>. ~ Le Christ a été marqué par l’huile spirituelle d’allégresse, c’est-à-dire par l’Esprit Saint, qui est appelé huile d’allégresse parce qu’il est l’auteur de l’allégresse spirituelle&nbsp;; et vous, vous avez été oints de parfum, vous êtes devenus participants et compagnons du Christ. Mais ne va pas t’imaginer que ce parfum est quelque chose d’ordinaire. ~ Ce saint parfum, après l’invocation pour obtenir le Saint-Esprit, n’est plus un parfum ordinaire et, pourrait-on dire, commun. Il est don spirituel du Christ, devenu, par la présence de l’Esprit Saint, agent efficace de sa divinité. C’est de ce parfum qu’on te chrisme symboliquement sur le front et les autres organes des sens. Tandis que ton corps est oint de parfum visible, l’âme est sanctifiée par le saint et vivifiant Esprit.</p>",
+        "responsory": "<p>Le monde s’ouvre à la vie,<br> l’homme reçoit l’Esprit.<br> Au souffle du Très-Haut<br> se lève un peuple nouveau<br> de toute race, langue et frontière,</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.<br> <p>C’est dans l’Esprit Saint<br> que vous serez baptisés&nbsp;:</p> <p>R/ Pour devenir le corps de Jésus Christ<br> et transformer la face de la terre.</p>"
+      }
+    ],
     "verse": "<p>V/ Tu nous as fait renaître, alléluia.<br>pour une vivante espérance, alléluia.</p>",
-    "oration": "Dieu éternel et tout-puissant, tu as offert aux hommes le sacrement de Pâques pour les rétablir dans ton alliance&nbsp;; accorde-nous d’exprimer par toute notre vie ce mystère que nous célébrons dans la foi."
+    "oration": [
+      "Dieu éternel et tout-puissant, tu as offert aux hommes le sacrement de Pâques pour les rétablir dans ton alliance&nbsp;; accorde-nous d’exprimer par toute notre vie ce mystère que nous célébrons dans la foi."
+    ]
+  },
+  "middleOfDay": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_118_5",
+        "antiphon": [
+          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
+        ]
+      },
+      {
+        "psalm": "PSALM_95_1"
+      },
+      {
+        "psalm": "PSALM_95_2"
+      }
+    ]
   },
   "vespers": {
     "psalmody": [
@@ -92,27 +118,15 @@
       }
     ],
     "reading": {
-      "ref": "He 5, 8-10",
+      "biblicalReference": "He 5, 8-10",
       "content": "Bien qu’il soit le Fils, le Christ a pourtant appris l’obéissance par les souffrances de sa passion&nbsp;; et, ainsi conduit à sa perfection, il est devenu pour tous ceux qui lui obéissent la cause du salut éternel. Car Dieu l’a proclamé grand prêtre selon le sacerdoce de Melkisédek."
     },
-    "evangelicAntiphon": "Aucun des disciples n’osait lui demander qui il était&nbsp;: ils savaient que c’était le Seigneur, alléluia&nbsp;!",
-    "intercession": "<p>Agneau pascal, immolé, toujours vivant,<br> fais revivre en toi ceux qui ont traversé les eaux du baptême.</p> <p>R/ Amen&nbsp;! Amen&nbsp;! Alléluia&nbsp;!</p> <p>Agneau pascal, qui enlèves le péché du monde,<br> par ton sang versé, purifie-nous.</p> <p>Agneau pascal, qui ouvres le livre de vie,<br> donne à ceux qui te suivent d’y voir leur nom inscrit.</p> <p>Agneau pascal, d’où jaillissent les fleuves d’eau vive,<br> multiplie dans ton Église les fruits de ta grâce.</p> <p>Agneau pascal, qui trônes dans la gloire,<br> sois la lumière de tes élus.</p> <p>Tu es l’alpha, tu es l’oméga,<br> le premier et le dernier,<br> le commencement et la fin,<br> à toi la gloire éternellement&nbsp;!</p> ",
-    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Voici le jour où l’Agneau immolé<br> est entré dans la gloire.&nbsp;R/ <br> V/ Par sa mort, il a détruit la mort,<br> aux morts il a rendu la vie.&nbsp;R/ <br></p>"
-  },
-  "middleOfDay": {
-    "psalmody": [
-      {
-        "psalm": "PSALM_118_5",
-        "antiphon": [
-          "Ant. Christ est ressuscité des morts, alléluia&nbsp;! Christ ne connaît plus la mort, alléluia&nbsp;! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia&nbsp;! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia&nbsp;! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name=\"m_select_office\"]').trigger('change');</script>"
-        ]
-      },
-      {
-        "psalm": "PSALM_95_1"
-      },
-      {
-        "psalm": "PSALM_95_2"
-      }
-    ]
+    "responsory": "<p>R/ Voici le jour que fit le Seigneur,<br> jour de fête et de joie.<br> V/ Voici le jour où l’Agneau immolé<br> est entré dans la gloire.&nbsp;R/ <br> V/ Par sa mort, il a détruit la mort,<br> aux morts il a rendu la vie.&nbsp;R/ <br></p>",
+    "evangelicAntiphon": {
+      "common": "Aucun des disciples n’osait lui demander qui il était&nbsp;: ils savaient que c’était le Seigneur, alléluia&nbsp;!"
+    },
+    "intercession": {
+      "content": "<p>Agneau pascal, immolé, toujours vivant,<br> fais revivre en toi ceux qui ont traversé les eaux du baptême.</p> <p>R/ Amen&nbsp;! Amen&nbsp;! Alléluia&nbsp;!</p> <p>Agneau pascal, qui enlèves le péché du monde,<br> par ton sang versé, purifie-nous.</p> <p>Agneau pascal, qui ouvres le livre de vie,<br> donne à ceux qui te suivent d’y voir leur nom inscrit.</p> <p>Agneau pascal, d’où jaillissent les fleuves d’eau vive,<br> multiplie dans ton Église les fruits de ta grâce.</p> <p>Agneau pascal, qui trônes dans la gloire,<br> sois la lumière de tes élus.</p> <p>Tu es l’alpha, tu es l’oméga,<br> le premier et le dernier,<br> le commencement et la fin,<br> à toi la gloire éternellement&nbsp;!</p> "
+    }
   }
 }

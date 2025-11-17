@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#fichier pour restructurer les données json des fêtes.
+# servira pour automatiser les données qui restent à importer de liturgue-plus.
 """
 Complete script to restructure liturgical JSON files to match the new Morning class structure.
 

@@ -2,7 +2,6 @@ import 'dart:convert';
 import '../feasts/common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
-import '../classes/day_offices_class.dart';
 import '../classes/office_structures.dart';
 import '../tools/extract_week_and_day.dart';
 import '../tools/data_loader.dart';
@@ -218,7 +217,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
 }
 
 /// Extracts Morning data from a JSON file
-/// Reads the file via DataLoader, parses it as DayOffices, and converts to Morning
+/// Reads the file via DataLoader, parses only the 'morning' section
 Future<Morning> morningExtract(
     String relativePath, DataLoader dataLoader) async {
   try {
@@ -229,8 +228,17 @@ Future<Morning> morningExtract(
       return Morning();
     }
 
-    DayOffices dayOffices = DayOffices.fromJSON(jsonDecode(fileContent));
-    return Morning.fromDayOffices(dayOffices);
+    var jsonData = jsonDecode(fileContent);
+
+    // Extract only the "morning" section instead of loading all DayOffices
+    if (jsonData['morning'] != null) {
+      MorningOffice morningOffice =
+          MorningOffice.fromJson(jsonData['morning'] as Map<String, dynamic>);
+      return Morning.fromMorningOffice(morningOffice);
+    }
+
+    // If no "morning" section exists, return empty Morning
+    return Morning();
   } catch (e) {
     // In case of error, return empty Morning
     return Morning();

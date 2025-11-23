@@ -9,11 +9,11 @@ Future<void> main() async {
 
   // Create a DataLoader for pure Dart usage
   final dataLoader = FileSystemDataLoader();
-/*
+
   // Launch Morning prayer generation for the requested day:
   final ferialMornings =
       await ferialMorningResolution(calendar, date, dataLoader);
-*/
+
   // Launch Compline generation for the requested day:
   Map<String, ComplineDefinition> possibleComplines =
       await complineDefinitionResolution(calendar, date, dataLoader);

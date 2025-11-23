@@ -221,26 +221,84 @@ Future<Map<String, Morning>> ferialMorningResolution(
 Future<Morning> morningExtract(
     String relativePath, DataLoader dataLoader) async {
   try {
+    print('=== morningExtract DEBUG ===');
+    print('Loading file: $relativePath');
+
     String fileContent = await dataLoader.loadJson(relativePath);
 
     // If file doesn't exist or is empty, return empty Morning
     if (fileContent.isEmpty) {
+      print('ERROR: File is empty or does not exist');
       return Morning();
     }
 
+    print('File loaded successfully, length: ${fileContent.length}');
+
     var jsonData = jsonDecode(fileContent);
+    print('JSON decoded successfully');
+    print('JSON keys: ${jsonData.keys}');
 
     // Extract only the "morning" section instead of loading all DayOffices
     if (jsonData['morning'] != null) {
+      print('Found "morning" section in JSON');
+      print('Morning section keys: ${jsonData['morning'].keys}');
+
       MorningOffice morningOffice =
           MorningOffice.fromJson(jsonData['morning'] as Map<String, dynamic>);
-      return Morning.fromMorningOffice(morningOffice);
+      print('MorningOffice created');
+      print('MorningOffice has hymn: ${morningOffice.hymn != null}');
+      print('MorningOffice has psalmody: ${morningOffice.psalmody != null}');
+      print(
+          'MorningOffice psalmody length: ${morningOffice.psalmody?.length ?? 0}');
+
+      Morning morning = Morning.fromMorningOffice(morningOffice);
+      print('Morning created from MorningOffice');
+      print('Morning has hymn: ${morning.hymn != null}');
+      print('Morning has psalmody: ${morning.psalmody != null}');
+
+      // Extract invitatory if present and convert to Invitatory
+      if (jsonData['invitatory'] != null) {
+        print('Found "invitatory" section in JSON');
+        InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
+            jsonData['invitatory'] as Map<String, dynamic>);
+        // Convert InvitatoryOffice to Invitatory
+        morning.invitatory = Invitatory(
+          antiphon: invitatoryOffice.antiphon,
+          psalms:
+              invitatoryOffice.psalm != null ? [invitatoryOffice.psalm!] : null,
+        );
+        print('Invitatory added to morning');
+      } else {
+        print('No "invitatory" section found');
+      }
+
+      // If oration is not in morning section, check in readings section
+      if (morning.oration == null && jsonData['readings'] != null) {
+        print('Checking "readings" section for oration');
+        var readingsData = jsonData['readings'];
+        if (readingsData['oration'] != null) {
+          morning.oration = List<String>.from(readingsData['oration']);
+          print('Oration found in readings section: ${morning.oration}');
+        } else {
+          print('No oration found in readings section');
+        }
+      }
+
+      print('=== morningExtract SUCCESS ===');
+      return morning;
+    } else {
+      print('ERROR: No "morning" section found in JSON');
+      print('Available keys: ${jsonData.keys}');
     }
 
     // If no "morning" section exists, return empty Morning
+    print('=== morningExtract FAILED - returning empty Morning ===');
     return Morning();
-  } catch (e) {
+  } catch (e, stackTrace) {
     // In case of error, return empty Morning
+    print('=== morningExtract ERROR ===');
+    print('Error: $e');
+    print('StackTrace: $stackTrace');
     return Morning();
   }
 }

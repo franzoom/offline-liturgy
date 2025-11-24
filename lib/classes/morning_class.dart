@@ -1,4 +1,4 @@
-import 'office_structures.dart';
+import 'office_elements_class.dart';
 
 /// Class representing the Morning Prayer (Laudes) structure
 class Morning {
@@ -24,17 +24,34 @@ class Morning {
     this.oration,
   });
 
-  /// Creates Morning instance directly from MorningOffice JSON structure
-  factory Morning.fromMorningOffice(MorningOffice morningOffice) {
+  /// Creates Morning instance from JSON data
+  factory Morning.fromJson(Map<String, dynamic> json) {
     return Morning(
-      invitatory:
-          null, // Will need to be set separately from invitatory section
-      hymn: morningOffice.hymn,
-      psalmody: morningOffice.psalmody,
-      reading: morningOffice.reading,
-      responsory: morningOffice.responsory,
-      evangelicAntiphon: morningOffice.evangelicAntiphon,
-      intercession: morningOffice.intercession,
+      celebration: json['celebration'] != null
+          ? Celebration.fromJson(json['celebration'] as Map<String, dynamic>)
+          : null,
+      invitatory: json['invitatory'] != null
+          ? Invitatory.fromJson(json['invitatory'] as Map<String, dynamic>)
+          : null,
+      hymn: json['hymn'] != null ? List<String>.from(json['hymn']) : null,
+      psalmody: json['psalmody'] != null
+          ? (json['psalmody'] as List)
+              .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
+              .toList()
+          : null,
+      reading: json['reading'] != null
+          ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
+          : null,
+      responsory: json['responsory'] as String?,
+      evangelicAntiphon: json['evangelicAntiphon'] != null
+          ? EvangelicAntiphon.fromJson(
+              json['evangelicAntiphon'] as Map<String, dynamic>)
+          : null,
+      intercession: json['intercession'] != null
+          ? Intercession.fromJson(json['intercession'] as Map<String, dynamic>)
+          : null,
+      oration:
+          json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
   }
 
@@ -68,21 +85,5 @@ class Morning {
     if (overlay.oration != null) {
       oration = overlay.oration;
     }
-  }
-
-  Map<String, dynamic> toJson() {
-    return {
-      if (celebration != null) 'celebration': celebration!.toJson(),
-      if (invitatory != null) 'invitatory': invitatory!.toJson(),
-      if (hymn != null) 'hymn': hymn,
-      if (psalmody != null)
-        'psalmody': psalmody!.map((entry) => entry.toJson()).toList(),
-      if (reading != null) 'reading': reading!.toJson(),
-      if (responsory != null) 'responsory': responsory,
-      if (evangelicAntiphon != null)
-        'evangelicAntiphon': evangelicAntiphon!.toJson(),
-      if (intercession != null) 'intercession': intercession!.toJson(),
-      if (oration != null) 'oration': oration,
-    };
   }
 }

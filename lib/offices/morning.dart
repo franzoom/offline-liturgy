@@ -2,7 +2,7 @@ import 'dart:convert';
 import '../feasts/common_calendar_definitions.dart';
 import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
-import '../classes/office_structures.dart';
+import '../classes/office_elements_class.dart';
 import '../tools/extract_week_and_day.dart';
 import '../tools/data_loader.dart';
 
@@ -42,25 +42,15 @@ Future<Map<String, Morning>> ferialMorningResolution(
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
 
-    if (dayNumber == 0) {
-      // Special case: Sunday
-      // Use one of the 4 first sundays as reference
-      final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      Morning ferialMorning = await morningExtract(
-          '$ferialFilePath/ot_${referenceWeekNumber}_0.json', dataLoader);
-
-      if (weekNumber > 4) {
-        // Add specific data for sundays after the 4th week
-        Morning sundayAuxData = await morningExtract(
-            '$ferialFilePath/ot_${weekNumber}_0.json', dataLoader);
-        ferialMorning.overlayWith(sundayAuxData);
-      }
-    } else {
-      // Weekday: use only the 4 first weeks (with modulo)
-      final int referenceWeekNumber = ((weekNumber - 1) % 4) + 1;
-      ferialMorning = await morningExtract(
-          '$ferialFilePath/ot_${referenceWeekNumber}_$dayNumber.json',
-          dataLoader);
+    Morning ferialMorning = await morningExtract(
+        // picks the data of the first 4 weeks of the Ordinary Time:
+        '$ferialFilePath/ot_${((weekNumber - 1) % 4) + 1}_$dayNumber.json',
+        dataLoader);
+    if (weekNumber > 4) {
+      // Add specific data after the 4th week
+      Morning auxData = await morningExtract(
+          '$ferialFilePath/ot_${weekNumber}_$dayNumber.json', dataLoader);
+      ferialMorning.overlayWith(auxData);
     }
 
     // Add specific day information from calendar
@@ -243,18 +233,13 @@ Future<Morning> morningExtract(
       print('Found "morning" section in JSON');
       print('Morning section keys: ${jsonData['morning'].keys}');
 
-      MorningOffice morningOffice =
-          MorningOffice.fromJson(jsonData['morning'] as Map<String, dynamic>);
-      print('MorningOffice created');
-      print('MorningOffice has hymn: ${morningOffice.hymn != null}');
-      print('MorningOffice has psalmody: ${morningOffice.psalmody != null}');
-      print(
-          'MorningOffice psalmody length: ${morningOffice.psalmody?.length ?? 0}');
-
-      Morning morning = Morning.fromMorningOffice(morningOffice);
-      print('Morning created from MorningOffice');
+      // Create Morning directly from JSON
+      Morning morning =
+          Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
+      print('Morning created from JSON');
       print('Morning has hymn: ${morning.hymn != null}');
       print('Morning has psalmody: ${morning.psalmody != null}');
+      print('Morning psalmody length: ${morning.psalmody?.length ?? 0}');
 
       // Extract invitatory if present and convert to Invitatory
       if (jsonData['invitatory'] != null) {

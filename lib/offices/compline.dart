@@ -1,4 +1,4 @@
-import '../classes/calendar_class.dart'; // Calendar class
+import '../classes/calendar_class.dart';
 import '../classes/compline_class.dart';
 import '../assets/compline/compline_default.dart';
 import '../assets/compline/compline_paschal_time.dart';
@@ -135,7 +135,9 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
         default:
           correctionCompline = dayCompline;
       }
-      correctionCompline?.celebrationType = complineDefinition.celebrationType;
+      correctionCompline = correctionCompline?.copyWith(
+        celebrationType: complineDefinition.celebrationType,
+      );
       break;
     case 'normal':
       // Use the day of the week for Ordinary Time
@@ -157,7 +159,9 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
         default:
           correctionCompline = dayCompline;
       }
-      correctionCompline?.celebrationType = complineDefinition.celebrationType;
+      correctionCompline = correctionCompline?.copyWith(
+        celebrationType: complineDefinition.celebrationType,
+      );
       break;
     case 'solemnity':
     case 'solemnityeve':
@@ -182,27 +186,31 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
         default:
           correctionCompline = dayCompline;
       }
-      correctionCompline?.celebrationType = complineDefinition.celebrationType;
+      correctionCompline = correctionCompline?.copyWith(
+        celebrationType: complineDefinition.celebrationType,
+      );
       break;
     default:
-      correctionCompline = dayCompline;
-      correctionCompline?.celebrationType = complineDefinition.celebrationType;
+      correctionCompline = dayCompline?.copyWith(
+        celebrationType: complineDefinition.celebrationType,
+      );
   }
   return mergeComplineDay(dayCompline!, correctionCompline!);
 }
 
 Compline mergeComplineDay(Compline base, Compline override) {
   // Replacement of default Complines elements by specific ones
-  return Compline(
-    commentary: override.commentary ?? base.commentary,
-    celebrationType: override.celebrationType ?? base.celebrationType,
-    hymns: override.hymns ?? base.hymns,
-    psalmody: override.psalmody ?? base.psalmody,
-    reading: override.reading ?? base.reading,
-    responsory: override.responsory ?? base.responsory,
-    evangelicAntiphon: override.evangelicAntiphon ?? base.evangelicAntiphon,
-    oration: override.oration ?? base.oration,
-    marialHymnRef: override.marialHymnRef ?? base.marialHymnRef,
+  // Using copyWith for immutable merge
+  return base.copyWith(
+    commentary: override.commentary,
+    celebrationType: override.celebrationType,
+    hymns: override.hymns,
+    psalmody: override.psalmody,
+    reading: override.reading,
+    responsory: override.responsory,
+    evangelicAntiphon: override.evangelicAntiphon,
+    oration: override.oration,
+    marialHymnRef: override.marialHymnRef,
   );
 }
 

@@ -6,54 +6,54 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           "<p>Debout ! Le Seigneur vient !<br>Une voix prophétique<br>A surgi du désert.<br>Un désir, une attente<br>Ont mûri nos esprits.<br>Préparons-nous !<br><br>Debout ! Le Seigneur vient !<br>La parole s’infiltre,<br>Elle ébranle nos cœurs.<br>Et voici le Royaume,<br>Il s’approche, il est là.<br>Réveillons-nous !<br><br>Debout ! Le Seigneur vient !<br>L’espérance nouvelle<br>Entre à flots dans nos vies.<br>Son mystère féconde<br>Un silence de foi.<br>Purifions-nous !<br><br>Debout ! Le Seigneur vient !<br>Bienheureux les convives<br>Au festin de l’amour.<br>Dieu lui-même s’invite<br>Et nous verse la joie.<br>Rassemblons-nous !<br><br>Le Seigneur vient !</p>"),
-  "viens-bientot-sauveur-du-monde": Hymns(
-      title: "Viens bientôt, Sauveur du monde",
+  "viens-bientot": Hymns(
+      title: "Viens bientôt",
       author: "",
       content:
           "<p>Viens bientôt, Sauveur du monde,<br>Lève-toi, clarté d’en haut ;<br>Vrai soleil du jour nouveau,<br>Viens percer la nuit profonde.<br><br>Ta naissance dans l’histoire<br>Transfigure nos tourments<br>En douleurs d’enfantement<br>Où, déjà, surgit ta gloire.<br><br>Vois le mal et la souffrance<br>Et tant d’hommes chancelants<br>Dans l’immense enchaînement<br>Du mépris et des violences.</p>"),
   "une-voix-parcourt-la-terre": Hymns(
       title: "Une voix parcourt la terre",
-      author: "",
+      author: "E202",
       content:
           "<p>Une voix parcourt la terre,<br>Dieu s’approche dans la nuit ;<br>La semence de lumière<br>Donne enfin son fruit.<br><br>Voici l’heure du Royaume,<br>L’arbre mort a refleuri ;<br>Mais devant le Fils de l’homme,<br>Qui pourra tenir ?<br><br>À l’Orient son jour se lève,<br>Nul n’échappe à sa venue ;<br>Sa Parole comme un glaive<br>Met les cœurs à nu.<br><br>Seul le pauvre trouve grâce,<br>Seul le pauvre sait aimer :<br>Dieu l’invite à prendre place<br>Près du Fils aîné.<br><br>Et l’Agneau des sources vives,<br>Dieu fait chair en notre temps,<br>Chaque jour, sous d’humbles signes,<br>Vient à nos devants.<br><br>Offre-lui tes mains ouvertes,<br>Prends son corps livré pour toi ;<br>Son amour sera ta fête,<br>Donne-lui ta foi.<br><br>Marche encore vers la Ville<br>Où tes yeux verront l’Agneau,<br>Cherche en lui la route à suivre,<br>Viens au jour nouveau !</p>"),
   "un-jour-viendra": Hymns(
       title: "Un jour viendra",
-      author: "",
+      author: "E115",
       content:
           "<p>Un jour viendra où Dieu se montrera,<br>Un jour verra la fin de nos combats,<br>Printemps de gloire aux plaines de la mort,<br>Sa vie joyeuse éveillera les corps,<br>Et Dieu vivant sera pour toujours<br>Le cœur d’un monde ouvert à l’amour.<br><br>Demain peut-être à l’heure du sommeil,<br>Voleur de nuit, le Maître du soleil<br>Viendra lever les doutes et les peurs,<br>Ami offrant le pain de ses douleurs,<br>Le Pain de vie qui ne finit pas,<br>Pétri par Dieu au jour de la Croix.<br><br>Ce soir peut-être aux pas d’un inconnu,<br>Nos yeux liront les routes de Jésus.<br>Visage d’homme aux traits marqués de coups,<br>Cortège d’hommes aux poings levés vers nous :<br>Te voir, Seigneur, en tout homme né<br>Sous ton soleil pour ta liberté.<br><br>Un jour viendra où Dieu nous attendra,<br>Son Fils déjà nous dit quel est son choix<br>Ouverte en grand, la porte du festin<br>Verra passer les foules du chemin.<br>Cortège immense aux fleuves du temps,<br>Marchons ensemble où Dieu nous attend.</p>"),
-  "lumiere-pour-lhomme-aujourdhui": Hymns(
+  "lumiere-pour-l-homme-aujourd-hui": Hymns(
       title: "Lumière pour l’homme aujourd’hui",
-      author: "",
+      author: "E61",
       content:
           "<p>Lumière pour l’homme aujourd’hui<br>Qui viens depuis que sur la terre<br>il est un pauvre qui t’espère,<br>Atteins jusqu’à l’aveugle en moi :<br>Touche mes yeux afin qu’ils voient<br>De quel amour<br>Tu me poursuis.<br>Comment savoir d’où vient le jour<br>Si je ne reconnais ma nuit ?<br><br>Parole de Dieu dans ma chair<br>Qui dis le monde et son histoire<br>Afin que l’homme puisse croire,<br>Suscite une réponse en moi :<br>Ouvre ma bouche à cette voix<br>Qui retentit<br>Dans le désert.<br>Comment savoir quel mot tu dis<br>Si je ne tiens mon cœur ouvert ?<br><br>Semence éternelle en mon corps<br>Vivante en moi plus que moi-même<br>Depuis le temps de mon baptême,<br>Féconde mes terrains nouveaux :<br>Germe dans l’ombre de mes os<br>Car je ne suis<br>Que cendre encore.<br>Comment savoir quelle est ta vie,<br>Si je n’accepte pas ma mort ?</p>"),
-  "o-viens-jesus-o-viens-emmanuel": Hymns(
-      title: "Ô viens, Jésus, ô viens, Emmanuel",
-      author: "",
+  "o-viens-jesus": Hymns(
+      title: "Ô viens, Jésus",
+      author: "E147",
       content:
           "<p>Ô viens, Jésus, ô viens, Emmanuel,<br>Nous dévoiler le monde fraternel<br>Où ton amour, plus fort que la mort,<br>Nous régénère au sein d’un même corps.<br><br>R/Chantez, chantez, il vient à notre appel<br>combler nos cœurs, Emmanuel.<br><br>Ô viens, Berger que Dieu nous a promis,<br>Entends au loin ton peuple qui gémit ;<br>Dans la violence il vit son exil,<br>De ses souffrances quand renaîtra-t-il ?<br><br>Ô viens, Jésus, et dans la chair blessée,<br>Fleuris pour nous, racine de Jessé ;<br>Près de l’eau vive, l’arbre planté<br>Soulève jusqu’à Dieu le monde entier.<br><br>Ô viens, Jésus, tracer notre chemin,<br>Visite-nous, Étoile du matin,<br>Du fond de nos regards fais monter<br>L’éclat soudain du jour d’éternité.</p>"),
-  "voici-le-temps": Hymns(
-      title: "Voici le temps",
-      author: "",
+  "voici-le-temps-du-long-desir": Hymns(
+      title: "Voici le temps du long désir",
+      author: "E201",
       content:
           "<p>Voici le temps du long désir<br>Où l’homme apprend son indigence,<br>Chemin creusé pour accueillir<br>Celui qui vient combler les pauvres.<br><br>Pourquoi l’absence dans la nuit,<br>Le poids du doute et nos blessures,<br>Sinon pour mieux crier vers lui,<br>Pour mieux tenir dans l’espérance ?<br><br>Et si nos mains, pour t’appeler,<br>Sont trop fermées sur leurs richesses,<br>Seigneur Jésus, dépouille-les<br>Pour les ouvrir à ta rencontre.<br><br>L’amour en nous devancera<br>Le temps nouveau que cherche l’homme ;<br>Vainqueur du mal, tu nous diras<br>Je suis présent dans votre attente.</p>"),
   "la-paix-de-dieu": Hymns(
       title: "La paix de Dieu",
-      author: "",
+      author: "E124",
       content:
           "<p>La paix de Dieu n’est pas un cri<br>Lancé des quatre vents de l’univers.<br>La paix, c’est Dieu risquant sa vie,<br>Enfant des hommes, la nuit de Noël.<br><br>L’amour de Dieu n’est pas un mot<br>Berçant nos rêves de vivre là-haut.<br>L’amour, c’est Dieu rené des eaux,<br>Nouvelle eau vive jaillie au désert.<br><br>Le jour de Dieu n’est pas un jour,<br>Instant d’histoire, moment sans retour.<br>Le jour de Dieu, c’est Dieu toujours,<br>Durée vivante, sans nuit, sans sommeil.<br><br>R/Ô viens, ô viens, Emmanuel !<br>Ô viens sauver le monde !</p>"),
-  "vienne-le-juste": Hymns(
-      title: "Vienne le juste",
-      author: "",
+  "vienne-le-juste-comme-la-rosee": Hymns(
+      title: "Vienne le juste comme la rosée",
+      author: "E191",
       content:
           "<p>Vienne le juste comme rosée,<br>La terre s’ouvre à notre Sauveur :<br><br>Terre brûlante comme un désert,<br>Terre en genèse offerte à l’Esprit,<br>Quand donc verras-tu s’éveiller<br>La semence divine ?<br><br>Vienne le juste comme rosée,<br>La terre s’ouvre à notre Sauveur !<br><br>Vienne sa gloire en nous demeurer,<br>La terre s’ouvre au feu de son jour :<br><br>Terre aux maisons si pauvres d’amour,<br>Terre où Dieu même cherche cité.<br>Quand donc verras-tu dans nos corps<br>La lumière divine ?<br><br>Vienne sa gloire en nous demeurer,<br>La terre s’ouvre au feu de son jour !<br><br>Vienne justice pour l’opprimé,<br>La terre s’ouvre au libérateur :<br><br>Terre où la mort défie son vainqueur,<br>Terre aux espoirs trop vite oubliés,<br>Quand donc verras-tu se lever<br>Les aurores divines ?<br><br>Vienne justice pour l’opprimé,<br>La terre s’ouvre au libérateur !<br><br>Vienne la source où l’homme renaît,<br>La terre s’ouvre au fleuve de vie :<br><br>Terre où jeunesse tôt se flétrit,<br>Terre en appel d’un monde nouveau,<br>Quand donc verras-tu refleurir<br>Nos enfances divines ?<br><br>Vienne la source où l’homme renaît,<br>La terre s’ouvre au fleuve de vie !</p>"),
-  "dieu-est-a-lœuvre-en-cet-age": Hymns(
+  "dieu-est-a-l-oeuvre-en-cet-age": Hymns(
       title: "Dieu est à l’œuvre en cet âge",
-      author: "",
+      author: "T50",
       content:
           "<p>Dieu est à l’œuvre en cet âge,<br>Ces temps sont les derniers.<br>Dieu est à l’œuvre en cet âge,<br>Son Jour va se lever !<br>Ne doutons pas du Jour qui vient,<br>La nuit touche à sa fin.<br>Et l’Éclat du Seigneur remplira l’univers<br>Mieux que l’eau ne couvre les mers !<br><br>Quelle est la tâche des hommes<br>Que Dieu vient rassembler,<br>Afin de bâtir le Royaume<br>Du prince de la Paix ?<br>Que peut-on faire pour hâter<br>Ce jour tant espéré<br>Où l’Éclat du Seigneur remplira l’univers<br>Mieux que l’eau ne couvre les mers ?<br><br>Pour que ce jour ne nous perde,<br>Ce jour comme un voleur,<br>Ne dormons pas aux ténèbres,<br>Veillons dans le Seigneur.<br>Comme l’éclair part du Levant<br>Et va jusqu’au Couchant,<br>Il viendra dans sa gloire au-dessus des nuées,<br>Le Seigneur qui est Dieu d’amour.<br><br>Que notre marche s’éclaire<br>Au signe de Jésus !<br>Lui seul peut sauver notre terre<br>Où l’homme n’aime plus.<br>Il faut défendre l’exploité,<br>Ouvrir au prisonnier,<br>Et l’Éclat du Seigneur remplira l’univers<br>Mieux que l’eau ne couvre les mers !<br><br>Dieu est amour pour son peuple,<br>Il aime pardonner.<br>Dieu est amour pour son peuple,<br>Il veut sa liberté.<br>Ne doutons pas du jour qui vient,<br>La nuit touche à sa fin.<br>Déchirons notre cœur, revenons au Seigneur,<br>Car il est le Dieu qui revient.</p>"),
   "celui-qui-doit-venir": Hymns(
       title: "Celui qui doit venir",
-      author: "",
+      author: "E193",
       content:
           "<p>Es-tu celui qui doit venir<br>visiter nos prisons,<br>libérer nos mains,<br>éclairer nos visages<br>d’un bonheur sans déclin ?<br><br>Tu es l’Autre que nous attendons,<br>Jésus, notre semblable,<br>tu es le plus proche voisin,<br>l’Emmanuel dans nos prisons.<br><br>Es-tu celui qui doit venir<br>traverser notre nuit,<br>libérer nos yeux<br>et donner aux aveugles<br>un soleil sans déclin ?<br><br>Tu es l’Autre que nous attendons,<br>Jésus, notre lumière,<br>tu es notre unique matin,<br>l’Emmanuel dans notre nuit.<br><br>Es-tu celui qui doit venir<br>nous tracer le chemin,<br>libérer nos pas,<br>relancer notre marche<br>à ton rythme divin ?<br><br>Tu es l’Autre que nous attendons,<br>Jésus, guide fidèle,<br>tu es le témoin de nos pas,<br>l’Emmanuel sur nos chemins.<br><br>Es-tu celui qui doit venir<br>ébranler nos silences,<br>libérer nos voix,<br>accorder nos paroles<br>à ton Verbe divin ?<br><br>Tu es l’Autre que nous attendons,<br>Jésus, Verbe et réponse,<br>tu es notre unique chanson,<br>l’Emmanuel dans nos silences.<br><br>Es-tu celui qui doit venir<br>féconder nos déserts,<br>libérer nos cœurs,<br>éveiller nos semences<br>par les eaux du Jourdain ?<br><br>Tu es l’Autre que nous attendons,<br>Jésus, Source d’eau vive,<br>tu es le printemps pour le grain,<br>l’Emmanuel dans nos déserts.<br><br>Es-tu celui qui doit venir<br>et qui vient chaque jour<br>libérer nos vies,<br>ranimer notre souffle<br>au passage du tien ?<br><br>Tu es l’Autre que nous attendons,<br>Jésus, Sève du monde,<br>tu es le Vivant qui revient,<br>l’Emmanuel, Dieu-avec-nous.</p>"),
   "vienne-la-rosee-sur-la-terre": Hymns(
@@ -63,12 +63,12 @@ final Map<String, Hymns> hymnsLibraryContent = {
           "<p>Vienne la rosée sur la terre,<br>Naisse l’espérance en nos cœurs,<br>Brille dans la nuit la lumière<br>Bientôt va germer le Sauveur.<br>Au désert un cri s’élève<br>Préparez les voies du Seigneur.<br><br>Berger d’Israël, tends l’oreille,<br>Descends vite à notre secours ;<br>Et nos yeux verront tes merveilles,<br>Nos voix chanteront ton amour.<br>Fille de Sion, tressaille,<br>Le Seigneur déjà vient vers toi.<br><br>Réveille, ô Seigneur, ta vaillance,<br>Établis ton règne de paix ;<br>Que les peuples voient ta puissance,<br>Acclament ton Nom à jamais.<br>L’univers attend ta gloire,<br>Et nous préparons ton retour.</p>"),
   "toi-qui-viens-pour-tout-sauver": Hymns(
       title: "Toi qui viens pour tout sauver",
-      author: "",
+      author: "E68",
       content:
           "<p>Toi qui viens pour tout sauver,<br>L’univers périt sans toi ;<br>Fais pleuvoir sur lui ta joie,<br>Toi qui viens pour tout sauver.<br><br>Viens sauver tes fils perdus,<br>Dispersés, mourant de froid ;<br>Dieu qui fus un jour en croix,<br>Viens sauver tes fils perdus.<br><br>Viens offrir encor ton pain<br>Et ton vin aux miséreux ;<br>Pour qu’ils voient le don de Dieu,<br>Viens offrir encor ton pain.<br><br>Toi qui viens pour tout sauver,<br>Fais lever enfin le jour<br>De la paix dans ton amour,<br>Toi qui viens pour tout sauver.</p>"),
-  "aube-nouvelle-dans-notre-nuit": Hymns(
-      title: "Aube nouvelle dans notre nuit",
-      author: "",
+  "aube-nouvelle": Hymns(
+      title: "Aube nouvelle",
+      author: "E130",
       content:
           "<p>Aube nouvelle dans notre nuit :<br>Pour sauver son peuple, Dieu va venir.<br>Joie pour les pauvres, fête aujourd’hui :<br>Il faut préparer la route au Seigneur.<br><br>Bonne nouvelle, cris et chansons :<br>Pour sauver son peuple, Dieu va venir.<br>Voix qui s’élève dans nos déserts :<br>Il faut préparer la route au Seigneur.<br><br>Terre nouvelle, monde nouveau :<br>Pour sauver son peuple, Dieu va venir.<br>Paix sur la terre, ciel parmi nous :<br>Il faut préparer la route au Seigneur.</p>"),
   "conditor-alme-siderum": Hymns(
@@ -81,18 +81,18 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           "<p>Dieu s’est fait homme. Désormais<br>Sa face humaine dans la nuit<br>Ne brille plus qu’au feu secret<br>De notre vie.<br><br>Grande est la force de l’amour<br>Pour attirer vers toi, Sion,<br>Celui qui cherche encore le jour<br>Comme à tâtons.<br><br>Point d’autre signe n’est donné<br>Du Dieu fait chair, en notre temps,<br>Ni d’autre étoile pour mener<br>L’homme à l’Enfant.<br><br>Où resplendit la charité,<br>Le cœur bientôt reconnaîtra<br>Dans la ténèbre ou la clarté<br>Que Dieu est là.</p>"),
-  "a-l-orient-l-etoile-a-paru": Hymns(
-      title: "À l’Orient l’étoile a paru",
+  "a-l-orient": Hymns(
+      title: "À l’Orient ",
       author: "",
       content:
           "<p>À l’Orient l’étoile a paru<br>Pour annoncer que le Christ est venu.<br>Dès qu’ils l’ont appris,<br>Les rois sont partis.<br>Heureux le cœur qui désire Jésus !<br><br>Jusqu’au pays qui l’a méconnu<br>Ils ont cherché le Sauveur attendu.<br>Ils vont dans la nuit :<br>La foi les conduit.<br>Heureux le cœur qui recherche Jésus !<br><br>À Bethléem ils l’ont reconnu :<br>Dans une crèche un enfant pauvre et nu.<br>Courbés devant lui,<br>Se sont réjouis.<br>Heureux le cœur qui découvre Jésus !<br><br>Ils ont offert leur humble tribut<br>Au Roi du ciel par qui vient le salut.<br>La Vierge a souri,<br>Les anges aussi.<br>Heureux le cœur qui se donne à Jésus !<br><br>Et dans la joie du Dieu qu’ils ont vu,<br>Ils porteront le message reçu,<br>Car le Paradis<br>Sur terre a fleuri.<br>Heureux le cœur qui annonce Jésus !</p>"),
-  "o-fils-unique-jesus-christ": Hymns(
-      title: "Ô Fils unique, Jésus Christ",
+  "o-fils-unique": Hymns(
+      title: "Ô Fils unique",
       author: "",
       content:
           "<p>Ô Fils unique, Jésus Christ,<br>Nous contemplons en ton visage<br>La gloire dont tu resplendis<br>Auprès de Dieu avant les siècles.<br><br>Les tiens ne t’ont pas reconnu,<br>Et les ténèbres te repoussent ;<br>Mais donne à ceux qui t’ont reçu<br>De partager ta plénitude.<br><br>Toi qui habites parmi nous,<br>Ô Verbe plein de toute grâce,<br>Enseigne-nous la vérité,<br>Transforme-nous en ton image.<br><br>À toi, la gloire, ô Père saint,<br>À toi, la gloire, ô Fils unique,<br>Avec l’Esprit consolateur,<br>Dès maintenant et pour les siècles.</p>"),
-  "plus-de-signe-dans-la-nuit": Hymns(
-      title: "Plus de signe dans la nuit",
+  "plus-de-signe": Hymns(
+      title: "Plus de signe",
       author: "",
       content:
           "<p>Plus de signe dans la nuit,<br>L’étoile est morte.<br>Mais Dieu, là, dans son Enfant<br>Donné au monde.<br>Jésus Christ est révélé<br>Au cœur de l’homme.<br><br>Plus de voix venue du ciel<br>Quand Jean baptise.<br>Mais Jésus, Dieu reconnu<br>Dans sa Parole,<br>Quand lui-même la redit<br>Au cœur de l’homme.<br><br>Plus de jarres où réveiller<br>La joie des noces.<br>Mais du vin changé en sang.<br>Nouveau prodige !<br>Dieu, notre hôte en Jésus Christ<br>Au cœur de l’homme.</p>"),
@@ -101,24 +101,24 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           "<p>Peuples, criez de joie<br>Et bondissez d’allégresse :<br>Le Père envoie son Fils<br>Manifester sa tendresse ;<br>Ouvrons les yeux :<br>Il est l’image de Dieu<br>Pour que chacun le connaisse.<br><br>Loué soit notre Dieu,<br>Source et Parole fécondes :<br>Ses mains ont tout créé<br>Pour que nos cœurs lui répondent ;<br>Par Jésus Christ,<br>Il donne l’être et la vie :<br>En nous sa vie surabonde.<br><br>Loué soit notre Dieu<br>Qui ensemence la terre<br>D’un peuple où son Esprit<br>Est plus puissant que la guerre ;<br>En Jésus Christ,<br>La vigne porte du fruit<br>Quand tous les hommes sont frères.<br><br>Loué soit notre Dieu<br>Dont la splendeur se révèle<br>Quand nous buvons le vin<br>Pour une terre nouvelle ;<br>Par Jésus Christ,<br>Le monde passe aujourd’hui<br>Vers une gloire éternelle.<br><br>Peuples, battez des mains<br>Et proclamez votre fête :<br>Le Père accueille en lui<br>Ceux que son Verbe rachète ;<br>Dans l’Esprit Saint<br>Par qui vous n’êtes plus qu’un,<br>Que votre joie soit parfaite !</p>"),
-  "qui-es-tu-roi-d-humilite": Hymns(
-      title: "Qui es-tu, Roi d’humilité",
+  "qui-es-tu": Hymns(
+      title: "Qui es-tu",
       author: "",
       content:
           "<p>Qui es-tu, Roi d’humilité,<br>Roi sans palais, roi sans armée ?<br>Nous sommes venus t’adorer<br>Des bouts du monde.<br><br>Nous ne savons pas bien comment<br>Un signe vu en Orient<br>A conduit nos pas au levant<br>De ta lumière.<br><br>Que feras-tu de cet argent,<br>De ces bijoux, de notre encens ?<br>Nous les avions pris en pensant<br>À nos manières...<br><br>Regarde donc autour de toi<br>Dans les richesses qui sont là,<br>Les nations qui ne savent pas<br>Que tu les aimes.<br><br>Marie pourra te raconter<br>Qu’avec nous, après les bergers,<br>Tout l’univers s’est rassemblé<br>Sous ton étoile.<br><br>Petit roi juif et Roi du ciel,<br>Notre grand Roi, l’Emmanuel,<br>Nous traversons ton Israël<br>Pour en renaître !</p>"),
-  "splendeur-jaillie-du-sein-de-dieu": Hymns(
-      title: "Splendeur jaillie du sein de Dieu",
+  "splendeur-jaillie": Hymns(
+      title: "Splendeur jaillie",
       author: "",
       content:
           "<p>Splendeur jaillie du sein de Dieu,<br>Lumière née de la lumière,<br>Avant que naisse l’univers<br>Tu resplendis dans les ténèbres.<br><br>Nous t’adorons, Fils bien-aimé,<br>Objet de toute complaisance ;<br>Le Père qui t’a envoyé<br>Sur toi fait reposer sa grâce.<br><br>Tu viens au fond de notre nuit<br>Pour tous les hommes de ce monde ;<br>Tu es la source de la vie<br>Et la lumière véritable.<br><br>À toi, la gloire, ô Père saint,<br>À toi, la gloire, ô Fils unique,<br>Avec l’Esprit consolateur,<br>Dès maintenant et pour les siècles.</p>"),
   "veilleurs-dites-nous": Hymns(
       title: "Veilleurs, dites-nous",
-      author: "",
+      author: "F270",
       content:
           "<p>Veilleurs, dites-nous<br>Où en est la nuit !<br>Veilleurs, savez-vous<br>Si le ciel pâlit ?<br>Amis, levez-vous,<br>Chantez aujourd’hui :<br><br>Gloire à Dieu, au plus haut des cieux !<br><br>Le Fils de Marie,<br>Jésus, le Messie,<br>Apporte la paix :<br>Le peuple connaît<br>Une immense joie<br>Qui n’en finit pas :<br><br>Gloire à Dieu, au plus haut des cieux !<br><br>Seigneur, Roi du ciel,<br>Seigneur, Éternel,<br>Père très aimant,<br>Père tout-puissant,<br>Dieu qui n’es pas loin,<br>Dieu qui tends la main,<br><br>Nous te bénissons, nous te glorifions,<br>Nous célébrons, nous adorons<br>Ta gloire !<br><br>Seigneur, Jésus Christ,<br>Seigneur, Fils béni,<br>Verbe créateur,<br>Verbe rédempteur,<br>Jésus, Bien-Aimé,<br>Enfant, nouveau-né,<br><br>Nous te bénissons, nous te glorifions,<br>Nous célébrons, nous adorons<br>Ta gloire !<br><br>Toi l’Emmanuel,<br>Chair de notre chair,<br>Tiens-nous en ton corps.<br><br>Envoyé de Dieu,<br>Partout rejeté,<br>Perçois nos appels.<br><br>Parole de Dieu,<br>Oracle sans voix,<br>Deviens notre cri.<br><br>Lumière de Dieu<br>Voilée par la nuit,<br>Dessille nos yeux.<br><br>Prince de la vie<br>Promis à la mort,<br>Fais taire nos peurs.<br><br>Chargé du pouvoir,<br>Plus faible que tous,<br>Assure nos pas.<br><br>Enfant du Très-Haut<br>Venu jusqu’à nous,<br>Retourne nos vies.<br><br>Fils du Roi David,<br>Fils d’un sang pécheur,<br>Enlève nos torts.<br><br>Saint Agneau de Dieu<br>Vainqueur de tout mal,<br>Prends-nous en pitié.<br><br>Seul Agneau<br>Sauveur de l’homme perdu,<br>Prends-nous en pitié.<br><br>Toi, le Défenseur<br>Près du cœur de Dieu,<br>Prends-nous en pitié.<br><br>Car tu es Seigneur,<br>Le Saint, le Très-Haut,<br>L’Amour, le Dieu Fort,<br>Avec l’Esprit Saint<br>Dans la majesté<br>Du Père des Cieux !<br><br>Nous te bénissons, nous te glorifions,<br>Nous célébrons, nous adorons<br>Ta gloire !</p>"),
   "gloire-a-dieu-paix-aux-hommes": Hymns(
       title: "Gloire à Dieu, Paix aux hommes",
-      author: "",
+      author: "F156",
       content:
           "<p>R/ Gloire à Dieu, Paix aux hommes,<br>Joie du ciel sur la terre !<br><br>Pour tes merveilles, Seigneur Dieu,<br>Ton peuple te rend grâce :<br>Ami des hommes, sois béni<br>Pour ton règne qui vient !<br>À toi les chants de fête,<br>Par ton Fils bien-aimé,<br>dans l’Esprit.<br><br>Sauveur du monde, Jésus Christ,<br>Écoute nos prières :<br>Agneau de Dieu, vainqueur du mal,<br>Sauve-nous du péché !<br>Dieu Saint, splendeur du Père,<br>Dieu vivant, le Très-Haut,<br>le Seigneur.</p>"),
   "qui-peut-me-dire": Hymns(
@@ -128,7 +128,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
           "<p>Qui peut me dire l’endroit<br>Où Jésus le Christ est né ?<br>Vois, Jésus prend naissance<br>Où l’homme commence<br>D’ouvrir son cœur et ses mains<br>Pour changer la vie de ses frères.<br>Oui, là, Jésus prend naissance.<br><br>Qui peut me dire le jour<br>Où Jésus le Christ est né ?<br>Vois, Jésus prend naissance<br>Quand l’homme commence<br>D’ouvrir son cœur et ses mains<br>Pour changer la vie de ses frères ;<br>Alors, Jésus prend naissance.<br><br>Qui peut me dire pourquoi<br>Jésus le Seigneur est né ?<br>Vois, Jésus prend naissance<br>Pour toi qui commences<br>D’ouvrir ton cœur et tes mains<br>Pour changer la vie de tes frères ;<br>Pour toi, Jésus prend naissance.</p>"),
   "en-notre-coeur": Hymns(
       title: "En notre cœur",
-      author: "",
+      author: "F160",
       content:
           "<p>En notre cœur s’était perdu<br>Le souvenir de ton visage.<br>Sur nos faces ne brillait plus<br>Ton image.<br>Isolés, sans nul appui<br>Pour trouver la ressemblance,<br>Nous errions dans la nuit.<br><br>Tu envoyas, dans ta pitié,<br>Pour éclairer notre détresse,<br>Tes prophètes qui ont livré<br>La promesse.<br>Leur parole, telle un feu<br>Sur la route d’espérance,<br>Nous guida vers ton Lieu.<br><br>Voici, la Vierge a enfanté<br>Et les oracles s’accomplissent.<br>Ton amour et ta vérité<br>Resplendissent.<br>Sous le voile de la chair,<br>Ta lumière inaccessible<br>Envahit notre hiver.<br><br>Tous n’ont pas vu ! Nous qui croyons,<br>Illuminés par ton mystère,<br>En ton Verbe, nous te nommons<br>Notre Père.<br>Aujourd’hui, finis les pleurs !<br>Ta semence incorruptible<br>A germé dans nos cœurs.</p>"),
   "le-fils-de-dieu-le-roi-de-gloire": Hymns(
@@ -136,8 +136,8 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           "<p>Le Fils de Dieu, le Roi de gloire<br>A voulu naître parmi nous.<br>Il est venu sur notre terre<br>Au temps marqué par son amour.<br><br>R/Dès aujourd’hui ton royaume est proche:<br>Viens parmi nous, Seigneur Jésus.<br><br>Ceux qui marchaient dans les ténèbres<br>Ont vu s’illuminer leur nuit<br>Et, sur les peuples dans l’angoisse,<br>Une lumière a resplendi.<br><br>Dans notre nuit surgit l’aurore<br>De sa justice et de sa paix:<br>Dieu nous envoie sa délivrance,<br>Il ne nous quittera jamais.<br><br>Il a tracé pour nous la route,<br>Il s’est chargé de nos douleurs<br>Et nous marchons vers sa promesse,<br>Le front marqué de sa splendeur.<br><br>Quand paraîtra la ville sainte,<br>Quand s’ouvriront les cieux nouveaux,<br>Nous goûterons sans fin la vie<br>Devant le trône de l’Agneau.</p>"),
-  "a-pleine-voix-chantons-pour-dieu": Hymns(
-      title: "À pleine voix chantons pour Dieu",
+  "a-pleine-voix": Hymns(
+      title: "À pleine voix",
       author: "",
       content:
           "<p>À pleine voix chantons pour Dieu<br>Nos chants de joie, nos chants de fête !<br>Dieu est présent dans un enfant :<br>Sa gloire habite notre terre !<br>À pleine voix chantons pour Dieu<br>Nos chants de joie, nos chants de fête !<br><br>Ne pensons pas que Dieu se tait<br>Quand il se dit par sa naissance !<br>Dieu est ici et tout est dit<br>Cherchons où lève sa semence !<br>Ne pensons pas que Dieu se tait<br>Quand il se dit par sa naissance !<br><br>Ne marchons plus à perdre cœur<br>Par des chemins sans espérance !<br>Dieu va sauver le monde entier<br>En se chargeant de nos souffrances.<br>Ne marchons plus à perdre cœur<br>Par des chemins sans espérance !<br><br>Rien ne pourra nous séparer<br>De l’amitié que Dieu nous porte !<br>Par Jésus Christ et dans l’Esprit<br>Cette assurance est la plus forte :<br>Rien ne pourra nous séparer<br>De l’amitié que Dieu nous porte !<br><br>Pour annoncer les temps nouveaux,<br>Prenons le pain de sa tendresse !<br>Vienne le Jour de son retour :<br>Que tous les hommes le connaissent !<br>Pour annoncer les temps nouveaux,<br>Prenons le pain de sa tendresse !</p>"),
@@ -146,7 +146,7 @@ final Map<String, Hymns> hymnsLibraryContent = {
       author: "",
       content:
           "<p>Aujourd’hui dans notre monde le Verbe est né<br>Pour parler du Père<br>aux hommes qu’il a tant aimés.<br>Et le ciel nous apprend le grand mystère :<br><br>R/Gloire à Dieu et paix sur terre, alléluia !<br><br>Aujourd’hui dans nos ténèbres le Christ a lui<br>Pour ouvrir les yeux<br>des hommes qui vont dans la nuit.<br>L’univers est baigné de sa lumière :<br><br>Aujourd’hui dans notre mort a paru la Vie<br>Pour changer le cœur<br>des hommes qui sont endurcis.<br>Et l’amour est plus fort que nos misères :<br><br>Aujourd’hui dans notre chair est entré Jésus<br>Pour unir en lui<br>les hommes qui l’ont attendu,<br>Et Marie, à genoux, l’offre à son Père :</p>"),
-  "il-est-ne-il-nous-est-donne": Hymns(
+  "il-est-ne": Hymns(
       title: "Il est né ! Il nous est donné",
       author: "",
       content:

@@ -1,0 +1,57 @@
+/// hymn list for Advent and Christmas Time.
+/// for the other times, an hymn is given per day
+const Map<String, List<String>> hymnList = {
+  "advent": [
+    "debout-le-seigneur-vient",
+    "viens-bientot",
+    "une-voix-parcourt-la-terre",
+    "un-jour-viendra",
+    "lumiere-pour-l-homme-aujourd-hui",
+    "o-viens-jesus",
+    "voici-le-temps-du-long-desir",
+    "la-paix-de-dieu",
+    "vienne-le-juste-comme-la-rosee",
+    "dieu-est-a-l-oeuvre-en-cet-age",
+    "celui-qui-doit-venir",
+    "vienne-la-rosee-sur-la-terre",
+    "toi-qui-viens-pour-tout-sauver",
+    "aube-nouvelle",
+    "conditor-alme-siderum"
+  ],
+  "christmas": [
+    "veilleurs-dites-nous",
+    "gloire-a-dieu-paix-aux-hommes",
+    "qui-peut-me-dire",
+    "en-notre-coeur",
+    "le-fils-de-dieu-le-roi-de-gloire",
+    "a-pleine-voix",
+    "aujourd-hui-dans-notre-monde",
+    "il-est-ne",
+    "le-fils-de-l-homme-est-ne",
+    "source-en-attente",
+    "tout-le-ciel-s-emplit",
+    "christe-redemptor-omnium",
+    "a-solis-ortus-cardine"
+  ],
+  "after_epiphany": [
+    "veilleurs-dites-nous",
+    "gloire-a-dieu-paix-aux-hommes",
+    "qui-peut-me-dire",
+    "en-notre-coeur",
+    "le-fils-de-dieu-le-roi-de-gloire",
+    "a-pleine-voix",
+    "aujourd-hui-dans-notre-monde",
+    "il-est-ne",
+    "le-fils-de-l-homme-est-ne",
+    "source-en-attente",
+    "tout-le-ciel-s-emplit",
+    "a-l-orient",
+    "o-fils-unique",
+    "plus-de-signe",
+    "peuples-criez-de-joie",
+    "ui-es-tu",
+    "splendeur-jaillie",
+    "christe-redemptor-omnium",
+    "a-solis-ortus-cardine"
+  ]
+};

@@ -238,7 +238,6 @@ Future<Morning> morningExtract(
     print('JSON decoded successfully');
     print('JSON keys: ${jsonData.keys}');
 
-    // Extract only the "morning" section instead of loading all DayOffices
     if (jsonData['morning'] != null) {
       print('Found "morning" section in JSON');
       print('Morning section keys: ${jsonData['morning'].keys}');
@@ -256,12 +255,23 @@ Future<Morning> morningExtract(
         print('Found "invitatory" section in JSON');
         InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
             jsonData['invitatory'] as Map<String, dynamic>);
+        final List invitatoryPsalms = [
+          "PSALM_94",
+          "PSALM_66",
+          "PSALM_99",
+          "PSALM_23"
+        ];
+        // Remove invitatory psalms that are already in morning psalmody
+        if (morning.psalmody != null) {
+          final psalmsInPsalmody =
+              morning.psalmody!.map((entry) => entry.psalm).toSet();
+
+          invitatoryPsalms
+              .removeWhere((psalm) => psalmsInPsalmody.contains(psalm));
+        }
         // Convert InvitatoryOffice to Invitatory
         morning.invitatory = Invitatory(
-          antiphon: invitatoryOffice.antiphon,
-          psalms:
-              invitatoryOffice.psalm != null ? [invitatoryOffice.psalm!] : null,
-        );
+            antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
         print('Invitatory added to morning');
       } else {
         print('No "invitatory" section found');

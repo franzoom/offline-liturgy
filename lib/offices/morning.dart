@@ -5,6 +5,7 @@ import '../classes/morning_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/extract_week_and_day.dart';
 import '../tools/data_loader.dart';
+import '../assets/libraries/hymn_list.dart';
 
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
@@ -29,7 +30,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
   final celebrationName = calendarDay?.defaultCelebrationTitle;
   final breviaryWeek = calendarDay?.breviaryWeek;
 
-  // If it's not a ferial day, return empty Morning instance
+  // If it's not a ferial day, return an empty Morning instance
   if (!detectFerialDays(celebrationName!)) {
     return {celebrationName: ferialMorning};
   }
@@ -74,11 +75,13 @@ Future<Map<String, Morning>> ferialMorningResolution(
     List dayDatas = extractWeekAndDay(celebrationName, "advent");
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
+    final List<String> hymns = hymnList["advent"] ?? [];
 
     if (date.day < 17) {
       // Days before December 17th
       ferialMorning = await morningExtract(
           '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
+      ferialMorning.hymn = hymns;
       return {celebrationName: ferialMorning};
     } else {
       // Days from December 17th onwards (special days)
@@ -91,6 +94,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
         Morning auxData =
             await morningExtract('$ferialFilePath/advent_3_0.json', dataLoader);
         ferialMorning.oration = auxData.oration;
+        ferialMorning.hymn = hymns;
         return {celebrationName: ferialMorning};
       }
 
@@ -100,6 +104,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
         Morning auxData =
             await morningExtract('$ferialFilePath/advent_4_0.json', dataLoader);
         ferialMorning.oration = auxData.oration;
+        ferialMorning.hymn = hymns;
         return {celebrationName: ferialMorning};
       }
 
@@ -118,7 +123,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
             yearC: ferialMorning.evangelicAntiphon!.yearC,
           );
         }
-
+        ferialMorning.hymn = hymns;
         return {celebrationName: sunday4Morning};
       }
 
@@ -133,6 +138,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
     // Note: Holy Family is excluded (not a ferial day)
     int dayNumber = date.day;
     int monthNumber = date.month;
+    List<String> hymns = hymnList["christmas"] ?? [];
 
     if (monthNumber == 12) {
       if (dayNumber < 29) {
@@ -143,6 +149,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
             '$commonsFilePath/christmas_${breviaryWeek}_${date.weekday}.json',
             dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
+        baseMorningOffice.hymn = hymns;
         return {celebrationName: baseMorningOffice};
       } else {
         // Days from December 29th to 31st: use Common of Christmas
@@ -151,6 +158,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
         Morning baseMorningOffice =
             await morningExtract('$commonsFilePath/christmas.json', dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
+        baseMorningOffice.hymn = hymns;
         return {celebrationName: baseMorningOffice};
       }
     } else {
@@ -164,11 +172,13 @@ Future<Map<String, Morning>> ferialMorningResolution(
         Morning baseMorningOffice = await morningExtract(
             '$ferialFilePath/christmas_1_${date.weekday}.json', dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
+        baseMorningOffice.hymn = hymns;
         return {celebrationName: baseMorningOffice};
       } else {
         // After Epiphany
         Morning morningOffice = await morningExtract(
             '$ferialFilePath/christmas_2_${date.weekday}.json', dataLoader);
+        morningOffice.hymn = hymnList["after_epiphany"] ?? [];
         return {celebrationName: morningOffice};
       }
     }

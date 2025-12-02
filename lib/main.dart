@@ -1,5 +1,6 @@
 import 'offline_liturgy.dart';
 import 'tools/data_loader.dart';
+import 'assets/libraries/hymns_library.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
@@ -13,6 +14,7 @@ Future<void> main() async {
   // Launch Morning prayer generation for the requested day:
   final ferialMornings =
       await ferialMorningResolution(calendar, date, dataLoader);
+//  String hymnName = ferialMornings[0]!.hymn[0];
 
   // Launch Compline generation for the requested day:
   Map<String, ComplineDefinition> possibleComplines =
@@ -25,7 +27,7 @@ Future<void> main() async {
   complineTextCompiled.forEach((key, compline) {
     print('$key');
     print('=========================');
-    complineDisplay(compline);
+    complineDisplay(compline, dataLoader);
     print('=========================');
   });
 }

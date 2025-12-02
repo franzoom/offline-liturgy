@@ -1,11 +1,12 @@
 import '../classes/compline_class.dart';
 import '../assets/libraries/psalms_library.dart';
-import '../assets/libraries/hymns_library.dart';
 import '../tools/hymns_management.dart';
+import '../tools/data_loader.dart';
 import '../classes/hymns_class.dart';
 
 /// Complines text display (temporary)
-void complineDisplay(Compline compline) {
+/// Now supports async loading of psalms and hymns from JSON
+Future<void> complineDisplay(Compline compline, DataLoader dataLoader) async {
   if (compline.commentary != null) {
     print('Commentary: ${compline.commentary ?? "No commentary"}');
   }
@@ -17,12 +18,16 @@ void complineDisplay(Compline compline) {
   print('------ HYMNS ------');
   if (compline.hymns != null) {
     Map<String, Hymns> selectedHymns =
-        filterHymnsByCodes(compline.hymns!, hymnsLibraryContent);
+        await filterHymnsByCodes(compline.hymns!, dataLoader);
     displayHymns(selectedHymns);
   }
 
   print('------ PSALMODY ------');
   if (compline.psalmody != null) {
+    // Load all required psalms at once
+    final psalmCodes = compline.psalmody!.map((e) => e.psalm).toList();
+    final psalmsMap = await PsalmsLibrary.getPsalms(psalmCodes, dataLoader);
+
     for (var psalmEntry in compline.psalmody!) {
       // psalmEntry is now a PsalmEntry object
       String psalmCode = psalmEntry.psalm;
@@ -35,12 +40,16 @@ void complineDisplay(Compline compline) {
         }
       }
 
-      print('Psalm title: ${psalms[psalmCode]!.getTitle}');
-      print('Psalm subtitle: ${psalms[psalmCode]!.getSubtitle}');
-      print('Psalm commentary: ${psalms[psalmCode]!.getCommentary}');
-      print(
-          'Psalm biblical reference: ${psalms[psalmCode]!.getBiblicalReference}');
-      print('Psalm content: ${psalms[psalmCode]!.getContent}');
+      final psalm = psalmsMap[psalmCode];
+      if (psalm != null) {
+        print('Psalm title: ${psalm.getTitle}');
+        print('Psalm subtitle: ${psalm.getSubtitle}');
+        print('Psalm commentary: ${psalm.getCommentary}');
+        print('Psalm biblical reference: ${psalm.getBiblicalReference}');
+        print('Psalm content: ${psalm.getContent}');
+      } else {
+        print('Psalm $psalmCode not found in library');
+      }
       print(''); // Empty line between psalms
     }
   }
@@ -80,7 +89,7 @@ void complineDisplay(Compline compline) {
   print('------ MARIAN HYMNS ------');
   if (compline.marialHymnRef != null) {
     Map<String, Hymns> selectedHymns =
-        filterHymnsByCodes(compline.marialHymnRef!, hymnsLibraryContent);
+        await filterHymnsByCodes(compline.marialHymnRef!, dataLoader);
     displayHymns(selectedHymns);
   }
 }

@@ -61,6 +61,11 @@ const Map<String, String> liturgyLabels = {
   'reading': 'Lecture',
   'word_of_god': 'Parole de Dieu',
   'responsory': 'Répons',
+  'our_father': 'Notre Père',
+  'intercession': 'Intercession',
+  'conclusion': 'Conclusion',
+  'zachary_canticle': 'Cantique de Zacharie',
+  'invitatory': 'Invitatoire',
 };
 
 final Map<String, String> fixedTexts = {

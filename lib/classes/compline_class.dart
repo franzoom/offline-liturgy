@@ -1,21 +1,17 @@
 import 'office_elements_class.dart';
 
-/// Class representing the Compline (Night Prayer) structure
+/// Class representing the Compline structure
 class Compline {
   final String?
       commentary; // displays commentary if needed (for example: "no complines today")
   String?
       celebrationType; // indicates if it's a normal day, a solemnity or eve of solemnity
   final List<String>? hymns;
-  final List<PsalmEntry>?
-      psalmody; // CHANGED: now uses PsalmEntry from office_elements_class
-  final Reading?
-      reading; // CHANGED: now uses Reading from office_elements_class
+  final List<PsalmEntry>? psalmody;
+  final Reading? reading;
   final String? responsory;
-  final EvangelicAntiphon?
-      evangelicAntiphon; // CHANGED: now uses EvangelicAntiphon (was String before, but should be object for year variants)
-  final List<String>?
-      oration; // CHANGED: now List<String> instead of List (for consistency)
+  final EvangelicAntiphon? evangelicAntiphon;
+  final List<String>? oration;
   final List<String>? marialHymnRef;
 
   Compline({

@@ -1,4 +1,5 @@
 /// Classes for deeply nested structured liturgical office data
+library;
 
 /// Represents celebration information
 class Celebration {
@@ -131,25 +132,6 @@ class Reading {
   }
 }
 
-/// Legacy class name for backward compatibility in some contexts
-/// Use Reading instead for new code
-class ReadingEntry {
-  final String? ref;
-  final String? content;
-
-  ReadingEntry({
-    this.ref,
-    this.content,
-  });
-
-  factory ReadingEntry.fromJson(Map<String, dynamic> json) {
-    return ReadingEntry(
-      ref: json['ref'] as String?,
-      content: json['content'] as String?,
-    );
-  }
-}
-
 /// Invitatory office structure
 class InvitatoryOffice {
   final List<String>? antiphon; // singular key name, list of antiphons
@@ -170,6 +152,17 @@ class InvitatoryOffice {
                 ]) // Handle single string case for backward compatibility
           : null,
       psalm: json['psalm'] as String?,
+    );
+  }
+}
+
+/// Te Deum boolean for the Morning Office. If exists, uses the value. otherwise uses as 0.
+class TeDeum {
+  final bool? tedeum;
+  TeDeum({this.tedeum});
+  factory TeDeum.fromJson(Map<String, bool> json) {
+    return TeDeum(
+      tedeum: json['tedeum'] != null ? json['tedeum'] as bool : 0 as bool,
     );
   }
 }

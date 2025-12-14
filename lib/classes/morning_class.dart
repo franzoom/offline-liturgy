@@ -10,6 +10,7 @@ class Morning {
   String? responsory;
   EvangelicAntiphon? evangelicAntiphon;
   Intercession? intercession;
+  TeDeum? tedeum;
   List<String>? oration;
 
   Morning({
@@ -21,6 +22,7 @@ class Morning {
     this.responsory,
     this.evangelicAntiphon,
     this.intercession,
+    this.tedeum,
     this.oration,
   });
 

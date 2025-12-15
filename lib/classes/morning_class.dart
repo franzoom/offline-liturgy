@@ -89,3 +89,26 @@ class Morning {
     }
   }
 }
+
+/// Definition of Morning type for a given day
+/// This class is used to transmit informations through the resolution of the possible Morning Offices
+class MorningDefinition {
+  final String
+      morningDescription; // description of the office (e.g., "morning Office of the 2nd sunday of Lent")
+  final String
+      celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
+  final String? liturgicalTime;
+  final String? breviaryWeek;
+  final int liturgicalGrade;
+  final bool
+      isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
+
+  MorningDefinition({
+    required this.morningDescription,
+    required this.celebrationCode,
+    this.liturgicalTime,
+    this.breviaryWeek,
+    required this.liturgicalGrade,
+    required this.isCelebrable,
+  });
+}

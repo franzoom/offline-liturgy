@@ -1,10 +1,9 @@
 import 'offline_liturgy.dart';
 import 'tools/data_loader.dart';
-import 'assets/libraries/hymns_library.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2024, 12, 8);
+  DateTime date = DateTime(2025, 12, 8);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
@@ -12,6 +11,9 @@ Future<void> main() async {
   final dataLoader = FileSystemDataLoader();
 
   // Launch Morning prayer generation for the requested day:
+
+  final possibleMornings = await morningDetection(calendar, date, dataLoader);
+
   final ferialMornings =
       await ferialMorningResolution(calendar, date, dataLoader);
 //  String hymnName = ferialMornings[0]!.hymn[0];

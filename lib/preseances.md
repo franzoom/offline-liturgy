@@ -27,7 +27,7 @@ origine: https://liturgie.catholique.fr/wp-content/uploads/sites/11/2019/02/Tabl
    d) la fête du titulaire, du fondateur, du patron principal de l’ordre ou de la congrégation et de la province religieuse, restant sauf ce qui est prescrit au n° 4 ;
    e) les autres fêtes propres à une église ; les autres fêtes inscrites au calendrier d’un diocèse, d’un ordre ou d’une congrégation.
 
-9. Les féries de l’Avent, du 17 au 24 décembre inclus. Les jours dans l’octave de Noël. Les féries de Carême.
+9. Les féries de l’Avent du 17 au 24 décembre inclus. Les jours dans l’octave de Noël. Les féries de Carême.
 
 10. Les mémoires obligatoires du calendrier général.
 

@@ -4,15 +4,9 @@ import '../classes/calendar_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/extract_week_and_day.dart';
+import '../tools/date_tools.dart';
 import '../tools/data_loader.dart';
 import '../assets/libraries/hymn_list.dart';
-
-/// Detects if a celebration is a ferial day
-/// Returns true if the celebration name starts with one of the ferial prefixes
-bool detectFerialDays(String celebrationName) {
-  final prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
-  return prefixes.any((prefix) => celebrationName.startsWith(prefix));
-}
 
 /// Resolves morning prayer for ferial days
 /// Returns a Map with celebration name as key and Morning instance as value
@@ -31,7 +25,7 @@ Future<Map<String, Morning>> ferialMorningResolution(
   final breviaryWeek = calendarDay?.breviaryWeek;
 
   // If it's not a ferial day, return an empty Morning instance
-  if (!detectFerialDays(celebrationName!)) {
+  if (!isFerialDays(celebrationName!)) {
     return {celebrationName: ferialMorning};
   }
 

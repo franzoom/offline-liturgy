@@ -29,6 +29,7 @@ class FileSystemDataLoader implements DataLoader {
   @override
   Future<String> loadJson(String relativePath) async {
     try {
+      print('*********** DATALOADER: trying to load $relativePath');
       final file = File('$assetsPrefix$relativePath');
 
       // Check if file exists

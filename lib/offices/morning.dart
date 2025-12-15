@@ -30,7 +30,7 @@ Future<Morning> morningResolution(
 // firstable catches the ferial data if exists (if not feast or solemnity)
   if (ferialCode != null && ferialCode.trim().isNotEmpty) {
     morningOffice = await ferialMorningResolution(
-        celebrationCode, date, breviaryWeek, dataLoader);
+        ferialCode, date, breviaryWeek, dataLoader);
   }
   // then catches the Common, if given in argument
   if (common != null && common.trim().isNotEmpty) {
@@ -89,63 +89,61 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
   // ADVENT TIME
   // ============================================================================
   if (celebrationCode.startsWith('advent')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "advent");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
     final List<String> hymns = hymnList["advent"] ?? [];
 
-    if (date.day < 17) {
-      // Days before December 17th
+    if (RegExp(r'advent_').hasMatch(celebrationCode)) {
+      // Days before December 17th: is written "advent_XXX"
+      List dayDatas = extractWeekAndDay(celebrationCode, "advent");
+      int weekNumber = dayDatas[0];
+      int dayNumber = dayDatas[1];
       ferialMorning = await morningExtract(
           '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
       ferialMorning.hymn = hymns;
       return ferialMorning;
-    } else {
-      // Days from December 17th onwards (special days)
+    }
+    // Days from December 17th onwards (special days): is written "advent-17_3_5"
+    // extracting the datas of the celebrationCode:
+    List<String> parts = celebrationCode.replaceFirst("advent-", "").split("_");
+    int adventSpecialDay = int.parse(parts[0]); // 17
+    int weekNumber = int.parse(parts[1]); // 3
+    int dayNumber = int.parse(parts[2]); // 5
+
+    ferialMorning = await morningExtract(
+        '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
+
+    //sunday after 12/17: use the Sunday texts and add the Evangelic Antiphon of the Special Day
+    if (dayNumber == 0) {
       ferialMorning = await morningExtract(
-          '$specialFilePath/advent_${date.day}.json', dataLoader);
-
-      if (weekNumber == 3 && dayNumber == 0 && date.day == 17) {
-        // 3rd Sunday of Advent on December 17th
-        // Use December 17th data and add the 3rd Sunday oration
-        Morning auxData =
-            await morningExtract('$ferialFilePath/advent_3_0.json', dataLoader);
-        ferialMorning.oration = auxData.oration;
-        ferialMorning.hymn = hymns;
-        return ferialMorning;
-      }
-
-      if (weekNumber == 4 && dayNumber == 0 && date.day == 24) {
-        // 4th Sunday of Advent on December 24th
-        // Use December 24th data and add the 4th Sunday oration
-        Morning auxData =
-            await morningExtract('$ferialFilePath/advent_4_0.json', dataLoader);
-        ferialMorning.oration = auxData.oration;
-        ferialMorning.hymn = hymns;
-        return ferialMorning;
-      }
-
-      if (weekNumber == 4 && dayNumber == 0) {
-        // 4th Sunday of Advent after December 17th
-        // Use 4th Sunday data and add the evangelic antiphon of the day
-        Morning sunday4Morning =
-            await morningExtract('$ferialFilePath/advent_4_0.json', dataLoader);
-
-        // Keep the evangelic antiphon from ferialMorning
-        if (ferialMorning.evangelicAntiphon != null) {
-          sunday4Morning.evangelicAntiphon = EvangelicAntiphon(
-            common: ferialMorning.evangelicAntiphon!.common,
-            yearA: ferialMorning.evangelicAntiphon!.yearA,
-            yearB: ferialMorning.evangelicAntiphon!.yearB,
-            yearC: ferialMorning.evangelicAntiphon!.yearC,
-          );
-        }
-        ferialMorning.hymn = hymns;
-        return sunday4Morning;
-      }
-
+          '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
+      Morning adventSpecialMorning = await morningExtract(
+          '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
+      ferialMorning.evangelicAntiphon = adventSpecialMorning.evangelicAntiphon;
+      ferialMorning.hymn = hymns;
       return ferialMorning;
     }
+
+    //after the 12-17 we add to the week days the special material of the D day
+    ferialMorning = await morningExtract(
+        '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
+    Morning adventSpecialMorning = await morningExtract(
+        '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
+    ferialMorning.overlayWith(adventSpecialMorning);
+
+    //after the 12-17, in the 3d week we use the psalm antiphons of the 4th week
+    if (weekNumber == 3) {
+      Morning ferialMorningFour = await morningExtract(
+          '$ferialFilePath/advent_4_$dayNumber.json', dataLoader);
+      // Replace only the antiphons, keeping the psalms from ferialMorning
+      ferialMorning.psalmody = List.generate(
+        3,
+        (i) => PsalmEntry(
+          psalm: ferialMorning.psalmody![i].psalm,
+          antiphon: ferialMorningFour.psalmody![i].antiphon,
+        ),
+      );
+    }
+    ferialMorning.hymn = hymns;
+    return ferialMorning;
   }
 
   // ============================================================================
@@ -237,90 +235,82 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
 /// Reads the file via DataLoader, parses only the 'morning' section
 Future<Morning> morningExtract(
     String relativePath, DataLoader dataLoader) async {
-  try {
-    print('=== morningExtract DEBUG ===');
-    print('Loading file: $relativePath');
+  print('=== morningExtract DEBUG ===');
+  print('Loading file: $relativePath');
 
-    String fileContent = await dataLoader.loadJson(relativePath);
+  String fileContent = await dataLoader.loadJson(relativePath);
 
-    // If file doesn't exist or is empty, return empty Morning
-    if (fileContent.isEmpty) {
-      print('ERROR: File is empty or does not exist');
-      return Morning();
-    }
-
-    print('File loaded successfully, length: ${fileContent.length}');
-
-    var jsonData = jsonDecode(fileContent);
-    print('JSON decoded successfully');
-    print('JSON keys: ${jsonData.keys}');
-
-    if (jsonData['morning'] != null) {
-      print('Found "morning" section in JSON');
-      print('Morning section keys: ${jsonData['morning'].keys}');
-
-      // Create Morning directly from JSON
-      Morning morning =
-          Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
-      print('Morning created from JSON');
-      print('Morning has hymn: ${morning.hymn != null}');
-      print('Morning has psalmody: ${morning.psalmody != null}');
-      print('Morning psalmody length: ${morning.psalmody?.length ?? 0}');
-
-      // Extract invitatory if present and convert to Invitatory
-      if (jsonData['invitatory'] != null) {
-        print('Found "invitatory" section in JSON');
-        InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
-            jsonData['invitatory'] as Map<String, dynamic>);
-        final List invitatoryPsalms = [
-          "PSALM_94",
-          "PSALM_66",
-          "PSALM_99",
-          "PSALM_23"
-        ];
-        // Remove invitatory psalms that are already in morning psalmody
-        if (morning.psalmody != null) {
-          final psalmsInPsalmody =
-              morning.psalmody!.map((entry) => entry.psalm).toSet();
-
-          invitatoryPsalms
-              .removeWhere((psalm) => psalmsInPsalmody.contains(psalm));
-        }
-        // Convert InvitatoryOffice to Invitatory
-        morning.invitatory = Invitatory(
-            antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
-        print('Invitatory added to morning');
-      } else {
-        print('No "invitatory" section found');
-      }
-
-      // If oration is not in morning section, check in readings section
-      if (morning.oration == null && jsonData['readings'] != null) {
-        print('Checking "readings" section for oration');
-        var readingsData = jsonData['readings'];
-        if (readingsData['oration'] != null) {
-          morning.oration = List<String>.from(readingsData['oration']);
-          print('Oration found in readings section: ${morning.oration}');
-        } else {
-          print('No oration found in readings section');
-        }
-      }
-
-      print('=== morningExtract SUCCESS ===');
-      return morning;
-    } else {
-      print('ERROR: No "morning" section found in JSON');
-      print('Available keys: ${jsonData.keys}');
-    }
-
-    // If no "morning" section exists, return empty Morning
-    print('=== morningExtract FAILED - returning empty Morning ===');
-    return Morning();
-  } catch (e, stackTrace) {
-    // In case of error, return empty Morning
-    print('=== morningExtract ERROR ===');
-    print('Error: $e');
-    print('StackTrace: $stackTrace');
+  // If file doesn't exist or is empty, return empty Morning
+  if (fileContent.isEmpty) {
+    print('ERROR: File is empty or does not exist');
     return Morning();
   }
+
+  print('File loaded successfully, length: ${fileContent.length}');
+
+  var jsonData = jsonDecode(fileContent);
+  print('JSON decoded successfully');
+  print('JSON keys: ${jsonData.keys}');
+
+  if (jsonData['morning'] != null) {
+    print('Found "morning" section in JSON');
+    print('Morning section keys: ${jsonData['morning'].keys}');
+
+    // Create Morning directly from JSON
+    Morning morning =
+        Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
+    print('Morning created from JSON');
+    print('Morning has hymn: ${morning.hymn != null}');
+    print('Morning has psalmody: ${morning.psalmody != null}');
+    print('Morning psalmody length: ${morning.psalmody?.length ?? 0}');
+
+    // Extract invitatory if present and convert to Invitatory
+    if (jsonData['invitatory'] != null) {
+      print('Found "invitatory" section in JSON');
+      InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
+          jsonData['invitatory'] as Map<String, dynamic>);
+      final List invitatoryPsalms = [
+        "PSALM_94",
+        "PSALM_66",
+        "PSALM_99",
+        "PSALM_23"
+      ];
+      // Remove invitatory psalms that are already in morning psalmody
+      if (morning.psalmody != null) {
+        final psalmsInPsalmody =
+            morning.psalmody!.map((entry) => entry.psalm).toSet();
+
+        invitatoryPsalms
+            .removeWhere((psalm) => psalmsInPsalmody.contains(psalm));
+      }
+      // Convert InvitatoryOffice to Invitatory
+      morning.invitatory = Invitatory(
+          antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
+      print('Invitatory added to morning');
+    } else {
+      print('No "invitatory" section found');
+    }
+
+    // If oration is not in morning section, check in readings section
+    if (morning.oration == null && jsonData['readings'] != null) {
+      print('Checking "readings" section for oration');
+      var readingsData = jsonData['readings'];
+      if (readingsData['oration'] != null) {
+        morning.oration = List<String>.from(readingsData['oration']);
+        print('Oration found in readings section: ${morning.oration}');
+      } else {
+        print('No oration found in readings section');
+      }
+    }
+
+    print('=== morningExtract SUCCESS ===');
+    return morning;
+  } else {
+    print('ERROR: No "morning" section found in JSON');
+    print('Available keys: ${jsonData.keys}');
+  }
+
+  // If no "morning" section exists, return empty Morning
+  print('=== morningExtract FAILED - returning empty Morning ===');
+  return Morning();
 }

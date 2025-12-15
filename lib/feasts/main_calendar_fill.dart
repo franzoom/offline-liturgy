@@ -41,15 +41,19 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adventDays is the number of days in advent
   DateTime date = generalCalendar['ADVENT']!;
   while (date.isBefore(generalCalendar['NATIVITY']!)) {
-    if (date.day < 17) {
-      liturgicalGrade = (adventDays % 7 == 0)
-          ? 2
-          : 13; // Sundays are grade 2, other days grade 13
+    liturgicalGrade = (adventDays % 7 == 0)
+        ? 2
+        : 13; // Sundays are grade 2, other days grade 13
+    if (date.day < 17 || date.month == 11) {
       defaultCelebrationTitle =
           'advent_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
     } else {
-      liturgicalGrade = 9;
-      defaultCelebrationTitle = 'advent_${date.day}';
+      liturgicalGrade = liturgicalGrade == 13
+          ? 9
+          : 2; // Sundays are grade 2, other days grade 9
+      defaultCelebrationTitle =
+          'advent-${date.day}_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
+      // grammar of this special days: advent-17_3_5 (12/17, 3d week, 5th day)
     }
 
     DayContent dayContent = DayContent(

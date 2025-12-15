@@ -10,7 +10,7 @@ class Morning {
   String? responsory;
   EvangelicAntiphon? evangelicAntiphon;
   Intercession? intercession;
-  TeDeum? tedeum;
+  bool? tedeum;
   List<String>? oration;
 
   Morning({
@@ -52,6 +52,7 @@ class Morning {
       intercession: json['intercession'] != null
           ? Intercession.fromJson(json['intercession'] as Map<String, dynamic>)
           : null,
+      tedeum: json['tedeum'] as bool?,
       oration:
           json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
@@ -84,9 +85,26 @@ class Morning {
     if (overlay.intercession != null) {
       intercession = overlay.intercession;
     }
+    if (overlay.tedeum != null) {
+      tedeum = overlay.tedeum;
+    }
     if (overlay.oration != null) {
       oration = overlay.oration;
     }
+  }
+
+  /// Returns true if all fields are null (empty Morning)
+  bool isEmpty() {
+    return celebration == null &&
+        invitatory == null &&
+        hymn == null &&
+        psalmody == null &&
+        reading == null &&
+        responsory == null &&
+        evangelicAntiphon == null &&
+        intercession == null &&
+        tedeum == null &&
+        oration == null;
   }
 }
 
@@ -97,6 +115,8 @@ class MorningDefinition {
       morningDescription; // description of the office (e.g., "morning Office of the 2nd sunday of Lent")
   final String
       celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
+  final String ferialCode;
+  final List<String>? commonList;
   final String? liturgicalTime;
   final String? breviaryWeek;
   final int liturgicalGrade;
@@ -106,6 +126,8 @@ class MorningDefinition {
   MorningDefinition({
     required this.morningDescription,
     required this.celebrationCode,
+    required this.ferialCode,
+    this.commonList,
     this.liturgicalTime,
     this.breviaryWeek,
     required this.liturgicalGrade,

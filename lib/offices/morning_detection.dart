@@ -9,7 +9,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
   // Get day content from calendar
   final dayContent = calendar.getDayContent(date);
-
+  List<String> commonList = [];
   // If no data for this day, return empty map
   if (dayContent == null) {
     return {};
@@ -26,8 +26,12 @@ Future<Map<String, MorningDefinition>> morningDetection(
   });
 
   // Add default celebration from calendar root
-  allCelebrations.add(
-      MapEntry(dayContent.liturgicalGrade, dayContent.defaultCelebrationTitle));
+  String defaultCelebrationTitle = dayContent.defaultCelebrationTitle;
+  allCelebrations
+      .add(MapEntry(dayContent.liturgicalGrade, defaultCelebrationTitle));
+  // detects if there is a ferialCode in order to pass it to the MorningResolution procedure
+  String ferialCode =
+      isFerialDay(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
 
   // Sort by precedence (lowest number = highest precedence)
   allCelebrations.sort((a, b) => a.key.compareTo(b.key));
@@ -54,7 +58,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
     String mapKey = celebrationCode; // Default key is the code
 
     // Try to load celebration title from JSON files
-    if (!isFerialDays(celebrationCode)) {
+    if (!isFerialDay(celebrationCode)) {
       // Not a ferial day - try to load from special_days or sanctoral
       final String specialPath =
           'calendar_data/special_days/$celebrationCode.json';
@@ -76,6 +80,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
             final celebrationData = jsonData['celebration'];
             final String? title = celebrationData['title'] as String?;
             final String? subtitle = celebrationData['subtitle'] as String?;
+            commonList = celebrationData['commons'];
 
             // Build display name from title and subtitle (separated by comma)
             if (title != null && title.isNotEmpty) {
@@ -98,6 +103,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
     possibleMornings[mapKey] = MorningDefinition(
       morningDescription: celebrationName,
       celebrationCode: celebrationCode,
+      ferialCode: ferialCode,
+      commonList: commonList,
       liturgicalTime: dayContent.liturgicalTime,
       breviaryWeek: dayContent.breviaryWeek?.toString(),
       liturgicalGrade: liturgicalGrade,

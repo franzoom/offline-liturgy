@@ -6,7 +6,7 @@ DateTime dayShift(DateTime date, int shift) {
 
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
-bool isFerialDays(String celebrationName) {
+bool isFerialDay(String celebrationName) {
   final prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationName.startsWith(prefix));
 }

@@ -156,17 +156,6 @@ class InvitatoryOffice {
   }
 }
 
-/// Te Deum boolean for the Morning Office. If exists, uses the value. otherwise uses as 0.
-class TeDeum {
-  final bool? tedeum;
-  TeDeum({this.tedeum});
-  factory TeDeum.fromJson(Map<String, bool> json) {
-    return TeDeum(
-      tedeum: json['tedeum'] != null ? json['tedeum'] as bool : 0 as bool,
-    );
-  }
-}
-
 /// Hour office for middle of day (tierce, sexte, none)
 class HourOffice {
   final String? antiphon;

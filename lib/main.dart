@@ -1,9 +1,10 @@
 import 'offline_liturgy.dart';
+import 'offices/morning_ferial_resolution_legacy.dart'; //legacy
 import 'tools/data_loader.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2025, 12, 8);
+  DateTime date = DateTime(2025, 11, 7);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
@@ -12,12 +13,32 @@ Future<void> main() async {
 
   // Launch Morning prayer generation for the requested day:
 
-  final possibleMornings = await morningDetection(calendar, date, dataLoader);
+  final Map<String, MorningDefinition> possibleMornings =
+      await morningDetection(calendar, date, dataLoader);
 
-  final ferialMornings =
-      await ferialMorningResolution(calendar, date, dataLoader);
-//  String hymnName = ferialMornings[0]!.hymn[0];
+//for tries: taking the first celebration in the list
+  final MapEntry<String, MorningDefinition>? firstEntry =
+      possibleMornings.isNotEmpty ? possibleMornings.entries.first : null;
+//retrieving the celebrationCode...
+  final String celebrationCode = firstEntry!.value.celebrationCode;
+  final String ferialCode = firstEntry!.value.ferialCode;
+  final List<String>? commonList = firstEntry!.value.commonList;
+  final String? breviaryWeek = firstEntry!.value.breviaryWeek;
+//... and the first common proposed (if exists)...
 
+  final String common =
+      (commonList != null && commonList.isNotEmpty) ? commonList.first : '';
+
+// ... in order to run the office Resolution
+  final Morning firstMorningOffice = await morningResolution(
+      celebrationCode, ferialCode, common, date, breviaryWeek, dataLoader);
+  print(firstMorningOffice);
+//legacy:
+//  final legacyFerialMornings =
+//      await legacyFerialMorningResolution(calendar, date, dataLoader);
+
+////////////////////
+/*
   // Launch Compline generation for the requested day:
   Map<String, ComplineDefinition> possibleComplines =
       await complineDefinitionResolution(calendar, date, dataLoader);
@@ -32,4 +53,5 @@ Future<void> main() async {
     complineDisplay(compline, dataLoader);
     print('=========================');
   });
+  */
 }

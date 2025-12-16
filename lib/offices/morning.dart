@@ -35,7 +35,7 @@ Future<Morning> morningResolution(
   // then catches the Common, if given in argument
   if (common != null && common.trim().isNotEmpty) {
     Morning commonMorning =
-        await morningExtract('$commonsFilePath/common.json', dataLoader);
+        await morningExtract('$commonsFilePath/$common.json', dataLoader);
     morningOffice.overlayWith(commonMorning);
   }
 

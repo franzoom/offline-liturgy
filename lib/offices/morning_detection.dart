@@ -4,6 +4,9 @@ import '../classes/morning_class.dart';
 import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 
+const String specialPath = 'calendar_data/special_days';
+const String sanctoralPath = 'calendar_data/sanctoral';
+
 ///returns a list of possible Morning Offices, sorted by precedence (highest first)
 Future<Map<String, MorningDefinition>> morningDetection(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
@@ -53,7 +56,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
     // Determine if celebrable:
     // - If highest precedence is 1-8: only celebrations with highest precedence are celebrable
     // - If highest precedence is 9+: all celebrations are celebrable
-    final bool isCelebrable =
+    bool isCelebrable =
         highestPrecedence >= 9 || liturgicalGrade == highestPrecedence;
 
     // Get display name for celebration
@@ -62,17 +65,13 @@ Future<Map<String, MorningDefinition>> morningDetection(
 
     // Try to load celebration title from JSON files
     if (!isFerialDay(celebrationCode)) {
-      // Not a ferial day - try to load from special_days or sanctoral
-      final String specialPath =
-          'calendar_data/special_days/$celebrationCode.json';
-      final String sanctoralPath =
-          'calendar_data/sanctoral/$celebrationCode.json';
-
       // Try to load from special_days first
-      String fileContent = await dataLoader.loadJson(specialPath);
+      String fileContent =
+          await dataLoader.loadJson('$specialPath/$celebrationCode.json');
       // If not found in special_days, try sanctoral
       if (fileContent.isEmpty) {
-        fileContent = await dataLoader.loadJson(sanctoralPath);
+        fileContent =
+            await dataLoader.loadJson('$sanctoralPath/$celebrationCode.json');
       }
 
       if (fileContent.isNotEmpty) {
@@ -81,7 +80,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
           final celebrationData = jsonData['celebration'];
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
-          commonList = celebrationData['commons'];
+          commonList = List<String>.from(celebrationData['commons'] ?? []);
 
           // Build display name from title and subtitle (separated by comma)
           if (title != null && title.isNotEmpty) {
@@ -94,10 +93,14 @@ Future<Map<String, MorningDefinition>> morningDetection(
         }
       } else {
         print('failed to load $celebrationCode.json');
+        bool isCelebrable = false;
       }
       // If file not found or empty, keep the original code as name and key
+    } else {
+      // For ferial days:
+      celebrationName = ferialNameResolution(ferialCode);
+      mapKey = celebrationName;
     }
-    // For ferial days, we'll implement name generation later
 
     possibleMornings[mapKey] = MorningDefinition(
       morningDescription: celebrationName,

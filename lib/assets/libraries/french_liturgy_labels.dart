@@ -12,7 +12,7 @@ const Map<String, String> celebrationTypeLabels = {
 const liturgicalTimeLabels = {
   'advent': 'Temps de l\'Avent',
   'ot': 'Temps Ordinaire',
-  'paschal': 'Temps Pascal',
+  'easter': 'Temps Pascal',
   'lent': 'Carême',
   'christmas': 'Temps de Noël',
   'holyweek': 'Semaine Sainte',
@@ -86,5 +86,12 @@ String getFrenchOrdinal(int number) {
   if (number == 1) {
     return '1er';
   }
-  return '${number}ème';
+  return '$numberème';
+}
+
+String getFrenchOrdinalFemale(int number) {
+  if (number == 1) {
+    return '1ère';
+  }
+  return '$numberème';
 }

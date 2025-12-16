@@ -1,10 +1,9 @@
 import 'offline_liturgy.dart';
-import 'offices/morning_ferial_resolution_legacy.dart'; //legacy
 import 'tools/data_loader.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2025, 11, 30);
+  DateTime date = DateTime(2025, 12, 21);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
@@ -33,9 +32,6 @@ Future<void> main() async {
   final Morning firstMorningOffice = await morningResolution(
       celebrationCode, ferialCode, common, date, breviaryWeek, dataLoader);
   print(firstMorningOffice);
-//legacy:
-//  final legacyFerialMornings =
-//      await legacyFerialMorningResolution(calendar, date, dataLoader);
 
 ////////////////////
 /*

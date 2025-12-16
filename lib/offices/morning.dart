@@ -235,8 +235,7 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
 /// Reads the file via DataLoader, parses only the 'morning' section
 Future<Morning> morningExtract(
     String relativePath, DataLoader dataLoader) async {
-  print('=== morningExtract DEBUG ===');
-  print('Loading file: $relativePath');
+  print('=== morningExtract DEBUG == Loading file: $relativePath');
 
   String fileContent = await dataLoader.loadJson(relativePath);
 
@@ -245,28 +244,14 @@ Future<Morning> morningExtract(
     print('ERROR: File is empty or does not exist');
     return Morning();
   }
-
-  print('File loaded successfully, length: ${fileContent.length}');
-
   var jsonData = jsonDecode(fileContent);
-  print('JSON decoded successfully');
-  print('JSON keys: ${jsonData.keys}');
-
   if (jsonData['morning'] != null) {
-    print('Found "morning" section in JSON');
-    print('Morning section keys: ${jsonData['morning'].keys}');
-
     // Create Morning directly from JSON
     Morning morning =
         Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
-    print('Morning created from JSON');
-    print('Morning has hymn: ${morning.hymn != null}');
-    print('Morning has psalmody: ${morning.psalmody != null}');
-    print('Morning psalmody length: ${morning.psalmody?.length ?? 0}');
 
     // Extract invitatory if present and convert to Invitatory
     if (jsonData['invitatory'] != null) {
-      print('Found "invitatory" section in JSON');
       InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
           jsonData['invitatory'] as Map<String, dynamic>);
       final List invitatoryPsalms = [
@@ -286,31 +271,20 @@ Future<Morning> morningExtract(
       // Convert InvitatoryOffice to Invitatory
       morning.invitatory = Invitatory(
           antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
-      print('Invitatory added to morning');
-    } else {
-      print('No "invitatory" section found');
     }
 
     // If oration is not in morning section, check in readings section
     if (morning.oration == null && jsonData['readings'] != null) {
-      print('Checking "readings" section for oration');
       var readingsData = jsonData['readings'];
       if (readingsData['oration'] != null) {
         morning.oration = List<String>.from(readingsData['oration']);
-        print('Oration found in readings section: ${morning.oration}');
-      } else {
-        print('No oration found in readings section');
       }
     }
 
     print('=== morningExtract SUCCESS ===');
     return morning;
-  } else {
-    print('ERROR: No "morning" section found in JSON');
-    print('Available keys: ${jsonData.keys}');
   }
 
   // If no "morning" section exists, return empty Morning
-  print('=== morningExtract FAILED - returning empty Morning ===');
   return Morning();
 }

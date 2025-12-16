@@ -7,7 +7,6 @@ import '../tools/date_tools.dart';
 ///returns a list of possible Morning Offices, sorted by precedence (highest first)
 Future<Map<String, MorningDefinition>> morningDetection(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
-  print('============= MORNING DETECTION ==============');
   // Get day content from calendar
   final dayContent = calendar.getDayContent(date);
   List<String> commonList = [];
@@ -71,11 +70,9 @@ Future<Map<String, MorningDefinition>> morningDetection(
 
       // Try to load from special_days first
       String fileContent = await dataLoader.loadJson(specialPath);
-      print('++++++ fileContent de $specialPath: $fileContent');
       // If not found in special_days, try sanctoral
       if (fileContent.isEmpty) {
         fileContent = await dataLoader.loadJson(sanctoralPath);
-        print('++++++ fileContent de $sanctoralPath: $fileContent');
       }
 
       if (fileContent.isNotEmpty) {
@@ -95,6 +92,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
             }
           }
         }
+      } else {
+        print('failed to load $celebrationCode.json');
       }
       // If file not found or empty, keep the original code as name and key
     }
@@ -111,6 +110,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       isCelebrable: isCelebrable,
     );
   }
-  print(possibleMornings);
+  print(
+      '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
 }

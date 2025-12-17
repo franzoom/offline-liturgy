@@ -245,46 +245,41 @@ Future<Morning> morningExtract(
     return Morning();
   }
   var jsonData = jsonDecode(fileContent);
-  if (jsonData['morning'] != null) {
-    // Create Morning directly from JSON
-    Morning morning =
-        Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
+  if (jsonData['morning'] == null) {
+    return Morning();
+  }
+  List<String> oration = List<String>.from(jsonData['oration'] ?? []);
+  // Create Morning directly from JSON
+  Morning morning =
+      Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
 
-    // Extract invitatory if present and convert to Invitatory
-    if (jsonData['invitatory'] != null) {
-      InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
-          jsonData['invitatory'] as Map<String, dynamic>);
-      final List invitatoryPsalms = [
-        "PSALM_94",
-        "PSALM_66",
-        "PSALM_99",
-        "PSALM_23"
-      ];
-      // Remove invitatory psalms that are already in morning psalmody
-      if (morning.psalmody != null) {
-        final psalmsInPsalmody =
-            morning.psalmody!.map((entry) => entry.psalm).toSet();
+  // Extract invitatory if present and convert to Invitatory
+  if (jsonData['invitatory'] != null) {
+    InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
+        jsonData['invitatory'] as Map<String, dynamic>);
+    final List invitatoryPsalms = [
+      "PSALM_94",
+      "PSALM_66",
+      "PSALM_99",
+      "PSALM_23"
+    ];
+    // Remove invitatory psalms that are already in morning psalmody
+    if (morning.psalmody != null) {
+      final psalmsInPsalmody =
+          morning.psalmody!.map((entry) => entry.psalm).toSet();
 
-        invitatoryPsalms
-            .removeWhere((psalm) => psalmsInPsalmody.contains(psalm));
-      }
-      // Convert InvitatoryOffice to Invitatory
-      morning.invitatory = Invitatory(
-          antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
+      invitatoryPsalms.removeWhere((psalm) => psalmsInPsalmody.contains(psalm));
     }
-
-    // If oration is not in morning section, check in readings section
-    if (morning.oration == null && jsonData['readings'] != null) {
-      var readingsData = jsonData['readings'];
-      if (readingsData['oration'] != null) {
-        morning.oration = List<String>.from(readingsData['oration']);
-      }
-    }
-
-    print('=== morningExtract SUCCESS ===');
-    return morning;
+    // Convert InvitatoryOffice to Invitatory
+    morning.invitatory = Invitatory(
+        antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
   }
 
+  // If oration is not in morning section, check in main section of the json
+  morning.oration ??= oration;
+
+  print('=== morningExtract SUCCESS ===');
+  return morning;
+
   // If no "morning" section exists, return empty Morning
-  return Morning();
 }

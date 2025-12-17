@@ -46,21 +46,36 @@ String ferialNameResolution(String ferialCode) {
     return ferialCode; // Return original code if format is unexpected
   }
 
-  final liturgicalTime = parts[0];
+  String liturgicalTime = parts[0];
   final weekNumber = int.tryParse(parts[1]);
   final dayNumber = int.tryParse(parts[2]);
-
+  String result = '';
   if (weekNumber == null ||
       dayNumber == null ||
       dayNumber < 0 ||
       dayNumber > 6) {
     return ferialCode; // Return original code if parsing failed
   }
-  final liturgicalTimeLabel =
-      liturgicalTimeLabels[liturgicalTime] ?? liturgicalTime;
+  final liturgicalTimeParts = liturgicalTime.split('-');
+  final liturgicalTimeEssential = liturgicalTimeParts[0];
+  final int? dayNumberEssential = liturgicalTimeParts.length > 1
+      ? int.tryParse(liturgicalTimeParts[1])
+      : null;
   final dayOfWeekLabel = daysOfWeek[dayNumber];
   final weekOrdinal = getFrenchOrdinalFemale(weekNumber);
-  final result =
-      '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel';
+  if (dayNumberEssential == null) {
+    // Simple case: 'advent' without day number
+    final liturgicalTimeLabel =
+        liturgicalTimeLabels[liturgicalTime] ?? liturgicalTime;
+
+    result =
+        '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel';
+  } else {
+    // Special case: 'advent-17 to 24' with day number
+    if (liturgicalTimeEssential == 'advent') {
+      result =
+          '$dayOfWeekLabel de la $weekOrdinal semaine de l’Avent ($dayNumberEssential décembre)';
+    }
+  }
   return result[0].toUpperCase() + result.substring(1);
 }

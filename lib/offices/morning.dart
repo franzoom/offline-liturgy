@@ -253,26 +253,27 @@ Future<Morning> morningExtract(
   Morning morning =
       Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
 
-  // Extract invitatory if present and convert to Invitatory
+  // Extract invitatory if present
   if (jsonData['invitatory'] != null) {
-    InvitatoryOffice invitatoryOffice = InvitatoryOffice.fromJson(
-        jsonData['invitatory'] as Map<String, dynamic>);
-    final List invitatoryPsalms = [
-      "PSALM_94",
-      "PSALM_66",
-      "PSALM_99",
-      "PSALM_23"
-    ];
+    Invitatory invitatory =
+        Invitatory.fromJson(jsonData['invitatory'] as Map<String, dynamic>);
+
+    // If invitatory doesn't have psalms, use default list
+    List<String> invitatoryPsalms =
+        invitatory.psalms ?? ["PSALM_94", "PSALM_66", "PSALM_99", "PSALM_23"];
+
     // Remove invitatory psalms that are already in morning psalmody
     if (morning.psalmody != null) {
       final psalmsInPsalmody =
           morning.psalmody!.map((entry) => entry.psalm).toSet();
-
-      invitatoryPsalms.removeWhere((psalm) => psalmsInPsalmody.contains(psalm));
+      invitatoryPsalms = invitatoryPsalms
+          .where((psalm) => !psalmsInPsalmody.contains(psalm))
+          .toList();
     }
-    // Convert InvitatoryOffice to Invitatory
-    morning.invitatory = Invitatory(
-        antiphon: invitatoryOffice.antiphon, psalms: invitatoryPsalms);
+
+    // Assign invitatory with filtered psalms
+    morning.invitatory =
+        Invitatory(antiphon: invitatory.antiphon, psalms: invitatoryPsalms);
   }
 
   // If oration is not in morning section, check in main section of the json

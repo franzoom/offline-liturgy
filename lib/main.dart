@@ -3,7 +3,7 @@ import 'tools/data_loader.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2025, 12, 21);
+  DateTime date = DateTime(2025, 12, 8);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 

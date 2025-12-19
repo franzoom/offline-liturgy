@@ -30,6 +30,9 @@ Future<Map<String, MorningDefinition>> morningDetection(
   });
 
   // Add default celebration from calendar root
+  String liturgicalColor = dayContent.liturgicalColor.isNotEmpty
+      ? dayContent.liturgicalColor
+      : '';
   String defaultCelebrationTitle = dayContent.defaultCelebrationTitle;
   allCelebrations
       .add(MapEntry(dayContent.liturgicalGrade, defaultCelebrationTitle));
@@ -80,6 +83,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
           final celebrationData = jsonData['celebration'];
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
+          final String liturgicalColor =
+              celebrationData['color'] as String? ?? '';
           commonList = List<String>.from(celebrationData['commons'] ?? []);
 
           // Build display name from title and subtitle (separated by comma)
@@ -110,6 +115,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       liturgicalTime: dayContent.liturgicalTime,
       breviaryWeek: dayContent.breviaryWeek?.toString(),
       liturgicalGrade: liturgicalGrade,
+      liturgicalColor: liturgicalColor,
       isCelebrable: isCelebrable,
     );
   }

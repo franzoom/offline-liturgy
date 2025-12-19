@@ -94,17 +94,19 @@ class Morning {
   }
 
   /// Returns true if all fields are null (empty Morning)
+  /// use of a direct short-cut: if on element is not empty, returns false.
   bool isEmpty() {
-    return celebration == null &&
-        invitatory == null &&
-        hymn == null &&
-        psalmody == null &&
-        reading == null &&
-        responsory == null &&
-        evangelicAntiphon == null &&
-        intercession == null &&
-        tedeum == null &&
-        oration == null;
+    if (celebration != null) return false;
+    if (invitatory != null) return false;
+    if (hymn != null) return false;
+    if (psalmody != null) return false;
+    if (reading != null) return false;
+    if (responsory != null) return false;
+    if (evangelicAntiphon != null) return false;
+    if (intercession != null) return false;
+    if (tedeum != null) return false;
+    if (oration != null) return false;
+    return true;
   }
 }
 
@@ -115,11 +117,13 @@ class MorningDefinition {
       morningDescription; // description of the office (e.g., "morning Office of the 2nd sunday of Lent")
   final String
       celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
-  final String ferialCode;
+  final String
+      ferialCode; // code given by the root of the day in Calendar: ferial code or Solmenity
   final List<String>? commonList;
   final String? liturgicalTime;
   final String? breviaryWeek;
   final int liturgicalGrade;
+  final String liturgicalColor;
   final bool
       isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
 
@@ -132,5 +136,6 @@ class MorningDefinition {
     this.breviaryWeek,
     required this.liturgicalGrade,
     required this.isCelebrable,
+    required this.liturgicalColor,
   });
 }

@@ -1,8 +1,8 @@
-import '../classes/compline_class.dart';
-import '../assets/libraries/psalms_library.dart';
-import '../tools/hymns_management.dart';
-import '../tools/data_loader.dart';
-import '../classes/hymns_class.dart';
+import '../../classes/compline_class.dart';
+import '../../assets/libraries/psalms_library.dart';
+import '../../tools/hymns_management.dart';
+import '../../tools/data_loader.dart';
+import '../../classes/hymns_class.dart';
 
 /// Complines text display (temporary)
 /// Now supports async loading of psalms and hymns from JSON

@@ -1,11 +1,9 @@
 import 'dart:convert';
-import '../classes/calendar_class.dart';
-import '../classes/morning_class.dart';
-import '../tools/data_loader.dart';
-import '../tools/date_tools.dart';
-
-const String specialPath = 'calendar_data/special_days';
-const String sanctoralPath = 'calendar_data/sanctoral';
+import '../../classes/calendar_class.dart';
+import '../../classes/morning_class.dart';
+import '../../tools/data_loader.dart';
+import '../../tools/date_tools.dart';
+import '../../tools/file_paths.dart';
 
 ///returns a list of possible Morning Offices, sorted by precedence (highest first)
 Future<Map<String, MorningDefinition>> morningDetection(
@@ -30,9 +28,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
   });
 
   // Add default celebration from calendar root
-  String liturgicalColor = dayContent.liturgicalColor.isNotEmpty
-      ? dayContent.liturgicalColor
-      : '';
+  String liturgicalColor =
+      dayContent.liturgicalColor.isNotEmpty ? dayContent.liturgicalColor : '';
   String defaultCelebrationTitle = dayContent.defaultCelebrationTitle;
   allCelebrations
       .add(MapEntry(dayContent.liturgicalGrade, defaultCelebrationTitle));
@@ -70,11 +67,11 @@ Future<Map<String, MorningDefinition>> morningDetection(
     if (!isFerialDay(celebrationCode)) {
       // Try to load from special_days first
       String fileContent =
-          await dataLoader.loadJson('$specialPath/$celebrationCode.json');
+          await dataLoader.loadJson('$specialFilePath/$celebrationCode.json');
       // If not found in special_days, try sanctoral
       if (fileContent.isEmpty) {
-        fileContent =
-            await dataLoader.loadJson('$sanctoralPath/$celebrationCode.json');
+        fileContent = await dataLoader
+            .loadJson('$sanctoralFilePath/$celebrationCode.json');
       }
 
       if (fileContent.isNotEmpty) {

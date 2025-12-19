@@ -1,8 +1,8 @@
 import 'dart:convert';
-import '../classes/calendar_class.dart'; // Calendar class
-import '../classes/compline_class.dart';
-import '../tools/date_tools.dart';
-import '../tools/data_loader.dart'; // Abstract interface for data loading
+import '../../classes/calendar_class.dart'; // Calendar class
+import '../../classes/compline_class.dart';
+import '../../tools/date_tools.dart';
+import '../../tools/data_loader.dart'; // Abstract interface for data loading
 import 'package:offline_liturgy/assets/libraries/french_liturgy_labels.dart';
 
 Future<Map<String, ComplineDefinition>> complineDetection(

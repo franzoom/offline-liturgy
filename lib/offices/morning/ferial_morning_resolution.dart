@@ -1,60 +1,11 @@
-import 'dart:convert';
-import '../feasts/common_calendar_definitions.dart';
-import '../classes/morning_class.dart';
-import '../classes/office_elements_class.dart';
-import '../tools/extract_week_and_day.dart';
-import '../tools/data_loader.dart';
-import '../assets/libraries/hymn_list.dart';
-
-// Paths to liturgical data files
-const String ferialFilePath = 'calendar_data/ferial_days';
-const String specialFilePath = 'calendar_data/special_days';
-const String sanctoralFilePath = 'calendar_data/sanctoral';
-const String commonsFilePath = 'calendar_data/commons';
-
-/// Resolves morning prayer for a given celebrationCode.
-/// requires onlyOration for the Memories: adding only the Oration of the saint,
-/// or adding the chosen Common.
-/// Returns a Map with celebration name as key and Morning instance as value
-/// (the argument "date" is used for advent calculation)
-Future<Morning> morningResolution(
-    String celebrationCode,
-    String? ferialCode,
-    String? common,
-    DateTime date,
-    String? breviaryWeek,
-    DataLoader dataLoader) async {
-  Morning morningOffice = Morning();
-  Morning properMorning = Morning();
-
-// firstable catches the ferial data if exists (if not feast or solemnity)
-  if (ferialCode != null && ferialCode.trim().isNotEmpty) {
-    morningOffice = await ferialMorningResolution(
-        ferialCode, date, breviaryWeek, dataLoader);
-  }
-  // then catches the Common, if given in argument
-  if (common != null && common.trim().isNotEmpty) {
-    Morning commonMorning =
-        await morningExtract('$commonsFilePath/$common.json', dataLoader);
-    morningOffice.overlayWith(commonMorning);
-  }
-
-  // and catches the Proper if the celebration is not ferial:
-  if (celebrationCode != ferialCode) {
-    // Try special directory first, then sanctoral
-    properMorning = await morningExtract(
-        '$specialFilePath/$celebrationCode.json', dataLoader);
-
-    if (properMorning.isEmpty()) {
-      // File not found in special, try sanctoral
-      properMorning = await morningExtract(
-          '$sanctoralFilePath/$celebrationCode.json', dataLoader);
-    }
-  }
-
-  morningOffice.overlayWith(properMorning);
-  return morningOffice;
-}
+import '../../feasts/common_calendar_definitions.dart';
+import '../../classes/morning_class.dart';
+import '../../classes/office_elements_class.dart';
+import '../../tools/extract_week_and_day.dart';
+import '../../tools/data_loader.dart';
+import '../../assets/libraries/hymn_list.dart';
+import './morning_extract.dart';
+import '../../tools/file_paths.dart';
 
 /// Resolves morning prayer for ferial days
 /// Returns Morning instanciation
@@ -229,58 +180,4 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
   ferialMorning =
       await morningExtract('$ferialFilePath/$celebrationCode.json', dataLoader);
   return ferialMorning;
-}
-
-/// Extracts Morning data from a JSON file
-/// Reads the file via DataLoader, parses only the 'morning' section
-Future<Morning> morningExtract(
-    String relativePath, DataLoader dataLoader) async {
-  print('=== morningExtract DEBUG == Loading file: $relativePath');
-
-  String fileContent = await dataLoader.loadJson(relativePath);
-
-  // If file doesn't exist or is empty, return empty Morning
-  if (fileContent.isEmpty) {
-    print('ERROR: File is empty or does not exist');
-    return Morning();
-  }
-  var jsonData = jsonDecode(fileContent);
-  if (jsonData['morning'] == null) {
-    return Morning();
-  }
-  List<String> oration = List<String>.from(jsonData['oration'] ?? []);
-  // Create Morning directly from JSON
-  Morning morning =
-      Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
-
-  // Extract invitatory if present
-  if (jsonData['invitatory'] != null) {
-    Invitatory invitatory =
-        Invitatory.fromJson(jsonData['invitatory'] as Map<String, dynamic>);
-
-    // If invitatory doesn't have psalms, use default list
-    List<String> invitatoryPsalms =
-        invitatory.psalms ?? ["PSALM_94", "PSALM_66", "PSALM_99", "PSALM_23"];
-
-    // Remove invitatory psalms that are already in morning psalmody
-    if (morning.psalmody != null) {
-      final psalmsInPsalmody =
-          morning.psalmody!.map((entry) => entry.psalm).toSet();
-      invitatoryPsalms = invitatoryPsalms
-          .where((psalm) => !psalmsInPsalmody.contains(psalm))
-          .toList();
-    }
-
-    // Assign invitatory with filtered psalms
-    morning.invitatory =
-        Invitatory(antiphon: invitatory.antiphon, psalms: invitatoryPsalms);
-  }
-
-  // If oration is not in morning section, check in main section of the json
-  morning.oration ??= oration;
-
-  print('=== morningExtract SUCCESS ===');
-  return morning;
-
-  // If no "morning" section exists, return empty Morning
 }

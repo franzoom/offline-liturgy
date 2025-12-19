@@ -1,16 +1,16 @@
-import '../classes/calendar_class.dart';
-import '../classes/compline_class.dart';
-import '../assets/compline/compline_default.dart';
-import '../assets/compline/compline_paschal_time.dart';
-import '../assets/compline/compline_lent_time.dart';
-import '../assets/compline/compline_solemnity_lent_time.dart';
-import '../assets/compline/compline_solemnity_paschal_time.dart';
-import '../assets/compline/compline_solemnity_ordinary_time.dart';
-import '../assets/compline/compline_solemnity_advent_christmas.dart';
-import '../assets/compline/compline_advent_time.dart';
-import '../assets/compline/compline_christmas_time.dart';
-import '../tools/date_tools.dart';
-import '../tools/data_loader.dart';
+import '../../classes/calendar_class.dart';
+import '../../classes/compline_class.dart';
+import '../../assets/compline/compline_default.dart';
+import '../../assets/compline/compline_paschal_time.dart';
+import '../../assets/compline/compline_lent_time.dart';
+import '../../assets/compline/compline_solemnity_lent_time.dart';
+import '../../assets/compline/compline_solemnity_paschal_time.dart';
+import '../../assets/compline/compline_solemnity_ordinary_time.dart';
+import '../../assets/compline/compline_solemnity_advent_christmas.dart';
+import '../../assets/compline/compline_advent_time.dart';
+import '../../assets/compline/compline_christmas_time.dart';
+import '../../tools/date_tools.dart';
+import '../../tools/data_loader.dart';
 import 'compline_detection.dart';
 
 Future<Map<String, ComplineDefinition>> complineDefinitionResolution(

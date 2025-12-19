@@ -1,0 +1,49 @@
+import '../../classes/morning_class.dart';
+import '../../tools/data_loader.dart';
+import './ferial_morning_resolution.dart';
+import './morning_extract.dart';
+import '../../tools/file_paths.dart';
+
+/// Resolves morning prayer for a given celebrationCode.
+/// requires onlyOration for the Memories: adding only the Oration of the saint,
+/// or adding the chosen Common.
+/// Returns a Map with celebration name as key and Morning instance as value
+/// (the argument "date" is used for advent calculation)
+Future<Morning> morningResolution(
+    String celebrationCode,
+    String? ferialCode,
+    String? common,
+    DateTime date,
+    String? breviaryWeek,
+    DataLoader dataLoader) async {
+  Morning morningOffice = Morning();
+  Morning properMorning = Morning();
+
+// firstable catches the ferial data if exists (if not feast or solemnity)
+  if (ferialCode != null && ferialCode.trim().isNotEmpty) {
+    morningOffice = await ferialMorningResolution(
+        ferialCode, date, breviaryWeek, dataLoader);
+  }
+  // then catches the Common, if given in argument
+  if (common != null && common.trim().isNotEmpty) {
+    Morning commonMorning =
+        await morningExtract('$commonsFilePath/$common.json', dataLoader);
+    morningOffice.overlayWith(commonMorning);
+  }
+
+  // and catches the Proper if the celebration is not ferial:
+  if (celebrationCode != ferialCode) {
+    // Try special directory first, then sanctoral
+    properMorning = await morningExtract(
+        '$specialFilePath/$celebrationCode.json', dataLoader);
+
+    if (properMorning.isEmpty()) {
+      // File not found in special, try sanctoral
+      properMorning = await morningExtract(
+          '$sanctoralFilePath/$celebrationCode.json', dataLoader);
+    }
+  }
+
+  morningOffice.overlayWith(properMorning);
+  return morningOffice;
+}

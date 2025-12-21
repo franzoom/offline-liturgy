@@ -90,14 +90,14 @@ class ComplineDefinition {
   final String dayOfWeek; // 'sunday', 'monday', etc.
   final String liturgicalTime;
   final String celebrationType; // 'solemnity', 'solemnityEve' or 'normal'
-  final int priority;
+  final int precedence;
 
   ComplineDefinition({
     required this.complineDescription,
     required this.dayOfWeek,
     required this.liturgicalTime,
     required this.celebrationType,
-    required this.priority,
+    required this.precedence,
   });
 
   factory ComplineDefinition.fromJson(Map<String, dynamic> json) {
@@ -106,7 +106,7 @@ class ComplineDefinition {
       dayOfWeek: json['dayOfWeek'] as String,
       liturgicalTime: json['liturgicalTime'] as String,
       celebrationType: json['celebrationType'] as String,
-      priority: json['priority'] as int,
+      precedence: json['precedence'] as int,
     );
   }
 }

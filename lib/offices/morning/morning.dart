@@ -15,23 +15,18 @@ Future<Morning> morningResolution(
     String? common,
     DateTime date,
     String? breviaryWeek,
-    DataLoader dataLoader) async {
+    DataLoader dataLoader,
+    {int? precedence}) async {
   Morning morningOffice = Morning();
   Morning properMorning = Morning();
 
-// firstable catches the ferial data if exists (if not feast or solemnity)
+  // firstable catches the ferial data if exists (if not feast or solemnity)
   if (ferialCode != null && ferialCode.trim().isNotEmpty) {
     morningOffice = await ferialMorningResolution(
         ferialCode, date, breviaryWeek, dataLoader);
   }
-  // then catches the Common, if given in argument
-  if (common != null && common.trim().isNotEmpty) {
-    Morning commonMorning =
-        await morningExtract('$commonsFilePath/$common.json', dataLoader);
-    morningOffice.overlayWith(commonMorning);
-  }
 
-  // and catches the Proper if the celebration is not ferial:
+  // Load proper celebration data if not ferial
   if (celebrationCode != ferialCode) {
     // Try special directory first, then sanctoral
     properMorning = await morningExtract(
@@ -44,6 +39,26 @@ Future<Morning> morningResolution(
     }
   }
 
-  morningOffice.overlayWith(properMorning);
+  // For optional celebrations (precedence > 6), apply layers in correct order
+  if (precedence != null && precedence > 6) {
+    // Layer 1: Ferial (already in morningOffice)
+    // Layer 2: Common if provided (selective overlay - only fills gaps)
+    if (common != null && common.trim().isNotEmpty) {
+      Morning commonMorning =
+          await morningExtract('$commonsFilePath/$common.json', dataLoader);
+      morningOffice.overlayWithCommon(commonMorning);
+    }
+    // Layer 3: Proper (always applied, has priority over everything)
+    morningOffice.overlayWith(properMorning);
+  } else {
+    // Obligatory celebrations (precedence <= 6): standard full overlay
+    if (common != null && common.trim().isNotEmpty) {
+      Morning commonMorning =
+          await morningExtract('$commonsFilePath/$common.json', dataLoader);
+      morningOffice.overlayWith(commonMorning);
+    }
+    morningOffice.overlayWith(properMorning);
+  }
+
   return morningOffice;
 }

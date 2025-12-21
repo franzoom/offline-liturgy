@@ -17,13 +17,18 @@ Future<Morning> morningExtract(
     return Morning();
   }
   var jsonData = jsonDecode(fileContent);
-  if (jsonData['morning'] == null) {
-    return Morning();
-  }
+
+  // Extract oration from root level if present
   List<String> oration = List<String>.from(jsonData['oration'] ?? []);
-  // Create Morning directly from JSON
-  Morning morning =
-      Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
+
+  // Create Morning from JSON (from 'morning' section if exists, otherwise empty)
+  Morning morning;
+  if (jsonData['morning'] != null) {
+    morning = Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
+  } else {
+    // No 'morning' section, create empty Morning
+    morning = Morning();
+  }
 
   // Extract invitatory if present
   if (jsonData['invitatory'] != null) {

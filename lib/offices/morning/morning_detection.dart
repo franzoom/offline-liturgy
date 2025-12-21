@@ -19,8 +19,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
   // Build list of all possible celebrations
   final List<MapEntry<int, String>> allCelebrations = [];
 
-  // Add celebrations from priority map
-  dayContent.priority.forEach((priorityNumber, titles) {
+  // Add celebrations from feastList map
+  dayContent.feastList.forEach((priorityNumber, titles) {
     for (var title in titles) {
       print('============ MORNING DETECTION: $priorityNumber, $title');
       allCelebrations.add(MapEntry(priorityNumber, title));

@@ -8,7 +8,7 @@ class DayContent {
   final int liturgicalGrade;
   final String liturgicalColor;
   final int? breviaryWeek;
-  Map<int, List<String>> priority;
+  Map<int, List<String>> feastList;
 
   DayContent({
     required this.liturgicalYear,
@@ -17,31 +17,8 @@ class DayContent {
     required this.liturgicalGrade,
     required this.liturgicalColor,
     required this.breviaryWeek,
-    required this.priority,
+    required this.feastList,
   });
-
-//JSON export method
-  Map<String, dynamic> toJson() => {
-        'liturgicalYear': liturgicalYear,
-        'liturgicalTime': liturgicalTime,
-        'defaultCelebrationTitle': defaultCelebrationTitle,
-        'liturgicalGrade': liturgicalGrade,
-        'liturgicalColor': liturgicalColor,
-        'breviaryWeek': breviaryWeek,
-        'priority':
-            priority.map((key, value) => MapEntry(key.toString(), value)),
-      };
-  factory DayContent.fromJson(Map<String, dynamic> json) => DayContent(
-        liturgicalYear: json['liturgicalYear'],
-        liturgicalTime: json['liturgicalTime'],
-        defaultCelebrationTitle: json['defaultCelebrationTitle'],
-        liturgicalGrade: json['liturgicalGrade'],
-        liturgicalColor: json['liturgicalColor'],
-        breviaryWeek: json['breviaryWeek'],
-        priority: (json['priority'] as Map<String, dynamic>).map(
-          (key, value) => MapEntry(int.parse(key), List<String>.from(value)),
-        ),
-      );
 }
 
 class Calendar {
@@ -56,26 +33,26 @@ class Calendar {
     return calendarData[date];
   }
 
-  void addItemToDay(DateTime date, int priorityLevel, String item) {
+  void addItemToDay(DateTime date, int precedence, String item) {
     if (calendarData.containsKey(date)) {
       DayContent dayContent = calendarData[date]!;
       // Trouver la priorité actuelle de l'item, s'il existe
-      int? existingPriority = dayContent.priority.entries
+      int? existingPrecedence = dayContent.feastList.entries
           .firstWhere(
             (entry) => entry.value.contains(item),
             orElse: () => const MapEntry(-1, []),
           )
           .key;
       // Si l'item est déjà à la bonne priorité, ne rien faire
-      if (existingPriority == priorityLevel) return;
+      if (existingPrecedence == precedence) return;
       // Si l'item existe à une autre priorité (logiquement moins importante), le supprimer
-      if (existingPriority != -1) {
+      if (existingPrecedence != -1) {
         removeCelebrationFromDay(date, item);
       }
       // Ajouter l'item à la nouvelle priorité sans écraser les autres
-      dayContent.priority.putIfAbsent(priorityLevel, () => []);
-      if (!dayContent.priority[priorityLevel]!.contains(item)) {
-        dayContent.priority[priorityLevel]!.add(item);
+      dayContent.feastList.putIfAbsent(precedence, () => []);
+      if (!dayContent.feastList[precedence]!.contains(item)) {
+        dayContent.feastList[precedence]!.add(item);
       }
     }
   }
@@ -87,9 +64,9 @@ class Calendar {
         generalCalendar['CHRIST_KING']!.add(Duration(days: 6));
     int yearToRecord = liturgicalYear;
 
-    feastList.forEach((key, value) {
-      final int month = value.month;
-      final int day = value.day;
+    feastList.forEach((precedence, feastTitle) {
+      final int month = feastTitle.month;
+      final int day = feastTitle.day;
 
       yearToRecord =
           DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
@@ -99,18 +76,18 @@ class Calendar {
       DateTime feastDate = DateTime(yearToRecord, month, day);
       if (feastDate.isAfter(beginOfLiturgicalYear) &&
           feastDate.isBefore(endOfLiturgicalYear)) {
-        addItemToDay(feastDate, value.priority, key);
+        addItemToDay(feastDate, feastTitle.priority, precedence);
       }
     });
   }
 
   void addItemRelatedToFeast(
-      DateTime date, int shift, int priorityLevel, String item) {
+      DateTime date, int shift, int precedence, String item) {
     //ajoute une date en relation avec une autre: par exemple
     // Notre-Dame de Fourvière le samedi après le 2ème dimanche de Pâques
     // on donne le shift de jours pour décaler du nombre de jour par rapport à la date demandée.
     addItemToDay(
-        DateTime(date.year, date.month, date.day + shift), priorityLevel, item);
+        DateTime(date.year, date.month, date.day + shift), precedence, item);
   }
 
   /// Supprime une célébration spécifique à une date donnée.
@@ -119,14 +96,14 @@ class Calendar {
     if (!calendarData.containsKey(date)) return;
     DayContent content = calendarData[date]!;
     final keysToRemove = <int>[];
-    content.priority.forEach((priorityLevel, items) {
+    content.feastList.forEach((precedence, items) {
       items.remove(title);
       if (items.isEmpty) {
-        keysToRemove.add(priorityLevel);
+        keysToRemove.add(precedence);
       }
     });
     for (var key in keysToRemove) {
-      content.priority.remove(key);
+      content.feastList.remove(key);
     }
   }
 
@@ -136,17 +113,17 @@ class Calendar {
   void moveItemByDays(String itemTitle, int dayShift) {
     // Chercher l'item dans tout le calendrier
     DateTime? itemDate;
-    int? itemPriority;
+    int? itemPrecedence;
     bool itemFound = false;
 
     // Parcourir toutes les dates du calendrier
     calendarData.forEach((date, dayContent) {
       if (!itemFound) {
         // Chercher dans les priorités
-        dayContent.priority.forEach((priorityLevel, items) {
+        dayContent.feastList.forEach((precedence, items) {
           if (!itemFound && items.contains(itemTitle)) {
             itemDate = date;
-            itemPriority = priorityLevel;
+            itemPrecedence = precedence;
             itemFound = true;
           }
         });
@@ -173,12 +150,12 @@ class Calendar {
     removeCelebrationFromDay(itemDate!, itemTitle);
 
     // Ajouter l'item à la nouvelle date avec la même priorité
-    addItemToDay(newDate, itemPriority!, itemTitle);
+    addItemToDay(newDate, itemPrecedence!, itemTitle);
 
     String direction = dayShift > 0 ? "avancé" : "reculé";
-    print("Item '$itemTitle' ${direction} de ${dayShift.abs()} jour(s) : "
+    print("Item '$itemTitle' $direction de ${dayShift.abs()} jour(s) : "
         "de ${_formatDateForLog(itemDate!)} vers ${_formatDateForLog(newDate)} "
-        "(priorité $itemPriority)");
+        "(priorité $itemPrecedence)");
   }
 
   /// Méthode utilitaire pour formater une date dans les logs
@@ -193,10 +170,10 @@ class Calendar {
     if (dayContent == null) return [];
     String liturgicalTime = dayContent.liturgicalTime;
     final List<MapEntry<int, String>> items = [];
-    // Ajouter les éléments de la map priority
-    dayContent.priority.forEach((priorityNumber, titles) {
+    // Ajouter les éléments de la map feastList
+    dayContent.feastList.forEach((precedence, titles) {
       for (var title in titles) {
-        items.add(MapEntry(priorityNumber, title));
+        items.add(MapEntry(precedence, title));
       }
     });
     // Ajouter la célébration par défaut
@@ -224,7 +201,7 @@ class Calendar {
     }
 
     // Étape 3 : ajuster les priorités 10 ou 11 à 12 si liturgicalTime == "LentFeriale"
-    // les méoire obligatoires deviennent facultatives pendant le Carême
+    // les mémoires obligatoires deviennent facultatives pendant le Carême
     if (liturgicalTime == "LentFeriale") {
       for (int i = 0; i < items.length; i++) {
         final item = items[i];
@@ -237,41 +214,6 @@ class Calendar {
     // Trier ce qui reste par priorité croissante
     items.sort((a, b) => a.key.compareTo(b.key));
     return items;
-  }
-
-//méthode de conversion en JSON
-  Map<String, dynamic> toJson() => calendarData.map(
-        (key, value) => MapEntry(key.toIso8601String(), value.toJson()),
-      );
-  String toJsonString() => jsonEncode(toJson());
-
-//méthode d'enregistrement du fichier JSON
-  void exportToJsonFile(String filePath) {
-    final jsonString = jsonEncode(toJson());
-    final file = File(filePath);
-    file.writeAsString(jsonString);
-  }
-
-//méthode de conversion à partir d'une chaîne JSON
-  static Calendar fromJson(Map<String, dynamic> json) {
-    final calendar = Calendar();
-    json.forEach((key, value) {
-      final date = DateTime.parse(key);
-      final dayContent = DayContent.fromJson(value);
-      calendar.calendarData[date] = dayContent;
-    });
-    return calendar;
-  }
-
-//méthode d'importation d'un fichier JSON
-  static Calendar importFromJsonFile(String filePath) {
-    final file = File(filePath);
-    String jsonString = file.readAsStringSync(); // Lecture synchrone
-    if (jsonString.trim().isEmpty) {
-      jsonString = "{ }";
-    }
-    final jsonData = jsonDecode(jsonString);
-    return Calendar.fromJson(jsonData);
   }
 }
 
@@ -301,10 +243,10 @@ extension CalendarDisplay on Calendar {
       buffer.writeln(
           '📖 Semaine bréviaire  : ${content.breviaryWeek ?? "Non spécifiée"}');
       buffer.writeln('📌 Autres célébrations :');
-      if (content.priority.isEmpty) {
+      if (content.feastList.isEmpty) {
         buffer.writeln('  (Aucune célébration supplémentaire)');
       } else {
-        final sortedPriorities = content.priority.entries.toList()
+        final sortedPriorities = content.feastList.entries.toList()
           ..sort((a, b) => a.key.compareTo(b.key));
         for (final entry in sortedPriorities) {
           buffer.writeln(

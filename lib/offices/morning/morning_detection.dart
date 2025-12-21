@@ -58,6 +58,9 @@ Future<Map<String, MorningDefinition>> morningDetection(
     bool isCelebrable =
         highestPrecedence >= 9 || precedence == highestPrecedence;
 
+    // Initialize liturgicalColor for this celebration (default: liturgical time color)
+    String celebrationLiturgicalColor = liturgicalColor;
+
     // Get display name for celebration
     String celebrationName = celebrationCode;
     String mapKey = celebrationCode; // Default key is the code
@@ -79,8 +82,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
           final celebrationData = jsonData['celebration'];
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
-          final String liturgicalColor =
-              celebrationData['color'] as String? ?? '';
+          // Update liturgicalColor from celebration data (override if specified)
+          celebrationLiturgicalColor = celebrationData['color'] as String? ?? celebrationLiturgicalColor;
           commonList = List<String>.from(celebrationData['commons'] ?? []);
 
           // Build display name from title and subtitle (separated by comma)
@@ -111,7 +114,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       liturgicalTime: dayContent.liturgicalTime,
       breviaryWeek: dayContent.breviaryWeek?.toString(),
       precedence: precedence,
-      liturgicalColor: liturgicalColor,
+      liturgicalColor: celebrationLiturgicalColor,
       isCelebrable: isCelebrable,
     );
   }

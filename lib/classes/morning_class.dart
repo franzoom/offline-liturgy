@@ -93,6 +93,30 @@ class Morning {
     }
   }
 
+  /// Selective overlay for common when precedence > 6
+  /// Only overlays: invitatory, reading, responsory, evangelicAntiphon, intercession, oration
+  /// Does NOT overlay: celebration, hymn, psalmody, tedeum
+  void overlayWithCommon(Morning commonMorning) {
+    if (commonMorning.invitatory != null) {
+      invitatory = commonMorning.invitatory;
+    }
+    if (commonMorning.reading != null) {
+      reading = commonMorning.reading;
+    }
+    if (commonMorning.responsory != null) {
+      responsory = commonMorning.responsory;
+    }
+    if (commonMorning.evangelicAntiphon != null) {
+      evangelicAntiphon = commonMorning.evangelicAntiphon;
+    }
+    if (commonMorning.intercession != null) {
+      intercession = commonMorning.intercession;
+    }
+    if (commonMorning.oration != null) {
+      oration = commonMorning.oration;
+    }
+  }
+
   /// Returns true if all fields are null (empty Morning)
   /// use of a direct short-cut: if on element is not empty, returns false.
   bool isEmpty() {

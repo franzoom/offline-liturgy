@@ -31,10 +31,9 @@ Future<Map<String, MorningDefinition>> morningDetection(
   String liturgicalColor =
       dayContent.liturgicalColor.isNotEmpty ? dayContent.liturgicalColor : '';
   String defaultCelebrationTitle = dayContent.defaultCelebrationTitle;
-  allCelebrations
-      .add(MapEntry(dayContent.liturgicalGrade, defaultCelebrationTitle));
+  allCelebrations.add(MapEntry(dayContent.precedence, defaultCelebrationTitle));
   print(
-      '============ MORNING DETECTION: ${dayContent.liturgicalGrade}, $defaultCelebrationTitle');
+      '============ MORNING DETECTION: ${dayContent.precedence}, $defaultCelebrationTitle');
   // detects if there is a ferialCode in order to pass it to the MorningResolution procedure
   String ferialCode =
       isFerialDay(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
@@ -51,13 +50,13 @@ Future<Map<String, MorningDefinition>> morningDetection(
 
   for (final celebration in allCelebrations) {
     final celebrationCode = celebration.value;
-    final liturgicalGrade = celebration.key;
+    final precedence = celebration.key;
 
     // Determine if celebrable:
     // - If highest precedence is 1-8: only celebrations with highest precedence are celebrable
     // - If highest precedence is 9+: all celebrations are celebrable
     bool isCelebrable =
-        highestPrecedence >= 9 || liturgicalGrade == highestPrecedence;
+        highestPrecedence >= 9 || precedence == highestPrecedence;
 
     // Get display name for celebration
     String celebrationName = celebrationCode;
@@ -111,7 +110,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       commonList: commonList,
       liturgicalTime: dayContent.liturgicalTime,
       breviaryWeek: dayContent.breviaryWeek?.toString(),
-      liturgicalGrade: liturgicalGrade,
+      precedence: precedence,
       liturgicalColor: liturgicalColor,
       isCelebrable: isCelebrable,
     );

@@ -6,7 +6,7 @@ class Vespers {
     String? celebrationSubtitle,
     String? celebrationDescription,
     String? commonTitle,
-    int? liturgicalGrade,
+    int? precedence,
     String? liturgicalColor,
     String? vespersHymn,
     String? vespersPsalm1Antiphon,

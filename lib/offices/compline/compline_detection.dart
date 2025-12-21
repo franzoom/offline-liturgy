@@ -15,7 +15,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   String todayName = dayName[date.weekday];
   String liturgicalTime = todayContent!.liturgicalTime;
   String celebrationTitle = todayContent.defaultCelebrationTitle;
-  int precedence = todayContent.liturgicalGrade;
+  int precedence = todayContent.precedence;
 
   switch (celebrationTitle) {
     case 'holy_thursday':

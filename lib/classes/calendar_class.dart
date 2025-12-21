@@ -5,7 +5,7 @@ class DayContent {
   final int liturgicalYear;
   final String liturgicalTime;
   final String defaultCelebrationTitle;
-  final int liturgicalGrade;
+  final int precedence;
   final String liturgicalColor;
   final int? breviaryWeek;
   Map<int, List<String>> feastList;
@@ -14,7 +14,7 @@ class DayContent {
     required this.liturgicalYear,
     required this.liturgicalTime,
     required this.defaultCelebrationTitle,
-    required this.liturgicalGrade,
+    required this.precedence,
     required this.liturgicalColor,
     required this.breviaryWeek,
     required this.feastList,
@@ -177,8 +177,8 @@ class Calendar {
       }
     });
     // Ajouter la célébration par défaut
-    items.add(MapEntry(
-        dayContent.liturgicalGrade, dayContent.defaultCelebrationTitle));
+    items.add(
+        MapEntry(dayContent.precedence, dayContent.defaultCelebrationTitle));
     // MODULE DE SUPPRESSION DES FÊTES DONT LA PRÉSÉANCES EST TROP FAIBLE
     // Déterminer la priorité la plus importante (la plus basse entre 1 et 6)
     // Étape 1 : chercher la plus petite priorité entre 1 et 6
@@ -238,7 +238,7 @@ extension CalendarDisplay on Calendar {
       buffer.writeln('⛪ Temps liturgique   : ${content.liturgicalTime}');
       buffer.writeln(
           '🎉 Célébration        : ${content.defaultCelebrationTitle}');
-      buffer.writeln('⭐ Priorité par défaut: ${content.liturgicalGrade}');
+      buffer.writeln('⭐ Priorité par défaut: ${content.precedence}');
       buffer.writeln('🎨 Couleur liturgique : ${content.liturgicalColor}');
       buffer.writeln(
           '📖 Semaine bréviaire  : ${content.breviaryWeek ?? "Non spécifiée"}');

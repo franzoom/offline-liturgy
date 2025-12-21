@@ -62,7 +62,7 @@ This class contains all the possible datas for the 4 offices of the day (Complin
 - celebrationSubtitle
 - celebrationDescription: texte describing some elements of the saints' life.
 - commons: list of commons possibles for this celebration
-- liturgicalGrade (usefull ?)
+- precedence (usefull ?)
 - liturgicalColor
 
 ## Methods
@@ -84,7 +84,7 @@ This class is used to define a the final form of the office.
 
   - celebrationTitle and Subtitle
   - description of the celebration
-  - liturgicalGrade
+  - precedence
   - liturgialColor
   - common used
 

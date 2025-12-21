@@ -76,7 +76,7 @@ class Calendar {
       DateTime feastDate = DateTime(yearToRecord, month, day);
       if (feastDate.isAfter(beginOfLiturgicalYear) &&
           feastDate.isBefore(endOfLiturgicalYear)) {
-        addItemToDay(feastDate, feastTitle.priority, precedence);
+        addItemToDay(feastDate, feastTitle.precedence, precedence);
       }
     });
   }
@@ -182,20 +182,20 @@ class Calendar {
     // MODULE DE SUPPRESSION DES FÊTES DONT LA PRÉSÉANCES EST TROP FAIBLE
     // Déterminer la priorité la plus importante (la plus basse entre 1 et 6)
     // Étape 1 : chercher la plus petite priorité entre 1 et 6
-    int? minPriority;
+    int? minPrecedence;
     for (int i = 1; i <= 6; i++) {
       if (items.any((item) => item.key == i)) {
-        minPriority = i;
+        minPrecedence = i;
         break;
       }
     }
-    if (minPriority != null) {
+    if (minPrecedence != null) {
       // Garder uniquement les éléments avec cette priorité
-      items.removeWhere((item) => item.key != minPriority);
+      items.removeWhere((item) => item.key != minPrecedence);
     } else {
       // Étape 2 : s'il y a une priorité ≤ 9, supprimer celles > 9
-      final hasPriorityBelowOrEqual9 = items.any((item) => item.key <= 9);
-      if (hasPriorityBelowOrEqual9) {
+      final hasPrecedenceBelowOrEqual9 = items.any((item) => item.key <= 9);
+      if (hasPrecedenceBelowOrEqual9) {
         items.removeWhere((item) => item.key > 9);
       }
     }

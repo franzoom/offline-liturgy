@@ -5,65 +5,69 @@ import 'france.dart';
 //fêtes du calendrier général
 
 Map<String, FeastDates> lyonFeastsList = {
-  'gregory_x_pope_lyon': FeastDates(month: 1, day: 10, priority: 12),
-  'francis_de_sales_bishop_lyon': FeastDates(month: 1, day: 24, priority: 11),
+  'gregory_x_pope_lyon': FeastDates(month: 1, day: 10, precedence: 12),
+  'francis_de_sales_bishop_lyon': FeastDates(month: 1, day: 24, precedence: 11),
   'marie_of_saint_ignatius_claudine_thevenet_religious_lyon':
-      FeastDates(month: 2, day: 3, priority: 12),
-  'jean_pierre_neel_priest_lyon': FeastDates(month: 2, day: 19, priority: 12),
+      FeastDates(month: 2, day: 3, precedence: 12),
+  'jean_pierre_neel_priest_lyon': FeastDates(month: 2, day: 19, precedence: 12),
   'polycarp_of_smyrna_bishop_lyon':
-      FeastDates(month: 2, day: 23, priority: 112),
+      FeastDates(month: 2, day: 23, precedence: 112),
   'baldomerus_of_lyon_religious_lyon':
-      FeastDates(month: 2, day: 27, priority: 12),
-  'nicetius_of_lyon_bishop_lyon': FeastDates(month: 4, day: 2, priority: 12),
-  'francis_of_paola_hermit_lyon': FeastDates(month: 4, day: 2, priority: 12),
+      FeastDates(month: 2, day: 27, precedence: 12),
+  'nicetius_of_lyon_bishop_lyon': FeastDates(month: 4, day: 2, precedence: 12),
+  'francis_of_paola_hermit_lyon': FeastDates(month: 4, day: 2, precedence: 12),
   'epipodius_of_lyon_and_alexander_of_lyon_martyrs_lyon':
-      FeastDates(month: 4, day: 22, priority: 12),
-  'peter_chanel_priest_lyon': FeastDates(month: 4, day: 28, priority: 12),
-  'jean_louis_bonnard_priest_lyon': FeastDates(month: 5, day: 4, priority: 11),
+      FeastDates(month: 4, day: 22, precedence: 12),
+  'peter_chanel_priest_lyon': FeastDates(month: 4, day: 28, precedence: 12),
+  'jean_louis_bonnard_priest_lyon':
+      FeastDates(month: 5, day: 4, precedence: 11),
   'pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs_lyon':
-      FeastDates(month: 6, day: 2, priority: 4),
+      FeastDates(month: 6, day: 2, precedence: 4),
   'marcellin_champagnat_priest_lyon':
-      FeastDates(month: 6, day: 6, priority: 12),
-  'john_francis_regis_priest_lyon': FeastDates(month: 6, day: 16, priority: 12),
-  'innocent_v_pope_lyon': FeastDates(month: 6, day: 22, priority: 12),
+      FeastDates(month: 6, day: 6, precedence: 12),
+  'john_francis_regis_priest_lyon':
+      FeastDates(month: 6, day: 16, precedence: 12),
+  'innocent_v_pope_lyon': FeastDates(month: 6, day: 22, precedence: 12),
   'john_fisher_bishop_and_thomas_more_martyrs_lyon':
-      FeastDates(month: 6, day: 22, priority: 12),
-  'paulinus_of_nola_bishop_lyon': FeastDates(month: 6, day: 22, priority: 12),
-  'irenaeus_of_lyon_bishop_lyon': FeastDates(month: 6, day: 28, priority: 4),
+      FeastDates(month: 6, day: 22, precedence: 12),
+  'paulinus_of_nola_bishop_lyon': FeastDates(month: 6, day: 22, precedence: 12),
+  'irenaeus_of_lyon_bishop_lyon': FeastDates(month: 6, day: 28, precedence: 4),
   'bonaventure_of_bagnoregio_bishop_lyon':
-      FeastDates(month: 7, day: 15, priority: 11),
+      FeastDates(month: 7, day: 15, precedence: 11),
   'eusebius_of_vercelli_bishop_lyon':
-      FeastDates(month: 8, day: 2, priority: 12),
-  'peter_julian_eymard_priest_lyon': FeastDates(month: 8, day: 2, priority: 12),
-  'john_mary_vianney_priest_lyon': FeastDates(month: 8, day: 2, priority: 8),
+      FeastDates(month: 8, day: 2, precedence: 12),
+  'peter_julian_eymard_priest_lyon':
+      FeastDates(month: 8, day: 2, precedence: 12),
+  'john_mary_vianney_priest_lyon': FeastDates(month: 8, day: 2, precedence: 8),
   'jacques_jules_bonnaud_priest_and_companions_martyrs_lyon':
-      FeastDates(month: 9, day: 1, priority: 11),
-  'justus_of_lyon_bishop_lyon': FeastDates(month: 9, day: 2, priority: 12),
-  'frederic_ozanam_founder_lyon': FeastDates(month: 9, day: 9, priority: 12),
-  'peter_claver_priest_lyon': FeastDates(month: 9, day: 9, priority: 12),
+      FeastDates(month: 9, day: 1, precedence: 11),
+  'justus_of_lyon_bishop_lyon': FeastDates(month: 9, day: 2, precedence: 12),
+  'frederic_ozanam_founder_lyon': FeastDates(month: 9, day: 9, precedence: 12),
+  'peter_claver_priest_lyon': FeastDates(month: 9, day: 9, precedence: 12),
   'maurice_of_agaunum_and_companions_martyrs_lyon':
-      FeastDates(month: 9, day: 22, priority: 12),
+      FeastDates(month: 9, day: 22, precedence: 12),
   'therese_marie_victoire_couderc_virgin_lyon':
-      FeastDates(month: 9, day: 26, priority: 12),
+      FeastDates(month: 9, day: 26, precedence: 12),
   'cosmas_of_cilicia_and_damian_of_cilicia_martyrs_lyon':
-      FeastDates(month: 9, day: 26, priority: 12),
-  'annemund_of_lyon_bishop_lyon': FeastDates(month: 9, day: 28, priority: 12),
+      FeastDates(month: 9, day: 26, precedence: 12),
+  'annemund_of_lyon_bishop_lyon': FeastDates(month: 9, day: 28, precedence: 12),
   'lawrence_ruiz_and_companions_martyrs_lyon':
-      FeastDates(month: 9, day: 28, priority: 12),
+      FeastDates(month: 9, day: 28, precedence: 12),
   'wenceslaus_i_of_bohemia_martyr_lyon':
-      FeastDates(month: 9, day: 28, priority: 12),
-  'anthony_chevrier_priest_lyon': FeastDates(month: 10, day: 3, priority: 11),
-  'dismas_the_good_thief_lyon': FeastDates(month: 10, day: 12, priority: 12),
-  'viator_of_lyon_lyon': FeastDates(month: 10, day: 21, priority: 12),
+      FeastDates(month: 9, day: 28, precedence: 12),
+  'anthony_chevrier_priest_lyon': FeastDates(month: 10, day: 3, precedence: 11),
+  'dismas_the_good_thief_lyon': FeastDates(month: 10, day: 12, precedence: 12),
+  'viator_of_lyon_lyon': FeastDates(month: 10, day: 21, precedence: 12),
   'dedication_of_the_cathedral_of_saint_john_the_baptist_lyon_france_lyon':
-      FeastDates(month: 10, day: 24, priority: 4),
+      FeastDates(month: 10, day: 24, precedence: 4),
   'dedication_of_consecrated_churches_on_october_25_lyon':
-      FeastDates(month: 10, day: 25, priority: 4),
+      FeastDates(month: 10, day: 25, precedence: 4),
   'all_holy_bishops_of_the_archdiocese_of_lyon_lyon':
-      FeastDates(month: 11, day: 5, priority: 12),
+      FeastDates(month: 11, day: 5, precedence: 12),
   'all_saints_of_the_archdiocese_of_lyon':
-      FeastDates(month: 11, day: 8, priority: 12),
-  'eucherius_of_lyon_bishop_lyon': FeastDates(month: 11, day: 16, priority: 12),
+      FeastDates(month: 11, day: 8, precedence: 12),
+  'eucherius_of_lyon_bishop_lyon':
+      FeastDates(month: 11, day: 16, precedence: 12),
 };
 
 Calendar addLyonFeasts(Calendar calendar, int liturgicalYear, generalCalendar) {

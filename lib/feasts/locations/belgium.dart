@@ -3,7 +3,7 @@ import '../../classes/calendar_class.dart'; // cette classe définit calendar
 import 'europe.dart';
 
 Map<String, FeastDates> belgiumFeastsList = {
-  'amand_bishop_belgium': FeastDates(month: 2, day: 6, priority: 10),
+  'amand_bishop_belgium': FeastDates(month: 2, day: 6, precedence: 10),
 };
 
 Calendar addBelgiumFeasts(

@@ -50,7 +50,7 @@ Future<Map<String, ComplineDefinition>> complineResolution(
         dayOfWeek: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'solemnityeve',
-        priority: value.priority,
+        precedence: value.precedence,
       );
     } else if (value.dayOfWeek == 'sunday') {
       tomorrowNeedsEveComplines = true;
@@ -61,7 +61,7 @@ Future<Map<String, ComplineDefinition>> complineResolution(
         dayOfWeek: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'normal',
-        priority: value.priority,
+        precedence: value.precedence,
       );
     }
   }

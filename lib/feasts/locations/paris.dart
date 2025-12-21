@@ -5,7 +5,8 @@ import 'france.dart';
 //fêtes du calendrier général
 
 Map<String, FeastDates> parisFeastsList = {
-  'genevieve_of_paris_virgin_paris': FeastDates(month: 1, day: 3, priority: 10),
+  'genevieve_of_paris_virgin_paris':
+      FeastDates(month: 1, day: 3, precedence: 10),
 };
 
 Calendar addParisFeasts(

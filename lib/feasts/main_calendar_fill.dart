@@ -63,7 +63,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
       breviaryWeek: (adventDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -78,7 +78,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
-    priority: {},
+    feastList: {},
   );
   // christmas is december, 25th of the previous year
   date = DateTime(liturgicalYear - 1, 12, 25);
@@ -115,7 +115,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
         liturgicalColor: 'white',
         breviaryWeek: date.isBefore(generalCalendar['HOLY_FAMILY']!) ? 4 : 1,
         // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
-        priority: {});
+        feastList: {});
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
   }
@@ -128,7 +128,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
-    priority: {},
+    feastList: {},
   );
   date = DateTime(liturgicalYear, 1, 1);
   calendar.addDayContent(date, dayContent);
@@ -147,7 +147,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: 13,
       liturgicalColor: 'white',
       breviaryWeek: 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -166,7 +166,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     // and breviaryWeek is 1.
     // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
     // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
-    priority: {},
+    feastList: {},
   );
   date = epiphanyDate;
   calendar.addDayContent(date, dayContent);
@@ -182,7 +182,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: 13,
       liturgicalColor: 'white',
       breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -197,7 +197,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 5,
     liturgicalColor: 'white',
     breviaryWeek: 1,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['BAPTISM']!;
   calendar.addDayContent(date, dayContent);
@@ -217,7 +217,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -231,7 +231,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 2,
     liturgicalColor: 'violet',
     breviaryWeek: 4,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['ASHES']!;
   calendar.addDayContent(date, dayContent);
@@ -248,7 +248,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: 9,
       liturgicalColor: 'violet',
       breviaryWeek: 4,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -269,7 +269,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'violet',
       breviaryWeek: (lentDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -283,7 +283,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 2,
     liturgicalColor: 'red',
     breviaryWeek: (lentDays / 7).floor() % 4 + 1,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['PALMS']!;
   calendar.addDayContent(date, dayContent);
@@ -300,7 +300,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: 9,
       liturgicalColor: 'violet',
       breviaryWeek: (lentDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -315,7 +315,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 1,
     liturgicalColor: 'white',
     breviaryWeek: null,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['HOLY_THURSDAY']!;
   calendar.addDayContent(date, dayContent);
@@ -328,7 +328,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 1,
     liturgicalColor: 'red',
     breviaryWeek: null,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['HOLY_FRIDAY']!;
   calendar.addDayContent(date, dayContent);
@@ -341,7 +341,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 1,
     liturgicalColor: 'black',
     breviaryWeek: null,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['HOLY_SATURDAY']!;
   calendar.addDayContent(date, dayContent);
@@ -354,7 +354,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 1,
     liturgicalColor: 'white',
     breviaryWeek: null,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['EASTER']!;
   calendar.addDayContent(date, dayContent);
@@ -373,7 +373,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: 2,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -387,7 +387,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     defaultCelebrationTitle: 'SUNDAY_OF_DIVINE_MERCY',
     liturgicalGrade: 2,
     liturgicalColor: 'white',
-    priority: {},
+    feastList: {},
   );
   calendar.addDayContent(date, dayContent);
   date = dayShift(date, 1);
@@ -406,7 +406,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -421,7 +421,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 2,
     liturgicalColor: 'white',
     breviaryWeek: 2,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['ASCENSION']!;
   calendar.addDayContent(date, dayContent);
@@ -441,7 +441,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
@@ -456,7 +456,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     liturgicalGrade: 2,
     liturgicalColor: 'red',
     breviaryWeek: 2,
-    priority: {},
+    feastList: {},
   );
   date = generalCalendar['PENTECOST']!;
   calendar.addDayContent(date, dayContent);
@@ -485,7 +485,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalGrade: liturgicalGrade,
       liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays / 7).floor() % 4 + 1,
-      priority: {},
+      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);

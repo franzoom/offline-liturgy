@@ -27,7 +27,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           dayOfWeek: 'sunday',
           liturgicalTime: 'lent',
           celebrationType: celebrationTitle,
-          priority: 1);
+          precedence: 1);
       return {celebrationTitle: complineDefinition};
     case 'ashes':
       ComplineDefinition complineDefinition = ComplineDefinition(
@@ -35,7 +35,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           dayOfWeek: 'wednesday',
           liturgicalTime: 'ordinary',
           celebrationType: 'normal',
-          priority: 13);
+          precedence: 13);
       return {celebrationTitle: complineDefinition};
   }
 
@@ -55,13 +55,13 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         dayOfWeek: 'sunday',
         liturgicalTime: liturgicalTime,
         celebrationType: 'solemnity',
-        priority: precedence);
+        precedence: precedence);
     return {complineDescription: complineDefinition};
   }
 
   // Then look for the solemnities found in subdirectories of Calendar
   // (a solemnity must be at a higher grade than the root of the day)
-  for (var entry in todayContent.priority.entries) {
+  for (var entry in todayContent.feastList.entries) {
     if (entry.key <= 4 && entry.key <= precedence) {
       String complineDescription = await getComplineDescription(
         entry.value[0],
@@ -72,7 +72,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           dayOfWeek: 'sunday',
           liturgicalTime: liturgicalTime,
           celebrationType: 'solemnity',
-          priority: entry.key);
+          precedence: entry.key);
       return {complineDescription: complineDefinition};
     }
   }
@@ -83,7 +83,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       dayOfWeek: todayName,
       liturgicalTime: liturgicalTime,
       celebrationType: 'normal',
-      priority: precedence);
+      precedence: precedence);
   return {complineDescription: complineDefinition};
 }
 

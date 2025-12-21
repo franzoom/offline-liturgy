@@ -3,8 +3,9 @@ import '../../classes/calendar_class.dart';
 //import 'north-america.dart';
 
 Map<String, FeastDates> canadaFeastsList = {
-  'andre_bessette_religious_canada': FeastDates(month: 1, day: 7, priority: 10),
-  'marguerite_bourgeoys_canada': FeastDates(month: 1, day: 12, priority: 10),
+  'andre_bessette_religious_canada':
+      FeastDates(month: 1, day: 7, precedence: 10),
+  'marguerite_bourgeoys_canada': FeastDates(month: 1, day: 12, precedence: 10),
 };
 
 Calendar addCanadaFeasts(

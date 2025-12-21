@@ -107,7 +107,7 @@ def restructure_celebration(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         'celebrationSubtitle': 'subtitle',
         'celebrationDescription': 'description',
         'commons': 'commons',
-        'liturgicalGrade': 'grade',
+        'precedence': 'grade',
         'celebration Grade': 'grade',  # Handle typo
         'liturgicalColor': 'color',
     }

@@ -122,7 +122,7 @@ class MorningDefinition {
   final List<String>? commonList;
   final String? liturgicalTime;
   final String? breviaryWeek;
-  final int liturgicalGrade;
+  final int precedence;
   final String liturgicalColor;
   final bool
       isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
@@ -134,7 +134,7 @@ class MorningDefinition {
     this.commonList,
     this.liturgicalTime,
     this.breviaryWeek,
-    required this.liturgicalGrade,
+    required this.precedence,
     required this.isCelebrable,
     required this.liturgicalColor,
   });

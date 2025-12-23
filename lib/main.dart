@@ -7,6 +7,9 @@ Future<void> main() async {
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
+  String calendarDisplay = calendar.formattedDisplay;
+  print(calendarDisplay);
+
   // Create a DataLoader for pure Dart usage
   final dataLoader = FileSystemDataLoader();
 

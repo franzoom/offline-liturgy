@@ -107,8 +107,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     calendar.addDayContent(date, dayContent);
     date = dayShift(date, 1);
   }
-
-  // adding the Nativity of the Lord
+  // adding Mary Mother of God
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
@@ -122,19 +121,21 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   calendar.addDayContent(date, dayContent);
 
   date = date.add(Duration(days: 1));
-  int christmasFerialDays = 2;
+  int christmasFerialDays =
+      date.difference(generalCalendar['HOLY_FAMILY']!).inDays;
 
 // days between january, 2d and the Epiphany
   DateTime epiphanyDate = generalCalendar['EPIPHANY']!;
   while (date.isBefore(epiphanyDate)) {
+    int breviaryWeek = (christmasFerialDays / 7).floor() % 4 + 1;
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'christmas Feriale before Epiphany',
       defaultCelebrationTitle:
-          'christmas-ferial_before_epiphany_$christmasFerialDays',
+          'christmas-${date.day}_${(christmasFerialDays / 7).floor() + 1}_${christmasFerialDays % 7}',
       precedence: 13,
       liturgicalColor: 'white',
-      breviaryWeek: 1,
+      breviaryWeek: breviaryWeek,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -144,7 +145,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 // adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
+    liturgicalTime: 'epiphany',
     defaultCelebrationTitle: 'epiphany',
     precedence: 3,
     liturgicalColor: 'white',
@@ -166,7 +167,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'christmas',
-      defaultCelebrationTitle: 'christmas_feriale_2_$christmasFerialDays',
+      defaultCelebrationTitle: 'christmas_2_$christmasFerialDays',
       precedence: 13,
       liturgicalColor: 'white',
       breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above

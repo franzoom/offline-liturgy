@@ -1,6 +1,3 @@
-import 'dart:convert'; //sert à la conversion en JSON
-import 'dart:io'; //sert à l'importation et exportation d'un fichier JSON
-
 class DayContent {
   final int liturgicalYear;
   final String liturgicalTime;
@@ -23,7 +20,7 @@ class DayContent {
 
 class Calendar {
   final Map<DateTime, DayContent> calendarData = {};
-  Calendar(); //constructeur par défaut
+  Calendar(); // default constructor
 
   void addDayContent(DateTime date, DayContent content) {
     calendarData[date] = content;
@@ -36,20 +33,20 @@ class Calendar {
   void addItemToDay(DateTime date, int precedence, String item) {
     if (calendarData.containsKey(date)) {
       DayContent dayContent = calendarData[date]!;
-      // Trouver la priorité actuelle de l'item, s'il existe
+      // Find the current precedence of the item, if it exists
       int? existingPrecedence = dayContent.feastList.entries
           .firstWhere(
             (entry) => entry.value.contains(item),
             orElse: () => const MapEntry(-1, []),
           )
           .key;
-      // Si l'item est déjà à la bonne priorité, ne rien faire
+      // If the item is already at the correct precedence, do nothing
       if (existingPrecedence == precedence) return;
-      // Si l'item existe à une autre priorité (logiquement moins importante), le supprimer
+      // If the item exists at another precedence (logically less important), remove it
       if (existingPrecedence != -1) {
         removeCelebrationFromDay(date, item);
       }
-      // Ajouter l'item à la nouvelle priorité sans écraser les autres
+      // Add the item to the new precedence without overwriting others
       dayContent.feastList.putIfAbsent(precedence, () => []);
       if (!dayContent.feastList[precedence]!.contains(item)) {
         dayContent.feastList[precedence]!.add(item);
@@ -81,17 +78,17 @@ class Calendar {
     });
   }
 
+  /// Adds a date related to another one: for example
+  /// Notre-Dame de Fourvière on the Saturday after the 2nd Sunday of Easter
+  /// The shift parameter specifies the number of days to offset from the requested date.
   void addItemRelatedToFeast(
       DateTime date, int shift, int precedence, String item) {
-    //ajoute une date en relation avec une autre: par exemple
-    // Notre-Dame de Fourvière le samedi après le 2ème dimanche de Pâques
-    // on donne le shift de jours pour décaler du nombre de jour par rapport à la date demandée.
     addItemToDay(
         DateTime(date.year, date.month, date.day + shift), precedence, item);
   }
 
-  /// Supprime une célébration spécifique à une date donnée.
-  /// Si la liste de priorité devient vide après suppression, elle est retirée.
+  /// Removes a specific celebration from a given date.
+  /// If the precedence list becomes empty after removal, it is removed.
   void removeCelebrationFromDay(DateTime date, String title) {
     if (!calendarData.containsKey(date)) return;
     DayContent content = calendarData[date]!;
@@ -107,19 +104,23 @@ class Calendar {
     }
   }
 
-  /// Déplace un item en appliquant un décalage en jours par rapport à sa position actuelle.
-  /// Le décalage peut être positif (avancer dans le temps) ou négatif (reculer dans le temps).
-  /// Si l'item existe à plusieurs dates, seule la première occurrence trouvée sera déplacée.
+  /// Moves an item by applying a day offset from its current position.
+  /// The offset can be positive (forward in time) or negative (backward in time).
+  /// If the item exists at multiple dates, only the first occurrence found will be moved.
   void moveItemByDays(String itemTitle, int dayShift) {
-    // Chercher l'item dans tout le calendrier
     DateTime? itemDate;
     int? itemPrecedence;
     bool itemFound = false;
 
-    // Parcourir toutes les dates du calendrier
+    if (dayShift == 0) {
+      print("0-day offset: no move performed for '$itemTitle'");
+      return;
+    }
+
+    // Iterate through all calendar dates
     calendarData.forEach((date, dayContent) {
       if (!itemFound) {
-        // Chercher dans les priorités
+        // Search in precedences
         dayContent.feastList.forEach((precedence, items) {
           if (!itemFound && items.contains(itemTitle)) {
             itemDate = date;
@@ -130,58 +131,38 @@ class Calendar {
       }
     });
 
-    // Si l'item n'est pas trouvé
     if (!itemFound) {
-      print("L'item '$itemTitle' n'a pas été trouvé dans le calendrier");
+      print("Item '$itemTitle' was not found in the calendar");
       return;
     }
 
-    // Si le décalage est 0, ne rien faire
-    if (dayShift == 0) {
-      print(
-          "Décalage de 0 jour : aucun déplacement effectué pour '$itemTitle'");
-      return;
-    }
-
-    // Calculer la nouvelle date
     DateTime newDate = itemDate!.add(Duration(days: dayShift));
-
-    // Supprimer l'item de sa position actuelle
     removeCelebrationFromDay(itemDate!, itemTitle);
-
-    // Ajouter l'item à la nouvelle date avec la même priorité
     addItemToDay(newDate, itemPrecedence!, itemTitle);
 
-    String direction = dayShift > 0 ? "avancé" : "reculé";
-    print("Item '$itemTitle' $direction de ${dayShift.abs()} jour(s) : "
-        "de ${_formatDateForLog(itemDate!)} vers ${_formatDateForLog(newDate)} "
-        "(priorité $itemPrecedence)");
+    String direction = dayShift > 0 ? "moved forward" : "moved backward";
+    print("Item '$itemTitle' $direction by ${dayShift.abs()} day(s): "
+        "from ${_formatDateForLog(itemDate!)} to ${_formatDateForLog(newDate)} "
+        "(precedence $itemPrecedence)");
   }
-
-  /// Méthode utilitaire pour formater une date dans les logs
-  String _formatDateForLog(DateTime date) {
-    return '${_pad(date.day)}/${_pad(date.month)}/${date.year}';
-  }
-
-  String _pad(int number) => number.toString().padLeft(2, '0');
 
   List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
     final dayContent = calendarData[date];
     if (dayContent == null) return [];
     String liturgicalTime = dayContent.liturgicalTime;
     final List<MapEntry<int, String>> items = [];
-    // Ajouter les éléments de la map feastList
+    // Add elements from the feastList map
     dayContent.feastList.forEach((precedence, titles) {
       for (var title in titles) {
         items.add(MapEntry(precedence, title));
       }
     });
-    // Ajouter la célébration par défaut
+    // Add the default celebration
     items.add(
         MapEntry(dayContent.precedence, dayContent.defaultCelebrationTitle));
-    // MODULE DE SUPPRESSION DES FÊTES DONT LA PRÉSÉANCES EST TROP FAIBLE
-    // Déterminer la priorité la plus importante (la plus basse entre 1 et 6)
-    // Étape 1 : chercher la plus petite priorité entre 1 et 6
+    // MODULE FOR REMOVING FEASTS WITH TOO LOW PRECEDENCE
+    // Determine the most important precedence (the lowest between 1 and 6)
+    // Step 1: search for the smallest precedence between 1 and 6
     int? minPrecedence;
     for (int i = 1; i <= 6; i++) {
       if (items.any((item) => item.key == i)) {
@@ -190,18 +171,18 @@ class Calendar {
       }
     }
     if (minPrecedence != null) {
-      // Garder uniquement les éléments avec cette priorité
+      // Keep only elements with this precedence
       items.removeWhere((item) => item.key != minPrecedence);
     } else {
-      // Étape 2 : s'il y a une priorité ≤ 9, supprimer celles > 9
+      // Step 2: if there is a precedence ≤ 9, remove those > 9
       final hasPrecedenceBelowOrEqual9 = items.any((item) => item.key <= 9);
       if (hasPrecedenceBelowOrEqual9) {
         items.removeWhere((item) => item.key > 9);
       }
     }
 
-    // Étape 3 : ajuster les priorités 10 ou 11 à 12 si liturgicalTime == "LentFeriale"
-    // les mémoires obligatoires deviennent facultatives pendant le Carême
+    // Step 3: adjust precedences 10 or 11 to 12 if liturgicalTime == "LentFeriale"
+    // obligatory memorials become optional during Lent
     if (liturgicalTime == "LentFeriale") {
       for (int i = 0; i < items.length; i++) {
         final item = items[i];
@@ -211,21 +192,25 @@ class Calendar {
       }
     }
 
-    // Trier ce qui reste par priorité croissante
     items.sort((a, b) => a.key.compareTo(b.key));
     return items;
   }
+
+  /// Utility method to format a date in logs
+  String _formatDateForLog(DateTime date) {
+    return '${_pad(date.day)}/${_pad(date.month)}/${date.year}';
+  }
 }
 
-// méthode d'affichage du calendrier
-// pour l'extension de la classe Calendar
+// Calendar display method
+// Extension for the Calendar class
 extension CalendarDisplay on Calendar {
   String get formattedDisplay {
     final buffer = StringBuffer();
-    buffer.writeln('📆 *Calendrier Liturgique*');
+    buffer.writeln('📆 *Liturgical Calendar*');
     buffer.writeln('══════════════════════════════════════');
     if (calendarData.isEmpty) {
-      buffer.writeln('Aucun jour enregistré dans le calendrier.');
+      buffer.writeln('No days recorded in the calendar.');
       return buffer.toString();
     }
 
@@ -234,23 +219,23 @@ extension CalendarDisplay on Calendar {
       final content = calendarData[date]!;
       buffer.writeln('📅 ${_formatDate(date)}');
       buffer.writeln('──────────────────────────────');
-      buffer.writeln('🗓️ Année liturgique  : ${content.liturgicalYear}');
-      buffer.writeln('⛪ Temps liturgique   : ${content.liturgicalTime}');
+      buffer.writeln('🗓️ Liturgical year   : ${content.liturgicalYear}');
+      buffer.writeln('⛪ Liturgical season : ${content.liturgicalTime}');
+      buffer
+          .writeln('🎉 Celebration       : ${content.defaultCelebrationTitle}');
+      buffer.writeln('⭐ Default precedence: ${content.precedence}');
+      buffer.writeln('🎨 Liturgical color  : ${content.liturgicalColor}');
       buffer.writeln(
-          '🎉 Célébration        : ${content.defaultCelebrationTitle}');
-      buffer.writeln('⭐ Priorité par défaut: ${content.precedence}');
-      buffer.writeln('🎨 Couleur liturgique : ${content.liturgicalColor}');
-      buffer.writeln(
-          '📖 Semaine bréviaire  : ${content.breviaryWeek ?? "Non spécifiée"}');
-      buffer.writeln('📌 Autres célébrations :');
+          '📖 Breviary week     : ${content.breviaryWeek ?? "Not specified"}');
+      buffer.writeln('📌 Other celebrations:');
       if (content.feastList.isEmpty) {
-        buffer.writeln('  (Aucune célébration supplémentaire)');
+        buffer.writeln('  (No additional celebrations)');
       } else {
         final sortedPriorities = content.feastList.entries.toList()
           ..sort((a, b) => a.key.compareTo(b.key));
         for (final entry in sortedPriorities) {
           buffer.writeln(
-              '  🔹 Priorité ${entry.key} : ${entry.value.join(", ")}');
+              '  🔹 Precedence ${entry.key} : ${entry.value.join(", ")}');
         }
       }
       buffer.writeln('────────────────────────────── ');

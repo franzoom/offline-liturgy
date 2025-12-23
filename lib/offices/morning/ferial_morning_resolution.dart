@@ -110,10 +110,9 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
       if (dayNumber < 29) {
         // Days before December 29th: proper office for Morning Prayer
         Morning morningOffice = await morningExtract(
-            '$ferialFilePath/christmas_$dayNumber.json', dataLoader);
-        Morning baseMorningOffice = await morningExtract(
-            '$commonsFilePath/christmas_${breviaryWeek}_${date.weekday}.json',
-            dataLoader);
+            '$specialFilePath/christmas_$dayNumber.json', dataLoader);
+        Morning baseMorningOffice =
+            await morningExtract('$commonsFilePath/christmas.json', dataLoader);
         baseMorningOffice.overlayWith(morningOffice);
         baseMorningOffice.hymn = hymns;
         return baseMorningOffice;

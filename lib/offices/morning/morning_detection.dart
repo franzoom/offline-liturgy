@@ -83,7 +83,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
           // Update liturgicalColor from celebration data (override if specified)
-          celebrationLiturgicalColor = celebrationData['color'] as String? ?? celebrationLiturgicalColor;
+          celebrationLiturgicalColor =
+              celebrationData['color'] as String? ?? celebrationLiturgicalColor;
           commonList = List<String>.from(celebrationData['commons'] ?? []);
 
           // Build display name from title and subtitle (separated by comma)

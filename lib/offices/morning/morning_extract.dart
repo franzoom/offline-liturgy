@@ -11,7 +11,6 @@ Future<Morning> morningExtract(
 
   String fileContent = await dataLoader.loadJson(relativePath);
 
-  // If file doesn't exist or is empty, return empty Morning
   if (fileContent.isEmpty) {
     print('ERROR: File is empty or does not exist');
     return Morning();
@@ -26,20 +25,17 @@ Future<Morning> morningExtract(
   if (jsonData['morning'] != null) {
     morning = Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
   } else {
-    // No 'morning' section, create empty Morning
     morning = Morning();
   }
 
-  // Extract invitatory if present
   if (jsonData['invitatory'] != null) {
     Invitatory invitatory =
         Invitatory.fromJson(jsonData['invitatory'] as Map<String, dynamic>);
 
-    // If invitatory doesn't have psalms, use default list
     List<String> invitatoryPsalms =
         invitatory.psalms ?? ["PSALM_94", "PSALM_66", "PSALM_99", "PSALM_23"];
 
-    // Remove invitatory psalms that are already in morning psalmody
+    // Removes invitatory psalms that are already in morning psalmody
     if (morning.psalmody != null) {
       final psalmsInPsalmody =
           morning.psalmody!.map((entry) => entry.psalm).toSet();
@@ -48,7 +44,6 @@ Future<Morning> morningExtract(
           .toList();
     }
 
-    // Assign invitatory with filtered psalms
     morning.invitatory =
         Invitatory(antiphon: invitatory.antiphon, psalms: invitatoryPsalms);
   }
@@ -58,6 +53,4 @@ Future<Morning> morningExtract(
 
   print('=== morningExtract SUCCESS ===');
   return morning;
-
-  // If no "morning" section exists, return empty Morning
 }

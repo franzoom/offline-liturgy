@@ -86,25 +86,14 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the christmas Octave
   date = date.add(Duration(days: 1)); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
+    defaultCelebrationTitle = 'christmas_${date.day}';
+    precedence = 9;
+    if (date.day <= 28) {
+      precedence = 7;
+    }
     if (date == generalCalendar['HOLY_FAMILY']) {
       defaultCelebrationTitle = 'holy_family';
       precedence = 6;
-    } else {
-      precedence = 7;
-      switch (date.day) {
-        case 26:
-          defaultCelebrationTitle = 'christmas_26-stephen_the_first_martyr';
-          break;
-        case 27:
-          defaultCelebrationTitle = 'christmas_27-john_apostle';
-          break;
-        case 28:
-          defaultCelebrationTitle = 'christmas_28-holy_innocents_martyrs';
-          break;
-        default:
-          defaultCelebrationTitle = 'christmas_${date.day}';
-          precedence = 9;
-      }
     }
     DayContent dayContent = DayContent(
         liturgicalYear: liturgicalYear,

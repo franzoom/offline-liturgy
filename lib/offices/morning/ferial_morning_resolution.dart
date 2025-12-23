@@ -1,4 +1,3 @@
-import '../../feasts/common_calendar_definitions.dart';
 import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
@@ -126,27 +125,30 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
         baseMorningOffice.hymn = hymns;
         return baseMorningOffice;
       }
-    } else {
-      // Christmas days in January
-      if (date.isBefore(epiphany(date.year))) {
-        // Before Epiphany: proper of the day with psalms and antiphons
-        // of the 1st week of Christmas time
-        Morning morningOffice = await morningExtract(
-            '$specialFilePath/christmas-ferial_before_epiphany_${date.day}.json',
-            dataLoader);
-        Morning baseMorningOffice = await morningExtract(
-            '$ferialFilePath/christmas_1_${date.weekday}.json', dataLoader);
-        baseMorningOffice.overlayWith(morningOffice);
-        baseMorningOffice.hymn = hymns;
-        return baseMorningOffice;
-      } else {
-        // After Epiphany
-        Morning morningOffice = await morningExtract(
-            '$ferialFilePath/christmas_2_${date.weekday}.json', dataLoader);
-        morningOffice.hymn = hymnList["after_epiphany"] ?? [];
-        return morningOffice;
-      }
     }
+    // Christmas days in January
+    if (celebrationCode.startsWith('christmas-')) {
+      // Before Epiphany: proper of the day with psalms and antiphons
+      // of the 1st or 2d week of Christmas time
+      List<String> parts = celebrationCode.split('-')[1].split('_');
+      String dateDay = parts[0];
+      String breviaryWeek = parts[1];
+      String breviaryDay = parts[2];
+      Morning morningOffice = await morningExtract(
+          '$specialFilePath/christmas-ferial_before_epiphany_$dateDay.json',
+          dataLoader);
+      Morning baseMorningOffice = await morningExtract(
+          '$ferialFilePath/christmas_${breviaryWeek}_$breviaryDay.json',
+          dataLoader);
+      baseMorningOffice.overlayWith(morningOffice);
+      baseMorningOffice.hymn = hymns;
+      return baseMorningOffice;
+    }
+    // After Epiphany
+    Morning morningOffice = await morningExtract(
+        '$ferialFilePath/christmas_2_${date.weekday}.json', dataLoader);
+    morningOffice.hymn = hymnList["after_epiphany"] ?? [];
+    return morningOffice;
   }
 
   // ============================================================================

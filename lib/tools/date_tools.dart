@@ -9,7 +9,7 @@ DateTime dayShift(DateTime date, int shift) {
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
 bool isFerialDay(String celebrationCode) {
-  final prefixes = ['ot', 'advent', 'lent', 'christmas_feriale', 'easter'];
+  final prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationCode.startsWith(prefix));
 }
 
@@ -71,10 +71,17 @@ String ferialNameResolution(String ferialCode) {
     result =
         '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel';
   } else {
-    // Special case: 'advent-17 to 24' with day number
-    if (liturgicalTimeEssential == 'advent') {
-      result =
-          '$dayOfWeekLabel de la $weekOrdinal semaine de l’Avent ($dayNumberEssential décembre)';
+    // Special case: 'advent-17 to 24' or 'christmas-2' with day number
+    switch (liturgicalTimeEssential) {
+      case 'advent':
+        result =
+            '$dayOfWeekLabel de la $weekOrdinal semaine de l’Avent ($dayNumberEssential décembre)';
+        break;
+      case 'christmas':
+        result =
+            '$dayNumberEssential janvier, $weekOrdinal semaine du temps de Noël';
+      default:
+        result = '';
     }
   }
   return result[0].toUpperCase() + result.substring(1);

@@ -5,7 +5,8 @@ class DayContent {
   final int precedence;
   final String liturgicalColor;
   final int? breviaryWeek;
-  Map<int, List<String>> feastList;
+  final Map<int, List<String>>
+      feastList; // Map is mutable internally, but reference is final
 
   DayContent({
     required this.liturgicalYear,
@@ -31,26 +32,34 @@ class Calendar {
   }
 
   void addItemToDay(DateTime date, int precedence, String item) {
-    if (calendarData.containsKey(date)) {
-      DayContent dayContent = calendarData[date]!;
-      // Find the current precedence of the item, if it exists
-      int? existingPrecedence = dayContent.feastList.entries
-          .firstWhere(
-            (entry) => entry.value.contains(item),
-            orElse: () => const MapEntry(-1, []),
-          )
-          .key;
-      // If the item is already at the correct precedence, do nothing
-      if (existingPrecedence == precedence) return;
-      // If the item exists at another precedence (logically less important), remove it
-      if (existingPrecedence != -1) {
-        removeCelebrationFromDay(date, item);
+    final dayContent = calendarData[date];
+    if (dayContent == null) return;
+
+    // Search for existing item and remove it in a single pass
+    int? existingPrecedence;
+    for (var entry in dayContent.feastList.entries.toList()) {
+      if (entry.value.remove(item)) {
+        existingPrecedence = entry.key;
+        // Remove the precedence key if list is now empty
+        if (entry.value.isEmpty) {
+          dayContent.feastList.remove(entry.key);
+        }
+        break;
       }
-      // Add the item to the new precedence without overwriting others
+    }
+
+    // If the item is already at the correct precedence, don't re-add it
+    if (existingPrecedence == precedence) {
+      // Re-add it since we removed it above
       dayContent.feastList.putIfAbsent(precedence, () => []);
-      if (!dayContent.feastList[precedence]!.contains(item)) {
-        dayContent.feastList[precedence]!.add(item);
-      }
+      dayContent.feastList[precedence]!.add(item);
+      return;
+    }
+
+    // Add the item to the new precedence
+    dayContent.feastList.putIfAbsent(precedence, () => []);
+    if (!dayContent.feastList[precedence]!.contains(item)) {
+      dayContent.feastList[precedence]!.add(item);
     }
   }
 
@@ -83,8 +92,7 @@ class Calendar {
   /// The shift parameter specifies the number of days to offset from the requested date.
   void addItemRelatedToFeast(
       DateTime date, int shift, int precedence, String item) {
-    addItemToDay(
-        DateTime(date.year, date.month, date.day + shift), precedence, item);
+    addItemToDay(date.add(Duration(days: shift)), precedence, item);
   }
 
   /// Removes a specific celebration from a given date.
@@ -108,74 +116,77 @@ class Calendar {
   /// The offset can be positive (forward in time) or negative (backward in time).
   /// If the item exists at multiple dates, only the first occurrence found will be moved.
   void moveItemByDays(String itemTitle, int dayShift) {
-    DateTime? itemDate;
-    int? itemPrecedence;
-    bool itemFound = false;
-
     if (dayShift == 0) {
       print("0-day offset: no move performed for '$itemTitle'");
       return;
     }
+    DateTime? itemDate;
+    int? itemPrecedence;
 
-    // Iterate through all calendar dates
-    calendarData.forEach((date, dayContent) {
-      if (!itemFound) {
-        // Search in precedences
-        dayContent.feastList.forEach((precedence, items) {
-          if (!itemFound && items.contains(itemTitle)) {
-            itemDate = date;
-            itemPrecedence = precedence;
-            itemFound = true;
-          }
-        });
+    // Search for the item with early exit using labeled break
+    outerLoop:
+    for (var entry in calendarData.entries) {
+      for (var feastEntry in entry.value.feastList.entries) {
+        if (feastEntry.value.contains(itemTitle)) {
+          itemDate = entry.key;
+          itemPrecedence = feastEntry.key;
+          break outerLoop; // Exit immediately when found
+        }
       }
-    });
+    }
 
-    if (!itemFound) {
+    if (itemDate == null || itemPrecedence == null) {
       print("Item '$itemTitle' was not found in the calendar");
       return;
     }
 
-    DateTime newDate = itemDate!.add(Duration(days: dayShift));
-    removeCelebrationFromDay(itemDate!, itemTitle);
-    addItemToDay(newDate, itemPrecedence!, itemTitle);
+    final newDate = itemDate.add(Duration(days: dayShift));
+    removeCelebrationFromDay(itemDate, itemTitle);
+    addItemToDay(newDate, itemPrecedence, itemTitle);
 
-    String direction = dayShift > 0 ? "moved forward" : "moved backward";
+    final direction = dayShift > 0 ? "moved forward" : "moved backward";
     print("Item '$itemTitle' $direction by ${dayShift.abs()} day(s): "
-        "from ${_formatDateForLog(itemDate!)} to ${_formatDateForLog(newDate)} "
+        "from ${_formatDateForLog(itemDate)} to ${_formatDateForLog(newDate)} "
         "(precedence $itemPrecedence)");
   }
 
   List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
     final dayContent = calendarData[date];
     if (dayContent == null) return [];
-    String liturgicalTime = dayContent.liturgicalTime;
+
+    final liturgicalTime = dayContent.liturgicalTime;
     final List<MapEntry<int, String>> items = [];
+
     // Add elements from the feastList map
     dayContent.feastList.forEach((precedence, titles) {
       for (var title in titles) {
         items.add(MapEntry(precedence, title));
       }
     });
+
     // Add the default celebration
     items.add(
         MapEntry(dayContent.precedence, dayContent.defaultCelebrationTitle));
+
     // MODULE FOR REMOVING FEASTS WITH TOO LOW PRECEDENCE
-    // Determine the most important precedence (the lowest between 1 and 6)
+    // Collect all precedences into a Set for O(1) lookup
+    final precedences = items.map((e) => e.key).toSet();
+
     // Step 1: search for the smallest precedence between 1 and 6
     int? minPrecedence;
     for (int i = 1; i <= 6; i++) {
-      if (items.any((item) => item.key == i)) {
+      if (precedences.contains(i)) {
         minPrecedence = i;
         break;
       }
     }
+
     if (minPrecedence != null) {
       // Keep only elements with this precedence
       items.removeWhere((item) => item.key != minPrecedence);
     } else {
       // Step 2: if there is a precedence ≤ 9, remove those > 9
-      final hasPrecedenceBelowOrEqual9 = items.any((item) => item.key <= 9);
+      final hasPrecedenceBelowOrEqual9 = precedences.any((p) => p <= 9);
       if (hasPrecedenceBelowOrEqual9) {
         items.removeWhere((item) => item.key > 9);
       }
@@ -200,6 +211,9 @@ class Calendar {
   String _formatDateForLog(DateTime date) {
     return '${_pad(date.day)}/${_pad(date.month)}/${date.year}';
   }
+
+  /// Utility method to pad numbers with leading zeros
+  String _pad(int number) => number.toString().padLeft(2, '0');
 }
 
 // Calendar display method

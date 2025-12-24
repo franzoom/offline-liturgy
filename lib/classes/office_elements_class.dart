@@ -99,17 +99,17 @@ class Intercession {
 
 /// Psalm with antiphons
 class PsalmEntry {
-  final String psalm;
+  final String? psalm;
   final List<String>? antiphon;
 
   PsalmEntry({
-    required this.psalm,
+    this.psalm,
     this.antiphon,
   });
 
   factory PsalmEntry.fromJson(Map<String, dynamic> json) {
     return PsalmEntry(
-      psalm: json['psalm'] as String,
+      psalm: json['psalm'] as String?,
       antiphon: json['antiphon'] != null
           ? List<String>.from(json['antiphon'] as List)
           : null,

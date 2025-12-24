@@ -37,8 +37,10 @@ Future<Morning> morningExtract(
 
     // Removes invitatory psalms that are already in morning psalmody
     if (morning.psalmody != null) {
-      final psalmsInPsalmody =
-          morning.psalmody!.map((entry) => entry.psalm).toSet();
+      final psalmsInPsalmody = morning.psalmody!
+          .where((entry) => entry.psalm != null)
+          .map((entry) => entry.psalm!)
+          .toSet();
       invitatoryPsalms = invitatoryPsalms
           .where((psalm) => !psalmsInPsalmody.contains(psalm))
           .toList();

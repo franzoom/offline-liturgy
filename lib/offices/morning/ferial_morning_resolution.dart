@@ -54,9 +54,9 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     // Days from December 17th onwards (special days): is written "advent-17_3_5"
     // extracting the datas of the celebrationCode:
     List<String> parts = celebrationCode.replaceFirst("advent-", "").split("_");
-    int adventSpecialDay = int.parse(parts[0]); // 17
-    int weekNumber = int.parse(parts[1]); // 3
-    int dayNumber = int.parse(parts[2]); // 5
+    int adventSpecialDay = int.parse(parts[0]);
+    int weekNumber = int.parse(parts[1]);
+    int dayNumber = int.parse(parts[2]);
 
     ferialMorning = await morningExtract(
         '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
@@ -72,25 +72,30 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
       return ferialMorning;
     }
 
-    //after the 12-17 we add to the week days the special material of the D day
+    //after december the 17th we add to the week days the special material of the D day
     ferialMorning = await morningExtract(
         '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
     Morning adventSpecialMorning = await morningExtract(
         '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
     ferialMorning.overlayWith(adventSpecialMorning);
 
-    //after the 12-17, in the 3d week we use the psalm antiphons of the 4th week
+    //after december the 17th, in the 3d week we use the psalm antiphons of the 4th week
     if (weekNumber == 3) {
       Morning ferialMorningFour = await morningExtract(
           '$ferialFilePath/advent_4_$dayNumber.json', dataLoader);
       // Replace only the antiphons, keeping the psalms from ferialMorning
-      ferialMorning.psalmody = List.generate(
-        3,
-        (i) => PsalmEntry(
-          psalm: ferialMorning.psalmody![i].psalm,
-          antiphon: ferialMorningFour.psalmody![i].antiphon,
-        ),
-      );
+      if (ferialMorning.psalmody != null &&
+          ferialMorningFour.psalmody != null &&
+          ferialMorning.psalmody!.length >= 3 &&
+          ferialMorningFour.psalmody!.length >= 3) {
+        ferialMorning.psalmody = List.generate(
+          3,
+          (i) => PsalmEntry(
+            psalm: ferialMorning.psalmody![i].psalm,
+            antiphon: ferialMorningFour.psalmody![i].antiphon,
+          ),
+        );
+      }
     }
     ferialMorning.hymn = hymns;
     return ferialMorning;

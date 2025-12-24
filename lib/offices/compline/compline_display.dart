@@ -25,12 +25,18 @@ Future<void> complineDisplay(Compline compline, DataLoader dataLoader) async {
   print('------ PSALMODY ------');
   if (compline.psalmody != null) {
     // Load all required psalms at once
-    final psalmCodes = compline.psalmody!.map((e) => e.psalm).toList();
+    final psalmCodes = compline.psalmody!
+        .where((e) => e.psalm != null)
+        .map((e) => e.psalm!)
+        .toList();
     final psalmsMap = await PsalmsLibrary.getPsalms(psalmCodes, dataLoader);
 
     for (var psalmEntry in compline.psalmody!) {
+      // Skip entries without psalm
+      if (psalmEntry.psalm == null) continue;
+
       // psalmEntry is now a PsalmEntry object
-      String psalmCode = psalmEntry.psalm;
+      String psalmCode = psalmEntry.psalm!;
       List<String>? antiphons = psalmEntry.antiphon;
 
       if (antiphons != null && antiphons.isNotEmpty) {

@@ -60,6 +60,7 @@ class Morning {
 
   /// Overlays this Morning instance with data from another Morning instance
   /// Non-null fields from the overlay take precedence
+  /// For psalmody: intelligently merges psalms and antiphons
   void overlayWith(Morning overlay) {
     if (overlay.celebration != null) {
       celebration = overlay.celebration;
@@ -71,7 +72,31 @@ class Morning {
       hymn = overlay.hymn;
     }
     if (overlay.psalmody != null) {
-      psalmody = overlay.psalmody;
+      // Smart merge of psalmody: if overlay has antiphons without psalms,
+      // merge them with existing psalms
+      if (psalmody != null && psalmody!.isNotEmpty) {
+        List<PsalmEntry> mergedPsalmody = [];
+        for (int i = 0; i < overlay.psalmody!.length; i++) {
+          final overlayEntry = overlay.psalmody![i];
+          // If overlay has both psalm and antiphon, use it completely
+          if (overlayEntry.psalm != null) {
+            mergedPsalmody.add(overlayEntry);
+          } else if (i < psalmody!.length) {
+            // If overlay only has antiphon, merge with existing psalm
+            mergedPsalmody.add(PsalmEntry(
+              psalm: psalmody![i].psalm,
+              antiphon: overlayEntry.antiphon ?? psalmody![i].antiphon,
+            ));
+          } else {
+            // No existing psalm at this index, use overlay as-is
+            mergedPsalmody.add(overlayEntry);
+          }
+        }
+        psalmody = mergedPsalmody;
+      } else {
+        // No existing psalmody, just use overlay
+        psalmody = overlay.psalmody;
+      }
     }
     if (overlay.reading != null) {
       reading = overlay.reading;

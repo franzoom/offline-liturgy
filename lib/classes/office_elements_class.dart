@@ -7,7 +7,7 @@ class Celebration {
   final String? subtitle;
   final String? description;
   final List<String>? commons;
-  final int? grade;
+  final int? precedence;
   final String? color;
 
   Celebration({
@@ -15,7 +15,7 @@ class Celebration {
     this.subtitle,
     this.description,
     this.commons,
-    this.grade,
+    this.precedence,
     this.color,
   });
 
@@ -27,7 +27,7 @@ class Celebration {
       commons: json['commons'] != null
           ? List<String>.from(json['commons'] as List)
           : null,
-      grade: json['grade'] as int?,
+      precedence: json['precedence'] as int?,
       color: json['color'] as String?,
     );
   }

@@ -60,7 +60,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   }
 
   // Then look for the solemnities found in subdirectories of Calendar
-  // (a solemnity must be at a higher grade than the root of the day)
+  // (a solemnity must be at a higher precedence than the root of the day)
   for (var entry in todayContent.feastList.entries) {
     if (entry.key <= 4 && entry.key <= precedence) {
       String complineDescription = await getComplineDescription(

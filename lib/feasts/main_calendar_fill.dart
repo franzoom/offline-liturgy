@@ -43,13 +43,14 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['NATIVITY']!)) {
     precedence = (adventDays % 7 == 0)
         ? 2
-        : 13; // Sundays are grade 2, other days grade 13
+        : 13; // Sundays are precedence 2, other days precedence 13
     if (date.day < 17 || date.month == 11) {
       defaultCelebrationTitle =
           'advent_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
     } else {
-      precedence =
-          precedence == 13 ? 9 : 2; // Sundays are grade 2, other days grade 9
+      precedence = precedence == 13
+          ? 9
+          : 2; // Sundays are precedence 2, other days precedence 9
       defaultCelebrationTitle =
           'advent-${date.day}_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
       // grammar of this special days: advent-17_3_5 (12/17, 3d week, 5th day)
@@ -352,7 +353,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   int paschalTimeDays = 1;
   date = dayShift(generalCalendar['EASTER']!, 1); // initiates after Easter
 
-  // Paschal Octave (Grade: 2)
+  // Paschal Octave (precedence: 2)
   while (date.isBefore(dayShift(generalCalendar['EASTER']!, 7))) {
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,

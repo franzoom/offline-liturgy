@@ -64,6 +64,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
     // Get display name for celebration
     String celebrationName = celebrationCode;
     String mapKey = celebrationCode; // Default key is the code
+    String? celebrationDescription; // Description from JSON
 
     // Try to load celebration title from JSON files
     if (!isFerialDay(celebrationCode)) {
@@ -82,6 +83,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
           final celebrationData = jsonData['celebration'];
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
+          celebrationDescription = celebrationData['description'] as String?;
           // Update liturgicalColor from celebration data (override if specified)
           celebrationLiturgicalColor =
               celebrationData['color'] as String? ?? celebrationLiturgicalColor;
@@ -117,6 +119,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       precedence: precedence,
       liturgicalColor: celebrationLiturgicalColor,
       isCelebrable: isCelebrable,
+      celebrationDescription: celebrationDescription,
     );
   }
   print(

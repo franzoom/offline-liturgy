@@ -175,6 +175,7 @@ class MorningDefinition {
   final String liturgicalColor;
   final bool
       isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
+  final String? celebrationDescription; // detailed description of the celebration from JSON
 
   MorningDefinition({
     required this.morningDescription,
@@ -186,5 +187,6 @@ class MorningDefinition {
     required this.precedence,
     required this.isCelebrable,
     required this.liturgicalColor,
+    this.celebrationDescription,
   });
 }

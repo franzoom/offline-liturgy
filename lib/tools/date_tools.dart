@@ -11,7 +11,8 @@ DateTime dayShift(DateTime date, int shift) {
 /// Special cases: christmas_26 to christmas_31 are NOT ferial days (they are proper celebrations)
 bool isFerialDay(String celebrationCode) {
   // Special christmas days (26-31 Dec) are NOT ferial days
-  final specialChristmasPattern = RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');
+  final specialChristmasPattern =
+      RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');
   if (specialChristmasPattern.hasMatch(celebrationCode)) {
     return false;
   }
@@ -92,4 +93,23 @@ String ferialNameResolution(String ferialCode) {
     }
   }
   return result[0].toUpperCase() + result.substring(1);
+}
+
+/// Returns the celebration type label based on precedence
+String getCelebrationTypeLabel(int precedence) {
+  switch (precedence) {
+    case 3:
+    case 4:
+      return '(Solennité)';
+    case 5:
+    case 7:
+    case 8:
+      return '(Fête)';
+    case 10:
+    case 11:
+      return '(Mémoire obligatoire)';
+    case 12:
+      return '(Mémoire facultative)';
+  }
+  return '';
 }

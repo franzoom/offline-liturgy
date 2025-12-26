@@ -8,7 +8,14 @@ DateTime dayShift(DateTime date, int shift) {
 
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
+/// Special cases: christmas_26 to christmas_31 are NOT ferial days (they are proper celebrations)
 bool isFerialDay(String celebrationCode) {
+  // Special christmas days (26-31 Dec) are NOT ferial days
+  final specialChristmasPattern = RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');
+  if (specialChristmasPattern.hasMatch(celebrationCode)) {
+    return false;
+  }
+
   final prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationCode.startsWith(prefix));
 }

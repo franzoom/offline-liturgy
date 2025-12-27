@@ -33,6 +33,22 @@ String liturgicalYear(int year) {
   return 'B';
 }
 
+String breviaryWeekToRoman(int weekNumber) {
+  // converts breviary week number (1-4) to Roman numerals
+  switch (weekNumber) {
+    case 1:
+      return 'I';
+    case 2:
+      return 'II';
+    case 3:
+      return 'III';
+    case 4:
+      return 'IV';
+    default:
+      return weekNumber.toString(); // fallback to number if out of range
+  }
+}
+
 List dayName = [
   '',
   'monday',

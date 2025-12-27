@@ -21,7 +21,10 @@ Future<Map<String, ComplineDefinition>> complineResolution(
   /// but if tomorrow is a Solemnity or Sunday, includes Solemnity Eve Complines.
   /// If today has multiple celebrations (Sunday + Solemnity), returns all options.
 
-  if (calendar.getDayContent(date)?.liturgicalTime == 'christmasoctave') {
+  final String liturgicalTime =
+      calendar.getDayContent(date)?.liturgicalTime ?? '';
+  if (liturgicalTime == 'christmasoctave' ||
+      liturgicalTime == 'paschaloctave') {
     ComplineDefinition saturdayComplineDefinition = ComplineDefinition(
         complineDescription: 'Complies du samedi',
         dayOfWeek: 'saturday',

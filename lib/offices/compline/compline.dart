@@ -28,13 +28,13 @@ Future<Map<String, ComplineDefinition>> complineResolution(
     ComplineDefinition saturdayComplineDefinition = ComplineDefinition(
         complineDescription: 'Complies du samedi',
         dayOfWeek: 'saturday',
-        liturgicalTime: 'christmasoctave',
+        liturgicalTime: liturgicalTime,
         celebrationType: 'solemnityeve',
         precedence: 8);
     ComplineDefinition sundayComplineDefinition = ComplineDefinition(
         complineDescription: 'Complies du dimanche',
         dayOfWeek: 'sunday',
-        liturgicalTime: 'christmasoctave',
+        liturgicalTime: liturgicalTime,
         celebrationType: 'solemnity',
         precedence: 8);
     Map<String, ComplineDefinition> possibleComplines = {

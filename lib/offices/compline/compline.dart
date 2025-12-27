@@ -21,6 +21,26 @@ Future<Map<String, ComplineDefinition>> complineResolution(
   /// but if tomorrow is a Solemnity or Sunday, includes Solemnity Eve Complines.
   /// If today has multiple celebrations (Sunday + Solemnity), returns all options.
 
+  if (calendar.getDayContent(date)?.liturgicalTime == 'christmasoctave') {
+    ComplineDefinition saturdayComplineDefinition = ComplineDefinition(
+        complineDescription: 'Complies du samedi',
+        dayOfWeek: 'saturday',
+        liturgicalTime: 'christmasoctave',
+        celebrationType: 'solemnityeve',
+        precedence: 8);
+    ComplineDefinition sundayComplineDefinition = ComplineDefinition(
+        complineDescription: 'Complies du dimanche',
+        dayOfWeek: 'sunday',
+        liturgicalTime: 'christmasoctave',
+        celebrationType: 'solemnity',
+        precedence: 8);
+    Map<String, ComplineDefinition> possibleComplines = {
+      "Complies du samedi": saturdayComplineDefinition,
+      "Complies du dimanche": sundayComplineDefinition
+    };
+    return possibleComplines;
+  }
+
   Map<String, ComplineDefinition> todayComplineDefinition =
       await complineDetection(calendar, date, dataLoader);
   Map<String, ComplineDefinition> tomorrowComplineDefinition =
@@ -33,7 +53,7 @@ Future<Map<String, ComplineDefinition>> complineResolution(
       entry.value.celebrationType == 'solemnity' ||
       entry.value.dayOfWeek == 'sunday');
 
-  // work on tommorow's potential Complines :
+  // work on tomorrow's potential Complines :
   // Check if tomorrow requires Eve Complines (Solemnity or Sunday)
   // and adapt their datas to be considered as Eve
   // (using saturdays's office according to the liturgical time)

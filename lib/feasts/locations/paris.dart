@@ -6,7 +6,7 @@ import 'france.dart';
 
 Map<String, FeastDates> parisFeastsList = {
   'genevieve_of_paris_virgin_paris':
-      FeastDates(month: 1, day: 3, precedence: 10),
+      FeastDates(month: 1, day: 3, precedence: 4),
 };
 
 Calendar addParisFeasts(

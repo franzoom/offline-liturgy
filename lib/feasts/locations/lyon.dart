@@ -6,7 +6,7 @@ import 'france.dart';
 
 Map<String, FeastDates> lyonFeastsList = {
   'gregory_x_pope_lyon': FeastDates(month: 1, day: 10, precedence: 12),
-  'francis_de_sales_bishop_lyon': FeastDates(month: 1, day: 24, precedence: 11),
+  'francis_of_sales_bishop_lyon': FeastDates(month: 1, day: 24, precedence: 11),
   'marie_of_saint_ignatius_claudine_thevenet_religious_lyon':
       FeastDates(month: 2, day: 3, precedence: 12),
   'jean_pierre_neel_priest_lyon': FeastDates(month: 2, day: 19, precedence: 12),

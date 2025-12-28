@@ -12,7 +12,7 @@ Map<String, FeastDates> commonFeastsList = {
   'sebastian_of_milan_martyr': FeastDates(month: 1, day: 20, precedence: 12),
   'agnes_of_rome_virgin': FeastDates(month: 1, day: 21, precedence: 10),
   'vincent_of_saragossa_deacon': FeastDates(month: 1, day: 22, precedence: 12),
-  'francis_de_sales_bishop': FeastDates(month: 1, day: 24, precedence: 10),
+  'francis_of_sales_bishop': FeastDates(month: 1, day: 24, precedence: 10),
   'conversion_of_saint_paul_the_apostle':
       FeastDates(month: 1, day: 25, precedence: 7),
   'timothy_of_ephesus_and_titus_of_crete_bishops':

@@ -9,6 +9,25 @@
   },
   "morning": {
     "hymn": ["tout-le-ciel-s-emplit"],
+        "psalmody": [
+      {
+        "psalm": "PSALM_62",
+        "antiphon": [
+          "Qu’avez-vous vu, bergers&nbsp;? dites-nous. Qui donc est apparu sur terre&nbsp;? —&nbsp;Nous avons vu un nouveau-né, et des anges qui louaient le Seigneur, alléluia."
+        ]
+      },
+      {
+        "psalm": "OT_41",
+        "antiphon": [
+          "Je vous annonce une grande joie&nbsp;: Aujourd’hui vous est né le Sauveur du monde, alléluia."
+        ]
+      },
+      {
+        "psalm": "PSALM_149",
+        "antiphon": [
+          "Un petit enfant nous est né aujourd’hui&nbsp;: on l’appellera Dieu-fort, alléluia."
+        ]
+      }],
     "reading": {
       "biblicalReference": "Is 9, 5",
       "content": "Un enfant nous est né, un fils nous a été donné&nbsp;; l’insigne du pouvoir est sur son épaule&nbsp;; on proclame son nom&nbsp;: «&nbsp;Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-Paix&nbsp;»."
@@ -84,6 +103,26 @@
     }
   },
   "vespers": {
+    "psalmody": [
+      {
+        "psalm": "PSALM_109",
+        "antiphon": [
+          "Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté&nbsp;: Comme la rosée qui naît de l’aurore, je t’ai engendré."
+        ]
+      },
+      {
+        "psalm": "PSALM_129",
+        "antiphon": [
+          "Oui, près du Seigneur est l’amour&nbsp;; près de lui abonde le rachat."
+        ]
+      },
+      {
+        "psalm": "NT_6",
+        "antiphon": [
+          "Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui&nbsp;: c’est le Sauveur du monde."
+        ]
+      }
+    ],
     "reading": {
       "biblicalReference": "cf. 2 P 1, 3-4",
       "content": "Le Christ, dans sa puissance divine, nous a fait don de tout ce qu’il faut pour vivre en hommes religieux, grâce à la véritable connaissance de Celui qui nous a appelés par la gloire et la force qui lui appartiennent. Ainsi, Dieu nous a fait don de grandes richesses promises et vous deviendrez participants de la nature divine, en fuyant la dégradation que le désir produit dans le monde."

@@ -111,25 +111,14 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     List<String> hymns = hymnList["christmas"] ?? [];
 
     if (monthNumber == 12) {
-      if (dayNumber < 29) {
-        // Days before December 29th: proper office for Morning Prayer
-        Morning morningOffice = await morningExtract(
-            '$specialFilePath/christmas_$dayNumber.json', dataLoader);
-        Morning baseMorningOffice =
-            await morningExtract('$commonsFilePath/christmas.json', dataLoader);
-        baseMorningOffice.overlayWith(morningOffice);
-        baseMorningOffice.hymn = hymns;
-        return baseMorningOffice;
-      } else {
-        // Days from December 29th to 31st: use Common of Christmas
-        Morning morningOffice = await morningExtract(
-            '$specialFilePath/christmas_${date.day}.json', dataLoader);
-        Morning baseMorningOffice =
-            await morningExtract('$commonsFilePath/christmas.json', dataLoader);
-        baseMorningOffice.overlayWith(morningOffice);
-        baseMorningOffice.hymn = hymns;
-        return baseMorningOffice;
-      }
+      // All December days in Christmas time: proper office overlays the Common
+      Morning morningOffice = await morningExtract(
+          '$specialFilePath/christmas_$dayNumber.json', dataLoader);
+      Morning baseMorningOffice =
+          await morningExtract('$commonsFilePath/christmas.json', dataLoader);
+      baseMorningOffice.overlayWith(morningOffice);
+      baseMorningOffice.hymn = hymns;
+      return baseMorningOffice;
     }
     // Christmas days in January
     if (celebrationCode.startsWith('christmas-')) {

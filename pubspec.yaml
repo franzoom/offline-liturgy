@@ -13,10 +13,9 @@ flutter:
     - assets/calendar_data/ferial_days/
     - assets/calendar_data/special_days/
     - assets/calendar_data/sanctoral/
-    - assets/common_data/psalms_library.json
     - assets/common_data/psalms_library_greek_hebrew.json
-    - assets/common_data/hymns_library.json
     - assets/hymns/
+    - assets/psalms/
 
 # Add regular dependencies here.
 dependencies:

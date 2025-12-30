@@ -1,36 +1,40 @@
-import 'dart:convert';
+import 'package:yaml/yaml.dart';
 import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 
-/// Extracts Morning data from a JSON file
+/// Extracts Morning data from a YAML file
 /// Reads the file via DataLoader, parses only the 'morning' section
 Future<Morning> morningExtract(
     String relativePath, DataLoader dataLoader) async {
   print('=== morningExtract DEBUG == Loading file: $relativePath');
 
-  String fileContent = await dataLoader.loadJson(relativePath);
+  // Load YAML file
+  String fileContent = await dataLoader.loadYaml(relativePath);
 
   if (fileContent.isEmpty) {
     print('ERROR: File is empty or does not exist');
     return Morning();
   }
-  var jsonData = jsonDecode(fileContent);
+
+  // Parse YAML and convert to Dart types
+  final yamlData = loadYaml(fileContent);
+  final data = _convertYamlToDart(yamlData);
 
   // Extract oration from root level if present
-  List<String> oration = List<String>.from(jsonData['oration'] ?? []);
+  List<String> oration = List<String>.from(data['oration'] ?? []);
 
-  // Create Morning from JSON (from 'morning' section if exists, otherwise empty)
+  // Create Morning from data (from 'morning' section if exists, otherwise empty)
   Morning morning;
-  if (jsonData['morning'] != null) {
-    morning = Morning.fromJson(jsonData['morning'] as Map<String, dynamic>);
+  if (data['morning'] != null) {
+    morning = Morning.fromJson(data['morning'] as Map<String, dynamic>);
   } else {
     morning = Morning();
   }
 
-  if (jsonData['invitatory'] != null) {
+  if (data['invitatory'] != null) {
     Invitatory invitatory =
-        Invitatory.fromJson(jsonData['invitatory'] as Map<String, dynamic>);
+        Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>);
 
     List<String> invitatoryPsalms =
         invitatory.psalms ?? ["PSALM_94", "PSALM_66", "PSALM_99", "PSALM_23"];
@@ -50,9 +54,20 @@ Future<Morning> morningExtract(
         Invitatory(antiphon: invitatory.antiphon, psalms: invitatoryPsalms);
   }
 
-  // If oration is not in morning section, check in main section of the json
+  // If oration is not in morning section, check in main section of the yaml
   morning.oration ??= oration;
 
   print('=== morningExtract SUCCESS ===');
   return morning;
+}
+
+/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
+dynamic _convertYamlToDart(dynamic value) {
+  if (value is YamlMap) {
+    return value.map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
+  } else if (value is YamlList) {
+    return value.map((item) => _convertYamlToDart(item)).toList();
+  } else {
+    return value;
+  }
 }

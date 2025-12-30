@@ -28,7 +28,7 @@ Future<Morning> loadHierarchicalCommon(
 
   // Load each level in order (from most general to most specific)
   for (String level in hierarchy) {
-    String filePath = '$commonsFilePath/$level.json';
+    String filePath = '$commonsFilePath/$level.yaml';
     Morning levelMorning = await morningExtract(filePath, dataLoader);
 
     // Overlay this level's data onto the result

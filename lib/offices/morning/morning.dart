@@ -26,12 +26,12 @@ Future<Morning> morningResolution(String celebrationCode, String? ferialCode,
   if (celebrationCode != ferialCode) {
     // Try special directory first, then sanctoral
     properMorning = await morningExtract(
-        '$specialFilePath/$celebrationCode.json', dataLoader);
+        '$specialFilePath/$celebrationCode.yaml', dataLoader);
 
     if (properMorning.isEmpty()) {
       // File not found in special, try sanctoral
       properMorning = await morningExtract(
-          '$sanctoralFilePath/$celebrationCode.json', dataLoader);
+          '$sanctoralFilePath/$celebrationCode.yaml', dataLoader);
     }
   }
 

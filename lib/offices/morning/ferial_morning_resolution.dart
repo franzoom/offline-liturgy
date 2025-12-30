@@ -22,13 +22,13 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
 
     // picks the data of the first 4 weeks of the Ordinary Time:
     Morning ferialMorning = await morningExtract(
-        '$ferialFilePath/ot_${((weekNumber - 1) % 4) + 1}_$dayNumber.json',
+        '$ferialFilePath/ot_${((weekNumber - 1) % 4) + 1}_$dayNumber.yaml',
         dataLoader);
 
     if (weekNumber > 4) {
       // Add specific data after the 4th week
       Morning auxData = await morningExtract(
-          '$ferialFilePath/ot_${weekNumber}_$dayNumber.json', dataLoader);
+          '$ferialFilePath/ot_${weekNumber}_$dayNumber.yaml', dataLoader);
       ferialMorning.overlayWith(auxData);
     }
 
@@ -47,7 +47,7 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
       int weekNumber = dayDatas[0];
       int dayNumber = dayDatas[1];
       ferialMorning = await morningExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
+          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
       ferialMorning.hymn = hymns;
       return ferialMorning;
     }
@@ -59,14 +59,14 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     int dayNumber = int.parse(parts[2]);
 
     ferialMorning = await morningExtract(
-        '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
+        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
 
     //sunday after 12/17: use the Sunday texts and add the Evangelic Antiphon of the Special Day
     if (dayNumber == 0) {
       ferialMorning = await morningExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
+          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
       Morning adventSpecialMorning = await morningExtract(
-          '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
+          '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
       ferialMorning.evangelicAntiphon = adventSpecialMorning.evangelicAntiphon;
       ferialMorning.hymn = hymns;
       return ferialMorning;
@@ -74,15 +74,15 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
 
     //after december the 17th we add to the week days the special material of the D day
     ferialMorning = await morningExtract(
-        '$ferialFilePath/advent_${weekNumber}_$dayNumber.json', dataLoader);
+        '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
     Morning adventSpecialMorning = await morningExtract(
-        '$specialFilePath/advent_$adventSpecialDay.json', dataLoader);
+        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
     ferialMorning.overlayWith(adventSpecialMorning);
 
     //after december the 17th, in the 3d week we use the psalm antiphons of the 4th week
     if (weekNumber == 3) {
       Morning ferialMorningFour = await morningExtract(
-          '$ferialFilePath/advent_4_$dayNumber.json', dataLoader);
+          '$ferialFilePath/advent_4_$dayNumber.yaml', dataLoader);
       // Replace only the antiphons, keeping the psalms from ferialMorning
       if (ferialMorning.psalmody != null &&
           ferialMorningFour.psalmody != null &&
@@ -113,9 +113,9 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     if (monthNumber == 12) {
       // All December days in Christmas time: proper office overlays the Common
       Morning morningOffice = await morningExtract(
-          '$specialFilePath/christmas_$dayNumber.json', dataLoader);
+          '$specialFilePath/christmas_$dayNumber.yaml', dataLoader);
       Morning baseMorningOffice =
-          await morningExtract('$commonsFilePath/christmas.json', dataLoader);
+          await morningExtract('$commonsFilePath/christmas.yaml', dataLoader);
       baseMorningOffice.overlayWith(morningOffice);
       baseMorningOffice.hymn = hymns;
       return baseMorningOffice;
@@ -129,10 +129,10 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
       String breviaryWeek = parts[1];
       String breviaryDay = parts[2];
       Morning morningOffice = await morningExtract(
-          '$specialFilePath/christmas-ferial_before_epiphany_$dateDay.json',
+          '$specialFilePath/christmas-ferial_before_epiphany_$dateDay.yaml',
           dataLoader);
       Morning baseMorningOffice = await morningExtract(
-          '$ferialFilePath/christmas_${breviaryWeek}_$breviaryDay.json',
+          '$ferialFilePath/christmas_${breviaryWeek}_$breviaryDay.yaml',
           dataLoader);
       baseMorningOffice.overlayWith(morningOffice);
       baseMorningOffice.hymn = hymns;
@@ -140,7 +140,7 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     }
     // After Epiphany
     Morning morningOffice = await morningExtract(
-        '$ferialFilePath/christmas_2_${date.weekday}.json', dataLoader);
+        '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
     morningOffice.hymn = hymnList["after_epiphany"] ?? [];
     return morningOffice;
   }
@@ -153,7 +153,7 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
     ferialMorning = await morningExtract(
-        '$ferialFilePath/lent_${weekNumber}_$dayNumber.json', dataLoader);
+        '$ferialFilePath/lent_${weekNumber}_$dayNumber.yaml', dataLoader);
     return ferialMorning;
   }
 
@@ -165,7 +165,7 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
     ferialMorning = await morningExtract(
-        '$ferialFilePath/PT_${weekNumber}_$dayNumber.json', dataLoader);
+        '$ferialFilePath/PT_${weekNumber}_$dayNumber.yaml', dataLoader);
     return ferialMorning;
   }
 
@@ -173,6 +173,6 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
   // OTHER FERIAL TIMES
   // ============================================================================
   ferialMorning =
-      await morningExtract('$ferialFilePath/$celebrationCode.json', dataLoader);
+      await morningExtract('$ferialFilePath/$celebrationCode.yaml', dataLoader);
   return ferialMorning;
 }

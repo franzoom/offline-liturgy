@@ -1,4 +1,4 @@
-import 'dart:convert';
+import 'package:yaml/yaml.dart';
 import '../../classes/calendar_class.dart';
 import '../../classes/morning_class.dart';
 import '../../tools/data_loader.dart';
@@ -66,21 +66,23 @@ Future<Map<String, MorningDefinition>> morningDetection(
     String mapKey = celebrationCode; // Default key is the code
     String? celebrationDescription; // Description from JSON
 
-    // Try to load celebration title from JSON files
+    // Try to load celebration title from YAML files
     if (!isFerialDay(celebrationCode)) {
       // Try to load from special_days first
       String fileContent =
-          await dataLoader.loadJson('$specialFilePath/$celebrationCode.json');
+          await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
       // If not found in special_days, try sanctoral
       if (fileContent.isEmpty) {
         fileContent = await dataLoader
-            .loadJson('$sanctoralFilePath/$celebrationCode.json');
+            .loadYaml('$sanctoralFilePath/$celebrationCode.yaml');
       }
 
       if (fileContent.isNotEmpty) {
-        var jsonData = jsonDecode(fileContent);
-        if (jsonData['celebration'] != null) {
-          final celebrationData = jsonData['celebration'];
+        // Parse YAML and convert to Dart types
+        final yamlData = loadYaml(fileContent);
+        final data = _convertYamlToDart(yamlData);
+        if (data['celebration'] != null) {
+          final celebrationData = data['celebration'] as Map<String, dynamic>;
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
           celebrationDescription = celebrationData['description'] as String?;
@@ -99,8 +101,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
           }
         }
       } else {
-        print('failed to load $celebrationCode.json');
-        bool isCelebrable = false;
+        print('failed to load $celebrationCode.yaml');
+        isCelebrable = false;
       }
       // If file not found or empty, keep the original code as name and key
     } else {
@@ -125,4 +127,15 @@ Future<Map<String, MorningDefinition>> morningDetection(
   print(
       '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
+}
+
+/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
+dynamic _convertYamlToDart(dynamic value) {
+  if (value is YamlMap) {
+    return value.map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
+  } else if (value is YamlList) {
+    return value.map((item) => _convertYamlToDart(item)).toList();
+  } else {
+    return value;
+  }
 }

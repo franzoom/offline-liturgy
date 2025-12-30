@@ -1,0 +1,171 @@
+celebration:
+  title: Ascension du Seigneur
+  precedence: 2
+  color: white
+firstVespers:
+  hymn:
+    - homme-ne-te-tourmente-pas
+  psalmody:
+    -
+      psalm: PSALM_112
+    -
+      psalm: PSALM_116
+    -
+      psalm: NT_10
+  reading:
+    biblicalReference: Ep 2,4-6
+    content: "Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus."
+  responsory: |
+    R/ Dieu s’élève parmi les ovations.
+    \* Alléluia, alléluia !
+    V/ Le Seigneur, aux éclats du cor. \* Alléluia.
+    Gloire au Père. R/ Dieu s’élève.
+  intercession:
+    content: |
+      Acclamons le Christ, qui siège à la droite du Père :
+      
+      R/Ô Christ, tu es le Roi de gloire !
+      
+      Jésus, notre frère et notre Roi,
+      tu as élevé notre condition humaine jusqu’à la gloire du ciel :
+      – rétablis en nous la dignité de ton œuvre première.
+      
+      Par la puissance de l’Esprit,
+      tu es sorti du Père et venu en ce monde :
+      – dans la force de ce même Esprit,
+      fais-nous passer avec toi de ce monde jusqu’au Père.
+      
+      Tu as promis d’attirer à toi tous les hommes :
+      – garde dans ton Église ceux que le Père t’a donnés.
+      
+      Maintenant que tu es entré dans la gloire du Père,
+      – tourne notre désir vers le ciel où tu es glorifié.
+      
+      Au dernier jour, tu jugeras le monde :
+      – accorde à tous nos frères défunts
+      de voir en toi le Seigneur des miséricordes.
+invitatory:
+  antiphon:
+    - Honneur au Fils de l’homme, alléluia, il nous introduit près de Dieu, alléluia.
+morning:
+  hymn:
+    - nous-te-chantons-ressuscite
+  psalmody:
+    -
+      psalm: PSALM_62
+    -
+      psalm: OT_41
+    -
+      psalm: PSALM_149
+  reading:
+    biblicalReference: He 10, 12-14
+    content: Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté.
+  responsory: |
+    R/ Tu es la porte du Royaume, alléluia !
+    \* Tu es la route vers le Père, alléluia !
+    V/ Ouvrez-vous, portes éternelles :
+    qu’il entre le roi de gloire. \*
+    V/ C’est lui, le Seigneur de l’univers,
+    c’est lui, le roi de gloire. R/
+  intercession:
+    content: |
+      Acclamons et louons le Seigneur, élevé au-dessus de tous :
+      
+      R/Loué sois-tu, Seigneur de gloire !
+      
+      Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,
+      – achève notre délivrance.
+      
+      Pendant quarante jours, tu t’es montré vivant à tes disciples,
+      – affermis notre foi.
+      
+      Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,
+      – intercède pour nous.
+      
+      Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,
+      – fortifie notre témoignage.
+readings:
+  hymn:
+    - entre-dans-la-gloire
+  psalmody:
+    -
+      psalm: PSALM_67-I
+    -
+      psalm: PSALM_67-II
+    -
+      psalm: PSALM_67-III
+  verse: |
+    V/ Le Seigneur ouvrit l’esprit de ses disciples, alléluia,
+    à l’intelligence des Écritures, alléluia.
+middleOfDay:
+  psalmody:
+    -
+      psalm: PSALM_8
+    -
+      psalm: PSALM_18A
+    -
+      psalm: PSALM_18B
+  tierce:
+    antiphon: Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia.
+    reading:
+      biblicalReference: Ap 1, 17c-18
+      content: "Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier, je suis le Vivant ; j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »"
+    responsory: |
+      V/ Que votre cœur ne se trouble pas, alléluia,
+      car je vais au Père, alléluia.
+  sexte:
+    antiphon: Il paraît où commence le ciel, alléluia. Il s’en va jusqu’où le ciel s’achève, alléluia.
+    reading:
+      biblicalReference: He 8, 1b-3a
+      content: Le grand prêtre que nous avons s’est assis à la droite de Dieu et règne avec lui dans les cieux, après avoir accompli le service du véritable Sanctuaire, et de la véritable Tente dressée par le Seigneur et non par un homme. Le grand prêtre a toujours été chargé d’offrir des dons et des sacrifices.
+    responsory: |
+      V/ À ta droite se tient le Seigneur, alléluia.
+      Tu es Prêtre à jamais, alléluia.
+  none:
+    antiphon: Levant les mains, il bénit ses disciples et fut emporté dans le ciel, alléluia.
+    reading:
+      biblicalReference: Col 3, 1-2
+      content: "Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre."
+    responsory: |
+      V/ Glorifiez le Roi des rois, alléluia.
+      Chantez un hymne à Dieu, alléluia.
+vespers:
+  hymn:
+    - o-fils-de-dieu-ressuscite
+  psalmody:
+    -
+      psalm: PSALM_109
+    -
+      psalm: PSALM_46
+    -
+      psalm: NT_10
+  reading:
+    biblicalReference: 1 P 3, 18.22
+    content: Le Christ est mort pour les péchés, une fois pour toutes ; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort ; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu.
+  responsory: |
+    R/ Nous acclamons, Seigneur,
+    la splendeur de ta gloire éternelle !
+    V/ À toi, Seigneur, le règne,
+    la primauté sur l’univers !R/
+    V/ C’est toi, le Maître de tout,
+    nous voici pour te rendre grâce. R/
+  intercession:
+    content: |
+      Acclamons et louons le Seigneur, élevé au-dessus de tous :
+      
+      R/Loué sois-tu, Seigneur de gloire !
+      
+      Seigneur Jésus, une fois pour toutes tu t’es offert sur la croix, aujourd’hui tu es monté victorieux à la droite du Père,
+      – achève notre délivrance.
+      
+      Pendant quarante jours, tu t’es montré vivant à tes disciples,
+      – affermis notre foi.
+      
+      Toi qui es entré dans le Saint des saints, Prêtre éternel de l’Alliance nouvelle,
+      – intercède pour nous.
+      
+      Avant de quitter les tiens, tu leur as promis l’Esprit Saint pour qu’ils annoncent l’Évangile jusqu’aux extrémités de la terre,
+      – fortifie notre témoignage.
+      
+      Toi qui reviendras au dernier jour pour nous prendre avec toi,
+      – sois la résurrection des morts.

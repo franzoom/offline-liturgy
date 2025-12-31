@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:yaml/yaml.dart';
 import '../../classes/psalms_class.dart';
 import '../../tools/data_loader.dart';
@@ -128,42 +127,64 @@ class PsalmsLibrary {
     return psalmsMap;
   }
 
-  /// Loads all psalms from the Greek/Hebrew JSON file
+  /// Loads all psalms from the Greek/Hebrew YAML files
   /// Uses separate caching to avoid reloading
+  @Deprecated('Use getPsalmAncient() instead for better memory efficiency')
   static Future<Map<String, Psalm>> loadAncient(DataLoader dataLoader) async {
     if (_cacheAncient != null) {
       return _cacheAncient!;
     }
 
+    print('🔄 PsalmsLibrary: Loading all ancient psalms from YAML files...');
+    print('⚠️  Note: Consider using getPsalmAncient() for better performance');
+
+    final psalmsMap = <String, Psalm>{};
+
+    // Load each ancient psalm file individually
+    for (final psalmId in _psalmIds) {
+      final psalm = await _loadAncientPsalmById(psalmId, dataLoader);
+      if (psalm != null) {
+        psalmsMap[psalmId] = psalm;
+      }
+    }
+
+    _cacheAncient = psalmsMap;
+    print('✅ PsalmsLibrary: Loaded ${psalmsMap.length} ancient psalms (cached)');
+    return psalmsMap;
+  }
+
+  /// Loads a single ancient psalm by ID from YAML file in hebrew-greek directory
+  static Future<Psalm?> _loadAncientPsalmById(
+      String psalmId, DataLoader dataLoader) async {
+    // Check if already in ancient cache
+    if (_cacheAncient != null && _cacheAncient!.containsKey(psalmId)) {
+      return _cacheAncient![psalmId];
+    }
+
+    // Load from YAML file in hebrew-greek subdirectory
     try {
-      final content = await dataLoader
-          .loadJson('common_data/psalms_library_greek_hebrew.json');
+      final content = await dataLoader.loadYaml('psalms/hebrew-greek/$psalmId.yaml');
 
       if (content.isEmpty) {
-        throw Exception(
-            'Ancient psalms library JSON file is empty or not found');
+        print('⚠️  Warning: Empty content for ancient psalm $psalmId');
+        return null;
       }
 
-      final jsonData = json.decode(content) as Map<String, dynamic>;
-      final psalmsMap = <String, Psalm>{};
+      final yamlData = loadYaml(content);
 
-      jsonData.forEach((key, value) {
-        final psalmData = value as Map<String, dynamic>;
-        psalmsMap[key] = Psalm(
-          title: psalmData['title'] as String?,
-          subtitle: psalmData['subtitle'] as String?,
-          commentary: psalmData['commentary'] as String?,
-          biblicalReference: psalmData['biblicalReference'] as String?,
-          shortReference: psalmData['shortReference'] as String?,
-          content: psalmData['content'] as String,
-        );
-      });
+      final psalm = Psalm(
+        title: yamlData['title'] as String?,
+        subtitle: yamlData['subtitle'] as String?,
+        commentary: yamlData['commentary'] as String?,
+        biblicalReference: yamlData['biblicalReference'] as String?,
+        shortReference: yamlData['shortReference'] as String?,
+        content: yamlData['content'] as String,
+      );
 
-      _cacheAncient = psalmsMap;
-      return psalmsMap;
+      return psalm;
     } catch (e) {
-      print('Error loading ancient psalms library: $e');
-      return {};
+      print('❌ Error loading ancient psalm $psalmId: $e');
+      return null;
     }
   }
 
@@ -186,11 +207,17 @@ class PsalmsLibrary {
     return result;
   }
 
-  /// Gets a single psalm by code from ancient languages library
+  /// Gets a single psalm by code from ancient languages library (Hebrew/Greek)
   static Future<Psalm?> getPsalmAncient(
       String code, DataLoader dataLoader) async {
-    final library = await loadAncient(dataLoader);
-    return library[code];
+    print('🔍 getPsalmAncient: $code ${_cacheAncient?.containsKey(code) == true ? "(cached)" : "(loading)"}');
+    final result = await _loadAncientPsalmById(code, dataLoader);
+    if (result == null) {
+      print('  ❌ NOT FOUND: $code');
+    } else {
+      print('  ✅ Found: $code');
+    }
+    return result;
   }
 
   /// Gets multiple psalms by codes (uses lazy loading - only loads requested psalms)

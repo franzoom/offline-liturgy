@@ -64,7 +64,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
     // Get display name for celebration
     String celebrationName = celebrationCode;
     String mapKey = celebrationCode; // Default key is the code
-    String? celebrationDescription; // Description from JSON
+    String? celebrationDescription; // Description from YAML
 
     // Try to load celebration title from YAML files
     if (!isFerialDay(celebrationCode)) {
@@ -132,7 +132,8 @@ Future<Map<String, MorningDefinition>> morningDetection(
 /// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
 dynamic _convertYamlToDart(dynamic value) {
   if (value is YamlMap) {
-    return value.map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
+    return value
+        .map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
   } else if (value is YamlList) {
     return value.map((item) => _convertYamlToDart(item)).toList();
   } else {

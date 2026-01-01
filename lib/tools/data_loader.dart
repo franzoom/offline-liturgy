@@ -20,14 +20,6 @@ abstract class DataLoader {
   Future<String> loadYaml(String relativePath);
 }
 
-/// DataLoader for pure Dart usage (without Flutter)
-/// Reads files from the local file system
-///
-/// Usage:
-/// ```dart
-/// final dataLoader = FileSystemDataLoader();
-/// final complines = await complineDefinitionResolution(calendar, date, dataLoader);
-/// ```
 class FileSystemDataLoader implements DataLoader {
   /// Assets path prefix (default: './assets/')
   final String assetsPrefix;

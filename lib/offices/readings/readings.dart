@@ -12,7 +12,7 @@ import '../../tools/file_paths.dart';
 /// (the argument "date" is used for advent calculation)
 Future<Readings> readingsResolution(String celebrationCode, String? ferialCode,
     String? common, DateTime date, String? breviaryWeek, DataLoader dataLoader,
-    {int? precedence}) async {
+    {int? precedence, bool? teDeum}) async {
   Readings readingsOffice = Readings();
   Readings properReadings = Readings();
 
@@ -54,6 +54,11 @@ Future<Readings> readingsResolution(String celebrationCode, String? ferialCode,
       readingsOffice.overlayWith(commonReadings);
     }
     readingsOffice.overlayWith(properReadings);
+  }
+
+  // Set Te Deum flag if provided
+  if (teDeum != null) {
+    readingsOffice.tedeum = teDeum;
   }
 
   return readingsOffice;

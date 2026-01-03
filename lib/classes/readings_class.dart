@@ -8,6 +8,7 @@ class Readings {
   List<BiblicalReading>? biblicalReading;
   List<PatristicReading>? patristicalReading;
   bool? tedeum;
+  String? verse;
   List<String>? oration;
 
   Readings({
@@ -17,6 +18,7 @@ class Readings {
     this.biblicalReading,
     this.patristicalReading,
     this.tedeum,
+    this.verse,
     this.oration,
   });
 
@@ -88,6 +90,7 @@ class Readings {
       biblicalReading: biblicalReadingList,
       patristicalReading: patristicalReadingList,
       tedeum: json['tedeum'] as bool?,
+      verse: json['verse'] as String?,
       oration:
           json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
@@ -139,6 +142,9 @@ class Readings {
     if (overlay.tedeum != null) {
       tedeum = overlay.tedeum;
     }
+    if (overlay.verse != null) {
+      verse = overlay.verse;
+    }
     if (overlay.oration != null) {
       oration = overlay.oration;
     }
@@ -168,6 +174,7 @@ class Readings {
     if (biblicalReading != null && biblicalReading!.isNotEmpty) return false;
     if (patristicalReading != null && patristicalReading!.isNotEmpty) return false;
     if (tedeum != null) return false;
+    if (verse != null && verse!.isNotEmpty) return false;
     if (oration != null && oration!.isNotEmpty) return false;
     return true;
   }
@@ -191,6 +198,7 @@ class ReadingsDefinition {
       isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
   final String?
       celebrationDescription; // detailed description of the celebration from JSON
+  final bool teDeum; // true if Te Deum should be displayed (Sunday except Lent, or precedence < 6)
 
   ReadingsDefinition({
     required this.readingsDescription,
@@ -203,5 +211,6 @@ class ReadingsDefinition {
     required this.isCelebrable,
     required this.liturgicalColor,
     this.celebrationDescription,
+    required this.teDeum,
   });
 }

@@ -53,10 +53,11 @@ class Readings {
     }
 
     // Parse patristicalReading - can be a list or a single object
+    // Note: YAML files use 'patristicReading' (without 'al')
     List<PatristicReading>? patristicalReadingList;
-    if (json['patristicalReading'] != null) {
-      if (json['patristicalReading'] is List) {
-        patristicalReadingList = (json['patristicalReading'] as List)
+    if (json['patristicReading'] != null) {
+      if (json['patristicReading'] is List) {
+        patristicalReadingList = (json['patristicReading'] as List)
             .map((e) {
               final map = getMap(e);
               return map != null ? PatristicReading.fromJson(map) : null;
@@ -64,7 +65,7 @@ class Readings {
             .whereType<PatristicReading>()
             .toList();
       } else {
-        final map = getMap(json['patristicalReading']);
+        final map = getMap(json['patristicReading']);
         if (map != null) {
           patristicalReadingList = [PatristicReading.fromJson(map)];
         }

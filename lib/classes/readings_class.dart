@@ -8,6 +8,7 @@ class Readings {
   List<BiblicalReading>? biblicalReading;
   List<PatristicReading>? patristicalReading;
   bool? tedeum;
+  List<String>? oration;
 
   Readings({
     this.celebration,
@@ -16,6 +17,7 @@ class Readings {
     this.biblicalReading,
     this.patristicalReading,
     this.tedeum,
+    this.oration,
   });
 
   /// Creates Readings instance from JSON data
@@ -85,6 +87,8 @@ class Readings {
       biblicalReading: biblicalReadingList,
       patristicalReading: patristicalReadingList,
       tedeum: json['tedeum'] as bool?,
+      oration:
+          json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
   }
 
@@ -134,10 +138,13 @@ class Readings {
     if (overlay.tedeum != null) {
       tedeum = overlay.tedeum;
     }
+    if (overlay.oration != null) {
+      oration = overlay.oration;
+    }
   }
 
   /// Selective overlay for common when precedence > 6
-  /// Only overlays: biblicalReading, patristicalReading
+  /// Only overlays: biblicalReading, patristicalReading, oration
   /// Does NOT overlay: celebration, hymn, psalmody, tedeum
   void overlayWithCommon(Readings commonReadings) {
     if (commonReadings.biblicalReading != null) {
@@ -145,6 +152,9 @@ class Readings {
     }
     if (commonReadings.patristicalReading != null) {
       patristicalReading = commonReadings.patristicalReading;
+    }
+    if (commonReadings.oration != null) {
+      oration = commonReadings.oration;
     }
   }
 
@@ -157,6 +167,7 @@ class Readings {
     if (biblicalReading != null && biblicalReading!.isNotEmpty) return false;
     if (patristicalReading != null && patristicalReading!.isNotEmpty) return false;
     if (tedeum != null) return false;
+    if (oration != null && oration!.isNotEmpty) return false;
     return true;
   }
 }

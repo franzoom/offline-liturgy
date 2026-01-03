@@ -23,7 +23,14 @@ Future<Readings> readingsExtract(
   // Create Readings from data (from 'readings' section if exists, otherwise empty)
   Readings readings;
   if (data['readings'] != null) {
-    readings = Readings.fromJson(data['readings'] as Map<String, dynamic>);
+    final readingsData = data['readings'] as Map<String, dynamic>;
+    readings = Readings.fromJson(readingsData);
+
+    // If oration is not in readings section, check at root level
+    if ((readings.oration == null || readings.oration!.isEmpty) && data['oration'] != null) {
+      print('=== readingsExtract: oration found at root level, using it');
+      readings.oration = List<String>.from(data['oration']);
+    }
   } else {
     readings = Readings();
   }

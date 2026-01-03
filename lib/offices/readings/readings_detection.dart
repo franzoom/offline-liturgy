@@ -111,6 +111,30 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
       mapKey = celebrationName;
     }
 
+    // Determine if Te Deum should be displayed
+    // Te Deum is displayed when:
+    // - It's a Sunday (weekday == 7) AND not during Lent
+    // - OR it's a Feast or Solemnity (precedence < 6)
+    bool shouldDisplayTeDeum = false;
+    print('🔷 TE DEUM CHECK for $celebrationCode: precedence=$precedence, weekday=${date.weekday}, liturgicalTime=${dayContent.liturgicalTime}');
+    if (precedence < 6) {
+      // Feast or Solemnity
+      shouldDisplayTeDeum = true;
+      print('🔷 TE DEUM = true (precedence < 6)');
+    } else if (date.weekday == DateTime.sunday) {
+      // Sunday, but check if it's not Lent
+      final liturgicalTime = dayContent.liturgicalTime.toLowerCase();
+      print('🔷 Sunday detected, liturgicalTime lowercase = "$liturgicalTime"');
+      if (!liturgicalTime.contains('lent') && !liturgicalTime.contains('carême')) {
+        shouldDisplayTeDeum = true;
+        print('🔷 TE DEUM = true (Sunday not in Lent)');
+      } else {
+        print('🔷 TE DEUM = false (Sunday in Lent)');
+      }
+    } else {
+      print('🔷 TE DEUM = false (not Sunday, precedence >= 6)');
+    }
+
     possibleReadingss[mapKey] = ReadingsDefinition(
       readingsDescription: celebrationName,
       celebrationCode: celebrationCode,
@@ -122,6 +146,7 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
       liturgicalColor: celebrationLiturgicalColor,
       isCelebrable: isCelebrable,
       celebrationDescription: celebrationDescription,
+      teDeum: shouldDisplayTeDeum,
     );
   }
   print(

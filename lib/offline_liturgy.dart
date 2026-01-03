@@ -12,5 +12,8 @@ export 'offices/compline/compline.dart';
 export 'classes/morning_class.dart';
 export 'offices/morning/morning.dart';
 export 'offices/morning/morning_detection.dart';
+export 'classes/readings_class.dart';
+export 'offices/readings/readings.dart';
+export 'offices/readings/readings_detection.dart';
 export 'offices/compline/compline_detection.dart';
 export 'offices/compline/compline_display.dart';

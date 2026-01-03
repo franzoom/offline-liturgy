@@ -159,21 +159,21 @@ class HourOffice {
 }
 
 /// Biblical reading entry for Readings Office
-class BiblicalReadingEntry {
+class BiblicalReading {
   final String? title;
   final String? ref;
   final String? content;
   final String? responsory;
 
-  BiblicalReadingEntry({
+  BiblicalReading({
     this.title,
     this.ref,
     this.content,
     this.responsory,
   });
 
-  factory BiblicalReadingEntry.fromJson(Map<String, dynamic> json) {
-    return BiblicalReadingEntry(
+  factory BiblicalReading.fromJson(Map<String, dynamic> json) {
+    return BiblicalReading(
       title: json['title'] as String?,
       ref: json['ref'] as String?,
       content: json['content'] as String?,
@@ -183,21 +183,21 @@ class BiblicalReadingEntry {
 }
 
 /// Patristic reading entry for Readings Office
-class PatristicReadingEntry {
+class PatristicReading {
   final String? title;
   final String? subtitle;
   final String? content;
   final String? responsory;
 
-  PatristicReadingEntry({
+  PatristicReading({
     this.title,
     this.subtitle,
     this.content,
     this.responsory,
   });
 
-  factory PatristicReadingEntry.fromJson(Map<String, dynamic> json) {
-    return PatristicReadingEntry(
+  factory PatristicReading.fromJson(Map<String, dynamic> json) {
+    return PatristicReading(
       title: json['title'] as String?,
       subtitle: json['subtitle'] as String?,
       content: json['content'] as String?,

@@ -165,7 +165,7 @@ Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
     ferialMorning = await morningExtract(
-        '$ferialFilePath/PT_${weekNumber}_$dayNumber.yaml', dataLoader);
+        '$ferialFilePath/easter_${weekNumber}_$dayNumber.yaml', dataLoader);
     return ferialMorning;
   }
 

@@ -359,7 +359,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaloctave',
       defaultCelebrationTitle:
-          'PT_${(paschalTimeDays / 7).floor() + 1}_${paschalTimeDays % 7}',
+          'easter_${(paschalTimeDays / 7).floor() + 1}_${paschalTimeDays % 7}',
       precedence: 2,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
@@ -387,7 +387,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['ASCENSION']!)) {
     String weekNumber = '${(paschalTimeDays / 7).floor() + 1}';
     int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'PT_${weekNumber}_$dayOfWeek';
+    defaultCelebrationTitle = 'easter_${weekNumber}_$dayOfWeek';
     precedence = dayOfWeek == 0 ? 2 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
@@ -422,7 +422,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(generalCalendar['PENTECOST']!)) {
     String weekNumber = '${(paschalTimeDays / 7).floor() + 1}';
     int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'PT_${weekNumber}_$dayOfWeek';
+    defaultCelebrationTitle = 'easter_${weekNumber}_$dayOfWeek';
     precedence = dayOfWeek == 0 ? 2 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,

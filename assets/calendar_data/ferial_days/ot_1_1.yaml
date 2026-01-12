@@ -53,17 +53,18 @@ morning:
 readings:
   psalmody:
     -
-      psalm: PSALM_9A_1
+      psalm: PSALM_6
       antiphon:
-        - Sauve-moi, Seigneur, au nom de ton amour.
+        - Sauve-moi, Seigneur, au nom de ton amour.  
     -
-      psalm: PSALM_9A_2
+      psalm: PSALM_9A_1
       antiphon:
         - Dieu, refuge des pauvres au temps de la détresse.
     -
-      psalm: PSALM_6
+      psalm: PSALM_9A_2
       antiphon:
         - Je proclamerai ta louange aux portes de Sion.
+
   biblicalReading:
     -
       title: La plénitude de la sagesse, c’est la crainte de Dieu
@@ -83,8 +84,9 @@ readings:
     -
       title: LETTRE DE SAINT CLÉMENT DE ROME AUX CORINTHIENS
       subtitle: Prière universelle
-      content: "Prions et supplions sans relâche : Que le Créateur de l’univers garde au complet le nombre déterminé de ses élus, dans le monde entier, par son enfant bien-aimé, Jésus Christ. Par lui, il nous a appelés des ténèbres à la lumière, de l’ignorance à la connaissance de son nom glorieux. Par lui nous pouvons espérer en ton Nom, principe de toute créature, toi qui as ouvert les yeux de notre cœur pour que nous puissions te connaître,"
-      responsory: |
+      content: |
+        Prions et supplions sans relâche : Que le Créateur de l’univers garde au complet le nombre déterminé de ses élus, dans le monde entier, par son enfant bien-aimé, Jésus Christ. Par lui, il nous a appelés des ténèbres à la lumière, de l’ignorance à la connaissance de son nom glorieux. Par lui nous pouvons espérer en ton Nom, principe de toute créature, toi qui as ouvert les yeux de notre cœur pour que nous puissions te connaître,
+
         toi l’unique Très-Haut dans les cieux très-hauts,
         Saint qui reposes parmi les saints,
         qui abaisses la fierté des orgueilleux,
@@ -131,7 +133,7 @@ readings:
         Donne la concorde et la paix à nous et à tous les habitants de la terre, comme tu les as données à nos pères lorsqu’ils t’invoquaient saintement dans la paix et la vérité. ~
         
         Toi seul peux faire tout cela, et davantage encore envers nous. Nous te rendons grâce par le grand prêtre et le protecteur de nos âmes, Jésus Christ. Par lui, gloire et puissance à toi, maintenant, d’âge en âge, et pour les siècles des siècles. Amen.
-        
+      responsory: |
         R/ Ô abîme de la richesse
         et de la sagesse de Dieu :
         tout est de lui, par lui et pour lui.

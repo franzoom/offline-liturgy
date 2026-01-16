@@ -11,11 +11,10 @@ Map<String, FeastDates> lyonFeastsList = {
       FeastDates(month: 2, day: 3, precedence: 12),
   'jean_pierre_neel_priest_lyon': FeastDates(month: 2, day: 19, precedence: 12),
   'polycarp_of_smyrna_bishop_lyon':
-      FeastDates(month: 2, day: 23, precedence: 112),
+      FeastDates(month: 2, day: 23, precedence: 11),
   'baldomerus_of_lyon_religious_lyon':
       FeastDates(month: 2, day: 27, precedence: 12),
   'nicetius_of_lyon_bishop_lyon': FeastDates(month: 4, day: 2, precedence: 12),
-  'francis_of_paola_hermit_lyon': FeastDates(month: 4, day: 2, precedence: 12),
   'epipodius_of_lyon_and_alexander_of_lyon_martyrs_lyon':
       FeastDates(month: 4, day: 22, precedence: 12),
   'peter_chanel_priest_lyon': FeastDates(month: 4, day: 28, precedence: 12),
@@ -23,26 +22,20 @@ Map<String, FeastDates> lyonFeastsList = {
       FeastDates(month: 5, day: 4, precedence: 11),
   'pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs_lyon':
       FeastDates(month: 6, day: 2, precedence: 4),
+  'clotilda_queen_of_the_franks': FeastDates(month: 6, day: 4, precedence: 12),
   'marcellin_champagnat_priest_lyon':
       FeastDates(month: 6, day: 6, precedence: 12),
   'john_francis_regis_priest_lyon':
       FeastDates(month: 6, day: 16, precedence: 12),
   'innocent_v_pope_lyon': FeastDates(month: 6, day: 22, precedence: 12),
-  'john_fisher_bishop_and_thomas_more_martyrs_lyon':
-      FeastDates(month: 6, day: 22, precedence: 12),
-  'paulinus_of_nola_bishop_lyon': FeastDates(month: 6, day: 22, precedence: 12),
   'irenaeus_of_lyon_bishop_lyon': FeastDates(month: 6, day: 28, precedence: 4),
-  'bonaventure_of_bagnoregio_bishop_lyon':
-      FeastDates(month: 7, day: 15, precedence: 11),
-  'eusebius_of_vercelli_bishop_lyon':
-      FeastDates(month: 8, day: 2, precedence: 12),
   'peter_julian_eymard_priest_lyon':
       FeastDates(month: 8, day: 2, precedence: 12),
-  'john_mary_vianney_priest_lyon': FeastDates(month: 8, day: 2, precedence: 8),
+  'john_mary_vianney_priest': FeastDates(month: 8, day: 2, precedence: 8),
   'jacques_jules_bonnaud_priest_and_companions_martyrs_lyon':
       FeastDates(month: 9, day: 1, precedence: 11),
   'justus_of_lyon_bishop_lyon': FeastDates(month: 9, day: 2, precedence: 12),
-  'frederic_ozanam_founder_lyon': FeastDates(month: 9, day: 9, precedence: 12),
+  'frederic_ozanam_lyon': FeastDates(month: 9, day: 9, precedence: 12),
   'peter_claver_priest_lyon': FeastDates(month: 9, day: 9, precedence: 12),
   'maurice_of_agaunum_and_companions_martyrs_lyon':
       FeastDates(month: 9, day: 22, precedence: 12),

@@ -77,7 +77,7 @@ morning:
     content: |
       Avec les martyrs qui ont donné leur vie pour la Parole de Dieu, louons notre Sauveur, le témoin fidèle :
       
-      R/Nous t’acclamons, Seigneur de gloire !
+      R/ Nous t’acclamons, Seigneur de gloire !
       
       Par les martyrs qui ont accepté de mourir pour témoigner de la foi,
       — donne-nous l’esprit de liberté.
@@ -93,6 +93,19 @@ morning:
 readings:
   hymn:
     - bienheureux-le-pauvre
+  psalmody:
+    -
+      psalm: PSALM_2
+      antiphon:
+        - Au vainqueur, fidèle à mon service jusqu’au bout, je donnerai pouvoir sur les nations.
+    -
+      psalm: PSALM_32_1
+      antiphon:
+        - Lorsque je suis faible, c’est alors que je suis fort.
+    -
+      psalm: NT_32_2
+      antiphon:
+        - "Heureux les affamés et les assoiffés de justice : ils seront rassasiés."
   biblicalReading:
     -
       title: Rien ne pourra nous séparer de l’amour du Christ
@@ -134,14 +147,14 @@ readings:
       content: "Je vous envoie mon salut, frères très chers, et je souhaiterais aussi de jouir personnellement de votre présence, si ma situation me permettait d’aller vous rejoindre. Que pourrait-il, en effet, m’arriver de plus souhaitable et de plus agréable que d’être parmi vous et entre vos bras, serré par ces mains pures et innocentes qui ont gardé leur foi au Seigneur en rejetant un culte sacrilège ? Qu’y aurait-il de plus joyeux et de plus noble, que de baiser ces lèvres qui ont glorieusement confessé le Seigneur, que d’être regardé présentement par vos yeux qui, en se détournant du monde, ont été dignes de voir Dieu ? Mais, puisque ce bonheur n’est pas réalisable, je vous envoie cette lettre qui me remplacera à vos oreilles et à vos yeux. Elle me permet de vous féliciter et en même temps de vous exhorter : demeurez courageux et constants pour confesser la gloire céleste ; puisque vous êtes entrés inspiré pour recevoir la couronne ; le Seigneur est votre guide et votre protecteur, lui qui a dit : *Voici que je suis avec vous tous les jours jusqu’à la fin des temps.* Heureuse prison, que votre présence a illuminée ! Heureuse prison qui envoie vers le ciel les hommes de Dieu ! Ténèbres plus brillantes que le soleil lui-même, plus éclatantes que ce flambeau du monde, prison où sont établis les temples de Dieu, où vos membres ont été consacrés par la confession de son nom ! Que plus rien ne se trouve maintenant dans vos cœurs et vos âmes, que les divins enseignements et les commandements du Seigneur dont le Saint-Esprit s’est servi pour vous encourager à supporter la souffrance. Que personne ne pense à la mort, mais à l’immortalité ; ni à la souffrance temporaire, mais à la gloire éternelle, puisqu’il est écrit : *La mort des justes est précieuse devant Dieu.* Et encore : *Le sacrifice qui plaît à Dieu, c’est un esprit brisé ; Dieu ne méprise pas le cœur brisé et abattu.* Et encore (à l’endroit où la Sainte Écriture parle des supplices qui consacrent les martyrs de Dieu et les sanctifient par l’épreuve même de leur souffrance) : *Aux yeux des hommes, ils subissaient un châtiment, mais par leur espérance ils avaient déjà l’immortalité. ~ Ils seront les juges des nations et les maîtres des peuples et le Seigneur régnera sur eux pour toujours.* Quand donc vous songez que vous jugerez et régnerez avec le Christ, il vous est impossible de ne pas tressaillir d’allégresse, de ne pas fouler aux pieds les supplices présents dans la joie du bonheur futur. Car vous savez que c’est ainsi réglé depuis le commencement du monde : la justice doit souffrir ici-bas, dans son conflit avec le siècle puisque, dès l’origine, le juste Abel est mis à mort et ensuite tous les justes, les prophètes et les apôtres envoyés par Dieu. À tous ceux-là, en outre, le Seigneur s’est donné en exemple, car il enseigne qu’on ne peut parvenir à son royaume qu’en le suivant par le même chemin qu’il a pris : *S’aimer soi-même en ce monde, c’est se perdre ; se haïr en ce monde, c’est se garder pour la vie éternelle. *Et encore : *Ne craignez pas ceux qui tuent le corps, mais ne peuvent pas tuer l’âme : craignez plutôt celui qui peut faire périr dans la géhenne l’âme aussi bien que le corps.* Saint Paul nous exhorte de même ; puisque nous désirons parvenir à ce que le Seigneur nous a promis, nous devons imiter le Seigneur en tout : *Nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers avec le Christ, à condition de souffrir avec lui pour être avec lui dans la gloire.*"
       responsory: |
         Si nous mourons avec lui
-           avec lui nous vivrons;
+        >avec lui nous vivrons;
         Si nous souffrons avec lui,
-           avec lui nous régnerons.
+        >avec lui nous régnerons.
         
         En lui sont nos peines,
-           en lui sont nos joies,
+        >en lui sont nos joies,
         en lui l’espérance,
-           en lui notre amour.
+        >en lui notre amour.
   verse: |
     V/ Notre âme attend le Seigneur,
     notre force et notre bouclier, c’est lui.

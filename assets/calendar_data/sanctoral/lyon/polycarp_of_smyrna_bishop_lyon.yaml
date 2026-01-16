@@ -6,6 +6,7 @@ celebration:
   commons:
     - martyrs
     - pastors_bishop
+  color: red
   location: lyon
 readings:
   patristicReading:
@@ -35,7 +36,13 @@ readings:
         ne connaîtra pas la seconde mort. 
 
         Espère en Dieu, prends cœur et prends courage, 
-        espère en Dieu ! 
+        espère en Dieu !
+morning:
+  evangelicAntiphon:
+    common: Depuis si longtemps que je sers le Christ, il ne m’a fait aucun mal. Comment pourrais-je blasphémer mon Sauveur et mon Roi ?
+vespers:
+  evangelicAntiphon:
+    common: Je te bénis, Seigneur, toi qui me donnes part à la coupe du Christ.
 oration:
   - Seigneur, tu as donné à saint Polycarpe une profonde connaissance de ta vérité, par l’intermédiaire du disciple que Jésus aimait; accorde-nous, par leur intercession, de rester fidèles à la foi qu’il a enseignée et d’y conformer toujours mieux notre vie. 
 mass:

@@ -1,25 +1,29 @@
-/*30 novembre
+details: (Si le 30 novembre est le premier dimanche de l’Avent, la solennité est anticipée au samedi 29, mais la fête est omise cette année-là.)
 
-Saint André, apôtre, titulaire de l’Église métropolitaine et patron principal du diocèse
+celebration: 
+    title: Saint André,
+    subtitle: "apôtre, titulaire de l’Église métropolitaine et patron principal du diocèse. À Bordeaux et là où il est patron du lieu ou titulaire, SOLENNITÉ. Ailleurs, FÊTE"
+    commons: 
+      - apostles
+    color: red
+    location: bordeaux
 
-À Bordeaux et là où il est patron du lieu ou titulaire, SOLENNITÉ. Ailleurs, FÊTE.
-
-(Si le 30 novembre est le premier dimanche de l’Avent, la solennité est anticipée au samedi 29, mais la fête est omise cette année-là.)
-
-Tout comme dans la Liturgie des Heures, sauf ce qui suit*/
-
-{
-  "celebration": {
-    "title": "Saint André",
-    "subtitle": "apôtre, titulaire de l’Église métropolitaine et patron principal du diocèse. À Bordeaux et là où il est patron du lieu ou titulaire, SOLENNITÉ. Ailleurs, FÊTE",
-    "commons": [
-      "apostles"
-    ],
-    "color": "red"
-  },
-  "firstVespers": {
-    "psalmody": [
-      {
+firstVespers: 
+  psalmody: 
+    -
+      psalm: PSALM_116
+      antiphon:
+        - Parmi ses disciples, Jésus en choisit douze, et leur donna le nom d’Apôtres.
+    -
+      psalm: PSALM_147
+      antiphon:
+        - Le rempart de la ville repose sur le fondement des douze Apôtres de l’Agneau.
+    -
+      psalm: NT_4
+      antiphon:
+        - Par vous, Apôtres du Seigneur, le peuple de Dieu est rassemblé pour la louange de sa gloire.
+  psalmody:
+      -
         //Comme aux premières vêpres du Commun des apôtres "psalm": "PSALM_",
         /*Comme aux deuxièmes vêpres "antiphon": [
           ""

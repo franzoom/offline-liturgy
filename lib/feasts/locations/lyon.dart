@@ -41,13 +41,7 @@ Map<String, FeastDates> lyonFeastsList = {
       FeastDates(month: 9, day: 22, precedence: 12),
   'therese_marie_victoire_couderc_virgin_lyon':
       FeastDates(month: 9, day: 26, precedence: 12),
-  'cosmas_of_cilicia_and_damian_of_cilicia_martyrs_lyon':
-      FeastDates(month: 9, day: 26, precedence: 12),
   'annemund_of_lyon_bishop_lyon': FeastDates(month: 9, day: 28, precedence: 12),
-  'lawrence_ruiz_and_companions_martyrs_lyon':
-      FeastDates(month: 9, day: 28, precedence: 12),
-  'wenceslaus_i_of_bohemia_martyr_lyon':
-      FeastDates(month: 9, day: 28, precedence: 12),
   'anthony_chevrier_priest_lyon': FeastDates(month: 10, day: 3, precedence: 11),
   'dismas_the_good_thief_lyon': FeastDates(month: 10, day: 12, precedence: 12),
   'viator_of_lyon_lyon': FeastDates(month: 10, day: 21, precedence: 12),

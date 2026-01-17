@@ -35,7 +35,14 @@
             {
               "id": "lyon",
               "name_en": "Lyon",
-              "name_fr": "Lyon"
+              "name_fr": "Lyon",
+              "churches": [
+                {
+                "id": "lyon_primatiale",
+                "name_en": "Primatiale",
+                "name_fr": "Primatiale"
+                }
+              ]
             },
             {
               "id": "paris",

@@ -83,7 +83,7 @@ class Calendar {
     dayContent.feastList[precedence]!.add(newFeastName);
   }
 
-/*
+/* LEGACY FUNCTION TO ADD NEW FEAST
   void addItemToDay(DateTime date, int precedence, String feastName) {
     final dayContent = calendarData[date];
     if (dayContent == null) return;
@@ -118,26 +118,29 @@ class Calendar {
 */
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
       int liturgicalYear, Map<String, DateTime> generalCalendar) {
-    DateTime beginOfLiturgicalYear = generalCalendar['ADVENT']!;
-    DateTime endOfLiturgicalYear =
-        generalCalendar['CHRIST_KING']!.add(Duration(days: 6));
-    int yearToRecord = liturgicalYear;
+    final beginOfLiturgicalYear = generalCalendar['ADVENT']!;
+    final endOfLiturgicalYear =
+        generalCalendar['CHRIST_KING']!.add(const Duration(days: 6));
+    final previousYear = liturgicalYear - 1;
 
-    feastList.forEach((precedence, feastTitle) {
-      final int month = feastTitle.month;
-      final int day = feastTitle.day;
+    for (final entry in feastList.entries) {
+      final feastName = entry.key;
+      final feastData = entry.value;
 
-      yearToRecord =
-          DateTime(liturgicalYear, month, day).isAfter(endOfLiturgicalYear)
-              ? liturgicalYear - 1
-              : liturgicalYear;
+      // Try current liturgical year first
+      var feastDate = DateTime(liturgicalYear, feastData.month, feastData.day);
 
-      DateTime feastDate = DateTime(yearToRecord, month, day);
-      if (feastDate.isAfter(beginOfLiturgicalYear) &&
-          feastDate.isBefore(endOfLiturgicalYear)) {
-        addItemToDay(feastDate, feastTitle.precedence, precedence);
+      // If after end of liturgical year, use previous calendar year
+      if (feastDate.isAfter(endOfLiturgicalYear)) {
+        feastDate = DateTime(previousYear, feastData.month, feastData.day);
       }
-    });
+
+      // Check if within liturgical year bounds (inclusive on start)
+      if (!feastDate.isBefore(beginOfLiturgicalYear) &&
+          feastDate.isBefore(endOfLiturgicalYear)) {
+        addItemToDay(feastDate, feastData.precedence, feastName);
+      }
+    }
   }
 
   /// Adds a date related to another one: for example

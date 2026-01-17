@@ -1,5 +1,4 @@
-import '../../classes/feasts_class.dart';
-import '../../classes/calendar_class.dart'; // cette classe définit calendar
+import '../../classes/calendar_class.dart';
 import 'europe.dart';
 
 Map<String, FeastDates> belgiumFeastsList = {

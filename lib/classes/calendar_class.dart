@@ -31,14 +31,67 @@ class Calendar {
     return calendarData[date];
   }
 
-  void addItemToDay(DateTime date, int precedence, String item) {
+  void addItemToDay(DateTime date, int precedence, String newFeastName) {
+    final dayContent = calendarData[date];
+    if (dayContent == null) return;
+
+    // Search for existing item - keep track of index to avoid second lookup
+    int? existingPrecedence;
+    int? existingIndex;
+    String? existingFeastName;
+
+    outer:
+    for (var entry in dayContent.feastList.entries) {
+      final list = entry.value;
+      for (int i = 0; i < list.length; i++) {
+        if (newFeastName.contains(list[i])) {
+          existingPrecedence = entry.key;
+          existingIndex = i;
+          existingFeastName = list[i];
+          break outer;
+        }
+      }
+    }
+
+    // No existing match found - simply add
+    if (existingFeastName == null) {
+      dayContent.feastList.putIfAbsent(precedence, () => []);
+      dayContent.feastList[precedence]!.add(newFeastName);
+      return;
+    }
+
+    // Exact match at same precedence - nothing to do
+    if (existingPrecedence == precedence && existingFeastName == newFeastName) {
+      return;
+    }
+
+    // Same precedence but enriched name - replace in place
+    // e.g. "saint_casimir" -> "lyon_saint_casimir"
+    if (existingPrecedence == precedence) {
+      dayContent.feastList[precedence]![existingIndex!] = newFeastName;
+      return;
+    }
+
+    // Different precedence - remove from old, add to new
+    final oldList = dayContent.feastList[existingPrecedence]!;
+    oldList.removeAt(existingIndex!);
+    if (oldList.isEmpty) {
+      dayContent.feastList.remove(existingPrecedence);
+    }
+
+    dayContent.feastList.putIfAbsent(precedence, () => []);
+    dayContent.feastList[precedence]!.add(newFeastName);
+  }
+
+/*
+  void addItemToDay(DateTime date, int precedence, String feastName) {
     final dayContent = calendarData[date];
     if (dayContent == null) return;
 
     // Search for existing item and remove it in a single pass
     int? existingPrecedence;
     for (var entry in dayContent.feastList.entries.toList()) {
-      if (entry.value.remove(item)) {
+      if (entry.value.remove(feastName)) {
         existingPrecedence = entry.key;
         // Remove the precedence key if list is now empty
         if (entry.value.isEmpty) {
@@ -52,17 +105,17 @@ class Calendar {
     if (existingPrecedence == precedence) {
       // Re-add it since we removed it above
       dayContent.feastList.putIfAbsent(precedence, () => []);
-      dayContent.feastList[precedence]!.add(item);
+      dayContent.feastList[precedence]!.add(feastName);
       return;
     }
 
     // Add the item to the new precedence
     dayContent.feastList.putIfAbsent(precedence, () => []);
-    if (!dayContent.feastList[precedence]!.contains(item)) {
-      dayContent.feastList[precedence]!.add(item);
+    if (!dayContent.feastList[precedence]!.contains(feastName)) {
+      dayContent.feastList[precedence]!.add(feastName);
     }
   }
-
+*/
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
       int liturgicalYear, Map<String, DateTime> generalCalendar) {
     DateTime beginOfLiturgicalYear = generalCalendar['ADVENT']!;

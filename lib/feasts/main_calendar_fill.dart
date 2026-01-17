@@ -3,6 +3,7 @@ import 'common_calendar_definitions.dart'; //computation of the dates of the var
 import '../tools/date_tools.dart';
 import 'common_feasts.dart'; // feast list for the universal Church
 import 'locations/lyon.dart';
+import 'locations/bordeaux.dart';
 import 'locations/paris.dart';
 import 'locations/france.dart';
 import 'locations/belgium.dart';
@@ -534,6 +535,11 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   switch (location) {
     case 'lyon':
       calendar = addLyonFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'lyon_primatiale':
+      calendar =
+          addLyonPrimatialeFeasts(calendar, liturgicalYear, generalCalendar);
+    case 'bordeaux':
+      calendar = addBordeauxFeasts(calendar, liturgicalYear, generalCalendar);
     case 'paris':
       calendar = addParisFeasts(calendar, liturgicalYear, generalCalendar);
     case 'france':

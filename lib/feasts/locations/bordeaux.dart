@@ -1,5 +1,4 @@
-import '../../classes/feasts_class.dart';
-import '../../classes/calendar_class.dart'; // cette classe définit calendar
+import '../../classes/calendar_class.dart';
 import 'france.dart';
 
 //fêtes du calendrier général
@@ -46,14 +45,12 @@ Map<String, FeastDates> bordeauxFeastsList = {
 
 Calendar addBordeauxFeasts(
     Calendar calendar, int liturgicalYear, generalCalendar) {
-  // ajouter les fêtes de la France:
+  // add feasts fo France:
   addFranceFeasts(calendar, liturgicalYear, generalCalendar);
 
-  // puis ajouter les fêtes propres à Bordeaux:
+  // add proper feasts of Bordeaux:
   calendar.addFeastsToCalendar(
       bordeauxFeastsList, liturgicalYear, generalCalendar);
-
-  // enfin ajouter les fêtes qui dépendent d'une fête mobile
 
   return calendar;
 }

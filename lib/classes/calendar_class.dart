@@ -63,8 +63,8 @@ class Calendar {
     }
   }
 
-  void addFeastsToCalendar(Map<String, dynamic> feastList, int liturgicalYear,
-      Map<String, DateTime> generalCalendar) {
+  void addFeastsToCalendar(Map<String, FeastDates> feastList,
+      int liturgicalYear, Map<String, DateTime> generalCalendar) {
     DateTime beginOfLiturgicalYear = generalCalendar['ADVENT']!;
     DateTime endOfLiturgicalYear =
         generalCalendar['CHRIST_KING']!.add(Duration(days: 6));
@@ -263,4 +263,14 @@ extension CalendarDisplay on Calendar {
   }
 
   String _pad(int number) => number.toString().padLeft(2, '0');
+}
+
+/// class used to transmit informations to calendar events recording
+class FeastDates {
+  final int month;
+  final int day;
+  final int precedence;
+
+  FeastDates(
+      {required this.month, required this.day, required this.precedence});
 }

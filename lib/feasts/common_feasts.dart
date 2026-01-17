@@ -1,4 +1,4 @@
-import '../classes/feasts_class.dart';
+import '../../classes/calendar_class.dart';
 //fêtes du calendrier général
 
 Map<String, FeastDates> commonFeastsList = {

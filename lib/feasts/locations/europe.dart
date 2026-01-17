@@ -1,4 +1,3 @@
-import '../../classes/feasts_class.dart';
 import '../../classes/calendar_class.dart';
 
 Map<String, FeastDates> europeFeastsList = {

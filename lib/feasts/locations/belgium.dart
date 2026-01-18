@@ -6,12 +6,12 @@ Map<String, FeastDates> belgiumFeastsList = {
 };
 
 Calendar addBelgiumFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // ajouter d'abord les fêtes de l'Europe:
-  addEuropeFeasts(calendar, liturgicalYear, generalCalendar);
+  addEuropeFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
   //puis ajouter les fêtes propres à la France:
   calendar.addFeastsToCalendar(
-      belgiumFeastsList, liturgicalYear, generalCalendar);
+      belgiumFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }

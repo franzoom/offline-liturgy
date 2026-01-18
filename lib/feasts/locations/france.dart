@@ -22,12 +22,12 @@ Map<String, FeastDates> franceFeastsList = {
 };
 
 Calendar addFranceFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // ajouter d'abord les fêtes de l'Europe:
-  addEuropeFeasts(calendar, liturgicalYear, generalCalendar);
+  addEuropeFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
   //puis ajouter les fêtes propres à la France:
   calendar.addFeastsToCalendar(
-      franceFeastsList, liturgicalYear, generalCalendar);
+      franceFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }

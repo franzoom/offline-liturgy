@@ -9,13 +9,13 @@ Map<String, FeastDates> parisFeastsList = {
 };
 
 Calendar addParisFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // ajouter les fêtes de la France:
-  addFranceFeasts(calendar, liturgicalYear, generalCalendar);
+  addFranceFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
 
   // puis ajouter les fêtes propres à Paris:
   calendar.addFeastsToCalendar(
-      parisFeastsList, liturgicalYear, generalCalendar);
+      parisFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }

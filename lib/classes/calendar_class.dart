@@ -119,10 +119,10 @@ class Calendar {
   }
 */
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
-      int liturgicalYear, Map<String, DateTime> generalCalendar) {
-    final beginOfLiturgicalYear = generalCalendar['ADVENT']!;
+      int liturgicalYear, Map<String, DateTime> liturgicalMainFeasts) {
+    final beginOfLiturgicalYear = liturgicalMainFeasts['ADVENT']!;
     final endOfLiturgicalYear =
-        generalCalendar['CHRIST_KING']!.add(const Duration(days: 6));
+        liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
     final previousYear = liturgicalYear - 1;
 
     for (final entry in feastList.entries) {

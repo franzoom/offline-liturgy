@@ -55,18 +55,20 @@ Map<String, FeastDates> lyonFeastsList = {
       FeastDates(month: 11, day: 16, precedence: 12),
 };
 
-Calendar addLyonFeasts(Calendar calendar, int liturgicalYear, generalCalendar) {
+Calendar addLyonFeasts(
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // ajouter les fêtes de la France:
-  addFranceFeasts(calendar, liturgicalYear, generalCalendar);
+  addFranceFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
 
   // puis ajouter les fêtes propres à Lyon:
-  calendar.addFeastsToCalendar(lyonFeastsList, liturgicalYear, generalCalendar);
+  calendar.addFeastsToCalendar(
+      lyonFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   // enfin ajouter les fêtes qui dépendent d'une fête mobile
 
   // ND de Fourvière le samedi après le 2ème dimanche de Pâques
   calendar.addItemRelatedToFeast(
-      generalCalendar['EASTER'], 13, 4, 'lyon_our_lady_of_fourviere');
+      liturgicalMainFeasts['EASTER'], 13, 4, 'lyon_our_lady_of_fourviere');
 
   return calendar;
 }
@@ -77,13 +79,13 @@ Map<String, FeastDates> lyonPrimatialeFeastsList = {
 };
 
 Calendar addLyonPrimatialeFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // add feast of France and Lyon
-  addLyonFeasts(calendar, liturgicalYear, generalCalendar);
+  addLyonFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
 
   // then add feast of Primatiale of Lyon
   calendar.addFeastsToCalendar(
-      lyonPrimatialeFeastsList, liturgicalYear, generalCalendar);
+      lyonPrimatialeFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }

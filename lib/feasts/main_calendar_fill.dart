@@ -9,6 +9,9 @@ Calendar getCalendar(Calendar calendar, DateTime eventDate, String location) {
   calendar = calendarFill(calendar, eventDate, location);
   calendar = calendarFill(calendar,
       DateTime(eventDate.year + 1, eventDate.month, eventDate.day), location);
+
+  // Downgrade obligatory memorials to optional during privileged times
+  calendar.downgradeMemorialsDuringPrivilegedTimes();
   return calendar;
 }
 

@@ -1,7 +1,4 @@
 import '../classes/calendar_class.dart'; // calendar definition class
-import 'common_calendar_definitions.dart'; //computation of the dates of the variables feasts
-import '../tools/date_tools.dart';
-import 'common_feasts.dart'; // feast list for the universal Church
 import 'locations/lyon.dart';
 import 'locations/bordeaux.dart';
 import 'locations/paris.dart';

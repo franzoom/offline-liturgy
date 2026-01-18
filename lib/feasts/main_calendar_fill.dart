@@ -4,32 +4,28 @@ import '../tools/date_tools.dart';
 import 'common_feasts.dart'; // feast list for the universal Church
 import './local_calendar_fill.dart';
 
+/// calculate 2 years of calendar to avoid border problems (around first sunday of Advent)
 Calendar getCalendar(Calendar calendar, DateTime eventDate, String location) {
-  // calculating 2 years of calendar to avoid border problems (around first sundy of Advent)
   calendar = calendarFill(calendar, eventDate, location);
-  Calendar calendarNextYear = calendarFill(calendar,
+  calendar = calendarFill(calendar,
       DateTime(eventDate.year + 1, eventDate.month, eventDate.day), location);
-  calendar.calendarData.addAll(calendarNextYear.calendarData);
   return calendar;
 }
 
+/// function used to fill the main elements of the liturgical calendar.
+/// fixes all the movable dates and feast of the Universal Church.
+/// it returns a Calendar object with all the days filled.
 Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
-  // function used to fill the main elements of the liturgical calendar.
-  // fixes all the movable dates and feast of the Universal Church.
-  // it returns a Calendar object with all the days filled.
-
-  //detection of the liturgical year concerned.
+  //detection of the liturgical year
   int liturgicalYear = eventDate.year;
   DateTime adventDate = advent(liturgicalYear + 1);
   if (adventDate.isBefore(eventDate) ||
       adventDate.isAtSameMomentAs(eventDate)) {
     liturgicalYear++;
   }
-  print('generating Calendar for liturgical year $liturgicalYear');
 
   Map<String, DateTime> liturgicalMainFeasts =
       createLiturgicalDays(liturgicalYear);
-
   String defaultCelebrationTitle = "";
   int precedence = 0;
   // add the Avdent Days till Nativity day

@@ -181,6 +181,37 @@ class Calendar {
     addItemToDay(newDate, itemPrecedence, feastName);
   }
 
+  /// Downgrades obligatory memorials (precedence 10/11) to optional (12)
+  /// during privileged liturgical times where memorials are not celebrated.
+  void downgradeMemorialsDuringPrivilegedTimes() {
+    const privilegedTimes = {
+      'advent',
+      'lent',
+      'christmasoctave',
+      'paschaloctave'
+    };
+
+    for (final dayContent in calendarData.values) {
+      if (!privilegedTimes.contains(dayContent.liturgicalTime)) continue;
+
+      // Check for precedences 10 and 11 and move them to 12
+      for (final precedence in [10, 11]) {
+        final feasts = dayContent.feastList[precedence];
+        if (feasts == null || feasts.isEmpty) continue;
+
+        // Add to precedence 12
+        dayContent.feastList.putIfAbsent(12, () => []);
+        dayContent.feastList[12]!.addAll(feasts);
+
+        // Remove from original precedence
+        dayContent.feastList.remove(precedence);
+      }
+    }
+  }
+
+  /// function that returns the list of Feasts for the day
+  /// sorted by priority.
+  /// !!! Ordinary Time must be displayed before facultative memorials
   List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
     final dayContent = calendarData[date];
     if (dayContent == null) return [];
@@ -223,15 +254,6 @@ class Calendar {
       feastCelebrations.removeWhere((item) => item.key > 9);
     }
 
-    // Adjust precedences 10/11 to 12 during Lent (memorials become optional)
-    if (dayContent.liturgicalTime == "LentFeriale") {
-      for (int i = 0; i < feastCelebrations.length; i++) {
-        final key = feastCelebrations[i].key;
-        if (key == 10 || key == 11) {
-          feastCelebrations[i] = MapEntry(12, feastCelebrations[i].value);
-        }
-      }
-    }
     feastCelebrations.sort((a, b) => a.key.compareTo(b.key));
     return feastCelebrations;
   }

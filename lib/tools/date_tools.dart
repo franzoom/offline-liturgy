@@ -17,7 +17,7 @@ bool isFerialDay(String celebrationCode) {
     return false;
   }
 
-  final prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
+  const prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
   return prefixes.any((prefix) => celebrationCode.startsWith(prefix));
 }
 

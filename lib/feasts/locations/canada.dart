@@ -8,12 +8,12 @@ Map<String, FeastDates> canadaFeastsList = {
 };
 
 Calendar addCanadaFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // firstable add North-America feasts
-  // addNorthAmericaFeasts(calendar, liturgicalYear, generalCalendar);
+  // addNorthAmericaFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
   // then add Canadas feasts
   calendar.addFeastsToCalendar(
-      canadaFeastsList, liturgicalYear, generalCalendar);
+      canadaFeastsList, liturgicalYear, liturgicalMainFeasts);
   calendar.moveItemByDays(
       'raymond_of_penyafort_priest', 1); // shifting the feast as required
   return calendar;

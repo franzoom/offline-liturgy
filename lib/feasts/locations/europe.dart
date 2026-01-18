@@ -14,9 +14,9 @@ Map<String, FeastDates> europeFeastsList = {
 };
 
 Calendar addEuropeFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   calendar.addFeastsToCalendar(
-      europeFeastsList, liturgicalYear, generalCalendar);
+      europeFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }

@@ -44,13 +44,13 @@ Map<String, FeastDates> bordeauxFeastsList = {
 };
 
 Calendar addBordeauxFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // add feasts fo France:
-  addFranceFeasts(calendar, liturgicalYear, generalCalendar);
+  addFranceFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
 
   // add proper feasts of Bordeaux:
   calendar.addFeastsToCalendar(
-      bordeauxFeastsList, liturgicalYear, generalCalendar);
+      bordeauxFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }
@@ -60,13 +60,13 @@ Map<String, FeastDates> bordeauxCathedralFeastsList = {
 };
 
 Calendar addBordeauxCathedralFeasts(
-    Calendar calendar, int liturgicalYear, generalCalendar) {
+    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
   // add feasts of France and Bordeaux:
-  addBordeauxFeasts(calendar, liturgicalYear, generalCalendar);
+  addBordeauxFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
 
   // add proper feasts of Cathedral of Bordeaux:
   calendar.addFeastsToCalendar(
-      bordeauxCathedralFeastsList, liturgicalYear, generalCalendar);
+      bordeauxCathedralFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   return calendar;
 }

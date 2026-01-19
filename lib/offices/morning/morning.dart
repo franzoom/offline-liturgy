@@ -14,8 +14,7 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
   Morning properMorning = Morning();
 
   // firstable catches the ferial data if exists (if not feast or solemnity)
-  if (celebrationContext.ferialCode != null &&
-      celebrationContext.ferialCode!.trim().isNotEmpty) {
+  if (celebrationContext.ferialCode?.trim().isNotEmpty ?? false) {
     morningOffice = await ferialMorningResolution(celebrationContext);
   }
 
@@ -39,8 +38,7 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
       celebrationContext.precedence! > 6) {
     // Layer 1: Ferial (already in morningOffice)
     // Layer 2: Common if provided (selective overlay - only fills gaps)
-    if (celebrationContext.common != null &&
-        celebrationContext.common!.trim().isNotEmpty) {
+    if (celebrationContext.common?.trim().isNotEmpty ?? false) {
       Morning commonMorning = await loadMorningHierarchicalCommon(
           celebrationContext.common!,
           celebrationContext.ferialCode,
@@ -51,8 +49,7 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
     morningOffice.overlayWith(properMorning);
   } else {
     // Mandatory celebrations (precedence <= 6): standard full overlay
-    if (celebrationContext.common != null &&
-        celebrationContext.common!.trim().isNotEmpty) {
+    if (celebrationContext.common?.trim().isNotEmpty ?? false) {
       Morning commonMorning = await loadMorningHierarchicalCommon(
           celebrationContext.common!,
           celebrationContext.ferialCode,

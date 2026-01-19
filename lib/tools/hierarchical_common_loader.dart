@@ -5,78 +5,54 @@ import '../tools/constants.dart';
 import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
 
+/// Builds the hierarchy of common file names from a common name.
+/// For example: 'saints-female_religious_paschal' returns:
+/// ['saints-female', 'saints-female_religious', 'saints-female_religious_paschal']
+/// If liturgicalTime is a privileged time and not already at the end of commonName,
+/// appends '_$liturgicalTime' to commonName. (for exemple adds "_lent" to "virgins"
+/// if liturgical time is Lent)
+List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
+  String effectiveCommonName = commonName;
+  if (liturgicalTime != null &&
+      privilegedTimes.contains(liturgicalTime) &&
+      !commonName.endsWith('_$liturgicalTime')) {
+    effectiveCommonName = '${commonName}_$liturgicalTime';
+  }
+  List<String> parts = effectiveCommonName.split('_');
+  List<String> commonsToTry = [
+    for (int i = 0; i < parts.length; i++) parts.sublist(0, i + 1).join('_')
+  ];
+  return commonsToTry;
+}
+
 /// Loads a common with hierarchical inheritance.
-/// For example: 'saints-female_religious_paschal' will load and merge:
-/// 1. saints-female.json (base)
-/// 2. saints-female_religious.json (overlays on base)
-/// 3. saints-female_religious_paschal.json (overlays on previous)
-///
 /// Each more specific level overrides data from more general levels.
 Future<Morning> loadMorningHierarchicalCommon(
     CelebrationContext context) async {
   if (context.common == null) return Morning();
 
-  // Split the common name by underscores
-  List<String> parts = context.common!.split('_');
-
-  // Build the hierarchy of file names to load
-  List<String> hierarchy = [];
-  for (int i = 0; i < parts.length; i++) {
-    // Build cumulative name: X, X_Y, X_Y_Z
-    String cumulativeName = parts.sublist(0, i + 1).join('_');
-    hierarchy.add(cumulativeName);
-  }
-
-  // Start with empty Morning
   Morning result = Morning();
-
-  // Load each level in order (from most general to most specific)
-  for (String level in hierarchy) {
-    String filePath = '$commonsFilePath/$level.yaml';
-    Morning levelMorning = await morningExtract(filePath, context.dataLoader);
-
-    // Overlay this level's data onto the result
-    // More specific data will override general data
-    result.overlayWith(levelMorning);
+  for (String level
+      in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
+    Morning levelData = await morningExtract(
+        '$commonsFilePath/$level.yaml', context.dataLoader);
+    result.overlayWith(levelData);
   }
-
   return result;
 }
 
 /// Loads a common with hierarchical inheritance for Readings.
-/// For example: 'saints-female_religious_paschal' will load and merge:
-/// 1. saints-female.yaml (base)
-/// 2. saints-female_religious.yaml (overlays on base)
-/// 3. saints-female_religious_paschal.yaml (overlays on previous)
-///
 /// Each more specific level overrides data from more general levels.
 Future<Readings> loadReadingsHierarchicalCommon(
     CelebrationContext context) async {
   if (context.common == null) return Readings();
 
-  // Split the common name by underscores
-  List<String> parts = context.common!.split('_');
-
-  // Build the hierarchy of file names to load
-  List<String> hierarchy = [];
-  for (int i = 0; i < parts.length; i++) {
-    // Build cumulative name: X, X_Y, X_Y_Z
-    String cumulativeName = parts.sublist(0, i + 1).join('_');
-    hierarchy.add(cumulativeName);
-  }
-
-  // Start with empty Readings
   Readings result = Readings();
-
-  // Load each level in order (from most general to most specific)
-  for (String level in hierarchy) {
-    String filePath = '$commonsFilePath/$level.yaml';
-    Readings levelReadings = await readingsExtract(filePath, context.dataLoader);
-
-    // Overlay this level's data onto the result
-    // More specific data will override general data
-    result.overlayWith(levelReadings);
+  for (String level
+      in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
+    Readings levelData = await readingsExtract(
+        '$commonsFilePath/$level.yaml', context.dataLoader);
+    result.overlayWith(levelData);
   }
-
   return result;
 }

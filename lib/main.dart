@@ -26,6 +26,7 @@ Future<void> main() async {
   final String celebrationCode = firstEntry!.value.celebrationCode;
   final String ferialCode = firstEntry!.value.ferialCode;
   final List<String>? commonList = firstEntry!.value.commonList;
+  final String? liturgicalTime = firstEntry!.value.liturgicalTime;
   final String? breviaryWeek = firstEntry!.value.breviaryWeek;
 //... and the first common proposed (if exists)...
 
@@ -38,6 +39,7 @@ Future<void> main() async {
     ferialCode: ferialCode,
     common: common,
     date: date,
+    liturgicalTime: liturgicalTime,
     breviaryWeek: breviaryWeek,
     dataLoader: dataLoader,
   );

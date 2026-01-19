@@ -215,6 +215,7 @@ class CelebrationContext {
   final String? ferialCode;
   final String? common;
   final DateTime date;
+  final String? liturgicalTime;
   final String? breviaryWeek;
   final int? precedence;
   final bool? teDeum;
@@ -225,6 +226,7 @@ class CelebrationContext {
     this.ferialCode,
     this.common,
     required this.date,
+    this.liturgicalTime,
     this.breviaryWeek,
     this.precedence,
     this.teDeum,

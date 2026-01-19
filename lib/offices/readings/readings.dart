@@ -14,7 +14,7 @@ Future<Readings> readingsResolution(CelebrationContext context) async {
   Readings properReadings = Readings();
 
   // firstable catches the ferial data if exists (if not feast or solemnity)
-  if (context.ferialCode != null && context.ferialCode!.trim().isNotEmpty) {
+  if (context.ferialCode?.trim().isNotEmpty ?? false) {
     readingsOffice = await ferialReadingsResolution(context);
   }
 
@@ -32,21 +32,19 @@ Future<Readings> readingsResolution(CelebrationContext context) async {
   }
 
   // For optional celebrations (precedence > 6), apply layers in correct order
-  if (context.precedence != null && context.precedence! > 6) {
+  if ((context.precedence ?? 0) > 6) {
     // Layer 1: Ferial (already in readingsOffice)
     // Layer 2: Common if provided (selective overlay - only fills gaps)
-    if (context.common != null && context.common!.trim().isNotEmpty) {
-      Readings commonReadings =
-          await loadReadingsHierarchicalCommon(context.common!, context.dataLoader);
+    if (context.common?.trim().isNotEmpty ?? false) {
+      Readings commonReadings = await loadReadingsHierarchicalCommon(context);
       readingsOffice.overlayWithCommon(commonReadings);
     }
     // Layer 3: Proper (always applied, has priority over everything)
     readingsOffice.overlayWith(properReadings);
   } else {
     // Mandatory celebrations (precedence <= 6): standard full overlay
-    if (context.common != null && context.common!.trim().isNotEmpty) {
-      Readings commonReadings =
-          await loadReadingsHierarchicalCommon(context.common!, context.dataLoader);
+    if (context.common?.trim().isNotEmpty ?? false) {
+      Readings commonReadings = await loadReadingsHierarchicalCommon(context);
       readingsOffice.overlayWith(commonReadings);
     }
     readingsOffice.overlayWith(properReadings);

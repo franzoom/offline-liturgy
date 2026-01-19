@@ -1,6 +1,6 @@
 import '../classes/morning_class.dart';
 import '../classes/readings_class.dart';
-import 'data_loader.dart';
+import '../classes/office_elements_class.dart';
 import '../tools/constants.dart';
 import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
@@ -13,9 +13,11 @@ import '../offices/readings/readings_extract.dart';
 ///
 /// Each more specific level overrides data from more general levels.
 Future<Morning> loadMorningHierarchicalCommon(
-    String commonName, String? ferialCode, DataLoader dataLoader) async {
+    CelebrationContext context) async {
+  if (context.common == null) return Morning();
+
   // Split the common name by underscores
-  List<String> parts = commonName.split('_');
+  List<String> parts = context.common!.split('_');
 
   // Build the hierarchy of file names to load
   List<String> hierarchy = [];
@@ -31,7 +33,7 @@ Future<Morning> loadMorningHierarchicalCommon(
   // Load each level in order (from most general to most specific)
   for (String level in hierarchy) {
     String filePath = '$commonsFilePath/$level.yaml';
-    Morning levelMorning = await morningExtract(filePath, dataLoader);
+    Morning levelMorning = await morningExtract(filePath, context.dataLoader);
 
     // Overlay this level's data onto the result
     // More specific data will override general data
@@ -49,9 +51,11 @@ Future<Morning> loadMorningHierarchicalCommon(
 ///
 /// Each more specific level overrides data from more general levels.
 Future<Readings> loadReadingsHierarchicalCommon(
-    String commonName, DataLoader dataLoader) async {
+    CelebrationContext context) async {
+  if (context.common == null) return Readings();
+
   // Split the common name by underscores
-  List<String> parts = commonName.split('_');
+  List<String> parts = context.common!.split('_');
 
   // Build the hierarchy of file names to load
   List<String> hierarchy = [];
@@ -67,7 +71,7 @@ Future<Readings> loadReadingsHierarchicalCommon(
   // Load each level in order (from most general to most specific)
   for (String level in hierarchy) {
     String filePath = '$commonsFilePath/$level.yaml';
-    Readings levelReadings = await readingsExtract(filePath, dataLoader);
+    Readings levelReadings = await readingsExtract(filePath, context.dataLoader);
 
     // Overlay this level's data onto the result
     // More specific data will override general data

@@ -10,7 +10,6 @@ class Morning {
   String? responsory;
   EvangelicAntiphon? evangelicAntiphon;
   Intercession? intercession;
-  bool? tedeum;
   List<String>? oration;
 
   Morning({
@@ -22,7 +21,6 @@ class Morning {
     this.responsory,
     this.evangelicAntiphon,
     this.intercession,
-    this.tedeum,
     this.oration,
   });
 
@@ -52,7 +50,6 @@ class Morning {
       intercession: json['intercession'] != null
           ? Intercession.fromJson(json['intercession'] as Map<String, dynamic>)
           : null,
-      tedeum: json['tedeum'] as bool?,
       oration:
           json['oration'] != null ? List<String>.from(json['oration']) : null,
     );
@@ -110,9 +107,6 @@ class Morning {
     if (overlay.intercession != null) {
       intercession = overlay.intercession;
     }
-    if (overlay.tedeum != null) {
-      tedeum = overlay.tedeum;
-    }
     if (overlay.oration != null) {
       oration = overlay.oration;
     }
@@ -153,7 +147,6 @@ class Morning {
     if (responsory != null) return false;
     if (evangelicAntiphon != null) return false;
     if (intercession != null) return false;
-    if (tedeum != null) return false;
     if (oration != null) return false;
     return true;
   }
@@ -175,7 +168,8 @@ class MorningDefinition {
   final String liturgicalColor;
   final bool
       isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
-  final String? celebrationDescription; // detailed description of the celebration from JSON
+  final String?
+      celebrationDescription; // detailed description of the celebration from JSON
 
   MorningDefinition({
     required this.morningDescription,

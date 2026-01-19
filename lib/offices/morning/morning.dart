@@ -3,7 +3,7 @@ import '../../tools/data_loader.dart';
 import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/file_paths.dart';
+import '../../tools/constants.dart';
 
 /// Resolves morning prayer for a given celebrationCode.
 /// requires onlyOration for the Memories: adding only the Oration of the saint,
@@ -41,7 +41,7 @@ Future<Morning> morningResolution(String celebrationCode, String? ferialCode,
     // Layer 2: Common if provided (selective overlay - only fills gaps)
     if (common != null && common.trim().isNotEmpty) {
       Morning commonMorning =
-          await loadMorningHierarchicalCommon(common, dataLoader);
+          await loadMorningHierarchicalCommon(common, ferialCode, dataLoader);
       morningOffice.overlayWithCommon(commonMorning);
     }
     // Layer 3: Proper (always applied, has priority over everything)
@@ -50,7 +50,7 @@ Future<Morning> morningResolution(String celebrationCode, String? ferialCode,
     // Mandatory celebrations (precedence <= 6): standard full overlay
     if (common != null && common.trim().isNotEmpty) {
       Morning commonMorning =
-          await loadMorningHierarchicalCommon(common, dataLoader);
+          await loadMorningHierarchicalCommon(common, ferialCode, dataLoader);
       morningOffice.overlayWith(commonMorning);
     }
     morningOffice.overlayWith(properMorning);

@@ -3,7 +3,7 @@ import '../../classes/calendar_class.dart';
 import '../../classes/readings_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
-import '../../tools/file_paths.dart';
+import '../../tools/constants.dart';
 
 ///returns a list of possible Readings Offices, sorted by precedence (highest first)
 Future<Map<String, ReadingsDefinition>> readingsDetection(
@@ -116,7 +116,8 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
     // - It's a Sunday (weekday == 7) AND not during Lent
     // - OR it's a Feast or Solemnity (precedence < 6)
     bool shouldDisplayTeDeum = false;
-    print('🔷 TE DEUM CHECK for $celebrationCode: precedence=$precedence, weekday=${date.weekday}, liturgicalTime=${dayContent.liturgicalTime}');
+    print(
+        '🔷 TE DEUM CHECK for $celebrationCode: precedence=$precedence, weekday=${date.weekday}, liturgicalTime=${dayContent.liturgicalTime}');
     if (precedence < 6) {
       // Feast or Solemnity
       shouldDisplayTeDeum = true;
@@ -125,7 +126,8 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
       // Sunday, but check if it's not Lent
       final liturgicalTime = dayContent.liturgicalTime.toLowerCase();
       print('🔷 Sunday detected, liturgicalTime lowercase = "$liturgicalTime"');
-      if (!liturgicalTime.contains('lent') && !liturgicalTime.contains('carême')) {
+      if (!liturgicalTime.contains('lent') &&
+          !liturgicalTime.contains('carême')) {
         shouldDisplayTeDeum = true;
         print('🔷 TE DEUM = true (Sunday not in Lent)');
       } else {

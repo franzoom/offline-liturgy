@@ -1,4 +1,5 @@
 import '../tools/date_tools.dart';
+import '../tools/constants.dart';
 
 class DayContent {
   final int liturgicalYear;
@@ -184,13 +185,6 @@ class Calendar {
   /// Downgrades obligatory memorials (precedence 10/11) to optional (12)
   /// during privileged liturgical times where memorials are not celebrated.
   void downgradeMemorialsDuringPrivilegedTimes() {
-    const privilegedTimes = {
-      'advent',
-      'lent',
-      'christmasoctave',
-      'paschaloctave'
-    };
-
     for (final dayContent in calendarData.values) {
       if (!privilegedTimes.contains(dayContent.liturgicalTime)) continue;
 

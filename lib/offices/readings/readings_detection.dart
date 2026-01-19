@@ -4,6 +4,7 @@ import '../../classes/readings_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/constants.dart';
+import '../../tools/convert_yaml_to_dart.dart';
 
 ///returns a list of possible Readings Offices, sorted by precedence (highest first)
 Future<Map<String, ReadingsDefinition>> readingsDetection(
@@ -36,7 +37,7 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
       '============ MORNING DETECTION: ${dayContent.precedence}, $defaultCelebrationTitle');
   // detects if there is a ferialCode in order to pass it to the ReadingsResolution procedure
   String ferialCode =
-      isFerialDay(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
+      ferialDayCheck(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
 
   // Sort by precedence (lowest number = highest precedence)
   allCelebrations.sort((a, b) => a.key.compareTo(b.key));
@@ -67,7 +68,7 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
     String? celebrationDescription; // Description from YAML
 
     // Try to load celebration title from YAML files
-    if (!isFerialDay(celebrationCode)) {
+    if (!ferialDayCheck(celebrationCode)) {
       // Try to load from special_days first
       String fileContent =
           await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
@@ -80,7 +81,7 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
       if (fileContent.isNotEmpty) {
         // Parse YAML and convert to Dart types
         final yamlData = loadYaml(fileContent);
-        final data = _convertYamlToDart(yamlData);
+        final data = convertYamlToDart(yamlData);
         if (data['celebration'] != null) {
           final celebrationData = data['celebration'] as Map<String, dynamic>;
           final String? title = celebrationData['title'] as String?;
@@ -154,16 +155,4 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
   print(
       '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Readings Offices: $possibleReadingss');
   return possibleReadingss;
-}
-
-/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
-dynamic _convertYamlToDart(dynamic value) {
-  if (value is YamlMap) {
-    return value
-        .map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
-  } else if (value is YamlList) {
-    return value.map((item) => _convertYamlToDart(item)).toList();
-  } else {
-    return value;
-  }
 }

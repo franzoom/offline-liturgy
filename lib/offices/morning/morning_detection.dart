@@ -4,6 +4,106 @@ import '../../classes/morning_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/constants.dart';
+import '../../tools/convert_yaml_to_dart.dart';
+
+///returns a list of possible Morning Offices, sorted by precedence (highest first)
+Future<Map<String, MorningDefinition>> morningDetection2(
+    Calendar calendar, DateTime date, DataLoader dataLoader) async {
+  final celebrationDatas = calendar.getSortedItemsForDay2(date);
+  // If no data for this day, return empty map
+  if (celebrationDatas == null) {
+    return {};
+  }
+  //retreive datas from celebrationDatas
+  final String rootColor = celebrationDatas.color;
+  final int? breviaryWeek = celebrationDatas.breviaryWeek;
+  final String liturgicalTime = celebrationDatas.liturgicalTime;
+  final List<FeastItem> celebrationList = celebrationDatas.celebrationList;
+
+  // create objects
+  List<String> commonList = [];
+  bool isCelebrable = true;
+
+  // Build the map of possible morning offices
+  final Map<String, MorningDefinition> possibleMornings = {};
+
+  for (final celebration in celebrationList) {
+    final String celebrationCode = celebration.celebrationTitle;
+    final int precedence = celebration.precedence;
+    final bool celebrable = celebration.celebrable;
+
+    // Initialize liturgicalColor for this celebration (default: liturgical time color)
+    String celebrationLiturgicalColor = rootColor;
+
+    // Get display name for celebration
+    String celebrationName = celebrationCode;
+    String mapKey = celebrationCode; // Default key is the code
+    String? celebrationDescription; // Description from YAML
+    String ferialCode = celebrationCode;
+    // Try to load celebration title from YAML files
+    if (!ferialDayCheck(celebrationCode)) {
+      // Try to load from special_days first
+      String fileContent =
+          await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
+      // If not found in special_days, try sanctoral
+      if (fileContent.isEmpty) {
+        fileContent = await dataLoader
+            .loadYaml('$sanctoralFilePath/$celebrationCode.yaml');
+      }
+
+      if (fileContent.isNotEmpty) {
+        // Parse YAML and convert to Dart types
+        final yamlData = loadYaml(fileContent);
+        final data = convertYamlToDart(yamlData);
+        if (data['celebration'] != null) {
+          final celebrationData = data['celebration'] as Map<String, dynamic>;
+          final String? title = celebrationData['title'] as String?;
+          final String? subtitle = celebrationData['subtitle'] as String?;
+          celebrationDescription = celebrationData['description'] as String?;
+          // Update liturgicalColor from celebration data (override if specified)
+          celebrationLiturgicalColor =
+              celebrationData['color'] as String? ?? celebrationLiturgicalColor;
+          commonList = List<String>.from(celebrationData['commons'] ?? []);
+          isCelebrable = celebrable;
+
+          // Build display name from title and subtitle (separated by comma)
+          if (title != null && title.isNotEmpty) {
+            mapKey = title; // Use title as map key
+            celebrationName = title;
+            if (subtitle != null && subtitle.isNotEmpty) {
+              celebrationName += ', $subtitle';
+            }
+          }
+        }
+      } else {
+        print('failed to load $celebrationCode.yaml');
+        isCelebrable = false;
+      }
+      // If file not found or empty, keep the original code as name and key
+    } else {
+      // For ferial days:
+      ferialCode = celebrationCode;
+      celebrationName = ferialNameResolution(ferialCode);
+      mapKey = celebrationName;
+    }
+
+    possibleMornings[mapKey] = MorningDefinition(
+      morningDescription: celebrationName,
+      celebrationCode: celebrationCode,
+      ferialCode: ferialCode,
+      commonList: commonList,
+      liturgicalTime: liturgicalTime,
+      breviaryWeek: breviaryWeek?.toString(),
+      precedence: precedence,
+      liturgicalColor: celebrationLiturgicalColor,
+      isCelebrable: isCelebrable,
+      celebrationDescription: celebrationDescription,
+    );
+  }
+  print(
+      '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
+  return possibleMornings;
+}
 
 ///returns a list of possible Morning Offices, sorted by precedence (highest first)
 Future<Map<String, MorningDefinition>> morningDetection(
@@ -36,7 +136,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       '============ MORNING DETECTION: ${dayContent.precedence}, $defaultCelebrationTitle');
   // detects if there is a ferialCode in order to pass it to the MorningResolution procedure
   String ferialCode =
-      isFerialDay(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
+      ferialDayCheck(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
 
   // Sort by precedence (lowest number = highest precedence)
   allCelebrations.sort((a, b) => a.key.compareTo(b.key));
@@ -67,7 +167,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
     String? celebrationDescription; // Description from YAML
 
     // Try to load celebration title from YAML files
-    if (!isFerialDay(celebrationCode)) {
+    if (!ferialDayCheck(celebrationCode)) {
       // Try to load from special_days first
       String fileContent =
           await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
@@ -80,7 +180,7 @@ Future<Map<String, MorningDefinition>> morningDetection(
       if (fileContent.isNotEmpty) {
         // Parse YAML and convert to Dart types
         final yamlData = loadYaml(fileContent);
-        final data = _convertYamlToDart(yamlData);
+        final data = convertYamlToDart(yamlData);
         if (data['celebration'] != null) {
           final celebrationData = data['celebration'] as Map<String, dynamic>;
           final String? title = celebrationData['title'] as String?;
@@ -127,16 +227,4 @@ Future<Map<String, MorningDefinition>> morningDetection(
   print(
       '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
-}
-
-/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
-dynamic _convertYamlToDart(dynamic value) {
-  if (value is YamlMap) {
-    return value
-        .map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
-  } else if (value is YamlList) {
-    return value.map((item) => _convertYamlToDart(item)).toList();
-  } else {
-    return value;
-  }
 }

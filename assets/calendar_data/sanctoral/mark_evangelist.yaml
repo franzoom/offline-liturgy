@@ -68,21 +68,22 @@ readings:
 middleOfDay:
   tierce:
     reading:
-      biblicalReference: 2 Tm 1, 8b-9
-      content: Avec la force de Dieu, prends ta part de souffrance pour l’annonce de l’Évangile. Car Dieu nous a sauvés, et il nous a donné une vocation sainte, non pas à cause de nos propres actes, mais à cause de son projet à lui et de sa grâce. Cette grâce nous avait été donnée dans le Christ Jésus.
+      biblicalReference: Rm 1, 16-17
+      content: |
+        Je n’ai pas honte d’être au service de l’Évangile, car il est la puissance de Dieu pour le salut de tout homme qui est devenu croyant, d’abord Juif, et aussi le païen. Cet Évangile révèle la justice de Dieu qui sauve par la foi, du commencement à la fin, comme le dit l’Écriture ; C’est pr la foi que le juste vivra.
     responsory: |
-      V/ Réjouissez-vous, exultez, dit le Seigneur, alléluia,
-      vos noms sont inscrits dans les cieux, alléluia.
+      V/ Par toute la terre s’en va leur message, alléluia,
+      la Bonne Nouvelle aux limites du monde, alléluia.
   sexte:
     reading:
-      biblicalReference: 1 Th 2, 2b-4
+      biblicalReference: 1Th 2, 2b-4
       content: Nous avons trouvé en notre Dieu l’assurance qu’il fallait pour vous annoncer, au prix de grandes luttes, l’Évangile de Dieu. Et quand nous vous exhortions, nous n’étions pas au service de doctrines fausses, nous n’avions pas de motifs impurs, nous n’agissions pas par ruse. En effet, pour nous confier l’Évangile, Dieu nous a mis à l’épreuve ; de même, aujourd’hui, il continue de mettre notre cœur à l’épreuve, si bien que nous parlons pour plaire non pas aux hommes, mais à Dieu.
     responsory: |
       V/ Ils ont gardé les volontés du Seigneur, alléluia,
       les lois qu’il leur donna, alléluia.
   none:
     reading:
-      biblicalReference: 2 Tm 1, 8b-9
+      biblicalReference: 2Tm 1, 8b-9
       content: Avec la force de Dieu, prends ta part de souffrance pour l’annonce de l’Évangile. Car Dieu nous a sauvés, et il nous a donné une vocation sainte, non pas à cause de nos propres actes, mais à cause de son projet à lui et de sa grâce. Cette grâce nous avait été donnée dans le Christ Jésus.
     responsory: |
       V/ Réjouissez-vous, exultez, dit le Seigneur, alléluia,
@@ -111,6 +112,7 @@ vespers:
     V/ De jour en jour, proclamez son salut, \* Alléluia.
     Gloire au Père. R/ Racontez.
   evangelicAntiphon:
-    common: "La Parole du Seigneur demeure pour toujours : c’est l’Évangile que vous avez entendu, alléluia."
+    common: |
+      La Parole du Seigneur demeure pour toujours : c’est l’Évangile que vous avez entendu, alléluia.
 oration:
   - Dieu qui as confié à l’évangéliste saint Marc la mission de proclamer la Bonne Nouvelle, accorde-nous de si bien profiter de son enseignement que nous marchions sur les traces du Christ. Lui qui règne.

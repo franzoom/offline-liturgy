@@ -24,7 +24,7 @@ Future<Readings> readingsResolution(CelebrationContext context) async {
     properReadings = await readingsExtract(
         '$specialFilePath/${context.celebrationCode}.yaml', context.dataLoader);
 
-    if (properReadings.isEmpty()) {
+    if (properReadings.isEmpty) {
       // File not found in special, try sanctoral
       properReadings = await readingsExtract(
           '$sanctoralFilePath/${context.celebrationCode}.yaml', context.dataLoader);

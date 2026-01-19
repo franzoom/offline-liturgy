@@ -4,7 +4,7 @@ import '../../tools/extract_week_and_day.dart';
 import '../../tools/data_loader.dart';
 import '../../assets/libraries/hymn_list.dart';
 import './morning_extract.dart';
-import '../../tools/file_paths.dart';
+import '../../tools/constants.dart';
 
 /// Resolves morning prayer for ferial days
 /// Returns Morning instanciation

@@ -3,7 +3,7 @@ import '../../tools/data_loader.dart';
 import './ferial_readings_resolution.dart';
 import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/file_paths.dart';
+import '../../tools/constants.dart';
 
 /// Resolves readings prayer for a given celebrationCode.
 /// requires onlyOration for the Memories: adding only the Oration of the saint,

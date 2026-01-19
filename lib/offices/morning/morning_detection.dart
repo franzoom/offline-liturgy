@@ -3,7 +3,7 @@ import '../../classes/calendar_class.dart';
 import '../../classes/morning_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
-import '../../tools/file_paths.dart';
+import '../../tools/constants.dart';
 
 ///returns a list of possible Morning Offices, sorted by precedence (highest first)
 Future<Map<String, MorningDefinition>> morningDetection(

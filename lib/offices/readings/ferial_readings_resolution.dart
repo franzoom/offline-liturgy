@@ -4,7 +4,7 @@ import '../../tools/extract_week_and_day.dart';
 import '../../tools/data_loader.dart';
 import '../../assets/libraries/hymn_list.dart';
 import './readings_extract.dart';
-import '../../tools/file_paths.dart';
+import '../../tools/constants.dart';
 
 /// Resolves readings prayer for ferial days
 /// Returns Readings instanciation

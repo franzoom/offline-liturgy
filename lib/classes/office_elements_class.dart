@@ -1,6 +1,8 @@
 /// Classes for deeply nested structured liturgical office data
 library;
 
+import '../tools/data_loader.dart';
+
 /// Represents celebration information
 class Celebration {
   final String? title;
@@ -204,4 +206,28 @@ class PatristicReading {
       responsory: json['responsory'] as String?,
     );
   }
+}
+
+/// Context class containing all parameters needed for office resolution.
+/// Used to simplify function signatures across morning, vespers, and other offices.
+class CelebrationContext {
+  final String celebrationCode;
+  final String? ferialCode;
+  final String? common;
+  final DateTime date;
+  final String? breviaryWeek;
+  final int? precedence;
+  final bool? teDeum;
+  final DataLoader dataLoader;
+
+  const CelebrationContext({
+    required this.celebrationCode,
+    this.ferialCode,
+    this.common,
+    required this.date,
+    this.breviaryWeek,
+    this.precedence,
+    this.teDeum,
+    required this.dataLoader,
+  });
 }

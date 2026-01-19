@@ -22,6 +22,24 @@ class DayContent {
   });
 }
 
+class FeastItem {
+  final int precedence;
+  final String celebrationTitle;
+  final String? color;
+  final bool celebrable;
+
+  const FeastItem({
+    required this.precedence,
+    required this.celebrationTitle,
+    this.color,
+    required this.celebrable,
+  });
+
+  @override
+  String toString() =>
+      'FeastItem(precedence=$precedence, celebrable=$celebrable, title="$celebrationTitle")';
+}
+
 class Calendar {
   final Map<DateTime, DayContent> calendarData = {};
   Calendar(); // default constructor
@@ -204,7 +222,83 @@ class Calendar {
   }
 
   /// function that returns the list of Feasts for the day
-  /// sorted by priority.
+  /// sorted by precedence.
+  /// If there is a precedence higher than 6, the lower feasts are no
+  /// more celebrable.
+  List<FeastItem> getSortedItemsForDay(DateTime date) {
+    final dayContent = calendarData[date];
+    if (dayContent == null) return [];
+
+    // 1. Identify minHigh
+    int? minHigh;
+
+    if (dayContent.precedence >= 1 && dayContent.precedence <= 6) {
+      minHigh = dayContent.precedence;
+    }
+
+    for (final precedence in dayContent.feastList.keys) {
+      if (precedence >= 1 && precedence <= 6) {
+        if (minHigh == null || precedence < minHigh) {
+          minHigh = precedence;
+        }
+      }
+    }
+
+    final bool hasHighPriorityFeast = minHigh != null;
+    final celebrationList = <({
+      int precedence,
+      String celebrationTitle,
+      bool fromFeastList,
+      bool celebrable
+    })>[];
+
+    // 2. Add feastList item
+    for (final entry in dayContent.feastList.entries) {
+      final precedence = entry.key;
+      celebrationList.add((
+        precedence: precedence,
+        celebrationTitle: entry.value.first,
+        fromFeastList: true,
+        celebrable:
+            hasHighPriorityFeast ? (precedence >= 1 && precedence <= 6) : true,
+      ));
+    }
+
+    // 3. Add default item
+    final defaultPrecedence = dayContent.precedence;
+    celebrationList.add((
+      precedence: defaultPrecedence,
+      celebrationTitle: dayContent.defaultCelebrationTitle,
+      fromFeastList: false,
+      celebrable: hasHighPriorityFeast
+          ? (defaultPrecedence >= 1 && defaultPrecedence <= 6)
+          : true,
+    ));
+
+    // 4. Sort
+    celebrationList.sort((a, b) {
+      if (a.precedence != b.precedence) {
+        return a.precedence.compareTo(b.precedence);
+      }
+      if (a.fromFeastList != b.fromFeastList) {
+        return a.fromFeastList ? -1 : 1;
+      }
+      return 0;
+    });
+
+    // 5. Map
+    return celebrationList
+        .map((celebration) => FeastItem(
+              precedence: celebration.precedence,
+              celebrationTitle: celebration.celebrationTitle,
+              celebrable: celebration.celebrable,
+            ))
+        .toList();
+  }
+}
+
+/*
+
   /// !!! Ordinary Time must be displayed before facultative memorials
   List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
     final dayContent = calendarData[date];
@@ -251,7 +345,7 @@ class Calendar {
     feastCelebrations.sort((a, b) => a.key.compareTo(b.key));
     return feastCelebrations;
   }
-}
+  */
 
 // Calendar display method
 // Extension for the Calendar class

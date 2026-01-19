@@ -166,7 +166,7 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
     int weekNumber = dayDatas[0];
     int dayNumber = dayDatas[1];
     ferialReadings = await readingsExtract(
-        '$ferialFilePath/easter_{weekNumber}_$dayNumber.yaml', dataLoader);
+        '$ferialFilePath/easter_{$weekNumber}_$dayNumber.yaml', dataLoader);
     return ferialReadings;
   }
 

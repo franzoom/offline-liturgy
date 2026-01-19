@@ -1,56 +1,62 @@
 import '../../classes/morning_class.dart';
-import '../../tools/data_loader.dart';
+import '../../classes/office_elements_class.dart';
 import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 
-/// Resolves morning prayer for a given celebrationCode.
-/// requires onlyOration for the Memories: adding only the Oration of the saint,
+/// Resolves morning prayer for a given celebration context.
+/// requires only Oration for the Memories: adding only the Oration of the saint,
 /// or adding the chosen Common.
-/// Returns a Map with celebration name as key and Morning instance as value
-/// (the argument "date" is used for advent calculation)
-Future<Morning> morningResolution(String celebrationCode, String? ferialCode,
-    String? common, DateTime date, String? breviaryWeek, DataLoader dataLoader,
-    {int? precedence}) async {
+/// Returns a Morning instance for the celebration.
+Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
   Morning morningOffice = Morning();
   Morning properMorning = Morning();
 
   // firstable catches the ferial data if exists (if not feast or solemnity)
-  if (ferialCode != null && ferialCode.trim().isNotEmpty) {
-    morningOffice = await ferialMorningResolution(
-        ferialCode, date, breviaryWeek, dataLoader);
+  if (celebrationContext.ferialCode != null &&
+      celebrationContext.ferialCode!.trim().isNotEmpty) {
+    morningOffice = await ferialMorningResolution(celebrationContext);
   }
 
   // Load proper celebration data if not ferial
-  if (celebrationCode != ferialCode) {
+  if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
     // Try special directory first, then sanctoral
     properMorning = await morningExtract(
-        '$specialFilePath/$celebrationCode.yaml', dataLoader);
+        '$specialFilePath/${celebrationContext.celebrationCode}.yaml',
+        celebrationContext.dataLoader);
 
     if (properMorning.isEmpty()) {
       // File not found in special, try sanctoral
       properMorning = await morningExtract(
-          '$sanctoralFilePath/$celebrationCode.yaml', dataLoader);
+          '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
+          celebrationContext.dataLoader);
     }
   }
 
   // For optional celebrations (precedence > 6), apply layers in correct order
-  if (precedence != null && precedence > 6) {
+  if (celebrationContext.precedence != null &&
+      celebrationContext.precedence! > 6) {
     // Layer 1: Ferial (already in morningOffice)
     // Layer 2: Common if provided (selective overlay - only fills gaps)
-    if (common != null && common.trim().isNotEmpty) {
-      Morning commonMorning =
-          await loadMorningHierarchicalCommon(common, ferialCode, dataLoader);
+    if (celebrationContext.common != null &&
+        celebrationContext.common!.trim().isNotEmpty) {
+      Morning commonMorning = await loadMorningHierarchicalCommon(
+          celebrationContext.common!,
+          celebrationContext.ferialCode,
+          celebrationContext.dataLoader);
       morningOffice.overlayWithCommon(commonMorning);
     }
     // Layer 3: Proper (always applied, has priority over everything)
     morningOffice.overlayWith(properMorning);
   } else {
     // Mandatory celebrations (precedence <= 6): standard full overlay
-    if (common != null && common.trim().isNotEmpty) {
-      Morning commonMorning =
-          await loadMorningHierarchicalCommon(common, ferialCode, dataLoader);
+    if (celebrationContext.common != null &&
+        celebrationContext.common!.trim().isNotEmpty) {
+      Morning commonMorning = await loadMorningHierarchicalCommon(
+          celebrationContext.common!,
+          celebrationContext.ferialCode,
+          celebrationContext.dataLoader);
       morningOffice.overlayWith(commonMorning);
     }
     morningOffice.overlayWith(properMorning);

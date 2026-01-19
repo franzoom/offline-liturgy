@@ -1,15 +1,16 @@
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
-import '../../tools/data_loader.dart';
 import '../../assets/libraries/hymn_list.dart';
 import './readings_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves readings prayer for ferial days
 /// Returns Readings instanciation
-Future<Readings> ferialReadingsResolution(String celebrationCode, DateTime date,
-    String? breviaryWeek, DataLoader dataLoader) async {
+Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
+  final celebrationCode = context.ferialCode ?? context.celebrationCode;
+  final date = context.date;
+  final dataLoader = context.dataLoader;
   Readings ferialReadings = Readings();
 
   // ============================================================================

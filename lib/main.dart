@@ -1,5 +1,6 @@
 import 'offline_liturgy.dart';
 import 'tools/data_loader.dart';
+import 'classes/office_elements_class.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
@@ -32,8 +33,16 @@ Future<void> main() async {
       (commonList != null && commonList.isNotEmpty) ? commonList.first : '';
 
 // ... in order to run the office Resolution
-  final Morning firstMorningOffice = await morningResolution(
-      celebrationCode, ferialCode, common, date, breviaryWeek, dataLoader);
+  final celebrationContext = CelebrationContext(
+    celebrationCode: celebrationCode,
+    ferialCode: ferialCode,
+    common: common,
+    date: date,
+    breviaryWeek: breviaryWeek,
+    dataLoader: dataLoader,
+  );
+  final Morning firstMorningOffice =
+      await morningResolution(celebrationContext);
   print(firstMorningOffice);
 
 ////////////////////

@@ -1,15 +1,16 @@
 import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
-import '../../tools/data_loader.dart';
 import '../../assets/libraries/hymn_list.dart';
 import './morning_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves morning prayer for ferial days
 /// Returns Morning instanciation
-Future<Morning> ferialMorningResolution(String celebrationCode, DateTime date,
-    String? breviaryWeek, DataLoader dataLoader) async {
+Future<Morning> ferialMorningResolution(CelebrationContext context) async {
+  final celebrationCode = context.ferialCode ?? context.celebrationCode;
+  final date = context.date;
+  final dataLoader = context.dataLoader;
   Morning ferialMorning = Morning();
 
   // ============================================================================

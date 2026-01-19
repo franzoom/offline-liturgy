@@ -24,34 +24,38 @@ class Morning {
     this.oration,
   });
 
-  /// Creates Morning instance from JSON data
-  factory Morning.fromJson(Map<String, dynamic> json) {
+  /// Creates Morning instance from YAML data
+  factory Morning.fromJson(Map<String, dynamic> yamlData) {
     return Morning(
-      celebration: json['celebration'] != null
-          ? Celebration.fromJson(json['celebration'] as Map<String, dynamic>)
+      celebration: yamlData['celebration'] != null
+          ? Celebration.fromJson(
+              yamlData['celebration'] as Map<String, dynamic>)
           : null,
-      invitatory: json['invitatory'] != null
-          ? Invitatory.fromJson(json['invitatory'] as Map<String, dynamic>)
+      invitatory: yamlData['invitatory'] != null
+          ? Invitatory.fromJson(yamlData['invitatory'] as Map<String, dynamic>)
           : null,
-      hymn: json['hymn'] != null ? List<String>.from(json['hymn']) : null,
-      psalmody: json['psalmody'] != null
-          ? (json['psalmody'] as List)
+      hymn:
+          yamlData['hymn'] != null ? List<String>.from(yamlData['hymn']) : null,
+      psalmody: yamlData['psalmody'] != null
+          ? (yamlData['psalmody'] as List)
               .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
               .toList()
           : null,
-      reading: json['reading'] != null
-          ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
+      reading: yamlData['reading'] != null
+          ? Reading.fromJson(yamlData['reading'] as Map<String, dynamic>)
           : null,
-      responsory: json['responsory'] as String?,
-      evangelicAntiphon: json['evangelicAntiphon'] != null
+      responsory: yamlData['responsory'] as String?,
+      evangelicAntiphon: yamlData['evangelicAntiphon'] != null
           ? EvangelicAntiphon.fromJson(
-              json['evangelicAntiphon'] as Map<String, dynamic>)
+              yamlData['evangelicAntiphon'] as Map<String, dynamic>)
           : null,
-      intercession: json['intercession'] != null
-          ? Intercession.fromJson(json['intercession'] as Map<String, dynamic>)
+      intercession: yamlData['intercession'] != null
+          ? Intercession.fromJson(
+              yamlData['intercession'] as Map<String, dynamic>)
           : null,
-      oration:
-          json['oration'] != null ? List<String>.from(json['oration']) : null,
+      oration: yamlData['oration'] != null
+          ? List<String>.from(yamlData['oration'])
+          : null,
     );
   }
 
@@ -137,19 +141,16 @@ class Morning {
   }
 
   /// Returns true if all fields are null (empty Morning)
-  /// use of a direct short-cut: if on element is not empty, returns false.
-  bool isEmpty() {
-    if (celebration != null) return false;
-    if (invitatory != null) return false;
-    if (hymn != null) return false;
-    if (psalmody != null) return false;
-    if (reading != null) return false;
-    if (responsory != null) return false;
-    if (evangelicAntiphon != null) return false;
-    if (intercession != null) return false;
-    if (oration != null) return false;
-    return true;
-  }
+  bool get isEmpty =>
+      celebration == null &&
+      invitatory == null &&
+      hymn == null &&
+      psalmody == null &&
+      reading == null &&
+      responsory == null &&
+      evangelicAntiphon == null &&
+      intercession == null &&
+      oration == null;
 }
 
 /// Definition of Morning type for a given day

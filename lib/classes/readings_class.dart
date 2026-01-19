@@ -166,18 +166,15 @@ class Readings {
   }
 
   /// Returns true if all fields are null or empty (empty Readings)
-  /// use of a direct short-cut: if one element is not empty, returns false.
-  bool isEmpty() {
-    if (celebration != null) return false;
-    if (hymn != null && hymn!.isNotEmpty) return false;
-    if (psalmody != null && psalmody!.isNotEmpty) return false;
-    if (biblicalReading != null && biblicalReading!.isNotEmpty) return false;
-    if (patristicalReading != null && patristicalReading!.isNotEmpty) return false;
-    if (tedeum != null) return false;
-    if (verse != null && verse!.isNotEmpty) return false;
-    if (oration != null && oration!.isNotEmpty) return false;
-    return true;
-  }
+  bool get isEmpty =>
+      celebration == null &&
+      (hymn == null || hymn!.isEmpty) &&
+      (psalmody == null || psalmody!.isEmpty) &&
+      (biblicalReading == null || biblicalReading!.isEmpty) &&
+      (patristicalReading == null || patristicalReading!.isEmpty) &&
+      tedeum == null &&
+      (verse == null || verse!.isEmpty) &&
+      (oration == null || oration!.isEmpty);
 }
 
 /// Definition of Readings type for a given day

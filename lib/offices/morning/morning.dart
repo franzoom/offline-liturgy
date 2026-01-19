@@ -25,7 +25,7 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
         '$specialFilePath/${celebrationContext.celebrationCode}.yaml',
         celebrationContext.dataLoader);
 
-    if (properMorning.isEmpty()) {
+    if (properMorning.isEmpty) {
       // File not found in special, try sanctoral
       properMorning = await morningExtract(
           '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',

@@ -10,7 +10,7 @@ morning:
 readings:
   biblicalReading:
     -
-      title: "La Jérusalem céleste"
+      title: La Jérusalem céleste
       ref: Ap 21, 9-27
       content: |
         Alors arriva l’un des sept anges aux sept coupes remplies des sept derniers fléaux, et il me parla ainsi : « Viens, je te montrerai la Femme, l’Épouse de l’Agneau. »
@@ -34,6 +34,7 @@ readings:
   verse: |
     V/ Vers ton temple saint, je me prosterne,
     je crains et j’adore, alléluia !
+
 middleOfDay:
   tierce:
     antiphon: Vous êtes le temple de Dieu, la maison qu’il construit, alléluia !
@@ -46,10 +47,25 @@ middleOfDay:
       V/ Appelez le bonheur sur Jérusalem :
       paix à ceux qui t’aiment, alléluia !
   none:
-    antiphon: "Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc, alléluia !"
+    antiphon: |
+      Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc, alléluia !
     responsory: |
       V/ Venez dans sa maison lui rendre grâce,
       dans sa demeure chanter ses louanges, alléluia !
+
 vespers:
+  psalmody:
+    -
+      psalm: PSALM_45
+      antiphon:
+        - Sainte est la demeure du Très-Haut, la maison de Dieu chez les hommes.
+    -
+      psalm: PSALM_121
+      antiphon:
+        - Nous irons, pleins de joie, à la maison du Seigneur.
+    -
+      psalm: NT_12
+      antiphon:
+        - Église de Dieu, Épouse de l’Agneau, célèbre ton Seigneur, alléluia.
   evangelicAntiphon:
     common: Voici le séjour que Dieu s’est choisi pour y faire sa demeure ; voici le temple que Dieu a consacré pour que son nom y soit invoqué, alléluia !

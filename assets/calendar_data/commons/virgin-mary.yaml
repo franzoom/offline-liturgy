@@ -16,7 +16,8 @@ firstVespers:
     -
       psalm: NT_4
       antiphon:
-        - "Tu es bénie du Seigneur, ô Marie : par toi nous recevons la vie."
+        - |
+          Tu es bénie du Seigneur, ô Marie : par toi nous recevons la vie.
   reading:
     biblicalReference: Ga 4, 4-5
     content: Lorsque les temps furent accomplis, Dieu a envoyé son Fils ; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils.
@@ -26,13 +27,14 @@ firstVespers:
     V/ Tu es bénie entre toutes les femmes. \* Le Seigneur.
     Gloire au Père. R/ Réjouis-toi.
   evangelicAntiphon:
-    common: "Dieu a fait pour toi des merveilles : tous les âges te diront bienheureuse."
+    common: |
+      Dieu a fait pour toi des merveilles : tous les âges te diront bienheureuse.
   intercession:
     content: |
       Dieu notre Père, il nous est bon de te louer,
       toi qui as voulu que toutes les générations de croyants honorent la Mère de ton Fils :
       
-      R/Que la Vierge bénie intercède pour nous.
+      R/ Que la Vierge bénie intercède pour nous.
       
       Dieu qui fais des merveilles,
       tu as introduit la Vierge Marie dans la gloire de ton Fils,
@@ -46,6 +48,12 @@ firstVespers:
       
       À la prière de Marie, viens en aide à ceux qui meurent :
       — qu’ils vivent, avec le Christ, dans ton paradis.
+
+invitatory:
+  antiphon:
+    - Le Christ est né de la Vierge Marie ; venez, adorons-le.
+    - Béni sois-tu, Seigneur, en l’honneur de la Vierge Marie.
+
 morning:
   hymn:
     - marie-tu-etais-la
@@ -76,7 +84,7 @@ morning:
     content: |
       Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :
       
-      R/Jésus, fils de Marie, exauce-nous !
+      R/ Jésus, fils de Marie, exauce-nous !
       
       Soleil de Justice,
       la Vierge te précède comme l’aurore avant le jour :
@@ -95,7 +103,9 @@ morning:
   intercession2: |
     Prions notre Sauveur qui a voulu naître de la Vierge Marie, et redisons avec elle :
     
-    R/Notre âme exalte le Seigneur. <p>Fils du Dieu vivant,
+    R/ Notre âme exalte le Seigneur. 
+    
+    Fils du Dieu vivant,
     par ta passion tu as préservé ta Mère de toute souillure :
     – garde-nous du péché.
     
@@ -143,6 +153,9 @@ readings:
         
         Le loup habitera avec l’agneau, le léopard se couchera près du chevreau, le veau et le lionceau seront nourris ensemble, un petit garçon les conduira. La vache et l’ourse auront même pâture, leurs petits auront même gîte. Le lion, comme le bœuf, mangera du fourrage. Le nourrisson s’amusera sur le nid du cobra ; sur le trou de la vipère, l’enfant étendra la main. Il n’y aura plus de mal ni de corruption sur toute ma montagne sainte ; car la connaissance du SEIGNEUR remplira le pays comme les eaux recouvrent le fond de la mer.
       responsory: |
+        R/ La vierge enfantera un fils,
+        qu’elle appellera Emmanuel.
+
         Ne crains pas, Marie,
         tu as trouvé grâce auprès de Dieu.
         Voici, tu concevras et enfanteras un fils.
@@ -154,11 +167,14 @@ readings:
       title: De l’esclavage à la liberté
       ref: Ga 3, 22 — 4, 7
       content: |
+        L'Écriture a tout soumis au péché dans une commune captivité, afin que, par la foi en Jésus-Christ la promesse fût accomplie pour les croyants.
         Avant que vienne la foi en Jésus Christ, nous étions des prisonniers, enfermés sous la domination de la Loi, jusqu’au temps où cette foi devait être révélée. Ainsi, la Loi, comme un guide, nous a menés jusqu’au Christ pour que nous obtenions de la foi la justification. Et maintenant que la foi est venue, nous ne sommes plus soumis à ce guide. Car tous, dans le Christ Jésus, vous êtes fils de Dieu par la foi. En effet, vous tous que le baptême a unis au Christ, vous avez revêtu le Christ ; il n’y a plus ni juif ni grec, il n’y a plus ni esclave ni homme libre, il n’y a plus l’homme et la femme, car tous, vous ne faites plus qu’un dans le Christ Jésus. Et si vous appartenez au Christ, vous êtes de la descendance d’Abraham : vous êtes héritiers selon la promesse.
-        
         Je m’explique. Tant que l’héritier est un petit enfant, il ne diffère en rien d’un esclave, alors qu’il est le maître de toute la maison ; mais il est soumis aux gérants et aux intendants jusqu’à la date fixée par le père. De même nous aussi, quand nous étions des petits enfants, nous étions en situation d’esclaves, soumis aux forces qui régissent le monde. Mais lorsqu’est venue la plénitude des temps, Dieu a envoyé son Fils, né d’une femme et soumis à la loi de Moïse, afin de racheter ceux qui étaient soumis à la Loi et pour que nous soyons adoptés comme fils. Et voici la preuve que vous êtes des fils : Dieu a envoyé l’Esprit de son Fils dans nos cœurs, et cet Esprit crie « *Abba* ! », c’est-à-dire : Père ! Ainsi tu n’es plus esclave, mais fils, et puisque tu es fils, tu es aussi héritier : c’est l’œuvre de Dieu.
       responsory: |
-        Ton heure es passée,
+        R/ Debout, resplendis, Mère des vivants,
+        exulte et chante, alléluia !
+
+        Ton heure est passée,
         oublie ta tristesse et regarde, radieuse :
         un homme est venu au monde.
         
@@ -173,8 +189,25 @@ readings:
     -
       title: Homélie de Saint Sophrone de Jérusalem pour l’Annonciation
       subtitle: « Bénie entre toutes les femmes »
-      content: "*Réjouis-toi, comblée de grâce, le Seigneur est avec toi*. Et que peut-il y avoir de supérieur à cette joie, ô Vierge Mère ? Que peut-il y avoir au-dessus de cette grâce, que tu es la seule à avoir reçue en partage, de la part de Dieu ? Que peut-on concevoir de plus joyeux et de plus lumineux ? Tout demeure loin derrière tes merveilles, tout se trouve au-dessous de ta grâce. Les privilèges les plus certains n’ont que le second rang et ne possèdent qu’un état bien moindre. *Le Seigneur est avec toi*. Qui oserait rivaliser avec toi sur ce point ? Dieu naît de toi. Qui donc ne te céderait la place aussitôt pour te laisser avec joie la primauté et l’excellence ? Aussi, lorsque je contemple ta supériorité sur toutes les créatures, je proclame hautement tes louanges : *Réjouis-toi, comblée de grâce, le Seigneur est avec toi*. La joie qui émane de toi n’est pas seulement accordée aux hommes mais aussi à toutes les puissances d’en haut. Vraiment *tu es bénie entre toutes les femmes*, parce que tu as transformé la malédiction d’lîve en bénédiction ; parce que Adam, qui auparavant était maudit, a obtenu d’être béni à cause de toi. Vraiment *tu es bénie entre toutes les femmes*, parce que grâce à toi, la bénédiction du Père s’est levée sur le hommes et les a délivrés de l’antique malédiction. Vraiment *tu es bénie entre toutes les femmes*, parce que, grâce à toi, tes ancêtres sont sauvés, car c’est toi qui vas engendrer le Sauveur qui leur procurera le salut. Vraiment, *tu es bénie entre toutes les femmes*, parce que sans avoir reçu de semence, tu as porté ce fruit qui fait don à la terre entière de la bénédiction, et la rachète de malédiction d’où naissent les épines. Vraiment, *tu es bénie entre toutes les femmes*, parce que, étant femme par nature, tu deviens effectivement Mère de Dieu. Car si celui que tu dois enfanter est en vérité Dieu incarné, tu es appelée Mère de Dieu à très juste titre, puisque c’est Dieu que tu enfantes en toute vérité. ~ Dieu lui-même habite charnellement dans ton sein, il en sort comme l’Époux pour apporter à tous les hommes la joie et la lumière divines. C’est en toi, ô Vierge, que Dieu, comme dans un ciel très pur et lumineux, a établi sa demeure : de toi, il s’élance comme un époux quittant la chambre nuptiale ; imitant la course d’un géant, il va parcourir la carrière de sa vie, qui apportera le salut à tous les vivants et qui, s’étendant d’une extrémité du ciel à l’autre, remplira toutes choses de son ardeur divine et de sa lumière vivifiante."
+      content: |
+        *Réjouis-toi, comblée de grâce, le Seigneur est avec toi*. Et que peut-il y avoir de supérieur à cette joie, ô Vierge Mère ? Que peut-il y avoir au-dessus de cette grâce, que tu es la seule à avoir reçue en partage, de la part de Dieu ? Que peut-on concevoir de plus joyeux et de plus lumineux ? Tout demeure loin derrière tes merveilles, tout se trouve au-dessous de ta grâce. Les privilèges les plus certains n’ont que le second rang et ne possèdent qu’un état bien moindre.
+        *Le Seigneur est avec toi*. Qui oserait rivaliser avec toi sur ce point ? Dieu naît de toi. Qui donc ne te céderait la place aussitôt pour te laisser avec joie la primauté et l’excellence ? Aussi, lorsque je contemple ta supériorité sur toutes les créatures, je proclame hautement tes louanges : *Réjouis-toi, comblée de grâce, le Seigneur est avec toi*. La joie qui émane de toi n’est pas seulement accordée aux hommes mais aussi à toutes les puissances d’en haut. Vraiment *tu es bénie entre toutes les femmes*, parce que tu as transformé la malédiction d’lîve en bénédiction ; parce que Adam, qui auparavant était maudit, a obtenu d’être béni à cause de toi.
+        Vraiment *tu es bénie entre toutes les femmes*, parce que grâce à toi, la bénédiction du Père s’est levée sur le hommes et les a délivrés de l’antique malédiction.
+        Vraiment *tu es bénie entre toutes les femmes*, parce que, grâce à toi, tes ancêtres sont sauvés, car c’est toi qui vas engendrer le Sauveur qui leur procurera le salut.
+        Vraiment, *tu es bénie entre toutes les femmes*, parce que sans avoir reçu de semence, tu as porté ce fruit qui fait don à la terre entière de la bénédiction, et la rachète de malédiction d’où naissent les épines.
+        Vraiment, *tu es bénie entre toutes les femmes*, parce que, étant femme par nature, tu deviens effectivement Mère de Dieu. Car si celui que tu dois enfanter est en vérité Dieu incarné, tu es appelée Mère de Dieu à très juste titre, puisque c’est Dieu que tu enfantes en toute vérité. ~
+        Dieu lui-même habite charnellement dans ton sein, il en sort comme l’Époux pour apporter à tous les hommes la joie et la lumière divines. C’est en toi, ô Vierge, que Dieu, comme dans un ciel très pur et lumineux, a établi sa demeure : de toi, il s’élance comme un époux quittant la chambre nuptiale ; imitant la course d’un géant, il va parcourir la carrière de sa vie, qui apportera le salut à tous les vivants et qui, s’étendant d’une extrémité du ciel à l’autre, remplira toutes choses de son ardeur divine et de sa lumière vivifiante.
       responsory: |
+        (stance)
+        La Parole et l’Esprit
+        ont fécondé la terre
+        où germe la semence du Royaume ;
+        dans le silence et dan la paix
+        mûrit le fruit de la promesse.
+
+        R/ Bénie sois-tu, Vierge Marie !
+        En toi vit le Seigneur !
+
         L’Esprit te couvre de son ombre,
         tu accueilles en toi la rosée du ciel.
         
@@ -186,8 +219,17 @@ readings:
     -
       title: Sermon d’Aeldred de Rievaulx pour la nativité de la Vierge Marie
       subtitle: Marie est notre Mère
-      content: "Recourons à l’Épouse du Seigneur, approchons-nous de la Mère de Jésus, confions-nous à sa servante très fidèle. C’est tout cela qu’est la bienheureuse Vierge Marie. Mais comment nous présenter à elle ? Quels présents lui offrir ? Si au moins nous étions capables de lui rendre l’hommage qui lui est dû en stricte justice ! Nous devons l’honorer, nous mettre à son service ; nous devons l’aimer et lui offrir nos louanges. Nous sommes tenus de lui rendre honneur, puisqu’elle est la Mère de notre Dieu et Seigneur. Ne pas entourer d’égards la Mère du Christ, c’est à coup sûr manquer aussi de respect à son fils. Et l’Écriture le dit : *Honore ton père et ta mère*. Que dire encore, mes frères ? Marie n’est-elle pas notre Mère, à nous aussi ? Oui certainement, mes frères, elle est vraiment notre Mère. C’est par elle que nous sommes nés, non pas à ce monde, mais à Dieu. Vous le savez bien, et la foi nous l’enseigne : nous avons tous passé par un état de mort, de vieillissement, de ténèbres, de malheur. Nous étions morts, puisque nous avions perdu le Seigneur ; nous étions vieillis, puisque tombés dans la corruption ; nous étions dans les ténèbres, puisque fermés à la lumière de la sagesse. Et en somme, notre perte était consommée. Mais la bienheureuse Vierge Marie nous a donné la vie, et une vie bien meilleure que celle que nous avait transmise Eve, car c’est de Marie qu’est né le Christ. Notre décrépitude est devenue jeunesse nouvelle, notre corruption a fait place à l’incorruptibilité, et au lieu des ténèbres a brillé la clarté. Marie est notre Mère. Elle nous a donné l’immortalité, la lumière. L’Apôtre, parlant de notre Seigneur, écrit : *Dieu l’a fait, en notre faveur, sagesse, jusuce, sanctiûcation et rédemption*. Et la Vierge, puisqu’elle est Mère du Christ, se trouve donc être la Mère de notre sagesse, de notre justice, de notre sanctification, de notre rédemption. A ce point qu’elle est plus notre Mère que celle qui nous a mis au monde selon la chair. C’est d’elle que nous tenons notre naissance meilleure, puisque de Marie sont issues notre sainteté, notre sagesse, notre justice, notre sanctification, notre rédemption. L’Écriture nous dit : *Louez le Seigneur en ses saints*. Si le Seigneur mérite notre louange pour les saints auxquels il a donné de faire du bien et d’opérer des miracles, combien plus faut-il le louer pour celle par qui il a voulu se faire homme ; car c’est là un prodige admirable plus que toutes les autres merveilles."
+      content: |
+        Recourons à l’Épouse du Seigneur, approchons-nous de la Mère de Jésus, confions-nous à sa servante très fidèle. C’est tout cela qu’est la bienheureuse Vierge Marie.
+        Mais comment nous présenter à elle ? Quels présents lui offrir ? Si au moins nous étions capables de lui rendre l’hommage qui lui est dû en stricte justice ! Nous devons l’honorer, nous mettre à son service ; nous devons l’aimer et lui offrir nos louanges. Nous sommes tenus de lui rendre honneur, puisqu’elle est la Mère de notre Dieu et Seigneur. Ne pas entourer d’égards la Mère du Christ, c’est à coup sûr manquer aussi de respect à son fils. Et l’Écriture le dit : *Honore ton père et ta mère*.
+        Que dire encore, mes frères ? Marie n’est-elle pas notre Mère, à nous aussi ? Oui certainement, mes frères, elle est vraiment notre Mère. C’est par elle que nous sommes nés, non pas à ce monde, mais à Dieu.
+        Vous le savez bien, et la foi nous l’enseigne : nous avons tous passé par un état de mort, de vieillissement, de ténèbres, de malheur. Nous étions morts, puisque nous avions perdu le Seigneur ; nous étions vieillis, puisque tombés dans la corruption ; nous étions dans les ténèbres, puisque fermés à la lumière de la sagesse. Et en somme, notre perte était consommée. Mais la bienheureuse Vierge Marie nous a donné la vie, et une vie bien meilleure que celle que nous avait transmise Eve, car c’est de Marie qu’est né le Christ. Notre décrépitude est devenue jeunesse nouvelle, notre corruption a fait place à l’incorruptibilité, et au lieu des ténèbres a brillé la clarté.
+        Marie est notre Mère. Elle nous a donné l’immortalité, la lumière. L’Apôtre, parlant de notre Seigneur, écrit : *Dieu l’a fait, en notre faveur, sagesse, jusuce, sanctification et rédemption*.Et la Vierge, puisqu’elle est Mère du Christ, se trouve donc être la Mère de notre sagesse, de notre justice, de notre sanctification, de notre rédemption. À ce point qu’elle est plus notre Mère que celle qui nous a mis au monde selon la chair. C’est d’elle que nous tenons notre naissance meilleure, puisque de Marie sont issues notre sainteté, notre sagesse, notre justice, notre sanctification, notre rédemption.
+        L’Écriture nous dit : *Louez le Seigneur en ses saints*. Si le Seigneur mérite notre louange pour les saints auxquels il a donné de faire du bien et d’opérer des miracles, combien plus faut-il le louer pour celle par qui il a voulu se faire homme ; car c’est là un prodige admirable plus que toutes les autres merveilles.
       responsory: |
+        R/ Mon âme exalte le Seigneur :
+        éternel est son amour.
+        
         Chante et réjouis-toi, fille de Sion,
         voici que Dieu vient demeurer au milieu de toi.
         
@@ -199,8 +241,16 @@ readings:
     -
       title: "Acte du IIème Concile du Vatican : L’Église"
       subtitle: L’amour maternel de Marie
-      content: "Par le dessein de la Providence, la bienheureuse Vierge Marie était prédestinée de toute éternité à être la Mère de Dieu en liaison avec l’incarnation du Verbe divin. Elle a été sur cette terre la sainte Mère du Rédempteur, sa généreuse coopératrice à un titre unique, et l’humble servante du Seigneur. En concevant le Christ, en le mettant au monde, en le nourrissant, en le présentant dans le temple à son Père, en partageant les souffrances de son Fils qui mourait sur la croix, elle a coopéré à l’œuvre du Sauveur d’une façon absolument incomparable, par son obéissance, sa foi, son espérance, son ardente charité, pour la restauration de la vie surnaturelle dans les âmes. Voilà pourquoi elle est notre mère dans l’ordre de la grâce. Cette maternité de Marie dans la dispensation de la grâce dure toujours. Et cela, depuis le consentement qu’à l’Annonciation elle a donné dans la foi, consentement qu’elle a maintenu avec constance au pied de la croix, jusqu’à ce que le nombre des élus ait atteint son éternel achèvement. En effet, au ciel, après son Assomption, elle n’a pas abandonné cette fonction pour l’accomplissement de notre salut ; par de multiples intercessions, elle continue à nous obtenir les dons qui assurent notre salut éternel. Son amour maternel la rend attentive aux frères de son Fils qui n’ont pas achevé leur pèlerinage, et qui vivent au milieu des dangers et des angoisses, jusqu’à ce qu’ils aient le bonheur de parvenir à la patrie. C’est pourquoi la bienheureuse Vierge est invoquée dans l’Église sous les titres d’Avocate, d’Auxiliatrice, de Secourable, de Médiatrice. Mais il faut entendre cela de telle sorte que rien ne soit enlevé ni ajouté à la dignité et àl’efficacité du Christ, unique Médiateur. En effet, aucune créature ne peut jamais être égalée au Verbe incarné, au Rédempteur. Mais, de même que le sacerdoce du Christ est participé de manières diverses soit par les ministres, soit par le peuple fidèle ; de même que l’unique bonté de Dieu se répand réellement sur les créatures de diverses façons : ainsi l’unique médiation du Rédempteur n’exclut pas, mais suscite une coopération variée, participée différemment par les créatures, à partir d’une source unique. Cette fonction subordonnée de Marie, l’Église la professe sans hésitation. Elle ne cesse d’en faire l’expérience et elle la présente avec faveur à l’amour des fidèles, afin que s’appuient sur ce secours maternel pour s’unir plus profondément à notre Médiateur et Sauveur."
+      content: |
+        Par le dessein de la Providence, la bienheureuse Vierge Marie était prédestinée de toute éternité à être la Mère de Dieu en liaison avec l’incarnation du Verbe divin. Elle a été sur cette terre la sainte Mère du Rédempteur, sa généreuse coopératrice à un titre unique, et l’humble servante du Seigneur. En concevant le Christ, en le mettant au monde, en le nourrissant, en le présentant dans le temple à son Père, en partageant les souffrances de son Fils qui mourait sur la croix, elle a coopéré à l’œuvre du Sauveur d’une façon absolument incomparable, par son obéissance, sa foi, son espérance, son ardente charité, pour la restauration de la vie surnaturelle dans les âmes. Voilà pourquoi elle est notre mère dans l’ordre de la grâce.
+        Cette maternité de Marie dans la dispensation de la grâce dure toujours. Et cela, depuis le consentement qu’à l’Annonciation elle a donné dans la foi, consentement qu’elle a maintenu avec constance au pied de la croix, jusqu’à ce que le nombre des élus ait atteint son éternel achèvement. En effet, au ciel, après son Assomption, elle n’a pas abandonné cette fonction pour l’accomplissement de notre salut ; par de multiples intercessions, elle continue à nous obtenir les dons qui assurent notre salut éternel.
+        Son amour maternel la rend attentive aux frères de son Fils qui n’ont pas achevé leur pèlerinage, et qui vivent au milieu des dangers et des angoisses, jusqu’à ce qu’ils aient le bonheur de parvenir à la patrie.
+        C’est pourquoi la bienheureuse Vierge est invoquée dans l’Église sous les titres d’Avocate, d’Auxiliatrice, de Secourable, de Médiatrice. Mais il faut entendre cela de telle sorte que rien ne soit enlevé ni ajouté à la dignité et àl’efficacité du Christ, unique Médiateur.
+        En effet, aucune créature ne peut jamais être égalée au Verbe incarné, au Rédempteur. Mais, de même que le sacerdoce du Christ est participé de manières diverses soit par les ministres, soit par le peuple fidèle ; de même que l’unique bonté de Dieu se répand réellement sur les créatures de diverses façons : ainsi l’unique médiation du Rédempteur n’exclut pas, mais suscite une coopération variée, participée différemment par les créatures, à partir d’une source unique.
+        Cette fonction subordonnée de Marie, l’Église la professe sans hésitation. Elle ne cesse d’en faire l’expérience et elle la présente avec faveur à l’amour des fidèles, afin que s’appuient sur ce secours maternel pour s’unir plus profondément à notre Médiateur et Sauveur.
       responsory: |
+        R/ Tu es la gloire de notre peuple, Vierge Marie !
+        
         Ton nom sera, de par Dieu, pour toujours ;
         « Celle qui a trouvé grâce devant lui ».
         
@@ -212,6 +262,7 @@ readings:
   verse: |
     V/ Heureux ceux qui écoutent la parole de Dieu.
     Heureux ceux qui la mettent en pratique.
+
 middleOfDay:
   tierce:
     antiphon: Unanimes, les Apôtres persévéraient dans la prière, avec Marie, la Mère de Jésus.
@@ -240,6 +291,8 @@ middleOfDay:
 vespers:
   hymn:
     - humble-servante-du-seigneur
+    - vous-etes-sans-pareille
+    - ave-maris-stella
   psalmody:
     -
       psalm: PSALM_121

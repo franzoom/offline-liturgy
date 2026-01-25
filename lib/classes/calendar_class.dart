@@ -22,6 +22,24 @@ class DayContent {
   });
 }
 
+class FeastItem {
+  final int precedence;
+  final String celebrationTitle;
+  final String? color;
+  final bool celebrable;
+
+  const FeastItem({
+    required this.precedence,
+    required this.celebrationTitle,
+    this.color,
+    required this.celebrable,
+  });
+
+  @override
+  String toString() =>
+      'FeastItem(precedence=$precedence, celebrable=$celebrable, title="$celebrationTitle")';
+}
+
 class Calendar {
   final Map<DateTime, DayContent> calendarData = {};
   Calendar(); // default constructor
@@ -201,55 +219,6 @@ class Calendar {
         dayContent.feastList.remove(precedence);
       }
     }
-  }
-
-  /// function that returns the list of Feasts for the day
-  /// sorted by priority.
-  /// !!! Ordinary Time must be displayed before facultative memorials
-  List<MapEntry<int, String>> getSortedItemsForDay(DateTime date) {
-    final dayContent = calendarData[date];
-    if (dayContent == null) return [];
-
-    // Collect feastCelebrations and track min precedence in single pass
-    final List<MapEntry<int, String>> feastCelebrations = [];
-    int? minHighPrecedence; // smallest precedence between 1-6
-    bool hasPrecedenceBelow10 = false;
-
-    void trackPrecedence(int precedence) {
-      if (precedence >= 1 && precedence <= 6) {
-        minHighPrecedence =
-            (minHighPrecedence == null || precedence < minHighPrecedence!)
-                ? precedence
-                : minHighPrecedence;
-      }
-      if (precedence <= 9) hasPrecedenceBelow10 = true;
-    }
-
-    // Add elements from feastList
-    for (final entry in dayContent.feastList.entries) {
-      final precedence = entry.key;
-      trackPrecedence(precedence);
-      for (final title in entry.value) {
-        feastCelebrations.add(MapEntry(precedence, title));
-      }
-    }
-
-    // Add default celebration
-    trackPrecedence(dayContent.precedence);
-    feastCelebrations.add(
-        MapEntry(dayContent.precedence, dayContent.defaultCelebrationTitle));
-
-    // Filter based on precedence rules
-    if (minHighPrecedence != null) {
-      // Keep only items with the highest priority (1-6)
-      feastCelebrations.removeWhere((item) => item.key != minHighPrecedence);
-    } else if (hasPrecedenceBelow10) {
-      // Remove items with precedence > 9
-      feastCelebrations.removeWhere((item) => item.key > 9);
-    }
-
-    feastCelebrations.sort((a, b) => a.key.compareTo(b.key));
-    return feastCelebrations;
   }
 }
 

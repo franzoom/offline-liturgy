@@ -1,6 +1,7 @@
 import 'package:yaml/yaml.dart';
 import '../../classes/readings_class.dart';
 import '../../tools/data_loader.dart';
+import '../../tools/convert_yaml_to_dart.dart';
 
 /// Extracts Readings data from a YAML file
 /// Reads the file via DataLoader, parses only the 'readings' section
@@ -18,7 +19,7 @@ Future<Readings> readingsExtract(
 
   // Parse YAML and convert to Dart types
   final yamlData = loadYaml(fileContent);
-  final data = _convertYamlToDart(yamlData);
+  final data = convertYamlToDart(yamlData);
 
   // Create Readings from data (from 'readings' section if exists, otherwise empty)
   Readings readings;
@@ -37,16 +38,4 @@ Future<Readings> readingsExtract(
 
   print('=== readingsExtract SUCCESS ===');
   return readings;
-}
-
-/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
-dynamic _convertYamlToDart(dynamic value) {
-  if (value is YamlMap) {
-    return value
-        .map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
-  } else if (value is YamlList) {
-    return value.map((item) => _convertYamlToDart(item)).toList();
-  } else {
-    return value;
-  }
 }

@@ -2,6 +2,7 @@ import 'package:yaml/yaml.dart';
 import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
+import '../../tools/convert_yaml_to_dart.dart';
 
 /// Extracts Morning data from a YAML file
 /// Reads the file via DataLoader, parses only the 'morning' section
@@ -19,7 +20,7 @@ Future<Morning> morningExtract(
 
   // Parse YAML and convert to Dart types
   final yamlData = loadYaml(fileContent);
-  final data = _convertYamlToDart(yamlData);
+  final data = convertYamlToDart(yamlData);
 
   // Extract oration from root level if present
   List<String> oration = List<String>.from(data['oration'] ?? []);
@@ -59,15 +60,4 @@ Future<Morning> morningExtract(
 
   print('=== morningExtract SUCCESS ===');
   return morning;
-}
-
-/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
-dynamic _convertYamlToDart(dynamic value) {
-  if (value is YamlMap) {
-    return value.map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
-  } else if (value is YamlList) {
-    return value.map((item) => _convertYamlToDart(item)).toList();
-  } else {
-    return value;
-  }
 }

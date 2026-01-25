@@ -9,7 +9,7 @@ DateTime dayShift(DateTime date, int shift) {
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
 /// Special cases: christmas_26 to christmas_31 are NOT ferial days (they are proper celebrations)
-bool isFerialDay(String celebrationCode) {
+bool ferialDayCheck(String celebrationCode) {
   // Special christmas days (26-31 Dec) are NOT ferial days
   final specialChristmasPattern =
       RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');

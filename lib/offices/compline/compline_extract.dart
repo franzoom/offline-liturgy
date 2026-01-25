@@ -1,6 +1,7 @@
 import 'package:yaml/yaml.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/constants.dart';
+import '../../tools/convert_yaml_to_dart.dart';
 
 /// Helper function to search for celebrationTitle key in a YAML file
 Future<String> complineTitleExtract(
@@ -18,7 +19,7 @@ Future<String> complineTitleExtract(
     }
 
     final yamlData = loadYaml(content);
-    final data = _convertYamlToDart(yamlData);
+    final data = convertYamlToDart(yamlData);
 
     // Return the celebrationTitle value if it exists
     // First, get the 'celebration' Map
@@ -33,16 +34,4 @@ Future<String> complineTitleExtract(
     return '';
   }
   return complineTitle;
-}
-
-/// Recursively converts YamlMap/YamlList to Map<String, dynamic>/List<dynamic>
-dynamic _convertYamlToDart(dynamic value) {
-  if (value is YamlMap) {
-    return value
-        .map((key, val) => MapEntry(key.toString(), _convertYamlToDart(val)));
-  } else if (value is YamlList) {
-    return value.map((item) => _convertYamlToDart(item)).toList();
-  } else {
-    return value;
-  }
 }

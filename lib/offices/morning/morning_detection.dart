@@ -6,53 +6,116 @@ import '../../tools/date_tools.dart';
 import '../../tools/constants.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
-///returns a list of possible Morning Offices, sorted by precedence (highest first)
-Future<Map<String, MorningDefinition>> morningDetection2(
+/// Returns a map of possible Morning Offices, sorted by precedence (lowest first)
+/// Key: celebration title from YAML (or resolved ferial name)
+/// Value: MorningDefinition with all celebration data
+Future<Map<String, MorningDefinition>> morningDetection(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
-  final celebrationDatas = calendar.getSortedItemsForDay2(date);
-  // If no data for this day, return empty map
-  if (celebrationDatas == null) {
+  // Get day content directly from calendar
+  final dayContent = calendar.getDayContent(date);
+  if (dayContent == null) {
     return {};
   }
-  //retreive datas from celebrationDatas
-  final String rootColor = celebrationDatas.color;
-  final int? breviaryWeek = celebrationDatas.breviaryWeek;
-  final String liturgicalTime = celebrationDatas.liturgicalTime;
-  final List<FeastItem> celebrationList = celebrationDatas.celebrationList;
 
-  // create objects
-  List<String> commonList = [];
-  bool isCelebrable = true;
+  // Extract root data
+  final String rootColor = dayContent.liturgicalColor;
+  final int? breviaryWeek = dayContent.breviaryWeek;
+  final String liturgicalTime = dayContent.liturgicalTime;
+  final String defaultCelebrationTitle = dayContent.defaultCelebrationTitle;
+  final int defaultPrecedence = dayContent.precedence;
+
+  // Determine ferialCode: root code if it's a ferial day
+  final String ferialCode =
+      ferialDayCheck(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
+
+  // Build list of all celebrations with source tracking
+  // Using record type for sorting: (precedence, code, isFromRoot)
+  final List<({int precedence, String code, bool isFromRoot})> allCelebrations =
+      [];
+
+  // Add celebrations from feastList
+  for (final entry in dayContent.feastList.entries) {
+    final precedence = entry.key;
+    for (final code in entry.value) {
+      allCelebrations.add((
+        precedence: precedence,
+        code: code,
+        isFromRoot: false,
+      ));
+    }
+  }
+
+  // Add default celebration from root
+  allCelebrations.add((
+    precedence: defaultPrecedence,
+    code: defaultCelebrationTitle,
+    isFromRoot: true,
+  ));
+
+  // Check if there's a high priority celebration (precedence <= 6)
+  final bool hasHighPriority =
+      allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 6);
+
+  // Sort: by precedence ascending, with special rule for ferial days (precedence 13)
+  // Ferial days at precedence 13 should come before optional memorials (precedence 12)
+  allCelebrations.sort((a, b) {
+    // Calculate effective precedence for sorting
+    // Ferial day at 13 becomes 11.5 (between 11 and 12)
+    double getEffectivePrecedence(
+        ({int precedence, String code, bool isFromRoot}) c) {
+      if (c.precedence == 13 && ferialDayCheck(c.code)) {
+        return 11.5; // Place ferial 13 before optional memorials (12)
+      }
+      return c.precedence.toDouble();
+    }
+
+    final aEffective = getEffectivePrecedence(a);
+    final bEffective = getEffectivePrecedence(b);
+
+    if (aEffective != bEffective) {
+      return aEffective.compareTo(bEffective);
+    }
+    // Same precedence: root first (isFromRoot=true comes before isFromRoot=false)
+    if (a.isFromRoot != b.isFromRoot) {
+      return a.isFromRoot ? -1 : 1;
+    }
+    return 0;
+  });
 
   // Build the map of possible morning offices
   final Map<String, MorningDefinition> possibleMornings = {};
 
-  for (final celebration in celebrationList) {
-    final String celebrationCode = celebration.celebrationTitle;
+  for (final celebration in allCelebrations) {
+    final String celebrationCode = celebration.code;
     final int precedence = celebration.precedence;
-    final bool celebrable = celebration.celebrable;
 
-    // Initialize liturgicalColor for this celebration (default: liturgical time color)
+    // Determine isCelebrable based on precedence rules
+    // If hasHighPriority (<=6), celebrations with precedence > 6 are not celebrable
+    final bool isCelebrable = hasHighPriority ? (precedence <= 6) : true;
+
+    // Initialize with default values
     String celebrationLiturgicalColor = rootColor;
-
-    // Get display name for celebration
     String celebrationName = celebrationCode;
-    String mapKey = celebrationCode; // Default key is the code
-    String? celebrationDescription; // Description from YAML
-    String ferialCode = celebrationCode;
-    // Try to load celebration title from YAML files
-    if (!ferialDayCheck(celebrationCode)) {
-      // Try to load from special_days first
+    String mapKey = celebrationCode;
+    String? celebrationDescription;
+    List<String> commonList = [];
+
+    // Resolve celebration name and data
+    if (ferialDayCheck(celebrationCode)) {
+      // Ferial day: resolve name using ferialNameResolution
+      celebrationName = ferialNameResolution(celebrationCode);
+      mapKey = celebrationName;
+    } else {
+      // Non-ferial: load data from YAML files
+      // Try special_days first, then sanctoral
       String fileContent =
           await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
-      // If not found in special_days, try sanctoral
       if (fileContent.isEmpty) {
         fileContent = await dataLoader
             .loadYaml('$sanctoralFilePath/$celebrationCode.yaml');
       }
 
       if (fileContent.isNotEmpty) {
-        // Parse YAML and convert to Dart types
         final yamlData = loadYaml(fileContent);
         final data = convertYamlToDart(yamlData);
         if (data['celebration'] != null) {
@@ -60,15 +123,13 @@ Future<Map<String, MorningDefinition>> morningDetection2(
           final String? title = celebrationData['title'] as String?;
           final String? subtitle = celebrationData['subtitle'] as String?;
           celebrationDescription = celebrationData['description'] as String?;
-          // Update liturgicalColor from celebration data (override if specified)
           celebrationLiturgicalColor =
               celebrationData['color'] as String? ?? celebrationLiturgicalColor;
           commonList = List<String>.from(celebrationData['commons'] ?? []);
-          isCelebrable = celebrable;
 
-          // Build display name from title and subtitle (separated by comma)
+          // Use title as map key, build full name with subtitle
           if (title != null && title.isNotEmpty) {
-            mapKey = title; // Use title as map key
+            mapKey = title;
             celebrationName = title;
             if (subtitle != null && subtitle.isNotEmpty) {
               celebrationName += ', $subtitle';
@@ -76,15 +137,8 @@ Future<Map<String, MorningDefinition>> morningDetection2(
           }
         }
       } else {
-        print('failed to load $celebrationCode.yaml');
-        isCelebrable = false;
+        print('Warning: failed to load $celebrationCode.yaml');
       }
-      // If file not found or empty, keep the original code as name and key
-    } else {
-      // For ferial days:
-      ferialCode = celebrationCode;
-      celebrationName = ferialNameResolution(ferialCode);
-      mapKey = celebrationName;
     }
 
     possibleMornings[mapKey] = MorningDefinition(
@@ -100,11 +154,14 @@ Future<Map<String, MorningDefinition>> morningDetection2(
       celebrationDescription: celebrationDescription,
     );
   }
+
   print(
       '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
 }
 
+/// old morningDetection function. Kept for legacy
+/*
 ///returns a list of possible Morning Offices, sorted by precedence (highest first)
 Future<Map<String, MorningDefinition>> morningDetection(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
@@ -228,3 +285,4 @@ Future<Map<String, MorningDefinition>> morningDetection(
       '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
 }
+*/

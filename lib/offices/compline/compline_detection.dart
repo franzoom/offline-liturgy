@@ -5,7 +5,7 @@ import '../../tools/date_tools.dart';
 import '../../tools/data_loader.dart';
 import 'package:offline_liturgy/assets/libraries/french_liturgy_labels.dart';
 
-Future<Map<String, ComplineDefinition>> complineDetection(
+Future<Map<String, ComplineDefinition>> complineDetectionX(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
   /// Detects which Compline to use for a given day.
   /// Returns a Map "day or feast name". One of this offices will be

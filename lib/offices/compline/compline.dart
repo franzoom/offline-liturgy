@@ -11,7 +11,7 @@ import '../../assets/compline/compline_advent_time.dart';
 import '../../assets/compline/compline_christmas_time.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/data_loader.dart';
-import 'compline_detection.dart';
+import 'compline_detection_v2.dart';
 
 Future<Map<String, ComplineDefinition>> complineResolution(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {

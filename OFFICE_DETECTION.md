@@ -42,33 +42,33 @@ The system uses a **common detection function** (`detectCelebrations`) that hand
 ## Architecture: Function + Wrappers
 
 ```
-                         ┌─────────────────────────┐
-                         │   detectCelebrations    │
-                         │   (common function)     │
-                         │                         │
-                         │ • Calendar lookup       │
-                         │ • Sorting by precedence │
-                         │ • Parallel YAML loading │
-                         │ • YAML parsing          │
-                         └───────────┬─────────────┘
-                                     │
-                                     │  List<DetectedCelebration>
-                                     │
-     ┌───────────────┬───────────────┼───────────────┬───────────────┐
-     │               │               │               │               │
-     ▼               ▼               ▼               ▼               │
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐     │
-│  morning    │ │  readings   │ │ middleOfDay │ │   vespers   │     │
-│  Detection  │ │  Detection  │ │  Detection  │ │  Detection  │     │
-│  (wrapper)  │ │  (wrapper)  │ │  (wrapper)  │ │  (wrapper)  │     │
-│             │ │             │ │             │ │             │     │
-│ Simple      │ │ + Te Deum   │ │ Simple      │ │ + I Vêpres  │     │
-│ conversion  │ │ computation │ │ conversion  │ │ (tomorrow)  │     │
-└──────┬──────┘ └──────┬──────┘ └──────┬──────┘ └──────┬──────┘     │
-       │               │               │               │            │
-       ▼               ▼               ▼               ▼            ▼
-   Morning         Readings       MiddleOfDay      Vespers       + more
-  Definition      Definition      Definition      Definition    wrappers
+                              ┌─────────────────────────┐
+                              │   detectCelebrations    │
+                              │   (common function)     │
+                              │                         │
+                              │ • Calendar lookup       │
+                              │ • Sorting by precedence │
+                              │ • Parallel YAML loading │
+                              │ • YAML parsing          │
+                              └───────────┬─────────────┘
+                                          │
+                                          │  List<DetectedCelebration>
+                                          │
+     ┌────────────┬────────────┬──────────┼──────────┬────────────┐
+     │            │            │          │          │            │
+     ▼            ▼            ▼          ▼          ▼            ▼
+┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐
+│ morning  │ │ readings │ │middleOf  │ │ vespers  │ │ compline │
+│Detection │ │Detection │ │  Day     │ │Detection │ │Detection │
+│(wrapper) │ │(wrapper) │ │Detection │ │(wrapper) │ │(wrapper) │
+│          │ │          │ │(wrapper) │ │          │ │          │
+│ Simple   │ │+ Te Deum │ │ Simple   │ │+ I Vêpres│ │+ Eve     │
+│conversion│ │          │ │conversion│ │(tomorrow)│ │+ dayOfWk │
+└────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘
+     │            │            │            │            │
+     ▼            ▼            ▼            ▼            ▼
+  Morning     Readings    MiddleOfDay   Vespers     Compline
+ Definition  Definition   Definition  Definition  Definition
 ```
 
 ## Wrapper Details
@@ -173,6 +173,54 @@ Handles **First Vespers** (I Vêpres) logic by looking at tomorrow's celebration
               └─────────────────────────────┘
 ```
 
+### Compline Detection (`compline_detection_v2.dart`)
+
+Complines are special - they depend on the **day of the week** (for psalm selection) and handle **Eve Complines** like First Vespers.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│              Compline-specific logic                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  dayOfWeek ────────────► Determines which psalms to use     │
+│  • monday, tuesday...    (stored in Dart files, not YAML)   │
+│  • sunday for solemnities                                   │
+│  • saturday for eve                                         │
+│                                                             │
+│  celebrationType ──────► Determines variations              │
+│  • 'normal': regular weekday                                │
+│  • 'solemnity': uses Sunday psalms                          │
+│  • 'solemnityeve': uses Saturday psalms                     │
+│  • 'holy_thursday', etc.: special cases                     │
+│                                                             │
+│  isEveCompline ────────► Like isFirstVespers                │
+│  • Looks at tomorrow for solemnities/Sundays                │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+```
+       Today                         Tomorrow
+  detectCelebrations            detectCelebrations
+         │                              │
+         │                              │ Filter: precedence ≤ 4
+         │                              │         OR Sunday
+         ▼                              ▼
+  ┌─────────────┐              ┌─────────────────┐
+  │ Today's     │              │ Eve Complines   │
+  │ Complines   │              │ candidates      │
+  └──────┬──────┘              └────────┬────────┘
+         │                              │
+         └──────────┬───────────────────┘
+                    │
+                    ▼
+       Map<String, ComplineDefinition>
+       ┌───────────────────────────────────────┐
+       │ "Complies du lundi"                   │ ← isEveCompline: false
+       │ "Complies de la veille de Noël"       │ ← isEveCompline: true
+       └───────────────────────────────────────┘
+```
+
 ## Example: December 24th Evening
 
 ```
@@ -236,13 +284,17 @@ lib/
 │   │   └── readings_detection_v2.dart      # New wrapper + Te Deum
 │   ├── middle_of_day/
 │   │   └── middle_of_day_detection_v2.dart # New wrapper
-│   └── vespers/
-│       └── vespers_detection_v2.dart       # New wrapper + I Vêpres
+│   ├── vespers/
+│   │   └── vespers_detection_v2.dart       # New wrapper + I Vêpres
+│   └── compline/
+│       ├── compline_detection.dart         # Original (legacy)
+│       └── compline_detection_v2.dart      # New wrapper + Eve + dayOfWeek
 └── classes/
     ├── morning_class.dart                  # Morning + MorningDefinition
     ├── readings_class.dart                 # Readings + ReadingsDefinition
     ├── middle_of_day_class.dart            # MiddleOfDay + MiddleOfDayDefinition
-    └── vespers_class.dart                  # Vespers + VespersDefinition
+    ├── vespers_class.dart                  # Vespers + VespersDefinition
+    └── compline_class.dart                 # Compline + ComplineDefinition
 ```
 
 ## Adding a New Office Type

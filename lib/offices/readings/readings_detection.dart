@@ -7,7 +7,7 @@ import '../../tools/constants.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
 ///returns a list of possible Readings Offices, sorted by precedence (highest first)
-Future<Map<String, ReadingsDefinition>> readingsDetection(
+Future<Map<String, ReadingsDefinition>> readingsDetectionX(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
   // Get day content from calendar
   final dayContent = calendar.getDayContent(date);

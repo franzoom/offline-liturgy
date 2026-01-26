@@ -6,6 +6,57 @@ import '../../tools/date_tools.dart';
 import '../../tools/constants.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
+/// Data extracted from a celebration YAML file
+class _CelebrationYamlData {
+  final String? title;
+  final String? subtitle;
+  final String? description;
+  final String? color;
+  final List<String> commons;
+
+  const _CelebrationYamlData({
+    this.title,
+    this.subtitle,
+    this.description,
+    this.color,
+    this.commons = const [],
+  });
+}
+
+/// Parses celebration data from YAML content
+/// Returns null if parsing fails or content is invalid
+_CelebrationYamlData? _parseCelebrationYaml(String fileContent) {
+  if (fileContent.isEmpty) return null;
+
+  try {
+    final yamlData = loadYaml(fileContent);
+    final data = convertYamlToDart(yamlData);
+
+    if (data is! Map<String, dynamic> || data['celebration'] == null) {
+      return null;
+    }
+
+    final celebrationData = data['celebration'];
+    if (celebrationData is! Map<String, dynamic>) {
+      return null;
+    }
+
+    final commons = celebrationData['commons'];
+    final commonsList =
+        commons is List ? commons.whereType<String>().toList() : <String>[];
+
+    return _CelebrationYamlData(
+      title: celebrationData['title'] as String?,
+      subtitle: celebrationData['subtitle'] as String?,
+      description: celebrationData['description'] as String?,
+      color: celebrationData['color'] as String?,
+      commons: commonsList,
+    );
+  } catch (e) {
+    return null;
+  }
+}
+
 /// Returns a map of possible Morning Offices, sorted by precedence (lowest first)
 /// Key: celebration title from YAML (or resolved ferial name)
 /// Value: MorningDefinition with all celebration data
@@ -85,6 +136,43 @@ Future<Map<String, MorningDefinition>> morningDetection(
   // Build the map of possible morning offices
   final Map<String, MorningDefinition> possibleMornings = {};
 
+  // Filter non-ferial celebrations for parallel YAML loading
+  final nonFerialCelebrations =
+      allCelebrations.where((c) => !ferialDayCheck(c.code)).toList();
+
+  // Load all non-ferial YAML files in parallel (special_days first)
+  final specialLoadFutures = nonFerialCelebrations
+      .map((c) => dataLoader.loadYaml('$specialFilePath/${c.code}.yaml'));
+  final specialResults = await Future.wait(specialLoadFutures);
+
+  // For empty results, try sanctoral in parallel
+  final sanctoralIndices = <int>[];
+  for (int i = 0; i < specialResults.length; i++) {
+    if (specialResults[i].isEmpty) {
+      sanctoralIndices.add(i);
+    }
+  }
+
+  final sanctoralLoadFutures = sanctoralIndices.map((i) => dataLoader
+      .loadYaml('$sanctoralFilePath/${nonFerialCelebrations[i].code}.yaml'));
+  final sanctoralResults = await Future.wait(sanctoralLoadFutures);
+
+  // Build a map of celebration code -> file content
+  final Map<String, String> fileContents = {};
+  for (int i = 0; i < nonFerialCelebrations.length; i++) {
+    final code = nonFerialCelebrations[i].code;
+    if (specialResults[i].isNotEmpty) {
+      fileContents[code] = specialResults[i];
+    }
+  }
+  for (int i = 0; i < sanctoralIndices.length; i++) {
+    final code = nonFerialCelebrations[sanctoralIndices[i]].code;
+    if (sanctoralResults[i].isNotEmpty) {
+      fileContents[code] = sanctoralResults[i];
+    }
+  }
+
+  // Process all celebrations (ferial and non-ferial)
   for (final celebration in allCelebrations) {
     final String celebrationCode = celebration.code;
     final int precedence = celebration.precedence;
@@ -106,38 +194,28 @@ Future<Map<String, MorningDefinition>> morningDetection(
       celebrationName = ferialNameResolution(celebrationCode);
       mapKey = celebrationName;
     } else {
-      // Non-ferial: load data from YAML files
-      // Try special_days first, then sanctoral
-      String fileContent =
-          await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
-      if (fileContent.isEmpty) {
-        fileContent = await dataLoader
-            .loadYaml('$sanctoralFilePath/$celebrationCode.yaml');
-      }
+      // Non-ferial: use pre-loaded YAML data
+      final fileContent = fileContents[celebrationCode] ?? '';
+      final yamlData = _parseCelebrationYaml(fileContent);
 
-      if (fileContent.isNotEmpty) {
-        final yamlData = loadYaml(fileContent);
-        final data = convertYamlToDart(yamlData);
-        if (data['celebration'] != null) {
-          final celebrationData = data['celebration'] as Map<String, dynamic>;
-          final String? title = celebrationData['title'] as String?;
-          final String? subtitle = celebrationData['subtitle'] as String?;
-          celebrationDescription = celebrationData['description'] as String?;
-          celebrationLiturgicalColor =
-              celebrationData['color'] as String? ?? celebrationLiturgicalColor;
-          commonList = List<String>.from(celebrationData['commons'] ?? []);
+      if (yamlData != null) {
+        celebrationDescription = yamlData.description;
+        celebrationLiturgicalColor =
+            yamlData.color ?? celebrationLiturgicalColor;
+        commonList = yamlData.commons;
 
-          // Use title as map key, build full name with subtitle
-          if (title != null && title.isNotEmpty) {
-            mapKey = title;
-            celebrationName = title;
-            if (subtitle != null && subtitle.isNotEmpty) {
-              celebrationName += ', $subtitle';
-            }
+        // Use title as map key, build full name with subtitle
+        if (yamlData.title != null && yamlData.title!.isNotEmpty) {
+          mapKey = yamlData.title!;
+          celebrationName = yamlData.title!;
+          if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
+            celebrationName += ', ${yamlData.subtitle}';
           }
         }
-      } else {
+      } else if (fileContent.isEmpty) {
         print('Warning: failed to load $celebrationCode.yaml');
+      } else {
+        print('Warning: failed to parse $celebrationCode.yaml');
       }
     }
 
@@ -159,130 +237,3 @@ Future<Map<String, MorningDefinition>> morningDetection(
       '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
 }
-
-/// old morningDetection function. Kept for legacy
-/*
-///returns a list of possible Morning Offices, sorted by precedence (highest first)
-Future<Map<String, MorningDefinition>> morningDetection(
-    Calendar calendar, DateTime date, DataLoader dataLoader) async {
-  // Get day content from calendar
-  final dayContent = calendar.getDayContent(date);
-  List<String> commonList = [];
-  // If no data for this day, return empty map
-  if (dayContent == null) {
-    return {};
-  }
-
-  // Build list of all possible celebrations
-  final List<MapEntry<int, String>> allCelebrations = [];
-
-  // Add celebrations from feastList map
-  dayContent.feastList.forEach((precedence, titles) {
-    for (var title in titles) {
-      print('============ MORNING DETECTION: $precedence, $title');
-      allCelebrations.add(MapEntry(precedence, title));
-    }
-  });
-
-  // Add default celebration from calendar root
-  String liturgicalColor =
-      dayContent.liturgicalColor.isNotEmpty ? dayContent.liturgicalColor : '';
-  String defaultCelebrationTitle = dayContent.defaultCelebrationTitle;
-  allCelebrations.add(MapEntry(dayContent.precedence, defaultCelebrationTitle));
-  print(
-      '============ MORNING DETECTION: ${dayContent.precedence}, $defaultCelebrationTitle');
-  // detects if there is a ferialCode in order to pass it to the MorningResolution procedure
-  String ferialCode =
-      ferialDayCheck(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
-
-  // Sort by precedence (lowest number = highest precedence)
-  allCelebrations.sort((a, b) => a.key.compareTo(b.key));
-
-  // Find the highest precedence (lowest number)
-  final int highestPrecedence =
-      allCelebrations.isNotEmpty ? allCelebrations.first.key : 999;
-
-  // Build the map of possible morning offices
-  final Map<String, MorningDefinition> possibleMornings = {};
-
-  for (final celebration in allCelebrations) {
-    final celebrationCode = celebration.value;
-    final precedence = celebration.key;
-
-    // Determine if celebrable:
-    // - If highest precedence is 1-8: only celebrations with highest precedence are celebrable
-    // - If highest precedence is 9+: all celebrations are celebrable
-    bool isCelebrable =
-        highestPrecedence >= 9 || precedence == highestPrecedence;
-
-    // Initialize liturgicalColor for this celebration (default: liturgical time color)
-    String celebrationLiturgicalColor = liturgicalColor;
-
-    // Get display name for celebration
-    String celebrationName = celebrationCode;
-    String mapKey = celebrationCode; // Default key is the code
-    String? celebrationDescription; // Description from YAML
-
-    // Try to load celebration title from YAML files
-    if (!ferialDayCheck(celebrationCode)) {
-      // Try to load from special_days first
-      String fileContent =
-          await dataLoader.loadYaml('$specialFilePath/$celebrationCode.yaml');
-      // If not found in special_days, try sanctoral
-      if (fileContent.isEmpty) {
-        fileContent = await dataLoader
-            .loadYaml('$sanctoralFilePath/$celebrationCode.yaml');
-      }
-
-      if (fileContent.isNotEmpty) {
-        // Parse YAML and convert to Dart types
-        final yamlData = loadYaml(fileContent);
-        final data = convertYamlToDart(yamlData);
-        if (data['celebration'] != null) {
-          final celebrationData = data['celebration'] as Map<String, dynamic>;
-          final String? title = celebrationData['title'] as String?;
-          final String? subtitle = celebrationData['subtitle'] as String?;
-          celebrationDescription = celebrationData['description'] as String?;
-          // Update liturgicalColor from celebration data (override if specified)
-          celebrationLiturgicalColor =
-              celebrationData['color'] as String? ?? celebrationLiturgicalColor;
-          commonList = List<String>.from(celebrationData['commons'] ?? []);
-
-          // Build display name from title and subtitle (separated by comma)
-          if (title != null && title.isNotEmpty) {
-            mapKey = title; // Use title as map key
-            celebrationName = title;
-            if (subtitle != null && subtitle.isNotEmpty) {
-              celebrationName += ', $subtitle';
-            }
-          }
-        }
-      } else {
-        print('failed to load $celebrationCode.yaml');
-        isCelebrable = false;
-      }
-      // If file not found or empty, keep the original code as name and key
-    } else {
-      // For ferial days:
-      celebrationName = ferialNameResolution(ferialCode);
-      mapKey = celebrationName;
-    }
-
-    possibleMornings[mapKey] = MorningDefinition(
-      morningDescription: celebrationName,
-      celebrationCode: celebrationCode,
-      ferialCode: ferialCode,
-      commonList: commonList,
-      liturgicalTime: dayContent.liturgicalTime,
-      breviaryWeek: dayContent.breviaryWeek?.toString(),
-      precedence: precedence,
-      liturgicalColor: celebrationLiturgicalColor,
-      isCelebrable: isCelebrable,
-      celebrationDescription: celebrationDescription,
-    );
-  }
-  print(
-      '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION - Possible Morning Offices: $possibleMornings');
-  return possibleMornings;
-}
-*/

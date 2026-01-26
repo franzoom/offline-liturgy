@@ -15,5 +15,8 @@ export 'offices/morning/morning_detection_v2.dart';
 export 'classes/readings_class.dart';
 export 'offices/readings/readings.dart';
 export 'offices/readings/readings_detection_v2.dart';
+export 'classes/vespers_class.dart';
+export 'offices/vespers/vespers.dart';
+export 'offices/vespers/vespers_detection_v2.dart';
 export 'offices/compline/compline_detection_v2.dart';
 export 'offices/compline/compline_display.dart';

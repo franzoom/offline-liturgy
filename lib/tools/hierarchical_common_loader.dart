@@ -1,9 +1,11 @@
 import '../classes/morning_class.dart';
 import '../classes/readings_class.dart';
+import '../classes/vespers_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/constants.dart';
 import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
+import '../offices/vespers/vespers_extract.dart';
 
 /// Builds the hierarchy of common file names from a common name.
 /// For example: 'saints-female_religious_paschal' returns:
@@ -51,6 +53,22 @@ Future<Readings> loadReadingsHierarchicalCommon(
   for (String level
       in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
     Readings levelData = await readingsExtract(
+        '$commonsFilePath/$level.yaml', context.dataLoader);
+    result.overlayWith(levelData);
+  }
+  return result;
+}
+
+/// Loads a common with hierarchical inheritance for Vespers.
+/// Each more specific level overrides data from more general levels.
+Future<Vespers> loadVespersHierarchicalCommon(
+    CelebrationContext context) async {
+  if (context.common == null) return Vespers();
+
+  Vespers result = Vespers();
+  for (String level
+      in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
+    Vespers levelData = await vespersExtract(
         '$commonsFilePath/$level.yaml', context.dataLoader);
     result.overlayWith(levelData);
   }

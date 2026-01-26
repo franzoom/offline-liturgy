@@ -171,7 +171,13 @@ Future<List<DetectedCelebration>> detectCelebrations(
   // Load all non-ferial YAML files in parallel (special_days first)
   final specialLoadFutures = nonFerialCelebrations
       .map((c) => dataLoader.loadYaml('$specialFilePath/${c.code}.yaml'));
-  final specialResults = await Future.wait(specialLoadFutures);
+  final List<String> specialResults;
+  try {
+    specialResults = await Future.wait(specialLoadFutures);
+  } catch (e) {
+    print('Error loading special_days YAML files: $e');
+    return [];
+  }
 
   // For empty results, try sanctoral in parallel
   final sanctoralIndices = <int>[];
@@ -183,7 +189,13 @@ Future<List<DetectedCelebration>> detectCelebrations(
 
   final sanctoralLoadFutures = sanctoralIndices.map((i) => dataLoader
       .loadYaml('$sanctoralFilePath/${nonFerialCelebrations[i].code}.yaml'));
-  final sanctoralResults = await Future.wait(sanctoralLoadFutures);
+  final List<String> sanctoralResults;
+  try {
+    sanctoralResults = await Future.wait(sanctoralLoadFutures);
+  } catch (e) {
+    print('Error loading sanctoral YAML files: $e');
+    return [];
+  }
 
   // Build a map of celebration code -> file content
   final Map<String, String> fileContents = {};

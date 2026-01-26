@@ -60,7 +60,7 @@ _CelebrationYamlData? _parseCelebrationYaml(String fileContent) {
 /// Returns a map of possible Morning Offices, sorted by precedence (lowest first)
 /// Key: celebration title from YAML (or resolved ferial name)
 /// Value: MorningDefinition with all celebration data
-Future<Map<String, MorningDefinition>> morningDetection(
+Future<Map<String, MorningDefinition>> morningDetectionX(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
   // Get day content directly from calendar
   final dayContent = calendar.getDayContent(date);

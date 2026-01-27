@@ -1,20 +1,22 @@
 celebration:
   title: Présentation du Seigneur au Temple
   color: white
+
+oration:
+  - |
+    Dieu éternel et tout-puissant, nous t’adressons cette humble prière : puisque  ton Fils unique, ayant revêtu notre chair, fut en ce jour présenté dans le Temple,  fais que nous puissions aussi, avec une âme purifiée, nous présenter devant toi.
+
 firstVespers:
   hymn:
     - la-lumiere-est-entree-dans-le-monde
   psalmody:
-    -
-      psalm: PSALM_112
+    - psalm: PSALM_112
       antiphon:
         - Joseph et Marie portèrent l’enfant à Jérusalem pour le présenter au Seigneur.
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - "Prépare-toi, Jérusalem ! Prépare ton ccœur : accueille ton Roi !"
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - "Syméon, tu es béni de Dieu : tu as pris dans tes bras le Christ, le Seigneur, le Sauveur de son peuple."
   reading:
@@ -31,16 +33,16 @@ firstVespers:
   intercession:
     content: |
       R/ Ouvre nos yeux, Seigneur, aux merveilles de ton amour !
-      
+
       Toi qui es lumière pour le monde,
       — suscite la foi au cœur de tout homme
-      
+
       Toi la gloire de ton peuple,
       — fais de l’Église le signe du salut offert à tous les peuples.
-      
+
       Toi qui as mis au cœur de Syméon le désir de te voir,
       — viens au-devant de ceux qui t’attendant sans le savoir.
-      
+
       Toi qui as associé ta mère à ton offrande,
       — souviens-toi de ceux qui communient à ta passion.
 
@@ -49,16 +51,72 @@ invitatory:
     - le Seigneur entre aujourd’hui dans son Temple. Venez, adorons-le !
     - Gloire au Messie de Dieu, à l’envoyé du Seigneur !
 
+readings:
+  hymn:
+    - nous-te-cherchions
+  psalmody:
+    - psalm: PSALM_2
+      antiphon:
+        - "Votre Sauveur vient, dit le Seigneur : je serai son Père, il sera mon Fils."
+    - psalm: PSALM_18A
+      antiphon:
+        - "Debout, Jérusalem ! Resplendis : elle est venue, ta lumière, et la gloire du Seigneur s’est levée sur toi."
+    - psalm: PSALM_44
+      antiphon:
+        - "Chante et réjouis-toi, nouvelle Jérusalem : voici ton Roi. C’est lui ton Sauveur."
+  verse: |
+    Dieu, nous rappelons ton amour
+    au milieu de ton temple.
+  biblicalReading:
+    - title: Les premiers nés
+      ref: Ex 13, 1-3a.11-16
+      content: |
+        Le Seigneur adressa la parole à Moïse : « Consacre-moi tout premier-né, ouvrant le sein maternel, parmi les fils d’Israël, parmi les hommes comme parmi le bétail. C’est à moi. » 
+        Moïse dit au peuple : « Qu’on se souvienne de ce jour où vous êtes sortis d’Égypte, de la maison de servitude, car c’est à main forte que le Seigneur vous a fait sortir de là.
+        Quand le Seigneur t’aura fait entrer dans le pays du Cananéen — comme il l’a juré à toi et à tes pères — et qu’il te l’aura donné, tu feras passer au Seigneur tout ce qui ouvre le sein maternel et tout ce qui ouvre la matrice du bétail qui t’appartient : les mâles sont au Seigneur !
+        Tout premier-né des ânes, tu le rachèteras par un mouton. Si tu ne le rachètes pas, tu lui rompras la nuque. Tout premier-né d’homme parmi tes fils, tu le rachèteras.
+        Alors, quand ton fils te demandera demain : ‘Pourquoi cela ?’, tu lui diras : ‘C’est à main forte que le Seigneur nous a fait sortir d’Égypte, de la maison de servitude. En effet, comme Pharaon faisait des difficultés pour nous laisser partir, le SEIGNEUR tua tout premier-né au pays d’Égypte, du premier-né de l’homme au premier-né du bétail. C’est pourquoi je sacrifie au Seigneur tout male qui ouvre le sein maternel, mais tout premier-né de mes fils, je le rachète.
+        C’est à main forte que le Seigneur nous a fait sortir d’Égypte : voilà qui te tiendra lieu de signe sur la main et de marque entre les yeux. »
+      responsory: |
+        R/ Le Fils de Dieu est présenté au Temple,
+        offrande parfaite à son Père.
+
+        La Vierge a enfanté un fils,
+        Jésus, le Premier-né.
+
+        Il est venu accomplir la loi,
+        achever sur la croix l’œuvre du Père.
+
+  patristicReading:
+    - title: SERMON DE S. SOPHRONE DE JÉRUSALEM POUR LA FÊTE DES LUMIÈRES
+      subtitle: Recevoir la lumière.
+      content: |
+        Allons à la rencontre du Christ, nous tous qui honorons et vénérons son mystère avec tant de ferveur, avançons vers lui dans l’enthousiasme. Que tous sans exception participent à cette rencontre, que tous sans exception y portent leurs lumières.
+        Si nos cierges procurent un tel éclat, c’est d’abord pour montrer la splendeur divine de celui qui vient, qui fait resplendir l’univers et l’inonde d’une lumière éternelle en repoussant les ténèbres mauvaises ; c’est aussi et surtout pour manifester avec quelle splendeur de notre âme, nous-mêmes devons aller à la rencontre du Christ.
+        De même, en effet, que la Mère de Dieu, la Vierge très pure, a porté dans ses bras la véritable lumière à la rencontre de ceux qui gisaient dans les ténèbres ; de même nous, illuminés par ses rayons et tenant en mains une lumière visible pour tous, hâtons-nous vers celui qui est vraiment la lumière.
+        C’est évident : puisque *la lumière est venue dans le monde *et l’a illuminé alors qu’il baignait dans les ténèbres, puisque *le Soleil levant qui vient d’en haut nous a visités*, ce mystère est le nôtre. C’est pour cela que nous avançons en tenant des cierges, c’est pour cela que nous accourons en portant des lumières, afin de signifier la lumière qui a brillé pour nous, mais aussi afin d’évoquer la splendeur que cette lumière nous donnera. Courons donc ensemble, allons tous à la rencontre de Dieu. ~
+        Cette lumière véritable, *qui éclaire tout homme venant en ce monde*, voici qu’elle vient. Soyons-en tous illuminés, mes frères, soyons-en tous resplendissants.
+        Que nul d’entre nous ne demeure à l’écart de cette lumière, comme un étranger ; que nul, alors qu’il en est inondé, ne s’obstine à rester plongé dans la nuit. Avançons tous dans la lumière, tous ensemble, illuminés, marchons à sa rencontre, avec le vieillard Syméon, accueillons cette lumière glorieuse et éternelle. Avec lui, exultons de tout notre cœur et chantons une hymne d’action de grâce à Dieu, Père de la lumière, qui nous a envoyé la clarté véritable pour chasser les ténèbres et nous rendre resplendissants. *Le salut *de Dieu, *qu’il a préparé à la face de tous les peuples *et qu’il a manifesté *pour la gloire *du nouvel *Israël *que nous sommes, voilà que* nous l’avons vu *à notre tour, grâce au Christ ; et nous avons été aussitôt délivrés de la nuit de l’antique péché, comme Syméon le fut des liens de la vie présente, en voyant le Christ.
+        Nous aussi, en embrassant par la foi le Christ venu de Bethléem à notre rencontre, nous qui venions *des nations païennes*, nous sommes devenus le peuple de Dieu, car c’est le Christ qui est *le salut *de Dieu le Père. Nous avons vu de nos yeux Dieu qui s’est fait chair. Maintenant que la présence de Dieu s’est montrée et que nous l’avons accueillie dans notre âme, nous sommes appelés le nouvel Israël : et nous célébrons sa venue par une fête annuelle pour ne jamais risquer de l’oublier.
+      responsory: |
+        R/ Croyons en la lumière,
+        pour devenir fils de lumière.
+
+        Peuple de Dieu, temple vivant du Seigneur,
+        accueille ton Roi, le fils de la Vierge Marie.
+
+        Syméon plein de joie l'a reçu dans ses bras.
+        Aujourd'hui reconnais-le dans sa faiblesse
+        et rends grâce à Dieu.
+
 morning:
   hymn:
     - symeon-conduit-par-l-esprit
   psalmody:
-    -
-      psalm: PSALM_62
+    - psalm: PSALM_62
       antiphon:
         - Syméon attendait la consolation d’Israël et l’Esprit du Seigneur était sur lui.
-    -
-      psalm: OT_41
+    - psalm: OT_41
       antiphon:
         - Syméon prit l’enfant dans ses bras et bénit le Seigneur.
   reading:
@@ -80,78 +138,16 @@ morning:
     content: |
       Seigneur Jésus, toi qui as voulu, pour accomplir la Loi, être présenté à ton Père,
       — apprends-nous à nous offrir avec toi dans l’eucharistie de ton Église.
-      
+
       Jésus, toi qui venais à la rencontre de ton peuple quand Syméon t’accueillit dans le temple,
       — accorde-nous d’aller au-devant de nos frères.
-      
+
       Jésus, attente des nations, toi qui fus reconnu par la prophétesse Anne,
       — dis-nous comment parler de toi.
-      
+
       Jésus, toi qui es pour le monde un signe de contradiction,
       — sois le salut préparé à la face des peuples.
-readings:
-  hymn:
-    - nous-te-cherchions
-  psalmody:
-    -
-      psalm: PSALM_2
-      antiphon:
-        - "Votre Sauveur vient, dit le Seigneur : je serai son Père, il sera mon Fils."
-    -
-      psalm: PSALM_18A
-      antiphon:
-        - "Debout, Jérusalem ! Resplendis : elle est venue, ta lumière, et la gloire du Seigneur s’est levée sur toi."
-    -
-      psalm: PSALM_44
-      antiphon:
-        - "Chante et réjouis-toi, nouvelle Jérusalem : voici ton Roi. C’est lui ton Sauveur."
-  biblicalReading:
-    -
-      title: Les premiers nés
-      ref: Ex 13, 1-3a.11-16
-      content: |
-        Le Seigneur adressa la parole à Moïse : « Consacre-moi tout premier-né, ouvrant le sein maternel, parmi les fils d’Israël, parmi les hommes comme parmi le bétail. C’est à moi. » 
-        Moïse dit au peuple : « Qu’on se souvienne de ce jour où vous êtes sortis d’Égypte, de la maison de servitude, car c’est à main forte que le Seigneur vous a fait sortir de là.
-        Quand le Seigneur t’aura fait entrer dans le pays du Cananéen — comme il l’a juré à toi et à tes pères — et qu’il te l’aura donné, tu feras passer au Seigneur tout ce qui ouvre le sein maternel et tout ce qui ouvre la matrice du bétail qui t’appartient : les mâles sont au Seigneur !
-        Tout premier-né des ânes, tu le rachèteras par un mouton. Si tu ne le rachètes pas, tu lui rompras la nuque. Tout premier-né d’homme parmi tes fils, tu le rachèteras.
-        Alors, quand ton fils te demandera demain : ‘Pourquoi cela ?’, tu lui diras : ‘C’est à main forte que le Seigneur nous a fait sortir d’Égypte, de la maison de servitude. En effet, comme Pharaon faisait des difficultés pour nous laisser partir, le SEIGNEUR tua tout premier-né au pays d’Égypte, du premier-né de l’homme au premier-né du bétail. C’est pourquoi je sacrifie au Seigneur tout male qui ouvre le sein maternel, mais tout premier-né de mes fils, je le rachète.
-        C’est à main forte que le Seigneur nous a fait sortir d’Égypte : voilà qui te tiendra lieu de signe sur la main et de marque entre les yeux. »
-      responsory: |
-        R/ Le Fils de Dieu est présenté au Temple,
-        offrande parfaite à son Père.
 
-        La Vierge a enfanté un fils,
-        Jésus, le Premier-né.
-
-        Il est venu accomplir la loi,
-        achever sur la croix l’œuvre du Père.
-
-  patristicReading:
-    -
-      title: SERMON DE S. SOPHRONE DE JÉRUSALEM POUR LA FÊTE DES LUMIÈRES
-      subtitle: Recevoir la lumière.
-      content: |
-        Allons à la rencontre du Christ, nous tous qui honorons et vénérons son mystère avec tant de ferveur, avançons vers lui dans l’enthousiasme. Que tous sans exception participent à cette rencontre, que tous sans exception y portent leurs lumières.
-        Si nos cierges procurent un tel éclat, c’est d’abord pour montrer la splendeur divine de celui qui vient, qui fait resplendir l’univers et l’inonde d’une lumière éternelle en repoussant les ténèbres mauvaises ; c’est aussi et surtout pour manifester avec quelle splendeur de notre âme, nous-mêmes devons aller à la rencontre du Christ.
-        De même, en effet, que la Mère de Dieu, la Vierge très pure, a porté dans ses bras la véritable lumière à la rencontre de ceux qui gisaient dans les ténèbres ; de même nous, illuminés par ses rayons et tenant en mains une lumière visible pour tous, hâtons-nous vers celui qui est vraiment la lumière.
-        C’est évident : puisque *la lumière est venue dans le monde *et l’a illuminé alors qu’il baignait dans les ténèbres, puisque *le Soleil levant qui vient d’en haut nous a visités*, ce mystère est le nôtre. C’est pour cela que nous avançons en tenant des cierges, c’est pour cela que nous accourons en portant des lumières, afin de signifier la lumière qui a brillé pour nous, mais aussi afin d’évoquer la splendeur que cette lumière nous donnera. Courons donc ensemble, allons tous à la rencontre de Dieu. ~
-        Cette lumière véritable, *qui éclaire tout homme venant en ce monde*, voici qu’elle vient. Soyons-en tous illuminés, mes frères, soyons-en tous resplendissants.
-        Que nul d’entre nous ne demeure à l’écart de cette lumière, comme un étranger ; que nul, alors qu’il en est inondé, ne s’obstine à rester plongé dans la nuit. Avançons tous dans la lumière, tous ensemble, illuminés, marchons à sa rencontre, avec le vieillard Syméon, accueillons cette lumière glorieuse et éternelle. Avec lui, exultons de tout notre cœur et chantons une hymne d’action de grâce à Dieu, Père de la lumière, qui nous a envoyé la clarté véritable pour chasser les ténèbres et nous rendre resplendissants. *Le salut *de Dieu, *qu’il a préparé à la face de tous les peuples *et qu’il a manifesté *pour la gloire *du nouvel *Israël *que nous sommes, voilà que* nous l’avons vu *à notre tour, grâce au Christ ; et nous avons été aussitôt délivrés de la nuit de l’antique péché, comme Syméon le fut des liens de la vie présente, en voyant le Christ.
-        Nous aussi, en embrassant par la foi le Christ venu de Bethléem à notre rencontre, nous qui venions *des nations païennes*, nous sommes devenus le peuple de Dieu, car c’est le Christ qui est *le salut *de Dieu le Père. Nous avons vu de nos yeux Dieu qui s’est fait chair. Maintenant que la présence de Dieu s’est montrée et que nous l’avons accueillie dans notre âme, nous sommes appelés le nouvel Israël : et nous célébrons sa venue par une fête annuelle pour ne jamais risquer de l’oublier.
-      responsory: |
-        R/ Croyons en la lumière,
-        pour devenir fils de lumière.
-
-        Peuple de Dieu, temple vivant du Seigneur,
-        accueille ton Roi, le fils de la Vierge Marie.
-
-        Syméon plein de joie l'a reçu dans ses bras.
-        Aujourd'hui reconnais-le dans sa faiblesse
-        et rends grâce à Dieu.
-
-  verse: |
-    Dieu, nous rappelons ton amour
-    au milieu de ton temple.
 middleOfDay:
   tierce:
     reading:
@@ -174,20 +170,18 @@ middleOfDay:
     responsory: |
       V/Amour et vérité se rencontrent,
       justice et paix s’embrassent.
+
 vespers:
   hymn:
     - tenez-en-vos-mains
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - L’Esprit Saint avait révélé à Syméon qu’il ne mourrait pas avant d’avoir vu le Messie.
-    -
-      psalm: PSALM_129
+    - psalm: PSALM_129
       antiphon:
         - Pour consacrer l’enfant au Seigneur, ils présentèrent en offrande deux petites colombes.
-    -
-      psalm: NT_6
+    - psalm: NT_6
       antiphon:
         - Mes yeux ont vu le salut que tu préparais à la face des peuples.
   reading:
@@ -203,17 +197,15 @@ vespers:
   intercession:
     content: |
       R/Ouvre nos yeux, Seigneur, aux merveilles de ton amour !
-      
+
       Toi qui es lumière pour le monde,
       — suscite la foi au cœur de tout homme.
-      
+
       Toi la gloire de ton peuple,
       — fais de l’Église le signe du salut offert à tous les peuples.
-      
+
       Toi qui as mis au cœur de Syméon le désir de te voir,
       — viens au-devant de ceux qui t’attendent sans le savoir.
-      
+
       Toi qui as associé ta mère à ton offrande,
       — souviens-toi de ceux qui communient à ta passion.
-oration:
-  - "Dieu éternel et tout-puissant, nous t’adressons cette humble prière : puisque  ton Fils unique, ayant revêtu notre chair, fut en ce jour présenté dans le Temple,  fais que nous puissions aussi, avec une âme purifiée, nous présenter devant toi."

@@ -3,84 +3,26 @@ celebration:
   subtitle: prêtre et docteur de l’Église
   description: Jean de la Croix (1542‑1591), religieux carme espagnol, rencontra à vingt‑cinq ans Thérèse d’Avila, la réformatrice du Carmel. Il voulut adopter, lui aussi, l’observance primitive, mais ses supérieurs s’y opposèrent violemment. La persécution ne fit qu’aider à son union avec Dieu sur les sommets de la vie mystique, dont ses écrits ont gardé la brûlure.
   color: white
-morning:
-  hymn: |
-    Toute forme évanouie,
-    vers la seule Figure
-    tu guides notre vie,
-    Jean de la Croix,
-    à travers la nuit obscure
-    de la foi.
-    
-    R/ Sans autre lumière
-    que celle du cœur,
-    nous passerons la dernière
-    frontière
-    vers le Seigneur.
-    
-    Aucun piège ne retient
-    ta vigilance extrême,
-    ni chair, ni monde, rien,
-    ni la beauté,
-    et tu vas jusqu’à, toi-même,
-    te quitter.
-    
-    Sur la pente que ton pas
-    encore nous signale,
-    nous entendons ta voix
-    prier l’Epoux
-    de rompre l’ultime voile
-    entre vous.
-    
-    Quand la parole se tait,
-    quand le silence explique,
-    au creux de ton secret
-    illuminé,
-    Il te rencontre, l’unique
-    Bien-Aimé.
-readings:
-  patristicReading:
-    -
-      title: LE CANTIQUE SPIRITUEL (1584) DE S. JEAN DE LA CROIX
-      content: |
-        Malgré tous les mystères et toutes les merveilles que les saints docteurs ont découverts ou que les saintes âmes ont pu contempler ici-bas, la plus grande partie en reste encore à dire et même à concevoir. Ce qui est dans le Christ est inépuisable ! C’est comme une mine abondante remplie d’une infinité de filons avec des richesses sans nombre ; on a beau y puiser, on n’en voit jamais le terme ; bien plus, chaque repli renferme ici et là de nouveaux filons à richesses nouvelles ; ce qui faisait dire à saint Paul du Christ :*Dans le Christ se trouvent cachés tous les trésors de la sagesse et de la connaissance de Dieu*. Mais l’âme ne peut y pénétrer ni les atteindre, si, comme nous l’avons dit, elle ne passe pas d’abord et n’entre pas dans la profondeur des souffrances extérieures et intérieures ; il faut, de plus, qu’elle ait reçu de Dieu une foule de faveurs intellectuelles et sensibles, et qu’elle se soit exercée longtemps dans la spiritualité ; ces faveurs sont en effet d’un ordre inférieur : ce sont des dispositions pour arriver aux cavernes élevées de la connaissance des mystères du Christ, la plus haute sagesse à laquelle on puisse parvenir ici-bas.
-        
-        Oh ! si l’on finissait enfin par comprendre qu’il est impossible de parvenir à la profondeur de la sagesse et des richesses de Dieu sans pénétrer dans la profondeur de la souffrance de mille manières, l’âme y mettant sa joie et ses désirs (*afin de comprendre avec tous les saints quelle en est la largeur et la longueur, la hauteur et la profondeur*) ! L’âme qui désire vraiment la sagesse désire aussi vraiment entrer plus avant dans les profondeurs de la Croix qui est le chemin de la vie ; mais peu y entrent. Tous veulent entrer dans les profondeurs de la sagesse, des richesses et des délices de Dieu, mais peu désirent entrer dans la profondeur des souffrances et des douleurs endurées par le Fils de Dieu : on dirait que beaucoup voudraient être déjà parvenus au terme sans prendre le chemin et le moyen qui y conduit.
-      responsory: R/ Qui nous fera comprendre pourquoi l’homme peine à chercher sans jamais atteindre ?
-vespers:
-  hymn: |
-    Toute forme évanouie,
-    vers la seule Figure
-    tu guides notre vie,
-    Jean de la Croix,
-    à travers la nuit obscure
-    de la foi.
-    
-    R/ Sans autre lumière
-    que celle du cœur,
-    nous passerons la dernière
-    frontière
-    vers le Seigneur.
-    
-    Aucun piège ne retient
-    ta vigilance extrême,
-    ni chair, ni monde, rien,
-    ni la beauté,
-    et tu vas jusqu’à, toi-même,
-    te quitter.
-    
-    Sur la pente que ton pas
-    encore nous signale,
-    nous entendons ta voix
-    prier l’Epoux
-    de rompre l’ultime voile
-    entre vous.
-    
-    Quand la parole se tait,
-    quand le silence explique,
-    au creux de ton secret
-    illuminé,
-    Il te rencontre, l’unique
-    Bien-Aimé.
+  commons:
+    - pastors
+    - doctors
+
 oration:
   - Dieu qui inspiras à ton prêtre saint Jean un extraordinaire amour de la croix et le renoncement total à lui-même, fais qu’en nous attachant à le suivre, nous parvenions à la contemplation éternelle de ta gloire.
+
+readings:
+  patristicReading:
+    - title: LE CANTIQUE SPIRITUEL (1584) DE S. JEAN DE LA CROIX
+      content: |
+        Malgré tous les mystères et toutes les merveilles que les saints docteurs ont découverts ou que les saintes âmes ont pu contempler ici-bas, la plus grande partie en reste encore à dire et même à concevoir. Ce qui est dans le Christ est inépuisable ! C’est comme une mine abondante remplie d’une infinité de filons avec des richesses sans nombre ; on a beau y puiser, on n’en voit jamais le terme ; bien plus, chaque repli renferme ici et là de nouveaux filons à richesses nouvelles ; ce qui faisait dire à saint Paul du Christ : *Dans le Christ se trouvent cachés tous les trésors de la sagesse et de la connaissance de Dieu*. Mais l’âme ne peut y pénétrer ni les atteindre, si, comme nous l’avons dit, elle ne passe pas d’abord et n’entre pas dans la profondeur des souffrances extérieures et intérieures ; il faut, de plus, qu’elle ait reçu de Dieu une foule de faveurs intellectuelles et sensibles, et qu’elle se soit exercée longtemps dans la spiritualité ; ces faveurs sont en effet d’un ordre inférieur : ce sont des dispositions pour arriver aux cavernes élevées de la connaissance des mystères du Christ, la plus haute sagesse à laquelle on puisse parvenir ici-bas.
+        Oh ! si l’on finissait enfin par comprendre qu’il est impossible de parvenir à la profondeur de la sagesse et des richesses de Dieu sans pénétrer dans la profondeur de la souffrance de mille manières, l’âme y mettant sa joie et ses désirs (*afin de comprendre avec tous les saints quelle en est la largeur et la longueur, la hauteur et la profondeur*) ! L’âme qui désire vraiment la sagesse désire aussi vraiment entrer plus avant dans les profondeurs de la Croix qui est le chemin de la vie ; mais peu y entrent. Tous veulent entrer dans les profondeurs de la sagesse, des richesses et des délices de Dieu, mais peu désirent entrer dans la profondeur des souffrances et des douleurs endurées par le Fils de Dieu : on dirait que beaucoup voudraient être déjà parvenus au terme sans prendre le chemin et le moyen qui y conduit.
+      responsory: |
+        R/ Qui nous fera comprendre pourquoi l’homme
+        peine à chercher sans jamais atteindre ?
+
+morning:
+  hymn: toute-forme-evanouie
+    
+
+vespers:
+  hymn: toute-forme-evanouie

@@ -5,13 +5,14 @@ celebration:
   commons:
     - virgins
   color: white
-morning:
-  evangelicAntiphon:
-    common: "Vierge sage, elle a rejoint le Christ : parmi les saints du ciel, elle resplendit comme le soleil."
+
+oration:
+  - "En célébrant la mémoire de sainte Scholastique, Seigneur, nous te prions : fais que nous sachions, nous aussi, te servir avec une charité sans défaut et goûter la douceur de ton amour."
+
+
 readings:
   patristicReading:
-    -
-      title: DIALOGUES DE S. GRÉGOIRE LE GRAND
+    - title: DIALOGUES DE S. GRÉGOIRE LE GRAND
       content: |
         Scholastique, sœur de saint Benoît, consacrée à Dieu tout-puissant dès son enfance, venait voir son frère une fois par an. L’homme de Dieu se rendait vers elle dans le domaine du monastère, sans dépasser beaucoup la porte.
         Un jour, elle vint comme d’habitude, et son vénérable frère se rendit vers elle avec ses disciples. Ils passèrent toute la journée dans les louanges de Dieu et de saints entretiens. Quand la nuit tomba, ils mangèrent ensemble. Comme il se faisait tard, avec ces saints entretiens, la moniale lui fit cette demande : «Je t’en prie, ne me quitte pas cette nuit ; parlons jusqu’au matin des joies de la vie céleste. » Il lui répondit : « Que dis-tu là, ma sœur ? Je ne puis aucunement demeurer hors du monastère.»
@@ -30,9 +31,9 @@ readings:
         Quelle espérance vous tient éveillées,
         vierges sages,
         et quelle promesse de joie ?
-        
+
         R/ Heureux les invités aux noces de l’Agneau !
-        
+
         Vers la ténèbre lumineuse vos regards sont levés,
         et Dieu qui vous attend comblera seul votre quête.
 
@@ -45,5 +46,7 @@ readings:
         À travers l’amour qui brûle en vous, servantes du Seigneur,
         le cœur de Dieu nous presse de l’aimer sans partage.
 
-oration:
-  - "En célébrant la mémoire de sainte Scholastique, Seigneur, nous te prions : fais que nous sachions, nous aussi, te servir avec une charité sans défaut et goûter la douceur de ton amour."
+morning:
+  evangelicAntiphon:
+    common: |
+      Vierge sage, elle a rejoint le Christ : parmi les saints du ciel, elle resplendit comme le soleil.

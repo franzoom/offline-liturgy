@@ -1,7 +1,9 @@
 readings:
+  verse: |
+    V/ Ils ont publié l’œuvre de Dieu, alléluia,
+    ils ont compris ses merveilles, alléluia.
   biblicalReading:
-    -
-      title: Les Apôtres dans la primitive Église
+    - title: Les Apôtres dans la primitive Église
       ref: Ac 5, 12-32
       content: |
         Beaucoup de signes et de prodiges s’accomplissaient dans le peuple par la main des Apôtres. Ils se tenaient tous, unanimes, sous le portique de Salomon, mais personne d’autre n’osait s’agréger à eux ; le peuple faisait pourtant leur éloge, et des multitudes de plus en plus nombreuses d’hommes et de femmes se ralliaient, par la foi, au Seigneur. On en venait à sortir les malades dans les rues, on les plaçait sur des lits ou des civières, afin que Pierre, au passage, touche au moins l’un ou l’autre de son ombre. La multitude accourait aussi des localités voisines de Jérusalem, portant des malades et des gens que tourmentaient des esprits impurs, et tous étaient guéris.
@@ -16,18 +18,17 @@ readings:
         et riches de ton seul amour,
         ils vont donner ta joie
         à ceux qui les écoutent et te reçoivent
-        
+
         R/ Merveille de ta grâce !
         tu confies à des hommes les secrets du Père
-        
+
         Messagers de la Bonne Nouvelle,
         ils annoncent la paix aux limites du monde.
-        
+
         Heureux le peuple où il en est ainsi,
         heureux le peuple dont le Seigneur est le Dieu !
-  verse: |
-    V/ Ils ont publié l’œuvre de Dieu, alléluia,
-    ils ont compris ses merveilles, alléluia.
+
+
 middleOfDay:
   tierce:
     responsory: |
@@ -41,6 +42,8 @@ middleOfDay:
     responsory: |
       V/ Réjouissez-vous, exultez, dit le Seigneur, alléluia,
       vos noms sont inscrits dans les cieux, alléluia.
+
+
 vespers:
   hymn:
     - un-grand-vent-s-est-leve-alleluia

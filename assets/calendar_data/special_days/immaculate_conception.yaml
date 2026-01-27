@@ -1,21 +1,21 @@
 celebration:
   title: Immaculée Conception
-  subtitle: sous-titre
   commons:
     - virgin-mary
   color: white
+
+oration:
+  - Seigneur, tu as préparé à ton Fils une demeure digne de lui par la conception immaculée de la Vierge ; puisque tu l’as préservée de tout péché par une grâce venant déjà de la mort de ton Fils, accorde-nous, à l’intercession de cette Mère très pure, de parvenir jusqu’à toi, purifiés, nous aussi, de tout mal.
+
 firstVespers:
   psalmody:
-    -
-      psalm: PSALM_112
+    - psalm: PSALM_112
       antiphon:
         - Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance.
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - Le Seigneur m’a vêtue des vêtements du salut, il m’a couverte du manteau de la justice.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Réjouis-toi, Marie, comblée de grâce, le Seigneur est avec toi.
   reading:
@@ -32,59 +32,29 @@ firstVespers:
     devant toutes les nations. R/
   evangelicAntiphon:
     common: "Le Seigneur a fait pour toi des merveilles : tous les âges te diront bienheureuse."
-morning:
-  hymn:
-    - voici-l-aurore-avant-le-jour
-  psalmody:
-    -
-      psalm: PSALM_62
-      antiphon:
-        - Ô Vierge très pure, mère sans péché, dans ton sein tu as porté le Seigneur ton Dieu !
-    -
-      psalm: OT_41
-      antiphon:
-        - Tu es bénie du Très-Haut, Vierge Marie, tu es bénie entre toutes les femmes.
-    -
-      psalm: PSALM_149
-      antiphon:
-        - "Entraîne-nous, Vierge très pure : que nous courions sur tes pas à l’odeur de tes parfums !"
-  reading:
-    biblicalReference: Is 43, 1
-    content: C’est moi qui t’ai créé, Jacob, qui t’ai formé, Israël. Ne crains pas, car je t’ai racheté, je t’ai appelé par ton nom, tu m’appartiens.
-  responsory: |
-    R/ Mon âme exalte le Seigneur :
-    éternel est son amour !
-    V/ Chante et réjouis-toi, fille de Sion,
-    ton Dieu est au milieu de toi. R/
-    V/ Dieu pour toi exulte de joie,
-    il te renouvelle par son amour. R/
-  evangelicAntiphon:
-    common: "Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance : elle t’écrasera la tête. Alléluia."
+
 readings:
   hymn:
     - voici-l-aurore-avant-le-jour
   psalmody:
-    -
-      psalm: PSALM_23
+    - psalm: PSALM_23
       antiphon:
         - Marie obtiendra bénédiction du Seigneur, et justice de Dieu, son Sauveur.
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - Dieu la reconnut dès l’aurore, le Très-Haut a sanctifié sa demeure.
-    -
-      psalm: PSALM_86
+    - psalm: PSALM_86
       antiphon:
         - "On chante ta gloire, ô Marie : car le Puissant a fait pour toi des merveilles."
+  verse: |
+    V/ Le Seigneur m’a comblée de joie,
+    il m’a revêtue de sainteté.
   biblicalReading:
-    -
-      title: Là où le péché a proliféré, la grâce a surabondé
+    - title: Là où le péché a proliféré, la grâce a surabondé
       ref: Rm 5, 12-21
       content: |
         Nous savons que par un seul homme, le péché est entré dans le monde, et que par le péché est venue la mort ; et ainsi, la mort est passée en tous les hommes, étant donné que tous ont péché. Avant la loi de Moïse, le péché était déjà dans le monde, mais le péché ne peut être imputé à personne tant qu’il n’y a pas de loi. Pourtant, depuis Adam jusqu’à Moïse, la mort a établi son règne, même sur ceux qui n’avaient pas péché par une transgression semblable à celle d’Adam. Or, Adam préfigure celui qui devait venir.
-        
         Mais il n’en va pas du don gratuit comme de la faute. En effet, si la mort a frappé la multitude par la faute d’un seul, combien plus la grâce de Dieu s’est-elle répandue en abondance sur la multitude, cette grâce qui est donnée en un seul homme, Jésus Christ. Le don de Dieu et les conséquences du péché d’un seul n’ont pas la même mesure non plus : d’une part, en effet, pour la faute d’un seul, le jugement a conduit à la condamnation ; d’autre part, pour une multitude de fautes, le don gratuit de Dieu conduit à la justification. Si, en effet, à cause d’un seul homme, par la faute d’un seul, la mort a établi son règne, combien plus, à cause de Jésus Christ et de lui seul, régneront-ils dans la vie, ceux qui reçoivent en abondance le don de la grâce qui les rend justes.
-        
         Bref, de même que la faute commise par un seul a conduit tous les hommes à la condamnation, de même l’accomplissement de la justice par un seul a conduit tous les hommes à la justification qui donne la vie. En effet, de même que par la désobéissance d’un seul être humain la multitude a été rendue pécheresse, de même par l’obéissance d’un seul la multitude sera-t-elle rendue juste. Quant à la loi de Moïse, elle est intervenue pour que se multiplie la faute ; mais là où le péché s’est multiplié, la grâce a surabondé. Ainsi donc, de même que le péché a établi son règne de mort, de même la grâce doit établir son règne en rendant juste pour la vie éternelle par Jésus Christ notre Seigneur.
       responsory: |
         Voici la nouvelle Genèse :
@@ -105,15 +75,12 @@ readings:
 
         Le Seigneur fera germer l’action de grâce
         devant toutes les nations.
-        
+
   patristicReading:
-    -
-      title: PRIÈRE DE S. ANSELME À MARIE
+    - title: PRIÈRE DE S. ANSELME À MARIE
       content: |
         Le ciel et les astres, la terre et les fleuves, le jour et la nuit, et tout ce qui obéit ou sert à l’homme, se félicite d’être par toi, ô notre Dame, rendu en quelque sorte à sa beauté première, et même doté d’une grâce nouvelle et ineffable. Car tous, pour ainsi dire, étaient morts, alors que dépouillés de leur dignité naturelle, qui est d’être au pouvoir et au service de ceux qui louent Dieu — c’est là le motif même de leur création — ils étaient opprimés et dégradés par un culte idolâtrique, étranger au but de leur existence. Ils se réjouissent donc d’être comme ressuscités, puisque désormais les voilà soumis à la domination et embellis par l’usage des adorateurs du vrai Dieu. Ils ont comme exulté lorsque leur fut accordée la faveur, nouvelle et inestimable, non seulement de sentir invisiblement au-dessus d’eux la royauté de Dieu, leur propre Créateur, mais encore de le voir les sanctifier visiblement, dans leur sphère à eux, en en faisant lui-même usage. Tels sont les si grands biens échus à l’univers, par le fruit béni du sein de Marie, la bénie.
-        
         Par la plénitude de ta grâce, Marie, les êtres retenus en enfer se réjouissent d’être libérés, et les créatures au-delà du ciel d’être restaurées. Oui, c’est bien par ce glorieux Fils de ta glorieuse virginité que tous les justes disparus avant sa mort vivifiante exultent de voir la fin de leur captivité, et les anges, le relèvement de leur cité à moitié détruite. Ô femme remplie et plus que remplie de grâce, dont la surabondante plénitude se répand sur toute la création pour la rétablir ! Ô Vierge bénie et plus que bénie, dont la bénédiction est source de bénédictions pour toute la nature, non seulement pour la nature créée, de la part de son Créateur, mais aussi pour le Créateur, de la part de sa création !
-        
         Dieu a donné son Fils, fruit unique de son cœur, qui était son égal et qu’il aimait comme lui-même : il l’a donné à Marie, et, du sein de Marie, il en fait son Fils, non pas quelqu’un d’autre, mais le même en personne, de sorte qu’il est par sa nature le même Fils unique de Dieu et de Marie. Toute la création est l’œuvre de Dieu, et Dieu est né de Marie ! Dieu a tout créé, et Marie a enfanté Dieu ! Dieu qui a tout formé, s’est formé lui-même du sein de Marie, et ainsi il a refait tout ce qu’il avait fait. Lui qui a pu tout faire de rien, n’a pas voulu refaire sans Marie sa création détruite. Dieu est donc le Père de toutes les choses créées, et Marie la mère de toutes les choses recréées. Dieu est le Père de la création universelle, et Marie la mère de la rédemption universelle. Car Dieu a engendré celui par qui tout a été fait, et Marie a enfanté celui par qui tout a été sauvé. Dieu a engendré celui sans qui absolument rien n’existe, et Marie a enfanté celui sans qui absolument rien n’est bon. Oui,*le Seigneur est*vraiment*avec toi* : il t’a fait un don tel que la nature entière t’est grandement redevable, à toi, en même temps qu’à lui.
       responsory: |
         Voici la nouvelle Genèse :
@@ -122,20 +89,41 @@ readings:
         Notre terre n’est plus maudite,
         nous la verrons bientôt
         donner le fruit de vie.
-        
+
         R/ Avec toi, Marie, Mère du Sauveur,
         nous glorifions la puissance de Dieu.
-  verse: |
-    V/ Le Seigneur m’a comblée de joie,
-    il m’a revêtue de sainteté.
+
+morning:
+  hymn:
+    - voici-l-aurore-avant-le-jour
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Ô Vierge très pure, mère sans péché, dans ton sein tu as porté le Seigneur ton Dieu !
+    - psalm: OT_41
+      antiphon:
+        - Tu es bénie du Très-Haut, Vierge Marie, tu es bénie entre toutes les femmes.
+    - psalm: PSALM_149
+      antiphon:
+        - "Entraîne-nous, Vierge très pure : que nous courions sur tes pas à l’odeur de tes parfums !"
+  reading:
+    biblicalReference: Is 43, 1
+    content: C’est moi qui t’ai créé, Jacob, qui t’ai formé, Israël. Ne crains pas, car je t’ai racheté, je t’ai appelé par ton nom, tu m’appartiens.
+  responsory: |
+    R/ Mon âme exalte le Seigneur :
+    éternel est son amour !
+    V/ Chante et réjouis-toi, fille de Sion,
+    ton Dieu est au milieu de toi. R/
+    V/ Dieu pour toi exulte de joie,
+    il te renouvelle par son amour. R/
+  evangelicAntiphon:
+    common: "Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance : elle t’écrasera la tête. Alléluia."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_122
-    -
-      psalm: PSALM_123
-    -
-      psalm: PSALM_124
+    - psalm: PSALM_122
+    - psalm: PSALM_123
+    - psalm: PSALM_124
   tierce:
     antiphon: "Il est vivant le Seigneur : il m’a comblée de sa miséricorde !"
     reading:
@@ -160,18 +148,16 @@ middleOfDay:
     responsory: |
       V/ Ta conception immaculée, Vierge, Mère de Dieu,
       fut message de joie pour tout l’univers.
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Tu es belle, ô Marie, et la tache originelle n’est pas en toi.
-    -
-      psalm: PSALM_126
+    - psalm: PSALM_126
       antiphon:
         - Tu es la gloire de Jérusalem, tu es la joie de ton peuple, tu es l’honneur de toute l’Église.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Ton vêtement est blanc comme la neige et ton visage est comme le soleil.
   reading:
@@ -186,5 +172,3 @@ vespers:
     tu seras la joie de ton Dieu. R/
   evangelicAntiphon:
     common: "Avec l’Ange, nous te saluons, Marie, comblée de grâce ! Le Seigneur est avec toi : tu es bénie plus que toutes les femmes !"
-oration:
-  - Seigneur, tu as préparé à ton Fils une demeure digne de lui par la conception immaculée de la Vierge ; puisque tu l’as préservée de tout péché par une grâce venant déjà de la mort de ton Fils, accorde-nous, à l’intercession de cette Mère très pure, de parvenir jusqu’à toi, purifiés, nous aussi, de tout mal.

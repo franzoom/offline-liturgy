@@ -2,18 +2,47 @@ invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_23
+      antiphon:
+        - Le Seigneur et le Maître, le Fils de l’homme élevé de terre, attire à lui tous les hommes.
+    - psalm: PSALM_65_1
+      antiphon:
+        - Pour le salut de tout homme, il fallait que le Christ souffre la mort.
+    - psalm: PSALM_65_2
+      antiphon:
+        - Pour le salut de tout homme, il fallait que le Christ souffre la mort.
+  verse: |
+    V/ Tes paroles, Seigneur, sont pour nous l’esprit et la vie.
+    Tu as les paroles de la vie éternelle.
+  biblicalReading:
+    - title: Les consacrés et leur mise à part
+      ref: Lv 8, 1-17; 9, 22-24
+      content: "Le SEIGNEUR parla à Moïse et dit : « Prends Aaron et ses fils avec lui, prends les vêtements sacerdotaux, l’huile d’onction, le taureau du sacrifice pour la faute, les deux béliers et la corbeille des pains sans levain. Puis, rassemble toute la communauté à l’entrée de la tente de la Rencontre. » Moïse fit ce que lui avait ordonné le SEIGNEUR, et la communauté se rassembla à l’entrée de la tente de la Rencontre. Et Moïse dit à la communauté : « Voici ce que le SEIGNEUR a ordonné de faire. » Alors Moïse fit approcher Aaron et ses fils ; il les lava avec de l’eau. Il mit la tunique à Aaron, lui passa la ceinture, le revêtit du manteau et plaça sur lui l’éphod. Puis il le ceignit de l’écharpe de l’éphod et la fixa sur lui. Il mit sur lui le pectoral, dans lequel il plaça les Ourim et les Toummim. Il plaça le turban sur sa tête, et sur le devant du turban le fleuron d’or, le saint diadème, comme le SEIGNEUR l’avait ordonné à Moïse. Moïse prit l’huile d’onction, fit l’onction sur la Demeure et sur tout ce qui s’y trouvait, et les consacra. Il en aspergea sept fois l’autel et fit l’onction de l’autel et de ses accessoires, de la cuve et de son support, pour les consacrer. Il versa un peu de l’huile d’onction sur la tête d’Aaron, lui donnant l’onction pour le consacrer. Alors Moïse fit approcher les fils d’Aaron, les revêtit de tuniques, leur mit une ceinture et les coiffa de tiares, comme le SEIGNEUR le lui avait ordonné. Il fit avancer le taureau du sacrifice pour la faute. Aaron et ses fils posèrent la main sur la tête du taureau du sacrifice pour la faute, et celui-ci fut immolé. Moïse prit le sang et, avec son doigt, il en mit sur les cornes de l’autel, tout autour, pour ôter de l’autel la faute. Puis il versa le sang à la base de l’autel. Alors il consacra l’autel en accomplissant sur lui le rite d’expiation. Moïse prit toute la graisse qui est au-dessus des entrailles, le lobe du foie, et les deux rognons avec leur graisse, et il les fit fumer à l’autel. Mais le reste du taureau, sa peau, sa chair et ses excréments, furent brûlés au feu hors du camp, comme le SEIGNEUR l’avait ordonné à Moïse. Aaron leva alors les mains sur le peuple, et le bénit. Puis il descendit de l’autel, après avoir fait le sacrifice pour la faute, l’holocauste et les sacrifices de paix. Moïse et Aaron entrèrent ensuite dans la tente de la Rencontre. Quand ils en ressortirent, ils bénirent le peuple. Alors la gloire du SEIGNEUR apparut à tout le peuple : un feu sortit de devant le SEIGNEUR et dévora l’holocauste et les graisses sur l’autel. Le peuple vit cela, tous crièrent de joie et tombèrent face contre terre."
+      responsory: |
+        R/ Jésus, tu es prêtre pour l’éternité !
+
+        Tu demeures pour l’éternité,
+        tu sauves pour toujours
+        ceux qui par toi s’approchent de Dieu.
+
+        Tu as prié ton Père :
+        « Pour eux je me consacre moi-même. »
+        Toujours vivant, tu intercèdes pour nous.
+  oration:
+    - Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_117
+    - psalm: PSALM_117
       antiphon:
         - Tu es mon Dieu, je te rends grâce, mon Dieu, je t’exalte.
-    -
-      psalm: OT_40
+    - psalm: OT_40
       antiphon:
         - Dieu fort, arrache-nous à la main du puissant, délivre-nous, Seigneur.
-    -
-      psalm: PSALM_150
+    - psalm: PSALM_150
       antiphon:
         - Louez Dieu pour ses actions éclatantes !
   reading:
@@ -32,80 +61,42 @@ morning:
   intercession:
     content: |
       Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.
-      
+
       R/ Notre Seigneur et notre frère, louange à toi !
-      
+
       Jésus, Fils de Dieu, transfiguré sur la montagne,
       tu nous révèles que la croix est le chemin de ta gloire.
-      
+
       Jésus, don de Dieu, source vive,
       tu apaises notre soif de la vie véritable.
-      
+
       Jésus, lumière du monde, tu rends la vue aux aveugles
       et nous te reconnaissons Fils de Dieu.
-      
+
       Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau
       et tu nous appelles tous à la résurrection.
   oration:
     - Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_23
-      antiphon:
-        - Le Seigneur et le Maître, le Fils de l’homme élevé de terre, attire à lui tous les hommes.
-    -
-      psalm: PSALM_65_1
-      antiphon:
-        - Pour le salut de tout homme, il fallait que le Christ souffre la mort.
-    -
-      psalm: PSALM_65_2
-      antiphon:
-        - Pour le salut de tout homme, il fallait que le Christ souffre la mort.
-  biblicalReading:
-    -
-      title: Les consacrés et leur mise à part
-      ref: Lv 8, 1-17; 9, 22-24
-      content: "Le SEIGNEUR parla à Moïse et dit : « Prends Aaron et ses fils avec lui, prends les vêtements sacerdotaux, l’huile d’onction, le taureau du sacrifice pour la faute, les deux béliers et la corbeille des pains sans levain. Puis, rassemble toute la communauté à l’entrée de la tente de la Rencontre. » Moïse fit ce que lui avait ordonné le SEIGNEUR, et la communauté se rassembla à l’entrée de la tente de la Rencontre. Et Moïse dit à la communauté : « Voici ce que le SEIGNEUR a ordonné de faire. » Alors Moïse fit approcher Aaron et ses fils ; il les lava avec de l’eau. Il mit la tunique à Aaron, lui passa la ceinture, le revêtit du manteau et plaça sur lui l’éphod. Puis il le ceignit de l’écharpe de l’éphod et la fixa sur lui. Il mit sur lui le pectoral, dans lequel il plaça les Ourim et les Toummim. Il plaça le turban sur sa tête, et sur le devant du turban le fleuron d’or, le saint diadème, comme le SEIGNEUR l’avait ordonné à Moïse. Moïse prit l’huile d’onction, fit l’onction sur la Demeure et sur tout ce qui s’y trouvait, et les consacra. Il en aspergea sept fois l’autel et fit l’onction de l’autel et de ses accessoires, de la cuve et de son support, pour les consacrer. Il versa un peu de l’huile d’onction sur la tête d’Aaron, lui donnant l’onction pour le consacrer. Alors Moïse fit approcher les fils d’Aaron, les revêtit de tuniques, leur mit une ceinture et les coiffa de tiares, comme le SEIGNEUR le lui avait ordonné. Il fit avancer le taureau du sacrifice pour la faute. Aaron et ses fils posèrent la main sur la tête du taureau du sacrifice pour la faute, et celui-ci fut immolé. Moïse prit le sang et, avec son doigt, il en mit sur les cornes de l’autel, tout autour, pour ôter de l’autel la faute. Puis il versa le sang à la base de l’autel. Alors il consacra l’autel en accomplissant sur lui le rite d’expiation. Moïse prit toute la graisse qui est au-dessus des entrailles, le lobe du foie, et les deux rognons avec leur graisse, et il les fit fumer à l’autel. Mais le reste du taureau, sa peau, sa chair et ses excréments, furent brûlés au feu hors du camp, comme le SEIGNEUR l’avait ordonné à Moïse. Aaron leva alors les mains sur le peuple, et le bénit. Puis il descendit de l’autel, après avoir fait le sacrifice pour la faute, l’holocauste et les sacrifices de paix. Moïse et Aaron entrèrent ensuite dans la tente de la Rencontre. Quand ils en ressortirent, ils bénirent le peuple. Alors la gloire du SEIGNEUR apparut à tout le peuple : un feu sortit de devant le SEIGNEUR et dévora l’holocauste et les graisses sur l’autel. Le peuple vit cela, tous crièrent de joie et tombèrent face contre terre."
-      responsory: |
-        R/ Jésus, tu es prêtre pour l’éternité !
-        
-        Tu demeures pour l’éternité,
-        tu sauves pour toujours
-        ceux qui par toi s’approchent de Dieu.
-        
-        Tu as prié ton Père :
-        « Pour eux je me consacre moi-même. »
-        Toujours vivant, tu intercèdes pour nous.
-  verse: |
-    V/ Tes paroles, Seigneur, sont pour nous l’esprit et la vie.
-    Tu as les paroles de la vie éternelle.
-  oration:
-    - Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_22
+    - psalm: PSALM_22
       antiphon:
         - Passerais-je un ravin de ténèbres, je ne crains aucun mal.
-    -
-      psalm: PSALM_75_1
-    -
-      psalm: PSALM_75_2
+    - psalm: PSALM_75_1
+    - psalm: PSALM_75_2
   oration:
     - Dieu qui as réconcilié avec toi toute l’humanité en lui donnant ton propre Fils, augmente la foi du peuple chrétien, pour qu’il se hâte avec amour au-devant des fêtes pascales qui approchent.
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - Dieu l’a choisi pour juger les vivants et les morts.
-    -
-      psalm: PSALM_111
+    - psalm: PSALM_111
       antiphon:
         - Heureux celui qui fait miséricorde, jamais il ne tombera.
-    -
-      psalm: NT_8
+    - psalm: NT_8
       antiphon:
         - Quand le Messie souffrait sa Passion, Dieu accomplissait les paroles des prophètes.
   reading:
@@ -121,18 +112,18 @@ vespers:
   intercession:
     content: |
       Toi qui nous donnes la grâce de croire en toi, Sei­gneur, écoute notre prière pour nos frères humains :
-      
+
       R/ Nous t’implorons, Seigneur !
-      
+
       Pour les hommes qui travaillent à la paix en ce monde,
       afin que leur amour de l’humanité cherche ton amour,
-      
+
       Pour les hommes aveuglés par le péché du monde,
       afin qu’ils s’exposent sans prévention à ton espérance,
-      
+
       Pour les croyants qui n’ouvrent pas leurs yeux sur le monde,
       afin qu’ils n’étouffent pas au fond d’eux la lumière,
-      
+
       Pour les hommes dont le regard s’est éteint,
       afin qu’ils s’éveillent à ton jour,
   oration:

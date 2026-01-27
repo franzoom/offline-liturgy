@@ -3,58 +3,50 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_50
-      antiphon:
-        - Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre ?
-    -
-      psalm: OT_6
-      antiphon:
-        - "Ne craignez pas : vous verrez que le Seigneur est avec vous."
-    -
-      psalm: PSALM_147
-      antiphon:
-        - Ciel, répands ta rosée, nuée, fais pleuvoir le Juste ; terre, enfante un Sauveur !
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_77_1
+    - psalm: PSALM_77_1
       antiphon:
         - Quand nous sommes infidèles, le Seigneur reste fidèle ; pourrait-il se renier lui-même ?
-    -
-      psalm: PSALM_77_2
+    - psalm: PSALM_77_2
       antiphon:
         - Quand nous sommes infidèles, le Seigneur reste fidèle ; pourrait-il se renier lui-même ?
-    -
-      psalm: PSALM_77_3
+    - psalm: PSALM_77_3
       antiphon:
         - Quand nous sommes infidèles, le Seigneur reste fidèle ; pourrait-il se renier lui-même ?
   verse: |
     V/ Que vienne à moi, Seigneur, ton amour,
     et son salut, selon ta promesse.
-middleOfDay:
+
+morning:
   psalmody:
-    -
-      psalm: PSALM_118_21
+    - psalm: PSALM_50
       antiphon:
-        - "L’ange dit à Marie : Je te salue, comblée de grâce, le Seigneur est avec toi !"
-    -
-      psalm: PSALM_132
-    -
-      psalm: PSALM_139
-vespers:
-  psalmody:
-    -
-      psalm: PSALM_144_1
-      antiphon:
-        - Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse.
-    -
-      psalm: PSALM_144_IIA
+        - Quand viendra le Fils de l’homme, trouvera-t-il la foi sur la terre ?
+    - psalm: OT_6
       antiphon:
         - "Ne craignez pas : vous verrez que le Seigneur est avec vous."
-    -
-      psalm: NT_11
+    - psalm: PSALM_147
+      antiphon:
+        - Ciel, répands ta rosée, nuée, fais pleuvoir le Juste ; terre, enfante un Sauveur !
+
+middleOfDay:
+  psalmody:
+    - psalm: PSALM_118_21
+      antiphon:
+        - "L’ange dit à Marie : Je te salue, comblée de grâce, le Seigneur est avec toi !"
+    - psalm: PSALM_132
+    - psalm: PSALM_139
+
+vespers:
+  psalmody:
+    - psalm: PSALM_144_1
+      antiphon:
+        - Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse.
+    - psalm: PSALM_144_IIA
+      antiphon:
+        - "Ne craignez pas : vous verrez que le Seigneur est avec vous."
+    - psalm: NT_11
       antiphon:
         - Ton chemin sera connu sur la terre, ton salut parmi toutes les nations.

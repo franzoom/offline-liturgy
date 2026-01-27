@@ -7,30 +7,27 @@ celebration:
   color: red
   location: lyon
 
-invitatory:
-  antiphon:
-    - Le Seigneur, le roi des martyrs, venez, adorons-le, alléluia.
-    - Venez, adorons le Seigneur, qui nous a appelés des ténèbres à son admirable lumière, alléluia.
+oration:
+  - |
+    Dieu éternel et tout-puissant, tu as appelé nos pères à la lumière de l’Évangile par la prédication de l’évêque saint Pothin et le courage de ses compagnons : Accorde-nous de ne jamais oublier un si grand bienfait et de conformer toute notre vie à la foi de notre cœur.
 
 firstVespers:
   hymn:
     - lyon-ville-bienheureuse
   psalmody:
-    -
-      psalm: PSALM_117_1
+    - psalm: PSALM_117_1
       antiphon:
         - "J’enverrai des rescapés de mon peuple vers les nations les plus éloignées, vers ceux qui n’ont pas entendu parler de moi et qui n’ont pas vu ma gloire : ces messagers annonceront ma gloire, alléluia."
-    -
-      psalm: PSALM_117_2
+    - psalm: PSALM_117_2
       antiphon:
         - Votre descendance sera célèbre parmi les nations et votre postérité au milieu des peuples. Tous ceux qui la verront reconnaîtront en elle une descendance bénie par le Seigneur, alléluia.
-    -
-      psalm: NT_8
+    - psalm: NT_8
       antiphon:
         - Ils sont morts pour le Christ, ils vivront à jamais, alléluia.
   reading:
     biblicalReference: Rm 8,35.37-39
-    content: Qui pourra nous séparer de l’amour du Christ ? la détresse ? l’angoisse ? la persécution ? la faim ? le dénuement ? le danger ? le glaive ? Mais, en tout cela nous sommes les grands vainqueurs grâce à celui qui nous a aimés. J’en ai la certitude : ni la mort ni la vie, ni les anges ni les Principautés célestes, ni le présent ni l’avenir, ni les Puissances, ni les hauteurs, ni les abîmes, ni aucune autre créature, rien ne pourra nous séparer de l’amour de Dieu qui est dans le Christ Jésus notre Seigneur.
+    content: |
+      Qui pourra nous séparer de l’amour du Christ ? la détresse ? l’angoisse ? la persécution ? la faim ? le dénuement ? le danger ? le glaive ? Mais, en tout cela nous sommes les grands vainqueurs grâce à celui qui nous a aimés. J’en ai la certitude : ni la mort ni la vie, ni les anges ni les Principautés célestes, ni le présent ni l’avenir, ni les Puissances, ni les hauteurs, ni les abîmes, ni aucune autre créature, rien ne pourra nous séparer de l’amour de Dieu qui est dans le Christ Jésus notre Seigneur.
   responsory: |
     R/ Saints et justes, réjouissez-vous dans le Seigneur.
     \*	Alléluia, alléluia.
@@ -39,24 +36,88 @@ firstVespers:
     Gloire au Père. R/ Saints et justes.
 
   evangelicAntiphon:
-    common: Voici venir sur les montagnes, le messager qui annonce la paix. Recommence à célébrer tes fêtes, ô Juda, accomplis tes vœux, alléluia. 
+    common: Voici venir sur les montagnes, le messager qui annonce la paix. Recommence à célébrer tes fêtes, ô Juda, accomplis tes vœux, alléluia.
+
+invitatory:
+  antiphon:
+    - Le Seigneur, le roi des martyrs, venez, adorons-le, alléluia.
+    - Venez, adorons le Seigneur, qui nous a appelés des ténèbres à son admirable lumière, alléluia.
+
+readings:
+  hymn:
+    - sauveur-du-monde-o-maitre
+  psalmody:
+    - psalm: PSALM_2
+      antiphon:
+        - Les saints martyrs ont versé ici-bas leur sang pour le Christ ; c’est pourquoi ils ont obtenu une récompense éternelle, alléluia.
+    - psalm: PSALM_32_1
+      antiphon:
+        - Les justes vivent à jamais, et leur récompense est auprès du Seigneur, alléluia.
+    - psalm: NT_32_2
+      antiphon:
+        - Heureux serez-vous si l’on vous insulte, si l’on vous persécute et si l’on dit faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous, soyez dans l’allégresse, car votre récompense sera grande dans les cieux, alléluia !
+  verse: |
+    V/ Merveilles que fit pour nous le Seigneur ! Alléluia.
+    Nous étions dans la joie, alléluia. 
+  biblicalReading:
+    - title:
+      ref: 1 Th 1, 2-10 ; 2, 1-8
+      content: |
+        À tout moment, nous rendons grâce à Dieu au sujet de vous tous, en faisant mémoire de vous dans nos prières. Sans cesse, nous nous souvenons que votre foi est active, que votre charité se donne de la peine, que votre espérance tient bon en notre Seigneur Jésus Christ, en présence de Dieu notre Père. Nous le savons, frères bien-aimés de Dieu, vous avez été choisis par lui. En effet, notre annonce de l’Évangile n’a pas été, chez vous, simple parole, mais puissance, action de l’Esprit Saint, pleine certitude : vous savez comment nous nous sommes comportés chez vous pour votre bien. Et vous-mêmes, en fait, vous nous avez imités, nous et le Seigneur, en accueillant la Parole au milieu de bien des épreuves, avec la joie de l’Esprit Saint. Ainsi vous êtes devenus un modèle pour tous les croyants de Macédoine et de Grèce. Et ce n’est pas seulement en Macédoine et en Grèce qu’à partir de chez vous la parole du Seigneur a retenti, mais la nouvelle de votre foi en Dieu s’est si bien répandue partout que nous n’avons pas besoin d’en parler. En effet, les gens racontent, à notre sujet, l’accueil que nous avons reçu chez vous ; ils disent comment vous vous êtes convertis à Dieu en vous détournant des idoles, afin de servir le Dieu vivant et véritable, et afin d’attendre des cieux son Fils qu’il a ressuscité d’entre les morts, Jésus, qui nous délivre de la colère qui vient. 
+        Frères, vous le savez bien vous-mêmes, notre venue chez vous n’a pas été inutile. Nous venions de souffrir et d’être outragés à Philippes, comme vous le savez ; nous avons cependant trouvé en notre Dieu pleine assurance pour vous annoncer, au prix de grandes luttes, l’Évangile de Dieu. Et quand nous vous exhortions, ce n’était pas avec des doctrines fausses, ni des motifs impurs, ni par ruse. En effet, pour nous confier l’Évangile, Dieu a éprouvé notre valeur, de sorte que nous parlons, non pas pour plaire aux hommes, mais à Dieu, lui qui met nos cœurs à l’épreuve. Jamais, nous n’avons eu un mot de flatterie, vous le savez, jamais de motifs intéressés, Dieu en est témoin ; jamais nous n’avons recherché la gloire qui vient des hommes, ni auprès de vous ni auprès d’autres personnes. Alors que nous aurions pu nous imposer en qualité d’apôtres du Christ, au contraire, nous avons été pleins de douceur avec vous, comme une mère qui entoure de soins ses nourrissons. Ayant pour vous une telle affection, nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies, car vous nous étiez devenus très chers.
+
+      responsory: |
+        (stance)
+        Cherchons à plaire à Dieu qui éprouve nos cœurs.
+        Frères aimés de Dieu, vous êtes ses élus
+        Chez vous l’Évangile s’est accompagné 
+        d’œuvres de puissance.
+
+        Que	 le Seigneur affermisse vos cœurs
+        dans une sainteté sans reproche devant lui.
+
+        Que Dieu vous garde vigilants
+        pour l’avènement de notre Seigneur Jésus Christ
+        avec tous ses saints, Alléluia. 
+
+
+  patristicReading:
+    - title: LETTRE AUX ÉGLISES DE LYON ET DE VIENNE AUX ÉGLISES D’ASIE ET DE PHRYGIE
+
+      content: |
+        La grandeur de la persécution qui s’est produite ici, la violente colère des païens contre les chrétiens, tout ce qu’ont supporté les bienheureux martyrs, nous ne sommes pas capables de le dire et il n’est pas possible non plus de le décrire en détail. Car c’est avec toutes ses forces que l’Adversaire s’est jeté sur nous, préludant déjà au déchaînement qui marquera son avènement. Il a passé, partout, en préparant les siens, en les exerçant d’avance contre les serviteurs de Dieu, de sorte que non seulement nous étions écartés de la maison, des bains, du forum, mais encore on défendait absolument à n’importe lequel d’entre nous de paraître en quelque lieu que ce fût.
+        Cependant la grâce de Dieu prit la tête de notre combat : elle mit à l’abri les faibles et rangea face à l’ennemi des piliers solides capables d’attirer sur eux par leur endurance tous les assauts du Malin. Ceux-là marchaient à sa rencontre, en supportant toutes sortes d’outrages et de mauvais traitements. Regardant le tout comme peu de chose, ils se hâtaient vers le Christ et montraient véritablement que « les souffrances du temps présent ne comptent pas au regard de la gloire qui sera révélée pour nous » (Rm 8,18). ( ... ) 
+        Dès lors, les saints martyrs supportèrent des traitements qu’il est impossible de décrire. Satan mettait son point d’honneur à leur faire dire quelque blasphème. Chez les gens du peuple, chez le légat et les soldats, la colère atteignit son plus haut point contre Sanctus, le diacre de Vienne, contre Maturus, un nouveau baptisé mais un courageux athlète, contre Attale de Pergame, qui avait toujours été pour ceux-ci une colonne et un appui, et enfin, contre Blandine. En la personne de Blandine, le Christ montra que ce qui paraît aux yeux des hommes sans beauté, simple, méprisable est digne, aux yeux de Dieu, d’une grande gloire à cause de l’amour qu’on a pour lui, cet amour qui se montre dans ce qu’on est capable de faire et ne se vante pas d’une apparence extérieure ? Nous tous, en effet, nous avions craint, et avec nous sa maîtresse - qui était aussi engagée dans le combat et au nombre des martyrs - que Blandine, dans cette lutte, ne soit pas capable, à cause de sa faiblesse physique, de faire avec assurance sa confession de foi. Mais Blandine fut remplie d’une telle force qu’elle épuisa et fit capituler tous ceux qui successivement la torturèrent de toutes les façons, du matin au soir. Eux-mêmes se reconnaissaient vaincus, ne sachant plus quoi lui faire et ils s’étonnaient qu’elle respirât encore, quand tout son corps était brisé et ouvert. Ils avouaient qu’une seule espèce de ces tortures était suffisante pour arracher la vie à quelqu’un ; à plus forte raison des tortures si cruelles et si nombreuses ! Cependant la bienheureuse, comme une courageuse athlète, trouvait une nouvelle jeunesse dans la confession de sa foi. C’était pour elle une reprise, un repos, un apaisement dans tout ce qui lui arrivait, que de dire : « Je suis chrétienne et chez nous il n’y a rien de mauvais ». ( ... ) 
+        Le bienheureux Pothin, à qui avait été confié le ministère de l’épiscopat à Lyon, avait alors plus de quatre-vingt-dix ans. Il était d’une extrême faiblesse physique, respirant avec peine, mais sous l’influence de l’Esprit et dans son désir ardent du martyre, il retrouvait des forces. On l’entraîna, lui aussi, au tribunal ; son corps, vieux et malade, l’abandonnait, mais en lui veillait son âme pour que par elle le Christ fût glorifié. Emmené par les soldats au tribunal, il était escorté des magistrats de la ville et de tout le peuple qui poussait contre lui toutes sortes de cris comme s’il était lui-même le Christ ; il rendit un beau témoignage. Interrogé par le légat sur le dieu des chrétiens, il répondit : « Tu le connaîtras, si tu en es digne ». Du tribunal on l’entraîna sans ménagement et on lui fit subir des souffrances de toutes sortes. Ceux qui étaient près de lui le brutalisaient sans arrêt à coups de poing et à coups de pieds, sans aucun égard pour son âge ; ceux qui étaient loin lui lançaient ce qui leur tombait sous la main ; tous pensaient qu’ils eussent été coupables et impies, s’ils s’étaient dispensés de quelque grossièreté à son égard. Ils croyaient ainsi venger leurs dieux. Pothin respirait à peine quand il fut jeté en prison : deux jours après, il rendit l’âme. ( ... ) 
+        C’est sous les formes les plus diverses que se présentèrent les témoignages des martyrs au moment de leur sortie de ce monde : avec des fleurs différentes et de couleurs variées, ils tressèrent une seule couronne, qu’ils présentèrent au Père. Il fallait que ces généreux athlètes eussent à soutenir des combats de toutes sortes et qu’ils remportent une grande victoire pour recueillir la grande couronne de l’immortalité. 
+
+      responsory: |
+        R/	Heureux les cœurs purs,
+        ils verront Dieu.
+
+        Ne craignez pas ceux qui tuent le corps
+        et ne peuvent rien de plus. 
+        Les âmes des justes sont dans la main de Dieu, 
+        nul tourment ne les atteindra. 
+
+        Dieu les a soumis à l’épreuve 
+        et les a trouvés dignes de lui. 
+        Au jour de sa visite, ils resplendiront. 
+        Le Seigneur règnera sur eux pour toujours, alléluia.
 
 morning:
   hymn:
     - puissance-et-gloire-de-l-esprit
   psalmody:
-    -
-      psalm: PSALM_62
+    - psalm: PSALM_62
       antiphon:
-        - Cet homme déjà avancé en âge de très belle allure, préférant une mort glorieuse, marchait volontairement au supplice, alléluia. 
-    -
-      psalm: OT_41
+        - Cet homme déjà avancé en âge de très belle allure, préférant une mort glorieuse, marchait volontairement au supplice, alléluia.
+    - psalm: OT_41
       antiphon:
         - Vous, saints et âmes des Justes, bénissez le Seigneur, alléluia.
-    -
-      psalm: PSALM_149
+    - psalm: PSALM_149
       antiphon:
-        - Chœur des martyrs, louez le Seigneur en son sanctuaire, alléluia. 
+        - Chœur des martyrs, louez le Seigneur en son sanctuaire, alléluia.
   reading:
     biblicalReference: 1 Jn 5, 3-5
     content: "Tel est l’amour de Dieu : garder ses commandements ; et ses commandements ne sont pas un fardeau, puisque tout être qui est né de Dieu est vainqueur du monde. Or la victoire remportée sur le monde, c’est notre foi. Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ?"
@@ -70,127 +131,52 @@ morning:
   evangelicAntiphon:
     common: Ils ont subi l’épreuve de la moquerie et des coups des fouets, des chaînes et de la prison. Ils ont péri par le glaive. Mais, grâce à leur foi, ils ont remporté la couronne de gloire, Alléluia.
 
-readings:
-  hymn:
-    - sauveur-du-monde-o-maitre
-  psalmody:
-    -
-      psalm: PSALM_2
-      antiphon:
-        - Les saints martyrs ont versé ici-bas leur sang pour le Christ ; c’est pourquoi ils ont obtenu une récompense éternelle, alléluia.
-    -
-      psalm: PSALM_32_1
-      antiphon:
-        - Les justes vivent à jamais, et leur récompense est auprès du Seigneur, alléluia.
-    -
-      psalm: NT_32_2
-      antiphon:
-        - Heureux serez-vous si l’on vous insulte, si l’on vous persécute et si l’on dit faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous, soyez dans l’allégresse, car votre récompense sera grande dans les cieux, alléluia !
-  verse: |
-    V/ Merveilles que fit pour nous le Seigneur ! Alléluia.
-    Nous étions dans la joie, alléluia. 
-
-  biblicalReading:
-    -
-      title: 
-      ref: 1 Th 1, 2-10 ; 2, 1-8
-      content: |
-        À tout moment, nous rendons grâce à Dieu au sujet de vous tous, en faisant mémoire de vous dans nos prières. Sans cesse, nous nous souvenons que votre foi est active, que votre charité se donne de la peine, que votre espérance tient bon en notre Seigneur Jésus Christ, en présence de Dieu notre Père. Nous le savons, frères bien-aimés de Dieu, vous avez été choisis par lui. En effet, notre annonce de l’Évangile n’a pas été, chez vous, simple parole, mais puissance, action de l’Esprit Saint, pleine certitude : vous savez comment nous nous sommes comportés chez vous pour votre bien. Et vous-mêmes, en fait, vous nous avez imités, nous et le Seigneur, en accueillant la Parole au milieu de bien des épreuves, avec la joie de l’Esprit Saint. Ainsi vous êtes devenus un modèle pour tous les croyants de Macédoine et de Grèce. Et ce n’est pas seulement en Macédoine et en Grèce qu’à partir de chez vous la parole du Seigneur a retenti, mais la nouvelle de votre foi en Dieu s’est si bien répandue partout que nous n’avons pas besoin d’en parler. En effet, les gens racontent, à notre sujet, l’accueil que nous avons reçu chez vous ; ils disent comment vous vous êtes convertis à Dieu en vous détournant des idoles, afin de servir le Dieu vivant et véritable, et afin d’attendre des cieux son Fils qu’il a ressuscité d’entre les morts, Jésus, qui nous délivre de la colère qui vient. 
-        Frères, vous le savez bien vous-mêmes, notre venue chez vous n’a pas été inutile. Nous venions de souffrir et d’être outragés à Philippes, comme vous le savez ; nous avons cependant trouvé en notre Dieu pleine assurance pour vous annoncer, au prix de grandes luttes, l’Évangile de Dieu. Et quand nous vous exhortions, ce n’était pas avec des doctrines fausses, ni des motifs impurs, ni par ruse. En effet, pour nous confier l’Évangile, Dieu a éprouvé notre valeur, de sorte que nous parlons, non pas pour plaire aux hommes, mais à Dieu, lui qui met nos cœurs à l’épreuve. Jamais, nous n’avons eu un mot de flatterie, vous le savez, jamais de motifs intéressés, Dieu en est témoin ; jamais nous n’avons recherché la gloire qui vient des hommes, ni auprès de vous ni auprès d’autres personnes. Alors que nous aurions pu nous imposer en qualité d’apôtres du Christ, au contraire, nous avons été pleins de douceur avec vous, comme une mère qui entoure de soins ses nourrissons. Ayant pour vous une telle affection, nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies, car vous nous étiez devenus très chers.
-
-      responsory: |
-        (stance)
-        Cherchons à plaire à Dieu qui éprouve nos cœurs.
-        Frères aimés de Dieu, vous êtes ses élus
-        Chez vous l’Évangile s’est accompagné 
-        d’œuvres de puissance.
-        
-        Que	 le Seigneur affermisse vos cœurs
-        dans une sainteté sans reproche devant lui.
-
-        Que Dieu vous garde vigilants
-        pour l’avènement de notre Seigneur Jésus Christ
-        avec tous ses saints, Alléluia. 
-
-
-  patristicReading:
-    -
-      title: LETTRE AUX ÉGLISES DE LYON ET DE VIENNE AUX ÉGLISES D’ASIE ET DE PHRYGIE
-
-      content: |
-        La grandeur de la persécution qui s’est produite ici, la violente colère des païens contre les chrétiens, tout ce qu’ont supporté les bienheureux martyrs, nous ne sommes pas capables de le dire et il n’est pas possible non plus de le décrire en détail. Car c’est avec toutes ses forces que l’Adversaire s’est jeté sur nous, préludant déjà au déchaînement qui marquera son avènement. Il a passé, partout, en préparant les siens, en les exerçant d’avance contre les serviteurs de Dieu, de sorte que non seulement nous étions écartés de la maison, des bains, du forum, mais encore on défendait absolument à n’importe lequel d’entre nous de paraître en quelque lieu que ce fût.
-        
-        Cependant la grâce de Dieu prit la tête de notre combat : elle mit à l’abri les faibles et rangea face à l’ennemi des piliers solides capables d’attirer sur eux par leur endurance tous les assauts du Malin. Ceux-là marchaient à sa rencontre, en supportant toutes sortes d’outrages et de mauvais traitements. Regardant le tout comme peu de chose, ils se hâtaient vers le Christ et montraient véritablement que « les souffrances du temps présent ne comptent pas au regard de la gloire qui sera révélée pour nous » (Rm 8,18). ( ... ) 
-
-        Dès lors, les saints martyrs supportèrent des traitements qu’il est impossible de décrire. Satan mettait son point d’honneur à leur faire dire quelque blasphème. Chez les gens du peuple, chez le légat et les soldats, la colère atteignit son plus haut point contre Sanctus, le diacre de Vienne, contre Maturus, un nouveau baptisé mais un courageux athlète, contre Attale de Pergame, qui avait toujours été pour ceux-ci une colonne et un appui, et enfin, contre Blandine. En la personne de Blandine, le Christ montra que ce qui paraît aux yeux des hommes sans beauté, simple, méprisable est digne, aux yeux de Dieu, d’une grande gloire à cause de l’amour qu’on a pour lui, cet amour qui se montre dans ce qu’on est capable de faire et ne se vante pas d’une apparence extérieure ? Nous tous, en effet, nous avions craint, et avec nous sa maîtresse - qui était aussi engagée dans le combat et au nombre des martyrs - que Blandine, dans cette lutte, ne soit pas capable, à cause de sa faiblesse physique, de faire avec assurance sa confession de foi. Mais Blandine fut remplie d’une telle force qu’elle épuisa et fit capituler tous ceux qui successivement la torturèrent de toutes les façons, du matin au soir. Eux-mêmes se reconnaissaient vaincus, ne sachant plus quoi lui faire et ils s’étonnaient qu’elle respirât encore, quand tout son corps était brisé et ouvert. Ils avouaient qu’une seule espèce de ces tortures était suffisante pour arracher la vie à quelqu’un ; à plus forte raison des tortures si cruelles et si nombreuses ! Cependant la bienheureuse, comme une courageuse athlète, trouvait une nouvelle jeunesse dans la confession de sa foi. C’était pour elle une reprise, un repos, un apaisement dans tout ce qui lui arrivait, que de dire : « Je suis chrétienne et chez nous il n’y a rien de mauvais ». ( ... ) 
-
-        Le bienheureux Pothin, à qui avait été confié le ministère de l’épiscopat à Lyon, avait alors plus de quatre-vingt-dix ans. Il était d’une extrême faiblesse physique, respirant avec peine, mais sous l’influence de l’Esprit et dans son désir ardent du martyre, il retrouvait des forces. On l’entraîna, lui aussi, au tribunal ; son corps, vieux et malade, l’abandonnait, mais en lui veillait son âme pour que par elle le Christ fût glorifié. Emmené par les soldats au tribunal, il était escorté des magistrats de la ville et de tout le peuple qui poussait contre lui toutes sortes de cris comme s’il était lui-même le Christ ; il rendit un beau témoignage. Interrogé par le légat sur le dieu des chrétiens, il répondit : « Tu le connaîtras, si tu en es digne ». Du tribunal on l’entraîna sans ménagement et on lui fit subir des souffrances de toutes sortes. Ceux qui étaient près de lui le brutalisaient sans arrêt à coups de poing et à coups de pieds, sans aucun égard pour son âge ; ceux qui étaient loin lui lançaient ce qui leur tombait sous la main ; tous pensaient qu’ils eussent été coupables et impies, s’ils s’étaient dispensés de quelque grossièreté à son égard. Ils croyaient ainsi venger leurs dieux. Pothin respirait à peine quand il fut jeté en prison : deux jours après, il rendit l’âme. ( ... ) 
-
-        C’est sous les formes les plus diverses que se présentèrent les témoignages des martyrs au moment de leur sortie de ce monde : avec des fleurs différentes et de couleurs variées, ils tressèrent une seule couronne, qu’ils présentèrent au Père. Il fallait que ces généreux athlètes eussent à soutenir des combats de toutes sortes et qu’ils remportent une grande victoire pour recueillir la grande couronne de l’immortalité. 
-
-      responsory: |
-       R/	Heureux les cœurs purs,
-       ils verront Dieu.
-       
-       Ne craignez pas ceux qui tuent le corps
-       et ne peuvent rien de plus. 
-       Les âmes des justes sont dans la main de Dieu, 
-       nul tourment ne les atteindra. 
-       
-       Dieu les a soumis à l’épreuve 
-       et les a trouvés dignes de lui. 
-       Au jour de sa visite, ils resplendiront. 
-       Le Seigneur règnera sur eux pour toujours, alléluia.
-
 middleOfDay:
   psalmody:
-    -
-      antiphon: Ils allèrent en pleurant pour jeter la semence ; ils revinrent criant de joie, chargés de gerbes de blé, alléluia.
-    -
-      antiphon: Ils allèrent en pleurant pour jeter la semence ; ils revinrent criant de joie, chargés de gerbes de blé, alléluia.
-    -
-      antiphon: Ils allèrent en pleurant pour jeter la semence ; ils revinrent criant de joie, chargés de gerbes de blé, alléluia.
+    - antiphon: Ils allèrent en pleurant pour jeter la semence ; ils revinrent criant de joie, chargés de gerbes de blé, alléluia.
+    - antiphon: Ils allèrent en pleurant pour jeter la semence ; ils revinrent criant de joie, chargés de gerbes de blé, alléluia.
+    - antiphon: Ils allèrent en pleurant pour jeter la semence ; ils revinrent criant de joie, chargés de gerbes de blé, alléluia.
   tierce:
     reading:
-      biblicalReference: 2 Co 4, 13-15 
-      content: "L’Écriture dit : J’ai cru, c’est pourquoi j’ai parlé. Et nous aussi, qui avons le même esprit de foi, nous croyons, et c’est pourquoi nous parlons. Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu.""
+      biblicalReference: 2 Co 4, 13-15
+      content: "L’Écriture dit : J’ai cru, c’est pourquoi j’ai parlé. Et nous aussi, qui avons le même esprit de foi, nous croyons, et c’est pourquoi nous parlons. Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu."
     responsory: |
       V/ Votre tristesse, alléluia,
       se changera en joie, alléluia.
   sexte:
     reading:
-      biblicalReference: 2 Co 4, 13-15 
-      content: "L’Écriture dit : J’ai cru, c’est pourquoi j’ai parlé. Et nous aussi, qui avons le même esprit de foi, nous croyons, et c’est pourquoi nous parlons. Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu.""
+      biblicalReference: 2 Co 4, 13-15
+      content: "L’Écriture dit : J’ai cru, c’est pourquoi j’ai parlé. Et nous aussi, qui avons le même esprit de foi, nous croyons, et c’est pourquoi nous parlons. Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu."
     responsory: |
       V/ Votre tristesse, alléluia,
       se changera en joie, alléluia.
   none:
     reading:
-      biblicalReference: 2 Co 4, 13-15 
-      content: "L’Écriture dit : J’ai cru, c’est pourquoi j’ai parlé. Et nous aussi, qui avons le même esprit de foi, nous croyons, et c’est pourquoi nous parlons. Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu.""
+      biblicalReference: 2 Co 4, 13-15
+      content: "L’Écriture dit : J’ai cru, c’est pourquoi j’ai parlé. Et nous aussi, qui avons le même esprit de foi, nous croyons, et c’est pourquoi nous parlons. Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu."
     responsory: |
       V/ Votre tristesse, alléluia,
       se changera en joie, alléluia.
+
+
+
 
 vespers:
   hymn:
     - lyon-ville-bienheureuse
     - sancta-lugdunum
   psalmody:
-    -
-      psalm: PSALM_114
+    - psalm: PSALM_114
       antiphon:
         - J’ai vu les âmes de ceux qui sont morts pour la cause de Dieu et pour le témoignage qu’ils Lui ont rendu, alléluia.
-    -
-      psalm: PSALM_115
+    - psalm: PSALM_115
       antiphon:
         - "La seconde mort n’a pas d’emprise sur eux : ils seront prêtres de Dieu et du Christ, et régneront avec lui, alléluia."
-    -
-      psalm: NT_9
+    - psalm: NT_9
       antiphon:
-        - Voilà ceux qui ont donné leurs vies pour la cause de Dieu, et qui ont lavé leurs robes dans le sang de l’Agneau, alléluia. 
+        - Voilà ceux qui ont donné leurs vies pour la cause de Dieu, et qui ont lavé leurs robes dans le sang de l’Agneau, alléluia.
   reading:
-    biblicalReference: Ap 7, 14-17 
+    biblicalReference: Ap 7, 14-17
     content: Ceux-là viennent de la grande épreuve ; ils ont lavé leurs robes, ils les ont blanchies par le sang de l’Agneau. C’est pourquoi ils sont devant le trône de Dieu, et le servent, jour et nuit, dans son sanctuaire. Celui qui siège sur le Trône établira sa demeure chez eux. Ils n’auront plus faim, ils n’auront plus soif, ni le soleil ni la chaleur ne les accablera, puisque l’Agneau qui se tient au milieu du Trône sera leur pasteur pour les conduire aux sources des eaux de la vie. Et Dieu essuiera toute larme de leurs yeux.
   responsory: |
     R/ Les justes resplendiront en présence de Dieu :
@@ -201,7 +187,5 @@ vespers:
 
 
   evangelicAntiphon:
-    common: Grâce à la foi, les saints ont vaincu des royaumes, pratiqué la justice, obtenu ce que Dieu promettait. C’est pourquoi, nous aussi, il nous faut courir avec endurance l’épreuve qui nous est proposée, les yeux fixés sur Jésus, qui est à l’origine et au terme de la foi, alléluia. 
-  
-oration:
-  - "Dieu éternel et tout-puissant, tu as appelé nos pères à la lumière de l’Évangile par la prédication de l’évêque saint Pothin et le courage de ses compagnons : Accorde-nous de ne jamais oublier un si grand bienfait et de conformer toute notre vie à la foi de notre cœur."
+    common: Grâce à la foi, les saints ont vaincu des royaumes, pratiqué la justice, obtenu ce que Dieu promettait. C’est pourquoi, nous aussi, il nous faut courir avec endurance l’épreuve qui nous est proposée, les yeux fixés sur Jésus, qui est à l’origine et au terme de la foi, alléluia.
+

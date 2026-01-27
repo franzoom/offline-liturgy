@@ -5,13 +5,13 @@ celebration:
   commons:
     - pastors-bishop
   color: white
-morning:
-  evangelicAntiphon:
-    common: Allez, enseignez tous les hommes, baptisez-les au nom du Père et du Fils et du Saint-Esprit.
+
+oration:
+  - Pour te faire connaître, Seigneur, aux peuples d’Irlande tu as choisi l’évêque saint Patrice; à sa prière et par ses mérites, accorde à ceux qui ont la joie d’être chrétiens d’annoncer aux hommes les merveilles de ton amour.
+
 readings:
   patristicReading:
-    -
-      title: Confession de foi de saint Patrick
+    - title: Confession de foi de saint Patrick
       content: |
         Sans relâche, je rends grâce à mon Dieu, qui m’a gardé fidèle au jour de ma tentation, si bien qu’aujourd’hui je peux avec confiance offrir mon âme en sacrifice, comme une hostie vivante, au Christ mon Seigneur, qui m’a gardé dans tous les passages difficiles de ma vie. Et je dis: Qui suis-je, seigneur, ou quelle est ma vocation, pour que tu m’aies couvert de ta si grande divinité? Aussi, aujourd’hui, parmi les peuples, je ne cesse d’exulter et de magnifier ton nom, où que je puisse me trouver, et pas seulement quand tout va bien, mais aussi dans les difficultés. Quoi qu’il m’arrive, de bien ou de mal, je dois en conséquence l’accepter d’une âme égale, et toujours rendre grâce à Dieu qui m’a montré comment avoir en lui une foi indéfectible et sans limite; il aura aussi écouté ma prière, car mon désir, le voici: bien qu’incapable d’accomplir, dans ces temps qui sont les derniers, une œuvre si bonne et si admirable, je souhaite parvenir pourtant à imiter ces hommes dont le Seigneur, autrefois, avait prédit qu’ils annonceraient son Évangile *en témoignage pour toutes les nations*.
         D’où me vient cette sagesse, qui n’était pas en moi, car je ne connaissais pas le nombre de mes jours, et je n’avais pas le goût de Dieu? D’où m’est venu par la suite le don si grand et si salutaire de connaître Dieu et de l’aimer, au point de perdre patrie et famille, et de venir parmi les Irlandais prêcher l’Évangile ? Oui, d’où vient que j’aie pu supporter les outrages de la part des incroyants, endurer la peine de ma pérégrination, et de nombreuses persécutions, y compris l’emprisonnement, et renoncer à ma libération pour être utile aux autres?
@@ -20,15 +20,42 @@ readings:
       responsory: |
         R/ En Dieu notre confiance :
         il nous pourvoit de tout avec générosité.
-        
+
         Combats le bon combat,
         conquiers la vie éternelle
         à laquelle tu as été appelé.
-        
+
         N’amassez pas de trésors sur la terre br>mais dans le ciel,
         et débordez d’action de grâce.
+
+
+
+
+
+
+
+
+
+
+
+
+
+morning:
+  evangelicAntiphon:
+    common: Allez, enseignez tous les hommes, baptisez-les au nom du Père et du Fils et du Saint-Esprit.
+
+
+
+
+
+
+
+
+
+
+
+
+
 vespers:
   evangelicAntiphon:
     common: Beaucoup viendront d’orient et d’occident s’asseoir avec les fils d’Abraham au festin du Royaume.
-oration:
-  - Pour te faire connaître, Seigneur, aux peuples d’Irlande tu as choisi l’évêque saint Patrice; à sa prière et par ses mérites, accorde à ceux qui ont la joie d’être chrétiens d’annoncer aux hommes les merveilles de ton amour. 

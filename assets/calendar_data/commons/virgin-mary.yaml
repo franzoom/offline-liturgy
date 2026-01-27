@@ -1,20 +1,24 @@
+commonTitle: Commun de la Vierge Marie
+
 celebration:
   color: white
-commonTitle: Commun de la Vierge Marie
+
+
+oration:
+  - Accorde à tes serviteurs, Dieu très bon, de posséder la santé de l’âme et du corps, et par la glorieuse intercession de la sainte Vierge Marie, d’être libérés des tristesses de ce monde, et de goûter les joies de l’éternité.
+  - Seigneur Jésus, toi qui as choisi pour père la bienheureuse Vierge Marie, permets qu'assurés de sa protection nous puissions l'honorer d'un cœur joyeux.
+
 firstVespers:
   hymn:
     - pleine-de-grace-rejouis-toi
   psalmody:
-    -
-      psalm: PSALM_112
+    - psalm: PSALM_112
       antiphon:
         - Heureuse es-tu, Vierge Marie, toi qui as enfanté le Fils du Père éternel !
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - Tu as mis au monde le créateur du monde, toi qui es Vierge pour toujours.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - |
           Tu es bénie du Seigneur, ô Marie : par toi nous recevons la vie.
@@ -33,19 +37,19 @@ firstVespers:
     content: |
       Dieu notre Père, il nous est bon de te louer,
       toi qui as voulu que toutes les générations de croyants honorent la Mère de ton Fils :
-      
+
       R/ Que la Vierge bénie intercède pour nous.
-      
+
       Dieu qui fais des merveilles,
       tu as introduit la Vierge Marie dans la gloire de ton Fils,
       — tourne vers le ciel le regard des croyants.
-      
+
       À chacun de nous tu as donné Marie pour mère,
       — par son intercession, guéris les malades, console les affligés, pardonne aux pécheurs, accorde à tous le salut et la paix.
-      
+
       Par ta grâce, Marie a été comblée de grâce ;
       — que ta grâce nous obtienne aussi la joie en abondance.
-      
+
       À la prière de Marie, viens en aide à ceux qui meurent :
       — qu’ils vivent, avec le Christ, dans ton paradis.
 
@@ -54,103 +58,29 @@ invitatory:
     - Le Christ est né de la Vierge Marie ; venez, adorons-le.
     - Béni sois-tu, Seigneur, en l’honneur de la Vierge Marie.
 
-morning:
-  hymn:
-    - marie-tu-etais-la
-  psalmody:
-    -
-      psalm: PSALM_62
-      antiphon:
-        - Sainte Vierge Marie, par toi le salut est entré dans le monde ! Bienheureuse Mère de Dieu, intercède pour nous auprès de ton Fils.
-    -
-      psalm: OT_41
-      antiphon:
-        - Tu es la gloire de Jérusalem, tu es la joie de ton peuple, tu es l’honneur de toute l’Église !
-    -
-      psalm: PSALM_149
-      antiphon:
-        - "Réjouis-toi, Vierge Marie : Dieu t’a choisie pour être la mère du Sauveur."
-  reading:
-    biblicalReference: cf. Is 61, 10
-    content: Je tressaille de joie dans le Seigneur, mon âme exulte en mon Dieu. Car il m’a  enveloppée du manteau de l’innocence, il m’a fait revêtir les vêtements du salut,  comme une mariée met ses bijoux.
-  responsory: |
-    R/ Mon âme exalte le Seigneur :
-    éternel est son amour !
-    V/ Chante et réjouis-toi, fille de Sion,R/
-    Gloire au Père. R/
-  evangelicAntiphon:
-    common: À cause d’Ève, l’ange ferma la porte du Paradis ; grâce à Marie, s’est ouverte pour nous la porte de la vie.
-  intercession:
-    content: |
-      Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :
-      
-      R/ Jésus, fils de Marie, exauce-nous !
-      
-      Soleil de Justice,
-      la Vierge te précède comme l’aurore avant le jour :
-      – donne-nous de marcher dans ta lumière.
-      
-      Verbe éternel, tu as choisi pour Mère la Vierge très pure :
-      – délivre-nous des liens du péché.
-      
-      Notre Sauveur,
-      tu as voulu que Marie te suive au Calvaire :
-      – accorde-nous d’espérer la joie de Pâques.
-      
-      Fils unique de Dieu, à l’heure où tu t’es offert sur la croix,
-      tu nous as donné Marie pour mère :
-      – écoute sa prière quand elle intercède pour nous.
-  intercession2: |
-    Prions notre Sauveur qui a voulu naître de la Vierge Marie, et redisons avec elle :
-    
-    R/ Notre âme exalte le Seigneur. 
-    
-    Fils du Dieu vivant,
-    par ta passion tu as préservé ta Mère de toute souillure :
-    – garde-nous du péché.
-    
-    Rédempteur des hommes,
-    tu t’es incarné dans le sein de la Vierge Marie :
-    – fais de nous le temple de l’Esprit Saint.
-    
-    Maître des intelligences,
-    tes paroles et tes gestes pénétraient le cœur de ta Mère :
-    – apprends-nous à garder en nos cœurs ta parole.
-    
-    Sauveur du monde,
-    tu as voulu que Marie soit au pied de la croix :
-    – accorde-nous la force au milieu des épreuves.
-    
-    Jésus ressuscité qui règnes à la droite du Père,
-    tu as glorifié Marie dans son âme et dans son corps,
-    – oriente nos désirs vers le ciel.
-readings: 
+readings:
   hymn:
     - o-toi-dont-la-beaute
   psalmody:
-    -
-      psalm: PSALM_23
+    - psalm: PSALM_23
       antiphon:
         - Mains innocentes et cœur pur, Marie obtient la bénédiction du Seigneur.
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - Dieu réside en elle, sainte demeure du Très-Haut.
-    -
-      psalm: PSALM_86
+    - psalm: PSALM_86
       antiphon:
         - Tous ont en toi leur demeure, sainte Mère de Dieu.
+  verse: |
+    V/ Heureux ceux qui écoutent la parole de Dieu.
+    Heureux ceux qui la mettent en pratique.
   biblicalReading:
-    -
-      title: L’Emmanuel, roi de Paix
+    - title: L’Emmanuel, roi de Paix
       ref: Is 7, 10-14; 11, 1-9
       content: |
         Isaïe dit alors : « Écoutez, maison de David ! Il ne vous suffit donc pas de fatiguer les hommes : il faut encore que vous fatiguiez mon Dieu ! C’est pourquoi le SEIGNEUR lui-même vous donnera un signe : Voici que la vierge est enceinte, elle enfantera un fils, qu’elle appellera Emmanuel (c’est-à-dire : Dieu-avec-nous).
-        
         Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du SEIGNEUR : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du SEIGNEUR — qui lui inspirera la crainte du SEIGNEUR.
-        
         Il ne jugera pas sur l’apparence ; il ne se prononcera pas sur des rumeurs. Il jugera les petits avec justice ; avec droiture, il se prononcera en faveur des humbles du pays. Du bâton de sa parole, il frappera le pays ; du souffle de ses lèvres, il fera mourir le méchant. La justice est la ceinture de ses hanches ; la fidélité est la ceinture de ses reins.
-        
         Le loup habitera avec l’agneau, le léopard se couchera près du chevreau, le veau et le lionceau seront nourris ensemble, un petit garçon les conduira. La vache et l’ourse auront même pâture, leurs petits auront même gîte. Le lion, comme le bœuf, mangera du fourrage. Le nourrisson s’amusera sur le nid du cobra ; sur le trou de la vipère, l’enfant étendra la main. Il n’y aura plus de mal ni de corruption sur toute ma montagne sainte ; car la connaissance du SEIGNEUR remplira le pays comme les eaux recouvrent le fond de la mer.
       responsory: |
         R/ La vierge enfantera un fils,
@@ -159,12 +89,11 @@ readings:
         Ne crains pas, Marie,
         tu as trouvé grâce auprès de Dieu.
         Voici, tu concevras et enfanteras un fils.
-        
+
         Cet enfant sera grand,
         on l’appellera : Fils du Très-Haut,
         le Seigneur lui donnera le trône de David son Père.
-    -
-      title: De l’esclavage à la liberté
+    - title: De l’esclavage à la liberté
       ref: Ga 3, 22 — 4, 7
       content: |
         L'Écriture a tout soumis au péché dans une commune captivité, afin que, par la foi en Jésus-Christ la promesse fût accomplie pour les croyants.
@@ -177,17 +106,16 @@ readings:
         Ton heure est passée,
         oublie ta tristesse et regarde, radieuse :
         un homme est venu au monde.
-        
+
         Des nations viendront vers toi,
         et tu diras en ton cœur :
         qui m’a enfanté tous ceux-la ?
-        
+
         Encore un peu, si peu de temps,
         et tu monteras du désert,
         éclatante comme le soleil.
   patristicReading:
-    -
-      title: Homélie de Saint Sophrone de Jérusalem pour l’Annonciation
+    - title: Homélie de Saint Sophrone de Jérusalem pour l’Annonciation
       subtitle: « Bénie entre toutes les femmes »
       content: |
         *Réjouis-toi, comblée de grâce, le Seigneur est avec toi*. Et que peut-il y avoir de supérieur à cette joie, ô Vierge Mère ? Que peut-il y avoir au-dessus de cette grâce, que tu es la seule à avoir reçue en partage, de la part de Dieu ? Que peut-on concevoir de plus joyeux et de plus lumineux ? Tout demeure loin derrière tes merveilles, tout se trouve au-dessous de ta grâce. Les privilèges les plus certains n’ont que le second rang et ne possèdent qu’un état bien moindre.
@@ -210,14 +138,13 @@ readings:
 
         L’Esprit te couvre de son ombre,
         tu accueilles en toi la rosée du ciel.
-        
+
         Le Verbe se fait chair ;
         l’homme devient fils de Dieu.
-        
+
         Déjà les temps sont accomplis :
         au loin, blanchissent les moissons.
-    -
-      title: Sermon d’Aeldred de Rievaulx pour la nativité de la Vierge Marie
+    - title: Sermon d’Aeldred de Rievaulx pour la nativité de la Vierge Marie
       subtitle: Marie est notre Mère
       content: |
         Recourons à l’Épouse du Seigneur, approchons-nous de la Mère de Jésus, confions-nous à sa servante très fidèle. C’est tout cela qu’est la bienheureuse Vierge Marie.
@@ -229,17 +156,16 @@ readings:
       responsory: |
         R/ Mon âme exalte le Seigneur :
         éternel est son amour.
-        
+
         Chante et réjouis-toi, fille de Sion,
         voici que Dieu vient demeurer au milieu de toi.
-        
+
         Dieu pour toi exulte de joie,
         il te renouvelle par son amour.
-        
+
         Le Seigneur, comme aux jours de fête,
         dansera pour toi avec des cris de joie.
-    -
-      title: "Acte du IIème Concile du Vatican : L’Église"
+    - title: "Acte du IIème Concile du Vatican : L’Église"
       subtitle: L’amour maternel de Marie
       content: |
         Par le dessein de la Providence, la bienheureuse Vierge Marie était prédestinée de toute éternité à être la Mère de Dieu en liaison avec l’incarnation du Verbe divin. Elle a été sur cette terre la sainte Mère du Rédempteur, sa généreuse coopératrice à un titre unique, et l’humble servante du Seigneur. En concevant le Christ, en le mettant au monde, en le nourrissant, en le présentant dans le temple à son Père, en partageant les souffrances de son Fils qui mourait sur la croix, elle a coopéré à l’œuvre du Sauveur d’une façon absolument incomparable, par son obéissance, sa foi, son espérance, son ardente charité, pour la restauration de la vie surnaturelle dans les âmes. Voilà pourquoi elle est notre mère dans l’ordre de la grâce.
@@ -250,18 +176,85 @@ readings:
         Cette fonction subordonnée de Marie, l’Église la professe sans hésitation. Elle ne cesse d’en faire l’expérience et elle la présente avec faveur à l’amour des fidèles, afin que s’appuient sur ce secours maternel pour s’unir plus profondément à notre Médiateur et Sauveur.
       responsory: |
         R/ Tu es la gloire de notre peuple, Vierge Marie !
-        
+
         Ton nom sera, de par Dieu, pour toujours ;
         « Celle qui a trouvé grâce devant lui ».
-        
+
         Lève-toi, tiens-toi sur la hauteur,
         debout près de la croix !
-        
+
         Vois tes enfants, du levant au couchant rassemblés,
         car ton Fils attire tout à lui !
-  verse: |
-    V/ Heureux ceux qui écoutent la parole de Dieu.
-    Heureux ceux qui la mettent en pratique.
+
+
+morning:
+  hymn:
+    - marie-tu-etais-la
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Sainte Vierge Marie, par toi le salut est entré dans le monde ! Bienheureuse Mère de Dieu, intercède pour nous auprès de ton Fils.
+    - psalm: OT_41
+      antiphon:
+        - Tu es la gloire de Jérusalem, tu es la joie de ton peuple, tu es l’honneur de toute l’Église !
+    - psalm: PSALM_149
+      antiphon:
+        - "Réjouis-toi, Vierge Marie : Dieu t’a choisie pour être la mère du Sauveur."
+  reading:
+    biblicalReference: cf. Is 61, 10
+    content: Je tressaille de joie dans le Seigneur, mon âme exulte en mon Dieu. Car il m’a  enveloppée du manteau de l’innocence, il m’a fait revêtir les vêtements du salut,  comme une mariée met ses bijoux.
+  responsory: |
+    R/ Mon âme exalte le Seigneur :
+    éternel est son amour !
+    V/ Chante et réjouis-toi, fille de Sion,R/
+    Gloire au Père. R/
+  evangelicAntiphon:
+    common: À cause d’Ève, l’ange ferma la porte du Paradis ; grâce à Marie, s’est ouverte pour nous la porte de la vie.
+  intercession:
+    content: |
+      Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :
+
+      R/ Jésus, fils de Marie, exauce-nous !
+
+      Soleil de Justice,
+      la Vierge te précède comme l’aurore avant le jour :
+      – donne-nous de marcher dans ta lumière.
+
+      Verbe éternel, tu as choisi pour Mère la Vierge très pure :
+      – délivre-nous des liens du péché.
+
+      Notre Sauveur,
+      tu as voulu que Marie te suive au Calvaire :
+      – accorde-nous d’espérer la joie de Pâques.
+
+      Fils unique de Dieu, à l’heure où tu t’es offert sur la croix,
+      tu nous as donné Marie pour mère :
+      – écoute sa prière quand elle intercède pour nous.
+  intercession2: |
+    Prions notre Sauveur qui a voulu naître de la Vierge Marie, et redisons avec elle :
+
+    R/ Notre âme exalte le Seigneur. 
+
+    Fils du Dieu vivant,
+    par ta passion tu as préservé ta Mère de toute souillure :
+    – garde-nous du péché.
+
+    Rédempteur des hommes,
+    tu t’es incarné dans le sein de la Vierge Marie :
+    – fais de nous le temple de l’Esprit Saint.
+
+    Maître des intelligences,
+    tes paroles et tes gestes pénétraient le cœur de ta Mère :
+    – apprends-nous à garder en nos cœurs ta parole.
+
+    Sauveur du monde,
+    tu as voulu que Marie soit au pied de la croix :
+    – accorde-nous la force au milieu des épreuves.
+
+    Jésus ressuscité qui règnes à la droite du Père,
+    tu as glorifié Marie dans son âme et dans son corps,
+    – oriente nos désirs vers le ciel.
+
 
 middleOfDay:
   tierce:
@@ -288,22 +281,21 @@ middleOfDay:
     responsory: |
       V/ Marie retenait tous ces événements,
       elle les méditait dans son cœur.
+
+
 vespers:
   hymn:
     - humble-servante-du-seigneur
     - vous-etes-sans-pareille
     - ave-maris-stella
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Réjouis-toi, Marie, comblée de grâce, le Seigneur est avec toi.
-    -
-      psalm: PSALM_126
+    - psalm: PSALM_126
       antiphon:
         - "Je suis la servante du Seigneur : qu’il me soit fait selon ta parole."
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Vierge bénie entre toutes les femmes ! Jésus, ton enfant, est béni !
   reading:
@@ -319,24 +311,21 @@ vespers:
   intercession:
     content: |
       Bénissons notre Dieu : il a voulu que toutes les générations proclament bienheureuse la Mère de son Fils.</b> <p>R/Béni sois-tu Seigneur !
-      
+
       Pour ton humble servante, attentive à ta parole,
       modèle du cœur qui écoute,
-      
+
       Pour celle qui a mis ton Fils au monde,
       la mère de l’Homme nouveau,
-      
+
       Pour celle qui a veillé sur la croissance de Jésus,
       présence maternelle dans l’Église,
-      
+
       Pour celle qui s’est tenue debout au pied de la croix,
       force des accablés,
-      
+
       Pour celle que tu as remplie de joie au matin de Pâques,
       espérance des vivants,
-      
+
       Pour celle que tu as fait monter au ciel, près de ton Fils,
       secours des mourants,
-oration:
-  - Accorde à tes serviteurs, Dieu très bon, de posséder la santé de l’âme et du corps, et par la glorieuse intercession de la sainte Vierge Marie, d’être libérés des tristesses de ce monde, et de goûter les joies de l’éternité.
-  - Seigneur Jésus, toi qui as choisi pour père la bienheureuse Vierge Marie, permets qu'assurés de sa protection nous puissions l'honorer d'un cœur joyeux.

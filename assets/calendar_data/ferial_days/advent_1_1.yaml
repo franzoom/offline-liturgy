@@ -3,19 +3,68 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_9A_1
+      antiphon:
+        - Reviens, Seigneur, délivre-nous, sauve-nous car tu nous aimes.
+    - psalm: PSALM_9A_2
+      antiphon:
+        - Vous qui perdiez cœur, prenez courage, la victoire approche, le salut ne tardera pas.
+    - psalm: PSALM_6
+      antiphon:
+        - Jamais ne périt l’espoir des malheureux.
+  verse: |
+    V/ Montre-nous, Seigneur, ta bonté,
+    donne-nous enfin le Sauveur.
+  biblicalReading:
+    - title: Promesses enthousiastes pour un avenir lointain
+      ref: Is 1, 21-27; 2, 1-5
+      content: "Comment ! Elle s’est prostituée, la cité fidèle ! Le droit y régnait, la justice l’habitait, et maintenant, ce sont les meurtriers. Ton argent n’est plus que scories, ton meilleur vin est mêlé d’eau. Tes princes sont des rebelles, complices de voleurs, tous avides de cadeaux, courant les pots-de-vin ; ils ne rendent pas justice à l’orphelin, la cause de la veuve ne les touche pas. Voilà pourquoi — oracle du Maître et SEIGNEUR de l’univers, Force d’Israël — : Malheur ! Je prendrai ma revanche sur mes adversaires, je me vengerai de mes ennemis. Je ramènerai ma main sur toi ; comme le fait la potasse, j’ôterai tes scories, j’enlèverai tous tes déchets. Je rendrai tes juges tels que jadis, tes conseillers comme autrefois. Alors on t’appellera « Ville de justice », « Cité fidèle ». Par le droit, Sion sera délivrée ; ils le seront par la justice, ceux des siens qui se convertiront. *Parole d’Isaïe, fils d’Amots, — ce qu’il a vu au sujet de Juda et de Jérusalem.* Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, s’élèvera au-dessus des collines. Vers elle afflueront toutes les nations et viendront des peuples nombreux. Ils diront : « Venez ! montons à la montagne du SEIGNEUR, à la maison du Dieu de Jacob ! Qu’il nous enseigne ses chemins, et nous irons par ses sentiers. » Oui, la loi sortira de Sion, et de Jérusalem, la parole du SEIGNEUR. Il sera juge entre les nations et l’arbitre de peuples nombreux. De leurs épées, ils forgeront des socs, et de leurs lances, des faucilles. Jamais nation contre nation ne lèvera l’épée ; ils n’apprendront plus la guerre. Venez, maison de Jacob ! Marchons à la lumière du SEIGNEUR."
+      responsory: |
+        R/ Venez, montons à la maison du Seigneur !
+
+        Le Messie doit venir, celui qu’on appelle Christ.
+        Il nous annoncera toute chose.
+
+        Il nous enseignera ses voies,
+        nous suivrons ses sentiers.
+  patristicReading:
+    - title: LETTRE PASTORALE DE SAINT CHARLES BORROMÉE
+      subtitle: Le sens de l’Avent
+      content: "Voici, mes bien-aimés, ce temps célébré avec tant de ferveur, et, comme dit l’Esprit Saint, temps de la faveur divine, période de salut, de paix et de réconciliation ; temps jadis désiré très ardemment par les vœux et les aspirations instantes des anciens prophètes et patriarches, et qui a été vu enfin par le juste Siméon avec une joie débordante ! Puisqu’il a toujours été célébré par l’Église avec tant de ferveur, nous-mêmes devons aussi le passer religieusement dans les louanges et les actions de grâce adressées au Père éternel pour la miséricorde qu’il a manifestée dans ce mystère. Oui, par cet avènement de son Fils unique, en vertu de son immense amour pour nous, pécheurs, il l’a envoyé alors pour nous délivrer de la tyrannie et de l’empire du démon, nous inviter à aller au ciel, nous faire pénétrer dans les mystères célestes, nous montrer la Vérité en personne, nous former à la pureté des mœurs, nous donner les germes des vertus, nous enrichir des trésors de sa grâce et enfin nous adopter pour ses fils et pour héritiers de la vie éternelle. Du fait que ce mystère est revécu chaque année par l’Église, nous sommes exhortés à rappeler sans cesse le souvenir de tant d’amour envers nous. Cela nous enseigne aussi que l’avènement du Christ n’a pas profité seulement à ceux qui vivaient à l’époque du Sauveur, mais que sa vertu devait être communiquée aussi à nous tous ; du moins si nous voulons, par le moyen de la foi et des sacrements, accueillir la grâce qu’il nous a méritée et diriger notre vie selon cette grâce en lui obéissant. L’Église nous demande encore de comprendre ceci : de même qu’il est venu au monde une seule fois en s’incarnant, de même, si nous enlevons tout obstacle de notre part, il est prêt à venir à nous de nouveau, à toute heure et à tout instant, pour habiter spirituellement dans nos cœurs avec l’abondance de ses grâces. Aussi l’Église, comme une mère très affectueuse et très préoccupée de notre salut, à l’occasion de ce temps, nous enseigne, par des hymnes, des cantiques, et par toutes les paroles et les rites que lui a inspirés le Saint-Esprit, comment accueillir avec gratitude un si grand bienfait et comment nous enrichir de ses fruits. Ainsi notre âme se disposera à l’avènement du Christ avec autant de soin que s’il devait encore venir au monde, et de la manière même dont les pères de l’Ancien Testament, par leurs paroles comme par leurs exemples, nous ont appris à les imiter."
+      responsory: |
+        R/ Que l’univers chante et crie de joie :
+        Car le Seigneur vient.
+
+        Je vis un ciel nouveau, une nouvelle terre ;
+        plus de pleurs, plus de cris, plus de peine :
+        Car le Seigneur vient.
+
+        Dieu aura sa demeure parmi nous,
+        nous serons son peuple et lui, Dieu, sera avec nous :
+        Car le Seigneur vient.
+
+        Nous ne chercherons plus l’éclat du soleil,
+        la gloire de Dieu nous illuminera :
+        Car le Seigneur vient.
+
+        Que l’univers chante et crie de joie :
+        Car le Seigneur vient.
+  oration:
+    - Accorde-nous, Seigneur, d’attendre sans faiblir la venue de ton Fils, pour qu’au jour où il viendra frapper à notre porte, il nous trouve vigilants dans la prière, heureux de chanter sa louange. Lui qui règne.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_5
+    - psalm: PSALM_5
       antiphon:
         - Mon Dieu, je me prépare pour toi et je reste en éveil.
-    -
-      psalm: OT_4
+    - psalm: OT_4
       antiphon:
         - Nous acclamons, Seigneur, la splendeur de ta gloire éternelle.
         - Tout vient de toi, ô Seigneur, et nous t’offrons ce que nous donne ta main.
-    -
-      psalm: PSALM_28
+    - psalm: PSALM_28
       antiphon:
         - Rendez au Seigneur la gloire de son nom.
   reading:
@@ -32,100 +81,41 @@ morning:
   intercession:
     content: |
       Nous t’en prions, Jésus notre Sauveur venu annoncer aux pauvres la bonne nouvelle du salut :
-      
+
       R/ Révèle à tous les hommes ta gloire !
-      
+
       Fais-toi connaître de ceux qui ne t’ont pas rencontré :
       qu’ils voient ton salut et confessent ton nom.
-      
+
       Que l’Évangile soit proclamé en tout lieu,
       pour que tous les hommes découvrent ton chemin.
-      
+
       Déploie ta grâce en notre vie,
       pour que nous te servions avec générosité et persévérance.
-      
+
       Préserve en nous la liberté que tu as éveillée :
       qu’elle nous rende attentifs à notre prochain.
-      
+
       Quand tu paraîtras pour juger les vivants et les morts,
       porte sur nous un regard de miséricorde.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_9A_1
-      antiphon:
-        - Reviens, Seigneur, délivre-nous, sauve-nous car tu nous aimes.
-    -
-      psalm: PSALM_9A_2
-      antiphon:
-        - Vous qui perdiez cœur, prenez courage, la victoire approche, le salut ne tardera pas.
-    -
-      psalm: PSALM_6
-      antiphon:
-        - Jamais ne périt l’espoir des malheureux.
-  biblicalReading:
-    -
-      title: Promesses enthousiastes pour un avenir lointain
-      ref: Is 1, 21-27; 2, 1-5
-      content: "Comment ! Elle s’est prostituée, la cité fidèle ! Le droit y régnait, la justice l’habitait, et maintenant, ce sont les meurtriers. Ton argent n’est plus que scories, ton meilleur vin est mêlé d’eau. Tes princes sont des rebelles, complices de voleurs, tous avides de cadeaux, courant les pots-de-vin ; ils ne rendent pas justice à l’orphelin, la cause de la veuve ne les touche pas. Voilà pourquoi — oracle du Maître et SEIGNEUR de l’univers, Force d’Israël — : Malheur ! Je prendrai ma revanche sur mes adversaires, je me vengerai de mes ennemis. Je ramènerai ma main sur toi ; comme le fait la potasse, j’ôterai tes scories, j’enlèverai tous tes déchets. Je rendrai tes juges tels que jadis, tes conseillers comme autrefois. Alors on t’appellera « Ville de justice », « Cité fidèle ». Par le droit, Sion sera délivrée ; ils le seront par la justice, ceux des siens qui se convertiront. *Parole d’Isaïe, fils d’Amots, — ce qu’il a vu au sujet de Juda et de Jérusalem.* Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, s’élèvera au-dessus des collines. Vers elle afflueront toutes les nations et viendront des peuples nombreux. Ils diront : « Venez ! montons à la montagne du SEIGNEUR, à la maison du Dieu de Jacob ! Qu’il nous enseigne ses chemins, et nous irons par ses sentiers. » Oui, la loi sortira de Sion, et de Jérusalem, la parole du SEIGNEUR. Il sera juge entre les nations et l’arbitre de peuples nombreux. De leurs épées, ils forgeront des socs, et de leurs lances, des faucilles. Jamais nation contre nation ne lèvera l’épée ; ils n’apprendront plus la guerre. Venez, maison de Jacob ! Marchons à la lumière du SEIGNEUR."
-      responsory: |
-        R/ Venez, montons à la maison du Seigneur !
-        
-        Le Messie doit venir, celui qu’on appelle Christ.
-        Il nous annoncera toute chose.
-        
-        Il nous enseignera ses voies,
-        nous suivrons ses sentiers.
-  patristicReading:
-    -
-      title: LETTRE PASTORALE DE SAINT CHARLES BORROMÉE
-      subtitle: Le sens de l’Avent
-      content: "Voici, mes bien-aimés, ce temps célébré avec tant de ferveur, et, comme dit l’Esprit Saint, temps de la faveur divine, période de salut, de paix et de réconciliation ; temps jadis désiré très ardemment par les vœux et les aspirations instantes des anciens prophètes et patriarches, et qui a été vu enfin par le juste Siméon avec une joie débordante ! Puisqu’il a toujours été célébré par l’Église avec tant de ferveur, nous-mêmes devons aussi le passer religieusement dans les louanges et les actions de grâce adressées au Père éternel pour la miséricorde qu’il a manifestée dans ce mystère. Oui, par cet avènement de son Fils unique, en vertu de son immense amour pour nous, pécheurs, il l’a envoyé alors pour nous délivrer de la tyrannie et de l’empire du démon, nous inviter à aller au ciel, nous faire pénétrer dans les mystères célestes, nous montrer la Vérité en personne, nous former à la pureté des mœurs, nous donner les germes des vertus, nous enrichir des trésors de sa grâce et enfin nous adopter pour ses fils et pour héritiers de la vie éternelle. Du fait que ce mystère est revécu chaque année par l’Église, nous sommes exhortés à rappeler sans cesse le souvenir de tant d’amour envers nous. Cela nous enseigne aussi que l’avènement du Christ n’a pas profité seulement à ceux qui vivaient à l’époque du Sauveur, mais que sa vertu devait être communiquée aussi à nous tous ; du moins si nous voulons, par le moyen de la foi et des sacrements, accueillir la grâce qu’il nous a méritée et diriger notre vie selon cette grâce en lui obéissant. L’Église nous demande encore de comprendre ceci : de même qu’il est venu au monde une seule fois en s’incarnant, de même, si nous enlevons tout obstacle de notre part, il est prêt à venir à nous de nouveau, à toute heure et à tout instant, pour habiter spirituellement dans nos cœurs avec l’abondance de ses grâces. Aussi l’Église, comme une mère très affectueuse et très préoccupée de notre salut, à l’occasion de ce temps, nous enseigne, par des hymnes, des cantiques, et par toutes les paroles et les rites que lui a inspirés le Saint-Esprit, comment accueillir avec gratitude un si grand bienfait et comment nous enrichir de ses fruits. Ainsi notre âme se disposera à l’avènement du Christ avec autant de soin que s’il devait encore venir au monde, et de la manière même dont les pères de l’Ancien Testament, par leurs paroles comme par leurs exemples, nous ont appris à les imiter."
-      responsory: |
-        R/ Que l’univers chante et crie de joie :
-        Car le Seigneur vient.
-        
-        Je vis un ciel nouveau, une nouvelle terre ;
-        plus de pleurs, plus de cris, plus de peine :
-        Car le Seigneur vient.
-        
-        Dieu aura sa demeure parmi nous,
-        nous serons son peuple et lui, Dieu, sera avec nous :
-        Car le Seigneur vient.
-        
-        Nous ne chercherons plus l’éclat du soleil,
-        la gloire de Dieu nous illuminera :
-        Car le Seigneur vient.
-        
-        Que l’univers chante et crie de joie :
-        Car le Seigneur vient.
-  verse: |
-    V/ Montre-nous, Seigneur, ta bonté,
-    donne-nous enfin le Sauveur.
-  oration:
-    - Accorde-nous, Seigneur, d’attendre sans faiblir la venue de ton Fils, pour qu’au jour où il viendra frapper à notre porte, il nous trouve vigilants dans la prière, heureux de chanter sa louange. Lui qui règne.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_18B
+    - psalm: PSALM_18B
       antiphon:
         - Je viens sans tarder rendre à chacun selon ses œuvres.
-    -
-      psalm: PSALM_7_1
-    -
-      psalm: PSALM_7_2
+    - psalm: PSALM_7_1
+    - psalm: PSALM_7_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_10
+    - psalm: PSALM_10
       antiphon:
         - Le Seigneur viendra, accompagné de tous les justes, on verra, ce jour-là, une grande lumière.
-    -
-      psalm: PSALM_14
+    - psalm: PSALM_14
       antiphon:
         - Celui qui fait la vérité vient à la lumière.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Béni sois-tu, notre Père, qui nous as bénis dans le Christ !
   reading:
@@ -142,18 +132,18 @@ vespers:
     content: |
       Seigneur Jésus envoyé par le Père,
       montre-nous le chemin qui mène à ta demeure.
-      
+
       R/ Viens, Seigneur, et sauve-nous !
-      
+
       Seigneur Jésus, conçu du Saint-Esprit,
       renouvelle nos cœurs par sa puissance.
-      
+
       Seigneur Jésus, qui as pris chair de la Vierge Marie,
       rassemble-nous dans l’unité de ton Corps.
-      
+
       Seigneur Jésus, devenu l’un de nous,
       rends-nous solidaires de tout homme.
-      
+
       Seigneur Jésus, espérance des nations,
       souviens-toi de tous les hommes qui, depuis les origines,
       ont espéré la vie qui ne finit pas.

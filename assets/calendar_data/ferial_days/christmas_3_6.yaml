@@ -1,37 +1,29 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_118_19
-    -
-      psalm: OT_10
-    -
-      psalm: PSALM_116
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_106_1
-    -
-      psalm: PSALM_106_2
-    -
-      psalm: PSALM_106_3
+    - psalm: PSALM_106_1
+    - psalm: PSALM_106_2
+    - psalm: PSALM_106_3
+
+morning:
+  psalmody:
+    - psalm: PSALM_118_19
+    - psalm: OT_10
+    - psalm: PSALM_116
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_16
-    -
-      psalm: PSALM_33_1
-    -
-      psalm: PSALM_33_2
+    - psalm: PSALM_118_16
+    - psalm: PSALM_33_1
+    - psalm: PSALM_33_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_112
-    -
-      psalm: PSALM_115
-    -
-      psalm: NT_5
+    - psalm: PSALM_112
+    - psalm: PSALM_115
+    - psalm: NT_5
   oration:
     - Dieu éternel et tout-puissant, tu as voulu que, dans ton Fils unique, nous devenions pour toi de nouvelles créatures ; que ta grâce nous modèle à l’image du Christ en qui notre nature est unie à la tienne. Lui qui règne.

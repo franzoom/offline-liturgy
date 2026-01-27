@@ -2,42 +2,34 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_91
-    -
-      psalm: OT_38
-    -
-      psalm: PSALM_8
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_77_4
-    -
-      psalm: PSALM_77_5
-    -
-      psalm: PSALM_77_6
+    - psalm: PSALM_77_4
+    - psalm: PSALM_77_5
+    - psalm: PSALM_77_6
+
+morning:
+  psalmody:
+    - psalm: PSALM_91
+    - psalm: OT_38
+    - psalm: PSALM_8
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_22
-    -
-      psalm: PSALM_44_1
-    -
-      psalm: PSALM_44_2
+    - psalm: PSALM_118_22
+    - psalm: PSALM_44_1
+    - psalm: PSALM_44_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Quand arriva le jour de Pentecôte, alléluia, les Apôtres se trouvaient tous ensemble, alléluia.
-    -
-      psalm: PSALM_129
+    - psalm: PSALM_129
       antiphon:
         - Ils virent comme un feu se partager en langues ; et l’Esprit se posa sur chacun d’eux, alléluia.
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - L’Esprit qui procède du Père, alléluia, rendra témoignage de moi. Alléluia.
   reading:
@@ -54,21 +46,21 @@ vespers:
   intercession:
     content: |
       Prions notre Dieu qui rassemble les hommes dans le Christ, par le don de l’Esprit :
-      
+
       R/ Seigneur, envoie ton Esprit.
-      
+
       Seigneur du ciel et de la terre,
       tu veux sauver toute créature par la Pâque de ton Christ,
       – éclaire les hommes par la grâce de l’Esprit.
-      
+
       Toi qui réunis dans une même foi tes enfants dispersés :
       – accorde aux croyants, par l’unique baptême dans l’Esprit, d’être une seule âme et un seul cœur.
-      
+
       Toi qui nous as donné de ton Esprit,
       – fais-nous travailler en ce monde pour la justice et pour la paix.
-      
+
       Toi dont l’Esprit renouvelle toute chose,
       – sois le recours des faibles, la guérison des malades, le salut pour tous.
-      
+
       Toi qui as ressuscité ton Fils d’entre les morts par la puissance de l’Esprit,
       – donne à nos corps mortels la vie qui n’a pas de fin.

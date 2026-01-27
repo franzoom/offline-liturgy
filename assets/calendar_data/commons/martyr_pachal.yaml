@@ -1,6 +1,11 @@
 commonTitle: Commun d'un martyr au Temps Pascal
+
 celebration:
   color: red
+
+oration:
+  - Pour le rayonnement de ton Élise, tu as permis, Seigneru, que saint. N. connaisse la gloire du martyre ; donne-nous de marcher sur ses traces en imitant comme lui la passion du Sauveur, afin de parvenir aux joies éternelles.
+
 firstVespers:
   reading:
     biblicalReference: Ap 3, 10-12
@@ -15,27 +20,10 @@ firstVespers:
 
   evangelicAntiphon:
     common: La lumière du Seigneur brillera pour eux, une lumière éternelle.
- 
-morning:
-  reading:
-    biblicalReference: 1Jn 5, 3-5
-    content: |
-      L’amour de Dieu, c’est cela : garder ses commandements. Ses commandements ne sont pas un fardeau, puisque tout être qui est né de Dieu est vainqueur du monde. Et ce qui nous a fait vaincre le monde, c’est notre foi. Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ?
-  responsory: |
-    R/ Un bonheur sans fin illuminera leur visage.
-    \* Alléluia, alléluia !
-    V/ Plus de mort ni de pleur,
-    plus de cri ni de peine. \* Alléluia.
-    V/ Allégresse et joie dans leur cœur. R/ Un bonheur.
 
-  evangelicAntiphon:
-    common: |
-      Réjouissez-vous, saints de Dieu, soyez dans l’allégresse : votre récompense est grande dans les cieux.
-  
 readings:
   biblicalReading:
-    -
-      title: De l'Apocalypse
+    - title: De l'Apocalypse
       subtitle: La foule des élus
       ref: Ap 7, 9-17
       content: |
@@ -54,18 +42,34 @@ readings:
 
         R/ Dieu vivant, Seigneur ressuscité,
         nous croyons en toi, alléluia.
-        
+
         Un moment vous souffrirez,
         mais j’ai vaincu le monde,
         gardez courage.
-        
+
         En vérité, je vous le dis,
         si quelqu’un garde ma parole,
         il ne verra jamais la mort.
-        
+
         Je suis la résurrection,
         celui qui me donne sa foi
         vivra même dans la mort.
+
+morning:
+  reading:
+    biblicalReference: 1Jn 5, 3-5
+    content: |
+      L’amour de Dieu, c’est cela : garder ses commandements. Ses commandements ne sont pas un fardeau, puisque tout être qui est né de Dieu est vainqueur du monde. Et ce qui nous a fait vaincre le monde, c’est notre foi. Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ?
+  responsory: |
+    R/ Un bonheur sans fin illuminera leur visage.
+    \* Alléluia, alléluia !
+    V/ Plus de mort ni de pleur,
+    plus de cri ni de peine. \* Alléluia.
+    V/ Allégresse et joie dans leur cœur. R/ Un bonheur.
+
+  evangelicAntiphon:
+    common: |
+      Réjouissez-vous, saints de Dieu, soyez dans l’allégresse : votre récompense est grande dans les cieux.
 
 middleOfDay:
   tierce:
@@ -92,7 +96,7 @@ middleOfDay:
     responsory: |
       V/ Il s’en vient, il s’en vient dans la joie, alléluia,
       il rapporte les gerbes, alléluia.
-      
+
 vespers:
   reading:
     biblicalReference: Ap 7, 14b-17
@@ -107,5 +111,3 @@ vespers:
 
   evangelicAntiphon:
     common: Si le grain ne tombe en terre, il reste seul ; mais s’il meurt, il porte beaucoup de fruit.
-oration:
-  - Pour le rayonnement de ton Élise, tu as permis, Seigneru, que saint. N. connaisse la gloire du martyre ; donne-nous de marcher sur ses traces en imitant comme lui la passion du Sauveur, afin de parvenir aux joies éternelles.

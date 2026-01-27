@@ -4,13 +4,13 @@ celebration:
   commons:
     - pastors_multiple
   color: white
-morning:
-  evangelicAntiphon:
-    common: Ils ont servi le Seigneur toute leur vie, dans la justice et la sainteté.
+
+oration:
+  - "Dieu qui as conduit les peuples slaves à la lumière, grâce aux deux frères saints Cyrille et Méthode, ouvre nos cœurs à l’intelligence de ta Parole : fais de nous un peuple de croyants, et que notre unité rende témoignage à l’Évangile."
+
 readings:
   patristicReading:
-    -
-      title: VIE SLAVONNE DE CONSTANTIN
+    - title: VIE SLAVONNE DE CONSTANTIN
       subtitle: ""
       content: |
         Constantin, qui allait prendre le nom de Cyrille, accablé par ses travaux, tomba malade ; et comme sa maladie se prolongeait, il eut un jour une vision de Dieu et il se mit à chanter : *Quand on m’a dit : Nous entrerons dans la maison du Seigneur, mon esprit s’est réjoui et mon cœur a exulté.*
@@ -21,16 +21,43 @@ readings:
         Le Pape ordonna que tous les Grecs présents à Rome se joindraient aux Romains, en tenant des cierges pour chanter à ses obsèques, qu’ils célébreraient comme pour le Pape lui-même. Et c’est ce que l’on fit.
       responsory: |
         R/ Un seul troupeau, un seul berger !
-        
+
         Le Seigneur va rassembler ses enfants dispersés,
         il en fera une seule nation,
         et un seul roi régnera sur eux.
-        
+
         Le Christ, notre paix, a détruit les séparations :
         en un seul corps,
         il nous rassemble par la croix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+morning:
+  evangelicAntiphon:
+    common: Ils ont servi le Seigneur toute leur vie, dans la justice et la sainteté.
+
+
+
+
+
+
+
+
+
+
+
+
+
 vespers:
   evangelicAntiphon:
     common: Dieu les appelle ses amis, car ils ont témoigné pour sa vérité.
-oration:
-  - "Dieu qui as conduit les peuples slaves à la lumière, grâce aux deux frères saints Cyrille et Méthode, ouvre nos cœurs à l’intelligence de ta Parole : fais de nous un peuple de croyants, et que notre unité rende témoignage à l’Évangile."

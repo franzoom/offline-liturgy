@@ -4,13 +4,13 @@ celebration:
   commons:
     - virgin-mary
   color: white
-morning:
-  evangelicAntiphon:
-    common: Brillante aurore du salut, Vierge Marie, tu donnes le jour au Soleil de justice, l’astre d’en haut qui vient nous visiter
+
+oration:
+  - "Dieu de miséricorde, viens au secours de notre faiblesse : puisque nous faisons mémoire de l'Immaculée, la Mère de Dieu, accorde-nous, à son intercession, d'être relevés de nos fautes."
+
 readings:
   patristicReading:
-    -
-      title: Lettre de Bernadette au père Gondrand
+    - title: Lettre de Bernadette au père Gondrand
       subtitle: (28 mai 1861)
       content: |
         J’allai au bord du Gave ramasser du bois avec deux autres petites. ~ J’entendis une rumeur. Je me tournai du côté de la prairie ; je vis que les arbres ne se remuaient pas du tout. ~ Je levai la tête en regardant la grotte. Je vis une dame habillée de blanc : elle avait une robe blanche et une ceinture bleue et une rose jaune sur chaque pied, couleur de la chaîne de son chapelet.
@@ -34,9 +34,36 @@ readings:
         Le Seigneur, comme au jour de fête,
         dansera pour toi avec des cris de joie.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+morning:
+  evangelicAntiphon:
+    common: Brillante aurore du salut, Vierge Marie, tu donnes le jour au Soleil de justice, l’astre d’en haut qui vient nous visiter
+
+
+
+
+
+
+
+
+
+
+
+
+
 vespers:
   evangelicAntiphon:
     common: |
       Avec l’ange, nous te saluons, Marie, comblée de grâce ! Le Seigneur est avec toi : tu es bénie plus que toutes les femmes.
-oration:
-  - "Dieu de miséricorde, viens au secours de notre faiblesse : puisque nous faisons mémoire de l'Immaculée, la Mère de Dieu, accorde-nous, à son intercession, d'être relevés de nos fautes."

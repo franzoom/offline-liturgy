@@ -1,20 +1,20 @@
+commonTitle: Commun des Apôtres
+
 celebration:
   color: red
-commonTitle: Commun des Apôtres
+
+
 firstVespers:
   hymn:
     - avec-des-cris-de-joie
-  psalmody: 
-    -
-      psalm: PSALM_116
+  psalmody:
+    - psalm: PSALM_116
       antiphon:
         - Parmi ses disciples, Jésus en choisit douze, et leur donna le nom d’Apôtres.
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - Le rempart de la ville repose sur le fondement des douze Apôtres de l’Agneau.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Par vous, Apôtres du Seigneur, le peuple de Dieu est rassemblé pour la louange de sa gloire.
   reading:
@@ -30,89 +30,48 @@ firstVespers:
   intercession:
     content: |
       Prenons appui sur la foi qui nous vient des Apôtres et prions Dieu pour son peuple saint :
-      
+
       R/Souviens-toi de ton Église, Seigneur.
-      
+
       Père, tu as voulu que ton Fils ressuscité se manifeste à ses Apôtres,
       — fais de nous les témoins de sa résurrection.
-      
+
       Toi qui as envoyé ton Fils porter aux pauvres la Bonne Nouvelle,
       — donne-nous d’annoncer l’Évangile.
-      
+
       Toi qui as envoyé ton fils semer la parole,
       — envoie des ouvriers à la moisson.
-      
+
       Toi qui as envoyé ton Fils réconcilier le monde avec toi par son propre sang,
       — fais de nous des instruments de paix.
-      
+
       Toi qui as fait asseoir ton Fils à ta droite dans les cieux,
       — accueille nos morts dans la joie du Royaume.
+
+
 invitatory:
   antiphon:
     - Seigneur Jésus, roi des apôtres, louange à toi !
-morning:
-  hymn:
-    - faconnes-par-la-parole-du-seigneur
-  psalmody:
-    -
-      psalm: PSALM_62
-      antiphon:
-        - "Voici mon commandement : Aimez-vous les uns les autres comme je vous ai aimés."
-    -
-      psalm: OT_41
-      antiphon:
-        - Pas de plus grand amour que de donner sa vie pour ceux qu’on aime.
-    -
-      psalm: PSALM_149
-      antiphon:
-        - Si vous gardez ma parole, vous êtes mes amis.
-  reading:
-    biblicalReference: Ep 2, 19-22
-    content: Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple  saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction  qui a pour fondations les Apôtres et les prophètes ; et la pierre angulaire, c’est  le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour  devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments  de la construction pour devenir par l’Esprit Saint la demeure de Dieu.
-  responsory: |
-    R/ Par toute la terre s’en va leur message,
-    \* Et la Bonne Nouvelle aux limites du monde.
-    V/ Annoncez à tous les peuples le salut, \*
-    Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Sur le nom des douze Apôtres est fondée la cité sainte, et sa lumière, c’est l’Agneau.
-  intercession:
-    content: |
-      Nous avons reçu des Apôtres un héritage spirituel,
-      rendons grâce à Dieu notre Père pour les biens qu’il nous donne.
-      
-      R/ Loué sois-tu, Seigneur !
-      
-      Loué sois-tu pour ta sainte Église édifiée sur les Apôtres :
-      elle est le corps que nous formons.
-      
-      Loué sois-tu pour la Parole qu’ils nous ont fait connaître :
-      elle est notre lumière et notre joie.
-      
-      Loué sois-tu pour le baptême et la pénitence qu’ils nous ont annoncés dans la foi :
-      c’est là que nous sommes pardonnés.
-      
-      Loué sois-tu pour l’Eucharistie qu’ils nous ont transmise :
-      elle est notre force et notre vie.
+
+
 readings:
   hymn:
     - les-voici-rassemblés
   psalmody:
-    -
-      psalm: PSALM_18A
+    - psalm: PSALM_18A
       antiphon:
         - "La parole de vérité retentit dans le monde entier : Christ est ressuscité !"
-    -
-      psalm: PSALM_63
+    - psalm: PSALM_63
       antiphon:
         - Le juste trouve sa joie dans le Seigneur et proclame ce que Dieu a fait.
-    -
-      psalm: PSALM_96
+    - psalm: PSALM_96
       antiphon:
         - Ils ont proclamé la justice de Dieu, et tous les peuples ont vu sa gloire.
+  verse: |
+    V/ Ils ont publié l’œuvre de Dieu,
+    ils ont compris ses merveilles.
   biblicalReading:
-    -
-      title: Nous prêchons un Messie crucifié
+    - title: Nous prêchons un Messie crucifié
       ref: 1Co 1,18 – 2,5
       content: |
         Le langage de la croix est folie pour ceux qui se perdent, mais pour ceux qui sont en train d’être sauvés, pour nous, il est puissance de Dieu. Car il est écrit : *Je détruirai la sagesse des sages et j’anéantirai l’intelligence des intelligents*. Où est le sage ? Où est le docteur de la loi ? Où est le raisonneur de ce siècle ? Dieu n’a-t-il pas rendue folle la sagesse du monde ? En effet, puisque le monde, par le moyen de la sagesse, n’a pas reconnu Dieu dans la sagesse de Dieu, c’est par la folie de la prédication que Dieu a jugé bon de sauver ceux qui croient. Les Juifs demandent des miracles et les Grecs recherchent la sagesse ; mais nous, nous prêchons un messie crucifié, scandale pour les Juifs, folie pour les païens, mais pour ceux qui sont appelés, tant Juifs que Grecs, il est Christ, puissance de Dieu et sagesse de Dieu. Car ce qui est folie de Dieu est plus sage que les hommes et ce qui est faiblesse de Dieu est plus fort que les hommes.
@@ -134,11 +93,10 @@ readings:
 
         Messagers de la Bonne Nouvelle,
         ils annoncent la paix aux limites du monde.
-        
+
         Heureux le peuple où il en est ainsi,
         heureux le peuple dont le Seigneur est le Dieu !
-    -
-      title: L’exemple des Apôtres
+    - title: L’exemple des Apôtres
       ref: 1Co 4, 1-16
       content: |
         Qu’on nous considère comme des serviteurs du Christ, et des intendants des mystères de Dieu. Or, ce qu’on demande en fin de compte à des intendants, c’est de se montrer fidèles. Pour moi, il m’importe fort peu d’être jugé par vous ou par un tribunal humain. Je ne me juge pas non plus moi-même. Ma conscience, certes, ne me reproche rien, mais ce n’est pas cela qui me justifie ; celui qui me juge, c’est le Seigneur. Par conséquent, ne jugez pas avant le temps, avant que vienne le Seigneur. C’est lui qui éclairera ce qui est caché dans les ténèbres et mettra en évidence les desseins des cœurs. Alors chacun recevra de Dieu la louange qui lui revient.
@@ -152,19 +110,61 @@ readings:
         et riches de ton seul amour,
         ils vont donner ta joie
         à ceux qui les écoutent et te reçoivent
-        
+
         R/ Merveille de ta grâce !
         tu confies à des hommes les secrets du Père
-        
+
         Messagers de la Bonne Nouvelle,
         ils annoncent la paix aux limites du monde.
-        
+
         Heureux le peuple où il en est ainsi,
         heureux le peuple dont le Seigneur est le Dieu !
 
-  verse: |
-    V/ Ils ont publié l’œuvre de Dieu,
-    ils ont compris ses merveilles.
+
+
+morning:
+  hymn:
+    - faconnes-par-la-parole-du-seigneur
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - "Voici mon commandement : Aimez-vous les uns les autres comme je vous ai aimés."
+    - psalm: OT_41
+      antiphon:
+        - Pas de plus grand amour que de donner sa vie pour ceux qu’on aime.
+    - psalm: PSALM_149
+      antiphon:
+        - Si vous gardez ma parole, vous êtes mes amis.
+  reading:
+    biblicalReference: Ep 2, 19-22
+    content: Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple  saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction  qui a pour fondations les Apôtres et les prophètes ; et la pierre angulaire, c’est  le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour  devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments  de la construction pour devenir par l’Esprit Saint la demeure de Dieu.
+  responsory: |
+    R/ Par toute la terre s’en va leur message,
+    \* Et la Bonne Nouvelle aux limites du monde.
+    V/ Annoncez à tous les peuples le salut, \*
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: Sur le nom des douze Apôtres est fondée la cité sainte, et sa lumière, c’est l’Agneau.
+  intercession:
+    content: |
+      Nous avons reçu des Apôtres un héritage spirituel,
+      rendons grâce à Dieu notre Père pour les biens qu’il nous donne.
+
+      R/ Loué sois-tu, Seigneur !
+
+      Loué sois-tu pour ta sainte Église édifiée sur les Apôtres :
+      elle est le corps que nous formons.
+
+      Loué sois-tu pour la Parole qu’ils nous ont fait connaître :
+      elle est notre lumière et notre joie.
+
+      Loué sois-tu pour le baptême et la pénitence qu’ils nous ont annoncés dans la foi :
+      c’est là que nous sommes pardonnés.
+
+      Loué sois-tu pour l’Eucharistie qu’ils nous ont transmise :
+      elle est notre force et notre vie.
+
+
 middleOfDay:
   tierce:
     antiphon: "Allez et proclamez l’Évangile du Royaume : vous avez reçu gratuitement, donnez gratuitement."
@@ -188,20 +188,19 @@ middleOfDay:
     responsory: |
       V/ Réjouissez-vous, exultez, dit le Seigneur,
       vos noms sont inscrits dans les cieux.
+
+
 vespers:
   hymn:
     - un-grand-vent-s-est-leve
   psalmody:
-    -
-      psalm: PSALM_115
+    - psalm: PSALM_115
       antiphon:
         - Avec moi, vous avez tenu dans l’épreuve.
-    -
-      psalm: PSALM_125
+    - psalm: PSALM_125
       antiphon:
         - Tes Apôtres, Seigneur, ont passé par la tristesse, mais tu les as revus, et leur cœur s’est réjoui.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - "Je vous appelle mes amis et non plus serviteurs : je vous ai confié les secrets de mon Père."
   reading:
@@ -218,20 +217,20 @@ vespers:
   intercession:
     content: |
       Prenons appui sur la foi qui nous vient des Apôtres et prions Dieu pour son peuple saint :
-      
+
       R/Souviens-toi de ton Église, Seigneur.
-      
+
       Père, tu as voulu que ton Fils ressuscité se manifeste à ses Apôtres,
       — fais de nous les témoins de sa résurrection.
-      
+
       Toi qui as envoyé ton Fils porter aux pauvres la Bonne Nouvelle,
       — donne-nous d’annoncer l’Évangile.
-      
+
       Toi qui as envoyé ton fils semer la parole,
       — envoie des ouvriers à la moisson.
-      
+
       Toi qui as envoyé ton Fils réconcilier le monde avec toi par son propre sang,
       — fais de nous des instruments de paix.
-      
+
       Toi qui as fait asseoir ton Fils à ta droite dans les cieux,
       — accueille nos morts dans la joie du Royaume.

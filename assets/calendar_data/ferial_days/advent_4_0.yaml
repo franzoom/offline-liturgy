@@ -1,15 +1,12 @@
 firstVespers:
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Il vient, celui que les peuples désirent ! La maison du Seigneur va resplendir de gloire, alléluia.
-    -
-      psalm: PSALM_129
+    - psalm: PSALM_129
       antiphon:
         - Viens Seigneur, ne tarde plus, rachète Israël de toutes ses fautes.
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - "Les temps sont accomplis : Dieu a envoyé son Fils dans le monde."
   reading:
@@ -28,40 +25,56 @@ firstVespers:
   intercession:
     content: |
       Appelons le Christ, le Sauveur promis, avec tous ceux qui l’attendent :
-      
+
       R/ Viens, Seigneur, ne tarde pas.
-      
+
       Dans la joie, nous attendons ta venue,
       viens combler l’espérance des hommes.
-      
+
       Toi qui es avant les siècles,
       viens sauver le monde aujourd’hui.
-      
+
       Toi qui as créé l’univers,
       viens achever l’œuvre de tes mains.
-      
+
       Toi qui as voulu prendre notre condition mortelle,
       viens nous arracher au pouvoir de la mort.
-      
+
       Toi qui es venu pour donner ta vie,
       viens redonner vie à nos frères défunts.
+
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_23
+      antiphon:
+        - Ouvrez-vous portes éternelles, laissez entrer le roi de gloire.
+    - psalm: PSALM_65_1
+      antiphon:
+        - Relevez la tête, car votre délivrance est proche.
+    - psalm: PSALM_65_2
+      antiphon:
+        - Mon secours et mon libérateur, Seigneur, ne tarde pas.
+  verse: |
+    V/ Levez la tête et regardez :
+    notre Sauveur est proche.
+  oration:
+    - "Que ta grâce, Seigneur notre Dieu, se répande en nos cœurs : par le message de l’ange, tu nous as fait connaître l’incarnation de ton Fils bien-aimé, conduis-nous par sa passion et par sa croix jusqu’à la gloire de la résurrection. Lui qui règne."
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_117
+    - psalm: PSALM_117
       antiphon:
         - "Clameur de joie et de victoire : proche est le jour du Seigneur, voici qu’il vient nous sauver !"
-    -
-      psalm: OT_40
+    - psalm: OT_40
       antiphon:
         - "Le Seigneur va venir ! Allez au-devant de lui : chantez, bénissez son nom."
-    -
-      psalm: PSALM_150
+    - psalm: PSALM_150
       antiphon:
         - La Parole a quitté le trône royal pour venir jusqu’à nous, alléluia.
   reading:
@@ -76,61 +89,38 @@ morning:
   intercession:
     content: |
       Avec confiance, prions le Christ, que le Père a établi juge des vivants et des morts :
-      
+
       R/ Viens, Jésus, Sauveur !
-      
+
       Seigneur Jésus, venu sauver les pécheurs,
       garde-nous de succomber aux assauts du mal.
-      
+
       Toi qui as annoncé ta venue comme juge,
       manifeste en nous la puissance de ton salut.
-      
+
       Donne-nous la force de l’Esprit,
       que nous trouvions notre joie à suivre ton chemin de justice.
-      
+
       Toi, le Béni, qui règnes sur toutes choses,
       accorde-nous de vivre en ce monde dans la fidélité et la sobriété, en espérant la manifestation de ta gloire.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_23
-      antiphon:
-        - Ouvrez-vous portes éternelles, laissez entrer le roi de gloire.
-    -
-      psalm: PSALM_65_1
-      antiphon:
-        - Relevez la tête, car votre délivrance est proche.
-    -
-      psalm: PSALM_65_2
-      antiphon:
-        - Mon secours et mon libérateur, Seigneur, ne tarde pas.
-  verse: |
-    V/ Levez la tête et regardez :
-    notre Sauveur est proche.
-  oration:
-    - "Que ta grâce, Seigneur notre Dieu, se répande en nos cœurs : par le message de l’ange, tu nous as fait connaître l’incarnation de ton Fils bien-aimé, conduis-nous par sa passion et par sa croix jusqu’à la gloire de la résurrection. Lui qui règne."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_22
+    - psalm: PSALM_22
       antiphon:
         - De toi, Bethléem, sortira le berger d’Israël.
-    -
-      psalm: PSALM_75_1
-    -
-      psalm: PSALM_75_2
+    - psalm: PSALM_75_1
+    - psalm: PSALM_75_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - Voyez comme il est beau, celui qui vient sauver les hommes !
-    -
-      psalm: PSALM_111
+    - psalm: PSALM_111
       antiphon:
         - Tout ravin sera comblé, toute colline abaissée. Viens, Seigneur, ne tarde plus !
-    -
-      psalm: NT_12
+    - psalm: NT_12
       antiphon:
         - Son pouvoir s’étendra, la paix sera sans fin.
   reading:
@@ -146,20 +136,20 @@ vespers:
   intercession:
     content: |
       Frères bien-aimés, adressons notre prière confiante au Christ, venu pour sauver tous les hommes :
-      
+
       R/ Viens, fruit de la terre et don du ciel !
-      
+
       Christ Seigneur, par le mystère de ton incarnation, tu as fait connaître au monde la gloire de ta divinité,
       — que ta venue soit notre vie et notre lumière.
-      
+
       Tu as pris sur toi notre faiblesse, 
       — revêts-nous de ta force.
-      
+
       Venu d’abord dans l’humilité, tu as racheté le monde de sa faute,
       — lors de ta venue glorieuse, libère-nous de tout ce qui témoigne contre nous.
-      
+
       Toi, le Béni, qui règnes sur toutes choses,
       — dans ta bonté, donne-nous part à l’héritage éternel.
-      
+
       Toi qui sièges à la droite du Père,
       — réjouis nos frères défunts par la lumière de ton visage.

@@ -3,38 +3,32 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_91
-    -
-      psalm: OT_38
-    -
-      psalm: PSALM_8
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_77_4
+    - psalm: PSALM_77_4
       antiphon:
         - Quand nous sommes infidèles, le Seigneur reste fidèle ; pourrait-il se renier lui-même ?
-    -
-      psalm: PSALM_77_5
+    - psalm: PSALM_77_5
       antiphon:
         - Quand nous sommes infidèles, le Seigneur reste fidèle ; pourrait-il se renier lui-même ?
-    -
-      psalm: PSALM_77_6
+    - psalm: PSALM_77_6
       antiphon:
         - Quand nous sommes infidèles, le Seigneur reste fidèle ; pourrait-il se renier lui-même ?
   verse: |
     V/ Dieu révèle à Jacob sa parole,
     ses volontés et ses lois à Israël.
+
+morning:
+  psalmody:
+    - psalm: PSALM_91
+    - psalm: OT_38
+    - psalm: PSALM_8
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_22
+    - psalm: PSALM_118_22
       antiphon:
         - "Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie."
-    -
-      psalm: PSALM_44_1
-    -
-      psalm: PSALM_44_2
+    - psalm: PSALM_44_1
+    - psalm: PSALM_44_2

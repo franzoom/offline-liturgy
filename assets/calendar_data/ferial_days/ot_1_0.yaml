@@ -2,18 +2,15 @@ firstVespers:
   hymn:
     - il-viendra
   psalmody:
-    -
-      psalm: PSALM_140
+    - psalm: PSALM_140
       antiphon:
         - Que ma prière devant toi s’élève comme un encens ; et mes mains, comme l’offrande du soir.
         - "Seigneur, je t’appelle : accours vers moi !"
-    -
-      psalm: PSALM_141
+    - psalm: PSALM_141
       antiphon:
         - Tu es ma part, ô Seigneur, sur la terre des vivants.
         - "Délivre-moi, Seigneur : que je rende grâce à ton nom."
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - Jésus Christ est Seigneur, à la gloire de Dieu le Père !
   reading:
@@ -32,37 +29,51 @@ firstVespers:
     content: |
       Pour rendre gloire au Père, au Fils et à l’Esprit, prions et supplions :
       <p>R/ Sauve-nous, Dieu de l’univers !
-      
+
       Béni sois-tu, Seigneur, pour le monde et ses merveilles : 
       — que ta justice et ton amour emplissent la terre.
-      
+
       Béni sois-tu, Seigneur, Parole vivante du Père : 
       — que ton Évangile parvienne à toutes les nations.
-      
+
       Béni sois-tu, Seigneur, Esprit de vie : 
       — que ton souffle renouvelle la face de la terre.
-      
+
       Béni sois-tu, Seigneur de ton peuple : 
       — que ton Église témoigne pour l’espérance.
-      
+
       Béni sois-tu, Seigneur des vivants : 
       — fais entrer les défunts dans l’éternelle joie.
+
 invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
+
+readings:
+  psalmody:
+    - psalm: PSALM_1
+      antiphon:
+        - L’arbre de vie, c’est ta croix, Seigneur, alléluia.
+    - psalm: PSALM_2
+      antiphon:
+        - "Voici le roi que j’établis sur ma sainte montagne : c’est mon Fils bien-aimé. Alléluia."
+    - psalm: PSALM_3
+      antiphon:
+        - Tu es pour moi un bouclier, Seigneur, la gloire qui me tient la tête haute.
+  verse: |
+    V/ Que la parole du Christ habite en vous dans sa richesse.
+    Instruisons-nous les uns les autres en toute sagesse.
+
 morning:
   hymn:
     - n-allons-plus-nous-derobant
   psalmody:
-    -
-      psalm: PSALM_62
+    - psalm: PSALM_62
       antiphon:
         - Mon âme a soif de toi, toi que je cherche dès l’aube.
         - Je veux te bénir tout au long de ma vie, alléluia.
-    -
-      psalm: OT_41
-    -
-      psalm: PSALM_149
+    - psalm: OT_41
+    - psalm: PSALM_149
       antiphon:
         - Alléluia !
         - À toi, le peuple des humbles, la joie de ton Dieu, ton créateur !
@@ -79,67 +90,46 @@ morning:
   intercession:
     content: |
       Louons le Christ Seigneur, soleil de notre jour, qui éclaire tout homme et ne connaît pas de déclin :
-      
+
       R/ Tu es la Vie, Seigneur, tu es le Salut !
-      
+
       Nous accueillons le jour que ta bonté nous accorde,
       – le jour où tu surgis de la mort.
-      
+
       Par l’eau du baptême, tu nous as fait renaître,
       – fais-nous vivre du souffle de ton Esprit.
-      
+
       À la table de ta Parole et de ton Corps, tu nous invites,
       – rassemble-nous dans la joie et la simplicité du cœur.
-      
+
       Pour tant de grâce, nous te rendons grâce :
       – fais que nous passions avec toi de ce monde au Père.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_1
-      antiphon:
-        - L’arbre de vie, c’est ta croix, Seigneur, alléluia.
-    -
-      psalm: PSALM_2
-      antiphon:
-        - "Voici le roi que j’établis sur ma sainte montagne : c’est mon Fils bien-aimé. Alléluia."
-    -
-      psalm: PSALM_3
-      antiphon:
-        - Tu es pour moi un bouclier, Seigneur, la gloire qui me tient la tête haute.
-  verse: |
-    V/ Que la parole du Christ habite en vous dans sa richesse.
-    Instruisons-nous les uns les autres en toute sagesse.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_117_1
+    - psalm: PSALM_117_1
       antiphon:
         - Alléluia.
-    -
-      psalm: PSALM_117_2
+    - psalm: PSALM_117_2
       antiphon:
         - Alléluia.
-    -
-      psalm: PSALM_117_3
+    - psalm: PSALM_117_3
       antiphon:
         - Alléluia.
+
 vespers:
   hymn:
     - reste-avec-nous-seigneur-jesus
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - "Oracle du Seigneur à mon seigneur : Siège à ma droite."
         - Dieu a tiré le Christ de la mort et l’a fait siéger dans sa gloire.
-    -
-      psalm: PSALM_113A
+    - psalm: PSALM_113A
       antiphon:
         - Devant la face du Seigneur, l’eau vive jaillira, alléluia !
         - Baptisé dans la mort du Seigneur, nous vivrons avec lui.
-    -
-      psalm: NT_12
+    - psalm: NT_12
   reading:
     biblicalReference: 2 Co 1, 3-4
     content: Béni soit Dieu, le Père de notre Seigneur Jésus Christ, le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte ; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse, grâce au réconfort que nous recevons nous-mêmes de Dieu.
@@ -154,20 +144,20 @@ vespers:
   intercession:
     content: |
       Adorons le Christ, Seigneur. Il est la tête ; nous sommes les membres de son corps :
-      
+
       R/ Vienne ton règne, Seigneur !
-      
+
       Christ, ami des hommes, tu as établi ton Église signe de salut pour les peuples :
       – qu’elle soit fidèle à sa mission.
-      
+
       Tu veux rassembler tes frères en un seul Corps ;
       – avive en nous le désir de l’unité.
-      
+
       Garde en communion le pape et les évêques ;
       – qu’ils servent ton peuple au milieu des nations.
-      
+
       Accorde au monde la paix ;
       – fais-nous les artisans de ta justice.
-      
+
       Ta résurrection nous a ouvert les portes de la vie :
       – qu’ils entrent, ceux qui ont mis leur espérance en toi.

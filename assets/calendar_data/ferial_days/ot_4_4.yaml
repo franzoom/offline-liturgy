@@ -1,22 +1,71 @@
 invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
+
+readings:
+  hymn:
+    - qu-il-soit-beni-qu-il-vienne
+  psalmody:
+    - psalm: PSALM_43_1
+      antiphon:
+        - C’est ta droite, Seigneur, qui donne la victoire.
+    - psalm: PSALM_43_2
+      antiphon:
+        - Ne cache pas loin de moi ta face au jour où l’angoisse me tient.
+    - psalm: PSALM_43_3
+      antiphon:
+        - Lève-toi, Seigneur, aide-nous. Ne nous rejette pas jusqu’à la fin.
+  verse: |
+    V/ Pour ton serviteur, illumine ta face.
+    Apprends-moi tes volontés.
+  biblicalReading:
+    - title: Salutation et action de grâce
+      ref: 2Th 1, 1-12
+      content: Paul, Silvain et Timothée, à l’Église de Thessalonique qui est en Dieu notre Père et dans le Seigneur Jésus Christ. À vous, la grâce et la paix de la part de Dieu notre Père et du Seigneur Jésus Christ. Frères, à tout moment nous devons rendre grâce à Dieu à votre sujet, et c’est bien de le faire, étant donné les grands progrès de votre foi, et l’amour croissant que tous et chacun, vous avez les uns pour les autres. C’est pourquoi nous-mêmes sommes fiers de vous au milieu des Églises de Dieu, à cause de votre endurance et de votre foi dans toutes les persécutions et les détresses que vous supportez. Il y a là un signe du juste jugement de Dieu ; ainsi vous deviendrez dignes de son Royaume pour lequel vous souffrez. C’est justice, en effet, que Dieu rende la détresse à ceux qui vous l’infligent, et qu’il vous accorde, à vous qui subissez la détresse, le soulagement avec nous lorsque, du haut du ciel, le Seigneur Jésus se révélera avec les anges, messagers de sa puissance, dans le feu flamboyant ; alors il fera justice contre ceux qui ignorent Dieu et à ceux qui n’obéissent pas à l’Évangile de notre Seigneur Jésus. Ceux-là subiront comme châtiment la ruine éternelle, loin de la face du Seigneur et de la gloire de sa force, quand il viendra en ce jour-là pour être glorifié dans ses saints et admiré en tous ceux qui ont cru ; or vous, vous avez cru à notre témoignage. C’est pourquoi nous prions pour vous à tout moment afin que notre Dieu vous trouve dignes de l’appel qu’il vous a adressé ; par sa puissance, qu’il vous donne d’accomplir tout le bien que vous désirez, et qu’il rende active votre foi. Ainsi, le nom de notre Seigneur Jésus sera glorifié en vous, et vous en lui, selon la grâce de notre Dieu et du Seigneur Jésus Christ.
+      responsory: |
+        R/ Le Seigneur est toujours vrai quand il parle,
+        toujours fidèle quand il agit.
+
+        Le Seigneur viendra
+        pour être glorifié dans ses saints
+        et admiré en tous ceux qui auront cru.
+
+        Que Dieu vous rende dignes de son appel,
+        que sa puissance mène à bonne fin
+        le labeur de votre foi.
+
+        Que le nom de notre Seigneur Jésus Christ
+        soit glorifié en vous, et vous en lui,
+        selon la grâce de notre Dieu.
+  patristicReading:
+    - title: CATÉCHÉSE BAPTISMALE DE SAINT CYRILLE DE JERUSALEM
+      subtitle: « Par la Croix, la joie est venue dans le monde »
+      content: "Toute action du Christ glorifie l’Église ; mais la gloire des gloires, c’est la Croix. Dans cette conviction, Paul a dit : *Que je ne me glorifie jamais, sinon dans la croix du Christ.* Ce fut déjà une chose étonnante que l’aveugle de naissance retrouvât la vue à Siloé ; mais qu’est-ce que cela faisait à tous les aveugles du monde ? Ce fut quelque chose de grand et qui dépassait la nature, que la résurrection de Lazare au bout de quatre jours ; mais cette grâce ne profitait qu’à lui seul ; elle n’apportait rien à tous ceux qui, dans le monde, étaient morts du fait de leurs péchés. C’était étonnant de faire jaillir de la nourriture pour nourrir cinq mille hommes avec cinq pains ; mais cela n’était rien pour ceux qui, dans tout l’univers, souffraient de la faim de l’ignorance. C’était étonnant de délivrer une femme enchaînée par Satan depuis dix-huit ans ; mais qu’est-ce que cela par rapport à nous tous qui sommes ligotés par les chaînes de nos péchés ? Or, la victoire de la Croix, c’est qu’elle a illuminé ceux que l’ignorance rend aveugles, elle a délivré tous ceux que le péché rend captifs, et elle a racheté toute l’humanité. ~ Nous ne devons pas avoir honte de la croix du Sauveur, mais plutôt en tirer gloire. *Le langage de la Croix est scandale pour les Juifs, folie pour les païens* ; mais pour nous elle est le salut. *Pour ceux qui se perdent, elle est folie ; pour nous qui sommes sauvés, elle est puissance de Dieu*. Car ce n’était pas un homme sans plus qui mourait, mais le Fils de Dieu, Dieu fait homme. L’agneau, du temps de Moïse, éloignait l’Exterminateur ; est-ce que *l’Agneau de Dieu qui enlève le péché du monde* ne nous a pas bien davantage libérés de nos péchés ? Le sang d’une brebis sans raison procurait le salut ; est-ce que le sang du Fils unique ne nous sauve pas bien davantage ? ~ Ce n’est pas par contrainte qu’il a quitté la vie, ce n’est pas par force qu’il a été immolé, mais par sa propre volonté. Ecoutez ce qu’il dit : *J’ai le pouvoir de donner ma vie, et le pouvoir de la recevoir à nouveau.* ~ Il est venu délibérément à sa passion, heureux de son exploit, souriant à son triomphe, content de sauver les hommes. Il n’a pas eu honte de la Croix, car il sauvait toute la terre. Ce n’était pas un pauvre homme qui souffrait, mais Dieu fait homme qui allait combattre pour obtenir le prix de la patience. ~ Ne te réjouis pas de la croix en temps de paix seulement ; garde la même foi en temps de persécution ; ne sois pas l’ami de Jésus seulement en temps de paix, pour devenir son ennemi en temps de guerre. Tu reçois maintenant le pardon de tes péchés et les dons spirituels prodigués par ton Roi ; lorsque la guerre éclatera, combats vaillamment pour ton Roi. Jésus a été crucifié pour toi, lui qui était sans péché ; et toi, tu ne seras pas crucifié pour celui qui a été crucifié pour toi ? Ce n’est pas toi qui lui as fait cette grâce, car tu l’as reçue le premier. Mais tu lui rends grâce, pour payer ta dette à celui qui a été crucifié à cause de toi sur le Golgotha."
+      responsory: |
+        R/ Tout homme qui croit en Jésus Christ
+        aura la vie éternelle.
+
+        Je n’ai rien voulu savoir parmi vous,
+        sinon Jésus Christ, et Jésus Christ crucifié.
+
+        Nous avons cru, nous aussi, au Christ Jésus,
+        afin d’être justifiés par la foi au Christ.
+  oration:
+    - Dieu puissant, de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom ; resserre nos liens avec toi, pour développer ce qui est bon en nous ; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir.
+
 morning:
   hymn:
     - pere-du-premier-mot
   psalmody:
-    -
-      psalm: PSALM_142
+    - psalm: PSALM_142
       antiphon:
         - Fais que j’entende au matin ton amour, car je compte sur toi.
         - Me voici devant toi comme une terre assoiffée.
-    -
-      psalm: OT_32
+    - psalm: OT_32
       antiphon:
         - Exultez, vous qui aimez Jérusalem ; réjouissez-vous de sa joie !
         - Grâce, miséricorde et paix dans la vérité et dans l’amour.
-    -
-      psalm: PSALM_146
+    - psalm: PSALM_146
       antiphon:
         - Alléluia !
         - Dieu se plait avec ceux qui le craignent, avec ceux qui espèrent en son amour.
@@ -36,20 +85,20 @@ morning:
       Prions avec foi le Père tout-puissant,
       prions Jésus, le Fils unique,
       prions le Saint Esprit de Dieu.
-      
+
       R/ Ô Seigneur, écoute et prends pitié !
-      
+
       Pour l’Église immaculée du Dieu vivant,
       répandue par tout l’univers,
       invoquons la richesse des grâces divines.
-      
+
       Pour les ministres consacrés au Seigneur,
       pour le peuple qui adore Dieu en vérité,
       supplions le Christ, notre Seigneur.
-      
+
       Pour ceux qui dispensent fidèlement la parole,
       demandons la sagesse infinie du Verbe de Dieu.
-      
+
       Pour les vierges d’esprit et de corps
       à cause du règne de Dieu,
       pour ceux qui peinent sur le chemin de la vie parfaite,
@@ -57,95 +106,36 @@ morning:
       <p>Pour ceux qui gouvernent les peuples,
       pour que règnent la justice et le droit,
       demandons la force de Dieu.
-      
+
       Pour l’alternance heureuse des saisons,
       pour les bienfaits de la pluie et des vents,
       invoquons le Seigneur qui gouverne le monde.
   oration:
     - Donne à ceux qui te prient, Seigneur, l’abondance de ta grâce. Avec ton aide, qu’ils suivent tes commandements pour y trouver dès maintenant leur bonheur, pour en recevoir, dans l’éternité, ta joie.
-readings:
-  hymn:
-    - qu-il-soit-beni-qu-il-vienne
-  psalmody:
-    -
-      psalm: PSALM_43_1
-      antiphon:
-        - C’est ta droite, Seigneur, qui donne la victoire.
-    -
-      psalm: PSALM_43_2
-      antiphon:
-        - Ne cache pas loin de moi ta face au jour où l’angoisse me tient.
-    -
-      psalm: PSALM_43_3
-      antiphon:
-        - Lève-toi, Seigneur, aide-nous. Ne nous rejette pas jusqu’à la fin.
-  biblicalReading:
-    -
-      title: Salutation et action de grâce
-      ref: 2Th 1, 1-12
-      content: Paul, Silvain et Timothée, à l’Église de Thessalonique qui est en Dieu notre Père et dans le Seigneur Jésus Christ. À vous, la grâce et la paix de la part de Dieu notre Père et du Seigneur Jésus Christ. Frères, à tout moment nous devons rendre grâce à Dieu à votre sujet, et c’est bien de le faire, étant donné les grands progrès de votre foi, et l’amour croissant que tous et chacun, vous avez les uns pour les autres. C’est pourquoi nous-mêmes sommes fiers de vous au milieu des Églises de Dieu, à cause de votre endurance et de votre foi dans toutes les persécutions et les détresses que vous supportez. Il y a là un signe du juste jugement de Dieu ; ainsi vous deviendrez dignes de son Royaume pour lequel vous souffrez. C’est justice, en effet, que Dieu rende la détresse à ceux qui vous l’infligent, et qu’il vous accorde, à vous qui subissez la détresse, le soulagement avec nous lorsque, du haut du ciel, le Seigneur Jésus se révélera avec les anges, messagers de sa puissance, dans le feu flamboyant ; alors il fera justice contre ceux qui ignorent Dieu et à ceux qui n’obéissent pas à l’Évangile de notre Seigneur Jésus. Ceux-là subiront comme châtiment la ruine éternelle, loin de la face du Seigneur et de la gloire de sa force, quand il viendra en ce jour-là pour être glorifié dans ses saints et admiré en tous ceux qui ont cru ; or vous, vous avez cru à notre témoignage. C’est pourquoi nous prions pour vous à tout moment afin que notre Dieu vous trouve dignes de l’appel qu’il vous a adressé ; par sa puissance, qu’il vous donne d’accomplir tout le bien que vous désirez, et qu’il rende active votre foi. Ainsi, le nom de notre Seigneur Jésus sera glorifié en vous, et vous en lui, selon la grâce de notre Dieu et du Seigneur Jésus Christ.
-      responsory: |
-        R/ Le Seigneur est toujours vrai quand il parle,
-        toujours fidèle quand il agit.
-        
-        Le Seigneur viendra
-        pour être glorifié dans ses saints
-        et admiré en tous ceux qui auront cru.
-        
-        Que Dieu vous rende dignes de son appel,
-        que sa puissance mène à bonne fin
-        le labeur de votre foi.
-        
-        Que le nom de notre Seigneur Jésus Christ
-        soit glorifié en vous, et vous en lui,
-        selon la grâce de notre Dieu.
-  patristicReading:
-    -
-      title: CATÉCHÉSE BAPTISMALE DE SAINT CYRILLE DE JERUSALEM
-      subtitle: « Par la Croix, la joie est venue dans le monde »
-      content: "Toute action du Christ glorifie l’Église ; mais la gloire des gloires, c’est la Croix. Dans cette conviction, Paul a dit : *Que je ne me glorifie jamais, sinon dans la croix du Christ.* Ce fut déjà une chose étonnante que l’aveugle de naissance retrouvât la vue à Siloé ; mais qu’est-ce que cela faisait à tous les aveugles du monde ? Ce fut quelque chose de grand et qui dépassait la nature, que la résurrection de Lazare au bout de quatre jours ; mais cette grâce ne profitait qu’à lui seul ; elle n’apportait rien à tous ceux qui, dans le monde, étaient morts du fait de leurs péchés. C’était étonnant de faire jaillir de la nourriture pour nourrir cinq mille hommes avec cinq pains ; mais cela n’était rien pour ceux qui, dans tout l’univers, souffraient de la faim de l’ignorance. C’était étonnant de délivrer une femme enchaînée par Satan depuis dix-huit ans ; mais qu’est-ce que cela par rapport à nous tous qui sommes ligotés par les chaînes de nos péchés ? Or, la victoire de la Croix, c’est qu’elle a illuminé ceux que l’ignorance rend aveugles, elle a délivré tous ceux que le péché rend captifs, et elle a racheté toute l’humanité. ~ Nous ne devons pas avoir honte de la croix du Sauveur, mais plutôt en tirer gloire. *Le langage de la Croix est scandale pour les Juifs, folie pour les païens* ; mais pour nous elle est le salut. *Pour ceux qui se perdent, elle est folie ; pour nous qui sommes sauvés, elle est puissance de Dieu*. Car ce n’était pas un homme sans plus qui mourait, mais le Fils de Dieu, Dieu fait homme. L’agneau, du temps de Moïse, éloignait l’Exterminateur ; est-ce que *l’Agneau de Dieu qui enlève le péché du monde* ne nous a pas bien davantage libérés de nos péchés ? Le sang d’une brebis sans raison procurait le salut ; est-ce que le sang du Fils unique ne nous sauve pas bien davantage ? ~ Ce n’est pas par contrainte qu’il a quitté la vie, ce n’est pas par force qu’il a été immolé, mais par sa propre volonté. Ecoutez ce qu’il dit : *J’ai le pouvoir de donner ma vie, et le pouvoir de la recevoir à nouveau.* ~ Il est venu délibérément à sa passion, heureux de son exploit, souriant à son triomphe, content de sauver les hommes. Il n’a pas eu honte de la Croix, car il sauvait toute la terre. Ce n’était pas un pauvre homme qui souffrait, mais Dieu fait homme qui allait combattre pour obtenir le prix de la patience. ~ Ne te réjouis pas de la croix en temps de paix seulement ; garde la même foi en temps de persécution ; ne sois pas l’ami de Jésus seulement en temps de paix, pour devenir son ennemi en temps de guerre. Tu reçois maintenant le pardon de tes péchés et les dons spirituels prodigués par ton Roi ; lorsque la guerre éclatera, combats vaillamment pour ton Roi. Jésus a été crucifié pour toi, lui qui était sans péché ; et toi, tu ne seras pas crucifié pour celui qui a été crucifié pour toi ? Ce n’est pas toi qui lui as fait cette grâce, car tu l’as reçue le premier. Mais tu lui rends grâce, pour payer ta dette à celui qui a été crucifié à cause de toi sur le Golgotha."
-      responsory: |
-        R/ Tout homme qui croit en Jésus Christ
-        aura la vie éternelle.
-        
-        Je n’ai rien voulu savoir parmi vous,
-        sinon Jésus Christ, et Jésus Christ crucifié.
-        
-        Nous avons cru, nous aussi, au Christ Jésus,
-        afin d’être justifiés par la foi au Christ.
-  verse: |
-    V/ Pour ton serviteur, illumine ta face.
-    Apprends-moi tes volontés.
-  oration:
-    - Dieu puissant, de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom ; resserre nos liens avec toi, pour développer ce qui est bon en nous ; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_20
+    - psalm: PSALM_118_20
       antiphon:
         - Ta tendresse est sans mesure, Seigneur ; fais-moi vivre selon ton amour.
-    -
-      psalm: PSALM_127
+    - psalm: PSALM_127
       antiphon:
         - Heureux qui craint le Seigneur et marche en ses voies.
-    -
-      psalm: PSALM_128
+    - psalm: PSALM_128
       antiphon:
         - La vie du juste est dans les mains de Dieu.
+
 vespers:
   hymn:
     - o-pere
   psalmody:
-    -
-      psalm: PSALM_143_1
+    - psalm: PSALM_143_1
       antiphon:
         - Béni soit le Seigneur, mon rocher !
-    -
-      psalm: PSALM_143_2
+    - psalm: PSALM_143_2
       antiphon:
         - Heureux le peuple qui a pour Dieu le Seigneur !
-    -
-      psalm: NT_10
+    - psalm: NT_10
       antiphon:
         - Il a pris possession de son règne, le Seigneur Dieu, Maître de tout !
   reading:
@@ -163,29 +153,29 @@ vespers:
       Prions avec foi le Père tout-puissant,
       prions Jésus, le Fils unique,
       prions le Saint Esprit de Dieu.
-      
+
       R/ Ô Seigneur, écoute et prends pitié !
-      
+
       Pour ceux que le Père attire à son Fils
       et qui se préparent au baptême,
       supplions la bonté du Dieu tout-puissant.
-      
+
       Pour ceux que retiennent la faiblesse humaine,
       l’esprit de haine, d’envie et les erreurs du monde,
       implorons la tendresse du Rédempteur.
-      
+
       Pour les absents, pour les prisonniers,
       pour le faible qu’on opprime, le juste persécuté,
       supplions Jésus le Sauveur.
-      
+
       Pour les chrétiens divisés, pour les fils d’Israël,
       pour les musulmans, et les hommes de toutes religions,
       invoquons le Seigneur de vérité.
-      
+
       Pour les ouvriers de l’Évangile,
       pour ceux qui servent leurs frères avec amour,
       prions le Dieu des miséricordes.
-      
+
       Pour le repos des trépassés,
       invoquons le Seigneur des esprits
       et le Juge de toute chair.

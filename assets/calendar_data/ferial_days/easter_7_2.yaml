@@ -2,18 +2,59 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_67_1
+      antiphon:
+        - Il est sorti en vainqueur, le Fils de Dieu, pour triompher encore, alléluia.
+    - psalm: PSALM_67_2
+      antiphon:
+        - Il est sorti en vainqueur, le Fils de Dieu, pour triompher encore, alléluia.
+    - psalm: PSALM_67_3
+      antiphon:
+        - Il est sorti en vainqueur, le Fils de Dieu, pour triompher encore, alléluia.
+  verse: |
+    V/ Ressuscité des morts, le Christ ne meurt plus, alléluia.
+    Sur lui, la mort n’a plus aucun pouvoir, alléluia.
+  biblicalReading:
+    - title: Dieu est amour
+      ref: 1Jn 4, 11-21
+      content: "Bien-aimés, puisque Dieu nous a tellement aimés, nous devons, nous aussi, nous aimer les uns les autres. Dieu, personne ne l’a jamais vu. Mais si nous nous aimons les uns les autres, Dieu demeure en nous, et, en nous, son amour atteint la perfection. Voici comment nous reconnaissons que nous demeurons en lui et lui en nous : il nous a donné part à son Esprit. Quant à nous, nous avons vu et nous attestons que le Père a envoyé son Fils comme Sauveur du monde. Celui qui proclame que Jésus est le Fils de Dieu, Dieu demeure en lui, et lui en Dieu. Et nous, nous avons reconnu l’amour que Dieu a pour nous, et nous y avons cru. Dieu est amour : qui demeure dans l’amour demeure en Dieu, et Dieu demeure en lui. Voici comment l’amour atteint, chez nous, sa perfection : avoir de l’assurance au jour du jugement ; comme Jésus, en effet, nous ne manquons pas d’assurance en ce monde. Il n’y a pas de crainte dans l’amour, l’amour parfait bannit la crainte ; car la crainte implique un châtiment, et celui qui reste dans la crainte n’a pas atteint la perfection de l’amour. Quant à nous, nous aimons parce que Dieu lui-même nous a aimés le premier. Si quelqu’un dit : « J’aime Dieu », alors qu’il a de la haine contre son frère, c’est un menteur. En effet, celui qui n’aime pas son frère, qu’il voit, est incapable d’aimer Dieu, qu’il ne voit pas. Et voici le commandement que nous tenons de lui : celui qui aime Dieu, qu’il aime aussi son frère."
+      responsory: |
+        R/ Nous le croyons :
+        Dieu est amour, alléluia, alléluia !
+
+        C’est lui qui fut notre Sauveur :
+        dans son amour et sa pitié,
+        lui-même nous racheta.
+
+        Si Dieu nous a tant aimés,
+        nous devons, nous aussi,
+        nous aimer les uns les autres.
+  patristicReading:
+    - title: TRAITÉ DE SAINT BASILE SUR LE SAINT-ESPRIT
+      subtitle: Les dons de l’Esprit
+      content: "Qui donc, en entendant les noms que l’on donne à l’Esprit, n’élève pas sa pensée, ne hausse pas sa réflexion vers ce qu’il y a de plus sublime ? Car on dit : l’Esprit de Dieu, *l’Esprit de vérité qui procède du Père, l’Esprit ferme, l’Esprit qui dirige*. « Esprit Saint » est son appellation propre et particulière. ~ Vers lui se tournent tous les êtres qui ont besoin de sanctification ; c’est lui que désirent tous ceux qui vivent selon la vertu, pour être rafraîchis par son haleine et secourus dans la recherche de la fin propre qui convient à leur nature. ~ Source de sanctification, lumière intelligible, il fournit par lui-même comme une sorte de clarté à toute puissance rationnelle qui veut découvrir la vérité. Il est inaccessible de sa nature, mais on peut saisir sa bonté. Il remplit tout par sa puissance, mais il se communique seulement à ceux qui en sont dignes, et non pas dans une mesure uniforme mais en distribuant son activité en proportion de la foi. Il est simple par son essence, mais se manifeste par des miracles variés. Il est tout entier présent à chacun, mais tout entier partout. Il se divise, mais sans subir aucune atteinte. Il se donne en partage, mais garde son intégrité : à l’image d’un rayon de soleil, dont la grâce est présente à celui qui en jouit comme s’il était seul, mais qui brille sur la terre et la mer, et s’est mélangé à l’air. C’est ainsi que l’Esprit, présent à chacun de ceux qui peuvent le recevoir comme si celui-ci était seul, répand sur tous la grâce en plénitude. Ceux qui y participent en jouissent autant qu’il est possible à leur nature, mais non pas autant que lui-même peut se donner. ~ Par lui les cœurs s’élèvent, les faibles sont conduits par la main, ceux qui progressent deviennent parfaits. C’est lui, en brillant chez ceux qui se sont purifiés de toute souillure, qui les rend spirituels par leur communion avec lui. Comme les objets nets et transparents, lorsqu’un rayon les frappe, deviennent eux-mêmes resplendissants et tirent d’eux-mêmes une autre lumière ; de même les âmes qui portent l’Esprit, illuminées par l’Esprit, deviennent elles-mêmes spirituelles et renvoient la grâce sur les autres. De là viennent la prévision de l’avenir, l’intelligence des mystères, la compréhension des choses cachées, la distribution des dons spirituels, la citoyenneté céleste, la danse avec les anges, la joie sans fin, la demeure en Dieu, la ressemblance avec Dieu, et le comble de ce que l’on peut désirer : devenir Dieu."
+      responsory: |
+        R/ Le fruit de l’Esprit est amour, joie et paix.
+        <p> Si nous vivons par l’Esprit,
+        marchons aussi dans l’Esprit.
+
+        Si vous êtes conduits par l’Esprit,
+        vous n’êtes plus soumis à la loi.
+  oration:
+    - "Dieu de puissance et de miséricorde, nous te supplions d’envoyer ton Esprit : qu’il habite nos cœurs, et fasse de nous le temple de sa gloire."
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_84
+    - psalm: PSALM_84
       antiphon:
         - En toi, Seigneur, ton peuple se réjouit, alléluia.
-    -
-      psalm: OT_20
+    - psalm: OT_20
       antiphon:
         - Nous espérions dans le Seigneur, il nous a donné la paix, alléluia.
-    -
-      psalm: PSALM_66
+    - psalm: PSALM_66
       antiphon:
         - Déjà notre terre a donné son fruit ; que les peuples se réjouissent, alléluia.
   reading:
@@ -30,89 +71,38 @@ morning:
     content: |
       Nous te rendons grâce, ô Christ,
       et par toi nous rendons grâce au Père dans l’Esprit :
-      
+
       R/ Seigneur Jésus, accorde-nous ton Esprit !
-      
+
       Fais de nous les membres vivants de ton Corps,
       conduits par l’Esprit de sainteté.
-      
+
       Donne-nous le goût de ta parole :
       qu’elle rejaillisse de nos cœurs en action de grâce.
-      
+
       Garde-nous de mépriser un seul de tes frères ;
       rappelle-nous que tu t’es offert pour chacun de ces petits.
-      
+
       Remplis-nous de toute paix, de toute joie :
       que nous débordions d’espérance par l’effusion de l’Esprit.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_67_1
-      antiphon:
-        - Il est sorti en vainqueur, le Fils de Dieu, pour triompher encore, alléluia.
-    -
-      psalm: PSALM_67_2
-      antiphon:
-        - Il est sorti en vainqueur, le Fils de Dieu, pour triompher encore, alléluia.
-    -
-      psalm: PSALM_67_3
-      antiphon:
-        - Il est sorti en vainqueur, le Fils de Dieu, pour triompher encore, alléluia.
-  biblicalReading:
-    -
-      title: Dieu est amour
-      ref: 1Jn 4, 11-21
-      content: "Bien-aimés, puisque Dieu nous a tellement aimés, nous devons, nous aussi, nous aimer les uns les autres. Dieu, personne ne l’a jamais vu. Mais si nous nous aimons les uns les autres, Dieu demeure en nous, et, en nous, son amour atteint la perfection. Voici comment nous reconnaissons que nous demeurons en lui et lui en nous : il nous a donné part à son Esprit. Quant à nous, nous avons vu et nous attestons que le Père a envoyé son Fils comme Sauveur du monde. Celui qui proclame que Jésus est le Fils de Dieu, Dieu demeure en lui, et lui en Dieu. Et nous, nous avons reconnu l’amour que Dieu a pour nous, et nous y avons cru. Dieu est amour : qui demeure dans l’amour demeure en Dieu, et Dieu demeure en lui. Voici comment l’amour atteint, chez nous, sa perfection : avoir de l’assurance au jour du jugement ; comme Jésus, en effet, nous ne manquons pas d’assurance en ce monde. Il n’y a pas de crainte dans l’amour, l’amour parfait bannit la crainte ; car la crainte implique un châtiment, et celui qui reste dans la crainte n’a pas atteint la perfection de l’amour. Quant à nous, nous aimons parce que Dieu lui-même nous a aimés le premier. Si quelqu’un dit : « J’aime Dieu », alors qu’il a de la haine contre son frère, c’est un menteur. En effet, celui qui n’aime pas son frère, qu’il voit, est incapable d’aimer Dieu, qu’il ne voit pas. Et voici le commandement que nous tenons de lui : celui qui aime Dieu, qu’il aime aussi son frère."
-      responsory: |
-        R/ Nous le croyons :
-        Dieu est amour, alléluia, alléluia !
-        
-        C’est lui qui fut notre Sauveur :
-        dans son amour et sa pitié,
-        lui-même nous racheta.
-        
-        Si Dieu nous a tant aimés,
-        nous devons, nous aussi,
-        nous aimer les uns les autres.
-  patristicReading:
-    -
-      title: TRAITÉ DE SAINT BASILE SUR LE SAINT-ESPRIT
-      subtitle: Les dons de l’Esprit
-      content: "Qui donc, en entendant les noms que l’on donne à l’Esprit, n’élève pas sa pensée, ne hausse pas sa réflexion vers ce qu’il y a de plus sublime ? Car on dit : l’Esprit de Dieu, *l’Esprit de vérité qui procède du Père, l’Esprit ferme, l’Esprit qui dirige*. « Esprit Saint » est son appellation propre et particulière. ~ Vers lui se tournent tous les êtres qui ont besoin de sanctification ; c’est lui que désirent tous ceux qui vivent selon la vertu, pour être rafraîchis par son haleine et secourus dans la recherche de la fin propre qui convient à leur nature. ~ Source de sanctification, lumière intelligible, il fournit par lui-même comme une sorte de clarté à toute puissance rationnelle qui veut découvrir la vérité. Il est inaccessible de sa nature, mais on peut saisir sa bonté. Il remplit tout par sa puissance, mais il se communique seulement à ceux qui en sont dignes, et non pas dans une mesure uniforme mais en distribuant son activité en proportion de la foi. Il est simple par son essence, mais se manifeste par des miracles variés. Il est tout entier présent à chacun, mais tout entier partout. Il se divise, mais sans subir aucune atteinte. Il se donne en partage, mais garde son intégrité : à l’image d’un rayon de soleil, dont la grâce est présente à celui qui en jouit comme s’il était seul, mais qui brille sur la terre et la mer, et s’est mélangé à l’air. C’est ainsi que l’Esprit, présent à chacun de ceux qui peuvent le recevoir comme si celui-ci était seul, répand sur tous la grâce en plénitude. Ceux qui y participent en jouissent autant qu’il est possible à leur nature, mais non pas autant que lui-même peut se donner. ~ Par lui les cœurs s’élèvent, les faibles sont conduits par la main, ceux qui progressent deviennent parfaits. C’est lui, en brillant chez ceux qui se sont purifiés de toute souillure, qui les rend spirituels par leur communion avec lui. Comme les objets nets et transparents, lorsqu’un rayon les frappe, deviennent eux-mêmes resplendissants et tirent d’eux-mêmes une autre lumière ; de même les âmes qui portent l’Esprit, illuminées par l’Esprit, deviennent elles-mêmes spirituelles et renvoient la grâce sur les autres. De là viennent la prévision de l’avenir, l’intelligence des mystères, la compréhension des choses cachées, la distribution des dons spirituels, la citoyenneté céleste, la danse avec les anges, la joie sans fin, la demeure en Dieu, la ressemblance avec Dieu, et le comble de ce que l’on peut désirer : devenir Dieu."
-      responsory: |
-        R/ Le fruit de l’Esprit est amour, joie et paix.
-        <p> Si nous vivons par l’Esprit,
-        marchons aussi dans l’Esprit.
-        
-        Si vous êtes conduits par l’Esprit,
-        vous n’êtes plus soumis à la loi.
-  verse: |
-    V/ Ressuscité des morts, le Christ ne meurt plus, alléluia.
-    Sur lui, la mort n’a plus aucun pouvoir, alléluia.
-  oration:
-    - "Dieu de puissance et de miséricorde, nous te supplions d’envoyer ton Esprit : qu’il habite nos cœurs, et fasse de nous le temple de sa gloire."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_13
+    - psalm: PSALM_118_13
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_73_1
-    -
-      psalm: PSALM_73_2
+    - psalm: PSALM_73_1
+    - psalm: PSALM_73_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_124
+    - psalm: PSALM_124
       antiphon:
         - Paix sur vous, me voici. Soyez sans crainte. Alléluia.
-    -
-      psalm: PSALM_130
+    - psalm: PSALM_130
       antiphon:
         - Mets ton espoir, Israël, dans le Seigneur, alléluia.
-    -
-      psalm: NT_9
+    - psalm: NT_9
       antiphon:
         - R/ Puissance, honneur et gloire à l’Agneau de Dieu !
   reading:
@@ -129,21 +119,21 @@ vespers:
   intercession:
     content: |
       Gloire au Christ, qui nous a donné de son Esprit :
-      
+
       R/ Christ vainqueur, exauce-nous !
-      
+
       Renouvelle ton Église dans la grâce de l’Esprit Saint ;
       qu’il la purifie, la fortifie et lui donne de grandir en toi.
-      
+
       À ceux qui annoncent ta parole
       et dispensent tes sacrements,
       accorde de trouver leur joie dans ce ministère.
-      
+
       À ceux qui remplissent une charge politique ou sociale,
       inspire de se dévouer au service du bien commun.
-      
+
       Révèle à ceux qui peinent dans l’existence
       la tendresse et la force de l’Esprit Saint.
-      
+
       Par le mystère de ton Ascension,
       ouvre le ciel à nos frères défunts.

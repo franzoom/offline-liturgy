@@ -1,15 +1,12 @@
 firstVespers:
   psalmody:
-    -
-      psalm: PSALM_112
+    - psalm: PSALM_112
       antiphon:
         - Réjouis-toi, Jérusalem, voici ton Sauveur, alléluia.
-    -
-      psalm: PSALM_115
+    - psalm: PSALM_115
       antiphon:
         - "J’ai fait approcher ma justice : mon salut n’est pas loin !"
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion.
   reading:
@@ -30,40 +27,92 @@ firstVespers:
   intercession:
     content: |
       Appelons le Christ, le Sauveur promis, avec tous ceux qui l’attendent :
-      
+
       R/ Viens, Seigneur, ne tarde pas.
-      
+
       Dans la joie, nous attendons ta venue,
       viens combler l’espérance des hommes.
-      
+
       Toi qui es avant les siècles,
       viens sauver le monde aujourd’hui.
-      
+
       Toi qui as créé l’univers,
       viens achever l’œuvre de tes mains.
-      
+
       Toi qui as voulu prendre notre condition mortelle,
       viens nous arracher au pouvoir de la mort.
-      
+
       Toi qui es venu pour donner ta vie,
       viens redonner vie à nos frères défunts.
+
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_144_1
+      antiphon:
+        - Il viendra, le Seigneur, et toute chair verra sa puissance.
+    - psalm: PSALM_144_2
+      antiphon:
+        - Exulte, Jérusalem ! Grande joie dans tes murs, car il vient, ton Sauveur !
+    - psalm: PSALM_144_3
+      antiphon:
+        - Le Seigneur est proche de ceux qui l’invoquent, de tous ceux qui l’invoquent en vérité.
+  verse: |
+    V/ Levez la tête et regardez :
+    notre Sauveur est proche.
+  biblicalReading:
+    - title: Mise en garde et assurance
+      ref: Is 29, 13-24
+      content: "Le SEIGNEUR dit : Parce que ce peuple s’approche de moi en me glorifiant de la bouche et des lèvres, alors que son cœur est loin de moi, parce que la crainte qu’ils ont de moi n’est que précepte enseigné par les hommes, eh bien ! j’émerveillerai encore ce peuple par des merveilles de merveilles, et la sagesse de leurs sages se perdra et l’intelligence des intelligents disparaîtra. Malheur ! Dans un profond secret, loin du SEIGNEUR ils cachent leur projet, et leur ouvrage est fait dans l’obscurité ; ils se disent : « Qui nous voit ? Qui nous reconnaît ? » C’est le monde à l’envers ! L’argile se prend-elle pour le potier ? L’ouvrage va-t-il dire de son fabricant : « Il ne m’a pas fabriqué », et le pot va-t-il dire du potier : « Il n’y connaît rien » ? Ne le savez-vous pas ? Encore un peu, très peu de temps, et le Liban se changera en verger, et le verger sera pareil à une forêt. Les sourds, en ce jour-là, entendront les paroles du livre. Quant aux aveugles, sortant de l’obscurité et des ténèbres, leurs yeux verront. Les humbles se réjouiront de plus en plus dans le SEIGNEUR, les malheureux exulteront en Dieu, le Saint d’Israël. Car ce sera la fin des tyrans, l’extermination des moqueurs, et seront supprimés tous ceux qui s’empressent à mal faire, ceux qui font condamner quelqu’un par leur témoignage, qui faussent les débats du tribunal et sans raison font débouter l’innocent. C’est pourquoi le SEIGNEUR, lui qui a libéré Abraham, parle ainsi à la maison de Jacob : « Désormais Jacob n’aura plus de honte, son visage ne pâlira plus ; car, quand il verra chez lui ses enfants, l’œuvre de mes mains, il sanctifiera mon nom, il sanctifiera le Dieu Saint de Jacob, il tremblera devant le Dieu d’Israël. Les esprits égarés découvriront l’intelligence, et les récalcitrants accepteront qu’on les instruise. »"
+      responsory: |
+        R/ En ces jours-là, les sourds entendront,
+        les yeux des aveugles s’ouvriront.
+
+        Que les humbles se réjouissent,
+        que les pauvres exultent dans le Seigneur.
+
+        Désormais, dit le Seigneur,
+        Jacob n’aura plus de honte,
+        il verra l’œuvre de mes mains.
+  patristicReading:
+    - title: SERMON DE SAINT AUGUSTIN POUR LA NATIVITÉ DE JEAN BAPTISTE
+      subtitle: La voix qui prépare la route à la Parole
+      content: "Jean était la voix, mais le Seigneur *au commencement était la Parole*. Jean, une voix pour un temps ; le Christ, la Parole au commencement, la Parole éternelle. Enlève la parole, qu’est-ce que la voix ? Là où il n’y a rien à comprendre, c’est une sonorité vide. La voix sans la parole frappe l’oreille, elle n’édifie pas le cœur. Cependant, découvrons comment les choses s’enchaînent dans notre propre cœur qu’il s’agit d’édifier. Si je pense à ce que je dis, la parole est déjà dans mon cœur ; mais lorsque je veux te parler, je cherche comment faire passer dans ton cœur ce qui est déjà dans le mien. Si je cherche donc comment la parole qui est déjà dans mon cœur pourra te rejoindre et s’établir dans ton cœur, je me sers de la voix, et c’est avec cette voix que je te parle : le son de la voix conduit jusqu’à toi l’idée contenue dans la parole ; alors, il est vrai que le son s’évanouit ; mais la parole que le son a conduite jusqu’à toi est désormais dans ton cœur sans avoir quitté le mien. Lorsque la parole est passée jusqu’à toi, n’est-ce donc pas le son qui semble dire lui-même : *Lui, il faut qu’il grandisse ; et moi, que je diminue ?* Le son de la voix a retenti pour accomplir son service, et il a disparu, comme en disant : *Moi, j’ai la joie en plénitude*. Retenons la parole, ne laissons pas partir la parole conçue au fond de nous. Tu veux voir comment la voix s’éloigne, tandis que demeure la divinité de la Parole ? Où est maintenant le baptême de Jean ? Il a accompli son service, et il a disparu. Maintenant le baptême du Christ se multiplie. Tous nous croyons au Christ, nous espérons le salut dans le Christ : c’est cela que la voix faisait entendre. Il est difficile de distinguer la parole de la voix, et c’est pourquoi on a pris Jean pour le Christ. On a pris la voix pour la parole ; mais la voix s’est fait connaître afin de ne pas faire obstacle à la parole. *Je ne suis pas le Messie, ni Élie, ni le Prophète*. On lui réplique : * Qui es-tu donc ?* Il répond : *Je suis la voix qui crie à travers le désert : Préparez la route pour le Seigneur. La voix qui crie à travers le désert*, c’est la voix qui rompt le silence. *Préparez la route pour le Seigneur*, cela revient à dire : Moi, je retentis pour faire entrer le Seigneur dans le cœur ; mais il ne daignera pas y venir, si vous ne préparez pas la route. Que signifie : *Préparez la route*, sinon : Priez comme il faut ? Que signifie : *Préparez la route*, sinon : Ayez d’humbles pensées ? Jean vous donne un exemple d’humilité. On le prend pour le Messie, il affirme qu’il n’est pas ce qu’on pense, et il ne profite pas de l’erreur d’autrui pour se faire valoir. S’il avait dit : Je suis le Messie, on l’aurait cru très facilement, puisqu’on le croyait avant même qu’il ne parle. Il l’a nié : il s’est fait connaître, il s’est défini, il s’est abaissé. Il a vu où se trouvait le salut. Il a compris qu’il n’était que la lampe, et il a craint qu’elle ne soit éteinte par le vent de l’orgueil."
+      responsory: |
+        Il est au milieu de vous,Stance
+        celui que vous ne connaissez pas ;
+        préparez le chemin du Seigneur,
+        écoutez sa voix, amis de l’Époux,
+        pour que votre joie soit parfaite.
+
+        R/ Réjouissez-vous dans le Seigneur !
+        Réjouissez-vous, car il est proche !
+
+        Ta complaisance, Seigneur, est pour la terre,
+        tu fais revenir les captifs de Jacob.
+
+        N’est-ce pas toi qui reviens nous vivifier ?
+        Et ton peuple en toi se réjouit.
+
+        Justice marchera devant lui,
+        et paix sur la trace de ses pas.
+  oration:
+    - Tu le vois, Seigneur, ton peuple se prépare à célébrer la naissance de ton Fils ; dirige notre joie vers la joie d’un si grand mystère, pour que nous fêtions notre salut avec un cœur vraiment nouveau.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_92
+    - psalm: PSALM_92
       antiphon:
         - "Le Seigneur est proche : il vient dissiper les ténèbres, il vient éclairer tous les peuples."
-    -
-      psalm: OT_41
+    - psalm: OT_41
       antiphon:
         - Que les rochers se changent en plaines, et les hauteurs en large vallée ! Viens, Seigneur, viens, ne tarde plus !
-    -
-      psalm: PSALM_148
+    - psalm: PSALM_148
       antiphon:
         - Je mettrai en Sion le salut, et ma gloire en Israël.
   reading:
@@ -80,99 +129,38 @@ morning:
   intercession:
     content: |
       Avec confiance, prions le Christ, que le Père a établi Juge des vivants et des morts :
-      
+
       R/ Viens, Jésus, Sauveur !
-      
+
       Seigneur Jésus, venu sauver les pécheurs,
       garde-nous de succomber aux assauts du mal.
-      
+
       Toi qui as annoncé ta venue comme juge,
       manifeste en nous la puissance de ton salut.
-      
+
       Donne-nous la force de l’Esprit,
       que nous trouvions notre joie à suivre ton chemin de justice.
-      
+
       Toi, le Béni, qui règnes sur toutes choses,
       accorde-nous de vivre en ce monde dans la fidélité et la sobriété, en espérant la manifestation de ta gloire.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_144_1
-      antiphon:
-        - Il viendra, le Seigneur, et toute chair verra sa puissance.
-    -
-      psalm: PSALM_144_2
-      antiphon:
-        - Exulte, Jérusalem ! Grande joie dans tes murs, car il vient, ton Sauveur !
-    -
-      psalm: PSALM_144_3
-      antiphon:
-        - Le Seigneur est proche de ceux qui l’invoquent, de tous ceux qui l’invoquent en vérité.
-  biblicalReading:
-    -
-      title: Mise en garde et assurance
-      ref: Is 29, 13-24
-      content: "Le SEIGNEUR dit : Parce que ce peuple s’approche de moi en me glorifiant de la bouche et des lèvres, alors que son cœur est loin de moi, parce que la crainte qu’ils ont de moi n’est que précepte enseigné par les hommes, eh bien ! j’émerveillerai encore ce peuple par des merveilles de merveilles, et la sagesse de leurs sages se perdra et l’intelligence des intelligents disparaîtra. Malheur ! Dans un profond secret, loin du SEIGNEUR ils cachent leur projet, et leur ouvrage est fait dans l’obscurité ; ils se disent : « Qui nous voit ? Qui nous reconnaît ? » C’est le monde à l’envers ! L’argile se prend-elle pour le potier ? L’ouvrage va-t-il dire de son fabricant : « Il ne m’a pas fabriqué », et le pot va-t-il dire du potier : « Il n’y connaît rien » ? Ne le savez-vous pas ? Encore un peu, très peu de temps, et le Liban se changera en verger, et le verger sera pareil à une forêt. Les sourds, en ce jour-là, entendront les paroles du livre. Quant aux aveugles, sortant de l’obscurité et des ténèbres, leurs yeux verront. Les humbles se réjouiront de plus en plus dans le SEIGNEUR, les malheureux exulteront en Dieu, le Saint d’Israël. Car ce sera la fin des tyrans, l’extermination des moqueurs, et seront supprimés tous ceux qui s’empressent à mal faire, ceux qui font condamner quelqu’un par leur témoignage, qui faussent les débats du tribunal et sans raison font débouter l’innocent. C’est pourquoi le SEIGNEUR, lui qui a libéré Abraham, parle ainsi à la maison de Jacob : « Désormais Jacob n’aura plus de honte, son visage ne pâlira plus ; car, quand il verra chez lui ses enfants, l’œuvre de mes mains, il sanctifiera mon nom, il sanctifiera le Dieu Saint de Jacob, il tremblera devant le Dieu d’Israël. Les esprits égarés découvriront l’intelligence, et les récalcitrants accepteront qu’on les instruise. »"
-      responsory: |
-        R/ En ces jours-là, les sourds entendront,
-        les yeux des aveugles s’ouvriront.
-        
-        Que les humbles se réjouissent,
-        que les pauvres exultent dans le Seigneur.
-        
-        Désormais, dit le Seigneur,
-        Jacob n’aura plus de honte,
-        il verra l’œuvre de mes mains.
-  patristicReading:
-    -
-      title: SERMON DE SAINT AUGUSTIN POUR LA NATIVITÉ DE JEAN BAPTISTE
-      subtitle: La voix qui prépare la route à la Parole
-      content: "Jean était la voix, mais le Seigneur *au commencement était la Parole*. Jean, une voix pour un temps ; le Christ, la Parole au commencement, la Parole éternelle. Enlève la parole, qu’est-ce que la voix ? Là où il n’y a rien à comprendre, c’est une sonorité vide. La voix sans la parole frappe l’oreille, elle n’édifie pas le cœur. Cependant, découvrons comment les choses s’enchaînent dans notre propre cœur qu’il s’agit d’édifier. Si je pense à ce que je dis, la parole est déjà dans mon cœur ; mais lorsque je veux te parler, je cherche comment faire passer dans ton cœur ce qui est déjà dans le mien. Si je cherche donc comment la parole qui est déjà dans mon cœur pourra te rejoindre et s’établir dans ton cœur, je me sers de la voix, et c’est avec cette voix que je te parle : le son de la voix conduit jusqu’à toi l’idée contenue dans la parole ; alors, il est vrai que le son s’évanouit ; mais la parole que le son a conduite jusqu’à toi est désormais dans ton cœur sans avoir quitté le mien. Lorsque la parole est passée jusqu’à toi, n’est-ce donc pas le son qui semble dire lui-même : *Lui, il faut qu’il grandisse ; et moi, que je diminue ?* Le son de la voix a retenti pour accomplir son service, et il a disparu, comme en disant : *Moi, j’ai la joie en plénitude*. Retenons la parole, ne laissons pas partir la parole conçue au fond de nous. Tu veux voir comment la voix s’éloigne, tandis que demeure la divinité de la Parole ? Où est maintenant le baptême de Jean ? Il a accompli son service, et il a disparu. Maintenant le baptême du Christ se multiplie. Tous nous croyons au Christ, nous espérons le salut dans le Christ : c’est cela que la voix faisait entendre. Il est difficile de distinguer la parole de la voix, et c’est pourquoi on a pris Jean pour le Christ. On a pris la voix pour la parole ; mais la voix s’est fait connaître afin de ne pas faire obstacle à la parole. *Je ne suis pas le Messie, ni Élie, ni le Prophète*. On lui réplique :* Qui es-tu donc ?* Il répond : *Je suis la voix qui crie à travers le désert : Préparez la route pour le Seigneur. La voix qui crie à travers le désert*, c’est la voix qui rompt le silence. *Préparez la route pour le Seigneur*, cela revient à dire : Moi, je retentis pour faire entrer le Seigneur dans le cœur ; mais il ne daignera pas y venir, si vous ne préparez pas la route. Que signifie : *Préparez la route*, sinon : Priez comme il faut ? Que signifie : *Préparez la route*, sinon : Ayez d’humbles pensées ? Jean vous donne un exemple d’humilité. On le prend pour le Messie, il affirme qu’il n’est pas ce qu’on pense, et il ne profite pas de l’erreur d’autrui pour se faire valoir. S’il avait dit : Je suis le Messie, on l’aurait cru très facilement, puisqu’on le croyait avant même qu’il ne parle. Il l’a nié : il s’est fait connaître, il s’est défini, il s’est abaissé. Il a vu où se trouvait le salut. Il a compris qu’il n’était que la lampe, et il a craint qu’elle ne soit éteinte par le vent de l’orgueil."
-      responsory: |
-        Il est au milieu de vous,Stance
-        celui que vous ne connaissez pas ;
-        préparez le chemin du Seigneur,
-        écoutez sa voix, amis de l’Époux,
-        pour que votre joie soit parfaite.
-        
-        R/ Réjouissez-vous dans le Seigneur !
-        Réjouissez-vous, car il est proche !
-        
-        Ta complaisance, Seigneur, est pour la terre,
-        tu fais revenir les captifs de Jacob.
-        
-        N’est-ce pas toi qui reviens nous vivifier ?
-        Et ton peuple en toi se réjouit.
-        
-        Justice marchera devant lui,
-        et paix sur la trace de ses pas.
-  verse: |
-    V/ Levez la tête et regardez :
-    notre Sauveur est proche.
-  oration:
-    - Tu le vois, Seigneur, ton peuple se prépare à célébrer la naissance de ton Fils ; dirige notre joie vers la joie d’un si grand mystère, pour que nous fêtions notre salut avec un cœur vraiment nouveau.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_117_1
+    - psalm: PSALM_117_1
       antiphon:
         - Béni soit au nom du Seigneur, celui qui vient !
-    -
-      psalm: PSALM_117_2
-    -
-      psalm: PSALM_117_3
+    - psalm: PSALM_117_2
+    - psalm: PSALM_117_3
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - Voici que vient le Seigneur, il vient siéger parmi les princes et recevoir un trône de gloire !
-    -
-      psalm: PSALM_110
+    - psalm: PSALM_110
       antiphon:
         - "Justice et joie sur l’univers ! Le Seigneur vient avec puissance : il est la lumière du monde."
-    -
-      psalm: NT_12
+    - psalm: NT_12
       antiphon:
         - Vivons avec justice et droiture, attendons la venue du Seigneur.
   reading:
@@ -190,20 +178,20 @@ vespers:
   intercession:
     content: |
       Frères bien-aimés, adressons notre prière confiante au Christ, venu pour sauver tous les hommes :
-      
+
       R/ Viens, fruit de la terre et don du ciel !
-      
+
       Christ Seigneur, par le mystère de ton incarnation, tu as fait connaître au monde la gloire de ta divinité,
       — que ta venue soit notre vie et notre lumière.
-      
+
       Tu as pris sur toi notre faiblesse, 
       — revêts-nous de ta force.
-      
+
       Venu d’abord dans l’humilité, tu as racheté le monde de sa faute,
       — lors de ta venue glorieuse, libère-nous de tout ce qui témoigne contre nous.
-      
+
       Toi, le Béni, qui règnes sur toutes choses,
       — dans ta bonté, donne-nous part à l’héritage éternel.
-      
+
       Toi qui sièges à la droite du Père,
       — réjouis nos frères défunts par la lumière de ton visage.

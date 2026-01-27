@@ -1,16 +1,17 @@
 firstVespers:
   evangelicAntiphon:
     common: Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !
+
 invitatory:
   antiphon:
     - Dans la maison de Dieu, adorons le Christ, époux de l'Église, alléluia !
-morning:
-  evangelicAntiphon:
-    common: Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison, alléluia !
+
 readings:
+  verse: |
+    V/ Vers ton temple saint, je me prosterne,
+    je crains et j’adore, alléluia !
   biblicalReading:
-    -
-      title: La Jérusalem céleste
+    - title: La Jérusalem céleste
       ref: Ap 21, 9-27
       content: |
         Alors arriva l’un des sept anges aux sept coupes remplies des sept derniers fléaux, et il me parla ainsi : « Viens, je te montrerai la Femme, l’Épouse de l’Agneau. »
@@ -31,9 +32,10 @@ readings:
         Ta splendeur illuminera
         toutes les contrées de la terre ;
         les peuples viendront de l’orientadorer le Seigneur dans tes murs.
-  verse: |
-    V/ Vers ton temple saint, je me prosterne,
-    je crains et j’adore, alléluia !
+
+morning:
+  evangelicAntiphon:
+    common: Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison, alléluia !
 
 middleOfDay:
   tierce:
@@ -55,16 +57,13 @@ middleOfDay:
 
 vespers:
   psalmody:
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - Sainte est la demeure du Très-Haut, la maison de Dieu chez les hommes.
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Nous irons, pleins de joie, à la maison du Seigneur.
-    -
-      psalm: NT_12
+    - psalm: NT_12
       antiphon:
         - Église de Dieu, Épouse de l’Agneau, célèbre ton Seigneur, alléluia.
   evangelicAntiphon:

@@ -1,37 +1,29 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_86
-    -
-      psalm: OT_25
-    -
-      psalm: PSALM_98
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_88_4
-    -
-      psalm: PSALM_88_5
-    -
-      psalm: PSALM_89
+    - psalm: PSALM_88_4
+    - psalm: PSALM_88_5
+    - psalm: PSALM_89
+
+morning:
+  psalmody:
+    - psalm: PSALM_86
+    - psalm: OT_25
+    - psalm: PSALM_98
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_15
-    -
-      psalm: PSALM_78
-    -
-      psalm: PSALM_79
+    - psalm: PSALM_118_15
+    - psalm: PSALM_78
+    - psalm: PSALM_79
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_131_1
-    -
-      psalm: PSALM_131_2
-    -
-      psalm: NT_10
+    - psalm: PSALM_131_1
+    - psalm: PSALM_131_2
+    - psalm: NT_10
   oration:
     - "Seigneur, avec ton Fils bien-aimé, l’aurore de ton jour éternel s’est levée sur toutes les nations : accorde à ton peuple de reconnaître la gloire de son Rédempteur et de parvenir à la lumière qui ne s’éteint pas."

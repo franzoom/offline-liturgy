@@ -2,18 +2,61 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_88_4
+      antiphon:
+        - Tu nous as rachetés par ton sang, Seigneur, tu fis de nous un peuple de rois, alléluia.
+    - psalm: PSALM_88_5
+      antiphon:
+        - Tu nous as rachetés par ton sang, Seigneur, tu fis de nous un peuple de rois, alléluia.
+    - psalm: PSALM_89
+      antiphon:
+        - Nous sommes l’ouvrage de Dieu, créés dans le Christ Jésus en vue des bonnes œuvres, alléluia.
+  verse: |
+    V/ Dieu qui a ressuscité le Seigneur, alléluia.
+    nous ressuscitera aussi par sa puissance, alléluia.
+  biblicalReading:
+    - title: Vous avez la foi au nom du Fils de Dieu
+      ref: 1Jn 5, 13-21
+      content: "Mes bien-aimés, je vous ai écrit cela pour que vous sachiez que vous avez la vie éternelle, vous qui mettez votre foi dans le nom du Fils de Dieu. Voici l’assurance que nous avons auprès de Dieu : si nous faisons une demande selon sa volonté, il nous écoute. Et puisque nous savons qu’il nous écoute en toutes nos demandes, nous savons aussi que nous obtenons ce que nous lui avons demandé. Si quelqu’un voit son frère commettre un péché qui n’entraîne pas la mort, il demandera, et Dieu lui donnera la vie, — cela vaut pour ceux dont le péché n’entraîne pas la mort. Il y a un péché qui entraîne la mort, ce n’est pas pour celui-là que je dis de prier. Toute conduite injuste est péché, mais tout péché n’entraîne pas la mort. Nous le savons : ceux qui sont nés de Dieu ne commettent pas de péché ; le Fils engendré par Dieu les protège et le Mauvais ne peut pas les atteindre. Nous savons que nous sommes de Dieu, alors que le monde entier est au pouvoir du Mauvais. Nous savons aussi que le Fils de Dieu est venu nous donner l’intelligence pour que nous connaissions Celui qui est vrai ; et nous sommes en Celui qui est vrai, en son Fils Jésus Christ. C’est lui qui est le Dieu vrai, et la vie éternelle. Petits enfants, gardez-vous des idoles."
+      responsory: |
+        R/ C’est toi le chemin, la vérité, la vie,
+        Jésus, Fils de Dieu !
+
+        Qui veut trouver le Père
+        doit passer par toi.
+
+        Tu nous conduis
+        vers la joie sans déclin.
+  patristicReading:
+    - title: COMMENTAIRE DE SAINT CYRILLE D’ALEXANDRIE SUR L’ÉVANGILE DE JEAN
+      subtitle: « Si je ne pars pas, le Paraclet ne viendra pas à vous »
+      content: "Tout ce que le Christ avait à faire sur la terre était maintenant accompli ; mais il fallait absolument que nous *devenions participants de la nature divine du Verbe*, c’est-à-dire que nous abandonnions notre vie propre pour qu’elle se transforme en une autre, qu’elle se transfigure pour atteindre la nouveauté d’une vie aimée de Dieu. Et cela ne pouvait se faire autrement que par union et participation à l’Esprit Saint. Le moment le plus indiqué et le plus opportun pour l’envoi de l’Esprit et sa venue en nous était celui où le Christ notre Sauveur nous quitterait. En effet, aussi longtemps qu’il demeurait dans la chair auprès des croyants, il leur apparaissait, je crois, comme le donateur de tout bien. Mais lorsque viendrait le moment où il devrait monter vers son Père des cieux, il faudrait bien qu’il soit présent par son Esprit auprès de ses fidèles, qu’il *habite par la foi dans nos cœurs*. Ainsi, le possédant en nous-mêmes, nous pourrions crier avec confiance : *Abba, Père *; nous porter facilement vers toutes les vertus et, en outre, montrer notre force invincible contre tous les pièges du démon et toutes les attaques des hommes, puisque nous posséderions l’Esprit tout-puissant. Les hommes en qui l’Esprit est venu et a fait sa demeure sont transformés ; ils reçoivent de lui une vie nouvelle comme on peut facilement le voir par des exemples pris dans l’Ancien et le Nouveau Testament. Samuel, après avoir adressé tout un discours à Saül, lui dit : *L’Esprit du Seigneur fondra sur toi et tu seras changé en un autre homme*. Quant à saint Paul : *Nous tous qui, le visage dévoilé, reflétons la gloire du Seigneur, nous sommes transfigurés en cette même image, de gloire en gloire, comme il convient au Seigneur qui est Esprit. Car le Seigneur, c’est l’Esprit*. Vous voyez comment l’Esprit transforme pour ainsi dire en une autre image ceux en qui on le voit demeurer. Il fait passer facilement de la considération des choses terrestres à un regard exclusivement dirigé vers les réalités célestes ; d’une lâcheté honteuse à des projets héroïques. Nous constatons que ce changement s’est produit chez les disciples : fortifiés ainsi par l’Esprit, les assauts des persécuteurs ne les ont pas paralysés ; au contraire, ils se sont attachés au Christ par un amour invincible. C’est absolument indubitable. Elle est donc bien vraie, la parole du Sauveur : *C’est votre intérêt que je retourne au ciel*. Car, c’est le moment de la descente de l’Esprit."
+      responsory: |
+        R/ L’Esprit venu d’en haut
+        sera répandu sur nous !
+
+        Mon peuple habitera un séjour de paix ;
+        heureux seront-ils :
+        ils sèmeront partout où il y a de l’eau.
+
+        Je vous laisse la paix, dit le Seigneur.
+        Je vous donne ma joie.
+        Que votre cœur cesse de se troubler.
+  oration:
+    - "Que ton Esprit Saint, Dieu créateur, nous transforme par ses dons : qu’il change notre cœur en un cœur que tu aimes, parfaitement accordé à ta volonté."
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_86
+    - psalm: PSALM_86
       antiphon:
         - Jérusalem, cité de Dieu, chacun renaît en toi, alléluia.
-    -
-      psalm: OT_25
+    - psalm: OT_25
       antiphon:
         - Comme un berger, il a rassemblé ses agneaux, alléluia.
-    -
-      psalm: PSALM_98
+    - psalm: PSALM_98
       antiphon:
         - Le Seigneur est puissant, il domine les peuples, alléluia.
   reading:
@@ -29,91 +72,38 @@ morning:
   intercession:
     content: |
       Bénissons le Christ, qui nous donne accès au Père dans l’Esprit :
-      
+
       R/ Christ vainqueur, écoute-nous !
-      
+
       Ressuscité des morts, tu sièges à la droite du Père :
       – intercède pour nous dans ta fidélité.
-      
+
       Que ton Esprit soit l’hôte de nos cœurs,
       – préserve-nous de jamais le contrister.
-      
+
       Tiens-nous unis à toi par l’Esprit,
       – que rien, ni la persécution, ni la mort, ne nous sépare de ton amour.
-      
+
       Apprends-nous à nous supporter, à nous soutenir mutuellement,
       – toi qui nous as pris en charge pour l’honneur de ton Père.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_88_4
-      antiphon:
-        - Tu nous as rachetés par ton sang, Seigneur, tu fis de nous un peuple de rois, alléluia.
-    -
-      psalm: PSALM_88_5
-      antiphon:
-        - Tu nous as rachetés par ton sang, Seigneur, tu fis de nous un peuple de rois, alléluia.
-    -
-      psalm: PSALM_89
-      antiphon:
-        - Nous sommes l’ouvrage de Dieu, créés dans le Christ Jésus en vue des bonnes œuvres, alléluia.
-  biblicalReading:
-    -
-      title: Vous avez la foi au nom du Fils de Dieu
-      ref: 1Jn 5, 13-21
-      content: "Mes bien-aimés, je vous ai écrit cela pour que vous sachiez que vous avez la vie éternelle, vous qui mettez votre foi dans le nom du Fils de Dieu. Voici l’assurance que nous avons auprès de Dieu : si nous faisons une demande selon sa volonté, il nous écoute. Et puisque nous savons qu’il nous écoute en toutes nos demandes, nous savons aussi que nous obtenons ce que nous lui avons demandé. Si quelqu’un voit son frère commettre un péché qui n’entraîne pas la mort, il demandera, et Dieu lui donnera la vie, — cela vaut pour ceux dont le péché n’entraîne pas la mort. Il y a un péché qui entraîne la mort, ce n’est pas pour celui-là que je dis de prier. Toute conduite injuste est péché, mais tout péché n’entraîne pas la mort. Nous le savons : ceux qui sont nés de Dieu ne commettent pas de péché ; le Fils engendré par Dieu les protège et le Mauvais ne peut pas les atteindre. Nous savons que nous sommes de Dieu, alors que le monde entier est au pouvoir du Mauvais. Nous savons aussi que le Fils de Dieu est venu nous donner l’intelligence pour que nous connaissions Celui qui est vrai ; et nous sommes en Celui qui est vrai, en son Fils Jésus Christ. C’est lui qui est le Dieu vrai, et la vie éternelle. Petits enfants, gardez-vous des idoles."
-      responsory: |
-        R/ C’est toi le chemin, la vérité, la vie,
-        Jésus, Fils de Dieu !
-        
-        Qui veut trouver le Père
-        doit passer par toi.
-        
-        Tu nous conduis
-        vers la joie sans déclin.
-  patristicReading:
-    -
-      title: COMMENTAIRE DE SAINT CYRILLE D’ALEXANDRIE SUR L’ÉVANGILE DE JEAN
-      subtitle: « Si je ne pars pas, le Paraclet ne viendra pas à vous »
-      content: "Tout ce que le Christ avait à faire sur la terre était maintenant accompli ; mais il fallait absolument que nous *devenions participants de la nature divine du Verbe*, c’est-à-dire que nous abandonnions notre vie propre pour qu’elle se transforme en une autre, qu’elle se transfigure pour atteindre la nouveauté d’une vie aimée de Dieu. Et cela ne pouvait se faire autrement que par union et participation à l’Esprit Saint. Le moment le plus indiqué et le plus opportun pour l’envoi de l’Esprit et sa venue en nous était celui où le Christ notre Sauveur nous quitterait. En effet, aussi longtemps qu’il demeurait dans la chair auprès des croyants, il leur apparaissait, je crois, comme le donateur de tout bien. Mais lorsque viendrait le moment où il devrait monter vers son Père des cieux, il faudrait bien qu’il soit présent par son Esprit auprès de ses fidèles, qu’il *habite par la foi dans nos cœurs*. Ainsi, le possédant en nous-mêmes, nous pourrions crier avec confiance : *Abba, Père *; nous porter facilement vers toutes les vertus et, en outre, montrer notre force invincible contre tous les pièges du démon et toutes les attaques des hommes, puisque nous posséderions l’Esprit tout-puissant. Les hommes en qui l’Esprit est venu et a fait sa demeure sont transformés ; ils reçoivent de lui une vie nouvelle comme on peut facilement le voir par des exemples pris dans l’Ancien et le Nouveau Testament. Samuel, après avoir adressé tout un discours à Saül, lui dit : *L’Esprit du Seigneur fondra sur toi et tu seras changé en un autre homme*. Quant à saint Paul : *Nous tous qui, le visage dévoilé, reflétons la gloire du Seigneur, nous sommes transfigurés en cette même image, de gloire en gloire, comme il convient au Seigneur qui est Esprit. Car le Seigneur, c’est l’Esprit*. Vous voyez comment l’Esprit transforme pour ainsi dire en une autre image ceux en qui on le voit demeurer. Il fait passer facilement de la considération des choses terrestres à un regard exclusivement dirigé vers les réalités célestes ; d’une lâcheté honteuse à des projets héroïques. Nous constatons que ce changement s’est produit chez les disciples : fortifiés ainsi par l’Esprit, les assauts des persécuteurs ne les ont pas paralysés ; au contraire, ils se sont attachés au Christ par un amour invincible. C’est absolument indubitable. Elle est donc bien vraie, la parole du Sauveur : *C’est votre intérêt que je retourne au ciel*. Car, c’est le moment de la descente de l’Esprit."
-      responsory: |
-        R/ L’Esprit venu d’en haut
-        sera répandu sur nous !
-        
-        Mon peuple habitera un séjour de paix ;
-        heureux seront-ils :
-        ils sèmeront partout où il y a de l’eau.
-        
-        Je vous laisse la paix, dit le Seigneur.
-        Je vous donne ma joie.
-        Que votre cœur cesse de se troubler.
-  verse: |
-    V/ Dieu qui a ressuscité le Seigneur, alléluia.
-    nous ressuscitera aussi par sa puissance, alléluia.
-  oration:
-    - "Que ton Esprit Saint, Dieu créateur, nous transforme par ses dons : qu’il change notre cœur en un cœur que tu aimes, parfaitement accordé à ta volonté."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_15
+    - psalm: PSALM_118_15
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_78
-    -
-      psalm: PSALM_79
+    - psalm: PSALM_78
+    - psalm: PSALM_79
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_131_1
+    - psalm: PSALM_131_1
       antiphon:
         - Le Seigneur lui donne le trône de David, alléluia.
-    -
-      psalm: PSALM_131_2
+    - psalm: PSALM_131_2
       antiphon:
         - "Le Royaume de David est accompli : béni soit Dieu, alléluia."
-    -
-      psalm: NT_10
+    - psalm: NT_10
   reading:
     biblicalReference: 1 Co 6, 19-20
     content: Ne le savez-vous pas ? Votre corps est le temple de l’Esprit Saint, qui est en vous et que vous avez reçu de Dieu ; vous ne vous appartenez plus à vous-mêmes, car le Seigneur vous a achetés très cher. Rendez gloire à Dieu dans votre corps.
@@ -129,17 +119,17 @@ vespers:
     content: |
       Seigneur Jésus, qui as promis à ton Église l’Esprit d’unité,
       – donne-lui de surmonter toute division.
-      
+
       R/ Rassemble-nous dans ton amour.
-      
+
       Toi qui priais dans l’Esprit pour accomplir l’œuvre du Père,
       – accorde à tes serviteurs l’esprit de prière pour que leur travail soit le tien.
-      
+
       Toi qui libérais de leurs démons les possédés,
       – libère ce monde des puissances du mal.
-      
+
       Toi qui es entré dans ton règne,
       – assiste les responsables des nations dans leur souci du bien de tous.
-      
+
       Toi qui vis à jamais dans la gloire du Père,
       – élève auprès de toi ceux qui nous ont quittés.

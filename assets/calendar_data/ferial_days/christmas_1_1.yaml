@@ -1,57 +1,49 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
+
+readings:
+  psalmody:
+    - psalm: PSALM_9A_1
+      antiphon:
+        - "Ant. (à la fin du psaume seulement) Plus de peur, prenons courage : notre Dieu vient nous sauver."
+    - psalm: PSALM_9A_2
+      antiphon:
+        - Les héritiers du Royaume à venir, ce sont les pauvres.
+    - psalm: PSALM_6
+      antiphon:
+        - Les héritiers du Royaume à venir, ce sont les pauvres.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_5
+    - psalm: PSALM_5
       antiphon:
         - Jésus est venu dans le monde pour être témoin de la vérité.
-    -
-      psalm: OT_4
+    - psalm: OT_4
       antiphon:
         - Nous acclamons, Seigneur, la splendeur de ta gloire éternelle.
         - Tout vient de toi, ô Seigneur, et nous t’offrons ce que nous donne ta main.
-    -
-      psalm: PSALM_28
+    - psalm: PSALM_28
       antiphon:
         - Dieu bénit son peuple et lui donne la paix.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_9A_1
-      antiphon:
-        - "Ant. (à la fin du psaume seulement) Plus de peur, prenons courage : notre Dieu vient nous sauver."
-    -
-      psalm: PSALM_9A_2
-      antiphon:
-        - Les héritiers du Royaume à venir, ce sont les pauvres.
-    -
-      psalm: PSALM_6
-      antiphon:
-        - Les héritiers du Royaume à venir, ce sont les pauvres.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_18B
+    - psalm: PSALM_18B
       antiphon:
         - "Voici l’Enfant : Signe dressé pour les nations, justice de Dieu parmi les hommes."
-    -
-      psalm: PSALM_7_1
-    -
-      psalm: PSALM_7_2
+    - psalm: PSALM_7_1
+    - psalm: PSALM_7_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_10
+    - psalm: PSALM_10
       antiphon:
         - Dieu nous destinait à devenir ses fils en Jésus, son Fils bien-aimé.
-    -
-      psalm: PSALM_14
+    - psalm: PSALM_14
       antiphon:
         - Celui qui fait la vérité vient à la lumière.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Béni sois-tu, notre Père, qui nous as bénis dans le Christ !
   oration:

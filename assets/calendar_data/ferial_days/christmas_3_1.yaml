@@ -1,37 +1,29 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_83
-    -
-      psalm: OT_17
-    -
-      psalm: PSALM_95
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_49_1
-    -
-      psalm: PSALM_49_2
-    -
-      psalm: PSALM_49_3
+    - psalm: PSALM_49_1
+    - psalm: PSALM_49_2
+    - psalm: PSALM_49_3
+
+morning:
+  psalmody:
+    - psalm: PSALM_83
+    - psalm: OT_17
+    - psalm: PSALM_95
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_12
-    -
-      psalm: PSALM_70_1
-    -
-      psalm: PSALM_70_2
+    - psalm: PSALM_118_12
+    - psalm: PSALM_70_1
+    - psalm: PSALM_70_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_122
-    -
-      psalm: PSALM_123
-    -
-      psalm: NT_4
+    - psalm: PSALM_122
+    - psalm: PSALM_123
+    - psalm: NT_4
   oration:
     - "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine : nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."

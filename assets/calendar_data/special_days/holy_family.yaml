@@ -1,21 +1,21 @@
 celebration:
   title: La Sainte Famille
-  precedence: 6
   color: white
+
+oration:
+  - Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple ; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.
+
 firstVespers:
   hymn:
     - qui-peut-me-dire
   psalmody:
-    -
-      psalm: PSALM_112
+    - psalm: PSALM_112
       antiphon:
         - Jacob engendra Joseph, l’époux de Marie, et de Marie est né Jésus, celui qu’on appelle Christ.
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - "Joseph, fils de David, ne crains pas de prendre chez toi Marie, ton épouse : l’enfant qu’elle a conçu vient de l’Esprit Saint."
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Les bergers sont vite accourus, ils ont trouvé Marie et Joseph, avec le nouveau-né couché dans une crèche.
   reading:
@@ -29,23 +29,57 @@ firstVespers:
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
     common: "Jésus était resté à Jérusalem. Ses parents ne le savaient pas : ils le cherchaient parmi leurs compagnons de route."
+
 invitatory:
   antiphon:
     - Adorons le Fils de Dieu, soumis à Marie et à Joseph.
+
+readings:
+  hymn:
+    - source-en-attente
+  psalmody:
+    - psalm: PSALM_23
+      antiphon:
+        - Béni soit au nom du Seigneur celui qui vient.
+    - psalm: PSALM_45
+      antiphon:
+        - Cet enfant, né de la Vierge, se nommera Emmanuel, Dieu-avec-nous.
+    - psalm: PSALM_86
+      antiphon:
+        - Nous sommes les concitoyens des saints, nous sommes de la famille de Dieu.
+  verse: |
+    V/ Tes fils seront tous instruits par le Seigneur,
+    ils goûteront un bonheur sans limites.
+  biblicalReading:
+    - title: L’amour chrétien inaugure de nouvelles relations familiales
+      ref: Ep 5, 21 – 6, 4
+      content: |
+        Par respect pour le Christ, soyez soumis les uns aux autres ; les femmes, à leur mari, comme au Seigneur Jésus ; car, pour la femme, le mari est la tête, tout comme, pour l’Église, le Christ est la tête, lui qui est le Sauveur de son corps. Eh bien ! puisque l’Église se soumet au Christ, qu’il en soit toujours de même pour les femmes à l’égard de leur mari.
+        Vous, les hommes, aimez votre femme à l’exemple du Christ : il a aimé l’Église, il s’est livré lui-même pour elle, afin de la rendre sainte en la purifiant par le bain de l’eau baptismale, accompagné d’une parole ; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni rien de tel ; il la voulait sainte et immaculée. C’est de la même façon que les maris doivent aimer leur femme : comme leur propre corps. Celui qui aime sa femme s’aime soi-même. Jamais personne n’a méprisé son propre corps : au contraire, on le nourrit, on en prend soin. C’est ce que fait le Christ pour l’Église, parce que nous sommes les membres de son corps. Comme dit l’Écriture : À cause de cela, l’homme quittera son père et sa mère, il s’attachera à sa femme, et tous deux ne feront plus qu’un. Ce mystère est grand : je le dis en référence au Christ et à l’Église.
+        Pour en revenir à vous, chacun doit aimer sa propre femme comme lui-même, et la femme doit avoir du respect pour son mari. Vous, les enfants, obéissez à vos parents dans le Seigneur, car c’est cela qui est juste : Honore ton père et ta mère, c’est le premier commandement qui soit assorti d’une promesse : ainsi tu seras heureux et tu auras longue vie sur la terre. Et vous, les parents, ne poussez pas vos enfants à la colère, mais élevez-les en leur donnant une éducation et des avertissements inspirés par le Seigneur.
+      responsory: R/ Dieu s’est fait l’un de nous, pour nous apprendre à aimer !
+  patristicReading:
+    - title: HOMÉLIE DE SAINT PAUL VI À NAZARETH (5 janvier 1964)
+      subtitle: L’exemple de Nazareth.
+      content: |
+        Nazareth est l’école où l’on commence à comprendre la vie de Jésus : l’école de l’Évangile. Ici, on apprend à regarder, à écouter, à méditer et à pénétrer la signification, si profonde et si mystérieuse, de cette très simple, très humble et très belle manifestation du Fils de Dieu. Peut-être apprend-on même insensiblement à imiter. Ici, on apprend la méthode qui nous permettra de comprendre qui est le Christ. Ici, on découvre le besoin d’observer le cadre de son séjour parmi nous : les lieux, les temps, les coutumes, le langage, les pratiques religieuses, tout ce dont s’est servi Jésus pour se révéler au monde. Ici, tout parle, tout a un sens. Ici, à cette école, on comprend la nécessité d’avoir une discipline spirituelle, si l’on veut suivre l’enseignement de l’Évangile et devenir disciple du Christ. Oh, comme nous voudrions redevenir enfant et nous remettre à cette humble et sublime école de Nazareth, comme nous voudrions près de Marie recommencer à acquérir la vraie science de la vie et la sagesse supérieure des vérités divines !
+        Mais nous ne faisons que passer. Il nous faut laisser ce désir de poursuivre ici l’éducation, jamais achevée, à l’intelligence de l’Évangile. Nous ne partirons pas cependant sans avoir recueilli à la hâte, et comme à la dérobée, quelques brèves leçons de Nazareth.
+        Une leçon de silence d’abord. Que renaisse en nous l’estime du silence, cette admirable et indispensable condition de l’esprit, en nous qui sommes assaillis par tant de clameurs, de fracas et de cris dans notre vie moderne, bruyante et hyper sensibilisée. Ô silence de Nazareth, enseigne-nous le recueillement, l’intériorité, la disposition à écouter les bonnes inspirations et les paroles des vrais maîtres ; enseigne-nous le besoin et la valeur des préparations, de l’étude, de la méditation, de la vie personnelle et intérieure, de la prière que Dieu seul voit dans le secret.
+        Une leçon de vie familiale. Que Nazareth nous enseigne ce qu’est la famille, sa communion d’amour, son austère et simple beauté, son caractère sacré et inviolable ; apprenons de Nazareth comment la formation qu’on y reçoit est douce et irremplaçable ; apprenons quel est son rôle primordial sur le plan social.
+        Une leçon de travail. Nazareth, maison du*fils du charpentier*, c’est ici que nous voudrions comprendre et célébrer la loi sévère et rédemptrice du labeur humain ; ici, rétablir la conscience de la noblesse du travail ; ici, rappeler que le travail ne peut pas avoir une fin en lui-même, mais que sa liberté et sa noblesse lui viennent, en plus de sa valeur économique, des valeurs qui le finalisent ; comme nous voudrions enfin saluer ici tous les travailleurs du monde entier et leur montrer leur grand modèle, leur frère divin, le prophète de toutes leurs justes causes, le Christ notre Seigneur.
+      responsory: R/ Que règne en nos cœurs la paix du Christ !
+
 morning:
   hymn:
     - sainte-marie-et-saint-joseph
   psalmody:
-    -
-      psalm: PSALM_62
+    - psalm: PSALM_62
       antiphon:
         - Chaque année, les parents de Jésus allaient à Jérusalem pour célébrer la Pâque.
-    -
-      psalm: OT_41
+    - psalm: OT_41
       antiphon:
         - L’enfant grandissait et se fortifiait, tout rempli de sagesse ; et la faveur de Dieu était sur lui.
-    -
-      psalm: PSALM_149
+    - psalm: PSALM_149
       antiphon:
         - Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
   reading:
@@ -62,73 +96,26 @@ morning:
   intercession:
     content: |
       Le Fils du Dieu vivant a voulu naître dans une famille humaine ; adorons-le, supplions-le :
-      
+
       R/Sanctifie-nous, Jésus, par ton obéissance.
-      
+
       Verbe éternel du Père, tu t’es soumis à Marie et à Joseph,
       — enseigne-nous l’humilité.
-      
+
       Maître et Seigneur, ta mère conservait en son cœur tes paroles et tes gestes,
       — apprends-nous à garder ta parole, à la mettre en pratique.
-      
+
       Créateur de l’univers, tu as été appelé fils du charpentier,
       — donne-nous ton courage et ton amour du travail.
-      
+
       Toi qui as grandi en âge et en grâce dans ta famille à Nazareth,
       — rends-nous plus semblables à toi, notre chef et notre frère.
-readings:
-  hymn:
-    - source-en-attente
-  psalmody:
-    -
-      psalm: PSALM_23
-      antiphon:
-        - Béni soit au nom du Seigneur celui qui vient.
-    -
-      psalm: PSALM_45
-      antiphon:
-        - Cet enfant, né de la Vierge, se nommera Emmanuel, Dieu-avec-nous.
-    -
-      psalm: PSALM_86
-      antiphon:
-        - Nous sommes les concitoyens des saints, nous sommes de la famille de Dieu.
-  biblicalReading:
-    -
-      title: L’amour chrétien inaugure de nouvelles relations familiales
-      ref: Ep 5, 21 – 6, 4
-      content: |
-        Par respect pour le Christ, soyez soumis les uns aux autres ; les femmes, à leur mari, comme au Seigneur Jésus ; car, pour la femme, le mari est la tête, tout comme, pour l’Église, le Christ est la tête, lui qui est le Sauveur de son corps. Eh bien ! puisque l’Église se soumet au Christ, qu’il en soit toujours de même pour les femmes à l’égard de leur mari.
-        
-        Vous, les hommes, aimez votre femme à l’exemple du Christ : il a aimé l’Église, il s’est livré lui-même pour elle, afin de la rendre sainte en la purifiant par le bain de l’eau baptismale, accompagné d’une parole ; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni rien de tel ; il la voulait sainte et immaculée. C’est de la même façon que les maris doivent aimer leur femme : comme leur propre corps. Celui qui aime sa femme s’aime soi-même. Jamais personne n’a méprisé son propre corps : au contraire, on le nourrit, on en prend soin. C’est ce que fait le Christ pour l’Église, parce que nous sommes les membres de son corps. Comme dit l’Écriture : À cause de cela, l’homme quittera son père et sa mère, il s’attachera à sa femme, et tous deux ne feront plus qu’un. Ce mystère est grand : je le dis en référence au Christ et à l’Église.
-        
-        Pour en revenir à vous, chacun doit aimer sa propre femme comme lui-même, et la femme doit avoir du respect pour son mari. Vous, les enfants, obéissez à vos parents dans le Seigneur, car c’est cela qui est juste : Honore ton père et ta mère, c’est le premier commandement qui soit assorti d’une promesse : ainsi tu seras heureux et tu auras longue vie sur la terre. Et vous, les parents, ne poussez pas vos enfants à la colère, mais élevez-les en leur donnant une éducation et des avertissements inspirés par le Seigneur.
-      responsory: R/ Dieu s’est fait l’un de nous, pour nous apprendre à aimer !
-  patristicReading:
-    -
-      title: HOMÉLIE DE SAINT PAUL VI À NAZARETH (5 janvier 1964)
-      subtitle: L’exemple de Nazareth.
-      content: |
-        Nazareth est l’école où l’on commence à comprendre la vie de Jésus : l’école de l’Évangile. Ici, on apprend à regarder, à écouter, à méditer et à pénétrer la signification, si profonde et si mystérieuse, de cette très simple, très humble et très belle manifestation du Fils de Dieu. Peut-être apprend-on même insensiblement à imiter. Ici, on apprend la méthode qui nous permettra de comprendre qui est le Christ. Ici, on découvre le besoin d’observer le cadre de son séjour parmi nous : les lieux, les temps, les coutumes, le langage, les pratiques religieuses, tout ce dont s’est servi Jésus pour se révéler au monde. Ici, tout parle, tout a un sens. Ici, à cette école, on comprend la nécessité d’avoir une discipline spirituelle, si l’on veut suivre l’enseignement de l’Évangile et devenir disciple du Christ. Oh, comme nous voudrions redevenir enfant et nous remettre à cette humble et sublime école de Nazareth, comme nous voudrions près de Marie recommencer à acquérir la vraie science de la vie et la sagesse supérieure des vérités divines !
-        
-        Mais nous ne faisons que passer. Il nous faut laisser ce désir de poursuivre ici l’éducation, jamais achevée, à l’intelligence de l’Évangile. Nous ne partirons pas cependant sans avoir recueilli à la hâte, et comme à la dérobée, quelques brèves leçons de Nazareth.
-        
-        Une leçon de silence d’abord. Que renaisse en nous l’estime du silence, cette admirable et indispensable condition de l’esprit, en nous qui sommes assaillis par tant de clameurs, de fracas et de cris dans notre vie moderne, bruyante et hyper sensibilisée. Ô silence de Nazareth, enseigne-nous le recueillement, l’intériorité, la disposition à écouter les bonnes inspirations et les paroles des vrais maîtres ; enseigne-nous le besoin et la valeur des préparations, de l’étude, de la méditation, de la vie personnelle et intérieure, de la prière que Dieu seul voit dans le secret.
-        
-        Une leçon de vie familiale. Que Nazareth nous enseigne ce qu’est la famille, sa communion d’amour, son austère et simple beauté, son caractère sacré et inviolable ; apprenons de Nazareth comment la formation qu’on y reçoit est douce et irremplaçable ; apprenons quel est son rôle primordial sur le plan social.
-        
-        Une leçon de travail. Nazareth, maison du*fils du charpentier*, c’est ici que nous voudrions comprendre et célébrer la loi sévère et rédemptrice du labeur humain ; ici, rétablir la conscience de la noblesse du travail ; ici, rappeler que le travail ne peut pas avoir une fin en lui-même, mais que sa liberté et sa noblesse lui viennent, en plus de sa valeur économique, des valeurs qui le finalisent ; comme nous voudrions enfin saluer ici tous les travailleurs du monde entier et leur montrer leur grand modèle, leur frère divin, le prophète de toutes leurs justes causes, le Christ notre Seigneur.
-      responsory: R/ Que règne en nos cœurs la paix du Christ !
-  verse: |
-    V/ Tes fils seront tous instruits par le Seigneur,
-    ils goûteront un bonheur sans limites.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118-4
-    -
-      psalm: PSALM_27
-    -
-      psalm: PSALM_25
+    - psalm: PSALM_118-4
+    - psalm: PSALM_27
+    - psalm: PSALM_25
   tierce:
     antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
     reading:
@@ -153,18 +140,16 @@ middleOfDay:
     responsory: |
       V/ Tous tes fils seront disciples du Seigneur,
       grande sera la paix de tes fils.
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - "Après trois jours, Joseph et Marie trouvèrent Jésus assis dans le Temple au milieu des docteurs : il écoutait et il interrogeait."
-    -
-      psalm: PSALM_126
+    - psalm: PSALM_126
       antiphon:
         - "Jésus descendit avec eux de Jérusalem : il vint à Nazareth et leur était soumis."
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Jésus grandissait en sagesse, en taille et en grâce, sous le regard de Dieu et des hommes.
   reading:
@@ -182,22 +167,20 @@ vespers:
   intercession:
     content: |
       Adorons le Fils de Dieu, qui a voulu avoir une famille humaine :
-      
+
       R/Jésus, notre modèle, Jésus, notre Sauveur !
-      
+
       Tu as voulu te soumettre à Marie et à Joseph :
       — enseigne-nous la valeur de l’obéissance et du respect.
-      
+
       Tu as aimé tes parents, et tes parents t’aimaient :
       — établis les familles dans la paix et dans l’amour.
-      
+
       Tu as accompli en tout les œuvres du Père :
       — donne-nous de reconnaître en toi celui que le Père a envoyé.
-      
+
       Toi que Marie et Joseph ont retrouvé dans la maison du Père,
       — apprends-nous à chercher d’abord le Royaume de Dieu.
-      
+
       Tu as fait partager ta gloire éternelle à Marie et à Joseph :
       — fais entrer ceux qui nous ont quittés dans la famille des saints.
-oration:
-  - Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple ; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.

@@ -2,18 +2,65 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_68_1
+      antiphon:
+        - Crucifié en raison de sa faiblesse, Jésus vit par la puissance de Dieu, alléluia.
+    - psalm: PSALM_68_2
+      antiphon:
+        - Crucifié en raison de sa faiblesse, Jésus vit par la puissance de Dieu, alléluia.
+    - psalm: PSALM_68_3
+      antiphon:
+        - Crucifié en raison de sa faiblesse, Jésus vit par la puissance de Dieu, alléluia.
+  verse: |
+    V/ En ta résurrection, ô Christ, alléluia,
+    le ciel et la terre se réjouissent, alléluia.
+  biblicalReading:
+    - title: Demeurer fidèle à la doctrine du Christ
+      ref: 2Jn 1-13
+      content: "Moi, l’Ancien, à la Dame élue de Dieu, et à ses enfants, que j’aime en vérité — non pas moi seul, mais tous ceux qui connaissent la vérité —, à cause de la vérité qui demeure en nous et qui sera avec nous pour toujours. Avec nous seront la grâce, la miséricorde, la paix, de la part de Dieu le Père et de Jésus Christ, le Fils du Père, dans la vérité et dans l’amour. J’ai eu beaucoup de joie à trouver plusieurs de tes enfants qui marchent dans la vérité selon le commandement que nous avons reçu du Père. Et maintenant, Dame élue, je t’adresse une demande : aimons-nous les uns les autres. — Ce que je t’écris là n’est pas un commandement nouveau, nous l’avions depuis le commencement. Or l’amour, c’est que nous marchions selon ses commandements. Tel est le commandement selon lequel vous devez marcher, comme, depuis le commencement, vous l’avez appris. Beaucoup d’imposteurs se sont répandus dans le monde, ils refusent de proclamer que Jésus Christ est venu dans la chair ; celui qui agit ainsi est l’imposteur et l’anti-Christ. Prenez garde à vous-mêmes, pour ne pas perdre le fruit de notre travail, mais pour recevoir intégralement votre salaire. Quiconque va trop loin et ne se tient pas à l’enseignement du Christ, celui-là se sépare de Dieu. Mais celui qui se tient à cet enseignement, celui-là reste attaché au Père et au Fils. Si quelqu’un vient chez vous sans apporter cet enseignement, ne le recevez pas dans votre maison et ne lui adressez pas votre salutation, car celui qui le salue participe à ses œuvres mauvaises. J’ai bien des choses à vous écrire ; je n’ai pas voulu le faire avec du papier et de l’encre, mais j’espère me rendre chez vous et vous parler de vive voix, pour que notre joie soit parfaite. Les enfants de ta sœur, la communauté élue de Dieu, te saluent."
+      responsory: |
+        R/ La vérité nous libère,
+        l’homme libre rend gloire à Dieu.
+
+        Voici l’amour de Dieu :
+        marcher dans la voie de ses commandements.
+
+        Voici le commandement de Dieu :
+        marcher dans la voie de l’amour.
+  patristicReading:
+    - title: TRAITÉ DE SAINT HILAIRE SUR LA TRINITÉ
+      subtitle: Le don du Père
+      content: "Le Seigneur a ordonné de baptiser au nom du Père, et du Fils, et du Saint-Esprit, c’est-à-dire dans la profession de foi au Créateur, au Fils unique et à celui qui est le Don. Le Créateur de tous est unique. Il y a un seul Dieu Père, de qui tout provient ; il y a un seul Fils unique, notre Seigneur Jésus Christ, par qui tout existe ; il y a un seul Esprit, le don de Dieu répandu en tous. Toutes choses sont donc organisées par les vertus et les attributions divines : une puissance unique de qui tout provient ; une descendance unique par qui tout existe ; une grâce unique donnant une parfaite espérance. Et rien ne peut manquer à une telle perfection, puisqu’on y trouve l’infinité dans le Père éternel, la vision dans son image qui est le Fils, la pratique de la vie chrétienne dans le don de l’Esprit. ~ Que tel soit en nous le rôle de celui-ci, apprenons-le des paroles dites par le Seigneur lui-même : *J’aurais encore beaucoup de choses à vous dire, mais pour l’instant vous n’avez pas la force de les porter. Il vous est avantageux que je parte ; si je m’en vais, je vous enverrai l’Avocat*. Et encore : *Moi, je prierai le Père, et il vous donnera un autre Avocat qui sera pour toujours avec vous. C’est l’Esprit de vérité. Il vous guidera vers la Vérité tout entière. En effet, ce qu’il dira ne viendra pas de lui-même ; il redira tout ce qu’il aura entendu et, ce qui va venir, il vous l’expliquera. Il me glorifiera, car c’est de moi qu’il le tirera*. Ces paroles ont été dites pour vous faire comprendre plusieurs choses ; on y trouve l’intention de celui qui procure le don et aussi la raison d’être et la nature du don. Puisque notre faiblesse serait incapable de saisir aussi bien le Père que le Fils, le Saint-Esprit est un don qui, par son intervention, peut éclairer notre foi pour laquelle l’Incarnation est un mystère difficile. ~ On le reçoit afin de connaître Dieu. La nature du corps humain, lorsque disparaîtront les objets qui l’intéressent, sera inactive. Car s’il n’y a pas de lumière ou de jour, le service rendu par les yeux n’aura pas à s’exercer ; si aucun son ou aucune voix ne se fait entendre, les oreilles ne trouveront plus rien à faire ; si aucune odeur ne s’exhale, les narines seront sans utilité. Il en est de même pour l’esprit humain : si, par la foi, il ne reçoit pas le don du Saint-Esprit, il aura bien un principe naturel de connaissance de Dieu, mais il n’aura pas la lumière de la science. Quant au don qui réside dans le Christ, il est toujours le même pour tous ; et puisqu’il ne manque jamais, il est donné à chacun autant qu’il veut en profiter ; il réside en chacun autant qu’il veut l’obtenir. Ce don demeure avec nous jusqu’à la fin du monde, il nous réconforte dans notre attente ; il est un gage, par l’activité de ses bienfaits, de ce que nous espérons pour l’avenir, il éclaire les esprits, il illumine les cœurs."
+      responsory: |
+        R/ L’amour de Dieu est répandu dans nos cœurs
+        par le Saint-Esprit.
+
+        Les nations sauront que je suis le Seigneur
+        quand éclatera ma sainteté à votre sujet.
+
+        Je vous purifierai de tous vos péchés,
+        les nations le sauront : Je suis le Seigneur.
+
+        Je vous donnerai un cœur nouveau,
+        je mettrai en vous un esprit nouveau.
+
+        Je mettrai en vous, mon Esprit,
+        et vous marcherez selon mes lois.
+  oration:
+    - Dieu qui nous as ouvert la vie éternelle en exaltant ton Fils dans la gloire et en nous envoyant ton Esprit de lumière, fais qu’en participant à une telle grâce, nous soyons plus dévoués à te servir et obtenions une plus grande foi.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_50
+    - psalm: PSALM_50
       antiphon:
         - Lave-moi, Seigneur, purifie-moi de toute ma faute, alléluia.
-    -
-      psalm: OT_34
+    - psalm: OT_34
       antiphon:
         - Le Christ, dans son corps, a porté nos péchés, alléluia.
-    -
-      psalm: PSALM_99
+    - psalm: PSALM_99
       antiphon:
         - Rencontrez le Seigneur dans la joie, alléluia.
   reading:
@@ -29,95 +76,38 @@ morning:
   intercession:
     content: |
       Invoquons le Père des miséricordes, le Dieu de tout réconfort :
-      
+
       R/ Envoie l’Esprit consolateur.
-      
+
       Sur les pauvres et les petits, sur les méprisés, les opprimés,
-      
+
       Sur les enfants mal-aimés, sur les vieillards délaissés,
-      
+
       Sur les malades, les intoxiqués, les désespérés,
-      
+
       Sur les victimes de la faim, de la guerre et de tous les fléaux,
-      
+
       Sur les prisonniers, sur ceux que le monde rejette,
-      
+
       Sur les hommes de désir qui cherchent la lumière.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_68_1
-      antiphon:
-        - Crucifié en raison de sa faiblesse, Jésus vit par la puissance de Dieu, alléluia.
-    -
-      psalm: PSALM_68_2
-      antiphon:
-        - Crucifié en raison de sa faiblesse, Jésus vit par la puissance de Dieu, alléluia.
-    -
-      psalm: PSALM_68_3
-      antiphon:
-        - Crucifié en raison de sa faiblesse, Jésus vit par la puissance de Dieu, alléluia.
-  biblicalReading:
-    -
-      title: Demeurer fidèle à la doctrine du Christ
-      ref: 2Jn 1-13
-      content: "Moi, l’Ancien, à la Dame élue de Dieu, et à ses enfants, que j’aime en vérité — non pas moi seul, mais tous ceux qui connaissent la vérité —, à cause de la vérité qui demeure en nous et qui sera avec nous pour toujours. Avec nous seront la grâce, la miséricorde, la paix, de la part de Dieu le Père et de Jésus Christ, le Fils du Père, dans la vérité et dans l’amour. J’ai eu beaucoup de joie à trouver plusieurs de tes enfants qui marchent dans la vérité selon le commandement que nous avons reçu du Père. Et maintenant, Dame élue, je t’adresse une demande : aimons-nous les uns les autres. — Ce que je t’écris là n’est pas un commandement nouveau, nous l’avions depuis le commencement. Or l’amour, c’est que nous marchions selon ses commandements. Tel est le commandement selon lequel vous devez marcher, comme, depuis le commencement, vous l’avez appris. Beaucoup d’imposteurs se sont répandus dans le monde, ils refusent de proclamer que Jésus Christ est venu dans la chair ; celui qui agit ainsi est l’imposteur et l’anti-Christ. Prenez garde à vous-mêmes, pour ne pas perdre le fruit de notre travail, mais pour recevoir intégralement votre salaire. Quiconque va trop loin et ne se tient pas à l’enseignement du Christ, celui-là se sépare de Dieu. Mais celui qui se tient à cet enseignement, celui-là reste attaché au Père et au Fils. Si quelqu’un vient chez vous sans apporter cet enseignement, ne le recevez pas dans votre maison et ne lui adressez pas votre salutation, car celui qui le salue participe à ses œuvres mauvaises. J’ai bien des choses à vous écrire ; je n’ai pas voulu le faire avec du papier et de l’encre, mais j’espère me rendre chez vous et vous parler de vive voix, pour que notre joie soit parfaite. Les enfants de ta sœur, la communauté élue de Dieu, te saluent."
-      responsory: |
-        R/ La vérité nous libère,
-        l’homme libre rend gloire à Dieu.
-        
-        Voici l’amour de Dieu :
-        marcher dans la voie de ses commandements.
-        
-        Voici le commandement de Dieu :
-        marcher dans la voie de l’amour.
-  patristicReading:
-    -
-      title: TRAITÉ DE SAINT HILAIRE SUR LA TRINITÉ
-      subtitle: Le don du Père
-      content: "Le Seigneur a ordonné de baptiser au nom du Père, et du Fils, et du Saint-Esprit, c’est-à-dire dans la profession de foi au Créateur, au Fils unique et à celui qui est le Don. Le Créateur de tous est unique. Il y a un seul Dieu Père, de qui tout provient ; il y a un seul Fils unique, notre Seigneur Jésus Christ, par qui tout existe ; il y a un seul Esprit, le don de Dieu répandu en tous. Toutes choses sont donc organisées par les vertus et les attributions divines : une puissance unique de qui tout provient ; une descendance unique par qui tout existe ; une grâce unique donnant une parfaite espérance. Et rien ne peut manquer à une telle perfection, puisqu’on y trouve l’infinité dans le Père éternel, la vision dans son image qui est le Fils, la pratique de la vie chrétienne dans le don de l’Esprit. ~ Que tel soit en nous le rôle de celui-ci, apprenons-le des paroles dites par le Seigneur lui-même : *J’aurais encore beaucoup de choses à vous dire, mais pour l’instant vous n’avez pas la force de les porter. Il vous est avantageux que je parte ; si je m’en vais, je vous enverrai l’Avocat*. Et encore : *Moi, je prierai le Père, et il vous donnera un autre Avocat qui sera pour toujours avec vous. C’est l’Esprit de vérité. Il vous guidera vers la Vérité tout entière. En effet, ce qu’il dira ne viendra pas de lui-même ; il redira tout ce qu’il aura entendu et, ce qui va venir, il vous l’expliquera. Il me glorifiera, car c’est de moi qu’il le tirera*. Ces paroles ont été dites pour vous faire comprendre plusieurs choses ; on y trouve l’intention de celui qui procure le don et aussi la raison d’être et la nature du don. Puisque notre faiblesse serait incapable de saisir aussi bien le Père que le Fils, le Saint-Esprit est un don qui, par son intervention, peut éclairer notre foi pour laquelle l’Incarnation est un mystère difficile. ~ On le reçoit afin de connaître Dieu. La nature du corps humain, lorsque disparaîtront les objets qui l’intéressent, sera inactive. Car s’il n’y a pas de lumière ou de jour, le service rendu par les yeux n’aura pas à s’exercer ; si aucun son ou aucune voix ne se fait entendre, les oreilles ne trouveront plus rien à faire ; si aucune odeur ne s’exhale, les narines seront sans utilité. Il en est de même pour l’esprit humain : si, par la foi, il ne reçoit pas le don du Saint-Esprit, il aura bien un principe naturel de connaissance de Dieu, mais il n’aura pas la lumière de la science. Quant au don qui réside dans le Christ, il est toujours le même pour tous ; et puisqu’il ne manque jamais, il est donné à chacun autant qu’il veut en profiter ; il réside en chacun autant qu’il veut l’obtenir. Ce don demeure avec nous jusqu’à la fin du monde, il nous réconforte dans notre attente ; il est un gage, par l’activité de ses bienfaits, de ce que nous espérons pour l’avenir, il éclaire les esprits, il illumine les cœurs."
-      responsory: |
-        R/ L’amour de Dieu est répandu dans nos cœurs
-        par le Saint-Esprit.
-        
-        Les nations sauront que je suis le Seigneur
-        quand éclatera ma sainteté à votre sujet.
-        
-        Je vous purifierai de tous vos péchés,
-        les nations le sauront : Je suis le Seigneur.
-        
-        Je vous donnerai un cœur nouveau,
-        je mettrai en vous un esprit nouveau.
-        
-        Je mettrai en vous, mon Esprit,
-        et vous marcherez selon mes lois.
-  verse: |
-    V/ En ta résurrection, ô Christ, alléluia,
-    le ciel et la terre se réjouissent, alléluia.
-  oration:
-    - Dieu qui nous as ouvert la vie éternelle en exaltant ton Fils dans la gloire et en nous envoyant ton Esprit de lumière, fais qu’en participant à une telle grâce, nous soyons plus dévoués à te servir et obtenions une plus grande foi.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_21_1
+    - psalm: PSALM_21_1
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_21_2
-    -
-      psalm: PSALM_21_3
+    - psalm: PSALM_21_2
+    - psalm: PSALM_21_3
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_134_1
+    - psalm: PSALM_134_1
       antiphon:
         - Je suis le Seigneur qui te sauve, ton rédempteur. Alléluia.
-    -
-      psalm: PSALM_134_2
+    - psalm: PSALM_134_2
       antiphon:
         - Jésus Christ, le seul puissant, est Roi des rois et Seigneur des seigneurs, alléluia.
-    -
-      psalm: NT_11
+    - psalm: NT_11
       antiphon:
         - Toi seul es saint, toi seul es le Seigneur !
   reading:
@@ -134,20 +124,20 @@ vespers:
   intercession:
     content: |
       Supplions Dieu de répandre son Esprit sur toute créature, ainsi qu’il l’a promis :
-      
+
       R/ Ô Seigneur, envoie ton Esprit.
-      
+
       Sur ceux qui ont faim, ceux qui pleurent,
       ceux qui attendent un consolateur,
-      
+
       Sur ceux qui ont besoin de ta Sagesse pour établir la justice et la paix,
-      
+
       Sur les persécutés, les opprimés, les abandonnés,
-      
+
       Sur ceux qui annoncent ta Parole et ceux qui en vivent,
-      
+
       Sur ceux qui te connaissent et ceux qui te cherchent,
-      
+
       Sur ceux qui te suivent et ceux qui se détournent de toi,
-      
+
       Sur les vivants et les morts,

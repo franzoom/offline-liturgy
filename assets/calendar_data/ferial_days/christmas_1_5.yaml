@@ -1,56 +1,48 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_50
-      antiphon:
-        - Il est né d’une race de pécheurs, pour sauver l’homme pécheur.
-    -
-      psalm: OT_27
-      antiphon:
-        - Tu es un Dieu caché, Jésus, Sauveur des hommes.
-    -
-      psalm: PSALM_99
-      antiphon:
-        - Reconnaissez que le Seigneur est Dieu.
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_34_1
+    - psalm: PSALM_34_1
       antiphon:
         - Le Seigneur console son peuple, il prend pitié de ceux qui pleurent.
-    -
-      psalm: PSALM_34_2
+    - psalm: PSALM_34_2
       antiphon:
         - Le Seigneur console son peuple, il prend pitié de ceux qui pleurent.
-    -
-      psalm: PSALM_34_3
+    - psalm: PSALM_34_3
       antiphon:
         - Le Seigneur console son peuple, il prend pitié de ceux qui pleurent.
+
+morning:
+  psalmody:
+    - psalm: PSALM_50
+      antiphon:
+        - Il est né d’une race de pécheurs, pour sauver l’homme pécheur.
+    - psalm: OT_27
+      antiphon:
+        - Tu es un Dieu caché, Jésus, Sauveur des hommes.
+    - psalm: PSALM_99
+      antiphon:
+        - Reconnaissez que le Seigneur est Dieu.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_4
+    - psalm: PSALM_118_4
       antiphon:
         - Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire.
-    -
-      psalm: PSALM_25
-    -
-      psalm: PSALM_27
+    - psalm: PSALM_25
+    - psalm: PSALM_27
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_40
+    - psalm: PSALM_40
       antiphon:
         - Le Juste, mon serviteur, justifiera les multitudes.
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - "La Vierge a mis au monde un fils : Emmanuel, Dieu avec nous."
-    -
-      psalm: NT_11
+    - psalm: NT_11
       antiphon:
         - Toi seul est saint, toi seul es le Seigneur !
   oration:

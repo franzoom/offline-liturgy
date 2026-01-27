@@ -2,6 +2,45 @@ celebration:
   title: 3 janvier (avant l’Épiphanie)
   precedence: 13
   color: white
+
+oration:
+  - Seigneur, tu as voulu que ton Fils naisse de la Vierge bénie, afin que son humanité ne soit pas soumise à la condamnation de notre race ; accorde-nous d’échapper à l’engrenage du péché, puisque le Christ nous donne part à la nouvelle création. Lui qui règne.
+
+readings:
+  verse: |
+    V/ Le Fils de Dieu est venu
+    nous faire connaître le Père.
+  biblicalReading:
+    - title: La vie de l’homme nouveau
+      ref: Col 3, 5-16
+      content: |
+        Faites donc mourir en vous ce qui n’appartient qu’à la terre : débauche, impureté, passion, désir mauvais, et cette soif de posséder, qui est une idolâtrie. Voilà ce qui provoque la colère de Dieu contre ceux qui lui désobéissent, voilà quelle était votre conduite autrefois lorsque, vous aussi, vous viviez dans ces désordres. Mais maintenant, vous aussi, débarrassez-vous de tout cela : colère, emportement, méchanceté, insultes, propos grossiers sortis de votre bouche. Plus de mensonge entre vous : vous vous êtes débarrassés de l’homme ancien qui était en vous et de ses façons d’agir, et vous vous êtes revêtus de l’homme nouveau qui, pour se conformer à l’image de son Créateur, se renouvelle sans cesse en vue de la pleine connaissance. Ainsi, il n’y a plus le païen et le Juif, le circoncis et l’incirconcis, il n’y a plus le barbare ou le primitif, l’esclave et l’homme libre ; mais il y a le Christ : il est tout, et en tous.
+
+        Puisque vous avez été choisis par Dieu, que vous êtes sanctifiés, aimés par lui, revêtez-vous de tendresse et de compassion, de bonté, d’humilité, de douceur et de patience. Supportez-vous les uns les autres, et pardonnez-vous mutuellement si vous avez des reproches à vous faire. Le Seigneur vous a pardonné : faites de même. Par-dessus tout cela, ayez l’amour, qui est le lien le plus parfait. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés, vous qui formez un seul corps. Vivez dans l’action de grâce. Que la parole du Christ habite en vous dans toute sa richesse ; instruisez-vous et reprenez-vous les uns les autres en toute sagesse ; par des psaumes, des hymnes et des chants spirituels, chantez à Dieu, dans vos cœurs, votre reconnaissance.
+      responsory: R/ Que règne en nos cœurs la paix du Christ !
+  patristicReading:
+    - title: HOMÉLIE DE SAINT AUGUSTIN SUR L’ÉVANGILE DE JEAN
+      subtitle: Le double commandement de l’amour
+      content: |
+        Voici que vient le Seigneur en personne, maître de charité, rempli de charité. Comme il avait été prédit de lui, il*donne brièvement sa parole sur la terre*, et il montre que la Loi et les prophètes se résument dans les deux préceptes de la charité. ~
+
+        Rappelez-vous avec moi, mes frères, quels sont ces deux préceptes. Car ils doivent être bien connus, et ne pas venir seulement à notre esprit de temps en temps, quand nous nous en souvenons ; ils ne doivent jamais s’effacer de vos cœurs. Songez toujours qu’il faut absolument aimer Dieu et le prochain : *Dieu, de tout ton cœur, de toute ton âme et de tout ton Esprit, et ton prochain comme toi-même.*
+
+        Il faut toujours y penser, le méditer, le retenir, l’accomplir. L’amour de Dieu est premier dans l’ordre des préceptes ; l’amour du prochain est premier dans l’ordre de la pratique. Car celui qui t’a prescrit cet amour en deux préceptes ne t’a pas recommandé le prochain d’abord, et Dieu ensuite ; mais Dieu d’abord, et le prochain ensuite.
+
+        Quant à toi, parce que tu ne vois pas encore Dieu, c’est en aimant le prochain que tu mérites de voir Dieu ; en aimant le prochain, tu purifies ton regard pour voir Dieu. C’est ce que saint Jean dit de façon évidente : *Si tu n’aimes pas ton frère, que tu vois, comment pourrais-tu aimer Dieu, que tu ne vois pas ?*
+
+        Voici que l’on te dit : Aime Dieu. Si tu me dis : Montre-moi celui que je dois aimer, que répondrai-je, sinon ce que dit saint Jean : *Dieu, personne ne l’a jamais vu ?*Mais ne t’imagine pas que tu es absolument exclu de la vie de Dieu ! Saint Jean nous dit : *Dieu est amour, et celui qui demeure dans l’amour demeure en Dieu*. Aime donc le prochain, regarde en toi d’où te vient cet amour du prochain ; là tu verras Dieu, dans la mesure où cela te sera possible.
+
+        Mets-toi donc à aimer le prochain.*Partage ton pain avec celui qui a faim, recueille chez toi le malheureux sans abri, couvre celui que tu verras sans vêtement, ne méprise pas ton semblable. ~*
+
+        En agissant ainsi, qu’obtiendras-tu ?*Alors ta lumière jaillira comme l’aurore*. La lumière, c’est ton Dieu. C’est une aurore, parce que son avènement se produira pour toi après la nuit de ce monde. Car cette lumière-là ne se lève pas, ne se couche pas : elle demeure toujours.
+
+        En aimant le prochain, en prenant soin de ton prochain, tu es en route. Où cela, si ce n’est vers le Seigneur Dieu, vers celui que tu dois aimer de tout ton cœur, de toute ton âme, de tout ton esprit ? Car nous ne sommes pas arrivés jusqu’au Seigneur, mais nous avons le prochain avec nous. Porte donc celui avec qui tu marches, pour parvenir à celui avec qui tu désires demeurer.
+      responsory: |
+        R/ Celui qui garde ma Parole demeure en moi
+        et moi en lui. Alléluia, alléluia.
+
 morning:
   reading:
     biblicalReference: Is 62, 11b-12a
@@ -16,63 +55,28 @@ morning:
   intercession:
     content: |
       R/Gloire à Dieu ! Aux hommes paix sur la terre !
-      
+
       Tu t’es fait homme, ô Christ,
       et tu as demeuré parmi nous.
-      
+
       Tu t’es fait homme, ô Christ,
       et tu marches à notre pas.
-      
+
       Tu t’es fait homme, ô Christ,
       et ton visage sera le nôtre.
-      
+
       Tu t’es fait homme, ô Christ,
       et ta voix éveille la nôtre.
-      
+
       Tu t’es fait homme, ô Christ,
       et tu nous mènes au véritable amour.
-      
+
       Tu t’es fait homme, ô Christ,
       et tu rassembles tes frères.
-      
+
       Tu t’es fait homme, ô Christ,
       et nous devenons fils de Dieu.
-readings:
-  biblicalReading:
-    -
-      title: La vie de l’homme nouveau
-      ref: Col 3, 5-16
-      content: |
-        Faites donc mourir en vous ce qui n’appartient qu’à la terre : débauche, impureté, passion, désir mauvais, et cette soif de posséder, qui est une idolâtrie. Voilà ce qui provoque la colère de Dieu contre ceux qui lui désobéissent, voilà quelle était votre conduite autrefois lorsque, vous aussi, vous viviez dans ces désordres. Mais maintenant, vous aussi, débarrassez-vous de tout cela : colère, emportement, méchanceté, insultes, propos grossiers sortis de votre bouche. Plus de mensonge entre vous : vous vous êtes débarrassés de l’homme ancien qui était en vous et de ses façons d’agir, et vous vous êtes revêtus de l’homme nouveau qui, pour se conformer à l’image de son Créateur, se renouvelle sans cesse en vue de la pleine connaissance. Ainsi, il n’y a plus le païen et le Juif, le circoncis et l’incirconcis, il n’y a plus le barbare ou le primitif, l’esclave et l’homme libre ; mais il y a le Christ : il est tout, et en tous.
-        
-        Puisque vous avez été choisis par Dieu, que vous êtes sanctifiés, aimés par lui, revêtez-vous de tendresse et de compassion, de bonté, d’humilité, de douceur et de patience. Supportez-vous les uns les autres, et pardonnez-vous mutuellement si vous avez des reproches à vous faire. Le Seigneur vous a pardonné : faites de même. Par-dessus tout cela, ayez l’amour, qui est le lien le plus parfait. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés, vous qui formez un seul corps. Vivez dans l’action de grâce. Que la parole du Christ habite en vous dans toute sa richesse ; instruisez-vous et reprenez-vous les uns les autres en toute sagesse ; par des psaumes, des hymnes et des chants spirituels, chantez à Dieu, dans vos cœurs, votre reconnaissance.
-      responsory: R/ Que règne en nos cœurs la paix du Christ !
-  patristicReading:
-    -
-      title: HOMÉLIE DE SAINT AUGUSTIN SUR L’ÉVANGILE DE JEAN
-      subtitle: Le double commandement de l’amour
-      content: |
-        Voici que vient le Seigneur en personne, maître de charité, rempli de charité. Comme il avait été prédit de lui, il*donne brièvement sa parole sur la terre*, et il montre que la Loi et les prophètes se résument dans les deux préceptes de la charité. ~
-        
-        Rappelez-vous avec moi, mes frères, quels sont ces deux préceptes. Car ils doivent être bien connus, et ne pas venir seulement à notre esprit de temps en temps, quand nous nous en souvenons ; ils ne doivent jamais s’effacer de vos cœurs. Songez toujours qu’il faut absolument aimer Dieu et le prochain :*Dieu, de tout ton cœur, de toute ton âme et de tout ton Esprit, et ton prochain comme toi-même.*
-        
-        Il faut toujours y penser, le méditer, le retenir, l’accomplir. L’amour de Dieu est premier dans l’ordre des préceptes ; l’amour du prochain est premier dans l’ordre de la pratique. Car celui qui t’a prescrit cet amour en deux préceptes ne t’a pas recommandé le prochain d’abord, et Dieu ensuite ; mais Dieu d’abord, et le prochain ensuite.
-        
-        Quant à toi, parce que tu ne vois pas encore Dieu, c’est en aimant le prochain que tu mérites de voir Dieu ; en aimant le prochain, tu purifies ton regard pour voir Dieu. C’est ce que saint Jean dit de façon évidente :*Si tu n’aimes pas ton frère, que tu vois, comment pourrais-tu aimer Dieu, que tu ne vois pas ?*
-        
-        Voici que l’on te dit : Aime Dieu. Si tu me dis : Montre-moi celui que je dois aimer, que répondrai-je, sinon ce que dit saint Jean :*Dieu, personne ne l’a jamais vu ?*Mais ne t’imagine pas que tu es absolument exclu de la vie de Dieu ! Saint Jean nous dit :*Dieu est amour, et celui qui demeure dans l’amour demeure en Dieu*. Aime donc le prochain, regarde en toi d’où te vient cet amour du prochain ; là tu verras Dieu, dans la mesure où cela te sera possible.
-        
-        Mets-toi donc à aimer le prochain.*Partage ton pain avec celui qui a faim, recueille chez toi le malheureux sans abri, couvre celui que tu verras sans vêtement, ne méprise pas ton semblable. ~*
-        
-        En agissant ainsi, qu’obtiendras-tu ?*Alors ta lumière jaillira comme l’aurore*. La lumière, c’est ton Dieu. C’est une aurore, parce que son avènement se produira pour toi après la nuit de ce monde. Car cette lumière-là ne se lève pas, ne se couche pas : elle demeure toujours.
-        
-        En aimant le prochain, en prenant soin de ton prochain, tu es en route. Où cela, si ce n’est vers le Seigneur Dieu, vers celui que tu dois aimer de tout ton cœur, de toute ton âme, de tout ton esprit ? Car nous ne sommes pas arrivés jusqu’au Seigneur, mais nous avons le prochain avec nous. Porte donc celui avec qui tu marches, pour parvenir à celui avec qui tu désires demeurer.
-      responsory: |
-        R/ Celui qui garde ma Parole demeure en moi
-        et moi en lui. Alléluia, alléluia.
-  verse: |
-    V/ Le Fils de Dieu est venu
-    nous faire connaître le Père.
+
 middleOfDay:
   tierce:
     reading:
@@ -95,6 +99,7 @@ middleOfDay:
     responsory: |
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.
+
 vespers:
   reading:
     biblicalReference: 1 Jn 1, 5b.7
@@ -110,20 +115,18 @@ vespers:
   intercession:
     content: |
       R/Gloire à Dieu ! Aux hommes paix sur la terre !
-      
+
       Seigneur Jésus, ton visage
       nous montre celui de Dieu.
-      
+
       Seigneur Jésus, ton regard
       nous consacre frères.
-      
+
       Seigneur Jésus, ta vie
       nous révèle le don véritable.
-      
+
       Seigneur Jésus, ta mort
       nous découvre le cœur du Père et la souffrance de tous.
-      
+
       Seigneur Jésus, ta victoire
       nous donne de vivre le véritable amour.
-oration:
-  - Seigneur, tu as voulu que ton Fils naisse de la Vierge bénie, afin que son humanité ne soit pas soumise à la condamnation de notre race ; accorde-nous d’échapper à l’engrenage du péché, puisque le Christ nous donne part à la nouvelle création. Lui qui règne.

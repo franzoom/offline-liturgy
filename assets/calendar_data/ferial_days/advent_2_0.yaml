@@ -1,15 +1,12 @@
 firstVespers:
   psalmody:
-    -
-      psalm: PSALM_118_14
+    - psalm: PSALM_118_14
       antiphon:
         - Tressaille d’allégresse, nouvelle Sion ! Voici ton roi, humble et victorieux !
-    -
-      psalm: PSALM_15
+    - psalm: PSALM_15
       antiphon:
         - "Soyez forts, prenez courage ! Voici notre Dieu : il vient nous sauver, alléluia."
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - La loi fut donnée par Moïse, la grâce et la vérité sont venues par Jésus Christ.
   reading:
@@ -30,40 +27,92 @@ firstVespers:
   intercession:
     content: |
       Levons les yeux vers celui qui vient et, joyeux d’attendre son jour, demandons-lui d’accomplir sa promesse :
-      
+
       R/ Viens, Seigneur, ne tarde plus !
-      
+
       Toi qui étais avant tous les temps, toi qui seras au-delà des siècles,
       — emplis de ta présence chaque instant de nos vies.
-      
+
       À toi le monde et tous ses habitants :
       — sauve les hommes que tes mains ont façonnés.
-      
+
       Tu as voulu connaître notre existence vouée à la souffrance et que brise la mort,
       — libère l’humanité de tout ce qui la tient captive.
-      
+
       Tu es venu pour que nous ayons la vie en plénitude,
       — donne-nous de nous hâter à ta rencontre.
-      
+
       Tu veux faire des hommes l’unique peuple de Dieu,
       — rassemble tous ceux qui attendent de voir ton visage.
+
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_103_1
+      antiphon:
+        - Toute création aspire à la révélation des fils de Dieu.
+    - psalm: PSALM_103_2
+      antiphon:
+        - Le jour viendra où, sur la terre, justice fleurira.
+    - psalm: PSALM_103_3
+      antiphon:
+        - Dieu regarda son œuvre, il vit que tout cela était bon.
+  verse: |
+    V/ Levez la tête et regardez :
+    notre Sauveur est proche.
+  biblicalReading:
+    - title: Valse des chefs du gouvernement royal
+      ref: Is 22, 8b-23
+      content: "En regardant, ce jour-là, vers l’arsenal du palais royal, vous avez vu comme elles sont nombreuses, les brèches de la cité de David. Vous avez recueilli les eaux dans le réservoir inférieur. Vous avez recensé les maisons de Jérusalem, démoli des maisons pour renforcer le rempart. Vous avez creusé un bassin entre les deux remparts pour les eaux de l’ancien réservoir. Mais vous n’avez pas regardé vers Celui qui est à l’œuvre ; Celui qui façonne tout depuis longtemps, vous ne l’avez pas vu. Ce jour-là, le Seigneur, DIEU de l’univers, appelait à pleurer, à se lamenter, à se raser la tête, à se vêtir de toile à sac. Et voilà qu’on se réjouit, on fait la fête ; on tue le bœuf, on égorge le mouton ; on mange de la viande, on boit du vin : « Mangeons et buvons, car demain nous mourrons ! » Mais le SEIGNEUR de l’univers m’a fait entendre cette révélation : « J’en fais serment : cette faute ne vous sera jamais remise, jusque dans la mort ». Il l’a dit, le Seigneur, DIEU de l’univers. Ainsi parle le Seigneur, DIEU de l’univers : « Va trouver ce ministre, Shebna, le maître du palais, et dis-lui : Ici, quel est ton bien ? Qui sont les tiens, ici, pour t’y faire creuser un tombeau, toi qui te creuses un tombeau sur une hauteur, et te fais tailler une demeure dans le roc ? Voici que le SEIGNEUR va te rejeter, il va te rejeter, grand homme, t’empaqueter comme un paquet, t’enrouler, t’envoyer rouler comme une boule vers un pays aux vastes étendues. C’est là-bas que tu vas mourir, là-bas, dans tes chars prestigieux, toi, le déshonneur de la maison de ton maître. Je vais te chasser de ton poste, t’expulser de ta place. Et, ce jour-là, j’appellerai mon serviteur, Éliakim, fils d’Helcias. Je le revêtirai de ta tunique, je le ceindrai de ton écharpe, je lui remettrai tes pouvoirs : il sera un père pour les habitants de Jérusalem et pour la maison de Juda. Je mettrai sur son épaule la clef de la maison de David : s’il ouvre, personne ne fermera ; s’il ferme, personne n’ouvrira. Je le planterai comme une cheville dans un endroit solide ; il sera un trône de gloire pour la maison de son père. »"
+      responsory: |
+        R/ Seigneur, ouvre-nous la porte des vainqueurs :
+        nous entrerons pour te rendre grâce !
+
+        Voici le Véritable, dit le Seigneur,
+        celui qui tient la clef de David :
+        j’ai ouvert devant toi une porte
+        que nul ne peut fermer.
+
+        Tu as peu de force,
+        pourtant tu as gardé ma parole,
+        tu n as pas renié mon nom !
+  patristicReading:
+    - title: COMMENTAIRE D’EUSÈBE DE CESARÉE SUR ISAÏE
+      subtitle: L’avènement au désert. La Bonne Nouvelle sur la montagne.
+      content: "*Voix de celui qui crie dans le désert : Préparez le chemin du Seigneur, rendez droits les sentiers de notre Dieu.* Cette parole montre clairement que les événements prophétisés ne se produiront pas à Jérusalem, mais au désert ; c’est là que la gloire du Seigneur apparaîtra et que toute chair aura connaissance du salut de Dieu. Et c’est ce qui s’est accompli réellement et littéralement lorsque Jean Baptiste proclama dans le désert du Jourdain que le salut de Dieu se manifesterait, car c’est là que le salut de Dieu est apparu. En effet, le Christ avec sa gloire s’est fait connaître à tous : lorsqu’il eut été baptisé, le Saint-Esprit descendit sur lui sous la forme d’une colombe et y demeura ; et la voix du Père lui rendit témoignage : *Celui-ci est mon Fils bien-aimé, écoutez-le.* Le prophète parlait ainsi parce que Dieu devait résider dans le désert, qui est inaccessible au monde. Toutes les nations païennes étaient désertées par la connaissance de Dieu, et toutes étaient inaccessibles aux justes et aux prophètes de Dieu. C’est pour cela que cette voix ordonne de préparer le chemin au Verbe de Dieu et de rendre unie la route inaccessible et raboteuse afin que notre Dieu, en venant résider chez nous, puisse y avancer. ~ *Monte sur une haute montagne, toi qui portes la bonne nouvelle à Sion. Élève la voix avec force, toi qui portes la bonne nouvelle à Jérusalem. *Ces paroles s’accordent tout à fait avec le sens de celles qui ont précédé, et elles ont raison de mentionner les évangélistes, les porteurs de la Bonne Nouvelle, car elles annoncent aux hommes la Bonne Nouvelle de l’avènement de Dieu, après avoir parlé de la voix qui crie dans le désert. En effet la parole concernant les évangélistes du Sauveur vient à la suite de la prophétie concernant Jean Baptiste. Qui donc est cette Sion, sinon très certainement celle que les anciens appelaient Jérusalem ? En effet, c’était bien une montagne, comme le montre cette affirmation de l’Écriture : *La montagne de Sion où tu fis ta demeure ;* et l’Apôtre : *Vous êtes venus vers la montagne de Sion.* N’est-ce pas une façon de parler qui désigne le groupe des Apôtres, choisis dans le peuple ancien, dans le peuple de la circoncision ? Telle est en effet Sion ou Jérusalem, qui a reçu en héritage le salut de Dieu et qui, elle-même, est située sur la hauteur, sur la montagne même de Dieu, c’est-à-dire sur le Verbe, son Fils unique : il lui ordonne de monter sur la haute montagne pour annoncer la bonne nouvelle du salut. Or, quel est celui qui annonce la bonne nouvelle, sinon le groupe des évangélistes ? Et qu’est-ce qu’évangéliser ? C’est proclamer à tous les hommes et, avant tous, aux cités de Juda, l’avènement du Christ sur la terre."
+      responsory: |
+        Saisis de joie, vous demandez : Stance
+        Quel sera cet enfant ?
+        C’est lui le messager de la première espérance.
+        Accueillez-le de la part du Seigneur :
+        Il vient tracer le chemin de l’Epoux
+        et préluder au chant des Noces.
+
+        R/ Béni soit le Dieu fidèle,
+        il vient nous donner son amour.
+
+        Il se souvient de l’Alliance sainte,
+        jadis annoncée par les prophètes.
+
+        Il nous suscite une force de salut
+        dans la maison de David son serviteur.
+  oration:
+    - Seigneur tout-puissant et miséricordieux, ne laisse pas le souci de nos tâches présentes entraver notre marche à la rencontre de ton Fils ; mais éveille en nous cette intelligence du cœur qui nous prépare à l’accueillir et nous fait entrer dans sa propre vie. Lui qui règne.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_117
+    - psalm: PSALM_117
       antiphon:
         - Nous avons une ville forte, alléluia ! Le Seigneur est pour nous, alléluia !
-    -
-      psalm: OT_40
+    - psalm: OT_40
       antiphon:
         - "Vous qui avez soif, venez vers les eaux ! Cherchez le Seigneur : il se laisse trouver, alléluia !"
-    -
-      psalm: PSALM_150
+    - psalm: PSALM_150
       antiphon:
         - Voici le Seigneur qui vient avec puissance, il vient illuminer nos yeux !
   reading:
@@ -80,96 +129,35 @@ morning:
   intercession:
     content: |
       Tu nous as visités, Dieu notre Père, par la venue dans la chair de ton Fils bien-aimé : garde-nous vigilants jusqu’à sa venue dans la gloire.
-      
+
       R/ En toi, Seigneur, notre espérance !
-      
+
       Tu nous as tracé en ton Fils un chemin de lumière.
       Que toute la terre se lève et marche vers toi à la clarté de son visage !
-      
+
       Tandis que la nuit s’achève et que le jour approche, viens secouer nos somnolences.
-      
+
       Accorde-nous de te servir dans la justice et la sainteté tout au long de nos jours.
-      
+
       Et quand paraîtra le Fils de l’homme, qu’il nous trouve debout, prêts à l’accueillir.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_103_1
-      antiphon:
-        - Toute création aspire à la révélation des fils de Dieu.
-    -
-      psalm: PSALM_103_2
-      antiphon:
-        - Le jour viendra où, sur la terre, justice fleurira.
-    -
-      psalm: PSALM_103_3
-      antiphon:
-        - Dieu regarda son œuvre, il vit que tout cela était bon.
-  biblicalReading:
-    -
-      title: Valse des chefs du gouvernement royal
-      ref: Is 22, 8b-23
-      content: "En regardant, ce jour-là, vers l’arsenal du palais royal, vous avez vu comme elles sont nombreuses, les brèches de la cité de David. Vous avez recueilli les eaux dans le réservoir inférieur. Vous avez recensé les maisons de Jérusalem, démoli des maisons pour renforcer le rempart. Vous avez creusé un bassin entre les deux remparts pour les eaux de l’ancien réservoir. Mais vous n’avez pas regardé vers Celui qui est à l’œuvre ; Celui qui façonne tout depuis longtemps, vous ne l’avez pas vu. Ce jour-là, le Seigneur, DIEU de l’univers, appelait à pleurer, à se lamenter, à se raser la tête, à se vêtir de toile à sac. Et voilà qu’on se réjouit, on fait la fête ; on tue le bœuf, on égorge le mouton ; on mange de la viande, on boit du vin : « Mangeons et buvons, car demain nous mourrons ! » Mais le SEIGNEUR de l’univers m’a fait entendre cette révélation : « J’en fais serment : cette faute ne vous sera jamais remise, jusque dans la mort ». Il l’a dit, le Seigneur, DIEU de l’univers. Ainsi parle le Seigneur, DIEU de l’univers : « Va trouver ce ministre, Shebna, le maître du palais, et dis-lui : Ici, quel est ton bien ? Qui sont les tiens, ici, pour t’y faire creuser un tombeau, toi qui te creuses un tombeau sur une hauteur, et te fais tailler une demeure dans le roc ? Voici que le SEIGNEUR va te rejeter, il va te rejeter, grand homme, t’empaqueter comme un paquet, t’enrouler, t’envoyer rouler comme une boule vers un pays aux vastes étendues. C’est là-bas que tu vas mourir, là-bas, dans tes chars prestigieux, toi, le déshonneur de la maison de ton maître. Je vais te chasser de ton poste, t’expulser de ta place. Et, ce jour-là, j’appellerai mon serviteur, Éliakim, fils d’Helcias. Je le revêtirai de ta tunique, je le ceindrai de ton écharpe, je lui remettrai tes pouvoirs : il sera un père pour les habitants de Jérusalem et pour la maison de Juda. Je mettrai sur son épaule la clef de la maison de David : s’il ouvre, personne ne fermera ; s’il ferme, personne n’ouvrira. Je le planterai comme une cheville dans un endroit solide ; il sera un trône de gloire pour la maison de son père. »"
-      responsory: |
-        R/ Seigneur, ouvre-nous la porte des vainqueurs :
-        nous entrerons pour te rendre grâce !
-        
-        Voici le Véritable, dit le Seigneur,
-        celui qui tient la clef de David :
-        j’ai ouvert devant toi une porte
-        que nul ne peut fermer.
-        
-        Tu as peu de force,
-        pourtant tu as gardé ma parole,
-        tu n as pas renié mon nom !
-  patristicReading:
-    -
-      title: COMMENTAIRE D’EUSÈBE DE CESARÉE SUR ISAÏE
-      subtitle: L’avènement au désert. La Bonne Nouvelle sur la montagne.
-      content: "*Voix de celui qui crie dans le désert : Préparez le chemin du Seigneur, rendez droits les sentiers de notre Dieu.* Cette parole montre clairement que les événements prophétisés ne se produiront pas à Jérusalem, mais au désert ; c’est là que la gloire du Seigneur apparaîtra et que toute chair aura connaissance du salut de Dieu. Et c’est ce qui s’est accompli réellement et littéralement lorsque Jean Baptiste proclama dans le désert du Jourdain que le salut de Dieu se manifesterait, car c’est là que le salut de Dieu est apparu. En effet, le Christ avec sa gloire s’est fait connaître à tous : lorsqu’il eut été baptisé, le Saint-Esprit descendit sur lui sous la forme d’une colombe et y demeura ; et la voix du Père lui rendit témoignage : *Celui-ci est mon Fils bien-aimé, écoutez-le.* Le prophète parlait ainsi parce que Dieu devait résider dans le désert, qui est inaccessible au monde. Toutes les nations païennes étaient désertées par la connaissance de Dieu, et toutes étaient inaccessibles aux justes et aux prophètes de Dieu. C’est pour cela que cette voix ordonne de préparer le chemin au Verbe de Dieu et de rendre unie la route inaccessible et raboteuse afin que notre Dieu, en venant résider chez nous, puisse y avancer. ~ *Monte sur une haute montagne, toi qui portes la bonne nouvelle à Sion. Élève la voix avec force, toi qui portes la bonne nouvelle à Jérusalem. *Ces paroles s’accordent tout à fait avec le sens de celles qui ont précédé, et elles ont raison de mentionner les évangélistes, les porteurs de la Bonne Nouvelle, car elles annoncent aux hommes la Bonne Nouvelle de l’avènement de Dieu, après avoir parlé de la voix qui crie dans le désert. En effet la parole concernant les évangélistes du Sauveur vient à la suite de la prophétie concernant Jean Baptiste. Qui donc est cette Sion, sinon très certainement celle que les anciens appelaient Jérusalem ? En effet, c’était bien une montagne, comme le montre cette affirmation de l’Écriture : *La montagne de Sion où tu fis ta demeure ;* et l’Apôtre : *Vous êtes venus vers la montagne de Sion.* N’est-ce pas une façon de parler qui désigne le groupe des Apôtres, choisis dans le peuple ancien, dans le peuple de la circoncision ? Telle est en effet Sion ou Jérusalem, qui a reçu en héritage le salut de Dieu et qui, elle-même, est située sur la hauteur, sur la montagne même de Dieu, c’est-à-dire sur le Verbe, son Fils unique : il lui ordonne de monter sur la haute montagne pour annoncer la bonne nouvelle du salut. Or, quel est celui qui annonce la bonne nouvelle, sinon le groupe des évangélistes ? Et qu’est-ce qu’évangéliser ? C’est proclamer à tous les hommes et, avant tous, aux cités de Juda, l’avènement du Christ sur la terre."
-      responsory: |
-        Saisis de joie, vous demandez : Stance
-        Quel sera cet enfant ?
-        C’est lui le messager de la première espérance.
-        Accueillez-le de la part du Seigneur :
-        Il vient tracer le chemin de l’Epoux
-        et préluder au chant des Noces.
-        
-        R/ Béni soit le Dieu fidèle,
-        il vient nous donner son amour.
-        
-        Il se souvient de l’Alliance sainte,
-        jadis annoncée par les prophètes.
-        
-        Il nous suscite une force de salut
-        dans la maison de David son serviteur.
-  verse: |
-    V/ Levez la tête et regardez :
-    notre Sauveur est proche.
-  oration:
-    - Seigneur tout-puissant et miséricordieux, ne laisse pas le souci de nos tâches présentes entraver notre marche à la rencontre de ton Fils ; mais éveille en nous cette intelligence du cœur qui nous prépare à l’accueillir et nous fait entrer dans sa propre vie. Lui qui règne.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_22
+    - psalm: PSALM_22
       antiphon:
         - De toi, Bethléem, sortira le berger d’Israël.
-    -
-      psalm: PSALM_75_1
-    -
-      psalm: PSALM_75_2
+    - psalm: PSALM_75_1
+    - psalm: PSALM_75_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - Le Seigneur viendra sur les nuées du ciel avec puissance et gloire !
-    -
-      psalm: PSALM_113B
+    - psalm: PSALM_113B
       antiphon:
         - "On verra le Seigneur, il ne ment pas ! S’il semble tarder, attends-le : à son heure il viendra !"
-    -
-      psalm: NT_12
+    - psalm: NT_12
       antiphon:
         - "Le Seigneur est notre juge, le Seigneur est notre roi : c’est lui qui vient nous sauver."
   reading:
@@ -188,17 +176,17 @@ vespers:
     content: |
       Fils du Très-Haut, annoncé par l’ange à la Vierge Marie,
       — règne à jamais sur ton peuple.
-      
+
       R/ Viens et demeure avec nous !
-      
+
       Pour toi, Saint de Dieu, Jean le Précurseur a tressailli d’allégresse dès avant sa naissance, 
       — révèle à tous les hommes la joie du salut.
-      
+
       Jésus, dont le nom sauveur a été révélé à Joseph, 
       — libère ton peuple de ses péchés.
-      
+
       Lumière du monde, qu’attendaient Syméon et tous les justes,
       — soutiens l’espérance de ton Église.
-      
+
       Soleil levant, dont Zacharie a entrevu le jour,
       — illumine ceux qui habitent les ténèbres et l’ombre de la mort.

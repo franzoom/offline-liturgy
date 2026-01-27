@@ -3,18 +3,71 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_36_1
+      antiphon:
+        - Nul ne peut entrer dans le Royaume, sinon comme un enfant.
+    - psalm: PSALM_36_2
+      antiphon:
+        - Nul ne peut entrer dans le Royaume, sinon comme un enfant.
+    - psalm: PSALM_36_3
+      antiphon:
+        - Nul ne peut entrer dans le Royaume, sinon comme un enfant.
+  verse: |
+    V/ Préparez les chemins du Seigneur,
+    aplanissez la route.
+  biblicalReading:
+    - title: En ce jour-là, le Seigneur triomphera
+      ref: Is 24, 19 – 25, 5
+      content: "La terre se brise, se brise en morceaux ! La terre éclate, elle vole en éclats ! La terre frémit, frémit tout entière ! La terre vacille, vacille comme un ivrogne, comme une cabane branlante ; son forfait pèse sur elle, elle tombe sans pouvoir se relever. Ce jour-là, il arrivera que le SEIGNEUR viendra sévir là-haut, contre l’armée d’en haut, et sur la terre contre les rois de la terre. Ils seront entassés, enchaînés dans un cachot, prisonniers d’une prison. Après de nombreux jours, on sévira contre eux. La lune rougira, le soleil se couvrira de honte. Car, sur le mont Sion et à Jérusalem, le SEIGNEUR de l’univers régnera : devant les anciens resplendira sa gloire. SEIGNEUR, tu es mon Dieu, je t’exalte, je rends grâce à ton nom, car tu as accompli projets et merveilles, sûrs et stables depuis longtemps. Tu as changé la ville en tas de pierres, la cité fortifiée, en champ de ruines ; la citadelle des étrangers n’est plus une ville, jamais elle ne sera rebâtie : voilà pourquoi un peuple fort reconnaît ta gloire, les cités des nations tyranniques te craignent. Tu es devenu forteresse pour le faible, forteresse pour le malheureux en sa détresse, un abri contre l’orage, une ombre contre la chaleur : le souffle des tyrans n’est que pluie d’orage sur un mur. Comme une chaleur étouffante sur la terre desséchée, tu étouffes le vacarme des étrangers ; comme faiblit la chaleur à l’ombre d’un nuage, ainsi faiblit le chant de victoire des tyrans."
+      responsory: |
+        R/ Seigneur, tu es mon Dieu,
+        je t’exalte et je célèbre ton nom !
+
+        Tu as accompli ton merveilleux dessein,
+        enveloppé de silence aux siècles éternels.
+
+        Tu es un refuge pour le faible,
+        un refuge pour le pauvre dans la détresse.
+  patristicReading:
+    - title: ACTES DU IIème CONCILE DU VATICAN
+      subtitle: « Les derniers temps sont arrivés pour nous »
+      content: Dans le Christ nous sommes tous appelés à faire partie de l’Église, et c’est en elle que nous acquérons la sainteté par la grâce de Dieu. Mais elle n’atteindra son achèvement que dans la gloire du ciel, lorsque viendra *le temps du rétablissement de toutes choses*, lorsque, avec le genre humain, le monde entier lui aussi, qui est intimement uni à l’homme et qui atteint par l’homme le but qui est le sien, sera parfaitement rassemblé dans le Christ. Le Christ, élevé au-dessus de la terre, a attiré à lui tous les hommes ; ressuscité d’entre les morts, il a envoyé sur ses disciples son Esprit qui donne la vie ; et, par cet Esprit, le Christ a établi son Corps, qui est l’Église, comme le sacrement universel du salut. Siégeant à la droite du Père, il agit continuellement dans le monde pour conduire les hommes à son Église, pour les unir à lui-même au moyen d’elle, pour les rendre participants de sa vie glorieuse en leur offrant en nourriture son propre Corps et son Sang. Ce rétablissement, qui nous a été promis et que nous attendons, a déjà commencé dans le Christ ; il a progressé par l’envoi du Saint-Esprit et par celui-ci il se poursuit dans l’Église. C’est en elle que la foi nous enseigne le sens de notre vie terrestre elle-même, du moment que, dans l’espérance des biens futurs, nous conduisons vers sa fin la tâche que le Père nous a chargés d’accomplir dans le monde, et que nous faisons ainsi notre salut. Ainsi déjà les derniers temps sont arrivés pour nous. Le renouvellement du monde est irrévocablement établi et se trouve anticipé en ce monde d’une manière déjà réelle. En effet, déjà sur terre, l’Église rayonne d’une sainteté véritable, quoique inachevée. Mais en attendant que se réalisent* les cieux nouveaux et la terre nouvelle* où la justice habite, l’Église en pèlerinage porte la figure de ce monde qui passe, dans ses sacrements et ses institutions qui appartiennent à notre époque. Sa propre vie s’écoule au milieu des créatures qui gémissent encore maintenant dans les douleurs de l’enfantement, et qui attendent la manifestation des fils de Dieu.
+      responsory: |
+        Les temps sont accomplis,
+        le royaume de Dieu
+        est tout proche ;
+        Redressez-vous :
+        c’est l’heure de l’espérance.
+
+        R/ Voici le temps favorable !
+        Voici le jour du salut !
+
+        Les temps sont accomplis,
+        le Seigneur aujourd’hui
+        vous appelle.
+        Venez à lui :
+        c’est l’heure de l’évangile !
+
+        Les temps sont accomplis,
+        le Seigneur vous attend
+        pour la Pâque.
+        Pressez le pas :
+        c’est l’heure où Dieu fait revivre !
+  oration:
+    - Tu as promis, Dieu tout-puissant, d’envoyer un sauveur à tous les peuples de la terre ; Donne-nous la grâce d’attendre dans la joie le jour glorieux de sa naissance. Lui qui règne.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_42
+    - psalm: PSALM_42
       antiphon:
         - J’envoie mon messager préparer devant toi le chemin.
-    -
-      psalm: OT_23
+    - psalm: OT_23
       antiphon:
         - Tu me guériras, tu me feras vivre, et je chanterai ta louange.
-    -
-      psalm: PSALM_64
+    - psalm: PSALM_64
       antiphon:
         - Ta parole, Seigneur, féconde notre terre et prépare les moissons.
   reading:
@@ -31,101 +84,38 @@ morning:
   intercession:
     content: |
       Père de miséricorde, viens à nouveau visiter ton peuple, rassemble-nous dans le désir de ta gloire.
-      
+
       R/ Seigneur, que ton règne vienne !
-      
+
       Donne-nous de porter les fruits d’une conversion véritable,
       et de trouver notre liberté à faire ta volonté.
-      
+
       Aplanis en notre cœur le chemin de ton Fils unique,
       fais-nous vivre de sa parole et de son Esprit.
-      
+
       Abaisse nos montagnes d’orgueil,
       et comble les abîmes de notre faiblesse.
-      
+
       Abats les barrières de haine qui séparent les peuples,
       ouvre entre les hommes des chemins d’amitié.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_36_1
-      antiphon:
-        - Nul ne peut entrer dans le Royaume, sinon comme un enfant.
-    -
-      psalm: PSALM_36_2
-      antiphon:
-        - Nul ne peut entrer dans le Royaume, sinon comme un enfant.
-    -
-      psalm: PSALM_36_3
-      antiphon:
-        - Nul ne peut entrer dans le Royaume, sinon comme un enfant.
-  biblicalReading:
-    -
-      title: En ce jour-là, le Seigneur triomphera
-      ref: Is 24, 19 – 25, 5
-      content: "La terre se brise, se brise en morceaux ! La terre éclate, elle vole en éclats ! La terre frémit, frémit tout entière ! La terre vacille, vacille comme un ivrogne, comme une cabane branlante ; son forfait pèse sur elle, elle tombe sans pouvoir se relever. Ce jour-là, il arrivera que le SEIGNEUR viendra sévir là-haut, contre l’armée d’en haut, et sur la terre contre les rois de la terre. Ils seront entassés, enchaînés dans un cachot, prisonniers d’une prison. Après de nombreux jours, on sévira contre eux. La lune rougira, le soleil se couvrira de honte. Car, sur le mont Sion et à Jérusalem, le SEIGNEUR de l’univers régnera : devant les anciens resplendira sa gloire. SEIGNEUR, tu es mon Dieu, je t’exalte, je rends grâce à ton nom, car tu as accompli projets et merveilles, sûrs et stables depuis longtemps. Tu as changé la ville en tas de pierres, la cité fortifiée, en champ de ruines ; la citadelle des étrangers n’est plus une ville, jamais elle ne sera rebâtie : voilà pourquoi un peuple fort reconnaît ta gloire, les cités des nations tyranniques te craignent. Tu es devenu forteresse pour le faible, forteresse pour le malheureux en sa détresse, un abri contre l’orage, une ombre contre la chaleur : le souffle des tyrans n’est que pluie d’orage sur un mur. Comme une chaleur étouffante sur la terre desséchée, tu étouffes le vacarme des étrangers ; comme faiblit la chaleur à l’ombre d’un nuage, ainsi faiblit le chant de victoire des tyrans."
-      responsory: |
-        R/ Seigneur, tu es mon Dieu,
-        je t’exalte et je célèbre ton nom !
-        
-        Tu as accompli ton merveilleux dessein,
-        enveloppé de silence aux siècles éternels.
-        
-        Tu es un refuge pour le faible,
-        un refuge pour le pauvre dans la détresse.
-  patristicReading:
-    -
-      title: ACTES DU IIème CONCILE DU VATICAN
-      subtitle: « Les derniers temps sont arrivés pour nous »
-      content: Dans le Christ nous sommes tous appelés à faire partie de l’Église, et c’est en elle que nous acquérons la sainteté par la grâce de Dieu. Mais elle n’atteindra son achèvement que dans la gloire du ciel, lorsque viendra *le temps du rétablissement de toutes choses*, lorsque, avec le genre humain, le monde entier lui aussi, qui est intimement uni à l’homme et qui atteint par l’homme le but qui est le sien, sera parfaitement rassemblé dans le Christ. Le Christ, élevé au-dessus de la terre, a attiré à lui tous les hommes ; ressuscité d’entre les morts, il a envoyé sur ses disciples son Esprit qui donne la vie ; et, par cet Esprit, le Christ a établi son Corps, qui est l’Église, comme le sacrement universel du salut. Siégeant à la droite du Père, il agit continuellement dans le monde pour conduire les hommes à son Église, pour les unir à lui-même au moyen d’elle, pour les rendre participants de sa vie glorieuse en leur offrant en nourriture son propre Corps et son Sang. Ce rétablissement, qui nous a été promis et que nous attendons, a déjà commencé dans le Christ ; il a progressé par l’envoi du Saint-Esprit et par celui-ci il se poursuit dans l’Église. C’est en elle que la foi nous enseigne le sens de notre vie terrestre elle-même, du moment que, dans l’espérance des biens futurs, nous conduisons vers sa fin la tâche que le Père nous a chargés d’accomplir dans le monde, et que nous faisons ainsi notre salut. Ainsi déjà les derniers temps sont arrivés pour nous. Le renouvellement du monde est irrévocablement établi et se trouve anticipé en ce monde d’une manière déjà réelle. En effet, déjà sur terre, l’Église rayonne d’une sainteté véritable, quoique inachevée. Mais en attendant que se réalisent* les cieux nouveaux et la terre nouvelle* où la justice habite, l’Église en pèlerinage porte la figure de ce monde qui passe, dans ses sacrements et ses institutions qui appartiennent à notre époque. Sa propre vie s’écoule au milieu des créatures qui gémissent encore maintenant dans les douleurs de l’enfantement, et qui attendent la manifestation des fils de Dieu.
-      responsory: |
-        Les temps sont accomplis,
-        le royaume de Dieu
-        est tout proche ;
-        Redressez-vous :
-        c’est l’heure de l’espérance.
-        
-        R/ Voici le temps favorable !
-        Voici le jour du salut !
-        
-        Les temps sont accomplis,
-        le Seigneur aujourd’hui
-        vous appelle.
-        Venez à lui :
-        c’est l’heure de l’évangile !
-        
-        Les temps sont accomplis,
-        le Seigneur vous attend
-        pour la Pâque.
-        Pressez le pas :
-        c’est l’heure où Dieu fait revivre !
-  verse: |
-    V/ Préparez les chemins du Seigneur,
-    aplanissez la route.
-  oration:
-    - Tu as promis, Dieu tout-puissant, d’envoyer un sauveur à tous les peuples de la terre ; Donne-nous la grâce d’attendre dans la joie le jour glorieux de sa naissance. Lui qui règne.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_7
+    - psalm: PSALM_118_7
       antiphon:
         - Oh si tu déchirais les cieux et si tu descendais !
-    -
-      psalm: PSALM_52
-    -
-      psalm: PSALM_53
+    - psalm: PSALM_52
+    - psalm: PSALM_53
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_48_1
+    - psalm: PSALM_48_1
       antiphon:
         - Pauvres qui cherchez Dieu, vous trouverez la vie.
-    -
-      psalm: PSALM_48_2
+    - psalm: PSALM_48_2
       antiphon:
         - À l’aurore, ils feront place au juste.
-    -
-      psalm: NT_9
+    - psalm: NT_9
       antiphon:
         - Voici le Seigneur, le Souverain des rois de la terre ! Heureux qui se tient prêt à l’accueillir !
   reading:
@@ -142,17 +132,17 @@ vespers:
   intercession:
     content: |
       Verbe éternel, manifesté dans la chair, tu es pour tout homme le chemin qui conduit vers le Père, nous t’en supplions :
-      
+
       R/ Viens, Seigneur, et sauve-nous !
-      
+
       En toi, nous avons la vie, le mouvement et l’être,
       suscite en nos cœurs la louange et la miséricorde.
-      
+
       Tu es tout proche de chacun d’entre nous,
       montre-toi à ceux qui te cherchent.
-      
+
       Ami des pauvres et réconfort de ceux qui souffrent,
       fais de nous des artisans de libération, des messagers de ta joie.
-      
+
       Tu aimes la vie, tu n’as pas créé la mort :
       délivre-nous de la mort éternelle, nous et ceux qui nous ont précédés.

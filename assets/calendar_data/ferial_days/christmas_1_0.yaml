@@ -1,37 +1,29 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_62
-    -
-      psalm: OT_41
-    -
-      psalm: PSALM_149
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_1
-    -
-      psalm: PSALM_2
-    -
-      psalm: PSALM_3
+    - psalm: PSALM_1
+    - psalm: PSALM_2
+    - psalm: PSALM_3
+
+morning:
+  psalmody:
+    - psalm: PSALM_62
+    - psalm: OT_41
+    - psalm: PSALM_149
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_117_1
-    -
-      psalm: PSALM_117_2
-    -
-      psalm: PSALM_117_3
+    - psalm: PSALM_117_1
+    - psalm: PSALM_117_2
+    - psalm: PSALM_117_3
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_109
-    -
-      psalm: PSALM_113A
-    -
-      psalm: NT_12
+    - psalm: PSALM_109
+    - psalm: PSALM_113A
+    - psalm: NT_12
   oration:
     - Tu as voulu, Seigneur, que la Sainte Famille nous soit donnée en exemple ; accorde-nous la grâce de pratiquer, comme elle, les vertus familiales et d’être unis par les liens de ton amour, avant de nous retrouver pour l’éternité dans la joie de ta maison.

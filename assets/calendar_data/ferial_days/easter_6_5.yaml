@@ -2,18 +2,57 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_37_1
+      antiphon:
+        - Ensevelis dans la mort avec le Christ, vivons avec lui d’une vie nouvelle, alléluia.
+    - psalm: PSALM_37_2
+      antiphon:
+        - Ensevelis dans la mort avec le Christ, vivons avec lui d’une vie nouvelle, alléluia.
+    - psalm: PSALM_37_3
+      antiphon:
+        - Ensevelis dans la mort avec le Christ, vivons avec lui d’une vie nouvelle, alléluia.
+  biblicalReading:
+    - title: Nous sommes fils de Dieu
+      ref: 1Jn 3, 1-10
+      content: "Voyez quel grand amour nous a donné le Père pour que nous soyons appelés enfants de Dieu — et nous le sommes. Voici pourquoi le monde ne nous connaît pas : c’est qu’il n’a pas connu Dieu. Bien-aimés, dès maintenant, nous sommes enfants de Dieu, mais ce que nous serons n’a pas encore été manifesté. Nous le savons : quand cela sera manifesté, nous lui serons semblables car nous le verrons tel qu’il est. Et quiconque met en lui une telle espérance se rend pur comme lui-même est pur. Qui commet le péché transgresse la loi ; car le péché, c’est la transgression. Or, vous savez que lui, Jésus, s’est manifesté pour enlever les péchés, et qu’il n’y a pas de péché en lui. Quiconque demeure en lui ne pèche pas ; quiconque pèche ne l’a pas vu et ne le connaît pas. Petits enfants, que nul ne vous égare : celui qui pratique la justice est juste comme lui, Jésus, est juste ; celui qui commet le péché est du diable, car, depuis le commencement, le diable est pécheur. C’est pour détruire les œuvres du diable que le Fils de Dieu s’est manifesté. Quiconque est né de Dieu ne commet pas de péché, car ce qui a été semé par Dieu demeure en lui : il ne peut donc pas pécher, puisqu’il est né de Dieu. Voici comment se manifestent les enfants de Dieu et les enfants du diable : quiconque ne pratique pas la justice n’est pas de Dieu, et pas davantage celui qui n’aime pas son frère."
+      responsory: |
+        R/ Voyez quel grand amour nous est donné !
+
+        Enfants de Dieu, nous le sommes,
+        discernés par avance dans le Fils unique.
+
+        Au prix du sang qu’il a versé,
+        Jésus nous conduit vers le Père.
+
+        Au-delà de toute souffrance,
+        une joie éternelle nous attend.
+  patristicReading:
+    - title: SERMON DE SAINT LÉON LE GRAND POUR L’ASCENSION
+      subtitle: L’Ascension du Seigneur fortifie notre foi
+      content: "Dans la solennité pascale, la Résurrection du Seigneur était la cause de notre joie ; de même, sa montée au ciel nous donne lieu de nous réjouir, puisque nous commémorons et vénérons comme il convient ce grand jour où notre pauvre nature, en la personne du Christ, a été élevée plus haut que toute l’armée des cieux, plus haut que tous les chœurs des anges, plus haut que toutes les puissances du ciel, jusqu’à s’asseoir auprès de Dieu le Père. C’est sur cette disposition des œuvres divines que nous sommes fondés et construits. La grâce de Dieu devient en effet plus admirable lorsque les hommes ayant vu disparaître ce qui leur inspirait de l’adoration, leur foi n’a pas connu le doute, leur espérance n’a pas été ébranlée, leur charité ne s’est pas refroidie. Voici en quoi consiste la force des grands esprits, telle est la lumière des âmes pleines de foi : croire sans hésitation ce que les yeux du corps ne voient pas, fixer son désir là où le regard ne parvient pas. Mais comment une telle piété pourrait-elle naître en nos cœurs, comment pourrait-on être justifié par la foi, si notre salut ne consistait qu’en des réalités offertes à nos yeux ? ~ Ce qui était visible chez notre Rédempteur est passé dans les mystères sacramentels. Et pour rendre la foi plus pure et plus ferme, la vue a été remplacée par l’enseignement : c’est à l’autorité de celui-ci que devaient obéir les cœurs des croyants, éclairés par les rayons du ciel. Cette foi, augmentée par l’Ascension du Seigneur, et fortifiée par le don du Saint-Esprit, n’a redouté ni les chaînes, ni les prisons, ni l’exil, ni la morsure des bêtes, ni les supplices raffinés de cruels persécuteurs. Dans le monde entier, c’est pour cette foi que non seulement des hommes, mais des femmes, et aussi de jeunes enfants et de frêles jeunes filles ont combattu jusqu’à répandre leur sang. Cette foi a chassé des démons, écarté des maladies, ressuscité des morts. Les saints Apôtres eux-mêmes, fortifiés par tant de miracles, instruits par tant de discours, avaient cependant été terrifiés par la cruelle passion du Seigneur et n’avaient pas admis sans hésitation la réalité de sa résurrection. Mais son Ascension leur fit accomplir de tels progrès que tout ce qui, auparavant, leur avait inspiré de la crainte, les rendait joyeux. Ils avaient dirigé leur contemplation vers la divinité de celui qui avait pris place à la droite du Père. La vue de son corps ne pouvait plus les entraver ni les empêcher de considérer, par la fine pointe de leur esprit, qu’en descendant vers nous et qu’en montant vers le Père, il ne s’était pas éloigné de ses disciples. C’est alors, mes bien-aimés, que ce Fils d’homme fut connu, de façon plus haute et plus sainte, comme le Fils de Dieu. Lorsqu’il eut fait retour dans la gloire de son Père, il commença d’une manière mystérieuse, à être plus présent par sa divinité, alors qu’il était plus éloigné quant à son humanité. C’est alors que la foi mieux instruite se rapprocha, par une démarche spirituelle, du Fils égal au Père ; elle n’avait plus besoin de toucher dans le Christ cette substance corporelle par laquelle il est inférieur au Père. Le corps glorifié gardait sa nature, mais la foi des croyants était appelée à toucher, non d’une main charnelle mais d’une intelligence spirituelle, le Fils unique égal à celui qui l’engendre."
+      responsory: |
+        R/ Allons dans la joie puiser aux sources du salut !
+
+        Celui qui boira de l’eau que je lui donnerai
+        n’aura plus jamais soif.
+
+        L’eau que je vous donnerai deviendra en vous
+        source jaillissant en vie éternelle.
+  oration:
+    - Tu nous recrées, Seigneur, pour la vie éternelle dans la résurrection de notre Sauveur qui règne désormais auprès de toi ; dirige nos cœurs vers sa gloire, afin qu’au jour où il viendra de nouveau, ceux que tu as fait renaître par le baptême soient revêtus de sa lumière impérissable.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_50
+    - psalm: PSALM_50
       antiphon:
         - Prends confiance, mon fils, tes péchés te sont remis, alléluia.
-    -
-      psalm: OT_43
+    - psalm: OT_43
       antiphon:
         - Ta gloire, ô Christ, emplit la terre ; de tes mains jaillit la lumière, alléluia.
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - "Jérusalem, célèbre ton Dieu : il te donne la paix, alléluia."
   reading:
@@ -26,84 +65,35 @@ morning:
       Ô Christ, tu es entré dans la gloire,
       – envoie le don que tu nous as promis,
       pour que nous soyons revêtus de la force d’en haut.
-      
+
       R/ Envoie sur nous ton Esprit !
-      
+
       Ne nous laisse pas orphelins,
       – que vienne sur nous l’Esprit consolateur.
-      
+
       Tu nous veux prudents comme le serpent, simples comme la colombe,
       – que ton Esprit Saint nous fasse discerner ce qui est bon.
-      
+
       Tu sièges à la droite du Père, où tu intercèdes pour les hommes,
       – que l’Esprit unisse notre prière à la tienne.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_37_1
-      antiphon:
-        - Ensevelis dans la mort avec le Christ, vivons avec lui d’une vie nouvelle, alléluia.
-    -
-      psalm: PSALM_37_2
-      antiphon:
-        - Ensevelis dans la mort avec le Christ, vivons avec lui d’une vie nouvelle, alléluia.
-    -
-      psalm: PSALM_37_3
-      antiphon:
-        - Ensevelis dans la mort avec le Christ, vivons avec lui d’une vie nouvelle, alléluia.
-  biblicalReading:
-    -
-      title: Nous sommes fils de Dieu
-      ref: 1Jn 3, 1-10
-      content: "Voyez quel grand amour nous a donné le Père pour que nous soyons appelés enfants de Dieu — et nous le sommes. Voici pourquoi le monde ne nous connaît pas : c’est qu’il n’a pas connu Dieu. Bien-aimés, dès maintenant, nous sommes enfants de Dieu, mais ce que nous serons n’a pas encore été manifesté. Nous le savons : quand cela sera manifesté, nous lui serons semblables car nous le verrons tel qu’il est. Et quiconque met en lui une telle espérance se rend pur comme lui-même est pur. Qui commet le péché transgresse la loi ; car le péché, c’est la transgression. Or, vous savez que lui, Jésus, s’est manifesté pour enlever les péchés, et qu’il n’y a pas de péché en lui. Quiconque demeure en lui ne pèche pas ; quiconque pèche ne l’a pas vu et ne le connaît pas. Petits enfants, que nul ne vous égare : celui qui pratique la justice est juste comme lui, Jésus, est juste ; celui qui commet le péché est du diable, car, depuis le commencement, le diable est pécheur. C’est pour détruire les œuvres du diable que le Fils de Dieu s’est manifesté. Quiconque est né de Dieu ne commet pas de péché, car ce qui a été semé par Dieu demeure en lui : il ne peut donc pas pécher, puisqu’il est né de Dieu. Voici comment se manifestent les enfants de Dieu et les enfants du diable : quiconque ne pratique pas la justice n’est pas de Dieu, et pas davantage celui qui n’aime pas son frère."
-      responsory: |
-        R/ Voyez quel grand amour nous est donné !
-        
-        Enfants de Dieu, nous le sommes,
-        discernés par avance dans le Fils unique.
-        
-        Au prix du sang qu’il a versé,
-        Jésus nous conduit vers le Père.
-        
-        Au-delà de toute souffrance,
-        une joie éternelle nous attend.
-  patristicReading:
-    -
-      title: SERMON DE SAINT LÉON LE GRAND POUR L’ASCENSION
-      subtitle: L’Ascension du Seigneur fortifie notre foi
-      content: "Dans la solennité pascale, la Résurrection du Seigneur était la cause de notre joie ; de même, sa montée au ciel nous donne lieu de nous réjouir, puisque nous commémorons et vénérons comme il convient ce grand jour où notre pauvre nature, en la personne du Christ, a été élevée plus haut que toute l’armée des cieux, plus haut que tous les chœurs des anges, plus haut que toutes les puissances du ciel, jusqu’à s’asseoir auprès de Dieu le Père. C’est sur cette disposition des œuvres divines que nous sommes fondés et construits. La grâce de Dieu devient en effet plus admirable lorsque les hommes ayant vu disparaître ce qui leur inspirait de l’adoration, leur foi n’a pas connu le doute, leur espérance n’a pas été ébranlée, leur charité ne s’est pas refroidie. Voici en quoi consiste la force des grands esprits, telle est la lumière des âmes pleines de foi : croire sans hésitation ce que les yeux du corps ne voient pas, fixer son désir là où le regard ne parvient pas. Mais comment une telle piété pourrait-elle naître en nos cœurs, comment pourrait-on être justifié par la foi, si notre salut ne consistait qu’en des réalités offertes à nos yeux ? ~ Ce qui était visible chez notre Rédempteur est passé dans les mystères sacramentels. Et pour rendre la foi plus pure et plus ferme, la vue a été remplacée par l’enseignement : c’est à l’autorité de celui-ci que devaient obéir les cœurs des croyants, éclairés par les rayons du ciel. Cette foi, augmentée par l’Ascension du Seigneur, et fortifiée par le don du Saint-Esprit, n’a redouté ni les chaînes, ni les prisons, ni l’exil, ni la morsure des bêtes, ni les supplices raffinés de cruels persécuteurs. Dans le monde entier, c’est pour cette foi que non seulement des hommes, mais des femmes, et aussi de jeunes enfants et de frêles jeunes filles ont combattu jusqu’à répandre leur sang. Cette foi a chassé des démons, écarté des maladies, ressuscité des morts. Les saints Apôtres eux-mêmes, fortifiés par tant de miracles, instruits par tant de discours, avaient cependant été terrifiés par la cruelle passion du Seigneur et n’avaient pas admis sans hésitation la réalité de sa résurrection. Mais son Ascension leur fit accomplir de tels progrès que tout ce qui, auparavant, leur avait inspiré de la crainte, les rendait joyeux. Ils avaient dirigé leur contemplation vers la divinité de celui qui avait pris place à la droite du Père. La vue de son corps ne pouvait plus les entraver ni les empêcher de considérer, par la fine pointe de leur esprit, qu’en descendant vers nous et qu’en montant vers le Père, il ne s’était pas éloigné de ses disciples. C’est alors, mes bien-aimés, que ce Fils d’homme fut connu, de façon plus haute et plus sainte, comme le Fils de Dieu. Lorsqu’il eut fait retour dans la gloire de son Père, il commença d’une manière mystérieuse, à être plus présent par sa divinité, alors qu’il était plus éloigné quant à son humanité. C’est alors que la foi mieux instruite se rapprocha, par une démarche spirituelle, du Fils égal au Père ; elle n’avait plus besoin de toucher dans le Christ cette substance corporelle par laquelle il est inférieur au Père. Le corps glorifié gardait sa nature, mais la foi des croyants était appelée à toucher, non d’une main charnelle mais d’une intelligence spirituelle, le Fils unique égal à celui qui l’engendre."
-      responsory: |
-        R/ Allons dans la joie puiser aux sources du salut !
-        
-        Celui qui boira de l’eau que je lui donnerai
-        n’aura plus jamais soif.
-        
-        L’eau que je vous donnerai deviendra en vous
-        source jaillissant en vie éternelle.
-  oration:
-    - Tu nous recrées, Seigneur, pour la vie éternelle dans la résurrection de notre Sauveur qui règne désormais auprès de toi ; dirige nos cœurs vers sa gloire, afin qu’au jour où il viendra de nouveau, ceux que tu as fait renaître par le baptême soient revêtus de sa lumière impérissable.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_10
+    - psalm: PSALM_118_10
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_58
-    -
-      psalm: PSALM_59
+    - psalm: PSALM_58
+    - psalm: PSALM_59
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_114
+    - psalm: PSALM_114
       antiphon:
         - Le Seigneur m’a délivré des angoisses de la mort, alléluia.
-    -
-      psalm: PSALM_120
+    - psalm: PSALM_120
       antiphon:
         - Comme la prunelle de ses yeux, le Seigneur garde son peuple, alléluia.
-    -
-      psalm: NT_11
+    - psalm: NT_11
       antiphon:
         - Le Seigneur est ma force et mon chant, il me rend libre, alléluia.
   reading:
@@ -120,15 +110,15 @@ vespers:
   intercession:
     content: |
       Par la puissance de ton Esprit, Seigneur Jésus, vivifie ton Église :
-      
+
       R/ Roi de gloire, exauce-nous !
-      
+
       Renouvelle l’esprit de service chez ceux qui nous partagent ta parole et ton pain.
-      
+
       Réconcilie, dans ton humilité, les riches et les pauvres, les forts et les faibles.
-      
+
       Révèle ton Évangile à toutes les nations : qu’elles entendent et qu’elles croient.
-      
+
       Console par ton Esprit ceux qui souffrent le deuil, la maladie, le découragement.
-      
+
       Délivre de leurs fautes nos frères qui sont morts ; accueille-les parmi les saints du ciel.

@@ -1,21 +1,30 @@
+commonTitle: Commun de la Dédicace
+
 celebration:
   color: white
-commonTitle: Commun de la Dédicace
+
+
+oration:
+  - |
+    *(Dans l’église consacrée)*
+    Chaque année, tu fais revivre pour nous, Seigneur, le jour où cette église a été consacrée ; de grâce, écoute les prières de ton peuple : donne-nous de toujours accomplir ici un culte qui te rende gloire et nous sanctifie pleinement.
+  - |-
+    *(Dans une autre église)*
+    Dieu qui choisis des pierres vivantes pour bâtir la demeure éternelle de ta gloire, fais abonder dans ton Église les fruits de l’Esprit que tu lui as donné : que le peuple qui t’appartient ne cesse pas de progresser pour l’édification de la Jérusalem céleste.
+
+
 firstVespers:
   hymn:
     - voici-la-demeure-de-dieu
     - urbs-jerusalem-beata
   psalmody:
-    -
-      psalm: PSALM_146
+    - psalm: PSALM_146
       antiphon:
         - "Les portes de Jérusalem retentiront de chants de joie ! Et ses demeures diront : Gloire à toi !"
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
         - Dieu a consolidé les barres de tes portes, dans tes murs il a béni tes enfants.
-    -
-      psalm: NT_2
+    - psalm: NT_2
       antiphon:
         - Exultent les élus dans la maison de Dieu, alléluia ! Et chantent les anges devant son trône, alléluia !
   reading:
@@ -34,109 +43,64 @@ firstVespers:
     content: |
       Tu as donné ta vie, Seigneur Jésus, pour rassembler en un seul peuple tous les enfants de Dieu dispersés ;
       aujourd’hui nous te prions pour ton Église que défigurent nos divisions :
-      
+
       R/Seigneur, rassemble-nous dans la paix de ton amour !
-      
+
       Tu as bâti ton Église sur le Roc ;
       — donne-lui de demeurer inébranlable dans la foi pour proclamer ton nom.
-      
+
       L’eau et le sang ont coulé de ton côté ouvert par la lance ;
       — renouvelle ton Église à la fontaine du baptême et par la coupe du salut.
-      
+
       Tu as promis d’être au milieu de ceux qui sont réunis en ton nom ;
       — exauce la prière de ta famille.
-      
+
       En ceux qui t’aiment, tu choisis d’établir ta demeure :
       — que l’Esprit de charité fasse grandir ton Église.
-      
+
       Jamais tu ne rejettes celui qui vient vers toi ;
       — reçois tous les défunts dans la maison du Père.
+
+
 invitatory:
   antiphon:
     - Dans la maison de Dieu, adorons le Christ, époux de l'Église.
-morning:
-  hymn:
-    - dieu-s-est-prepare-une-demeure
-  psalmody:
-    -
-      psalm: PSALM_62
-      antiphon:
-        - Ma maison, dit le Seigneur, est la maison de la prière.
-    -
-      psalm: OT_41
-      antiphon:
-        - Béni sois-tu, Seigneur, dans ton saint temple de gloire.
-    -
-      psalm: PSALM_149
-      antiphon:
-        - Louez Dieu dans l’assemblée de ses fidèles.
-  reading:
-    biblicalReference: Is 56, 7
-    content: Je les conduirai à ma montagne sainte. Je les rendrai heureux dans ma maison de  prière, je ferai bon accueil, sur mon autel, à leurs holocaustes et à leurs sacrifices,  car ma maison s’appellera « Maison de prière pour tous les peuples ».
-  responsory: |
-    R/ Heureux les habitants de ta maison, Seigneur !
-    V/ Des chemins s’ouvrent dans leur cœur. R/
-    V/ Ils vont de hauteur en hauteur
-    vers les demeures du Très-Haut. R/
-  evangelicAntiphon:
-    common: Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison.
-  intercession:
-    content: |
-      Confions-nous aux promesses du Christ et prions pour l’Église :
-      
-      Temple fondé sur le Christ, la pierre angulaire,
-      Peuple qui met en lui sa foi :
-      
-      R/Voici la demeure de Dieu chez les hommes !
-      
-      Vigne plantée et protégée par le Père,
-      Peuple qui porte un fruit de vie :
-      
-      Troupeau rassemblé par l’unique Pasteur,
-      Peuple qui écoute sa voix :
-      
-      Terre ensemencée par la Parole,
-      Peuple que moissonne le Père :
-      
-      Cité de Dieu, Jérusalem d’en-haut,
-      Peuple invité au festin des noces :
+
 
 readings:
   hymn:
     - jesus-christ-pierre-angulaire
     - urbs-jerusalem-beata
   psalmody:
-    -
-      psalm: PSALM_23
+    - psalm: PSALM_23
       antiphon:
         - "Portes, levez vos frontons, élevez-les, portes éternelles : qu’il entre, le Roi de gloire !"
-    -
-      psalm: PSALM_83
+    - psalm: PSALM_83
       antiphon:
         - Heureux les habitants de ta maison, ils pourront te chanter encore.
-    -
-      psalm: PSALM_86
+    - psalm: PSALM_86
       antiphon:
         - Cité sainte, notre Mère, tu descends du ciel et d’auprès de Dieu.
+  verse: |
+    V/ Vers ton temple saint, je me prosterne,
+    je crains et j’adore.
   biblicalReading:
-    -
-      title: La pierre vivante et la nation sainte
+    - title: La pierre vivante et la nation sainte
       ref: 1P 2, 1-17
       content: |
         Approchez-vous de lui : il est *la pierre vivante rejetée par les hommes,* mais choisie et précieuse devant Dieu. Vous aussi, comme pierres vivantes, entrez dans la construction de la demeure spirituelle, pour devenir le sacerdoce saint et présenter des sacrifices spirituels, agréables à Dieu, par Jésus Christ. En effet, il y a ceci dans l’Écriture : *Je vais poser en Sion une pierre angulaire, une pierre choisie, précieuse ; celui qui met en elle sa foi ne saurait connaître la honte.*
-        
+
         Ainsi donc, honneur à vous les croyants, mais, pour ceux qui refusent de croire, il est écrit : *La pierre qu’ont rejetée les bâtisseurs est devenue la pierre d’angle, une pierre d’achoppement, un rocher sur lequel on trébuche.* Ils achoppent, ceux qui refusent d’obéir à la Parole, et c’est bien ce qui devait leur arriver. Mais vous, vous êtes une descendance choisie, un sacerdoce royal, une nation sainte, un peuple destiné au salut, pour que vous annonciez les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Autrefois *vous n’étiez pas un peuple,* mais maintenant vous êtes le peuple de Dieu ; *vous n’aviez pas obtenu miséricorde,* mais maintenant vous avez obtenu miséricorde.
-        
+
         Bien-aimés, puisque vous êtes comme des étrangers résidents ou de passage, je vous exhorte à vous abstenir des convoitises nées de la chair, qui combattent contre l’âme. Ayez une belle conduite parmi les gens des nations ; ainsi, sur le point même où ils disent du mal de vous en vous traitant de malfaiteurs, ils ouvriront les yeux devant vos belles actions et rendront gloire à Dieu, *le jour de sa visite.*
-        
+
         Soyez soumis à toute institution humaine à cause du Seigneur, soit à l’empereur, qui est le souverain, soit aux gouverneurs, qui sont ses délégués pour punir les malfaiteurs et reconnaître les mérites des gens de bien. Car la volonté de Dieu, c’est qu’en faisant le bien, vous fermiez la bouche aux insensés qui parlent sans savoir. Soyez des hommes libres, sans toutefois utiliser la liberté pour voiler votre méchanceté : mais soyez plutôt les esclaves de Dieu. Honorez tout le monde, aimez la communauté des frères, craignez Dieu, honorez l’empereur.
       responsory: |
         Vous êtes un peuple acquis pour annoncer les louanges
         de celui qui vous a appelés des ténèbres
         à son admirable lumière.
   patristicReading:
-    -
-      title: Homélie d’Origène sur le nom de Josué
+    - title: Homélie d’Origène sur le nom de Josué
       subtitle: Les chrétiens, pierres vivantes
       content: |
         Nous tous qui croyons en Jésus Christ, nous sommes appelés des *pierres vivantes*, selon les paroles de l’Écriture : *Vous aussi, soyez les pierres vivantes qui servent à construire le Temple spirituel, et vous serez le sacerdoce saint présentant des offrandes spirituelles que Dieu pourra accepter à cause du Christ Jésus*.
@@ -155,8 +119,7 @@ readings:
 
         De quel amour j’aime ta demeure,
         Dieu de l’univers !
-    -
-      title: Sermon de Saint Augustin pour une dédicace
+    - title: Sermon de Saint Augustin pour une dédicace
       subtitle: « Le temple de Dieu, c’est vous »
       content: |
         La solennité qui nous réunit est la dédicace d’une maison de prière. La maison de nos prières, nous y sommes ; la maison de Dieu, c’est nous-mêmes. Si la maison de Dieu, c’est nous-mêmes, nous sommes construits en ce monde, pour être consacrés à la fin du monde. L’édifice, ou plutôt sa construction, se fait dans la peine ; la dédicace se fait dans la joie.
@@ -169,19 +132,63 @@ readings:
       responsory: |
         R/ Approchons-nous de la pierre vivante,
         rejetée par les hommes, mais choisie par Dieu.
-        
+
         Montez à la montagne et rebâtissez ma maison,
         dit le Seigneur,
         j’y trouverai ma joie et ma gloire.
-        
+
         La gloire future de ce temple dépassera l’ancienne,
         et dans ce lieu je donnerai la paix.
-        
+
         Vous-mêmes, comme pierres vivantes,
         entrez dans la construction de l’édifice spirituel.
-  verse: |
-    V/ Vers ton temple saint, je me prosterne,
-    je crains et j’adore.
+
+
+morning:
+  hymn:
+    - dieu-s-est-prepare-une-demeure
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Ma maison, dit le Seigneur, est la maison de la prière.
+    - psalm: OT_41
+      antiphon:
+        - Béni sois-tu, Seigneur, dans ton saint temple de gloire.
+    - psalm: PSALM_149
+      antiphon:
+        - Louez Dieu dans l’assemblée de ses fidèles.
+  reading:
+    biblicalReference: Is 56, 7
+    content: Je les conduirai à ma montagne sainte. Je les rendrai heureux dans ma maison de  prière, je ferai bon accueil, sur mon autel, à leurs holocaustes et à leurs sacrifices,  car ma maison s’appellera « Maison de prière pour tous les peuples ».
+  responsory: |
+    R/ Heureux les habitants de ta maison, Seigneur !
+    V/ Des chemins s’ouvrent dans leur cœur. R/
+    V/ Ils vont de hauteur en hauteur
+    vers les demeures du Très-Haut. R/
+  evangelicAntiphon:
+    common: Aujourd’hui le Seigneur veut demeurer chez toi ; avec lui le salut est entré dans cette maison.
+  intercession:
+    content: |
+      Confions-nous aux promesses du Christ et prions pour l’Église :
+
+      Temple fondé sur le Christ, la pierre angulaire,
+      Peuple qui met en lui sa foi :
+
+      R/Voici la demeure de Dieu chez les hommes !
+
+      Vigne plantée et protégée par le Père,
+      Peuple qui porte un fruit de vie :
+
+      Troupeau rassemblé par l’unique Pasteur,
+      Peuple qui écoute sa voix :
+
+      Terre ensemencée par la Parole,
+      Peuple que moissonne le Père :
+
+      Cité de Dieu, Jérusalem d’en-haut,
+      Peuple invité au festin des noces :
+
+
 
 middleOfDay:
   tierce:
@@ -209,21 +216,20 @@ middleOfDay:
       V/ Venez dans sa maison lui rendre grâce,
       dans sa demeure chanter ses louanges.
 
+
+
 vespers:
   hymn:
     - voici-la-demeure-de-dieu
     - urbs-jerusalem-beata
   psalmody:
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - Sainte est la demeure du Très-Haut, la maison de Dieu chez les hommes.
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Nous irons, pleins de joie, à la maison du Seigneur.
-    -
-      psalm: PSALM_NT_12
+    - psalm: PSALM_NT_12
       antiphon:
         - Église de Dieu, Épouse de l’Agneau, célèbre ton Seigneur, alléluia.
   reading:
@@ -240,35 +246,28 @@ vespers:
     content: |
       Tu as donné ta vie, Seigneur Jésus, pour rassembler en un seul peuple tous les enfants de Dieu dispersés ;
       aujourd’hui nous te prions pour ton Église que défigurent nos divisions :
-      
+
       R/Seigneur, rassemble-nous dans la paix de ton amour !
-      
+
       Tu as bâti ton Église sur le Roc ;
       — donne-lui de demeurer inébranlable dans la foi pour proclamer ton nom.
-      
+
       L’eau et le sang ont coulé de ton côté ouvert par la lance ;
       — renouvelle ton Église à la fontaine du baptême et par la coupe du salut.
-      
+
       Tu as promis d’être au milieu de ceux qui sont réunis en ton nom ;
       — exauce la prière de ta famille.
-      
+
       En ceux qui t’aiment, tu choisis d’établir ta demeure :
       — que l’Esprit de charité fasse grandir ton Église.
-      
+
       Jamais tu ne rejettes celui qui vient vers toi ;
       — reçois tous les défunts dans la maison du Père.
   oration:
     - |
       *(Dans l’église consacrée)*
       Chaque année, tu fais revivre pour nous, Seigneur, le jour où cette église a été consacrée ; de grâce, écoute les prières de ton peuple : donne-nous de toujours accomplir ici un culte qui te rende gloire et nous sanctifie pleinement.
-      
+
       *(Dans une autre église)*
       Dieu qui choisis des pierres vivantes pour bâtir la demeure éternelle de ta gloire, fais abonder dans ton Église les fruits de l’Esprit que tu lui as donné : que le peuple qui t’appartient ne cesse pas de progresser pour l’édification de la Jérusalem céleste.
 
-oration:
-  - |
-    *(Dans l’église consacrée)*
-    Chaque année, tu fais revivre pour nous, Seigneur, le jour où cette église a été consacrée ; de grâce, écoute les prières de ton peuple : donne-nous de toujours accomplir ici un culte qui te rende gloire et nous sanctifie pleinement.
-  - | 
-    *(Dans une autre église)*
-    Dieu qui choisis des pierres vivantes pour bâtir la demeure éternelle de ta gloire, fais abonder dans ton Église les fruits de l’Esprit que tu lui as donné : que le peuple qui t’appartient ne cesse pas de progresser pour l’édification de la Jérusalem céleste.

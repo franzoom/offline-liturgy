@@ -2,18 +2,15 @@ firstVespers:
   hymn:
     - le-jour-s-acheve
   psalmody:
-    -
-      psalm: PSALM_118_14
+    - psalm: PSALM_118_14
       antiphon:
         - Une lampe sur mes pas, ta parole, une lumière sur ma route.
         - Fais-moi vivre, selon ta parole ; c’est la joie de mon cœur.
-    -
-      psalm: PSALM_15
+    - psalm: PSALM_15
       antiphon:
         - Garde-moi, Seigneur mon Dieu, toi, mon seul espoir.
         - "Mon cœur exulte, mon âme est en fête : tu m’apprends le chemin de la vie."
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - Il s’est abaissé, Dieu l’a exalté.
   reading:
@@ -33,43 +30,104 @@ firstVespers:
   intercession:
     content: |
       À la veille du jour du Seigneur, supplions-le de regarder avec bonté ce que fut notre vie pendant la semaine :
-      
+
       R/ Accueille-nous, Seigneur, en ta bonté.
-      
+
       Créateur souverain, tu nous as confié le monde :
       — pour tout progrès, merci ;
       >pour toute lâcheté, pardon.
-      
+
       Tu nous as donné des compagnons de travail :
       — pour les secours donnés et reçus, merci ;
       >pour les malveillances et les jalousies, pardon.
-      
+
       Tu nous as donné des frères :
       — pour les témoignages d’affection, merci ;
       >pour tout manque d’amour, pardon.
-      
+
       Tu nous as donné de rencontrer des inconnus :
       — pour les amitiés qui se sont nouées, merci ;
       >pour nos indifférences, pardon.
-      
+
       Regarde avec bonté ceux qui sont morts de mort brutale ou dans l’isolement :
       — accueille-les dans le repos éternel.
+
 invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
+
+readings:
+  hymn:
+    - voici-la-nuit
+  psalmody:
+    - psalm: PSALM_103_1
+      antiphon:
+        - Seigneur mon Dieu, tu es si grand !
+    - psalm: PSALM_103_2
+      antiphon:
+        - Du fruit de tes œuvres, Seigneur, tu rassasies la terre.
+    - psalm: PSALM_103_3
+      antiphon:
+        - "Dieu vit tout ce qu’il avait fait : cela était très bon."
+  verse: |
+    V/ Heureux les yeux qui voient ce que vous voyez,
+    et les oreilles qui entendent ce que vous entendez.
+  biblicalReading:
+    - title: Dernières interventions de Moïse
+      ref: Dt 1, 1.6-18
+      content: |
+        Voici les paroles que Moïse adressa à tout Israël dans le désert, au-delà du Jourdain, dans la Araba, en face de Souf — entre Parane, Tofel, Labane, Hacéroth et Di Zahab.
+
+        Le SEIGNEUR notre Dieu nous a parlé à l’Horeb. Il nous a dit : « Vous êtes restés assez longtemps sur cette montagne. Repartez, pénétrez dans la montagne des Amorites et allez chez tous leurs voisins, dans la Araba, la Montagne, le Bas-Pays, le Néguev et au bord de la mer Méditerranée, dans le pays des Cananéens et au Liban, jusqu’au grand fleuve, l’Euphrate. Voyez : Je mets ce pays devant vos yeux. Allez donc prendre possession du pays que le SEIGNEUR a juré à vos pères Abraham, Isaac et Jacob, de leur donner à eux ainsi qu’à leurs descendants. »
+
+        Moïse poursuivit : Je vous ai dit en ce temps-là : « Je ne puis à moi seul vous porter. Le SEIGNEUR votre Dieu vous a déjà multipliés, et aujourd’hui vous voici nombreux comme les étoiles du ciel. Le SEIGNEUR, le Dieu de vos pères, vous multipliera encore mille fois autant, il vous bénira comme il vous l’a dit. Comment porterais-je à moi seul le poids écrasant de vos conflits ? Choisissez, dans chacune de vos tribus, des hommes sages, intelligents et expérimentés, et j’en ferai vos chefs. » Alors vous m’avez répondu : « Ta proposition est excellente. » J’ai donc pris, parmi les chefs de vos tribus, des hommes sages et expérimentés, et je les ai établis sur vous comme chefs : officiers de millier, officiers de centaine, officiers de cinquantaine et officiers de dizaine, et aussi des scribes pour vos tribus.
+
+        J’ai donné ces ordres à vos juges en ce temps-là : « Vous entendrez les causes de vos frères et vous trancherez selon la justice les litiges entre eux, ou entre ton frère et l’immigré qui réside chez lui. Lorsque vous jugerez, vous n’agirez pas avec partialité : vous écouterez aussi bien le petit que le grand ; vous n’aurez peur de personne, car le jugement appartient à Dieu. Si l’affaire vous paraît trop difficile, vous me la soumettrez, et je l’entendrai. » Je vous ai prescrit en ce temps-là tout ce que vous aviez à faire."
+      responsory: |
+        R/ Seigneur, qui habitera sur ta montagne sainte ?
+
+        Celui qui juge avec justice
+        en écoutant le petit comme le grand.
+
+        Celui qui ne craint pas l’homme,
+        sachant que le jugement relève de Dieu.
+
+        Celui qui refuse d’être acheté
+        pour accabler un innocent. (pas deR/ )
+  patristicReading:
+    - title: LETTRE DE SAINT IGNACE D’ANTIOCHE AUX ÉPHÉSIENS
+      subtitle: Dans l’harmonie de l’unité
+      content: |
+        Il convient que vous rendiez gloire de toutes façons à Jésus Christ, lui qui vous a glorifiés, afin d’être rassemblés dans une même soumission, c’est-à-dire soumis à l’évêque et au presbyterium, pour être sanctifiés en tout. Je ne vous donne pas des ordres, comme si j’étais quelqu’un. Car si je suis enchaîné pour le Nom sauveur, je ne suis pas encore parfait en Jésus Christ.
+
+        À présent je commence seulement à être disciple et je vous adresse la parole comme à mes condisciples. C’est moi qui aurais besoin d’être préparé par vous au combat, en étant imprégné de foi, d’encouragement, de persévérance, de patience. Mais puisque la charité ne me permet pas de me taire à votre sujet, j’ai pris les devants pour vous exhorter à vivre en accord avec la pensée de Dieu. Car Jésus Christ, notre vie, dont nous ne pouvons être séparés, est la pensée du Père, comme aussi les évêques, établis sur toute la terre, représentent la pensée de Jésus Christ.
+
+        Aussi convient-il que vous viviez en accord avec la pensée de votre évêque ; c’est d’ailleurs ce que vous faites. Votre presbyterium, digne de sa réputation, digne de Dieu, est d’accord avec l’évêque comme les cordes avec la cithare. Ainsi, dans la concorde de vos sentiments et l’harmonie de votre charité, vous chantez Jésus Christ. Chacun de vous, devenez un chœur de chant, afin que, dans l’harmonie de votre concorde, adoptant la mélodie de Dieu dans l’unité, vous chantiez pour le Père, d’une seule voix, par Jésus Christ. Alors le Père vous écoutera et reconnaîtra en vous, grâce à vos bonnes actions, les membres de son Fils. Il est donc utile pour vous que vous soyez dans une irréprochable unité, pour être toujours participants de Dieu.
+
+        Si moi-même, en effet, en très peu de temps, j’ai contracté avec votre évêque une telle intimité, qui n’est pas humaine, mais spirituelle, combien plus je vous estime bienheureux, pour lui être si étroitement attachés, comme l’Église à Jésus Christ et comme Jésus Christ au Père, si bien que tout s’harmonise dans l’unité. Que personne ne s’y trompe ; si quelqu’un n’est pas à l’intérieur du sanctuaire, il se prive du pain de Dieu. Car, puisque la prière de deux fidèles ensemble est si puissante, combien plus celle de l’évêque et de toute l’Église !
+      responsory: |
+        R/ Un seul troupeau, un seul berger !
+
+        Le Seigneur va rassembler ses enfants dispersés,
+        il en fera une seule nation,
+        et un seul roi régnera sur eux.
+
+        Le Christ, notre paix, a détruit les séparations :
+        en un seul corps,
+        il nous rassemble par la croix.
+  oration:
+    - "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+
 morning:
   hymn:
     - o-pere-des-siecles-du-monde
   psalmody:
-    -
-      psalm: PSALM_117
+    - psalm: PSALM_117
       antiphon:
         - "Rendez grâce au Seigneur : éternel est son amour !"
         - Approchons-nous de Jésus Christ, pierre vivante, choisie par Dieu.
-    -
-      psalm: OT_40
-    -
-      psalm: PSALM_150
+    - psalm: OT_40
+    - psalm: PSALM_150
       antiphon:
         - Alléluia, louez le Seigneur, alléluia, alléluia !
         - Louange au Seigneur par tout ce qui vit et respire, alléluia !
@@ -90,119 +148,49 @@ morning:
   intercession:
     content: |
       Jésus, Fils du Dieu vivant,
-      
+
       R/ De grâce, écoute-nous.
-      
+
       Accorde à tous les peuples la justice et la paix.
-      
+
       Rassemble en ton Corps ceux qui confessent ton nom.
-      
+
       Conduis tous les hommes à la lumière de l’Évangile.
-      
+
       Affermis-nous et garde-nous fidèles à ton service.
-      
+
       Élève nos désirs vers les biens éternels.
-      
+
       Sois bienfaisant pour nos bienfaiteurs.
-      
+
       Donne à chacun les fruits de la terre,
       pour que nous puissions te rendre grâce.
-readings:
-  hymn:
-    - voici-la-nuit
-  psalmody:
-    -
-      psalm: PSALM_103_1
-      antiphon:
-        - Seigneur mon Dieu, tu es si grand !
-    -
-      psalm: PSALM_103_2
-      antiphon:
-        - Du fruit de tes œuvres, Seigneur, tu rassasies la terre.
-    -
-      psalm: PSALM_103_3
-      antiphon:
-        - "Dieu vit tout ce qu’il avait fait : cela était très bon."
-  biblicalReading:
-    -
-      title: Dernières interventions de Moïse
-      ref: Dt 1, 1.6-18
-      content: |
-        Voici les paroles que Moïse adressa à tout Israël dans le désert, au-delà du Jourdain, dans la Araba, en face de Souf — entre Parane, Tofel, Labane, Hacéroth et Di Zahab.
-        
-        Le SEIGNEUR notre Dieu nous a parlé à l’Horeb. Il nous a dit : « Vous êtes restés assez longtemps sur cette montagne. Repartez, pénétrez dans la montagne des Amorites et allez chez tous leurs voisins, dans la Araba, la Montagne, le Bas-Pays, le Néguev et au bord de la mer Méditerranée, dans le pays des Cananéens et au Liban, jusqu’au grand fleuve, l’Euphrate. Voyez : Je mets ce pays devant vos yeux. Allez donc prendre possession du pays que le SEIGNEUR a juré à vos pères Abraham, Isaac et Jacob, de leur donner à eux ainsi qu’à leurs descendants. »
-        
-        Moïse poursuivit : Je vous ai dit en ce temps-là : « Je ne puis à moi seul vous porter. Le SEIGNEUR votre Dieu vous a déjà multipliés, et aujourd’hui vous voici nombreux comme les étoiles du ciel. Le SEIGNEUR, le Dieu de vos pères, vous multipliera encore mille fois autant, il vous bénira comme il vous l’a dit. Comment porterais-je à moi seul le poids écrasant de vos conflits ? Choisissez, dans chacune de vos tribus, des hommes sages, intelligents et expérimentés, et j’en ferai vos chefs. » Alors vous m’avez répondu : « Ta proposition est excellente. » J’ai donc pris, parmi les chefs de vos tribus, des hommes sages et expérimentés, et je les ai établis sur vous comme chefs : officiers de millier, officiers de centaine, officiers de cinquantaine et officiers de dizaine, et aussi des scribes pour vos tribus.
-        
-        J’ai donné ces ordres à vos juges en ce temps-là : « Vous entendrez les causes de vos frères et vous trancherez selon la justice les litiges entre eux, ou entre ton frère et l’immigré qui réside chez lui. Lorsque vous jugerez, vous n’agirez pas avec partialité : vous écouterez aussi bien le petit que le grand ; vous n’aurez peur de personne, car le jugement appartient à Dieu. Si l’affaire vous paraît trop difficile, vous me la soumettrez, et je l’entendrai. » Je vous ai prescrit en ce temps-là tout ce que vous aviez à faire."
-      responsory: |
-        R/ Seigneur, qui habitera sur ta montagne sainte ?
-        
-        Celui qui juge avec justice
-        en écoutant le petit comme le grand.
-        
-        Celui qui ne craint pas l’homme,
-        sachant que le jugement relève de Dieu.
-        
-        Celui qui refuse d’être acheté
-        pour accabler un innocent. (pas deR/ )
-  patristicReading:
-    -
-      title: LETTRE DE SAINT IGNACE D’ANTIOCHE AUX ÉPHÉSIENS
-      subtitle: Dans l’harmonie de l’unité
-      content: |
-        Il convient que vous rendiez gloire de toutes façons à Jésus Christ, lui qui vous a glorifiés, afin d’être rassemblés dans une même soumission, c’est-à-dire soumis à l’évêque et au presbyterium, pour être sanctifiés en tout. Je ne vous donne pas des ordres, comme si j’étais quelqu’un. Car si je suis enchaîné pour le Nom sauveur, je ne suis pas encore parfait en Jésus Christ.
-      
-        À présent je commence seulement à être disciple et je vous adresse la parole comme à mes condisciples. C’est moi qui aurais besoin d’être préparé par vous au combat, en étant imprégné de foi, d’encouragement, de persévérance, de patience. Mais puisque la charité ne me permet pas de me taire à votre sujet, j’ai pris les devants pour vous exhorter à vivre en accord avec la pensée de Dieu. Car Jésus Christ, notre vie, dont nous ne pouvons être séparés, est la pensée du Père, comme aussi les évêques, établis sur toute la terre, représentent la pensée de Jésus Christ.
-        
-        Aussi convient-il que vous viviez en accord avec la pensée de votre évêque ; c’est d’ailleurs ce que vous faites. Votre presbyterium, digne de sa réputation, digne de Dieu, est d’accord avec l’évêque comme les cordes avec la cithare. Ainsi, dans la concorde de vos sentiments et l’harmonie de votre charité, vous chantez Jésus Christ. Chacun de vous, devenez un chœur de chant, afin que, dans l’harmonie de votre concorde, adoptant la mélodie de Dieu dans l’unité, vous chantiez pour le Père, d’une seule voix, par Jésus Christ. Alors le Père vous écoutera et reconnaîtra en vous, grâce à vos bonnes actions, les membres de son Fils. Il est donc utile pour vous que vous soyez dans une irréprochable unité, pour être toujours participants de Dieu.
-        
-        Si moi-même, en effet, en très peu de temps, j’ai contracté avec votre évêque une telle intimité, qui n’est pas humaine, mais spirituelle, combien plus je vous estime bienheureux, pour lui être si étroitement attachés, comme l’Église à Jésus Christ et comme Jésus Christ au Père, si bien que tout s’harmonise dans l’unité. Que personne ne s’y trompe ; si quelqu’un n’est pas à l’intérieur du sanctuaire, il se prive du pain de Dieu. Car, puisque la prière de deux fidèles ensemble est si puissante, combien plus celle de l’évêque et de toute l’Église !
-      responsory: |
-        R/ Un seul troupeau, un seul berger !
-        
-        Le Seigneur va rassembler ses enfants dispersés,
-        il en fera une seule nation,
-        et un seul roi régnera sur eux.
-        
-        Le Christ, notre paix, a détruit les séparations :
-        en un seul corps,
-        il nous rassemble par la croix.
-  verse: |
-    V/ Heureux les yeux qui voient ce que vous voyez,
-    et les oreilles qui entendent ce que vous entendez.
-  oration:
-    - "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_22
+    - psalm: PSALM_22
       antiphon:
         - Conduis-nous, Seigneur Jésus, aux sources de la vie !
-    -
-      psalm: PSALM_75_1
+    - psalm: PSALM_75_1
       antiphon:
         - Quand Dieu s’est levé, alléluia, la terre a tremblé, alléluia.
-    -
-      psalm: PSALM_75_2
+    - psalm: PSALM_75_2
       antiphon:
         - Quand Dieu s’est levé, alléluia, la terre a tremblé, alléluia.
+
 vespers:
   hymn:
     - peuples-criez-de-joie
   psalmody:
-    -
-      psalm: PSALM_109
+    - psalm: PSALM_109
       antiphon:
         - "Oracle du Seigneur à mon seigneur : Siège à ma droite."
         - "Gloire à Jésus, le prince de la vie : Dieu l’a ressuscité d’entre les morts !"
-    -
-      psalm: PSALM_113B
+    - psalm: PSALM_113B
       antiphon:
         - Notre Dieu, il est au ciel ; tout ce qu’il veut, il le fait, alléluia !
         - Un seul Dieu, le Père ; un seul Seigneur, Jésus Christ.
-    -
-      psalm: NT_12
+    - psalm: NT_12
   reading:
     biblicalReference: 2 Th 2, 13-14
     content: Nous devons continuellement rendre grâce à Dieu pour vous, frères aimés du Seigneur, car Dieu vous a choisis dès le commencement, pour être sauvés par l’Esprit qui sanctifie et par la foi en la vérité. C’est à cela qu’il vous a appelés par notre Évangile, à posséder la gloire de notre Seigneur Jésus Christ.
@@ -221,20 +209,20 @@ vespers:
   intercession:
     content: |
       Avec les témoins du Christ ressuscité sur qui nous appuyons notre foi, rendons grâce à Dieu le Père :
-      
+
       R/ Loué sois-tu, Seigneur de gloire !
-      
+
       Loué sois-tu pour Jésus de Nazareth, le prophète puissant par la parole et par les actes :
       il a été crucifié, il est à jamais vivant.
-      
+
       Pour le Messie que tu as envoyé :
       en son nom, les boiteux marchent, les aveugles voient, les sourds entendent.
-      
+
       Pour ton Fils qui s’est fait obéissant jusqu’à mourir sur la croix :
       il est exalté au-dessus de tout nom.
-      
+
       Pour le Christ ressuscité qui s’est fait reconnaître au partage du pain,
       il est au milieu des siens pour la suite des jours.
-      
+
       Pour le premier-né d’entre les morts :
       il entraîne vers toi tous ceux que la mort retenait captifs.

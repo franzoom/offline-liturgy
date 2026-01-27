@@ -1,18 +1,63 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
+
+readings:
+  psalmody:
+    - psalm: PSALM_30_1
+      antiphon:
+        - La lumière a brillé dans les ténèbres, et les ténèbres ne l’ont pas arrêtée.
+    - psalm: PSALM_30_2
+      antiphon:
+        - La lumière a brillé dans les ténèbres, et les ténèbres ne l’ont pas arrêtée.
+    - psalm: PSALM_30_3
+      antiphon:
+        - La lumière a brillé dans les ténèbres, et les ténèbres ne l’ont pas arrêtée.
+  verse: |
+    V/ Les cieux ont proclamé sa justice,
+    tous les peuples ont vu sa gloire.
+  biblicalReading:
+    - title: La Bonne Nouvelle
+      ref: Is 61, 1-11
+      content: "L’esprit du Seigneur DIEU est sur moi parce que le SEIGNEUR m’a consacré par l’onction. Il m’a envoyé annoncer la bonne nouvelle aux humbles, guérir ceux qui ont le cœur brisé, proclamer aux captifs leur délivrance, aux prisonniers leur libération, proclamer une année de bienfaits accordée par le SEIGNEUR, et un jour de vengeance pour notre Dieu, consoler tous ceux qui sont en deuil, ceux qui sont en deuil dans Sion, mettre le diadème sur leur tête au lieu de la cendre, l’huile de joie au lieu du deuil, un habit de fête au lieu d’un esprit abattu. Ils seront appelés « Térébinthes de justice », « Plantation du SEIGNEUR qui manifeste sa splendeur ». Ils rebâtiront les ruines antiques, ils relèveront les demeures dévastées des ancêtres, ils restaureront les villes en ruine, dévastées depuis des générations. Des gens venus d’ailleurs se présenteront pour paître vos troupeaux, des étrangers seront vos laboureurs et vos vignerons. Vous serez appelés « Prêtres du SEIGNEUR » ; on vous dira « Servants de notre Dieu. » Vous vivrez de la ressource des nations et leur gloire sera votre parure. Au lieu de votre honte : double part ! Au lieu de vos opprobres : cris de joie ! Ils recevront dans leur pays double héritage, ils auront l’allégresse éternelle. Parce que moi, le SEIGNEUR, j’aime le bon droit, parce que je hais le vol et l’injustice, loyalement, je leur donnerai la récompense, je conclurai avec eux une alliance éternelle. Leurs descendants seront connus parmi les nations, et leur postérité, au milieu des peuples. Qui les verra pourra reconnaître la descendance bénie du SEIGNEUR. Je tressaille de joie dans le SEIGNEUR, mon âme exulte en mon Dieu. Car il m’a vêtue des vêtements du salut, il m’a couverte du manteau de la justice, comme le jeune marié orné du diadème, la jeune mariée que parent ses joyaux. Comme la terre fait éclore son germe, et le jardin, germer ses semences, le SEIGNEUR Dieu fera germer la justice et la louange devant toutes les nations."
+      responsory: |
+        R/ Seigneur Jésus, tu es la lumière du monde !
+
+        L’Esprit du Seigneur Dieu est sur moi, disait-il,
+        car il m’a consacré par l’onction.
+
+        Il m’a envoyé porter le Bonne Nouvelle aux pauvres,
+        proclamer la liberté, annoncer le temps de grâce.
+
+        C’est de Dieu que je suis sorti et que je viens,
+        je ne suis pas venu de moi-même. Dieu m’a envoyé.
+  patristicReading:
+    - title: SERMON DE SAINT PIERRE CHRYSOLOGUE POUR L’ÉPIPHANIE
+      subtitle: L’Épiphanie nous révèle Dieu dans l’homme
+      content: "Le Mystère de l’incarnation du Seigneur apporte par lui-même des marques toujours bien reconnaissables de la Divinité. Cependant, la solennité de l’Épiphanie nous découvre et nous révèle de plusieurs manières que Dieu est venu dans un corps d’homme ; ainsi notre condition mortelle, toujours enveloppée d’obscurités, ne risque pas de perdre par son ignorance la richesse qu’elle a pu saisir et posséder par la grâce. Car celui qui a voulu naître pour nous n’a pas voulu être ignoré de nous, et c’est pourquoi il se découvre de telle sorte que ce grand mystère de la bonté divine ne devienne pas l’occasion d’une grande erreur. Aujourd’hui, les mages, cherchant celui qui brillerait parmi les étoiles, le trouvent vagissant au berceau. Aujourd’hui, les mages s’étonnent de découvrir glorieux dans ses langes celui qui s’était longtemps dissimulé dans le ciel où il demeurait obscur. Aujourd’hui, les mages considèrent avec une profonde stupeur ce qu’ils voient ici : le ciel sur la terre, la terre dans le ciel ; l’homme en Dieu, Dieu dans l’homme ; et celui que le monde entier ne peut contenir, enfermé dans le corps d’un tout-petit ! ~ Et dès qu’ils voient, ils proclament qu’ils croient sans discuter, en offrant leurs dons symboliques : par l’encens, ils confessent Dieu ; par l’or, le roi ; par la myrrhe, sa mort future. ~ C’est ainsi que les païens, qui étaient les derniers, deviennent premiers ; car c’est alors que la venue des païens à la croyance est inaugurée par la foi des mages. ~ Aujourd’hui, le Christ, qui va laver le péché du monde, est entré dans le Jourdain. Jean lui-même atteste qu’il est venu pour cela : *Voici l’Agneau de Dieu, voici celui qui enlève le péché du monde*. Aujourd’hui, le serviteur s’empare du Seigneur ; l’homme, de Dieu ; Jean, du Christ ; il s’en empare pour recevoir le pardon, non pour le donner. Aujourd’hui, comme dit le Prophète : *La voix du Seigneur domine les eaux*. Que dit cette voix ? *Celui-ci est mon Fils bien-aimé ; en lui j’ai mis tout mon amour*. ~ Aujourd’hui, l’Esprit Saint survole les eaux sous l’apparence d’une colombe. De même qu’une autre avait annoncé à Noé que le déluge du monde se retirait, c’est ainsi qu’en voyant cette colombe, on apprenait que le naufrage inéluctable du monde avait cessé. Elle n’apportait pas, comme celle d’autrefois, un rameau d’olivier, mais elle répandit sur la tête de notre chef toute la richesse d’une onction nouvelle, pour accomplir la prédiction du Prophète : *Dieu, ton Dieu, t’a consacré d’une onction de joie, comme aucun de tes semblables*. ~ Aujourd’hui, le Christ fait commencer les signes du ciel en changeant l’eau en vin. ~ Mais l’eau devait être changée pour le sacrement du sang, lorsque le Christ verserait des coupes de vin à ceux qui boiraient au vase de son corps, afin que s’accomplit cette prophétie : *La coupe qui me donne l’ivresse, elle est incomparable !*"
+      responsory: |
+        R/ Seigneur Jésus, tu es la lumière du monde.
+
+        Voici, dit le Seigneur, que je suscite mon serviteur :
+        et j’écarterai l’impiété de ce pays.
+
+        Jésus vint avec la puissance de l’Esprit
+        et sa renommée se répandit alentour.
+
+        L’Esprit du Seigneur est sur moi, disait-il,
+        car il m’a consacré par l’onction.
+  oration:
+    - "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine : nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_41
+    - psalm: PSALM_41
       antiphon:
         - "Vous tous qui avez soif, venez vers les eaux ! Cherchez le Seigneur : il se laisse trouver, alléluia."
-    -
-      psalm: OT_15
+    - psalm: OT_15
       antiphon:
         - Renouvelle les prodiges, recommence les merveilles, Maître et Dieu de tout !
-    -
-      psalm: PSALM_18A
+    - psalm: PSALM_18A
       antiphon:
         - "Là se trouve la demeure du soleil : tel un époux, il s’élance joyeux."
   reading:
@@ -31,90 +76,35 @@ morning:
       Rédempteur du monde,
       tu es venu détruire le mur qui séparait juifs et païens :
       — aide-nous à combattre tout obstacle à l’unité.
-      
+
       R/ Verbe de Dieu, sois notre force !
-      
+
       Tu t’es incarné pour être présent à tout homme :
       — fais-nous discerner ton visage dans notre prochain.
-      
+
       Tu as révélé aux hommes le cœur du Père  :
       — montre-nous comment accorder nos actes à ta parole.
-      
+
       Dieu avec nous, tu veux faire toute chose nouvelle :
       — recrée notre être tout entier, et notre cœur sera semence de vie.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_30_1
-      antiphon:
-        - La lumière a brillé dans les ténèbres, et les ténèbres ne l’ont pas arrêtée.
-    -
-      psalm: PSALM_30_2
-      antiphon:
-        - La lumière a brillé dans les ténèbres, et les ténèbres ne l’ont pas arrêtée.
-    -
-      psalm: PSALM_30_3
-      antiphon:
-        - La lumière a brillé dans les ténèbres, et les ténèbres ne l’ont pas arrêtée.
-  biblicalReading:
-    -
-      title: La Bonne Nouvelle
-      ref: Is 61, 1-11
-      content: "L’esprit du Seigneur DIEU est sur moi parce que le SEIGNEUR m’a consacré par l’onction. Il m’a envoyé annoncer la bonne nouvelle aux humbles, guérir ceux qui ont le cœur brisé, proclamer aux captifs leur délivrance, aux prisonniers leur libération, proclamer une année de bienfaits accordée par le SEIGNEUR, et un jour de vengeance pour notre Dieu, consoler tous ceux qui sont en deuil, ceux qui sont en deuil dans Sion, mettre le diadème sur leur tête au lieu de la cendre, l’huile de joie au lieu du deuil, un habit de fête au lieu d’un esprit abattu. Ils seront appelés « Térébinthes de justice », « Plantation du SEIGNEUR qui manifeste sa splendeur ». Ils rebâtiront les ruines antiques, ils relèveront les demeures dévastées des ancêtres, ils restaureront les villes en ruine, dévastées depuis des générations. Des gens venus d’ailleurs se présenteront pour paître vos troupeaux, des étrangers seront vos laboureurs et vos vignerons. Vous serez appelés « Prêtres du SEIGNEUR » ; on vous dira « Servants de notre Dieu. » Vous vivrez de la ressource des nations et leur gloire sera votre parure. Au lieu de votre honte : double part ! Au lieu de vos opprobres : cris de joie ! Ils recevront dans leur pays double héritage, ils auront l’allégresse éternelle. Parce que moi, le SEIGNEUR, j’aime le bon droit, parce que je hais le vol et l’injustice, loyalement, je leur donnerai la récompense, je conclurai avec eux une alliance éternelle. Leurs descendants seront connus parmi les nations, et leur postérité, au milieu des peuples. Qui les verra pourra reconnaître la descendance bénie du SEIGNEUR. Je tressaille de joie dans le SEIGNEUR, mon âme exulte en mon Dieu. Car il m’a vêtue des vêtements du salut, il m’a couverte du manteau de la justice, comme le jeune marié orné du diadème, la jeune mariée que parent ses joyaux. Comme la terre fait éclore son germe, et le jardin, germer ses semences, le SEIGNEUR Dieu fera germer la justice et la louange devant toutes les nations."
-      responsory: |
-        R/ Seigneur Jésus, tu es la lumière du monde !
-        
-        L’Esprit du Seigneur Dieu est sur moi, disait-il,
-        car il m’a consacré par l’onction.
-        
-        Il m’a envoyé porter le Bonne Nouvelle aux pauvres,
-        proclamer la liberté, annoncer le temps de grâce.
-        
-        C’est de Dieu que je suis sorti et que je viens,
-        je ne suis pas venu de moi-même. Dieu m’a envoyé.
-  patristicReading:
-    -
-      title: SERMON DE SAINT PIERRE CHRYSOLOGUE POUR L’ÉPIPHANIE
-      subtitle: L’Épiphanie nous révèle Dieu dans l’homme
-      content: "Le Mystère de l’incarnation du Seigneur apporte par lui-même des marques toujours bien reconnaissables de la Divinité. Cependant, la solennité de l’Épiphanie nous découvre et nous révèle de plusieurs manières que Dieu est venu dans un corps d’homme ; ainsi notre condition mortelle, toujours enveloppée d’obscurités, ne risque pas de perdre par son ignorance la richesse qu’elle a pu saisir et posséder par la grâce. Car celui qui a voulu naître pour nous n’a pas voulu être ignoré de nous, et c’est pourquoi il se découvre de telle sorte que ce grand mystère de la bonté divine ne devienne pas l’occasion d’une grande erreur. Aujourd’hui, les mages, cherchant celui qui brillerait parmi les étoiles, le trouvent vagissant au berceau. Aujourd’hui, les mages s’étonnent de découvrir glorieux dans ses langes celui qui s’était longtemps dissimulé dans le ciel où il demeurait obscur. Aujourd’hui, les mages considèrent avec une profonde stupeur ce qu’ils voient ici : le ciel sur la terre, la terre dans le ciel ; l’homme en Dieu, Dieu dans l’homme ; et celui que le monde entier ne peut contenir, enfermé dans le corps d’un tout-petit ! ~ Et dès qu’ils voient, ils proclament qu’ils croient sans discuter, en offrant leurs dons symboliques : par l’encens, ils confessent Dieu ; par l’or, le roi ; par la myrrhe, sa mort future. ~ C’est ainsi que les païens, qui étaient les derniers, deviennent premiers ; car c’est alors que la venue des païens à la croyance est inaugurée par la foi des mages. ~ Aujourd’hui, le Christ, qui va laver le péché du monde, est entré dans le Jourdain. Jean lui-même atteste qu’il est venu pour cela : *Voici l’Agneau de Dieu, voici celui qui enlève le péché du monde*. Aujourd’hui, le serviteur s’empare du Seigneur ; l’homme, de Dieu ; Jean, du Christ ; il s’en empare pour recevoir le pardon, non pour le donner. Aujourd’hui, comme dit le Prophète : *La voix du Seigneur domine les eaux*. Que dit cette voix ? *Celui-ci est mon Fils bien-aimé ; en lui j’ai mis tout mon amour*. ~ Aujourd’hui, l’Esprit Saint survole les eaux sous l’apparence d’une colombe. De même qu’une autre avait annoncé à Noé que le déluge du monde se retirait, c’est ainsi qu’en voyant cette colombe, on apprenait que le naufrage inéluctable du monde avait cessé. Elle n’apportait pas, comme celle d’autrefois, un rameau d’olivier, mais elle répandit sur la tête de notre chef toute la richesse d’une onction nouvelle, pour accomplir la prédiction du Prophète : *Dieu, ton Dieu, t’a consacré d’une onction de joie, comme aucun de tes semblables*. ~ Aujourd’hui, le Christ fait commencer les signes du ciel en changeant l’eau en vin. ~ Mais l’eau devait être changée pour le sacrement du sang, lorsque le Christ verserait des coupes de vin à ceux qui boiraient au vase de son corps, afin que s’accomplit cette prophétie : *La coupe qui me donne l’ivresse, elle est incomparable !*"
-      responsory: |
-        R/ Seigneur Jésus, tu es la lumière du monde.
-        
-        Voici, dit le Seigneur, que je suscite mon serviteur :
-        et j’écarterai l’impiété de ce pays.
-        
-        Jésus vint avec la puissance de l’Esprit
-        et sa renommée se répandit alentour.
-        
-        L’Esprit du Seigneur est sur moi, disait-il,
-        car il m’a consacré par l’onction.
-  verse: |
-    V/ Les cieux ont proclamé sa justice,
-    tous les peuples ont vu sa gloire.
-  oration:
-    - "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine : nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_6
+    - psalm: PSALM_118_6
       antiphon:
         - Voici que je viens, Seigneur, pour accomplir ta volonté.
-    -
-      psalm: PSALM_39_1
-    -
-      psalm: PSALM_39_2
+    - psalm: PSALM_39_1
+    - psalm: PSALM_39_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_44_1
+    - psalm: PSALM_44_1
       antiphon:
         - "Tu es le plus beau des enfants de l’homme : Dieu te bénit pour toujours."
-    -
-      psalm: PSALM_44_2
+    - psalm: PSALM_44_2
       antiphon:
         - "Tu es le plus beau des enfants de l’homme : Dieu te bénit pour toujours."
-    -
-      psalm: NT_4
+    - psalm: NT_4
   reading:
     biblicalReference: cf. 2 P 1, 3-4
     content: Le Christ, dans sa puissance divine, nous a fait don de tout ce qu’il faut pour vivre en hommes religieux, grâce à la véritable connaissance de Celui qui nous a appelés par la gloire et la force qui lui appartiennent. Ainsi Dieu nous a fait don des grandes richesses promises et vous deviendrez participants de la nature divine, en fuyant la dégradation que le désir produit dans le monde.
@@ -128,18 +118,18 @@ vespers:
   intercession:
     content: |
       R/ Ô Christ, lumière sans déclin, resplendis sur nous !
-      
+
       Par ta venue, tu as donné naissance à l’Église qui est ton Corps :
       — fais-la grandir dans la charité !
-      
+
       Tu tiens en ta main le ciel et la terre :
       — que les nations et leurs chefs reconnaissent ta puissance !
-      
+
       Ton incarnation t’a consacré prêtre éternel :
       — que les prêtres soient de dignes serviteurs de ta rédemption !
-      
+
       Dans le sein virginal de Marie, tu as uni l’humanité à la divinité :
       — bénis ceux qui te consacrent leur chasteté !
-      
+
       Naissant dans une chair mortelle, tu venais détruire la mort que tu n’as pas créée :
       — conduis à la vie éternelle ceux qui nous ont quittés !

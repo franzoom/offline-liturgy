@@ -1,37 +1,29 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_92
-    -
-      psalm: OT_41
-    -
-      psalm: PSALM_148
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_144_1
-    -
-      psalm: PSALM_144_2
-    -
-      psalm: PSALM_144_3
+    - psalm: PSALM_144_1
+    - psalm: PSALM_144_2
+    - psalm: PSALM_144_3
+
+morning:
+  psalmody:
+    - psalm: PSALM_92
+    - psalm: OT_41
+    - psalm: PSALM_148
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_117_1
-    -
-      psalm: PSALM_117_2
-    -
-      psalm: PSALM_117_3
+    - psalm: PSALM_117_1
+    - psalm: PSALM_117_2
+    - psalm: PSALM_117_3
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_109
-    -
-      psalm: PSALM_110
-    -
-      psalm: NT_12
+    - psalm: PSALM_109
+    - psalm: PSALM_110
+    - psalm: NT_12
   oration:
     - Dieu éternel et tout-puissant, quand le Christ fut baptisé dans le Jourdain, et que l’Esprit Saint reposa sur lui, tu l’as désigné comme ton Fils bien-aimé ; accorde à tes fils adoptifs, nés de l’eau et de l’Esprit, de se garder toujours dans ta sainte volonté.

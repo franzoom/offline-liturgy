@@ -6,13 +6,13 @@ celebration:
     - martyr
     - pastors
   color: red
-morning:
-  evangelicAntiphon:
-    common: Celui qui perd sa vie en ce monde la trouve pour l'éternité.
+
+oration:
+  - Seigneur, c'est pour te rendre gloire que l'évêque saint Stnaislas est tombé sous les coups de ses persécuteurs ; accorde-nous de rester jusqu'à la mort fermes dan la foi.
+
 readings:
   patristicReading:
-    -
-      title: Lettre de S. Cyprien
+    - title: Lettre de S. Cyprien
       content: |
         Lorsque nous livrons bataille, lorsque nous soutenons le combat de la foi, Dieu nous regarde, ses anges nous regardent, le Christ nous regarde. Quelle gloire, quelle chance d'avoir Dieu comme président de l'épreuve lorsque nous combattons, et le Christ pour juge lorsque nous sommes couronnés !
         Armons-nous, frères très chers, de toutes nos forces, et préparons-nous à la lutte avec une âme sans tache, une foi entière, un courage généreux. Que l'armée de Dieu rejoigne les positions qui nous sont assignées. ~
@@ -26,18 +26,45 @@ readings:
       responsory: |
         R/ Prenons en mains le bouclier de la foi
         et le glaive de la Parole de Dieu.
-        
+
         Pour la cause de Dieu,
         les armes de notre combat
         ont pouvoir de renverser les forteresses.
-        
+
         Pour détruire toute puissance
         qui se dresse contre Dieu.
-        
+
         Pour rendre toute pensée captive
         dans l'obéissance au Christ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+morning:
+  evangelicAntiphon:
+    common: Celui qui perd sa vie en ce monde la trouve pour l'éternité.
+
+
+
+
+
+
+
+
+
+
+
+
+
 vespers:
   evangelicAntiphon:
     common: Heureux le vainquerur, entrée dans la lumière et dans la paix de son Seigneur !
-oration:
-  - Seigneur, c'est pour te rendre gloire que l'évêque saint Stnaislas est tombé sous les coups de ses persécuteurs ; accorde-nous de rester jusqu'à la mort fermes dan la foi.

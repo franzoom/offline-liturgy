@@ -2,18 +2,61 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_49_1
+      antiphon:
+        - Par le Christ, offrons toujours à Dieu un sacrifice de louange, alléluia.
+    - psalm: PSALM_49_2
+      antiphon:
+        - Par le Christ, offrons toujours à Dieu un sacrifice de louange, alléluia.
+    - psalm: PSALM_49_3
+      antiphon:
+        - Par le Christ, offrons toujours à Dieu un sacrifice de louange, alléluia.
+  verse: |
+    V/ Mon cœur et ma chair sont un cri, alléluia,
+    vers le Dieu vivant, alléluia.
+  biblicalReading:
+    - title: Le premier, Dieu nous aime
+      ref: 1Jn 4, 1-10
+      content: "Bien-aimés, ne vous fiez pas à n’importe quelle inspiration, mais examinez les esprits pour voir s’ils sont de Dieu, car beaucoup de faux prophètes se sont répandus dans le monde. Voici comment vous reconnaîtrez l’Esprit de Dieu : tout esprit qui proclame que Jésus Christ est venu dans la chair, celui-là est de Dieu. Tout esprit qui refuse de proclamer Jésus, celui-là n’est pas de Dieu : c’est l’esprit de l’anti-Christ, dont on vous a annoncé la venue et qui, dès maintenant, est déjà dans le monde. Vous, petits enfants, vous êtes de Dieu, et vous avez vaincu ces gens-là ; car Celui qui est en vous est plus grand que celui qui est dans le monde. Eux, ils sont du monde ; voilà pourquoi ils parlent le langage du monde, et le monde les écoute. Nous, nous sommes de Dieu ; celui qui connaît Dieu nous écoute ; celui qui n’est pas de Dieu ne nous écoute pas. C’est ainsi que nous reconnaissons l’esprit de la vérité et l’esprit de l’erreur. Bien-aimés, aimons-nous les uns les autres, puisque l’amour vient de Dieu. Celui qui aime est né de Dieu et connaît Dieu. Celui qui n’aime pas n’a pas connu Dieu, car Dieu est amour. Voici comment l’amour de Dieu s’est manifesté parmi nous : Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui. Voici en quoi consiste l’amour : ce n’est pas nous qui avons aimé Dieu, mais c’est lui qui nous a aimés, et il a envoyé son Fils en sacrifice de pardon pour nos péchés,"
+      responsory: |
+        R/ Dieu a tant aimé le monde, alléluia,
+        qu’il a donné son Fils unique, alléluia !
+
+        Ce n’est pas nous qui avons aimé Dieu :
+        lui, le premier, nous a aimés.
+
+        Son Fils, son unique, il l’a offert
+        pour les péchés du monde entier.
+
+        À tous ceux qui croient au Christ,
+        il donne la vie éternelle.
+  patristicReading:
+    - title: CATÉCHÈSE DE SAINT CYRILLE DE JÉRUSALEM SUR LE SAINT ESPRIT
+      subtitle: L’eau, symbole de l’Esprit
+      content: "*L’eau que je lui donnerai deviendra en lui source jaillissante pour la vie éternelle*. C’est une eau toute nouvelle, vivante, et jaillissante, jaillissant pour ceux qui en sont dignes. Pour quelle raison le don de l’Esprit est-il appelé une « eau » ? C’est parce que l’eau est à la base de tout ; parce que l’eau produit la végétation et la vie ; parce que l’eau descend du ciel sous forme de pluie ; parce qu’en tombant sous une seule forme, elle opère de façon multiforme. ~ Elle est différente dans le palmier, différente dans la vigne, elle se fait toute à tous. Elle n’a qu’une seule manière d’être, et elle n’est pas différente d’elle-même. La pluie ne se transforme pas quand elle descend ici ou là ,mais, en s’adaptant à la constitution des êtres qui la reçoivent, elle produit en chacun ce qui lui convient. L’Esprit Saint agit ainsi. Il a beau être un, simple et indivisible, *il distribue ses dons à chacun, selon sa volonté*. De même que le bois sec, associé à l’eau, produit des bourgeons, de même l’âme qui vivait dans le péché, mais que la pénitence rend capable de recevoir le Saint-Esprit, apporte des fruits de justice. Bien que l’Esprit soit simple, c’est lui, sur l’ordre de Dieu et au nom du Christ, qui anime de nombreuses vertus. Il emploie la langue de celui-ci au service de la sagesse ; il éclaire par la prophétie l’âme de celui-là ; il donne à un prêtre le pouvoir de chasser les démons ; à un autre encore celui d’interpréter les divines Écritures. Il fortifie la chasteté de l’un, il enseigne à un autre l’art de l’aumône, il enseigne à celui-ci le jeûne et l’ascèse, à un autre il enseigne à mépriser les intérêts du corps, il prépare un autre encore au martyre. Différent chez les différents hommes, il n’est pas différent de lui-même, ainsi qu’il est écrit : *Chacun reçoit le don de manifester l’Esprit en vue du bien de tous*. ~ Son entrée en nous se fait avec douceur, on l’accueille avec joie, son joug est facile à porter. Son arrivée est annoncée par des rayons de lumière et de science. Il vient avec la tendresse d’un défenseur véritable, car il vient pour sauver, guérir, enseigner, conseiller, fortifier, réconforter, éclairer l’esprit : chez celui qui le reçoit, tout d’abord ; et ensuite, par celui-ci, chez les autres. Un homme qui se trouvait d’abord dans l’obscurité, en voyant soudain le soleil, a le regard éclairé et voit clairement ce qu’il ne voyait pas auparavant : ainsi celui qui a l’avantage de recevoir le Saint-Esprit a l’âme illuminée, et il voit de façon surhumaine ce qu’il ne connaissait pas."
+      responsory: |
+        R/ Allons dans la joie puiser aux sources du salut.
+
+        Celui qui boira de l’eau que je lui donnerai
+        n’aura plus jamais soif.
+
+        L’eau que je vous donnerai deviendra en vous
+        source jaillissant en vie éternelle.
+  oration:
+    - "Seigneur, nous t’en prions : que descende sur nous la force de l’Esprit Saint pour que nous puissions discerner ta volonté et l’accomplir tout au long de notre vie."
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_83
+    - psalm: PSALM_83
       antiphon:
         - Vers toi, Dieu vivant, mon cœur et ma chair crient de joie, alléluia.
-    -
-      psalm: OT_17
+    - psalm: OT_17
       antiphon:
         - Tous les peuples viendront vers la maison de Dieu, alléluia.
-    -
-      psalm: PSALM_95
+    - psalm: PSALM_95
       antiphon:
         - "Dites à tous les peuples : le Seigneur règne, alléluia."
   reading:
@@ -29,91 +72,38 @@ morning:
   intercession:
     content: |
       Avec tous ceux qui ont été justifiés dans l’Esprit de Dieu, élevons vers le Christ une prière unanime :
-      
+
       R/ Roi de gloire, répands sur nous ton Esprit !
-      
+
       Verbe de vérité, fais rayonner sur nous ta lumière :
       – que nos paroles et nos actes témoignent de toi devant les hommes.
-      
+
       Sagesse de Dieu, emplis-nous des dons de l’Esprit :
       – que notre désir accueille ce que son souffle nous inspire.
-      
+
       Splendeur du Père, porte la lumière de l’Esprit jusqu’aux ténèbres de nos cœurs :
       – qu’il soit lui-même notre prière.
-      
+
       Jésus, notre gloire éternelle, imprègne-nous de ton amour :
       – que nous vivions en frères dans l’espérance du Royaume.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_49_1
-      antiphon:
-        - Par le Christ, offrons toujours à Dieu un sacrifice de louange, alléluia.
-    -
-      psalm: PSALM_49_2
-      antiphon:
-        - Par le Christ, offrons toujours à Dieu un sacrifice de louange, alléluia.
-    -
-      psalm: PSALM_49_3
-      antiphon:
-        - Par le Christ, offrons toujours à Dieu un sacrifice de louange, alléluia.
-  biblicalReading:
-    -
-      title: Le premier, Dieu nous aime
-      ref: 1Jn 4, 1-10
-      content: "Bien-aimés, ne vous fiez pas à n’importe quelle inspiration, mais examinez les esprits pour voir s’ils sont de Dieu, car beaucoup de faux prophètes se sont répandus dans le monde. Voici comment vous reconnaîtrez l’Esprit de Dieu : tout esprit qui proclame que Jésus Christ est venu dans la chair, celui-là est de Dieu. Tout esprit qui refuse de proclamer Jésus, celui-là n’est pas de Dieu : c’est l’esprit de l’anti-Christ, dont on vous a annoncé la venue et qui, dès maintenant, est déjà dans le monde. Vous, petits enfants, vous êtes de Dieu, et vous avez vaincu ces gens-là ; car Celui qui est en vous est plus grand que celui qui est dans le monde. Eux, ils sont du monde ; voilà pourquoi ils parlent le langage du monde, et le monde les écoute. Nous, nous sommes de Dieu ; celui qui connaît Dieu nous écoute ; celui qui n’est pas de Dieu ne nous écoute pas. C’est ainsi que nous reconnaissons l’esprit de la vérité et l’esprit de l’erreur. Bien-aimés, aimons-nous les uns les autres, puisque l’amour vient de Dieu. Celui qui aime est né de Dieu et connaît Dieu. Celui qui n’aime pas n’a pas connu Dieu, car Dieu est amour. Voici comment l’amour de Dieu s’est manifesté parmi nous : Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui. Voici en quoi consiste l’amour : ce n’est pas nous qui avons aimé Dieu, mais c’est lui qui nous a aimés, et il a envoyé son Fils en sacrifice de pardon pour nos péchés,"
-      responsory: |
-        R/ Dieu a tant aimé le monde, alléluia,
-        qu’il a donné son Fils unique, alléluia !
-        
-        Ce n’est pas nous qui avons aimé Dieu :
-        lui, le premier, nous a aimés.
-        
-        Son Fils, son unique, il l’a offert
-        pour les péchés du monde entier.
-        
-        À tous ceux qui croient au Christ,
-        il donne la vie éternelle.
-  patristicReading:
-    -
-      title: CATÉCHÈSE DE SAINT CYRILLE DE JÉRUSALEM SUR LE SAINT ESPRIT
-      subtitle: L’eau, symbole de l’Esprit
-      content: "*L’eau que je lui donnerai deviendra en lui source jaillissante pour la vie éternelle*. C’est une eau toute nouvelle, vivante, et jaillissante, jaillissant pour ceux qui en sont dignes. Pour quelle raison le don de l’Esprit est-il appelé une « eau » ? C’est parce que l’eau est à la base de tout ; parce que l’eau produit la végétation et la vie ; parce que l’eau descend du ciel sous forme de pluie ; parce qu’en tombant sous une seule forme, elle opère de façon multiforme. ~ Elle est différente dans le palmier, différente dans la vigne, elle se fait toute à tous. Elle n’a qu’une seule manière d’être, et elle n’est pas différente d’elle-même. La pluie ne se transforme pas quand elle descend ici ou là ,mais, en s’adaptant à la constitution des êtres qui la reçoivent, elle produit en chacun ce qui lui convient. L’Esprit Saint agit ainsi. Il a beau être un, simple et indivisible, *il distribue ses dons à chacun, selon sa volonté*. De même que le bois sec, associé à l’eau, produit des bourgeons, de même l’âme qui vivait dans le péché, mais que la pénitence rend capable de recevoir le Saint-Esprit, apporte des fruits de justice. Bien que l’Esprit soit simple, c’est lui, sur l’ordre de Dieu et au nom du Christ, qui anime de nombreuses vertus. Il emploie la langue de celui-ci au service de la sagesse ; il éclaire par la prophétie l’âme de celui-là ; il donne à un prêtre le pouvoir de chasser les démons ; à un autre encore celui d’interpréter les divines Écritures. Il fortifie la chasteté de l’un, il enseigne à un autre l’art de l’aumône, il enseigne à celui-ci le jeûne et l’ascèse, à un autre il enseigne à mépriser les intérêts du corps, il prépare un autre encore au martyre. Différent chez les différents hommes, il n’est pas différent de lui-même, ainsi qu’il est écrit : *Chacun reçoit le don de manifester l’Esprit en vue du bien de tous*. ~ Son entrée en nous se fait avec douceur, on l’accueille avec joie, son joug est facile à porter. Son arrivée est annoncée par des rayons de lumière et de science. Il vient avec la tendresse d’un défenseur véritable, car il vient pour sauver, guérir, enseigner, conseiller, fortifier, réconforter, éclairer l’esprit : chez celui qui le reçoit, tout d’abord ; et ensuite, par celui-ci, chez les autres. Un homme qui se trouvait d’abord dans l’obscurité, en voyant soudain le soleil, a le regard éclairé et voit clairement ce qu’il ne voyait pas auparavant : ainsi celui qui a l’avantage de recevoir le Saint-Esprit a l’âme illuminée, et il voit de façon surhumaine ce qu’il ne connaissait pas."
-      responsory: |
-        R/ Allons dans la joie puiser aux sources du salut.
-        
-        Celui qui boira de l’eau que je lui donnerai
-        n’aura plus jamais soif.
-        
-        L’eau que je vous donnerai deviendra en vous
-        source jaillissant en vie éternelle.
-  verse: |
-    V/ Mon cœur et ma chair sont un cri, alléluia,
-    vers le Dieu vivant, alléluia.
-  oration:
-    - "Seigneur, nous t’en prions : que descende sur nous la force de l’Esprit Saint pour que nous puissions discerner ta volonté et l’accomplir tout au long de notre vie."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_12
+    - psalm: PSALM_118_12
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_70_1
-    -
-      psalm: PSALM_70_2
+    - psalm: PSALM_70_1
+    - psalm: PSALM_70_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_122
+    - psalm: PSALM_122
       antiphon:
         - Une lumière a surgi, tous les humbles ont été relevés, alléluia.
-    -
-      psalm: PSALM_123
+    - psalm: PSALM_123
       antiphon:
         - Le filet s’est rompu, nous sommes libres, alléluia.
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Béni sois-tu, notre Père, qui nous as bénis dans le Christ !
   reading:
@@ -131,23 +121,23 @@ vespers:
     content: |
       Nous ne savons pas prier comme il faut ;
       demandons au Christ que son Esprit nous enseigne :
-      
+
       R/ Exauce-nous, Seigneur de gloire !
-      
+
       Ô Christ, Tête du Corps qui est l’Église,
       – donne-lui d’être un reflet de ta lumière au milieu des hommes.
-      
+
       Toi, notre Pasteur éternel, accorde le discernement aux pasteurs que tu as choisis :
       – qu’ils conduisent ton peuple dans la vérité.
-      
+
       Tu as été conçu de la Vierge Marie dans l’ombre de l’Esprit,
       – garde fidèles à ton amour ceux qui vivent le célibat consacré.
-      
+
       Toi, le Maître de tout, riche en miséricorde,
       – viens au secours des pauvres de la terre.
-      
+
       Toi qui t’es appauvri pour nous enrichir,
       – donne-nous l’esprit de partage.
-      
+
       Toi, le Fils éternel du Père,
       – fais entrer nos frères défunts dans la pleine liberté des enfants de Dieu.

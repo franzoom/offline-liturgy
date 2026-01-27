@@ -2,18 +2,59 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_17_4
+      antiphon:
+        - Qui est Dieu, hormis le Seigneur ? Qui est rocher, sinon notre Dieu, alléluia.
+    - psalm: PSALM_17_5
+      antiphon:
+        - Qui est Dieu, hormis le Seigneur ? Qui est rocher, sinon notre Dieu, alléluia.
+    - psalm: PSALM_17_6
+      antiphon:
+        - Qui est Dieu, hormis le Seigneur ? Qui est rocher, sinon notre Dieu, alléluia.
+  biblicalReading:
+    - title: La Jérusalem nouvelle
+      ref: Ap 21, 9-27
+      content: "Alors arriva l’un des sept anges aux sept coupes remplies des sept derniers fléaux, et il me parla ainsi : « Viens, je te montrerai la Femme, l’Épouse de l’Agneau. » En esprit, il m’emporta sur une grande et haute montagne ; il me montra la Ville sainte, Jérusalem, qui descendait du ciel, d’auprès de Dieu : elle avait en elle la gloire de Dieu ; son éclat était celui d’une pierre très précieuse, comme le jaspe cristallin. Elle avait une grande et haute muraille, avec douze portes et, sur ces portes, douze anges ; des noms y étaient inscrits : ceux des douze tribus des fils d’Israël. Il y avait trois portes à l’orient, trois au nord, trois au midi, et trois à l’occident. La muraille de la ville reposait sur douze fondations portant les douze noms des douze Apôtres de l’Agneau. Celui qui me parlait tenait un roseau d’or comme mesure, pour mesurer la ville, ses portes, et sa muraille. La ville a la forme d’un carré : sa longueur est égale à sa largeur. Il mesura la ville avec le roseau : douze mille stades ; sa longueur, sa largeur et sa hauteur sont égales. Puis il mesura sa muraille : cent quarante-quatre coudées, mesure d’homme et mesure d’ange. Le matériau de la muraille est de jaspe, et la ville est d’or pur, d’une pureté transparente. Les fondations de la muraille de la ville sont ornées de toutes sortes de pierres précieuses. La première fondation est de jaspe, la deuxième de saphir, la troisième de calcédoine, la quatrième d’émeraude, la cinquième de sardoine, la sixième de cornaline, la septième de chrysolithe, la huitième de béryl, la neuvième de topaze, la dixième de chrysoprase, la onzième d’hyacinthe, la douzième d’améthyste. Les douze portes sont douze perles, chaque porte faite d’une seule perle ; la place de la ville est d’or pur d’une parfaite transparence. Dans la ville, je n’ai pas vu de sanctuaire, car son sanctuaire, c’est le Seigneur Dieu, Souverain de l’univers, et l’Agneau. La ville n’a pas besoin du soleil ni de la lune pour l’éclairer, car la gloire de Dieu l’illumine : son luminaire, c’est l’Agneau. Les nations marcheront à sa lumière, et les rois de la terre y porteront leur gloire. Jour après jour, jamais les portes ne seront fermées, car il n’y aura plus de nuit. On apportera dans la ville la gloire et le faste des nations. Rien de souillé n’y entrera jamais, ni personne qui pratique abomination ou mensonge, mais seulement ceux qui sont inscrits dans le livre de vie de l’Agneau."
+      responsory: |
+        R/ Ton Dieu sera ta beauté,
+        ta lumière éternelle !
+
+        Jérusalem, tes portes seront de cristal
+        et tes murs, de rubis,
+        et l’on chantera sur tes places :
+        Alléluia, alléluia !
+
+        Ta splendeur illuminera
+        toutes les contrées de la terre ;
+        les peuples viendront de loin
+        adorer le Seigneur dans tes murs.
+  patristicReading:
+    - title: HOMÉLIE PASCALE DE SAINT GAUDENCE DE BRESCIA
+      subtitle: L’Eucharistie, Pâque du Seigneur
+      content: "Un seul est mort pour tous, et c’est le même qui, à travers toutes les maisons de l’Église, dans le mystère du pain et du vin, réconforte en étant immolé, donne la vie en étant cru, sanctifie ceux qui le consacrent en étant consacré. C’est la chair, c’est le sang de l’Agneau. Car le pain qui est descendu du ciel a dit : *Le pain que je donnerai, c’est ma chair, pour la vie du monde*. Et son sang est fort bien signifié par l’apparence du vin, puisqu’en disant lui-même dans l’Évangile : *Moi, je suis la vraie vigne*, il montre clairement que son sang, c’est n’importe quel vin offert pour représenter sa passion. Aussi le saint patriarche Jacob avait-il fait cette prophétie sur le Christ : *Il lave son vêtement dans le vin, son habit dans le sang de la grappe*. Effectivement, il devait laver son vêtement, c’est-à-dire notre corps, dans son propre sang. Lui qui est le Créateur et le Seigneur de la nature, qui fait sortir le pain de la terre, il fait avec du pain (parce qu’il le peut et qu’il l’a promis) son propre corps ; et lui qui a fait du vin avec de l’eau, il a fait son sang avec du vin. *C’est la Pâque du Seigneur*, dit-il, c’est-à-dire *son passage*. Car tu ne dois pas penser que c’est un élément terrestre : en « passant » en lui, il en a fait une réalité céleste, il en a fait son corps et son sang. Ce que tu reçois, c’est le corps qui provient de ce pain céleste, c’est le sang de cette vigne sainte. Car, lorsqu’il présentait le pain et le vin à ses disciples, il leur a dit : *Ceci est mon corps ; ceci est mon sang*. Croyons, je vous en prie, celui en qui nous avons mis notre foi ; il ignore le mensonge, lui qui est la vérité. Lorsqu’il parla de manger son corps et de boire son sang, les foules furent stupéfaites, et elles protestaient : *Ce qu’il dit là est intolérable, on ne peut pas continuer à l’écouter !* Aussi, pour purifier par le feu du ciel ces pensées, dont je vous ai dit qu’il faut les éviter, il ajouta : *C’est l’Esprit qui fait vivre, la chair n’est capable de rien. Les paroles que je vous ai dites sont esprit et elles sont vie*."
+      responsory: |
+        R/ Allons dans la joie puiser aux sources du salut !
+
+        Celui qui boira de l’eau que je lui donnerai
+        n’aura plus jamais soif.
+
+        L’eau que je vous donnerai deviendra en vous
+        source jaillissant en vie éternelle.
+  oration:
+    - "Dieu qui nous as sanctifiés et qui nous as donné le bonheur quand nous étions pécheurs et malheureux, prends soin de tes dons, prends soin de ton œuvre : à ceux que tu as justifiés par la foi, accorde la force de persévérer."
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_56
+    - psalm: PSALM_56
       antiphon:
         - Ô Dieu, élève-toi sur les cieux, alléluia.
-    -
-      psalm: OT_36
+    - psalm: OT_36
       antiphon:
         - Le Seigneur a sauvé son peuple, alléluia.
-    -
-      psalm: PSALM_47
+    - psalm: PSALM_47
       antiphon:
         - Le Seigneur est comblé d’honneur dans la ville de notre Dieu, alléluia.
   evangelicAntiphon:
@@ -21,106 +62,55 @@ morning:
   intercession:
     content: |
       Jésus ressuscité, tu réjouis ton Église par ta présence, écoute sa prière :
-      
+
       R/ Christ vainqueur, sois au milieu de nous.
-      
+
       Tu as vaincu la mort et le péché,
       – libère-nous des puissances du mal.
-      
+
       Viens à nous dans ta force invincible,
       – montre-nous la douceur de ton amour.
-      
+
       Toi seul réconcilies, toi seul régénères,
       – que tes baptisés changent ce monde sans justice.
-      
+
       Soutiens notre combat tant qu’il dure,
       – jusqu’à l’heure de ton retour.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_17_4
-      antiphon:
-        - Qui est Dieu, hormis le Seigneur ? Qui est rocher, sinon notre Dieu, alléluia.
-    -
-      psalm: PSALM_17_5
-      antiphon:
-        - Qui est Dieu, hormis le Seigneur ? Qui est rocher, sinon notre Dieu, alléluia.
-    -
-      psalm: PSALM_17_6
-      antiphon:
-        - Qui est Dieu, hormis le Seigneur ? Qui est rocher, sinon notre Dieu, alléluia.
-  biblicalReading:
-    -
-      title: La Jérusalem nouvelle
-      ref: Ap 21, 9-27
-      content: "Alors arriva l’un des sept anges aux sept coupes remplies des sept derniers fléaux, et il me parla ainsi : « Viens, je te montrerai la Femme, l’Épouse de l’Agneau. » En esprit, il m’emporta sur une grande et haute montagne ; il me montra la Ville sainte, Jérusalem, qui descendait du ciel, d’auprès de Dieu : elle avait en elle la gloire de Dieu ; son éclat était celui d’une pierre très précieuse, comme le jaspe cristallin. Elle avait une grande et haute muraille, avec douze portes et, sur ces portes, douze anges ; des noms y étaient inscrits : ceux des douze tribus des fils d’Israël. Il y avait trois portes à l’orient, trois au nord, trois au midi, et trois à l’occident. La muraille de la ville reposait sur douze fondations portant les douze noms des douze Apôtres de l’Agneau. Celui qui me parlait tenait un roseau d’or comme mesure, pour mesurer la ville, ses portes, et sa muraille. La ville a la forme d’un carré : sa longueur est égale à sa largeur. Il mesura la ville avec le roseau : douze mille stades ; sa longueur, sa largeur et sa hauteur sont égales. Puis il mesura sa muraille : cent quarante-quatre coudées, mesure d’homme et mesure d’ange. Le matériau de la muraille est de jaspe, et la ville est d’or pur, d’une pureté transparente. Les fondations de la muraille de la ville sont ornées de toutes sortes de pierres précieuses. La première fondation est de jaspe, la deuxième de saphir, la troisième de calcédoine, la quatrième d’émeraude, la cinquième de sardoine, la sixième de cornaline, la septième de chrysolithe, la huitième de béryl, la neuvième de topaze, la dixième de chrysoprase, la onzième d’hyacinthe, la douzième d’améthyste. Les douze portes sont douze perles, chaque porte faite d’une seule perle ; la place de la ville est d’or pur d’une parfaite transparence. Dans la ville, je n’ai pas vu de sanctuaire, car son sanctuaire, c’est le Seigneur Dieu, Souverain de l’univers, et l’Agneau. La ville n’a pas besoin du soleil ni de la lune pour l’éclairer, car la gloire de Dieu l’illumine : son luminaire, c’est l’Agneau. Les nations marcheront à sa lumière, et les rois de la terre y porteront leur gloire. Jour après jour, jamais les portes ne seront fermées, car il n’y aura plus de nuit. On apportera dans la ville la gloire et le faste des nations. Rien de souillé n’y entrera jamais, ni personne qui pratique abomination ou mensonge, mais seulement ceux qui sont inscrits dans le livre de vie de l’Agneau."
-      responsory: |
-        R/ Ton Dieu sera ta beauté,
-        ta lumière éternelle !
-        
-        Jérusalem, tes portes seront de cristal
-        et tes murs, de rubis,
-        et l’on chantera sur tes places :
-        Alléluia, alléluia !
-        
-        Ta splendeur illuminera
-        toutes les contrées de la terre ;
-        les peuples viendront de loin
-        adorer le Seigneur dans tes murs.
-  patristicReading:
-    -
-      title: HOMÉLIE PASCALE DE SAINT GAUDENCE DE BRESCIA
-      subtitle: L’Eucharistie, Pâque du Seigneur
-      content: "Un seul est mort pour tous, et c’est le même qui, à travers toutes les maisons de l’Église, dans le mystère du pain et du vin, réconforte en étant immolé, donne la vie en étant cru, sanctifie ceux qui le consacrent en étant consacré. C’est la chair, c’est le sang de l’Agneau. Car le pain qui est descendu du ciel a dit : *Le pain que je donnerai, c’est ma chair, pour la vie du monde*. Et son sang est fort bien signifié par l’apparence du vin, puisqu’en disant lui-même dans l’Évangile : *Moi, je suis la vraie vigne*, il montre clairement que son sang, c’est n’importe quel vin offert pour représenter sa passion. Aussi le saint patriarche Jacob avait-il fait cette prophétie sur le Christ : *Il lave son vêtement dans le vin, son habit dans le sang de la grappe*. Effectivement, il devait laver son vêtement, c’est-à-dire notre corps, dans son propre sang. Lui qui est le Créateur et le Seigneur de la nature, qui fait sortir le pain de la terre, il fait avec du pain (parce qu’il le peut et qu’il l’a promis) son propre corps ; et lui qui a fait du vin avec de l’eau, il a fait son sang avec du vin. *C’est la Pâque du Seigneur*, dit-il, c’est-à-dire *son passage*. Car tu ne dois pas penser que c’est un élément terrestre : en « passant » en lui, il en a fait une réalité céleste, il en a fait son corps et son sang. Ce que tu reçois, c’est le corps qui provient de ce pain céleste, c’est le sang de cette vigne sainte. Car, lorsqu’il présentait le pain et le vin à ses disciples, il leur a dit : *Ceci est mon corps ; ceci est mon sang*. Croyons, je vous en prie, celui en qui nous avons mis notre foi ; il ignore le mensonge, lui qui est la vérité. Lorsqu’il parla de manger son corps et de boire son sang, les foules furent stupéfaites, et elles protestaient : *Ce qu’il dit là est intolérable, on ne peut pas continuer à l’écouter !* Aussi, pour purifier par le feu du ciel ces pensées, dont je vous ai dit qu’il faut les éviter, il ajouta : *C’est l’Esprit qui fait vivre, la chair n’est capable de rien. Les paroles que je vous ai dites sont esprit et elles sont vie*."
-      responsory: |
-        R/ Allons dans la joie puiser aux sources du salut !
-        
-        Celui qui boira de l’eau que je lui donnerai
-        n’aura plus jamais soif.
-        
-        L’eau que je vous donnerai deviendra en vous
-        source jaillissant en vie éternelle.
-  oration:
-    - "Dieu qui nous as sanctifiés et qui nous as donné le bonheur quand nous étions pécheurs et malheureux, prends soin de tes dons, prends soin de ton œuvre : à ceux que tu as justifiés par la foi, accorde la force de persévérer."
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_3
+    - psalm: PSALM_118_3
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_24_1
-    -
-      psalm: PSALM_24_2
+    - psalm: PSALM_24_1
+    - psalm: PSALM_24_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_29
+    - psalm: PSALM_29
       antiphon:
         - Tu as changé mon deuil en joie, alléluia.
-    -
-      psalm: PSALM_31
+    - psalm: PSALM_31
       antiphon:
         - Nous avons retrouvé notre paix avec Dieu par la mort de son Fils, alléluia.
-    -
-      psalm: NT_10
+    - psalm: NT_10
   evangelicAntiphon:
     common: Je vous ai dit cela pour que ma joie soit en vous et que votre joie soit parfaite. Alléluia.
   intercession:
     content: |
       Seigneur Jésus, tu es mort et ressuscité pour le salut de tous les hommes,
       souviens-toi de chacun :
-      
+
       R/ Visite-nous, Seigneur ressuscité.
-      
+
       Toi, le médecin des âmes et des corps,
       – relève et fortifie les malades.
-      
+
       Secours des opprimés,
       – soutiens ceux que frappe l’injustice ou l’échec.
-      
+
       Frère de l’homme seul et misérable,
       – réconforte celui qui souffre l’épreuve et le deuil.
-      
+
       Par ta croix, la joie est entrée dans le monde :
       – accorde à nos défunts la plénitude de cette joie.

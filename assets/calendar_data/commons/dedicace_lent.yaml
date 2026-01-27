@@ -1,21 +1,19 @@
 firstVespers:
   psalmody:
-    -
-      psalm: PSALM_146
+    - psalm: PSALM_146
       antiphon:
         - "Les portes de Jérusalem retentiront de chants de joie ! Et ses demeures diront : Gloire à toi !"
-    -
-      psalm: PSALM_147
+    - psalm: PSALM_147
       antiphon:
-        - Dieu a consolidé les barres de tes portes, dans tes murs il a béni tes enfants. 
-    -
-      psalm: NT_6
+        - Dieu a consolidé les barres de tes portes, dans tes murs il a béni tes enfants.
+    - psalm: NT_6
       antiphon:
         - Gloire à toi, Seigneur, par le Christ dans l’Église.
+
+
 readings:
   biblicalReading:
-    -
-      title: Dédicace du Temple
+    - title: Dédicace du Temple
       ref: 1R 8, 1-4.10-13.22-30
       content: |
         Salomon rassembla à Jérusalem auprès de lui les anciens d’Israël, tous les chefs des tribus, les princes des familles des fils d’Israël, pour faire monter de la Cité de David, c’est-à-dire de Sion, l’arche de l’alliance du SEIGNEUR.
@@ -39,17 +37,16 @@ readings:
         Il parlait du temple de son corps.
 
 
+
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - Sainte est la demeure du Très-Haut, la maison de Dieu chez les hommes.
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Nous irons, pleins de joie, à la maison du Seigneur.
-    -
-      psalm: NT_11
+    - psalm: NT_11
       antiphon:
         - Toutes les nations viendront se prosterner devant toi.

@@ -1,7 +1,33 @@
 celebration:
   title: 18 décembre
-  precedence: 9
   color: violet
+
+oration:
+  - "Tu le vois, Dieu tout-puissant, nous ployons sous le péché qui a soumis l’homme à sa loi : apporte-nous la délivrance grâce au renouveau que nous attendons de la naissance incomparable de ton Fils bien-aimé. Lui qui règne."
+
+readings:
+  biblicalReading:
+    - title: "Je suis Dieu : il n’y en a pas d’autre"
+      ref: Is 46, 1-13
+      content: |
+        Le dieu Bel a fléchi, Nébo s’effondre ! Leurs effigies sont placées sur des animaux, sur des bêtes de somme ! Ces charges que vous portiez vous-mêmes sont devenues le fardeau d’animaux fourbus ! Elles s’effondrent, ensemble elles ont fléchi, — le fardeau n’a pu être sauvé —, elles-mêmes s’en vont en captivité.
+        Écoutez-moi, maison de Jacob, tout ce qui reste de la maison d’Israël, vous qui êtes pris en charge dès avant la naissance et portés dès le sein maternel : jusqu’à votre vieillesse, moi, Je suis ; jusqu’à vos cheveux blancs, je vous soutiendrai. Moi, j’ai agi, c’est moi qui porterai, moi qui soutiendrai et délivrerai.
+        À qui allez-vous me rendre semblable ? qui feriez-vous mon égal ? À qui allez-vous me comparer que nous soyons ressemblants ? Ceux qui versent l’or de leur bourse et pèsent de l’argent à la balance engagent un orfèvre qui en fait un dieu ; ils s’inclinent et même ils se prosternent. Ils l’emportent, ils le chargent sur l’épaule et vont le déposer à sa place ; il s’y tient, sans pouvoir quitter son lieu. On a beau crier vers lui, il ne répond pas, il ne sauve personne de la détresse.
+        Rappelez-vous cela et soyez fermes ! Révoltés, prêtez-y attention ! Rappelez-vous les événements passés, ceux de jadis, car Je suis Dieu, il n’en est pas d’autre, il n’est de dieu que moi !
+        Dès le commencement, j’annonce la fin, et depuis longtemps, ce qui n’est pas accompli. Je dis : « Mon projet tiendra ; tout mon désir, je l’accomplirai. » J’appelle depuis l’orient un rapace, et, d’une terre lointaine, l’homme de mon projet. Ce que j’ai dit, je le mènerai à bien ; j’ai formé un projet, et je l’accomplirai.
+        Écoutez-moi, cœurs obstinés qui êtes loin de la justice ! Ma justice, je l’ai fait approcher : elle n’est pas loin, et mon salut ne tardera pas. Je mettrai le salut en Sion, et en Israël ma splendeur.
+      responsory: R/ Toi seul es Dieu et nul autre, toi seul peux sauver !
+  patristicReading:
+    - title: DE LA LETTRE À DIOGNÈTE
+      subtitle: « Elle s’est manifestée, la bonté de Dieu notre Sauveur... »
+      content: |
+        Aucun homme n’a vu Dieu ni ne l’a connu : c’est lui-même qui s’est manifesté. Et il s’est manifesté pour la foi, qui seule a reçu le privilège de voir Dieu. Car Dieu, Maître et Créateur de l’univers, qui a fait toutes choses et les a disposées avec ordre, s’est montré pour les hommes non seulement plein d’amour, mais plein de patience. Toujours il était ainsi, il l’est et le sera : secourable, bon, sans colère, véridique ; lui seul est bon. Ayant conçu un dessein d’une grandeur inexprimable, il ne l’a communiqué qu’à son Enfant.
+        Tandis qu’il maintenait son sage projet dans le mystère et le tenait en réserve, il semblait nous oublier et ne pas se soucier de nous. Mais quand il eut dévoilé par son Enfant bien-aimé, quand il eut manifesté ce qu’il avait préparé dès le commencement, il nous a tout offert à la fois : de jouir de ses bienfaits, de voir, de comprendre ; qui de nous aurait jamais pu s’y attendre ?
+        Dieu avait donc déjà tout disposé en lui-même avec son Enfant ; mais, jusqu’à ces derniers temps, il a toléré que nous nous laissions emporter à notre gré par des mouvements désordonnés, entraînés par les voluptés et les passions. Nullement parce qu’il se réjouissait de nos péchés ; il tolérait alors, sans l’approuver, ce règne de l’iniquité. Bien au contraire, il organisait pour maintenant le règne de la justice. Après avoir bien prouvé, dans cette première période, que nos propres œuvres nous rendaient indignes de la vie, il voulait que nous en devenions maintenant dignes par l’effet de sa bonté. Il voulait qu’après nous être montrés incapables d’accéder par nous-mêmes au royaume de Dieu, nous en devenions capables par sa puissance.
+        Lorsque notre perversité fut à son comble, et qu’il fut devenu pleinement manifeste que son salaire — le supplice et la mort — était imminent, c’est alors qu’arriva le temps que Dieu avait marqué pour faire connaître désormais sa bonté et sa puissance : quelle surabondance de l’amour de Dieu et de sa bonté pour les hommes ! Il ne nous a pas détestés, il ne nous a pas repoussés, il ne nous a pas tenu rancune ; au contraire, il a longtemps patienté, il nous a supportés. Dans sa pitié pour nous, il a pris en charge nos propres péchés, il a livré son propre Fils pour nous racheter : le saint pour les criminels, l’innocent pour les méchants, le juste pour les injustes, l’incorruptible pour les corrompus, l’immortel pour les mortels. Qu’est-ce qui aurait pu couvrir nos péchés, sinon sa justice ? Par qui pouvions-nous être rendus justes, criminels et impies que nous étions, sinon par le seul Fils de Dieu ?
+        Quel échange plein de douceur ! Quelle réalisation insondable ! Quels bienfaits inespérés ! Le crime du grand nombre est enseveli dans la justice d’un seul, et la justice d’un seul rend juste un grand nombre de criminels !
+      responsory: R/ Ne crains pas, Jérusalem, dans son amour éternel, ton rédempteur a pitié de toi.
+
 morning:
   reading:
     biblicalReference: Rm 13, 11-12
@@ -9,10 +35,10 @@ morning:
   responsory: |
     R/ Point de ténèbres devant toi,
     \* Lumière du monde, alléluia !
-    
+
     V/ Scrute-moi, Seigneur, connais mon cœur,
     \* Lumière du monde, alléluia !
-    
+
     V/ Conduis-moi sur le chemin d’éternité,
     \* Lumière du monde, alléluia !
     Gloire au Père et au Fils et au Saint-Esprit. R/
@@ -21,53 +47,21 @@ morning:
   intercession:
     content: |
       Avec confiance, prions le Christ, que le Père a établi juge des vivants et des morts :
-      
+
       R/Viens, Jésus, Sauveur !
-      
+
       Seigneur Jésus, venu sauver les pécheurs,
       garde-nous de succomber aux assauts du mal.
-      
+
       Toi qui as annoncé ta venue comme juge,
       manifeste en nous la puissance de ton salut.
-      
+
       Donne-nous la force de l’Esprit,
       que nous trouvions notre joie à suivre ton chemin de justice.
-      
+
       Toi, le Béni, qui règnes sur toutes choses,
       accorde-nous de vivre en ce monde dans la fidélité et la sobriété, en espérant la manifestation de ta gloire.
-readings:
-  biblicalReading:
-    -
-      title: "Je suis Dieu : il n’y en a pas d’autre"
-      ref: Is 46, 1-13
-      content: |
-        Le dieu Bel a fléchi, Nébo s’effondre ! Leurs effigies sont placées sur des animaux, sur des bêtes de somme ! Ces charges que vous portiez vous-mêmes sont devenues le fardeau d’animaux fourbus ! Elles s’effondrent, ensemble elles ont fléchi, — le fardeau n’a pu être sauvé —, elles-mêmes s’en vont en captivité.
-        
-        Écoutez-moi, maison de Jacob, tout ce qui reste de la maison d’Israël, vous qui êtes pris en charge dès avant la naissance et portés dès le sein maternel : jusqu’à votre vieillesse, moi, Je suis ; jusqu’à vos cheveux blancs, je vous soutiendrai. Moi, j’ai agi, c’est moi qui porterai, moi qui soutiendrai et délivrerai.
-        
-        À qui allez-vous me rendre semblable ? qui feriez-vous mon égal ? À qui allez-vous me comparer que nous soyons ressemblants ? Ceux qui versent l’or de leur bourse et pèsent de l’argent à la balance engagent un orfèvre qui en fait un dieu ; ils s’inclinent et même ils se prosternent. Ils l’emportent, ils le chargent sur l’épaule et vont le déposer à sa place ; il s’y tient, sans pouvoir quitter son lieu. On a beau crier vers lui, il ne répond pas, il ne sauve personne de la détresse.
-        
-        Rappelez-vous cela et soyez fermes ! Révoltés, prêtez-y attention ! Rappelez-vous les événements passés, ceux de jadis, car Je suis Dieu, il n’en est pas d’autre, il n’est de dieu que moi !
-        
-        Dès le commencement, j’annonce la fin, et depuis longtemps, ce qui n’est pas accompli. Je dis : « Mon projet tiendra ; tout mon désir, je l’accomplirai. » J’appelle depuis l’orient un rapace, et, d’une terre lointaine, l’homme de mon projet. Ce que j’ai dit, je le mènerai à bien ; j’ai formé un projet, et je l’accomplirai.
-        
-        Écoutez-moi, cœurs obstinés qui êtes loin de la justice ! Ma justice, je l’ai fait approcher : elle n’est pas loin, et mon salut ne tardera pas. Je mettrai le salut en Sion, et en Israël ma splendeur.
-      responsory: R/ Toi seul es Dieu et nul autre, toi seul peux sauver !
-  patristicReading:
-    -
-      title: DE LA LETTRE À DIOGNÈTE
-      subtitle: « Elle s’est manifestée, la bonté de Dieu notre Sauveur... »
-      content: |
-        Aucun homme n’a vu Dieu ni ne l’a connu : c’est lui-même qui s’est manifesté. Et il s’est manifesté pour la foi, qui seule a reçu le privilège de voir Dieu. Car Dieu, Maître et Créateur de l’univers, qui a fait toutes choses et les a disposées avec ordre, s’est montré pour les hommes non seulement plein d’amour, mais plein de patience. Toujours il était ainsi, il l’est et le sera : secourable, bon, sans colère, véridique ; lui seul est bon. Ayant conçu un dessein d’une grandeur inexprimable, il ne l’a communiqué qu’à son Enfant.
-        
-        Tandis qu’il maintenait son sage projet dans le mystère et le tenait en réserve, il semblait nous oublier et ne pas se soucier de nous. Mais quand il eut dévoilé par son Enfant bien-aimé, quand il eut manifesté ce qu’il avait préparé dès le commencement, il nous a tout offert à la fois : de jouir de ses bienfaits, de voir, de comprendre ; qui de nous aurait jamais pu s’y attendre ?
-        
-        Dieu avait donc déjà tout disposé en lui-même avec son Enfant ; mais, jusqu’à ces derniers temps, il a toléré que nous nous laissions emporter à notre gré par des mouvements désordonnés, entraînés par les voluptés et les passions. Nullement parce qu’il se réjouissait de nos péchés ; il tolérait alors, sans l’approuver, ce règne de l’iniquité. Bien au contraire, il organisait pour maintenant le règne de la justice. Après avoir bien prouvé, dans cette première période, que nos propres œuvres nous rendaient indignes de la vie, il voulait que nous en devenions maintenant dignes par l’effet de sa bonté. Il voulait qu’après nous être montrés incapables d’accéder par nous-mêmes au royaume de Dieu, nous en devenions capables par sa puissance.
-        
-        Lorsque notre perversité fut à son comble, et qu’il fut devenu pleinement manifeste que son salaire — le supplice et la mort — était imminent, c’est alors qu’arriva le temps que Dieu avait marqué pour faire connaître désormais sa bonté et sa puissance : quelle surabondance de l’amour de Dieu et de sa bonté pour les hommes ! Il ne nous a pas détestés, il ne nous a pas repoussés, il ne nous a pas tenu rancune ; au contraire, il a longtemps patienté, il nous a supportés. Dans sa pitié pour nous, il a pris en charge nos propres péchés, il a livré son propre Fils pour nous racheter : le saint pour les criminels, l’innocent pour les méchants, le juste pour les injustes, l’incorruptible pour les corrompus, l’immortel pour les mortels. Qu’est-ce qui aurait pu couvrir nos péchés, sinon sa justice ? Par qui pouvions-nous être rendus justes, criminels et impies que nous étions, sinon par le seul Fils de Dieu ?
-        
-        Quel échange plein de douceur ! Quelle réalisation insondable ! Quels bienfaits inespérés ! Le crime du grand nombre est enseveli dans la justice d’un seul, et la justice d’un seul rend juste un grand nombre de criminels !
-      responsory: R/ Ne crains pas, Jérusalem, dans son amour éternel, ton rédempteur a pitié de toi.
+
 middleOfDay:
   tierce:
     reading:
@@ -90,6 +84,7 @@ middleOfDay:
     responsory: |
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
+
 vespers:
   reading:
     biblicalReference: Ph 4,4-5
@@ -106,22 +101,20 @@ vespers:
   intercession:
     content: |
       Frères bien-aimés, adressons notre prière confiante au Christ, venu pour sauver tous les hommes :
-      
+
       R/Viens, fruit de la terre et don du ciel !
-      
+
       Christ Seigneur, par le mystère de ton incarnation, tu as fait connaître au monde la gloire de ta divinité,
       — que ta venue soit notre vie et notre lumière.
-      
+
       Tu as pris sur toi notre faiblesse,
       — revêts-nous de ta force.
-      
+
       Venu d’abord dans l’humilité, tu as racheté le monde de sa faute,
       — lors de ta venue glorieuse, libère-nous de tout ce qui témoigne contre nous.
-      
+
       Toi, le Béni, qui règnes sur toutes choses,
       — dans ta bonté, donne-nous part à l’héritage éternel.
-      
+
       Toi qui sièges à la droite du Père,
       — réjouis nos frères défunts par la lumière de ton visage.
-oration:
-  - "Tu le vois, Dieu tout-puissant, nous ployons sous le péché qui a soumis l’homme à sa loi : apporte-nous la délivrance grâce au renouveau que nous attendons de la naissance incomparable de ton Fils bien-aimé. Lui qui règne."

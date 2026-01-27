@@ -3,58 +3,50 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_142
-      antiphon:
-        - "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi."
-    -
-      psalm: OT_32
-      antiphon:
-        - Réponds, Seigneur, au désir des pauvres, confirme la parole des prophètes.
-    -
-      psalm: PSALM_146
-      antiphon:
-        - Viens, Seigneur, ne tarde plus, viens guérir le cœur brisé.
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_43_1
+    - psalm: PSALM_43_1
       antiphon:
         - Debout ! Viens à notre aide, rachète-nous en raison de ton amour !
-    -
-      psalm: PSALM_43_2
+    - psalm: PSALM_43_2
       antiphon:
         - Debout ! Viens à notre aide, rachète-nous en raison de ton amour !
-    -
-      psalm: PSALM_43_3
+    - psalm: PSALM_43_3
       antiphon:
         - Debout ! Viens à notre aide, rachète-nous en raison de ton amour !
   verse: |
     V/ Écoutez, tous les peuples, la parole du Seigneur,
     annoncez-la aux îles lointaines.
-middleOfDay:
+
+morning:
   psalmody:
-    -
-      psalm: PSALM_118_20
-      antiphon:
-        - "Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie."
-    -
-      psalm: PSALM_127
-    -
-      psalm: PSALM_128
-vespers:
-  psalmody:
-    -
-      psalm: PSALM_143_1
+    - psalm: PSALM_142
       antiphon:
         - "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi."
-    -
-      psalm: PSALM_143_2
+    - psalm: OT_32
+      antiphon:
+        - Réponds, Seigneur, au désir des pauvres, confirme la parole des prophètes.
+    - psalm: PSALM_146
+      antiphon:
+        - Viens, Seigneur, ne tarde plus, viens guérir le cœur brisé.
+
+middleOfDay:
+  psalmody:
+    - psalm: PSALM_118_20
+      antiphon:
+        - "Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie."
+    - psalm: PSALM_127
+    - psalm: PSALM_128
+
+vespers:
+  psalmody:
+    - psalm: PSALM_143_1
+      antiphon:
+        - "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi."
+    - psalm: PSALM_143_2
       antiphon:
         - Reviens, Seigneur, pourquoi tarder ? Ravise-toi par égard pour tes serviteurs.
-    -
-      psalm: NT_10
+    - psalm: NT_10
       antiphon:
         - Vienne le Seigneur, le roi de la gloire ! Vienne le Messie, le Fils de Dieu !

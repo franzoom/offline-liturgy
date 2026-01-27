@@ -1,49 +1,40 @@
 celebration:
   title: Samedi Saint
-  precedence: 3
   color: violet
-morning:
-  hymn:
-    - pour-inventer-d-autres-espaces
-  psalmody:
-    -
-      psalm: PSALM_63
-    -
-      psalm: OT_23
-    -
-      psalm: PSALM_150
+
 readings:
   hymn:
     - veilleurs-tenez-vous-en-eveil
   psalmody:
-    -
-      psalm: PSALM_4
-    -
-      psalm: PSALM_15
-    -
-      psalm: PSALM_23
+    - psalm: PSALM_4
+    - psalm: PSALM_15
+    - psalm: PSALM_23
+
+morning:
+  hymn:
+    - pour-inventer-d-autres-espaces
+  psalmody:
+    - psalm: PSALM_63
+    - psalm: OT_23
+    - psalm: PSALM_150
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_26
-    -
-      psalm: PSALM_29
-    -
-      psalm: PSALM_75
+    - psalm: PSALM_26
+    - psalm: PSALM_29
+    - psalm: PSALM_75
+
 vespers:
   hymn:
     - brillez-deja-lueurs-de-paques
   psalmody:
-    -
-      psalm: PSALM_115
+    - psalm: PSALM_115
       antiphon:
         - Mort, où est ta victoire ? Où est-il, ô mort, ton aiguillon ?
-    -
-      psalm: PSALM_142
+    - psalm: PSALM_142
       antiphon:
         - Comme Jonas, trois jours et trois nuits aux profondeurs des abîmes, ainsi Jésus, au cœur de la terre.
-    -
-      psalm: NT_5
+    - psalm: NT_5
       antiphon:
         - "Du sanctuaire de son corps, Jésus disait : Détruisez ce temple ; en trois jours, je le relèverai."
   reading:
@@ -51,40 +42,40 @@ vespers:
     content: "Vous le savez : ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits ; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire ; ainsi vous mettez votre foi et votre espérance en Dieu."
   responsory: |
     R/ Le Christ s’est fait pour nous obéissant
-    <span class="espace">jusqu’à la mort,</span>
-    <span class="espace">et la mort de la croix.</span>
+    >jusqu’à la mort,
+    >et la mort de la croix.
     C’est pourquoi Dieu l’a exalté,
-    <span class="espace">et lui a donné le Nom</span>
-    <span class="espace">qui est au-dessus de tout nom.</span>
+    >et lui a donné le Nom
+    >qui est au-dessus de tout nom.
   evangelicAntiphon:
     common: Maintenant le Fils de l’homme est glorifié, et Dieu est glorifié en lui ; Dieu lui donnera sa propre gloire.
   intercession:
     content: |
       Le Fils de Dieu s’est anéanti ; supplions-le dans l’espérance :
-      
+
       Par l’eau et le sang de ton côté,
       engendre ton Église.
-      
+
       R/Engendre ton Église.
-      
+
       Par ta déposition de la croix,
       purifie ton Église.
-      
+
       R/Purifie ton Église.
-      
+
       Par les plaies de ton corps,
       sanctifie ton Église.
-      
+
       R/Sanctifie ton Église.
-      
+
       Par ta mise au tombeau,
       régénère ton Église.
-      
+
       R/Régénère ton Église.
-      
+
       Par ta descente aux enfers,
       délivre ton Église.
-      
+
       R/Délivre ton Église.
   oration:
     - Dieu éternel et tout-puissant, dont le Fils unique est descendu aux profondeurs de la terre, d’où il est remonté glorieux, accorde à tes fidèles, ensevelis avec lui dans le baptême, d’accéder par sa Résurrection à la vie éternelle. Lui qui règne.

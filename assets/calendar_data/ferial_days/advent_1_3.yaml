@@ -3,18 +3,62 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_17_1
+      antiphon:
+        - Il viendra, le Fils de l’homme ; il viendra sur la nuée avec gloire et puissance, et vous le verrez.
+    - psalm: PSALM_17_2
+      antiphon:
+        - Il viendra, le Fils de l’homme ; il viendra sur la nuée avec gloire et puissance, et vous le verrez.
+    - psalm: PSALM_17_3
+      antiphon:
+        - Il viendra, le Fils de l’homme ; il viendra sur la nuée avec gloire et puissance, et vous le verrez.
+  verse: |
+    V/ Viens, Seigneur, montre-nous ton visage,
+    et nous serons sauvés.
+  biblicalReading:
+    - title: Cette vigne saccagée, c’est la Maison d’Israël
+      ref: Is 5, 1-7
+      content: "Je veux chanter pour mon ami le chant du bien-aimé à sa vigne. Mon ami avait une vigne sur un coteau fertile. Il en retourna la terre, en retira les pierres, pour y mettre un plant de qualité. Au milieu, il bâtit une tour de garde et creusa aussi un pressoir. Il en attendait de beaux raisins, mais elle en donna de mauvais. Et maintenant, habitants de Jérusalem, hommes de Juda, soyez donc juges entre moi et ma vigne ! Pouvais-je faire pour ma vigne plus que je n’ai fait ? J’attendais de beaux raisins, pourquoi en a-t-elle donné de mauvais ? Eh bien, je vais vous apprendre ce que je ferai de ma vigne : enlever sa clôture pour qu’elle soit dévorée par les animaux, ouvrir une brèche dans son mur pour qu’elle soit piétinée. J’en ferai une pente désolée ; elle ne sera ni taillée ni sarclée, il y poussera des épines et des ronces ; j’interdirai aux nuages d’y faire tomber la pluie. La vigne du SEIGNEUR de l’univers, c’est la maison d’Israël. Le plant qu’il chérissait, ce sont les hommes de Juda. Il en attendait le droit, et voici le crime ; il en attendait la justice, et voici les cris."
+      responsory: |
+        R/ Plus jamais nous n’irons loin de toi,
+        laisse-nous vivre et invoquer ton nom.
+
+        La vigne que tu as prise en Égypte,
+        tu l’as replantée en écartant les nations.
+        Pourquoi as-tu percé sa clôture ?
+
+        Dieu de l’univers, reviens !
+        Interviens pour cette vigne,
+        pour la souche que ta main a plantée !
+  patristicReading:
+    - title: SERMON DE SAINT BERNARD POUR L’AVENT
+      subtitle: Il viendra parmi nous, le Verbe de Dieu
+      content: "Nous savons qu’il y a une triple venue du Seigneur. ~ La troisième se situe entre les deux autres. ~ Celles-ci, en effet, sont manifestes, celle-là, non. Dans sa première venue, il a paru sur la terre et il a vécu avec les hommes, lorsque — comme lui-même en témoigne — ils l’ont vu et l’ont pris en haine. Mais lors de sa dernière venue, *toute chair verra le salut de notre Dieu et ils regarderont vers celui qu’ils ont transpercé*. La venue intermédiaire, elle, est cachée : les élus seuls la voient au fond d’eux-mêmes, et leur âme est sauvée. Ainsi il est venu d’abord dans la chair et la faiblesse ; puis, dans l’entre-deux, il vient en esprit et en puissance ; enfin il viendra dans la gloire et la majesté. ~ Cette venue intermédiaire est vraiment comme la voie par laquelle on passe de la première à la dernière : dans la première le Christ fut notre rédemption, dans la dernière il apparaîtra comme notre vie, et entre temps il est notre repos et notre consolation. Mais pour que personne ne risque de penser que ce que nous disons de cette venue intermédiaire est une invention de notre part, écoutez ce que dit le Seigneur lui-même : *Si quelqu’un m’aime, il gardera mes paroles, et mon Père l’aimera et nous viendrons à lui*. Ailleurs j’ai lu en effet : *Qui craint Dieu fera le bien.* Mais je perçois qu’ici Jésus exprime quelque chose de plus en disant de celui qui l’aime : *il gardera mes paroles.* Mais où les gardera-t-il ? — Dans son cœur, sans aucun doute. Comme le dit le prophète : *Dans mon cœur je conserve tes ordres pour ne point faillir envers toi*. ~ Voici comment il te faut garder la parole de Dieu : *Heureux*, en effet, *ceux qui la gardent.* Qu’on la fasse donc entrer dans ce qu’on peut appeler les entrailles de l’âme ; qu’elle passe dans les mouvements de ton cœur et dans ta conduite. Consomme ce qui est bien, et ton âme y trouvera avec joie de quoi s’y nourrir largement. N’oublie pas de manger ton pain pour ne pas laisser ton cœur se dessécher ; de bonne et grasse nourriture rassasie ton âme. Si de la sorte tu t’es mis à garder en toi la parole de Dieu, nul doute qu’elle ne te garde aussi. Le Fils viendra à toi, avec le Père ; il viendra, le grand prophète, qui rétablira Jérusalem ; c’est lui qui fait toutes choses nouvelles. Voici en effet ce qu’accomplira sa venue : alors, *de même que nous sommes à l’image de l’homme pétri de terre, de même nous serons à l’image de celui qui vient du ciel.* Comme le vieil Adam s’est répandu à travers l’homme tout entier et y a pris toute la place, de la même manière il faut que le Christ occupe toute la place, lui qui a créé l’homme dans sa totalité, qui le rachète intégralement et le glorifie dans son entier."
+      responsory: |
+        R/ Viens bientôt, Sauveur du monde,
+        Lève-toi, clarté d’en haut ;
+        Vrai soleil du jour nouveau,
+        Viens percer la nuit profonde.
+
+        Ta naissance dans l’histoire
+        transfigure nos tourments
+        En douleurs d’enfantement
+        Où, déjà, surgit ta gloire.
+  oration:
+    - Apprête nos cœurs, Dieu très bon, par la puissance de ta grâce, pour qu’au jour où ton Fils viendra, il nous juge dignes de prendre place à sa table et de recevoir, de sa main, le pain du ciel. Lui qui règne.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_35
+    - psalm: PSALM_35
       antiphon:
         - Le Seigneur viendra, accompagné de tous les justes, on verra, ce jour-là, une grande lumière.
-    -
-      psalm: OT_7
+    - psalm: OT_7
       antiphon:
         - Je chanterai pour mon Dieu un chant nouveau.
-    -
-      psalm: PSALM_46
+    - psalm: PSALM_46
       antiphon:
         - Tous les peuples, battez des mains, acclamez Dieu par vos cris de joie !
   reading:
@@ -31,92 +75,38 @@ morning:
   intercession:
     content: |
       Verbe de Dieu, venu partager notre condition d’homme, fais grandir en nous le désir d’avoir part à ta gloire.
-      
+
       R/ En toi notre salut, Seigneur, Emmanuel !
-      
+
       Prince de la paix, venu pour changer les épées en charrues et les lances en faucilles,
       fais-nous passer de la haine à l’amour, de l’injure au pardon.
-      
+
       Envoyé du Père pour annoncer la délivrance des captifs,
       rends-nous solidaires de la lutte pour la justice et la vérité.
-      
+
       Maître de justice, qui ne juges pas sur l’apparence,
       donne-nous de vivre dans l’humilité et d’accomplir la vérité.
-      
+
       Quand tu viendras avec puissance et grande gloire,
       accorde-nous de paraître devant toi dans l’assurance de ta miséricorde.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_17_1
-      antiphon:
-        - Il viendra, le Fils de l’homme ; il viendra sur la nuée avec gloire et puissance, et vous le verrez.
-    -
-      psalm: PSALM_17_2
-      antiphon:
-        - Il viendra, le Fils de l’homme ; il viendra sur la nuée avec gloire et puissance, et vous le verrez.
-    -
-      psalm: PSALM_17_3
-      antiphon:
-        - Il viendra, le Fils de l’homme ; il viendra sur la nuée avec gloire et puissance, et vous le verrez.
-  biblicalReading:
-    -
-      title: Cette vigne saccagée, c’est la Maison d’Israël
-      ref: Is 5, 1-7
-      content: "Je veux chanter pour mon ami le chant du bien-aimé à sa vigne. Mon ami avait une vigne sur un coteau fertile. Il en retourna la terre, en retira les pierres, pour y mettre un plant de qualité. Au milieu, il bâtit une tour de garde et creusa aussi un pressoir. Il en attendait de beaux raisins, mais elle en donna de mauvais. Et maintenant, habitants de Jérusalem, hommes de Juda, soyez donc juges entre moi et ma vigne ! Pouvais-je faire pour ma vigne plus que je n’ai fait ? J’attendais de beaux raisins, pourquoi en a-t-elle donné de mauvais ? Eh bien, je vais vous apprendre ce que je ferai de ma vigne : enlever sa clôture pour qu’elle soit dévorée par les animaux, ouvrir une brèche dans son mur pour qu’elle soit piétinée. J’en ferai une pente désolée ; elle ne sera ni taillée ni sarclée, il y poussera des épines et des ronces ; j’interdirai aux nuages d’y faire tomber la pluie. La vigne du SEIGNEUR de l’univers, c’est la maison d’Israël. Le plant qu’il chérissait, ce sont les hommes de Juda. Il en attendait le droit, et voici le crime ; il en attendait la justice, et voici les cris."
-      responsory: |
-        R/ Plus jamais nous n’irons loin de toi,
-        laisse-nous vivre et invoquer ton nom.
-        
-        La vigne que tu as prise en Égypte,
-        tu l’as replantée en écartant les nations.
-        Pourquoi as-tu percé sa clôture ?
-        
-        Dieu de l’univers, reviens !
-        Interviens pour cette vigne,
-        pour la souche que ta main a plantée !
-  patristicReading:
-    -
-      title: SERMON DE SAINT BERNARD POUR L’AVENT
-      subtitle: Il viendra parmi nous, le Verbe de Dieu
-      content: "Nous savons qu’il y a une triple venue du Seigneur. ~ La troisième se situe entre les deux autres. ~ Celles-ci, en effet, sont manifestes, celle-là, non. Dans sa première venue, il a paru sur la terre et il a vécu avec les hommes, lorsque — comme lui-même en témoigne — ils l’ont vu et l’ont pris en haine. Mais lors de sa dernière venue, *toute chair verra le salut de notre Dieu et ils regarderont vers celui qu’ils ont transpercé*. La venue intermédiaire, elle, est cachée : les élus seuls la voient au fond d’eux-mêmes, et leur âme est sauvée. Ainsi il est venu d’abord dans la chair et la faiblesse ; puis, dans l’entre-deux, il vient en esprit et en puissance ; enfin il viendra dans la gloire et la majesté. ~ Cette venue intermédiaire est vraiment comme la voie par laquelle on passe de la première à la dernière : dans la première le Christ fut notre rédemption, dans la dernière il apparaîtra comme notre vie, et entre temps il est notre repos et notre consolation. Mais pour que personne ne risque de penser que ce que nous disons de cette venue intermédiaire est une invention de notre part, écoutez ce que dit le Seigneur lui-même : *Si quelqu’un m’aime, il gardera mes paroles, et mon Père l’aimera et nous viendrons à lui*. Ailleurs j’ai lu en effet : *Qui craint Dieu fera le bien.* Mais je perçois qu’ici Jésus exprime quelque chose de plus en disant de celui qui l’aime : *il gardera mes paroles.* Mais où les gardera-t-il ? — Dans son cœur, sans aucun doute. Comme le dit le prophète : *Dans mon cœur je conserve tes ordres pour ne point faillir envers toi*. ~ Voici comment il te faut garder la parole de Dieu : *Heureux*, en effet, *ceux qui la gardent.* Qu’on la fasse donc entrer dans ce qu’on peut appeler les entrailles de l’âme ; qu’elle passe dans les mouvements de ton cœur et dans ta conduite. Consomme ce qui est bien, et ton âme y trouvera avec joie de quoi s’y nourrir largement. N’oublie pas de manger ton pain pour ne pas laisser ton cœur se dessécher ; de bonne et grasse nourriture rassasie ton âme. Si de la sorte tu t’es mis à garder en toi la parole de Dieu, nul doute qu’elle ne te garde aussi. Le Fils viendra à toi, avec le Père ; il viendra, le grand prophète, qui rétablira Jérusalem ; c’est lui qui fait toutes choses nouvelles. Voici en effet ce qu’accomplira sa venue : alors, *de même que nous sommes à l’image de l’homme pétri de terre, de même nous serons à l’image de celui qui vient du ciel.* Comme le vieil Adam s’est répandu à travers l’homme tout entier et y a pris toute la place, de la même manière il faut que le Christ occupe toute la place, lui qui a créé l’homme dans sa totalité, qui le rachète intégralement et le glorifie dans son entier."
-      responsory: |
-        R/ Viens bientôt, Sauveur du monde,
-        Lève-toi, clarté d’en haut ;
-        Vrai soleil du jour nouveau,
-        Viens percer la nuit profonde.
-        
-        Ta naissance dans l’histoire
-        transfigure nos tourments
-        En douleurs d’enfantement
-        Où, déjà, surgit ta gloire.
-  verse: |
-    V/ Viens, Seigneur, montre-nous ton visage,
-    et nous serons sauvés.
-  oration:
-    - Apprête nos cœurs, Dieu très bon, par la puissance de ta grâce, pour qu’au jour où ton Fils viendra, il nous juge dignes de prendre place à sa table et de recevoir, de sa main, le pain du ciel. Lui qui règne.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_2
+    - psalm: PSALM_118_2
       antiphon:
         - Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance.
-    -
-      psalm: PSALM_16_1
-    -
-      psalm: PSALM_16_2
+    - psalm: PSALM_16_1
+    - psalm: PSALM_16_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_26_1
+    - psalm: PSALM_26_1
       antiphon:
         - "Mon cœur m’a redit ta parole : cherchez ma face."
-    -
-      psalm: PSALM_26_2
+    - psalm: PSALM_26_2
       antiphon:
         - "Mon cœur m’a redit ta parole : cherchez ma face."
-    -
-      psalm: NT_6
+    - psalm: NT_6
       antiphon:
         - "Tout vient de lui, tout est par lui, tout est en lui : gloire à Dieu pour les siècles !"
   reading:
@@ -132,17 +122,17 @@ vespers:
   intercession:
     content: |
       Dieu fidèle, prends soin de ton Église, cette vigne que ta main a plantée, inspire ses pasteurs pour qu’ils veillent sur sa fidélité.
-      
+
       R/ Que vienne, Seigneur, ton règne de paix !
-      
+
       Souviens-toi de tous les fils d’Abraham,
       — accomplis tes promesses, élargis le cœur des chrétiens.
-      
+
       Regarde tous les peuples de la terre,
       — donne-leur de découvrir ton amour sans limite.
-      
+
       Soutiens à travers le monde tous les artisans de paix,
       — qu’ils ne se lassent pas d’espérer ton Royaume.
-      
+
       Rappelle à toi tous ceux qui ont quitté cette vie,
       — reçois-les dans la gloire auprès de toi.

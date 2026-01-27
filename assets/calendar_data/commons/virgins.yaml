@@ -1,6 +1,14 @@
+commonTitle: Commun des Vierges
+
 celebration:
   color: white
-commonTitle: Commun des Vierges
+
+
+oration:
+  - Dieu qui veux habiter les cœurs droits et sincères, donne-nous, par l’intercession de sainte N. de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
+  - "Exauce nos prières, Seigneur, en ce jour où nous rappelons les vertus de sainte N. : accorde-nous de persévérer dans ton amour et d’y progresser jusqu’au terme de notre vie. <p class=\"antienne rouge\">pour plusieurs vierges Multiplie pour nous, Seigneur, les gestes de miséricorde, et puisque nous célébrons dans la joie la fête des saintes N. et N., donne-nous le bonheur d’être pour toujours avec tous ceux que tu as accueillis près de toi."
+
+
 firstVespers:
   hymn:
     - pour-toi-fils-de-dieu
@@ -18,41 +26,113 @@ firstVespers:
     content: |
       Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;
       bénissons-le de tout notre cœur :
-      
+
       R/Ô Christ, notre salut, Jésus, notre lumière !
-      
+
       Tu as voulu pour épouse une Église vierge et pure,
       – rends-la irréprochable et sainte.
-      
+
       Les vierges sages ont couru au-devant de toi avec leurs lampes,
       – donne aux femmes qui te sont consacrées de te rester fidèles.
-      
+
       Tu donnes à ton Église de garder sa foi intègre et pure,
       – accorde cette même grâce à tous les chrétiens.
-      
+
       Nous célébrons aujourd’hui la fête de sainte N,
       – que son intercession soit notre joie.
-      
+
       Tu accueilles les vierges sages au festin des noces,
       – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.
+
+
 invitatory:
   antiphon:
     - Jésus Christ, le Roi des vierges, venez, adorons-le.
     - Venez, adorons l'Agneau de Dieu, lui que suivent les vierges.
+
+
+readings:
+  hymn:
+    - voici-l-epoux
+  psalmody:
+    - psalm: PSALM_18A
+      antiphon:
+        - "Voici l’Époux qui vient : allez à la rencontre du Christ, alléluia."
+    - psalm: PSALM_44_1
+      antiphon:
+        - Voici le Christ, l’Église est sa fiancée comme une vierge pure, alléluia.
+    - psalm: PSALM_44_2
+      antiphon:
+        - Soyons dans l’allégresse et dans la joie, car voici les noces de l’Agneau, alléluia.
+  verse: |
+    V/ Tu m’enseignes la route de la vie,
+    en ta présence la joie ne finit pas.
+  biblicalReading:
+    - title: La virginité pour le Seigneur
+      ref: 1Co 7, 25-40
+      content: |
+        Frères, je dois vous le dire : le temps est limité. Dès lors, que ceux qui ont une femme soient comme s’ils n’avaient pas de femme, ceux qui pleurent, comme s’ils ne pleuraient pas, ceux qui ont de la joie, comme s’ils n’en avaient pas, ceux qui font des achats, comme s’ils ne possédaient rien, ceux qui profitent de ce monde, comme s’ils n’en profitaient pas vraiment. Car il passe, ce monde tel que nous le voyons. J’aimerais vous voir libres de tout souci. Celui qui n’est pas marié a le souci des affaires du Seigneur, il cherche comment plaire au Seigneur. Celui qui est marié a le souci des affaires de ce monde, il cherche comment plaire à sa femme, et il se trouve divisé. La femme sans mari, ou celle qui reste vierge, a le souci des affaires du Seigneur, afin d’être sanctifiée dans son corps et son esprit. Celle qui est mariée a le souci des affaires de ce monde, elle cherche comment plaire à son mari. C’est dans votre intérêt que je dis cela ; ce n’est pas pour vous tendre un piège, mais pour vous proposer ce qui est bien, afin que vous soyez attachés au Seigneur sans partage.
+
+        Si un jeune homme pense qu’il risque de ne pas respecter une jeune fille, s’il est plein d’ardeur et que l’issue devienne inévitable, qu’il fasse comme il veut : ils peuvent se marier, ce n’est pas un péché. Mais s’il tient ferme intérieurement, s’il ne subit aucune contrainte, s’il est maître de sa propre volonté et a pris dans son cœur la décision de ne pas s’unir à cette jeune fille, il fera bien. Ainsi, celui qui se marie fait bien, et celui qui ne se marie pas fera mieux encore.
+
+        La femme reste liée aussi longtemps que son mari est en vie. Mais si son mari meurt, elle est libre d’épouser celui qu’elle veut, mais seulement s’il est croyant. Pourtant elle sera plus heureuse si elle reste comme elle est ; c’est là mon opinion, et je pense avoir, moi aussi, l’Esprit de Dieu.
+      responsory: |
+        (Stance)
+        Pourquoi garder toute la nuit
+        vos lampes allumées ?
+        Pourquoi donner à votre vie
+        le sens d’une attente infinie ?
+        Quelle espérance vous tient éveillées,
+        vierges sages,
+        et quelle promesse de joie ?
+
+        Vers la ténèbre lumineuse vos regards sont levés,
+        et Dieu qui vous attend comblera seul votre quête.
+
+        Pour une perle sans prix, vous avez tout quitté,
+        les mains ouvertes et libres en offrande.
+
+        À votre humble fierté, l’Église, joyeuse,
+        reconnaît son visage, sa grâce de fiancée.
+
+        À travers l’amour qui brûle en vous,
+        servantes du Seigneur,
+        le cœur de Dieu nous presse de l’aimer sans partage.
+  patristicReading:
+    - title: Traité de Saint Cyprien, de Carthage
+      subtitle: « Fiancés à un époux unique », le Christ
+      content: "Maintenant, c’est aux vierges que je m’adresse. Plus leur dignité est élevée, plus nous devons en prendre soin. Elles sont la fleur de cette plantation qu’est l’Église, la gloire et la beauté de la grâce donnée par l’Esprit, notre joie vivante, un chef-d’œuvre intact et incorruptible de réussite et de dignité, une image de Dieu reflétant la sainteté du Seigneur, elles sont la partie la plus illustre du troupeau du Christ. L’Église trouve en elles sa joie et c’est en elles que s’épanouit sa glorieuse fécondité maternelle. Aussi, plus le nombre des vierges augmente, plus la joie de la mère s’accroît. C’est à elles que je parle, c’est elles que j’exhorte en vertu de mon affection plus que de mon autorité. Conscient d’être le dernier et le plus petit, je ne prétends pas censurer le désordre, mais par sollicitude vous inciter à la plus grande prudence pour échapper aux assauts du démon. Ce n’est pas là une prudence inutile, une crainte sans fondement : elle montre le chemin du salut, elle aide à garder les préceptes de vie donnés par le Seigneur. Elle permet à celles qui se sont consacrées au Christ et qui renoncent aux désirs de la chair pour se vouer à Dieu corps et âme, d’accomplir parfaitement leur œuvre, destinée à une grande récompense. Elles ne doivent plus chercher à se parer pour plaire, sinon à leur Seigneur, dont elles attendent le salaire de leur virginité. Gardez votre état de virginité, gardez-vous telles que vous devez être. Une grande récompense vous attend, la précieuse couronne de la vertu qui est le don parfait de la chasteté. ~ Ce que nous serons un jour, vous avez déjà commencé à l’être. Dès ici-bas, vous possédez la gloire de la résurrection, vous traversez ce monde sans que la contagion du monde vous atteigne : en persévérant dans la chasteté et la virginité, vous égalez les anges de Dieu. Mais, pour que cette virginité demeure intacte et solide, il faut qu’elle persévère sur le chemin où elle est courageusement entrée ; il faut donc qu’elle ne recherche pas la beauté des bijoux et des vêtements, mais celle de la vie. Écoutez la voix de l’Apôtre, que le Seingeur appelait son *instrument de choix* et qu’il a envoyé pour faire connaître des commandements célestes. *Le premier homme,* dit-il, *était pétri de terre ; le deuxième homme vient du ciel. Puisque le premier était pétri de terre, comme lui les hommes appartiennent à la terre. Puisque le deuxième appartient au ciel, comme lui les hommes appartiennent au ciel. De même que nous portons l’image de celui qui est pétri de terre, de même portons l’image de celui qui vient du ciel.* Telle est l’image que porte la virginité, que porte l’intégrité, la sainteté, la vérité."
+      responsory: |
+        Laissez l’amour poursuivre en vous son œuvre
+        jusqu’au jour de Jésus Christ.
+
+        Ouvrez les yeux à la lumière de l’amour,
+        vous serez purs et sans reproche
+        au jour de Jésus Christ.
+    - title: Actes du II<sup>ème</sup> Concile du Vatican
+      subtitle: La rénovation de la vie religieuse
+      content: Dès les origines de l’Église, il y eut des hommes et des femmes qui voulurent, par la pratique des conseils évangéliques, suivre le Christ avec une plus grande liberté et l’imiter plus exactement et qui, chacun à sa manière, menèrent une vie consacrée à Dieu. Beaucoup parmi eux, sous l’impulsion de l’Esprit Saint, vécurent dans la solitude, ou bien donèrent des familles religieuses que l’Église accueillit volontiers et approuva de son autorité. À partir de là se multiplia providentiellement une admirable variété de sociétés religieuses. Elles ont beaucoup contribué non seulement à ce que l’Église soit *bien armée pour toute bonne action* et prêtre pour que *les tâches du ministère soient accomplis et que se construise le corps du Christ*, mais encore à ce que l’Église se montre embellie des dons variés de ses enfants, *comme une fiancée parée pour son époux* et fasse connaître *les multiples aspects de la Sagesse de Dieu*. Dans une telle variété de dons, tous ceux que Dieu appelle à la pratique des conseils évangéliques, et qui en font fidèlement profession, se consacrent au Seigneur de façon spéciale, en suivant le Christ chaste et pauvre, qui, par son obéissance *jusqu’à la mort de la croix*, a racheté les hommes et les a sanctifiés. Poussés par cet amour que l’Esprit Saint répand dans leurs cœurs, ils vivent toujours davantage pour le Christ et *pour son corps qui est l’Église*. Plus ils s’unissent avec ferveur au Christ par cette donation d’eux-mêmes qui embrasse toute leur existence, plus la vie de l’Église est abondante et plus son apostolat devient vigoureux et fécond. ~ Les membres de tout institut religieux se rappelleront avant tout que, par la profession des conseils évangéliques, ils ont répondu à une vocation divine. Ainsi, non seulement *morts au péché*, mais encore ayant renoncé au monde, ils ne doivent plus vivre que pour Dieu seul. En effet, ils ont consacré toute leur vie à son service. Ceci constitue une consécration particulière qui s’enracine intimement dans la consécration baptismale et l’exprime avec la plus grande plénitude. ~ Ceux qui professent les conseils évangéliques doivent rechercher et aimer Dieu avant tout, lui *qui nous a aimes le premier* ; ils doivent, en toutes circonstances, s’appliquer à développer leur *vie cachée en Dieu avec le Christ</I>, car c’est I partir d’elle que découle et que s’impose l’amour du prochain pour le salut du monde et la construction de l’Église. C’est encore dans cette charité que la pratique des conseils évangéliques trouve son inspiration et son orientation. ~ La chasteté à cause du *Royaume des cieux* dont les religieux font profession, doit être regardée comme un grand don de la grâce. En effet, elle libère singulièrement le cœur de l’homme, pour qu’il brûle d’amour envers Dieu et envers tous les hommes. C’est pourquoi elle est un signe particulier des biens célestes, ainsi qu’un moyen très efficace pour les religieux de se dévouer allègrement au service divin et aux activités de l’apostolat. ~ C’est ainsi qu’ils évoquent aux yeux de tous les chrétiens cette admirable union fondée par Dieu et qui doit se manifester clairement dans le siècle futur, union par laquelle l’Église reconnaît le Christ pour son unique époux.
+      responsory: |
+        Si quelqu’un entend ma voix,
+        ensemble, nous prendrons notre repas,
+        moi près de lui, lui près de moi.
+
+        Si quelqu’un garde ma parole,
+        mon Père l’aimera,
+        et nous viendrons à lui.
+
+
 morning:
   hymn:
     - vous-qui-passiez-jadis
   psalmody:
-    -
-      psalm: PSALM_62
+    - psalm: PSALM_62
       antiphon:
         - Librement, je t’ai donné ma foi, ô Jésus Christ, mon âme a soif de toi et mon cœur te désire.
-    -
-      psalm: OT_41
+    - psalm: OT_41
       antiphon:
         - "Vierges du Seigneur, bénissez-le : le Dieu qui vous donna de vous offrir à lui, couronne en vous ses dons."
-    -
-      psalm: PSALM_149
+    - psalm: PSALM_149
       antiphon:
         - Pour avoir triomphé de la chair et du sang, elle exultera dans la gloire de Dieu.
   reading:
@@ -69,93 +149,20 @@ morning:
     content: |
       Ô Christ, toi que les saintes vierges ont aimé d’un unique amour,
       – fais que rien ne nous sépare de toi.
-      
+
       Tu as couronné Reine des vierges, Marie, ta mère,
       – par son intercession, purifie nos cœurs.
-      
+
       À la prière des saintes femmes qui t’ont suivi de tout leur cœur,
       – accorde-nous de marcher le cœur libre à travers ce monde qui passe.
-      
+
       Toi, l’Époux que les vierges sages ont su attendre,
       – donne-nous un cœur vigilant, prompt à te reconnaître.
-      
+
       Par l’intercession de sainte N,
       – fais-nous brûler d’amour en ta présence.
-readings:
-  hymn:
-    - voici-l-epoux
-  psalmody:
-    -
-      psalm: PSALM_18A
-      antiphon:
-        - "Voici l’Époux qui vient : allez à la rencontre du Christ, alléluia."
-    -
-      psalm: PSALM_44_1
-      antiphon:
-        - Voici le Christ, l’Église est sa fiancée comme une vierge pure, alléluia.
-    -
-      psalm: PSALM_44_2
-      antiphon:
-        - Soyons dans l’allégresse et dans la joie, car voici les noces de l’Agneau, alléluia.
-  biblicalReading:
-    -
-      title: La virginité pour le Seigneur
-      ref: 1Co 7, 25-40
-      content: |
-        Frères, je dois vous le dire : le temps est limité. Dès lors, que ceux qui ont une femme soient comme s’ils n’avaient pas de femme, ceux qui pleurent, comme s’ils ne pleuraient pas, ceux qui ont de la joie, comme s’ils n’en avaient pas, ceux qui font des achats, comme s’ils ne possédaient rien, ceux qui profitent de ce monde, comme s’ils n’en profitaient pas vraiment. Car il passe, ce monde tel que nous le voyons. J’aimerais vous voir libres de tout souci. Celui qui n’est pas marié a le souci des affaires du Seigneur, il cherche comment plaire au Seigneur. Celui qui est marié a le souci des affaires de ce monde, il cherche comment plaire à sa femme, et il se trouve divisé. La femme sans mari, ou celle qui reste vierge, a le souci des affaires du Seigneur, afin d’être sanctifiée dans son corps et son esprit. Celle qui est mariée a le souci des affaires de ce monde, elle cherche comment plaire à son mari. C’est dans votre intérêt que je dis cela ; ce n’est pas pour vous tendre un piège, mais pour vous proposer ce qui est bien, afin que vous soyez attachés au Seigneur sans partage.
-        
-        Si un jeune homme pense qu’il risque de ne pas respecter une jeune fille, s’il est plein d’ardeur et que l’issue devienne inévitable, qu’il fasse comme il veut : ils peuvent se marier, ce n’est pas un péché. Mais s’il tient ferme intérieurement, s’il ne subit aucune contrainte, s’il est maître de sa propre volonté et a pris dans son cœur la décision de ne pas s’unir à cette jeune fille, il fera bien. Ainsi, celui qui se marie fait bien, et celui qui ne se marie pas fera mieux encore.
-        
-        La femme reste liée aussi longtemps que son mari est en vie. Mais si son mari meurt, elle est libre d’épouser celui qu’elle veut, mais seulement s’il est croyant. Pourtant elle sera plus heureuse si elle reste comme elle est ; c’est là mon opinion, et je pense avoir, moi aussi, l’Esprit de Dieu.
-      responsory: |
-        (Stance)
-        Pourquoi garder toute la nuit
-        vos lampes allumées ?
-        Pourquoi donner à votre vie
-        le sens d’une attente infinie ?
-        Quelle espérance vous tient éveillées,
-        vierges sages,
-        et quelle promesse de joie ?
-        
-        Vers la ténèbre lumineuse vos regards sont levés,
-        et Dieu qui vous attend comblera seul votre quête.
-        
-        Pour une perle sans prix, vous avez tout quitté,
-        les mains ouvertes et libres en offrande.
-        
-        À votre humble fierté, l’Église, joyeuse,
-        reconnaît son visage, sa grâce de fiancée.
-        
-        À travers l’amour qui brûle en vous,
-        servantes du Seigneur,
-        le cœur de Dieu nous presse de l’aimer sans partage.
-  patristicReading:
-    -
-      title: Traité de Saint Cyprien, de Carthage
-      subtitle: « Fiancés à un époux unique », le Christ
-      content: "Maintenant, c’est aux vierges que je m’adresse. Plus leur dignité est élevée, plus nous devons en prendre soin. Elles sont la fleur de cette plantation qu’est l’Église, la gloire et la beauté de la grâce donnée par l’Esprit, notre joie vivante, un chef-d’œuvre intact et incorruptible de réussite et de dignité, une image de Dieu reflétant la sainteté du Seigneur, elles sont la partie la plus illustre du troupeau du Christ. L’Église trouve en elles sa joie et c’est en elles que s’épanouit sa glorieuse fécondité maternelle. Aussi, plus le nombre des vierges augmente, plus la joie de la mère s’accroît. C’est à elles que je parle, c’est elles que j’exhorte en vertu de mon affection plus que de mon autorité. Conscient d’être le dernier et le plus petit, je ne prétends pas censurer le désordre, mais par sollicitude vous inciter à la plus grande prudence pour échapper aux assauts du démon. Ce n’est pas là une prudence inutile, une crainte sans fondement : elle montre le chemin du salut, elle aide à garder les préceptes de vie donnés par le Seigneur. Elle permet à celles qui se sont consacrées au Christ et qui renoncent aux désirs de la chair pour se vouer à Dieu corps et âme, d’accomplir parfaitement leur œuvre, destinée à une grande récompense. Elles ne doivent plus chercher à se parer pour plaire, sinon à leur Seigneur, dont elles attendent le salaire de leur virginité. Gardez votre état de virginité, gardez-vous telles que vous devez être. Une grande récompense vous attend, la précieuse couronne de la vertu qui est le don parfait de la chasteté. ~ Ce que nous serons un jour, vous avez déjà commencé à l’être. Dès ici-bas, vous possédez la gloire de la résurrection, vous traversez ce monde sans que la contagion du monde vous atteigne : en persévérant dans la chasteté et la virginité, vous égalez les anges de Dieu. Mais, pour que cette virginité demeure intacte et solide, il faut qu’elle persévère sur le chemin où elle est courageusement entrée ; il faut donc qu’elle ne recherche pas la beauté des bijoux et des vêtements, mais celle de la vie. Écoutez la voix de l’Apôtre, que le Seingeur appelait son *instrument de choix* et qu’il a envoyé pour faire connaître des commandements célestes. *Le premier homme,* dit-il, *était pétri de terre ; le deuxième homme vient du ciel. Puisque le premier était pétri de terre, comme lui les hommes appartiennent à la terre. Puisque le deuxième appartient au ciel, comme lui les hommes appartiennent au ciel. De même que nous portons l’image de celui qui est pétri de terre, de même portons l’image de celui qui vient du ciel.* Telle est l’image que porte la virginité, que porte l’intégrité, la sainteté, la vérité."
-      responsory: |
-        Laissez l’amour poursuivre en vous son œuvre
-        jusqu’au jour de Jésus Christ.
-        
-        Ouvrez les yeux à la lumière de l’amour,
-        vous serez purs et sans reproche
-        au jour de Jésus Christ.
-    -
-      title: Actes du II<sup>ème</sup> Concile du Vatican
-      subtitle: La rénovation de la vie religieuse
-      content: Dès les origines de l’Église, il y eut des hommes et des femmes qui voulurent, par la pratique des conseils évangéliques, suivre le Christ avec une plus grande liberté et l’imiter plus exactement et qui, chacun à sa manière, menèrent une vie consacrée à Dieu. Beaucoup parmi eux, sous l’impulsion de l’Esprit Saint, vécurent dans la solitude, ou bien donèrent des familles religieuses que l’Église accueillit volontiers et approuva de son autorité. À partir de là se multiplia providentiellement une admirable variété de sociétés religieuses. Elles ont beaucoup contribué non seulement à ce que l’Église soit *bien armée pour toute bonne action* et prêtre pour que *les tâches du ministère soient accomplis et que se construise le corps du Christ*, mais encore à ce que l’Église se montre embellie des dons variés de ses enfants, *comme une fiancée parée pour son époux* et fasse connaître *les multiples aspects de la Sagesse de Dieu*. Dans une telle variété de dons, tous ceux que Dieu appelle à la pratique des conseils évangéliques, et qui en font fidèlement profession, se consacrent au Seigneur de façon spéciale, en suivant le Christ chaste et pauvre, qui, par son obéissance *jusqu’à la mort de la croix*, a racheté les hommes et les a sanctifiés. Poussés par cet amour que l’Esprit Saint répand dans leurs cœurs, ils vivent toujours davantage pour le Christ et *pour son corps qui est l’Église*. Plus ils s’unissent avec ferveur au Christ par cette donation d’eux-mêmes qui embrasse toute leur existence, plus la vie de l’Église est abondante et plus son apostolat devient vigoureux et fécond. ~ Les membres de tout institut religieux se rappelleront avant tout que, par la profession des conseils évangéliques, ils ont répondu à une vocation divine. Ainsi, non seulement *morts au péché*, mais encore ayant renoncé au monde, ils ne doivent plus vivre que pour Dieu seul. En effet, ils ont consacré toute leur vie à son service. Ceci constitue une consécration particulière qui s’enracine intimement dans la consécration baptismale et l’exprime avec la plus grande plénitude. ~ Ceux qui professent les conseils évangéliques doivent rechercher et aimer Dieu avant tout, lui *qui nous a aimes le premier* ; ils doivent, en toutes circonstances, s’appliquer à développer leur *vie cachée en Dieu avec le Christ</I>, car c’est I partir d’elle que découle et que s’impose l’amour du prochain pour le salut du monde et la construction de l’Église. C’est encore dans cette charité que la pratique des conseils évangéliques trouve son inspiration et son orientation. ~ La chasteté à cause du *Royaume des cieux* dont les religieux font profession, doit être regardée comme un grand don de la grâce. En effet, elle libère singulièrement le cœur de l’homme, pour qu’il brûle d’amour envers Dieu et envers tous les hommes. C’est pourquoi elle est un signe particulier des biens célestes, ainsi qu’un moyen très efficace pour les religieux de se dévouer allègrement au service divin et aux activités de l’apostolat. ~ C’est ainsi qu’ils évoquent aux yeux de tous les chrétiens cette admirable union fondée par Dieu et qui doit se manifester clairement dans le siècle futur, union par laquelle l’Église reconnaît le Christ pour son unique époux.
-      responsory: |
-        Si quelqu’un entend ma voix,
-        ensemble, nous prendrons notre repas,
-        moi près de lui, lui près de moi.
-        
-        Si quelqu’un garde ma parole,
-        mon Père l’aimera,
-        et nous viendrons à lui.
-  verse: |
-    V/ Tu m’enseignes la route de la vie,
-    en ta présence la joie ne finit pas.
+
+
 middleOfDay:
   tierce:
     antiphon: Rester proche de Dieu fait tout mon bonheur.
@@ -181,20 +188,19 @@ middleOfDay:
     responsory: |
       V/ Voici l’Époux ! Sortez à sa rencontre !
       Veillez donc, car vous ne savez ni le jour, ni l’heure.
+
+
 vespers:
   hymn:
     - dieu-ma-joie
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Je me garde pure pour toi, ô Jésus, et la lampe à la main, j’accours vers toi.
-    -
-      psalm: PSALM_126
+    - psalm: PSALM_126
       antiphon:
         - "Heureux les cœurs purs : ils verront Dieu."
-    -
-      psalm: NT_4
+    - psalm: NT_4
       antiphon:
         - Mon cœur est ferme, ô Dieu, il est fondé sur le Christ.
   reading:
@@ -213,23 +219,20 @@ vespers:
     content: |
       Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;
       bénissons-le de tout notre cœur :
-      
+
       R/Ô Christ, notre salut, Jésus, notre lumière !
-      
+
       Tu as voulu pour épouse une Église vierge et pure,
       – rends-la irréprochable et sainte.
-      
+
       Les vierges sages ont couru au-devant de toi avec leurs lampes,
       – donne aux femmes qui te sont consacrées de te rester fidèles.
-      
+
       Tu donnes à ton Église de garder sa foi intègre et pure,
       – accorde cette même grâce à tous les chrétiens.
-      
+
       Nous célébrons aujourd’hui la fête de sainte N,
       – que son intercession soit notre joie.
-      
+
       Tu accueilles les vierges sages au festin des noces,
       – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.
-oration:
-  - Dieu qui veux habiter les cœurs droits et sincères, donne-nous, par l’intercession de sainte N. de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
-  - "Exauce nos prières, Seigneur, en ce jour où nous rappelons les vertus de sainte N. : accorde-nous de persévérer dans ton amour et d’y progresser jusqu’au terme de notre vie. <p class=\"antienne rouge\">pour plusieurs vierges Multiplie pour nous, Seigneur, les gestes de miséricorde, et puisque nous célébrons dans la joie la fête des saintes N. et N., donne-nous le bonheur d’être pour toujours avec tous ceux que tu as accueillis près de toi."

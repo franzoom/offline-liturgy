@@ -3,18 +3,31 @@ invitatory:
     - Le Roi qui va venir, venez, adorons-le.
     - Allons au-devant de celui qui vient.
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
+
+readings:
+  psalmody:
+    - psalm: PSALM_106_1
+      antiphon:
+        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
+    - psalm: PSALM_106_2
+      antiphon:
+        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
+    - psalm: PSALM_106_3
+      antiphon:
+        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
+  verse: |
+    V/ Il révèle à Jacob sa parole,
+    ses volontés et ses lois à Israël.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_118_19
+    - psalm: PSALM_118_19
       antiphon:
         - Dieu se lèvera du Liban, resplendissant comme l’aurore.
-    -
-      psalm: OT_10
+    - psalm: OT_10
       antiphon:
         - Je regarde vers mon Dieu, j’attends mon Sauveur !
-    -
-      psalm: PSALM_116
+    - psalm: PSALM_116
       antiphon:
         - Prépare-toi, Israël, à rencontrer ton Dieu, car il vient !
   reading:
@@ -26,30 +39,11 @@ morning:
     V/ Dieu t’a regardée : il a comblé ton attente. \*
     V/ Il vient, le jour se lève ; la terre entière exulte. \*
     Gloire au Père et au Fils et au Saint-Esprit. R/
-readings:
-  psalmody:
-    -
-      psalm: PSALM_106_1
-      antiphon:
-        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
-    -
-      psalm: PSALM_106_2
-      antiphon:
-        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
-    -
-      psalm: PSALM_106_3
-      antiphon:
-        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
-  verse: |
-    V/ Il révèle à Jacob sa parole,
-    ses volontés et ses lois à Israël.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_16
+    - psalm: PSALM_118_16
       antiphon:
         - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
-    -
-      psalm: PSALM_33_1
-    -
-      psalm: PSALM_33_2
+    - psalm: PSALM_33_1
+    - psalm: PSALM_33_2

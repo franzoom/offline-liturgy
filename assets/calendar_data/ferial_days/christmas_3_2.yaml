@@ -1,37 +1,29 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_84
-    -
-      psalm: OT_20
-    -
-      psalm: PSALM_66
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_67_1
-    -
-      psalm: PSALM_67_2
-    -
-      psalm: PSALM_67_3
+    - psalm: PSALM_67_1
+    - psalm: PSALM_67_2
+    - psalm: PSALM_67_3
+
+morning:
+  psalmody:
+    - psalm: PSALM_84
+    - psalm: OT_20
+    - psalm: PSALM_66
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_13
-    -
-      psalm: PSALM_73_1
-    -
-      psalm: PSALM_73_2
+    - psalm: PSALM_118_13
+    - psalm: PSALM_73_1
+    - psalm: PSALM_73_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_124
-    -
-      psalm: PSALM_130
-    -
-      psalm: NT_9
+    - psalm: PSALM_124
+    - psalm: PSALM_130
+    - psalm: NT_9
   oration:
     - Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu ; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne.

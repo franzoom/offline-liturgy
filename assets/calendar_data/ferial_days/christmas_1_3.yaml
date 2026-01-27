@@ -1,56 +1,48 @@
 invitatory:
   antiphon:
     - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
-morning:
-  psalmody:
-    -
-      psalm: PSALM_35
-      antiphon:
-        - Le Verbe était la vraie lumière qui éclaire tout homme.
-    -
-      psalm: OT_7
-      antiphon:
-        - Je chanterai pour mon Dieu un chant nouveau.
-    -
-      psalm: PSALM_46
-      antiphon:
-        - Acclamez Dieu par vos cris de joie.
+
 readings:
   psalmody:
-    -
-      psalm: PSALM_17_1
+    - psalm: PSALM_17_1
       antiphon:
         - Qui invoquera le nom de Jésus sera sauvé.
-    -
-      psalm: PSALM_17_2
+    - psalm: PSALM_17_2
       antiphon:
         - Qui invoquera le nom de Jésus sera sauvé.
-    -
-      psalm: PSALM_17_3
+    - psalm: PSALM_17_3
       antiphon:
         - Qui invoquera le nom de Jésus sera sauvé.
+
+morning:
+  psalmody:
+    - psalm: PSALM_35
+      antiphon:
+        - Le Verbe était la vraie lumière qui éclaire tout homme.
+    - psalm: OT_7
+      antiphon:
+        - Je chanterai pour mon Dieu un chant nouveau.
+    - psalm: PSALM_46
+      antiphon:
+        - Acclamez Dieu par vos cris de joie.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_2
+    - psalm: PSALM_118_2
       antiphon:
         - Nous avons vu la gloire de Dieu sur la face de son Christ.
-    -
-      psalm: PSALM_16_1
-    -
-      psalm: PSALM_16_2
+    - psalm: PSALM_16_1
+    - psalm: PSALM_16_2
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_26_1
+    - psalm: PSALM_26_1
       antiphon:
         - Tu es la vraie lumière, le Sauveur du monde.
-    -
-      psalm: PSALM_26_2
+    - psalm: PSALM_26_2
       antiphon:
         - Tu es la vraie lumière, le Sauveur du monde.
-    -
-      psalm: NT_6
+    - psalm: NT_6
       antiphon:
         - Tu es l’image du Dieu invisible, le premier-né avant toute créature.
   oration:

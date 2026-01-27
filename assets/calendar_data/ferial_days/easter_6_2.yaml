@@ -2,18 +2,62 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+
+readings:
+  psalmody:
+    - psalm: PSALM_36_1
+      antiphon:
+        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
+    - psalm: PSALM_36_2
+      antiphon:
+        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
+    - psalm: PSALM_36_3
+      antiphon:
+        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
+  biblicalReading:
+    - title: La foi du croyant face au monde
+      ref: 1Jn 2, 12-17
+      content: "Je vous l’écris, petits enfants : Vos péchés vous sont remis à cause du nom de Jésus. Je vous l’écris, parents : Vous connaissez celui qui existe depuis le commencement. Je vous l’écris, jeunes gens : Vous avez vaincu le Mauvais. Je vous l’ai écrit, enfants : Vous connaissez le Père. Je vous l’ai écrit, parents : Vous connaissez celui qui existe depuis le commencement. Je vous l’ai écrit, jeunes gens : Vous êtes forts, la parole de Dieu demeure en vous, vous avez vaincu le Mauvais. N’aimez pas le monde, ni ce qui est dans le monde. Si quelqu’un aime le monde, l’amour du Père n’est pas en lui. Tout ce qu’il y a dans le monde — la convoitise de la chair, la convoitise des yeux, l’arrogance de la richesse —, tout cela ne vient pas du Père, mais du monde. Or, le monde passe, et sa convoitise avec lui. Mais celui qui fait la volonté de Dieu demeure pour toujours."
+      responsory: |
+        R/ Qui fait la volonté de Dieu, alléluia,
+        demeure éternellement, alléluia, alléluia !
+
+        L’herbe sèche et la fleur se fane :
+        le monde passe avec ses convoitises.
+
+        Si quelqu’un aime le monde,
+        l’amour du Père n’est pas en lui.
+
+        Si quelqu’un aime son frère,
+        il marche dans la lumière.
+  patristicReading:
+    - title: COMMENTAIRE DE SAINT CYRILLE D’ALEXANDRIE SUR L’ÉVANGILE DE JEAN
+      subtitle: Le mystère de l’unité
+      content: |
+        Nous bénéficions d’une union même corporelle avec le Christ, nous qui participons à sa chair sacrée. Saint Paul en témoigne lorsqu’il dit à propos du mystère de la piété :
+        *Ce mystère, Dieu ne l’avait pas fait connaître aux hommes des générations passées comme il l’a révélé maintenant par l’Esprit à ses saints apôtres et à ses prophètes. Ce mystère, c’est que les païens sont associés au même héritage, au même corps, au partage de la même promesse dans le Christ*. Si nous formons tous entre nous un même corps dans le Christ, et non pas seulement entre nous, mais avec lui, puisque évidemment il est en nous par sa propre chair, comment donc notre unité entre nous et dans le Christ n’est-elle pas déjà visible ? Car le Christ est le lien de unité, étant en lui-même Dieu et homme. Quant à l’unité dans l’Esprit, nous suivrons le même chemin et nous dirons encore qu’ayant tous reçu un seul et même Esprit, je veux dire l’Esprit Saint, nous sommes en quelque sorte mêlés intimement les uns avec les autres et avec Dieu. En effet, bien que nous soyons une multitude d’individus, et que le Christ fasse demeurer en chacun de nous l’Esprit de son Père qui est le sien, il n’y a cependant qu’un seul Esprit indivisible, qui rassemble en lui-même des esprits distincts les uns des autres du fait de leur existence individuelle, et qui les fait apparaître pour ainsi dire comme ayant tous une seule existence en lui. De même que la vertu de la chair sacrée fait un seul corps de tous ceux en qui elle est venue, de la même manière, à mon avis, l’Esprit de Dieu un et indivisible qui nous habite nous conduit tous à l’unité spirituelle. C’est pourquoi saint Paul nous exhortait ainsi : *Supportez-vous les uns les autres avec amour ; rassemblés dans la paix, ayez à cœur de garder l’unité dans un même Esprit, comme votre vocation vous a tous appelés à une seule espérance. Il n’y a qu’un seul Seigneur, une seule foi, un seul baptême, un seul Dieu et Père de tous, qui est au-dessus de tous, parmi tous, et en tous*. Si l’unique Esprit habite en nous, le Dieu unique, Père de tous, sera en nous, et il conduira par son Fils à l’union mutuelle et à l’union avec lui tout ce qui participe de l’Esprit. Que nous soyons unis au Saint-Esprit par une participation, cela aussi est visible, et voici comment. Si nous abandonnons une vie purement naturelle pour obéir une bonne fois aux lois de l’Esprit, ne sera-t-il pas évident pour tous qu’après avoir pour ainsi dire renoncé à notre vie propre, et réalisé l’union avec l’Esprit, nous avons obtenu une condition céleste, si bien que nous avons comme changé de nature ? Nous ne sommes plus seulement des hommes, mais en outre nous sommes des fils de Dieu, des hommes célestes, puisque nous sommes devenus participants de la nature divine. Tous, nous sommes donc un seul être dans le Père, le Fils et le Saint-Esprit. Un seul être, dis-je, dans une identité d’état, ~ un seul être dans un progrès conforme à la piété, par notre communion à la chair sacrée du Christ, par notre communion à l’unique Esprit Saint.
+      responsory: |
+        R/ Un seul troupeau, un seul berger !
+
+        Le Seigneur va rassembler ses enfants dispersés,
+        il en fera une seule nation,
+        et un seul roi régnera sur eux.
+
+        Le Christ, notre paix, a détruit les séparations :
+        en un seul corps,
+        il nous rassemble par la croix.
+  oration:
+    - Garde à ton peuple sa joie, Seigneur, toi qui refais ses forces et sa jeunesse ; tu nous as rendu la dignité de fils de Dieu, affermis-nous dans l’espérance de la résurrection.
+
 morning:
   psalmody:
-    -
-      psalm: PSALM_42
+    - psalm: PSALM_42
       antiphon:
         - Vous avez approché de Sion, la cité du Dieu vivant, alléluia.
-    -
-      psalm: OT_23
+    - psalm: OT_23
       antiphon:
         - Tu as retenu mon âme devant la fosse du néant, alléluia.
-    -
-      psalm: PSALM_64
+    - psalm: PSALM_64
       antiphon:
         - Tu visites notre terre et nous combles de richesses, alléluia.
   reading:
@@ -24,93 +68,39 @@ morning:
   intercession:
     content: |
       Supplions le Père d’écouter Jésus toujours vivant qui intercède pour les hommes :
-      
+
       R/ Dans ton amour, souviens-toi de nous !
-      
+
       Dieu, maître de la vie,
       restaure en nous l’image de ton Fils :
       – que nous devenions en lui des créatures nouvelles.
-      
+
       Détruis les germes de mensonge et de perversité :
       – que nous vivions dans la vérité du Christ.
-      
+
       Donne-nous d’abattre les murs qui séparent
       – et de bâtir la ville où tous ensemble ne font qu’un.
-      
+
       Change notre cœur de pierre en cœur de chair :
       – que nous renaissions d’en haut.
-readings:
-  psalmody:
-    -
-      psalm: PSALM_36_1
-      antiphon:
-        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
-    -
-      psalm: PSALM_36_2
-      antiphon:
-        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
-    -
-      psalm: PSALM_36_3
-      antiphon:
-        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
-  biblicalReading:
-    -
-      title: La foi du croyant face au monde
-      ref: 1Jn 2, 12-17
-      content: "Je vous l’écris, petits enfants : Vos péchés vous sont remis à cause du nom de Jésus. Je vous l’écris, parents : Vous connaissez celui qui existe depuis le commencement. Je vous l’écris, jeunes gens : Vous avez vaincu le Mauvais. Je vous l’ai écrit, enfants : Vous connaissez le Père. Je vous l’ai écrit, parents : Vous connaissez celui qui existe depuis le commencement. Je vous l’ai écrit, jeunes gens : Vous êtes forts, la parole de Dieu demeure en vous, vous avez vaincu le Mauvais. N’aimez pas le monde, ni ce qui est dans le monde. Si quelqu’un aime le monde, l’amour du Père n’est pas en lui. Tout ce qu’il y a dans le monde — la convoitise de la chair, la convoitise des yeux, l’arrogance de la richesse —, tout cela ne vient pas du Père, mais du monde. Or, le monde passe, et sa convoitise avec lui. Mais celui qui fait la volonté de Dieu demeure pour toujours."
-      responsory: |
-        R/ Qui fait la volonté de Dieu, alléluia,
-        demeure éternellement, alléluia, alléluia !
-        
-        L’herbe sèche et la fleur se fane :
-        le monde passe avec ses convoitises.
-        
-        Si quelqu’un aime le monde,
-        l’amour du Père n’est pas en lui.
-        
-        Si quelqu’un aime son frère,
-        il marche dans la lumière.
-  patristicReading:
-    -
-      title: COMMENTAIRE DE SAINT CYRILLE D’ALEXANDRIE SUR L’ÉVANGILE DE JEAN
-      subtitle: Le mystère de l’unité
-      content: |
-        Nous bénéficions d’une union même corporelle avec le Christ, nous qui participons à sa chair sacrée. Saint Paul en témoigne lorsqu’il dit à propos du mystère de la piété :
-        *Ce mystère, Dieu ne l’avait pas fait connaître aux hommes des générations passées comme il l’a révélé maintenant par l’Esprit à ses saints apôtres et à ses prophètes. Ce mystère, c’est que les païens sont associés au même héritage, au même corps, au partage de la même promesse dans le Christ*. Si nous formons tous entre nous un même corps dans le Christ, et non pas seulement entre nous, mais avec lui, puisque évidemment il est en nous par sa propre chair, comment donc notre unité entre nous et dans le Christ n’est-elle pas déjà visible ? Car le Christ est le lien de unité, étant en lui-même Dieu et homme. Quant à l’unité dans l’Esprit, nous suivrons le même chemin et nous dirons encore qu’ayant tous reçu un seul et même Esprit, je veux dire l’Esprit Saint, nous sommes en quelque sorte mêlés intimement les uns avec les autres et avec Dieu. En effet, bien que nous soyons une multitude d’individus, et que le Christ fasse demeurer en chacun de nous l’Esprit de son Père qui est le sien, il n’y a cependant qu’un seul Esprit indivisible, qui rassemble en lui-même des esprits distincts les uns des autres du fait de leur existence individuelle, et qui les fait apparaître pour ainsi dire comme ayant tous une seule existence en lui. De même que la vertu de la chair sacrée fait un seul corps de tous ceux en qui elle est venue, de la même manière, à mon avis, l’Esprit de Dieu un et indivisible qui nous habite nous conduit tous à l’unité spirituelle. C’est pourquoi saint Paul nous exhortait ainsi : *Supportez-vous les uns les autres avec amour ; rassemblés dans la paix, ayez à cœur de garder l’unité dans un même Esprit, comme votre vocation vous a tous appelés à une seule espérance. Il n’y a qu’un seul Seigneur, une seule foi, un seul baptême, un seul Dieu et Père de tous, qui est au-dessus de tous, parmi tous, et en tous*. Si l’unique Esprit habite en nous, le Dieu unique, Père de tous, sera en nous, et il conduira par son Fils à l’union mutuelle et à l’union avec lui tout ce qui participe de l’Esprit. Que nous soyons unis au Saint-Esprit par une participation, cela aussi est visible, et voici comment. Si nous abandonnons une vie purement naturelle pour obéir une bonne fois aux lois de l’Esprit, ne sera-t-il pas évident pour tous qu’après avoir pour ainsi dire renoncé à notre vie propre, et réalisé l’union avec l’Esprit, nous avons obtenu une condition céleste, si bien que nous avons comme changé de nature ? Nous ne sommes plus seulement des hommes, mais en outre nous sommes des fils de Dieu, des hommes célestes, puisque nous sommes devenus participants de la nature divine. Tous, nous sommes donc un seul être dans le Père, le Fils et le Saint-Esprit. Un seul être, dis-je, dans une identité d’état, ~ un seul être dans un progrès conforme à la piété, par notre communion à la chair sacrée du Christ, par notre communion à l’unique Esprit Saint.
-      responsory: |
-        R/ Un seul troupeau, un seul berger !
-        
-        Le Seigneur va rassembler ses enfants dispersés,
-        il en fera une seule nation,
-        et un seul roi régnera sur eux.
-        
-        Le Christ, notre paix, a détruit les séparations :
-        en un seul corps,
-        il nous rassemble par la croix.
-  oration:
-    - Garde à ton peuple sa joie, Seigneur, toi qui refais ses forces et sa jeunesse ; tu nous as rendu la dignité de fils de Dieu, affermis-nous dans l’espérance de la résurrection.
+
 middleOfDay:
   psalmody:
-    -
-      psalm: PSALM_118_7
+    - psalm: PSALM_118_7
       antiphon:
         - Alléluia, alléluia, alléluia !
-    -
-      psalm: PSALM_52
-    -
-      psalm: PSALM_53
+    - psalm: PSALM_52
+    - psalm: PSALM_53
+
 vespers:
   psalmody:
-    -
-      psalm: PSALM_48_1
+    - psalm: PSALM_48_1
       antiphon:
         - Recherchez les biens d’en haut, non les choses de la terre, alléluia.
-    -
-      psalm: PSALM_48_2
+    - psalm: PSALM_48_2
       antiphon:
         - Le Seigneur rachète ma vie aux griffes de la mort, alléluia.
-    -
-      psalm: NT_9
+    - psalm: NT_9
       antiphon:
         - Tu nous as rachetés par ton sang, Seigneur, tu fis de nous un peuple de rois.
   evangelicAntiphon:
@@ -118,20 +108,20 @@ vespers:
   intercession:
     content: |
       Demandons au Christ d’achever par l’Esprit Saint ce qu’il a commencé dans son Église :
-      
+
       R/ Exauce-nous, Seigneur ressuscité !
-      
+
       Jésus, souviens-toi de l’Église, née de ton côté ouvert :
       – qu’elle y puise l’eau et le sang dont elle vit.
-      
+
       Rappelle-toi l’humble amour de Pierre, à qui tu as confié la charge du troupeau :
       – garde à son successeur le même amour dans la même foi.
-      
+
       Rappelle-toi les bords du lac et la pêche miraculeuse :
       – rends fructueux le labeur des missionnaires.
-      
+
       Rappelle-toi le repas que tu préparais pour tes amis :
       – donne-nous le goût du pain partagé.
-      
+
       Souviens-toi que tu as brisé les portes de la mort :
       – rassemble dans ton Royaume tous nos frères défunts.

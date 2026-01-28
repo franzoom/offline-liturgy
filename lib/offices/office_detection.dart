@@ -5,6 +5,8 @@ import '../tools/date_tools.dart';
 import '../tools/constants.dart';
 import '../tools/convert_yaml_to_dart.dart';
 
+/// function returning the possible offices for a given day
+
 /// Data extracted from a celebration YAML file
 class CelebrationYamlData {
   final String? title;
@@ -241,7 +243,8 @@ Future<List<DetectedCelebration>> detectCelebrations(
 
       if (yamlData != null) {
         celebrationDescription = yamlData.description;
-        celebrationLiturgicalColor = yamlData.color ?? celebrationLiturgicalColor;
+        celebrationLiturgicalColor =
+            yamlData.color ?? celebrationLiturgicalColor;
         commonList = yamlData.commons;
 
         // Use title as map key, build full name with subtitle

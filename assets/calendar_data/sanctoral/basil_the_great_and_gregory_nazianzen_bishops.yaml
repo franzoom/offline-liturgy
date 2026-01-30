@@ -3,7 +3,6 @@ celebration:
   subtitle: évêques et docteurs de l’Église
   description: |
     Basile (330-379) mena d’abord la vie monastique et il rédigea des Règles que suivent encore de nos jours les moines d’Orient, puis il devint évêque de Césarée, sa ville natale (370). Tant par son action que par ses écrits il s’affirma comme le défenseur énergique des pauvres, le mainteneur de la liberté de l’Église et de l’intégrité de la foi.
-
     Ami de Basile, dont il partagea la vie d’étudiant et de moine, Grégoire le Théologien (330‑389/390) fut, durant dix-huit mois, évêque de Constantinople (381) mais, peu doué pour l’action, il se retira ensuite à Nazianze où il était né. Il devait y vivre dans la contemplation de Dieu et la composition d’ouvrages d’une grande profondeur de pensée.
   commons:
     - pastors_multiple
@@ -25,11 +24,24 @@ readings:
         On aurait cru que nous avions à nous deux une seule âme, responsable de deux corps. Et s’il ne faut pas croire ceux qui prétendent que tout est dans tout, il faut nous croire quand nous disons que nous étions l’un dans l’autre et l’un auprès de l’autre.
         Nous n’avions tous deux qu’une seule affaire : la vertu, et notre vie était dirigée vers les espérances futures, pour nous préparer à quitter ce monde en y renonçant déjà. C’est dans cette perspective que nous organisions toute notre vie et notre manière de faire. Nous nous laissions conduire par la loi de Dieu, en nous stimulant mutuellement à l’amour de la vertu. Et si ce n’est pas trop me vanter que de le dire, chacun de nous était pour l’autre une règle et un modèle permettant de distinguer le bien et le mal. ~
         Chacun porte un surnom qui lui vient de ses parents ou de son propre fonds, d’après ses goûts particuliers ou ses occupations. Mais pour nous, la grande affaire et le grand nom, c’était d’être chrétiens et d’en porter le nom.
-      responsory: R/ À qui la poursuit, Dieu donne la Sagesse.
+      responsory: |
+        R/ À qui la poursuit, Dieu donne la Sagesse.
+
+        Si l’un de vous manque de sagesse,
+        qu’il demande à Dieu,
+        car Dieu la donne généreusement.
+
+        Tout don parfait
+        descend du Père des lumières
+        chez qui n’existe aucun changement.
 
 morning:
   evangelicAntiphon:
     common: Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.
+
+vespers:
+  evangelicAntiphon:
+    common: Qui onserve le plus petit de mes commandements sera grand dans le Royaume de Dieu.
 
 
 

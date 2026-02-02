@@ -21,7 +21,7 @@ firstVespers:
   reading:
     biblicalReference: Ac 10, 37-38
     content: "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
-  responsory: |
+  responsory: |-
     R/ Fils bien-aimé de Dieu,
     l’Esprit du Seigneur repose sur toi.
     V/ La voix du Seigneur domine les eaux. R/
@@ -29,7 +29,7 @@ firstVespers:
   evangelicAntiphon:
     common: Le Sauveur vient au baptême relever notre humanité déchue, nous guérir à travers les eaux et nous vêtir d’immortalité.
   intercession:
-    content: |
+    content: |-
       En ce jour où le Christ, notre Rédempteur, a voulu être baptisé par Jean dans le Jourdain, supplions-le :
 
       R/Seigneur, envoie sur nous ton Esprit.
@@ -66,13 +66,13 @@ readings:
     - psalm: PSALM_65_2
       antiphon:
         - Peuples, bénissez notre Dieu, c’est lui qui nous donne la vie.
-  verse: |
+  verse: |-
     V/ Celui-ci est mon Fils bien-aimé,
     Écoutez-le.
   biblicalReading:
     - title: Le « serviteur » de Dieu, lumière des peuples
       ref: Is 42, 1-9; 49, 1-9
-      content: |
+      content: |-
         Voici mon serviteur que je soutiens, mon élu qui a toute ma faveur. J’ai fait reposer sur lui mon esprit ; aux nations, il proclamera le droit. Il ne criera pas, il ne haussera pas le ton, il ne fera pas entendre sa voix au-dehors. Il ne brisera pas le roseau qui fléchit, il n’éteindra pas la mèche qui faiblit, il proclamera le droit en vérité. Il ne faiblira pas, il ne fléchira pas, jusqu’à ce qu’il établisse le droit sur la terre, et que les îles lointaines aspirent à recevoir ses lois.
         Ainsi parle Dieu, le SEIGNEUR, qui crée les cieux et les déploie, qui affermit la terre et ce qu’elle produit ; il donne le souffle au peuple qui l’habite, et l’esprit à ceux qui la parcourent :
         Moi, le SEIGNEUR, je t’ai appelé selon la justice ; je te saisis par la main, je te façonne, je fais de toi l’alliance du peuple, la lumière des nations : tu ouvriras les yeux des aveugles, tu feras sortir les captifs de leur prison, et, de leur cachot, ceux qui habitent les ténèbres.
@@ -87,7 +87,7 @@ readings:
   patristicReading:
     - title: SERMON DE SAINT GRÉGOIRE DE NAZIANZE POUR LA FÊTE DES LUMIÈRES
       subtitle: « Ceux qui voient la lumière sont dans la lumière »
-      content: |
+      content: |-
         Le Christ est illuminé par le baptême, resplendissons avec lui ; il est plongé dans l’eau, descendons avec lui pour remonter avec lui. ~
         Jean est en train de baptiser, et Jésus s’approche ; peut-être pour sanctifier celui qui va le baptiser ; certainement pour ensevelir tout entier le vieil Adam au fond de l’eau. Mais avant cela et en vue de cela, il sanctifie le Jourdain. Et comme il est esprit et chair, il veut pouvoir initier par l’eau et par l’Esprit.
         Le Baptiste n’accepte pas de le baptiser. Jésus insiste. Mais : *C’est moi qui ai besoin d’être baptisé par toi*. Voilà comment la lampe s’adresse au soleil, la voix à la Parole, l’ami de l’Époux à l’Époux,*le plus grand des enfants des femmes au premier-né de toute la création*; celui qui avait bondi dans le sein de sa mère à celui qui avait été adoré dans le sein de la sienne, le précurseur présent et futur à celui qui vient d’apparaître et qui réapparaîtra.*C’est moi qui ai besoin d’être baptisé par toi*. Que Jean ajoute donc : et en me sacrifiant pour toi. Il savait en effet qu’il recevrait le baptême du martyre ; ou, comme Pierre, que ses pieds ne seraient pas seuls purifiés. ~
@@ -113,14 +113,14 @@ morning:
   reading:
     biblicalReference: Is 61, 1-2a
     content: L’Esprit du Seigneur est sur moi parce que le Seigneur m’a consacré par l’onction. Il m’a envoyé porter la bonne nouvelle aux pauvres, guérir ceux qui ont le cœur brisé, annoncer aux prisonniers la délivrance, et aux captifs la liberté, annoncer une année de bienfaits accordée par le Seigneur.
-  responsory: |
+  responsory: |-
     R/ Gloire à toi, Messie de Dieu, Fils du Dieu vivant !
     V/ Tu es venu par l’eau et par le sang. R/
     V/ Le ciel s’est ouvert, le Père a parlé. R/
   evangelicAntiphon:
     common: "Marqué du signe de l’Esprit, Jésus remonte des eaux ; le Précurseur le reconnaît et prophétise : Voici l’Agneau qui nous donne la paix et consacre le monde."
   intercession:
-    content: |
+    content: |-
       Supplions le Messie qui fut manifesté aux hommes en recevant le baptême de Jean :
 
       R/Kyrie, eleison.
@@ -146,7 +146,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 11, 1-2
       content: "Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
-    responsory: |
+    responsory: |-
       V/ Il faut que lui grandisse,
       et que je diminue.
   sexte:
@@ -154,7 +154,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 42, 1
       content: Voici mon serviteur que je soutiens, mon élu en qui j’ai mis toute ma joie. J’ai fait reposer sur lui mon esprit, devant les nations il fera paraître le jugement que j’ai prononcé.
-    responsory: |
+    responsory: |-
       V/ Voici mon serviteur que je soutiens,
       mon élu en qui j’ai mis toute ma joie.
   none:
@@ -162,7 +162,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 49, 6
       content: "Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
-    responsory: |
+    responsory: |-
       V/ J’ai fait reposer sur lui mon Esprit,
       il sera la lumière des nations.
 
@@ -182,7 +182,7 @@ vespers:
   reading:
     biblicalReference: Ac 10, 37-38
     content: "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
-  responsory: |
+  responsory: |-
     R/ Fils bien-aimé de Dieu,
     l’Esprit du Seigneur repose sur toi.
     V/ La voix du Seigneur domine les eaux. R/
@@ -190,7 +190,7 @@ vespers:
   evangelicAntiphon:
     common: Jésus nous a aimés, il nous a lavés de nos péchés par son sang. Jésus a fait de nous un royaume et des prêtres pour Dieu son Père. À lui gloire et puissance pour toujours !
   intercession:
-    content: |
+    content: |-
       En ce jour où le Christ, notre Rédempteur, a voulu être baptisé par Jean dans le Jourdain, supplions-le :
 
       R/Seigneur, envoie sur nous ton Esprit.

@@ -8,18 +8,31 @@ import '../offices/readings/readings_extract.dart';
 import '../offices/vespers/vespers_extract.dart';
 
 /// Builds the hierarchy of common file names from a common name.
-/// For example: 'saints-female_religious_paschal' returns:
-/// ['saints-female', 'saints-female_religious', 'saints-female_religious_paschal']
-/// If liturgicalTime is a privileged time and not already at the end of commonName,
-/// appends '_$liturgicalTime' to commonName. (for exemple adds "_lent" to "virgins"
-/// if liturgical time is Lent)
+/// For example: 'saints-female_religious' with paschal returns:
+/// ['saints-female', 'saints-female_paschal', 'saints-female_paschal_religious']
+/// If liturgicalTime is a privileged time and not already present in commonName,
+/// inserts '_$liturgicalTime' after the first element.
 List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
+  commonName = commonName.trim().toLowerCase();
   String effectiveCommonName = commonName;
+
+  // Check if commonName already contains a liturgical time
+  bool hasLiturgicalTime = liturgicalTime != null &&
+      privilegedTimes.any((time) => commonName.contains('_$time'));
+
   if (liturgicalTime != null &&
       privilegedTimes.contains(liturgicalTime) &&
-      !commonName.endsWith('_$liturgicalTime')) {
-    effectiveCommonName = '${commonName}_$liturgicalTime';
+      !hasLiturgicalTime) {
+    List<String> parts = commonName.split('_');
+    if (parts.length > 1) {
+      // Insert liturgical time after first element
+      parts.insert(1, liturgicalTime);
+      effectiveCommonName = parts.join('_');
+    } else {
+      effectiveCommonName = '${commonName}_$liturgicalTime';
+    }
   }
+
   List<String> parts = effectiveCommonName.split('_');
   List<String> commonsToTry = [
     for (int i = 0; i < parts.length; i++) parts.sublist(0, i + 1).join('_')
@@ -32,7 +45,6 @@ List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
 Future<Morning> loadMorningHierarchicalCommon(
     CelebrationContext context) async {
   if (context.common == null) return Morning();
-
   Morning result = Morning();
   for (String level
       in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
@@ -48,7 +60,6 @@ Future<Morning> loadMorningHierarchicalCommon(
 Future<Readings> loadReadingsHierarchicalCommon(
     CelebrationContext context) async {
   if (context.common == null) return Readings();
-
   Readings result = Readings();
   for (String level
       in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
@@ -64,7 +75,6 @@ Future<Readings> loadReadingsHierarchicalCommon(
 Future<Vespers> loadVespersHierarchicalCommon(
     CelebrationContext context) async {
   if (context.common == null) return Vespers();
-
   Vespers result = Vespers();
   for (String level
       in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {

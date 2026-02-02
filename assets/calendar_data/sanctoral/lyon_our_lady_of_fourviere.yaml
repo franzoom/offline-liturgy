@@ -1,134 +1,120 @@
 celebration:
   title: Notre-Dame de Fourvière
   subtitle: (samedi après le 2ème dimanche de Pâques)
-  description: Le culte de Notre-Dame de Fourvière est connu dès le Xème siècle. Détruite au cours des guerres dites « de religion », la chapelle fut reconstruite en 1586 par le Chapitre de Lyon. Après la grande peste de 1628, la cité se mit solennellement sous la protection de Marie le 8 septembre 1643. Plus tard s’éleva sur la colline un sanctuaire plus vaste qui fut rendu au culte le 19 avril 1803 par le pape Pie VII lui-même, qui bénit solennellement, depuis la terrasse, la ville et le diocèse. Enfin se dressa la basilique actuelle, au cours des trente dernières années du XIXème siècle. 
+  description: Le culte de Notre-Dame de Fourvière est connu dès le Xème siècle. Détruite au cours des guerres dites « de religion », la chapelle fut reconstruite en 1586 par le Chapitre de Lyon. Après la grande peste de 1628, la cité se mit solennellement sous la protection de Marie le 8 septembre 1643. Plus tard s’éleva sur la colline un sanctuaire plus vaste qui fut rendu au culte le 19 avril 1803 par le pape Pie VII lui-même, qui bénit solennellement, depuis la terrasse, la ville et le diocèse. Enfin se dressa la basilique actuelle, au cours des trente dernières années du XIXème siècle.
   commons:
     - virgin-mary
   color: white
   location: lyon
 invitatory:
   antiphon:
-    - Le Christ est né de Marie, venez, adorons-le. 
+    - Le Christ est né de Marie, venez, adorons-le.
 morning:
   psalmody:
-    -
-      psalm: PSALM_62
+    - psalm: PSALM_62
       antiphon:
         - Tu es toute belle, ô Marie, et la tache originelle n’est pas en toi, alléluia.
-    -
-      psalm: OT_41
+    - psalm: OT_41
       antiphon:
-        - Tu es bénie, Vierge Marie, par le Dieu très haut, plus que toutes les femmes de la terre, alléluia. 
-    -
-      psalm: PSALM_149
+        - Tu es bénie, Vierge Marie, par le Dieu très haut, plus que toutes les femmes de la terre, alléluia.
+    - psalm: PSALM_149
       antiphon:
-        - Attire-nous à ta suite, Vierge Immaculée, nous courrons à l’odeur suave de tes parfums, alléluia. 
+        - Attire-nous à ta suite, Vierge Immaculée, nous courrons à l’odeur suave de tes parfums, alléluia.
   reading:
     biblicalReference: Is 43, 1
     content: "Ainsi parle le Seigneur, lui qui t’a créé, Jacob, et t’a façonné, Israël : Ne crains pas, car je t’ai racheté, je t’ai appelé par ton nom, tu es à moi."
-  responsory: |
+  responsory: |-
     R/ Le Seigneur m’a comblée de joie, 
     \* Alléluia, Alléluia. 
     V/ Il m’a revêtue de sainteté. 
     \*	Alléluia, Alléluia. 
-    Gloire au Père. R/ Le Seigneur. 
+    Gloire au Père. R/ Le Seigneur.
 
   evangelicAntiphon:
-    common: |
+    common: |-
       Le Seigneur Dieu dit au serpent : Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance. Celle-ci te meurtrira à la tête, alléluia.
 readings:
   psalmody:
-    -
-      psalm: PSALM_23
+    - psalm: PSALM_23
       antiphon:
         - Marie obtiendra bénédiction du Seigneur, et justice du Dieu, son Sauveur, alléluia.
-    -
-      psalm: PSALM_45
+    - psalm: PSALM_45
       antiphon:
         - Dieu la reconnut dès l’aurore, le Très-Haut a sanctifié sa demeure, alléluia.
-    -
-      psalm: PSALM_86
+    - psalm: PSALM_86
       antiphon:
         - "On chante ta gloire, ô Marie : car le Puissant a fait pour toi des merveilles, alléluia."
   biblicalReading:
-    -
-      title: 
-      ref: Rm 5, 12-21 
-      content: |
+    - title:
+      ref: Rm 5, 12-21
+      content: |-
         Nous savons que par un seul homme, le péché est entré dans le monde, et que par le péché est venue la mort ; et ainsi, la mort est passée en tous les hommes, étant donné que tous ont péché. Avant la loi de Moïse, le péché était déjà dans le monde, mais le péché ne peut être imputé à personne tant qu’il n’y a pas de loi. Pourtant, depuis Adam jusqu’à Moïse, la mort a établi son règne, même sur ceux qui n’avaient pas péché par une transgression semblable à celle d’Adam. Or, Adam préfigure celui qui devait venir. Mais il n'en va pas du don gratuit comme de la faute. En effet, si la mort a frappé la multitude par la faute d’un seul, combien plus la grâce de Dieu s’est-elle répandue en abondance sur la multitude, cette grâce qui est donnée en un seul homme, Jésus Christ. Le don de Dieu et les conséquences du péché d’un seul n’ont pas la même mesure non plus : d’une part, en effet, pour la faute d’un seul, le jugement a conduit à la condamnation ; d’autre part, pour une multitude de fautes, le don gratuit de Dieu conduit à la justification. Si, en effet, à cause d’un seul homme, par la faute d’un seul, la mort a établi son règne, combien plus, à cause de Jésus Christ et de lui seul, régneront-ils dans la vie, ceux qui reçoivent en abondance le don de la grâce qui les rend justes. Bref, de même que la faute commise par un seul a conduit tous les hommes à la condamnation, de même l’accomplissement de la justice par un seul a conduit tous les hommes à la justification qui donne la vie. En effet, de même que par la désobéissance d’un seul être humain la multitude a été rendue pécheresse, de même par l’obéissance d’un seul la multitude sera-t-elle rendue juste. Quant à la loi de Moïse, elle est intervenue pour que se multiplie la faute ; mais là où le péché s’est multiplié, la grâce a surabondé. Ainsi donc, de même que le péché a établi son règne de mort, de même la grâce doit établir son règne en rendant juste pour la vie éternelle par Jésus Christ notre Seigneur.
-      responsory: |
+      responsory: |-
         R/ Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu, alléluia.
-        
+
         V/ 	Le Seigneur a délivré ton âme de la mort
-        et il est devenu ton défenseur contre l’ennemi. 
+        et il est devenu ton défenseur contre l’ennemi.
 
   patristicReading:
-    -
-      title: HOMÉLIE DE SAINT ANDRÉ DE CRÈTE POUR LA NATIVITÉ DE MARIE
-      content: |
+    - title: HOMÉLIE DE SAINT ANDRÉ DE CRÈTE POUR LA NATIVITÉ DE MARIE
+      content: |-
         Aujourd’hui, la noblesse immaculée et originelle de l’homme recouvre la grâce de sa première éclosion des mains de Dieu et revient à elle. La dégénérescence du péché avait obscurci le charme et la beauté de cette noblesse d’origine. Mais lorsque naît la mère de la Beauté suprême, notre nature retrouve sa pureté et se voit façonnée selon le modèle parfait et digne de Dieu. Ce façonnement est une restauration, une divinisation, une assimilation à l’état primitif... 	
         À l’origine, l’homme avait été formé d’une terre pure et sans tâche ; mais sa nature s’était vue privée de sa dignité innée lorsqu’elle avait été dépouillée de la grâce par la chute de la désobéissance et chassée du pays de vie. Au lieu d’un paradis de délices, elle n’avait plus qu’une vie corruptible à nous transmettre comme patrimoine héréditaire, une vie d’où s’ensuivrait la mort avec sa conséquence, la corruption de la race. Tous, nous avions préféré le monde d’en bas à celui d’en haut. Il ne restait aucun espoir de salut ; l’état de notre nature appelait le ciel à notre secours. Point de loi qui pût guérir notre infirmité : ni la loi naturelle ni la loi écrite ; point davantage le verbe enflammé des prophètes et leurs paroles de réconciliation ; personne qui fût capable de redresser la nature, rien qui lui rendît une chance de recouvrer plus ou moins facilement sa noblesse première. Enfin, en son bon plaisir, le divin artisan de l’univers décida de faire paraître un monde neuf, un autre monde - tout d’harmonie et de jeunesse - d’où serait repoussée la contagion envahissante du péché et de la mort, sa compagne. Une vie toute nouvelle, libre et dégagée nous serait offerte, à nous qui trouvions dans le baptême une naissance nouvelle et toute divine. 
         Mais comment devait nous atteindre ce don si grand, si surprenant et si digne des habitudes de Dieu ? Cela se pouvait-il mieux que par la manifestation de Dieu dans la chair, sa soumission aux lois de notre nature, son acceptation d’une condition nouvelle pour lui, toute semblable à la nôtre ? Et ce dessein, comment le mener à bien ? Ne convenait-il pas qu’une vierge très pure et sans tache se mit d’abord au service de ce plan mystérieux, et devint enceinte de l’être infini, selon un mode transcendant les lois naturelles ? Et cette vierge, où la trouver, sinon en cette femme unique entre toutes, élue du Créateur de l’univers avant toutes les générations ? Oui, c’est elle la Mère de Dieu, Marie au nom divin, dont le sein a donné le jour au Dieu incarné, et qu’il s’était lui-même préparée surnaturellement pour temple ... 
-        Ainsi donc, le dessein du Rédempteur de notre race était de produire une naissance et comme une création nouvelle pour remplacer le passé ; aussi, de même qu’au paradis il avait puisé dans la terre vierge et sans tache un peu de limon pour en façonner le premier Adam, de même, au moment de réaliser sa propre incarnation, il se servit d’une autre terre, pour ainsi dire, à savoir de cette Vierge pure et immaculée, choisie parmi toutes les créatures. C’est en elle qu’il nous refit à neuf à partir de notre substance même et devint un nouvel Adam, lui le Créateur d’Adam, afin que l’ancien fût sauvé par le nouveau et l’éternel. 
+        Ainsi donc, le dessein du Rédempteur de notre race était de produire une naissance et comme une création nouvelle pour remplacer le passé ; aussi, de même qu’au paradis il avait puisé dans la terre vierge et sans tache un peu de limon pour en façonner le premier Adam, de même, au moment de réaliser sa propre incarnation, il se servit d’une autre terre, pour ainsi dire, à savoir de cette Vierge pure et immaculée, choisie parmi toutes les créatures. C’est en elle qu’il nous refit à neuf à partir de notre substance même et devint un nouvel Adam, lui le Créateur d’Adam, afin que l’ancien fût sauvé par le nouveau et l’éternel.
 
-      responsory: |
+      responsory: |-
         R/ Magnifiez avec moi le Seigneur :
         Car il est grand son amour pour moi, alléluia. 
-        
+
         V/ Désormais tous les âges me diront bienheureuse. 
-        Car il est grand l’amour du Seigneur pour moi, alléluia. 
+        Car il est grand l’amour du Seigneur pour moi, alléluia.
 middleOfDay:
   psalmody:
-    -
-      antiphon: Alléluia, alléluia, alléluia !
-    -
-      antiphon: Alléluia, alléluia, alléluia !
-    -
-      antiphon: Alléluia, alléluia, alléluia !
+    - antiphon: Alléluia, alléluia, alléluia !
+    - antiphon: Alléluia, alléluia, alléluia !
+    - antiphon: Alléluia, alléluia, alléluia !
   tierce:
     reading:
-      biblicalReference: Ep 1,4.11-12a 
-      content: |
+      biblicalReference: Ep 1,4.11-12a
+      content: |-
         Dieu nous a choisis, dans le Christ, avant la fondation du monde, pour que nous soyons saints, immaculés devant lui, dans l’amour. En lui, nous sommes devenus le domaine particulier de Dieu, nous y avons été prédestinés selon le projet de celui qui réalise tout ce qu’il a décidé : il a voulu que nous vivions à la louange de sa gloire.
-    responsory: |
+    responsory: |-
       V/ Le Seigneur m’a comblée de joie, alléluia.
       Il m’a revêtue de sainteté, alléluia.
 
   sexte:
     reading:
-      biblicalReference: Ep 1,4.11-12a 
-      content: |
+      biblicalReference: Ep 1,4.11-12a
+      content: |-
         Dieu nous a choisis, dans le Christ, avant la fondation du monde, pour que nous soyons saints, immaculés devant lui, dans l’amour. En lui, nous sommes devenus le domaine particulier de Dieu, nous y avons été prédestinés selon le projet de celui qui réalise tout ce qu’il a décidé : il a voulu que nous vivions à la louange de sa gloire.
-    responsory: |
+    responsory: |-
       V/ Le Seigneur m’a comblée de joie, alléluia.
       Il m’a revêtue de sainteté, alléluia.
   none:
     reading:
-      biblicalReference: Ep 1,4.11-12a 
-      content: |
+      biblicalReference: Ep 1,4.11-12a
+      content: |-
         Dieu nous a choisis, dans le Christ, avant la fondation du monde, pour que nous soyons saints, immaculés devant lui, dans l’amour. En lui, nous sommes devenus le domaine particulier de Dieu, nous y avons été prédestinés selon le projet de celui qui réalise tout ce qu’il a décidé : il a voulu que nous vivions à la louange de sa gloire.
-    responsory: |
+    responsory: |-
       V/ Le Seigneur m’a comblée de joie, alléluia.
       Il m’a revêtue de sainteté, alléluia.
 
 vespers:
   psalmody:
-    -
-      psalm: PSALM_121
+    - psalm: PSALM_121
       antiphon:
         - Tu es toute belle, ô Marie, et la tache originelle n’est pas en toi, alléluia.
-    -
-      psalm: PSALM_126
+    - psalm: PSALM_126
       antiphon:
-        - Tu es la gloire de Jérusalem, tu es la joie d'Israël, tu es l'honneur de notre peuple, alléluia. 
-    -
-      psalm: NT_4
+        - Tu es la gloire de Jérusalem, tu es la joie d'Israël, tu es l'honneur de notre peuple, alléluia.
+    - psalm: NT_4
       antiphon:
-        - Ton vêtement est blanc comme la neige et ton visage comme le soleil, alléluia. 
+        - Ton vêtement est blanc comme la neige et ton visage comme le soleil, alléluia.
   reading:
     biblicalReference: Rm 5,20-21
     content: Là où le péché s’est multiplié, la grâce a surabondé. Ainsi donc, de même que le péché a établi son règne de mort, de même la grâce doit établir son règne en rendant juste pour la vie éternelle par Jésus Christ notre Seigneur.
-  responsory: |
+  responsory: |-
     R/ 	J’ai su que tu m’as aimée, 
     \*	Alléluia, alléluia. 
     V/ En ce que mon ennemi ne se réjouira pas à mon sujet.
@@ -136,8 +122,8 @@ vespers:
     Gloire au Père. R/ J’ai su.
 
   evangelicAntiphon:
-    common: |
+    common: |-
       Réjouis-toi Marie ; le Seigneur est avec toi ; tu es bénie entre toutes les femmes, et le fruit de tes entrailles est béni, alléluia.
-  
+
 oration:
   - Seigneur, par la conception immaculée de la Vierge Marie, tu as préparé à ton Fils une demeure digne de lui et par une grâce venant déjà de la mort de ton Fils, tu l’as préservée de tout péché ; accorde-nous par son intercession de parvenir jusqu’à toi, purifiés de tout mal. Par Jésus Christ...

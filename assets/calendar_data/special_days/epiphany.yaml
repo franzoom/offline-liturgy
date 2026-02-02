@@ -20,7 +20,7 @@ firstVespers:
   reading:
     biblicalReference: 2 Tm 1, 9-10
     content: Dieu nous a sauvés, et il nous a donné une vocation sainte, non pas à cause de nos propres actes, mais à cause de son projet à lui et de sa grâce. Cette grâce nous avait été donnée dans le Christ Jésus avant tous les siècles, et maintenant elle est devenue visible à nos yeux, car notre Sauveur, le Christ Jésus, s’est manifesté en détruisant la mort, et en faisant resplendir la vie et l’immortalité par l’annonce de l’Évangile.
-  responsory: |
+  responsory: |-
     R/ À notre Dieu et à son Christ,
     la royauté sur l’univers, alléluia !
     V/ Que les peuples du monde le bénissent !R/
@@ -28,7 +28,7 @@ firstVespers:
   evangelicAntiphon:
     common: "À la vue de l’étoile, les mages se dirent entre eux : Voici le règne du grand Roi, allons à sa recherche ; offrons-lui en présent l’or, l’encens et la myrrhe, alléluia."
   intercession:
-    content: |
+    content: |-
       Adorons celui que Dieu a révélé comme la lumière du monde et le salut des peuples :
 
       R/Jésus, Roi de gloire et Seigneur de justice !
@@ -65,17 +65,17 @@ readings:
     - psalm: PSALM_96
       antiphon:
         - Qui ne te craindrait, Seigneur, roi des nations, à ton nom qui ne rendrait gloire ?
-  verse: |
+  verse: |-
     V/ Les cieux ont proclamé sa justice,
     tous les peuples ont vu sa gloire.
   biblicalReading:
     - title: La Gloire du Seigneur s’est levée sur toi
       ref: Is 60, 1-22
-      content: |
+      content: |-
         Debout, Jérusalem, resplendis ! Elle est venue, ta lumière, et la gloire du SEIGNEUR s’est levée sur toi. Voici que les ténèbres couvrent la terre, et la nuée obscure couvre les peuples. Mais sur toi se lève le SEIGNEUR, sur toi sa gloire apparaît. Les nations marcheront vers ta lumière, et les rois, vers la clarté de ton aurore. Lève les yeux alentour, et regarde : tous, ils se rassemblent, ils viennent vers toi ; tes fils reviennent de loin, et tes filles sont portées sur la hanche. Alors tu verras, tu seras radieuse, ton cœur frémira et se dilatera. Les trésors d’au-delà des mers afflueront vers toi, vers toi viendront les richesses des nations. En grand nombre, des chameaux t’envahiront, de jeunes chameaux de Madiane et d’Épha. Tous les gens de Saba viendront, apportant l’or et l’encens ; ils annonceront les exploits du SEIGNEUR. Tous les troupeaux de Qédar s’assembleront chez toi, avec les béliers de Nebayoth pour ton service : sur mon autel, ils seront présentés en sacrifice agréable, et je donnerai son éclat à la maison de ma splendeur.
         Qui sont ceux-là qui volent comme un nuage, comme des colombes vers leur colombier ? Oui, les îles mettent leur espoir en moi : les vaisseaux de Tarsis viennent en tête pour ramener tes fils du lointain, portant leur argent et leur or, en hommage au nom du SEIGNEUR ton Dieu, en hommage au Saint d’Israël, car il t’a donné sa splendeur. Des étrangers rebâtiront tes remparts, et leurs rois seront à ton service. Oui, dans ma colère je t’avais frappée, mais dans ma bienveillance je t’ai fait miséricorde. On tiendra toujours tes portes ouvertes, elles ne seront jamais fermées, ni de jour ni de nuit, afin qu’on fasse entrer chez toi les richesses des nations et les rois avec leur suite. Car nation ou royaume qui ne te servirait pas périra ; ces nations-là seront entièrement dévastées. La gloire du Liban viendra chez toi : cyprès, orme et mélèze ensemble, pour faire resplendir le lieu de mon sanctuaire ; et ce lieu où je pose mes pieds, je le glorifierai. Les fils de ceux qui t’humiliaient viendront se courber devant toi ; tous ceux qui te méprisaient se prosterneront à tes pieds. Ils t’appelleront « Ville du SEIGNEUR », « Sion du Saint d’Israël ».
         Alors que tu étais délaissée, haïe, sans personne qui passe, je ferai de toi la fierté des siècles, une joie de génération en génération. Tu suceras le lait des nations, tu te gorgeras de la richesse des rois, et tu sauras que moi, le SEIGNEUR, je suis ton Sauveur, ton rédempteur, Force de Jacob. Au lieu de bronze, je ferai venir de l’or, au lieu de fer, je ferai venir de l’argent, au lieu de bois, du bronze, au lieu de pierres, du fer. Je te donnerai, comme surveillants, la paix, comme gouvernants, la justice. On n’entendra plus parler de violence dans ton pays, de ravages ni de ruines dans tes frontières. Tu appelleras tes remparts « Salut », et tes portes « Louange ». Le jour, tu n’auras plus le soleil comme lumière, et la clarté de la lune ne t’illuminera plus : le SEIGNEUR sera pour toi lumière éternelle, ton Dieu sera ta splendeur. Ton soleil ne se couchera plus, et la lune pour toi ne disparaîtra plus ; car le SEIGNEUR sera pour toi lumière éternelle, et les jours de ton deuil seront accomplis. Ton peuple ne comptera que des justes ; ils posséderont le pays pour toujours, eux, ce rejeton que j’ai planté, ouvrage de mes mains qui manifeste ma splendeur. Le plus petit deviendra un millier, le plus chétif, une nation puissante. Moi, le SEIGNEUR, je hâterai cela au temps voulu.
-      responsory: |
+      responsory: |-
         Ville au sommet des montagnes,
         en toi resplendit la gloire du Christ
         pour éclairer le monde,
@@ -96,7 +96,7 @@ readings:
   patristicReading:
     - title: SERMON DE SAINT LÉON LE GRAND POUR L’ÉPIPHANIE
       subtitle: Dans tout l’univers, le Seigneur a fait connaître son salut
-      content: |
+      content: |-
         La miséricordieuse providence de Dieu a voulu, sur la fin des temps, venir au secours du monde en détresse. Elle décida que le salut de toutes les nations se ferait dans le Christ. ~
         C’est à propos de ces nations que le saint patriarche Abraham, autrefois, reçut la promesse d’une descendance innombrable, engendrée non par la chair, mais par la foi ; aussi est-elle comparée à la multitude des étoiles, car on doit attendre du père de toutes les nations une postérité non pas terrestre, mais céleste. ~
         Que l’universalité des nations entre donc dans la famille des patriarches ; que les fils de la promesse reçoivent la bénédiction en appartenant à la race d’Abraham, ce qui les fait renoncer à leur filiation charnelle. En la personne des trois mages, que tous les peuples adorent le Créateur de l’univers ; et que Dieu ne soit plus*connu*seulement*en Judée*, mais sur la terre entière afin que partout, comme*en Israël, son nom soit grand*. ~
@@ -104,7 +104,7 @@ readings:
         Ce jour-là, David le chantait dans les psaumes : *Toutes les nations, toutes celles que tu as faites, viendront t’adorer, Seigneur, et rendre gloire à ton nom.*Et encore : *Le Seigneur a fait connaître son salut, aux yeux des païens révélé sa justice*.
         Nous savons bien que tout cela s’est réalisé quand une étoile guida les trois mages, appelés de leur lointain pays, pour leur faire connaître et adorer le Roi du ciel et de la terre. Cette étoile nous invite toujours à suivre cet exemple d’obéissance et à nous soumettre, autant que nous le pouvons, à cette grâce qui attire tous les hommes vers le Christ. ~
         Dans cette recherche, mes bien-aimés, vous devez tous vous entraider afin de parvenir au royaume de Dieu par la foi droite et les bonnes actions, et d’y resplendir comme des fils de lumière ; par Jésus Christ notre Seigneur, qui vit et règne avec le Père et le Saint-Esprit, pour les siècles des siècles. Amen.
-      responsory: |
+      responsory: |-
         Ville au sommet des montagnes,
         en toi resplendit la gloire du Christ
         pour éclairer le monde,
@@ -132,7 +132,7 @@ morning:
   reading:
     biblicalReference: Is 52, 7-10
     content: "Comme il est beau de voir courir sur les montagnes le messager qui annonce la paix, le messager de la bonne nouvelle, qui annonce le salut, celui qui vient dire à la cité sainte : « Il est roi, ton Dieu ! » Écoutez la voix des guetteurs, leur appel retentit, c’est un seul cri de joie ; ils voient de leurs yeux le Seigneur qui revient à Sion. Éclatez en cris de joie, ruines de Jérusalem, car le Seigneur a consolé son peuple. Il rachète Jérusalem ! Le Seigneur a montré la force divine de son bras aux yeux de toutes les nations. Et, d’un bout à l’autre de la terre, elles verront le salut de notre Dieu."
-  responsory: |
+  responsory: |-
     R/ Lève-toi, resplendis, car elle est venue, ta lumière !
     \* La gloire du Seigneur s’est levée sur toi.
     V/ Regarde alentour : tous les peuples viennent vers toi. \*
@@ -141,7 +141,7 @@ morning:
   evangelicAntiphon:
     common: "Aujourd’hui, l’Église est unie à son Époux : le Christ, au Jourdain, la purifie de ses fautes, les mages apportent leurs présents aux noces royales, l’eau est changée en vin, pour la joie des convives, alléluia."
   intercession:
-    content: |
+    content: |-
       À la suite des mages, adorons notre Sauveur et chantons sa louange :
 
       R/Lumière née de la Lumière, illumine ce jour !
@@ -174,7 +174,7 @@ middleOfDay:
     reading:
       biblicalReference: Ap 15, 4
       content: Qui ne te craindrait, Seigneur ? À ton nom qui ne rendrait gloire ? Seul tu es saint ! Toutes les nations viendront se prosterner devant toi.
-    responsory: |
+    responsory: |-
       V/ Il est apparu sur la terre,
       il a vécu parmi les hommes.
   sexte:
@@ -182,7 +182,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 49, 6
       content: "Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
-    responsory: |
+    responsory: |-
       V/ Les nations verront ta justice,
       tous les rois verront ta gloire.
   none:
@@ -190,7 +190,7 @@ middleOfDay:
     reading:
       biblicalReference: Za 2,15
       content: En ce jour-là, des nations nombreuses s’attacheront au Seigneur, elles seront pour moi un peuple, et j’habiterai au milieu de toi. Tu sauras que le Seigneur de l’univers m’a envoyé vers toi.
-    responsory: |
+    responsory: |-
       V/ Peuples, bénissez notre Dieu,
       faites retentir sa louange.
 
@@ -210,14 +210,14 @@ vespers:
   reading:
     biblicalReference: Tt 3, 4-5
     content: Lorsque Dieu, notre Sauveur, a manifesté sa bonté et sa tendresse pour les hommes, il nous a sauvés. Il l’a fait dans sa miséricorde, et non pas à cause d’actes méritoires que nous aurions accomplis par nous-mêmes. Par le bain du baptême, il nous a fait renaître et nous a renouvelés dans l’Esprit Saint.
-  responsory: |
+  responsory: |-
     R/ À notre Dieu et à son Christ, la royauté sur l’univers, alléluia !
     V/ Que les peuples du monde le bénissent !R/
     V/ Toute la terre soit remplie de sa gloire !R/
   evangelicAntiphon:
     common: Nous célébrons trois mystères en ce jour. Aujourd’hui l’étoile a conduit les mages vers la crèche ; aujourd’hui l’eau fut changée en vin aux noces de Cana ; aujourd’hui le Christ a été baptisé par Jean dans le Jourdain pour nous sauver, alléluia.
   intercession:
-    content: |
+    content: |-
       Adorons celui que Dieu a révélé comme la lumière du monde et le salut des peuples :
 
       R/Jésus, Roi de gloire et Seigneur de justice !

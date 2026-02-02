@@ -21,7 +21,7 @@ firstVespers:
   reading:
     biblicalReference: 2 Co 8, 9
     content: "Vous connaissez la générosité de notre Seigneur Jésus Christ : lui qui est riche, il est devenu pauvre à cause de vous, pour que vous deveniez riches par sa pauvreté."
-  responsory: |
+  responsory: |-
     R/ Le Verbe s’est fait chair.
     \* Alléluia, alléluia !
     V/ Il a demeuré parmi nous. \*
@@ -47,13 +47,13 @@ readings:
     - psalm: PSALM_86
       antiphon:
         - Nous sommes les concitoyens des saints, nous sommes de la famille de Dieu.
-  verse: |
+  verse: |-
     V/ Tes fils seront tous instruits par le Seigneur,
     ils goûteront un bonheur sans limites.
   biblicalReading:
     - title: L’amour chrétien inaugure de nouvelles relations familiales
       ref: Ep 5, 21 – 6, 4
-      content: |
+      content: |-
         Par respect pour le Christ, soyez soumis les uns aux autres ; les femmes, à leur mari, comme au Seigneur Jésus ; car, pour la femme, le mari est la tête, tout comme, pour l’Église, le Christ est la tête, lui qui est le Sauveur de son corps. Eh bien ! puisque l’Église se soumet au Christ, qu’il en soit toujours de même pour les femmes à l’égard de leur mari.
         Vous, les hommes, aimez votre femme à l’exemple du Christ : il a aimé l’Église, il s’est livré lui-même pour elle, afin de la rendre sainte en la purifiant par le bain de l’eau baptismale, accompagné d’une parole ; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni rien de tel ; il la voulait sainte et immaculée. C’est de la même façon que les maris doivent aimer leur femme : comme leur propre corps. Celui qui aime sa femme s’aime soi-même. Jamais personne n’a méprisé son propre corps : au contraire, on le nourrit, on en prend soin. C’est ce que fait le Christ pour l’Église, parce que nous sommes les membres de son corps. Comme dit l’Écriture : À cause de cela, l’homme quittera son père et sa mère, il s’attachera à sa femme, et tous deux ne feront plus qu’un. Ce mystère est grand : je le dis en référence au Christ et à l’Église.
         Pour en revenir à vous, chacun doit aimer sa propre femme comme lui-même, et la femme doit avoir du respect pour son mari. Vous, les enfants, obéissez à vos parents dans le Seigneur, car c’est cela qui est juste : Honore ton père et ta mère, c’est le premier commandement qui soit assorti d’une promesse : ainsi tu seras heureux et tu auras longue vie sur la terre. Et vous, les parents, ne poussez pas vos enfants à la colère, mais élevez-les en leur donnant une éducation et des avertissements inspirés par le Seigneur.
@@ -61,7 +61,7 @@ readings:
   patristicReading:
     - title: HOMÉLIE DE SAINT PAUL VI À NAZARETH (5 janvier 1964)
       subtitle: L’exemple de Nazareth.
-      content: |
+      content: |-
         Nazareth est l’école où l’on commence à comprendre la vie de Jésus : l’école de l’Évangile. Ici, on apprend à regarder, à écouter, à méditer et à pénétrer la signification, si profonde et si mystérieuse, de cette très simple, très humble et très belle manifestation du Fils de Dieu. Peut-être apprend-on même insensiblement à imiter. Ici, on apprend la méthode qui nous permettra de comprendre qui est le Christ. Ici, on découvre le besoin d’observer le cadre de son séjour parmi nous : les lieux, les temps, les coutumes, le langage, les pratiques religieuses, tout ce dont s’est servi Jésus pour se révéler au monde. Ici, tout parle, tout a un sens. Ici, à cette école, on comprend la nécessité d’avoir une discipline spirituelle, si l’on veut suivre l’enseignement de l’Évangile et devenir disciple du Christ. Oh, comme nous voudrions redevenir enfant et nous remettre à cette humble et sublime école de Nazareth, comme nous voudrions près de Marie recommencer à acquérir la vraie science de la vie et la sagesse supérieure des vérités divines !
         Mais nous ne faisons que passer. Il nous faut laisser ce désir de poursuivre ici l’éducation, jamais achevée, à l’intelligence de l’Évangile. Nous ne partirons pas cependant sans avoir recueilli à la hâte, et comme à la dérobée, quelques brèves leçons de Nazareth.
         Une leçon de silence d’abord. Que renaisse en nous l’estime du silence, cette admirable et indispensable condition de l’esprit, en nous qui sommes assaillis par tant de clameurs, de fracas et de cris dans notre vie moderne, bruyante et hyper sensibilisée. Ô silence de Nazareth, enseigne-nous le recueillement, l’intériorité, la disposition à écouter les bonnes inspirations et les paroles des vrais maîtres ; enseigne-nous le besoin et la valeur des préparations, de l’étude, de la méditation, de la vie personnelle et intérieure, de la prière que Dieu seul voit dans le secret.
@@ -85,7 +85,7 @@ morning:
   reading:
     biblicalReference: Dt 5, 16
     content: Honore ton père et ta mère, comme te l’a commandé le Seigneur ton Dieu, afin d’avoir longue vie et bonheur sur la terre que te donne le Seigneur ton Dieu.
-  responsory: |
+  responsory: |-
     R/ Jésus, fils de Marie,
     \* Tu es le Christ, le Fils du Dieu vivant.
     V/ Plein de grâce et de vérité. \*
@@ -94,7 +94,7 @@ morning:
   evangelicAntiphon:
     common: Que ta famille, Seigneur Jésus, nous soit une lumière et conduise nos pas au chemin de la paix.
   intercession:
-    content: |
+    content: |-
       Le Fils du Dieu vivant a voulu naître dans une famille humaine ; adorons-le, supplions-le :
 
       R/Sanctifie-nous, Jésus, par ton obéissance.
@@ -121,7 +121,7 @@ middleOfDay:
     reading:
       biblicalReference: Col 3, 12-13
       content: "Puisque vous avez été choisis par Dieu, que vous êtes ses fidèles et ses bien-aimés, revêtez votre cœur de tendresse et de bonté, d’humilité, de douceur, de patience. Supportez-vous mutuellement et pardonnez, si vous avez des reproches à vous faire. Agissez comme le Seigneur : il vous a pardonné, faites de même."
-    responsory: |
+    responsory: |-
       V/ Le Seigneur nous enseignera ses chemins,
       nous suivrons ses sentiers.
   sexte:
@@ -129,7 +129,7 @@ middleOfDay:
     reading:
       biblicalReference: Col 3, 14-15
       content: "Par-dessus tout, qu’il y ait pour vous l’amour : c’est lui qui fait l’unité dans la perfection. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés pour former en lui un seul corps. Vivez dans l’action de grâce."
-    responsory: |
+    responsory: |-
       V/ Appelez le bonheur sur Jérusalem :
       Paix à ceux qui l’aiment !
   none:
@@ -137,7 +137,7 @@ middleOfDay:
     reading:
       biblicalReference: Col 3, 17
       content: Tout ce que vous dites, tout ce que vous faites, que ce soit toujours au nom du Seigneur Jésus Christ, en offrant par lui votre action de grâce à Dieu le Père.
-    responsory: |
+    responsory: |-
       V/ Tous tes fils seront disciples du Seigneur,
       grande sera la paix de tes fils.
 
@@ -155,7 +155,7 @@ vespers:
   reading:
     biblicalReference: Ph 2, 6-7
     content: Le Christ Jésus, lui qui était dans la condition de Dieu, n’a pas jugé bon de revendiquer son droit d’être traité à l’égal de Dieu ; mais au contraire, il se dépouilla lui-même en prenant la condition de serviteur. Devenu semblable aux hommes, il a été reconnu comme un homme à son comportement.
-  responsory: |
+  responsory: |-
     R/ Dieu, notre Père, béni soit ton Fils,
     \* Jésus, notre Sauveur !
     V/ Il s’est anéanti, prenant la condition de serviteur, \*
@@ -165,7 +165,7 @@ vespers:
   evangelicAntiphon:
     common: Pourquoi nous as-tu fait cela ? Nous te cherchions tout angoissés. — Pourquoi me cherchiez-vous ? Il me faut être chez mon Père.
   intercession:
-    content: |
+    content: |-
       Adorons le Fils de Dieu, qui a voulu avoir une famille humaine :
 
       R/Jésus, notre modèle, Jésus, notre Sauveur !

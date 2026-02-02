@@ -21,7 +21,7 @@ firstVespers:
   reading:
     biblicalReference: Ga 4, 4-5
     content: Lorsque les temps furent accomplis, Dieu a envoyé son Fils ; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils.
-  responsory: |
+  responsory: |-
     R/ Aujourd’hui, le Seigneur viendra.
     \* Au matin, vous verrez sa gloire !
     V/ Les temps sont accomplis. \*
@@ -29,7 +29,7 @@ firstVespers:
   evangelicAntiphon:
     common: Quand le soleil apparaîtra, vous verrez le Roi des rois venu du Père s’élancer, tel un époux, hors de sa tente.
   intercession:
-    content: |
+    content: |-
       Adorons le Christ qui s’est fait semblable à nous, sauf le péché. Prions-le avec la ferveur de la foi :
 
       R/Jésus, notre Sauveur et notre frère, exauce-nous !
@@ -68,26 +68,26 @@ readings:
     - psalm: PSALM_44
       antiphon:
         - Tu es le plus beau des enfants de l’homme, le Seigneur Dieu t’a consacré.
-  verse: |
+  verse: |-
     V/ Le Verbe s’est fait chair, alléluia.
     Il a demeuré parmi nous, alléluia.
   biblicalReading:
     - title: L’Esprit du Seigneur est sur lui
       ref: Is 11, 1-10
-      content: |
+      content: |-
         Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du SEIGNEUR : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du SEIGNEUR — qui lui inspirera la crainte du SEIGNEUR.
         Il ne jugera pas sur l’apparence ; il ne se prononcera pas sur des rumeurs. Il jugera les petits avec justice ; avec droiture, il se prononcera en faveur des humbles du pays. Du bâton de sa parole, il frappera le pays ; du souffle de ses lèvres, il fera mourir le méchant. La justice est la ceinture de ses hanches ; la fidélité est la ceinture de ses reins.
         Le loup habitera avec l’agneau, le léopard se couchera près du chevreau, le veau et le lionceau seront nourris ensemble, un petit garçon les conduira. La vache et l’ourse auront même pâture, leurs petits auront même gîte.
         Le lion, comme le bœuf, mangera du fourrage. Le nourrisson s’amusera sur le nid du cobra ; sur le trou de la vipère, l’enfant étendra la main.
         Il n’y aura plus de mal ni de corruption sur toute ma montagne sainte ; car la connaissance du SEIGNEUR remplira le pays comme les eaux recouvrent le fond de la mer.
         Ce jour-là, la racine de Jessé, père de David, sera dressée comme un étendard pour les peuples, les nations la chercheront, et la gloire sera sa demeure.
-      responsory: |
+      responsory: |-
         R/ Ô merveilleux échange ! Mystère de l’amour :
         Jésus, nous demeurons en toi !
-  
+
   patristicReading:
     - title: SERMON DE SAINT LÉON LE GRAND POUR NOËL
-      content: |
+      content: |-
         Notre Sauveur, mes bien-aimés, est né aujourd’hui : réjouissons-nous ! Il n’est pas permis d’être triste, lorsqu’on célèbre l’anniversaire de la vie. Celui-ci détruit la crainte d’avoir à mourir, il nous donne la joie de l’éternité promise.
         Personne n’est tenu à l’écart de cette allégresse, car le même motif de joie est commun à tous. Notre Seigneur, chargé de détruire le péché et la mort, n’ayant trouvé personne qui en fût affranchi, est venu en affranchir tous les hommes. Que le saint exulte, car il approche du triomphe. Que le pécheur se réjouisse, car il est invité au pardon. Que le païen prenne courage, car il est appelé à la vie.
         En effet, le Fils de Dieu, à la plénitude des temps fixée dans la profondeur impénétrable du plan divin, a épousé la nature humaine pour la réconcilier avec son Créateur ; c’est ainsi que le démon, inventeur de la mort, allait être vaincu par cette nature même qu’il avait vaincue. ~
@@ -95,7 +95,7 @@ readings:
         Mes bien-aimés, il nous faut donc rendre grâce à Dieu le Père, par son Fils, dans l’Esprit Saint ; avec la grande miséricorde dont il nous a aimés, il nous a pris en pitié, et alors que*nous qui étions des morts par suite de nos fautes, il nous a donné la vie avec le Christ*pour que*nous soyons en lui**une création nouvelle*, une nouvelle œuvre de ses mains.
         Rejetons donc*l’homme ancien avec ses agissements*, et puisque nous sommes admis à participer à la naissance du Christ, renonçons à notre conduite charnelle.
         Chrétien, prends conscience de ta dignité. Puisque tu*participes*maintenant à*la nature divine*, ne dégénère pas en venant à la déchéance de ta vie passée. Rappelle-toi à quel chef tu appartiens, et de quel corps tu es membre. Souviens-toi que tu as été*arraché au pouvoir des ténèbres pour être placé dans la lumière et le royaume de Dieu*. Par le sacrement de baptême, tu es devenu temple du Saint-Esprit. Garde-toi de mettre en fuite un hôte si noble par tes actions mauvaises, et de retomber ainsi dans l’esclavage du démon, car tu as été racheté par le sang du Christ.
-      responsory: |
+      responsory: |-
         R/ Ô merveilleux échange ! Mystère de l’amour :
         Jésus, nous demeurons en toi !
 
@@ -115,7 +115,7 @@ morning:
   reading:
     biblicalReference: He 1, 1-2
     content: Souvent, dans le passé, Dieu a parlé à nos pères par les prophètes sous des formes fragmentaires et variées ; mais, dans les derniers temps, dans ces jours où nous sommes, il nous a parlé par ce Fils qu’il a établi héritier de toutes choses et par qui il a créé les mondes.
-  responsory: |
+  responsory: |-
     R/ Gloire à Dieu, paix aux hommes !
     \* Joie du ciel sur la terre !
     V/ Pour tes merveilles, Seigneur Dieu,
@@ -126,7 +126,7 @@ morning:
   evangelicAntiphon:
     common: "Voici que les oracles s’accomplissent : la lumière du Très-Haut a surgi dans le monde ; la vie nous est donnée ; nous recevons en héritage la joie du Père, alléluia."
   intercession:
-    content: |
+    content: |-
       Louange au Verbe de Dieu !
       Il était avant les siècles, il est né dans le temps :
 
@@ -154,7 +154,7 @@ middleOfDay:
     reading:
       biblicalReference: Tt 2, 11-12
       content: La grâce de Dieu s’est manifestée pour le salut de tous les hommes. C’est elle qui nous apprend à rejeter le péché et les passions d’ici-bas, pour vivre dans le monde présent en hommes raisonnables, justes et religieux.
-    responsory: |
+    responsory: |-
       V/ Le Seigneur s’est rappelé son amour, alléluia ;
       sa fidélité en faveur d’Israël, alléluia.
   sexte:
@@ -162,7 +162,7 @@ middleOfDay:
     reading:
       biblicalReference: 1 Jn 4, 9
       content: "Voici comment Dieu a manifesté son amour parmi nous : Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui."
-    responsory: |
+    responsory: |-
       V/ Tous les confins de la terre ont vu, alléluia,
       le salut de notre Dieu, alléluia.
   none:
@@ -170,7 +170,7 @@ middleOfDay:
     reading:
       biblicalReference: Ac 10, 36
       content: "Dieu a envoyé la Parole aux fils d’Israël, pour leur annoncer la paix de Jésus Christ : c’est lui, Jésus, qui est le Seigneur de tous."
-    responsory: |
+    responsory: |-
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.
 
@@ -190,7 +190,7 @@ vespers:
   reading:
     biblicalReference: 1 Jn 1, 1-3
     content: "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ."
-  responsory: |
+  responsory: |-
     R/ Un enfant nous est né,
     un fils nous est donné.
     \* Gloire à Dieu dans le ciel !
@@ -202,7 +202,7 @@ vespers:
   evangelicAntiphon:
     common: "Aujourd’hui, le Christ est né ; aujourd’hui, le Sauveur est apparu ; aujourd’hui sur la terre exultent les anges et les archanges, aujourd’hui chantent les justes, pleins de joie : Gloire à Dieu au plus haut des cieux, alléluia !"
   intercession:
-    content: |
+    content: |-
       Célébrons le Christ annoncé par les anges, et demandons son amour :
 
       R/Jésus, Sauveur, ton amour soit sur nous !

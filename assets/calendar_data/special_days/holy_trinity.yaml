@@ -19,7 +19,7 @@ firstVespers:
   reading:
     biblicalReference: Rm 11, 33-36
     content: Quelle profondeur dans la richesse, la sagesse et la science de Dieu ! Ses décisions sont insondables, ses chemins sont impénétrables ! Qui a connu la pensée du Seigneur ? Qui a été son conseiller ? Qui lui a donné en premier et mériterait de recevoir en retour ? Car tout est de lui, et par lui, et pour lui. À lui la gloire pour l’éternité ! Amen.
-  responsory: |
+  responsory: |-
     R/ Bénis soient le Père et le Fils et le Saint-Esprit,
     \* Louange et gloire éternellement !
     V/ Pas d’autre Dieu que Dieu. \* Louange.
@@ -27,7 +27,7 @@ firstVespers:
   evangelicAntiphon:
     common: "Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !"
   intercession:
-    content: |
+    content: |-
       Bénis sois-tu, Père tout-puissant :
       ta sainteté est infinie et tu nous l’offres en partage.
 
@@ -56,13 +56,13 @@ readings:
     - psalm: PSALM_32-II
       antiphon:
         - Dieu saint, Dieu juste et saint, Dieu libre et saint ! Bienheureuse Trinité !
-  verse: |
+  verse: |-
     V/ Le Seigneur a fait les cieux par sa parole
     et l’univers par le souffle de sa bouche.
   biblicalReading:
     - title: Le mystère de Dieu
       ref: 1Co 2, 1-16
-      content: |
+      content: |-
         Frères, quand je suis venu chez vous, je ne suis pas venu vous annoncer le mystère de Dieu avec le prestige du langage ou de la sagesse. Parmi vous, je n’ai rien voulu connaître d’autre que Jésus Christ, ce Messie crucifié. Et c’est dans la faiblesse, craintif et tout tremblant, que je me suis présenté à vous. Mon langage, ma proclamation de l’Évangile, n’avaient rien d’un langage de sagesse qui veut convaincre ; mais c’est l’Esprit et sa puissance qui se manifestaient, pour que votre foi repose, non pas sur la sagesse des hommes, mais sur la puissance de Dieu.
 
         Pourtant, c’est bien de sagesse que nous parlons devant ceux qui sont adultes dans la foi, mais ce n’est pas la sagesse de ce monde, la sagesse de ceux qui dirigent ce monde et qui vont à leur destruction. Au contraire, ce dont nous parlons, c’est de la sagesse du mystère de Dieu, sagesse tenue cachée, établie par lui dès avant les siècles, pour nous donner la gloire. Aucun de ceux qui dirigent ce monde ne l’a connue, car, s’ils l’avaient connue, ils n’auraient jamais crucifié le Seigneur de gloire. Mais ce que nous proclamons, c’est, comme dit l’Écriture : *ce que l’œil n’a pas vu, ce que l’oreille n’a pas entendu, ce qui n’est pas venu à l’esprit de l’homme, ce que Dieu a préparé pour ceux dont il est aimé.*
@@ -72,7 +72,7 @@ readings:
   patristicReading:
     - title: LETTRE DE SAINT ATHANASE À SÉRAPION, ÉVÊQUE DE THMUIS
       subtitle: Bienheureuse Trinité, un seul Dieu !
-      content: |
+      content: |-
         Étudions la tradition antique, la doctrine et la foi de l’Église catholique. Le Seigneur l’a donnée, les Apôtres l’ont annoncée, les Pères l’ont gardée. C’est sur elle, en effet, que l’Église a été fondée et, si quelqu’un s’en écarte, il ne peut plus être chrétien ni en porter le nom.
 
         Il y a donc une Trinité sainte et parfaite, reconnue comme Dieu dans le Père, le Fils et le Saint-Esprit ; elle ne comporte rien d’étranger, rien qui lui soit mêlé de l’extérieur ; elle n’est pas constituée du Créateur et du créé, mais elle est tout entière puissance créatrice et productrice. Elle est semblable à elle-même, indivisible par sa nature, et son activité est unique. En effet, le Père fait toutes choses par le Verbe dans l’Esprit Saint, et c’est ainsi que l’unité de la sainte Trinité est sauvegardée. C’est ainsi que dans l’Église est annoncé un seul Dieu,*qui règne au-dessus de tous, par tous et en tous. Au-dessus de tous*, comme Père, comme principe et source ;*par tous*, par le Verbe ;*en tous*, dans l’Esprit Saint. ~
@@ -98,7 +98,7 @@ morning:
   reading:
     biblicalReference: 1 Co 12, 4-6
     content: Les dons de la grâce sont variés, mais c’est toujours le même Esprit. Les fonctions dans l’Église sont variées, mais c’est toujours le même Seigneur. Les activités sont variées, mais c’est toujours le même Dieu qui agit en tous.
-  responsory: |
+  responsory: |-
     R/ Un seul Seigneur, une seule foi,
     un seul baptême, un seul Dieu et Père !
     V/ Appelés à garder l’unité de l’Esprit
@@ -110,7 +110,7 @@ morning:
   evangelicAntiphon:
     common: Bénie soit la Trinité sainte et une, qui crée et gouverne toutes choses maintenant et dans les siècles sans fin.
   intercession:
-    content: |
+    content: |-
       Adorons le Père, le Fils et l’Esprit Saint, rendons gloire à Dieu, l’Unique :
 
       R/Gloire et louange à notre Dieu !
@@ -140,7 +140,7 @@ middleOfDay:
     reading:
       biblicalReference: 2 Co 1, 21-22
       content: "Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs."
-    responsory: |
+    responsory: |-
       V/ Venez dans la maison de Dieu lui rendre grâce.
       Rendons gloire au Père et au Fils et au Saint Esprit.
   sexte:
@@ -148,7 +148,7 @@ middleOfDay:
     reading:
       biblicalReference: Ga 4, 4.5-6
       content: "Dieu a envoyé son Fils pour faire de nous des fils. Et voici la preuve que vous êtes des fils : envoyé de Dieu, l’Esprit de son Fils est dans nos cœurs, et il crie vers le Père en l’appelant « Abba ! »."
-    responsory: |
+    responsory: |-
       V/ Ô bienheureuse Trinité, glorieuse et bénie,
       Père, Fils et Saint-Esprit.
   none:
@@ -156,7 +156,7 @@ middleOfDay:
     reading:
       biblicalReference: Ap 7, 12
       content: Amen ! Louange, gloire, sagesse et action de grâce, honneur, puissance et force à notre Dieu, pour les siècles des siècles ! Amen !
-    responsory: |
+    responsory: |-
       V/ Béni sois-tu, Seigneur, au firmament du ciel :
       À toi, louange et gloire, éternellement.
 
@@ -176,7 +176,7 @@ vespers:
   reading:
     biblicalReference: Ep 4, 3-6
     content: Ayez à cœur de garder l’unité dans l’Esprit par le lien de la paix. Comme votre vocation vous a tous appelés à une seule espérance, de même, il n’y a qu’un seul Corps et un seul Esprit. Il n’y a qu’un seul Seigneur, une seule foi, un seul baptême, un seul Dieu et Père de tous, qui règne au-dessus de tous, par tous, et en tous.
-  responsory: |
+  responsory: |-
     R/ Un seul Seigneur, une seule foi,
     un seul baptême, un seul Dieu et Père !
     V/ Appelés à former un seul Corps dans un seul Esprit,
@@ -186,7 +186,7 @@ vespers:
   evangelicAntiphon:
     common: "Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !"
   intercession:
-    content: |
+    content: |-
       Bénis sois-tu, Père tout-puissant :
       ta sainteté est infinie et tu nous l’offres en partage.
 

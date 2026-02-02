@@ -3,7 +3,6 @@ commonTitle: Commun des Apôtres
 celebration:
   color: red
 
-
 firstVespers:
   hymn:
     - avec-des-cris-de-joie
@@ -20,7 +19,7 @@ firstVespers:
   reading:
     biblicalReference: Ac 2, 42-45
     content: Les frères étaient fidèles à écouter l’enseignement des Apôtres et à vivre en communion fraternelle, à rompre le pain et à participer aux prières. La crainte de Dieu était dans tous les cœurs ; beaucoup de prodiges et de signes s’accomplissaient par les Apôtres. Tous ceux qui étaient devenus croyants vivaient ensemble, et ils mettaient tout en commun ; ils vendaient leurs propriétés et leurs biens, pour en partager le prix entre tous selon les besoins de chacun.
-  responsory: |
+  responsory: |-
     R/ Allez par le monde entier :
     \* Proclamez la Bonne Nouvelle !
     V/ Qui croira et sera baptisé sera sauvé ! \*
@@ -28,7 +27,7 @@ firstVespers:
   evangelicAntiphon:
     common: Ce n’est pas vous qui m’avez choisi, mc’est moi qui vous ai choisis, pour que vous alliez et portiez un fruit qui demeure.
   intercession:
-    content: |
+    content: |-
       Prenons appui sur la foi qui nous vient des Apôtres et prions Dieu pour son peuple saint :
 
       R/Souviens-toi de ton Église, Seigneur.
@@ -48,11 +47,9 @@ firstVespers:
       Toi qui as fait asseoir ton Fils à ta droite dans les cieux,
       — accueille nos morts dans la joie du Royaume.
 
-
 invitatory:
   antiphon:
     - Seigneur Jésus, roi des apôtres, louange à toi !
-
 
 readings:
   hymn:
@@ -67,19 +64,19 @@ readings:
     - psalm: PSALM_96
       antiphon:
         - Ils ont proclamé la justice de Dieu, et tous les peuples ont vu sa gloire.
-  verse: |
+  verse: |-
     V/ Ils ont publié l’œuvre de Dieu,
     ils ont compris ses merveilles.
   biblicalReading:
     - title: Nous prêchons un Messie crucifié
       ref: 1Co 1,18 – 2,5
-      content: |
+      content: |-
         Le langage de la croix est folie pour ceux qui se perdent, mais pour ceux qui sont en train d’être sauvés, pour nous, il est puissance de Dieu. Car il est écrit : *Je détruirai la sagesse des sages et j’anéantirai l’intelligence des intelligents*. Où est le sage ? Où est le docteur de la loi ? Où est le raisonneur de ce siècle ? Dieu n’a-t-il pas rendue folle la sagesse du monde ? En effet, puisque le monde, par le moyen de la sagesse, n’a pas reconnu Dieu dans la sagesse de Dieu, c’est par la folie de la prédication que Dieu a jugé bon de sauver ceux qui croient. Les Juifs demandent des miracles et les Grecs recherchent la sagesse ; mais nous, nous prêchons un messie crucifié, scandale pour les Juifs, folie pour les païens, mais pour ceux qui sont appelés, tant Juifs que Grecs, il est Christ, puissance de Dieu et sagesse de Dieu. Car ce qui est folie de Dieu est plus sage que les hommes et ce qui est faiblesse de Dieu est plus fort que les hommes.
         Considérez, frères, qui vous êtes, vous qui avez reçu l’appel de Dieu : il n’y a parmi vous ni beaucoup de sages aux yeux des hommes, ni beaucoup de puissants, ni beaucoup de gens de bonne famille. Mais ce qui est folie dans le monde, Dieu l’a choisi pour confondre les sages ; ce qui est faible dans le monde, Dieu l’a choisi pour confondre ce qui est fort ; ce qui dans le monde est vil et méprisé, ce qui n’est pas, Dieu l’a choisi pour réduire à rien ce qui est, afin qu’aucune créature ne puisse s’enorgueillir devant Dieu.
         C’est par lui que vous êtes dans le Christ Jésus, qui est devenu pour nous sagesse venant de Dieu, justice, sanctification et délivrance afin, comme dit l’Écriture, que *celui qui s’enorgueillit s’enorgueillisse dans le Seigneur*.
         Moi-même, quand je suis venu chez vous, frères, ce n’est pas avec le prestige de la parole ou de la sagesse que je suis venu vous annoncer le mystère de Dieu. Car j’ai décidé de ne rien savoir parmi vous, sinon Jésus Christ et Jésus Christ crucifié. Aussi ai-je été devant vous faible, craintif et tout tremblant ; ma parole et ma prédication n’avaient rien des discours persuasifs de la sagesse, mais elles étaient une démonstration faite par la puissance de l’Esprit, afin que votre foi ne soit pas fondée sur la sagesse des hommes, mais sur la puissance de Dieu.
 
-      responsory: |
+      responsory: |-
         (stance)
         Ton appel les a lancés
         sur les chemins et les grand-routes.
@@ -98,11 +95,11 @@ readings:
         heureux le peuple dont le Seigneur est le Dieu !
     - title: L’exemple des Apôtres
       ref: 1Co 4, 1-16
-      content: |
+      content: |-
         Qu’on nous considère comme des serviteurs du Christ, et des intendants des mystères de Dieu. Or, ce qu’on demande en fin de compte à des intendants, c’est de se montrer fidèles. Pour moi, il m’importe fort peu d’être jugé par vous ou par un tribunal humain. Je ne me juge pas non plus moi-même. Ma conscience, certes, ne me reproche rien, mais ce n’est pas cela qui me justifie ; celui qui me juge, c’est le Seigneur. Par conséquent, ne jugez pas avant le temps, avant que vienne le Seigneur. C’est lui qui éclairera ce qui est caché dans les ténèbres et mettra en évidence les desseins des cœurs. Alors chacun recevra de Dieu la louange qui lui revient.
         C’est à cause de vous, frères, que j’ai présenté cela sous une autre forme, en l’appliquant à Apollos et à moi-même, afin qu’à notre exemple vous appreniez à ne pas vous enfler d’orgueil en prenant le parti de l’un contre l’autre. Qui te distingue en effet ? Qu’as-tu que tu n’aies reçu ? Et si tu l’as reçu, pourquoi t’enorgueillir comme si tu ne l’avais pas reçu ? Déjà vous êtes rassasiés ! Déjà vous êtes riches ! Sans nous vous êtes rois ! Ah ! Que ne l’êtes-vous pour que nous aussi, nous puissions régner avec vous ! Car je pense que Dieu nous a exposés, nous, les apôtres, à la dernière place, comme des condamnés à mort : nous avons été donnés en spectacle au monde, aux anges et aux hommes. Nous sommes fous à cause du Christ, mais vous, vous êtes sages en Christ ; nous sommes faibles, vous êtes forts ; vous êtes à l’honneur, nous sommes méprisés. A cette heure encore, nous avons faim, nous avons soif, nous sommes nus, maltraités, vagabonds, et nous peinons en travaillant de nos mains. On nous insulte, nous bénissons ; on nous persécute, nous endurons ; on nous calomnie, nous consolons. Nous sommes jusqu’à présent, pour ainsi dire, les ordures du monde, le déchet de l’univers.
         Je ne vous écris pas cela pour vous faire honte, mais pour vous avertir, comme mes enfants bien-aimés. En effet, quand vous auriez dix mille pédagogues en Christ, vous n’avez pas plusieurs pères. C’est moi qui, par l’Évangile, vous ai engendrés en Jésus Christ. Je vous exhorte donc : soyez mes imitateurs.
-      responsory: |
+      responsory: |-
         (stance)
         Ton appel les a lancés
         sur les chemins et les grand-routes.
@@ -120,8 +117,6 @@ readings:
         Heureux le peuple où il en est ainsi,
         heureux le peuple dont le Seigneur est le Dieu !
 
-
-
 morning:
   hymn:
     - faconnes-par-la-parole-du-seigneur
@@ -138,7 +133,7 @@ morning:
   reading:
     biblicalReference: Ep 2, 19-22
     content: Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple  saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction  qui a pour fondations les Apôtres et les prophètes ; et la pierre angulaire, c’est  le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour  devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments  de la construction pour devenir par l’Esprit Saint la demeure de Dieu.
-  responsory: |
+  responsory: |-
     R/ Par toute la terre s’en va leur message,
     \* Et la Bonne Nouvelle aux limites du monde.
     V/ Annoncez à tous les peuples le salut, \*
@@ -146,7 +141,7 @@ morning:
   evangelicAntiphon:
     common: Sur le nom des douze Apôtres est fondée la cité sainte, et sa lumière, c’est l’Agneau.
   intercession:
-    content: |
+    content: |-
       Nous avons reçu des Apôtres un héritage spirituel,
       rendons grâce à Dieu notre Père pour les biens qu’il nous donne.
 
@@ -164,10 +159,10 @@ morning:
       Loué sois-tu pour l’Eucharistie qu’ils nous ont transmise :
       elle est notre force et notre vie.
 
-
 middleOfDay:
   tierce:
-    antiphon: "Allez et proclamez l’Évangile du Royaume : vous avez reçu gratuitement, donnez gratuitement."
+    antiphon: |-
+      Allez et proclamez l’Évangile du Royaume : vous avez reçu gratuitement, donnez gratuitement.
     reading:
       biblicalReference: 2 Co 5, 19b_20
       content: Dieu a mis dans notre bouche la parole de la réconciliation. Nous sommes donc  les ambassadeurs du Christ, et par nous c’est Dieu lui-même qui, en fait, vous adresse  un appel. Au nom du Christ, nous vous le demandons, laissez-vous réconcilier avec  Dieu.
@@ -177,18 +172,18 @@ middleOfDay:
     reading:
       biblicalReference: Ac 5, 12a.14
       content: Par les mains des Apôtres, beaucoup de signes et de prodiges se réalisaient dans  le peuple. Des hommes et des femmes de plus en plus nombreux adhéraient au Seigneur  par la foi.
-    responsory: |
+    responsory: |-
       V/ Ils ont gardé les volontés du Seigneur,
       les lois qu’il leur donna.
   none:
     antiphon: Si vous tenez jusqu’au bout, vous obtiendrez la vie.
     reading:
       biblicalReference: Ac 5, 41-42
-      content: "Les Apôtres, en sortant du grand conseil, repartaient tout joyeux d’avoir été  jugés dignes de subir des humiliations pour le nom de Jésus. Tous les jours, au Temple  et dans leurs maisons, sans cesse, ils enseignaient cette Bonne Nouvelle : Jésus est  le Messie."
-    responsory: |
+      content: |-
+        Les Apôtres, en sortant du grand conseil, repartaient tout joyeux d’avoir été  jugés dignes de subir des humiliations pour le nom de Jésus. Tous les jours, au Temple  et dans leurs maisons, sans cesse, ils enseignaient cette Bonne Nouvelle : Jésus est  le Messie.
+    responsory: |-
       V/ Réjouissez-vous, exultez, dit le Seigneur,
       vos noms sont inscrits dans les cieux.
-
 
 vespers:
   hymn:
@@ -206,7 +201,7 @@ vespers:
   reading:
     biblicalReference: Ep 4, 11-13
     content: Les dons que le Christ a faits aux hommes, ce sont d’abord les Apôtres, puis les  prophètes et les missionnaires de l’Évangile, et aussi les pasteurs et ceux qui enseignent.  De cette manière, le peuple saint est organisé pour que les tâches du ministère soient  accomplies, et que se construise le corps du Christ. Au terme, nous parviendrons  tous ensemble à l’unité dans la foi et la vraie connaissance du Fils de Dieu, à l’état  de l’Homme parfait, à la plénitude de la stature du Christ.
-  responsory: |
+  responsory: |-
     R/ Racontez à tous les peuples
     \* la gloire du Seigneur.
     V/ À toutes les nations ses merveilles, \*
@@ -215,7 +210,7 @@ vespers:
   evangelicAntiphon:
     common: Quand le Fils de l’homme siégera sur son trône de gloire, vous qui m’avez suivi, vous siégerez sur douze trônes, et vous jugerez les douze tribus d’Israël.
   intercession:
-    content: |
+    content: |-
       Prenons appui sur la foi qui nous vient des Apôtres et prions Dieu pour son peuple saint :
 
       R/Souviens-toi de ton Église, Seigneur.

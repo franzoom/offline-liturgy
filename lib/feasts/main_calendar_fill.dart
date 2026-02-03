@@ -492,9 +492,9 @@ void _fillFixedSolemnities(
   });
 
   calendar.addItemToDay(
-      feasts['SAINT_PIETER_AND_SAINT_PAUL']!, 4, 'saint_pieter_and_saint_paul');
+      feasts['saint_pieter_and_saint_paul']!, 4, 'saint_pieter_and_saint_paul');
   calendar.addItemToDay(
-      feasts['SAINT_JOHN_THE_BAPTIST']!, 4, 'saint_john_the_baptist');
+      feasts['saint_john_the_baptist']!, 4, 'saint_john_the_baptist');
   calendar.addItemToDay(DateTime(year, 11, 1), 3, 'all_saints');
   calendar.addItemToDay(
       DateTime(year, 11, 2), 3, 'commemoration_of_all_the_faithful_departed');

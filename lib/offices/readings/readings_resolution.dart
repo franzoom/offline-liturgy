@@ -5,55 +5,56 @@ import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 
-/// Resolves readings prayer for a given celebration context.
-/// requires onlyOration for the Memories: adding only the Oration of the saint,
-/// or adding the chosen Common.
-/// Returns a Readings instance for the celebration.
+/// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsResolution(CelebrationContext context) async {
   Readings readingsOffice = Readings();
-  Readings properReadings = Readings();
 
-  // firstable catches the ferial data if exists (if not feast or solemnity)
+  // STEP 1: Load Ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {
     readingsOffice = await ferialReadingsResolution(context);
   }
 
-  // Load proper celebration data if not ferial
+  // STEP 2: Load Proper celebration data
+  Readings properReadings = Readings();
   if (context.celebrationCode != context.ferialCode) {
-    // Try special directory first, then sanctoral
-    properReadings = await readingsExtract(
-        '$specialFilePath/${context.celebrationCode}.yaml', context.dataLoader);
-
-    if (properReadings.isEmpty) {
-      // File not found in special, try sanctoral
-      properReadings = await readingsExtract(
-          '$sanctoralFilePath/${context.celebrationCode}.yaml', context.dataLoader);
-    }
+    properReadings = await _loadProperReadings(context);
   }
 
-  // For optional celebrations (precedence > 6), apply layers in correct order
-  if ((context.precedence ?? 0) > 6) {
-    // Layer 1: Ferial (already in readingsOffice)
-    // Layer 2: Common if provided (selective overlay - only fills gaps)
-    if (context.common?.trim().isNotEmpty ?? false) {
-      Readings commonReadings = await loadReadingsHierarchicalCommon(context);
+  // STEP 3: Handle Commons and Overlays
+  final bool isMemory = (context.precedence ?? 13) > 6;
+  final bool hasCommon = context.common?.trim().isNotEmpty ?? false;
+
+  if (hasCommon) {
+    Readings commonReadings = await loadReadingsHierarchicalCommon(context);
+    if (isMemory) {
       readingsOffice.overlayWithCommon(commonReadings);
-    }
-    // Layer 3: Proper (always applied, has priority over everything)
-    readingsOffice.overlayWith(properReadings);
-  } else {
-    // Mandatory celebrations (precedence <= 6): standard full overlay
-    if (context.common?.trim().isNotEmpty ?? false) {
-      Readings commonReadings = await loadReadingsHierarchicalCommon(context);
+    } else {
       readingsOffice.overlayWith(commonReadings);
     }
-    readingsOffice.overlayWith(properReadings);
   }
 
-  // Set Te Deum flag if provided
-  if (context.teDeum != null) {
-    readingsOffice.tedeum = context.teDeum;
-  }
+  // STEP 4: Apply Proper data
+  // Note: overlayWith will update readingsOffice.tedeum if defined in YAML
+  readingsOffice.overlayWith(properReadings);
+
+  // STEP 5: Finalize Te Deum flag
+  // Rule: Enabled if rank < 9 (Feasts/Solemnities) OR if specified in YAML source
+  readingsOffice.tedeum =
+      (context.teDeum == true) || (readingsOffice.tedeum == true);
 
   return readingsOffice;
+}
+
+/// Helper to try loading the proper file from multiple directories
+Future<Readings> _loadProperReadings(CelebrationContext context) async {
+  final List<String> searchPaths = [
+    '$specialFilePath/${context.celebrationCode}.yaml',
+    '$sanctoralFilePath/${context.celebrationCode}.yaml',
+  ];
+
+  for (String path in searchPaths) {
+    final readings = await readingsExtract(path, context.dataLoader);
+    if (!readings.isEmpty) return readings;
+  }
+  return Readings();
 }

@@ -5,53 +5,58 @@ import './vespers_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 
-/// Resolves vespers prayer for a given celebration context.
-/// requires only Oration for the Memories: adding only the Oration of the saint,
-/// or adding the chosen Common.
-/// Returns a Vespers instance for the celebration.
+/// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
+/// 1. Ferial base
+/// 2. Common (if applicable)
+/// 3. Proper (Sanctoral or Special)
 Future<Vespers> vespersResolution(CelebrationContext celebrationContext) async {
   Vespers vespersOffice = Vespers();
-  Vespers properVespers = Vespers();
 
-  // firstable catches the ferial data if exists (if not feast or solemnity)
+  // STEP 1: Load Ferial data as the base layer
   if (celebrationContext.ferialCode?.trim().isNotEmpty ?? false) {
     vespersOffice = await ferialVespersResolution(celebrationContext);
   }
 
-  // Load proper celebration data if not ferial
+  // STEP 2: Load Proper celebration data (Sanctoral or Special files)
+  Vespers properVespers = Vespers();
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
-    // Try special directory first, then sanctoral
-    properVespers = await vespersExtract(
-        '$specialFilePath/${celebrationContext.celebrationCode}.yaml',
-        celebrationContext.dataLoader);
-
-    if (properVespers.isEmpty) {
-      // File not found in special, try sanctoral
-      properVespers = await vespersExtract(
-          '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
-          celebrationContext.dataLoader);
-    }
+    properVespers = await _loadProperVespers(celebrationContext);
   }
 
-  // For optional celebrations (precedence > 6), apply layers in correct order
-  if (celebrationContext.precedence != null &&
-      celebrationContext.precedence! > 6) {
-    // Layer 1: Ferial (already in vespersOffice)
-    // Layer 2: Common if provided (selective overlay - only fills gaps)
-    if (celebrationContext.common?.trim().isNotEmpty ?? false) {
-      Vespers commonVespers = await loadVespersHierarchicalCommon(celebrationContext);
+  // STEP 3: Handle Commons and Overlays based on precedence
+  final bool isMemory = (celebrationContext.precedence ?? 13) > 6;
+  final bool hasCommon = celebrationContext.common?.trim().isNotEmpty ?? false;
+
+  if (hasCommon) {
+    Vespers commonVespers =
+        await loadVespersHierarchicalCommon(celebrationContext);
+
+    if (isMemory) {
+      // For Memories: Selective overlay (includes Hymn and Invitatory if provided)
       vespersOffice.overlayWithCommon(commonVespers);
-    }
-    // Layer 3: Proper (always applied, has priority over everything)
-    vespersOffice.overlayWith(properVespers);
-  } else {
-    // Mandatory celebrations (precedence <= 6): standard full overlay
-    if (celebrationContext.common?.trim().isNotEmpty ?? false) {
-      Vespers commonVespers = await loadVespersHierarchicalCommon(celebrationContext);
+    } else {
+      // For Solemnities/Feasts: Standard full overlay
       vespersOffice.overlayWith(commonVespers);
     }
-    vespersOffice.overlayWith(properVespers);
   }
 
+  // STEP 4: Apply Proper data (Highest priority)
+  vespersOffice.overlayWith(properVespers);
+
   return vespersOffice;
+}
+
+/// Helper to try loading the proper file from multiple directories (Special then Sanctoral)
+Future<Vespers> _loadProperVespers(CelebrationContext context) async {
+  final List<String> searchPaths = [
+    '$specialFilePath/${context.celebrationCode}.yaml',
+    '$sanctoralFilePath/${context.celebrationCode}.yaml',
+  ];
+
+  for (String path in searchPaths) {
+    final vespers = await vespersExtract(path, context.dataLoader);
+    if (!vespers.isEmpty) return vespers;
+  }
+
+  return Vespers();
 }

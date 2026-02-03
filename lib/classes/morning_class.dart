@@ -24,123 +24,85 @@ class Morning {
     this.oration,
   });
 
-  /// Creates Morning instance from YAML data
-  factory Morning.fromJson(Map<String, dynamic> yamlData) {
+  /// Creates Morning instance from dynamic data (JSON/YAML) with type safety
+  factory Morning.fromJson(Map<String, dynamic> data) {
     return Morning(
-      celebration: yamlData['celebration'] != null
-          ? Celebration.fromJson(
-              yamlData['celebration'] as Map<String, dynamic>)
+      celebration: data['celebration'] is Map<String, dynamic>
+          ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
           : null,
-      invitatory: yamlData['invitatory'] != null
-          ? Invitatory.fromJson(yamlData['invitatory'] as Map<String, dynamic>)
+      invitatory: data['invitatory'] is Map<String, dynamic>
+          ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
           : null,
-      hymn:
-          yamlData['hymn'] != null ? List<String>.from(yamlData['hymn']) : null,
-      psalmody: yamlData['psalmody'] != null
-          ? (yamlData['psalmody'] as List)
-              .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
-              .toList()
+      hymn: (data['hymn'] as List?)?.map((e) => e.toString()).toList(),
+      psalmody: (data['psalmody'] as List?)
+          ?.whereType<Map<String, dynamic>>()
+          .map((e) => PsalmEntry.fromJson(e))
+          .toList(),
+      reading: data['reading'] is Map<String, dynamic>
+          ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
           : null,
-      reading: yamlData['reading'] != null
-          ? Reading.fromJson(yamlData['reading'] as Map<String, dynamic>)
-          : null,
-      responsory: yamlData['responsory'] as String?,
-      evangelicAntiphon: yamlData['evangelicAntiphon'] != null
+      responsory: data['responsory']?.toString(),
+      evangelicAntiphon: data['evangelicAntiphon'] is Map<String, dynamic>
           ? EvangelicAntiphon.fromJson(
-              yamlData['evangelicAntiphon'] as Map<String, dynamic>)
+              data['evangelicAntiphon'] as Map<String, dynamic>)
           : null,
-      intercession: yamlData['intercession'] != null
-          ? Intercession.fromJson(
-              yamlData['intercession'] as Map<String, dynamic>)
+      intercession: data['intercession'] is Map<String, dynamic>
+          ? Intercession.fromJson(data['intercession'] as Map<String, dynamic>)
           : null,
-      oration: yamlData['oration'] != null
-          ? List<String>.from(yamlData['oration'])
-          : null,
+      oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
     );
   }
 
-  /// Overlays this Morning instance with data from another Morning instance
-  /// Non-null fields from the overlay take precedence
-  /// For psalmody: intelligently merges psalms and antiphons
+  /// Overlays this Morning instance with data from another instance
   void overlayWith(Morning overlay) {
-    if (overlay.celebration != null) {
-      celebration = overlay.celebration;
-    }
-    if (overlay.invitatory != null) {
-      invitatory = overlay.invitatory;
-    }
-    if (overlay.hymn != null) {
-      hymn = overlay.hymn;
-    }
-    if (overlay.psalmody != null) {
-      // Smart merge of psalmody: if overlay has antiphons without psalms,
-      // merge them with existing psalms
+    if (overlay.celebration != null) celebration = overlay.celebration;
+    if (overlay.invitatory != null) invitatory = overlay.invitatory;
+    if (overlay.hymn != null) hymn = overlay.hymn;
+
+    if (overlay.psalmody != null && overlay.psalmody!.isNotEmpty) {
       if (psalmody != null && psalmody!.isNotEmpty) {
-        List<PsalmEntry> mergedPsalmody = [];
+        List<PsalmEntry> merged = [];
         for (int i = 0; i < overlay.psalmody!.length; i++) {
           final overlayEntry = overlay.psalmody![i];
-          // If overlay has both psalm and antiphon, use it completely
           if (overlayEntry.psalm != null) {
-            mergedPsalmody.add(overlayEntry);
+            merged.add(overlayEntry);
           } else if (i < psalmody!.length) {
-            // If overlay only has antiphon, merge with existing psalm
-            mergedPsalmody.add(PsalmEntry(
+            merged.add(PsalmEntry(
               psalm: psalmody![i].psalm,
               antiphon: overlayEntry.antiphon ?? psalmody![i].antiphon,
             ));
           } else {
-            // No existing psalm at this index, use overlay as-is
-            mergedPsalmody.add(overlayEntry);
+            merged.add(overlayEntry);
           }
         }
-        psalmody = mergedPsalmody;
+        psalmody = merged;
       } else {
-        // No existing psalmody, just use overlay
         psalmody = overlay.psalmody;
       }
     }
-    if (overlay.reading != null) {
-      reading = overlay.reading;
-    }
-    if (overlay.responsory != null) {
-      responsory = overlay.responsory;
-    }
+
+    if (overlay.reading != null) reading = overlay.reading;
+    if (overlay.responsory != null) responsory = overlay.responsory;
     if (overlay.evangelicAntiphon != null) {
       evangelicAntiphon = overlay.evangelicAntiphon;
     }
-    if (overlay.intercession != null) {
-      intercession = overlay.intercession;
-    }
-    if (overlay.oration != null) {
-      oration = overlay.oration;
-    }
+    if (overlay.intercession != null) intercession = overlay.intercession;
+    if (overlay.oration != null) oration = overlay.oration;
   }
 
-  /// Selective overlay for common when precedence > 6
-  /// Only overlays: invitatory, reading, responsory, evangelicAntiphon, intercession, oration
-  /// Does NOT overlay: celebration, hymn, psalmody, tedeum
-  void overlayWithCommon(Morning commonMorning) {
-    if (commonMorning.invitatory != null) {
-      invitatory = commonMorning.invitatory;
+  /// Selective overlay for Common elements (Precedence > 6)
+  void overlayWithCommon(Morning common) {
+    if (common.invitatory != null) invitatory = common.invitatory;
+    if (common.hymn != null) hymn = common.hymn;
+    if (common.reading != null) reading = common.reading;
+    if (common.responsory != null) responsory = common.responsory;
+    if (common.evangelicAntiphon != null) {
+      evangelicAntiphon = common.evangelicAntiphon;
     }
-    if (commonMorning.reading != null) {
-      reading = commonMorning.reading;
-    }
-    if (commonMorning.responsory != null) {
-      responsory = commonMorning.responsory;
-    }
-    if (commonMorning.evangelicAntiphon != null) {
-      evangelicAntiphon = commonMorning.evangelicAntiphon;
-    }
-    if (commonMorning.intercession != null) {
-      intercession = commonMorning.intercession;
-    }
-    if (commonMorning.oration != null) {
-      oration = commonMorning.oration;
-    }
+    if (common.intercession != null) intercession = common.intercession;
+    if (common.oration != null) oration = common.oration;
   }
 
-  /// Returns true if all fields are null (empty Morning)
   bool get isEmpty =>
       celebration == null &&
       invitatory == null &&
@@ -153,26 +115,20 @@ class Morning {
       oration == null;
 }
 
-/// Definition of Morning type for a given day
-/// This class is used to transmit informations through the resolution of the possible Morning Offices
+/// Morning definition used for transmission and office resolution
 class MorningDefinition {
-  final String
-      morningDescription; // description of the office (e.g., "morning Office of the 2nd sunday of Lent")
-  final String
-      celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
-  final String
-      ferialCode; // code given by the root of the day in Calendar: ferial code or Solmenity
+  final String morningDescription;
+  final String celebrationCode;
+  final String ferialCode;
   final List<String>? commonList;
   final String? liturgicalTime;
   final String? breviaryWeek;
   final int precedence;
   final String liturgicalColor;
-  final bool
-      isCelebrable; // false if a higher precedence celebration (< 4) prevents this office from being celebrated
-  final String?
-      celebrationDescription; // detailed description of the celebration from JSON
+  final bool isCelebrable;
+  final String? celebrationDescription;
 
-  MorningDefinition({
+  const MorningDefinition({
     required this.morningDescription,
     required this.celebrationCode,
     required this.ferialCode,

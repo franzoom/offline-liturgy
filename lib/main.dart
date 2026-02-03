@@ -17,34 +17,23 @@ Future<void> main() async {
   final dataLoader = FileSystemDataLoader();
 
   // Launch Morning prayer generation for the requested day:
-
-  final Map<String, MorningDefinition> possibleMornings =
+  final Map<String, CelebrationContext> possibleMornings =
       await morningDetection(calendar, date, dataLoader);
 
-//for tries: taking the first celebration in the list
-  final MapEntry<String, MorningDefinition>? firstEntry =
+  // Taking the first celebration in the list
+  final MapEntry<String, CelebrationContext>? firstEntry =
       possibleMornings.isNotEmpty ? possibleMornings.entries.first : null;
-//retrieving the celebrationCode...
-  final String celebrationCode = firstEntry!.value.celebrationCode;
-  final String ferialCode = firstEntry!.value.ferialCode;
-  final List<String>? commonList = firstEntry!.value.commonList;
-  final String? liturgicalTime = firstEntry!.value.liturgicalTime;
-  final String? breviaryWeek = firstEntry!.value.breviaryWeek;
-//... and the first common proposed (if exists)...
 
-  final String common =
-      (commonList != null && commonList.isNotEmpty) ? commonList.first : '';
+  if (firstEntry == null) {
+    print('No morning office found for this date');
+    return;
+  }
 
-// ... in order to run the office Resolution
-  final celebrationContext = CelebrationContext(
-    celebrationCode: celebrationCode,
-    ferialCode: ferialCode,
-    common: common,
-    date: date,
-    liturgicalTime: liturgicalTime,
-    breviaryWeek: breviaryWeek,
-    dataLoader: dataLoader,
+  // Use the CelebrationContext directly, with selectedCommon as common
+  final celebrationContext = firstEntry.value.copyWith(
+    common: firstEntry.value.selectedCommon,
   );
+
   final Morning firstMorningOffice =
       await morningResolution(celebrationContext);
   print(firstMorningOffice);

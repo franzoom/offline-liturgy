@@ -276,6 +276,6 @@ class FeastDates {
   final int day;
   final int precedence;
 
-  FeastDates(
+  const FeastDates(
       {required this.month, required this.day, required this.precedence});
 }

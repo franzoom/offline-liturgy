@@ -1,19 +1,24 @@
-import '../../classes/calendar_class.dart'; // cette classe définit calendar
+import '../../classes/calendar_class.dart';
 import 'france.dart';
 
-//fêtes du calendrier général
+/// Short alias for FeastDates to allow for a readable const Map.
+class F extends FeastDates {
+  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
+}
 
-Map<String, FeastDates> parisFeastsList = {
-  'genevieve_of_paris_virgin_paris':
-      FeastDates(month: 1, day: 3, precedence: 4),
+/// Proper feasts for the Archdiocese of Paris
+const Map<String, FeastDates> parisFeastsList = {
+  // --- JANUARY ---
+  'genevieve_of_paris_virgin_paris': F(1, 3, 4),
 };
 
-Calendar addParisFeasts(
-    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
-  // ajouter les fêtes de la France:
+/// Function to inject Paris specific feasts into the calendar
+Calendar addParisFeasts(Calendar calendar, int liturgicalYear,
+    Map<String, DateTime> liturgicalMainFeasts) {
+  // First, add feasts for France (which also adds Europe)
   addFranceFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
 
-  // puis ajouter les fêtes propres à Paris:
+  // Then, add Paris specific feasts (overriding or adding to the list)
   calendar.addFeastsToCalendar(
       parisFeastsList, liturgicalYear, liturgicalMainFeasts);
 

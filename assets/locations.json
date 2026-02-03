@@ -7,10 +7,17 @@
       "countries": []
     },
     {
-      "id": "canada",
-      "name_en": "Canada",
-      "name_fr": "Canada",
-      "countries": []
+      "id": "amerique_du_nord",
+      "name_en": "North America",
+      "name_fr": "Amérique du Nord",
+      "countries": [
+        {
+          "id": "canada",
+          "name_en": "Canada",
+          "name_fr": "Canada",
+          "dioceses": []
+        }
+      ]
     },
     {
       "id": "europe",
@@ -25,7 +32,14 @@
             {
               "id": "bordeaux",
               "name_en": "Bordeaux",
-              "name_fr": "Bordeaux"
+              "name_fr": "Bordeaux",
+              "churches": [
+                {
+                  "id": "bordeaux_cathedrale",
+                  "name_en": "Cathedral of Saint Andrew",
+                  "name_fr": "Cathédrale Saint-André"
+                }
+              ]
             },
             {
               "id": "lille",
@@ -38,9 +52,9 @@
               "name_fr": "Lyon",
               "churches": [
                 {
-                "id": "lyon_primatiale",
-                "name_en": "Primatiale",
-                "name_fr": "Primatiale"
+                  "id": "lyon_primatiale",
+                  "name_en": "Primatiale Saint-Jean",
+                  "name_fr": "Primatiale Saint-Jean"
                 }
               ]
             },

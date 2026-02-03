@@ -1,5 +1,5 @@
 import '../classes/calendar_class.dart'; // calendar definition class
-import 'common_calendar_definitions.dart'; //computation of the dates of the variables feasts
+import 'common_calendar_definitions.dart'; // computation of the dates of the variables feasts
 import '../tools/date_tools.dart';
 import 'common_feasts.dart'; // feast list for the universal Church
 import './local_calendar_fill.dart';
@@ -31,23 +31,20 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       createLiturgicalDays(liturgicalYear);
   String defaultCelebrationTitle = "";
   int precedence = 0;
-  // add the Avdent Days till Nativity day
+
+  // --- ADVENT ---
   int adventDays = 0;
-  // adventDays is the number of days in advent
   DateTime date = liturgicalMainFeasts['ADVENT']!;
   while (date.isBefore(liturgicalMainFeasts['NATIVITY']!)) {
-    precedence = (adventDays % 7 == 0)
-        ? 2
-        : 13; // Sundays are precedence 2, other days precedence 13
+    precedence = date.isSunday ? 2 : 13;
+
     if (date.day < 17 || date.month == 11) {
       defaultCelebrationTitle =
-          'advent_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
+          'advent_${(adventDays ~/ 7) + 1}_${adventDays % 7}';
     } else {
-      precedence = precedence == 13
-          ? 9
-          : 2; // Sundays are precedence 2, other days precedence 9
+      precedence = precedence == 13 ? 9 : 2;
       defaultCelebrationTitle =
-          'advent-${date.day}_${(adventDays / 7).floor() + 1}_${adventDays % 7}';
+          'advent-${date.day}_${(adventDays ~/ 7) + 1}_${adventDays % 7}';
       // grammar of this special days: advent-17_3_5 (12/17, 3d week, 5th day)
     }
 
@@ -57,7 +54,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       defaultCelebrationTitle: defaultCelebrationTitle,
       precedence: precedence,
       liturgicalColor: 'violet',
-      breviaryWeek: (adventDays / 7).floor() % 4 + 1,
+      breviaryWeek: (adventDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -80,13 +77,11 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   calendar.addDayContent(date, dayContent);
 
   // adding the christmas Octave
-  date = date.add(Duration(days: 1)); // begins decembre, the 26th
+  date = date.shift(1); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
     defaultCelebrationTitle = 'christmas_${date.day}';
-    precedence = 9;
-    if (date.day <= 28) {
-      precedence = 7;
-    }
+    precedence = (date.day <= 28) ? 7 : 9;
+
     if (date == liturgicalMainFeasts['HOLY_FAMILY']) {
       defaultCelebrationTitle = 'holy_family';
       precedence = 6;
@@ -104,6 +99,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
   }
+
   // adding Mary Mother of God
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
@@ -117,29 +113,29 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   date = DateTime(liturgicalYear, 1, 1);
   calendar.addDayContent(date, dayContent);
 
-  date = date.add(Duration(days: 1));
+  date = date.shift(1);
   int christmasFerialDays =
       date.difference(liturgicalMainFeasts['HOLY_FAMILY']!).inDays;
 
-// days between january, 2d and the Epiphany
+  // days between january, 2d and the Epiphany
   DateTime epiphanyDate = liturgicalMainFeasts['EPIPHANY']!;
   while (date.isBefore(epiphanyDate)) {
-    int breviaryWeek = (christmasFerialDays / 7).floor() % 4 + 1;
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'christmas Feriale before Epiphany',
       defaultCelebrationTitle:
-          'christmas-${date.day}_${(christmasFerialDays / 7).floor() + 1}_${christmasFerialDays % 7}',
+          'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
       precedence: 13,
       liturgicalColor: 'white',
-      breviaryWeek: breviaryWeek,
+      breviaryWeek: (christmasFerialDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     christmasFerialDays++;
   }
-// adjunction of the Epiphany
+
+  // adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'epiphany',
@@ -188,28 +184,28 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   date = liturgicalMainFeasts['BAPTISM']!;
   calendar.addDayContent(date, dayContent);
 
-  // ADDING ORDINARY DAYS TILL LENT
+  // --- ORDINARY TIME TILL LENT ---
   int ordinaryTimeDays = 1;
-  date = date.add(Duration(days: 1)); // begins after Epiphany
+  date = date.shift(1); // begins after Epiphany
   while (date.isBefore(liturgicalMainFeasts['ASHES']!)) {
-    String weekNumber = '${(ordinaryTimeDays / 7).floor() + 1}';
-    int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'ot_${weekNumber}_$dayOfWeek';
-    precedence = dayOfWeek == 0 ? 6 : 13;
+    defaultCelebrationTitle =
+        'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}';
+    precedence = date.isSunday ? 6 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'ot',
       defaultCelebrationTitle: defaultCelebrationTitle,
       precedence: precedence,
       liturgicalColor: 'green',
-      breviaryWeek: (ordinaryTimeDays / 7).floor() % 4 + 1,
+      breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     ordinaryTimeDays++;
   }
-// adding the Ashes Wednesday
+
+  // adding the Ashes Wednesday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'lent',
@@ -226,7 +222,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding the lent days between the Ashes Wednesday
   // and the first sunday of Lent
   int lentDays = 4;
-  while (date.isBefore(liturgicalMainFeasts['ASHES']!.add(Duration(days: 4)))) {
+  while (date.isBefore(liturgicalMainFeasts['ASHES']!.shift(4))) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'lent',
@@ -241,34 +237,33 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     lentDays++;
   }
 
-  //add the Lent days till Palm Sunday (excluded)
+  // add the Lent days till Palm Sunday (excluded)
   lentDays = 0;
   while (date.isBefore(liturgicalMainFeasts['PALMS']!)) {
-    int dayOfWeek = date.weekday % 7;
-    String weekNumber = '${(lentDays / 7).floor() + 1}';
-    defaultCelebrationTitle = 'lent_${weekNumber}_$dayOfWeek';
-    precedence = dayOfWeek == 0 ? 2 : 9;
+    defaultCelebrationTitle = 'lent_${(lentDays ~/ 7) + 1}_${date.weekday % 7}';
+    precedence = date.isSunday ? 2 : 9;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'lent',
       defaultCelebrationTitle: defaultCelebrationTitle,
       precedence: precedence,
       liturgicalColor: 'violet',
-      breviaryWeek: (lentDays / 7).floor() % 4 + 1,
+      breviaryWeek: (lentDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     lentDays++;
   }
-// adding Palms Sunday
+
+  // adding Palms Sunday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'lent',
     defaultCelebrationTitle: 'palms',
     precedence: 2,
     liturgicalColor: 'red',
-    breviaryWeek: (lentDays / 7).floor() % 4 + 1,
+    breviaryWeek: (lentDays ~/ 7) % 4 + 1,
     feastList: {},
   );
   date = liturgicalMainFeasts['PALMS']!;
@@ -276,16 +271,15 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   date = date.shift(1);
   lentDays++;
 
-// adding the Lent days between Palms and Holy Thursday (excluded)
+  // adding the Lent days between Palms and Holy Thursday (excluded)
   while (date.isBefore(liturgicalMainFeasts['HOLY_THURSDAY']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'holyweek',
-      defaultCelebrationTitle:
-          'lent_${(lentDays / 7).floor() + 1}_${lentDays % 7}',
+      defaultCelebrationTitle: 'lent_${(lentDays ~/ 7) + 1}_${lentDays % 7}',
       precedence: 9,
       liturgicalColor: 'violet',
-      breviaryWeek: (lentDays / 7).floor() % 4 + 1,
+      breviaryWeek: (lentDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -294,60 +288,57 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   }
 
   // ajout du Jeudi Saint
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'holy_thursday',
-    precedence: 1,
-    liturgicalColor: 'white',
-    breviaryWeek: null,
-    feastList: {},
-  );
-  date = liturgicalMainFeasts['HOLY_THURSDAY']!;
-  calendar.addDayContent(date, dayContent);
-
+  calendar.addDayContent(
+      liturgicalMainFeasts['HOLY_THURSDAY']!,
+      DayContent(
+        liturgicalYear: liturgicalYear,
+        liturgicalTime: 'holyweek',
+        defaultCelebrationTitle: 'holy_thursday',
+        precedence: 1,
+        liturgicalColor: 'white',
+        breviaryWeek: null,
+        feastList: {},
+      ));
   // ajout du Vendredi Saint
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'holy_friday',
-    precedence: 1,
-    liturgicalColor: 'red',
-    breviaryWeek: null,
-    feastList: {},
-  );
-  date = liturgicalMainFeasts['HOLY_FRIDAY']!;
-  calendar.addDayContent(date, dayContent);
-
+  calendar.addDayContent(
+      liturgicalMainFeasts['HOLY_FRIDAY']!,
+      DayContent(
+        liturgicalYear: liturgicalYear,
+        liturgicalTime: 'holyweek',
+        defaultCelebrationTitle: 'holy_friday',
+        precedence: 1,
+        liturgicalColor: 'red',
+        breviaryWeek: null,
+        feastList: {},
+      ));
   // ajout du Samedi Saint
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'holy_saturday',
-    precedence: 1,
-    liturgicalColor: 'black',
-    breviaryWeek: null,
-    feastList: {},
-  );
-  date = liturgicalMainFeasts['HOLY_SATURDAY']!;
-  calendar.addDayContent(date, dayContent);
-
+  calendar.addDayContent(
+      liturgicalMainFeasts['HOLY_SATURDAY']!,
+      DayContent(
+        liturgicalYear: liturgicalYear,
+        liturgicalTime: 'holyweek',
+        defaultCelebrationTitle: 'holy_saturday',
+        precedence: 1,
+        liturgicalColor: 'black',
+        breviaryWeek: null,
+        feastList: {},
+      ));
   // ajout de Pâques
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'paschaltime',
-    defaultCelebrationTitle: 'easter',
-    precedence: 1,
-    liturgicalColor: 'white',
-    breviaryWeek: null,
-    feastList: {},
-  );
-  date = liturgicalMainFeasts['EASTER']!;
-  calendar.addDayContent(date, dayContent);
+  calendar.addDayContent(
+      liturgicalMainFeasts['EASTER']!,
+      DayContent(
+        liturgicalYear: liturgicalYear,
+        liturgicalTime: 'paschaltime',
+        defaultCelebrationTitle: 'easter',
+        precedence: 1,
+        liturgicalColor: 'white',
+        breviaryWeek: null,
+        feastList: {},
+      ));
 
-  // ADDING PASCHAL DAYS TILL PENTECOST
+  // --- PASCHAL TIME ---
   int paschalTimeDays = 1;
-  date = liturgicalMainFeasts['EASTER']!.shift(1); // initiates after Easter
+  date = liturgicalMainFeasts['EASTER']!.shift(1);
 
   // Paschal Octave (precedence: 2)
   while (date.isBefore(liturgicalMainFeasts['EASTER']!.shift(7))) {
@@ -355,16 +346,17 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaloctave',
       defaultCelebrationTitle:
-          'easter_${(paschalTimeDays / 7).floor() + 1}_${paschalTimeDays % 7}',
+          'easter_${(paschalTimeDays ~/ 7) + 1}_${paschalTimeDays % 7}',
       precedence: 2,
       liturgicalColor: 'white',
-      breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
+      breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     paschalTimeDays++;
   }
+
   // Sunday of Mercy (2d Sunday of Paschal Time)
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
@@ -381,17 +373,15 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 
   // Paschal days after the 2d Sunday till Ascension
   while (date.isBefore(liturgicalMainFeasts['ASCENSION']!)) {
-    String weekNumber = '${(paschalTimeDays / 7).floor() + 1}';
-    int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'easter_${weekNumber}_$dayOfWeek';
-    precedence = dayOfWeek == 0 ? 2 : 13;
+    precedence = date.isSunday ? 2 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaltime',
-      defaultCelebrationTitle: defaultCelebrationTitle,
+      defaultCelebrationTitle:
+          'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}',
       precedence: precedence,
       liturgicalColor: 'white',
-      breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
+      breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -414,19 +404,17 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   paschalTimeDays++;
   date = date.shift(1);
 
-  //days between Ascension and Pentecost
+  // days between Ascension and Pentecost
   while (date.isBefore(liturgicalMainFeasts['PENTECOST']!)) {
-    String weekNumber = '${(paschalTimeDays / 7).floor() + 1}';
-    int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'easter_${weekNumber}_$dayOfWeek';
-    precedence = dayOfWeek == 0 ? 2 : 13;
+    precedence = date.isSunday ? 2 : 13;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaltime',
-      defaultCelebrationTitle: defaultCelebrationTitle,
+      defaultCelebrationTitle:
+          'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}',
       precedence: precedence,
       liturgicalColor: 'white',
-      breviaryWeek: (paschalTimeDays / 7).floor() % 4 + 1,
+      breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -446,31 +434,25 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   );
   date = liturgicalMainFeasts['PENTECOST']!;
   calendar.addDayContent(date, dayContent);
-
-  // moving one day forward to reach the Monday of Pentecost:
   date = date.shift(1);
 
-  // ADDING ORDINARY DAYS TILL SATURDAY AFTER CHRIST KING
-  // adding the "lost days" after the Ashes Wednesday ands the Holy Week:
+  // --- ORDINARY TIME AFTER PENTECOST ---
   int ordinaryDaysLeft =
       liturgicalMainFeasts['CHRIST_KING']!.difference(date).inDays;
-  int ordinaryWeeksLeft = (ordinaryDaysLeft / 7).floor();
+  int ordinaryWeeksLeft = ordinaryDaysLeft ~/ 7;
   ordinaryTimeDays = (32 - ordinaryWeeksLeft) * 7 + 1;
 
-  while (date
-      .isBefore(liturgicalMainFeasts['CHRIST_KING']!.add(Duration(days: 7)))) {
-    String weekNumber = '${(ordinaryTimeDays / 7).floor() + 1}';
-    int dayOfWeek = date.weekday % 7;
-    defaultCelebrationTitle = 'ot_${weekNumber}_$dayOfWeek';
-    precedence = dayOfWeek == 0 ? 6 : 13;
+  while (date.isBefore(liturgicalMainFeasts['CHRIST_KING']!.shift(7))) {
+    precedence = date.isSunday ? 6 : 13;
 
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'ot',
-      defaultCelebrationTitle: defaultCelebrationTitle,
+      defaultCelebrationTitle:
+          'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}',
       precedence: precedence,
       liturgicalColor: 'green',
-      breviaryWeek: (ordinaryTimeDays / 7).floor() % 4 + 1,
+      breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
@@ -478,58 +460,51 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     ordinaryTimeDays++;
   }
 
-// ADDING THE SOLEMNITIES AND FEASTS OVER THE ALREADY CREATED DATES
-  String eventName = 'immaculate_conception';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 3, eventName);
-  eventName = 'ascension';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 3, eventName);
-  eventName = 'annunciation';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 3, eventName);
-  eventName = 'saint_joseph';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 4, eventName);
-  eventName = 'holy_trinity';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 3, eventName);
-  eventName = 'corpus_domini';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 3, eventName);
-  eventName = 'sacred_heart';
-  calendar.addItemToDay(
-      liturgicalMainFeasts[eventName.toUpperCase()]!, 3, eventName);
-  eventName = 'saint_pieter_and_saint_paul';
-  calendar.addItemToDay(liturgicalMainFeasts[eventName]!, 4, eventName);
-  eventName = 'saint_john_the_baptist';
-  calendar.addItemToDay(liturgicalMainFeasts[eventName]!, 4, eventName);
-  calendar.addItemToDay(DateTime(liturgicalYear, 11, 1), 3, 'all_saints');
-  calendar.addItemToDay(DateTime(liturgicalYear, 11, 2), 3,
-      'commemoration_of_all_the_faithful_departed');
-  calendar.addItemToDay(DateTime(liturgicalYear, 8, 15), 3,
-      'assumption_of_the_blessed_virgin_mary');
-  eventName = 'CHRIST_KING';
-  calendar.addItemToDay(liturgicalMainFeasts[eventName]!, 3, eventName);
-  //removing le 34th Sunday, it's the Christ King feast:
-  calendar.removeCelebrationFromDay(
-      liturgicalMainFeasts['CHRIST_KING']!, 'OT_34_0');
+  // --- ADDING SOLEMNITIES AND FEASTS OVER THE ALREADY CREATED DATES ---
+  _fillFixedSolemnities(calendar, liturgicalMainFeasts, liturgicalYear);
 
-  // adding the Immaculate Heart of Mary after Sacred Heart:
-  calendar.addItemRelatedToFeast(
-      liturgicalMainFeasts['SACRED_HEART']!, 1, 10, 'immaculate_heart_of_mary');
-
-  // adding Mary Mother of the Church afetr Pentecost:
-  calendar.addItemRelatedToFeast(
-      liturgicalMainFeasts['PENTECOST']!, 1, 10, 'mary_mother_of_the_church');
-
-  // ADDING THE FEASTS OF THE ROMAN CALENDAR
   calendar.addFeastsToCalendar(
       commonFeastsList, liturgicalYear, liturgicalMainFeasts);
-
-  // ADDING THE LOCAL CALENDARS
   calendar = localCalendarFill(
       calendar, liturgicalYear, location, liturgicalMainFeasts);
 
   return calendar;
+}
+
+/// Extracted to keep the main function cleaner without losing logic
+void _fillFixedSolemnities(
+    Calendar calendar, Map<String, DateTime> feasts, int year) {
+  final solemnities = {
+    'IMMACULATE_CONCEPTION': 3,
+    'ASCENSION': 3,
+    'ANNUNCIATION': 3,
+    'SAINT_JOSEPH': 4,
+    'HOLY_TRINITY': 3,
+    'CORPUS_DOMINI': 3,
+    'SACRED_HEART': 3,
+    'CHRIST_KING': 3,
+  };
+
+  solemnities.forEach((name, prec) {
+    if (feasts.containsKey(name)) {
+      calendar.addItemToDay(feasts[name]!, prec, name.toLowerCase());
+    }
+  });
+
+  calendar.addItemToDay(
+      feasts['SAINT_PIETER_AND_SAINT_PAUL']!, 4, 'saint_pieter_and_saint_paul');
+  calendar.addItemToDay(
+      feasts['SAINT_JOHN_THE_BAPTIST']!, 4, 'saint_john_the_baptist');
+  calendar.addItemToDay(DateTime(year, 11, 1), 3, 'all_saints');
+  calendar.addItemToDay(
+      DateTime(year, 11, 2), 3, 'commemoration_of_all_the_faithful_departed');
+  calendar.addItemToDay(
+      DateTime(year, 8, 15), 3, 'assumption_of_the_blessed_virgin_mary');
+
+  // Specific removals and relations
+  calendar.removeCelebrationFromDay(feasts['CHRIST_KING']!, 'OT_34_0');
+  calendar.addItemRelatedToFeast(
+      feasts['SACRED_HEART']!, 1, 10, 'immaculate_heart_of_mary');
+  calendar.addItemRelatedToFeast(
+      feasts['PENTECOST']!, 1, 10, 'mary_mother_of_the_church');
 }

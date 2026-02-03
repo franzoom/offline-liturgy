@@ -8,13 +8,21 @@ DateTime dayShift(DateTime date, int shift) {
 }
 */
 extension DateNavigation on DateTime {
-  /// Adds or removes days to a given date
-  /// by preserving the date mode (UTC or Local)
+  /// Shifts the date by a given number of [days] while preserving UTC/Local mode.
+  /// This approach is safe from Daylight Saving Time (DST) hour shifts.
   DateTime shift(int days) {
     if (isUtc) {
       return DateTime.utc(year, month, day + days);
     }
     return DateTime(year, month, day + days);
+  }
+
+  /// Returns true if this date falls on a Sunday.
+  bool get isSunday => weekday == DateTime.sunday;
+
+  /// Checks if this date is the same calendar day as [other], ignoring time.
+  bool isSameDayAs(DateTime other) {
+    return year == other.year && month == other.month && day == other.day;
   }
 }
 

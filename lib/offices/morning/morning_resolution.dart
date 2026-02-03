@@ -39,7 +39,8 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
     // Layer 1: Ferial (already in morningOffice)
     // Layer 2: Common if provided (selective overlay - only fills gaps)
     if (celebrationContext.common?.trim().isNotEmpty ?? false) {
-      Morning commonMorning = await loadMorningHierarchicalCommon(celebrationContext);
+      Morning commonMorning =
+          await loadMorningHierarchicalCommon(celebrationContext);
       morningOffice.overlayWithCommon(commonMorning);
     }
     // Layer 3: Proper (always applied, has priority over everything)
@@ -47,7 +48,8 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
   } else {
     // Mandatory celebrations (precedence <= 6): standard full overlay
     if (celebrationContext.common?.trim().isNotEmpty ?? false) {
-      Morning commonMorning = await loadMorningHierarchicalCommon(celebrationContext);
+      Morning commonMorning =
+          await loadMorningHierarchicalCommon(celebrationContext);
       morningOffice.overlayWith(commonMorning);
     }
     morningOffice.overlayWith(properMorning);

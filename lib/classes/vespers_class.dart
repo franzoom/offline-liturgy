@@ -3,6 +3,7 @@ import 'office_elements_class.dart';
 /// Class representing the Vespers (Evening Prayer) structure
 class Vespers {
   Celebration? celebration;
+  Invitatory? invitatory; // Added for consistency with other hours
   List<String>? hymn;
   List<PsalmEntry>? psalmody;
   Reading? reading;
@@ -13,6 +14,7 @@ class Vespers {
 
   Vespers({
     this.celebration,
+    this.invitatory,
     this.hymn,
     this.psalmody,
     this.reading,
@@ -22,114 +24,84 @@ class Vespers {
     this.oration,
   });
 
-  /// Creates Vespers instance from YAML data
-  factory Vespers.fromJson(Map<String, dynamic> yamlData) {
+  /// Creates Vespers instance from dynamic data (YAML/JSON) with type safety
+  factory Vespers.fromJson(Map<String, dynamic> data) {
     return Vespers(
-      celebration: yamlData['celebration'] != null
-          ? Celebration.fromJson(
-              yamlData['celebration'] as Map<String, dynamic>)
+      celebration: data['celebration'] is Map<String, dynamic>
+          ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
           : null,
-      hymn:
-          yamlData['hymn'] != null ? List<String>.from(yamlData['hymn']) : null,
-      psalmody: yamlData['psalmody'] != null
-          ? (yamlData['psalmody'] as List)
-              .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
-              .toList()
+      invitatory: data['invitatory'] is Map<String, dynamic>
+          ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
           : null,
-      reading: yamlData['reading'] != null
-          ? Reading.fromJson(yamlData['reading'] as Map<String, dynamic>)
+      hymn: (data['hymn'] as List?)?.map((e) => e.toString()).toList(),
+      psalmody: (data['psalmody'] as List?)
+          ?.whereType<Map<String, dynamic>>()
+          .map((e) => PsalmEntry.fromJson(e))
+          .toList(),
+      reading: data['reading'] is Map<String, dynamic>
+          ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
           : null,
-      responsory: yamlData['responsory'] as String?,
-      evangelicAntiphon: yamlData['evangelicAntiphon'] != null
+      responsory: data['responsory']?.toString(),
+      evangelicAntiphon: data['evangelicAntiphon'] is Map<String, dynamic>
           ? EvangelicAntiphon.fromJson(
-              yamlData['evangelicAntiphon'] as Map<String, dynamic>)
+              data['evangelicAntiphon'] as Map<String, dynamic>)
           : null,
-      intercession: yamlData['intercession'] != null
-          ? Intercession.fromJson(
-              yamlData['intercession'] as Map<String, dynamic>)
+      intercession: data['intercession'] is Map<String, dynamic>
+          ? Intercession.fromJson(data['intercession'] as Map<String, dynamic>)
           : null,
-      oration: yamlData['oration'] != null
-          ? List<String>.from(yamlData['oration'])
-          : null,
+      oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
     );
   }
 
-  /// Overlays this Vespers instance with data from another Vespers instance
-  /// Non-null fields from the overlay take precedence
-  /// For psalmody: intelligently merges psalms and antiphons
+  /// Overlays this Vespers instance with data from another instance
+  /// Intelligently merges psalmody (psalms + antiphons)
   void overlayWith(Vespers overlay) {
-    if (overlay.celebration != null) {
-      celebration = overlay.celebration;
-    }
-    if (overlay.hymn != null) {
-      hymn = overlay.hymn;
-    }
-    if (overlay.psalmody != null) {
-      // Smart merge of psalmody: if overlay has antiphons without psalms,
-      // merge them with existing psalms
+    if (overlay.celebration != null) celebration = overlay.celebration;
+    if (overlay.invitatory != null) invitatory = overlay.invitatory;
+    if (overlay.hymn != null) hymn = overlay.hymn;
+
+    if (overlay.psalmody != null && overlay.psalmody!.isNotEmpty) {
       if (psalmody != null && psalmody!.isNotEmpty) {
-        List<PsalmEntry> mergedPsalmody = [];
+        List<PsalmEntry> merged = [];
         for (int i = 0; i < overlay.psalmody!.length; i++) {
-          final overlayEntry = overlay.psalmody![i];
-          // If overlay has both psalm and antiphon, use it completely
-          if (overlayEntry.psalm != null) {
-            mergedPsalmody.add(overlayEntry);
+          final ov = overlay.psalmody![i];
+          if (ov.psalm != null) {
+            merged.add(ov);
           } else if (i < psalmody!.length) {
-            // If overlay only has antiphon, merge with existing psalm
-            mergedPsalmody.add(PsalmEntry(
+            merged.add(PsalmEntry(
               psalm: psalmody![i].psalm,
-              antiphon: overlayEntry.antiphon ?? psalmody![i].antiphon,
+              antiphon: ov.antiphon ?? psalmody![i].antiphon,
             ));
           } else {
-            // No existing psalm at this index, use overlay as-is
-            mergedPsalmody.add(overlayEntry);
+            merged.add(ov);
           }
         }
-        psalmody = mergedPsalmody;
+        psalmody = merged;
       } else {
-        // No existing psalmody, just use overlay
         psalmody = overlay.psalmody;
       }
     }
-    if (overlay.reading != null) {
-      reading = overlay.reading;
-    }
-    if (overlay.responsory != null) {
-      responsory = overlay.responsory;
-    }
-    if (overlay.evangelicAntiphon != null) {
+
+    if (overlay.reading != null) reading = overlay.reading;
+    if (overlay.responsory != null) responsory = overlay.responsory;
+    if (overlay.evangelicAntiphon != null)
       evangelicAntiphon = overlay.evangelicAntiphon;
-    }
-    if (overlay.intercession != null) {
-      intercession = overlay.intercession;
-    }
-    if (overlay.oration != null) {
-      oration = overlay.oration;
-    }
+    if (overlay.intercession != null) intercession = overlay.intercession;
+    if (overlay.oration != null) oration = overlay.oration;
   }
 
-  /// Selective overlay for common when precedence > 6
-  /// Only overlays: reading, responsory, evangelicAntiphon, intercession, oration
-  /// Does NOT overlay: celebration, hymn, psalmody
-  void overlayWithCommon(Vespers commonVespers) {
-    if (commonVespers.reading != null) {
-      reading = commonVespers.reading;
-    }
-    if (commonVespers.responsory != null) {
-      responsory = commonVespers.responsory;
-    }
-    if (commonVespers.evangelicAntiphon != null) {
-      evangelicAntiphon = commonVespers.evangelicAntiphon;
-    }
-    if (commonVespers.intercession != null) {
-      intercession = commonVespers.intercession;
-    }
-    if (commonVespers.oration != null) {
-      oration = commonVespers.oration;
-    }
+  /// Selective overlay for Common elements (Precedence > 6)
+  /// Used for Memories to take specific elements from the Common
+  void overlayWithCommon(Vespers common) {
+    if (common.hymn != null) hymn = common.hymn;
+    if (common.reading != null) reading = common.reading;
+    if (common.responsory != null) responsory = common.responsory;
+    if (common.evangelicAntiphon != null)
+      evangelicAntiphon = common.evangelicAntiphon;
+    if (common.intercession != null) intercession = common.intercession;
+    if (common.oration != null) oration = common.oration;
   }
 
-  /// Returns true if all fields are null (empty Vespers)
   bool get isEmpty =>
       celebration == null &&
       hymn == null &&
@@ -141,28 +113,21 @@ class Vespers {
       oration == null;
 }
 
-/// Definition of Vespers type for a given day
-/// This class is used to transmit informations through the resolution of the possible Vespers Offices
+/// Metadata for Vespers resolution
 class VespersDefinition {
-  final String
-      vespersDescription; // description of the office (e.g., "Vespers of the 2nd Sunday of Lent")
-  final String
-      celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
-  final String
-      ferialCode; // code given by the root of the day in Calendar: ferial code or Solemnity
+  final String vespersDescription;
+  final String celebrationCode;
+  final String ferialCode;
   final List<String>? commonList;
   final String? liturgicalTime;
   final String? breviaryWeek;
   final int precedence;
   final String liturgicalColor;
-  final bool
-      isCelebrable; // false if a higher precedence celebration prevents this office from being celebrated
-  final String?
-      celebrationDescription; // detailed description of the celebration from YAML
-  final bool
-      isFirstVespers; // true if these are First Vespers (I Vespers) of a following day celebration
+  final bool isCelebrable;
+  final String? celebrationDescription;
+  final bool isFirstVespers;
 
-  VespersDefinition({
+  const VespersDefinition({
     required this.vespersDescription,
     required this.celebrationCode,
     required this.ferialCode,

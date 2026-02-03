@@ -1,237 +1,161 @@
-// ensemble des fonctions qui calculent les dates de fêtes à date variable
+import '../tools/date_tools.dart';
 
-DateTime christmas(int year) {
-  //renvoie le jour de Noël précédent
-  return DateTime(year - 1, 12, 25);
-}
+/// Returns the previous Christmas day (relative to the liturgical year starting in late 'year'-1).
+DateTime christmas(int year) => DateTime(year - 1, 12, 25);
 
+/// Returns the start of Advent for a given year.
 DateTime advent(int year) {
-  //renvoie le jour du début de l'Avent pour une année donnée
   DateTime christmasDay = christmas(year);
   int dayShift = christmasDay.weekday;
-  return christmasDay.subtract(Duration(days: 21 + dayShift));
+  // Advent starts 3 weeks + the days until the previous Sunday before Christmas
+  return christmasDay.shift(-(21 + dayShift));
 }
 
+/// Returns the Holy Family feast date.
+/// It's the Sunday after Christmas, or Dec 30th if Christmas is a Sunday.
 DateTime holyFamily(int year) {
-  //renvoie le jour de la fête de la Sainte Famille pour une année donnée
-  // c'est le dimanche après Noël, ou le 30 décembre si Noël est un dimanche
   DateTime christmasDay = christmas(year);
-  int daystoSunday = (7 - christmasDay.weekday) % 7;
-  if (daystoSunday == 0) {
-    // si Noël est un dimanche, on renvoie le 30 décembre
+  if (christmasDay.isSunday) {
     return DateTime(year - 1, 12, 30);
   }
-  return christmasDay.add(Duration(days: daystoSunday));
+  return christmasDay.shift(7 - christmasDay.weekday);
 }
 
+/// Returns Epiphany (first Sunday after January 1st).
 DateTime epiphany(int year) {
-  // renvoie le jour de l'Épiphanie pour une année donnée.
-  // c'est le premier dimanche qui suit le 1er janvier
-  int januaryFirstWeekday = DateTime(year, 1, 1).weekday;
-  int daysToAdd = (januaryFirstWeekday == 7) ? 7 : (7 - januaryFirstWeekday);
-  return DateTime(year, 1, 1 + daysToAdd);
+  DateTime jan1 = DateTime(year, 1, 1);
+  int daysToAdd = jan1.isSunday ? 7 : (7 - jan1.weekday);
+  return jan1.shift(daysToAdd);
 }
 
+/// Returns the Baptism of the Lord.
+/// If Epiphany is Jan 7 or 8, Baptism is the next day (Monday).
 DateTime baptism(DateTime epiphanyDay) {
-  // renvoie le jour du baptême du Christ pour une année donnée.
-  // c'est le dimanche qui suit l'Épiphanie
-  // si l'Epiphanie tombe le 7 ou 8, le Baptême est le lendemain
-  int daystoAdd = (epiphanyDay.day < 7) ? 7 : 1;
-  return epiphanyDay.add(Duration(days: daystoAdd));
+  int daysToAdd = (epiphanyDay.day < 7) ? 7 : 1;
+  return epiphanyDay.shift(daysToAdd);
 }
 
+/// Returns the 2nd Sunday of Ordinary Time.
 DateTime secondSundayOT(DateTime epiphanyDay) {
-  // renvoie le jour du deuxième dimanche du Temps Ordinaire.
-  // Si l'Epiphanie tombe le 7 ou 8, le dimanche suivant est le 2èmeTO
-  // autrement c'est 2 dimanches après l'Epiphanie (celui qui suit le Baptême).
-  int daystoAdd = (epiphanyDay.day < 7) ? 14 : 7;
-  return epiphanyDay.add(Duration(days: daystoAdd));
+  int daysToAdd = (epiphanyDay.day < 7) ? 14 : 7;
+  return epiphanyDay.shift(daysToAdd);
 }
 
+/// Calculates the date of Easter using the Meeus/Jones/Butcher algorithm.
 DateTime easter(int year) {
-  //renvoie le jour de Pâques pour une année donnée
-  // suivant l'algorithme de Meeus/Jones/Butcher
-  int C = (year / 100).floor();
-  int N = year - 19 * (year / 19).floor();
-  int K = ((C - 17) / 25).floor();
-  int I = C - (C / 4).floor() - ((C - K) / 3).floor() + 19 * N + 15;
-  I = I - 30 * (I / 30).floor();
-  I = I -
-      (I / 28).floor() *
-          (1 -
-              (I / 28).floor() *
-                  (29 / (I + 1)).floor() *
-                  ((21 - N) / 11).floor());
-  int J = year + (year / 4).floor() + I + 2 - C + (C / 4).floor();
-  J = J - 7 * (J / 7).floor();
-  int L = I - J;
-  int M = 3 + ((L + 40) / 44).floor();
-  int D = L + 28 - 31 * (M / 4).floor();
-  return DateTime(year, M, D);
+  int c = year ~/ 100;
+  int n = year % 19;
+  int k = (c - 17) ~/ 25;
+  int i = c - (c ~/ 4) - ((c - k) ~/ 3) + 19 * n + 15;
+  i = i % 30;
+  i = i - (i ~/ 28) * (1 - (i ~/ 28) * (29 ~/ (i + 1)) * ((21 - n) ~/ 11));
+  int j = year + (year ~/ 4) + i + 2 - c + (c ~/ 4);
+  j = j % 7;
+  int l = i - j;
+  int m = 3 + ((l + 40) ~/ 44);
+  int d = l + 28 - 31 * (m ~/ 4);
+  return DateTime(year, m, d);
 }
 
-DateTime ashes(DateTime easterDay) {
-  //renvoie le jour des Cendres pour une année donnée
-  // c'est 46 jours avant Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day - 46);
-}
-
-DateTime palms(DateTime easterDay) {
-  //renvoie le jour des Rameaux pour une année donnée
-  // c'est 7 jours avant Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day - 7);
-}
-
-DateTime holyThursday(DateTime easterDay) {
-  //renvoie le jour des Rameaux pour une année donnée
-  // c'est 7 jours avant Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day - 3);
-}
-
-DateTime holyFriday(DateTime easterDay) {
-  //renvoie le jour des Rameaux pour une année donnée
-  // c'est 7 jours avant Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day - 2);
-}
-
-DateTime holySaturday(DateTime easterDay) {
-  //renvoie le jour des Rameaux pour une année donnée
-  // c'est 7 jours avant Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day - 1);
-}
-
-DateTime ascension(DateTime easterDay) {
-  //renvoie le jour de l'Ascension pour une année donnée
-  // c'est 39 jours après Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day + 39);
-}
-
-DateTime pentecost(DateTime easterDay) {
-  //renvoie le jour de la Pentecôte pour une année donnée
-  // c'est 49 jours après Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day + 49);
-}
-
-DateTime trinity(DateTime easterDay) {
-  //renvoie le jour de la Trinité pour une année donnée
-  // c'est 56 jours après Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day + 56);
-}
-
-DateTime corpusChristi(DateTime easterDay) {
-  //renvoie le jour du Corpus Christi pour une année donnée
-  // c'est 63 jours après Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day + 63);
-}
-
-DateTime sacredHeart(DateTime easterDay) {
-  //renvoie le jour du Sacré-Cœur pour une année donnée
-  // c'est 68 jours après Pâques
-  return DateTime(easterDay.year, easterDay.month, easterDay.day + 68);
-}
-
+/// Returns the Annunciation date (March 25th) with transfer logic.
 DateTime annunciation(DateTime easterDay) {
-  //renvoie le jour de l'Annonciation pour une année donnée
-  // c'est le 25 mars, mais:
-  // - si c'est un dimanche de Carême, on renvoie au lundi suivant
-  // - si c'est pendant la Semaine Sainte ou l'Octave Pascal, on renvoie au lundi suivante le 2ème dimanche de Pâques
   DateTime annunciationDay = DateTime(easterDay.year, 3, 25);
-  if (annunciationDay.isAfter(easterDay.subtract(Duration(days: 7)))) {
-    // si le 25 mars est après le dimanche des Rameaux, on renvoie au lundi suivant le 2ème dimanche de Pâques
-    return DateTime(easterDay.year, easterDay.month, easterDay.day + 8);
+  // If during Holy Week or Easter Octave, move to Monday after 2nd Sunday of Easter
+  if (annunciationDay.isAfter(easterDay.shift(-7))) {
+    return easterDay.shift(8);
   }
-  if (annunciationDay.weekday == DateTime.sunday) {
-    // si le 25 mars est un dimanche, on renvoie lau lendemain
-    return DateTime(
-        annunciationDay.year, annunciationDay.month, annunciationDay.day + 1);
+  // If on a Sunday of Lent, move to Monday
+  if (annunciationDay.isSunday) {
+    return annunciationDay.shift(1);
   }
   return annunciationDay;
 }
 
+/// Returns Saint Joseph's day (March 19th) with transfer logic.
 DateTime saintJoseph(DateTime easterDay) {
-  //renvoie le jour de la Saint Joseph pour une année donnée
-  // c'est le 19 mars, mais:
-  // - si elle tombe pendant la Semaine Sainte, on avance au samedi avant les Rameaux
-  // - si c'est un dimanche de Carême, on renvoie au lundi suivant
-  DateTime saintJosephDay = DateTime(easterDay.year, 3, 19);
-  if (saintJosephDay.isAfter(easterDay.subtract(Duration(days: 7)))) {
-    // si le 19 mars est après le dimanche des Rameaux, on renvoie au samedi avant les Rameaux
-    return easterDay.subtract(Duration(days: 8));
-  } else if (saintJosephDay.weekday == DateTime.sunday) {
-    // sinon, si la fête tombe un dimanche de Carême, on repousse au lundi suivant
-    return saintJosephDay.add(Duration(days: 1));
+  DateTime stJosephDay = DateTime(easterDay.year, 3, 19);
+  // If during Holy Week, move to the Saturday before Palm Sunday
+  if (stJosephDay.isAfter(easterDay.shift(-7))) {
+    return easterDay.shift(-8);
   }
-  return saintJosephDay;
+  // If on a Sunday of Lent, move to Monday
+  else if (stJosephDay.isSunday) {
+    return stJosephDay.shift(1);
+  }
+  return stJosephDay;
 }
 
+/// Returns St Peter and Paul (June 29), shifting if it hits Sacred Heart.
 DateTime saintPieterAndPaul(DateTime sacredHeartDay) {
-  //renvoie le jour de la Saint Pierre et Paul pour une année donnée
-  // la décaler d'un jour lorsqu'elle tombe le vendredi du Sacré Coeur
-  DateTime saintPieterAndPaulDay = DateTime(sacredHeartDay.year, 6, 29);
-  if (saintPieterAndPaulDay == sacredHeartDay) {
-    return saintPieterAndPaulDay.add(Duration(days: 1));
+  DateTime stPeterPaulDay = DateTime(sacredHeartDay.year, 6, 29);
+  if (stPeterPaulDay.isSameDayAs(sacredHeartDay)) {
+    return stPeterPaulDay.shift(1);
   }
-  return saintPieterAndPaulDay;
+  return stPeterPaulDay;
 }
 
+/// Returns St John the Baptist (June 24), shifting if it hits Sacred Heart.
 DateTime saintJohnTheBaptist(DateTime sacredHeartDay) {
-  //renvoie le jour de la Saint Jean Bpatiste pour une année donnée
-  // la décaler d'un jour lorsqu'elle tombe le vendredi du Sacré Coeur
-  DateTime saintJohnBaptistDay = DateTime(sacredHeartDay.year, 6, 24);
-  if (saintJohnBaptistDay.weekday == sacredHeartDay.weekday) {
-    return saintJohnBaptistDay.add(Duration(days: 1));
+  DateTime stJohnDay = DateTime(sacredHeartDay.year, 6, 24);
+  // If it falls on the same day of the week as Sacred Heart (Friday), shift to Saturday
+  if (stJohnDay.weekday == sacredHeartDay.weekday) {
+    return stJohnDay.shift(1);
   }
-  return saintJohnBaptistDay;
+  return stJohnDay;
 }
 
+/// Returns Immaculate Conception (Dec 8), shifting to Monday if it hits a Sunday of Advent.
 DateTime immaculateConception(DateTime adventDay) {
-  //renvoie le jour de l'Immaculée Conception pour une année donnée
-  // c'est le 8 décembre, mais si c'est un dimanche de l'Avent, on renvoie au lendemain
-  DateTime immaculateConceptionDay = DateTime(adventDay.year, 12, 8);
-  if (immaculateConceptionDay.weekday == DateTime.sunday &&
-      immaculateConceptionDay.isAfter(adventDay)) {
-    return immaculateConceptionDay.add(Duration(days: 1));
+  DateTime immaculateDay = DateTime(adventDay.year, 12, 8);
+  if (immaculateDay.isSunday && immaculateDay.isAfter(adventDay)) {
+    return immaculateDay.shift(1);
   }
-  return immaculateConceptionDay;
+  return immaculateDay;
 }
 
-DateTime christKing(int year) {
-  // Christ King feast, last sunday of the liturgical year.
-  // calculated by beeing the previous sunday before new liturgical year
-  DateTime adventDay = advent(year + 1);
-  return adventDay.subtract(Duration(days: 7));
-}
-
-createLiturgicalDays(int year) {
-  // creates the list of variable feasts and their date
-  print('defining variable feasts dates for liturgical year $year');
+/// Main function to generate all movable feasts for a liturgical year.
+Map<String, DateTime> createLiturgicalDays(int year) {
+  print('Defining variable feasts dates for liturgical year $year');
   Map<String, DateTime> liturgicalDays = {};
+
+  final DateTime easterDay = easter(year);
+  final DateTime adventDay = advent(year);
+
   liturgicalDays['NATIVITY'] = christmas(year);
-  liturgicalDays['ADVENT'] = advent(year);
-  liturgicalDays['IMMACULATE_CONCEPTION'] =
-      immaculateConception(liturgicalDays['ADVENT']!);
+  liturgicalDays['ADVENT'] = adventDay;
+  liturgicalDays['IMMACULATE_CONCEPTION'] = immaculateConception(adventDay);
   liturgicalDays['HOLY_FAMILY'] = holyFamily(year);
-  liturgicalDays['EPIPHANY'] = epiphany(year);
-  liturgicalDays['BAPTISM'] = baptism(liturgicalDays['EPIPHANY']!);
-  liturgicalDays['SECOND_SUNDAY_OT'] =
-      secondSundayOT(liturgicalDays['EPIPHANY']!);
-  liturgicalDays['EASTER'] = easter(year);
-  liturgicalDays['ASHES'] = ashes(liturgicalDays['EASTER']!);
-  liturgicalDays['PALMS'] = palms(liturgicalDays['EASTER']!);
-  liturgicalDays['HOLY_THURSDAY'] = holyThursday(liturgicalDays['EASTER']!);
-  liturgicalDays['HOLY_FRIDAY'] = holyFriday(liturgicalDays['EASTER']!);
-  liturgicalDays['HOLY_SATURDAY'] = holySaturday(liturgicalDays['EASTER']!);
-  liturgicalDays['ANNUNCIATION'] = annunciation(liturgicalDays['EASTER']!);
-  liturgicalDays['SAINT_JOSEPH'] = saintJoseph(liturgicalDays['EASTER']!);
-  liturgicalDays['ASCENSION'] = ascension(liturgicalDays['EASTER']!);
-  liturgicalDays['PENTECOST'] = pentecost(liturgicalDays['EASTER']!);
-  liturgicalDays['HOLY_TRINITY'] = trinity(liturgicalDays['EASTER']!);
-  liturgicalDays['CORPUS_DOMINI'] = corpusChristi(liturgicalDays['EASTER']!);
-  liturgicalDays['SACRED_HEART'] = sacredHeart(liturgicalDays['EASTER']!);
+
+  final DateTime epiphanyDay = epiphany(year);
+  liturgicalDays['EPIPHANY'] = epiphanyDay;
+  liturgicalDays['BAPTISM'] = baptism(epiphanyDay);
+  liturgicalDays['SECOND_SUNDAY_OT'] = secondSundayOT(epiphanyDay);
+
+  liturgicalDays['EASTER'] = easterDay;
+  liturgicalDays['ASHES'] = easterDay.shift(-46);
+  liturgicalDays['PALMS'] = easterDay.shift(-7);
+  liturgicalDays['HOLY_THURSDAY'] = easterDay.shift(-3);
+  liturgicalDays['HOLY_FRIDAY'] = easterDay.shift(-2);
+  liturgicalDays['HOLY_SATURDAY'] = easterDay.shift(-1);
+
+  liturgicalDays['ANNUNCIATION'] = annunciation(easterDay);
+  liturgicalDays['SAINT_JOSEPH'] = saintJoseph(easterDay);
+
+  liturgicalDays['ASCENSION'] = easterDay.shift(39);
+  liturgicalDays['PENTECOST'] = easterDay.shift(49);
+  liturgicalDays['HOLY_TRINITY'] = easterDay.shift(56);
+  liturgicalDays['CORPUS_DOMINI'] = easterDay.shift(63);
+
+  final DateTime sacredHeartDay = easterDay.shift(68);
+  liturgicalDays['SACRED_HEART'] = sacredHeartDay;
+
+  // Use sacredHeartDay for these specific shifts
   liturgicalDays['saint_pieter_and_saint_paul'] =
-      saintPieterAndPaul(liturgicalDays['EASTER']!);
+      saintPieterAndPaul(sacredHeartDay);
   liturgicalDays['saint_john_the_baptist'] =
-      saintJohnTheBaptist(liturgicalDays['EASTER']!);
-  liturgicalDays['CHRIST_KING'] = christKing(year);
+      saintJohnTheBaptist(sacredHeartDay);
+
+  liturgicalDays['CHRIST_KING'] = advent(year + 1).shift(-7);
+
   return liturgicalDays;
 }

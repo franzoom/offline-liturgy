@@ -116,6 +116,7 @@ class Morning {
 }
 
 /// Morning definition used for transmission and office resolution
+@Deprecated('Use CelebrationContext instead. This class will be removed in a future version.')
 class MorningDefinition {
   final String morningDescription;
   final String celebrationCode;

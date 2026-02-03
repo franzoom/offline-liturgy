@@ -114,6 +114,7 @@ class Vespers {
 }
 
 /// Metadata for Vespers resolution
+@Deprecated('Use CelebrationContext instead. This class will be removed in a future version.')
 class VespersDefinition {
   final String vespersDescription;
   final String celebrationCode;

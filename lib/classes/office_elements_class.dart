@@ -172,17 +172,21 @@ class HourOffice {
 
 /// Context class containing all parameters needed for office resolution.
 class CelebrationContext {
-  final String celebrationCode;
-  final String? ferialCode;
-  final String? common;
+  final String
+      celebrationType; // e.g. morning, vespers1, vespers2, readings, ...
+  final String celebrationCode; // given by the liturgical calendar
+  final String? ferialCode; // given by the calendar root of the date
+  final String? common; // common called for the celebration
   final DateTime date;
-  final String? liturgicalTime;
-  final String? breviaryWeek;
-  final int? precedence;
-  final bool teDeum;
-  final DataLoader dataLoader;
+  final String? liturgicalTime; // given by the calendar root of the date
+  final String? breviaryWeek; // given by the calendar root of the date
+  final int? precedence; // given by the calendar for the celebration
+  final bool teDeum; // further calculation needed for Readings
+  final bool isCelebrable; // to be determined later
+  final DataLoader dataLoader; // to load required data
 
   const CelebrationContext({
+    required this.celebrationType,
     required this.celebrationCode,
     this.ferialCode,
     this.common,
@@ -191,6 +195,7 @@ class CelebrationContext {
     this.breviaryWeek,
     this.precedence,
     this.teDeum = false,
+    this.isCelebrable = false,
     required this.dataLoader,
   });
 }

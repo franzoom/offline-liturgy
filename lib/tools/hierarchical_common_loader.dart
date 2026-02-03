@@ -44,10 +44,11 @@ List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
 /// Each more specific level overrides data from more general levels.
 Future<Morning> loadMorningHierarchicalCommon(
     CelebrationContext context) async {
-  if (context.common == null) return Morning();
+  final common = context.selectedCommon;
+  if (common == null) return Morning();
   Morning result = Morning();
   for (String level
-      in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
+      in _buildCommonHierarchy(common, context.liturgicalTime)) {
     Morning levelData = await morningExtract(
         '$commonsFilePath/$level.yaml', context.dataLoader);
     result.overlayWith(levelData);
@@ -59,10 +60,11 @@ Future<Morning> loadMorningHierarchicalCommon(
 /// Each more specific level overrides data from more general levels.
 Future<Readings> loadReadingsHierarchicalCommon(
     CelebrationContext context) async {
-  if (context.common == null) return Readings();
+  final common = context.selectedCommon;
+  if (common == null) return Readings();
   Readings result = Readings();
   for (String level
-      in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
+      in _buildCommonHierarchy(common, context.liturgicalTime)) {
     Readings levelData = await readingsExtract(
         '$commonsFilePath/$level.yaml', context.dataLoader);
     result.overlayWith(levelData);
@@ -74,10 +76,11 @@ Future<Readings> loadReadingsHierarchicalCommon(
 /// Each more specific level overrides data from more general levels.
 Future<Vespers> loadVespersHierarchicalCommon(
     CelebrationContext context) async {
-  if (context.common == null) return Vespers();
+  final common = context.selectedCommon;
+  if (common == null) return Vespers();
   Vespers result = Vespers();
   for (String level
-      in _buildCommonHierarchy(context.common!, context.liturgicalTime)) {
+      in _buildCommonHierarchy(common, context.liturgicalTime)) {
     Vespers levelData = await vespersExtract(
         '$commonsFilePath/$level.yaml', context.dataLoader);
     result.overlayWith(levelData);

@@ -114,31 +114,3 @@ class Morning {
       intercession == null &&
       oration == null;
 }
-
-/// Morning definition used for transmission and office resolution
-@Deprecated('Use CelebrationContext instead. This class will be removed in a future version.')
-class MorningDefinition {
-  final String morningDescription;
-  final String celebrationCode;
-  final String ferialCode;
-  final List<String>? commonList;
-  final String? liturgicalTime;
-  final String? breviaryWeek;
-  final int precedence;
-  final String liturgicalColor;
-  final bool isCelebrable;
-  final String? celebrationDescription;
-
-  const MorningDefinition({
-    required this.morningDescription,
-    required this.celebrationCode,
-    required this.ferialCode,
-    this.commonList,
-    this.liturgicalTime,
-    this.breviaryWeek,
-    required this.precedence,
-    required this.isCelebrable,
-    required this.liturgicalColor,
-    this.celebrationDescription,
-  });
-}

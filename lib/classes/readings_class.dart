@@ -120,6 +120,7 @@ class Readings {
 }
 
 /// Definition of Readings office metadata
+@Deprecated('Use CelebrationContext instead. This class will be removed in a future version.')
 class ReadingsDefinition {
   final String readingsDescription;
   final String celebrationCode;

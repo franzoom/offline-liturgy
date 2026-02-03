@@ -61,7 +61,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     adventDays++;
   }
 
@@ -102,7 +102,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
         // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
         feastList: {});
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
   }
   // adding Mary Mother of God
   dayContent = DayContent(
@@ -136,7 +136,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     christmasFerialDays++;
   }
 // adjunction of the Epiphany
@@ -156,7 +156,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   );
   date = epiphanyDate;
   calendar.addDayContent(date, dayContent);
-  date = dayShift(date, 1);
+  date = date.shift(1);
   christmasFerialDays = 1;
 
   // going on with the "second week" till the Baptism of the Lord:
@@ -171,7 +171,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     christmasFerialDays++;
   }
 
@@ -206,7 +206,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     ordinaryTimeDays++;
   }
 // adding the Ashes Wednesday
@@ -221,7 +221,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   );
   date = liturgicalMainFeasts['ASHES']!;
   calendar.addDayContent(date, dayContent);
-  date = dayShift(date, 1);
+  date = date.shift(1);
 
   // adding the lent days between the Ashes Wednesday
   // and the first sunday of Lent
@@ -237,7 +237,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     lentDays++;
   }
 
@@ -258,7 +258,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     lentDays++;
   }
 // adding Palms Sunday
@@ -273,7 +273,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   );
   date = liturgicalMainFeasts['PALMS']!;
   calendar.addDayContent(date, dayContent);
-  date = dayShift(date, 1);
+  date = date.shift(1);
   lentDays++;
 
 // adding the Lent days between Palms and Holy Thursday (excluded)
@@ -289,7 +289,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     lentDays++;
   }
 
@@ -347,10 +347,10 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
 
   // ADDING PASCHAL DAYS TILL PENTECOST
   int paschalTimeDays = 1;
-  date = dayShift(liturgicalMainFeasts['EASTER']!, 1); // initiates after Easter
+  date = liturgicalMainFeasts['EASTER']!.shift(1); // initiates after Easter
 
   // Paschal Octave (precedence: 2)
-  while (date.isBefore(dayShift(liturgicalMainFeasts['EASTER']!, 7))) {
+  while (date.isBefore(liturgicalMainFeasts['EASTER']!.shift(7))) {
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaloctave',
@@ -362,7 +362,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     paschalTimeDays++;
   }
   // Sunday of Mercy (2d Sunday of Paschal Time)
@@ -376,7 +376,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     feastList: {},
   );
   calendar.addDayContent(date, dayContent);
-  date = dayShift(date, 1);
+  date = date.shift(1);
   paschalTimeDays++;
 
   // Paschal days after the 2d Sunday till Ascension
@@ -395,7 +395,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     paschalTimeDays++;
   }
 
@@ -412,7 +412,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   date = liturgicalMainFeasts['ASCENSION']!;
   calendar.addDayContent(date, dayContent);
   paschalTimeDays++;
-  date = dayShift(date, 1);
+  date = date.shift(1);
 
   //days between Ascension and Pentecost
   while (date.isBefore(liturgicalMainFeasts['PENTECOST']!)) {
@@ -430,7 +430,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     paschalTimeDays++;
   }
 
@@ -448,7 +448,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   calendar.addDayContent(date, dayContent);
 
   // moving one day forward to reach the Monday of Pentecost:
-  date = dayShift(date, 1);
+  date = date.shift(1);
 
   // ADDING ORDINARY DAYS TILL SATURDAY AFTER CHRIST KING
   // adding the "lost days" after the Ashes Wednesday ands the Holy Week:
@@ -474,7 +474,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
-    date = dayShift(date, 1);
+    date = date.shift(1);
     ordinaryTimeDays++;
   }
 

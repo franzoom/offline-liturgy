@@ -5,6 +5,8 @@
 // Export any libraries intended for clients of this package.
 library;
 
+export 'tools/data_loader.dart';
+export 'classes/office_elements_class.dart';
 export 'classes/calendar_class.dart';
 export 'feasts/main_calendar_fill.dart';
 export 'classes/compline_class.dart';

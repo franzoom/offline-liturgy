@@ -1,9 +1,21 @@
 import '../assets/libraries/french_liturgy_labels.dart';
 
+/*
 DateTime dayShift(DateTime date, int shift) {
   /// adds some days to a date.
   /// (used to avoid probleme with timeshift issues)
   return DateTime(date.year, date.month, date.day + shift);
+}
+*/
+extension DateNavigation on DateTime {
+  /// Adds or removes days to a given date
+  /// by preserving the date mode (UTC or Local)
+  DateTime shift(int days) {
+    if (isUtc) {
+      return DateTime.utc(year, month, day + days);
+    }
+    return DateTime(year, month, day + days);
+  }
 }
 
 /// Detects if a celebration is a ferial day

@@ -47,7 +47,7 @@ Future<Map<String, ComplineDefinition>> complineResolution(
   Map<String, ComplineDefinition> todayComplineDefinition =
       await complineDetection(calendar, date, dataLoader);
   Map<String, ComplineDefinition> tomorrowComplineDefinition =
-      await complineDetection(calendar, dayShift(date, 1), dataLoader);
+      await complineDetection(calendar, date.shift(1), dataLoader);
 
   Map<String, ComplineDefinition> possibleComplines = todayComplineDefinition;
 

@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'offline_liturgy.dart';
 import 'tools/data_loader.dart';
 import 'classes/office_elements_class.dart';
@@ -9,7 +10,8 @@ Future<void> main() async {
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
   String calendarDisplay = calendar.formattedDisplay;
-  print(calendarDisplay);
+  File('calendar_output.txt').writeAsStringSync(calendarDisplay);
+  print('Calendrier ecrit dans calendar_output.txt');
 
   // Create a DataLoader for pure Dart usage
   final dataLoader = FileSystemDataLoader();

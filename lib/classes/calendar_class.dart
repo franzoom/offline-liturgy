@@ -260,7 +260,6 @@ extension CalendarDisplay on Calendar {
       }
       buffer.writeln('────────────────────────────── ');
     }
-
     return buffer.toString();
   }
 

@@ -136,7 +136,7 @@ class Calendar {
   /// The shift parameter specifies the number of days to offset from the requested date.
   void addItemRelatedToFeast(
       DateTime date, int shift, int precedence, String feastName) {
-    addItemToDay(dayShift(date, shift), precedence, feastName);
+    addItemToDay(date.shift(shift), precedence, feastName);
   }
 
   /// Removes a specific celebration from a given date.
@@ -196,7 +196,7 @@ class Calendar {
     }
 
     // Add to new date
-    final newDate = dayShift(itemDate, shift);
+    final newDate = itemDate.shift(shift);
     addItemToDay(newDate, itemPrecedence, feastName);
   }
 

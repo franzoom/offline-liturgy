@@ -1,5 +1,5 @@
 import '../../classes/calendar_class.dart';
-import '../../classes/vespers_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../office_detection.dart';
 
@@ -10,14 +10,16 @@ const int _firstVespersPrecedenceThreshold = 5;
 
 /// Returns a map of possible Vespers Offices, sorted by precedence (lowest first)
 /// Key: celebration title from YAML (or resolved ferial name)
-/// Value: VespersDefinition with all celebration data
+/// Value: CelebrationContext with all celebration data
+///   - celebrationType='vespers1' for First Vespers (I Vespers)
+///   - celebrationType='vespers2' for Second Vespers (II Vespers)
 ///
 /// This wrapper handles the special case of First Vespers (I Vespers):
 /// - Detects celebrations for today (II Vespers)
 /// - Detects celebrations for tomorrow
 /// - If tomorrow has a high-precedence celebration (Solemnity, Feast of the Lord),
 ///   its First Vespers are added as options for today evening
-Future<Map<String, VespersDefinition>> vespersDetection(
+Future<Map<String, CelebrationContext>> vespersDetection(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
@@ -36,7 +38,7 @@ Future<Map<String, VespersDefinition>> vespersDetection(
       .toList();
 
   // 4. Build the result map
-  final Map<String, VespersDefinition> possibleVespers = {};
+  final Map<String, CelebrationContext> possibleVespers = {};
 
   // Check if there's a high priority celebration today or tomorrow (for isCelebrable logic)
   final bool hasHighPriorityToday =
@@ -58,18 +60,20 @@ Future<Map<String, VespersDefinition>> vespersDetection(
       }
     }
 
-    possibleVespers[c.mapKey] = VespersDefinition(
-      vespersDescription: c.celebrationName,
+    possibleVespers[c.mapKey] = CelebrationContext(
+      celebrationType: 'vespers2', // II Vespers
       celebrationCode: c.celebrationCode,
       ferialCode: c.ferialCode,
       commonList: c.commonList,
+      date: date,
       liturgicalTime: c.liturgicalTime,
       breviaryWeek: c.breviaryWeek?.toString(),
       precedence: c.precedence,
-      liturgicalColor: c.liturgicalColor,
       isCelebrable: isCelebrable,
+      dataLoader: dataLoader,
+      officeDescription: c.celebrationName,
+      liturgicalColor: c.liturgicalColor,
       celebrationDescription: c.celebrationDescription,
-      isFirstVespers: false, // II Vespers
     );
   }
 
@@ -90,24 +94,26 @@ Future<Map<String, VespersDefinition>> vespersDetection(
       }
     }
 
-    possibleVespers[firstVespersKey] = VespersDefinition(
-      vespersDescription: 'Premières Vêpres: ${c.celebrationName}',
+    possibleVespers[firstVespersKey] = CelebrationContext(
+      celebrationType: 'vespers1', // I Vespers
       celebrationCode: c.celebrationCode,
       ferialCode: c.ferialCode,
       commonList: c.commonList,
+      date: tomorrow, // First Vespers belong to tomorrow's celebration
       liturgicalTime: c.liturgicalTime,
       breviaryWeek: c.breviaryWeek?.toString(),
       precedence: c.precedence,
-      liturgicalColor: c.liturgicalColor,
       isCelebrable: isCelebrable,
+      dataLoader: dataLoader,
+      officeDescription: 'Premières Vêpres: ${c.celebrationName}',
+      liturgicalColor: c.liturgicalColor,
       celebrationDescription: c.celebrationDescription,
-      isFirstVespers: true, // I Vespers
     );
   }
 
   // Sort by precedence (convert map to sorted entries, then back to map)
   final sortedEntries = possibleVespers.entries.toList()
-    ..sort((a, b) => a.value.precedence.compareTo(b.value.precedence));
+    ..sort((a, b) => (a.value.precedence ?? 13).compareTo(b.value.precedence ?? 13));
 
   final sortedVespers = Map.fromEntries(sortedEntries);
 

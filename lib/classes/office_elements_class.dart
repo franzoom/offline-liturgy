@@ -171,12 +171,14 @@ class HourOffice {
 }
 
 /// Context class containing all parameters needed for office resolution.
+/// This class consolidates MorningDefinition, VespersDefinition, and ReadingsDefinition.
 class CelebrationContext {
-  final String
+  final String?
       celebrationType; // e.g. morning, vespers1, vespers2, readings, ...
   final String celebrationCode; // given by the liturgical calendar
   final String? ferialCode; // given by the calendar root of the date
-  final String? common; // common called for the celebration
+  final String? common; // common called for the celebration (deprecated, use commonList)
+  final List<String>? commonList; // list of commons for the celebration
   final DateTime date;
   final String? liturgicalTime; // given by the calendar root of the date
   final String? breviaryWeek; // given by the calendar root of the date
@@ -184,12 +186,16 @@ class CelebrationContext {
   final bool teDeum; // further calculation needed for Readings
   final bool isCelebrable; // to be determined later
   final DataLoader dataLoader; // to load required data
+  final String? officeDescription; // description of the office (replaces *Description fields)
+  final String? liturgicalColor; // liturgical color of the celebration
+  final String? celebrationDescription; // description of the celebration
 
   const CelebrationContext({
-    required this.celebrationType,
+    this.celebrationType,
     required this.celebrationCode,
     this.ferialCode,
     this.common,
+    this.commonList,
     required this.date,
     this.liturgicalTime,
     this.breviaryWeek,
@@ -197,5 +203,8 @@ class CelebrationContext {
     this.teDeum = false,
     this.isCelebrable = false,
     required this.dataLoader,
+    this.officeDescription,
+    this.liturgicalColor,
+    this.celebrationDescription,
   });
 }

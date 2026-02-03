@@ -1,20 +1,29 @@
 import '../../classes/calendar_class.dart';
-//import 'north-america.dart';
 
-Map<String, FeastDates> canadaFeastsList = {
-  'andre_bessette_religious_canada':
-      FeastDates(month: 1, day: 7, precedence: 10),
-  'marguerite_bourgeoys_canada': FeastDates(month: 1, day: 12, precedence: 10),
+/// Short alias for FeastDates to allow for a readable const Map.
+class F extends FeastDates {
+  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
+}
+
+/// Proper feasts for Canada
+const Map<String, FeastDates> canadaFeastsList = {
+  // --- JANUARY ---
+  'andre_bessette_religious_canada': F(1, 7, 10),
+  'marguerite_bourgeoys_canada': F(1, 12, 10),
 };
 
-Calendar addCanadaFeasts(
-    Calendar calendar, int liturgicalYear, liturgicalMainFeasts) {
-  // firstable add North-America feasts
+/// Function to inject Canada specific feasts into the calendar
+Calendar addCanadaFeasts(Calendar calendar, int liturgicalYear,
+    Map<String, DateTime> liturgicalMainFeasts) {
+  // First, add North-America feasts (currently commented out as per your original)
   // addNorthAmericaFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-  // then add Canadas feasts
+
+  // Add Canada specific feasts
   calendar.addFeastsToCalendar(
       canadaFeastsList, liturgicalYear, liturgicalMainFeasts);
-  calendar.moveItemByDays(
-      'raymond_of_penyafort_priest', 1); // shifting the feast as required
+
+  // Shifting Saint Raymond of Penyafort (usually Jan 7) to Jan 8 to avoid conflict with Andre Bessette
+  calendar.moveItemByDays('raymond_of_penyafort_priest', 1);
+
   return calendar;
 }

@@ -41,6 +41,13 @@ The system uses a **common detection function** (`detectCelebrations`) that hand
 
 ## Architecture: Function + Wrappers
 
+All detection wrappers now return `CelebrationContext` instead of specific *Definition classes. The `celebrationType` field distinguishes between office types:
+- `'morning'` for Morning Prayer (Laudes)
+- `'readings'` for Office of Readings
+- `'vespers1'` for First Vespers (I Vêpres)
+- `'vespers2'` for Second Vespers (II Vêpres)
+- etc.
+
 ```
                               ┌─────────────────────────┐
                               │   detectCelebrations    │
@@ -62,26 +69,31 @@ The system uses a **common detection function** (`detectCelebrations`) that hand
 │Detection │ │Detection │ │  Day     │ │Detection │ │Detection │
 │(wrapper) │ │(wrapper) │ │Detection │ │(wrapper) │ │(wrapper) │
 │          │ │          │ │(wrapper) │ │          │ │          │
-│ Simple   │ │+ Te Deum │ │ Simple   │ │+ I Vêpres│ │+ Eve     │
-│conversion│ │          │ │conversion│ │(tomorrow)│ │+ dayOfWk │
+│ type=    │ │+ Te Deum │ │ type=    │ │+ I Vêpres│ │+ Eve     │
+│'morning' │ │          │ │'midday'  │ │(tomorrow)│ │+ dayOfWk │
 └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘ └────┬─────┘
      │            │            │            │            │
-     ▼            ▼            ▼            ▼            ▼
-  Morning     Readings    MiddleOfDay   Vespers     Compline
- Definition  Definition   Definition  Definition  Definition
+     └────────────┴────────────┴─────┬──────┴────────────┘
+                                     │
+                                     ▼
+                          Map<String, CelebrationContext>
 ```
 
 ## Wrapper Details
 
 ### Morning Detection (`morning_detection_v2.dart`)
 
-Simple wrapper that converts `DetectedCelebration` to `MorningDefinition`.
+Simple wrapper that converts `DetectedCelebration` to `CelebrationContext` with `celebrationType='morning'`.
 
 ```dart
-Future<Map<String, MorningDefinition>> morningDetection(...) async {
+Future<Map<String, CelebrationContext>> morningDetection(...) async {
   final celebrations = await detectCelebrations(calendar, date, dataLoader);
-  // Simple conversion to MorningDefinition
-  return { for (var c in celebrations) c.mapKey: MorningDefinition(...) };
+  // Convert to CelebrationContext with morning type
+  return { for (var c in celebrations) c.mapKey: CelebrationContext(
+    celebrationType: 'morning',
+    officeDescription: c.celebrationName,
+    // ... other fields
+  )};
 }
 ```
 
@@ -166,11 +178,11 @@ Handles **First Vespers** (I Vêpres) logic by looking at tomorrow's celebration
                   └─────────────────────┘
                             │
                             ▼
-              Map<String, VespersDefinition>
-              ┌─────────────────────────────┐
-              │ "Férie du 24 déc."          │ ← II Vêpres, isCelebrable: false
-              │ "I Vêpres: Nativité"        │ ← I Vêpres, isCelebrable: true
-              └─────────────────────────────┘
+              Map<String, CelebrationContext>
+              ┌───────────────────────────────────────────────────┐
+              │ "Férie du 24 déc."    │ type='vespers2', isCelebrable: false
+              │ "I Vêpres: Nativité"  │ type='vespers1', isCelebrable: true
+              └───────────────────────────────────────────────────┘
 ```
 
 ### Compline Detection (`compline_detection_v2.dart`)
@@ -232,13 +244,13 @@ Today's celebrations:
 Tomorrow's celebrations:
 ├── Nativité du Seigneur (precedence: 2, Solemnity)
 
-vespersDetection() returns:
-┌─────────────────────────────────────────────────────────────┐
-│ Key                           │ isFirstVespers │ isCelebrable │
-├───────────────────────────────┼────────────────┼──────────────┤
-│ "I Vêpres: Nativité..."       │ true           │ true         │
-│ "Férie du 24 décembre"        │ false          │ false        │
-└─────────────────────────────────────────────────────────────┘
+vespersDetection() returns Map<String, CelebrationContext>:
+┌────────────────────────────────────────────────────────────────────┐
+│ Key                           │ celebrationType │ isCelebrable   │
+├───────────────────────────────┼─────────────────┼────────────────┤
+│ "I Vêpres: Nativité..."       │ 'vespers1'      │ true           │
+│ "Férie du 24 décembre"        │ 'vespers2'      │ false          │
+└────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Parallel YAML Loading
@@ -275,39 +287,38 @@ Result: All 4 files loaded with only 2 parallel batches
 ```
 lib/
 ├── offices/
-│   ├── office_detection.dart               # Common detection function
+│   ├── office_detection.dart               # Common detection function + DetectedCelebration
 │   ├── morning/
-│   │   ├── morning_detection.dart          # Original (legacy)
-│   │   └── morning_detection_v2.dart       # New wrapper
+│   │   └── morning_detection_v2.dart       # Returns CelebrationContext
 │   ├── readings/
-│   │   ├── readings_detection.dart         # Original (legacy)
-│   │   └── readings_detection_v2.dart      # New wrapper + Te Deum
+│   │   └── readings_detection_v2.dart      # Returns CelebrationContext + Te Deum
 │   ├── middle_of_day/
-│   │   └── middle_of_day_detection_v2.dart # New wrapper
+│   │   └── middle_of_day_detection_v2.dart # Returns CelebrationContext
 │   ├── vespers/
-│   │   └── vespers_detection_v2.dart       # New wrapper + I Vêpres
+│   │   └── vespers_detection_v2.dart       # Returns CelebrationContext + I Vêpres
 │   └── compline/
-│       ├── compline_detection.dart         # Original (legacy)
-│       └── compline_detection_v2.dart      # New wrapper + Eve + dayOfWeek
+│       └── compline_detection_v2.dart      # Returns CelebrationContext + Eve + dayOfWeek
 └── classes/
-    ├── morning_class.dart                  # Morning + MorningDefinition
-    ├── readings_class.dart                 # Readings + ReadingsDefinition
-    ├── middle_of_day_class.dart            # MiddleOfDay + MiddleOfDayDefinition
-    ├── vespers_class.dart                  # Vespers + VespersDefinition
-    └── compline_class.dart                 # Compline + ComplineDefinition
+    ├── office_elements_class.dart          # CelebrationContext (unified detection output)
+    ├── morning_class.dart                  # Morning (office data structure)
+    ├── readings_class.dart                 # Readings (office data structure)
+    ├── middle_of_day_class.dart            # MiddleOfDay (office data structure)
+    ├── vespers_class.dart                  # Vespers (office data structure)
+    └── compline_class.dart                 # Compline (office data structure)
 ```
 
 ## Adding a New Office Type
 
 To add detection for a new office (e.g., Compline):
 
-1. **Create the Definition class** in the appropriate `*_class.dart` file
+1. **Create the office data class** in the appropriate `*_class.dart` file (e.g., `Compline`)
 2. **Create a wrapper** in `offices/<office>/<office>_detection_v2.dart`:
 
 ```dart
 import '../office_detection.dart';
+import '../../classes/office_elements_class.dart';
 
-Future<Map<String, YourOfficeDefinition>> yourOfficeDetection(
+Future<Map<String, CelebrationContext>> yourOfficeDetection(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
@@ -317,10 +328,19 @@ Future<Map<String, YourOfficeDefinition>> yourOfficeDetection(
 
   // 2. Add any office-specific logic here
 
-  // 3. Convert to your Definition type
-  return { for (var c in celebrations) c.mapKey: YourOfficeDefinition(...) };
+  // 3. Convert to CelebrationContext with your office type
+  return { for (var c in celebrations) c.mapKey: CelebrationContext(
+    celebrationType: 'your_office_type',  // e.g., 'compline', 'tierce', etc.
+    celebrationCode: c.celebrationCode,
+    officeDescription: c.celebrationName,
+    date: date,
+    dataLoader: dataLoader,
+    // ... other fields from DetectedCelebration
+  )};
 }
 ```
+
+The `celebrationType` field allows you to distinguish between office types while using the same unified `CelebrationContext` class.
 
 ## Benefits of This Architecture
 

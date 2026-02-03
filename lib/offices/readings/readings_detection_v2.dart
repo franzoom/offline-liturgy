@@ -1,5 +1,5 @@
 import '../../classes/calendar_class.dart';
-import '../../classes/readings_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../office_detection.dart';
 
@@ -27,11 +27,11 @@ bool _computeTeDeum(int precedence, DateTime date, String liturgicalTime) {
 
 /// Returns a map of possible Readings Offices, sorted by precedence (lowest first)
 /// Key: celebration title from YAML (or resolved ferial name)
-/// Value: ReadingsDefinition with all celebration data
+/// Value: CelebrationContext with all celebration data and celebrationType='readings'
 ///
 /// This is a wrapper around detectCelebrations that converts
-/// DetectedCelebration to ReadingsDefinition and computes Te Deum
-Future<Map<String, ReadingsDefinition>> readingsDetection(
+/// DetectedCelebration to CelebrationContext and computes Te Deum
+Future<Map<String, CelebrationContext>> readingsDetection(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
@@ -39,25 +39,28 @@ Future<Map<String, ReadingsDefinition>> readingsDetection(
   // Use the common detection function
   final celebrations = await detectCelebrations(calendar, date, dataLoader);
 
-  // Convert to ReadingsDefinition map with Te Deum computation
-  final Map<String, ReadingsDefinition> possibleReadings = {};
+  // Convert to CelebrationContext map with Te Deum computation
+  final Map<String, CelebrationContext> possibleReadings = {};
 
   for (final c in celebrations) {
     final bool shouldDisplayTeDeum =
         _computeTeDeum(c.precedence, date, c.liturgicalTime);
 
-    possibleReadings[c.mapKey] = ReadingsDefinition(
-      readingsDescription: c.celebrationName,
+    possibleReadings[c.mapKey] = CelebrationContext(
+      celebrationType: 'readings',
       celebrationCode: c.celebrationCode,
       ferialCode: c.ferialCode,
       commonList: c.commonList,
+      date: date,
       liturgicalTime: c.liturgicalTime,
       breviaryWeek: c.breviaryWeek?.toString(),
       precedence: c.precedence,
-      liturgicalColor: c.liturgicalColor,
-      isCelebrable: c.isCelebrable,
-      celebrationDescription: c.celebrationDescription,
       teDeum: shouldDisplayTeDeum,
+      isCelebrable: c.isCelebrable,
+      dataLoader: dataLoader,
+      officeDescription: c.celebrationName,
+      liturgicalColor: c.liturgicalColor,
+      celebrationDescription: c.celebrationDescription,
     );
   }
 

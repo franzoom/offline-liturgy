@@ -10,30 +10,18 @@ import 'locations/europe.dart';
 /// function used to fill the Calendar with local feasts
 Calendar localCalendarFill(Calendar calendar, int liturgicalYear,
     String location, Map<String, DateTime> liturgicalMainFeasts) {
-  switch (location) {
-    case 'lyon':
-      calendar = addLyonFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'lyon_primatiale':
-      calendar = addLyonPrimatialeFeasts(
-          calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'bordeaux':
-      calendar =
-          addBordeauxFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'paris':
-      calendar = addParisFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'france':
-      calendar =
-          addFranceFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'belgium':
-      calendar =
-          addBelgiumFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'canada':
-      calendar =
-          addCanadaFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-    case 'europe':
-      calendar =
-          addEuropeFeasts(calendar, liturgicalYear, liturgicalMainFeasts);
-  }
-
-  return calendar;
+  return switch (location) {
+    'europe' => addEuropeFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'france' => addFranceFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'belgium' =>
+      addBelgiumFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'canada' => addCanadaFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'lyon' => addLyonFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'lyon_primatiale' =>
+      addLyonPrimatialeFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'bordeaux' =>
+      addBordeauxFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    'paris' => addParisFeasts(calendar, liturgicalYear, liturgicalMainFeasts),
+    _ => calendar, // default case
+  };
 }

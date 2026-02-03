@@ -207,4 +207,57 @@ class CelebrationContext {
     this.liturgicalColor,
     this.celebrationDescription,
   });
+
+  /// Returns the first common from commonList, or falls back to common field.
+  /// Returns null if no common is available.
+  String? get selectedCommon {
+    if (commonList != null && commonList!.isNotEmpty) {
+      return commonList!.first;
+    }
+    return common;
+  }
+
+  /// Returns true if this is first vespers (vespers1)
+  bool get isFirstVespers => celebrationType == 'vespers1';
+
+  /// Returns true if this is second vespers (vespers2)
+  bool get isSecondVespers => celebrationType == 'vespers2';
+
+  /// Creates a copy of this context with the given fields replaced
+  CelebrationContext copyWith({
+    String? celebrationType,
+    String? celebrationCode,
+    String? ferialCode,
+    String? common,
+    List<String>? commonList,
+    DateTime? date,
+    String? liturgicalTime,
+    String? breviaryWeek,
+    int? precedence,
+    bool? teDeum,
+    bool? isCelebrable,
+    DataLoader? dataLoader,
+    String? officeDescription,
+    String? liturgicalColor,
+    String? celebrationDescription,
+  }) {
+    return CelebrationContext(
+      celebrationType: celebrationType ?? this.celebrationType,
+      celebrationCode: celebrationCode ?? this.celebrationCode,
+      ferialCode: ferialCode ?? this.ferialCode,
+      common: common ?? this.common,
+      commonList: commonList ?? this.commonList,
+      date: date ?? this.date,
+      liturgicalTime: liturgicalTime ?? this.liturgicalTime,
+      breviaryWeek: breviaryWeek ?? this.breviaryWeek,
+      precedence: precedence ?? this.precedence,
+      teDeum: teDeum ?? this.teDeum,
+      isCelebrable: isCelebrable ?? this.isCelebrable,
+      dataLoader: dataLoader ?? this.dataLoader,
+      officeDescription: officeDescription ?? this.officeDescription,
+      liturgicalColor: liturgicalColor ?? this.liturgicalColor,
+      celebrationDescription:
+          celebrationDescription ?? this.celebrationDescription,
+    );
+  }
 }

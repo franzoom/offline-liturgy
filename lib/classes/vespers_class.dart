@@ -112,33 +112,3 @@ class Vespers {
       intercession == null &&
       oration == null;
 }
-
-/// Metadata for Vespers resolution
-@Deprecated('Use CelebrationContext instead. This class will be removed in a future version.')
-class VespersDefinition {
-  final String vespersDescription;
-  final String celebrationCode;
-  final String ferialCode;
-  final List<String>? commonList;
-  final String? liturgicalTime;
-  final String? breviaryWeek;
-  final int precedence;
-  final String liturgicalColor;
-  final bool isCelebrable;
-  final String? celebrationDescription;
-  final bool isFirstVespers;
-
-  const VespersDefinition({
-    required this.vespersDescription,
-    required this.celebrationCode,
-    required this.ferialCode,
-    this.commonList,
-    this.liturgicalTime,
-    this.breviaryWeek,
-    required this.precedence,
-    required this.isCelebrable,
-    required this.liturgicalColor,
-    this.celebrationDescription,
-    this.isFirstVespers = false,
-  });
-}

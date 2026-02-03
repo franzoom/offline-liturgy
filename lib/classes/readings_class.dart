@@ -118,33 +118,3 @@ class Readings {
       (verse == null || verse!.isEmpty) &&
       (oration == null || oration!.isEmpty);
 }
-
-/// Definition of Readings office metadata
-@Deprecated('Use CelebrationContext instead. This class will be removed in a future version.')
-class ReadingsDefinition {
-  final String readingsDescription;
-  final String celebrationCode;
-  final String ferialCode;
-  final List<String>? commonList;
-  final String? liturgicalTime;
-  final String? breviaryWeek;
-  final int precedence;
-  final String liturgicalColor;
-  final bool isCelebrable;
-  final String? celebrationDescription;
-  final bool teDeum;
-
-  const ReadingsDefinition({
-    required this.readingsDescription,
-    required this.celebrationCode,
-    required this.ferialCode,
-    this.commonList,
-    this.liturgicalTime,
-    this.breviaryWeek,
-    required this.precedence,
-    required this.isCelebrable,
-    required this.liturgicalColor,
-    this.celebrationDescription,
-    required this.teDeum,
-  });
-}

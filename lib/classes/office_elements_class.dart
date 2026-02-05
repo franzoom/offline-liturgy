@@ -176,25 +176,26 @@ class CelebrationContext {
   final String?
       celebrationType; // e.g. morning, vespers1, vespers2, readings, ...
   final String celebrationCode; // given by the liturgical calendar
+  final String? celebrationTitle; // display title (from YAML title or ferial name)
+  final String? celebrationGlobalName; // full name with subtitle
   final String? ferialCode; // given by the calendar root of the date
-  final String? common; // common called for the celebration (deprecated, use commonList)
   final List<String>? commonList; // list of commons for the celebration
   final DateTime date;
   final String? liturgicalTime; // given by the calendar root of the date
-  final String? breviaryWeek; // given by the calendar root of the date
+  final int? breviaryWeek; // given by the calendar root of the date
   final int? precedence; // given by the calendar for the celebration
   final bool teDeum; // further calculation needed for Readings
   final bool isCelebrable; // to be determined later
   final DataLoader dataLoader; // to load required data
-  final String? officeDescription; // description of the office (replaces *Description fields)
+  final String? officeDescription; // description of the office
   final String? liturgicalColor; // liturgical color of the celebration
-  final String? celebrationDescription; // description of the celebration
 
   const CelebrationContext({
     this.celebrationType,
     required this.celebrationCode,
+    this.celebrationTitle,
+    this.celebrationGlobalName,
     this.ferialCode,
-    this.common,
     this.commonList,
     required this.date,
     this.liturgicalTime,
@@ -205,16 +206,15 @@ class CelebrationContext {
     required this.dataLoader,
     this.officeDescription,
     this.liturgicalColor,
-    this.celebrationDescription,
   });
 
-  /// Returns the first common from commonList, or falls back to common field.
+  /// Returns the first common from commonList.
   /// Returns null if no common is available.
   String? get selectedCommon {
     if (commonList != null && commonList!.isNotEmpty) {
       return commonList!.first;
     }
-    return common;
+    return null;
   }
 
   /// Returns true if this is first vespers (vespers1)
@@ -227,25 +227,27 @@ class CelebrationContext {
   CelebrationContext copyWith({
     String? celebrationType,
     String? celebrationCode,
+    String? celebrationTitle,
+    String? celebrationGlobalName,
     String? ferialCode,
-    String? common,
     List<String>? commonList,
     DateTime? date,
     String? liturgicalTime,
-    String? breviaryWeek,
+    int? breviaryWeek,
     int? precedence,
     bool? teDeum,
     bool? isCelebrable,
     DataLoader? dataLoader,
     String? officeDescription,
     String? liturgicalColor,
-    String? celebrationDescription,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
       celebrationCode: celebrationCode ?? this.celebrationCode,
+      celebrationTitle: celebrationTitle ?? this.celebrationTitle,
+      celebrationGlobalName:
+          celebrationGlobalName ?? this.celebrationGlobalName,
       ferialCode: ferialCode ?? this.ferialCode,
-      common: common ?? this.common,
       commonList: commonList ?? this.commonList,
       date: date ?? this.date,
       liturgicalTime: liturgicalTime ?? this.liturgicalTime,
@@ -256,8 +258,6 @@ class CelebrationContext {
       dataLoader: dataLoader ?? this.dataLoader,
       officeDescription: officeDescription ?? this.officeDescription,
       liturgicalColor: liturgicalColor ?? this.liturgicalColor,
-      celebrationDescription:
-          celebrationDescription ?? this.celebrationDescription,
     );
   }
 }

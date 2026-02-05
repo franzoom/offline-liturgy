@@ -67,13 +67,12 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       commonList: c.commonList,
       date: date,
       liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek?.toString(),
+      breviaryWeek: c.breviaryWeek,
       precedence: c.precedence,
       isCelebrable: isCelebrable,
       dataLoader: dataLoader,
       officeDescription: c.celebrationName,
       liturgicalColor: c.liturgicalColor,
-      celebrationDescription: c.celebrationDescription,
     );
   }
 
@@ -101,13 +100,12 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       commonList: c.commonList,
       date: tomorrow, // First Vespers belong to tomorrow's celebration
       liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek?.toString(),
+      breviaryWeek: c.breviaryWeek,
       precedence: c.precedence,
       isCelebrable: isCelebrable,
       dataLoader: dataLoader,
       officeDescription: 'Premières Vêpres: ${c.celebrationName}',
       liturgicalColor: c.liturgicalColor,
-      celebrationDescription: c.celebrationDescription,
     );
   }
 

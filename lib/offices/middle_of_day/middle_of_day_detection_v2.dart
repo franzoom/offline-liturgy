@@ -27,11 +27,10 @@ Future<Map<String, MiddleOfDayDefinition>> middleOfDayDetection(
       ferialCode: c.ferialCode,
       commonList: c.commonList,
       liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek?.toString(),
+      breviaryWeek: c.breviaryWeek,
       precedence: c.precedence,
       liturgicalColor: c.liturgicalColor,
       isCelebrable: c.isCelebrable,
-      celebrationDescription: c.celebrationDescription,
     );
   }
 

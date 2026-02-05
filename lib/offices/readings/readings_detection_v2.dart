@@ -53,14 +53,13 @@ Future<Map<String, CelebrationContext>> readingsDetection(
       commonList: c.commonList,
       date: date,
       liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek?.toString(),
+      breviaryWeek: c.breviaryWeek,
       precedence: c.precedence,
       teDeum: shouldDisplayTeDeum,
       isCelebrable: c.isCelebrable,
       dataLoader: dataLoader,
       officeDescription: c.celebrationName,
       liturgicalColor: c.liturgicalColor,
-      celebrationDescription: c.celebrationDescription,
     );
   }
 

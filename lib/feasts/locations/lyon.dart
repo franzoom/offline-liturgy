@@ -68,7 +68,6 @@ Calendar addLyonFeasts(Calendar calendar, int liturgicalYear,
   calendar.addFeastsToCalendar(
       lyonFeastsList, liturgicalYear, liturgicalMainFeasts);
 
-  // Moved item related to Easter - Using '!' to ensure non-null value
   calendar.addItemRelatedToFeast(
       liturgicalMainFeasts['EASTER']!, 13, 4, 'lyon_our_lady_of_fourviere');
 

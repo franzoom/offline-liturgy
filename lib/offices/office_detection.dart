@@ -12,12 +12,14 @@ import '../tools/convert_yaml_to_dart.dart';
 class CelebrationYamlData {
   final String? title;
   final String? subtitle;
+  final String? description;
   final String? color;
   final List<String> commons;
 
   const CelebrationYamlData({
     this.title,
     this.subtitle,
+    this.description,
     this.color,
     this.commons = const [],
   });
@@ -48,6 +50,7 @@ CelebrationYamlData? parseCelebrationYaml(String fileContent) {
     return CelebrationYamlData(
       title: celebrationData['title'] as String?,
       subtitle: celebrationData['subtitle'] as String?,
+      description: celebrationData['description'] as String?,
       color: celebrationData['color'] as String?,
       commons: commonsList,
     );
@@ -196,6 +199,7 @@ Future<List<CelebrationContext>> detectCelebrations(
     String celebrationLiturgicalColor = rootColor;
     String celebrationGlobalName = celebrationCode;
     String celebrationTitle = celebrationCode;
+    String? celebrationDescription;
     List<String> commonList = [];
 
     // Resolve celebration name and data
@@ -211,6 +215,7 @@ Future<List<CelebrationContext>> detectCelebrations(
       if (yamlData != null) {
         celebrationLiturgicalColor =
             yamlData.color ?? celebrationLiturgicalColor;
+        celebrationDescription = yamlData.description;
         commonList = yamlData.commons;
 
         // Use title as celebrationTitle, build full name with subtitle
@@ -241,6 +246,7 @@ Future<List<CelebrationContext>> detectCelebrations(
       liturgicalColor: celebrationLiturgicalColor,
       isCelebrable: isCelebrable,
       dataLoader: dataLoader,
+      celebrationDescription: celebrationDescription,
     ));
   }
 

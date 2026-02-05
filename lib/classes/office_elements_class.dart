@@ -189,6 +189,7 @@ class CelebrationContext {
   final DataLoader dataLoader; // to load required data
   final String? officeDescription; // description of the office
   final String? liturgicalColor; // liturgical color of the celebration
+  final String? celebrationDescription; // description of the celebration from YAML
 
   const CelebrationContext({
     this.celebrationType,
@@ -206,6 +207,7 @@ class CelebrationContext {
     required this.dataLoader,
     this.officeDescription,
     this.liturgicalColor,
+    this.celebrationDescription,
   });
 
   /// Returns the first common from commonList.
@@ -240,6 +242,7 @@ class CelebrationContext {
     DataLoader? dataLoader,
     String? officeDescription,
     String? liturgicalColor,
+    String? celebrationDescription,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -258,6 +261,8 @@ class CelebrationContext {
       dataLoader: dataLoader ?? this.dataLoader,
       officeDescription: officeDescription ?? this.officeDescription,
       liturgicalColor: liturgicalColor ?? this.liturgicalColor,
+      celebrationDescription:
+          celebrationDescription ?? this.celebrationDescription,
     );
   }
 }

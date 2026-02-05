@@ -1,23 +1,18 @@
 import '../../classes/calendar_class.dart';
 import 'europe.dart';
 
-/// Short alias for FeastDates to allow for a readable const Map.
-class F extends FeastDates {
-  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
-}
-
 /// Proper feasts for the Archdiocese of Luxembourg
 const Map<String, FeastDates> luxembourgFeastsList = {
   // --- NOVEMBER ---
-  'willibrord_of_utrecht_bishop_luxembourg':
+  'luxembourg_willibrord_of_utrecht_bishop':
       F(11, 7, 4), // Patron of the country - Solemnity
 
   // --- APRIL / MAY (Fixed date for the beginning of the Octave in some calendars) ---
-  'our_lady_consoler_of_the_afflicted_luxembourg':
+  'luxembourg_our_lady_consoler_of_the_afflicted':
       F(5, 5, 4), // Main Patroness - Solemnity
 
   // --- OCTOBER ---
-  'kunigunde_of_luxembourg_empress':
+  'luxembourg_kunigunde_of_empress':
       F(3, 3, 12), // Can be celebrated in October or March
 };
 

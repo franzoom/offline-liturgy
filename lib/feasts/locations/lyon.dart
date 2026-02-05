@@ -1,11 +1,6 @@
 import '../../classes/calendar_class.dart';
 import 'france.dart';
 
-/// Short alias for FeastDates to allow for a readable const Map.
-class F extends FeastDates {
-  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
-}
-
 /// Proper feasts for the Archdiocese of Lyon
 const Map<String, FeastDates> lyonFeastsList = {
   // --- JANUARY ---

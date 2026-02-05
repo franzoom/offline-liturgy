@@ -1,38 +1,33 @@
 import '../../classes/calendar_class.dart';
 import 'europe.dart';
 
-/// Short alias for FeastDates to allow for a readable const Map.
-class F extends FeastDates {
-  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
-}
-
 /// Proper feasts for Belgium
 const Map<String, FeastDates> belgiumFeastsList = {
   // --- JANUARY ---
-  'gudula_of_brussels_virgin_belgium': F(1, 8, 12),
+  'belgium_gudula_of_brussels_virgin': F(1, 8, 12),
 
   // --- FEBRUARY ---
-  'amand_of_maastricht_bishop_belgium': F(2, 6, 10),
+  'belgium_amand_of_maastricht_bishop': F(2, 6, 10),
 
   // --- MARCH ---
-  'mutien_marie_wiaux_religious_belgium':
+  'belgium_mutien_marie_wiaux_religious':
       F(1, 30, 12), // Souvent déplacé ou célébré fin Janvier
 
   // --- MAY ---
-  'damien_de_veuster_priest_belgium': F(5, 10, 10),
+  'belgium_damien_de_veuster_priest': F(5, 10, 10),
 
   // --- AUGUST ---
-  'juliana_of_cornillon_virgin_belgium': F(8, 7, 12),
+  'belgium_juliana_of_cornillon_virgin': F(8, 7, 12),
 
   // --- SEPTEMBER ---
-  'lambert_of_maastricht_bishop_martyr_belgium': F(9, 17, 10),
+  'belgium_lambert_of_maastricht_bishop_martyr': F(9, 17, 10),
 
   // --- OCTOBER ---
-  'bavo_of_ghent_hermit_belgium': F(10, 1, 12),
+  'belgium_bavo_of_ghent_hermit': F(10, 1, 12),
 
   // --- NOVEMBER ---
-  'hubert_of_liege_bishop_belgium': F(11, 3, 10),
-  'john_berchmans_religious_belgium': F(11, 26, 10),
+  'belgium_hubert_of_liege_bishop': F(11, 3, 10),
+  'belgium_john_berchmans_religious': F(11, 26, 10),
 };
 
 /// Function to inject Belgium specific feasts into the calendar

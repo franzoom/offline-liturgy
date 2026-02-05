@@ -279,3 +279,8 @@ class FeastDates {
   const FeastDates(
       {required this.month, required this.day, required this.precedence});
 }
+
+/// Short alias for FeastDates to allow for a readable const Map.
+class F extends FeastDates {
+  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
+}

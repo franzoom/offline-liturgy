@@ -21,19 +21,9 @@ Future<Map<String, CelebrationContext>> morningDetection(
   final Map<String, CelebrationContext> possibleMornings = {};
 
   for (final c in celebrations) {
-    possibleMornings[c.mapKey] = CelebrationContext(
+    possibleMornings[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'morning',
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode,
-      commonList: c.commonList,
-      date: date,
-      liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek,
-      precedence: c.precedence,
-      isCelebrable: c.isCelebrable,
-      dataLoader: dataLoader,
-      officeDescription: c.celebrationName,
-      liturgicalColor: c.liturgicalColor,
+      officeDescription: c.celebrationGlobalName,
     );
   }
 

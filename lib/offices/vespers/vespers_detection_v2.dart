@@ -34,7 +34,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
   final firstVespersCandidates = tomorrowCelebrations
-      .where((c) => c.precedence <= _firstVespersPrecedenceThreshold)
+      .where((c) => (c.precedence ?? 13) <= _firstVespersPrecedenceThreshold)
       .toList();
 
   // 4. Build the result map
@@ -42,9 +42,9 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 
   // Check if there's a high priority celebration today or tomorrow (for isCelebrable logic)
   final bool hasHighPriorityToday =
-      todayCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 6);
+      todayCelebrations.any((c) => (c.precedence ?? 13) >= 1 && (c.precedence ?? 13) <= 6);
   final bool hasHighPriorityTomorrow =
-      firstVespersCandidates.any((c) => c.precedence >= 1 && c.precedence <= 6);
+      firstVespersCandidates.any((c) => (c.precedence ?? 13) >= 1 && (c.precedence ?? 13) <= 6);
 
   // Add today's celebrations (II Vespers)
   for (final c in todayCelebrations) {
@@ -53,59 +53,42 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     bool isCelebrable = c.isCelebrable;
     if (hasHighPriorityTomorrow) {
       final highestTomorrowPrecedence = firstVespersCandidates
-          .map((fc) => fc.precedence)
+          .map((fc) => fc.precedence ?? 13)
           .reduce((a, b) => a < b ? a : b);
-      if (c.precedence > highestTomorrowPrecedence) {
+      if ((c.precedence ?? 13) > highestTomorrowPrecedence) {
         isCelebrable = false;
       }
     }
 
-    possibleVespers[c.mapKey] = CelebrationContext(
+    possibleVespers[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'vespers2', // II Vespers
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode,
-      commonList: c.commonList,
-      date: date,
-      liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek,
-      precedence: c.precedence,
       isCelebrable: isCelebrable,
-      dataLoader: dataLoader,
-      officeDescription: c.celebrationName,
-      liturgicalColor: c.liturgicalColor,
+      officeDescription: c.celebrationGlobalName,
     );
   }
 
   // Add tomorrow's high-precedence celebrations (I Vespers)
   for (final c in firstVespersCandidates) {
     // Create a distinct key for First Vespers
-    final firstVespersKey = 'I Vêpres: ${c.mapKey}';
+    final firstVespersKey = 'I Vêpres: ${c.celebrationTitle ?? c.celebrationCode}';
 
     // First Vespers are celebrable if they have high precedence
     // and no higher-precedence II Vespers today
     bool isCelebrable = true;
     if (hasHighPriorityToday) {
       final highestTodayPrecedence = todayCelebrations
-          .map((tc) => tc.precedence)
+          .map((tc) => tc.precedence ?? 13)
           .reduce((a, b) => a < b ? a : b);
-      if (c.precedence > highestTodayPrecedence) {
+      if ((c.precedence ?? 13) > highestTodayPrecedence) {
         isCelebrable = false;
       }
     }
 
-    possibleVespers[firstVespersKey] = CelebrationContext(
+    possibleVespers[firstVespersKey] = c.copyWith(
       celebrationType: 'vespers1', // I Vespers
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode,
-      commonList: c.commonList,
       date: tomorrow, // First Vespers belong to tomorrow's celebration
-      liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek,
-      precedence: c.precedence,
       isCelebrable: isCelebrable,
-      dataLoader: dataLoader,
-      officeDescription: 'Premières Vêpres: ${c.celebrationName}',
-      liturgicalColor: c.liturgicalColor,
+      officeDescription: 'Premières Vêpres: ${c.celebrationGlobalName}',
     );
   }
 

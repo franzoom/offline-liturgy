@@ -114,16 +114,17 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
   // 3. Process today's celebrations
   for (final c in todayCelebrations) {
+    final int precedence = c.precedence ?? 13;
     final celebrationType =
-        _determineCelebrationType(c.precedence, c.celebrationCode);
-    final dayOfWeek = _determineDayOfWeek(date, celebrationType, c.precedence);
+        _determineCelebrationType(precedence, c.celebrationCode);
+    final dayOfWeek = _determineDayOfWeek(date, celebrationType, precedence);
 
     // Build description
     String description;
     if (ferialDayCheck(c.celebrationCode)) {
       description = 'Complies du $todayName du ${_liturgicalTimeLabel(liturgicalTime)}';
     } else if (celebrationType == 'solemnity') {
-      description = 'Complies de ${c.celebrationName}';
+      description = 'Complies de ${c.celebrationGlobalName}';
     } else {
       description = 'Complies du $todayName';
     }
@@ -131,12 +132,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     possibleComplines[description] = ComplineDefinition(
       complineDescription: description,
       celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode,
+      ferialCode: c.ferialCode ?? '',
       commonList: c.commonList,
       liturgicalTime: liturgicalTime,
       breviaryWeek: c.breviaryWeek,
-      precedence: c.precedence,
-      liturgicalColor: c.liturgicalColor,
+      precedence: precedence,
+      liturgicalColor: c.liturgicalColor ?? 'green',
       isCelebrable: c.isCelebrable,
       dayOfWeek: dayOfWeek,
       celebrationType: celebrationType,
@@ -147,28 +148,29 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 4. Process tomorrow's celebrations for eve Complines
   // Only solemnities (precedence <= 4) and Sundays get eve Complines
   for (final c in tomorrowCelebrations) {
+    final int precedence = c.precedence ?? 13;
     final bool needsEveCompline =
-        c.precedence <= 4 || tomorrow.weekday == DateTime.sunday;
+        precedence <= 4 || tomorrow.weekday == DateTime.sunday;
 
     if (needsEveCompline) {
-      final String eveDescription = 'Complies de la veille de ${c.celebrationName}';
+      final String eveDescription = 'Complies de la veille de ${c.celebrationGlobalName}';
       final String eveCelebrationType =
-          c.precedence <= 4 ? 'solemnityeve' : 'normal';
+          precedence <= 4 ? 'solemnityeve' : 'normal';
 
       // Check if today already has a solemnity - if so, eve Compline is not celebrable
       final bool todayHasSolemnity =
-          todayCelebrations.any((tc) => tc.precedence <= 4);
-      final bool isCelebrable = !todayHasSolemnity || c.precedence <= 4;
+          todayCelebrations.any((tc) => (tc.precedence ?? 13) <= 4);
+      final bool isCelebrable = !todayHasSolemnity || precedence <= 4;
 
       possibleComplines[eveDescription] = ComplineDefinition(
         complineDescription: eveDescription,
         celebrationCode: c.celebrationCode,
-        ferialCode: c.ferialCode,
+        ferialCode: c.ferialCode ?? '',
         commonList: c.commonList,
         liturgicalTime: liturgicalTime,
         breviaryWeek: c.breviaryWeek,
-        precedence: c.precedence,
-        liturgicalColor: c.liturgicalColor,
+        precedence: precedence,
+        liturgicalColor: c.liturgicalColor ?? 'green',
         isCelebrable: isCelebrable,
         dayOfWeek: 'saturday', // Eve Complines always use Saturday psalms
         celebrationType: eveCelebrationType,

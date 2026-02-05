@@ -21,15 +21,15 @@ Future<Map<String, MiddleOfDayDefinition>> middleOfDayDetection(
   final Map<String, MiddleOfDayDefinition> possibleMiddleOfDays = {};
 
   for (final c in celebrations) {
-    possibleMiddleOfDays[c.mapKey] = MiddleOfDayDefinition(
-      middleOfDayDescription: c.celebrationName,
+    possibleMiddleOfDays[c.celebrationTitle ?? c.celebrationCode] = MiddleOfDayDefinition(
+      middleOfDayDescription: c.celebrationGlobalName ?? c.celebrationCode,
       celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode,
+      ferialCode: c.ferialCode ?? '',
       commonList: c.commonList,
       liturgicalTime: c.liturgicalTime,
       breviaryWeek: c.breviaryWeek,
-      precedence: c.precedence,
-      liturgicalColor: c.liturgicalColor,
+      precedence: c.precedence ?? 13,
+      liturgicalColor: c.liturgicalColor ?? 'green',
       isCelebrable: c.isCelebrable,
     );
   }

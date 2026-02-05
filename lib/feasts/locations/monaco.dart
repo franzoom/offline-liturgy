@@ -1,23 +1,18 @@
 import '../../classes/calendar_class.dart';
 import 'europe.dart';
 
-/// Short alias for FeastDates to allow for a readable const Map.
-class F extends FeastDates {
-  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
-}
-
 /// Proper feasts for the Principality of Monaco
 const Map<String, FeastDates> monacoFeastsList = {
   // --- JANUARY ---
-  'devota_of_corsica_virgin_martyr_monaco':
+  'monaco_devota_of_corsica_virgin_martyr':
       F(1, 27, 4), // Patron Saint - Solemnity
 
   // --- MAY ---
-  'dedication_of_the_cathedral_of_monaco':
+  'monaco_dedication_of_the_cathedral_of':
       F(12, 4, 4), // Dedication of St. Nicholas Cathedral
 
   // --- NOVEMBER ---
-  'rainerius_of_pisa_monaco': F(11, 19, 10), // National Day / St. Rainier
+  'monaco_rainerius_of_pisa': F(11, 19, 10), // National Day / St. Rainier
 };
 
 /// Function to inject Monaco specific feasts into the calendar

@@ -29,10 +29,8 @@ Future<void> main() async {
     return;
   }
 
-  // Use the CelebrationContext directly, with selectedCommon as common
-  final celebrationContext = firstEntry.value.copyWith(
-    common: firstEntry.value.selectedCommon,
-  );
+  // Use the CelebrationContext directly
+  final celebrationContext = firstEntry.value;
 
   final Morning firstMorningOffice =
       await morningResolution(celebrationContext);

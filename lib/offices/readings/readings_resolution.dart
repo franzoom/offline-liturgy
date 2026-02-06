@@ -22,7 +22,7 @@ Future<Readings> readingsResolution(CelebrationContext context) async {
 
   // STEP 3: Handle Commons and Overlays
   final bool isMemory = (context.precedence ?? 13) > 6;
-  final bool hasCommon = context.common?.trim().isNotEmpty ?? false;
+  final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
 
   if (hasCommon) {
     Readings commonReadings = await loadReadingsHierarchicalCommon(context);

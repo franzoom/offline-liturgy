@@ -1,5 +1,6 @@
 import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
+import '../classes/office_elements_class.dart';
 import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
@@ -21,36 +22,6 @@ class CelebrationYamlData {
     this.description,
     this.color,
     this.commons = const [],
-  });
-}
-
-/// Represents a detected celebration with all its data
-/// This is the "raw" data returned by detectCelebrations
-class DetectedCelebration {
-  final String mapKey;
-  final String celebrationName;
-  final String celebrationCode;
-  final String ferialCode;
-  final List<String> commonList;
-  final String liturgicalTime;
-  final int? breviaryWeek;
-  final int precedence;
-  final String liturgicalColor;
-  final bool isCelebrable;
-  final String? celebrationDescription;
-
-  const DetectedCelebration({
-    required this.mapKey,
-    required this.celebrationName,
-    required this.celebrationCode,
-    required this.ferialCode,
-    required this.commonList,
-    required this.liturgicalTime,
-    this.breviaryWeek,
-    required this.precedence,
-    required this.liturgicalColor,
-    required this.isCelebrable,
-    this.celebrationDescription,
   });
 }
 
@@ -89,11 +60,11 @@ CelebrationYamlData? parseCelebrationYaml(String fileContent) {
 }
 
 /// Detects all possible celebrations for a given date
-/// Returns a list of DetectedCelebration sorted by precedence (lowest first)
+/// Returns a list of CelebrationContext sorted by precedence (lowest first)
 ///
 /// This is the common function used by all office detection wrappers
 /// (morning, readings, vespers, etc.)
-Future<List<DetectedCelebration>> detectCelebrations(
+Future<List<CelebrationContext>> detectCelebrations(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
@@ -215,7 +186,7 @@ Future<List<DetectedCelebration>> detectCelebrations(
   }
 
   // Build the list of detected celebrations
-  final List<DetectedCelebration> detectedCelebrations = [];
+  final List<CelebrationContext> detectedCelebrations = [];
 
   for (final celebration in allCelebrations) {
     final String celebrationCode = celebration.code;
@@ -226,33 +197,33 @@ Future<List<DetectedCelebration>> detectCelebrations(
 
     // Initialize with default values
     String celebrationLiturgicalColor = rootColor;
-    String celebrationName = celebrationCode;
-    String mapKey = celebrationCode;
+    String celebrationGlobalName = celebrationCode;
+    String celebrationTitle = celebrationCode;
     String? celebrationDescription;
     List<String> commonList = [];
 
     // Resolve celebration name and data
     if (ferialDayCheck(celebrationCode)) {
       // Ferial day: resolve name using ferialNameResolution
-      celebrationName = ferialNameResolution(celebrationCode);
-      mapKey = celebrationName;
+      celebrationGlobalName = ferialNameResolution(celebrationCode);
+      celebrationTitle = celebrationGlobalName;
     } else {
       // Non-ferial: use pre-loaded YAML data
       final fileContent = fileContents[celebrationCode] ?? '';
       final yamlData = parseCelebrationYaml(fileContent);
 
       if (yamlData != null) {
-        celebrationDescription = yamlData.description;
         celebrationLiturgicalColor =
             yamlData.color ?? celebrationLiturgicalColor;
+        celebrationDescription = yamlData.description;
         commonList = yamlData.commons;
 
-        // Use title as map key, build full name with subtitle
+        // Use title as celebrationTitle, build full name with subtitle
         if (yamlData.title != null && yamlData.title!.isNotEmpty) {
-          mapKey = yamlData.title!;
-          celebrationName = yamlData.title!;
+          celebrationTitle = yamlData.title!;
+          celebrationGlobalName = yamlData.title!;
           if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
-            celebrationName += ', ${yamlData.subtitle}';
+            celebrationGlobalName += ', ${yamlData.subtitle}';
           }
         }
       } else if (fileContent.isEmpty) {
@@ -262,17 +233,19 @@ Future<List<DetectedCelebration>> detectCelebrations(
       }
     }
 
-    detectedCelebrations.add(DetectedCelebration(
-      mapKey: mapKey,
-      celebrationName: celebrationName,
+    detectedCelebrations.add(CelebrationContext(
+      celebrationTitle: celebrationTitle,
+      celebrationGlobalName: celebrationGlobalName,
       celebrationCode: celebrationCode,
       ferialCode: ferialCode,
       commonList: commonList,
+      date: date,
       liturgicalTime: liturgicalTime,
       breviaryWeek: breviaryWeek,
       precedence: precedence,
       liturgicalColor: celebrationLiturgicalColor,
       isCelebrable: isCelebrable,
+      dataLoader: dataLoader,
       celebrationDescription: celebrationDescription,
     ));
   }

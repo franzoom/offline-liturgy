@@ -97,11 +97,10 @@ class MiddleOfDayDefinition {
   final String ferialCode;
   final List<String>? commonList;
   final String? liturgicalTime;
-  final String? breviaryWeek;
+  final int? breviaryWeek;
   final int precedence;
   final String liturgicalColor;
   final bool isCelebrable;
-  final String? celebrationDescription;
 
   const MiddleOfDayDefinition({
     required this.middleOfDayDescription,
@@ -113,7 +112,6 @@ class MiddleOfDayDefinition {
     required this.precedence,
     required this.isCelebrable,
     required this.liturgicalColor,
-    this.celebrationDescription,
   });
 }
 

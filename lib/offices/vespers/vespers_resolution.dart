@@ -25,7 +25,7 @@ Future<Vespers> vespersResolution(CelebrationContext celebrationContext) async {
 
   // STEP 3: Handle Commons and Overlays based on precedence
   final bool isMemory = (celebrationContext.precedence ?? 13) > 6;
-  final bool hasCommon = celebrationContext.common?.trim().isNotEmpty ?? false;
+  final bool hasCommon = celebrationContext.selectedCommon?.trim().isNotEmpty ?? false;
 
   if (hasCommon) {
     Vespers commonVespers =

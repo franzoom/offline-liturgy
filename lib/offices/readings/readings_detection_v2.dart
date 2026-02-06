@@ -44,23 +44,12 @@ Future<Map<String, CelebrationContext>> readingsDetection(
 
   for (final c in celebrations) {
     final bool shouldDisplayTeDeum =
-        _computeTeDeum(c.precedence, date, c.liturgicalTime);
+        _computeTeDeum(c.precedence ?? 13, date, c.liturgicalTime ?? 'ot');
 
-    possibleReadings[c.mapKey] = CelebrationContext(
+    possibleReadings[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'readings',
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode,
-      commonList: c.commonList,
-      date: date,
-      liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek?.toString(),
-      precedence: c.precedence,
       teDeum: shouldDisplayTeDeum,
-      isCelebrable: c.isCelebrable,
-      dataLoader: dataLoader,
-      officeDescription: c.celebrationName,
-      liturgicalColor: c.liturgicalColor,
-      celebrationDescription: c.celebrationDescription,
+      officeDescription: c.celebrationGlobalName,
     );
   }
 

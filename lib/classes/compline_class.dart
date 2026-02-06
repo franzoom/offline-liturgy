@@ -189,13 +189,11 @@ class ComplineDefinition {
       ferialCode; // code given by the root of the day in Calendar: ferial code or Solemnity
   final List<String>? commonList;
   final String liturgicalTime; // 'ot', 'lent', 'paschal', 'advent', 'christmas'
-  final String? breviaryWeek;
+  final int? breviaryWeek;
   final int precedence;
   final String liturgicalColor;
   final bool
       isCelebrable; // false if a higher precedence celebration prevents this office from being celebrated
-  final String?
-      celebrationDescription; // detailed description of the celebration from YAML
   final String dayOfWeek; // 'sunday', 'monday', etc. - determines which psalms to use
   final String
       celebrationType; // 'solemnity', 'solemnityeve', 'normal', 'holy_thursday', etc.
@@ -212,7 +210,6 @@ class ComplineDefinition {
     this.precedence = 13,
     this.liturgicalColor = 'green',
     this.isCelebrable = true,
-    this.celebrationDescription,
     required this.dayOfWeek,
     required this.celebrationType,
     this.isEveCompline = false,

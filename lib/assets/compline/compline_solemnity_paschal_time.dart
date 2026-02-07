@@ -23,9 +23,9 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       "Dieu du ciel et de la terre, nous levons les mains vers toi pour te bénir, car tu nous as bénis en ton Fils bien-aimé. Dans la nuit que tu nous donnes pour unir notre prière à la sienne, nous te supplions de nous bénir encore. Par Jésus le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "sunday": Compline(
@@ -45,9 +45,9 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l'ennemi&nbsp;; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
 };

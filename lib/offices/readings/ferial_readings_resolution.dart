@@ -40,7 +40,8 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
   // ADVENT TIME
   // ============================================================================
   if (celebrationCode.startsWith('advent')) {
-    final List<String> hymns = hymnList["advent"] ?? [];
+    final List<HymnEntry> hymns =
+        (hymnList["advent"] ?? []).map((e) => HymnEntry(code: e)).toList();
 
     if (RegExp(r'advent_').hasMatch(celebrationCode)) {
       // Days before December 17th: is written "advent_XXX"
@@ -109,7 +110,8 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
     // Note: Holy Family is excluded (not a ferial day)
     int dayNumber = date.day;
     int monthNumber = date.month;
-    List<String> hymns = hymnList["christmas"] ?? [];
+    List<HymnEntry> hymns =
+        (hymnList["christmas"] ?? []).map((e) => HymnEntry(code: e)).toList();
 
     if (monthNumber == 12) {
       // All December days in Christmas time: proper office overlays the Common
@@ -142,7 +144,8 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
     // After Epiphany
     Readings readingsOffice = await readingsExtract(
         '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
-    readingsOffice.hymn = hymnList["after_epiphany"] ?? [];
+    readingsOffice.hymn =
+        (hymnList["after_epiphany"] ?? []).map((e) => HymnEntry(code: e)).toList();
     return readingsOffice;
   }
 

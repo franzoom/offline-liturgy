@@ -4,6 +4,7 @@ import '../../tools/data_loader.dart';
 
 /// Psalms library - loads from individual YAML files with lazy loading.
 class PsalmsLibrary {
+  /// Caches to avoid reloading files already in memory.
   static final Map<String, Psalm> _cache = {};
   static final Map<String, Psalm> _cacheAncient = {};
 
@@ -27,24 +28,46 @@ class PsalmsLibrary {
     }
   }
 
-  /// Gets a single psalm by code.
-  static Future<Psalm?> getPsalm(String code, DataLoader dataLoader) async {
-    if (_cache.containsKey(code)) return _cache[code];
+  /// Gets a single psalm by code with optional imprecatory version.
+  /// If [imprecatory] is true, it tries to load 'code_i.yaml' first.
+  static Future<Psalm?> getPsalm(
+    String code,
+    DataLoader dataLoader, {
+    bool imprecatory = false,
+  }) async {
+    // 1. Determine the code to load (handle imprecatory postfix)
+    final String targetCode = imprecatory ? '${code}_i' : code;
+
+    // 2. Check cache
+    if (_cache.containsKey(targetCode)) return _cache[targetCode];
 
     try {
-      final content = await dataLoader.loadYaml('psalms/$code.yaml');
-      final psalm = _parsePsalm(code, content);
-      if (psalm != null) _cache[code] = psalm;
-      return psalm;
+      // 3. Try loading the target version
+      final content = await dataLoader.loadYaml('psalms/$targetCode.yaml');
+      final psalm = _parsePsalm(targetCode, content);
+
+      if (psalm != null) {
+        _cache[targetCode] = psalm;
+        return psalm;
+      }
     } catch (e) {
+      // 4. Fallback: If imprecatory failed, try the standard version
+      if (imprecatory) {
+        print(
+            'ℹ️ Imprecatory version $targetCode not found. Falling back to standard $code.');
+        return getPsalm(code, dataLoader, imprecatory: false);
+      }
       print('⚠️ Psalm $code not found in main library.');
-      return null;
     }
+
+    return null;
   }
 
   /// Gets a single ancient psalm with a fallback to the standard version.
   static Future<Psalm?> getPsalmAncient(
-      String code, DataLoader dataLoader) async {
+    String code,
+    DataLoader dataLoader,
+  ) async {
     // 1. Check Ancient Cache
     if (_cacheAncient.containsKey(code)) return _cacheAncient[code];
 
@@ -63,30 +86,35 @@ class PsalmsLibrary {
           'ℹ️ Ancient version of $code missing. Trying fallback to standard...');
     }
 
-    // 3. Fallback: Try loading the standard version
-    // We don't save it in _cacheAncient to avoid duplicating memory,
-    // getPsalm will handle its own caching in _cache.
+    // 3. Fallback: Use standard getPsalm (which handles its own caching)
+    // Note: If you want imprecatory support here, you could pass the param through.
     return await getPsalm(code, dataLoader);
   }
 
   /// Gets multiple psalms by codes in parallel.
   static Future<Map<String, Psalm>> getPsalms(
     List<String> codes,
-    DataLoader dataLoader,
-  ) async {
+    DataLoader dataLoader, {
+    bool imprecatory = false,
+  }) async {
+    // Fetch all requested psalms concurrently
     final results = await Future.wait(
-      codes.map((code) => getPsalm(code, dataLoader)),
+      codes.map((code) => getPsalm(code, dataLoader, imprecatory: imprecatory)),
     );
 
     final Map<String, Psalm> resultMap = {};
     for (var i = 0; i < codes.length; i++) {
       final psalm = results[i];
-      if (psalm != null) resultMap[codes[i]] = psalm;
+      if (psalm != null) {
+        resultMap[codes[i]] = psalm;
+      }
     }
     return resultMap;
   }
 
+  /// Clears all caches to free up memory.
   static void clearCache() {
+    print('🗑️ PsalmsLibrary: Clearing all caches.');
     _cache.clear();
     _cacheAncient.clear();
   }

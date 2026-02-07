@@ -4,6 +4,7 @@ import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
+import '../../tools/resolve_office_content.dart';
 
 /// Resolves morning prayer for a given celebration context.
 /// requires only Oration for the Memories: adding only the Oration of the saint,
@@ -54,6 +55,14 @@ Future<Morning> morningResolution(CelebrationContext celebrationContext) async {
     }
     morningOffice.overlayWith(properMorning);
   }
+
+  // Hydrate psalm and hymn content
+  await resolveOfficeContent(
+    psalmody: morningOffice.psalmody,
+    invitatory: morningOffice.invitatory,
+    hymns: morningOffice.hymn,
+    dataLoader: celebrationContext.dataLoader,
+  );
 
   return morningOffice;
 }

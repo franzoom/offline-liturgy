@@ -49,7 +49,7 @@ Future<void> main() async {
   complineTextCompiled.forEach((key, compline) {
     print('$key');
     print('=========================');
-    complineDisplay(compline, dataLoader);
+    complineDisplay(compline);
     print('=========================');
   });
   */

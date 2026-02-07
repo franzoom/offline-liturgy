@@ -23,9 +23,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "sunday": Compline(
@@ -47,9 +47,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "monday": Compline(
@@ -69,9 +69,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "tuesday": Compline(
@@ -91,9 +91,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia.",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "wednesday": Compline(
@@ -117,9 +117,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "thursday": Compline(
@@ -139,9 +139,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
   "friday": Compline(
@@ -159,9 +159,9 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia.",
     ),
     marialHymnRef: [
-      "o-vierge-marie-quelle-joie",
-      "reine-du-ciel-rejouis-toi",
-      "regina-caeli"
+      HymnEntry(code: "o-vierge-marie-quelle-joie"),
+      HymnEntry(code: "reine-du-ciel-rejouis-toi"),
+      HymnEntry(code: "regina-caeli"),
     ],
   ),
 };

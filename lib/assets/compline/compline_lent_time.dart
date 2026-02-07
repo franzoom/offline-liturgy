@@ -17,10 +17,10 @@ final Map<String, Compline> lentTimeCompline = {
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "sunday": Compline(
@@ -34,10 +34,10 @@ final Map<String, Compline> lentTimeCompline = {
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "monday": Compline(
@@ -48,14 +48,14 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "tuesday": Compline(
-    hymns: ["vienne_la_nuit_de_dieu_lent", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "vienne_la_nuit_de_dieu_lent"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_142",
@@ -63,10 +63,10 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "wednesday": Compline(
@@ -81,10 +81,10 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "thursday": Compline(
@@ -95,10 +95,10 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "friday": Compline(
@@ -109,10 +109,10 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "holy_thursday": Compline(
@@ -128,10 +128,10 @@ final Map<String, Compline> lentTimeCompline = {
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "holy_friday": Compline(
@@ -147,10 +147,10 @@ final Map<String, Compline> lentTimeCompline = {
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
   "holy_saturday": Compline(
@@ -168,10 +168,10 @@ final Map<String, Compline> lentTimeCompline = {
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
     marialHymnRef: [
-      "sub-tuum-praesidium",
-      "sous-l-abri-de-ta-misericorde",
-      "salut-reine-des-cieux",
-      "ave-regina-caelorum"
+      HymnEntry(code: "sub-tuum-praesidium"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "ave-regina-caelorum"),
     ],
   ),
 };

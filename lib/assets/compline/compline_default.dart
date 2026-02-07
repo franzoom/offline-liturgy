@@ -3,7 +3,7 @@ import "../../classes/office_elements_class.dart";
 
 final Map<String, Compline> defaultCompline = {
   "saturday": Compline(
-    hymns: ["ferme-mes-yeux", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "ferme-mes-yeux"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_4",
@@ -29,19 +29,19 @@ final Map<String, Compline> defaultCompline = {
       "Dieu éternel, tu as écouté la prière de ton Christ, et tu l'as délivré de la mort; ne permets pas que nos cœurs se troublent, rassure-nous dans notre nuit, comble-nous de ta joie, et nous attendrons dans le silence et la paix que se lève sur nous la lumière de la Résurrection. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
   "sunday": Compline(
-    hymns: ["avant-la-fin-de-la-lumiere", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "avant-la-fin-de-la-lumiere"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
@@ -67,19 +67,19 @@ final Map<String, Compline> defaultCompline = {
       "Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel; alors qu'il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s'éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
   "monday": Compline(
-    hymns: ["en-toi-seigneur", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "en-toi-seigneur"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_85",
@@ -104,19 +104,19 @@ final Map<String, Compline> defaultCompline = {
       "Seigneur, tandis que nous dormirons en paix, fais germer et grandir jusqu'à la moisson la semence du Royaume des cieux que nous avons jetée en terre par le travail de cette journée. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
   "tuesday": Compline(
-    hymns: ["vienne-la-nuit-de-dieu", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "vienne-la-nuit-de-dieu"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_142",
@@ -141,19 +141,19 @@ final Map<String, Compline> defaultCompline = {
       "Dieu qui es fidèle et juste, réponds à ton Église en prière, comme tu as répondu à Jésus, ton serviteur. Quand le souffle en elle s'épuise, fais-la vivre du souffle de ton Esprit : qu'elle médite sur l'œuvre de tes mains, pour avancer, libre et confiante, vers le matin de sa Pâque. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
   "wednesday": Compline(
-    hymns: ["avant-la-fin-de-la-lumiere", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "avant-la-fin-de-la-lumiere"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_30_1",
@@ -185,19 +185,19 @@ final Map<String, Compline> defaultCompline = {
       "Seigneur Jésus Christ, dont le joug est facile et le fardeau léger, nous venons remettre en tes mains le fardeau de ce jour, accorde-nous de trouver près de toi le repos. Toi qui règnes pour les siècles des siècles. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
   "thursday": Compline(
-    hymns: ["en-toi-seigneur", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "en-toi-seigneur"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_15",
@@ -222,19 +222,19 @@ final Map<String, Compline> defaultCompline = {
       "Seigneur, notre part d'héritage, donne-nous de ne chercher qu'en toi notre bonheur et d'attendre avec confiance, au-delà de la nuit de notre mort, la joie de vivre en ta présence. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
   "friday": Compline(
-    hymns: ["l-heure-s-avance-fais-nous-grace", "te-lucis-ante-terminum"],
+    hymns: [HymnEntry(code: "l-heure-s-avance-fais-nous-grace"), HymnEntry(code: "te-lucis-ante-terminum")],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_87",
@@ -259,15 +259,15 @@ final Map<String, Compline> defaultCompline = {
       "Seigneur notre Dieu, que la splendeur de la Résurrection nous illumine, pour que nous puissions échapper à l'ombre de la mort et parvenir à la lumière éternelle dans ton Royaume. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
-      "sainte-mere-du-redempteur",
-      "salut-reine-des-cieux",
-      "heureuse-es-tu-vierge-marie",
-      "nous-te-saluons-vierge-marie",
-      "sous-l-abri-de-ta-misericorde",
-      "alma-redemptoris-mater",
-      "ave-regina-caelorum",
-      "salve-regina",
-      "sub-tuum-praesidium",
+      HymnEntry(code: "sainte-mere-du-redempteur"),
+      HymnEntry(code: "salut-reine-des-cieux"),
+      HymnEntry(code: "heureuse-es-tu-vierge-marie"),
+      HymnEntry(code: "nous-te-saluons-vierge-marie"),
+      HymnEntry(code: "sous-l-abri-de-ta-misericorde"),
+      HymnEntry(code: "alma-redemptoris-mater"),
+      HymnEntry(code: "ave-regina-caelorum"),
+      HymnEntry(code: "salve-regina"),
+      HymnEntry(code: "sub-tuum-praesidium"),
     ],
   ),
 };

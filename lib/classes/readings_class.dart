@@ -3,7 +3,7 @@ import 'office_elements_class.dart';
 /// Class representing the Office of Readings (Leçons) structure
 class Readings {
   Celebration? celebration;
-  List<String>? hymn;
+  List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
   List<BiblicalReading>? biblicalReading;
   List<PatristicReading>? patristicReading;
@@ -44,7 +44,7 @@ class Readings {
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
           : null,
-      hymn: (data['hymn'] as List?)?.map((e) => e.toString()).toList(),
+      hymn: (data['hymn'] as List?)?.map((e) => HymnEntry.fromJson(e)).toList(),
       psalmody: (data['psalmody'] as List?)
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))

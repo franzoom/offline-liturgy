@@ -5,13 +5,13 @@ class Compline {
   Celebration? celebration;
   String? commentary; // displays commentary if needed (for example: "no complines today")
   String? celebrationType; // indicates if it's a normal day, a solemnity or eve of solemnity
-  List<String>? hymns;
+  List<HymnEntry>? hymns;
   List<PsalmEntry>? psalmody;
   Reading? reading;
   String? responsory;
   EvangelicAntiphon? evangelicAntiphon;
   List<String>? oration;
-  List<String>? marialHymnRef;
+  List<HymnEntry>? marialHymnRef;
 
   Compline({
     this.celebration,
@@ -34,7 +34,9 @@ class Compline {
           : null,
       commentary: json['commentary'] as String?,
       celebrationType: json['celebrationType'] as String?,
-      hymns: json['hymns'] != null ? List<String>.from(json['hymns']) : null,
+      hymns: json['hymns'] != null
+          ? (json['hymns'] as List).map((e) => HymnEntry.fromJson(e)).toList()
+          : null,
       psalmody: json['psalmody'] != null
           ? (json['psalmody'] as List)
               .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
@@ -53,7 +55,9 @@ class Compline {
       oration:
           json['oration'] != null ? List<String>.from(json['oration']) : null,
       marialHymnRef: json['marialHymnRef'] != null
-          ? List<String>.from(json['marialHymnRef'])
+          ? (json['marialHymnRef'] as List)
+              .map((e) => HymnEntry.fromJson(e))
+              .toList()
           : null,
     );
   }
@@ -64,13 +68,13 @@ class Compline {
     Celebration? celebration,
     String? commentary,
     String? celebrationType,
-    List<String>? hymns,
+    List<HymnEntry>? hymns,
     List<PsalmEntry>? psalmody,
     Reading? reading,
     String? responsory,
     EvangelicAntiphon? evangelicAntiphon,
     List<String>? oration,
-    List<String>? marialHymnRef,
+    List<HymnEntry>? marialHymnRef,
   }) {
     return Compline(
       celebration: celebration ?? this.celebration,

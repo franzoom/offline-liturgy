@@ -4,6 +4,7 @@ import './ferial_vespers_resolution.dart';
 import './vespers_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
+import '../../tools/resolve_office_content.dart';
 
 /// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
 /// 1. Ferial base
@@ -42,6 +43,14 @@ Future<Vespers> vespersResolution(CelebrationContext celebrationContext) async {
 
   // STEP 4: Apply Proper data (Highest priority)
   vespersOffice.overlayWith(properVespers);
+
+  // Hydrate psalm and hymn content
+  await resolveOfficeContent(
+    psalmody: vespersOffice.psalmody,
+    invitatory: vespersOffice.invitatory,
+    hymns: vespersOffice.hymn,
+    dataLoader: celebrationContext.dataLoader,
+  );
 
   return vespersOffice;
 }

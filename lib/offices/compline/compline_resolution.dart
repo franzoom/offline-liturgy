@@ -11,6 +11,7 @@ import '../../assets/compline/compline_advent_time.dart';
 import '../../assets/compline/compline_christmas_time.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/data_loader.dart';
+import '../../tools/resolve_office_content.dart';
 import 'compline_detection_v2.dart';
 
 Future<Map<String, ComplineDefinition>> complineResolution(
@@ -101,17 +102,32 @@ Future<Map<String, ComplineDefinition>> complineResolution(
   return possibleComplines;
 }
 
-Map<String, Compline> complineTextCompilation(
-    Map<String, ComplineDefinition> complineDefinitionExported) {
+Future<Map<String, Compline>> complineTextCompilation(
+    Map<String, ComplineDefinition> complineDefinitionExported,
+    DataLoader dataLoader) async {
   // Returns the list of compiled Complines from Compline definitions
   // using the getComplineText function.
   // The Map key is the name of the Compline (day or feast)
   // and the value is the text of the Compline.
-  return complineDefinitionExported.map((key, value) {
-    // Transform each value with getComplineText
-    final complineText = getComplineText(value);
-    return MapEntry(key, complineText!);
-  });
+  final result = <String, Compline>{};
+  for (var entry in complineDefinitionExported.entries) {
+    final compline = getComplineText(entry.value)!;
+    // Hydrate psalm and hymn content
+    await resolveOfficeContent(
+      psalmody: compline.psalmody,
+      hymns: compline.hymns,
+      dataLoader: dataLoader,
+    );
+    // Hydrate marian hymns separately
+    if (compline.marialHymnRef != null) {
+      await resolveOfficeContent(
+        hymns: compline.marialHymnRef,
+        dataLoader: dataLoader,
+      );
+    }
+    result[entry.key] = compline;
+  }
+  return result;
 }
 
 Compline? getComplineText(ComplineDefinition complineDefinition) {

@@ -44,7 +44,7 @@ Future<void> main() async {
 
   // Display these Complines:
   Map<String, Compline> complineTextCompiled =
-      complineTextCompilation(possibleComplines);
+      await complineTextCompilation(possibleComplines, dataLoader);
 
   complineTextCompiled.forEach((key, compline) {
     print('$key');

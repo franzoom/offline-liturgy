@@ -4,6 +4,7 @@ import './ferial_readings_resolution.dart';
 import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
+import '../../tools/resolve_office_content.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsResolution(CelebrationContext context) async {
@@ -41,6 +42,13 @@ Future<Readings> readingsResolution(CelebrationContext context) async {
   // Rule: Enabled if rank < 9 (Feasts/Solemnities) OR if specified in YAML source
   readingsOffice.tedeum =
       (context.teDeum == true) || (readingsOffice.tedeum == true);
+
+  // Hydrate psalm and hymn content
+  await resolveOfficeContent(
+    psalmody: readingsOffice.psalmody,
+    hymns: readingsOffice.hymn,
+    dataLoader: context.dataLoader,
+  );
 
   return readingsOffice;
 }

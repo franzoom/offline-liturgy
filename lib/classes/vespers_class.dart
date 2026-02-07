@@ -4,7 +4,7 @@ import 'office_elements_class.dart';
 class Vespers {
   Celebration? celebration;
   Invitatory? invitatory; // Added for consistency with other hours
-  List<String>? hymn;
+  List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
   Reading? reading;
   String? responsory;
@@ -33,7 +33,7 @@ class Vespers {
       invitatory: data['invitatory'] is Map<String, dynamic>
           ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
           : null,
-      hymn: (data['hymn'] as List?)?.map((e) => e.toString()).toList(),
+      hymn: (data['hymn'] as List?)?.map((e) => HymnEntry.fromJson(e)).toList(),
       psalmody: (data['psalmody'] as List?)
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))

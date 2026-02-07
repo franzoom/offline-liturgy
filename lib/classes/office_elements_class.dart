@@ -2,6 +2,8 @@
 library;
 
 import '../tools/data_loader.dart';
+import 'psalms_class.dart';
+import 'hymns_class.dart';
 
 /// Represents celebration information (Title, Color, Precedence)
 class Celebration {
@@ -37,8 +39,9 @@ class Celebration {
 class Invitatory {
   final List<String>? antiphon;
   final List<String>? psalms;
+  List<Psalm>? psalmsData;
 
-  const Invitatory({this.antiphon, this.psalms});
+  Invitatory({this.antiphon, this.psalms, this.psalmsData});
 
   factory Invitatory.fromJson(Map<String, dynamic> json) {
     return Invitatory(
@@ -86,8 +89,9 @@ class Intercession {
 class PsalmEntry {
   final String? psalm;
   final List<String>? antiphon;
+  Psalm? psalmData;
 
-  const PsalmEntry({this.psalm, this.antiphon});
+  PsalmEntry({this.psalm, this.antiphon, this.psalmData});
 
   factory PsalmEntry.fromJson(Map<String, dynamic> json) {
     return PsalmEntry(
@@ -95,6 +99,17 @@ class PsalmEntry {
       antiphon: (json['antiphon'] as List?)?.map((e) => e.toString()).toList(),
     );
   }
+}
+
+/// Hymn entry with code and resolved data
+class HymnEntry {
+  final String code;
+  Hymns? hymnData;
+
+  HymnEntry({required this.code, this.hymnData});
+
+  factory HymnEntry.fromJson(dynamic json) =>
+      HymnEntry(code: json.toString());
 }
 
 /// Biblical short reading (Lauds / Vespers)

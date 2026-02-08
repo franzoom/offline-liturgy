@@ -1,131 +1,209 @@
-import 'package:offline_liturgy/offices/compline/compline_extract.dart';
 import '../../classes/calendar_class.dart';
 import '../../classes/compline_class.dart';
-import '../../tools/date_tools.dart';
 import '../../tools/data_loader.dart';
-import 'package:offline_liturgy/assets/libraries/french_liturgy_labels.dart';
+import '../../tools/date_tools.dart';
+import '../office_detection.dart';
 
-Future<Map<String, ComplineDefinition>> complineDetectionX(
-    Calendar calendar, DateTime date, DataLoader dataLoader) async {
-  /// Detects which Compline to use for a given day.
-  /// Returns a Map "day or feast name". One of this offices will be
-  /// chosen and given in argument to complineResolution
+/// Day names mapping for Compline (English weekday names)
+const Map<int, String> _dayNames = {
+  1: 'monday',
+  2: 'tuesday',
+  3: 'wednesday',
+  4: 'thursday',
+  5: 'friday',
+  6: 'saturday',
+  7: 'sunday',
+};
 
-  DayContent? todayContent = calendar.getDayContent(date);
-  String todayName = dayName[date.weekday];
-  String liturgicalTime = todayContent!.liturgicalTime;
-  String celebrationTitle = todayContent.defaultCelebrationTitle;
-  int precedence = todayContent.precedence;
+/// Special celebration codes for Holy Week
+const Set<String> _holyWeekCodes = {
+  'holy_thursday',
+  'holy_friday',
+  'holy_saturday',
+};
 
-  switch (celebrationTitle) {
-    case 'holy_thursday':
-    case 'holy_friday':
-    case 'holy_saturday':
-      ComplineDefinition complineDefinition = ComplineDefinition(
-          complineDescription:
-              'Complies du ${celebrationTypeLabels[celebrationTitle]!}',
-          dayOfWeek: 'sunday',
-          liturgicalTime: 'lent',
-          celebrationType: celebrationTitle,
-          precedence: 1);
-      return {celebrationTitle: complineDefinition};
-    case 'ashes':
-      ComplineDefinition complineDefinition = ComplineDefinition(
-          complineDescription: 'Complies du mercredi des Cendres',
-          dayOfWeek: 'wednesday',
-          liturgicalTime: 'ordinary',
-          celebrationType: 'normal',
-          precedence: 13);
-      return {celebrationTitle: complineDefinition};
+/// Determines the celebration type for Compline based on precedence and code
+String _determineCelebrationType(int precedence, String celebrationCode) {
+  // Check for special Holy Week days
+  if (_holyWeekCodes.contains(celebrationCode.toLowerCase())) {
+    return celebrationCode.toLowerCase();
   }
 
-  String complineDescription = await getComplineDescription(
-    celebrationTitle,
-    dataLoader,
-  );
-
-  // Major solemnities (in the root of Day Calendar)
-  // For sundays of Advent or other times, the precedence is very high,
-  // so we have to check if it's a sunday in the celebrationTitle (finishing with 0).
-  // Usualy a major solemnity replaces the celebrationTitle of the day,
-  // so the check is enough to solve problems.
-  if (precedence <= 4 && celebrationTitle[celebrationTitle.length - 1] != '0') {
-    ComplineDefinition complineDefinition = ComplineDefinition(
-        complineDescription: complineDescription,
-        dayOfWeek: 'sunday',
-        liturgicalTime: liturgicalTime,
-        celebrationType: 'solemnity',
-        precedence: precedence);
-    return {complineDescription: complineDefinition};
+  // Solemnities have precedence <= 4
+  if (precedence <= 4) {
+    return 'solemnity';
   }
 
-  // Then look for the solemnities found in subdirectories of Calendar
-  // (a solemnity must be at a higher precedence than the root of the day)
-  for (var entry in todayContent.feastList.entries) {
-    if (entry.key <= 4 && entry.key <= precedence) {
-      String complineDescription = await getComplineDescription(
-        entry.value[0],
-        dataLoader,
-      );
-      ComplineDefinition complineDefinition = ComplineDefinition(
-          complineDescription: complineDescription,
-          dayOfWeek: 'sunday',
-          liturgicalTime: liturgicalTime,
-          celebrationType: 'solemnity',
-          precedence: entry.key);
-      return {complineDescription: complineDefinition};
-    }
-  }
-
-  // Otherwise, concluding with the simple Complines of the day
-  ComplineDefinition complineDefinition = ComplineDefinition(
-      complineDescription: complineDescription,
-      dayOfWeek: todayName,
-      liturgicalTime: liturgicalTime,
-      celebrationType: 'normal',
-      precedence: precedence);
-  return {complineDescription: complineDefinition};
+  return 'normal';
 }
 
-/// Returns the French description of the Complines
-Future<String> getComplineDescription(
-  String celebrationTitle,
+/// Determines the day of week to use for Compline psalms
+/// For solemnities, use 'sunday' psalms; otherwise use actual day
+String _determineDayOfWeek(
+    DateTime date, String celebrationType, int precedence) {
+  if (celebrationType == 'solemnity' || celebrationType == 'solemnityeve') {
+    return celebrationType == 'solemnityeve' ? 'saturday' : 'sunday';
+  }
+
+  // For Sundays, always return 'sunday'
+  if (date.weekday == DateTime.sunday) {
+    return 'sunday';
+  }
+
+  return _dayNames[date.weekday] ?? 'monday';
+}
+
+/// Returns a map of possible Compline Offices, sorted by precedence (lowest first)
+/// Key: celebration description
+/// Value: ComplineDefinition with all celebration data
+///
+/// This wrapper handles Compline-specific logic:
+/// - Determines dayOfWeek for psalm selection
+/// - Determines celebrationType (normal, solemnity, etc.)
+/// - Handles Eve Complines (like First Vespers) for tomorrow's solemnities/Sundays
+Future<Map<String, ComplineDefinition>> complineDetection(
+  Calendar calendar,
+  DateTime date,
   DataLoader dataLoader,
 ) async {
-  // Convert to lowercase to avoid case issues
-  final title = celebrationTitle.toLowerCase();
+  final Map<String, ComplineDefinition> possibleComplines = {};
 
-  // Check if format is valid (aaaa_X_Y) (normal format for ferial days)
-  final ferialCodeParts = title.split('_');
+  // Get day content for liturgical time
+  final dayContent = calendar.getDayContent(date);
+  if (dayContent == null) {
+    return possibleComplines;
+  }
 
-  if (ferialCodeParts.length == 3) {
-    var liturgicalSeasonKey = ferialCodeParts[0];
-    String specialAdventDay = '';
+  final String liturgicalTime = dayContent.liturgicalTime;
+  final String todayName = _dayNames[date.weekday] ?? 'monday';
 
-    // check for specialdays of Advent (17 to 24 decembre, with the symbole '-')
-    // e.g. advent-17_5_3 for decembre, 17th, 5th day of the 3rd week.
-    if (liturgicalSeasonKey.contains('-')) {
-      final parts = liturgicalSeasonKey.split('-');
-      liturgicalSeasonKey = parts[0];
-      specialAdventDay = parts[1]; // The two digits after '-'
+  // Special case for octaves - simplified Complines
+  if (liturgicalTime == 'christmasoctave' || liturgicalTime == 'paschaloctave') {
+    possibleComplines['Complies du samedi'] = ComplineDefinition(
+      complineDescription: 'Complies du samedi',
+      celebrationCode: dayContent.defaultCelebrationTitle,
+      ferialCode: dayContent.defaultCelebrationTitle,
+      liturgicalTime: liturgicalTime,
+      precedence: 8,
+      liturgicalColor: dayContent.liturgicalColor,
+      isCelebrable: true,
+      dayOfWeek: 'saturday',
+      celebrationType: 'solemnityeve',
+    );
+    possibleComplines['Complies du dimanche'] = ComplineDefinition(
+      complineDescription: 'Complies du dimanche',
+      celebrationCode: dayContent.defaultCelebrationTitle,
+      ferialCode: dayContent.defaultCelebrationTitle,
+      liturgicalTime: liturgicalTime,
+      precedence: 8,
+      liturgicalColor: dayContent.liturgicalColor,
+      isCelebrable: true,
+      dayOfWeek: 'sunday',
+      celebrationType: 'solemnity',
+    );
+    return possibleComplines;
+  }
+
+  // 1. Detect celebrations for today
+  final todayCelebrations = await detectCelebrations(calendar, date, dataLoader);
+
+  // 2. Detect celebrations for tomorrow (for eve Complines)
+  final tomorrow = date.add(const Duration(days: 1));
+  final tomorrowCelebrations =
+      await detectCelebrations(calendar, tomorrow, dataLoader);
+
+  // 3. Process today's celebrations
+  for (final c in todayCelebrations) {
+    final int precedence = c.precedence ?? 13;
+    final celebrationType =
+        _determineCelebrationType(precedence, c.celebrationCode);
+    final dayOfWeek = _determineDayOfWeek(date, celebrationType, precedence);
+
+    // Build description
+    String description;
+    if (ferialDayCheck(c.celebrationCode)) {
+      description = 'Complies du $todayName du ${_liturgicalTimeLabel(liturgicalTime)}';
+    } else if (celebrationType == 'solemnity') {
+      description = 'Complies de ${c.celebrationGlobalName}';
+    } else {
+      description = 'Complies du $todayName';
     }
 
-    final dayNumber = int.tryParse(ferialCodeParts[2]);
+    possibleComplines[description] = ComplineDefinition(
+      complineDescription: description,
+      celebrationCode: c.celebrationCode,
+      ferialCode: c.ferialCode ?? '',
+      commonList: c.commonList,
+      liturgicalTime: liturgicalTime,
+      breviaryWeek: c.breviaryWeek,
+      precedence: precedence,
+      liturgicalColor: c.liturgicalColor ?? 'green',
+      isCelebrable: c.isCelebrable,
+      dayOfWeek: dayOfWeek,
+      celebrationType: celebrationType,
+      isEveCompline: false,
+    );
+  }
 
-    final liturgicalSeason = liturgicalTimeLabels[liturgicalSeasonKey];
-    if (liturgicalSeason != null) {
-      final dayName = daysOfWeek[dayNumber!];
-      if (specialAdventDay.isNotEmpty) {
-        return 'Complies du $dayName du $liturgicalSeason ($specialAdventDay décembre)';
-      }
-      return 'Complies du $dayName du $liturgicalSeason';
+  // 4. Process tomorrow's celebrations for eve Complines
+  // Only solemnities (precedence <= 4) and Sundays get eve Complines
+  for (final c in tomorrowCelebrations) {
+    final int precedence = c.precedence ?? 13;
+    final bool needsEveCompline =
+        precedence <= 4 || tomorrow.weekday == DateTime.sunday;
+
+    if (needsEveCompline) {
+      final String eveDescription = 'Complies de la veille de ${c.celebrationGlobalName}';
+      final String eveCelebrationType =
+          precedence <= 4 ? 'solemnityeve' : 'normal';
+
+      // Check if today already has a solemnity - if so, eve Compline is not celebrable
+      final bool todayHasSolemnity =
+          todayCelebrations.any((tc) => (tc.precedence ?? 13) <= 4);
+      final bool isCelebrable = !todayHasSolemnity || precedence <= 4;
+
+      possibleComplines[eveDescription] = ComplineDefinition(
+        complineDescription: eveDescription,
+        celebrationCode: c.celebrationCode,
+        ferialCode: c.ferialCode ?? '',
+        commonList: c.commonList,
+        liturgicalTime: liturgicalTime,
+        breviaryWeek: c.breviaryWeek,
+        precedence: precedence,
+        liturgicalColor: c.liturgicalColor ?? 'green',
+        isCelebrable: isCelebrable,
+        dayOfWeek: 'saturday', // Eve Complines always use Saturday psalms
+        celebrationType: eveCelebrationType,
+        isEveCompline: true,
+      );
     }
   }
 
-  final String complineTitle = await complineTitleExtract(
-    title,
-    dataLoader,
-  );
+  // Sort by precedence
+  final sortedEntries = possibleComplines.entries.toList()
+    ..sort((a, b) => a.value.precedence.compareTo(b.value.precedence));
 
-  return complineTitle.isNotEmpty ? 'Complies de $complineTitle' : 'Complies';
+  print(
+      '+-+-+-+-+-+-+-+-+-+ COMPLINE DETECTION V2 - Possible Complines: ${Map.fromEntries(sortedEntries)}');
+  return Map.fromEntries(sortedEntries);
+}
+
+/// Helper to get French label for liturgical time
+String _liturgicalTimeLabel(String liturgicalTime) {
+  switch (liturgicalTime.toLowerCase()) {
+    case 'advent':
+      return 'temps de l\'Avent';
+    case 'christmas':
+    case 'christmasoctave':
+      return 'temps de Noël';
+    case 'lent':
+      return 'temps du Carême';
+    case 'paschal':
+    case 'paschaloctave':
+      return 'temps Pascal';
+    case 'ot':
+      return 'temps Ordinaire';
+    default:
+      return liturgicalTime;
+  }
 }

@@ -1,11 +1,9 @@
 import 'dart:io';
 import 'offline_liturgy.dart';
-import 'tools/data_loader.dart';
-import 'classes/office_elements_class.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2025, 12, 8);
+  DateTime date = DateTime(2026, 2, 11);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 
@@ -19,6 +17,28 @@ Future<void> main() async {
   // Launch Morning prayer generation for the requested day:
   final Map<String, CelebrationContext> possibleMornings =
       await morningDetection(calendar, date, dataLoader);
+
+  // Debug: detail possibleMornings content
+  print('===== possibleMornings (${possibleMornings.length} entries) =====');
+  possibleMornings.forEach((key, ctx) {
+    print('--- [$key] ---');
+    print('  celebrationType:        ${ctx.celebrationType}');
+    print('  celebrationCode:        ${ctx.celebrationCode}');
+    print('  celebrationTitle:       ${ctx.celebrationTitle}');
+    print('  celebrationGlobalName:  ${ctx.celebrationGlobalName}');
+    print('  ferialCode:             ${ctx.ferialCode}');
+    print('  commonList:             ${ctx.commonList}');
+    print('  date:                   ${ctx.date}');
+    print('  liturgicalTime:         ${ctx.liturgicalTime}');
+    print('  breviaryWeek:           ${ctx.breviaryWeek}');
+    print('  precedence:             ${ctx.precedence}');
+    print('  teDeum:                 ${ctx.teDeum}');
+    print('  isCelebrable:           ${ctx.isCelebrable}');
+    print('  officeDescription:      ${ctx.officeDescription}');
+    print('  liturgicalColor:        ${ctx.liturgicalColor}');
+    print('  celebrationDescription: ${ctx.celebrationDescription}');
+  });
+  print('===== fin possibleMornings =====');
 
   // Taking the first celebration in the list
   final MapEntry<String, CelebrationContext>? firstEntry =

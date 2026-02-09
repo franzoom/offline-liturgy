@@ -5,178 +5,129 @@ import '../../assets/libraries/hymn_list.dart';
 import './morning_extract.dart';
 import '../../tools/constants.dart';
 
-/// Resolves morning prayer for ferial days
-/// Returns Morning instanciation
+/// Resolves morning prayer content for ferial days.
+/// Handles specific seasons (Advent, Christmas, Lent, Easter).
 Future<Morning> ferialMorningResolution(CelebrationContext context) async {
   final celebrationCode = context.ferialCode ?? context.celebrationCode;
   final date = context.date;
   final dataLoader = context.dataLoader;
   Morning ferialMorning = Morning();
 
-  // ============================================================================
-  // ORDINARY TIME
-  // ============================================================================
+  // --- ORDINARY TIME ---
   if (celebrationCode.startsWith('ot')) {
     List dayDatas = extractWeekAndDay(celebrationCode, 'ot');
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+    int week = dayDatas[0];
+    int day = dayDatas[1];
 
-    // picks the data of the first 4 weeks of the Ordinary Time:
-    Morning ferialMorning = await morningExtract(
-        '$ferialFilePath/ot_${((weekNumber - 1) % 4) + 1}_$dayNumber.yaml',
-        dataLoader);
+    // Base: 4-week cycle
+    ferialMorning = await morningExtract(
+        '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml', dataLoader);
 
-    if (weekNumber > 4) {
-      // Add specific data after the 4th week
-      Morning auxData = await morningExtract(
-          '$ferialFilePath/ot_${weekNumber}_$dayNumber.yaml', dataLoader);
-      ferialMorning.overlayWith(auxData);
+    // Overlay specific data for weeks > 4
+    if (week > 4) {
+      Morning aux = await morningExtract(
+          '$ferialFilePath/ot_${week}_$day.yaml', dataLoader);
+      ferialMorning.overlayWith(aux);
     }
-
     return ferialMorning;
   }
 
-  // ============================================================================
-  // ADVENT TIME
-  // ============================================================================
+  // --- ADVENT ---
   if (celebrationCode.startsWith('advent')) {
-    final List<HymnEntry> hymns =
+    final hymns =
         (hymnList["advent"] ?? []).map((e) => HymnEntry(code: e)).toList();
 
     if (RegExp(r'advent_').hasMatch(celebrationCode)) {
-      // Days before December 17th: is written "advent_XXX"
+      // Standard Advent weeks
       List dayDatas = extractWeekAndDay(celebrationCode, "advent");
-      int weekNumber = dayDatas[0];
-      int dayNumber = dayDatas[1];
       ferialMorning = await morningExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-      ferialMorning.hymn = hymns;
-      return ferialMorning;
-    }
-    // Days from December 17th onwards (special days): is written "advent-17_3_5"
-    // extracting the datas of the celebrationCode:
-    List<String> parts = celebrationCode.replaceFirst("advent-", "").split("_");
-    int adventSpecialDay = int.parse(parts[0]);
-    int weekNumber = int.parse(parts[1]);
-    int dayNumber = int.parse(parts[2]);
+          '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
+          dataLoader);
+    } else {
+      // Special Advent (Dec 17 - 24)
+      List<String> parts =
+          celebrationCode.replaceFirst("advent-", "").split("_");
+      int specialDay = int.parse(parts[0]);
+      int week = int.parse(parts[1]);
+      int day = int.parse(parts[2]);
 
-    ferialMorning = await morningExtract(
-        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-
-    //sunday after 12/17: use the Sunday texts and add the Evangelic Antiphon of the Special Day
-    if (dayNumber == 0) {
+      // Load base weekday and special day data (the "O" antiphon days)
       ferialMorning = await morningExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-      Morning adventSpecialMorning = await morningExtract(
-          '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-      ferialMorning.evangelicAntiphon = adventSpecialMorning.evangelicAntiphon;
-      ferialMorning.hymn = hymns;
-      return ferialMorning;
-    }
+          '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
+      Morning specialData = await morningExtract(
+          '$specialFilePath/advent_$specialDay.yaml', dataLoader);
 
-    //after december the 17th we add to the week days the special material of the D day
-    ferialMorning = await morningExtract(
-        '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-    Morning adventSpecialMorning = await morningExtract(
-        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-    ferialMorning.overlayWith(adventSpecialMorning);
+      if (day == 0) {
+        // Sunday: Keep Sunday psalms but take the special Benedictus Antiphon
+        ferialMorning.evangelicAntiphon = specialData.evangelicAntiphon;
+      } else {
+        // Weekday: The special day content takes precedence
+        ferialMorning.overlayWith(specialData);
+      }
 
-    //after december the 17th, in the 3d week we use the psalm antiphons of the 4th week
-    if (weekNumber == 3) {
-      Morning ferialMorningFour = await morningExtract(
-          '$ferialFilePath/advent_4_$dayNumber.yaml', dataLoader);
-      // Replace only the antiphons, keeping the psalms from ferialMorning
-      if (ferialMorning.psalmody != null &&
-          ferialMorningFour.psalmody != null &&
-          ferialMorning.psalmody!.length >= 3 &&
-          ferialMorningFour.psalmody!.length >= 3) {
-        ferialMorning.psalmody = List.generate(
-          3,
-          (i) => PsalmEntry(
-            psalm: ferialMorning.psalmody![i].psalm,
-            antiphon: ferialMorningFour.psalmody![i].antiphon,
-          ),
-        );
+      // Rule: Week 3 uses Psalm antiphons from Week 4 after Dec 17th
+      if (week == 3) {
+        Morning weekFour = await morningExtract(
+            '$ferialFilePath/advent_4_$day.yaml', dataLoader);
+        if (ferialMorning.psalmody?.length == 3 &&
+            weekFour.psalmody?.length == 3) {
+          ferialMorning.psalmody = List.generate(
+              3,
+              (i) => PsalmEntry(
+                    psalm: ferialMorning.psalmody![i].psalm,
+                    antiphon: weekFour.psalmody![i].antiphon,
+                  ));
+        }
       }
     }
     ferialMorning.hymn = hymns;
     return ferialMorning;
   }
 
-  // ============================================================================
-  // CHRISTMAS TIME
-  // ============================================================================
+  // --- CHRISTMAS ---
   if (celebrationCode.startsWith('christmas')) {
-    // Note: Holy Family is excluded (not a ferial day)
-    int dayNumber = date.day;
-    int monthNumber = date.month;
     List<HymnEntry> hymns =
         (hymnList["christmas"] ?? []).map((e) => HymnEntry(code: e)).toList();
 
-    if (monthNumber == 12) {
-      // All December days in Christmas time: proper office overlays the Common
-      Morning morningOffice = await morningExtract(
-          '$specialFilePath/christmas_$dayNumber.yaml', dataLoader);
-      Morning baseMorningOffice =
+    if (date.month == 12) {
+      // Dec 25 to 31
+      ferialMorning =
           await morningExtract('$commonsFilePath/christmas.yaml', dataLoader);
-      baseMorningOffice.overlayWith(morningOffice);
-      baseMorningOffice.hymn = hymns;
-      return baseMorningOffice;
-    }
-    // Christmas days in January
-    if (celebrationCode.startsWith('christmas-')) {
-      // Before Epiphany: proper of the day with psalms and antiphons
-      // of the 1st or 2d week of Christmas time
+      Morning proper = await morningExtract(
+          '$specialFilePath/christmas_${date.day}.yaml', dataLoader);
+      ferialMorning.overlayWith(proper);
+    } else if (celebrationCode.contains('-')) {
+      // Jan before Epiphany
       List<String> parts = celebrationCode.split('-')[1].split('_');
-      String dateDay = parts[0];
-      String breviaryWeek = parts[1];
-      String breviaryDay = parts[2];
-      Morning morningOffice = await morningExtract(
-          '$specialFilePath/christmas-ferial_before_epiphany_$dateDay.yaml',
+      ferialMorning = await morningExtract(
+          '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
+      Morning proper = await morningExtract(
+          '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
           dataLoader);
-      Morning baseMorningOffice = await morningExtract(
-          '$ferialFilePath/christmas_${breviaryWeek}_$breviaryDay.yaml',
-          dataLoader);
-      baseMorningOffice.overlayWith(morningOffice);
-      baseMorningOffice.hymn = hymns;
-      return baseMorningOffice;
+      ferialMorning.overlayWith(proper);
+    } else {
+      // After Epiphany
+      ferialMorning = await morningExtract(
+          '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
+      hymns = (hymnList["after_epiphany"] ?? [])
+          .map((e) => HymnEntry(code: e))
+          .toList();
     }
-    // After Epiphany
-    Morning morningOffice = await morningExtract(
-        '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
-    morningOffice.hymn =
-        (hymnList["after_epiphany"] ?? []).map((e) => HymnEntry(code: e)).toList();
-    return morningOffice;
-  }
-
-  // ============================================================================
-  // LENT TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('lent')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "lent");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
-    ferialMorning = await morningExtract(
-        '$ferialFilePath/lent_${weekNumber}_$dayNumber.yaml', dataLoader);
+    ferialMorning.hymn = hymns;
     return ferialMorning;
   }
 
-  // ============================================================================
-  // PASCHAL TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('PT')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "PT");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
-    ferialMorning = await morningExtract(
-        '$ferialFilePath/easter_${weekNumber}_$dayNumber.yaml', dataLoader);
-    return ferialMorning;
+  // --- LENT & EASTER ---
+  if (celebrationCode.startsWith('lent') ||
+      celebrationCode.startsWith('easter')) {
+    String season = celebrationCode.startsWith('lent') ? "lent" : "easter";
+    List dayDatas = extractWeekAndDay(celebrationCode, season);
+    return await morningExtract(
+        '$ferialFilePath/${season}_${dayDatas[0]}_${dayDatas[1]}.yaml',
+        dataLoader);
   }
 
-  // ============================================================================
-  // OTHER FERIAL TIMES
-  // ============================================================================
-  ferialMorning =
-      await morningExtract('$ferialFilePath/$celebrationCode.yaml', dataLoader);
-  return ferialMorning;
+  // --- FALLBACK ---
+  return await morningExtract(
+      '$ferialFilePath/$celebrationCode.yaml', dataLoader);
 }

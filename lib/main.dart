@@ -32,8 +32,7 @@ Future<void> main() async {
   // Use the CelebrationContext directly
   final celebrationContext = firstEntry.value;
 
-  final Morning firstMorningOffice =
-      await morningResolution(celebrationContext);
+  final Morning firstMorningOffice = await morningExport(celebrationContext);
   print(firstMorningOffice);
 
 ////////////////////

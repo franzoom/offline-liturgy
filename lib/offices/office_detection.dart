@@ -233,6 +233,11 @@ Future<List<CelebrationContext>> detectCelebrations(
       }
     }
 
+    // For low-precedence celebrations (>=10), allow opting out of commons
+    if (precedence >= 10 && commonList.isNotEmpty) {
+      commonList = ['', ...commonList];
+    }
+
     detectedCelebrations.add(CelebrationContext(
       celebrationTitle: celebrationTitle,
       celebrationGlobalName: celebrationGlobalName,

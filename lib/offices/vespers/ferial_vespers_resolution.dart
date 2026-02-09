@@ -156,7 +156,7 @@ Future<Vespers> ferialVespersResolution(CelebrationContext context) async {
     int week = dayDatas[0];
     int day = dayDatas[1];
     ferialVespers = await vespersExtract(
-        '$ferialFilePath/"lent"_${week}_$day.yaml', dataLoader);
+        '$ferialFilePath/lent_${week}_$day.yaml', dataLoader);
     final String hymnTime = week < 5 ? "lent" : "passion";
     List<HymnEntry> hymns =
         (hymnList[hymnTime] ?? []).map((e) => HymnEntry(code: e)).toList();

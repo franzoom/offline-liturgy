@@ -170,6 +170,19 @@ Future<List<CelebrationContext>> detectCelebrations(
     return [];
   }
 
+  // Load ferial YAML files in parallel
+  final ferialCelebrations =
+      allCelebrations.where((c) => ferialDayCheck(c.code)).toList();
+  final ferialLoadFutures = ferialCelebrations
+      .map((c) => dataLoader.loadYaml('$ferialFilePath/${c.code}.yaml'));
+  List<String> ferialResults;
+  try {
+    ferialResults = await Future.wait(ferialLoadFutures);
+  } catch (e) {
+    print('Error loading ferial YAML files: $e');
+    ferialResults = List.filled(ferialCelebrations.length, '');
+  }
+
   // Build a map of celebration code -> file content
   final Map<String, String> fileContents = {};
   for (int i = 0; i < nonFerialCelebrations.length; i++) {
@@ -182,6 +195,12 @@ Future<List<CelebrationContext>> detectCelebrations(
     final code = nonFerialCelebrations[sanctoralIndices[i]].code;
     if (sanctoralResults[i].isNotEmpty) {
       fileContents[code] = sanctoralResults[i];
+    }
+  }
+  for (int i = 0; i < ferialCelebrations.length; i++) {
+    final code = ferialCelebrations[i].code;
+    if (ferialResults[i].isNotEmpty) {
+      fileContents[code] = ferialResults[i];
     }
   }
 
@@ -207,26 +226,28 @@ Future<List<CelebrationContext>> detectCelebrations(
       // Ferial day: resolve name using ferialNameResolution
       celebrationGlobalName = ferialNameResolution(celebrationCode);
       celebrationTitle = celebrationGlobalName;
-    } else {
-      // Non-ferial: use pre-loaded YAML data
-      final fileContent = fileContents[celebrationCode] ?? '';
-      final yamlData = parseCelebrationYaml(fileContent);
+    }
 
-      if (yamlData != null) {
-        celebrationLiturgicalColor =
-            yamlData.color ?? celebrationLiturgicalColor;
-        celebrationDescription = yamlData.description;
-        commonList = yamlData.commons;
+    // Check YAML data (pre-loaded for non-ferial, may also exist for ferial)
+    final fileContent = fileContents[celebrationCode] ?? '';
+    final yamlData = parseCelebrationYaml(fileContent);
 
-        // Use title as celebrationTitle, build full name with subtitle
-        if (yamlData.title != null && yamlData.title!.isNotEmpty) {
-          celebrationTitle = yamlData.title!;
-          celebrationGlobalName = yamlData.title!;
-          if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
-            celebrationGlobalName += ', ${yamlData.subtitle}';
-          }
+    if (yamlData != null) {
+      celebrationLiturgicalColor =
+          yamlData.color ?? celebrationLiturgicalColor;
+      celebrationDescription = yamlData.description;
+      commonList = yamlData.commons;
+
+      // Use title as celebrationTitle, build full name with subtitle
+      if (yamlData.title != null && yamlData.title!.isNotEmpty) {
+        celebrationTitle = yamlData.title!;
+        celebrationGlobalName = yamlData.title!;
+        if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
+          celebrationGlobalName += ', ${yamlData.subtitle}';
         }
-      } else if (fileContent.isEmpty) {
+      }
+    } else if (!ferialDayCheck(celebrationCode)) {
+      if (fileContent.isEmpty) {
         print('Warning: failed to load $celebrationCode.yaml');
       } else {
         print('Warning: failed to parse $celebrationCode.yaml');

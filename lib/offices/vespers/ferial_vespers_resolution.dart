@@ -144,32 +144,36 @@ Future<Vespers> ferialVespersResolution(CelebrationContext context) async {
     // After Epiphany
     Vespers vespersOffice = await vespersExtract(
         '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
-    vespersOffice.hymn =
-        (hymnList["after_epiphany"] ?? []).map((e) => HymnEntry(code: e)).toList();
+    vespersOffice.hymn = (hymnList["after_epiphany"] ?? [])
+        .map((e) => HymnEntry(code: e))
+        .toList();
     return vespersOffice;
   }
 
-  // ============================================================================
-  // LENT TIME
-  // ============================================================================
+// --- LENT ---
   if (celebrationCode.startsWith('lent')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "lent");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+    List dayDatas = extractWeekAndDay(celebrationCode, 'lent');
+    int week = dayDatas[0];
+    int day = dayDatas[1];
     ferialVespers = await vespersExtract(
-        '$ferialFilePath/lent_${weekNumber}_$dayNumber.yaml', dataLoader);
+        '$ferialFilePath/"lent"_${week}_$day.yaml', dataLoader);
+    final String hymnTime = week < 5 ? "lent" : "passion";
+    List<HymnEntry> hymns =
+        (hymnList[hymnTime] ?? []).map((e) => HymnEntry(code: e)).toList();
+    ferialVespers.hymn = hymns;
     return ferialVespers;
   }
 
-  // ============================================================================
-  // PASCHAL TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('PT')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "PT");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+  // --- EASTER ---
+  if (celebrationCode.startsWith('easter')) {
+    List dayDatas = extractWeekAndDay(celebrationCode, 'easter');
+    int week = dayDatas[0];
+    int day = dayDatas[1];
     ferialVespers = await vespersExtract(
-        '$ferialFilePath/easter_${weekNumber}_$dayNumber.yaml', dataLoader);
+        '$ferialFilePath/easter_${week}_$day.yaml', dataLoader);
+    List<HymnEntry> hymns =
+        (hymnList["easter"] ?? []).map((e) => HymnEntry(code: e)).toList();
+    ferialVespers.hymn = hymns;
     return ferialVespers;
   }
 

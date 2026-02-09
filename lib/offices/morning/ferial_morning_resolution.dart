@@ -117,14 +117,30 @@ Future<Morning> ferialMorningResolution(CelebrationContext context) async {
     return ferialMorning;
   }
 
-  // --- LENT & EASTER ---
-  if (celebrationCode.startsWith('lent') ||
-      celebrationCode.startsWith('easter')) {
-    String season = celebrationCode.startsWith('lent') ? "lent" : "easter";
-    List dayDatas = extractWeekAndDay(celebrationCode, season);
-    return await morningExtract(
-        '$ferialFilePath/${season}_${dayDatas[0]}_${dayDatas[1]}.yaml',
+  // --- LENT ---
+  if (celebrationCode.startsWith('lent')) {
+    List dayDatas = extractWeekAndDay(celebrationCode, 'lent');
+    int week = dayDatas[0];
+    int day = dayDatas[1];
+    ferialMorning = await morningExtract(
+        '$ferialFilePath/"lent"_${week}_$day.yaml', dataLoader);
+    final String hymnTime = week < 5 ? "lent" : "passion";
+    List<HymnEntry> hymns =
+        (hymnList[hymnTime] ?? []).map((e) => HymnEntry(code: e)).toList();
+    ferialMorning.hymn = hymns;
+    return ferialMorning;
+  }
+
+  // --- EASTER ---
+  if (celebrationCode.startsWith('easter')) {
+    List dayDatas = extractWeekAndDay(celebrationCode, 'easter');
+    ferialMorning = await morningExtract(
+        '$ferialFilePath/easter_${dayDatas[0]}_${dayDatas[1]}.yaml',
         dataLoader);
+    List<HymnEntry> hymns =
+        (hymnList["easter"] ?? []).map((e) => HymnEntry(code: e)).toList();
+    ferialMorning.hymn = hymns;
+    return ferialMorning;
   }
 
   // --- FALLBACK ---

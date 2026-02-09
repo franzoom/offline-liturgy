@@ -4,7 +4,7 @@ class Hymns {
   final String? author;
   final String content;
 
-  Hymns({
+  const Hymns({
     required this.title,
     this.author,
     required this.content,

@@ -78,5 +78,27 @@ const Map<String, List<String>> hymnList = {
     "tu-les-sauvais",
     "tous-les-chemins",
     "vexilla-regis"
+  ],
+  "easter": [
+    "lumiere-du-monde-o-jesus",
+    "que-cherchez-vous",
+    "o-nuit",
+    "comme-nous-allions",
+    "quand-il-disait-a-ses-amis",
+    "il-s-est-leve-d-entre-les-morts",
+    "il-est-vivant-tu-l-as-vu-la-premiere",
+    "jesus-qui-m-as-brule-le-coeur",
+    "jour-de-resurrection",
+    "lumiere-enfouie",
+    "j-ai-vu-l-eau-vive",
+    "paque-de-jesus-christ",
+    "lumiere-aux-nuits-de-mort",
+    "louange-a-toi-seigneur-jesus",
+    "le-seigneur-vit",
+    "esprit-de-dieu-tu-es-le-feu",
+    "esprit-comme-une-seve",
+    "ad-cenam-agni",
+    "jesu-nostra-redemptio",
+    "veni-creator-spiritus"
   ]
 };

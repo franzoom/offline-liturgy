@@ -73,7 +73,7 @@ const Map<String, List<String>> hymnList = {
     "ne-descends-pas-dans-le-jardin",
     "quel-est-cet-amoureux",
     "mystere-du-calvaire",
-    "quand-le-fouet-a-dechire",
+    "quand-le-fouet",
     "bois-tout-en-feu",
     "tu-les-sauvais",
     "tous-les-chemins",

@@ -7,7 +7,7 @@ class Psalm {
   final String? commentary;
   final String content;
 
-  Psalm({
+  const Psalm({
     required this.title,
     this.subtitle,
     this.biblicalReference,

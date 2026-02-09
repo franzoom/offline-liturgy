@@ -22,11 +22,7 @@ firstVespers:
     V/ La Parole qui porte fruit. \*
     V/ L’espérance du règne à venir. \*  
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Le Seigneur s’est relevé d’entre les morts ; c’est pour nous jour de fête et de joie, alléluia !
-    yearA: "Jean-Baptiste a rendu témoignage : Voici l’Agneau de Dieu qui enlève le péché du monde."
-    yearB: Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.
-    yearC: Jésus fut invité aux noces, à Cana de Galilée ; et sa mère était là.
+  evangelicAntiphon: Le Seigneur s’est relevé d’entre les morts ; c’est pour nous jour de fête et de joie, alléluia !
   intercession:
     content: |-
       À la veille du jour du Seigneur, supplions-le de regarder avec bonté ce que fut notre vie pendant la semaine :
@@ -55,6 +51,14 @@ firstVespers:
 invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
+
+oration:
+    - "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+
+evangelicAntiphon:
+    yearA: "Jean-Baptiste a rendu témoignage : Voici l’Agneau de Dieu qui enlève le péché du monde."
+    yearB: Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.
+    yearC: Jésus fut invité aux noces, à Cana de Galilée ; et sa mère était là.
 
 readings:
   hymn:
@@ -115,9 +119,6 @@ readings:
         Le Christ, notre paix, a détruit les séparations :
         en un seul corps,
         il nous rassemble par la croix.
-  oration:
-    - "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
-
 morning:
   hymn:
     - o-pere-des-siecles-du-monde
@@ -140,11 +141,7 @@ morning:
     \* Renouvelle mon esprit.
     V/ Rends-moi la joie d’être sauvé. \*
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Libre, tu t’éveilles, premier-né d’entre les morts ! De ton cœur naît l’Église à l’image de Dieu, car toi seul tu baptises dans l’Esprit et le feu, alléluia.
-    yearA: "Jean-Baptiste a rendu témoignage : Voici l’Agneau de Dieu qui enlève le péché du monde."
-    yearB: Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.
-    yearC: Jésus fut invité aux noces, à Cana de Galilée ; et sa mère était là.
+  evangelicAntiphon: Libre, tu t’éveilles, premier-né d’entre les morts ! De ton cœur naît l’Église à l’image de Dieu, car toi seul tu baptises dans l’Esprit et le feu, alléluia.
   intercession:
     content: |-
       Jésus, Fils du Dieu vivant,
@@ -201,11 +198,7 @@ vespers:
     V/ Magnifiez avec moi le Seigneur. \*
     V/ Exaltons tous ensemble son nom. \*
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Aujourd’hui, nous sommes le peuple de Dieu, il nous a montré son amour, dans le Christ il nous a fait renaître, alléluia.
-    yearA: "Jean-Baptiste a rendu témoignage : Voici l’Agneau de Dieu qui enlève le péché du monde."
-    yearB: Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.
-    yearC: Jésus fut invité aux noces, à Cana de Galilée ; et sa mère était là.
+  evangelicAntiphon: Aujourd’hui, nous sommes le peuple de Dieu, il nous a montré son amour, dans le Christ il nous a fait renaître, alléluia.
   intercession:
     content: |-
       Avec les témoins du Christ ressuscité sur qui nous appuyons notre foi, rendons grâce à Dieu le Père :

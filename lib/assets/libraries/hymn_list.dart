@@ -66,7 +66,7 @@ const Map<String, List<String>> hymnList = {
     "dans-le-desert",
     "peuple-de-dieu-n-aie-pas-de-honte",
     "du-cote-de-la-nuit",
-    "que-passe-la-charue",
+    "que-passe-la-charrue",
     "audi-benigne-conditor"
   ],
   "passion": [

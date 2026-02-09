@@ -3,7 +3,7 @@ import 'offline_liturgy.dart';
 
 Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
-  DateTime date = DateTime(2026, 2, 11);
+  DateTime date = DateTime(2026, 2, 18);
   String location = 'lyon';
   calendar = getCalendar(calendar, date, location); // Calendar initialisation
 

@@ -108,44 +108,32 @@ String ferialNameResolution(String ferialCode) {
   final dayOfWeekLabel = daysOfWeek[dayNumber];
   final weekOrdinal = getFrenchOrdinalFemale(weekNumber);
   if (dayNumberEssential == null) {
-    // Simple case: 'advent' without day number
+    // Simple case
+    if (liturgicalTime == "lent" && weekNumber == 0) {
+      return _firstCaracterUpperCase(
+          '${daysOfWeek[dayNumber]} après les Cendres');
+    }
     final liturgicalTimeLabel =
         liturgicalTimeLabels[liturgicalTime] ?? liturgicalTime;
 
-    result =
-        '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel';
-  } else {
-    // Special case: 'advent-17 to 24' or 'christmas-2' with day number
-    switch (liturgicalTimeEssential) {
-      case 'advent':
-        result =
-            '$dayOfWeekLabel de la $weekOrdinal semaine de l’Avent ($dayNumberEssential décembre)';
-        break;
-      case 'christmas':
-        result =
-            '$dayNumberEssential janvier, $weekOrdinal semaine du temps de Noël';
-      default:
-        result = '';
-    }
+    return _firstCaracterUpperCase(
+        '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel');
   }
-  return result[0].toUpperCase() + result.substring(1);
+  // Special case: 'advent-17 to 24' or 'christmas-2' with day number
+  switch (liturgicalTimeEssential) {
+    case 'advent':
+      result =
+          '$dayOfWeekLabel de la $weekOrdinal semaine de l’Avent ($dayNumberEssential décembre)';
+      break;
+    case 'christmas':
+      result =
+          '$dayNumberEssential janvier, $weekOrdinal semaine du temps de Noël';
+    default:
+      result = '';
+  }
+  return _firstCaracterUpperCase(result);
 }
 
-/// Returns the celebration type label based on precedence
-String getCelebrationTypeLabel(int precedence) {
-  switch (precedence) {
-    case 3:
-    case 4:
-      return '(Solennité)';
-    case 5:
-    case 7:
-    case 8:
-      return '(Fête)';
-    case 10:
-    case 11:
-      return '(Mémoire obligatoire)';
-    case 12:
-      return '(Mémoire facultative)';
-  }
-  return '';
+String _firstCaracterUpperCase(String string) {
+  return string != '' ? string[0].toUpperCase() + string.substring(1) : '';
 }

@@ -3,6 +3,54 @@ invitatory:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
+oration:
+    - "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire."
+
+firstVespers:
+  psalmody:
+    - psalm: PSALM_118_14
+      antiphon:
+        - Jésus prit avec lui Pierre, Jacques et Jean ; il les mena sur une haute montagne, et fut transfiguré devant eux.
+    - psalm: PSALM_15
+      antiphon:
+        - Son visage resplendit comme le soleil ; ses vêtements devinrent blancs comme la neige.
+    - psalm: NT_5
+      antiphon:
+        - Élie et Moïse parlaient avec lui de son départ qui devait s’accomplir à Jérusalem.
+  reading:
+    biblicalReference: 2 Co 6, 1 b-4a
+    content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+  responsory: |-
+    R/ Voici le temps favorable.
+    \* Voici le jour du salut.
+    V/ Rassemblez-vous, venez, approchez tous,
+    survivants des nations. \*
+    V/ Tournez-vous vers moi, vous serez sauvés,
+    tous les lointains de la terre. \*
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: "Une voix disait depuis la nuée : Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le."
+  intercession:
+    content: |-
+      Reconnaissons la sainteté de notre Dieu :
+
+      R/ Seigneur, toi seul es saint !
+
+      Seigneur Dieu, source du pardon,
+      fais-nous reconnaître nos fautes en nous tournant vers le Crucifié.
+
+      Apprends-nous à nous dépouiller du vieil homme et de ses convoitises,
+      pour revêtir l’homme nouveau, recréé en ton Fils.
+
+      Garde ton peuple, uni à ses pasteurs,
+      dans la fidélité à l’enseignement des Apôtres.
+
+      Transforme en artisans d’unité dans le Corps de ton Christ
+      ceux qui communient au même pain.
+
+      Reçois dans ta gloire ceux qui ont quitté ce monde,
+      augmente notre désir de te voir un jour face à face.
+
 readings:
   psalmody:
     - psalm: PSALM_103_1
@@ -47,9 +95,6 @@ readings:
         Personne n’a jamais vu Dieu.
         Le Fils unique qui est dans le sein du Père
         nous l’a fait connaître.
-  oration:
-    - "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire."
-
 morning:
   psalmody:
     - psalm: PSALM_117
@@ -91,9 +136,6 @@ morning:
 
       Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau
       et tu nous appelles tous à la résurrection.
-  oration:
-    - "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire."
-
 middleOfDay:
   psalmody:
     - psalm: PSALM_22
@@ -101,9 +143,6 @@ middleOfDay:
         - Passerais-je un ravin de ténèbres, je ne crains aucun mal.
     - psalm: PSALM_75_1
     - psalm: PSALM_75_2
-  oration:
-    - "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire."
-
 vespers:
   psalmody:
     - psalm: PSALM_109
@@ -142,5 +181,3 @@ vespers:
 
       Pour ceux dont les yeux se sont fermés,
       afin qu’ils s’ouvrent à ta lumière,
-  oration:
-    - "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire."

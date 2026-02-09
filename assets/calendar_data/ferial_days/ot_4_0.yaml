@@ -19,11 +19,7 @@ firstVespers:
     <span class="espace">laissez-vous conduire par l’Esprit. R/ </span>
     V/ Tenez-vous sous la main puissante de Dieu,
     <span class="espace">il vous rendra inébranlables. R/ </span>
-  evangelicAntiphon:
-    common: Lumière du monde, ô Jésus Christ, par toi la nuit resplendit comme le jour, la nuit même est lumière pour notre joie, alléluia !
-    yearA: "Si l’on vous persécute à cause de moi, réjouissez-vous : votre récompense sera grande dans les cieux."
-    yearB: Dans toute la Galilée, se répandait la renommée du Seigneur.
-    yearC: Passant au milieu d’eux, Jésus allait son chemin.
+  evangelicAntiphon: Lumière du monde, ô Jésus Christ, par toi la nuit resplendit comme le jour, la nuit même est lumière pour notre joie, alléluia !
   intercession:
     content: |-
       Prions le Christ, source de joie pour qui espère en lui :
@@ -49,6 +45,14 @@ firstVespers:
 invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
+
+oration:
+    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
+
+evangelicAntiphon:
+    yearA: "Si l’on vous persécute à cause de moi, réjouissez-vous : votre récompense sera grande dans les cieux."
+    yearB: Dans toute la Galilée, se répandait la renommée du Seigneur.
+    yearC: Passant au milieu d’eux, Jésus allait son chemin.
 
 readings:
   hymn:
@@ -93,9 +97,6 @@ readings:
 
         Dieu a envoyé son Fils dans le monde
         non pour nous juger, mais pour nous sauver.
-  oration:
-    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
-
 morning:
   hymn:
     - o-pere-des-siecles-du-monde
@@ -116,11 +117,7 @@ morning:
     R/ Il est notre salut, notre gloire éternelle !
     V/ Si nous mourons avec lui, avec lui, nous vivrons. R/
     V/ Si nous souffrons avec lui, avec lui nous régnerons. R/
-  evangelicAntiphon:
-    common: Pourquoi chercher parmi les morts celui qui est vivant ? Christ est vainqueur de la mort, alléluia ! Aux morts il a donné la vie, alléluia !
-    yearA: "Si l’on vous persécute à cause de moi, réjouissez-vous : votre récompense sera grande dans les cieux."
-    yearB: Dans toute la Galilée, se répandait la renommée du Seigneur.
-    yearC: Passant au milieu d’eux, Jésus allait son chemin.
+  evangelicAntiphon: Pourquoi chercher parmi les morts celui qui est vivant ? Christ est vainqueur de la mort, alléluia ! Aux morts il a donné la vie, alléluia !
   intercession:
     content: |-
       Nous levons nos mains et nos cœurs vers notre Dieu, Seigneur du ciel et de la terre :
@@ -172,11 +169,7 @@ vespers:
     \* Alléluia, alléluia.
     V/ Il est notre Dieu, notre Père. \*
     Rendez-lui grâce à pleine voix. R/
-  evangelicAntiphon:
-    common: Le Seigneur est ressuscité, alléluia ! Il nous a rachetés par son sang ; il nous remplit de sa lumière, alléluia.
-    yearA: "Si l’on vous persécute à cause de moi, réjouissez-vous : votre récompense sera grande dans les cieux."
-    yearB: Dans toute la Galilée, se répandait la renommée du Seigneur.
-    yearC: Passant au milieu d’eux, Jésus allait son chemin.
+  evangelicAntiphon: Le Seigneur est ressuscité, alléluia ! Il nous a rachetés par son sang ; il nous remplit de sa lumière, alléluia.
   intercession:
     content: |-
       Dans la joie du Seigneur, source de tout bien, prions d’un cœur confiant :

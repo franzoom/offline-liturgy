@@ -21,11 +21,7 @@ firstVespers:
     au prix de ton sang.
     V/ Hommes de toute race, langue, peuple et nation. R/
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.
-    yearA: Jésus parcourait la Galilée ; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.
-    yearB: "Les temps sont accomplis, voici le Règne de Dieu : croyez à la Bonne Nouvelle."
-    yearC: Aujourd’hui s’accomplit pour vous la parole de l’Écriture.
+  evangelicAntiphon: Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.
   intercession:
     content: |-
       Nous souvenant que le Christ eut pitié des foules, nous le prions :
@@ -50,6 +46,14 @@ firstVespers:
 invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur.
+
+oration:
+    - Dieu, éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance.
+
+evangelicAntiphon:
+    yearA: Jésus parcourait la Galilée ; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.
+    yearB: "Les temps sont accomplis, voici le Règne de Dieu : croyez à la Bonne Nouvelle."
+    yearC: Aujourd’hui s’accomplit pour vous la parole de l’Écriture.
 
 readings:
   hymn:
@@ -100,9 +104,6 @@ readings:
         Il prie pour nous, comme notre prêtre,
         il prie en nous comme notre tête,
         nous le prions comme notre Dieu.
-  oration:
-    - Dieu, éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance.
-
 morning:
   hymn:
     - n-allons-plus-nous-derobant
@@ -125,11 +126,7 @@ morning:
     V/ Je mettrai en vous mon Esprit et vous vivrez. \*
     V/ Je suis le Seigneur : je l’ai dit et je le ferai. \*
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Gloire à toi, Christ ressuscité, Soleil levant qui viens nous visiter, alléluia !
-    yearA: Jésus parcourait la Galilée ; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.
-    yearB: "Les temps sont accomplis, voici le Règne de Dieu : croyez à la Bonne Nouvelle."
-    yearC: Aujourd’hui s’accomplit pour vous la parole de l’Écriture.
+  evangelicAntiphon: Gloire à toi, Christ ressuscité, Soleil levant qui viens nous visiter, alléluia !
   intercession:
     content: |-
       Dans l’action de grâce, prions le Christ, le Fils du Dieu vivant :
@@ -185,11 +182,7 @@ vespers:
     V/ Du levant au couchant du soleil. \*
     V/ Maintenant et pour les siècles des siècles. \*
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon:
-    common: Ressuscité des morts, le Christ ne meurt plus, alléluia ! Sur lui la mort n’a plus aucun pouvoir, alléluia !
-    yearA: Jésus parcourait la Galilée ; il annonçait la Bonne Nouvelle du Royaume, et guérissait toute maladie.
-    yearB: "Les temps sont accomplis, voici le Règne de Dieu : croyez à la Bonne Nouvelle."
-    yearC: Aujourd’hui s’accomplit pour vous la parole de l’Écriture.
+  evangelicAntiphon: Ressuscité des morts, le Christ ne meurt plus, alléluia ! Sur lui la mort n’a plus aucun pouvoir, alléluia !
   intercession:
     content: |-
       Invoquons notre Seigneur, le Christ toujours vivant qui intercède pour nous auprès de son Père :

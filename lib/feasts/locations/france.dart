@@ -8,7 +8,7 @@ const Map<String, FeastDates> franceFeastsList = {
   'france_remigius_of_reims_bishop': F(1, 15, 12),
 
   // --- FEBRUARY ---
-  'france_our_lady_of_lourdes': F(2, 11, 10),
+  'our_lady_of_lourdes': F(2, 11, 10),
   'france_bernadette_soubirous_virgin': F(2, 18, 12),
 
   // --- MAY ---

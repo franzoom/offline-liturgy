@@ -3,6 +3,52 @@ invitatory:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
+oration:
+    - "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix : accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
+
+firstVespers:
+  psalmody:
+    - psalm: PSALM_118_14
+      antiphon:
+        - Depuis longtemps je vous enseigne dans le temple et vous ne m’avez pas arrêté, maintenant vous allez me crucifier.
+    - psalm: PSALM_15
+      antiphon:
+        - Le Seigneur vient à mon secours, je ne ressens pas les outrages.
+    - psalm: NT_5
+      antiphon:
+        - Le Seigneur Jésus s’est abaissé, devenant obéissant jusqu’à la mort et la mort de la croix.
+  reading:
+    biblicalReference: 1 P 1, 18-21
+    content: "Vous le savez : ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits ; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire ; ainsi vous mettez votre foi et votre espérance en Dieu."
+  responsory: |-
+    R/ Jésus, souviens-toi de nous,
+    quand tu viendras dans ton Royaume.
+    V/ Toi qui ne repousses pas le cœur brisé,R/
+    V/ Toi qui t’es fait obéissant jusqu’à la mort,R/
+    V/ Par ton côté ouvert, par tes mains transpercées,R/
+  evangelicAntiphon:
+    common: Louange à toi, Jésus, Fils de David et notre Roi ; tu es le Sauveur du monde, celui qu’annonçaient les prophètes.
+  intercession:
+    content: |-
+      Jésus, le Roi des siècles, entre à Jérusalem ; il marche vers sa mort ; implorons-le :
+
+      R/ Oublie notre péché, prends pitié de nous !
+
+      Jésus, Fils de David,
+      comme un voleur tu auras les mains liées.
+
+      Jésus, Fils de David,
+      comme une pierre inutile tu seras rejeté.
+
+      Jésus, Fils de David,
+      comme un prophète tu seras tué hors de la ville.
+
+      Jésus, Fils de David,
+      comme un agneau tu seras immolé.
+
+      Jésus, fils de l’homme et Fils de Dieu,
+      fais entrer nos morts dans la Jérusalem céleste.
+
 readings:
   psalmody:
     - psalm: PSALM_103_1
@@ -51,8 +97,6 @@ readings:
         C’est pourquoi Dieu l’a élevé
         et lui a donné le Nom
         qui l’emporte sur tout nom.
-  oration:
-    - "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix : accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
 
 morning:
   psalmody:
@@ -91,8 +135,6 @@ morning:
 
       Tu foules un chemin de gloire,
       et tu mourras humilié.
-  oration:
-    - "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix : accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
 
 middleOfDay:
   psalmody:
@@ -101,9 +143,6 @@ middleOfDay:
         - Ant. Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout. Ant. Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père. Ant. Pour moi, vivre, c’est le Christ et mourir est un gain, j’ai mis ma fierté dans la croix du Seigneur. <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name="m_select_office"]').trigger('change');</script>
     - psalm: PSALM_75_1
     - psalm: PSALM_75_2
-  oration:
-    - "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix : accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."
-
 vespers:
   psalmody:
     - psalm: PSALM_109
@@ -145,5 +184,3 @@ vespers:
 
       Jésus, fils de l’homme et Fils de Dieu,
       fais entrer nos morts dans la Jérusalem céleste.
-  oration:
-    - "Dieu éternel et tout-puissant, pour montrer au genre humain quel abaissement il doit imiter, tu as voulu que notre Sauveur, dans un corps semblable au nôtre, subisse la mort de la croix : accorde-nous cette grâce de retenir les enseignements de sa passion et d’avoir part à sa résurrection. Lui qui règne."

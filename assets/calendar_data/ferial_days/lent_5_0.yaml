@@ -3,6 +3,49 @@ invitatory:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
+oration:
+    - Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne.
+
+firstVespers:
+  psalmody:
+    - psalm: PSALM_140
+      antiphon:
+        - "Je mettrai ma loi dans leur cœur : je serai leur Dieu ; ils seront mon peuple."
+    - psalm: PSALM_141
+      antiphon:
+        - Plus rien ne compte pour moi sinon la connaissance de Jésus, le Christ, mon Seigneur.
+    - psalm: NT_5
+      antiphon:
+        - Tout Fils qu’il était, le Christ apprit l’obéissance à travers sa passion.
+  reading:
+    biblicalReference: 1 P 1, 18-21
+    content: "Vous le savez : ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits ; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire ; ainsi vous mettez votre foi et votre espérance en Dieu."
+  responsory: |-
+    R/ Jésus, souviens-toi de nous,
+    quand tu viendras dans ton Royaume.
+    V/ Toi qui ne repousses pas le cœur brisé,R/
+    V/ Toi qui t’es fait obéissant jusqu’à la mort,R/
+    V/ Par ton côté ouvert, par tes mains transpercées,R/
+  evangelicAntiphon:
+    common: Si le grain qui tombe en terre ne meurt pas, il reste seul, mais s’il meurt, il porte beaucoup de fruit.
+  intercession:
+    content: |-
+      Dieu a fait renaître son peuple d’un germe incorruptible, sa Parole éternelle. En ce temps de carême, supplions-le :
+
+      R/ Souviens-toi de ton alliance.
+
+      Accorde à ton peuple un cœur neuf pour entendre à nouveau ta parole.
+
+      Donne à ton Église les pasteurs dont elle a besoin pour avancer dans la vérité.
+
+      Soutiens dans leur engagement ceux qui ont tout quitté pour suivre le Christ.
+
+      Ouvre aux mystères de ta parole ceux que tu prépares au baptême.
+
+      Parle au cœur des pécheurs pour qu’ils appellent sur eux ton pardon.
+
+      Fais miséricorde à tous nos morts : qu’ils chantent dans l’éternité ta louange.
+
 readings:
   psalmody:
     - psalm: PSALM_1
@@ -30,9 +73,6 @@ readings:
 
         Il s’est abaissé jusqu’à la mort,
         et la mort de la croix.
-  oration:
-    - Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne.
-
 morning:
   psalmody:
     - psalm: PSALM_62
@@ -72,9 +112,6 @@ morning:
 
       Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau
       et tu nous appelles tous à la résurrection.
-  oration:
-    - Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne.
-
 middleOfDay:
   psalmody:
     - psalm: PSALM_117_1
@@ -82,9 +119,6 @@ middleOfDay:
         - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_2
     - psalm: PSALM_117_3
-  oration:
-    - Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne.
-
 vespers:
   psalmody:
     - psalm: PSALM_109
@@ -123,5 +157,3 @@ vespers:
 
       Pour l’homme enfermé dans le tombeau,
       afin qu’il se lève à ton appel,
-  oration:
-    - Que ta grâce nous obtienne, Seigneur, d’imiter avec joie la charité du Christ qui a donné sa vie par amour pour le monde. Lui qui règne.

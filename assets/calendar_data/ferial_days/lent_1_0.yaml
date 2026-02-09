@@ -3,6 +3,51 @@ invitatory:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
+oration:
+    - Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne.
+
+firstVespers:
+  psalmody:
+    - psalm: PSALM_140
+      antiphon:
+        - "Vois notre cœur brisé, notre esprit humilié ; c’est là notre sacrifice : qu’il te plaise, Seigneur !"
+    - psalm: PSALM_141
+      antiphon:
+        - "À ton cri le Seigneur répondra, à ton appel il dira : Me voici !"
+    - psalm: NT_5
+      antiphon:
+        - Le Juste est mort pour les coupables, afin de nous offrir à Dieu ; mis à mort dans la chair, il est ressuscité dans l’Esprit.
+  reading:
+    biblicalReference: 2 Co 6, 1 b-4a
+    content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+  responsory: |-
+    R/ Voici le temps favorable.
+    \* Voici le jour du salut.
+    V/ Rassemblez-vous, venez, approchez tous,
+    survivants des nations. \*
+    V/ Tournez-vous vers moi, vous serez sauvés,
+    tous les lointains de la terre. \*
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: L’homme ne vit pas seulement de pain, mais de toute parole sortant de la bouche de Dieu.
+  intercession:
+    content: |-
+      Dieu a fait renaître son peuple d’un germe incorruptible, sa Parole éternelle. En ce temps de carême, supplions-le :
+
+      R/ Souviens-toi de ton alliance.
+
+      Accorde à ton peuple un cœur neuf pour entendre à nouveau ta parole.
+
+      Donne à ton Église les pasteurs dont elle a besoin pour avancer dans la vérité.
+
+      Soutiens dans leur engagement ceux qui ont tout quitté pour suivre le Christ.
+
+      Ouvre aux mystères de ta parole ceux que tu prépares au baptême.
+
+      Parle au cœur des pécheurs pour qu’ils appellent sur eux ton pardon.
+
+      Fais miséricorde à tous nos morts : qu’ils chantent dans l’éternité ta louange.
+
 readings:
   psalmody:
     - psalm: PSALM_1
@@ -46,9 +91,6 @@ readings:
 
         Tous ont péché et sont privés de la gloire de Dieu,
         mais Jésus Christ les a justifiés.
-  oration:
-    - Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne.
-
 morning:
   psalmody:
     - psalm: PSALM_62
@@ -90,9 +132,6 @@ morning:
 
       Jésus, vainqueur de la mort, tu as tiré Lazare du tombeau
       et tu nous appelles tous à la résurrection.
-  oration:
-    - Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne.
-
 middleOfDay:
   psalmody:
     - psalm: PSALM_117_1
@@ -100,9 +139,6 @@ middleOfDay:
         - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_2
     - psalm: PSALM_117_3
-  oration:
-    - Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne.
-
 vespers:
   psalmody:
     - psalm: PSALM_109
@@ -141,5 +177,3 @@ vespers:
 
       Pour les hommes qui sont morts,
       et qui attendent la vie promise,
-  oration:
-    - Accorde-nous, Dieu tout-puissant, tout au long de ce Carême, de progresser dans la connaissance de Jésus Christ et de nous ouvrir à sa lumière par une vie de plus en plus fidèle. Lui qui règne.

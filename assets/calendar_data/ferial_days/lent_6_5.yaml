@@ -3,6 +3,9 @@ invitatory:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
+oration:
+    - "Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus, le Christ, notre Seigneur, ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la croix. Lui qui règne."
+
 readings:
   psalmody:
     - psalm: PSALM_37_1
@@ -63,9 +66,6 @@ readings:
         Le châtiment qui nous rend la paix est sur lui,
         et c’est grâce à ses plaies
         que nous sommes guéris.
-  oration:
-    - "Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus, le Christ, notre Seigneur, ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la croix. Lui qui règne."
-
 morning:
   psalmody:
     - psalm: PSALM_50
@@ -106,9 +106,6 @@ morning:
       Tu as été abandonné par les tiens.
 
       Tu as fait la volonté du Père.
-  oration:
-    - "Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus, le Christ, notre Seigneur, ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la croix. Lui qui règne."
-
 middleOfDay:
   psalmody:
     - psalm: PSALM_118_10
@@ -116,9 +113,6 @@ middleOfDay:
         - 'Ant. À la troisième heure, ils crucifièrent Jésus. Ant. À la sixième heure, il y eut des ténèbres sur toute la terre. Ant. À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ? <!-- Astuce pour forcer l''affichage seul de l''antienne de l''office sélectionné --> <script>$(''input[name="m_select_office"]'').trigger(''change'');</script>'
     - psalm: PSALM_58
     - psalm: PSALM_59
-  oration:
-    - "Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus, le Christ, notre Seigneur, ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la croix. Lui qui règne."
-
 vespers:
   psalmody:
     - psalm: PSALM_114
@@ -154,5 +148,3 @@ vespers:
       tous les peuples,
       les affligés,
       les défunts.
-  oration:
-    - "Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus, le Christ, notre Seigneur, ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la croix. Lui qui règne."

@@ -53,5 +53,30 @@ const Map<String, List<String>> hymnList = {
     "splendeur-jaillie",
     "christe-redemptor-omnium",
     "a-solis-ortus-cardine"
+  ],
+  "lent": [
+    "sois-fort-sois-fidele",
+    "point-de-prodigue",
+    "puisque-dieu-nous-a-aimes",
+    "dieu-au-dela-de-tout-cree",
+    "en-quels-pays",
+    "seigneur-quand-ton-peuple-assoiffe",
+    "dites-nous-d-ou-souffle-le-vent",
+    "venez-au-jour",
+    "dans-le-desert",
+    "peuple-de-dieu-n-aie-pas-de-honte",
+    "du-cote-de-la-nuit",
+    "que-passe-la-charue",
+    "audi-benigne-conditor"
+  ],
+  "passion": [
+    "ne-descends-pas-dans-le-jardin",
+    "quel-est-cet-amoureux",
+    "mystere-du-calvaire",
+    "quand-le-fouet-a-dechire",
+    "bois-tout-en-feu",
+    "tu-les-sauvais",
+    "tous-les-chemins",
+    "vexilla-regis"
   ]
 };

@@ -144,32 +144,36 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
     // After Epiphany
     Readings readingsOffice = await readingsExtract(
         '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
-    readingsOffice.hymn =
-        (hymnList["after_epiphany"] ?? []).map((e) => HymnEntry(code: e)).toList();
+    readingsOffice.hymn = (hymnList["after_epiphany"] ?? [])
+        .map((e) => HymnEntry(code: e))
+        .toList();
     return readingsOffice;
   }
 
-  // ============================================================================
-  // LENT TIME
-  // ============================================================================
+// --- LENT ---
   if (celebrationCode.startsWith('lent')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "lent");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+    List dayDatas = extractWeekAndDay(celebrationCode, 'lent');
+    int week = dayDatas[0];
+    int day = dayDatas[1];
     ferialReadings = await readingsExtract(
-        '$ferialFilePath/lent_${weekNumber}_$dayNumber.yaml', dataLoader);
+        '$ferialFilePath/"lent"_${week}_$day.yaml', dataLoader);
+    final String hymnTime = week < 5 ? "lent" : "passion";
+    List<HymnEntry> hymns =
+        (hymnList[hymnTime] ?? []).map((e) => HymnEntry(code: e)).toList();
+    ferialReadings.hymn = hymns;
     return ferialReadings;
   }
 
-  // ============================================================================
-  // PASCHAL TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('PT')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, "PT");
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+  // --- EASTER ---
+  if (celebrationCode.startsWith('easter')) {
+    List dayDatas = extractWeekAndDay(celebrationCode, 'easter');
+    int week = dayDatas[0];
+    int day = dayDatas[1];
     ferialReadings = await readingsExtract(
-        '$ferialFilePath/easter_{$weekNumber}_$dayNumber.yaml', dataLoader);
+        '$ferialFilePath/easter_${week}_$day.yaml', dataLoader);
+    List<HymnEntry> hymns =
+        (hymnList["easter"] ?? []).map((e) => HymnEntry(code: e)).toList();
+    ferialReadings.hymn = hymns;
     return ferialReadings;
   }
 

@@ -14,7 +14,7 @@ import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
 import 'compline_detection.dart';
 
-Future<Map<String, ComplineDefinition>> complineResolution(
+Future<Map<String, ComplineDefinition>> complineExport(
     Calendar calendar, DateTime date, DataLoader dataLoader) async {
   /// Resolves the Complines choice for a given day.
   /// Returns a list of possible Complines maps.

@@ -20,6 +20,17 @@ const liturgicalTimeLabels = {
   'christmasoctave': 'Octave de Noël',
 };
 
+const liturgicalTimeLabelsDative = {
+  'advent': 'du Temps de l\'Avent',
+  'ot': 'du Temps Ordinaire',
+  'easter': 'du Temps Pascal',
+  'lent': 'du Carême',
+  'christmas': 'du Temps de Noël',
+  'holyweek': 'de la Semaine Sainte',
+  'paschaloctave': 'de l\'Octave Paschal',
+  'christmasoctave': 'de l\'Octave de Noël',
+};
+
 // Map days of the week
 const daysOfWeek = [
   'dimanche',

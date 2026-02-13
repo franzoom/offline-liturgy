@@ -3,6 +3,7 @@ import '../../classes/compline_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../office_detection.dart';
+import '../../assets/libraries/french_liturgy_labels.dart';
 
 /// Determines the celebration type for Compline based on precedence and code
 String _detectCelebrationType(int precedence, String celebrationCode) {
@@ -105,9 +106,9 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     // Build description
     final description = switch (celebrationType) {
       _ when ferialDayCheck(c.celebrationCode) =>
-        'Complies du $todayName du ${_liturgicalTimeLabel(liturgicalTime)}',
+        'Complies du ${dayOfWeekLabels[todayName]} ${liturgicalTimeLabelsDative[liturgicalTime]}',
       'solemnity' => 'Complies de ${c.celebrationGlobalName}',
-      _ => 'Complies du $todayName',
+      _ => 'Complies du ${dayOfWeekLabels[todayName]}',
     };
 
     possibleComplines[description] = ComplineDefinition(
@@ -164,24 +165,4 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   print(
       '+-+-+-+-+-+-+-+-+-+ COMPLINE DETECTION V2 - Possible Complines: ${Map.fromEntries(sortedEntries)}');
   return Map.fromEntries(sortedEntries);
-}
-
-/// Helper to get French label for liturgical time
-String _liturgicalTimeLabel(String liturgicalTime) {
-  switch (liturgicalTime.toLowerCase()) {
-    case 'advent':
-      return 'temps de l\'Avent';
-    case 'christmas':
-    case 'christmasoctave':
-      return 'temps de Noël';
-    case 'lent':
-      return 'temps du Carême';
-    case 'paschal':
-    case 'paschaloctave':
-      return 'temps Pascal';
-    case 'ot':
-      return 'temps Ordinaire';
-    default:
-      return liturgicalTime;
-  }
 }

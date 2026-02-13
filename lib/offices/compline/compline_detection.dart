@@ -70,7 +70,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       precedence: 8,
       liturgicalColor: dayContent.liturgicalColor,
       isCelebrable: true,
-      dayOfWeek: 'saturday',
+      dayOfCompline: 'saturday',
       celebrationType: 'solemnityeve',
     );
     possibleComplines['Complies du dimanche'] = ComplineDefinition(
@@ -81,7 +81,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       precedence: 8,
       liturgicalColor: dayContent.liturgicalColor,
       isCelebrable: true,
-      dayOfWeek: 'sunday',
+      dayOfCompline: 'sunday',
       celebrationType: 'solemnity',
     );
     return possibleComplines;
@@ -101,7 +101,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     final int precedence = c.precedence ?? 13;
     final celebrationType =
         _detectCelebrationType(precedence, c.celebrationCode);
-    final dayOfWeek = _detectDayOfWeek(date, celebrationType);
+    final dayOfCompline = _detectDayOfWeek(date, celebrationType);
 
     // Build description
     final description = switch (celebrationType) {
@@ -119,7 +119,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       precedence: precedence,
       liturgicalColor: c.liturgicalColor ?? 'green',
       isCelebrable: c.isCelebrable,
-      dayOfWeek: dayOfWeek,
+      dayOfCompline: dayOfCompline,
       celebrationType: celebrationType,
       isEveCompline: false,
     );
@@ -151,7 +151,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         precedence: precedence,
         liturgicalColor: c.liturgicalColor ?? 'green',
         isCelebrable: isCelebrable,
-        dayOfWeek: 'saturday', // Eve Complines always use Saturday psalms
+        dayOfCompline: 'saturday', // Eve Complines always use Saturday psalms
         celebrationType: eveCelebrationType,
         isEveCompline: true,
       );

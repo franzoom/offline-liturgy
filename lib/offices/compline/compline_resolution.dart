@@ -28,13 +28,13 @@ Future<Map<String, ComplineDefinition>> complineResolution(
       liturgicalTime == 'paschaloctave') {
     ComplineDefinition saturdayComplineDefinition = ComplineDefinition(
         complineDescription: 'Complies du samedi',
-        dayOfWeek: 'saturday',
+        dayOfCompline: 'saturday',
         liturgicalTime: liturgicalTime,
         celebrationType: 'solemnityeve',
         precedence: 8);
     ComplineDefinition sundayComplineDefinition = ComplineDefinition(
         complineDescription: 'Complies du dimanche',
-        dayOfWeek: 'sunday',
+        dayOfCompline: 'sunday',
         liturgicalTime: liturgicalTime,
         celebrationType: 'solemnity',
         precedence: 8);
@@ -55,7 +55,7 @@ Future<Map<String, ComplineDefinition>> complineResolution(
   // Check if today is a Solemnity or sunday
   bool todayIsSolemnity = todayComplineDefinition.entries.any((entry) =>
       entry.value.celebrationType == 'solemnity' ||
-      entry.value.dayOfWeek == 'sunday');
+      entry.value.dayOfCompline == 'sunday');
 
   // work on tomorrow's potential Complines :
   // Check if tomorrow requires Eve Complines (Solemnity or Sunday)
@@ -71,18 +71,18 @@ Future<Map<String, ComplineDefinition>> complineResolution(
           eveStringReplacement(entry.value.complineDescription);
       eveComplineDefinition[eveComplineDescription] = ComplineDefinition(
         complineDescription: eveComplineDescription,
-        dayOfWeek: 'saturday',
+        dayOfCompline: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'solemnityeve',
         precedence: value.precedence,
       );
-    } else if (value.dayOfWeek == 'sunday') {
+    } else if (value.dayOfCompline == 'sunday') {
       tomorrowNeedsEveComplines = true;
       String eveComplineDescription =
           eveStringReplacement(entry.value.complineDescription);
       eveComplineDefinition[eveComplineDescription] = ComplineDefinition(
         complineDescription: eveComplineDescription,
-        dayOfWeek: 'saturday',
+        dayOfCompline: 'saturday',
         liturgicalTime: value.liturgicalTime,
         celebrationType: 'normal',
         precedence: value.precedence,
@@ -133,7 +133,7 @@ Future<Map<String, Compline>> complineTextCompilation(
 Compline? getComplineText(ComplineDefinition complineDefinition) {
   // From the Compline definition, returns the text of the Compline
   // following the Compline class.
-  String day = complineDefinition.dayOfWeek;
+  String day = complineDefinition.dayOfCompline;
   Compline? dayCompline = defaultCompline[day];
   Compline? correctionCompline;
   String dayName;

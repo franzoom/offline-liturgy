@@ -90,7 +90,7 @@ class ComplineDefinition {
   final bool
       isCelebrable; // false if a higher precedence celebration prevents this office from being celebrated
   final String
-      dayOfWeek; // 'sunday', 'monday', etc. - determines which psalms to use
+      dayOfCompline; // 'sunday', 'monday', etc. - determines which psalms to use
   final String
       celebrationType; // 'solemnity', 'solemnityeve', 'normal', 'holy_thursday', etc.
   final bool
@@ -104,7 +104,7 @@ class ComplineDefinition {
     this.precedence = 13,
     this.liturgicalColor = 'green',
     this.isCelebrable = true,
-    required this.dayOfWeek,
+    required this.dayOfCompline,
     required this.celebrationType,
     this.isEveCompline = false,
   });

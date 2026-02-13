@@ -11,7 +11,7 @@ export 'classes/calendar_class.dart';
 export 'feasts/main_calendar_fill.dart';
 export 'classes/compline_class.dart';
 export 'offices/compline/compline_detection.dart';
-export 'offices/compline/compline_export.dart';
+export 'offices/compline/compline_export2.dart';
 export 'classes/morning_class.dart';
 export 'offices/morning/morning_export.dart';
 export 'offices/morning/morning_detection.dart';

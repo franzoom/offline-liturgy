@@ -28,42 +28,6 @@ class Compline {
     this.marialHymnRef,
   });
 
-  /// Creates Compline instance from YAML/JSON data
-  factory Compline.fromJson(Map<String, dynamic> json) {
-    return Compline(
-      celebration: json['celebration'] != null
-          ? Celebration.fromJson(json['celebration'] as Map<String, dynamic>)
-          : null,
-      commentary: json['commentary'] as String?,
-      celebrationType: json['celebrationType'] as String?,
-      hymns: json['hymns'] != null
-          ? (json['hymns'] as List).map((e) => HymnEntry.fromJson(e)).toList()
-          : null,
-      psalmody: json['psalmody'] != null
-          ? (json['psalmody'] as List)
-              .map((e) => PsalmEntry.fromJson(e as Map<String, dynamic>))
-              .toList()
-          : null,
-      reading: json['reading'] != null
-          ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
-          : null,
-      responsory: json['responsory'] as String?,
-      evangelicAntiphon: json['evangelicAntiphon'] != null
-          ? (json['evangelicAntiphon'] is String
-              ? EvangelicAntiphon(common: json['evangelicAntiphon'] as String)
-              : EvangelicAntiphon.fromJson(
-                  json['evangelicAntiphon'] as Map<String, dynamic>))
-          : null,
-      oration:
-          json['oration'] != null ? List<String>.from(json['oration']) : null,
-      marialHymnRef: json['marialHymnRef'] != null
-          ? (json['marialHymnRef'] as List)
-              .map((e) => HymnEntry.fromJson(e))
-              .toList()
-          : null,
-    );
-  }
-
   /// Creates a copy of this Compline with some fields replaced
   /// Use this method to merge/overlay Complines: base.copyWith(override)
   Compline copyWith({
@@ -90,79 +54,6 @@ class Compline {
       oration: oration ?? this.oration,
       marialHymnRef: marialHymnRef ?? this.marialHymnRef,
     );
-  }
-
-  /// Overlays this Compline instance with data from another Compline instance
-  /// Non-null fields from the overlay take precedence
-  void overlayWith(Compline overlay) {
-    if (overlay.celebration != null) {
-      celebration = overlay.celebration;
-    }
-    if (overlay.commentary != null) {
-      commentary = overlay.commentary;
-    }
-    if (overlay.celebrationType != null) {
-      celebrationType = overlay.celebrationType;
-    }
-    if (overlay.hymns != null) {
-      hymns = overlay.hymns;
-    }
-    if (overlay.psalmody != null) {
-      // Smart merge of psalmody: if overlay has antiphons without psalms,
-      // merge them with existing psalms
-      if (psalmody != null && psalmody!.isNotEmpty) {
-        List<PsalmEntry> mergedPsalmody = [];
-        for (int i = 0; i < overlay.psalmody!.length; i++) {
-          final overlayEntry = overlay.psalmody![i];
-          if (overlayEntry.psalm != null) {
-            mergedPsalmody.add(overlayEntry);
-          } else if (i < psalmody!.length) {
-            mergedPsalmody.add(PsalmEntry(
-              psalm: psalmody![i].psalm,
-              antiphon: overlayEntry.antiphon ?? psalmody![i].antiphon,
-            ));
-          } else {
-            mergedPsalmody.add(overlayEntry);
-          }
-        }
-        psalmody = mergedPsalmody;
-      } else {
-        psalmody = overlay.psalmody;
-      }
-    }
-    if (overlay.reading != null) {
-      reading = overlay.reading;
-    }
-    if (overlay.responsory != null) {
-      responsory = overlay.responsory;
-    }
-    if (overlay.evangelicAntiphon != null) {
-      evangelicAntiphon = overlay.evangelicAntiphon;
-    }
-    if (overlay.oration != null) {
-      oration = overlay.oration;
-    }
-    if (overlay.marialHymnRef != null) {
-      marialHymnRef = overlay.marialHymnRef;
-    }
-  }
-
-  /// Selective overlay for common
-  /// Only overlays: reading, responsory, evangelicAntiphon, oration
-  /// Does NOT overlay: celebration, commentary, celebrationType, hymns, psalmody, marialHymnRef
-  void overlayWithCommon(Compline commonCompline) {
-    if (commonCompline.reading != null) {
-      reading = commonCompline.reading;
-    }
-    if (commonCompline.responsory != null) {
-      responsory = commonCompline.responsory;
-    }
-    if (commonCompline.evangelicAntiphon != null) {
-      evangelicAntiphon = commonCompline.evangelicAntiphon;
-    }
-    if (commonCompline.oration != null) {
-      oration = commonCompline.oration;
-    }
   }
 
   /// Returns true if all fields are null (empty Compline)
@@ -193,9 +84,7 @@ class ComplineDefinition {
       celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
   final String
       ferialCode; // code given by the root of the day in Calendar: ferial code or Solemnity
-  final List<String>? commonList;
   final String liturgicalTime; // 'ot', 'lent', 'paschal', 'advent', 'christmas'
-  final int? breviaryWeek;
   final int precedence;
   final String liturgicalColor;
   final bool
@@ -219,20 +108,4 @@ class ComplineDefinition {
     required this.celebrationType,
     this.isEveCompline = false,
   });
-
-  /// Legacy factory for backwards compatibility with existing code
-  factory ComplineDefinition.fromJson(Map<String, dynamic> json) {
-    return ComplineDefinition(
-      complineDescription: json['complineDescription'] as String,
-      celebrationCode: json['celebrationCode'] as String? ?? '',
-      ferialCode: json['ferialCode'] as String? ?? '',
-      liturgicalTime: json['liturgicalTime'] as String,
-      precedence: json['precedence'] as int? ?? 13,
-      liturgicalColor: json['liturgicalColor'] as String? ?? 'green',
-      isCelebrable: json['isCelebrable'] as bool? ?? true,
-      dayOfWeek: json['dayOfWeek'] as String,
-      celebrationType: json['celebrationType'] as String,
-      isEveCompline: json['isEveCompline'] as bool? ?? false,
-    );
-  }
 }

@@ -3,8 +3,10 @@ import 'office_elements_class.dart';
 /// Class representing the Compline (Night Prayer) structure
 class Compline {
   Celebration? celebration;
-  String? commentary; // displays commentary if needed (for example: "no complines today")
-  String? celebrationType; // indicates if it's a normal day, a solemnity or eve of solemnity
+  String?
+      commentary; // displays commentary if needed (for example: "no complines today")
+  String?
+      celebrationType; // indicates if it's a normal day, a solemnity or eve of solemnity
   List<HymnEntry>? hymns;
   List<PsalmEntry>? psalmody;
   Reading? reading;
@@ -198,7 +200,8 @@ class ComplineDefinition {
   final String liturgicalColor;
   final bool
       isCelebrable; // false if a higher precedence celebration prevents this office from being celebrated
-  final String dayOfWeek; // 'sunday', 'monday', etc. - determines which psalms to use
+  final String
+      dayOfWeek; // 'sunday', 'monday', etc. - determines which psalms to use
   final String
       celebrationType; // 'solemnity', 'solemnityeve', 'normal', 'holy_thursday', etc.
   final bool
@@ -208,9 +211,7 @@ class ComplineDefinition {
     required this.complineDescription,
     this.celebrationCode = '',
     this.ferialCode = '',
-    this.commonList,
     required this.liturgicalTime,
-    this.breviaryWeek,
     this.precedence = 13,
     this.liturgicalColor = 'green',
     this.isCelebrable = true,

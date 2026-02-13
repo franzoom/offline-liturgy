@@ -4,28 +4,10 @@ import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../office_detection.dart';
 
-/// Day names mapping for Compline (English weekday names)
-const Map<int, String> _dayNames = {
-  1: 'monday',
-  2: 'tuesday',
-  3: 'wednesday',
-  4: 'thursday',
-  5: 'friday',
-  6: 'saturday',
-  7: 'sunday',
-};
-
-/// Special celebration codes for Holy Week
-const Set<String> _holyWeekCodes = {
-  'holy_thursday',
-  'holy_friday',
-  'holy_saturday',
-};
-
 /// Determines the celebration type for Compline based on precedence and code
-String _determineCelebrationType(int precedence, String celebrationCode) {
+String _detectCelebrationType(int precedence, String celebrationCode) {
   // Check for special Holy Week days
-  if (_holyWeekCodes.contains(celebrationCode.toLowerCase())) {
+  if (holyWeekCodes.contains(celebrationCode.toLowerCase())) {
     return celebrationCode.toLowerCase();
   }
 
@@ -38,19 +20,18 @@ String _determineCelebrationType(int precedence, String celebrationCode) {
 }
 
 /// Determines the day of week to use for Compline psalms
-/// For solemnities, use 'sunday' psalms; otherwise use actual day
-String _determineDayOfWeek(
-    DateTime date, String celebrationType, int precedence) {
-  if (celebrationType == 'solemnity' || celebrationType == 'solemnityeve') {
-    return celebrationType == 'solemnityeve' ? 'saturday' : 'sunday';
-  }
+/// (For solemnities, sunday psalms will be used)
+String _detectDayOfWeek(DateTime date, String celebrationType) {
+  // first handle the solemnities
+  final specialDay = switch (celebrationType) {
+    'solemnity' => 'sunday',
+    'solemnityeve' => 'saturday',
+    _ => null,
+  };
+  if (specialDay != null) return specialDay;
 
-  // For Sundays, always return 'sunday'
-  if (date.weekday == DateTime.sunday) {
-    return 'sunday';
-  }
-
-  return _dayNames[date.weekday] ?? 'monday';
+  // otherwise look at the day name
+  return dayNames[date.weekday] ?? 'monday';
 }
 
 /// Returns a map of possible Compline Offices, sorted by precedence (lowest first)
@@ -75,10 +56,11 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   }
 
   final String liturgicalTime = dayContent.liturgicalTime;
-  final String todayName = _dayNames[date.weekday] ?? 'monday';
+  final String todayName = dayNames[date.weekday] ?? 'monday';
 
   // Special case for octaves - simplified Complines
-  if (liturgicalTime == 'christmasoctave' || liturgicalTime == 'paschaloctave') {
+  if (liturgicalTime == 'christmasoctave' ||
+      liturgicalTime == 'paschaloctave') {
     possibleComplines['Complies du samedi'] = ComplineDefinition(
       complineDescription: 'Complies du samedi',
       celebrationCode: dayContent.defaultCelebrationTitle,
@@ -105,10 +87,11 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   }
 
   // 1. Detect celebrations for today
-  final todayCelebrations = await detectCelebrations(calendar, date, dataLoader);
+  final todayCelebrations =
+      await detectCelebrations(calendar, date, dataLoader);
 
   // 2. Detect celebrations for tomorrow (for eve Complines)
-  final tomorrow = date.add(const Duration(days: 1));
+  final tomorrow = date.shift(1);
   final tomorrowCelebrations =
       await detectCelebrations(calendar, tomorrow, dataLoader);
 
@@ -116,26 +99,22 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   for (final c in todayCelebrations) {
     final int precedence = c.precedence ?? 13;
     final celebrationType =
-        _determineCelebrationType(precedence, c.celebrationCode);
-    final dayOfWeek = _determineDayOfWeek(date, celebrationType, precedence);
+        _detectCelebrationType(precedence, c.celebrationCode);
+    final dayOfWeek = _detectDayOfWeek(date, celebrationType);
 
     // Build description
-    String description;
-    if (ferialDayCheck(c.celebrationCode)) {
-      description = 'Complies du $todayName du ${_liturgicalTimeLabel(liturgicalTime)}';
-    } else if (celebrationType == 'solemnity') {
-      description = 'Complies de ${c.celebrationGlobalName}';
-    } else {
-      description = 'Complies du $todayName';
-    }
+    final description = switch (celebrationType) {
+      _ when ferialDayCheck(c.celebrationCode) =>
+        'Complies du $todayName du ${_liturgicalTimeLabel(liturgicalTime)}',
+      'solemnity' => 'Complies de ${c.celebrationGlobalName}',
+      _ => 'Complies du $todayName',
+    };
 
     possibleComplines[description] = ComplineDefinition(
       complineDescription: description,
       celebrationCode: c.celebrationCode,
       ferialCode: c.ferialCode ?? '',
-      commonList: c.commonList,
       liturgicalTime: liturgicalTime,
-      breviaryWeek: c.breviaryWeek,
       precedence: precedence,
       liturgicalColor: c.liturgicalColor ?? 'green',
       isCelebrable: c.isCelebrable,
@@ -153,7 +132,8 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         precedence <= 4 || tomorrow.weekday == DateTime.sunday;
 
     if (needsEveCompline) {
-      final String eveDescription = 'Complies de la veille de ${c.celebrationGlobalName}';
+      final String eveDescription =
+          'Complies de la veille de ${c.celebrationGlobalName}';
       final String eveCelebrationType =
           precedence <= 4 ? 'solemnityeve' : 'normal';
 
@@ -166,9 +146,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         complineDescription: eveDescription,
         celebrationCode: c.celebrationCode,
         ferialCode: c.ferialCode ?? '',
-        commonList: c.commonList,
         liturgicalTime: liturgicalTime,
-        breviaryWeek: c.breviaryWeek,
         precedence: precedence,
         liturgicalColor: c.liturgicalColor ?? 'green',
         isCelebrable: isCelebrable,

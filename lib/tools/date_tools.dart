@@ -137,3 +137,21 @@ String ferialNameResolution(String ferialCode) {
 String _firstCaracterUpperCase(String string) {
   return string != '' ? string[0].toUpperCase() + string.substring(1) : '';
 }
+
+/// Day names mapping for Compline (English weekday names)
+const Map<int, String> dayNames = {
+  1: 'monday',
+  2: 'tuesday',
+  3: 'wednesday',
+  4: 'thursday',
+  5: 'friday',
+  6: 'saturday',
+  7: 'sunday',
+};
+
+/// Special celebration codes for Holy Week
+const Set<String> holyWeekCodes = {
+  'holy_thursday',
+  'holy_friday',
+  'holy_saturday',
+};

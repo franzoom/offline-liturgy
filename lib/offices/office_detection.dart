@@ -204,6 +204,38 @@ Future<List<CelebrationContext>> detectCelebrations(
     }
   }
 
+  // Load common titles in parallel for all unique common codes
+  final Set<String> allCommonCodes = {};
+  for (final celebration in allCelebrations) {
+    final fileContent = fileContents[celebration.code] ?? '';
+    final yamlData = parseCelebrationYaml(fileContent);
+    if (yamlData != null) {
+      allCommonCodes.addAll(yamlData.commons);
+    }
+  }
+
+  final Map<String, String> commonTitlesMap = {};
+  if (allCommonCodes.isNotEmpty) {
+    final commonCodesList = allCommonCodes.toList();
+    final commonLoadFutures = commonCodesList.map(
+        (code) => dataLoader.loadYaml('$commonsFilePath/$code.yaml'));
+    final commonResults = await Future.wait(commonLoadFutures);
+    for (int i = 0; i < commonCodesList.length; i++) {
+      final code = commonCodesList[i];
+      if (commonResults[i].isNotEmpty) {
+        try {
+          final yamlData = loadYaml(commonResults[i]);
+          final data = convertYamlToDart(yamlData);
+          commonTitlesMap[code] = (data['commonTitle'] as String?) ?? code;
+        } catch (_) {
+          commonTitlesMap[code] = code;
+        }
+      } else {
+        commonTitlesMap[code] = code;
+      }
+    }
+  }
+
   // Build the list of detected celebrations
   final List<CelebrationContext> detectedCelebrations = [];
 
@@ -254,6 +286,12 @@ Future<List<CelebrationContext>> detectCelebrations(
       }
     }
 
+    // Filter commonTitles for this celebration's commons
+    final Map<String, String> celebrationCommonTitles = {
+      for (final code in commonList)
+        if (commonTitlesMap.containsKey(code)) code: commonTitlesMap[code]!,
+    };
+
     detectedCelebrations.add(CelebrationContext(
       celebrationTitle: celebrationTitle,
       celebrationGlobalName: celebrationGlobalName,
@@ -268,6 +306,7 @@ Future<List<CelebrationContext>> detectCelebrations(
       isCelebrable: isCelebrable,
       dataLoader: dataLoader,
       celebrationDescription: celebrationDescription,
+      commonTitles: celebrationCommonTitles,
     ));
   }
 

@@ -28,8 +28,22 @@ class Compline {
     this.marialHymnRef,
   });
 
+  /// Merges another Compline onto this one (non-null fields from other take precedence)
+  Compline mergeWith(Compline other) {
+    return copyWith(
+      commentary: other.commentary,
+      celebrationType: other.celebrationType,
+      hymns: other.hymns,
+      psalmody: other.psalmody,
+      reading: other.reading,
+      responsory: other.responsory,
+      evangelicAntiphon: other.evangelicAntiphon,
+      oration: other.oration,
+      marialHymnRef: other.marialHymnRef,
+    );
+  }
+
   /// Creates a copy of this Compline with some fields replaced
-  /// Use this method to merge/overlay Complines: base.copyWith(override)
   Compline copyWith({
     Celebration? celebration,
     String? commentary,

@@ -139,15 +139,22 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     }
   }
 
-  // 5. Final cleaning: If tomorrow is a solemnity and today is not,
-  // the eve (Sunday I) supersedes today's ferial Compline.
+  // 5. Final cleaning: If tomorrow is a solemnity and today is not (and not a sunday),
+  // the eve supersedes today's ferial Compline.
   if (tomorrowHasSolemnity && !todayHasSolemnity) {
     possibleComplines.removeWhere((key, value) => !value.isEveCompline);
   }
 
   // 6. Final sorting
+  // Sunday eve complines (first vespers) rank above celebrations with precedence >= 4
   final sortedEntries = possibleComplines.entries.toList()
-    ..sort((a, b) => a.value.precedence.compareTo(b.value.precedence));
+    ..sort((a, b) {
+      if (isTomorrowSunday) {
+        if (a.value.isEveCompline && b.value.precedence >= 4) return -1;
+        if (b.value.isEveCompline && a.value.precedence >= 4) return 1;
+      }
+      return a.value.precedence.compareTo(b.value.precedence);
+    });
 
   final sortie = Map.fromEntries(sortedEntries);
   return sortie;

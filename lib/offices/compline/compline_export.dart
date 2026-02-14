@@ -234,23 +234,7 @@ Compline? getComplineText(ComplineDefinition complineDefinition) {
         celebrationType: complineDefinition.celebrationType,
       );
   }
-  return mergeComplineDay(dayCompline!, correctionCompline!);
-}
-
-Compline mergeComplineDay(Compline base, Compline override) {
-  // Replacement of default Complines elements by specific ones
-  // Using copyWith for immutable merge
-  return base.copyWith(
-    commentary: override.commentary,
-    celebrationType: override.celebrationType,
-    hymns: override.hymns,
-    psalmody: override.psalmody,
-    reading: override.reading,
-    responsory: override.responsory,
-    evangelicAntiphon: override.evangelicAntiphon,
-    oration: override.oration,
-    marialHymnRef: override.marialHymnRef,
-  );
+  return dayCompline!.mergeWith(correctionCompline!);
 }
 
 String eveStringReplacement(String complineDescription) {

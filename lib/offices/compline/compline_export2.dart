@@ -1,4 +1,3 @@
-import '../../classes/calendar_class.dart';
 import '../../classes/compline_class.dart';
 import '../../assets/compline/compline_default.dart';
 import '../../assets/compline/compline_paschal_time.dart';
@@ -88,22 +87,7 @@ Compline? getComplineText(ComplineDefinition def) {
 
   // Merge the base structure with the specific liturgical corrections
   // and ensure the celebrationType is preserved in the final object
-  return mergeComplineDay(base, correction).copyWith(
-    celebrationType: def.celebrationType,
-  );
-}
-
-/// Overlays specific liturgical elements onto a base Compline structure
-Compline mergeComplineDay(Compline base, Compline override) {
-  return base.copyWith(
-    commentary: override.commentary,
-    celebrationType: override.celebrationType,
-    hymns: override.hymns,
-    psalmody: override.psalmody,
-    reading: override.reading,
-    responsory: override.responsory,
-    evangelicAntiphon: override.evangelicAntiphon,
-    oration: override.oration,
-    marialHymnRef: override.marialHymnRef,
-  );
+  return base.mergeWith(correction).copyWith(
+        celebrationType: def.celebrationType,
+      );
 }

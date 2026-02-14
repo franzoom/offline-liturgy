@@ -8,6 +8,7 @@ class Readings {
   List<BiblicalReading>? biblicalReading;
   List<PatristicReading>? patristicReading;
   bool? tedeum;
+  String? tedeumContent;
   String? verse;
   List<String>? oration;
 
@@ -18,6 +19,7 @@ class Readings {
     this.biblicalReading,
     this.patristicReading,
     this.tedeum,
+    this.tedeumContent,
     this.verse,
     this.oration,
   });

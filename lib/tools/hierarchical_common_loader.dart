@@ -8,35 +8,27 @@ import '../offices/readings/readings_extract.dart';
 import '../offices/vespers/vespers_extract.dart';
 
 /// Builds the hierarchy of common file names from a common name.
-/// For example: 'saints-female_religious' with paschal returns:
-/// ['saints-female', 'saints-female_paschal', 'saints-female_paschal_religious']
-/// If liturgicalTime is a privileged time and not already present in commonName,
-/// inserts '_$liturgicalTime' after the first element.
+/// For each cumulative level, also checks the liturgical time variant.
+/// For example: 'pastors_bishops' with lent returns:
+/// ['pastors', 'pastors_lent', 'pastors_bishops', 'pastors_bishops_lent']
 List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
   commonName = commonName.trim().toLowerCase();
-  String effectiveCommonName = commonName;
+  List<String> parts = commonName.split('_');
 
-  // Check if commonName already contains a liturgical time
   bool hasLiturgicalTime = liturgicalTime != null &&
       privilegedTimes.any((time) => commonName.contains('_$time'));
-
-  if (liturgicalTime != null &&
+  bool addTimeSuffix = liturgicalTime != null &&
       privilegedTimes.contains(liturgicalTime) &&
-      !hasLiturgicalTime) {
-    List<String> parts = commonName.split('_');
-    if (parts.length > 1) {
-      // Insert liturgical time after first element
-      parts.insert(1, liturgicalTime);
-      effectiveCommonName = parts.join('_');
-    } else {
-      effectiveCommonName = '${commonName}_$liturgicalTime';
+      !hasLiturgicalTime;
+
+  List<String> commonsToTry = [];
+  for (int i = 0; i < parts.length; i++) {
+    String level = parts.sublist(0, i + 1).join('_');
+    commonsToTry.add(level);
+    if (addTimeSuffix) {
+      commonsToTry.add('${level}_$liturgicalTime');
     }
   }
-
-  List<String> parts = effectiveCommonName.split('_');
-  List<String> commonsToTry = [
-    for (int i = 0; i < parts.length; i++) parts.sublist(0, i + 1).join('_')
-  ];
   return commonsToTry;
 }
 

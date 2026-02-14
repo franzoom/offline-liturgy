@@ -130,15 +130,18 @@ class Reading {
 /// Long Biblical reading (Office of Readings)
 class BiblicalReading {
   final String? title;
+  final String? subtitle;
   final String? ref;
   final String? content;
   final String? responsory;
 
-  const BiblicalReading({this.title, this.ref, this.content, this.responsory});
+  const BiblicalReading(
+      {this.title, this.subtitle, this.ref, this.content, this.responsory});
 
   factory BiblicalReading.fromJson(Map<String, dynamic> json) {
     return BiblicalReading(
       title: json['title']?.toString(),
+      subtitle: json['subtitle']?.toString(),
       ref: json['ref']?.toString(),
       content: json['content']?.toString(),
       responsory: json['responsory']?.toString(),

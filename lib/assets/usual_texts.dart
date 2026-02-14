@@ -140,7 +140,20 @@ const String teDeum = 'À toi Dieu, notre louange !\n'
     'Montre-toi le défenseur et l\'ami\n'
     'des hommes sauvés par ton sang :\n'
     'prends-les avec tous les saints\n'
-    'dans ta joie et dans ta lumière.';
+    'dans ta joie et dans ta lumière.\n'
+    '\n'
+    '[rubric]Versets ad libitum\n'
+    'Sauve ton peuple, bénis ton héritage ;\n'
+    'veille sur lui, porte-le à jamais\n'
+    '\n'
+    'Je veux te bénir chaque jour,\n'
+    'louer ton Nom toujours et à jamais.\n'
+    '\n'
+    'En ce jour, garde-nous sans péché\n'
+    'pitité pour nous, Seigneur, pitié pour nous\n'
+    '\n'
+    'Ton amour, Seigneur, soit sur nous\n'
+    'comme notre espoir est en toi.';
 
 const Hymns notrePere = Hymns(
   title: 'Notre Père',

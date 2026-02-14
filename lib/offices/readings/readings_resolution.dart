@@ -1,5 +1,6 @@
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
+import '../../assets/usual_texts.dart';
 import './ferial_readings_resolution.dart';
 import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
@@ -38,10 +39,13 @@ Future<Readings> readingsResolution(CelebrationContext context) async {
   // Note: overlayWith will update readingsOffice.tedeum if defined in YAML
   readingsOffice.overlayWith(properReadings);
 
-  // STEP 5: Finalize Te Deum flag
+  // STEP 5: Finalize Te Deum flag and hydrate content
   // Rule: Enabled if rank < 9 (Feasts/Solemnities) OR if specified in YAML source
   readingsOffice.tedeum =
       (context.teDeum == true) || (readingsOffice.tedeum == true);
+  if (readingsOffice.tedeum == true) {
+    readingsOffice.tedeumContent = teDeum;
+  }
 
   // Hydrate psalm and hymn content
   await resolveOfficeContent(

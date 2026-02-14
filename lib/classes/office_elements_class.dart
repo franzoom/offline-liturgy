@@ -208,6 +208,7 @@ class CelebrationContext {
   final String? officeDescription; // description of the office
   final String? liturgicalColor; // liturgical color of the celebration
   final String? celebrationDescription; // description of the celebration from YAML
+  final Map<String, String> commonTitles; // code -> display title for commons
 
   const CelebrationContext({
     this.celebrationType,
@@ -226,6 +227,7 @@ class CelebrationContext {
     this.officeDescription,
     this.liturgicalColor,
     this.celebrationDescription,
+    this.commonTitles = const {},
   });
 
   /// Returns the first common from commonList.
@@ -261,6 +263,7 @@ class CelebrationContext {
     String? officeDescription,
     String? liturgicalColor,
     String? celebrationDescription,
+    Map<String, String>? commonTitles,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -281,6 +284,7 @@ class CelebrationContext {
       liturgicalColor: liturgicalColor ?? this.liturgicalColor,
       celebrationDescription:
           celebrationDescription ?? this.celebrationDescription,
+      commonTitles: commonTitles ?? this.commonTitles,
     );
   }
 }

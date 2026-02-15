@@ -1,186 +1,153 @@
 import '../../classes/vespers_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
-import '../../assets/libraries/hymn_list.dart';
+import '../../tools/hymns_management.dart'; // Contient getHymnsForSeason
 import './vespers_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves vespers prayer for ferial days
-/// Returns Vespers instanciation
 Future<Vespers> ferialVespersResolution(CelebrationContext context) async {
-  final celebrationCode = context.ferialCode ?? context.celebrationCode;
-  final date = context.date;
-  final dataLoader = context.dataLoader;
-  Vespers ferialVespers = Vespers();
+  final code = context.ferialCode ?? context.celebrationCode;
 
-  // ============================================================================
-  // ORDINARY TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('ot')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, 'ot');
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+  if (code.startsWith('ot')) return _resolveOrdinaryTime(context);
+  if (code.startsWith('advent')) return _resolveAdvent(context);
+  if (code.startsWith('christmas')) return _resolveChristmas(context);
+  if (code.startsWith('lent')) return _resolveLent(context);
+  if (code.startsWith('easter')) return _resolveEaster(context);
 
-    // picks the data of the first 4 weeks of the Ordinary Time:
-    Vespers ferialVespers = await vespersExtract(
-        '$ferialFilePath/ot_${((weekNumber - 1) % 4) + 1}_$dayNumber.yaml',
-        dataLoader);
+  // Fallback
+  return await vespersExtract('$ferialFilePath/$code.yaml', context.dataLoader);
+}
 
-    if (weekNumber > 4) {
-      // Add specific data after the 4th week
-      Vespers auxData = await vespersExtract(
-          '$ferialFilePath/ot_${weekNumber}_$dayNumber.yaml', dataLoader);
-      ferialVespers.overlayWith(auxData);
-    }
+// --- ORDINARY TIME ---
+Future<Vespers> _resolveOrdinaryTime(CelebrationContext context) async {
+  final dayDatas = extractWeekAndDay(context.ferialCode!, 'ot');
+  final int week = dayDatas[0];
+  final int day = dayDatas[1];
 
-    return ferialVespers;
+  Vespers ferialVespers = await vespersExtract(
+      '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml',
+      context.dataLoader);
+
+  if (week > 4) {
+    Vespers auxData = await vespersExtract(
+        '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
+    ferialVespers.overlayWith(auxData);
   }
 
-  // ============================================================================
-  // ADVENT TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('advent')) {
-    final List<HymnEntry> hymns =
-        (hymnList["advent"] ?? []).map((e) => HymnEntry(code: e)).toList();
+  return ferialVespers;
+}
 
-    if (RegExp(r'advent_').hasMatch(celebrationCode)) {
-      // Days before December 17th: is written "advent_XXX"
-      List dayDatas = extractWeekAndDay(celebrationCode, "advent");
-      int weekNumber = dayDatas[0];
-      int dayNumber = dayDatas[1];
-      ferialVespers = await vespersExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-      ferialVespers.hymn = hymns;
-      return ferialVespers;
-    }
-    // Days from December 17th onwards (special days): is written "advent-17_3_5"
-    // extracting the datas of the celebrationCode:
-    List<String> parts = celebrationCode.replaceFirst("advent-", "").split("_");
-    int adventSpecialDay = int.parse(parts[0]);
-    int weekNumber = int.parse(parts[1]);
-    int dayNumber = int.parse(parts[2]);
+// --- ADVENT ---
+Future<Vespers> _resolveAdvent(CelebrationContext context) async {
+  final code = context.ferialCode!;
+  final dataLoader = context.dataLoader;
+  Vespers ferialVespers;
 
+  if (RegExp(r'advent_').hasMatch(code)) {
+    final dayDatas = extractWeekAndDay(code, "advent");
     ferialVespers = await vespersExtract(
-        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
+        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
+        dataLoader);
+  } else {
+    // Special Advent (Dec 17 - 24)
+    List<String> parts = code.replaceFirst("advent-", "").split("_");
+    int specialDay = int.parse(parts[0]);
+    int week = int.parse(parts[1]);
+    int day = int.parse(parts[2]);
 
-    //sunday after 12/17: use the Sunday texts and add the Evangelic Antiphon of the Special Day
-    if (dayNumber == 0) {
+    Vespers specialData = await vespersExtract(
+        '$specialFilePath/advent_$specialDay.yaml', dataLoader);
+
+    if (day == 0) {
+      // Sunday: Base Sunday text + Special Evangelic Antiphon
       ferialVespers = await vespersExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-      Vespers adventSpecialVespers = await vespersExtract(
-          '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-      ferialVespers.evangelicAntiphon = adventSpecialVespers.evangelicAntiphon;
-      ferialVespers.hymn = hymns;
-      return ferialVespers;
+          '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
+      ferialVespers.evangelicAntiphon = specialData.evangelicAntiphon;
+    } else {
+      // Weekday: Base weekday + Special Day Overlay
+      ferialVespers = await vespersExtract(
+          '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
+      ferialVespers.overlayWith(specialData);
     }
 
-    //after december the 17th we add to the week days the special material of the D day
-    ferialVespers = await vespersExtract(
-        '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-    Vespers adventSpecialVespers = await vespersExtract(
-        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-    ferialVespers.overlayWith(adventSpecialVespers);
-
-    //after december the 17th, in the 3d week we use the psalm antiphons of the 4th week
-    if (weekNumber == 3) {
-      Vespers ferialVespersFour = await vespersExtract(
-          '$ferialFilePath/advent_4_$dayNumber.yaml', dataLoader);
-      // Replace only the antiphons, keeping the psalms from ferialVespers
-      if (ferialVespers.psalmody != null &&
-          ferialVespersFour.psalmody != null &&
-          ferialVespers.psalmody!.length >= 3 &&
-          ferialVespersFour.psalmody!.length >= 3) {
+    // Rule for Week 3: uses Psalm antiphons from Week 4
+    if (week == 3) {
+      Vespers weekFour = await vespersExtract(
+          '$ferialFilePath/advent_4_$day.yaml', dataLoader);
+      if (ferialVespers.psalmody?.length == 3 &&
+          weekFour.psalmody?.length == 3) {
         ferialVespers.psalmody = List.generate(
-          3,
-          (i) => PsalmEntry(
-            psalm: ferialVespers.psalmody![i].psalm,
-            antiphon: ferialVespersFour.psalmody![i].antiphon,
-          ),
-        );
+            3,
+            (i) => PsalmEntry(
+                  psalm: ferialVespers.psalmody![i].psalm,
+                  antiphon: weekFour.psalmody![i].antiphon,
+                ));
       }
     }
-    ferialVespers.hymn = hymns;
-    return ferialVespers;
   }
 
-  // ============================================================================
-  // CHRISTMAS TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('christmas')) {
-    // Note: Holy Family is excluded (not a ferial day)
-    int dayNumber = date.day;
-    int monthNumber = date.month;
-    List<HymnEntry> hymns =
-        (hymnList["christmas"] ?? []).map((e) => HymnEntry(code: e)).toList();
+  ferialVespers.hymn = getHymnsForSeason("advent");
+  return ferialVespers;
+}
 
-    if (monthNumber == 12) {
-      // All December days in Christmas time: proper office overlays the Common
-      Vespers vespersOffice = await vespersExtract(
-          '$specialFilePath/christmas_$dayNumber.yaml', dataLoader);
-      Vespers baseVespersOffice =
-          await vespersExtract('$commonsFilePath/christmas.yaml', dataLoader);
-      baseVespersOffice.overlayWith(vespersOffice);
-      baseVespersOffice.hymn = hymns;
-      return baseVespersOffice;
-    }
-    // Christmas days in January
-    if (celebrationCode.startsWith('christmas-')) {
-      // Before Epiphany: proper of the day with psalms and antiphons
-      // of the 1st or 2d week of Christmas time
-      List<String> parts = celebrationCode.split('-')[1].split('_');
-      String dateDay = parts[0];
-      String breviaryWeek = parts[1];
-      String breviaryDay = parts[2];
-      Vespers vespersOffice = await vespersExtract(
-          '$specialFilePath/christmas-ferial_before_epiphany_$dateDay.yaml',
-          dataLoader);
-      Vespers baseVespersOffice = await vespersExtract(
-          '$ferialFilePath/christmas_${breviaryWeek}_$breviaryDay.yaml',
-          dataLoader);
-      baseVespersOffice.overlayWith(vespersOffice);
-      baseVespersOffice.hymn = hymns;
-      return baseVespersOffice;
-    }
+// --- CHRISTMAS ---
+Future<Vespers> _resolveChristmas(CelebrationContext context) async {
+  final code = context.ferialCode!;
+  final date = context.date;
+  final dataLoader = context.dataLoader;
+  Vespers ferialVespers;
+  String hymnSeason = "christmas";
+
+  if (date.month == 12) {
+    // Dec 25 to 31
+    ferialVespers =
+        await vespersExtract('$commonsFilePath/christmas.yaml', dataLoader);
+    Vespers proper = await vespersExtract(
+        '$specialFilePath/christmas_${date.day}.yaml', dataLoader);
+    ferialVespers.overlayWith(proper);
+  } else if (code.contains('-')) {
+    // Jan before Epiphany
+    List<String> parts = code.split('-')[1].split('_');
+    ferialVespers = await vespersExtract(
+        '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
+    Vespers proper = await vespersExtract(
+        '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        dataLoader);
+    ferialVespers.overlayWith(proper);
+  } else {
     // After Epiphany
-    Vespers vespersOffice = await vespersExtract(
+    ferialVespers = await vespersExtract(
         '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
-    vespersOffice.hymn = (hymnList["after_epiphany"] ?? [])
-        .map((e) => HymnEntry(code: e))
-        .toList();
-    return vespersOffice;
+    hymnSeason = "after_epiphany";
   }
+
+  ferialVespers.hymn = getHymnsForSeason(hymnSeason);
+  return ferialVespers;
+}
 
 // --- LENT ---
-  if (celebrationCode.startsWith('lent')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, 'lent');
-    int week = dayDatas[0];
-    int day = dayDatas[1];
-    ferialVespers = await vespersExtract(
-        '$ferialFilePath/lent_${week}_$day.yaml', dataLoader);
-    final String hymnTime = week < 5 ? "lent" : "passion";
-    List<HymnEntry> hymns =
-        (hymnList[hymnTime] ?? []).map((e) => HymnEntry(code: e)).toList();
-    ferialVespers.hymn = hymns;
-    return ferialVespers;
-  }
+Future<Vespers> _resolveLent(CelebrationContext context) async {
+  final dayDatas = extractWeekAndDay(context.ferialCode!, 'lent');
+  final week = dayDatas[0];
 
-  // --- EASTER ---
-  if (celebrationCode.startsWith('easter')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, 'easter');
-    int week = dayDatas[0];
-    int day = dayDatas[1];
-    ferialVespers = await vespersExtract(
-        '$ferialFilePath/easter_${week}_$day.yaml', dataLoader);
-    List<HymnEntry> hymns =
-        (hymnList["easter"] ?? []).map((e) => HymnEntry(code: e)).toList();
-    ferialVespers.hymn = hymns;
-    return ferialVespers;
-  }
+  Vespers ferialVespers = await vespersExtract(
+      '$ferialFilePath/lent_${week}_${dayDatas[1]}.yaml', context.dataLoader);
 
-  // ============================================================================
-  // OTHER FERIAL TIMES
-  // ============================================================================
-  ferialVespers =
-      await vespersExtract('$ferialFilePath/$celebrationCode.yaml', dataLoader);
+  final String hymnKey = week < 5 ? "lent" : "passion";
+  ferialVespers.hymn = getHymnsForSeason(hymnKey);
+
+  return ferialVespers;
+}
+
+// --- EASTER ---
+Future<Vespers> _resolveEaster(CelebrationContext context) async {
+  final dayDatas = extractWeekAndDay(context.ferialCode!, 'easter');
+
+  Vespers ferialVespers = await vespersExtract(
+      '$ferialFilePath/easter_${dayDatas[0]}_${dayDatas[1]}.yaml',
+      context.dataLoader);
+
+  ferialVespers.hymn = getHymnsForSeason("easter");
   return ferialVespers;
 }

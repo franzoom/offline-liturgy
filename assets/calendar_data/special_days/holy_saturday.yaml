@@ -4,18 +4,21 @@ celebration:
 
 invitatory:
   antiphon:
-    - le maître de la vie, prisonnier du tombeau, venez, adorons-le.
+    - Le maître de la vie, prisonnier du tombeau, venez, adorons-le.
 
 readings:
   hymn:
     - veilleurs-tenez-vous-en-eveil
   psalmody:
     - psalm: PSALM_4
-      antiphon: En toute paix, je me couche et je m’endors, car tu me fais vivre, Seigneur, dans ta seule confiance.
+      antiphon: 
+      - En toute paix, je me couche et je m’endors, car tu me fais vivre, Seigneur, dans ta seule confiance.
     - psalm: PSALM_15
-      antiphon: Tu ne peux m’abandonner à la mort, ni laisser ton ami voir la corruption.
+      antiphon: 
+      - Tu ne peux m’abandonner à la mort, ni laisser ton ami voir la corruption.
     - psalm: PSALM_23
-      antiphon: |-
+      antiphon: 
+      - |-
         Élevez-vous, portes éternelles : qu’il entre, le roi de gloire !
   verse: |-
     V/ Lève-toi Seigneur, défends ta cause.
@@ -29,7 +32,7 @@ readings:
         Mais nous qui sommes venus à la foi, nous entrons dans le repos dont il est dit : *Dans ma colère, j’en ai fait le serment : On verra bien s’ils entreront dans mon repos !* Le travail de Dieu, assurément, était accompli depuis la fondation du monde, comme l’Écriture le dit à propos du septième jour : *Et Dieu se reposa le septième jour de tout son travail*. Et dans le psaume, de nouveau : *On verra bien s’ils entreront dans mon repos !*
         Puisque certains doivent encore y entrer, et que les premiers à avoir reçu une Bonne Nouvelle n’y sont pas entrés à cause de leur refus de croire, il fixe de nouveau un jour, un aujourd’hui, en disant bien longtemps après, dans le psaume de David déjà cité : *Aujourd’hui, si vous entendez sa voix, n’endurcissez pas votre cœur*.
         Car si Josué leur avait donné le repos, David ne parlerait pas après cela d’un autre jour. Ainsi, un repos sabbatique doit encore advenir pour le peuple de Dieu. Car Celui qui est entré dans son repos s’est reposé lui aussi de son travail, comme Dieu s’est reposé du sien. Empressons-nous donc d’entrer dans ce repos-là, afin que plus personne ne tombe en suivant l’exemple de ceux qui ont refusé de croire.
-        Elle est vivante, la parole de Dieu, énergique et plus coupante qu’une épée à deux tranchants ; elle va jusqu’au point de partage de l’âme et de l’esprit, des jointures et des moelles ; elle juge des intentions et des pensées du cœur. Pas une créature n’échappe à ses yeux, tout est nu devant elle, soumis à son regard ; nous aurons à lui rendre des comptes."
+        Elle est vivante, la parole de Dieu, énergique et plus coupante qu’une épée à deux tranchants ; elle va jusqu’au point de partage de l’âme et de l’esprit, des jointures et des moelles ; elle juge des intentions et des pensées du cœur. Pas une créature n’échappe à ses yeux, tout est nu devant elle, soumis à son regard ; nous aurons à lui rendre des comptes.
       responsory: |-
         R/ Dieu a fixé de nouveau un jour : aujourd’hui !
 
@@ -57,7 +60,8 @@ readings:
         « *Lève-toi, partons d’ici*. L’ennemi t’a fait sortir de la terre du paradis ; moi je ne t’installerai plus dans le paradis, mais sur un trône céleste. Je t’ai écarté de l’arbre symbolique de la vie ; mais voici que moi, qui suis la vie, je ne fais qu’un avec toi. J’ai posté les chérubins pour qu’ils te gardent comme un serviteur ; je fais maintenant que les chérubins t’adorent comme un Dieu. ~
         « Le trône des chérubins est préparé, les porteurs sont alertés, le lit nuptial est dressé, les aliments sont apprêtés, les tentes et les demeures éternelles le sont aussi. Les trésors du bonheur sont ouverts et le royaume des cieux est prêt de toute éternité. »
       responsory: |-
-        Près de la tombe scellée Stance
+        [rubric] Stance
+        Près de la tombe scellée
         les gardes veillent ;
         et pourquoi, si la vie est vaincue ?
         Mais en ton cœur, Vierge Marie,
@@ -96,11 +100,11 @@ morning:
     content: "Parole du Seigneur : Dans leur détresse, ils me rechercheront : « Allons ! Revenons au Seigneur ! C’est lui qui nous a déchirés, c’est lui qui nous guérira ; lui qui nous a meurtris, il pansera nos blessures. Après deux jours il nous rendra la vie, le troisième jour il nous relèvera. »"
   responsory: |-
     R/ Le Christ s’est fait pour nous obéissant
-    <span class="espace">jusqu’à la mort,</span>
-    <span class="espace">et la mort de la croix.</span>
+    >jusqu’à la mort,
+    >et la mort de la croix.
     C’est pourquoi Dieu l’a exalté,
-    <span class="espace">et lui a donné le Nom</span>
-    <span class="espace">qui est au-dessus de tout nom.</span>
+    >et lui a donné le Nom
+    >qui est au-dessus de tout nom.
   evangelicAntiphon:
     common: Sauveur du monde, sauve-nous ! Par ta croix, par ton sang, tu nous as rachetés. Viens à notre secours, ô notre Dieu.
   intercession:
@@ -133,7 +137,8 @@ vespers:
         - Comme Jonas, trois jours et trois nuits aux profondeurs des abîmes, ainsi Jésus, au cœur de la terre.
     - psalm: NT_5
       antiphon:
-        - "Du sanctuaire de son corps, Jésus disait : Détruisez ce temple ; en trois jours, je le relèverai."
+        - |-
+          Du sanctuaire de son corps, Jésus disait : Détruisez ce temple ; en trois jours, je le relèverai.
   reading:
     biblicalReference: 1 P 1, 18-21
     content: "Vous le savez : ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits ; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache. Dieu l’avait choisi dès avant la création du monde, et il l’a manifesté à cause de vous, en ces temps qui sont les derniers. C’est par lui que vous croyez en Dieu, qui l’a ressuscité d’entre les morts et lui a donné la gloire ; ainsi vous mettez votre foi et votre espérance en Dieu."
@@ -152,7 +157,7 @@ vespers:
 
       Par l’eau et le sang de ton côté,
       engendre ton Église.
-      R/E ngendre ton Église.
+      R/ Engendre ton Église.
 
       Par ta déposition de la croix,
       purifie ton Église.

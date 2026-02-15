@@ -8,7 +8,7 @@ import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
-Future<Readings> readingsResolution(CelebrationContext context) async {
+Future<Readings> readingsExport(CelebrationContext context) async {
   Readings readingsOffice = Readings();
 
   // STEP 1: Load Ferial data as the base layer

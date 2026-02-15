@@ -5,6 +5,7 @@ import './vespers_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
+import '../../tools/date_tools.dart';
 
 /// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
 /// 1. Ferial base
@@ -51,6 +52,17 @@ Future<Vespers> vespersResolution(CelebrationContext celebrationContext) async {
     hymns: vespersOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
   );
+
+  // Filter evangelicAntiphon: keep only default + current year
+  final antiphonMap = vespersOffice.evangelicAntiphon;
+  if (antiphonMap != null) {
+    final year = liturgicalYear(celebrationContext.date.year);
+    vespersOffice.evangelicAntiphon = {
+      if (antiphonMap.containsKey('antiphon'))
+        'antiphon': antiphonMap['antiphon']!,
+      if (antiphonMap.containsKey(year)) year: antiphonMap[year]!,
+    };
+  }
 
   return vespersOffice;
 }

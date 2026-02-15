@@ -1,4 +1,4 @@
-/// hymn list for Advent and Christmas Time.
+/// hymn list for special Liturgical Times.
 /// for the other times, an hymn is given per day
 const Map<String, List<String>> hymnList = {
   "advent": [

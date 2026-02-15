@@ -1,186 +1,147 @@
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
-import '../../assets/libraries/hymn_list.dart';
+import '../../tools/hymns_management.dart'; // Contient getHymnsForSeason
 import './readings_extract.dart';
 import '../../tools/constants.dart';
 
-/// Resolves readings prayer for ferial days
-/// Returns Readings instanciation
+/// Resolves readings prayer (Office of Readings) for ferial days
 Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
-  final celebrationCode = context.ferialCode ?? context.celebrationCode;
-  final date = context.date;
-  final dataLoader = context.dataLoader;
-  Readings ferialReadings = Readings();
+  final code = context.ferialCode ?? context.celebrationCode;
 
-  // ============================================================================
-  // ORDINARY TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('ot')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, 'ot');
-    int weekNumber = dayDatas[0];
-    int dayNumber = dayDatas[1];
+  if (code.startsWith('ot')) return _resolveOrdinaryTime(context);
+  if (code.startsWith('advent')) return _resolveAdvent(context);
+  if (code.startsWith('christmas')) return _resolveChristmas(context);
+  if (code.startsWith('lent')) return _resolveLent(context);
+  if (code.startsWith('easter')) return _resolveEaster(context);
 
-    // picks the data of the first 4 weeks of the Ordinary Time:
-    Readings ferialReadings = await readingsExtract(
-        '$ferialFilePath/ot_${((weekNumber - 1) % 4) + 1}_$dayNumber.yaml',
-        dataLoader);
+  // Fallback
+  return await readingsExtract(
+      '$ferialFilePath/$code.yaml', context.dataLoader);
+}
 
-    if (weekNumber > 4) {
-      // Add specific data after the 4th week
-      Readings auxData = await readingsExtract(
-          '$ferialFilePath/ot_${weekNumber}_$dayNumber.yaml', dataLoader);
-      ferialReadings.overlayWith(auxData);
-    }
+// --- ORDINARY TIME ---
+Future<Readings> _resolveOrdinaryTime(CelebrationContext context) async {
+  final dayDatas = extractWeekAndDay(context.ferialCode!, 'ot');
+  final int week = dayDatas[0];
+  final int day = dayDatas[1];
 
-    return ferialReadings;
+  Readings ferialReadings = await readingsExtract(
+      '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml',
+      context.dataLoader);
+
+  if (week > 4) {
+    Readings auxData = await readingsExtract(
+        '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
+    ferialReadings.overlayWith(auxData);
   }
 
-  // ============================================================================
-  // ADVENT TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('advent')) {
-    final List<HymnEntry> hymns =
-        (hymnList["advent"] ?? []).map((e) => HymnEntry(code: e)).toList();
+  return ferialReadings;
+}
 
-    if (RegExp(r'advent_').hasMatch(celebrationCode)) {
-      // Days before December 17th: is written "advent_XXX"
-      List dayDatas = extractWeekAndDay(celebrationCode, "advent");
-      int weekNumber = dayDatas[0];
-      int dayNumber = dayDatas[1];
-      ferialReadings = await readingsExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-      ferialReadings.hymn = hymns;
-      return ferialReadings;
-    }
-    // Days from December 17th onwards (special days): is written "advent-17_3_5"
-    // extracting the datas of the celebrationCode:
-    List<String> parts = celebrationCode.replaceFirst("advent-", "").split("_");
-    int adventSpecialDay = int.parse(parts[0]);
-    int weekNumber = int.parse(parts[1]);
-    int dayNumber = int.parse(parts[2]);
+// --- ADVENT ---
+Future<Readings> _resolveAdvent(CelebrationContext context) async {
+  final code = context.ferialCode!;
+  final dataLoader = context.dataLoader;
+  Readings ferialReadings;
+
+  if (RegExp(r'advent_').hasMatch(code)) {
+    final dayDatas = extractWeekAndDay(code, "advent");
+    ferialReadings = await readingsExtract(
+        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
+        dataLoader);
+  } else {
+    // Special Advent (Dec 17 - 24)
+    List<String> parts = code.replaceFirst("advent-", "").split("_");
+    int specialDay = int.parse(parts[0]);
+    int week = int.parse(parts[1]);
+    int day = int.parse(parts[2]);
 
     ferialReadings = await readingsExtract(
-        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
+        '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
+    Readings specialData = await readingsExtract(
+        '$specialFilePath/advent_$specialDay.yaml', dataLoader);
 
-    //sunday after 12/17: use the Sunday texts and overlay with the Special Day
-    if (dayNumber == 0) {
-      ferialReadings = await readingsExtract(
-          '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-      Readings adventSpecialReadings = await readingsExtract(
-          '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-      ferialReadings.overlayWith(adventSpecialReadings);
-      ferialReadings.hymn = hymns;
-      return ferialReadings;
-    }
+    // Overlay special material (biblical/patristic readings and Te Deum logic)
+    ferialReadings.overlayWith(specialData);
 
-    //after december the 17th we add to the week days the special material of the D day
-    ferialReadings = await readingsExtract(
-        '$ferialFilePath/advent_${weekNumber}_$dayNumber.yaml', dataLoader);
-    Readings adventSpecialReadings = await readingsExtract(
-        '$specialFilePath/advent_$adventSpecialDay.yaml', dataLoader);
-    ferialReadings.overlayWith(adventSpecialReadings);
-
-    //after december the 17th, in the 3d week we use the psalm antiphons of the 4th week
-    if (weekNumber == 3) {
-      Readings ferialReadingsFour = await readingsExtract(
-          '$ferialFilePath/advent_4_$dayNumber.yaml', dataLoader);
-      // Replace only the antiphons, keeping the psalms from ferialReadings
-      if (ferialReadings.psalmody != null &&
-          ferialReadingsFour.psalmody != null &&
-          ferialReadings.psalmody!.length >= 3 &&
-          ferialReadingsFour.psalmody!.length >= 3) {
+    // Special rule for Week 3: uses Psalm antiphons from Week 4
+    if (week == 3) {
+      Readings weekFour = await readingsExtract(
+          '$ferialFilePath/advent_4_$day.yaml', dataLoader);
+      if (ferialReadings.psalmody?.length == 3 &&
+          weekFour.psalmody?.length == 3) {
         ferialReadings.psalmody = List.generate(
-          3,
-          (i) => PsalmEntry(
-            psalm: ferialReadings.psalmody![i].psalm,
-            antiphon: ferialReadingsFour.psalmody![i].antiphon,
-          ),
-        );
+            3,
+            (i) => PsalmEntry(
+                  psalm: ferialReadings.psalmody![i].psalm,
+                  antiphon: weekFour.psalmody![i].antiphon,
+                ));
       }
     }
-    ferialReadings.hymn = hymns;
-    return ferialReadings;
   }
 
-  // ============================================================================
-  // CHRISTMAS TIME
-  // ============================================================================
-  if (celebrationCode.startsWith('christmas')) {
-    // Note: Holy Family is excluded (not a ferial day)
-    int dayNumber = date.day;
-    int monthNumber = date.month;
-    List<HymnEntry> hymns =
-        (hymnList["christmas"] ?? []).map((e) => HymnEntry(code: e)).toList();
+  ferialReadings.hymn = getHymnsForSeason("advent");
+  return ferialReadings;
+}
 
-    if (monthNumber == 12) {
-      // All December days in Christmas time: proper office overlays the Common
-      Readings readingsOffice = await readingsExtract(
-          '$specialFilePath/christmas_$dayNumber.yaml', dataLoader);
-      Readings baseReadingsOffice =
-          await readingsExtract('$commonsFilePath/christmas.yaml', dataLoader);
-      baseReadingsOffice.overlayWith(readingsOffice);
-      baseReadingsOffice.hymn = hymns;
-      return baseReadingsOffice;
-    }
-    // Christmas days in January
-    if (celebrationCode.startsWith('christmas-')) {
-      // Before Epiphany: proper of the day with psalms and antiphons
-      // of the 1st or 2d week of Christmas time
-      List<String> parts = celebrationCode.split('-')[1].split('_');
-      String dateDay = parts[0];
-      String breviaryWeek = parts[1];
-      String breviaryDay = parts[2];
-      Readings readingsOffice = await readingsExtract(
-          '$specialFilePath/christmas-ferial_before_epiphany_$dateDay.yaml',
-          dataLoader);
-      Readings baseReadingsOffice = await readingsExtract(
-          '$ferialFilePath/christmas_${breviaryWeek}_$breviaryDay.yaml',
-          dataLoader);
-      baseReadingsOffice.overlayWith(readingsOffice);
-      baseReadingsOffice.hymn = hymns;
-      return baseReadingsOffice;
-    }
+// --- CHRISTMAS ---
+Future<Readings> _resolveChristmas(CelebrationContext context) async {
+  final code = context.ferialCode!;
+  final date = context.date;
+  final dataLoader = context.dataLoader;
+  Readings ferialReadings;
+  String hymnSeason = "christmas";
+
+  if (date.month == 12) {
+    // Dec 25 to 31
+    ferialReadings =
+        await readingsExtract('$commonsFilePath/christmas.yaml', dataLoader);
+    Readings proper = await readingsExtract(
+        '$specialFilePath/christmas_${date.day}.yaml', dataLoader);
+    ferialReadings.overlayWith(proper);
+  } else if (code.contains('-')) {
+    // Jan before Epiphany
+    List<String> parts = code.split('-')[1].split('_');
+    ferialReadings = await readingsExtract(
+        '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
+    Readings proper = await readingsExtract(
+        '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        dataLoader);
+    ferialReadings.overlayWith(proper);
+  } else {
     // After Epiphany
-    Readings readingsOffice = await readingsExtract(
+    ferialReadings = await readingsExtract(
         '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
-    readingsOffice.hymn = (hymnList["after_epiphany"] ?? [])
-        .map((e) => HymnEntry(code: e))
-        .toList();
-    return readingsOffice;
+    hymnSeason = "after_epiphany";
   }
+
+  ferialReadings.hymn = getHymnsForSeason(hymnSeason);
+  return ferialReadings;
+}
 
 // --- LENT ---
-  if (celebrationCode.startsWith('lent')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, 'lent');
-    int week = dayDatas[0];
-    int day = dayDatas[1];
-    ferialReadings = await readingsExtract(
-        '$ferialFilePath/lent_${week}_$day.yaml', dataLoader);
-    final String hymnTime = week < 5 ? "lent" : "passion";
-    List<HymnEntry> hymns =
-        (hymnList[hymnTime] ?? []).map((e) => HymnEntry(code: e)).toList();
-    ferialReadings.hymn = hymns;
-    return ferialReadings;
-  }
+Future<Readings> _resolveLent(CelebrationContext context) async {
+  final dayDatas = extractWeekAndDay(context.ferialCode!, 'lent');
+  final week = dayDatas[0];
 
-  // --- EASTER ---
-  if (celebrationCode.startsWith('easter')) {
-    List dayDatas = extractWeekAndDay(celebrationCode, 'easter');
-    int week = dayDatas[0];
-    int day = dayDatas[1];
-    ferialReadings = await readingsExtract(
-        '$ferialFilePath/easter_${week}_$day.yaml', dataLoader);
-    List<HymnEntry> hymns =
-        (hymnList["easter"] ?? []).map((e) => HymnEntry(code: e)).toList();
-    ferialReadings.hymn = hymns;
-    return ferialReadings;
-  }
+  Readings ferialReadings = await readingsExtract(
+      '$ferialFilePath/lent_${week}_${dayDatas[1]}.yaml', context.dataLoader);
 
-  // ============================================================================
-  // OTHER FERIAL TIMES
-  // ============================================================================
-  ferialReadings = await readingsExtract(
-      '$ferialFilePath/$celebrationCode.yaml', dataLoader);
+  final String hymnKey = week < 5 ? "lent" : "passion";
+  ferialReadings.hymn = getHymnsForSeason(hymnKey);
+
+  return ferialReadings;
+}
+
+// --- EASTER ---
+Future<Readings> _resolveEaster(CelebrationContext context) async {
+  final dayDatas = extractWeekAndDay(context.ferialCode!, 'easter');
+
+  Readings ferialReadings = await readingsExtract(
+      '$ferialFilePath/easter_${dayDatas[0]}_${dayDatas[1]}.yaml',
+      context.dataLoader);
+
+  ferialReadings.hymn = getHymnsForSeason("easter");
   return ferialReadings;
 }

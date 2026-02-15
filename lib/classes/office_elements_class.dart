@@ -127,8 +127,13 @@ class HymnEntry {
 
   HymnEntry({required this.code, this.hymnData});
 
-  factory HymnEntry.fromJson(dynamic json) =>
-      HymnEntry(code: json.toString());
+  factory HymnEntry.fromJson(dynamic json) => HymnEntry(code: json.toString());
+
+  /// Create Hymn Entry list from a list of codes
+  static List<HymnEntry> fromCodes(List<dynamic>? codes) {
+    if (codes == null) return [];
+    return codes.map((c) => HymnEntry(code: c.toString())).toList();
+  }
 }
 
 /// Biblical short reading (Lauds / Vespers)
@@ -213,7 +218,8 @@ class CelebrationContext {
   final String?
       celebrationType; // e.g. morning, vespers1, vespers2, readings, ...
   final String celebrationCode; // given by the liturgical calendar
-  final String? celebrationTitle; // display title (from YAML title or ferial name)
+  final String?
+      celebrationTitle; // display title (from YAML title or ferial name)
   final String? celebrationGlobalName; // full name with subtitle
   final String? ferialCode; // given by the calendar root of the date
   final List<String>? commonList; // list of commons for the celebration
@@ -226,7 +232,8 @@ class CelebrationContext {
   final DataLoader dataLoader; // to load required data
   final String? officeDescription; // description of the office
   final String? liturgicalColor; // liturgical color of the celebration
-  final String? celebrationDescription; // description of the celebration from YAML
+  final String?
+      celebrationDescription; // description of the celebration from YAML
   final Map<String, String> commonTitles; // code -> display title for commons
 
   const CelebrationContext({

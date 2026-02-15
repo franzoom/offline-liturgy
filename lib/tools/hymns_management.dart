@@ -1,5 +1,7 @@
 import '../classes/hymns_class.dart';
+import '../classes/office_elements_class.dart';
 import '../assets/libraries/hymns_library.dart';
+import '../assets/libraries/hymn_list.dart';
 import '../tools/data_loader.dart';
 
 /// Filters hymns by their codes from the hymns library
@@ -20,4 +22,12 @@ void displayHymns(Map<String, Hymns> hymns) {
     print('Content: ${hymn.content}');
     print('---');
   }
+}
+
+List<HymnEntry> getHymnsForSeason(String seasonKey) {
+  // On récupère la liste de Strings depuis ton fichier hymn_list.dart
+  final List<String> codes = List<String>.from(hymnList[seasonKey] ?? []);
+
+  // On mappe vers la classe HymnEntry
+  return codes.map((e) => HymnEntry(code: e)).toList();
 }

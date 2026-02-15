@@ -16,7 +16,7 @@ const liturgicalTimeLabels = {
   'lent': 'Carême',
   'christmas': 'Temps de Noël',
   'holyweek': 'Semaine Sainte',
-  'paschaloctave': 'Octave Paschal',
+  'paschaloctave': 'Octave Pascal',
   'christmasoctave': 'Octave de Noël',
 };
 
@@ -27,7 +27,7 @@ const liturgicalTimeLabelsDative = {
   'lent': 'du Carême',
   'christmas': 'du Temps de Noël',
   'holyweek': 'de la Semaine Sainte',
-  'paschaloctave': 'de l\'Octave Paschal',
+  'paschaloctave': 'de l\'Octave Pascal',
   'christmasoctave': 'de l\'Octave de Noël',
 };
 

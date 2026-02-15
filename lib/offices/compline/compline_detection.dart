@@ -68,6 +68,32 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 1. Detect celebrations
   final rawTodayCelebrations =
       await detectCelebrations(calendar, date, dataLoader);
+
+  // --- Special case: Holy Friday and Holy Saturday have their own Compline, no other option ---
+  const triduumComplineCodes = {'holy_friday', 'holy_saturday'};
+  final holyWeekCelebration = rawTodayCelebrations
+      .where((c) => triduumComplineCodes.contains(c.celebrationCode))
+      .firstOrNull;
+  if (holyWeekCelebration != null) {
+    final c = holyWeekCelebration;
+    final celebrationType =
+        _detectCelebrationType(c.precedence ?? 1, c.celebrationCode);
+    final dayOfCompline = _detectDayOfWeek(date, celebrationType);
+    final description = 'Complies – ${c.celebrationGlobalName}';
+    possibleComplines[description] = ComplineDefinition(
+      complineDescription: description,
+      celebrationCode: c.celebrationCode,
+      ferialCode: c.ferialCode ?? '',
+      liturgicalTime: liturgicalTime,
+      precedence: c.precedence ?? 1,
+      liturgicalColor: c.liturgicalColor ?? 'purple',
+      isCelebrable: true,
+      dayOfCompline: dayOfCompline,
+      celebrationType: celebrationType,
+    );
+    return possibleComplines;
+  }
+
   final tomorrow = date.shift(1);
   final tomorrowCelebrations =
       await detectCelebrations(calendar, tomorrow, dataLoader);
@@ -108,10 +134,14 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   }
 
   // 4. Process tomorrow's celebrations for eve Complines
+  // No eve compline when tomorrow is a Holy Week Triduum day
+  final bool tomorrowIsHolyWeek = tomorrowCelebrations
+      .any((c) => holyWeekCodes.contains(c.celebrationCode));
   final bool isTomorrowSunday = tomorrow.weekday == DateTime.sunday;
   bool tomorrowHasSolemnity = false;
 
   for (final c in tomorrowCelebrations) {
+    if (tomorrowIsHolyWeek) break;
     final int precedence = c.precedence ?? 13;
     final bool isTomorrowSolemnity = precedence <= 4;
     final bool needsEveCompline = isTomorrowSolemnity || isTomorrowSunday;

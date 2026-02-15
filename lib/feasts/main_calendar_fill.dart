@@ -328,7 +328,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
       liturgicalMainFeasts['EASTER']!,
       DayContent(
         liturgicalYear: liturgicalYear,
-        liturgicalTime: 'paschaltime',
+        liturgicalTime: 'paschaloctave',
         defaultCelebrationTitle: 'easter',
         precedence: 1,
         liturgicalColor: 'white',

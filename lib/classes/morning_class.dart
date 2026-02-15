@@ -81,7 +81,10 @@ class Morning {
     if (overlay.reading != null) reading = overlay.reading;
     if (overlay.responsory != null) responsory = overlay.responsory;
     if (overlay.evangelicAntiphon != null) {
-      evangelicAntiphon = overlay.evangelicAntiphon;
+      evangelicAntiphon = {
+        ...evangelicAntiphon ?? {},
+        ...overlay.evangelicAntiphon!,
+      };
     }
     if (overlay.intercession != null) intercession = overlay.intercession;
     if (overlay.oration != null) oration = overlay.oration;
@@ -94,7 +97,10 @@ class Morning {
     if (common.reading != null) reading = common.reading;
     if (common.responsory != null) responsory = common.responsory;
     if (common.evangelicAntiphon != null) {
-      evangelicAntiphon = common.evangelicAntiphon;
+      evangelicAntiphon = {
+        ...evangelicAntiphon ?? {},
+        ...common.evangelicAntiphon!,
+      };
     }
     if (common.intercession != null) intercession = common.intercession;
     if (common.oration != null) oration = common.oration;

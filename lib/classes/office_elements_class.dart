@@ -51,7 +51,7 @@ class Invitatory {
   }
 }
 
-/// Evangelic antiphon (Benedictus / Magnificat)
+/// Evangelic antiphon (Benedictus / Magnificat) - used by Compline
 class EvangelicAntiphon {
   final String? common;
   final String? yearA;
@@ -68,6 +68,25 @@ class EvangelicAntiphon {
       yearC: json['yearC']?.toString(),
     );
   }
+}
+
+/// Parses evangelicAntiphon from YAML data.
+/// Returns a Map<String, String> with keys: "antiphon", "A", "B", "C"
+/// Input can be a simple String or a Map with common/yearA/yearB/yearC keys.
+Map<String, String>? parseEvangelicAntiphon(dynamic value) {
+  if (value == null) return null;
+  if (value is String) {
+    return {'antiphon': value};
+  }
+  if (value is Map) {
+    final map = <String, String>{};
+    if (value['common'] != null) map['antiphon'] = value['common'].toString();
+    if (value['yearA'] != null) map['A'] = value['yearA'].toString();
+    if (value['yearB'] != null) map['B'] = value['yearB'].toString();
+    if (value['yearC'] != null) map['C'] = value['yearC'].toString();
+    return map.isNotEmpty ? map : null;
+  }
+  return null;
 }
 
 /// Intercessions / Preces

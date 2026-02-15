@@ -8,7 +8,7 @@ class Vespers {
   List<PsalmEntry>? psalmody;
   Reading? reading;
   String? responsory;
-  EvangelicAntiphon? evangelicAntiphon;
+  Map<String, String>? evangelicAntiphon;
   Intercession? intercession;
   List<String>? oration;
 
@@ -42,10 +42,7 @@ class Vespers {
           ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
           : null,
       responsory: data['responsory']?.toString(),
-      evangelicAntiphon: data['evangelicAntiphon'] is Map<String, dynamic>
-          ? EvangelicAntiphon.fromJson(
-              data['evangelicAntiphon'] as Map<String, dynamic>)
-          : null,
+      evangelicAntiphon: parseEvangelicAntiphon(data['evangelicAntiphon']),
       intercession: data['intercession'] is Map<String, dynamic>
           ? Intercession.fromJson(data['intercession'] as Map<String, dynamic>)
           : null,

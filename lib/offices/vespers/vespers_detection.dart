@@ -1,4 +1,4 @@
-import 'dart:math'; // Required for min()
+import 'dart:math';
 import '../../classes/calendar_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';

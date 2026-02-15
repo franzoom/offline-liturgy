@@ -1,5 +1,6 @@
 import 'package:yaml/yaml.dart';
 import '../../classes/vespers_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
@@ -34,6 +35,15 @@ Future<Vespers> vespersExtract(
 
   // If oration is not in vespers section, check in main section of the yaml
   vespers.oration ??= oration;
+
+  // Merge root-level evangelicAntiphon (yearA/B/C) into the vespers map
+  final rootAntiphon = parseEvangelicAntiphon(data['evangelicAntiphon']);
+  if (rootAntiphon != null) {
+    vespers.evangelicAntiphon = {
+      ...vespers.evangelicAntiphon ?? {},
+      ...rootAntiphon,
+    };
+  }
 
   print('=== vespersExtract SUCCESS ===');
   return vespers;

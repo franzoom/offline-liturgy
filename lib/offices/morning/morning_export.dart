@@ -48,7 +48,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     morningOffice.overlayWith(celebrationOverlay);
   } else {
     // Memorials (> 6):
-    // FIXED: Using null check because EvangelicAntiphon is an object, not a String.
+    // evangelicAntiphon overlay for Memorials
     if (celebrationOverlay.evangelicAntiphon != null) {
       morningOffice.evangelicAntiphon = celebrationOverlay.evangelicAntiphon;
     }

@@ -58,6 +58,15 @@ Future<Morning> morningExtract(
   // If oration is not in morning section, check in main section of the yaml
   morning.oration ??= oration;
 
+  // Merge root-level evangelicAntiphon (yearA/B/C) into the morning map
+  final rootAntiphon = parseEvangelicAntiphon(data['evangelicAntiphon']);
+  if (rootAntiphon != null) {
+    morning.evangelicAntiphon = {
+      ...morning.evangelicAntiphon ?? {},
+      ...rootAntiphon,
+    };
+  }
+
   print('=== morningExtract SUCCESS ===');
   return morning;
 }

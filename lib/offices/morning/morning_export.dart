@@ -5,6 +5,7 @@ import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
+import '../../tools/date_tools.dart';
 
 /// Resolves the Morning Prayer (Lauds).
 /// Priority logic: Proper > Common > Ferial base.
@@ -65,6 +66,17 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     hymns: morningOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
   );
+
+  // 5. Filter evangelicAntiphon: keep only default + current year
+  final antiphonMap = morningOffice.evangelicAntiphon;
+  if (antiphonMap != null) {
+    final year = liturgicalYear(celebrationContext.date.year);
+    morningOffice.evangelicAntiphon = {
+      if (antiphonMap.containsKey('antiphon'))
+        'antiphon': antiphonMap['antiphon']!,
+      if (antiphonMap.containsKey(year)) year: antiphonMap[year]!,
+    };
+  }
 
   return morningOffice;
 }

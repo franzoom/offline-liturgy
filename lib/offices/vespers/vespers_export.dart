@@ -11,7 +11,7 @@ import '../../tools/date_tools.dart';
 /// 1. Ferial base
 /// 2. Common (if applicable)
 /// 3. Proper (Sanctoral or Special)
-Future<Vespers> vespersResolution(CelebrationContext celebrationContext) async {
+Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   Vespers vespersOffice = Vespers();
 
   // STEP 1: Load Ferial data as the base layer
@@ -27,7 +27,8 @@ Future<Vespers> vespersResolution(CelebrationContext celebrationContext) async {
 
   // STEP 3: Handle Commons and Overlays based on precedence
   final bool isMemory = (celebrationContext.precedence ?? 13) > 6;
-  final bool hasCommon = celebrationContext.selectedCommon?.trim().isNotEmpty ?? false;
+  final bool hasCommon =
+      celebrationContext.selectedCommon?.trim().isNotEmpty ?? false;
 
   if (hasCommon) {
     Vespers commonVespers =

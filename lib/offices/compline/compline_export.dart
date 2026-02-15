@@ -1,4 +1,3 @@
-import '../../classes/calendar_class.dart';
 import '../../classes/compline_class.dart';
 import '../../assets/compline/compline_default.dart';
 import '../../assets/compline/compline_paschal_time.dart';
@@ -9,235 +8,84 @@ import '../../assets/compline/compline_solemnity_ordinary_time.dart';
 import '../../assets/compline/compline_solemnity_advent_christmas.dart';
 import '../../assets/compline/compline_advent_time.dart';
 import '../../assets/compline/compline_christmas_time.dart';
-import '../../tools/date_tools.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
-import 'compline_detection.dart';
 
-Future<Map<String, ComplineDefinition>> complineExport(
-    Calendar calendar, DateTime date, DataLoader dataLoader) async {
-  /// Resolves the Complines choice for a given day.
-  /// Returns a list of possible Complines maps.
-  /// Usually returns only today's Complines,
-  /// but if tomorrow is a Solemnity or Sunday, includes Solemnity Eve Complines.
-  /// If today has multiple celebrations (Sunday + Solemnity), returns all options.
+/// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
+/// This is called AFTER the user has picked a specific Compline option.
+Future<Compline> complineExport(
+  ComplineDefinition choice,
+  DataLoader dataLoader,
+) async {
+  // 1. Get the static text structure based on the user's choice
+  final compline = getComplineText(choice);
 
-  final String liturgicalTime =
-      calendar.getDayContent(date)?.liturgicalTime ?? '';
-  if (liturgicalTime == 'christmasoctave' ||
-      liturgicalTime == 'paschaloctave') {
-    ComplineDefinition saturdayComplineDefinition = ComplineDefinition(
-        complineDescription: 'Complies du samedi',
-        dayOfCompline: 'saturday',
-        liturgicalTime: liturgicalTime,
-        celebrationType: 'solemnityeve',
-        precedence: 8);
-    ComplineDefinition sundayComplineDefinition = ComplineDefinition(
-        complineDescription: 'Complies du dimanche',
-        dayOfCompline: 'sunday',
-        liturgicalTime: liturgicalTime,
-        celebrationType: 'solemnity',
-        precedence: 8);
-    Map<String, ComplineDefinition> possibleComplines = {
-      "Complies du samedi": saturdayComplineDefinition,
-      "Complies du dimanche": sundayComplineDefinition
-    };
-    return possibleComplines;
+  if (compline == null) {
+    throw Exception("Could not resolve text for the chosen Compline");
   }
 
-  Map<String, ComplineDefinition> todayComplineDefinition =
-      await complineDetection(calendar, date, dataLoader);
-  Map<String, ComplineDefinition> tomorrowComplineDefinition =
-      await complineDetection(calendar, date.shift(1), dataLoader);
+  // 2. Hydrate dynamic content (psalms, hymns) from data source
+  await resolveOfficeContent(
+    psalmody: compline.psalmody,
+    hymns: compline.hymns,
+    dataLoader: dataLoader,
+  );
 
-  Map<String, ComplineDefinition> possibleComplines = todayComplineDefinition;
-
-  // Check if today is a Solemnity or sunday
-  bool todayIsSolemnity = todayComplineDefinition.entries.any((entry) =>
-      entry.value.celebrationType == 'solemnity' ||
-      entry.value.dayOfCompline == 'sunday');
-
-  // work on tomorrow's potential Complines :
-  // Check if tomorrow requires Eve Complines (Solemnity or Sunday)
-  // and adapt their datas to be considered as Eve
-  // (using saturdays's office according to the liturgical time)
-  bool tomorrowNeedsEveComplines = false;
-  Map<String, ComplineDefinition> eveComplineDefinition = {};
-  for (var entry in tomorrowComplineDefinition.entries) {
-    final value = entry.value;
-    if (value.celebrationType == 'solemnity') {
-      tomorrowNeedsEveComplines = true;
-      String eveComplineDescription =
-          eveStringReplacement(entry.value.complineDescription);
-      eveComplineDefinition[eveComplineDescription] = ComplineDefinition(
-        complineDescription: eveComplineDescription,
-        dayOfCompline: 'saturday',
-        liturgicalTime: value.liturgicalTime,
-        celebrationType: 'solemnityeve',
-        precedence: value.precedence,
-      );
-    } else if (value.dayOfCompline == 'sunday') {
-      tomorrowNeedsEveComplines = true;
-      String eveComplineDescription =
-          eveStringReplacement(entry.value.complineDescription);
-      eveComplineDefinition[eveComplineDescription] = ComplineDefinition(
-        complineDescription: eveComplineDescription,
-        dayOfCompline: 'saturday',
-        liturgicalTime: value.liturgicalTime,
-        celebrationType: 'normal',
-        precedence: value.precedence,
-      );
-    }
-  }
-
-  // Decision logic
-  if (tomorrowNeedsEveComplines && todayIsSolemnity) {
-    // Both options: today's Solemnity Complines AND Solemnity/Sunday Eve Complines
-    // ==> adds the eve's Complines to the already existing today's Complines.
-    possibleComplines.addAll(eveComplineDefinition);
-  } else if (tomorrowNeedsEveComplines) {
-    // Only Solemnity/Sunday Eve Complines: juste keep the Eve Complines
-    possibleComplines = eveComplineDefinition;
-  }
-  return possibleComplines;
-}
-
-Future<Map<String, Compline>> complineTextCompilation(
-    Map<String, ComplineDefinition> complineDefinitionExported,
-    DataLoader dataLoader) async {
-  // Returns the list of compiled Complines from Compline definitions
-  // using the getComplineText function.
-  // The Map key is the name of the Compline (day or feast)
-  // and the value is the text of the Compline.
-  final result = <String, Compline>{};
-  for (var entry in complineDefinitionExported.entries) {
-    final compline = getComplineText(entry.value)!;
-    // Hydrate psalm and hymn content
+  // 3. Hydrate Marian hymns
+  if (compline.marialHymnRef != null) {
     await resolveOfficeContent(
-      psalmody: compline.psalmody,
-      hymns: compline.hymns,
+      hymns: compline.marialHymnRef,
       dataLoader: dataLoader,
     );
-    // Hydrate marian hymns separately
-    if (compline.marialHymnRef != null) {
-      await resolveOfficeContent(
-        hymns: compline.marialHymnRef,
-        dataLoader: dataLoader,
-      );
-    }
-    result[entry.key] = compline;
   }
-  return result;
+
+  return compline;
 }
 
-Compline? getComplineText(ComplineDefinition complineDefinition) {
-  // From the Compline definition, returns the text of the Compline
-  // following the Compline class.
-  String day = complineDefinition.dayOfCompline;
-  Compline? dayCompline = defaultCompline[day];
-  Compline? correctionCompline;
-  String dayName;
-  switch (complineDefinition.celebrationType.toLowerCase()) {
-    case 'holy_thursday':
-      // Use Holy Thursday for the Triduum
-      correctionCompline = lentTimeCompline['holy_thursday'];
-      break;
-    case 'holy_friday':
-      // Use Holy Friday for the Triduum
-      correctionCompline = lentTimeCompline['holy_friday'];
-      break;
-    case 'holy_saturday':
-      // Use Holy Saturday for the Triduum
-      correctionCompline = lentTimeCompline['holy_saturday'];
-      break;
-    case 'sunday':
-      // Use Sunday Complines (same as normal but with Sunday day)
-      dayName = 'sunday';
-      dayCompline = defaultCompline[dayName];
-      switch (complineDefinition.liturgicalTime.toLowerCase()) {
-        case 'ot':
-          correctionCompline = dayCompline;
-          break;
-        case 'lent':
-          correctionCompline = lentTimeCompline[dayName];
-          break;
-        case 'paschal':
-          correctionCompline = paschalTimeCompline[dayName];
-          break;
-        case 'advent':
-          correctionCompline = adventTimeCompline[dayName];
-          break;
-        case 'christmasoctave':
-        case 'christmas':
-          correctionCompline = christmasTimeCompline[dayName];
-          break;
-        default:
-          correctionCompline = dayCompline;
-      }
-      correctionCompline = correctionCompline?.copyWith(
-        celebrationType: complineDefinition.celebrationType,
-      );
-      break;
-    case 'normal':
-      // Use the day of the week for Ordinary Time
-      switch (complineDefinition.liturgicalTime.toLowerCase()) {
-        case 'ot':
-          return dayCompline;
-        case 'lent':
-          correctionCompline = lentTimeCompline[day];
-          break;
-        case 'paschal':
-          correctionCompline = paschalTimeCompline[day];
-          break;
-        case 'advent':
-          correctionCompline = adventTimeCompline[day];
-          break;
-        case 'christmas':
-          correctionCompline = christmasTimeCompline[day];
-          break;
-        default:
-          correctionCompline = dayCompline;
-      }
-      correctionCompline = correctionCompline?.copyWith(
-        celebrationType: complineDefinition.celebrationType,
-      );
-      break;
-    case 'solemnity':
-    case 'solemnityeve':
-      dayName = complineDefinition.celebrationType.toLowerCase() == 'solemnity'
-          ? 'sunday'
-          : 'saturday';
-      dayCompline = defaultCompline[dayName];
-      switch (complineDefinition.liturgicalTime) {
-        case 'ot':
-          correctionCompline = solemnityComplineOrdinaryTime[dayName];
-          break;
-        case 'lent':
-          correctionCompline = solemnityComplineLentTime[dayName];
-          break;
-        case 'paschal':
-          correctionCompline = solemnityComplinePaschalTime[dayName];
-          break;
-        case 'advent':
-        case 'christmas':
-          correctionCompline = solemnityComplineAdventChristmas[dayName];
-          break;
-        default:
-          correctionCompline = dayCompline;
-      }
-      correctionCompline = correctionCompline?.copyWith(
-        celebrationType: complineDefinition.celebrationType,
-      );
-      break;
-    default:
-      correctionCompline = dayCompline?.copyWith(
-        celebrationType: complineDefinition.celebrationType,
-      );
-  }
-  return dayCompline!.mergeWith(correctionCompline!);
-}
+// --- TEXT RESOLUTION LOGIC ---
 
-String eveStringReplacement(String complineDescription) {
-  return complineDescription.replaceAll(
-      'Complies de', 'Complies de la veille de');
+/// Maps a ComplineDefinition to the correct asset files.
+/// This logic is central to linking your detection to your text files.
+Compline? getComplineText(ComplineDefinition def) {
+  final String day = def.dayOfCompline; // 'sunday', 'monday', etc.
+  final String time = def.liturgicalTime.toLowerCase();
+
+  // Base default structure for fallback
+  final Compline base = defaultCompline[day] ?? defaultCompline['monday']!;
+
+  // Resolve the specific structure based on the celebration category
+  final Compline? correction = switch (def.celebrationType.toLowerCase()) {
+    // Triduum Special Cases
+    'holy_thursday' => lentTimeCompline['holy_thursday'],
+    'holy_friday' => lentTimeCompline['holy_friday'],
+    'holy_saturday' => lentTimeCompline['holy_saturday'],
+
+    // Solemnities and their Eves
+    'solemnity' || 'solemnityeve' => switch (time) {
+        'paschal' => solemnityComplinePaschalTime[day],
+        'lent' => solemnityComplineLentTime[day],
+        'advent' ||
+        'christmas' ||
+        'christmasoctave' =>
+          solemnityComplineAdventChristmas[day],
+        _ => solemnityComplineOrdinaryTime[day],
+      },
+
+    // Normal Days (Ferial) and Sundays
+    _ => switch (time) {
+        'paschal' => paschalTimeCompline[day],
+        'lent' => lentTimeCompline[day],
+        'advent' => adventTimeCompline[day],
+        'christmas' || 'christmasoctave' => christmasTimeCompline[day],
+        _ => base,
+      },
+  };
+
+  if (correction == null) return base;
+
+  // Merge the base structure with the specific liturgical corrections
+  // and ensure the celebrationType is preserved in the final object
+  return base.mergeWith(correction).copyWith(
+        celebrationType: def.celebrationType,
+      );
 }

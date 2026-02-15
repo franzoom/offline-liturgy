@@ -81,8 +81,12 @@ class Vespers {
 
     if (overlay.reading != null) reading = overlay.reading;
     if (overlay.responsory != null) responsory = overlay.responsory;
-    if (overlay.evangelicAntiphon != null)
-      evangelicAntiphon = overlay.evangelicAntiphon;
+    if (overlay.evangelicAntiphon != null) {
+      evangelicAntiphon = {
+        ...evangelicAntiphon ?? {},
+        ...overlay.evangelicAntiphon!,
+      };
+    }
     if (overlay.intercession != null) intercession = overlay.intercession;
     if (overlay.oration != null) oration = overlay.oration;
   }
@@ -93,8 +97,12 @@ class Vespers {
     if (common.hymn != null) hymn = common.hymn;
     if (common.reading != null) reading = common.reading;
     if (common.responsory != null) responsory = common.responsory;
-    if (common.evangelicAntiphon != null)
-      evangelicAntiphon = common.evangelicAntiphon;
+    if (common.evangelicAntiphon != null) {
+      evangelicAntiphon = {
+        ...evangelicAntiphon ?? {},
+        ...common.evangelicAntiphon!,
+      };
+    }
     if (common.intercession != null) intercession = common.intercession;
     if (common.oration != null) oration = common.oration;
   }

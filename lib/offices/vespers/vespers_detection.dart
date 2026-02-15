@@ -1,11 +1,13 @@
 import '../../classes/calendar_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
+import '../../tools/date_tools.dart';
 import '../office_detection.dart';
 
 /// Precedence threshold for First Vespers eligibility
-/// Celebrations with precedence <= this value can have First Vespers
-/// This includes: Solemnities (1-4), Feasts of the Lord (5)
+/// Celebrations with precedence <= 5 can have First Vespers
+/// (this includes: Solemnities (1-4), Feasts of the Lord (5) )
+/// Note: All Sundays also have First Vespers, handled separately
 const int _firstVespersPrecedenceThreshold = 5;
 
 /// Returns a map of possible Vespers Offices, sorted by precedence (lowest first)
@@ -25,26 +27,30 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   DataLoader dataLoader,
 ) async {
   // 1. Detect celebrations for today (these will be II Vespers)
-  final todayCelebrations = await detectCelebrations(calendar, date, dataLoader);
+  final todayCelebrations =
+      await detectCelebrations(calendar, date, dataLoader);
 
   // 2. Detect celebrations for tomorrow (potential I Vespers)
-  final tomorrow = date.add(const Duration(days: 1));
+  final tomorrow = date.shift(1);
   final tomorrowCelebrations =
       await detectCelebrations(calendar, tomorrow, dataLoader);
 
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
+  // All Sundays have First Vespers, plus high-precedence celebrations
   final firstVespersCandidates = tomorrowCelebrations
-      .where((c) => (c.precedence ?? 13) <= _firstVespersPrecedenceThreshold)
+      .where((c) =>
+          tomorrow.isSunday ||
+          (c.precedence ?? 13) <= _firstVespersPrecedenceThreshold)
       .toList();
 
   // 4. Build the result map
   final Map<String, CelebrationContext> possibleVespers = {};
 
   // Check if there's a high priority celebration today or tomorrow (for isCelebrable logic)
-  final bool hasHighPriorityToday =
-      todayCelebrations.any((c) => (c.precedence ?? 13) >= 1 && (c.precedence ?? 13) <= 6);
-  final bool hasHighPriorityTomorrow =
-      firstVespersCandidates.any((c) => (c.precedence ?? 13) >= 1 && (c.precedence ?? 13) <= 6);
+  final bool hasHighPriorityToday = todayCelebrations
+      .any((c) => (c.precedence ?? 13) >= 1 && (c.precedence ?? 13) <= 6);
+  final bool hasHighPriorityTomorrow = firstVespersCandidates
+      .any((c) => (c.precedence ?? 13) >= 1 && (c.precedence ?? 13) <= 6);
 
   // Add today's celebrations (II Vespers)
   for (final c in todayCelebrations) {
@@ -70,12 +76,14 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // Add tomorrow's high-precedence celebrations (I Vespers)
   for (final c in firstVespersCandidates) {
     // Create a distinct key for First Vespers
-    final firstVespersKey = 'I Vêpres: ${c.celebrationTitle ?? c.celebrationCode}';
+    final firstVespersKey =
+        'I Vêpres: ${c.celebrationTitle ?? c.celebrationCode}';
 
-    // First Vespers are celebrable if they have high precedence
-    // and no higher-precedence II Vespers today
+    // First Vespers are celebrable if:
+    // - tomorrow is Sunday (all Sundays always have celebrable First Vespers)
+    // - or they have higher precedence than today's celebrations
     bool isCelebrable = true;
-    if (hasHighPriorityToday) {
+    if (!tomorrow.isSunday && hasHighPriorityToday) {
       final highestTodayPrecedence = todayCelebrations
           .map((tc) => tc.precedence ?? 13)
           .reduce((a, b) => a < b ? a : b);
@@ -92,9 +100,18 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     );
   }
 
-  // Sort by precedence (convert map to sorted entries, then back to map)
+  // Sort: Sunday First Vespers come first, then by precedence (lowest first)
   final sortedEntries = possibleVespers.entries.toList()
-    ..sort((a, b) => (a.value.precedence ?? 13).compareTo(b.value.precedence ?? 13));
+    ..sort((a, b) {
+      final aIsSundayFirstVespers =
+          a.value.celebrationType == 'vespers1' && tomorrow.isSunday;
+      final bIsSundayFirstVespers =
+          b.value.celebrationType == 'vespers1' && tomorrow.isSunday;
+      if (aIsSundayFirstVespers != bIsSundayFirstVespers) {
+        return aIsSundayFirstVespers ? -1 : 1;
+      }
+      return (a.value.precedence ?? 13).compareTo(b.value.precedence ?? 13);
+    });
 
   final sortedVespers = Map.fromEntries(sortedEntries);
 

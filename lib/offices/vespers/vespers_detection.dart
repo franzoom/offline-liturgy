@@ -32,6 +32,21 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final todayCelebrations =
       await detectCelebrations(calendar, date, dataLoader);
 
+  // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
+  final isHolyWeek =
+      todayCelebrations.any((c) => holyWeekCodes.contains(c.celebrationCode));
+  if (isHolyWeek) {
+    final c = todayCelebrations
+        .firstWhere((c) => holyWeekCodes.contains(c.celebrationCode));
+    final Map<String, CelebrationContext> result = {};
+    result[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
+      celebrationType: 'vespers2',
+      isCelebrable: true,
+      officeDescription: c.celebrationGlobalName,
+    );
+    return result;
+  }
+
   // 2. Detect celebrations for tomorrow (potential I Vespers)
   final tomorrow = date.shift(1);
   final tomorrowCelebrations =

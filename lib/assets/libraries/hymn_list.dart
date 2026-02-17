@@ -115,7 +115,7 @@ const Map<String, List<String>> tierceHymnList = {
 };
 
 const Map<String, List<String>> sexteHymnList = {
-  "ordinary": ["lejour-est-dans-tout-son-eclat", "evangile-de-dieu"],
+  "ordinary": ["le-jour-est-dans-tout-son-eclat", "evangile-de-dieu"],
   "lent": [
     "comme-le-feu-calcine",
   ],

@@ -4,6 +4,9 @@ import 'office_elements_class.dart';
 class MiddleOfDay {
   Celebration? celebration;
   List<PsalmEntry>? psalmody;
+  List<HymnEntry>? hymnTierce;
+  List<HymnEntry>? hymnSexte;
+  List<HymnEntry>? hymnNone;
   HourOffice? tierce;
   HourOffice? sexte;
   HourOffice? none;
@@ -12,6 +15,9 @@ class MiddleOfDay {
   MiddleOfDay({
     this.celebration,
     this.psalmody,
+    this.hymnTierce,
+    this.hymnSexte,
+    this.hymnNone,
     this.tierce,
     this.sexte,
     this.none,
@@ -67,6 +73,9 @@ class MiddleOfDay {
       }
     }
 
+    if (overlay.hymnTierce != null) hymnTierce = overlay.hymnTierce;
+    if (overlay.hymnSexte != null) hymnSexte = overlay.hymnSexte;
+    if (overlay.hymnNone != null) hymnNone = overlay.hymnNone;
     if (overlay.tierce != null) tierce = overlay.tierce;
     if (overlay.sexte != null) sexte = overlay.sexte;
     if (overlay.none != null) none = overlay.none;
@@ -84,6 +93,9 @@ class MiddleOfDay {
   bool get isEmpty =>
       celebration == null &&
       psalmody == null &&
+      hymnTierce == null &&
+      hymnSexte == null &&
+      hymnNone == null &&
       tierce == null &&
       sexte == null &&
       none == null &&

@@ -31,3 +31,33 @@ List<HymnEntry> getHymnsForSeason(String seasonKey) {
   // On mappe vers la classe HymnEntry
   return codes.map((e) => HymnEntry(code: e)).toList();
 }
+
+/// Returns the hymn season key for middle of day offices.
+/// Ordinary time, advent and christmas all use "ordinary".
+/// Lent uses "lent", Easter uses "easter".
+String _middleOfDayHymnSeason(String liturgicalTime) {
+  if (liturgicalTime == 'lent') return 'lent';
+  if (liturgicalTime == 'easter') return 'easter';
+  return 'ordinary';
+}
+
+List<HymnEntry> getTierceHymns(String liturgicalTime) {
+  final key = _middleOfDayHymnSeason(liturgicalTime);
+  final List<String> codes =
+      List<String>.from(tierceHymnList[key] ?? tierceHymnList['ordinary'] ?? []);
+  return codes.map((e) => HymnEntry(code: e)).toList();
+}
+
+List<HymnEntry> getSexteHymns(String liturgicalTime) {
+  final key = _middleOfDayHymnSeason(liturgicalTime);
+  final List<String> codes =
+      List<String>.from(sexteHymnList[key] ?? sexteHymnList['ordinary'] ?? []);
+  return codes.map((e) => HymnEntry(code: e)).toList();
+}
+
+List<HymnEntry> getNoneHymns(String liturgicalTime) {
+  final key = _middleOfDayHymnSeason(liturgicalTime);
+  final List<String> codes =
+      List<String>.from(noneHymnList[key] ?? noneHymnList['ordinary'] ?? []);
+  return codes.map((e) => HymnEntry(code: e)).toList();
+}

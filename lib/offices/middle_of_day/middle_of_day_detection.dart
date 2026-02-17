@@ -1,40 +1,49 @@
 import '../../classes/calendar_class.dart';
-import '../../classes/middle_of_day_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
+import '../../tools/date_tools.dart';
 import '../office_detection.dart';
 
-/// Returns a map of possible Middle of Day Offices, sorted by precedence (lowest first)
-/// Key: celebration title from YAML (or resolved ferial name)
-/// Value: MiddleOfDayDefinition with all celebration data
+/// Returns a map of possible Middle of Day Offices for a given date.
 ///
-/// This is a wrapper around detectCelebrations that converts
-/// DetectedCelebration to MiddleOfDayDefinition
-Future<Map<String, MiddleOfDayDefinition>> middleOfDayDetection(
+/// For the Middle of Day office, the ferial office is always used,
+/// UNLESS the celebration is a feast or solemnity (precedence <= 6),
+/// in which case that celebration's office is used instead.
+Future<Map<String, CelebrationContext>> middleOfDayDetection(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
 ) async {
-  // Use the common detection function
   final celebrations = await detectCelebrations(calendar, date, dataLoader);
 
-  // Convert to MiddleOfDayDefinition map
-  final Map<String, MiddleOfDayDefinition> possibleMiddleOfDays = {};
+  if (celebrations.isEmpty) return {};
 
-  for (final c in celebrations) {
-    possibleMiddleOfDays[c.celebrationTitle ?? c.celebrationCode] = MiddleOfDayDefinition(
-      middleOfDayDescription: c.celebrationGlobalName ?? c.celebrationCode,
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode ?? '',
-      commonList: c.commonList,
-      liturgicalTime: c.liturgicalTime,
-      breviaryWeek: c.breviaryWeek,
-      precedence: c.precedence ?? 13,
-      liturgicalColor: c.liturgicalColor ?? 'green',
-      isCelebrable: c.isCelebrable,
+  // Check if there is a feast or solemnity (precedence <= 6)
+  final hasFeastOrSolemnity =
+      celebrations.any((c) => (c.precedence ?? 13) <= 6);
+
+  final Map<String, CelebrationContext> possibleMiddleOfDays = {};
+
+  if (hasFeastOrSolemnity) {
+    // Use the feast/solemnity celebration (highest priority, i.e. lowest precedence)
+    final c = celebrations.where((c) => (c.precedence ?? 13) <= 6).first;
+    possibleMiddleOfDays[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
+      celebrationType: 'middleOfDay',
+      officeDescription: c.celebrationGlobalName,
+    );
+  } else {
+    // Use the ferial office
+    final c = celebrations.firstWhere(
+      (c) => ferialDayCheck(c.celebrationCode),
+      orElse: () => celebrations.first,
+    );
+    possibleMiddleOfDays[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
+      celebrationType: 'middleOfDay',
+      officeDescription: c.celebrationGlobalName,
     );
   }
 
   print(
-      '+-+-+-+-+-+-+-+-+-+ MIDDLE OF DAY DETECTION V2 - Possible Offices: $possibleMiddleOfDays');
+      '+-+-+-+-+-+-+-+-+-+ MIDDLE OF DAY DETECTION - Possible Offices: $possibleMiddleOfDays');
   return possibleMiddleOfDays;
 }

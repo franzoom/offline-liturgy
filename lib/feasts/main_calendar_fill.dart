@@ -122,7 +122,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmas Feriale before Epiphany',
+      liturgicalTime: 'beforeEpiphany',
       defaultCelebrationTitle:
           'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
       precedence: 13,

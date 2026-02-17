@@ -1,8 +1,10 @@
+import '../classes/middle_of_day_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/readings_class.dart';
 import '../classes/vespers_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/constants.dart';
+import '../offices/middle_of_day/middle_of_day_extract.dart';
 import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
 import '../offices/vespers/vespers_extract.dart';
@@ -74,6 +76,22 @@ Future<Vespers> loadVespersHierarchicalCommon(
   for (String level
       in _buildCommonHierarchy(common, context.liturgicalTime)) {
     Vespers levelData = await vespersExtract(
+        '$commonsFilePath/$level.yaml', context.dataLoader);
+    result.overlayWith(levelData);
+  }
+  return result;
+}
+
+/// Loads a common with hierarchical inheritance for MiddleOfDay.
+/// Each more specific level overrides data from more general levels.
+Future<MiddleOfDay> loadMiddleOfDayHierarchicalCommon(
+    CelebrationContext context) async {
+  final common = context.selectedCommon;
+  if (common == null) return MiddleOfDay();
+  MiddleOfDay result = MiddleOfDay();
+  for (String level
+      in _buildCommonHierarchy(common, context.liturgicalTime)) {
+    MiddleOfDay levelData = await middleOfDayExtract(
         '$commonsFilePath/$level.yaml', context.dataLoader);
     result.overlayWith(levelData);
   }

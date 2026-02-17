@@ -102,3 +102,30 @@ const Map<String, List<String>> hymnList = {
     "veni-creator-spiritus"
   ]
 };
+
+const Map<String, List<String>> tierceHymnList = {
+  "ordinary": [
+    "voici-le-temps-esprit-tres-saint",
+    "flamme-jaillie-d-aupres-de-dieu"
+  ],
+  "lent": [
+    "ami-des-hommes",
+  ],
+  "easter": ["dieu-qui-fais-toutes-choses-nouvelles"]
+};
+
+const Map<String, List<String>> sexteHymnList = {
+  "ordinary": ["lejour-est-dans-tout-son-eclat", "evangile-de-dieu"],
+  "lent": [
+    "comme-le-feu-calcine",
+  ],
+  "easter": ["le-fils-de-dieu-les-bras-ouverts"]
+};
+
+const Map<String, List<String>> noneHymnList = {
+  "ordinary": ["berger-puissant", "o-toi-qui-es-sans-changement"],
+  "lent": [
+    "o-toi-qui-est-sans-changement",
+  ],
+  "easter": ["o-seul-maitre-des-temps"]
+};

@@ -1,23 +1,41 @@
 import '../../classes/middle_of_day_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
+import '../../tools/hymns_management.dart';
 import './middle_of_day_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves middle of day prayer content for ferial days.
+/// Assigns hymns for tierce, sexte and none based on liturgical time.
 Future<MiddleOfDay> ferialMiddleOfDayResolution(
     CelebrationContext context) async {
   final code = context.ferialCode ?? context.celebrationCode;
+  final liturgicalTime = context.liturgicalTime ?? '';
 
-  if (code.startsWith('ot')) return _resolveOrdinaryTime(context);
-  if (code.startsWith('advent')) return _resolveAdvent(context);
-  if (code.startsWith('christmas')) return _resolveChristmas(context);
-  if (code.startsWith('lent')) return _resolveLent(context);
-  if (code.startsWith('easter')) return _resolveEaster(context);
+  MiddleOfDay result;
 
-  // Fallback for codes not matching standard seasons
-  return await middleOfDayExtract(
-      '$ferialFilePath/$code.yaml', context.dataLoader);
+  if (code.startsWith('ot')) {
+    result = await _resolveOrdinaryTime(context);
+  } else if (code.startsWith('advent')) {
+    result = await _resolveAdvent(context);
+  } else if (code.startsWith('christmas')) {
+    result = await _resolveChristmas(context);
+  } else if (code.startsWith('lent')) {
+    result = await _resolveLent(context);
+  } else if (code.startsWith('easter')) {
+    result = await _resolveEaster(context);
+  } else {
+    // Fallback for codes not matching standard seasons
+    result = await middleOfDayExtract(
+        '$ferialFilePath/$code.yaml', context.dataLoader);
+  }
+
+  // Assign hymns for each hour based on liturgical time
+  result.hymnTierce = getTierceHymns(liturgicalTime);
+  result.hymnSexte = getSexteHymns(liturgicalTime);
+  result.hymnNone = getNoneHymns(liturgicalTime);
+
+  return result;
 }
 
 // --- ORDINARY TIME ---

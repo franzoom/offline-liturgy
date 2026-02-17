@@ -53,9 +53,14 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 4. HYDRATION: Resolve full texts
+  // 4. HYDRATION: Resolve full texts (psalmody + hymns for each hour)
   await resolveOfficeContent(
     psalmody: middleOfDayOffice.psalmody,
+    hymns: [
+      ...?middleOfDayOffice.hymnTierce,
+      ...?middleOfDayOffice.hymnSexte,
+      ...?middleOfDayOffice.hymnNone,
+    ],
     dataLoader: celebrationContext.dataLoader,
   );
 

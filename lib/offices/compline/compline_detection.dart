@@ -106,8 +106,11 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       : rawTodayCelebrations;
 
   // 3. Process today's celebrations
+  // Only solemnities and ferial days produce distinct complines;
+  // memorials and feasts use the same compline as the ferial day
   for (final c in todayCelebrations) {
     final int precedence = c.precedence ?? 13;
+    if (!ferialDayCheck(c.celebrationCode) && precedence > 4) continue;
     final celebrationType =
         _detectCelebrationType(precedence, c.celebrationCode);
     final dayOfCompline = _detectDayOfWeek(date, celebrationType);
@@ -135,6 +138,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
   // 4. Process tomorrow's celebrations for eve Complines
   // No eve compline when tomorrow is a Holy Week Triduum day
+  // No eve compline for ferial days (even high-precedence ones like Ash Wednesday)
   final bool tomorrowIsHolyWeek = tomorrowCelebrations
       .any((c) => holyWeekCodes.contains(c.celebrationCode));
   final bool isTomorrowSunday = tomorrow.weekday == DateTime.sunday;
@@ -142,6 +146,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
   for (final c in tomorrowCelebrations) {
     if (tomorrowIsHolyWeek) break;
+    if (ferialDayCheck(c.celebrationCode)) continue;
     final int precedence = c.precedence ?? 13;
     final bool isTomorrowSolemnity = precedence <= 4;
     final bool needsEveCompline = isTomorrowSolemnity || isTomorrowSunday;

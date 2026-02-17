@@ -54,11 +54,13 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
   // All Sundays have First Vespers, plus high-precedence celebrations
+  // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
   final firstVespersCandidates = tomorrowCelebrations
       .where((c) =>
-          tomorrow.isSunday ||
-          (c.precedence ?? _defaultPrecedence) <=
-              _firstVespersPrecedenceThreshold)
+          !ferialDayCheck(c.celebrationCode) &&
+          (tomorrow.isSunday ||
+              (c.precedence ?? _defaultPrecedence) <=
+                  _firstVespersPrecedenceThreshold))
       .toList();
 
   // 4. Build the result map
@@ -125,7 +127,14 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     );
   }
 
-  // 5. Sort: Sunday First Vespers come first, then by precedence (lowest value first)
+  // 5. Sort: Sunday First Vespers come first, then by effective precedence
+  // Ferial days (precedence 13) rank before optional memorials (precedence 12)
+  double effectivePrecedence(CelebrationContext c) {
+    final p = c.precedence ?? _defaultPrecedence;
+    if (p == 13 && ferialDayCheck(c.celebrationCode)) return 11.5;
+    return p.toDouble();
+  }
+
   final sortedEntries = possibleVespers.entries.toList()
     ..sort((a, b) {
       final aIsSundayFirstVespers =
@@ -136,8 +145,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       if (aIsSundayFirstVespers != bIsSundayFirstVespers) {
         return aIsSundayFirstVespers ? -1 : 1;
       }
-      return (a.value.precedence ?? _defaultPrecedence)
-          .compareTo(b.value.precedence ?? _defaultPrecedence);
+      return effectivePrecedence(a.value)
+          .compareTo(effectivePrecedence(b.value));
     });
 
   final sortedVespers = Map.fromEntries(sortedEntries);

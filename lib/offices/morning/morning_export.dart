@@ -59,7 +59,13 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     morningOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 4. HYDRATION: Resolve full texts
+  // 4. Prepend Gloria hymn at the first position
+  morningOffice.hymn = [
+    HymnEntry(code: 'gloire-a-dieu-paix-aux-hommes'),
+    ...?morningOffice.hymn,
+  ];
+
+  // 5. HYDRATION: Resolve full texts
   await resolveOfficeContent(
     psalmody: morningOffice.psalmody,
     invitatory: morningOffice.invitatory,
@@ -67,7 +73,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     dataLoader: celebrationContext.dataLoader,
   );
 
-  // 5. Filter evangelicAntiphon: keep only default + current year
+  // 6. Filter evangelicAntiphon: keep only default + current year
   final antiphonMap = morningOffice.evangelicAntiphon;
   if (antiphonMap != null) {
     final year = liturgicalYear(celebrationContext.date.year);

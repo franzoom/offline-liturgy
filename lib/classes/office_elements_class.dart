@@ -195,12 +195,12 @@ class PatristicReading {
 
 /// Midday office structure (Tierce, Sexte, None)
 class HourOffice {
-  final String? antiphon;
-  final Reading? reading;
-  final String? responsory;
-  final String? oration;
+  String? antiphon;
+  Reading? reading;
+  String? responsory;
+  String? oration;
 
-  const HourOffice({this.antiphon, this.reading, this.responsory, this.oration});
+  HourOffice({this.antiphon, this.reading, this.responsory, this.oration});
 
   factory HourOffice.fromJson(Map<String, dynamic> json) {
     return HourOffice(

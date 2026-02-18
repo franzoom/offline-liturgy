@@ -6,6 +6,7 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/paschal_antiphon.dart';
 
 /// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
 /// 1. Ferial base
@@ -69,6 +70,25 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
         'antiphon': antiphonMap['antiphon']!,
       if (antiphonMap.containsKey(year)) year: antiphonMap[year]!,
     };
+  }
+
+  // Apply paschal alléluia to antiphons
+  final lt = celebrationContext.liturgicalTime ?? '';
+
+  if (vespersOffice.psalmody != null) {
+    for (final entry in vespersOffice.psalmody!) {
+      final antiphon = entry.antiphon;
+      if (antiphon != null) {
+        for (int i = 0; i < antiphon.length; i++) {
+          antiphon[i] = paschalAntiphon(antiphon[i], lt);
+        }
+      }
+    }
+  }
+
+  if (vespersOffice.evangelicAntiphon != null) {
+    vespersOffice.evangelicAntiphon = vespersOffice.evangelicAntiphon!
+        .map((k, v) => MapEntry(k, paschalAntiphon(v, lt)));
   }
 
   return vespersOffice;

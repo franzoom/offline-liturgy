@@ -125,7 +125,7 @@ const Map<String, List<String>> sexteHymnList = {
 const Map<String, List<String>> noneHymnList = {
   "ordinary": ["berger-puissant", "o-toi-qui-es-sans-changement"],
   "lent": [
-    "o-toi-qui-est-sans-changement",
+    "o-toi-qui-es-sans-changement",
   ],
   "easter": ["o-seul-maitre-des-temps"]
 };

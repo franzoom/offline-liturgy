@@ -54,7 +54,32 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 4. PREPEND LITURGICAL TIME ANTIPHON to each psalm's antiphon list
+  // 4. PROPAGATE ANTIPHON: If only the first psalm has an antiphon,
+  //    repeat it for the other psalms (before adding season antiphon).
+  if (middleOfDayOffice.psalmody != null &&
+      middleOfDayOffice.psalmody!.length > 1) {
+    final firstAntiphon = middleOfDayOffice.psalmody!.first.antiphon;
+    final othersHaveAntiphon = middleOfDayOffice.psalmody!
+        .skip(1)
+        .any((entry) => entry.antiphon != null && entry.antiphon!.isNotEmpty);
+
+    if (firstAntiphon != null &&
+        firstAntiphon.isNotEmpty &&
+        !othersHaveAntiphon) {
+      middleOfDayOffice.psalmody = middleOfDayOffice.psalmody!.map((entry) {
+        if (entry.antiphon == null || entry.antiphon!.isEmpty) {
+          return PsalmEntry(
+            psalm: entry.psalm,
+            antiphon: List.from(firstAntiphon),
+            psalmData: entry.psalmData,
+          );
+        }
+        return entry;
+      }).toList();
+    }
+  }
+
+  // 5. PREPEND LITURGICAL TIME ANTIPHON to each psalm's antiphon list
   final seasonAntiphon = _getSeasonAntiphon(celebrationContext);
   if (seasonAntiphon != null && middleOfDayOffice.psalmody != null) {
     middleOfDayOffice.psalmody = middleOfDayOffice.psalmody!.map((entry) {
@@ -66,7 +91,7 @@ Future<MiddleOfDay> middleOfDayExport(
     }).toList();
   }
 
-  // 5. HYDRATION: Resolve full texts (psalmody + hymns for each hour)
+  // 6. HYDRATION: Resolve full texts (psalmody + hymns for each hour)
   await resolveOfficeContent(
     psalmody: middleOfDayOffice.psalmody,
     hymns: [

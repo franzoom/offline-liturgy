@@ -46,6 +46,12 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // STEP 4: Apply Proper data (Highest priority)
   vespersOffice.overlayWith(properVespers);
 
+  // Prepend Lucernaire hymn at the first position
+  vespersOffice.hymn = [
+    HymnEntry(code: 'joie-et-lumiere'),
+    ...?vespersOffice.hymn,
+  ];
+
   // Hydrate psalm and hymn content
   await resolveOfficeContent(
     psalmody: vespersOffice.psalmody,

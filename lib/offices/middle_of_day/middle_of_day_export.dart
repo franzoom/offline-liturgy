@@ -6,6 +6,7 @@ import './middle_of_day_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
+import '../../tools/paschal_antiphon.dart';
 
 /// Resolves the Middle of Day Prayer (Tierce, Sexte, None).
 /// Priority logic: Proper > Common > Ferial base.
@@ -101,6 +102,30 @@ Future<MiddleOfDay> middleOfDayExport(
     ],
     dataLoader: celebrationContext.dataLoader,
   );
+
+  // 7. Apply paschal alléluia to psalm antiphons and responsories
+  final lt = celebrationContext.liturgicalTime ?? '';
+
+  if (middleOfDayOffice.psalmody != null) {
+    for (final entry in middleOfDayOffice.psalmody!) {
+      final antiphon = entry.antiphon;
+      if (antiphon != null) {
+        for (int i = 0; i < antiphon.length; i++) {
+          antiphon[i] = paschalAntiphon(antiphon[i], lt);
+        }
+      }
+    }
+  }
+
+  for (final hour in [
+    middleOfDayOffice.tierce,
+    middleOfDayOffice.sexte,
+    middleOfDayOffice.none,
+  ]) {
+    if (hour?.responsory != null) {
+      hour!.responsory = paschalAntiphon(hour.responsory!, lt);
+    }
+  }
 
   return middleOfDayOffice;
 }

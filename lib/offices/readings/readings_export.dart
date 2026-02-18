@@ -6,6 +6,7 @@ import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
+import '../../tools/paschal_antiphon.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
@@ -53,6 +54,20 @@ Future<Readings> readingsExport(CelebrationContext context) async {
     hymns: readingsOffice.hymn,
     dataLoader: context.dataLoader,
   );
+
+  // Apply paschal alléluia to psalm antiphons
+  final lt = context.liturgicalTime ?? '';
+
+  if (readingsOffice.psalmody != null) {
+    for (final entry in readingsOffice.psalmody!) {
+      final antiphon = entry.antiphon;
+      if (antiphon != null) {
+        for (int i = 0; i < antiphon.length; i++) {
+          antiphon[i] = paschalAntiphon(antiphon[i], lt);
+        }
+      }
+    }
+  }
 
   return readingsOffice;
 }

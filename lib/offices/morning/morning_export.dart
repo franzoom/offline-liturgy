@@ -6,6 +6,7 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/paschal_antiphon.dart';
 
 /// Resolves the Morning Prayer (Lauds).
 /// Priority logic: Proper > Common > Ferial base.
@@ -82,6 +83,32 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
         'antiphon': antiphonMap['antiphon']!,
       if (antiphonMap.containsKey(year)) year: antiphonMap[year]!,
     };
+  }
+
+  // 7. Apply paschal alléluia to antiphons
+  final lt = celebrationContext.liturgicalTime ?? '';
+
+  final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
+  if (invitatoryAntiphon != null) {
+    for (int i = 0; i < invitatoryAntiphon.length; i++) {
+      invitatoryAntiphon[i] = paschalAntiphon(invitatoryAntiphon[i], lt);
+    }
+  }
+
+  if (morningOffice.psalmody != null) {
+    for (final entry in morningOffice.psalmody!) {
+      final antiphon = entry.antiphon;
+      if (antiphon != null) {
+        for (int i = 0; i < antiphon.length; i++) {
+          antiphon[i] = paschalAntiphon(antiphon[i], lt);
+        }
+      }
+    }
+  }
+
+  if (morningOffice.evangelicAntiphon != null) {
+    morningOffice.evangelicAntiphon = morningOffice.evangelicAntiphon!
+        .map((k, v) => MapEntry(k, paschalAntiphon(v, lt)));
   }
 
   return morningOffice;

@@ -6,7 +6,7 @@ const Map<String, String> middleOfDayAntiphons = {
   "after_epiphany":
       "Le mystère caché depuis toujours est maintenant manifesté.",
   "lent":
-      "Dans la puissance de Dieue et les armes de la jsutice, nous puiserons notre constance.",
+      "Dans la puissance de Dieu et les armes de la justice, nous puiserons notre constance.",
   "passion":
       "Pour moi, vivre, c’est le Christ, et mourir est un gain : j’ai mis ma fierté dans la Croix du Seigneur.",
   "easter": "Alléluia, alléluia, alléluia."

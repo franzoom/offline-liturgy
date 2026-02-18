@@ -100,7 +100,33 @@ middleOfDay:
       antiphon:
         - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
     - psalm: PSALM_25
+      antiphon:
+        - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
     - psalm: PSALM_27
+      antiphon:
+        - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
+  tierce:
+    reading:
+      biblicalReference: Is 53, 2-3
+      content: "Devant Dieu, le serviteur a poussé comme une plante chétive, enracinée dans une terre aride. Il n’était ni beau ni brillant pour attirer nos regards, son extérieur n’avait rien pour nous plaire. Il était méprisé, abandonné de tous, homme de douleurs, familier de la souffrance, semblable au lépreux dont on se détourne ; et nous l’avons méprisé, compté pour rien."
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Is 53, 4-5
+      content: "C’était nos souffrances qu’il portait, nos douleurs dont il était chargé. Et nous, nous pensions qu’il était châtié, frappé par Dieu, humilié. Or, c’est à cause de nos fautes qu’il a été transpercé, c’est par nos péchés qu’il a été broyé. Le châtiment qui nous obtient la paix est tombé sur lui, et c’est par ses blessures que nous sommes guéris."
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: Is 53, 6-7
+      content: |-
+        Nous étions tous errants comme des brebis, chacun suivait son propre chemin. Mais le Seigneur a fait retomber sur lui nos fautes à nous tous. Maltraité, il s’humilie, il n’ouvre pas la bouche : comme un agneau conduit à l’abattoir, comme une brebis muette devant les tondeurs, il n’ouvre pas la bouche.
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_40

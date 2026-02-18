@@ -119,8 +119,35 @@ middleOfDay:
       antiphon:
         - Oh si tu déchirais les cieux et si tu descendais !
     - psalm: PSALM_52
+      antiphon:
+        - Oh si tu déchirais les cieux et si tu descendais !
     - psalm: PSALM_53
+      antiphon:
+        - Oh si tu déchirais les cieux et si tu descendais !
 
+  tierce:
+    reading:
+      biblicalReference: Is 45, 13
+      content: "C’est moi qui, selon la justice, ai fait surgir cet homme et j’aplanirai tous ses chemins. C’est lui qui rebâtira ma ville ; et il renverra mes déportés, sans qu’il leur en coûte ni paiement, ni commission, dit le Seigneur, le Tout-Puissant."
+    responsory: |-
+      V/ Il est apparu sur la terre,
+      il a vécu parmi les hommes.
+  sexte:
+    reading:
+      biblicalReference: Is 48, 20b
+      content: |-
+        D’une voix retentissante annoncez-le, faites-le entendre, ébruitez-le jusqu’à l’extrémité de la terre, dites : Le Seigneur a racheté son serviteur Jacob.
+    responsory: |-
+      V/ Les nations verront ta justice,
+      tous les rois verront ta gloire.
+  none:
+    reading:
+      biblicalReference: Is 65, 1
+      content: |-
+        Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : « Me voici, me voici » à une nation qui n’invoquait pas mon nom.
+    responsory: |-
+      V/ Peuples, bénissez notre Dieu.
+      Faites retentir sa louange.
 vespers:
   psalmody:
     - psalm: PSALM_48_1

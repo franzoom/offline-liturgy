@@ -109,8 +109,25 @@ middleOfDay:
       antiphon:
         - Alléluia, alléluia, alléluia !
     - psalm: PSALM_117_2
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
     - psalm: PSALM_117_3
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
 
+  tierce:
+    reading:
+      biblicalReference: 1 Co 15, 3b-5
+      content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
+  sexte:
+    reading:
+      biblicalReference: Ep 2, 4-6a
+      content: |-
+        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
+  none:
+    reading:
+      biblicalReference: Rm 6, 4
+      content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
 vespers:
   psalmody:
     - psalm: PSALM_109

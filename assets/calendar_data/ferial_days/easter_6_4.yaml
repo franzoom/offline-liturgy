@@ -117,8 +117,35 @@ middleOfDay:
       antiphon:
         - Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia.
     - psalm: PSALM_55
+      antiphon:
+        - "Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia."
     - psalm: PSALM_56
+      antiphon:
+        - "Jusqu’aux cieux, Seigneur, ta splendeur est chantée, alléluia."
 
+  tierce:
+    reading:
+      biblicalReference: Cf. Ap 1, 17c-18
+      content: |-
+        Je vis comme un fils d’homme qui me disait :" Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts."
+    responsory: |-
+      V/ Que votre cœur ne se trouble pas, alléluia,
+      car je vais au Père, alléluia.
+  sexte:
+    reading:
+      biblicalReference: He 8, 1b-3a
+      content: "C’est bien ce grand prêtre-là que nous avons, lui qui s’est assis à la droite de Dieu et qui règne avec lui dans les cieux, après avoir accompli le service du véritable Sanctuaire, et de la véritable Tente dressée par le Seigneur et non par un homme. Le grand prêtre a toujours été chargé d’offrir des dons et des sacrifices."
+    responsory: |-
+      V/ À ta droite se tient le Seigneur, alléluia.
+      Tu es Prêtre à jamais, alléluia.
+  none:
+    reading:
+      biblicalReference: Col 3, 1-2
+      content: |-
+        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
+    responsory: |-
+      V/ À ta droite se tient le Seigneur, alléluia.
+      Tu es Prêtre à jamais, alléluia.
 vespers:
   psalmody:
     - psalm: PSALM_71_1

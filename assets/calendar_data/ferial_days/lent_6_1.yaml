@@ -126,7 +126,33 @@ middleOfDay:
       antiphon:
         - Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père.
     - psalm: PSALM_39_1
+      antiphon:
+        - "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
     - psalm: PSALM_39_2
+      antiphon:
+        - "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
+  tierce:
+    reading:
+      biblicalReference: Ez 33, 11
+      content: "Nos révoltes et nos péchés sont sur nous, nous pourrissons à cause d’eux, comment pourrons-nous vivre ? - Par ma vie - oracle du Seigneur Dieu - est-ce que je prends plaisir à la mort du méchant ? Bien plutôt à ce que le méchant change de conduite et qu’il vive !"
+    responsory: |-
+      V/ Maltraité, il s’humilie,
+      il n’ouvre pas la bouche.
+  sexte:
+    reading:
+      biblicalReference: Jr 18, 20
+      content: "Comment peut-on rendre le mal pour le bien ? Mes adversaires ont creusé une fosse pour me perdre. Souviens-toi que je me suis tenu en ta présence pour te parler en leur faveur, pour détourner d’eux ta colère."
+    responsory: |-
+      V/ Ce sont nos souffrances qu’il a portées,
+      nos douleurs qu’il a supportées.
+  none:
+    reading:
+      biblicalReference: Jr 31, 2.3b-4a
+      content: |-
+        Ainsi parle le Seigneur : Il a trouvé grâce dans le désert, le peuple qui a échappé au massacre ; Israël est en route vers son repos. Je t’ai aimée d’un amour éternel, aussi je te garde ma bienveillance, je vais te rétablir, et tu seras relevée, vierge d’Israël.
+    responsory: |-
+      V/ Nous te célébrons, croix de Jésus Christ :
+      par toi nous est donnée la vie.
 vespers:
   psalmody:
     - psalm: PSALM_44_1

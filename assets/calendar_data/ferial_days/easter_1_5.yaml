@@ -112,6 +112,32 @@ middleOfDay:
     - psalm: PSALM_95_1
     - psalm: PSALM_95_2
 
+  tierce:
+    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
+    reading:
+      biblicalReference: Ac 2, 32.36
+      content: |-
+        Dieu a ressuscité Jésus ; nous tous, nous en sommes témoins. Que tout le peuple d’Israël en ait la certitude : ce même Jésus que vous avez crucifié, Dieu a fait de lui le Seigneur et le Christ.
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  sexte:
+    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
+    reading:
+      biblicalReference: Ga 3, 27-28
+      content: "Vous tous que le baptême a unis au Christ, vous avez revêtu le Christ ; il n’y a plus ni Juif ni païen, il n’y a plus ni esclave ni homme libre, il n’y a plus ni l’homme ni la femme, car tous, vous ne faites plus qu’un dans le Christ."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  none:
+    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
+    reading:
+      biblicalReference: 1 Co 5, 7-8
+      content: |-
+        Purifiez-vous des vieux ferments, et vous serez une pâte nouvelle, vous qui êtes comme le pain de la Pâque, celui qui n’a pas fermenté. Voici que le Christ, notre agneau pascal, a été immolé. Célébrons donc la Fête non pas avec de vieux ferments : la perversité et le vice ; mais avec du pain non fermenté : la droiture et la vérité.
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
 vespers:
   psalmody:
     - psalm: PSALM_109

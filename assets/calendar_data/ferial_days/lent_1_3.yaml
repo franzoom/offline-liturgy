@@ -109,7 +109,33 @@ middleOfDay:
       antiphon:
         - Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces.
     - psalm: PSALM_16_1
+      antiphon:
+        - "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
     - psalm: PSALM_16_2
+      antiphon:
+        - "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
+  tierce:
+    reading:
+      biblicalReference: Ez 18, 30b-32
+      content: "Revenez à moi, détournez-vous de vos péchés, et vous ne risquerez plus de tomber dans le mal. Rejetez tous vos péchés, faites-vous un cœur nouveau et un esprit nouveau. Pourquoi vouloir mourir, maison d’Israël ? Je ne prends plaisir à la mort de personne, déclare le Seigneur, convertissez-vous et vivez."
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Za 1, 3b-4b
+      content: |-
+        Revenez à moi et je reviendrai à vous, dit le Seigneur, le Tout-Puissant. N’imitez pas vos pères, eux que les prophètes de jadis ont interpellés en ces termes : « Revenez donc, renoncez à vos chemins mauvais et à votre conduite mauvaise ».
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: Dn 4, 24b
+      content: "Rachète tes péchés, par la justice, et tes fautes en ayant pitié des pauvres ! Peut-être Dieu te pardonnera-t-il ?"
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_26_1

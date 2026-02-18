@@ -105,7 +105,33 @@ middleOfDay:
       antiphon:
         - Recevons avec amour la parole qui peut nous sauver.
     - psalm: PSALM_7_1
+      antiphon:
+        - Recevons avec amour la parole qui peut nous sauver.
     - psalm: PSALM_7_2
+      antiphon:
+        - Recevons avec amour la parole qui peut nous sauver.
+  tierce:
+    reading:
+      biblicalReference: Ez 33, 11
+      content: "Nos révoltes et nos péchés sont sur nous, nous pourrissons à cause d’eux, comment pourrons-nous vivre ? - Par ma vie - oracle du Seigneur Dieu - est-ce que je prends plaisir à la mort du méchant ? Bien plutôt à ce que le méchant change de conduite et qu’il vive !"
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Jr 18, 20
+      content: "Comment peut-on rendre le mal pour le bien ? Mes adversaires ont creusé une fosse pour me perdre. Souviens-toi que je me suis tenu en ta présence pour te parler en leur faveur, pour détourner d’eux ta colère."
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: Jr 31, 2.3b-4a
+      content: |-
+        Ainsi parle le Seigneur : Il a trouvé grâce dans le désert, le peuple qui a échappé au massacre ; Israël est en route vers son repos. Je t’ai aimée d’un amour éternel, aussi je te garde ma bienveillance, je vais te rétablir, et tu seras relevée, vierge d’Israël.
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_10

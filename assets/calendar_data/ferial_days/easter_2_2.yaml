@@ -98,8 +98,25 @@ middleOfDay:
       antiphon:
         - Alléluia, alléluia, alléluia !
     - psalm: PSALM_52
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
     - psalm: PSALM_53
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
 
+  tierce:
+    reading:
+      biblicalReference: Ac 4, 11-12
+      content: "Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver."
+  sexte:
+    reading:
+      biblicalReference: Cf. 1 P 3, 21-22a
+      content: "Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu."
+  none:
+    reading:
+      biblicalReference: Col 3, 1-2
+      content: |-
+        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
 vespers:
   psalmody:
     - psalm: PSALM_48_1

@@ -105,8 +105,35 @@ middleOfDay:
       antiphon:
         - Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père.
     - psalm: PSALM_55
+      antiphon:
+        - "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
     - psalm: PSALM_56
+      antiphon:
+        - "Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père."
 
+  tierce:
+    reading:
+      biblicalReference: He 4, 14-15
+      content: "En Jésus, le Fils de Dieu, nous avons le grand prêtre par excellence, celui qui a pénétré au-delà des cieux ; tenons donc ferme l’affirmation de notre foi. En effet, le grand prêtre que nous avons n’est pas incapable, lui, de partager nos faiblesses ; en toutes choses, il a connu l’épreuve comme nous, et il n’a pas péché."
+    responsory: |-
+      V/ Maltraité, il s’humilie,
+      il n’ouvre pas la bouche.
+  sexte:
+    reading:
+      biblicalReference: He 7, 26-27
+      content: |-
+        Jésus était bien le grand prêtre qu’il nous fallait : saint, sans tache, sans aucune faute ; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple ; cela, il l’a fait une fois pour toutes en s’offrant lui-même.
+    responsory: |-
+      V/ Ce sont nos souffrances qu’il a portées,
+      nos douleurs qu’il a supportées.
+  none:
+    reading:
+      biblicalReference: He 9, 11-12
+      content: |-
+        Le Christ est le grand prêtre du bonheur qui vient. Le temple de son corps est plus grand et plus parfait que celui de l’ancienne Alliance ; il n’a pas été construite par l’homme, et n’appartient donc pas à ce monde. C’est par ce temple qu’il est entré une fois pour toutes dans le sanctuaire du ciel en répandant, non pas le sang des animaux, mais son propre sang : il a obtenu ainsi une libération définitive.
+    responsory: |-
+      V/ Nous te célébrons, croix de Jésus Christ :
+      par toi nous est donnée la vie.
 vespers:
   psalmody:
     - psalm: PSALM_71_1

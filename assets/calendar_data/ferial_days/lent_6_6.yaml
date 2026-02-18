@@ -124,3 +124,29 @@ middleOfDay:
         - Ant. Je le crois, je verrai les bontés du Seigneur sur la terre des vivants. Ant. Seigneur, tu m’as fait remonter de l’abîme. Ant. Dieu a fixé sa tente à Jérusalem, et sa demeure à Sion. <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name="m_select_office"]').trigger('change');</script>
     - psalm: PSALM_60
     - psalm: PSALM_63
+
+  tierce:
+    antiphon: "Je le crois, je verrai les bontés du Seigneur sur la terre des vivants."
+    reading:
+      biblicalReference: 1 Jn 1, 8-9
+      content: "Si nous disons que nous n’avons pas de péché, nous nous égarons nous-mêmes et la vérité n’est pas en nous. Si nous reconnaissons nos péchés, lui qui est fidèle et juste nous pardonnera nos péchés et nous purifiera de tout ce qui nous oppose à lui."
+    responsory: |-
+      V/ Tu ne peux m’abandonner à la mort,
+      ni laisser ton ami voir la corruption.
+  sexte:
+    antiphon: "Seigneur, tu m’as fait remonter de l’abîme."
+    reading:
+      biblicalReference: 1 Jn 2, 1b-2
+      content: |-
+        Nous avons un défenseur devant le Père : Jésus Christ, le Juste. Il est la victime offerte pour nos péchés, et non seulement pour les nôtres, mais encore pour ceux du monde entier.
+    responsory: |-
+      V/ Le Seigneur fait mourir et vivre,
+      il fait descendre aux enfers, il en ramène.
+  none:
+    antiphon: "Dieu a fixé sa tente à Jérusalem, et sa demeure à Sion."
+    reading:
+      biblicalReference: 1 Jn 2, 8b-10
+      content: "Les ténèbres sont en train de disparaître, et déjà brille la vraie lumière. Celui qui déclare être dans la lumière et qui a de la haine contre son frère est encore maintenant dans les ténèbres. Celui qui aime son frère demeure dans la lumière, et il n’y a pour lui aucune occasion de chute."
+    responsory: |-
+      V/ La ténèbre pour toi n’est pas ténèbre,
+      et la nuit comme le jour est lumière.

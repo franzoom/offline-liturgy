@@ -103,8 +103,35 @@ middleOfDay:
       antiphon:
         - La loi viendra de Sion, et de Jérusalem, la parole du Seigneur.
     - psalm: PSALM_25
+      antiphon:
+        - "La loi viendra de Sion, et de Jérusalem, la parole du Seigneur."
     - psalm: PSALM_27
+      antiphon:
+        - "La loi viendra de Sion, et de Jérusalem, la parole du Seigneur."
 
+  tierce:
+    reading:
+      biblicalReference: Jr 29, 11.13
+      content: |-
+        Moi, je sais les projets que j’ai formés à votre sujet - oracle du Seigneur -, projets de prospérité et non de malheur : je vais vous donner un avenir et une espérance. Vous me rechercherez et vous me trouverez : vous me chercherez du fond de vous-mêmes.
+    responsory: |-
+      V/ Les nations craindront le nom du Seigneur,
+      et tous les rois de la terre, sa gloire.
+  sexte:
+    reading:
+      biblicalReference: Jr 30, 18a
+      content: |-
+        Ainsi parle le Seigneur : Voici que je vais ramener de captivité les tentes de Jacob, je prendrai en pitié ses demeures.
+    responsory: |-
+      V/ Le Seigneur apparaîtra dans sa gloire :
+      le peuple nouveau chantera son Dieu.
+  none:
+    reading:
+      biblicalReference: Ba 3, 5-6a
+      content: "Ne te souviens pas des fautes de nos pères mais, en cette heure, souviens-toi de ta main et de ton Nom. Oui, c’est toi le Seigneur notre Dieu."
+    responsory: |-
+      V/ Viens, Seigneur, ne tarde pas.
+      Remets à ton peuple ses péchés.
 vespers:
   psalmody:
     - psalm: PSALM_40

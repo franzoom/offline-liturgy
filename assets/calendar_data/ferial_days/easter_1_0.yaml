@@ -65,6 +65,31 @@ middleOfDay:
     - psalm: PSALM_18A
     - psalm: PSALM_18B
 
+  tierce:
+    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
+    reading:
+      biblicalReference: 1 Co 15, 3b-5
+      content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  sexte:
+    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
+    reading:
+      biblicalReference: Ep 2, 4-6a
+      content: |-
+        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  none:
+    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
+    reading:
+      biblicalReference: Rm 6, 4
+      content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
 vespers:
   psalmody:
     - psalm: PSALM_109

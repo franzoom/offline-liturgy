@@ -112,8 +112,34 @@ middleOfDay:
       antiphon:
         - Le Dieu de mon amour vient à moi.
     - psalm: PSALM_58
+      antiphon:
+        - Le Dieu de mon amour vient à moi.
     - psalm: PSALM_59
+      antiphon:
+        - Le Dieu de mon amour vient à moi.
 
+  tierce:
+    reading:
+      biblicalReference: Cf. Jr 31, 7-8
+      content: |-
+        Poussez des cris de joie pour Jacob ! Faites résonner vos louanges et criez tous : Seigneur, sauve ton peuple, le reste d’Israël ! Voici que je le fais revenir du pays du Nord, et que je les rassemble des extrémités du monde.
+    responsory: |-
+      V/ Il est apparu sur la terre,
+      il a vécu parmi les hommes.
+  sexte:
+    reading:
+      biblicalReference: Jr 31, 11-12
+      content: "Le Seigneur a racheté Jacob, il l’a délivré de la main d’un plus fort. Ils viendront, hurlant de joie au mont Sion, ils afflueront vers les biens du Seigneur."
+    responsory: |-
+      V/ Les nations verront ta justice,
+      tous les rois verront ta gloire.
+  none:
+    reading:
+      biblicalReference: Za 8,7-8
+      content: "Voici que je sauve mon peuple, en le ramenant du pays de l’orient et du pays de l’occident. Je les ferai venir pour qu’ils demeurent au milieu de Jérusalem. Ils seront mon peuple et je serai leur Dieu, dans la fidélité et dans la justice."
+    responsory: |-
+      V/ Peuples, bénissez notre Dieu.
+      Faites retentir sa louange.
 vespers:
   psalmody:
     - psalm: PSALM_114

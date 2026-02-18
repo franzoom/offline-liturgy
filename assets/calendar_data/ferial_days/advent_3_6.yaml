@@ -46,4 +46,31 @@ middleOfDay:
       antiphon:
         - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
     - psalm: PSALM_33_1
+      antiphon:
+        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
     - psalm: PSALM_33_2
+      antiphon:
+        - "Le salut vient de Dieu : c’est par grâce que nous sommes sauvés."
+
+  tierce:
+    reading:
+      biblicalReference: Is 4, 2
+      content: "En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terra sera leur fierté et leur couronne."
+    responsory: |-
+      V/ Les nations craindront le nom du Seigneur,
+      et tous les rois de la terre, sa gloire.
+  sexte:
+    reading:
+      biblicalReference: Is 4, 3
+      content: |-
+        Ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront.
+    responsory: |-
+      V/ Le Seigneur apparaîtra dans sa gloire :
+      le peuple nouveau chantera son Dieu.
+  none:
+    reading:
+      biblicalReference: Is 61, 11
+      content: "De même que la terre fait éclore ses germes, et qu’un jardin fait éclore ses semences, ainsi le Seigneur fera germer la justice et la louange devant toutes les nations."
+    responsory: |-
+      V/ Viens, Seigneur, ne tarde pas.
+      Remets à ton peuple ses péchés.

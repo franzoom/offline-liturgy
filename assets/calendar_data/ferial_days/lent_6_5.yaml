@@ -123,6 +123,31 @@ middleOfDay:
         - 'Ant. À la troisième heure, ils crucifièrent Jésus. Ant. À la sixième heure, il y eut des ténèbres sur toute la terre. Ant. À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ? <!-- Astuce pour forcer l''affichage seul de l''antienne de l''office sélectionné --> <script>$(''input[name="m_select_office"]'').trigger(''change'');</script>'
     - psalm: PSALM_58
     - psalm: PSALM_59
+  tierce:
+    antiphon: "À la troisième heure, ils crucifièrent Jésus."
+    reading:
+      biblicalReference: Is 53, 2-3
+      content: "Devant Dieu, le serviteur a poussé comme une plante chétive, enracinée dans une terre aride. Il n’était ni beau ni brillant pour attirer nos regards, son extérieur n’avait rien pour nous plaire. Il était méprisé, abandonné de tous, homme de douleurs, familier de la souffrance, semblable au lépreux dont on se détourne ; et nous l’avons méprisé, compté pour rien."
+    responsory: |-
+      V/ O Christ, nous t’adorons et nous te bénissons :
+      par ta croix, tu as racheté le monde.
+  sexte:
+    antiphon: "À la sixième heure, il y eut des ténèbres sur toute la terre."
+    reading:
+      biblicalReference: Is 53, 4-5
+      content: "C’était nos souffrances qu’il portait, nos douleurs dont il était chargé. Et nous, nous pensions qu’il était châtié, frappé par Dieu, humilié. Or, c’est à cause de nos fautes qu’il a été transpercé, c’est par nos péchés qu’il a été broyé. Le châtiment qui nous obtient la paix est tombé sur lui, et c’est par ses blessures que nous sommes guéris."
+    responsory: |-
+      V/ Jésus, souviens-toi de moi
+      quand tu viendras dans ton Royaume.
+  none:
+    antiphon: "À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ?"
+    reading:
+      biblicalReference: Is 53, 6-7
+      content: |-
+        Nous étions tous errants comme des brebis, chacun suivait son propre chemin. Mais le Seigneur a fait retomber sur lui nos fautes à nous tous. Maltraité, il s’humilie, il n’ouvre pas la bouche : comme un agneau conduit à l’abattoir, comme une brebis muette devant les tondeurs, il n’ouvre pas la bouche.
+    responsory: |-
+      V/ Il me fait habiter les ténèbres,
+      avec les morts de jadis.
 vespers:
   psalmody:
     - psalm: PSALM_114

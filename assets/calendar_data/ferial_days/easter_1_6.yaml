@@ -120,6 +120,30 @@ middleOfDay:
     - psalm: PSALM_33_1
     - psalm: PSALM_33_2
 
+  tierce:
+    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
+    reading:
+      biblicalReference: Rm 5, 10-11
+      content: "Si Dieu nous a réconciliés avec lui par la mort de son Fils, quand nous étions encore ses ennemis, à plus forte raison, maintenant que nous sommes réconciliés, nous serons sauvés par la vie du Christ ressuscité. Bien plus, nous mettons notre orgueil en Dieu, grâce à Jésus-Christ notre Seigneur, qui nous a réconciliés avec Dieu."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  sexte:
+    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
+    reading:
+      biblicalReference: 1 Co 15, 20-22
+      content: "Le Christ est ressuscité d’entre les morts, pour être parmi les morts le premier ressuscité. Car, la mort étant venue par un homme, c’est par homme aussi que vient la résurrection. En effet, c’est en Adam que meurent tous les hommes ; c’est dans le Christ que tous revivront."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  none:
+    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
+    reading:
+      biblicalReference: 2 Co 5, 14-15
+      content: "L’amour du Christ nous saisit quand nous pensons qu’un seul est mort pour tous, et qu’ainsi tous ont passé par la mort. Car le Christ est mort pour tous, afin que les vivants n’aient plus leur vie centrée sur eux-mêmes, mais sur lui qui est mort et ressuscité pour eux."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
 vespers:
   psalmody:
     - psalm: PSALM_140

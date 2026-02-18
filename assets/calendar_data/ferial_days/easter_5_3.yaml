@@ -100,8 +100,25 @@ middleOfDay:
       antiphon:
         - Alléluia, alléluia, alléluia !
     - psalm: PSALM_16_1
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
     - psalm: PSALM_16_2
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
 
+  tierce:
+    reading:
+      biblicalReference: Rm 4, 24b-25
+      content: "Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification."
+  sexte:
+    reading:
+      biblicalReference: 1 Jn 5, 5-6a
+      content: |-
+        Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ? C’est lui, Jésus Christ, qui est venu par l’eau et par le sang : pas seulement l’eau, mais l’eau et le sang
+  none:
+    reading:
+      biblicalReference: Ep 4, 23-24
+      content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
 vespers:
   psalmody:
     - psalm: PSALM_26_1

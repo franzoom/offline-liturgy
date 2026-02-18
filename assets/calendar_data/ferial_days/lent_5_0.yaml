@@ -121,7 +121,32 @@ middleOfDay:
       antiphon:
         - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_2
+      antiphon:
+        - "Ma force et mon chant, c’est le Seigneur."
     - psalm: PSALM_117_3
+      antiphon:
+        - "Ma force et mon chant, c’est le Seigneur."
+  tierce:
+    reading:
+      biblicalReference: 2Co 4, 10-11
+      content: "Partout et toujours, nous subissons dans notre corps la mort de Jésus, afin que la vie de Jésus, elle aussi, soit manifestée dans notre corps. En effet, nous, les vivants, nous sommes continuellement livrés à la mort à cause de Jésus, afin que la vie de Jésus, elle aussi, soit manifestée dans notre existence mortelle."
+    responsory: |-
+      V/ Maltraité, il s’humilie
+      il n’ouvre pas la bouche
+  sexte:
+    reading:
+      biblicalReference: 1P 4, 13-14
+      content: "Puisque vous communiez aux souffrances du Christ, réjouissez-vous, afin d’être dans la joie et l’allégresse quand sa gloire se révélera. Si l’on vous insulte à cause du nom du Christ, heureux êtes-vous, puisque l’Esprit de gloire, l’Esprit de Dieu, repose sur vous."
+    responsory: |-
+      V/ Ce sont nos souffrances qu’il a portées,
+      nos douleurs qu’il a supportées.
+  none:
+    reading:
+      biblicalReference: 1P 5, 10-11
+      content: "Dieu, qui donne toute grâce, lui qui vous a appelés dans le Christ à sa gloire éternelle, vous rétablira, après que vous aurez souffert un peu de temps ; il vous affermira, vous fortifiera, vous rendra inébranlables. À lui la puissance pour tous les siècles. Amen."
+    responsory: |-
+      V/ Nous te célébrons, croix de Jésus Christ :
+      par toi nous est donnée la vie.
 vespers:
   psalmody:
     - psalm: PSALM_109

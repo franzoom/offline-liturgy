@@ -98,8 +98,26 @@ middleOfDay:
       antiphon:
         - Alléluia, alléluia, alléluia !
     - psalm: PSALM_39_1
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
     - psalm: PSALM_39_2
+      antiphon:
+        - "Alléluia, alléluia, alléluia !"
 
+  tierce:
+    reading:
+      biblicalReference: Cf. Ap 1, 17c-18
+      content: |-
+        Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »
+  sexte:
+    reading:
+      biblicalReference: Col 2, 9.10a.12
+      content: "Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts."
+  none:
+    reading:
+      biblicalReference: 2 Tm 2, 8.11
+      content: |-
+        Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
 vespers:
   psalmody:
     - psalm: PSALM_44_1

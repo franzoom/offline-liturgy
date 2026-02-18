@@ -103,6 +103,28 @@ middleOfDay:
     - psalm: PSALM_75_1
     - psalm: PSALM_75_2
 
+  tierce:
+    reading:
+      biblicalReference: 1 Co 12, 13
+      content: "Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit."
+    responsory: |-
+      V/ L’amour de Dieu est répandu dans nos cœurs, alléluia,
+      par l’Esprit Saint qui habite en nous, alléluia.
+  sexte:
+    reading:
+      biblicalReference: Tt 3, 5b-7
+      content: "Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle."
+    responsory: |-
+      V/ L’Esprit Saint vous enseignera tout, alléluia,
+      il vous rappellera ce que je vous ai dit, alléluia.
+  none:
+    reading:
+      biblicalReference: 2 Co 1, 21-22
+      content: |-
+        Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs.
+    responsory: |-
+      V/ L’Esprit Saint vous enseignera tout, alléluia,
+      il vous rappellera ce que je vous ai dit, alléluia.
 vespers:
   psalmody:
     - psalm: PSALM_109

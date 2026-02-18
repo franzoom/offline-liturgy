@@ -115,8 +115,35 @@ middleOfDay:
       antiphon:
         - "Cet enfant se lèvera : signe contredit, Sauveur de son peuple."
     - psalm: PSALM_54_1_2
+      antiphon:
+        - "Cet enfant se lèvera : signe contredit, Sauveur de son peuple."
     - psalm: PSALM_54_3
+      antiphon:
+        - "Cet enfant se lèvera : signe contredit, Sauveur de son peuple."
 
+  tierce:
+    reading:
+      biblicalReference: 1Tm 1, 15
+      content: |-
+        Voici une parole sûre, et qui mérite d’être accueillie sans réserve : le Christ Jésus est venu dans le monde pour sauver les pécheurs.
+    responsory: |-
+      V/ Il est apparu sur la terre,
+      il a vécu parmi les hommes.
+  sexte:
+    reading:
+      biblicalReference: Ap 21, 23-24
+      content: "La cité sainte, la Jérusalem nouvelle, n’a besoin ni du soleil ni de la lune pour l’éclairer, car la gloire de Dieu l’illumine et son flambeau c’est l’Agneau. Les nations marcheront à sa lumière, et les rois de la terre y apporteront leur gloire."
+    responsory: |-
+      V/ Les nations verront ta justice,
+      tous les rois verront ta gloire.
+  none:
+    reading:
+      biblicalReference: 1Jn 1, 5
+      content: |-
+        Voici le message que Jésus Christ nous a fait entendre et que nous vous annonçons : Dieu est lumière, il n’y a pas de ténèbres en lui.
+    responsory: |-
+      V/ Peuples, bénissez notre Dieu.
+      Faites retentir sa louange.
 vespers:
   psalmody:
     - psalm: PSALM_61

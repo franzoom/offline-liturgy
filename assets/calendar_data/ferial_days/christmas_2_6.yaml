@@ -112,8 +112,33 @@ middleOfDay:
       antiphon:
         - Par cet enfant seront dévoilées les pensées des cœurs.
     - psalm: PSALM_60
+      antiphon:
+        - Par cet enfant seront dévoilées les pensées des cœurs.
     - psalm: PSALM_63
+      antiphon:
+        - Par cet enfant seront dévoilées les pensées des cœurs.
 
+  tierce:
+    reading:
+      biblicalReference: Ez 20, 41-42a
+      content: "Comme un parfum apaisant, je vous accueillerai, lorsque je vous ferai sortir du milieu des peuples et que je vous rassemblerai hors des pays où vous avez été dispersés. Par vous, je montrerai ma sainteté aux yeux des nations. Vous connaîtrez que je suis le Seigneur."
+    responsory: |-
+      V/ Il est apparu sur la terre,
+      il a vécu parmi les hommes.
+  sexte:
+    reading:
+      biblicalReference: Ez 34, 11-12
+      content: "J’irai moi-même à la recherche de mes brebis, et je veillerai sur elles. Comme un berger veille sur les brebis de son troupeau quand elles sont dispersées, ainsi je veillerai sur mes brebis, et j’irai les délivrer dans tous les endrois où elles ont été dispersées."
+    responsory: |-
+      V/ Les nations verront ta justice,
+      tous les rois verront ta gloire.
+  none:
+    reading:
+      biblicalReference: Mi 2, 12a
+      content: "Je vais te rassembler, Jacob, tout entier, je vais réunir le reste d’Israël. Je les mettrai ensemble, comme les brebis de Boçra, comme un troupeau au milieu de son pâturage."
+    responsory: |-
+      V/ Peuples, bénissez notre Dieu.
+      Faites retentir sa louange.
 vespers:
   psalmody:
     - psalm: PSALM_118_14

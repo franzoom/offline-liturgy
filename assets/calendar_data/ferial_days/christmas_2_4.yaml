@@ -117,8 +117,33 @@ middleOfDay:
       antiphon:
         - Le Verbe est la vraie lumière qui éclaire tout homme.
     - psalm: PSALM_55
+      antiphon:
+        - Le Verbe est la vraie lumière qui éclaire tout homme.
     - psalm: PSALM_56
+      antiphon:
+        - Le Verbe est la vraie lumière qui éclaire tout homme.
 
+  tierce:
+    reading:
+      biblicalReference: Is 2, 3b-4
+      content: "C’est de Sion que vient la Loi, de Jérusalem la parole du Seigneur. Il sera le juge des nations, l’arbitre de la multitude des peuples. De leurs épées, ils forgeront des socs de charrue, et de leurs lances, des faucilles. On ne lèvera plus l’épée nation contre nation, on ne s’entraînera plus pour la guerre."
+    responsory: |-
+      V/ Il est apparu sur la terre,
+      il a vécu parmi les hommes.
+  sexte:
+    reading:
+      biblicalReference: Is 9, 1
+      content: Le peuple qui marchait dans les ténèbres a vu se lever une grande lumière ; sur ceux qui habitaient le pays de l’ombre une lumière a resplendi.
+    responsory: |-
+      V/ Les nations verront ta justice,
+      tous les rois verront ta gloire.
+  none:
+    reading:
+      biblicalReference: Is 60, 4b-5
+      content: "Tes fils, Jérusalem, reviennent de loin, et tes filles sont portées sur les bras. Alors tu verras, tu seras radieuse ; ton cœur frémira et se dilatera. Les trésors d’au-delà des mers afflueront vers toi avec les richesses des nations."
+    responsory: |-
+      V/ Peuples, bénissez notre Dieu.
+      Faites retentir sa louange.
 vespers:
   psalmody:
     - psalm: PSALM_71_1

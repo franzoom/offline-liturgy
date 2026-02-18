@@ -103,8 +103,33 @@ middleOfDay:
       antiphon:
         - Souviens-toi, Seigneur, de ton amour et viens nous sauver.
     - psalm: PSALM_24_1
+      antiphon:
+        - "Souviens-toi, Seigneur, de ton amour et viens nous sauver."
     - psalm: PSALM_24_2
+      antiphon:
+        - "Souviens-toi, Seigneur, de ton amour et viens nous sauver."
 
+  tierce:
+    reading:
+      biblicalReference: Mi 5, 3-4a
+      content: "Celui qui doit gouverner Israël se dressera et sera leur berger par la puissance du Seigneur, par la majesté du nom de son Dieu. Ils vivront en sécurité, car désormais sa puissance s’étendra jusqu’aux extrémités de la terre, et lui-même, il sera la paix !"
+    responsory: |-
+      V/ Les nations craindront le nom du Seigneur,
+      et tous les rois de la terre, sa gloire.
+  sexte:
+    reading:
+      biblicalReference: Ag 2, 6b.9
+      content: "Encore un peu de temps, et je vais ébranler le ciel et la terre, la mer et les continents. La splendeur future de ce Temple surpassera la première, et dans ce lieu, je vous ferai don de la paix. Parole du Seigneur de l’univers."
+    responsory: |-
+      V/ Le Seigneur apparaîtra dans sa gloire :
+      le peuple nouveau chantera son Dieu.
+  none:
+    reading:
+      biblicalReference: Ml 3, 20
+      content: "Pour vous qui craignez mon nom, le soleil de justice se lèvera, portant la guérison dans ses rayons, et vous sortirez en bondissant comme de jeunes bêtes à la pâture, dit le Seigneur, le Tout-Puissant."
+    responsory: |-
+      V/ Viens, Seigneur, ne tarde pas.
+      Remets à ton peuple ses péchés.
 vespers:
   psalmody:
     - psalm: PSALM_29

@@ -126,6 +126,29 @@ middleOfDay:
       antiphon:
         - Alléluia.
 
+  tierce:
+    reading:
+      biblicalReference: 1 Jn 4, 16
+      content: |-
+        Nous avons reconnu et nous avons cru que l’amour de Dieu est parmi nous. Dieu est amour : celui qui demeure dans l’amour demeure en Dieu et Dieu en lui.
+    responsory: |-
+      V/ Incline mon cœur vers tes exigences,
+      que tes chemins me fassent vivre.
+  sexte:
+    reading:
+      biblicalReference: Ga 6, 7b-8
+      content: |-
+        Dieu ne se laisse pas narguer, car ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle.
+    responsory: |-
+      V/ Pour toujours, ta parole, Seigneur,
+      ta fidélité demeure d’âge en âge.
+  none:
+    reading:
+      biblicalReference: Ga 6, 9-10
+      content: "Ne nous lassons pas de faire le bien ; en son temps viendra la récolte, si nous ne nous relâchons pas. Ainsi donc, tant que nous en avons l’occasion, pratiquons le bien à l’égard de tous et surtout de nos frères dans la foi."
+    responsory: |-
+      V/ J’appelle de tout cœur, réponds-moi
+      je garderai tes commandements
 vespers:
   hymn:
     - reste-avec-nous-seigneur-jesus

@@ -111,8 +111,33 @@ middleOfDay:
       antiphon:
         - Voici que je viens, Seigneur, pour accomplir ta volonté.
     - psalm: PSALM_39_1
+      antiphon:
+        - "Voici que je viens, Seigneur, pour accomplir ta volonté."
     - psalm: PSALM_39_2
+      antiphon:
+        - "Voici que je viens, Seigneur, pour accomplir ta volonté."
 
+  tierce:
+    reading:
+      biblicalReference: Dt 4,7
+      content: "Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons ?"
+    responsory: |-
+      V/ Il est apparu sur la terre,
+      il a vécu parmi les hommes.
+  sexte:
+    reading:
+      biblicalReference: Is 12,5-6
+      content: "Jouez pour le Seigneur ! Car il a fait la merveille connue de toute la terre. Jubilez, criez de joie, habitants de Sion, car il est grand au milieu de toi, le Saint d’Israel."
+    responsory: |-
+      V/ Les nations verront ta justice,
+      tous les rois verront ta gloire.
+  none:
+    reading:
+      biblicalReference: Cf. Tb 14, 6-7
+      content: "Tous abandonneront leurs idoles trompeuses, ils se rassembleront et viendront à Jérusalem. Ceux qui aiment Dieu en vérité seront dans la joie."
+    responsory: |-
+      V/ Peuples, bénissez notre Dieu.
+      Faites retentir sa louange.
 vespers:
   psalmody:
     - psalm: PSALM_44_1

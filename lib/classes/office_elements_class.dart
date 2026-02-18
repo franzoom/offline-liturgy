@@ -198,8 +198,9 @@ class HourOffice {
   final String? antiphon;
   final Reading? reading;
   final String? responsory;
+  final String? oration;
 
-  const HourOffice({this.antiphon, this.reading, this.responsory});
+  const HourOffice({this.antiphon, this.reading, this.responsory, this.oration});
 
   factory HourOffice.fromJson(Map<String, dynamic> json) {
     return HourOffice(
@@ -208,6 +209,7 @@ class HourOffice {
           ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
           : null,
       responsory: json['responsory']?.toString(),
+      oration: json['oration']?.toString(),
     );
   }
 }

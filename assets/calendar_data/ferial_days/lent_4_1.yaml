@@ -99,7 +99,32 @@ middleOfDay:
       antiphon:
         - La bouche grande ouverte, j’aspire, assoiffé de tes volontés.
     - psalm: PSALM_81
+      antiphon:
+        - "La bouche grande ouverte, j’aspire, assoiffé de tes volontés."
     - psalm: PSALM_119
+      antiphon:
+        - "La bouche grande ouverte, j’aspire, assoiffé de tes volontés."
+  tierce:
+    reading:
+      biblicalReference: Sg 11, 23-24a
+      content: "Seigneur, tu as pitié de tous les hommes, parce que tu peux tout. Tu fermes les yeux sur leurs péchés, pour qu’ils se convertissent. Tu aimes en effet tout ce qui existe, tu n’as de répulsion envers aucune de tes œuvres."
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Ez 18, 23
+      content: "Est-ce donc la mort du méchant que je désire, déclare le Seigneur, n’est-ce pas plutôt qu’il se détourne de sa conduite et qu’il vive ?"
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: Is 58, 7
+      content: "Partage ton pain avec celui qui a faim, recueille chez toi le malheureux sans abri, couvre celui que tu verras sans vêtement, ne te dérobe pas à ton semblable."
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_135_1

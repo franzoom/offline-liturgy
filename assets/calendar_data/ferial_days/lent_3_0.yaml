@@ -129,7 +129,34 @@ middleOfDay:
       antiphon:
         - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_2
+      antiphon:
+        - "Ma force et mon chant, c’est le Seigneur."
     - psalm: PSALM_117_3
+      antiphon:
+        - "Ma force et mon chant, c’est le Seigneur."
+  tierce:
+    reading:
+      biblicalReference: 1 Th 4, 1.7
+      content: "Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté."
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Is 30, 15.18
+      content: |-
+        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: Dt 4, 29-31
+      content: |-
+        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_109

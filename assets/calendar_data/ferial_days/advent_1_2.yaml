@@ -100,8 +100,34 @@ middleOfDay:
       antiphon:
         - Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !
     - psalm: PSALM_12
+      antiphon:
+        - "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !"
     - psalm: PSALM_13
+      antiphon:
+        - "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !"
 
+  tierce:
+    reading:
+      biblicalReference: Jr 23, 5
+      content: "Voici venir des jours, déclare le Seigneur, où je donnerai à David un Germe juste ; il régnera en vrai roi, il agira avec intelligence, il exercera dans le pays le droit et la justice."
+    responsory: |-
+      V/ Les nations craindront le nom du Seigneur,
+      et tous les rois de la terre, sa gloire.
+  sexte:
+    reading:
+      biblicalReference: Jr 23, 6
+      content: |-
+        Sous son règne, le royaume de Juda sera sauvé et Israël habitera sur sa terre en sécurité. Voici le nom qu’on lui donnera : « Le Seigneur est notre justice ».
+    responsory: |-
+      V/ Le Seigneur apparaîtra dans sa gloire :
+      le peuple nouveau chantera son Dieu.
+  none:
+    reading:
+      biblicalReference: Cf. Ez 34, 15-16
+      content: "C’est moi qui ferai paître mon troupeau, et c’est moi qui le ferai reposer, déclare le Seigneur DIEU ! La brebis perdue, je la chercherai. Celle qui est blessée, je la soignerai. Celle qui est faible, je lui rendrai des forces. Je la ferai paître avec justice."
+    responsory: |-
+      V/ Viens, Seigneur, ne tarde pas.
+      Remets à ton peuple ses péchés.
 vespers:
   psalmody:
     - psalm: PSALM_19

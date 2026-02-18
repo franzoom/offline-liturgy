@@ -102,7 +102,34 @@ middleOfDay:
       antiphon:
         - Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces.
     - psalm: PSALM_16_1
+      antiphon:
+        - "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
     - psalm: PSALM_16_2
+      antiphon:
+        - "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
+  tierce:
+    reading:
+      biblicalReference: 1 Tm 2, 4-6
+      content: |-
+        Dieu notre Sauveur veut que tous les hommes soient sauvés et arrivent à connaître pleinement la vérité. En effet il n’y a qu’un seul Dieu, il n’y a qu un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes. Au temps fixé, il a rendu ce témoignage.
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Rm 15, 3
+      content: |-
+        Le Christ n’a pas recherché ce qui lui plaisait, mais comme il est écrit : « Les insultes de tes insulteurs sont tombées sur moi ».
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: He 9, 28
+      content: "Le Christ, après s’être offert une seule fois pour enlever les péchés de la multitude, apparaîtra une seconde fois, non plus à cause du péché, mais pour le salut de ceux qui l’attendent."
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_26_1

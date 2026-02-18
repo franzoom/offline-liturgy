@@ -101,7 +101,32 @@ middleOfDay:
       antiphon:
         - Pour avoir connu la souffrance, le juste justifiera les multitudes.
     - psalm: PSALM_21_2
+      antiphon:
+        - "Pour avoir connu la souffrance, le juste justifiera les multitudes."
     - psalm: PSALM_21_3
+      antiphon:
+        - "Pour avoir connu la souffrance, le juste justifiera les multitudes."
+  tierce:
+    reading:
+      biblicalReference: Is 55, 3
+      content: "Prêtez l’oreille ! Venez à moi ! Écoutez et vous vivrez, je ferai avec vous une Alliance éternelle, qui confirmera ma bienveillance envers David."
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: Cf. Jr 3, 12.14a
+      content: "Revenez à moi, dit le Seigneur, ma présence ne vous sera plus accablante. Oui, je suis fidèle - oracle du Seigneur - ; je ne tiens pas rigueur pour toujours. Revenez, fils apostats - oracle du Seigneur."
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: Jc 1, 27
+      content: "Devant Dieu notre Père, la manière pure et irréprochable de pratiquer la religion, c’est de venir en aide aux orphelins et aux veuves dans leur malheur, et de se garder propre au milieu du monde."
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_134_1

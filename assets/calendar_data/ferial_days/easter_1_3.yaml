@@ -123,6 +123,31 @@ middleOfDay:
     - psalm: PSALM_29_1
     - psalm: PSALM_29_2
 
+  tierce:
+    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
+    reading:
+      biblicalReference: Rm 4, 24b-25
+      content: "Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  sexte:
+    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
+    reading:
+      biblicalReference: 1 Jn 5, 5-6a
+      content: |-
+        Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ? C’est lui, Jésus Christ, qui est venu par l’eau et par le sang : pas seulement l’eau, mais l’eau et le sang
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  none:
+    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
+    reading:
+      biblicalReference: Ep 4, 23-24
+      content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
 vespers:
   psalmody:
     - psalm: PSALM_109

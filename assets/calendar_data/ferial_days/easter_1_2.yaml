@@ -115,6 +115,31 @@ middleOfDay:
     - psalm: PSALM_27
     - psalm: PSALM_115
 
+  tierce:
+    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
+    reading:
+      biblicalReference: Ac 4, 11-12
+      content: "Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  sexte:
+    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
+    reading:
+      biblicalReference: Cf. 1 P 3, 21-22a
+      content: "Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu."
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  none:
+    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
+    reading:
+      biblicalReference: Col 3, 1-2
+      content: |-
+        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
 vespers:
   psalmody:
     - psalm: PSALM_109

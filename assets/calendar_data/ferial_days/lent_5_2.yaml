@@ -100,7 +100,33 @@ middleOfDay:
       antiphon:
         - Heureux qui cherche Dieu de tout son cœur et marche dans sa loi.
     - psalm: PSALM_12
+      antiphon:
+        - Heureux qui cherche Dieu de tout son cœur et marche dans sa loi.
     - psalm: PSALM_13
+      antiphon:
+        - Heureux qui cherche Dieu de tout son cœur et marche dans sa loi.
+  tierce:
+    reading:
+      biblicalReference: 1 Co 1, 18-19
+      content: |-
+        Le langage de la croix est folie pour ceux qui vont vers leur perte, mais pour ceux qui vont vers leur salut, pour nous, il est puissance de Dieu. L’Écriture dit en effet : La sagesse des sages, je la mènerai à sa perte, et je rejetterai l’intelligence des intelligents.
+    responsory: |-
+      V/ Crée en moi un cœur pur, ô mon Dieu,
+      renouvelle et raffermis au fond de moi mon esprit.
+  sexte:
+    reading:
+      biblicalReference: 1 Co 1, 22-24
+      content: "Alors que les Juifs réclament les signes du Messie, et que le monde grec recherche une sagesse, nous, nous proclamons un Messie crucifié, scandale pour les Juifs, folie pour les peuples païens, mais pour ceux que Dieu appelle, qu’ils soient Juifs ou Grecs, ce Messie est puissance de Dieu et sagesse de Dieu."
+    responsory: |-
+      V/ Détourne ta face de mes fautes,
+      enlève tous mes péchés.
+  none:
+    reading:
+      biblicalReference: 1 Co 1, 25.27a
+      content: "La folie de Dieu est plus sage que l’homme, et la faiblesse de Dieu est plus forte que l’homme. Ce qu’il y a de fou dans le monde, voilà ce que Dieu a choisi pour couvrir de confusion les sages."
+    responsory: |-
+      V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
+      ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
     - psalm: PSALM_19

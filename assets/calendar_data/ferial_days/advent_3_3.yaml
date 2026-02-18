@@ -110,8 +110,35 @@ middleOfDay:
       antiphon:
         - Mon secours, mon libérateur, Seigneur, ne tarde pas.
     - psalm: PSALM_69
+      antiphon:
+        - "Mon secours, mon libérateur, Seigneur, ne tarde pas."
     - psalm: PSALM_74
+      antiphon:
+        - "Mon secours, mon libérateur, Seigneur, ne tarde pas."
 
+  tierce:
+    reading:
+      biblicalReference: Is 2, 11-12
+      content: |-
+        L’orgueilleux regard des humains sera abaissé, les hommes hautains devront plier : et ce jour-là, le Seigneur seul sera exalté. Car il y aura un jour pour le Seigneur, le Tout-Puissant, contre tout ce qui est fier, hautain et altier et qui sera abaissé.
+    responsory: |-
+      V/ Les nations craindront le nom du Seigneur,
+      et tous les rois de la terre, sa gloire.
+  sexte:
+    reading:
+      biblicalReference: Is 12, 2
+      content: |-
+        Voici le Dieu de mon salut : j’ai confiance ; plus de crainte pour moi ! Car le Seigneur est ma force et mon chant, je lui dois le salut.
+    responsory: |-
+      V/ Le Seigneur apparaîtra dans sa gloire :
+      le peuple nouveau chantera son Dieu.
+  none:
+    reading:
+      biblicalReference: Dn 9, 19
+      content: "Seigneur écoute ! Seigneur, pardonne ! Seigneur, sois attentif et agis, ne tarde pas ! À cause de toi-même, ô mon Dieu, car ton nom est invoqué sur ton peuple."
+    responsory: |-
+      V/ Viens, Seigneur, ne tarde pas.
+      Remets à ton peuple ses péchés.
 vespers:
   psalmody:
     - psalm: PSALM_125

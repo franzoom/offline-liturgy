@@ -10,7 +10,7 @@ const Map<String, String> celebrationTypeLabels = {
 
 /// Liturgical Times
 const liturgicalTimeLabels = {
-  'advent': 'Temps de l\'Avent',
+  'advent': 'Temps de l’Avent',
   'ot': 'Temps Ordinaire',
   'easter': 'Temps Pascal',
   'lent': 'Carême',
@@ -21,14 +21,14 @@ const liturgicalTimeLabels = {
 };
 
 const liturgicalTimeLabelsDative = {
-  'advent': 'du Temps de l\'Avent',
+  'advent': 'du Temps de l’Avent',
   'ot': 'du Temps Ordinaire',
   'easter': 'du Temps Pascal',
   'lent': 'du Carême',
   'christmas': 'du Temps de Noël',
   'holyweek': 'de la Semaine Sainte',
-  'paschaloctave': 'de l\'Octave Pascal',
-  'christmasoctave': 'de l\'Octave de Noël',
+  'paschaloctave': 'de l’Octave Pascal',
+  'christmasoctave': 'de l’Octave de Noël',
 };
 
 // Map days of the week

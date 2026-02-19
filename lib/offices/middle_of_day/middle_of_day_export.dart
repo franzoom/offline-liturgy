@@ -17,8 +17,7 @@ Future<MiddleOfDay> middleOfDayExport(
 
   // 1. BASE LAYER: Load Ferial content
   if (celebrationContext.ferialCode?.trim().isNotEmpty ?? false) {
-    middleOfDayOffice =
-        await ferialMiddleOfDayResolution(celebrationContext);
+    middleOfDayOffice = await ferialMiddleOfDayResolution(celebrationContext);
   }
 
   // 2. CELEBRATION LAYER (Buffer): Proper + Common
@@ -59,23 +58,18 @@ Future<MiddleOfDay> middleOfDayExport(
   // 3b. GRADUAL PSALMS: For solemnities (precedence <= 4), override psalmody
   if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4) {
-    final isSunday =
-        celebrationContext.date.weekday == DateTime.sunday;
+    final isSunday = celebrationContext.date.weekday == DateTime.sunday;
 
     if (isSunday) {
       // Sunday solemnity: use sunday1PsalmsForMiddleOfDay for all three hours,
       // keeping the antiphons already defined in the merged psalmody.
-      final existingAntiphons = middleOfDayOffice.psalmody
-          ?.map((e) => e.antiphon)
-          .toList() ??
-          [];
+      final existingAntiphons =
+          middleOfDayOffice.psalmody?.map((e) => e.antiphon).toList() ?? [];
       middleOfDayOffice.psalmody = List.generate(
         sunday1PsalmsForMiddleOfDay.length,
         (i) => PsalmEntry(
           psalm: sunday1PsalmsForMiddleOfDay[i],
-          antiphon: i < existingAntiphons.length
-              ? existingAntiphons[i]
-              : null,
+          antiphon: i < existingAntiphons.length ? existingAntiphons[i] : null,
         ),
       );
     } else {
@@ -84,7 +78,7 @@ Future<MiddleOfDay> middleOfDayExport(
       middleOfDayOffice.psalmodyTierce = gradualPsalms['tierce']!
           .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
           .toList();
-      middleOfDayOffice.psalmodySerxte = gradualPsalms['sexte']!
+      middleOfDayOffice.psalmodySexte = gradualPsalms['sexte']!
           .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
           .toList();
       middleOfDayOffice.psalmodyNone = gradualPsalms['none']!
@@ -132,16 +126,15 @@ Future<MiddleOfDay> middleOfDayExport(
     }
 
     if (middleOfDayOffice.psalmody != null) {
-      middleOfDayOffice.psalmody =
-          prependSeason(middleOfDayOffice.psalmody!);
+      middleOfDayOffice.psalmody = prependSeason(middleOfDayOffice.psalmody!);
     }
     if (middleOfDayOffice.psalmodyTierce != null) {
       middleOfDayOffice.psalmodyTierce =
           prependSeason(middleOfDayOffice.psalmodyTierce!);
     }
-    if (middleOfDayOffice.psalmodySerxte != null) {
-      middleOfDayOffice.psalmodySerxte =
-          prependSeason(middleOfDayOffice.psalmodySerxte!);
+    if (middleOfDayOffice.psalmodySexte != null) {
+      middleOfDayOffice.psalmodySexte =
+          prependSeason(middleOfDayOffice.psalmodySexte!);
     }
     if (middleOfDayOffice.psalmodyNone != null) {
       middleOfDayOffice.psalmodyNone =
@@ -154,7 +147,7 @@ Future<MiddleOfDay> middleOfDayExport(
     psalmody: [
       ...?middleOfDayOffice.psalmody,
       ...?middleOfDayOffice.psalmodyTierce,
-      ...?middleOfDayOffice.psalmodySerxte,
+      ...?middleOfDayOffice.psalmodySexte,
       ...?middleOfDayOffice.psalmodyNone,
     ],
     hymns: [
@@ -182,7 +175,7 @@ Future<MiddleOfDay> middleOfDayExport(
 
   applyPaschalToList(middleOfDayOffice.psalmody);
   applyPaschalToList(middleOfDayOffice.psalmodyTierce);
-  applyPaschalToList(middleOfDayOffice.psalmodySerxte);
+  applyPaschalToList(middleOfDayOffice.psalmodySexte);
   applyPaschalToList(middleOfDayOffice.psalmodyNone);
 
   for (final hour in [

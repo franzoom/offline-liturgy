@@ -1,4 +1,5 @@
 import '../../assets/libraries/middle_of_day_antiphons.dart';
+import '../../assets/libraries/gradual_psalms.dart';
 import '../../classes/middle_of_day_class.dart';
 import '../../classes/office_elements_class.dart';
 import './ferial_middle_of_day_resolution.dart';
@@ -55,6 +56,43 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice.overlayWithCommon(celebrationOverlay);
   }
 
+  // 3b. GRADUAL PSALMS: For solemnities (precedence <= 4), override psalmody
+  if (celebrationContext.precedence != null &&
+      celebrationContext.precedence! <= 4) {
+    final isSunday =
+        celebrationContext.date.weekday == DateTime.sunday;
+
+    if (isSunday) {
+      // Sunday solemnity: use sunday1PsalmsForMiddleOfDay for all three hours,
+      // keeping the antiphons already defined in the merged psalmody.
+      final existingAntiphons = middleOfDayOffice.psalmody
+          ?.map((e) => e.antiphon)
+          .toList() ??
+          [];
+      middleOfDayOffice.psalmody = List.generate(
+        sunday1PsalmsForMiddleOfDay.length,
+        (i) => PsalmEntry(
+          psalm: sunday1PsalmsForMiddleOfDay[i],
+          antiphon: i < existingAntiphons.length
+              ? existingAntiphons[i]
+              : null,
+        ),
+      );
+    } else {
+      // Weekday solemnity: use gradual psalms (different per hour).
+      // Each entry in gradualPsalms is [psalmCode, antiphon].
+      middleOfDayOffice.psalmodyTierce = gradualPsalms['tierce']!
+          .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
+          .toList();
+      middleOfDayOffice.psalmodySerxte = gradualPsalms['sexte']!
+          .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
+          .toList();
+      middleOfDayOffice.psalmodyNone = gradualPsalms['none']!
+          .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
+          .toList();
+    }
+  }
+
   // 4. PROPAGATE ANTIPHON: If only the first psalm has an antiphon,
   //    repeat it for the other psalms (before adding season antiphon).
   if (middleOfDayOffice.psalmody != null &&
@@ -82,19 +120,43 @@ Future<MiddleOfDay> middleOfDayExport(
 
   // 5. PREPEND LITURGICAL TIME ANTIPHON to each psalm's antiphon list
   final seasonAntiphon = _getSeasonAntiphon(celebrationContext);
-  if (seasonAntiphon != null && middleOfDayOffice.psalmody != null) {
-    middleOfDayOffice.psalmody = middleOfDayOffice.psalmody!.map((entry) {
-      return PsalmEntry(
-        psalm: entry.psalm,
-        antiphon: [seasonAntiphon, ...?entry.antiphon],
-        psalmData: entry.psalmData,
-      );
-    }).toList();
+  if (seasonAntiphon != null) {
+    List<PsalmEntry> prependSeason(List<PsalmEntry> psalms) {
+      return psalms.map((entry) {
+        return PsalmEntry(
+          psalm: entry.psalm,
+          antiphon: [seasonAntiphon, ...?entry.antiphon],
+          psalmData: entry.psalmData,
+        );
+      }).toList();
+    }
+
+    if (middleOfDayOffice.psalmody != null) {
+      middleOfDayOffice.psalmody =
+          prependSeason(middleOfDayOffice.psalmody!);
+    }
+    if (middleOfDayOffice.psalmodyTierce != null) {
+      middleOfDayOffice.psalmodyTierce =
+          prependSeason(middleOfDayOffice.psalmodyTierce!);
+    }
+    if (middleOfDayOffice.psalmodySerxte != null) {
+      middleOfDayOffice.psalmodySerxte =
+          prependSeason(middleOfDayOffice.psalmodySerxte!);
+    }
+    if (middleOfDayOffice.psalmodyNone != null) {
+      middleOfDayOffice.psalmodyNone =
+          prependSeason(middleOfDayOffice.psalmodyNone!);
+    }
   }
 
   // 6. HYDRATION: Resolve full texts (psalmody + hymns for each hour)
   await resolveOfficeContent(
-    psalmody: middleOfDayOffice.psalmody,
+    psalmody: [
+      ...?middleOfDayOffice.psalmody,
+      ...?middleOfDayOffice.psalmodyTierce,
+      ...?middleOfDayOffice.psalmodySerxte,
+      ...?middleOfDayOffice.psalmodyNone,
+    ],
     hymns: [
       ...?middleOfDayOffice.hymnTierce,
       ...?middleOfDayOffice.hymnSexte,
@@ -106,8 +168,9 @@ Future<MiddleOfDay> middleOfDayExport(
   // 7. Apply paschal alléluia to psalm antiphons and responsories
   final lt = celebrationContext.liturgicalTime ?? '';
 
-  if (middleOfDayOffice.psalmody != null) {
-    for (final entry in middleOfDayOffice.psalmody!) {
+  void applyPaschalToList(List<PsalmEntry>? psalms) {
+    if (psalms == null) return;
+    for (final entry in psalms) {
       final antiphon = entry.antiphon;
       if (antiphon != null) {
         for (int i = 0; i < antiphon.length; i++) {
@@ -116,6 +179,11 @@ Future<MiddleOfDay> middleOfDayExport(
       }
     }
   }
+
+  applyPaschalToList(middleOfDayOffice.psalmody);
+  applyPaschalToList(middleOfDayOffice.psalmodyTierce);
+  applyPaschalToList(middleOfDayOffice.psalmodySerxte);
+  applyPaschalToList(middleOfDayOffice.psalmodyNone);
 
   for (final hour in [
     middleOfDayOffice.tierce,

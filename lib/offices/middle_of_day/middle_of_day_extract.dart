@@ -3,39 +3,51 @@ import '../../classes/middle_of_day_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
-/// Extracts MiddleOfDay data from a YAML file
-/// Reads the file via DataLoader, parses only the 'middleOfDay' section
+/// Extracts MiddleOfDay data from a YAML file.
+///
+/// Uses the [DataLoader] to read the file content, then parses the YAML
+/// and maps it to a [MiddleOfDay] instance.
 Future<MiddleOfDay> middleOfDayExtract(
     String relativePath, DataLoader dataLoader) async {
-  print('=== middleOfDayExtract DEBUG == Loading file: $relativePath');
-
-  // Load YAML file
-  String fileContent = await dataLoader.loadYaml(relativePath);
+  // 1. Load the raw YAML content
+  final String fileContent = await dataLoader.loadYaml(relativePath);
 
   if (fileContent.isEmpty) {
-    print('ERROR: File is empty or does not exist');
+    // Return an empty instance if the file is missing or empty
     return MiddleOfDay();
   }
 
-  // Parse YAML and convert to Dart types
-  final yamlData = loadYaml(fileContent);
-  final data = convertYamlToDart(yamlData);
+  try {
+    // 2. Parse YAML and recursively convert to standard Dart types (Map/List)
+    final dynamic yamlData = loadYaml(fileContent);
+    final dynamic data = convertYamlToDart(yamlData);
 
-  // Extract oration from root level if present
-  List<String> oration = List<String>.from(data['oration'] ?? []);
+    if (data is! Map<String, dynamic>) {
+      return MiddleOfDay();
+    }
 
-  // Create MiddleOfDay from data (from 'middleOfDay' section if exists, otherwise empty)
-  MiddleOfDay middleOfDay;
-  if (data['middleOfDay'] != null) {
-    middleOfDay =
-        MiddleOfDay.fromJson(data['middleOfDay'] as Map<String, dynamic>);
-  } else {
-    middleOfDay = MiddleOfDay();
+    // 3. Handle data extraction with potential fallback for 'oration'
+    // Some files might have 'oration' at the root level instead of inside 'middleOfDay'
+    final List<String> rootOration = List<String>.from(data['oration'] ?? []);
+
+    MiddleOfDay middleOfDay;
+    if (data['middleOfDay'] is Map<String, dynamic>) {
+      // Create instance using the specific section
+      middleOfDay =
+          MiddleOfDay.fromJson(data['middleOfDay'] as Map<String, dynamic>);
+    } else {
+      middleOfDay = MiddleOfDay();
+    }
+
+    // 4. Fallback: If 'oration' wasn't found in the section, use the root version
+    if (middleOfDay.oration == null || middleOfDay.oration!.isEmpty) {
+      middleOfDay.oration = rootOration;
+    }
+
+    return middleOfDay;
+  } catch (e) {
+    // In case of parsing error, return an empty office to prevent the app from crashing
+    print('❌ Error during middleOfDayExtract for $relativePath: $e');
+    return MiddleOfDay();
   }
-
-  // If oration is not in middleOfDay section, check in main section of the yaml
-  middleOfDay.oration ??= oration;
-
-  print('=== middleOfDayExtract SUCCESS ===');
-  return middleOfDay;
 }

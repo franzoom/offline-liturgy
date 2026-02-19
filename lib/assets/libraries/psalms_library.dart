@@ -2,25 +2,46 @@ import 'package:yaml/yaml.dart';
 import '../../classes/psalms_class.dart';
 import '../../tools/data_loader.dart';
 
-/// Psalms library - loads from individual YAML files with lazy loading.
+/// Psalms library - Handles lazy loading from individual YAML files with caching.
 class PsalmsLibrary {
-  /// Caches to avoid reloading files already in memory.
+  /// Cache for standard liturgical psalms.
   static final Map<String, Psalm> _cache = {};
+
+  /// Cache for ancient (Hebrew/Greek) versions to avoid mixing them with standard ones.
   static final Map<String, Psalm> _cacheAncient = {};
 
-  /// Private helper to transform YAML string into a Psalm instance.
+  /// Recursively converts Yaml objects to standard Dart types (Map/List/Primitive).
+  /// This provides type safety and better performance than working with YamlMap.
+  static dynamic _convertYaml(dynamic value) {
+    if (value is YamlMap) {
+      return Map<String, dynamic>.fromEntries(
+        value.entries
+            .map((e) => MapEntry(e.key.toString(), _convertYaml(e.value))),
+      );
+    } else if (value is YamlList) {
+      return value.map((item) => _convertYaml(item)).toList();
+    }
+    return value;
+  }
+
+  /// Internal helper to transform a YAML string into a [Psalm] instance.
   static Psalm? _parsePsalm(String psalmId, String content) {
     if (content.isEmpty) return null;
 
     try {
-      final yamlData = loadYaml(content);
+      final rawYaml = loadYaml(content);
+      if (rawYaml == null) return null;
+
+      // Sanitize the data into a standard Dart Map
+      final Map<String, dynamic> data = _convertYaml(rawYaml);
+
       return Psalm(
-        title: yamlData['title'] as String?,
-        subtitle: yamlData['subtitle'] as String?,
-        commentary: yamlData['commentary'] as String?,
-        biblicalReference: yamlData['biblicalReference'] as String?,
-        shortReference: yamlData['shortReference'] as String?,
-        content: yamlData['content']?.toString() ?? '',
+        title: data['title']?.toString(),
+        subtitle: data['subtitle']?.toString(),
+        commentary: data['commentary']?.toString(),
+        biblicalReference: data['biblicalReference']?.toString(),
+        shortReference: data['shortReference']?.toString(),
+        content: data['content']?.toString() ?? '',
       );
     } catch (e) {
       print('❌ Error parsing YAML for $psalmId: $e');
@@ -28,21 +49,17 @@ class PsalmsLibrary {
     }
   }
 
-  /// Gets a single psalm by code with optional imprecatory version.
-  /// If [imprecatory] is true, it tries to load 'code_i.yaml' first.
+  /// Retrieves a single psalm by its code with imprecatory fallback logic.
   static Future<Psalm?> getPsalm(
     String code,
     DataLoader dataLoader, {
     bool imprecatory = false,
   }) async {
-    // 1. Determine the code to load (handle imprecatory postfix)
     final String targetCode = imprecatory ? '${code}_i' : code;
 
-    // 2. Check cache
     if (_cache.containsKey(targetCode)) return _cache[targetCode];
 
     try {
-      // 3. Try loading the target version
       final content = await dataLoader.loadYaml('psalms/$targetCode.yaml');
       final psalm = _parsePsalm(targetCode, content);
 
@@ -51,28 +68,25 @@ class PsalmsLibrary {
         return psalm;
       }
     } catch (e) {
-      // 4. Fallback: If imprecatory failed, try the standard version
       if (imprecatory) {
-        print(
-            'ℹ️ Imprecatory version $targetCode not found. Falling back to standard $code.');
+        // Fallback to standard version if the imprecatory file is missing
         return getPsalm(code, dataLoader, imprecatory: false);
       }
-      print('⚠️ Psalm $code not found in main library.');
     }
-
     return null;
   }
 
-  /// Gets a single ancient psalm with a fallback to the standard version.
+  /// Gets an ancient version of a psalm. Uses [_cacheAncient].
+  /// Falls back to standard [getPsalm] if the ancient version doesn't exist.
   static Future<Psalm?> getPsalmAncient(
     String code,
     DataLoader dataLoader,
   ) async {
-    // 1. Check Ancient Cache
+    // 1. Check the ancient cache first
     if (_cacheAncient.containsKey(code)) return _cacheAncient[code];
 
     try {
-      // 2. Try loading Ancient version
+      // 2. Try loading the specific ancient file
       final content =
           await dataLoader.loadYaml('psalms/hebrew-greek/$code.yaml');
       final psalm = _parsePsalm(code, content);
@@ -82,22 +96,19 @@ class PsalmsLibrary {
         return psalm;
       }
     } catch (e) {
-      print(
-          'ℹ️ Ancient version of $code missing. Trying fallback to standard...');
+      // If not found, fall back to standard library below
     }
 
-    // 3. Fallback: Use standard getPsalm (which handles its own caching)
-    // Note: If you want imprecatory support here, you could pass the param through.
+    // 3. Fallback: retrieve the standard psalm
     return await getPsalm(code, dataLoader);
   }
 
-  /// Gets multiple psalms by codes in parallel.
+  /// Fetches multiple psalms in parallel.
   static Future<Map<String, Psalm>> getPsalms(
     List<String> codes,
     DataLoader dataLoader, {
     bool imprecatory = false,
   }) async {
-    // Fetch all requested psalms concurrently
     final results = await Future.wait(
       codes.map((code) => getPsalm(code, dataLoader, imprecatory: imprecatory)),
     );
@@ -114,8 +125,7 @@ class PsalmsLibrary {
 
   /// Clears all caches to free up memory.
   static void clearCache() {
-    print('🗑️ PsalmsLibrary: Clearing all caches.');
     _cache.clear();
-    _cacheAncient.clear();
+    _cacheAncient.clear(); // Now properly used in getPsalmAncient
   }
 }

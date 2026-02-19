@@ -8,24 +8,24 @@ import '../offices/middle_of_day/middle_of_day_extract.dart';
 import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
 import '../offices/vespers/vespers_extract.dart';
+import 'package:offline_liturgy/tools/data_loader.dart';
 
 /// Builds the hierarchy of common file names from a common name.
 /// For each cumulative level, also checks the liturgical time variant.
 /// For example: 'pastors_bishops' with lent returns:
 /// ['pastors', 'pastors_lent', 'pastors_bishops', 'pastors_bishops_lent']
 List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
-  commonName = commonName.trim().toLowerCase();
-  List<String> parts = commonName.split('_');
+  final cleanName = commonName.trim().toLowerCase();
+  final parts = cleanName.split('_');
 
-  bool hasLiturgicalTime = liturgicalTime != null &&
-      privilegedTimes.any((time) => commonName.contains('_$time'));
-  bool addTimeSuffix = liturgicalTime != null &&
-      privilegedTimes.contains(liturgicalTime) &&
-      !hasLiturgicalTime;
+  final isPrivileged =
+      liturgicalTime != null && privilegedTimes.contains(liturgicalTime);
+  final alreadyHasTime = isPrivileged && cleanName.contains('_$liturgicalTime');
+  final addTimeSuffix = isPrivileged && !alreadyHasTime;
 
-  List<String> commonsToTry = [];
+  final List<String> commonsToTry = [];
   for (int i = 0; i < parts.length; i++) {
-    String level = parts.sublist(0, i + 1).join('_');
+    final level = parts.sublist(0, i + 1).join('_');
     commonsToTry.add(level);
     if (addTimeSuffix) {
       commonsToTry.add('${level}_$liturgicalTime');
@@ -34,66 +34,71 @@ List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
   return commonsToTry;
 }
 
-/// Loads a common with hierarchical inheritance.
-/// Each more specific level overrides data from more general levels.
-Future<Morning> loadMorningHierarchicalCommon(
-    CelebrationContext context) async {
+/// Generic internal loader.
+/// It explicitly types the extractor to ensure DataLoader is recognized.
+Future<T> _loadHierarchical<T>({
+  required CelebrationContext context,
+  required T Function() createEmpty,
+  required Future<T> Function(String, DataLoader) extractor,
+  required void Function(T base, T overlay) overlayFn,
+}) async {
   final common = context.selectedCommon;
-  if (common == null) return Morning();
-  Morning result = Morning();
-  for (String level
-      in _buildCommonHierarchy(common, context.liturgicalTime)) {
-    Morning levelData = await morningExtract(
-        '$commonsFilePath/$level.yaml', context.dataLoader);
-    result.overlayWith(levelData);
+  if (common == null) return createEmpty();
+
+  final hierarchy = _buildCommonHierarchy(common, context.liturgicalTime);
+  final result = createEmpty();
+
+  // Load all files in parallel
+  final List<Future<T>> tasks = hierarchy.map((level) {
+    final path = '$commonsFilePath/$level.yaml';
+    return extractor(path, context.dataLoader);
+  }).toList();
+
+  final List<T> allData = await Future.wait(tasks);
+
+  // Apply overlays in order
+  for (final data in allData) {
+    overlayFn(result, data);
   }
+
   return result;
 }
 
-/// Loads a common with hierarchical inheritance for Readings.
-/// Each more specific level overrides data from more general levels.
-Future<Readings> loadReadingsHierarchicalCommon(
-    CelebrationContext context) async {
-  final common = context.selectedCommon;
-  if (common == null) return Readings();
-  Readings result = Readings();
-  for (String level
-      in _buildCommonHierarchy(common, context.liturgicalTime)) {
-    Readings levelData = await readingsExtract(
-        '$commonsFilePath/$level.yaml', context.dataLoader);
-    result.overlayWith(levelData);
-  }
-  return result;
+// --- PUBLIC API ---
+
+Future<Morning> loadMorningHierarchicalCommon(CelebrationContext context) {
+  return _loadHierarchical<Morning>(
+    context: context,
+    createEmpty: () => Morning(),
+    extractor: (path, loader) => morningExtract(path, loader),
+    overlayFn: (base, overlay) => base.overlayWith(overlay),
+  );
 }
 
-/// Loads a common with hierarchical inheritance for Vespers.
-/// Each more specific level overrides data from more general levels.
-Future<Vespers> loadVespersHierarchicalCommon(
-    CelebrationContext context) async {
-  final common = context.selectedCommon;
-  if (common == null) return Vespers();
-  Vespers result = Vespers();
-  for (String level
-      in _buildCommonHierarchy(common, context.liturgicalTime)) {
-    Vespers levelData = await vespersExtract(
-        '$commonsFilePath/$level.yaml', context.dataLoader);
-    result.overlayWith(levelData);
-  }
-  return result;
+Future<Readings> loadReadingsHierarchicalCommon(CelebrationContext context) {
+  return _loadHierarchical<Readings>(
+    context: context,
+    createEmpty: () => Readings(),
+    extractor: (path, loader) => readingsExtract(path, loader),
+    overlayFn: (base, overlay) => base.overlayWith(overlay),
+  );
 }
 
-/// Loads a common with hierarchical inheritance for MiddleOfDay.
-/// Each more specific level overrides data from more general levels.
+Future<Vespers> loadVespersHierarchicalCommon(CelebrationContext context) {
+  return _loadHierarchical<Vespers>(
+    context: context,
+    createEmpty: () => Vespers(),
+    extractor: (path, loader) => vespersExtract(path, loader),
+    overlayFn: (base, overlay) => base.overlayWith(overlay),
+  );
+}
+
 Future<MiddleOfDay> loadMiddleOfDayHierarchicalCommon(
-    CelebrationContext context) async {
-  final common = context.selectedCommon;
-  if (common == null) return MiddleOfDay();
-  MiddleOfDay result = MiddleOfDay();
-  for (String level
-      in _buildCommonHierarchy(common, context.liturgicalTime)) {
-    MiddleOfDay levelData = await middleOfDayExtract(
-        '$commonsFilePath/$level.yaml', context.dataLoader);
-    result.overlayWith(levelData);
-  }
-  return result;
+    CelebrationContext context) {
+  return _loadHierarchical<MiddleOfDay>(
+    context: context,
+    createEmpty: () => MiddleOfDay(),
+    extractor: (path, loader) => middleOfDayExtract(path, loader),
+    overlayFn: (base, overlay) => base.overlayWith(overlay),
+  );
 }

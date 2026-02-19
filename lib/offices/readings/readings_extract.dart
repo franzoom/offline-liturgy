@@ -3,39 +3,46 @@ import '../../classes/readings_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
-/// Extracts Readings data from a YAML file
-/// Reads the file via DataLoader, parses only the 'readings' section
+/// Extracts Readings (Office of Readings) data from a YAML file.
+///
+/// It focuses on the 'readings' section which typically includes
+/// biblical lessons, patristic texts, and their respective responsories.
 Future<Readings> readingsExtract(
     String relativePath, DataLoader dataLoader) async {
-  print('=== readingsExtract DEBUG == Loading file: $relativePath');
-
-  // Load YAML file
-  String fileContent = await dataLoader.loadYaml(relativePath);
+  // 1. Load the raw YAML content from the data provider
+  final String fileContent = await dataLoader.loadYaml(relativePath);
 
   if (fileContent.isEmpty) {
-    print('ERROR: File is empty or does not exist');
     return Readings();
   }
 
-  // Parse YAML and convert to Dart types
-  final yamlData = loadYaml(fileContent);
-  final data = convertYamlToDart(yamlData);
+  try {
+    // 2. Parse YAML and recursively convert to standard Dart types
+    final dynamic yamlData = loadYaml(fileContent);
+    final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
 
-  // Create Readings from data (from 'readings' section if exists, otherwise empty)
-  Readings readings;
-  if (data['readings'] != null) {
-    final readingsData = data['readings'] as Map<String, dynamic>;
-    readings = Readings.fromJson(readingsData);
+    // 3. Extract the specific Readings section
+    Readings readings;
+    if (data['readings'] is Map<String, dynamic>) {
+      final Map<String, dynamic> readingsData =
+          data['readings'] as Map<String, dynamic>;
+      readings = Readings.fromJson(readingsData);
 
-    // If oration is not in readings section, check at root level
-    if ((readings.oration == null || readings.oration!.isEmpty) && data['oration'] != null) {
-      print('=== readingsExtract: oration found at root level, using it');
-      readings.oration = List<String>.from(data['oration']);
+      // 4. Fallback for Oration:
+      // If the specific section doesn't have an oration, look at the root level
+      if ((readings.oration == null || readings.oration!.isEmpty) &&
+          data['oration'] != null) {
+        readings.oration = List<String>.from(data['oration']);
+      }
+    } else {
+      // Return empty instance if the 'readings' key is missing
+      readings = Readings();
     }
-  } else {
-    readings = Readings();
-  }
 
-  print('=== readingsExtract SUCCESS ===');
-  return readings;
+    return readings;
+  } catch (e) {
+    // Graceful error handling to prevent UI blocking
+    print('❌ Error during readingsExtract for $relativePath: $e');
+    return Readings();
+  }
 }

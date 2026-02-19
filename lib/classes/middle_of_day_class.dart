@@ -4,8 +4,10 @@ import 'office_elements_class.dart';
 class MiddleOfDay {
   Celebration? celebration;
   List<PsalmEntry>? psalmody; // shared psalms (same for all three hours)
-  List<PsalmEntry>? psalmodyTierce; // gradual psalms for tierce (solemnity weekday)
-  List<PsalmEntry>? psalmodySerxte; // gradual psalms for sexte (solemnity weekday)
+  List<PsalmEntry>?
+      psalmodyTierce; // gradual psalms for tierce (solemnity weekday)
+  List<PsalmEntry>?
+      psalmodySexte; // gradual psalms for sexte (solemnity weekday)
   List<PsalmEntry>? psalmodyNone; // gradual psalms for none (solemnity weekday)
   List<HymnEntry>? hymnTierce;
   List<HymnEntry>? hymnSexte;
@@ -19,7 +21,7 @@ class MiddleOfDay {
     this.celebration,
     this.psalmody,
     this.psalmodyTierce,
-    this.psalmodySerxte,
+    this.psalmodySexte,
     this.psalmodyNone,
     this.hymnTierce,
     this.hymnSexte,
@@ -100,7 +102,7 @@ class MiddleOfDay {
       celebration == null &&
       psalmody == null &&
       psalmodyTierce == null &&
-      psalmodySerxte == null &&
+      psalmodySexte == null &&
       psalmodyNone == null &&
       hymnTierce == null &&
       hymnSexte == null &&

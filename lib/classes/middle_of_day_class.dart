@@ -3,7 +3,10 @@ import 'office_elements_class.dart';
 /// Class representing the Middle of Day Prayer (Tierce, Sexte, None) structure
 class MiddleOfDay {
   Celebration? celebration;
-  List<PsalmEntry>? psalmody;
+  List<PsalmEntry>? psalmody; // shared psalms (same for all three hours)
+  List<PsalmEntry>? psalmodyTierce; // gradual psalms for tierce (solemnity weekday)
+  List<PsalmEntry>? psalmodySerxte; // gradual psalms for sexte (solemnity weekday)
+  List<PsalmEntry>? psalmodyNone; // gradual psalms for none (solemnity weekday)
   List<HymnEntry>? hymnTierce;
   List<HymnEntry>? hymnSexte;
   List<HymnEntry>? hymnNone;
@@ -15,6 +18,9 @@ class MiddleOfDay {
   MiddleOfDay({
     this.celebration,
     this.psalmody,
+    this.psalmodyTierce,
+    this.psalmodySerxte,
+    this.psalmodyNone,
     this.hymnTierce,
     this.hymnSexte,
     this.hymnNone,
@@ -93,6 +99,9 @@ class MiddleOfDay {
   bool get isEmpty =>
       celebration == null &&
       psalmody == null &&
+      psalmodyTierce == null &&
+      psalmodySerxte == null &&
+      psalmodyNone == null &&
       hymnTierce == null &&
       hymnSexte == null &&
       hymnNone == null &&

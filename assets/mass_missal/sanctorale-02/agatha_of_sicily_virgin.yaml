@@ -1,0 +1,41 @@
+id: agatha_of_sicily_virgin
+title: Saint Agathe
+context: 5 février
+note: Commun des martyrs, ou des vierges.
+subTitle: vierge et martyre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Co
+            ref: 1, 26-31
+            headline: « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 30 (31), 3bc-4, 6.8, 16-17
+            refAbbr: 30, 3…
+            chorus:
+              - chorusRef: 30, 6a
+                chorus: |-
+                  En tes mains, Seigneur,
+                  je remets mon esprit.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: 1 P
+            ref: 4, 14
+            content: |-
+              Si l’on vous insulte pour le nom du Christ,
+              heureux êtes-vous:
+              l’Esprit de Dieu repose sur vous.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 9, 23-26
+            headline: « Celui qui perdra sa vie à cause de moi la sauvera »

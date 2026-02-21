@@ -1,0 +1,129 @@
+id: easter_time_7_thursday
+title: Jeudi
+context: Septième semaine de Pâques
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 22, 30 ; 23, 6-11
+            headline: « II faut que tu me rendes aussi témoignage à Rome »
+            content: |-
+              En ces jours-là,
+              Paul avait été arrêté à Jérusalem.
+              Le lendemain, le commandant
+              voulut savoir avec certitude
+              de quoi les Juifs l’accusaient.
+              Il lui fit enlever ses liens ;
+              puis il convoqua les grands prêtres et tout le Conseil suprême,
+              et il fit descendre Paul pour l’amener devant eux.
+              Sachant que le Conseil suprême
+              se répartissait entre sadducéens et pharisiens,
+              Paul s’écria devant eux :
+              « Frères, moi, je suis pharisien,
+              fils de pharisiens.
+              C’est à cause de notre espérance,
+              la résurrection des morts,
+              que je passe en jugement. »
+              À peine avait-il dit cela, qu’il y eut un affrontement
+              entre pharisiens et sadducéens,
+              et l’assemblée se divisa.
+              En effet, les sadducéens disent
+              qu’il n’y a pas de résurrection,
+              pas plus que d’ange ni d’esprit,
+              tandis que les pharisiens professent tout cela.
+              Il se fit alors un grand vacarme.
+              Quelques scribes du côté des pharisiens
+              se levèrent et protestèrent vigoureusement :
+              « Nous ne trouvons rien de mal chez cet homme.
+              Et si c’était un esprit qui lui avait parlé, ou un ange ? »
+              L’affrontement devint très violent,
+              et le commandant craignit que Paul ne se fasse écharper.
+              Il ordonna à la troupe de descendre pour l’arracher à la mêlée
+              et le ramener dans la forteresse.
+              La nuit suivante, le Seigneur vint auprès de Paul
+              et lui dit :
+              « Courage !
+              Le témoignage que tu m’as rendu à Jérusalem,
+              il faut que tu le rendes aussi à Rome. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 15 (16), 1-2a.5, 7-8, 9-10, 11
+            refAbbr: 15, 1…
+            chorus:
+              - chorusRef: 15, 1
+                chorus: |-
+                  Garde- moi, mon Dieu :
+                  j’ai fait de toi mon refuge.
+              - chorus: Alléluia !
+            content: |-
+              Garde- moi, mon Dieu : j’ai fait de toi mon refuge.
+              J’ai dit au Seigneur : « Tu es mon Dieu !
+              Seigneur, mon partage et ma coupe :
+              de toi dépend mon sort. »
+
+              Je bénis le Seigneur qui me conseille :
+              même la nuit mon cœur m’avertit.
+              Je garde le Seigneur devant moi sans relâche ;
+              il est à ma droite : je suis inébranlable.
+
+              Mon cœur exulte, mon âme est en fête,
+              ma chair elle-même repose en confiance :
+              tu ne peux m’abandonner à la mort
+              ni laisser ton ami voir la corruption.
+
+              Tu m’apprends le chemin de la vie :
+              devant ta face, débordement de joie !
+              À ta droite, éternité de délices !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 17, 21
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Que tous soient un,
+              comme toi, Père, tu es en moi, et moi en toi,
+              pour que le monde croie que tu m’as envoyé.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 17, 20-26
+            headline: « Qu’ils deviennent parfaitement un »
+            content: |-
+              En ce temps-là,
+              les yeux levés au ciel, Jésus priait ainsi :
+              « Père saint, je ne prie pas seulement pour ceux qui sont là,
+              mais encore pour ceux qui, grâce à leur parole, croiront en moi.
+              Que tous soient un,
+              comme toi, Père, tu es en moi, et moi en toi.
+              Qu’ils soient un en nous, eux aussi,
+              pour que le monde croie que tu m’as envoyé.
+              Et moi, je leur ai donné la gloire que tu m’as donnée,
+              pour qu’ils soient un comme nous sommes UN :
+              moi en eux, et toi en moi.
+              Qu’ils deviennent ainsi parfaitement un,
+              afin que le monde sache que tu m’as envoyé,
+              et que tu les as aimés comme tu m’as aimé.
+              Père,
+              ceux que tu m’as donnés,
+              je veux que là où je suis,
+              ils soient eux aussi avec moi,
+              et qu’ils contemplent ma gloire,
+              celle que tu m’as donnée
+              parce que tu m’as aimé avant la fondation du monde.
+              Père juste,
+              le monde ne t’a pas connu,
+              mais moi je t’ai connu,
+              et ceux-ci ont reconnu
+              que tu m’as envoyé.
+              Je leur ai fait connaître ton nom,
+              et je le ferai connaître,
+              pour que l’amour dont tu m’as aimé soit en eux,
+              et que moi aussi, je sois en eux. »

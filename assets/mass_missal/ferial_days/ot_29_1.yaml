@@ -1,0 +1,175 @@
+id: ordinary_time_29_monday
+title: Lundi
+context: Vingt-neuvième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_29TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 4, 20-25
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « À nous aussi, cela sera accordé puisque nous croyons »
+            content: |-
+              Frères,
+              	devant la promesse de Dieu, Abraham n’hésita pas,
+              il ne manqua pas de foi,
+              mais il trouva sa force dans la foi
+              et rendit gloire à Dieu,
+              	car il était pleinement convaincu
+              que Dieu a la puissance d’accomplir ce qu’il a promis.
+              	Et voilà pourquoi
+              il lui fut accordé d’être juste_._
+              En disant que cela lui fut accordé,
+              l’Écriture ne s’intéresse pas seulement à lui,
+              	mais aussi à nous,
+              car cela nous sera accordé puisque nous croyons
+              en Celui qui a ressuscité d’entre les morts Jésus notre Seigneur,
+              	livré pour nos fautes
+              et ressuscité pour notre justification.
+          - book: Ep
+            ref: 2, 1-10
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Avec le Christ, il nous a ressuscités et il nous a fait siéger aux
+              cieux »
+            content: |-
+              Frères,
+              	vous étiez des morts,
+              par suite des fautes et des péchés
+              	qui marquaient autrefois votre conduite,
+              soumise aux forces mauvaises de ce monde,
+              au prince du mal qui s’interpose entre le ciel et nous,
+              et dont le souffle est maintenant à l’œuvre
+              en ceux qui désobéissent à Dieu.
+              	Et nous aussi, nous étions tous de ceux-là,
+              quand nous vivions suivant les convoitises de notre chair,
+              cédant aux caprices de la chair et des pensées,
+              nous qui étions, de par nous-mêmes, voués à la colère
+              comme tous les autres.
+              	Mais Dieu est riche en miséricorde ;
+              à cause du grand amour dont il nous a aimés,
+              	nous qui étions des morts par suite de nos fautes,
+              il nous a donné la vie avec le Christ :
+              c’est bien par grâce que vous êtes sauvés.
+              	Avec lui, il nous a ressuscités
+              et il nous a fait siéger aux cieux,
+              dans le Christ Jésus.
+              	Il a voulu ainsi montrer, au long des âges futurs,
+              la richesse surabondante de sa grâce,
+              par sa bonté pour nous dans le Christ Jésus.
+              	C’est bien par la grâce que vous êtes sauvés,
+              et par le moyen de la foi.
+              Cela ne vient pas de vous, c’est le don de Dieu.
+              	Cela ne vient pas des actes : personne ne peut en tirer orgueil.
+              	C’est Dieu qui nous a faits,
+              il nous a créés dans le Christ Jésus,
+              en vue de la réalisation d’œuvres bonnes
+              qu’il a préparées d’avance
+              pour que nous les pratiquions.
+
+      - partType: CANTICLE
+        partContents:
+          - book: Lc
+            ref: 1, 69-70, 71-72, 73-75
+            refAbbr: 1, 69…
+            chorus:
+              - chorusRef: 1, 68
+                chorus: |-
+                  Béni soit le Seigneur, le Dieu d’Israël,
+                  car il a visité son peuple.
+            content: |-
+              Il a fait surgir la force qui nous sauve
+              dans la maison de David, son serviteur,
+              comme il l’avait dit par la bouche des saints,
+              par ses prophètes, depuis les temps anciens :
+
+              salut qui nous arrache à l’ennemi,
+              à la main de tous nos oppresseurs,
+              amour qu’il montre envers nos pères,
+              mémoire de son alliance sainte,
+
+              serment juré à notre père Abraham
+              de nous rendre sans crainte,
+              afin que, délivrés de la main des ennemis,
+              nous le servions dans la justice et la sainteté,
+              	en sa présence, tout au long de nos jours.
+          - book: Ps
+            ref: 99 (100), 1-2, 3, 4, 5
+            refAbbr: 99, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 99, 3b
+                chorus: Dieu nous a faits, et nous sommes à lui.
+            content: |-
+              Acclamez le Seigneur, terre entière,
+              servez le Seigneur dans l’allégresse,
+              venez à lui avec des chants de joie !
+
+              Reconnaissez que le Seigneur est Dieu :
+              il nous a faits, et nous sommes à lui,
+              nous, son peuple, son troupeau.
+
+              Venez dans sa maison lui rendre grâce,
+              dans sa demeure chanter ses louanges ;
+              rendez-lui grâce et bénissez son nom !
+
+              Oui, le Seigneur est bon,
+              éternel est son amour,
+              sa fidélité demeure d’âge en âge.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 5, 3
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Heureux les pauvres de cœur,
+              car le royaume des Cieux est à eux !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 12, 13-21
+            headline: « Ce que tu auras accumulé, qui l’aura ? »
+            content: |-
+              En ce temps-là,
+              	du milieu de la foule, quelqu’un demanda à Jésus :
+              « Maître, dis à mon frère
+              de partager avec moi notre héritage. »
+              	Jésus lui répondit :
+              « Homme, qui donc m’a établi
+              pour être votre juge ou l’arbitre de vos partages ? »
+              	Puis, s’adressant à tous :
+              « Gardez-vous bien de toute avidité,
+              car la vie de quelqu’un,
+              même dans l’abondance,
+              ne dépend pas de ce qu’il possède. »
+              	Et il leur dit cette parabole :
+              « Il y avait un homme riche,
+              dont le domaine avait bien rapporté.
+              	Il se demandait :
+              “Que vais-je faire ?
+              Car je n’ai pas de place pour mettre ma récolte.”
+              	Puis il se dit :
+              “Voici ce que je vais faire :
+              je vais démolir mes greniers,
+              j’en construirai de plus grands
+              et j’y mettrai tout mon blé et tous mes biens.
+              	Alors je me dirai à moi-même :
+              Te voilà donc avec de nombreux biens à ta disposition,
+              pour de nombreuses années.
+              Repose-toi, mange, bois, jouis de l’existence.”
+              	Mais Dieu lui dit :
+              “Tu es fou :
+              cette nuit même, on va te redemander ta vie.
+              Et ce que tu auras accumulé,
+              qui l’aura ?”
+              	Voilà ce qui arrive à celui qui amasse pour lui-même,
+              au lieu d’être riche en vue de Dieu. »

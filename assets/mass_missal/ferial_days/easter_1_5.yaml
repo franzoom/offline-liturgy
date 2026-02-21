@@ -1,0 +1,165 @@
+id: easter_friday
+title: Vendredi dans l’octave de Pâques
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 4, 1-12
+            headline: « En nul autre que lui, il n’y a de salut »
+            content: |-
+              En ces jours-là,
+              après la guérison de l’infirme,
+              comme Pierre et Jean parlaient encore au peuple,
+              les prêtres survinrent,
+              avec le commandant du Temple
+              et les sadducéens ;
+              ils étaient excédés de les voir enseigner le peuple
+              et annoncer, en la personne de Jésus,
+              la résurrection d’entre les morts.
+              Ils les firent arrêter et placer sous bonne garde jusqu’au lendemain,
+              puisque c’était déjà le soir.
+              Or, beaucoup de ceux qui avaient entendu la Parole
+              devinrent croyants ;
+              à ne compter que les hommes,
+              il y en avait environ cinq mille.
+              Le lendemain se réunirent à Jérusalem
+              les chefs du peuple, les anciens et les scribes.
+              Il y avait là Hanne le grand prêtre,
+              Caïphe, Jean, Alexandre,
+              et tous ceux qui appartenaient aux familles de grands prêtres.
+              Ils firent amener Pierre et Jean au milieu d’eux
+              et les questionnèrent :
+              « Par quelle puissance, par le nom de qui,
+              avez-vous fait cette guérison ? »
+              Alors Pierre, rempli de l’Esprit Saint,
+              leur déclara :
+              « Chefs du peuple et anciens,
+              nous sommes interrogés aujourd’hui
+              pour avoir fait du bien à un infirme,
+              et l’on nous demande comment cet homme a été sauvé.
+              Sachez-le donc, vous tous,
+              ainsi que tout le peuple d’Israël :
+              c’est par le nom de Jésus le Nazaréen,
+              lui que vous avez crucifié
+              mais que Dieu a ressuscité d’entre les morts,
+              c’est par lui que cet homme
+              se trouve là, devant vous, bien portant.
+              Ce Jésus est la pierre méprisée de vous, les bâtisseurs,
+              mais devenue la pierre d’angle.
+              En nul autre que lui, il n’y a de salut,
+              car, sous le ciel, aucun autre nom n’est donné aux hommes,
+              qui puisse nous sauver. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 117 (118), 1-2.4, 22-24, 25-27a
+            refAbbr: 117, 1…
+            chorus:
+              - chorusRef: 117, 22
+                chorus: |-
+                  La pierre qu’ont rejetée les bâtisseurs
+                  est devenue la pierre d’angle.
+              - chorus: Alléluia !
+            content: |-
+              Rendez grâce au Seigneur : Il est bon !
+              Éternel est son amour !
+              Oui, que le dise Israël :
+              Éternel est son amour !
+              Qu’ils le disent, ceux qui craignent le Seigneur :
+              Éternel est son amour !
+
+              La pierre qu’ont rejetée les bâtisseurs
+              est devenue la pierre d’angle :
+              c’est là l’œuvre du Seigneur,
+              la merveille devant nos yeux.
+              Voici le jour que fit le Seigneur,
+              qu’il soit pour nous jour de fête et de joie !
+
+              Donne, Seigneur, donne le salut !
+              Donne, Seigneur, donne la victoire !
+              Béni soit au nom du Seigneur celui qui vient !
+              De la maison du Seigneur, nous vous bénissons !
+              Dieu, le Seigneur, nous illumine.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Ps
+            ref: 117, 24
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Voici le jour que fit le Seigneur,
+              qu’il soit pour nous jour de fête et de joie !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 21, 1-14
+            headline: « Jésus s’approche ; il prend le pain et le leur donne ; et de même
+              pour le poisson »
+            content: |-
+              En ce temps-là,
+              Jésus se manifesta encore aux disciples
+              sur le bord de la mer de Tibériade, et voici comment.
+              Il y avait là, ensemble, Simon-Pierre,
+              avec Thomas, appelé Didyme (c’est-à-dire Jumeau),
+              Nathanaël, de Cana de Galilée,
+              les fils de Zébédée,
+              et deux autres de ses disciples.
+              Simon-Pierre leur dit :
+              « Je m’en vais à la pêche. »
+              Ils lui répondent :
+              « Nous aussi, nous allons avec toi. »
+              Ils partirent et montèrent dans la barque ;
+              or, cette nuit-là, ils ne prirent rien.
+              Au lever du jour, Jésus se tenait sur le rivage,
+              mais les disciples ne savaient pas que c’était lui.
+              Jésus leur dit :
+              « Les enfants,
+              auriez-vous quelque chose à manger ? »
+              Ils lui répondirent :
+              « Non. »
+              Il leur dit :
+              « Jetez le filet à droite de la barque,
+              et vous trouverez. »
+              Ils jetèrent donc le filet,
+              et cette fois ils n’arrivaient pas à le tirer,
+              tellement il y avait de poissons.
+              Alors, le disciple que Jésus aimait
+              dit à Pierre :
+              « C’est le Seigneur ! »
+              Quand Simon-Pierre entendit que c’était le Seigneur,
+              il passa un vêtement,
+              car il n’avait rien sur lui,
+              et il se jeta à l’eau.
+              Les autres disciples arrivèrent en barque,
+              traînant le filet plein de poissons ;
+              la terre n’était qu’à une centaine de mètres.
+              Une fois descendus à terre,
+              ils aperçoivent, disposé là, un feu de braise
+              avec du poisson posé dessus,
+              et du pain.
+              Jésus leur dit :
+              « Apportez donc de ces poissons
+              que vous venez de prendre. »
+              Simon-Pierre remonta
+              et tira jusqu’à terre le filet plein de gros poissons :
+              il y en avait cent cinquante-trois.
+              Et, malgré cette quantité, le filet ne s’était pas déchiré.
+              Jésus leur dit alors :
+              « Venez manger. »
+              Aucun des disciples n’osait lui demander :
+              « Qui es-tu ? »
+              Ils savaient que c’était le Seigneur.
+              Jésus s’approche ;
+              il prend le pain
+              et le leur donne ;
+              et de même pour le poisson.
+
+              C’était la troisième fois
+              que Jésus ressuscité d’entre les morts
+              se manifestait à ses disciples.

@@ -1,0 +1,89 @@
+id: simon_and_jude_apostles
+title: Saints Simon et Jude
+context: 28 octobre
+subTitle: apôtres
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ep
+            ref: 2, 19-22
+            headline: « Intégrés dans la construction qui a pour fondations les Apôtres »
+            content: |-
+              Frères,
+              vous n’êtes plus des étrangers ni des gens de passage,
+              vous êtes concitoyens des saints,
+                vous êtes membres de la famille de Dieu,
+              car vous avez été intégrés dans la construction
+                qui a pour fondations les Apôtres et les prophètes ;
+              et la pierre angulaire, c’est le Christ Jésus lui-même.
+              En lui, toute la construction s’élève harmonieusement
+                pour devenir un temple saint dans le Seigneur.
+
+              En lui, vous êtes, vous aussi, les éléments d’une même construction
+                pour devenir une demeure de Dieu par l’Esprit Saint.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 18A (19), 2-3, 4-5ab
+            refAbbr: 18A, 2…
+            chorus:
+              - chorusRef: 18, 5a
+                chorus: Par toute la terre s’en va leur message.
+            content: |-
+              Les cieux proclament la gloire de Dieu,
+              le firmament raconte l’ouvrage de ses mains.
+              Le jour au jour en livre le récit
+              et la nuit à la nuit en donne connaissance.
+
+              Pas de paroles dans ce récit,
+              pas de voix qui s’entende ;
+              mais sur toute la terre en paraît le message
+              et la nouvelle, aux limites du monde.
+
+      - partType: ALLELUIA
+        partContents:
+          - acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              À toi, Dieu, notre louange !
+              Toi, le Seigneur, nous t’acclamons.
+              C’est toi que les Apôtres glorifient.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 6, 12-19
+            headline: « Il en choisit douze auxquels il donna le nom d’Apôtres »
+            content: |-
+              En ces jours-là,
+                Jésus s’en alla dans la montagne pour prier,
+                et il passa toute la nuit à prier Dieu.
+              Le jour venu,
+                il appela ses disciples et en choisit douze
+              auxquels il donna le nom d’Apôtres :
+              	Simon, auquel il donna le nom de Pierre,
+                André son frère,
+                Jacques, Jean, Philippe, Barthélemy,
+              	Matthieu, Thomas,
+                Jacques fils d’Alphée,
+                Simon appelé le Zélote,
+              	Jude fils de Jacques,
+                et Judas Iscariote, qui devint un traître.
+
+              Jésus descendit de la montagne avec eux
+                et s’arrêta sur un terrain plat.
+              Il y avait là un grand nombre de ses disciples
+                et une grande multitude de gens
+                venus de toute la Judée, de Jérusalem,
+                et du littoral de Tyr et de Sidon.
+              Ils étaient venus l’entendre
+                et se faire guérir de leurs maladies ;
+              ceux qui étaient tourmentés par des esprits impurs
+                retrouvaient la santé.
+              Et toute la foule cherchait à le toucher,
+              parce qu’une force sortait de lui
+                et les guérissait tous.

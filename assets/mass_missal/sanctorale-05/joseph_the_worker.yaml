@@ -1,0 +1,148 @@
+id: joseph_the_worker
+title: Saint Joseph
+context: 1ᵉʳ mai
+subTitle: travailleur
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    note: Si on célèbre cette mémoire, l’évangile ci-dessous est obligatoire.
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Gn
+            ref: 1, 26 - 2, 3
+            headline: « Remplissez la terre et soumettez-la »
+            content: |-
+              Au commencement,
+              Dieu dit :
+              « Faisons l’homme à notre image,
+              selon notre ressemblance.
+              Qu’il soit le maître des poissons de la mer, des oiseaux du ciel,
+              des bestiaux, de toutes les bêtes sauvages,
+              et de toutes les bestioles
+              qui vont et viennent sur la terre. »
+              Dieu créa l’homme à son image,
+              à l’image de Dieu il le créa,
+              il les créa homme et femme.
+              Dieu les bénit et leur dit :
+              « Soyez féconds et multipliez-vous,
+              remplissez la terre et soumettez-la.
+              Soyez les maîtres des poissons de la mer, des oiseaux du ciel,
+              et de tous les animaux qui vont et viennent sur la terre. »
+
+              Dieu dit encore :
+              « Je vous donne toute plante qui porte sa semence
+              sur toute la surface de la terre,
+              et tout arbre dont le fruit porte sa semence :
+              telle sera votre nourriture.
+              À tous les animaux de la terre,
+              à tous les oiseaux du ciel,
+              à tout ce qui va et vient sur la terre
+              et qui a souffle de vie,
+              je donne comme nourriture toute herbe verte. »
+              Et ce fut ainsi.
+              Et Dieu vit tout ce qu’il avait fait ;
+              et voici : cela était très bon.
+              Il y eut un soir, il y eut un matin :
+              sixième jour.
+
+              Ainsi furent achevés le ciel et la terre,
+              et tout leur déploiement.
+              Le septième jour,
+              Dieu avait achevé l’œuvre qu’il avait faite.
+              Il se reposa, le septième jour,
+              de toute l’œuvre qu’il avait faite.
+              Et Dieu bénit le septième jour :
+              il le sanctifia
+              puisque, ce jour-là, il se reposa
+              de toute l’œuvre de création qu’il avait faite.
+          - book: Col
+            ref: 3, 14-15.17.23-24
+            headline: « Quel que soit votre travail, faites-le de bon cœur, comme pour le
+              Seigneur et non pour plaire à des hommes »
+            content: |-
+              Frères,
+              par-dessus tout, ayez l’amour,
+              qui est le lien le plus parfait.
+              Et que, dans vos cœurs, règne la paix du Christ
+              à laquelle vous avez été appelés,
+              vous qui formez un seul corps.
+              Vivez dans l’action de grâce.
+              Et tout ce que vous dites, tout ce que vous faites,
+              que ce soit toujours au nom du Seigneur Jésus,
+              en offrant par lui votre action de grâce à Dieu le Père.
+              Quel que soit votre travail, faites-le de bon cœur,
+              comme pour le Seigneur et non pour plaire à des hommes :
+              vous savez bien qu’en retour
+              vous recevrez du Seigneur votre héritage.
+              C’est le Christ,
+              le Seigneur, que vous servez.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 89 (90), 2, 3-4, 12-13, 14.16
+            refAbbr: 89, 2…
+            chorus:
+              - chorusRef: 89, 17c
+                chorus: |-
+                  Consolide, Seigneur,
+                  l’ouvrage de nos mains.
+              - chorus: Alléluia !
+            content: |-
+              Avant que naissent les montagnes,
+              que tu enfantes la terre et le monde,
+              de toujours à toujours,
+              toi, tu es Dieu.
+
+              Tu fais retourner l’homme à la poussière ;
+              tu as dit : « Retournez, fils d’Adam ! »
+              À tes yeux, mille ans sont comme hier,
+              c’est un jour qui s’en va, une heure dans la nuit.
+
+              Apprends-nous la vraie mesure de nos jours :
+              que nos cœurs pénètrent la sagesse.
+              Reviens, Seigneur, pourquoi tarder ?
+              Ravise-toi par égard pour tes serviteurs.
+
+              Rassasie-nous de ton amour au matin,
+              que nous passions nos jours dans la joie et les chants.
+              Fais connaître ton œuvre à tes serviteurs
+              et ta splendeur à leurs fils.
+
+      - partType: ALLELUIA
+        mandatoryContent: true
+        partContents:
+          - book: Ps
+            ref: 67, 20
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Que le Seigneur soit béni !
+              Jour après jour, ce Dieu nous accorde la victoire.
+
+      - partType: GOSPEL
+        mandatoryContent: true
+        partContents:
+          - book: Mt
+            ref: 13, 54-58
+            headline: « N’est-il pas le fils du charpentier ? »
+            content: |-
+              En ce temps-là,
+              Jésus se rendit dans son lieu d’origine,
+              et il enseignait les gens dans leur synagogue,
+              de telle manière qu’ils étaient frappés d’étonnement
+              et disaient :
+              « D’où lui viennent cette sagesse
+              et ces miracles ?
+              N’est-il pas le fils du charpentier ?
+              Sa mère ne s’appelle-t-elle pas Marie,
+              et ses frères : Jacques, Joseph, Simon et Jude ?
+              Et ses sœurs ne sont-elles pas toutes chez nous ?
+              Alors, d’où lui vient tout cela ? »
+              Et ils étaient profondément choqués à son sujet.
+              Jésus leur dit :
+              « Un prophète n’est méprisé que dans son pays
+              et dans sa propre maison. »
+              Et il ne fit pas beaucoup de miracles à cet endroit-là,
+              à cause de leur manque de foi.

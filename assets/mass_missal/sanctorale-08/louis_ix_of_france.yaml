@@ -1,0 +1,114 @@
+id: louis_ix_of_france
+title: Saint Louis
+context: 25 août
+note: Commun des saints.
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 58, 6-11
+            headline: « Partage ton pain avec celui qui a faim »
+            content: |-
+              Ainsi parle le Seigneur :
+              Le jeûne qui me plaît, n’est-ce pas ceci :
+              faire tomber les chaînes injustes,
+              délier les attaches du joug,
+              rendre la liberté aux opprimés,
+              briser tous les jougs ?
+              N’est-ce pas partager ton pain avec celui qui a faim,
+              accueillir chez toi les pauvres sans abri,
+              couvrir celui que tu verras sans vêtement,
+              ne pas te dérober à ton semblable ?
+              Alors ta lumière jaillira comme l’aurore,
+              et tes forces reviendront vite.
+              Devant toi marchera ta justice,
+              et la gloire du Seigneur fermera la marche.
+              Alors, si tu appelles, le Seigneur répondra ;
+              si tu cries, il dira : « Me voici. »
+              Si tu fais disparaître de chez toi
+              le joug, le geste accusateur, la parole malfaisante,
+              si tu donnes à celui qui a faim ce que toi, tu désires,
+              et si tu combles les désirs du malheureux,
+              ta lumière se lèvera dans les ténèbres
+              et ton obscurité sera lumière de midi.
+              Le Seigneur sera toujours ton guide.
+              En plein désert, il comblera tes désirs
+              et te rendra vigueur.
+              Tu seras comme un jardin bien irrigué,
+              comme une source où les eaux ne manquent jamais.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+            refAbbr: 111, 1…
+            chorus:
+              - chorusRef: 111, 1a
+                chorus: Heureux qui craint le Seigneur.
+              - chorus: Alléluia !
+            content: |-
+              Heureux qui craint le Seigneur,
+              qui aime entièrement sa volonté !
+              Sa lignée sera puissante sur la terre ;
+              la race des justes est bénie.
+
+              Les richesses affluent dans sa maison :
+              à jamais se maintiendra sa justice.
+              Lumière des cœurs droits, il s’est levé dans les ténèbres,
+              homme de justice, de tendresse et de pitié.
+
+              L’homme de bien a pitié, il partage ;
+              il mène ses affaires avec droiture.
+              Cet homme jamais ne tombera ;
+              toujours on fera mémoire du juste.
+
+              Il ne craint pas l’annonce d’un malheur :
+              le cœur ferme, il s’appuie sur le Seigneur.
+              Son cœur est confiant, il ne craint pas :
+              il verra ce que valaient ses oppresseurs
+
+              À pleines mains, il donne au pauvre ;
+              à jamais se maintiendra sa justice,
+              sa puissance grandira, et sa gloire !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 13, 34
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Je vous donne un commandement nouveau,
+              dit le Seigneur :
+              « Aimez-vous les uns les autres
+              comme je vous ai aimés. »
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 22, 34-40
+            headline: « Tu aimeras le Seigneur ton Dieu, et ton prochain comme toi-même »
+            content: |-
+              En ce temps-là,
+              	les pharisiens,
+              apprenant que Jésus avait fermé la bouche aux sadducéens,
+
+              se réunirent,
+              	et l’un d’entre eux, un docteur de la Loi, posa une question à Jésus
+              pour le mettre à l’épreuve :
+              	« Maître, dans la Loi,
+              quel est le grand commandement ? »
+              	Jésus lui répondit :
+              « _Tu aimeras le Seigneur ton Dieu
+
+              de tout ton cœur,
+
+              de toute ton âme et de tout ton esprit._
+              	Voilà le grand, le premier commandement.
+              	Et le second lui est semblable :
+              _Tu aimeras ton prochain comme toi-même._
+              	De ces deux commandements
+              dépend toute la Loi, ainsi que les Prophètes. »

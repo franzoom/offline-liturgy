@@ -1,0 +1,116 @@
+id: luke_evangelist
+title: Saint Luc
+context: 18 octobre
+subTitle: évangéliste
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 2 Tm
+            ref: 4, 10-17b
+            headline: « Luc est seul avec moi »
+            content: |-
+              Bien-aimé,
+              	Démas m’a abandonné par amour de ce monde,
+              et il est parti pour Thessalonique.
+              Crescent est parti pour la Galatie,
+              et Tite pour la Dalmatie.
+              	Luc est seul avec moi.
+              Amène Marc avec toi,
+              il m’est très utile pour le ministère.
+              	J’ai envoyé Tychique à Éphèse.
+              	En venant, rapporte-moi le manteau
+              que j’ai laissé à Troas chez Carpos.
+              Apporte-moi aussi mes livres, surtout les parchemins.
+
+              Alexandre, le forgeron, m’a fait beaucoup de mal.
+              Le Seigneur lui rendra selon ses œuvres.
+              	Toi aussi, prends garde à cet individu,
+              car il s’est violemment opposé à nos paroles.
+
+              La première fois que j’ai présenté ma défense,
+              personne ne m’a soutenu :
+              tous m’ont abandonné.
+              Que cela ne soit pas retenu contre eux.
+              	Le Seigneur, lui, m’a assisté.
+              Il m’a rempli de force
+              pour que, par moi, la proclamation de l’Évangile
+              s’accomplisse jusqu’au bout
+              et que toutes les nations l’entendent.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 144 (145), 10-11, 12-13ab, 17-18
+            refAbbr: 144, 10…
+            chorus:
+              - chorusRef: 144, 12
+                chorus: |-
+                  Que tes fidèles, Seigneur,
+                  disent la gloire de ton règne.
+            content: |-
+              Que tes œuvres, Seigneur, te rendent grâce
+              et que tes fidèles te bénissent !
+              Ils diront la gloire de ton règne,
+              ils parleront de tes exploits,
+
+              Ils annonceront aux hommes tes exploits,
+              la gloire et l’éclat de ton règne :
+              ton règne, un règne éternel,
+              ton empire, pour les âges des âges.
+
+              Le Seigneur est juste en toutes ses voies,
+              fidèle en tout ce qu’il fait.
+              Il est proche de ceux qui l’invoquent,
+              de tous ceux qui l’invoquent en vérité.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 15, 16
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              C’est moi qui vous ai choisis du milieu du monde,
+              afin que vous alliez, que vous portiez du fruit,
+              et que votre fruit demeure, dit le Seigneur.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 10, 1-9
+            headline: « La moisson est abondante, mais les ouvriers sont peu nombreux »
+            content: |-
+              En ce temps-là,
+              parmi les disciples,
+              	le Seigneur en désigna encore 72,
+              et il les envoya deux par deux, en avant de lui,
+              en toute ville et localité
+              où lui-même allait se rendre.
+              	Il leur dit :
+              « La moisson est abondante,
+              mais les ouvriers sont peu nombreux.
+              Priez donc le maître de la moisson
+              d’envoyer des ouvriers pour sa moisson.
+              	Allez ! Voici que je vous envoie
+              comme des agneaux au milieu des loups.
+              	Ne portez ni bourse, ni sac, ni sandales,
+              et ne saluez personne en chemin.
+              	Mais dans toute maison où vous entrerez,
+              dites d’abord :
+              ‘Paix à cette maison.’
+              	S’il y a là un ami de la paix,
+              votre paix ira reposer sur lui ;
+              sinon, elle reviendra sur vous.
+              	Restez dans cette maison,
+              mangeant et buvant ce que l’on vous sert ;
+              car l’ouvrier mérite son salaire.
+              Ne passez pas de maison en maison.
+              	Dans toute ville où vous entrerez
+              et où vous serez accueillis,
+              mangez ce qui vous est présenté.
+              	Guérissez les malades qui s’y trouvent
+              et dites-leur :
+              ‘Le règne de Dieu s’est approché de vous.’ »

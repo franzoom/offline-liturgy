@@ -1,0 +1,681 @@
+id: nativity_of_the_lord
+title: Nativité du Seigneur
+context: 25 décembre
+liturgies:
+  - liturgyType: MASS
+    massType: PREVIOUS_EVENING_MASS
+    name: Messe de la veille au soir
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 62, 1-5
+            headline: « Tu seras la joie de ton Dieu »
+            content: |-
+              Pour la cause de Sion, je ne me tairai pas,
+              et pour Jérusalem, je n’aurai de cesse
+              que sa justice ne paraisse dans la clarté,
+              et son salut comme une torche qui brûle.
+              	Et les nations verront ta justice ;
+              tous les rois verront ta gloire.
+              On te nommera d’un nom nouveau
+              que la bouche du Seigneur dictera.
+              	Tu seras une couronne brillante
+              dans la main du Seigneur,
+              un diadème royal
+              entre les doigts de ton Dieu.
+              	On ne te dira plus : « Délaissée ! »
+              À ton pays, nul ne dira : « Désolation ! »
+              Toi, tu seras appelée « Ma Préférence »,
+              cette terre se nommera « L’Épousée ».
+              Car le Seigneur t’a préférée,
+              et cette terre deviendra « L’Épousée ».
+              	Comme un jeune homme épouse une vierge,
+              ton Bâtisseur t’épousera.
+              Comme la jeune mariée fait la joie de son mari,
+              tu seras la joie de ton Dieu.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 88 (89), 4-5, 16-17, 27.29
+            refAbbr: 88, 4…
+            chorus:
+              - chorusRef: 88, 2a
+                chorus: Ton amour, Seigneur, sans fin je le chante !
+            content: |-
+              « Avec mon élu, j’ai fait une alliance,
+              j’ai juré à David, mon serviteur :
+              J’établirai ta dynastie pour toujours,
+              je te bâtis un trône pour la suite des âges. »
+
+              Heureux le peuple qui connaît l’ovation !
+              Seigneur, il marche à la lumière de ta face ;
+              tout le jour, à ton nom il danse de joie,
+              fier de ton juste pouvoir.
+
+              « Il me dira : Tu es mon Père,
+              mon Dieu, mon roc et mon salut !
+              Sans fin je lui garderai mon amour,
+              mon alliance avec lui sera fidèle. »
+
+      - partType: READING_2
+        partContents:
+          - book: Ac
+            ref: 13, 16-17.22-25
+            headline: Le témoignage de Paul au sujet du Christ, fils de David
+            content: |-
+              Invité à prendre la parole dans la synagogue d’Antioche de
+              Pisidie,
+              	Paul se leva, fit un signe de la main et dit :
+              « Israélites, et vous aussi qui craignez Dieu,
+              écoutez :
+              	Le Dieu de ce peuple, le Dieu d’Israël a choisi nos pères ;
+              il a fait grandir son peuple pendant le séjour en Égypte
+              et il l’en a fait sortir à bras étendu.
+              	Plus tard, Dieu a, pour eux, suscité David comme roi,
+              et il lui a rendu ce témoignage :
+              _J’ai trouvé David, fils de Jessé ;
+              c’est un homme selon mon cœur
+              qui réalisera toutes mes volontés._
+              	De la descendance de David,
+              Dieu, selon la promesse, a fait sortir
+              un sauveur pour Israël :
+              c’est Jésus,
+              	dont Jean le Baptiste a préparé l’avènement,
+              en proclamant avant lui un baptême de conversion
+              pour tout le peuple d’Israël.
+              	Au moment d’achever sa course,
+              Jean disait :
+              ‘Ce que vous pensez que je suis,
+              je ne le suis pas.
+              Mais le voici qui vient après moi,
+              et je ne suis pas digne de retirer les sandales de ses pieds.’ »
+
+      - partType: ALLELUIA
+        partContents:
+          - acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Demain sera détruit le péché de la terre,
+              et sur nous régnera le Sauveur du monde.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 1, 1-25
+            headline: « Généalogie de Jésus, Christ, fils de David »
+            content: |-
+              Généalogie de Jésus, Christ,
+              fils de David, fils d’Abraham.
+              	Abraham engendra Isaac,
+              Isaac engendra Jacob,
+              Jacob engendra Juda et ses frères,
+              	Juda, de son union avec Thamar, engendra Pharès et Zara,
+              Pharès engendra Esrom,
+              Esrom engendra Aram,
+              	Aram engendra Aminadab,
+              Aminadab engendra Naassone,
+              Naassone engendra Salmone,
+              	Salmone, de son union avec Rahab, engendra Booz,
+              Booz, de son union avec Ruth, engendra Jobed,
+              Jobed engendra Jessé,
+              	Jessé engendra le roi David.
+
+              David, de son union avec la femme d’Ourias, engendra Salomon,
+              	Salomon engendra Roboam,
+              Roboam engendra Abia,
+              Abia engendra Asa,
+              	Asa engendra Josaphat,
+              Josaphat engendra Joram,
+              Joram engendra Ozias,
+              	Ozias engendra Joatham,
+              Joatham engendra Acaz,
+              Acaz engendra Ézékias,
+              	Ézékias engendra Manassé,
+              Manassé engendra Amone,
+              Amone engendra Josias,
+              	Josias engendra Jékonias et ses frères
+              à l’époque de l’exil à Babylone.
+
+              Après l’exil à Babylone,
+              Jékonias engendra Salathiel,
+              Salathiel engendra Zorobabel,
+              	Zorobabel engendra Abioud,
+              Abioud engendra Éliakim,
+              Éliakim engendra Azor,
+              	Azor engendra Sadok,
+              Sadok engendra Akim,
+              Akim engendra Élioud,
+              	Élioud engendra Éléazar,
+              Éléazar engendra Mattane,
+              Mattane engendra Jacob,
+              	Jacob engendra Joseph, l’époux de Marie,
+              de laquelle fut engendré Jésus,
+              que l’on appelle Christ.
+
+              Le nombre total des générations est donc :
+              depuis Abraham jusqu’à David, quatorze générations ;
+              depuis David jusqu’à l’exil à Babylone, quatorze générations ;
+              depuis l’exil à Babylone jusqu’au Christ, quatorze générations.
+
+              Voici comment fut engendré Jésus Christ :
+              Marie, sa mère, avait été accordée en mariage à Joseph ;
+              avant qu’ils aient habité ensemble,
+              elle fut enceinte
+              par l’action de l’Esprit Saint.
+              	Joseph, son époux,
+              qui était un homme juste,
+              et ne voulait pas la dénoncer publiquement,
+              décida de la renvoyer en secret.
+              	Comme il avait formé ce projet,
+              voici que l’ange du Seigneur
+              lui apparut en songe et lui dit :
+              « Joseph, fils de David,
+              ne crains pas de prendre chez toi Marie, ton épouse,
+              puisque l’enfant qui est engendré en elle
+              vient de l’Esprit Saint ;
+              	elle enfantera un fils,
+              et tu lui donneras le nom de Jésus
+              (c’est-à-dire : Le-Seigneur-sauve),
+              car c’est lui qui sauvera son peuple de ses péchés. »
+
+              Tout cela est arrivé
+              pour que soit accomplie
+              la parole du Seigneur prononcée par le prophète :
+              _Voici que la Vierge concevra,
+              et elle enfantera un fils ;_
+              _on lui donnera le nom d’Emmanuel,_
+              qui se traduit : « Dieu-avec-nous ».
+
+              Quand Joseph se réveilla,
+              il fit ce que l’ange du Seigneur lui avait prescrit :
+              il prit chez lui son épouse,
+              	mais il ne s’unit pas à elle,
+              jusqu’à ce qu’elle enfante un fils,
+              auquel il donna le nom de Jésus.
+            shortReadingRef: 1, 18-25
+            shortReadingContent: |-
+              Voici comment fut engendré Jésus Christ :
+              Marie, sa mère, avait été accordée en mariage à Joseph ;
+              avant qu’ils aient habité ensemble,
+              elle fut enceinte
+              par l’action de l’Esprit Saint.
+              	Joseph, son époux,
+              qui était un homme juste,
+              et ne voulait pas la dénoncer publiquement,
+              décida de la renvoyer en secret.
+              	Comme il avait formé ce projet,
+              voici que l’ange du Seigneur
+              lui apparut en songe et lui dit :
+              « Joseph, fils de David,
+              ne crains pas de prendre chez toi Marie, ton épouse,
+              puisque l’enfant qui est engendré en elle
+              vient de l’Esprit Saint ;
+              	elle enfantera un fils,
+              et tu lui donneras le nom de Jésus
+              (c’est-à-dire : Le-Seigneur-sauve),
+              car c’est lui qui sauvera son peuple de ses péchés. »
+
+              Tout cela est arrivé
+              pour que soit accomplie
+              la parole du Seigneur prononcée par le prophète :
+              _Voici que la Vierge concevra,
+              et elle enfantera un fils ;
+              on lui donnera le nom d’Emmanuel,_
+              qui se traduit : « Dieu-avec-nous ».
+
+              Quand Joseph se réveilla,
+              il fit ce que l’ange du Seigneur lui avait prescrit :
+              il prit chez lui son épouse,
+              	mais il ne s’unit pas à elle,
+              jusqu’à ce qu’elle enfante un fils,
+              auquel il donna le nom de Jésus.
+
+  - liturgyType: MASS
+    massType: NIGHT_MASS
+    name: Messe de la nuit
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 9, 1-6
+            headline: « Un enfant nous est né »
+            content: |-
+              Le peuple qui marchait dans les ténèbres
+              a vu se lever une grande lumière ;
+              et sur les habitants du pays de l’ombre,
+              une lumière a resplendi.
+              	Tu as prodigué la joie,
+              tu as fait grandir l’allégresse :
+              ils se réjouissent devant toi,
+              comme on se réjouit de la moisson,
+              comme on exulte au partage du butin.
+              	Car le joug qui pesait sur lui,
+              la barre qui meurtrissait son épaule,
+              le bâton du tyran,
+              tu les as brisés comme au jour de Madiane.
+              	Et les bottes qui frappaient le sol,
+              et les manteaux couverts de sang,
+              les voilà tous brûlés :
+              le feu les a dévorés.
+
+              Oui, un enfant nous est né,
+              un fils nous a été donné !
+              Sur son épaule est le signe du pouvoir ;
+              son nom est proclamé :
+              « Conseiller-merveilleux, Dieu-Fort,
+              Père-à-jamais, Prince-de-la-Paix. »
+              	Et le pouvoir s’étendra,
+              et la paix sera sans fin
+              pour le trône de David et pour son règne
+              qu’il établira, qu’il affermira
+              sur le droit et la justice
+              dès maintenant et pour toujours.
+              Il fera cela, l’amour jaloux du Seigneur de l’univers !
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 95 (96), 1-2a, 2b-3, 11-12a, 12b-13a, 13bc
+            refAbbr: 95, 1…
+            chorus:
+              - chorusRef: 2, 11
+                chorus: |-
+                  Aujourd’hui, un Sauveur nous est né :
+                  c’est le Christ, le Seigneur.
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              chantez au Seigneur, terre entière,
+              chantez au Seigneur et bénissez son nom !
+
+              De jour en jour, proclamez son salut,
+              racontez à tous les peuples sa gloire,
+              à toutes les nations ses merveilles !
+
+              Joie au ciel ! Exulte la terre !
+              Les masses de la mer mugissent,
+              la campagne tout entière est en fête.
+
+              Les arbres des forêts dansent de joie
+              devant la face du Seigneur, car il vient,
+              car il vient pour juger la terre.
+
+              Il jugera le monde avec justice
+              et les peuples selon sa vérité.
+
+      - partType: READING_2
+        partContents:
+          - book: Tt
+            ref: 2, 11-14
+            headline: « La grâce de Dieu s’est manifestée pour tous les hommes »
+            content: |-
+              Bien-aimé,
+              	la grâce de Dieu s’est manifestée
+              pour le salut de tous les hommes.
+              	Elle nous apprend à renoncer à l’impiété
+              et aux convoitises de ce monde,
+              et à vivre dans le temps présent de manière raisonnable,
+              avec justice et piété,
+              	attendant que se réalise la bienheureuse espérance :
+              la manifestation de la gloire
+              de notre grand Dieu et Sauveur, Jésus Christ.
+              	Car il s’est donné pour nous
+              afin de nous racheter de toutes nos fautes,
+              et de nous purifier
+              pour faire de nous son peuple,
+              un peuple ardent à faire le bien.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 2, 10-11
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Je vous annonce une grande joie :
+              Aujourd'hui vous est né un Sauveur
+              qui est le Christ, le Seigneur !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 2, 1-14
+            headline: « Aujourd’hui vous est né un Sauveur »
+            content: |-
+              En ces jours-là,
+              parut un édit de l’empereur Auguste,
+              ordonnant de recenser toute la terre
+              	– ce premier recensement eut lieu
+              lorsque Quirinius était gouverneur de Syrie.
+              	Et tous allaient se faire recenser, chacun dans sa ville d’origine.
+              	Joseph, lui aussi, monta de Galilée, depuis la ville de Nazareth,
+              vers la Judée, jusqu’à la ville de David appelée Bethléem.
+              Il était en effet de la maison et de la lignée de David.
+              	Il venait se faire recenser avec Marie,
+              qui lui avait été accordée en mariage
+              et qui était enceinte.
+
+              Or, pendant qu’ils étaient là,
+              le temps où elle devait enfanter fut accompli.
+              	Et elle mit au monde son fils premier-né ;
+              elle l’emmaillota et le coucha dans une mangeoire,
+              car il n’y avait pas de place pour eux dans la salle commune.
+              	Dans la même région, il y avait des bergers
+              qui vivaient dehors et passaient la nuit dans les champs
+              pour garder leurs troupeaux.
+              	L’ange du Seigneur se présenta devant eux,
+              et la gloire du Seigneur les enveloppa de sa lumière.
+              Ils furent saisis d’une grande crainte.
+              	Alors l’ange leur dit :
+              « Ne craignez pas,
+              car voici que je vous annonce une bonne nouvelle,
+              qui sera une grande joie pour tout le peuple :
+              	Aujourd’hui, dans la ville de David,
+              vous est né un Sauveur
+              qui est le Christ, le Seigneur.
+              	Et voici le signe qui vous est donné :
+              vous trouverez un nouveau-né
+              emmailloté et couché dans une mangeoire. »
+              	Et soudain, il y eut avec l’ange une troupe céleste innombrable,
+              qui louait Dieu en disant :
+              	« Gloire à Dieu au plus haut des cieux,
+              et paix sur la terre aux hommes, qu’Il aime. »
+
+  - liturgyType: MASS
+    massType: MASS_AT_DAWN
+    name: Messe de l’aurore
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 62, 11-12
+            headline: « Voici ton Sauveur qui vient »
+            content: |-
+              Voici que le Seigneur se fait entendre
+              jusqu’aux extrémités de la terre :
+              Dites à la fille de Sion :
+              Voici ton Sauveur qui vient ;
+              avec lui, le fruit de son travail,
+              et devant lui, son ouvrage.
+
+              Eux seront appelés « Peuple-saint »,
+              « Rachetés-par-le-Seigneur »,
+              et toi, on t’appellera « La-Désirée »,
+              « La-Ville-qui-n’est-plus-délaissée ».
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 96 (97), 1.6, 11-12
+            refAbbr: 96, 1…
+            chorus:
+              - chorus: |-
+                  La lumière aujourd’hui a resplendi sur nous :
+                  un Sauveur nous est né !
+            content: |-
+              Le Seigneur est roi ! Exulte la terre !
+              Joie pour les îles sans nombre !
+              Les cieux ont proclamé sa justice,
+              et tous les peuples ont vu sa gloire.
+
+              Une lumière est semée pour le juste,
+              et pour le cœur simple, une joie.
+              Que le Seigneur soit votre joie, hommes justes ;
+              rendez grâce en rappelant son nom très saint.
+
+      - partType: READING_2
+        partContents:
+          - book: Tt
+            ref: 3, 4-7
+            headline: « Dieu nous a sauvés par sa miséricorde »
+            content: |-
+              Bien-aimé,
+              	lorsque Dieu, notre Sauveur,
+              a manifesté sa bonté et son amour pour les hommes,
+              	il nous a sauvés,
+              non pas à cause de la justice de nos propres actes,
+              mais par sa miséricorde.
+              Par le bain du baptême, il nous a fait renaître
+              et nous a renouvelés dans l’Esprit Saint.
+              	Cet Esprit, Dieu l’a répandu sur nous en abondance,
+              par Jésus Christ notre Sauveur,
+              	afin que, rendus justes par sa grâce,
+              nous devenions en espérance
+              héritiers de la vie éternelle.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 2, 14
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Gloire à Dieu au plus haut des cieux,
+              et paix sur la terre aux hommes, qu'il aime !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 2, 15-20
+            headline: « Les bergers découvrirent Marie et Joseph, avec le nouveau-né »
+            content: |-
+              Lorsque les anges eurent quitté les bergers pour le ciel,
+              ceux-ci se disaient entre eux :
+              « Allons jusqu’à Bethléem
+              pour voir ce qui est arrivé,
+              l’événement que le Seigneur nous a fait connaître. »
+              	Ils se hâtèrent d’y aller,
+              et ils découvrirent Marie et Joseph,
+              avec le nouveau-né couché dans la mangeoire.
+              	Après avoir vu,
+              ils racontèrent ce qui leur avait été annoncé
+              au sujet de cet enfant.
+              	Et tous ceux qui entendirent s’étonnaient
+              de ce que leur racontaient les bergers.
+              	Marie, cependant, retenait tous ces événements
+              et les méditait dans son cœur.
+              	Les bergers repartirent ;
+              ils glorifiaient et louaient Dieu
+              pour tout ce qu’ils avaient entendu et vu,
+              selon ce qui leur avait été annoncé.
+
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 52, 7-10
+            headline: « Tous les lointains de la terre ont vu le salut de notre Dieu »
+            content: |-
+              Comme ils sont beaux sur les montagnes,
+              les pas du messager,
+              celui qui annonce la paix,
+              qui porte la bonne nouvelle,
+              qui annonce le salut,
+              et vient dire à Sion :
+              « Il règne, ton Dieu ! »
+              	Écoutez la voix des guetteurs :
+              ils élèvent la voix,
+              tous ensemble ils crient de joie
+              car, de leurs propres yeux,
+              ils voient le Seigneur qui revient à Sion.
+              	Éclatez en cris de joie,
+              vous, ruines de Jérusalem,
+              car le Seigneur console son peuple,
+              il rachète Jérusalem !
+              	Le Seigneur a montré la sainteté de son bras
+              aux yeux de toutes les nations.
+              Tous les lointains de la terre
+              ont vu le salut de notre Dieu.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 97 (98), 1, 2-3ab, 3cd-4, 5-6
+            refAbbr: 97, 1…
+            chorus:
+              - chorusRef: 97, 3
+                chorus: |-
+                  La terre tout entière a vu
+                  le salut que Dieu nous donne.
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              car il a fait des merveilles ;
+              par son bras très saint, par sa main puissante,
+              il s’est assuré la victoire.
+
+              Le Seigneur a fait connaître sa victoire
+              et révélé sa justice aux nations ;
+              il s’est rappelé sa fidélité, son amour,
+              en faveur de la maison d’Israël.
+
+              La terre tout entière a vu
+              la victoire de notre Dieu.
+              Acclamez le Seigneur, terre entière,
+              sonnez, chantez, jouez !
+
+              Jouez pour le Seigneur sur la cithare,
+              sur la cithare et tous les instruments ;
+              au son de la trompette et du cor,
+              acclamez votre roi, le Seigneur !
+
+      - partType: READING_2
+        partContents:
+          - book: He
+            ref: 1, 1-6
+            headline: « Dieu nous a parlé par son Fils »
+            content: |-
+              À bien des reprises
+              et de bien des manières,
+              Dieu, dans le passé,
+              a parlé à nos pères par les prophètes ;
+              	mais à la fin, en ces jours où nous sommes,
+              il nous a parlé par son Fils
+              qu’il a établi héritier de toutes choses
+              et par qui il a créé les mondes.
+              	Rayonnement de la gloire de Dieu,
+              expression parfaite de son être,
+              le Fils, qui porte l’univers
+              par sa parole puissante,
+              après avoir accompli la purification des péchés,
+              s’est assis à la droite de la Majesté divine
+              dans les hauteurs des cieux ;
+              	et il est devenu bien supérieur aux anges,
+              dans la mesure même où il a reçu en héritage
+              un nom si différent du leur.
+              	En effet, Dieu déclara-t-il jamais à un ange :
+              _Tu es mon Fils,
+              moi, aujourd’hui, je t’ai engendré ?_
+              Ou bien encore :
+              _Moi, je serai pour lui un père,
+              et lui sera pour moi un fils ?_
+              	À l’inverse, au moment d’introduire le Premier-né
+              dans le monde à venir,
+              il dit :
+              _Que se prosternent devant lui
+              tous les anges de Dieu._
+
+      - partType: ALLELUIA
+        partContents:
+          - acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Aujourd'hui la lumière a brillé sur la terre.
+              Peuples de l'univers, entrez dans la clarté de Dieu.
+              Venez tous adorer le Seigneur !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 1, 1-18
+            headline: « Le Verbe s’est fait chair, il a habité parmi nous »
+            content: |-
+              Au commencement était le Verbe,
+              et le Verbe était auprès de Dieu,
+              et le Verbe était Dieu.
+              	Il était au commencement auprès de Dieu.
+              	C’est par lui que tout est venu à l’existence,
+              et rien de ce qui s’est fait ne s’est fait sans lui.
+              	En lui était la vie,
+              et la vie était la lumière des hommes ;
+              	la lumière brille dans les ténèbres,
+              et les ténèbres ne l’ont pas arrêtée.
+
+              Il y eut un homme envoyé par Dieu ;
+              son nom était Jean.
+              	Il est venu comme témoin,
+              pour rendre témoignage à la Lumière,
+              afin que tous croient par lui.
+              	Cet homme n’était pas la Lumière,
+              mais il était là pour rendre témoignage à la Lumière.
+
+              Le Verbe était la vraie Lumière,
+              qui éclaire tout homme
+              en venant dans le monde.
+              	Il était dans le monde,
+              et le monde était venu par lui à l’existence,
+              mais le monde ne l’a pas reconnu.
+
+              Il est venu chez lui,
+              et les siens ne l’ont pas reçu.
+              	Mais à tous ceux qui l’ont reçu,
+              il a donné de pouvoir devenir enfants de Dieu,
+              eux qui croient en son nom.
+              	Ils ne sont pas nés du sang,
+              ni d’une volonté charnelle,
+              ni d’une volonté d’homme :
+              ils sont nés de Dieu.
+              	Et le Verbe s’est fait chair,
+              il a habité parmi nous,
+              et nous avons vu sa gloire,
+              la gloire qu’il tient de son Père
+              comme Fils unique,
+              plein de grâce et de vérité.
+
+              Jean le Baptiste lui rend témoignage en proclamant :
+              « C’est de lui que j’ai dit :
+              Celui qui vient derrière moi
+              est passé devant moi,
+              car avant moi il était. »
+              	Tous, nous avons eu part à sa plénitude,
+              nous avons reçu grâce après grâce ;
+              	car la Loi fut donnée par Moïse,
+              la grâce et la vérité sont venues par Jésus Christ.
+
+              Dieu, personne ne l’a jamais vu ;
+              le Fils unique, lui qui est Dieu,
+              lui qui est dans le sein du Père,
+              c’est lui qui l’a fait connaître.
+            shortReadingRef: 1, 1-5.9-14
+            shortReadingContent: |-
+              Au commencement était le Verbe,
+              et le Verbe était auprès de Dieu,
+              et le Verbe était Dieu.
+              	Il était au commencement auprès de Dieu.
+              	C’est par lui que tout est venu à l’existence,
+              et rien de ce qui s’est fait ne s’est fait sans lui.
+              	En lui était la vie,
+              et la vie était la lumière des hommes ;
+              	la lumière brille dans les ténèbres,
+              et les ténèbres ne l’ont pas arrêtée.
+
+              Le Verbe était la vraie Lumière,
+              qui éclaire tout homme
+              en venant dans le monde.
+              	Il était dans le monde,
+              et le monde était venu par lui à l’existence,
+              mais le monde ne l’a pas reconnu.
+              	Il est venu chez lui,
+              et les siens ne l’ont pas reçu.
+              	Mais à tous ceux qui l’ont reçu,
+              il a donné de pouvoir devenir enfants de Dieu,
+              eux qui croient en son nom.
+              	Ils ne sont pas nés du sang,
+              ni d’une volonté charnelle,
+              ni d’une volonté d’homme :
+              ils sont nés de Dieu.
+              	Et le Verbe s’est fait chair,
+              il a habité parmi nous,
+              et nous avons vu sa gloire,
+              la gloire qu’il tient de son Père
+              comme Fils unique,
+              plein de grâce et de vérité.

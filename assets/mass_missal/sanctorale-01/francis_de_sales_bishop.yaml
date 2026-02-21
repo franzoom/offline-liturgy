@@ -1,0 +1,39 @@
+id: francis_de_sales_bishop
+title: Saint François de Sales
+context: 24 janvier
+note: Commun des pasteurs, ou des docteurs de l’Église.
+subTitle: évêque et docteur de l’Église
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ep
+            ref: 3, 8-12
+            headline: « Annoncer aux nations l’insondable richesse du Christ »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 36 (37), 3-4, 5-6, 30-31
+            refAbbr: 36, 3…
+            chorus:
+              - chorusRef: 36, 30a
+                chorus: |-
+                  Les lèvres du juste redisent la sagesse.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 13, 34
+            content: |-
+              Je vous donne un commandement dit le Seigneur :
+              « Aimez-vous les uns les autres, comme je vous ai aimés. »
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 15, 9-17
+            headline: « Vous êtes mes amis si vous faites ce que je vous commande »

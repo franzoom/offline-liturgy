@@ -1,0 +1,192 @@
+id: ordinary_time_21_monday
+title: Lundi
+context: Vingt et unième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_21ST_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Th
+            ref: 1, 1-5.8b-10
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Vous vous êtes convertis à Dieu en vous détournant des idoles, afin
+              d’attendre des cieux son Fils qu’il a ressuscité »
+            content: |-
+              Paul, Silvain et Timothée,
+              à l’Église de Thessalonique
+              qui est en Dieu le Père
+              et dans le Seigneur Jésus Christ.
+              À vous, la grâce et la paix.
+
+              À tout moment, nous rendons grâce à Dieu au sujet de vous tous,
+              en faisant mémoire de vous dans nos prières.
+              Sans cesse, nous nous souvenons
+              que votre foi est active,
+              que votre charité se donne de la peine,
+              que votre espérance tient bon
+              en notre Seigneur Jésus Christ,
+              en présence de Dieu notre Père.
+              	Nous le savons, frères bien-aimés de Dieu,
+              vous avez été choisis par lui.
+              	En effet, notre annonce de l’Évangile
+              n’a pas été, chez vous, simple parole,
+              mais puissance, action de l’Esprit Saint, pleine certitude :
+              vous savez comment nous nous sommes comportés chez vous
+              pour votre bien.
+              	La nouvelle de votre foi en Dieu s’est si bien répandue partout
+              que nous n’avons pas besoin d’en parler.
+              	En effet, les gens racontent, à notre sujet,
+              l’accueil que nous avons reçu chez vous ;
+              ils disent comment vous vous êtes convertis à Dieu
+              en vous détournant des idoles,
+              afin de servir le Dieu vivant et véritable,
+              	et afin d’attendre des cieux son Fils
+              qu’il a ressuscité d’entre les morts,
+              Jésus, qui nous délivre de la colère qui vient.
+          - book: 2 Th
+            ref: 1, 1-5.11b-12
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Le nom de notre Seigneur Jésus sera glorifié en vous, et vous en lui »
+            content: |-
+              Paul, Silvain et Timothée,
+              à l’Église de Thessalonique
+              qui est en Dieu notre Père
+              et dans le Seigneur Jésus Christ.
+              	À vous, la grâce et la paix
+              de la part de Dieu notre Père
+              et du Seigneur Jésus Christ.
+
+              Frères, à tout moment
+              nous devons rendre grâce à Dieu à votre sujet,
+              et c’est bien de le faire,
+              étant donné les grands progrès de votre foi,
+              et l’amour croissant
+              que tous et chacun, vous avez les uns pour les autres.
+              	C’est pourquoi nous-mêmes sommes fiers de vous
+              au milieu des Églises de Dieu,
+              à cause de votre endurance et de votre foi
+              dans toutes les persécutions et les détresses que vous supportez.
+              	Il y a là un signe du juste jugement de Dieu ;
+              ainsi vous deviendrez dignes de son Royaume
+              pour lequel vous souffrez.
+              	Que notre Dieu vous trouve dignes de l’appel qu’il vous a adressé ;
+              par sa puissance,
+              qu’il vous donne d’accomplir tout le bien que vous désirez,
+              et qu’il rende active votre foi.
+              	Ainsi, le nom de notre Seigneur Jésus sera glorifié en vous,
+              et vous en lui,
+              selon la grâce de notre Dieu
+              et du Seigneur Jésus Christ.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 149, 1-2, 3-4, 5-6a.9b
+            refAbbr: 149, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 149, 4a
+                chorus: Le Seigneur aime son peuple.
+              - chorus: Alléluia !
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              louez-le dans l’assemblée de ses fidèles !
+              En Israël, joie pour son créateur ;
+              dans Sion, allégresse pour son Roi !
+
+              Dansez à la louange de son nom,
+              jouez pour lui, tambourins et cithares !
+              Car le Seigneur aime son peuple,
+              il donne aux humbles l’éclat de la victoire.
+
+              Que les fidèles exultent, glorieux,
+              criant leur joie à l’heure du triomphe.
+              Qu’ils proclament les éloges de Dieu,
+              c’est la fierté de ses fidèles.
+          - book: Ps
+            ref: 95 (96), 1-2a, 2b-3, 4-5
+            refAbbr: 95, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 95, 3
+                chorus: |-
+                  Racontez à tous les peuples
+                  les merveilles du Seigneur !
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              chantez au Seigneur, terre entière,
+              chantez au Seigneur et bénissez son nom !
+
+              De jour en jour, proclamez son salut,
+              racontez à tous les peuples sa gloire,
+              à toutes les nations ses merveilles !
+
+              Il est grand, le Seigneur, hautement loué,
+              redoutable au-dessus de tous les dieux :
+              néant, tous les dieux des nations !
+              Lui, le Seigneur a fait les cieux.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 10, 27
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Mes brebis écoutent ma voix, dit le Seigneur ;
+              moi, je les connais, et elles me suivent.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 23, 13-22
+            headline: « Malheureux êtes-vous, guides aveugles »
+            content: |-
+              En ce temps-là,
+              Jésus disait :
+              	« Malheureux êtes-vous, scribes et pharisiens hypocrites,
+              parce que vous fermez à clé le royaume des Cieux
+              devant les hommes ;
+              vous-mêmes, en effet, n’y entrez pas,
+              et vous ne laissez pas entrer
+              ceux qui veulent entrer !
+              	Malheureux êtes-vous, scribes et pharisiens hypocrites,
+              parce que vous parcourez la mer et la terre
+              pour faire un seul converti,
+              et quand c’est arrivé,
+              vous faites de lui un homme voué à la géhenne,
+              deux fois pire que vous !
+
+              Malheureux êtes-vous, guides aveugles,
+              vous qui dites :
+              “Si l’on fait un serment par le Sanctuaire,
+              il est nul ;
+              mais si l’on fait un serment par l’or du Sanctuaire,
+              on doit s’en acquitter.”
+              	Insensés et aveugles !
+              Qu’est-ce qui est le plus important : l’or ?
+              ou bien le Sanctuaire qui consacre cet or ?
+              	Vous dites encore :
+              “Si l’on fait un serment par l’autel,
+              il est nul ;
+              mais si l’on fait un serment par l’offrande posée sur l’autel,
+              on doit s’en acquitter.”
+              	Aveugles ! Qu’est-ce qui est le plus important :
+              l’offrande ?
+              ou bien l’autel qui consacre cette offrande ?
+              	Celui donc qui fait un serment par l’autel
+              fait un serment par l’autel
+              et par tout ce qui est posé dessus ;
+              	celui qui fait un serment par le Sanctuaire
+              fait un serment par le Sanctuaire
+              et par Celui qui l’habite ;
+              	et celui qui fait un serment par le ciel
+              fait un serment par le trône de Dieu
+              et par Celui qui siège sur ce trône. »

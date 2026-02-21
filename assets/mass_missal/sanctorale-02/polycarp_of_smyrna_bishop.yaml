@@ -1,0 +1,39 @@
+id: polycarp_of_smyrna_bishop
+title: Saint Polycarpe
+context: 23 février
+note: Commun des martyrs, ou des pasteurs (évêques).
+subTitle: évêque et martyr
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ap
+            ref: 2, 8-11
+            headline: « Je sais ta détresse et ta pauvreté »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 30 (31), 3bc-4, 6.8, 17-18
+            refAbbr: 30, 3…
+            chorus:
+              - chorusRef: 30, 6a
+                chorus: |-
+                  En tes mains, Seigneur,
+                  je remets mon esprit.
+
+      - partType: ALLELUIA
+        partContents:
+          - content: |-
+              À toi, Dieu, notre louange !
+              Toi, dont témoignent les martyrs,
+              nous t’acclamons : tu es Seigneur !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 15, 18-21
+            headline: « Si l’on m’a persécuté, on vous persécutera, vous aussi »

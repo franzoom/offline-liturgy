@@ -1,0 +1,196 @@
+id: ordinary_time_7_monday
+title: Lundi
+context: Septième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_7TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Si
+            ref: 1, 1-10
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Avant toute chose fut créée la sagesse »
+            content: |-
+              Toute sagesse vient du Seigneur,
+              et demeure auprès de lui pour toujours.
+              	Le sable des mers, les gouttes de la pluie,
+              et les jours de l’éternité,
+              qui pourra en faire le compte ?
+              	La hauteur du ciel, l’étendue de la terre,
+              la profondeur de l’abîme,
+              qui pourra les évaluer ?
+              	Avant toute chose fut créée la sagesse ;
+              et depuis toujours, la profondeur de l’intelligence.
+              	La source de la sagesse,
+              c’est la parole de Dieu au plus haut des cieux.
+              Ses chemins sont les commandements éternels.
+              	La racine de la sagesse, qui en a eu la révélation,
+              et ses subtilités, qui en a eu la connaissance ?
+              _La science de la sagesse, à qui fut-elle manifestée,
+              et qui a profité de sa grande expérience ?_
+              	Il n’y a qu’un seul être sage et très redoutable,
+              celui qui siège sur son trône.
+              C’est le Seigneur, lui qui a créé la sagesse ;
+              il l’a vue et mesurée,
+              il l’a répandue sur toutes ses œuvres,
+              	parmi tous les vivants, dans la diversité de ses dons,
+              et ceux qui aiment Dieu en ont été comblés.
+          - book: Jc
+            ref: 3, 13-18
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Si vous avez dans le cœur l’esprit de rivalité, ne vous en vantez
+              pas »
+            content: |-
+              Bien-aimés,
+              	quelqu’un, parmi vous, a-t-il la sagesse et le savoir ?
+              Qu’il montre par sa vie exemplaire
+              que la douceur de la sagesse inspire ses actes.
+              	Mais si vous avez dans le cœur
+              la jalousie amère et l’esprit de rivalité,
+              ne vous en vantez pas, ne mentez pas,
+              n’allez pas contre la vérité.
+              	Cette prétendue sagesse ne vient pas d’en haut ;
+              au contraire, elle est terrestre, purement humaine, démoniaque.
+              	Car la jalousie et les rivalités mènent au désordre
+              et à toutes sortes d’actions malfaisantes.
+              	Au contraire, la sagesse qui vient d’en haut est d’abord pure,
+              puis pacifique, bienveillante, conciliante,
+              pleine de miséricorde et féconde en bons fruits,
+              sans parti pris, sans hypocrisie.
+              	C’est dans la paix qu’est semée la justice,
+              qui donne son fruit aux artisans de la paix.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 92 (93), 1abc, 1d-2, 5
+            refAbbr: 92, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 92, 1ab
+                chorus: |-
+                  Le Seigneur est roi ;
+                  il s’est vêtu de magnificence.
+            content: |-
+              Le Seigneur est roi ;
+              il s’est vêtu de magnificence,
+              le Seigneur a revêtu sa force.
+
+              Et la terre tient bon, inébranlable ;
+              dès l’origine ton trône tient bon,
+              depuis toujours, tu es.
+
+              Tes volontés sont vraiment immuables :
+              la sainteté emplit ta maison,
+              Seigneur, pour la suite des temps.
+          - book: Ps
+            ref: 18B (19), 8, 9, 10, 15
+            refAbbr: 18B, 8…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 18B, 9ab
+                chorus: |-
+                  Les préceptes du Seigneur sont droits,
+                  ils réjouissent le cœur.
+            content: |-
+              La loi du Seigneur est parfaite,
+              qui redonne vie ;
+              la charte du Seigneur est sûre,
+              qui rend sages les simples.
+
+              Les préceptes du Seigneur sont droits,
+              ils réjouissent le cœur ;
+              le commandement du Seigneur est limpide,
+              il clarifie le regard.
+
+              La crainte qu’il inspire est pure,
+              elle est là pour toujours ;
+              les décisions du Seigneur sont justes
+              et vraiment équitables ;
+
+              Accueille les paroles de ma bouche,
+              le murmure de mon cœur ;
+              qu’ils parviennent devant toi,
+              Seigneur, mon rocher, mon défenseur !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: 2 Tm
+            ref: 1, 10
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Notre Sauveur, le Christ Jésus, a détruit la mort ;
+              il a fait resplendir la vie par l’Évangile.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mc
+            ref: 9, 14-29
+            headline: « Je crois ! Viens au secours de mon manque de foi ! »
+            content: |-
+              En ce temps-là,
+              Jésus, ainsi que Pierre, Jacques et Jean,
+              descendirent de la montagne ;
+              	en rejoignant les autres disciples,
+              ils virent une grande foule qui les entourait,
+              et des scribes qui discutaient avec eux.
+              	Aussitôt qu’elle vit Jésus, toute la foule fut stupéfaite,
+              et les gens accouraient pour le saluer.
+              	Il leur demanda :
+              « De quoi discutez-vous avec eux ? »
+              	Quelqu’un dans la foule lui répondit :
+              « Maître, je t’ai amené mon fils,
+              il est possédé par un esprit qui le rend muet ;
+              	cet esprit s’empare de lui n’importe où,
+              il le jette par terre,
+              l’enfant écume, grince des dents
+              et devient tout raide.
+              J’ai demandé à tes disciples d’expulser cet esprit,
+              mais ils n’en ont pas été capables. »
+              	Prenant la parole, Jésus leur dit :
+              « Génération incroyante,
+              combien de temps resterai-je auprès de vous ?
+              Combien de temps devrai-je vous supporter ?
+              Amenez-le-moi. »
+              	On le lui amena.
+              Dès qu’il vit Jésus, l’esprit fit entrer l’enfant en convulsions ;
+              l’enfant tomba et se roulait par terre en écumant.
+              	Jésus interrogea le père :
+              « Depuis combien de temps cela lui arrive-t-il ? »
+              Il répondit :
+              « Depuis sa petite enfance.
+              	Et souvent il l’a même jeté dans le feu ou dans l’eau
+              pour le faire périr.
+              Mais si tu peux quelque chose,
+              viens à notre secours, par compassion envers nous ! »
+              	Jésus lui déclara :
+              « Pourquoi dire : “Si tu peux”… ?
+              Tout est possible pour celui qui croit. »
+              	Aussitôt le père de l’enfant s’écria :
+              « Je crois ! Viens au secours de mon manque de foi ! »
+              	Jésus vit que la foule s’attroupait ;
+              il menaça l’esprit impur, en lui disant :
+              « Esprit qui rends muet et sourd,
+              je te l’ordonne, sors de cet enfant
+              et n’y rentre plus jamais ! »
+              	Ayant poussé des cris et provoqué des convulsions,
+              l’esprit sortit.
+              L’enfant devint comme un cadavre,
+              de sorte que tout le monde disait : « Il est mort. »
+              	Mais Jésus, lui saisissant la main, le releva,
+              et il se mit debout.
+              	Quand Jésus fut rentré à la maison,
+              ses disciples l’interrogèrent en particulier :
+              « Pourquoi est-ce que nous,
+              nous n’avons pas réussi à l’expulser ? »
+              	Jésus leur répondit :
+              « Cette espèce-là, rien ne peut la faire sortir,
+              sauf la prière. »

@@ -1,0 +1,181 @@
+id: ordinary_time_3_tuesday
+title: Mardi
+context: Troisième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_3RD_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: He
+            ref: 10, 1-10
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Me voici, je suis venu, mon Dieu, pour faire ta volonté »
+            content: |-
+              Frères,
+              la loi de Moïse
+              ne présente que l’ébauche des biens à venir,
+              et non pas l’expression même des réalités.
+              Elle n’est donc jamais capable,
+              par ses sacrifices qui sont toujours les mêmes,
+              offerts indéfiniment chaque année,
+              de mener à la perfection ceux qui viennent y prendre part.
+              Si ce culte les avait purifiés une fois pour toutes,
+              ils n’auraient plus aucun péché sur la conscience
+              et, dans ce cas, n’aurait-on pas cessé d’offrir les sacrifices ?
+              Mais ceux-ci, au contraire,
+              comportent chaque année un rappel des péchés.
+              Il est impossible, en effet,
+              que du sang de taureaux et de boucs enlève les péchés.
+              Aussi, en entrant dans le monde,
+              le Christ dit :
+              _Tu n’as voulu ni sacrifice ni offrande,
+              mais tu m’as formé un corps.
+              Tu n’as pas agréé les holocaustes
+              ni les sacrifices pour le péché ;
+              alors, j’ai dit :
+              Me voici,
+              je suis venu, mon Dieu, pour faire ta volonté,_
+              _ainsi qu’il est écrit de moi dans le Livre._
+              Le Christ commence donc par dire :
+              _Tu n’as pas voulu ni agréé
+              les sacrifices et les offrandes,
+              les holocaustes et les sacrifices pour le péché,_
+              ceux que la Loi prescrit d’offrir.
+              Puis il déclare :
+              _Me voici, je suis venu pour faire ta volonté._
+              Ainsi, il supprime le premier état de choses pour établir le second.
+              Et c’est grâce à cette volonté que nous sommes sanctifiés,
+              par l’offrande que Jésus Christ a faite de son corps,
+              une fois pour toutes.
+
+          - book: 2 S
+            ref: 6, 12b-15.17-19
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « David et tout le peuple d’Israël firent monter l’arche du Seigneur
+              parmi les ovations »
+            content: |-
+              En ces jours-là,
+              David fit monter l’arche de Dieu
+              de la maison d’Obed-Édom
+              jusqu’à la Cité de David,
+              au milieu des cris de joie.
+              Quand les porteurs de l’Arche eurent avancé de six pas,
+              il offrit en sacrifice un taureau et un veau gras.
+              David, vêtu d’un pagne de lin, dansait devant le Seigneur,
+              en tournoyant de toutes ses forces.
+              David et tout le peuple d’Israël
+              firent monter l’arche du Seigneur
+              parmi les ovations, au son du cor.
+              Ils amenèrent donc l’arche du Seigneur
+              et l’installèrent à sa place, au milieu de la tente
+              que David avait dressée pour elle.
+              Puis il offrit devant le Seigneur
+              des holocaustes et des sacrifices de paix.
+              Quand David eut achevé d’offrir les holocaustes
+              et les sacrifices de paix,
+              il bénit le peuple au nom du Seigneur des armées.
+              Il fit une distribution à tout le peuple,
+              à la foule entière des Israélites, hommes et femmes :
+              pour chacun une galette de pain, un morceau de rôti
+              et un gâteau de raisins.
+              Ensuite tout le monde s’en retourna chacun chez soi.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 39 (40), 2abc.4ab, 7-8a, 10, 11
+            refAbbr: 39, 2…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 39, 8a.9a
+                chorus: |-
+                  Me voici, Seigneur,
+                  je viens faire ta volonté.
+            content: |-
+              D’un grand espoir, j’espérais le Seigneur :
+              il s’est penché vers moi.
+              Dans ma bouche il a mis un chant nouveau,
+              une louange à notre Dieu.
+
+              Tu ne voulais ni offrande ni sacrifice,
+              tu as ouvert mes oreilles ;
+              tu ne demandais ni holocauste ni victime,
+              alors j’ai dit : « Voici, je viens. »
+
+              J’annonce la justice
+              dans la grande assemblée ;
+              vois, je ne retiens pas mes lèvres,
+              Seigneur, tu le sais.
+
+              Je n’ai pas enfoui ta justice au fond de mon cœur,
+              je n’ai pas caché ta fidélité, ton salut ;
+              j’ai dit ton amour et ta vérité
+              à la grande assemblée.
+          - book: Ps
+            ref: 23 (24), 7, 8, 9, 10
+            refAbbr: 23, 7…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 23, 8a
+                chorus: |-
+                  Qui est ce roi de gloire ?
+                  C’est le Seigneur.
+            content: |-
+              Portes, levez vos frontons !
+              élevez-vous, portes éternelles :
+              qu’il entre, le roi de gloire !
+
+              Qui est ce roi de gloire ?
+              C’est le Seigneur, le fort, le vaillant,
+              le Seigneur, le vaillant des combats.
+
+              Portes, levez vos frontons !
+              levez-les, portes éternelles :
+              qu’il entre, le roi de gloire !
+
+              Qui donc est ce roi de gloire ?
+              C’est le Seigneur, Dieu de l’univers ;
+              c’est lui, le roi de gloire.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 11, 25
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Tu es béni, Père,
+              Seigneur du ciel et de la terre,
+              tu as révélé aux tout-petits
+              les mystères du Royaume !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mc
+            ref: 3, 31-35
+            headline: « Celui qui fait la volonté de Dieu, celui-là est pour moi un frère,
+              une sœur, une mère »
+            content: |-
+              En ce temps-là,
+              comme Jésus était dans une maison,
+              arrivent sa mère et ses frères.
+              Restant au-dehors, ils le font appeler.
+              Une foule était assise autour de lui ;
+              et on lui dit :
+              « Voici que ta mère et tes frères sont là dehors :
+              ils te cherchent. »
+              Mais il leur répond :
+              « Qui est ma mère ? qui sont mes frères ? »
+              Et parcourant du regard
+              ceux qui étaient assis en cercle autour de lui,
+              il dit :
+              « Voici ma mère et mes frères.
+              Celui qui fait la volonté de Dieu,
+              celui-là est pour moi un frère, une sœur, une mère. »

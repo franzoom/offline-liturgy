@@ -1,0 +1,495 @@
+id: most_holy_body_and_blood_of_christ
+title: Le Saint-Sacrement du Corps et du Sang du Christ
+context: Le jeudi ou le dimanche qui suit la Trinité
+note: Dans les pays où la Solennité du Saint-Sacrement n’est pas fête de
+  précepte, on la célèbre le 2ᵉ dimanche après la Pentecôte (dimanche qui suie
+  la Trinité).
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Dt
+            ref: 8, 2-3.14b-16a
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Dieu t’a donné cette nourriture que ni toi ni tes pères n’aviez
+              connue »
+            content: |-
+              Moïse disait au peuple d’Israël :
+              	« Souviens-toi de la longue marche que tu as faite
+              pendant quarante années dans le désert ;
+              le Seigneur ton Dieu te l’a imposée
+              pour te faire passer par la pauvreté ;
+              il voulait t’éprouver et savoir ce que tu as dans le cœur :
+              allais-tu garder ses commandements, oui ou non ?
+              	Il t’a fait passer par la pauvreté, il t’a fait sentir la faim,
+              et il t’a donné à manger la manne
+              – cette nourriture que ni toi ni tes pères n’aviez connue –
+              pour que tu saches que l’homme
+              ne vit pas seulement de pain,
+              mais de tout ce qui vient de la bouche du Seigneur.
+              	N’oublie pas le Seigneur ton Dieu
+              qui t’a fait sortir du pays d’Égypte,
+              de la maison d’esclavage.
+              	C’est lui qui t’a fait traverser ce désert,
+              vaste et terrifiant,
+              pays des serpents brûlants et des scorpions,
+              pays de la sécheresse et de la soif.
+              C’est lui qui, pour toi, a fait jaillir l’eau
+              de la roche la plus dure.
+              	C’est lui qui, dans le désert, t’a donné la manne
+              – cette nourriture inconnue de tes pères. »
+          - book: Ex
+            ref: 24, 3-8
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « Voici le sang de l’Alliance que le Seigneur a conclue avec vous »
+            content: |-
+              En ces jours-là,
+              Moïse vint rapporter au peuple
+              toutes les paroles du Seigneur et toutes ses ordonnances.
+              Tout le peuple répondit d’une seule voix :
+              « Toutes ces paroles que le Seigneur a dites,
+              nous les mettrons en pratique. »
+              Moïse écrivit toutes les paroles du Seigneur.
+              Il se leva de bon matin et il bâtit un autel au pied de la montagne,
+              et il dressa douze pierres pour les douze tribus d’Israël.
+              Puis il chargea quelques jeunes garçons parmi les fils d’Israël
+              d’offrir des holocaustes,
+              et d’immoler au Seigneur des taureaux en sacrifice de paix.
+              Moïse prit la moitié du sang et le mit dans des coupes ;
+              puis il aspergea l’autel avec le reste du sang.
+              Il prit le livre de l’Alliance et en fit la lecture au peuple.
+              Celui-ci répondit :
+              « Tout ce que le Seigneur a dit,
+              nous le mettrons en pratique, nous y obéirons. »
+              Moïse prit le sang, en aspergea le peuple, et dit :
+              « Voici le sang de l’Alliance
+              que, sur la base de toutes ces paroles,
+              le Seigneur a conclue avec vous. »
+          - book: Gn
+            ref: 14, 18-20
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: Melkisédek offre le pain et le vin
+            content: |-
+              En ces jours-là,
+              	Melkisédek, roi de Salem,
+              fit apporter du pain et du vin :
+              il était prêtre du Dieu très-haut.
+              	Il bénit Abram en disant :
+              « Béni soit Abram par le Dieu très-haut,
+              qui a fait le ciel et la terre ;
+              	et béni soit le Dieu très-haut,
+              qui a livré tes ennemis entre tes mains. »
+              Et Abram lui donna le dixième de tout ce qu’il avait pris.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 147 (147 B), 12-13, 14-15, 19-20
+            refAbbr: 147, 12…
+            toSundayCyclesOnly:
+              - YEAR_A
+            chorus:
+              - chorusRef: 147, 12a
+                chorus: Glorifie le Seigneur, Jérusalem !
+            content: |-
+              Glorifie le Seigneur, Jérusalem !
+              Célèbre ton Dieu, ô Sion !
+              Il a consolidé les barres de tes portes,
+              dans tes murs il a béni tes enfants.
+
+              Il fait régner la paix à tes frontières,
+              et d’un pain de froment te rassasie.
+              Il envoie sa parole sur la terre :
+              rapide, son verbe la parcourt.
+
+              Il révèle sa parole à Jacob,
+              ses volontés et ses lois à Israël.
+              Pas un peuple qu’il ait ainsi traité ;
+              nul autre n’a connu ses volontés.
+          - book: Ps
+            ref: 115 (116B), 12-13, 15-16ac, 17-18
+            refAbbr: 115, 12…
+            toSundayCyclesOnly:
+              - YEAR_B
+            chorus:
+              - chorusRef: 115, 13
+                chorus: |-
+                  J’élèverai la coupe du salut,
+                  j’invoquerai le nom du Seigneur.
+              - chorus: Alléluia !
+            content: |-
+              Comment rendrai-je au Seigneur
+              tout le bien qu’il m’a fait ?
+              J’élèverai la coupe du salut,
+              j’invoquerai le nom du Seigneur.
+
+              Il en coûte au Seigneur
+              de voir mourir les siens !
+              Ne suis-je pas, Seigneur, ton serviteur,
+              moi, dont tu brisas les chaînes ?
+
+              Je t’offrirai le sacrifice d’action de grâce,
+              j’invoquerai le nom du Seigneur.
+              Je tiendrai mes promesses au Seigneur,
+              oui, devant tout son peuple.
+          - book: Ps
+            ref: 109 (110), 1, 2, 3, 4
+            refAbbr: 109, 1…
+            toSundayCyclesOnly:
+              - YEAR_C
+            chorus:
+              - chorusRef: 109, 4
+                chorus: |-
+                  Tu es prêtre à jamais,
+                  selon l’ordre de Melkisédek.
+            content: |-
+              Oracle du Seigneur à mon seigneur :
+              « Siège à ma droite,
+              et je ferai de tes ennemis
+              le marchepied de ton trône. »
+
+              De Sion, le Seigneur te présente
+              le sceptre de ta force :
+              « Domine jusqu’au cœur de l’ennemi. »
+
+              Le jour où paraît ta puissance,
+              tu es prince, éblouissant de sainteté :
+              « Comme la rosée qui naît de l’aurore,
+              je t’ai engendré. »
+
+              Le Seigneur l’a juré
+              dans un serment irrévocable :
+              « Tu es prêtre à jamais
+              selon l’ordre du roi Melkisédek. »
+
+      - partType: READING_2
+        partContents:
+          - book: 1 Co
+            ref: 10, 16-17
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Puisqu’il y a un seul pain, la multitude que nous sommes est un seul
+              corps »
+            content: |-
+              Frères,
+              	la coupe de bénédiction que nous bénissons,
+              n’est-elle pas communion au sang du Christ ?
+              Le pain que nous rompons,
+              n’est-il pas communion au corps du Christ ?
+              	Puisqu’il y a un seul pain,
+              la multitude que nous sommes est un seul corps,
+              car nous avons tous part à un seul pain.
+          - book: He
+            ref: 9, 11-15
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « Le sang du Christ purifiera notre conscience »
+            content: |-
+              Frères,
+              le Christ est venu, grand prêtre des biens à venir.
+              Par la tente plus grande et plus parfaite,
+              celle qui n’est pas œuvre de mains humaines
+              et n’appartient pas à cette création,
+              il est entré une fois pour toutes dans le sanctuaire,
+              en répandant, non pas le sang de boucs et de jeunes taureaux,
+              mais son propre sang.
+              De cette manière, il a obtenu une libération définitive.
+              S’il est vrai qu’une simple aspersion
+              avec le sang de boucs et de taureaux, et de la cendre de génisse,
+              sanctifie ceux qui sont souillés,
+              leur rendant la pureté de la chair,
+              le sang du Christ fait bien davantage,
+              car le Christ, poussé par l’Esprit éternel,
+              s’est offert lui-même à Dieu
+              comme une victime sans défaut ;
+              son sang purifiera donc notre conscience
+              des actes qui mènent à la mort,
+              pour que nous puissions rendre un culte au Dieu vivant.
+              Voilà pourquoi il est le médiateur d’une alliance nouvelle,
+              d’un testament nouveau :
+              puisque sa mort a permis le rachat des transgressions
+              commises sous le premier Testament,
+              ceux qui sont appelés
+              peuvent recevoir l’héritage éternel jadis promis.
+          - book: 1 Co
+            ref: 11, 23-26
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: « Chaque fois que vous mangez ce pain et buvez cette coupe,  vous
+              proclamez la mort du Seigneur »
+            content: |-
+              Frères
+              	j’ai moi-même reçu ce qui vient du Seigneur,
+              et je vous l’ai transmis :
+              la nuit où il était livré,
+              le Seigneur Jésus prit du pain,
+              	puis, ayant rendu grâce,
+              il le rompit, et dit :
+              « Ceci est mon corps, qui est pour vous.
+              Faites cela en mémoire de moi. »
+              	Après le repas, il fit de même avec la coupe,
+              en disant :
+              « Cette coupe est la nouvelle Alliance en mon sang.
+              Chaque fois que vous en boirez,
+              faites cela en mémoire de moi. »
+              	Ainsi donc, chaque fois que vous mangez ce pain
+              et que vous buvez cette coupe,
+              vous proclamez la mort du Seigneur,
+              jusqu’à ce qu’il vienne.
+
+      - partType: SEQUENCE
+        partContents:
+          - ref: Lauda Sion
+            note: "Cette séquence (ad libitum) peut être dite intégralement ou sous une
+              forme abrégée à partir de : \\* Le voici, le pain des anges."
+            content: |-
+              Sion, célèbre ton Sauveur,
+              chante ton chef et ton pasteur
+              	par des hymnes et des chants.
+
+              Tant que tu peux, tu dois oser,
+              car il dépasse tes louanges,
+              	tu ne peux trop le louer.
+
+              Le Pain vivant, le Pain de vie,
+              il est aujourd’hui proposé
+              	comme objet de tes louanges.
+
+              Au repas sacré de la Cène,
+              il est bien vrai qu’il fut donné
+              	au groupe des douze frères.
+
+              Louons-le à voix pleine et forte,
+              que soit joyeuse et rayonnante
+              	l’allégresse de nos cœurs !
+
+              C’est en effet la journée solennelle
+              où nous fêtons de ce banquet divin
+              	la première institution.
+
+              À ce banquet du nouveau Roi,
+              la Pâque de la Loi nouvelle
+              	met fin à la Pâque ancienne.
+
+              L’ordre ancien le cède au nouveau,
+              la réalité chasse l’ombre,
+              	et la lumière, la nuit.
+
+              Ce que fit le Christ à la Cène,
+              il ordonna qu’en sa mémoire
+              	nous le fassions après lui.
+
+              Instruits par son précepte saint,
+              nous consacrons le pain, le vin,
+              	en victime de salut.
+
+              C’est un dogme pour les chrétiens
+              que le pain se change en son corps,
+              	que le vin devient son sang.
+
+              Ce qu’on ne peut comprendre et voir,
+              notre foi ose l’affirmer,
+              	hors des lois de la nature.
+
+              L’une et l’autre de ces espèces,
+              qui ne sont que de purs signes,
+              	voilent un réel divin.
+
+              Sa chair nourrit, son sang abreuve,
+              mais le Christ tout entier demeure
+              	sous chacune des espèces.
+
+              On le reçoit sans le briser,
+              le rompre ni le diviser ;
+              	il est reçu tout entier.
+
+              Qu’un seul ou mille communient,
+              il se donne à l’un comme aux autres,
+              	il nourrit sans disparaître.
+
+              Bons et mauvais le consomment,
+              mais pour un sort bien différent,
+              	pour la vie ou pour la mort.
+
+              Mort des pécheurs, vie pour les justes ;
+              vois : ils prennent pareillement ;
+              	quel résultat différent !
+
+              Si l’on divise les espèces,
+              n’hésite pas, mais souviens-toi
+              qu’il est présent dans un fragment
+              	aussi bien que dans le tout.
+
+              Le signe seul est partagé,
+              le Christ n’est en rien divisé,
+              ni sa taille ni son état
+              	n’ont en rien diminué.
+
+              \\* Le voici, le pain des anges,
+              il est le pain de l’homme en route,
+              le vrai pain des enfants de Dieu,
+              	qu’on ne peut jeter aux chiens.
+
+              D’avance il fut annoncé
+              par Isaac en sacrifice,
+              par l’agneau pascal immolé,
+              	par la manne de nos pères.
+
+              Ô bon Pasteur, notre vrai pain,
+              ô Jésus, aie pitié de nous,
+              nourris-nous et protège-nous,
+              fais-nous voir les biens éternels
+              	dans la terre des vivants.
+
+              Toi qui sais tout et qui peux tout,
+              toi qui sur terre nous nourris,
+              conduis-nous au banquet du ciel
+              et donne-nous ton héritage,
+              	en compagnie de tes saints.
+
+              Amen.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 6, 51
+            toSundayCyclesOnly:
+              - YEAR_A
+              - YEAR_B
+              - YEAR_C
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Moi, je suis le pain vivant qui est descendu du ciel,
+              dit le Seigneur ;
+              si quelqu’un mange de ce pain, il vivra éternellement.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 6, 51-58
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Ma chair est la vraie nourriture, et mon sang est la vraie boisson »
+            content: |-
+              En ce temps-là,
+              Jésus disait aux foules des Juifs :
+              	« Moi, je suis le pain vivant,
+              qui est descendu du ciel :
+              si quelqu’un mange de ce pain,
+              il vivra éternellement.
+              Le pain que je donnerai, c’est ma chair,
+              donnée pour la vie du monde. »
+              	Les Juifs se querellaient entre eux :
+              « Comment celui-là
+              peut-il nous donner sa chair à manger ? »
+              	Jésus leur dit alors :
+              « Amen, amen, je vous le dis :
+              si vous ne mangez pas la chair du Fils de l’homme,
+              et si vous ne buvez pas son sang,
+              vous n’avez pas la vie en vous.
+              	Celui qui mange ma chair et boit mon sang
+              a la vie éternelle ;
+              et moi, je le ressusciterai au dernier jour.
+              	En effet, ma chair est la vraie nourriture,
+              et mon sang est la vraie boisson.
+              	Celui qui mange ma chair et boit mon sang
+              demeure en moi,
+              et moi, je demeure en lui.
+              	De même que le Père, qui est vivant, m’a envoyé,
+              et que moi je vis par le Père,
+              de même celui qui me mange,
+              lui aussi vivra par moi.
+              	Tel est le pain qui est descendu du ciel :
+              il n’est pas comme celui que les pères ont mangé.
+              Eux, ils sont morts ;
+              celui qui mange ce pain
+              vivra éternellement. »
+          - book: Mc
+            ref: 14, 12-16.22-26
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « Ceci est mon corps, ceci est mon sang »
+            content: |-
+              Le premier jour de la fête des pains sans levain,
+              où l’on immolait l’agneau pascal,
+              les disciples de Jésus lui disent :
+              « Où veux-tu que nous allions faire les préparatifs
+              pour que tu manges la Pâque ? »
+              Il envoie deux de ses disciples en leur disant :
+              « Allez à la ville ;
+              un homme portant une cruche d’eau
+              viendra à votre rencontre.
+              Suivez-le,
+              et là où il entrera, dites au propriétaire :
+              “Le Maître te fait dire :
+              Où est la salle
+              où je pourrai manger la Pâque avec mes disciples ?”
+              Il vous indiquera, à l’étage,
+              une grande pièce aménagée et prête pour un repas.
+              Faites-y pour nous les préparatifs. »
+              Les disciples partirent, allèrent à la ville ;
+              ils trouvèrent tout comme Jésus leur avait dit,
+              et ils préparèrent la Pâque.
+
+              Pendant le repas,
+              Jésus, ayant pris du pain
+              et prononcé la bénédiction,
+              le rompit, le leur donna,
+              et dit :
+              « Prenez, ceci est mon corps. »
+              Puis, ayant pris une coupe
+              et ayant rendu grâce,
+              il la leur donna,
+              et ils en burent tous.
+              Et il leur dit :
+              « Ceci est mon sang,
+              le sang de l’Alliance,
+              versé pour la multitude.
+              Amen, je vous le dis :
+              je ne boirai plus du fruit de la vigne,
+              jusqu’au jour où je le boirai, nouveau,
+              dans le royaume de Dieu. »
+
+              Après avoir chanté les psaumes,
+              ils partirent pour le mont des Oliviers.
+          - book: Lc
+            ref: 9, 11b-17
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: « Ils mangèrent et ils furent tous rassasiés »
+            content: |-
+              En ce temps-là,
+              	Jésus parlait aux foules du règne de Dieu,
+              et guérissait ceux qui en avaient besoin.
+              	Le jour commençait à baisser.
+              Alors les Douze s’approchèrent de lui et lui dirent :
+              « Renvoie cette foule :
+              qu’ils aillent dans les villages et les campagnes des environs
+              afin d’y loger et de trouver des vivres ;
+              ici nous sommes dans un endroit désert. »
+              	Mais il leur dit :
+              « Donnez-leur vous-mêmes à manger. »
+              Ils répondirent :
+              « Nous n’avons pas plus de cinq pains et deux poissons.
+              À moins peut-être d’aller nous-mêmes acheter de la nourriture
+              pour tout ce peuple. »
+              	Il y avait environ cinq mille hommes.
+              Jésus dit à ses disciples :
+              « Faites-les asseoir par groupes de cinquante environ. »
+              	Ils exécutèrent cette demande
+              et firent asseoir tout le monde.
+              	Jésus prit les cinq pains et les deux poissons,
+              et, levant les yeux au ciel,
+              il prononça la bénédiction sur eux,
+              les rompit
+              et les donna à ses disciples
+              pour qu’ils les distribuent à la foule.
+              	Ils mangèrent et ils furent tous rassasiés ;
+              puis on ramassa les morceaux qui leur restaient :
+              cela faisait douze paniers.

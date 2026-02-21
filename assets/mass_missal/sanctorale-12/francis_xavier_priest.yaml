@@ -1,0 +1,44 @@
+id: francis_xavier_priest
+title: Saint François-Xavier
+context: 3 décembre
+note: Commun des pasteurs (pour les missionnaires).
+subTitle: prêtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Co
+            ref: 9, 16-19.22-23
+            headline: « Malheur à moi si je n’annonçais pas l’Évangile ! »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 116 (117), 1, 2
+            refAbbr: '116'
+            chorus:
+              - chorusBook: Mc
+                chorusRef: 16, 15
+                chorus: |-
+                  Allez dans le monde entier.
+                  Proclamez l’Évangile.
+              - chorus: Alléluia !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 28, 19a.20b
+            content: |-
+              Allez ! De toutes les nations faites des disciples,
+              dit le Seigneur.
+              Moi, je suis avec vous tous les jours
+              jusqu’à la fin du monde.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mc
+            ref: 16, 15-20
+            headline: « Allez dans le monde entier. Proclamez l’Évangile »

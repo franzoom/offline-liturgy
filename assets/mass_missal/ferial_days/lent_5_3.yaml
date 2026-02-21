@@ -1,0 +1,151 @@
+id: lent_5_wednesday
+title: Mercredi
+context: Cinquième semaine de Carême
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Dn
+            ref: 3, 14-20.91-92.95
+            refAbbr: 3, 52…
+            headline: « Dieu a envoyé son ange et délivré ses serviteurs »
+            content: |-
+              En ces jours-là,
+              	le roi Nabucodonosor parla ainsi :
+              « Est-il vrai, Sidrac, Misac et Abdénago,
+              que vous refusez de servir mes dieux
+              et d’adorer la statue d’or que j’ai fait ériger ?
+              	Êtes-vous prêts, maintenant, à vous prosterner
+              pour adorer la statue que j’ai faite,
+              quand vous entendrez le son du cor, de la flûte, de la cithare,
+              de la harpe, de la lyre, de la cornemuse
+              et de toutes les sortes d’instruments ?
+              Si vous n’adorez pas cette statue,
+              vous serez immédiatement jetés dans la fournaise de feu ardent ;
+              et quel est le dieu qui vous délivrera de ma main ? »
+              	Sidrac, Misac et Abdénago dirent au roi Nabucodonosor :
+              « Ce n’est pas à nous de te répondre.
+              	Si notre Dieu, que nous servons, peut nous délivrer,
+              il nous délivrera de la fournaise de feu ardent et de ta main, ô roi.
+              	Et même s’il ne le fait pas,
+              sois-en bien sûr, ô roi :
+              nous ne servirons pas tes dieux,
+              nous n’adorerons pas la statue d’or que tu as érigée. »
+              	Alors Nabucodonosor fut rempli de fureur
+              contre Sidrac, Misac et Abdénago,
+              et son visage s’altéra.
+              Il ordonna de chauffer la fournaise
+              sept fois plus qu’à l’ordinaire.
+              	Puis il ordonna aux plus vigoureux de ses soldats
+              de ligoter Sidrac, Misac et Abdénago
+              et de les jeter dans la fournaise de feu ardent.
+
+              Le roi Nabucodonosor les entendit chanter.
+              Stupéfait, il se leva précipitamment
+              et dit à ses conseillers :
+              « Nous avons bien jeté trois hommes, ligotés,
+              au milieu du feu ? »
+              Ils répondirent :
+              « Assurément, ô roi. »
+              	Il reprit :
+              « Eh bien moi, je vois quatre hommes
+              qui se promènent librement au milieu du feu,
+              ils sont parfaitement indemnes,
+              et le quatrième ressemble à un être divin. »
+              	Et Nabucodonosor s’écria :
+              « Béni soit le Dieu de Sidrac, Misac et Abdénago,
+              qui a envoyé son ange et délivré ses serviteurs !
+              Ils ont mis leur confiance en lui,
+              et ils ont désobéi à l’ordre du roi ;
+              ils ont livré leur corps
+              plutôt que de servir et d’adorer
+              un autre dieu que leur Dieu. »
+
+      - partType: CANTICLE
+        partContents:
+          - book: Dn
+            ref: 3, 52, 53, 54, 55, 56
+            refAbbr: 3, 52…56
+            chorus:
+              - chorusRef: 3, 52
+                chorus: À toi, louange et gloire éternellement !
+            content: |-
+              Béni sois-tu, Seigneur, Dieu de nos pères : R/
+
+              Béni soit le nom très saint de ta gloire : R/
+
+              Béni sois-tu dans ton saint temple de gloire : R/
+
+              Béni sois-tu sur le trône de ton règne : R/
+
+              Béni sois-tu, toi qui sondes les abîmes : R/
+
+              Toi qui sièges au-dessus des Kéroubim : R/
+
+              Béni sois-tu au firmament, dans le ciel : R/
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 8, 15
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Heureux ceux qui ont entendu la Parole
+              dans un cœur bon et généreux,
+              qui la retiennent et portent du fruit par leur persévérance.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 8, 31-42
+            headline: « Si le Fils vous rend libres, réellement vous serez libres »
+            content: |-
+              En ce temps-là,
+              	Jésus disait à ceux des Juifs qui croyaient en lui :
+              « Si vous demeurez fidèles à ma parole,
+              vous êtes vraiment mes disciples ;
+              	alors vous connaîtrez la vérité,
+              et la vérité vous rendra libres. »
+              	Ils lui répliquèrent :
+              « Nous sommes la descendance d’Abraham,
+              et nous n’avons jamais été les esclaves de personne.
+              Comment peux-tu dire :
+              “Vous deviendrez libres” ? »
+              	Jésus leur répondit :
+              « Amen, amen, je vous le dis :
+              qui commet le péché
+              est esclave du péché.
+              	L’esclave ne demeure pas pour toujours dans la maison ;
+              le fils, lui, y demeure pour toujours.
+              	Si donc le Fils vous rend libres,
+              réellement vous serez libres.
+              	Je sais bien que vous êtes la descendance d’Abraham,
+              et pourtant vous cherchez à me tuer,
+              parce que ma parole ne trouve pas sa place en vous.
+              	Je dis ce que moi, j’ai vu
+              auprès de mon Père,
+              et vous aussi, vous faites ce que vous avez entendu
+              chez votre père. »
+              	Ils lui répliquèrent :
+              « Notre père, c’est Abraham. »
+              Jésus leur dit :
+              « Si vous étiez les enfants d’Abraham,
+              vous feriez les œuvres d’Abraham.
+              	Mais maintenant, vous cherchez à me tuer,
+              moi, un homme qui vous ai dit la vérité
+              que j’ai entendue de Dieu.
+              Cela, Abraham ne l’a pas fait.
+              	Vous, vous faites les œuvres de votre père. »
+              Ils lui dirent :
+              « Nous ne sommes pas nés de la prostitution !
+              Nous n’avons qu’un seul Père : c’est Dieu. »
+              	Jésus leur dit :
+              « Si Dieu était votre Père,
+              vous m’aimeriez,
+              car moi, c’est de Dieu que je suis sorti
+              et que je viens.
+              Je ne suis pas venu de moi-même ;
+              c’est lui qui m’a envoyé. »

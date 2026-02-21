@@ -1,0 +1,204 @@
+id: presentation_of_the_lord
+title: Présentation du Seigneur au Temple
+context: 2 février
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ml
+            ref: 3, 1-4
+            headline: « Soudain viendra dans son Temple le Seigneur que vous cherchez »
+            content: |-
+              Ainsi parle le Seigneur Dieu :
+              Voici que j’envoie mon messager
+                pour qu’il prépare le chemin devant moi ;
+              et soudain viendra dans son Temple
+                le Seigneur que vous cherchez.
+              Le messager de l’Alliance que vous désirez,
+                le voici qui vient – dit le Seigneur de l’univers.
+              Qui pourra soutenir le jour de sa venue ?
+                Qui pourra rester debout lorsqu’il se montrera ?
+              Car il est pareil au feu du fondeur,
+                pareil à la lessive des blanchisseurs.
+              Il s’installera pour fondre et purifier :
+                il purifiera les fils de Lévi,
+              il les affinera comme l’or et l’argent ;
+                ainsi pourront-ils, aux yeux du Seigneur,
+                présenter l’offrande en toute justice.
+              Alors, l’offrande de Juda et de Jérusalem
+                sera bien accueillie du Seigneur,
+              comme il en fut aux jours anciens,
+                dans les années d’autrefois.
+          - book: He
+            ref: 2, 14-18
+            toDayOfWeeksOnly:
+              - MONDAY_TO_SATURDAY
+            headline: « Il lui fallait se rendre en tout semblable à ses frères »
+            content: &reading2_content >-
+              Puisque les enfants des hommes
+                ont en commun le sang et la chair,
+              Jésus a partagé, lui aussi, pareille condition :
+              ainsi, par sa mort, il a pu réduire à l’impuissance
+                celui qui possédait le pouvoir de la mort,
+                c’est-à-dire le diable,
+              et il a rendu libres tous ceux qui, par crainte de la mort,
+                passaient toute leur vie dans une situation d’esclaves.
+              Car ceux qu’il prend en charge, ce ne sont pas les anges,
+                c’est la descendance d’Abraham.
+              Il lui fallait donc se rendre en tout semblable à ses frères,
+              pour devenir un grand prêtre miséricordieux et digne de foi
+                pour les relations avec Dieu,
+                afin d’enlever les péchés du peuple.
+              Et parce qu’il a souffert jusqu’au bout l’épreuve de sa Passion,
+                il est capable de porter secours à ceux qui subissent une épreuve.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 23 (24), 7, 8, 9, 10
+            refAbbr: 23, 7…
+            chorus:
+              - chorusRef: 23, 10bc
+                chorus: |-
+                  C’est le Seigneur, Dieu de l’univers ;
+                  c’est lui, le roi de gloire.
+            content: |-
+              Portes, levez vos frontons,
+              élevez-vous, portes éternelles :
+              qu’il entre, le roi de gloire !
+
+              Qui est ce roi de gloire ?
+              C’est le Seigneur, le fort, le vaillant,
+              le Seigneur, le vaillant des combats.
+
+              Portes, levez vos frontons,
+              levez-les, portes éternelles :
+              qu’il entre, le roi de gloire !
+
+              Qui donc est ce roi de gloire ?
+              C’est le Seigneur, Dieu de l’univers ;
+              c’est lui, le roi de gloire.
+
+      - partType: READING_2
+        partContents:
+          - book: He
+            ref: 2, 14-18
+            toDayOfWeeksOnly:
+              - SUNDAY
+            headline: « Il lui fallait se rendre en tout semblable à ses frères »
+            content: *reading2_content
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 2, 32
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Lumière qui se révèle aux nations
+              et donne gloire à ton peuple Israël.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 2, 22-40
+            headline: « Mes yeux ont vu ton salut »
+            content: |-
+              Quand fut accompli le temps prescrit par la loi de Moïse
+                pour la purification,
+              les parents de Jésus l’amenèrent à Jérusalem
+                pour le présenter au Seigneur,
+              selon ce qui est écrit dans la Loi :
+                  _Tout premier-né de sexe masculin
+                  sera consacré au Seigneur._
+              Ils venaient aussi offrir
+                le sacrifice prescrit par la loi du Seigneur :
+                  _un couple de tourterelles
+                  ou deux petites colombes._
+
+              Or, il y avait à Jérusalem un homme appelé Syméon.
+              C’était un homme juste et religieux,
+              qui attendait la Consolation d’Israël,
+                et l’Esprit Saint était sur lui.
+              Il avait reçu de l’Esprit Saint l’annonce
+              qu’il ne verrait pas la mort
+                avant d’avoir vu le Christ, le Messie du Seigneur.
+              Sous l’action de l’Esprit, Syméon vint au Temple.
+              Au moment où les parents présentaient l’enfant Jésus
+                pour se conformer au rite de la Loi qui le concernait,
+              Syméon reçut l’enfant dans ses bras,
+              et il bénit Dieu en disant :
+                « Maintenant, ô Maître souverain,
+                tu peux laisser ton serviteur s’en aller
+                en paix, selon ta parole.
+                Car mes yeux ont vu le salut
+                que tu préparais à la face des peuples :
+                lumière qui se révèle aux nations
+                et donne gloire à ton peuple Israël. »
+
+              Le père et la mère de l’enfant
+                s’étonnaient de ce qui était dit de lui.
+              Syméon les bénit,
+              puis il dit à Marie sa mère :
+                « Voici que cet enfant
+                provoquera la chute et le relèvement de beaucoup en Israël.
+                Il sera un signe de contradiction
+                – et toi, ton âme sera traversée d’un glaive – :
+                ainsi seront dévoilées
+                les pensées qui viennent du cœur d’un grand nombre. »
+
+              Il y avait aussi une femme prophète,
+                Anne, fille de Phanuel, de la tribu d’Aser.
+              Elle était très avancée en âge ;
+              après sept ans de mariage,
+              demeurée veuve,
+                elle était arrivée à l’âge de 84 ans.
+              Elle ne s’éloignait pas du Temple,
+                servant Dieu jour et nuit dans le jeûne et la prière.
+              Survenant à cette heure même,
+              elle proclamait les louanges de Dieu
+              et parlait de l’enfant
+                à tous ceux qui attendaient la délivrance de Jérusalem.
+
+              Lorsqu’ils eurent achevé
+                tout ce que prescrivait la loi du Seigneur,
+                ils retournèrent en Galilée, dans leur ville de Nazareth.
+
+              L’enfant, lui, grandissait et se fortifiait,
+                rempli de sagesse,
+              et la grâce de Dieu était sur lui.
+            shortReadingRef: 2, 22-32
+            shortReadingContent: |-
+              Quand fut accompli le temps prescrit par la loi de Moïse
+                pour la purification,
+              les parents de Jésus l’amenèrent à Jérusalem
+                pour le présenter au Seigneur,
+              selon ce qui est écrit dans la Loi :
+                  _Tout premier-né de sexe masculin
+                  sera consacré au Seigneur._
+              Ils venaient aussi offrir
+                le sacrifice prescrit par la loi du Seigneur :
+                  _un couple de tourterelles
+                  ou deux petites colombes._
+
+              Or, il y avait à Jérusalem un homme appelé Syméon.
+              C’était un homme juste et religieux,
+              qui attendait la Consolation d’Israël,
+                et l’Esprit Saint était sur lui.
+              Il avait reçu de l’Esprit Saint l’annonce
+              qu’il ne verrait pas la mort
+                avant d’avoir vu le Christ, le Messie du Seigneur.
+              Sous l’action de l’Esprit, Syméon vint au Temple.
+              Au moment où les parents présentaient l’enfant Jésus
+                pour se conformer au rite de la Loi qui le concernait,
+              Syméon reçut l’enfant dans ses bras,
+              et il bénit Dieu en disant :
+                « Maintenant, ô Maître souverain,
+                tu peux laisser ton serviteur s’en aller
+                en paix, selon ta parole.
+                Car mes yeux ont vu le salut
+                que tu préparais à la face des peuples :
+                lumière qui se révèle aux nations
+                et donne gloire à ton peuple Israël. »

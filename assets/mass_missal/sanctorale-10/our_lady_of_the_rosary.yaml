@@ -1,0 +1,125 @@
+id: our_lady_of_the_rosary
+title: Notre-Dame du Rosaire
+context: 7 octobre
+note: Commun de la Vierge Marie.
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 1, 12-14
+            headline: « Tous, d’un même cœur, étaient assidus à la prière, avec Marie la
+              mère de Jésus »
+            content: |-
+              Les Apôtres, après avoir vu Jésus s’en aller vers le ciel,
+              	retournèrent à Jérusalem
+              depuis le lieu-dit « mont des Oliviers » qui en est proche,
+              – la distance de marche ne dépasse pas
+              ce qui est permis le jour du sabbat.
+              	À leur arrivée, ils montèrent dans la chambre haute
+              où ils se tenaient habituellement ;
+              c’était Pierre, Jean, Jacques et André,
+              Philippe et Thomas, Barthélemy et Matthieu,
+              Jacques fils d’Alphée, Simon le Zélote, et Jude fils de Jacques.
+              	Tous, d’un même cœur, étaient assidus à la prière,
+              avec des femmes, avec Marie la mère de Jésus,
+              et avec ses frères.
+
+      - partType: CANTICLE
+        partContents:
+          - book: Lc
+            ref: 1, 46b-47, 48-49, 50-51, 52-53, 54-55
+            refAbbr: 1, 46…55
+            chorus:
+              - chorusRef: Lc 1, 49
+                chorus: |-
+                  Le Puissant fit pour moi des merveilles ;
+                  Saint est son nom !
+              - chorus: |-
+                  Heureuse Vierge Marie,
+                  qui portas en toi le Fils du Père éternel !
+            content: |-
+              Mon âme exalte le Seigneur,
+              exulte mon esprit en Dieu, mon Sauveur !
+
+              Il s’est penché sur son humble servante ;
+              désormais tous les âges me diront bienheureuse.
+              Le Puissant fit pour moi des merveilles ;
+              Saint est son nom !
+
+              Sa miséricorde s’étend d’âge en âge
+              sur ceux qui le craignent.
+              Déployant la force de son bras,
+              il disperse les superbes.
+
+              Il renverse les puissants de leurs trônes,
+              il élève les humbles.
+              Il comble de biens les affamés,
+              renvoie les riches les mains vides.
+
+              Il relève Israël son serviteur,
+              il se souvient de son amour,
+              de la promesse faite à nos pères,
+              en faveur d’Abraham et sa descendance à jamais.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: '28.42'
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Je te salue, Marie, Comblée-de-grâce :
+              le Seigneur est avec toi,
+              tu es bénie entre les femmes.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 1, 26-38
+            headline: « Voici que tu vas concevoir et enfanter un fils »
+            content: |-
+              En ce temps-là,
+              l’ange Gabriel fut envoyé par Dieu
+              	dans une ville de Galilée, appelée Nazareth,
+              à une jeune fille vierge,
+              	accordée en mariage à un homme de la maison de David,
+              	appelé Joseph ;
+              et le nom de la jeune fille était Marie.
+              L’ange entra chez elle et dit :
+              	« Je te salue, Comblée-de-grâce,
+              	le Seigneur est avec toi. »
+              À cette parole, elle fut toute bouleversée,
+              	et elle se demandait ce que pouvait signifier cette salutation.
+              L’ange lui dit alors :
+              	« Sois sans crainte, Marie,
+              	car tu as trouvé grâce auprès de Dieu.
+              	Voici que tu vas concevoir et enfanter un fils ;
+              		tu lui donneras le nom de Jésus.
+              	Il sera grand,
+              		il sera appelé Fils du Très-Haut ;
+              	le Seigneur Dieu
+              		lui donnera le trône de David son père ;
+              	il régnera pour toujours sur la maison de Jacob,
+              		et son règne n’aura pas de fin. »
+              Marie dit à l’ange :
+                  « Comment cela va-t-il se faire,
+                  puisque je ne connais pas d’homme ? »
+              L’ange lui répondit :
+                  « L’Esprit Saint viendra sur toi,
+                  et la puissance du Très-Haut
+              		te prendra sous son ombre ;
+              	c’est pourquoi celui qui va naître sera saint,
+              		il sera appelé Fils de Dieu.
+              	Or voici que, dans sa vieillesse, Élisabeth, ta parente,
+              		a conçu, elle aussi, un fils
+              	et en est à son sixième mois,
+              		alors qu’on l’appelait la femme stérile.
+              	Car rien n’est impossible à Dieu. »
+              Marie dit alors :
+              	« Voici la servante du Seigneur ;
+              	que tout m’advienne selon ta parole. »
+
+              Alors l’ange la quitta.

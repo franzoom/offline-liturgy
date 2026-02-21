@@ -1,0 +1,176 @@
+id: ordinary_time_32_tuesday
+title: Mardi
+context: Trente-deuxième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_32ND_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Sg
+            ref: 2, 23 – 3, 9
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Aux yeux de l’insensé, ils ont paru mourir ; mais ils sont dans la
+              paix »
+            content: |-
+              Dieu a créé l’homme pour l’incorruptibilité,
+              il a fait de lui une image de sa propre identité.
+              	C’est par la jalousie du diable
+              que la mort est entrée dans le monde ;
+              ils en font l’expérience,
+              ceux qui prennent parti pour lui.
+              	Mais les âmes des justes sont dans la main de Dieu ;
+              aucun tourment n’a de prise sur eux.
+              	Aux yeux de l’insensé, ils ont paru mourir ;
+              leur départ est compris comme un malheur,
+              	et leur éloignement, comme une fin :
+              mais ils sont dans la paix.
+              	Au regard des hommes, ils ont subi un châtiment,
+              mais l’espérance de l’immortalité les comblait.
+              	Après de faibles peines,
+              de grands bienfaits les attendent,
+              car Dieu les a mis à l’épreuve
+              et trouvés dignes de lui.
+              	Comme l’or au creuset, il les a éprouvés ;
+              comme une offrande parfaite, il les accueille.
+              	Au temps de sa visite, ils resplendiront :
+              comme l’étincelle qui court sur la paille, ils avancent.
+              	Ils jugeront les nations, ils auront pouvoir sur les peuples,
+              et le Seigneur régnera sur eux pour les siècles.
+              	Qui met en lui sa foi comprendra la vérité ;
+              ceux qui sont fidèles resteront, dans l’amour, près de lui.
+              Pour ses amis, grâce et miséricorde :
+              il visitera ses élus.
+          - book: Tt
+            ref: 2, 1-8.11-14
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: '« Vivons avec justice et piété, attendant que se réalise la
+              bienheureuse espérance : la manifestation de la gloire de notre
+              grand Dieu et Sauveur, Jésus Christ »'
+            content: |-
+              Bien-aimé,
+              	dis ce qui est conforme à l’enseignement de la saine doctrine.
+              	Que les hommes âgés soient sobres,
+              dignes de respect, pondérés,
+              et solides dans la foi, la charité et la persévérance.
+              	De même, que les femmes âgées mènent une vie sainte,
+              ne soient pas médisantes
+              ni esclaves de la boisson,
+              et qu’elles soient de bon conseil,
+              	pour apprendre aux jeunes femmes
+              à aimer leur mari et leurs enfants,
+              	à être raisonnables et pures,
+              bonnes maîtresses de maison, aimables,
+              soumises à leur mari,
+              afin que la parole de Dieu ne soit pas exposée au blasphème.
+              	Les jeunes aussi, exhorte-les à être raisonnables en toutes choses.
+              Toi-même, sois un modèle par ta façon de bien agir,
+              par un enseignement sans défaut et digne de respect,
+              	par la solidité inattaquable de ta parole,
+              pour la plus grande confusion de l’adversaire,
+              qui ne trouvera aucune critique à faire sur nous.
+
+              Car la grâce de Dieu s’est manifestée
+              pour le salut de tous les hommes.
+              	Elle nous apprend à renoncer à l’impiété
+              et aux convoitises de ce monde,
+              et à vivre dans le temps présent de manière raisonnable,
+              avec justice et piété,
+              	attendant que se réalise la bienheureuse espérance :
+              la manifestation de la gloire
+              de notre grand Dieu et Sauveur, Jésus Christ.
+              	Car il s’est donné pour nous
+              afin de nous racheter de toutes nos fautes,
+              et de nous purifier
+              pour faire de nous son peuple,
+              un peuple ardent à faire le bien.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 33 (34), 2-3, 16-17, 18-19
+            refAbbr: 33, 2…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 33, 2
+                chorus: Je bénirai le Seigneur toujours et partout.
+            content: |-
+              Je bénirai le Seigneur en tout temps,
+              sa louange sans cesse à mes lèvres.
+              Je me glorifierai dans le Seigneur :
+              que les pauvres m’entendent et soient en fête !
+
+              Le Seigneur regarde les justes,
+              il écoute, attentif à leurs cris.
+              Le Seigneur affronte les méchants
+              pour effacer de la terre leur mémoire.
+
+              Le Seigneur entend ceux qui l’appellent :
+              de toutes leurs angoisses, il les délivre.
+              Il est proche du cœur brisé,
+              il sauve l’esprit abattu.
+          - book: Ps
+            ref: 36 (37), 3-4, 18.23, 27.29
+            refAbbr: 36, 3…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 36, 39a
+                chorus: Le salut des justes vient du Seigneur.
+            content: |-
+              Fais confiance au Seigneur, agis bien,
+              habite la terre et reste fidèle ;
+              mets ta joie dans le Seigneur :
+              il comblera les désirs de ton cœur.
+
+              Il connaît les jours de l’homme intègre
+              qui recevra un héritage impérissable.
+              Quand le Seigneur conduit les pas de l’homme,
+              ils sont fermes et sa marche lui plaît.
+
+              Évite le mal, fais ce qui est bien,
+              et tu auras une habitation pour toujours,
+              Les justes posséderont la terre
+              et toujours l’habiteront.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 14, 23
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Si quelqu’un m’aime, il gardera ma parole,
+              dit le Seigneur ;
+              mon Père l’aimera, et nous viendrons vers lui.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 17, 7-10
+            headline: '« Nous sommes de simples serviteurs : nous n’avons fait que notre
+              devoir »'
+            content: |-
+              En ce temps-là,
+              Jésus disait :
+              	« Lequel d’entre vous,
+              quand son serviteur aura labouré ou gardé les bêtes,
+              lui dira à son retour des champs :
+              “Viens vite prendre place à table” ?
+              	Ne lui dira-t-il pas plutôt :
+              “Prépare-moi à dîner,
+              mets-toi en tenue pour me servir,
+              le temps que je mange et boive.
+              Ensuite tu mangeras et boiras à ton tour” ?
+              	Va-t-il être reconnaissant envers ce serviteur
+              d’avoir exécuté ses ordres ?
+              	De même vous aussi,
+              quand vous aurez exécuté tout ce qui vous a été ordonné,
+              dites :
+              “Nous sommes de simples serviteurs :
+              nous n’avons fait que notre devoir” »

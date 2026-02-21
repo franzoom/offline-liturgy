@@ -1,0 +1,114 @@
+id: mary_mother_of_god
+title: Sainte Marie mère de Dieu
+context: |-
+  1ᵉʳ janvier
+  Octave de la Nativité
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Nb
+            ref: 6, 22-27
+            headline: « Ils invoqueront mon nom sur les fils d’Israël, et moi, je les
+              bénirai »
+            content: |-
+              Le Seigneur parla à Moïse. Il dit :
+              « Parle à Aaron et à ses fils. Tu leur diras :
+              Voici en quels termes vous bénirez les fils d’Israël :
+              “Que le Seigneur te bénisse et te garde !
+              Que le Seigneur fasse briller sur toi son visage,
+              qu’il te prenne en grâce !
+              Que le Seigneur tourne vers toi son visage,
+              qu’il t’apporte la paix !”
+              Ils invoqueront ainsi mon nom sur les fils d’Israël,
+              et moi, je les bénirai. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 66 (67), 2b-3, 5abd, 7.8b
+            refAbbr: 66, 2…
+            chorus:
+              - chorusRef: 66, 2a
+                chorus: |-
+                  Que Dieu nous prenne en grâce
+                  et qu’il nous bénisse !
+            content: |-
+              Que Dieu nous prenne en grâce et nous bénisse,
+              que son visage s’illumine pour nous ;
+              et ton chemin sera connu sur la terre,
+              ton salut, parmi toutes les nations.
+
+              Que les nations chantent leur joie,
+              car tu gouvernes le monde avec justice ;
+              tu gouvernes les peuples avec droiture,
+              sur la terre, tu conduis les nations.
+
+              Que les peuples, Dieu, te rendent grâce ;
+              qu’ils te rendent grâce tous ensemble !
+              Que Dieu nous bénisse,
+              et que la terre tout entière l’adore !
+
+      - partType: READING_2
+        partContents:
+          - book: Ga
+            ref: 4, 4-7
+            headline: « Dieu a envoyé son Fils, né d’une femme »
+            content: |-
+              Frères,
+              lorsqu’est venue la plénitude des temps,
+              Dieu a envoyé son Fils,
+              né d’une femme
+              et soumis à la loi de Moïse,
+              afin de racheter ceux qui étaient soumis à la Loi
+              et pour que nous soyons adoptés comme fils.
+              Et voici la preuve que vous êtes des fils :
+              Dieu a envoyé l’Esprit de son Fils dans nos cœurs,
+              et cet Esprit crie
+              « _Abba !_ », c’est-à-dire : Père !
+              Ainsi tu n’es plus esclave, mais fils,
+              et puisque tu es fils, tu es aussi héritier :
+              c’est l’œuvre de Dieu.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: He
+            ref: 1, 1-2
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              À bien des reprises, Dieu, dans le passé,
+              a parlé à nos pères par les prophètes ;
+              à la fin, en ces jours où nous sommes,
+              il nous a parlé par son Fils.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 2, 16-21
+            headline: « Ils découvrirent Marie et Joseph, avec le nouveau-né. Quand fut
+              arrivé le huitième jour, l’enfant reçut le nom de Jésus »
+            content: |-
+              En ce temps-là,
+              les bergers se hâtèrent d’aller à Bethléem,
+              et ils découvrirent Marie et Joseph,
+              avec le nouveau-né
+              couché dans la mangeoire.
+              Après avoir vu,
+              ils racontèrent ce qui leur avait été annoncé
+              au sujet de cet enfant.
+              Et tous ceux qui entendirent s’étonnaient
+              de ce que leur racontaient les bergers.
+              Marie, cependant, retenait tous ces événements
+              et les méditait dans son cœur.
+              Les bergers repartirent ;
+              ils glorifiaient et louaient Dieu
+              pour tout ce qu’ils avaient entendu et vu,
+              selon ce qui leur avait été annoncé.
+
+              Quand fut arrivé le huitième jour,
+              celui de la circoncision,
+              l’enfant reçut le nom de Jésus,
+              le nom que l’ange lui avait donné avant sa conception.

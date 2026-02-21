@@ -1,0 +1,127 @@
+id: teresa_of_jesus_of_avila_virgin
+title: Sainte Thérèse d’Avila
+context: 15 octobre
+note: Commun des vierges, ou des saintes (pour les religieuses).
+subTitle: vierge et docteur de l’Église
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 8, 22-27
+            headline: « L’Esprit intercède par des gémissements inexprimables »
+            content: |-
+              Frères,
+              nous le savons bien,
+              	la création tout entière gémit,
+              	elle passe par les douleurs d’un enfantement qui dure encore.
+              Et elle n’est pas seule.
+              Nous aussi, en nous-mêmes, nous gémissons ;
+              	nous avons commencé à recevoir l’Esprit Saint,
+              mais nous attendons notre adoption
+              	et la rédemption de notre corps.
+              Car nous avons été sauvés, mais c’est en espérance ;
+              	voir ce qu’on espère, ce n’est plus espérer :
+              	ce que l’on voit, comment peut-on l’espérer encore ?
+              Mais nous, qui espérons ce que nous ne voyons pas,
+              	nous l’attendons avec persévérance.
+              Bien plus, l’Esprit Saint vient au secours de notre faiblesse,
+              	car nous ne savons pas prier comme il faut.
+              L’Esprit lui-même intercède pour nous
+              	par des gémissements inexprimables.
+              Et Dieu, qui scrute les cœurs,
+              	connaît les intentions de l’Esprit
+              puisque c’est selon Dieu
+              	que l’Esprit intercède pour les fidèles.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 18B (19), 8, 9, 10, 11
+            refAbbr: 18B, 8…
+            chorus:
+              - chorusRef: 18b, 10cd
+                chorus: |-
+                  Les décisions du Seigneur sont justes
+                  et vraiment équitables.
+              - chorusRef: Jn 6, 63c
+                chorus: |-
+                  Tes paroles, Seigneur, sont esprit
+                  et elles sont vie.
+            content: |-
+              La loi du Seigneur est parfaite,
+              qui redonne vie ;
+              la charte du Seigneur est sûre,
+              qui rend sages les simples.
+
+              Les préceptes du Seigneur sont droits,
+              ils réjouissent le cœur ;
+              le commandement du Seigneur est limpide,
+              il clarifie le regard.
+
+              La crainte qu’il inspire est pure,
+              elle est là pour toujours ;
+              les décisions du Seigneur sont justes
+              et vraiment équitables :
+
+              plus désirables que l’or,
+              qu’une masse d’or fin,
+              plus savoureuses que le miel
+              qui coule des rayons.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 15, 9b.5b
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Demeurez dans mon amour, dit le Seigneur.
+              Celui qui demeure en moi et en qui je demeure,
+              celui-là porte beaucoup de fruit.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 15, 1-8
+            headline: « Celui qui demeure en moi et en qui je demeure, celui-là porte
+              beaucoup de fruit »
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples :
+              « Moi, je suis la vraie vigne,
+              et mon Père est le vigneron.
+              Tout sarment qui est en moi,
+              mais qui ne porte pas de fruit,
+              mon Père l’enlève ;
+              tout sarment qui porte du fruit,
+              il le purifie en le taillant,
+              pour qu’il en porte davantage.
+              Mais vous, déjà vous voici purifiés
+              grâce à la parole que je vous ai dite.
+              Demeurez en moi, comme moi en vous.
+              De même que le sarment
+              ne peut pas porter de fruit par lui-même
+              s’il ne demeure pas sur la vigne,
+              de même vous non plus,
+              si vous ne demeurez pas en moi.
+
+              Moi, je suis la vigne,
+              et vous, les sarments.
+              Celui qui demeure en moi
+              et en qui je demeure,
+              celui-là porte beaucoup de fruit,
+              car, en dehors de moi, vous ne pouvez rien faire.
+              Si quelqu’un ne demeure pas en moi,
+              il est, comme le sarment, jeté dehors,
+              et il se dessèche.
+              Les sarments secs, on les ramasse,
+              on les jette au feu, et ils brûlent.
+              Si vous demeurez en moi,
+              et que mes paroles demeurent en vous,
+              demandez tout ce que vous voulez,
+              et cela se réalisera pour vous.
+              Ce qui fait la gloire de mon Père,
+              c’est que vous portiez beaucoup de fruit
+              et que vous soyez pour moi des disciples. »

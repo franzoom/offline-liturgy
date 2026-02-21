@@ -1,0 +1,42 @@
+id: ignatius_of_loyola_priest
+title: Saint Ignace de Loyola
+context: 31 juillet
+note: Commun des pasteurs, ou des saints (pour les religieux).
+subTitle: prêtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Co
+            ref: 10, 31 – 11, 1
+            headline: « Faites tout pour la gloire de Dieu »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+            refAbbr: 33, 2…11
+            chorus:
+              - chorusRef: 33,2a
+                chorus: Je bénirai le Seigneur en tout temps.
+              - chorus: |-
+                  Goûtez et voyez
+                  comme est bon le Seigneur.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 5, 3
+            content: |-
+              Heureux les pauvres de cœur,
+              car le royaume des Cieux est à eux !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 14, 25-33
+            headline: |-
+              « Celui qui ne renonce pas à tout ce qui lui appartient ne peut pas être mon disciple »

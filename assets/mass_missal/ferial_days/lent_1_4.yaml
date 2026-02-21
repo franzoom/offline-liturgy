@@ -1,0 +1,104 @@
+id: lent_1_thursday
+title: Jeudi
+context: Première semaine de Carême
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Est
+            ref: 4, 17n.p-r.aa.bb.gg.hh (Néovulgate)
+            refAbbr: 4,  17
+            headline: « Je n’ai pas d’autre secours que toi, Seigneur »
+            content: |-
+              En ces jours-là,
+              la reine Esther, dans l’angoisse mortelle qui l’étreignait,
+              chercha refuge auprès du Seigneur.
+              Se prosternant à terre avec ses servantes du matin jusqu’au soir,
+              elle disait :
+              « Dieu d’Abraham, Dieu d’Isaac, Dieu de Jacob,
+              tu es béni.
+              Viens à mon secours car je suis seule,
+              et je n’ai pas d’autre défenseur que toi, Seigneur.
+              Car je vais jouer avec le danger.
+
+              Dans les livres de mes ancêtres, Seigneur,
+              j’ai appris que ceux qui te plaisent,
+              tu les libères pour toujours, Seigneur.
+              Et maintenant, aide-moi, car je suis solitaire
+              et je n’ai que toi, Seigneur mon Dieu.
+              Maintenant, viens me secourir car je suis orpheline,
+              et mets sur mes lèvres un langage harmonieux
+              quand je serai en présence de ce lion ;
+              fais que je trouve grâce devant lui,
+              et change son cœur :
+              qu’il se mette à détester celui qui nous combat,
+              qu’il le détruise avec tous ses partisans.
+              Et nous, libère-nous de la main de nos ennemis ;
+              rends-nous la joie après la détresse
+              et le bien-être après la souffrance. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 137 (138), 1-2a, 2bc-3, 7c-8
+            refAbbr: 137, 1…
+            chorus:
+              - chorusRef: 137, 3a
+                chorus: |-
+                  Quand je crie vers toi, Seigneur,
+                  tu réponds à mon appel.
+            content: |-
+              De tout mon cœur, Seigneur, je te rends grâce :
+              tu as entendu les paroles de ma bouche.
+              Je te chante en présence des anges,
+              vers ton temple sacré, je me prosterne.
+
+              Je rends grâce à ton nom pour ton amour et ta vérité,
+              car tu élèves, au-dessus de tout, ton nom et ta parole.
+              Le jour où tu répondis à mon appel,
+              tu fis grandir en mon âme la force.
+
+              Ta droite me rend vainqueur.
+              Le Seigneur fait tout pour moi !
+              Seigneur, éternel est ton amour :
+              n’arrête pas l’œuvre de tes mains.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Ps
+            ref: 50, 12a.14a
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Crée en moi un cœur pur, ô mon Dieu ;
+              rends-moi la joie d’être sauvé.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 7, 7-12
+            headline: « Quiconque demande reçoit »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              « Demandez, on vous donnera ;
+              cherchez, vous trouverez ;
+              frappez, on vous ouvrira.
+              En effet, quiconque demande reçoit ;
+              qui cherche trouve ;
+              à qui frappe, on ouvrira.
+              Ou encore :
+              lequel d’entre vous donnera une pierre à son fils
+              quand il lui demande du pain ?
+              ou bien lui donnera un serpent,
+              quand il lui demande un poisson ?
+              Si donc vous, qui êtes mauvais,
+              vous savez donner de bonnes choses à vos enfants,
+              combien plus votre Père qui est aux cieux
+              donnera-t-il de bonnes choses
+              à ceux qui les lui demandent !
+              Donc, tout ce que vous voudriez que les autres fassent pour vous,
+              faites-le pour eux, vous aussi :
+              voilà ce que disent la Loi et les Prophètes. »

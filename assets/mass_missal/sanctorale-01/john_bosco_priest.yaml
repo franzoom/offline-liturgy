@@ -1,0 +1,42 @@
+id: john_bosco_priest
+title: Saint Jean Bosco
+context: 31 janvier
+note: Commun des pasteurs, ou des saints (pour les éducateurs).
+subTitle: prêtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ph
+            ref: 4, 4-9
+            headline: « Ce qui est juste et pur, prenez-le à votre compte »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 102 (103), 1-2, 3-4, 8-9, 13-14, 17-18a
+            refAbbr: 102, 1…
+            chorus:
+              - chorusRef: 102, 1a
+                chorus: |-
+                  Bénis le Seigneur, ô mon âme !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 23, 11.12b
+            content: |-
+              Le plus grand parmi vous sera votre serviteur,
+              dit le Seigneur,
+              qui s’abaissera sera élevé.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 18, 1-5
+            headline: |-
+              « Si vous ne changez pas pour devenir comme les enfants,
+              vous n’entrerez pas dans le royaume des Cieux »

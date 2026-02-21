@@ -1,0 +1,227 @@
+id: transfiguration_of_the_lord
+title: Transfiguration du Seigneur
+context: 6 août
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Dn
+            ref: 7, 9-10.13-14
+            headline: « Son habit était blanc comme la neige »
+            content: |-
+              La nuit, au cours d’une vision,
+              	moi, Daniel, je regardais :
+              des trônes furent disposés,
+                et un Vieillard prit place ;
+              son habit était blanc comme la neige,
+                et les cheveux de sa tête, comme de la laine immaculée ;
+              son trône était fait de flammes de feu,
+                avec des roues de feu ardent.
+
+              Un fleuve de feu coulait, qui jaillissait devant lui.
+              Des milliers de milliers le servaient,
+                des myriades de myriades se tenaient devant lui.
+              Le tribunal prit place et l’on ouvrit des livres.
+
+              Je regardais, au cours des visions de la nuit,
+              et je voyais venir, avec les nuées du ciel,
+                comme un Fils d’homme ;
+              il parvint jusqu’au Vieillard,
+                et on le fit avancer devant lui.
+              Et il lui fut donné
+                domination, gloire et royauté ;
+              tous les peuples, toutes les nations et les gens de toutes langues
+                le servirent.
+              Sa domination est une domination éternelle,
+                qui ne passera pas,
+              et sa royauté,
+                une royauté qui ne sera pas détruite.
+          - book: 2 P
+            ref: 1, 16-19
+            toDayOfWeeksOnly:
+              - MONDAY_TO_SATURDAY
+            headline: « Cette voix venant du ciel, nous l’avons nous-mêmes entendue »
+            content: &reading2_content >-
+              Bien-aimés,
+              ce n’est pas en ayant recours à des récits imaginaires sophistiqués
+              que nous vous avons fait connaître la puissance et la venue
+                de notre Seigneur Jésus Christ,
+              mais c’est pour avoir été les témoins oculaires de sa grandeur.
+              Car il a reçu de Dieu le Père l’honneur et la gloire
+              quand, depuis la Gloire magnifique,
+              lui parvint une voix qui disait :
+                  _Celui-ci est mon Fils, mon bien-aimé ;
+                  en lui j’ai toute ma joie._
+              Cette voix venant du ciel,
+              nous l’avons nous-mêmes entendue
+                quand nous étions avec lui sur la montagne sainte.
+              Et ainsi se confirme pour nous la parole prophétique ;
+              vous faites bien de fixer votre attention sur elle,
+                comme sur une lampe brillant dans un lieu obscur
+              jusqu’à ce que paraisse le jour
+                et que l’étoile du matin se lève dans vos cœurs.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 96, 1-2, 4-5, 6.9
+            refAbbr: 96, 1…
+            chorus:
+              - chorusRef: 96, 1a.9a
+                chorus: |-
+                  Le Seigneur est roi,
+                  le Très-Haut sur toute la terre !
+            content: |-
+              Le Seigneur est roi ! Exulte la terre !
+              Joie pour les îles sans nombre !
+              Ténèbre et nuée l’entourent,
+              justice et droit sont l’appui de son trône.
+
+              Quand ses éclairs illuminèrent le monde,
+              la terre le vit et s’affola ;
+              les montagnes fondaient comme cire devant le Seigneur,
+              devant le Maître de toute la terre.
+
+              Les cieux ont proclamé sa justice,
+              et tous les peuples ont vu sa gloire.
+              Tu es, Seigneur, le Très-Haut sur toute la terre,
+              tu domines de haut tous les dieux.
+
+      - partType: READING_2
+        partContents:
+          - book: 2 P
+            ref: 1, 16-19
+            toDayOfWeeksOnly:
+              - SUNDAY
+            headline: « Cette voix venant du ciel, nous l’avons nous-mêmes entendue »
+            content: *reading2_content
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 17, 5
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Celui-ci est mon Fils bien-aimé,
+              en qui je trouve ma joie :
+              écoutez-le !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 17, 1-9
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Son visage devint brillant comme le soleil »
+            content: |-
+              En ce temps-là,
+              Jésus prit avec lui Pierre, Jacques et Jean son frère,
+                et il les emmena à l’écart, sur une haute montagne.
+              Il fut transfiguré devant eux ;
+                son visage devint brillant comme le soleil,
+                et ses vêtements, blancs comme la lumière.
+              Voici que leur apparurent Moïse et Élie,
+                qui s’entretenaient avec lui.
+              Pierre alors prit la parole et dit à Jésus :
+                « Seigneur, il est bon que nous soyons ici !
+                Si tu le veux,
+                je vais dresser ici trois tentes,
+                une pour toi, une pour Moïse, et une pour Élie. »
+              Il parlait encore,
+                lorsqu’une nuée lumineuse les couvrit de son ombre,
+              et voici que, de la nuée, une voix disait :
+                « Celui-ci est mon Fils bien-aimé,
+                en qui je trouve ma joie :
+                écoutez-le ! »
+              Quand ils entendirent cela, les disciples tombèrent face contre terre
+                et furent saisis d’une grande crainte.
+              Jésus s’approcha, les toucha et leur dit :
+                « Relevez-vous et soyez sans crainte ! »
+              Levant les yeux,
+              ils ne virent plus personne,
+                sinon lui, Jésus, seul.
+              En descendant de la montagne,
+              Jésus leur donna cet ordre :
+                « Ne parlez de cette vision à personne,
+                avant que le Fils de l’homme
+                soit ressuscité d’entre les morts. »
+          - book: Mc
+            ref: 9, 2-10
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « Celui-ci est mon Fils bien-aimé »
+            content: |-
+              En ce temps-là,
+              Jésus prit avec lui Pierre, Jacques et Jean,
+                et les emmena, eux seuls, à l’écart sur une haute montagne.
+              Et il fut transfiguré devant eux.
+              Ses vêtements devinrent resplendissants,
+                d’une blancheur telle
+                que personne sur terre ne peut obtenir une blancheur pareille.
+              Élie leur apparut avec Moïse,
+                et tous deux s’entretenaient avec Jésus.
+              Pierre alors prend la parole
+              et dit à Jésus :
+                « Rabbi, il est bon que nous soyons ici !
+                Dressons donc trois tentes :
+                une pour toi, une pour Moïse, et une pour Élie. »
+
+              De fait, Pierre ne savait que dire,
+                tant leur frayeur était grande.
+              Survint une nuée qui les couvrit de son ombre,
+              et de la nuée une voix se fit entendre :
+                « Celui-ci est mon Fils bien-aimé :
+                écoutez-le ! »
+              Soudain, regardant tout autour,
+                ils ne virent plus que Jésus seul avec eux.
+
+              Ils descendirent de la montagne,
+              et Jésus leur ordonna de ne raconter à personne ce qu’ils avaient vu,
+                avant que le Fils de l’homme
+                soit ressuscité d’entre les morts.
+              Et ils restèrent fermement attachés à cette parole,
+              tout en se demandant entre eux ce que voulait dire :
+                « ressusciter d’entre les morts ».
+          - book: Lc
+            ref: 9, 28b-36
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: « Pendant qu’il priait, l’aspect de son visage devint autre »
+            content: |-
+              En ce temps-là,
+              Jésus prit avec lui Pierre, Jean et Jacques,
+                et il gravit la montagne pour prier.
+              Pendant qu’il priait,
+              l’aspect de son visage devint autre,
+                et son vêtement devint d’une blancheur éblouissante.
+              Voici que deux hommes s’entretenaient avec lui :
+              c’étaient Moïse et Élie,
+                apparus dans la gloire.
+              Ils parlaient de son départ
+                qui allait s’accomplir à Jérusalem.
+              Pierre et ses compagnons étaient accablés de sommeil ;
+              mais, restant éveillés, ils virent la gloire de Jésus,
+                et les deux hommes à ses côtés.
+              Ces derniers s’éloignaient de lui,
+              quand Pierre dit à Jésus :
+                « Maître, il est bon que nous soyons ici !
+                Faisons trois tentes :
+                une pour toi, une pour Moïse, et une pour Élie. »
+              Il ne savait pas ce qu’il disait.
+              Pierre n’avait pas fini de parler,
+                qu’une nuée survint et les couvrit de son ombre ;
+              ils furent saisis de frayeur
+                lorsqu’ils y pénétrèrent.
+              Et, de la nuée, une voix se fit entendre :
+                « Celui-ci est mon Fils,
+                celui que j’ai choisi :
+                écoutez-le ! »
+              Et pendant que la voix se faisait entendre,
+                il n’y avait plus que Jésus, seul.
+
+              Les disciples gardèrent le silence
+              et, en ces jours-là,
+                ils ne rapportèrent à personne rien de ce qu’ils avaient vu.

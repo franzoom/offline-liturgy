@@ -1,0 +1,117 @@
+id: advent_2_tuesday
+title: Mardi
+context: Deuxième semaine de l’Avent
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 40, 1-11
+            headline: Dieu console son peuple.
+            content: |-
+              Consolez, consolez mon peuple,
+              	– dit votre Dieu –
+              parlez au cœur de Jérusalem.
+              Proclamez que son service est accompli,
+              	que son crime est expié,
+              qu’elle a reçu de la main du Seigneur
+              	le double pour toutes ses fautes.
+
+              Une voix proclame :
+              	« Dans le désert, préparez le chemin du Seigneur ;
+              	tracez droit, dans les terres arides,
+              		une route pour notre Dieu.
+              	Que tout ravin soit comblé,
+              		toute montagne et toute colline abaissées !
+              	que les escarpements se changent en plaine,
+              		et les sommets, en large vallée !
+              	Alors se révélera la gloire du Seigneur,
+              	et tout être de chair verra
+              		que la bouche du Seigneur a parlé. »
+
+              Une voix dit : « Proclame ! »
+              	Et je dis : « Que vais-je proclamer ? »
+              Toute chair est comme l’herbe,
+              	toute sa grâce, comme la fleur des champs :
+              l’herbe se dessèche et la fleur se fane
+              	quand passe sur elle le souffle du Seigneur.
+              Oui, le peuple est comme l’herbe :
+              	l’herbe se dessèche et la fleur se fane,
+              mais la parole de notre Dieu
+              	demeure pour toujours.
+
+              Monte sur une haute montagne,
+              	toi qui portes la bonne nouvelle à Sion.
+              Élève la voix avec force,
+              	toi qui portes la bonne nouvelle à Jérusalem.
+              Élève la voix, ne crains pas.
+              Dis aux villes de Juda :
+              	« Voici votre Dieu ! »
+              Voici le Seigneur Dieu !
+              Il vient avec puissance ;
+              	son bras lui soumet tout.
+              Voici le fruit de son travail avec lui,
+              	et devant lui, son ouvrage.
+              Comme un berger, il fait paître son troupeau :
+              	son bras rassemble les agneaux,
+              	il les porte sur son cœur,
+              	il mène les brebis qui allaitent.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 95 (96), 1-2a, 3a.10ac, 11-12a, 12b.13ab
+            refAbbr: 95, 1…
+            chorus:
+              - chorusRef: 40, 9.10
+                chorus: |-
+                  Voici le Seigneur Dieu !
+                  Il vient avec puissance.
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              chantez au Seigneur, terre entière,
+              chantez au Seigneur et bénissez son nom !
+
+              Racontez à tous les peuples sa gloire,
+              allez dire aux nations : « Le Seigneur est roi ! »
+              Il gouverne les peuples avec droiture.
+
+              Joie au ciel ! Exulte la terre !
+              Les masses de la mer mugissent,
+              la campagne tout entière est en fête.
+
+              Les arbres des forêts dansent de joie
+              devant la face du Seigneur, car il vient,
+              car il vient pour juger la terre.
+
+      - partType: ALLELUIA
+        partContents:
+          - acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Il est proche, le jour du Seigneur ;
+              le voici qui vient nous sauver.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 18, 12-14
+            headline: « Dieu ne veut pas qu’un seul de ces petits soit perdu »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              	« Quel est votre avis ?
+              	Si un homme possède cent brebis
+              		et que l’une d’entre elles s’égare,
+              	ne va-t-il pas laisser les 99 autres
+              		dans la montagne
+              	pour partir à la recherche de la brebis égarée ?
+              	Et, s’il arrive à la retrouver,
+              		amen, je vous le dis :
+              	il se réjouit pour elle
+              		plus que pour les 99
+              		qui ne se sont pas égarées.
+              	Ainsi, votre Père qui est aux cieux
+              		ne veut pas qu’un seul de ces petits soit perdu. »

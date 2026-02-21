@@ -1,0 +1,40 @@
+id: vincent_de_paul_priest
+title: Saint Vincent de Paul
+context: 27 septembre
+note: Commun des pasteurs (pour les missionnaires), ou des saints (qui ont exercé une activité caritative).
+subTitle: prêtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Co
+            ref: 1, 26-31
+            headline: « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+            refAbbr: 111, 1…9
+            chorus:
+              - chorusRef: 111, 1a
+                chorus: Heureux qui craint le Seigneur !
+              - chorus: Alléluia !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 10, 14
+            content: |-
+              Je suis le bon pasteur, dit le Seigneur ;
+              je connais mes brebis
+              et mes brebis me connaissent.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 9, 35-38
+            headline: « La moisson est abondante, mais les ouvriers sont peu nombreux »

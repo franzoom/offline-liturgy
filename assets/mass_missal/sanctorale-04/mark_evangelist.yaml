@@ -1,0 +1,119 @@
+id: mark_evangelist
+title: Saint Marc
+context: 25 avril
+subTitle: évangéliste
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 P
+            ref: 5, 5b-14
+            headline: « Marc, mon fils, vous salue »
+            content: |-
+              Bien-aimés,
+              	vous tous, les uns envers les autres,
+              prenez l’humilité comme tenue de service.
+              En effet,
+              _Dieu s’oppose aux orgueilleux,
+              aux humbles il accorde sa grâce._
+              	Abaissez-vous donc sous la main puissante de Dieu,
+              pour qu’il vous élève en temps voulu.
+              	Déchargez-vous sur lui de tous vos soucis,
+              puisqu’il prend soin de vous.
+              	Soyez sobres, veillez :
+              votre adversaire, le diable,
+              comme un lion rugissant,
+              rôde, cherchant qui dévorer.
+              	Résistez-lui avec la force de la foi,
+              car vous savez que tous vos frères, de par le monde,
+              sont en butte aux mêmes souffrances.
+              	Après que vous aurez souffert un peu de temps,
+              le Dieu de toute grâce,
+              lui qui, dans le Christ Jésus, vous a appelés à sa gloire éternelle,
+              vous rétablira lui-même,
+              vous affermira, vous fortifiera,
+              vous rendra inébranlables.
+              	À lui la souveraineté pour les siècles. Amen.
+              Par Silvain,
+              que je considère comme un frère digne de confiance,
+              je vous écris ces quelques mots
+              pour vous exhorter,
+              et pour attester que c’est vraiment dans la grâce de Dieu
+              que vous tenez ferme.
+              	La communauté qui est à Babylone, choisie comme vous par Dieu,
+              vous salue,
+              ainsi que Marc, mon fils.
+              	Saluez-vous les uns les autres par un baiser fraternel.
+              Paix à vous tous, qui êtes dans le Christ.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 88, 2-3, 6-7, 16-17
+            refAbbr: 88, 2…
+            chorus:
+              - chorusRef: 88, 2a
+                chorus: |-
+                  Ton amour, Seigneur,
+                  sans fin je le chante !
+              - chorus: Alléluia !
+            content: |-
+              L’amour du Seigneur, sans fin je le chante ;
+              ta fidélité, je l’annonce d’âge en âge.
+              Je le dis : C’est un amour bâti pour toujours ;
+              ta fidélité est plus stable que les cieux.
+
+              Que les cieux rendent grâce pour ta merveille, Seigneur,
+              et l’assemblée des saints, pour ta fidélité.
+              Qui donc, là-haut, est comparable au Seigneur ?
+              Qui d’entre les dieux est semblable au Seigneur ?
+
+              Heureux le peuple qui connaît l’ovation !
+              Seigneur, il marche à la lumière de ta face ;
+              tout le jour, à ton nom il danse de joie,
+              fier de ton juste pouvoir.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: 1 Co
+            ref: 1, 23a-24b
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Nous proclamons un Messie crucifié,
+              il est puissance de Dieu et sagesse de Dieu.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mc
+            ref: 16, 15-20
+            headline: « Proclamez l’Évangile à toute la création »
+            content: |-
+              En ce temps-là,
+              Jésus ressuscité se manifesta aux onze Apôtres et leur dit :
+              	« Allez dans le monde entier.
+              Proclamez l’Évangile à toute la création.
+              	Celui qui croira et sera baptisé
+              sera sauvé ;
+              celui qui refusera de croire
+              sera condamné.
+              	Voici les signes qui accompagneront
+              ceux qui deviendront croyants :
+              en mon nom, ils expulseront les démons ;
+              ils parleront en langues nouvelles ;
+              	ils prendront des serpents dans leurs mains
+              et, s’ils boivent un poison mortel,
+              il ne leur fera pas de mal ;
+              ils imposeront les mains aux malades,
+              et les malades s’en trouveront bien. »
+
+              Le Seigneur Jésus,
+              après leur avoir parlé,
+              fut enlevé au ciel
+              et s’assit à la droite de Dieu.
+              	Quant à eux,
+              ils s’en allèrent proclamer partout l’Évangile.
+              Le Seigneur travaillait avec eux
+              et confirmait la Parole par les signes qui l’accompagnaient.

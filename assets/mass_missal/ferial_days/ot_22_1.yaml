@@ -1,0 +1,192 @@
+id: ordinary_time_22_monday
+title: Lundi
+context: Vingt-deuxième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_22ND_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Th
+            ref: 4, 13-18
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Ceux qui se sont endormis, Dieu, par Jésus, les emmènera avec lui »
+            content: |-
+              Frères,
+              nous ne voulons pas vous laisser dans l’ignorance
+              au sujet de ceux qui se sont endormis dans la mort ;
+              il ne faut pas que vous soyez abattus
+              comme les autres, qui n’ont pas d’espérance.
+              	Jésus, nous le croyons, est mort et ressuscité ;
+              de même, nous le croyons aussi, ceux qui se sont endormis,
+              Dieu, par Jésus, les emmènera avec lui.
+
+              Car, sur la parole du Seigneur, nous vous déclarons ceci :
+              nous les vivants, nous qui sommes encore là
+              pour la venue du Seigneur,
+              nous ne devancerons pas ceux qui se sont endormis.
+              	Au signal donné par la voix de l’archange, et par la trompette divine,
+              le Seigneur lui-même descendra du ciel,
+              et ceux qui sont morts dans le Christ ressusciteront d’abord.
+              	Ensuite, nous les vivants,
+              nous qui sommes encore là,
+              nous serons emportés sur les nuées du ciel,
+              en même temps qu’eux,
+              à la rencontre du Seigneur.
+              Ainsi, nous serons pour toujours avec le Seigneur.
+              	Réconfortez-vous donc les uns les autres
+              avec ce que je viens de dire.
+          - book: 1 Co
+            ref: 2, 1-5
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Parmi vous, je n’ai rien voulu connaître d’autre que Jésus Christ,
+              ce Messie crucifié »
+            content: |-
+              Frères,
+              quand je suis venu chez vous,
+              je ne suis pas venu vous annoncer le mystère de Dieu
+              avec le prestige du langage ou de la sagesse.
+              	Parmi vous, je n’ai rien voulu connaître d’autre
+              que Jésus Christ, ce Messie crucifié.
+              	Et c’est dans la faiblesse,
+              craintif et tout tremblant,
+              que je me suis présenté à vous.
+              	Mon langage, ma proclamation de l’Évangile,
+              n’avaient rien d’un langage
+              de sagesse qui veut convaincre ;
+              mais c’est l’Esprit et sa puissance qui se manifestaient,
+              	pour que votre foi repose, non pas sur la sagesse des hommes,
+              mais sur la puissance de Dieu.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 95 (96), 1-2a, 2b-3, 4-5a, 11-12a, 12b-13ab
+            refAbbr: 95, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 95, 13
+                chorus: |-
+                  Il vient, le Seigneur,
+                  il vient pour juger la terre.
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              chantez au Seigneur, terre entière,
+              chantez au Seigneur et bénissez son nom !
+
+              De jour en jour, proclamez son salut,
+              racontez à tous les peuples sa gloire,
+              à toutes les nations ses merveilles !
+
+              Il est grand, le Seigneur, hautement loué,
+              redoutable au-dessus de tous les dieux :
+              néant, tous les dieux des nations !
+
+              Joie au ciel ! Exulte la terre !
+              Les masses de la mer mugissent,
+              la campagne tout entière est en fête.
+
+              Les arbres des forêts dansent de joie
+              devant la face du Seigneur, car il vient,
+              car il vient pour juger la terre.
+          - book: Ps
+            ref: 118 (119), 97-98, 99-100, 101-102
+            refAbbr: 118, 97…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 118, 97a
+                chorus: De quel amour, Seigneur, j’aime ta loi !
+            content: |-
+              De quel amour j’aime ta loi :
+              tout le jour je la médite !
+              Je surpasse en habileté mes ennemis,
+              car je fais miennes pour toujours tes volontés.
+
+              Je surpasse en sagesse tous mes maîtres,
+              car je médite tes exigences.
+              Je surpasse en intelligence les anciens,
+              car je garde tes préceptes.
+
+              Des chemins du mal, je détourne mes pas,
+              afin d’observer ta parole.
+              De tes décisions, je ne veux pas m’écarter,
+              car c’est toi qui m’enseignes.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 4, 18ac
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              L’Esprit du Seigneur est sur moi :
+              il m’a envoyé porter la Bonne Nouvelle aux pauvres.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 4, 16-30
+            headline: « Il m’a envoyé porter la Bonne Nouvelle aux pauvres. Aucun prophète
+              ne trouve un accueil favorable dans son pays »
+            content: |-
+              En ce temps-là,
+              	Jésus vint à Nazareth, où il avait été élevé.
+              Selon son habitude,
+              il entra dans la synagogue le jour du sabbat,
+              et il se leva pour faire la lecture.
+              	On lui remit le livre du prophète Isaïe.
+              Il ouvrit le livre et trouva le passage où il est écrit :
+              _L’Esprit du Seigneur est sur moi
+              parce que le Seigneur m’a consacré par l’onction.
+              Il m’a envoyé porter la Bonne Nouvelle aux pauvres,
+              annoncer aux captifs leur libération,
+              et aux aveugles qu’ils retrouveront la vue,
+              remettre en liberté les opprimés,
+              	annoncer une année favorable accordée par le Seigneur._
+              	Jésus referma le livre, le rendit au servant et s’assit.
+              Tous, dans la synagogue, avaient les yeux fixés sur lui.
+              	Alors il se mit à leur dire :
+              « Aujourd’hui s’accomplit
+              ce passage de l’Écriture que vous venez d’entendre »
+              	Tous lui rendaient témoignage
+              et s’étonnaient des paroles de grâce qui sortaient de sa bouche.
+              Ils se disaient :
+              « N’est-ce pas là le fils de Joseph ? »
+              	Mais il leur dit :
+              « Sûrement vous allez me citer le dicton :
+              “Médecin, guéris-toi toi-même”,
+              et me dire :
+              “Nous avons appris tout ce qui s’est passé à Capharnaüm :
+              fais donc de même ici dans ton lieu d’origine !” »
+              Puis il ajouta :
+              « Amen, je vous le dis :
+              aucun prophète ne trouve un accueil favorable dans son pays.
+              	En vérité, je vous le dis :
+              Au temps du prophète Élie,
+              lorsque pendant trois ans et demi
+              le ciel retint la pluie,
+              et qu’une grande famine se produisit sur toute la terre,
+              il y avait beaucoup de veuves en Israël ;
+              	pourtant Élie ne fut envoyé vers aucune d’entre elles,
+              mais bien dans la ville de Sarepta, au pays de Sidon,
+              chez une veuve étrangère.
+              	Au temps du prophète Élisée,
+              il y avait beaucoup de lépreux en Israël ;
+              et aucun d’eux n’a été purifié,
+              mais bien Naaman le Syrien. »
+
+              À ces mots, dans la synagogue,
+              tous devinrent furieux.
+              	Ils se levèrent,
+              poussèrent Jésus hors de la ville,
+              et le menèrent jusqu’à un escarpement
+              de la colline où leur ville est construite,
+              pour le précipiter en bas.
+              	Mais lui, passant au milieu d’eux,
+              allait son chemin.

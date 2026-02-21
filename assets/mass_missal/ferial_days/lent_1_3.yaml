@@ -1,0 +1,113 @@
+id: lent_1_wednesday
+title: Mercredi
+context: Première semaine de Carême
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Jon
+            ref: 3, 1-10
+            headline: « Les gens de Ninive se détournèrent de leur conduite mauvaise »
+            content: |-
+              La parole du Seigneur fut adressée à Jonas :
+              « Lève-toi, va à Ninive, la grande ville païenne,
+              proclame le message que je te donne sur elle. »
+              Jonas se leva et partit pour Ninive,
+              selon la parole du Seigneur.
+              Or, Ninive était une ville extraordinairement grande :
+              il fallait trois jours pour la traverser.
+              Jonas la parcourut une journée à peine
+              en proclamant :
+              « Encore quarante jours, et Ninive sera détruite ! »
+              Aussitôt, les gens de Ninive crurent en Dieu.
+              Ils annoncèrent un jeûne,
+              et tous, du plus grand au plus petit,
+              se vêtirent de toile à sac.
+              La chose arriva jusqu’au roi de Ninive.
+              Il se leva de son trône, quitta son manteau,
+              se couvrit d’une toile à sac, et s’assit sur la cendre.
+              Puis il fit crier dans Ninive
+              ce décret du roi et de ses grands :
+              « Hommes et bêtes, gros et petit bétail,
+              ne goûteront à rien,
+              ne mangeront pas et ne boiront pas.
+              Hommes et bêtes, on se couvrira de toile à sac,
+              on criera vers Dieu de toute sa force,
+              chacun se détournera de sa conduite mauvaise
+              et de ses actes de violence.
+              Qui sait si Dieu ne se ravisera pas et ne se repentira pas,
+              s’il ne reviendra pas de l’ardeur de sa colère ?
+              Et alors nous ne périrons pas ! »
+
+              En voyant leur réaction,
+              et comment ils se détournaient de leur conduite mauvaise,
+              Dieu renonça au châtiment dont il les avait menacés.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 50 (51), 3-4, 12-13, 18-19
+            refAbbr: 50, 3…
+            chorus:
+              - chorusRef: 50, 19b
+                chorus: |-
+                  Tu ne repousses pas, ô mon Dieu,
+                  un cœur brisé et broyé.
+            content: |-
+              Pitié pour moi, mon Dieu, dans ton amour,
+              selon ta grande miséricorde, efface mon péché.
+              Lave-moi tout entier de ma faute,
+              purifie moi de mon offense.
+
+              Crée en moi un cœur pur, ô mon Dieu,
+              renouvelle et raffermis au fond de moi mon esprit.
+              Ne me chasse pas loin de ta face,
+              ne me reprends pas ton esprit saint.
+
+              Si j’offre un sacrifice, tu n’en veux pas,
+              tu n’acceptes pas d’holocauste.
+              Le sacrifice qui plaît à Dieu, c’est un esprit brisé ;
+              tu ne repousses pas, ô mon Dieu, un cœur brisé et broyé.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jl
+            ref: 2, 12b.13c
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Maintenant, dit le Seigneur,
+              revenez à moi de tout votre cœur,
+              car je suis tendre et miséricordieux.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 11, 29-32
+            headline: « À cette génération il ne sera donné que le signe de Jonas le
+              prophète »
+            content: |-
+              En ce temps-là,
+              comme les foules s’amassaient,
+              Jésus se mit à dire :
+              « Cette génération est une génération mauvaise :
+              elle cherche un signe,
+              mais en fait de signe
+              il ne lui sera donné que le signe de Jonas.
+              Car Jonas a été un signe pour les habitants de Ninive ;
+              il en sera de même avec le Fils de l’homme
+              pour cette génération.
+              Lors du Jugement, la reine de Saba se dressera
+              en même temps que les hommes de cette génération,
+              et elle les condamnera.
+              En effet, elle est venue des extrémités de la terre
+              pour écouter la sagesse de Salomon,
+              et il y a ici bien plus que Salomon.
+              Lors du Jugement, les habitants de Ninive se lèveront
+              en même temps que cette génération,
+              et ils la condamneront ;
+              en effet, ils se sont convertis
+              en réponse à la proclamation faite par Jonas,
+              et il y a ici bien plus que Jonas. »

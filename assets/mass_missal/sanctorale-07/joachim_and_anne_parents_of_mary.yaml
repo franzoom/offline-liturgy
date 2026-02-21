@@ -1,0 +1,81 @@
+id: joachim_and_anne_parents_of_mary
+title: Saint Joachim et Sainte Anne
+context: 26 juillet
+subTitle: parents de la Vierge Marie
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Si
+            ref: 44, 1.10-15
+            headline: « Leur nom reste vivant pour toutes les générations »
+            content: |-
+              Faisons l’éloge de ces hommes glorieux
+              qui sont nos ancêtres.
+              Ceux-là sont des hommes de miséricorde,
+              leurs œuvres de justice n’ont pas été oubliées.
+              Avec leur postérité se maintiendra
+              le bel héritage que sont leurs descendants.
+              Leur postérité a persévéré dans les lois de l’Alliance,
+              leurs enfants y sont restés fidèles grâce à eux.
+              Leur descendance subsistera toujours,
+              jamais leur gloire ne sera effacée.
+              Leurs corps ont été ensevelis dans la paix,
+              et leur nom reste vivant pour toutes les générations.
+              Les peuples raconteront leur sagesse,
+              l’assemblée proclamera leurs louanges.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 131 (132), 11, 13-14, 17-18
+            refAbbr: 131, 11…
+            chorus:
+              - chorusRef: Lc 1, 32a
+                chorus: |-
+                  Le Seigneur Dieu lui donnera le trône
+                  de David son père.
+            content: |-
+              Le Seigneur l’a juré à David,
+              et jamais il ne reprendra sa parole :
+              « C’est un homme issu de toi
+              que je placerai sur ton trône. »
+
+              Car le Seigneur a fait choix de Sion ;
+              elle est le séjour qu’il désire :
+              « Voilà mon repos à tout jamais,
+              c’est le séjour que j’avais désiré.
+
+              « Là, je ferai germer la force de David ;
+              pour mon messie, j’ai allumé une lampe.
+              Je vêtirai ses ennemis de honte,
+              mais, sur lui, la couronne fleurira. »
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 2, 25c
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Ils attendaient la consolation d’Israël
+              et l’Esprit Saint était sur eux.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 13, 16-17
+            headline: « Beaucoup de prophètes et de justes ont désiré voir ce que vous voyez »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              « Heureux vos yeux puisqu’ils voient,
+              et vos oreilles puisqu’elles entendent !
+              Amen, je vous le dis :
+              beaucoup de prophètes et de justes
+              ont désiré voir ce que vous voyez,
+              et ne l’ont pas vu,
+              entendre ce que vous entendez,
+              et ne l’ont pas entendu. »

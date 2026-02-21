@@ -1,0 +1,111 @@
+id: augustine_of_hippo_bishop
+title: Saint Augustin
+context: 28 août
+note: Commun des pasteurs, ou des docteurs de l’Église.
+subTitle: évêque et docteur de l’Église
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Jn
+            ref: 4, 7-16
+            headline: « Si nous nous aimons les uns les autres, Dieu demeure en nous »
+            content: |-
+              Bien-aimés,
+              aimons-nous les uns les autres,
+              puisque l’amour vient de Dieu.
+              Celui qui aime est né de Dieu
+              et connaît Dieu.
+              	Celui qui n’aime pas n’a pas connu Dieu,
+              car Dieu est amour.
+
+              Voici comment l’amour de Dieu
+              s’est manifesté parmi nous :
+              Dieu a envoyé son Fils unique dans le monde
+              pour que nous vivions par lui.
+              	Voici en quoi consiste l’amour :
+              ce n’est pas nous qui avons aimé Dieu,
+              mais c’est lui qui nous a aimés,
+              et il a envoyé son Fils
+              en sacrifice de pardon pour nos péchés.
+
+              Bien-aimés,
+              puisque Dieu nous a tellement aimés,
+              nous devons, nous aussi, nous aimer les uns les autres.
+              	Dieu, personne ne l’a jamais vu.
+              Mais si nous nous aimons les uns les autres,
+              Dieu demeure en nous,
+              et, en nous, son amour atteint la perfection.
+              	Voici comment nous reconnaissons
+              que nous demeurons en lui
+              et lui en nous :
+              il nous a donné part à son Esprit.
+              	Quant à nous, nous avons vu et nous attestons
+              que le Père a envoyé son Fils
+              comme Sauveur du monde.
+
+              Celui qui proclame que Jésus est le Fils de Dieu,
+              Dieu demeure en lui,
+              et lui en Dieu.
+              	Et nous, nous avons reconnu l’amour que Dieu a pour nous,
+              et nous y avons cru.
+              Dieu est amour :
+              qui demeure dans l’amour demeure en Dieu,
+              et Dieu demeure en lui.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 118 (119), 9-10, 11-12, 13-14
+            refAbbr: 118, 9…
+            chorus:
+              - chorusRef: 118, 12b
+                chorus: Seigneur, apprends-moi tes commandements.
+            content: |-
+              Comment, jeune, garder pur son chemin ?
+              En observant ta parole.
+              De tout mon cœur, je te cherche ;
+              garde-moi de fuir tes volontés.
+
+              Dans mon cœur, je conserve tes promesses
+              pour ne pas faillir envers toi.
+              Toi, Seigneur, tu es béni :
+              apprends-moi tes commandements.
+
+              Je fais repasser sur mes lèvres
+              chaque décision de ta bouche.
+              Je trouve dans la voie de tes exigences
+              plus de joie que dans toutes les richesses.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 23, 9b.10b
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Vous n’avez qu’un seul Père,
+              celui qui est aux cieux ;
+              vous n’avez qu’un seul maître, le Christ.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 23, 8-12
+            headline: « Le plus grand parmi vous sera votre serviteur »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              « Ne vous faites pas donner le titre de Rabbi,
+              car vous n’avez qu’un seul maître pour vous enseigner,
+              et vous êtes tous frères.
+              Ne donnez à personne sur terre le nom de père,
+              car vous n’avez qu’un seul Père, celui qui est aux cieux.
+              Ne vous faites pas non plus donner le titre de maîtres,
+              car vous n’avez qu’un seul maître, le Christ.
+
+              Le plus grand parmi vous sera votre serviteur.
+              Qui s’élèvera sera abaissé,
+              qui s’abaissera sera élevé. »

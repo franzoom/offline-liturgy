@@ -1,0 +1,218 @@
+id: philip_and_james_apostles
+title: Saints Philippe et Jacques
+context: 3 mai
+subTitle: apôtres
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents: &reading1
+          - book: 1 Co
+            ref: 15, 1-8
+            headline: « Il est apparu à Jacques, puis à tous les Apôtres »
+            content: |-
+              Frères,
+              je vous rappelle la Bonne Nouvelle
+                que je vous ai annoncée ;
+              cet Évangile, vous l’avez reçu ;
+                c’est en lui que vous tenez bon,
+              	c’est par lui que vous serez sauvés
+                si vous le gardez tel que je vous l’ai annoncé ;
+                autrement, c’est pour rien que vous êtes devenus croyants.
+
+              Avant tout, je vous ai transmis ceci,
+                que j’ai moi-même reçu :
+              le Christ est mort pour nos péchés
+                conformément aux Écritures,
+              et il fut mis au tombeau ;
+              il est ressuscité le troisième jour
+                conformément aux Écritures,
+              il est apparu à Pierre, puis aux Douze ;
+              ensuite il est apparu à plus de cinq cents frères à la fois
+                – la plupart sont encore vivants,
+                et quelques-uns sont endormis dans la mort –,
+              	ensuite il est apparu à Jacques, puis à tous les Apôtres.
+              	Et en tout dernier lieu, il est même apparu à l’avorton que je suis.
+
+      - partType: PSALM
+        partContents: &psalm
+          - book: Ps
+            ref: 18A (19), 2-3, 4-5ab
+            refAbbr: 18A, 2…
+            chorus:
+              - chorusRef: 18, 5a
+                chorus: Par toute la terre s’en va leur message.
+              - chorus: Alléluia !
+            content: |-
+              Les cieux proclament la gloire de Dieu,
+              le firmament raconte l’ouvrage de ses mains.
+              Le jour au jour en livre le récit
+              et la nuit à la nuit en donne connaissance.
+
+              Pas de paroles dans ce récit,
+              pas de voix qui s’entende ;
+              mais sur toute la terre en paraît le message
+              et la nouvelle, aux limites du monde.
+
+      - partType: ALLELUIA
+        partContents: &alleluia
+          - book: Jn
+            ref: 14, 6b.9c
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Moi, je suis le Chemin, la Vérité et la Vie,
+              dit le Seigneur.
+              Philippe, celui qui m’a vu a vu le Père.
+
+      - partType: GOSPEL
+        partContents: &gospel
+          - book: Jn
+            ref: 14, 6-14
+            headline: « Il y a si longtemps que je suis avec vous, et tu ne me connais pas ! »
+            content: |-
+              En ce temps-là,
+              Jésus dit à Thomas :
+                « Moi, je suis le Chemin, la Vérité et la Vie ;
+                personne ne va vers le Père sans passer par moi.
+              	Puisque vous me connaissez,
+                vous connaîtrez aussi mon Père.
+                Dès maintenant vous le connaissez,
+                et vous l’avez vu. »
+              Philippe lui dit :
+                « Seigneur, montre-nous le Père ;
+                cela nous suffit. »
+              Jésus lui répond :
+                « Il y a si longtemps que je suis avec vous,
+                  et tu ne me connais pas, Philippe !
+                Celui qui m’a vu
+                a vu le Père.
+                Comment peux-tu dire : ‘Montre-nous le Père’ ?
+              	Tu ne crois donc pas que je suis dans le Père
+                  et que le Père est en moi !
+                Les paroles que je vous dis,
+                  je ne les dis pas de moi-même ;
+                le Père qui demeure en moi
+                  fait ses propres œuvres.
+              	Croyez-moi :
+                  je suis dans le Père,
+                  et le Père est en moi ;
+                si vous ne me croyez pas,
+                  croyez du moins à cause des œuvres elles-mêmes.
+              	Amen, amen, je vous le dis :
+                celui qui croit en moi
+                  fera les œuvres que je fais.
+                Il en fera même de plus grandes,
+                  parce que je pars vers le Père,
+              	et tout ce que vous demanderez en mon nom,
+                  je le ferai,
+                  afin que le Père soit glorifié dans le Fils.
+              	Quand vous me demanderez quelque chose en mon nom,
+                  moi, je le ferai. »
+
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour pour saint Philippe seul
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ep
+            ref: 2, 19-22
+            headline: « Intégrés dans la construction qui a pour fondations les Apôtres »
+            content: |-
+              Frères,
+              vous n’êtes plus des étrangers ni des gens de passage,
+              vous êtes concitoyens des saints,
+                vous êtes membres de la famille de Dieu,
+              car vous avez été intégrés dans la construction
+                qui a pour fondations les Apôtres et les prophètes ;
+              et la pierre angulaire, c’est le Christ Jésus lui-même.
+              En lui, toute la construction s’élève harmonieusement
+                pour devenir un temple saint dans le Seigneur.
+              En lui, vous êtes, vous aussi, des éléments d’une même construction
+                pour devenir une demeure de Dieu par l’Esprit Saint.
+              Frères,
+              je vous rappelle la Bonne Nouvelle
+                que je vous ai annoncée ;
+              cet Évangile, vous l’avez reçu ;
+                c’est en lui que vous tenez bon,
+              	c’est par lui que vous serez sauvés
+                si vous le gardez tel que je vous l’ai annoncé ;
+                autrement, c’est pour rien que vous êtes devenus croyants.
+
+              Avant tout, je vous ai transmis ceci,
+                que j’ai moi-même reçu :
+              le Christ est mort pour nos péchés
+                conformément aux Écritures,
+              et il fut mis au tombeau ;
+              il est ressuscité le troisième jour
+                conformément aux Écritures,
+              il est apparu à Pierre, puis aux Douze ;
+              ensuite il est apparu à plus de cinq cents frères à la fois
+                – la plupart sont encore vivants,
+                et quelques-uns sont endormis dans la mort –,
+              	ensuite il est apparu à Jacques, puis à tous les Apôtres.
+              	Et en tout dernier lieu, il est même apparu à l’avorton que je suis.
+
+      - partType: PSALM
+        partContents: *psalm
+
+      - partType: ALLELUIA
+        partContents: *alleluia
+
+      - partType: GOSPEL
+        partContents: *gospel
+
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour pour saint Jacques seul
+    massParts:
+      - partType: READING_1
+        partContents: *reading1
+
+      - partType: PSALM
+        partContents: *psalm
+
+      - partType: ALLELUIA
+        partContents:
+          - acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              À toi, Dieu, notre louange !
+              Toi, le Seigneur, nous t'acclamons.
+              C'est toi que les Apôtres glorifient.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 6, 12-19
+            headline: « Il en choisit douze auxquels il donna le nom d’Apôtres »
+            content: |-
+              En ces jours-là,
+                Jésus s’en alla dans la montagne pour prier,
+                et il passa toute la nuit à prier Dieu.
+              Le jour venu,
+                il appela ses disciples et en choisit douze
+              auxquels il donna le nom d’Apôtres :
+              	Simon, auquel il donna le nom de Pierre,
+                André son frère,
+                Jacques, Jean, Philippe, Barthélemy,
+              	Matthieu, Thomas,
+                Jacques fils d’Alphée,
+                Simon appelé le Zélote,
+              	Jude fils de Jacques,
+                et Judas Iscariote, qui devint un traître.
+
+              Jésus descendit de la montagne avec eux
+                et s’arrêta sur un terrain plat.
+              Il y avait là un grand nombre de ses disciples
+                et une grande multitude de gens
+                venus de toute la Judée, de Jérusalem,
+                et du littoral de Tyr et de Sidon.
+              Ils étaient venus l’entendre
+                et se faire guérir de leurs maladies ;
+              ceux qui étaient tourmentés par des esprits impurs
+                retrouvaient la santé.
+              Et toute la foule cherchait à le toucher,
+              parce qu’une force sortait de lui
+                et les guérissait tous.

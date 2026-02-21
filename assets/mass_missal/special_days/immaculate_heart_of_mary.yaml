@@ -1,0 +1,111 @@
+id: immaculate_heart_of_mary
+title: Cœur Immaculé de Marie
+context: Le samedi après le Sacré-Cœur
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    note: Si on célèbre cette mémoire, l’évangile ci-dessous est obligatoire.
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 61, 9-11
+            headline: « Je tressaille de joie dans le Seigneur »
+            content: |-
+              Les descendants de mon peuple seront connus parmi les nations,
+              et leur postérité, au milieu des peuples.
+              Qui les verra pourra reconnaître
+              la descendance bénie du Seigneur.
+              Je tressaille de joie dans le Seigneur,
+              mon âme exulte en mon Dieu.
+              Car il m'a vêtue des vêtements du salut,
+              il m'a couverte du manteau de la justice,
+              comme le jeune marié orné du diadème,
+              la jeune mariée que parent ses joyaux.
+              Comme la terre fait éclore son germe,
+              et le jardin, germer ses semences,
+              le Seigneur Dieu fera germer la justice et la louange
+              devant toutes les nations.
+
+      - partType: PSALM
+        partContents:
+          - book: 1 S
+            ref: 2, 1, 4-5ab, 6-7, 8abcd
+            refAbbr: 1, 1…
+            chorus:
+              - chorusRef: 1 S 2, 1a
+                chorus: |-
+                  Mon cœur exulte à cause du Seigneur :
+                  c'est lui qui me sauve.
+            content: |-
+              Mon cœur exulte à cause du Seigneur ;
+              mon front s'est relevé grâce à mon Dieu !
+              Face à mes ennemis, s’ouvre ma bouche :
+              oui, je me réjouis de ton salut !
+
+              L'arc des forts est brisé,
+              mais le faible se revêt de vigueur.
+              Les plus comblés s’embauchent pour du pain,
+              et les affamés se reposent.
+
+              Le Seigneur fait mourir et vivre ;
+              il fait descendre à l'abîme et en ramène.
+              Le Seigneur rend pauvre et riche ;
+              il abaisse et il élève.
+
+              De la poussière il relève le faible,
+              il retire le malheureux de la cendre
+              pour qu'il siège parmi les princes
+              et reçoive un trône de gloire.
+
+      - partType: ALLELUIA
+        mandatoryContent: true
+        partContents:
+          - book: Lc
+            ref: 2, 19
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Heureuse Vierge Marie !
+              Attentive à garder la parole de Dieu,
+              elle la méditait dans son cœur !
+
+      - partType: GOSPEL
+        mandatoryContent: true
+        partContents:
+          - book: Lc
+            ref: 2, 41-51
+            headline: « Sa mère gardait dans son cœur tous ces événements »
+            content: |-
+              Chaque année, les parents de Jésus se rendaient à Jérusalem
+              pour la fête de la Pâque.
+              Quand il eut douze ans,
+              ils montèrent en pèlerinage suivant la coutume.
+              À la fin de la fête, comme ils s’en retournaient,
+              le jeune Jésus resta à Jérusalem
+              à l’insu de ses parents.
+              Pensant qu’il était dans le convoi des pèlerins,
+              ils firent une journée de chemin
+              avant de le chercher parmi leurs parents et connaissances.
+              Ne le trouvant pas, ils retournèrent à Jérusalem,
+              en continuant à le chercher.
+
+              C’est au bout de trois jours qu’ils le trouvèrent dans le Temple,
+              assis au milieu des docteurs de la Loi :
+              il les écoutait et leur posait des questions,
+              et tous ceux qui l’entendaient
+              s’extasiaient sur son intelligence et sur ses réponses.
+              En le voyant, ses parents furent frappés d’étonnement,
+              et sa mère lui dit :
+              « Mon enfant, pourquoi nous as-tu fait cela ?
+              Vois comme ton père et moi,
+              nous avons souffert en te cherchant ! »
+              Il leur dit :
+              « Comment se fait-il que vous m’ayez cherché ?
+              Ne saviez-vous pas
+              qu’il me faut être chez mon Père ? »
+              Mais ils ne comprirent pas ce qu’il leur disait.
+
+              Il descendit avec eux pour se rendre à Nazareth,
+              et il leur était soumis.
+              Sa mère gardait dans son cœur tous ces événements.

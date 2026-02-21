@@ -1,0 +1,38 @@
+id: cecilia_of_rome_virgin
+title: Sainte Cécile
+context: 22 novembre
+note: Commun des martyrs, ou des vierges.
+subTitle: vierge et martyre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Os
+            ref: 2, 16b.17b.21-22
+            headline: « Je ferai de toi mon épouse pour toujours »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 44 (45), 11-12, 14-15a, 15b-16, 17
+            refAbbr: 44, 11…
+            chorus:
+              - chorusRef: 44, 11a
+                chorus: Écoute, ma fille, regarde et tends l’oreille.
+
+      - partType: ALLELUIA
+        partContents:
+          - content: |-
+              Voici la jeune fille prévoyante,
+              que le Seigneur a trouvée en train de veiller ;
+              quand le Seigneur est arrivé,
+              elle est entrée avec lui dans la salle des noces.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 25, 1-13
+            headline: « Voici l’époux ! Sortez à sa rencontre »

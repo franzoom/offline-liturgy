@@ -1,0 +1,165 @@
+id: ordinary_time_7_saturday
+title: Samedi
+context: Septième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_7TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Si
+            ref: 17, 1-15
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Dieu a fait les humains à son image »
+            content: |-
+              Le Seigneur a créé l’homme en le tirant de la terre,
+              et il l’a fait retourner à la terre.
+              	Il a donné aux humains des jours comptés, un temps déterminé,
+              il a remis en leur pouvoir ce qui est sur la terre.
+              	Il les a revêtus d’une force pareille à la sienne,
+              il les a faits à son image.
+              	Il a mis en tout vivant la crainte de l’être humain,
+              pour que celui-ci commande en maître
+              aux bêtes sauvages et aux oiseaux.
+              	Aux humains il a donné
+              du jugement, une langue, des yeux,
+              des oreilles, et un cœur pour réfléchir.
+              	Il les a remplis de savoir et d’intelligence,
+              il leur a fait connaître le bien et le mal.
+              	Il a posé son regard sur leur cœur,
+              leur montrant la grandeur de ses œuvres.
+              	Ils raconteront la grandeur de ses œuvres,
+              	ils célébreront le Nom très saint.
+              	Il leur a aussi accordé le savoir,
+              il leur a donné en héritage la loi de vie ;
+              afin qu’ils comprennent, dès maintenant, qu’ils sont mortels.
+              	Il a établi avec eux une Alliance éternelle,
+              et il leur a fait connaître ses jugements.
+              	Leurs yeux ont vu la grandeur de sa gloire,
+              leurs oreilles ont entendu la majesté de sa voix.
+              	Il leur a dit : « Gardez-vous de toute injustice »,
+              	et à chacun il a donné des commandements
+              au sujet du prochain.
+              	Leurs chemins sont toujours à découvert devant lui,
+              ils n’échappent jamais à ses regards.
+          - book: Jc
+            ref: 5, 13-20
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « La supplication du juste agit avec beaucoup de force »
+            content: |-
+              Bien-aimés,
+              	l’un de vous se porte mal ?
+              Qu’il prie.
+              Un autre va bien ?
+              Qu’il chante le Seigneur.
+              	L’un de vous est malade ?
+              Qu’il appelle les Anciens en fonction dans l’Église :
+              ils prieront sur lui,
+              après lui avoir fait une onction d’huile au nom du Seigneur.
+              	Cette prière inspirée par la foi sauvera le malade :
+              le Seigneur le relèvera
+              et, s’il a commis des péchés,
+              il recevra le pardon.
+              	Confessez donc vos péchés les uns aux autres,
+              et priez les uns pour les autres afin d’être guéris.
+              La supplication du juste agit avec beaucoup de force.
+              	Le prophète Élie n’était qu’un homme pareil à nous ;
+              pourtant, lorsqu’il a prié avec insistance
+              pour qu’il ne pleuve pas,
+              il n’est pas tombé de pluie sur la terre
+              pendant trois ans et demi ;
+              	puis il a prié de nouveau,
+              et le ciel a donné la pluie,
+              et la terre a fait germer son fruit.
+              	Mes frères, si l’un de vous s’égare loin de la vérité
+              et qu’un autre l’y ramène,
+              	alors, sachez-le :
+              celui qui ramène un pécheur du chemin où il s’égarait
+              sauvera sa vie de la mort
+              et couvrira une multitude de péchés.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 102 (103), 13-14, 15-16, 17-18a
+            refAbbr: 102, 13…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 102, 17ab
+                chorus: |-
+                  L’amour du Seigneur, sur ceux qui le craignent,
+                  est de toujours à toujours.
+            content: |-
+              Comme la tendresse du père pour ses fils,
+              la tendresse du Seigneur pour qui le craint !
+              Il sait de quoi nous sommes pétris,
+              il se souvient que nous sommes poussière.
+
+              L’homme ! ses jours sont comme l’herbe ;
+              comme la fleur des champs, il fleurit :
+              dès que souffle le vent, il n’est plus,
+              même la place où il était l’ignore.
+
+              Mais l’amour du Seigneur, sur ceux qui le craignent,
+              est de toujours à toujours,
+              et sa justice pour les enfants de leurs enfants,
+              pour ceux qui gardent son alliance.
+          - book: Ps
+            ref: 140 (141), 1-2, 3.8
+            refAbbr: 140, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 140, 2a
+                chorus: |-
+                  Que ma prière devant toi
+                  s’élève comme un encens.
+            content: |-
+              Seigneur, je t’appelle : accours vers moi !
+              Écoute mon appel quand je crie vers toi !
+              Que ma prière devant toi s’élève comme un encens,
+              et mes mains, comme l’offrande du soir.
+
+              Mets une garde à mes lèvres, Seigneur,
+              veille au seuil de ma bouche.
+              Je regarde vers toi, Seigneur, mon Maître ;
+              tu es mon refuge : épargne ma vie !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 11, 25
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Tu es béni, Père,
+              Seigneur du ciel et de la terre,
+              tu as révélé aux tout-petits
+              les mystères du Royaume !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mc
+            ref: 10, 13-16
+            headline: « Celui qui n’accueille pas le royaume de Dieu à la manière d’un
+              enfant n’y entrera pas »
+            content: |-
+              En ce temps-là,
+              	des gens présentaient à Jésus des enfants
+              pour qu’il pose la main sur eux ;
+              mais les disciples les écartèrent vivement.
+              	Voyant cela, Jésus se fâcha et leur dit :
+              « Laissez les enfants venir à moi,
+              ne les empêchez pas,
+              car le royaume de Dieu est à ceux qui leur ressemblent.
+              	Amen, je vous le dis :
+              celui qui n’accueille pas le royaume de Dieu
+              à la manière d’un enfant
+              n’y entrera pas. »
+              	Il les embrassait
+              et les bénissait en leur imposant les mains.

@@ -1,0 +1,40 @@
+id: lucy_of_syracuse_virgin
+title: Sainte Lucie
+context: 13 décembre
+note: Commun des martyrs, ou des vierges.
+subTitle: vierge et martyre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 2 Co
+            ref: 10, 17 — 11, 2
+            headline: |-
+              « Je vous ai unis au seul Époux : vous êtes la vierge pure que j'ai présentée au Christ »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 30 (31), 3bc-4, 6.8, 16-17
+            refAbbr: 30, 3…
+            chorus:
+              - chorusRef: 30, 6a
+                chorus: |-
+                  En tes mains, Seigneur,
+                  je remets mon esprit.
+
+      - partType: ALLELUIA
+        partContents:
+          - content: |-
+              Voici la jeune fille prévoyante,
+              que le Seigneur a trouvée en train de veiller.
+              Quand le Seigneur arriva, elle entra avec lui pour les noces.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 25, 1-13
+            headline: « Voici l’époux ! Sortez à sa rencontre »

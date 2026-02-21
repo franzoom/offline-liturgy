@@ -1,0 +1,124 @@
+id: easter_time_4_thursday
+title: Jeudi
+context: Quatrième semaine de Pâques
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 13, 13-25
+            headline: '« De la descendance de David, Dieu a fait sortir un sauveur : c’est
+              Jésus »'
+            content: |-
+              Quittant l’île de Chypre pour l’Asie Mineure,
+              Paul et ceux qui l’accompagnaient s’embarquèrent à Paphos
+              et arrivèrent à Pergé en Pamphylie.
+              Mais Jean-Marc les abandonna
+              pour s’en retourner à Jérusalem.
+              Quant à eux, ils poursuivirent leur voyage au-delà de Pergé
+              et arrivèrent à Antioche de Pisidie.
+              Le jour du sabbat, ils entrèrent à la synagogue et prirent place.
+              Après la lecture de la Loi et des Prophètes,
+              les chefs de la synagogue leur envoyèrent dire :
+              « Frères, si vous avez une parole d’exhortation pour le peuple,
+              parlez. »
+              Paul se leva, fit un signe de la main et dit :
+              « Israélites, et vous aussi qui craignez Dieu, écoutez :
+              Le Dieu de ce peuple, le Dieu d’Israël a choisi nos pères ;
+              il a fait grandir son peuple pendant le séjour en Égypte
+              et il l’en a fait sortir à bras étendu.
+              Pendant une quarantaine d’années,
+              il les a supportés au désert
+              et, après avoir exterminé tour à tour sept nations au pays de Canaan,
+              il a partagé pour eux ce pays en héritage.
+              Tout cela dura environ quatre cent cinquante ans.
+              Ensuite, il leur a donné des juges,
+              jusqu’au prophète Samuel.
+              Puis ils demandèrent un roi,
+              et Dieu leur donna Saül, fils de Kish,
+              homme de la tribu de Benjamin,
+              pour quarante années.
+              Après l’avoir rejeté,
+              Dieu a, pour eux, suscité David comme roi,
+              et il lui a rendu ce témoignage :
+              _J’ai trouvé David, fils de Jessé ;
+              c’est un homme selon mon cœur
+              qui réalisera toutes mes volontés._
+              De la descendance de David,
+              Dieu, selon la promesse,
+              a fait sortir un sauveur pour Israël :
+              c’est Jésus, dont Jean le Baptiste a préparé l’avènement
+              en proclamant avant lui un baptême de conversion
+              pour tout le peuple d’Israël.
+              Au moment d’achever sa course, Jean disait :
+              “Ce que vous pensez que je suis,
+              je ne le suis pas.
+              Mais le voici qui vient après moi,
+              et je ne suis pas digne de retirer les sandales de ses pieds.” »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 88 (89), 2-3, 21-22, 25.27
+            refAbbr: 88, 2…
+            chorus:
+              - chorusRef: 88, 2a
+                chorus: |-
+                  Ton amour, Seigneur,
+                  sans fin je le chante !
+              - chorus: Alléluia !
+            content: |-
+              L’amour du Seigneur, sans fin je le chante ;
+              ta fidélité, je l’annonce d’âge en âge.
+              Je le dis : C’est un amour bâti pour toujours ;
+              ta fidélité est plus stable que les cieux.
+
+              « J’ai trouvé David, mon serviteur,
+              je l’ai sacré avec mon huile sainte ;
+              et ma main sera pour toujours avec lui,
+              mon bras fortifiera son courage.
+
+              « Mon amour et ma fidélité sont avec lui,
+              mon nom accroît sa vigueur ;
+              Il me dira : “Tu es mon Père,
+              mon Dieu, mon roc et mon salut !” »
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Ap
+            ref: 1, 5ab
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Jésus Christ, témoin fidèle,
+              premier-né d’entre les morts,
+              tu nous aimes, et par ton sang
+              tu nous délivres du péché.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 13, 16-20
+            headline: « Si quelqu’un reçoit celui que j’envoie, il me reçoit moi-même »
+            content: |-
+              Après avoir lavé les pieds de ses disciples,
+              Jésus parla ainsi :
+              « Amen, amen, je vous le dis :
+              un serviteur n’est pas plus grand que son maître,
+              ni un envoyé plus grand que celui qui l’envoie.
+              Sachant cela, heureux êtes-vous,
+              si vous le faites.
+              Ce n’est pas de vous tous que je parle.
+              Moi, je sais quels sont ceux que j’ai choisis,
+              mais il faut que s’accomplisse l’Écriture :
+              _Celui qui mange le pain avec moi
+              m’a frappé du talon._
+              Je vous dis ces choses dès maintenant,
+              avant qu’elles n’arrivent ;
+              ainsi, lorsqu’elles arriveront,
+              vous croirez que moi, JE SUIS.
+              Amen, amen, je vous le dis :
+              si quelqu’un reçoit celui que j’envoie, il me reçoit moi-même ;
+              et celui qui me reçoit, reçoit Celui qui m’a envoyé. »

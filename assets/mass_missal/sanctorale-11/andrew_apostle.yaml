@@ -1,0 +1,112 @@
+id: andrew_apostle
+title: Saint André
+context: 30 novembre
+subTitle: apôtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 10, 9-18
+            headline: « La foi naît de ce que l’on entend ;  et ce que l’on entend, c’est la
+              parole du Christ »
+            content: |-
+              Frère,
+              	si de ta bouche, tu affirmes que Jésus est Seigneur,
+              si, dans ton cœur, tu crois
+              que Dieu l’a ressuscité d’entre les morts,
+              alors tu seras sauvé.
+              	Car c’est avec le cœur que l’on croit
+              pour devenir juste,
+              c’est avec la bouche que l’on affirme sa foi
+              pour parvenir au salut.
+              	En effet, l’Écriture dit :
+              _Quiconque met en lui sa foi
+              ne connaîtra pas la honte._
+              	Ainsi, entre les Juifs et les païens,
+              il n’y a pas de différence :
+              tous ont le même Seigneur,
+              généreux envers tous ceux qui l’invoquent.
+              	En effet,
+              _quiconque invoquera le nom du Seigneur
+              sera sauvé._
+              	Or, comment l’invoquer,
+              si on n’a pas mis sa foi en lui ?
+              Comment mettre sa foi en lui,
+              si on ne l’a pas entendu ?
+              Comment entendre
+              si personne ne proclame ?
+              	Comment proclamer
+              sans être envoyé ?
+              Il est écrit :
+              _Comme ils sont beaux, les pas des messagers
+              qui annoncent les bonnes nouvelles !_
+              	Et pourtant, tous n’ont pas obéi à la Bonne Nouvelle.
+              Isaïe demande en effet :
+              _Qui a cru, Seigneur, en nous entendant parler ?_
+              	Or la foi naît de ce que l’on entend ;
+              et ce que l’on entend, c’est la parole du Christ.
+              	Alors, je pose la question :
+              n’aurait-on pas entendu ?
+              Mais si, bien sûr !
+              Un psaume le dit :
+              _Sur toute la terre se répand leur message
+              et leurs paroles, jusqu’aux limites du monde._
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 18A (19), 2-3, 4-5ab
+            refAbbr: 18A, 2…
+            chorus:
+              - chorusRef: 18, 5a
+                chorus: Par toute la terre s’en va leur message.
+            content: |-
+              Les cieux proclament la gloire de Dieu,
+              le firmament raconte l’ouvrage de ses mains.
+              Le jour au jour en livre le récit
+              et la nuit à la nuit en donne connaissance.
+
+              Pas de paroles dans ce récit,
+              pas de voix qui s’entende ;
+              mais sur toute la terre en paraît le message
+              et la nouvelle, aux limites du monde.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 4, 19
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Venez à ma suite, dit le Seigneur.
+              Je vous ferai pêcheurs d’hommes.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 4, 18-22
+            headline: « Aussitôt, laissant leurs filets, ils le suivirent »
+            content: |-
+              En ce temps-là,
+              	comme Jésus marchait le long de la mer de Galilée,
+              il vit deux frères,
+              Simon, appelé Pierre,
+              et son frère André,
+              qui jetaient leurs filets dans la mer ;
+              car c’étaient des pêcheurs.
+              	Jésus leur dit :
+              « Venez à ma suite,
+              et je vous ferai pêcheurs d’hommes. »
+              	Aussitôt, laissant leurs filets, ils le suivirent.
+
+              De là, il avança et il vit deux autres frères,
+              Jacques, fils de Zébédée,
+              et son frère Jean,
+              qui étaient dans la barque avec leur père,
+              en train de réparer leurs filets.
+              Il les appela.
+              	Aussitôt, laissant leur barque et leur père,
+              ils le suivirent.

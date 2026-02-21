@@ -1,0 +1,40 @@
+id: monica_of_hippo
+title: Sainte Monique
+context: 27 août
+note: Commun des saintes.
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Si
+            ref: 26, 1-4.13-16
+            headline: « L’épouse parfaite, lumière de sa maison »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 130 (131), 1, 2, 3
+            refAbbr: 130, 1…3
+            chorus:
+              - chorus: |-
+                  Garde mon âme dans la paix
+                  près de toi, Seigneur.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 8, 12
+            content: |-
+              Moi, je suis la lumière du monde, dit le Seigneur.
+              Celui qui me suit aura la lumière de la vie.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 7, 11-17
+            headline: |-
+              « Elle le portait sur le brancard de sa pensée, pour que tu dises au fils de la veuve :
+              jeune homme, je te l’ordonne, lève-toi » (S. Augustin, Confessions, liv. 6, n° 1)

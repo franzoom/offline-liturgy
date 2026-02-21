@@ -1,0 +1,100 @@
+id: lent_3_saturday
+title: Samedi
+context: Troisième semaine de Carême
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Os
+            ref: 6, 1-6
+            headline: « Je veux la fidélité, non le sacrifice »
+            content: |-
+              Venez, retournons vers le Seigneur !
+              il a blessé, mais il nous guérira ;
+              il a frappé, mais il nous soignera.
+              Après deux jours, il nous rendra la vie ;
+              il nous relèvera le troisième jour :
+              alors, nous vivrons devant sa face.
+
+              Efforçons-nous de connaître le Seigneur :
+              son lever est aussi sûr que l’aurore ;
+              il nous viendra comme la pluie,
+              l’ondée qui arrose la terre.
+              – Que ferai-je de toi, Éphraïm ?
+              Que ferai-je de toi, Juda ?
+              Votre fidélité, une brume du matin,
+              une rosée d’aurore qui s’en va.
+              Voilà pourquoi j’ai frappé par mes prophètes,
+              donné la mort par les paroles de ma bouche :
+              mon jugement jaillit comme la lumière.
+              Je veux la fidélité, non le sacrifice,
+              la connaissance de Dieu plus que les holocaustes.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 50 (51), 3-4, 18-19, 20-21ab
+            refAbbr: 50, 3…
+            chorus:
+              - chorusRef: 6, 6a
+                chorus: |-
+                  Tu veux la fidélité, Seigneur,
+                  non le sacrifice.
+            content: |-
+              Pitié pour moi, mon Dieu, dans ton amour,
+              selon ta grande miséricorde, efface mon péché.
+              Lave-moi tout entier de ma faute,
+              purifie-moi de mon offense.
+
+              Si j’offre un sacrifice, tu n’en veux pas,
+              tu n’acceptes pas d’holocauste.
+              Le sacrifice qui plaît à Dieu, c’est un esprit brisé ;
+              tu ne repousses pas, ô mon Dieu, un cœur brisé et broyé.
+
+              Accorde à Sion le bonheur,
+              relève les murs de Jérusalem.
+              Alors tu accepteras de justes sacrifices,
+              oblations et holocaustes sur ton autel.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Ps
+            ref: 94, 8a.7d
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Aujourd’hui, ne fermez pas votre cœur,
+              mais écoutez la voix du Seigneur.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 18, 9-14
+            headline: « Le publicain était devenu un homme juste, plutôt que l’autre »
+            content: |-
+              En ce temps-là,
+              à l’adresse de certains qui étaient convaincus d’être justes
+              et qui méprisaient les autres,
+              Jésus dit la parabole que voici :
+              « Deux hommes montèrent au Temple pour prier.
+              L’un était pharisien,
+              et l’autre, publicain (c’est-à-dire un collecteur d’impôts).
+              Le pharisien se tenait debout et priait en lui-même :
+              “Mon Dieu, je te rends grâce
+              parce que je ne suis pas comme les autres hommes
+              – ils sont voleurs, injustes, adultères –,
+              ou encore comme ce publicain.
+              Je jeûne deux fois par semaine
+              et je verse le dixième de tout ce que je gagne.”
+              Le publicain, lui, se tenait à distance
+              et n’osait même pas lever les yeux vers le ciel ;
+              mais il se frappait la poitrine, en disant :
+              “Mon Dieu, montre-toi favorable au pécheur que je suis !”
+              Je vous le déclare :
+              quand ce dernier redescendit dans sa maison,
+              c’est lui qui était devenu un homme juste,
+              plutôt que l’autre.
+              Qui s’élève sera abaissé ;
+              qui s’abaisse sera élevé. »

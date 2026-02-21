@@ -1,0 +1,43 @@
+id: anthony_of_padua_priest
+title: Saint Antoine de Padoue
+context: 13 juin
+note: Commun des pasteurs, ou des docteurs de l’Église.
+subTitle: prêtre et docteur de l’Église
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 61, 1-3a
+            headline: |-
+              « Le Seigneur m’a consacré par l’onction.
+              Il m’a envoyé porter la Bonne Nouvelle aux pauvres »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 88 (89), 2-3, 4-5, 21-22, 25.27
+            refAbbr: 88, 2…
+            chorus:
+              - chorusRef: 88, 2a
+                chorus: |-
+                  Ton amour, Seigneur,
+                  sans fin je le chante !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 4, 18cd
+            content: |-
+              Le Seigneur m’a envoyé
+              porter la Bonne Nouvelle aux pauvres,
+              annoncer aux captifs leur libération.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 10, 1-9
+            headline: « La moisson est abondante, mais les ouvriers sont peu nombreux »

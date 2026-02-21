@@ -1,0 +1,126 @@
+id: christmas_time_january_2
+title: 2 janvier
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Jn
+            ref: 2, 22-28
+            headline: « Que demeure en vous ce que vous avez entendu depuis le commencement »
+            content: |-
+              Bien-aimés,
+              le menteur n’est-il pas celui qui refuse
+              que Jésus soit le Christ ?
+              Celui-là est l’anti-Christ :
+              il refuse à la fois le Père et le Fils ;
+              quiconque refuse le Fils
+              n’a pas non plus le Père ;
+              celui qui reconnaît le Fils
+              a aussi le Père.
+
+              Quant à vous, que demeure en vous
+              ce que vous avez entendu depuis le commencement.
+              Si ce que vous avez entendu depuis le commencement
+              demeure en vous,
+              vous aussi, vous demeurerez dans le Fils et dans le Père.
+              Et telle est la promesse que lui-même nous a faite :
+              la vie éternelle.
+              Je vous ai écrit cela
+              à propos de ceux qui vous égarent.
+              Quant à vous,
+              l’onction que vous avez reçue de lui demeure en vous,
+              et vous n’avez pas besoin d’enseignement.
+              Cette onction vous enseigne toutes choses,
+              elle qui est vérité et non pas mensonge ;
+              et, selon ce qu’elle vous a enseigné,
+              vous demeurez en lui.
+              Et maintenant, petits enfants, demeurez en lui ;
+              ainsi, quand il se manifestera,
+              nous aurons de l’assurance,
+              et non pas la honte d’être loin de lui
+              à son avènement.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 97(98), 1, 2-3ab, 3cd-4
+            refAbbr: 97, 1…
+            chorus:
+              - chorusRef: 97, 3
+                chorus: |-
+                  La terre tout entière a vu
+                  le salut de notre Dieu.
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              car il a fait des merveilles ;
+              par son bras très saint, par sa main puissante,
+              il s’est assuré la victoire.
+
+              Le Seigneur a fait connaître sa victoire
+              et révélé sa justice aux nations ;
+              il s’est rappelé sa fidélité, son amour,
+              en faveur de la maison d’Israël.
+
+              La terre tout entière a vu
+              la victoire de notre Dieu.
+              Acclamez le Seigneur, terre entière,
+              sonnez, chantez, jouez !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: He
+            ref: 1, 1-2
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              À bien des reprises, Dieu, dans le passé,
+              a parlé à nos pères par les prophètes ;
+              à la fin, en ces jours où nous sommes,
+              il nous a parlé par son Fils.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 1, 19-28
+            headline: « C’est lui qui vient derrière moi »
+            content: |-
+              Voici le témoignage de Jean le Baptiste,
+              quand les Juifs lui envoyèrent de Jérusalem
+              des prêtres et des lévites
+              pour lui demander :
+              « Qui es-tu ? »
+              Il ne refusa pas de répondre, il déclara ouvertement :
+              « Je ne suis pas le Christ. »
+              Ils lui demandèrent :
+              « Alors qu’en est-il ?
+              Es-tu le prophète Élie ? »
+              Il répondit :
+              « Je ne le suis pas.
+              – Es-tu le Prophète annoncé ? »
+              Il répondit :
+              « Non. »
+              Alors ils lui dirent :
+              « Qui es-tu ?
+              Il faut que nous donnions une réponse
+              à ceux qui nous ont envoyés.
+              Que dis-tu sur toi-même ? »
+              Il répondit :
+              « _Je suis la voix de celui qui crie dans le désert :
+              Redressez le chemin du Seigneur_,
+              comme a dit le prophète Isaïe. »
+              Or, ils avaient été envoyés de la part des pharisiens.
+              Ils lui posèrent encore cette question :
+              « Pourquoi donc baptises-tu,
+              si tu n’es ni le Christ, ni Élie, ni le Prophète ? »
+              Jean leur répondit :
+              « Moi, je baptise dans l’eau.
+              Mais au milieu de vous
+              se tient celui que vous ne connaissez pas ;
+              c’est lui qui vient derrière moi,
+              et je ne suis pas digne
+              de délier la courroie de sa sandale. »
+
+              Cela s’est passé à Béthanie, de l’autre côté du Jourdain,
+              à l’endroit où Jean baptisait.

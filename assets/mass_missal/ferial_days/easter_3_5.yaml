@@ -1,0 +1,146 @@
+id: easter_time_3_friday
+title: Vendredi
+context: Troisième semaine de Pâques
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 9, 1-20
+            headline: « Cet homme est l’instrument que j’ai choisi pour faire parvenir mon
+              nom auprès des nations »
+            content: |-
+              En ces jours-là,
+              Saul était toujours animé d’une rage meurtrière
+              contre les disciples du Seigneur.
+              Il alla trouver le grand prêtre
+              et lui demanda des lettres pour les synagogues de Damas,
+              afin que, s’il trouvait des hommes et des femmes
+              qui suivaient le Chemin du Seigneur,
+              il les amène enchaînés à Jérusalem.
+              Comme il était en route et approchait de Damas,
+              soudain une lumière venant du ciel l’enveloppa de sa clarté.
+              Il fut précipité à terre ; il entendit une voix qui lui disait :
+              « Saul, Saul,
+              pourquoi me persécuter ? »
+              Il demanda :
+              « Qui es-tu, Seigneur ? »
+              La voix répondit :
+              « Je suis Jésus, celui que tu persécutes.
+              Relève-toi et entre dans la ville :
+              on te dira ce que tu dois faire. »
+              Ses compagnons de route s’étaient arrêtés,
+              muets de stupeur :
+              ils entendaient la voix,
+              mais ils ne voyaient personne.
+              Saul se releva de terre
+              et, bien qu’il eût les yeux ouverts, il ne voyait rien.
+              Ils le prirent par la main
+              pour le faire entrer à Damas.
+              Pendant trois jours, il fut privé de la vue
+              et il resta sans manger ni boire.
+              Or, il y avait à Damas un disciple nommé Ananie.
+              Dans une vision, le Seigneur lui dit :
+              « Ananie ! »
+              Il répondit :
+              « Me voici, Seigneur. »
+              Le Seigneur reprit :
+              « Lève-toi, va dans la rue appelée rue Droite, chez Jude :
+              tu demanderas un homme de Tarse nommé Saul.
+              Il est en prière, et il a eu cette vision :
+              un homme, du nom d’Ananie,
+              entrait et lui imposait les mains
+              pour lui rendre la vue. »
+              Ananie répondit :
+              « Seigneur, j’ai beaucoup entendu parler de cet homme,
+              et de tout le mal qu’il a fait subir à tes fidèles à Jérusalem.
+              Il est ici, après avoir reçu de la part des grands prêtres
+              le pouvoir d’enchaîner tous ceux qui invoquent ton nom. »
+              Mais le Seigneur lui dit :
+              « Va ! car cet homme est l’instrument que j’ai choisi
+              pour faire parvenir mon nom
+              auprès des nations, des rois et des fils d’Israël.
+              Et moi, je lui montrerai
+              tout ce qu’il lui faudra souffrir pour mon nom. »
+              Ananie partit donc
+              et entra dans la maison.
+              Il imposa les mains à Saul, en disant :
+              « Saul, mon frère,
+              celui qui m’a envoyé, c’est le Seigneur,
+              c’est Jésus qui t’est apparu
+              sur le chemin par lequel tu venais.
+              Ainsi, tu vas retrouver la vue,
+              et tu seras rempli d’Esprit Saint. »
+              Aussitôt tombèrent de ses yeux comme des écailles,
+              et il retrouva la vue.
+              Il se leva, puis il fut baptisé.
+              Alors il prit de la nourriture et les forces lui revinrent.
+              Il passa quelques jours à Damas avec les disciples
+              et, sans plus attendre, il proclamait Jésus dans les synagogues,
+              affirmant que celui-ci est le Fils de Dieu.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 116 (117), 1, 2
+            refAbbr: '116'
+            chorus:
+              - chorusRef: 16, 15
+                chorus: |-
+                  Allez dans le monde entier.
+                  Proclamez l’Évangile.
+              - chorus: Alléluia !
+            content: |-
+              Louez le Seigneur, tous les peuples ;
+              fêtez-le, tous les pays !
+
+              Son amour envers nous s’est montré le plus fort ;
+              éternelle est la fidélité du Seigneur !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 6, 56
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Qui mange ma chair et boit mon sang
+              demeure en moi, et moi en lui, dit le Seigneur.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 6, 52-59
+            headline: « Ma chair est la vraie nourriture, et mon sang est la vraie boisson »
+            content: |-
+              En ce temps-là,
+              les Juifs se querellaient entre eux :
+              « Comment celui-là
+              peut-il nous donner sa chair à manger ? »
+              Jésus leur dit alors :
+              « Amen, amen, je vous le dis :
+              si vous ne mangez pas la chair du Fils de l’homme,
+              et si vous ne buvez pas son sang,
+              vous n’avez pas la vie en vous.
+              Celui qui mange ma chair et boit mon sang
+              a la vie éternelle ;
+              et moi, je le ressusciterai au dernier jour.
+              En effet, ma chair est la vraie nourriture,
+              et mon sang est la vraie boisson.
+              Celui qui mange ma chair et boit mon sang
+              demeure en moi,
+              et moi, je demeure en lui.
+              De même que le Père, qui est vivant, m’a envoyé,
+              et que moi je vis par le Père,
+              de même celui qui me mange,
+              lui aussi vivra par moi.
+              Tel est le pain qui est descendu du ciel :
+              il n’est pas comme celui que les pères ont mangé.
+              Eux, ils sont morts ;
+              celui qui mange ce pain
+              vivra éternellement. »
+
+              Voilà ce que Jésus a dit
+              alors qu’il enseignait à la synagogue de Capharnaüm.

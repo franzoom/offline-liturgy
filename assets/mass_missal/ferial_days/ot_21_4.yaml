@@ -1,0 +1,175 @@
+id: ordinary_time_21_thursday
+title: Jeudi
+context: Vingt et unième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_21ST_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Th
+            ref: 3, 7-13
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Que le Seigneur vous donne, entre vous et à l’égard de tous, un
+              amour de plus en plus intense et débordant »
+            content: |-
+              Frères,
+              nous sommes réconfortés grâce à vous
+              au milieu de toutes nos difficultés et de notre détresse,
+              à cause de votre foi.
+              	Et maintenant nous revivons,
+              puisque vous autres, vous tenez bon dans le Seigneur.
+              	Comment pourrions-nous assez rendre grâce à Dieu à votre sujet,
+              pour toute la joie que nous avons à cause de vous
+              devant notre Dieu ?
+              	Nous le prions avec ardeur, jour et nuit,
+              pour que nous puissions revoir votre visage
+              et compléter ce qui manque à votre foi.
+              	Que Dieu lui-même, notre Père, et que notre Seigneur Jésus
+              nous tracent le chemin jusqu’à vous.
+              	Que le Seigneur vous donne,
+              entre vous et à l’égard de tous les hommes,
+              un amour de plus en plus intense et débordant,
+              comme celui que nous avons pour vous.
+              	Et qu’ainsi il affermisse vos cœurs,
+              les rendant irréprochables en sainteté
+              devant Dieu notre Père,
+              lors de la venue de notre Seigneur Jésus
+              avec tous les saints. Amen.
+          - book: 1 Co
+            ref: 1, 1-9
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « En lui vous avez reçu toutes les richesses »
+            content: |-
+              Paul, appelé par la volonté de Dieu
+              pour être apôtre du Christ Jésus,
+              et Sosthène notre frère,
+              	à l’Église de Dieu qui est à Corinthe,
+              à ceux qui ont été sanctifiés dans le Christ Jésus
+              et sont appelés à être saints
+              avec tous ceux qui, en tout lieu,
+              invoquent le nom de notre Seigneur Jésus Christ,
+              leur Seigneur et le nôtre.
+              	À vous, la grâce et la paix,
+              de la part de Dieu notre Père
+              et du Seigneur Jésus Christ.
+
+              Je ne cesse de rendre grâce à Dieu à votre sujet,
+              pour la grâce qu’il vous a donnée dans le Christ Jésus ;
+              	en lui vous avez reçu toutes les richesses,
+              toutes celles de la parole et de la connaissance de Dieu.
+              	Car le témoignage rendu au Christ
+              s’est établi fermement parmi vous.
+              	Ainsi, aucun don de grâce ne vous manque,
+              à vous qui attendez de voir se révéler notre Seigneur Jésus Christ.
+              	C’est lui qui vous fera tenir fermement jusqu’au bout,
+              et vous serez sans reproche
+              au jour de notre Seigneur Jésus Christ.
+              	Car Dieu est fidèle,
+              lui qui vous a appelés à vivre en communion
+              avec son Fils, Jésus Christ notre Seigneur.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 89 (90), 3-4, 12-13, 14.17abc
+            refAbbr: 89, 3…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 89, 14
+                chorus: |-
+                  Rassasie-nous de ton amour, Seigneur :
+                  nous serons dans la joie.
+            content: |-
+              Tu fais retourner l’homme à la poussière ;
+              tu as dit : « Retournez, fils d’Adam ! »
+              À tes yeux, mille ans sont comme hier,
+              c’est un jour qui s’en va, une heure dans la nuit.
+
+              Apprends-nous la vraie mesure de nos jours :
+              que nos cœurs pénètrent la sagesse.
+              Reviens, Seigneur, pourquoi tarder ?
+              Ravise-toi par égard pour tes serviteurs.
+
+              Rassasie-nous de ton amour au matin,
+              que nous passions nos jours dans la joie et les chants.
+              Que vienne sur nous la douceur du Seigneur notre Dieu !
+              Consolide pour nous l’ouvrage de nos mains.
+          - book: Ps
+            ref: 144 (145), 2-3, 4-5, 6-7
+            refAbbr: 144, 2…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 144, 1b
+                chorus: |-
+                  Mon Dieu, mon Roi,
+                  je bénirai ton nom, toujours et à jamais !
+            content: |-
+              Chaque jour je te bénirai,
+              je louerai ton nom toujours et à jamais.
+              Il est grand, le Seigneur, hautement loué ;
+              à sa grandeur, il n’est pas de limite.
+
+              D’âge en âge, on vantera tes œuvres,
+              on proclamera tes exploits.
+              Je redirai le récit de tes merveilles,
+              ton éclat, ta gloire et ta splendeur.
+
+              On dira ta force redoutable ;
+              je raconterai ta grandeur.
+              On rappellera tes immenses bontés ;
+              tous acclameront ta justice.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 24, 42a.44
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Veillez, tenez-vous prêts :
+              c’est à l’heure où vous n’y pensez pas
+              que le Fils de l’homme viendra.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 24, 42-51
+            headline: « Tenez-vous prêts »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              	« Veillez,
+              car vous ne savez pas quel jour
+              votre Seigneur vient.
+              	Comprenez-le bien :
+              si le maître de maison avait su
+              à quelle heure de la nuit le voleur viendrait,
+              il aurait veillé
+              et n’aurait pas laissé percer le mur de sa maison.
+              	Tenez-vous donc prêts, vous aussi :
+              c’est à l’heure où vous n’y penserez pas
+              que le Fils de l’homme viendra.
+              	Que dire du serviteur fidèle et sensé
+              à qui le maître a confié la charge des gens de sa maison,
+              pour leur donner la nourriture en temps voulu ?
+              	Heureux ce serviteur
+              que son maître, en arrivant, trouvera en train d’agir ainsi !
+              	Amen, je vous le déclare :
+              il l’établira sur tous ses biens.
+              	Mais si ce mauvais serviteur se dit en lui-même :
+              “Mon maître tarde”,
+              	et s’il se met à frapper ses compagnons,
+              s’il mange et boit avec les ivrognes,
+              	alors quand le maître viendra,
+              le jour où son serviteur ne s’y attend pas
+              et à l’heure qu’il ne connaît pas,
+              	il l’écartera
+              et lui fera partager le sort des hypocrites ;
+              là, il y aura des pleurs et des grincements de dents. »

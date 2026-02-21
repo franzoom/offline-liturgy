@@ -1,0 +1,43 @@
+id: cornelius_i_pope_and_cyprian_of_carthage_bishop_martyrs
+title: |-
+  Saints Corneille, _pape_,
+  et Cyprien, _évêque_
+context: 16 septembre
+note: Commun des martyrs, ou des pasteurs.
+subTitle: martyrs
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 2 Co
+            ref: 4, 7-15
+            headline: « Nous portons, dans notre corps, la mort de Jésus »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 125 (126), 1-2ab, 2cd-3, 4-5, 6
+            refAbbr: 125, 1…
+            chorus:
+              - chorusRef: 125, 5
+                chorus: |-
+                  Ceux qui sèment dans les larmes
+                  moissonnent dans la joie.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: 2 Co
+            ref: 1, 3b-4a
+            content: |-
+              Béni soit le Père plein de tendresse,
+              le Dieu de qui vient tout réconfort.
+              Dans toutes nos détresses, il nous réconforte.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 17, 11b-19
+            headline: « Le monde les a pris en haine »

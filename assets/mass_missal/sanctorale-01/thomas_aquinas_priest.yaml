@@ -1,0 +1,40 @@
+id: thomas_aquinas_priest
+title: Saint Thomas d’Aquin
+context: 28 janvier
+note: Commun des docteurs de l’Église, ou des pasteurs.
+subTitle: prêtre et docteur de l’Église
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Sg
+            ref: 7, 7-10.15-16
+            headline: « Plus que la santé et la beauté, j’ai aimé la sagesse »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 118 (119), 9-10, 11-12, 13-14
+            refAbbr: 118, 9…14
+            chorus:
+              - chorusRef: 118, 12b
+                chorus: |-
+                  Apprends-moi, Seigneur, tes commandements.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 9b.10b
+            content: |-
+              Vous n’avez qu’un seul Père,
+              celui qui est aux cieux ;
+              vous n’avez qu’un seul maître, le Christ.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 23, 8-12
+            headline: « Ne vous faites pas donner le titre de maîtres, car vous n’avez qu’un seul maître, le Christ »

@@ -1,0 +1,115 @@
+id: dominic_de_guzman_priest
+title: Saint Dominique
+context: 8 août
+note: Commun des pasteurs (pour les missionnaires), ou des saints (pour les religieux).
+subTitle: prêtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Co
+            ref: 2, 1-10a
+            headline: « Nous proclamons la sagesse du mystère de Dieu »
+            content: |-
+              Frères,
+              quand je suis venu chez vous,
+              je ne suis pas venu vous annoncer le mystère de Dieu
+                avec le prestige du langage ou de la sagesse.
+              Parmi vous, je n’ai rien voulu connaître d’autre que Jésus Christ,
+                ce Messie crucifié.
+              Et c’est dans la faiblesse, craintif et tout tremblant,
+                que je me suis présenté à vous.
+              Mon langage, ma proclamation de l’Évangile,
+                n’avaient rien d’un langage de sagesse qui veut convaincre ;
+              mais c’est l’Esprit et sa puissance qui se manifestaient,
+              pour que votre foi repose, non pas sur la sagesse des hommes,
+                mais sur la puissance de Dieu.
+              Pourtant, c’est bien de sagesse que nous parlons
+                devant ceux qui sont adultes dans la foi,
+              mais ce n’est pas la sagesse de ce monde,
+                la sagesse de ceux qui dirigent ce monde
+                et qui vont à leur destruction.
+              Au contraire, ce dont nous parlons,
+                c’est de la sagesse du mystère de Dieu,
+                sagesse tenue cachée, établie par lui dès avant les siècles,
+                pour nous donner la gloire.
+              Aucun de ceux qui dirigent ce monde ne l’a connue,
+              car, s’ils l’avaient connue,
+                ils n’auraient jamais crucifié le Seigneur de gloire.
+              Mais ce que nous proclamons, c’est, comme dit l’Écriture :
+                  _ce que l’œil n’a pas vu, ce que l’oreille n’a pas entendu,
+                  ce qui n’est pas venu à l’esprit de l’homme,
+                  ce que Dieu a préparé pour ceux dont il est aimé._
+              Et c’est à nous que Dieu, par l’Esprit, en a fait la révélation.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 95 (96), 1-2a, 2b-3, 7-8a, 9-10a
+            refAbbr: 95, 1…
+            chorus:
+              - chorusRef: 95, 3
+                chorus: |-
+                  Racontez à tous les peuples
+                  les merveilles du Seigneur !
+            content: |-
+              Chantez au Seigneur un chant nouveau,
+              chantez au Seigneur, terre entière,
+              chantez au Seigneur et bénissez son nom !
+
+              De jour en jour, proclamez son salut,
+              racontez à tous les peuples sa gloire,
+              à toutes les nations ses merveilles !
+
+              Rendez au Seigneur, familles des peuples,
+              rendez au Seigneur la gloire et la puissance,
+              rendez au Seigneur la gloire de son nom.
+
+              Adorez le Seigneur, éblouissant de sainteté :
+              tremblez devant lui, terre entière.
+              Allez dire aux nations : « Le Seigneur est roi ! »
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 8, 12
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Moi, je suis la lumière du monde, dit le Seigneur.
+              Celui qui me suit aura la lumière de la vie.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 9, 57-62
+            headline: « Je te suivrai partout où tu iras »
+            content: |-
+              En ce temps-là,
+              en cours de route, un homme dit à Jésus :
+                « Je te suivrai partout où tu iras. »
+
+              Jésus lui déclara :
+                « Les renards ont des terriers,
+                les oiseaux du ciel ont des nids ;
+                mais le Fils de l’homme
+                n’a pas d’endroit où reposer la tête. »
+
+              Il dit à un autre :
+                « Suis-moi. »
+              L’homme répondit :
+                « Seigneur, permets-moi d’aller d’abord enterrer mon père. »
+              Mais Jésus répliqua :
+                « Laisse les morts enterrer leurs morts.
+                Toi, pars, et annonce le règne de Dieu. »
+
+              Un autre encore lui dit :
+                « Je te suivrai, Seigneur ;
+                mais laisse-moi d’abord faire mes adieux
+                aux gens de ma maison. »
+              Jésus lui répondit :
+                « Quiconque met la main à la charrue,
+                puis regarde en arrière,
+                n’est pas fait pour le royaume de Dieu. »

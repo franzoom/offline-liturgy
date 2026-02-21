@@ -1,0 +1,184 @@
+id: ordinary_time_32_monday
+title: Lundi
+context: Trente-deuxième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_32ND_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Sg
+            ref: 1, 1-7
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « La Sagesse est un esprit ami des hommes. L’esprit du Seigneur
+              remplit l’univers »
+            content: |-
+              Aimez la justice, vous qui gouvernez la terre,
+              ayez sur le Seigneur des pensées droites,
+              cherchez-le avec un cœur simple,
+              	car il se laisse trouver par ceux qui ne le mettent pas à l’épreuve,
+              il se manifeste à ceux qui ne refusent pas de croire en lui.
+              	Les pensées tortueuses éloignent de Dieu,
+              et sa puissance confond les insensés qui la provoquent.
+              	Car la Sagesse ne peut entrer dans une âme qui veut le mal,
+              ni habiter dans un corps asservi au péché.
+              	L’Esprit saint, éducateur des hommes, fuit l’hypocrisie,
+              il se détourne des projets sans intelligence,
+              quand survient l’injustice, il la confond.
+              	La Sagesse est un esprit ami des hommes,
+              mais elle ne laissera pas le blasphémateur
+              impuni pour ses paroles ;
+              car Dieu scrute ses reins,
+              avec clairvoyance il observe son cœur,
+              il écoute les propos de sa bouche.
+              	L’esprit du Seigneur remplit l’univers :
+              lui qui tient ensemble tous les êtres,
+              il entend toutes les voix.
+          - book: Tt
+            ref: 1, 1-9
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « établis des Anciens comme je te l’ai commandé moi-même »
+            content: |-
+              Paul, serviteur de Dieu,
+              apôtre de Jésus Christ
+              au service de la foi de ceux que Dieu a choisis
+              et de la pleine connaissance de la vérité
+              qui est en accord avec la piété.
+              	Nous avons l’espérance de la vie éternelle,
+              promise depuis toujours par Dieu qui ne ment pas.
+              	Aux temps fixés, il a manifesté sa parole
+              dans la proclamation de l’Évangile
+              qui m’a été confiée par ordre de Dieu notre Sauveur.
+              	Je m’adresse à toi, Tite, mon véritable enfant
+              selon la foi qui nous est commune :
+              à toi, la grâce et la paix
+              de la part de Dieu le Père
+              et du Christ Jésus notre Sauveur.
+
+              Si je t’ai laissé en Crète,
+              c’est pour que tu finisses de tout organiser
+              et que, dans chaque ville, tu établisses des Anciens
+              comme je te l’ai commandé moi-même.
+              	L’Ancien doit être quelqu’un qui soit sans reproche,
+              époux d’une seule femme,
+              ayant des enfants qui soient croyants
+              et ne soient pas accusés d’inconduite ou indisciplinés.
+              	Il faut en effet que le responsable de communauté
+              soit sans reproche,
+              puisqu’il est l’intendant de Dieu ;
+              il ne doit être ni arrogant, ni coléreux, ni buveur, ni brutal,
+              ni avide de profits malhonnêtes ;
+              	mais il doit être accueillant, ami du bien,
+              raisonnable, juste, saint, maître de lui.
+              	Il doit être attaché à la parole digne de foi,
+              celle qui est conforme à la doctrine,
+              pour être capable d’exhorter en donnant un enseignement solide,
+              et aussi de réfuter les opposants.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 138 (139), 1-3, 4-6, 7-8, 9-10
+            refAbbr: 138, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 138, 24b
+                chorus: |-
+                  Conduis-moi, Seigneur,
+                  sur le chemin d’éternité.
+            content: |-
+              Tu me scrutes, Seigneur, et tu sais !
+              Tu sais quand je m’assois, quand je me lève ;
+              de très loin, tu pénètres mes pensées.
+              Que je marche ou me repose, tu le vois,
+              tous mes chemins te sont familiers.
+
+              Avant qu’un mot ne parvienne à mes lèvres,
+              déjà, Seigneur, tu le sais.
+              Tu me devances et me poursuis, tu m’enserres,
+              tu as mis la main sur moi.
+              Savoir prodigieux qui me dépasse,
+              hauteur que je ne puis atteindre !
+
+              Où donc aller, loin de ton souffle ?
+              où m’enfuir, loin de ta face ?
+              Je gravis les cieux : tu es là ;
+              je descends chez les morts : te voici.
+
+              Je prends les ailes de l’aurore
+              et me pose au-delà des mers :
+              même là, ta main me conduit,
+              ta main droite me saisit.
+          - book: Ps
+            ref: 23 (24), 1-2, 3-4ab, 5-6
+            refAbbr: 23, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 23, 6
+                chorus: Voici le peuple de ceux qui cherchent ta face, Seigneur.
+            content: |-
+              Au Seigneur, le monde et sa richesse,
+              la terre et tous ses habitants !
+              C’est lui qui l’a fondée sur les mers
+              et la garde inébranlable sur les flots.
+
+              Qui peut gravir la montagne du Seigneur
+              et se tenir dans le lieu saint ?
+              L’homme au cœur pur, aux mains innocentes,
+              qui ne livre pas son âme aux idoles.
+
+              Il obtient, du Seigneur, la bénédiction,
+              et de Dieu son Sauveur, la justice.
+              Voici le peuple de ceux qui le cherchent !
+              Voici Jacob qui recherche ta face !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Ph
+            ref: 2, 15d.16a
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Vous brillez comme des astres dans l’univers
+              en tenant ferme la parole de vie.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 17, 1-6
+            headline: '« Si sept fois par jour ton frère revient à toi en disant : “Je me
+              repens”, tu lui pardonneras »'
+            content: |-
+              En ce temps-là,
+              	Jésus disait à ses disciples :
+              « Il est inévitable que surviennent des scandales,
+              des occasions de chute ;
+              mais malheureux celui par qui cela arrive !
+              	Il vaut mieux qu’on lui attache au cou une meule en pierre
+              et qu’on le précipite à la mer,
+              plutôt qu’il ne soit une occasion de chute
+              pour un seul des petits que voilà.
+
+              Prenez garde à vous-mêmes !
+              Si ton frère a commis un péché,
+              fais-lui de vifs reproches,
+              et, s’il se repent, pardonne-lui.
+              	Même si sept fois par jour il commet un péché contre toi,
+              et que sept fois de suite il revienne à toi
+              en disant : “Je me repens”,
+              tu lui pardonneras. »
+
+              Les Apôtres dirent au Seigneur :
+              « Augmente en nous la foi ! »
+              	Le Seigneur répondit :
+              « Si vous aviez de la foi,
+              gros comme une graine de moutarde,
+              vous auriez dit à l’arbre que voici :
+              	“Déracine-toi et va te planter dans la mer”,
+              et il vous aurait obéi. »

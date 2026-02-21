@@ -1,0 +1,41 @@
+id: josaphat_kuntsevych_bishop
+title: Saint Josaphat
+context: 12 novembre
+note: Commun des martyrs, ou des pasteurs.
+subTitle: évêque et martyr
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ep
+            ref: 4, 1-7.11-13
+            headline: « Pour que les tâches du ministère soient accomplies et que se construise le corps du Christ »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 1, 1-2, 3, 4.6
+            refAbbr: 1, 1…
+            chorus:
+              - chorusRef: 1, 2a
+                chorus: |-
+                  Heureux qui se plaît
+                  dans la loi du Seigneur.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 15, 9b.5b
+            content: |-
+              Demeurez dans mon amour, dit le Seigneur.
+              Celui qui demeure en moi et en qui je demeure,
+              celui-là porte beaucoup de fruit.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 17, 20-26
+            headline: « Je veux que là où je suis, ils soient eux aussi avec moi »

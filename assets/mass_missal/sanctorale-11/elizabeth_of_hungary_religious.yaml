@@ -1,0 +1,43 @@
+id: elizabeth_of_hungary_religious
+title: Sainte Élisabeth de Hongrie
+context: 17 novembre
+note: Commun des saintes (pour celles qui ont exercé une activité caritative, ou pour les religieuses).
+subTitle: religieuse
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Jn
+            ref: 3, 14-18
+            headline: « Nous aussi, nous devons donner notre vie pour nos frères »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+            refAbbr: 33, 2…11
+            chorus:
+              - chorusRef: 33, 2a
+                chorus: Je bénirai le Seigneur en tout temps.
+              - chorusRef: 33, 9a
+                chorus: |-
+                  Goûtez et voyez
+                  comme est bon le Seigneur.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 13, 34
+            content: |-
+              Je vous donne un commandement dit le Seigneur :
+              « Aimez-vous les uns les autres,
+              comme je vous ai aimés. »
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 6, 27-38
+            headline: « Soyez miséricordieux comme votre Père est miséricordieux »

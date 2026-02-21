@@ -1,0 +1,172 @@
+id: ordinary_time_31_thursday
+title: Jeudi
+context: Trente et unième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_31ST_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 14, 7-12
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Dans notre vie comme dans notre mort, nous appartenons au Seigneur »
+            content: |-
+              Frères,
+              	aucun d’entre nous ne vit pour soi-même,
+              et aucun ne meurt pour soi-même :
+              	si nous vivons, nous vivons pour le Seigneur ;
+              si nous mourons, nous mourons pour le Seigneur.
+              Ainsi, dans notre vie comme dans notre mort,
+              nous appartenons au Seigneur.
+              	Car, si le Christ a connu la mort, puis la vie,
+              c’est pour devenir le Seigneur et des morts et des vivants.
+              	Alors toi, pourquoi juger ton frère ?
+              Toi, pourquoi mépriser ton frère ?
+              Tous, en effet, nous comparaîtrons devant le tribunal de Dieu.
+              	Car il est écrit :
+              _Aussi vrai que je suis vivant, dit le Seigneur,
+              tout genou fléchira devant moi,
+              et toute langue proclamera la louange de Dieu._
+              	Ainsi chacun de nous
+              rendra compte à Dieu pour soi-même.
+          - book: Ph
+            ref: 3, 3-8a
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Tous ces avantages que j’avais, je les ai considérés, à cause du
+              Christ, comme une perte »
+            content: |-
+              Frères,
+              	c’est nous qui sommes les vrais circoncis,
+              nous qui rendons notre culte par l’Esprit de Dieu,
+              nous qui mettons notre fierté dans le Christ Jésus
+              et qui ne plaçons pas notre confiance dans ce qui est charnel.
+              	J’aurais pourtant, moi aussi, des raisons
+              de placer ma confiance dans la chair.
+              Si un autre pense avoir des raisons de le faire,
+              moi, j’en ai bien davantage :
+              	circoncis à huit jours,
+              de la race d’Israël,
+              de la tribu de Benjamin,
+              Hébreu, fils d’Hébreux ;
+              pour l’observance de la loi de Moïse, j’étais pharisien ;
+              	pour ce qui est du zèle, j’étais persécuteur de l’Église ;
+              pour la justice que donne la Loi, j’étais devenu irréprochable.
+              	Mais tous ces avantages que j’avais,
+              je les ai considérés, à cause du Christ, comme une perte.
+              	Oui, je considère tout cela comme une perte
+              à cause de ce bien qui dépasse tout :
+              la connaissance du Christ Jésus, mon Seigneur.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 26 (27), 1, 4, 13-14
+            refAbbr: 26, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 26, 13
+                chorus: |-
+                  J’en suis sûr, je verrai les bontés du Seigneur
+                  sur la terre des vivants.
+            content: |-
+              Le Seigneur est ma lumière et mon salut ;
+              de qui aurais-je crainte ?
+              Le Seigneur est le rempart de ma vie ;
+              devant qui tremblerais-je ?
+
+              J’ai demandé une chose au Seigneur,
+              la seule que je cherche :
+              habiter la maison du Seigneur
+              tous les jours de ma vie,
+              pour admirer le Seigneur dans sa beauté
+              et m’attacher à son temple.
+
+              J’en suis sûr, je verrai les bontés du Seigneur
+              sur la terre des vivants.
+              « Espère le Seigneur, sois fort et prends courage ;
+              espère le Seigneur. »
+          - book: Ps
+            ref: 104 (105), 2-3, 4-5, 6-7
+            refAbbr: 104, 2…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 104, 3b
+                chorus: Joie pour les cœurs qui cherchent Dieu !
+              - chorus: Alléluia !
+            content: |-
+              Chantez et jouez pour lui,
+              redites sans fin ses merveilles ;
+              glorifiez-vous de son nom très saint :
+              joie pour les cœurs qui cherchent Dieu !
+
+              Cherchez le Seigneur et sa puissance,
+              recherchez sans trêve sa face ;
+              souvenez-vous des merveilles qu’il a faites,
+              de ses prodiges, des jugements qu’il prononça.
+
+              Vous, la race d’Abraham son serviteur,
+              les fils de Jacob, qu’il a choisis,
+              le Seigneur, c’est lui notre Dieu :
+              ses jugements font loi pour l’univers.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 11, 28
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Venez à moi, vous tous qui peinez
+              sous le poids du fardeau, dit le Seigneur,
+              et moi, je vous procurerai le repos.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 15, 1-10
+            headline: « Il y aura de la joie dans le ciel pour un seul pécheur qui se
+              convertit »
+            content: |-
+              En ce temps-là,
+              	les publicains et les pécheurs
+              venaient tous à Jésus pour l’écouter.
+              	Les pharisiens et les scribes récriminaient contre lui :
+              « Cet homme fait bon accueil aux pécheurs,
+              et il mange avec eux ! »
+              	Alors Jésus leur dit cette parabole :
+              	« Si l’un de vous a cent brebis et qu’il en perd une,
+              n’abandonne-t-il pas les 99 autres dans le désert
+              pour aller chercher celle qui est perdue,
+              jusqu’à ce qu’il la retrouve ?
+              	Quand il l’a retrouvée,
+              il la prend sur ses épaules, tout joyeux,
+              	et, de retour chez lui, il rassemble ses amis et ses voisins
+              pour leur dire :
+              “Réjouissez-vous avec moi,
+              car j’ai retrouvé ma brebis,
+              celle qui était perdue !”
+              	Je vous le dis :
+              C’est ainsi qu’il y aura de la joie dans le ciel
+              pour un seul pécheur qui se convertit,
+              plus que pour 99 justes
+              qui n’ont pas besoin de conversion.
+
+              Ou encore, si une femme a dix pièces d’argent
+              et qu’elle en perd une,
+              ne va-t-elle pas allumer une lampe, balayer la maison,
+              et chercher avec soin jusqu’à ce qu’elle la retrouve ?
+              	Quand elle l’a retrouvée,
+              elle rassemble ses amies et ses voisines
+              pour leur dire :
+              “Réjouissez-vous avec moi,
+              car j’ai retrouvé la pièce d’argent que j’avais perdue !”
+              	Ainsi je vous le dis :
+              Il y a de la joie devant les anges de Dieu
+              pour un seul pécheur qui se convertit. »

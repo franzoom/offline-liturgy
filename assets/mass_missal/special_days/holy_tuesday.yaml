@@ -1,0 +1,156 @@
+id: holy_tuesday
+title: Mardi Saint
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 49, 1-6
+            headline: « Je fais de toi la lumière des nations,  pour que mon salut parvienne
+              jusqu’aux extrémités de la terre »
+            content: |-
+              Écoutez-moi, îles lointaines !
+              Peuples éloignés, soyez attentifs !
+              J’étais encore dans le sein maternel
+              quand le Seigneur m’a appelé ;
+              j’étais encore dans les entrailles de ma mère
+              quand il a prononcé mon nom.
+              	Il a fait de ma bouche une épée tranchante,
+              il m’a protégé par l’ombre de sa main ;
+              il a fait de moi une flèche acérée,
+              il m’a caché dans son carquois.
+              	Il m’a dit :
+              « Tu es mon serviteur, Israël,
+              en toi je manifesterai ma splendeur. »
+              	Et moi, je disais :
+              « Je me suis fatigué pour rien,
+              c’est pour le néant, c’est en pure perte
+              que j’ai usé mes forces. »
+              Et pourtant, mon droit subsistait auprès du Seigneur,
+              ma récompense, auprès de mon Dieu.
+              	Maintenant le Seigneur parle,
+              lui qui m’a façonné dès le sein de ma mère
+              pour que je sois son serviteur,
+              que je lui ramène Jacob,
+              que je lui rassemble Israël.
+              Oui, j’ai de la valeur aux yeux du Seigneur,
+              c’est mon Dieu qui est ma force.
+              	Et il dit :
+              « C’est trop peu que tu sois mon serviteur
+              pour relever les tribus de Jacob,
+              ramener les rescapés d’Israël :
+              je fais de toi la lumière des nations,
+              pour que mon salut parvienne
+              jusqu’aux extrémités de la terre. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 70 (71), 1-2, 3, 5a.6, 15ab.17
+            refAbbr: 70, 1…
+            chorus:
+              - chorusRef: 70, 15ab
+                chorus: Ma bouche annonce ton salut, Seigneur.
+            content: |-
+              En toi, Seigneur, j’ai mon refuge :
+              garde-moi d’être humilié pour toujours.
+              Dans ta justice, défends-moi, libère-moi,
+              tends l’oreille vers moi, et sauve-moi.
+
+              Sois le rocher qui m’accueille,
+              toujours accessible ;
+              tu as résolu de me sauver :
+              ma forteresse et mon roc, c’est toi !
+
+              Seigneur mon Dieu, tu es mon espérance,
+              Toi, mon soutien dès avant ma naissance,
+              tu m’as choisi dès le ventre de ma mère ;
+              tu seras ma louange toujours !
+
+              Ma bouche annonce tout le jour
+              tes actes de justice et de salut ;
+              Mon Dieu, tu m’as instruit dès ma jeunesse,
+              jusqu’à présent, j’ai proclamé tes merveilles.
+
+      - partType: ALLELUIA
+        partContents:
+          - acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Salut, ô Christ, notre Roi :
+              obéissant au Père ;
+              comme l’agneau vers l’abattoir,
+              tu te laisses conduire à la croix.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 13, 21-33.36-38
+            headline: « L’un de vous me livrera…  Le coq ne chantera pas avant que tu m’aies
+              renié trois fois »
+            content: |-
+              En ce temps-là,
+              au cours du repas que Jésus prenait avec ses disciples,
+              	il fut bouleversé en son esprit,
+              et il rendit ce témoignage :
+              « Amen, amen, je vous le dis :
+              l’un de vous me livrera. »
+              	Les disciples se regardaient les uns les autres avec embarras,
+              ne sachant pas de qui Jésus parlait.
+              	Il y avait à table, appuyé contre Jésus,
+              l’un de ses disciples, celui que Jésus aimait.
+              	Simon-Pierre lui fait signe de demander à Jésus
+              de qui il veut parler.
+              	Le disciple se penche donc sur la poitrine de Jésus
+              et lui dit :
+              « Seigneur, qui est-ce ? »
+              	Jésus lui répond :
+              « C’est celui à qui je donnerai la bouchée
+              que je vais tremper dans le plat. »
+              Il trempe la bouchée,
+              et la donne à Judas, fils de Simon l’Iscariote.
+              	Et, quand Judas eut pris la bouchée,
+              Satan entra en lui.
+              Jésus lui dit alors :
+              « Ce que tu fais, fais-le vite. »
+              	Mais aucun des convives ne comprit
+              pourquoi il lui avait dit cela.
+              	Comme Judas tenait la bourse commune,
+              certains pensèrent que Jésus voulait lui dire
+              d’acheter ce qu’il fallait pour la fête,
+              ou de donner quelque chose aux pauvres.
+              	Judas prit donc la bouchée, et sortit aussitôt.
+              Or il faisait nuit.
+
+              Quand il fut sorti, Jésus déclara :
+              « Maintenant le Fils de l’homme est glorifié,
+              et Dieu est glorifié en lui.
+              	Si Dieu est glorifié en lui,
+              Dieu aussi le glorifiera ;
+              et il le glorifiera bientôt.
+
+              Petits enfants,
+              c’est pour peu de temps encore
+              que je suis avec vous.
+              Vous me chercherez,
+              et, comme je l’ai dit aux Juifs :
+              “Là où je vais,
+              vous ne pouvez pas aller”,
+              je vous le dis maintenant à vous aussi. »
+
+              Simon-Pierre lui dit :
+              « Seigneur, où vas-tu ? »
+              Jésus lui répondit :
+              « Là où je vais,
+              tu ne peux pas me suivre maintenant ;
+              tu me suivras plus tard. »
+              	Pierre lui dit :
+              « Seigneur, pourquoi ne puis-je pas te suivre à présent ?
+              Je donnerai ma vie pour toi ! »
+              	Jésus réplique :
+              « Tu donneras ta vie pour moi ?
+              Amen, amen, je te le dis :
+              le coq ne chantera pas
+              avant que tu m’aies renié trois fois. »

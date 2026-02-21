@@ -1,0 +1,120 @@
+id: easter_time_2_wednesday
+title: Mercredi
+context: Deuxième semaine de Pâques
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 5, 17-26
+            headline: « Les hommes que vous aviez mis en prison, voilà qu’ils se tiennent
+              dans le Temple et enseignent le peuple ! »
+            content: |-
+              En ces jours-là,
+              intervint le grand prêtre, ainsi que tout son entourage,
+              c’est-à-dire le groupe des sadducéens,
+              qui étaient remplis d’une ardeur jalouse pour la Loi.
+              Ils mirent la main sur les Apôtres
+              et les placèrent publiquement sous bonne garde.
+              Mais, pendant la nuit, l’ange du Seigneur
+              ouvrit les portes de la prison et les fit sortir.
+              Il leur dit :
+              « Partez, tenez-vous dans le Temple
+              et là, dites au peuple toutes ces paroles de vie. »
+              Ils l’écoutèrent ;
+              dès l’aurore, ils entrèrent dans le Temple,
+              et là, ils enseignaient.
+              Alors arriva le grand prêtre, ainsi que son entourage.
+              Ils convoquèrent le Conseil suprême,
+              toute l’assemblée des anciens d’Israël,
+              et ils envoyèrent chercher les Apôtres dans leur cachot.
+              En arrivant, les gardes ne les trouvèrent pas à la prison.
+              Ils revinrent donc annoncer :
+              « Nous avons trouvé le cachot parfaitement verrouillé,
+              et les gardes en faction devant les portes ;
+              mais, quand nous avons ouvert,
+              nous n’avons trouvé personne à l’intérieur. »
+              Ayant entendu ce rapport,
+              le commandant du Temple et les grands prêtres, tout perplexes,
+              se demandaient ce qu’il adviendrait de cette affaire.
+              Là-dessus, quelqu’un vient leur annoncer :
+              « Les hommes que vous aviez mis en prison,
+              voilà qu’ils se tiennent dans le Temple
+              et enseignent le peuple ! »
+              Alors, le commandant partit avec son escorte
+              pour les ramener, mais sans violence,
+              parce qu’ils avaient peur d’être lapidés par le peuple.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 33 (34), 2-3, 4-5, 6-7, 8-9
+            refAbbr: 33, 2…
+            chorus:
+              - chorusRef: 33, 7a
+                chorus: |-
+                  Un pauvre crie ;
+                  le Seigneur entend.
+              - chorus: Alléluia !
+            content: |-
+              Je bénirai le Seigneur en tout temps,
+              sa louange sans cesse à mes lèvres.
+              Je me glorifierai dans le Seigneur :
+              que les pauvres m’entendent et soient en fête !
+
+              Magnifiez avec moi le Seigneur,
+              exaltons tous ensemble son nom.
+              Je cherche le Seigneur, il me répond :
+              de toutes mes frayeurs, il me délivre.
+
+              Qui regarde vers lui resplendira,
+              sans ombre ni trouble au visage.
+              Un pauvre crie ; le Seigneur entend :
+              il le sauve de toutes ses angoisses.
+
+              L’ange du Seigneur campe à l’entour
+              pour libérer ceux qui le craignent.
+              Goûtez et voyez : le Seigneur est bon !
+              Heureux qui trouve en lui son refuge !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 3, 16
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Dieu a tellement aimé le monde
+              qu’il a donné son Fils unique,
+              afin que ceux qui croient en Lui aient la vie éternelle.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 3, 16-21
+            headline: « Dieu a envoyé son Fils dans le monde, pour que, par lui, le monde
+              soit sauvé »
+            content: |-
+              En ce temps-là, Jésus disait à Nicodème :
+              « Dieu a tellement aimé le monde
+              qu’il a donné son Fils unique,
+              afin que quiconque croit en lui ne se perde pas,
+              mais obtienne la vie éternelle.
+              Car Dieu a envoyé son Fils dans le monde,
+              non pas pour juger le monde,
+              mais pour que, par lui, le monde soit sauvé.
+              Celui qui croit en lui échappe au Jugement ;
+              celui qui ne croit pas est déjà jugé,
+              du fait qu’il n’a pas cru au nom du Fils unique de Dieu.
+              Et le Jugement, le voici :
+              la lumière est venue dans le monde,
+              et les hommes ont préféré les ténèbres à la lumière,
+              parce que leurs œuvres étaient mauvaises.
+              Celui qui fait le mal déteste la lumière :
+              il ne vient pas à la lumière,
+              de peur que ses œuvres ne soient dénoncées ;
+              mais celui qui fait la vérité vient à la lumière,
+              pour qu’il soit manifeste
+              que ses œuvres ont été accomplies en union avec Dieu. »

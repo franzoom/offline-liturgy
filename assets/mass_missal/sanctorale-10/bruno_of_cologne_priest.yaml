@@ -1,0 +1,115 @@
+id: bruno_of_cologne_priest
+title: Saint Bruno
+context: 6 octobre
+note: Commun des pasteurs, ou des saints (pour les religieux).
+subTitle: prêtre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ph
+            ref: 3, 8-14
+            headline: « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut
+              dans le Christ Jésus »
+            content: |-
+              Frères,
+              tous les avantages que j’avais autrefois,
+              	je les considère comme une perte
+              à cause de ce bien qui dépasse tout :
+              la connaissance du Christ Jésus, mon Seigneur.
+              À cause de lui, j’ai tout perdu ;
+              je considère tout comme des ordures,
+              afin de gagner un seul avantage, le Christ,
+              	et, en lui, d’être reconnu juste,
+              non pas de la justice venant de la loi de Moïse
+              mais de celle qui vient de la foi au Christ,
+              la justice venant de Dieu, qui est fondée sur la foi.
+              	Il s’agit pour moi de connaître le Christ,
+              d’éprouver la puissance de sa résurrection
+              et de communier aux souffrances de sa Passion,
+              en devenant semblable à lui dans sa mort,
+              	avec l’espoir de parvenir
+              à la résurrection d’entre les morts.
+              	Certes, je n’ai pas encore obtenu cela,
+              je n’ai pas encore atteint la perfection,
+              mais je poursuis ma course pour tâcher de saisir,
+              puisque j’ai moi-même été saisi par le Christ Jésus.
+              	Frères, quant à moi, je ne pense pas avoir déjà saisi cela.
+              Une seule chose compte :
+              oubliant ce qui est en arrière, et lancé vers l’avant,
+              	je cours vers le but en vue du prix
+              auquel Dieu nous appelle là-haut dans le Christ Jésus.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 1, 1-2, 3, 4.6
+            refAbbr: 1, 1…
+            chorus:
+              - chorusRef: 1, 2a
+                chorus: |-
+                  Heureux qui se plaît
+                  dans la loi du Seigneur.
+            content: |-
+              Heureux est l’homme
+              	qui n’entre pas au conseil des méchants,
+              qui ne suit pas le chemin des pécheurs,
+              ne siège pas avec ceux qui ricanent,
+              mais se plaît dans la loi du Seigneur
+              et murmure sa loi jour et nuit !
+
+              Il est comme un arbre
+              	planté près d’un ruisseau,
+              qui donne du fruit en son temps,
+              et jamais son feuillage ne meurt ;
+              tout ce qu’il entreprend réussira.
+
+              Tel n’est pas le sort des méchants.
+              Mais ils sont comme la paille
+              	balayée par le vent.
+              Le Seigneur connaît le chemin des justes,
+              mais le chemin des méchants se perdra.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 8, 12
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Moi, je suis la lumière du monde, dit le Seigneur.
+              Celui qui me suit aura la lumière de la vie.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 9, 57-62
+            headline: « Je te suivrai partout où tu iras »
+            content: |-
+              En ce temps-là,
+              	en cours de route, un homme dit à Jésus :
+              « Je te suivrai partout où tu iras. »
+              	Jésus lui déclara :
+              « Les renards ont des terriers,
+              les oiseaux du ciel ont des nids ;
+              mais le Fils de l’homme
+              n’a pas d’endroit où reposer la tête. »
+
+              Il dit à un autre :
+              « Suis-moi. »
+              	L’homme répondit :
+              « Seigneur, permets-moi d’aller d’abord enterrer mon père. »
+              	Mais Jésus répliqua :
+              « Laisse les morts enterrer leurs morts.
+              Toi, pars, et annonce le règne de Dieu. »
+
+              Un autre encore lui dit :
+              « Je te suivrai, Seigneur ;
+              mais laisse-moi d’abord faire mes adieux
+              aux gens de ma maison. »
+              	Jésus lui répondit :
+              « Quiconque met la main à la charrue,
+              puis regarde en arrière,
+              n’est pas fait pour le royaume de Dieu. »

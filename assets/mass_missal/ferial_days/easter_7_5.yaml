@@ -1,0 +1,126 @@
+id: easter_time_7_friday
+title: Vendredi
+context: Septième semaine de Pâques
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 25, 13-21
+            headline: « Un certain Jésus qui est mort, mais que Paul affirme être en vie »
+            content: |-
+              En ces jours-là,
+              le roi Agrippa et Bérénice
+              vinrent à Césarée saluer le gouverneur Festus.
+              Comme ils passaient là plusieurs jours,
+              Festus exposa au roi la situation de Paul en disant :
+              « Il y a ici un homme
+              que mon prédécesseur Félix a laissé en prison.
+              Quand je me suis trouvé à Jérusalem,
+              les grands prêtres et les anciens des Juifs
+              ont exposé leurs griefs contre lui
+              en réclamant sa condamnation.
+              J’ai répondu que les Romains
+              n’ont pas coutume de faire la faveur
+              de livrer qui que ce soit lorsqu’il est accusé,
+              avant qu’il soit confronté avec ses accusateurs
+              et puisse se défendre du chef d’accusation.
+              Ils se sont donc retrouvés ici,
+              et sans aucun délai, le lendemain même,
+              j’ai siégé au tribunal
+              et j’ai donné l’ordre d’amener cet homme.
+              Quand ils se levèrent, les accusateurs n’ont mis à sa charge
+              aucun des méfaits que, pour ma part, j’aurais supposés.
+              Ils avaient seulement avec lui certains débats
+              au sujet de leur propre religion,
+              et au sujet d’un certain Jésus qui est mort,
+              mais que Paul affirmait être en vie.
+              Quant à moi, embarrassé devant la suite à donner à l’instruction,
+              j’ai demandé à Paul s’il voulait aller à Jérusalem
+              pour y être jugé sur cette affaire.
+              Mais Paul a fait appel
+              pour être gardé en prison jusqu’à la décision impériale.
+              J’ai donc ordonné de le garder en prison
+              jusqu’au renvoi de sa cause devant l’empereur. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 102 (103), 1-2, 11-12, 19-20ab
+            refAbbr: 102, 1…
+            chorus:
+              - chorusRef: 102, 19a
+                chorus: Le Seigneur a son trône dans les cieux.
+              - chorus: Alléluia !
+            content: |-
+              Bénis le Seigneur, ô mon âme,
+              bénis son nom très saint, tout mon être !
+              Bénis le Seigneur, ô mon âme,
+              n’oublie aucun de ses bienfaits !
+
+              Comme le ciel domine la terre,
+              fort est son amour pour qui le craint ;
+              aussi loin qu’est l’orient de l’occident,
+              il met loin de nous nos péchés.
+
+              Le Seigneur a son trône dans les cieux :
+              sa royauté s’étend sur l’univers.
+              Messagers du Seigneur, bénissez-le,
+              invincibles porteurs de ses ordres !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 14, 26
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              L’Esprit Saint vous enseignera tout,
+              et il vous fera souvenir de tout ce que je vous ai dit.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 21, 15-19
+            headline: « Sois le berger de mes agneaux. Sois le pasteur de mes brebis »
+            content: |-
+              Jésus se manifesta encore aux disciples
+              sur le bord de la mer de Tibériade.
+              Quand ils eurent mangé,
+              Jésus dit à Simon-Pierre :
+              « Simon, fils de Jean,
+              m’aimes- tu vraiment, plus que ceux-ci ? »
+              Il lui répond :
+              « Oui, Seigneur ! Toi, tu le sais : je t’aime. »
+              Jésus lui dit :
+              « Sois le berger de mes agneaux. »
+              Il lui dit une deuxième fois :
+              « Simon, fils de Jean, m’aimes-tu vraiment ? »
+              Il lui répond :
+              « Oui, Seigneur ! Toi, tu le sais : je t’aime. »
+              Jésus lui dit :
+              « Sois le pasteur de mes brebis. »
+              Il lui dit, pour la troisième fois :
+              « Simon, fils de Jean, m’aimes-tu ? »
+              Pierre fut peiné
+              parce que, la troisième fois, Jésus lui demandait :
+              « M’aimes-tu ? »
+              Il lui répond :
+              « Seigneur, toi, tu sais tout :
+              tu sais bien que je t’aime. »
+              Jésus lui dit :
+              « Sois le berger de mes brebis.
+              Amen, amen, je te le dis :
+              quand tu étais jeune,
+              tu mettais ta ceinture toi-même
+              pour aller là où tu voulais ;
+              quand tu seras vieux,
+              tu étendras les mains,
+              et c’est un autre qui te mettra ta ceinture,
+              pour t’emmener là où tu ne voudrais pas aller. »
+              Jésus disait cela pour signifier par quel genre de mort
+              Pierre rendrait gloire à Dieu.
+              Sur ces mots, il lui dit :
+              « Suis-moi. »

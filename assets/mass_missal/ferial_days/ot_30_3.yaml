@@ -1,0 +1,177 @@
+id: ordinary_time_30_wednesday
+title: Mercredi
+context: Trentième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_30TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 8, 26-30
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Quand les hommes aiment Dieu, lui-même fait tout contribuer à leur
+              bien »
+            content: |-
+              Frères,
+              	l’Esprit Saint vient au secours de notre faiblesse,
+              car nous ne savons pas prier comme il faut.
+              L’Esprit lui-même intercède pour nous
+              par des gémissements inexprimables.
+              	Et Dieu, qui scrute les cœurs,
+              connaît les intentions de l’Esprit
+              puisque c’est selon Dieu
+              que l’Esprit intercède pour les fidèles.
+
+              Nous le savons, quand les hommes aiment Dieu,
+              lui-même fait tout contribuer à leur bien,
+              puisqu’ils sont appelés selon le dessein de son amour.
+              	Ceux que, d’avance, il connaissait,
+              il les a aussi destinés d’avance
+              à être configurés à l’image de son Fils,
+              pour que ce Fils soit le premier-né
+              d’une multitude de frères.
+              	Ceux qu’il avait destinés d’avance,
+              il les a aussi appelés ;
+              ceux qu’il a appelés,
+              il en a fait des justes ;
+              et ceux qu’il a rendus justes,
+              il leur a donné sa gloire.
+          - book: Ep
+            ref: 6, 1-9
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Chacun, qu’il soit esclave ou libre, sera rétribué par le Seigneur
+              selon le bien qu’il aura fait »
+            content: |-
+              Frères,
+              par respect pour le Christ, soyez soumis les uns aux autres.
+              	Vous, les enfants,
+              obéissez à vos parents dans le Seigneur,
+              car c’est cela qui est juste :
+              _Honore ton père et ta mère,_
+              c’est le premier commandement qui soit assorti d’une promesse :
+              	_ainsi tu seras heureux
+              et tu auras longue vie sur la terre._
+              	Et vous, les parents,
+              ne poussez pas vos enfants à la colère,
+              mais élevez-les en leur donnant une éducation et des avertissements
+              inspirés par le Seigneur.
+              	Vous, les esclaves, obéissez à vos maîtres d’ici-bas
+              comme au Christ,
+              avec crainte et profond respect,
+              dans la simplicité de votre cœur.
+              	Ne le faites pas seulement sous leurs yeux,
+              par souci de plaire à des hommes,
+              mais comme des esclaves du Christ
+              qui accomplissent la volonté de Dieu de tout leur cœur,
+              	et qui font leur travail d’esclaves volontiers,
+              comme pour le Seigneur et non pas pour des hommes.
+              	Car vous savez bien que chacun, qu’il soit esclave ou libre,
+              sera rétribué par le Seigneur
+              selon le bien qu’il aura fait.
+              	Et vous, les maîtres,
+              agissez de même avec vos esclaves,
+              laissez de côté les menaces.
+              Car vous savez bien que, pour eux comme pour vous,
+              le Maître est dans le ciel,
+              et il est impartial envers les personnes.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 12 (13), 4-5a, 5b-6
+            refAbbr: 12, 4…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 12, 6
+                chorus: Moi, je prends appui sur ton amour, Seigneur.
+            content: |-
+              Regarde, réponds-moi, Seigneur mon Dieu !
+              Donne la lumière à mes yeux,
+              garde-moi du sommeil de la mort ;
+              que l’adversaire ne crie pas : « Victoire ! »
+
+              Que l’ennemi n’ait pas la joie de ma défaite !
+              Moi, je prends appui sur ton amour ;
+              que mon cœur ait la joie de ton salut !
+              Je chanterai le Seigneur pour le bien qu’il m’a fait.
+          - book: Ps
+            ref: 144 (145), 10-11, 12-13ab, 13cd-14
+            refAbbr: 144, 10…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 144, 13a
+                chorus: Le Seigneur est vrai en tout ce qu’il dit.
+            content: |-
+              Que tes œuvres, Seigneur, te rendent grâce
+              et que tes fidèles te bénissent !
+              Ils diront la gloire de ton règne,
+              ils parleront de tes exploits.
+
+              Ils annonceront aux hommes tes exploits,
+              la gloire et l’éclat de ton règne :
+              ton règne, un règne éternel,
+              ton empire, pour les âges des âges.
+
+              Le Seigneur est vrai en tout ce qu’il dit,
+              fidèle en tout ce qu’il fait.
+              Le Seigneur soutient tous ceux qui tombent,
+              il redresse tous les accablés.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: 2 Th
+            ref: 2, 14
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Par l’annonce de l’Évangile,
+              Dieu nous appelle à partager
+              la gloire de notre Seigneur Jésus Christ.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 13, 22-30
+            headline: « On viendra de l’orient et de l’occident, prendre place au festin
+              dans le royaume de Dieu »
+            content: |-
+              En ce temps-là,
+              	tandis qu’il faisait route vers Jérusalem,
+              Jésus traversait villes et villages en enseignant.
+              	Quelqu’un lui demanda :
+              « Seigneur, n’y a-t-il que peu de gens qui soient sauvés ? »
+              Jésus leur dit :
+              	« Efforcez-vous d’entrer par la porte étroite,
+              car, je vous le déclare,
+              beaucoup chercheront à entrer
+              et n’y parviendront pas.
+              	Lorsque le maître de maison se sera levé
+              pour fermer la porte,
+              si vous, du dehors, vous vous mettez à frapper à la porte,
+              en disant :
+              “Seigneur, ouvre-nous”,
+              il vous répondra :
+              “Je ne sais pas d’où vous êtes.”
+              	Alors vous vous mettrez à dire :
+              “Nous avons mangé et bu en ta présence,
+              et tu as enseigné sur nos places.”
+              	Il vous répondra :
+              “Je ne sais pas d’où vous êtes.
+              Éloignez-vous de moi,
+              vous tous qui commettez l’injustice.”
+              	Là, il y aura des pleurs et des grincements de dents,
+              quand vous verrez Abraham, Isaac et Jacob, et tous les prophètes
+              dans le royaume de Dieu,
+              et que vous-mêmes, vous serez jetés dehors.
+              	Alors on viendra de l’orient et de l’occident,
+              du nord et du midi,
+              prendre place au festin dans le royaume de Dieu.
+              	Oui, il y a des derniers qui seront premiers,
+              et des premiers qui seront derniers. »

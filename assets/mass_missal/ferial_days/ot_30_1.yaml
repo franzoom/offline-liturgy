@@ -1,0 +1,178 @@
+id: ordinary_time_30_monday
+title: Lundi
+context: Trentième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_30TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 8, 12-17
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: '« Vous avez reçu un Esprit qui fait de vous des fils ; et c’est en
+              lui que nous crions « Abba ! », c’est-à-dire : Père ! »'
+            content: |-
+              Frères,
+              nous avons une dette,
+              mais elle n’est pas envers la chair
+              pour devoir vivre selon la chair.
+              	Car si vous vivez selon la chair,
+              vous allez mourir ;
+              mais si, par l’Esprit,
+              vous tuez les agissements de l’homme pécheur,
+              vous vivrez.
+              	En effet, tous ceux qui se laissent conduire par l’Esprit de Dieu,
+              ceux-là sont fils de Dieu.
+              	Vous n’avez pas reçu un esprit qui fait de vous des esclaves
+              et vous ramène à la peur ;
+              mais vous avez reçu un Esprit qui fait de vous des fils ;
+              et c’est en lui que nous crions « _Abba !_ », c’est-à-dire : Père !
+              	C’est donc l’Esprit Saint lui-même qui atteste à notre esprit
+              que nous sommes enfants de Dieu.
+              	Puisque nous sommes ses enfants,
+              nous sommes aussi ses héritiers :
+              héritiers de Dieu,
+              héritiers avec le Christ,
+              si du moins nous souffrons avec lui
+              pour être avec lui dans la gloire.
+          - book: Ep
+            ref: 4, 32 – 5, 8
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Vivez dans l’amour, comme le Christ nous a aimés »
+            content: |-
+              Frères,
+              	soyez entre vous pleins de générosité et de tendresse.
+              Pardonnez-vous les uns aux autres,
+              comme Dieu vous a pardonné dans le Christ.
+              	Oui, cherchez à imiter Dieu,
+              puisque vous êtes ses enfants bien-aimés.
+              	Vivez dans l’amour,
+              comme le Christ nous a aimés et s’est livré lui-même pour nous,
+              s’offrant en sacrifice à Dieu, comme un parfum d’agréable odeur.
+              	Comme il convient aux fidèles,
+              la débauche, l’impureté sous toutes ses formes et la soif de posséder
+              sont des choses qu’on ne doit même plus évoquer chez vous ;
+              	pas davantage de propos grossiers, stupides ou scabreux
+              – tout cela est déplacé –
+              mais qu’il y ait plutôt des actions de grâce.
+              	Sachez-le bien : ni les débauchés, ni les dépravés, ni les profiteurs
+              – qui sont de vrais idolâtres –
+              ne reçoivent d’héritage dans le royaume du Christ et de Dieu ;
+              	ne laissez personne vous égarer par de vaines paroles.
+              Tout cela attire la colère de Dieu sur ceux qui désobéissent.
+              	N’ayez donc rien de commun avec ces gens-là.
+              	Autrefois, vous étiez ténèbres ;
+              maintenant, dans le Seigneur, vous êtes lumière ;
+              conduisez-vous comme des enfants de lumière.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 67 (68), 2.4, 6.7ab, 20-21
+            refAbbr: 67, 2…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 67, 21a
+                chorus: |-
+                  Le Dieu qui est le nôtre
+                  est le Dieu des victoires.
+            content: |-
+              Dieu se lève et ses ennemis se dispersent,
+              ses adversaires fuient devant sa face.
+              Mais les justes sont en fête, ils exultent ;
+              devant la face de Dieu ils dansent de joie.
+
+              Père des orphelins, défenseur des veuves,
+              tel est Dieu dans sa sainte demeure.
+              À l’isolé, Dieu accorde une maison ;
+              aux captifs, il rend la liberté ;
+
+              Que le Seigneur soit béni !
+              Jour après jour, ce Dieu nous accorde la victoire.
+              Le Dieu qui est le nôtre est le Dieu des victoires,
+              et les portes de la mort sont à Dieu, le Seigneur.
+          - book: Ps
+            ref: 1, 1-2, 3, 4.6
+            refAbbr: 1, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 5, 1
+                chorus: |-
+                  Cherchons à imiter Dieu,
+                  puisque nous sommes ses enfants bien-aimés.
+            content: |-
+              Heureux est l’homme
+              	qui n’entre pas au conseil des méchants,
+              qui ne suit pas le chemin des pécheurs,
+              ne siège pas avec ceux qui ricanent,
+              mais se plaît dans la loi du Seigneur
+              et murmure sa loi jour et nuit !
+
+              Il est comme un arbre
+              	planté près d’un ruisseau,
+              qui donne du fruit en son temps,
+              et jamais son feuillage ne meurt ;
+              tout ce qu’il entreprend réussira.
+
+              Tel n’est pas le sort des méchants.
+              Mais ils sont comme la paille
+              	balayée par le vent.
+              Le Seigneur connaît le chemin des justes,
+              mais le chemin des méchants se perdra.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 17, 17ba
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Ta parole, Seigneur, est vérité ;
+              dans cette vérité, sanctifie-nous.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 13, 10-17
+            headline: « Cette fille d’Abraham, ne fallait-il pas la délivrer de ce lien le
+              jour du sabbat ? »
+            content: |-
+              En ce temps-là,
+              	Jésus était en train d’enseigner dans une synagogue,
+              le jour du sabbat.
+              	Voici qu’il y avait là une femme, possédée par un esprit
+              qui la rendait infirme depuis dix-huit ans ;
+              elle était toute courbée
+              et absolument incapable de se redresser.
+              	Quand Jésus la vit, il l’interpella et lui dit :
+              « Femme, te voici délivrée de ton infirmité. »
+              	Et il lui imposa les mains.
+              À l’instant même elle redevint droite
+              et rendait gloire à Dieu.
+
+              Alors le chef de la synagogue, indigné
+              de voir Jésus faire une guérison le jour du sabbat,
+              prit la parole et dit à la foule :
+              « Il y a six jours pour travailler ;
+              venez donc vous faire guérir ces jours-là,
+              et non pas le jour du sabbat. »
+              	Le Seigneur lui répliqua :
+              « Hypocrites !
+              Chacun de vous, le jour du sabbat,
+              ne détache-t-il pas de la mangeoire son bœuf ou son âne
+              pour le mener boire ?
+              	Alors cette femme, une fille d’Abraham,
+              que Satan avait liée voici dix-huit ans,
+              ne fallait-il pas la délivrer de ce lien le jour du sabbat ? »
+
+              À ces paroles de Jésus,
+              tous ses adversaires furent remplis de honte,
+              et toute la foule était dans la joie
+              à cause de toutes les actions éclatantes qu’il faisait.

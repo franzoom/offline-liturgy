@@ -1,0 +1,49 @@
+id: dedication_of_consecrated_churches_on_last_sunday_of_october
+title: |-
+  Anniversaire de la dédicace d’une église
+  _dont on ne connaît pas la date de consécration_
+altTitle: Dédicace d’une église dont on ne connaît pas la date de consécration
+commons:
+  - COMMON_OF_THE_DEDICATION_OF_A_CHURCH
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 R
+            ref: 8, 22-23.27-30
+            headline: « Que tes yeux soient ouverts sur cette Maison »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 83 (84), 3, 4, 5-6a.8a, 11cdef
+            refAbbr: 83, 3…
+            chorus:
+              - chorusRef: 83, 2
+                chorus: |-
+                  De quel amour sont aimées tes demeures,
+                  Seigneur, Dieu de l’univers !
+
+      - partType: READING_2
+        partContents:
+          - book: 1 P
+            ref: 2, 4-9
+            headline: « Comme pierres vivantes, entrez dans la construction de la demeure spirituelle »
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 16, 18
+            content: |-
+              Tu es Pierre,
+              et sur cette pierre je bâtirai mon Église ;
+              et la puissance de la Mort ne l’emportera pas sur elle.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 16, 13-19
+            headline: « Je te suivrai partout où tu iras »

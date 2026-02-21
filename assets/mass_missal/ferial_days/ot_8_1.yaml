@@ -1,0 +1,188 @@
+id: ordinary_time_8_monday
+title: Lundi
+context: Huitième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_8TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Si
+            ref: 17, 24-29
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Reviens vers le Très-Haut et détourne-toi de l’injustice »
+            content: |-
+              À ceux qui se repentent, Dieu ouvre le chemin du retour ;
+              il réconforte ceux qui manquent de persévérance.
+              Convertis-toi au Seigneur, et renonce à tes péchés ;
+              mets-toi devant lui pour prier,
+              et diminue tes occasions de chute.
+              Reviens vers le Très-Haut et détourne-toi de l’injustice ;
+              les actions abominables, déteste-les.
+              Qui pourra célébrer le Très-Haut dans le séjour des morts,
+              remplacer les vivants qui lui rendent gloire ?
+              La louange est enlevée au mort puisqu’il n’est plus ;
+              c’est le vivant, le bien-portant, qui célébrera le Seigneur.
+              Qu’elle est grande, la miséricorde du Seigneur,
+              qu’il est grand, son pardon
+              pour ceux qui se convertissent à lui !
+          - book: 1 P
+            ref: 1, 3-9
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: « Le Christ, vous l’aimez sans l’avoir vu ; en lui, vous mettez votre
+              foi, vous exultez d’une joie inexprimable »
+            content: |-
+              Béni soit Dieu, le Père de notre Seigneur Jésus Christ :
+              dans sa grande miséricorde,
+              il nous a fait renaître pour une vivante espérance
+              grâce à la résurrection de Jésus Christ d’entre les morts,
+              	pour un héritage qui ne connaîtra
+              ni corruption, ni souillure, ni flétrissure.
+              Cet héritage vous est réservé dans les cieux,
+              	à vous que la puissance de Dieu garde par la foi,
+              pour un salut prêt à se révéler dans les derniers temps.
+              	Aussi vous exultez de joie,
+              même s’il faut que vous soyez affligés,
+              pour un peu de temps encore, par toutes sortes d’épreuves ;
+              	elles vérifieront la valeur de votre foi
+              qui a bien plus de prix que l’or
+              – cet or voué à disparaître
+              et pourtant vérifié par le feu –,
+              afin que votre foi reçoive louange, gloire et honneur
+              quand se révélera Jésus Christ.
+              	Lui, vous l’aimez sans l’avoir vu ;
+              en lui, sans le voir encore, vous mettez votre foi,
+              vous exultez d’une joie inexprimable et remplie de gloire,
+              	car vous allez obtenir le salut des âmes
+              qui est l’aboutissement de votre foi.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 31 (32), 1-2, 5, 6, 7
+            refAbbr: 31, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 31, 11ab
+                chorus: |-
+                  Que le Seigneur soit votre joie !
+                  Exultez, hommes justes !
+            content: |-
+              Heureux l’homme dont la faute est enlevée,
+              et le péché remis !
+              Heureux l’homme dont le Seigneur ne retient pas l’offense,
+              dont l’esprit est sans fraude !
+
+              Je t’ai fait connaître ma faute,
+              je n’ai pas caché mes torts.
+              J’ai dit : « Je rendrai grâce au Seigneur
+              en confessant mes péchés. »
+
+              Et toi, tu as enlevé
+              l’offense de ma faute.
+              Ainsi chacun des tiens te priera
+              aux heures décisives ;
+              même les eaux qui débordent
+              ne peuvent l’atteindre.
+
+              Tu es un refuge pour moi,
+              mon abri dans la détresse ;
+              de chants de délivrance,
+              tu m’as entouré.
+          - book: Ps
+            ref: 110 (111), 1-2, 5-6, 9.10c
+            refAbbr: 110, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 110,5b
+                chorus: Le Seigneur garde toujours mémoire de son alliance.
+              - chorus: Alléluia !
+            content: |-
+              De tout cœur je rendrai grâce au Seigneur
+              dans l’assemblée, parmi les justes.
+              Grandes sont les œuvres du Seigneur ;
+              tous ceux qui les aiment s’en instruisent.
+
+              Il a donné des vivres à ses fidèles,
+              gardant toujours mémoire de son alliance.
+              Il a montré sa force à son peuple,
+              lui donnant le domaine des nations.
+
+              Il apporte la délivrance à son peuple ;
+              son alliance est promulguée pour toujours :
+              saint et redoutable est son nom.
+              À jamais se maintiendra sa louange.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: 2 Co
+            ref: 8, 9
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Jésus Christ s’est fait pauvre, lui qui était riche,
+              pour que vous deveniez riches par sa pauvreté.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mc
+            ref: 10, 17-27
+            headline: « Va, vends ce que tu as. Puis viens, suis-moi »
+            content: |-
+              En ce temps-là,
+              Jésus se mettait en route
+              quand un homme accourut
+              et, tombant à ses genoux, lui demanda :
+              « Bon Maître, que dois-je faire
+              pour avoir la vie éternelle en héritage ? »
+              Jésus lui dit :
+              « Pourquoi dire que je suis bon ?
+              Personne n’est bon, sinon Dieu seul.
+              Tu connais les commandements :
+              _Ne commets pas de meurtre,
+              ne commets pas d’adultère,
+              ne commets pas de vol,
+              ne porte pas de faux témoignage,
+              ne fais de tort à personne,
+              honore ton père et ta mère. »_
+              L’homme répondit :
+              « Maître, tout cela, je l’ai observé
+              depuis ma jeunesse. »
+              Jésus posa son regard sur lui,
+              et il l’aima.
+              Il lui dit :
+              « Une seule chose te manque :
+              va, vends ce que tu as
+              et donne-le aux pauvres ;
+              alors tu auras un trésor au ciel.
+              Puis viens, suis-moi. »
+              Mais lui, à ces mots, devint sombre
+              et s’en alla tout triste,
+              car il avait de grands biens.
+
+              Alors Jésus regarda autour de lui
+              et dit à ses disciples :
+              « Comme il sera difficile
+              à ceux qui possèdent des richesses
+              d’entrer dans le royaume de Dieu ! »
+              Les disciples étaient stupéfaits de ces paroles.
+              Jésus reprenant la parole leur dit :
+              « Mes enfants, comme il est difficile
+              d’entrer dans le royaume de Dieu !
+              Il est plus facile à un chameau
+              de passer par le trou d’une aiguille
+              qu’à un riche
+              d’entrer dans le royaume de Dieu. »
+              De plus en plus déconcertés,
+              les disciples se demandaient entre eux :
+              « Mais alors, qui peut être sauvé ? »
+              Jésus les regarde et dit :
+              « Pour les hommes, c’est impossible,
+              mais pas pour Dieu ;
+              car tout est possible à Dieu. »

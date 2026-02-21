@@ -1,0 +1,112 @@
+id: martin_of_tours_bishop
+title: Saint Martin
+context: 11 novembre
+note: Commun des pasteurs, ou des saints (pour les religieux).
+subTitle: évêque
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Is
+            ref: 61, 1-3a
+            headline: « Le Seigneur m’a consacré par l’onction. Il m’a envoyé annoncer la
+              bonne nouvelle aux pauvres »
+            content: |-
+              L’esprit du Seigneur Dieu est sur moi
+              	parce que le Seigneur m’a consacré par l’onction.
+              Il m’a envoyé annoncer la bonne nouvelle aux humbles,
+              	guérir ceux qui ont le cœur brisé,
+              proclamer aux captifs leur délivrance,
+              	aux prisonniers leur libération,
+              proclamer une année de bienfaits accordée par le Seigneur,
+              	et un jour de vengeance pour notre Dieu,
+              consoler tous ceux qui sont en deuil,
+              	ceux qui sont en deuil dans Sion,
+              mettre le diadème sur leur tête au lieu de la cendre,
+              	l’huile de joie au lieu du deuil,
+              	un habit de fête au lieu d’un esprit abattu.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 88 (89), 2-3, 4-5, 21-22, 25.27
+            refAbbr: 88, 2…
+            chorus:
+              - chorusRef: 88, 2a
+                chorus: |-
+                  Ton amour, Seigneur,
+                  sans fin je le chante !
+            content: |-
+              L’amour du Seigneur, sans fin je le chante ;
+              ta fidélité, je l’annonce d’âge en âge.
+              Je le dis : C’est un amour bâti pour toujours ;
+              ta fidélité est plus stable que les cieux.
+
+              « Avec mon élu, j’ai fait une alliance,
+              j’ai juré à David, mon serviteur :
+              J’établirai ta dynastie pour toujours,
+              je te bâtis un trône pour la suite des âges. »
+
+              « J’ai trouvé David, mon serviteur,
+              je l’ai sacré avec mon huile sainte ;
+              et ma main sera pour toujours avec lui,
+              mon bras fortifiera son courage.
+
+              « Mon amour et ma fidélité sont avec lui,
+              mon nom accroît sa vigueur ;
+              « Il me dira : ‘Tu es mon Père,
+              mon Dieu, mon roc et mon salut !’
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 13, 34
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Je vous donne un commandement nouveau,
+              dit le Seigneur :
+              « Aimez-vous les uns les autres,
+              comme je vous ai aimés. »
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 25, 31-40
+            headline: « J’étais nu, et vous m’avez habillé »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              	« Quand le Fils de l’homme viendra dans sa gloire,
+              et tous les anges avec lui,
+              alors il siégera sur son trône de gloire.
+              	Toutes les nations seront rassemblées devant lui ;
+              il séparera les hommes les uns des autres,
+              comme le berger sépare les brebis des boucs :
+              	il placera les brebis à sa droite, et les boucs à gauche.
+
+              Alors le Roi dira à ceux qui seront à sa droite :
+              ‘Venez, les bénis de mon Père,
+              recevez en héritage le Royaume
+              préparé pour vous depuis la fondation du monde.
+              	Car j’avais faim, et vous m’avez donné à manger ;
+              j’avais soif, et vous m’avez donné à boire ;
+              j’étais un étranger, et vous m’avez accueilli ;
+              	j’étais nu, et vous m’avez habillé ;
+              j’étais malade, et vous m’avez visité ;
+              j’étais en prison, et vous êtes venus jusqu’à moi !’
+              	Alors les justes lui répondront :
+              ‘Seigneur, quand est-ce que nous t’avons vu… ?
+              tu avais donc faim, et nous t’avons nourri ?
+              tu avais soif, et nous t’avons donné à boire ?
+              	tu étais un étranger, et nous t’avons accueilli ?
+              tu étais nu, et nous t’avons habillé ?
+              	tu étais malade ou en prison…
+              Quand sommes-nous venus jusqu’à toi ?’
+              	Et le Roi leur répondra :
+              ‘Amen, je vous le dis :
+              chaque fois que vous l’avez fait
+              à l’un de ces plus petits de mes frères,
+              c’est à moi que vous l’avez fait.’ »

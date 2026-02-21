@@ -1,0 +1,41 @@
+id: agnes_of_rome_virgin
+title: Sainte Agnès
+context: 21 janvier
+note: Commun des martyrs, ou des vierges.
+subTitle: vierge et martyre
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: 1 Co
+            ref: 1, 26-31
+            headline: « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 22 (23), 1-2ab, 2c-3, 4, 5, 6
+            refAbbr: 22, 1…6
+            chorus:
+              - chorusRef: 22, 1
+                chorus: |-
+                  Le Seigneur est mon berger :
+                  rien ne saurait me manquer.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 15, 96.56
+            content: |-
+              Demeurez dans mon amour, dit le Seigneur.
+              Celui qui demeure en moi et en qui je demeure,
+              celui-là porte beaucoup de fruit.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 13, 44-46
+            headline: « Il va vendre tout ce qu’il possède, et il achète ce champ »

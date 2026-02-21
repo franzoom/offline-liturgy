@@ -1,0 +1,101 @@
+id: clare_of_assisi_virgin
+title: Sainte Claire
+context: 11 août
+note: Commun des vierges, ou des saintes (pour les religieux).
+subTitle: vierge
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ph
+            ref: 3, 8-14
+            headline: « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut
+              dans le Christ Jésus »
+            content: |-
+              Frères,
+              tous les avantages que j’avais autrefois,
+              	je les considère comme une perte
+              à cause de ce bien qui dépasse tout :
+              la connaissance du Christ Jésus, mon Seigneur.
+              À cause de lui, j’ai tout perdu ;
+              je considère tout comme des ordures,
+              afin de gagner un seul avantage, le Christ,
+              	et, en lui, d’être reconnu juste,
+              non pas de la justice venant de la loi de Moïse
+              mais de celle qui vient de la foi au Christ,
+              la justice venant de Dieu, qui est fondée sur la foi.
+              	Il s’agit pour moi de connaître le Christ,
+              d’éprouver la puissance de sa résurrection
+              et de communier aux souffrances de sa Passion,
+              en devenant semblable à lui dans sa mort,
+              	avec l’espoir de parvenir
+              à la résurrection d’entre les morts.
+              	Certes, je n’ai pas encore obtenu cela,
+              je n’ai pas encore atteint la perfection,
+              mais je poursuis ma course pour tâcher de saisir,
+              puisque j’ai moi-même été saisi par le Christ Jésus.
+              	Frères, quant à moi, je ne pense pas avoir déjà saisi cela.
+              Une seule chose compte :
+              oubliant ce qui est en arrière, et lancé vers l’avant,
+              	je cours vers le but en vue du prix
+              auquel Dieu nous appelle là-haut dans le Christ Jésus.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 15 (16), 1-2, 7-8, 5a.11
+            refAbbr: 15, 1…
+            chorus:
+              - chorusRef: 15, 5a
+                chorus: Seigneur, mon partage et ma coupe !
+            content: |-
+              Garde-moi, mon Dieu :
+              j’ai fait de toi mon refuge.
+              J’ai dit au Seigneur : « Tu es mon Dieu !
+              Je n’ai pas d’autre bonheur que toi. »
+
+              Je bénis le Seigneur qui me conseille :
+              même la nuit mon cœur m’avertit.
+              Je garde le Seigneur devant moi sans relâche ;
+              il est à ma droite : je suis inébranlable.
+
+              Seigneur, mon partage et ma coupe !
+              Tu m’apprends le chemin de la vie :
+              devant ta face, débordement de joie !
+              À ta droite, éternité de délices !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 5, 3
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Heureux les pauvres de cœur,
+              car le royaume des Cieux est à eux !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 19, 27-29
+            headline: « Vous qui m’avez suivi, vous recevrez le centuple »
+            content: |-
+              En ce temps-là,
+              Pierre prit la parole et dit à Jésus :
+              	« Voici que nous avons tout quitté pour te suivre :
+              	quelle sera donc notre part ? »
+              Jésus leur déclara :
+              	« Amen, je vous le dis :
+              	lors du renouvellement du monde,
+              		lorsque le Fils de l’homme siégera sur son trône de gloire,
+              	vous qui m’avez suivi,
+              	vous siégerez vous aussi sur douze trônes
+              		pour juger les douze tribus d’Israël.
+              	Et celui qui aura quitté, à cause de mon nom,
+              		des maisons, des frères, des sœurs,
+              		un père, une mère, des enfants,
+              		ou une terre,
+              	recevra le centuple,
+              		et il aura en héritage la vie éternelle. »

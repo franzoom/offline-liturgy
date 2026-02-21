@@ -1,0 +1,43 @@
+id: boniface_of_mainz_bishop
+title: Saint Boniface
+context: 5 juin
+note: Commun des martyrs, ou des pasteurs (pour les missionnaires).
+subTitle: évêque et martyr
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ac
+            ref: 26, 19-23
+            headline: « Le Christ devait annoncer la lumière à notre peuple et aux nations »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 116 (117), 1, 2
+            refAbbr: '116'
+            chorus:
+              - chorusBook: Mc
+                chorusRef: 16, 15
+                chorus: |-
+                  Allez dans le monde entier.
+                  Proclamez l’Évangile.
+              - chorus: Alléluia !
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Jn
+            ref: 10, 14
+            content: |-
+              Je suis le bon pasteur, dit le Seigneur ;
+              je connais mes brebis
+              et mes brebis me connaissent.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Jn
+            ref: 10, 11-16
+            headline: « Le bon pasteur donne sa vie pour ses brebis »

@@ -1,0 +1,41 @@
+id: alphonsus_mary_liguori_bishop
+title: Saint Alphonse-Marie de Liguori
+context: 1 août
+note: Commun des pasteurs, ou des docteurs de l’Église.
+subTitle: évêque et docteur de l’Église
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Rm
+            ref: 8, 1-4
+            headline: |-
+              « La loi de l’Esprit qui donne la vie dans le Christ Jésus
+              t’a libéré de la loi du péché et de la mort »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 118 (119), 9-10, 11-12, 13-14
+            refAbbr: 118, 9…14
+            chorus:
+              - chorusRef: 118, 12b
+                chorus: Apprends-moi, Seigneur, tes commandements.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mt
+            ref: 5, 16
+            content: |-
+              Que votre lumière brille devant les hommes :
+              alors, voyant ce que vous faites de bien,
+              ils rendront gloire à votre Père.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 5, 13-19
+            headline: « Vous êtes la lumière du monde »

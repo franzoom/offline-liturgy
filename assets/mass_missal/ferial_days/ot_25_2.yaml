@@ -1,0 +1,166 @@
+id: ordinary_time_25_tuesday
+title: Mardi
+context: Vingt-cinquième semaine du Temps ordinaire
+commons:
+  - COMMON_OF_THE_25TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Esd
+            ref: 6, 7-8.12b.14-20
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            headline: « Ils achevèrent la construction de la maison de Dieu et les rapatriés
+              célébrèrent la Pâque »
+            content: |-
+              En ces jours-là,
+              le roi de Perse, Darius, écrivit aux autorités
+              de la province située à l’ouest de l’Euphrate :
+              	« Laissez le gouverneur de Juda et les anciens des Juifs
+              travailler à cette maison de Dieu :
+              ils doivent la rebâtir sur son emplacement.
+              	Voici mes ordres concernant votre ligne de conduite
+              envers les anciens des Juifs
+              pour la reconstruction de cette maison de Dieu :
+              les dépenses de ces gens leur seront remboursées,
+              exactement et sans interruption,
+              sur les fonds royaux, c’est-à-dire sur l’impôt de la province.
+              	Moi, Darius, j’ai donné cet ordre.
+              Qu’il soit strictement exécuté ! »
+
+              Les anciens des Juifs continuèrent avec succès
+              les travaux de construction,
+              encouragés par la parole des prophètes Aggée et Zacharie le fils d’Iddo.
+              Ils achevèrent la construction
+              conformément à l’ordre du Dieu d’Israël,
+              selon les décrets de Cyrus et de Darius.
+              	La maison de Dieu fut achevée le troisième jour du mois nommé Adar,
+              dans la sixième année du règne de Darius.
+              	Les fils d’Israël, les prêtres, les lévites et le reste des rapatriés
+              célébrèrent dans la joie la dédicace de cette maison de Dieu.
+              	Ils immolèrent, pour cette dédicace,
+              cent taureaux, deux cents béliers, quatre cents agneaux
+              et, en sacrifice pour le péché de tout Israël,
+              douze boucs, d’après le nombre des tribus d’Israël.
+              	Puis ils installèrent les prêtres selon leurs classes,
+              et les lévites selon leurs groupes,
+              pour le service de Dieu à Jérusalem,
+              suivant les prescriptions du livre de Moïse.
+              	Les rapatriés célébrèrent la Pâque
+              le quatorzième jour du premier mois.
+              	Tous les prêtres et tous les lévites, sans exception, s’étaient purifiés :
+              tous étaient purs.
+              Ils immolèrent donc la Pâque pour tous les rapatriés,
+              pour leurs frères les prêtres, et pour eux-mêmes.
+          - book: Pr
+            ref: 21, 1-6.10-13
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            headline: Maximes diverses pour une vie droite
+            content: |-
+              Le Seigneur dispose du cœur du roi
+              comme d’un canal d’irrigation,
+              il le dirige où il veut.
+              	La conduite d’un homme est toujours droite à ses yeux,
+              mais c’est le Seigneur qui pèse les cœurs.
+              	Accomplir la justice et le droit
+              plaît au Seigneur plus que le sacrifice.
+              	Regarder de haut, se rengorger :
+              ainsi brillent les méchants, mais ce n’est que péché.
+              	Les plans de l’homme actif lui assurent du profit ;
+              mais la précipitation conduit à l’indigence.
+              	Une fortune acquise par le mensonge :
+              illusion fugitive de qui cherche la mort.
+              	Le méchant ne désire que le mal ;
+              il n’a pas un regard de pitié pour son prochain.
+              	Quand on punit l’insolent, l’étourdi devient sage ;
+              le sage, il suffit de le raisonner pour qu’il comprenne.
+              	Le juste considère le clan du méchant :
+              le méchant pervertit les autres pour leur malheur.
+              	Qui fait la sourde oreille à la clameur des faibles
+              criera lui-même sans obtenir de réponse.
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 121 (122), 1-2, 3-4ab, 4cd-5
+            refAbbr: 121, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_1
+            chorus:
+              - chorusRef: 121, 1
+                chorus: |-
+                  Dans la joie, nous irons
+                  à la maison du Seigneur.
+            content: |-
+              Quelle joie quand on m’a dit :
+              « Nous irons à la maison du Seigneur ! »
+              Maintenant notre marche prend fin
+              devant tes portes, Jérusalem !
+
+              Jérusalem, te voici dans tes murs :
+              ville où tout ensemble ne fait qu’un !
+              C’est là que montent les tribus,
+              les tribus du Seigneur.
+
+              C’est là qu’Israël doit rendre grâce
+              au nom du Seigneur.
+              C’est là le siège du droit,
+              le siège de la maison de David.
+          - book: Ps
+            ref: 118 (119), 1.27, 30.34, 35.44
+            refAbbr: 118, 1…
+            toWeekdayCyclesOnly:
+              - YEAR_2
+            chorus:
+              - chorusRef: 118, 35a
+                chorus: |-
+                  Guide-moi, Seigneur,
+                  sur la voie de tes volontés.
+            content: |-
+              Heureux les hommes intègres dans leurs voies
+              qui marchent suivant la loi du Seigneur !
+              Montre-moi la voie de tes préceptes,
+              que je médite sur tes merveilles.
+
+              J’ai choisi la voie de la fidélité,
+              je m’ajuste à tes décisions.
+              Montre-moi comment garder ta loi,
+              que je l’observe de tout cœur.
+
+              Guide-moi sur la voie de tes volontés,
+              là, je me plais.
+              J’observerai sans relâche ta loi,
+              toujours et à jamais.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Lc
+            ref: 11, 28
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Heureux ceux qui écoutent la parole de Dieu,
+              et qui la gardent !
+
+      - partType: GOSPEL
+        partContents:
+          - book: Lc
+            ref: 8, 19-21
+            headline: « Ma mère et mes frères sont ceux qui écoutent la parole de Dieu, et
+              qui la mettent en pratique »
+            content: |-
+              En ce temps-là,
+              	la mère et les frères de Jésus vinrent le trouver,
+              mais ils ne pouvaient pas arriver jusqu’à lui
+              à cause de la foule.
+              	On le lui fit savoir :
+              « Ta mère et tes frères sont là dehors,
+              qui veulent te voir. »
+              	Il leur répondit :
+              « Ma mère et mes frères
+              sont ceux qui écoutent la parole de Dieu,
+              et qui la mettent en pratique. »

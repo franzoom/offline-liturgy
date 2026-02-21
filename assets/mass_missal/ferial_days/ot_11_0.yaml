@@ -1,0 +1,490 @@
+id: ordinary_time_11_sunday
+title: Onzième Dimanche
+commons:
+  - COMMON_OF_THE_11TH_WEEK_OF_ORDINARY_TIME
+liturgies:
+  - liturgyType: MASS
+    massType: DAY_MASS
+    name: Messe du jour
+    massParts:
+      - partType: READING_1
+        partContents:
+          - book: Ex
+            ref: 19, 2-6a
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Vous serez pour moi un royaume de prêtres, une nation sainte »
+            content: |-
+              En ces jours-là,
+              les fils d'Israël arrivèrent dans le désert du Sinaï,
+              et ils y établirent leur camp
+              juste en face de la montagne.
+              Moïse monta vers Dieu.
+              Le Seigneur l'appela du haut de la montagne :
+              « Tu diras à la maison de Jacob,
+              et tu annonceras aux fils d'Israël :
+              Vous avez vu ce que j'ai fait à l'Égypte,
+              comment je vous ai portés comme sur les ailes d'un aigle
+              et vous ai amenés jusqu’à moi.
+              Maintenant donc, si vous écoutez ma voix et gardez mon alliance,
+              vous serez mon domaine particulier parmi tous les peuples,
+              car toute la terre m'appartient ;
+              mais vous, vous serez pour moi un royaume de prêtres,
+              une nation sainte. »
+          - book: Ez
+            ref: 17, 22-24
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « Je relève l’arbre renversé »
+            content: |-
+              Ainsi parle le Seigneur Dieu :
+              « À la cime du grand cèdre,
+              je prendrai une tige ;
+              au sommet de sa ramure,
+              j’en cueillerai une toute jeune,
+              et je la planterai moi-même
+              sur une montagne très élevée.
+              Sur la haute montagne d’Israël
+              je la planterai.
+              Elle portera des rameaux, et produira du fruit,
+              elle deviendra un cèdre magnifique.
+              En dessous d’elle habiteront tous les passereaux
+              et toutes sortes d’oiseaux,
+              à l’ombre de ses branches ils habiteront.
+              Alors tous les arbres des champs sauront
+              que Je suis le Seigneur :
+              je renverse l’arbre élevé
+              et relève l’arbre renversé,
+              je fais sécher l’arbre vert
+              et reverdir l’arbre sec.
+              Je suis le Seigneur, j’ai parlé,
+              et je le ferai. »
+          - book: 2 S
+            ref: 12, 7-10.13
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: '« Le Seigneur a passé sur ton péché : tu ne mourras pas »'
+            content: |-
+              En ces jours-là,
+              après le péché de David,
+              le prophète Nathan lui dit :
+              « Ainsi parle le Seigneur Dieu d’Israël :
+              Je t’ai consacré comme roi d’Israël,
+              je t’ai délivré de la main de Saül,
+              puis je t’ai donné la maison de ton maître,
+              j’ai mis dans tes bras les femmes de ton maître ;
+              je t’ai donné la maison d’Israël et de Juda
+              et, si ce n’est pas assez,
+              j’ajouterai encore autant.
+              Pourquoi donc as-tu méprisé le Seigneur
+              en faisant ce qui est mal à ses yeux ?
+              Tu as frappé par l’épée Ourias le Hittite ;
+              sa femme, tu l’as prise pour femme ;
+              lui, tu l’as fait périr par l’épée des fils d’Ammone.
+              Désormais, l’épée ne s’écartera plus jamais de ta maison,
+              parce que tu m’as méprisé
+              et que tu as pris la femme d’Ourias le Hittite
+              pour qu’elle devienne ta femme. »
+              David dit à Nathan :
+              « J’ai péché contre le Seigneur ! »
+              Nathan lui répondit :
+              « Le Seigneur a passé sur ton péché,
+              tu ne mourras pas. »
+
+      - partType: PSALM
+        partContents:
+          - book: Ps
+            ref: 99 (100), 1-2, 3, 5
+            refAbbr: 99, 1…
+            toSundayCyclesOnly:
+              - YEAR_A
+            chorus:
+              - chorusRef: 99, 3bc
+                chorus: |-
+                  Il nous a faits, et nous sommes à lui,
+                  nous, son peuple, son troupeau.
+            content: |-
+              Acclamez le Seigneur, terre entière,
+              servez le Seigneur dans l'allégresse,
+              venez à lui avec des chants de joie !
+
+              Reconnaissez que le Seigneur est Dieu :
+              il nous a faits, et nous sommes à lui,
+              nous, son peuple, son troupeau.
+
+              Oui, le Seigneur est bon,
+              éternel est son amour,
+              sa fidélité demeure d'âge en âge.
+          - book: Ps
+            ref: 91 (92), 2-3, 13-14, 15-16
+            refAbbr: 91, 2…
+            toSundayCyclesOnly:
+              - YEAR_B
+            chorus:
+              - chorusRef: 91, 2a
+                chorus: Il est bon, Seigneur, de te rendre grâce !
+            content: |-
+              Qu’il est bon de rendre grâce au Seigneur,
+              de chanter pour ton nom, Dieu Très-Haut,
+              d’annoncer dès le matin ton amour,
+              ta fidélité, au long des nuits.
+
+              Le juste grandira comme un palmier,
+              il poussera comme un cèdre du Liban ;
+              planté dans les parvis du Seigneur,
+              il grandira dans la maison de notre Dieu.
+
+              Vieillissant, il fructifie encore,
+              il garde sa sève et sa verdeur
+              pour annoncer : « Le Seigneur est droit !
+              Pas de ruse en Dieu, mon rocher ! »
+          - book: Ps
+            ref: 31 (32), 1-2, 5abcd, 5ef.7, 10bc-11
+            refAbbr: 31, 1…
+            toSundayCyclesOnly:
+              - YEAR_C
+            chorus:
+              - chorusRef: 31, 5e
+                chorus: |-
+                  Enlève, Seigneur,
+                  l’offense de ma faute.
+            content: |-
+              Heureux l’homme dont la faute est enlevée,
+              et le péché remis !
+              Heureux l’homme dont le Seigneur ne retient pas l’offense,
+              dont l’esprit est sans fraude !
+
+              Je t’ai fait connaître ma faute,
+              je n’ai pas caché mes torts.
+              J’ai dit : « Je rendrai grâce au Seigneur
+              en confessant mes péchés. »
+
+              Et toi, tu as enlevé l’offense de ma faute.
+              Tu es un refuge pour moi,
+              mon abri dans la détresse,
+              de chants de délivrance, tu m’as entouré.
+
+              L’amour du Seigneur entourera
+              ceux qui comptent sur lui.
+              Que le Seigneur soit votre joie, hommes justes !
+              Hommes droits, chantez votre allégresse !
+
+      - partType: READING_2
+        partContents:
+          - book: Rm
+            ref: 5, 6-11
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Si nous avons été réconciliés par la mort du Fils, à plus forte
+              raison serons-nous sauvés en recevant sa vie »
+            content: |-
+              Frères,
+              alors que nous n'étions encore capables de rien,
+              le Christ, au temps fixé par Dieu,
+              est mort pour les impies que nous étions.
+              Accepter de mourir pour un homme juste,
+              c'est déjà difficile ;
+              peut-être quelqu'un s'exposerait-il à mourir pour un homme de bien.
+              Or, la preuve que Dieu nous aime,
+              c'est que le Christ est mort pour nous,
+              alors que nous étions encore pécheurs.
+              À plus forte raison, maintenant que le sang du Christ
+              nous a fait devenir des justes,
+              serons-nous sauvés par lui
+              de la colère de Dieu.
+              En effet, si nous avons été réconciliés avec Dieu
+              par la mort de son Fils
+              alors que nous étions ses ennemis,
+              à plus forte raison,
+              maintenant que nous sommes réconciliés,
+              serons-nous sauvés en ayant part à sa vie.
+              Bien plus, nous mettons notre fierté en Dieu,
+              par notre Seigneur Jésus Christ,
+              par qui, maintenant, nous avons reçu la réconciliation.
+          - book: 2 Co
+            ref: 5, 6-10
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « Que nous demeurions dans ce corps ou en dehors, notre ambition,
+              c’est de plaire au Seigneur »
+            content: |-
+              Frères,
+              nous gardons toujours confiance,
+              tout en sachant que nous demeurons loin du Seigneur,
+              tant que nous demeurons dans ce corps ;
+              en effet, nous cheminons dans la foi,
+              non dans la claire vision.
+              Oui, nous avons confiance,
+              et nous voudrions plutôt quitter la demeure de ce corps
+              pour demeurer près du Seigneur.
+              Mais de toute manière, que nous demeurions dans ce corps ou en dehors,
+              notre ambition, c’est de plaire au Seigneur.
+              Car il nous faudra tous apparaître à découvert
+              devant le tribunal du Christ,
+              pour que chacun soit rétribué selon ce qu’il a fait,
+              soit en bien soit en mal,
+
+              pendant qu’il était dans son corps.
+          - book: Ga
+            ref: 2, 16.19-21
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: « Je vis, mais ce n’est plus moi, c’est le Christ qui vit en moi »
+            content: |-
+              Frères,
+              nous avons reconnu
+              que ce n’est pas en pratiquant la loi de Moïse
+              que l’homme devient juste devant Dieu,
+              mais seulement par la foi en Jésus Christ ;
+              c’est pourquoi nous avons cru, nous aussi, au Christ Jésus
+              pour devenir des justes par la foi au Christ,
+              et non par la pratique de la Loi,
+              puisque, par la pratique de la Loi, personne ne deviendra juste.
+              Par la Loi, je suis mort à la Loi
+              afin de vivre pour Dieu ;
+              avec le Christ, je suis crucifié.
+              Je vis, mais ce n’est plus moi,
+              c’est le Christ qui vit en moi.
+              Ce que je vis aujourd’hui dans la chair,
+              je le vis dans la foi au Fils de Dieu
+              qui m’a aimé et s’est livré lui-même pour moi.
+              Il n’est pas question pour moi de rejeter la grâce de Dieu.
+              En effet, si c’était par la Loi qu’on devient juste,
+              alors le Christ serait mort pour rien.
+
+      - partType: ALLELUIA
+        partContents:
+          - book: Mc
+            ref: 1, 15
+            toSundayCyclesOnly:
+              - YEAR_A
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Le règne de Dieu est tout proche.
+              Convertissez-vous et croyez à l'Évangile.
+          - toSundayCyclesOnly:
+              - YEAR_B
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              La semence est la parole de Dieu ;
+              le semeur est le Christ ;
+              celui qui le trouve demeure pour toujours.
+          - book: Ps
+            ref: 129, 7
+            toSundayCyclesOnly:
+              - YEAR_C
+            acclamation: '' # Ajouté dynamiquement en fonction du temps liturgique
+            content: |-
+              Près du Seigneur est l’amour,
+              près de lui, abonde le rachat.
+
+      - partType: GOSPEL
+        partContents:
+          - book: Mt
+            ref: 9,36 - 10,8
+            toSundayCyclesOnly:
+              - YEAR_A
+            headline: « Jésus appela ses douze disciples et les envoya en mission »
+            content: |-
+              En ce temps-là,
+              voyant les foules, Jésus fut saisi de compassion envers elles
+              parce qu'elles étaient désemparées et abattues
+              comme des brebis sans berger.
+              Il dit alors à ses disciples :
+              « La moisson est abondante,
+              mais les ouvriers sont peu nombreux.
+              Priez donc le maître de la moisson
+              d'envoyer des ouvriers pour sa moisson. »
+              Alors Jésus appela ses douze disciples
+              et leur donna le pouvoir d'expulser les esprits impurs
+              et de guérir toute maladie et toute infirmité.
+
+              Voici les noms des douze Apôtres :
+              le premier, Simon, nommé Pierre ;
+              André son frère ;
+              Jacques, fils de Zébédée, et Jean son frère ;
+              Philippe et Barthélemy ;
+              Thomas et Matthieu le publicain ;
+              Jacques, fils d'Alphée, et Thaddée ;
+              Simon le Zélote
+              et Judas l'Iscariote, celui-là même qui le livra.
+              Ces douze, Jésus les envoya en mission
+              avec les instructions suivantes :
+              « Ne prenez pas le chemin qui mène vers les nations païennes
+              et n'entrez dans aucune ville des Samaritains.
+              Allez plutôt vers les brebis perdues de la maison d'Israël.
+              Sur votre route,
+              proclamez que le royaume des Cieux est tout proche.
+              Guérissez les malades, ressuscitez les morts,
+              purifiez les lépreux, expulsez les démons.
+              Vous avez reçu gratuitement :
+              donnez gratuitement. »
+          - book: Mc
+            ref: 4, 26-34
+            toSundayCyclesOnly:
+              - YEAR_B
+            headline: « C’est la plus petite de toutes les semences, mais quand elle
+              grandit, elle dépasse toutes les plantes potagères »
+            content: |-
+              En ce temps-là,
+              parlant à la foule, Jésus disait :
+              « Il en est du règne de Dieu
+              comme d’un homme qui jette en terre la semence :
+              nuit et jour,
+              qu’il dorme ou qu’il se lève,
+              la semence germe et grandit,
+              il ne sait comment.
+              D’elle-même, la terre produit d’abord l’herbe,
+              puis l’épi, enfin du blé plein l’épi.
+              Et dès que le blé est mûr,
+              il y met la faucille,
+              puisque le temps de la moisson est arrivé. »
+
+              Il disait encore :
+              « À quoi allons-nous comparer le règne de Dieu ?
+              Par quelle parabole pouvons-nous le représenter ?
+              Il est comme une graine de moutarde :
+              quand on la sème en terre,
+              elle est la plus petite de toutes les semences.
+              Mais quand on l’a semée,
+              elle grandit et dépasse toutes les plantes potagères ;
+              et elle étend de longues branches,
+              si bien que les oiseaux du ciel
+              peuvent faire leur nid à son ombre. »
+
+              Par de nombreuses paraboles semblables,
+              Jésus leur annonçait la Parole,
+              dans la mesure où ils étaient capables de l’entendre.
+              Il ne leur disait rien sans parabole,
+              mais il expliquait tout à ses disciples en particulier.
+          - book: Lc
+            ref: 7, 36 – 8, 3
+            toSundayCyclesOnly:
+              - YEAR_C
+            headline: « Ses nombreux péchés sont pardonnés, puisqu’elle a montré beaucoup
+              d’amour »
+            content: |-
+              En ce temps-là,
+              un pharisien avait invité Jésus à manger avec lui.
+              Jésus entra chez lui et prit place à table.
+              Survint une femme de la ville, une pécheresse.
+              Ayant appris que Jésus était attablé dans la maison du pharisien,
+              elle avait apporté un flacon d’albâtre contenant un parfum.
+              Tout en pleurs, elle se tenait derrière lui, près de ses pieds,
+              et elle se mit à mouiller de ses larmes les pieds de Jésus.
+              Elle les essuyait avec ses cheveux,
+              les couvrait de baisers
+              et répandait sur eux le parfum.
+
+              En voyant cela,
+              le pharisien qui avait invité Jésus se dit en lui-même :
+              « Si cet homme était prophète,
+              il saurait qui est cette femme qui le touche,
+              et ce qu’elle est : une pécheresse. »
+              Jésus, prenant la parole, lui dit :
+              « Simon, j’ai quelque chose à te dire.
+              – Parle, Maître. »
+              Jésus reprit :
+              « Un créancier avait deux débiteurs ;
+              le premier lui devait cinq cents pièces d’argent,
+              l’autre cinquante.
+              Comme ni l’un ni l’autre ne pouvait les lui rembourser,
+              il en fit grâce à tous deux.
+              Lequel des deux l’aimera davantage ? »
+              Simon répondit :
+              « Je suppose que c’est celui à qui on a fait grâce
+              de la plus grande dette.
+              – Tu as raison », lui dit Jésus.
+              Il se tourna vers la femme
+              et dit à Simon :
+              « Tu vois cette femme ?
+              Je suis entré dans ta maison,
+              et tu ne m’as pas versé de l’eau sur les pieds ;
+              elle, elle les a mouillés de ses larmes
+              et essuyés avec ses cheveux.
+              Tu ne m’as pas embrassé ;
+              elle, depuis qu’elle est entrée,
+              n’a pas cessé d’embrasser mes pieds.
+              Tu n’as pas fait d’onction sur ma tête ;
+              elle, elle a répandu du parfum sur mes pieds.
+              Voilà pourquoi je te le dis :
+              ses péchés, ses nombreux péchés, sont pardonnés,
+              puisqu’elle a montré beaucoup d’amour.
+              Mais celui à qui on pardonne peu
+              montre peu d’amour. »
+              Il dit alors à la femme :
+              « Tes péchés sont pardonnés. »
+              Les convives se mirent à dire en eux-mêmes :
+              « Qui est cet homme,
+              qui va jusqu’à pardonner les péchés ? »
+              Jésus dit alors à la femme :
+              « Ta foi t’a sauvée.
+              Va en paix ! »
+              Ensuite, il arriva que Jésus, passant à travers villes et villages,
+              proclamait et annonçait la Bonne Nouvelle du règne de Dieu.
+              Les Douze l’accompagnaient,
+              ainsi que des femmes qui avaient été guéries
+              de maladies et d’esprits mauvais :
+              Marie, appelée Madeleine,
+              de laquelle étaient sortis sept démons,
+              Jeanne, femme de Kouza, intendant d’Hérode,
+              Suzanne, et beaucoup d’autres,
+              qui les servaient en prenant sur leurs ressources.
+            shortReadingRef: 7, 36-50
+            shortReadingContent: |-
+              En ce temps-là,
+              un pharisien avait invité Jésus à manger avec lui.
+              Jésus entra chez lui et prit place à table.
+              Survint une femme de la ville, une pécheresse.
+              Ayant appris que Jésus était attablé dans la maison du pharisien,
+              elle avait apporté un flacon d’albâtre contenant un parfum.
+              Tout en pleurs, elle se tenait derrière lui, près de ses pieds,
+              et elle se mit à mouiller de ses larmes les pieds de Jésus.
+              Elle les essuyait avec ses cheveux,
+              les couvrait de baisers
+              et répandait sur eux le parfum.
+
+              En voyant cela,
+              le pharisien qui avait invité Jésus se dit en lui-même :
+              « Si cet homme était prophète,
+              il saurait qui est cette femme qui le touche,
+              et ce qu’elle est : une pécheresse. »
+              Jésus, prenant la parole, lui dit :
+              « Simon, j’ai quelque chose à te dire.
+              – Parle, Maître. »
+              Jésus reprit :
+              « Un créancier avait deux débiteurs ;
+              le premier lui devait cinq cents pièces d’argent,
+              l’autre cinquante.
+              Comme ni l’un ni l’autre ne pouvait les lui rembourser,
+              il en fit grâce à tous deux.
+              Lequel des deux l’aimera davantage ? »
+              Simon répondit :
+              « Je suppose que c’est celui à qui on a fait grâce
+              de la plus grande dette.
+              – Tu as raison », lui dit Jésus.
+              Il se tourna vers la femme
+              et dit à Simon :
+              « Tu vois cette femme ?
+              Je suis entré dans ta maison,
+              et tu ne m’as pas versé de l’eau sur les pieds ;
+              elle, elle les a mouillés de ses larmes
+              et essuyés avec ses cheveux.
+              Tu ne m’as pas embrassé ;
+              elle, depuis qu’elle est entrée,
+              n’a pas cessé d’embrasser mes pieds.
+              Tu n’as pas fait d’onction sur ma tête ;
+              elle, elle a répandu du parfum sur mes pieds.
+              Voilà pourquoi je te le dis :
+              ses péchés, ses nombreux péchés, sont pardonnés,
+              puisqu’elle a montré beaucoup d’amour.
+              Mais celui à qui on pardonne peu
+              montre peu d’amour. »
+              Il dit alors à la femme :
+              « Tes péchés sont pardonnés. »
+              Les convives se mirent à dire en eux-mêmes :
+              « Qui est cet homme,
+              qui va jusqu’à pardonner les péchés ? »
+              Jésus dit alors à la femme :
+              « Ta foi t’a sauvée.
+              Va en paix ! »

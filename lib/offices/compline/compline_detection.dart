@@ -10,6 +10,9 @@ String _detectCelebrationType(int precedence, String celebrationCode) {
   if (holyWeekCodes.contains(celebrationCode.toLowerCase())) {
     return celebrationCode.toLowerCase();
   }
+  // Ferial days (including Sundays of Lent, Advent, etc.) are never solemnities,
+  // even if their liturgical rank (precedence) is high.
+  if (ferialDayCheck(celebrationCode)) return 'normal';
   return (precedence <= 4) ? 'solemnity' : 'normal';
 }
 

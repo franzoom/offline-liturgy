@@ -153,17 +153,17 @@ class MassReadingPart {
 
 /// A single Mass (e.g. vigil mass, day mass).
 class Mass {
-  final String? massType;
-  final String? name;
-  final String? note;
-  final List<MassAntiphon>? entranceAntiphon;
-  final List<String>? collect;
-  final List<MassReadingPart>? readingParts;
-  final List<String>? offeringPrayer;
-  final List<String>? prefaceList;
-  final List<MassAntiphon>? communionAntiphon;
-  final List<String>? prayerAfterCommunion;
-  final List<String>? solemnBlessingList;
+  String? massType;
+  String? name;
+  String? note;
+  List<MassAntiphon>? entranceAntiphon;
+  List<String>? collect;
+  List<MassReadingPart>? readingParts;
+  List<String>? offeringPrayer;
+  List<String>? prefaceList;
+  List<MassAntiphon>? communionAntiphon;
+  List<String>? prayerAfterCommunion;
+  List<String>? solemnBlessingList;
 
   Mass({
     this.massType,
@@ -209,6 +209,43 @@ class Mass {
           ?.map((e) => e.toString())
           .toList(),
     );
+  }
+
+  /// Overlays this Mass instance with data from another instance.
+  /// Simple fields are replaced if the overlay provides them.
+  /// For readingParts, overlay entries replace matching partTypes in the base;
+  /// base parts with no matching overlay entry are preserved.
+  void overlayWith(Mass overlay) {
+    if (overlay.massType != null) massType = overlay.massType;
+    if (overlay.name != null) name = overlay.name;
+    if (overlay.note != null) note = overlay.note;
+    if (overlay.entranceAntiphon != null) entranceAntiphon = overlay.entranceAntiphon;
+    if (overlay.collect != null) collect = overlay.collect;
+
+    if (overlay.readingParts != null && overlay.readingParts!.isNotEmpty) {
+      if (readingParts != null && readingParts!.isNotEmpty) {
+        final Map<String, MassReadingPart> merged = {
+          for (final p in readingParts!) p.partType: p,
+        };
+        for (final part in overlay.readingParts!) {
+          merged[part.partType] = part;
+        }
+        readingParts = readingParts!.map((p) => merged[p.partType]!).toList();
+        for (final part in overlay.readingParts!) {
+          if (!readingParts!.any((p) => p.partType == part.partType)) {
+            readingParts!.add(part);
+          }
+        }
+      } else {
+        readingParts = overlay.readingParts;
+      }
+    }
+
+    if (overlay.offeringPrayer != null) offeringPrayer = overlay.offeringPrayer;
+    if (overlay.prefaceList != null) prefaceList = overlay.prefaceList;
+    if (overlay.communionAntiphon != null) communionAntiphon = overlay.communionAntiphon;
+    if (overlay.prayerAfterCommunion != null) prayerAfterCommunion = overlay.prayerAfterCommunion;
+    if (overlay.solemnBlessingList != null) solemnBlessingList = overlay.solemnBlessingList;
   }
 }
 

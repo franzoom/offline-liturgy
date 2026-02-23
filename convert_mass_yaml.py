@@ -22,6 +22,10 @@ from pathlib import Path
 
 # --- YAML output helpers ---
 
+class _LiteralStr(str):
+    """Marker subclass: always serialized as a YAML literal block (|-  or  |)."""
+
+
 def _literal_representer(dumper, data):
     """Output multiline strings as literal blocks (|-  or  |)."""
     if '\n' in data:
@@ -29,7 +33,22 @@ def _literal_representer(dumper, data):
     return dumper.represent_scalar('tag:yaml.org,2002:str', data)
 
 
+def _force_literal_representer(dumper, data):
+    """Always output as a literal block, even for single-line strings."""
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
+
+
 yaml.add_representer(str, _literal_representer)
+yaml.add_representer(_LiteralStr, _force_literal_representer)
+
+
+def _lit(value):
+    """Wrap a string value in _LiteralStr if not None.
+    Tabs are replaced by a single space so PyYAML can use literal block style.
+    """
+    if value is None:
+        return None
+    return _LiteralStr(value.replace('\t', ' '))
 
 
 # --- Conversion helpers ---
@@ -39,11 +58,17 @@ def _merge_book_ref(book, ref):
     return ' '.join(parts) if parts else None
 
 
+def _simplify_cycle(c):
+    """Strip YEAR_ prefix: YEAR_A -> A, YEAR_1 -> 1, etc."""
+    return c[5:] if isinstance(c, str) and c.startswith('YEAR_') else c
+
+
 def _get_cycles(content_item):
-    return (
+    raw = (
         content_item.get('toSundayCyclesOnly')
         or content_item.get('toWeekdayCyclesOnly')
     )
+    return [_simplify_cycle(c) for c in raw] if raw else None
 
 
 # --- Per-partType converters ---
@@ -58,7 +83,7 @@ def _convert_reading(c):
         result['sundayAndWeekCycles'] = cycles
     for key in ('headline', 'content', 'shortReadingRef', 'shortReadingContent'):
         if c.get(key) is not None:
-            result[key] = c[key]
+            result[key] = _lit(c[key])
     return result
 
 
@@ -75,7 +100,7 @@ def _convert_psalm(c):
     if c.get('chorus') is not None:
         result['chorus'] = c['chorus']
     if c.get('content') is not None:
-        result['content'] = c['content']
+        result['content'] = _lit(c['content'])
     return result
 
 
@@ -88,11 +113,11 @@ def _convert_gospel(c, alleluia_verse):
     if cycles:
         result['sundayAndWeekCycles'] = cycles
     if c.get('headline') is not None:
-        result['headline'] = c['headline']
+        result['headline'] = _lit(c['headline'])
     if alleluia_verse is not None:
-        result['acclamationAntiphon'] = alleluia_verse
+        result['acclamationAntiphon'] = _lit(alleluia_verse)
     if c.get('content') is not None:
-        result['content'] = c['content']
+        result['content'] = _lit(c['content'])
     return result
 
 
@@ -102,7 +127,7 @@ def _convert_antiphon(c):
     if bref:
         result['biblicalRef'] = bref
     if c.get('content') is not None:
-        result['content'] = c['content']
+        result['content'] = _lit(c['content'])
     return result
 
 
@@ -166,7 +191,7 @@ def _convert_mass(liturgy, alleluia_map):
             entrance_antiphon.extend(_convert_antiphon(c) for c in contents)
 
         elif part_type == 'COLLECT':
-            collect.extend(c['content'] for c in contents if c.get('content') is not None)
+            collect.extend(_lit(c['content']) for c in contents if c.get('content') is not None)
 
         elif part_type in ('READING_1', 'READING_2'):
             reading_parts.append({
@@ -198,7 +223,7 @@ def _convert_mass(liturgy, alleluia_map):
 
         elif part_type == 'PRAYER_OVER_THE_OFFERINGS':
             offering_prayer.extend(
-                c['content'] for c in contents if c.get('content') is not None
+                _lit(c['content']) for c in contents if c.get('content') is not None
             )
 
         elif part_type == 'PREFACE':
@@ -212,7 +237,7 @@ def _convert_mass(liturgy, alleluia_map):
         elif part_type == 'PRAYER_AFTER_COMMUNION':
             # note field is dropped
             prayer_after_communion.extend(
-                c['content'] for c in contents if c.get('content') is not None
+                _lit(c['content']) for c in contents if c.get('content') is not None
             )
 
     mass['entranceAntiphon'] = entrance_antiphon or None

@@ -251,7 +251,7 @@ class Mass {
 
 /// Container for all Mass types of a given liturgical day.
 class Masses {
-  final List<Mass>? masses;
+  List<Mass>? masses;
 
   Masses({this.masses});
 
@@ -263,4 +263,5 @@ class Masses {
           .toList(),
     );
   }
+
 }

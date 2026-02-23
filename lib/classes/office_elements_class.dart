@@ -218,7 +218,7 @@ class HourOffice {
 /// This class consolidates MorningDefinition, VespersDefinition, and ReadingsDefinition.
 class CelebrationContext {
   final String?
-      celebrationType; // e.g. morning, vespers1, vespers2, readings, ...
+      celebrationType; // e.g. morning, vespers1, vespers2, readings, mass...
   final String celebrationCode; // given by the liturgical calendar
   final String?
       celebrationTitle; // display title (from YAML title or ferial name)
@@ -237,6 +237,7 @@ class CelebrationContext {
   final String?
       celebrationDescription; // description of the celebration from YAML
   final Map<String, String> commonTitles; // code -> display title for commons
+  final String? massName; // name of the Mass (e.g. "Messe du jour"), mass only
 
   const CelebrationContext({
     this.celebrationType,
@@ -256,6 +257,7 @@ class CelebrationContext {
     this.liturgicalColor,
     this.celebrationDescription,
     this.commonTitles = const {},
+    this.massName,
   });
 
   /// Returns the first common from commonList.
@@ -292,6 +294,7 @@ class CelebrationContext {
     String? liturgicalColor,
     String? celebrationDescription,
     Map<String, String>? commonTitles,
+    String? massName,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -313,6 +316,7 @@ class CelebrationContext {
       celebrationDescription:
           celebrationDescription ?? this.celebrationDescription,
       commonTitles: commonTitles ?? this.commonTitles,
+      massName: massName ?? this.massName,
     );
   }
 }

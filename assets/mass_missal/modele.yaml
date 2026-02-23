@@ -1,3 +1,7 @@
+celebration:
+  title: 
+  subtitle: 
+
 mass:
   - massType: day_mass
     name: Messe du jour
@@ -29,9 +33,10 @@ mass:
                 Dieu, pour les siècles des siècles.
 
     readingParts:
-      - partType: READING_1
+      - partType: READING
         partContents:
           - biblicalRef: 
+            sundayAndWeekCycles: 
             headline: 
             content:
             shortReadingRef: 1,1.26-31a
@@ -40,15 +45,17 @@ mass:
       - partType: PSALM
         partContents:
           - biblicalRef: 
-            refAbbr: 
+            refAbbr:
+            sundayAndWeekCycles: 
             chorus:
               - chorusRef: 
                 chorus: 
             content: 
 
-      - partType: READING_2
+      - partType: READING
         partContents:
-          - biblicalRef: 
+          - biblicalRef:
+            sundayAndWeekCycles: 
             headline: 
             content:
             shortReadingRef: 1,1.26-31a
@@ -58,6 +65,7 @@ mass:
         partContents:
           - biblicalRef: 
             refAbbr: 
+            sundayAndWeekCycles: 
             chorus:
               - chorusRef: 
                 chorus: 
@@ -72,6 +80,7 @@ mass:
       - partType: EPISTLE
         partContents:
           - biblicalRef: 
+            sundayAndWeekCycles: 
             headline: 
             content:
             shortReadingRef: 1,1.26-31a
@@ -82,9 +91,11 @@ mass:
           - biblicalRef: 
             sundayAndWeekCycles: 
             headline: 
+            beforeAcclamationAntiphon:
             acclamationAntiphon: |-
               Voici qu’il vient avec puissance, notre Seigneur,
               pour éclairer les yeux de ses serviteurs
+            afterAcclamationAntiphon:
             content: 
 
     offeringPrayer :

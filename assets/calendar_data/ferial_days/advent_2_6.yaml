@@ -1,3 +1,7 @@
+celebration:
+  title: Samedi
+  subtitle: Deuxième semaine de l’Avent
+  description: null
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
@@ -129,3 +133,177 @@ middleOfDay:
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Si 48, 1-4.9-11
+      headline: |-
+        Élie doit revenir
+      content: |-
+        En ces jours-là,
+        le prophète Élie surgit comme un feu,
+         sa parole brûlait comme une torche.
+        Il fit venir la famine sur Israël,
+         et, dans son ardeur, les réduisit à un petit nombre.
+        Par la parole du Seigneur, il retint les eaux du ciel,
+         et à trois reprises il en fit descendre le feu.
+        Comme tu étais redoutable, Élie, dans tes prodiges !
+         Qui pourrait se glorifier d’être ton égal ?
+
+        Toi qui fus enlevé dans un tourbillon de feu
+         par un char aux coursiers de feu ;
+        toi qui fus préparé pour la fin des temps,
+         ainsi qu’il est écrit,
+         afin d’apaiser la colère avant qu’elle n’éclate,
+         afin de ramener le cœur des pères vers les fils
+         et de rétablir les tribus de Jacob…
+        heureux ceux qui te verront,
+         heureux ceux qui, dans l’amour, se seront endormis ;
+         nous aussi, nous posséderons la vraie vie.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 79 (80), 2ac.3bc, 15-16a, 18-19
+      refAbbr: 79, 2…
+      chorus:
+      - chorusRef: 79, 4
+        chorus: |-
+          Dieu, fais-nous revenir ;
+          que ton visage s’éclaire,
+          et nous serons sauvés !
+      content: |-
+        Berger d’Israël, écoute,
+        resplendis au-dessus des Kéroubim !
+        Réveille ta vaillance
+        et viens nous sauver.
+
+        Dieu de l’univers, reviens !
+        Du haut des cieux, regarde et vois :
+        visite cette vigne, protège-la,
+        celle qu’a plantée ta main puissante.
+
+        Que ta main soutienne ton protégé,
+        le fils de l’homme qui te doit sa force.
+        Jamais plus nous n’irons loin de toi :
+        fais-nous vivre et invoquer ton nom !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 17, 10-13
+      headline: |-
+        « Élie est déjà venu et ils ne l’ont pas reconnu »
+      acclamationAntiphon: |-
+        Préparez le chemin du Seigneur,
+        rendez droits ses sentiers :
+        tout être vivant verra le salut de Dieu.
+      content: |-
+        Descendant de la montagne,
+        les disciples interrogèrent Jésus :
+         « Pourquoi donc les scribes disent-ils
+         que le prophète Élie doit venir d’abord ? »
+        Jésus leur répondit :
+         « Élie va venir
+         pour remettre toute chose à sa place.
+         Mais, je vous le déclare :
+          Élie est déjà venu ;
+          au lieu de le reconnaître,
+          ils lui ont fait tout ce qu’ils ont voulu.
+         Et de même, le Fils de l’homme va souffrir par eux. »
+        Alors les disciples comprirent
+         qu’il leur parlait de Jean le Baptiste.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Si 48, 1-4.9-11
+      headline: |-
+        Élie doit revenir
+      content: |-
+        En ces jours-là,
+        le prophète Élie surgit comme un feu,
+         sa parole brûlait comme une torche.
+        Il fit venir la famine sur Israël,
+         et, dans son ardeur, les réduisit à un petit nombre.
+        Par la parole du Seigneur, il retint les eaux du ciel,
+         et à trois reprises il en fit descendre le feu.
+        Comme tu étais redoutable, Élie, dans tes prodiges !
+         Qui pourrait se glorifier d’être ton égal ?
+
+        Toi qui fus enlevé dans un tourbillon de feu
+         par un char aux coursiers de feu ;
+        toi qui fus préparé pour la fin des temps,
+         ainsi qu’il est écrit,
+         afin d’apaiser la colère avant qu’elle n’éclate,
+         afin de ramener le cœur des pères vers les fils
+         et de rétablir les tribus de Jacob…
+        heureux ceux qui te verront,
+         heureux ceux qui, dans l’amour, se seront endormis ;
+         nous aussi, nous posséderons la vraie vie.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 79 (80), 2ac.3bc, 15-16a, 18-19
+      refAbbr: 79, 2…
+      chorus:
+      - chorusRef: 79, 4
+        chorus: |-
+          Dieu, fais-nous revenir ;
+          que ton visage s’éclaire,
+          et nous serons sauvés !
+      content: |-
+        Berger d’Israël, écoute,
+        resplendis au-dessus des Kéroubim !
+        Réveille ta vaillance
+        et viens nous sauver.
+
+        Dieu de l’univers, reviens !
+        Du haut des cieux, regarde et vois :
+        visite cette vigne, protège-la,
+        celle qu’a plantée ta main puissante.
+
+        Que ta main soutienne ton protégé,
+        le fils de l’homme qui te doit sa force.
+        Jamais plus nous n’irons loin de toi :
+        fais-nous vivre et invoquer ton nom !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 17, 10-13
+      headline: |-
+        « Élie est déjà venu et ils ne l’ont pas reconnu »
+      acclamationAntiphon: |-
+        Préparez le chemin du Seigneur,
+        rendez droits ses sentiers :
+        tout être vivant verra le salut de Dieu.
+      content: |-
+        Descendant de la montagne,
+        les disciples interrogèrent Jésus :
+         « Pourquoi donc les scribes disent-ils
+         que le prophète Élie doit venir d’abord ? »
+        Jésus leur répondit :
+         « Élie va venir
+         pour remettre toute chose à sa place.
+         Mais, je vous le déclare :
+          Élie est déjà venu ;
+          au lieu de le reconnaître,
+          ils lui ont fait tout ce qu’ils ont voulu.
+         Et de même, le Fils de l’homme va souffrir par eux. »
+        Alors les disciples comprirent
+         qu’il leur parlait de Jean le Baptiste.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

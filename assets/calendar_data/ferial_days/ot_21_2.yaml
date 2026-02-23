@@ -1,3 +1,7 @@
+celebration:
+  title: Mardi
+  subtitle: Vingt et unième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - "Le Seigneur est notre roi : venez, adorons-le."
@@ -54,3 +58,301 @@ readings:
         Ouvre ton cœur au pauvre : c’est ton frère.
         Et quand le Fils de l’homme viendra, il te dira :
         J’avais faim et tu m’as donné à manger.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Th 2, 1-8
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies »
+      content: |-
+        Frères,
+        vous le savez bien vous-mêmes,
+        notre venue chez vous n’a pas été inutile.
+         Nous venions de souffrir et d’être outragés à Philippes,
+        comme vous le savez ;
+        nous avons cependant trouvé en notre Dieu pleine assurance
+        pour vous annoncer, au prix de grandes luttes,
+        l’Évangile de Dieu.
+         Et quand nous vous exhortions,
+        ce n’était pas avec des doctrines fausses,
+        ni des motifs impurs, ni par ruse.
+         En effet, pour nous confier l’Évangile,
+        Dieu a éprouvé notre valeur,
+        de sorte que nous parlons,
+        non pas pour plaire aux hommes, mais à Dieu,
+        lui qui met nos cœurs à l’épreuve.
+         Jamais, nous n’avons eu un mot de flatterie, vous le savez,
+        jamais de motifs intéressés, Dieu en est témoin ;
+         jamais nous n’avons recherché la gloire qui vient des hommes,
+        ni auprès de vous ni auprès d’autres personnes.
+         Alors que nous aurions pu nous imposer
+        en qualité d’apôtres du Christ,
+        au contraire, nous avons été pleins de douceur avec vous,
+        comme une mère qui entoure de soins ses nourrissons.
+         Ayant pour vous une telle affection,
+        nous aurions voulu vous donner non seulement l’Évangile de Dieu,
+        mais jusqu’à nos propres vies,
+        car vous nous étiez devenus très chers.
+    - biblicalRef: 2 Th 2, 1-3a.14-17
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Gardez ferme les traditions que nous vous avons enseignées »
+      content: |-
+        Frères, nous avons une demande à vous faire
+        à propos de la venue de notre Seigneur Jésus Christ
+        et de notre rassemblement auprès de lui :
+         si l’on nous attribue une inspiration, une parole ou une lettre
+        prétendant que le jour du Seigneur est arrivé,
+        n’allez pas aussitôt perdre la tête,
+        ne vous laissez pas effrayer.
+         Ne laissez personne vous égarer d’aucune manière.
+        Dieu vous a appelés par notre proclamation de l’Évangile,
+        pour que vous entriez en possession
+        de la gloire de notre Seigneur Jésus Christ.
+         Ainsi donc, frères, tenez bon,
+        et gardez ferme les traditions
+        que nous vous avons enseignées,
+        soit de vive voix, soit par lettre.
+         Que notre Seigneur Jésus Christ lui-même,
+        et Dieu notre Père qui nous a aimés
+        et nous a pour toujours donné réconfort
+        et bonne espérance par sa grâce,
+         réconfortent vos cœurs
+        et les affermissent en tout ce que vous pouvez faire et dire de bien.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 138 (139), 1-2, 3-4, 5-6
+      refAbbr: 138, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 138, 1
+        chorus: Tu me scrutes, Seigneur, et tu sais !
+      content: |-
+        Tu me scrutes, Seigneur, et tu sais !
+        Tu sais quand je m’assois, quand je me lève ;
+        de très loin, tu pénètres mes pensées.
+
+        Que je marche ou me repose, tu le vois,
+        tous mes chemins te sont familiers.
+        Avant qu’un mot ne parvienne à mes lèvres,
+        déjà, Seigneur, tu le sais.
+
+        Tu me devances et me poursuis, tu m’enserres,
+        tu as mis la main sur moi.
+        Savoir prodigieux qui me dépasse,
+        hauteur que je ne puis atteindre !
+    - biblicalRef: Ps 95 (96), 10, 11-12a, 12b-13ab, 13bcd
+      refAbbr: 95, 10…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 95, 13
+        chorus: |-
+          Il vient, le Seigneur,
+          il vient pour juger la terre.
+      content: |-
+        Allez dire aux nations : « Le Seigneur est roi ! »
+        Le monde, inébranlable, tient bon.
+        Il gouverne les peuples avec droiture.
+
+        Joie au ciel ! Exulte la terre !
+        Les masses de la mer mugissent,
+        la campagne tout entière est en fête.
+
+        Les arbres des forêts dansent de joie
+        devant la face du Seigneur, car il vient,
+        car il vient pour juger la terre.
+
+        Le Seigneur vient pour juger la terre.
+        Il jugera le monde avec justice,
+        et les peuples selon sa vérité !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 23, 23-26
+      headline: |-
+        « Voilà ce qu’il fallait pratiquer sans négliger le reste »
+      acclamationAntiphon: |-
+        Elle est vivante, efficace, la parole de Dieu ;
+        elle juge des intentions et des pensées du cœur.
+      content: |-
+        En ce temps-là,
+        Jésus disait :
+         « Malheureux êtes-vous, scribes et pharisiens hypocrites,
+        parce que vous payez la dîme
+        sur la menthe, le fenouil et le cumin,
+        mais vous avez négligé ce qui est le plus important dans la Loi :
+        la justice, la miséricorde et la fidélité.
+        Voilà ce qu’il fallait pratiquer
+        sans négliger le reste.
+         Guides aveugles ! Vous filtrez le moucheron,
+        et vous avalez le chameau !
+
+        Malheureux êtes-vous, scribes et pharisiens hypocrites,
+        parce que vous purifiez l’extérieur de la coupe et de l’assiette,
+        mais l’intérieur est rempli de cupidité et d’intempérance !
+         Pharisien aveugle, purifie d’abord l’intérieur de la coupe,
+        afin que l’extérieur aussi devienne pur. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Th 2, 1-8
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies »
+      content: |-
+        Frères,
+        vous le savez bien vous-mêmes,
+        notre venue chez vous n’a pas été inutile.
+         Nous venions de souffrir et d’être outragés à Philippes,
+        comme vous le savez ;
+        nous avons cependant trouvé en notre Dieu pleine assurance
+        pour vous annoncer, au prix de grandes luttes,
+        l’Évangile de Dieu.
+         Et quand nous vous exhortions,
+        ce n’était pas avec des doctrines fausses,
+        ni des motifs impurs, ni par ruse.
+         En effet, pour nous confier l’Évangile,
+        Dieu a éprouvé notre valeur,
+        de sorte que nous parlons,
+        non pas pour plaire aux hommes, mais à Dieu,
+        lui qui met nos cœurs à l’épreuve.
+         Jamais, nous n’avons eu un mot de flatterie, vous le savez,
+        jamais de motifs intéressés, Dieu en est témoin ;
+         jamais nous n’avons recherché la gloire qui vient des hommes,
+        ni auprès de vous ni auprès d’autres personnes.
+         Alors que nous aurions pu nous imposer
+        en qualité d’apôtres du Christ,
+        au contraire, nous avons été pleins de douceur avec vous,
+        comme une mère qui entoure de soins ses nourrissons.
+         Ayant pour vous une telle affection,
+        nous aurions voulu vous donner non seulement l’Évangile de Dieu,
+        mais jusqu’à nos propres vies,
+        car vous nous étiez devenus très chers.
+    - biblicalRef: 2 Th 2, 1-3a.14-17
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Gardez ferme les traditions que nous vous avons enseignées »
+      content: |-
+        Frères, nous avons une demande à vous faire
+        à propos de la venue de notre Seigneur Jésus Christ
+        et de notre rassemblement auprès de lui :
+         si l’on nous attribue une inspiration, une parole ou une lettre
+        prétendant que le jour du Seigneur est arrivé,
+        n’allez pas aussitôt perdre la tête,
+        ne vous laissez pas effrayer.
+         Ne laissez personne vous égarer d’aucune manière.
+        Dieu vous a appelés par notre proclamation de l’Évangile,
+        pour que vous entriez en possession
+        de la gloire de notre Seigneur Jésus Christ.
+         Ainsi donc, frères, tenez bon,
+        et gardez ferme les traditions
+        que nous vous avons enseignées,
+        soit de vive voix, soit par lettre.
+         Que notre Seigneur Jésus Christ lui-même,
+        et Dieu notre Père qui nous a aimés
+        et nous a pour toujours donné réconfort
+        et bonne espérance par sa grâce,
+         réconfortent vos cœurs
+        et les affermissent en tout ce que vous pouvez faire et dire de bien.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 138 (139), 1-2, 3-4, 5-6
+      refAbbr: 138, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 138, 1
+        chorus: Tu me scrutes, Seigneur, et tu sais !
+      content: |-
+        Tu me scrutes, Seigneur, et tu sais !
+        Tu sais quand je m’assois, quand je me lève ;
+        de très loin, tu pénètres mes pensées.
+
+        Que je marche ou me repose, tu le vois,
+        tous mes chemins te sont familiers.
+        Avant qu’un mot ne parvienne à mes lèvres,
+        déjà, Seigneur, tu le sais.
+
+        Tu me devances et me poursuis, tu m’enserres,
+        tu as mis la main sur moi.
+        Savoir prodigieux qui me dépasse,
+        hauteur que je ne puis atteindre !
+    - biblicalRef: Ps 95 (96), 10, 11-12a, 12b-13ab, 13bcd
+      refAbbr: 95, 10…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 95, 13
+        chorus: |-
+          Il vient, le Seigneur,
+          il vient pour juger la terre.
+      content: |-
+        Allez dire aux nations : « Le Seigneur est roi ! »
+        Le monde, inébranlable, tient bon.
+        Il gouverne les peuples avec droiture.
+
+        Joie au ciel ! Exulte la terre !
+        Les masses de la mer mugissent,
+        la campagne tout entière est en fête.
+
+        Les arbres des forêts dansent de joie
+        devant la face du Seigneur, car il vient,
+        car il vient pour juger la terre.
+
+        Le Seigneur vient pour juger la terre.
+        Il jugera le monde avec justice,
+        et les peuples selon sa vérité !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 23, 23-26
+      headline: |-
+        « Voilà ce qu’il fallait pratiquer sans négliger le reste »
+      acclamationAntiphon: |-
+        Elle est vivante, efficace, la parole de Dieu ;
+        elle juge des intentions et des pensées du cœur.
+      content: |-
+        En ce temps-là,
+        Jésus disait :
+         « Malheureux êtes-vous, scribes et pharisiens hypocrites,
+        parce que vous payez la dîme
+        sur la menthe, le fenouil et le cumin,
+        mais vous avez négligé ce qui est le plus important dans la Loi :
+        la justice, la miséricorde et la fidélité.
+        Voilà ce qu’il fallait pratiquer
+        sans négliger le reste.
+         Guides aveugles ! Vous filtrez le moucheron,
+        et vous avalez le chameau !
+
+        Malheureux êtes-vous, scribes et pharisiens hypocrites,
+        parce que vous purifiez l’extérieur de la coupe et de l’assiette,
+        mais l’intérieur est rempli de cupidité et d’intempérance !
+         Pharisien aveugle, purifie d’abord l’intérieur de la coupe,
+        afin que l’extérieur aussi devienne pur. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

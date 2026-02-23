@@ -1,13 +1,13 @@
 celebration:
   title: Sainte Marie, Mère de Dieu
+  subtitle: |- 
+    1ᵉʳ janvier (Octave de la Nativité)
   description: |-
     Huit jours après la Nativité du Seigneur et Sauveur Jésus-Christ, nous célébrons sa Mère, celle qui lui a donné son être humain, corps et âme par l'Esprit-Saint qui vient sur elle la plaçant dans l'orbite de la paternité divine. C'est pourquoi le concile d'Ephèse en 431, la proclama la Theotokos, la Mère de Dieu, puisque son fils est Dieu, ce qui ne préjuge pas de la différence entre Marie créature humaine et Jésus Fils éternel de Dieu.
     En l’Octave de la Nativité du Seigneur et au jour de sa circoncision, solennité de sainte Marie Mère de Dieu. Au concile d’Ephèse, les Pères l’acclamèrent Théotokos, parce que, en elle, le Verbe prit chair et le Fils de Dieu habita parmi les hommes, lui, le prince de la paix, à qui a été donné le nom au dessus de tout nom.
-  commons:
-    - virgin-mary
+  commons: ['virgin-mary']
   precedence: 3
   color: white
-
 oration:
   - Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel ; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne.
 
@@ -221,3 +221,107 @@ vespers:
 
       Toi qui as choisi de naître à la lumière de ce monde,
       — donne à ceux qui meurent de naître à la lumière éternelle.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Nb 6, 22-27
+      headline: |-
+        « Ils invoqueront mon nom sur les fils d’Israël, et moi, je les bénirai »
+      content: |-
+        Le Seigneur parla à Moïse. Il dit :
+        « Parle à Aaron et à ses fils. Tu leur diras :
+        Voici en quels termes vous bénirez les fils d’Israël :
+        “Que le Seigneur te bénisse et te garde !
+        Que le Seigneur fasse briller sur toi son visage,
+        qu’il te prenne en grâce !
+        Que le Seigneur tourne vers toi son visage,
+        qu’il t’apporte la paix !”
+        Ils invoqueront ainsi mon nom sur les fils d’Israël,
+        et moi, je les bénirai. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 66 (67), 2b-3, 5abd, 7.8b
+      refAbbr: 66, 2…
+      chorus:
+      - chorusRef: 66, 2a
+        chorus: |-
+          Que Dieu nous prenne en grâce
+          et qu’il nous bénisse !
+      content: |-
+        Que Dieu nous prenne en grâce et nous bénisse,
+        que son visage s’illumine pour nous ;
+        et ton chemin sera connu sur la terre,
+        ton salut, parmi toutes les nations.
+
+        Que les nations chantent leur joie,
+        car tu gouvernes le monde avec justice ;
+        tu gouvernes les peuples avec droiture,
+        sur la terre, tu conduis les nations.
+
+        Que les peuples, Dieu, te rendent grâce ;
+        qu’ils te rendent grâce tous ensemble !
+        Que Dieu nous bénisse,
+        et que la terre tout entière l’adore !
+  - partType: READING
+    partContents:
+    - biblicalRef: Ga 4, 4-7
+      headline: |-
+        « Dieu a envoyé son Fils, né d’une femme »
+      content: |-
+        Frères,
+        lorsqu’est venue la plénitude des temps,
+        Dieu a envoyé son Fils,
+        né d’une femme
+        et soumis à la loi de Moïse,
+        afin de racheter ceux qui étaient soumis à la Loi
+        et pour que nous soyons adoptés comme fils.
+        Et voici la preuve que vous êtes des fils :
+        Dieu a envoyé l’Esprit de son Fils dans nos cœurs,
+        et cet Esprit crie
+        « _Abba !_ », c’est-à-dire : Père !
+        Ainsi tu n’es plus esclave, mais fils,
+        et puisque tu es fils, tu es aussi héritier :
+        c’est l’œuvre de Dieu.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 2, 16-21
+      headline: |-
+        « Ils découvrirent Marie et Joseph, avec le nouveau-né. Quand fut arrivé le huitième jour, l’enfant reçut le nom de Jésus »
+      acclamationAntiphon: |-
+        À bien des reprises, Dieu, dans le passé,
+        a parlé à nos pères par les prophètes ;
+        à la fin, en ces jours où nous sommes,
+        il nous a parlé par son Fils.
+      content: |-
+        En ce temps-là,
+        les bergers se hâtèrent d’aller à Bethléem,
+        et ils découvrirent Marie et Joseph,
+        avec le nouveau-né
+        couché dans la mangeoire.
+        Après avoir vu,
+        ils racontèrent ce qui leur avait été annoncé
+        au sujet de cet enfant.
+        Et tous ceux qui entendirent s’étonnaient
+        de ce que leur racontaient les bergers.
+        Marie, cependant, retenait tous ces événements
+        et les méditait dans son cœur.
+        Les bergers repartirent ;
+        ils glorifiaient et louaient Dieu
+        pour tout ce qu’ils avaient entendu et vu,
+        selon ce qui leur avait été annoncé.
+
+        Quand fut arrivé le huitième jour,
+        celui de la circoncision,
+        l’enfant reçut le nom de Jésus,
+        le nom que l’ange lui avait donné avant sa conception.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

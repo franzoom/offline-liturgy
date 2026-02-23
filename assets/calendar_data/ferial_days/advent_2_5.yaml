@@ -1,3 +1,7 @@
+celebration:
+  title: Vendredi
+  subtitle: Deuxième semaine de l’Avent
+  description: null
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
@@ -175,3 +179,169 @@ vespers:
 
       Reconnais ceux qui ont ici-bas écouté ta voix,
       — fais-les entrer dans la paix du ciel.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 48, 17-19
+      headline: |-
+        « Si tu avais prêté attention à mes commandements ! »
+      content: |-
+        Ainsi parle le Seigneur, ton rédempteur,
+         Saint d’Israël :
+        Je suis le Seigneur ton Dieu,
+         je te donne un enseignement utile,
+         je te guide sur le chemin où tu marches.
+        Si seulement tu avais prêté attention à mes commandements,
+         ta paix serait comme un fleuve,
+         ta justice, comme les flots de la mer.
+        Ta postérité serait comme le sable,
+         comme les grains de sable, ta descendance ;
+        son nom ne serait ni retranché
+         ni effacé devant moi.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 1…
+      chorus:
+      - chorusRef: 8, 12
+        chorus: |-
+          Qui marche à ta suite, Seigneur,
+          aura la lumière de la vie.
+      content: |-
+        Heureux est l’homme
+         qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+         planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+         balayée par le vent.
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 11, 16-19
+      headline: |-
+        Ils n’écoutent ni Jean ni le Fils de l’homme.
+      acclamationAntiphon: |-
+        Le Seigneur vient : allez à sa rencontre !
+        C’est lui le Prince de la paix.
+      content: |-
+        En ce temps-là,
+        Jésus déclarait aux foules :
+         « À qui vais-je comparer cette génération ?
+         Elle ressemble à des gamins assis sur les places,
+         qui en interpellent d’autres en disant :
+          “Nous vous avons joué de la flûte,
+          et vous n’avez pas dansé.
+          Nous avons chanté des lamentations,
+          et vous ne vous êtes pas frappé la poitrine.”
+         Jean est venu, en effet ; il ne mange pas, il ne boit pas,
+          et l’on dit : “C’est un possédé !”
+         Le Fils de l’homme est venu ; il mange et il boit,
+          et l’on dit : “Voilà un glouton et un ivrogne,
+          un ami des publicains et des pécheurs.”
+         Mais la sagesse de Dieu a été reconnue juste
+          à travers ce qu’elle fait. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 48, 17-19
+      headline: |-
+        « Si tu avais prêté attention à mes commandements ! »
+      content: |-
+        Ainsi parle le Seigneur, ton rédempteur,
+         Saint d’Israël :
+        Je suis le Seigneur ton Dieu,
+         je te donne un enseignement utile,
+         je te guide sur le chemin où tu marches.
+        Si seulement tu avais prêté attention à mes commandements,
+         ta paix serait comme un fleuve,
+         ta justice, comme les flots de la mer.
+        Ta postérité serait comme le sable,
+         comme les grains de sable, ta descendance ;
+        son nom ne serait ni retranché
+         ni effacé devant moi.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 1…
+      chorus:
+      - chorusRef: 8, 12
+        chorus: |-
+          Qui marche à ta suite, Seigneur,
+          aura la lumière de la vie.
+      content: |-
+        Heureux est l’homme
+         qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+         planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+         balayée par le vent.
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 11, 16-19
+      headline: |-
+        Ils n’écoutent ni Jean ni le Fils de l’homme.
+      acclamationAntiphon: |-
+        Le Seigneur vient : allez à sa rencontre !
+        C’est lui le Prince de la paix.
+      content: |-
+        En ce temps-là,
+        Jésus déclarait aux foules :
+         « À qui vais-je comparer cette génération ?
+         Elle ressemble à des gamins assis sur les places,
+         qui en interpellent d’autres en disant :
+          “Nous vous avons joué de la flûte,
+          et vous n’avez pas dansé.
+          Nous avons chanté des lamentations,
+          et vous ne vous êtes pas frappé la poitrine.”
+         Jean est venu, en effet ; il ne mange pas, il ne boit pas,
+          et l’on dit : “C’est un possédé !”
+         Le Fils de l’homme est venu ; il mange et il boit,
+          et l’on dit : “Voilà un glouton et un ivrogne,
+          un ami des publicains et des pécheurs.”
+         Mais la sagesse de Dieu a été reconnue juste
+          à travers ce qu’elle fait. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

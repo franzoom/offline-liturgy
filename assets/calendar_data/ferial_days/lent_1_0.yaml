@@ -1,6 +1,7 @@
 celebration:
   title: Premier dimanche de Carême
-  
+  subtitle: null
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -221,3 +222,921 @@ vespers:
 
       Pour les hommes qui sont morts,
       et qui attendent la vie promise,
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Gn 2, 7-9 ; 3, 1-7a
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        Création et péché de nos premiers parents
+      content: |-
+        Le Seigneur Dieu modela l’homme
+        avec la poussière tirée du sol ;
+        il insuffla dans ses narines le souffle de vie,
+        et l’homme devint un être vivant.
+         Le Seigneur Dieu planta un jardin en Éden, à l’orient,
+        et y plaça l’homme qu’il avait modelé.
+         Le Seigneur Dieu fit pousser du sol
+        toutes sortes d’arbres à l’aspect désirable et aux fruits savoureux ;
+        il y avait aussi l’arbre de vie au milieu du jardin,
+        et l’arbre de la connaissance du bien et du mal.
+         Or le serpent était le plus rusé de tous les animaux des champs
+        que le Seigneur Dieu avait faits.
+        Il dit à la femme :
+        « Alors, Dieu vous a vraiment dit :
+        ‘Vous ne mangerez d’aucun arbre du jardin’ ? »
+         La femme répondit au serpent :
+        « Nous mangeons les fruits des arbres du jardin.
+         Mais, pour le fruit de l’arbre qui est au milieu du jardin,
+        Dieu a dit :
+        ‘Vous n’en mangerez pas, vous n’y toucherez pas,
+        sinon vous mourrez.’ »
+         Le serpent dit à la femme :
+        « Pas du tout ! Vous ne mourrez pas !
+         Mais Dieu sait que, le jour où vous en mangerez,
+        vos yeux s’ouvriront,
+        et vous serez comme des dieux,
+        connaissant le bien et le mal. »
+         La femme s’aperçut que le fruit de l’arbre devait être savoureux,
+        qu’il était agréable à regarder
+        et qu’il était désirable, cet arbre, puisqu’il donnait l’intelligence.
+        Elle prit de son fruit, et en mangea.
+        Elle en donna aussi à son mari,
+        et il en mangea.
+         Alors leurs yeux à tous deux s’ouvrirent
+        et ils se rendirent compte qu’ils étaient nus.
+    - biblicalRef: Gn 9, 8-15
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        Alliance de Dieu avec Noé qui a échappé au déluge
+      content: |-
+        Dieu dit à Noé et à ses fils :
+        « Voici que moi, j’établis mon alliance avec vous,
+        avec votre descendance après vous,
+        et avec tous les êtres vivants qui sont avec vous :
+        les oiseaux, le bétail, toutes les bêtes de la terre,
+        tout ce qui est sorti de l’arche.
+        Oui, j’établis mon alliance avec vous :
+        aucun être de chair ne sera plus détruit par les eaux du déluge,
+        il n’y aura plus de déluge pour ravager la terre. »
+        Dieu dit encore :
+        « Voici le signe de l’alliance que j’établis entre moi et vous,
+        et avec tous les êtres vivants qui sont avec vous,
+        pour les générations à jamais :
+        je mets mon arc au milieu des nuages,
+        pour qu’il soit le signe de l’alliance entre moi et la terre.
+        Lorsque je rassemblerai les nuages au-dessus de la terre,
+        et que l’arc apparaîtra au milieu des nuages,
+        je me souviendrai de mon alliance qui est entre moi et vous,
+        et tous les êtres vivants :
+        les eaux ne se changeront plus en déluge
+        pour détruire tout être de chair. »
+    - biblicalRef: Dt 26, 4-10
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        La profession de foi du peuple élu
+      content: |-
+        Moïse disait au peuple :
+        Lorsque tu présenteras les prémices de tes récoltes,
+         le prêtre recevra de tes mains la corbeille
+        et la déposera devant l’autel du Seigneur ton Dieu.
+         Tu prononceras ces paroles devant le Seigneur ton Dieu :
+        « Mon père était un Araméen nomade,
+        qui descendit en Égypte :
+        il y vécut en immigré avec son petit clan.
+        C’est là qu’il est devenu une grande nation,
+        puissante et nombreuse.
+         Les Égyptiens nous ont maltraités, et réduits à la pauvreté ;
+        ils nous ont imposé un dur esclavage.
+         Nous avons crié vers le Seigneur, le Dieu de nos pères.
+        Il a entendu notre voix,
+        il a vu que nous étions dans la misère, la peine et l’oppression.
+         Le Seigneur nous a fait sortir d’Égypte
+        à main forte et à bras étendu,
+        par des actions terrifiantes, des signes et des prodiges.
+        Il nous a conduits dans ce lieu et nous a donné ce pays,
+        un pays ruisselant de lait et de miel.
+
+        Et maintenant voici que j’apporte les prémices
+        des fruits du sol que tu m’as donné, Seigneur. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 50 (51), 3-4, 5-6ab, 12-13, 14.17
+      refAbbr: 50, 3…
+      sundayAndWeekCycles:
+      - A
+      chorus:
+      - chorusRef: 50, 3
+        chorus: |-
+          Pitié, Seigneur,
+          car nous avons péché !
+      content: |-
+        Pitié pour moi, mon Dieu, dans ton amour,
+        selon ta grande miséricorde, efface mon péché.
+        Lave-moi tout entier de ma faute,
+        purifie-moi de mon offense.
+
+        Oui, je connais mon péché,
+        ma faute est toujours devant moi.
+        Contre toi, et toi seul, j’ai péché,
+        ce qui est mal à tes yeux, je l’ai fait.
+
+        Crée en moi un cœur pur, ô mon Dieu,
+        renouvelle et raffermis au fond de moi mon esprit.
+        Ne me chasse pas loin de ta face,
+        ne me reprends pas ton esprit saint.
+
+        Rends-moi la joie d’être sauvé ;
+        que l’esprit généreux me soutienne.
+        Seigneur, ouvre mes lèvres,
+        et ma bouche annoncera ta louange.
+    - biblicalRef: Ps 24 (25), 4-5ab, 6-7bc, 8-9
+      refAbbr: 24, 4…
+      sundayAndWeekCycles:
+      - B
+      chorus:
+      - chorusRef: 24, 10
+        chorus: |-
+          Tes chemins, Seigneur,
+          sont amour et vérité
+          pour qui garde ton alliance.
+      content: |-
+        Seigneur, enseigne-moi tes voies,
+        fais-moi connaître ta route.
+        Dirige-moi par ta vérité, enseigne-moi,
+        car tu es le Dieu qui me sauve.
+
+        Rappelle-toi, Seigneur, ta tendresse,
+        ton amour qui est de toujours.
+        Dans ton amour, ne m’oublie pas,
+        en raison de ta bonté, Seigneur.
+
+        Il est droit, il est bon, le Seigneur,
+        lui qui montre aux pécheurs le chemin.
+        Sa justice dirige les humbles,
+        il enseigne aux humbles son chemin.
+    - biblicalRef: Ps 90 (91), 1-2, 10-11, 12-13, 14-15ab
+      refAbbr: 90, 1…
+      sundayAndWeekCycles:
+      - C
+      chorus:
+      - chorusRef: 90, 15
+        chorus: |-
+          Sois avec moi, Seigneur,
+          dans mon épreuve.
+      content: |-
+        Quand je me tiens sous l’abri du Très-Haut
+        et repose à l’ombre du Puissant,
+        je dis au Seigneur : « Mon refuge,
+        mon rempart, mon Dieu, dont je suis sûr ! »
+
+        Le malheur ne pourra te toucher,
+        ni le danger, approcher de ta demeure :
+        il donne mission à ses anges
+        de te garder sur tous tes chemins.
+
+        Ils te porteront sur leurs mains
+        pour que ton pied ne heurte les pierres ;
+        tu marcheras sur la vipère et le scorpion,
+        tu écraseras le lion et le Dragon.
+
+        « Puisqu’il s’attache à moi, je le délivre ;
+        je le défends, car il connaît mon nom.
+        Il m’appelle, et moi, je lui réponds ;
+        je suis avec lui dans son épreuve. »
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 5, 12-19
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        « Là où le péché s’est multiplié, la grâce a surabondé »
+      content: |-
+        Frères,
+         nous savons que par un seul homme,
+        le péché est entré dans le monde,
+        et que par le péché est venue la mort ;
+        et ainsi, la mort est passée en tous les hommes,
+        étant donné que tous ont péché.
+
+        Avant la loi de Moïse, le péché était déjà dans le monde,
+        mais le péché ne peut être imputé à personne
+        tant qu’il n’y a pas de loi.
+         Pourtant, depuis Adam jusqu’à Moïse,
+        la mort a établi son règne,
+        même sur ceux qui n’avaient pas péché
+        par une transgression semblable à celle d’Adam.
+        Or, Adam préfigure celui qui devait venir.
+         Mais il n’en va pas du don gratuit comme de la faute.
+        En effet, si la mort a frappé la multitude
+        par la faute d’un seul,
+        combien plus la grâce de Dieu
+        s’est-elle répandue en abondance sur la multitude,
+        cette grâce qui est donnée en un seul homme, Jésus Christ.
+
+        Le don de Dieu et les conséquences du péché d’un seul
+        n’ont pas la même mesure non plus :
+        d’une part, en effet, pour la faute d’un seul,
+        le jugement a conduit à la condamnation ;
+        d’autre part, pour une multitude de fautes,
+        le don gratuit de Dieu conduit à la justification.
+         Si, en effet, à cause d’un seul homme,
+        par la faute d’un seul,
+        la mort a établi son règne,
+        combien plus, à cause de Jésus Christ et de lui seul,
+        régneront-ils dans la vie,
+        ceux qui reçoivent en abondance
+        le don de la grâce qui les rend justes.
+
+        Bref, de même que la faute commise par un seul
+        a conduit tous les hommes à la condamnation,
+        de même l’accomplissement de la justice par un seul
+        a conduit tous les hommes à la justification qui donne la vie.
+         En effet, de même que par la désobéissance d’un seul être humain
+        la multitude a été rendue pécheresse,
+        de même par l’obéissance d’un seul
+        la multitude sera-t-elle rendue juste.
+      shortReadingRef: |-
+        Rm 5, 12.17-19
+      shortReadingContent: |-
+        Frères,
+         nous savons que par un seul homme,
+        le péché est entré dans le monde,
+         et que par le péché est venue la mort ;
+        et ainsi, la mort est passée en tous les hommes,
+        étant donné que tous ont péché.
+         Si, en effet, à cause d’un seul homme,
+        par la faute d’un seul,
+        la mort a établi son règne,
+        combien plus, à cause de Jésus Christ et de lui seul,
+        régneront-ils dans la vie,
+        ceux qui reçoivent en abondance
+        le don de la grâce qui les rend justes.
+
+        Bref, de même que la faute commise par un seul
+        a conduit tous les hommes à la condamnation,
+        de même l’accomplissement de la justice par un seul
+        a conduit tous les hommes à la justification qui donne la vie.
+         En effet, de même que par la désobéissance d’un seul être humain
+        la multitude a été rendue pécheresse,
+        de même par l’obéissance d’un seul
+        la multitude sera-t-elle rendue juste.
+    - biblicalRef: 1 P 3, 18-22
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        Le baptême vous sauve maintenant
+      content: |-
+        Bien-aimés,
+        le Christ, lui aussi,
+        a souffert pour les péchés,
+        une seule fois,
+        lui, le juste, pour les injustes,
+        afin de vous introduire devant Dieu ;
+        il a été mis à mort dans la chair,
+        mais vivifié dans l’Esprit.
+        C’est en lui qu’il est parti proclamer son message
+        aux esprits qui étaient en captivité.
+        Ceux-ci, jadis, avaient refusé d’obéir,
+        au temps où se prolongeait la patience de Dieu,
+        quand Noé construisit l’arche,
+        dans laquelle un petit nombre, en tout huit personnes,
+        furent sauvées à travers l’eau.
+        C’était une figure du baptême
+        qui vous sauve maintenant :
+        le baptême ne purifie pas de souillures extérieures,
+        mais il est l’engagement envers Dieu d’une conscience droite
+        et il sauve par la résurrection de Jésus Christ,
+        lui qui est à la droite de Dieu,
+        après s’en être allé au ciel,
+        lui à qui sont soumis les anges,
+        ainsi que les Souverainetés et les Puissances.
+    - biblicalRef: Rm 10, 8-13
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        La profession de foi en Jésus Christ
+      content: |-
+        Frères,
+         que dit l’Écriture ?
+        _Tout près de toi est la Parole,
+        elle est dans ta bouche et dans ton cœur._
+        Cette Parole, c’est le message de la foi que nous proclamons.
+         En effet, si de ta bouche,
+        tu affirmes que Jésus est Seigneur,
+        si, dans ton cœur,
+        tu crois que Dieu l’a ressuscité d’entre les morts,
+        alors tu seras sauvé.
+         Car c’est avec le cœur que l’on croit
+        pour devenir juste,
+        c’est avec la bouche que l’on affirme sa foi
+        pour parvenir au salut.
+         En effet, l’Écriture dit :
+        _Quiconque met en lui sa foi ne connaîtra pas la honte._
+         Ainsi, entre les Juifs et les païens,
+        il n’y a pas de différence :
+        tous ont le même Seigneur,
+        généreux envers tous ceux qui l’invoquent.
+         En effet,
+        quiconque invoquera le nom du Seigneur sera sauvé.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 4, 1-11
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        Jésus jeûne quarante jours, puis est tenté
+      acclamationAntiphon: |-
+        L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu.
+      content: |-
+        En ce temps-là,
+         Jésus fut conduit au désert par l’Esprit
+        pour être tenté par le diable.
+         Après avoir jeûné quarante jours et quarante nuits,
+        il eut faim.
+         Le tentateur s’approcha et lui dit :
+        « Si tu es Fils de Dieu,
+        ordonne que ces pierres deviennent des pains. »
+         Mais Jésus répondit :
+        « Il est écrit :
+        _L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu_. »
+
+        Alors le diable l’emmène à la Ville sainte,
+        le place au sommet du Temple
+         et lui dit :
+        « Si tu es Fils de Dieu,
+        jette-toi en bas ;
+        car il est écrit :
+        _Il donnera pour toi des ordres à ses anges,_
+        et : _Ils te porteront sur leurs mains,
+        de peur que ton pied ne heurte une pierre._ »
+         Jésus lui déclara :
+        « Il est encore écrit :
+        _Tu ne mettras pas à l’épreuve le Seigneur ton Dieu_. »
+
+        Le diable l’emmène encore sur une très haute montagne
+        et lui montre tous les royaumes du monde et leur gloire.
+         Il lui dit :
+        « Tout cela, je te le donnerai,
+        si, tombant à mes pieds, tu te prosternes devant moi. »
+         Alors, Jésus lui dit :
+        « Arrière, Satan !
+        car il est écrit :
+        _C’est le Seigneur ton Dieu que tu adoreras,
+        à lui seul tu rendras un culte._ »
+
+        Alors le diable le quitte.
+        Et voici que des anges s’approchèrent,
+        et ils le servaient.
+    - biblicalRef: Mc 1, 12-15
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        « Jésus fut tenté par Satan, et les anges le servaient »
+      acclamationAntiphon: |-
+        L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu.
+      content: |-
+        Jésus venait d’être baptisé.
+        Aussitôt l’Esprit le pousse au désert
+        et, dans le désert,
+        il resta quarante jours,
+        tenté par Satan.
+        Il vivait parmi les bêtes sauvages,
+        et les anges le servaient.
+
+        Après l’arrestation de Jean,
+        Jésus partit pour la Galilée
+        proclamer l’Évangile de Dieu ;
+        il disait :
+        « Les temps sont accomplis :
+        le règne de Dieu est tout proche.
+        Convertissez-vous
+        et croyez à l’Évangile. »
+    - biblicalRef: Lc 4, 1-13
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        « Dans l’Esprit, il fut conduit à travers le désert où il fut tenté »
+      acclamationAntiphon: |-
+        L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu.
+      content: |-
+        En ce temps-là,
+        après son baptême,
+         Jésus, rempli d’Esprit Saint,
+        quitta les bords du Jourdain ;
+        dans l’Esprit, il fut conduit à travers le désert
+         où, pendant quarante jours, il fut tenté par le diable.
+        Il ne mangea rien durant ces jours-là,
+        et, quand ce temps fut écoulé, il eut faim.
+         Le diable lui dit alors :
+        « Si tu es Fils de Dieu,
+        ordonne à cette pierre de devenir du pain. »
+         Jésus répondit :
+        « Il est écrit :
+        _L’homme ne vit pas seulement de pain_. »
+
+        Alors le diable l’emmena plus haut
+        et lui montra en un instant tous les royaumes de la terre.
+         Il lui dit :
+        « Je te donnerai tout ce pouvoir
+        et la gloire de ces royaumes,
+        car cela m’a été remis et je le donne à qui je veux.
+         Toi donc, si tu te prosternes devant moi,
+        tu auras tout cela. »
+         Jésus lui répondit :
+        « Il est écrit :
+        _C’est devant le Seigneur ton Dieu que tu te prosterneras,
+        à lui seul tu rendras un culte._ »
+
+        Puis le diable le conduisit à Jérusalem,
+        il le plaça au sommet du Temple
+        et lui dit :
+        « Si tu es Fils de Dieu, d’ici jette-toi en bas ;
+         car il est écrit :
+        _Il donnera pour toi, à ses anges,
+        l’ordre de te garder_ ;
+         et encore :
+        _Ils te porteront sur leurs mains,
+        de peur que ton pied ne heurte une pierre._ »
+         Jésus lui fit cette réponse :
+        « Il est dit :
+        _Tu ne mettras pas à l’épreuve le Seigneur ton Dieu. »_
+         Ayant ainsi épuisé toutes les formes de tentations,
+        le diable s’éloigna de Jésus jusqu’au moment fixé.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Gn 2, 7-9 ; 3, 1-7a
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        Création et péché de nos premiers parents
+      content: |-
+        Le Seigneur Dieu modela l’homme
+        avec la poussière tirée du sol ;
+        il insuffla dans ses narines le souffle de vie,
+        et l’homme devint un être vivant.
+         Le Seigneur Dieu planta un jardin en Éden, à l’orient,
+        et y plaça l’homme qu’il avait modelé.
+         Le Seigneur Dieu fit pousser du sol
+        toutes sortes d’arbres à l’aspect désirable et aux fruits savoureux ;
+        il y avait aussi l’arbre de vie au milieu du jardin,
+        et l’arbre de la connaissance du bien et du mal.
+         Or le serpent était le plus rusé de tous les animaux des champs
+        que le Seigneur Dieu avait faits.
+        Il dit à la femme :
+        « Alors, Dieu vous a vraiment dit :
+        ‘Vous ne mangerez d’aucun arbre du jardin’ ? »
+         La femme répondit au serpent :
+        « Nous mangeons les fruits des arbres du jardin.
+         Mais, pour le fruit de l’arbre qui est au milieu du jardin,
+        Dieu a dit :
+        ‘Vous n’en mangerez pas, vous n’y toucherez pas,
+        sinon vous mourrez.’ »
+         Le serpent dit à la femme :
+        « Pas du tout ! Vous ne mourrez pas !
+         Mais Dieu sait que, le jour où vous en mangerez,
+        vos yeux s’ouvriront,
+        et vous serez comme des dieux,
+        connaissant le bien et le mal. »
+         La femme s’aperçut que le fruit de l’arbre devait être savoureux,
+        qu’il était agréable à regarder
+        et qu’il était désirable, cet arbre, puisqu’il donnait l’intelligence.
+        Elle prit de son fruit, et en mangea.
+        Elle en donna aussi à son mari,
+        et il en mangea.
+         Alors leurs yeux à tous deux s’ouvrirent
+        et ils se rendirent compte qu’ils étaient nus.
+    - biblicalRef: Gn 9, 8-15
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        Alliance de Dieu avec Noé qui a échappé au déluge
+      content: |-
+        Dieu dit à Noé et à ses fils :
+        « Voici que moi, j’établis mon alliance avec vous,
+        avec votre descendance après vous,
+        et avec tous les êtres vivants qui sont avec vous :
+        les oiseaux, le bétail, toutes les bêtes de la terre,
+        tout ce qui est sorti de l’arche.
+        Oui, j’établis mon alliance avec vous :
+        aucun être de chair ne sera plus détruit par les eaux du déluge,
+        il n’y aura plus de déluge pour ravager la terre. »
+        Dieu dit encore :
+        « Voici le signe de l’alliance que j’établis entre moi et vous,
+        et avec tous les êtres vivants qui sont avec vous,
+        pour les générations à jamais :
+        je mets mon arc au milieu des nuages,
+        pour qu’il soit le signe de l’alliance entre moi et la terre.
+        Lorsque je rassemblerai les nuages au-dessus de la terre,
+        et que l’arc apparaîtra au milieu des nuages,
+        je me souviendrai de mon alliance qui est entre moi et vous,
+        et tous les êtres vivants :
+        les eaux ne se changeront plus en déluge
+        pour détruire tout être de chair. »
+    - biblicalRef: Dt 26, 4-10
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        La profession de foi du peuple élu
+      content: |-
+        Moïse disait au peuple :
+        Lorsque tu présenteras les prémices de tes récoltes,
+         le prêtre recevra de tes mains la corbeille
+        et la déposera devant l’autel du Seigneur ton Dieu.
+         Tu prononceras ces paroles devant le Seigneur ton Dieu :
+        « Mon père était un Araméen nomade,
+        qui descendit en Égypte :
+        il y vécut en immigré avec son petit clan.
+        C’est là qu’il est devenu une grande nation,
+        puissante et nombreuse.
+         Les Égyptiens nous ont maltraités, et réduits à la pauvreté ;
+        ils nous ont imposé un dur esclavage.
+         Nous avons crié vers le Seigneur, le Dieu de nos pères.
+        Il a entendu notre voix,
+        il a vu que nous étions dans la misère, la peine et l’oppression.
+         Le Seigneur nous a fait sortir d’Égypte
+        à main forte et à bras étendu,
+        par des actions terrifiantes, des signes et des prodiges.
+        Il nous a conduits dans ce lieu et nous a donné ce pays,
+        un pays ruisselant de lait et de miel.
+
+        Et maintenant voici que j’apporte les prémices
+        des fruits du sol que tu m’as donné, Seigneur. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 50 (51), 3-4, 5-6ab, 12-13, 14.17
+      refAbbr: 50, 3…
+      sundayAndWeekCycles:
+      - A
+      chorus:
+      - chorusRef: 50, 3
+        chorus: |-
+          Pitié, Seigneur,
+          car nous avons péché !
+      content: |-
+        Pitié pour moi, mon Dieu, dans ton amour,
+        selon ta grande miséricorde, efface mon péché.
+        Lave-moi tout entier de ma faute,
+        purifie-moi de mon offense.
+
+        Oui, je connais mon péché,
+        ma faute est toujours devant moi.
+        Contre toi, et toi seul, j’ai péché,
+        ce qui est mal à tes yeux, je l’ai fait.
+
+        Crée en moi un cœur pur, ô mon Dieu,
+        renouvelle et raffermis au fond de moi mon esprit.
+        Ne me chasse pas loin de ta face,
+        ne me reprends pas ton esprit saint.
+
+        Rends-moi la joie d’être sauvé ;
+        que l’esprit généreux me soutienne.
+        Seigneur, ouvre mes lèvres,
+        et ma bouche annoncera ta louange.
+    - biblicalRef: Ps 24 (25), 4-5ab, 6-7bc, 8-9
+      refAbbr: 24, 4…
+      sundayAndWeekCycles:
+      - B
+      chorus:
+      - chorusRef: 24, 10
+        chorus: |-
+          Tes chemins, Seigneur,
+          sont amour et vérité
+          pour qui garde ton alliance.
+      content: |-
+        Seigneur, enseigne-moi tes voies,
+        fais-moi connaître ta route.
+        Dirige-moi par ta vérité, enseigne-moi,
+        car tu es le Dieu qui me sauve.
+
+        Rappelle-toi, Seigneur, ta tendresse,
+        ton amour qui est de toujours.
+        Dans ton amour, ne m’oublie pas,
+        en raison de ta bonté, Seigneur.
+
+        Il est droit, il est bon, le Seigneur,
+        lui qui montre aux pécheurs le chemin.
+        Sa justice dirige les humbles,
+        il enseigne aux humbles son chemin.
+    - biblicalRef: Ps 90 (91), 1-2, 10-11, 12-13, 14-15ab
+      refAbbr: 90, 1…
+      sundayAndWeekCycles:
+      - C
+      chorus:
+      - chorusRef: 90, 15
+        chorus: |-
+          Sois avec moi, Seigneur,
+          dans mon épreuve.
+      content: |-
+        Quand je me tiens sous l’abri du Très-Haut
+        et repose à l’ombre du Puissant,
+        je dis au Seigneur : « Mon refuge,
+        mon rempart, mon Dieu, dont je suis sûr ! »
+
+        Le malheur ne pourra te toucher,
+        ni le danger, approcher de ta demeure :
+        il donne mission à ses anges
+        de te garder sur tous tes chemins.
+
+        Ils te porteront sur leurs mains
+        pour que ton pied ne heurte les pierres ;
+        tu marcheras sur la vipère et le scorpion,
+        tu écraseras le lion et le Dragon.
+
+        « Puisqu’il s’attache à moi, je le délivre ;
+        je le défends, car il connaît mon nom.
+        Il m’appelle, et moi, je lui réponds ;
+        je suis avec lui dans son épreuve. »
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 5, 12-19
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        « Là où le péché s’est multiplié, la grâce a surabondé »
+      content: |-
+        Frères,
+         nous savons que par un seul homme,
+        le péché est entré dans le monde,
+        et que par le péché est venue la mort ;
+        et ainsi, la mort est passée en tous les hommes,
+        étant donné que tous ont péché.
+
+        Avant la loi de Moïse, le péché était déjà dans le monde,
+        mais le péché ne peut être imputé à personne
+        tant qu’il n’y a pas de loi.
+         Pourtant, depuis Adam jusqu’à Moïse,
+        la mort a établi son règne,
+        même sur ceux qui n’avaient pas péché
+        par une transgression semblable à celle d’Adam.
+        Or, Adam préfigure celui qui devait venir.
+         Mais il n’en va pas du don gratuit comme de la faute.
+        En effet, si la mort a frappé la multitude
+        par la faute d’un seul,
+        combien plus la grâce de Dieu
+        s’est-elle répandue en abondance sur la multitude,
+        cette grâce qui est donnée en un seul homme, Jésus Christ.
+
+        Le don de Dieu et les conséquences du péché d’un seul
+        n’ont pas la même mesure non plus :
+        d’une part, en effet, pour la faute d’un seul,
+        le jugement a conduit à la condamnation ;
+        d’autre part, pour une multitude de fautes,
+        le don gratuit de Dieu conduit à la justification.
+         Si, en effet, à cause d’un seul homme,
+        par la faute d’un seul,
+        la mort a établi son règne,
+        combien plus, à cause de Jésus Christ et de lui seul,
+        régneront-ils dans la vie,
+        ceux qui reçoivent en abondance
+        le don de la grâce qui les rend justes.
+
+        Bref, de même que la faute commise par un seul
+        a conduit tous les hommes à la condamnation,
+        de même l’accomplissement de la justice par un seul
+        a conduit tous les hommes à la justification qui donne la vie.
+         En effet, de même que par la désobéissance d’un seul être humain
+        la multitude a été rendue pécheresse,
+        de même par l’obéissance d’un seul
+        la multitude sera-t-elle rendue juste.
+      shortReadingRef: |-
+        Rm 5, 12.17-19
+      shortReadingContent: |-
+        Frères,
+         nous savons que par un seul homme,
+        le péché est entré dans le monde,
+         et que par le péché est venue la mort ;
+        et ainsi, la mort est passée en tous les hommes,
+        étant donné que tous ont péché.
+         Si, en effet, à cause d’un seul homme,
+        par la faute d’un seul,
+        la mort a établi son règne,
+        combien plus, à cause de Jésus Christ et de lui seul,
+        régneront-ils dans la vie,
+        ceux qui reçoivent en abondance
+        le don de la grâce qui les rend justes.
+
+        Bref, de même que la faute commise par un seul
+        a conduit tous les hommes à la condamnation,
+        de même l’accomplissement de la justice par un seul
+        a conduit tous les hommes à la justification qui donne la vie.
+         En effet, de même que par la désobéissance d’un seul être humain
+        la multitude a été rendue pécheresse,
+        de même par l’obéissance d’un seul
+        la multitude sera-t-elle rendue juste.
+    - biblicalRef: 1 P 3, 18-22
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        Le baptême vous sauve maintenant
+      content: |-
+        Bien-aimés,
+        le Christ, lui aussi,
+        a souffert pour les péchés,
+        une seule fois,
+        lui, le juste, pour les injustes,
+        afin de vous introduire devant Dieu ;
+        il a été mis à mort dans la chair,
+        mais vivifié dans l’Esprit.
+        C’est en lui qu’il est parti proclamer son message
+        aux esprits qui étaient en captivité.
+        Ceux-ci, jadis, avaient refusé d’obéir,
+        au temps où se prolongeait la patience de Dieu,
+        quand Noé construisit l’arche,
+        dans laquelle un petit nombre, en tout huit personnes,
+        furent sauvées à travers l’eau.
+        C’était une figure du baptême
+        qui vous sauve maintenant :
+        le baptême ne purifie pas de souillures extérieures,
+        mais il est l’engagement envers Dieu d’une conscience droite
+        et il sauve par la résurrection de Jésus Christ,
+        lui qui est à la droite de Dieu,
+        après s’en être allé au ciel,
+        lui à qui sont soumis les anges,
+        ainsi que les Souverainetés et les Puissances.
+    - biblicalRef: Rm 10, 8-13
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        La profession de foi en Jésus Christ
+      content: |-
+        Frères,
+         que dit l’Écriture ?
+        _Tout près de toi est la Parole,
+        elle est dans ta bouche et dans ton cœur._
+        Cette Parole, c’est le message de la foi que nous proclamons.
+         En effet, si de ta bouche,
+        tu affirmes que Jésus est Seigneur,
+        si, dans ton cœur,
+        tu crois que Dieu l’a ressuscité d’entre les morts,
+        alors tu seras sauvé.
+         Car c’est avec le cœur que l’on croit
+        pour devenir juste,
+        c’est avec la bouche que l’on affirme sa foi
+        pour parvenir au salut.
+         En effet, l’Écriture dit :
+        _Quiconque met en lui sa foi ne connaîtra pas la honte._
+         Ainsi, entre les Juifs et les païens,
+        il n’y a pas de différence :
+        tous ont le même Seigneur,
+        généreux envers tous ceux qui l’invoquent.
+         En effet,
+        quiconque invoquera le nom du Seigneur sera sauvé.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 4, 1-11
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        Jésus jeûne quarante jours, puis est tenté
+      acclamationAntiphon: |-
+        L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu.
+      content: |-
+        En ce temps-là,
+         Jésus fut conduit au désert par l’Esprit
+        pour être tenté par le diable.
+         Après avoir jeûné quarante jours et quarante nuits,
+        il eut faim.
+         Le tentateur s’approcha et lui dit :
+        « Si tu es Fils de Dieu,
+        ordonne que ces pierres deviennent des pains. »
+         Mais Jésus répondit :
+        « Il est écrit :
+        _L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu_. »
+
+        Alors le diable l’emmène à la Ville sainte,
+        le place au sommet du Temple
+         et lui dit :
+        « Si tu es Fils de Dieu,
+        jette-toi en bas ;
+        car il est écrit :
+        _Il donnera pour toi des ordres à ses anges,_
+        et : _Ils te porteront sur leurs mains,
+        de peur que ton pied ne heurte une pierre._ »
+         Jésus lui déclara :
+        « Il est encore écrit :
+        _Tu ne mettras pas à l’épreuve le Seigneur ton Dieu_. »
+
+        Le diable l’emmène encore sur une très haute montagne
+        et lui montre tous les royaumes du monde et leur gloire.
+         Il lui dit :
+        « Tout cela, je te le donnerai,
+        si, tombant à mes pieds, tu te prosternes devant moi. »
+         Alors, Jésus lui dit :
+        « Arrière, Satan !
+        car il est écrit :
+        _C’est le Seigneur ton Dieu que tu adoreras,
+        à lui seul tu rendras un culte._ »
+
+        Alors le diable le quitte.
+        Et voici que des anges s’approchèrent,
+        et ils le servaient.
+    - biblicalRef: Mc 1, 12-15
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        « Jésus fut tenté par Satan, et les anges le servaient »
+      acclamationAntiphon: |-
+        L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu.
+      content: |-
+        Jésus venait d’être baptisé.
+        Aussitôt l’Esprit le pousse au désert
+        et, dans le désert,
+        il resta quarante jours,
+        tenté par Satan.
+        Il vivait parmi les bêtes sauvages,
+        et les anges le servaient.
+
+        Après l’arrestation de Jean,
+        Jésus partit pour la Galilée
+        proclamer l’Évangile de Dieu ;
+        il disait :
+        « Les temps sont accomplis :
+        le règne de Dieu est tout proche.
+        Convertissez-vous
+        et croyez à l’Évangile. »
+    - biblicalRef: Lc 4, 1-13
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        « Dans l’Esprit, il fut conduit à travers le désert où il fut tenté »
+      acclamationAntiphon: |-
+        L’homme ne vit pas seulement de pain,
+        mais de toute parole qui sort de la bouche de Dieu.
+      content: |-
+        En ce temps-là,
+        après son baptême,
+         Jésus, rempli d’Esprit Saint,
+        quitta les bords du Jourdain ;
+        dans l’Esprit, il fut conduit à travers le désert
+         où, pendant quarante jours, il fut tenté par le diable.
+        Il ne mangea rien durant ces jours-là,
+        et, quand ce temps fut écoulé, il eut faim.
+         Le diable lui dit alors :
+        « Si tu es Fils de Dieu,
+        ordonne à cette pierre de devenir du pain. »
+         Jésus répondit :
+        « Il est écrit :
+        _L’homme ne vit pas seulement de pain_. »
+
+        Alors le diable l’emmena plus haut
+        et lui montra en un instant tous les royaumes de la terre.
+         Il lui dit :
+        « Je te donnerai tout ce pouvoir
+        et la gloire de ces royaumes,
+        car cela m’a été remis et je le donne à qui je veux.
+         Toi donc, si tu te prosternes devant moi,
+        tu auras tout cela. »
+         Jésus lui répondit :
+        « Il est écrit :
+        _C’est devant le Seigneur ton Dieu que tu te prosterneras,
+        à lui seul tu rendras un culte._ »
+
+        Puis le diable le conduisit à Jérusalem,
+        il le plaça au sommet du Temple
+        et lui dit :
+        « Si tu es Fils de Dieu, d’ici jette-toi en bas ;
+         car il est écrit :
+        _Il donnera pour toi, à ses anges,
+        l’ordre de te garder_ ;
+         et encore :
+        _Ils te porteront sur leurs mains,
+        de peur que ton pied ne heurte une pierre._ »
+         Jésus lui fit cette réponse :
+        « Il est dit :
+        _Tu ne mettras pas à l’épreuve le Seigneur ton Dieu. »_
+         Ayant ainsi épuisé toutes les formes de tentations,
+        le diable s’éloigna de Jésus jusqu’au moment fixé.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

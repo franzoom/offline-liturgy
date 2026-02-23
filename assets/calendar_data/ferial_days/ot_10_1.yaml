@@ -1,3 +1,7 @@
+celebration:
+  title: Lundi
+  subtitle: Dixième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
@@ -46,3 +50,343 @@ readings:
 
         Nous avons cru, nous aussi, au Christ Jésus,
         afin d’être justifié par la foi au Christ.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 1, 1-7
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Dieu nous réconforte ; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse »
+      content: |-
+        Paul, apôtre du Christ Jésus
+        par la volonté de Dieu,
+        et Timothée notre frère,
+        à l’Église de Dieu qui est à Corinthe
+        ainsi qu’à tous les fidèles
+        qui sont par toute la Grèce.
+        À vous, la grâce et la paix
+        de la part de Dieu notre Père
+        et du Seigneur Jésus Christ.
+
+        Béni soit Dieu, le Père de notre Seigneur Jésus Christ,
+        le Père plein de tendresse,
+        le Dieu de qui vient tout réconfort.
+        Dans toutes nos détresses, il nous réconforte ;
+        ainsi, nous pouvons réconforter
+        tous ceux qui sont dans la détresse,
+        grâce au réconfort que nous recevons nous-mêmes de Dieu.
+        En effet, de même que nous avons largement part aux souffrances du Christ,
+        de même, par le Christ, nous sommes largement réconfortés.
+        Quand nous sommes dans la détresse,
+        c’est pour que vous obteniez le réconfort et le salut ;
+        quand nous sommes réconfortés,
+        c’est encore pour que vous obteniez le réconfort,
+        et cela vous permet de supporter avec persévérance
+        les mêmes souffrances que nous.
+        En ce qui vous concerne, nous avons de solides raisons d’espérer,
+        car, nous le savons,
+        de même que vous avez part aux souffrances,
+        de même vous obtiendrez le réconfort.
+    - biblicalRef: 1 R 17, 1-6
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        Élie se tenait devant la face du Seigneur Dieu d’Israël
+      content: |-
+        En ces jours-là,
+         le prophète Élie, de Tishbé en Galaad, dit au roi Acab :
+        « Par le Seigneur qui est vivant,
+        par le Dieu d’Israël dont je suis le serviteur,
+        pendant plusieurs années il n’y aura pas de rosée ni de pluie,
+        à moins que j’en donne l’ordre. »
+         La parole du Seigneur lui fut adressée :
+         « Va-t’en d’ici, dirige-toi vers l’est,
+        et cache-toi près du torrent de Kérith,
+        qui se jette dans le Jourdain.
+         Tu boiras au torrent,
+        et j’ordonne aux corbeaux de t’apporter ta nourriture. »
+         Le prophète fit ce que le Seigneur lui avait dit,
+        et alla s’établir près du torrent de Kérith,
+        qui se jette dans le Jourdain.
+         Les corbeaux lui apportaient du pain et de la viande, matin et soir,
+        et le prophète buvait au torrent.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: 33, 2…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 33, 9a
+        chorus: |-
+          Goûtez et voyez
+          comme est bon le Seigneur !
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+    - biblicalRef: Ps 120 (121), 1-2, 3-4, 5-6, 7-8
+      refAbbr: 120, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 120, 2
+        chorus: |-
+          Le secours me viendra du Seigneur
+          qui a fait le ciel et la terre.
+      content: |-
+        Je lève les yeux vers les montagnes :
+        d’où le secours me viendra-t-il ?
+        Le secours me viendra du Seigneur
+        qui a fait le ciel et la terre.
+
+        Qu’il empêche ton pied de glisser,
+        qu’il ne dorme pas, ton gardien.
+        Non, il ne dort pas, ne sommeille pas,
+        le gardien d’Israël.
+
+        Le Seigneur, ton gardien, le Seigneur, ton ombrage,
+        se tient près de toi.
+        Le soleil, pendant le jour, ne pourra te frapper,
+        ni la lune, durant la nuit.
+
+        Le Seigneur te gardera de tout mal,
+        il gardera ta vie.
+        Le Seigneur te gardera, au départ et au retour,
+        maintenant, à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 1-12
+      headline: |-
+        « Heureux les pauvres de cœur »
+      acclamationAntiphon: |-
+        Réjouissez-vous, soyez dans l’allégresse,
+        car votre récompense est grande dans les cieux !
+      content: |-
+        En ce temps-là,
+        voyant les foules, Jésus gravit la montagne.
+        Il s’assit, et ses disciples s’approchèrent de lui.
+        Alors, ouvrant la bouche, il les enseignait.
+        Il disait :
+        « Heureux les pauvres de cœur,
+        car le royaume des Cieux est à eux.
+        Heureux ceux qui pleurent,
+        car ils seront consolés.
+        Heureux les doux,
+        car ils recevront la terre en héritage.
+        Heureux ceux qui ont faim et soif de la justice,
+        car ils seront rassasiés.
+        Heureux les miséricordieux,
+        car ils obtiendront miséricorde.
+        Heureux les cœurs purs,
+        car ils verront Dieu.
+        Heureux les artisans de paix,
+        car ils seront appelés fils de Dieu.
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux.
+        Heureux êtes-vous si l’on vous insulte,
+        si l’on vous persécute
+        et si l’on dit faussement toute sorte de mal contre vous,
+        à cause de moi.
+        Réjouissez- vous, soyez dans l’allégresse,
+        car votre récompense est grande dans les cieux !
+        C’est ainsi qu’on a persécuté
+        les prophètes qui vous ont précédés. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 1, 1-7
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Dieu nous réconforte ; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse »
+      content: |-
+        Paul, apôtre du Christ Jésus
+        par la volonté de Dieu,
+        et Timothée notre frère,
+        à l’Église de Dieu qui est à Corinthe
+        ainsi qu’à tous les fidèles
+        qui sont par toute la Grèce.
+        À vous, la grâce et la paix
+        de la part de Dieu notre Père
+        et du Seigneur Jésus Christ.
+
+        Béni soit Dieu, le Père de notre Seigneur Jésus Christ,
+        le Père plein de tendresse,
+        le Dieu de qui vient tout réconfort.
+        Dans toutes nos détresses, il nous réconforte ;
+        ainsi, nous pouvons réconforter
+        tous ceux qui sont dans la détresse,
+        grâce au réconfort que nous recevons nous-mêmes de Dieu.
+        En effet, de même que nous avons largement part aux souffrances du Christ,
+        de même, par le Christ, nous sommes largement réconfortés.
+        Quand nous sommes dans la détresse,
+        c’est pour que vous obteniez le réconfort et le salut ;
+        quand nous sommes réconfortés,
+        c’est encore pour que vous obteniez le réconfort,
+        et cela vous permet de supporter avec persévérance
+        les mêmes souffrances que nous.
+        En ce qui vous concerne, nous avons de solides raisons d’espérer,
+        car, nous le savons,
+        de même que vous avez part aux souffrances,
+        de même vous obtiendrez le réconfort.
+    - biblicalRef: 1 R 17, 1-6
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        Élie se tenait devant la face du Seigneur Dieu d’Israël
+      content: |-
+        En ces jours-là,
+         le prophète Élie, de Tishbé en Galaad, dit au roi Acab :
+        « Par le Seigneur qui est vivant,
+        par le Dieu d’Israël dont je suis le serviteur,
+        pendant plusieurs années il n’y aura pas de rosée ni de pluie,
+        à moins que j’en donne l’ordre. »
+         La parole du Seigneur lui fut adressée :
+         « Va-t’en d’ici, dirige-toi vers l’est,
+        et cache-toi près du torrent de Kérith,
+        qui se jette dans le Jourdain.
+         Tu boiras au torrent,
+        et j’ordonne aux corbeaux de t’apporter ta nourriture. »
+         Le prophète fit ce que le Seigneur lui avait dit,
+        et alla s’établir près du torrent de Kérith,
+        qui se jette dans le Jourdain.
+         Les corbeaux lui apportaient du pain et de la viande, matin et soir,
+        et le prophète buvait au torrent.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: 33, 2…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 33, 9a
+        chorus: |-
+          Goûtez et voyez
+          comme est bon le Seigneur !
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+    - biblicalRef: Ps 120 (121), 1-2, 3-4, 5-6, 7-8
+      refAbbr: 120, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 120, 2
+        chorus: |-
+          Le secours me viendra du Seigneur
+          qui a fait le ciel et la terre.
+      content: |-
+        Je lève les yeux vers les montagnes :
+        d’où le secours me viendra-t-il ?
+        Le secours me viendra du Seigneur
+        qui a fait le ciel et la terre.
+
+        Qu’il empêche ton pied de glisser,
+        qu’il ne dorme pas, ton gardien.
+        Non, il ne dort pas, ne sommeille pas,
+        le gardien d’Israël.
+
+        Le Seigneur, ton gardien, le Seigneur, ton ombrage,
+        se tient près de toi.
+        Le soleil, pendant le jour, ne pourra te frapper,
+        ni la lune, durant la nuit.
+
+        Le Seigneur te gardera de tout mal,
+        il gardera ta vie.
+        Le Seigneur te gardera, au départ et au retour,
+        maintenant, à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 1-12
+      headline: |-
+        « Heureux les pauvres de cœur »
+      acclamationAntiphon: |-
+        Réjouissez-vous, soyez dans l’allégresse,
+        car votre récompense est grande dans les cieux !
+      content: |-
+        En ce temps-là,
+        voyant les foules, Jésus gravit la montagne.
+        Il s’assit, et ses disciples s’approchèrent de lui.
+        Alors, ouvrant la bouche, il les enseignait.
+        Il disait :
+        « Heureux les pauvres de cœur,
+        car le royaume des Cieux est à eux.
+        Heureux ceux qui pleurent,
+        car ils seront consolés.
+        Heureux les doux,
+        car ils recevront la terre en héritage.
+        Heureux ceux qui ont faim et soif de la justice,
+        car ils seront rassasiés.
+        Heureux les miséricordieux,
+        car ils obtiendront miséricorde.
+        Heureux les cœurs purs,
+        car ils verront Dieu.
+        Heureux les artisans de paix,
+        car ils seront appelés fils de Dieu.
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux.
+        Heureux êtes-vous si l’on vous insulte,
+        si l’on vous persécute
+        et si l’on dit faussement toute sorte de mal contre vous,
+        à cause de moi.
+        Réjouissez- vous, soyez dans l’allégresse,
+        car votre récompense est grande dans les cieux !
+        C’est ainsi qu’on a persécuté
+        les prophètes qui vous ont précédés. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

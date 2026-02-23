@@ -1,3 +1,7 @@
+celebration:
+  title: Lundi
+  subtitle: Deuxième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -170,3 +174,187 @@ vespers:
 
       Achève en nos défunts ton œuvre de salut,
       reçois leur vie, Dieu créateur.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Dn 9, 4-10
+      headline: |-
+        « Nous avons péché, nous avons commis l’iniquité »
+      content: |-
+        Je fis au Seigneur mon Dieu cette prière et cette confession :
+        « Ah ! toi Seigneur, le Dieu grand et redoutable,
+        qui garde alliance et fidélité
+        à ceux qui l’aiment et qui observent ses commandements,
+        nous avons péché,
+        nous avons commis l’iniquité,
+        nous avons fait le mal,
+        nous avons été rebelles,
+        nous nous sommes détournés
+        de tes commandements et de tes ordonnances.
+        Nous n’avons pas écouté tes serviteurs les prophètes,
+        qui ont parlé en ton nom
+        à nos rois, à nos princes, à nos pères,
+        à tout le peuple du pays.
+        À toi, Seigneur, la justice ;
+        à nous la honte au visage,
+        comme on le voit aujourd’hui pour les gens de Juda,
+        pour les habitants de Jérusalem et de tout Israël,
+        pour ceux qui sont près et pour ceux qui sont loin,
+        dans tous les pays où tu les as chassés,
+        à cause des infidélités qu’ils ont commises envers toi.
+        Seigneur, à nous la honte au visage,
+        à nos rois, à nos princes, à nos pères,
+        parce que nous avons péché contre toi.
+        Au Seigneur notre Dieu, la miséricorde et le pardon,
+        car nous nous sommes révoltés contre lui,
+        nous n’avons pas écouté la voix du Seigneur, notre Dieu,
+        car nous n’avons pas suivi les lois
+        qu’il nous proposait par ses serviteurs les prophètes. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 78 (79), 5a.8, 9, 11.13ab
+      refAbbr: 78, 8…
+      chorus:
+      - chorusRef: 102, 10a
+        chorus: |-
+          Seigneur, ne nous traite pas
+          selon nos péchés.
+      content: |-
+        Combien de temps, Seigneur, durera ta colère ?
+        Ne retiens pas contre nous les péchés de nos ancêtres :
+        que nous vienne bientôt ta tendresse,
+        car nous sommes à bout de force !
+
+        Aide-nous, Dieu notre Sauveur,
+        pour la gloire de ton nom !
+        Délivre-nous, efface nos fautes,
+        pour la cause de ton nom !
+
+        Que monte en ta présence la plainte du captif !
+        Ton bras est fort : épargne ceux qui doivent mourir.
+        Et nous, ton peuple, le troupeau que tu conduis,
+        sans fin nous pourrons te rendre grâce.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 6, 36-38
+      headline: |-
+        « Pardonnez, et vous serez pardonnés »
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur,
+        sont esprit et elles sont vie.
+        Tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Soyez miséricordieux comme votre Père est miséricordieux.
+        Ne jugez pas, et vous ne serez pas jugés ;
+        ne condamnez pas, et vous ne serez pas condamnés.
+        Pardonnez, et vous serez pardonnés.
+        Donnez, et l’on vous donnera :
+        c’est une mesure bien pleine, tassée, secouée, débordante,
+        qui sera versée dans le pan de votre vêtement ;
+        car la mesure dont vous vous servez pour les autres
+        servira de mesure aussi pour vous. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Dn 9, 4-10
+      headline: |-
+        « Nous avons péché, nous avons commis l’iniquité »
+      content: |-
+        Je fis au Seigneur mon Dieu cette prière et cette confession :
+        « Ah ! toi Seigneur, le Dieu grand et redoutable,
+        qui garde alliance et fidélité
+        à ceux qui l’aiment et qui observent ses commandements,
+        nous avons péché,
+        nous avons commis l’iniquité,
+        nous avons fait le mal,
+        nous avons été rebelles,
+        nous nous sommes détournés
+        de tes commandements et de tes ordonnances.
+        Nous n’avons pas écouté tes serviteurs les prophètes,
+        qui ont parlé en ton nom
+        à nos rois, à nos princes, à nos pères,
+        à tout le peuple du pays.
+        À toi, Seigneur, la justice ;
+        à nous la honte au visage,
+        comme on le voit aujourd’hui pour les gens de Juda,
+        pour les habitants de Jérusalem et de tout Israël,
+        pour ceux qui sont près et pour ceux qui sont loin,
+        dans tous les pays où tu les as chassés,
+        à cause des infidélités qu’ils ont commises envers toi.
+        Seigneur, à nous la honte au visage,
+        à nos rois, à nos princes, à nos pères,
+        parce que nous avons péché contre toi.
+        Au Seigneur notre Dieu, la miséricorde et le pardon,
+        car nous nous sommes révoltés contre lui,
+        nous n’avons pas écouté la voix du Seigneur, notre Dieu,
+        car nous n’avons pas suivi les lois
+        qu’il nous proposait par ses serviteurs les prophètes. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 78 (79), 5a.8, 9, 11.13ab
+      refAbbr: 78, 8…
+      chorus:
+      - chorusRef: 102, 10a
+        chorus: |-
+          Seigneur, ne nous traite pas
+          selon nos péchés.
+      content: |-
+        Combien de temps, Seigneur, durera ta colère ?
+        Ne retiens pas contre nous les péchés de nos ancêtres :
+        que nous vienne bientôt ta tendresse,
+        car nous sommes à bout de force !
+
+        Aide-nous, Dieu notre Sauveur,
+        pour la gloire de ton nom !
+        Délivre-nous, efface nos fautes,
+        pour la cause de ton nom !
+
+        Que monte en ta présence la plainte du captif !
+        Ton bras est fort : épargne ceux qui doivent mourir.
+        Et nous, ton peuple, le troupeau que tu conduis,
+        sans fin nous pourrons te rendre grâce.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 6, 36-38
+      headline: |-
+        « Pardonnez, et vous serez pardonnés »
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur,
+        sont esprit et elles sont vie.
+        Tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Soyez miséricordieux comme votre Père est miséricordieux.
+        Ne jugez pas, et vous ne serez pas jugés ;
+        ne condamnez pas, et vous ne serez pas condamnés.
+        Pardonnez, et vous serez pardonnés.
+        Donnez, et l’on vous donnera :
+        c’est une mesure bien pleine, tassée, secouée, débordante,
+        qui sera versée dans le pan de votre vêtement ;
+        car la mesure dont vous vous servez pour les autres
+        servira de mesure aussi pour vous. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

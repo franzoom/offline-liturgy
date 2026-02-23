@@ -1,7 +1,8 @@
 celebration:
   title: 4 janvier (avant l’Épiphanie)
+  subtitle: null
+  description: null
   color: white
-
 oration:
   - "Dieu éternel et tout-puissant, une lumière nouvelle dans les cieux a fait connaître que le Sauveur venait racheter le monde ; nous t’en prions : que cette lumière du salut se lève chaque jour pour le renouveau de nos cœurs."
 
@@ -113,3 +114,100 @@ vespers:
       Pour que tes serviteurs défunts soient illuminés par la naissance de Jésus,
 
       Pour que notre joie soit parfaite.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Jn 3, 7-10
+      headline: |-
+        « Quiconque est né de Dieu ne commet pas de péché »
+      content: |-
+        Petits enfants, que nul ne vous égare :
+        celui qui pratique la justice
+        est juste comme lui, Jésus, est juste ;
+        celui qui commet le péché est du diable,
+        car, depuis le commencement, le diable est pécheur.
+        C’est pour détruire les œuvres du diable
+        que le Fils de Dieu s’est manifesté.
+        Quiconque est né de Dieu
+        ne commet pas de péché,
+        car ce qui a été semé par Dieu demeure en lui :
+        il ne peut donc pas pécher,
+        puisqu’il est né de Dieu.
+        Voici comment se manifestent les enfants de Dieu
+        et les enfants du diable :
+        quiconque ne pratique pas la justice
+        n’est pas de Dieu,
+        et pas davantage celui qui n’aime pas son frère.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 97 (98), 1, 7-8, 9
+      refAbbr: 97, 1…
+      chorus:
+      - chorusRef: 97, 3
+        chorus: |-
+          La terre tout entière a vu
+          le salut de notre Dieu.
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        car il a fait des merveilles ;
+        par son bras très saint, par sa main puissante,
+        il s’est assuré la victoire.
+
+        Que résonnent la mer et sa richesse,
+        le monde et tous ses habitants ;
+        que les fleuves battent des mains,
+        que les montagnes chantent leur joie.
+
+        Acclamez le Seigneur, car il vient
+        pour gouverner la terre,
+        pour gouverner le monde avec justice
+        et les peuples avec droiture !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 1, 35-42
+      headline: |-
+        « Nous avons trouvé le Messie »
+      acclamationAntiphon: |-
+        À bien des reprises, Dieu, dans le passé,
+        a parlé à nos pères par les prophètes ;
+        à la fin, en ces jours où nous sommes,
+        il nous a parlé par son Fils.
+      content: |-
+        En ce temps-là,
+        Jean le Baptiste se trouvait avec deux de ses disciples.
+        Posant son regard sur Jésus qui allait et venait, il dit :
+        « Voici l’Agneau de Dieu. »
+        Les deux disciples entendirent ce qu’il disait,
+        et ils suivirent Jésus.
+        Se retournant, Jésus vit qu’ils le suivaient,
+        et leur dit :
+        « Que cherchez-vous ? »
+        Ils lui répondirent :
+        « Rabbi – ce qui veut dire : Maître –,
+        où demeures-tu ? »
+        Il leur dit :
+        « Venez, et vous verrez. »
+        Ils allèrent donc,
+        ils virent où il demeurait,
+        et ils restèrent auprès de lui ce jour-là.
+        C’était vers la dixième heure, (environ quatre heures de l’après-midi).
+
+        André, le frère de Simon-Pierre, était l’un des deux disciples
+        qui avaient entendu la parole de Jean et qui avaient suivi Jésus.
+        Il trouve d’abord Simon, son propre frère, et lui dit :
+        « Nous avons trouvé le Messie » – ce qui veut dire : Christ.
+        André amena son frère à Jésus.
+        Jésus posa son regard sur lui et dit :
+        « Tu es Simon, fils de Jean ;
+        tu t’appelleras Kèphas » – ce qui veut dire : Pierre.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

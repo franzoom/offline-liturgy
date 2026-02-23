@@ -1,7 +1,8 @@
 celebration:
   title: 17 décembre
+  subtitle: Semaine avant Noël
+  description: FÉRIE MAJEURE : « Ô Sagesse sortie de la bouche du Très-Haut »
   color: violet
-
 oration:
   - "Dieu, créateur et rédempteur des hommes, tu as voulu que ton Verbe éternel prenne chair dans le sein de la Vierge ; sois favorable à notre prière : que ton Fils unique qui s’est fait l’un de nous, nous donne part à sa vie divine. Lui qui règne."
 
@@ -125,3 +126,131 @@ vespers:
 
       Toi qui es venu pour donner la vie,
       viens redonner vie à nos frères défunts.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Gn 49, 2.8-10
+      headline: |-
+        « Le sceptre royal n’échappera pas à Juda »
+      content: |-
+        En ces jours-là,
+        Jacob appela ses fils et dit :
+         « Assemblez-vous ! Je veux vous dévoiler
+          ce qui vous arrivera dans les temps à venir.
+         Rassemblez-vous, écoutez, fils de Jacob,
+          écoutez Israël, votre père.
+
+         Juda, à toi, tes frères rendront hommage,
+          ta main fera plier la nuque de tes ennemis
+          et les fils de ton père se prosterneront devant toi.
+         Juda est un jeune lion.
+          Tu remontes du carnage, mon fils.
+         Il s’est accroupi, il s’est couché comme un lion ;
+          ce fauve, qui le fera lever ?
+         Le sceptre royal n’échappera pas à Juda,
+          ni le bâton de commandement, à sa descendance,
+         jusqu’à ce que vienne celui à qui le pouvoir appartient,
+          à qui les peuples obéiront. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 71 (72), 1-2, 3-4, 7-8, 17
+      refAbbr: 71, 1…
+      chorus:
+      - chorusRef: 71, 7
+        chorus: |-
+          En ces jours-là fleurira la justice,
+          grande paix jusqu’à la fin des temps.
+      content: |-
+        Dieu, donne au roi tes pouvoirs,
+        à ce fils de roi ta justice.
+        Qu’il gouverne ton peuple avec justice,
+        qu’il fasse droit aux malheureux !
+
+        Montagnes, portez au peuple la paix,
+        collines, portez-lui la justice !
+        Qu’il fasse droit aux malheureux de son peuple,
+        qu’il sauve les pauvres gens, qu’il écrase l’oppresseur !
+
+        En ces jours-là, fleurira la justice,
+        grande paix jusqu’à la fin des lunes !
+        Qu’il domine de la mer à la mer,
+        et du Fleuve jusqu’au bout de la terre !
+
+        Que son nom dure toujours ;
+        sous le soleil, que subsiste son nom !
+        En lui, que soient bénies toutes les familles de la terre ;
+        que tous les pays le disent bienheureux !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 1, 1-17
+      headline: |-
+        « Jésus, fils de David, fils d’Abraham »
+      acclamationAntiphon: |-
+        Viens, sagesse du Très-Haut !
+        Toi qui régis l’univers avec force et douceur,
+        enseigne-nous le chemin de vérité.
+      content: |-
+        Généalogie de Jésus, Christ,
+         fils de David, fils d’Abraham.
+
+        Abraham engendra Isaac,
+        Isaac engendra Jacob,
+        Jacob engendra Juda et ses frères,
+        Juda, de son union avec Thamar, engendra Pharès et Zara,
+        Pharès engendra Esrom,
+        Esrom engendra Aram,
+        Aram engendra Aminadab,
+        Aminadab engendra Naassone,
+        Naassone engendra Salmone,
+        Salmone, de son union avec Rahab, engendra Booz,
+        Booz, de son union avec Ruth, engendra Jobed,
+        Jobed engendra Jessé,
+        Jessé engendra le roi David.
+
+        David, de son union avec la femme d’Ourias, engendra Salomon,
+        Salomon engendra Roboam,
+        Roboam engendra Abia,
+        Abia engendra Asa,
+        Asa engendra Josaphat,
+        Josaphat engendra Joram,
+        Joram engendra Ozias,
+        Ozias engendra Joatham,
+        Joatham engendra Acaz,
+        Acaz engendra Ézékias,
+        Ézékias engendra Manassé,
+        Manassé engendra Amone,
+        Amone engendra Josias,
+        Josias engendra Jékonias et ses frères
+         à l’époque de l’exil à Babylone.
+
+        Après l’exil à Babylone,
+        Jékonias engendra Salathiel,
+        Salathiel engendra Zorobabel,
+        Zorobabel engendra Abioud,
+        Abioud engendra Éliakim,
+        Éliakim engendra Azor,
+        Azor engendra Sadok,
+        Sadok engendra Akim,
+        Akim engendra Élioud,
+        Élioud engendra Éléazar,
+        Éléazar engendra Mattane,
+        Mattane engendra Jacob,
+        Jacob engendra Joseph, l’époux de Marie,
+        de laquelle fut engendré Jésus,
+         que l’on appelle Christ.
+
+        Le nombre total des générations est donc :
+         depuis Abraham jusqu’à David, quatorze générations ;
+         depuis David jusqu’à l’exil à Babylone, quatorze générations ;
+         depuis l’exil à Babylone jusqu’au Christ, quatorze générations.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

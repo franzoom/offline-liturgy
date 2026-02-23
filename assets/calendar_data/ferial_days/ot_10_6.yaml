@@ -1,3 +1,7 @@
+celebration:
+  title: Samedi
+  subtitle: Dixième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
@@ -35,3 +39,303 @@ readings:
         bénis son nom très saint tout mon être !
         Bénis le Seigneur, ô mon âme,
         n’oublie aucun de ses bienfaits !
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 5, 14-21
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Celui qui n’a pas connu le péché, Dieu l’a pour nous identifié au péché »
+      content: |-
+        Frères,
+         l’amour du Christ nous saisit
+        quand nous pensons qu’un seul est mort pour tous,
+        et qu’ainsi tous ont passé par la mort.
+         Car le Christ est mort pour tous,
+        afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+        mais sur lui, qui est mort et ressuscité pour eux.
+         Désormais nous ne regardons plus personne
+        d’une manière simplement humaine :
+        si nous avons connu le Christ de cette manière,
+        maintenant nous ne le connaissons plus ainsi.
+         Si donc quelqu’un est dans le Christ,
+        il est une créature nouvelle.
+        Le monde ancien s’en est allé,
+        un monde nouveau est déjà né
+         Tout cela vient de Dieu :
+        il nous a réconciliés avec lui par le Christ,
+        et il nous a donné le ministère de la réconciliation.
+         Car c’est bien Dieu
+        qui, dans le Christ, réconciliait le monde avec lui :
+        il n’a pas tenu compte des fautes,
+        et il a déposé en nous la parole de la réconciliation.
+         Nous sommes donc les ambassadeurs du Christ,
+        et par nous c’est Dieu lui-même qui lance un appel :
+        nous le demandons au nom du Christ,
+        laissez-vous réconcilier avec Dieu.
+         Celui qui n’a pas connu le péché,
+        Dieu l’a pour nous identifié au péché,
+        afin qu’en lui nous devenions justes
+        de la justice même de Dieu.
+    - biblicalRef: 1 R 19, 19-21
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Élisée se leva et partit à la suite d’Élie »
+      content: |-
+        En ces jours-là,
+        Élie descendit de la montagne.
+        Il trouva Élisée, fils de Shafath, en train de labourer.
+        Il avait à labourer douze arpents,
+        et il en était au douzième.
+        Élie passa près de lui et jeta vers lui son manteau.
+        Alors Élisée quitta ses bœufs, courut derrière Élie,
+        et lui dit :
+        « Laisse-moi embrasser mon père et ma mère,
+        puis je te suivrai. »
+        Élie répondit :
+        « Va-t’en, retourne là-bas !
+        Je n’ai rien fait. »
+        Alors Élisée s’en retourna ;
+        mais il prit la paire de bœufs pour les immoler,
+        les fit cuire avec le bois de l’attelage,
+        et les donna à manger aux gens.
+        Puis il se leva, partit à la suite d’Élie
+        et se mit à son service.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 11-12
+      refAbbr: 102, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 102, 8a
+        chorus: Le Seigneur est tendresse et pitié.
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Car il pardonne toutes tes offenses
+        et te guérit de toute maladie ;
+        il réclame ta vie à la tombe
+        et te couronne d’amour et de tendresse.
+
+        Le Seigneur est tendresse et pitié,
+        lent à la colère et plein d’amour ;
+        il n’est pas pour toujours en procès,
+        ne maintient pas sans fin ses reproches.
+
+        Comme le ciel domine la terre,
+        fort est son amour pour qui le craint ;
+        aussi loin qu’est l’orient de l’occident,
+        il met loin de nous nos péchés.
+    - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 9-10
+      refAbbr: 15, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu : j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Seigneur, mon partage et ma coupe :
+        de toi dépend mon sort.
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Mon cœur exulte, mon âme est en fête,
+        ma chair elle-même repose en confiance :
+        tu ne peux m’abandonner à la mort
+        ni laisser ton ami voir la corruption.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 33-37
+      headline: |-
+        « Moi, je vous dis de ne pas jurer du tout »
+      acclamationAntiphon: |-
+        Incline mon cœur vers tes exigences ;
+        fais-moi la grâce de ta loi, Seigneur.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+         « Vous avez encore appris qu’il a été dit aux anciens :
+        _Tu ne manqueras pas à tes serments,
+        mais tu t’acquitteras de tes serments envers le Seigneur._
+         Eh bien ! moi, je vous dis de ne pas jurer du tout,
+        ni par le ciel, car c’est le trône de Dieu,
+         ni par la terre, car elle est son marchepied,
+        ni par Jérusalem, car elle est la Ville du grand Roi.
+         Et ne jure pas non plus sur ta tête,
+        parce que tu ne peux pas
+        rendre un seul de tes cheveux blanc ou noir.
+         Que votre parole soit “oui”, si c’est “oui”,
+        “non”, si c’est “non”.
+        Ce qui est en plus vient du Mauvais. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 5, 14-21
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Celui qui n’a pas connu le péché, Dieu l’a pour nous identifié au péché »
+      content: |-
+        Frères,
+         l’amour du Christ nous saisit
+        quand nous pensons qu’un seul est mort pour tous,
+        et qu’ainsi tous ont passé par la mort.
+         Car le Christ est mort pour tous,
+        afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+        mais sur lui, qui est mort et ressuscité pour eux.
+         Désormais nous ne regardons plus personne
+        d’une manière simplement humaine :
+        si nous avons connu le Christ de cette manière,
+        maintenant nous ne le connaissons plus ainsi.
+         Si donc quelqu’un est dans le Christ,
+        il est une créature nouvelle.
+        Le monde ancien s’en est allé,
+        un monde nouveau est déjà né
+         Tout cela vient de Dieu :
+        il nous a réconciliés avec lui par le Christ,
+        et il nous a donné le ministère de la réconciliation.
+         Car c’est bien Dieu
+        qui, dans le Christ, réconciliait le monde avec lui :
+        il n’a pas tenu compte des fautes,
+        et il a déposé en nous la parole de la réconciliation.
+         Nous sommes donc les ambassadeurs du Christ,
+        et par nous c’est Dieu lui-même qui lance un appel :
+        nous le demandons au nom du Christ,
+        laissez-vous réconcilier avec Dieu.
+         Celui qui n’a pas connu le péché,
+        Dieu l’a pour nous identifié au péché,
+        afin qu’en lui nous devenions justes
+        de la justice même de Dieu.
+    - biblicalRef: 1 R 19, 19-21
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Élisée se leva et partit à la suite d’Élie »
+      content: |-
+        En ces jours-là,
+        Élie descendit de la montagne.
+        Il trouva Élisée, fils de Shafath, en train de labourer.
+        Il avait à labourer douze arpents,
+        et il en était au douzième.
+        Élie passa près de lui et jeta vers lui son manteau.
+        Alors Élisée quitta ses bœufs, courut derrière Élie,
+        et lui dit :
+        « Laisse-moi embrasser mon père et ma mère,
+        puis je te suivrai. »
+        Élie répondit :
+        « Va-t’en, retourne là-bas !
+        Je n’ai rien fait. »
+        Alors Élisée s’en retourna ;
+        mais il prit la paire de bœufs pour les immoler,
+        les fit cuire avec le bois de l’attelage,
+        et les donna à manger aux gens.
+        Puis il se leva, partit à la suite d’Élie
+        et se mit à son service.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 11-12
+      refAbbr: 102, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 102, 8a
+        chorus: Le Seigneur est tendresse et pitié.
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Car il pardonne toutes tes offenses
+        et te guérit de toute maladie ;
+        il réclame ta vie à la tombe
+        et te couronne d’amour et de tendresse.
+
+        Le Seigneur est tendresse et pitié,
+        lent à la colère et plein d’amour ;
+        il n’est pas pour toujours en procès,
+        ne maintient pas sans fin ses reproches.
+
+        Comme le ciel domine la terre,
+        fort est son amour pour qui le craint ;
+        aussi loin qu’est l’orient de l’occident,
+        il met loin de nous nos péchés.
+    - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 9-10
+      refAbbr: 15, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu : j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Seigneur, mon partage et ma coupe :
+        de toi dépend mon sort.
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Mon cœur exulte, mon âme est en fête,
+        ma chair elle-même repose en confiance :
+        tu ne peux m’abandonner à la mort
+        ni laisser ton ami voir la corruption.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 33-37
+      headline: |-
+        « Moi, je vous dis de ne pas jurer du tout »
+      acclamationAntiphon: |-
+        Incline mon cœur vers tes exigences ;
+        fais-moi la grâce de ta loi, Seigneur.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+         « Vous avez encore appris qu’il a été dit aux anciens :
+        _Tu ne manqueras pas à tes serments,
+        mais tu t’acquitteras de tes serments envers le Seigneur._
+         Eh bien ! moi, je vous dis de ne pas jurer du tout,
+        ni par le ciel, car c’est le trône de Dieu,
+         ni par la terre, car elle est son marchepied,
+        ni par Jérusalem, car elle est la Ville du grand Roi.
+         Et ne jure pas non plus sur ta tête,
+        parce que tu ne peux pas
+        rendre un seul de tes cheveux blanc ou noir.
+         Que votre parole soit “oui”, si c’est “oui”,
+        “non”, si c’est “non”.
+        Ce qui est en plus vient du Mauvais. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

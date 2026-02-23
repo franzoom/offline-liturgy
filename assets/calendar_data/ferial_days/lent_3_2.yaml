@@ -1,3 +1,7 @@
+celebration:
+  title: Mardi
+  subtitle: Troisième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -186,3 +190,283 @@ vespers:
 
       Reçois dans l’éternité bienheureuse ceux qui meurent,
       et donne-nous d’accueillir notre mort comme un passage vers la vie.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Dn 3, 25.34-43
+      headline: |-
+        « Avec nos cœurs brisés, nos esprits humiliés, reçois-nous »
+      content: |-
+        En ces jours-là,
+        Azarias, debout, priait ainsi ;
+        au milieu du feu, ouvrant la bouche, il dit :
+        À cause de ton nom, ne nous livre pas pour toujours
+        et ne romps pas ton alliance.
+        Ne nous retire pas ta miséricorde,
+        à cause d’Abraham, ton ami,
+        d’Isaac, ton serviteur,
+        et d’Israël que tu as consacré.
+        Tu as dit que tu rendrais leur descendance
+        aussi nombreuse que les astres du ciel,
+        que le sable au rivage des mers.
+
+        Or nous voici, ô Maître,
+        le moins nombreux de tous les peuples,
+        humiliés aujourd’hui sur toute la terre,
+        à cause de nos péchés.
+        Il n’est plus, en ce temps, ni prince ni chef ni prophète,
+        plus d’holocauste ni de sacrifice,
+        plus d’oblation ni d’offrande d’encens,
+        plus de lieu où t’offrir nos prémices
+        pour obtenir ta miséricorde.
+        Mais, avec nos cœurs brisés,
+        nos esprits humiliés, reçois-nous,
+        comme un holocauste de béliers, de taureaux,
+        d’agneaux gras par milliers.
+        Que notre sacrifice, en ce jour,
+        trouve grâce devant toi,
+        car il n’est pas de honte
+        pour qui espère en toi.
+
+        Et maintenant, de tout cœur, nous te suivons,
+        nous te craignons et nous cherchons ta face.
+        Ne nous laisse pas dans la honte,
+        agis envers nous selon ton indulgence
+        et l’abondance de ta miséricorde.
+        Délivre-nous en renouvelant tes merveilles,
+        glorifie ton nom, Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 24 (25), 4-5ab, 6-7bc, 8-9
+      refAbbr: 24, 4…
+      chorus:
+      - chorusRef: 24, 6a
+        chorus: Rappelle-toi, Seigneur, ta tendresse.
+      content: |-
+        Seigneur, enseigne-moi tes voies,
+        fais-moi connaître ta route.
+        Dirige-moi par ta vérité, enseigne-moi,
+        car tu es le Dieu qui me sauve.
+
+        Rappelle-toi, Seigneur, ta tendresse,
+        ton amour qui est de toujours.
+        Dans ton amour, ne m’oublie pas,
+        en raison de ta bonté, Seigneur.
+
+        Il est droit, il est bon, le Seigneur,
+        lui qui montre aux pécheurs le chemin.
+        Sa justice dirige les humbles,
+        il enseigne aux humbles son chemin.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 18, 21-35
+      headline: |-
+        « C’est ainsi que mon Père du ciel vous traitera,  si chacun de vous ne pardonne pas à son frère »
+      acclamationAntiphon: |-
+        Maintenant, dit le Seigneur,
+        revenez à moi de tout votre cœur,
+        car je suis tendre et miséricordieux.
+      content: |-
+        En ce temps-là,
+        Pierre s’approcha de Jésus pour lui demander :
+        « Seigneur, lorsque mon frère commettra des fautes contre moi,
+        combien de fois dois-je lui pardonner ?
+        Jusqu’à sept fois ? »
+        Jésus lui répondit :
+        « Je ne te dis pas jusqu’à sept fois,
+        mais jusqu’à 70 fois sept fois.
+        Ainsi, le royaume des Cieux est comparable
+        à un roi qui voulut régler ses comptes avec ses serviteurs.
+        Il commençait,
+        quand on lui amena quelqu’un
+        qui lui devait dix mille talents
+        (c’est-à-dire soixante millions de pièces d’argent).
+        Comme cet homme n’avait pas de quoi rembourser,
+        le maître ordonna de le vendre,
+        avec sa femme, ses enfants et tous ses biens,
+        en remboursement de sa dette.
+        Alors, tombant à ses pieds,
+        le serviteur demeurait prosterné et disait :
+        “Prends patience envers moi,
+        et je te rembourserai tout.”
+        Saisi de compassion, le maître de ce serviteur
+        le laissa partir et lui remit sa dette.
+
+        Mais, en sortant, ce serviteur trouva un de ses compagnons
+        qui lui devait cent pièces d’argent.
+        Il se jeta sur lui pour l’étrangler, en disant :
+        “Rembourse ta dette !”
+        Alors, tombant à ses pieds, son compagnon le suppliait :
+        “Prends patience envers moi,
+        et je te rembourserai.”
+        Mais l’autre refusa
+        et le fit jeter en prison
+        jusqu’à ce qu’il ait remboursé ce qu’il devait.
+        Ses compagnons, voyant cela,
+        furent profondément attristés
+        et allèrent raconter à leur maître
+        tout ce qui s’était passé.
+        Alors celui-ci le fit appeler et lui dit :
+        “Serviteur mauvais !
+        je t’avais remis toute cette dette
+        parce que tu m’avais supplié.
+        Ne devais-tu pas, à ton tour,
+        avoir pitié de ton compagnon,
+        comme moi-même j’avais eu pitié de toi ?”
+        Dans sa colère, son maître le livra aux bourreaux
+        jusqu’à ce qu’il eût remboursé tout ce qu’il devait.
+
+        C’est ainsi que mon Père du ciel vous traitera,
+        si chacun de vous ne pardonne pas à son frère
+        du fond du cœur. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Dn 3, 25.34-43
+      headline: |-
+        « Avec nos cœurs brisés, nos esprits humiliés, reçois-nous »
+      content: |-
+        En ces jours-là,
+        Azarias, debout, priait ainsi ;
+        au milieu du feu, ouvrant la bouche, il dit :
+        À cause de ton nom, ne nous livre pas pour toujours
+        et ne romps pas ton alliance.
+        Ne nous retire pas ta miséricorde,
+        à cause d’Abraham, ton ami,
+        d’Isaac, ton serviteur,
+        et d’Israël que tu as consacré.
+        Tu as dit que tu rendrais leur descendance
+        aussi nombreuse que les astres du ciel,
+        que le sable au rivage des mers.
+
+        Or nous voici, ô Maître,
+        le moins nombreux de tous les peuples,
+        humiliés aujourd’hui sur toute la terre,
+        à cause de nos péchés.
+        Il n’est plus, en ce temps, ni prince ni chef ni prophète,
+        plus d’holocauste ni de sacrifice,
+        plus d’oblation ni d’offrande d’encens,
+        plus de lieu où t’offrir nos prémices
+        pour obtenir ta miséricorde.
+        Mais, avec nos cœurs brisés,
+        nos esprits humiliés, reçois-nous,
+        comme un holocauste de béliers, de taureaux,
+        d’agneaux gras par milliers.
+        Que notre sacrifice, en ce jour,
+        trouve grâce devant toi,
+        car il n’est pas de honte
+        pour qui espère en toi.
+
+        Et maintenant, de tout cœur, nous te suivons,
+        nous te craignons et nous cherchons ta face.
+        Ne nous laisse pas dans la honte,
+        agis envers nous selon ton indulgence
+        et l’abondance de ta miséricorde.
+        Délivre-nous en renouvelant tes merveilles,
+        glorifie ton nom, Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 24 (25), 4-5ab, 6-7bc, 8-9
+      refAbbr: 24, 4…
+      chorus:
+      - chorusRef: 24, 6a
+        chorus: Rappelle-toi, Seigneur, ta tendresse.
+      content: |-
+        Seigneur, enseigne-moi tes voies,
+        fais-moi connaître ta route.
+        Dirige-moi par ta vérité, enseigne-moi,
+        car tu es le Dieu qui me sauve.
+
+        Rappelle-toi, Seigneur, ta tendresse,
+        ton amour qui est de toujours.
+        Dans ton amour, ne m’oublie pas,
+        en raison de ta bonté, Seigneur.
+
+        Il est droit, il est bon, le Seigneur,
+        lui qui montre aux pécheurs le chemin.
+        Sa justice dirige les humbles,
+        il enseigne aux humbles son chemin.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 18, 21-35
+      headline: |-
+        « C’est ainsi que mon Père du ciel vous traitera,  si chacun de vous ne pardonne pas à son frère »
+      acclamationAntiphon: |-
+        Maintenant, dit le Seigneur,
+        revenez à moi de tout votre cœur,
+        car je suis tendre et miséricordieux.
+      content: |-
+        En ce temps-là,
+        Pierre s’approcha de Jésus pour lui demander :
+        « Seigneur, lorsque mon frère commettra des fautes contre moi,
+        combien de fois dois-je lui pardonner ?
+        Jusqu’à sept fois ? »
+        Jésus lui répondit :
+        « Je ne te dis pas jusqu’à sept fois,
+        mais jusqu’à 70 fois sept fois.
+        Ainsi, le royaume des Cieux est comparable
+        à un roi qui voulut régler ses comptes avec ses serviteurs.
+        Il commençait,
+        quand on lui amena quelqu’un
+        qui lui devait dix mille talents
+        (c’est-à-dire soixante millions de pièces d’argent).
+        Comme cet homme n’avait pas de quoi rembourser,
+        le maître ordonna de le vendre,
+        avec sa femme, ses enfants et tous ses biens,
+        en remboursement de sa dette.
+        Alors, tombant à ses pieds,
+        le serviteur demeurait prosterné et disait :
+        “Prends patience envers moi,
+        et je te rembourserai tout.”
+        Saisi de compassion, le maître de ce serviteur
+        le laissa partir et lui remit sa dette.
+
+        Mais, en sortant, ce serviteur trouva un de ses compagnons
+        qui lui devait cent pièces d’argent.
+        Il se jeta sur lui pour l’étrangler, en disant :
+        “Rembourse ta dette !”
+        Alors, tombant à ses pieds, son compagnon le suppliait :
+        “Prends patience envers moi,
+        et je te rembourserai.”
+        Mais l’autre refusa
+        et le fit jeter en prison
+        jusqu’à ce qu’il ait remboursé ce qu’il devait.
+        Ses compagnons, voyant cela,
+        furent profondément attristés
+        et allèrent raconter à leur maître
+        tout ce qui s’était passé.
+        Alors celui-ci le fit appeler et lui dit :
+        “Serviteur mauvais !
+        je t’avais remis toute cette dette
+        parce que tu m’avais supplié.
+        Ne devais-tu pas, à ton tour,
+        avoir pitié de ton compagnon,
+        comme moi-même j’avais eu pitié de toi ?”
+        Dans sa colère, son maître le livra aux bourreaux
+        jusqu’à ce qu’il eût remboursé tout ce qu’il devait.
+
+        C’est ainsi que mon Père du ciel vous traitera,
+        si chacun de vous ne pardonne pas à son frère
+        du fond du cœur. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

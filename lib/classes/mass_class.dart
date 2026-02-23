@@ -33,9 +33,10 @@ class MassChorusEntry {
 /// Subtype is determined by the partType field of [MassReadingPart].
 sealed class MassReadingContent {}
 
-/// Content for READING_1, READING_2, and EPISTLE parts.
+/// Content for READING and EPISTLE parts.
 class MassReading extends MassReadingContent {
   final String? biblicalRef;
+  final String? sundayAndWeekCycles;
   final String? headline;
   final String? content;
   final String? shortReadingRef;
@@ -43,6 +44,7 @@ class MassReading extends MassReadingContent {
 
   MassReading({
     this.biblicalRef,
+    this.sundayAndWeekCycles,
     this.headline,
     this.content,
     this.shortReadingRef,
@@ -51,6 +53,7 @@ class MassReading extends MassReadingContent {
 
   factory MassReading.fromJson(Map<String, dynamic> json) => MassReading(
         biblicalRef: json['biblicalRef']?.toString(),
+        sundayAndWeekCycles: json['sundayAndWeekCycles']?.toString(),
         headline: json['headline']?.toString(),
         content: json['content']?.toString(),
         shortReadingRef: json['shortReadingRef']?.toString(),
@@ -62,12 +65,14 @@ class MassReading extends MassReadingContent {
 class MassPsalm extends MassReadingContent {
   final String? biblicalRef;
   final String? refAbbr;
+  final String? sundayAndWeekCycles;
   final List<MassChorusEntry>? chorus;
   final String? content;
 
   MassPsalm({
     this.biblicalRef,
     this.refAbbr,
+    this.sundayAndWeekCycles,
     this.chorus,
     this.content,
   });
@@ -75,6 +80,7 @@ class MassPsalm extends MassReadingContent {
   factory MassPsalm.fromJson(Map<String, dynamic> json) => MassPsalm(
         biblicalRef: json['biblicalRef']?.toString(),
         refAbbr: json['refAbbr']?.toString(),
+        sundayAndWeekCycles: json['sundayAndWeekCycles']?.toString(),
         chorus: (json['chorus'] as List?)
             ?.whereType<Map<String, dynamic>>()
             .map((e) => MassChorusEntry.fromJson(e))
@@ -88,14 +94,18 @@ class MassGospel extends MassReadingContent {
   final String? biblicalRef;
   final String? sundayAndWeekCycles;
   final String? headline;
+  final String? beforeAcclamationAntiphon;
   final String? acclamationAntiphon;
+  final String? afterAcclamationAntiphon;
   final String? content;
 
   MassGospel({
     this.biblicalRef,
     this.sundayAndWeekCycles,
     this.headline,
+    this.beforeAcclamationAntiphon,
     this.acclamationAntiphon,
+    this.afterAcclamationAntiphon,
     this.content,
   });
 
@@ -103,7 +113,10 @@ class MassGospel extends MassReadingContent {
         biblicalRef: json['biblicalRef']?.toString(),
         sundayAndWeekCycles: json['sundayAndWeekCycles']?.toString(),
         headline: json['headline']?.toString(),
+        beforeAcclamationAntiphon:
+            json['beforeAcclamationAntiphon']?.toString(),
         acclamationAntiphon: json['acclamationAntiphon']?.toString(),
+        afterAcclamationAntiphon: json['afterAcclamationAntiphon']?.toString(),
         content: json['content']?.toString(),
       );
 }
@@ -130,7 +143,7 @@ class MassReadingPart {
         contents = rawContents.map((e) => MassPsalm.fromJson(e)).toList();
       case 'GOSPEL':
         contents = rawContents.map((e) => MassGospel.fromJson(e)).toList();
-      default: // READING_1, READING_2, EPISTLE
+      default: // READING, EPISTLE
         contents = rawContents.map((e) => MassReading.fromJson(e)).toList();
     }
 

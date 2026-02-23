@@ -1,0 +1,108 @@
+mass:
+  - massType: day_mass
+    name: Messe du jour
+    note: 
+
+    entranceAntiphon:
+      - biblicalRef: Ps 138, 18. 5-6 (Vg)
+        content: |-
+          Je suis ressuscité, et je suis avec toi, alléluia.
+          Ta main s’est posée sur moi, alléluia,
+            ta sagesse s’est montrée admirable, alléluia, alléluia.
+      - biblicalRef: Lc 24, 34
+        content: |-
+          Le Christ est vraiment ressuscité, alléluia.
+          À lui, la gloire et la souveraineté
+            pour les siècles des siècles, alléluia, alléluia.
+
+    collect:
+      - |-
+        Aujourd’hui, Seigneur Dieu, +
+         par ton Fils unique, vainqueur de la mort,
+        tu nous as ouvert les portes de l’éternité ; 
+                    tandis que nous fêtons solennellement
+                la résurrection du Seigneur, nous t’en prions,
+              accorde-nous d’être renouvelés par ton Esprit /
+                pour que nous ressuscitions dans la lumière de la vie.
+              Par Jésus Christ, ton Fils, notre Seigneur, +
+                qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+                Dieu, pour les siècles des siècles.
+
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 
+            headline: 
+            content:
+            shortReadingRef: 1,1.26-31a
+            shortReadingContent:
+
+      - partType: PSALM
+        partContents:
+          - biblicalRef: 
+            refAbbr: 
+            chorus:
+              - chorusRef: 
+                chorus: 
+            content: 
+
+      - partType: READING_2
+        partContents:
+          - biblicalRef: 
+            headline: 
+            content:
+            shortReadingRef: 1,1.26-31a
+            shortReadingContent:
+
+      - partType: CANTICLE
+        partContents:
+          - biblicalRef: 
+            refAbbr: 
+            chorus:
+              - chorusRef: 
+                chorus: 
+            content:
+          - biblicalRef: 
+            refAbbr: 
+            chorus:
+              - chorusRef: 
+                chorus: 
+            content: 
+
+      - partType: EPISTLE
+        partContents:
+          - biblicalRef: 
+            headline: 
+            content:
+            shortReadingRef: 1,1.26-31a
+            shortReadingContent:
+
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: 
+            sundayAndWeekCycles: 
+            headline: 
+            acclamationAntiphon: |-
+              Voici qu’il vient avec puissance, notre Seigneur,
+              pour éclairer les yeux de ses serviteurs
+            content: 
+
+    offeringPrayer :
+      - bla bla bla
+      - bla bla bla2
+
+    prefaceList: 
+
+    communionAntiphon:
+      - biblicalRef: 1 Co 5, 7–8
+        content: |-
+          Le Christ, notre agneau pascal, a été immolé.
+          Célébrons la fête en partageant un pain non fermenté,
+            signe de droiture et de vérité, alléluia.
+
+    prayerAfterCommunion:
+      - blabla Ba
+      - bla bla2
+
+    solemnBlessingList:
+

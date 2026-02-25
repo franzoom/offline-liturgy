@@ -1,3 +1,7 @@
+celebration:
+  title: Samedi
+  subtitle: Septième semaine de Pâques
+  description: null
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
@@ -162,3 +166,106 @@ vespers:
 
       Que ton Esprit habite en nous :
       – qu’il vivifie nos âmes et ressuscite nos corps.
+mass:
+- massType: morning_mass
+  name: Messe du matin
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 28, 16-20.30-31
+      headline: |-
+        « Paul demeura à Rome ; il annonçait le règne de Dieu »
+      content: |-
+        À notre arrivée à Rome,
+        Paul a reçu l’autorisation d’habiter en ville
+        avec le soldat qui le gardait.
+        Trois jours après,
+        il fit appeler les notables des Juifs.
+        Quand ils arrivèrent,
+        il leur dit :
+        « Frères, moi qui n’ai rien fait contre notre peuple
+        et les coutumes reçues de nos pères,
+        je suis prisonnier depuis Jérusalem
+        où j’ai été livré aux mains des Romains.
+        Après m’avoir interrogé,
+        ceux-ci voulaient me relâcher,
+        puisque, dans mon cas,
+        il n’y avait aucun motif de condamnation à mort.
+        Mais, devant l’opposition des Juifs,
+        j’ai été obligé de faire appel à l’empereur,
+        sans vouloir pour autant accuser ma nation.
+        C’est donc pour ce motif
+        que j’ai demandé à vous voir et à vous parler,
+        car c’est à cause de l’espérance d’Israël
+        que je porte ces chaînes. »
+        Paul demeura deux années entières
+        dans le logement qu’il avait loué ;
+        il accueillait tous ceux qui venaient chez lui ;
+        il annonçait le règne de Dieu
+        et il enseignait ce qui concerne le Seigneur Jésus Christ
+        avec une entière assurance et sans obstacle.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 10 (11), 4, 5.7
+      refAbbr: 10, 4…
+      chorus:
+      - chorusRef: 10, 7c
+        chorus: |-
+          Les hommes droits te verront face à face,
+          Seigneur.
+      - chorus: Alléluia !
+      content: |-
+        Le Seigneur, dans son temple saint,
+        le Seigneur, dans les cieux où il trône,
+        garde les yeux ouverts sur le monde.
+        Il voit, il scrute les hommes.
+
+        Le Seigneur a scruté le juste et le méchant :
+        l’ami de la violence, il le hait.
+        Vraiment, le Seigneur est juste ; il aime toute justice :
+        les hommes droits le verront face à face.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 21, 20-25
+      headline: |-
+        « C’est ce disciple qui a écrit ces choses ; son témoignage est vrai »
+      acclamationAntiphon: |-
+        Je vous enverrai l’Esprit de vérité, dit le Seigneur ;
+        il vous conduira dans la vérité tout entière.
+      content: |-
+        En ce temps-là,
+        Jésus venait de dire à Pierre : « Suis-moi. »
+        S’étant retourné, Pierre aperçoit, marchant à leur suite,
+        le disciple que Jésus aimait.
+        C’est lui qui, pendant le repas,
+        s’était penché sur la poitrine de Jésus
+        pour lui dire :
+        « Seigneur, quel est celui qui va te livrer ? »
+        Pierre, voyant donc ce disciple, dit à Jésus :
+        « Et lui, Seigneur, que lui arrivera-t-il ? »
+        Jésus lui répond :
+        « Si je veux qu’il demeure jusqu’à ce que je vienne,
+        que t’importe ?
+        Toi, suis-moi. »
+        Le bruit courut donc parmi les frères
+        que ce disciple ne mourrait pas.
+        Or, Jésus n’avait pas dit à Pierre qu’il ne mourrait pas,
+        mais :
+        « Si je veux qu’il demeure jusqu’à ce que je vienne,
+        que t’importe ? »
+
+        C’est ce disciple qui témoigne de ces choses
+        et qui les a écrites,
+        et nous savons que son témoignage est vrai.
+        Il y a encore beaucoup d’autres choses que Jésus a faites ;
+        et s’il fallait écrire chacune d’elles,
+        je pense que le monde entier ne suffirait pas
+        pour contenir les livres que l’on écrirait.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

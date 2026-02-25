@@ -1,3 +1,7 @@
+celebration:
+  title: Mercredi
+  subtitle: Vingt et unième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Adorons le Seigneur, c’est lui qui nous a faits.
@@ -46,3 +50,147 @@ readings:
         Si quelqu’un a soif, dit Jésus,
         qu’il vienne à moi et qu’il boive :
         de lui couleront des fleuves d’eaux vives.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Th 2, 9-13
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « En travaillant nuit et jour, nous vous avons annoncé l’Évangile de Dieu »
+      content: |-
+        Vous vous rappelez, frères,
+        nos peines et nos fatigues :
+        c’est en travaillant nuit et jour,
+        pour n’être à la charge d’aucun d’entre vous,
+        que nous vous avons annoncé l’Évangile de Dieu.
+         Vous êtes témoins,
+        et Dieu aussi,
+        de notre attitude si sainte, si juste et irréprochable
+        envers vous, les croyants.
+         Et vous savez bien que nous avons été pour chacun de vous
+        comme un père avec ses enfants :
+         nous vous avons exhortés et encouragés,
+        nous vous avons suppliés
+        d’avoir une conduite digne de Dieu,
+        lui qui vous appelle à son Royaume et à sa gloire.
+         Et voici pourquoi nous ne cessons de rendre grâce à Dieu :
+        quand vous avez reçu la parole de Dieu
+        que nous vous faisions entendre,
+        vous l’avez accueillie pour ce qu’elle est réellement,
+        non pas une parole d’hommes, mais la parole de Dieu
+        qui est à l’œuvre en vous, les croyants.
+    - biblicalRef: 2 Th 3, 6-10.16-18
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus »
+      content: |-
+        Frères,
+        au nom du Seigneur Jésus Christ,
+        nous vous ordonnons
+        d’éviter tout frère qui mène une vie désordonnée
+        et ne suit pas la tradition que vous avez reçue de nous.
+         Vous savez bien, vous,
+        ce qu’il faut faire pour nous imiter.
+        Nous n’avons pas vécu parmi vous de façon désordonnée ;
+         et le pain que nous avons mangé,
+        nous ne l’avons pas reçu gratuitement.
+        Au contraire, dans la peine et la fatigue, nuit et jour,
+        nous avons travaillé pour n’être à la charge d’aucun d’entre vous.
+         Bien sûr, nous avons le droit d’être à charge,
+        mais nous avons voulu être pour vous un modèle à imiter.
+         Et quand nous étions chez vous,
+        nous vous donnions cet ordre :
+        si quelqu’un ne veut pas travailler,
+        qu’il ne mange pas non plus.
+         Que le Seigneur de la paix vous donne lui-même la paix,
+        en tout temps et de toute manière.
+        Que le Seigneur soit avec vous tous.
+         La salutation est de ma main à moi, Paul.
+        Je signe de cette façon toutes mes lettres,
+        c’est mon écriture.
+         Que la grâce de notre Seigneur Jésus Christ
+        soit avec vous tous.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 138 (139), 7-8, 9-10, 11-12
+      refAbbr: 138, 7…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 138, 1
+        chorus: Tu me scrutes, Seigneur, et tu sais !
+      content: |-
+        Où donc aller, loin de ton souffle ?
+        où m’enfuir, loin de ta face ?
+        Je gravis les cieux : tu es là ;
+        je descends chez les morts : te voici.
+
+        Je prends les ailes de l’aurore
+        et me pose au-delà des mers :
+        même là, ta main me conduit,
+        ta main droite me saisit.
+
+        J’avais dit : « Les ténèbres m’écrasent ! »
+        mais la nuit devient lumière autour de moi.
+        Même la ténèbre pour toi n’est pas ténèbre,
+        et la nuit comme le jour est lumière !
+    - biblicalRef: Ps 127 (128), 1-2, 4-5
+      refAbbr: 127, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 127, 1a
+        chorus: Heureux qui craint le Seigneur !
+      content: |-
+        Heureux qui craint le Seigneur
+        et marche selon ses voies !
+        Tu te nourriras du travail de tes mains :
+        Heureux es-tu ! À toi, le bonheur !
+
+        Voilà comment sera béni
+        l’homme qui craint le Seigneur.
+        De Sion, que le Seigneur te bénisse !
+        Tu verras le bonheur de Jérusalem tous les jours de ta vie.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 23, 27-32
+      headline: |-
+        « Vous êtes bien les fils de ceux qui ont assassiné les prophètes »
+      acclamationAntiphon: |-
+        En celui qui garde la parole du Christ
+        l’amour de Dieu atteint vraiment sa perfection.
+      content: |-
+        En ce temps-là,
+        Jésus disait :
+         « Malheureux êtes-vous, scribes et pharisiens hypocrites,
+        parce que vous ressemblez à des sépulcres blanchis à la chaux :
+        à l’extérieur ils ont une belle apparence,
+        mais l’intérieur est rempli d’ossements
+        et de toutes sortes de choses impures.
+         C’est ainsi que vous, à l’extérieur,
+        pour les gens, vous avez l’apparence d’hommes justes,
+        mais à l’intérieur vous êtes pleins d’hypocrisie et de mal.
+
+        Malheureux êtes-vous, scribes et pharisiens hypocrites,
+        parce que vous bâtissez les sépulcres des prophètes,
+        vous décorez les tombeaux des justes,
+         et vous dites :
+        “Si nous avions vécu à l’époque de nos pères,
+        nous n’aurions pas été leurs complices
+        pour verser le sang des prophètes.”
+         Ainsi, vous témoignez contre vous-mêmes :
+        vous êtes bien les fils de ceux qui ont assassiné les prophètes.
+         Vous donc, mettez le comble à la mesure de vos pères ! »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

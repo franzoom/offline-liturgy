@@ -1,7 +1,9 @@
 celebration:
   title: 21 décembre
+  subtitle: Semaine avant Noël
+  description: |-
+    FÉRIE MAJEURE : « Ô Orient, splendeur de la lumière éternelle »
   color: violet
-
 oration:
   - Écoute avec bonté, Seigneur, la prière de ton peuple qui se réjouit de la venue de ton Fils en notre chair ; puissions-nous obtenir le bonheur de la vie éternelle quand il viendra dans sa gloire. Lui qui règne.
 
@@ -118,3 +120,132 @@ vespers:
 
       Toi qui jugeras les vivants et les morts,
       reçois parmi les bienheureux les âmes de nos frères défunts.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ct 2, 8-14
+      headline: |-
+        « Voici mon bien-aimé qui vient. Il bondit sur les montagnes »
+      content: |-
+        La voix de mon bien-aimé !
+         C’est lui, il vient…
+        Il bondit sur les montagnes,
+         il court sur les collines,
+        mon bien-aimé, pareil à la gazelle,
+         au faon de la biche.
+        Le voici, c’est lui qui se tient
+         derrière notre mur :
+        il regarde aux fenêtres,
+         guette par le treillage.
+        Il parle, mon bien-aimé,
+         il me dit :
+        Lève-toi, mon amie, ma toute belle,
+         et viens…
+
+        Vois,
+         l’hiver s’en est allé,
+        les pluies ont cessé,
+         elles se sont enfuies.
+
+        Sur la terre apparaissent les fleurs,
+         le temps des chansons est venu
+        et la voix de la tourterelle s’entend
+         sur notre terre.
+
+        Le figuier a formé ses premiers fruits,
+         la vigne fleurie exhale sa bonne odeur.
+        Lève-toi, mon amie, ma toute belle,
+         et viens…
+
+        Ma colombe, dans les fentes du rocher,
+         dans les retraites escarpées,
+        que je voie ton visage,
+         que j’entende ta voix !
+        Ta voix est douce
+         et ton visage, charmant.
+    - biblicalRef: So 3, 14-18a
+      headline: |-
+        « Le roi d’Israël, le Seigneur, est en toi »
+      content: |-
+        Pousse des cris de joie, fille de Sion !
+         Éclate en ovations, Israël !
+        Réjouis-toi, de tout ton cœur bondis de joie,
+         fille de Jérusalem !
+        Le Seigneur a levé les sentences qui pesaient sur toi,
+         il a écarté tes ennemis.
+        Le roi d’Israël, le Seigneur, est en toi.
+         Tu n’as plus à craindre le malheur.
+
+        Ce jour-là, on dira à Jérusalem :
+         « Ne crains pas, Sion !
+          Ne laisse pas tes mains défaillir !
+         Le Seigneur ton Dieu est en toi,
+          c’est lui, le héros qui apporte le salut.
+         Il aura en toi sa joie et son allégresse,
+          il te renouvellera par son amour ;
+         il exultera pour toi et se réjouira,
+          comme aux jours de fête. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 32 (33), 2-3, 11-12, 20-21
+      refAbbr: 32, 2…
+      chorus:
+      - chorusRef: 32, 1a.3a
+        chorus: |-
+          Criez de joie pour le Seigneur,
+          chantez lui le cantique nouveau.
+      content: |-
+        Rendez grâce au Seigneur sur la cithare,
+        jouez pour lui sur la harpe à dix cordes.
+        Chantez-lui le cantique nouveau,
+        de tout votre art soutenez l’ovation.
+
+        Le plan du Seigneur demeure pour toujours,
+        les projets de son cœur subsistent d’âge en âge.
+        Heureux le peuple dont le Seigneur est le Dieu,
+        heureuse la nation qu’il s’est choisie pour domaine !
+
+        Nous attendons notre vie du Seigneur :
+        il est pour nous un appui, un bouclier.
+        La joie de notre cœur vient de lui,
+        notre confiance est dans son nom très saint.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 39-45
+      headline: |-
+        « D’où m’est-il donné que la mère de mon Seigneur vienne jusqu’à moi ? »
+      acclamationAntiphon: |-
+        Viens, Emmanuel,
+        notre Législateur et notre Roi !
+        Sauve-nous, Seigneur notre Dieu.
+      content: |-
+        En ces jours-là,
+
+        Marie se mit en route et se rendit avec empressement
+         vers la région montagneuse, dans une ville de Judée.
+        Elle entra dans la maison de Zacharie
+         et salua Élisabeth.
+        Or, quand Élisabeth entendit la salutation de Marie,
+         l’enfant tressaillit en elle.
+        Alors, Élisabeth fut remplie d’Esprit Saint,
+
+        et s’écria d’une voix forte :
+         « Tu es bénie entre toutes les femmes,
+         et le fruit de tes entrailles est béni.
+         D’où m’est-il donné
+         que la mère de mon Seigneur vienne jusqu’à moi ?
+         Car, lorsque tes paroles de salutation sont parvenues à mes oreilles,
+         l’enfant a tressailli d’allégresse en moi.
+         Heureuse celle qui a cru à l’accomplissement des paroles
+         qui lui furent dites de la part du Seigneur. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

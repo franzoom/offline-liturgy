@@ -1,6 +1,7 @@
 celebration:
   title: Samedi après les Cendres
-
+  subtitle: null
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -137,3 +138,105 @@ vespers:
   reading:
     biblicalReference: 2 Co 6, 1 b-4a
     content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 58, 9b-14
+      headline: |-
+        « Si tu donnes à celui qui a faim ce que toi, tu désires,  ta lumière se lèvera dans les ténèbres »
+      content: |-
+        Ainsi parle le Seigneur :
+        Si tu fais disparaître de chez toi
+        le joug, le geste accusateur, la parole malfaisante,
+        si tu donnes à celui qui a faim ce que toi, tu désires,
+        et si tu combles les désirs du malheureux,
+        ta lumière se lèvera dans les ténèbres
+        et ton obscurité sera lumière de midi.
+        Le Seigneur sera toujours ton guide.
+        En plein désert, il comblera tes désirs
+        et te rendra vigueur.
+        Tu seras comme un jardin bien irrigué,
+        comme une source où les eaux ne manquent jamais.
+        Tu rebâtiras les ruines anciennes,
+        tu restaureras les fondations séculaires.
+        On t’appellera : « Celui qui répare les brèches »,
+        « Celui qui remet en service les chemins ».
+
+        Si tu t’abstiens de voyager le jour du sabbat,
+        de traiter tes affaires pendant mon jour saint,
+        si tu nommes « délices » le sabbat
+        et déclares « glorieux » le jour saint du Seigneur,
+        si tu le glorifies, en évitant
+        démarches, affaires et pourparlers,
+        alors tu trouveras tes délices dans le Seigneur ;
+        je te ferai chevaucher sur les hauteurs du pays,
+        je te donnerai pour vivre l’héritage de Jacob ton père.
+        Oui, la bouche du Seigneur a parlé.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 85 (86), 1-2, 3-4, 5-6
+      refAbbr: 85, 1…
+      chorus:
+      - chorusRef: 85, 11a
+        chorus: |-
+          Montre-moi ton chemin, Seigneur,
+          que je marche suivant ta vérité.
+      content: |-
+        Écoute, Seigneur, réponds-moi,
+        car je suis pauvre et malheureux.
+        Veille sur moi qui suis fidèle, ô mon Dieu,
+        sauve ton serviteur qui s’appuie sur toi.
+
+        Prends pitié de moi, Seigneur,
+        toi que j’appelle chaque jour.
+        Seigneur, réjouis ton serviteur :
+        vers toi, j’élève mon âme !
+
+        Toi qui es bon et qui pardonnes,
+        plein d’amour pour tous ceux qui t’appellent,
+        écoute ma prière, Seigneur,
+        entends ma voix qui te supplie.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 5, 27-32
+      headline: |-
+        « Je ne suis pas venu appeler des justes mais des pécheurs,  pour qu’ils se convertissent »
+      acclamationAntiphon: |-
+        Je ne prends pas plaisir à la mort du méchant,
+        dit le Seigneur.
+        Qu’il se détourne de sa conduite, et qu’il vive !
+      content: |-
+        En ce temps-là,
+        Jésus sortit et remarqua un publicain
+        (c’est-à-dire un collecteur d’impôts)
+        du nom de Lévi
+        assis au bureau des impôts.
+        Il lui dit :
+        « Suis-moi. »
+        Abandonnant tout,
+        l’homme se leva ; et il le suivait.
+        Lévi donna pour Jésus une grande réception dans sa maison ;
+        il y avait là une foule nombreuse de publicains et d’autres gens
+        attablés avec eux.
+        Les pharisiens et les scribes de leur parti récriminaient
+        en disant à ses disciples :
+        « Pourquoi mangez-vous et buvez-vous
+        avec les publicains et les pécheurs ? »
+        Jésus leur répondit :
+        « Ce ne sont pas les gens en bonne santé
+        qui ont besoin du médecin,
+        mais les malades.
+        Je ne suis pas venu appeler des justes
+        mais des pécheurs,
+        pour qu’ils se convertissent. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

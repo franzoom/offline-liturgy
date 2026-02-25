@@ -1,3 +1,7 @@
+celebration:
+  title: Vendredi
+  subtitle: Première semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - "Rendons grâce à Dieu : éternel est son amour."
@@ -197,3 +201,198 @@ vespers:
       Toi, l’ami des hommes.
   oration:
     - Seigneur notre Dieu, que la passion de ton Fils illumine nos esprits pour nous rendre prêts à porter le joug que son amour nous fera trouver léger. Lui qui règne avec toi et le Saint-Esprit, maintenant et pour les siècles des siècles. Amen.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: He 4, 1-5.11
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Empressons-nous d’entrer dans ce repos-là »
+      content: |-
+        Frères,
+        craignons,
+        tant que demeure la promesse d’entrer dans le repos de Dieu,
+        craignons que l’un d’entre vous n’arrive,
+        en quelque sorte, trop tard.
+        Certes, nous avons reçu une Bonne Nouvelle, comme ces gens-là ;
+        cependant, la parole entendue ne leur servit à rien,
+        parce qu’elle ne fut pas accueillie avec foi par ses auditeurs.
+        Mais nous qui sommes venus à la foi,
+        nous entrons dans le repos dont il est dit :
+        _Dans ma colère, j’en ai fait le serment :
+        On verra bien s’ils entreront dans mon repos !_
+        Le travail de Dieu, assurément, était accompli
+        depuis la fondation du monde,
+        comme l’Écriture le dit à propos du septième jour :
+        _Et Dieu se reposa le septième jour
+        de tout son travail._
+        Et dans le psaume, de nouveau :
+        _On verra bien s’ils entreront dans mon repos !_
+        Empressons-nous donc d’entrer dans ce repos-là,
+        afin que plus personne ne tombe
+        en suivant l’exemple de ceux qui ont refusé de croire.
+    - biblicalRef: 1 S 8, 4-7.10-22a
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Vous pousserez des cris à cause du roi que vous aurez choisi, mais le Seigneur ne vous répondra pas ! »
+      content: |-
+        En ces jours-là,
+         tous les anciens d’Israël se réunirent
+        et vinrent trouver Samuel à Rama.
+         Ils lui dirent :
+        « Tu es devenu vieux,
+        et tes fils ne marchent pas sur tes traces.
+        Maintenant donc, établis, pour nous gouverner,
+        un roi comme en ont toutes les nations. »
+         Samuel fut mécontent parce qu’ils avaient dit :
+        « Donne-nous un roi pour nous gouverner »,
+        et il se mit à prier le Seigneur.
+         Or, le Seigneur lui répondit :
+        « Écoute la voix du peuple
+        en tout ce qu’ils te diront.
+        Ce n’est pas toi qu’ils rejettent,
+        c’est moi qu’ils rejettent :
+        ils ne veulent pas que je règne sur eux. »
+
+        Samuel rapporta toutes les paroles du Seigneur
+        au peuple qui lui demandait un roi.
+         Et il dit :
+        « Tels seront les droits
+        du roi qui va régner sur vous.
+        Vos fils, il les prendra,
+        il les affectera à ses chars et à ses chevaux,
+        et ils courront devant son char.
+         Il les utilisera comme officiers de millier
+        et comme officiers de cinquante hommes ;
+        il les fera labourer et moissonner à son profit,
+        fabriquer ses armes de guerre et les pièces de ses chars.
+         Vos filles, il les prendra
+        pour la préparation de ses parfums,
+        pour sa cuisine et pour sa boulangerie.
+         Les meilleurs de vos champs,
+        de vos vignes et de vos oliveraies,
+        il les prendra pour les donner à ses serviteurs.
+         Sur vos cultures et vos vignes il prélèvera la dîme,
+        pour la donner à ses dignitaires et à ses serviteurs.
+         Les meilleurs de vos serviteurs, de vos servantes et de vos jeunes gens,
+        ainsi que vos ânes,
+        il les prendra et les fera travailler pour lui.
+         Sur vos troupeaux, il prélèvera la dîme,
+        et vous-mêmes deviendrez ses esclaves.
+         Ce jour-là, vous pousserez des cris
+        à cause du roi que vous aurez choisi,
+        mais, ce jour-là, le Seigneur ne vous répondra pas ! »
+         Le peuple refusa d’écouter Samuel et dit :
+        « Non ! il nous faut un roi !
+         Nous serons, nous aussi, comme toutes les nations ;
+        notre roi nous gouvernera,
+        il marchera à notre tête et combattra avec nous. »
+         Samuel écouta toutes les paroles du peuple
+        et les répéta aux oreilles du Seigneur.
+         Et le Seigneur lui dit :
+        « Écoute-les, et qu’un roi règne sur eux ! »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 77 (78), 3.4cd, 6ab.7bc, 8
+      refAbbr: 77, 3…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 77, 7b
+        chorus: N’oubliez pas les exploits du Seigneur !
+      content: |-
+        Nous avons entendu et nous savons
+        ce que nos pères nous ont raconté ;
+        les titres de gloire du Seigneur,
+        sa puissance et les merveilles qu’il a faites.
+
+        Pour que l’âge suivant les connaisse,
+        et leur descendance à venir,
+        qu’ils n’oublient pas les exploits du Seigneur
+        mais observent ses commandements.
+
+        Qu’ils ne soient pas, comme leurs pères,
+        une génération indocile et rebelle,
+        génération de cœurs inconstants
+        et d’esprits infidèles à Dieu.
+    - biblicalRef: Ps 88 (89), 16-17, 18-19
+      refAbbr: 88, 16…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 88, 2a
+        chorus: |-
+          Ton amour, Seigneur,
+          sans fin je le chante !
+      content: |-
+        Heureux le peuple qui connaît l’ovation !
+        Seigneur, il marche à la lumière de ta face ;
+        tout le jour, à ton nom il danse de joie,
+        fier de ton juste pouvoir.
+
+        Tu es sa force éclatante ;
+        ta grâce accroît notre vigueur.
+        Oui, notre roi est au Seigneur ;
+        notre bouclier, au Dieu saint d’Israël.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 2, 1-12
+      headline: |-
+        « Le Fils de l’homme a autorité pour pardonner les péchés sur la terre »
+      acclamationAntiphon: |-
+        Un grand prophète s’est levé parmi nous,
+        et Dieu a visité son peuple.
+      content: |-
+        Quelques jours après la guérison d’un lépreux,
+        Jésus revint à Capharnaüm,
+         et l’on apprit qu’il était à la maison.
+        Tant de monde s’y rassembla
+         qu’il n’y avait plus de place, pas même devant la porte,
+        et il leur annonçait la Parole.
+        Arrivent des gens qui lui amènent un paralysé,
+         porté par quatre hommes.
+        Comme ils ne peuvent l’approcher à cause de la foule,
+        ils découvrent le toit au-dessus de lui,
+         ils font une ouverture,
+         et descendent le brancard sur lequel était couché le paralysé.
+        Voyant leur foi,
+        Jésus dit au paralysé :
+         « Mon enfant, tes péchés sont pardonnés. »
+        Or, il y avait quelques scribes, assis là,
+        qui raisonnaient en eux-mêmes :
+         « Pourquoi celui-là parle-t-il ainsi ?
+         Il blasphème.
+         Qui donc peut pardonner les péchés,
+         sinon Dieu seul ? »
+        Percevant aussitôt dans son esprit
+         les raisonnements qu’ils se faisaient,
+        Jésus leur dit :
+         « Pourquoi tenez-vous de tels raisonnements ?
+         Qu’est-ce qui est le plus facile ?
+         Dire à ce paralysé :
+          “Tes péchés sont pardonnés”,
+         ou bien lui dire :
+          “Lève-toi, prends ton brancard et marche” ?
+         Eh bien ! Pour que vous sachiez que le Fils de l’homme
+         a autorité pour pardonner les péchés sur la terre…
+        – Jésus s’adressa au paralysé –
+          je te le dis, lève-toi,
+          prends ton brancard, et rentre dans ta maison. »
+        Il se leva, prit aussitôt son brancard,
+         et sortit devant tout le monde.
+        Tous étaient frappés de stupeur
+        et rendaient gloire à Dieu, en disant :
+         « Nous n’avons jamais rien vu de pareil. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

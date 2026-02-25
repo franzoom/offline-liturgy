@@ -1,3 +1,7 @@
+celebration:
+  title: Jeudi
+  subtitle: Seizième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
@@ -42,3 +46,179 @@ readings:
 
         Il vient nous visiter,
         en lui la joie de notre cœur.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ex 19, 1-2.9-11.16-20b
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « En présence de tout le peuple, le Seigneur descendra sur la montagne du Sinaï »
+      content: |-
+        Le troisième mois qui suivit la sortie d’Égypte, jour pour jour,
+        les fils d’Israël arrivèrent dans le désert du Sinaï.
+         C’est en partant de Rephidim qu’ils arrivèrent dans ce désert,
+        et ils y établirent leur camp
+        juste en face de la montagne.
+         Le Seigneur dit à Moïse :
+        « Je vais venir vers toi
+        dans l’épaisseur de la nuée,
+        pour que le peuple, qui m’entendra te parler,
+        mette sa foi en toi, pour toujours. »
+        Puis Moïse transmit au Seigneur les paroles du peuple.
+         Le Seigneur dit encore à Moïse :
+        « Va vers le peuple ;
+        sanctifie-le, aujourd’hui et demain ;
+        qu’ils lavent leurs vêtements,
+         pour être prêts le troisième jour ;
+        car, ce troisième jour, en présence de tout le peuple,
+        le Seigneur descendra sur la montagne du Sinaï. »
+
+        Le troisième jour, dès le matin,
+        il y eut des coups de tonnerre, des éclairs,
+        une lourde nuée sur la montagne,
+        et une puissante sonnerie de cor ;
+        dans le camp, tout le peuple trembla.
+         Moïse fit sortir le peuple hors du camp, à la rencontre de Dieu,
+        et ils restèrent debout au pied de la montagne.
+         La montagne du Sinaï était toute fumante,
+        car le Seigneur y était descendu dans le feu ;
+        la fumée montait, comme la fumée d’une fournaise,
+        et toute la montagne tremblait violemment.
+         La sonnerie du cor était de plus en plus puissante.
+        Moïse parlait,
+        et la voix de Dieu lui répondait.
+         Le Seigneur descendit sur le sommet du Sinaï,
+        il appela Moïse sur le sommet de la montagne.
+    - biblicalRef: Jr 2, 1-3.7-8.12-13
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Ils m’ont abandonné, moi, la source d’eau vive, et ils se sont creusé des citernes »
+      content: |-
+        La parole du Seigneur me fut adressée :
+         Va proclamer aux oreilles de Jérusalem :
+        « Ainsi parle le Seigneur :
+        Je me souviens de la tendresse de tes jeunes années,
+        ton amour de jeune mariée,
+        lorsque tu me suivais au désert,
+        dans une terre inculte.
+         Israël était consacré au Seigneur,
+        première gerbe de sa récolte ;
+        celui qui en mangeait était coupable :
+        il lui arrivait malheur,
+        – oracle du Seigneur.
+         Je vous ai fait entrer dans une terre plantureuse
+        pour vous nourrir de tous ses fruits.
+        Mais à peine entrés, vous avez profané ma terre,
+        changé mon héritage en abomination.
+         Les prêtres n’ont pas dit :
+        “Où est-il, le Seigneur ?”
+        Les dépositaires de la Loi ne m’ont pas connu,
+        les pasteurs se sont révoltés contre moi ;
+        les prophètes ont prophétisé au nom du dieu Baal,
+        ils ont suivi des dieux qui ne servent à rien.
+         Cieux, soyez-en consternés, horrifiés, épouvantés !
+        – oracle du Seigneur.
+         Oui, mon peuple a commis un double méfait :
+        ils m’ont abandonné, moi, la source d’eau vive,
+        et ils se sont creusé des citernes,
+        des citernes fissurées qui ne retiennent pas l’eau ! »
+  - partType: CANTICLE
+    partContents:
+    - biblicalRef: Dn 3, 52, 53, 54, 55, 56
+      refAbbr: 3, 52…56
+      chorus:
+      - chorusRef: 3, 52
+        chorus: À toi, louange et gloire éternellement !
+      content: |-
+        Béni sois-tu, Seigneur, Dieu de nos pères : R/
+
+        Béni soit le nom très saint de ta gloire : R/
+
+        Béni sois-tu dans ton saint temple de gloire : R/
+
+        Béni sois-tu sur le trône de ton règne : R/
+
+        Béni sois-tu, toi qui sondes les abîmes : R/
+
+        Toi qui sièges au-dessus des Kéroubim : R/
+
+        Béni sois-tu au firmament, dans le ciel : R/
+    - biblicalRef: Ps 35, 6-7ab, 8-9, 10-11
+      refAbbr: 35, 6…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 35, 10
+        chorus: En toi, Seigneur, est la source de vie.
+      content: |-
+        Dans les cieux, Seigneur, ton amour ;
+        jusqu’aux nues, ta vérité !
+        Ta justice, une haute montagne ;
+        tes jugements, le grand abîme !
+
+        Qu’il est précieux ton amour, ô mon Dieu !
+        À l’ombre de tes ailes, tu abrites les hommes :
+        ils savourent les festins de ta maison ;
+        aux torrents du paradis, tu les abreuves.
+
+        En toi est la source de vie ;
+        par ta lumière nous voyons la lumière.
+        Garde ton amour à ceux qui t’ont connu,
+        ta justice à tous les hommes droits.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 13, 10-17
+      headline: |-
+        « À vous il est donné de connaître les mystères du royaume des Cieux, mais ce n’est pas donné à ceux-là »
+      acclamationAntiphon: |-
+        Tu es béni, Père,
+        Seigneur du ciel et de la terre,
+        tu as révélé aux tout-petits
+        les mystères du Royaume !
+      content: |-
+        En ce temps-là,
+         les disciples s’approchèrent de Jésus et lui dirent :
+        « Pourquoi leur parles-tu en paraboles ? »
+         Il leur répondit :
+        « À vous il est donné de connaître
+        les mystères du royaume des Cieux,
+        mais ce n’est pas donné à ceux-là.
+         À celui qui a, on donnera,
+        et il sera dans l’abondance ;
+        à celui qui n’a pas,
+        on enlèvera même ce qu’il a.
+         Si je leur parle en paraboles,
+        c’est parce qu’ils regardent sans regarder,
+        et qu’ils écoutent sans écouter ni comprendre.
+         Ainsi s’accomplit pour eux la prophétie d’Isaïe :
+        _Vous aurez beau écouter, vous ne comprendrez pas.
+        Vous aurez beau regarder, vous ne verrez pas.
+         Le cœur de ce peuple s’est alourdi :
+        ils sont devenus durs d’oreille,
+        ils se sont bouché les yeux,
+        de peur que leurs yeux ne voient,_
+        _que leurs oreilles n’entendent,
+        que leur cœur ne comprenne,
+        qu’ils ne se convertissent,
+        – et moi, je les guérirai._
+         Mais vous, heureux vos yeux puisqu’ils voient,
+        et vos oreilles puisqu’elles entendent !
+         Amen, je vous le dis :
+        beaucoup de prophètes et de justes
+        ont désiré voir ce que vous voyez,
+        et ne l’ont pas vu,
+        entendre ce que vous entendez,
+        et ne l’ont pas entendu. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

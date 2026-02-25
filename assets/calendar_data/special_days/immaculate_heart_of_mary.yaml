@@ -1,9 +1,9 @@
 celebration:
   title: Cœur Immaculé de la Vierge Marie
-  commons:
-    - virgin-mary
+  subtitle: Le samedi après le Sacré-Cœur
+  description: null
+  commons: ['virgin-mary']
   color: white
-
 oration:
   - Dieu qui as préparé dans le Cœur de la Vierge Marie une demeure digne de l’Esprit Saint ; accorde-nous, par son intercession, de devenir le temple de ta gloire.
 
@@ -15,3 +15,106 @@ readings:
         Heureuse, certes, l’âme de la bienheureuse Vierge : habitée par l’Esprit et par son enseignement, elle obéissait toujours et en toutes choses aux ordres du Verbe. Elle n’était pas guidée par son sentiment personnel, par sa propre décision ; mais ce que la sagesse suggérait intérieurement à sa foi, elle l’accomplissait extérieurement par son corps. Il convenait bien à la divine Sagesse, qui bâtissait, pour y habiter, la demeure de l’Église, il lui convenait d’employer Marie la toute sainte pour procurer l’observance de la loi, la purification de l’âme, l’idéal de l’humilité et le sacrifice spirituel.
         Imite-la, âme fidèle. Pour te purifier spirituellement et pouvoir te délivrer de la maladie du péché, entre dans le temple de ton cœur. Dieu y regarde toute affection plus que notre ouvrage, en tout ce que nous faisons. Aussi nous pouvons, par le désir de la contemplation, nous jeter en Dieu pour ne penser qu’à lui ; ou bien nous pouvons chercher notre équilibre par le progrès des vertus et des activités profitables à notre prochain ; en tout cela n’ayons pas d’autre mobile que l’amour de Christ. Voilà quel est le sacrifice spirituel de purification qui est agréable à Dieu. Il ne s’accomplit pas dans un temple matériel, mais dans le temple de notre cœur où le Christ Seigneur fait avec joie son entrée.
       responsory: R/ Le Seigneur est avec toi, Marie, pleine de grâce !
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 61, 9-11
+      headline: |-
+        « Je tressaille de joie dans le Seigneur »
+      content: |-
+        Les descendants de mon peuple seront connus parmi les nations,
+        et leur postérité, au milieu des peuples.
+        Qui les verra pourra reconnaître
+        la descendance bénie du Seigneur.
+        Je tressaille de joie dans le Seigneur,
+        mon âme exulte en mon Dieu.
+        Car il m'a vêtue des vêtements du salut,
+        il m'a couverte du manteau de la justice,
+        comme le jeune marié orné du diadème,
+        la jeune mariée que parent ses joyaux.
+        Comme la terre fait éclore son germe,
+        et le jardin, germer ses semences,
+        le Seigneur Dieu fera germer la justice et la louange
+        devant toutes les nations.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: 1 S 2, 1, 4-5ab, 6-7, 8abcd
+      refAbbr: 1, 1…
+      chorus:
+      - chorusRef: 1 S 2, 1a
+        chorus: |-
+          Mon cœur exulte à cause du Seigneur :
+          c'est lui qui me sauve.
+      content: |-
+        Mon cœur exulte à cause du Seigneur ;
+        mon front s'est relevé grâce à mon Dieu !
+        Face à mes ennemis, s’ouvre ma bouche :
+        oui, je me réjouis de ton salut !
+
+        L'arc des forts est brisé,
+        mais le faible se revêt de vigueur.
+        Les plus comblés s’embauchent pour du pain,
+        et les affamés se reposent.
+
+        Le Seigneur fait mourir et vivre ;
+        il fait descendre à l'abîme et en ramène.
+        Le Seigneur rend pauvre et riche ;
+        il abaisse et il élève.
+
+        De la poussière il relève le faible,
+        il retire le malheureux de la cendre
+        pour qu'il siège parmi les princes
+        et reçoive un trône de gloire.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 2, 41-51
+      headline: |-
+        « Sa mère gardait dans son cœur tous ces événements »
+      acclamationAntiphon: |-
+        Heureuse Vierge Marie !
+        Attentive à garder la parole de Dieu,
+        elle la méditait dans son cœur !
+      content: |-
+        Chaque année, les parents de Jésus se rendaient à Jérusalem
+        pour la fête de la Pâque.
+        Quand il eut douze ans,
+        ils montèrent en pèlerinage suivant la coutume.
+        À la fin de la fête, comme ils s’en retournaient,
+        le jeune Jésus resta à Jérusalem
+        à l’insu de ses parents.
+        Pensant qu’il était dans le convoi des pèlerins,
+        ils firent une journée de chemin
+        avant de le chercher parmi leurs parents et connaissances.
+        Ne le trouvant pas, ils retournèrent à Jérusalem,
+        en continuant à le chercher.
+
+        C’est au bout de trois jours qu’ils le trouvèrent dans le Temple,
+        assis au milieu des docteurs de la Loi :
+        il les écoutait et leur posait des questions,
+        et tous ceux qui l’entendaient
+        s’extasiaient sur son intelligence et sur ses réponses.
+        En le voyant, ses parents furent frappés d’étonnement,
+        et sa mère lui dit :
+        « Mon enfant, pourquoi nous as-tu fait cela ?
+        Vois comme ton père et moi,
+        nous avons souffert en te cherchant ! »
+        Il leur dit :
+        « Comment se fait-il que vous m’ayez cherché ?
+        Ne saviez-vous pas
+        qu’il me faut être chez mon Père ? »
+        Mais ils ne comprirent pas ce qu’il leur disait.
+
+        Il descendit avec eux pour se rendre à Nazareth,
+        et il leur était soumis.
+        Sa mère gardait dans son cœur tous ces événements.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

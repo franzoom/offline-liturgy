@@ -1,3 +1,7 @@
+celebration:
+  title: Jeudi
+  subtitle: Deuxième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -169,3 +173,137 @@ vespers:
 
       Tu as dit : Cherchez d’abord le Royaume,
       entrez par la porte étroite.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Jr 17, 5-10
+      headline: |-
+        « Maudit soit l’homme qui met sa foi dans un mortel. Béni soit l’homme qui met sa foi dans le Seigneur »
+      content: |-
+        Ainsi parle le Seigneur :
+        Maudit soit l’homme
+        qui met sa foi dans un mortel,
+        qui s’appuie sur un être de chair,
+        tandis que son cœur se détourne du Seigneur.
+        Il sera comme un buisson sur une terre désolée,
+        il ne verra pas venir le bonheur.
+        Il aura pour demeure les lieux arides du désert,
+        une terre salée, inhabitable.
+
+        Béni soit l’homme
+        qui met sa foi dans le Seigneur,
+        dont le Seigneur est la confiance.
+        Il sera comme un arbre, planté près des eaux,
+        qui pousse, vers le courant, ses racines.
+        Il ne craint pas quand vient la chaleur :
+        son feuillage reste vert.
+        L’année de la sécheresse, il est sans inquiétude :
+        il ne manque pas de porter du fruit.
+
+        Rien n’est plus faux que le cœur de l’homme,
+        il est incurable.
+        Qui peut le connaître ?
+        Moi, le Seigneur, qui pénètre les cœurs
+        et qui scrute les reins,
+        afin de rendre à chacun selon sa conduite,
+        selon le fruit de ses actes.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 1…
+      chorus:
+      - chorusRef: 39, 5a
+        chorus: |-
+          Heureux est l’homme
+          qui met sa foi dans le Seigneur.
+      content: |-
+        Heureux est l’homme
+         qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+         planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+        Tel n’est pas le sort des méchants.
+
+        Mais ils sont comme la paille
+         balayée par le vent.
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 16, 19-31
+      headline: |-
+        « Tu as reçu le bonheur, et Lazare, le malheur. Maintenant, lui, il trouve ici la consolation, et toi, la souffrance »
+      acclamationAntiphon: |-
+        Heureux ceux qui ont entendu la Parole
+        dans un cœur bon et généreux,
+        qui la retiennent et portent du fruit par leur persévérance.
+      content: |-
+        En ce temps-là,
+        Jésus disait aux pharisiens :
+        « Il y avait un homme riche,
+        vêtu de pourpre et de lin fin,
+        qui faisait chaque jour des festins somptueux.
+        Devant son portail gisait un pauvre nommé Lazare,
+        qui était couvert d’ulcères.
+        Il aurait bien voulu se rassasier
+        de ce qui tombait de la table du riche ;
+        mais les chiens, eux, venaient lécher ses ulcères.
+        Or le pauvre mourut,
+        et les anges l’emportèrent auprès d’Abraham.
+        Le riche mourut aussi,
+        et on l’enterra.
+        Au séjour des morts, il était en proie à la torture ;
+        levant les yeux,
+        il vit Abraham de loin et Lazare tout près de lui.
+        Alors il cria :
+        “Père Abraham,
+        prends pitié de moi
+        et envoie Lazare tremper le bout de son doigt dans l’eau
+        pour me rafraîchir la langue,
+        car je souffre terriblement dans cette fournaise.
+        – Mon enfant, répondit Abraham,
+        rappelle-toi :
+        tu as reçu le bonheur pendant ta vie,
+        et Lazare, le malheur pendant la sienne.
+        Maintenant, lui, il trouve ici la consolation,
+        et toi, la souffrance.
+        Et en plus de tout cela, un grand abîme
+        a été établi entre vous et nous,
+        pour que ceux qui voudraient passer vers vous
+        ne le puissent pas,
+        et que, de là-bas non plus, on ne traverse pas vers nous.”
+        Le riche répliqua :
+        “Eh bien ! père, je te prie d’envoyer Lazare
+        dans la maison de mon père.
+        En effet, j’ai cinq frères :
+        qu’il leur porte son témoignage,
+        de peur qu’eux aussi ne viennent
+        dans ce lieu de torture !”
+        Abraham lui dit :
+        “Ils ont Moïse et les Prophètes :
+        qu’ils les écoutent !
+        – Non, père Abraham, dit-il,
+        mais si quelqu’un de chez les morts vient les trouver,
+        ils se convertiront.”
+        Abraham répondit :
+        “S’ils n’écoutent pas Moïse ni les Prophètes,
+        quelqu’un pourra bien ressusciter d’entre les morts :
+        ils ne seront pas convaincus.” »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

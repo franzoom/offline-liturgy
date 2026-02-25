@@ -1,3 +1,7 @@
+celebration:
+  title: Mercredi
+  subtitle: Vingt-huitième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Terre entière, acclame Dieu ; chante le Seigneur.
@@ -49,3 +53,169 @@ readings:
 
         Celui qui aime est né de Dieu
         et connaît Dieu.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 2, 1-11
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Il rendra à chacun selon ses œuvres, le Juif d’abord, et le païen »
+      content: |-
+        Toi, l’homme qui juge,
+        tu n’as aucune excuse, qui que tu sois :
+        quand tu juges les autres,
+        tu te condamnes toi-même
+        car tu fais comme eux, toi qui juges.
+         Or, nous savons que Dieu juge selon la vérité
+        ceux qui font de telles choses.
+         Et toi, l’homme qui juge ceux qui font de telles choses
+        et les fais toi-même,
+        penses-tu échapper au jugement de Dieu ?
+         Ou bien méprises-tu ses trésors
+        de bonté, de longanimité et de patience,
+        en refusant de reconnaître que cette bonté de Dieu
+        te pousse à la conversion ?
+         Avec ton cœur endurci, qui ne veut pas se convertir,
+        tu accumules la colère contre toi
+        pour ce jour de colère,
+        où sera révélé le juste jugement de Dieu,
+         lui qui rendra à chacun selon ses œuvres.
+         Ceux qui font le bien avec persévérance
+        et recherchent ainsi la gloire, l’honneur et une existence impérissable,
+        recevront la vie éternelle ;
+         mais les intrigants,
+        qui se refusent à la vérité pour se donner à l’injustice,
+        subiront la colère et la fureur.
+
+        Oui, détresse et angoisse
+        pour tout homme qui commet le mal,
+        le Juif d’abord, et le païen.
+         Mais gloire, honneur et paix
+        pour quiconque fait le bien,
+        le Juif d’abord, et le païen.
+         Car Dieu est impartial.
+    - biblicalRef: Ga 5, 18-25
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Ceux qui sont au Christ Jésus ont crucifié en eux la chair, avec ses passions et ses convoitises »
+      content: |-
+        Frères,
+         si vous vous laissez conduire par l’Esprit,
+        vous n’êtes pas soumis à la Loi.
+         On sait bien à quelles actions mène la chair :
+        inconduite, impureté, débauche,
+         idolâtrie, sorcellerie, haines, rivalité,
+        jalousie, emportements, intrigues, divisions, sectarisme,
+         envie, beuveries, orgies
+        et autres choses du même genre.
+        Je vous préviens, comme je l’ai déjà fait :
+        ceux qui commettent de telles actions
+        ne recevront pas en héritage le royaume de Dieu.
+         Mais voici le fruit de l’Esprit :
+        amour, joie, paix, patience,
+        bonté, bienveillance, fidélité,
+         douceur et maîtrise de soi.
+        En ces domaines, la Loi n’intervient pas.
+         Ceux qui sont au Christ Jésus
+        ont crucifié en eux la chair,
+        avec ses passions et ses convoitises.
+         Puisque l’Esprit nous fait vivre,
+        marchons sous la conduite de l’Esprit.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 61 (62), 6-7, 8, 9
+      refAbbr: 61, 6…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 61, 13b
+        chorus: Seigneur, tu rends à chacun selon ce qu’il fait !
+      content: |-
+        Je n’ai mon repos qu’en Dieu seul ;
+        oui, mon espoir vient de lui.
+        Lui seul est mon rocher, mon salut,
+        ma citadelle : je reste inébranlable.
+
+        Mon salut et ma gloire
+        se trouvent près de Dieu.
+        Chez Dieu, mon refuge,
+        mon rocher imprenable !
+
+        Comptez sur lui en tous temps,
+        vous, le peuple.
+        Devant lui épanchez votre cœur :
+        Dieu est pour nous un refuge.
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 8, 12
+        chorus: |-
+          Qui marche à ta suite, Seigneur,
+          aura la lumière de la vie
+      content: |-
+        Heureux est l’homme
+         qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+         planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+         balayée par le vent.
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 11, 42-46
+      headline: |-
+        « Quel malheur pour vous, pharisiens ! Vous aussi, les docteurs de la Loi, malheureux êtes-vous ! »
+      acclamationAntiphon: |-
+        Mes brebis écoutent ma voix, dit le Seigneur ;
+        moi, je les connais, et elles me suivent.
+      content: |-
+        En ce temps-là, Jésus disait :
+         « Quel malheur pour vous, pharisiens,
+        parce que vous payez la dîme
+        sur toutes les plantes du jardin,
+        comme la menthe et la rue
+        et vous passez à côté du jugement et de l’amour de Dieu.
+        Ceci, il fallait l’observer,
+        sans abandonner cela.
+         Quel malheur pour vous, pharisiens,
+        parce que vous aimez le premier siège dans les synagogues,
+        et les salutations sur les places publiques.
+         Quel malheur pour vous,
+        parce que vous êtes comme ces tombeaux qu’on ne voit pas
+        et sur lesquels on marche sans le savoir. »
+
+        Alors un docteur de la Loi prit la parole et lui dit :
+        « Maître, en parlant ainsi,
+        c’est nous aussi que tu insultes. »
+         Jésus reprit :
+        « Vous aussi, les docteurs de la Loi, malheureux êtes-vous,
+        parce que vous chargez les gens
+        de fardeaux impossibles à porter,
+        et vous-mêmes, vous ne touchez même pas ces fardeaux
+        d’un seul doigt. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

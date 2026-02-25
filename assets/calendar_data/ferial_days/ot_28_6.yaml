@@ -1,3 +1,7 @@
+celebration:
+  title: Samedi
+  subtitle: Vingt-huitième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
@@ -43,3 +47,156 @@ readings:
 
         C’est toi qui créas toutes choses :
         tu as voulu qu’elles soient, elles furent créées.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 4, 13.16-18
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Espérant contre toute espérance, il a cru »
+      content: |-
+        Frères,
+         ce n’est pas en vertu de la Loi
+        que la promesse de recevoir le monde en héritage
+        a été faite à Abraham et à sa descendance,
+        mais en vertu de la justice obtenue par la foi.
+         Voilà pourquoi on devient héritier par la foi :
+        c’est une grâce,
+        et la promesse demeure ferme
+        pour tous les descendants d’Abraham,
+        non pour ceux qui se rattachent à la Loi seulement,
+        mais pour ceux qui se rattachent aussi à la foi d’Abraham,
+        lui qui est notre père à tous.
+         C’est bien ce qui est écrit :
+        _J’ai fait de toi le père d’un grand nombre de nations._
+        Il est notre père devant Dieu en qui il a cru,
+        Dieu qui donne la vie aux morts
+        et qui appelle à l’existence ce qui n’existe pas.
+         Espérant contre toute espérance,
+        il a cru ;
+        ainsi est-il devenu le père d’un grand nombre de nations,
+        selon cette parole :
+        _Telle sera la descendance que tu auras !_
+    - biblicalRef: Ep 1, 15-23
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Plaçant le Christ plus haut que tout, Dieu a fait de lui la tête de l’Église qui est son corps »
+      content: |-
+        Frères,
+         ayant entendu parler de la foi que vous avez dans le Seigneur Jésus,
+        et de votre amour pour tous les fidèles,
+         je ne cesse pas de rendre grâce,
+        quand je fais mémoire de vous dans mes prières :
+         que le Dieu de notre Seigneur Jésus Christ,
+        le Père dans sa gloire,
+        vous donne un esprit de sagesse
+        qui vous le révèle et vous le fasse vraiment connaître.
+         Qu’il ouvre à sa lumière les yeux de votre cœur,
+        pour que vous sachiez quelle espérance vous ouvre son appel,
+        la gloire sans prix de l’héritage que vous partagez avec les fidèles,
+         et quelle puissance incomparable
+        il déploie pour nous, les croyants :
+        c’est l’énergie, la force, la vigueur
+         qu’il a mise en œuvre dans le Christ
+        quand il l’a ressuscité d’entre les morts
+        et qu’il l’a fait asseoir à sa droite dans les cieux.
+         Il l’a établi au-dessus de tout être céleste :
+        Principauté, Souveraineté, Puissance et Domination,
+        au-dessus de tout nom que l’on puisse nommer,
+        non seulement dans le monde présent
+        mais aussi dans le monde à venir.
+         Il a tout mis sous ses pieds
+        et, le plaçant plus haut que tout,
+        il a fait de lui la tête de l’Église qui est son corps,
+        et l’Église, c’est l’accomplissement total du Christ,
+        lui que Dieu comble totalement de sa plénitude.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 104 (105), 6-7, 8-9, 42-43
+      refAbbr: 104, 6…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 104, 8a
+        chorus: Le Seigneur s’est toujours souvenu de son alliance.
+      - chorus: Alléluia !
+      content: |-
+        Vous, la race d’Abraham son serviteur,
+        les fils de Jacob, qu’il a choisis,
+        le Seigneur, c’est lui notre Dieu :
+        ses jugements font loi pour l’univers.
+
+        Il s’est toujours souvenu de son alliance,
+        parole édictée pour mille générations :
+        promesse faite à Abraham,
+        garantie par serment à Isaac,
+
+        Il s’est ainsi souvenu de la parole sacrée
+        et d’Abraham, son serviteur ;
+        il a fait sortir en grande fête son peuple,
+        ses élus, avec des cris de joie !
+    - biblicalRef: Ps 8, 2-3a, 4-5, 6-7
+      refAbbr: 8, 2…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 8, 7
+        chorus: |-
+          Tu établis ton Fils
+          sur les œuvres de tes mains.
+      content: |-
+        Ô Seigneur, notre Dieu,
+        qu’il est grand ton nom par toute la terre !
+        Jusqu’aux cieux, ta splendeur est chantée
+        par la bouche des enfants, des tout-petits.
+
+        À voir ton ciel, ouvrage de tes doigts,
+        la lune et les étoiles que tu fixas,
+        qu’est-ce que l’homme pour que tu penses à lui,
+        le fils d’un homme, que tu en prennes souci ?
+
+        Tu l’as voulu un peu moindre qu’un dieu,
+        le couronnant de gloire et d’honneur ;
+        tu l’établis sur les œuvres de tes mains,
+        tu mets toute chose à ses pieds.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 12, 8-12
+      headline: |-
+        « L’Esprit Saint vous enseignera à cette heure-là ce qu’il faudra dire »
+      acclamationAntiphon: |-
+        L’Esprit de vérité
+        rendra témoignage en ma faveur, dit le Seigneur.
+        Et vous aussi, vous allez rendre témoignage.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+         « Je vous le dis :
+        Quiconque se sera déclaré pour moi devant les hommes,
+        le Fils de l’homme aussi se déclarera pour lui
+        devant les anges de Dieu.
+         Mais celui qui m’aura renié en face des hommes
+        sera renié à son tour en face des anges de Dieu.
+         Quiconque dira une parole contre le Fils de l’homme,
+        cela lui sera pardonné ;
+        mais si quelqu’un blasphème contre l’Esprit Saint,
+        cela ne lui sera pas pardonné.
+         Quand on vous traduira devant les gens des synagogues,
+        les magistrats et les autorités,
+        ne vous inquiétez pas
+        de la façon dont vous vous défendrez ni de ce que vous direz.
+         Car l’Esprit Saint vous enseignera à cette heure-là
+        ce qu’il faudra dire. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

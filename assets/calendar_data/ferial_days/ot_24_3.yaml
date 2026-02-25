@@ -1,3 +1,7 @@
+celebration:
+  title: Mercredi
+  subtitle: Vingt-quatrième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Terre entière, acclame Dieu ; chante le Seigneur.
@@ -45,3 +49,181 @@ readings:
 
         Nous sommes passés de la mort à la vie,
         puisque nous aimons nos frères
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Tm 3, 14-16
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Il est grand, le mystère de notre religion »
+      content: |-
+        Bien-aimé,
+         je t’écris avec l’espoir d’aller te voir bientôt.
+         Mais au cas où je tarderais, je veux que tu saches
+        comment il faut se comporter dans la maison de Dieu,
+        c’est-à-dire la communauté, l’Église du Dieu vivant,
+        elle qui est le pilier et le soutien de la vérité.
+
+        Assurément, il est grand, le mystère de notre religion :
+        c’est le Christ,
+        manifesté dans la chair,
+        justifié dans l’Esprit,
+        apparu aux anges,
+        proclamé dans les nations,
+        cru dans le monde,
+        enlevé dans la gloire !
+    - biblicalRef: 1 Co 12, 31 – 13, 13
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Ce qui demeure aujourd’hui, c’est la foi, l’espérance et la charité ; mais la plus grande des trois, c’est la charité »
+      content: |-
+        Frères,
+         recherchez avec ardeur les dons les plus grands.
+        Et maintenant, je vais vous indiquer le chemin par excellence.
+
+        J’aurais beau parler toutes les langues
+        des hommes et des anges,
+        si je n’ai pas la charité, s’il me manque l’amour,
+        je ne suis qu’un cuivre qui résonne,
+        une cymbale retentissante.
+         J’aurais beau être prophète,
+        avoir toute la science des mystères
+        et toute la connaissance de Dieu,
+        j’aurais beau avoir toute la foi
+        jusqu’à transporter les montagnes,
+        s’il me manque l’amour,
+        je ne suis rien.
+         J’aurais beau distribuer toute ma fortune aux affamés,
+        j’aurais beau me faire brûler vif,
+        s’il me manque l’amour,
+        cela ne me sert à rien.
+
+        L’amour prend patience ;
+        l’amour rend service ;
+        l’amour ne jalouse pas ;
+        il ne se vante pas, ne se gonfle pas d’orgueil ;
+         il ne fait rien d’inconvenant ;
+        il ne cherche pas son intérêt ;
+        il ne s’emporte pas ;
+        il n’entretient pas de rancune ;
+         il ne se réjouit pas de ce qui est injuste,
+        mais il trouve sa joie dans ce qui est vrai ;
+         il supporte tout, il fait confiance en tout,
+        il espère tout, il endure tout.
+         L’amour ne passera jamais.
+
+        Les prophéties seront dépassées,
+        le don des langues cessera,
+        la connaissance actuelle sera dépassée.
+         En effet, notre connaissance est partielle,
+        nos prophéties sont partielles.
+         Quand viendra l’achèvement,
+        ce qui est partiel sera dépassé.
+         Quand j’étais petit enfant,
+        je parlais comme un enfant,
+        je pensais comme un enfant,
+        je raisonnais comme un enfant.
+        Maintenant que je suis un homme,
+        j’ai dépassé ce qui était propre à l’enfant.
+
+        Nous voyons actuellement de manière confuse,
+        comme dans un miroir ;
+        ce jour-là, nous verrons face à face.
+        Actuellement, ma connaissance est partielle ;
+        ce jour-là, je connaîtrai parfaitement,
+        comme j’ai été connu.
+         Ce qui demeure aujourd’hui,
+        c’est la foi, l’espérance et la charité ;
+        mais la plus grande des trois,
+        c’est la charité.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 110 (111), 1-2, 3-4, 5-6
+      refAbbr: 110, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 110, 2a
+        chorus: Grandes sont les œuvres du Seigneur !
+      - chorus: Alléluia !
+      content: |-
+        De tout cœur je rendrai grâce au Seigneur
+        dans l’assemblée, parmi les justes.
+        Grandes sont les œuvres du Seigneur ;
+        tous ceux qui les aiment s’en instruisent.
+
+        Noblesse et beauté dans ses actions :
+        à jamais se maintiendra sa justice.
+        De ses merveilles il a laissé un mémorial ;
+        le Seigneur est tendresse et pitié.
+
+        Il a donné des vivres à ses fidèles,
+        gardant toujours mémoire de son alliance.
+        Il a montré sa force à son peuple,
+        lui donnant le domaine des nations.
+    - biblicalRef: Ps 32 (33), 2-3, 4-5, 12.22
+      refAbbr: 32, 2…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 32, 12
+        chorus: |-
+          Heureux le peuple
+          que le Seigneur s’est choisi pour domaine.
+      content: |-
+        Rendez grâce au Seigneur sur la cithare,
+        jouez pour lui sur la harpe à dix cordes.
+        Chantez-lui le cantique nouveau,
+        de tout votre art soutenez l’ovation.
+
+        Oui, elle est droite, la parole du Seigneur ;
+        il est fidèle en tout ce qu’il fait.
+        Il aime le bon droit et la justice ;
+        la terre est remplie de son amour.
+
+        Heureux le peuple dont le Seigneur est le Dieu,
+        heureuse la nation qu’il s’est choisie pour domaine !
+        Que ton amour, Seigneur, soit sur nous
+        comme notre espoir est en toi !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 7, 31-35
+      headline: |-
+        « Nous avons joué de la flûte, et vous n’avez pas dansé. Nous avons chanté des lamentations, et vous n’avez pas pleuré »
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur,
+        sont esprit et elles sont vie.
+        Tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+        Jésus disait à la foule :
+        « À qui donc vais-je comparer les gens de cette génération ?
+        À qui ressemblent-ils ?
+         Ils ressemblent à des gamins assis sur la place,
+        qui s’interpellent en disant :
+        “Nous avons joué de la flûte,
+        et vous n’avez pas dansé.
+        Nous avons chanté des lamentations,
+        et vous n’avez pas pleuré.”
+         Jean le Baptiste est venu, en effet ;
+        il ne mange pas de pain, il ne boit pas de vin,
+        et vous dites : “C’est un possédé !”
+         Le Fils de l’homme est venu ;
+        il mange et il boit,
+        et vous dites : “Voilà un glouton et un ivrogne,
+        un ami des publicains et des pécheurs.”
+         Mais, par tous ses enfants,
+        la sagesse de Dieu a été reconnue juste. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

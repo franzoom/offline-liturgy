@@ -1,3 +1,7 @@
+celebration:
+  title: Mercredi
+  subtitle: Deuxième semaine de l’Avent
+  description: null
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
@@ -193,3 +197,89 @@ vespers:
 
       Rappelle à toi tous ceux qui ont quitté cette vie,
       — reçois-les dans la gloire auprès de toi.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 40, 25-31
+      headline: |-
+        Le Seigneur de l’univers « rend des forces à l’homme fatigué »
+      content: |-
+        À qui pourriez-vous me comparer,
+         qui pourrait être mon égal ?
+         — dit le Dieu saint.
+        Levez les yeux et regardez :
+         qui a créé tout cela ?
+        Celui qui déploie toute l’armée des étoiles,
+         et les appelle chacune par son nom.
+        Si grande est sa force, et telle est sa puissance
+         que pas une seule ne manque.
+        Jacob, pourquoi dis-tu,
+        Israël, pourquoi affirmes-tu :
+         « Mon chemin est caché au Seigneur,
+         mon droit échappe à mon Dieu » ?
+        Tu ne le sais donc pas, tu ne l’as pas entendu ?
+        Le Seigneur est le Dieu éternel,
+         il crée jusqu’aux extrémités de la terre,
+        il ne se fatigue pas, ne se lasse pas.
+         Son intelligence est insondable.
+        Il rend des forces à l’homme fatigué,
+         il augmente la vigueur de celui qui est faible.
+        Les garçons se fatiguent, se lassent,
+         et les jeunes gens ne cessent de trébucher,
+        mais ceux qui mettent leur espérance dans le Seigneur
+         trouvent des forces nouvelles ;
+        ils déploient comme des ailes d’aigles,
+         ils courent sans se lasser,
+         ils marchent sans se fatiguer.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 102 (103), 1-2, 3-4, 8.10
+      refAbbr: 102, 1…
+      chorus:
+      - chorusRef: 102, 1a
+        chorus: Bénis le Seigneur, ô mon âme !
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Car il pardonne toutes tes offenses
+        et te guérit de toute maladie ;
+        il réclame ta vie à la tombe
+        et te couronne d’amour et de tendresse ;
+
+        Le Seigneur est tendresse et pitié,
+        lent à la colère et plein d’amour ;
+        il n’agit pas envers nous selon nos fautes,
+        ne nous rend pas selon nos offenses.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 11, 28-30
+      headline: |-
+        « Venez à moi, vous tous qui peinez »
+      acclamationAntiphon: |-
+        Il viendra, le Seigneur, pour sauver son peuple.
+        Heureux ceux qui seront prêts à partir à sa rencontre !
+      content: |-
+        En ce temps-là, Jésus prit la parole :
+         « Venez à moi,
+         vous tous qui peinez sous le poids du fardeau,
+         et moi, je vous procurerai le repos.
+         Prenez sur vous mon joug,
+         devenez mes disciples,
+         car je suis doux et humble de cœur,
+         et vous trouverez le repos pour votre âme.
+         Oui, mon joug est facile à porter,
+         et mon fardeau, léger. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -1,3 +1,7 @@
+celebration:
+  title: Samedi
+  subtitle: Quatrième semaine de Pâques
+  description: null
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
@@ -146,3 +150,123 @@ vespers:
 
       Jésus, flambeau de la Cité de Dieu,
       – répands ta clarté sur les défunts.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 13, 44-52
+      headline: |-
+        « Eh bien ! nous nous tournons vers les nations païennes »
+      content: |-
+        Le sabbat qui suivait la première prédication de Paul
+        à Antioche de Pisidie,
+        presque toute la ville se rassembla
+        pour entendre la parole du Seigneur.
+        Quand les Juifs virent les foules,
+        ils s’enflammèrent de jalousie ;
+        ils contredisaient les paroles de Paul et l’injuriaient.
+        Paul et Barnabé leur déclarèrent avec assurance :
+        « C’est à vous d’abord
+        qu’il était nécessaire d’adresser la parole de Dieu.
+        Puisque vous la rejetez
+        et que vous-mêmes ne vous jugez pas dignes de la vie éternelle,
+        eh bien ! nous nous tournons vers les nations païennes.
+        C’est le commandement que le Seigneur nous a donné :
+        _J’ai fait de toi la lumière des nations
+        pour que, grâce à toi,
+        le salut parvienne jusqu’aux extrémités de la terre. »_
+        En entendant cela, les païens étaient dans la joie
+        et rendaient gloire à la parole du Seigneur ;
+        tous ceux qui étaient destinés à la vie éternelle
+        devinrent croyants.
+        Ainsi la parole du Seigneur se répandait dans toute la région.
+
+        Mais les Juifs provoquèrent l’agitation
+        parmi les femmes de qualité adorant Dieu,
+        et parmi les notables de la cité ;
+        ils se mirent à poursuivre Paul et Barnabé,
+        et les expulsèrent de leur territoire.
+        Ceux-ci secouèrent contre eux la poussière de leurs pieds
+        et se rendirent à Iconium,
+        tandis que les disciples étaient remplis de joie et d’Esprit Saint.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
+      refAbbr: 97, 1…
+      chorus:
+      - chorusRef: 97, 3
+        chorus: |-
+          La terre tout entière a vu
+          le salut que Dieu nous donne.
+      - chorus: Alléluia !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        car il a fait des merveilles ;
+        par son bras très saint, par sa main puissante,
+        il s’est assuré la victoire.
+
+        Le Seigneur a fait connaître sa victoire,
+        et révélé sa justice aux nations ;
+        il s’est rappelé sa fidélité, son amour,
+        en faveur de la maison d’Israël.
+
+        La terre tout entière a vu
+        la victoire de notre Dieu.
+        Acclamez le Seigneur, terre entière,
+        sonnez, chantez, jouez !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 14, 7-14
+      headline: |-
+        « Celui qui m’a vu a vu le Père »
+      acclamationAntiphon: |-
+        Si vous demeurez dans ma parole,
+        vous êtes vraiment mes disciples ;
+        alors vous connaîtrez la vérité, dit le Seigneur.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Puisque vous me connaissez,
+        vous connaîtrez aussi mon Père.
+        Dès maintenant vous le connaissez,
+        et vous l’avez vu. »
+        Philippe lui dit :
+        « Seigneur, montre-nous le Père ;
+        cela nous suffit. »
+        Jésus lui répond :
+        « Il y a si longtemps que je suis avec vous,
+        et tu ne me connais pas, Philippe !
+        Celui qui m’a vu
+        a vu le Père.
+        Comment peux-tu dire : “Montre-nous le Père” ?
+        Tu ne crois donc pas que je suis dans le Père
+        et que le Père est en moi !
+        Les paroles que je vous dis,
+        je ne les dis pas de moi-même ;
+        le Père qui demeure en moi
+        fait ses propres œuvres.
+        Croyez-moi :
+        je suis dans le Père,
+        et le Père est en moi ;
+        si vous ne me croyez pas,
+        croyez du moins à cause des œuvres elles-mêmes.
+        Amen, amen, je vous le dis :
+        celui qui croit en moi
+        fera les œuvres que je fais.
+        Il en fera même de plus grandes,
+        parce que je pars vers le Père,
+        et tout ce que vous demanderez en mon nom,
+        je le ferai,
+        afin que le Père soit glorifié dans le Fils.
+        Quand vous me demanderez quelque chose en mon nom,
+        moi, je le ferai. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

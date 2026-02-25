@@ -1,3 +1,7 @@
+celebration:
+  title: Jeudi
+  subtitle: Vingt-septième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
@@ -45,3 +49,175 @@ readings:
         Le Christ, notre paix, a détruit les séparations :
         en un seul corps,
         il nous rassemble par la croix.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ml 3, 13-20a
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Voici que vient le jour du Seigneur, brûlant comme la fournaise »
+      content: |-
+        « Vous avez contre moi des paroles dures,
+        – dit le Seigneur.
+        Et vous osez demander :
+        “Qu’avons-nous dit entre nous contre toi ?”
+         Voici ce que vous avez dit :
+        “Servir Dieu n’a pas de sens.
+        À quoi bon garder ses observances,
+        mener une vie sans joie
+        en présence du Seigneur de l’univers ?
+         Nous en venons à dire bienheureux les arrogants ;
+        même ceux qui font le mal sont prospères,
+        même s’ils mettent Dieu à l’épreuve, ils en réchappent !” »
+         Alors ceux qui craignent le Seigneur
+        s’exhortèrent mutuellement.
+        Le Seigneur fut attentif et les écouta ;
+        un livre fut écrit devant lui pour en garder mémoire,
+        en faveur de ceux qui le craignent
+        et qui ont le souci de son nom.
+         Le Seigneur de l’univers déclara :
+        « Ils seront mon domaine particulier
+        pour le jour que je prépare.
+        Je serai indulgent envers eux,
+        comme un homme est indulgent
+        envers le fils qui le sert fidèlement.
+         Vous verrez de nouveau qu’il y a une différence
+        entre le juste et le méchant,
+        entre celui qui sert Dieu et celui qui refuse de le servir.
+         Voici que vient le jour du Seigneur,
+        brûlant comme la fournaise.
+        Tous les arrogants, tous ceux qui commettent l’impiété,
+        seront de la paille.
+        Le jour qui vient les consumera,
+        – dit le Seigneur de l’univers –,
+        il ne leur laissera ni racine ni branche.
+         Mais pour vous qui craignez mon nom,
+        le Soleil de justice se lèvera :
+        il apportera la guérison dans son rayonnement. »
+    - biblicalRef: Ga 3, 1-5
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « L’Esprit Saint, l’avez-vous reçu pour avoir pratiqué la Loi, ou pour avoir écouté le message de la foi ? »
+      content: |-
+        Galates stupides,
+        qui donc vous a ensorcelés ?
+        À vos yeux, pourtant, Jésus Christ a été présenté crucifié.
+         Je n’ai qu’une question à vous poser :
+        l’Esprit Saint, l’avez-vous reçu
+        pour avoir pratiqué la Loi,
+        ou pour avoir écouté le message de la foi ?
+         Comment pouvez-vous être aussi fous ?
+        Après avoir commencé par l’Esprit,
+        allez-vous, maintenant, finir par la chair ?
+         Auriez-vous vécu de si grandes choses en vain ?
+        Si encore ce n’était qu’en vain !
+         Celui qui vous fait don de l’Esprit
+        et qui réalise des miracles parmi vous,
+        le fait-il parce que vous pratiquez la Loi,
+        ou parce que vous écoutez le message de la foi ?
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 39, 5a
+        chorus: |-
+          Heureux est l’homme
+          qui met sa foi dans le Seigneur.
+      content: |-
+        Heureux est l’homme
+         qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+         planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+         balayée par le vent.
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+    - biblicalRef: Lc 1, 69-70, 71-72, 73-75
+      refAbbr: 1, 69…
+      chorus:
+      - chorusRef: 1, 68
+        chorus: |-
+          Béni soit le Seigneur, le Dieu d’Israël,
+          car il a visité son peuple.
+      content: |-
+        Il a fait surgir la force qui nous sauve
+        dans la maison de David, son serviteur,
+        comme il l’avait dit par la bouche des saints,
+        par ses prophètes, depuis les temps anciens :
+
+        salut qui nous arrache à l’ennemi,
+        à la main de tous nos oppresseurs,
+        amour qu’il montre envers nos pères,
+        mémoire de son alliance sainte,
+
+        serment juré à notre père Abraham
+        de nous rendre sans crainte,
+        afin que, délivrés de la main des ennemis,
+        nous le servions dans la justice et la sainteté,
+         en sa présence, tout au long de nos jours.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 11, 5-13
+      headline: |-
+        « Demandez, on vous donnera »
+      acclamationAntiphon: |-
+        Seigneur, ouvre notre cœur
+        pour nous rendre attentifs aux paroles de ton Fils.
+      content: |-
+        En ce temps-là,
+         Jésus disait à ses disciples :
+        « Imaginez que l’un de vous ait un ami
+        et aille le trouver au milieu de la nuit pour lui demander :
+        “Mon ami, prête-moi trois pains,
+         car un de mes amis est arrivé de voyage chez moi,
+        et je n’ai rien à lui offrir.”
+         Et si, de l’intérieur, l’autre lui répond :
+        “Ne viens pas m’importuner !
+        La porte est déjà fermée ;
+        mes enfants et moi, nous sommes couchés.
+        Je ne puis pas me lever pour te donner quelque chose.”
+         Eh bien ! je vous le dis :
+        même s’il ne se lève pas pour donner par amitié,
+        il se lèvera à cause du sans-gêne de cet ami,
+        et il lui donnera tout ce qu’il lui faut.
+         Moi, je vous dis :
+        Demandez, on vous donnera ;
+        cherchez, vous trouverez ;
+        frappez, on vous ouvrira.
+         En effet, quiconque demande reçoit ;
+        qui cherche trouve ;
+        à qui frappe, on ouvrira.
+         Quel père parmi vous, quand son fils lui demande un poisson,
+        lui donnera un serpent au lieu du poisson ?
+         ou lui donnera un scorpion
+        quand il demande un œuf ?
+         Si donc vous, qui êtes mauvais,
+        vous savez donner de bonnes choses à vos enfants,
+        combien plus le Père du ciel donnera-t-il l’Esprit Saint
+        à ceux qui le lui demandent ! »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

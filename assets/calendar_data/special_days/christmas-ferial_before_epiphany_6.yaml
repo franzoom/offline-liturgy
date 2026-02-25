@@ -1,8 +1,8 @@
 celebration:
   title: 6 janvier (avant l’Épiphanie)
-  precedence: 13
+  subtitle: null
+  description: null
   color: white
-
 oration:
   - Seigneur, sois la lumière de ton peuple et brûle toujours son cœur aux splendeurs de ta gloire ; alors il n’hésitera pas à reconnaître son Sauveur et pourra se donner à lui en toute vérité.
 
@@ -130,3 +130,148 @@ vespers:
 
       Toi, la Parole que l’Esprit murmure en nos cœurs,
       rends-nous attentifs aux appels de nos frères.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Jn 5, 5-13
+      headline: |-
+        « L’Esprit, l’eau et le sang »
+      content: |-
+        Bien-aimés,
+         qui donc est vainqueur du monde ?
+        N’est-ce pas celui qui croit
+        que Jésus est le Fils de Dieu ?
+         C’est lui, Jésus Christ,
+        qui est venu par l’eau et par le sang :
+        non pas seulement avec l’eau,
+        mais avec l’eau et avec le sang.
+        Et celui qui rend témoignage, c’est l’Esprit,
+        car l’Esprit est la vérité.
+         En effet, ils sont trois qui rendent témoignage,
+         l’Esprit, l’eau et le sang,
+        et les trois n’en font qu’un.
+         Nous acceptons bien le témoignage des hommes ;
+        or, le témoignage de Dieu a plus de valeur,
+        puisque le témoignage de Dieu,
+        c’est celui qu’il rend à son Fils.
+         Celui qui met sa foi dans le Fils de Dieu
+        possède en lui-même ce témoignage.
+        Celui qui ne croit pas Dieu,
+        celui-là fait de Dieu un menteur,
+        puisqu’il n’a pas mis sa foi dans le témoignage
+        que Dieu rend à son Fils.
+         Et ce témoignage, le voici :
+        Dieu nous a donné la vie éternelle,
+        et cette vie est dans son Fils.
+         Celui qui a le Fils possède la vie ;
+        celui qui n’a pas le Fils de Dieu ne possède pas la vie.
+         Je vous ai écrit cela
+        pour que vous sachiez que vous avez la vie éternelle,
+        vous qui mettez votre foi
+        dans le nom du Fils de Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 147 (147B), 12-13, 14-15, 19-20
+      refAbbr: 147, 12…
+      chorus:
+      - chorusRef: 147, 12
+        chorus: |-
+          Glorifie le Seigneur, Jérusalem !
+          Célèbre ton Dieu, ô Sion !
+      - chorus: Alléluia !
+      content: |-
+        Glorifie le Seigneur, Jérusalem !
+        Célèbre ton Dieu, ô Sion !
+        Il a consolidé les barres de tes portes,
+        dans tes murs il a béni tes enfants.
+
+        il fait régner la paix à tes frontières,
+        et d’un pain de froment te rassasie.
+        Il envoie sa parole sur la terre :
+        rapide, son verbe la parcourt.
+
+        Il révèle sa parole à Jacob,
+        ses volontés et ses lois à Israël.
+        Pas un peuple qu’il ait ainsi traité ;
+        nul autre n’a connu ses volontés.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 1, 7-11
+      headline: |-
+        « Tu es mon Fils bien-aimé ; en toi, je trouve ma joie »
+      acclamationAntiphon: |-
+        Ô Christ, né de la race des hommes,
+        tu es au-dessus de tout,
+        Dieu béni pour les siècles !
+      content: |-
+        En ce temps-là,
+         Jean le Baptiste proclamait :
+        « Voici venir derrière moi
+        celui qui est plus fort que moi ;
+        je ne suis pas digne de m’abaisser
+        pour défaire la courroie de ses sandales.
+         Moi, je vous ai baptisés avec de l’eau ;
+        lui vous baptisera dans l’Esprit Saint. »
+
+        En ces jours-là,
+        Jésus vint de Nazareth, ville de Galilée,
+        et il fut baptisé par Jean dans le Jourdain.
+         Et aussitôt, en remontant de l’eau,
+        il vit les cieux se déchirer
+        et l’Esprit descendre sur lui comme une colombe.
+         Il y eut une voix venant des cieux :
+        « Tu es mon Fils bien-aimé ;
+        en toi, je trouve ma joie. »
+    - biblicalRef: Lc 3, 23-38
+      headline: |-
+        Généalogie de Jésus Christ, fils d’Adam, fils de Dieu
+      acclamationAntiphon: |-
+        Ô Christ, né de la race des hommes,
+        tu es au-dessus de tout,
+        Dieu béni pour les siècles !
+      content: |-
+        Quand il commença, Jésus avait environ trente ans ;
+        il était, à ce que l’on pensait, fils de Joseph, fils d’Éli,
+         fils de Matthate, fils de Lévi,
+        fils de Melki, fils de Jannaï, fils de Joseph,
+         fils de Mattathias, fils d’Amos,
+        fils de Nahoum, fils de Hesli, fils de Naggaï,
+         fils de Maath, fils de Mattathias,
+        fils de Séméine, fils de Josek, fils de Joda,
+         fils de Joanane, fils de Résa,
+        fils de Zorobabel, fils de Salathiel, fils de Néri,
+         fils de Melki, fils d’Addi,
+        fils de Kosam, fils d’Elmadam, fils d’Er,
+         fils de Jésus, fils d’Éliézer,
+        fils de Jorim, fils de Matthate, fils de Lévi,
+         fils de Syméon, fils de Juda,
+        fils de Joseph, fils de Jonam, fils d’Éliakim,
+         fils de Méléa, fils de Menna,
+        fils de Mattatha, fils de Natham,
+        fils de David,
+         fils de Jessé, fils de Jobed, fils de Booz,
+        fils de Sala, fils de Naassone,
+         fils d’Aminadab, fils d’Admine, fils d’Arni,
+        fils d’Esrom, fils de Pharès, fils de Juda,
+         fils de Jacob, fils d’Isaac,
+        fils d’Abraham, fils de Thara, fils de Nakor,
+         fils de Sérouk, fils de Ragaou,
+        fils de Phalek, fils d’Éber, fils de Sala,
+         fils de Kaïnam, fils d’Arphaxad,
+        fils de Sem, fils de Noé, fils de Lamek,
+         fils de Mathusalem, fils de Hénok,
+        fils de Jareth, fils de Maléléel, fils de Kaïnam,
+         fils d’Énos, fils de Seth,
+        fils d’Adam,
+        fils de Dieu.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

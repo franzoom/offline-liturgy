@@ -1,3 +1,7 @@
+celebration:
+  title: Mardi
+  subtitle: Quatrième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -167,3 +171,150 @@ vespers:
 
       Accorde à ceux qui meurent
       de passer de ce monde au Royaume dans la Pâque de ton Fils.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ez 47, 1-9.12
+      headline: |-
+        J’ai vu l’eau qui jaillissait du Temple : tous ceux qu’elle touchait furent sauvés
+      content: |-
+        En ces jours-là,
+        au cours d’une vision reçue du Seigneur,
+        l’homme me fit revenir à l’entrée de la Maison,
+        et voici : sous le seuil de la Maison,
+        de l’eau jaillissait vers l’orient,
+        puisque la façade de la Maison était du côté de l’orient.
+
+        L’eau descendait de dessous le côté droit de la Maison,
+        au sud de l’autel.
+        L’homme me fit sortir par la porte du nord
+        et me fit faire le tour par l’extérieur,
+        jusqu’à la porte qui fait face à l’orient,
+        et là encore l’eau coulait du côté droit.
+        L’homme s’éloigna vers l’orient,
+        un cordeau à la main,
+        et il mesura une distance de mille coudées ;
+        alors il me fit traverser l’eau :
+        j’en avais jusqu’aux chevilles.
+        Il mesura encore mille coudées
+        et me fit traverser l’eau :
+        j’en avais jusqu’aux genoux.
+        Il mesura encore mille coudées et me fit traverser :
+        j’en avais jusqu’aux reins.
+        Il en mesura encore mille :
+        c’était un torrent que je ne pouvais traverser ;
+        l’eau avait grossi, il aurait fallu nager :
+        c’était un torrent infranchissable.
+        Alors il me dit :
+        « As-tu vu, fils d’homme ? »
+        Puis il me ramena au bord du torrent.
+        Quand il m’eut ramené, voici qu’il y avait au bord du torrent,
+        de chaque côté, des arbres en grand nombre.
+
+        Il me dit :
+        « Cette eau coule vers la région de l’orient,
+        elle descend dans la vallée du Jourdain,
+        et se déverse dans la mer Morte,
+        dont elle assainit les eaux.
+        En tout lieu où parviendra le torrent,
+        tous les animaux pourront vivre et foisonner.
+        Le poisson sera très abondant,
+        car cette eau assainit tout ce qu’elle pénètre,
+        et la vie apparaît en tout lieu où arrive le torrent.
+        Au bord du torrent, sur les deux rives,
+        toutes sortes d’arbres fruitiers pousseront ;
+        leur feuillage ne se flétrira pas
+        et leurs fruits ne manqueront pas.
+        Chaque mois ils porteront des fruits nouveaux,
+        car cette eau vient du sanctuaire.
+        Les fruits seront une nourriture,
+        et les feuilles un remède. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 45 (46), 2-3, 5-6, 8-9a.10a
+      refAbbr: 45, 2…
+      chorus:
+      - chorusRef: 45, 8
+        chorus: |-
+          Il est avec nous, le Dieu de l’univers ;
+          citadelle pour nous, le Dieu de Jacob !
+      content: |-
+        Dieu est pour nous refuge et force,
+        secours dans la détresse, toujours offert.
+        Nous serons sans crainte si la terre est secouée,
+        si les montagnes s’effondrent au creux de la mer.
+
+        Le Fleuve, ses bras réjouissent la ville de Dieu,
+        la plus sainte des demeures du Très-Haut.
+        Dieu s’y tient : elle est inébranlable ;
+        quand renaît le matin, Dieu la secourt.
+
+        Il est avec nous, le Seigneur de l’univers ;
+        citadelle pour nous, le Dieu de Jacob !
+        Venez et voyez les actes du Seigneur,
+        il détruit la guerre jusqu’au bout du monde.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 5, 1-16
+      headline: |-
+        « Aussitôt l’homme fut guéri »
+      acclamationAntiphon: |-
+        Crée en moi un cœur pur, ô mon Dieu ;
+        rends-moi la joie d’être sauvé.
+      content: |-
+        À l’occasion d’une fête juive,
+        Jésus monta à Jérusalem.
+        Or, à Jérusalem, près de la porte des Brebis,
+        il existe une piscine qu’on appelle en hébreu Bethzatha.
+        Elle a cinq colonnades,
+        sous lesquelles étaient couchés une foule de malades,
+        aveugles, boiteux et impotents.
+        Il y avait là un homme qui était malade depuis trente-huit ans.
+        Jésus, le voyant couché là,
+        et apprenant qu’il était dans cet état depuis longtemps,
+        lui dit :
+        « Veux-tu être guéri ? »
+        Le malade lui répondit :
+        « Seigneur, je n’ai personne
+        pour me plonger dans la piscine
+        au moment où l’eau bouillonne ;
+        et pendant que j’y vais,
+        un autre descend avant moi. »
+        Jésus lui dit :
+        « Lève-toi, prends ton brancard, et marche. »
+        Et aussitôt l’homme fut guéri.
+        Il prit son brancard : il marchait !
+        Or, ce jour-là était un jour de sabbat.
+        Les Juifs dirent donc à cet homme que Jésus avait remis sur pied :
+        « C’est le sabbat !
+        Il ne t’est pas permis de porter ton brancard. »
+        Il leur répliqua :
+        « Celui qui m’a guéri, c’est lui qui m’a dit :
+        “Prends ton brancard, et marche !” »
+        Ils l’interrogèrent :
+        « Quel est l’homme qui t’a dit :
+        “Prends ton brancard, et marche” ? »
+        Mais celui qui avait été rétabli
+        ne savait pas qui c’était ;
+        en effet, Jésus s’était éloigné,
+        car il y avait foule à cet endroit.
+
+        Plus tard, Jésus le retrouve dans le Temple et lui dit :
+        « Te voilà guéri.
+        Ne pèche plus,
+        il pourrait t’arriver quelque chose de pire. »
+        L’homme partit annoncer aux Juifs
+        que c’était Jésus qui l’avait guéri.
+        Et ceux-ci persécutaient Jésus
+        parce qu’il avait fait cela le jour du sabbat.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

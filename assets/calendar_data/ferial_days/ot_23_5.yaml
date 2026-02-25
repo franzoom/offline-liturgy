@@ -1,3 +1,7 @@
+celebration:
+  title: Vendredi
+  subtitle: Vingt-troisième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Rendons grâce à Dieu, éternel est son amour.
@@ -56,3 +60,163 @@ readings:
         Appelés à partager une seule espérance
         dans le Christ,
         nous chantons et nous proclamons.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Tm 1, 1-2.12-14
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Moi qui étais autrefois blasphémateur, il m’a été fait miséricorde »
+      content: |-
+        Paul, apôtre du Christ Jésus
+        par ordre de Dieu notre Sauveur
+        et du Christ Jésus notre espérance,
+         à Timothée,
+        mon véritable enfant dans la foi.
+        À toi, la grâce, la miséricorde et la paix
+        de la part de Dieu le Père
+        et du Christ Jésus notre Seigneur.
+         Je suis plein de gratitude
+        envers celui qui me donne la force,
+        le Christ Jésus notre Seigneur,
+        car il m’a estimé digne de confiance
+        lorsqu’il m’a chargé du ministère,
+         moi qui étais autrefois blasphémateur,
+        persécuteur, violent.
+        Mais il m’a été fait miséricorde,
+        car j’avais agi par ignorance,
+        n’ayant pas encore la foi ;
+         la grâce de notre Seigneur a été encore plus abondante,
+        avec la foi, et avec l’amour qui est dans le Christ Jésus.
+    - biblicalRef: 1 Co 9, 16-19.22-27
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Je me suis fait tout à tous pour en sauver à tout prix quelques-uns »
+      content: |-
+        Frères,
+        annoncer l’Évangile,
+        ce n’est pas là pour moi un motif de fierté,
+        c’est une nécessité qui s’impose à moi.
+        Malheur à moi si je n’annonçais pas l’Évangile !
+        Certes, si je le fais de moi-même,
+        je mérite une récompense.
+        Mais je ne le fais pas de moi-même,
+        c’est une mission qui m’est confiée.
+        Alors quel est mon mérite ?
+        C’est d’annoncer l’Évangile sans rechercher aucun avantage matériel,
+        et sans faire valoir mes droits de prédicateur de l’Évangile.
+        Oui, libre à l’égard de tous,
+        je me suis fait l’esclave de tous
+        afin d’en gagner le plus grand nombre possible.
+        Avec les faibles, j’ai été faible,
+        pour gagner les faibles.
+        Je me suis fait tout à tous
+        pour en sauver à tout prix quelques-uns.
+        Et tout cela, je le fais à cause de l’Évangile,
+        pour y avoir part, moi aussi.
+
+        Vous savez bien que, dans le stade,
+        tous les coureurs participent à la course,
+        mais un seul reçoit le prix.
+        Alors, vous, courez de manière à l’emporter.
+        Tous les athlètes à l’entraînement
+        s’imposent une discipline sévère ;
+        ils le font pour recevoir une couronne de laurier qui va se faner,
+        et nous, pour une couronne qui ne se fane pas.
+        Moi, si je cours, ce n’est pas sans fixer le but ;
+        si je fais de la lutte, ce n’est pas en frappant dans le vide.
+        Mais je traite durement mon corps,
+        j’en fais mon esclave,
+        pour éviter qu’après avoir proclamé l’Évangile à d’autres,
+        je sois moi-même disqualifié.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 11
+      refAbbr: 15, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu : j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Seigneur, mon partage et ma coupe :
+        de toi dépend mon sort. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+    - biblicalRef: Ps 83 (84), 3, 4, 5-6, 12
+      refAbbr: 83, 3…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 83, 2
+        chorus: |-
+          De quel amour sont aimées tes demeures,
+          Seigneur de l’univers !
+      content: |-
+        Mon âme s’épuise à désirer
+        les parvis du Seigneur ;
+        mon cœur et ma chair sont un cri
+        vers le Dieu vivant !
+
+        L’oiseau lui-même s’est trouvé une maison,
+        et l’hirondelle, un nid pour abriter sa couvée :
+        tes autels, Seigneur de l’univers,
+        mon Roi et mon Dieu !
+
+        Heureux les habitants de ta maison :
+        ils pourront te chanter encore !
+        Heureux les hommes dont tu es la force :
+        des chemins s’ouvrent dans leur cœur !
+
+        Le Seigneur Dieu est un soleil, il est un bouclier ;
+        le Seigneur donne la grâce, il donne la gloire.
+        Jamais il ne refuse le bonheur
+        à ceux qui vont sans reproche.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 6, 39-42
+      headline: |-
+        « Un aveugle peut-il guider un autre aveugle ? »
+      acclamationAntiphon: |-
+        Ta parole, Seigneur, est vérité ;
+        dans cette vérité, sanctifie-nous.
+      content: |-
+        En ce temps-là,
+         Jésus disait à ses disciples en parabole :
+        « Un aveugle peut-il guider un autre aveugle ?
+        Ne vont-ils pas tomber tous les deux dans un trou ?
+         Le disciple n’est pas au-dessus du maître ;
+        mais une fois bien formé,
+        chacun sera comme son maître.
+
+        Qu’as-tu à regarder la paille dans l’œil de ton frère,
+        alors que la poutre qui est dans ton œil à toi,
+        tu ne la remarques pas ?
+         Comment peux-tu dire à ton frère :
+        “Frère, laisse-moi enlever la paille qui est dans ton œil”,
+        alors que toi-même ne vois pas la poutre qui est dans le tien ?
+        Hypocrite ! Enlève d’abord la poutre de ton œil ;
+        alors tu verras clair
+        pour enlever la paille qui est dans l’œil de ton frère. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

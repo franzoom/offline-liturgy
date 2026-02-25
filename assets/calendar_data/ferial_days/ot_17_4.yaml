@@ -1,3 +1,7 @@
+celebration:
+  title: Jeudi
+  subtitle: Dix-septième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
@@ -49,3 +53,162 @@ readings:
         À notre tour, courons notre épreuve,
         les regards fixés sur Jésus
         qui nous a ouvert un chemin de vie.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ex 40, 16-21.34-38
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « La nuée couvrit la tente de la Rencontre, et la gloire du Seigneur remplit la Demeure »
+      content: |-
+        En ces jours-là,
+         Moïse exécuta tout ce que le Seigneur lui avait ordonné.
+         La demeure de Dieu fut érigée
+        la deuxième année après la sortie d’Égypte,
+        le premier jour du premier mois.
+         Moïse érigea ainsi la Demeure :
+        il en posa les bases, les poutres et les traverses,
+        et il dressa les colonnes.
+         Au-dessus de la Demeure, il déploya la Tente et la recouvrit
+        comme le Seigneur le lui avait ordonné.
+         Il prit le Témoignage et le déposa dans l’arche.
+        Il mit à l’arche ses barres
+        et la recouvrit de la plaque d’or appelée propitiatoire.
+         Il introduisit l’arche dans la Demeure,
+        et posa le rideau pour voiler l’arche du Témoignage
+        comme le Seigneur le lui avait ordonné.
+
+        La nuée couvrit la tente de la Rencontre,
+        et la gloire du Seigneur remplit la Demeure.
+         Moïse ne pouvait pas entrer dans la tente de la Rencontre,
+        car la nuée y demeurait
+        et la gloire du Seigneur remplissait la Demeure.
+         À chaque étape,
+        lorsque la nuée s’élevait et quittait la Demeure,
+        les fils d’Israël levaient le camp.
+         Si la nuée ne s’élevait pas, ils campaient
+        jusqu’au jour où elle s’élevait.
+         Dans la journée, la nuée du Seigneur reposait sur la Demeure,
+        et la nuit, un feu brillait dans la nuée
+        aux yeux de tout Israël.
+        Et il en fut ainsi à toutes leurs étapes.
+    - biblicalRef: Jr 18, 1-6
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Comme l’argile est dans la main du potier, ainsi êtes-vous dans ma main »
+      content: |-
+        Parole du Seigneur adressée à Jérémie :
+         « Lève-toi, descends à la maison du potier ;
+        là, je te ferai entendre mes paroles. »
+         Je descendis donc à la maison du potier.
+        Il était en train de travailler sur son tour.
+         Le vase qu’il façonnait de sa main avec l’argile
+        fut manqué.
+        Alors il recommença, et il fit un autre vase,
+        selon ce qu’il est bon de faire, aux yeux d’un potier.
+         Alors la parole du Seigneur me fut adressée :
+         « Maison d’Israël, est-ce que je ne pourrais pas
+        vous traiter comme fait ce potier ?
+        – oracle du Seigneur.
+        Oui, comme l’argile est dans la main du potier,
+        ainsi êtes-vous dans ma main, maison d’Israël ! »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 83, 3, 4, 5-6, 11
+      refAbbr: 83, 3…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 83, 2
+        chorus: |-
+          De quel amour sont aimées tes demeures,
+          Seigneur de l’univers !
+      content: |-
+        Mon âme s’épuise à désirer
+        les parvis du Seigneur ;
+        mon cœur et ma chair sont un cri
+        vers le Dieu vivant !
+
+        L’oiseau lui-même s’est trouvé une maison,
+        et l’hirondelle, un nid pour abriter sa couvée :
+        tes autels, Seigneur de l’univers,
+        mon Roi et mon Dieu !
+
+        Heureux les habitants de ta maison :
+        ils pourront te chanter encore !
+        Heureux les hommes dont tu es la force :
+        des chemins s’ouvrent dans leur cœur !
+
+        Oui, un jour dans tes parvis
+        en vaut plus que mille.
+        J’ai choisi de me tenir sur le seuil,
+         dans la maison de mon Dieu,
+        plutôt que d’habiter parmi les infidèles.
+    - biblicalRef: Ps 145 (146), 1-2, 3-4, 5-6ab
+      refAbbr: 145, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 145, 5a
+        chorus: Heureux qui s’appuie sur le Dieu de Jacob.
+      - chorus: Alléluia !
+      content: |-
+        Chante, ô mon âme, la louange du Seigneur !
+        Je veux louer le Seigneur tant que je vis,
+        chanter mes hymnes pour mon Dieu tant que je dure.
+
+        Ne comptez pas sur les puissants,
+        des fils d’homme qui ne peuvent sauver !
+        Leur souffle s’en va : ils retournent à la terre ;
+        et ce jour-là, périssent leurs projets.
+
+        Heureux qui s’appuie sur le Dieu de Jacob,
+        qui met son espoir dans le Seigneur son Dieu,
+        lui qui a fait le ciel et la terre
+        et la mer et tout ce qu’ils renferment !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 13, 47-53
+      headline: |-
+        « On ramasse dans des paniers ce qui est bon, et on rejette ce qui ne vaut rien »
+      acclamationAntiphon: |
+        Seigneur, ouvre notre cœur
+        pour nous rendre attentifs aux paroles de ton Fils.
+      content: |-
+        En ce temps-là,
+        Jésus disait aux foules :
+         « Le royaume des Cieux est encore comparable
+        à un filet que l’on jette dans la mer,
+        et qui ramène toutes sortes de poissons.
+         Quand il est plein, on le tire sur le rivage,
+        on s’assied,
+        on ramasse dans des paniers ce qui est bon,
+        et on rejette ce qui ne vaut rien.
+         Ainsi en sera-t-il à la fin du monde :
+        les anges sortiront pour séparer les méchants du milieu des justes
+         et les jetteront dans la fournaise :
+        là, il y aura des pleurs et des grincements de dents. »
+
+        « Avez-vous compris tout cela ? »
+        Ils lui répondent : « Oui ».
+         Jésus ajouta :
+        « C’est pourquoi tout scribe
+        devenu disciple du royaume des Cieux
+        est comparable à un maître de maison
+        qui tire de son trésor du neuf et de l’ancien. »
+
+        Lorsque Jésus eut terminé ces paraboles,
+        il s’éloigna de là.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

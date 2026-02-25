@@ -1,7 +1,9 @@
 celebration:
   title: 22 décembre
+  subtitle: Semaine avant Noël
+  description: |-
+    FÉRIE MAJEURE : « Ô Roi des nations, objet de leur désir »
   color: violet
-
 oration:
   - Tu n’as pas supporté, Seigneur, que l’homme soit abandonné à la mort, mais tu as voulu le racheter en lui envoyant ton Fils unique ; accorde, nous t’en prions, à ceux qui s’inclineront devant l’enfant de Bethléem, de communier à la vie d’un tel Rédempteur. Lui qui règne.
 
@@ -117,3 +119,103 @@ vespers:
 
       Nous te confions nos frères qui sont morts ;
       qu’ils vivent de toi pour toujours.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 S 1, 24-28
+      headline: |-
+        Anne rend grâce pour la naissance de son fils Samuel
+      content: |-
+        En ces jours-là,
+        lorsque Samuel fut sevré,
+         Anne, sa mère, le conduisit à la maison du Seigneur, à Silo ;
+        l’enfant était encore tout jeune.
+        Anne avait pris avec elle un taureau de trois ans,
+         un sac de farine et une outre de vin.
+        On offrit le taureau en sacrifice,
+         et on amena l’enfant au prêtre Éli.
+        Anne lui dit alors :
+         « Écoute-moi, mon seigneur, je t’en prie !
+         Aussi vrai que tu es vivant,
+         je suis cette femme qui se tenait ici près de toi
+         pour prier le Seigneur.
+         C’est pour obtenir cet enfant que je priais,
+         et le Seigneur me l’a donné en réponse à ma demande.
+         À mon tour je le donne au Seigneur pour qu’il en dispose.
+         Il demeurera à la disposition du Seigneur
+         tous les jours de sa vie. »
+        Alors ils se prosternèrent devant le Seigneur.
+  - partType: CANTICLE
+    partContents:
+    - biblicalRef: 1 S 2, 1, 4-5ab, 6-7, 8abcd
+      refAbbr: 2, 1…
+      chorus:
+      - chorusRef: 2, 1a
+        chorus: |-
+          Mon cœur exulte à cause du Seigneur :
+          c’est lui qui me sauve.
+      content: |-
+        Mon cœur exulte à cause du Seigneur ;
+        mon front s’est relevé grâce à mon Dieu !
+        Face à mes ennemis, s’ouvre ma bouche :
+        oui, je me réjouis de ton salut !
+
+        L’arc des forts est brisé,
+        mais le faible se revêt de vigueur.
+        Les plus comblés s’embauchent pour du pain,
+        et les affamés se reposent.
+
+        Le Seigneur fait mourir et vivre ;
+        il fait descendre à l’abîme et en ramène.
+        Le Seigneur rend pauvre et riche ;
+        il abaisse et il élève.
+
+        De la poussière il relève le faible,
+        il retire le malheureux de la cendre
+        pour qu’il siège parmi les princes
+        et reçoive un trône de gloire.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 46-56
+      headline: |-
+        « Le Puissant fit pour moi des merveilles »
+      acclamationAntiphon: |-
+        Viens, Roi de l’univers, pierre angulaire de l’Église !
+        À l’homme que tu as pétri de la terre
+        viens apporter le salut.
+      content: |-
+        En ce temps-là,
+        Marie rendit grâce au Seigneur
+        en disant :
+         « Mon âme exalte le Seigneur,
+          exulte mon esprit en Dieu, mon Sauveur !
+         Il s’est penché sur son humble servante ;
+          désormais tous les âges me diront bienheureuse.
+         Le Puissant fit pour moi des merveilles ;
+          Saint est son nom !
+         Sa miséricorde s’étend d’âge en âge
+          sur ceux qui le craignent.
+         Déployant la force de son bras,
+          il disperse les superbes.
+         Il renverse les puissants de leurs trônes,
+          il élève les humbles.
+         Il comble de biens les affamés,
+          renvoie les riches les mains vides.
+         Il relève Israël son serviteur,
+          il se souvient de son amour
+         de la promesse faite à nos pères,
+          en faveur d’Abraham et sa descendance à jamais. »
+
+        Marie resta avec Élisabeth environ trois mois,
+         puis elle s’en retourna chez elle.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

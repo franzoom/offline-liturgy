@@ -1,3 +1,7 @@
+celebration:
+  title: Vendredi
+  subtitle: Troisième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -167,3 +171,122 @@ vespers:
 
       Tu es descendu au séjour des morts avant de monter vers ton Père :
       arrache à la servitude ceux qui attendent leur libération.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Os 14, 2-10
+      headline: |-
+        « Nous ne dirons plus à l’ouvrage de nos mains : “Tu es notre Dieu” »
+      content: |-
+        Ainsi parle le Seigneur :
+        Reviens, Israël, au Seigneur ton Dieu ;
+        car tu t’es effondré par suite de tes fautes.
+        Revenez au Seigneur
+        en lui présentant ces paroles :
+        « Enlève toutes les fautes, et accepte ce qui est bon.
+        Au lieu de taureaux, nous t’offrons en sacrifice
+        les paroles de nos lèvres.
+        Puisque les Assyriens ne peuvent pas nous sauver,
+        nous ne monterons plus sur des chevaux,
+        et nous ne dirons plus à l’ouvrage de nos mains :
+        “Tu es notre Dieu”,
+        car de toi seul l’orphelin reçoit de la tendresse. »
+
+        Voici la réponse du Seigneur :
+        Je les guérirai de leur infidélité,
+        je les aimerai d’un amour gratuit,
+        car ma colère s’est détournée d’Israël.
+        Je serai pour Israël comme la rosée,
+        il fleurira comme le lis,
+        il étendra ses racines comme les arbres du Liban.
+        Ses jeunes pousses vont grandir,
+        sa parure sera comme celle de l’olivier,
+        son parfum, comme celui de la forêt du Liban.
+        Ils reviendront s’asseoir à son ombre,
+        ils feront revivre le froment,
+        ils fleuriront comme la vigne,
+        ils seront renommés comme le vin du Liban.
+        Éphraïm ! Peux-tu me confondre avec les idoles ?
+        C’est moi qui te réponds et qui te regarde.
+        Je suis comme le cyprès toujours vert,
+        c’est moi qui te donne ton fruit.
+
+        Qui donc est assez sage
+        pour comprendre ces choses,
+        assez pénétrant pour les saisir ?
+        Oui, les chemins du Seigneur sont droits :
+        les justes y avancent,
+        mais les pécheurs y trébuchent.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 80 (81), 6c-8a, 8bc-9, 10-11ab, 14.17
+      refAbbr: 80, 6…
+      chorus:
+      - chorusRef: 80, 11.9a
+        chorus: |-
+          C’est moi, le Seigneur ton Dieu,
+          écoute ma voix.
+      content: |-
+        J’entends des mots qui m’étaient inconnus :
+        « J’ai ôté le poids qui chargeait ses épaules ;
+        ses mains ont déposé le fardeau.
+        Quand tu criais sous l’oppression, je t’ai sauvé.
+
+        « Je répondais, caché dans l’orage,
+        je t’éprouvais près des eaux de Mériba.
+        Écoute, je t’adjure, ô mon peuple ;
+        vas-tu m’écouter, Israël ?
+
+        « Tu n’auras pas chez toi d’autres dieux,
+        tu ne serviras aucun dieu étranger.
+        C’est moi, le Seigneur ton Dieu,
+        qui t’ai fait monter de la terre d’Égypte !
+
+        « Ah ! Si mon peuple m’écoutait,
+        Israël, s’il allait sur mes chemins !
+        Je le nourrirais de la fleur du froment,
+        je le rassasierais avec le miel du rocher ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 12, 28b-34
+      headline: |-
+        « Le Seigneur notre Dieu est l’unique Seigneur : tu l’aimeras »
+      acclamationAntiphon: |-
+        Convertissez-vous, dit le Seigneur,
+        car le royaume des Cieux est tout proche.
+      content: |-
+        En ce temps-là,
+        un scribe s’avança vers Jésus pour lui demander :
+        « Quel est le premier de tous les commandements ? »
+        Jésus lui fit cette réponse :
+        « Voici le premier :
+        _Écoute, Israël :
+        le Seigneur notre Dieu est l’unique Seigneur.
+        Tu aimeras le Seigneur ton Dieu
+        de tout ton cœur, de toute ton âme,
+        de tout ton esprit et de toute ta force._
+        Et voici le second :
+        _Tu aimeras ton prochain comme toi-même._
+        Il n’y a pas de commandement plus grand que ceux-là. »
+        Le scribe reprit :
+        « Fort bien, Maître, tu as dit vrai :
+        Dieu est l’Unique
+        et il n’y en a pas d’autre que lui.
+        L’aimer de tout son cœur,
+        de toute son intelligence, de toute sa force,
+        et aimer son prochain comme soi-même,
+        vaut mieux que toute offrande d’holocaustes et de sacrifices. »
+        Jésus, voyant qu’il avait fait une remarque judicieuse, lui dit :
+        « Tu n’es pas loin du royaume de Dieu. »
+        Et personne n’osait plus l’interroger.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

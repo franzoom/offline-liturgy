@@ -1,3 +1,7 @@
+celebration:
+  title: Mardi
+  subtitle: Sixième semaine de Pâques
+  description: null
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
@@ -145,3 +149,118 @@ vespers:
 
       Souviens-toi que tu as brisé les portes de la mort :
       – rassemble dans ton Royaume tous nos frères défunts.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 16, 22-34
+      headline: |-
+        « Crois au Seigneur Jésus, et tu seras sauvé, toi et toute ta maison »
+      content: |-
+        En ces jours-là,
+        dans la ville de Philippes,
+        la foule se déchaîna contre Paul et Silas.
+        Les magistrats ordonnèrent
+        de leur arracher les vêtements
+        pour leur donner la bastonnade.
+        Après les avoir roués de coups,
+        on les jeta en prison,
+        en donnant au geôlier la consigne
+        de les surveiller de près.
+        Pour appliquer cette consigne,
+        il les mit tout au fond de la prison,
+        avec les pieds coincés dans des blocs de bois.
+
+        Vers le milieu de la nuit,
+        Paul et Silas priaient et chantaient les louanges de Dieu,
+        et les autres détenus les écoutaient.
+        Tout à coup, il y eut un violent tremblement de terre,
+        qui secoua les fondations de la prison :
+        à l’instant même, toutes les portes s’ouvrirent,
+        et les liens de tous les détenus se détachèrent.
+        Le geôlier, tiré de son sommeil,
+        vit que les portes de la prison étaient ouvertes ;
+        croyant que les détenus s’étaient évadés,
+        il dégaina son épée et il était sur le point de se donner la mort.
+        Mais Paul se mit à crier d’une voix forte :
+        « Ne va pas te faire de mal,
+        nous sommes tous là. »
+        Ayant réclamé de la lumière,
+        le geôlier se précipita
+        et, tout tremblant, se jeta aux pieds de Paul et de Silas.
+        Puis il les emmena dehors et leur demanda :
+        « Que dois-je faire pour être sauvé, mes seigneurs ? »
+        Ils lui répondirent :
+        « Crois au Seigneur Jésus,
+        et tu seras sauvé, toi et toute ta maison. »
+        Ils lui annoncèrent la parole du Seigneur,
+        ainsi qu’à tous ceux qui vivaient dans sa maison.
+        À l’heure même, en pleine nuit,
+        le geôlier les emmena pour laver leurs plaies.
+        Aussitôt, il reçut le baptême avec tous les siens.
+        Puis il fit monter chez lui Paul et Silas,
+        il fit préparer la table
+        et, avec toute sa maison,
+        il laissa déborder sa joie de croire en Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 137 (138), 1-2a, 2bc- 3, 7c- 8
+      refAbbr: 137, 1…
+      chorus:
+      - chorusRef: 137, 7c
+        chorus: Ta main droite me sauve, Seigneur.
+      - chorus: Alléluia !
+      content: |-
+        De tout mon cœur, Seigneur, je te rends grâce :
+        tu as entendu les paroles de ma bouche.
+        Je te chante en présence des anges,
+        vers ton temple sacré, je me prosterne.
+
+        Je rends grâce à ton nom pour ton amour et ta vérité,
+        car tu élèves, au-dessus de tout, ton nom et ta parole.
+        Le jour où tu répondis à mon appel,
+        tu fis grandir en mon âme la force.
+
+        Ta droite me rend vainqueur.
+        Le Seigneur fait tout pour moi !
+        Seigneur, éternel est ton amour :
+        n’arrête pas l’œuvre de tes mains.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 16, 5-11
+      headline: |-
+        « Si je ne m’en vais pas, le Défenseur ne viendra pas à vous »
+      acclamationAntiphon: |-
+        Je vous enverrai l’Esprit de vérité, dit le Seigneur ;
+        il vous conduira dans la vérité tout entière.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Je m’en vais maintenant auprès de Celui qui m’a envoyé,
+        et aucun de vous ne me demande : “Où vas-tu ?”
+        Mais, parce que je vous dis cela,
+        la tristesse remplit votre cœur.
+        Pourtant, je vous dis la vérité :
+        il vaut mieux pour vous que je m’en aille,
+        car, si je ne m’en vais pas,
+        le Défenseur ne viendra pas à vous ;
+        mais si je pars, je vous l’enverrai.
+        Quand il viendra, il établira la culpabilité du monde
+        en matière de péché, de justice et de jugement.
+        En matière de péché,
+        puisqu’on ne croit pas en moi.
+        En matière de justice,
+        puisque je m’en vais auprès du Père,
+        et que vous ne me verrez plus.
+        En matière de jugement,
+        puisque déjà le prince de ce monde est jugé. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

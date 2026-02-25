@@ -3,7 +3,6 @@ celebration:
   subtitle: 27 décembre
   description: L’apôtre Jean a vécu dans l’intimité du Christ, qu’il avait rencontré sur le bord du Jourdain, il a été le témoin de sa transfiguration et de son agonie, il a vu mourir Jésus et l’a déposé dans son tombeau. Au matin de Pâques il a été le premier à croire en sa résurrection. C’est de tout cela qu’il a transmis en ses écrits le témoignage ébloui.
   color: white
-
 oration:
   - Dieu qui as dévoilé pour nous les mystères de ton Verbe grâce à ton Apôtre saint Jean, rends-nous capables de comprendre et d’aimer les merveilles qu’il nous a fait connaître.
 
@@ -143,3 +142,96 @@ vespers:
       Accueille en toi ceux qui ont franchi la mort.
   oration:
     - "Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit : puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans toute notre vie."
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Jn 1, 1-4
+      headline: |-
+        « Ce que nous avons vu et entendu, nous vous l’annonçons »
+      content: |-
+        Bien-aimés,
+        ce qui était depuis le commencement,
+         ce que nous avons entendu,
+        ce que nous avons vu de nos yeux,
+         ce que nous avons contemplé
+        et que nos mains ont touché
+         du Verbe de vie,
+        nous vous l’annonçons.
+        Oui, la vie s’est manifestée,
+         nous l’avons vue,
+         et nous rendons témoignage :
+        nous vous annonçons
+         la vie éternelle qui était auprès du Père
+         et qui s’est manifestée à nous.
+        Ce que nous avons vu et entendu,
+        nous vous l’annonçons à vous aussi,
+         pour que, vous aussi, vous soyez en communion avec nous.
+        Or nous sommes, nous aussi, en communion avec le Père
+         et avec son Fils, Jésus Christ.
+        Et nous écrivons cela,
+         afin que notre joie soit parfaite.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 96 (97), 1-2, 5-6, 11-12
+      refAbbr: 96, 1…
+      chorus:
+      - chorusRef: 96, 12a
+        chorus: Que le Seigneur soit votre joie, hommes justes !
+      content: |-
+        Le Seigneur est roi ! Exulte la terre !
+        Joie pour les îles sans nombre !
+        Ténèbre et nuée l’entourent,
+        justice et droit sont l’appui de son trône.
+
+        Les montagnes fondaient comme cire devant le Seigneur,
+        devant le Maître de toute la terre.
+        Les cieux ont proclamé sa justice,
+        et tous les peuples ont vu sa gloire.
+
+        Une lumière est semée pour le juste,
+        et pour le cœur simple, une joie.
+        Que le Seigneur soit votre joie, hommes justes ;
+        rendez grâce en rappelant son nom très saint.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 20, 2-8
+      headline: |-
+        « L’autre disciple courut plus vite que Pierre et arriva le premier au tombeau »
+      acclamationAntiphon: |-
+        À toi, Dieu, notre louange !
+        Toi que les Apôtres glorifient,
+        nous t’acclamons : tu es Seigneur !
+      content: |-
+        Le premier jour de la semaine,
+        Marie Madeleine courut trouver Simon-Pierre et l’autre disciple,
+         celui que Jésus aimait,
+        et elle leur dit :
+         « On a enlevé le Seigneur de son tombeau,
+         et nous ne savons pas où on l’a déposé. »
+        Pierre partit donc avec l’autre disciple
+         pour se rendre au tombeau.
+        Ils couraient tous les deux ensemble,
+        mais l’autre disciple courut plus vite que Pierre
+         et arriva le premier au tombeau.
+        En se penchant, il s’aperçoit que les linges sont posés à plat ;
+         cependant il n’entre pas.
+        Simon-Pierre, qui le suivait, arrive à son tour.
+        Il entre dans le tombeau ;
+         il aperçoit les linges, posés à plat,
+         ainsi que le suaire qui avait entouré la tête de Jésus,
+         non pas posé avec les linges,
+         mais roulé à part à sa place.
+        C’est alors qu’entra l’autre disciple,
+         lui qui était arrivé le premier au tombeau.
+        Il vit, et il crut.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

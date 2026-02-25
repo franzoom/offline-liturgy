@@ -1,3 +1,7 @@
+celebration:
+  title: Vendredi
+  subtitle: Cinquième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -170,3 +174,120 @@ vespers:
 
       Tu es descendu au séjour des morts avant de monter vers ton Père :
       arrache à la servitude ceux qui attendent leur libération.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Jr 20, 10-13
+      headline: |-
+        « Le Seigneur est avec moi, tel un guerrier redoutable »
+      content: |-
+        Moi, Jérémie,
+         j’entends les calomnies de la foule :
+        « Dénoncez-le ! Allons le dénoncer,
+        celui-là, l’Épouvante-de-tous-côtés. »
+        Tous mes amis guettent mes faux pas, ils disent :
+        « Peut-être se laissera-t-il séduire…
+        Nous réussirons,
+        et nous prendrons sur lui notre revanche ! »
+         Mais le Seigneur est avec moi, tel un guerrier redoutable :
+        mes persécuteurs trébucheront, ils ne réussiront pas.
+        Leur défaite les couvrira de honte,
+        d’une confusion éternelle, inoubliable.
+
+        Seigneur de l’univers, toi qui scrutes l’homme juste,
+        toi qui vois les reins et les cœurs,
+        fais-moi voir la revanche que tu leur infligeras,
+        car c’est à toi que j’ai remis ma cause.
+         Chantez le Seigneur, louez le Seigneur :
+        il a délivré le malheureux de la main des méchants.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 17 (18), 2-3, 4, 5-6, 7
+      refAbbr: 17, 2…
+      chorus:
+      - chorusRef: 17, 7
+        chorus: |-
+          Dans mon angoisse, j’appelai le Seigneur ;
+          il entend ma voix.
+      content: |-
+        Je t’aime, Seigneur, ma force :
+        Seigneur, mon roc, ma forteresse,
+        Dieu mon libérateur, le rocher qui m’abrite,
+        mon bouclier, mon fort, mon arme de victoire !
+
+        Louange à Dieu !
+        Quand je fais appel au Seigneur,
+        je suis sauvé de tous mes ennemis.
+
+        Les liens de la mort m’entouraient,
+        le torrent fatal m’emportait ;
+        des liens infernaux m’étreignaient :
+        j’étais pris aux pièges de la mort.
+
+        Dans mon angoisse, j’appelai le Seigneur ;
+        vers mon Dieu, je lançai un cri ;
+        de son temple il entend ma voix :
+        mon cri parvient à ses oreilles.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 10, 31-42
+      headline: |-
+        « Ils cherchaient à l’arrêter, mais il échappa à leurs mains »
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur,
+        sont esprit et elles sont vie.
+        Tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+         de nouveau, des Juifs prirent des pierres
+        pour lapider Jésus.
+         Celui-ci reprit la parole :
+        « J’ai multiplié sous vos yeux les œuvres bonnes
+        qui viennent du Père.
+        Pour laquelle de ces œuvres voulez-vous me lapider ? »
+         Ils lui répondirent :
+        « Ce n’est pas pour une œuvre bonne
+        que nous voulons te lapider,
+        mais c’est pour un blasphème :
+        tu n’es qu’un homme,
+        et tu te fais Dieu. »
+         Jésus leur répliqua :
+        « N’est-il pas écrit dans votre Loi :
+        _J’ai dit : Vous êtes des dieux ?_
+         Elle les appelle donc des dieux,
+        ceux à qui la parole de Dieu s’adressait,
+        et l’Écriture ne peut pas être abolie.
+         Or, celui que le Père a consacré
+        et envoyé dans le monde,
+        vous lui dites : “Tu blasphèmes”,
+        parce que j’ai dit : “Je suis le Fils de Dieu”.
+         Si je ne fais pas les œuvres de mon Père,
+        continuez à ne pas me croire.
+         Mais si je les fais,
+        même si vous ne me croyez pas,
+        croyez les œuvres.
+        Ainsi vous reconnaîtrez, et de plus en plus,
+        que le Père est en moi,
+        et moi dans le Père. »
+         Eux cherchaient de nouveau à l’arrêter,
+        mais il échappa à leurs mains.
+
+        Il repartit de l’autre côté du Jourdain,
+        à l’endroit où, au début, Jean baptisait ;
+        et il y demeura.
+         Beaucoup vinrent à lui en déclarant :
+        « Jean n’a pas accompli de signe ;
+        mais tout ce que Jean a dit de celui-ci
+        était vrai. »
+         Et là, beaucoup crurent en lui.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -1,7 +1,9 @@
 celebration:
   title: 23 décembre
+  subtitle: Semaine avant Noël
+  description: |- 
+    FÉRIE MAJEURE : « Ô Emmanuel, Roi qui portes la loi nouvelle »
   color: violet
-
 oration:
   - "Dieu éternel et tout-puissant, nous allons bientôt célébrer la naissance de ton Fils ; il a voulu prendre chair de la Vierge Marie, il s’est lié pour toujours à notre humanité : qu’il montre ta miséricorde aux pauvres serviteurs que nous sommes. Lui qui règne."
 
@@ -116,3 +118,107 @@ vespers:
 
       Toi qui es né dans notre chair et viendra pour le jugement,
       conduis les défunts à la récompense éternelle.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ml 3, 1-4.23-24
+      headline: |-
+        « Je vais vous envoyer Élie le prophète, avant que vienne le jour du Seigneur »
+      content: |-
+        Ainsi parle le Seigneur Dieu :
+        Voici que j’envoie mon messager
+         pour qu’il prépare le chemin devant moi ;
+        et soudain viendra dans son Temple
+         le Seigneur que vous cherchez.
+        Le messager de l’Alliance que vous désirez,
+         le voici qui vient, – dit le Seigneur de l’univers.
+        Qui pourra soutenir le jour de sa venue ?
+         Qui pourra rester debout lorsqu’il se montrera ?
+        Car il est pareil au feu du fondeur,
+         pareil à la lessive des blanchisseurs.
+        Il s’installera pour fondre et purifier :
+         il purifiera les fils de Lévi,
+        il les affinera comme l’or et l’argent ;
+         ainsi pourront-ils, aux yeux du Seigneur,
+         présenter l’offrande en toute justice.
+        Alors, l’offrande de Juda et de Jérusalem
+         sera bien accueillie du Seigneur,
+        comme il en fut aux jours anciens,
+         dans les années d’autrefois.
+
+        Voici que je vais vous envoyer Élie le prophète,
+         avant que vienne le jour du Seigneur,
+         jour grand et redoutable.
+        Il ramènera le cœur des pères vers leurs fils,
+         et le cœur des fils vers leurs pères,
+         pour que je ne vienne pas frapper d’anathème le pays !
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 24 (25), 4-5ab, 8-9, 10.14
+      refAbbr: 24, 4…
+      chorus:
+      - chorusRef: 21, 28
+        chorus: |-
+          Redressez-vous et relevez la tête,
+          car votre rédemption approche.
+      content: |-
+        Seigneur, enseigne-moi tes voies,
+        fais-moi connaître ta route.
+        Dirige-moi par ta vérité, enseigne-moi,
+        car tu es le Dieu qui me sauve.
+
+        Il est droit, il est bon, le Seigneur,
+        lui qui montre aux pécheurs le chemin.
+        Sa justice dirige les humbles,
+        il enseigne aux humbles son chemin.
+
+        Les voies du Seigneur sont amour et vérité
+        pour qui veille à son alliance et à ses lois.
+        Le secret du Seigneur est pour ceux qui le craignent ;
+        à ceux-là, il fait connaître son alliance.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 57-66
+      headline: |-
+        Naissance de Jean Baptiste
+      acclamationAntiphon: |-
+        Viens, Espérance des nations,
+        Sauveur de tous les peuples !
+        Viens sauver ce qui était perdu.
+      content: |-
+        Quand fut accompli le temps où Élisabeth devait enfanter,
+         elle mit au monde un fils.
+        Ses voisins et sa famille apprirent que le Seigneur
+         lui avait montré la grandeur de sa miséricorde,
+        et ils se réjouissaient avec elle.
+        Le huitième jour, ils vinrent pour la circoncision de l’enfant.
+         Ils voulaient l’appeler Zacharie, du nom de son père.
+        Mais sa mère prit la parole et déclara :
+         « Non, il s’appellera Jean. »
+        On lui dit :
+         « Personne dans ta famille ne porte ce nom-là ! »
+        On demandait par signes au père
+         comment il voulait l’appeler.
+        Il se fit donner une tablette sur laquelle il écrivit :
+         « Jean est son nom. »
+        Et tout le monde en fut étonné.
+        À l’instant même, sa bouche s’ouvrit, sa langue se délia :
+         il parlait et il bénissait Dieu.
+        La crainte saisit alors tous les gens du voisinage
+         et, dans toute la région montagneuse de Judée,
+         on racontait tous ces événements.
+        Tous ceux qui les apprenaient
+        les conservaient dans leur cœur et disaient :
+         « Que sera donc cet enfant ? »
+        En effet, la main du Seigneur était avec lui.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

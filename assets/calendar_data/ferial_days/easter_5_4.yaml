@@ -1,3 +1,7 @@
+celebration:
+  title: Jeudi
+  subtitle: Cinquième semaine de Pâques
+  description: null
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
@@ -139,3 +143,119 @@ vespers:
 
       Par ta croix, la joie est entrée dans le monde :
       – accorde à nos défunts la plénitude de cette joie.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 15, 7-21
+      headline: |-
+        « Moi, j’estime qu’il ne faut pas tracasser ceux qui, venant des nations, se tournent vers Dieu »
+      content: |-
+        En ces jours-là,
+        comme la conversion des païens provoquait,
+        dans l’Église de Jérusalem,
+        une intense discussion,
+        Pierre se leva et leur dit :
+        « Frères, vous savez bien
+        comment Dieu, dans les premiers temps,
+        a manifesté son choix parmi vous :
+        c’est par ma bouche
+        que les païens ont entendu la parole de l’Évangile
+        et sont venus à la foi.
+        Dieu, qui connaît les cœurs,
+        leur a rendu témoignage
+        en leur donnant l’Esprit Saint tout comme à nous ;
+        sans faire aucune distinction entre eux et nous,
+        il a purifié leurs cœurs par la foi.
+        Maintenant, pourquoi donc mettez-vous Dieu à l’épreuve
+        en plaçant sur la nuque des disciples
+        un joug que nos pères et nous-mêmes
+        n’avons pas eu la force de porter ?
+        Oui, nous le croyons,
+        c’est par la grâce du Seigneur Jésus
+        que nous sommes sauvés,
+        de la même manière qu’eux. »
+        Toute la multitude garda le silence,
+        puis on écouta Barnabé et Paul
+        exposer tous les signes et les prodiges
+        que Dieu avait accomplis grâce à eux parmi les nations.
+        Quand ils eurent terminé, Jacques prit la parole et dit :
+        « Frères, écoutez-moi.
+        Simon-Pierre vous a exposé
+        comment, dès le début, Dieu est intervenu
+        pour prendre parmi les nations
+        un peuple qui soit à son nom.
+        Les paroles des prophètes s’accordent avec cela,
+        puisqu’il est écrit :
+        _Après cela, je reviendrai
+        pour reconstruire la demeure de David,
+        qui s’est écroulée ;
+        j’en reconstruirai les parties effondrées,
+        je la redresserai ;
+        alors le reste des hommes cherchera le Seigneur,
+        oui, toutes les nations sur lesquelles mon nom a été invoqué,
+        – déclare le Seigneur, qui fait ces choses_
+        _connues depuis toujours._
+        Dès lors, moi, j’estime qu’il ne faut pas tracasser
+        ceux qui, venant des nations, se tournent vers Dieu,
+        mais écrivons-leur de s’abstenir
+        des souillures des idoles,
+        des unions illégitimes,
+        de la viande non saignée
+        et du sang.
+        Car, depuis les temps les plus anciens,
+        Moïse a, dans chaque ville, des gens qui proclament sa Loi,
+        puisque, dans les synagogues,
+        on en fait la lecture chaque sabbat. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 10
+      refAbbr: 95, 1…
+      chorus:
+      - chorusRef: 95, 3
+        chorus: |-
+          Racontez à tous les peuples
+          les merveilles du Seigneur !
+      - chorus: Alléluia !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        chantez au Seigneur, terre entière,
+        chantez au Seigneur et bénissez son nom !
+
+        De jour en jour, proclamez son salut,
+        racontez à tous les peuples sa gloire,
+        à toutes les nations ses merveilles !
+
+        Allez dire aux nations : « Le Seigneur est roi ! »
+        Le monde, inébranlable, tient bon.
+        Il gouverne les peuples avec droiture.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 9-11
+      headline: |-
+        « Demeurez dans mon amour pour que votre joie soit parfaite »
+      acclamationAntiphon: |-
+        Mes brebis écoutent ma voix, dit le Seigneur ;
+        moi, je les connais, et elles me suivent.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Comme le Père m’a aimé,
+        moi aussi je vous ai aimés.
+        Demeurez dans mon amour.
+        Si vous gardez mes commandements,
+        vous demeurerez dans mon amour,
+        comme moi, j’ai gardé les commandements de mon Père,
+        et je demeure dans son amour.
+        Je vous ai dit cela pour que ma joie soit en vous,
+        et que votre joie soit parfaite. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

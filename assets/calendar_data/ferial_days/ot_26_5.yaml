@@ -1,3 +1,7 @@
+celebration:
+  title: Vendredi
+  subtitle: Vingt-sixième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
@@ -42,3 +46,167 @@ readings:
 
         Il vient nous visiter,
         en lui la joie de notre cœur.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ba 1, 15-22
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Nous avons péché contre le Seigneur, nous lui avons désobéi »
+      content: |-
+        Au Seigneur notre Dieu appartient la justice,
+        mais à nous la honte sur le visage comme on le voit aujourd’hui :
+        honte pour l’homme de Juda et les habitants de Jérusalem,
+         pour nos rois et nos chefs,
+        pour nos prêtres, nos prophètes et nos pères ;
+         oui, nous avons péché contre le Seigneur,
+         nous lui avons désobéi,
+        nous n’avons pas écouté la voix du Seigneur notre Dieu,
+        qui nous disait de suivre les préceptes
+        que le Seigneur nous avait mis sous les yeux.
+         Depuis le jour où le Seigneur a fait sortir nos pères du pays d’Égypte
+        jusqu’à ce jour,
+        nous n’avons pas cessé de désobéir au Seigneur notre Dieu ;
+        dans notre légèreté, nous n’avons pas écouté sa voix.
+         Aussi, comme on le voit aujourd’hui,
+        le malheur s’est attaché à nous,
+        avec la malédiction
+        que le Seigneur avait fait prononcer par son serviteur Moïse,
+        au jour où il a fait sortir nos pères du pays d’Égypte
+        pour nous donner une terre ruisselant de lait et de miel.
+         Nous n’avons pas écouté la voix du Seigneur notre Dieu,
+        à travers toutes les paroles des prophètes qu’il nous envoyait.
+         Chacun de nous, selon la pensée de son cœur mauvais,
+        est allé servir d’autres dieux
+        et faire ce qui est mal aux yeux du Seigneur notre Dieu.
+    - biblicalRef: Jb 38, 1.12-21 ; 40, 3-5
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « As-tu, une seule fois dans ta vie, donné des ordres au matin ? Es-tu parvenu jusqu’aux sources de la mer ? »
+      content: |-
+        Le Seigneur s’adressa à Job du milieu de la tempête et dit :
+         « As-tu, une seule fois dans ta vie, donné des ordres au matin,
+        assigné son poste à l’aurore,
+         pour qu’elle saisisse la terre aux quatre coins
+        et en secoue les méchants ?
+         La terre alors prend forme comme argile sous le sceau
+        et se déploie tel un vêtement ;
+         aux méchants est enlevée la lumière,
+        et le bras qui se levait est brisé.
+         Es-tu parvenu jusqu’aux sources de la mer,
+        as-tu circulé au fond de l’abîme ?
+         Les portes de la mort se sont-elles montrées à toi,
+        les as-tu vues, les portes de l’ombre de mort ?
+         As-tu réfléchi à l’immensité de la terre ?
+        Raconte, si tu sais tout cela !
+         Quel chemin mène à la demeure de la lumière,
+        et l’obscurité, quel est son lieu,
+         pour que tu conduises chacune à son domaine
+        et discernes les sentiers de sa maison ?
+         Si tu le sais, alors tu étais né,
+        et le nombre de tes jours est bien grand ! »
+         Job s’adressa au Seigneur et dit :
+         « Moi qui suis si peu de chose, que pourrais-je te répliquer ?
+        Je mets la main sur ma bouche.
+         J’ai parlé une fois, je ne répondrai plus ;
+        deux fois, je n’ajouterai plus rien. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 78 (79), 1-2, 3-4a.5, 8-9acd
+      refAbbr: 78, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 78, 9ab
+        chorus: |-
+          Pour la gloire de ton nom,
+          Seigneur, délivre-nous !
+      content: |-
+        Dieu, les païens ont envahi ton domaine ;
+        ils ont souillé ton temple sacré
+         et mis Jérusalem en ruines.
+        Ils ont livré les cadavres de tes serviteurs
+         en pâture aux rapaces du ciel
+        et la chair de tes fidèles, aux bêtes de la terre.
+
+        Ils ont versé le sang comme l’eau
+         aux alentours de Jérusalem :
+        les morts restaient sans sépulture.
+        Nous sommes la risée des voisins,
+        Combien de temps, Seigneur, durera ta colère
+         et brûlera le feu de ta jalousie ?
+
+        Ne retiens pas contre nous les péchés de nos ancêtres :
+        que nous vienne bientôt ta tendresse,
+         car nous sommes à bout de force !
+        Aide-nous, Dieu notre Sauveur,
+        délivre-nous, efface nos fautes,
+         pour la cause de ton nom !
+    - biblicalRef: Ps 138 (139), 1-3, 7-8, 9-10, 13-14ab
+      refAbbr: 138, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 138, 24b
+        chorus: Conduis-moi, Seigneur, sur le chemin d’éternité.
+      content: |-
+        Tu me scrutes, Seigneur, et tu sais !
+        Tu sais quand je m’assois, quand je me lève ;
+        de très loin, tu pénètres mes pensées,
+        Que je marche ou me repose, tu le vois,
+        tous mes chemins te sont familiers.
+
+        Où donc aller, loin de ton souffle ?
+        où m’enfuir, loin de ta face ?
+        Je gravis les cieux : tu es là ;
+        je descends chez les morts : te voici.
+
+        Je prends les ailes de l’aurore
+        et me pose au-delà des mers :
+        même là, ta main me conduit,
+        ta main droite me saisit.
+
+        C’est toi qui as créé mes reins,
+        qui m’as tissé dans le sein de ma mère.
+        Je reconnais devant toi le prodige,
+        l’être étonnant que je suis.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 10, 13-16
+      headline: |-
+        « Celui qui me rejette rejette celui qui m’a envoyé »
+      acclamationAntiphon: |-
+        Aujourd’hui, ne fermez pas votre cœur,
+        mais écoutez la voix du Seigneur.
+      content: |-
+        En ce temps-là, Jésus disait :
+         « Malheureuse es-tu, Corazine !
+        Malheureuse es-tu, Bethsaïde !
+        Car, si les miracles qui ont eu lieu chez vous
+        avaient eu lieu à Tyr et à Sidon,
+        il y a longtemps que leurs habitants
+        auraient fait pénitence, avec le sac et la cendre.
+         D’ailleurs, Tyr et Sidon
+        seront mieux traitées que vous lors du Jugement.
+         Et toi, Capharnaüm, seras-tu élevée jusqu’au ciel ?
+        Non, jusqu’au séjour des morts tu descendras !
+
+        Celui qui vous écoute
+        m’écoute ;
+        celui qui vous rejette
+        me rejette ;
+        et celui qui me rejette
+        rejette celui qui m’a envoyé. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

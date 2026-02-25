@@ -1,3 +1,7 @@
+celebration:
+  title: Lundi
+  subtitle: Vingt-huitième semaine du Temps ordinaire
+  description: null
 invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
@@ -48,3 +52,160 @@ readings:
         Le souffle d’allégresse,
         Le don gratuit du Fils ressuscité,
         Force des croyants.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 1, 1-7
+      sundayAndWeekCycles:
+      - '1'
+      headline: |-
+        « Nous avons reçu par le Christ grâce et mission d’Apôtre, afin d’amener à l’obéissance de la foi toutes les nations païennes »
+      content: |-
+        Paul, serviteur du Christ Jésus,
+        appelé à être Apôtre,
+        mis à part pour l’Évangile de Dieu,
+        à tous les bien-aimés de Dieu qui sont à Rome.
+
+        Cet Évangile, que Dieu avait promis d’avance
+        par ses prophètes dans les saintes Écritures,
+         concerne son Fils qui, selon la chair,
+        est né de la descendance de David
+         et, selon l’Esprit de sainteté,
+        a été établi dans sa puissance de Fils de Dieu
+        par sa résurrection d’entre les morts,
+        lui, Jésus Christ, notre Seigneur.
+
+        Pour que son nom soit reconnu,
+        nous avons reçu par lui grâce et mission d’Apôtre,
+        afin d’amener à l’obéissance de la foi
+        toutes les nations païennes,
+         dont vous faites partie,
+        vous aussi que Jésus Christ a appelés.
+
+        À vous qui êtes appelés à être saints,
+        la grâce et la paix
+        de la part de Dieu notre Père
+        et du Seigneur Jésus Christ.
+    - biblicalRef: Ga 4, 22-24.26-27.31 – 5, 1
+      sundayAndWeekCycles:
+      - '2'
+      headline: |-
+        « Nous ne sommes pas les enfants d’une servante, nous sommes ceux de la femme libre »
+      content: |-
+        Frères,
+         il est écrit qu’Abraham a eu deux fils,
+        l’un né de la servante,
+        et l’autre de la femme libre.
+         Le fils de la servante a été engendré selon la chair ;
+        celui de la femme libre l’a été en raison d’une promesse de Dieu.
+         Ces événements ont un sens symbolique :
+        les deux femmes sont les deux Alliances.
+        La première Alliance, celle du mont Sinaï,
+        qui met au monde des enfants esclaves,
+        c’est Agar, la servante.
+         tandis que la Jérusalem d’en haut est libre,
+        et c’est elle, notre mère.
+         L’Écriture dit en effet :
+        _Réjouis-toi, femme stérile, toi qui n’enfantes pas ;
+        éclate en cris de joie,
+        toi qui ne connais pas les douleurs de l’enfantement,
+        car les enfants de la femme délaissée sont plus nombreux
+        que ceux de la femme qui a son mari._
+         Dès lors, frères,
+        nous ne sommes pas les enfants d’une servante,
+        nous sommes ceux de la femme libre.
+         C’est pour que nous soyons libres
+        que le Christ nous a libérés.
+        Alors tenez bon,
+        ne vous mettez pas de nouveau sous le joug de l’esclavage.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
+      refAbbr: 97, 1…
+      sundayAndWeekCycles:
+      - '1'
+      chorus:
+      - chorusRef: 97, 2a
+        chorus: Le Seigneur a fait connaître son salut.
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        car il a fait des merveilles ;
+        par son bras très saint, par sa main puissante,
+        il s’est assuré la victoire.
+
+        Le Seigneur a fait connaître sa victoire
+        et révélé sa justice aux nations ;
+        il s’est rappelé sa fidélité, son amour,
+        en faveur de la maison d’Israël.
+
+        La terre tout entière a vu
+        la victoire de notre Dieu.
+        Acclamez le Seigneur, terre entière,
+        sonnez, chantez, jouez.
+    - biblicalRef: Ps 112 (113), 1-2, 3-4, 5a.6-7
+      refAbbr: 112, 1…
+      sundayAndWeekCycles:
+      - '2'
+      chorus:
+      - chorusRef: 112, 2
+        chorus: |-
+          Béni soit le nom du Seigneur,
+          maintenant et pour les siècles des siècles !
+      - chorus: Alléluia !
+      content: |-
+        Louez, serviteurs du Seigneur,
+        louez le nom du Seigneur !
+        Béni soit le nom du Seigneur,
+        maintenant et pour les siècles des siècles !
+
+        Du levant au couchant du soleil,
+        loué soit le nom du Seigneur !
+        Le Seigneur domine tous les peuples,
+        sa gloire domine les cieux.
+
+        Qui est semblable au Seigneur notre Dieu ?
+        Il abaisse son regard vers le ciel et vers la terre.
+        De la poussière il relève le faible,
+        il retire le pauvre de la cendre.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 11, 29-32
+      headline: |-
+        « À cette génération, il ne sera donné que le signe de Jonas »
+      acclamationAntiphon: |-
+        Aujourd’hui, ne fermez pas votre cœur,
+        mais écoutez la voix du Seigneur.
+      content: |-
+        En ce temps-là,
+         comme les foules s’amassaient,
+        Jésus se mit à dire :
+        « Cette génération est une génération mauvaise :
+        elle cherche un signe,
+        mais en fait de signe
+        il ne lui sera donné que le signe de Jonas.
+         Car Jonas a été un signe pour les habitants de Ninive ;
+        il en sera de même avec le Fils de l’homme
+        pour cette génération.
+         Lors du Jugement, la reine de Saba se dressera
+        en même temps que les hommes de cette génération,
+        et elle les condamnera.
+        En effet, elle est venue des extrémités de la terre
+        pour écouter la sagesse de Salomon,
+        et il y a ici bien plus que Salomon.
+         Lors du Jugement, les habitants de Ninive se lèveront
+        en même temps que cette génération,
+        et ils la condamneront ;
+        en effet, ils se sont convertis
+        en réponse à la proclamation faite par Jonas,
+        et il y a ici bien plus que Jonas.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

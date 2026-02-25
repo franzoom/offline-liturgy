@@ -1,3 +1,7 @@
+celebration:
+  title: Mercredi
+  subtitle: Deuxième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -179,3 +183,113 @@ vespers:
       Toi qui pardonnes le reniement de Pierre,
 
       Toi qui réclames à la tombe la vie de Lazare.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Jr 18, 18-20
+      headline: |-
+        « Allons, attaquons-le »
+      content: |-
+        Mes ennemis ont dit :
+        « Allons, montons un complot contre Jérémie.
+        La loi ne va pas disparaître par manque de prêtre,
+        ni le conseil, par manque de sage,
+        ni la parole, par manque de prophète.
+        Allons, attaquons-le par notre langue,
+        ne faisons pas attention à toutes ses paroles. »
+
+        Mais toi, Seigneur, fais attention à moi,
+        écoute ce que disent mes adversaires.
+        Comment peut-on rendre le mal pour le bien ?
+        Ils ont creusé une fosse pour me perdre.
+        Souviens-toi que je me suis tenu en ta présence
+        pour te parler en leur faveur,
+        pour détourner d’eux ta colère.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 30 (31), 5-6, 14, 15-16
+      refAbbr: 30, 5…
+      chorus:
+      - chorusRef: 30, 17
+        chorus: Sauve-moi, mon Dieu, par ton amour.
+      content: |-
+        Tu m’arraches au filet qu’ils m’ont tendu ;
+        oui, c’est toi mon abri.
+        En tes mains je remets mon esprit ;
+        tu me rachètes, Seigneur, Dieu de vérité.
+
+        J’entends les calomnies de la foule :
+        de tous côtés c’est l’épouvante.
+        Ils ont tenu conseil contre moi,
+        ils s’accordent pour m’ôter la vie.
+
+        Moi, je suis sûr de toi, Seigneur,
+        je dis : « Tu es mon Dieu ! »
+        Mes jours sont dans ta main : délivre-moi
+        des mains hostiles qui s’acharnent.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 20, 17-28
+      headline: |-
+        « Ils le condamneront à mort »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus, montant à Jérusalem,
+        prit à part les Douze disciples
+        et, en chemin, il leur dit :
+        « Voici que nous montons à Jérusalem.
+        Le Fils de l’homme sera livré
+        aux grands prêtres et aux scribes,
+        ils le condamneront à mort
+        et le livreront aux nations païennes
+        pour qu’elles se moquent de lui,
+        le flagellent et le crucifient ;
+        le troisième jour, il ressuscitera. »
+
+        Alors la mère des fils de Zébédée
+        s’approcha de Jésus avec ses fils Jacques et Jean,
+        et elle se prosterna pour lui faire une demande.
+        Jésus lui dit :
+        « Que veux-tu ? »
+        Elle répondit :
+        « Ordonne que mes deux fils que voici
+        siègent, l’un à ta droite et l’autre à ta gauche,
+        dans ton Royaume. »
+        Jésus répondit :
+        « Vous ne savez pas ce que vous demandez.
+        Pouvez-vous boire la coupe que je vais boire ? »
+        Ils lui disent :
+        « Nous le pouvons. »
+        Il leur dit :
+        « Ma coupe, vous la boirez ;
+        quant à siéger à ma droite et à ma gauche,
+        ce n’est pas à moi de l’accorder ;
+        il y a ceux pour qui cela est préparé par mon Père. »
+        Les dix autres, qui avaient entendu,
+        s’indignèrent contre les deux frères.
+        Jésus les appela et dit :
+        « Vous le savez :
+        les chefs des nations les commandent en maîtres,
+        et les grands font sentir leur pouvoir.
+        Parmi vous, il ne devra pas en être ainsi :
+        celui qui veut devenir grand parmi vous
+        sera votre serviteur ;
+        et celui qui veut être parmi vous le premier
+        sera votre esclave.
+        Ainsi, le Fils de l’homme n’est pas venu pour être servi,
+        mais pour servir,
+        et donner sa vie en rançon pour la multitude. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

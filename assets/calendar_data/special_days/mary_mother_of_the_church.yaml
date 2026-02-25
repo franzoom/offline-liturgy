@@ -1,9 +1,9 @@
 celebration:
   title: Bienheureuse Vierge Marie, Mère de l’Église
-  commons:
-    - virgin-mary
+  subtitle: Le lundi qui suit la Pentecôte
+  description: null
+  commons: ['virgin-mary']
   color: white
-
 oration:
   - Dieu, Père de toute miséricorde, ton Fils unique, cloué sur la croix, a voulu que la bienheureuse Vierge Marie, sa mère, soit aussi notre mère ; accorde à ton Église, soutenue par son amour, la joie de donner naissance à des enfants toujours plus nombreux, de les voir grandir en sainteté et d’attirer à elle toutes les familles des peuples.
 
@@ -34,3 +34,140 @@ vespers:
     - ave-maris-stella
   evangelicAntiphon:
     common: Les disciples, d’un seul cœur, persévéraient dans la prière avec Marie, la mère de Jésus.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Gn 3, 9-15.20
+      headline: |-
+        « La mère de tous les vivants »
+      content: |-
+        Quand Adam eut mangé du fruit de l’arbre,
+         le Seigneur Dieu l’appela et lui dit :
+        « Où es-tu donc ? »
+         L’homme répondit :
+        « J’ai entendu ta voix dans le jardin,
+        j’ai pris peur parce que je suis nu,
+        et je me suis caché. »
+         Le Seigneur reprit :
+        « Qui donc t’a dit que tu étais nu ?
+        Aurais-tu mangé de l’arbre
+        dont je t’avais interdit de manger ? »
+         L’homme répondit :
+        « La femme que tu m’as donnée,
+        c’est elle qui m’a donné du fruit de l’arbre,
+        et j’en ai mangé. »
+         Le Seigneur Dieu dit à la femme :
+        « Qu’as-tu fait là ? »
+        La femme répondit :
+        « Le serpent m’a trompée,
+        et j’ai mangé. »
+         Alors le Seigneur Dieu dit au serpent :
+        « Parce que tu as fait cela,
+        tu seras maudit parmi tous les animaux
+        et toutes les bêtes des champs.
+        Tu ramperas sur le ventre et tu mangeras de la poussière
+        tous les jours de ta vie.
+         Je mettrai une hostilité entre toi et la femme,
+        entre ta descendance et sa descendance :
+        celle-ci te meurtrira la tête,
+        et toi, tu lui meurtriras le talon. »
+         L’homme appela sa femme Ève (c’est-à-dire : la vivante),
+        parce qu’elle fut la mère de tous les vivants.
+    - biblicalRef: Ac 1, 12-14
+      headline: |-
+        « Ils étaient assidus à la prière, avec Marie la mère de Jésus »
+      content: |-
+        Les Apôtres, après avoir vu Jésus s’en aller vers le ciel,
+        retournèrent à Jérusalem
+          depuis le lieu-dit « mont des Oliviers » qui en est proche,
+          – la distance de marche ne dépasse pas
+          ce qui est permis le jour du sabbat.
+        À leur arrivée, ils montèrent dans la chambre haute
+          où ils se tenaient habituellement ;
+        c’était Pierre, Jean, Jacques et André,
+          Philippe et Thomas, Barthélemy et Matthieu,
+          Jacques fils d’Alphée, Simon le Zélote, et Jude fils de Jacques.
+        Tous, d’un même cœur, étaient assidus à la prière,
+          avec des femmes, avec Marie la mère de Jésus,
+          et avec ses frères.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 86 (87), 1-2.3, 6-7
+      refAbbr: 86, 1…
+      chorus:
+      - chorusRef: 86 (87), 3
+        chorus: |-
+          Pour ta gloire on parle de toi,
+          ville de Dieu !
+      content: |-
+        Elle est fondée sur les montagnes saintes.
+        Le Seigneur aime les portes de Sion
+        plus que toutes les demeures de Jacob.
+
+        Pour ta gloire on parle de toi, ville de Dieu !
+        Mais on appelle Sion : « Ma mère ! »
+        car en elle, tout homme est né.
+        C’est lui, le Très-Haut, qui la maintient.
+
+        Au registre des peuples, le Seigneur écrit :
+        « Chacun est né là-bas. »
+        Tous ensemble ils dansent, et ils chantent :
+        « En toi, toutes nos sources ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 19, 25-34
+      headline: |-
+        « Voici ton fils. Voici ta mère »
+      acclamationAntiphon: |-
+        Heureuse Vierge Marie
+        tu as enfanté le Seigneur !
+        Bienheureuse Mère de l’Église,
+        tu fais brûler en nous l’Esprit
+        de ton Fils Jésus, le Christ.
+      content: |-
+        En ce temps-là,
+         près de la croix de Jésus se tenaient sa mère
+        et la sœur de sa mère, Marie, femme de Cléophas,
+        et Marie Madeleine.
+         Jésus, voyant sa mère,
+        et près d’elle le disciple qu’il aimait,
+        dit à sa mère :
+        « Femme, voici ton fils. »
+         Puis il dit au disciple :
+        « Voici ta mère. »
+        Et à partir de cette heure-là, le disciple la prit chez lui.
+         Après cela, sachant que tout, désormais, était achevé,
+        pour que l’Écriture s’accomplisse jusqu’au bout,
+        Jésus dit :
+        « J’ai soif. »
+         Il y avait là un récipient plein d’une boisson vinaigrée.
+        On fixa donc une éponge remplie de ce vinaigre
+        à une branche d’hysope,
+        et on l’approcha de sa bouche.
+         Quand il eut pris le vinaigre, Jésus dit :
+        « Tout est accompli. »
+        Puis, inclinant la tête,
+        il remit l’esprit.
+         Comme c’était le jour de la Préparation (c’est-à-dire le vendredi),
+        il ne fallait pas laisser les corps en croix durant le sabbat,
+        d’autant plus que ce sabbat était le grand jour de la Pâque.
+        Aussi les Juifs demandèrent à Pilate qu’on enlève les corps
+        après leur avoir brisé les jambes.
+         Les soldats allèrent donc briser les jambes du premier,
+        puis de l’autre homme crucifié avec Jésus.
+         Quand ils arrivèrent à Jésus,
+        voyant qu’il était déjà mort,
+        ils ne lui brisèrent pas les jambes,
+         mais un des soldats avec sa lance lui perça le côté ;
+        et aussitôt, il en sortit du sang et de l’eau.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

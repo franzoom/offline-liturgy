@@ -1,3 +1,7 @@
+celebration:
+  title: Jeudi
+  subtitle: Sixième semaine de Pâques
+  description: null
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
@@ -190,3 +194,110 @@ vespers:
 
       Toi qui reviendras au dernier jour pour nous prendre avec toi,
       – sois la résurrection des morts.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 18, 1-8
+      headline: |-
+        « Paul demeurait chez eux et y travaillait ; il discutait à la synagogue »
+      content: |-
+        En ces jours-là,
+        Paul s'éloigna d'Athènes
+         et se rendit à Corinthe.
+        Il y trouva un Juif nommé Aquila,
+         originaire de la province du Pont,
+        récemment arrivé d'Italie,
+         ainsi que sa femme Priscille ;
+        l'empereur Claude, en effet,
+         avait pris la décision d'éloigner de Rome tous les Juifs.
+        Paul entra en relation avec eux ;
+        comme ils avaient le même métier,
+        il demeurait chez eux et y travaillait,
+         car ils étaient, de leur métier, fabricants de tentes.
+        Chaque sabbat, Paul discutait à la synagogue
+        et s'efforçait de convaincre
+         aussi bien les Juifs que les Grecs.
+        Quand Silas et Timothée furent arrivés de Macédoine,
+        Paul se consacra entièrement à la Parole,
+         attestant aux Juifs que le Christ, c'est Jésus.
+        Devant leur opposition et leurs injures,
+        Paul secoua ses vêtements et leur dit :
+         « Que votre sang soit sur votre tête !
+         Moi, je n'ai rien à me reprocher.
+         Désormais, j'irai vers les païens. »
+        Quittant la synagogue,
+        il alla chez un certain Titius Justus,
+         qui adorait le Dieu unique ;
+         sa maison était tout à côté de la synagogue.
+        Or Crispus, chef de synagogue,
+         crut au Seigneur, avec toute sa maison.
+        Beaucoup de Corinthiens, apprenant cela,
+         devenaient croyants et se faisaient baptiser.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
+      refAbbr: 97, 1…
+      chorus:
+      - chorusRef: 97, 2
+        chorus: |-
+          Le Seigneur a fait connaître sa victoire
+          et révélé sa justice aux nations.
+      - chorus: Alléluia !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        car il a fait des merveilles ;
+        par son bras très saint, par sa main puissante,
+        il s’est assuré la victoire.
+
+        Le Seigneur a fait connaître sa victoire
+        et révélé sa justice aux nations ;
+        il s'est rappelé sa fidélité, son amour,
+        en faveur de la maison d'Israël.
+
+        La terre tout entière a vu
+        la victoire de notre Dieu.
+        Acclamez le Seigneur, terre entière,
+        sonnez, chantez, jouez !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 16, 16-20
+      headline: |-
+        « Vous serez dans la peine, mais votre peine se changera en joie »
+      acclamationAntiphon: |-
+        Je ne vous laisserai pas orphelins,
+        dit le Seigneur ;
+        je reviens vers vous, et votre cœur se réjouira.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+         « Encore un peu de temps, et vous ne me verrez plus ;
+         encore un peu de temps, et vous me reverrez. »
+        Alors, certains de ses disciples se dirent entre eux :
+         « Que veut-il nous dire par là :
+          \"Encore un peu de temps, et vous ne me verrez plus ;
+          encore un peu de temps, et vous me reverrez. \"
+         Et puis :
+          \"Je m’en vais auprès du Père\" ? »
+        Ils disaient donc :
+         « Que veut dire : un peu de temps ?
+         Nous ne savons pas de quoi il parle. »
+        Jésus comprit qu'ils voulaient l’interroger, et il leur dit :
+         « Vous discutez entre vous parce que j'ai dit :
+          \"Encore un peu de temps, et vous ne me verrez plus ;
+          encore un peu de temps, et vous me reverrez. \"
+         Amen, amen, je vous le dis :
+         vous allez pleurer et vous lamenter,
+         tandis que le monde se réjouira ;
+         vous serez dans la peine,
+         mais votre peine se changera en joie. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

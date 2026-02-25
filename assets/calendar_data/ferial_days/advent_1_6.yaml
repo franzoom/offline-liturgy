@@ -1,3 +1,7 @@
+celebration:
+  title: Samedi
+  subtitle: Première semaine de l’Avent
+  description: null
 invitatory:
   antiphon:
     - Le Roi qui va venir, venez, adorons-le.
@@ -127,3 +131,111 @@ middleOfDay:
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 30, 19-21.23-26
+      headline: |-
+        « Le Seigneur te fera grâce. Dès qu’il t’aura entendu, il te répondra »
+      content: |-
+        Ainsi parle le Seigneur, le Dieu saint d’Israël :
+        Peuple de Sion,
+         toi qui habites Jérusalem,
+         tu ne pleureras jamais plus.
+        À l’appel de ton cri, le Seigneur te fera grâce.
+         Dès qu’il t’aura entendu, il te répondra.
+        Le Seigneur te donnera du pain dans la détresse,
+         et de l’eau dans l’épreuve.
+        Celui qui t’instruit ne se dérobera plus
+         et tes yeux le verront.
+        Tes oreilles entendront derrière toi une parole :
+         « Voici le chemin, prends-le ! »,
+         et cela, que tu ailles à droite ou à gauche.
+        Le Seigneur te donnera la pluie
+         pour la semence que tu auras jetée en terre,
+        et le pain que produira la terre
+         sera riche et nourrissant.
+        Ton bétail ira paître, ce jour-là,
+         sur de vastes pâturages.
+        Les bœufs et les ânes qui travaillent dans les champs
+         mangeront un fourrage salé,
+         étalé avec la pelle et la fourche.
+        Sur toute haute montagne, sur toute colline élevée
+         couleront des ruisseaux,
+        au jour du grand massacre,
+         quand tomberont les tours de défense.
+        La lune brillera comme le soleil,
+         le soleil brillera sept fois plus,
+         – autant que sept jours de lumière –
+        le jour où le Seigneur pansera les plaies de son peuple
+         et guérira ses meurtrissures.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 146 (147A), 1-2, 3-4, 5-6
+      refAbbr: 146, 1…
+      chorus:
+      - chorusRef: 30, 18
+        chorus: Heureux tous ceux qui attendent le Seigneur !
+      - chorus: Alléluia !
+      content: |-
+        Il est bon de fêter notre Dieu,
+        il est beau de chanter sa louange !
+        Le Seigneur rebâtit Jérusalem,
+        il rassemble les déportés d’Israël.
+
+        Il guérit les cœurs brisés
+        et soigne leurs blessures.
+        Il compte le nombre des étoiles,
+        il donne à chacune un nom.
+
+        Il est grand, il est fort, notre Maître :
+        nul n’a mesuré son intelligence.
+        Le Seigneur élève les humbles
+        et rabaisse jusqu’à terre les impies.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 9, 35–10,1.5a.6-8
+      headline: |-
+        « Voyant les foules, Jésus fut saisi de compassion »
+      acclamationAntiphon: |-
+        Le Seigneur est notre juge,
+        il nous donne des lois,
+        le Seigneur est notre roi :
+        c’est lui qui nous sauve.
+      content: |-
+        En ce temps-là,
+        Jésus parcourait toutes les villes et tous les villages,
+         enseignant dans leurs synagogues,
+         proclamant l’Évangile du Royaume
+         et guérissant toute maladie et toute infirmité.
+        Voyant les foules, Jésus fut saisi de compassion envers elles
+         parce qu’elles étaient désemparées et abattues
+         comme des brebis sans berger.
+        Il dit alors à ses disciples :
+         « La moisson est abondante,
+         mais les ouvriers sont peu nombreux.
+         Priez donc le maître de la moisson
+         d’envoyer des ouvriers pour sa moisson. »
+        Alors Jésus appela ses douze disciples
+         et leur donna le pouvoir d’expulser les esprits impurs
+         et de guérir toute maladie et toute infirmité.
+        Ces douze, Jésus les envoya en mission
+        avec les instructions suivantes :
+         « Allez vers les brebis perdues de la maison d’Israël.
+         Sur votre route,
+         proclamez que le royaume des Cieux est tout proche.
+         Guérissez les malades, ressuscitez les morts,
+         purifiez les lépreux, expulsez les démons.
+         Vous avez reçu gratuitement :
+         donnez gratuitement. »
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

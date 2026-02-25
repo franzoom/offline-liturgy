@@ -1,3 +1,7 @@
+celebration:
+  title: Lundi
+  subtitle: Quatrième semaine de Carême
+  description: null
 invitatory:
   antiphon:
     - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
@@ -165,3 +169,113 @@ vespers:
 
       Achève en nos défunts ton œuvre de salut,
       reçois leur vie, Dieu créateur.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 65, 17-21
+      headline: |-
+        « On n’y entendra plus de pleurs ni de cris »
+      content: |-
+        Ainsi parle le Seigneur :
+        Oui, voici : je vais créer
+        un ciel nouveau et une terre nouvelle,
+        on ne se souviendra plus du passé,
+        il ne reviendra plus à l’esprit.
+        Soyez plutôt dans la joie, exultez sans fin
+        pour ce que je crée.
+        Car je vais recréer Jérusalem,
+        pour qu’elle soit exultation,
+        et que son peuple devienne joie.
+        J’exulterai en Jérusalem,
+        je trouverai ma joie dans mon peuple.
+        On n’y entendra plus de pleurs ni de cris.
+        Là, plus de nourrisson emporté en quelques jours,
+        ni d’homme qui ne parvienne au bout de sa vieillesse ;
+        le plus jeune mourra centenaire,
+        ne pas atteindre cent ans sera malédiction.
+        On bâtira des maisons, on y habitera ;
+        on plantera des vignes, on mangera leurs fruits.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 29 (30), 2a.3-4, 5-6, 9.12a.13cd
+      refAbbr: 29, 2…
+      chorus:
+      - chorusRef: 29, 2a
+        chorus: 'Je t’exalte, Seigneur : tu m’as relevé.'
+      content: |-
+        Je t’exalte, Seigneur : tu m’as relevé.
+        Quand j’ai crié vers toi, Seigneur.
+        Seigneur, tu m’as fait remonter de l’abîme
+        et revivre quand je descendais à la fosse.
+
+        Fêtez le Seigneur, vous, ses fidèles,
+        rendez grâce en rappelant son nom très saint.
+        Sa colère ne dure qu’un instant, sa bonté, toute la vie ;
+        avec le soir, viennent les larmes,
+         mais au matin, les cris de joie.
+
+        Et j’ai crié vers toi, Seigneur,
+        j’ai supplié mon Dieu.
+        Tu as changé mon deuil en une danse.
+        Que sans fin, Seigneur, mon Dieu, je te rende grâce !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 4, 43-54
+      headline: |-
+        « Va, ton fils est vivant »
+      acclamationAntiphon: |-
+        Cherchez le bien, non le mal, afin de vivre.
+        Ainsi le Seigneur sera avec vous.
+      content: |-
+        En ce temps-là,
+        après avoir passé deux jours chez les Samaritains,
+        Jésus partit de là pour la Galilée.
+        – Lui-même avait témoigné
+        qu’un prophète n’est pas considéré dans son propre pays.
+        Il arriva donc en Galilée ;
+        les Galiléens lui firent bon accueil,
+        car ils avaient vu tout ce qu’il avait fait
+        à Jérusalem pendant la fête de la Pâque,
+        puisqu’ils étaient allés eux aussi à cette fête.
+        Ainsi donc Jésus revint à Cana de Galilée,
+        où il avait changé l’eau en vin.
+        Or, il y avait un fonctionnaire royal,
+        dont le fils était malade à Capharnaüm.
+        Ayant appris que Jésus arrivait de Judée en Galilée,
+        il alla le trouver ;
+        il lui demandait de descendre à Capharnaüm
+        pour guérir son fils qui était mourant.
+        Jésus lui dit :
+        « Si vous ne voyez pas de signes et de prodiges,
+        vous ne croirez donc pas ! »
+        Le fonctionnaire royal lui dit :
+        « Seigneur, descends, avant que mon enfant ne meure ! »
+        Jésus lui répond :
+        « Va, ton fils est vivant. »
+        L’homme crut à la parole que Jésus lui avait dite
+        et il partit.
+        Pendant qu’il descendait,
+        ses serviteurs arrivèrent à sa rencontre
+        et lui dirent que son enfant était vivant.
+        Il voulut savoir à quelle heure il s’était trouvé mieux.
+        Ils lui dirent :
+        « C’est hier, à la septième heure (au début de l’après- midi),
+        que la fièvre l’a quitté. »
+        Le père se rendit compte que c’était justement
+        l’heure où Jésus lui avait dit :
+        « Ton fils est vivant. »
+        Alors il crut, lui, ainsi que tous les gens de sa maison.
+
+        Tel fut le second signe que Jésus accomplit
+        lorsqu’il revint de Judée en Galilée.
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

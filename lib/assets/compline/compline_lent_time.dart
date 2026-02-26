@@ -56,7 +56,11 @@ final Map<String, Compline> lentTimeCompline = {
   ),
   "tuesday": Compline(
     hymns: [
+<<<<<<< HEAD
       HymnEntry(code: "vienne-la-nuit-de-dieu-lent"),
+=======
+      HymnEntry(code: "vienne_la_nuit_de_dieu_lent"),
+>>>>>>> italic
       HymnEntry(code: "te-lucis-ante-terminum")
     ],
     psalmody: [
@@ -126,7 +130,7 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     responsory:
-        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort.<br>V/ Voici l'heure où le Fils de l'homme a été livré, voici le pouvoir des ténèbres. R/",
+        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort.\nV/ Voici l'heure où le Fils de l'homme a été livré, voici le pouvoir des ténèbres. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
@@ -145,7 +149,7 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     responsory:
-        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix.<br>V/ Lui, le Fils, il a appris l'obéissance par les souffrances de sa passion. R/",
+        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix.\nV/ Lui, le Fils, il a appris l'obéissance par les souffrances de sa passion. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
@@ -166,7 +170,7 @@ final Map<String, Compline> lentTimeCompline = {
       ),
     ],
     responsory:
-        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix. <br>V/ C'est pourquoi Dieu l'a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
+        "R/ Le Christ s'est fait pour nous obéissant jusqu'à la mort, et la mort de la croix. \nV/ C'est pourquoi Dieu l'a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),

@@ -14,7 +14,7 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       ),
     ],
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>* Alléluia, alléluia.<br>V/ Tu es le Dieu fidèle qui garde son Alliance.<br>* Alléluia, alléluia.<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\n* Alléluia, alléluia.\nV/ Tu es le Dieu fidèle qui garde son Alliance.\n* Alléluia, alléluia.\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
@@ -36,7 +36,7 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       ),
     ],
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>* Alléluia, alléluia.<br>V/ Sur ton serviteur que s'illumine ta face.<br>* Alléluia, alléluia.<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\n* Alléluia, alléluia.\nV/ Sur ton serviteur que s'illumine ta face.\n* Alléluia, alléluia.\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",

@@ -3,7 +3,10 @@ import "../../classes/office_elements_class.dart";
 
 final Map<String, Compline> defaultCompline = {
   "saturday": Compline(
-    hymns: [HymnEntry(code: "ferme-mes-yeux"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "ferme-mes-yeux"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_4",
@@ -20,7 +23,7 @@ final Map<String, Compline> defaultCompline = {
           "Écoute, Israël : le Seigneur notre Dieu est l'Unique. Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme et de toute ta force. Ces commandements que je te donne aujourd'hui resteront gravés dans ton cœur. Tu les rediras à tes fils, tu les répéteras sans cesse, à la maison ou en voyage, que tu sois couché ou que tu sois levé.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Tu es le Dieu fidèle qui garde son Alliance. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Tu es le Dieu fidèle qui garde son Alliance. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -41,7 +44,10 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "sunday": Compline(
-    hymns: [HymnEntry(code: "avant-la-fin-de-la-lumiere"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "avant-la-fin-de-la-lumiere"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
@@ -57,7 +63,7 @@ final Map<String, Compline> defaultCompline = {
           "Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n'existera plus, ils n'auront plus besoin de la lumière d'une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Sur ton serviteur, que s'illumine ta face. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Sur ton serviteur, que s'illumine ta face. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -79,7 +85,10 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "monday": Compline(
-    hymns: [HymnEntry(code: "en-toi-seigneur"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "en-toi-seigneur"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_85",
@@ -95,7 +104,7 @@ final Map<String, Compline> defaultCompline = {
           "Dieu nous a destinés à entrer en possession du salut par notre Seigneur Jésus Christ, mort pour nous afin de nous faire vivre avec lui, que nous soyons encore éveillés ou déjà endormis dans la mort.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ C'est toi qui nous rachètes, Seigneur, Dieu de vérité. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ C'est toi qui nous rachètes, Seigneur, Dieu de vérité. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -116,7 +125,10 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "tuesday": Compline(
-    hymns: [HymnEntry(code: "vienne-la-nuit-de-dieu"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "vienne-la-nuit-de-dieu"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_142",
@@ -132,7 +144,7 @@ final Map<String, Compline> defaultCompline = {
           "Soyez sobres, soyez vigilants : votre adversaire, le démon, comme un lion qui rugit, va et vient, à la recherche de sa proie. Résistez-lui avec la force de la foi.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Écoute, et viens me délivrer. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Écoute, et viens me délivrer. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -153,7 +165,10 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "wednesday": Compline(
-    hymns: [HymnEntry(code: "avant-la-fin-de-la-lumiere"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "avant-la-fin-de-la-lumiere"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_30_1",
@@ -176,7 +191,7 @@ final Map<String, Compline> defaultCompline = {
           "En vue de votre délivrance, vous avez reçu en vous la marque du Saint-Esprit de Dieu : ne le contristez pas. Soyez entre vous pleins de générosité et de tendresse. Pardonnez-vous les uns aux autres, comme Dieu vous a pardonné dans le Christ.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Tu vois ma misère, tu sais ma détresse. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Tu vois ma misère, tu sais ma détresse. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -197,7 +212,10 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "thursday": Compline(
-    hymns: [HymnEntry(code: "en-toi-seigneur"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "en-toi-seigneur"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_15",
@@ -213,7 +231,7 @@ final Map<String, Compline> defaultCompline = {
           "Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu'il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Je suis sûr de toi, tu es mon Dieu. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Je suis sûr de toi, tu es mon Dieu. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -234,7 +252,10 @@ final Map<String, Compline> defaultCompline = {
     ],
   ),
   "friday": Compline(
-    hymns: [HymnEntry(code: "l-heure-s-avance-fais-nous-grace"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "l-heure-s-avance-fais-nous-grace"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_87",
@@ -250,7 +271,7 @@ final Map<String, Compline> defaultCompline = {
           "Si nos fautes parlent contre nous, agis, Seigneur, pour l'honneur de ton nom ! Tu es au milieu de nous, et ton nom a été invoqué sur nous ; ne nous abandonne pas, Seigneur, notre Dieu.",
     ),
     responsory:
-        "<p>R/ En tes mains, Seigneur, je remets mon esprit.<br>V/ Mes jours sont dans ta main, sauve-moi. R/<br>Gloire au Père et au Fils et au Saint-Esprit. R/</p>",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Mes jours sont dans ta main, sauve-moi. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",

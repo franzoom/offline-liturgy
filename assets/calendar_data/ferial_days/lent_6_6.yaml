@@ -121,7 +121,7 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_118_11
       antiphon:
-        - Ant. Je le crois, je verrai les bontés du Seigneur sur la terre des vivants. Ant. Seigneur, tu m’as fait remonter de l’abîme. Ant. Dieu a fixé sa tente à Jérusalem, et sa demeure à Sion. <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name="m_select_office"]').trigger('change');</script>
+        - Ant. Je le crois, je verrai les bontés du Seigneur sur la terre des vivants. Ant. Seigneur, tu m’as fait remonter de l’abîme. Ant. Dieu a fixé sa tente à Jérusalem, et sa demeure à Sion.
     - psalm: PSALM_60
     - psalm: PSALM_63
 

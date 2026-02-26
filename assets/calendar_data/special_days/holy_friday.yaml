@@ -133,8 +133,8 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_39
-      antiphon:
-        - 'Ant. À la troisième heure, ils crucifièrent Jésus. Ant. À la sixième heure, il y eut des ténèbres sur toute la terre. Ant. À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ? <!-- Astuce pour forcer l''affichage seul de l''antienne de l''office sélectionné --> <script>$(''input[name="m_select_office"]'').trigger(''change'');</script>'
+      antiphon: |-
+        Ant. À la troisième heure, ils crucifièrent Jésus. Ant. À la sixième heure, il y eut des ténèbres sur toute la terre. Ant. À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ?
     - psalm: PSALM_53
     - psalm: PSALM_87
   oration:

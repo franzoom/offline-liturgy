@@ -65,7 +65,7 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_8
       antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia ! <!-- Astuce pour forcer l'affichage seul de l'antienne de l'office sélectionné --> <script>$('input[name="m_select_office"]').trigger('change');</script>
+        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
     - psalm: PSALM_18A
     - psalm: PSALM_18B
 
@@ -899,7 +899,7 @@ mass:
   offeringPrayer:
   - |-
     Accueille, nous t’en supplions, Seigneur,
-      les prières de ton peuple qui t’offre ce sacrifice ; *
+      les prières de ton peuple qui t’offre ce sacrifice ; %
     fais que les mystères inaugurés dans la célébration pascale /
       nous procurent, avec l’aide de ta grâce, la guérison éternelle.
     Par le Christ, notre Seigneur.
@@ -912,7 +912,7 @@ mass:
         signe de droiture et de vérité, alléluia.
   prayerAfterCommunion:
   - |-
-    Répands en nous, Seigneur, ton Esprit de charité, *
+    Répands en nous, Seigneur, ton Esprit de charité, %
       afin que soient unis par ta tendresse /
       ceux que tu as nourris des sacrements de Pâques.
     Par le Christ, notre Seigneur.
@@ -934,7 +934,7 @@ mass:
   - |-
     Aujourd’hui, Seigneur Dieu, +
       par ton Fils unique, vainqueur de la mort,
-      tu nous as ouvert les portes de l’éternité ; *
+      tu nous as ouvert les portes de l’éternité ; %
     tandis que nous fêtons solennellement
       la résurrection du Seigneur, nous t’en prions,
     accorde-nous d’être renouvelés par ton Esprit /
@@ -1155,7 +1155,7 @@ mass:
   offeringPrayer:
   - |-
     Dans l’exultation de la joie pascale, Seigneur,
-    nous t’offrons ce sacrifice: *
+    nous t’offrons ce sacrifice: %
     c’est par lui que ton Église,
     de manière admirable, /
     naît à la vie nouvelle et reçoit sa nourriture.
@@ -1170,7 +1170,7 @@ mass:
   prayerAfterCommunion:
   - |-
     Seigneur Dieu, +
-      ne cesse pas de veiller avec tendresse sur ton Église, *
+      ne cesse pas de veiller avec tendresse sur ton Église, %
     afin que, déjà renouvelée par les sacrements de Pâques, /
       elle parvienne à la lumière de la résurrection.
     Par le Christ, notre Seigneur.
@@ -1936,7 +1936,7 @@ mass:
   offeringPrayer:
   - |-
     Accueille, nous t’en supplions, Seigneur,
-      les prières de ton peuple qui t’offre ce sacrifice ; *
+      les prières de ton peuple qui t’offre ce sacrifice ; %
     fais que les mystères inaugurés dans la célébration pascale /
       nous procurent, avec l’aide de ta grâce, la guérison éternelle.
     Par le Christ, notre Seigneur.
@@ -1949,7 +1949,7 @@ mass:
         signe de droiture et de vérité, alléluia.
   prayerAfterCommunion:
   - |-
-    Répands en nous, Seigneur, ton Esprit de charité, *
+    Répands en nous, Seigneur, ton Esprit de charité, %
       afin que soient unis par ta tendresse /
       ceux que tu as nourris des sacrements de Pâques.
     Par le Christ, notre Seigneur.
@@ -1971,7 +1971,7 @@ mass:
   - |-
     Aujourd’hui, Seigneur Dieu, +
       par ton Fils unique, vainqueur de la mort,
-      tu nous as ouvert les portes de l’éternité ; *
+      tu nous as ouvert les portes de l’éternité ; %
     tandis que nous fêtons solennellement
       la résurrection du Seigneur, nous t’en prions,
     accorde-nous d’être renouvelés par ton Esprit /
@@ -2192,7 +2192,7 @@ mass:
   offeringPrayer:
   - |-
     Dans l’exultation de la joie pascale, Seigneur,
-    nous t’offrons ce sacrifice: *
+    nous t’offrons ce sacrifice: %
     c’est par lui que ton Église,
     de manière admirable, /
     naît à la vie nouvelle et reçoit sa nourriture.
@@ -2207,7 +2207,7 @@ mass:
   prayerAfterCommunion:
   - |-
     Seigneur Dieu, +
-      ne cesse pas de veiller avec tendresse sur ton Église, *
+      ne cesse pas de veiller avec tendresse sur ton Église, %
     afin que, déjà renouvelée par les sacrements de Pâques, /
       elle parvienne à la lumière de la résurrection.
     Par le Christ, notre Seigneur.

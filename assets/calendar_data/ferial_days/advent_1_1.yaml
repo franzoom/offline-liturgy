@@ -31,8 +31,8 @@ readings:
       content: |-
         Comment ! Elle s’est prostituée, la cité fidèle ! Le droit y régnait, la justice l’habitait, et maintenant, ce sont les meurtriers. Ton argent n’est plus que scories, ton meilleur vin est mêlé d’eau. Tes princes sont des rebelles, complices de voleurs, tous avides de cadeaux, courant les pots-de-vin ; ils ne rendent pas justice à l’orphelin, la cause de la veuve ne les touche pas. 
         Voilà pourquoi — oracle du Maître et SEIGNEUR de l’univers, Force d’Israël — : Malheur ! Je prendrai ma revanche sur mes adversaires, je me vengerai de mes ennemis. Je ramènerai ma main sur toi ; comme le fait la potasse, j’ôterai tes scories, j’enlèverai tous tes déchets. Je rendrai tes juges tels que jadis, tes conseillers comme autrefois. Alors on t’appellera « Ville de justice », « Cité fidèle ». Par le droit, Sion sera délivrée ; ils le seront par la justice, ceux des siens qui se convertiront. 
-        *Parole d’Isaïe, fils d’Amots, — ce qu’il a vu au sujet de Juda et de Jérusalem.
-        * Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, s’élèvera au-dessus des collines. Vers elle afflueront toutes les nations et viendront des peuples nombreux. Ils diront : 
+        %Parole d’Isaïe, fils d’Amots, — ce qu’il a vu au sujet de Juda et de Jérusalem.
+        % Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, s’élèvera au-dessus des collines. Vers elle afflueront toutes les nations et viendront des peuples nombreux. Ils diront : 
         « Venez ! montons à la montagne du SEIGNEUR, à la maison du Dieu de Jacob ! Qu’il nous enseigne ses chemins, et nous irons par ses sentiers. » 
         Oui, la loi sortira de Sion, et de Jérusalem, la parole du SEIGNEUR. 
         Il sera juge entre les nations et l’arbitre de peuples nombreux. De leurs épées, ils forgeront des socs, et de leurs lances, des faucilles. Jamais nation contre nation ne lèvera l’épée ; ils n’apprendront plus la guerre. 
@@ -203,7 +203,7 @@ mass:
   collect:
   - |-
     Seigneur notre Dieu, nous t’en prions: +
-      accorde-nous d’attendre sans faiblir la venue de ton Fils, *
+      accorde-nous d’attendre sans faiblir la venue de ton Fils, %
       pour qu’au jour où il viendra frapper à notre porte,
       il nous trouve vigilants dans la prière, /
       joyeux de chanter sa louange.
@@ -347,7 +347,7 @@ mass:
   - |-
     Nous t’en prions, Seigneur,
     fais fructifier en nous
-    les mystères que nous avons célébrés: *
+    les mystères que nous avons célébrés: %
     tandis que nous marchons dans ce monde qui passe,
     tu nous enseignes par eux
     à aimer dès maintenant les biens du ciel, /

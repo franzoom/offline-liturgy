@@ -5,10 +5,10 @@ celebration:
 
 oration:
   - |-
-    *(Dans l’église consacrée)*
+    [rubric]Dans l’église consacrée
     Chaque année, tu fais revivre pour nous, Seigneur, le jour où cette église a été consacrée ; de grâce, écoute les prières de ton peuple : donne-nous de toujours accomplir ici un culte qui te rende gloire et nous sanctifie pleinement.
   - |-
-    *(Dans une autre église)*
+    [rubric]Dans une autre église
     Dieu qui choisis des pierres vivantes pour bâtir la demeure éternelle de ta gloire, fais abonder dans ton Église les fruits de l’Esprit que tu lui as donné : que le peuple qui t’appartient ne cesse pas de progresser pour l’édification de la Jérusalem céleste.
 
 firstVespers:
@@ -42,7 +42,7 @@ firstVespers:
       Tu as donné ta vie, Seigneur Jésus, pour rassembler en un seul peuple tous les enfants de Dieu dispersés ;
       aujourd’hui nous te prions pour ton Église que défigurent nos divisions :
 
-      R/Seigneur, rassemble-nous dans la paix de ton amour !
+      R/ Seigneur, rassemble-nous dans la paix de ton amour !
 
       Tu as bâti ton Église sur le Roc ;
       — donne-lui de demeurer inébranlable dans la foi pour proclamer ton nom.
@@ -81,15 +81,13 @@ readings:
     V/ Vers ton temple saint, je me prosterne,
     je crains et j’adore.
   biblicalReading:
-    - title: La pierre vivante et la nation sainte
+    - title: De la première lettre de Saint pierre
+      subtitle: La pierre vivante et la nation sainte
       ref: 1P 2, 1-17
       content: |-
         Approchez-vous de lui : il est *la pierre vivante rejetée par les hommes,* mais choisie et précieuse devant Dieu. Vous aussi, comme pierres vivantes, entrez dans la construction de la demeure spirituelle, pour devenir le sacerdoce saint et présenter des sacrifices spirituels, agréables à Dieu, par Jésus Christ. En effet, il y a ceci dans l’Écriture : *Je vais poser en Sion une pierre angulaire, une pierre choisie, précieuse ; celui qui met en elle sa foi ne saurait connaître la honte.*
-
         Ainsi donc, honneur à vous les croyants, mais, pour ceux qui refusent de croire, il est écrit : *La pierre qu’ont rejetée les bâtisseurs est devenue la pierre d’angle, une pierre d’achoppement, un rocher sur lequel on trébuche.* Ils achoppent, ceux qui refusent d’obéir à la Parole, et c’est bien ce qui devait leur arriver. Mais vous, vous êtes une descendance choisie, un sacerdoce royal, une nation sainte, un peuple destiné au salut, pour que vous annonciez les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Autrefois *vous n’étiez pas un peuple,* mais maintenant vous êtes le peuple de Dieu ; *vous n’aviez pas obtenu miséricorde,* mais maintenant vous avez obtenu miséricorde.
-
         Bien-aimés, puisque vous êtes comme des étrangers résidents ou de passage, je vous exhorte à vous abstenir des convoitises nées de la chair, qui combattent contre l’âme. Ayez une belle conduite parmi les gens des nations ; ainsi, sur le point même où ils disent du mal de vous en vous traitant de malfaiteurs, ils ouvriront les yeux devant vos belles actions et rendront gloire à Dieu, *le jour de sa visite.*
-
         Soyez soumis à toute institution humaine à cause du Seigneur, soit à l’empereur, qui est le souverain, soit aux gouverneurs, qui sont ses délégués pour punir les malfaiteurs et reconnaître les mérites des gens de bien. Car la volonté de Dieu, c’est qu’en faisant le bien, vous fermiez la bouche aux insensés qui parlent sans savoir. Soyez des hommes libres, sans toutefois utiliser la liberté pour voiler votre méchanceté : mais soyez plutôt les esclaves de Dieu. Honorez tout le monde, aimez la communauté des frères, craignez Dieu, honorez l’empereur.
       responsory: |-
         Vous êtes un peuple acquis pour annoncer les louanges

@@ -55,7 +55,10 @@ final Map<String, Compline> lentTimeCompline = {
     ],
   ),
   "tuesday": Compline(
-    hymns: [HymnEntry(code: "vienne_la_nuit_de_dieu_lent"), HymnEntry(code: "te-lucis-ante-terminum")],
+    hymns: [
+      HymnEntry(code: "vienne-la-nuit-de-dieu-lent"),
+      HymnEntry(code: "te-lucis-ante-terminum")
+    ],
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_142",

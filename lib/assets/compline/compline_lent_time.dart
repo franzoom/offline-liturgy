@@ -56,11 +56,7 @@ final Map<String, Compline> lentTimeCompline = {
   ),
   "tuesday": Compline(
     hymns: [
-<<<<<<< HEAD
       HymnEntry(code: "vienne-la-nuit-de-dieu-lent"),
-=======
-      HymnEntry(code: "vienne_la_nuit_de_dieu_lent"),
->>>>>>> italic
       HymnEntry(code: "te-lucis-ante-terminum")
     ],
     psalmody: [

@@ -59,6 +59,7 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     invitatory: vespersOffice.invitatory,
     hymns: vespersOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
+    imprecatory: celebrationContext.showImprecatoryVerses,
   );
 
   // Filter evangelicAntiphon: keep only default + current year

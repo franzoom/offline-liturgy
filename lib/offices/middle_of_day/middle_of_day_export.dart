@@ -156,6 +156,7 @@ Future<MiddleOfDay> middleOfDayExport(
       ...?middleOfDayOffice.hymnNone,
     ],
     dataLoader: celebrationContext.dataLoader,
+    imprecatory: celebrationContext.showImprecatoryVerses,
   );
 
   // 7. Apply paschal alléluia to psalm antiphons and responsories

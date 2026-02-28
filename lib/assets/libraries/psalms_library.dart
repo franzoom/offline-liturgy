@@ -66,10 +66,13 @@ class PsalmsLibrary {
       if (psalm != null) {
         _cache[targetCode] = psalm;
         return psalm;
+      } else if (imprecatory) {
+        // Fallback to standard version if the imprecatory file is missing (empty content)
+        return getPsalm(code, dataLoader, imprecatory: false);
       }
     } catch (e) {
       if (imprecatory) {
-        // Fallback to standard version if the imprecatory file is missing
+        // Fallback to standard version if the imprecatory file threw an error
         return getPsalm(code, dataLoader, imprecatory: false);
       }
     }

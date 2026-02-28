@@ -238,6 +238,7 @@ class CelebrationContext {
       celebrationDescription; // description of the celebration from YAML
   final Map<String, String> commonTitles; // code -> display title for commons
   final String? massName; // name of the Mass (e.g. "Messe du jour"), mass only
+  final bool showImprecatoryVerses; // whether to load imprecatory psalm verses
 
   const CelebrationContext({
     this.celebrationType,
@@ -258,6 +259,7 @@ class CelebrationContext {
     this.celebrationDescription,
     this.commonTitles = const {},
     this.massName,
+    this.showImprecatoryVerses = false,
   });
 
   /// Returns the first common from commonList.
@@ -295,6 +297,7 @@ class CelebrationContext {
     String? celebrationDescription,
     Map<String, String>? commonTitles,
     String? massName,
+    bool? showImprecatoryVerses,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -317,6 +320,8 @@ class CelebrationContext {
           celebrationDescription ?? this.celebrationDescription,
       commonTitles: commonTitles ?? this.commonTitles,
       massName: massName ?? this.massName,
+      showImprecatoryVerses:
+          showImprecatoryVerses ?? this.showImprecatoryVerses,
     );
   }
 }

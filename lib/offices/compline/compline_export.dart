@@ -15,8 +15,9 @@ import '../../tools/resolve_office_content.dart';
 /// This is called AFTER the user has picked a specific Compline option.
 Future<Compline> complineExport(
   ComplineDefinition choice,
-  DataLoader dataLoader,
-) async {
+  DataLoader dataLoader, {
+  bool showImprecatoryVerses = false,
+}) async {
   // 1. Get the static text structure based on the user's choice
   final compline = getComplineText(choice);
 
@@ -29,6 +30,7 @@ Future<Compline> complineExport(
     psalmody: compline.psalmody,
     hymns: compline.hymns,
     dataLoader: dataLoader,
+    imprecatory: showImprecatoryVerses,
   );
 
   // 3. Hydrate Marian hymns

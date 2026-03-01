@@ -10,7 +10,7 @@ final Map<String, Compline> lentTimeCompline = {
       ),
       PsalmEntry(
         psalm: "PSALM_133",
-        antiphon: ["Pitié pour moi, Seigneur, écoute ma prière."],
+        antiphon: ["La nuit est avancée, le jour est proche."],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(

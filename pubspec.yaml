@@ -4,7 +4,7 @@ version: 2.1.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.5.4
+  sdk: ^3.4.1
 
 flutter:
   assets:
@@ -23,5 +23,5 @@ dependencies:
   yaml: ^3.1.1
 
 dev_dependencies:
-  test: ^1.24.0
-  lints: ^6.0.0
+  test: ^1.30.0
+  lints: ^6.1.0

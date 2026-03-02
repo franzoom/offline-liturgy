@@ -57,8 +57,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
   final firstVespersCandidates = tomorrowCelebrations
       .where((c) =>
-          !ferialDayCheck(c.celebrationCode) &&
-          (tomorrow.isSunday ||
+          (tomorrow.isSunday && (c.precedence ?? _defaultPrecedence) <= 6) ||
+          (!ferialDayCheck(c.celebrationCode) &&
               (c.precedence ?? _defaultPrecedence) <=
                   _firstVespersPrecedenceThreshold))
       .toList();
@@ -123,7 +123,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       celebrationType: 'vespers1', // I Vespers
       date: tomorrow, // First Vespers belong to tomorrow's celebration
       isCelebrable: isCelebrable,
-      officeDescription: 'Premières Vêpres: ${c.celebrationGlobalName}',
+      officeDescription: 'Premières Vêpres du ${c.celebrationGlobalName}',
     );
   }
 

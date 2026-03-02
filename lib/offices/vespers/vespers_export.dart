@@ -7,6 +7,7 @@ import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
+import '../../assets/usual_texts.dart';
 
 /// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
 /// 1. Ferial base
@@ -91,6 +92,9 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     vespersOffice.evangelicAntiphon = vespersOffice.evangelicAntiphon!
         .map((k, v) => MapEntry(k, paschalAntiphon(v, lt)));
   }
+
+  // Assign the evangelic canticle (Magnificat)
+  vespersOffice.evangelicCanticle = magnificat;
 
   return vespersOffice;
 }

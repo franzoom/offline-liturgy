@@ -10,6 +10,7 @@ import '../../assets/compline/compline_advent_time.dart';
 import '../../assets/compline/compline_christmas_time.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
+import '../../assets/usual_texts.dart';
 
 /// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
 /// This is called AFTER the user has picked a specific Compline option.
@@ -40,6 +41,9 @@ Future<Compline> complineExport(
       dataLoader: dataLoader,
     );
   }
+
+  // 4. Assign the evangelic canticle (Nunc Dimittis)
+  compline.evangelicCanticle = nuncDimittis;
 
   return compline;
 }

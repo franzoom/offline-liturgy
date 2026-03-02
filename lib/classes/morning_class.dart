@@ -1,4 +1,5 @@
 import 'office_elements_class.dart';
+import 'psalms_class.dart';
 
 /// Class representing the Morning Prayer (Laudes) structure
 class Morning {
@@ -9,6 +10,7 @@ class Morning {
   Reading? reading;
   String? responsory;
   Map<String, String>? evangelicAntiphon;
+  Psalm? evangelicCanticle;
   Intercession? intercession;
   List<String>? oration;
 
@@ -20,6 +22,7 @@ class Morning {
     this.reading,
     this.responsory,
     this.evangelicAntiphon,
+    this.evangelicCanticle,
     this.intercession,
     this.oration,
   });

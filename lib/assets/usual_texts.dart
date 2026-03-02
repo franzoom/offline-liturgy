@@ -8,7 +8,7 @@ const Psalm magnificat = Psalm(
   title: 'Cantique de Marie',
   subtitle: null,
   commentary: null,
-  biblicalReference: 'Lc 1',
+  biblicalReference: 'Lc 1, 47-55',
   shortReference: 'NT 1',
   content: '{47}Mon âme ex_a_lte le Seigneur,\n'
       'exulte mon esprit en Die_u_, mon Sauveur !\n'
@@ -42,7 +42,7 @@ const Psalm benedictus = Psalm(
   title: 'Cantique de Zacharie',
   subtitle: null,
   commentary: null,
-  biblicalReference: 'Lc 1',
+  biblicalReference: 'Lc 1, 68-79',
   shortReference: 'NT 2',
   content: '{68}Béni soit le Seigneur, le Die_u_ d\'Israël,\n'
       'qui visite et rach_è_te son peuple.\n'
@@ -87,7 +87,7 @@ const Psalm nuncDimittis = Psalm(
   title: 'Cantique de Syméon',
   subtitle: null,
   commentary: null,
-  biblicalReference: 'Lc 2',
+  biblicalReference: 'Lc 2, 29-32',
   shortReference: 'NT 3',
   content: '{29}Maintenant, ô M_a_ître souverain, +\n'
       'tu peux laisser ton servite_u_r s\'en aller\n'
@@ -161,13 +161,13 @@ const Hymns notrePere = Hymns(
       'que ton nom soit sanctifié,\n'
       'que ton règne vienne,\n'
       'que ta volonté soit faite sur la terre\n'
-      '> comme au ciel.\n'
+      '>comme au ciel.\n'
       '\n'
       'Donne-nous aujourd\'hui\n'
-      '> notre pain de ce jour.\n'
+      '>notre pain de ce jour.\n'
       'Pardonne-nous nos offenses,\n'
       'comme nous pardonnons aussi\n'
-      '> à ceux qui nous ont offensés.\n'
+      '>à ceux qui nous ont offensés.\n'
       'Et ne nous laisse pas entrer en tentation\n'
       'mais délivre-nous du Mal.\n'
       'Amen.',

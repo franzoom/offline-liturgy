@@ -1,4 +1,5 @@
 import 'office_elements_class.dart';
+import 'psalms_class.dart';
 
 /// Class representing the Compline (Night Prayer) structure
 class Compline {
@@ -12,6 +13,7 @@ class Compline {
   Reading? reading;
   String? responsory;
   EvangelicAntiphon? evangelicAntiphon;
+  Psalm? evangelicCanticle;
   List<String>? oration;
   List<HymnEntry>? marialHymnRef;
 
@@ -24,6 +26,7 @@ class Compline {
     this.reading,
     this.responsory,
     this.evangelicAntiphon,
+    this.evangelicCanticle,
     this.oration,
     this.marialHymnRef,
   });

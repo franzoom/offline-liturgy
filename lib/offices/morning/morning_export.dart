@@ -7,6 +7,7 @@ import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
+import '../../assets/usual_texts.dart';
 
 /// Resolves the Morning Prayer (Lauds).
 /// Priority logic: Proper > Common > Ferial base.
@@ -111,6 +112,9 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     morningOffice.evangelicAntiphon = morningOffice.evangelicAntiphon!
         .map((k, v) => MapEntry(k, paschalAntiphon(v, lt)));
   }
+
+  // 8. Assign the evangelic canticle (Benedictus)
+  morningOffice.evangelicCanticle = benedictus;
 
   return morningOffice;
 }

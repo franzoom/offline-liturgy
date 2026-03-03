@@ -7,10 +7,6 @@ const Map<String, FeastDates> luxembourgFeastsList = {
   'luxembourg_willibrord_of_utrecht_bishop':
       F(11, 7, 4), // Patron of the country - Solemnity
 
-  // --- APRIL / MAY (Fixed date for the beginning of the Octave in some calendars) ---
-  'luxembourg_our_lady_consoler_of_the_afflicted':
-      F(5, 5, 4), // Main Patroness - Solemnity
-
   // --- OCTOBER ---
   'luxembourg_kunigunde_of_empress':
       F(3, 3, 12), // Can be celebrated in October or March
@@ -30,7 +26,7 @@ Calendar addLuxembourgFeasts(Calendar calendar, int liturgicalYear,
   // Traditionally the 3rd Sunday of Easter.
   // We can use addItemRelatedToFeast to mark the beginning of the Octave.
   calendar.addItemRelatedToFeast(liturgicalMainFeasts['EASTER']!, 14, 4,
-      'luxembourg_our_lady_consoler_octave_start');
+      'luxembourg_our_lady_consoler_of_the_afflicted');
 
   return calendar;
 }

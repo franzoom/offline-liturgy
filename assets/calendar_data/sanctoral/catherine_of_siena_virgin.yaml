@@ -1,7 +1,11 @@
 celebration:
   title: Ste Catherine de Sienne
   subtitle: Vierge et docteur de l’Église
+  description: Catherine de Sienne (1347‑138) fut partagée, sa vie durant, entre la soif de contempler le Christ en croix et le service de l’Église, que déchiraient les factions. Pénétrée de l’esprit de saint Dominique, elle puisa dans son amour pour Dieu les énergies qui lui permirent de ramener le pape d’Avignon à Rome et de faire entendre aux pécheurs l’appel du sang rédempteur.
   color: white
+  commons:
+    - virgins
+    - saints-doctors
 
 oration:
   - Seigneur, tu as enflammé de ton amour sainte Catherine de Sienne en lui faisant contempler la passion de Jésus et en l’appelant à servir l’Église ; par son intercession, accorde à ton peuple d’être uni au mystère du Christ, pour exulter dans la découverte de sa gloire.
@@ -16,51 +20,25 @@ readings:
         C’est dans la foi, ce miroir de la lumière, que je te connais : tu es le souverain bien, bien qui surpasse tout bien, bien qui donne le bonheur, bien qui dépasse toute idée et tout jugement ; beauté au-dessus de toute beauté, sagesse au-dessus de toute sagesse : car tu es la sagesse elle-même, tu es l’aliment des anges qui, dans l’ardeur de ton amour, s’est donné aux hommes.
         Tu es le vêtement qui couvre ma nudité, tu nourris les affamés de ta douceur, car tu es douce, sans nulle amertume, ô éternelle Trinité.
       responsory: |-
-        R/ Ô abîme de la sagesse et de la science de Dieu,
+        R/ Ô abîme de la sagesse
+        et de la science de Dieu,
         insondables ses décrets,
         incompréhensibles ses voies !
+
+        Mystère de Dieu, mystère du Christ,
+        où se trouvent cachés tous les trésors
+        de la sagesse et de la connaissance.
+
+        Dieu a voulu nous faire connaître
+        la gloire de ce mystère au milieu des nations :
+        le Christ parmi nous, l’espérance de la gloire.
 
 morning:
   evangelicAntiphon:
     common: Sans relâche, Catherine priait le Seigneur de rendre la paix à son Église, alléluia.
-  intercession:
-    content: |-
-      Ô Christ, toi que les saintes vierges ont aimé d’un unique amour,
-      – fais que rien ne nous sépare de toi.
-
-      Tu as couronné Reine des vierges, Marie, ta mère,
-      – par son intercession, purifie nos cœurs.
-
-      À la prière des saintes femmes qui t’ont suivi de tout leur cœur,
-      – accorde-nous de marcher le cœur libre à travers ce monde qui passe.
-
-      Toi, l’Époux que les vierges sages ont su attendre,
-      – donne-nous un cœur vigilant, prompt à te reconnaître.
-
-      Par l’intercession de sainte Catherine de Sienne,
-      – fais-nous brûler d’amour en ta présence.
-
+ 
 vespers:
   evangelicAntiphon:
-    common: "Catherine cherchait Dieu et le trouvait : elle était unie à celui qu’elle aimait, alléluia."
-  intercession:
-    content: |-
-      Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;
-      bénissons-le de tout notre cœur :
-
-      R/Ô Christ, notre salut, Jésus, notre lumière !
-
-      Tu as voulu pour épouse une Église vierge et pure,
-      – rends-la irréprochable et sainte.
-
-      Les vierges sages ont couru au-devant de toi avec leurs lampes,
-      – donne aux femmes qui te sont consacrées de te rester fidèles.
-
-      Tu donnes à ton Église de garder sa foi intègre et pure,
-      – accorde cette même grâce à tous les chrétiens.
-
-      Nous célébrons aujourd’hui la fête de sainte Catherine de Sienne,
-      – que son intercession soit notre joie.
-
-      Tu accueilles les vierges sages au festin des noces,
-      – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.
+    common: |-
+      Catherine cherchait Dieu et le trouvait : elle était unie à celui qu’elle aimait, alléluia.
+ 

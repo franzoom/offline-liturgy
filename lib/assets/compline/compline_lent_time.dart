@@ -80,7 +80,10 @@ final Map<String, Compline> lentTimeCompline = {
       ),
       PsalmEntry(
         psalm: "PSALM_129",
-        antiphon: ["Auprès du Seigneur est la grâce, la pleine délivrance."],
+        antiphon: [
+          "Près de toi se trouve le pardon.",
+          "J'espère le Seigneur de tout mon âme."
+        ],
       ),
     ],
     marialHymnRef: [

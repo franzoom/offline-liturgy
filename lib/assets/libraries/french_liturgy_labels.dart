@@ -80,6 +80,14 @@ const Map<String, String> liturgyLabels = {
   'conclusion': 'Conclusion',
   'zachary_canticle': 'Cantique de Zacharie',
   'invitatory': 'Invitatoire',
+  'select-common': 'Sélectionner un commun',
+  'select-office': 'Sélectionner un office',
+  'no-office': "Pas d’office disponible",
+  'no-invitatory': "Pas d’invitatoire disponible",
+  'no-data': 'Pas de donnée disponible',
+  'no-hymn': 'Pas d’hymne disponible',
+  'error-office': 'Erreur de chargement de l’office',
+  'error': 'Erreur'
 };
 
 final Map<String, String> fixedTexts = {

@@ -92,7 +92,7 @@ final Map<String, String> fixedTexts = {
   "complineIntroduction":
       "On peut commencer par une révision de la journée, ou par un acte pénitentiel dans la célébration commune.",
   "complineConclusion":
-      "Que Le Seigneur nous bénisse et nous garde,\nle Père, le Fils, et le Saint-Esprit.\nAmen.",
+      "Que le Seigneur nous bénisse et nous garde,\nle Père, le Fils, et le Saint-Esprit.\nAmen.",
   "or": "ou",
 };
 

@@ -68,6 +68,7 @@ const Map<String, String> liturgyLabels = {
   'oration': 'Oraison',
   'marial_hymns': 'Hymnes Mariales',
   'hymns': 'Hymnes',
+  'te-deum': 'Te Deum',
   'blessing': 'Bénédiction',
   'reading': 'Lecture',
   'biblical reading': "Lecture biblique",
@@ -86,8 +87,19 @@ const Map<String, String> liturgyLabels = {
   'no-invitatory': "Pas d’invitatoire disponible",
   'no-data': 'Pas de donnée disponible',
   'no-hymn': 'Pas d’hymne disponible',
+  'no-psalm': 'Pas de psaume disponible',
+  'no-responsory': 'Pas de répons disponible',
+  'no-canticle': 'Pas de cantique disponible',
+  'no-oration': 'Pas d’oraison disponible',
+  'no-intercession': 'Pas d’intercession disponible',
+  'no-biblical-reading': 'Aucune lecture biblique',
+  'no-patristic-reading': 'Aucune lecture patristique',
+  'no-te-deum': 'Te Deum non disponible',
+  'no-marial-hymn': 'Aucune hymne mariale disponible',
+  'select-compline': 'Choisir les Complies :',
   'error-office': 'Erreur de chargement de l’office',
-  'error': 'Erreur'
+  'error': 'Erreur',
+  'retry': 'recommencer'
 };
 
 final Map<String, String> fixedTexts = {

@@ -477,7 +477,6 @@ void _fillFixedSolemnities(
   final solemnities = {
     'IMMACULATE_CONCEPTION': 3,
     'ASCENSION': 3,
-    'ANNUNCIATION': 3,
     'SAINT_JOSEPH': 4,
     'HOLY_TRINITY': 3,
     'CORPUS_DOMINI': 3,
@@ -490,6 +489,15 @@ void _fillFixedSolemnities(
       calendar.addItemToDay(feasts[name]!, prec, name.toLowerCase());
     }
   });
+
+  // Annunciation key varies by year: 'annunciation-lent' or 'annunciation-easter'
+  final annunciationKey = feasts.keys.firstWhere(
+    (k) => k.startsWith('annunciation'),
+    orElse: () => '',
+  );
+  if (annunciationKey.isNotEmpty) {
+    calendar.addItemToDay(feasts[annunciationKey]!, 3, annunciationKey);
+  }
 
   calendar.addItemToDay(
       feasts['saint_pieter_and_saint_paul']!, 4, 'saint_pieter_and_saint_paul');

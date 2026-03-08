@@ -217,8 +217,8 @@ Future<List<CelebrationContext>> detectCelebrations(
   final Map<String, String> commonTitlesMap = {};
   if (allCommonCodes.isNotEmpty) {
     final commonCodesList = allCommonCodes.toList();
-    final commonLoadFutures = commonCodesList.map(
-        (code) => dataLoader.loadYaml('$commonsFilePath/$code.yaml'));
+    final commonLoadFutures = commonCodesList
+        .map((code) => dataLoader.loadYaml('$commonsFilePath/$code.yaml'));
     final commonResults = await Future.wait(commonLoadFutures);
     for (int i = 0; i < commonCodesList.length; i++) {
       final code = commonCodesList[i];
@@ -265,8 +265,7 @@ Future<List<CelebrationContext>> detectCelebrations(
     final yamlData = parseCelebrationYaml(fileContent);
 
     if (yamlData != null) {
-      celebrationLiturgicalColor =
-          yamlData.color ?? celebrationLiturgicalColor;
+      celebrationLiturgicalColor = yamlData.color ?? celebrationLiturgicalColor;
       celebrationDescription = yamlData.description;
       commonList = yamlData.commons;
 

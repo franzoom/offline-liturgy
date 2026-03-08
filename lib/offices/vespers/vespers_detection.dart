@@ -55,12 +55,14 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
   // All Sundays have First Vespers, plus high-precedence celebrations
   // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
+  // When today is Sunday, tomorrow's solemnities (prec. <= 3) always qualify
   final firstVespersCandidates = tomorrowCelebrations
       .where((c) =>
           (tomorrow.isSunday && (c.precedence ?? _defaultPrecedence) <= 6) ||
           (!ferialDayCheck(c.celebrationCode) &&
               (c.precedence ?? _defaultPrecedence) <=
-                  _firstVespersPrecedenceThreshold))
+                  _firstVespersPrecedenceThreshold) ||
+          (date.isSunday && (c.precedence ?? _defaultPrecedence) <= 3))
       .toList();
 
   // 4. Build the result map
@@ -112,11 +114,15 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     // First Vespers are celebrable if:
     // - tomorrow is Sunday (all Sundays always have celebrable First Vespers)
     // - or they have higher precedence than today's celebrations
+    // - or today is Sunday and tomorrow is a Solemnity (prec. <= 3)
     bool isCelebrable = true;
     if (!tomorrow.isSunday && hasHighPriorityToday) {
       if ((c.precedence ?? _defaultPrecedence) > highestTodayPrecedence) {
         isCelebrable = false;
       }
+    }
+    if (date.isSunday && (c.precedence ?? _defaultPrecedence) <= 3) {
+      isCelebrable = true;
     }
 
     possibleVespers[firstVespersKey] = c.copyWith(

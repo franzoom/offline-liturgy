@@ -1,7 +1,6 @@
 celebration:
   title: Annonciation du Seigneur
   color: white
-  commons: ['virgin-mary']
 
 oration:
   - Seigneur, tu as voulu que ton Verbe prît chair dans le sein de la Vierge Marie ; puisque nous reconnaissons en lui notre Rédempteur, à la fois homme et Dieu, accorde-nous d’être participants de sa nature divine. Lui qui règne.
@@ -67,7 +66,7 @@ morning:
     - psalm: PSALM_62
       antiphon:
         - L’Ange Gabriel fut envoyé par Dieu auprès d’une Vierge appelée Marie.
-    - psalm: AT_41
+    - psalm: OT_41
       antiphon:
         - Vierge bénie entre toutes les femmes, Jésus ton enfant, est béni.
     - psalm: PSALM_149

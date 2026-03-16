@@ -53,6 +53,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       isCelebrable: true,
       dayOfCompline: 'saturday',
       celebrationType: 'solemnityeve',
+      dataLoader: dataLoader,
     );
     possibleComplines['Complies du dimanche'] = ComplineDefinition(
       complineDescription: 'Complies du dimanche',
@@ -64,6 +65,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       isCelebrable: true,
       dayOfCompline: 'sunday',
       celebrationType: 'solemnity',
+      dataLoader: dataLoader,
     );
     return possibleComplines;
   }
@@ -93,6 +95,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       isCelebrable: true,
       dayOfCompline: dayOfCompline,
       celebrationType: celebrationType,
+      dataLoader: dataLoader,
     );
     return possibleComplines;
   }
@@ -136,6 +139,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       dayOfCompline: dayOfCompline,
       celebrationType: celebrationType,
       isEveCompline: false,
+      dataLoader: dataLoader,
     );
   }
 
@@ -173,6 +177,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         dayOfCompline: 'saturday',
         celebrationType: eveCelebrationType,
         isEveCompline: true,
+        dataLoader: dataLoader,
       );
     }
   }

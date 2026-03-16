@@ -24,8 +24,10 @@ class Readings {
     this.oration,
   });
 
-  /// Creates Readings instance from YAML data with robust type safety
-  factory Readings.fromJson(Map<String, dynamic> data) {
+  /// Creates Readings instance from YAML data with robust type safety.
+  /// [year] is the liturgical year ('A', 'B', or 'C') used to select
+  /// year-specific patristic readings (keys 'patristicReadingA/B/C').
+  factory Readings.fromJson(Map<String, dynamic> data, {String? year}) {
     // Helper to parse readings which can be either a single Map or a List of Maps
     List<T>? parseReadings<T>(
         dynamic jsonValue, T Function(Map<String, dynamic>) fromJson) {
@@ -53,8 +55,11 @@ class Readings {
           .toList(),
       biblicalReading:
           parseReadings(data['biblicalReading'], BiblicalReading.fromJson),
-      patristicReading:
-          parseReadings(data['patristicReading'], PatristicReading.fromJson),
+      patristicReading: parseReadings(
+          year != null
+              ? (data['patristicReading$year'] ?? data['patristicReading'])
+              : data['patristicReading'],
+          PatristicReading.fromJson),
       tedeum: data['tedeum'] as bool?,
       verse: data['verse']?.toString(),
       oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),

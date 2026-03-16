@@ -8,17 +8,20 @@ import '../../assets/compline/compline_solemnity_ordinary_time.dart';
 import '../../assets/compline/compline_solemnity_advent_christmas.dart';
 import '../../assets/compline/compline_advent_time.dart';
 import '../../assets/compline/compline_christmas_time.dart';
-import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../assets/usual_texts.dart';
 
 /// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
 /// This is called AFTER the user has picked a specific Compline option.
 Future<Compline> complineExport(
-  ComplineDefinition choice,
-  DataLoader dataLoader, {
+  ComplineDefinition choice, {
   bool showImprecatoryVerses = false,
 }) async {
+  final dataLoader = choice.dataLoader;
+  if (dataLoader == null) {
+    throw Exception("ComplineDefinition is missing a DataLoader");
+  }
+
   // 1. Get the static text structure based on the user's choice
   final compline = getComplineText(choice);
 

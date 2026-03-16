@@ -2,6 +2,7 @@ import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
 import '../../tools/hymns_management.dart'; // Contient getHymnsForSeason
+import '../../tools/date_tools.dart';
 import './readings_extract.dart';
 import '../../tools/constants.dart';
 
@@ -124,9 +125,18 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
 Future<Readings> _resolveLent(CelebrationContext context) async {
   final dayDatas = extractWeekAndDay(context.ferialCode!, 'lent');
   final week = dayDatas[0];
+  final day = dayDatas[1];
+
+  // lent_4_0 and lent_5_0 (4th and 5th Sundays of Lent) have year-specific
+  // patristic readings keyed as patristicReadingA/B/C in the YAML.
+  final bool hasYearSpecificReading = day == 0 && (week == 4 || week == 5);
+  final String? year = hasYearSpecificReading
+      ? liturgicalYear(context.date.year)
+      : null;
 
   Readings ferialReadings = await readingsExtract(
-      '$ferialFilePath/lent_${week}_${dayDatas[1]}.yaml', context.dataLoader);
+      '$ferialFilePath/lent_${week}_$day.yaml', context.dataLoader,
+      year: year);
 
   final String hymnKey = week < 5 ? "lent" : "passion";
   ferialReadings.hymn = getHymnsForSeason(hymnKey);

@@ -8,7 +8,7 @@ import '../../tools/convert_yaml_to_dart.dart';
 /// It focuses on the 'readings' section which typically includes
 /// biblical lessons, patristic texts, and their respective responsories.
 Future<Readings> readingsExtract(
-    String relativePath, DataLoader dataLoader) async {
+    String relativePath, DataLoader dataLoader, {String? year}) async {
   // 1. Load the raw YAML content from the data provider
   final String fileContent = await dataLoader.loadYaml(relativePath);
 
@@ -26,7 +26,7 @@ Future<Readings> readingsExtract(
     if (data['readings'] is Map<String, dynamic>) {
       final Map<String, dynamic> readingsData =
           data['readings'] as Map<String, dynamic>;
-      readings = Readings.fromJson(readingsData);
+      readings = Readings.fromJson(readingsData, year: year);
 
       // 4. Fallback for Oration:
       // If the specific section doesn't have an oration, look at the root level

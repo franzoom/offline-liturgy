@@ -1,5 +1,6 @@
 import 'office_elements_class.dart';
 import 'psalms_class.dart';
+import '../tools/data_loader.dart';
 
 /// Class representing the Compline (Night Prayer) structure
 class Compline {
@@ -112,6 +113,7 @@ class ComplineDefinition {
       celebrationType; // 'solemnity', 'solemnityeve', 'normal', 'holy_thursday', etc.
   final bool
       isEveCompline; // true if these are Eve Complines (like First Vespers)
+  final DataLoader? dataLoader;
 
   ComplineDefinition({
     required this.complineDescription,
@@ -124,5 +126,6 @@ class ComplineDefinition {
     required this.dayOfCompline,
     required this.celebrationType,
     this.isEveCompline = false,
+    this.dataLoader,
   });
 }

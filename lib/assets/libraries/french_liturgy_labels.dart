@@ -109,12 +109,12 @@ final Map<String, String> fixedTexts = {
       "R/ Seigneur, ouvre mes lèvres.\nV/ Et ma bouche publiera ta louange.",
   "officeBenediction":
       "[rubric]Si l’office est présidé par un prêtre ou un diacre :\n\nV/ Le Seigneur soit avec vous.\nR/ Et avec votre esprit.\n\nQue Dieu tout-puissant vous bénisse,\nle Père, et le Fils, et le Saint-Esprit. Amen.\n\nV/Bénissons le Seigneur.\nR/Nous rendons grâce à Dieu.\n\n[rubric]Si l’office n’est pas présidé par un prêtre ou un diacre, et dans la récitation privée :\n\nQue le Seigneur nous bénisse,\nnous protège de tout mal\net nous conduise à la vie éternelle.\nAmen.\n\n[rubric] ou\n\nQue le Dieu de l’espérance vous remplisse\nde toute joie et de toute paix\ndans la foi. Amen",
-  "shortBlessing": "V/Bénissons le Seigneur.\nR/Nous rendons grâce à Dieu.",
+  "shortBlessing": "V/ Bénissons le Seigneur.\nR/ Nous rendons grâce à Dieu.",
   "complineIntroduction":
       "On peut commencer par une révision de la journée, ou par un acte pénitentiel dans la célébration commune.",
   "complineConclusion":
       "Que le Seigneur nous bénisse et nous garde,\nle Père, le Fils, et le Saint-Esprit.\nAmen.",
-  "or": "ou",
+  "or": "[rubric]ou bien :[/rubric]",
 };
 
 String getFrenchOrdinal(int number) {

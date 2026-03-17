@@ -172,3 +172,16 @@ const Hymns notrePere = Hymns(
       'mais délivre-nous du Mal.\n'
       'Amen.',
 );
+
+const Hymns confiteor = Hymns(
+  title: 'Je confesse à Dieu',
+  content: 'Je confesse à Dieu tout-puissant,\n'
+      'je reconnais devant mes frères,\n'
+      'que j’ai péché en pensée, en paroles,\n'
+      'par action et par omission ;\n'
+      'oui j’ai vraiment péché.\n'
+      'C’est pourquoi je supplie la Vierge Marie,\n'
+      'les anges et tous les saints,\n'
+      'et vous aussi mes frères,\n'
+      'de prier pour moi le Seigneur notre Dieu.',
+);

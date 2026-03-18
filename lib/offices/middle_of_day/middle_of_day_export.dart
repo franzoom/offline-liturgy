@@ -74,15 +74,29 @@ Future<MiddleOfDay> middleOfDayExport(
       );
     } else {
       // Weekday solemnity: use gradual psalms (different per hour).
+      // If the celebration has proper antiphons for each hour, use those instead.
       // Each entry in gradualPsalms is [psalmCode, antiphon].
+      final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
+      final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
+      final noneAntiphon = middleOfDayOffice.none?.antiphon;
+
       middleOfDayOffice.psalmodyTierce = gradualPsalms['tierce']!
-          .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
+          .map((e) => PsalmEntry(
+                psalm: e[0],
+                antiphon: tierceAntiphon != null ? [tierceAntiphon] : [e[1]],
+              ))
           .toList();
       middleOfDayOffice.psalmodySexte = gradualPsalms['sexte']!
-          .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
+          .map((e) => PsalmEntry(
+                psalm: e[0],
+                antiphon: sexteAntiphon != null ? [sexteAntiphon] : [e[1]],
+              ))
           .toList();
       middleOfDayOffice.psalmodyNone = gradualPsalms['none']!
-          .map((e) => PsalmEntry(psalm: e[0], antiphon: [e[1]]))
+          .map((e) => PsalmEntry(
+                psalm: e[0],
+                antiphon: noneAntiphon != null ? [noneAntiphon] : [e[1]],
+              ))
           .toList();
     }
   }
@@ -113,7 +127,15 @@ Future<MiddleOfDay> middleOfDayExport(
   }
 
   // 5. PREPEND LITURGICAL TIME ANTIPHON to each psalm's antiphon list
-  final seasonAntiphon = _getSeasonAntiphon(celebrationContext);
+  // For solemnities during Lent, the proper hour antiphons take precedence.
+  final bool isSolemnity = celebrationContext.precedence != null &&
+      celebrationContext.precedence! <= 4;
+  final bool isLentOrHolyWeek =
+      (celebrationContext.liturgicalTime ?? '') == 'lent' ||
+          (celebrationContext.liturgicalTime ?? '') == 'holyweek';
+  final seasonAntiphon = (isSolemnity && isLentOrHolyWeek)
+      ? null
+      : _getSeasonAntiphon(celebrationContext);
   if (seasonAntiphon != null) {
     List<PsalmEntry> prependSeason(List<PsalmEntry> psalms) {
       return psalms.map((entry) {

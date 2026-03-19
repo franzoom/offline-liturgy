@@ -1,7 +1,8 @@
 celebration:
   title: Annonciation du Seigneur
   color: white
-  commons: ['virgin-mary']
+  commons: 
+    - virgin-mary
 
 oration:
   - Seigneur, tu as voulu que ton Verbe prît chair dans le sein de la Vierge Marie ; puisque nous reconnaissons en lui notre Rédempteur, à la fois homme et Dieu, accorde-nous d’être participants de sa nature divine. Lui qui règne.
@@ -124,7 +125,7 @@ readings:
     V/ Le Verbe s’est fait chair,
     il a habité parmi nous.
   biblicalReading:
-    - title: Du 1^er livre des Chroniques
+    - title: Lecture du 1^er livre des Chroniques
       subtitle: Prophétie sur le fils de David
       ref: 1Ch 17, 1-15
       content: |-
@@ -135,7 +136,7 @@ readings:
         Toutes ces paroles, toute cette vision, Nathan les rapporta fidèlement à David.
       responsory: |-
         [rubric](Stance)[/rubric]
-        La Parole et l'Esprit ont fécondé la Terre
+        La Parole et l’Esprit ont fécondé la Terre
         où germe la semence du Royaume ;
         dans le silence et dans la paix
         mûrit le fruit de la promesse.

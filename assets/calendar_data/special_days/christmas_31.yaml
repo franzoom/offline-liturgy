@@ -2,7 +2,8 @@ celebration:
   title: 7ème jour dans l’octave de la Nativité
   subtitle: 31 décembre
   description: null
-  commons: ['christmas']
+  commons: 
+    - christmas
   color: white
 oration:
   - Dieu éternel et tout-puissant, tu as voulu que tout effort de l’homme vers toi trouve son origine et son achèvement dans l’incarnation de ton Fils ; accorde-nous d’être comptés dans la part du Christ qui résume en lui le salut du genre humain. Lui qui règne.
@@ -22,7 +23,8 @@ readings:
     V/ Dans les derniers temps, Dieu a parlé par son Fils,
     par lui, il a créé les mondes.
   biblicalReading:
-    - title: Par Lui, avec Lui, en Lui
+    - title: LECTURE DE LA LETTRE AUX COLOSSIENS
+      subtitle: Par Lui, avec Lui, en Lui
       ref: Col 2, 4-15
       content: |-
         Je vous dis cela pour que personne ne vous égare par des arguments trop habiles. Car si je suis absent physiquement, je suis toutefois spirituellement avec vous, et je me réjouis de voir l’ordre qu’il y a chez vous et la fermeté de votre foi au Christ.
@@ -30,6 +32,15 @@ readings:
         Car en lui, dans son propre corps, habite toute la plénitude de la divinité. En lui, vous êtes pleinement comblés, car il domine toutes les Puissances de l’univers. En lui, vous avez reçu une circoncision qui n’est pas celle que pratiquent les hommes, mais celle qui réalise l’entier dépouillement de votre corps de chair ; telle est la circoncision qui vient du Christ. Dans le baptême, vous avez été mis au tombeau avec lui et vous êtes ressuscités avec lui par la foi en la force de Dieu qui l’a ressuscité d’entre les morts. Vous étiez des morts, parce que vous aviez commis des fautes et n’aviez pas reçu de circoncision dans votre chair. Mais Dieu vous a donné la vie avec le Christ : il nous a pardonné toutes nos fautes. Il a effacé le billet de la dette qui nous accablait en raison des prescriptions légales pesant sur nous : il l’a annulé en le clouant à la croix. Ainsi, Dieu a dépouillé les Puissances de l’univers ; il les a publiquement données en spectacle et les a traînées dans le cortège triomphal du Christ.
       responsory: |-
         R/ Dieu nous a donné la vie avec le Christ !
+
+        Poursuivez votre route dans le Christ,
+        Jésus, le Seigneur, tel que vous l’avez reçu.
+        
+        Soyez enracinés et fondés en lui,
+        affermis dans la foi, débordants d’action de grâce.
+        
+        En lui habite toute la plénitude de la divinité,
+        en lui vous vous trouverez pleinement consolés.
   patristicReading:
     - title: SERMON DE SAINT LÉON LE GRAND POUR NOËL
       subtitle: La naissance du Seigneur, c’est la naissance de la paix
@@ -45,7 +56,17 @@ readings:
         Donc, ceux qui%ne sont pas nés du sang, ni d’une volonté charnelle, ni d’une volonté d’homme%, mais qui%sont nés de Dieu%, doivent offrir au Père la volonté unanime de fils artisans de paix. Tous ceux qui sont devenus par adoption les membres du Christ doivent accourir pour rejoindre ensemble le premier-né de la nouvelle création, celui qui est venu%faire%%non pas sa volonté, mais la volonté de celui qui l’envoie%. Les héritiers que la grâce du Père adopte ne sont pas des héritiers divisés ou disparates ; ils ont les mêmes sentiments et le même amour. Ceux qui sont recréés selon l’Image unique doivent avoir une âme qui lui ressemble.
         La naissance du Seigneur Jésus, c’est la naissance de la paix. Comme le dit saint Paul,%c’est lui, le Christ, qui est notre paix%. Que nous soyons d’origine juive ou païenne, c’est%par lui que nous avons, dans un seul Esprit, accès auprès du Père%.
       responsory: |-
-        R/ Justifiés par la foi, nous avons la paix avec Dieu en Jésus, notre Seigneur.
+        R/ Justifiés par la foi,
+        nous avons la paix avec Dieu,
+        en Jésus, notre Seigneur.
+        
+        Mon dessein pour vous, oracle du Seigneur,
+        est un dessein de paix,
+        un avenir d’espérance.
+        
+        Quand vous me chercherez,
+        vous me trouverez,
+        pour m’avoir cherché de tout votre cœur.
 
 morning:
   hymn:
@@ -108,7 +129,7 @@ middleOfDay:
   none:
     reading:
       biblicalReference: Is 65, 1
-      content: 'Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : "Me voici, me voici" à une nation qui n’invoquait pas mon nom.'
+      content: ’Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : "Me voici, me voici" à une nation qui n’invoquait pas mon nom.’
     responsory: |-
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.

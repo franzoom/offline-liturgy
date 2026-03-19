@@ -10,7 +10,7 @@ final Map<String, Compline> solemnityComplineLentTime = {
       ),
       PsalmEntry(
         psalm: "PSALM_133",
-        antiphon: ["Dans la paix, je reposerai."],
+        antiphon: ["La nuit est avancée, le jour est proche."],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(

@@ -2,7 +2,8 @@ celebration:
   title: Cœur Immaculé de la Vierge Marie
   subtitle: Le samedi après le Sacré-Cœur
   description: null
-  commons: ['virgin-mary']
+  commons: 
+    - virgin-mary
   color: white
 oration:
   - Dieu qui as préparé dans le Cœur de la Vierge Marie une demeure digne de l’Esprit Saint ; accorde-nous, par son intercession, de devenir le temple de ta gloire.
@@ -34,8 +35,8 @@ mass:
         la descendance bénie du Seigneur.
         Je tressaille de joie dans le Seigneur,
         mon âme exulte en mon Dieu.
-        Car il m'a vêtue des vêtements du salut,
-        il m'a couverte du manteau de la justice,
+        Car il m’a vêtue des vêtements du salut,
+        il m’a couverte du manteau de la justice,
         comme le jeune marié orné du diadème,
         la jeune mariée que parent ses joyaux.
         Comme la terre fait éclore son germe,
@@ -50,26 +51,26 @@ mass:
       - chorusRef: 1 S 2, 1a
         chorus: |-
           Mon cœur exulte à cause du Seigneur :
-          c'est lui qui me sauve.
+          c’est lui qui me sauve.
       content: |-
         Mon cœur exulte à cause du Seigneur ;
-        mon front s'est relevé grâce à mon Dieu !
+        mon front s’est relevé grâce à mon Dieu !
         Face à mes ennemis, s’ouvre ma bouche :
         oui, je me réjouis de ton salut !
 
-        L'arc des forts est brisé,
+        L’arc des forts est brisé,
         mais le faible se revêt de vigueur.
         Les plus comblés s’embauchent pour du pain,
         et les affamés se reposent.
 
         Le Seigneur fait mourir et vivre ;
-        il fait descendre à l'abîme et en ramène.
+        il fait descendre à l’abîme et en ramène.
         Le Seigneur rend pauvre et riche ;
         il abaisse et il élève.
 
         De la poussière il relève le faible,
         il retire le malheureux de la cendre
-        pour qu'il siège parmi les princes
+        pour qu’il siège parmi les princes
         et reçoive un trône de gloire.
   - partType: GOSPEL
     partContents:

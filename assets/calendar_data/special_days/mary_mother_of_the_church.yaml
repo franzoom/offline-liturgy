@@ -2,7 +2,8 @@ celebration:
   title: Bienheureuse Vierge Marie, Mère de l’Église
   subtitle: Le lundi qui suit la Pentecôte
   description: null
-  commons: ['virgin-mary']
+  commons:
+    - virgin-mary
   color: white
 oration:
   - Dieu, Père de toute miséricorde, ton Fils unique, cloué sur la croix, a voulu que la bienheureuse Vierge Marie, sa mère, soit aussi notre mère ; accorde à ton Église, soutenue par son amour, la joie de donner naissance à des enfants toujours plus nombreux, de les voir grandir en sainteté et d’attirer à elle toutes les familles des peuples.
@@ -22,6 +23,11 @@ readings:
       responsory: |-
         R/ L’Esprit Saint est venu en Marie :
         la Puissance du Très-Haut l’a prise sous son ombre.
+
+        Celle qui fut associée à la passion de son Fils,
+        il l’a comblée aussi pour qu’elle soit la Mère des rachetés.
+        
+        Gloire au Père.
 
 morning:
   hymn:

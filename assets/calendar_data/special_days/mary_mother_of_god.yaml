@@ -3,10 +3,10 @@ celebration:
   subtitle: |- 
     1ᵉʳ janvier (Octave de la Nativité)
   description: |-
-    Huit jours après la Nativité du Seigneur et Sauveur Jésus-Christ, nous célébrons sa Mère, celle qui lui a donné son être humain, corps et âme par l'Esprit-Saint qui vient sur elle la plaçant dans l'orbite de la paternité divine. C'est pourquoi le concile d'Ephèse en 431, la proclama la Theotokos, la Mère de Dieu, puisque son fils est Dieu, ce qui ne préjuge pas de la différence entre Marie créature humaine et Jésus Fils éternel de Dieu.
+    Huit jours après la Nativité du Seigneur et Sauveur Jésus-Christ, nous célébrons sa Mère, celle qui lui a donné son être humain, corps et âme par l’Esprit-Saint qui vient sur elle la plaçant dans l’orbite de la paternité divine. C’est pourquoi le concile d’Ephèse en 431, la proclama la Theotokos, la Mère de Dieu, puisque son fils est Dieu, ce qui ne préjuge pas de la différence entre Marie créature humaine et Jésus Fils éternel de Dieu.
     En l’Octave de la Nativité du Seigneur et au jour de sa circoncision, solennité de sainte Marie Mère de Dieu. Au concile d’Ephèse, les Pères l’acclamèrent Théotokos, parce que, en elle, le Verbe prit chair et le Fils de Dieu habita parmi les hommes, lui, le prince de la paix, à qui a été donné le nom au dessus de tout nom.
-  commons: ['virgin-mary']
-  precedence: 3
+  commons:
+    - virgin-mary
   color: white
 oration:
   - Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel ; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne.
@@ -77,13 +77,30 @@ readings:
     V/ Le Verbe s’est fait chair, alléluia,
     il a demeuré parmi nous, alléluia.
   biblicalReading:
-    - title: En tous points Jésus s’est fait semblable à ses frères
+    - title: LECTURE DE LA LETTRE AUX HÉBREUX
+      subtitle: En tous points Jésus s’est fait semblable à ses frères
       ref: He 2, 9-17
       content: |-
         Jésus, qui a été abaissé un peu au-dessous des anges, nous le voyons couronné de gloire et d’honneur à cause de sa Passion et de sa mort. Si donc il a fait l’expérience de la mort, c’est, par grâce de Dieu, au profit de tous.
         Celui pour qui et par qui tout existe voulait conduire une multitude de fils jusqu’à la gloire ; c’est pourquoi il convenait qu’il mène à sa perfection, par des souffrances, celui qui est à l’origine de leur salut. Car celui qui sanctifie, et ceux qui sont sanctifiés, doivent tous avoir même origine ; pour cette raison, Jésus n’a pas honte de les appeler ses frères, quand il dit : %Je proclamerai ton nom devant mes frères, je te chanterai en pleine assemblée,% et encore : %Moi, je mettrai ma confiance en lui%, et encore : %Me voici, moi et les enfants que Dieu m’a donnés%.
         Puisque les enfants des hommes ont en commun le sang et la chair, Jésus a partagé, lui aussi, pareille condition : ainsi, par sa mort, il a pu réduire à l’impuissance celui qui possédait le pouvoir de la mort, c’est-à-dire le diable, et il a rendu libres tous ceux qui, par crainte de la mort, passaient toute leur vie dans une situation d’esclaves. Car ceux qu’il prend en charge, ce ne sont pas les anges, c’est la descendance d’Abraham. Il lui fallait donc se rendre en tout semblable à ses frères, pour devenir un grand prêtre miséricordieux et digne de foi pour les relations avec Dieu, afin d’enlever les péchés du peuple.
-      responsory: R/ Joie dans le ciel, paix sur la terre !
+      responsory: |-
+        [rubric](Stance)[/rubric]
+        Les temps sont accomplis :
+        Aujourd’hui naît d’une femme,
+        celui qui nous rend fils de Dieu.
+        Son visage brille sur nous
+        et son Esprit pénètre nos cœurs.
+        
+        R/ Joie dans le ciel, paix sur la terre !
+        Au souffle qui passe en elle ,
+        Marie tressaille et s’émerveille.
+        
+        Les pauvres sont venus ;
+        ils glorifient et louent l’Eternel.
+        
+        D’âge en âge l’Église
+        reçoit la Parole de vie.
   patristicReading:
     - title: LETTRE DE SAINT ATHANASE À ÉPICTÈTE, ÉVÊQUE DE CORINTHE
       subtitle: En Marie, Dieu s’est vraiment fait homme

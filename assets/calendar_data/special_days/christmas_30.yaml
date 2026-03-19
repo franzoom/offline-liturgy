@@ -2,10 +2,11 @@ celebration:
   title: 6ème jour dans l’octave de la Nativité
   subtitle: 30 décembre
   description: null
-  commons: ['christmas']
+  commons: 
+    - christmas
   color: white
 oration:
-  - Nous t'en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne.
+  - Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne.
 
 readings:
   psalmody:
@@ -22,7 +23,8 @@ readings:
     V/ Sur toute l’étendu de la terre, alléluia,
     on a vu le salut de notre Dieu, alléluia.
   biblicalReading:
-    - title: Par le Christ tout est réconcilié
+    - title: LECTURE DE LA LETTRE AUX COLOSSIENS
+      subtitle: Par le Christ tout est réconcilié
       ref: Col 1, 15 – 2, 3
       content: |-
         Christ est l’image du Dieu invisible, le premier-né, avant toute créature : en lui, tout fut créé, dans le ciel et sur la terre. Les êtres visibles et invisibles, Puissances, Principautés, Souverainetés, Dominations, tout est créé par lui et pour lui. Il est avant toute chose, et tout subsiste en lui.
@@ -30,7 +32,17 @@ readings:
         Et vous, vous étiez jadis étrangers à Dieu, et même ses ennemis, par vos pensées et vos actes mauvais. Mais maintenant, Dieu vous a réconciliés avec lui, dans le corps du Christ, son corps de chair, par sa mort, afin de vous introduire en sa présence, saints, immaculés, irréprochables. Cela se réalise si vous restez solidement fondés dans la foi, sans vous détourner de l’espérance que vous avez reçue en écoutant l’Évangile proclamé à toute créature sous le ciel. De cet Évangile, moi, Paul, je suis devenu ministre.
         Maintenant je trouve la joie dans les souffrances que je supporte pour vous ; ce qui reste à souffrir des épreuves du Christ dans ma propre chair, je l’accomplis pour son corps qui est l’Église. De cette Église, je suis devenu ministre, et la mission que Dieu m’a confiée, c’est de mener à bien pour vous l’annonce de sa parole, le mystère qui était caché depuis toujours à toutes les générations, mais qui maintenant a été manifesté à ceux qu’il a sanctifiés. Car Dieu a bien voulu leur faire connaître en quoi consiste la gloire sans prix de ce mystère parmi toutes les nations : le Christ est parmi vous, lui, l’espérance de la gloire ! Ce Christ, nous l’annonçons : nous avertissons tout homme, nous instruisons chacun en toute sagesse, afin de l’amener à sa perfection dans le Christ. C’est pour cela que je m’épuise à combattre, avec la force du Christ dont la puissance agit en moi.
         Je veux en effet que vous sachiez quel dur combat je mène pour vous, et aussi pour les fidèles de Laodicée et pour tant d’autres qui ne m’ont jamais vu personnellement. Je combats pour que leurs cœurs soient remplis de courage et pour que, rassemblés dans l’amour, ils accèdent à la plénitude de l’intelligence dans toute sa richesse, et à la vraie connaissance du mystère de Dieu. Ce mystère, c’est le Christ, en qui se trouvent cachés tous les trésors de la sagesse et de la connaissance.
-      responsory: R/ Paix par le sang de la croix !
+      responsory: |-
+        R/ Paix par le sang de la croix !
+
+        Christ est le commencement,
+        Premier-né d’entre les morts.
+        
+        Il a plu à Dieu de tout réconcilier
+        par le Christ et pour lui, sur la terre et dans les cieux.
+        
+        Le mystère tenu caché au long des âges,
+        Dieu le manifeste maintenant à ses saints.
   patristicReading:
     - title: RÉFUTATION DE TOUTES LES HÉRÉSIES PAR SAINT HIPPOLYTE
       subtitle: Christ a pris notre humanité pour que nous ayons part à sa divinité
@@ -43,7 +55,19 @@ readings:
         Grâce à la connaissance du vrai Dieu, tu auras un corps immortel et incorruptible comme l’âme elle-même ; tu recevras en partage le Royaume des cieux parce que tu auras reconnu, tandis que tu vivais sur la terre, le Roi céleste. Tu seras le familier de Dieu et le cohéritier du Christ. Tu ne seras plus l’esclave des convoitises, des souffrances et des maladies, car tu es devenu un dieu.
         Toutes les souffrances que tu as subies comme homme, Dieu te les envoyait parce que tu es un homme. Et tout ce qui appartient à Dieu, Dieu a promis de te le donner, lorsque tu auras été déifié, et engendré à l’immortalité. Voilà ce que signifie la maxime : « Connais-toi toi-même » : connais-toi en connaissant le Dieu qui t’a créé. Car se connaître appartient à l’homme appelé par Dieu, du fait qu’il est connu de lui.
         Ne soyez donc pas ennemis de vous-mêmes ; n’hésitez pas à revenir en arrière. Car%le Christ est Dieu, au-dessus de tout%, lui qui a prescrit de laver les hommes du péché, qui a donné à l’homme ancien la perfection de l’homme nouveau ; dès le commencement, il l’a appelé son image, et par cette ressemblance il a montré sa tendresse pour toi. Si tu obéis à ses prescriptions saintes, si, en étant bon, tu imites celui qui est bon, tu deviendras semblable à lui et il te comblera d’honneur. Car Dieu n’est pas un mendiant, lui qui t’a fait dieu, toi aussi, pour sa gloire.
-      responsory: R/ Louange au Père qui nous révèle les secrets du Royaume !
+      responsory: |-
+        R/ Louange au Père
+        qui nous révèle
+        les secrets du Royaume !
+
+        Au commencement était le Verbe,
+        le Verbe s’est fait chair.
+        
+        La Sagesse a mis ses délices
+        à fréquenter les enfants des hommes.
+        
+        Heureux ceux qui gardent ses voies !
+        Heureux ceux qui écoutent la Parole 
 
 morning:
   hymn:

@@ -1,6 +1,5 @@
 celebration:
   title: Le Saint Sacrement du Corps et du Sang du Christ
-  precedence: 3
   color: white
 
 oration:
@@ -71,37 +70,60 @@ readings:
     V/ La Sagesse a bâti sa maison, alléluia,
     elle a dressé sa table et mélangé son vin, alléluia.
   biblicalReading:
-    - title: Voir Dieu, faire alliance avec lui
+    - title: LECTURE DE DU LIVRE DE L’EXODE
+      subtitle: Voir Dieu, faire alliance avec lui
       ref: Ex 24, 1-11
       content: |-
         Le SEIGNEUR avait dit à Moïse : « Monte vers le SEIGNEUR et prends avec toi Aaron, ses deux fils Nadab et Abihou, et soixante-dix des anciens d’Israël. Vous vous prosternerez à distance. Moïse, seul, s’approchera du SEIGNEUR. Les autres ne s’approcheront pas et le peuple ne montera pas avec lui. »
-
         Moïse vint rapporter au peuple toutes les paroles du SEIGNEUR et toutes ses ordonnances. Tout le peuple répondit d’une seule voix : « Toutes ces paroles que le SEIGNEUR a dites, nous les mettrons en pratique. »
-
         Moïse écrivit toutes les paroles du SEIGNEUR. Il se leva de bon matin et il bâtit un autel au pied de la montagne, et il dressa douze pierres pour les douze tribus d’Israël. Puis il chargea quelques jeunes garçons parmi les fils d’Israël d’offrir des holocaustes, et d’immoler au SEIGNEUR des taureaux en sacrifice de paix. Moïse prit la moitié du sang et le mit dans des coupes ; puis il aspergea l’autel avec le reste du sang. Il prit le livre de l’Alliance et en fit la lecture au peuple. Celui-ci répondit : « Tout ce que le SEIGNEUR a dit, nous le mettrons en pratique, nous y obéirons. » Moïse prit le sang, en aspergea le peuple, et dit : « Voici le sang de l’Alliance que, sur la base de toutes ces paroles, le SEIGNEUR a conclue avec vous. »
-
         Et Moïse gravit la montagne avec Aaron, Nadab et Abihou, et soixante-dix des anciens d’Israël. Ils virent le Dieu d’Israël : il avait sous les pieds comme un pavement de saphir, limpide comme le fond du ciel. Sur ces privilégiés parmi les fils d’Israël, il ne porta pas la main. Ils contemplèrent Dieu, puis ils mangèrent et ils burent.
-      responsory: R/ Vois notre faim, Sauveur du monde partage-nous ta parole et ton pain.
+      responsory: |-
+         [rubric](Stance)[/rubric]
+         Vers qui, Seigneur, diriger notre marche,
+         sinon vers toi ?
+         Toi seul nous parles de la vie
+         et nous la donnes.
+         Rends-nous dignes de la table
+         où ton Père aujourd’hui nous invite.
+         
+         R/ Vois notre faim, Sauveur du monde
+         partage-nous ta parole et ton pain.
+         
+         Je suis le Pain de la vie,
+         qui vient à moi n’aura jamais faim,
+         qui croit en moi n’aura jamais soif.
+         
+         Voici la parole de mon Père :
+         celui qui croit au Fils
+         a la vie éternelle.
+         
+         Qui mange ma chair et boit mon sang
+         a la vie éternelle,
+         et moi, je le ressusciterai au dernier jour.
   patristicReading:
     - title: LECTURE DE SAINT THOMAS D’AQUIN POUR L’OFFICE DU CORPS DU CHRIST
       subtitle: Le mystère de l’Eucharistie
       content: |-
         Le Fils unique de Dieu, voulant nous faire participer à sa divinité, a pris notre nature afin de diviniser les hommes, lui qui s’est fait homme.
-
         En outre, ce qu’il a pris de nous, il nous l’a entièrement donné pour notre salut. En effet, sur l’autel de la croix il a offert son corps en sacrifice à Dieu le Père afin de nous réconcilier avec lui ; et il a répandu son sang pour qu’il soit en même temps notre rançon et notre baptême : rachetés d’un lamentable esclavage, nous serions purifiés de tous nos péchés.
-
         Et pour que nous gardions toujours la mémoire d’un si grand bienfait, il a laissé aux fidèles son corps à manger et son sang à boire, sous les dehors du pain et du vin.
-
         Banquet précieux et stupéfiant, qui apporte le salut et qui est rempli de douceur ! Peut-il y avoir rien de plus précieux que ce banquet où l’on ne nous propose plus, comme dans l’ancienne Loi, de manger la chair des veaux et des boucs, mais le Christ qui est vraiment Dieu ? Y a-t-il rien de plus admirable que ce sacrement ? ~
-
         Aucun sacrement ne produit des effets plus salutaires que celui-ci : il efface les péchés, accroît les vertus et comble l’âme surabondamment de tous les dons spirituels !
-
         Il est offert dans l’Église pour les vivants et pour les morts afin de profiter à tous, étant institué pour le salut de tous.
-
         Enfin, personne n’est capable d’exprimer les délices de ce sacrement, puisqu’on y goûte la douceur spirituelle à sa source et on y célèbre la mémoire de cet amour insurpassable, que le Christ a montré dans sa passion.
-
         Il voulait que l’immensité de cet amour se grave plus profondément dans le cœur des fidèles. C’est pourquoi à la dernière Cène, après avoir célébré la Pâque avec ses disciples, lorsqu’il allait passer de ce monde à son Père, il institua ce sacrement comme le mémorial perpétuel de sa passion, l’accomplissement des anciennes préfigurations, le plus grand de tous ses miracles ; et à ceux que son absence remplirait de tristesse, il laissa ce sacrement comme réconfort incomparable.
-      responsory: R/ Vois notre faim, Sauveur du monde partage-nous ta parole et ton pain.
+      responsory: |-
+         [rubric](Stance)[/rubric]
+         Vers qui, Seigneur, diriger notre marche,
+         sinon vers toi ?
+         Toi seul nous parles de la vie
+         et nous la donnes.
+         Rends-nous dignes de la table
+         où ton Père aujourd’hui nous invite.
+         
+         R/ Vois notre faim, Sauveur du monde
+         partage-nous ta parole et ton pain.
 
 morning:
   hymn:

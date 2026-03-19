@@ -2,7 +2,8 @@ celebration:
   title: 5ème jour dans l’octave de la Nativité
   subtitle: 29 dévembre
   description: null
-  commons: ['christmas']
+  commons: 
+    - christmas
   color: white
 oration:
   - Dieu que nul œil ne peut voir, tu as dissipé les ténèbres du monde en lui envoyant ta lumière ; tourne vers nous ton visage de paix, et nos louanges proclameront l’incroyable largesse que tu nous fais dans la naissance de ton Fils unique. Lui qui règne.
@@ -22,7 +23,8 @@ readings:
     V/ Les bergers louaient Dieu,
     pour tout ce qu’ils avaient vu et entendu.
   biblicalReading:
-    - title: Action de grâce pour l’Évangile
+    - title: LECTURE DE LA LETTRE AUX COLOSSIENS
+      subtitle: Action de grâce pour l’Évangile
       ref: Col 1, 1-14
       content: |-
         Paul, Apôtre du Christ Jésus par la volonté de Dieu, et Timothée notre frère, aux frères sanctifiés par la foi dans le Christ qui habitent Colosses. À vous, la grâce et la paix de la part de Dieu notre Père.
@@ -33,6 +35,12 @@ readings:
       responsory: |-
         R/ Rendons grâce à Dieu,
         Père de notre Seigneur Jésus Christ !
+
+        Il nous arrache au pouvoir des ténèbres
+        et nous transfère dans le Royaume du Fils de son amour.
+        
+        Il nous engendre par la Parole de vérité
+        pour que nous soyons les prémices de ses créatures.
   patristicReading:
     - title: SERMON DE SAINT BERNARD POUR L’ÉPIPHANIE
       subtitle: À la plénitude des temps est venue aussi la plénitude de la divinité

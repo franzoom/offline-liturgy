@@ -120,16 +120,16 @@ final Map<String, String> fixedTexts = {
 
 String getFrenchOrdinal(int number) {
   if (number == 1) {
-    return '1er';
+    return '1^er';
   }
   return '$numberème';
 }
 
 String getFrenchOrdinalFemale(int number) {
   if (number == 1) {
-    return '1ère';
+    return '1^ère';
   }
-  return '$numberème';
+  return '$number^ème';
 }
 
 /// Returns the celebration type label based on precedence

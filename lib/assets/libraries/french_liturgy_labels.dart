@@ -101,11 +101,10 @@ const Map<String, String> liturgyLabels = {
   'error': 'Erreur',
   'retry': 'recommencer',
   'or': '[rubric]ou bien :[/rubric]',
-};
-
-final Map<String, String> fixedTexts = {
   "officeIntroduction":
-      "R/ Dieu, viens à mon aide.\nV/ Seigneur, à notre secours.\n\nGloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui était et qui vient,\npour les siècles des siècles.\nAmen. (Alléluia.)",
+      "R/ Dieu, viens à mon aide.\nV/ Seigneur, à notre secours.\n\nGloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui était et qui vient,\npour les siècles des siècles.\nAmen. Alléluia.",
+  "officeIntroductionLent":
+      "R/ Dieu, viens à mon aide.\nV/ Seigneur, à notre secours.\n\nGloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui était et qui vient,\npour les siècles des siècles.\nAmen.",
   "invitatoryIntroduction":
       "R/ Seigneur, ouvre mes lèvres.\nV/ Et ma bouche publiera ta louange.",
   "officeBenediction":
@@ -115,7 +114,6 @@ final Map<String, String> fixedTexts = {
       "On peut commencer par une révision de la journée, ou par un acte pénitentiel dans la célébration commune.",
   "complineConclusion":
       "Que le Seigneur nous bénisse et nous garde,\nle Père, le Fils, et le Saint-Esprit.\nAmen.",
-  'or': '[rubric]ou bien :[/rubric]',
 };
 
 String getFrenchOrdinal(int number) {

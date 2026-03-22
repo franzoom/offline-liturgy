@@ -41,9 +41,16 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   readingsOffice.overlayWith(properReadings);
 
   // STEP 5: Finalize Te Deum flag and hydrate content
-  // Rule: Enabled if rank < 9 (Feasts/Solemnities) OR if specified in YAML source
-  readingsOffice.tedeum =
-      (context.teDeum == true) || (readingsOffice.tedeum == true);
+  // Rule: No Te Deum on Sundays of Lent (non-feast/solemnity), even if YAML sets it.
+  // Feasts and solemnities (precedence <= 5) always have Te Deum, even in Lent.
+  final bool isLentenSundayNonFeast =
+      context.date.weekday == DateTime.sunday &&
+      (context.liturgicalTime ?? '').toLowerCase().contains('lent') &&
+      (context.precedence ?? 13) >= 6;
+
+  readingsOffice.tedeum = isLentenSundayNonFeast
+      ? false
+      : (context.teDeum == true) || (readingsOffice.tedeum == true);
   if (readingsOffice.tedeum == true) {
     readingsOffice.tedeumContent = teDeum;
   }

@@ -99,7 +99,8 @@ const Map<String, String> liturgyLabels = {
   'select-compline': 'Choisir les Complies :',
   'error-office': 'Erreur de chargement de l’office',
   'error': 'Erreur',
-  'retry': 'recommencer'
+  'retry': 'recommencer',
+  'or': '[rubric]ou bien :[/rubric]',
 };
 
 final Map<String, String> fixedTexts = {
@@ -114,7 +115,7 @@ final Map<String, String> fixedTexts = {
       "On peut commencer par une révision de la journée, ou par un acte pénitentiel dans la célébration commune.",
   "complineConclusion":
       "Que le Seigneur nous bénisse et nous garde,\nle Père, le Fils, et le Saint-Esprit.\nAmen.",
-  "or": "[rubric]ou bien :[/rubric]",
+  'or': '[rubric]ou bien :[/rubric]',
 };
 
 String getFrenchOrdinal(int number) {

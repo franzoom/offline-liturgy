@@ -72,7 +72,6 @@ const Map<String, FeastDates> commonFeastsList = {
   'joseph_the_worker': F(5, 1, 12),
   'athanasius_of_alexandria_bishop': F(5, 2, 10),
   'philip_and_james_apostles': F(5, 3, 7),
-  'john_of_avila_priest': F(5, 10, 12),
   'nereus_of_terracina_and_achilleus_of_terracina_martyrs': F(5, 12, 12),
   'pancras_of_rome_martyr': F(5, 12, 12),
   'our_lady_of_fatima': F(5, 13, 12),

@@ -1,0 +1,85 @@
+celebration:
+  title: Saints Philippe et Jacques
+  subtitle: apôtres
+  description: |-
+    On ne sait rien de Jacques, fils d’Alphée, sinon qu’il appartenait au groupe des Douze. Philippe était né à Bethsaïde, comme Pierre et André, et, comme eux, il avait été disciple de Jean Baptiste. C’est lui qui, à la dernière Cène, dit à Jésus : « Seigneur, montre–nous le Père », obtenant de lui la réponse : « Philippe, qui me voit voit aussi le Père ».
+  color: red
+  commons:
+    - apostles
+
+oration:
+  - |-
+    Tu nous réjouis, chaque année, Seigneur, par la fête des Apôtres Philippe et Jacques ; accorde-nous, à leur prière, d’être associés à la passion et à la résurrection de ton Fils afin de parvenir à la contemplation de ta gloire. 
+
+readings:  
+  patristicReading:
+    - title: TRAITÉ DE TERTULLIEN
+      subtitle: La prédication apostolique
+      content: |-
+        Le Christ Jésus notre Seigneur, pendant son séjour sur terre, déclarait lui-même ce qu’il était, ce qu’il avait été, de quelle volonté du Père il était chargé, quel devoir il prescrivait à l’homme, soit ouvertement à la foule, soit à part, à ses disciples dont il avait choisi douze pour vivre à ses côtés et être plus tard les docteurs des nations.
+        Après la chute de l’un d’eux, il ordonna aux onze autres au moment de retourner chez son Père, après la résurrection, d’aller et d’enseigner les nations, et de les baptiser dans le Père, le Fils et l’Esprit Saint.
+        Aussitôt donc les Apôtres — ce terme signifie « envoyés » — choisirent par le sort le douzième apôtre, Matthias, en remplacement de Judas, selon l’autorité de la prophétie du psaume de David. Ils reçurent la force promise de l’Esprit Saint, pour faire des miracles et parler en langues. Ils établirent d’abord en Judée la foi en Jésus Christ et instituèrent les Églises, puis ils partirent de par le monde, et annoncèrent aux nations la même doctrine et la même foi.
+        Et dans chaque cité ils fondèrent des Églises, auxquelles dès lors les autres Églises empruntèrent la bouture de la foi et la semence de l’enseignement, et l’empruntent tous les jours pour devenir elles-mêmes des Églises. Et par cela, elles aussi sont considérées comme apostoliques, en tant que rejetons des Églises apostoliques.
+        Tout doit nécessairement être caractérisé par l’origine. Voilà pourquoi tant de si grandes Églises ne sont que l’Église primitive dont toutes procèdent. Elles sont toutes primitives, toutes apostoliques, puisque toutes sont une. Pour attester cette unité, elles se communiquent la paix, elles échangent le nom de frères, et se rendent les devoirs de l’hospitalité. Ces lois n’existent par nulle autre raison que la tradition unique d’un même mystère.
+        Qu’ont prêché les Apôtres : c’est-à-dire : que leur a révélé le Christ ? Cela ne doit pas être prouvé autrement que par ces mêmes Églises que les Apôtres ont eux-mêmes fondées, qu’eux-mêmes ils ont instruites, tant de vive voix, comme on dit, que plus tard par des lettres.
+        Le Seigneur avait vraiment dit un jour : %J’ai encore beaucoup de choses à vous dire, mais vous ne pourriez les supporter maintenant ;% en ajoutant toutefois : <i>Quand sera venu l’Esprit de vérité, il vous conduira à toute vérité.</i> Par là-même, il montre qu’ils n’ont rien ignoré, ceux à qui il avait promis la possession de toute vérité par l’Esprit de vérité. Et il accomplit sa promesse puisque les Actes des Apôtres attestent la descente de l’Esprit Saint.
+
+      responsory: |-
+        R/ C’est toi le chemin, la vérité, la vie,
+        Jésus, Fils de Dieu !
+        
+        Qui veut trouver le Père
+        doit passer par toi.
+        
+        Tu nous conduis
+        vers la joie sans déclin.
+
+morning:
+  hymn:
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Seigneur Jésus, montre-nous le Père et cela nous suffit, alléluia.
+    - psalm: OT_41
+      antiphon:
+        - Philippe, celui qui m’a vu a vu mon Père. Car je suis dans le Père et le Père est en moi, alléluia.
+    - psalm: PSALM_149
+      antiphon:
+        - |-
+          Que votre cœur ne se trouble pas : vous croyez en Dieu, croyez aussi en moi, alléluia.
+  reading:
+    biblicalReference: Ep 2, 19-22
+    content: |-
+      Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction qui a pour fondations les Apôtres et les prophètes ; et la pierre angulaire, c’est le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments de la construction pour devenir par l’Esprit Saint la demeure de Dieu.
+  responsory: |-
+    R/ Par toute la terre s’en va leur message
+    * et la Bonne Nouvelle aux limites du monde.
+    V/ Annoncez à tous les peuples le salut,
+    * et la Bonne Nouvelle.
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: |-
+      Le Messie annoncé par Moïse et les Prophètes, nous l’avons trouvé : c’est Jésus de Nazareth, le fils de Joseph, alléluia.
+
+vespers:
+  psalmody:
+    - psalm: PSALM_115
+      antiphon:
+        - Philippe, celui qui m’a vu a vu mon Père, alléluia !
+    - psalm: PSALM_125
+      antiphon:
+        - Dès à présent vous connaissez le Père et vous l’avez vu, alléluia !
+    - psalm: NT_4
+      antiphon:
+        - Si vous m’aimez, gardez mes commandements, alléluia !
+  reading:
+    biblicalReference: Ep 4, 11-13
+    content: Les dons que le Christ a faits aux hommes, ce sont d’abord les Apôtres, puis les prophètes et les missionnaires de l’Évangile, et aussi les pasteurs et ceux qui enseignent. De cette manière, le peuple saint est organisé pour que les tâches du ministère soient accomplies, et que se construise le corps du Christ. Au terme, nous parviendrons tous ensemble à l’unité dans la foi et la vraie connaissance du Fils de Dieu, à l’état de l’Homme parfait, à la plénitude de la stature du Christ. 
+  responsory: |-
+    R/ Racontez à tous les peuples la gloire du Seigneur.
+    * Alléluia, alléluia.
+    V/ À toutes les nations ses merveilles, * Alléluia.
+    V/ De jour en jour, proclamez son salut, * Alléluia.
+    Gloire au Père. R/ Racontez.
+  evangelicAntiphon:
+    common: Si vous demeurez en moi, si ma parole demeure en vous, tout ce que vous demanderez vous sera donné, alléluia.

@@ -1,0 +1,165 @@
+celebration:
+  title: Visitation de la Vierge Marie
+  description: |-
+    C’est dans les trois mois qui séparent l’annonciation du Seigneur de la naissance de Jean Baptiste que l’on célèbre la visitation : Fête de la rencontre de Marie et d’Élisabeth, mais surtout de la mystérieuse rencontre de deux êtres à travers les deux mères, porteuses l’une du Messie et l’autre du Précurseur ; fête remplie de l’allégresse du Magnificat.
+  commons:
+    - virgin-mary
+  color: white
+
+oration:
+  - Dieu tout-puissant, tu as inspiré à la Vierge Marie, qui portait en elle ton propre Fils, de visiter sa cousine Élisabeth ; accorde-nous d’être dociles au souffle de l’Esprit afin de pouvoir nous aussi te magnifier éternellement.
+
+invitatory:
+  antiphon:
+    - Bienheureuse Vierge Marie ! Tu as reçu la Parole de Dieu.
+
+morning:
+  hymn: 
+    - emerveillee-de-la-promesse
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Marie se rendit en hâte vers le haut-pays, dans une ville de Judée, alléluia.
+    - psalm: AT_41
+      antiphon:
+        - Quand Élisabeth entendit la salutation de Marie, l’enfant qu’elle portait tressaillit d’allégresse, alléluia.
+    - psalm: PSALM_149
+      antiphon:
+        - Heureuse Vierge Marie, toi qui as cru ! En toi s’est accomplie la parole de Dieu, alléluia.
+  reading:
+    ref: Jl 2, 27; 3, 1a
+    content: Vous saurez que moi, je suis au milieu d’Israël, que je suis le Seigneur votre Dieu, et qu’il n’y en a pas d’autre. Mon peuple ne connaîtra plus jamais de déception. Je répandrai mon esprit sur toute créature, vos fils et vos filles deviendront prophètes.
+  responsory: |-
+    R/ La racine de Jessé fleurira,
+    l’arbre de vie donnera son fruit.
+    V/ Chante et réjouis-toi Vierge Marie,
+    le Seigneur a visité son peuple. R/
+    V/ Élisabeth court à la rencontre de la joie,
+    elle te salue, pleine de grâce. R/
+  evangelicAntiphon:
+    common: |-
+      Élisabeth fut remplie de l’Esprit Saint et s’écria : Comment m’est-il donné que la mère de mon Seigneur vienne à moi, alléluia ?
+  intercession:
+    content: |-
+      Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :
+      
+      R/Jésus, fils de Marie, exauce-nous !
+      
+      Soleil de Justice,
+      la Vierge te précède comme l’aurore avant le jour :
+      — donne-nous de marcher dans ta lumière.
+      
+      Verbe éternel, tu as choisi pour Mère la Vierge très pure :
+      — délivre-nous des liens du péché.
+      
+      Notre Sauveur,
+      tu as voulu que Marie te suive au Calvaire :
+      — accorde-nous d’espérer la joie de Pâques.
+      
+      Fils unique de Dieu, à l’heure où tu t’es offert sur la croix, tu nous as donné Marie pour mère :
+      — écoute sa prière quand elle intercède pour nous.
+
+readings:
+  hymn: 
+    - vierge-marie-messagere
+  biblicalReading:
+    - title: LECTURE DU CANTIQUE DES CANTIQUES
+      subtitle: Voici mon bien-aimé qui vient
+      ref: Ct 2, 8-14; 8, 6-7
+      content: |-
+        La voix de mon bien-aimé ! C’est lui, il vient… Il bondit sur les montagnes, il court sur les collines, mon bien-aimé, pareil à la gazelle, au faon de la biche.
+        Le voici, c’est lui qui se tient derrière notre mur : il regarde aux fenêtres, guette par le treillage.
+        Il parle, mon bien-aimé, il me dit : Lève-toi, mon amie, ma toute belle, et viens…
+        Vois, l’hiver s’en est allé, les pluies ont cessé, elles se sont enfuies.
+        Sur la terre apparaissent les fleurs, le temps des chansons est venu et la voix de la tourterelle s’entend sur notre terre.
+        Le figuier a formé ses premiers fruits, la vigne fleurie exhale sa bonne odeur. Lève-toi, mon amie, ma toute belle, et viens…
+        Ma colombe, dans les fentes du rocher, dans les retraites escarpées, que je voie ton visage, que j’entende ta voix ! Ta voix est douce, et ton visage, charmant.
+        Pose-moi comme un sceau sur ton cœur, comme un sceau sur ton bras.
+        Car l’amour est fort comme la Mort, la passion, implacable comme l’Abîme : ses flammes sont des flammes de feu, fournaise divine.
+        Les grandes eaux ne pourront éteindre l’amour, ni les fleuves l’emporter.
+      responsory: |-
+        Bienheureuse as-tu, Marie
+        d'avoir été pauvre devant Dieu ;
+        l'amour s'est emparé de toi
+        et tu as chanté :
+        Mon âme exalte le Seigneur :
+        
+        R/ Mon âme exalte le Seigneur :
+        éternel est son amour.
+        
+        Chante et réjouis-toi, fille de Sion,
+        voici que Dieu vient demeurer au milieu de toi.
+
+        Dieu pour toi exulte de joie,
+        il te renouvelle par son amour.
+
+  patristicReading:
+    - title: HOMÉLIE DE S. BÈDE LE VÉNÉRABLE
+      subtitle: Marie exalte le Seigneur
+      content: |-
+        %Mon âme exalte le Seigneur ; exulte mon esprit en Dieu mon Sauveur%. Le sens premier de ces mots est certainement de confesser les dons que Dieu lui a accordés, à elle, Marie, spécialement ; mais elle rappelle ensuite les bienfaits universels dont Dieu ne cesse jamais d’entourer la race humaine.
+        L’âme glorifie le Seigneur quand elle consacre toutes ses puissances intérieures à louer et à servir Dieu ; quand, par sa soumission aux préceptes divins, elle montre qu’elle ne perd jamais de vue sa puissance et sa majesté.
+        L’esprit exulte en Dieu son Sauveur, quand il met toute sa joie à se souvenir de son Créateur dont il espère le salut éternel.
+        Ces mots, sans doute, expriment exactement ce que pensent tous les saints, mais il convenait tout spécialement qu’ils soient prononcés par la bienheureuse Mère de Dieu qui, comblée d’un privilège unique, brûlait d’un amour tout spirituel pour celui qu’elle avait eu la joie de concevoir en sa chair. Elle avait bien sujet, et plus que tous les saints, d’exulter de joie en Jésus — c’est-à-dire en son Sauveur — car celui qu’elle reconnaissait pour l’auteur éternel de notre salut, elle savait qu’il allait, dans le temps, prendre naissance de sa propre chair, et si véritablement qu’en une seule et même personne serait réellement présent son fils et son Dieu.
+        %Car le Puissant fit pour moi des merveilles. Saint est son nom !%Pas une allusion à ses mérites à elle. Toute sa grandeur, elle la rapporte au don de Dieu qui, subsistant par essence dans toute sa puissance et sa grandeur, ne manque pas de communiquer grandeur et courage à ses fidèles, si faibles et petits qu’ils soient en eux-mêmes.
+        Et c’est bien à propos qu’elle ajoute :%Saint est son nom%, pour exhorter ses auditeurs et tous ceux auxquels parviendraient ses paroles, pour les presser de recourir à l’invocation confiante de son nom. Car c’est de cette manière qu’ils peuvent avoir part à l’éternelle sainteté et au salut véritable, selon le texte prophétique :%Quiconque invoquera le nom du Seigneur sera sauvé%. C’est le nom dont elle vient de dire :%Exulte mon esprit en Dieu mon Sauveur%.
+        Aussi est-ce un usage excellent et salutaire, dont le parfum embaume la Sainte Église, que celui de chanter tous les jours, à Vêpres, le cantique de la Vierge. On peut en attendre que les âmes des fidèles, en faisant si souvent mémoire de l’incarnation du Seigneur, s’enflamment d’une plus vive ferveur, et que le rappel si fréquent des exemples de sa sainte Mère les affermisse dans la vertu. Et c’est bien le moment, à vêpres, de revenir à ce chant, car notre âme, fatiguée de la journée et sollicitée en sens divers par les pensées du jour, a besoin, quand approche l’heure du repos, de se rassembler pour retrouver l’unité de son attention.
+      responsory: |-
+        Bienheureuse as-tu, Marie
+        d'avoir été pauvre devant Dieu ;
+        l'amour s'est emparé de toi
+        et tu as chanté :
+        Mon âme exalte le Seigneur :
+        
+        R/ Mon âme exalte le Seigneur :
+        éternel est son amour.
+        
+        Le Seigneur a fait pour moi des merveilles :
+        Saint est son nom.
+
+middleOfDay:
+  tierce:
+    reading:
+      content: Comme la Sagesse est unique, elle peut tout ; et sans sortir d’elle-même, elle renouvelle l’univers. De génération en génération, elle se transmet à des âmes saintes, pour en faire des prophètes et des amis de Dieu. Car Dieu n’aime que celui qui vit avec la Sagesse.
+    responsory: |-
+      V/ Marie retenait tous ces évènements, alléluia,
+      et les méditait dans son cœur, alléluia.
+  sexte:
+    reading:
+      content: Bénissez le Dieu du ciel, célébrez-le devant tous les vivants, parce qu’il vous a comblés de sa miséricorde.
+    responsory: |-
+      V/ Heureux ceux qui entendent la parole de Dieu, alléluia,
+      heureux ceux qui la gardent, alléluia.
+  none:
+    reading:
+      content: Comme la Sagesse est unique, elle peut tout ; et sans sortir d’elle-même, elle renouvelle l’univers. De génération en génération, elle se transmet à des âmes saintes, pour en faire des prophètes et des amis de Dieu. Car Dieu n’aime que celui qui vit avec la Sagesse.
+    responsory: |-
+      V/ Marie retenait tous ces évènements, alléluia,
+      et les méditait dans son cœur, alléluia.
+
+vespers:
+  hymn: 
+    - emerveillee-de-la-promesse
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - La Vierge entra dans la maison de Zacharie et salua Élisabeth, alléluia.
+    - psalm: PSALM_126
+      antiphon:
+        - Dès que j’ai entendu ta salutation, l’enfant a tressailli d’allégresse en mon sein, alléluia.
+    - psalm: NT_4
+      antiphon:
+        - Vierge bénie entre toutes les femmes, Jésus, ton enfant, est béni, alléluia.
+  reading:
+    ref: 1P 5, 5b-7
+    content: Revêtez-vous tous d’humilité dans vos rapports les uns avec les autres. En effet Dieu s’oppose aux orgueilleux, aux humbles il accorde sa grâce. Tenez-vous donc humblement sous la main puissante de Dieu pour qu’il vous élève quand le jugement viendra. Déchargez-vous sur lui de tous vos soucis puisqu’il s’occupe de vous.
+  responsory: |-
+    R/ Mon âme exalte le Seigneur :
+    éternel est son amour !
+    V/ Chante et réjouis-toi, fille de Sion,
+    ton Dieu est au milieu de toi. R/
+    V/ Dieu pour toi exulte de joie,
+    il te renouvelle par son amour. R/
+  evangelicAntiphon:
+    common: |-
+      Dieu s’est penché sur son humble servante : tous les âges me diront bienheureuse, alléluia.

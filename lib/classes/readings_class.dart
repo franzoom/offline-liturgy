@@ -104,12 +104,12 @@ class Readings {
   }
 
   /// Selective overlay for common (Precedence > 6)
-  /// Includes Hymn and Verse to allow "coloring" the office for Memories
+  /// Includes Hymn and Verse to allow "coloring" the office for Memories.
+  /// Biblical reading is NOT taken from the common: for a memoria, the ferial
+  /// reading is kept by default; only the memoria's own YAML can override it.
   void overlayWithCommon(Readings common) {
-    if (common.hymn != null) hymn = common.hymn; // Added for precedence 12
-    if (common.verse != null) verse = common.verse; // Added for precedence 12
-    if (common.biblicalReading != null)
-      biblicalReading = common.biblicalReading;
+    if (common.hymn != null) hymn = common.hymn;
+    if (common.verse != null) verse = common.verse;
     if (common.patristicReading != null)
       patristicReading = common.patristicReading;
     if (common.oration != null) oration = common.oration;

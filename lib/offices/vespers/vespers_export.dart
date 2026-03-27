@@ -48,11 +48,15 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // STEP 4: Apply Proper data (Highest priority)
   vespersOffice.overlayWith(properVespers);
 
-  // Prepend Lucernaire hymn at the first position
-  vespersOffice.hymn = [
-    HymnEntry(code: 'joie-et-lumiere'),
-    ...?vespersOffice.hymn,
-  ];
+  // Prepend Lucernaire hymn, except during Lent and Holy Week
+  final lt = celebrationContext.liturgicalTime ?? '';
+  if (lt != 'lent' && lt != 'holyweek') {
+
+    vespersOffice.hymn = [
+      HymnEntry(code: 'joie-et-lumiere'),
+      ...?vespersOffice.hymn,
+    ];
+  }
 
   // Hydrate psalm and hymn content
   await resolveOfficeContent(
@@ -75,7 +79,6 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   }
 
   // Apply paschal alléluia to antiphons
-  final lt = celebrationContext.liturgicalTime ?? '';
 
   if (vespersOffice.psalmody != null) {
     for (final entry in vespersOffice.psalmody!) {

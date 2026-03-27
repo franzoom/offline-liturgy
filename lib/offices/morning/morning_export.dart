@@ -7,6 +7,7 @@ import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
+import '../../tools/hymns_management.dart';
 import '../../assets/usual_texts.dart';
 
 /// Resolves the Morning Prayer (Lauds).
@@ -61,13 +62,20 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     morningOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 4. Prepend Gloria hymn at the first position
+  // 4. Holy Week: assign Passion hymns if no proper hymn is defined
+  const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
+  if (morningOffice.hymn == null &&
+      holyWeekCodes.contains(celebrationContext.celebrationCode)) {
+    morningOffice.hymn = getHymnsForSeason("passion");
+  }
+
+  // 5. Prepend Gloria hymn at the first position
   morningOffice.hymn = [
     HymnEntry(code: 'gloire-a-dieu-paix-aux-hommes'),
     ...?morningOffice.hymn,
   ];
 
-  // 5. HYDRATION: Resolve full texts
+  // 6. HYDRATION: Resolve full texts
   await resolveOfficeContent(
     psalmody: morningOffice.psalmody,
     invitatory: morningOffice.invitatory,
@@ -76,7 +84,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     imprecatory: celebrationContext.showImprecatoryVerses,
   );
 
-  // 6. Filter evangelicAntiphon: keep only default + current year
+  // 7. Filter evangelicAntiphon: keep only default + current year
   final antiphonMap = morningOffice.evangelicAntiphon;
   if (antiphonMap != null) {
     final year = liturgicalYear(celebrationContext.date.year);

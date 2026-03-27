@@ -7,6 +7,7 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/constants.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
+import '../../tools/hymns_management.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
@@ -53,6 +54,13 @@ Future<Readings> readingsExport(CelebrationContext context) async {
       : (context.teDeum == true) || (readingsOffice.tedeum == true);
   if (readingsOffice.tedeum == true) {
     readingsOffice.tedeumContent = teDeum;
+  }
+
+  // Holy Week: assign Passion hymns if no proper hymn is defined
+  const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
+  if (readingsOffice.hymn == null &&
+      holyWeekCodes.contains(context.celebrationCode)) {
+    readingsOffice.hymn = getHymnsForSeason("passion");
   }
 
   // Hydrate psalm and hymn content

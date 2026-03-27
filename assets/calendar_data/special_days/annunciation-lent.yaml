@@ -1,11 +1,13 @@
 celebration:
   title: Annonciation du Seigneur
   color: white
+  description: |-
+    Neuf mois avant Noël, nous célébrons l’Incarnation du Fils de Dieu, dont saint Luc rapporte les circonstances dans le récit de l’Annonce de l’Ange à Marie. Toute la liturgie de ce jour est éclairée par la parole du psalmiste que la Lettre aux Hébreux met sur les lèvres du Christ entrant dans le monde : « Me voici, mon Dieu; je viens pour faire ta volonté. » 
   commons: 
     - virgin-mary
 
 oration:
-  - Seigneur, tu as voulu que ton Verbe prît chair dans le sein de la Vierge Marie ; puisque nous reconnaissons en lui notre Rédempteur, à la fois homme et Dieu, accorde-nous d’être participants de sa nature divine. Lui qui règne.
+  - Seigneur, tu as voulu que ton Verbe prît chair dans le sein de la Vierge Marie ; puisque nous reconnaissons en lui notre Rédempteur, à la fois homme et Dieu, accorde-nous d’être participants de sa nature divine. Lui qui règne.
 
 firstVespers:
   hymn: 
@@ -23,7 +25,7 @@ firstVespers:
   reading:
     biblicalReference: 1 Jn 1, 1-2
     content: |-
-      Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous.
+      Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous.
   responsory: |
     R/ Le Verbe s’est fait chair,
     * il a habité parmi nous.
@@ -33,25 +35,25 @@ firstVespers:
     plein de grâce et de vérité. R/
   evangelicAntiphon:
     common: |-
-      L’Esprit Saint viendra sur toi : il te couvrira de son ombre.
+      L’Esprit Saint viendra sur toi : il te couvrira de son ombre.
 
   intercession:
     content: |-
       Père éternel, aujourd’hui, à la voix de l’ange,
       tu fais lever une aurore sur le monde,
 
-      R/ Dieu vivant, donne-nous la vie !
+      R/ Dieu vivant, donne-nous la vie !
 
       Tu choisis la Vierge Marie pour être la Mère du Sauveur,
       — regarde avec amour ceux qui attendent leur délivrance.
 
-      Par la voix de Gabriel, tu annonces à Marie la joie et la paix ;
+      Par la voix de Gabriel, tu annonces à Marie la joie et la paix ;
       — accorde-nous de reconnaître en son Fils celui qui comblera l’espérance des hommes.
 
-      Marie accueille ta parole, ton Esprit la couvre de son ombre, et le Verbe habite parmi nous :
+      Marie accueille ta parole, ton Esprit la couvre de son ombre, et le Verbe habite parmi nous :
       — prépare nos cœurs à le recevoir.
 
-      Tu élèves les humbles et tu combles de biens les affamés ;
+      Tu élèves les humbles et tu combles de biens les affamés ;
       — nous te prions pour les plus petits et les plus méprisés d’entre nous, pour ceux qui ont faim, et ceux qui vont mourir.
 
       À toi, rien n’est impossible, seul tu fais des merveilles,
@@ -76,7 +78,7 @@ morning:
         - La Vierge a conçu par la parole, la Vierge a enfanté le Sauveur.
   reading:
     biblicalReference: Ph 2, 6-7
-    content: Le Christ Jésus, lui qui était dans la condition de Dieu, n’a pas jugé bon de revendiquer son droit d’être traité à l’égal de Dieu ; mais au contraire, il se dépouilla lui-même en prenant la condition de serviteur. Devenu semblable aux hommes, il a été reconnu comme un homme à son comportement.
+    content: Le Christ Jésus, lui qui était dans la condition de Dieu, n’a pas jugé bon de revendiquer son droit d’être traité à l’égal de Dieu ; mais au contraire, il se dépouilla lui-même en prenant la condition de serviteur. Devenu semblable aux hommes, il a été reconnu comme un homme à son comportement.
   responsory: |
     R/ Le Verbe s’est fait chair,
     * il a habité parmi nous.
@@ -86,12 +88,12 @@ morning:
     plein de grâce et de vérité. R/
   evangelicAntiphon:
     common: |-
-      Dans son amour extrême pour les hommes, Dieu leur envoya son Fils : Jésus a pris chair de notre chair de péché.
+      Dans son amour extrême pour les hommes, Dieu leur envoya son Fils : Jésus a pris chair de notre chair de péché.
   intercession:
     content: |
-      En célébrant aujourd’hui l’Annonciation du Seigneur, nous prions dans l’allégresse :
+      En célébrant aujourd’hui l’Annonciation du Seigneur, nous prions dans l’allégresse :
 
-      R/ Que la Vierge Marie intercède pour nous !
+      R/ Que la Vierge Marie intercède pour nous !
 
       Comme tu t’es penché sur ton humble servante,
       Père de miséricorde et Seigneur de tendresse,
@@ -103,9 +105,9 @@ morning:
       Comme Marie se fit obéissante à la Parole,
       — que tes serviteurs accomplissent ta volonté.
 
-      Que la Vierge Marie vienne en aide aux malheureux ;
-      qu’elle soutienne les faibles et réconforte les découragés ;
-      qu’elle garde fidèles les prêtres et les consacrés ;
+      Que la Vierge Marie vienne en aide aux malheureux ;
+      qu’elle soutienne les faibles et réconforte les découragés ;
+      qu’elle garde fidèles les prêtres et les consacrés ;
       qu’elle prie pour tout le peuple croyant.
 
 readings:
@@ -117,10 +119,10 @@ readings:
         - "Lorsque les temps furent accomplis, Dieu a envoyé son Fils, né d’une femme, pour faire de nous ses fils."
     - psalm: PSALM_18A
       antiphon:
-        - "Entrant dans le monde, il dit : Tu m’as fait un corps : me voici, mon Dieu, pour faire ta volonté."
+        - "Entrant dans le monde, il dit : Tu m’as fait un corps : me voici, mon Dieu, pour faire ta volonté."
     - psalm: PSALM_44
       antiphon:
-        - "Voici l’amour de Dieu pour nous : il a envoyé son Fils unique dans le monde pour que nous vivions par lui."
+        - "Voici l’amour de Dieu pour nous : il a envoyé son Fils unique dans le monde pour que nous vivions par lui."
   verse: |-
     V/ Le Verbe s’est fait chair,
     il a habité parmi nous.
@@ -129,49 +131,49 @@ readings:
       subtitle: Prophétie sur le fils de David
       ref: 1Ch 17, 1-15
       content: |-
-        Lorsque David habita dans sa maison, il dit au prophète Nathan : « Voici que j’habite dans une maison de cèdre, et l’arche de l’Alliance du Seigneur est sous un abri de toile ! » Nathan répondit à David : « Tout ce que tu as l’intention de faire, fais-le, car Dieu est avec toi. »
-        Mais, cette nuit-là, la parole de Dieu fut adressée à Nathan : « Va dire à David, mon serviteur : Ainsi parle le Seigneur : Ce n’est pas toi qui me bâtiras une maison pour que j’y habite. Depuis le jour où j’ai fait monter Israël et jusqu’à ce jour, je n’ai jamais habité dans une maison ; j’allais d’une tente à une autre et d’une demeure à une autre. Pendant tout le temps où j’étais comme un voyageur avec tout Israël, ai-je demandé à un seul des juges que j’avais institués pasteurs de mon peuple : “Pourquoi ne m’avez-vous pas bâti une maison de cèdre ?”
-        Tu diras donc à mon serviteur David : Ainsi parle le Seigneur de l’univers : C’est moi qui t’ai pris au pâturage, derrière le troupeau, pour que tu sois le chef de mon peuple Israël. J’ai été avec toi partout où tu es allé, j’ai abattu devant toi tous tes ennemis. Je te ferai un nom égal à celui des plus grands de la terre. Je fixerai en ce lieu mon peuple Israël, je l’y planterai, il s’y établira et ne tremblera plus, et les méchants ne viendront plus le maltraiter, comme ils l’ont fait autrefois, depuis le temps où j’ai institué des juges pour conduire mon peuple Israël. J’ai humilié tous tes ennemis. Je t’annonce que le Seigneur te bâtira une maison.
-        Quand tes jours seront accomplis et que tu rejoindras tes pères, je te susciterai dans ta descendance un successeur, qui sera l’un de tes fils, et je rendrai stable sa royauté. C’est lui qui me bâtira une maison, et je rendrai stable pour toujours son trône. Moi, je serai pour lui un père ; et lui sera pour moi un fils ; je ne lui retirerai pas ma fidélité comme je l’ai retirée à celui qui t’a précédé. Je l’établirai pour toujours dans ma maison et dans mon royaume, et son trône sera stable pour toujours. »
+        Lorsque David habita dans sa maison, il dit au prophète Nathan : « Voici que j’habite dans une maison de cèdre, et l’arche de l’Alliance du Seigneur est sous un abri de toile ! » Nathan répondit à David : « Tout ce que tu as l’intention de faire, fais-le, car Dieu est avec toi. »
+        Mais, cette nuit-là, la parole de Dieu fut adressée à Nathan : « Va dire à David, mon serviteur : Ainsi parle le Seigneur : Ce n’est pas toi qui me bâtiras une maison pour que j’y habite. Depuis le jour où j’ai fait monter Israël et jusqu’à ce jour, je n’ai jamais habité dans une maison ; j’allais d’une tente à une autre et d’une demeure à une autre. Pendant tout le temps où j’étais comme un voyageur avec tout Israël, ai-je demandé à un seul des juges que j’avais institués pasteurs de mon peuple : “Pourquoi ne m’avez-vous pas bâti une maison de cèdre ?”
+        Tu diras donc à mon serviteur David : Ainsi parle le Seigneur de l’univers : C’est moi qui t’ai pris au pâturage, derrière le troupeau, pour que tu sois le chef de mon peuple Israël. J’ai été avec toi partout où tu es allé, j’ai abattu devant toi tous tes ennemis. Je te ferai un nom égal à celui des plus grands de la terre. Je fixerai en ce lieu mon peuple Israël, je l’y planterai, il s’y établira et ne tremblera plus, et les méchants ne viendront plus le maltraiter, comme ils l’ont fait autrefois, depuis le temps où j’ai institué des juges pour conduire mon peuple Israël. J’ai humilié tous tes ennemis. Je t’annonce que le Seigneur te bâtira une maison.
+        Quand tes jours seront accomplis et que tu rejoindras tes pères, je te susciterai dans ta descendance un successeur, qui sera l’un de tes fils, et je rendrai stable sa royauté. C’est lui qui me bâtira une maison, et je rendrai stable pour toujours son trône. Moi, je serai pour lui un père ; et lui sera pour moi un fils ; je ne lui retirerai pas ma fidélité comme je l’ai retirée à celui qui t’a précédé. Je l’établirai pour toujours dans ma maison et dans mon royaume, et son trône sera stable pour toujours. »
         Toutes ces paroles, toute cette vision, Nathan les rapporta fidèlement à David.
       responsory: |-
         [rubric](Stance)[/rubric]
         La Parole et l’Esprit ont fécondé la Terre
-        où germe la semence du Royaume ;
+        où germe la semence du Royaume ;
         dans le silence et dans la paix
         mûrit le fruit de la promesse.
 
-        R/ Bénie sois-tu, Vierge Marie !
-        En toi, vit le Seigneur !
+        R/ Bénie sois-tu, Vierge Marie !
+        En toi, vit le Seigneur !
 
         L’Esprit te couvre de son ombre,
         tu accueilles en toi la rosée du ciel.
 
-        Le Verbe se fait chair ;
+        Le Verbe se fait chair ;
         l’homme devient fils de Dieu.
 
-        Déjà les temps sont accomplis :
+        Déjà les temps sont accomplis :
         au loin blanchissent les moissons.
   patristicReading:
     - title: LETTRE DE S. LÉON LE GRAND À FLAVIEN
       subtitle: Le Verbe fait chair
       content: |
-        La petitesse a été assumée par la majesté, la faiblesse par la force, l’asservissement à la mort par l’immortalité ; et pour payer la dette de notre condition humaine, la nature inaltérable s’est unie à la nature exposée à la souffrance. C’est ainsi que, pour mieux nous guérir, %le seul médiateur entre Dieu et les hommes, l’homme Jésus Christ% devait, d’un côté, pouvoir mourir et, de l’autre, ne pas pouvoir mourir.
+        La petitesse a été assumée par la majesté, la faiblesse par la force, l’asservissement à la mort par l’immortalité ; et pour payer la dette de notre condition humaine, la nature inaltérable s’est unie à la nature exposée à la souffrance. C’est ainsi que, pour mieux nous guérir, %le seul médiateur entre Dieu et les hommes, l’homme Jésus Christ% devait, d’un côté, pouvoir mourir et, de l’autre, ne pas pouvoir mourir.
         C’est donc dans la nature intégrale et complète d’un vrai homme que le vrai Dieu est né, tout entier dans ce qui lui appartient, tout entier dans ce qui nous appartient. Par là nous entendons ce que le Créateur nous a donné au commencement et qu’il a assumé pour le rénover.
         Car les défauts que le démon trompeur a introduits dans l’homme, et que l’homme trompé a contractés n’ont aucunement marqué le Sauveur. Aussi, bien qu’il ait accepté de partager les faiblesses humaines, n’a-t-il pas participé à nos fautes.
-        Il a pris la condition de l’esclave sans la souillure du péché ; il a rehaussé l’humanité sans abaisser la divinité. Par son anéantissement, lui qui était invisible s’est rendu visible, le Créateur et Seigneur de toutes choses a voulu être un mortel parmi les autres. Mais ce fut là une condescendance de sa miséricorde, non une défaite de sa puissance. Par conséquent, lui qui a fait l’homme en demeurant dans la condition de Dieu, c’est encore lui qui s’est fait homme en adoptant la condition d’esclave.
-        Le Fils de Dieu entre donc dans la basse région du monde qui est la nôtre, en descendant du séjour céleste sans quitter la gloire de son Père ; il est engendré selon un ordre nouveau et par une naissance nouvelle.
-        Selon un ordre nouveau : étant invisible par lui-même, il est devenu visible en se faisant l’un de nous ; dépassant toute limite, il a voulu être limité ; existant avant la création du temps, il a commencé à exister temporellement ; le Seigneur de l’univers a adopté la condition d’esclave en plongeant dans l’ombre la grandeur infinie de sa majesté ; le Dieu inaccessible à la souffrance n’a pas dédaigné d’être un homme capable de souffrir, et lui qui est immortel, de se soumettre aux lois de la mort.
+        Il a pris la condition de l’esclave sans la souillure du péché ; il a rehaussé l’humanité sans abaisser la divinité. Par son anéantissement, lui qui était invisible s’est rendu visible, le Créateur et Seigneur de toutes choses a voulu être un mortel parmi les autres. Mais ce fut là une condescendance de sa miséricorde, non une défaite de sa puissance. Par conséquent, lui qui a fait l’homme en demeurant dans la condition de Dieu, c’est encore lui qui s’est fait homme en adoptant la condition d’esclave.
+        Le Fils de Dieu entre donc dans la basse région du monde qui est la nôtre, en descendant du séjour céleste sans quitter la gloire de son Père ; il est engendré selon un ordre nouveau et par une naissance nouvelle.
+        Selon un ordre nouveau : étant invisible par lui-même, il est devenu visible en se faisant l’un de nous ; dépassant toute limite, il a voulu être limité ; existant avant la création du temps, il a commencé à exister temporellement ; le Seigneur de l’univers a adopté la condition d’esclave en plongeant dans l’ombre la grandeur infinie de sa majesté ; le Dieu inaccessible à la souffrance n’a pas dédaigné d’être un homme capable de souffrir, et lui qui est immortel, de se soumettre aux lois de la mort.
         En effet, le même qui est vrai Dieu est aussi vrai homme, et il n’y a aucun mensonge dans cette unité, puisque la bassesse de l’homme et la hauteur de la divinité se sont unies dans cet échange.
-        De même que Dieu n’est pas altéré par sa miséricorde, de même l’homme n’est pas anéanti par sa dignité. Chacune des deux natures agit en communion avec l’autre, mais selon ce qui lui est propre : le Verbe opère ce qui appartient au Verbe, et la chair exécute ce qui appartient à la chair.
+        De même que Dieu n’est pas altéré par sa miséricorde, de même l’homme n’est pas anéanti par sa dignité. Chacune des deux natures agit en communion avec l’autre, mais selon ce qui lui est propre : le Verbe opère ce qui appartient au Verbe, et la chair exécute ce qui appartient à la chair.
         L’un brille par ses miracles, l’autre succombe aux outrages. Et de même que le Verbe ne perd pas son égalité avec la gloire du Père, de même la chair ne déserte pas la nature de notre race humaine.
         C’est un seul et même être, il faut le dire souvent, vraiment Fils de Dieu et vraiment fils d’homme. Dieu par le fait que %au commencement était le Verbe, et le Verbe était avec Dieu et le Verbe était Dieu%. Homme par le fait que %le Verbe s’est fait chair et a établi sa demeure parmi nous%.
       responsory: |
         R/ Réjouis-toi, Marie,
-        tu donneras le Sauveur au monde !
+        tu donneras le Sauveur au monde !
 
         Il sera grand,
-        on l’appellera Fils du Très-Haut !
+        on l’appellera Fils du Très-Haut !
 
         Il vient chercher
         ce qui était perdu.
@@ -184,23 +186,23 @@ middleOfDay:
     antiphon: "Heureuse es-tu, fille de Jessé, l’Esprit du Très-Haut te couvre de son ombre."
     reading:
       biblicalReference: 1Tm 2, 5-6a
-      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
+      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
     responsory: |-
       V/ Le Verbe s’est fait chair,
       il a habité parmi nous.
   sexte:
-    antiphon: "La Vierge enfantera un fils : on lui donnera le nom d’Emmanuel."
+    antiphon: "La Vierge enfantera un fils : on lui donnera le nom d’Emmanuel."
     reading:
       biblicalReference: 1Jn 4, 10
-      content: "Voici à quoi se reconnaît l’amour : ce n’est pas nous qui avons aimé Dieu, c’est lui qui nous a aimés, et il a envoyé son Fils qui est la victime offerte pour nos péchés."
+      content: "Voici à quoi se reconnaît l’amour : ce n’est pas nous qui avons aimé Dieu, c’est lui qui nous a aimés, et il a envoyé son Fils qui est la victime offerte pour nos péchés."
     responsory: |-
-      V/ Voici la servante du Seigneur ;
+      V/ Voici la servante du Seigneur ;
       que tout se passe pour moi selon ta parole.
   none:
-    antiphon: "Il sera grand, par toute la terre ; il sera lui-même notre paix."
+    antiphon: "Il sera grand, par toute la terre ; il sera lui-même notre paix."
     reading:
       biblicalReference: 1Tm 2, 5-6a
-      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
+      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
     responsory: |-
       V/ Le Verbe s’est fait chair,
       il a habité parmi nous.
@@ -214,13 +216,13 @@ vespers:
         - "L’Ange du Seigneur annonce à Marie que l’Esprit la couvrirait de son ombre."
     - psalm: PSALM_129
       antiphon:
-        - "Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu ! Tu vas concevoir et enfanter le Fils du Très-Haut."
+        - "Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu ! Tu vas concevoir et enfanter le Fils du Très-Haut."
     - psalm: NT_6
       antiphon:
-        - "Je suis la servante du Seigneur : qu’il me soit fait selon ta parole."
+        - "Je suis la servante du Seigneur : qu’il me soit fait selon ta parole."
   reading:
     biblicalReference: 1 Jn 1, 1-2
-    content: "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous."
+    content: "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous."
   responsory: |-
     R/ Vierge Marie, servante du Seigneur,
     * en toi, le Verbe s’est fait chair.
@@ -229,24 +231,24 @@ vespers:
     Gloire au Père. R/ Vierge Marie.
   evangelicAntiphon:
     common: |-
-      Avec l’Ange, nous te saluons, Marie, comblée de grâce ! le Seigneur est avec toi : tu es bénie plus que toutes les femmes !
+      Avec l’Ange, nous te saluons, Marie, comblée de grâce ! le Seigneur est avec toi : tu es bénie plus que toutes les femmes !
   intercession:
     content: |-
       Père éternel, aujourd’hui, à la voix de l’ange,
       tu fais lever une aurore sur le monde,
 
-      R/ Dieu vivant, donne-nous la vie !
+      R/ Dieu vivant, donne-nous la vie !
 
       Tu choisis la Vierge Marie pour être la Mère du Sauveur,
       — regarde avec amour ceux qui attendent leur délivrance.
 
-      Par la voix de Gabriel, tu annonces à Marie la joie et la paix ;
+      Par la voix de Gabriel, tu annonces à Marie la joie et la paix ;
       — accorde-nous de reconnaître en son Fils celui qui comblera l’espérance des hommes.
 
-      Marie accueille ta parole, ton Esprit la couvre de son ombre, et le Verbe habite parmi nous :
+      Marie accueille ta parole, ton Esprit la couvre de son ombre, et le Verbe habite parmi nous :
       — prépare nos cœurs à le recevoir.
 
-      Tu élèves les humbles et tu combles de biens les affamés ;
+      Tu élèves les humbles et tu combles de biens les affamés ;
       — nous te prions pour les plus petits et les plus méprisés d’entre nous, pour ceux qui ont faim, et ceux qui vont mourir.
 
       À toi, rien n’est impossible, seul tu fais des merveilles,

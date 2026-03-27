@@ -118,13 +118,38 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_118_9
+    - psalm: PSALM_118_8
       antiphon:
-        - Je donne ma vie pour mes brebis, car le Père me connaît comme je connais le Père.
-    - psalm: PSALM_55
-    - psalm: PSALM_56
-  oration:
-    - Dieu qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce ; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons.
+        - Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout.
+    - psalm: PSALM_54_1_2
+      antiphon:
+        - "Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout."
+    - psalm: PSALM_54_3
+      antiphon:
+        - "Sachant que son heure était venue, Jésus, qui aimait les siens, les aima jusqu’au bout."
+  tierce:
+    reading:
+      biblicalReference: 1 Tm 2, 4-6
+      content: |-
+        Dieu notre Sauveur veut que tous les hommes soient sauvés et arrivent à connaître pleinement la vérité. En effet il n’y a qu’un seul Dieu, il n’y a qu un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes. Au temps fixé, il a rendu ce témoignage.
+    responsory: |-
+      V/ Maltraité, il s’humilie,
+      il n’ouvre pas la bouche.
+  sexte:
+    reading:
+      biblicalReference: Rm 15, 3
+      content: |-
+        Le Christ n’a pas recherché ce qui lui plaisait, mais comme il est écrit : « Les insultes de tes insulteurs sont tombées sur moi ».
+    responsory: |-
+      V/ Ce sont nos souffrances qu’il a portées,
+      nos douleurs qu’il a supportées.
+  none:
+    reading:
+      biblicalReference: He 9, 28
+      content: "Le Christ, après s’être offert une seule fois pour enlever les péchés de la multitude, apparaîtra une seconde fois, non plus à cause du péché, mais pour le salut de ceux qui l’attendent."
+    responsory: |-
+      V/ Nous te célébrons, croix de Jésus Christ :
+      par toi nous est donnée la vie.u qu’il est juste d’aimer par-dessus tout, multiplie en nous les dons de ta grâce ; dans la mort de ton Fils, tu nous fais espérer ce que nous croyons, accorde-nous, par sa résurrection, d’atteindre ce que nous espérons.
 
 vespers:
   hymn:

@@ -6,10 +6,10 @@ import '../../tools/convert_yaml_to_dart.dart';
 
 /// Extracts Vespers (Evening Prayer) data from a YAML file.
 ///
-/// It parses the 'vespers' section while allowing fallbacks for orations
-/// and evangelic antiphons (Magnificat) defined at the root level of the file.
-Future<Vespers> vespersExtract(
-    String relativePath, DataLoader dataLoader) async {
+/// It parses the [section] key ('vespers' or 'firstVespers') while allowing
+/// fallbacks for orations and evangelic antiphons defined at the root level.
+Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
+    {String section = 'vespers'}) async {
   // 1. Load the raw YAML content via the data provider
   final String fileContent = await dataLoader.loadYaml(relativePath);
 
@@ -29,8 +29,8 @@ Future<Vespers> vespersExtract(
 
     // 4. Extract the specific Vespers section
     Vespers vespers;
-    if (data['vespers'] is Map<String, dynamic>) {
-      vespers = Vespers.fromJson(data['vespers'] as Map<String, dynamic>);
+    if (data[section] is Map<String, dynamic>) {
+      vespers = Vespers.fromJson(data[section] as Map<String, dynamic>);
     } else {
       vespers = Vespers();
     }

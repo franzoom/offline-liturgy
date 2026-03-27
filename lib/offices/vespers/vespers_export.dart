@@ -106,8 +106,12 @@ Future<Vespers> _loadProperVespers(CelebrationContext context) async {
     '$sanctoralFilePath/${context.celebrationCode}.yaml',
   ];
 
+  final String section =
+      context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
+
   for (String path in searchPaths) {
-    final vespers = await vespersExtract(path, context.dataLoader);
+    final vespers =
+        await vespersExtract(path, context.dataLoader, section: section);
     if (!vespers.isEmpty) return vespers;
   }
 

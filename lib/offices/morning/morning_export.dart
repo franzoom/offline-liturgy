@@ -69,11 +69,14 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     morningOffice.hymn = getHymnsForSeason("passion");
   }
 
-  // 5. Prepend Gloria hymn at the first position
-  morningOffice.hymn = [
-    HymnEntry(code: 'gloire-a-dieu-paix-aux-hommes'),
-    ...?morningOffice.hymn,
-  ];
+  // 5. Prepend Gloria hymn, except during Lent and Holy Week
+  final lt = celebrationContext.liturgicalTime ?? '';
+  if (lt != 'lent' && lt != 'holyweek') {
+    morningOffice.hymn = [
+      HymnEntry(code: 'gloire-a-dieu-paix-aux-hommes'),
+      ...?morningOffice.hymn,
+    ];
+  }
 
   // 6. HYDRATION: Resolve full texts
   await resolveOfficeContent(
@@ -96,7 +99,6 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   }
 
   // 7. Apply paschal alléluia to antiphons
-  final lt = celebrationContext.liturgicalTime ?? '';
 
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {

@@ -259,11 +259,11 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // adding Palms Sunday
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'lent',
+    liturgicalTime: 'holyweek',
     defaultCelebrationTitle: 'palms',
     precedence: 2,
     liturgicalColor: 'red',
-    breviaryWeek: (lentDays ~/ 7) % 4 + 1,
+    breviaryWeek: 2,
     feastList: {},
   );
   date = liturgicalMainFeasts['PALMS']!;
@@ -271,85 +271,46 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   date = date.shift(1);
   lentDays++;
 
-  // adding the Lent days between Palms and Holy Thursday (excluded)
-  while (date.isBefore(liturgicalMainFeasts['HOLY_THURSDAY']!)) {
+  // adding the Holy Week days
+  while (date.isBefore(liturgicalMainFeasts['EASTER']!)) {
+    precedence = lentDays % 7 < 4
+        ? 9
+        : 1; // from holy Thursday, the precedence is 1, before it is 9
+    String liturgicalColor = switch (lentDays % 7) {
+      0 || 1 || 2 || 3 => 'violet',
+      4 => 'white',
+      5 => 'red',
+      6 => 'black',
+      _ => ''
+    };
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'holyweek',
       defaultCelebrationTitle: 'lent_${(lentDays ~/ 7) + 1}_${lentDays % 7}',
-      precedence: 9,
-      liturgicalColor: 'violet',
-      breviaryWeek: (lentDays ~/ 7) % 4 + 1,
+      precedence: precedence,
+      liturgicalColor: liturgicalColor,
+      breviaryWeek: 2,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     lentDays++;
   }
-
-  // ajout du Jeudi Saint
-  calendar.addDayContent(
-      liturgicalMainFeasts['HOLY_THURSDAY']!,
-      DayContent(
-        liturgicalYear: liturgicalYear,
-        liturgicalTime: 'holyweek',
-        defaultCelebrationTitle: 'holy_thursday',
-        precedence: 1,
-        liturgicalColor: 'white',
-        breviaryWeek: null,
-        feastList: {},
-      ));
-  // ajout du Vendredi Saint
-  calendar.addDayContent(
-      liturgicalMainFeasts['HOLY_FRIDAY']!,
-      DayContent(
-        liturgicalYear: liturgicalYear,
-        liturgicalTime: 'holyweek',
-        defaultCelebrationTitle: 'holy_friday',
-        precedence: 1,
-        liturgicalColor: 'red',
-        breviaryWeek: null,
-        feastList: {},
-      ));
-  // ajout du Samedi Saint
-  calendar.addDayContent(
-      liturgicalMainFeasts['HOLY_SATURDAY']!,
-      DayContent(
-        liturgicalYear: liturgicalYear,
-        liturgicalTime: 'holyweek',
-        defaultCelebrationTitle: 'holy_saturday',
-        precedence: 1,
-        liturgicalColor: 'black',
-        breviaryWeek: null,
-        feastList: {},
-      ));
-  // ajout de Pâques
-  calendar.addDayContent(
-      liturgicalMainFeasts['EASTER']!,
-      DayContent(
-        liturgicalYear: liturgicalYear,
-        liturgicalTime: 'paschaloctave',
-        defaultCelebrationTitle: 'easter',
-        precedence: 1,
-        liturgicalColor: 'white',
-        breviaryWeek: null,
-        feastList: {},
-      ));
-
   // --- PASCHAL TIME ---
-  int paschalTimeDays = 1;
-  date = liturgicalMainFeasts['EASTER']!.shift(1);
+  int paschalTimeDays = 0;
+  date = liturgicalMainFeasts['EASTER']!;
 
-  // Paschal Octave (precedence: 2)
+  // Paschal Octave (precedence: 2, except Sunday: 1)
   while (date.isBefore(liturgicalMainFeasts['EASTER']!.shift(7))) {
+    precedence = date.isSunday ? 1 : 2;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaloctave',
       defaultCelebrationTitle:
           'easter_${(paschalTimeDays ~/ 7) + 1}_${paschalTimeDays % 7}',
-      precedence: 2,
+      precedence: precedence,
       liturgicalColor: 'white',
-      breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
+      breviaryWeek: 1,
       feastList: {},
     );
     calendar.addDayContent(date, dayContent);

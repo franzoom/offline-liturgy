@@ -1,10 +1,9 @@
 celebration:
   title: Dimanche de Pâques
-  subtitle: null
-  description: La Résurrection du Seigneur – Saint Jour de Pâques
+  subtitle: La Résurrection du Seigneur
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
@@ -18,6 +17,7 @@ readings:
   verse: ""
   biblicalReading:
     - content: ""
+
 morning:
   psalmody:
     - psalm: PSALM_62
@@ -33,11 +33,11 @@ morning:
     biblicalReference: Ac 10, 40-43
     content: "Voici que Dieu a ressuscité Jésus le troisième jour. Il lui a donné de se montrer non pas à tout le peuple, mais seulement aux témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Il nous a chargés d’annoncer au peuple et de témoigner que Dieu l’a choisi comme Juge des vivants et des morts. C’est à lui que tous les prophètes rendent ce témoignage : Tout homme qui croit en lui reçoit par lui le pardon de ses péchés."
   responsory: |-
-    R/ Voici le jour que fit le Seigneur,
+    R/ Voici le jour que fit le Seigneur,
     jour de fête et de joie.
-    V/ Peuples, rayonnez de joie ;
+    V/ Peuples, rayonnez de joie ;
     voici la Pâque du Seigneur. R/
-    V/ Voici le jour où le Christ, notre Dieu,
+    V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
     common: "Le soleil s’est levé : ne cherchez plus parmi les morts le Fils de l’homme : il a brisé les verrous de la mort, alléluia !"
@@ -45,7 +45,7 @@ morning:
     content: |-
       Acclamons Jésus Christ : Dieu l’a ressuscité, il nous ressuscitera avec lui.
 
-      R/ Gloire à toi, Jésus, notre vie !
+      R/ Gloire à toi, Jésus, notre vie !
 
       Ô Christ, radieuse lumière qui brille dans nos ténèbres,
       tu as sanctifié pour toujours notre condition mortelle.
@@ -64,8 +64,6 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_8
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
     - psalm: PSALM_18A
     - psalm: PSALM_18B
 
@@ -75,7 +73,7 @@ middleOfDay:
       biblicalReference: 1 Co 15, 3b-5
       content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
     responsory: |-
-      V/ Voici le jour que fit le Seigneur,
+      V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
     antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
@@ -84,7 +82,7 @@ middleOfDay:
       content: |-
         Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
     responsory: |-
-      V/ Voici le jour que fit le Seigneur,
+      V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
     antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
@@ -92,7 +90,7 @@ middleOfDay:
       biblicalReference: Rm 6, 4
       content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
     responsory: |-
-      V/ Voici le jour que fit le Seigneur,
+      V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
 vespers:
   psalmody:
@@ -109,11 +107,11 @@ vespers:
     biblicalReference: He 10, 12-14
     content: Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté.
   responsory: |-
-    R/ Voici le jour que fit le Seigneur,
+    R/ Voici le jour que fit le Seigneur,
     jour de fête et de joie.
-    V/ Peuples, rayonnez de joie :
+    V/ Peuples, rayonnez de joie :
     voici la Pâque du Seigneur. R/
-    V/ Voici le jour où le Christ, notre Dieu,
+    V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
     common: "Jésus vient, toutes portes closes. Il se tient au milieu de ses disciples. Il leur dit : La paix soit avec vous ! Alléluia !"
@@ -121,7 +119,7 @@ vespers:
     content: |-
       À Jésus, le Vivant, qui ne cesse d’intercéder pour nous, adressons notre prière :
 
-      R/ Roi de gloire, exauce-nous !
+      R/ Roi de gloire, exauce-nous !
 
       Ô Christ, lumière et salut du monde,
       répands le feu de ton Esprit sur ceux qui confessent ta résurrection.

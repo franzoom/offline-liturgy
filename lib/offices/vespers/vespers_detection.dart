@@ -33,11 +33,17 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       await detectCelebrations(calendar, date, dataLoader);
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
-  final isHolyWeek =
-      todayCelebrations.any((c) => holyWeekCodes.contains(c.celebrationCode));
+  // Also checks ferial code 'lent_6_6' for Holy Saturday, in case it is the
+  // celebration code rather than 'holy_saturday'
+  final isHolyWeek = todayCelebrations.any((c) =>
+      holyWeekCodes.contains(c.celebrationCode) ||
+      c.ferialCode == 'lent_6_6');
   if (isHolyWeek) {
-    final c = todayCelebrations
-        .firstWhere((c) => holyWeekCodes.contains(c.celebrationCode));
+    final c = todayCelebrations.firstWhere(
+        (c) =>
+            holyWeekCodes.contains(c.celebrationCode) ||
+            c.ferialCode == 'lent_6_6',
+        orElse: () => todayCelebrations.first);
     final Map<String, CelebrationContext> result = {};
     result[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'vespers2',
@@ -56,14 +62,26 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // All Sundays have First Vespers, plus high-precedence celebrations
   // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
   // When today is Sunday, tomorrow's solemnities (prec. <= 3) always qualify
-  final firstVespersCandidates = tomorrowCelebrations
-      .where((c) =>
-          (tomorrow.isSunday && (c.precedence ?? _defaultPrecedence) <= 6) ||
-          (!ferialDayCheck(c.celebrationCode) &&
-              (c.precedence ?? _defaultPrecedence) <=
-                  _firstVespersPrecedenceThreshold) ||
-          (date.isSunday && (c.precedence ?? _defaultPrecedence) <= 3))
-      .toList();
+  //
+  // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
+  // no First Vespers of the next day are celebrated — all octave days are equal.
+  final bool isEasterOctave = todayCelebrations.any((c) {
+    final code = c.ferialCode?.isNotEmpty == true
+        ? c.ferialCode!
+        : c.celebrationCode;
+    return RegExp(r'^easter_1_[0-6]$').hasMatch(code);
+  });
+
+  final firstVespersCandidates = isEasterOctave
+      ? <CelebrationContext>[]
+      : tomorrowCelebrations
+          .where((c) =>
+              (tomorrow.isSunday && (c.precedence ?? _defaultPrecedence) <= 6) ||
+              (!ferialDayCheck(c.celebrationCode) &&
+                  (c.precedence ?? _defaultPrecedence) <=
+                      _firstVespersPrecedenceThreshold) ||
+              (date.isSunday && (c.precedence ?? _defaultPrecedence) <= 3))
+          .toList();
 
   // 4. Build the result map
   final Map<String, CelebrationContext> possibleVespers = {};

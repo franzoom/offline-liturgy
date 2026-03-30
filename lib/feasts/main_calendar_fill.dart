@@ -260,7 +260,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'holyweek',
-    defaultCelebrationTitle: 'palms',
+    defaultCelebrationTitle: 'lent_6_0',
     precedence: 2,
     liturgicalColor: 'red',
     breviaryWeek: 2,

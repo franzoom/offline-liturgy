@@ -85,10 +85,12 @@ Future<Readings> loadReadingsHierarchicalCommon(CelebrationContext context) {
 }
 
 Future<Vespers> loadVespersHierarchicalCommon(CelebrationContext context) {
+  final String section =
+      context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
   return _loadHierarchical<Vespers>(
     context: context,
     createEmpty: () => Vespers(),
-    extractor: (path, loader) => vespersExtract(path, loader),
+    extractor: (path, loader) => vespersExtract(path, loader, section: section),
     overlayFn: (base, overlay) => base.overlayWith(overlay),
   );
 }

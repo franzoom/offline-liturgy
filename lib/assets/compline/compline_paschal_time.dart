@@ -13,10 +13,10 @@ final Map<String, Compline> paschalTimeCompline = {
         antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+* Alléluia, alléluia
+V/ Tu es le Dieu fidèle qui garde son Alliance.
+* Alléluia, alléluia
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
@@ -37,10 +37,10 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
         ],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+* Alléluia, alléluia
+V/ Tu es le Dieu fidèle qui garde son Alliance.
+* Alléluia, alléluia
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
@@ -59,10 +59,10 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
         antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+* Alléluia, alléluia
+V/ Tu es le Dieu fidèle qui garde son Alliance.
+* Alléluia, alléluia
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
@@ -81,10 +81,10 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
         antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+* Alléluia, alléluia
+V/ Tu es le Dieu fidèle qui garde son Alliance.
+* Alléluia, alléluia
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
@@ -107,10 +107,10 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
         antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+* Alléluia, alléluia
+V/ Tu es le Dieu fidèle qui garde son Alliance.
+* Alléluia, alléluia
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
@@ -129,10 +129,10 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
         antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-* Alléluia, alléluia
-V/ Tu es le Dieu fidèle qui garde son Alliance.
-* Alléluia, alléluia
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+* Alléluia, alléluia
+V/ Tu es le Dieu fidèle qui garde son Alliance.
+* Alléluia, alléluia
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
@@ -151,8 +151,8 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
         antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
-    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-V/ Tu es le Dieu fidèle qui garde son Alliance. R/
+    responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
+V/ Tu es le Dieu fidèle qui garde son Alliance. R/
 Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:

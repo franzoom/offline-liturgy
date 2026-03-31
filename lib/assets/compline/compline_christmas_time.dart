@@ -12,7 +12,7 @@ final Map<String, Compline> christmasTimeCompline = {
       ),
       PsalmEntry(
         psalm: "PSALM_133",
-        antiphon: ["Sur le pays de l'ombre, une lumière s'est levée."],
+        antiphon: ["Sur le pays de l'ombre, une lumière s’est levée."],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(

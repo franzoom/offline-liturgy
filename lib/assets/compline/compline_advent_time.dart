@@ -10,7 +10,7 @@ final Map<String, Compline> adventTimeCompline = {
       ),
       PsalmEntry(
         psalm: "PSALM_133",
-        antiphon: ["Les ténèbres s'en vont, déjà brille la vraie lumière."],
+        antiphon: ["Les ténèbres s’en vont, déjà brille la vraie lumière."],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(

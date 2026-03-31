@@ -78,7 +78,7 @@ const Psalm benedictus = Psalm(
       'quand nous visite l\'_a_stre d\'en haut,\n'
       '\n'
       '{79}pour illuminer ceux qui habitent les ténèbres\n'
-      '>et l\'_o_mbre de la mort, *\n'
+      '>et l\'_o_mbre de la mort, *\n'
       'pour conduire nos pas\n'
       '>au chem_i_n de la paix.',
 );

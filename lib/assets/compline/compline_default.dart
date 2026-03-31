@@ -23,7 +23,7 @@ final Map<String, Compline> defaultCompline = {
           "Écoute, Israël : le Seigneur notre Dieu est l'Unique. Tu aimeras le Seigneur ton Dieu de tout ton cœur, de toute ton âme et de toute ta force. Ces commandements que je te donne aujourd'hui resteront gravés dans ton cœur. Tu les rediras à tes fils, tu les répéteras sans cesse, à la maison ou en voyage, que tu sois couché ou que tu sois levé.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Tu es le Dieu fidèle qui garde son Alliance. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Tu es le Dieu fidèle qui garde son Alliance. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -63,14 +63,14 @@ final Map<String, Compline> defaultCompline = {
           "Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n'existera plus, ils n'auront plus besoin de la lumière d'une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Sur ton serviteur, que s'illumine ta face. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Sur ton serviteur, que s'illumine ta face. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     ),
     oration: [
       "Notre Seigneur et notre Dieu, tu nous as fait entendre ton amour au matin de la Résurrection ; quand viendra pour nous le moment de mourir, que ton souffle de vie nous conduise en ta présence. Par Jésus, le Christ, notre Seigneur. Amen.",
-      "Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel; alors qu'il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s'éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen."
+      "Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel; alors qu'il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s’éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       HymnEntry(code: "sainte-mere-du-redempteur"),
@@ -104,7 +104,7 @@ final Map<String, Compline> defaultCompline = {
           "Dieu nous a destinés à entrer en possession du salut par notre Seigneur Jésus Christ, mort pour nous afin de nous faire vivre avec lui, que nous soyons encore éveillés ou déjà endormis dans la mort.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ C'est toi qui nous rachètes, Seigneur, Dieu de vérité. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ C'est toi qui nous rachètes, Seigneur, Dieu de vérité. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -144,13 +144,13 @@ final Map<String, Compline> defaultCompline = {
           "Soyez sobres, soyez vigilants : votre adversaire, le démon, comme un lion qui rugit, va et vient, à la recherche de sa proie. Résistez-lui avec la force de la foi.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Écoute, et viens me délivrer. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Écoute, et viens me délivrer. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
     ),
     oration: [
-      "Dieu qui es fidèle et juste, réponds à ton Église en prière, comme tu as répondu à Jésus, ton serviteur. Quand le souffle en elle s'épuise, fais-la vivre du souffle de ton Esprit : qu'elle médite sur l'œuvre de tes mains, pour avancer, libre et confiante, vers le matin de sa Pâque. Par Jésus, le Christ, notre Seigneur. Amen."
+      "Dieu qui es fidèle et juste, réponds à ton Église en prière, comme tu as répondu à Jésus, ton serviteur. Quand le souffle en elle s’épuise, fais-la vivre du souffle de ton Esprit : qu'elle médite sur l'œuvre de tes mains, pour avancer, libre et confiante, vers le matin de sa Pâque. Par Jésus, le Christ, notre Seigneur. Amen."
     ],
     marialHymnRef: [
       HymnEntry(code: "sainte-mere-du-redempteur"),
@@ -191,7 +191,7 @@ final Map<String, Compline> defaultCompline = {
           "En vue de votre délivrance, vous avez reçu en vous la marque du Saint-Esprit de Dieu : ne le contristez pas. Soyez entre vous pleins de générosité et de tendresse. Pardonnez-vous les uns aux autres, comme Dieu vous a pardonné dans le Christ.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Tu vois ma misère, tu sais ma détresse. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Tu vois ma misère, tu sais ma détresse. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -231,7 +231,7 @@ final Map<String, Compline> defaultCompline = {
           "Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu'il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Je suis sûr de toi, tu es mon Dieu. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Je suis sûr de toi, tu es mon Dieu. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",
@@ -271,7 +271,7 @@ final Map<String, Compline> defaultCompline = {
           "Si nos fautes parlent contre nous, agis, Seigneur, pour l'honneur de ton nom ! Tu es au milieu de nous, et ton nom a été invoqué sur nous ; ne nous abandonne pas, Seigneur, notre Dieu.",
     ),
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Mes jours sont dans ta main, sauve-moi. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\nV/ Mes jours sont dans ta main, sauve-moi. R/\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix.",

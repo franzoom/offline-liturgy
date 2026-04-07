@@ -7,7 +7,7 @@ final Map<String, Compline> christmasTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_4",
         antiphon: [
-          "Nos yeux ont vu le salut: qui peut nous ravir notre joie&nbsp;?"
+          "Nos yeux ont vu le salut: qui peut nous ravir notre joie ?"
         ],
       ),
       PsalmEntry(

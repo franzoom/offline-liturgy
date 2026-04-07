@@ -42,7 +42,7 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     ),
     oration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l’ennemi&nbsp;; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l’ennemi ; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       HymnEntry(code: "o-vierge-marie-quelle-joie"),

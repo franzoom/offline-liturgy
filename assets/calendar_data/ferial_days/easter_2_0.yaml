@@ -1,13 +1,9 @@
 celebration:
   title: |-
-   Deuxième Dimanche de Pâques
-   ou de la Divine Miséricorde
-  subtitle: null
-  description: null
-invitatory:
-  antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
-    - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+    Deuxième Dimanche de Pâques
+    ou de la Divine Miséricorde
+  commons:
+    - easter
 
 oration:
     - Dieu de miséricorde infinie, tu ranimes la foi de ton peuple par les célébrations pascales ; augmente en nous ta grâce pour que nous comprenions toujours mieux quel baptême nous a purifiés, quel Esprit nous a fait renaître, et quel sang nous a rachetés.
@@ -86,16 +82,6 @@ readings:
         les pêcheurs soudain s’interrogent :
         qui donc les attend près d’un feu ?
 morning:
-  psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - Christ est ressuscité, alléluia. Sa lumière a resplendi, alléluia, sur le peuple racheté par son sang.
-    - psalm: OT_41
-      antiphon:
-        - Notre Sauveur s’est levé de son tombeau ; bénissons notre Dieu, alléluia !
-    - psalm: PSALM_149
-      antiphon:
-        - Comme il nous l’avait dit, alléluia, le Seigneur est ressuscité, alléluia !
   reading:
     biblicalReference: Ac 10, 40-43
     content: "Voici que Dieu a ressuscité Jésus le troisième jour. Il lui a donné de se montrer non pas à tout le peuple, mais seulement aux témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Il nous a chargés d’annoncer au peuple et de témoigner que Dieu l’a choisi comme Juge des vivants et des morts. C’est à lui que tous les prophètes rendent ce témoignage : Tout homme qui croit en lui reçoit par lui le pardon de ses péchés."
@@ -129,13 +115,10 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_22
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
     - psalm: PSALM_75_1
     - psalm: PSALM_75_2
 
   tierce:
-    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
     reading:
       biblicalReference: 1 Co 15, 3b-5
       content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
@@ -143,7 +126,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
-    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
     reading:
       biblicalReference: Ep 2, 4-6a
       content: |-
@@ -152,24 +134,14 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
-    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
     reading:
       biblicalReference: Rm 6, 4
       content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
+
 vespers:
-  psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
-    - psalm: PSALM_113B
-      antiphon:
-        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
-    - psalm: NT_12
-      antiphon:
-        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
   reading:
     biblicalReference: He 10, 12-14
     content: Jésus Christ, après avoir offert pour les péchés un unique sacrifice, s’est assis pour toujours à la droite de Dieu. Il attend désormais que ses ennemis soient mis sous ses pieds. Par son sacrifice unique, il a mené pour toujours à leur perfection ceux qui reçoivent de lui la sainteté.

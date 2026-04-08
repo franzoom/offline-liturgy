@@ -5,7 +5,6 @@ celebration:
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
-    - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
     - "Dieu qui nous as fait passer de la mort à la vie en nous offrant les sacrements de Pâques, poursuis toujours l’œuvre de ta grâce : que ton peuple trouve une liberté parfaite et parvienne à la joie du ciel dont tu lui donnes déjà le goût sur la terre."
@@ -115,13 +114,10 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_118_2
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
     - psalm: PSALM_27
     - psalm: PSALM_115
 
   tierce:
-    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
     reading:
       biblicalReference: Ac 4, 11-12
       content: "Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver."
@@ -129,7 +125,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
-    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
     reading:
       biblicalReference: Cf. 1 P 3, 21-22a
       content: "Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu."
@@ -137,7 +132,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
-    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
     reading:
       biblicalReference: Col 3, 1-2
       content: |-
@@ -146,16 +140,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
 vespers:
-  psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
-    - psalm: PSALM_113A
-      antiphon:
-        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
-    - psalm: NT_12
-      antiphon:
-        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
   reading:
     biblicalReference: 1 P 2, 4-5
     content: "Approchez-vous du Seigneur : il est la pierre vivante, que les hommes ont éliminée mais que Dieu a choisie parce qu’il en connaît la valeur. Vous aussi, soyez des pierres vivantes qui servent à construire le Temple spirituel, et vous serez le sacerdoce saint, présentant des offrandes spirituelles que Dieu pourra accepter à cause du Christ Jésus."
@@ -192,6 +176,7 @@ vespers:
 
       Tu es descendu aux enfers pour en ramener les captifs,
       entraîne-les vers la libre Jérusalem.
+
 mass:
 - massType: day_mass
   name: Messe du jour

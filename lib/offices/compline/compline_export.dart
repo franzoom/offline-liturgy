@@ -71,7 +71,7 @@ Compline? getComplineText(ComplineDefinition def) {
 
     // Solemnities and their Eves
     'solemnity' || 'solemnityeve' => switch (time) {
-        'paschal' => solemnityComplinePaschalTime[day],
+        'paschal' || 'paschaloctave' => solemnityComplinePaschalTime[day],
         'lent' => solemnityComplineLentTime[day],
         'advent' ||
         'christmas' ||
@@ -82,7 +82,7 @@ Compline? getComplineText(ComplineDefinition def) {
 
     // Normal Days (Ferial) and Sundays
     _ => switch (time) {
-        'paschal' => paschalTimeCompline[day],
+        'paschal' || 'paschaloctave' => paschalTimeCompline[day],
         'lent' => lentTimeCompline[day],
         'advent' => adventTimeCompline[day],
         'christmas' || 'christmasoctave' => christmasTimeCompline[day],

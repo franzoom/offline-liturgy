@@ -14,7 +14,7 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       ),
     ],
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\n* Alléluia, alléluia.\nV/ Tu es le Dieu fidèle qui garde son Alliance.\n* Alléluia, alléluia.\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\n* Alléluia, alléluia.\nV/ Tu es le Dieu fidèle qui garde son Alliance.\n* Alléluia, alléluia.\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
@@ -36,13 +36,13 @@ final Map<String, Compline> solemnityComplinePaschalTime = {
       ),
     ],
     responsory:
-        "R/ En tes mains, Seigneur, je remets mon esprit.\n* Alléluia, alléluia.\nV/ Sur ton serviteur que s'illumine ta face.\n* Alléluia, alléluia.\nGloire au Père et au Fils et au Saint-Esprit. R/",
+        "R/ En tes mains, Seigneur, je remets mon esprit.\n* Alléluia, alléluia.\nV/ Sur ton serviteur que s’illumine ta face.\n* Alléluia, alléluia.\nGloire au Père et au Fils et au Saint-Esprit. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
     ),
     oration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l’ennemi ; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t’en supplions, Seigneur, visite cette maison, et repousse loin d’elle toutes les embûches de l’ennemi ; que tes saints anges viennent l’habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       HymnEntry(code: "o-vierge-marie-quelle-joie"),

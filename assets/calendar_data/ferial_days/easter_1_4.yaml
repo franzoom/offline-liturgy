@@ -1,11 +1,7 @@
 celebration:
   title: Jeudi dans l’octave de Pâques
-  subtitle: null
-  description: null
-invitatory:
-  antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
-    - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+  commons:
+    - easter
 
 oration:
     - Dieu qui as uni tant de peuples divers dans la même confession de ton nom, accorde à tous les baptisés d’avoir au cœur la même foi et dans la vie le même amour.
@@ -79,16 +75,6 @@ readings:
         Il changea la mer en terre ferme,
         on passa le fleuve à pied sec.
 morning:
-  psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - Christ est ressuscité, alléluia. Sa lumière a resplendi, alléluia, sur le peuple racheté par son sang.
-    - psalm: OT_41
-      antiphon:
-        - Notre Sauveur s’est levé de son tombeau ; bénissons notre Dieu, alléluia !
-    - psalm: PSALM_149
-      antiphon:
-        - Comme il nous l’avait dit, alléluia, le Seigneur est ressuscité, alléluia !
   reading:
     biblicalReference: Rm 8, 10-11
     content: Si le Christ est en vous, votre corps a beau être voué à la mort à cause du péché, l’Esprit est votre vie, parce que vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous.
@@ -121,14 +107,11 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_118_4
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
-    - psalm: PSALM_75_1
-    - psalm: PSALM_75_2
+    - psalm: PSALM_118_3
+    - psalm: PSALM_29_1
+    - psalm: PSALM_29_2
 
   tierce:
-    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
     reading:
       biblicalReference: 1 Co 12, 13
       content: "Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit."
@@ -136,15 +119,13 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
-    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
     reading:
       biblicalReference: Tt 3, 5b-7
-      content: "Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle."
+      content: "Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle."
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
-    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
     reading:
       biblicalReference: Cf Col 1, 12-14
       content: "Rendez grâce à Dieu le Père, qui vous a rendus capables d’avoir part, dans la lumière, à l’héritage du peuple saint. Il nous a arrachés au pouvoir des ténèbres, il nous a fait entrer dans le royaume de son Fils bien-aimé, par qui nous sommes rachetés et par qui nos péchés sont pardonnés."
@@ -152,18 +133,8 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
 vespers:
-  psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
-    - psalm: PSALM_113A
-      antiphon:
-        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
-    - psalm: NT_12
-      antiphon:
-        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
   reading:
-    biblicalReference: 1 P 3, 18.22
+    biblicalReference: 1P 3, 18.22
     content: Le Christ est mort pour les péchés, une fois pour toutes ; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort ; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu.
   responsory: |-
     R/ Voici le jour que fit le Seigneur,
@@ -191,6 +162,7 @@ vespers:
 
       Par ta croix, la joie est entrée dans le monde :
       – accorde à nos défunts la plénitude de cette joie.
+
 mass:
 - massType: day_mass
   name: Messe du jour

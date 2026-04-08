@@ -1,11 +1,7 @@
 celebration:
   title: Mercredi dans l’octave de Pâques
-  subtitle: null
-  description: null
-invitatory:
-  antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
-    - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+  commons:
+    - easter
 
 oration:
     - Dieu qui nous donnes chaque année la joie de fêter la résurrection du Seigneur, ouvre-nous, à travers ces fêtes d’ici-bas, le chemin vers la joie éternelle.
@@ -76,16 +72,6 @@ readings:
         et nous verrons en toi
         la lumière de Dieu.
 morning:
-  psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - Christ est ressuscité, alléluia. Sa lumière a resplendi, alléluia, sur le peuple racheté par son sang.
-    - psalm: OT_41
-      antiphon:
-        - Notre Sauveur s’est levé de son tombeau ; bénissons notre Dieu, alléluia !
-    - psalm: PSALM_149
-      antiphon:
-        - Comme il nous l’avait dit, alléluia, le Seigneur est ressuscité, alléluia !
   reading:
     biblicalReference: Rm 6, 8-11
     content: "Si nous sommes passés par la mort avec le Christ, nous croyons que nous vivrons aussi avec lui. Nous le savons en effet : ressuscité d’entre les morts, le Christ ne meurt plus ; sur lui la mort n’a plus aucun pouvoir. Car il est mort, et c’est au péché qu’il est mort une fois pour toutes ; lui qui est vivant, c’est pour Dieu qu’il est vivant. De même vous aussi : pensez que vous êtes morts au péché, et vivants pour Dieu en Jésus Christ."
@@ -122,14 +108,11 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_118_3
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
-    - psalm: PSALM_29_1
-    - psalm: PSALM_29_2
+    - psalm: PSALM_118_2
+    - psalm: PSALM_27
+    - psalm: PSALM_115
 
   tierce:
-    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
     reading:
       biblicalReference: Rm 4, 24b-25
       content: "Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification."
@@ -137,7 +120,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
-    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
     reading:
       biblicalReference: 1 Jn 5, 5-6a
       content: |-
@@ -146,7 +128,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
-    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
     reading:
       biblicalReference: Ep 4, 23-24
       content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
@@ -154,16 +135,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
 vespers:
-  psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
-    - psalm: PSALM_113A
-      antiphon:
-        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
-    - psalm: NT_12
-      antiphon:
-        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
   reading:
     biblicalReference: He 7, 24-27
     content: "Jésus, puisqu’il demeure éternellement, possède le sacerdoce qui ne passe pas. C’est pourquoi il est en mesure de sauver d’une manière définitive ceux qui s’avancent vers Dieu grâce à lui, car il vit pour toujours, afin d’intercéder en leur faveur. C’était bien le grand prêtre qu’il nous fallait : saint, sans tache, sans aucune faute ; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple ; cela, il l’a fait une fois pour toutes en s’offrant lui-même."

@@ -2,10 +2,8 @@ celebration:
   title: Lundi dans l’octave de Pâques
   subtitle: null
   description: null
-invitatory:
-  antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
-    - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+  commons:
+    - easter
 
 oration:
     - Dieu qui agrandis toujours ton Église en lui donnant par le baptême de nouveaux enfants, accorde à tes fils d’être fidèles toute leur vie au sacrement qu’ils ont reçu dans la foi.
@@ -69,16 +67,6 @@ readings:
         Passent le monde et ses souffrances,
         la joie du Christ demeure à jamais.
 morning:
-  psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - Christ est ressuscité, alléluia. Sa lumière a resplendi, alléluia, sur le peuple racheté par son sang.
-    - psalm: OT_41
-      antiphon:
-        - Notre Sauveur s’est levé de son tombeau ; bénissons notre Dieu, alléluia !
-    - psalm: PSALM_149
-      antiphon:
-        - Comme il nous l’avait dit, alléluia, le Seigneur est ressuscité, alléluia !
   reading:
     biblicalReference: Rm 10, 8-10
     content: "Nous lisons dans l’Écriture : « La Parole est près de toi ; elle est dans ta bouche et dans ton cœur. » Cette Parole, c’est le message de la foi que nous proclamons. Donc, si tu affirmes de ta bouche que Jésus est Seigneur, si tu crois dans ton cœur que Dieu l’a ressuscité d’entre les morts, alors tu seras sauvé. Celui qui croit du fond de son cœur devient juste ; celui qui, de sa bouche, affirme sa foi parvient au salut."
@@ -109,49 +97,26 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_118_1
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
-    - psalm: PSALM_15
-    - psalm: PSALM_22
+    - psalm: PSALM_8
+    - psalm: PSALM_18A
+    - psalm: PSALM_18B
 
   tierce:
-    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
     reading:
       biblicalReference: Cf. Ap 1, 17c-18
       content: |-
-        Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »
-    responsory: |-
-      V/ Voici le jour que fit le Seigneur,
-      jour de fête et de joie, alléluia !
+        Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »
   sexte:
-    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
     reading:
       biblicalReference: Col 2, 9.10a.12
       content: "Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts."
-    responsory: |-
-      V/ Voici le jour que fit le Seigneur,
-      jour de fête et de joie, alléluia !
   none:
-    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
     reading:
       biblicalReference: 2 Tm 2, 8.11
       content: |-
-        Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
-    responsory: |-
-      V/ Voici le jour que fit le Seigneur,
-      jour de fête et de joie, alléluia !
+        Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
+
 vespers:
-  psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
-    - psalm: PSALM_113A
-      antiphon:
-        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
-    - psalm: NT_12
-      antiphon:
-        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
   reading:
     biblicalReference: He 8, 1b-3a
     content: Le grand prêtre que nous avons s’est assis à la droite de Dieu et règne avec lui dans les cieux, après avoir accompli le service du véritable Sanctuaire et de la véritable Tente dressée par le Seigneur et non par un homme. Le grand prêtre a toujours été chargé d’offrir des dons et des sacrifices.
@@ -163,7 +128,8 @@ vespers:
     V/ Voici le jour où l’homme, debout,
     resplendit de la lumière éternelle. R/
   evangelicAntiphon:
-    common: Jésus vint à la rencontre des femmes. Il leur dit je vous salue ! Elles s’approchèrent et se prosternèrent devant lui, alléluia !
+    common: |-
+      Jésus vint à la rencontre des femmes. Il leur dit : « Je vous salue ! » Elles s’approchèrent et se prosternèrent devant lui, alléluia !
   intercession:
     content: |-
       Ô Christ, lumière sans déclin, alors que le jour baisse, reçois le sacrifice de notre louange et notre prière :
@@ -181,6 +147,7 @@ vespers:
 
       Vainqueur de la mort,
       reçois nos frères qui ont quitté ce monde, et montre-leur ton visage.
+
 mass:
 - massType: day_mass
   name: Messe du jour

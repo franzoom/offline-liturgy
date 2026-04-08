@@ -1,11 +1,7 @@
 celebration:
   title: Samedi dans l’octave de Pâques
-  subtitle: null
-  description: null
-invitatory:
-  antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
-    - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
+  commons:
+    - easter
 
 oration:
     - "Dieu qui donnes sans cesse ta grâce pour augmenter le nombre de tes enfants, veille sur ceux que tu viens d’agréger à ton peuple ; ils ont pris naissance dans le baptême : qu’ils soient revêtus de l’immortalité du Christ, pour se présenter à la table de ses noces. Lui qui règne."
@@ -76,16 +72,6 @@ readings:
         Le Sang jailli du Cœur de Jésus Christ,
         Vie des baptisés.
 morning:
-  psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - Christ est ressuscité, alléluia. Sa lumière a resplendi, alléluia, sur le peuple racheté par son sang.
-    - psalm: OT_41
-      antiphon:
-        - Notre Sauveur s’est levé de son tombeau ; bénissons notre Dieu, alléluia !
-    - psalm: PSALM_149
-      antiphon:
-        - Comme il nous l’avait dit, alléluia, le Seigneur est ressuscité, alléluia !
   reading:
     biblicalReference: Rm 14, 7-9
     content: "Aucun d’entre nous ne vit pour soi-même, et aucun ne meurt pour soi-même : si nous vivons, nous vivons pour le Seigneur ; si nous mourons, nous mourons pour le Seigneur. Dans notre vie comme dans notre mort, nous appartenons au Seigneur. Car, si le Christ a connu la mort, puis la vie, c’est pour devenir le Seigneur et des morts et des vivants."
@@ -120,13 +106,10 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_118_5
-      antiphon:
-        - Ant. Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia ! Ant. Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia ! Ant. Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !
-    - psalm: PSALM_33_1
-    - psalm: PSALM_33_2
+    - psalm: PSALM_95_1
+    - psalm: PSALM_95_2
 
   tierce:
-    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
     reading:
       biblicalReference: Rm 5, 10-11
       content: "Si Dieu nous a réconciliés avec lui par la mort de son Fils, quand nous étions encore ses ennemis, à plus forte raison, maintenant que nous sommes réconciliés, nous serons sauvés par la vie du Christ ressuscité. Bien plus, nous mettons notre orgueil en Dieu, grâce à Jésus-Christ notre Seigneur, qui nous a réconciliés avec Dieu."
@@ -134,7 +117,6 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
-    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
     reading:
       biblicalReference: 1 Co 15, 20-22
       content: "Le Christ est ressuscité d’entre les morts, pour être parmi les morts le premier ressuscité. Car, la mort étant venue par un homme, c’est par homme aussi que vient la résurrection. En effet, c’est en Adam que meurent tous les hommes ; c’est dans le Christ que tous revivront."
@@ -142,24 +124,14 @@ middleOfDay:
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
-    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
     reading:
       biblicalReference: 2 Co 5, 14-15
       content: "L’amour du Christ nous saisit quand nous pensons qu’un seul est mort pour tous, et qu’ainsi tous ont passé par la mort. Car le Christ est mort pour tous, afin que les vivants n’aient plus leur vie centrée sur eux-mêmes, mais sur lui qui est mort et ressuscité pour eux."
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
+
 vespers:
-  psalmody:
-    - psalm: PSALM_140
-      antiphon:
-        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
-    - psalm: PSALM_141
-      antiphon:
-        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
-    - psalm: NT_5
-      antiphon:
-        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
   reading:
     biblicalReference: 1 P 2, 9-10
     content: C’est vous qui êtes la race choisie, le sacerdoce royal, la nation sainte, le peuple qui appartient à Dieu ; vous êtes donc chargés d’annoncer les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Car autrefois vous n’étiez pas son peuple, mais aujourd’hui vous êtes le peuple de Dieu. Vous étiez privés d’amour, mais aujourd’hui Dieu vous a montré son amour.
@@ -192,6 +164,7 @@ vespers:
 
       Jésus, flambeau de la Cité de Dieu,
       – répands ta clarté sur les défunts.
+
 mass:
 - massType: day_mass
   name: Messe du jour

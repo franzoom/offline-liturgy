@@ -7,16 +7,16 @@ final Map<String, Compline> christmasTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_4",
         antiphon: [
-          "Nos yeux ont vu le salut: qui peut nous ravir notre joie&nbsp;?"
+          "Nos yeux ont vu le salut: qui peut nous ravir notre joie ?"
         ],
       ),
       PsalmEntry(
         psalm: "PSALM_133",
-        antiphon: ["Sur le pays de l'ombre, une lumière s’est levée."],
+        antiphon: ["Sur le pays de l’ombre, une lumière s’est levée."],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(
-      common: "J'ai vu de mes yeux le Sauveur: lumière des peuples.",
+      common: "J’ai vu de mes yeux le Sauveur: lumière des peuples.",
     ),
   ),
   "sunday": Compline(
@@ -27,7 +27,7 @@ final Map<String, Compline> christmasTimeCompline = {
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(
-      common: "J'ai vu de mes yeux le Sauveur: lumière des peuples.",
+      common: "J’ai vu de mes yeux le Sauveur: lumière des peuples.",
     ),
   ),
   "monday": Compline(
@@ -35,7 +35,7 @@ final Map<String, Compline> christmasTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_85",
         antiphon: [
-          "Tous les peuples viendront t'adorer, car tu fais des merveilles."
+          "Tous les peuples viendront t’adorer, car tu fais des merveilles."
         ],
       ),
     ],
@@ -45,7 +45,7 @@ final Map<String, Compline> christmasTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_142",
         antiphon: [
-          "Sur l'œuvre de tes mains, je médite, je tends le mains vers toi."
+          "Sur l’œuvre de tes mains, je médite, je tends le mains vers toi."
         ],
       ),
     ],
@@ -55,14 +55,14 @@ final Map<String, Compline> christmasTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_30_1",
         antiphon: [
-          "Plus qu'un veilleur ne guette l'aurore, attends le Seigneur."
+          "Plus qu’un veilleur ne guette l’aurore, attends le Seigneur."
         ],
       ),
       PsalmEntry(
         psalm: "PSALM_129",
         antiphon: [
           "Près de toi se trouve le pardon.",
-          "J'espère le Seigneur de toute mon âme."
+          "J’espère le Seigneur de toute mon âme."
         ],
       ),
     ],
@@ -71,7 +71,7 @@ final Map<String, Compline> christmasTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_15",
-        antiphon: ["J'ai dit au Seigneur: Tu es mon Dieu!"],
+        antiphon: ["J’ai dit au Seigneur: Tu es mon Dieu !"],
       ),
     ],
   ),
@@ -80,7 +80,7 @@ final Map<String, Compline> christmasTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_87",
         antiphon: [
-          "Seigneur, mon Dieu et mon salut!",
+          "Seigneur, mon Dieu et mon salut !",
         ],
       ),
     ],

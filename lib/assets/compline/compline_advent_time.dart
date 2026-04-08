@@ -1,12 +1,12 @@
-import '../../classes/compline_class.dart';
-import '../../classes/office_elements_class.dart';
+import "../../classes/compline_class.dart";
+import "../../classes/office_elements_class.dart";
 
 final Map<String, Compline> adventTimeCompline = {
   "saturday": Compline(
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_4",
-        antiphon: ["Sur nous,Seigneur, que s'illumine ton visage!"],
+        antiphon: ["Sur nous,Seigneur, que s’illumine ton visage !"],
       ),
       PsalmEntry(
         psalm: "PSALM_133",
@@ -21,7 +21,7 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
-        antiphon: ["Dieu puissant, mon rempart et ma foi!"],
+        antiphon: ["Dieu puissant, mon rempart et ma foi !"],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(
@@ -32,7 +32,7 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_85",
-        antiphon: ["Vers toi, Seigneur, j'élève mon âme: veille sur moi."],
+        antiphon: ["Vers toi, Seigneur, j’élève mon âme: veille sur moi."],
       ),
     ],
   ),
@@ -41,7 +41,7 @@ final Map<String, Compline> adventTimeCompline = {
       PsalmEntry(
         psalm: "PSALM_142",
         antiphon: [
-          "Vers toi, Seignuer j'élève mon âme, ne me cache pas ton visage."
+          "Vers toi, Seignuer j’élève mon âme, ne me cache pas ton visage."
         ],
       ),
     ],
@@ -50,13 +50,13 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_30_1",
-        antiphon: ["Mes jours sont dans ta main, Seigneur, j'espère en toi."],
+        antiphon: ["Mes jours sont dans ta main, Seigneur, j’espère en toi."],
       ),
       PsalmEntry(
         psalm: "PSALM_129",
         antiphon: [
           "Près de toi se trouve le pardon.",
-          "J'espère le Seigneur de toute mon âme."
+          "J’espère le Seigneur de toute mon âme."
         ],
       ),
     ],
@@ -73,7 +73,7 @@ final Map<String, Compline> adventTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_87",
-        antiphon: ["Je t'appelle, Seigneur, je tends les mains vers toi."],
+        antiphon: ["Je t’appelle, Seigneur, je tends les mains vers toi."],
       ),
     ],
   ),

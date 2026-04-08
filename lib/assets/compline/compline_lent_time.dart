@@ -27,7 +27,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
-        antiphon: ["À l'ombre de ses ailes, n'aie plus peur de la nuit."],
+        antiphon: ["À l’ombre de ses ailes, n’aie plus peur de la nuit."],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(
@@ -44,7 +44,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_85",
-        antiphon: ["Rassemble mon cœur pour qu'il te craigne."],
+        antiphon: ["Rassemble mon cœur pour qu’il te craigne."],
       ),
     ],
     marialHymnRef: [
@@ -82,7 +82,7 @@ final Map<String, Compline> lentTimeCompline = {
         psalm: "PSALM_129",
         antiphon: [
           "Près de toi se trouve le pardon.",
-          "J'espère le Seigneur de tout mon âme."
+          "J’espère le Seigneur de tout mon âme."
         ],
       ),
     ],
@@ -97,7 +97,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_15",
-        antiphon: ["Mon Dieu, tu ne peux m'abandonner à la mort."],
+        antiphon: ["Mon Dieu, tu ne peux m’abandonner à la mort."],
       ),
     ],
     marialHymnRef: [
@@ -111,7 +111,7 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_87",
-        antiphon: ["Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?"],
+        antiphon: ["Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?"],
       ),
     ],
     marialHymnRef: [
@@ -125,11 +125,11 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
-        antiphon: ["À l'ombre de ses ailes, n'aie plus peur de la nuit."],
+        antiphon: ["À l’ombre de ses ailes, n’aie plus peur de la nuit."],
       ),
     ],
     responsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu'à la mort.\nV/ Voici l'heure où le Fils de l'homme a été livré, voici le pouvoir des ténèbres. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.\nV/ Voici l’heure où le Fils de l’homme a été livré, voici le pouvoir des ténèbres. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
@@ -144,11 +144,11 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
-        antiphon: ["À l'ombre de ses ailes, n'aie plus peur de la nuit."],
+        antiphon: ["À l’ombre de ses ailes, n’aie plus peur de la nuit."],
       ),
     ],
     responsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu'à la mort, et la mort de la croix.\nV/ Lui, le Fils, il a appris l'obéissance par les souffrances de sa passion. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.\nV/ Lui, le Fils, il a appris l’obéissance par les souffrances de sa passion. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
@@ -165,11 +165,11 @@ final Map<String, Compline> lentTimeCompline = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
-        antiphon: ["À l'ombre de ses ailes, n'aie plus peur de la nuit."],
+        antiphon: ["À l’ombre de ses ailes, n’aie plus peur de la nuit."],
       ),
     ],
     responsory:
-        "R/ Le Christ s’est fait pour nous obéissant jusqu'à la mort, et la mort de la croix. \nV/ C'est pourquoi Dieu l'a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
+        "R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix. \nV/ C’est pourquoi Dieu l’a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/",
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),

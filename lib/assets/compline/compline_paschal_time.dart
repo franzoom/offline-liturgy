@@ -17,7 +17,7 @@ final Map<String, Compline> paschalTimeCompline = {
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
 * Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
@@ -33,7 +33,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
       PsalmEntry(
         psalm: "PSALM_90",
         antiphon: [
-          "Alléluia, alléluia, alléluia !",
+          "Alléluia, alléluia, alléluia !",
         ],
       ),
     ],
@@ -41,7 +41,7 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
 * Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.",
@@ -56,14 +56,14 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_85",
-        antiphon: ["Alléluia, alléluia, alléluia !"],
+        antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
     responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
 * Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
@@ -78,14 +78,14 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_142",
-        antiphon: ["Alléluia, alléluia, alléluia !"],
+        antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
     responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
 * Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
           "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia.",
@@ -100,21 +100,21 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_30_1",
-        antiphon: ["Alléluia, alléluia, alléluia !"],
+        antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
       PsalmEntry(
         psalm: "PSALM_129",
-        antiphon: ["Alléluia, alléluia, alléluia !"],
+        antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
     responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
 * Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
-          "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
+          "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
     ),
     marialHymnRef: [
       HymnEntry(code: "o-vierge-marie-quelle-joie"),
@@ -126,17 +126,17 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_15",
-        antiphon: ["Alléluia, alléluia, alléluia !"],
+        antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
     responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
 * Alléluia, alléluia
 V/ Tu es le Dieu fidèle qui garde son Alliance.
 * Alléluia, alléluia
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
-          "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
+          "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia",
     ),
     marialHymnRef: [
       HymnEntry(code: "o-vierge-marie-quelle-joie"),
@@ -148,15 +148,15 @@ Gloire au Père et au Fils et au Saint-Esprit. R/""",
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_87",
-        antiphon: ["Alléluia, alléluia, alléluia !"],
+        antiphon: ["Alléluia, alléluia, alléluia !"],
       ),
     ],
     responsory: """R/ En tes mains, Seigneur, je remets mon esprit.
-V/ Tu es le Dieu fidèle qui garde son Alliance. R/
-Gloire au Père et au Fils et au Saint-Esprit. R/""",
+V/ Tu es le Dieu fidèle qui garde son Alliance. R/
+Gloire au Père et au Fils et au Saint-Esprit. R/""",
     evangelicAntiphon: EvangelicAntiphon(
       common:
-          "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia.",
+          "Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous dormons : nous veillerons avec le Christ et nous reposerons en paix. Alléluia.",
     ),
     marialHymnRef: [
       HymnEntry(code: "o-vierge-marie-quelle-joie"),

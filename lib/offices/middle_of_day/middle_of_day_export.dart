@@ -55,14 +55,49 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 3b. GRADUAL PSALMS: For solemnities (precedence <= 4), override psalmody
+  // 3b. PER-HOUR PSALMODY: For solemnities (precedence <= 4), build separate
+  // psalmody lists for tierce, sexte and none with their respective antiphons.
   if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4) {
     final isSunday = celebrationContext.date.weekday == DateTime.sunday;
+    // When the ferial day IS the celebration (same code), its YAML already
+    // defines the proper psalms for the hours. We apply per-hour antiphons
+    // (typically from a common) to those psalms.
+    // This covers the Paschal Octave, Easter Sundays, Christmas octave, etc.
+    final isFerialTheCelebration =
+        celebrationContext.celebrationCode == celebrationContext.ferialCode;
 
-    if (isSunday) {
-      // Sunday solemnity: use sunday1PsalmsForMiddleOfDay for all three hours,
-      // keeping the antiphons already defined in the merged psalmody.
+    if (isFerialTheCelebration) {
+      // Proper ferial celebration: use the YAML psalms with per-hour antiphons.
+      final basePsalms = middleOfDayOffice.psalmody ?? [];
+      final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
+      final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
+      final noneAntiphon = middleOfDayOffice.none?.antiphon;
+
+      if (basePsalms.isNotEmpty) {
+        middleOfDayOffice.psalmodyTierce = basePsalms
+            .map((e) => PsalmEntry(
+                  psalm: e.psalm,
+                  antiphon: tierceAntiphon != null ? [tierceAntiphon] : e.antiphon,
+                ))
+            .toList();
+        middleOfDayOffice.psalmodySexte = basePsalms
+            .map((e) => PsalmEntry(
+                  psalm: e.psalm,
+                  antiphon: sexteAntiphon != null ? [sexteAntiphon] : e.antiphon,
+                ))
+            .toList();
+        middleOfDayOffice.psalmodyNone = basePsalms
+            .map((e) => PsalmEntry(
+                  psalm: e.psalm,
+                  antiphon: noneAntiphon != null ? [noneAntiphon] : e.antiphon,
+                ))
+            .toList();
+      }
+    } else if (isSunday) {
+      // External solemnity on a Sunday: use sunday1PsalmsForMiddleOfDay for
+      // all three hours, keeping the antiphons already defined in the merged
+      // psalmody.
       final existingAntiphons =
           middleOfDayOffice.psalmody?.map((e) => e.antiphon).toList() ?? [];
       middleOfDayOffice.psalmody = List.generate(
@@ -97,6 +132,32 @@ Future<MiddleOfDay> middleOfDayExport(
                 psalm: e[0],
                 antiphon: noneAntiphon != null ? [noneAntiphon] : [e[1]],
               ))
+          .toList();
+    }
+  }
+
+  // 3c. PER-HOUR ANTIPHONS: For non-solemnity cases, apply per-hour antiphons
+  // (tierce/sexte/none.antiphon) when they exist. They override psalmody antiphons.
+  // Only applied when step 3b has not already built per-hour lists.
+  if (middleOfDayOffice.psalmody != null) {
+    final basePsalms = middleOfDayOffice.psalmody!;
+    final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
+    final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
+    final noneAntiphon = middleOfDayOffice.none?.antiphon;
+
+    if (tierceAntiphon != null && middleOfDayOffice.psalmodyTierce == null) {
+      middleOfDayOffice.psalmodyTierce = basePsalms
+          .map((e) => PsalmEntry(psalm: e.psalm, antiphon: [tierceAntiphon]))
+          .toList();
+    }
+    if (sexteAntiphon != null && middleOfDayOffice.psalmodySexte == null) {
+      middleOfDayOffice.psalmodySexte = basePsalms
+          .map((e) => PsalmEntry(psalm: e.psalm, antiphon: [sexteAntiphon]))
+          .toList();
+    }
+    if (noneAntiphon != null && middleOfDayOffice.psalmodyNone == null) {
+      middleOfDayOffice.psalmodyNone = basePsalms
+          .map((e) => PsalmEntry(psalm: e.psalm, antiphon: [noneAntiphon]))
           .toList();
     }
   }

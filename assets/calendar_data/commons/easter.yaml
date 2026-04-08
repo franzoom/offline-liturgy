@@ -1,0 +1,49 @@
+celebration:
+  color: white
+commonTitle: Octave de Pâques
+
+invitatory:
+  antiphon:
+    - Le Seigneur est vraiment ressuscité, alléluia !
+
+morning:
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Christ est ressuscité, alléluia. Sa lumière a resplendi, alléluia, sur le peuple racheté par son sang.
+    - psalm: OT_41
+      antiphon:
+        - Notre Sauveur s’est levé de son tombeau ; bénissons notre Dieu, alléluia !
+    - psalm: PSALM_149
+      antiphon:
+        - Comme il nous l’avait dit, alléluia, le Seigneur est ressuscité, alléluia !
+ 
+middleOfDay:
+  tierce:
+    antiphon: "Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !"
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  sexte:
+    antiphon: "Livré pour nos fautes, Christ est ressuscité pour nous justifier, alléluia !"
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+  none:
+    antiphon: "Ressuscités avec le Christ, recherchez les choses d’en haut, alléluia !"
+    responsory: |-
+      V/ Voici le jour que fit le Seigneur,
+      jour de fête et de joie, alléluia !
+
+vespers:
+  psalmody:
+    - psalm: PSALM_109
+      antiphon:
+        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
+    - psalm: PSALM_113A
+      antiphon:
+        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
+    - psalm: NT_12
+      antiphon:
+        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
+ 

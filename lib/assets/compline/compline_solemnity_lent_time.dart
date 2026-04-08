@@ -30,14 +30,14 @@ final Map<String, Compline> solemnityComplineLentTime = {
     psalmody: [
       PsalmEntry(
         psalm: "PSALM_90",
-        antiphon: ["Dieu puissant, mon rempart et ma foi !"],
+        antiphon: ["Dieu puissant, mon rempart et ma foi !"],
       ),
     ],
     evangelicAntiphon: EvangelicAntiphon(
       common: "Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.",
     ),
     oration: [
-      "Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l’ennemi; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
+      "Nous t’en supplions, Seigneur, visite cette maison, et repousse loin d’elle toutes les embûches de l’ennemi; que tes saints anges viennent l’habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen."
     ],
     marialHymnRef: [
       HymnEntry(code: "sub-tuum-praesidium"),

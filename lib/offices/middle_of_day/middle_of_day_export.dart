@@ -66,9 +66,16 @@ Future<MiddleOfDay> middleOfDayExport(
     // This covers the Paschal Octave, Easter Sundays, Christmas octave, etc.
     final isFerialTheCelebration =
         celebrationContext.celebrationCode == celebrationContext.ferialCode;
+    // Paschal Octave weekdays always use the octave day's own psalms,
+    // never the gradual psalms, regardless of any overlay celebration.
+    final isPaschalOctave =
+        (celebrationContext.liturgicalTime ?? '') == 'paschaloctave';
 
-    if (isFerialTheCelebration) {
-      // Proper ferial celebration: use the YAML psalms with per-hour antiphons.
+
+
+    if (isFerialTheCelebration || (isPaschalOctave && !isSunday)) {
+      // Ferial-as-celebration or Paschal Octave weekday: use the YAML psalms
+      // with per-hour antiphons.
       final basePsalms = middleOfDayOffice.psalmody ?? [];
       final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
       final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
@@ -78,13 +85,15 @@ Future<MiddleOfDay> middleOfDayExport(
         middleOfDayOffice.psalmodyTierce = basePsalms
             .map((e) => PsalmEntry(
                   psalm: e.psalm,
-                  antiphon: tierceAntiphon != null ? [tierceAntiphon] : e.antiphon,
+                  antiphon:
+                      tierceAntiphon != null ? [tierceAntiphon] : e.antiphon,
                 ))
             .toList();
         middleOfDayOffice.psalmodySexte = basePsalms
             .map((e) => PsalmEntry(
                   psalm: e.psalm,
-                  antiphon: sexteAntiphon != null ? [sexteAntiphon] : e.antiphon,
+                  antiphon:
+                      sexteAntiphon != null ? [sexteAntiphon] : e.antiphon,
                 ))
             .toList();
         middleOfDayOffice.psalmodyNone = basePsalms

@@ -172,7 +172,7 @@ Future<MiddleOfDay> middleOfDayExport(
   }
 
   // 4. PROPAGATE ANTIPHON: If only the first psalm has an antiphon,
-  //    repeat it for the other psalms (before adding season antiphon).
+  //    repeat it for the other psalms (before appending season antiphon).
   if (middleOfDayOffice.psalmody != null &&
       middleOfDayOffice.psalmody!.length > 1) {
     final firstAntiphon = middleOfDayOffice.psalmody!.first.antiphon;
@@ -207,30 +207,30 @@ Future<MiddleOfDay> middleOfDayExport(
       ? null
       : _getSeasonAntiphon(celebrationContext);
   if (seasonAntiphon != null) {
-    List<PsalmEntry> prependSeason(List<PsalmEntry> psalms) {
+    List<PsalmEntry> appendSeason(List<PsalmEntry> psalms) {
       return psalms.map((entry) {
         return PsalmEntry(
           psalm: entry.psalm,
-          antiphon: [seasonAntiphon, ...?entry.antiphon],
+          antiphon: [...?entry.antiphon, seasonAntiphon],
           psalmData: entry.psalmData,
         );
       }).toList();
     }
 
     if (middleOfDayOffice.psalmody != null) {
-      middleOfDayOffice.psalmody = prependSeason(middleOfDayOffice.psalmody!);
+      middleOfDayOffice.psalmody = appendSeason(middleOfDayOffice.psalmody!);
     }
     if (middleOfDayOffice.psalmodyTierce != null) {
       middleOfDayOffice.psalmodyTierce =
-          prependSeason(middleOfDayOffice.psalmodyTierce!);
+          appendSeason(middleOfDayOffice.psalmodyTierce!);
     }
     if (middleOfDayOffice.psalmodySexte != null) {
       middleOfDayOffice.psalmodySexte =
-          prependSeason(middleOfDayOffice.psalmodySexte!);
+          appendSeason(middleOfDayOffice.psalmodySexte!);
     }
     if (middleOfDayOffice.psalmodyNone != null) {
       middleOfDayOffice.psalmodyNone =
-          prependSeason(middleOfDayOffice.psalmodyNone!);
+          appendSeason(middleOfDayOffice.psalmodyNone!);
     }
   }
 

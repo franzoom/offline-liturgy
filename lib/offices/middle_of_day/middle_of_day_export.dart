@@ -300,7 +300,9 @@ String? _getSeasonAntiphon(CelebrationContext context) {
   }
   if (lt == 'lent') return middleOfDayAntiphons['lent'];
   if (lt == 'holyweek') return middleOfDayAntiphons['passion'];
-  if (lt == 'easter') return middleOfDayAntiphons['easter'];
+  if (lt == 'easter' || lt == 'paschaloctave' || lt == 'paschaltime') {
+    return middleOfDayAntiphons['easter'];
+  }
 
   // Ordinary time: no season antiphon
   return null;

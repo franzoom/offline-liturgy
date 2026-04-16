@@ -1,8 +1,5 @@
-/// Regex to check if a line already ends with "alléluia"
-final RegExp _alleluiaEndRegex = RegExp(
-  r'alléluia[\s\u00A0]?[.!,]?$',
-  caseSensitive: false,
-);
+/// Regex to check if "alléluia" appears anywhere in a line
+final RegExp _alleluiaRegex = RegExp(r'alléluia', caseSensitive: false);
 
 /// Regex to capture final punctuation . or ! (with optional preceding space)
 final RegExp _finalPunctuationRegex = RegExp(
@@ -18,8 +15,8 @@ String _paschalAntiphonLine(String line) {
 
   if (trimmed.isEmpty) return line;
 
-  // Already ends with "alléluia"
-  if (_alleluiaEndRegex.hasMatch(trimmed)) return line;
+  // Already contains "alléluia"
+  if (_alleluiaRegex.hasMatch(trimmed)) return line;
 
   // Line ends with a comma → append " alléluia,"
   if (_finalCommaRegex.hasMatch(trimmed)) {

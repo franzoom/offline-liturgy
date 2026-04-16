@@ -48,8 +48,11 @@ List<HymnEntry> _getHymnsForOffice(
 String _middleOfDayHymnSeason(String liturgicalTime) {
   switch (liturgicalTime) {
     case 'lent':
+    case 'holyweek':
       return 'lent';
     case 'easter':
+    case 'paschaloctave':
+    case 'paschaltime':
       return 'easter';
     default:
       return 'ordinary';

@@ -75,6 +75,15 @@ morning:
     - psalm: PSALM_98
       antiphon:
         - Le Seigneur est puissant, il domine les peuples, alléluia.
+  reading:
+    biblicalReference: Rm 8, 10-11
+    content: |-
+      Si le Christ est en vous, votre corps a beau être voué à la mort à cause du péché, l’Esprit est votre vie, parce que vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous.
+  responsory: |-
+    R/ Jésus s’est levé du tombeau.
+    * Alléluia, alléluia !
+    V/ Lui qui fut cloué pour nous sur le bois. *
+    Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
     common: En vérité, en vérité, je vous le dis, celui qui croit en moi a la vie éternelle. Alléluia.
   intercession:
@@ -119,6 +128,7 @@ middleOfDay:
     reading:
       biblicalReference: Cf Col 1, 12-14
       content: "Rendez grâce à Dieu le Père, qui vous a rendus capables d’avoir part, dans la lumière, à l’héritage du peuple saint. Il nous a arrachés au pouvoir des ténèbres, il nous a fait entrer dans le royaume de son Fils bien-aimé, par qui nous sommes rachetés et par qui nos péchés sont pardonnés."
+
 vespers:
   psalmody:
     - psalm: PSALM_131_1
@@ -128,6 +138,15 @@ vespers:
       antiphon:
         - "Le Royaume de David est accompli : béni soit Dieu, alléluia."
     - psalm: NT_10
+  reading:
+    biblicalReference: 1P 3, 18.22
+    content: |-
+      Le Christ est mort pour les péchés, une fois pour toutes ; lui, le juste, il est mort pour les coupables afin de vous introduire devant Dieu. Dans sa chair, il a été mis à mort ; dans l’esprit, il a été rendu à la vie. Il est monté au ciel, au-dessus des anges et de toutes les puissances invisibles, à la droite de Dieu.
+  responsory: |-
+    R/ Gloire à l’Agneau immolé !
+    * Alléluia, alléluia !
+    V/ Lui, qui était mort, et vivant, *
+    Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
     common: Je suis le pain vivant qui descend du ciel. Qui mangera ce pain vivra pour toujours. Alléluia.
   intercession:

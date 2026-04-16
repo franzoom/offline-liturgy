@@ -3,13 +3,52 @@ celebration:
   subtitle: null
   description: null
   color: red
+
 firstVespers:
   hymn:
     - esprit-qui-planes-sur-les-eaux
   psalmody:
-    - psalm: PSALM_112
-    - psalm: PSALM_146
-    - psalm: NT_11
+    - psalm: PSALM_121
+      antiphon:
+        - Quand arriva le jour de Pentecôte, alléluia, les Apôtres se trouvaient tous ensemble, alléluia.
+    - psalm: PSALM_129
+      antiphon:
+        - Ils virent comme un feu se partager en langues ; et l’Esprit se posa sur chacun d’eux, alléluia.
+    - psalm: NT_5
+      antiphon:
+        - L’Esprit qui procède du Père, alléluia, rendra témoignage de moi. Alléluia.
+  reading:
+    biblicalReference: Rm 8, 11
+    content: Si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous.
+  responsory: |-
+    R/ Quand viendra l’Esprit de vérité,
+    il vous enseignera toute chose.
+    * Alléluia, alléluia !
+    V/ Il vous guidera vers la vérité tout entière. *
+    Gloire au Père. R/ Quand viendra.
+  evangelicAntiphon:
+    common: Viens, Esprit Saint, remplis le cœur de tes fidèles, allume en eux le feu de ton amour, toi qui as uni dans la même foi toutes les langues de la terre, alléluia.
+  intercession:
+    content: |-
+      Prions notre Dieu qui rassemble les hommes dans le Christ, par le don de l’Esprit :
+
+      R/ Seigneur, envoie ton Esprit.
+
+      Seigneur du ciel et de la terre,
+      tu veux sauver toute créature par la Pâque de ton Christ,
+      – éclaire les hommes par la grâce de l’Esprit.
+
+      Toi qui réunis dans une même foi tes enfants dispersés :
+      – accorde aux croyants, par l’unique baptême dans l’Esprit, d’être une seule âme et un seul cœur.
+
+      Toi qui nous as donné de ton Esprit,
+      – fais-nous travailler en ce monde pour la justice et pour la paix.
+
+      Toi dont l’Esprit renouvelle toute chose,
+      – sois le recours des faibles, la guérison des malades, le salut pour tous.
+
+      Toi qui as ressuscité ton Fils d’entre les morts par la puissance de l’Esprit,
+      – donne à nos corps mortels la vie qui n’a pas de fin.
 
 invitatory:
   antiphon:
@@ -35,7 +74,11 @@ readings:
     - title: LECTURE DE LA LETTRE AUX ROMAINS
       subtitle: Ceux-là sont fils de Dieu, qui sont conduits par l’Esprit de Dieu
       ref: Rm 8, 5-27
-      content: "En effet, ceux qui se conforment à la chair tendent vers ce qui est charnel ; ceux qui se conforment à l’Esprit tendent vers ce qui est spirituel ; et la chair tend vers la mort, mais l’Esprit tend vers la vie et la paix. Car la tendance de la chair est ennemie de Dieu, elle ne se soumet pas à la loi de Dieu, elle n’en est même pas capable. Ceux qui sont sous l’emprise de la chair ne peuvent pas plaire à Dieu. Or, vous, vous n’êtes pas sous l’emprise de la chair, mais sous celle de l’Esprit, puisque l’Esprit de Dieu habite en vous. Celui qui n’a pas l’Esprit du Christ ne lui appartient pas. Mais si le Christ est en vous, le corps, il est vrai, reste marqué par la mort à cause du péché, mais l’Esprit vous fait vivre, puisque vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus, le Christ, d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous. Ainsi donc, frères, nous avons une dette, mais elle n’est pas envers la chair pour devoir vivre selon la chair. Car si vous vivez selon la chair, vous allez mourir ; mais si, par l’Esprit, vous tuez les agissements de l’homme pécheur, vous vivrez. En effet, tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu. Vous n’avez pas reçu un esprit qui fait de vous des esclaves et vous ramène à la peur ; mais vous avez reçu un Esprit qui fait de vous des fils ; et c’est en lui que nous crions « Abba ! », c’est-à-dire : Père ! C’est donc l’Esprit Saint lui-même qui atteste à notre esprit que nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers : héritiers de Dieu, héritiers avec le Christ, si du moins nous souffrons avec lui pour être avec lui dans la gloire. J’estime, en effet, qu’il n’y a pas de commune mesure entre les souffrances du temps présent et la gloire qui va être révélée pour nous. En effet, la création attend avec impatience la révélation des fils de Dieu. Car la création a été soumise au pouvoir du néant, non pas de son plein gré, mais à cause de celui qui l’a livrée à ce pouvoir. Pourtant, elle a gardé l’espérance d’être, elle aussi, libérée de l’esclavage de la dégradation, pour connaître la liberté de la gloire donnée aux enfants de Dieu. Nous le savons bien, la création tout entière gémit, elle passe par les douleurs d’un enfantement qui dure encore. Et elle n’est pas seule. Nous aussi, en nous-mêmes, nous gémissons ; nous avons commencé à recevoir l’Esprit Saint, mais nous attendons notre adoption et la rédemption de notre corps. Car nous avons été sauvés, mais c’est en espérance ; voir ce qu’on espère, ce n’est plus espérer : ce que l’on voit, comment peut-on l’espérer encore ? Mais nous, qui espérons ce que nous ne voyons pas, nous l’attendons avec persévérance. Bien plus, l’Esprit Saint vient au secours de notre faiblesse, car nous ne savons pas prier comme il faut. L’Esprit lui-même intercède pour nous par des gémissements inexprimables. Et Dieu, qui scrute les cœurs, connaît les intentions de l’Esprit puisque c’est selon Dieu que l’Esprit intercède pour les fidèles."
+      content: |-
+        En effet, ceux qui se conforment à la chair tendent vers ce qui est charnel ; ceux qui se conforment à l’Esprit tendent vers ce qui est spirituel ; et la chair tend vers la mort, mais l’Esprit tend vers la vie et la paix. Car la tendance de la chair est ennemie de Dieu, elle ne se soumet pas à la loi de Dieu, elle n’en est même pas capable. Ceux qui sont sous l’emprise de la chair ne peuvent pas plaire à Dieu. Or, vous, vous n’êtes pas sous l’emprise de la chair, mais sous celle de l’Esprit, puisque l’Esprit de Dieu habite en vous. Celui qui n’a pas l’Esprit du Christ ne lui appartient pas. Mais si le Christ est en vous, le corps, il est vrai, reste marqué par la mort à cause du péché, mais l’Esprit vous fait vivre, puisque vous êtes devenus des justes. Et si l’Esprit de celui qui a ressuscité Jésus d’entre les morts habite en vous, celui qui a ressuscité Jésus, le Christ, d’entre les morts donnera aussi la vie à vos corps mortels par son Esprit qui habite en vous. 
+        Ainsi donc, frères, nous avons une dette, mais elle n’est pas envers la chair pour devoir vivre selon la chair. Car si vous vivez selon la chair, vous allez mourir ; mais si, par l’Esprit, vous tuez les agissements de l’homme pécheur, vous vivrez. En effet, tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu. Vous n’avez pas reçu un esprit qui fait de vous des esclaves et vous ramène à la peur ; mais vous avez reçu un Esprit qui fait de vous des fils ; et c’est en lui que nous crions « Abba ! », c’est-à-dire : Père ! C’est donc l’Esprit Saint lui-même qui atteste à notre esprit que nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers : héritiers de Dieu, héritiers avec le Christ, si du moins nous souffrons avec lui pour être avec lui dans la gloire. 
+        J’estime, en effet, qu’il n’y a pas de commune mesure entre les souffrances du temps présent et la gloire qui va être révélée pour nous. En effet, la création attend avec impatience la révélation des fils de Dieu. Car la création a été soumise au pouvoir du néant, non pas de son plein gré, mais à cause de celui qui l’a livrée à ce pouvoir. Pourtant, elle a gardé l’espérance d’être, elle aussi, libérée de l’esclavage de la dégradation, pour connaître la liberté de la gloire donnée aux enfants de Dieu. Nous le savons bien, la création tout entière gémit, elle passe par les douleurs d’un enfantement qui dure encore. Et elle n’est pas seule. Nous aussi, en nous-mêmes, nous gémissons ; nous avons commencé à recevoir l’Esprit Saint, mais nous attendons notre adoption et la rédemption de notre corps. Car nous avons été sauvés, mais c’est en espérance ; voir ce qu’on espère, ce n’est plus espérer : ce que l’on voit, comment peut-on l’espérer encore ? Mais nous, qui espérons ce que nous ne voyons pas, nous l’attendons avec persévérance. 
+        Bien plus, l’Esprit Saint vient au secours de notre faiblesse, car nous ne savons pas prier comme il faut. L’Esprit lui-même intercède pour nous par des gémissements inexprimables. Et Dieu, qui scrute les cœurs, connaît les intentions de l’Esprit puisque c’est selon Dieu que l’Esprit intercède pour les fidèles.
       responsory: |-
         R/ L’Esprit de Dieu témoigne dans nos cœurs
         que nous sommes ses enfants.
@@ -91,7 +134,8 @@ morning:
     V/ Ils proclamaient les merveilles de Dieu. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Recevez l’Esprit Saint : tout homme à qui vous remettrez ses péchés, ils lui seront remis. Alléluia."
+    common: |-
+      Recevez l’Esprit Saint : tout homme à qui vous remettrez ses péchés, ils lui seront remis. Alléluia.
   intercession:
     content: |-
       Dans la confiance, prions le Seigneur qui a créé son Église par le don de l’Esprit :
@@ -116,11 +160,27 @@ middleOfDay:
     - psalm: PSALM_117-II
     - psalm: PSALM_117-III
   tierce:
-    antiphon: L’Esprit venu du trône de Dieu a pénétré le cœur des Apôtres, alléluia.
+    reading:
+      biblicalReference: 1 Co 12, 13
+      content: "Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit."
+    responsory: |-
+      V/ L’amour de Dieu est répandu dans nos cœurs, alléluia,
+      par l’Esprit Saint qui habite en nous, alléluia.
   sexte:
-    antiphon: Augmente en nous la foi, Seigneur, et que brûle en nos cœurs le feu de l’Esprit Saint, alléluia.
+    reading:
+      biblicalReference: Tt 3, 5b-7
+      content: "Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle."
+    responsory: |-
+      V/ L’Esprit Saint vous enseignera tout, alléluia,
+      il vous rappellera ce que je vous ai dit, alléluia.
   none:
-    antiphon: Ce n’est pas vous qui parlerez, l’Esprit de votre Père parlera en vous. Alléluia.
+    reading:
+      biblicalReference: 2 Co 1, 21-22
+      content: |-
+        Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs.
+    responsory: |-
+      V/ L’Esprit Saint vous enseignera tout, alléluia,
+      il vous rappellera ce que je vous ai dit, alléluia.
 
 vespers:
   hymn:
@@ -166,6 +226,7 @@ vespers:
 
       L’Esprit Saint nous a donné le goût de ta gloire :
       – que nos frères défunts connaissent l’éternelle joie.
+      
 mass:
 - massType: previous_evening_mass
   name: Messe de la veille au soir

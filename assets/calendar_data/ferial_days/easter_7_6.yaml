@@ -131,48 +131,8 @@ middleOfDay:
     reading:
       biblicalReference: 2 Co 5, 14-15
       content: "L’amour du Christ nous saisit quand nous pensons qu’un seul est mort pour tous, et qu’ainsi tous ont passé par la mort. Car le Christ est mort pour tous, afin que les vivants n’aient plus leur vie centrée sur eux-mêmes, mais sur lui qui est mort et ressuscité pour eux."
-vespers:
-  psalmody:
-    - psalm: PSALM_112
-      antiphon:
-        - Seigneur exalté dans les cieux, de la poussière tu relèves le faible, alléluia.
-    - psalm: PSALM_115
-      antiphon:
-        - Seigneur, tu as brisé mes chaînes, je t’offrirai le sacrifice de louange, alléluia.
-    - psalm: NT_5
-      antiphon:
-        - Par les souffrances de sa passion, le Fils de Dieu apprit l’obéissance. Pour tous ceux qui lui obéissent, il est la source du salut, alléluia.
-  reading:
-    biblicalReference: 1 P 2, 9-10
-    content: C’est vous qui êtes la race choisie, le sacerdoce royal, la nation sainte, le peuple qui appartient à Dieu ; vous êtes donc chargés d’annoncer les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Car autrefois vous n’étiez pas son peuple, mais aujourd’hui vous êtes le peuple de Dieu. Vous étiez privés d’amour, mais aujourd’hui Dieu vous a montré son amour.
-  responsory: |-
-    R/ Toi, l’amour qui fais le monde,
-    Esprit de Dieu pour notre terre,
-    Comment es-tu
-    Le souffle qui disperse ?
-    
-  evangelicAntiphon:
-    common: "Je ne vous laisserai pas orphelins : je m’en vais et je viens à vous, votre cœur se réjouira. Alléluia."
-  intercession:
-    content: |-
-      Bénissons le Christ, sur qui l’Esprit Saint est descendu comme une colombe :
 
-      R/ Exauce-nous, Seigneur de gloire.
 
-      Envoie, Seigneur Jésus, l’Esprit que tu as promis :
-      – qu’il rajeunisse ton Église.
-
-      Que toutes les nations célèbrent en toi l’Envoyé de Dieu,
-      – et qu’Israël reconnaisse que tu l’as visité.
-
-      Toi qui fais toutes choses nouvelles,
-      – éloigne de nous ce qui contriste l’Esprit Saint.
-
-      Toi qui remettras à ton Père l’univers enfin réconcilié,
-      – rassemble les hommes dans l’unité de l’Esprit.
-
-      Que ton Esprit habite en nous :
-      – qu’il vivifie nos âmes et ressuscite nos corps.
 mass:
 - massType: morning_mass
   name: Messe du matin

@@ -6,6 +6,18 @@ invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
 
+firstVespers:
+  psalmody:
+    - psalm: PSALM_109
+      antiphon:
+        - Après le sabbat, Marie de Magdala et l’autre Marie allèrent visiter le tombeau de Jésus, alléluia !
+    - psalm: PSALM_113A
+      antiphon:
+        - Venez, voyez l’endroit où l’on avait déposé le corps du Seigneur, alléluia !
+    - psalm: NT_12
+      antiphon:
+        - Ne craignez pas ! Dites à mes frères d’aller en Galilée ; c’est là qu’ils me verront. Alléluia !
+ 
 morning:
   psalmody:
     - psalm: PSALM_62

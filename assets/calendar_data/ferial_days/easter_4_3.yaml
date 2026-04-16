@@ -126,6 +126,7 @@ middleOfDay:
     reading:
       biblicalReference: Ep 4, 23-24
       content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
+
 vespers:
   psalmody:
     - psalm: PSALM_138_1
@@ -135,6 +136,15 @@ vespers:
       antiphon:
         - Je connais mes brebis, mes brebis me connaissent. Alléluia.
     - psalm: NT_6
+  reading:
+    biblicalReference: He 7, 24-27
+    content: |-
+      Jésus, puisqu’il demeure éternellement, possède le sacerdoce qui ne passe pas. C’est pourquoi il est en mesure de sauver d’une manière définitive ceux qui s’avancent vers Dieu grâce à lui, car il vit pour toujours, afin d’intercéder en leur faveur. C’était bien le grand prêtre qu’il nous fallait : saint, sans tache, sans aucune faute ; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple ; cela, il l’a fait une fois pour toutes en s’offrant lui-même.
+  responsory: |-
+    R/ Jésus, tu es prêtre pour l’éternité !
+    V/ Par la puissance de ta vie, R/
+    V/ Par ton inlassable intercession, R/
+    V/ Par l’offrande de toi-même, R/
   evangelicAntiphon:
     common: Ce n’est pas pour juger le monde que Dieu a envoyé son Fils, mais pour le sauver, alléluia.
   intercession:

@@ -134,7 +134,12 @@ middleOfDay:
       biblicalReference: 1 Co 5, 7-8
       content: |-
         Purifiez-vous des vieux ferments, et vous serez une pâte nouvelle, vous qui êtes comme le pain de la Pâque, celui qui n’a pas fermenté. Voici que le Christ, notre agneau pascal, a été immolé. Célébrons donc la Fête non pas avec de vieux ferments : la perversité et le vice ; mais avec du pain non fermenté : la droiture et la vérité.
+
 vespers:
+  hymn:
+    - esprit-de-dieu-tu-es-le-feu
+    - esprit-comme-une-sève
+    - veni-creator-spiritus
   psalmody:
     - psalm: PSALM_134_1
       antiphon:
@@ -147,7 +152,8 @@ vespers:
         - Toi seul es saint, toi seul es le Seigneur !
   reading:
     biblicalReference: Ga 5, 16.22-23a.25
-    content: "Vivez sous la conduite de l’Esprit de Dieu ; alors vous n’obéirez pas aux tendances égoïstes de la chair. Voici ce que produit l’Esprit : amour, joie, paix, patience, bonté, bienveillance, foi, humilité et maîtrise de soi. Puisque l’Esprit nous fait vivre, laissons-nous conduire par l’Esprit."
+    content: |-
+      Vivez sous la conduite de l’Esprit de Dieu ; alors vous n’obéirez pas aux tendances égoïstes de la chair. Voici ce que produit l’Esprit : amour, joie, paix, patience, bonté, bienveillance, foi, humilité et maîtrise de soi. Puisque l’Esprit nous fait vivre, laissons-nous conduire par l’Esprit.
   responsory: |-
     R/ Toi, la paix que rien ne trouble,
     Esprit le Dieu pour notre terre,

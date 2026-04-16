@@ -128,7 +128,12 @@ middleOfDay:
     reading:
       biblicalReference: Cf Col 1, 12-14
       content: "Rendez grâce à Dieu le Père, qui vous a rendus capables d’avoir part, dans la lumière, à l’héritage du peuple saint. Il nous a arrachés au pouvoir des ténèbres, il nous a fait entrer dans le royaume de son Fils bien-aimé, par qui nous sommes rachetés et par qui nos péchés sont pardonnés."
+
 vespers:
+  hymn:
+    - esprit-de-dieu-tu-es-le-feu
+    - esprit-comme-une-sève
+    - veni-creator-spiritus
   psalmody:
     - psalm: PSALM_131_1
       antiphon:
@@ -139,7 +144,8 @@ vespers:
     - psalm: NT_10
   reading:
     biblicalReference: 1 Co 6, 19-20
-    content: Ne le savez-vous pas ? Votre corps est le temple de l’Esprit Saint, qui est en vous et que vous avez reçu de Dieu ; vous ne vous appartenez plus à vous-mêmes, car le Seigneur vous a achetés très cher. Rendez gloire à Dieu dans votre corps.
+    content: |-
+      Ne le savez-vous pas ? Votre corps est le temple de l’Esprit Saint, qui est en vous et que vous avez reçu de Dieu ; vous ne vous appartenez plus à vous-mêmes, car le Seigneur vous a achetés très cher. Rendez gloire à Dieu dans votre corps.
   responsory: |-
     R/ Toi, la grâce des coupables,
     Esprit le Dieu pour notre terre,

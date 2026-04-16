@@ -128,6 +128,10 @@ middleOfDay:
       content: |-
         Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
 vespers:
+  hymn:
+    - esprit-de-dieu-tu-es-le-feu
+    - esprit-comme-une-sève
+    - veni-creator-spiritus
   psalmody:
     - psalm: PSALM_122
       antiphon:
@@ -140,7 +144,8 @@ vespers:
         - Béni sois-tu, notre Père, qui nous as bénis dans le Christ !
   reading:
     biblicalReference: Rm 8, 14-17
-    content: "Tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu. L’Esprit que vous avez reçu ne fait pas de vous des esclaves, des gens qui ont encore peur ; c’est un Esprit qui fait de vous des fils ; poussés par cet Esprit, nous crions vers le Père en l’appelant : « Abba ! » C’est donc l’Esprit Saint lui-même qui affirme à notre esprit que nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers ; héritiers de Dieu, héritiers avec le Christ, à condition de souffrir avec lui pour être avec lui dans la gloire."
+    content: |-
+      Tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu. L’Esprit que vous avez reçu ne fait pas de vous des esclaves, des gens qui ont encore peur ; c’est un Esprit qui fait de vous des fils ; poussés par cet Esprit, nous crions vers le Père en l’appelant : « Abba ! » C’est donc l’Esprit Saint lui-même qui affirme à notre esprit que nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers ; héritiers de Dieu, héritiers avec le Christ, à condition de souffrir avec lui pour être avec lui dans la gloire.
   responsory: |-
     R/ Toi, la source des eaux vives,
     Esprit le Dieu pour notre terre,

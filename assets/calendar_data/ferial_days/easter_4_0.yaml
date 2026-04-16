@@ -10,6 +10,51 @@ invitatory:
 oration:
     - Dieu éternel et tout puissant, guide-nous jusqu’au bonheur du ciel ; que le troupeau parvienne, malgré sa faiblesse, là où son Pasteur est entré victorieux. Lui qui règne.
 
+firstVespers:
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - Que règne dans nos cœurs la paix du Christ, alléluia.
+    - psalm: PSALM_129
+      antiphon:
+        - Toi qui fus immolé, tu nous as rachetés pour Dieu par le sang de ta croix, alléluia.
+    - psalm: NT_5
+      antiphon:
+        - Le Messie devait souffrir la passion pour entrer dans sa gloire, alléluia.
+  reading:
+    biblicalReference: 1P 2, 9-10
+    content: |-
+      C’est vous qui êtes la race choisie, le sacerdoce royal, la nation sainte, le peuple qui appartient à Dieu ; vous êtes donc chargés d’annoncer les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Car autrefois vous n’étiez pas son peuple, mais aujourd’hui vous êtes le peuple de Dieu. Vous étiez privés d’amour, mais aujourd’hui Dieu vous a montré son amour.
+  responsory: |-
+    R/ La ténèbres pour toi n’est pas ténèbre, alléluia,
+    * La nuit, comme le jour, est lumière, alléluia.
+    V/ Je gravis les cieux : tu es là ;
+    je descends chez les morts : te voici. * La nuit.
+    V/ Je reconnais devant toi le prodige,
+    l’être étonnant que je suis. R/
+  evangelicAntiphon:
+    common: "Je vous le dis : Je suis la porte. Si quelqu’un entre par moi, il sera sauvé, il trouvera de quoi se nourrir. Alléluia."
+  intercession:
+    content: |-
+      Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix :
+
+      R/ Souviens-toi de ton Église.
+
+      Jésus, pierre rejetée par les bâtisseurs et devenue la pierre d’angle,
+      – fais de nous les pierres vivantes de ton Église.
+
+      Jésus, témoin fidèle et vrai, premier-né d’entre les morts,
+      – donne à ton Église de témoigner hardiment au milieu du monde.
+
+      Jésus, Époux de l’Église née de ton côté transpercé,
+      – accorde aux religieux d’entrer dans ce mystère d’alliance.
+
+      Jésus, Premier et Dernier, qui étais mort et qui es vivant,
+      – fais grandir ta vie dans les baptisés.
+
+      Jésus, flambeau de la Cité de Dieu,
+      – répands ta clarté sur les défunts.
+
 readings:
   psalmody:
     - psalm: PSALM_23

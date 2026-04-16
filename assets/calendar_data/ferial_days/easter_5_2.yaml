@@ -134,6 +134,7 @@ middleOfDay:
       biblicalReference: Col 3, 1-2
       content: |-
         Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
+
 vespers:
   psalmody:
     - psalm: PSALM_19
@@ -145,6 +146,16 @@ vespers:
     - psalm: NT_9
       antiphon:
         - R/ Gloire à l’Agneau immolé !
+  reading:
+    biblicalReference: 1P 2, 4-5
+    content: |-
+      Approchez-vous du Seigneur : il est la pierre vivante, que les hommes ont éliminée mais que Dieu a choisie parce qu’il en connaît la valeur. Vous aussi, soyez des pierres vivantes qui servent à construire le Temple spirituel, et vous serez le sacerdoce saint, présentant des offrandes spirituelles que Dieu pourra accepter à cause du Christ Jésus.
+  responsory: |-
+    R/ Jésus disait aux disciples : La paix soit avec vous.
+    * Alléluia, alléluia.
+    V/ Avance ton doigt, mets ta main dans mon côté.
+    * Alléluia.
+    Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
     common: Si vous m’aimiez, vous seriez dans la joie, car je vais vers le Père. Alléluia.
   intercession:

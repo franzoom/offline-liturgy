@@ -10,6 +10,51 @@ invitatory:
 oration:
     - Garde à ton peuple sa joie, Seigneur, toi qui refais ses forces et sa jeunesse ; tu nous as rendu la dignité de fils de Dieu, affermis-nous dans l’espérance de la résurrection.
 
+firstVespers:
+  psalmody:
+    - psalm: PSALM_112
+      antiphon:
+        - Seigneur exalté dans les cieux, de la poussière tu relèves le faible, alléluia.
+    - psalm: PSALM_115
+      antiphon:
+        - Seigneur, tu as brisé mes chaînes, je t’offrirai le sacrifice de louange, alléluia.
+    - psalm: NT_5
+      antiphon:
+        - Par les souffrances de sa passion, le Fils de Dieu apprit l’obéissance. Pour tous ceux qui lui obéissent, il est la source du salut, alléluia.
+  reading:
+    biblicalReference: 1P 2, 9-10
+    content: |-
+      C’est vous qui êtes la race choisie, le sacerdoce royal, la nation sainte, le peuple qui appartient à Dieu ; vous êtes donc chargés d’annoncer les merveilles de celui qui vous a appelés des ténèbres à son admirable lumière. Car autrefois vous n’étiez pas son peuple, mais aujourd’hui vous êtes le peuple de Dieu. Vous étiez privés d’amour, mais aujourd’hui Dieu vous a montré son amour.
+  responsory: |-
+    R/ La ténèbres pour toi n’est pas ténèbre, alléluia,
+    * La nuit, comme le jour, est lumière, alléluia.
+    V/ Je gravis les cieux : tu es là ;
+    je descends chez les morts : te voici. * La nuit.
+    V/ Je reconnais devant toi le prodige,
+    l’être étonnant que je suis. R/
+  evangelicAntiphon:
+    common: Reste avec nous, Seigneur, car le soir vient, et la journée est déjà avancée, alléluia.
+  intercession:
+    content: |-
+      Prions le Christ, notre vie et notre résurrection :
+
+      R/ Fils du Dieu vivant, sauve-nous !
+
+      Nous te prions, Ô Christ, pour ta sainte Église catholique :
+      – sanctifie-la pour qu’elle annonce ton règne aux nations,
+
+      Nous t’implorons pour ceux qui subissent la maladie, le deuil, la servitude :
+      – guéris-les, fortifie-les, délivre-les.
+
+      Nous te prions pour ceux qui ne suivent plus tes chemins :
+      – qu’ils découvrent ton pardon et la joie d’une vie nouvelle.
+
+      Pour nous, pécheurs, nous t’implorons :
+      – accorde-nous de trouver en toi, qui n’as commis nulle faute, un juge miséricordieux.
+
+      Pour tout homme en ce monde, nous te prions,
+      et pour ceux qui nous ont précédés.
+
 readings:
   psalmody:
     - psalm: PSALM_144_1

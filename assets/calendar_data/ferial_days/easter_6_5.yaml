@@ -124,6 +124,7 @@ middleOfDay:
       biblicalReference: 1 Co 5, 7-8
       content: |-
         Purifiez-vous des vieux ferments, et vous serez une pâte nouvelle, vous qui êtes comme le pain de la Pâque, celui qui n’a pas fermenté. Voici que le Christ, notre agneau pascal, a été immolé. Célébrons donc la Fête non pas avec de vieux ferments : la perversité et le vice ; mais avec du pain non fermenté : la droiture et la vérité.
+
 vespers:
   psalmody:
     - psalm: PSALM_114
@@ -137,7 +138,8 @@ vespers:
         - Le Seigneur est ma force et mon chant, il me rend libre, alléluia.
   reading:
     biblicalReference: He 5, 8-10
-    content: Bien qu’il soit le Fils, le Christ a pourtant appris l’obéissance par les souffrances de sa passion ; et, ainsi conduit à sa perfection, il est devenu pour tous ceux qui lui obéissent la cause du salut éternel. Car Dieu l’a proclamé grand prêtre selon le sacerdoce de Melkisédek.
+    content: |-
+      Bien qu’il soit le Fils, le Christ a pourtant appris l’obéissance par les souffrances de sa passion ; et, ainsi conduit à sa perfection, il est devenu pour tous ceux qui lui obéissent la cause du salut éternel. Car Dieu l’a proclamé grand prêtre selon le sacerdoce de Melkisédek.
   responsory: |-
     R/ Toi, la paix que rien ne trouble,
     Esprit le Dieu pour notre terre,

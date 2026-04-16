@@ -128,7 +128,12 @@ middleOfDay:
       biblicalReference: Col 3, 1-2
       content: |-
         Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
+
 vespers:
+  hymn:
+    - esprit-de-dieu-tu-es-le-feu
+    - esprit-comme-une-sève
+    - veni-creator-spiritus
   psalmody:
     - psalm: PSALM_124
       antiphon:
@@ -141,7 +146,8 @@ vespers:
         - R/ Puissance, honneur et gloire à l’Agneau de Dieu !
   reading:
     biblicalReference: Rm 8, 26-27
-    content: "L’Esprit Saint vient au secours de notre faiblesse, car nous ne savons pas prier comme il faut. L’Esprit lui-même intervient pour nous par des cris inexprimables. Et Dieu, qui voit le fond des cœurs, connaît les intentions de l’Esprit : il sait qu’en intervenant pour les fidèles, l’Esprit veut ce que Dieu veut."
+    content: |-
+      L’Esprit Saint vient au secours de notre faiblesse, car nous ne savons pas prier comme il faut. L’Esprit lui-même intervient pour nous par des cris inexprimables. Et Dieu, qui voit le fond des cœurs, connaît les intentions de l’Esprit : il sait qu’en intervenant pour les fidèles, l’Esprit veut ce que Dieu veut.
   responsory: |-
     R/ Toi, la vie de toute chose,
     Esprit le Dieu pour notre terre,

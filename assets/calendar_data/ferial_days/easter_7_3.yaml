@@ -130,7 +130,12 @@ middleOfDay:
     reading:
       biblicalReference: Ep 4, 23-24
       content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
+
 vespers:
+  hymn:
+    - esprit-de-dieu-tu-es-le-feu
+    - esprit-comme-une-sève
+    - veni-creator-spiritus
   psalmody:
     - psalm: PSALM_125
       antiphon:
@@ -142,8 +147,9 @@ vespers:
       antiphon:
         - Tout vient de lui, tout est pour lui, tout est en lui ! Gloire à Dieu dans les siècles !
   reading:
-    biblicalReference: 1 Co 2, 9-10a
-    content: Ce que nous proclamons, c’est, comme dit l’Écriture, ce que personne n’avait vu de ses yeux ni entendu de ses oreilles, ce que le cœur de l’homme n’avait pas imaginé, ce qui avait été préparé pour ceux qui aiment Dieu. Et c’est à nous que Dieu, par l’Esprit, a révélé cette sagesse.
+    biblicalReference: 1Co 2, 9-10a
+    content: |-
+      Ce que nous proclamons, c’est, comme dit l’Écriture, ce que personne n’avait vu de ses yeux ni entendu de ses oreilles, ce que le cœur de l’homme n’avait pas imaginé, ce qui avait été préparé pour ceux qui aiment Dieu. Et c’est à nous que Dieu, par l’Esprit, a révélé cette sagesse.
   responsory: |-
     R/ Toi, le jour sans crépuscule,
     Esprit le Dieu pour notre terre,

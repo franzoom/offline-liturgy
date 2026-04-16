@@ -144,6 +144,7 @@ middleOfDay:
       biblicalReference: 1 Co 5, 7-8
       content: |-
         Purifiez-vous des vieux ferments, et vous serez une pâte nouvelle, vous qui êtes comme le pain de la Pâque, celui qui n’a pas fermenté. Voici que le Christ, notre agneau pascal, a été immolé. Célébrons donc la Fête non pas avec de vieux ferments : la perversité et le vice ; mais avec du pain non fermenté : la droiture et la vérité.
+
 vespers:
   psalmody:
     - psalm: PSALM_134_1
@@ -155,6 +156,16 @@ vespers:
     - psalm: NT_11
       antiphon:
         - Toi seul es saint, toi seul es le Seigneur !
+  reading:
+    biblicalReference: He 5, 8-10
+    content: |-
+      Bien qu’il soit le Fils, le Christ a pourtant appris l’obéissance par les souffrances de sa passion ; et, ainsi conduit à sa perfection, il est devenu pour tous ceux qui lui obéissent la cause du salut éternel. Car Dieu l’a proclamé grand prêtre selon le sacerdoce de Melkisédek.
+  responsory: |-
+    R/ Jésus disait aux disciples : La paix soit avec vous.
+    * Alléluia, alléluia.
+    V/ Avance ton doigt, mets ta main dans mon côté.
+    * Alléluia.
+    Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
     common: Le Crucifié s’est relevé d’entre les morts, il est notre salut, alléluia.
   intercession:

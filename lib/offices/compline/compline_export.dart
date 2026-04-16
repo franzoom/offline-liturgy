@@ -1,4 +1,5 @@
 import '../../classes/compline_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../assets/compline/compline_default.dart';
 import '../../assets/compline/compline_paschal_time.dart';
 import '../../assets/compline/compline_lent_time.dart';
@@ -9,6 +10,7 @@ import '../../assets/compline/compline_solemnity_advent_christmas.dart';
 import '../../assets/compline/compline_advent_time.dart';
 import '../../assets/compline/compline_christmas_time.dart';
 import '../../tools/resolve_office_content.dart';
+import '../../tools/paschal_antiphon.dart';
 import '../../assets/usual_texts.dart';
 
 /// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
@@ -47,6 +49,18 @@ Future<Compline> complineExport(
 
   // 4. Assign the evangelic canticle (Nunc Dimittis)
   compline.evangelicCanticle = nuncDimittis;
+
+  // 5. Apply paschal alléluia to evangelic antiphon
+  final lt = choice.liturgicalTime;
+  final ea = compline.evangelicAntiphon;
+  if (ea != null) {
+    compline.evangelicAntiphon = EvangelicAntiphon(
+      common: ea.common != null ? paschalAntiphon(ea.common!, lt) : null,
+      yearA: ea.yearA != null ? paschalAntiphon(ea.yearA!, lt) : null,
+      yearB: ea.yearB != null ? paschalAntiphon(ea.yearB!, lt) : null,
+      yearC: ea.yearC != null ? paschalAntiphon(ea.yearC!, lt) : null,
+    );
+  }
 
   return compline;
 }

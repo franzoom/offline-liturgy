@@ -39,9 +39,11 @@ String _paschalAntiphonLine(String line) {
   return '$trimmed, alléluia.';
 }
 
+const _paschalTimes = {'easter', 'paschaloctave', 'paschaltime', 'paschal'};
+
 /// Transforms an antiphon by adding "alléluia" during Easter time.
 ///
-/// If [liturgicalTime] is "easter" and a line doesn't already end
+/// If [liturgicalTime] is a paschal time and a line doesn't already end
 /// with "alléluia":
 /// - line ending with `,`  → appends ` alléluia,`
 /// - line ending with `.` or `!` → inserts `, alléluia` before punctuation
@@ -49,7 +51,7 @@ String _paschalAntiphonLine(String line) {
 ///
 /// Multi-line strings are processed line by line and rejoined.
 String paschalAntiphon(String antiphon, String liturgicalTime) {
-  if (liturgicalTime != 'easter') return antiphon;
+  if (!_paschalTimes.contains(liturgicalTime)) return antiphon;
 
   final lines = antiphon.split('\n');
   if (lines.length == 1) return _paschalAntiphonLine(antiphon);

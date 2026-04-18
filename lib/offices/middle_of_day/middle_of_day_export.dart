@@ -23,13 +23,11 @@ Future<MiddleOfDay> middleOfDayExport(
   // 2. CELEBRATION LAYER (Buffer): Proper + Common
   MiddleOfDay celebrationOverlay = MiddleOfDay();
 
-  // Load Common first
   if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
     celebrationOverlay =
         await loadMiddleOfDayHierarchicalCommon(celebrationContext);
   }
 
-  // Load Proper and overwrite the Common content in the buffer
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
     MiddleOfDay proper = await middleOfDayExtract(
         '$specialFilePath/${celebrationContext.celebrationCode}.yaml',
@@ -41,113 +39,31 @@ Future<MiddleOfDay> middleOfDayExport(
           celebrationContext.dataLoader);
     }
 
-    // Proper overwrites Common inside the buffer
     celebrationOverlay.overlayWith(proper);
   }
 
   // 3. FINAL MERGING
   if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 6) {
-    // Solemnities and Feasts: Full replacement
     middleOfDayOffice.overlayWith(celebrationOverlay);
   } else {
-    // Memorials (> 6): Selective overlay
     middleOfDayOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 3b. PER-HOUR PSALMODY: For solemnities (precedence <= 4), build separate
-  // psalmody lists for tierce, sexte and none with their respective antiphons.
+  // 3b. PER-HOUR PSALMODY
   if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4) {
-    final isSunday = celebrationContext.date.weekday == DateTime.sunday;
-    // When the ferial day IS the celebration (same code), its YAML already
-    // defines the proper psalms for the hours. We apply per-hour antiphons
-    // (typically from a common) to those psalms.
-    // This covers the Paschal Octave, Easter Sundays, Christmas octave, etc.
-    final isFerialTheCelebration =
-        celebrationContext.celebrationCode == celebrationContext.ferialCode;
-    // Paschal Octave weekdays always use the octave day's own psalms,
-    // never the gradual psalms, regardless of any overlay celebration.
-    final isPaschalOctave =
-        (celebrationContext.liturgicalTime ?? '') == 'paschaloctave';
-
-
-
-    if (isFerialTheCelebration || (isPaschalOctave && !isSunday)) {
-      // Ferial-as-celebration or Paschal Octave weekday: use the YAML psalms
-      // with per-hour antiphons.
-      final basePsalms = middleOfDayOffice.psalmody ?? [];
-      final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
-      final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
-      final noneAntiphon = middleOfDayOffice.none?.antiphon;
-
-      if (basePsalms.isNotEmpty) {
-        middleOfDayOffice.psalmodyTierce = basePsalms
-            .map((e) => PsalmEntry(
-                  psalm: e.psalm,
-                  antiphon:
-                      tierceAntiphon != null ? [tierceAntiphon] : e.antiphon,
-                ))
-            .toList();
-        middleOfDayOffice.psalmodySexte = basePsalms
-            .map((e) => PsalmEntry(
-                  psalm: e.psalm,
-                  antiphon:
-                      sexteAntiphon != null ? [sexteAntiphon] : e.antiphon,
-                ))
-            .toList();
-        middleOfDayOffice.psalmodyNone = basePsalms
-            .map((e) => PsalmEntry(
-                  psalm: e.psalm,
-                  antiphon: noneAntiphon != null ? [noneAntiphon] : e.antiphon,
-                ))
-            .toList();
-      }
-    } else if (isSunday) {
-      // External solemnity on a Sunday: use sunday1PsalmsForMiddleOfDay for
-      // all three hours, keeping the antiphons already defined in the merged
-      // psalmody.
-      final existingAntiphons =
-          middleOfDayOffice.psalmody?.map((e) => e.antiphon).toList() ?? [];
-      middleOfDayOffice.psalmody = List.generate(
-        sunday1PsalmsForMiddleOfDay.length,
-        (i) => PsalmEntry(
-          psalm: sunday1PsalmsForMiddleOfDay[i],
-          antiphon: i < existingAntiphons.length ? existingAntiphons[i] : null,
-        ),
-      );
-    } else {
-      // Weekday solemnity: use gradual psalms (different per hour).
-      // If the celebration has proper antiphons for each hour, use those instead.
-      // Each entry in gradualPsalms is [psalmCode, antiphon].
-      final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
-      final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
-      final noneAntiphon = middleOfDayOffice.none?.antiphon;
-
-      middleOfDayOffice.psalmodyTierce = gradualPsalms['tierce']!
-          .map((e) => PsalmEntry(
-                psalm: e[0],
-                antiphon: tierceAntiphon != null ? [tierceAntiphon] : [e[1]],
-              ))
-          .toList();
-      middleOfDayOffice.psalmodySexte = gradualPsalms['sexte']!
-          .map((e) => PsalmEntry(
-                psalm: e[0],
-                antiphon: sexteAntiphon != null ? [sexteAntiphon] : [e[1]],
-              ))
-          .toList();
-      middleOfDayOffice.psalmodyNone = gradualPsalms['none']!
-          .map((e) => PsalmEntry(
-                psalm: e[0],
-                antiphon: noneAntiphon != null ? [noneAntiphon] : [e[1]],
-              ))
-          .toList();
-    }
+    _buildPerHourPsalmody(
+      middleOfDayOffice,
+      isFerialTheCelebration:
+          celebrationContext.celebrationCode == celebrationContext.ferialCode,
+      isPaschalOctave:
+          (celebrationContext.liturgicalTime ?? '') == 'paschaloctave',
+      isSunday: celebrationContext.date.weekday == DateTime.sunday,
+    );
   }
 
-  // 3c. PER-HOUR ANTIPHONS: For non-solemnity cases, apply per-hour antiphons
-  // (tierce/sexte/none.antiphon) when they exist. They override psalmody antiphons.
-  // Only applied when step 3b has not already built per-hour lists.
+  // 3c. PER-HOUR ANTIPHONS for non-solemnity cases
   if (middleOfDayOffice.psalmody != null) {
     final basePsalms = middleOfDayOffice.psalmody!;
     final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
@@ -155,24 +71,19 @@ Future<MiddleOfDay> middleOfDayExport(
     final noneAntiphon = middleOfDayOffice.none?.antiphon;
 
     if (tierceAntiphon != null && middleOfDayOffice.psalmodyTierce == null) {
-      middleOfDayOffice.psalmodyTierce = basePsalms
-          .map((e) => PsalmEntry(psalm: e.psalm, antiphon: [tierceAntiphon]))
-          .toList();
+      middleOfDayOffice.psalmodyTierce =
+          _withAntiphon(basePsalms, tierceAntiphon);
     }
     if (sexteAntiphon != null && middleOfDayOffice.psalmodySexte == null) {
-      middleOfDayOffice.psalmodySexte = basePsalms
-          .map((e) => PsalmEntry(psalm: e.psalm, antiphon: [sexteAntiphon]))
-          .toList();
+      middleOfDayOffice.psalmodySexte =
+          _withAntiphon(basePsalms, sexteAntiphon);
     }
     if (noneAntiphon != null && middleOfDayOffice.psalmodyNone == null) {
-      middleOfDayOffice.psalmodyNone = basePsalms
-          .map((e) => PsalmEntry(psalm: e.psalm, antiphon: [noneAntiphon]))
-          .toList();
+      middleOfDayOffice.psalmodyNone = _withAntiphon(basePsalms, noneAntiphon);
     }
   }
 
-  // 4. PROPAGATE ANTIPHON: If only the first psalm has an antiphon,
-  //    repeat it for the other psalms (before appending season antiphon).
+  // 4. PROPAGATE ANTIPHON: repeat first antiphon to all psalms if others lack one
   if (middleOfDayOffice.psalmody != null &&
       middleOfDayOffice.psalmody!.length > 1) {
     final firstAntiphon = middleOfDayOffice.psalmody!.first.antiphon;
@@ -196,8 +107,7 @@ Future<MiddleOfDay> middleOfDayExport(
     }
   }
 
-  // 5. PREPEND LITURGICAL TIME ANTIPHON to each psalm's antiphon list
-  // For solemnities during Lent, the proper hour antiphons take precedence.
+  // 5. APPEND SEASON ANTIPHON
   final bool isSolemnity = celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4;
   final bool isLentOrHolyWeek =
@@ -206,16 +116,15 @@ Future<MiddleOfDay> middleOfDayExport(
   final seasonAntiphon = (isSolemnity && isLentOrHolyWeek)
       ? null
       : _getSeasonAntiphon(celebrationContext);
+
   if (seasonAntiphon != null) {
-    List<PsalmEntry> appendSeason(List<PsalmEntry> psalms) {
-      return psalms.map((entry) {
-        return PsalmEntry(
-          psalm: entry.psalm,
-          antiphon: [...?entry.antiphon, seasonAntiphon],
-          psalmData: entry.psalmData,
-        );
-      }).toList();
-    }
+    List<PsalmEntry> appendSeason(List<PsalmEntry> psalms) => psalms
+        .map((e) => PsalmEntry(
+              psalm: e.psalm,
+              antiphon: [...?e.antiphon, seasonAntiphon],
+              psalmData: e.psalmData,
+            ))
+        .toList();
 
     if (middleOfDayOffice.psalmody != null) {
       middleOfDayOffice.psalmody = appendSeason(middleOfDayOffice.psalmody!);
@@ -234,7 +143,7 @@ Future<MiddleOfDay> middleOfDayExport(
     }
   }
 
-  // 6. HYDRATION: Resolve full texts (psalmody + hymns for each hour)
+  // 6. HYDRATION
   await resolveOfficeContent(
     psalmody: [
       ...?middleOfDayOffice.psalmody,
@@ -251,7 +160,7 @@ Future<MiddleOfDay> middleOfDayExport(
     imprecatory: celebrationContext.showImprecatoryVerses,
   );
 
-  // 7. Apply paschal alléluia to psalm antiphons and responsories
+  // 7. PASCHAL ALLÉLUIA
   final lt = celebrationContext.liturgicalTime ?? '';
 
   void applyPaschalToList(List<PsalmEntry>? psalms) {
@@ -284,26 +193,73 @@ Future<MiddleOfDay> middleOfDayExport(
   return middleOfDayOffice;
 }
 
-/// Returns the season antiphon for the middle of day office, or null
-/// if the liturgical time has no specific antiphon (ordinary time).
+// --- HELPERS ---
+
+/// Builds per-hour psalmody lists on [office] for solemnities (step 3b).
+void _buildPerHourPsalmody(
+  MiddleOfDay office, {
+  required bool isFerialTheCelebration,
+  required bool isPaschalOctave,
+  required bool isSunday,
+}) {
+  final tierceAntiphon = office.tierce?.antiphon;
+  final sexteAntiphon = office.sexte?.antiphon;
+  final noneAntiphon = office.none?.antiphon;
+
+  if (isFerialTheCelebration || (isPaschalOctave && !isSunday)) {
+    final basePsalms = office.psalmody ?? [];
+    if (basePsalms.isEmpty) return;
+    office.psalmodyTierce = _withAntiphon(basePsalms, tierceAntiphon);
+    office.psalmodySexte = _withAntiphon(basePsalms, sexteAntiphon);
+    office.psalmodyNone = _withAntiphon(basePsalms, noneAntiphon);
+  } else if (isSunday) {
+    final existingAntiphons =
+        office.psalmody?.map((e) => e.antiphon).toList() ?? [];
+    office.psalmody = List.generate(
+      sunday1PsalmsForMiddleOfDay.length,
+      (i) => PsalmEntry(
+        psalm: sunday1PsalmsForMiddleOfDay[i],
+        antiphon: i < existingAntiphons.length ? existingAntiphons[i] : null,
+      ),
+    );
+  } else {
+    office.psalmodyTierce = _fromGradual(gradualPsalms['tierce']!, tierceAntiphon);
+    office.psalmodySexte = _fromGradual(gradualPsalms['sexte']!, sexteAntiphon);
+    office.psalmodyNone = _fromGradual(gradualPsalms['none']!, noneAntiphon);
+  }
+}
+
+/// Applies [antiphon] to all entries. Falls back to the entry's own antiphon if null.
+List<PsalmEntry> _withAntiphon(List<PsalmEntry> psalms, String? antiphon) =>
+    psalms
+        .map((e) => PsalmEntry(
+              psalm: e.psalm,
+              antiphon: antiphon != null ? [antiphon] : e.antiphon,
+            ))
+        .toList();
+
+/// Builds PsalmEntry list from gradual psalm data, overriding antiphon if provided.
+List<PsalmEntry> _fromGradual(List<List<String>> gradual, String? antiphon) =>
+    gradual
+        .map((e) => PsalmEntry(
+              psalm: e[0],
+              antiphon: antiphon != null ? [antiphon] : [e[1]],
+            ))
+        .toList();
+
+/// Returns the season antiphon for the middle of day office, or null for ordinary time.
 String? _getSeasonAntiphon(CelebrationContext context) {
   final lt = context.liturgicalTime ?? '';
   final ferialCode = context.ferialCode ?? '';
 
-  if (lt == 'advent') return middleOfDayAntiphons['advent'];
-  if (lt == 'christmas') {
-    // After Epiphany: ferialCode like christmas_2_x
-    if (ferialCode.startsWith('christmas_2_')) {
-      return middleOfDayAntiphons['after_epiphany'];
-    }
-    return middleOfDayAntiphons['christmas'];
-  }
-  if (lt == 'lent') return middleOfDayAntiphons['lent'];
-  if (lt == 'holyweek') return middleOfDayAntiphons['passion'];
-  if (lt == 'easter' || lt == 'paschaloctave' || lt == 'paschaltime') {
-    return middleOfDayAntiphons['easter'];
-  }
-
-  // Ordinary time: no season antiphon
-  return null;
+  return switch (lt) {
+    'advent' => middleOfDayAntiphons['advent'],
+    'christmas' when ferialCode.startsWith('christmas_2_') =>
+      middleOfDayAntiphons['after_epiphany'],
+    'christmas'                                            => middleOfDayAntiphons['christmas'],
+    'lent'                                                 => middleOfDayAntiphons['lent'],
+    'holyweek'                                             => middleOfDayAntiphons['passion'],
+    'easter' || 'paschaloctave' || 'paschaltime'           => middleOfDayAntiphons['easter'],
+    _                                                      => null,
+  };
 }

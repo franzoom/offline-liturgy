@@ -22,28 +22,20 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
   final hasFeastOrSolemnity =
       celebrations.any((c) => (c.precedence ?? 13) <= 6);
 
-  final Map<String, CelebrationContext> possibleMiddleOfDays = {};
+  final c = hasFeastOrSolemnity
+      ? celebrations.where((c) => (c.precedence ?? 13) <= 6).first
+      : celebrations.firstWhere(
+          (c) => ferialDayCheck(c.celebrationCode),
+          orElse: () => celebrations.first,
+        );
 
-  if (hasFeastOrSolemnity) {
-    // Use the feast/solemnity celebration (highest priority, i.e. lowest precedence)
-    final c = celebrations.where((c) => (c.precedence ?? 13) <= 6).first;
-    possibleMiddleOfDays[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
+  final result = {
+    c.celebrationTitle ?? c.celebrationCode: c.copyWith(
       celebrationType: 'middleOfDay',
       officeDescription: c.celebrationGlobalName,
-    );
-  } else {
-    // Use the ferial office
-    final c = celebrations.firstWhere(
-      (c) => ferialDayCheck(c.celebrationCode),
-      orElse: () => celebrations.first,
-    );
-    possibleMiddleOfDays[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
-      celebrationType: 'middleOfDay',
-      officeDescription: c.celebrationGlobalName,
-    );
-  }
+    ),
+  };
 
-  print(
-      '+-+-+-+-+-+-+-+-+-+ MIDDLE OF DAY DETECTION - Possible Offices: $possibleMiddleOfDays');
-  return possibleMiddleOfDays;
+  print('+-+-+-+-+-+-+-+-+-+ MIDDLE OF DAY DETECTION - Possible Offices: $result');
+  return result;
 }

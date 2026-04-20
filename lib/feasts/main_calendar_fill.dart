@@ -317,22 +317,7 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
     date = date.shift(1);
     paschalTimeDays++;
   }
-/*
-  // Sunday of Mercy (2d Sunday of Paschal Time)
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'paschaltime',
-    breviaryWeek: 2,
-    defaultCelebrationTitle: 'easter_2_0',
-    precedence: 2,
-    liturgicalColor: 'white',
-    feastList: {},
-  );
-  calendar.addDayContent(date, dayContent);
-  date = date.shift(1);
-  paschalTimeDays++;
-*/
-  // Paschal days after the 2d Sunday till Ascension
+
   while (date.isBefore(liturgicalMainFeasts['ASCENSION']!)) {
     precedence = date.isSunday ? 2 : 13;
     DayContent dayContent = DayContent(

@@ -28,7 +28,7 @@ Future<Masses> ferialMassResolution(CelebrationContext context) async {
   if (code.startsWith('advent')) return _resolveAdvent(context);
   if (code.startsWith('christmas')) return _resolveChristmas(context);
   if (code.startsWith('lent')) return _resolveLent(context);
-  if (code.startsWith('easter')) return _resolveEaster(context);
+  if (code.startsWith('paschal')) return _resolveEaster(context);
 
   // Fallback for codes not matching standard seasons
   return await massExtract('$ferialFilePath/$code.yaml', context.dataLoader);

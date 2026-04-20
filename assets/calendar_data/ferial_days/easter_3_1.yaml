@@ -41,7 +41,7 @@ readings:
         Ils sont passés de la mort à la vie,
         sur leur visage resplendit la gloire de Pâques.
   patristicReading:
-    - title: COMMENTAIRE DE SAINT BÈDE LE VÉNÉRABLE SUR LA I^ère LETTRE DE SAINT PIERRE
+    - title: COMMENTAIRE DE SAINT BÈDE LE VÉNÉRABLE SUR LA 1^ère LETTRE DE SAINT PIERRE
       subtitle: « Race élue, sacerdoce royal »
       content: |-
         %Vous êtes une race élue, un sacerdoce royal%. Ce témoignage de louange fut donné autrefois par Moïse à l’ancien peuple de Dieu. Maintenant, c’est aux nations chrétiennes que l’apôtre Pierre l’adresse à juste titre, puisqu’elles ont cru au Christ qui, comme une pierre angulaire, a rassemblé les nations dans le salut destiné d’abord à Israël. Ces nations, ils les appelle %race élue% à cause de leur foi, et pour distinguer d’elles ceux qui, en rejetant la pierre d’angle, furent eux-mêmes rejetés. Il les nomme %sacerdoce royal% parce qu’elles sont unies au corps de celui qui est le souverain roi et le véritable prêtre. Comme roi, il attribue aux siens son royaume et, comme prêtre, il purifie leurs péchés par le sacrifice de son sang. Ils sont appelés %sacerdoce royal% pour qu’ils se souviennent d’espérer le royaume éternel et d’offrit sans cesse à Dieu le sacrifice d’une vie sans tache. 
@@ -98,23 +98,38 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_118_12
+      antiphon:
+        - Alléluia, alléluia alléluia.
     - psalm: PSALM_70_1
+      antiphon:
+        - Alléluia, alléluia alléluia.
     - psalm: PSALM_70_2
+      antiphon:
+        - Alléluia, alléluia alléluia.
 
   tierce:
     reading:
       biblicalReference: Cf. Ap 1, 17c-18
       content: |-
         Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »
+    responsory: |-
+      Le Seigneur est vraiment ressuscité, alléluia :
+      il est apparu à Simon, alléluia.
   sexte:
     reading:
       biblicalReference: Col 2, 9.10a.12
       content: "Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts."
+    responsory: |-
+      Les disciples furent remplis de joie, alléluia,
+      à la vue du Seigneru, alléluia.
   none:
     reading:
       biblicalReference: 2 Tm 2, 8.11
       content: |-
         Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
+    responsory: |-
+      Reste avec nous, Seigneur, alléluia,
+      le soir approche, alléluia.
 vespers:
   psalmody:
     - psalm: PSALM_122

@@ -99,8 +99,14 @@ morning:
 middleOfDay:
   psalmody:
     - psalm: PSALM_8
+      antiphon:
+        - Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !
     - psalm: PSALM_18A
+      antiphon:
+        - Livré pour nos fautes, Christ est ressuscité pour nous justifier, aléluia !
     - psalm: PSALM_18B
+      antiphon:
+        - Ressusités avec le Christ, recherchez les choses d’en haut, alléluia !
 
   tierce:
     reading:

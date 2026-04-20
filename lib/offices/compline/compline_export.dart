@@ -97,7 +97,7 @@ Compline? getComplineText(ComplineDefinition def) {
     // Normal Days (Ferial) and Sundays
     _ => switch (time) {
         'paschaloctave' || 'paschaltime' => paschalTimeCompline[day],
-        'lent' => lentTimeCompline[day],
+        'holyweek' || 'lent' => lentTimeCompline[day],
         'advent' => adventTimeCompline[day],
         'christmas' || 'christmasoctave' => christmasTimeCompline[day],
         _ => base,

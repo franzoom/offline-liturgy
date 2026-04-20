@@ -122,8 +122,11 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     final dayOfCompline = _detectDayOfWeek(date, celebrationType);
 
     final description = switch (celebrationType) {
-      _ when ferialDayCheck(c.celebrationCode) =>
-        'Complies du ${dayOfWeekLabels[todayName]} ${liturgicalTimeLabelsDative[liturgicalTime]}',
+      _ when ferialDayCheck(c.celebrationCode) => [
+          'Complies du ${dayOfWeekLabels[todayName]}',
+          if (liturgicalTimeLabelsDative[liturgicalTime] != null)
+            liturgicalTimeLabelsDative[liturgicalTime]!,
+        ].join(' '),
       'solemnity' => 'Complies de ${c.celebrationGlobalName}',
       _ => 'Complies du ${dayOfWeekLabels[todayName]}',
     };

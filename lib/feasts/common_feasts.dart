@@ -80,9 +80,9 @@ const Map<String, FeastDates> commonFeastsList = {
   'bernardine_of_siena_priest': F(5, 20, 12), //OK
   'christopher_magallanes_priest_and_companions_martyrs': F(5, 21, 12), //OK
   'rita_of_cascia_religious': F(5, 22, 12), //OK
-  'bede_the_venerable_priest': F(5, 25, 12),
-  'gregory_vii_pope': F(5, 25, 12),
-  'mary_magdalene_de_pazzi_virgin': F(5, 25, 12),
+  'bede_the_venerable_priest': F(5, 25, 12), //OK
+  'gregory_vii_pope': F(5, 25, 12), //OK
+  'mary_magdalene_de_pazzi_virgin': F(5, 25, 12), //OK
   'philip_neri_priest': F(5, 26, 10),
   'augustine_of_canterbury_bishop': F(5, 27, 12),
   'paul_vi_pope': F(5, 29, 12),

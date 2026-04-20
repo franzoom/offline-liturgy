@@ -223,7 +223,8 @@ void _buildPerHourPsalmody(
       ),
     );
   } else {
-    office.psalmodyTierce = _fromGradual(gradualPsalms['tierce']!, tierceAntiphon);
+    office.psalmodyTierce =
+        _fromGradual(gradualPsalms['tierce']!, tierceAntiphon);
     office.psalmodySexte = _fromGradual(gradualPsalms['sexte']!, sexteAntiphon);
     office.psalmodyNone = _fromGradual(gradualPsalms['none']!, noneAntiphon);
   }
@@ -256,10 +257,10 @@ String? _getSeasonAntiphon(CelebrationContext context) {
     'advent' => middleOfDayAntiphons['advent'],
     'christmas' when ferialCode.startsWith('christmas_2_') =>
       middleOfDayAntiphons['after_epiphany'],
-    'christmas'                                            => middleOfDayAntiphons['christmas'],
-    'lent'                                                 => middleOfDayAntiphons['lent'],
-    'holyweek'                                             => middleOfDayAntiphons['passion'],
-    'easter' || 'paschaloctave' || 'paschaltime'           => middleOfDayAntiphons['easter'],
-    _                                                      => null,
+    'christmas' => middleOfDayAntiphons['christmas'],
+    'lent' => middleOfDayAntiphons['lent'],
+    'holyweek' => middleOfDayAntiphons['passion'],
+    'paschaloctave' || 'paschaltime' => middleOfDayAntiphons['paschal'],
+    _ => null,
   };
 }

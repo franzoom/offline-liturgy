@@ -12,16 +12,16 @@ Future<MiddleOfDay> ferialMiddleOfDayResolution(
   final code = context.ferialCode ?? context.celebrationCode;
   final liturgicalTime = context.liturgicalTime ?? '';
 
-  final season = const ['ot', 'advent', 'christmas', 'lent', 'easter']
+  final season = const ['ot', 'advent', 'christmas', 'lent', 'paschal']
       .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
   final result = await switch (season) {
-    'ot'        => _resolveOrdinaryTime(context),
-    'advent'    => _resolveAdvent(context),
+    'ot' => _resolveOrdinaryTime(context),
+    'advent' => _resolveAdvent(context),
     'christmas' => _resolveChristmas(context),
-    'lent'      => _resolveLent(context),
-    'easter'    => _resolveEaster(context),
-    _           => middleOfDayExtract('$ferialFilePath/$code.yaml', context.dataLoader),
+    'lent' => _resolveLent(context),
+    'paschal' => _resolveEaster(context),
+    _ => middleOfDayExtract('$ferialFilePath/$code.yaml', context.dataLoader),
   };
 
   // Assign hymns for each hour based on liturgical time
@@ -86,20 +86,29 @@ Future<MiddleOfDay> _resolveAdvent(CelebrationContext context) async {
 Future<MiddleOfDay> _resolveChristmas(CelebrationContext context) =>
     switch ((context.date.month == 12, context.ferialCode!.contains('-'))) {
       (true, _) => _resolveChristmasDec(context.date, context.dataLoader),
-      (_, true) => _resolveChristmasBeforeEpiphany(context.ferialCode!, context.dataLoader),
-      _         => middleOfDayExtract('$ferialFilePath/christmas_2_${context.date.weekday}.yaml', context.dataLoader),
+      (_, true) => _resolveChristmasBeforeEpiphany(
+          context.ferialCode!, context.dataLoader),
+      _ => middleOfDayExtract(
+          '$ferialFilePath/christmas_2_${context.date.weekday}.yaml',
+          context.dataLoader),
     };
 
 Future<MiddleOfDay> _resolveChristmasDec(DateTime date, dataLoader) async {
-  final base = await middleOfDayExtract('$commonsFilePath/christmas.yaml', dataLoader);
-  final proper = await middleOfDayExtract('$specialFilePath/christmas_${date.day}.yaml', dataLoader);
+  final base =
+      await middleOfDayExtract('$commonsFilePath/christmas.yaml', dataLoader);
+  final proper = await middleOfDayExtract(
+      '$specialFilePath/christmas_${date.day}.yaml', dataLoader);
   return base..overlayWith(proper);
 }
 
-Future<MiddleOfDay> _resolveChristmasBeforeEpiphany(String code, dataLoader) async {
+Future<MiddleOfDay> _resolveChristmasBeforeEpiphany(
+    String code, dataLoader) async {
   final parts = code.split('-')[1].split('_');
-  final base = await middleOfDayExtract('$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
-  final proper = await middleOfDayExtract('$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml', dataLoader);
+  final base = await middleOfDayExtract(
+      '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
+  final proper = await middleOfDayExtract(
+      '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+      dataLoader);
   return base..overlayWith(proper);
 }
 

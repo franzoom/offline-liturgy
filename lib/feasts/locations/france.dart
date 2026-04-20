@@ -5,16 +5,16 @@ import 'europe.dart';
 const Map<String, FeastDates> franceFeastsList = {
   // --- JANUARY ---
   'france_genevieve_of_paris_virgin': F(1, 3, 12),
-  'france_remigius_of_reims_bishop': F(1, 15, 12),
+  'france_remigius_of_reims_bishop': F(1, 15, 12), //OK
 
   // --- FEBRUARY ---
   'our_lady_of_lourdes': F(2, 11, 10),
   'france_bernadette_soubirous_virgin': F(2, 18, 12),
 
   // --- MAY ---
-  'france_louise_de_marillac_religious': F(5, 9, 12),
-  'france_ivo_of_kermartin_priest': F(5, 19, 12),
-  'france_joan_of_arc_virgin': F(5, 30, 12),
+  'france_louise_de_marillac_religious': F(5, 9, 12), //OK
+  'france_ivo_of_kermartin_priest': F(5, 19, 12), //OK
+  'france_joan_of_arc_virgin': F(5, 30, 12), //OK
 
   // --- JUNE ---
   'france_pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs':

@@ -109,9 +109,9 @@ Future<List<CelebrationContext>> detectCelebrations(
     isFromRoot: true,
   ));
 
-  // Check if there's a high priority celebration (precedence <= 6)
+  // Check if there's a high priority celebration (feast or above: precedence <= 7)
   final bool hasHighPriority =
-      allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 6);
+      allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 7);
 
   // Sort: by precedence ascending, with special rule for ferial days (precedence 13)
   // Ferial days at precedence 13 should come before optional memorials (precedence 12)
@@ -244,7 +244,7 @@ Future<List<CelebrationContext>> detectCelebrations(
     final int precedence = celebration.precedence;
 
     // Determine isCelebrable based on precedence rules
-    final bool isCelebrable = hasHighPriority ? (precedence <= 6) : true;
+    final bool isCelebrable = hasHighPriority ? (precedence <= 7) : true;
 
     // Initialize with default values
     String celebrationLiturgicalColor = rootColor;

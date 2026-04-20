@@ -69,7 +69,7 @@ Calendar addLyonFeasts(Calendar calendar, int liturgicalYear,
       lyonFeastsList, liturgicalYear, liturgicalMainFeasts);
 
   calendar.addItemRelatedToFeast(
-      liturgicalMainFeasts['EASTER']!, 13, 4, 'lyon_our_lady_of_fourviere');
+      liturgicalMainFeasts['EASTER']!, 13, 7, 'lyon_our_lady_of_fourviere');
 
   return calendar;
 }

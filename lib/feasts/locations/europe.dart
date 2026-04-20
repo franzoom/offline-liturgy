@@ -4,14 +4,14 @@ import '../../classes/calendar_class.dart';
 const Map<String, FeastDates> europeFeastsList = {
   // --- FEBRUARY ---
   'europe_cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop':
-      F(2, 14, 4),
+      F(2, 14, 54),
 
   // --- APRIL ---
-  'europe_catherine_of_siena_virgin': F(4, 29, 4),
+  'europe_catherine_of_siena_virgin': F(4, 29, 5),
 
   // --- JULY ---
-  'europe_benedict_of_nursia_abbot': F(7, 11, 4),
-  'europe_bridget_of_sweden_religious': F(7, 23, 4),
+  'europe_benedict_of_nursia_abbot': F(7, 11, 5),
+  'europe_bridget_of_sweden_religious': F(7, 23, 5),
 
   // --- AUGUST ---
   'europe_teresa_benedicta_of_the_cross_stein_virgin': F(8, 9, 4),

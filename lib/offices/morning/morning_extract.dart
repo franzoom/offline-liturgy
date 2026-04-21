@@ -23,7 +23,12 @@ Future<Morning> morningExtract(
     final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
 
     // 3. Extract common elements from root level
-    final List<String> rootOration = List<String>.from(data['oration'] ?? []);
+    List<String> rootOration = [];
+    try {
+      rootOration = List<String>.from(data['oration'] ?? []);
+    } catch (e) {
+      print('⚠️ Could not parse oration in $relativePath: $e');
+    }
     final Map<String, dynamic>? rootAntiphon =
         parseEvangelicAntiphon(data['evangelicAntiphon']);
 

@@ -32,7 +32,11 @@ Future<Readings> readingsExtract(
       // If the specific section doesn't have an oration, look at the root level
       if ((readings.oration == null || readings.oration!.isEmpty) &&
           data['oration'] != null) {
-        readings.oration = List<String>.from(data['oration']);
+        try {
+          readings.oration = List<String>.from(data['oration']);
+        } catch (e) {
+          print('⚠️ Could not parse oration in $relativePath: $e');
+        }
       }
     } else {
       // Return empty instance if the 'readings' key is missing

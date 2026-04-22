@@ -2,7 +2,7 @@ celebration:
   title: Immaculée Conception
   commons:
     - virgin-mary
-  color: white
+  color: white 
 
 oration:
   - Seigneur, tu as préparé à ton Fils une demeure digne de lui par la conception immaculée de la Vierge ; puisque tu l’as préservée de tout péché par une grâce venant déjà de la mort de ton Fils, accorde-nous, à l’intercession de cette Mère très pure, de parvenir jusqu’à toi, purifiés, nous aussi, de tout mal.
@@ -23,7 +23,7 @@ firstVespers:
     content: Ceux qu’il connaissait par avance, Dieu les a aussi destinés à être l’image de son Fils. Ceux qu’il destinait à cette ressemblance, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes.
   responsory: |-
     R/ Avec toi, Marie, Mère du Sauveur,
-    * nous glorifions la puissance de Dieu.
+    * nous glorifions la puissance de Dieu.
     V/ J’exulte de joie dans le Seigneur,
     et mon esprit tressaille en mon Dieu. *
     V/ Il m’a vêtue des vêtements du salut
@@ -31,12 +31,7 @@ firstVespers:
     V/ Le Seigneur fera germer l’action de grâce
     devant toutes les nations. R/
   evangelicAntiphon:
-    common: |-
-      Le Seigneur a fait pour toi des merveilles : tous les âges te diront bienheureuse.
-
-invitatory:
-  - |-
-    Célébrons l’Immaculée Conception de la Vierge Marie : adorons son Fils, le Christ, notre Seigneur.
+    common: "Le Seigneur a fait pour toi des merveilles : tous les âges te diront bienheureuse."
 
 readings:
   hymn:
@@ -55,14 +50,14 @@ readings:
     V/ Le Seigneur m’a comblée de joie,
     il m’a revêtue de sainteté.
   biblicalReading:
-    - title: Là où le péché a proliféré, la grâce a surabondé
+    - title: LECTURE DE LA LETTRE AUX ROMAINS
+      subtitle: Là où le péché a proliféré, la grâce a surabondé
       ref: Rm 5, 12-21
       content: |-
         Nous savons que par un seul homme, le péché est entré dans le monde, et que par le péché est venue la mort ; et ainsi, la mort est passée en tous les hommes, étant donné que tous ont péché. Avant la loi de Moïse, le péché était déjà dans le monde, mais le péché ne peut être imputé à personne tant qu’il n’y a pas de loi. Pourtant, depuis Adam jusqu’à Moïse, la mort a établi son règne, même sur ceux qui n’avaient pas péché par une transgression semblable à celle d’Adam. Or, Adam préfigure celui qui devait venir.
         Mais il n’en va pas du don gratuit comme de la faute. En effet, si la mort a frappé la multitude par la faute d’un seul, combien plus la grâce de Dieu s’est-elle répandue en abondance sur la multitude, cette grâce qui est donnée en un seul homme, Jésus Christ. Le don de Dieu et les conséquences du péché d’un seul n’ont pas la même mesure non plus : d’une part, en effet, pour la faute d’un seul, le jugement a conduit à la condamnation ; d’autre part, pour une multitude de fautes, le don gratuit de Dieu conduit à la justification. Si, en effet, à cause d’un seul homme, par la faute d’un seul, la mort a établi son règne, combien plus, à cause de Jésus Christ et de lui seul, régneront-ils dans la vie, ceux qui reçoivent en abondance le don de la grâce qui les rend justes.
         Bref, de même que la faute commise par un seul a conduit tous les hommes à la condamnation, de même l’accomplissement de la justice par un seul a conduit tous les hommes à la justification qui donne la vie. En effet, de même que par la désobéissance d’un seul être humain la multitude a été rendue pécheresse, de même par l’obéissance d’un seul la multitude sera-t-elle rendue juste. Quant à la loi de Moïse, elle est intervenue pour que se multiplie la faute ; mais là où le péché s’est multiplié, la grâce a surabondé. Ainsi donc, de même que le péché a établi son règne de mort, de même la grâce doit établir son règne en rendant juste pour la vie éternelle par Jésus Christ notre Seigneur.
       responsory: |-
-        [rubric](Stance)[/rubric]
         Voici la nouvelle Genèse :
         en toi, Vierge immaculée,
         la grâce originelle refleurit.
@@ -123,8 +118,7 @@ morning:
     V/ Dieu pour toi exulte de joie,
     il te renouvelle par son amour. R/
   evangelicAntiphon:
-    common: |-
-      Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance : elle t’écrasera la tête. Alléluia.
+    common: "Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance : elle t’écrasera la tête. Alléluia."
 
 middleOfDay:
   psalmody:

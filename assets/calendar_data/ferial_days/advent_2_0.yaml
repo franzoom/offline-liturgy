@@ -1,5 +1,5 @@
 celebration:
-  title: Deuxième Dimanche de l'Avent
+  title: Deuxième Dimanche de l’Avent
   subtitle: null
   description: null
 firstVespers:
@@ -9,13 +9,15 @@ firstVespers:
         - Tressaille d’allégresse, nouvelle Sion ! Voici ton roi, humble et victorieux !
     - psalm: PSALM_15
       antiphon:
-        - "Soyez forts, prenez courage ! Voici notre Dieu : il vient nous sauver, alléluia."
+        - |-
+          Soyez forts, prenez courage ! Voici notre Dieu : il vient nous sauver, alléluia.
     - psalm: NT_5
       antiphon:
         - La loi fut donnée par Moïse, la grâce et la vérité sont venues par Jésus Christ.
   reading:
     biblicalReference: 1 Th 5, 23-24
-    content: "Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira."
+    content: |-
+      Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira.
   responsory: |-
     R/ Que l’univers chante et crie de joie :
     * Car le Seigneur vient.
@@ -27,7 +29,8 @@ firstVespers:
     la gloire de Dieu nous illuminera. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Visite-nous, Seigneur, dans la paix : nos cœurs déborderont de joie."
+    common: |-
+      Visite-nous, Seigneur, dans la paix : nos cœurs déborderont de joie.
   intercession:
     content: |-
       Levons les yeux vers celui qui vient et, joyeux d’attendre son jour, demandons-lui d’accomplir sa promesse :
@@ -127,7 +130,8 @@ morning:
         - Nous avons une ville forte, alléluia ! Le Seigneur est pour nous, alléluia !
     - psalm: OT_40
       antiphon:
-        - "Vous qui avez soif, venez vers les eaux ! Cherchez le Seigneur : il se laisse trouver, alléluia !"
+        - |-
+          Vous qui avez soif, venez vers les eaux ! Cherchez le Seigneur : il se laisse trouver, alléluia !
     - psalm: PSALM_150
       antiphon:
         - Voici le Seigneur qui vient avec puissance, il vient illuminer nos yeux !
@@ -164,29 +168,29 @@ middleOfDay:
         - De toi, Bethléem, sortira le berger d’Israël.
     - psalm: PSALM_75_1
       antiphon:
-        - "De toi, Bethléem, sortira le berger d’Israël."
+        - De toi, Bethléem, sortira le berger d’Israël.
     - psalm: PSALM_75_2
       antiphon:
-        - "De toi, Bethléem, sortira le berger d’Israël."
+        - De toi, Bethléem, sortira le berger d’Israël.
 
   tierce:
     reading:
       biblicalReference: Rm 13, 13-14a
-      content: "Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ."
+      content: Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
   sexte:
     reading:
       biblicalReference: 1 Th 3, 12-13
-      content: "Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints."
+      content: Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Cf. 2 Th 1, 6.7.10
-      content: "Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru."
+      content: Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -197,13 +201,16 @@ vespers:
         - Le Seigneur viendra sur les nuées du ciel avec puissance et gloire !
     - psalm: PSALM_113B
       antiphon:
-        - "On verra le Seigneur, il ne ment pas ! S’il semble tarder, attends-le : à son heure il viendra !"
+        - |-
+          On verra le Seigneur, il ne ment pas ! S’il semble tarder, attends-le : à son heure il viendra !
     - psalm: NT_12
       antiphon:
-        - "Le Seigneur est notre juge, le Seigneur est notre roi : c’est lui qui vient nous sauver."
+        - |-
+          Le Seigneur est notre juge, le Seigneur est notre roi : c’est lui qui vient nous sauver.
   reading:
     biblicalReference: Ph 4, 4-5
-    content: "Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche."
+    content: |-
+      Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche.
   responsory: |-
     R/ Réjouissons-nous dans le Seigneur !
     Réjouissons-nous, car il est proche !

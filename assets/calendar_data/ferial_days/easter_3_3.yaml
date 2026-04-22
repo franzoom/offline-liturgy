@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - "Viens au secours de ta famille, Seigneur, sois généreux pour elle : tu lui as donné la grâce de la foi, accorde-lui aussi une part dans la résurrection de ton Fils."
+    - |-
+      Viens au secours de ta famille, Seigneur, sois généreux pour elle : tu lui as donné la grâce de la foi, accorde-lui aussi une part dans la résurrection de ton Fils.
 
 readings:
   psalmody:
@@ -42,7 +43,8 @@ readings:
         où le Fils de l’homme viendra.
   patristicReading:
     - title: PREMIÈRE APOLOGIE DE SAINT JUSTIN
-      subtitle: "Le baptême au nom de Jésus Christ : nouvelle naissance et illumination."
+      subtitle: |-
+        Le baptême au nom de Jésus Christ : nouvelle naissance et illumination.
       content: |-
         %Comme pour l’Eucharistie, Justin est aussi le premier témoin de l’incorporation à la communauté par le baptême, dans l’Église de Rome au II^ème siècle%.
         Nous allons vous exposer comment, après avoir été renouvelés par le Christ, nous nous consacrons à Dieu. ~ 
@@ -134,7 +136,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Rm 4, 24b-25
-      content: "Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification."
+      content: Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
@@ -149,7 +151,7 @@ middleOfDay:
   none:
     reading:
       biblicalReference: Ep 4, 23-24
-      content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
+      content: Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu.
 
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
@@ -175,7 +177,8 @@ vespers:
     V/ Par ton inlassable intercession, R/
     V/ Par l’offrande de toi-même, R/
   evangelicAntiphon:
-    common: "Tous ceux que le Père m’a donnés viendront à moi : je les garderai près de moi à jamais. Alléluia !"
+    common: |-
+      Tous ceux que le Père m’a donnés viendront à moi : je les garderai près de moi à jamais. Alléluia !
   intercession:
     content: |-
       R/ Reste avec nous, Seigneur Jésus.

@@ -116,13 +116,15 @@ readings:
   psalmody:
     - psalm: PSALM_2
       antiphon:
-        - "Lorsque les temps furent accomplis, Dieu a envoyé son Fils, né d’une femme, pour faire de nous ses fils."
+        - Lorsque les temps furent accomplis, Dieu a envoyé son Fils, né d’une femme, pour faire de nous ses fils.
     - psalm: PSALM_18A
       antiphon:
-        - "Entrant dans le monde, il dit : Tu m’as fait un corps : me voici, mon Dieu, pour faire ta volonté."
+        - |-
+          Entrant dans le monde, il dit : Tu m’as fait un corps : me voici, mon Dieu, pour faire ta volonté.
     - psalm: PSALM_44
       antiphon:
-        - "Voici l’amour de Dieu pour nous : il a envoyé son Fils unique dans le monde pour que nous vivions par lui."
+        - |-
+          Voici l’amour de Dieu pour nous : il a envoyé son Fils unique dans le monde pour que nous vivions par lui.
   verse: |-
     V/ Le Verbe s’est fait chair,
     il a habité parmi nous.
@@ -131,10 +133,10 @@ readings:
       subtitle: Prophétie sur le fils de David
       ref: 1Ch 17, 1-15
       content: |-
-        Lorsque David habita dans sa maison, il dit au prophète Nathan : « Voici que j’habite dans une maison de cèdre, et l’arche de l’Alliance du Seigneur est sous un abri de toile ! » Nathan répondit à David : « Tout ce que tu as l’intention de faire, fais-le, car Dieu est avec toi. »
-        Mais, cette nuit-là, la parole de Dieu fut adressée à Nathan : « Va dire à David, mon serviteur : Ainsi parle le Seigneur : Ce n’est pas toi qui me bâtiras une maison pour que j’y habite. Depuis le jour où j’ai fait monter Israël et jusqu’à ce jour, je n’ai jamais habité dans une maison ; j’allais d’une tente à une autre et d’une demeure à une autre. Pendant tout le temps où j’étais comme un voyageur avec tout Israël, ai-je demandé à un seul des juges que j’avais institués pasteurs de mon peuple : “Pourquoi ne m’avez-vous pas bâti une maison de cèdre ?”
+        Lorsque David habita dans sa maison, il dit au prophète Nathan : « Voici que j’habite dans une maison de cèdre, et l’arche de l’Alliance du Seigneur est sous un abri de toile ! » Nathan répondit à David : « Tout ce que tu as l’intention de faire, fais-le, car Dieu est avec toi. »
+        Mais, cette nuit-là, la parole de Dieu fut adressée à Nathan : « Va dire à David, mon serviteur : Ainsi parle le Seigneur : Ce n’est pas toi qui me bâtiras une maison pour que j’y habite. Depuis le jour où j’ai fait monter Israël et jusqu’à ce jour, je n’ai jamais habité dans une maison ; j’allais d’une tente à une autre et d’une demeure à une autre. Pendant tout le temps où j’étais comme un voyageur avec tout Israël, ai-je demandé à un seul des juges que j’avais institués pasteurs de mon peuple : “Pourquoi ne m’avez-vous pas bâti une maison de cèdre ?”
         Tu diras donc à mon serviteur David : Ainsi parle le Seigneur de l’univers : C’est moi qui t’ai pris au pâturage, derrière le troupeau, pour que tu sois le chef de mon peuple Israël. J’ai été avec toi partout où tu es allé, j’ai abattu devant toi tous tes ennemis. Je te ferai un nom égal à celui des plus grands de la terre. Je fixerai en ce lieu mon peuple Israël, je l’y planterai, il s’y établira et ne tremblera plus, et les méchants ne viendront plus le maltraiter, comme ils l’ont fait autrefois, depuis le temps où j’ai institué des juges pour conduire mon peuple Israël. J’ai humilié tous tes ennemis. Je t’annonce que le Seigneur te bâtira une maison.
-        Quand tes jours seront accomplis et que tu rejoindras tes pères, je te susciterai dans ta descendance un successeur, qui sera l’un de tes fils, et je rendrai stable sa royauté. C’est lui qui me bâtira une maison, et je rendrai stable pour toujours son trône. Moi, je serai pour lui un père ; et lui sera pour moi un fils ; je ne lui retirerai pas ma fidélité comme je l’ai retirée à celui qui t’a précédé. Je l’établirai pour toujours dans ma maison et dans mon royaume, et son trône sera stable pour toujours. »
+        Quand tes jours seront accomplis et que tu rejoindras tes pères, je te susciterai dans ta descendance un successeur, qui sera l’un de tes fils, et je rendrai stable sa royauté. C’est lui qui me bâtira une maison, et je rendrai stable pour toujours son trône. Moi, je serai pour lui un père ; et lui sera pour moi un fils ; je ne lui retirerai pas ma fidélité comme je l’ai retirée à celui qui t’a précédé. Je l’établirai pour toujours dans ma maison et dans mon royaume, et son trône sera stable pour toujours. »
         Toutes ces paroles, toute cette vision, Nathan les rapporta fidèlement à David.
       responsory: |-
         [rubric](Stance)[/rubric]
@@ -183,26 +185,30 @@ readings:
 
 middleOfDay:
   tierce:
-    antiphon: "Heureuse es-tu, fille de Jessé, l’Esprit du Très-Haut te couvre de son ombre."
+    antiphon: Heureuse es-tu, fille de Jessé, l’Esprit du Très-Haut te couvre de son ombre.
     reading:
       biblicalReference: 1Tm 2, 5-6a
-      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
+      content: |-
+        Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes.
     responsory: |-
       V/ Le Verbe s’est fait chair,
       il a habité parmi nous.
   sexte:
-    antiphon: "La Vierge enfantera un fils : on lui donnera le nom d’Emmanuel."
+    antiphon: |-
+      La Vierge enfantera un fils : on lui donnera le nom d’Emmanuel.
     reading:
       biblicalReference: 1Jn 4, 10
-      content: "Voici à quoi se reconnaît l’amour : ce n’est pas nous qui avons aimé Dieu, c’est lui qui nous a aimés, et il a envoyé son Fils qui est la victime offerte pour nos péchés."
+      content: |-
+        Voici à quoi se reconnaît l’amour : ce n’est pas nous qui avons aimé Dieu, c’est lui qui nous a aimés, et il a envoyé son Fils qui est la victime offerte pour nos péchés.
     responsory: |-
       V/ Voici la servante du Seigneur ;
       que tout se passe pour moi selon ta parole.
   none:
-    antiphon: "Il sera grand, par toute la terre ; il sera lui-même notre paix."
+    antiphon: Il sera grand, par toute la terre ; il sera lui-même notre paix.
     reading:
       biblicalReference: 1Tm 2, 5-6a
-      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
+      content: |-
+        Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes.
     responsory: |-
       V/ Le Verbe s’est fait chair,
       il a habité parmi nous.
@@ -213,16 +219,18 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "L’Ange du Seigneur annonce à Marie que l’Esprit la couvrirait de son ombre."
+        - L’Ange du Seigneur annonce à Marie que l’Esprit la couvrirait de son ombre.
     - psalm: PSALM_129
       antiphon:
-        - "Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu ! Tu vas concevoir et enfanter le Fils du Très-Haut."
+        - Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu ! Tu vas concevoir et enfanter le Fils du Très-Haut.
     - psalm: NT_6
       antiphon:
-        - "Je suis la servante du Seigneur : qu’il me soit fait selon ta parole."
+        - |-
+          Je suis la servante du Seigneur : qu’il me soit fait selon ta parole.
   reading:
     biblicalReference: 1 Jn 1, 1-2
-    content: "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous."
+    content: |-
+      Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous.
   responsory: |-
     R/ Vierge Marie, servante du Seigneur,
     * en toi, le Verbe s’est fait chair.

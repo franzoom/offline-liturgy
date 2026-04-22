@@ -1,5 +1,5 @@
 celebration:
-  title: Quatrième Dimanche de l'Avent
+  title: Quatrième Dimanche de l’Avent
   subtitle: null
   description: null
 firstVespers:
@@ -12,10 +12,12 @@ firstVespers:
         - Viens Seigneur, ne tarde plus, rachète Israël de toutes ses fautes.
     - psalm: NT_5
       antiphon:
-        - "Les temps sont accomplis : Dieu a envoyé son Fils dans le monde."
+        - |-
+          Les temps sont accomplis : Dieu a envoyé son Fils dans le monde.
   reading:
     biblicalReference: 1 Th 5, 23-24
-    content: "Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira."
+    content: |-
+      Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira.
   responsory: |-
     R/ Que l’univers chante et crie de joie :
     * Car le Seigneur vient.
@@ -54,7 +56,8 @@ invitatory:
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
 
 oration:
-    - "Que ta grâce, Seigneur notre Dieu, se répande en nos cœurs : par le message de l’ange, tu nous as fait connaître l’incarnation de ton Fils bien-aimé, conduis-nous par sa passion et par sa croix jusqu’à la gloire de la résurrection. Lui qui règne."
+    - |-
+      Que ta grâce, Seigneur notre Dieu, se répande en nos cœurs : par le message de l’ange, tu nous as fait connaître l’incarnation de ton Fils bien-aimé, conduis-nous par sa passion et par sa croix jusqu’à la gloire de la résurrection. Lui qui règne.
 
 readings:
   psalmody:
@@ -74,10 +77,12 @@ morning:
   psalmody:
     - psalm: PSALM_117
       antiphon:
-        - "Clameur de joie et de victoire : proche est le jour du Seigneur, voici qu’il vient nous sauver !"
+        - |-
+          Clameur de joie et de victoire : proche est le jour du Seigneur, voici qu’il vient nous sauver !
     - psalm: OT_40
       antiphon:
-        - "Le Seigneur va venir ! Allez au-devant de lui : chantez, bénissez son nom."
+        - |-
+          Le Seigneur va venir ! Allez au-devant de lui : chantez, bénissez son nom.
     - psalm: PSALM_150
       antiphon:
         - La Parole a quitté le trône royal pour venir jusqu’à nous, alléluia.
@@ -115,29 +120,29 @@ middleOfDay:
         - De toi, Bethléem, sortira le berger d’Israël.
     - psalm: PSALM_75_1
       antiphon:
-        - "De toi, Bethléem, sortira le berger d’Israël."
+        - De toi, Bethléem, sortira le berger d’Israël.
     - psalm: PSALM_75_2
       antiphon:
-        - "De toi, Bethléem, sortira le berger d’Israël."
+        - De toi, Bethléem, sortira le berger d’Israël.
 
   tierce:
     reading:
       biblicalReference: Rm 13, 13-14a
-      content: "Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ."
+      content: Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
   sexte:
     reading:
       biblicalReference: 1 Th 3, 12-13
-      content: "Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints."
+      content: Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Cf. 2 Th 1, 6.7.10
-      content: "Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru."
+      content: Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -154,7 +159,8 @@ vespers:
         - Son pouvoir s’étendra, la paix sera sans fin.
   reading:
     biblicalReference: Ph 4, 4-5
-    content: "Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche."
+    content: |-
+      Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche.
   responsory: |-
     R/ Réjouissons-nous dans le Seigneur !
     Réjouissons-nous, car il est proche !

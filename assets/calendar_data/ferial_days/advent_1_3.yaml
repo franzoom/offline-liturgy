@@ -75,7 +75,8 @@ morning:
         - Tous les peuples, battez des mains, acclamez Dieu par vos cris de joie !
   reading:
     biblicalReference: Is 7, 14b-15
-    content: "Voici que la jeune femme est enceinte, elle enfantera un fils, et on l’appellera Emmanuel, (c’est-à-dire : Dieu avec nous). De crème et de miel il se nourrira, et il saura rejeter le mal et choisir le bien."
+    content: |-
+      Voici que la jeune femme est enceinte, elle enfantera un fils, et on l’appellera Emmanuel, (c’est-à-dire : Dieu avec nous). De crème et de miel il se nourrira, et il saura rejeter le mal et choisir le bien.
   responsory: |-
     R/ Le Seigneur est avec toi,
     * Marie, pleine de grâce.
@@ -109,16 +110,16 @@ middleOfDay:
         - Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance.
     - psalm: PSALM_16_1
       antiphon:
-        - "Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance."
+        - Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance.
     - psalm: PSALM_16_2
       antiphon:
-        - "Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance."
+        - Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance.
 
   tierce:
     reading:
       biblicalReference: Is 2, 11-12
       content: |-
-        L’orgueilleux regard des humains sera abaissé, les hommes hautains devront plier : et ce jour-là, le Seigneur seul sera exalté. Car il y aura un jour pour le Seigneur, le Tout-Puissant, contre tout ce qui est fier, hautain et altier et qui sera abaissé.
+        L’orgueilleux regard des humains sera abaissé, les hommes hautains devront plier : et ce jour-là, le Seigneur seul sera exalté. Car il y aura un jour pour le Seigneur, le Tout-Puissant, contre tout ce qui est fier, hautain et altier et qui sera abaissé.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
@@ -126,14 +127,14 @@ middleOfDay:
     reading:
       biblicalReference: Is 12, 2
       content: |-
-        Voici le Dieu de mon salut : j’ai confiance ; plus de crainte pour moi ! Car le Seigneur est ma force et mon chant, je lui dois le salut.
+        Voici le Dieu de mon salut : j’ai confiance ; plus de crainte pour moi ! Car le Seigneur est ma force et mon chant, je lui dois le salut.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Dn 9, 19
-      content: "Seigneur écoute ! Seigneur, pardonne ! Seigneur, sois attentif et agis, ne tarde pas ! À cause de toi-même, ô mon Dieu, car ton nom est invoqué sur ton peuple."
+      content: Seigneur écoute ! Seigneur, pardonne ! Seigneur, sois attentif et agis, ne tarde pas ! À cause de toi-même, ô mon Dieu, car ton nom est invoqué sur ton peuple.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -141,13 +142,16 @@ vespers:
   psalmody:
     - psalm: PSALM_26_1
       antiphon:
-        - "Mon cœur m’a redit ta parole : cherchez ma face."
+        - |-
+          Mon cœur m’a redit ta parole : cherchez ma face.
     - psalm: PSALM_26_2
       antiphon:
-        - "Mon cœur m’a redit ta parole : cherchez ma face."
+        - |-
+          Mon cœur m’a redit ta parole : cherchez ma face.
     - psalm: NT_6
       antiphon:
-        - "Tout vient de lui, tout est par lui, tout est en lui : gloire à Dieu pour les siècles !"
+        - |-
+          Tout vient de lui, tout est par lui, tout est en lui : gloire à Dieu pour les siècles !
   reading:
     biblicalReference: 1 Co 4, 5
     content: Ne portez pas de jugement prématuré, mais attendez la venue du Seigneur, car il mettra en lumière ce qui est caché dans les ténèbres, et il fera paraître les intentions secrètes. Alors, la louange qui revient à chacun lui sera donnée par Dieu.

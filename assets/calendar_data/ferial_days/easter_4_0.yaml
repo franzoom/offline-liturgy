@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
@@ -33,7 +33,8 @@ firstVespers:
     V/ Je reconnais devant toi le prodige,
     l’être étonnant que je suis. R/
   evangelicAntiphon:
-    common: "Je vous le dis : Je suis la porte. Si quelqu’un entre par moi, il sera sauvé, il trouvera de quoi se nourrir. Alléluia."
+    common: |-
+      Je vous le dis : Je suis la porte. Si quelqu’un entre par moi, il sera sauvé, il trouvera de quoi se nourrir. Alléluia.
   intercession:
     content: |-
       Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix :
@@ -162,7 +163,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1Co 15, 3b-5
-      content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
+      content: Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
@@ -170,14 +171,14 @@ middleOfDay:
     reading:
       biblicalReference: Ep 2, 4-6a
       content: |-
-        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
+        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
   none:
     reading:
       biblicalReference: Rm 6, 4
-      content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
+      content: Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts.
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
       le soir approche, alléluia.
@@ -185,7 +186,8 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "Recherchez les biens d’en haut : c’est là que règne le Christ, assis à la droite de Dieu, alléluia."
+        - |-
+          Recherchez les biens d’en haut : c’est là que règne le Christ, assis à la droite de Dieu, alléluia.
     - psalm: PSALM_111
       antiphon:
         - Pour les cœurs droits, une lumière s’est levée, alléluia.

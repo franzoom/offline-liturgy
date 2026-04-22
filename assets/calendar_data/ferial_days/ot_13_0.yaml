@@ -11,7 +11,8 @@ oration:
 
 evangelicAntiphon:
     yearA: Qui vous reçoit, me reçoit ; qui me reçoit, reçoit celui qui m’a envoyé.
-    yearB: "Jésus saisit la main de l’enfant et lui dit : Lève-toi !"
+    yearB: |-
+      Jésus saisit la main de l’enfant et lui dit : Lève-toi !
     yearC: Qui met la main à la charrue et regarde en arrière n’est pas digne du Royaume de Dieu.
 
 readings:
@@ -177,7 +178,7 @@ mass:
       - B
       chorus:
       - chorusRef: 29, 2a
-        chorus: 'Je t’exalte, Seigneur : tu m’as relevé.'
+        chorus: ’Je t’exalte, Seigneur : tu m’as relevé.’
       content: |-
         Je t’exalte, Seigneur : tu m’as relevé,
         tu m’épargnes les rires de l’ennemi.

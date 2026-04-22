@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - "Dieu éternel et tout-puissant, nous implorons avec plus d’insistance ta bonté en ce temps de Pâques où elle se révèle davantage : puisque tu nous as dégagés de nos erreurs, fais-nous adhérer plus fermement à la vérité."
+    - |-
+      Dieu éternel et tout-puissant, nous implorons avec plus d’insistance ta bonté en ce temps de Pâques où elle se révèle davantage : puisque tu nous as dégagés de nos erreurs, fais-nous adhérer plus fermement à la vérité.
 
 readings:
   psalmody:
@@ -119,21 +120,21 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1Co 12, 13
-      content: "Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit."
+      content: Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
   sexte:
     reading:
       biblicalReference: Tt 3, 5b-7
-      content: "Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle."
+      content: Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
   none:
     reading:
       biblicalReference: Col 1, 12-14
-      content: "Rendez grâce à Dieu le Père, qui vous a rendus capables d’avoir part, dans la lumière, à l’héritage du peuple saint. Il nous a arrachés au pouvoir des ténèbres, il nous a fait entrer dans le royaume de son Fils bien-aimé, par qui nous sommes rachetés et par qui nos péchés sont pardonnés."
+      content: Rendez grâce à Dieu le Père, qui vous a rendus capables d’avoir part, dans la lumière, à l’héritage du peuple saint. Il nous a arrachés au pouvoir des ténèbres, il nous a fait entrer dans le royaume de son Fils bien-aimé, par qui nous sommes rachetés et par qui nos péchés sont pardonnés.
 
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
@@ -145,7 +146,8 @@ vespers:
         - Le Seigneur lui donne le trône de David, alléluia.
     - psalm: PSALM_131_2
       antiphon:
-        - "Le Royaume de David est accompli : béni soit Dieu, alléluia."
+        - |-
+          Le Royaume de David est accompli : béni soit Dieu, alléluia.
     - psalm: NT_10
   reading:
     biblicalReference: 1P 3, 18.22

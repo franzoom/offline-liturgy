@@ -75,8 +75,10 @@ morning:
   psalmody:
     - psalm: PSALM_107
       antiphon:
-        - "Éveillez-vous, harpe, cithare : que j’éveille l’aurore !"
-        - "Dieu, élève-toi sur les cieux : que ta gloire domine la terre !"
+        - |-
+          Éveillez-vous, harpe, cithare : que j’éveille l’aurore !
+        - |-
+          Dieu, élève-toi sur les cieux : que ta gloire domine la terre !
     - psalm: OT_30
       antiphon:
         - Le Seigneur m’a comblée de joie, il m’a revêtue de sainteté.
@@ -87,7 +89,8 @@ morning:
         - Heureux qui a mis son espoir dans le Seigneur son Dieu !
   reading:
     biblicalReference: Dt 4, 39-40a
-    content: "Sache donc aujourd’hui, et médite cela dans ton cœur : le Seigneur est Dieu, là-haut dans le ciel comme ici-bas sur la terre, et il n’y en a pas d’autre. Tu garderas tous les jours les commandements et les ordres du Seigneur que je te donne aujourd’hui."
+    content: |-
+      Sache donc aujourd’hui, et médite cela dans ton cœur : le Seigneur est Dieu, là-haut dans le ciel comme ici-bas sur la terre, et il n’y en a pas d’autre. Tu garderas tous les jours les commandements et les ordres du Seigneur que je te donne aujourd’hui.
   responsory: |-
     R/ Gloire à Dieu au plus haut des cieux !
     V/ Qu’il est précieux, ton amour, ô mon Dieu. R/
@@ -139,28 +142,28 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1 Co 10, 24.31
-      content: "Que nul ne cherche son propre intérêt, mais celui d’autrui. Soit donc que vous mangiez, soit que vous buviez, quoi que vous fassiez, faites tout pour la gloire de Dieu."
+      content: Que nul ne cherche son propre intérêt, mais celui d’autrui. Soit donc que vous mangiez, soit que vous buviez, quoi que vous fassiez, faites tout pour la gloire de Dieu.
     responsory: |-
       V/ Qu’il est bon de rendre grâce au Seigneur,
       de chanter pour ton nom, Dieu Très-Haut.
-    oration: "Dieu qui as révélé au monde que les artisans de paix seront appelés tes fils, aide-nous à rechercher toujours cette justice qui seule peut garantir aux hommes une paix solide et durable."
+    oration: Dieu qui as révélé au monde que les artisans de paix seront appelés tes fils, aide-nous à rechercher toujours cette justice qui seule peut garantir aux hommes une paix solide et durable.
   sexte:
     reading:
       biblicalReference: Col 3, 17
-      content: "Tout ce que vous dites, tout ce que vous faites, que ce soit toujours au nom du Seigneur Jésus Christ, en offrant par lui votre action de grâce à Dieu le Père."
+      content: Tout ce que vous dites, tout ce que vous faites, que ce soit toujours au nom du Seigneur Jésus Christ, en offrant par lui votre action de grâce à Dieu le Père.
     responsory: |-
       V/ Je t’offrirai, Seigneur, le sacrifice d’action de grâce,
       j’invoquerai le nom du Seigneur.
-    oration: "Père, au milieu du jour tu nous donnes un temps de repos pour refaire nos corps et nos esprits, accorde-nous de le recevoir dans la reconnaissance et d’en tirer profit pour ton service et celui de nos frères. Par Jésus, le Christ, notre Seigneur. Amen."
+    oration: Père, au milieu du jour tu nous donnes un temps de repos pour refaire nos corps et nos esprits, accorde-nous de le recevoir dans la reconnaissance et d’en tirer profit pour ton service et celui de nos frères. Par Jésus, le Christ, notre Seigneur. Amen.
   none:
     reading:
       biblicalReference: Col 3, 23-24
       content: |-
-        Quel que soit votre travail, faites-le de bon cœur, pour le Seigneur et non pour plaire aux hommes : vous savez bien qu’en retour le Seigneur fera de vous ses héritiers. Le maître, c’est le Christ ; vous êtes à son service.
+        Quel que soit votre travail, faites-le de bon cœur, pour le Seigneur et non pour plaire aux hommes : vous savez bien qu’en retour le Seigneur fera de vous ses héritiers. Le maître, c’est le Christ ; vous êtes à son service.
     responsory: |-
       V/ Seigneur, mon partage et ma coupe :
       de toi dépend mon sort.
-    oration: "Seigneur Jésus Christ, toi qui étendis les bras sur la croix pour sauver tous les hommes, donne-nous de te plaire en chacun de nos actes pour faire connaître au monde l’œuvre de ton amour. Toi qui règnes pour les siècles des siècles. Amen."
+    oration: Seigneur Jésus Christ, toi qui étendis les bras sur la croix pour sauver tous les hommes, donne-nous de te plaire en chacun de nos actes pour faire connaître au monde l’œuvre de ton amour. Toi qui règnes pour les siècles des siècles. Amen.
 vespers:
   hymn:
     - ouvre-mes-yeux-seigneur
@@ -176,7 +179,8 @@ vespers:
         - R/ Gloire à toi, premier-né d’entre les morts !
   reading:
     biblicalReference: 1 Jn 2, 3-6
-    content: "Voici comment nous pouvons savoir que nous connaissons Jésus Christ : c’est en gardant ses commandements. Celui qui dit : « Je le connais », et qui ne garde pas ses commandements, est un menteur : la vérité n’est pas en lui. Mais en celui qui garde fidèlement sa parole, l’amour de Dieu atteint vraiment la perfection : voilà comment nous reconnaissons que nous sommes en lui. Celui qui déclare demeurer en lui doit marcher lui-même dans la voie où lui, Jésus, a marché."
+    content: |-
+      Voici comment nous pouvons savoir que nous connaissons Jésus Christ : c’est en gardant ses commandements. Celui qui dit : « Je le connais », et qui ne garde pas ses commandements, est un menteur : la vérité n’est pas en lui. Mais en celui qui garde fidèlement sa parole, l’amour de Dieu atteint vraiment la perfection : voilà comment nous reconnaissons que nous sommes en lui. Celui qui déclare demeurer en lui doit marcher lui-même dans la voie où lui, Jésus, a marché.
   responsory: |-
     R/ Tu es le Chemin, la Vérité, la Vie,
     * Jésus, Fils de Dieu !

@@ -72,7 +72,8 @@ morning:
   psalmody:
     - psalm: PSALM_50
       antiphon:
-        - "J’ai fait approcher ma justice : mon salut n’est pas loin."
+        - |-
+          J’ai fait approcher ma justice : mon salut n’est pas loin.
     - psalm: OT_34
       antiphon:
         - Rappelle-toi, ne romps pas ton alliance avec nous.
@@ -115,16 +116,16 @@ middleOfDay:
         - Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion.
     - psalm: PSALM_21_2
       antiphon:
-        - "Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion."
+        - Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion.
     - psalm: PSALM_21_3
       antiphon:
-        - "Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion."
+        - Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion.
 
   tierce:
     reading:
       biblicalReference: Jr 29, 11.13
       content: |-
-        Moi, je sais les projets que j’ai formés à votre sujet - oracle du Seigneur -, projets de prospérité et non de malheur : je vais vous donner un avenir et une espérance. Vous me rechercherez et vous me trouverez : vous me chercherez du fond de vous-mêmes.
+        Moi, je sais les projets que j’ai formés à votre sujet - oracle du Seigneur -, projets de prospérité et non de malheur : je vais vous donner un avenir et une espérance. Vous me rechercherez et vous me trouverez : vous me chercherez du fond de vous-mêmes.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
@@ -132,14 +133,14 @@ middleOfDay:
     reading:
       biblicalReference: Jr 30, 18a
       content: |-
-        Ainsi parle le Seigneur : Voici que je vais ramener de captivité les tentes de Jacob, je prendrai en pitié ses demeures.
+        Ainsi parle le Seigneur : Voici que je vais ramener de captivité les tentes de Jacob, je prendrai en pitié ses demeures.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Ba 3, 5-6a
-      content: "Ne te souviens pas des fautes de nos pères mais, en cette heure, souviens-toi de ta main et de ton Nom. Oui, c’est toi le Seigneur notre Dieu."
+      content: Ne te souviens pas des fautes de nos pères mais, en cette heure, souviens-toi de ta main et de ton Nom. Oui, c’est toi le Seigneur notre Dieu.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -150,13 +151,16 @@ vespers:
         - Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance.
     - psalm: PSALM_134_2
       antiphon:
-        - "Ce jour-là, il donnera un signe aux nations : il rassemblera les dispersés d’Israël."
+        - |-
+          Ce jour-là, il donnera un signe aux nations : il rassemblera les dispersés d’Israël.
     - psalm: NT_11
       antiphon:
-        - "Ne craignez pas : vous verrez que le Seigneur est avec vous."
+        - |-
+          Ne craignez pas : vous verrez que le Seigneur est avec vous.
   reading:
     biblicalReference: 2 P 3. 8b-9
-    content: "Pour le Seigneur, un seul jour est comme mille ans, et mille ans sont comme un seul jour. Le Seigneur n’est pas en retard pour tenir sa promesse, comme le pensent certaines personnes ; c’est pour vous qu’il patiente : car il n’accepte pas d’en laisser quelques-uns se perdre ; mais il veut que tous aient le temps de se convertir."
+    content: |-
+      Pour le Seigneur, un seul jour est comme mille ans, et mille ans sont comme un seul jour. Le Seigneur n’est pas en retard pour tenir sa promesse, comme le pensent certaines personnes ; c’est pour vous qu’il patiente : car il n’accepte pas d’en laisser quelques-uns se perdre ; mais il veut que tous aient le temps de se convertir.
   responsory: |-
     R/ Notre âme attend le Seigneur.
     * En lui la joie de notre cœur.
@@ -164,7 +168,8 @@ vespers:
     V/ Sa gloire habitera notre terre. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Jean Baptiste a rendu témoignage : celui qui vient après moi est passé devant moi."
+    common: |-
+      Jean Baptiste a rendu témoignage : celui qui vient après moi est passé devant moi.
   intercession:
     content: |-
       Avec ferveur, prions Celui qui annonce aux pauvres la Bonne Nouvelle :

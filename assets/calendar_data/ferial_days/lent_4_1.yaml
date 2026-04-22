@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -105,28 +105,28 @@ middleOfDay:
         - La bouche grande ouverte, j’aspire, assoiffé de tes volontés.
     - psalm: PSALM_81
       antiphon:
-        - "La bouche grande ouverte, j’aspire, assoiffé de tes volontés."
+        - La bouche grande ouverte, j’aspire, assoiffé de tes volontés.
     - psalm: PSALM_119
       antiphon:
-        - "La bouche grande ouverte, j’aspire, assoiffé de tes volontés."
+        - La bouche grande ouverte, j’aspire, assoiffé de tes volontés.
   tierce:
     reading:
       biblicalReference: Sg 11, 23-24a
-      content: "Seigneur, tu as pitié de tous les hommes, parce que tu peux tout. Tu fermes les yeux sur leurs péchés, pour qu’ils se convertissent. Tu aimes en effet tout ce qui existe, tu n’as de répulsion envers aucune de tes œuvres."
+      content: Seigneur, tu as pitié de tous les hommes, parce que tu peux tout. Tu fermes les yeux sur leurs péchés, pour qu’ils se convertissent. Tu aimes en effet tout ce qui existe, tu n’as de répulsion envers aucune de tes œuvres.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Ez 18, 23
-      content: "Est-ce donc la mort du méchant que je désire, déclare le Seigneur, n’est-ce pas plutôt qu’il se détourne de sa conduite et qu’il vive ?"
+      content: Est-ce donc la mort du méchant que je désire, déclare le Seigneur, n’est-ce pas plutôt qu’il se détourne de sa conduite et qu’il vive ?
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: Is 58, 7
-      content: "Partage ton pain avec celui qui a faim, recueille chez toi le malheureux sans abri, couvre celui que tu verras sans vêtement, ne te dérobe pas à ton semblable."
+      content: Partage ton pain avec celui qui a faim, recueille chez toi le malheureux sans abri, couvre celui que tu verras sans vêtement, ne te dérobe pas à ton semblable.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -141,14 +141,16 @@ vespers:
     - psalm: NT_4
   reading:
     biblicalReference: Rm 12, 1-2
-    content: "Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez­-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait."
+    content: |-
+      Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez­-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait.
   responsory: |-
     R/ J’appelle de tout cœur :
     * Réponds-moi, Seigneur !
     V/ Je garderai tes volontés. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "À l’heure où Jésus disait : Ton fils est vivant, l’enfant fut guéri."
+    common: |-
+      À l’heure où Jésus disait : Ton fils est vivant, l’enfant fut guéri.
   intercession:
     content: |-
       Reçois notre vie, Dieu créateur,
@@ -208,7 +210,7 @@ mass:
       refAbbr: 29, 2…
       chorus:
       - chorusRef: 29, 2a
-        chorus: 'Je t’exalte, Seigneur : tu m’as relevé.'
+        chorus: ’Je t’exalte, Seigneur : tu m’as relevé.’
       content: |-
         Je t’exalte, Seigneur : tu m’as relevé.
         Quand j’ai crié vers toi, Seigneur.

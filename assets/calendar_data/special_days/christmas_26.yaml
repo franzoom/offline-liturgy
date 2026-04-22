@@ -8,7 +8,8 @@ oration:
 
 invitatory:
   antiphon:
-    - "Venez, adorons le Christ en sa naissance : il est le roi des martyrs."
+    - |-
+      Venez, adorons le Christ en sa naissance : il est le roi des martyrs.
 
 readings:
   hymn:
@@ -19,7 +20,8 @@ readings:
         - Étienne, rempli de l’Esprit Saint, les yeux fixés au ciel, vit Jésus dans la gloire de Dieu.
     - psalm: PSALM_10
       antiphon:
-        - "Blessé à mort, Étienne priait : Seigneur Jésus, reçois mon esprit."
+        - |-
+          Blessé à mort, Étienne priait : Seigneur Jésus, reçois mon esprit.
     - psalm: PSALM_16
       antiphon:
         - Personne ne pouvait résister à l’Esprit qui parlait en lui.
@@ -93,7 +95,8 @@ morning:
     V/ Je vois le Fils de l’homme
     à la droite de Dieu. R/
   evangelicAntiphon:
-    common: "Les portes du ciel s’ouvrent pour Étienne : il reçoit, le premier, la couronne des martyrs."
+    common: |-
+      Les portes du ciel s’ouvrent pour Étienne : il reçoit, le premier, la couronne des martyrs.
   intercession:
     content: |-
       Avec les martyrs qui ont donné leur vie pour la Parole de Dieu, louons notre Sauveur, le témoin fidèle :
@@ -299,8 +302,8 @@ mass:
   - nativity_of_the_lord_3
   communionAntiphon:
   - content: |-
-      Étienne, pendant qu’on le lapidait, priait ainsi :
-        « Seigneur Jésus, reçois mon esprit. »
+      Étienne, pendant qu’on le lapidait, priait ainsi :
+        « Seigneur Jésus, reçois mon esprit. »
   prayerAfterCommunion:
   - |-
     Seigneur, nous te rendons grâce

@@ -18,7 +18,8 @@ firstVespers:
   psalmody:
     - psalm: PSALM_146
       antiphon:
-        - "Les portes de Jérusalem retentiront de chants de joie ! Et ses demeures diront : Gloire à toi !"
+        - |-
+          Les portes de Jérusalem retentiront de chants de joie ! Et ses demeures diront : Gloire à toi !
     - psalm: PSALM_147
       antiphon:
         - Dieu a consolidé les barres de tes portes, dans tes murs il a béni tes enfants.
@@ -70,7 +71,8 @@ readings:
   psalmody:
     - psalm: PSALM_23
       antiphon:
-        - "Portes, levez vos frontons, élevez-les, portes éternelles : qu’il entre, le Roi de gloire !"
+        - |-
+          Portes, levez vos frontons, élevez-les, portes éternelles : qu’il entre, le Roi de gloire !
     - psalm: PSALM_83
       antiphon:
         - Heureux les habitants de ta maison, ils pourront te chanter encore.
@@ -194,15 +196,18 @@ middleOfDay:
     antiphon: La sainteté emplit ta maison, ô Seigneur, pour la suite des temps.
     reading:
       biblicalReference: 2 Co 6, 16b
-      content: "Nous sommes, nous, le temple du Dieu vivant, comme Dieu l’a dit : Au milieu d’eux, j’habiterai et je marcherai, je serai leur Dieu et ils seront mon peuple."
+      content: |-
+        Nous sommes, nous, le temple du Dieu vivant, comme Dieu l’a dit : Au milieu d’eux, j’habiterai et je marcherai, je serai leur Dieu et ils seront mon peuple.
     responsory: |-
       V/ Appelez le bonheur sur Jérusalem :
       paix à ceux qui t’aiment !
   none:
-    antiphon: "Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc."
+    antiphon: |-
+      Voici la demeure de Dieu, voici l’Église du Seigneur : elle est bâtie sur le roc.
     reading:
       biblicalReference: Jr 7, 2b.4-5a.7a
-      content: "Ecoutez la parole du Seigneur, vous tous qui entrez par ces portes pour adorer le Seigneur. Ne vous fiez pas à des paroles trompeuses comme celles-ci : « C’est ici  le temple du Seigneur, le temple du Seigneur, le temple du Seigneur ! » Si vous suivez  vraiment la bonne route, si vous vous conduisez bien, alors j’habiterai avec vous  dans ce lieu."
+      content: |-
+        Ecoutez la parole du Seigneur, vous tous qui entrez par ces portes pour adorer le Seigneur. Ne vous fiez pas à des paroles trompeuses comme celles-ci : « C’est ici  le temple du Seigneur, le temple du Seigneur, le temple du Seigneur ! » Si vous suivez  vraiment la bonne route, si vous vous conduisez bien, alors j’habiterai avec vous  dans ce lieu.
     responsory: |-
       V/ Venez dans sa maison lui rendre grâce,
       dans sa demeure chanter ses louanges.
@@ -223,7 +228,8 @@ vespers:
         - Église de Dieu, Épouse de l’Agneau, célèbre ton Seigneur, alléluia.
   reading:
     biblicalReference: Ap 21, 2-3.22-27
-    content: "J’ai vu descendre du ciel, d’auprès de Dieu, la cité sainte, la Jérusalem nouvelle,  toute prête, comme une fiancée parée pour son époux. Et j’ai entendu la voix puissante  qui venait du Trône divin ; elle disait : « Voici la demeure de Dieu avec les hommes ; il demeurera avec eux, et ils seront son peuple, Dieu lui-même sera avec eux. Dans  la cité, je n’ai pas vu de temple, car son Temple, c’est le Seigneur, le Dieu tout-puissant,  et l’Agneau. La cité n’a pas besoin de la lumière du soleil ni de la lune, car la  gloire de Dieu l’illumine, et sa source de lumière, c’est l’Agneau. Les nations marcheront  à sa lumière, et les rois de la terre apporteront ce qui fait leur gloire. Les portes  ne se fermeront pas tant qu’il fera jour ; or il n’y fera plus jamais nuit. On apportera  dans la cité ce qui fait la gloire et le prestige des nations. Il n’y entrera jamais  rien de souillé, ni personne qui commette abomination ou mensonge, mais seulement  ceux qui sont inscrits dans le livre de vie de l’Agneau."
+    content: |-
+      J’ai vu descendre du ciel, d’auprès de Dieu, la cité sainte, la Jérusalem nouvelle,  toute prête, comme une fiancée parée pour son époux. Et j’ai entendu la voix puissante  qui venait du Trône divin ; elle disait : « Voici la demeure de Dieu avec les hommes ; il demeurera avec eux, et ils seront son peuple, Dieu lui-même sera avec eux. Dans  la cité, je n’ai pas vu de temple, car son Temple, c’est le Seigneur, le Dieu tout-puissant,  et l’Agneau. La cité n’a pas besoin de la lumière du soleil ni de la lune, car la  gloire de Dieu l’illumine, et sa source de lumière, c’est l’Agneau. Les nations marcheront  à sa lumière, et les rois de la terre apporteront ce qui fait leur gloire. Les portes  ne se fermeront pas tant qu’il fera jour ; or il n’y fera plus jamais nuit. On apportera  dans la cité ce qui fait la gloire et le prestige des nations. Il n’y entrera jamais  rien de souillé, ni personne qui commette abomination ou mensonge, mais seulement  ceux qui sont inscrits dans le livre de vie de l’Agneau.
   responsory: |-
     R/ Ton Dieu sera ta beauté, ta lumière éternelle !
     V/ Ta splendeur illuminera

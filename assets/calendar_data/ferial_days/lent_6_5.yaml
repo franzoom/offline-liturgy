@@ -92,13 +92,16 @@ morning:
   psalmody:
     - psalm: PSALM_50
       antiphon:
-        - "Dieu n’a pas épargné son propre Fils : il l’a livré pour nous."
+        - |-
+          Dieu n’a pas épargné son propre Fils : il l’a livré pour nous.
     - psalm: OT_43
       antiphon:
-        - "Jésus, le Christ, nous a aimés : il nous a délivrés de nos péchés par son sang."
+        - |-
+          Jésus, le Christ, nous a aimés : il nous a délivrés de nos péchés par son sang.
     - psalm: PSALM_147
       antiphon:
-        - "Ta croix, Seigneur, nous l’adorons, et ta sainte résurrection, nous la chantons : c’est par le bois de la croix que la joie est venue dans le monde."
+        - |-
+          Ta croix, Seigneur, nous l’adorons, et ta sainte résurrection, nous la chantons : c’est par le bois de la croix que la joie est venue dans le monde.
   reading:
     biblicalReference: Is 52, 13-15
     content: Mon serviteur réussira, dit le Seigneur ; il montera, il s’élèvera, il sera exalté ! La multitude avait été consternée en le voyant, car il était si défiguré qu’il ne ressemblait plus à un homme. De même, devant lui les rois resteront bouche bée, car ils verront ce qu’on ne leur avait jamais dit, ils découvriront ce dont ils n’avaient jamais entendu parler.
@@ -108,7 +111,8 @@ morning:
     et la mort de la croix.
     V/ Si le grain de blé tombé en terre ne meurt pas, il reste seul. R/
   evangelicAntiphon:
-    common: "Sur la croix fut écrite sa condamnation : Jésus le Nazaréen, le Roi des Juifs."
+    common: |-
+      Sur la croix fut écrite sa condamnation : Jésus le Nazaréen, le Roi des Juifs.
   intercession:
     content: |-
       Levons les yeux vers le Fils de Dieu, mort sur la croix, vivant pour les siècles :
@@ -140,7 +144,7 @@ middleOfDay:
     antiphon: À la troisième heure, ils crucifièrent Jésus.
     reading:
       biblicalReference: Is 53, 2-3
-      content: "Devant Dieu, le serviteur a poussé comme une plante chétive, enracinée dans une terre aride. Il n’était ni beau ni brillant pour attirer nos regards, son extérieur n’avait rien pour nous plaire. Il était méprisé, abandonné de tous, homme de douleurs, familier de la souffrance, semblable au lépreux dont on se détourne ; et nous l’avons méprisé, compté pour rien."
+      content: Devant Dieu, le serviteur a poussé comme une plante chétive, enracinée dans une terre aride. Il n’était ni beau ni brillant pour attirer nos regards, son extérieur n’avait rien pour nous plaire. Il était méprisé, abandonné de tous, homme de douleurs, familier de la souffrance, semblable au lépreux dont on se détourne ; et nous l’avons méprisé, compté pour rien.
     responsory: |-
       V/ Ô Christ, nous t’adorons et nous te bénissons :
       par ta croix, tu as racheté le monde.
@@ -154,11 +158,11 @@ middleOfDay:
       quand tu viendras dans ton Royaume.
   none:
     antiphon: |-
-      À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ?
+      À la neuvième heure, Jésus s’écria d’une voix forte : Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ?
     reading:
       biblicalReference: Is 53, 6-7
       content: |-
-        Nous étions tous errants comme des brebis, chacun suivait son propre chemin. Mais le Seigneur a fait retomber sur lui nos fautes à nous tous. Maltraité, il s’humilie, il n’ouvre pas la bouche : comme un agneau conduit à l’abattoir, comme une brebis muette devant les tondeurs, il n’ouvre pas la bouche.
+        Nous étions tous errants comme des brebis, chacun suivait son propre chemin. Mais le Seigneur a fait retomber sur lui nos fautes à nous tous. Maltraité, il s’humilie, il n’ouvre pas la bouche : comme un agneau conduit à l’abattoir, comme une brebis muette devant les tondeurs, il n’ouvre pas la bouche.
     responsory: |-
       V/ Il me fait habiter les ténèbres,
       avec les morts de jadis.
@@ -175,10 +179,12 @@ vespers:
         - Le souffle en moi s’épuise, mon cœur au fond de moi s’épouvante.
     - psalm: NT_5
       antiphon:
-        - "Quand il eut pris le vinaigre, Jésus dit : Tout est achevé. Puis, inclinant la tête, il remit l’esprit."
+        - |-
+          Quand il eut pris le vinaigre, Jésus dit : Tout est achevé. Puis, inclinant la tête, il remit l’esprit.
   reading:
     biblicalReference: 1 P 2, 21b-24
-    content: "Le Christ lui-même a souffert pour vous et vous a laissé son exemple afin que vous suiviez ses traces, lui qui n’a jamais commis de péché ni proféré de mensonge : couvert d’insultes, il n’insultait pas ; accablé de souffrances, il ne menaçait pas, mais il confiait sa cause à Celui qui juge avec justice. Dans son corps, il a porté nos péchés sur le bois de la croix afin que nous puis­sions mourir à nos péchés et vivre dans la justice : c’est par ses blessures que vous avez été guéris."
+    content: |-
+      Le Christ lui-même a souffert pour vous et vous a laissé son exemple afin que vous suiviez ses traces, lui qui n’a jamais commis de péché ni proféré de mensonge : couvert d’insultes, il n’insultait pas ; accablé de souffrances, il ne menaçait pas, mais il confiait sa cause à Celui qui juge avec justice. Dans son corps, il a porté nos péchés sur le bois de la croix afin que nous puis­sions mourir à nos péchés et vivre dans la justice : c’est par ses blessures que vous avez été guéris.
   responsory: |-
     R/ Le Christ s’est fait pour nous obéissant
     jusqu’à la mort,

@@ -12,9 +12,9 @@ readings:
     - psalm: PSALM_0
     - psalm: PSALM_0
     - psalm: PSALM_0
-  verse: ""
+  verse: 
   biblicalReading:
-    - content: ""
+    - content: 
 
 morning:
   reading:
@@ -29,7 +29,8 @@ morning:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: "Le soleil s’est levé : ne cherchez plus parmi les morts le Fils de l’homme : il a brisé les verrous de la mort, alléluia !"
+    common: |-
+      Le soleil s’est levé : ne cherchez plus parmi les morts le Fils de l’homme : il a brisé les verrous de la mort, alléluia !
   intercession:
     content: |-
       Acclamons Jésus Christ : Dieu l’a ressuscité, il nous ressuscitera avec lui.
@@ -65,7 +66,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1 Co 15, 3b-5
-      content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
+      content: Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze.
   sexte:
     reading:
       biblicalReference: Ep 2, 4-6a
@@ -74,7 +75,7 @@ middleOfDay:
   none:
     reading:
       biblicalReference: Rm 6, 4
-      content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
+      content: Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts.
 
 vespers:
   reading:
@@ -88,7 +89,8 @@ vespers:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: "Jésus vient, toutes portes closes. Il se tient au milieu de ses disciples. Il leur dit : La paix soit avec vous ! Alléluia !"
+    common: |-
+      Jésus vient, toutes portes closes. Il se tient au milieu de ses disciples. Il leur dit : La paix soit avec vous ! Alléluia !
   intercession:
     content: |-
       À Jésus, le Vivant, qui ne cesse d’intercéder pour nous, adressons notre prière :
@@ -548,7 +550,7 @@ mass:
       refAbbr: 29, 3…
       chorus:
       - chorusRef: 29, 2a
-        chorus: 'Je t’exalte, Seigneur : tu m’as relevé.'
+        chorus: ’Je t’exalte, Seigneur : tu m’as relevé.’
       content: |-
         Quand j’ai crié vers toi, Seigneur,
         mon Dieu, tu m’as guéri ;
@@ -1585,7 +1587,7 @@ mass:
       refAbbr: 29, 3…
       chorus:
       - chorusRef: 29, 2a
-        chorus: 'Je t’exalte, Seigneur : tu m’as relevé.'
+        chorus: ’Je t’exalte, Seigneur : tu m’as relevé.’
       content: |-
         Quand j’ai crié vers toi, Seigneur,
         mon Dieu, tu m’as guéri ;

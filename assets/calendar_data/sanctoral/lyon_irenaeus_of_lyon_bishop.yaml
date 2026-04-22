@@ -1,5 +1,5 @@
 celebration:
-  title: Saint Irénée, évêque et docteur de l'Église, et ses compagnons
+  title: Saint Irénée, évêque et docteur de l’Église, et ses compagnons
   subtitle: patron principal du diocèse de Lyon
   description: Irénée (vers 130-200), qui était né à Smyrne, devint évêque de Lyon après la mort de Pothin (177). En vrai pasteur, il fut soucieux de répandre l’Évangile parmi les populations de la Gaule, mais aussi de défendre l’intégrité du dépôt de la foi. Dans ses écrits, Irénée révèle une vue profonde du dessein de Dieu, de la vocation de l’homme, du mystère de l’Église. Il fut sans doute victime de l’édit de persécution de Septime Sèvère (202).
   commons:
@@ -20,7 +20,8 @@ firstVespers:
         - Faisons l’éloge de ces personnages glorieux qui sont nos ancêtres.
     - psalm: PSALM_117_2
       antiphon:
-        - "Voici des hommes de miséricorde dont les œuvres de justice n’ont pas été oubliées : Leur bonheur durera autant que leur postérité."
+        - |-
+          Voici des hommes de miséricorde dont les œuvres de justice n’ont pas été oubliées : Leur bonheur durera autant que leur postérité.
     - psalm: NT_8
       antiphon:
         - Les nations raconteront leur sagesse et l’assemblée proclamera leurs louanges.
@@ -76,7 +77,8 @@ readings:
         - L’Agneau qui se tient au milieu du Trône sera leur Pasteur pour les conduire vers les eaux de la source de vie.
     - psalm: PSALM_32_1
       antiphon:
-        - "Cette foule immense de témoins est là qui nous entoure : courons avec endurance l’épreuve qui nous est proposée."
+        - |-
+          Cette foule immense de témoins est là qui nous entoure : courons avec endurance l’épreuve qui nous est proposée.
     - psalm: NT_32_2
       antiphon:
         - Vous, mes saints, qui en ce monde avez connu le combat, je vous donnerai le prix de votre labeur.

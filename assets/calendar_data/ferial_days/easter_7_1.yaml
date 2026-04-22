@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - "Seigneur, nous t’en prions : que descende sur nous la force de l’Esprit Saint pour que nous puissions discerner ta volonté et l’accomplir tout au long de notre vie."
+    - |-
+      Seigneur, nous t’en prions : que descende sur nous la force de l’Esprit Saint pour que nous puissions discerner ta volonté et l’accomplir tout au long de notre vie.
 
 readings:
   psalmody:
@@ -71,7 +72,8 @@ morning:
         - Tous les peuples viendront vers la maison de Dieu, alléluia.
     - psalm: PSALM_95
       antiphon:
-        - "Dites à tous les peuples : le Seigneur règne, alléluia."
+        - |-
+          Dites à tous les peuples : le Seigneur règne, alléluia.
   reading:
     biblicalReference: Rm 10, 8-10
     content: |-
@@ -82,7 +84,8 @@ morning:
     V/ Lui qui fut cloué pour nous sur le bois. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Vous aurez à souffrir dans le monde, mais ne craignez pas : je suis vainqueur du monde. Alléluia."
+    common: |-
+      Vous aurez à souffrir dans le monde, mais ne craignez pas : je suis vainqueur du monde. Alléluia.
   intercession:
     content: |-
       Avec tous ceux qui ont été justifiés dans l’Esprit de Dieu, élevons vers le Christ une prière unanime :
@@ -124,7 +127,7 @@ middleOfDay:
   sexte:
     reading:
       biblicalReference: Col 2, 9.10a.12
-      content: "Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts."
+      content: Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.

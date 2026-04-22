@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -25,7 +25,7 @@ readings:
     V/ Celui qui fait la vérité
     vient à la lumière.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Le mémorial de la Pâque
       ref: Ex 12, 37-49 – 13, 11-16
       content: |-
@@ -47,7 +47,8 @@ readings:
         Il est venu accomplir la Loi,
         achever sur la croix l’œuvre du Père.
   patristicReading:
-    - title: "ACTES DU II^ème CONCILE DU VATICAN : L’ÉGLISE DANS LE MONDE DE CE TEMPS."
+    - title: |-
+        ACTES DU II^ème CONCILE DU VATICAN : L’ÉGLISE DANS LE MONDE DE CE TEMPS.
       subtitle: Les questions les plus profondes de l’homme
       content: |-
         Le monde actuel apparaît à la fois comme puissant et faible, capable du meilleur et du pire ; le chemin qui s’ouvre devant lui est celui de la liberté ou de la servitude, du progrès ou de la régression, de la fraternité ou de la haine. En outre, l’homme découvre qu’il lui appartient de bien diriger les forces qu’il a mises en mouvement et qui peuvent l’écraser ou le servir. C’est pourquoi il s’interroge. 
@@ -81,13 +82,15 @@ morning:
         - Tu conduis par ton amour, Seigneur, ce peuple que tu as racheté.
     - psalm: OT_1
       antiphon:
-        - "Ma force et mon chant, c’est le Seigneur : il est pour moi le salut."
+        - |-
+          Ma force et mon chant, c’est le Seigneur : il est pour moi le salut.
     - psalm: PSALM_116
       antiphon:
         - Peuples de la terre, louez le Seigneur !
   reading:
     biblicalReference: Is 1, 16-18
-    content: "Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien : recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine."
+    content: |-
+      Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien : recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine.
   responsory: |-
     R/ Le sang de Jésus nous purifie de tout péché.
     V/ Venez et voyez les hauts faits de Dieu. R/
@@ -116,18 +119,21 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_118_5
       antiphon:
-        - "Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur."
+        - |-
+          Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur.
     - psalm: PSALM_33_1
       antiphon:
-        - "Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur."
+        - |-
+          Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur.
     - psalm: PSALM_33_2
       antiphon:
-        - "Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur."
+        - |-
+          Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur.
 
   tierce:
     reading:
       biblicalReference: Ap 3, 19-20
-      content: "Tous ceux que j’aime, je leur montre leurs fautes, et je les châtie. Sois donc fervent et convertis-toi. Voici que je me tiens à la porte, et je frappe. Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui ; je prendrai mon repas avec lui, et lui avec moi."
+      content: Tous ceux que j’aime, je leur montre leurs fautes, et je les châtie. Sois donc fervent et convertis-toi. Voici que je me tiens à la porte, et je frappe. Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui ; je prendrai mon repas avec lui, et lui avec moi.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -135,7 +141,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 44, 21-22
       content: |-
-        Rappelle-toi tout ceci : tu es mon serviteur, je t’ai façonné comme serviteur pour moi ; toi, Israël, tu ne me décevras pas : j’ai effacé comme un nuage tes révoltes, comme une nuée, tes fautes ; reviens à moi, car je t’ai racheté.
+        Rappelle-toi tout ceci : tu es mon serviteur, je t’ai façonné comme serviteur pour moi ; toi, Israël, tu ne me décevras pas : j’ai effacé comme un nuage tes révoltes, comme une nuée, tes fautes ; reviens à moi, car je t’ai racheté.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -143,7 +149,7 @@ middleOfDay:
     reading:
       biblicalReference: Ga 6, 7b-8
       content: |-
-        Dieu ne se laisse pas narguer, car ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle.
+        Dieu ne se laisse pas narguer, car ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.

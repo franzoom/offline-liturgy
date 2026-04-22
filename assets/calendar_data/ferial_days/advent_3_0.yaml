@@ -1,5 +1,5 @@
 celebration:
-  title: Troisième Dimanche de l'Avent
+  title: Troisième Dimanche de l’Avent
   subtitle: null
   description: Troisième Dimanche de l’Avent – « Gaudete »
 firstVespers:
@@ -9,13 +9,15 @@ firstVespers:
         - Réjouis-toi, Jérusalem, voici ton Sauveur, alléluia.
     - psalm: PSALM_115
       antiphon:
-        - "J’ai fait approcher ma justice : mon salut n’est pas loin !"
+        - |-
+          J’ai fait approcher ma justice : mon salut n’est pas loin !
     - psalm: NT_5
       antiphon:
         - Seigneur, envoie l’Agneau, le souverain de la terre, vers la montagne de Sion.
   reading:
     biblicalReference: 1 Th 5, 23-24
-    content: "Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira."
+    content: |-
+      Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira.
   responsory: |-
     R/ Que l’univers chante et crie de joie :
     * Car le Seigneur vient.
@@ -128,7 +130,8 @@ morning:
   psalmody:
     - psalm: PSALM_92
       antiphon:
-        - "Le Seigneur est proche : il vient dissiper les ténèbres, il vient éclairer tous les peuples."
+        - |-
+          Le Seigneur est proche : il vient dissiper les ténèbres, il vient éclairer tous les peuples.
     - psalm: OT_41
       antiphon:
         - Que les rochers se changent en plaines, et les hauteurs en large vallée ! Viens, Seigneur, viens, ne tarde plus !
@@ -171,29 +174,29 @@ middleOfDay:
         - Béni soit au nom du Seigneur, celui qui vient !
     - psalm: PSALM_117_2
       antiphon:
-        - "Béni soit au nom du Seigneur, celui qui vient !"
+        - Béni soit au nom du Seigneur, celui qui vient !
     - psalm: PSALM_117_3
       antiphon:
-        - "Béni soit au nom du Seigneur, celui qui vient !"
+        - Béni soit au nom du Seigneur, celui qui vient !
 
   tierce:
     reading:
       biblicalReference: Rm 13, 13-14a
-      content: "Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ."
+      content: Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
   sexte:
     reading:
       biblicalReference: 1 Th 3, 12-13
-      content: "Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints."
+      content: Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Cf. 2 Th 1, 6.7.10
-      content: "Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru."
+      content: Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -204,13 +207,15 @@ vespers:
         - Voici que vient le Seigneur, il vient siéger parmi les princes et recevoir un trône de gloire !
     - psalm: PSALM_110
       antiphon:
-        - "Justice et joie sur l’univers ! Le Seigneur vient avec puissance : il est la lumière du monde."
+        - |-
+          Justice et joie sur l’univers ! Le Seigneur vient avec puissance : il est la lumière du monde.
     - psalm: NT_12
       antiphon:
         - Vivons avec justice et droiture, attendons la venue du Seigneur.
   reading:
     biblicalReference: Ph 4, 4-5
-    content: "Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche."
+    content: |-
+      Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche.
   responsory: |-
     R/ Réjouissons-nous dans le Seigneur !
     Réjouissons-nous, car il est proche !

@@ -55,7 +55,7 @@ readings:
       content: |-
         Dieu, voyant le monde ravagé par la crainte, agit sans cesse pour le rappeler à lui avec amour, le solliciter par la grâce, le soutenir par la charité, et l’envelopper de tendresse. 
         Voilà pourquoi il a purifié la terre qui vieillissait dans le péché par le châtiment du déluge ; il appelle Noé à engendrer un monde nouveau ; il le sollicite par d’affectueuses paroles, il lui donne confiance par sa familiarité, il l’instruit paternellement des événements présents, il le réconforte par la grâce en vue des épreuves futures. Il ne lui commande pas, mais en le faisant participer à son œuvre, il enferme dans l’arche tout l’avenir du monde, afin que cette association aimante chasse la crainte servile, et que cet amour commun conserve ce qui avait été sauvé par une œuvre commune. 
-        Voilà pourquoi il appelle Abraham à sortir du paganisme, il anoblit son nom, il en fait le père de la foi ; il l’accompagne dans son voyage, il le protège des étrangers, il l’enrichit ; il en fait un vainqueur, il lui donne le gage de ses promesses, il le fait échapper aux outrages ; il devient aimablement son hôte, il l’émerveille en lui donnant un descendant qu’il n’espérait plus ; afin que comblé de tant de bienfaits, choyé par une telle douceur d’amour divin, il apprenne à aimer Dieu, non à le craindre ; à l’honorer en l’aimant, non en le redoutant. 
+        Voilà pourquoi il appelle Abraham à sortir du paganisme, il anoblit son nom, il en fait le père de la foi ; il l’accompagne dans son voyage, il le protège des étrangers, il l’enrichit ; il en fait un vainqueur, il lui donne le gage de ses promesses, il le fait échapper aux outrages ; il devient aimablement son hôte, il l’émerveille en lui donnant un descendant qu’il n’espérait plus ; afin que comblé de tant de bienfaits, choyé par une telle douceur d’amour divin, il apprenne à aimer Dieu, non à le craindre ; à l’honorer en l’aimant, non en le redoutant. 
         Voilà pourquoi il réconforte par des songes Jacob fuyant son frère, il le provoque au combat lors de son retour, il le terrasse en l’étreignant comme fait un lutteur, afin qu’il aime le père qui lutte avec lui, au lieu de le craindre. 
         Voilà pourquoi il appelle Moïse dans sa langue maternelle, il l’interpelle avec la tendresse d’un père, il l’invite à être le libérateur de son peuple. 
         Mais à cause de tous ces faits que nous avons rappelés, où la flamme de l’amour divin embrase les cœurs, où l’ivresse de l’amour de Dieu se répand dans tous les sentiments de l’homme, certains, de leur âme blessée, ont voulu voir Dieu par leurs yeux de chair. 
@@ -121,32 +121,35 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_118_9
       antiphon:
-        - "Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime."
+        - |-
+          Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime.
     - psalm: PSALM_55
       antiphon:
-        - "Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime."
+        - |-
+          Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime.
     - psalm: PSALM_56
       antiphon:
-        - "Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime."
+        - |-
+          Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime.
 
   tierce:
     reading:
       biblicalReference: Mi 5, 3-4a
-      content: "Celui qui doit gouverner Israël se dressera et sera leur berger par la puissance du Seigneur, par la majesté du nom de son Dieu. Ils vivront en sécurité, car désormais sa puissance s’étendra jusqu’aux extrémités de la terre, et lui-même, il sera la paix !"
+      content: Celui qui doit gouverner Israël se dressera et sera leur berger par la puissance du Seigneur, par la majesté du nom de son Dieu. Ils vivront en sécurité, car désormais sa puissance s’étendra jusqu’aux extrémités de la terre, et lui-même, il sera la paix !
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
   sexte:
     reading:
       biblicalReference: Ag 2, 6b.9
-      content: "Encore un peu de temps, et je vais ébranler le ciel et la terre, la mer et les continents. La splendeur future de ce Temple surpassera la première, et dans ce lieu, je vous ferai don de la paix. Parole du Seigneur de l’univers."
+      content: Encore un peu de temps, et je vais ébranler le ciel et la terre, la mer et les continents. La splendeur future de ce Temple surpassera la première, et dans ce lieu, je vous ferai don de la paix. Parole du Seigneur de l’univers.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Ml 3, 20
-      content: "Pour vous qui craignez mon nom, le soleil de justice se lèvera, portant la guérison dans ses rayons, et vous sortirez en bondissant comme de jeunes bêtes à la pâture, dit le Seigneur, le Tout-Puissant."
+      content: Pour vous qui craignez mon nom, le soleil de justice se lèvera, portant la guérison dans ses rayons, et vous sortirez en bondissant comme de jeunes bêtes à la pâture, dit le Seigneur, le Tout-Puissant.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -163,7 +166,8 @@ vespers:
         - Vienne le Seigneur, le roi de la gloire ! Vienne le Messie, le Fils de Dieu !
   reading:
     biblicalReference: Jc 5, 7-8.9b
-    content: "Frères, en attendant la venue du Seigneur, ayez de la patience. Voyez le cultivateur : il attend les produits précieux de la terre avec patience, jusqu’à ce qu’il ait fait la première et la dernière récoltes. Ayez de la patience, vous aussi, et soyez fermes, car la venue du Seigneur est proche. Voyez : le Juge est à notre porte."
+    content: |-
+      Frères, en attendant la venue du Seigneur, ayez de la patience. Voyez le cultivateur : il attend les produits précieux de la terre avec patience, jusqu’à ce qu’il ait fait la première et la dernière récoltes. Ayez de la patience, vous aussi, et soyez fermes, car la venue du Seigneur est proche. Voyez : le Juge est à notre porte.
   responsory: |-
     R/ À toi, Dieu, nous rendons grâce :
     * Ton Nom est proche.

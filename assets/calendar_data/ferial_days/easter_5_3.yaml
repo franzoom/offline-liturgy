@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - "Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles : tu les as libérés des ténèbres de l’incroyance, fais qu’ils n’abandonnent jamais la lumière de ta vérité."
+    - |-
+      Dieu qui aimes l’innocence et la fais recouvrer, oriente vers toi le cœur de tes fidèles : tu les as libérés des ténèbres de l’incroyance, fais qu’ils n’abandonnent jamais la lumière de ta vérité.
 
 readings:
   psalmody:
@@ -125,7 +126,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Rm 4, 24b-25
-      content: "Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification."
+      content: Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
@@ -140,7 +141,7 @@ middleOfDay:
   none:
     reading:
       biblicalReference: Ep 4, 23-24
-      content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
+      content: Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu.
 
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
@@ -152,7 +153,8 @@ vespers:
         - Par la puissance de Dieu, tu es chef et sauveur de ton peuple, alléluia.
     - psalm: PSALM_26_2
       antiphon:
-        - "Je le crois : je verrai la bonté du Seigneur sur la terre des vivants, alléluia."
+        - |-
+          Je le crois : je verrai la bonté du Seigneur sur la terre des vivants, alléluia.
     - psalm: NT_6
       antiphon:
         - Tout vient de lui, tout est pour lui, tout est en lui ! Gloire à Dieu dans les siècles !

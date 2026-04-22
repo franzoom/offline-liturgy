@@ -45,7 +45,7 @@ readings:
       content: |-
         Vous avez été baptisés dans le Christ, et vous avez revêtu le Christ ; vous avez donc été configurés au Fils de Dieu. En effet, Dieu qui nous a prédestinés à la filiation adoptive nous a configurés au corps de gloire du Christ. Puisque vous êtes maintenant participants du Christ, vous êtes a juste titre appelés vous-mêmes « christs », et c’est de vous que Dieu disait : %Ne touchez pas à mes christs%. 
         Or, vous êtes devenus des christs en recevant l’empreinte de l’Esprit Saint ; et tout s’est accompli pour vous en image, parce que vous êtes les images du Christ. Pour lui, quand il se fut baigné dans le fleuve du Jourdain et qu’il eut communiqué aux eaux le contact de sa divinité, il en remonta ; et la venue substantielle du Saint-Esprit sur lui se produisit, le semblable se reposant sur le semblable. 
-        Il en est pareillement pour vous : une fois que vous êtes remontés de la piscine sainte, eut lieu la chrismation, image exacte de celle dont fut marqué le Christ. Il s’agit de l’Esprit Saint. Le prophète Isaïe, faisant parler le Seigneur, disait de lui : %L’Esprit du Seigneur est sur moi ; car il m’a consacré par la chrismation ; il m’a envoyé porter la Bonne Nouvelle aux pauvres%. 
+        Il en est pareillement pour vous : une fois que vous êtes remontés de la piscine sainte, eut lieu la chrismation, image exacte de celle dont fut marqué le Christ. Il s’agit de l’Esprit Saint. Le prophète Isaïe, faisant parler le Seigneur, disait de lui : %L’Esprit du Seigneur est sur moi ; car il m’a consacré par la chrismation ; il m’a envoyé porter la Bonne Nouvelle aux pauvres%. 
         En effet, le Christ n’a pas été chrismé par les hommes d’une huile ou d’un parfum matériels. Mais c’est le Père qui, l’ayant consacré d’avance comme le Sauveur du monde l’a marqué de l’Esprit Saint, comme le dit saint Pierre : %Jésus de Nazareth, que Dieu a chrismé d’Esprit Saint%. Et le prophète David proclamait : %Ô Dieu, ton trône est pour les siècles des siècles : c’est un sceptre de droiture, le sceptre de ta royauté. Tu aimes la justice et tu hais l’impiété ; c’est pourquoi Dieu, ton Dieu, t’a consacré d’une huile d’allégresse, de préférence à tes rivaux%. ~ 
         Le Christ a été marqué par l’huile spirituelle d’allégresse, c’est-à-dire par l’Esprit Saint, qui est appelé huile d’allégresse parce qu’il est l’auteur de l’allégresse spirituelle ; et vous, vous avez été oints de parfum, vous êtes devenus participants et compagnons du Christ. 
         Mais ne va pas t’imaginer que ce parfum est quelque chose d’ordinaire. ~ Ce saint parfum, après l’invocation pour obtenir le Saint-Esprit, n’est plus un parfum ordinaire et, pourrait-on dire, commun. Il est don spirituel du Christ, devenu, par la présence de l’Esprit Saint, agent efficace de sa divinité. C’est de ce parfum qu’on te chrisme symboliquement sur le front et les autres organes des sens. Tandis que ton corps est oint de parfum visible, l’âme est sanctifiée par le saint et vivifiant Esprit.
@@ -77,7 +77,8 @@ morning:
     V/ Par sa mort, il a détruit la mort,
     aux morts il a rendu la vie. R/
   evangelicAntiphon:
-    common: "Le disciple que Jésus aimait dit à Pierre : C’est le Seigneur ! Alléluia."
+    common: |-
+      Le disciple que Jésus aimait dit à Pierre : C’est le Seigneur ! Alléluia.
   intercession:
     content: |-
       Jésus, notre berger, ta mort disperse le troupeau,
@@ -119,7 +120,7 @@ middleOfDay:
   sexte:
     reading:
       biblicalReference: Ga 3, 27-28
-      content: "Vous tous que le baptême a unis au Christ, vous avez revêtu le Christ ; il n’y a plus ni Juif ni païen, il n’y a plus ni esclave ni homme libre, il n’y a plus ni l’homme ni la femme, car tous, vous ne faites plus qu’un dans le Christ."
+      content: Vous tous que le baptême a unis au Christ, vous avez revêtu le Christ ; il n’y a plus ni Juif ni païen, il n’y a plus ni esclave ni homme libre, il n’y a plus ni l’homme ni la femme, car tous, vous ne faites plus qu’un dans le Christ.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
@@ -145,7 +146,8 @@ vespers:
     V/ Par sa mort, il a détruit la mort,
     aux morts il a rendu la vie. R/
   evangelicAntiphon:
-    common: "Aucun des disciples n’osait lui demander qui il était : ils savaient que c’était le Seigneur, alléluia !"
+    common: |-
+      Aucun des disciples n’osait lui demander qui il était : ils savaient que c’était le Seigneur, alléluia !
   intercession:
     content: |-
       Agneau pascal, immolé, toujours vivant,

@@ -31,7 +31,8 @@ firstVespers:
     V/ Le Seigneur fera germer l’action de grâce
     devant toutes les nations. R/
   evangelicAntiphon:
-    common: "Le Seigneur a fait pour toi des merveilles : tous les âges te diront bienheureuse."
+    common: |-
+      Le Seigneur a fait pour toi des merveilles : tous les âges te diront bienheureuse.
 
 readings:
   hymn:
@@ -45,7 +46,8 @@ readings:
         - Dieu la reconnut dès l’aurore, le Très-Haut a sanctifié sa demeure.
     - psalm: PSALM_86
       antiphon:
-        - "On chante ta gloire, ô Marie : car le Puissant a fait pour toi des merveilles."
+        - |-
+          On chante ta gloire, ô Marie : car le Puissant a fait pour toi des merveilles.
   verse: |-
     V/ Le Seigneur m’a comblée de joie,
     il m’a revêtue de sainteté.
@@ -106,7 +108,8 @@ morning:
         - Tu es bénie du Très-Haut, Vierge Marie, tu es bénie entre toutes les femmes.
     - psalm: PSALM_149
       antiphon:
-        - "Entraîne-nous, Vierge très pure : que nous courions sur tes pas à l’odeur de tes parfums !"
+        - |-
+          Entraîne-nous, Vierge très pure : que nous courions sur tes pas à l’odeur de tes parfums !
   reading:
     biblicalReference: Is 43, 1
     content: C’est moi qui t’ai créé, Jacob, qui t’ai formé, Israël. Ne crains pas, car je t’ai racheté, je t’ai appelé par ton nom, tu m’appartiens.
@@ -118,7 +121,8 @@ morning:
     V/ Dieu pour toi exulte de joie,
     il te renouvelle par son amour. R/
   evangelicAntiphon:
-    common: "Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance : elle t’écrasera la tête. Alléluia."
+    common: |-
+      Je mettrai l’hostilité entre toi et la femme, entre ta descendance et sa descendance : elle t’écrasera la tête. Alléluia.
 
 middleOfDay:
   psalmody:
@@ -126,7 +130,8 @@ middleOfDay:
     - psalm: PSALM_123
     - psalm: PSALM_124
   tierce:
-    antiphon: "Il est vivant le Seigneur : il m’a comblée de sa miséricorde !"
+    antiphon: |-
+      Il est vivant le Seigneur : il m’a comblée de sa miséricorde !
     reading:
       biblicalReference: Ep 1, 4
       content: Dieu il nous a choisis avant la création du monde, pour que nous soyons, dans l’amour, saints et irréprochables sous son regard.
@@ -134,7 +139,8 @@ middleOfDay:
       V/ Célébrons la conception immaculée de Marie,
       elle a foulé aux pieds la tête du serpent.
   sexte:
-    antiphon: "Le Seigneur a mis en toi son amour : tu seras la joie de ton Dieu."
+    antiphon: |-
+      Le Seigneur a mis en toi son amour : tu seras la joie de ton Dieu.
     reading:
       biblicalReference: Ep 1, 11-12
       content: En Jésus Christ, Dieu nous a d’avance destinés à devenir son peuple ; car lui, qui réalise tout ce qu’il a décidé, il a voulu que nous soyons ceux qui d’avance avaient espéré dans le Christ, à la louange de sa gloire.

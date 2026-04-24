@@ -17,10 +17,12 @@ firstVespers:
         - Venez, filles de Dieu, approchez du Seigneur, et vous serez dans la lumière !
     - psalm: PSALM_147
       antiphon:
-        - "Oui, de tout notre cœur, nous te suivons : remplis de crainte, nous cherchons ton visage."
+        - |-
+          Oui, de tout notre cœur, nous te suivons : remplis de crainte, nous cherchons ton visage.
     - psalm: NT_4
       antiphon:
-        - "Réjouissez-vous, vierges du Christ : vous êtes à lui pour toujours."
+        - |-
+          Réjouissez-vous, vierges du Christ : vous êtes à lui pour toujours.
   reading:
     biblicalReference: 1Co 7, 32b.34a
     content: Celui qui n’est pas marié a le souci des affaires du Seigneur, il cherche comment plaire au Seigneur. La femme sans mari, ou celle qui reste vierge, a le souci des affaires du Seigneur ; elle veut lui consacrer son corps et son esprit.
@@ -64,7 +66,8 @@ readings:
   psalmody:
     - psalm: PSALM_18A
       antiphon:
-        - "Voici l’Époux qui vient : allez à la rencontre du Christ, alléluia."
+        - |-
+          Voici l’Époux qui vient : allez à la rencontre du Christ, alléluia.
     - psalm: PSALM_44_1
       antiphon:
         - Voici le Christ, l’Église est sa fiancée comme une vierge pure, alléluia.
@@ -152,7 +155,8 @@ morning:
         - Librement, je t’ai donné ma foi, ô Jésus Christ, mon âme a soif de toi et mon cœur te désire.
     - psalm: OT_41
       antiphon:
-        - "Vierges du Seigneur, bénissez-le : le Dieu qui vous donna de vous offrir à lui, couronne en vous ses dons."
+        - |-
+          Vierges du Seigneur, bénissez-le : le Dieu qui vous donna de vous offrir à lui, couronne en vous ses dons.
     - psalm: PSALM_149
       antiphon:
         - Pour avoir triomphé de la chair et du sang, elle exultera dans la gloire de Dieu.
@@ -201,7 +205,8 @@ middleOfDay:
       V/ J’ai rencontré celui que j’aime,
       je l’ai saisi, je ne le lâcherai pas.
   none:
-    antiphon: "Heureux les cœurs purs que Dieu s’est choisis : ils resplendiront de sa lumière."
+    antiphon: |-
+      Heureux les cœurs purs que Dieu s’est choisis : ils resplendiront de sa lumière.
     reading:
       biblicalReference: Ap 19, 6b-7
       content: Le Seigneur notre Dieu a pris possession de sa royauté, lui le Tout-Puissant. Soyons dans la joie, exultons, rendons-lui gloire, car voici les noces de l’Agneau. Son épouse a revêtu ses parures.
@@ -218,7 +223,8 @@ vespers:
         - Je me garde pure pour toi, ô Jésus, et la lampe à la main, j’accours vers toi.
     - psalm: PSALM_126
       antiphon:
-        - "Heureux les cœurs purs : ils verront Dieu."
+        - |-
+          Heureux les cœurs purs : ils verront Dieu.
     - psalm: NT_4
       antiphon:
         - Mon cœur est ferme, ô Dieu, il est fondé sur le Christ.
@@ -233,7 +239,7 @@ vespers:
     V/ Tu sauras que je suis le Seigneur :
     ouvre ton cœur à l’allégresse. R/
   evangelicAntiphon:
-    common: Viens, épouse du Chrsit, reçois la couronne que Dieu t'a préparée.
+    common: Viens, épouse du Chrsit, reçois la couronne que Dieu t’a préparée.
   intercession:
     content: |-
       Le Christ a loué ceux qui se consacraient de corps et d’âme au royaume des cieux ;

@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -14,18 +14,21 @@ readings:
   psalmody:
     - psalm: PSALM_36_1
       antiphon:
-        - "Humiliez-vous devant le Seigneur : il vous élèvera."
+        - |-
+          Humiliez-vous devant le Seigneur : il vous élèvera.
     - psalm: PSALM_36_2
       antiphon:
-        - "Humiliez-vous devant le Seigneur : il vous élèvera."
+        - |-
+          Humiliez-vous devant le Seigneur : il vous élèvera.
     - psalm: PSALM_36_3
       antiphon:
-        - "Humiliez-vous devant le Seigneur : il vous élèvera."
+        - |-
+          Humiliez-vous devant le Seigneur : il vous élèvera.
   verse: |-
     V/ C’est maintenant le jour favorable,
     c’est maintenant le jour du salut.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Au désert Dieu nourrit son peuple
       ref: Ex 16, 1-18.35
       content: |-
@@ -87,7 +90,8 @@ morning:
   psalmody:
     - psalm: PSALM_42
       antiphon:
-        - "Envoie ta lumière et ta vérité : qu’elles guident mes pas !"
+        - |-
+          Envoie ta lumière et ta vérité : qu’elles guident mes pas !
     - psalm: OT_23
       antiphon:
         - Le Seigneur n’est pas le Dieu des morts, mais le Dieu des vivants.
@@ -103,7 +107,8 @@ morning:
     V/ Prends pitié de moi, relève-moi. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Un seul est votre maître, celui qui est aux cieux : le Christ, le Seigneur."
+    common: |-
+      Un seul est votre maître, celui qui est aux cieux : le Christ, le Seigneur.
   intercession:
     content: |-
       R/ Entends le cri des hommes monter vers toi, Seigneur.
@@ -122,29 +127,29 @@ middleOfDay:
         - Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère.
     - psalm: PSALM_52
       antiphon:
-        - "Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère."
+        - Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère.
     - psalm: PSALM_53
       antiphon:
-        - "Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère."
+        - Souviens-toi de ta parole, Seigneur, c’est mon réconfort dans ma misère.
   tierce:
     reading:
       biblicalReference: Jl 2, 17
       content: |-
-        Entre le portail et l’autel, les prêtres, ministres du Seigneur, iront pleurer et diront : "Pitié, Seigneur, pour ton peuple, n’expose pas ceux qui t’appartiennent à l’insulte et aux moqueries des païens !"
+        Entre le portail et l’autel, les prêtres, ministres du Seigneur, iront pleurer et diront : "Pitié, Seigneur, pour ton peuple, n’expose pas ceux qui t’appartiennent à l’insulte et aux moqueries des païens !"
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Jr 3, 25b
-      content: "Oui, nous sommes fautifs envers le Seigneur notre Dieu, nous et nos pères, depuis notre jeunesse jusqu’à ce jour ; nous n’avons pas écouté la voix du Seigneur notre Dieu."
+      content: Oui, nous sommes fautifs envers le Seigneur notre Dieu, nous et nos pères, depuis notre jeunesse jusqu’à ce jour ; nous n’avons pas écouté la voix du Seigneur notre Dieu.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: Is 58, 1-2
-      content: "Crie à pleine gorge ! Ne te retiens pas ! Que ta voix résonne comme le cor ! Dénonce à mon peuple ses fautes, à la maison de Jacob ses péchés. Ils viennent me consulter jour après jour, ils veulent connaître mes chemins, comme une nation qui pratiquerait la justice et n’abandonnerait pas la loi de son Dieu."
+      content: Crie à pleine gorge ! Ne te retiens pas ! Que ta voix résonne comme le cor ! Dénonce à mon peuple ses fautes, à la maison de Jacob ses péchés. Ils viennent me consulter jour après jour, ils veulent connaître mes chemins, comme une nation qui pratiquerait la justice et n’abandonnerait pas la loi de son Dieu.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.

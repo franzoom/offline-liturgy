@@ -9,7 +9,8 @@ invitatory:
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
 
 oration:
-    - "Que notre prière, Seigneur, se fraie un chemin jusqu’à toi : suscite au cœur de ceux qui te servent les désirs purs, les désirs forts, qui les prépareront au mystère de l’incarnation de ton Fils. Lui qui règne."
+    - |-
+      Que notre prière, Seigneur, se fraie un chemin jusqu’à toi : suscite au cœur de ceux qui te servent les désirs purs, les désirs forts, qui les prépareront au mystère de l’incarnation de ton Fils. Lui qui règne.
 
 readings:
   psalmody:
@@ -82,7 +83,8 @@ morning:
     V/ Toute chair verra sa gloire. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Convertissez-vous : proche est le Royaume, alléluia."
+    common: |-
+      Convertissez-vous : proche est le Royaume, alléluia.
   intercession:
     content: |-
       Nous t’en prions, Jésus notre Sauveur venu annoncer aux pauvres la bonne nouvelle du salut :
@@ -111,15 +113,15 @@ middleOfDay:
         - Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse.
     - psalm: PSALM_39_1
       antiphon:
-        - "Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse."
+        - Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse.
     - psalm: PSALM_39_2
       antiphon:
-        - "Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse."
+        - Que vienne à moi, Seigneur, ton amour, et ton salut selon ta promesse.
 
   tierce:
     reading:
       biblicalReference: Cf. Is 10, 20-21
-      content: "Il adviendra, en ce jour-là, que le reste d’Israël et les rescapés de la maison de Jacob s’appuieront vraiment sur le Seigneur, sur le Saint d’Israël. Un reste reviendra, le reste de Jacob, vers le Dieu-Fort."
+      content: Il adviendra, en ce jour-là, que le reste d’Israël et les rescapés de la maison de Jacob s’appuieront vraiment sur le Seigneur, sur le Saint d’Israël. Un reste reviendra, le reste de Jacob, vers le Dieu-Fort.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
@@ -127,14 +129,14 @@ middleOfDay:
     reading:
       biblicalReference: Cf. Is 10, 24-27
       content: |-
-        Ainsi parle le Seigneur, Dieu de l’univers : Ô mon peuple qui habites en Sion, ne crains pas. Il adviendra, en ce jour-là, que le fardeau glissera de ton épaule et le joug, de ta nuque.
+        Ainsi parle le Seigneur, Dieu de l’univers : Ô mon peuple qui habites en Sion, ne crains pas. Il adviendra, en ce jour-là, que le fardeau glissera de ton épaule et le joug, de ta nuque.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Is 13, 22b ; 14, 1a
-      content: "Son heure est proche, son jour ne tardera pas. Le Seigneur aura pitié de Jacob. Il choisira encore Israël."
+      content: Son heure est proche, son jour ne tardera pas. Le Seigneur aura pitié de Jacob. Il choisira encore Israël.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -156,7 +158,8 @@ vespers:
     V/ De toi vient le relèvement. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime."
+    common: |-
+      Voici le Roi, le Seigneur de la terre : il ôtera le joug qui nous opprime.
   intercession:
     content: |-
       Seigneur Jésus envoyé par le Père,

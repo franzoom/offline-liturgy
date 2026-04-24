@@ -17,7 +17,8 @@ firstVespers:
         - Le Seigneur est grand, plus grand que tous les dieux.
     - psalm: NT_7
       antiphon:
-        - "Brillante comme un feu, l’étoile désignait le Roi des rois ; les mages l’ont vue : à ce roi, ils offrent leurs présents ;"
+        - |-
+          Brillante comme un feu, l’étoile désignait le Roi des rois ; les mages l’ont vue : à ce roi, ils offrent leurs présents ;
   reading:
     biblicalReference: 2 Tm 1, 9-10
     content: Dieu nous a sauvés, et il nous a donné une vocation sainte, non pas à cause de nos propres actes, mais à cause de son projet à lui et de sa grâce. Cette grâce nous avait été donnée dans le Christ Jésus avant tous les siècles, et maintenant elle est devenue visible à nos yeux, car notre Sauveur, le Christ Jésus, s’est manifesté en détruisant la mort, et en faisant resplendir la vie et l’immortalité par l’annonce de l’Évangile.
@@ -27,7 +28,8 @@ firstVespers:
     V/ Que les peuples du monde le bénissent !R/
     V/ Toute la terre soit remplie de sa gloire !R/
   evangelicAntiphon:
-    common: "À la vue de l’étoile, les mages se dirent entre eux : Voici le règne du grand Roi, allons à sa recherche ; offrons-lui en présent l’or, l’encens et la myrrhe, alléluia."
+    common: |-
+      À la vue de l’étoile, les mages se dirent entre eux : Voici le règne du grand Roi, allons à sa recherche ; offrons-lui en présent l’or, l’encens et la myrrhe, alléluia.
   intercession:
     content: |-
       Adorons celui que Dieu a révélé comme la lumière du monde et le salut des peuples :
@@ -116,7 +118,7 @@ readings:
         R/ Augmente ma lumière, Seigneur,
         mon Dieu, éclaire mes ténèbres.
   oration:
-    - Aujourd’hui, Seigneur, tu as révélé ton Fils unique aux nations, grâce à l’étoile qui les guidait ; daigne nous accorder, à nous qui te connaissons déjà par la foi, d’être conduits jusqu’à la claire vision de ta splendeur.
+    - Aujourd’hui, Seigneur, tu as révélé ton Fils unique aux nations, grâce à l’étoile qui les guidait ; daigne nous accorder, à nous qui te connaissons déjà par la foi, d’être conduits jusqu’à la claire vision de ta splendeur.
 
 morning:
   hymn:
@@ -124,16 +126,19 @@ morning:
   psalmody:
     - psalm: PSALM_62
       antiphon:
-        - "Les mages offrirent leurs présents : l’or, l’encens et la myrrhe, alléluia."
+        - |-
+          Les mages offrirent leurs présents : l’or, l’encens et la myrrhe, alléluia.
     - psalm: OT_41
       antiphon:
         - Océans et rivières, sources et fontaines, chantez pour le Seigneur, alléluia.
     - psalm: PSALM_149
       antiphon:
-        - "Ta lumière est venue, Jérusalem, la gloire du Seigneur s’est levée sur toi : les nations marcheront vers ta lumière, alléluia."
+        - |-
+          Ta lumière est venue, Jérusalem, la gloire du Seigneur s’est levée sur toi : les nations marcheront vers ta lumière, alléluia.
   reading:
     biblicalReference: Is 52, 7-10
-    content: "Comme il est beau de voir courir sur les montagnes le messager qui annonce la paix, le messager de la bonne nouvelle, qui annonce le salut, celui qui vient dire à la cité sainte : « Il est roi, ton Dieu ! » Écoutez la voix des guetteurs, leur appel retentit, c’est un seul cri de joie ; ils voient de leurs yeux le Seigneur qui revient à Sion. Éclatez en cris de joie, ruines de Jérusalem, car le Seigneur a consolé son peuple. Il rachète Jérusalem ! Le Seigneur a montré la force divine de son bras aux yeux de toutes les nations. Et, d’un bout à l’autre de la terre, elles verront le salut de notre Dieu."
+    content: |-
+      Comme il est beau de voir courir sur les montagnes le messager qui annonce la paix, le messager de la bonne nouvelle, qui annonce le salut, celui qui vient dire à la cité sainte : « Il est roi, ton Dieu ! » Écoutez la voix des guetteurs, leur appel retentit, c’est un seul cri de joie ; ils voient de leurs yeux le Seigneur qui revient à Sion. Éclatez en cris de joie, ruines de Jérusalem, car le Seigneur a consolé son peuple. Il rachète Jérusalem ! Le Seigneur a montré la force divine de son bras aux yeux de toutes les nations. Et, d’un bout à l’autre de la terre, elles verront le salut de notre Dieu.
   responsory: |-
     R/ Lève-toi, resplendis, car elle est venue, ta lumière !
     * La gloire du Seigneur s’est levée sur toi.
@@ -141,7 +146,8 @@ morning:
     V/ Ils s’avancent à la clarté de ton aurore. *
     V/ Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Aujourd’hui, l’Église est unie à son Époux : le Christ, au Jourdain, la purifie de ses fautes, les mages apportent leurs présents aux noces royales, l’eau est changée en vin, pour la joie des convives, alléluia."
+    common: |-
+      Aujourd’hui, l’Église est unie à son Époux : le Christ, au Jourdain, la purifie de ses fautes, les mages apportent leurs présents aux noces royales, l’eau est changée en vin, pour la joie des convives, alléluia.
   intercession:
     content: |-
       À la suite des mages, adorons notre Sauveur et chantons sa louange :
@@ -183,7 +189,8 @@ middleOfDay:
     antiphon: Le Christ est venu proclamer la paix, la paix à vous qui étiez loin, la paix à ceux qui étaient proches.
     reading:
       biblicalReference: Is 49, 6
-      content: "Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
+      content: |-
+        Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre.
     responsory: |-
       V/ Les nations verront ta justice,
       tous les rois verront ta gloire.

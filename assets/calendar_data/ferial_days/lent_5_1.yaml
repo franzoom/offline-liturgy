@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -14,13 +14,16 @@ readings:
   psalmody:
     - psalm: PSALM_9A_1
       antiphon:
-        - "Maintenant mon âme est troublée, mais je dis : Père glorifie ton nom."
+        - |-
+          Maintenant mon âme est troublée, mais je dis : Père glorifie ton nom.
     - psalm: PSALM_9A_2
       antiphon:
-        - "Le Seigneur a connu la souffrance : il peut venir en aide au pauvre dans l’épreuve."
+        - |-
+          Le Seigneur a connu la souffrance : il peut venir en aide au pauvre dans l’épreuve.
     - psalm: PSALM_6
       antiphon:
-        - "Le Seigneur a connu la souffrance : il peut venir en aide au pauvre dans l’épreuve."
+        - |-
+          Le Seigneur a connu la souffrance : il peut venir en aide au pauvre dans l’épreuve.
   verse: |-
     V/ Convertissez-vous et croyez à la Bonne Nouvelle,
     le Règne de Dieu est là.
@@ -76,7 +79,8 @@ morning:
         - Rendez au Seigneur la gloire de son nom.
   reading:
     biblicalReference: Jr 11, 19-20
-    content: "Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas ce qu’ils préparaient contre moi. Ils disaient : « Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom. » Seigneur de l’univers, toi qui juges avec justice, qui scrutes les reins et les cœurs, fais-moi voir la vengeance que tu leur infligeras, car c’est à toi que je confie ma cause."
+    content: |-
+      Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas ce qu’ils préparaient contre moi. Ils disaient : « Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom. » Seigneur de l’univers, toi qui juges avec justice, qui scrutes les reins et les cœurs, fais-moi voir la vengeance que tu leur infligeras, car c’est à toi que je confie ma cause.
   responsory: |-
     R/ Souviens-toi de Jésus Christ
     ressuscité d’entre les morts :
@@ -86,7 +90,8 @@ morning:
     V/ Si nous souffrons avec lui,
     avec lui nous régnerons. R/
   evangelicAntiphon:
-    common: "Tout homme qui me suit ne marche pas dans les ténèbres : il aura la lumière de la vie."
+    common: |-
+      Tout homme qui me suit ne marche pas dans les ténèbres : il aura la lumière de la vie.
   intercession:
     content: |-
       Jésus, notre Sauveur, par le baptême tu nous as fait renaître à une vie nouvelle :
@@ -118,14 +123,14 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Ez 33, 11
-      content: "Nos révoltes et nos péchés sont sur nous, nous pourrissons à cause d’eux, comment pourrons-nous vivre ? - Par ma vie - oracle du Seigneur Dieu - est-ce que je prends plaisir à la mort du méchant ? Bien plutôt à ce que le méchant change de conduite et qu’il vive !"
+      content: Nos révoltes et nos péchés sont sur nous, nous pourrissons à cause d’eux, comment pourrons-nous vivre ? - Par ma vie - oracle du Seigneur Dieu - est-ce que je prends plaisir à la mort du méchant ? Bien plutôt à ce que le méchant change de conduite et qu’il vive !
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Jr 18, 20
-      content: "Comment peut-on rendre le mal pour le bien ? Mes adversaires ont creusé une fosse pour me perdre. Souviens-toi que je me suis tenu en ta présence pour te parler en leur faveur, pour détourner d’eux ta colère."
+      content: Comment peut-on rendre le mal pour le bien ? Mes adversaires ont creusé une fosse pour me perdre. Souviens-toi que je me suis tenu en ta présence pour te parler en leur faveur, pour détourner d’eux ta colère.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -133,7 +138,7 @@ middleOfDay:
     reading:
       biblicalReference: Jr 31, 2.3b-4a
       content: |-
-        Ainsi parle le Seigneur : Il a trouvé grâce dans le désert, le peuple qui a échappé au massacre ; Israël est en route vers son repos. Je t’ai aimée d’un amour éternel, aussi je te garde ma bienveillance, je vais te rétablir, et tu seras relevée, vierge d’Israël.
+        Ainsi parle le Seigneur : Il a trouvé grâce dans le désert, le peuple qui a échappé au massacre ; Israël est en route vers son repos. Je t’ai aimée d’un amour éternel, aussi je te garde ma bienveillance, je vais te rétablir, et tu seras relevée, vierge d’Israël.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -191,14 +196,14 @@ mass:
       content: |-
         En ces jours-là,
         il y avait un habitant de Babylone qui se nommait Joakim.
-        Il avait épousé une femme nommée Suzanne, fille d'Helkias.
+        Il avait épousé une femme nommée Suzanne, fille d’Helkias.
          Elle était très belle et craignait le Seigneur.
         Ses parents étaient des justes,
          et ils avaient élevé leur fille selon la loi de Moïse.
         Joakim était très riche,
          et il possédait un jardin auprès de sa maison ;
         les Juifs affluaient chez lui,
-         car il était le plus illustre d'entre eux.
+         car il était le plus illustre d’entre eux.
         Deux anciens avaient été désignés dans le peuple
          pour être juges cette année-là ;
         ils étaient de ceux dont le Seigneur a dit :
@@ -218,13 +223,13 @@ mass:
          et ne plus se rappeler ses justes décrets.
         Ils guettaient le jour favorable,
         lorsque Suzanne entra,
-         comme la veille et l'avant-veille,
+         comme la veille et l’avant-veille,
          accompagnée seulement de deux jeunes filles ;
         il faisait très chaud,
          et elle eut envie de prendre un bain dans le jardin.
-        Il n'y avait personne,
+        Il n’y avait personne,
          en dehors des deux anciens
-         qui s’étaient cachés et qui l'épiaient.
+         qui s’étaient cachés et qui l’épiaient.
         Suzanne dit aux jeunes filles :
          « Apportez-moi de quoi me parfumer et me laver,
          puis fermez les portes du jardin,
@@ -239,25 +244,25 @@ mass:
          sois consentante et viens avec nous.
          Autrement nous porterons contre toi ce témoignage :
          il y avait un jeune homme avec toi,
-         et c'est pour cela que tu as renvoyé les jeunes filles. »
+         et c’est pour cela que tu as renvoyé les jeunes filles. »
         Suzanne dit en gémissant :
          « De tous côtés, je suis prise au piège :
          si je vous cède,
-         c'est la mort pour moi ;
+         c’est la mort pour moi ;
          et si je refuse de céder,
-         je n'échapperai pas à vos mains.
+         je n’échapperai pas à vos mains.
          Mieux vaut pour moi tomber entre vos mains sans vous céder,
          plutôt que de pécher aux yeux du Seigneur. »
         Alors Suzanne poussa un grand cri,
          et les deux anciens se mirent à crier contre elle.
-        L'un d'eux courut ouvrir les portes du jardin.
+        L’un d’eux courut ouvrir les portes du jardin.
         Les gens de la maison,
          entendant crier dans le jardin,
         se précipitèrent par la porte de service
          pour voir ce qui arrivait à Suzanne.
         Quand les anciens eurent raconté leur histoire,
         les serviteurs furent remplis de honte,
-         car jamais on n'avait dit pareille chose de Suzanne.
+         car jamais on n’avait dit pareille chose de Suzanne.
 
         Le lendemain, le peuple se rassembla
          chez Joakim son mari.
@@ -265,7 +270,7 @@ mass:
          remplis de pensées criminelles contre Suzanne,
          et décidés à la faire mourir.
         Ils dirent devant le peuple :
-         « Envoyez chercher Suzanne, fille d'Helkias,
+         « Envoyez chercher Suzanne, fille d’Helkias,
          épouse de Joakim. »
         On l’envoya chercher.
         Elle se présenta avec ses parents,
@@ -287,15 +292,15 @@ mass:
          nous avons vu le crime,
           et nous avons couru vers eux.
          Nous les avons vus s’unir,
-         mais nous n'avons pas pu nous emparer du jeune homme,
+         mais nous n’avons pas pu nous emparer du jeune homme,
           car il était plus fort que nous :
          il a ouvert la porte et il s’est échappé.
-         Mais elle, nous l'avons saisie,
+         Mais elle, nous l’avons saisie,
           et nous lui avons demandé qui était ce jeune homme ;
-         elle n'a pas voulu nous le dire.
+         elle n’a pas voulu nous le dire.
           De tout cela, nous sommes témoins. »
-        L'assemblée les crut,
-         car c'étaient des anciens du peuple et des juges,
+        L’assemblée les crut,
+         car c’étaient des anciens du peuple et des juges,
          et Suzanne fut condamnée à mort.
         Alors elle cria d’une voix forte :
          « Dieu éternel,

@@ -88,16 +88,19 @@ morning:
   psalmody:
     - psalm: PSALM_76
       antiphon:
-        - "Une voix crie dans le désert : Préparez le chemin du Seigneur, tracez une route pour notre Dieu."
+        - |-
+          Une voix crie dans le désert : Préparez le chemin du Seigneur, tracez une route pour notre Dieu.
     - psalm: OT_3
       antiphon:
         - Béni soit Dieu qui rabaisse les puissants et élève le faible !
     - psalm: PSALM_96
       antiphon:
-        - "Que le nom du Seigneur soit votre joie : rendez grâce en rappelant son nom très saint !"
+        - |-
+          Que le nom du Seigneur soit votre joie : rendez grâce en rappelant son nom très saint !
   reading:
     biblicalReference: Is 7, 14b-15
-    content: "Voici que la jeune femme est enceinte, elle enfantera un fils, et on l’appellera Emmanuel, (c’est-à-dire : Dieu avec nous). De crème et de miel il se nourrira, et il saura rejeter le mal et choisir le bien."
+    content: |-
+      Voici que la jeune femme est enceinte, elle enfantera un fils, et on l’appellera Emmanuel, (c’est-à-dire : Dieu avec nous). De crème et de miel il se nourrira, et il saura rejeter le mal et choisir le bien.
   responsory: |-
     R/ Le Seigneur est avec toi,
     * Marie, pleine de grâce.
@@ -128,19 +131,22 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_118_8
       antiphon:
-        - "De tout mon cœur, je quête ton regard : pitié pour moi selon ta promesse."
+        - |-
+          De tout mon cœur, je quête ton regard : pitié pour moi selon ta promesse.
     - psalm: PSALM_54_1_2
       antiphon:
-        - "De tout mon cœur, je quête ton regard : pitié pour moi selon ta promesse."
+        - |-
+          De tout mon cœur, je quête ton regard : pitié pour moi selon ta promesse.
     - psalm: PSALM_54_3
       antiphon:
-        - "De tout mon cœur, je quête ton regard : pitié pour moi selon ta promesse."
+        - |-
+          De tout mon cœur, je quête ton regard : pitié pour moi selon ta promesse.
 
   tierce:
     reading:
       biblicalReference: Is 2, 11-12
       content: |-
-        L’orgueilleux regard des humains sera abaissé, les hommes hautains devront plier : et ce jour-là, le Seigneur seul sera exalté. Car il y aura un jour pour le Seigneur, le Tout-Puissant, contre tout ce qui est fier, hautain et altier et qui sera abaissé.
+        L’orgueilleux regard des humains sera abaissé, les hommes hautains devront plier : et ce jour-là, le Seigneur seul sera exalté. Car il y aura un jour pour le Seigneur, le Tout-Puissant, contre tout ce qui est fier, hautain et altier et qui sera abaissé.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
@@ -148,14 +154,14 @@ middleOfDay:
     reading:
       biblicalReference: Is 12, 2
       content: |-
-        Voici le Dieu de mon salut : j’ai confiance ; plus de crainte pour moi ! Car le Seigneur est ma force et mon chant, je lui dois le salut.
+        Voici le Dieu de mon salut : j’ai confiance ; plus de crainte pour moi ! Car le Seigneur est ma force et mon chant, je lui dois le salut.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Dn 9, 19
-      content: "Seigneur écoute ! Seigneur, pardonne ! Seigneur, sois attentif et agis, ne tarde pas ! À cause de toi-même, ô mon Dieu, car ton nom est invoqué sur ton peuple."
+      content: Seigneur écoute ! Seigneur, pardonne ! Seigneur, sois attentif et agis, ne tarde pas ! À cause de toi-même, ô mon Dieu, car ton nom est invoqué sur ton peuple.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -163,10 +169,12 @@ vespers:
   psalmody:
     - psalm: PSALM_61
       antiphon:
-        - "Ne crains pas, Sion : voici ton Dieu qui vient !"
+        - |-
+          Ne crains pas, Sion : voici ton Dieu qui vient !
     - psalm: PSALM_66
       antiphon:
-        - "La terre a donné son fruit : Dieu, notre Dieu, nous bénit."
+        - |-
+          La terre a donné son fruit : Dieu, notre Dieu, nous bénit.
     - psalm: NT_6
       antiphon:
         - Gloire au Christ, premier-né d’entre les morts, souverain des rois de la terre !
@@ -179,7 +187,8 @@ vespers:
     V/ Le Royaume de Dieu est tout proche. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Jérusalem, tu seras rebâtie : tu verras le Juste venir chez toi."
+    common: |-
+      Jérusalem, tu seras rebâtie : tu verras le Juste venir chez toi.
   intercession:
     content: |-
       Dieu fidèle, prends soin de ton Église, cette vigne que ta main a plantée, inspire ses pasteurs pour qu’ils veillent sur sa fidélité.

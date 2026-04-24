@@ -14,13 +14,15 @@ firstVespers:
         - Jacob engendra Joseph, l’époux de Marie, et de Marie est né Jésus, celui qu’on appelle Christ.
     - psalm: PSALM_147
       antiphon:
-        - "Joseph, fils de David, ne crains pas de prendre chez toi Marie, ton épouse : l’enfant qu’elle a conçu vient de l’Esprit Saint."
+        - |-
+          Joseph, fils de David, ne crains pas de prendre chez toi Marie, ton épouse : l’enfant qu’elle a conçu vient de l’Esprit Saint.
     - psalm: NT_4
       antiphon:
         - Les bergers sont vite accourus, ils ont trouvé Marie et Joseph, avec le nouveau-né couché dans une crèche.
   reading:
     biblicalReference: 2 Co 8, 9
-    content: "Vous connaissez la générosité de notre Seigneur Jésus Christ : lui qui est riche, il est devenu pauvre à cause de vous, pour que vous deveniez riches par sa pauvreté."
+    content: |-
+      Vous connaissez la générosité de notre Seigneur Jésus Christ : lui qui est riche, il est devenu pauvre à cause de vous, pour que vous deveniez riches par sa pauvreté.
   responsory: |-
     R/ Le Verbe s’est fait chair.
     * Alléluia, alléluia !
@@ -28,7 +30,8 @@ firstVespers:
     V/ Il a révélé le Dieu caché. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Jésus était resté à Jérusalem. Ses parents ne le savaient pas : ils le cherchaient parmi leurs compagnons de route."
+    common: |-
+      Jésus était resté à Jérusalem. Ses parents ne le savaient pas : ils le cherchaient parmi leurs compagnons de route.
 
 invitatory:
   antiphon:
@@ -60,12 +63,12 @@ readings:
         Pour en revenir à vous, chacun doit aimer sa propre femme comme lui-même, et la femme doit avoir du respect pour son mari. Vous, les enfants, obéissez à vos parents dans le Seigneur, car c’est cela qui est juste : Honore ton père et ta mère, c’est le premier commandement qui soit assorti d’une promesse : ainsi tu seras heureux et tu auras longue vie sur la terre. Et vous, les parents, ne poussez pas vos enfants à la colère, mais élevez-les en leur donnant une éducation et des avertissements inspirés par le Seigneur.
       responsory: |-
         R/ Dieu s’est fait l’un de nous,
-        pour nous apprendre à aimer !
+        pour nous apprendre à aimer !
         
         Vous qui servez Jésus, le Christ,
         soumettez-vous les uns aux autres.
         
-        Le Christ a aimé l’Église et s’est livré pour elle :
+        Le Christ a aimé l’Église et s’est livré pour elle :
         aimons-nous les uns les autres, en acte et en vérité.
   patristicReading:
     - title: HOMÉLIE DE SAINT PAUL VI À NAZARETH (5 JANVIER 1964)
@@ -89,7 +92,7 @@ readings:
         comme il vous a aimés.
         
         Vous n’êtes qu’un en Jésus Christ,
-        revêtez l’amour : c’est le lien parfait.
+        revêtez l’amour : c’est le lien parfait.
 
 morning:
   hymn:
@@ -142,7 +145,8 @@ middleOfDay:
     antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
     reading:
       biblicalReference: Col 3, 12-13
-      content: "Puisque vous avez été choisis par Dieu, que vous êtes ses fidèles et ses bien-aimés, revêtez votre cœur de tendresse et de bonté, d’humilité, de douceur, de patience. Supportez-vous mutuellement et pardonnez, si vous avez des reproches à vous faire. Agissez comme le Seigneur : il vous a pardonné, faites de même."
+      content: |-
+        Puisque vous avez été choisis par Dieu, que vous êtes ses fidèles et ses bien-aimés, revêtez votre cœur de tendresse et de bonté, d’humilité, de douceur, de patience. Supportez-vous mutuellement et pardonnez, si vous avez des reproches à vous faire. Agissez comme le Seigneur : il vous a pardonné, faites de même.
     responsory: |-
       V/ Le Seigneur nous enseignera ses chemins,
       nous suivrons ses sentiers.
@@ -150,7 +154,8 @@ middleOfDay:
     antiphon: Marie retenait toutes ces paroles et les méditait dans son cœur.
     reading:
       biblicalReference: Col 3, 14-15
-      content: "Par-dessus tout, qu’il y ait pour vous l’amour : c’est lui qui fait l’unité dans la perfection. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés pour former en lui un seul corps. Vivez dans l’action de grâce."
+      content: |-
+        Par-dessus tout, qu’il y ait pour vous l’amour : c’est lui qui fait l’unité dans la perfection. Et que, dans vos cœurs, règne la paix du Christ à laquelle vous avez été appelés pour former en lui un seul corps. Vivez dans l’action de grâce.
     responsory: |-
       V/ Appelez le bonheur sur Jérusalem :
       Paix à ceux qui l’aiment !
@@ -167,10 +172,12 @@ vespers:
   psalmody:
     - psalm: PSALM_121
       antiphon:
-        - "Après trois jours, Joseph et Marie trouvèrent Jésus assis dans le Temple au milieu des docteurs : il écoutait et il interrogeait."
+        - |-
+          Après trois jours, Joseph et Marie trouvèrent Jésus assis dans le Temple au milieu des docteurs : il écoutait et il interrogeait.
     - psalm: PSALM_126
       antiphon:
-        - "Jésus descendit avec eux de Jérusalem : il vint à Nazareth et leur était soumis."
+        - |-
+          Jésus descendit avec eux de Jérusalem : il vint à Nazareth et leur était soumis.
     - psalm: NT_4
       antiphon:
         - Jésus grandissait en sagesse, en taille et en grâce, sous le regard de Dieu et des hommes.

@@ -11,7 +11,8 @@ firstVespers:
   psalmody:
     - psalm: PSALM_112
       antiphon:
-        - "Béni soit le nom du Seigneur : tout est de lui, tout est par lui, tout est pour lui, alléluia !"
+        - |-
+          Béni soit le nom du Seigneur : tout est de lui, tout est par lui, tout est pour lui, alléluia !
     - psalm: PSALM_147
       antiphon:
         - Gloire à toi, Dieu Très-Haut, qui envoies ta Parole et répands ton Souffle pour que se lève un peuple nouveau, alléluia !
@@ -25,7 +26,8 @@ firstVespers:
     V/ Pas d’autre Dieu que Dieu. * Louange.
     V/ Dieu est amour : Père, Fils, Esprit Saint. * Louange.
   evangelicAntiphon:
-    common: "Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !"
+    common: |-
+      Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !
   intercession:
     content: |-
       Bénis sois-tu, Père tout-puissant :
@@ -73,7 +75,7 @@ readings:
         mais Jésus nous l’a révélé.
         
         R/ Joie de l’homme sauvé,
-        monte jusqu’à nos lèvres !
+        monte jusqu’à nos lèvres !
         
         Nul ne connaît le Fils,
         nul n’en sait le mystère,
@@ -100,7 +102,7 @@ readings:
         mais l’amour veut tout rassembler.
         
         R/ Joie de l’homme sauvé,
-        monte jusqu’à nos lèvres !
+        monte jusqu’à nos lèvres !
 
 morning:
   hymn:
@@ -108,7 +110,8 @@ morning:
   psalmody:
     - psalm: PSALM_62
       antiphon:
-        - "Esprit de Jésus, sois la source qui murmure en nos cœurs assoiffés : Viens vers le Père !"
+        - |-
+          Esprit de Jésus, sois la source qui murmure en nos cœurs assoiffés : Viens vers le Père !
     - psalm: OT_41
       antiphon:
         - À lui, haute gloire, louange éternelle !
@@ -159,7 +162,8 @@ middleOfDay:
     antiphon: Vers la troisième heure, l’Esprit qui procède du Père se répandit sur les disciples du Christ.
     reading:
       biblicalReference: 2 Co 1, 21-22
-      content: "Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs."
+      content: |-
+        Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs.
     responsory: |-
       V/ Venez dans la maison de Dieu lui rendre grâce.
       Rendons gloire au Père et au Fils et au Saint Esprit.
@@ -167,12 +171,14 @@ middleOfDay:
     antiphon: Dans un grand cri, Jésus remit à son Père son Esprit.
     reading:
       biblicalReference: Ga 4, 4.5-6
-      content: "Dieu a envoyé son Fils pour faire de nous des fils. Et voici la preuve que vous êtes des fils : envoyé de Dieu, l’Esprit de son Fils est dans nos cœurs, et il crie vers le Père en l’appelant « Abba ! »."
+      content: |-
+        Dieu a envoyé son Fils pour faire de nous des fils. Et voici la preuve que vous êtes des fils : envoyé de Dieu, l’Esprit de son Fils est dans nos cœurs, et il crie vers le Père en l’appelant « Abba ! ».
     responsory: |-
       V/ Ô bienheureuse Trinité, glorieuse et bénie,
       Père, Fils et Saint-Esprit.
   none:
-    antiphon: "Jésus exulta dans l’Esprit : Je te bénis, Père, Seigneur du ciel et de la terre, toi qui révèles aux petits les mystères du Royaume."
+    antiphon: |-
+      Jésus exulta dans l’Esprit : Je te bénis, Père, Seigneur du ciel et de la terre, toi qui révèles aux petits les mystères du Royaume.
     reading:
       biblicalReference: Ap 7, 12
       content: Amen ! Louange, gloire, sagesse et action de grâce, honneur, puissance et force à notre Dieu, pour les siècles des siècles ! Amen !
@@ -189,7 +195,8 @@ vespers:
         - Jésus notre Sauveur, poussé par l’Esprit éternel, s’offrit lui-même à Dieu son Père.
     - psalm: PSALM_113A
       antiphon:
-        - "L’Esprit rend ce témoignage : Dieu nous a donné la vie, qui est son Fils."
+        - |-
+          L’Esprit rend ce témoignage : Dieu nous a donné la vie, qui est son Fils.
     - psalm: NT_12
       antiphon:
         - Alléluia, alléluia, alléluia !
@@ -204,7 +211,8 @@ vespers:
     V/ Appelés à partager une seule espérance dans le Christ,
     nous chantons et nous proclamons :R/
   evangelicAntiphon:
-    common: "Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !"
+    common: |-
+      Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !
   intercession:
     content: |-
       Bénis sois-tu, Père tout-puissant :

@@ -15,13 +15,16 @@ firstVespers:
         - Joseph et Marie portèrent l’enfant à Jérusalem pour le présenter au Seigneur.
     - psalm: PSALM_147
       antiphon:
-        - "Prépare-toi, Jérusalem ! Prépare ton ccœur : accueille ton Roi !"
+        - |-
+          Prépare-toi, Jérusalem ! Prépare ton ccœur : accueille ton Roi !
     - psalm: NT_5
       antiphon:
-        - "Syméon, tu es béni de Dieu : tu as pris dans tes bras le Christ, le Seigneur, le Sauveur de son peuple."
+        - |-
+          Syméon, tu es béni de Dieu : tu as pris dans tes bras le Christ, le Seigneur, le Sauveur de son peuple.
   reading:
     biblicalReference: He 10,5-7
-    content: "En entrant dans le monde, le Christ dit, d’après le psaume : Tu n’as pas voulu de sacrifices ni d’offrandes, mais tu m’as fait un corps. Tu n’as pas accepté les holocaustes ni les expiations pour le péché ; alors, je t’ai dit : Me voici, mon Dieu, je suis venu pour faire ta volonté, car c’est bien de moi que parle l’Écriture."
+    content: |-
+      En entrant dans le monde, le Christ dit, d’après le psaume : Tu n’as pas voulu de sacrifices ni d’offrandes, mais tu m’as fait un corps. Tu n’as pas accepté les holocaustes ni les expiations pour le péché ; alors, je t’ai dit : Me voici, mon Dieu, je suis venu pour faire ta volonté, car c’est bien de moi que parle l’Écriture.
   responsory: |-
     R/ Me voici, mon Dieu :
     * Je viens faire ta volonté.
@@ -57,13 +60,16 @@ readings:
   psalmody:
     - psalm: PSALM_2
       antiphon:
-        - "Votre Sauveur vient, dit le Seigneur : je serai son Père, il sera mon Fils."
+        - |-
+          Votre Sauveur vient, dit le Seigneur : je serai son Père, il sera mon Fils.
     - psalm: PSALM_18A
       antiphon:
-        - "Debout, Jérusalem ! Resplendis : elle est venue, ta lumière, et la gloire du Seigneur s’est levée sur toi."
+        - |-
+          Debout, Jérusalem ! Resplendis : elle est venue, ta lumière, et la gloire du Seigneur s’est levée sur toi.
     - psalm: PSALM_44
       antiphon:
-        - "Chante et réjouis-toi, nouvelle Jérusalem : voici ton Roi. C’est lui ton Sauveur."
+        - |-
+          Chante et réjouis-toi, nouvelle Jérusalem : voici ton Roi. C’est lui ton Sauveur.
   verse: |-
     Dieu, nous rappelons ton amour
     au milieu de ton temple.
@@ -105,8 +111,8 @@ readings:
         Peuple de Dieu, temple vivant du Seigneur,
         accueille ton Roi, le fils de la Vierge Marie.
 
-        Syméon plein de joie l'a reçu dans ses bras.
-        Aujourd'hui reconnais-le dans sa faiblesse
+        Syméon plein de joie l’a reçu dans ses bras.
+        Aujourd’hui reconnais-le dans sa faiblesse
         et rends grâce à Dieu.
 
 morning:
@@ -162,7 +168,8 @@ middleOfDay:
   sexte:
     reading:
       biblicalReference: 1Jn 1,2
-      content: "La vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage :  nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée  à nous."
+      content: |-
+        La vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage :  nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée  à nous.
     responsory: |-
       V/La terre tout entière a vu le salut de notre Dieu.
       Acclamez le Seigneur, terre entière !

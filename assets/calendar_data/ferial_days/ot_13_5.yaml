@@ -4,10 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - "Rendons grâce à Dieu : éternel est son amour."
+    - |-
+      Rendons grâce à Dieu : éternel est son amour.
 
 oration:
-    - "Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider."
+    - |-
+      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
 
 readings:
   biblicalReading:
@@ -166,7 +168,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 105, 1a
-        chorus: 'Rendez grâce au Seigneur : Il est bon !'
+        chorus: ’Rendez grâce au Seigneur : Il est bon !’
       - chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !

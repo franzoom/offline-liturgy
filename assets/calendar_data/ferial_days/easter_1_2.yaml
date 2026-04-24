@@ -4,10 +4,11 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
 
 oration:
-    - "Dieu qui nous as fait passer de la mort à la vie en nous offrant les sacrements de Pâques, poursuis toujours l’œuvre de ta grâce : que ton peuple trouve une liberté parfaite et parvienne à la joie du ciel dont tu lui donnes déjà le goût sur la terre."
+    - |-
+      Dieu qui nous as fait passer de la mort à la vie en nous offrant les sacrements de Pâques, poursuis toujours l’œuvre de ta grâce : que ton peuple trouve une liberté parfaite et parvienne à la joie du ciel dont tu lui donnes déjà le goût sur la terre.
 
 readings:
   psalmody:
@@ -16,7 +17,8 @@ readings:
         - Jésus est Seigneur, à la gloire de Dieu le Père, alléluia.
     - psalm: PSALM_65_1
       antiphon:
-        - "Peuples, bénissez notre Dieu : il nous donne la joie, alléluia !"
+        - |-
+          Peuples, bénissez notre Dieu : il nous donne la joie, alléluia !
     - psalm: PSALM_65_2
       antiphon:
         - Venez, écoutez, je vous dirai ce que Dieu a fait pour moi, alléluia.
@@ -127,14 +129,14 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Ac 4, 11-12
-      content: "Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver."
+      content: Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver.
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   sexte:
     reading:
       biblicalReference: Cf. 1 P 3, 21-22a
-      content: "Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu."
+      content: Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu.
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
@@ -142,7 +144,7 @@ middleOfDay:
     reading:
       biblicalReference: Col 3, 1-2
       content: |-
-        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
+        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !

@@ -46,7 +46,7 @@ readings:
        R/ Ô abîme de la sagesse
        et de la science de Dieu,
        insondables, ses décrets,
-       incompréhensibles, ses voies !
+       incompréhensibles, ses voies !
        
        Mystère de Dieu, mystère du Christ,
        où se trouvent cachés tous les trésors
@@ -93,7 +93,8 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Is 11, 1-2
-      content: "Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
+      content: |-
+        Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur.
     responsory: |-
       V/ Le Seigneur s’est rappelé son amour, alléluia ;
       sa fidélité en faveur d’Israël, alléluia.
@@ -107,7 +108,8 @@ middleOfDay:
   none:
     reading:
       biblicalReference: Is 49, 6
-      content: "Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
+      content: |-
+        Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre.
     responsory: |-
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.
@@ -115,14 +117,16 @@ middleOfDay:
 vespers:
   reading:
     biblicalReference: Ac 10, 37-38
-    content: "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
+    content: |-
+      Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui.
   responsory: |-
     R/ Que règne en nos cœurs la paix du Christ !
     V/ Aimons-nous les uns les autres
     comme il nous a aimés. R/
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Du ciel se fit entendre une voix : Tu es mon Fils bien-aimé, en toi j’ai mis tout mon amour."
+    common: |-
+      Du ciel se fit entendre une voix : Tu es mon Fils bien-aimé, en toi j’ai mis tout mon amour.
   intercession:
     content: |-
       Que la Parole de Dieu, manifestée dans le Christ, suscite notre prière :

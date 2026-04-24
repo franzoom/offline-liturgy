@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Nous t’adressons, Seigneur, cette humble prière : que tes serviteurs se purifient dans la pénitence et s’appliquent à faire ce qui est bon ; donne-leur de rester dociles à ta volonté et d’arriver sans encombre aux fêtes de Pâques."
+    - |-
+      Nous t’adressons, Seigneur, cette humble prière : que tes serviteurs se purifient dans la pénitence et s’appliquent à faire ce qui est bon ; donne-leur de rester dociles à ta volonté et d’arriver sans encombre aux fêtes de Pâques.
 
 readings:
   psalmody:
@@ -117,28 +118,28 @@ middleOfDay:
         - Sur mon dos ont labouré les laboureurs, allongeant leurs sillons.
     - psalm: PSALM_127
       antiphon:
-        - "Sur mon dos ont labouré les laboureurs, allongeant leurs sillons."
+        - Sur mon dos ont labouré les laboureurs, allongeant leurs sillons.
     - psalm: PSALM_128
       antiphon:
-        - "Sur mon dos ont labouré les laboureurs, allongeant leurs sillons."
+        - Sur mon dos ont labouré les laboureurs, allongeant leurs sillons.
   tierce:
     reading:
       biblicalReference: Is 55, 6-7
-      content: "Cherchez le Seigneur tant qu’il se laisse trouver. Invoquez-le tant qu’il est proche. Que le méchant abandonne son chemin, et l’homme pervers, ses pensées ! Qu’il revienne vers le Seigneur, qui aura pitié de lui, vers notre Dieu, qui est riche en pardon."
+      content: Cherchez le Seigneur tant qu’il se laisse trouver. Invoquez-le tant qu’il est proche. Que le méchant abandonne son chemin, et l’homme pervers, ses pensées ! Qu’il revienne vers le Seigneur, qui aura pitié de lui, vers notre Dieu, qui est riche en pardon.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Dt 30, 2-3a
-      content: "Tu reviendras au Seigneur ton Dieu, toi et tes fils, tu écouteras sa voix de tout ton cœur et de toute ton âme, tu observeras tout ce que je te commande aujourd’hui. Alors le Seigneur changera ton sort, il aura pitié de toi."
+      content: Tu reviendras au Seigneur ton Dieu, toi et tes fils, tu écouteras sa voix de tout ton cœur et de toute ton âme, tu observeras tout ce que je te commande aujourd’hui. Alors le Seigneur changera ton sort, il aura pitié de toi.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: He 10, 35-36
-      content: Ne perdez pas votre confiance ; grâce à elle vous serez largement récompensés. Car vous avez bien besoin d’endurance pour accomplir la volonté de Dieu et obtenir ainsi la réalisation des promesses.
+      content: Ne perdez pas votre confiance ; grâce à elle vous serez largement récompensés. Car vous avez bien besoin d’endurance pour accomplir la volonté de Dieu et obtenir ainsi la réalisation des promesses.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -155,7 +156,8 @@ vespers:
         - Il a pris possession de son règne, le Seigneur Dieu, Maître de tout !
   reading:
     biblicalReference: Jc 4, 7-8. 10
-    content: "Soumettez-vous à Dieu, et résistez au démon : il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains ; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera."
+    content: |-
+      Soumettez-vous à Dieu, et résistez au démon : il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains ; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera.
   responsory: |-
     R/ Seigneur, entends ma prière.
     * Que mon cri parvienne jusqu’à toi !

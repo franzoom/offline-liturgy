@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir : qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut."
+    - |-
+      Donne à tes fidèles, Seigneur, en ce temps de pénitence, une vraie générosité à te servir : qu’ils se disposent ainsi à recevoir dans un cœur purifié l’annonce du mystère pascal et à transmettre au monde la joyeuse nouvelle du salut.
 
 readings:
   psalmody:
@@ -108,29 +109,29 @@ middleOfDay:
         - Que ma prière parvienne jusqu’à toi ! Ouvre l’oreille à ma plainte.
     - psalm: PSALM_87_1
       antiphon:
-        - Que ma prière parvienne jusqu’à toi ! Ouvre l’oreille à ma plainte.
+        - Que ma prière parvienne jusqu’à toi ! Ouvre l’oreille à ma plainte.
     - psalm: PSALM_87_2
       antiphon:
-        - Que ma prière parvienne jusqu’à toi ! Ouvre l’oreille à ma plainte.
+        - Que ma prière parvienne jusqu’à toi ! Ouvre l’oreille à ma plainte.
   tierce:
     reading:
       biblicalReference: Jl 2, 17
       content: |-
-        Entre le portail et l’autel, les prêtres, ministres du Seigneur, iront pleurer et diront : "Pitié, Seigneur, pour ton peuple, n’expose pas ceux qui t’appartiennent à l’insulte et aux moqueries des païens !"
+        Entre le portail et l’autel, les prêtres, ministres du Seigneur, iront pleurer et diront : "Pitié, Seigneur, pour ton peuple, n’expose pas ceux qui t’appartiennent à l’insulte et aux moqueries des païens !"
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Jr 3, 25b
-      content: "Oui, nous sommes fautifs envers le Seigneur notre Dieu, nous et nos pères, depuis notre jeunesse jusqu’à ce jour ; nous n’avons pas écouté la voix du Seigneur notre Dieu."
+      content: Oui, nous sommes fautifs envers le Seigneur notre Dieu, nous et nos pères, depuis notre jeunesse jusqu’à ce jour ; nous n’avons pas écouté la voix du Seigneur notre Dieu.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: Is 58, 1-2
-      content: "Crie à pleine gorge ! Ne te retiens pas ! Que ta voix résonne comme le cor ! Dénonce à mon peuple ses fautes, à la maison de Jacob ses péchés. Ils viennent me consulter jour après jour, ils veulent connaître mes chemins, comme une nation qui pratiquerait la justice et n’abandonnerait pas la loi de son Dieu."
+      content: Crie à pleine gorge ! Ne te retiens pas ! Que ta voix résonne comme le cor ! Dénonce à mon peuple ses fautes, à la maison de Jacob ses péchés. Ils viennent me consulter jour après jour, ils veulent connaître mes chemins, comme une nation qui pratiquerait la justice et n’abandonnerait pas la loi de son Dieu.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -144,7 +145,8 @@ vespers:
         - Seigneur, tu fais tout pour moi, n’arrête pas l’œuvre de tes mains.
     - psalm: NT_9
       antiphon:
-        - "Tu nous as rachetés par ton sang, Seigneur : tu fis de nous un peuple de rois."
+        - |-
+          Tu nous as rachetés par ton sang, Seigneur : tu fis de nous un peuple de rois.
   reading:
     biblicalReference: Jc 2, 14. 17.18b
     content: Mes frères, si quelqu’un prétend avoir la foi, alors qu’il n’agit pas, à quoi cela sert-il ? Cet homme-là peut-il être sauvé par sa foi ? Celui qui n’agit pas, sa foi est bel et bien morte. Montre-moi donc ta foi qui n’agit pas ; moi, c’est par mes actes que je te montrerai ma foi.

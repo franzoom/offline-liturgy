@@ -116,13 +116,15 @@ readings:
   psalmody:
     - psalm: PSALM_2
       antiphon:
-        - "Lorsque les temps furent accomplis, Dieu a envoyé son Fils, né d’une femme, pour faire de nous ses fils."
+        - Lorsque les temps furent accomplis, Dieu a envoyé son Fils, né d’une femme, pour faire de nous ses fils.
     - psalm: PSALM_18A
       antiphon:
-        - "Entrant dans le monde, il dit : Tu m’as fait un corps : me voici, mon Dieu, pour faire ta volonté."
+        - |-
+          Entrant dans le monde, il dit : Tu m’as fait un corps : me voici, mon Dieu, pour faire ta volonté.
     - psalm: PSALM_44
       antiphon:
-        - "Voici l’amour de Dieu pour nous : il a envoyé son Fils unique dans le monde pour que nous vivions par lui."
+        - |-
+          Voici l’amour de Dieu pour nous : il a envoyé son Fils unique dans le monde pour que nous vivions par lui.
   verse: |-
     V/ Le Verbe s’est fait chair,
     il a habité parmi nous.
@@ -183,26 +185,30 @@ readings:
 
 middleOfDay:
   tierce:
-    antiphon: "Heureuse es-tu, fille de Jessé, l’Esprit du Très-Haut te couvre de son ombre."
+    antiphon: Heureuse es-tu, fille de Jessé, l’Esprit du Très-Haut te couvre de son ombre.
     reading:
       biblicalReference: 1Tm 2, 5-6a
-      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
+      content: |-
+        Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes.
     responsory: |-
       V/ Le Verbe s’est fait chair,
       il a habité parmi nous.
   sexte:
-    antiphon: "La Vierge enfantera un fils : on lui donnera le nom d’Emmanuel."
+    antiphon: |-
+      La Vierge enfantera un fils : on lui donnera le nom d’Emmanuel.
     reading:
       biblicalReference: 1Jn 4, 10
-      content: "Voici à quoi se reconnaît l’amour : ce n’est pas nous qui avons aimé Dieu, c’est lui qui nous a aimés, et il a envoyé son Fils qui est la victime offerte pour nos péchés."
+      content: |-
+        Voici à quoi se reconnaît l’amour : ce n’est pas nous qui avons aimé Dieu, c’est lui qui nous a aimés, et il a envoyé son Fils qui est la victime offerte pour nos péchés.
     responsory: |-
       V/ Voici la servante du Seigneur ;
       que tout se passe pour moi selon ta parole.
   none:
-    antiphon: "Il sera grand, par toute la terre ; il sera lui-même notre paix."
+    antiphon: Il sera grand, par toute la terre ; il sera lui-même notre paix.
     reading:
       biblicalReference: 1Tm 2, 5-6a
-      content: "Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes."
+      content: |-
+        Il n’y a qu’un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes.
     responsory: |-
       V/ Le Verbe s’est fait chair,
       il a habité parmi nous.
@@ -213,16 +219,18 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "L’Ange du Seigneur annonce à Marie que l’Esprit la couvrirait de son ombre."
+        - L’Ange du Seigneur annonce à Marie que l’Esprit la couvrirait de son ombre.
     - psalm: PSALM_129
       antiphon:
-        - "Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu ! Tu vas concevoir et enfanter le Fils du Très-Haut."
+        - Ne crains pas, Marie, tu as trouvé grâce auprès de Dieu ! Tu vas concevoir et enfanter le Fils du Très-Haut.
     - psalm: NT_6
       antiphon:
-        - "Je suis la servante du Seigneur : qu’il me soit fait selon ta parole."
+        - |-
+          Je suis la servante du Seigneur : qu’il me soit fait selon ta parole.
   reading:
     biblicalReference: 1 Jn 1, 1-2
-    content: "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous."
+    content: |-
+      Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous.
   responsory: |-
     R/ Vierge Marie, servante du Seigneur,
     * en toi, le Verbe s’est fait chair.

@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -14,18 +14,21 @@ readings:
   psalmody:
     - psalm: PSALM_77_1
       antiphon:
-        - "Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde."
+        - |-
+          Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde.
     - psalm: PSALM_77_2
       antiphon:
-        - "Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde."
+        - |-
+          Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde.
     - psalm: PSALM_77_3
       antiphon:
-        - "Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde."
+        - |-
+          Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde.
   verse: |-
     V/ Revenons au Seigneur, notre Dieu,
     car il est tendre et miséricordieux.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Moïse, le défenseur des Hébreux persécutés
       ref: Ex 2, 1-22
       content: |-
@@ -141,21 +144,21 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Is 55, 3
-      content: "Prêtez l’oreille ! Venez à moi ! Écoutez et vous vivrez, je ferai avec vous une Alliance éternelle, qui confirmera ma bienveillance envers David."
+      content: Prêtez l’oreille ! Venez à moi ! Écoutez et vous vivrez, je ferai avec vous une Alliance éternelle, qui confirmera ma bienveillance envers David.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Jr 3, 12.14a
-      content: "Revenez à moi, dit le Seigneur, ma présence ne vous sera plus accablante. Oui, je suis fidèle – oracle du Seigneur – ; je ne tiens pas rigueur pour toujours. Revenez, fils apostats – oracle du Seigneur."
+      content: Revenez à moi, dit le Seigneur, ma présence ne vous sera plus accablante. Oui, je suis fidèle – oracle du Seigneur – ; je ne tiens pas rigueur pour toujours. Revenez, fils apostats – oracle du Seigneur.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: Jc 1, 27
-      content: "Devant Dieu notre Père, la manière pure et irréprochable de pratiquer la religion, c’est de venir en aide aux orphelins et aux veuves dans leur malheur, et de se garder propre au milieu du monde."
+      content: Devant Dieu notre Père, la manière pure et irréprochable de pratiquer la religion, c’est de venir en aide aux orphelins et aux veuves dans leur malheur, et de se garder propre au milieu du monde.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -172,7 +175,8 @@ vespers:
         - R/ Grandes sont tes œuvres, Seigneur !
   reading:
     biblicalReference: Jc 5, 16. 19-20
-    content: "Reconnaissez vos péchés les uns devant les autres, et priez les uns pour les autres afin d’être guéris, car la supplication du juste agit avec beaucoup de puissance. Mes frères, si l’un de vous s’égare loin de la vérité et si quelqu’un l’amène à se convertir, alors, sachez-le : celui qui ramène un pécheur du chemin où il s’égarait se sauvera lui-même et couvrira une multitude de péchés."
+    content: |-
+      Reconnaissez vos péchés les uns devant les autres, et priez les uns pour les autres afin d’être guéris, car la supplication du juste agit avec beaucoup de puissance. Mes frères, si l’un de vous s’égare loin de la vérité et si quelqu’un l’amène à se convertir, alors, sachez-le : celui qui ramène un pécheur du chemin où il s’égarait se sauvera lui-même et couvrira une multitude de péchés.
   responsory: |-
     R/ Guéris-moi, Dieu très saint,
     * Car j’ai péché contre toi.

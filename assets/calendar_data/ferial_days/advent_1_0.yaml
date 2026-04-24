@@ -6,16 +6,19 @@ firstVespers:
   psalmody:
     - psalm: PSALM_140
       antiphon:
-        - "Annoncez à tous les peuples : Voici notre Dieu ; il vient nous sauver !"
+        - |-
+          Annoncez à tous les peuples : Voici notre Dieu ; il vient nous sauver !
     - psalm: PSALM_141
       antiphon:
-        - "Le Seigneur viendra, accompagné de tous les justes : on verra, ce jour-là, une grande lumière."
+        - |-
+          Le Seigneur viendra, accompagné de tous les justes : on verra, ce jour-là, une grande lumière.
     - psalm: NT_5
       antiphon:
         - Il viendra, le Seigneur notre Dieu, et toute chair verra sa puissance.
   reading:
     biblicalReference: 1 Th 5, 23-24
-    content: "Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira."
+    content: |-
+      Que le Dieu de la paix lui-même vous sanctifie tout entiers, et qu’il garde parfaits et sans reproche votre esprit, votre âme et votre corps, pour la venue de notre Seigneur Jésus Christ. Il est fidèle, le Dieu qui vous appelle : tout cela, il l’accomplira.
   responsory: |-
     R/ Que l’univers chante et crie de joie :
     * Car le Seigneur vient.
@@ -27,7 +30,8 @@ firstVespers:
     la gloire de Dieu nous illuminera. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Voici le Seigneur : il arrive de loin ; l’éclat de son nom couvre la terre."
+    common: |-
+      Voici le Seigneur : il arrive de loin ; l’éclat de son nom couvre la terre.
   intercession:
     content: |-
       Levons les yeux vers celui qui vient et, joyeux d’attendre son jour, demandons-lui d’accomplir sa promesse :
@@ -59,7 +63,8 @@ readings:
   psalmody:
     - psalm: PSALM_1
       antiphon:
-        - "Le jour du Christ est proche : purifions-nous, portons un fruit de justice à la gloire du Père."
+        - |-
+          Le jour du Christ est proche : purifions-nous, portons un fruit de justice à la gloire du Père.
     - psalm: PSALM_2
       antiphon:
         - Votre Sauveur vient, dit le Seigneur, je serai son Père, il sera mon Fils.
@@ -147,7 +152,8 @@ morning:
     V/ Conduis-moi sur le chemin d’éternité, *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Ne crains pas, Marie, l’Esprit viendra sur toi : tu vas enfanter le Fils de Dieu. Alléluia !"
+    common: |-
+      Ne crains pas, Marie, l’Esprit viendra sur toi : tu vas enfanter le Fils de Dieu. Alléluia !
   intercession:
     content: |-
       Tu nous as visités, Dieu notre Père, par la venue dans la chair de ton Fils bien-aimé : garde-nous vigilants jusqu’à sa venue dans la gloire.
@@ -170,29 +176,29 @@ middleOfDay:
         - Béni soit au nom du Seigneur, celui qui vient !
     - psalm: PSALM_117_2
       antiphon:
-        - "Béni soit au nom du Seigneur, celui qui vient !"
+        - Béni soit au nom du Seigneur, celui qui vient !
     - psalm: PSALM_117_3
       antiphon:
-        - "Béni soit au nom du Seigneur, celui qui vient !"
+        - Béni soit au nom du Seigneur, celui qui vient !
 
   tierce:
     reading:
       biblicalReference: Rm 13, 13-14a
-      content: "Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ."
+      content: Conduisons-nous honnêtement, comme on le fait en plein jour, sans ripailles ni beuveries, sans orgies ni débauches, sans dispute ni jalousie. Mais revêtez le Seigneur Jésus Christ.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
   sexte:
     reading:
       biblicalReference: 1 Th 3, 12-13
-      content: "Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints."
+      content: Que le Seigneur vous donne, entre vous et à l’égard de tous les hommes, un amour de plus en plus intense et débordant, comme celui que nous avons pour vous. Et qu’ainsi il vous établisse fermement dans une sainteté sans reproche devant Dieu notre Père, pour le jour où notre Seigneur Jésus viendra avec tous les saints.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Cf. 2 Th 1, 6.7.10
-      content: "Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru."
+      content: Il est juste que Dieu vous donne, à vous les opprimés, le repos avec nous, lors de la révélation du Seigneur Jésus qui viendra du ciel, avec les anges de sa puissance, pour être glorifié en la personne de ses saints et pour être admiré en tous ceux qui auront cru.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -203,13 +209,15 @@ vespers:
         - Alléluia ! Réjouis-toi, Sion ! Pousse des cris de joie, Jérusalem !
     - psalm: PSALM_113A
       antiphon:
-        - "Il vient, le Messie, notre Roi, celui que Jean Baptiste annonçait : Voici l’Agneau de Dieu !"
+        - |-
+          Il vient, le Messie, notre Roi, celui que Jean Baptiste annonçait : Voici l’Agneau de Dieu !
     - psalm: NT_12
       antiphon:
         - Je viens sans tarder rendre à chacun selon ses œuvres !
   reading:
     biblicalReference: Ph 4, 4-5
-    content: "Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche."
+    content: |-
+      Soyez toujours dans la joie du Seigneur ; laissez-moi vous le redire : soyez dans la joie. Que votre sérénité soit connue de tous les hommes. Le Seigneur est proche.
   responsory: |-
     R/ Réjouissons-nous dans le Seigneur !
     Réjouissons-nous, car il est proche !
@@ -248,8 +256,8 @@ mass:
   - biblicalRef: Ps 24, 1-3
     content: |-
       Vers toi, Seigneur, j’élève mon âme,
-      Mon Dieu, je m’appuie sur toi :
-        épargne-moi la honte ;
+      Mon Dieu, je m’appuie sur toi :
+        épargne-moi la honte ;
         ne laisse pas triompher mon ennemi.
       Pour qui espère en toi, pas de honte.
   collect:

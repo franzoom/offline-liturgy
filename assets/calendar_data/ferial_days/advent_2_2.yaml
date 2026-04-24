@@ -88,7 +88,8 @@ morning:
     V/ Justice et paix s’embrassent. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Réjouis-toi, Sion, car je viens : j’habiterai au milieu de toi !"
+    common: |-
+      Réjouis-toi, Sion, car je viens : j’habiterai au milieu de toi !
   intercession:
     content: |-
       Père de miséricorde, viens à nouveau visiter ton peuple, rassemble-nous dans le désir de ta gloire.
@@ -114,15 +115,15 @@ middleOfDay:
         - Oh si tu déchirais les cieux et si tu descendais !
     - psalm: PSALM_52
       antiphon:
-        - Oh si tu déchirais les cieux et si tu descendais !
+        - Oh si tu déchirais les cieux et si tu descendais !
     - psalm: PSALM_53
       antiphon:
-        - Oh si tu déchirais les cieux et si tu descendais !
+        - Oh si tu déchirais les cieux et si tu descendais !
 
   tierce:
     reading:
       biblicalReference: Jr 23, 5
-      content: "Voici venir des jours, déclare le Seigneur, où je donnerai à David un Germe juste ; il régnera en vrai roi, il agira avec intelligence, il exercera dans le pays le droit et la justice."
+      content: Voici venir des jours, déclare le Seigneur, où je donnerai à David un Germe juste ; il régnera en vrai roi, il agira avec intelligence, il exercera dans le pays le droit et la justice.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
@@ -130,14 +131,14 @@ middleOfDay:
     reading:
       biblicalReference: Jr 23, 6
       content: |-
-        Sous son règne, le royaume de Juda sera sauvé et Israël habitera sur sa terre en sécurité. Voici le nom qu’on lui donnera : « Le Seigneur est notre justice ».
+        Sous son règne, le royaume de Juda sera sauvé et Israël habitera sur sa terre en sécurité. Voici le nom qu’on lui donnera : « Le Seigneur est notre justice ».
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Cf. Ez 34, 15-16
-      content: "C’est moi qui ferai paître mon troupeau, et c’est moi qui le ferai reposer, déclare le Seigneur DIEU ! La brebis perdue, je la chercherai. Celle qui est blessée, je la soignerai. Celle qui est faible, je lui rendrai des forces. Je la ferai paître avec justice."
+      content: C’est moi qui ferai paître mon troupeau, et c’est moi qui le ferai reposer, déclare le Seigneur DIEU ! La brebis perdue, je la chercherai. Celle qui est blessée, je la soignerai. Celle qui est faible, je lui rendrai des forces. Je la ferai paître avec justice.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -162,7 +163,8 @@ vespers:
     V/ Sa gloire habitera notre terre. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Une voix crie dans le désert : Préparez le chemin du Seigneur, tracez une route pour notre Dieu."
+    common: |-
+      Une voix crie dans le désert : Préparez le chemin du Seigneur, tracez une route pour notre Dieu.
   intercession:
     content: |-
       Verbe éternel, manifesté dans la chair, tu es pour tout homme le chemin qui conduit vers le Père, nous t’en supplions :

@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire."
+    - |-
+      Tu nous as dit, Seigneur, d’écouter ton Fils bien-aimé, fais-nous trouver dans ta Parole les vivres dont notre foi a besoin : et nous aurons le regard assez pur pour discerner ta gloire.
 
 firstVespers:
   psalmody:
@@ -23,7 +24,8 @@ firstVespers:
         - Élie et Moïse parlaient avec lui de son départ qui devait s’accomplir à Jérusalem.
   reading:
     biblicalReference: 2 Co 6, 1 b-4a
-    content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+    content: |-
+      Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière.
   responsory: |-
     R/ Voici le temps favorable.
     * Voici le jour du salut.
@@ -33,7 +35,8 @@ firstVespers:
     tous les lointains de la terre. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Une voix disait depuis la nuée : Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le."
+    common: |-
+      Une voix disait depuis la nuée : Celui-ci est mon Fils bien-aimé, en lui j’ai mis tout mon amour. Écoutez-le.
   intercession:
     content: |-
       Reconnaissons la sainteté de notre Dieu :
@@ -59,18 +62,21 @@ readings:
   psalmody:
     - psalm: PSALM_103_1
       antiphon:
-        - "La création entière gémit : elle attend d’être libérée."
+        - |-
+          La création entière gémit : elle attend d’être libérée.
     - psalm: PSALM_103_2
       antiphon:
-        - "La création entière gémit : elle attend d’être libérée."
+        - |-
+          La création entière gémit : elle attend d’être libérée.
     - psalm: PSALM_103_3
       antiphon:
-        - "La création entière gémit : elle attend d’être libérée."
+        - |-
+          La création entière gémit : elle attend d’être libérée.
   verse: |-
     V/ Du sein de la nuée, la voix du Père a retenti :
     Voici mon Fils, mon bien-aimé. Écoutez-le.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: À l’entrée du désert
       ref: Ex 13, 17-22; 14, 1-9
       content: |-
@@ -127,7 +133,8 @@ morning:
         - Louez Dieu au ciel de sa puissance !
   reading:
     biblicalReference: Ne 8, 9.10
-    content: "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas ! Car ce jour est consacré à notre Dieu ! Ne vous affligez pas : la joie du Seigneur est votre rempart !"
+    content: |-
+      Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas ! Car ce jour est consacré à notre Dieu ! Ne vous affligez pas : la joie du Seigneur est votre rempart !
   responsory: |-
     R/ La joie du Seigneur est notre rempart !
     V/ Tu es béni, Seigneur notre Dieu,
@@ -162,14 +169,14 @@ middleOfDay:
         - Passerais-je un ravin de ténèbres, je ne crains aucun mal.
     - psalm: PSALM_75_1
       antiphon:
-        - "Passerais-je un ravin de ténèbres, je ne crains aucun mal."
+        - Passerais-je un ravin de ténèbres, je ne crains aucun mal.
     - psalm: PSALM_75_2
       antiphon:
-        - "Passerais-je un ravin de ténèbres, je ne crains aucun mal."
+        - Passerais-je un ravin de ténèbres, je ne crains aucun mal.
   tierce:
     reading:
       biblicalReference: 1 Th 4, 1.7
-      content: "Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté."
+      content: Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -177,7 +184,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 30, 15.18
       content: |-
-        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
+        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -185,7 +192,7 @@ middleOfDay:
     reading:
       biblicalReference: Dt 4, 29-31
       content: |-
-        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
+        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.

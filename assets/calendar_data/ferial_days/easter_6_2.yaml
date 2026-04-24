@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
@@ -14,13 +14,16 @@ readings:
   psalmody:
     - psalm: PSALM_36_1
       antiphon:
-        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
+        - |-
+          Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia.
     - psalm: PSALM_36_2
       antiphon:
-        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
+        - |-
+          Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia.
     - psalm: PSALM_36_3
       antiphon:
-        - "Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia."
+        - |-
+          Béni sois-tu, Père : aux tout-petits tu révèles le secret de ton amour, alléluia.
   biblicalReading:
     - title: LECTURE DE LA 1^ère LETTRE DE SAINT JEAN
       subtitle: La foi du croyant face au monde
@@ -109,18 +112,17 @@ middleOfDay:
     - psalm: PSALM_53
       antiphon:
         - Alléluia, alléluia alléluia.
-
   tierce:
     reading:
       biblicalReference: Ac 4, 11-12
-      content: "Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver."
+      content: Jésus est la pierre qu’ont rejetée les bâtisseurs, et il est devenu la pierre d’angle. En dehors de lui, il n’y a pas de salut. Et son nom, donné aux hommes, est le seul qui puisse nous sauver.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
   sexte:
     reading:
       biblicalReference: Cf. 1 P 3, 21-22a
-      content: "Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu."
+      content: Maintenant le baptême vous sauve. Etre baptisé, ce n’est pas être purifié de souillures extérieures, mais s’engager envers Dieu avec une conscience droite, et participer ainsi à la résurrection de Jésus Christ qui est à la droite de Dieu.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
@@ -128,11 +130,11 @@ middleOfDay:
     reading:
       biblicalReference: Col 3, 1-2
       content: |-
-        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
-
+        Vous êtes ressuscités avec le Christ. Recherchez donc les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Tendez vers les réalités d’en haut, et non pas vers celles de la terre.
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
       le soir approche, alléluia.
+      
 vespers:
   psalmody:
     - psalm: PSALM_48_1
@@ -155,7 +157,8 @@ vespers:
     * Alléluia.
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Je vous ai dit la vérité : il vous est bon que je m’en aille. Si je ne partais pas, le Défenseur ne viendrait pas vers vous. Alléluia."
+    common: |-
+      Je vous ai dit la vérité : il vous est bon que je m’en aille. Si je ne partais pas, le Défenseur ne viendrait pas vers vous. Alléluia.
   intercession:
     content: |-
       Demandons au Christ d’achever par l’Esprit Saint ce qu’il a commencé dans son Église :

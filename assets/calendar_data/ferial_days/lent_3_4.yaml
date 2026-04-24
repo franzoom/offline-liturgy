@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Nous t’en supplions humblement, Seigneur : à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal."
+    - |-
+      Nous t’en supplions humblement, Seigneur : à mesure qu’approche le jour où nous fêterons notre salut, accorde-nous une plus grande générosité pour nous préparer à célébrer le mystère pascal.
 
 readings:
   psalmody:
@@ -20,12 +21,13 @@ readings:
         - Le Seigneur immolé sur la croix revient sauver ceux qui l’attendent.
     - psalm: PSALM_89
       antiphon:
-        - "Fais-nous savoir comment compter nos jours, Seigneur : que nous venions de cœur à la sagesse."
+        - |-
+          Fais-nous savoir comment compter nos jours, Seigneur : que nous venions de cœur à la sagesse.
   verse: |-
     V/ Celui qui médite la loi du Seigneur
     donne du fruit en son temps.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Renouvellement de l’Alliance
       ref: Ex 34, 10-28
       content: |-
@@ -132,28 +134,28 @@ middleOfDay:
         - Ne retiens pas contre nous nos péchés ; que nous vienne bientôt ta tendresse, car nous sommes à bout de force.
     - psalm: PSALM_78
       antiphon:
-        - "Ne retiens pas contre nous nos péchés ; que nous vienne bientôt ta tendresse, car nous sommes à bout de force."
+        - Ne retiens pas contre nous nos péchés ; que nous vienne bientôt ta tendresse, car nous sommes à bout de force.
     - psalm: PSALM_79
       antiphon:
-        - "Ne retiens pas contre nous nos péchés ; que nous vienne bientôt ta tendresse, car nous sommes à bout de force."
+        - Ne retiens pas contre nous nos péchés ; que nous vienne bientôt ta tendresse, car nous sommes à bout de force.
   tierce:
     reading:
       biblicalReference: Is 55, 6-7
-      content: "Cherchez le Seigneur tant qu’il se laisse trouver. Invoquez-le tant qu’il est proche. Que le méchant abandonne son chemin, et l’homme pervers, ses pensées ! Qu’il revienne vers le Seigneur, qui aura pitié de lui, vers notre Dieu, qui est riche en pardon."
+      content: Cherchez le Seigneur tant qu’il se laisse trouver. Invoquez-le tant qu’il est proche. Que le méchant abandonne son chemin, et l’homme pervers, ses pensées ! Qu’il revienne vers le Seigneur, qui aura pitié de lui, vers notre Dieu, qui est riche en pardon.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Dt 30, 2-3a
-      content: "Tu reviendras au Seigneur ton Dieu, toi et tes fils, tu écouteras sa voix de tout ton cœur et de toute ton âme, tu observeras tout ce que je te commande aujourd’hui. Alors le Seigneur changera ton sort, il aura pitié de toi."
+      content: Tu reviendras au Seigneur ton Dieu, toi et tes fils, tu écouteras sa voix de tout ton cœur et de toute ton âme, tu observeras tout ce que je te commande aujourd’hui. Alors le Seigneur changera ton sort, il aura pitié de toi.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: He 10, 35-36
-      content: Ne perdez pas votre confiance ; grâce à elle vous serez largement récompensés. Car vous avez bien besoin d’endurance pour accomplir la volonté de Dieu et obtenir ainsi la réalisation des promesses.
+      content: Ne perdez pas votre confiance ; grâce à elle vous serez largement récompensés. Car vous avez bien besoin d’endurance pour accomplir la volonté de Dieu et obtenir ainsi la réalisation des promesses.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -170,7 +172,8 @@ vespers:
         - Toi seul es saint, toi seul es le Seigneur !
   reading:
     biblicalReference: Jc 4, 7-8. 10
-    content: "Soumettez-vous à Dieu, et résistez au démon : il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains ; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera."
+    content: |-
+      Soumettez-vous à Dieu, et résistez au démon : il s’enfuira loin de vous. Approchez-vous de Dieu, et lui s’approchera de vous. Pécheurs, enlevez la souillure de vos mains ; hommes partagés, purifiez vos cœurs. Abaissez-vous devant le Seigneur, et il vous élèvera.
   responsory: |-
     R/ Seigneur, entends ma prière.
     * Que mon cri parvienne jusqu’à toi !

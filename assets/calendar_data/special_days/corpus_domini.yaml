@@ -11,7 +11,8 @@ firstVespers:
   psalmody:
     - psalm: PSALM_110
       antiphon:
-        - "Le Seigneur est tendresse et pitié : il a donné des vivres à ses fidèles. De ses merveilles, il a laissé un mémorial."
+        - |-
+          Le Seigneur est tendresse et pitié : il a donné des vivres à ses fidèles. De ses merveilles, il a laissé un mémorial.
     - psalm: PSALM_147
       antiphon:
         - Le Seigneur fait régner la paix dans son Église, et d’un pain de froment la rassasie.
@@ -81,7 +82,7 @@ readings:
       responsory: |-
          [rubric](Stance)[/rubric]
          Vers qui, Seigneur, diriger notre marche,
-         sinon vers toi ?
+         sinon vers toi ?
          Toi seul nous parles de la vie
          et nous la donnes.
          Rends-nous dignes de la table
@@ -94,7 +95,7 @@ readings:
          qui vient à moi n’aura jamais faim,
          qui croit en moi n’aura jamais soif.
          
-         Voici la parole de mon Père :
+         Voici la parole de mon Père :
          celui qui croit au Fils
          a la vie éternelle.
          
@@ -116,7 +117,7 @@ readings:
       responsory: |-
          [rubric](Stance)[/rubric]
          Vers qui, Seigneur, diriger notre marche,
-         sinon vers toi ?
+         sinon vers toi ?
          Toi seul nous parles de la vie
          et nous la donnes.
          Rends-nous dignes de la table
@@ -214,7 +215,8 @@ vespers:
         - Seigneur, tu es le Chemin, tu es la Vérité, tu es la Vie du monde.
   reading:
     biblicalReference: 1 Co 11, 23-25
-    content: "Je vous ai transmis, moi, Paul, ce que j’ai reçu de la tradition qui vient du Seigneur : la nuit même où il était livré, le Seigneur Jésus prit du pain, puis, ayant rendu grâce, il le rompit, et dit : « Ceci est mon corps, donné pour vous. Faites cela en mémoire de moi ». Après le repas, il fit de même avec la coupe, en disant : « Cette coupe est la nouvelle Alliance établie par mon sang. Chaque fois que vous en boirez, faites cela en mémoire de moi. »"
+    content: |-
+      Je vous ai transmis, moi, Paul, ce que j’ai reçu de la tradition qui vient du Seigneur : la nuit même où il était livré, le Seigneur Jésus prit du pain, puis, ayant rendu grâce, il le rompit, et dit : « Ceci est mon corps, donné pour vous. Faites cela en mémoire de moi ». Après le repas, il fit de même avec la coupe, en disant : « Cette coupe est la nouvelle Alliance établie par mon sang. Chaque fois que vous en boirez, faites cela en mémoire de moi. »
   responsory: |-
     R/ Vois notre faim, Sauveur du monde,
     * Partage-nous ta parole et ton pain.
@@ -224,7 +226,8 @@ vespers:
     V/ Qui mange ma chair et boit mon sang a la vie éternelle,
     et moi, je le ressusciterai au dernier jour. R/
   evangelicAntiphon:
-    common: "Banquet très saint où le Christ est reçu en nourriture : le mémorial de sa passion est célébré, notre âme est remplie de sa grâce, et la gloire à venir nous est déjà donnée, alléluia."
+    common: |-
+      Banquet très saint où le Christ est reçu en nourriture : le mémorial de sa passion est célébré, notre âme est remplie de sa grâce, et la gloire à venir nous est déjà donnée, alléluia.
   intercession:
     content: |-
       Prions dans la joie le Seigneur Jésus Christ, Pain de notre vie :

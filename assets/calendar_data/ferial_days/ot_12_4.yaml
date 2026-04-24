@@ -7,7 +7,8 @@ invitatory:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
 oration:
-    - "Dieu éternel et tout puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+    - |-
+      Dieu éternel et tout puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
 
 readings:
   biblicalReading:
@@ -191,7 +192,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 105, 1a
-        chorus: 'Rendez grâce au Seigneur : il est bon !'
+        chorus: ’Rendez grâce au Seigneur : il est bon !’
       - chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : il est bon !

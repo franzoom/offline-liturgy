@@ -84,7 +84,6 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     invitatory: morningOffice.invitatory,
     hymns: morningOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
-    imprecatory: celebrationContext.showImprecatoryVerses,
   );
 
   // 7. Filter evangelicAntiphon: keep only default + current year

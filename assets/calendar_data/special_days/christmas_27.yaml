@@ -87,10 +87,12 @@ morning:
         - À saint Jean, le disciple au cœur pur, Jésus confia la Vierge Marie, sa mère très pure.
     - psalm: PSALM_149
       antiphon:
-        - "Le disciple que Jésus aimait le reconnut sur le rivage et s’écria : C’est le Seigneur, alléluia."
+        - |-
+          Le disciple que Jésus aimait le reconnut sur le rivage et s’écria : C’est le Seigneur, alléluia.
   reading:
     biblicalReference: Ac 4, 19-20
-    content: "Pierre et Jean dirent au grand conseil des juifs : Est-il juste devant Dieu de vous écouter, plutôt que d’écouter Dieu ? À vous de juger. Quant à nous, il nous est impossible de ne pas dire ce que nous avons vu et entendu."
+    content: |-
+      Pierre et Jean dirent au grand conseil des juifs : Est-il juste devant Dieu de vous écouter, plutôt que d’écouter Dieu ? À vous de juger. Quant à nous, il nous est impossible de ne pas dire ce que nous avons vu et entendu.
   responsory: |-
     R/ Vivante est la Parole de Dieu,
     * Plus pénétrante qu’un glaive.
@@ -134,7 +136,8 @@ middleOfDay:
   none:
     reading:
       biblicalReference: Ac 5, 41-42
-      content: "Les Apôtres, en sortant du grand conseil, repartaient tout joyeux d’avoir été jugés dignes de subir des humiliations pour le nom de Jésus. Tous les jours, au Temple et dans leurs maisons, sans cesse, ils enseignaient cette Bonne Nouvelle : Jésus est le Messie."
+      content: |-
+        Les Apôtres, en sortant du grand conseil, repartaient tout joyeux d’avoir été jugés dignes de subir des humiliations pour le nom de Jésus. Tous les jours, au Temple et dans leurs maisons, sans cesse, ils enseignaient cette Bonne Nouvelle : Jésus est le Messie.
     responsory: |-
       V/ Réjouissez-vous, exultez, dit le Seigneur,
       vos noms sont inscrits dans les cieux.
@@ -142,14 +145,16 @@ middleOfDay:
 vespers:
   reading:
     biblicalReference: Rm 8, 3-4
-    content: "Quand Dieu a envoyé son propre Fils dans notre condition humaine de pécheurs pour vaincre le péché, il a fait ce que la loi de Moïse ne pouvait pas faire à cause de la faiblesse humaine : il a détruit le péché dans l’homme charnel. Il voulait ainsi que les exigences de la Loi se réalisent en nous qui ne vivons pas sous l’emprise de la chair, mais de l’Esprit."
+    content: |-
+      Quand Dieu a envoyé son propre Fils dans notre condition humaine de pécheurs pour vaincre le péché, il a fait ce que la loi de Moïse ne pouvait pas faire à cause de la faiblesse humaine : il a détruit le péché dans l’homme charnel. Il voulait ainsi que les exigences de la Loi se réalisent en nous qui ne vivons pas sous l’emprise de la chair, mais de l’Esprit.
   responsory: |-
     R/ Le Verbe s’est fait chair.
     * Alléluia, alléluia !
     V/ Il a demeuré parmi nous. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "En toi sont accomplies, Vierge Marie, les prophéties qui concernaient le Christ : vierge, tu as conçu, et vierge, tu enfantes."
+    common: |-
+      En toi sont accomplies, Vierge Marie, les prophéties qui concernaient le Christ : vierge, tu as conçu, et vierge, tu enfantes.
   intercession:
     content: |-
       Jésus, lumière du monde,
@@ -165,7 +170,8 @@ vespers:
 
       Accueille en toi ceux qui ont franchi la mort.
   oration:
-    - "Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit : puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans toute notre vie."
+    - |-
+      Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit : puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans toute notre vie.
 mass:
 - massType: day_mass
   name: Messe du jour

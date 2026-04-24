@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - "Dieu tout puissant, accorde-nous, en ces jours de fête, de célébrer avec ferveur le Christ ressuscité : que le mystère de Pâques dont nous faisons mémoire reste présent dans notre vie et la transforme."
+    - |-
+      Dieu tout puissant, accorde-nous, en ces jours de fête, de célébrer avec ferveur le Christ ressuscité : que le mystère de Pâques dont nous faisons mémoire reste présent dans notre vie et la transforme.
 
 firstVespers:
   psalmody:
@@ -33,7 +34,8 @@ firstVespers:
     V/ Je reconnais devant toi le prodige,
     l’être étonnant que je suis. R/
   evangelicAntiphon:
-    common: "Mon Père vous donnera un autre défenseur : celui-là sera toujours avec vous. Alléluia."
+    common: |-
+      Mon Père vous donnera un autre défenseur : celui-là sera toujours avec vous. Alléluia.
   intercession:
     content: |-
       Prions Jésus notre Sauveur qui a vaincu la mort par sa Croix :
@@ -115,7 +117,8 @@ morning:
         - Voici le jour que fit le Seigneur, alléluia.
     - psalm: OT_40
       antiphon:
-        - "Béni sois-tu au firmament, dans le ciel : à toi, louange et gloire, éternellement !"
+        - |-
+          Béni sois-tu au firmament, dans le ciel : à toi, louange et gloire, éternellement !
     - psalm: PSALM_150
       antiphon:
         - Prosternez-vous devant le trône de Dieu. Adorez-le dans sa gloire, alléluia.
@@ -162,7 +165,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1 Co 15, 3b-5
-      content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
+      content: Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
@@ -170,14 +173,14 @@ middleOfDay:
     reading:
       biblicalReference: Ep 2, 4-6a
       content: |-
-        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
+        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
   none:
     reading:
       biblicalReference: Rm 6, 4
-      content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
+      content: Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts.
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
       le soir approche, alléluia.

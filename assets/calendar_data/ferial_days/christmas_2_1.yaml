@@ -4,10 +4,11 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
+    - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
 
 oration:
-    - "Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine : nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin."
+    - |-
+      Seigneur, nous t’en prions, éclaire nos cœurs de ta lumière souveraine : nous trouverons alors la force d’avancer dans un monde obscur pour atteindre le pays du jour sans déclin.
 
 readings:
   psalmody:
@@ -74,16 +75,19 @@ morning:
   psalmody:
     - psalm: PSALM_41
       antiphon:
-        - "Vous tous qui avez soif, venez vers les eaux ! Cherchez le Seigneur : il se laisse trouver, alléluia."
+        - |-
+          Vous tous qui avez soif, venez vers les eaux ! Cherchez le Seigneur : il se laisse trouver, alléluia.
     - psalm: OT_15
       antiphon:
         - Renouvelle les prodiges, recommence les merveilles, Maître et Dieu de tout !
     - psalm: PSALM_18A
       antiphon:
-        - "Là se trouve la demeure du soleil : tel un époux, il s’élance joyeux."
+        - |-
+          Là se trouve la demeure du soleil : tel un époux, il s’élance joyeux.
   reading:
     biblicalReference: Is 9, 5
-    content: "Un enfant nous est né, un fils nous a été donné ; l’insigne du pouvoir est sur son épaule ; on proclame son nom : « Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-Paix »."
+    content: |-
+      Un enfant nous est né, un fils nous a été donné ; l’insigne du pouvoir est sur son épaule ; on proclame son nom : « Merveilleux-Conseiller, Dieu-Fort, Père-à-jamais, Prince-de-la-Paix ».
   responsory: |-
     R/ Les rois se prosterneront devant lui.
     * Tous les pays le serviront.
@@ -91,7 +95,8 @@ morning:
     V/ Il délivrera le pauvre qui appelle. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Venus d’Orient jusqu’à Bethléem, les mages adorent le Seigneur et lui offrent leurs présents : l’or est offert au Roi, l’encens au vrai Dieu, et la myrrhe pour sa sépulture, alléluia."
+    common: |-
+      Venus d’Orient jusqu’à Bethléem, les mages adorent le Seigneur et lui offrent leurs présents : l’or est offert au Roi, l’encens au vrai Dieu, et la myrrhe pour sa sépulture, alléluia.
   intercession:
     content: |-
       Rédempteur du monde,
@@ -116,29 +121,29 @@ middleOfDay:
         - Voici que je viens, Seigneur, pour accomplir ta volonté.
     - psalm: PSALM_39_1
       antiphon:
-        - "Voici que je viens, Seigneur, pour accomplir ta volonté."
+        - Voici que je viens, Seigneur, pour accomplir ta volonté.
     - psalm: PSALM_39_2
       antiphon:
-        - "Voici que je viens, Seigneur, pour accomplir ta volonté."
+        - Voici que je viens, Seigneur, pour accomplir ta volonté.
 
   tierce:
     reading:
       biblicalReference: Dt 4,7
-      content: "Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons ?"
+      content: Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons ?
     responsory: |-
       V/ Il est apparu sur la terre,
       il a vécu parmi les hommes.
   sexte:
     reading:
       biblicalReference: Is 12,5-6
-      content: "Jouez pour le Seigneur ! Car il a fait la merveille connue de toute la terre. Jubilez, criez de joie, habitants de Sion, car il est grand au milieu de toi, le Saint d’Israel."
+      content: Jouez pour le Seigneur ! Car il a fait la merveille connue de toute la terre. Jubilez, criez de joie, habitants de Sion, car il est grand au milieu de toi, le Saint d’Israel.
     responsory: |-
       V/ Les nations verront ta justice,
       tous les rois verront ta gloire.
   none:
     reading:
       biblicalReference: Cf. Tb 14, 6-7
-      content: "Tous abandonneront leurs idoles trompeuses, ils se rassembleront et viendront à Jérusalem. Ceux qui aiment Dieu en vérité seront dans la joie."
+      content: Tous abandonneront leurs idoles trompeuses, ils se rassembleront et viendront à Jérusalem. Ceux qui aiment Dieu en vérité seront dans la joie.
     responsory: |-
       V/ Peuples, bénissez notre Dieu.
       Faites retentir sa louange.
@@ -146,10 +151,12 @@ vespers:
   psalmody:
     - psalm: PSALM_44_1
       antiphon:
-        - "Tu es le plus beau des enfants de l’homme : Dieu te bénit pour toujours."
+        - |-
+          Tu es le plus beau des enfants de l’homme : Dieu te bénit pour toujours.
     - psalm: PSALM_44_2
       antiphon:
-        - "Tu es le plus beau des enfants de l’homme : Dieu te bénit pour toujours."
+        - |-
+          Tu es le plus beau des enfants de l’homme : Dieu te bénit pour toujours.
     - psalm: NT_4
   reading:
     biblicalReference: cf. 2 P 1, 3-4

@@ -9,13 +9,15 @@ firstVespers:
     - psalm: PSALM_121
       antiphon:
         - La paix soit avec toi, sainte cité de Dieu !
-        - "Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous : exultez de sa joie !"
+        - |-
+          Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous : exultez de sa joie !
     - psalm: NT_5
       antiphon:
         - Il s’est abaissé, Dieu l’a exalté.
   reading:
     biblicalReference: 2 P 1, 19-21
-    content: "Vous avez raison de fixer votre attention sur la parole des prophètes, comme sur une lampe brillante dans l’obscurité jusqu’à ce que paraisse le jour et que l’étoile du matin se lève dans vos cœurs. Car vous savez cette chose essentielle : aucune prophétie de l’Écriture ne vient d’une intuition personnelle. En effet, ce n’est jamais la volonté d’un homme qui a porté une prophétie : c’est portés par l’Esprit que des hommes ont parlé de la part de Dieu."
+    content: |-
+      Vous avez raison de fixer votre attention sur la parole des prophètes, comme sur une lampe brillante dans l’obscurité jusqu’à ce que paraisse le jour et que l’étoile du matin se lève dans vos cœurs. Car vous savez cette chose essentielle : aucune prophétie de l’Écriture ne vient d’une intuition personnelle. En effet, ce n’est jamais la volonté d’un homme qui a porté une prophétie : c’est portés par l’Esprit que des hommes ont parlé de la part de Dieu.
   responsory: |-
     R/ Ta parole est la lumière de mes pas,
     >la lampe de ma route.
@@ -54,7 +56,8 @@ oration:
     - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
 
 evangelicAntiphon:
-    yearA: "Si l’on vous persécute à cause de moi, réjouissez-vous : votre récompense sera grande dans les cieux."
+    yearA: |-
+      Si l’on vous persécute à cause de moi, réjouissez-vous : votre récompense sera grande dans les cieux.
     yearB: Dans toute la Galilée, se répandait la renommée du Seigneur.
     yearC: Passant au milieu d’eux, Jésus allait son chemin.
 
@@ -67,7 +70,8 @@ readings:
         - Qui peut gravir la montagne du Seigneur et se tenir dans le lieu saint ?
     - psalm: PSALM_65_1
       antiphon:
-        - "Peuples, bénissez notre Dieu : c’est lui qui donne la vie, alléluia."
+        - |-
+          Peuples, bénissez notre Dieu : c’est lui qui donne la vie, alléluia.
     - psalm: PSALM_65_2
       antiphon:
         - Écoutez, je vous dirai ce que Dieu a fait pour moi, alléluia.
@@ -124,7 +128,8 @@ morning:
         - Louange au Seigneur par tout ce qui vit et respire, alléluia !
   reading:
     biblicalReference: 2 Tm 2, 8.11-13
-    content: "Souviens-toi de Jésus Christ, le descendant de David : il est ressuscité d’entre les morts. Voici une parole sûre : si nous sommes morts avec lui, avec lui nous vivrons. Si nous supportons l’épreuve, avec lui nous régnerons. Si nous le rejetons, lui aussi nous rejettera. Si nous sommes infidèles, lui, il restera fidèle, car il ne peut se rejeter lui-même."
+    content: |-
+      Souviens-toi de Jésus Christ, le descendant de David : il est ressuscité d’entre les morts. Voici une parole sûre : si nous sommes morts avec lui, avec lui nous vivrons. Si nous supportons l’épreuve, avec lui nous régnerons. Si nous le rejetons, lui aussi nous rejettera. Si nous sommes infidèles, lui, il restera fidèle, car il ne peut se rejeter lui-même.
   responsory: |-
     R/ Il est notre salut, notre gloire éternelle !
     V/ Si nous mourons avec lui, avec lui, nous vivrons. R/
@@ -163,21 +168,21 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1 Co 6, 19-20
-      content: "Ne le savez-vous pas ? Votre corps est le temple de l’Esprit Saint, qui est en vous et que vous avez reçu de Dieu ; vous ne vous appartenez plus à vous-mêmes, car le Seigneur vous a achetés très cher. Rendez gloire à Dieu dans votre corps."
+      content: Ne le savez-vous pas ? Votre corps est le temple de l’Esprit Saint, qui est en vous et que vous avez reçu de Dieu ; vous ne vous appartenez plus à vous-mêmes, car le Seigneur vous a achetés très cher. Rendez gloire à Dieu dans votre corps.
     responsory: |-
       V/ Mon âme s’épuise à désirer les parvis du Seigneur ;
       mon cœur et ma chair sont un cri vers le Dieu vivant !
   sexte:
     reading:
       biblicalReference: Dt 10, 12
-      content: "Sais-tu, Israël, ce que le Seigneur ton Dieu te demande ? Craindre le Seigneur ton Dieu, suivre tous ses chemins, aimer le Seigneur ton Dieu, le servir de tout ton cœur et de toute ton âme."
+      content: Sais-tu, Israël, ce que le Seigneur ton Dieu te demande ? Craindre le Seigneur ton Dieu, suivre tous ses chemins, aimer le Seigneur ton Dieu, le servir de tout ton cœur et de toute ton âme.
     responsory: |-
       V/ De tout mon cœur, je te cherche, Seigneur ;
       garde-moi de fuir tes volontés.
   none:
     reading:
       biblicalReference: Ct 8, 6b-7a
-      content: "L’amour est fort comme la mort, la passion est implacable comme l’abîme. Ses flammes sont des flammes brûlantes, c’est un feu divin ! Les torrents ne peuvent éteindre l’amour, les fleuves ne l’emporteront pas."
+      content: L’amour est fort comme la mort, la passion est implacable comme l’abîme. Ses flammes sont des flammes brûlantes, c’est un feu divin ! Les torrents ne peuvent éteindre l’amour, les fleuves ne l’emporteront pas.
     responsory: |-
       V/ Je t’aime, Seigneur, ma force :
       mon bouclier, mon fort, mon arme de Victoire.
@@ -187,11 +192,13 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "Oracle du Seigneur à mon seigneur : Siège à ma droite."
+        - |-
+          Oracle du Seigneur à mon seigneur : Siège à ma droite.
         - Gloire à toi, Jésus ressuscité, qui règnes à la droite du Père !
     - psalm: PSALM_111
       antiphon:
-        - "Heureux ceux qui ont faim et soif de la justice : ils seront rassasiés ! Alléluia !"
+        - |-
+          Heureux ceux qui ont faim et soif de la justice : ils seront rassasiés ! Alléluia !
         - Dans la nuit de ce monde, le juste brillera.
     - psalm: NT_12
   reading:

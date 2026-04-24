@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -14,16 +14,19 @@ firstVespers:
   psalmody:
     - psalm: PSALM_140
       antiphon:
-        - "Vois notre cœur brisé, notre esprit humilié ; c’est là notre sacrifice : qu’il te plaise, Seigneur !"
+        - |-
+          Vois notre cœur brisé, notre esprit humilié ; c’est là notre sacrifice : qu’il te plaise, Seigneur !
     - psalm: PSALM_141
       antiphon:
-        - "À ton cri le Seigneur répondra, à ton appel il dira : Me voici !"
+        - |-
+          À ton cri le Seigneur répondra, à ton appel il dira : Me voici !
     - psalm: NT_5
       antiphon:
         - Le Juste est mort pour les coupables, afin de nous offrir à Dieu ; mis à mort dans la chair, il est ressuscité dans l’Esprit.
   reading:
     biblicalReference: 2 Co 6, 1 b-4a
-    content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+    content: |-
+      Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière.
   responsory: |-
     R/ Voici le temps favorable.
     * Voici le jour du salut.
@@ -62,12 +65,13 @@ readings:
         - Déjà le Prince de ce monde est terrassé ; le Fils de l’homme élevé sur la croix attire à lui tous les hommes.
     - psalm: PSALM_3
       antiphon:
-        - "Criez vers le Seigneur : il vous arrachera des mains de vos ennemis."
+        - |-
+          Criez vers le Seigneur : il vous arrachera des mains de vos ennemis.
   verse: |-
     V/ L’homme ne vit pas seulement de pain,
     mais de toute parole qui sort de la bouche de Dieu.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Redoublement d’oppression
       ref: Ex 5, 1 – 6, 1
       content: |-
@@ -123,7 +127,8 @@ morning:
         - Le Seigneur aime son peuple, il donne aux humbles l’éclat de la victoire.
   reading:
     biblicalReference: Ne 8, 9.10
-    content: "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas ! Car ce jour est consacré à notre Dieu ! Ne vous affligez pas : la joie du Seigneur est votre rempart !"
+    content: |-
+      Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas ! Car ce jour est consacré à notre Dieu ! Ne vous affligez pas : la joie du Seigneur est votre rempart !
   responsory: |-
     R/ La joie du Seigneur est notre rempart !
     V/ Tu es béni, Seigneur notre Dieu,
@@ -133,7 +138,8 @@ morning:
     V/ Gloire et puissance au Père et au Fils,
     au Saint-Esprit qui chante en nos cœurs. R/
   evangelicAntiphon:
-    common: "Jésus fut conduit par l’Esprit au désert pour être tenté par Satan : il jeûna quarante jours, quarante nuits, et connut la faim."
+    common: |-
+      Jésus fut conduit par l’Esprit au désert pour être tenté par Satan : il jeûna quarante jours, quarante nuits, et connut la faim.
   intercession:
     content: |-
       Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.
@@ -158,14 +164,14 @@ middleOfDay:
         - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_2
       antiphon:
-        - "Ma force et mon chant, c’est le Seigneur."
+        - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_3
       antiphon:
-        - "Ma force et mon chant, c’est le Seigneur."
+        - Ma force et mon chant, c’est le Seigneur.
   tierce:
     reading:
       biblicalReference: 1 Th 4, 1.7
-      content: "Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté."
+      content: Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -173,7 +179,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 30, 15.18
       content: |-
-        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
+        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -181,7 +187,7 @@ middleOfDay:
     reading:
       biblicalReference: Dt 4, 29-31
       content: |-
-        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
+        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -195,7 +201,8 @@ vespers:
         - Voici le temps favorable, voici le jour du salut.
     - psalm: NT_8
       antiphon:
-        - "Voici que nous montons à Jérusalem : là, ce qui fut écrit du Fils de l’homme s’accomplira."
+        - |-
+          Voici que nous montons à Jérusalem : là, ce qui fut écrit du Fils de l’homme s’accomplira.
   reading:
     biblicalReference: 1 Co 9, 24-25
     content: Vous savez bien que, dans les courses du stade, tous les coureurs prennent le départ, mais un seul gagne le prix. Alors, vous, courez de manière à l’emporter. Tous les athlètes à l’entraînement s’imposent une discipline sévère ; ils le font pour gagner une couronne de laurier qui va se faner, et nous, pour une couronne qui ne se fane pas.

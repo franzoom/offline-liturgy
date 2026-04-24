@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple ; regarde avec bienveillance tous ceux qui t’appartiennent : que ton amour protège et fortifie à la fois les catéchumènes et les baptisés."
+    - |-
+      Seigneur, tu es toujours à l’œuvre pour sauver les hommes, mais en ce moment du carême tu offres plus largement ta grâce à ton peuple ; regarde avec bienveillance tous ceux qui t’appartiennent : que ton amour protège et fortifie à la fois les catéchumènes et les baptisés.
 
 readings:
   psalmody:
@@ -73,13 +74,15 @@ morning:
         - Tu conduis par ton amour, Seigneur, ce peuple que tu as racheté.
     - psalm: OT_1
       antiphon:
-        - "Ma force et mon chant, c’est le Seigneur : il est pour moi le salut."
+        - |-
+          Ma force et mon chant, c’est le Seigneur : il est pour moi le salut.
     - psalm: PSALM_116
       antiphon:
         - Peuples de la terre, louez le Seigneur !
   reading:
     biblicalReference: Is 65, 1b-3a
-    content: "J’ai dit : « Me voici, me voici » à une nation qui n’invoquait pas mon nom. J’ai tendu mes mains, à longueur de jour, vers un peuple rebelle, vers ceux qui suivent le chemin qui n’est pas bon, qui sont à la remorque de leurs propres pensées. C’est un peuple qui me vexe, en face, sans arrêt."
+    content: |-
+      J’ai dit : « Me voici, me voici » à une nation qui n’invoquait pas mon nom. J’ai tendu mes mains, à longueur de jour, vers un peuple rebelle, vers ceux qui suivent le chemin qui n’est pas bon, qui sont à la remorque de leurs propres pensées. C’est un peuple qui me vexe, en face, sans arrêt.
   responsory: |-
     R/ Il m’appelle, et moi, je lui réponds :
     * Je veux le libérer, le glorifier.
@@ -109,18 +112,21 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_118_5
       antiphon:
-        - "Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur."
+        - |-
+          Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur.
     - psalm: PSALM_33_1
       antiphon:
-        - "Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur."
+        - |-
+          Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur.
     - psalm: PSALM_33_2
       antiphon:
-        - "Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur."
+        - |-
+          Venez, mes fils, écoutez-moi : je vous enseigne la crainte du Seigneur.
 
   tierce:
     reading:
       biblicalReference: 1 Jn 1, 8-9
-      content: "Si nous disons que nous n’avons pas de péché, nous nous égarons nous-mêmes et la vérité n’est pas en nous. Si nous reconnaissons nos péchés, lui qui est fidèle et juste nous pardonnera nos péchés et nous purifiera de tout ce qui nous oppose à lui."
+      content: Si nous disons que nous n’avons pas de péché, nous nous égarons nous-mêmes et la vérité n’est pas en nous. Si nous reconnaissons nos péchés, lui qui est fidèle et juste nous pardonnera nos péchés et nous purifiera de tout ce qui nous oppose à lui.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -128,14 +134,14 @@ middleOfDay:
     reading:
       biblicalReference: 1 Jn 2, 1b-2
       content: |-
-        Nous avons un défenseur devant le Père : Jésus Christ, le Juste. Il est la victime offerte pour nos péchés, et non seulement pour les nôtres, mais encore pour ceux du monde entier.
+        Nous avons un défenseur devant le Père : Jésus Christ, le Juste. Il est la victime offerte pour nos péchés, et non seulement pour les nôtres, mais encore pour ceux du monde entier.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: 1 Jn 2, 8b-10
-      content: "Les ténèbres sont en train de disparaître, et déjà brille la vraie lumière. Celui qui déclare être dans la lumière et qui a de la haine contre son frère est encore maintenant dans les ténèbres. Celui qui aime son frère demeure dans la lumière, et il n’y a pour lui aucune occasion de chute."
+      content: Les ténèbres sont en train de disparaître, et déjà brille la vraie lumière. Celui qui déclare être dans la lumière et qui a de la haine contre son frère est encore maintenant dans les ténèbres. Celui qui aime son frère demeure dans la lumière, et il n’y a pour lui aucune occasion de chute.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.

@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -14,13 +14,16 @@ readings:
   psalmody:
     - psalm: PSALM_17_1
       antiphon:
-        - "Revêtons-nous de l’armure de Dieu : nous résisterons, fermes dans la foi."
+        - |-
+          Revêtons-nous de l’armure de Dieu : nous résisterons, fermes dans la foi.
     - psalm: PSALM_17_2
       antiphon:
-        - "Revêtons-nous de l’armure de Dieu : nous résisterons, fermes dans la foi."
+        - |-
+          Revêtons-nous de l’armure de Dieu : nous résisterons, fermes dans la foi.
     - psalm: PSALM_17_3
       antiphon:
-        - "Revêtons-nous de l’armure de Dieu : nous résisterons, fermes dans la foi."
+        - |-
+          Revêtons-nous de l’armure de Dieu : nous résisterons, fermes dans la foi.
   verse: |-
     V/ Convertissez-vous et faites pénitence,
     faites-vous un cœur et un esprit nouveau.
@@ -72,7 +75,8 @@ morning:
         - Tous les peuples, battez des mains, acclamez Dieu par vos cris de joie !
   reading:
     biblicalReference: Is 50, 5-7
-    content: "Le Seigneur Dieu m’a ouvert l’oreille, et moi, je ne me suis pas révolté, je ne me suis pas dérobé. J’ai présenté mon dos à ceux qui me frappaient, et mes joues à ceux qui m’arrachaient la barbe. Je n’ai pas protégé mon visage des outrages et des crachats. Le Seigneur Dieu vient à mon secours : c’est pourquoi je ne suis pas atteint par les outrages, c’est pourquoi j’ai rendu mon visage dur comme pierre : je sais que je ne serai pas confondu."
+    content: |-
+      Le Seigneur Dieu m’a ouvert l’oreille, et moi, je ne me suis pas révolté, je ne me suis pas dérobé. J’ai présenté mon dos à ceux qui me frappaient, et mes joues à ceux qui m’arrachaient la barbe. Je n’ai pas protégé mon visage des outrages et des crachats. Le Seigneur Dieu vient à mon secours : c’est pourquoi je ne suis pas atteint par les outrages, c’est pourquoi j’ai rendu mon visage dur comme pierre : je sais que je ne serai pas confondu.
   responsory: |-
     R/ Comme un agneau que l’on mène à l’abattoir,
     il n’ouvre pas la bouche.
@@ -107,15 +111,15 @@ middleOfDay:
         - Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces.
     - psalm: PSALM_16_1
       antiphon:
-        - "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
+        - Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces.
     - psalm: PSALM_16_2
       antiphon:
-        - "Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces."
+        - Pour me conduire selon ta parole, j’ai tenu mes pas sur tes traces.
   tierce:
     reading:
       biblicalReference: 1 Tm 2, 4-6
       content: |-
-        Dieu notre Sauveur veut que tous les hommes soient sauvés et arrivent à connaître pleinement la vérité. En effet il n’y a qu’un seul Dieu, il n’y a qu un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes. Au temps fixé, il a rendu ce témoignage.
+        Dieu notre Sauveur veut que tous les hommes soient sauvés et arrivent à connaître pleinement la vérité. En effet il n’y a qu’un seul Dieu, il n’y a qu un seul médiateur entre Dieu et les hommes : un homme, le Christ Jésus, qui s’est donné lui-même en rançon pour tous les hommes. Au temps fixé, il a rendu ce témoignage.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -123,14 +127,14 @@ middleOfDay:
     reading:
       biblicalReference: Rm 15, 3
       content: |-
-        Le Christ n’a pas recherché ce qui lui plaisait, mais comme il est écrit : « Les insultes de tes insulteurs sont tombées sur moi ».
+        Le Christ n’a pas recherché ce qui lui plaisait, mais comme il est écrit : « Les insultes de tes insulteurs sont tombées sur moi ».
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
   none:
     reading:
       biblicalReference: He 9, 28
-      content: "Le Christ, après s’être offert une seule fois pour enlever les péchés de la multitude, apparaîtra une seconde fois, non plus à cause du péché, mais pour le salut de ceux qui l’attendent."
+      content: Le Christ, après s’être offert une seule fois pour enlever les péchés de la multitude, apparaîtra une seconde fois, non plus à cause du péché, mais pour le salut de ceux qui l’attendent.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -138,13 +142,16 @@ vespers:
   psalmody:
     - psalm: PSALM_26_1
       antiphon:
-        - "Le Seigneur est ma lumière et mon salut : de qui aurais-je crainte ?"
+        - |-
+          Le Seigneur est ma lumière et mon salut : de qui aurais-je crainte ?
     - psalm: PSALM_26_2
       antiphon:
-        - "Écoute, Seigneur, mon cri d’appel : c’est ta face que je cherche."
+        - |-
+          Écoute, Seigneur, mon cri d’appel : c’est ta face que je cherche.
     - psalm: NT_6
       antiphon:
-        - "Tout vient de lui, tout est pour lui, tout est en lui : gloire à Dieu dans les siècles !"
+        - |-
+          Tout vient de lui, tout est pour lui, tout est en lui : gloire à Dieu dans les siècles !
   reading:
     biblicalReference: Ep 4, 32 - 5,2
     content: Soyez entre vous pleins de générosité et de ten­dresse. Pardonnez-vous les uns aux autres comme Dieu vous a pardonné dans le Christ. Oui, cherchez à imiter Dieu puisque vous êtes ses enfants bien-aimés. Vivez dans l’amour comme le Christ nous a aimés et s’est livré pour nous en offrant à Dieu le sacrifice qui pouvait lui plaire.

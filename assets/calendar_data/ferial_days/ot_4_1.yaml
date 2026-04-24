@@ -93,7 +93,8 @@ morning:
     * Tu nous as fait sortir dans l’abondance.
       Gloire au Père. R/ Nous sommes entrés.
   evangelicAntiphon:
-    common: "Béni soit le Seigneur : il visite son peuple et lui redonne vie."
+    common: |-
+      Béni soit le Seigneur : il visite son peuple et lui redonne vie.
   intercession:
     content: |-
       Bénissons le Seigneur qui veut le bonheur de ses enfants.
@@ -116,13 +117,15 @@ morning:
 
       Tu donnes ton Royaume aux persécutés.
   oration:
-    - "Tu demandes à l’humanité, Dieu créateur, de se perfectionner de jour en jour et d’achever par son travail l’œuvre immense de la création ; aide-nous à faire que tous les hommes aient des conditions de travail qui respectent leur dignité : qu’en s’efforçant d’améliorer leur propre sort, ils agissent avec un esprit de solidarité et de service."
+    - |-
+      Tu demandes à l’humanité, Dieu créateur, de se perfectionner de jour en jour et d’achever par son travail l’œuvre immense de la création ; aide-nous à faire que tous les hommes aient des conditions de travail qui respectent leur dignité : qu’en s’efforçant d’améliorer leur propre sort, ils agissent avec un esprit de solidarité et de service.
 
 middleOfDay:
   psalmody:
     - psalm: PSALM_118_17
       antiphon:
-        - "Pour ton serviteur, que ton visage s’illumine : apprends-moi, Seigneur, tes commandements."
+        - |-
+          Pour ton serviteur, que ton visage s’illumine : apprends-moi, Seigneur, tes commandements.
     - psalm: PSALM_81
       antiphon:
         - Toi seul, Seigneur, jugeras les vivants et les morts.
@@ -133,28 +136,28 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Lv 20, 26
-      content: "Soyez à moi, saints car je suis saint, moi, le Seigneur ; et je vous ai distingués du milieu des peuples pour que vous soyez à moi."
+      content: Soyez à moi, saints car je suis saint, moi, le Seigneur ; et je vous ai distingués du milieu des peuples pour que vous soyez à moi.
     responsory: |-
       V/ Heureux le peuple dont le Seigneur est le Dieu,
       heureuse la nation qu’il s’est choisie comme domaine.
-    oration: "Père très bon, toi qui as confié la terre aux hommes pour qu’ils la gardent et la travaillent, pour qu’ils puissent progresser en s’entraidant, donne-nous de mener nos travaux avec un esprit filial envers toi et un esprit fraternel envers tous. Par Jésus, le Christ, notre Seigneur. Amen."
+    oration: Père très bon, toi qui as confié la terre aux hommes pour qu’ils la gardent et la travaillent, pour qu’ils puissent progresser en s’entraidant, donne-nous de mener nos travaux avec un esprit filial envers toi et un esprit fraternel envers tous. Par Jésus, le Christ, notre Seigneur. Amen.
   sexte:
     reading:
       biblicalReference: Sg 15, 1.3
-      content: "Toi, notre Dieu, tu es bon et fidèle, tu es patient et gouvernes tous les êtres avec miséricorde. Savoir qui tu es conduit à la justice parfaite, et reconnaître ta souveraineté est la racine de l’immortalité."
+      content: Toi, notre Dieu, tu es bon et fidèle, tu es patient et gouvernes tous les êtres avec miséricorde. Savoir qui tu es conduit à la justice parfaite, et reconnaître ta souveraineté est la racine de l’immortalité.
     responsory: |-
       V/ Tu es Dieu de tendresse et de pitié,
       lent à la colère, plein d’amour et de vérité.
-    oration: "Maître de la vigne et de la moisson, toi qui répartis les tâches et donnes le vrai salaire, aide-nous à porter le poids du jour sans murmurer contre ta volonté. Par Jésus, le Christ, notre Seigneur. Amen"
+    oration: Maître de la vigne et de la moisson, toi qui répartis les tâches et donnes le vrai salaire, aide-nous à porter le poids du jour sans murmurer contre ta volonté. Par Jésus, le Christ, notre Seigneur. Amen
   none:
     reading:
       biblicalReference: Ba 4, 21b-22
       content: |-
-        Enfants, criez vers Dieu et il vous arrachera à la domination, aux mains de vos ennemis ; car moi, j’ai placé dans l’Éternel l’espérance de votre salut et le Saint m’a envoyé une joie : la miséricorde vous viendra bientôt de la part de l’Éternel, votre sauveur.
+        Enfants, criez vers Dieu et il vous arrachera à la domination, aux mains de vos ennemis ; car moi, j’ai placé dans l’Éternel l’espérance de votre salut et le Saint m’a envoyé une joie : la miséricorde vous viendra bientôt de la part de l’Éternel, votre sauveur.
     responsory: |-
       V/ Rappelle-toi, Seigneur, ta tendresse,
       ton amour qui est de toujours.
-    oration: "Tu nous invites, Seigneur, à nous réunir près de toi comme les Apôtres qui montaient au Temple à la neuvième heure. Que notre prière faite au nom de Jésus appelle ton salut sur tous ceux qui invoquent son nom. Lui qui règne."
+    oration: Tu nous invites, Seigneur, à nous réunir près de toi comme les Apôtres qui montaient au Temple à la neuvième heure. Que notre prière faite au nom de Jésus appelle ton salut sur tous ceux qui invoquent son nom. Lui qui règne.
 vespers:
   hymn:
     - frappe-a-ma-porte
@@ -172,7 +175,8 @@ vespers:
     V/ Au-delà de toute souffrance
       une joie sans fin nous attend. R/
   evangelicAntiphon:
-    common: "Rendez grâce au Dieu du ciel : à toute chair il donne le pain."
+    common: |-
+      Rendez grâce au Dieu du ciel : à toute chair il donne le pain.
   intercession:
     content: |-
       Supplions le Christ qui n’abandonne pas les siens :

@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - "Viens au secours de ta famille, Seigneur, sois généreux pour elle : tu lui as donné la grâce de la foi, accorde-lui aussi une part dans la résurrection de ton Fils."
+    - |-
+      Viens au secours de ta famille, Seigneur, sois généreux pour elle : tu lui as donné la grâce de la foi, accorde-lui aussi une part dans la résurrection de ton Fils.
 
 readings:
   psalmody:
@@ -42,9 +43,10 @@ readings:
         où le Fils de l’homme viendra.
   patristicReading:
     - title: PREMIÈRE APOLOGIE DE SAINT JUSTIN
-      subtitle: "Le baptême au nom de Jésus Christ : nouvelle naissance et illumination."
+      subtitle: |-
+        Le baptême au nom de Jésus Christ : nouvelle naissance et illumination.
       content: |-
-        %Comme pour l’Eucharistie, Justin est aussi le premier témoin de l’incorporation à la communauté par le baptême, dans l’Église de Rome au IIe siècle%.
+        %Comme pour l’Eucharistie, Justin est aussi le premier témoin de l’incorporation à la communauté par le baptême, dans l’Église de Rome au II^ème siècle%.
         Nous allons vous exposer comment, après avoir été renouvelés par le Christ, nous nous consacrons à Dieu. ~ 
         Ceux qui sont convaincus de la vérité de notre doctrine et de notre parole, et qui y croient, promettent de vivre selon cette doctrine. On leur enseigne à prier et à demander à Dieu, en jeûnant, le pardon de leurs péchés passés ; et nous-mêmes, nous prions et nous jeûnons avec eux. 
         Ensuite ils sont conduits par nous au lieu où se trouve l’eau, et, de la même manière que nous avons été régénérés nous-mêmes, ils sont régénérés à leur tour. Au nom de Dieu le Père, maître de l’univers, de notre Sauveur Jésus Christ et de l’Esprit Saint, ils sont alors lavés dans l’eau. 
@@ -134,7 +136,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Rm 4, 24b-25
-      content: "Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification."
+      content: Nous croyons en Dieu, qui a ressuscité d’entre les morts Jésus notre Seigneur, livré pour nos fautes et ressuscité pour notre justification.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
@@ -142,14 +144,14 @@ middleOfDay:
     reading:
       biblicalReference: 1 Jn 5, 5-6a
       content: |-
-        Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ? C’est lui, Jésus Christ, qui est venu par l’eau et par le sang : pas seulement l’eau, mais l’eau et le sang
+        Qui donc est vainqueur du monde ? N’est-ce pas celui qui croit que Jésus est le Fils de Dieu ? C’est lui, Jésus Christ, qui est venu par l’eau et par le sang : pas seulement l’eau, mais l’eau et le sang.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
   none:
     reading:
       biblicalReference: Ep 4, 23-24
-      content: "Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu."
+      content: Laissez-vous guider intérieurement par un esprit renouvelé. Adoptez le comportement de l’homme nouveau créé saint et juste dans la vérité, à l’image de Dieu.
 
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
@@ -175,7 +177,8 @@ vespers:
     V/ Par ton inlassable intercession, R/
     V/ Par l’offrande de toi-même, R/
   evangelicAntiphon:
-    common: "Tous ceux que le Père m’a donnés viendront à moi : je les garderai près de moi à jamais. Alléluia !"
+    common: |-
+      Tous ceux que le Père m’a donnés viendront à moi : je les garderai près de moi à jamais. Alléluia !
   intercession:
     content: |-
       R/ Reste avec nous, Seigneur Jésus.

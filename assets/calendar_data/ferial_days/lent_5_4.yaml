@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde : purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage."
+    - |-
+      Sois attentif à nos supplications, Seigneur, veille sur nous et protège-nous, car nous mettons notre espoir en ta miséricorde : purifiés désormais de nos péchés, nous pourrons mener une vie sainte et entrer en possession de ton héritage.
 
 readings:
   psalmody:
@@ -110,14 +111,14 @@ middleOfDay:
         - Vois ma misère et ma peine, enlève tous mes péchés.
     - psalm: PSALM_24_1
       antiphon:
-        - "Vois ma misère et ma peine, enlève tous mes péchés."
+        - Vois ma misère et ma peine, enlève tous mes péchés.
     - psalm: PSALM_24_2
       antiphon:
-        - "Vois ma misère et ma peine, enlève tous mes péchés."
+        - Vois ma misère et ma peine, enlève tous mes péchés.
   tierce:
     reading:
       biblicalReference: He 4, 14-15
-      content: "En Jésus, le Fils de Dieu, nous avons le grand prêtre par excellence, celui qui a pénétré au-delà des cieux ; tenons donc ferme l’affirmation de notre foi. En effet, le grand prêtre que nous avons n’est pas incapable, lui, de partager nos faiblesses ; en toutes choses, il a connu l’épreuve comme nous, et il n’a pas péché."
+      content: En Jésus, le Fils de Dieu, nous avons le grand prêtre par excellence, celui qui a pénétré au-delà des cieux ; tenons donc ferme l’affirmation de notre foi. En effet, le grand prêtre que nous avons n’est pas incapable, lui, de partager nos faiblesses ; en toutes choses, il a connu l’épreuve comme nous, et il n’a pas péché.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -125,7 +126,7 @@ middleOfDay:
     reading:
       biblicalReference: He 7, 26-27
       content: |-
-        Jésus était bien le grand prêtre qu’il nous fallait : saint, sans tache, sans aucune faute ; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple ; cela, il l’a fait une fois pour toutes en s’offrant lui-même.
+        Jésus était bien le grand prêtre qu’il nous fallait : saint, sans tache, sans aucune faute ; séparé maintenant des pécheurs, il est désormais plus haut que les cieux. Il n’a pas besoin, comme les autres grands prêtres, d’offrir chaque jour des sacrifices, d’abord pour ses péchés personnels, puis pour ceux du peuple ; cela, il l’a fait une fois pour toutes en s’offrant lui-même.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -133,7 +134,7 @@ middleOfDay:
     reading:
       biblicalReference: He 9, 11-12
       content: |-
-        Le Christ est le grand prêtre du bonheur qui vient. Le temple de son corps est plus grand et plus parfait que celui de l’ancienne Alliance ; il n’a pas été construite par l’homme, et n’appartient donc pas à ce monde. C’est par ce temple qu’il est entré une fois pour toutes dans le sanctuaire du ciel en répandant, non pas le sang des animaux, mais son propre sang : il a obtenu ainsi une libération définitive.
+        Le Christ est le grand prêtre du bonheur qui vient. Le temple de son corps est plus grand et plus parfait que celui de l’ancienne Alliance ; il n’a pas été construite par l’homme, et n’appartient donc pas à ce monde. C’est par ce temple qu’il est entré une fois pour toutes dans le sanctuaire du ciel en répandant, non pas le sang des animaux, mais son propre sang : il a obtenu ainsi une libération définitive.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -141,14 +142,16 @@ vespers:
   psalmody:
     - psalm: PSALM_29
       antiphon:
-        - "Je retournerai chez mon Père et lui dirai : Père, j’ai péché contre le ciel et contre toi."
+        - |-
+          Je retournerai chez mon Père et lui dirai : Père, j’ai péché contre le ciel et contre toi.
     - psalm: PSALM_31
       antiphon:
         - Je rendrai grâce au Seigneur en confessant mon péché.
     - psalm: NT_10
   reading:
     biblicalReference: He 13, 12-15
-    content: "Jésus, voulant sanctifier le peuple par son propre sang, a souffert sa Passion en dehors de l’enceinte de la ville. Eh bien ! pour aller à sa rencontre, sortons en dehors de l’enceinte, en portant la même humiliation que lui. Car la cité que nous avons ici-bas n’est pas définitive : nous attendons la cité future. En toute circonstance, offrons à Dieu, par Jésus, un sacrifice de louange, c’est-à-dire l’acte de foi qui sort de nos lèvres en l’honneur de son nom."
+    content: |-
+      Jésus, voulant sanctifier le peuple par son propre sang, a souffert sa Passion en dehors de l’enceinte de la ville. Eh bien ! pour aller à sa rencontre, sortons en dehors de l’enceinte, en portant la même humiliation que lui. Car la cité que nous avons ici-bas n’est pas définitive : nous attendons la cité future. En toute circonstance, offrons à Dieu, par Jésus, un sacrifice de louange, c’est-à-dire l’acte de foi qui sort de nos lèvres en l’honneur de son nom.
   responsory: |-
     R/ Nous t’adorons, ô Christ,
     nous te bénissons.

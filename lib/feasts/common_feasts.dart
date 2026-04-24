@@ -84,18 +84,18 @@ const Map<String, FeastDates> commonFeastsList = {
   'gregory_vii_pope': F(5, 25, 12), //OK
   'mary_magdalene_de_pazzi_virgin': F(5, 25, 12), //OK
   'philip_neri_priest': F(5, 26, 10), //OK
-  'augustine_of_canterbury_bishop': F(5, 27, 12),
-  'paul_v_pope': F(5, 29, 12),
+  'augustine_of_canterbury_bishop': F(5, 27, 12), //OK
+  'paul_vi_pope': F(5, 29, 12), //OK
   'visitation_of_mary': F(5, 31, 7), //OK
 
   // --- JUNE ---
   'justin_martyr': F(6, 1, 10), //OK
-  'marcellinus_of_rome_and_peter_the_exorcist_martyrs': F(6, 2, 12),
+  'marcellinus_of_rome_and_peter_the_exorcist_martyrs': F(6, 2, 12), //OK
   'charles_lwanga_and_companions_martyrs': F(6, 3, 10), //OK
   'boniface_of_mainz_bishop': F(6, 5, 10), //OK
-  'norbert_of_xanten_bishop': F(6, 6, 12),
-  'ephrem_the_syrian_deacon': F(6, 9, 12),
-  'barnabas_apostle': F(6, 11, 10),
+  'norbert_of_xanten_bishop': F(6, 6, 12), //OK
+  'ephrem_the_syrian_deacon': F(6, 9, 12), //OK
+  'barnabas_apostle': F(6, 11, 10), //OK
   'anthony_of_padua_priest': F(6, 13, 10),
   'romuald_of_ravenna_abbot': F(6, 19, 12),
   'aloysius_gonzaga_religious': F(6, 21, 10),

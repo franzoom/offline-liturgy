@@ -23,7 +23,8 @@ morning:
   psalmody:
     - psalm: PSALM_142
       antiphon:
-        - "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi."
+        - |-
+          Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi.
     - psalm: OT_32
       antiphon:
         - Réponds, Seigneur, au désir des pauvres, confirme la parole des prophètes.
@@ -35,19 +36,23 @@ middleOfDay:
   psalmody:
     - psalm: PSALM_118_20
       antiphon:
-        - "Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie."
+        - |-
+          Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie.
     - psalm: PSALM_127
       antiphon:
-        - "Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie."
+        - |-
+          Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie.
     - psalm: PSALM_128
       antiphon:
-        - "Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie."
+        - |-
+          Les Prophètes l’ont dit : le Sauveur naîtra de la Vierge Marie.
 
 vespers:
   psalmody:
     - psalm: PSALM_143_1
       antiphon:
-        - "Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi."
+        - |-
+          Vers toi, Seigneur, j’élève mon âme. Viens me délivrer : je m’appuie sur toi.
     - psalm: PSALM_143_2
       antiphon:
         - Reviens, Seigneur, pourquoi tarder ? Ravise-toi par égard pour tes serviteurs.

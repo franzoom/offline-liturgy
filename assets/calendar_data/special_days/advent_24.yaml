@@ -5,16 +5,18 @@ celebration:
     FÉRIE MAJEURE : Saints ancêtres de Jésus-Christ, fils de David, fils d’Abraham, fils d’Adam 
   color: violet
 oration:
-  - "Seigneur Jésus, hâte-toi, ne tarde plus : que ta venue réconforte et révèle ceux qui ont foi dans ton amour. Toi qui règnes."
+  - |-
+    Seigneur Jésus, hâte-toi, ne tarde plus : que ta venue réconforte et révèle ceux qui ont foi dans ton amour. Toi qui règnes.
 
 invitatory:
   antiphon:
-    - Aujourd’hui, le Seigneur va venir ; demain, vous verrez sa gloire.
+    - Aujourd’hui, le Seigneur va venir ; demain, vous verrez sa gloire.
 
 readings:
   biblicalReading:
     - title: LECTURE DU LIVRE D’ISAÏE
-      subtitle: "Situation renversée : Dieu marche en tête de son peuple"
+      subtitle: |-
+        Situation renversée : Dieu marche en tête de son peuple
       ref: Is 51, 17-23; 52, 2.7-10
       content: |-
         Réveille-toi, réveille-toi, debout, Jérusalem ! Tu as bu de la main du SEIGNEUR la coupe de sa fureur, tu as bu jusqu’à la lie la coupe du vertige ! Personne qui la guide, parmi les fils qu’elle a enfantés ; pas un qui lui prenne la main, de tous les fils qu’elle a élevés !
@@ -46,14 +48,16 @@ readings:
 morning:
   psalmody:
     - antiphon:
-        - "Et toi, Bethléem, tu n’es pas le dernier des clans de Juda : c’est de toi que sortira le berger d’Israël !"
+        - |-
+          Et toi, Bethléem, tu n’es pas le dernier des clans de Juda : c’est de toi que sortira le berger d’Israël !
     - antiphon:
         - Relevez la tête, votre délivrance est proche.
     - antiphon:
         - Demain sera pour vous le jour du salut, dit le Seigneur, le Dieu de l’univers.
   reading:
     biblicalReference: Is 11, 1-2
-    content: "Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
+    content: |-
+      Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur.
   responsory: |-
     R/ Demain, le Seigneur viendra,
     au matin, vous verrez sa gloire.
@@ -90,7 +94,8 @@ middleOfDay:
   sexte:
     reading:
       biblicalReference: Is 4, 3
-      content: "Ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront."
+      content: |-
+        Ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront.
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.

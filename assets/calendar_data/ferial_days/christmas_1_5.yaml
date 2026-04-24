@@ -1,9 +1,10 @@
 invitatory:
   antiphon:
-    - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
+    - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
 
 oration:
-    - "Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit : puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie."
+    - |-
+      Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit : puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans notre vie.
 
 readings:
   psalmody:
@@ -36,10 +37,10 @@ middleOfDay:
         - Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire.
     - psalm: PSALM_25
       antiphon:
-        - "Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire."
+        - Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire.
     - psalm: PSALM_27
       antiphon:
-        - "Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire."
+        - Seigneur, j’aime la maison que tu habites, le lieu où demeure ta gloire.
 
 vespers:
   psalmody:
@@ -48,7 +49,8 @@ vespers:
         - Le Juste, mon serviteur, justifiera les multitudes.
     - psalm: PSALM_45
       antiphon:
-        - "La Vierge a mis au monde un fils : Emmanuel, Dieu avec nous."
+        - |-
+          La Vierge a mis au monde un fils : Emmanuel, Dieu avec nous.
     - psalm: NT_11
       antiphon:
         - Toi seul est saint, toi seul es le Seigneur !

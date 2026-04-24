@@ -3,11 +3,12 @@ celebration:
   color: violet
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Dieu tout-puissant, nous t’en supplions : quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne."
+    - |-
+      Dieu tout-puissant, nous t’en supplions : quand nous tombons à cause de notre faiblesse, donne-nous de reprendre vie par la passion de ton Fils bien-aimé. Lui qui règne.
 
 readings:
   psalmody:
@@ -91,10 +92,12 @@ morning:
         - C’est maintenant le jugement de ce monde ; désormais le prince de ce monde sera jeté dehors.
     - psalm: PSALM_18A
       antiphon:
-        - "Jésus, méprisant l’infamie, a souffert la croix : il est assis à la droite de Dieu."
+        - |-
+          Jésus, méprisant l’infamie, a souffert la croix : il est assis à la droite de Dieu.
   reading:
     biblicalReference: Jr 11, 19-20
-    content: "Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas ce qu’ils préparaient contre moi. Ils disaient : « Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom. » Seigneur de l’univers, toi qui juges avec justice, qui scrutes les reins et les cœurs, fais-moi voir la vengeance que tu leur infligeras, car c’est à toi que je confie ma cause."
+    content: |-
+      Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas ce qu’ils préparaient contre moi. Ils disaient : « Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom. » Seigneur de l’univers, toi qui juges avec justice, qui scrutes les reins et les cœurs, fais-moi voir la vengeance que tu leur infligeras, car c’est à toi que je confie ma cause.
   responsory: |-
     R/ Souviens-toi de Jésus Christ
     ressuscité d’entre les morts :
@@ -166,7 +169,8 @@ vespers:
   psalmody:
     - psalm: PSALM_44_1
       antiphon:
-        - "Nous avons vu l’homme des douleurs : il n’avait ni éclat, ni beauté."
+        - |-
+          Nous avons vu l’homme des douleurs : il n’avait ni éclat, ni beauté.
     - psalm: PSALM_44_2
       antiphon:
         - Puisqu’il s’est livré lui-même à la mort, il rachètera des multitudes.

@@ -4,11 +4,12 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi ; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage ; écoute l’aveu de notre faiblesse : nous avons conscience de nos fautes, patiemment, relève-­nous avec amour."
+    - |-
+      Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi ; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage ; écoute l’aveu de notre faiblesse : nous avons conscience de nos fautes, patiemment, relève-­nous avec amour.
 
 firstVespers:
   psalmody:
@@ -23,7 +24,8 @@ firstVespers:
         - Ma vie, nul ne la prend ; j’ai le pouvoir de la donner et le pouvoir de la reprendre.
   reading:
     biblicalReference: 2 Co 6, 1 b-4a
-    content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+    content: |-
+      Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière.
   responsory: |-
     R/ Voici le temps favorable.
     * Voici le jour du salut.
@@ -67,7 +69,7 @@ readings:
     V/ Viens manger le pain de l’intelligence,
     et boire l’eau de la sagesse.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Code et justice
       ref: Ex 22, 20 – 23, 9
       content: |-
@@ -100,7 +102,8 @@ morning:
         - Rois de la terre et vous, tous les peuples, louez le nom du Seigneur.
   reading:
     biblicalReference: Ne 8, 9.10
-    content: "Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas ! Car ce jour est consacré à notre Dieu ! Ne vous affligez pas : la joie du Seigneur est votre rempart !"
+    content: |-
+      Ce jour est consacré au Seigneur votre Dieu. Ne prenez pas le deuil, ne pleurez pas ! Car ce jour est consacré à notre Dieu ! Ne vous affligez pas : la joie du Seigneur est votre rempart !
   responsory: |-
     R/ La joie du Seigneur est notre rempart !
     V/ Tu es béni, Seigneur notre Dieu,
@@ -110,7 +113,8 @@ morning:
     V/ Gloire et puissance au Père et au Fils,
     au Saint-Esprit qui chante en nos cœurs. R/
   evangelicAntiphon:
-    common: "Du sanctuaire de son corps, le Seigneur disait : Détruisez ce temple, en trois jours je le rebâtirai."
+    common: |-
+      Du sanctuaire de son corps, le Seigneur disait : Détruisez ce temple, en trois jours je le rebâtirai.
   intercession:
     content: |-
       Jésus, ami des hommes, assailli par la tentation, tu nous apprends l’obéissance dans l’amour.
@@ -135,14 +139,14 @@ middleOfDay:
         - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_2
       antiphon:
-        - "Ma force et mon chant, c’est le Seigneur."
+        - Ma force et mon chant, c’est le Seigneur.
     - psalm: PSALM_117_3
       antiphon:
-        - "Ma force et mon chant, c’est le Seigneur."
+        - Ma force et mon chant, c’est le Seigneur.
   tierce:
     reading:
       biblicalReference: 1 Th 4, 1.7
-      content: "Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté."
+      content: Frères, vous avez appris de nous comment il faut vous conduire pour plaire à Dieu ; et c’est ainsi que vous vous conduisez déjà. Faites donc de nouveaux progrès, nous vous en prions, frères, nous vous le demandons dans le Seigneur Jésus. Si Dieu nous a appelés, ce n’est pas pour que nous restions dans l’impureté, mais pour que nous vivions dans la sainteté.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -150,7 +154,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 30, 15.18
       content: |-
-        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
+        Le Seigneur, le Dieu saint d’Israël, vous l’a dit : « Vous serez sauvés si vous revenez et si vous restez calmes, votre courage sera de rester tranquilles et d’avoir confiance. » Le Seigneur attend pour vous faire grâce, il se dressera pour vous montrer sa tendresse, car le Seigneur est le Dieu juste : heureux ceux qui attendent tout de lui.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -158,7 +162,7 @@ middleOfDay:
     reading:
       biblicalReference: Dt 4, 29-31
       content: |-
-        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
+        Tu rechercheras le Seigneur ton Dieu : tu le trouveras si tu le cherches de tout ton cœur, de tout ton être. Quand tu seras dans la détresse, quand tout cela t’arrivera, dans les jours à venir, tu reviendras au Seigneur ton Dieu, et tu écouteras sa voix. Car le Seigneur ton Dieu est un Dieu miséricordieux : il ne te délaissera pas, il ne te détruira pas, il n’oubliera pas l’alliance jurée à tes pères.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.

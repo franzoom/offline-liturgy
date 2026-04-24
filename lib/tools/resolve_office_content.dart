@@ -12,7 +12,6 @@ Future<void> resolveOfficeContent({
   Invitatory? invitatory,
   List<HymnEntry>? hymns,
   required DataLoader dataLoader,
-  bool imprecatory = false,
 }) async {
   final List<Future<void>> tasks = [];
 
@@ -20,9 +19,8 @@ Future<void> resolveOfficeContent({
   if (psalmody != null) {
     tasks.addAll(
       psalmody.where((e) => e.psalm != null && e.psalmData == null).map(
-          (e) async => e.psalmData = await PsalmsLibrary.getPsalm(
-              e.psalm!, dataLoader,
-              imprecatory: imprecatory)),
+          (e) async =>
+              e.psalmData = await PsalmsLibrary.getPsalm(e.psalm!, dataLoader)),
     );
   }
 
@@ -32,9 +30,7 @@ Future<void> resolveOfficeContent({
       invPsalms != null &&
       invitatory.psalmsData == null) {
     tasks.add(
-      Future.wait(invPsalms.map((code) =>
-              PsalmsLibrary.getPsalm(code, dataLoader,
-                  imprecatory: imprecatory)))
+      Future.wait(invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
           .then((results) =>
               invitatory.psalmsData = results.whereType<Psalm>().toList()),
     );

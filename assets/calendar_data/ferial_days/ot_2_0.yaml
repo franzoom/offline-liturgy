@@ -13,7 +13,8 @@ firstVespers:
     - psalm: PSALM_15
       antiphon:
         - Garde-moi, Seigneur mon Dieu, toi, mon seul espoir.
-        - "Mon cœur exulte, mon âme est en fête : tu m’apprends le chemin de la vie."
+        - |-
+          Mon cœur exulte, mon âme est en fête : tu m’apprends le chemin de la vie.
     - psalm: NT_5
       antiphon:
         - Il s’est abaissé, Dieu l’a exalté.
@@ -57,10 +58,12 @@ invitatory:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
 oration:
-    - "Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix."
+    - |-
+      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
 
 evangelicAntiphon:
-    yearA: "Jean-Baptiste a rendu témoignage : Voici l’Agneau de Dieu qui enlève le péché du monde."
+    yearA: |-
+      Jean-Baptiste a rendu témoignage : Voici l’Agneau de Dieu qui enlève le péché du monde.
     yearB: Nous avons trouvé le Messie, alléluia, Jésus de Nazareth, l’Agneau de Dieu.
     yearC: Jésus fut invité aux noces, à Cana de Galilée ; et sa mère était là.
 
@@ -76,7 +79,8 @@ readings:
         - Du fruit de tes œuvres, Seigneur, tu rassasies la terre.
     - psalm: PSALM_103_3
       antiphon:
-        - "Dieu vit tout ce qu’il avait fait : cela était très bon."
+        - |-
+          Dieu vit tout ce qu’il avait fait : cela était très bon.
   verse: |-
     V/ Heureux les yeux qui voient ce que vous voyez,
     et les oreilles qui entendent ce que vous entendez.
@@ -129,7 +133,8 @@ morning:
   psalmody:
     - psalm: PSALM_117
       antiphon:
-        - "Rendez grâce au Seigneur : éternel est son amour !"
+        - |-
+          Rendez grâce au Seigneur : éternel est son amour !
         - Approchons-nous de Jésus Christ, pierre vivante, choisie par Dieu.
     - psalm: OT_40
     - psalm: PSALM_150
@@ -182,14 +187,14 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: Rm 5, 1-2.5
-      content: "Dieu a fait de nous des justes par la foi ; nous sommes ainsi en paix avec Dieu par notre Seigneur Jésus Christ qui nous a donné, par la foi, l’accès au monde de la grâce dans lequel nous sommes établis ; et notre orgueil à nous, c’est d’espérer avoir part à la gloire de Dieu. Et l’espérance ne trompe pas, puisque l’amour de Dieu a été répandu dans nos cœurs par l’Esprit Saint qui nous a été donné."
+      content: Dieu a fait de nous des justes par la foi ; nous sommes ainsi en paix avec Dieu par notre Seigneur Jésus Christ qui nous a donné, par la foi, l’accès au monde de la grâce dans lequel nous sommes établis ; et notre orgueil à nous, c’est d’espérer avoir part à la gloire de Dieu. Et l’espérance ne trompe pas, puisque l’amour de Dieu a été répandu dans nos cœurs par l’Esprit Saint qui nous a été donné.
     responsory: |-
       V/ L’amour du Seigneur, sans fin je le chante :
       sa fidélité, je l’annonce d’âge en âge.
   sexte:
     reading:
       biblicalReference: Rm 8, 26
-      content: "L’Esprit Saint vient au secours de notre faiblesse, car nous ne savons pas prier comme il faut. L’Esprit lui-même intervient pour nous par des cris inexprimables."
+      content: L’Esprit Saint vient au secours de notre faiblesse, car nous ne savons pas prier comme il faut. L’Esprit lui-même intervient pour nous par des cris inexprimables.
     responsory: |-
       V/ Que mon cri parvienne devant toi, Seigneur,
       éclaire-moi selon ta parole.
@@ -197,7 +202,7 @@ middleOfDay:
     reading:
       biblicalReference: 2 Co 1, 21-22
       content: |-
-        Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs.
+        Celui qui nous rend solides pour le Christ dans nos relations avec vous, celui qui nous a consacrés, c’est Dieu ; il a mis sa marque sur nous, et il nous a fait une première avance sur ses dons : l’Esprit qui habite nos cœurs.
     responsory: |-
       V/ Le Seigneur est ma lumière et mon salut.
       Le Seigneur est le rempart de ma vie.
@@ -207,8 +212,10 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "Oracle du Seigneur à mon seigneur : Siège à ma droite."
-        - "Gloire à Jésus, le prince de la vie : Dieu l’a ressuscité d’entre les morts !"
+        - |-
+          Oracle du Seigneur à mon seigneur : Siège à ma droite.
+        - |-
+          Gloire à Jésus, le prince de la vie : Dieu l’a ressuscité d’entre les morts !
     - psalm: PSALM_113B
       antiphon:
         - Notre Dieu, il est au ciel ; tout ce qu’il veut, il le fait, alléluia !

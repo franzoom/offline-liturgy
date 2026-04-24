@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Seigneur est vraiment ressuscité, alléluia !
+    - Le Seigneur est vraiment ressuscité, alléluia !
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
@@ -17,10 +17,12 @@ readings:
         - J’ai rénové ta chair, j’ai guéri tes plaies, dit le Seigneur. Alléluia.
     - psalm: PSALM_9A_2
       antiphon:
-        - "Seigneur, tu me tires des portes de la mort : je proclame ta louange, alléluia."
+        - |-
+          Seigneur, tu me tires des portes de la mort : je proclame ta louange, alléluia.
     - psalm: PSALM_6
       antiphon:
-        - "Seigneur, tu me tires des portes de la mort : je proclame ta louange, alléluia."
+        - |-
+          Seigneur, tu me tires des portes de la mort : je proclame ta louange, alléluia.
   biblicalReading:
     - title: LECTURE DU LIVRE DE L’APOCALYPSE
       subtitle: La victoire du Messie
@@ -126,14 +128,14 @@ middleOfDay:
     reading:
       biblicalReference: Cf. Ap 1, 17c-18
       content: |-
-        Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »
+        Je vis comme un fils d’homme qui me disait : « Je suis le Premier et le Dernier,je suis le Vivant : j’étais mort, mais me voici vivant pour les siècles des siècles, et je détiens les clés de la mort et du séjour des morts. »
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
   sexte:
     reading:
       biblicalReference: Col 2, 9.10a.12
-      content: "Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts."
+      content: Dans le corps du Christ habite la plénitude de la divinité. En lui vous avez tout reçu en plénitude. Par le baptême, vous avez été mis au tombeau avec lui, avec lui vous avez été ressuscités, parce que vous avez cru en la force de Dieu qui a ressuscité le Christ d’entre les morts.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
@@ -141,7 +143,7 @@ middleOfDay:
     reading:
       biblicalReference: 2 Tm 2, 8.11
       content: |-
-        Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
+        Souviens-toi de Jésus Christ, le descendant de David : Il est ressuscité d’entre les morts, voilà mon Évangile. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons.
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
       le soir approche, alléluia.
@@ -166,7 +168,8 @@ vespers:
     V/ Lui, qui était mort, et vivant, *
     Gloire au Père et au Fils et au Saint-Esprit. R/        
   evangelicAntiphon:
-    common: "Le Père vous enverra un défenseur : l’Esprit qui vous enseignera lui-même : il vous rappellera toutes mes paroles. Alléluia."
+    common: |-
+      Le Père vous enverra un défenseur : l’Esprit qui vous enseignera lui-même : il vous rappellera toutes mes paroles. Alléluia.
   intercession:
     content: |-
       Ô Christ, lumière sans déclin, alors que le jour baisse, reçois le sacrifice de notre louange et notre prière :

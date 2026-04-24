@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
+    - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
 
 oration:
     - Dieu éternel, c’est dans la réalité de notre chair que ton Fils unique est apparu ; puisque nous reconnaissons que son humanité fut semblable à la nôtre, donne-nous d’être transformés par lui au plus intime de notre cœur. Lui qui règne.
@@ -13,13 +13,16 @@ readings:
   psalmody:
     - psalm: PSALM_36_1
       antiphon:
-        - "Voici la Sagesse de Dieu : un nouveau-né dans une crèche."
+        - |-
+          Voici la Sagesse de Dieu : un nouveau-né dans une crèche.
     - psalm: PSALM_36_2
       antiphon:
-        - "Voici la Sagesse de Dieu : un nouveau-né dans une crèche."
+        - |-
+          Voici la Sagesse de Dieu : un nouveau-né dans une crèche.
     - psalm: PSALM_36_3
       antiphon:
-        - "Voici la Sagesse de Dieu : un nouveau-né dans une crèche."
+        - |-
+          Voici la Sagesse de Dieu : un nouveau-né dans une crèche.
   verse: |-
     V/ Glorifie le Seigneur, Jérusalem,
     il envoie sa Parole sur terre.
@@ -80,7 +83,8 @@ morning:
   psalmody:
     - psalm: PSALM_42
       antiphon:
-        - "Tu es mon sauveur et mon Dieu : de nouveau je te rendrai grâce."
+        - |-
+          Tu es mon sauveur et mon Dieu : de nouveau je te rendrai grâce.
     - psalm: OT_23
       antiphon:
         - Le Seigneur n’est pas le Dieu des morts, mais le Dieu des vivants.
@@ -89,7 +93,8 @@ morning:
         - Tu couronnes une année de bienfaits ; sur ton passage ruisselle l’abondance.
   reading:
     biblicalReference: Is 4, 2-3
-    content: "En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terre sera leur fierté et leur couronne. Alors, ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront."
+    content: |-
+      En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terre sera leur fierté et leur couronne. Alors, ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront.
   responsory: |-
     R/ Lève-toi, resplendis, car elle est venue, ta lumière !
     * La gloire du Seigneur s’est levée sur toi.
@@ -97,7 +102,8 @@ morning:
     V/ Ils s’avancent à la clarté de ton aurore. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Au Seigneur, le Fils de Dieu et le grand Roi, les mages offrirent ces trois présents : l’or, l’encens et la myrrhe, alléluia."
+    common: |-
+      Au Seigneur, le Fils de Dieu et le grand Roi, les mages offrirent ces trois présents : l’or, l’encens et la myrrhe, alléluia.
   intercession:
     content: |-
       Bénissons le Christ venu libérer sa créature
@@ -124,15 +130,15 @@ middleOfDay:
         - Oh si tu déchirais les cieux et si tu descendais !
     - psalm: PSALM_52
       antiphon:
-        - Oh si tu déchirais les cieux et si tu descendais !
+        - Oh si tu déchirais les cieux et si tu descendais !
     - psalm: PSALM_53
       antiphon:
-        - Oh si tu déchirais les cieux et si tu descendais !
+        - Oh si tu déchirais les cieux et si tu descendais !
 
   tierce:
     reading:
       biblicalReference: Is 45, 13
-      content: "C’est moi qui, selon la justice, ai fait surgir cet homme et j’aplanirai tous ses chemins. C’est lui qui rebâtira ma ville ; et il renverra mes déportés, sans qu’il leur en coûte ni paiement, ni commission, dit le Seigneur, le Tout-Puissant."
+      content: C’est moi qui, selon la justice, ai fait surgir cet homme et j’aplanirai tous ses chemins. C’est lui qui rebâtira ma ville ; et il renverra mes déportés, sans qu’il leur en coûte ni paiement, ni commission, dit le Seigneur, le Tout-Puissant.
     responsory: |-
       V/ Il est apparu sur la terre,
       il a vécu parmi les hommes.
@@ -140,7 +146,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 48, 20b
       content: |-
-        D’une voix retentissante annoncez-le, faites-le entendre, ébruitez-le jusqu’à l’extrémité de la terre, dites : Le Seigneur a racheté son serviteur Jacob.
+        D’une voix retentissante annoncez-le, faites-le entendre, ébruitez-le jusqu’à l’extrémité de la terre, dites : Le Seigneur a racheté son serviteur Jacob.
     responsory: |-
       V/ Les nations verront ta justice,
       tous les rois verront ta gloire.
@@ -148,7 +154,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 65, 1
       content: |-
-        Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : « Me voici, me voici » à une nation qui n’invoquait pas mon nom.
+        Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : « Me voici, me voici » à une nation qui n’invoquait pas mon nom.
     responsory: |-
       V/ Peuples, bénissez notre Dieu.
       Faites retentir sa louange.
@@ -162,10 +168,12 @@ vespers:
         - À l’aurore, le juste sera glorifié.
     - psalm: NT_9
       antiphon:
-        - "Tu nous as rachetés par ton sang, Seigneur : tu fis de nous un peuple de rois."
+        - |-
+          Tu nous as rachetés par ton sang, Seigneur : tu fis de nous un peuple de rois.
   reading:
     biblicalReference: Ep 2, 3b-5
-    content: "Nous étions, de nous-mêmes, voués à la colère comme tous les autres. Mais Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés."
+    content: |-
+      Nous étions, de nous-mêmes, voués à la colère comme tous les autres. Mais Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés.
   responsory: |-
     R/ Dieu est amour, Dieu est lumière !
     V/ Tu es, Seigneur, notre Père, notre Rédempteur. R/
@@ -227,7 +235,7 @@ mass:
     - biblicalRef: Ps 71 (72), 1-2, 3-4, 7-8
       refAbbr: 71, 1…
       chorus:
-      - chorusRef: ''
+      - chorusRef: 
         chorus: |-
           Tous les rois se prosterneront devant lui,
           tous les pays le serviront.

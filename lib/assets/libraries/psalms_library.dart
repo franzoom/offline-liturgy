@@ -37,35 +37,23 @@ class PsalmsLibrary {
     }
   }
 
-  /// Retrieves a single psalm by its code with imprecatory fallback logic.
+  /// Retrieves a single psalm by its code.
   static Future<Psalm?> getPsalm(
     String code,
-    DataLoader dataLoader, {
-    bool imprecatory = false,
-  }) async {
-    final String targetCode = imprecatory ? '${code}_i' : code;
-
-    // 1. Check Cache
-    if (_cache.containsKey(targetCode)) return _cache[targetCode];
+    DataLoader dataLoader,
+  ) async {
+    if (_cache.containsKey(code)) return _cache[code];
 
     try {
-      // 2. Load File
-      final content = await dataLoader.loadYaml('psalms/$targetCode.yaml');
-      final psalm = _parsePsalm(targetCode, content);
+      final content = await dataLoader.loadYaml('psalms/$code.yaml');
+      final psalm = _parsePsalm(code, content);
 
       if (psalm != null) {
-        _cache[targetCode] = psalm;
+        _cache[code] = psalm;
         return psalm;
       }
-
-      // 3. Fallback logic (Only if we failed to find an imprecatory version)
-      if (imprecatory) {
-        print(
-            '⚠️ Imprecatory version $targetCode not found, falling back to standard.');
-        return getPsalm(code, dataLoader, imprecatory: false);
-      }
     } catch (e) {
-      if (imprecatory) return getPsalm(code, dataLoader, imprecatory: false);
+      print('❌ Error loading psalm $code: $e');
     }
 
     return null;
@@ -97,14 +85,11 @@ class PsalmsLibrary {
   /// Fetches multiple psalms in parallel efficiently.
   static Future<Map<String, Psalm>> getPsalms(
     List<String> codes,
-    DataLoader dataLoader, {
-    bool imprecatory = false,
-  }) async {
-    // We launch all requests in parallel
+    DataLoader dataLoader,
+  ) async {
     final results = await Future.wait(
       codes.map((code) async {
-        final psalm =
-            await getPsalm(code, dataLoader, imprecatory: imprecatory);
+        final psalm = await getPsalm(code, dataLoader);
         return psalm != null ? MapEntry(code, psalm) : null;
       }),
     );

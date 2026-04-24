@@ -77,20 +77,24 @@ morning:
         - Qu’avez-vous vu, bergers ? dites-nous. Qui donc est apparu sur terre ? — Nous avons vu un nouveau-né, et des anges qui louaient le Seigneur, alléluia.
     - psalm: OT_41
       antiphon:
-        - "Je vous annonce une grande joie : Aujourd’hui vous est né le Sauveur du monde, alléluia."
+        - |-
+          Je vous annonce une grande joie : Aujourd’hui vous est né le Sauveur du monde, alléluia.
     - psalm: PSALM_149
       antiphon:
-        - "Un petit enfant nous est né aujourd’hui : on l’appellera Dieu-fort, alléluia."
+        - |-
+          Un petit enfant nous est né aujourd’hui : on l’appellera Dieu-fort, alléluia.
   reading:
     biblicalReference: Is 4, 2-3
-    content: "En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terre sera leur fierté et leur couronne. Alors, ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront."
+    content: |-
+      En ce jour-là, le Germe que fera pousser le Seigneur sera l’honneur et la gloire des rescapés d’Israël, le Fruit de la terre sera leur fierté et leur couronne. Alors, ceux qui seront restés dans Sion, les survivants de Jérusalem, seront appelés saints : tous seront inscrits dans Jérusalem, et ils vivront.
   responsory: |-
     R/ Le Seigneur s’est rappelé son amour.
     * Alléluia, alléluia !
     V/ Il a révélé sa justice aux nations. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Tous les anges du ciel chantaient les louanges de Dieu : Gloire à Dieu au plus haut des cieux et paix sur la terre aux hommes qu’il aime !"
+    common: |-
+      Tous les anges du ciel chantaient les louanges de Dieu : Gloire à Dieu au plus haut des cieux et paix sur la terre aux hommes qu’il aime !
   intercession:
     content: |-
       R/Fils du Dieu vivant, exauce-nous !
@@ -122,14 +126,16 @@ middleOfDay:
   sexte:
     reading:
       biblicalReference: Is 48, 20b
-      content: "D’une voix retentissante annoncez-le, faites-le entendre, ébruitez-le jusqu’aux extrémités de la terre, dites : Le Seigneur a racheté sons serviteur Jacob."
+      content: |-
+        D’une voix retentissante annoncez-le, faites-le entendre, ébruitez-le jusqu’aux extrémités de la terre, dites : Le Seigneur a racheté sons serviteur Jacob.
     responsory: |-
       V/ Tous les confins de la terre ont vu, alléluia,
       le salut de notre Dieu, alléluia.
   none:
     reading:
       biblicalReference: Is 65, 1
-      content: ’Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : "Me voici, me voici" à une nation qui n’invoquait pas mon nom.’
+      content: |-
+        Je me suis laissé rechercher par ceux qui ne me consultaient pas, je me suis laissé trouver par ceux qui ne me cherchaient pas, j’ai dit : « Me voici, me voici » à une nation qui n’invoquait pas mon nom.
     responsory: |-
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.

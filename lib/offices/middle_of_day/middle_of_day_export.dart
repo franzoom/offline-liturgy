@@ -157,7 +157,6 @@ Future<MiddleOfDay> middleOfDayExport(
       ...?middleOfDayOffice.hymnNone,
     ],
     dataLoader: celebrationContext.dataLoader,
-    imprecatory: celebrationContext.showImprecatoryVerses,
   );
 
   // 7. PASCHAL ALLÉLUIA

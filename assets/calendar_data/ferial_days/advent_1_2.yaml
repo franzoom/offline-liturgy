@@ -9,7 +9,8 @@ invitatory:
     - Réjouissez-vous dans le Seigneur, réjouissez-vous, car il est proche.
 
 oration:
-    - "En réponse à nos appels, Seigneur, accorde ton secours à ceux qui luttent et qui peinent : que la présence au milieu de nous de celui qui doit venir, ton Fils bien-aimé, nous redonne courage et nous préserve de la dégradation du péché."
+    - |-
+      En réponse à nos appels, Seigneur, accorde ton secours à ceux qui luttent et qui peinent : que la présence au milieu de nous de celui qui doit venir, ton Fils bien-aimé, nous redonne courage et nous préserve de la dégradation du péché.
 
 readings:
   psalmody:
@@ -21,7 +22,8 @@ readings:
         - Pour le peuple qui te cherche, viens, Emmanuel !
     - psalm: PSALM_11
       antiphon:
-        - "La délivrance est proche : ciel et terre passeront ; tes paroles, Seigneur, ne passeront pas."
+        - |-
+          La délivrance est proche : ciel et terre passeront ; tes paroles, Seigneur, ne passeront pas.
   verse: |-
     V/ Préparez les chemins du Seigneur,
     aplanissez la route.
@@ -105,15 +107,15 @@ middleOfDay:
         - Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !
     - psalm: PSALM_12
       antiphon:
-        - "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !"
+        - Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !
     - psalm: PSALM_13
       antiphon:
-        - "Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !"
+        - Quand le Seigneur ramènera les déportés de son peuple, quelle fête en Jacob ! en Israël, quelle joie !
 
   tierce:
     reading:
       biblicalReference: Jr 23, 5
-      content: "Voici venir des jours, déclare le Seigneur, où je donnerai à David un Germe juste ; il régnera en vrai roi, il agira avec intelligence, il exercera dans le pays le droit et la justice."
+      content: Voici venir des jours, déclare le Seigneur, où je donnerai à David un Germe juste ; il régnera en vrai roi, il agira avec intelligence, il exercera dans le pays le droit et la justice.
     responsory: |-
       V/ Les nations craindront le nom du Seigneur,
       et tous les rois de la terre, sa gloire.
@@ -121,14 +123,14 @@ middleOfDay:
     reading:
       biblicalReference: Jr 23, 6
       content: |-
-        Sous son règne, le royaume de Juda sera sauvé et Israël habitera sur sa terre en sécurité. Voici le nom qu’on lui donnera : « Le Seigneur est notre justice ».
+        Sous son règne, le royaume de Juda sera sauvé et Israël habitera sur sa terre en sécurité. Voici le nom qu’on lui donnera : « Le Seigneur est notre justice ».
     responsory: |-
       V/ Le Seigneur apparaîtra dans sa gloire :
       le peuple nouveau chantera son Dieu.
   none:
     reading:
       biblicalReference: Cf. Ez 34, 15-16
-      content: "C’est moi qui ferai paître mon troupeau, et c’est moi qui le ferai reposer, déclare le Seigneur DIEU ! La brebis perdue, je la chercherai. Celle qui est blessée, je la soignerai. Celle qui est faible, je lui rendrai des forces. Je la ferai paître avec justice."
+      content: C’est moi qui ferai paître mon troupeau, et c’est moi qui le ferai reposer, déclare le Seigneur DIEU ! La brebis perdue, je la chercherai. Celle qui est blessée, je la soignerai. Celle qui est faible, je lui rendrai des forces. Je la ferai paître avec justice.
     responsory: |-
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
@@ -139,7 +141,8 @@ vespers:
         - Lève les yeux, Jérusalem, vois la puissance de ton Roi, le Sauveur vient briser tes chaînes.
     - psalm: PSALM_20
       antiphon:
-        - "Dresse-toi, Seigneur, dans ta force : nous chanterons ta vaillance."
+        - |-
+          Dresse-toi, Seigneur, dans ta force : nous chanterons ta vaillance.
     - psalm: NT_9
       antiphon:
         - R/ Puissance, honneur et gloire à l’Agneau de Dieu !
@@ -153,7 +156,8 @@ vespers:
     V/ Sa gloire habitera notre terre. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Cherchez le Seigneur : il se laisse trouver. Invoquez-le, car il est proche, alléluia !"
+    common: |-
+      Cherchez le Seigneur : il se laisse trouver. Invoquez-le, car il est proche, alléluia !
   intercession:
     content: |-
       Verbe éternel, manifesté dans la chair, tu es pour tout homme le chemin qui conduit vers le Père, nous t’en supplions :

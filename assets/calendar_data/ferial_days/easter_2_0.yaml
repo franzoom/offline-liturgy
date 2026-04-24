@@ -54,7 +54,8 @@ readings:
         - Tu es mon Fils, alléluia ; moi, aujourd’hui, je t’ai engendré, alléluia.
     - psalm: PSALM_3
       antiphon:
-        - "Croyons en Dieu : il a ressuscité le Christ et lui a donné la gloire, alléluia."
+        - |-
+          Croyons en Dieu : il a ressuscité le Christ et lui a donné la gloire, alléluia.
   verse: |-
     V/ Les disciples furent remplis de joie, alléluia,
     à la vue du Seigneur, alléluia !
@@ -166,7 +167,7 @@ middleOfDay:
   tierce:
     reading:
       biblicalReference: 1 Co 15, 3b-5
-      content: "Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze."
+      content: Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze.
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
@@ -174,14 +175,14 @@ middleOfDay:
     reading:
       biblicalReference: Ep 2, 4-6a
       content: |-
-        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
+        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
   none:
     reading:
       biblicalReference: Rm 6, 4
-      content: "Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts."
+      content: Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts.
     responsory: |-
       V/ Voici le jour que fit le Seigneur,
       jour de fête et de joie, alléluia !
@@ -198,7 +199,8 @@ vespers:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: "Thomas a vu le Seigneur : il a cru. Heureux celui qui croit sans avoir vu ! Alléluia !"
+    common: |-
+      Thomas a vu le Seigneur : il a cru. Heureux celui qui croit sans avoir vu ! Alléluia !
   intercession:
     content: |-
       Prions le Père tout-puissant qui nous a rendu la vie en Jésus ressuscité :

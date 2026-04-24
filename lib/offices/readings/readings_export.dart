@@ -68,7 +68,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
     psalmody: readingsOffice.psalmody,
     hymns: readingsOffice.hymn,
     dataLoader: context.dataLoader,
-    imprecatory: context.showImprecatoryVerses,
   );
 
   // Apply paschal alléluia to psalm antiphons

@@ -20,7 +20,8 @@ firstVespers:
         - Dès qu’il fut baptisé, Jésus sortit de l’eau et les cieux s’ouvrirent pour lui.
   reading:
     biblicalReference: Ac 10, 37-38
-    content: "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
+    content: |-
+      Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui.
   responsory: |-
     R/ Fils bien-aimé de Dieu,
     l’Esprit du Seigneur repose sur toi.
@@ -59,7 +60,8 @@ readings:
   psalmody:
     - psalm: PSALM_28
       antiphon:
-        - "Aujourd’hui, une voix venue des cieux nous dit : Celui-ci est mon Fils bien-aimé."
+        - |-
+          Aujourd’hui, une voix venue des cieux nous dit : Celui-ci est mon Fils bien-aimé.
     - psalm: PSALM_65_1
       antiphon:
         - Il vous baptisera dans l’Esprit Saint et le feu.
@@ -104,7 +106,8 @@ morning:
   psalmody:
     - psalm: PSALM_62
       antiphon:
-        - "Le soldat baptise son Roi ; le serviteur, son Maître ; Jean, son Sauveur. L’eau du Jourdain s’étonne, la colombe témoigne, et la voix du Père proclame : Celui-ci est mon Fils."
+        - |-
+          Le soldat baptise son Roi ; le serviteur, son Maître ; Jean, son Sauveur. L’eau du Jourdain s’étonne, la colombe témoigne, et la voix du Père proclame : Celui-ci est mon Fils.
     - psalm: OT_41
       antiphon:
         - Les eaux furent sanctifiées quand la gloire du Christ apparut au monde. Puisez aux sources du Sauveur, car toute créature est sanctifiée par le Christ.
@@ -119,7 +122,8 @@ morning:
     V/ Tu es venu par l’eau et par le sang. R/
     V/ Le ciel s’est ouvert, le Père a parlé. R/
   evangelicAntiphon:
-    common: "Marqué du signe de l’Esprit, Jésus remonte des eaux ; le Précurseur le reconnaît et prophétise : Voici l’Agneau qui nous donne la paix et consacre le monde."
+    common: |-
+      Marqué du signe de l’Esprit, Jésus remonte des eaux ; le Précurseur le reconnaît et prophétise : Voici l’Agneau qui nous donne la paix et consacre le monde.
   intercession:
     content: |-
       Supplions le Messie qui fut manifesté aux hommes en recevant le baptême de Jean :
@@ -143,10 +147,12 @@ morning:
 
 middleOfDay:
   tierce:
-    antiphon: "Jean se refusait à baptiser Jésus : C’est moi qui ai besoin de ton baptême et c’est toi qui viens à moi !"
+    antiphon: |-
+      Jean se refusait à baptiser Jésus : C’est moi qui ai besoin de ton baptême et c’est toi qui viens à moi !
     reading:
       biblicalReference: Is 11, 1-2
-      content: "Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur."
+      content: |-
+        Un rameau sortira de la souche de Jessé (père de David), un rejeton jaillira de ses racines. Sur lui reposera l’esprit du Seigneur : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du Seigneur, qui lui inspirera la crainte du Seigneur.
     responsory: |-
       V/ Il faut que lui grandisse,
       et que je diminue.
@@ -162,7 +168,8 @@ middleOfDay:
     antiphon: J’ai vu l’Esprit, tel une colombe, descendre du ciel et demeurer sur lui.
     reading:
       biblicalReference: Is 49, 6
-      content: "Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre."
+      content: |-
+        Le Seigneur parle ainsi : C’est trop peu que tu sois mon serviteur pour relever les tribus de Jacob et ramener les rescapés d’Israël : je vais faire de toi la lumière des nations, pour que mon salut parvienne jusqu’aux extrémités de la terre.
     responsory: |-
       V/ J’ai fait reposer sur lui mon Esprit,
       il sera la lumière des nations.
@@ -173,16 +180,19 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "Il y eut une voix venant de la nuée, la voix du Père qui disait : Celui-ci est mon Fils bien-aimé : écoutez-le."
+        - |-
+          Il y eut une voix venant de la nuée, la voix du Père qui disait : Celui-ci est mon Fils bien-aimé : écoutez-le.
     - psalm: PSALM_111
       antiphon:
         - Au Jourdain, le Sauveur a brisé la tête du dragon, pour que l’homme échappe à son pouvoir.
     - psalm: NT_11
       antiphon:
-        - "Aujourd’hui, se dévoile un grand mystère : dans le Jourdain, le Créateur des hommes enlève leurs péchés."
+        - |-
+          Aujourd’hui, se dévoile un grand mystère : dans le Jourdain, le Créateur des hommes enlève leurs péchés.
   reading:
     biblicalReference: Ac 10, 37-38
-    content: "Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui."
+    content: |-
+      Vous savez ce qui s’est passé à travers tout le pays des juifs, depuis les débuts en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu l’a consacré par l’Esprit Saint et rempli de sa force. Là où il passait, il faisait le bien et il guérissait tous ceux qui étaient sous le pouvoir du démon. Car Dieu était avec lui.
   responsory: |-
     R/ Fils bien-aimé de Dieu,
     l’Esprit du Seigneur repose sur toi.

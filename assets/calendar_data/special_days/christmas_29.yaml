@@ -15,7 +15,8 @@ readings:
         - Cet enfant, né de la Vierge, se nommera Emmanuel, Dieu-avec-nous.
     - psalm: PSALM_71-I
       antiphon:
-        - "Grande joie dans la cité de David : un Sauveur nous est né."
+        - |-
+          Grande joie dans la cité de David : un Sauveur nous est né.
     - psalm: PSALM_71-II
       antiphon:
         - La Bonne Nouvelle est annoncée aux pauvres.
@@ -63,10 +64,12 @@ morning:
         - Qu’avez-vous vu, bergers ? dites-nous. Qui donc est apparu sur terre ? — Nous avons vu un nouveau-né, et des anges qui louaient le Seigneur, alléluia.
     - psalm: OT_41
       antiphon:
-        - "Je vous annonce une grande joie : Aujourd’hui vous est né le Sauveur du monde, alléluia."
+        - |-
+          Je vous annonce une grande joie : Aujourd’hui vous est né le Sauveur du monde, alléluia.
     - psalm: PSALM_149
       antiphon:
-        - "Un petit enfant nous est né aujourd’hui : on l’appellera Dieu-fort, alléluia."
+        - |-
+          Un petit enfant nous est né aujourd’hui : on l’appellera Dieu-fort, alléluia.
   reading:
     biblicalReference: He 1, 1-2
     content: Souvent, dans le passé, Dieu a parlé à nos pères par les prophètes sous des formes fragmentaires et variées ; mais, dans les derniers temps, dans ces jours où nous sommes, il nous a parlé par ce Fils qu’il a établi héritier de toutes choses et par qui il a créé les mondes.
@@ -76,7 +79,8 @@ morning:
     V/ Il a révélé sa justice aux nations. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: "Les bergers se disaient entre eux : Allons jusqu’à Bethléem et voyons ce que le Seigneur nous a fait connaître."
+    common: |-
+      Les bergers se disaient entre eux : Allons jusqu’à Bethléem et voyons ce que le Seigneur nous a fait connaître.
   intercession:
     content: |-
       R/Gloire à Dieu ! Aux hommes, paix sur la terre !
@@ -104,14 +108,16 @@ middleOfDay:
   sexte:
     reading:
       biblicalReference: 1 Jn 4, 9
-      content: "Voici comment Dieu a manifesté son amour parmi nous : Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui."
+      content: |-
+        Voici comment Dieu a manifesté son amour parmi nous : Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui.
     responsory: |-
       V/ Tous les confins de la terre ont vu, alléluia,
       le salut de notre Dieu, alléluia.
   none:
     reading:
       biblicalReference: Ac 10, 36
-      content: "Dieu a envoyé la Parole aux fils d’Israël, pour leur annoncer la paix de Jésus Christ : c’est lui, Jésus, qui est le Seigneur de tous."
+      content: |-
+        Dieu a envoyé la Parole aux fils d’Israël, pour leur annoncer la paix de Jésus Christ : c’est lui, Jésus, qui est le Seigneur de tous.
     responsory: |-
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.
@@ -120,16 +126,19 @@ vespers:
   psalmody:
     - psalm: PSALM_109
       antiphon:
-        - "Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté : Comme la rosée qui naît de l’aurore, je t’ai engendré."
+        - |-
+          Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté : Comme la rosée qui naît de l’aurore, je t’ai engendré.
     - psalm: PSALM_129
       antiphon:
         - Oui, près du Seigneur est l’amour ; près de lui abonde le rachat.
     - psalm: NT_6
       antiphon:
-        - "Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui : c’est le Sauveur du monde."
+        - |-
+          Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui : c’est le Sauveur du monde.
   reading:
     biblicalReference: 1 Jn 1, 1-3
-    content: "Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ."
+    content: |-
+      Ce qui était depuis le commencement, ce que nous avons entendu, ce que nous avons contemplé de nos yeux, ce que nous avons vu et que nos mains ont touché, c’est le Verbe, la Parole de la vie. Oui, la vie s’est manifestée, nous l’avons contemplée, et nous portons témoignage : nous vous annonçons cette vie éternelle qui était auprès du Père et qui s’est manifestée à nous. Ce que nous avons contemplé, ce que nous avons entendu, nous vous l’annonçons à vous aussi, pour que, vous aussi, vous soyez en communion avec nous. Et nous, nous sommes en communion avec le Père et avec son Fils, Jésus Christ.
   responsory: |-
     R/ Le Verbe s’est fait chair.
     * Alléluia, alléluia !

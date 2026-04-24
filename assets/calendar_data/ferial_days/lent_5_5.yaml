@@ -4,7 +4,7 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
@@ -14,13 +14,16 @@ readings:
   psalmody:
     - psalm: PSALM_34_1
       antiphon:
-        - "Heureux qui souffre pour le nom du Christ : l’Esprit de Dieu repose sur lui."
+        - |-
+          Heureux qui souffre pour le nom du Christ : l’Esprit de Dieu repose sur lui.
     - psalm: PSALM_34_2
       antiphon:
-        - "Heureux qui souffre pour le nom du Christ : l’Esprit de Dieu repose sur lui."
+        - |-
+          Heureux qui souffre pour le nom du Christ : l’Esprit de Dieu repose sur lui.
     - psalm: PSALM_34_3
       antiphon:
-        - "Heureux qui souffre pour le nom du Christ : l’Esprit de Dieu repose sur lui."
+        - |-
+          Heureux qui souffre pour le nom du Christ : l’Esprit de Dieu repose sur lui.
   verse: |-
     V/ Revenons au Seigneur notre Dieu,
     car il est tendre et miséricordieux.
@@ -106,21 +109,21 @@ middleOfDay:
         - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
     - psalm: PSALM_25
       antiphon:
-        - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
+        - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
     - psalm: PSALM_27
       antiphon:
-        - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
+        - J’ai choisi la voie de la fidélité ; mets au large mon cœur.
   tierce:
     reading:
       biblicalReference: Is 53, 2-3
-      content: "Devant Dieu, le serviteur a poussé comme une plante chétive, enracinée dans une terre aride. Il n’était ni beau ni brillant pour attirer nos regards, son extérieur n’avait rien pour nous plaire. Il était méprisé, abandonné de tous, homme de douleurs, familier de la souffrance, semblable au lépreux dont on se détourne ; et nous l’avons méprisé, compté pour rien."
+      content: Devant Dieu, le serviteur a poussé comme une plante chétive, enracinée dans une terre aride. Il n’était ni beau ni brillant pour attirer nos regards, son extérieur n’avait rien pour nous plaire. Il était méprisé, abandonné de tous, homme de douleurs, familier de la souffrance, semblable au lépreux dont on se détourne ; et nous l’avons méprisé, compté pour rien.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
   sexte:
     reading:
       biblicalReference: Is 53, 4-5
-      content: "C’était nos souffrances qu’il portait, nos douleurs dont il était chargé. Et nous, nous pensions qu’il était châtié, frappé par Dieu, humilié. Or, c’est à cause de nos fautes qu’il a été transpercé, c’est par nos péchés qu’il a été broyé. Le châtiment qui nous obtient la paix est tombé sur lui, et c’est par ses blessures que nous sommes guéris."
+      content: C’était nos souffrances qu’il portait, nos douleurs dont il était chargé. Et nous, nous pensions qu’il était châtié, frappé par Dieu, humilié. Or, c’est à cause de nos fautes qu’il a été transpercé, c’est par nos péchés qu’il a été broyé. Le châtiment qui nous obtient la paix est tombé sur lui, et c’est par ses blessures que nous sommes guéris.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlève tous mes péchés.
@@ -128,7 +131,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 53, 6-7
       content: |-
-        Nous étions tous errants comme des brebis, chacun suivait son propre chemin. Mais le Seigneur a fait retomber sur lui nos fautes à nous tous. Maltraité, il s’humilie, il n’ouvre pas la bouche : comme un agneau conduit à l’abattoir, comme une brebis muette devant les tondeurs, il n’ouvre pas la bouche.
+        Nous étions tous errants comme des brebis, chacun suivait son propre chemin. Mais le Seigneur a fait retomber sur lui nos fautes à nous tous. Maltraité, il s’humilie, il n’ouvre pas la bouche : comme un agneau conduit à l’abattoir, comme une brebis muette devant les tondeurs, il n’ouvre pas la bouche.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -145,7 +148,8 @@ vespers:
         - Toi seul es saint, toi seul es le Seigneur !
   reading:
     biblicalReference: 1 P 2, 21b-24
-    content: "Le Christ lui-même a souffert pour vous et vous a laissé son exemple afin que vous suiviez ses traces, lui qui n’a jamais commis de péché ni proféré de mensonge : couvert d’insultes, il n’insultait pas ; accablé de souffrances, il ne menaçait pas, mais il confiait sa cause à Celui qui juge avec justice. Dans son corps, il a porté nos péchés sur le bois de la croix afin que nous puis­sions mourir à nos péchés et vivre dans la justice : c’est par ses blessures que vous avez été guéris."
+    content: |-
+      Le Christ lui-même a souffert pour vous et vous a laissé son exemple afin que vous suiviez ses traces, lui qui n’a jamais commis de péché ni proféré de mensonge : couvert d’insultes, il n’insultait pas ; accablé de souffrances, il ne menaçait pas, mais il confiait sa cause à Celui qui juge avec justice. Dans son corps, il a porté nos péchés sur le bois de la croix afin que nous puis­sions mourir à nos péchés et vivre dans la justice : c’est par ses blessures que vous avez été guéris.
   responsory: |-
     R/ Comme un agneau que l’on mène à l’abattoir,
     il n’ouvre pas la bouche.

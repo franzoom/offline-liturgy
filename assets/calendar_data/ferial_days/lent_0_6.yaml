@@ -4,25 +4,29 @@ celebration:
   description: null
 invitatory:
   antiphon:
-    - Aujourd'hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
     - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - "Dieu fort, Dieu éternel, regarde notre faiblesse : pour nous protéger, étends sur nous ta main toute-puissante."
+    - |-
+      Dieu fort, Dieu éternel, regarde notre faiblesse : pour nous protéger, étends sur nous ta main toute-puissante.
 
 readings:
   psalmody:
     - psalm: PSALM_77_4
       antiphon:
-        - "Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde."
+        - |-
+          Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde.
     - psalm: PSALM_77_5
       antiphon:
-        - "Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde."
+        - |-
+          Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde.
     - psalm: PSALM_77_6
       antiphon:
-        - "Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde."
+        - |-
+          Dieu nous a pardonnés dans le Christ : à notre tour, débordons de miséricorde.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L'EXODE
+    - title: LECTURE DU LIVRE DE L’EXODE
       subtitle: Devant le buisson ardent
       ref: Ex 3, 1-20
       content: |-
@@ -75,7 +79,8 @@ morning:
         - Ant. du psaume
   reading:
     biblicalReference: Is 1, 16-18
-    content: "Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien : recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine."
+    content: |-
+      Lavez-vous, purifiez-vous, ôtez de ma vue vos actions mauvaises, cessez de faire le mal. Apprenez à faire le bien : recherchez la justice, mettez au pas l’oppresseur, faites droit à l’orphelin, prenez la défense de la veuve. Venez donc et discutons, dit le Seigneur. Si vos péchés sont comme l’écarlate, ils deviendront comme la neige. S’ils sont rouges comme le vermillon, ils deviendront blancs comme la laine.
   responsory: |-
     R/ Le sang de Jésus nous purifie de tout péché.
     V/ Venez et voyez les hauts faits de Dieu. R/
@@ -104,14 +109,14 @@ middleOfDay:
         - Je m’égare, brebis perdue ; mon Dieu, viens chercher ton serviteur.
     - psalm: PSALM_44_1
       antiphon:
-        - "Je m’égare, brebis perdue ; mon Dieu, viens chercher ton serviteur."
+        - Je m’égare, brebis perdue ; mon Dieu, viens chercher ton serviteur.
     - psalm: PSALM_44_2
       antiphon:
-        - "Je m’égare, brebis perdue ; mon Dieu, viens chercher ton serviteur."
+        - Je m’égare, brebis perdue ; mon Dieu, viens chercher ton serviteur.
   tierce:
     reading:
       biblicalReference: Ap 3, 19-20
-      content: "Tous ceux que j’aime, je leur montre leurs fautes, et je les châtie. Sois donc fervent et convertis-toi. Voici que je me tiens à la porte, et je frappe. Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui ; je prendrai mon repas avec lui, et lui avec moi."
+      content: Tous ceux que j’aime, je leur montre leurs fautes, et je les châtie. Sois donc fervent et convertis-toi. Voici que je me tiens à la porte, et je frappe. Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui ; je prendrai mon repas avec lui, et lui avec moi.
     responsory: |-
       V/ Crée en moi un cœur pur, ô mon Dieu,
       renouvelle et raffermis au fond de moi mon esprit.
@@ -119,7 +124,7 @@ middleOfDay:
     reading:
       biblicalReference: Is 44, 21-22
       content: |-
-        Rappelle-toi tout ceci : tu es mon serviteur, je t’ai façonné comme serviteur pour moi ; toi, Israël, tu ne me décevras pas : j’ai effacé comme un nuage tes révoltes, comme une nuée, tes fautes ; reviens à moi, car je t’ai racheté.
+        Rappelle-toi tout ceci : tu es mon serviteur, je t’ai façonné comme serviteur pour moi ; toi, Israël, tu ne me décevras pas : j’ai effacé comme un nuage tes révoltes, comme une nuée, tes fautes ; reviens à moi, car je t’ai racheté.
     responsory: |-
       V/ Détourne ta face de mes fautes,
       enlèvre tous mes péchés.
@@ -127,7 +132,7 @@ middleOfDay:
     reading:
       biblicalReference: Ga 6, 7b-8
       content: |-
-        Dieu ne se laisse pas narguer, car ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle.
+        Dieu ne se laisse pas narguer, car ce que l’homme sème, il le récoltera. Celui qui sème pour sa propre chair récoltera ce que produit la chair : la corruption. Celui qui sème pour l’Esprit récoltera ce que produit l’Esprit : la vie éternelle.
     responsory: |-
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
@@ -138,7 +143,8 @@ vespers:
     - psalm: NT_5
   reading:
     biblicalReference: 2 Co 6, 1 b-4a
-    content: "Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière."
+    content: |-
+      Nous vous invitons à ne pas laisser sans effet la grâce reçue de Dieu. Car il dit dans l’Écriture : Au moment favorable je t’ai exaucé, au jour du salut je suis venu à ton secours. Or c’est maintenant le moment favorable, c’est maintenant le jour du salut. Pour que notre ministère ne soit pas exposé à la critique, nous veillons à ne choquer personne en rien, mais au contraire nous nous présentons comme de vrais ministres de Dieu par notre vie entière.
 mass:
 - massType: day_mass
   name: Messe du jour

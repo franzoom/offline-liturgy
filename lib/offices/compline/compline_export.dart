@@ -36,7 +36,6 @@ Future<Compline> complineExport(
     psalmody: compline.psalmody,
     hymns: compline.hymns,
     dataLoader: dataLoader,
-    imprecatory: showImprecatoryVerses,
   );
 
   // 3. Hydrate Marian hymns

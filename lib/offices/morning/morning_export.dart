@@ -31,15 +31,14 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   // Load Proper and overwrite the Common content in the buffer
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
-    Morning proper = await morningExtract(
-        '$specialFilePath/${celebrationContext.celebrationCode}.yaml',
-        celebrationContext.dataLoader);
-
-    if (proper.isEmpty) {
-      proper = await morningExtract(
-          '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
-          celebrationContext.dataLoader);
-    }
+    final results = await Future.wait([
+      morningExtract('$specialFilePath/${celebrationContext.celebrationCode}.yaml',
+          celebrationContext.dataLoader),
+      morningExtract('$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
+          celebrationContext.dataLoader),
+    ]);
+    final Morning proper =
+        results.firstWhere((r) => !r.isEmpty, orElse: Morning.new);
 
     // Proper overwrites Common inside the buffer
     celebrationOverlay.overlayWith(proper);
@@ -57,8 +56,6 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
       morningOffice.evangelicAntiphon = celebrationOverlay.evangelicAntiphon;
     }
 
-    // For oration (which is a List<String>), isNotEmpty is valid.
-    // But to be consistent with your overlayWithCommon, we can just call it directly.
     morningOffice.overlayWithCommon(celebrationOverlay);
   }
 
@@ -86,7 +83,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     dataLoader: celebrationContext.dataLoader,
   );
 
-  // 7. Filter evangelicAntiphon: keep only default + current year
+  // 8. Filter evangelicAntiphon: keep only default + current year
   final antiphonMap = morningOffice.evangelicAntiphon;
   if (antiphonMap != null) {
     final year = liturgicalYear(celebrationContext.date.year);
@@ -97,7 +94,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     };
   }
 
-  // 7. Apply paschal alléluia to antiphons
+  // 9. Apply paschal alléluia to antiphons
 
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {

@@ -27,7 +27,5 @@ Future<Map<String, CelebrationContext>> morningDetection(
     );
   }
 
-  print(
-      '+-+-+-+-+-+-+-+-+-+ MORNING DETECTION V2 - Possible Morning Offices: $possibleMornings');
   return possibleMornings;
 }

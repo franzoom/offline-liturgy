@@ -82,6 +82,11 @@ Future<MiddleOfDay> middleOfDayExport(
     if (noneAntiphon != null && middleOfDayOffice.psalmodyNone == null) {
       middleOfDayOffice.psalmodyNone = _withAntiphon(basePsalms, noneAntiphon);
     }
+
+    // Fallback: no proper/common antiphon → use ferial psalmody (with its antiphons) for all hours
+    middleOfDayOffice.psalmodyTierce ??= _withAntiphon(basePsalms, null);
+    middleOfDayOffice.psalmodySexte ??= _withAntiphon(basePsalms, null);
+    middleOfDayOffice.psalmodyNone ??= _withAntiphon(basePsalms, null);
   }
 
   // 4. PROPAGATE ANTIPHON: repeat first antiphon to all psalms if others lack one

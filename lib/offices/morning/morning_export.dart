@@ -84,40 +84,19 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   );
 
   // 8. Filter evangelicAntiphon: keep only default + current year
-  final antiphonMap = morningOffice.evangelicAntiphon;
-  if (antiphonMap != null) {
-    final year = liturgicalYear(celebrationContext.date.year);
-    morningOffice.evangelicAntiphon = {
-      if (antiphonMap.containsKey('antiphon'))
-        'antiphon': antiphonMap['antiphon']!,
-      if (antiphonMap.containsKey(year)) year: antiphonMap[year]!,
-    };
-  }
+  morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
+      morningOffice.evangelicAntiphon, celebrationContext.date.year);
 
   // 9. Apply paschal alléluia to antiphons
-
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {
     for (int i = 0; i < invitatoryAntiphon.length; i++) {
       invitatoryAntiphon[i] = paschalAntiphon(invitatoryAntiphon[i], lt);
     }
   }
-
-  if (morningOffice.psalmody != null) {
-    for (final entry in morningOffice.psalmody!) {
-      final antiphon = entry.antiphon;
-      if (antiphon != null) {
-        for (int i = 0; i < antiphon.length; i++) {
-          antiphon[i] = paschalAntiphon(antiphon[i], lt);
-        }
-      }
-    }
-  }
-
-  if (morningOffice.evangelicAntiphon != null) {
-    morningOffice.evangelicAntiphon = morningOffice.evangelicAntiphon!
-        .map((k, v) => MapEntry(k, paschalAntiphon(v, lt)));
-  }
+  applyPaschalToPsalmody(morningOffice.psalmody, lt);
+  morningOffice.evangelicAntiphon =
+      applyPaschalToAntiphonMap(morningOffice.evangelicAntiphon, lt);
 
   // 8. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;

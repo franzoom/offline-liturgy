@@ -59,6 +59,13 @@ CelebrationYamlData? parseCelebrationYaml(String fileContent) {
   }
 }
 
+/// Returns the effective sort precedence for a celebration.
+/// Ferial days at precedence 13 rank before optional memorials (12).
+double effectivePrecedence(int precedence, String code) {
+  if (precedence == 13 && ferialDayCheck(code)) return 11.5;
+  return precedence.toDouble();
+}
+
 /// Detects all possible celebrations for a given date
 /// Returns a list of CelebrationContext sorted by precedence (lowest first)
 ///
@@ -116,24 +123,10 @@ Future<List<CelebrationContext>> detectCelebrations(
   // Sort: by precedence ascending, with special rule for ferial days (precedence 13)
   // Ferial days at precedence 13 should come before optional memorials (precedence 12)
   allCelebrations.sort((a, b) {
-    double getEffectivePrecedence(
-        ({int precedence, String code, bool isFromRoot}) c) {
-      if (c.precedence == 13 && ferialDayCheck(c.code)) {
-        return 11.5; // Place ferial 13 before optional memorials (12)
-      }
-      return c.precedence.toDouble();
-    }
-
-    final aEffective = getEffectivePrecedence(a);
-    final bEffective = getEffectivePrecedence(b);
-
-    if (aEffective != bEffective) {
-      return aEffective.compareTo(bEffective);
-    }
-    // Same precedence: root first (isFromRoot=true comes before isFromRoot=false)
-    if (a.isFromRoot != b.isFromRoot) {
-      return a.isFromRoot ? -1 : 1;
-    }
+    final aEff = effectivePrecedence(a.precedence, a.code);
+    final bEff = effectivePrecedence(b.precedence, b.code);
+    if (aEff != bEff) return aEff.compareTo(bEff);
+    if (a.isFromRoot != b.isFromRoot) return a.isFromRoot ? -1 : 1;
     return 0;
   });
 
@@ -148,7 +141,6 @@ Future<List<CelebrationContext>> detectCelebrations(
   try {
     specialResults = await Future.wait(specialLoadFutures);
   } catch (e) {
-    print('Error loading special_days YAML files: $e');
     return [];
   }
 
@@ -166,7 +158,6 @@ Future<List<CelebrationContext>> detectCelebrations(
   try {
     sanctoralResults = await Future.wait(sanctoralLoadFutures);
   } catch (e) {
-    print('Error loading sanctoral YAML files: $e');
     return [];
   }
 
@@ -277,12 +268,6 @@ Future<List<CelebrationContext>> detectCelebrations(
           celebrationGlobalName += ', ${yamlData.subtitle}';
         }
       }
-    } else if (!ferialDayCheck(celebrationCode)) {
-      if (fileContent.isEmpty) {
-        print('Warning: failed to load $celebrationCode.yaml');
-      } else {
-        print('Warning: failed to parse $celebrationCode.yaml');
-      }
     }
 
     // Filter commonTitles for this celebration's commons
@@ -310,4 +295,22 @@ Future<List<CelebrationContext>> detectCelebrations(
   }
 
   return detectedCelebrations;
+}
+
+/// Generic helper for office detection wrappers (morning, readings, etc.).
+/// Converts detected celebrations into a keyed map with the given [celebrationType].
+Future<Map<String, CelebrationContext>> buildDetectionMap(
+  Calendar calendar,
+  DateTime date,
+  DataLoader dataLoader,
+  String celebrationType,
+) async {
+  final celebrations = await detectCelebrations(calendar, date, dataLoader);
+  return {
+    for (final c in celebrations)
+      c.celebrationTitle ?? c.celebrationCode: c.copyWith(
+        celebrationType: celebrationType,
+        officeDescription: c.celebrationGlobalName,
+      ),
+  };
 }

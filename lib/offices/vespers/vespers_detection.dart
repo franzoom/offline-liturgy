@@ -5,12 +5,6 @@ import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../office_detection.dart';
 
-double _effectivePrecedence(CelebrationContext c, int defaultPrecedence) {
-  final p = c.precedence ?? defaultPrecedence;
-  if (p == 13 && ferialDayCheck(c.celebrationCode)) return 11.5;
-  return p.toDouble();
-}
-
 /// Precedence threshold for First Vespers eligibility
 /// Celebrations with precedence <= 5 can have First Vespers
 /// (this includes: Solemnities (1-4), Feasts of the Lord (5) )
@@ -164,8 +158,9 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       if (aIsSundayFirstVespers != bIsSundayFirstVespers) {
         return aIsSundayFirstVespers ? -1 : 1;
       }
-      return _effectivePrecedence(a.value, _defaultPrecedence)
-          .compareTo(_effectivePrecedence(b.value, _defaultPrecedence));
+      double precOf(CelebrationContext c) => effectivePrecedence(
+          c.precedence ?? _defaultPrecedence, c.celebrationCode);
+      return precOf(a.value).compareTo(precOf(b.value));
     });
 
   return Map.fromEntries(sortedEntries);

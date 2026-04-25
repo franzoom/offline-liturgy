@@ -1,3 +1,5 @@
+import '../classes/office_elements_class.dart';
+
 /// Regex to check if "alléluia" appears anywhere in a line
 final RegExp _alleluiaRegex = RegExp(r'alléluia', caseSensitive: false);
 
@@ -47,6 +49,28 @@ const _paschalTimes = {'easter', 'paschaloctave', 'paschaltime', 'paschal'};
 /// - no final punctuation → appends `, alléluia.`
 ///
 /// Multi-line strings are processed line by line and rejoined.
+/// Applies paschal alléluia to all antiphons in a psalmody list, in place.
+void applyPaschalToPsalmody(List<PsalmEntry>? psalmody, String liturgicalTime) {
+  if (psalmody == null) return;
+  for (final entry in psalmody) {
+    final antiphon = entry.antiphon;
+    if (antiphon != null) {
+      for (int i = 0; i < antiphon.length; i++) {
+        antiphon[i] = paschalAntiphon(antiphon[i], liturgicalTime);
+      }
+    }
+  }
+}
+
+/// Applies paschal alléluia to all values of an antiphon map.
+/// Returns null if the input is null.
+Map<String, String>? applyPaschalToAntiphonMap(
+    Map<String, String>? antiphonMap, String liturgicalTime) {
+  if (antiphonMap == null) return null;
+  return antiphonMap
+      .map((k, v) => MapEntry(k, paschalAntiphon(v, liturgicalTime)));
+}
+
 String paschalAntiphon(String antiphon, String liturgicalTime) {
   if (!_paschalTimes.contains(liturgicalTime)) return antiphon;
 

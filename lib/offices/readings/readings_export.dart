@@ -13,6 +13,10 @@ import '../../tools/hymns_management.dart';
 Future<Readings> readingsExport(CelebrationContext context) async {
   Readings readingsOffice = Readings();
 
+  final String lt = context.liturgicalTime ?? '';
+  final int prec = context.precedence ?? 13;
+  final bool isMemory = prec > 7;
+
   // STEP 1: Load Ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {
     readingsOffice = await ferialReadingsResolution(context);
@@ -25,7 +29,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   }
 
   // STEP 3: Handle Commons and Overlays
-  final bool isMemory = (context.precedence ?? 13) > 7;
   final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
 
   if (hasCommon) {
@@ -38,21 +41,12 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   }
 
   // STEP 4: Apply Proper data
-  // Note: overlayWith will update readingsOffice.tedeum if defined in YAML
   readingsOffice.overlayWith(properReadings);
 
-  // STEP 5: Finalize Te Deum flag and hydrate content
-  // Rule: No Te Deum on Sundays of Lent (non-feast/solemnity), even if YAML sets it.
-  // Feasts and solemnities (precedence <= 5) always have Te Deum, even in Lent.
-  final bool isLentenSundayNonFeast =
-      context.date.weekday == DateTime.sunday &&
-      (context.liturgicalTime ?? '').toLowerCase().contains('lent') &&
-      (context.precedence ?? 13) >= 8;
-
-  readingsOffice.tedeum = isLentenSundayNonFeast
-      ? false
-      : (context.teDeum == true) || (readingsOffice.tedeum == true);
-  if (readingsOffice.tedeum == true) {
+  // STEP 5: Te Deum — only for Feasts and Solemnities (precedence ≤ 7), never in Holy Week
+  final bool hasTeDeum = prec <= 7 && lt != 'holyweek';
+  readingsOffice.tedeum = hasTeDeum;
+  if (hasTeDeum) {
     readingsOffice.tedeumContent = teDeum;
   }
 
@@ -71,8 +65,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   );
 
   // Apply paschal alléluia to psalm antiphons
-  final lt = context.liturgicalTime ?? '';
-
   if (readingsOffice.psalmody != null) {
     for (final entry in readingsOffice.psalmody!) {
       final antiphon = entry.antiphon;
@@ -87,16 +79,14 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   return readingsOffice;
 }
 
-/// Helper to try loading the proper file from multiple directories
+/// Loads proper readings by trying special_days and sanctoral paths in parallel.
 Future<Readings> _loadProperReadings(CelebrationContext context) async {
-  final List<String> searchPaths = [
-    '$specialFilePath/${context.celebrationCode}.yaml',
-    '$sanctoralFilePath/${context.celebrationCode}.yaml',
-  ];
+  final results = await Future.wait([
+    readingsExtract(
+        '$specialFilePath/${context.celebrationCode}.yaml', context.dataLoader),
+    readingsExtract(
+        '$sanctoralFilePath/${context.celebrationCode}.yaml', context.dataLoader),
+  ]);
 
-  for (String path in searchPaths) {
-    final readings = await readingsExtract(path, context.dataLoader);
-    if (!readings.isEmpty) return readings;
-  }
-  return Readings();
+  return results.firstWhere((r) => !r.isEmpty, orElse: Readings.new);
 }

@@ -1,7 +1,7 @@
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
-import '../../tools/hymns_management.dart'; // Contient getHymnsForSeason
+import '../../tools/hymns_management.dart';
 import '../../tools/date_tools.dart';
 import './readings_extract.dart';
 import '../../tools/constants.dart';
@@ -15,13 +15,11 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
   if (code.startsWith('christmas')) return _resolveChristmas(context);
   if (code.startsWith('lent')) return _resolveLent(context);
   if (code.startsWith('easter')) return _resolveEaster(context);
-  if (code == 'holy_thursday' || code == 'holy_friday' || code == 'holy_saturday') {
+  if (const {'holy_thursday', 'holy_friday', 'holy_saturday'}.contains(code)) {
     return _resolveHolyWeek(context);
   }
 
-  // Fallback
-  return await readingsExtract(
-      '$ferialFilePath/$code.yaml', context.dataLoader);
+  return await readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader);
 }
 
 // --- ORDINARY TIME ---
@@ -43,35 +41,40 @@ Future<Readings> _resolveOrdinaryTime(CelebrationContext context) async {
   return ferialReadings;
 }
 
+({int specialDay, int week, int day}) _parseSpecialAdventCode(String code) {
+  final parts = code.replaceFirst('advent-', '').split('_');
+  return (
+    specialDay: int.parse(parts[0]),
+    week: int.parse(parts[1]),
+    day: int.parse(parts[2]),
+  );
+}
+
 // --- ADVENT ---
 Future<Readings> _resolveAdvent(CelebrationContext context) async {
   final code = context.ferialCode!;
   final dataLoader = context.dataLoader;
-  Readings ferialReadings;
+  late Readings ferialReadings;
 
-  if (RegExp(r'advent_').hasMatch(code)) {
+  if (code.contains('advent_')) {
     final dayDatas = extractWeekAndDay(code, "advent");
     ferialReadings = await readingsExtract(
         '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
         dataLoader);
   } else {
-    // Special Advent (Dec 17 - 24)
-    List<String> parts = code.replaceFirst("advent-", "").split("_");
-    int specialDay = int.parse(parts[0]);
-    int week = int.parse(parts[1]);
-    int day = int.parse(parts[2]);
+    // Special Advent (Dec 17–24)
+    final (:specialDay, :week, :day) = _parseSpecialAdventCode(code);
 
-    ferialReadings = await readingsExtract(
-        '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
-    Readings specialData = await readingsExtract(
-        '$specialFilePath/advent_$specialDay.yaml', dataLoader);
-
-    // Overlay special material (biblical/patristic readings and Te Deum logic)
-    ferialReadings.overlayWith(specialData);
+    final results = await Future.wait([
+      readingsExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
+      readingsExtract('$specialFilePath/advent_$specialDay.yaml', dataLoader),
+    ]);
+    ferialReadings = results[0];
+    ferialReadings.overlayWith(results[1]);
 
     // Special rule for Week 3: uses Psalm antiphons from Week 4
     if (week == 3) {
-      Readings weekFour = await readingsExtract(
+      final weekFour = await readingsExtract(
           '$ferialFilePath/advent_4_$day.yaml', dataLoader);
       if (ferialReadings.psalmody?.length == 3 &&
           weekFour.psalmody?.length == 3) {

@@ -2,6 +2,7 @@ import '../../classes/middle_of_day_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
 import '../../tools/hymns_management.dart';
+import '../../tools/data_loader.dart';
 import './middle_of_day_extract.dart';
 import '../../tools/constants.dart';
 
@@ -56,7 +57,7 @@ Future<MiddleOfDay> _resolveOrdinaryTime(CelebrationContext context) async {
 Future<MiddleOfDay> _resolveAdvent(CelebrationContext context) async {
   final code = context.ferialCode!;
   final dataLoader = context.dataLoader;
-  MiddleOfDay ferialMiddleOfDay;
+  late MiddleOfDay ferialMiddleOfDay;
 
   if (code.startsWith('advent_')) {
     // Standard Advent weeks
@@ -65,18 +66,20 @@ Future<MiddleOfDay> _resolveAdvent(CelebrationContext context) async {
         '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
         dataLoader);
   } else {
-    // Special Advent (Dec 17 - 24)
+    // Special Advent (Dec 17–24)
     List<String> parts = code.replaceFirst("advent-", "").split("_");
     int specialDay = int.parse(parts[0]);
     int week = int.parse(parts[1]);
     int day = int.parse(parts[2]);
 
-    ferialMiddleOfDay = await middleOfDayExtract(
-        '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
-    MiddleOfDay specialData = await middleOfDayExtract(
-        '$specialFilePath/advent_$specialDay.yaml', dataLoader);
-
-    ferialMiddleOfDay.overlayWith(specialData);
+    final results = await Future.wait([
+      middleOfDayExtract(
+          '$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
+      middleOfDayExtract(
+          '$specialFilePath/advent_$specialDay.yaml', dataLoader),
+    ]);
+    ferialMiddleOfDay = results[0];
+    ferialMiddleOfDay.overlayWith(results[1]);
   }
 
   return ferialMiddleOfDay;
@@ -93,23 +96,27 @@ Future<MiddleOfDay> _resolveChristmas(CelebrationContext context) =>
           context.dataLoader),
     };
 
-Future<MiddleOfDay> _resolveChristmasDec(DateTime date, dataLoader) async {
-  final base =
-      await middleOfDayExtract('$commonsFilePath/christmas.yaml', dataLoader);
-  final proper = await middleOfDayExtract(
-      '$specialFilePath/christmas_${date.day}.yaml', dataLoader);
-  return base..overlayWith(proper);
+Future<MiddleOfDay> _resolveChristmasDec(
+    DateTime date, DataLoader dataLoader) async {
+  final results = await Future.wait([
+    middleOfDayExtract('$commonsFilePath/christmas.yaml', dataLoader),
+    middleOfDayExtract(
+        '$specialFilePath/christmas_${date.day}.yaml', dataLoader),
+  ]);
+  return results[0]..overlayWith(results[1]);
 }
 
 Future<MiddleOfDay> _resolveChristmasBeforeEpiphany(
-    String code, dataLoader) async {
+    String code, DataLoader dataLoader) async {
   final parts = code.split('-')[1].split('_');
-  final base = await middleOfDayExtract(
-      '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
-  final proper = await middleOfDayExtract(
-      '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
-      dataLoader);
-  return base..overlayWith(proper);
+  final results = await Future.wait([
+    middleOfDayExtract(
+        '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader),
+    middleOfDayExtract(
+        '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        dataLoader),
+  ]);
+  return results[0]..overlayWith(results[1]);
 }
 
 // --- LENT ---

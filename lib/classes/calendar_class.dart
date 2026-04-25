@@ -22,24 +22,6 @@ class DayContent {
   });
 }
 
-class FeastItem {
-  final int precedence;
-  final String celebrationTitle;
-  final String? color;
-  final bool celebrable;
-
-  const FeastItem({
-    required this.precedence,
-    required this.celebrationTitle,
-    this.color,
-    required this.celebrable,
-  });
-
-  @override
-  String toString() =>
-      'FeastItem(precedence=$precedence, celebrable=$celebrable, title="$celebrationTitle")';
-}
-
 class Calendar {
   final Map<DateTime, DayContent> calendarData = {};
   Calendar(); // default constructor
@@ -58,7 +40,7 @@ class Calendar {
 
     // Search for existing item
     int? existingPrecedence;
-    int? existingIndex;
+    int existingIndex = 0;
     String? existingFeastName;
 
     outer:
@@ -76,8 +58,7 @@ class Calendar {
 
     // No existing match found - simply add
     if (existingFeastName == null) {
-      dayContent.feastList.putIfAbsent(precedence, () => []);
-      dayContent.feastList[precedence]!.add(newFeastName);
+      (dayContent.feastList[precedence] ??= []).add(newFeastName);
       return;
     }
 
@@ -89,19 +70,18 @@ class Calendar {
     // Same precedence but enriched name - replace in place
     // e.g. "saint_casimir" -> "lyon_saint_casimir"
     if (existingPrecedence == precedence) {
-      dayContent.feastList[precedence]![existingIndex!] = newFeastName;
+      dayContent.feastList[precedence]![existingIndex] = newFeastName;
       return;
     }
 
     // Different precedence - remove from old, add to new
     final oldList = dayContent.feastList[existingPrecedence]!;
-    oldList.removeAt(existingIndex!);
+    oldList.removeAt(existingIndex);
     if (oldList.isEmpty) {
       dayContent.feastList.remove(existingPrecedence);
     }
 
-    dayContent.feastList.putIfAbsent(precedence, () => []);
-    dayContent.feastList[precedence]!.add(newFeastName);
+    (dayContent.feastList[precedence] ??= []).add(newFeastName);
   }
 
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
@@ -211,9 +191,7 @@ class Calendar {
         final feasts = dayContent.feastList[precedence];
         if (feasts == null || feasts.isEmpty) continue;
 
-        // Add to precedence 12
-        dayContent.feastList.putIfAbsent(12, () => []);
-        dayContent.feastList[12]!.addAll(feasts);
+        (dayContent.feastList[12] ??= []).addAll(feasts);
 
         // Remove from original precedence
         dayContent.feastList.remove(precedence);

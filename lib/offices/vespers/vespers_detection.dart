@@ -4,6 +4,7 @@ import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../office_detection.dart';
+import '../../assets/libraries/french_liturgy_labels.dart';
 
 /// Precedence threshold for First Vespers eligibility
 /// Celebrations with precedence <= 5 can have First Vespers
@@ -62,9 +63,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
   // no First Vespers of the next day are celebrated — all octave days are equal.
   final bool isEasterOctave = todayCelebrations.any((c) {
-    final code = c.ferialCode?.isNotEmpty == true
-        ? c.ferialCode!
-        : c.celebrationCode;
+    final code =
+        c.ferialCode?.isNotEmpty == true ? c.ferialCode! : c.celebrationCode;
     return RegExp(r'^easter_1_[0-6]$').hasMatch(code);
   });
 
@@ -72,7 +72,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       ? <CelebrationContext>[]
       : tomorrowCelebrations
           .where((c) =>
-              (tomorrow.isSunday && (c.precedence ?? _defaultPrecedence) <= 6) ||
+              (tomorrow.isSunday &&
+                  (c.precedence ?? _defaultPrecedence) <= 6) ||
               (!ferialDayCheck(c.celebrationCode) &&
                   (c.precedence ?? _defaultPrecedence) <=
                       _firstVespersPrecedenceThreshold) ||
@@ -115,7 +116,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     possibleVespers[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'vespers2', // II Vespers
       isCelebrable: isCelebrable,
-      officeDescription: c.celebrationGlobalName,
+      officeDescription:
+          '${c.celebrationGlobalName}  (${celebrationTypeLabels['secondVespers']})',
     );
   }
 
@@ -143,7 +145,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       celebrationType: 'vespers1', // I Vespers
       date: tomorrow, // First Vespers belong to tomorrow's celebration
       isCelebrable: isCelebrable,
-      officeDescription: 'First Vespers of ${c.celebrationGlobalName}',
+      officeDescription:
+          '${c.celebrationGlobalName} (${celebrationTypeLabels['firstVespers']})',
     );
   }
 

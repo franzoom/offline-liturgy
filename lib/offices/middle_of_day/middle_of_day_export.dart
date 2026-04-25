@@ -163,22 +163,10 @@ Future<MiddleOfDay> middleOfDayExport(
   // 7. PASCHAL ALLÉLUIA
   final lt = celebrationContext.liturgicalTime ?? '';
 
-  void applyPaschalToList(List<PsalmEntry>? psalms) {
-    if (psalms == null) return;
-    for (final entry in psalms) {
-      final antiphon = entry.antiphon;
-      if (antiphon != null) {
-        for (int i = 0; i < antiphon.length; i++) {
-          antiphon[i] = paschalAntiphon(antiphon[i], lt);
-        }
-      }
-    }
-  }
-
-  applyPaschalToList(middleOfDayOffice.psalmody);
-  applyPaschalToList(middleOfDayOffice.psalmodyTierce);
-  applyPaschalToList(middleOfDayOffice.psalmodySexte);
-  applyPaschalToList(middleOfDayOffice.psalmodyNone);
+  applyPaschalToPsalmody(middleOfDayOffice.psalmody, lt);
+  applyPaschalToPsalmody(middleOfDayOffice.psalmodyTierce, lt);
+  applyPaschalToPsalmody(middleOfDayOffice.psalmodySexte, lt);
+  applyPaschalToPsalmody(middleOfDayOffice.psalmodyNone, lt);
 
   for (final hour in [
     middleOfDayOffice.tierce,

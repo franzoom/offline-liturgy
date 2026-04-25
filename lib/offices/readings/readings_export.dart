@@ -65,16 +65,7 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   );
 
   // Apply paschal alléluia to psalm antiphons
-  if (readingsOffice.psalmody != null) {
-    for (final entry in readingsOffice.psalmody!) {
-      final antiphon = entry.antiphon;
-      if (antiphon != null) {
-        for (int i = 0; i < antiphon.length; i++) {
-          antiphon[i] = paschalAntiphon(antiphon[i], lt);
-        }
-      }
-    }
-  }
+  applyPaschalToPsalmody(readingsOffice.psalmody, lt);
 
   return readingsOffice;
 }

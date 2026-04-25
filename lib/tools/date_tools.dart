@@ -41,6 +41,19 @@ bool ferialDayCheck(String celebrationCode) {
   return prefixes.any((prefix) => celebrationCode.startsWith(prefix));
 }
 
+/// Filters an evangelicAntiphon map to keep only the generic key and the
+/// current liturgical year key (A, B or C).
+Map<String, String>? filterEvangelicAntiphon(
+    Map<String, String>? antiphonMap, int year) {
+  if (antiphonMap == null) return null;
+  final yearKey = liturgicalYear(year);
+  return {
+    if (antiphonMap.containsKey('antiphon'))
+      'antiphon': antiphonMap['antiphon']!,
+    if (antiphonMap.containsKey(yearKey)) yearKey: antiphonMap[yearKey]!,
+  };
+}
+
 String liturgicalYear(int year) {
   // returns the type of liturgcial year:
   // C for multiples of 3, then A and B

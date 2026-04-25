@@ -67,33 +67,13 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   );
 
   // Filter evangelicAntiphon: keep only default + current year
-  final antiphonMap = vespersOffice.evangelicAntiphon;
-  if (antiphonMap != null) {
-    final year = liturgicalYear(celebrationContext.date.year);
-    vespersOffice.evangelicAntiphon = {
-      if (antiphonMap.containsKey('antiphon'))
-        'antiphon': antiphonMap['antiphon']!,
-      if (antiphonMap.containsKey(year)) year: antiphonMap[year]!,
-    };
-  }
+  vespersOffice.evangelicAntiphon = filterEvangelicAntiphon(
+      vespersOffice.evangelicAntiphon, celebrationContext.date.year);
 
   // Apply paschal alléluia to antiphons
-
-  if (vespersOffice.psalmody != null) {
-    for (final entry in vespersOffice.psalmody!) {
-      final antiphon = entry.antiphon;
-      if (antiphon != null) {
-        for (int i = 0; i < antiphon.length; i++) {
-          antiphon[i] = paschalAntiphon(antiphon[i], lt);
-        }
-      }
-    }
-  }
-
-  if (vespersOffice.evangelicAntiphon != null) {
-    vespersOffice.evangelicAntiphon = vespersOffice.evangelicAntiphon!
-        .map((k, v) => MapEntry(k, paschalAntiphon(v, lt)));
-  }
+  applyPaschalToPsalmody(vespersOffice.psalmody, lt);
+  vespersOffice.evangelicAntiphon =
+      applyPaschalToAntiphonMap(vespersOffice.evangelicAntiphon, lt);
 
   // Assign the evangelic canticle (Magnificat)
   vespersOffice.evangelicCanticle = magnificat;

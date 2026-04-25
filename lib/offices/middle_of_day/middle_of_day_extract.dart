@@ -47,7 +47,7 @@ Future<MiddleOfDay> middleOfDayExtract(
     return middleOfDay;
   } catch (e) {
     // In case of parsing error, return an empty office to prevent the app from crashing
-    print('❌ Error during middleOfDayExtract for $relativePath: $e');
+    print('❌ middleOfDayExtract error for $relativePath: $e');
     return MiddleOfDay();
   }
 }

@@ -36,6 +36,5 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
     ),
   };
 
-  print('+-+-+-+-+-+-+-+-+-+ MIDDLE OF DAY DETECTION - Possible Offices: $result');
   return result;
 }

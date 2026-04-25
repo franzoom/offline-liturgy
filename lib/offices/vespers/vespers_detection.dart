@@ -5,6 +5,12 @@ import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../office_detection.dart';
 
+double _effectivePrecedence(CelebrationContext c, int defaultPrecedence) {
+  final p = c.precedence ?? defaultPrecedence;
+  if (p == 13 && ferialDayCheck(c.celebrationCode)) return 11.5;
+  return p.toDouble();
+}
+
 /// Precedence threshold for First Vespers eligibility
 /// Celebrations with precedence <= 5 can have First Vespers
 /// (this includes: Solemnities (1-4), Feasts of the Lord (5) )
@@ -35,15 +41,11 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
   // Also checks ferial code 'lent_6_6' for Holy Saturday, in case it is the
   // celebration code rather than 'holy_saturday'
-  final isHolyWeek = todayCelebrations.any((c) =>
-      holyWeekCodes.contains(c.celebrationCode) ||
-      c.ferialCode == 'lent_6_6');
-  if (isHolyWeek) {
-    final c = todayCelebrations.firstWhere(
-        (c) =>
-            holyWeekCodes.contains(c.celebrationCode) ||
-            c.ferialCode == 'lent_6_6',
-        orElse: () => todayCelebrations.first);
+  bool isHolyWeekCell(CelebrationContext c) =>
+      holyWeekCodes.contains(c.celebrationCode) || c.ferialCode == 'lent_6_6';
+
+  if (todayCelebrations.any(isHolyWeekCell)) {
+    final c = todayCelebrations.firstWhere(isHolyWeekCell);
     final Map<String, CelebrationContext> result = {};
     result[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'vespers2',
@@ -127,7 +129,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   for (final c in firstVespersCandidates) {
     // Create a distinct key for First Vespers
     final firstVespersKey =
-        'I Vêpres: ${c.celebrationTitle ?? c.celebrationCode}';
+        'I Vespers: ${c.celebrationTitle ?? c.celebrationCode}';
 
     // First Vespers are celebrable if:
     // - tomorrow is Sunday (all Sundays always have celebrable First Vespers)
@@ -147,18 +149,11 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       celebrationType: 'vespers1', // I Vespers
       date: tomorrow, // First Vespers belong to tomorrow's celebration
       isCelebrable: isCelebrable,
-      officeDescription: 'Premières Vêpres du ${c.celebrationGlobalName}',
+      officeDescription: 'First Vespers of ${c.celebrationGlobalName}',
     );
   }
 
   // 5. Sort: Sunday First Vespers come first, then by effective precedence
-  // Ferial days (precedence 13) rank before optional memorials (precedence 12)
-  double effectivePrecedence(CelebrationContext c) {
-    final p = c.precedence ?? _defaultPrecedence;
-    if (p == 13 && ferialDayCheck(c.celebrationCode)) return 11.5;
-    return p.toDouble();
-  }
-
   final sortedEntries = possibleVespers.entries.toList()
     ..sort((a, b) {
       final aIsSundayFirstVespers =
@@ -169,11 +164,9 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       if (aIsSundayFirstVespers != bIsSundayFirstVespers) {
         return aIsSundayFirstVespers ? -1 : 1;
       }
-      return effectivePrecedence(a.value)
-          .compareTo(effectivePrecedence(b.value));
+      return _effectivePrecedence(a.value, _defaultPrecedence)
+          .compareTo(_effectivePrecedence(b.value, _defaultPrecedence));
     });
 
-  final sortedVespers = Map.fromEntries(sortedEntries);
-
-  return sortedVespers;
+  return Map.fromEntries(sortedEntries);
 }

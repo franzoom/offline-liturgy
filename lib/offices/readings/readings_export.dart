@@ -25,7 +25,7 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   }
 
   // STEP 3: Handle Commons and Overlays
-  final bool isMemory = (context.precedence ?? 13) > 6;
+  final bool isMemory = (context.precedence ?? 13) > 7;
   final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
 
   if (hasCommon) {
@@ -47,7 +47,7 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   final bool isLentenSundayNonFeast =
       context.date.weekday == DateTime.sunday &&
       (context.liturgicalTime ?? '').toLowerCase().contains('lent') &&
-      (context.precedence ?? 13) >= 6;
+      (context.precedence ?? 13) >= 8;
 
   readingsOffice.tedeum = isLentenSundayNonFeast
       ? false

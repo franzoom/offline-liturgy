@@ -2,24 +2,25 @@ import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
 import '../../tools/hymns_management.dart';
+import '../../tools/date_tools.dart';
 import './morning_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves morning prayer content for ferial days.
-Future<Morning> ferialMorningResolution(CelebrationContext context) async {
+Future<Morning> ferialMorningResolution(CelebrationContext context) {
   final code = context.ferialCode ?? context.celebrationCode;
+  final season = const ['ot', 'advent', 'christmas', 'lent', 'easter']
+      .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
-  if (code.startsWith('ot')) return _resolveOrdinaryTime(context);
-  if (code.startsWith('advent')) return _resolveAdvent(context);
-  if (code.startsWith('christmas')) return _resolveChristmas(context);
-  if (code.startsWith('lent')) return _resolveLent(context);
-  if (code.startsWith('easter')) return _resolveEaster(context);
-  if (const {'holy_thursday', 'holy_friday', 'holy_saturday'}.contains(code)) {
-    return _resolveHolyWeek(context);
-  }
-
-  // Fallback for codes not matching standard seasons
-  return await morningExtract('$ferialFilePath/$code.yaml', context.dataLoader);
+  return switch (season) {
+    'ot'        => _resolveOrdinaryTime(context),
+    'advent'    => _resolveAdvent(context),
+    'christmas' => _resolveChristmas(context),
+    'lent'      => _resolveLent(context),
+    'easter'    => _resolveEaster(context),
+    _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context),
+    _           => morningExtract('$ferialFilePath/$code.yaml', context.dataLoader),
+  };
 }
 
 // --- ORDINARY TIME ---

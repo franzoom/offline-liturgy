@@ -2,26 +2,28 @@ import '../../classes/vespers_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
 import '../../tools/hymns_management.dart';
+import '../../tools/date_tools.dart';
 import './vespers_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves vespers prayer for ferial days
-Future<Vespers> ferialVespersResolution(CelebrationContext context) async {
+Future<Vespers> ferialVespersResolution(CelebrationContext context) {
   final code = context.ferialCode ?? context.celebrationCode;
   final String section =
       context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
+  final season = const ['ot', 'advent', 'christmas', 'lent', 'easter']
+      .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
-  if (code.startsWith('ot')) return _resolveOrdinaryTime(context, section);
-  if (code.startsWith('advent')) return _resolveAdvent(context, section);
-  if (code.startsWith('christmas')) return _resolveChristmas(context, section);
-  if (code.startsWith('lent')) return _resolveLent(context, section);
-  if (code.startsWith('easter')) return _resolveEaster(context, section);
-  if (const {'holy_thursday', 'holy_friday', 'holy_saturday'}.contains(code)) {
-    return _resolveHolyWeek(context, section);
-  }
-
-  return await vespersExtract('$ferialFilePath/$code.yaml', context.dataLoader,
-      section: section);
+  return switch (season) {
+    'ot'        => _resolveOrdinaryTime(context, section),
+    'advent'    => _resolveAdvent(context, section),
+    'christmas' => _resolveChristmas(context, section),
+    'lent'      => _resolveLent(context, section),
+    'easter'    => _resolveEaster(context, section),
+    _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context, section),
+    _           => vespersExtract('$ferialFilePath/$code.yaml', context.dataLoader,
+          section: section),
+  };
 }
 
 // --- ORDINARY TIME ---

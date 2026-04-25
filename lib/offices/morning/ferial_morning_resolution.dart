@@ -14,7 +14,7 @@ Future<Morning> ferialMorningResolution(CelebrationContext context) async {
   if (code.startsWith('christmas')) return _resolveChristmas(context);
   if (code.startsWith('lent')) return _resolveLent(context);
   if (code.startsWith('easter')) return _resolveEaster(context);
-  if (code == 'holy_thursday' || code == 'holy_friday' || code == 'holy_saturday') {
+  if (const {'holy_thursday', 'holy_friday', 'holy_saturday'}.contains(code)) {
     return _resolveHolyWeek(context);
   }
 
@@ -46,25 +46,27 @@ Future<Morning> _resolveOrdinaryTime(CelebrationContext context) async {
 Future<Morning> _resolveAdvent(CelebrationContext context) async {
   final code = context.ferialCode!;
   final dataLoader = context.dataLoader;
-  Morning ferialMorning;
+  late Morning ferialMorning;
 
-  if (RegExp(r'advent_').hasMatch(code)) {
+  if (code.contains('advent_')) {
     // Standard Advent weeks
     final dayDatas = extractWeekAndDay(code, "advent");
     ferialMorning = await morningExtract(
         '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
         dataLoader);
   } else {
-    // Special Advent (Dec 17 - 24)
+    // Special Advent (Dec 17–24)
     List<String> parts = code.replaceFirst("advent-", "").split("_");
     int specialDay = int.parse(parts[0]);
     int week = int.parse(parts[1]);
     int day = int.parse(parts[2]);
 
-    ferialMorning = await morningExtract(
-        '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
-    Morning specialData = await morningExtract(
-        '$specialFilePath/advent_$specialDay.yaml', dataLoader);
+    final results = await Future.wait([
+      morningExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
+      morningExtract('$specialFilePath/advent_$specialDay.yaml', dataLoader),
+    ]);
+    ferialMorning = results[0];
+    final Morning specialData = results[1];
 
     if (day == 0) {
       ferialMorning.evangelicAntiphon = specialData.evangelicAntiphon;
@@ -72,7 +74,7 @@ Future<Morning> _resolveAdvent(CelebrationContext context) async {
       ferialMorning.overlayWith(specialData);
     }
 
-    // Special rule for Week 3 after Dec 17th
+    // Special rule for Week 3: uses Psalm antiphons from Week 4
     if (week == 3) {
       Morning weekFour = await morningExtract(
           '$ferialFilePath/advent_4_$day.yaml', dataLoader);

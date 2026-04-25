@@ -18,12 +18,12 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
 
   if (celebrations.isEmpty) return {};
 
-  // Check if there is a feast or solemnity (precedence <= 6)
+  // Check if there is a feast or solemnity (precedence <= 7, feasts included)
   final hasFeastOrSolemnity =
-      celebrations.any((c) => (c.precedence ?? 13) <= 6);
+      celebrations.any((c) => (c.precedence ?? 13) <= 7);
 
   final c = hasFeastOrSolemnity
-      ? celebrations.where((c) => (c.precedence ?? 13) <= 6).first
+      ? celebrations.where((c) => (c.precedence ?? 13) <= 7).first
       : celebrations.firstWhere(
           (c) => ferialDayCheck(c.celebrationCode),
           orElse: () => celebrations.first,

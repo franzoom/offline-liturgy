@@ -19,16 +19,15 @@ Future<void> resolveOfficeContent({
   if (psalmody != null) {
     tasks.addAll(
       psalmody.where((e) => e.psalm != null && e.psalmData == null).map(
-          (e) async =>
-              e.psalmData = await PsalmsLibrary.getPsalm(e.psalm!, dataLoader)),
+            (e) => PsalmsLibrary.getPsalm(e.psalm!, dataLoader)
+                .then((result) => e.psalmData = result),
+          ),
     );
   }
 
   // 2. Invitatory
   final invPsalms = invitatory?.psalms;
-  if (invitatory != null &&
-      invPsalms != null &&
-      invitatory.psalmsData == null) {
+  if (invPsalms != null && invitatory!.psalmsData == null) {
     tasks.add(
       Future.wait(invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
           .then((results) =>
@@ -39,8 +38,10 @@ Future<void> resolveOfficeContent({
   // 3. Hymns
   if (hymns != null) {
     tasks.addAll(
-      hymns.where((e) => e.hymnData == null).map((e) async =>
-          e.hymnData = await HymnsLibrary.getHymn(e.code, dataLoader)),
+      hymns.where((e) => e.hymnData == null).map(
+            (e) => HymnsLibrary.getHymn(e.code, dataLoader)
+                .then((result) => e.hymnData = result),
+          ),
     );
   }
 

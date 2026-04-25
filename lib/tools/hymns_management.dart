@@ -12,18 +12,6 @@ Future<Map<String, Hymns>> filterHymnsByCodes(
   return await HymnsLibrary.getHymns(titleCodes, dataLoader);
 }
 
-/// Displays hymns to console for debugging purposes.
-void displayHymns(Map<String, Hymns> hymns) {
-  for (var hymn in hymns.values) {
-    print('Title: ${hymn.title}');
-    if (hymn.author != null) {
-      print('Author: ${hymn.author}');
-    }
-    print('Content: ${hymn.content}');
-    print('---');
-  }
-}
-
 // --- HYMN SELECTION LOGIC ---
 
 /// Generic private function to extract hymn codes and map them to [HymnEntry].
@@ -45,19 +33,11 @@ List<HymnEntry> _getHymnsForOffice(
 
 /// Returns the hymn season key specific to middle-of-day offices.
 /// Advent and Christmas typically share the same hymn cycle as Ordinary time for these hours.
-String _middleOfDayHymnSeason(String liturgicalTime) {
-  switch (liturgicalTime) {
-    case 'lent':
-    case 'holyweek':
-      return 'lent';
-    case 'easter':
-    case 'paschaloctave':
-    case 'paschaltime':
-      return 'easter';
-    default:
-      return 'ordinary';
-  }
-}
+String _middleOfDayHymnSeason(String liturgicalTime) => switch (liturgicalTime) {
+      'lent' || 'holyweek' => 'lent',
+      'easter' || 'paschaloctave' || 'paschaltime' => 'easter',
+      _ => 'ordinary',
+    };
 
 // --- PUBLIC API ---
 

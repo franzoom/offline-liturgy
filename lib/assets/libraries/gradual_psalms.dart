@@ -1,7 +1,7 @@
 /// gradual Psalm for Middle of Day offices in Solmenity
 const Map<String, List<List<String>>> gradualPsalms = {
   "tierce": [
-    ["PSALM_119", "J’ai crié : le Seigneur m'a répondu."],
+    ["PSALM_119", "J’ai crié : le Seigneur m'a répondu."],
     ["PSALM_120", "Le Seigneur se tient près de toi."],
     ["PSALM_121", "Joyeux, nous irons à la maison de Dieu."]
   ],

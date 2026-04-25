@@ -28,16 +28,13 @@ class HymnsLibrary {
 
   /// Gets a single hymn by code (lazy loading).
   static Future<Hymns?> getHymn(String code, DataLoader dataLoader) async {
-    if (_cache.containsKey(code)) return _cache[code];
+    final cached = _cache[code];
+    if (cached != null) return cached;
 
     try {
       final content = await dataLoader.loadYaml('hymns/$code.yaml');
       final hymn = _parseHymn(code, content);
-
-      if (hymn != null) {
-        _cache[code] = hymn;
-        return hymn;
-      }
+      if (hymn != null) return _cache[code] = hymn;
     } catch (e) {
       print('❌ Error loading hymn $code: $e');
     }
@@ -49,23 +46,13 @@ class HymnsLibrary {
     List<String> codes,
     DataLoader dataLoader,
   ) async {
-    // Perform all loads concurrently for better performance
     final results = await Future.wait(
       codes.map((code) => getHymn(code, dataLoader)),
     );
 
-    final Map<String, Hymns> resultMap = {};
-    for (var i = 0; i < codes.length; i++) {
-      final hymn = results[i];
-      if (hymn != null) {
-        resultMap[codes[i]] = hymn;
-      }
-    }
-    return resultMap;
-  }
-
-  /// Clears the cache to free up memory.
-  static void clearCache() {
-    _cache.clear();
+    return {
+      for (var i = 0; i < codes.length; i++)
+        if (results[i] != null) codes[i]: results[i]!,
+    };
   }
 }

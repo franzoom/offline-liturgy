@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 import 'package:offline_liturgy/calendar_management/main_calendar_fill.dart';
 import 'package:offline_liturgy/classes/calendar_class.dart';
-import 'package:offline_liturgy/tools/location_loader.dart';
+import 'package:offline_liturgy/calendar_management/location_loader.dart';
 
 void main() {
   group('Liturgical Calendar Logic Tests', () {

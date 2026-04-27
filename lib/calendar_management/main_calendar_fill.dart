@@ -2,7 +2,7 @@ import '../classes/calendar_class.dart'; // calendar definition class
 import '../tools/location_loader.dart';
 import 'common_calendar_definitions.dart'; // computation of the dates of the variables feasts
 import '../tools/date_tools.dart';
-import './local_calendar_fill.dart';
+import 'local_calendar_fill.dart';
 
 /// Builds two liturgical years to avoid border problems (around first Sunday of Advent).
 /// [data] is mandatory: it carries the universal Roman feasts and the location tree.
@@ -424,8 +424,8 @@ Calendar calendarFill(
 
   applyCommonFeastsToCalendar(
       calendar, data.commonFeasts, liturgicalYear, liturgicalMainFeasts);
-  calendar = localCalendarFill(
-      calendar, liturgicalYear, location, liturgicalMainFeasts, data.locationData);
+  calendar = localCalendarFill(calendar, liturgicalYear, location,
+      liturgicalMainFeasts, data.locationData);
 
   return calendar;
 }

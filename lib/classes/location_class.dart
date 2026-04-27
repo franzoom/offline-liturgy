@@ -1,5 +1,6 @@
 import 'package:yaml/yaml.dart';
 import 'calendar_class.dart';
+import '../tools/date_tools.dart';
 
 enum LocationGeography {
   continent,
@@ -128,12 +129,17 @@ class Location {
       } else if (feast.relativeTo != null) {
         final baseDate = liturgicalMainFeasts[feast.relativeTo];
         if (baseDate != null) {
+          final d = baseDate.shift(feast.shift ?? 0);
           calendar.addItemRelatedToFeast(
               baseDate, feast.shift ?? 0, feast.precedence!, feast.key);
+          calendar.setFeastOrigin(d, feast.key, frenchName);
         }
       } else {
         final d = resolveDate(feast);
-        if (d != null) calendar.addItemToDay(d, feast.precedence!, feast.key);
+        if (d != null) {
+          calendar.addItemToDay(d, feast.precedence!, feast.key);
+          calendar.setFeastOrigin(d, feast.key, frenchName);
+        }
       }
     }
 
@@ -142,6 +148,7 @@ class Location {
       if (d != null) {
         calendar.moveItemToDateInRange(
             feast.key, d, feast.precedence!, beginYear, endYear);
+        calendar.setFeastOrigin(d, feast.key, frenchName);
       }
     }
   }

@@ -20,12 +20,27 @@ abstract class DataLoader {
   Future<String> load(String relativePath);
   Future<String> loadJson(String relativePath) => load(relativePath);
   Future<String> loadYaml(String relativePath) => load(relativePath);
+
+  /// Returns the filenames (basename only, e.g. "france.yaml") found under
+  /// [prefix] in the asset tree. Used to discover location YAML files without
+  /// a hand-maintained manifest. Default returns an empty list.
+  Future<List<String>> listFiles(String prefix) async => const [];
 }
 
 /// Default implementation for CLI/Server tools
 class FileSystemDataLoader implements DataLoader {
   final String assetsPrefix;
   FileSystemDataLoader({this.assetsPrefix = './assets/'});
+
+  @override
+  Future<List<String>> listFiles(String prefix) async {
+    final dir = Directory('$assetsPrefix$prefix');
+    final names = <String>[];
+    await for (final entity in dir.list()) {
+      if (entity is File) names.add(entity.uri.pathSegments.last);
+    }
+    return names;
+  }
 
   @override
   Future<String> load(String path) async {

@@ -31,27 +31,29 @@ class LiturgyData {
   }
 
   /// Loads via a [DataLoader] — for Flutter where assets go through rootBundle.
-  /// Reads [manifestPath] first to discover location file IDs, then loads each.
+  /// Discovers location files via [DataLoader.listFiles] — no manifest needed.
   static Future<LiturgyData> loadFromDataLoader(
     DataLoader loader, {
     String commonFeastsPath = 'common_feasts.yaml',
-    String manifestPath = 'locations/manifest.yaml',
   }) async {
     final commonFeasts =
         _parseFeastsFromYaml(await loader.loadYaml(commonFeastsPath));
 
-    final manifestYaml = await loader.loadYaml(manifestPath);
-    final manifestDoc = loadYaml(manifestYaml) as Map;
-    final ids = (manifestDoc['locations'] as List).cast<String>();
-
+    final fileNames = await loader.listFiles('locations/');
     final locationData = <String, Location>{};
-    for (final id in ids) {
+    for (final name in fileNames) {
+      if (!name.endsWith('.yaml')) continue;
+      final id = name.replaceAll('.yaml', '');
       final yaml = await loader.loadYaml('locations/$id.yaml');
       if (yaml.isNotEmpty) locationData[id] = Location.fromYaml(id, yaml);
     }
 
     return LiturgyData(commonFeasts: commonFeasts, locationData: locationData);
   }
+
+  /// The location hierarchy built from the loaded YAML files.
+  List<LocationNode> get locationTree =>
+      buildLocationTree(locationData.values.toList());
 }
 
 List<LocationFeast> _parseFeastsFromYaml(String yamlContent) {

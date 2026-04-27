@@ -129,9 +129,9 @@ class Location {
       } else if (feast.relativeTo != null) {
         final baseDate = liturgicalMainFeasts[feast.relativeTo];
         if (baseDate != null) {
-          final d = baseDate.shift(feast.shift ?? 0);
-          calendar.addItemRelatedToFeast(
-              baseDate, feast.shift ?? 0, feast.precedence!, feast.key);
+          final shift = feast.shift ?? 0;
+          final d = baseDate.shift(shift);
+          calendar.addItemRelatedToFeast(baseDate, shift, feast.precedence!, feast.key);
           calendar.setFeastOrigin(d, feast.key, frenchName);
         }
       } else {

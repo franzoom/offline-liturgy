@@ -1,0 +1,146 @@
+language: french
+geography: diocese
+parent: france
+frenchName: Lyon
+
+feasts:
+  lyon_pauline_marie_jaricot:
+    month: 1
+    day: 9
+    precedence: 12
+  lyon_gregory_x_pope:
+    month: 1
+    day: 10
+    precedence: 12
+  lyon_francis_of_sales_bishop:
+    month: 1
+    day: 24
+    precedence: 11
+  lyon_marie_of_saint_ignatius_claudine_thevenet_religious:
+    month: 2
+    day: 3
+    precedence: 12
+  lyon_jean_pierre_neel_priest:
+    month: 2
+    day: 19
+    precedence: 12
+  lyon_polycarp_of_smyrna_bishop:
+    month: 2
+    day: 23
+    precedence: 11
+  lyon_baldomerus_of_lyon_religious:
+    month: 2
+    day: 27
+    precedence: 12
+  lyon_nicetius_of_lyon_bishop:
+    month: 4
+    day: 2
+    precedence: 12
+  lyon_epipodius_of_lyon_and_alexander_of_lyon_martyrs:
+    month: 4
+    day: 22
+    precedence: 12
+  lyon_peter_chanel_priest:
+    month: 4
+    day: 28
+    precedence: 12
+  lyon_jean_louis_bonnard_priest:
+    month: 5
+    day: 4
+    precedence: 11
+  lyon_pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs:
+    month: 6
+    day: 2
+    precedence: 4
+  lyon_clotilda_queen_of_the_franks:
+    month: 6
+    day: 4
+    precedence: 12
+  lyon_marcellin_champagnat_priest:
+    month: 6
+    day: 6
+    precedence: 12
+  lyon_john_francis_regis_priest:
+    month: 6
+    day: 16
+    precedence: 12
+  lyon_innocent_v_pope:
+    month: 6
+    day: 22
+    precedence: 12
+  lyon_irenaeus_of_lyon_bishop:
+    month: 6
+    day: 28
+    precedence: 4
+  lyon_peter_julian_eymard_priest:
+    month: 8
+    day: 2
+    precedence: 12
+  lyon_john_mary_vianney_priest:
+    month: 8
+    day: 2
+    precedence: 8
+  lyon_jacques_jules_bonnaud_priest_and_companions_martyrs:
+    month: 9
+    day: 1
+    precedence: 11
+  lyon_justus_of_lyon_bishop:
+    month: 9
+    day: 2
+    precedence: 12
+  lyon_frederic_ozanam:
+    month: 9
+    day: 9
+    precedence: 12
+  lyon_peter_claver_priest:
+    month: 9
+    day: 9
+    precedence: 12
+  lyon_maurice_of_agaunum_and_companions_martyrs:
+    month: 9
+    day: 22
+    precedence: 12
+  lyon_therese_marie_victoire_couderc_virgin:
+    month: 9
+    day: 26
+    precedence: 12
+  lyon_annemund_of_lyon_bishop:
+    month: 9
+    day: 28
+    precedence: 12
+  lyon_anthony_chevrier_priest:
+    month: 10
+    day: 3
+    precedence: 11
+  lyon_dismas_the_good_thief:
+    month: 10
+    day: 12
+    precedence: 12
+  lyon_viator_of_lyon:
+    month: 10
+    day: 21
+    precedence: 12
+  lyon_dedication_of_the_cathedral_of_saint_john_the_baptist:
+    month: 10
+    day: 24
+    precedence: 4
+  lyon_dedication_of_consecrated_churches_on_october_25:
+    month: 10
+    day: 25
+    precedence: 4
+  lyon_all_holy_bishops_of_the_archdiocese_of_lyon:
+    month: 11
+    day: 5
+    precedence: 12
+  lyon_all_saints_of_the_archdiocese_of:
+    month: 11
+    day: 8
+    precedence: 12
+  lyon_eucherius_of_lyon_bishop:
+    month: 11
+    day: 16
+    precedence: 12
+  lyon_our_lady_of_fourviere:
+    relativeTo: EASTER
+    shift: 13
+    precedence: 7

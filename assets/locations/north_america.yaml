@@ -1,0 +1,53 @@
+language: french
+geography: continent
+frenchName: Amérique du Nord
+
+feasts:
+  north_america_elizabeth_ann_seton_religious:
+    month: 1
+    day: 4
+    precedence: 10
+  north_america_john_neumann_bishop:
+    month: 1
+    day: 5
+    precedence: 10
+  north_america_katharine_drexel_virgin:
+    month: 3
+    day: 3
+    precedence: 12
+  north_america_damien_de_veuster_priest:
+    month: 5
+    day: 10
+    precedence: 12
+  north_america_isidore_the_farmer:
+    month: 5
+    day: 15
+    precedence: 12
+  north_america_junipero_serra_priest:
+    month: 7
+    day: 1
+    precedence: 12
+  north_america_kateri_tekakwitha_virgin:
+    month: 7
+    day: 14
+    precedence: 10
+  north_america_camillus_de_lellis_priest:
+    month: 7
+    day: 18
+    precedence: 12
+  north_america_peter_claver_priest:
+    month: 9
+    day: 9
+    precedence: 10
+  north_america_john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs:
+    month: 10
+    day: 19
+    precedence: 10
+  north_america_rose_philippine_duchesne_virgin:
+    month: 11
+    day: 18
+    precedence: 12
+  north_america_our_lady_of_guadalupe:
+    month: 12
+    day: 12
+    precedence: 5

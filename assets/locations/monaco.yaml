@@ -1,0 +1,20 @@
+language: french
+geography: country
+parent: europe
+frenchName: Monaco
+epiphanyDate: day
+ascensionDate: thursday
+
+feasts:
+  monaco_devota_of_corsica_virgin_martyr:
+    month: 1
+    day: 27
+    precedence: 4
+  monaco_dedication_of_the_cathedral_of:
+    month: 12
+    day: 4
+    precedence: 4
+  monaco_rainerius_of_pisa:
+    month: 11
+    day: 19
+    precedence: 10

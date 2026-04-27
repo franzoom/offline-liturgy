@@ -225,6 +225,48 @@ class Calendar {
     addItemToDay(newDate, precedence, feastName);
   }
 
+  /// Like [moveItemToDate] but only searches for an existing entry within
+  /// [beginYear, endYear). This prevents a location feast added during the
+  /// first liturgical-year pass from being erroneously removed when
+  /// [getCalendar] processes the second year.
+  void moveItemToDateInRange(
+    String feastName,
+    DateTime newDate,
+    int precedence,
+    DateTime beginYear,
+    DateTime endYear,
+  ) {
+    DateTime? oldDate;
+    int? oldPrecedence;
+    int? oldIndex;
+
+    outer:
+    for (final entry in calendarData.entries) {
+      final date = entry.key;
+      if (date.isBefore(beginYear) || !date.isBefore(endYear)) continue;
+      for (final feastEntry in entry.value.feastList.entries) {
+        final list = feastEntry.value;
+        for (int i = 0; i < list.length; i++) {
+          if (list[i] == feastName) {
+            oldDate = date;
+            oldPrecedence = feastEntry.key;
+            oldIndex = i;
+            break outer;
+          }
+        }
+      }
+    }
+
+    if (oldDate != null && oldDate != newDate) {
+      final oldContent = calendarData[oldDate]!;
+      final oldList = oldContent.feastList[oldPrecedence!]!;
+      oldList.removeAt(oldIndex!);
+      if (oldList.isEmpty) oldContent.feastList.remove(oldPrecedence);
+    }
+
+    addItemToDay(newDate, precedence, feastName);
+  }
+
   /// Downgrades obligatory memorials (precedence 10/11) to optional (12)
   /// during privileged liturgical times where memorials are not celebrated.
   void downgradeMemorialsDuringPrivilegedTimes() {

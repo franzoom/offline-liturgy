@@ -69,6 +69,7 @@ class Location {
   final String? epiphanyDate;
   final String? ascensionDate;
   final List<LocationFeast> feasts;
+  final List<LocationFeast> moveFeasts;
 
   const Location({
     required this.id,
@@ -79,15 +80,19 @@ class Location {
     this.epiphanyDate,
     this.ascensionDate,
     required this.feasts,
+    this.moveFeasts = const [],
   });
 
   factory Location.fromYaml(String id, String yamlContent) {
     final doc = loadYaml(yamlContent) as Map;
-    final feastMap = doc['feasts'] as Map? ?? {};
-    final feasts = [
-      for (final entry in feastMap.entries)
-        LocationFeast.fromYaml(entry.key as String, entry.value),
-    ];
+    List<LocationFeast> parseSection(String key) {
+      final map = doc[key] as Map? ?? {};
+      return [
+        for (final e in map.entries)
+          LocationFeast.fromYaml(e.key as String, e.value),
+      ];
+    }
+
     return Location(
       id: id,
       language: doc['language'] as String,
@@ -96,14 +101,11 @@ class Location {
       frenchName: doc['frenchName'] as String,
       epiphanyDate: doc['epiphanyDate'] as String?,
       ascensionDate: doc['ascensionDate'] as String?,
-      feasts: feasts,
+      feasts: parseSection('feasts'),
+      moveFeasts: parseSection('move'),
     );
   }
 
-  /// Applies this location's feasts to the calendar.
-  /// Fixed-date feasts are moved if already present (e.g. override from Roman calendar),
-  /// or added if new. Relative feasts are anchored to a key liturgical date.
-  /// Suppressed feasts are removed wherever they appear.
   void applyToCalendar(
     Calendar calendar,
     int liturgicalYear,
@@ -113,6 +115,12 @@ class Location {
     final endYear =
         liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
     final prevYear = liturgicalYear - 1;
+
+    DateTime? resolveDate(LocationFeast feast) {
+      var d = DateTime(liturgicalYear, feast.month!, feast.day!);
+      if (d.isAfter(endYear)) d = DateTime(prevYear, feast.month!, feast.day!);
+      return (!d.isBefore(beginYear) && d.isBefore(endYear)) ? d : null;
+    }
 
     for (final feast in feasts) {
       if (feast.suppress) {
@@ -124,13 +132,16 @@ class Location {
               baseDate, feast.shift ?? 0, feast.precedence!, feast.key);
         }
       } else {
-        var feastDate = DateTime(liturgicalYear, feast.month!, feast.day!);
-        if (feastDate.isAfter(endYear)) {
-          feastDate = DateTime(prevYear, feast.month!, feast.day!);
-        }
-        if (!feastDate.isBefore(beginYear) && feastDate.isBefore(endYear)) {
-          calendar.moveItemToDate(feast.key, feastDate, feast.precedence!);
-        }
+        final d = resolveDate(feast);
+        if (d != null) calendar.addItemToDay(d, feast.precedence!, feast.key);
+      }
+    }
+
+    for (final feast in moveFeasts) {
+      final d = resolveDate(feast);
+      if (d != null) {
+        calendar.moveItemToDateInRange(
+            feast.key, d, feast.precedence!, beginYear, endYear);
       }
     }
   }

@@ -1,5 +1,5 @@
 import '../classes/calendar_class.dart'; // calendar definition class
-import '../tools/location_loader.dart';
+import 'location_loader.dart';
 import 'common_calendar_definitions.dart'; // computation of the dates of the variables feasts
 import '../tools/date_tools.dart';
 import 'local_calendar_fill.dart';

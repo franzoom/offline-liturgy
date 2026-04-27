@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/location_class.dart';
-import 'data_loader.dart';
+import '../tools/data_loader.dart';
 
 /// Bundles the two data sets that must always be loaded together before any
 /// calendar computation: the universal Roman feast list and the location tree.
@@ -39,13 +39,20 @@ class LiturgyData {
         _parseFeastsFromYaml(await loader.loadYaml(commonFeastsPath));
 
     final fileNames = await loader.listFiles('locations/');
-    final locationData = <String, Location>{};
-    for (final name in fileNames) {
-      if (!name.endsWith('.yaml')) continue;
-      final id = name.replaceAll('.yaml', '');
-      final yaml = await loader.loadYaml('locations/$id.yaml');
-      if (yaml.isNotEmpty) locationData[id] = Location.fromYaml(id, yaml);
-    }
+    final yamlNames = fileNames.where((n) => n.endsWith('.yaml')).toList();
+
+    final results = await Future.wait(
+      yamlNames.map((name) async {
+        final id = name.replaceAll('.yaml', '');
+        final yaml = await loader.loadYaml('locations/$name');
+        return (id, yaml);
+      }),
+    );
+
+    final locationData = {
+      for (final (id, yaml) in results)
+        if (yaml.isNotEmpty) id: Location.fromYaml(id, yaml),
+    };
 
     return LiturgyData(commonFeasts: commonFeasts, locationData: locationData);
   }
@@ -73,16 +80,23 @@ Future<List<LocationFeast>> _loadCommonFeasts(String yamlPath) async {
 Future<Map<String, Location>> _loadLocationsFromDirectory(
     String directoryPath) async {
   final dir = Directory(directoryPath);
-  final result = <String, Location>{};
 
-  await for (final entity in dir.list()) {
-    if (entity is! File || !entity.path.endsWith('.yaml')) continue;
-    final id = entity.uri.pathSegments.last.replaceAll('.yaml', '');
-    final content = await entity.readAsString();
-    result[id] = Location.fromYaml(id, content);
-  }
+  final entities = await dir.list().toList();
+  final files = entities
+      .whereType<File>()
+      .where((f) => f.path.endsWith('.yaml'))
+      .toList();
 
-  return result;
+  final entries = await Future.wait(
+    files.map((file) async {
+      final id = file.uri.pathSegments.last.replaceAll('.yaml', '');
+      return (id, await file.readAsString());
+    }),
+  );
+
+  return {
+    for (final (id, content) in entries) id: Location.fromYaml(id, content)
+  };
 }
 
 /// Applies the universal Roman Calendar feasts to [calendar].

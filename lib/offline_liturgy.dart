@@ -7,7 +7,7 @@ library;
 
 export 'tools/data_loader.dart';
 export 'tools/date_tools.dart';
-export 'tools/location_loader.dart';
+export 'calendar_management/location_loader.dart';
 export 'classes/location_class.dart';
 export 'classes/office_elements_class.dart';
 export 'classes/calendar_class.dart';

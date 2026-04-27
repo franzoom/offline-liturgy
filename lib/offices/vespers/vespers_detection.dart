@@ -103,21 +103,25 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final bool hasHighPriorityToday = highestTodayPrecedence <= 6;
   final bool hasHighPriorityTomorrow = highestTomorrowPrecedence <= 6;
 
-  // Add today's celebrations (II Vespers)
+  // Add today's celebrations
   for (final c in todayCelebrations) {
     // If tomorrow has First Vespers with higher precedence (lower number),
-    // today's II Vespers may not be celebrable
+    // today's Vespers may not be celebrable
     bool isCelebrable = c.isCelebrable;
     if (hasHighPriorityTomorrow &&
         (c.precedence ?? _defaultPrecedence) > highestTomorrowPrecedence) {
       isCelebrable = false;
     }
 
+    final bool showSecondVespersLabel = date.isSunday ||
+        (c.precedence ?? _defaultPrecedence) <=
+            _firstVespersPrecedenceThreshold;
     possibleVespers[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
       celebrationType: 'vespers2', // II Vespers
       isCelebrable: isCelebrable,
-      officeDescription:
-          '${c.celebrationGlobalName}  (${celebrationTypeLabels['secondVespers']})',
+      officeDescription: showSecondVespersLabel
+          ? '${c.celebrationGlobalName}  (${celebrationTypeLabels['secondVespers']})'
+          : c.celebrationGlobalName,
     );
   }
 

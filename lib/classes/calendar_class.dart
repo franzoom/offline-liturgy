@@ -8,8 +8,9 @@ class DayContent {
   final int precedence;
   final String liturgicalColor;
   final int? breviaryWeek;
-  final Map<int, List<String>>
-      feastList; // Map is mutable internally, but reference is final
+  final Map<int, List<String>> feastList;
+  // feast key → French name of the location that added it (null = Roman calendar)
+  final Map<String, String> feastOrigins;
 
   DayContent({
     required this.liturgicalYear,
@@ -19,7 +20,8 @@ class DayContent {
     required this.liturgicalColor,
     required this.breviaryWeek,
     required this.feastList,
-  });
+    Map<String, String>? feastOrigins,
+  }) : feastOrigins = feastOrigins ?? {};
 }
 
 class Calendar {
@@ -178,6 +180,11 @@ class Calendar {
     // Add to new date
     final newDate = itemDate.shift(shift);
     addItemToDay(newDate, itemPrecedence, feastName);
+  }
+
+  /// Records the originating location name for a feast at [date].
+  void setFeastOrigin(DateTime date, String feastKey, String locationName) {
+    calendarData[date]?.feastOrigins[feastKey] = locationName;
   }
 
   /// Removes a feast by name from all dates in the calendar.

@@ -31,7 +31,6 @@ class LiturgyData {
   }
 
   /// Loads via a [DataLoader] — for Flutter where assets go through rootBundle.
-  /// Discovers location files via [DataLoader.listFiles] — no manifest needed.
   static Future<LiturgyData> loadFromDataLoader(
     DataLoader loader, {
     String commonFeastsPath = 'common_feasts.yaml',

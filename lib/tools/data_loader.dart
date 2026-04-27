@@ -22,8 +22,7 @@ abstract class DataLoader {
   Future<String> loadYaml(String relativePath) => load(relativePath);
 
   /// Returns the filenames (basename only, e.g. "france.yaml") found under
-  /// [prefix] in the asset tree. Used to discover location YAML files without
-  /// a hand-maintained manifest. Default returns an empty list.
+  /// [prefix] in the asset tree. Default returns an empty list.
   Future<List<String>> listFiles(String prefix) async => const [];
 }
 

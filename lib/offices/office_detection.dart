@@ -291,6 +291,7 @@ Future<List<CelebrationContext>> detectCelebrations(
       dataLoader: dataLoader,
       celebrationDescription: celebrationDescription,
       commonTitles: celebrationCommonTitles,
+      celebrationOrigin: dayContent.feastOrigins[celebrationCode],
     ));
   }
 

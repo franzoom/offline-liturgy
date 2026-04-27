@@ -1,24 +1,37 @@
 import '../classes/calendar_class.dart'; // calendar definition class
+import '../tools/location_loader.dart';
 import 'common_calendar_definitions.dart'; // computation of the dates of the variables feasts
 import '../tools/date_tools.dart';
-import 'common_feasts.dart'; // feast list for the universal Church
 import './local_calendar_fill.dart';
 
-/// calculate 2 years of calendar to avoid border problems (around first sunday of Advent)
-Calendar getCalendar(Calendar calendar, DateTime eventDate, String location) {
-  calendar = calendarFill(calendar, eventDate, location);
-  calendar = calendarFill(calendar,
-      DateTime(eventDate.year + 1, eventDate.month, eventDate.day), location);
+/// Builds two liturgical years to avoid border problems (around first Sunday of Advent).
+/// [data] is mandatory: it carries the universal Roman feasts and the location tree.
+Calendar getCalendar(
+  Calendar calendar,
+  DateTime eventDate,
+  String location,
+  LiturgyData data,
+) {
+  calendar = calendarFill(calendar, eventDate, location, data);
+  calendar = calendarFill(
+      calendar,
+      DateTime(eventDate.year + 1, eventDate.month, eventDate.day),
+      location,
+      data);
 
   // Downgrade obligatory memorials to optional during privileged times
   calendar.downgradeMemorialsDuringPrivilegedTimes();
   return calendar;
 }
 
-/// function used to fill the main elements of the liturgical calendar.
-/// fixes all the movable dates and feast of the Universal Church.
-/// it returns a Calendar object with all the days filled.
-Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
+/// Fills one liturgical year with fixed solemnities, universal Roman feasts,
+/// and the local feast chain for [location].
+Calendar calendarFill(
+  Calendar calendar,
+  DateTime eventDate,
+  String location,
+  LiturgyData data,
+) {
   //detection of the liturgical year
   int liturgicalYear = eventDate.year;
   DateTime adventDate = advent(liturgicalYear + 1);
@@ -409,10 +422,10 @@ Calendar calendarFill(Calendar calendar, DateTime eventDate, String location) {
   // --- ADDING SOLEMNITIES AND FEASTS OVER THE ALREADY CREATED DATES ---
   _fillFixedSolemnities(calendar, liturgicalMainFeasts, liturgicalYear);
 
-  calendar.addFeastsToCalendar(
-      commonFeastsList, liturgicalYear, liturgicalMainFeasts);
+  applyCommonFeastsToCalendar(
+      calendar, data.commonFeasts, liturgicalYear, liturgicalMainFeasts);
   calendar = localCalendarFill(
-      calendar, liturgicalYear, location, liturgicalMainFeasts);
+      calendar, liturgicalYear, location, liturgicalMainFeasts, data.locationData);
 
   return calendar;
 }

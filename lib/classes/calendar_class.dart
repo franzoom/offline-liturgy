@@ -180,6 +180,51 @@ class Calendar {
     addItemToDay(newDate, itemPrecedence, feastName);
   }
 
+  /// Removes a feast by name from all dates in the calendar.
+  void removeFeastFromCalendar(String feastName) {
+    for (final dayContent in calendarData.values) {
+      for (final entry in dayContent.feastList.entries.toList()) {
+        if (entry.value.remove(feastName)) {
+          if (entry.value.isEmpty) dayContent.feastList.remove(entry.key);
+          return;
+        }
+      }
+    }
+  }
+
+  /// Moves a feast to an absolute date. If the feast already exists in the
+  /// calendar at a different date, it is removed from the old location first.
+  /// If it does not exist yet, it is simply added at [newDate].
+  void moveItemToDate(String feastName, DateTime newDate, int precedence) {
+    DateTime? oldDate;
+    int? oldPrecedence;
+    int? oldIndex;
+
+    outer:
+    for (final entry in calendarData.entries) {
+      for (final feastEntry in entry.value.feastList.entries) {
+        final list = feastEntry.value;
+        for (int i = 0; i < list.length; i++) {
+          if (list[i] == feastName) {
+            oldDate = entry.key;
+            oldPrecedence = feastEntry.key;
+            oldIndex = i;
+            break outer;
+          }
+        }
+      }
+    }
+
+    if (oldDate != null && oldDate != newDate) {
+      final oldContent = calendarData[oldDate]!;
+      final oldList = oldContent.feastList[oldPrecedence!]!;
+      oldList.removeAt(oldIndex!);
+      if (oldList.isEmpty) oldContent.feastList.remove(oldPrecedence);
+    }
+
+    addItemToDay(newDate, precedence, feastName);
+  }
+
   /// Downgrades obligatory memorials (precedence 10/11) to optional (12)
   /// during privileged liturgical times where memorials are not celebrated.
   void downgradeMemorialsDuringPrivilegedTimes() {

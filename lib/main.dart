@@ -5,7 +5,9 @@ Future<void> main() async {
   Calendar calendar = Calendar(); // Calendar creation
   DateTime date = DateTime(2026, 2, 18);
   String location = 'lyon';
-  calendar = getCalendar(calendar, date, location); // Calendar initialisation
+
+  final data = await LiturgyData.load();
+  calendar = getCalendar(calendar, date, location, data); // Calendar initialisation
 
   String calendarDisplay = calendar.formattedDisplay;
   File('calendar_output.txt').writeAsStringSync(calendarDisplay);

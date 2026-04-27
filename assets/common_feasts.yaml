@@ -1,0 +1,840 @@
+feasts:
+  # --- JANUARY ---
+  basil_the_great_and_gregory_nazianzen_bishops:
+    month: 1
+    day: 2
+    precedence: 10
+  most_holy_name_of_jesus:
+    month: 1
+    day: 3
+    precedence: 12
+  raymond_of_penyafort_priest:
+    month: 1
+    day: 7
+    precedence: 12
+  hilary_of_poitiers_bishop:
+    month: 1
+    day: 13
+    precedence: 12
+  anthony_of_egypt_abbot:
+    month: 1
+    day: 17
+    precedence: 10
+  fabian_i_pope:
+    month: 1
+    day: 20
+    precedence: 12
+  sebastian_of_milan_martyr:
+    month: 1
+    day: 20
+    precedence: 12
+  agnes_of_rome_virgin:
+    month: 1
+    day: 21
+    precedence: 10
+  vincent_of_saragossa_deacon:
+    month: 1
+    day: 22
+    precedence: 12
+  francis_of_sales_bishop:
+    month: 1
+    day: 24
+    precedence: 10
+  conversion_of_saint_paul_the_apostle:
+    month: 1
+    day: 25
+    precedence: 7
+  timothy_of_ephesus_and_titus_of_crete_bishops:
+    month: 1
+    day: 26
+    precedence: 10
+  angela_merici_virgin:
+    month: 1
+    day: 27
+    precedence: 12
+  thomas_aquinas_priest:
+    month: 1
+    day: 28
+    precedence: 10
+  john_bosco_priest:
+    month: 1
+    day: 31
+    precedence: 10
+
+  # --- FEBRUARY ---
+  presentation_of_the_lord:
+    month: 2
+    day: 2
+    precedence: 5
+  blaise_of_sebaste_bishop:
+    month: 2
+    day: 3
+    precedence: 12
+  ansgar_of_hamburg_bishop:
+    month: 2
+    day: 3
+    precedence: 12
+  agatha_of_sicily_virgin:
+    month: 2
+    day: 5
+    precedence: 10
+  paul_miki_and_companions_martyrs:
+    month: 2
+    day: 6
+    precedence: 10
+  jerome_emiliani:
+    month: 2
+    day: 8
+    precedence: 12
+  josephine_bakhita_virgin:
+    month: 2
+    day: 8
+    precedence: 12
+  scholastica_of_nursia_virgin:
+    month: 2
+    day: 10
+    precedence: 10
+  our_lady_of_lourdes:
+    month: 2
+    day: 11
+    precedence: 12
+  cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop:
+    month: 2
+    day: 14
+    precedence: 10
+  seven_holy_founders_of_the_servite_order:
+    month: 2
+    day: 17
+    precedence: 12
+  peter_damian_bishop:
+    month: 2
+    day: 21
+    precedence: 12
+  chair_of_saint_peter_the_apostle:
+    month: 2
+    day: 22
+    precedence: 7
+  polycarp_of_smyrna_bishop:
+    month: 2
+    day: 23
+    precedence: 10
+  gregory_of_narek_abbot:
+    month: 2
+    day: 27
+    precedence: 12
+
+  # --- MARCH ---
+  casimir_of_poland:
+    month: 3
+    day: 4
+    precedence: 12
+  perpetua_of_carthage_and_felicity_of_carthage_martyrs:
+    month: 3
+    day: 7
+    precedence: 10
+  john_of_god_duarte_cidade_religious:
+    month: 3
+    day: 8
+    precedence: 12
+  frances_of_rome_religious:
+    month: 3
+    day: 9
+    precedence: 12
+  patrick_of_ireland_bishop:
+    month: 3
+    day: 17
+    precedence: 12
+  cyril_of_jerusalem_bishop:
+    month: 3
+    day: 18
+    precedence: 12
+  turibius_of_mogrovejo_bishop:
+    month: 3
+    day: 23
+    precedence: 12
+
+  # --- APRIL ---
+  francis_of_paola_hermit:
+    month: 4
+    day: 2
+    precedence: 12
+  isidore_of_seville_bishop:
+    month: 4
+    day: 4
+    precedence: 12
+  vincent_ferrer_priest:
+    month: 4
+    day: 5
+    precedence: 12
+  john_baptist_de_la_salle_priest:
+    month: 4
+    day: 7
+    precedence: 10
+  stanislaus_of_szczepanow_bishop:
+    month: 4
+    day: 11
+    precedence: 10
+  martin_i_pope:
+    month: 4
+    day: 13
+    precedence: 12
+  anselm_of_canterbury_bishop:
+    month: 4
+    day: 21
+    precedence: 12
+  george_of_lydda_martyr:
+    month: 4
+    day: 23
+    precedence: 12
+  adalbert_of_prague_bishop:
+    month: 4
+    day: 23
+    precedence: 12
+  fidelis_of_sigmaringen_priest:
+    month: 4
+    day: 24
+    precedence: 12
+  mark_evangelist:
+    month: 4
+    day: 25
+    precedence: 7
+  peter_chanel_priest:
+    month: 4
+    day: 28
+    precedence: 12
+  louis_grignion_de_montfort_priest:
+    month: 4
+    day: 28
+    precedence: 12
+  catherine_of_siena_virgin:
+    month: 4
+    day: 29
+    precedence: 10
+  pius_v_pope:
+    month: 4
+    day: 30
+    precedence: 12
+
+  # --- MAY ---
+  joseph_the_worker:
+    month: 5
+    day: 1
+    precedence: 12
+  athanasius_of_alexandria_bishop:
+    month: 5
+    day: 2
+    precedence: 10
+  philip_and_james_apostles:
+    month: 5
+    day: 3
+    precedence: 7
+  nereus_of_terracina_and_achilleus_of_terracina_martyrs:
+    month: 5
+    day: 12
+    precedence: 12
+  pancras_of_rome_martyr:
+    month: 5
+    day: 12
+    precedence: 12
+  our_lady_of_fatima:
+    month: 5
+    day: 13
+    precedence: 12
+  matthias_apostle:
+    month: 5
+    day: 14
+    precedence: 7
+  john_i_pope:
+    month: 5
+    day: 18
+    precedence: 12
+  bernardine_of_siena_priest:
+    month: 5
+    day: 20
+    precedence: 12
+  christopher_magallanes_priest_and_companions_martyrs:
+    month: 5
+    day: 21
+    precedence: 12
+  rita_of_cascia_religious:
+    month: 5
+    day: 22
+    precedence: 12
+  bede_the_venerable_priest:
+    month: 5
+    day: 25
+    precedence: 12
+  gregory_vii_pope:
+    month: 5
+    day: 25
+    precedence: 12
+  mary_magdalene_de_pazzi_virgin:
+    month: 5
+    day: 25
+    precedence: 12
+  philip_neri_priest:
+    month: 5
+    day: 26
+    precedence: 10
+  augustine_of_canterbury_bishop:
+    month: 5
+    day: 27
+    precedence: 12
+  paul_vi_pope:
+    month: 5
+    day: 29
+    precedence: 12
+  visitation_of_mary:
+    month: 5
+    day: 31
+    precedence: 7
+
+  # --- JUNE ---
+  justin_martyr:
+    month: 6
+    day: 1
+    precedence: 10
+  marcellinus_of_rome_and_peter_the_exorcist_martyrs:
+    month: 6
+    day: 2
+    precedence: 12
+  charles_lwanga_and_companions_martyrs:
+    month: 6
+    day: 3
+    precedence: 10
+  boniface_of_mainz_bishop:
+    month: 6
+    day: 5
+    precedence: 10
+  norbert_of_xanten_bishop:
+    month: 6
+    day: 6
+    precedence: 12
+  ephrem_the_syrian_deacon:
+    month: 6
+    day: 9
+    precedence: 12
+  barnabas_apostle:
+    month: 6
+    day: 11
+    precedence: 10
+  anthony_of_padua_priest:
+    month: 6
+    day: 13
+    precedence: 10
+  romuald_of_ravenna_abbot:
+    month: 6
+    day: 19
+    precedence: 12
+  aloysius_gonzaga_religious:
+    month: 6
+    day: 21
+    precedence: 10
+  paulinus_of_nola_bishop:
+    month: 6
+    day: 22
+    precedence: 12
+  john_fisher_bishop_and_thomas_more_martyrs:
+    month: 6
+    day: 22
+    precedence: 12
+  cyril_of_alexandria_bishop:
+    month: 6
+    day: 27
+    precedence: 12
+  irenaeus_of_lyon_bishop:
+    month: 6
+    day: 28
+    precedence: 10
+  first_martyrs_of_the_holy_roman_church:
+    month: 6
+    day: 30
+    precedence: 12
+
+  # --- JULY ---
+  thomas_apostle:
+    month: 7
+    day: 3
+    precedence: 7
+  elizabeth_of_portugal:
+    month: 7
+    day: 4
+    precedence: 12
+  anthony_zaccaria_priest:
+    month: 7
+    day: 5
+    precedence: 12
+  maria_goretti_virgin:
+    month: 7
+    day: 6
+    precedence: 12
+  augustine_zhao_rong_priest_and_companions_martyrs:
+    month: 7
+    day: 9
+    precedence: 12
+  benedict_of_nursia_abbot:
+    month: 7
+    day: 11
+    precedence: 10
+  henry_ii_emperor:
+    month: 7
+    day: 13
+    precedence: 12
+  camillus_de_lellis_priest:
+    month: 7
+    day: 14
+    precedence: 12
+  bonaventure_of_bagnoregio_bishop:
+    month: 7
+    day: 15
+    precedence: 10
+  our_lady_of_mount_carmel:
+    month: 7
+    day: 16
+    precedence: 12
+  apollinaris_of_ravenna_bishop:
+    month: 7
+    day: 20
+    precedence: 12
+  lawrence_of_brindisi_priest:
+    month: 7
+    day: 21
+    precedence: 12
+  mary_magdalene:
+    month: 7
+    day: 22
+    precedence: 7
+  bridget_of_sweden_religious:
+    month: 7
+    day: 23
+    precedence: 12
+  sharbel_makhluf_priest:
+    month: 7
+    day: 24
+    precedence: 12
+  james_apostle:
+    month: 7
+    day: 25
+    precedence: 7
+  joachim_and_anne_parents_of_mary:
+    month: 7
+    day: 26
+    precedence: 10
+  martha_of_bethany_mary_of_bethany_and_lazarus_of_bethany:
+    month: 7
+    day: 29
+    precedence: 10
+  peter_chrysologus_bishop:
+    month: 7
+    day: 30
+    precedence: 12
+  ignatius_of_loyola_priest:
+    month: 7
+    day: 31
+    precedence: 10
+
+  # --- AUGUST ---
+  alphonsus_mary_liguori_bishop:
+    month: 8
+    day: 1
+    precedence: 10
+  eusebius_of_vercelli_bishop:
+    month: 8
+    day: 2
+    precedence: 12
+  peter_julian_eymard_priest:
+    month: 8
+    day: 2
+    precedence: 12
+  john_mary_vianney_priest:
+    month: 8
+    day: 4
+    precedence: 10
+  dedication_of_the_basilica_of_saint_mary_major:
+    month: 8
+    day: 5
+    precedence: 12
+  sixtus_ii_pope_and_companions_martyrs:
+    month: 8
+    day: 7
+    precedence: 12
+  cajetan_of_thiene_priest:
+    month: 8
+    day: 7
+    precedence: 12
+  dominic_de_guzman_priest:
+    month: 8
+    day: 8
+    precedence: 10
+  teresa_benedicta_of_the_cross_stein_virgin:
+    month: 8
+    day: 9
+    precedence: 12
+  lawrence_of_rome_deacon:
+    month: 8
+    day: 10
+    precedence: 7
+  clare_of_assisi_virgin:
+    month: 8
+    day: 11
+    precedence: 10
+  jane_frances_de_chantal_religious:
+    month: 8
+    day: 12
+    precedence: 12
+  pontian_i_pope_and_hippolytus_of_rome_priest:
+    month: 8
+    day: 13
+    precedence: 12
+  maximilian_mary_raymund_kolbe_priest:
+    month: 8
+    day: 14
+    precedence: 10
+  stephen_i_of_hungary:
+    month: 8
+    day: 16
+    precedence: 12
+  john_eudes_priest:
+    month: 8
+    day: 19
+    precedence: 12
+  bernard_of_clairvaux_abbot:
+    month: 8
+    day: 20
+    precedence: 10
+  pius_x_pope:
+    month: 8
+    day: 21
+    precedence: 10
+  queenship_of_the_blessed_virgin_mary:
+    month: 8
+    day: 22
+    precedence: 10
+  rose_of_lima_virgin:
+    month: 8
+    day: 23
+    precedence: 12
+  bartholomew_apostle:
+    month: 8
+    day: 24
+    precedence: 7
+  louis_ix_of_france:
+    month: 8
+    day: 25
+    precedence: 12
+  joseph_of_calasanz_priest:
+    month: 8
+    day: 25
+    precedence: 12
+  monica_of_hippo:
+    month: 8
+    day: 27
+    precedence: 10
+  augustine_of_hippo_bishop:
+    month: 8
+    day: 28
+    precedence: 10
+  passion_of_saint_john_the_baptist:
+    month: 8
+    day: 29
+    precedence: 10
+
+  # --- SEPTEMBER ---
+  gregory_i_the_great_pope:
+    month: 9
+    day: 3
+    precedence: 10
+  nativity_of_the_blessed_virgin_mary:
+    month: 9
+    day: 8
+    precedence: 7
+  peter_claver_priest:
+    month: 9
+    day: 9
+    precedence: 12
+  most_holy_name_of_mary:
+    month: 9
+    day: 12
+    precedence: 12
+  john_chrysostom_bishop:
+    month: 9
+    day: 13
+    precedence: 10
+  exaltation_of_the_holy_cross:
+    month: 9
+    day: 14
+    precedence: 5
+  our_lady_of_sorrows:
+    month: 9
+    day: 15
+    precedence: 10
+  cornelius_i_pope_and_cyprian_of_carthage_bishop_martyrs:
+    month: 9
+    day: 16
+    precedence: 10
+  hildegard_of_bingen_abbess:
+    month: 9
+    day: 17
+    precedence: 12
+  robert_bellarmine_bishop:
+    month: 9
+    day: 17
+    precedence: 12
+  januarius_i_of_benevento_bishop:
+    month: 9
+    day: 19
+    precedence: 12
+  andrew_kim_tae_gon_priest_paul_chong_ha_sang_and_companions_martyrs:
+    month: 9
+    day: 20
+    precedence: 10
+  matthew_apostle:
+    month: 9
+    day: 21
+    precedence: 7
+  pius_francesco_forgione_priest:
+    month: 9
+    day: 23
+    precedence: 10
+  cosmas_of_cilicia_and_damian_of_cilicia_martyrs:
+    month: 9
+    day: 26
+    precedence: 12
+  vincent_de_paul_priest:
+    month: 9
+    day: 27
+    precedence: 10
+  wenceslaus_i_of_bohemia_martyr:
+    month: 9
+    day: 28
+    precedence: 12
+  lawrence_ruiz_and_companions_martyrs:
+    month: 9
+    day: 28
+    precedence: 12
+  michael_gabriel_and_raphael_archangels:
+    month: 9
+    day: 29
+    precedence: 7
+  jerome_of_stridon_priest:
+    month: 9
+    day: 30
+    precedence: 10
+
+  # --- OCTOBER ---
+  therese_of_the_child_jesus_and_the_holy_face_of_lisieux_virgin:
+    month: 10
+    day: 1
+    precedence: 10
+  holy_guardian_angels:
+    month: 10
+    day: 2
+    precedence: 10
+  francis_of_assisi:
+    month: 10
+    day: 4
+    precedence: 10
+  faustina_kowalska_virgin:
+    month: 10
+    day: 5
+    precedence: 12
+  bruno_of_cologne_priest:
+    month: 10
+    day: 6
+    precedence: 12
+  our_lady_of_the_rosary:
+    month: 10
+    day: 7
+    precedence: 10
+  denis_of_paris_bishop_and_companions_martyrs:
+    month: 10
+    day: 9
+    precedence: 12
+  john_leonardi_priest:
+    month: 10
+    day: 9
+    precedence: 12
+  john_xxiii_pope:
+    month: 10
+    day: 11
+    precedence: 12
+  callistus_i_pope:
+    month: 10
+    day: 14
+    precedence: 12
+  teresa_of_jesus_of_avila_virgin:
+    month: 10
+    day: 15
+    precedence: 10
+  hedwig_of_silesia_religious:
+    month: 10
+    day: 16
+    precedence: 12
+  margaret_mary_alacoque_virgin:
+    month: 10
+    day: 16
+    precedence: 12
+  ignatius_of_antioch_bishop:
+    month: 10
+    day: 17
+    precedence: 10
+  luke_evangelist:
+    month: 10
+    day: 18
+    precedence: 7
+  john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs:
+    month: 10
+    day: 19
+    precedence: 12
+  paul_of_the_cross_priest:
+    month: 10
+    day: 19
+    precedence: 12
+  john_paul_ii_pope:
+    month: 10
+    day: 22
+    precedence: 12
+  john_of_capistrano_priest:
+    month: 10
+    day: 23
+    precedence: 12
+  anthony_mary_claret_bishop:
+    month: 10
+    day: 24
+    precedence: 12
+  simon_and_jude_apostles:
+    month: 10
+    day: 28
+    precedence: 7
+
+  # --- NOVEMBER ---
+  martin_de_porres_religious:
+    month: 11
+    day: 3
+    precedence: 12
+  charles_borromeo_bishop:
+    month: 11
+    day: 4
+    precedence: 10
+  dedication_of_the_lateran_basilica:
+    month: 11
+    day: 9
+    precedence: 7
+  leo_i_the_great_pope:
+    month: 11
+    day: 10
+    precedence: 10
+  martin_of_tours_bishop:
+    month: 11
+    day: 11
+    precedence: 10
+  josaphat_kuntsevych_bishop:
+    month: 11
+    day: 12
+    precedence: 10
+  albert_the_great_bishop:
+    month: 11
+    day: 15
+    precedence: 12
+  margaret_of_scotland:
+    month: 11
+    day: 16
+    precedence: 12
+  gertrude_the_great_virgin:
+    month: 11
+    day: 16
+    precedence: 12
+  elizabeth_of_hungary_religious:
+    month: 11
+    day: 17
+    precedence: 10
+  dedication_of_the_basilicas_of_saints_peter_and_paul_apostles:
+    month: 11
+    day: 18
+    precedence: 12
+  presentation_of_the_blessed_virgin_mary:
+    month: 11
+    day: 21
+    precedence: 10
+  cecilia_of_rome_virgin:
+    month: 11
+    day: 22
+    precedence: 10
+  clement_i_pope:
+    month: 11
+    day: 23
+    precedence: 12
+  columban_of_luxeuil_abbot:
+    month: 11
+    day: 23
+    precedence: 12
+  andrew_dung_lac_priest_and_companions_martyrs:
+    month: 11
+    day: 24
+    precedence: 10
+  catherine_of_alexandria_virgin:
+    month: 11
+    day: 25
+    precedence: 12
+  andrew_apostle:
+    month: 11
+    day: 30
+    precedence: 7
+
+  # --- DECEMBER ---
+  francis_xavier_priest:
+    month: 12
+    day: 3
+    precedence: 10
+  john_damascene_priest:
+    month: 12
+    day: 4
+    precedence: 12
+  nicholas_of_myra_bishop:
+    month: 12
+    day: 6
+    precedence: 12
+  ambrose_of_milan_bishop:
+    month: 12
+    day: 7
+    precedence: 10
+  juan_diego_cuauhtlatoatzin:
+    month: 12
+    day: 9
+    precedence: 12
+  our_lady_of_loreto:
+    month: 12
+    day: 10
+    precedence: 12
+  damasus_i_pope:
+    month: 12
+    day: 11
+    precedence: 12
+  our_lady_of_guadalupe:
+    month: 12
+    day: 12
+    precedence: 12
+  lucy_of_syracuse_virgin:
+    month: 12
+    day: 13
+    precedence: 10
+  john_of_the_cross_priest:
+    month: 12
+    day: 14
+    precedence: 10
+  peter_canisius_priest:
+    month: 12
+    day: 21
+    precedence: 12
+  john_of_kanty_priest:
+    month: 12
+    day: 23
+    precedence: 12
+  thomas_becket_bishop:
+    month: 12
+    day: 29
+    precedence: 12
+  sylvester_i_pope:
+    month: 12
+    day: 31
+    precedence: 12

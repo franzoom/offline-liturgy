@@ -1,0 +1,20 @@
+language: french
+geography: country
+parent: europe
+frenchName: Luxembourg
+epiphanyDate: day
+ascensionDate: thursday
+
+feasts:
+  luxembourg_willibrord_of_utrecht_bishop:
+    month: 11
+    day: 7
+    precedence: 4
+  luxembourg_kunigunde_of_empress:
+    month: 3
+    day: 3
+    precedence: 12
+  luxembourg_our_lady_consoler_of_the_afflicted:
+    relativeTo: EASTER
+    shift: 14
+    precedence: 4

@@ -1,0 +1,48 @@
+language: french
+geography: country
+parent: europe
+frenchName: France
+epiphanyDate: day
+ascensionDate: thursday
+
+feasts:
+  france_genevieve_of_paris_virgin:
+    month: 1
+    day: 3
+    precedence: 12
+  france_remigius_of_reims_bishop:
+    month: 1
+    day: 15
+    precedence: 12
+  our_lady_of_lourdes:
+    month: 2
+    day: 11
+    precedence: 10
+  france_bernadette_soubirous_virgin:
+    month: 2
+    day: 18
+    precedence: 12
+  france_louise_de_marillac_religious:
+    month: 5
+    day: 9
+    precedence: 12
+  france_ivo_of_kermartin_priest:
+    month: 5
+    day: 19
+    precedence: 12
+  france_joan_of_arc_virgin:
+    month: 5
+    day: 30
+    precedence: 12
+  france_pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs:
+    month: 6
+    day: 2
+    precedence: 12
+  france_clotilde_of_burgundy:
+    month: 6
+    day: 5
+    precedence: 12
+  france_our_lady_of_la_salette:
+    month: 9
+    day: 19
+    precedence: 12

@@ -1,0 +1,36 @@
+language: french
+geography: country
+parent: europe
+frenchName: Suisse
+epiphanyDate: day
+ascensionDate: thursday
+
+feasts:
+  beatus_of_lungern_hermit_switzerland:
+    month: 5
+    day: 8
+    precedence: 12
+  fidelis_of_sigmaringen_priest_martyr_switzerland:
+    month: 4
+    day: 24
+    precedence: 10
+  maurice_of_agaunum_and_companions_martyrs_switzerland:
+    month: 9
+    day: 22
+    precedence: 10
+  nicholas_of_flue_hermit_patron_of_switzerland:
+    month: 9
+    day: 25
+    precedence: 4
+  gall_of_switzerland_abbot:
+    month: 10
+    day: 16
+    precedence: 10
+  charles_borromeo_bishop_switzerland:
+    month: 11
+    day: 4
+    precedence: 10
+  meinherad_of_einsiedeln_martyr_switzerland:
+    month: 1
+    day: 21
+    precedence: 12

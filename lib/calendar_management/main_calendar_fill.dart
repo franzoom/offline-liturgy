@@ -396,9 +396,8 @@ Calendar calendarFill(
   date = date.shift(1);
 
   // --- ORDINARY TIME AFTER PENTECOST ---
-  int ordinaryDaysLeft =
-      liturgicalMainFeasts['CHRIST_KING']!.difference(date).inDays;
-  int ordinaryWeeksLeft = ordinaryDaysLeft ~/ 7;
+  final int ordinaryWeeksLeft =
+      liturgicalMainFeasts['CHRIST_KING']!.difference(date).inDays ~/ 7;
   ordinaryTimeDays = (32 - ordinaryWeeksLeft) * 7 + 1;
 
   while (date.isBefore(liturgicalMainFeasts['CHRIST_KING']!.shift(7))) {
@@ -443,11 +442,11 @@ void _fillFixedSolemnities(
     'CHRIST_KING': 3,
   };
 
-  solemnities.forEach((name, prec) {
-    if (feasts.containsKey(name)) {
-      calendar.addItemToDay(feasts[name]!, prec, name.toLowerCase());
+  for (final MapEntry(:key, :value) in solemnities.entries) {
+    if (feasts.containsKey(key)) {
+      calendar.addItemToDay(feasts[key]!, value, key.toLowerCase());
     }
-  });
+  }
 
   // Annunciation key varies by year: 'annunciation-lent' or 'annunciation-easter'
   final annunciationKey = feasts.keys.firstWhere(

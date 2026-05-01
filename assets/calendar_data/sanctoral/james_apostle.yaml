@@ -1,0 +1,79 @@
+celebration:
+  title: Saint Jacques
+  subtitle: apôtre
+  description: |-
+    Jacques, fils de Zébédée, était le frère de Jean, compagnon de Pierre et d’André. Ces pêcheurs du lac de Génésareth avaient entendu l’appel de Jean Baptiste avant de s’attacher à Jésus, qui en fit ses Apôtres. Jacques fut témoin de la Transfiguration et de l’agonie du Seigneur avec Pierre et Jean. En 43 ou 44, Hérode Agrippa 1^er le fit décapiter.
+  commons:
+    - apostles
+  color: red
+
+oration:
+  - Dieu tout-puissant, puisque saint Jacques fut le premier de tes Apôtres à offrir sa vie pour l’Évangile, accorde à ton Église de trouver dans son témoignage une force, et dans sa protection un appui.
+
+readings:
+  patristicReading:
+    - title: HOMÉLIE DE SAINT JEAN CHRYSOSTOME SUR L’ÉVANGILE DE MATTHIEU
+      content: |-
+        Les fils de Zébédée pressent vivement le Christ par ces paroles : %Ordonne que nous siégions l’un à ta droite et l’autre à ta gauche%. Que répond-il ? Pour leur montrer que leur demande n’a rien de spirituel et que, s’ils avaient su ce qu’ils demandaient, ils n’auraient jamais osé le demander, il leur dit : %Vous ne savez pas ce que vous demandez%, combien c’est grand, combien c’est étonnant, combien cela dépasse même les puissances d’en haut. Puis il ajoute : %Pouvez-vous boire à la coupe que je vais boire, recevoir le baptême dans lequel je vais être plongé ?%~ Il veut dire : « Vous discutez avec moi d’honneurs et de couronnes ; moi je vous parle de combats et de sueurs. Ce n’est pas maintenant le moment des récompenses, et ce n’est pas maintenant que ma gloire va se manifester, mais ce qui est imminent, ce sont les meurtres, les combats et les dangers. »
+        Et voyez de quelle manière il les exhorte et les entraîne à demander ce qu’il faut. Il ne leur dit pas : « Pouvez-vous affronter la mort violente ? Pouvez-vous verser votre sang ? » Mais : %Pouvez-vous boire à la coupe%, et il ajoute pour les attirer : celle %que je vais boire% ? afin qu’ils désirent être en communion avec lui. En outre, il appelle cela un %baptême% pour montrer que ce sera la grande purification du monde entier.
+        Ils répondent : %Nous le pouvons%. Immédiatement, ils font cette promesse dans l’enthousiasme, sans savoir ce qu’ils disent, mais dans l’attente d’obtenir ce qu’ils ont demandé.
+        Jésus réplique : %La coupe que je vais boire, vous y boirez ; et le baptême dans lequel je vais être plongé, vous le recevrez%. Ce sont de grands biens qu’il leur prédisait là. Autrement dit : « Vous mériterez le martyre, et vous souffrirez comme moi ; vous terminerez votre vie par une mort violente et tout cela vous fera communier avec moi.%Quant à siéger à ma droite ou à ma gauche, il ne m’appartient pas de l’accorder ; il y a ceux pour qui ces places sont préparées par mon Père%. » Après avoir relevé leurs esprits, les avoir fait passer à un plan supérieur et leur avoir fait surmonter la tristesse, alors seulement il redresse leur demande. ~
+        %Les dix autres s’indignèrent contre les deux frères%. ~ Vois-tu combien ils étaient tous imparfaits : les deux qui voulaient s’élever aux dépens des dix autres, et ceux-ci qui jalousaient les deux frères ? Mais, comme je l’ai dit, montre-moi ce qu’ils sont devenus ensuite et tu verras qu’ils ont été délivrés de tous ces mauvais sentiments. Tu apprendras donc que ce même saint Jean, celui qui s’est avancé pour cette demande, ménage toujours la première place à Pierre, lorsque celui-ci discourt et fait des miracles, selon les Actes des Apôtres. ~ Quant à saint Jacques, il n’a pas survécu longtemps. Dès le début, il brûlait de ferveur, et dans son mépris extraordinaire des intérêts humains, il s’est élevé à un tel sommet qu’il fut aussitôt mis à mort.
+      responsory: |-
+        R/ Il n’est pas de plus grand amour
+        que de donner sa vie pour ceux qu’on aime.
+
+        Vous serez mes amis,
+        si vous faites ma volonté.
+
+        Moi, le Maître et Seigneur,
+        je vous ai donné l’exemple.
+
+        Heureux serez-vous, sachant cela,
+        si vous donnez votre vie.
+
+morning:
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Jacques et Jean, les fils de Zébédée, réparaient leurs filets, Jésus, les ayant vus, les appela.
+    - psalm: AT_41
+      antiphon:
+        - Aussitôt, ayant tout laissé, ils suivirent Jésus.
+    - psalm: PSALM_149
+      antiphon:
+        - La coupe que je vais boire, vous la boirez ; vous recevrez le baptême dont je serai baptisé !
+  reading:
+    biblicalReference: Ep 2, 19-22
+    content: Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction qui a pour fondations les Apôtres et les prophètes ; et la pierre angulaire, c’est le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments de la construction pour devenir par l’Esprit Saint la demeure de Dieu.
+  responsory: |-
+    R/ Par toute la terre s’en va leur message,
+    * Et la Bonne Nouvelle aux limites du monde.
+    V/ Annoncez à tous les peuples le salut, *
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: Jésus prend avec lui Pierre, Jacques et Jean ; il les emmène sur une haute montagne, et, devant eux, il est transfiguré.
+
+vespers:
+  psalmody:
+    - psalm: PSALM_115
+      antiphon:
+        - Jésus prend avec lui Pierre, Jacques et Jean, il commence à ressentir tristesse et angoisse.
+    - psalm: PSALM_125
+      antiphon:
+        - Veillez et priez pour ne pas entrer en tentation.
+    - psalm: NT_4
+      antiphon:
+        - Hérode, persécuteur de l’Église du Christ, fit décapiter l’Apôtre Jacques.
+  reading:
+    biblicalReference: Ep 4, 11-13
+    content: Les dons que le Christ a faits aux hommes, ce sont d’abord les Apôtres, puis les prophètes et les missionnaires de l’Évangile, et aussi les pasteurs et ceux qui enseignent. De cette manière, le peuple saint est organisé pour que les tâches du ministère soient accomplies, et que se construise le corps du Christ. Au terme, nous parviendrons tous ensemble à l’unité dans la foi et la vraie connaissance du Fils de Dieu, à l’état de l’Homme parfait, à la plénitude de la stature du Christ.
+  responsory: |-
+    R/ Racontez à tous les peuples
+    * la gloire du Seigneur.
+    V/ À toutes les nations ses merveilles, *
+    V/ De jour en jour, proclamez son salut, *
+    Gloire au Père.
+    R/ Racontez
+  evangelicAntiphon:
+    common: Si quelqu’un veut être grand parmi vous, qu’il soit votre serviteur ! Si quelqu’un veut être le premier parmi vous, qu’il soit votre esclave !

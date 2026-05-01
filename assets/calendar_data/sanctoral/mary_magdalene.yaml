@@ -1,0 +1,90 @@
+celebration:
+  title: Sainte Marie Madeleine.
+  description: |-
+    Marie de Magdala, pécheresse pardonnée par Jésus, s’attacha avec amour à son service. Tandis que les Apôtres s’étaient enfuis, elle se trouvait près de la croix du Seigneur avec Marie, Jean et quelques femmes. Jésus voulut récompenser son humble fidélité en se montrant à elle le matin de Pâques et en la chargeant d’annoncer sa résurrection à ses disciples.
+  commons:
+    - saints-female
+  color: white
+
+oration:
+  - Seigneur notre Dieu, c’est à Marie Madeleine que ton Fils bien-aimé a confié la première annonce de la joie pascale ; accorde-nous, à sa prière et à son exemple, la grâce d’annoncer le Christ ressuscité et de le contempler un jour dans ta gloire. Lui qui règne.
+
+readings:
+  hymn:
+    - comment-es-tu-foyer-de-feu
+  patristicReading:
+    - title: HOMÉLIE DE SAINT GRÉGOIRE LE GRAND SUR L’ÉVANGILE DE JEAN
+      content: |-
+        Marie Madeleine, après être venue au tombeau sans y trouver le corps du Seigneur, crut qu’on l’avait enlevé et porta cette nouvelle aux disciples. Une fois venus, ceux-ci constatèrent et ils crurent qu’il en était comme elle l’avait dit. L’Évangile note aussitôt :% Après cela, les disciples rentrèrent chez eux.% Puis il ajoute : %Mais Marie restait là dehors, à pleurer.%
+        À ce sujet, il faut mesurer avec quelle force l’amour avait embrasé l’âme de cette femme qui ne s’éloignait pas du tombeau du Seigneur, même lorsque les disciples l’avaient quitté. Elle recherchait celui qu’elle ne trouvait pas, elle pleurait en le cherchant, et, embrasée par le feu de son amour, elle brûlait du désir de celui qu’elle croyait enlevé. C’est pour cela qu’elle a été la seule à le voir, elle qui était restée pour le chercher, car l’efficacité d’une œuvre bonne tient à la persévérance, et la Vérité dit cette parole : %Celui qui aura persévéré jusqu’à la fin, celui-là sera sauvé.%
+        Elle a donc commencé par chercher, et elle n’a rien trouvé ; elle a persévéré dans sa recherche, et c’est pourquoi elle devait trouver ; ce qui s’est produit, c’est que ses désirs ont grandi à cause de son attente, et en grandissant ils ont pu saisir ce qu’ils avaient trouvé. Car l’attente fait grandir les saints désirs. Si l’attente les fait tomber, ce n’était pas de vrais désirs. C’est d’un tel amour qu’ont brûlé tous ceux qui ont pu atteindre la vérité. Aussi David dit-il : %Mon âme a soif du Dieu vivant : quand pourrai-je parvenir devant la face de Dieu ?% Aussi l’Église dit-elle encore dans le Cantique des cantiques : %Je suis blessée d’amour.% Et plus loin : %Mon âme a défailli.%
+        %Femme, pourquoi pleures-tu ? Qui cherches-tu ?% On lui demande le motif de sa douleur, afin que son désir s’accroisse, et qu’en nommant celui qu’elle cherchait, elle rende plus ardent son amour pour lui.
+        %Jésus lui dit : Marie.% Après qu’il l’eut appelée par le mot banal de « femme », sans être reconnu, il l’appelle par son nom. C’est comme s’il lui disait clairement : « Reconnais celui par qui tu es reconnue. Je ne te connais pas en général, comme les autres, je te connais d’une façon particulière. » Appelée par son nom, Marie reconnaît donc son créateur et elle l’appelle aussitôt %Rabboni, c’est-à-dire maître%, parce que celui qu’elle cherchait extérieurement était celui-là même qui lui enseignait intérieurement à le chercher.
+      responsory: |-
+        R/ Voix de mon Bien-aimé qui frappe à la porte :
+        « Ouvre-moi ! » alléluia !
+
+        Si quelqu’un entend ma voix,
+        ensemble, nous prendrons notre repas,
+        moi près de lui, lui près de moi.
+        
+        Si quelqu’un garde ma parole,
+        mon Père l’aimera,
+        et nous viendrons à lui.
+
+morning:
+  hymn:
+    - un-nouveau-matin-se-leve
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - De grand matin, le premier jour de la semaine, Marie de Magdala se rendit au tombeau.
+    - psalm: AT_41
+      antiphon:
+        - |-
+          Mon cœur est tout brûlant : je cherche mon Seigneur et je ne sais où on l’a mis.
+    - psalm: PSALM_149
+      antiphon:
+        - Toute en pleurs, Marie se penche vers le tombeau et voit deux anges vêtus de blanc, alléluia.
+  reading:
+    biblicalReference: Rm 12, 1-2
+    content: |-
+      Je vous exhorte, mes frères, par la tendresse de Dieu, à lui offrir votre personne et votre vie en sacrifice saint, capable de plaire à Dieu : c’est là pour vous l’adoration véritable. Ne prenez pas pour modèle le monde présent, mais transformez-vous en renouvelant votre façon de penser pour savoir reconnaître quelle est la volonté de Dieu : ce qui est bon, ce qui est capable de lui plaire, ce qui est parfait.
+  responsory: |-
+    R/ Tu es mon Dieu, je te cherche dès l’aube.
+    * Mon âme a soif de toi !
+    V/ Tu es mon Seigneur,
+    tu es le Fils du Dieu vivant. *
+    Gloire au Père.
+    R/ Tu es mon Dieu.
+  evangelicAntiphon:
+    common: Au matin de Pâques, Jésus ressuscité apparut d’abord à Marie Madeleine, alléluia.
+
+vespers:
+  hymn:
+    - mes-larmes-nuit-et-jour
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - |-
+          Jésus dit à Marie de Magdala : Pourquoi pleurer ? Qui cherches-tu ?
+    - psalm: PSALM_126
+      antiphon:
+        - Ils ont enlevé mon Seigneur et je ne sais où ils l’ont mis.
+    - psalm: NT_4
+      antiphon:
+        - |-
+          Marie se retourna vers Jésus qui l’appelait et lui dit : Mon Maître !
+  reading:
+    biblicalReference: Rm 8, 28-30
+    content: Nous le savons, quand les hommes aiment Dieu, lui-même fait tout contribuer à leur bien, puisqu’ils sont appelés selon le dessein de son amour. Ceux qu’il connaissait par avance, il les a aussi destinés à être l’image de son Fils, Pour faire de ce Fils l’aîné d’une multitude de frères. Ceux qu’il destinait à cette ressemblance, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes ; et ceux qu’il a justifiés, il leur a donné sa gloire.
+  responsory: |-
+    R/ Réjouis-toi, Marie !
+    * Christ est ressuscité !
+    V/ Va vers mes frères et dis-leur : *
+    V/ De mes yeux, je l’ai vu,
+    il m’a dit :
+    R/ Réjouis-toi.
+  evangelicAntiphon:
+    common: |-
+      Marie de Magdala vint annoncer aux disciples : J’ai vu le Seigneur. Alléluia, alléluia !

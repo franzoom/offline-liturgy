@@ -11,7 +11,6 @@ oration:
 firstVespers:
   hymn: 
     - puissance-de-ta-misericorde
-    
   psalmody:
     - psalm: PSALM_116
       antiphon:
@@ -53,6 +52,10 @@ firstVespers:
       
       Tu as remis à ton Église les clés du Royaume,
       — ouvre les portes du ciel à tous les hommes qui ont cru à ta tendresse.
+
+invitatory:
+  antiphon:
+    - Seigneur Jésus, roi des apôtres, louange à toi !
 
 morning:
   hymn: 

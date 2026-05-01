@@ -1,0 +1,88 @@
+celebration:
+  title: Saint Thomas
+  subtitle: apôtre
+  description: |-
+    C’est lors de la passion et de la résurrection de Jésus que l’apôtre Thomas révèle sa personnalité. Au dernier repas, sur une remarque un peu vive de Thomas, Jésus déclare : « Je suis le chemin, la vérité, la vie ». L’annonce de la résurrection trouve Thomas incrédule, mais lorsque le Ressuscité lui montre son coté ouvert, il s’écrie : « Mon Seigneur et mon Dieu ».
+  commons:
+    - apostles
+  color: red
+
+oration:
+  - En ce jour où nous célébrons l’Apôtre saint Thomas, accorde-nous, Dieu tout-puissant, de reprendre courage ; fais que nous ayons la vie en comprenant à notre tour que Jésus Christ est Seigneur. Lui qui règne.
+
+readings:
+  patristicReading:
+    - title: HOMÉLIE DE S. GRÉGOIRE LE GRAND SUR L’ÉVANGILE DE JEAN
+      content: |-
+        %Thomas, l’un des douze (dont le nom signifie Jumeau) n’était pas avec eux quand Jésus était venu%. Ce disciple était le seul absent. À son retour, quand on lui raconta ce qui s’était passé, il ne voulut pas le croire. Le Seigneur vint une seconde fois, et il présenta au disciple incrédule son côté à toucher, lui montra ses mains et, en lui montrant les cicatrices de ses blessures, guérit en lui la blessure de l’incrédulité. Que remarquez-vous en tout cela, frères très chers ? Croyez-vous que tout cela se soit produit par hasard ? Que ce disciple choisi ait été d’abord absent ; qu’en arrivant ensuite il entende ce récit ; qu’en l’entendant, il doute ; qu’en doutant, il touche, et qu’en touchant il croie ?
+        Non, cela ne s’est pas produit par hasard, mais selon un plan divin. En effet, la clémence divine agit alors d’une manière admirable pour que ce disciple qui doutait, tandis qu’il touchait les blessures que son maître portait dans la chair, guérisse en nous les blessures de l’incrédulité. En effet l’incrédulité de Thomas a été plus avantageuse pour notre foi que la foi des disciples qui ont cru. Car, tandis que ce disciple, en touchant, est ramené à la foi, notre esprit, en dominant toute hésitation, est confirmé dans la foi ; ~ ce disciple, en doutant et en touchant, est devenu témoin de la réalité de la résurrection. ~
+        Il toucha donc, et il s’écria :%Mon Seigneur et mon Dieu. Jésus lui dit : Parce que tu m’as vu, tu crois%. Or, l’Apôtre Paul a dit : %La foi est la manière de posséder déjà ce qu’on espère, et de connaître des réalités qu’on ne voit pas%. Il est donc bien clair que la foi fait connaître ce qui ne peut pas se voir. Ce qu’on voit, en effet, ne produit pas la foi mais la constatation. Alors que Thomas a vu, lorsqu’il a touché pourquoi lui est-il dit :%Parce que tu m’as vu, tu as cru ?%Mais ce qu’il a cru n’était pas ce qu’il a vu. Car la divinité ne peut être vue par l’homme mortel. C’est donc l’homme qu’il a vu, et c’est Dieu qu’il a reconnu en disant :%Mon Seigneur et mon Dieu%. Il a donc cru tout en voyant, puisqu’en regardant un vrai homme, il a proclamé que celui-ci était Dieu, et cela, il n’avait pas pu le voir.
+        Ce qui suit nous donne de la joie :%Heureux ceux qui croient sans avoir vu ! %Par cette phrase, c’est nous qui sommes spécialement désignés, nous qui nous attachons par l’esprit à celui que nous n’avons pas vu dans la chair. Car celui-là croit véritablement, qui met en pratique, par ses actions, ce qu’il croit. Au contraire, Paul dit de ceux dont la foi est purement nominale :%Ils font profession de connaître Dieu, mais par leurs actes ils le renient%. Et Jacques :%La foi sans les œuvres est morte%.
+      responsory: |-
+        [rubric](Stance)[/rubric]
+        De la détresse des prisons
+        monte le cri des fils de Dieu
+        persécutés ;
+        mais le Royaume est proche :
+        bientôt se lèvera
+        le Fils de l’homme qu’ils acclament :
+
+        R/ Dieu vivant, Seigneur ressuscité,
+        nous croyons en toi, alléluia.
+
+        Un moment vous souffrirez,
+        mais j’ai vaincu le monde,
+        gardez courage.
+
+        En vérité, je vous le dis,
+        si quelqu’un garde ma parole,
+        il ne verra jamais la mort.
+
+        Je suis la résurrection,
+        celui qui me donne sa foi
+        vivra même dans la mort.
+
+morning:
+  hymn: 
+    - le-vivant-sort-du-silence
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Je suis le chemin, la vérité et la vie, nul ne peut aller au Père si ce n’est par moi.
+    - psalm: AT_41
+      antiphon:
+        - |-
+          Les disciples dirent à Thomas : Nous avons vu le Seigneur, alléluia.
+    - psalm: PSALM_149
+      antiphon:
+        - Avance ta main, touche mes blessures et deviens un homme de foi. Alléluia.
+  reading:
+    biblicalReference: Ep 2, 19-22
+    content: Vous n’êtes plus des étrangers ni des gens de passage, vous êtes citoyens du peuple saint, membres de la famille de Dieu, car vous avez été intégrés dans la construction qui a pour fondations les Apôtres et les prophètes ; et la pierre angulaire, c’est le Christ Jésus lui-même. En lui, toute la construction s’élève harmonieusement pour devenir un temple saint dans le Seigneur. En lui, vous êtes, vous aussi, des éléments de la construction pour devenir par l’Esprit Saint la demeure de Dieu.
+  responsory: |-
+    R/ Par toute la terre s’en va leur message
+    * et la Bonne Nouvelle aux limites du monde.
+    V/ Annoncez à tous les peuples le salut
+    * et la Bonne Nouvelle aux limites du monde.
+    Gloire au Père.
+    R/ Par toute la terre.
+  evangelicAntiphon:
+    common: Parce que tu as vu, Thomas, tu as cru ! Bienheureux ceux qui croient sans avoir vu. Alléluia.
+
+vespers:
+  hymn:
+    - le-vivant-sort-du-silence
+  psalmody:
+    - psalm: PSALM_115
+      antiphon:
+        - Je suis le chemin, la vérité et la vie, nul ne peut aller au Père si ce n’est par moi.
+    - psalm: PSALM_125
+      antiphon:
+        - |-
+          Les disciples dirent à Thomas : Nous avons vu le Seigneur, alléluia.
+    - psalm: NT_4
+      antiphon:
+        - Avance ta main, touche mes blessures et deviens un homme de foi. Alléluia.
+  evangelicAntiphon:
+    common: |-
+      J’ai mis les doigts dans la trace des clous. J’ai mis ma main dans son côté, et j’ai dit : Mon Seigneur et mon Dieu. Alléluia.

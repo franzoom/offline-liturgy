@@ -14,13 +14,13 @@ invitatory:
     - Bienheureuse Vierge Marie ! Tu as reçu la Parole de Dieu.
 
 morning:
-  hymn: 
+  hymn:
     - emerveillee-de-la-promesse
   psalmody:
     - psalm: PSALM_62
       antiphon:
         - Marie se rendit en hâte vers le haut-pays, dans une ville de Judée, alléluia.
-    - psalm: AT_41
+    - psalm: OT_41
       antiphon:
         - Quand Élisabeth entendit la salutation de Marie, l’enfant qu’elle portait tressaillit d’allégresse, alléluia.
     - psalm: PSALM_149
@@ -42,25 +42,25 @@ morning:
   intercession:
     content: |-
       Célébrons Jésus, notre Sauveur, qui a voulu naître de la Vierge Marie :
-      
+
       R/Jésus, fils de Marie, exauce-nous !
-      
+
       Soleil de Justice,
       la Vierge te précède comme l’aurore avant le jour :
       — donne-nous de marcher dans ta lumière.
-      
+
       Verbe éternel, tu as choisi pour Mère la Vierge très pure :
       — délivre-nous des liens du péché.
-      
+
       Notre Sauveur,
       tu as voulu que Marie te suive au Calvaire :
       — accorde-nous d’espérer la joie de Pâques.
-      
+
       Fils unique de Dieu, à l’heure où tu t’es offert sur la croix, tu nous as donné Marie pour mère :
       — écoute sa prière quand elle intercède pour nous.
 
 readings:
-  hymn: 
+  hymn:
     - vierge-marie-messagere
   biblicalReading:
     - title: LECTURE DU CANTIQUE DES CANTIQUES
@@ -83,10 +83,10 @@ readings:
         l’amour s’est emparé de toi
         et tu as chanté :
         Mon âme exalte le Seigneur :
-        
+
         R/ Mon âme exalte le Seigneur :
         éternel est son amour.
-        
+
         Chante et réjouis-toi, fille de Sion,
         voici que Dieu vient demeurer au milieu de toi.
 
@@ -110,10 +110,10 @@ readings:
         l’amour s’est emparé de toi
         et tu as chanté :
         Mon âme exalte le Seigneur :
-        
+
         R/ Mon âme exalte le Seigneur :
         éternel est son amour.
-        
+
         Le Seigneur a fait pour moi des merveilles :
         Saint est son nom.
 
@@ -138,7 +138,7 @@ middleOfDay:
       et les méditait dans son cœur, alléluia.
 
 vespers:
-  hymn: 
+  hymn:
     - emerveillee-de-la-promesse
   psalmody:
     - psalm: PSALM_121

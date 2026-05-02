@@ -1,17 +1,10 @@
 import '../../classes/compline_class.dart';
 import '../../classes/office_elements_class.dart';
-import '../../assets/compline/compline_default.dart';
-import '../../assets/compline/compline_paschal_time.dart';
-import '../../assets/compline/compline_lent_time.dart';
-import '../../assets/compline/compline_solemnity_lent_time.dart';
-import '../../assets/compline/compline_solemnity_paschal_time.dart';
-import '../../assets/compline/compline_solemnity_ordinary_time.dart';
-import '../../assets/compline/compline_solemnity_advent_christmas.dart';
-import '../../assets/compline/compline_advent_time.dart';
-import '../../assets/compline/compline_christmas_time.dart';
+import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../assets/usual_texts.dart';
+import 'compline_extract.dart';
 
 /// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
 /// This is called AFTER the user has picked a specific Compline option.
@@ -24,8 +17,8 @@ Future<Compline> complineExport(
     throw Exception("ComplineDefinition is missing a DataLoader");
   }
 
-  // 1. Get the static text structure based on the user's choice
-  final compline = getComplineText(choice);
+  // 1. Get the text structure from YAML files
+  final compline = await getComplineText(choice, dataLoader);
 
   if (compline == null) {
     throw Exception("Could not resolve text for the chosen Compline");
@@ -66,47 +59,53 @@ Future<Compline> complineExport(
 
 // --- TEXT RESOLUTION LOGIC ---
 
-/// Maps a ComplineDefinition to the correct asset files.
-/// This logic is central to linking your detection to your text files.
-Compline? getComplineText(ComplineDefinition def) {
-  final String day = def.dayOfCompline; // 'sunday', 'monday', etc.
+const String _base = 'calendar_data/complines';
+
+/// Loads and merges the correct YAML files for the given ComplineDefinition.
+Future<Compline?> getComplineText(
+    ComplineDefinition def, DataLoader dataLoader) async {
+  final String day = def.dayOfCompline;
   final String time = def.liturgicalTime.toLowerCase();
+  final String ct = def.celebrationType.toLowerCase();
 
-  // Base default structure for fallback
-  final Compline base = defaultCompline[day] ?? defaultCompline['monday']!;
+  // Always load the default base for the requested day
+  final Compline base =
+      await complineExtract('$_base/default.yaml', day, dataLoader);
 
-  // Resolve the specific structure based on the celebration category
-  final Compline? correction = switch (def.celebrationType.toLowerCase()) {
-    // Triduum Special Cases
-    'holy_thursday' => lentTimeCompline['holy_thursday'],
-    'holy_friday' => lentTimeCompline['holy_friday'],
-    'holy_saturday' => lentTimeCompline['holy_saturday'],
-
-    // Solemnities and their Eves
+  // Determine which override file to load and which day key to use within it
+  final (String? path, String overrideDay) = switch (ct) {
+    'holy_thursday' => ('$_base/lent.yaml', 'holy_thursday'),
+    'holy_friday' => ('$_base/lent.yaml', 'holy_friday'),
+    'holy_saturday' => ('$_base/lent.yaml', 'holy_saturday'),
     'solemnity' || 'solemnityeve' => switch (time) {
-        'paschaloctave' || 'paschaltime' => solemnityComplinePaschalTime[day],
-        'lent' => solemnityComplineLentTime[day],
+        'paschaloctave' || 'paschaltime' => ('$_base/solemnity_paschal.yaml', day),
+        'lent' => ('$_base/solemnity_lent.yaml', day),
         'advent' ||
         'christmas' ||
         'christmasoctave' =>
-          solemnityComplineAdventChristmas[day],
-        _ => solemnityComplineOrdinaryTime[day],
+          ('$_base/solemnity_advent_christmas.yaml', day),
+        _ => ('$_base/solemnity_ot.yaml', day),
       },
-
-    // Normal Days (Ferial) and Sundays
     _ => switch (time) {
-        'paschaloctave' || 'paschaltime' => paschalTimeCompline[day],
-        'holyweek' || 'lent' => lentTimeCompline[day],
-        'advent' => adventTimeCompline[day],
-        'christmas' || 'christmasoctave' => christmasTimeCompline[day],
-        _ => base,
+        'paschaloctave' || 'paschaltime' => ('$_base/paschal.yaml', day),
+        'holyweek' || 'lent' => ('$_base/lent.yaml', day),
+        'advent' => ('$_base/advent.yaml', day),
+        'christmas' || 'christmasoctave' => ('$_base/christmas.yaml', day),
+        _ => (null, day),
       },
   };
 
-  if (correction == null) return base;
+  if (path == null) {
+    return base.copyWith(celebrationType: def.celebrationType);
+  }
 
-  // Merge the base structure with the specific liturgical corrections
-  // and ensure the celebrationType is preserved in the final object
+  final Compline correction =
+      await complineExtract(path, overrideDay, dataLoader);
+
+  if (correction.isEmpty) {
+    return base.copyWith(celebrationType: def.celebrationType);
+  }
+
   return base.mergeWith(correction).copyWith(
         celebrationType: def.celebrationType,
       );

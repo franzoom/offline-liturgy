@@ -1,0 +1,201 @@
+celebration:
+  title: Assomption de la Vierge Marie
+  description: |-
+    « Au terme de sa vie terrestre l’Immaculée Mère de Dieu a été élevée en son corps et en son âme à la gloire du ciel. » C’est en ces termes que le pape Pie XII a défini la foi catholique relative à l’assomption de Marie (1950). Découlant de sa maternité divine, l’assomption de Marie est pour toute l’humanité un gage d’espérance, une promesse de résurrection.
+  commons:
+    - virgin-mary
+  color: white
+
+oration:
+  - |-
+    Dieu éternel et tout-puissant, tu as fait monter jusqu’à la gloire du ciel, avec son âme et son corps, Marie, la Vierge immaculée, mère de ton Fils : fais que nous demeurions attentifs aux choses d’en haut pour obtenir de partager sa gloire.
+
+firstVespers:
+  hymn:
+    - je-vis-la-nouvelle-jerusalem
+  psalmody:
+    - psalm: PSALM_112
+      antiphon:
+        - Le Christ est monté au ciel, il a préparé pour sa mère une demeure éternelle, alléluia.
+    - psalm: PSALM_147
+      antiphon:
+        - À cause d’Ève, l’ange ferma la porte du Paradis ; grâce à Marie, s’est ouverte pour nous la porte de la vie, alléluia.
+    - psalm: NT_4
+      antiphon:
+        - Vierge Marie, Dieu fait pour toi des merveilles !
+  reading:
+    biblicalReference: Rm 8, 30
+    content: Ceux que Dieu destinait à la ressemblance de son Fils, il les a aussi appelés ; ceux qu’il a appelés, il en a fait des justes ; et ceux qu’il a justifiés, il leur a donné la gloire.
+  responsory: |-
+    R/ Réjouis-toi, Vierge Marie,
+    * Dans la gloire du ciel.
+    V/ Heureuse es-tu, Mère de Dieu :
+    en toi le Tout-Puissant a fait des merveilles. *
+    V/ Heureuse es-tu, Mère de l’Église :
+    tu brilles comme un signe d’espérance. *
+    V/ Heureuse es-tu, Mère des hommes :
+    tu leur annonces le Royaume à venir. *
+    R/ Réjouis-toi.
+  evangelicAntiphon:
+    common: |-
+      Exaltons le Seigneur : il s’est penché sur son humble servante pour l’élever dans la gloire du ciel, alléluia.
+
+invitatory:
+  common: |-
+    Venez, adorons le Roi des rois : aujourd’hui la Vierge sa mère est élevée dans les cieux.
+
+readings:
+  hymn:
+    - une-femme-dont-on-n-a-rien-dit
+  psalmody:
+    - psalm: PSALM_23
+      antiphon:
+        - Élève-toi, Marie, reine du ciel, entre dans la demeure illuminée du Roi de gloire.
+    - psalm: PSALM_45
+      antiphon:
+        - Chante ta joie, Jérusalem, car tu es la maison du Seigneur.
+    - psalm: PSALM_86
+      antiphon:
+        - On raconte ce qui fait ta gloire, Vierge Marie.
+  verse: |-
+    V/ Bienheureuse Marie, tu as cru,
+    la parole s’est accomplie en toi.
+  biblicalReading:
+    - title: LECTURE DE L’ÉPÎTRE AUX ÉPHÉSIENS
+      subtitle: En Jésus-Christ, nous sommes passés de la mort à la vie
+      ref: Ep 1, 16 – 2, 10
+      content: |-
+        Je ne cesse pas de rendre grâce, quand je fais mémoire de vous dans mes prières : que le Dieu de notre Seigneur Jésus Christ, le Père dans sa gloire, vous donne un esprit de sagesse qui vous le révèle et vous le fasse vraiment connaître. Qu’il ouvre à sa lumière les yeux de votre cœur, pour que vous sachiez quelle espérance vous ouvre son appel, la gloire sans prix de l’héritage que vous partagez avec les fidèles, et quelle puissance incomparable il déploie pour nous, les croyants : c’est l’énergie, la force, la vigueur qu’il a mise en œuvre dans le Christ quand il l’a ressuscité d’entre les morts et qu’il l’a fait asseoir à sa droite dans les cieux. Il l’a établi au-dessus de tout être céleste : Principauté, Souveraineté, Puissance et Domination, au-dessus de tout nom que l’on puisse nommer, non seulement dans le monde présent mais aussi dans le monde à venir. Il a tout mis sous ses pieds et, le plaçant plus haut que tout, il a fait de lui la tête de l’Église qui est son corps, et l’Église, c’est l’accomplissement total du Christ, lui que Dieu comble totalement de sa plénitude.
+        Et vous, vous étiez des morts, par suite des fautes et des péchés qui marquaient autrefois votre conduite, soumise aux forces mauvaises de ce monde, au prince du mal qui s’interpose entre le ciel et nous, et dont le souffle est maintenant à l’œuvre en ceux qui désobéissent à Dieu. Et nous aussi, nous étions tous de ceux-là, quand nous vivions suivant les convoitises de notre chair, cédant aux caprices de la chair et des pensées, nous qui étions, de par nous-mêmes, voués à la colère comme tous les autres.
+        Mais Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts par suite de nos fautes, il nous a donné la vie avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités et il nous a fait siéger aux cieux, dans le Christ Jésus. Il a voulu ainsi montrer, au long des âges futurs, la richesse surabondante de sa grâce, par sa bonté pour nous dans le Christ Jésus. C’est bien par la grâce que vous êtes sauvés, et par le moyen de la foi. Cela ne vient pas de vous, c’est le don de Dieu. Cela ne vient pas des actes : personne ne peut en tirer orgueil. C’est Dieu qui nous a faits, il nous a créés dans le Christ Jésus, en vue de la réalisation d’œuvres bonnes qu’il a préparées d’avance pour que nous les pratiquions.
+      responsory: |-
+        R/ Vierge Marie,
+        tu as trouvé la joie :
+        elle est notre avenir !
+
+        Tu es belle, ô Marie,
+        pur reflet du cœur de Dieu.
+
+        Ton amour a triomphé de la mort,
+        le Christ est ta victoire.
+
+        Le Père t’appelle par ton nom
+        et les anges s’émerveillent.
+
+        Ton regard transfiguré
+        découvre les profondeurs de l’Infini.
+
+        L’Esprit te donne pour Mère
+        à tous ceux qu’il fait naître d’en haut.
+  patristicReading:
+    - title: CONSTITUTION APOSTOLIQUE DE PIE XII SUR L’ASSOMPTION (1950)
+      content: |-
+        Les Pères de l’Église et les grands docteurs, dans les homélies et les discours qu’ils ont adressés au peuple pour la fête de l’Assomption, en ont parlé comme d’une vérité déjà connue et admise par les fidèles. Ils l’ont expliquée plus clairement, ils en ont approfondi la signification et la portée. Surtout, ils ont mieux mis en lumière ce que les textes liturgiques n’avaient que brièvement indiqué : cette fête ne rappelle pas seulement que le corps inanimé de la Vierge Marie n’a subi aucune corruption, mais aussi qu’elle a triomphé de la mort et qu’elle a été glorifiée dans le ciel, à l’exemple de son Fils unique Jésus Christ.
+        Ainsi saint Jean Damascène, qui est le plus remarquable prédicateur de cette vérité traditionnelle, compare l’Assomption corporelle de la Mère de Dieu à ses autres dons et privilèges ; il déclare éloquemment : « Elle qui avait gardé sa virginité intacte dans l’enfantement, il fallait qu’elle garde son corps, même après la mort, exempt de toute corruption. Elle qui avait porté le Créateur dans son sein comme son enfant, il fallait qu’elle aille faire son séjour dans la lumière divine. Cette épouse que le Père s’était unie, il fallait qu’elle habite la chambre nuptiale.
+        Elle qui avait contemplé son Fils cloué à la croix et qui avait reçu dans son cœur le glaive de douleur qui lui avait été épargné dans l’enfantement, il fallait qu’elle le contemple trônant avec le Père. Il fallait que la Mère de Dieu possède ce qui appartenait à son Fils, et qu’elle soit honorée par toutes les créatures comme la Mère de Dieu et sa servante. » ~
+        Pour saint Germain de Constantinople, si le corps de la Vierge Mère de Dieu avait été préservé de la corruption et transféré au ciel, cela ne s’accordait pas seulement à sa maternité divine, mais encore à la sainteté particulière de son corps virginal. « Selon l’Écriture, dit-il, tu apparais dans la beauté ; ton corps virginal est tout entier chaste et saint ; il est tout entier la demeure de Dieu. Aussi doit-il, par la suite, être totalement affranchi du retour à la poussière. Mais, parce qu’il est humain, il doit être transformé pour accéder à la vie sublime de l’incorruptibilité. Toutefois, c’est le même corps qui est vivant, souverainement glorieux, intact et doté d’une vie parfaite. »
+        Un autre écrivain très ancien avait affirmé : « Puisqu’elle est la Mère très glorieuse du Christ, notre divin Sauveur, lui qui donne la vie et l’immortalité, elle est vivifiée par lui, elle partage pour l’éternité l’incorruptibilité de son corps. Il l’a fait sortir du tombeau et l’a élevée auprès de lui, d’une manière connue de lui seul. » ~
+        Tous ces raisonnements et ces considérations des Pères s’appuient sur la Sainte Écriture comme sur leur ultime fondement. Celle-ci met en quelque sorte devant nos yeux la Mère de Dieu comme intimement unie à son Fils divin partageant toujours sa destinée. ~
+        Il faut surtout se rappeler que, dès le deuxième siècle, les Pères nous présentent la Vierge Marie comme la nouvelle Ève, soumise au nouvel Adam, mais très étroitement unie à lui dans le combat contre l’ennemi infernal. Ce combat, tel qu’il est prédit dans le Protévangile (Gn 3, 15), devait aboutir à la victoire totale sur le péché et sur la mort, qui sont toujours rattachés l’un à l’autre dans les écrits de saint Paul. Par conséquent, puisque la résurrection glorieuse du Christ fut l’acte essentiel et le trophée ultime de cette victoire, le combat livré par la Vierge Marie et son Fils devait trouver sa conclusion dans la glorification de son corps virginal. Comme dit encore l’Apôtre : %Lorsque ce qui est mortel en nous revêtira l’immortalité, alors se réalisera la parole de l’Écriture : La mort a été engloutie dans la victoire%.
+        Ainsi la Mère de Dieu, unie à Jésus Christ d’une manière mystérieuse, « dans un seul et même décret » de prédestination, immaculée dans sa conception, parfaitement vierge dans sa maternité divine, généreuse collaboratrice du Rédempteur, a remporté un triomphe total sur le péché et ses conséquences. Pour finir, elle a obtenu, comme couronnement suprême de ses privilèges, d’être préservée de la corruption du tombeau. À la suite de son Fils, après avoir vaincu la mort, elle a obtenu d’être élevée, corps et âme, à la gloire suprême du ciel, pour y resplendir, en qualité de Reine, à la droite de son Fils, %le Roi immortel des siècles.%
+      responsory: |-
+        R/ Lève-toi, ma bien-aimée.
+
+        Le Christ près de lui te prépare une place, ô Marie ;
+        plein d’amour, il s’approche et t’appelle.
+
+        L’hiver est passé, les fleurs ont apparu,
+        voici le grand soleil de l’été sans déclin.
+
+        L’heure est venue pour toi
+        de passer de ce monde au Père,
+        dans ta petitesse, tu trouves grâce devant lui.
+
+        Lève-toi, ma bien-aimée,
+        lève-toi, ma préférée, viens !
+
+morning:
+  hymn:
+    - elle-est-benie-de-dieu
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Sainte Vierge Marie, par toi le salut est entré dans le monde. Réjouis-toi près du Seigneur.
+    - psalm: AT_41
+      antiphon:
+        - La Vierge Marie est élevée au-dessus des anges. Réjouissons-nous. Bénissons le Seigneur.
+    - psalm: PSALM_149
+      antiphon:
+        - |-
+          Le Seigneur a magnifié ton nom : tous les anges diront ta louange.
+  reading:
+    biblicalReference: Is 61, 10
+    content: Je tressaille de joie dans le Seigneur, mon âme exulte en mon Dieu. Car il m’a enveloppée du manteau de l’innocence, il m’a fait revêtir les vêtements du salut, comme une mariée met ses bijoux.
+  responsory: |-
+    R/ Comme une fiancée parée pour son époux,
+    * elle resplendit de la gloire de Dieu.
+    V/ Sa source de lumière est l’Agneau. *
+    Gloire au Père.
+    R/ Comme une fiancée.
+  evangelicAntiphon:
+    common: Tu es belle et radieuse, fille de Sion, tu surgis comme l’aurore.
+
+
+middleOfDay:
+  tierce:
+    antiphon: Heureuse Mère de Dieu ! Tu es pareille au cèdre du Liban, au cyprès sur la montagne de Sion.
+    reading:
+      biblicalReference: 2Co 5, 1
+      content: Nous le savons, le corps, qui est notre demeure sur la terre, doit être détruit, mais Dieu construit pour nous dans les cieux une demeure éternelle qui n’est pas l’œuvre des hommes.
+    responsory: |-
+      V/ Marie partage aujourd’hui le triomphe du Christ ;
+      elle règne avec lui pour toujours.
+  sexte:
+    antiphon: |-
+      Louange à toi, Marie, reine du ciel : de toi nous est venu le Soleil de justice.
+    reading:
+      biblicalReference: Ap 12, 1
+      content: |-
+        Un signe grandiose apparut dans le ciel : une Femme, ayant le soleil pour manteau, la lune sous les pieds, et sur la tête une couronne de douze étoiles.
+    responsory: |-
+      V/ La Mère de Dieu est entrée dans la gloire du ciel :
+      la voici élevée bien au-dessus des anges.
+  none:
+    antiphon: La sainte Mère de Dieu est élevée au-dessus des anges.
+    reading:
+      biblicalReference: 2Co 5, 1
+      content: Nous le savons, le corps, qui est notre demeure sur la terre, doit être détruit, mais Dieu construit pour nous dans les cieux une demeure éternelle qui n’est pas l’œuvre des hommes.
+    responsory: |-
+      V/ Marie partage aujourd’hui le triomphe du Christ ;
+      elle règne avec lui pour toujours.
+
+vespers:
+  hymn:
+    - pleine-de-grace-rejouis-toi
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - La Vierge Marie est élevée au ciel ; tous les anges bénissent le Seigneur.
+    - psalm: PSALM_126
+      antiphon:
+        - Elle resplendit de la gloire de Dieu, elle a l’éclat d’une pierre précieuse.
+    - psalm: NT_4
+      antiphon:
+        - Tu es bénie du Seigneur, toi qui nous as donné le fruit de la vie.
+  reading:
+    biblicalReference: 1Co 15, 22-23
+    content: |-
+      C’est en Adam que meurent tous les hommes ; c’est dans le Christ que tous revivront, mais chacun à son rang : en premier, le Christ ; et ensuite ceux qui seront au Christ.
+  responsory: |-
+    R/ Réjouis-toi, Vierge Marie,
+    * Dans la gloire du ciel.
+    V/ Heureuse es-tu, Mère de Dieu :
+    en toi le Tout-Puissant a fait des merveilles. *
+    V/ Heureuse es-tu, Mère de l’Église :
+    tu brilles comme un signe d’espérance. *
+    V/ Heureuse es-tu, Mère des hommes :
+    tu leur annonces le Royaume à venir. *
+    R/ Réjouis-toi.
+  evangelicAntiphon:
+    common: |-
+      Aujourd’hui, la Vierge Marie est montée au ciel. Soyez dans l’allégresse : avec le Christ elle règne à jamais.

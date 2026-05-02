@@ -32,6 +32,26 @@ class Compline {
     this.marialHymnRef,
   });
 
+  factory Compline.fromJson(Map<String, dynamic> data) {
+    return Compline(
+      commentary: data['commentary']?.toString(),
+      hymns: (data['hymns'] as List?)?.map((e) => HymnEntry.fromJson(e)).toList(),
+      psalmody: (data['psalmody'] as List?)
+          ?.whereType<Map<String, dynamic>>()
+          .map((e) => PsalmEntry.fromJson(e))
+          .toList(),
+      reading: data['reading'] is Map<String, dynamic>
+          ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
+          : null,
+      responsory: data['responsory']?.toString(),
+      evangelicAntiphon: data['evangelicAntiphon'] is Map<String, dynamic>
+          ? EvangelicAntiphon.fromJson(
+              data['evangelicAntiphon'] as Map<String, dynamic>)
+          : null,
+      oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
+    );
+  }
+
   /// Merges another Compline onto this one (non-null fields from other take precedence)
   Compline mergeWith(Compline other) {
     return copyWith(

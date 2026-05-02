@@ -461,11 +461,12 @@ void _fillFixedSolemnities(
       feasts['saint_pieter_and_saint_paul']!, 4, 'saint_pieter_and_saint_paul');
   calendar.addItemToDay(
       feasts['saint_john_the_baptist']!, 4, 'saint_john_the_baptist');
+  calendar.addItemToDay(DateTime(year, 8, 6), 3, 'transfiguration_of_the_lord');
+  calendar.addItemToDay(
+      DateTime(year, 8, 15), 3, 'assumption_of_the_blessed_virgin_mary');
   calendar.addItemToDay(DateTime(year, 11, 1), 3, 'all_saints');
   calendar.addItemToDay(
       DateTime(year, 11, 2), 3, 'commemoration_of_all_the_faithful_departed');
-  calendar.addItemToDay(
-      DateTime(year, 8, 15), 3, 'assumption_of_the_blessed_virgin_mary');
 
   // Specific removals and relations
   calendar.removeCelebrationFromDay(feasts['CHRIST_KING']!, 'OT_34_0');

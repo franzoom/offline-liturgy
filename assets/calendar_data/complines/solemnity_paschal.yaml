@@ -1,0 +1,41 @@
+marialHymns:
+  - o-vierge-marie-quelle-joie
+  - reine-du-ciel-rejouis-toi
+  - regina-caeli
+
+saturday:
+  psalmody:
+    - psalm: PSALM_4
+      antiphon:
+        - Dans la paix, je reposerai.
+    - psalm: PSALM_133
+      antiphon:
+        - Dans la paix, je reposerai.
+  responsory: |-
+    R/ En tes mains, Seigneur, je remets mon esprit.
+    * Alléluia, alléluia.
+    V/ Tu es le Dieu fidèle qui garde son Alliance.
+    * Alléluia, alléluia.
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.
+  oration:
+    - |-
+      Dieu du ciel et de la terre, nous levons les mains vers toi pour te bénir, car tu nous as bénis en ton Fils bien-aimé. Dans la nuit que tu nous donnes pour unir notre prière à la sienne, nous te supplions de nous bénir encore. Par Jésus le Christ, notre Seigneur. Amen.
+
+sunday:
+  psalmody:
+    - psalm: PSALM_90
+      antiphon:
+        - Dieu puissant, mon rempart et ma foi !
+  responsory: |-
+    R/ En tes mains, Seigneur, je remets mon esprit.
+    * Alléluia, alléluia.
+    V/ Sur ton serviteur que s'illumine ta face.
+    * Alléluia, alléluia.
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. Alléluia.
+  oration:
+    - |-
+      Nous t'en supplions, Seigneur, visite cette maison, et repousse loin d'elle toutes les embûches de l'ennemi ; que tes saints anges viennent l'habiter pour nous garder dans la paix; et que ta bénédiction demeure à jamais sur nous. Par le Christ notre Seigneur. Amen.

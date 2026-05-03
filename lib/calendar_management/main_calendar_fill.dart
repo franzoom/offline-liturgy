@@ -434,7 +434,6 @@ void _fillFixedSolemnities(
     Calendar calendar, Map<String, DateTime> feasts, int year) {
   final solemnities = {
     'IMMACULATE_CONCEPTION': 3,
-    'ASCENSION': 3,
     'SAINT_JOSEPH': 4,
     'HOLY_TRINITY': 3,
     'CORPUS_DOMINI': 3,

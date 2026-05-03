@@ -70,9 +70,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     return possibleComplines;
   }
 
-  // 1. Detect celebrations
-  final rawTodayCelebrations =
-      await detectCelebrations(calendar, date, dataLoader);
+  // 1. Detect celebrations (today and tomorrow in parallel)
+  final tomorrow = date.shift(1);
+  final [rawTodayCelebrations, tomorrowCelebrations] = await Future.wait([
+    detectCelebrations(calendar, date, dataLoader),
+    detectCelebrations(calendar, tomorrow, dataLoader),
+  ]);
 
   // --- Special case: Holy Friday and Holy Saturday have their own Compline, no other option ---
   const triduumComplineCodes = {'holy_friday', 'holy_saturday'};
@@ -100,10 +103,6 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     return possibleComplines;
   }
 
-  final tomorrow = date.shift(1);
-  final tomorrowCelebrations =
-      await detectCelebrations(calendar, tomorrow, dataLoader);
-
   // 2. Precedence Filter (Today): If any celebration is <= 4, remove all those > 4
   final bool todayHasSolemnity =
       rawTodayCelebrations.any((c) => (c.precedence ?? 13) <= 4);
@@ -121,15 +120,13 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         _detectCelebrationType(precedence, c.celebrationCode);
     final dayOfCompline = _detectDayOfWeek(date, celebrationType);
 
-    final description = switch (celebrationType) {
-      _ when ferialDayCheck(c.celebrationCode) => [
-          'Complies du ${dayOfWeekLabels[todayName]}',
-          if (liturgicalTimeLabelsDative[liturgicalTime] != null)
-            liturgicalTimeLabelsDative[liturgicalTime]!,
-        ].join(' '),
-      'solemnity' => 'Complies de ${c.celebrationGlobalName}',
-      _ => 'Complies du ${dayOfWeekLabels[todayName]}',
-    };
+    final description = celebrationType == 'solemnity'
+        ? 'Complies de ${c.celebrationGlobalName}'
+        : [
+            'Complies du ${dayOfWeekLabels[todayName]}',
+            if (liturgicalTimeLabelsDative[liturgicalTime] != null)
+              liturgicalTimeLabelsDative[liturgicalTime]!,
+          ].join(' ');
 
     possibleComplines[description] = ComplineDefinition(
       complineDescription: description,
@@ -149,39 +146,40 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 4. Process tomorrow's celebrations for eve Complines
   // No eve compline when tomorrow is a Holy Week Triduum day
   // No eve compline for ferial days (even high-precedence ones like Ash Wednesday)
-  final bool tomorrowIsHolyWeek = tomorrowCelebrations
-      .any((c) => holyWeekCodes.contains(c.celebrationCode));
+  final bool tomorrowIsHolyWeek =
+      tomorrowCelebrations.any((c) => holyWeekCodes.contains(c.celebrationCode));
   final bool isTomorrowSunday = tomorrow.weekday == DateTime.sunday;
   bool tomorrowHasSolemnity = false;
 
-  for (final c in tomorrowCelebrations) {
-    if (tomorrowIsHolyWeek) break;
-    if (ferialDayCheck(c.celebrationCode)) continue;
-    final int precedence = c.precedence ?? 13;
-    final bool isTomorrowSolemnity = precedence <= 4;
-    final bool needsEveCompline = isTomorrowSolemnity || isTomorrowSunday;
+  if (!tomorrowIsHolyWeek) {
+    for (final c in tomorrowCelebrations) {
+      if (ferialDayCheck(c.celebrationCode)) continue;
+      final int precedence = c.precedence ?? 13;
+      final bool isTomorrowSolemnity = precedence <= 4;
+      final bool needsEveCompline = isTomorrowSolemnity || isTomorrowSunday;
 
-    if (needsEveCompline) {
-      if (isTomorrowSolemnity) tomorrowHasSolemnity = true;
+      if (needsEveCompline) {
+        if (isTomorrowSolemnity) tomorrowHasSolemnity = true;
 
-      final String eveDescription =
-          'Complies de la veille de ${c.celebrationGlobalName}';
-      final String eveCelebrationType =
-          isTomorrowSolemnity ? 'solemnityeve' : 'normal';
+        final String eveDescription =
+            'Complies de la veille de ${c.celebrationGlobalName}';
+        final String eveCelebrationType =
+            isTomorrowSolemnity ? 'solemnityeve' : 'normal';
 
-      possibleComplines[eveDescription] = ComplineDefinition(
-        complineDescription: eveDescription,
-        celebrationCode: c.celebrationCode,
-        ferialCode: c.ferialCode ?? '',
-        liturgicalTime: liturgicalTime,
-        precedence: precedence,
-        liturgicalColor: c.liturgicalColor ?? 'green',
-        isCelebrable: true,
-        dayOfCompline: 'saturday',
-        celebrationType: eveCelebrationType,
-        isEveCompline: true,
-        dataLoader: dataLoader,
-      );
+        possibleComplines[eveDescription] = ComplineDefinition(
+          complineDescription: eveDescription,
+          celebrationCode: c.celebrationCode,
+          ferialCode: c.ferialCode ?? '',
+          liturgicalTime: liturgicalTime,
+          precedence: precedence,
+          liturgicalColor: c.liturgicalColor ?? 'green',
+          isCelebrable: true,
+          dayOfCompline: 'saturday',
+          celebrationType: eveCelebrationType,
+          isEveCompline: true,
+          dataLoader: dataLoader,
+        );
+      }
     }
   }
 
@@ -202,6 +200,5 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       return a.value.precedence.compareTo(b.value.precedence);
     });
 
-  final sortie = Map.fromEntries(sortedEntries);
-  return sortie;
+  return Map.fromEntries(sortedEntries);
 }

@@ -24,25 +24,24 @@ Future<Compline> complineExport(
     throw Exception("Could not resolve text for the chosen Compline");
   }
 
-  // 2. Hydrate dynamic content (psalms, hymns) from data source
-  await resolveOfficeContent(
-    psalmody: compline.psalmody,
-    hymns: compline.hymns,
-    dataLoader: dataLoader,
-  );
-
-  // 3. Hydrate Marian hymns
-  if (compline.marialHymnRef != null) {
-    await resolveOfficeContent(
-      hymns: compline.marialHymnRef,
+  // 2. Hydrate dynamic content (psalms, hymns, Marian hymns) in parallel
+  await Future.wait([
+    resolveOfficeContent(
+      psalmody: compline.psalmody,
+      hymns: compline.hymns,
       dataLoader: dataLoader,
-    );
-  }
+    ),
+    if (compline.marialHymnRef != null)
+      resolveOfficeContent(
+        hymns: compline.marialHymnRef,
+        dataLoader: dataLoader,
+      ),
+  ]);
 
-  // 4. Assign the evangelic canticle (Nunc Dimittis)
+  // 3. Assign the evangelic canticle (Nunc Dimittis)
   compline.evangelicCanticle = nuncDimittis;
 
-  // 5. Apply paschal alléluia to evangelic antiphon
+  // 4. Apply paschal alléluia to evangelic antiphon
   final lt = choice.liturgicalTime;
   final ea = compline.evangelicAntiphon;
   if (ea != null) {
@@ -74,9 +73,7 @@ Future<Compline?> getComplineText(
 
   // Determine which override file to load and which day key to use within it
   final (String? path, String overrideDay) = switch (ct) {
-    'holy_thursday' => ('$_base/lent.yaml', 'holy_thursday'),
-    'holy_friday' => ('$_base/lent.yaml', 'holy_friday'),
-    'holy_saturday' => ('$_base/lent.yaml', 'holy_saturday'),
+    'holy_thursday' || 'holy_friday' || 'holy_saturday' => ('$_base/lent.yaml', ct),
     'solemnity' || 'solemnityeve' => switch (time) {
         'paschaloctave' || 'paschaltime' => ('$_base/solemnity_paschal.yaml', day),
         'lent' => ('$_base/solemnity_lent.yaml', day),
@@ -102,11 +99,6 @@ Future<Compline?> getComplineText(
   final Compline correction =
       await complineExtract(path, overrideDay, dataLoader);
 
-  if (correction.isEmpty) {
-    return base.copyWith(celebrationType: def.celebrationType);
-  }
-
-  return base.mergeWith(correction).copyWith(
-        celebrationType: def.celebrationType,
-      );
+  final result = correction.isEmpty ? base : base.mergeWith(correction);
+  return result.copyWith(celebrationType: def.celebrationType);
 }

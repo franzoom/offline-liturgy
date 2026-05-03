@@ -42,6 +42,14 @@ Calendar calendarFill(
 
   Map<String, DateTime> liturgicalMainFeasts =
       createLiturgicalDays(liturgicalYear);
+
+  final bool ascensionOnSunday =
+      getAscensionDate(location, data.locationData) == 'sunday';
+  if (ascensionOnSunday) {
+    final easterDay = liturgicalMainFeasts['ASCENSION']!.shift(-39);
+    liturgicalMainFeasts['ASCENSION'] = easterDay.shift(42);
+  }
+
   String defaultCelebrationTitle = "";
   int precedence = 0;
 
@@ -333,11 +341,13 @@ Calendar calendarFill(
 
   while (date.isBefore(liturgicalMainFeasts['ASCENSION']!)) {
     precedence = date.isSunday ? 2 : 13;
+    final bool beforeAscensionSunday = ascensionOnSunday && paschalTimeDays >= 39;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaltime',
-      defaultCelebrationTitle:
-          'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}',
+      defaultCelebrationTitle: beforeAscensionSunday
+          ? 'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}_before_ascension'
+          : 'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}',
       precedence: precedence,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,

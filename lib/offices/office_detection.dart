@@ -1,3 +1,4 @@
+import 'dart:math' show min;
 import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/office_elements_class.dart';
@@ -235,7 +236,9 @@ Future<List<CelebrationContext>> detectCelebrations(
     final int precedence = celebration.precedence;
 
     // Determine isCelebrable based on precedence rules
-    final bool isCelebrable = hasHighPriority ? (precedence <= 7) : true;
+    final int bestPrecedence =
+        allCelebrations.map((c) => c.precedence).reduce(min);
+    final bool isCelebrable = hasHighPriority ? (precedence <= bestPrecedence) : true;
 
     // Initialize with default values
     String celebrationLiturgicalColor = rootColor;

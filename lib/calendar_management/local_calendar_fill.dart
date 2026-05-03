@@ -37,3 +37,16 @@ List<Location> _ancestorChain(
   }
   return chain;
 }
+
+/// Returns the effective ascensionDate for a location, walking up the ancestor
+/// chain from most specific to root. Returns 'thursday' if none is found.
+String getAscensionDate(String locationId, Map<String, Location> locationData) {
+  String? currentId = locationId;
+  while (currentId != null) {
+    final loc = locationData[currentId];
+    if (loc == null) break;
+    if (loc.ascensionDate != null) return loc.ascensionDate!;
+    currentId = loc.parent;
+  }
+  return 'thursday';
+}

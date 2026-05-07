@@ -22,7 +22,7 @@ class LiturgyData {
 
   /// Loads from the filesystem — for CLI/Dart use.
   static Future<LiturgyData> load({
-    String commonFeastsPath = './assets/common_feasts.yaml',
+    String commonFeastsPath = './assets/calendar_data/common_feasts.yaml',
     String locationsDir = './assets/locations/',
   }) async {
     final commonFeasts = await _loadCommonFeasts(commonFeastsPath);
@@ -33,7 +33,7 @@ class LiturgyData {
   /// Loads via a [DataLoader] — for Flutter where assets go through rootBundle.
   static Future<LiturgyData> loadFromDataLoader(
     DataLoader loader, {
-    String commonFeastsPath = 'common_feasts.yaml',
+    String commonFeastsPath = 'calendar_data/common_feasts.yaml',
   }) async {
     final commonFeasts =
         _parseFeastsFromYaml(await loader.loadYaml(commonFeastsPath));

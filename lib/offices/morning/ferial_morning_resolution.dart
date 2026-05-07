@@ -91,7 +91,7 @@ Future<Morning> _resolveAdvent(CelebrationContext context) async {
     }
   }
 
-  ferialMorning.hymn = getHymnsForSeason("advent");
+  ferialMorning.hymn = await getHymnsForSeason("advent", dataLoader);
   return ferialMorning;
 }
 
@@ -126,7 +126,7 @@ Future<Morning> _resolveChristmas(CelebrationContext context) async {
     hymnSeason = "after_epiphany";
   }
 
-  ferialMorning.hymn = getHymnsForSeason(hymnSeason);
+  ferialMorning.hymn = await getHymnsForSeason(hymnSeason, dataLoader);
   return ferialMorning;
 }
 
@@ -139,7 +139,7 @@ Future<Morning> _resolveLent(CelebrationContext context) async {
       '$ferialFilePath/lent_${week}_${dayDatas[1]}.yaml', context.dataLoader);
 
   final String hymnKey = week < 5 ? "lent" : "passion";
-  ferialMorning.hymn = getHymnsForSeason(hymnKey);
+  ferialMorning.hymn = await getHymnsForSeason(hymnKey, context.dataLoader);
 
   return ferialMorning;
 }
@@ -149,7 +149,7 @@ Future<Morning> _resolveHolyWeek(CelebrationContext context) async {
   final code = context.ferialCode!;
   Morning ferialMorning =
       await morningExtract('$ferialFilePath/$code.yaml', context.dataLoader);
-  ferialMorning.hymn = getHymnsForSeason("passion");
+  ferialMorning.hymn = await getHymnsForSeason("passion", context.dataLoader);
   return ferialMorning;
 }
 
@@ -161,6 +161,6 @@ Future<Morning> _resolveEaster(CelebrationContext context) async {
       '$ferialFilePath/easter_${dayDatas[0]}_${dayDatas[1]}.yaml',
       context.dataLoader);
 
-  ferialMorning.hymn = getHymnsForSeason("easter");
+  ferialMorning.hymn = await getHymnsForSeason("easter", context.dataLoader);
   return ferialMorning;
 }

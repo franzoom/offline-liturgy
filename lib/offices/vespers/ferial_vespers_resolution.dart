@@ -102,7 +102,7 @@ Future<Vespers> _resolveAdvent(
     }
   }
 
-  ferialVespers.hymn = getHymnsForSeason("advent");
+  ferialVespers.hymn = await getHymnsForSeason("advent", dataLoader);
   return ferialVespers;
 }
 
@@ -142,7 +142,7 @@ Future<Vespers> _resolveChristmas(
     hymnSeason = "after_epiphany";
   }
 
-  ferialVespers.hymn = getHymnsForSeason(hymnSeason);
+  ferialVespers.hymn = await getHymnsForSeason(hymnSeason, dataLoader);
   return ferialVespers;
 }
 
@@ -157,7 +157,7 @@ Future<Vespers> _resolveLent(
       section: section);
 
   final String hymnKey = week < 5 ? "lent" : "passion";
-  ferialVespers.hymn = getHymnsForSeason(hymnKey);
+  ferialVespers.hymn = await getHymnsForSeason(hymnKey, context.dataLoader);
 
   return ferialVespers;
 }
@@ -169,7 +169,7 @@ Future<Vespers> _resolveHolyWeek(
   Vespers ferialVespers = await vespersExtract(
       '$ferialFilePath/$code.yaml', context.dataLoader,
       section: section);
-  ferialVespers.hymn = getHymnsForSeason("passion");
+  ferialVespers.hymn = await getHymnsForSeason("passion", context.dataLoader);
   return ferialVespers;
 }
 
@@ -183,6 +183,6 @@ Future<Vespers> _resolveEaster(
       context.dataLoader,
       section: section);
 
-  ferialVespers.hymn = getHymnsForSeason("easter");
+  ferialVespers.hymn = await getHymnsForSeason("easter", context.dataLoader);
   return ferialVespers;
 }

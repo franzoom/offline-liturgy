@@ -63,7 +63,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
   if (morningOffice.hymn == null &&
       holyWeekCodes.contains(celebrationContext.celebrationCode)) {
-    morningOffice.hymn = getHymnsForSeason("passion");
+    morningOffice.hymn = await getHymnsForSeason("passion", celebrationContext.dataLoader);
   }
 
   // 5. Prepend Gloria hymn, except during Lent and Holy Week

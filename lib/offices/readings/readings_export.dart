@@ -54,7 +54,7 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
   if (readingsOffice.hymn == null &&
       holyWeekCodes.contains(context.celebrationCode)) {
-    readingsOffice.hymn = getHymnsForSeason("passion");
+    readingsOffice.hymn = await getHymnsForSeason("passion", context.dataLoader);
   }
 
   // Hydrate psalm and hymn content

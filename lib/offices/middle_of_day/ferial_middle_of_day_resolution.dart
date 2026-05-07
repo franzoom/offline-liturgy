@@ -26,9 +26,9 @@ Future<MiddleOfDay> ferialMiddleOfDayResolution(
   };
 
   // Assign hymns for each hour based on liturgical time
-  result.hymnTierce = getTierceHymns(liturgicalTime);
-  result.hymnSexte = getSexteHymns(liturgicalTime);
-  result.hymnNone = getNoneHymns(liturgicalTime);
+  result.hymnTierce = await getTierceHymns(liturgicalTime, context.dataLoader);
+  result.hymnSexte = await getSexteHymns(liturgicalTime, context.dataLoader);
+  result.hymnNone = await getNoneHymns(liturgicalTime, context.dataLoader);
 
   return result;
 }

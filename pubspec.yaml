@@ -8,8 +8,8 @@ environment:
 
 flutter:
   assets:
-    - assets/common_feasts.yaml
     - assets/locations/
+    - assets/calendar_data/common_feasts.yaml
     - assets/calendar_data/commons/
     - assets/calendar_data/ferial_days/
     - assets/calendar_data/special_days/

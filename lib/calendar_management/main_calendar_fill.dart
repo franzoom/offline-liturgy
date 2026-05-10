@@ -12,12 +12,21 @@ Calendar getCalendar(
   String location,
   LiturgyData data,
 ) {
-  calendar = calendarFill(calendar, eventDate, location, data);
-  calendar = calendarFill(
-      calendar,
+  final String epiphanyMode = getEpiphanyDate(location, data.locationData);
+  final bool ascensionOnSunday =
+      getAscensionDate(location, data.locationData) == 'sunday';
+
+  final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode, ascensionOnSunday);
+  final cal2 = calendarFill(
+      Calendar(),
       DateTime(eventDate.year + 1, eventDate.month, eventDate.day),
       location,
-      data);
+      data,
+      epiphanyMode,
+      ascensionOnSunday);
+
+  calendar.calendarData.addAll(cal1.calendarData);
+  calendar.calendarData.addAll(cal2.calendarData);
 
   // Downgrade obligatory memorials to optional during privileged times
   calendar.downgradeMemorialsDuringPrivilegedTimes();
@@ -31,6 +40,8 @@ Calendar calendarFill(
   DateTime eventDate,
   String location,
   LiturgyData data,
+  String epiphanyMode,
+  bool ascensionOnSunday,
 ) {
   //detection of the liturgical year
   int liturgicalYear = eventDate.year;
@@ -40,11 +51,11 @@ Calendar calendarFill(
     liturgicalYear++;
   }
 
-  Map<String, DateTime> liturgicalMainFeasts =
-      createLiturgicalDays(liturgicalYear);
+  Map<String, DateTime> liturgicalMainFeasts = createLiturgicalDays(
+    liturgicalYear,
+    epiphanyMode,
+  );
 
-  final bool ascensionOnSunday =
-      getAscensionDate(location, data.locationData) == 'sunday';
   if (ascensionOnSunday) {
     final easterDay = liturgicalMainFeasts['ASCENSION']!.shift(-39);
     liturgicalMainFeasts['ASCENSION'] = easterDay.shift(42);

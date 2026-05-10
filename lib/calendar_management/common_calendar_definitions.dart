@@ -5,10 +5,8 @@ DateTime christmas(int year) => DateTime(year - 1, 12, 25);
 
 /// Returns the start of Advent for a given year.
 DateTime advent(int year) {
-  DateTime christmasDay = christmas(year);
-  int dayShift = christmasDay.weekday;
-  // Advent starts 3 weeks + the days until the previous Sunday before Christmas
-  return christmasDay.shift(-(21 + dayShift));
+  final christmasDay = christmas(year);
+  return christmasDay.shift(-(21 + christmasDay.weekday));
 }
 
 /// Returns the Holy Family feast date.
@@ -21,24 +19,26 @@ DateTime holyFamily(int year) {
   return christmasDay.shift(7 - christmasDay.weekday);
 }
 
-/// Returns Epiphany (first Sunday after January 1st).
-DateTime epiphany(int year) {
-  DateTime jan1 = DateTime(year, 1, 1);
-  int daysToAdd = jan1.isSunday ? 7 : (7 - jan1.weekday);
-  return jan1.shift(daysToAdd);
+/// Returns Epiphany date.
+/// If [epiphanyDay] is 'day', returns January 6th. Otherwise returns the first Sunday after January 1st.
+DateTime epiphany(int year, String epiphanyDay) {
+  if (epiphanyDay == 'day') return DateTime(year, 1, 6);
+  final jan1 = DateTime(year, 1, 1);
+  return jan1.shift(jan1.isSunday ? 7 : 7 - jan1.weekday);
 }
 
 /// Returns the Baptism of the Lord.
-/// If Epiphany is Jan 7 or 8, Baptism is the next day (Monday).
-DateTime baptism(DateTime epiphanyDay) {
-  int daysToAdd = (epiphanyDay.day < 7) ? 7 : 1;
-  return epiphanyDay.shift(daysToAdd);
+/// If Epiphany is Jan 7 or 8 (late Sunday mode), Baptism is the next day (Monday).
+/// Otherwise, Baptism is the Sunday following Epiphany.
+DateTime baptism(DateTime epiphanyDate) {
+  if (epiphanyDate.day >= 7) return epiphanyDate.shift(1);
+  return epiphanyDate.shift(epiphanyDate.isSunday ? 7 : 7 - epiphanyDate.weekday);
 }
 
-/// Returns the 2nd Sunday of Ordinary Time.
-DateTime secondSundayOT(DateTime epiphanyDay) {
-  int daysToAdd = (epiphanyDay.day < 7) ? 14 : 7;
-  return epiphanyDay.shift(daysToAdd);
+/// Returns the 2nd Sunday of Ordinary Time: the 2nd Sunday after January 6th.
+DateTime secondSundayOT(int year) {
+  final jan6 = DateTime(year, 1, 6);
+  return jan6.shift(14 - jan6.weekday % 7);
 }
 
 /// Calculates the date of Easter using the Meeus/Jones/Butcher algorithm.
@@ -104,17 +104,14 @@ DateTime saintJohnTheBaptist(DateTime sacredHeartDay) {
   return stJohnDay;
 }
 
-/// Returns Immaculate Conception (Dec 8), shifting to Monday if it hits a Sunday of Advent.
-DateTime immaculateConception(DateTime adventDay) {
-  DateTime immaculateDay = DateTime(adventDay.year, 12, 8);
-  if (immaculateDay.isSunday && immaculateDay.isAfter(adventDay)) {
-    return immaculateDay.shift(1);
-  }
-  return immaculateDay;
+/// Returns Immaculate Conception (Dec 8), shifting to Monday if it falls on a Sunday.
+DateTime immaculateConception(int year) {
+  final immaculateDay = DateTime(year, 12, 8);
+  return immaculateDay.isSunday ? immaculateDay.shift(1) : immaculateDay;
 }
 
 /// Main function to generate all movable feasts for a liturgical year.
-Map<String, DateTime> createLiturgicalDays(int year) {
+Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
   print('Defining variable feasts dates for liturgical year $year');
   Map<String, DateTime> liturgicalDays = {};
 
@@ -123,13 +120,13 @@ Map<String, DateTime> createLiturgicalDays(int year) {
 
   liturgicalDays['NATIVITY'] = christmas(year);
   liturgicalDays['ADVENT'] = adventDay;
-  liturgicalDays['IMMACULATE_CONCEPTION'] = immaculateConception(adventDay);
+  liturgicalDays['IMMACULATE_CONCEPTION'] = immaculateConception(year - 1);
   liturgicalDays['HOLY_FAMILY'] = holyFamily(year);
 
-  final DateTime epiphanyDay = epiphany(year);
-  liturgicalDays['EPIPHANY'] = epiphanyDay;
-  liturgicalDays['BAPTISM'] = baptism(epiphanyDay);
-  liturgicalDays['SECOND_SUNDAY_OT'] = secondSundayOT(epiphanyDay);
+  final DateTime epiphanyDate = epiphany(year, epiphanyDay);
+  liturgicalDays['EPIPHANY'] = epiphanyDate;
+  liturgicalDays['BAPTISM'] = baptism(epiphanyDate);
+  liturgicalDays['SECOND_SUNDAY_OT'] = secondSundayOT(year);
 
   liturgicalDays['EASTER'] = easterDay;
   liturgicalDays['ASHES'] = easterDay.shift(-46);

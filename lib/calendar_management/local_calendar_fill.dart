@@ -50,3 +50,16 @@ String getAscensionDate(String locationId, Map<String, Location> locationData) {
   }
   return 'thursday';
 }
+
+/// Returns the effective epiphanyDate for a location, walking up the ancestor
+/// chain from most specific to root. Returns 'sunday' if none is found.
+String getEpiphanyDate(String locationId, Map<String, Location> locationData) {
+  String? currentId = locationId;
+  while (currentId != null) {
+    final loc = locationData[currentId];
+    if (loc == null) break;
+    if (loc.epiphanyDate != null) return loc.epiphanyDate!;
+    currentId = loc.parent;
+  }
+  return 'sunday';
+}

@@ -1,6 +1,7 @@
 celebration:
-  title: Samedi
+  title: Samedi avant l'Ascension
   subtitle: Sixième semaine du temps Pascal
+  subtitle: null
   description: null
 invitatory:
   antiphon:
@@ -8,149 +9,142 @@ invitatory:
     - Nous te louons, splendeur du Père, Jésus, Fils de Dieu.
 
 oration:
-    - Avant de s’en aller près de toi, notre Père, ton Fils promit aux Apôtres l’Esprit Saint ; ils ont reçu de toi des grâces innombrables qui leur ont fait connaître les choses d’en haut, répands maintenant sur nous les mêmes dons de l’Esprit.
+    - |-
+      Forme-nous, Seigneur, en nous faisant travailler à ton œuvre ; apprends-nous à chercher ce qui est le meilleur pour vivre sans cesse du mystère pascal.
 
 readings:
   psalmody:
-    - psalm: PSALM_105_1
+    - psalm: PSALM_144_1
       antiphon:
-        - Toutes les promesses de Dieu s’accomplissent en Jésus Christ, alléluia.
-    - psalm: PSALM_105_2
+        - Tout pouvoir m’a été donné au ciel et sur la terre. Alléluia.
+    - psalm: PSALM_144_2a
       antiphon:
-        - Toutes les promesses de Dieu s’accomplissent en Jésus Christ, alléluia.
-    - psalm: PSALM_105_3
+        - Tout pouvoir m’a été donné au ciel et sur la terre. Alléluia.
+    - psalm: PSALM_144_3
       antiphon:
-        - Toutes les promesses de Dieu s’accomplissent en Jésus Christ, alléluia.
+        - Tout pouvoir m’a été donné au ciel et sur la terre. Alléluia.
+  verse: |-
+    V/ Ma chair a refleuri, alléluia,
+    de tour cœur, je rends grâce, alléluia.
   biblicalReading:
     - title: LECTURE DE LA 1^ère LETTRE DE SAINT JEAN
-      subtitle: Aimer, à l’exemple du Fils de Dieu
-      ref: 1Jn 3, 11-17
+      subtitle: L’Esprit suscite en nous foi et amour
+      ref: 1Jn 3, 18-24
       content: |-
-        Tel est le message que vous avez entendu depuis le commencement : aimons-nous les uns les autres. Ne soyons pas comme Caïn : il appartenait au Mauvais et il égorgea son frère. Et pourquoi l’a-t-il égorgé ? Parce que ses œuvres étaient mauvaises : au contraire, celles de son frère étaient justes. 
-        Ne soyez pas étonnés, frères, si le monde a de la haine contre vous. Nous, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. Celui qui n’aime pas demeure dans la mort. Quiconque a de la haine contre son frère est un meurtrier, et vous savez que pas un meurtrier n’a la vie éternelle demeurant en lui. Voici comment nous avons reconnu l’amour : lui, Jésus, a donné sa vie pour nous. Nous aussi, nous devons donner notre vie pour nos frères. Celui qui a de quoi vivre en ce monde, s’il voit son frère dans le besoin sans faire preuve de compassion, comment l’amour de Dieu pourrait-il demeurer en lui ?
+        Petits enfants, n’aimons pas en paroles ni par des discours, mais par des actes et en vérité. 
+        Voilà comment nous reconnaîtrons que nous appartenons à la vérité, et devant Dieu nous apaiserons notre cœur ; car si notre cœur nous accuse, Dieu est plus grand que notre cœur, et il connaît toutes choses. 
+        Bien-aimés, si notre cœur ne nous accuse pas, nous avons de l’assurance devant Dieu. Quoi que nous demandions à Dieu, nous le recevons de lui, parce que nous gardons ses commandements, et que nous faisons ce qui est agréable à ses yeux. 
+        Or, voici son commandement : mettre notre foi dans le nom de son Fils Jésus Christ, et nous aimer les uns les autres comme il nous l’a commandé. Celui qui garde ses commandements demeure en Dieu, et Dieu en lui ; et voilà comment nous reconnaissons qu’il demeure en nous, puisqu’il nous a donné part à son Esprit.
       responsory: |-
-        Il n’est pas de plus grand amour
-        que de mourir pour celui qu’on aime.
+        R/ Celui qui garde sa Parole
+        demeure en Dieu, et Dieu en lui,
+        alléluia, alléluia !
 
-        R/ Qui perd sa vie la trouvera, alléluia.
+        Dieu l’avait annoncé par son prophète :
+        Je répandrai mon Esprit sur toute créature.
 
-        Christ a donné sa vie pour nous ;
-        donnons-la, nous aussi, pour nos frères.
-
-        Nous sommes passés de la mort à la vie,
-        puisque nous aimons nos frères.
+        Nous savons qu’il demeure en nous
+        grâce à l’Esprit qu’il nous a donné.
   patristicReading:
-    - title: COMMENTAIRE DE SAINT AUGUSTIN SUR L’ÉVANGILE DE JEAN
-      subtitle: Les deux vies
+    - title: HOMÉLIE DE SAINT GRÉGOIRE DE NYSSE SUR LE CANTIQUE DES CANTIQUES
+      subtitle: « Je leur ai donné la gloire que tu m’as donnée »
       content: |-
-        L’Église connaît deux genres de vie qui lui ont été révélés et recommandés par Dieu. L’une de ces vies est dans la foi, l’autre dans la vision ; l’une pour le temps du voyage, l’autre pour la demeure d’éternité ; l’une dans le labeur, l’autre dans le repos ; l’une sur la route, l’autre dans la patrie ; l’une dans le travail de l’action, l’autre dans la récompense de la contemplation. ~ 
-        La première est symbolisée par l’Apôtre Pierre, la seconde par Jean. La première est en action jusqu’à la fin du monde, avec laquelle elle trouvera sa propre fin ; la seconde doit attendre son accomplissement après la fin de ce monde, mais dans le monde futur elle n’a pas de fin. C’est pourquoi il est dit à Pierre : %Suis-moi%, et au sujet de saint Jean : %Si je veux qu’il reste jusqu’à ce que je vienne, est-ce ton affaire ? Mais toi, suis-moi.% ~ 
-        Suis-moi en supportant les maux temporels, à mon imitation ; lui, %qu’il reste jusqu’à ce que je vienne% lui donner les biens éternels. Ce qui peut se dire plus clairement ainsi : Que l’action parfaite vienne à ma suite, modelée à l’exemple de ma passion ; que la contemplation, qui ne fait que commencer, reste jusqu’à ce que je vienne, pour obtenir son accomplissement lorsque je viendrai. 
-        Suivre le Christ en allant jusqu’à la mort, c’est la plénitude de la patience ; rester jusqu’à ce que le Christ vienne, c’est la plénitude de science qui doit le faire connaître. Ici, on supporte les maux de ce monde sur la terre des mourants ; là on verra les biens du Seigneur sur la terre des vivants. 
-        Lorsque le Seigneur dit : %Je veux qu’il reste jusqu’à ce que je vienne%, il ne faut pas l’entendre comme s’il avait dit « rester », au sens de rester en arrière ou de s’installer, mais au sens d’attendre. Car ce que saint Jean symbolise ne doit pas s’accomplir maintenant, mais quand le Christ reviendra. Au contraire ce que symbolise saint Pierre, à qui il est dit : %Toi, suis-moi%, ne parviendra à l’objet de son attente que s’il agit de maintenant. ~ 
-        Mais que personne ne sépare ces glorieux Apôtres. Tous deux se rejoignaient dans ce que Pierre symbolisait ; et en ce que Jean symbolisait, tous deux se rejoindraient plus tard. C’est symboliquement que l’un suivait et que l’autre restait. Par la foi, tous deux supportaient les maux présents de cette vie malheureuse, et tous deux attendaient les biens futurs de la béatitude. 
-        Ce n’est pas eux seulement, c’est toute la sainte Église, l’épouse du Christ, qui agit ainsi : elle doit être délivrée de ces épreuves d’ici-bas, elle doit demeurer dans la félicité d’en haut. Pierre et Jean ont figuré ces deux vies, chacun pour l’une des deux. Mais en réalité, tous deux ont suivi la première, passagèrement, par la foi ; et tous deux jouiront de la seconde, éternellement, par la vision. 
-        Puisque tous les saints appartiennent inséparablement au corps du Christ, afin de gouverner le vaisseau de la vie présente au milieu de tant d’orages, les clés du Royaume des cieux pour lier et délier les péchés ont été confiées à Pierre, le premier des Apôtres : et c’est encore à l’intention de tous les saints, pour qu’ils connaissent l’abri très paisible de la Vie la plus intime, que Jean l’Évangéliste a reposé sur la poitrine du Christ, 
-        Ce n’est donc pas Pierre seul mais toute l’Église qui lie et délie les péchés ; et ce n’est pas Jean seul qui boit à la source qu’est la poitrine du Seigneur. Il a révélé par ses paroles que le Verbe, au commencement, était auprès de Dieu et était Dieu, et bien d’autres vérités sublimes sur la divinité du Christ, la Trinité et l’unité de toute la divinité. Ces vérités, qu’il doit contempler face à face dans le Royaume céleste, maintenant il doit les percevoir %dans l’image confuse donnée par un miroir%. Aussi est-ce le Seigneur lui-même qui répand sur toute la surface de la terre son Évangile pour que, chacun à la mesure de ses capacités, tous les croyants puissent y boire.
+        %Si l’amour chasse parfaitement la crainte% et si la crainte se transforme en amour, alors on découvre que l’unité consiste en cet aboutissement du salut : tous sont unis entre eux par l’adhésion à l’unique bien, au moyen de cette perfection que la colombe représente. 
+        Car c’est le sens que nous tirons des paroles qui suivent dans le Cantique des cantiques, et que prononce le Bien-Aimé : %Unique est ma colombe, unique ma parfaite ; elle est la fille unique de sa mère, la préférée de celle qui l’enfanta%. 
+        Mais le sens de ces paroles nous apparaît plus clairement dans le discours du Seigneur rapporté par l’Évangile. Par sa bénédiction, il a donné toute puissance à ses disciples ; puis, en priant son Père, il accorde les autres biens à ceux qui en sont dignes. Et il ajoute le principal de tous les biens : que les disciples ne soient plus divisés par la diversité de leurs préférences dans leur jugement sur le bien, mais qu’ils soient tous un par leur union au seul et unique bien. Ainsi, %par l’unité du Saint-Esprit%, comme dit l’Apôtre, étant attachés %par le lien de la paix%, ils deviennent tous %un seul corps et un seul esprit, par l’unique espérance à laquelle ils ont été appelés%. 
+        Mais nous ferons mieux de citer littéralement les divines paroles de l’Évangile : %Que tous%, dit Jésus. %soient un, comme toi, mon Père, tu es en moi, et moi en toi ; qu’eux-mêmes soient un en nous%. 
+        Or, le lien de cette unité, c’est la gloire. Que le Saint-Esprit soit appelé gloire, aucun de ceux qui examinent la question ne saurait y contredire, s’il considère ces paroles du Seigneur : %La gloire que tu m’as donnée, je la leur ai donnée%. Effectivement, il leur a donné cette gloire quand il leur a dit : %Recevez le Saint-Esprit%. 
+        Cette gloire, qu’il possédait de tout temps, %avant que le monde fût%, le Christ l’a pourtant reçue lorsqu’il a revêtu la nature humaine. Et lorsque cette nature eut été glorifiée par l’Esprit, tout ce qui lui est apparenté a reçu communication de la gloire de l’Esprit, en commençant par les disciples. C’est pour cela que Jésus dit : %La gloire que tu m’as donnée, je la leur ai donnée ; qu’ils soient un comme nous sommes un ; moi en eux et toi en moi, pour qu’ils soient parfaitement un%. 
+        Celui qui, de petit enfant, est parvenu en grandissant à la stature %d’homme parfait%, qui a rejoint %la mesure de l’âge% spirituel ~ ; celui qui est devenu capable de recevoir la gloire de l’Esprit par sa maîtrise de soi et sa pureté : il est cette colombe parfaite que regarde l’Époux lorsqu’il dit : %Unique est ma colombe, unique ma parfaite%.
       responsory: |-
-        [rubric](Stance)[/rubric]
-        Heureux ceux qui ont vu le Ressuscité
-        et reconnu à ses plaies la victoire.
-        Mais heureux sommes-nous
-        de croire sans avoir vu
-        et, sans le voir encore,
-        d’aimer Jésus, notre Sauveur.
+        R/ Le Seigneur, c’est l’Esprit,
+        l’Esprit du Seigneur, c’est la liberté.
 
-        R/ Seigneur, tu es vivant, nous t’avons reconnu,
-        au dernier jour nous te verrons.
+        Nous ne sommes pas fils de servitude :
+        le Christ nous a libérés.
 
-        Pleurant près du tombeau,
-        soudain Marie se dresse :
-        qui donc l’appelle par son nom ?
-
-        À la table d’Emmaüs,
-        les voyageurs tout interdits se lèvent :
-        qui donc pour eux vient de rompre le pain ?
-
-        Réfugiés dans la chambre haute,
-        les disciples frémissent :
-        qui donc se tient au milieu d’eux ?
-
-        Approchant du rivage,
-        les pêcheurs soudain s’interrogent :
-        qui donc les attend près d’un feu ?
+        Dieu a envoyé en nos cœurs l’Esprit de son Fils,
+        il crie : « Abba Père »
 morning:
   psalmody:
-    - psalm: PSALM_91
+    - psalm: PSALM_92
       antiphon:
-        - Par tes actions, Seigneur, tu nous as comblés de joie, alléluia.
-    - psalm: OT_2
+        - Le Seigneur est roi, alléluia, vêtu de majesté, alléluia.
+    - psalm: OT_41
       antiphon:
-        - C’est moi qui fais mourir et vivre, c’est moi qui frappe et qui guéris, alléluia.
-    - psalm: PSALM_8
+        - Hommes nouveaux baptisés dans le Christ, à vous la gloire des enfants de Dieu, alléluia.
+    - psalm: PSALM_148
       antiphon:
-        - Tu couronnes ton Christ de puissance et d’honneur, alléluia.
+        - Louange au nom du Seigneur, alléluia, dans le ciel et sur la terre, alléluia.
   reading:
-    biblicalReference: Rm 14, 7-9
+    biblicalReference: Ac 10, 40-43
     content: |-
-      Aucun d’entre nous ne vit pour soi-même, et aucun ne meurt pour soi-même : si nous vivons, nous vivons pour le Seigneur ; si nous mourons, nous mourons pour le Seigneur. Dans notre vie comme dans notre mort, nous appartenons au Seigneur. Car, si le Christ a connu la mort, puis la vie, c’est pour devenir le Seigneur et des morts et des vivants.
+      Voici que Dieu a ressuscité Jésus le troisième jour. Il lui a donné de se montrer non pas à tout le peuple, mais seulement aux témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Il nous a chargés d’annoncer au peuple et de témoigner que Dieu l’a choisi comme Juge des vivants et des morts. C’est à lui que tous les prophètes rendent ce témoignage : Tout homme qui croit en lui reçoit par lui le pardon de ses péchés.
   responsory: |-
-    R/ Vous cherchez Jésus, le Crucifié ?
-    Il n’est pas ici, il est ressuscité, alléluia !
-    V/ Je monte vers mon Père et votre Père,
-    vers mon Dieu et votre Dieu. R/
+    R/ Le Seigneur est vraiment ressuscité.
+    * Alléluia, alléluia.
+    V/ Il est apparu à Simon. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Mon Père vous donnera tout ce que vous demanderez en invoquant mon nom. Alléluia.
+    common: Encore un peu, vous ne me verrez plus. Encore un peu et vous me reverrez, car je vais vers le Père. Alléluia.
   intercession:
     content: |-
-      Seigneur Jésus, élevé à la droite du Père,
-      regarde avec amour tous ceux qui portent le nom de chrétiens, et rassemble-les dans l’unité de ton Esprit.
+      Implorons le Seigneur de vérité, le dispensateur de tous les dons :
 
-      R/ Exauce-nous, Seigneur de gloire.
+      R/ Ô Seigneur, répands ton Esprit.
 
-      Accorde à ceux qui sont renés de l’eau et de l’Esprit
-      de suivre le chemin de ta croix glorieuse.
+      Sur les humbles de cœur et les pauvres en esprit,
 
-      Donne ta force à ceux qui souffrent persécution pour ton nom : qu’ils sachent répondre à qui demande raison de leur espérance.
+      Sur ceux qui pleurent et les affamés de justice,
 
-      Garde-nous unis à toi comme les sarments à la vigne.
+      Sur les chercheurs de Dieu et les assoiffés d’absolu,
 
-      Puisque ta royauté d’amour s’étend à tout l’univers, que la joie du ciel gagne aussi notre terre.
+      Sur les artisans de paix et les miséricordieux,
+
+      Sur ceux qui annoncent l’Évangile et ceux qui l’entendent,
+
+      Sur les contemplatifs et sur les solitaires,
+
+      Sur ceux qui prient ensemble et ceux qui prient dans le secret,
+
+      Sur ton peuple et sur tous les peuples,
+
+      Sur tous les hommes que tu as créés et rachetés,
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_118_11
+    - psalm: PSALM_117_1
       antiphon:
         - Alléluia, alléluia alléluia.
-    - psalm: PSALM_60
+    - psalm: PSALM_117_2
       antiphon:
         - Alléluia, alléluia alléluia.
-    - psalm: PSALM_63
+    - psalm: PSALM_117_3
       antiphon:
         - Alléluia, alléluia alléluia.
   tierce:
     reading:
-      biblicalReference: Rm 5, 10-11
-      content: Si Dieu nous a réconciliés avec lui par la mort de son Fils, quand nous étions encore ses ennemis, à plus forte raison, maintenant que nous sommes réconciliés, nous serons sauvés par la vie du Christ ressuscité. Bien plus, nous mettons notre orgueil en Dieu, grâce à Jésus-Christ notre Seigneur, qui nous a réconciliés avec Dieu.
+      biblicalReference: 1 Co 15, 3b-5
+      content: Le Christ est mort pour nos péchés, conformément aux Écritures, et il a été mis au tombeau ; il est ressuscité le troisième jour, conformément aux Écritures, et il est apparu à Pierre, puis aux Douze.
     responsory: |-
       Le Seigneur est vraiment ressuscité, alléluia :
       il est apparu à Simon, alléluia.
   sexte:
     reading:
-      biblicalReference: 1 Co 15, 20-22
-      content: Le Christ est ressuscité d’entre les morts, pour être parmi les morts le premier ressuscité. Car, la mort étant venue par un homme, c’est par homme aussi que vient la résurrection. En effet, c’est en Adam que meurent tous les hommes ; c’est dans le Christ que tous revivront.
+      biblicalReference: Ep 2, 4-6a
+      content: |-
+        Dieu est riche en miséricorde ; à cause du grand amour dont il nous a aimés, nous qui étions des morts à cause de nos fautes, il nous a fait revivre avec le Christ : c’est bien par grâce que vous êtes sauvés. Avec lui, il nous a ressuscités ; avec lui, il nous a fait régner aux cieux, dans le Christ Jésus.
     responsory: |-
       Les disciples furent remplis de joie, alléluia,
       à la vue du Seigneur, alléluia.
   none:
     reading:
-      biblicalReference: 2 Co 5, 14-15
-      content: L’amour du Christ nous saisit quand nous pensons qu’un seul est mort pour tous, et qu’ainsi tous ont passé par la mort. Car le Christ est mort pour tous, afin que les vivants n’aient plus leur vie centrée sur eux-mêmes, mais sur lui qui est mort et ressuscité pour eux.
-
+      biblicalReference: Rm 6, 4
+      content: Si par le baptême dans la mort du Christ, nous avons été mis au tombeau avec le Christ, c’est pour que nous menions une vie nouvelle, nous aussi, de même que le Christ, par la toute puissance du Père, est ressuscité d’entre les morts.
     responsory: |-
       Reste avec nous, Seigneur, alléluia,
       le soir approche, alléluia.
+
 
 mass:
 - massType: day_mass
@@ -161,88 +155,377 @@ mass:
   readingParts:
   - partType: READING
     partContents:
-    - biblicalRef: Ac 18, 23-28
+    - biblicalRef: Ac 1, 12-14
+      sundayAndWeekCycles:
+      - A
       headline: |-
-        « Apollos démontrait par les Écritures que le Christ, c’est Jésus »
+        « Tous, d’un même cœur, étaient assidus à la prière »
       content: |-
-        Après avoir passé quelque temps à Antioche,
-        Paul partit.
-        Il parcourut successivement le pays galate et la Phrygie,
-        en affermissant tous les disciples.
-        Or, un Juif nommé Apollos,
-        originaire d’Alexandrie,
-        venait d’arriver à Éphèse.
-        C’était un homme éloquent,
-        versé dans les Écritures.
-        Il avait été instruit du Chemin du Seigneur ;
-        dans la ferveur de l’Esprit,
-        il parlait et enseignait avec précision
-        ce qui concerne Jésus,
-        mais, comme baptême,
-        il ne connaissait que celui de Jean le Baptiste.
-        Il se mit donc à parler avec assurance à la synagogue.
-        Quand Priscille et Aquila l’entendirent,
-        ils le prirent à part
-        et lui exposèrent avec plus de précision le Chemin de Dieu.
-        Comme Apollos voulait se rendre en Grèce,
-        les frères l’y encouragèrent,
-        et écrivirent aux disciples de lui faire bon accueil.
-        Quand il fut arrivé, il rendit de grands services
-        à ceux qui étaient devenus croyants par la grâce de Dieu.
-        En effet, avec vigueur il réfutait publiquement les Juifs,
-        en démontrant par les Écritures
-        que le Christ, c’est Jésus.
+        Les Apôtres, après avoir vu Jésus s’en aller vers le ciel,
+         retournèrent à Jérusalem
+        depuis le lieu-dit « mont des Oliviers » qui en est proche,
+        – la distance de marche ne dépasse pas
+        ce qui est permis le jour du sabbat.
+         À leur arrivée, ils montèrent dans la chambre haute
+        où ils se tenaient habituellement ;
+        c’était Pierre, Jean, Jacques et André,
+        Philippe et Thomas, Barthélemy et Matthieu,
+        Jacques fils d’Alphée, Simon le Zélote, et Jude fils de Jacques.
+         Tous, d’un même cœur, étaient assidus à la prière,
+        avec des femmes, avec Marie la mère de Jésus,
+        et avec ses frères.
+    - biblicalRef: Ac 1, 15-17.20a.20c-26
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        « Il faut que l’un d’entre eux devienne, avec nous, témoin de la résurrection de Jésus »
+      content: |-
+        En ces jours-là,
+        Pierre se leva au milieu des frères
+        qui étaient réunis au nombre d’environ cent vingt personnes,
+        et il déclara :
+        « Frères, il fallait que l’Écriture s’accomplisse.
+        En effet, par la bouche de David,
+        l’Esprit Saint avait d’avance parlé de Judas,
+        qui en est venu à servir de guide
+        aux gens qui ont arrêté Jésus :
+        ce Judas était l’un de nous
+        et avait reçu sa part de notre ministère.
+        Il est écrit au livre des Psaumes :
+        _Qu’un autre prenne sa charge._
+        Or, il y a des hommes qui nous ont accompagnés
+        durant tout le temps où le Seigneur Jésus a vécu parmi nous,
+        depuis le commencement, lors du baptême donné par Jean,
+        jusqu’au jour où il fut enlevé d’auprès de nous.
+        Il faut donc que l’un d’entre eux devienne, avec nous,
+        témoin de sa résurrection. »
+        On en présenta deux :
+        Joseph appelé Barsabbas, puis surnommé Justus,
+        et Matthias.
+        Ensuite, on fit cette prière :
+        « Toi, Seigneur, qui connais tous les cœurs,
+        désigne lequel des deux tu as choisi
+        pour qu’il prenne, dans le ministère apostolique,
+        la place que Judas a désertée
+        en allant à la place qui est désormais la sienne. »
+        On tira au sort entre eux, et le sort tomba sur Matthias,
+        qui fut donc associé par suffrage aux onze Apôtres.
+    - biblicalRef: Ac 7, 55-60
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        « Voici que je contemple le Fils de l’homme debout à la droite de Dieu »
+      content: |-
+        En ces jours-là,
+        Étienne était en face de ses accusateurs.
+         Rempli de l’Esprit Saint,
+        il fixait le ciel du regard :
+        il vit la gloire de Dieu,
+        et Jésus debout à la droite de Dieu.
+         Il déclara :
+        « Voici que je contemple les cieux ouverts
+        et le Fils de l’homme debout à la droite de Dieu. »
+         Alors ils poussèrent de grands cris
+        et se bouchèrent les oreilles.
+        Tous ensemble, ils se précipitèrent sur lui,
+         l’entraînèrent hors de la ville
+        et se mirent à le lapider.
+        Les témoins avaient déposé leurs vêtements
+        aux pieds d’un jeune homme appelé Saul.
+         Étienne, pendant qu’on le lapidait, priait ainsi :
+        « Seigneur Jésus, reçois mon esprit. »
+         Puis, se mettant à genoux, il s’écria d’une voix forte :
+        « Seigneur, ne leur compte pas ce péché. »
+        Et, après cette parole, il s’endormit dans la mort.
   - partType: PSALM
     partContents:
-    - biblicalRef: Ps 46 (47), 2-3, 8-9, 10
-      refAbbr: 46, 2…
+    - biblicalRef: Ps 26 (27), 1, 4, 7-8
+      refAbbr: 26, 1…
+      sundayAndWeekCycles:
+      - A
       chorus:
-      - chorusRef: 46, 8a
-        chorus: Dieu est le roi de toute la terre.
+      - chorusRef: 26, 13
+        chorus: |-
+          J’en suis sûr, je verrai les bontés du Seigneur
+          sur la terre des vivants.
       - chorus: Alléluia !
       content: |-
-        Tous les peuples, battez des mains,
-        acclamez Dieu par vos cris de joie !
-        Car le Seigneur est le Très-Haut, le redoutable,
-        le grand roi sur toute la terre.
+        Le Seigneur est ma lumière et mon salut ;
+        de qui aurais-je crainte ?
+        Le Seigneur est le rempart de ma vie ;
+        devant qui tremblerais-je ?
 
-        Car Dieu est le roi de la terre :
-        que vos musiques l’annoncent !
-        Il règne, Dieu, sur les païens,
-        Dieu est assis sur son trône sacré.
+        J’ai demandé une chose au Seigneur,
+        la seule que je cherche :
+        habiter la maison du Seigneur
+        tous les jours de ma vie,
+        pour admirer le Seigneur dans sa beauté
+        et m’attacher à son temple.
 
-        Les chefs des peuples se sont rassemblés :
-        c’est le peuple du Dieu d’Abraham.
-        Les princes de la terre sont à Dieu
-        qui s’élève au-dessus de tous.
+        Écoute, Seigneur, je t’appelle !
+        Pitié ! Réponds-moi !
+        Mon cœur m’a redit ta parole :
+        « Cherchez ma face. »
+    - biblicalRef: Ps 102 (103), 1-2, 11-12, 19-20ab
+      refAbbr: 102, 1…
+      sundayAndWeekCycles:
+      - B
+      chorus:
+      - chorusRef: 102, 19a
+        chorus: Le Seigneur a son trône dans les cieux.
+      - chorus: Alléluia !
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Comme le ciel domine la terre,
+        fort est son amour pour qui le craint ;
+        aussi loin qu’est l’orient de l’occident,
+        il met loin de nous nos péchés.
+
+        Le Seigneur a son trône dans les cieux :
+        sa royauté s’étend sur l’univers.
+        Messagers du Seigneur, bénissez-le,
+        invincibles porteurs de ses ordres !
+    - biblicalRef: Ps 96 (97), 1-2b, 6.7c, 9
+      refAbbr: 96, 1…
+      sundayAndWeekCycles:
+      - C
+      chorus:
+      - chorusRef: 96, 1a.9a
+        chorus: |-
+          Le Seigneur est roi,
+          le Très-Haut sur toute la terre !
+      - chorus: Alléluia !
+      content: |-
+        Le Seigneur est roi ! Exulte la terre !
+        Joie pour les îles sans nombre !
+        justice et droit sont l’appui de son trône.
+
+        Les cieux ont proclamé sa justice,
+        et tous les peuples ont vu sa gloire.
+        À genoux devant lui, tous les dieux !
+
+        Tu es, Seigneur, le Très-Haut
+        sur toute la terre :
+        tu domines de haut tous les dieux.
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 4, 13-16
+      sundayAndWeekCycles:
+      - A
+      headline: |-
+        « Si l’on vous insulte pour le nom du Christ, heureux êtes-vous »
+      content: |-
+        Bien-aimés,
+         dans la mesure où vous communiez aux souffrances du Christ,
+        réjouissez-vous,
+        afin d’être dans la joie et l’allégresse
+        quand sa gloire se révélera.
+         Si l’on vous insulte pour le nom du Christ,
+        heureux êtes-vous,
+        parce que l’Esprit de gloire, l’Esprit de Dieu,
+        repose sur vous.
+         Que personne d’entre vous, en effet,
+        n’ait à souffrir comme meurtrier, voleur, malfaiteur,
+        ou comme agitateur.
+         Mais si c’est comme chrétien,
+        qu’il n’ait pas de honte,
+        et qu’il rende gloire à Dieu pour ce nom-là.
+    - biblicalRef: 1 Jn 4, 11-16
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        « Qui demeure dans l’amour demeure en Dieu, et Dieu demeure en lui »
+      content: |-
+        Bien-aimés,
+        puisque Dieu nous a tellement aimés,
+        nous devons, nous aussi, nous aimer les uns les autres.
+        Dieu, personne ne l’a jamais vu.
+        Mais si nous nous aimons les uns les autres,
+        Dieu demeure en nous,
+        et, en nous, son amour atteint la perfection.
+        Voici comment nous reconnaissons
+        que nous demeurons en lui
+        et lui en nous :
+        il nous a donné part à son Esprit.
+        Quant à nous, nous avons vu et nous attestons
+        que le Père a envoyé son Fils
+        comme Sauveur du monde.
+
+        Celui qui proclame que Jésus est le Fils de Dieu,
+        Dieu demeure en lui,
+        et lui en Dieu.
+        Et nous, nous avons reconnu l’amour que Dieu a pour nous,
+        et nous y avons cru.
+        Dieu est amour :
+        qui demeure dans l’amour demeure en Dieu,
+        et Dieu demeure en lui.
+    - biblicalRef: Ap 22, 12-14.16-17.20
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        « Viens, Seigneur Jésus ! »
+      content: |-
+        Moi, Jean,
+        j’ai entendu une voix qui me disait :
+         « Voici que je viens sans tarder,
+        et j’apporte avec moi le salaire
+        que je vais donner à chacun selon ce qu’il a fait.
+         Moi, je suis l’alpha et l’oméga, le premier et le dernier,
+        le commencement et la fin.
+         Heureux ceux qui lavent leurs vêtements :
+        ils auront droit d’accès à l’arbre de la vie
+        et, par les portes, ils entreront dans la ville.
+         Moi, Jésus, j’ai envoyé mon ange
+        vous apporter ce témoignage au sujet des Églises.
+        Moi, je suis le rejeton, le descendant de David,
+        l’étoile resplendissante du matin. »
+         L’Esprit et l’Épouse disent :
+        « Viens ! »
+        Celui qui entend, qu’il dise :
+        « Viens ! »
+        Celui qui a soif,
+        qu’il vienne.
+        Celui qui le désire,
+        qu’il reçoive l’eau de la vie,
+        gratuitement.
+
+        Et celui qui donne ce témoignage déclare :
+        « Oui, je viens sans tarder. »
+        – Amen ! Viens, Seigneur Jésus !
   - partType: GOSPEL
     partContents:
-    - biblicalRef: Jn 16, 23b-28
+    - biblicalRef: Jn 17, 1b-11a
+      sundayAndWeekCycles:
+      - A
       headline: |-
-        « Le Père lui-même vous aime, parce que vous m’avez aimé et vous avez cru »
+        « Père, glorifie ton Fils »
       acclamationAntiphon: |-
-        Je suis sorti du Père, et je suis venu dans le monde ;
-        maintenant, je quitte le monde, et je pars vers le Père.
+        Je ne vous laisserai pas orphelins,
+        dit le Seigneur ;
+        je reviens vers vous, et votre cœur se réjouira.
       content: |-
         En ce temps-là,
-        Jésus disait à ses disciples :
-        « Amen, amen, je vous le dis :
-        ce que vous demanderez au Père en mon nom,
-        il vous le donnera.
-        Jusqu’à présent vous n’avez rien demandé en mon nom ;
-        demandez, et vous recevrez :
-        ainsi votre joie sera parfaite.
+         Jésus leva les yeux au ciel et dit :
+        « Père, l’heure est venue.
+        Glorifie ton Fils
+        afin que le Fils te glorifie.
+         Ainsi, comme tu lui as donné pouvoir sur tout être de chair,
+        il donnera la vie éternelle
+        à tous ceux que tu lui as donnés.
+         Or, la vie éternelle,
+        c’est qu’ils te connaissent, toi le seul vrai Dieu,
+        et celui que tu as envoyé,
+        Jésus Christ.
+         Moi, je t’ai glorifié sur la terre
+        en accomplissant l’œuvre que tu m’avais donnée à faire.
+         Et maintenant, glorifie-moi auprès de toi, Père,
+        de la gloire que j’avais auprès de toi avant que le monde existe.
+         J’ai manifesté ton nom
+        aux hommes que tu as pris dans le monde pour me les donner.
+        Ils étaient à toi, tu me les as donnés,
+        et ils ont gardé ta parole.
+         Maintenant, ils ont reconnu
+        que tout ce que tu m’as donné vient de toi,
+         car je leur ai donné les paroles que tu m’avais données :
+        ils les ont reçues,
+        ils ont vraiment reconnu que je suis sorti de toi,
+        et ils ont cru que tu m’as envoyé.
 
-        En disant cela, je vous ai parlé en images.
-        L’heure vient où je vous parlerai sans images,
-        et vous annoncerai ouvertement ce qui concerne le Père.
-        Ce jour-là, vous demanderez en mon nom ;
-        or, je ne vous dis pas que moi, je prierai le Père pour vous,
-        car le Père lui-même vous aime,
-        parce que vous m’avez aimé
-        et vous avez cru que c’est de Dieu que je suis sorti.
-        Je suis sorti du Père, et je suis venu dans le monde ;
-        maintenant, je quitte le monde, et je pars vers le Père. »
+        Moi, je prie pour eux ;
+        ce n’est pas pour le monde que je prie,
+        mais pour ceux que tu m’as donnés,
+        car ils sont à toi.
+         Tout ce qui est à moi est à toi,
+        et ce qui est à toi est à moi ;
+        et je suis glorifié en eux.
+         Désormais, je ne suis plus dans le monde ;
+        eux, ils sont dans le monde,
+        et moi, je viens vers toi. »
+    - biblicalRef: Jn 17, 11b-19
+      sundayAndWeekCycles:
+      - B
+      headline: |-
+        « Qu’ils soient un, comme nous-mêmes »
+      acclamationAntiphon: |-
+        Je ne vous laisserai pas orphelins,
+        dit le Seigneur ;
+        je reviens vers vous, et votre cœur se réjouira.
+      content: |-
+        En ce temps-là,
+        les yeux levés au ciel, Jésus priait ainsi :
+        « Père saint,
+        garde mes disciples unis dans ton nom,
+        le nom que tu m’as donné,
+        pour qu’ils soient un, comme nous-mêmes.
+        Quand j’étais avec eux,
+        je les gardais unis dans ton nom, le nom que tu m’as donné.
+        J’ai veillé sur eux, et aucun ne s’est perdu,
+        sauf celui qui s’en va à sa perte
+        de sorte que l’Écriture soit accomplie.
+        Et maintenant que je viens à toi,
+        je parle ainsi, dans le monde,
+        pour qu’ils aient en eux ma joie,
+        et qu’ils en soient comblés.
+        Moi, je leur ai donné ta parole,
+        et le monde les a pris en haine
+        parce qu’ils n’appartiennent pas au monde,
+        de même que moi je n’appartiens pas au monde.
+        Je ne prie pas pour que tu les retires du monde,
+        mais pour que tu les gardes du Mauvais.
+        Ils n’appartiennent pas au monde,
+        de même que moi, je n’appartiens pas au monde.
+
+        Sanctifie-les dans la vérité :
+        ta parole est vérité.
+        De même que tu m’as envoyé dans le monde,
+        moi aussi, je les ai envoyés dans le monde.
+        Et pour eux je me sanctifie moi-même,
+        afin qu’ils soient, eux aussi, sanctifiés dans la vérité. »
+    - biblicalRef: Jn 17, 20-26
+      sundayAndWeekCycles:
+      - C
+      headline: |-
+        « Qu’ils deviennent parfaitement un »
+      acclamationAntiphon: |-
+        Je ne vous laisserai pas orphelins,
+        dit le Seigneur ;
+        je reviens vers vous, et votre cœur se réjouira.
+      content: |-
+        En ce temps-là,
+        les yeux levés au ciel, Jésus priait ainsi :
+        « Père saint,
+         je ne prie pas seulement pour ceux qui sont là,
+        mais encore pour ceux qui, grâce à leur parole, croiront en moi.
+         Que tous soient un,
+        comme toi, Père, tu es en moi, et moi en toi.
+        Qu’ils soient un en nous, eux aussi,
+        pour que le monde croie que tu m’as envoyé.
+         Et moi, je leur ai donné la gloire que tu m’as donnée,
+        pour qu’ils soient un comme nous sommes UN :
+         moi en eux, et toi en moi.
+        Qu’ils deviennent ainsi parfaitement un,
+        afin que le monde sache que tu m’as envoyé,
+        et que tu les as aimés comme tu m’as aimé.
+         Père,
+        ceux que tu m’as donnés,
+        je veux que là où je suis,
+        ils soient eux aussi avec moi,
+        et qu’ils contemplent ma gloire,
+        celle que tu m’as donnée
+        parce que tu m’as aimé avant la fondation du monde.
+         Père juste,
+        le monde ne t’a pas connu,
+        mais moi je t’ai connu,
+        et ceux-ci ont reconnu
+        que tu m’as envoyé.
+         Je leur ai fait connaître ton nom,
+        et je le ferai connaître,
+        pour que l’amour dont tu m’as aimé soit en eux,
+        et que moi aussi, je sois en eux. »
   offeringPrayer: null
   prefaceList: null
   communionAntiphon: null

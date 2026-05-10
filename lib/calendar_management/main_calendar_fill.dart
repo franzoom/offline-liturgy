@@ -421,15 +421,42 @@ Calendar calendarFill(
       liturgicalMainFeasts['CHRIST_KING']!.difference(date).inDays ~/ 7;
   ordinaryTimeDays = (32 - ordinaryWeeksLeft) * 7 + 1;
 
-  while (date.isBefore(liturgicalMainFeasts['CHRIST_KING']!.shift(7))) {
-    precedence = date.isSunday ? 6 : 13;
-
+  while (date.isBefore(liturgicalMainFeasts['CHRIST_KING']!)) {
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'ot',
       defaultCelebrationTitle:
           'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}',
-      precedence: precedence,
+      precedence: date.isSunday ? 6 : 13,
+      liturgicalColor: 'green',
+      breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
+      feastList: {},
+    );
+    calendar.addDayContent(date, dayContent);
+    date = date.shift(1);
+    ordinaryTimeDays++;
+  }
+
+  // Christ the King Sunday
+  calendar.addDayContent(date, DayContent(
+    liturgicalYear: liturgicalYear,
+    liturgicalTime: 'ot',
+    defaultCelebrationTitle: 'christ_king',
+    precedence: 3,
+    liturgicalColor: 'white',
+    breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
+    feastList: {},
+  ));
+  date = date.shift(1);
+  ordinaryTimeDays++;
+
+  while (date.isBefore(liturgicalMainFeasts['CHRIST_KING']!.shift(7))) {
+    DayContent dayContent = DayContent(
+      liturgicalYear: liturgicalYear,
+      liturgicalTime: 'ot',
+      defaultCelebrationTitle:
+          'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}',
+      precedence: 13,
       liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
       feastList: {},
@@ -459,7 +486,6 @@ void _fillFixedSolemnities(
     'HOLY_TRINITY': 3,
     'CORPUS_DOMINI': 3,
     'SACRED_HEART': 3,
-    'CHRIST_KING': 3,
   };
 
   for (final MapEntry(:key, :value) in solemnities.entries) {
@@ -488,8 +514,7 @@ void _fillFixedSolemnities(
   calendar.addItemToDay(
       DateTime(year, 11, 2), 3, 'commemoration_of_all_the_faithful_departed');
 
-  // Specific removals and relations
-  calendar.removeCelebrationFromDay(feasts['CHRIST_KING']!, 'OT_34_0');
+  // Specific relations
   calendar.addItemRelatedToFeast(
       feasts['SACRED_HEART']!, 1, 10, 'immaculate_heart_of_mary');
   calendar.addItemRelatedToFeast(

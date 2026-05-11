@@ -1,5 +1,4 @@
 import '../../classes/compline_class.dart';
-import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
@@ -42,16 +41,8 @@ Future<Compline> complineExport(
   compline.evangelicCanticle = nuncDimittis;
 
   // 4. Apply paschal alléluia to evangelic antiphon
-  final lt = choice.liturgicalTime;
-  final ea = compline.evangelicAntiphon;
-  if (ea != null) {
-    compline.evangelicAntiphon = EvangelicAntiphon(
-      common: ea.common != null ? paschalAntiphon(ea.common!, lt) : null,
-      yearA: ea.yearA != null ? paschalAntiphon(ea.yearA!, lt) : null,
-      yearB: ea.yearB != null ? paschalAntiphon(ea.yearB!, lt) : null,
-      yearC: ea.yearC != null ? paschalAntiphon(ea.yearC!, lt) : null,
-    );
-  }
+  compline.evangelicAntiphon = applyPaschalToAntiphonMap(
+      compline.evangelicAntiphon, choice.liturgicalTime);
 
   return compline;
 }
@@ -67,11 +58,26 @@ Future<Compline?> getComplineText(
   final String time = def.liturgicalTime.toLowerCase();
   final String ct = def.celebrationType.toLowerCase();
 
-  // Always load the default base for the requested day
-  final Compline base =
+  // Layer 1: default base
+  Compline base =
       await complineExtract('$_base/default.yaml', day, dataLoader);
 
-  // Determine which override file to load and which day key to use within it
+  // Layer 2: for advent/christmas solemnities, merge the time-specific file
+  // first so its antiphons and psalms serve as the intermediate base
+  if (ct == 'solemnity' || ct == 'solemnityeve') {
+    final String? intermediatePath = switch (time) {
+      'advent' => '$_base/advent.yaml',
+      'christmas' || 'christmasoctave' => '$_base/christmas.yaml',
+      _ => null,
+    };
+    if (intermediatePath != null) {
+      final Compline intermediate =
+          await complineExtract(intermediatePath, day, dataLoader);
+      if (!intermediate.isEmpty) base = base.mergeWith(intermediate);
+    }
+  }
+
+  // Layer 3: solemnity/time override
   final (String? path, String overrideDay) = switch (ct) {
     'holy_thursday' || 'holy_friday' || 'holy_saturday' => ('$_base/lent.yaml', ct),
     'solemnity' || 'solemnityeve' => switch (time) {

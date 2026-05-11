@@ -51,25 +51,6 @@ class Invitatory {
   }
 }
 
-/// Evangelic antiphon (Benedictus / Magnificat) - used by Compline
-class EvangelicAntiphon {
-  final String? common;
-  final String? yearA;
-  final String? yearB;
-  final String? yearC;
-
-  const EvangelicAntiphon({this.common, this.yearA, this.yearB, this.yearC});
-
-  factory EvangelicAntiphon.fromJson(Map<String, dynamic> json) {
-    return EvangelicAntiphon(
-      common: json['common']?.toString(),
-      yearA: json['yearA']?.toString(),
-      yearB: json['yearB']?.toString(),
-      yearC: json['yearC']?.toString(),
-    );
-  }
-}
-
 /// Parses evangelicAntiphon from YAML data.
 /// Returns a `Map<String, List<String>>` with keys: "antiphon", "A", "B", "C".
 /// Values are always lists for uniform downstream handling.

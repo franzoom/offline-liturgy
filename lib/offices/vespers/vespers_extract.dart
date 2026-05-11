@@ -29,7 +29,7 @@ Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
     } catch (e) {
       print('⚠️ Could not parse oration in $relativePath: $e');
     }
-    final Map<String, dynamic>? rootAntiphon =
+    final Map<String, List<String>>? rootAntiphon =
         parseEvangelicAntiphon(data['evangelicAntiphon']);
 
     // 4. Extract the specific Vespers section

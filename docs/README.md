@@ -1,103 +1,290 @@
-# The offline-liturgy Project
+# offline_liturgy
 
-This dart program creates the liturgical agenda for the Catholic Roman Rite and exports the offices of the Catholic Breviary. (project: export of the Roman Missal)
+A Dart package that builds a universal Catholic liturgical calendar and resolves the full content of the Divine Office (Liturgy of the Hours) and the Mass for any given day and location.
 
-## functionalities
+---
 
-This program is meant to be a package for a liturgical interface (for the moment it's used by a beta version of the French AELF hosted on gitlab)
-The Compline Resolver is working, and the Morning is on its way. 
-The main.dart file is used in order to test and try the package capabilities. 
+## Overview
 
-## Building a Calendar
+`offline_liturgy` operates in two stages:
 
-The Calendar is built with the calendarFillfunction, with the following steps:
+1. **Calendar building** — computes a complete liturgical calendar for a given year and location, with all feasts, seasons, and priorities resolved.
+2. **Office resolution** — for any day in that calendar, retrieves the full content of each liturgical hour: Morning Prayer (Lauds), Vespers, Office of Readings, Compline, and Midday Prayer.
 
-1. definition of the mobile feasts with the *createLiturgicalDays* function.
-2. the *calendarFill* function adds all this mobile feasts and adds the ferial days (ordinary, lent, christmas, advent and paschal) and the Chrismas and Paschal Octaves.
-3. *calendarFill* calls *addFeastsToCalendar* which adds all the feasts and memories of the General Roman Calendar.
-4. invocation of the local calendars. This calendars call themselves with a growing order. Lyon will call France, that will call Europe. Is this way, all the events of the local calendars are added in the main calendar.
+All content (psalms, hymns, readings, antiphons) is stored locally as YAML files and loaded on demand. No network connection is required.
 
-The calendar Map is stored in *calendar*.
+---
 
-# The complineDefinitionResolution function
+## Core Concepts
 
-complineDefinitionResolution(calendar, DateTime(x,x,x)) is called to return the day Complines.
-(for the moment:) if the calendar doesn't exist or doesn't possess that date, the calendar is calculater and stored in assets/calendar.json.
+### Liturgical Calendar
 
-## Structure returned by the Compline function:
+The Catholic liturgical year is divided into seasons:
 
-- <compline.complineCommentary> some commentaries about the Compline use (if they are facultative)
-- <compline.celebrationType> indication about the type of Complines: ('normal', 'solemnity' ou 'solemnityEve')
-- introduction of the Office: use the file '.lib/assets/libraries/fixed-texts_library.dart': fixedTexts['officeIntroduction'] to display the html content.
-- <compline.complineHymns> list possible possible hymns for the day.
-  every elemnt of the list is a key refercenint to the Map<String, Hymns> in '.lib/assets/libraries/hymns_library.dart'. For each key we receive 3 elements:
-  - <<title> : official title of the Hymn
-  - <author> author of the Hymn (not always provided)
-  - <content> is the text of the Hymn in html code.
-- <compline.complinePsalm1Antiphon>: first antiphon of first Psalm
-- <compline.complinePsalm1Antiphon2>: second antiphon of first Psalm. If it's not empty, it should be great to display the first antiphon, then "or" and the second antiphon.
-- <compline.complinePsalm1> key of the psalm of canticle to be found in '../assets/libraries/psalms_library.dart'
-  - <psalms[compline.complinePsalm1]!.getTitle> returns the title of the psalm or canticle (can be empty)
-  - <psalms[compline.complinePsalm1]!.getSubtitle> returns the subtitle only for the canticles (can be empty)
-  - <psalms[compline.complinePsalm1]!.getCommentary> returns the biblical description of the psalm or canticle. It should be great to have the opportunity to display it (in shorter size ?)
-  - <psalms[compline.complinePsalm1]!.getBiblicalReference> returns the biblical reference (only for the canticles)
-  - <psalms[compline.complinePsalm1]!.getContent> returns the text of the psalm or canticle, formatted in html
-- if <compline.complinePsalm2> is not empty (there is a second psalm), we use the same receipe for this second psalm
-- <compline.complineReadingRef>: reference of the biblical reading
-- <compline.complineReading>: content of the biblical reading
-- <compline.complineResponsory>: responsory text
-- <compline.complineEvangelicAntiphon>: antiphon for the Evangelic Canticle
-- the Evangelic Canticle (Symeon Canticle) will be found in the psalms_library, using the key "NT_3": psalms['NT_3']
-- <compline.complineOration>: list of the final orations. If there is more than one oration, display both, separated by "or".
-- <compline.marialHymnRef>: marial hymns list. Same use as the hymns list for the beginning of the Compline Office
-- conclusion of the Office: use the file '.lib/assets/libraries/fixed-texts_library.dart': fixedTexts['complineConclusion'] to display the html content.
+| Code | Season |
+|---|---|
+| `advent` | Advent |
+| `nativity` | Christmas Day |
+| `christmasoctave` | Octave of Christmas (Dec 26–Jan 1) |
+| `christmas` | Christmas Time (after octave) |
+| `lent` | Lent |
+| `holyweek` | Holy Week |
+| `paschaloctave` | Octave of Easter |
+| `easter` | Easter Time |
+| `ot` | Ordinary Time |
 
-# THE DAY OFFICE CLASS
+Each day has a **precedence level** (1–13) that determines which celebration takes priority when multiple feasts coincide:
 
-This class contains all the possible datas for the 4 offices of the day (Complines excluded)
+| Level | Type |
+|---|---|
+| 1–3 | Solemnities |
+| 4–5 | Feasts |
+| 6–9 | Obligatory memorials |
+| 10–11 | Optional memorials |
+| 12 | Commemorations |
+| 13 | Ferial days (weekdays of a season) |
 
-## Particular keys
+During privileged seasons (Advent, Lent, Octaves), obligatory memorials are automatically downgraded to optional.
 
-- celebrationTitle
-- celebrationSubtitle
-- celebrationDescription: texte describing some elements of the saints' life.
-- commons: list of commons possibles for this celebration
-- precedence (usefull ?)
-- liturgicalColor
+### Locations
 
-## Methods
+The package supports a hierarchical geography of liturgical locations, each with its own proper feasts:
 
-- fromJSON: creates an instance of the Class by extracting all the datas of a given JSON file
+```
+Continent → Country → Diocese → City → Church / Community
+```
 
-# THE MORNING CLASS
+Each location can add, suppress, or move feasts relative to the universal Roman calendar. Locations are defined in YAML files under `assets/locations/`.
 
-This class is used to define a the final form of the office.
+### Liturgical Years (A / B / C)
 
-1. Firstable the datas are picked with the day_office Class
-2. then a Common is chosen (if needed)
-3. then the MorningData can be set up, using the datas of day_office (Proper) and the chosen Common.
+The three-year cycle (A, B, C) governs which patristic readings and evangelic antiphons are used on a given year.
 
-## Description of the Class
+---
 
-- describes all the elements used for the Morning Office
-- adds the elements describing the celebration:
+## Getting Started
 
-  - celebrationTitle and Subtitle
-  - description of the celebration
-  - precedence
-  - liturgialColor
-  - common used
+Add the package to your `pubspec.yaml`:
 
-## Methods of the Class:
+```yaml
+dependencies:
+  offline_liturgy:
+    path: ../offline-liturgy  # or published package reference
+```
 
-- fromDayOffices: extracts the usefull datas from an instance of DayOffices containing all the datas of a whole day (coming from the json files)
-- overlay: merges with another set of MorningDatas. Used to add a layer on another layer (proper on common, for example).
-- setInvitatoryPsalms: used after all the merging part, in order to exclude the Invitatory Psalms already used in the Morning Office.
+### 1. Load liturgical data
 
-## example of use:
+```dart
+import 'package:offline_liturgy/offline_liturgy.dart';
 
-var morning = Morning();
-morning
-..overlay(overlayCommon)
-..overlay(overlaySpecific)
-..setInvitatoryPsalms();
+final data = await LiturgyData.load(); // CLI / Dart standalone
+// or, in Flutter:
+// final data = await LiturgyData.loadFromDataLoader(myDataLoader);
+```
+
+`LiturgyData` loads all universal feasts and location definitions from the asset files.
+
+### 2. Build the calendar
+
+```dart
+final calendar = getCalendar(
+  Calendar(),
+  DateTime(2026, 2, 18), // any date in the target liturgical year
+  'lyon',                 // location ID (matches a file in assets/locations/)
+  data,
+);
+```
+
+This returns a `Calendar` covering **two full liturgical years** (year N and N+1) to handle boundary dates correctly.
+
+### 3. Inspect a day
+
+```dart
+final day = calendar.getDayContent(DateTime(2026, 3, 25));
+
+print(day.liturgicalTime);          // e.g. 'lent'
+print(day.liturgicalColor);         // e.g. 'violet'
+print(day.precedence);              // e.g. 3
+print(day.defaultCelebrationTitle); // e.g. 'Annonciation du Seigneur'
+print(day.feastList);               // Map<int, List<String>> — feasts by precedence
+```
+
+### 4. Detect available offices for a day
+
+```dart
+final celebrations = await detectCelebrations(calendar, DateTime(2026, 3, 25), dataLoader);
+// returns a List<CelebrationContext> sorted by precedence (most solemn first)
+```
+
+Each `CelebrationContext` contains everything needed to load the office content: celebration code, liturgical season, breviary week, commons list, liturgical color, origin location, etc.
+
+### 5. Load an office
+
+Pass the `CelebrationContext` to the appropriate resolution function:
+
+```dart
+// Morning Prayer (Lauds)
+final morning = await morningExtract(context.celebrationCode, dataLoader);
+
+// Vespers
+final vespers = await vespersExtract(context.celebrationCode, dataLoader);
+
+// Office of Readings
+final readings = await readingsExtract(context.celebrationCode, dataLoader);
+
+// Compline
+final compline = await complineExtract(context.celebrationCode, dataLoader);
+```
+
+For **ferial days** (ordinary weekdays), use the ferial resolution functions which apply the 4-week psalter cycle, seasonal overlays, and hierarchical commons:
+
+```dart
+final morning = await ferialMorningResolution(context, dataLoader);
+```
+
+---
+
+## Office Structure
+
+Each office is a Dart class with typed fields:
+
+### Morning (Lauds)
+
+```dart
+class Morning {
+  Celebration? celebration;
+  Invitatory? invitatory;          // Opening psalm + antiphon
+  List<HymnEntry>? hymn;
+  List<PsalmEntry>? psalmody;      // Psalms with antiphons
+  Reading? reading;                // Short biblical reading
+  String? responsory;
+  Map<String, String>? evangelicAntiphon; // Benedictus antiphon (A/B/C)
+  Psalm? evangelicCanticle;        // Benedictus
+  Intercession? intercession;
+  List<String>? oration;
+}
+```
+
+### Vespers
+
+Same structure as Morning, with `Magnificat` as the evangelic canticle. Vespers distinguishes between `vespers1` (first vespers, eve of a solemnity) and `vespers2` (second vespers, the day itself).
+
+### Office of Readings
+
+```dart
+class Readings {
+  List<PsalmEntry>? psalmody;
+  List<BiblicalReading>? biblicalReading;    // Long biblical passage
+  List<PatristicReading>? patristicReading;  // Patristic or hagiographic text
+  bool? tedeum;                              // Te Deum included (feasts/solemnities)
+}
+```
+
+### Compline
+
+```dart
+class Compline {
+  String? celebrationType;     // 'normal' | 'solemnity' | 'eve'
+  List<HymnEntry>? hymns;
+  List<PsalmEntry>? psalmody;
+  Reading? reading;
+  Psalm? evangelicCanticle;   // Nunc Dimittis
+  List<HymnEntry>? marialHymnRef; // Marian antiphon (varies by day/season)
+}
+```
+
+### Midday Prayer (Terce, Sext, None)
+
+```dart
+class MiddleOfDay {
+  HourOffice? tierce;   // Antiphon + reading + responsory + oration
+  HourOffice? sexte;
+  HourOffice? none;
+}
+```
+
+---
+
+## Hierarchical Commons
+
+When a feast has no proper office of its own, the package resolves a **common** — a set of texts appropriate to the type of saint (apostle, martyr, virgin, doctor, etc.).
+
+Commons are resolved hierarchically: a more specific common inherits from and overrides a more general one. Seasonal variants are applied automatically.
+
+Example: `martyrs_male_priest` during Lent loads and overlays:
+
+```
+commons/martyrs.yaml
+commons/martyrs_lent.yaml
+commons/martyrs_male.yaml
+commons/martyrs_male_lent.yaml
+commons/martyrs_male_priest.yaml
+commons/martyrs_male_priest_lent.yaml
+```
+
+---
+
+## Mobile Feasts
+
+All moveable feasts are computed from Easter using the Meeus/Jones/Butcher algorithm. Key dates include:
+
+- **Easter** — base for all mobile dates
+- **Ascension** — 39 days after Easter (can be moved to Sunday per location)
+- **Pentecost** — 49 days after Easter
+- **Corpus Christi**, **Sacred Heart**, **Christ the King**
+- **Annunciation** — transferred if it falls in Holy Week or the Paschal Octave
+- **Saint Joseph** — transferred if it falls in Holy Week
+- **Epiphany** — fixed on January 6, or moved to the nearest Sunday (per location)
+
+---
+
+## Asset Structure
+
+```
+assets/
+  calendar_data/
+    common_feasts.yaml          # 200+ universal Roman feasts
+    ferial_days/                # season_week_day.yaml  (e.g. ot_3_5.yaml)
+    special_days/               # nativity, easter, pentecost, holy_thursday, advent_17–24, etc.
+    commons/                    # hierarchical common texts
+    complines/                  # compline texts by weekday and season
+    sanctoral/                  # individual saint YAML files
+  locations/                    # continent / country / diocese / city YAML files
+  hymns/                        # ~60 liturgical hymns (French)
+  psalms/                       # PSALM_1–150, OT_1–43, NT_1–12 + gradual psalms
+  mass_missal/                  # Mass texts
+```
+
+---
+
+## DataLoader
+
+The `DataLoader` abstraction decouples asset loading from the runtime environment:
+
+```dart
+abstract class DataLoader {
+  Future<String> load(String relativePath);
+  Future<String> loadYaml(String relativePath);
+  Future<List<String>> listFiles(String prefix);
+}
+```
+
+- `FileSystemDataLoader` — reads from disk (CLI / Dart standalone)
+- Provide your own implementation for Flutter (`rootBundle`) or other environments
+
+---
+
+## Language Support
+
+All liturgical content (psalms, hymns, readings, antiphons, feast titles) is currently in **French**. The package architecture supports multiple languages via location YAML files and content libraries; additional language sets can be added without structural changes.
+
+---
+
+## Development
+
+```bash
+dart pub get              # install dependencies
+dart analyze              # static analysis
+dart format lib/ test/    # format source
+dart run test/calendar_output.dart  # generate a sample calendar (Lyon, 2026) → test/calendar_output.txt
+```

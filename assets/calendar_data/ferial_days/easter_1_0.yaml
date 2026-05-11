@@ -2,19 +2,19 @@ celebration:
   title: Dimanche de Pâques
   subtitle: La Résurrection du Seigneur
   commons:
-    - easter
+  - easter
 
 oration:
-    - Aujourd’hui, Dieu notre Père, tu nous ouvres la vie éternelle par la victoire de ton Fils sur la mort, et nous fêtons sa résurrection. Que ton Esprit fasse de nous des hommes nouveaux pour que nous ressuscitions avec le Christ dans la lumière de la vie. Lui qui règne.
+- Aujourd’hui, Dieu notre Père, tu nous ouvres la vie éternelle par la victoire de ton Fils sur la mort, et nous fêtons sa résurrection. Que ton Esprit fasse de nous des hommes nouveaux pour que nous ressuscitions avec le Christ dans la lumière de la vie. Lui qui règne.
 
 readings:
   psalmody:
-    - psalm: PSALM_0
-    - psalm: PSALM_0
-    - psalm: PSALM_0
-  verse: 
+  - psalm: PSALM_0
+  - psalm: PSALM_0
+  - psalm: PSALM_0
+  verse:
   biblicalReading:
-    - content: 
+  - content:
 
 morning:
   reading:
@@ -29,7 +29,8 @@ morning:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Le soleil s’est levé : ne cherchez plus parmi les morts le Fils de l’homme : il a brisé les verrous de la mort, alléluia !
   intercession:
     content: |-
@@ -53,15 +54,15 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_117_1
-      antiphon:
-        - Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !
-    - psalm: PSALM_117_2
-      antiphon:
-        - Livré pour nos fautes, Christ est ressuscité pour nous justifier, aléluia !
-    - psalm: PSALM_117_3
-      antiphon:
-        - Ressusités avec le Christ, recherchez les choses d’en haut, alléluia !
+  - psalm: PSALM_117_1
+    antiphon:
+    - Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !
+  - psalm: PSALM_117_2
+    antiphon:
+    - Livré pour nos fautes, Christ est ressuscité pour nous justifier, aléluia !
+  - psalm: PSALM_117_3
+    antiphon:
+    - Ressusités avec le Christ, recherchez les choses d’en haut, alléluia !
 
   tierce:
     reading:
@@ -89,7 +90,8 @@ vespers:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Jésus vient, toutes portes closes. Il se tient au milieu de ses disciples. Il leur dit : La paix soit avec vous ! Alléluia !
   intercession:
     content: |-
@@ -116,9 +118,9 @@ vespers:
 mass:
 - massType: easter_vigil
   name: Veillée Pascale
-  note: null
-  entranceAntiphon: null
-  collect: null
+  note:
+  entranceAntiphon:
+  collect:
   readingParts:
   - partType: READING
     partContents:
@@ -879,7 +881,7 @@ mass:
     fais que les mystères inaugurés dans la célébration pascale /
       nous procurent, avec l’aide de ta grâce, la guérison éternelle.
     Par le Christ, notre Seigneur.
-  prefaceList: null
+  prefaceList:
   communionAntiphon:
   - biblicalRef: 1 Co 5, 7–8
     content: |-
@@ -892,10 +894,10 @@ mass:
       afin que soient unis par ta tendresse /
       ceux que tu as nourris des sacrements de Pâques.
     Par le Christ, notre Seigneur.
-  solemnBlessingList: null
+  solemnBlessingList:
 - massType: day_mass
   name: Messe du jour de Pâques
-  note: null
+  note:
   entranceAntiphon:
   - biblicalRef: Ps 138, 18. 5-6 (Vg)
     content: |-
@@ -1136,7 +1138,7 @@ mass:
     de manière admirable, /
     naît à la vie nouvelle et reçoit sa nourriture.
     Par le Christ, notre Seigneur.
-  prefaceList: null
+  prefaceList:
   communionAntiphon:
   - biblicalRef: 1 Co 5, 7–8
     content: |-
@@ -1150,13 +1152,13 @@ mass:
     afin que, déjà renouvelée par les sacrements de Pâques, /
       elle parvienne à la lumière de la résurrection.
     Par le Christ, notre Seigneur.
-  solemnBlessingList: null
+  solemnBlessingList:
 
 - massType: easter_vigil
   name: Veillée Pascale
-  note: null
-  entranceAntiphon: null
-  collect: null
+  note:
+  entranceAntiphon:
+  collect:
   readingParts:
   - partType: READING
     partContents:
@@ -1917,7 +1919,7 @@ mass:
     fais que les mystères inaugurés dans la célébration pascale /
       nous procurent, avec l’aide de ta grâce, la guérison éternelle.
     Par le Christ, notre Seigneur.
-  prefaceList: null
+  prefaceList:
   communionAntiphon:
   - biblicalRef: 1 Co 5, 7–8
     content: |-
@@ -1930,10 +1932,10 @@ mass:
       afin que soient unis par ta tendresse /
       ceux que tu as nourris des sacrements de Pâques.
     Par le Christ, notre Seigneur.
-  solemnBlessingList: null
+  solemnBlessingList:
 - massType: day_mass
   name: Messe du jour de Pâques
-  note: null
+  note:
   entranceAntiphon:
   - biblicalRef: Ps 138, 18. 5-6 (Vg)
     content: |-
@@ -2174,7 +2176,7 @@ mass:
     de manière admirable, /
     naît à la vie nouvelle et reçoit sa nourriture.
     Par le Christ, notre Seigneur.
-  prefaceList: null
+  prefaceList:
   communionAntiphon:
   - biblicalRef: 1 Co 5, 7–8
     content: |-
@@ -2188,4 +2190,4 @@ mass:
     afin que, déjà renouvelée par les sacrements de Pâques, /
       elle parvienne à la lumière de la résurrection.
     Par le Christ, notre Seigneur.
-  solemnBlessingList: null
+  solemnBlessingList:

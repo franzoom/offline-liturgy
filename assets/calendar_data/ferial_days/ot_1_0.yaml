@@ -1,29 +1,29 @@
 celebration:
   title: Baptême du Seigneur
   subtitle: Dimanche après l’Épiphanie
-  description: null
+  description:
   color: white
 
 oration:
-    - Dieu éternel et tout-puissant, quand le Christ fut baptisé dans le Jourdain, et que l’Esprit Saint reposa sur lui, tu l’as désigné comme ton Fils bien-aimé ; accorde à tes fils adoptifs, nés de l’eau et de l’Esprit, de se garder toujours dans ta sainte volonté.
+- Dieu éternel et tout-puissant, quand le Christ fut baptisé dans le Jourdain, et que l’Esprit Saint reposa sur lui, tu l’as désigné comme ton Fils bien-aimé ; accorde à tes fils adoptifs, nés de l’eau et de l’Esprit, de se garder toujours dans ta sainte volonté.
 
 firstVespers:
   hymn:
-    - il-viendra
+  - il-viendra
   psalmody:
-    - psalm: PSALM_140
-      antiphon:
-        - Que ma prière devant toi s’élève comme un encens ; et mes mains, comme l’offrande du soir.
-        - |-
-          Seigneur, je t’appelle : accours vers moi !
-    - psalm: PSALM_141
-      antiphon:
-        - Tu es ma part, ô Seigneur, sur la terre des vivants.
-        - |-
-          Délivre-moi, Seigneur : que je rende grâce à ton nom.
-    - psalm: NT_5
-      antiphon:
-        - Jésus Christ est Seigneur, à la gloire de Dieu le Père !
+  - psalm: PSALM_140
+    antiphon:
+    - Que ma prière devant toi s’élève comme un encens ; et mes mains, comme l’offrande du soir.
+    - |-
+      Seigneur, je t’appelle : accours vers moi !
+  - psalm: PSALM_141
+    antiphon:
+    - Tu es ma part, ô Seigneur, sur la terre des vivants.
+    - |-
+      Délivre-moi, Seigneur : que je rende grâce à ton nom.
+  - psalm: NT_5
+    antiphon:
+    - Jésus Christ est Seigneur, à la gloire de Dieu le Père !
   reading:
     biblicalReference: Rm 11, 33-36
     content: Quelle profondeur dans la richesse, la sagesse et la science de Dieu ! Ses décisions sont insondables, ses chemins sont impénétrables ! Qui a connu la pensée du Seigneur ? Qui a été son conseiller ? Qui lui a donné en premier et mériterait de recevoir en retour ? Car tout est de lui, et par lui, et pour lui. À lui la gloire pour l’éternité ! Amen.
@@ -39,7 +39,7 @@ firstVespers:
   intercession:
     content: |-
       Pour rendre gloire au Père, au Fils et à l’Esprit, prions et supplions :
-      
+
       R/ Sauve-nous, Dieu de l’univers !
 
       Béni sois-tu, Seigneur, pour le monde et ses merveilles : 
@@ -59,39 +59,39 @@ firstVespers:
 
 invitatory:
   antiphon:
-    - Venez, crions de joie pour Dieu, notre Sauveur !
+  - Venez, crions de joie pour Dieu, notre Sauveur !
 
 readings:
   hymn:
-    - au-commencement
+  - au-commencement
   psalmody:
-    - psalm: PSALM_1
-      antiphon:
-        - L’arbre de vie, c’est ta croix, Seigneur, alléluia.
-    - psalm: PSALM_2
-      antiphon:
-        - |-
-          Voici le roi que j’établis sur ma sainte montagne : c’est mon Fils bien-aimé. Alléluia.
-    - psalm: PSALM_3
-      antiphon:
-        - Tu es pour moi un bouclier, Seigneur, la gloire qui me tient la tête haute.
+  - psalm: PSALM_1
+    antiphon:
+    - L’arbre de vie, c’est ta croix, Seigneur, alléluia.
+  - psalm: PSALM_2
+    antiphon:
+    - |-
+      Voici le roi que j’établis sur ma sainte montagne : c’est mon Fils bien-aimé. Alléluia.
+  - psalm: PSALM_3
+    antiphon:
+    - Tu es pour moi un bouclier, Seigneur, la gloire qui me tient la tête haute.
   verse: |-
     V/ Que la parole du Christ habite en vous dans sa richesse.
     Instruisons-nous les uns les autres en toute sagesse.
 
 morning:
   hymn:
-    - n-allons-plus-nous-derobant
+  - n-allons-plus-nous-derobant
   psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - Mon âme a soif de toi, toi que je cherche dès l’aube.
-        - Je veux te bénir tout au long de ma vie, alléluia.
-    - psalm: OT_41
-    - psalm: PSALM_149
-      antiphon:
-        - Alléluia !
-        - À toi, le peuple des humbles, la joie de ton Dieu, ton créateur !
+  - psalm: PSALM_62
+    antiphon:
+    - Mon âme a soif de toi, toi que je cherche dès l’aube.
+    - Je veux te bénir tout au long de ma vie, alléluia.
+  - psalm: OT_41
+  - psalm: PSALM_149
+    antiphon:
+    - Alléluia !
+    - À toi, le peuple des humbles, la joie de ton Dieu, ton créateur !
   reading:
     biblicalReference: Ap 7, 10.12
     content: Le salut est donné par notre Dieu, lui qui siège sur le Trône, et par l’Agneau ! Louange, gloire, sagesse et action de grâce, honneur, puissance et force à notre Dieu pour les siècles des siècles ! Amen !
@@ -101,7 +101,8 @@ morning:
     V/ Toi qui es assis à la droite du Père. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Bénissez le Seigneur notre Dieu, faites retentir sa louange : il nous a rendu la vie, alléluia.
   intercession:
     content: |-
@@ -123,15 +124,15 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_117_1
-      antiphon:
-        - Alléluia.
-    - psalm: PSALM_117_2
-      antiphon:
-        - Alléluia.
-    - psalm: PSALM_117_3
-      antiphon:
-        - Alléluia.
+  - psalm: PSALM_117_1
+    antiphon:
+    - Alléluia.
+  - psalm: PSALM_117_2
+    antiphon:
+    - Alléluia.
+  - psalm: PSALM_117_3
+    antiphon:
+    - Alléluia.
 
   tierce:
     reading:
@@ -158,18 +159,18 @@ middleOfDay:
       je garderai tes commandements
 vespers:
   hymn:
-    - reste-avec-nous-seigneur-jesus
+  - reste-avec-nous-seigneur-jesus
   psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - |-
-          Oracle du Seigneur à mon seigneur : Siège à ma droite.
-        - Dieu a tiré le Christ de la mort et l’a fait siéger dans sa gloire.
-    - psalm: PSALM_113A
-      antiphon:
-        - Devant la face du Seigneur, l’eau vive jaillira, alléluia !
-        - Baptisé dans la mort du Seigneur, nous vivrons avec lui.
-    - psalm: NT_12
+  - psalm: PSALM_109
+    antiphon:
+    - |-
+      Oracle du Seigneur à mon seigneur : Siège à ma droite.
+    - Dieu a tiré le Christ de la mort et l’a fait siéger dans sa gloire.
+  - psalm: PSALM_113A
+    antiphon:
+    - Devant la face du Seigneur, l’eau vive jaillira, alléluia !
+    - Baptisé dans la mort du Seigneur, nous vivrons avec lui.
+  - psalm: NT_12
   reading:
     biblicalReference: 2 Co 1, 3-4
     content: Béni soit Dieu, le Père de notre Seigneur Jésus Christ, le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte ; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse, grâce au réconfort que nous recevons nous-mêmes de Dieu.
@@ -180,7 +181,8 @@ vespers:
     V/ Maintenant et pour les siècles des siècles. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Baptisés dans le Christ, vous avez revêtu le Christ, alléluia.
+    common:
+    - Baptisés dans le Christ, vous avez revêtu le Christ, alléluia.
   intercession:
     content: |-
       Adorons le Christ, Seigneur. Il est la tête ; nous sommes les membres de son corps :
@@ -205,9 +207,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
+  note:
+  entranceAntiphon:
+  collect:
   readingParts:
   - partType: READING
     partContents:
@@ -708,8 +710,8 @@ mass:
         et il y eut une voix venant du ciel :
         « Toi, tu es mon Fils bien-aimé ;
         en toi, je trouve ma joie. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  offeringPrayer:
+  prefaceList:
+  communionAntiphon:
+  prayerAfterCommunion:
+  solemnBlessingList:

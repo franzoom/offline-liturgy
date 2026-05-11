@@ -134,7 +134,9 @@ morning:
     R/ Il est notre salut, notre gloire éternelle !
     V/ Si nous mourons avec lui, avec lui, nous vivrons. R/
     V/ Si nous souffrons avec lui, avec lui nous régnerons. R/
-  evangelicAntiphon: Pourquoi chercher parmi les morts celui qui est vivant ? Christ est vainqueur de la mort, alléluia ! Aux morts il a donné la vie, alléluia !
+  evangelicAntiphon:
+    common: 
+      - Pourquoi chercher parmi les morts celui qui est vivant ? Christ est vainqueur de la mort, alléluia ! Aux morts il a donné la vie, alléluia !
   intercession:
     content: |-
       Nous levons nos mains et nos cœurs vers notre Dieu, Seigneur du ciel et de la terre :

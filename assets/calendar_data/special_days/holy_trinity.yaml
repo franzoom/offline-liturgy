@@ -3,20 +3,20 @@ celebration:
   color: white
 
 oration:
-  - Dieu notre Père, tu as envoyé dans le monde ta Parole de vérité et ton Esprit de sainteté pour révéler aux hommes ton admirable mystère ; donne-nous de professer la vrai foi en reconnaissant la gloire de l’éternelle Trinité, en adorant son Unité toute-puissante.
+- Dieu notre Père, tu as envoyé dans le monde ta Parole de vérité et ton Esprit de sainteté pour révéler aux hommes ton admirable mystère ; donne-nous de professer la vrai foi en reconnaissant la gloire de l’éternelle Trinité, en adorant son Unité toute-puissante.
 
 firstVespers:
   hymn:
-    - nous-t-adorons-seigneur
+  - nous-t-adorons-seigneur
   psalmody:
-    - psalm: PSALM_112
-      antiphon:
-        - |-
-          Béni soit le nom du Seigneur : tout est de lui, tout est par lui, tout est pour lui, alléluia !
-    - psalm: PSALM_147
-      antiphon:
-        - Gloire à toi, Dieu Très-Haut, qui envoies ta Parole et répands ton Souffle pour que se lève un peuple nouveau, alléluia !
-    - psalm: NT_4
+  - psalm: PSALM_112
+    antiphon:
+    - |-
+      Béni soit le nom du Seigneur : tout est de lui, tout est par lui, tout est pour lui, alléluia !
+  - psalm: PSALM_147
+    antiphon:
+    - Gloire à toi, Dieu Très-Haut, qui envoies ta Parole et répands ton Souffle pour que se lève un peuple nouveau, alléluia !
+  - psalm: NT_4
   reading:
     biblicalReference: Rm 11, 33-36
     content: Quelle profondeur dans la richesse, la sagesse et la science de Dieu ! Ses décisions sont insondables, ses chemins sont impénétrables ! Qui a connu la pensée du Seigneur ? Qui a été son conseiller ? Qui lui a donné en premier et mériterait de recevoir en retour ? Car tout est de lui, et par lui, et pour lui. À lui la gloire pour l’éternité ! Amen.
@@ -47,77 +47,77 @@ firstVespers:
 
 readings:
   hymn:
-    - dieu-inconnu
+  - dieu-inconnu
   psalmody:
-    - psalm: PSALM_8
-      antiphon:
-        - Gloire au Père, au Fils, au Saint Esprit. Gloire à celui qui est, qui était et qui vient.
-    - psalm: PSALM_32-I
-      antiphon:
-        - Amour de Dieu le Père, grâce de Jésus notre Seigneur, communion de l’Esprit Saint ! Bienheureuse Trinité !
-    - psalm: PSALM_32-II
-      antiphon:
-        - Dieu saint, Dieu juste et saint, Dieu libre et saint ! Bienheureuse Trinité !
+  - psalm: PSALM_8
+    antiphon:
+    - Gloire au Père, au Fils, au Saint Esprit. Gloire à celui qui est, qui était et qui vient.
+  - psalm: PSALM_32-I
+    antiphon:
+    - Amour de Dieu le Père, grâce de Jésus notre Seigneur, communion de l’Esprit Saint ! Bienheureuse Trinité !
+  - psalm: PSALM_32-II
+    antiphon:
+    - Dieu saint, Dieu juste et saint, Dieu libre et saint ! Bienheureuse Trinité !
   verse: |-
     V/ Le Seigneur a fait les cieux par sa parole
     et l’univers par le souffle de sa bouche.
   biblicalReading:
-    - title: LECTURE DE LA PREMIÈRE LETTRE AUX CORINTHIENS
-      subtitle: Le mystère de Dieu
-      ref: 1Co 2, 1-16
-      content: |-
-        Frères, quand je suis venu chez vous, je ne suis pas venu vous annoncer le mystère de Dieu avec le prestige du langage ou de la sagesse. Parmi vous, je n’ai rien voulu connaître d’autre que Jésus Christ, ce Messie crucifié. Et c’est dans la faiblesse, craintif et tout tremblant, que je me suis présenté à vous. Mon langage, ma proclamation de l’Évangile, n’avaient rien d’un langage de sagesse qui veut convaincre ; mais c’est l’Esprit et sa puissance qui se manifestaient, pour que votre foi repose, non pas sur la sagesse des hommes, mais sur la puissance de Dieu.
-        Pourtant, c’est bien de sagesse que nous parlons devant ceux qui sont adultes dans la foi, mais ce n’est pas la sagesse de ce monde, la sagesse de ceux qui dirigent ce monde et qui vont à leur destruction. Au contraire, ce dont nous parlons, c’est de la sagesse du mystère de Dieu, sagesse tenue cachée, établie par lui dès avant les siècles, pour nous donner la gloire. Aucun de ceux qui dirigent ce monde ne l’a connue, car, s’ils l’avaient connue, ils n’auraient jamais crucifié le Seigneur de gloire. Mais ce que nous proclamons, c’est, comme dit l’Écriture : %ce que l’œil n’a pas vu, ce que l’oreille n’a pas entendu, ce qui n’est pas venu à l’esprit de l’homme, ce que Dieu a préparé pour ceux dont il est aimé.%
-        Et c’est à nous que Dieu, par l’Esprit, en a fait la révélation. Car l’Esprit scrute le fond de toutes choses, même les profondeurs de Dieu. Qui donc, parmi les hommes, sait ce qu’il y a dans l’homme, sinon l’esprit de l’homme qui est en lui ? De même, personne ne connaît ce qu’il y a en Dieu, sinon l’Esprit de Dieu. Or nous, ce n’est pas l’esprit du monde que nous avons reçu, mais l’Esprit qui vient de Dieu, et ainsi nous avons conscience des dons que Dieu nous a accordés. Nous disons cela avec un langage que nous n’apprenons pas de la sagesse humaine, mais que nous apprenons de l’Esprit ; nous comparons entre elles les réalités spirituelles. L’homme, par ses seules capacités, n’accueille pas ce qui vient de l’Esprit de Dieu ; pour lui ce n’est que folie, et il ne peut pas comprendre, car c’est par l’Esprit qu’on examine toute chose. Celui qui est animé par l’Esprit soumet tout à examen, mais lui, personne ne peut l’y soumettre. Car il est écrit : %Qui a connu la pensée du Seigneur et qui pourra l’instruire ?%Eh bien nous, nous avons la pensée du Christ !
-      responsory: |-
-        Nul n’a jamais vu Dieu,
-        nul ne sait qu’il est Père,
-        mais Jésus nous l’a révélé.
-        
-        R/ Joie de l’homme sauvé,
-        monte jusqu’à nos lèvres !
-        
-        Nul ne connaît le Fils,
-        nul n’en sait le mystère,
-        mais les pauvres seront comblés.
-        
-        Nul ne connaît son cœur,
-        nul n’en sait la misère,
-        mais l’Esprit vient pour l’habiter.
-        
-        Nul ne saurait unir
-        les enfants de la terre,
-        mais l’amour veut tout rassembler.
+  - title: LECTURE DE LA PREMIÈRE LETTRE AUX CORINTHIENS
+    subtitle: Le mystère de Dieu
+    ref: 1Co 2, 1-16
+    content: |-
+      Frères, quand je suis venu chez vous, je ne suis pas venu vous annoncer le mystère de Dieu avec le prestige du langage ou de la sagesse. Parmi vous, je n’ai rien voulu connaître d’autre que Jésus Christ, ce Messie crucifié. Et c’est dans la faiblesse, craintif et tout tremblant, que je me suis présenté à vous. Mon langage, ma proclamation de l’Évangile, n’avaient rien d’un langage de sagesse qui veut convaincre ; mais c’est l’Esprit et sa puissance qui se manifestaient, pour que votre foi repose, non pas sur la sagesse des hommes, mais sur la puissance de Dieu.
+      Pourtant, c’est bien de sagesse que nous parlons devant ceux qui sont adultes dans la foi, mais ce n’est pas la sagesse de ce monde, la sagesse de ceux qui dirigent ce monde et qui vont à leur destruction. Au contraire, ce dont nous parlons, c’est de la sagesse du mystère de Dieu, sagesse tenue cachée, établie par lui dès avant les siècles, pour nous donner la gloire. Aucun de ceux qui dirigent ce monde ne l’a connue, car, s’ils l’avaient connue, ils n’auraient jamais crucifié le Seigneur de gloire. Mais ce que nous proclamons, c’est, comme dit l’Écriture : %ce que l’œil n’a pas vu, ce que l’oreille n’a pas entendu, ce qui n’est pas venu à l’esprit de l’homme, ce que Dieu a préparé pour ceux dont il est aimé.%
+      Et c’est à nous que Dieu, par l’Esprit, en a fait la révélation. Car l’Esprit scrute le fond de toutes choses, même les profondeurs de Dieu. Qui donc, parmi les hommes, sait ce qu’il y a dans l’homme, sinon l’esprit de l’homme qui est en lui ? De même, personne ne connaît ce qu’il y a en Dieu, sinon l’Esprit de Dieu. Or nous, ce n’est pas l’esprit du monde que nous avons reçu, mais l’Esprit qui vient de Dieu, et ainsi nous avons conscience des dons que Dieu nous a accordés. Nous disons cela avec un langage que nous n’apprenons pas de la sagesse humaine, mais que nous apprenons de l’Esprit ; nous comparons entre elles les réalités spirituelles. L’homme, par ses seules capacités, n’accueille pas ce qui vient de l’Esprit de Dieu ; pour lui ce n’est que folie, et il ne peut pas comprendre, car c’est par l’Esprit qu’on examine toute chose. Celui qui est animé par l’Esprit soumet tout à examen, mais lui, personne ne peut l’y soumettre. Car il est écrit : %Qui a connu la pensée du Seigneur et qui pourra l’instruire ?%Eh bien nous, nous avons la pensée du Christ !
+    responsory: |-
+      Nul n’a jamais vu Dieu,
+      nul ne sait qu’il est Père,
+      mais Jésus nous l’a révélé.
+
+      R/ Joie de l’homme sauvé,
+      monte jusqu’à nos lèvres !
+
+      Nul ne connaît le Fils,
+      nul n’en sait le mystère,
+      mais les pauvres seront comblés.
+
+      Nul ne connaît son cœur,
+      nul n’en sait la misère,
+      mais l’Esprit vient pour l’habiter.
+
+      Nul ne saurait unir
+      les enfants de la terre,
+      mais l’amour veut tout rassembler.
   patristicReading:
-    - title: LETTRE DE SAINT ATHANASE À SÉRAPION, ÉVÊQUE DE THMUIS
-      subtitle: Bienheureuse Trinité, un seul Dieu !
-      content: |-
-        Étudions la tradition antique, la doctrine et la foi de l’Église catholique. Le Seigneur l’a donnée, les Apôtres l’ont annoncée, les Pères l’ont gardée. C’est sur elle, en effet, que l’Église a été fondée et, si quelqu’un s’en écarte, il ne peut plus être chrétien ni en porter le nom.
-        Il y a donc une Trinité sainte et parfaite, reconnue comme Dieu dans le Père, le Fils et le Saint-Esprit ; elle ne comporte rien d’étranger, rien qui lui soit mêlé de l’extérieur ; elle n’est pas constituée du Créateur et du créé, mais elle est tout entière puissance créatrice et productrice. Elle est semblable à elle-même, indivisible par sa nature, et son activité est unique. En effet, le Père fait toutes choses par le Verbe dans l’Esprit Saint, et c’est ainsi que l’unité de la sainte Trinité est sauvegardée. C’est ainsi que dans l’Église est annoncé un seul Dieu,%qui règne au-dessus de tous, par tous et en tous. Au-dessus de tous%, comme Père, comme principe et source ;%par tous%, par le Verbe ;%en tous%, dans l’Esprit Saint. ~
-        Saint Paul, ~ écrivant aux Corinthiens, à propos des dons spirituels, rapporte toutes choses à un seul Dieu, le Père, comme à un seul chef, lorsqu’il dit : %Les dons de la grâce sont variés, mais c’est toujours le même Esprit ; les ministères dans l’Église sont variés, mais c’est toujours le même Seigneur, les activités sont variées, mais c’est toujours le même Dieu, qui fait tout en tous%. Car les dons que l’Esprit distribue à chacun sont donnés de la part du Père par le Verbe. En effet, tout ce qui est au Père est au Fils ; c’est pourquoi les biens donnés par le Fils dans l’Esprit sont les dons spirituels du Père. Quand l’Esprit est en nous, le Verbe qui nous le donne est en nous, et dans le Verbe se trouve le Père. Et c’est ainsi que s’accomplit la parole : %Nous viendrons chez lui et nous irons demeurer auprès de lui%. Là où est la lumière, là aussi est son éclat ; là où est son éclat, là aussi est son activité et sa grâce resplendissante.
-        C’est cela encore que Paul enseignait dans la seconde lettre aux Corinthiens : %Que la grâce de Jésus Christ notre Seigneur, l’amour de Dieu et la communion de l’Esprit Saint soient avec vous tous%. En effet, la grâce et le don accordés dans la Trinité sont donnés de la part du Père, par le Fils, dans l’Esprit Saint. De même que la grâce accordée vient du Père par le Fils, ainsi la communion au don ne peut se faire en nous sinon dans l’Esprit Saint. C’est en participant à lui que nous avons l’amour du Père, la grâce du Fils et la communion de l’Esprit Saint.
-      responsory: |-
-        Nul ne saurait unir
-        les enfants de la terre,
-        mais l’amour veut tout rassembler.
-        
-        R/ Joie de l’homme sauvé,
-        monte jusqu’à nos lèvres !
+  - title: LETTRE DE SAINT ATHANASE À SÉRAPION, ÉVÊQUE DE THMUIS
+    subtitle: Bienheureuse Trinité, un seul Dieu !
+    content: |-
+      Étudions la tradition antique, la doctrine et la foi de l’Église catholique. Le Seigneur l’a donnée, les Apôtres l’ont annoncée, les Pères l’ont gardée. C’est sur elle, en effet, que l’Église a été fondée et, si quelqu’un s’en écarte, il ne peut plus être chrétien ni en porter le nom.
+      Il y a donc une Trinité sainte et parfaite, reconnue comme Dieu dans le Père, le Fils et le Saint-Esprit ; elle ne comporte rien d’étranger, rien qui lui soit mêlé de l’extérieur ; elle n’est pas constituée du Créateur et du créé, mais elle est tout entière puissance créatrice et productrice. Elle est semblable à elle-même, indivisible par sa nature, et son activité est unique. En effet, le Père fait toutes choses par le Verbe dans l’Esprit Saint, et c’est ainsi que l’unité de la sainte Trinité est sauvegardée. C’est ainsi que dans l’Église est annoncé un seul Dieu,%qui règne au-dessus de tous, par tous et en tous. Au-dessus de tous%, comme Père, comme principe et source ;%par tous%, par le Verbe ;%en tous%, dans l’Esprit Saint. ~
+      Saint Paul, ~ écrivant aux Corinthiens, à propos des dons spirituels, rapporte toutes choses à un seul Dieu, le Père, comme à un seul chef, lorsqu’il dit : %Les dons de la grâce sont variés, mais c’est toujours le même Esprit ; les ministères dans l’Église sont variés, mais c’est toujours le même Seigneur, les activités sont variées, mais c’est toujours le même Dieu, qui fait tout en tous%. Car les dons que l’Esprit distribue à chacun sont donnés de la part du Père par le Verbe. En effet, tout ce qui est au Père est au Fils ; c’est pourquoi les biens donnés par le Fils dans l’Esprit sont les dons spirituels du Père. Quand l’Esprit est en nous, le Verbe qui nous le donne est en nous, et dans le Verbe se trouve le Père. Et c’est ainsi que s’accomplit la parole : %Nous viendrons chez lui et nous irons demeurer auprès de lui%. Là où est la lumière, là aussi est son éclat ; là où est son éclat, là aussi est son activité et sa grâce resplendissante.
+      C’est cela encore que Paul enseignait dans la seconde lettre aux Corinthiens : %Que la grâce de Jésus Christ notre Seigneur, l’amour de Dieu et la communion de l’Esprit Saint soient avec vous tous%. En effet, la grâce et le don accordés dans la Trinité sont donnés de la part du Père, par le Fils, dans l’Esprit Saint. De même que la grâce accordée vient du Père par le Fils, ainsi la communion au don ne peut se faire en nous sinon dans l’Esprit Saint. C’est en participant à lui que nous avons l’amour du Père, la grâce du Fils et la communion de l’Esprit Saint.
+    responsory: |-
+      Nul ne saurait unir
+      les enfants de la terre,
+      mais l’amour veut tout rassembler.
+
+      R/ Joie de l’homme sauvé,
+      monte jusqu’à nos lèvres !
 
 morning:
   hymn:
-    - nous-te-louons-seigneur
+  - nous-te-louons-seigneur
   psalmody:
-    - psalm: PSALM_62
-      antiphon:
-        - |-
-          Esprit de Jésus, sois la source qui murmure en nos cœurs assoiffés : Viens vers le Père !
-    - psalm: OT_41
-      antiphon:
-        - À lui, haute gloire, louange éternelle !
-    - psalm: PSALM_149
-      antiphon:
-        - De toutes les nations, faites des disciples ; baptisez-les au nom du Père, du Fils et de l’Esprit.
+  - psalm: PSALM_62
+    antiphon:
+    - |-
+      Esprit de Jésus, sois la source qui murmure en nos cœurs assoiffés : Viens vers le Père !
+  - psalm: OT_41
+    antiphon:
+    - À lui, haute gloire, louange éternelle !
+  - psalm: PSALM_149
+    antiphon:
+    - De toutes les nations, faites des disciples ; baptisez-les au nom du Père, du Fils et de l’Esprit.
   reading:
     biblicalReference: 1 Co 12, 4-6
     content: Les dons de la grâce sont variés, mais c’est toujours le même Esprit. Les fonctions dans l’Église sont variées, mais c’est toujours le même Seigneur. Les activités sont variées, mais c’est toujours le même Dieu qui agit en tous.
@@ -131,7 +131,8 @@ morning:
     dans un seul Esprit,
     nous chantons et nous proclamons :R/
   evangelicAntiphon:
-    common: Bénie soit la Trinité sainte et une, qui crée et gouverne toutes choses maintenant et dans les siècles sans fin.
+    common:
+    - Bénie soit la Trinité sainte et une, qui crée et gouverne toutes choses maintenant et dans les siècles sans fin.
   intercession:
     content: |-
       Adorons le Père, le Fils et l’Esprit Saint, rendons gloire à Dieu, l’Unique :
@@ -155,9 +156,9 @@ morning:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_117-I
-    - psalm: PSALM_117-II
-    - psalm: PSALM_117-III
+  - psalm: PSALM_117-I
+  - psalm: PSALM_117-II
+  - psalm: PSALM_117-III
   tierce:
     antiphon: Vers la troisième heure, l’Esprit qui procède du Père se répandit sur les disciples du Christ.
     reading:
@@ -188,18 +189,18 @@ middleOfDay:
 
 vespers:
   hymn:
-    - nous-t-acclamons-seigneur
+  - nous-t-acclamons-seigneur
   psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Jésus notre Sauveur, poussé par l’Esprit éternel, s’offrit lui-même à Dieu son Père.
-    - psalm: PSALM_113A
-      antiphon:
-        - |-
-          L’Esprit rend ce témoignage : Dieu nous a donné la vie, qui est son Fils.
-    - psalm: NT_12
-      antiphon:
-        - Alléluia, alléluia, alléluia !
+  - psalm: PSALM_109
+    antiphon:
+    - Jésus notre Sauveur, poussé par l’Esprit éternel, s’offrit lui-même à Dieu son Père.
+  - psalm: PSALM_113A
+    antiphon:
+    - |-
+      L’Esprit rend ce témoignage : Dieu nous a donné la vie, qui est son Fils.
+  - psalm: NT_12
+    antiphon:
+    - Alléluia, alléluia, alléluia !
   reading:
     biblicalReference: Ep 4, 3-6
     content: Ayez à cœur de garder l’unité dans l’Esprit par le lien de la paix. Comme votre vocation vous a tous appelés à une seule espérance, de même, il n’y a qu’un seul Corps et un seul Esprit. Il n’y a qu’un seul Seigneur, une seule foi, un seul baptême, un seul Dieu et Père de tous, qui règne au-dessus de tous, par tous, et en tous.
@@ -211,7 +212,8 @@ vespers:
     V/ Appelés à partager une seule espérance dans le Christ,
     nous chantons et nous proclamons :R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Mystère du Dieu vivant et de son amour pour les hommes : le Très-Haut nous envoie son Fils et se révèle notre Père ; le Christ exalté dans la gloire nous donne son Esprit en qui nous te louons, Dieu qui es, qui étais et qui viens !
   intercession:
     content: |-

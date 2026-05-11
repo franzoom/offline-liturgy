@@ -16,7 +16,8 @@ Calendar getCalendar(
   final bool ascensionOnSunday =
       getAscensionDate(location, data.locationData) == 'sunday';
 
-  final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode, ascensionOnSunday);
+  final cal1 = calendarFill(
+      Calendar(), eventDate, location, data, epiphanyMode, ascensionOnSunday);
   final cal2 = calendarFill(
       Calendar(),
       DateTime(eventDate.year + 1, eventDate.month, eventDate.day),
@@ -154,7 +155,7 @@ Calendar calendarFill(
   while (date.isBefore(epiphanyDate)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
-      liturgicalTime: 'beforeEpiphany',
+      liturgicalTime: 'christmas',
       defaultCelebrationTitle:
           'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
       precedence: 13,
@@ -170,7 +171,7 @@ Calendar calendarFill(
   // adjunction of the Epiphany
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
-    liturgicalTime: 'epiphany',
+    liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'epiphany',
     precedence: 3,
     liturgicalColor: 'white',
@@ -352,7 +353,8 @@ Calendar calendarFill(
 
   while (date.isBefore(liturgicalMainFeasts['ASCENSION']!)) {
     precedence = date.isSunday ? 2 : 13;
-    final bool beforeAscensionSunday = ascensionOnSunday && paschalTimeDays >= 39;
+    final bool beforeAscensionSunday =
+        ascensionOnSunday && paschalTimeDays >= 39;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaltime',
@@ -438,15 +440,17 @@ Calendar calendarFill(
   }
 
   // Christ the King Sunday
-  calendar.addDayContent(date, DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'ot',
-    defaultCelebrationTitle: 'christ_king',
-    precedence: 3,
-    liturgicalColor: 'white',
-    breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-    feastList: {},
-  ));
+  calendar.addDayContent(
+      date,
+      DayContent(
+        liturgicalYear: liturgicalYear,
+        liturgicalTime: 'ot',
+        defaultCelebrationTitle: 'christ_king',
+        precedence: 3,
+        liturgicalColor: 'white',
+        breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
+        feastList: {},
+      ));
   date = date.shift(1);
   ordinaryTimeDays++;
 

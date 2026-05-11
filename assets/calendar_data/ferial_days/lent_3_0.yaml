@@ -1,27 +1,27 @@
 celebration:
   title: Troisième Dimanche du Carême
-  subtitle: null
-  description: null
+  subtitle:
+  description:
 invitatory:
   antiphon:
-    - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
-    - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
+  - Aujourd’hui, ne fermons pas notre cœur, mais écoutons la voix du Seigneur.
+  - Les yeux fixés sur Jésus Christ, entrons dans le combat de Dieu.
 
 oration:
-    - |-
-      Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi ; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage ; écoute l’aveu de notre faiblesse : nous avons conscience de nos fautes, patiemment, relève-­nous avec amour.
+- |-
+  Tu es la source de toute bonté, Seigneur, et toute miséricorde vient de toi ; tu nous as dit comment guérir du péché par le jeûne, la prière et le par­tage ; écoute l’aveu de notre faiblesse : nous avons conscience de nos fautes, patiemment, relève-­nous avec amour.
 
 firstVespers:
   psalmody:
-    - psalm: PSALM_112
-      antiphon:
-        - Convertissez-vous ; croyez à l’Évangile.
-    - psalm: PSALM_115
-      antiphon:
-        - Je t’offrirai le sacrifice d’action de grâce ; j’invoquerai le nom du Seigneur.
-    - psalm: NT_5
-      antiphon:
-        - Ma vie, nul ne la prend ; j’ai le pouvoir de la donner et le pouvoir de la reprendre.
+  - psalm: PSALM_112
+    antiphon:
+    - Convertissez-vous ; croyez à l’Évangile.
+  - psalm: PSALM_115
+    antiphon:
+    - Je t’offrirai le sacrifice d’action de grâce ; j’invoquerai le nom du Seigneur.
+  - psalm: NT_5
+    antiphon:
+    - Ma vie, nul ne la prend ; j’ai le pouvoir de la donner et le pouvoir de la reprendre.
   reading:
     biblicalReference: 2 Co 6, 1 b-4a
     content: |-
@@ -56,50 +56,50 @@ firstVespers:
 
 readings:
   psalmody:
-    - psalm: PSALM_144_1
-      antiphon:
-        - Il n’est pas de plus grand amour que de donner sa vie pour ses amis.
-    - psalm: PSALM_144_2a
-      antiphon:
-        - Il n’est pas de plus grand amour que de donner sa vie pour ses amis.
-    - psalm: PSALM_144_3
-      antiphon:
-        - Il n’est pas de plus grand amour que de donner sa vie pour ses amis.
+  - psalm: PSALM_144_1
+    antiphon:
+    - Il n’est pas de plus grand amour que de donner sa vie pour ses amis.
+  - psalm: PSALM_144_2a
+    antiphon:
+    - Il n’est pas de plus grand amour que de donner sa vie pour ses amis.
+  - psalm: PSALM_144_3
+    antiphon:
+    - Il n’est pas de plus grand amour que de donner sa vie pour ses amis.
   verse: |-
     V/ Viens manger le pain de l’intelligence,
     et boire l’eau de la sagesse.
   biblicalReading:
-    - title: LECTURE DU LIVRE DE L’EXODE
-      subtitle: Code et justice
-      ref: Ex 22, 20 – 23, 9
-      content: |-
-        Tu n’exploiteras pas l’immigré, tu ne l’opprimeras pas, car vous étiez vous-mêmes des immigrés au pays d’Égypte. Vous n’accablerez pas la veuve et l’orphelin. Si tu les accables et qu’ils crient vers moi, j’écouterai leur cri. Ma colère s’enflammera et je vous ferai périr par l’épée : vos femmes deviendront veuves, et vos fils, orphelins. 
-        Si tu prêtes de l’argent à quelqu’un de mon peuple, à un pauvre parmi tes frères, tu n’agiras pas envers lui comme un usurier : tu ne lui imposeras pas d’intérêts. Si tu prends en gage le manteau de ton prochain, tu le lui rendras avant le coucher du soleil. C’est tout ce qu’il a pour se couvrir ; c’est le manteau dont il s’enveloppe, la seule couverture qu’il ait pour dormir. S’il crie vers moi, je l’écouterai, car moi, je suis compatissant ! 
-        Dieu, tu ne le maudiras pas, et tu ne prononceras pas de malédiction contre un chef de ton peuple. 
-        Tu ne tarderas pas à offrir le fruit de tes champs et de ton pressoir. 
-        Le premier-né de tes fils, tu me le donneras. Tu feras de même pour ton bœuf et ton petit bétail : le premier-né restera sept jours avec sa mère ; le huitième jour, tu me le donneras. 
-        Vous serez pour moi des hommes de sainteté. Vous ne mangerez pas la viande d’une bête déchirée par un fauve dans la campagne ; vous la jetterez aux chiens. 
-        « Tu ne répandras pas de vaines rumeurs. Tu ne prêteras pas main forte au méchant en lui servant de témoin à charge. 
-        Tu ne suivras pas la foule pour faire le mal ; et quand tu déposeras dans un procès, tu ne t’aligneras pas sur son opinion pour faire dévier le droit. Tu ne favoriseras pas un faible dans son procès. Quand tu rencontreras, égaré, le bœuf ou l’âne de ton ennemi, tu devras le lui ramener. Si tu vois l’âne de celui qui te déteste crouler sous la charge, tu ne le laisseras pas à l’abandon mais tu lui viendras en aide. Tu ne feras pas dévier le droit du malheureux qui s’adresse à toi lors de son procès. Tu te tiendras éloigné d’une cause mensongère. Ne tue pas l’innocent ni le juste, car je ne justifie pas le méchant. Tu n’accepteras pas de présent, car le présent aveugle les clairvoyants et compromet la cause des justes. Tu n’opprimeras pas l’immigré : vous savez bien ce qu’est sa vie, car vous avez été, vous aussi, des immigrés au pays d’Égypte.
-      responsory: |-
-        R/ Heureux qui pense au faible et au pauvre !
+  - title: LECTURE DU LIVRE DE L’EXODE
+    subtitle: Code et justice
+    ref: Ex 22, 20 – 23, 9
+    content: |-
+      Tu n’exploiteras pas l’immigré, tu ne l’opprimeras pas, car vous étiez vous-mêmes des immigrés au pays d’Égypte. Vous n’accablerez pas la veuve et l’orphelin. Si tu les accables et qu’ils crient vers moi, j’écouterai leur cri. Ma colère s’enflammera et je vous ferai périr par l’épée : vos femmes deviendront veuves, et vos fils, orphelins. 
+      Si tu prêtes de l’argent à quelqu’un de mon peuple, à un pauvre parmi tes frères, tu n’agiras pas envers lui comme un usurier : tu ne lui imposeras pas d’intérêts. Si tu prends en gage le manteau de ton prochain, tu le lui rendras avant le coucher du soleil. C’est tout ce qu’il a pour se couvrir ; c’est le manteau dont il s’enveloppe, la seule couverture qu’il ait pour dormir. S’il crie vers moi, je l’écouterai, car moi, je suis compatissant ! 
+      Dieu, tu ne le maudiras pas, et tu ne prononceras pas de malédiction contre un chef de ton peuple. 
+      Tu ne tarderas pas à offrir le fruit de tes champs et de ton pressoir. 
+      Le premier-né de tes fils, tu me le donneras. Tu feras de même pour ton bœuf et ton petit bétail : le premier-né restera sept jours avec sa mère ; le huitième jour, tu me le donneras. 
+      Vous serez pour moi des hommes de sainteté. Vous ne mangerez pas la viande d’une bête déchirée par un fauve dans la campagne ; vous la jetterez aux chiens. 
+      « Tu ne répandras pas de vaines rumeurs. Tu ne prêteras pas main forte au méchant en lui servant de témoin à charge. 
+      Tu ne suivras pas la foule pour faire le mal ; et quand tu déposeras dans un procès, tu ne t’aligneras pas sur son opinion pour faire dévier le droit. Tu ne favoriseras pas un faible dans son procès. Quand tu rencontreras, égaré, le bœuf ou l’âne de ton ennemi, tu devras le lui ramener. Si tu vois l’âne de celui qui te déteste crouler sous la charge, tu ne le laisseras pas à l’abandon mais tu lui viendras en aide. Tu ne feras pas dévier le droit du malheureux qui s’adresse à toi lors de son procès. Tu te tiendras éloigné d’une cause mensongère. Ne tue pas l’innocent ni le juste, car je ne justifie pas le méchant. Tu n’accepteras pas de présent, car le présent aveugle les clairvoyants et compromet la cause des justes. Tu n’opprimeras pas l’immigré : vous savez bien ce qu’est sa vie, car vous avez été, vous aussi, des immigrés au pays d’Égypte.
+    responsory: |-
+      R/ Heureux qui pense au faible et au pauvre !
 
-        Le Seigneur écoute le désir des pauvres,
-        il les accueille, il les rassure.
+      Le Seigneur écoute le désir des pauvres,
+      il les accueille, il les rassure.
 
-        Dieu les as choisis pour héritiers du Royaume
-        promis à ceux qui l’aiment !
+      Dieu les as choisis pour héritiers du Royaume
+      promis à ceux qui l’aiment !
 morning:
   psalmody:
-    - psalm: PSALM_92
-      antiphon:
-        - Plus que la voix des eaux profondes, tes volontés sont vraiment immuables.
-    - psalm: OT_41
-      antiphon:
-        - Sources et fontaines, bénissez le Seigneur ! À lui haute gloire, louange éternelle !
-    - psalm: PSALM_148
-      antiphon:
-        - Rois de la terre et vous, tous les peuples, louez le nom du Seigneur.
+  - psalm: PSALM_92
+    antiphon:
+    - Plus que la voix des eaux profondes, tes volontés sont vraiment immuables.
+  - psalm: OT_41
+    antiphon:
+    - Sources et fontaines, bénissez le Seigneur ! À lui haute gloire, louange éternelle !
+  - psalm: PSALM_148
+    antiphon:
+    - Rois de la terre et vous, tous les peuples, louez le nom du Seigneur.
   reading:
     biblicalReference: Ne 8, 9.10
     content: |-
@@ -113,7 +113,8 @@ morning:
     V/ Gloire et puissance au Père et au Fils,
     au Saint-Esprit qui chante en nos cœurs. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Du sanctuaire de son corps, le Seigneur disait : Détruisez ce temple, en trois jours je le rebâtirai.
   intercession:
     content: |-
@@ -134,15 +135,15 @@ morning:
       et tu nous appelles tous à la résurrection.
 middleOfDay:
   psalmody:
-    - psalm: PSALM_117_1
-      antiphon:
-        - Ma force et mon chant, c’est le Seigneur.
-    - psalm: PSALM_117_2
-      antiphon:
-        - Ma force et mon chant, c’est le Seigneur.
-    - psalm: PSALM_117_3
-      antiphon:
-        - Ma force et mon chant, c’est le Seigneur.
+  - psalm: PSALM_117_1
+    antiphon:
+    - Ma force et mon chant, c’est le Seigneur.
+  - psalm: PSALM_117_2
+    antiphon:
+    - Ma force et mon chant, c’est le Seigneur.
+  - psalm: PSALM_117_3
+    antiphon:
+    - Ma force et mon chant, c’est le Seigneur.
   tierce:
     reading:
       biblicalReference: 1 Th 4, 1.7
@@ -168,15 +169,15 @@ middleOfDay:
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
 vespers:
   psalmody:
-    - psalm: PSALM_109
-      antiphon:
-        - Délivre-nous, Seigneur, à cause de ton nom, accorde-nous le temps de nous repentir.
-    - psalm: PSALM_110
-      antiphon:
-        - Nous sommes rachetés par le sang du Christ, par le sang de l’Agneau sans péché.
-    - psalm: NT_8
-      antiphon:
-        - Il a pris sur lui nos souffrances, il s’est chargé de nos douleurs.
+  - psalm: PSALM_109
+    antiphon:
+    - Délivre-nous, Seigneur, à cause de ton nom, accorde-nous le temps de nous repentir.
+  - psalm: PSALM_110
+    antiphon:
+    - Nous sommes rachetés par le sang du Christ, par le sang de l’Agneau sans péché.
+  - psalm: NT_8
+    antiphon:
+    - Il a pris sur lui nos souffrances, il s’est chargé de nos douleurs.
   reading:
     biblicalReference: 1 Co 9, 24-25
     content: Vous savez bien que, dans les courses du stade, tous les coureurs prennent le départ, mais un seul gagne le prix. Alors, vous, courez de manière à l’emporter. Tous les athlètes à l’entraînement s’imposent une discipline sévère ; ils le font pour gagner une couronne de laurier qui va se faner, et nous, pour une couronne qui ne se fane pas.
@@ -186,7 +187,8 @@ vespers:
     V/ Que ta justice me conduise, *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Qui boira l’eau que je lui donnerai n’aura plus jamais soif.
+    common:
+    - Qui boira l’eau que je lui donnerai n’aura plus jamais soif.
   intercession:
     content: |-
       Toi qui nous donnes la grâce de croire en toi, Seigneur, écoute notre prière pour nos frères humains :
@@ -207,9 +209,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
+  note:
+  entranceAntiphon:
+  collect:
   readingParts:
   - partType: READING
     partContents:
@@ -756,8 +758,8 @@ mass:
         pour y mettre du fumier.
          Peut-être donnera-t-il du fruit à l’avenir.
         Sinon, tu le couperas.’ »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  offeringPrayer:
+  prefaceList:
+  communionAntiphon:
+  prayerAfterCommunion:
+  solemnBlessingList:

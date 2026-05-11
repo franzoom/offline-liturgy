@@ -3,11 +3,11 @@ celebration:
   subtitle: apôtre
   description: Matthias avait « suivi Jésus de son baptême à son ascension ». C’est pourquoi Pierre proposa son nom lorsqu’il s’agit de compléter le collège des Douze, après la défection de Judas, et de choisir l’homme qui leur serait associé pour « devenir témoin de la résurrection » du Seigneur.
   commons:
-    - apostles
+  - apostles
   color: red
 
-oration: 
-  - Dieu qui as choisi saint Matthias pour compléter le collège des Apôtres, accorde-nous, à sa prière, puisque ton amour nous appelle, d’être un jour au nombre des élus.
+oration:
+- Dieu qui as choisi saint Matthias pour compléter le collège des Apôtres, accorde-nous, à sa prière, puisque ton amour nous appelle, d’être un jour au nombre des élus.
 
 readings:
   patristicReading:
@@ -24,10 +24,10 @@ readings:
 
     responsory: |-
       R/ Voyez quel grand amour nous est donné !
-      
+
       Enfants de Dieu, nous le sommes,
       discernés par avance dans le Fils unique.
-      
+
       Au prix du sang qu’il a versé,
       Jésus nous conduit vers le Père.
        
@@ -39,8 +39,10 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Le Seigneur a choisi Matthias pour être au nombre des Apôtres et devenir témoin de la Résurrection.
+    common:
 
+    - Le Seigneur a choisi Matthias pour être au nombre des Apôtres et devenir témoin de la Résurrection.
 vespers:
   evangelicAntiphon:
-    common: Ce n’est pas vous qui m’avez choisi, c’est moi qui vous ai choisis pour que vous alliez et portiez un fruit qui demeure.
+    common:
+    - Ce n’est pas vous qui m’avez choisi, c’est moi qui vous ai choisis pour que vous alliez et portiez un fruit qui demeure.

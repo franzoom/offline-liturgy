@@ -2,6 +2,7 @@ celebration:
   title: Samedi
   subtitle: Septième semaine du temps Pascal
   description: null
+
 invitatory:
   antiphon:
     - Le Seigneur est vraiment ressuscité, alléluia !
@@ -86,8 +87,10 @@ morning:
     Il n’est pas ici, il est ressuscité, alléluia !
     V/ Je monte vers mon Père et votre Père,
     vers mon Dieu et votre Dieu. R/
-    Gloire au Père et au Fils et au Saint-Esprit. R/ evangelicAntiphon:
-    common: Je suis avec vous, tous les jours jusqu’à la fin des temps. Alléluia.
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common:
+      - Je suis avec vous, tous les jours jusqu’à la fin des temps. Alléluia.
   intercession:
     content: |-
       En mémoire de la Vierge Marie et des Apôtres, qui priaient au Cénacle dans l’attente de l’Esprit consolateur, nous supplions :

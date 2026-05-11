@@ -80,7 +80,8 @@ morning:
     les yeux fixés sur Jésus. R/
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Le centurion vint trouver Jésus ; il le suppliait de guérir son fils.
+    common: 
+      - Le centurion vint trouver Jésus ; il le suppliait de guérir son fils.
   intercession:
     content: |-
       Dieu libre et saint, enseigne-nous ta loi de liberté.
@@ -149,8 +150,9 @@ vespers:
     V/ Je garderai tes volontés. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: |-
-      À l’heure où Jésus disait : Ton fils est vivant, l’enfant fut guéri.
+    common: 
+      - |-
+        À l’heure où Jésus disait : Ton fils est vivant, l’enfant fut guéri.
   intercession:
     content: |-
       Reçois notre vie, Dieu créateur,

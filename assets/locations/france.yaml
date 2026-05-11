@@ -2,19 +2,19 @@ language: french
 geography: country
 parent: europe
 frenchName: France
-epiphanyDate: day
+epiphanyDate: sunday
 ascensionDate: thursday
 
 feasts:
-  france_genevieve_of_paris_virgin:
+  france_genevieve_of_paris_virgin: #OK
     month: 1
     day: 3
     precedence: 12
-  france_remigius_of_reims_bishop:
+  france_remigius_of_reims_bishop: #OK
     month: 1
     day: 15
     precedence: 12
-  our_lady_of_lourdes:
+  our_lady_of_lourdes: 
     month: 2
     day: 11
     precedence: 10
@@ -22,15 +22,15 @@ feasts:
     month: 2
     day: 18
     precedence: 12
-  france_louise_de_marillac_religious:
+  france_louise_de_marillac_religious: #OK
     month: 5
     day: 9
     precedence: 12
-  france_ivo_of_kermartin_priest:
+  france_ivo_of_kermartin_priest: #OK
     month: 5
     day: 19
     precedence: 12
-  france_joan_of_arc_virgin:
+  france_joan_of_arc_virgin: #OK
     month: 5
     day: 30
     precedence: 12
@@ -40,7 +40,11 @@ feasts:
     precedence: 12
   france_clotilde_of_burgundy:
     month: 6
-    day: 5
+    day: 4
+    precedence: 12
+  france_cesaire_of_arles_bishop:
+    month: 8
+    day: 26
     precedence: 12
   france_our_lady_of_la_salette:
     month: 9

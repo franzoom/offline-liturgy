@@ -43,8 +43,8 @@ bool ferialDayCheck(String celebrationCode) {
 
 /// Filters an evangelicAntiphon map to keep only the generic key and the
 /// current liturgical year key (A, B or C).
-Map<String, String>? filterEvangelicAntiphon(
-    Map<String, String>? antiphonMap, int year) {
+Map<String, List<String>>? filterEvangelicAntiphon(
+    Map<String, List<String>>? antiphonMap, int year) {
   if (antiphonMap == null) return null;
   final yearKey = liturgicalYear(year);
   return {

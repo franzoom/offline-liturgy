@@ -71,19 +71,30 @@ class EvangelicAntiphon {
 }
 
 /// Parses evangelicAntiphon from YAML data.
-/// Returns a Map<String, String> with keys: "antiphon", "A", "B", "C"
-/// Input can be a simple String or a Map with common/yearA/yearB/yearC keys.
-Map<String, String>? parseEvangelicAntiphon(dynamic value) {
+/// Returns a `Map<String, List<String>>` with keys: "antiphon", "A", "B", "C".
+/// Values are always lists for uniform downstream handling.
+/// Input can be a String, a `List<String>`, or a Map with common/yearA/yearB/yearC keys.
+Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
   if (value == null) return null;
   if (value is String) {
-    return {'antiphon': value};
+    return {'antiphon': [value]};
+  }
+  if (value is List) {
+    final list = value.whereType<String>().toList();
+    return list.isNotEmpty ? {'antiphon': list} : null;
   }
   if (value is Map) {
-    final map = <String, String>{};
-    if (value['common'] != null) map['antiphon'] = value['common'].toString();
-    if (value['yearA'] != null) map['A'] = value['yearA'].toString();
-    if (value['yearB'] != null) map['B'] = value['yearB'].toString();
-    if (value['yearC'] != null) map['C'] = value['yearC'].toString();
+    final map = <String, List<String>>{};
+    final common = value['common'];
+    if (common is List) {
+      final list = common.whereType<String>().toList();
+      if (list.isNotEmpty) map['antiphon'] = list;
+    } else if (common != null) {
+      map['antiphon'] = [common.toString()];
+    }
+    if (value['yearA'] != null) map['A'] = [value['yearA'].toString()];
+    if (value['yearB'] != null) map['B'] = [value['yearB'].toString()];
+    if (value['yearC'] != null) map['C'] = [value['yearC'].toString()];
     return map.isNotEmpty ? map : null;
   }
   return null;

@@ -9,7 +9,7 @@ class Vespers {
   List<PsalmEntry>? psalmody;
   Reading? reading;
   String? responsory;
-  Map<String, String>? evangelicAntiphon;
+  Map<String, List<String>>? evangelicAntiphon;
   Psalm? evangelicCanticle;
   Intercession? intercession;
   List<String>? oration;

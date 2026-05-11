@@ -117,6 +117,18 @@ Future<List<CelebrationContext>> detectCelebrations(
     isFromRoot: true,
   ));
 
+  // On Ordinary Time Saturdays, add the Marian memory when no obligatory
+  // celebration (precedence ≤ 9) is already present.
+  if (date.weekday == DateTime.saturday &&
+      liturgicalTime == 'ot' &&
+      allCelebrations.every((c) => c.precedence > 9)) {
+    allCelebrations.add((
+      precedence: 12,
+      code: 'virgin-mary-memory',
+      isFromRoot: false,
+    ));
+  }
+
   // Check if there's a high priority celebration (feast or above: precedence <= 7)
   final bool hasHighPriority =
       allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 7);

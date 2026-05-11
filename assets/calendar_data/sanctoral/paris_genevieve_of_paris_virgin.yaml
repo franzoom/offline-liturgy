@@ -3,12 +3,12 @@ celebration:
   subtitle: vierge
   description: Née à Nanterre vers 420, Geneviève menait à Paris la vie retirée des vierges consacrées, dans le jeûne, la prière et le silence. En 451, elle réconforta les Parisiens effrayés par l’avance d’Attila. Plus tard, elle devait ravitailler Paris menacé de famine. À sa mort, vers 500, on l’inhuma sur la colline devenue depuis lors la Montagne‑Sainte‑Geneviève.
   commons:
-    - virgins
+  - virgins
   color: white
   location: paris
 
 oration:
-  - Répands sur nous, Seigneur, l’esprit d’intelligence et d’amour dont tu as rempli sainte Geneviève, pour qu’attentifs à te servir, et cherchant à lui ressembler, nous sachions te plaire par notre foi et toute notre vie.
+- Répands sur nous, Seigneur, l’esprit d’intelligence et d’amour dont tu as rempli sainte Geneviève, pour qu’attentifs à te servir, et cherchant à lui ressembler, nous sachions te plaire par notre foi et toute notre vie.
 
 firstVespers:
   reading:
@@ -25,21 +25,21 @@ firstVespers:
 
 readings:
   hymn:
-    - quand-le-jour-est-obscur
+  - quand-le-jour-est-obscur
   biblicalReading:
-    - title: Lecture du livre de Judith
-      ref: Jdt 15, 14; 16,1-5.13-14
-      content: |-
-        Au milieu de tout Israël, Judith entonna cette action de grâce, louange reprise par tout le peuple.
-        Chantezpour mon Dieu sur les tambourins. Jouez pour le Seigneur sur les cymbales. Joignez pour lui l’hymne à la louange. Exaltez-le ! Invoquez son nom !
-        Le Seigneur est un Dieu briseur de guerres ; son nom est « Le Seigneur ». Il a établi son camp au milieu de son peuple pour m’arracher à la main de mes persécuteurs. Assour est venu des montagnes du nord, son armée est venue par dizaines de milliers ; leur multitude obstruait les torrents, leurs chevaux recouvraient les collines. Il voulait incendier mon territoire, faire périr mes jeunes gens par l’épée, jeter à terre mes nourrissons, livrer au rapt mes tout-petits et m’enlever mes jeunes filles.
-        Mais le Seigneur souverain de l’univers les a confondus par la main d’une femme.
-        Je chanterai pour mon Dieu un chant nouveau. Seigneur, tu es grand, tu es glorieux, admirable de force, invincible. Que ta création, tout entière, te serve ! Tu dis, et elle existe. Tu envoies ton souffle : elle est créée. Nul ne résiste à ta voix.
-      responsory: R/ Tu es l’honneur de notre peuple.
+  - title: Lecture du livre de Judith
+    ref: Jdt 15, 14; 16,1-5.13-14
+    content: |-
+      Au milieu de tout Israël, Judith entonna cette action de grâce, louange reprise par tout le peuple.
+      Chantezpour mon Dieu sur les tambourins. Jouez pour le Seigneur sur les cymbales. Joignez pour lui l’hymne à la louange. Exaltez-le ! Invoquez son nom !
+      Le Seigneur est un Dieu briseur de guerres ; son nom est « Le Seigneur ». Il a établi son camp au milieu de son peuple pour m’arracher à la main de mes persécuteurs. Assour est venu des montagnes du nord, son armée est venue par dizaines de milliers ; leur multitude obstruait les torrents, leurs chevaux recouvraient les collines. Il voulait incendier mon territoire, faire périr mes jeunes gens par l’épée, jeter à terre mes nourrissons, livrer au rapt mes tout-petits et m’enlever mes jeunes filles.
+      Mais le Seigneur souverain de l’univers les a confondus par la main d’une femme.
+      Je chanterai pour mon Dieu un chant nouveau. Seigneur, tu es grand, tu es glorieux, admirable de force, invincible. Que ta création, tout entière, te serve ! Tu dis, et elle existe. Tu envoies ton souffle : elle est créée. Nul ne résiste à ta voix.
+    responsory: R/ Tu es l’honneur de notre peuple.
 
 morning:
   hymn:
-    - quand-le-jour-est-obscur
+  - quand-le-jour-est-obscur
   reading:
     biblicalReference: Is 61, 10
     content: Je tressaille de joie dans le Seigneur, mon âme exulte en mon Dieu. Car il m’a enveloppée du manteau de l’innocence, et m’a fait revêtir les vêtements du salut, comme une épouse parée de ses bijoux.
@@ -50,7 +50,8 @@ morning:
     et du fumier il relève le pauvre. *
     Gloire au Père. R/
   evangelicAntiphon:
-    common: Le Seigneur a fait de Geneviève une messagère d’espérance pour tous ceux qui l’invoquent.
+    common:
+    - Le Seigneur a fait de Geneviève une messagère d’espérance pour tous ceux qui l’invoquent.
   intercession:
     content: |-
       Au jour où nous célébrons l’entrée de Geneviève dans la cité des Saints, bénissons le Seigneur.
@@ -90,7 +91,7 @@ middleOfDay:
 
 vespers:
   hymn:
-    - genevieve-attentive-a-la-voix
+  - genevieve-attentive-a-la-voix
   reading:
     biblicalReference: Ct 8,6-7
     content: L’amour est fort comme la mort. Ses flammes sont des flammes brûlantes, c’est un feu divin ! Les torrents ne peuvent éteindre l’amour, les fleuves ne l’emporteront pas.
@@ -100,7 +101,8 @@ vespers:
     V/ Geneviève, épouse du Christ, a reçu la couronne que le Seigneur lui a préparée pour l’éternité. *
     Gloire au Père. R/
   evangelicAntiphon:
-    common: Étrangère au monde, aimée du peuple, consacrée toute entière au Christ, telle vécut Geneviève. Aussi le Seigneur l’a-t-il reçue au festin de son royaume.
+    common:
+    - Étrangère au monde, aimée du peuple, consacrée toute entière au Christ, telle vécut Geneviève. Aussi le Seigneur l’a-t-il reçue au festin de son royaume.
   intercession:
     content: |-
       Au soir de la fête de sainte Geneviève, présentons au Seigneur la prière du peuple qu’elle a servi avec tant d’amour.

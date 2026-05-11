@@ -23,12 +23,11 @@ Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
     final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
 
     // 3. Extract common elements from the root level for fallback purposes
-    List<String> rootOration = [];
-    try {
-      rootOration = List<String>.from(data['oration'] ?? []);
-    } catch (e) {
-      print('⚠️ Could not parse oration in $relativePath: $e');
-    }
+    final List<String> rootOration = switch (data['oration']) {
+      List list => list.map((e) => e.toString()).toList(),
+      String s => [s],
+      _ => [],
+    };
     final Map<String, List<String>>? rootAntiphon =
         parseEvangelicAntiphon(data['evangelicAntiphon']);
 

@@ -64,11 +64,11 @@ void applyPaschalToPsalmody(List<PsalmEntry>? psalmody, String liturgicalTime) {
 
 /// Applies paschal alléluia to all values of an antiphon map.
 /// Returns null if the input is null.
-Map<String, String>? applyPaschalToAntiphonMap(
-    Map<String, String>? antiphonMap, String liturgicalTime) {
+Map<String, List<String>>? applyPaschalToAntiphonMap(
+    Map<String, List<String>>? antiphonMap, String liturgicalTime) {
   if (antiphonMap == null) return null;
-  return antiphonMap
-      .map((k, v) => MapEntry(k, paschalAntiphon(v, liturgicalTime)));
+  return antiphonMap.map((k, list) => MapEntry(
+      k, list.map((v) => paschalAntiphon(v, liturgicalTime)).toList()));
 }
 
 String paschalAntiphon(String antiphon, String liturgicalTime) {

@@ -13,7 +13,7 @@ class Compline {
   List<PsalmEntry>? psalmody;
   Reading? reading;
   String? responsory;
-  EvangelicAntiphon? evangelicAntiphon;
+  Map<String, List<String>>? evangelicAntiphon;
   Psalm? evangelicCanticle;
   List<String>? oration;
   List<HymnEntry>? marialHymnRef;
@@ -44,10 +44,7 @@ class Compline {
           ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
           : null,
       responsory: data['responsory']?.toString(),
-      evangelicAntiphon: data['evangelicAntiphon'] is Map<String, dynamic>
-          ? EvangelicAntiphon.fromJson(
-              data['evangelicAntiphon'] as Map<String, dynamic>)
-          : null,
+      evangelicAntiphon: parseEvangelicAntiphon(data['evangelicAntiphon']),
       oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
     );
   }
@@ -76,7 +73,7 @@ class Compline {
     List<PsalmEntry>? psalmody,
     Reading? reading,
     String? responsory,
-    EvangelicAntiphon? evangelicAntiphon,
+    Map<String, List<String>>? evangelicAntiphon,
     List<String>? oration,
     List<HymnEntry>? marialHymnRef,
   }) {

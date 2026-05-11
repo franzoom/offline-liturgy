@@ -250,7 +250,11 @@ Future<List<CelebrationContext>> detectCelebrations(
     // Determine isCelebrable based on precedence rules
     final int bestPrecedence =
         allCelebrations.map((c) => c.precedence).reduce(min);
-    final bool isCelebrable = hasHighPriority ? (precedence <= bestPrecedence) : true;
+    final bool isSundayFerial = date.weekday == DateTime.sunday &&
+        ferialDayCheck(celebrationCode);
+    final bool isCelebrable = hasHighPriority
+        ? (precedence <= bestPrecedence || isSundayFerial)
+        : true;
 
     // Initialize with default values
     String celebrationLiturgicalColor = rootColor;

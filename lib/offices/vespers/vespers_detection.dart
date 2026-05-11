@@ -92,12 +92,17 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // 4. Build the result map
   final Map<String, CelebrationContext> possibleVespers = {};
 
+  // The Marian memory is only celebrated at Morning and Readings, not Vespers
+  final vespersEligible = todayCelebrations
+      .where((c) => c.celebrationCode != 'virgin-mary-memory')
+      .toList();
+
   // --- Safety: Pre-calculate highest priorities to avoid reduce() on empty lists ---
 
   // Calculate the highest priority (lowest numerical value) for today
-  final int highestTodayPrecedence = todayCelebrations.isEmpty
+  final int highestTodayPrecedence = vespersEligible.isEmpty
       ? _defaultPrecedence
-      : todayCelebrations
+      : vespersEligible
           .map((c) => c.precedence ?? _defaultPrecedence)
           .reduce(min);
 
@@ -113,7 +118,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final bool hasHighPriorityTomorrow = highestTomorrowPrecedence <= 6;
 
   // Add today's celebrations
-  for (final c in todayCelebrations) {
+  for (final c in vespersEligible) {
     // If tomorrow has First Vespers with higher precedence (lower number),
     // today's Vespers may not be celebrable
     bool isCelebrable = c.isCelebrable;

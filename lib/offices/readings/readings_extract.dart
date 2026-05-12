@@ -30,13 +30,12 @@ Future<Readings> readingsExtract(
 
       // 4. Fallback for Oration:
       // If the specific section doesn't have an oration, look at the root level
-      if ((readings.oration == null || readings.oration!.isEmpty) &&
-          data['oration'] != null) {
-        try {
-          readings.oration = List<String>.from(data['oration']);
-        } catch (e) {
-          print('⚠️ Could not parse oration in $relativePath: $e');
-        }
+      if (readings.oration == null || readings.oration!.isEmpty) {
+        readings.oration = switch (data['oration']) {
+          List list => list.map((e) => e.toString()).toList(),
+          String s => [s],
+          _ => null,
+        };
       }
     } else {
       // Return empty instance if the 'readings' key is missing

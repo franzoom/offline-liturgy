@@ -28,7 +28,11 @@ Future<MiddleOfDay> middleOfDayExtract(
 
     // 3. Handle data extraction with potential fallback for 'oration'
     // Some files might have 'oration' at the root level instead of inside 'middleOfDay'
-    final List<String> rootOration = List<String>.from(data['oration'] ?? []);
+    final List<String> rootOration = switch (data['oration']) {
+      List list => list.map((e) => e.toString()).toList(),
+      String s => [s],
+      _ => [],
+    };
 
     MiddleOfDay middleOfDay;
     if (data['middleOfDay'] is Map<String, dynamic>) {

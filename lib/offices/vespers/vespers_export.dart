@@ -3,7 +3,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_vespers_resolution.dart';
 import './vespers_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/constants.dart';
+import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
@@ -86,12 +86,7 @@ Future<Vespers> _loadProperVespers(CelebrationContext context) async {
   final String section =
       context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
 
-  final results = await Future.wait([
-    vespersExtract('$specialFilePath/${context.celebrationCode}.yaml',
-        context.dataLoader, section: section),
-    vespersExtract('$sanctoralFilePath/${context.celebrationCode}.yaml',
-        context.dataLoader, section: section),
-  ]);
-
-  return results.firstWhere((v) => !v.isEmpty, orElse: Vespers.new);
+  final filePath = await dirPathForCode(context.celebrationCode, context.dataLoader);
+  return vespersExtract('$filePath/${context.celebrationCode}.yaml',
+      context.dataLoader, section: section);
 }

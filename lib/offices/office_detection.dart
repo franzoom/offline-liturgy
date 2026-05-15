@@ -5,6 +5,7 @@ import '../classes/office_elements_class.dart';
 import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
+import '../tools/celebration_index.dart';
 import '../tools/convert_yaml_to_dart.dart';
 
 /// function returning the possible offices for a given day
@@ -143,68 +144,29 @@ Future<List<CelebrationContext>> detectCelebrations(
     return 0;
   });
 
-  // Filter non-ferial celebrations for parallel YAML loading
-  final nonFerialCelebrations =
-      allCelebrations.where((c) => !ferialDayCheck(c.code)).toList();
-
-  // Load all non-ferial YAML files in parallel (special_days first)
-  final specialLoadFutures = nonFerialCelebrations
-      .map((c) => dataLoader.loadYaml('$specialFilePath/${c.code}.yaml'));
-  final List<String> specialResults;
+  // Load all YAML files in one parallel pass using the celebration index.
+  final dirIndex = await celebrationDirIndex(dataLoader);
+  final loadFutures = allCelebrations.map((c) {
+    final filePath = ferialDayCheck(c.code)
+        ? ferialFilePath
+        : switch (dirIndex[c.code]) {
+            'special_days' => specialFilePath,
+            _              => sanctoralFilePath,
+          };
+    return dataLoader.loadYaml('$filePath/${c.code}.yaml');
+  });
+  final List<String> loadResults;
   try {
-    specialResults = await Future.wait(specialLoadFutures);
+    loadResults = await Future.wait(loadFutures);
   } catch (e) {
     return [];
-  }
-
-  // For empty results, try sanctoral in parallel
-  final sanctoralIndices = <int>[];
-  for (int i = 0; i < specialResults.length; i++) {
-    if (specialResults[i].isEmpty) {
-      sanctoralIndices.add(i);
-    }
-  }
-
-  final sanctoralLoadFutures = sanctoralIndices.map((i) => dataLoader
-      .loadYaml('$sanctoralFilePath/${nonFerialCelebrations[i].code}.yaml'));
-  final List<String> sanctoralResults;
-  try {
-    sanctoralResults = await Future.wait(sanctoralLoadFutures);
-  } catch (e) {
-    return [];
-  }
-
-  // Load ferial YAML files in parallel
-  final ferialCelebrations =
-      allCelebrations.where((c) => ferialDayCheck(c.code)).toList();
-  final ferialLoadFutures = ferialCelebrations
-      .map((c) => dataLoader.loadYaml('$ferialFilePath/${c.code}.yaml'));
-  List<String> ferialResults;
-  try {
-    ferialResults = await Future.wait(ferialLoadFutures);
-  } catch (e) {
-    print('Error loading ferial YAML files: $e');
-    ferialResults = List.filled(ferialCelebrations.length, '');
   }
 
   // Build a map of celebration code -> file content
   final Map<String, String> fileContents = {};
-  for (int i = 0; i < nonFerialCelebrations.length; i++) {
-    final code = nonFerialCelebrations[i].code;
-    if (specialResults[i].isNotEmpty) {
-      fileContents[code] = specialResults[i];
-    }
-  }
-  for (int i = 0; i < sanctoralIndices.length; i++) {
-    final code = nonFerialCelebrations[sanctoralIndices[i]].code;
-    if (sanctoralResults[i].isNotEmpty) {
-      fileContents[code] = sanctoralResults[i];
-    }
-  }
-  for (int i = 0; i < ferialCelebrations.length; i++) {
-    final code = ferialCelebrations[i].code;
-    if (ferialResults[i].isNotEmpty) {
-      fileContents[code] = ferialResults[i];
+  for (int i = 0; i < allCelebrations.length; i++) {
+    if (loadResults[i].isNotEmpty) {
+      fileContents[allCelebrations[i].code] = loadResults[i];
     }
   }
 

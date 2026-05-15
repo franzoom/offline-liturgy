@@ -42,11 +42,21 @@ feasts:
     month: 6
     day: 4
     precedence: 12
-  france_cesaire_of_arles_bishop:
+  louis_ix_of_france: #OK
+    month: 8
+    day: 25
+    precedence: 10
+  france_cesaire_of_arles_bishop: #OK
     month: 8
     day: 26
     precedence: 12
   france_our_lady_of_la_salette:
     month: 9
     day: 19
+    precedence: 12
+
+move:
+  joseph_of_calasanz_priest:
+    month: 8
+    day: 26
     precedence: 12

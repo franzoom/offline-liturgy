@@ -7,7 +7,7 @@ const Map<String, String> celebrationTypeLabels = {
   'holy_saturday': 'Samedi Saint',
   'normal': 'Férie',
   'firstVespers': 'Premières Vêpres',
-  'secondVespers': 'Deuxièmes Vêpres'
+  'secondVespers': 'Secondes Vêpres'
 };
 
 /// Liturgical Times

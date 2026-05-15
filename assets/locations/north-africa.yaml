@@ -1,6 +1,6 @@
 language: french
 geography: continent
-frenchName: Afrique
+frenchName: Afrique du Nord
 
 feasts:
   africa_joseph_vaz_priest:
@@ -27,10 +27,10 @@ feasts:
     month: 4
     day: 30
     precedence: 10
-  africa_cyprian_of_carthage_bishop:
+  north-africa_cyprian_of_carthage_bishop_martyrs: #OK
     month: 9
     day: 16
-    precedence: 10
+    precedence: 4
   africa_augustine_of_hippo_bishop:
     month: 8
     day: 28

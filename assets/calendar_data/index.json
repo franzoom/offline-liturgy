@@ -59,7 +59,7 @@
       "martyr_female_virgin"
     ],
     "dir": "sanctoral",
-    "title": "Ste Agathe"
+    "title": "Sainte Agathe"
   },
   "agnes_of_rome_virgin": {
     "color": "red",
@@ -68,7 +68,12 @@
       "martyr_female"
     ],
     "dir": "sanctoral",
-    "title": "Ste Agnès"
+    "title": "Sainte Agnès"
+  },
+  "all_saints": {
+    "color": "white",
+    "dir": "special_days",
+    "title": "Tous les Saints"
   },
   "aloysius_gonzaga_religious": {
     "color": "white",
@@ -90,16 +95,34 @@
   "ambrose_of_milan_bishop": {
     "color": "white",
     "commons": [
-      "pastors",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Ambroise"
+    "title": "Saint Ambroise"
   },
-  "andre_bessette_religious_canada": {
-    "color": "white",
+  "andrew_apostle": {
+    "color": "red",
+    "commons": [
+      "apostles"
+    ],
     "dir": "sanctoral",
-    "title": "Saint André Bessette"
+    "title": "Saint André"
+  },
+  "andrew_dung_lac_priest_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints André Dung-Lac, prêtre et ses compagnons"
+  },
+  "andrew_kim_tae_gon_priest_paul_chong_ha_sang_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint André Kim Tae-gon, prêtre, saint Paul Choung Ha-sang et leurs compagnons"
   },
   "angela_merici_virgin": {
     "color": "white",
@@ -149,7 +172,7 @@
       "saints-male"
     ],
     "dir": "sanctoral",
-    "title": "S. Antoine"
+    "title": "Saint Antoine"
   },
   "anthony_of_padua_priest": {
     "color": "white",
@@ -170,6 +193,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Antoine-Marie Zaccaria"
+  },
+  "apollinaris_of_ravenna_bishop": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Apollinaire"
   },
   "ascension": {
     "color": "white",
@@ -201,6 +233,23 @@
     "dir": "sanctoral",
     "title": "Saint Augustin de Cantorbéry"
   },
+  "augustine_of_hippo_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop",
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Augustin"
+  },
+  "augustine_zhao_rong_priest_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Augustin Zhao Rong, prêtre, et ses compagnons"
+  },
   "baptism": {
     "color": "white",
     "dir": "special_days",
@@ -214,6 +263,14 @@
     "dir": "sanctoral",
     "title": "Saint Barnabé"
   },
+  "bartholomew_apostle": {
+    "color": "red",
+    "commons": [
+      "apostles"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Barthélemy"
+  },
   "basil_the_great_and_gregory_nazianzen_bishops": {
     "color": "white",
     "commons": [
@@ -221,7 +278,7 @@
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Basile le Grand et S. Grégoire de Naziance"
+    "title": "Saint Basile le Grand et saint Grégoire de Naziance"
   },
   "bede_the_venerable_priest": {
     "color": "white",
@@ -239,6 +296,39 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Amand"
+  },
+  "belgium_hubert_of_liege_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Hubert"
+  },
+  "belgium_john_berchmans_religious": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean Berchmans"
+  },
+  "belgium_lambert_of_maastricht_bishop_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Lambert"
+  },
+  "belgium_virgin_mary_mediatrice": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "La Vierge Marie Médiatrice"
   },
   "benedict_of_nursia_abbot": {
     "color": "white",
@@ -481,6 +571,19 @@
     "dir": "sanctoral",
     "title": "Saint Camille de Lellis"
   },
+  "canada_andre_bessette_religious": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Saint André Bessette"
+  },
+  "canada_marguerite_bourgeoys": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Marguerite Bourgeoys"
+  },
   "casimir_of_poland": {
     "color": "white",
     "commons": [
@@ -496,7 +599,7 @@
       "saints-doctors"
     ],
     "dir": "sanctoral",
-    "title": "Ste Catherine de Sienne"
+    "title": "Sainte Catherine de Sienne"
   },
   "chair_of_saint_peter_the_apostle": {
     "color": "white",
@@ -512,7 +615,12 @@
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "S. Charles Lwanga et ses compagnons"
+    "title": "Saint Charles Lwanga et ses compagnons"
+  },
+  "christ_king": {
+    "color": "white",
+    "dir": "special_days",
+    "title": "Le Christ Roi de l’univers"
   },
   "christmas-ferial_before_epiphany_2": {
     "color": "white",
@@ -547,12 +655,12 @@
   "christmas_26": {
     "color": "red",
     "dir": "special_days",
-    "title": "S. Étienne, premier martyr"
+    "title": "Saint Étienne, premier martyr"
   },
   "christmas_27": {
     "color": "white",
     "dir": "special_days",
-    "title": "S. Jean, Apôtre et évangéliste"
+    "title": "Saint Jean, Apôtre et évangéliste"
   },
   "christmas_28": {
     "color": "red",
@@ -600,13 +708,30 @@
     "dir": "sanctoral",
     "title": "Sainte Claire"
   },
+  "commemoration_of_all_the_faithful_departed": {
+    "color": "violet",
+    "commons": [
+      "trespassed"
+    ],
+    "dir": "special_days",
+    "title": "Commémoraison de tous les fidèles défunts"
+  },
   "conversion_of_saint_paul_the_apostle": {
     "color": "white",
     "commons": [
       "apostles"
     ],
     "dir": "sanctoral",
-    "title": "Conversion de S. Paul, Apôtre"
+    "title": "Conversion de Saint Paul, Apôtre"
+  },
+  "cornelius_i_pope_and_cyprian_of_carthage_bishop_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs",
+      "pastors_multiple"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Corneille, pape, et saint Cyprien, évêque"
   },
   "corpus_domini": {
     "color": "white",
@@ -619,7 +744,7 @@
       "pastors_multiple"
     ],
     "dir": "sanctoral",
-    "title": "S. Cyrille, moine et S. Méthode, évêque"
+    "title": "Saint Cyrille, moine et saint Méthode, évêque"
   },
   "cyril_of_alexandria_bishop": {
     "color": "white",
@@ -639,6 +764,14 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Cyrille de Jérusalem"
+  },
+  "damasus_i_pope": {
+    "color": "white",
+    "commons": [
+      "pastors_pope"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Damase I^er"
   },
   "dedication_of_the_basilica_of_saint_mary_major": {
     "color": "white",
@@ -716,7 +849,7 @@
       "pastors_multiple"
     ],
     "dir": "sanctoral",
-    "title": "S. Cyrille, moine et S. Méthode, évêque"
+    "title": "Saint Cyrille, moine et saint Méthode, évêque"
   },
   "europe_teresa_benedicta_of_the_cross_stein_virgin": {
     "color": "red",
@@ -734,6 +867,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Eusèbe de Verceil"
+  },
+  "exaltation_of_the_holy_cross": {
+    "color": "red",
+    "dir": "sanctoral",
+    "title": "La Croix glorieuse"
   },
   "fabian_i_pope": {
     "color": "red",
@@ -769,6 +907,14 @@
     "dir": "sanctoral",
     "title": "Sainte Bernadette Soubirous"
   },
+  "france_cesaire_of_arles_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Césaire d'Arles"
+  },
   "france_clotilde_of_burgundy": {
     "commons": [
       "saints-female_married"
@@ -782,7 +928,7 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Geneviève"
+    "title": "Sainte Geneviève"
   },
   "france_ivo_of_kermartin_priest": {
     "color": "white",
@@ -815,7 +961,7 @@
       "pastors_bishop"
     ],
     "dir": "sanctoral",
-    "title": "S. Rémi"
+    "title": "Saint Rémi"
   },
   "frances_of_rome_religious": {
     "color": "white",
@@ -831,7 +977,7 @@
       "saints-male_religious"
     ],
     "dir": "sanctoral",
-    "title": "S. François de Paule"
+    "title": "Saint François de Paule"
   },
   "francis_of_sales_bishop": {
     "color": "white",
@@ -840,7 +986,7 @@
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. François de Sales"
+    "title": "Saint François de Sales"
   },
   "francis_xavier_priest": {
     "color": "white",
@@ -848,7 +994,7 @@
       "pastors"
     ],
     "dir": "sanctoral",
-    "title": "S. François Xavier"
+    "title": "Saint François Xavier"
   },
   "george_of_lydda_martyr": {
     "color": "red",
@@ -857,6 +1003,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Georges"
+  },
+  "gregory_i_the_great_pope": {
+    "color": "white",
+    "commons": [
+      "pastors_pope",
+      "pastors_doctor"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Grégoire le Grand"
   },
   "gregory_of_narek_abbot": {
     "color": "white",
@@ -886,11 +1041,11 @@
   "hilary_of_poitiers_bishop": {
     "color": "white",
     "commons": [
-      "pastors",
+      "pastors_bishop",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Hilaire de Poitiers"
+    "title": "Saint Hilaire de Poitiers"
   },
   "holy_family": {
     "color": "white",
@@ -943,7 +1098,7 @@
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Isidore"
+    "title": "Saint Isidore"
   },
   "james_apostle": {
     "color": "red",
@@ -952,6 +1107,14 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Jacques"
+  },
+  "jane_frances_de_chantal_religious": {
+    "color": "white",
+    "commons": [
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Jeanne-Françoise de Chantal"
   },
   "jerome_emiliani": {
     "color": "white",
@@ -976,7 +1139,7 @@
       "saints-male_educator"
     ],
     "dir": "sanctoral",
-    "title": "S. Jean-Baptiste de la Salle"
+    "title": "Saint Jean-Baptiste de la Salle"
   },
   "john_bosco_priest": {
     "color": "white",
@@ -985,7 +1148,24 @@
       "saints-male"
     ],
     "dir": "sanctoral",
-    "title": "S. Jean Bosco"
+    "title": "Saint Jean Bosco"
+  },
+  "john_chrysostom_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop",
+      "pastors_doctor"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean Chrysostome"
+  },
+  "john_damascene_priest": {
+    "color": "white",
+    "commons": [
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean de Damas"
   },
   "john_eudes_priest": {
     "color": "white",
@@ -1029,14 +1209,30 @@
     "dir": "sanctoral",
     "title": "Saint jean de Dieu"
   },
+  "john_of_kanty_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean de Kenty"
+  },
   "john_of_the_cross_priest": {
     "color": "white",
     "commons": [
-      "pastors",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Jean de la Croix"
+    "title": "Saint Jean de la Croix"
+  },
+  "joseph_of_calasanz_priest": {
+    "color": "white",
+    "commons": [
+      "saints-male_educators",
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Joseph de Calazanz"
   },
   "joseph_the_worker": {
     "color": "white",
@@ -1053,6 +1249,14 @@
     ],
     "dir": "sanctoral",
     "title": "Sainte Joséphine Bakita"
+  },
+  "juan_diego_cuauhtlatoatzin": {
+    "color": "white",
+    "commons": [
+      "saints-male"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Juan Diego Cuauhtlatoatzin"
   },
   "justin_martyr": {
     "color": "red",
@@ -1077,7 +1281,15 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "S. Laurent"
+    "title": "Saint Laurent"
+  },
+  "lawrence_ruiz_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Laurent Zuiz et ses compagnons"
   },
   "lent_0_3": {
     "dir": "ferial_days",
@@ -1106,14 +1318,22 @@
     "dir": "sanctoral",
     "title": "Saint Louis-Marie Grignon de Montfort"
   },
+  "louis_ix_of_france": {
+    "color": "white",
+    "commons": [
+      "saints"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Louis"
+  },
   "lucy_of_syracuse_virgin": {
     "color": "red",
     "commons": [
-      "virgins",
-      "virgins_martyrs"
+      "martyrs_female_virgin",
+      "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Lucie"
+    "title": "Sainte Lucie"
   },
   "luxembourg_our_lady_consoler_of_the_afflicted": {
     "color": "white",
@@ -1164,14 +1384,6 @@
     "dir": "sanctoral",
     "title": "Saint Galmier"
   },
-  "lyon_clotilda_queen_of_the_franks": {
-    "color": "white",
-    "commons": [
-      "saint-female"
-    ],
-    "dir": "sanctoral",
-    "title": "Sainte Clotilde"
-  },
   "lyon_dedication_of_consecrated_churches": {
     "color": "white",
     "commons": [
@@ -1219,7 +1431,7 @@
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. François de Sales"
+    "title": "Saint François de Sales"
   },
   "lyon_frederic_ozanam": {
     "commons": [
@@ -1231,7 +1443,7 @@
   "lyon_gregory_x_pope": {
     "color": "white",
     "dir": "sanctoral",
-    "title": "BIENHEUREUX GRÉGOIRE X"
+    "title": "Bienheureux Grégoire X"
   },
   "lyon_innocent_v_pope": {
     "color": "white",
@@ -1249,6 +1461,7 @@
     "title": "Saint Irénée, évêque et docteur de l’Église, et ses compagnons"
   },
   "lyon_jacques_jules_bonnaud_priest_and_companions_martyrs": {
+    "color": "red",
     "commons": [
       "martyr"
     ],
@@ -1313,7 +1526,7 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "BSaint Maurice et ses compagnons"
+    "title": "Saint Maurice et ses compagnons"
   },
   "lyon_nicetius_of_lyon_bishop": {
     "color": "white",
@@ -1395,15 +1608,7 @@
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Saint Marcellin et Saint Pierre"
-  },
-  "marguerite_bourgeoys_canada": {
-    "color": "white",
-    "commons": [
-      "virgins"
-    ],
-    "dir": "sanctoral",
-    "title": "Sainte Marguerite Bourgeoys"
+    "title": "Saint Marcellin et saint Pierre"
   },
   "maria_goretti_virgin": {
     "color": "red",
@@ -1420,7 +1625,7 @@
       "apostles_evangelist"
     ],
     "dir": "sanctoral",
-    "title": "S. Marc"
+    "title": "Saint Marc"
   },
   "martha_of_bethany_mary_of_bethany_and_lazarus_of_bethany": {
     "color": "white",
@@ -1428,7 +1633,7 @@
       "saints-female"
     ],
     "dir": "sanctoral",
-    "title": "Ste Marthe"
+    "title": "Sainte Marthe"
   },
   "martin_i_pope": {
     "color": "red",
@@ -1437,7 +1642,7 @@
       "pastor_pope"
     ],
     "dir": "sanctoral",
-    "title": "Saint Martin 1^er"
+    "title": "Saint Martin I^er"
   },
   "mary_magdalene": {
     "color": "white",
@@ -1445,7 +1650,7 @@
       "saints-female"
     ],
     "dir": "sanctoral",
-    "title": "Sainte Marie Madeleine."
+    "title": "Sainte Marie Madeleine"
   },
   "mary_magdalene_de_pazzi_virgin": {
     "color": "white",
@@ -1489,6 +1694,14 @@
     "dir": "sanctoral",
     "title": "Saint Maximilien Kolbe"
   },
+  "monica_of_hippo": {
+    "color": "white",
+    "commons": [
+      "saints_female"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Monique"
+  },
   "most_holy_name_of_jesus": {
     "color": "white",
     "dir": "sanctoral",
@@ -1499,13 +1712,29 @@
     "dir": "special_days",
     "title": "Nativité du Seigneur"
   },
+  "nativity_of_the_blessed_virgin_mary": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Nativité de la Vierge Marie"
+  },
   "nereus_of_terracina_and_achilleus_of_terracina_martyrs": {
     "color": "red",
     "commons": [
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Saint Nérée et Saint Achille"
+    "title": "Saint Nérée et saint Achille"
+  },
+  "nicholas_of_myra_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Nicolas"
   },
   "norbert_of_xanten_bishop": {
     "color": "white",
@@ -1515,6 +1744,15 @@
     "dir": "sanctoral",
     "title": "Saint Norbert"
   },
+  "north-africa_cyprian_of_carthage_bishop_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs",
+      "pastors_multiple"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Cyprien, évêque"
+  },
   "our_lady_of_fatima": {
     "color": "white",
     "commons": [
@@ -1522,6 +1760,22 @@
     ],
     "dir": "sanctoral",
     "title": "Bienheureuse Vierge Marie de Fatima"
+  },
+  "our_lady_of_guadalupe": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie de Guadaloupe"
+  },
+  "our_lady_of_loreto": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie de Lorette"
   },
   "our_lady_of_lourdes": {
     "color": "white",
@@ -1539,10 +1793,13 @@
     "dir": "sanctoral",
     "title": "Notre-Dame du Mont Carmel"
   },
-  "our_lord_jesus_christ_king_of_the_universe": {
+  "our_lady_of_sorrows": {
     "color": "white",
-    "dir": "special_days",
-    "title": "Le Christ, Roi de l’Univers"
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Notre-Dame des Douleurs"
   },
   "pancras_of_rome_martyr": {
     "color": "red",
@@ -1558,7 +1815,15 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Geneviève, patronne du diocèse de Paris"
+    "title": "Sainte Geneviève, patronne du diocèse de Paris"
+  },
+  "passion_of_saint_john_the_baptist": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Martyre de Saint Jean Baptiste"
   },
   "patrick_of_ireland_bishop": {
     "color": "white",
@@ -1574,7 +1839,7 @@
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "S. Paul Miki et ses compagnons"
+    "title": "Saint Paul Miki et ses compagnons"
   },
   "paul_vi_pope": {
     "color": "white",
@@ -1605,6 +1870,15 @@
     "dir": "sanctoral",
     "title": "Saintes Perpétue et Félicité"
   },
+  "peter_canisius_priest": {
+    "color": "red",
+    "commons": [
+      "pastors",
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pierre Canisius"
+  },
   "peter_chanel_priest": {
     "color": "red",
     "commons": [
@@ -1631,6 +1905,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Pierre Damien"
+  },
+  "peter_julian_eymard_priest": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious",
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pierre-Julien Aymard"
   },
   "philip_and_james_apostles": {
     "color": "red",
@@ -1672,7 +1955,7 @@
       "pastors_bishop"
     ],
     "dir": "sanctoral",
-    "title": "S. Polycarpe"
+    "title": "Saint Polycarpe"
   },
   "pontian_i_pope_and_hippolytus_of_rome_priest": {
     "color": "red",
@@ -1703,7 +1986,7 @@
       "saints-male_religious"
     ],
     "dir": "sanctoral",
-    "title": "S. Raymond de Penyafort"
+    "title": "Saint Raymond de Penyafort"
   },
   "rita_of_cascia_religious": {
     "color": "white",
@@ -1730,7 +2013,7 @@
     "dir": "sanctoral",
     "title": "Sainte Rose de Lima"
   },
-  "sacred_heart_of_jesus": {
+  "sacred_heart": {
     "color": "white",
     "dir": "special_days",
     "title": "Le Sacré Cœur de Jésus"
@@ -1743,12 +2026,12 @@
   "saint_joseph": {
     "color": "white",
     "dir": "special_days",
-    "title": "S. Joseph, époux de la Vierge Marie"
+    "title": "Saint Joseph, époux de la Vierge Marie"
   },
   "saint_pieter_and_saint_paul": {
     "color": "red",
     "dir": "special_days",
-    "title": "S. Pierre et S. Paul"
+    "title": "Saint Pierre et saint Paul"
   },
   "scholastica_of_nursia_virgin": {
     "color": "white",
@@ -1756,7 +2039,7 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Scholastique, vierge"
+    "title": "Sainte Scholastique, vierge"
   },
   "sebastian_of_milan_martyr": {
     "color": "red",
@@ -1774,6 +2057,15 @@
     "dir": "sanctoral",
     "title": "Les sept fondateurs des Servites"
   },
+  "sharbel_makhluf_priest": {
+    "color": "white",
+    "commons": [
+      "pastors",
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Charbel Makhlouf"
+  },
   "sixtus_ii_pope_and_companions_martyrs": {
     "color": "red",
     "commons": [
@@ -1789,7 +2081,7 @@
       "pastors"
     ],
     "dir": "sanctoral",
-    "title": "S. Stanislas"
+    "title": "Saint Stanislas"
   },
   "stephen_i_of_hungary": {
     "color": "white",
@@ -1798,6 +2090,14 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Étienne de Hongrie"
+  },
+  "sylvester_i_pope": {
+    "color": "white",
+    "commons": [
+      "pastors_pope"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Sylvestre I^er"
   },
   "teresa_benedicta_of_the_cross_stein_virgin": {
     "color": "red",
@@ -1824,12 +2124,12 @@
       "saints_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Thomas d’Aquin"
+    "title": "Saint Thomas d’Aquin"
   },
   "thomas_becket_bishop": {
     "color": "red",
     "dir": "sanctoral",
-    "title": "S. Thomas Becket"
+    "title": "Saint Thomas Becket"
   },
   "timothy_of_ephesus_and_titus_of_crete_bishops": {
     "color": "white",
@@ -1837,7 +2137,7 @@
       "pastors_multiple"
     ],
     "dir": "sanctoral",
-    "title": "S. Timothée et S. Tite"
+    "title": "Saint Timothée et Saint Tite"
   },
   "transfiguration_of_the_lord": {
     "color": "white",
@@ -1858,7 +2158,7 @@
       "pastors"
     ],
     "dir": "sanctoral",
-    "title": "S. Vincent Ferrier"
+    "title": "Saint Vincent Ferrier"
   },
   "vincent_of_saragossa_deacon": {
     "color": "red",

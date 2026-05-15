@@ -3,7 +3,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/constants.dart';
+import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
@@ -31,14 +31,11 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   // Load Proper and overwrite the Common content in the buffer
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
-    final results = await Future.wait([
-      morningExtract('$specialFilePath/${celebrationContext.celebrationCode}.yaml',
-          celebrationContext.dataLoader),
-      morningExtract('$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
-          celebrationContext.dataLoader),
-    ]);
-    final Morning proper =
-        results.firstWhere((r) => !r.isEmpty, orElse: Morning.new);
+    final filePath = await dirPathForCode(
+        celebrationContext.celebrationCode, celebrationContext.dataLoader);
+    final Morning proper = await morningExtract(
+        '$filePath/${celebrationContext.celebrationCode}.yaml',
+        celebrationContext.dataLoader);
 
     // Proper overwrites Common inside the buffer
     celebrationOverlay.overlayWith(proper);

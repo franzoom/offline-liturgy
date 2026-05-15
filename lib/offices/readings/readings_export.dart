@@ -4,7 +4,7 @@ import '../../assets/usual_texts.dart';
 import './ferial_readings_resolution.dart';
 import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/constants.dart';
+import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
@@ -72,12 +72,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 
 /// Loads proper readings by trying special_days and sanctoral paths in parallel.
 Future<Readings> _loadProperReadings(CelebrationContext context) async {
-  final results = await Future.wait([
-    readingsExtract(
-        '$specialFilePath/${context.celebrationCode}.yaml', context.dataLoader),
-    readingsExtract(
-        '$sanctoralFilePath/${context.celebrationCode}.yaml', context.dataLoader),
-  ]);
-
-  return results.firstWhere((r) => !r.isEmpty, orElse: Readings.new);
+  final filePath = await dirPathForCode(context.celebrationCode, context.dataLoader);
+  return readingsExtract('$filePath/${context.celebrationCode}.yaml', context.dataLoader);
 }

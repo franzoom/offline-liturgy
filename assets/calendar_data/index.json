@@ -59,7 +59,7 @@
       "martyr_female_virgin"
     ],
     "dir": "sanctoral",
-    "title": "Ste Agathe"
+    "title": "Sainte Agathe"
   },
   "agnes_of_rome_virgin": {
     "color": "red",
@@ -68,7 +68,7 @@
       "martyr_female"
     ],
     "dir": "sanctoral",
-    "title": "Ste Agnès"
+    "title": "Sainte Agnès"
   },
   "aloysius_gonzaga_religious": {
     "color": "white",
@@ -94,12 +94,23 @@
       "pastors_doctors"
     ],
     "dir": "sanctoral",
-    "title": "S. Ambroise"
+    "title": "Saint Ambroise"
   },
-  "andre_bessette_religious_canada": {
-    "color": "white",
+  "andrew_dung_lac_priest_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
     "dir": "sanctoral",
-    "title": "Saint André Bessette"
+    "title": "Saints André Dung-Lac, prêtre et ses compagnons"
+  },
+  "andrew_kim_tae_gon_priest_paul_chong_ha_sang_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "S. André Kim Tae-gon, prêtre, S. Paul Choung Ha-sang et leurs compagnons"
   },
   "angela_merici_virgin": {
     "color": "white",
@@ -149,7 +160,7 @@
       "saints-male"
     ],
     "dir": "sanctoral",
-    "title": "S. Antoine"
+    "title": "Saint Antoine"
   },
   "anthony_of_padua_priest": {
     "color": "white",
@@ -481,6 +492,19 @@
     "dir": "sanctoral",
     "title": "Saint Camille de Lellis"
   },
+  "canada_andre_bessette_religious": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Saint André Bessette"
+  },
+  "canada_marguerite_bourgeoys": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Marguerite Bourgeoys"
+  },
   "casimir_of_poland": {
     "color": "white",
     "commons": [
@@ -496,7 +520,7 @@
       "saints-doctors"
     ],
     "dir": "sanctoral",
-    "title": "Ste Catherine de Sienne"
+    "title": "Sainte Catherine de Sienne"
   },
   "chair_of_saint_peter_the_apostle": {
     "color": "white",
@@ -782,7 +806,7 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Geneviève"
+    "title": "Sainte Geneviève"
   },
   "france_ivo_of_kermartin_priest": {
     "color": "white",
@@ -1079,6 +1103,14 @@
     "dir": "sanctoral",
     "title": "S. Laurent"
   },
+  "lawrence_ruiz_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Laurent Zuiz et ses compagnons"
+  },
   "lent_0_3": {
     "dir": "ferial_days",
     "title": "Mercredi des Cendres"
@@ -1113,7 +1145,7 @@
       "virgins_martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Ste Lucie"
+    "title": "Sainte Lucie"
   },
   "luxembourg_our_lady_consoler_of_the_afflicted": {
     "color": "white",
@@ -1397,14 +1429,6 @@
     "dir": "sanctoral",
     "title": "Saint Marcellin et Saint Pierre"
   },
-  "marguerite_bourgeoys_canada": {
-    "color": "white",
-    "commons": [
-      "virgins"
-    ],
-    "dir": "sanctoral",
-    "title": "Sainte Marguerite Bourgeoys"
-  },
   "maria_goretti_virgin": {
     "color": "red",
     "commons": [
@@ -1428,7 +1452,7 @@
       "saints-female"
     ],
     "dir": "sanctoral",
-    "title": "Ste Marthe"
+    "title": "Sainte Marthe"
   },
   "martin_i_pope": {
     "color": "red",
@@ -1558,7 +1582,7 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Geneviève, patronne du diocèse de Paris"
+    "title": "Sainte Geneviève, patronne du diocèse de Paris"
   },
   "patrick_of_ireland_bishop": {
     "color": "white",
@@ -1756,7 +1780,7 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Ste Scholastique, vierge"
+    "title": "Sainte Scholastique, vierge"
   },
   "sebastian_of_milan_martyr": {
     "color": "red",

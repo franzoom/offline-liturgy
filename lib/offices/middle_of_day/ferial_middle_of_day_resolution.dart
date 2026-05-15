@@ -13,7 +13,7 @@ Future<MiddleOfDay> ferialMiddleOfDayResolution(
   final code = context.ferialCode ?? context.celebrationCode;
   final liturgicalTime = context.liturgicalTime ?? '';
 
-  final season = const ['ot', 'advent', 'christmas', 'lent', 'paschal']
+  final season = const ['ot', 'advent', 'christmas', 'lent', 'easter']
       .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
   final result = await switch (season) {
@@ -125,7 +125,8 @@ Future<MiddleOfDay> _resolveLent(CelebrationContext context) =>
 
 // --- EASTER ---
 Future<MiddleOfDay> _resolveEaster(CelebrationContext context) =>
-    _resolveWeekDaySeason(context, 'easter');
+    middleOfDayExtract(
+        '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader);
 
 Future<MiddleOfDay> _resolveWeekDaySeason(
     CelebrationContext context, String season) async {

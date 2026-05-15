@@ -162,11 +162,8 @@ Future<Readings> _resolveHolyWeek(CelebrationContext context) async {
 
 // --- EASTER ---
 Future<Readings> _resolveEaster(CelebrationContext context) async {
-  final dayDatas = extractWeekAndDay(context.ferialCode!, 'easter');
-
   Readings ferialReadings = await readingsExtract(
-      '$ferialFilePath/easter_${dayDatas[0]}_${dayDatas[1]}.yaml',
-      context.dataLoader);
+      '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader);
 
   ferialReadings.hymn = await getHymnsForSeason("easter", context.dataLoader);
   return ferialReadings;

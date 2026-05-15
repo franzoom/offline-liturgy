@@ -2,6 +2,7 @@
 library;
 
 import '../tools/data_loader.dart';
+import '../assets/libraries/french_liturgy_labels.dart';
 import 'psalms_class.dart';
 import 'hymns_class.dart';
 
@@ -271,6 +272,17 @@ class CelebrationContext {
 
   /// Returns true if this is second vespers (vespers2)
   bool get isSecondVespers => celebrationType == 'vespers2';
+
+  /// Returns the formatted celebration type label, including the geographic
+  /// origin when the feast comes from a location-specific calendar.
+  /// e.g. "(Europe : solennité)" or "(Solennité)" or "".
+  String get celebrationDisplayLabel {
+    final baseLabel = getCelebrationTypeLabel(precedence ?? 13);
+    if (baseLabel.isEmpty || celebrationOrigin == null) return baseLabel;
+    final inner =
+        baseLabel.replaceAll('(', '').replaceAll(')', '').trim().toLowerCase();
+    return '($celebrationOrigin : $inner)';
+  }
 
   /// Creates a copy of this context with the given fields replaced
   CelebrationContext copyWith({

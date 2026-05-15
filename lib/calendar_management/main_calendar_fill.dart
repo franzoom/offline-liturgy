@@ -6,15 +6,21 @@ import 'local_calendar_fill.dart';
 
 /// Builds two liturgical years to avoid border problems (around first Sunday of Advent).
 /// [data] is mandatory: it carries the universal Roman feasts and the location tree.
+/// [epiphanyOverride] and [ascensionOverride] take precedence over the location-derived
+/// values when provided ('day'|'sunday' for epiphany; 'thursday'|'sunday' for ascension).
 Calendar getCalendar(
   Calendar calendar,
   DateTime eventDate,
   String location,
-  LiturgyData data,
-) {
-  final String epiphanyMode = getEpiphanyDate(location, data.locationData);
+  LiturgyData data, {
+  String? epiphanyOverride,
+  String? ascensionOverride,
+}) {
+  final String epiphanyMode =
+      epiphanyOverride ?? getEpiphanyDate(location, data.locationData);
   final bool ascensionOnSunday =
-      getAscensionDate(location, data.locationData) == 'sunday';
+      (ascensionOverride ?? getAscensionDate(location, data.locationData)) ==
+      'sunday';
 
   final cal1 = calendarFill(
       Calendar(), eventDate, location, data, epiphanyMode, ascensionOnSunday);

@@ -12,6 +12,7 @@ export 'classes/location_class.dart';
 export 'classes/office_elements_class.dart';
 export 'classes/calendar_class.dart';
 export 'calendar_management/main_calendar_fill.dart';
+export 'calendar_management/local_calendar_fill.dart';
 export 'classes/compline_class.dart';
 export 'offices/compline/compline_detection.dart';
 export 'offices/compline/compline_export.dart';

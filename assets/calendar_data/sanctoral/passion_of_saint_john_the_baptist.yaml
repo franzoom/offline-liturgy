@@ -1,0 +1,121 @@
+celebration:
+  title: Martyre de Saint Jean Baptiste
+  description: |-
+    Le martyre de Jean Baptiste, qu’Hérode Antipas fit décapiter à Machéronte, près de la Mer Morte, met en lumière la qualité d’âme du Précurseur du Christ et la plénitude de sa réponse à l’appel de Dieu. Dans sa mort comme dans sa prédication, il a rendu témoignage à la vérité, il a été « une flamme qui brûle et qui éclaire », selon la parole de Jésus (Jn 5, 35).
+  commons:
+  - martyr
+  color: red
+
+oration:
+- |-
+  Tu as voulu, Seigneur, que saint Jean Baptiste soit le précurseur de ton Fils dans sa naissance et dans sa mort ; il a donné sa vie pour la justice et la vérité : accorde-nous de savoir, comme lui, nous dépenser avec courage au service de ta Parole.
+
+readings:
+  hymn:
+  - prophete-du-tres-haut
+  patristicReading:
+  - title: HOMELIE DE SAINT BÈDE LE VÉNÉRABLE
+    content: |-
+      Le saint précurseur de la naissance, de la prédication et de la mort du Seigneur a montré (au moment de sa mort) un courage digne d’attirer les regards de Dieu. Comme le dit l’Écriture : %Aux yeux des hommes, il subissait un châtiment, mais par son espérance il avait déjà l’immortalité%. Nous avons raison de célébrer avec joie la naissance au ciel de celui qui a rendu lui-même ce jour solennel par sa propre passion en l’illustrant par la pourpre de son sang ; et nous vénérons dans la joie spirituelle la mémoire de cet homme qui a scellé par le sceau de son martyre le témoignage qu’il rendait au Seigneur.
+      Il n’y a en effet aucun doute que saint Jean Baptiste a subi la prison pour notre Rédempteur qu’il précédait par son témoignage, et que c’est pour lui qu’il a donné sa vie. Car si son persécuteur ne lui a pas demandé de nier le Christ, mais de taire la vérité, c’est cependant pour le Christ qu’il est mort. Le Christ lui-même a dit, en effet : %Je suis la vérité%. Puisque c’est pour la vérité qu’il a répandu son sang, c’est donc bien pour le Christ. Jean avait témoigné en naissant que le Christ allait naître ; en prêchant, il avait témoigné que le Christ allait prêcher : en baptisant, qu’il allait baptiser. En souffrant le premier sa passion, il signifiait que le Christ devait lui aussi souffrir. ~
+      Cet homme si grand parvint donc au terme de sa vie par l’effusion de son sang, après une longue et pénible captivité. Lui qui avait annoncé la bonne nouvelle de la liberté d’une paix supérieure est jeté en prison par des impies. Il est enfermé dans l’obscurité d’un cachot, lui qui était venu rendre témoignage à la lumière et qui avait mérité d’être appelé flambeau ardent de lumière par la lumière elle-même qui est le Christ. ~ Par son propre sang est baptisé celui à qui il fut donné de baptiser le Rédempteur du monde, d’entendre la voix du Père s’adresser au Christ, et de voir descendre sur lui la grâce du Saint-Esprit. Mais il n’était pas pénible à des hommes tels que lui, bien plus, il leur semblait léger et désirable d’endurer pour la vérité des tourments temporels qui laissaient entrevoir la récompense de joies éternelles. Préférant la mort qui de toute façon était naturellement inévitable, ils choisissaient de l’accepter en confessant le nom du Christ ; ils recevaient ainsi la palme de la vie éternelle. L’Apôtre l’a bien dit : %Il vous a été accordé par le Christ, non seulement de croire en lui, mais encore de souffrir pour lui%. Et s’il dit que souffrir pour le Christ est un don de celui-ci à ses élus, c’est parce que, comme il le dit ailleurs : %Il n’y a pas de commune mesure entre les souffrances du temps présent et la gloire que Dieu va bientôt révéler en nous%.
+
+    responsory: |-
+      R/ Tous ceux qui veulent plaire à Dieu
+      connaîtront la souffrance.
+      
+      Nous nous affirmons en tout
+      comme des ministres de Dieu,
+      constants dans les tribulations,
+      les détresses, les angoisses.
+      
+      On nous tient pour affligés,
+      et nous sommes toujours joyeux,
+      pour gens qui n’ont rien,
+      et nous possédons tout.
+      
+      Reste fidèle jusqu’à la mort, dit le Seigneur,
+      et je te donnerai la couronne de vie.
+
+morning:
+  psalmody:
+  - psalm: PSALM_62
+    antiphon:
+    - |-
+      La main du Seigneur a touché ma bouche : il a fait de moi le prophète des nations.
+  - psalm: OT_41
+    antiphon:
+    - Hérode craignait Jean Baptiste, il savait que cet homme était juste et saint.
+  - psalm: PSALM_149
+    antiphon:
+    - Hérode se plaisait aux paroles de Jean Baptiste.
+  reading:
+    biblicalReference: Is 49, 1b-2
+    content: J’étais encore dans le sein maternel quand le Seigneur m’a appelé ; j’étais encore dans les entrailles de ma mère quand il a prononcé mon nom. Il a fait de ma bouche une épée tranchante, il m’a protégé par l’ombre de sa main, il a fait de moi sa flèche préférée, il m’a serré dans son carquois.
+  responsory: |-
+    R/ Devant les rois, je parlerai de tes promesses :
+    * J’espère en ta parole.
+    V/ Des orgueilleux ont creusé pour moi une fosse. *
+    Gloire au Père.
+    R/ Devant les rois.
+  evangelicAntiphon:
+    common:
+    - L’ami de l’Époux entend la voix de l’Époux, et cette voix le réjouit.
+
+vespers:
+  psalmody:
+  - psalm: PSALM_114
+    antiphon:
+    - Ne crains pas, dit le Seigneur, je suis avec toi pour te délivrer.
+  - psalm: PSALM_115
+    antiphon:
+    - Un garde envoyé par Hérode alla décapiter Jean Baptiste dans sa prison.
+  - psalm: NT_9
+    antiphon:
+    - Les disciples de Jean prirent son corps et le déposèrent dans un tombeau.
+  reading:
+    biblicalReference: Ac 13, 23-25
+    content: |-
+      Comme il l’avait promis, Dieu a fait sortir de la descendance de David un sauveur pour Israël : c’est Jésus, dont Jean Baptiste a préparé la venue en proclamant avant lui un baptême de conversion pour tout le peuple d’Israël. Au moment d’achever se route, Jean disait : %Celui auquel vous pensez, ce n’est pas moi, mais le voici qui vient après moi, et je ne suis pas digne de lui défaire ses sandales%.
+  responsory: |-
+    R/ Celui qui vient après moi est passé devant moi :
+    * Lui vous baptisera dans l’Esprit Saint.
+    V/ Je ne suis pas la lumière,
+    Je ne suis pas le Messie : * Lui
+    Gloire au Père. R/ Celui qui vient
+  evangelicAntiphon:
+    common:
+    - |-
+      Je ne suis pas le Messie, je suis envoyé devant lui ; il grandira, et je diminuerai.
+
+
+
+
+
+Prophète du Très-Haut,
+Tu n’es pas la Lumière
+Mais son témoin.
+Avant même de naître,
+Tu la révèles :
+Joie sans parole !
+
+Tu cries dans le désert,
+Tout un peuple se lève
+Vers le Jourdain ;
+Ton baptême réveille
+La soif d’eau vive :
+Proche est la Source !
+
+Voici l’Agneau de Dieu, 
+Tes disciples le suivent,
+Tu restes là ;
+Mais ton âme jubile
+Quand ils l’écoutent :
+Noces du Verbe !
+
+Plus libre que les rois,
+Tu contestes ce monde
+Sans infini ;
+Ton martyre dans l’ombre
+Prévient l’aurore :
+Christ est lumière !

@@ -478,10 +478,6 @@ feasts:
     month: 8
     day: 11
     precedence: 10
-  jane_frances_de_chantal_religious: # manque lecture patristique
-    month: 8
-    day: 12
-    precedence: 12
   pontian_i_pope_and_hippolytus_of_rome_priest: #OK
     month: 8
     day: 13
@@ -786,11 +782,11 @@ feasts:
     month: 12
     day: 3
     precedence: 10
-  john_damascene_priest:
+  john_damascene_priest: #OK
     month: 12
     day: 4
     precedence: 12
-  nicholas_of_myra_bishop:
+  nicholas_of_myra_bishop: #OK
     month: 12
     day: 6
     precedence: 12
@@ -798,19 +794,23 @@ feasts:
     month: 12
     day: 7
     precedence: 10
-  juan_diego_cuauhtlatoatzin:
+  juan_diego_cuauhtlatoatzin: #OK (manque lecture patristique)
     month: 12
     day: 9
     precedence: 12
-  our_lady_of_loreto:
+  our_lady_of_loreto: #OK (manque lecture patristique)
     month: 12
     day: 10
     precedence: 12
-  damasus_i_pope:
+  damasus_i_pope: #OK
     month: 12
     day: 11
     precedence: 12
-  our_lady_of_guadalupe:
+  jane_frances_de_chantal_religious: #OK
+    month: 12
+    day: 12
+    precedence: 12
+  our_lady_of_guadalupe: #OK (manque lecture patristique)
     month: 12
     day: 12
     precedence: 12
@@ -830,7 +830,7 @@ feasts:
     month: 12
     day: 23
     precedence: 12
-  thomas_becket_bishop:
+  thomas_becket_bishop: #OK
     month: 12
     day: 29
     precedence: 12

@@ -90,11 +90,18 @@
   "ambrose_of_milan_bishop": {
     "color": "white",
     "commons": [
-      "pastors",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
     "title": "Saint Ambroise"
+  },
+  "andrew_apostle": {
+    "color": "red",
+    "commons": [
+      "apostles"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint André"
   },
   "andrew_dung_lac_priest_and_companions_martyrs": {
     "color": "red",
@@ -250,6 +257,14 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Barnabé"
+  },
+  "bartholomew_apostle": {
+    "color": "red",
+    "commons": [
+      "apostles"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Barthélemy"
   },
   "basil_the_great_and_gregory_nazianzen_bishops": {
     "color": "white",
@@ -690,6 +705,14 @@
     "dir": "sanctoral",
     "title": "Saint Cyrille de Jérusalem"
   },
+  "damasus_i_pope": {
+    "color": "white",
+    "commons": [
+      "pastors_pope"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Damase I^er"
+  },
   "dedication_of_the_basilica_of_saint_mary_major": {
     "color": "white",
     "commons": [
@@ -1053,6 +1076,14 @@
     "dir": "sanctoral",
     "title": "Saint Jean Bosco"
   },
+  "john_damascene_priest": {
+    "color": "white",
+    "commons": [
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean de Damas"
+  },
   "john_eudes_priest": {
     "color": "white",
     "commons": [
@@ -1098,7 +1129,6 @@
   "john_of_the_cross_priest": {
     "color": "white",
     "commons": [
-      "pastors",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
@@ -1128,6 +1158,14 @@
     ],
     "dir": "sanctoral",
     "title": "Sainte Joséphine Bakita"
+  },
+  "juan_diego_cuauhtlatoatzin": {
+    "color": "white",
+    "commons": [
+      "saints-male"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Juan Diego Cuauhtlatoatzin"
   },
   "justin_martyr": {
     "color": "red",
@@ -1200,8 +1238,8 @@
   "lucy_of_syracuse_virgin": {
     "color": "red",
     "commons": [
-      "virgins",
-      "virgins_martyrs"
+      "martyrs_female_virgin",
+      "virgins"
     ],
     "dir": "sanctoral",
     "title": "Sainte Lucie"
@@ -1529,7 +1567,7 @@
       "saints-female"
     ],
     "dir": "sanctoral",
-    "title": "Sainte Marie Madeleine."
+    "title": "Sainte Marie Madeleine"
   },
   "mary_magdalene_de_pazzi_virgin": {
     "color": "white",
@@ -1599,6 +1637,14 @@
     "dir": "sanctoral",
     "title": "Saint Nérée et saint Achille"
   },
+  "nicholas_of_myra_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Nicolas"
+  },
   "norbert_of_xanten_bishop": {
     "color": "white",
     "commons": [
@@ -1614,6 +1660,22 @@
     ],
     "dir": "sanctoral",
     "title": "Bienheureuse Vierge Marie de Fatima"
+  },
+  "our_lady_of_guadalupe": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie de Guadaloupe"
+  },
+  "our_lady_of_loreto": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie de Lorette"
   },
   "our_lady_of_lourdes": {
     "color": "white",
@@ -1651,6 +1713,14 @@
     ],
     "dir": "sanctoral",
     "title": "Sainte Geneviève, patronne du diocèse de Paris"
+  },
+  "passion_of_saint_john_the_baptist": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Martyre de Saint Jean Baptiste"
   },
   "patrick_of_ireland_bishop": {
     "color": "white",
@@ -1696,6 +1766,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saintes Perpétue et Félicité"
+  },
+  "peter_canisius_priest": {
+    "color": "red",
+    "commons": [
+      "pastors",
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pierre Canisius"
   },
   "peter_chanel_priest": {
     "color": "red",
@@ -1831,7 +1910,7 @@
     "dir": "sanctoral",
     "title": "Sainte Rose de Lima"
   },
-  "sacred_heart_of_jesus": {
+  "sacred_heart": {
     "color": "white",
     "dir": "special_days",
     "title": "Le Sacré Cœur de Jésus"

@@ -1,14 +1,18 @@
 celebration:
-  title: Saint Irénée, évêque et docteur de l’Église, et ses compagnons
+  title: Saint Irénée, évêque et docteur de l’Église, et ses compagnons, martyrs
   subtitle: patron principal du diocèse de Lyon
   description: Irénée (vers 130-200), qui était né à Smyrne, devint évêque de Lyon après la mort de Pothin (177). En vrai pasteur, il fut soucieux de répandre l’Évangile parmi les populations de la Gaule, mais aussi de défendre l’intégrité du dépôt de la foi. Dans ses écrits, Irénée révèle une vue profonde du dessein de Dieu, de la vocation de l’homme, du mystère de l’Église. Il fut sans doute victime de l’édit de persécution de Septime Sèvère (202).
   commons:
   - martyrs
   locative: à Lyon
+  color: red
 
 invitatory:
   antiphon:
   - Venez adorons Dieu qui nous a appelés des ténèbres à son admirable lumière.
+
+oration:
+- Seigneur notre Dieu, en la personne de saint Irénée, tu as donné au diocèse de Lyon un vrai pasteur, à l’image de celui de l’Évangile, et à ton Église, un maître éminent pour l’instruire de la vraie foi ; puisque le troupeau pour lequel il offrit sa vie l’accompagna dans son martyre, permets qu’à notre tour, renouvelés au contact de sa foi et de son enseignement, nous puissions, par notre amour et notre vie, lui demeurer fidèlement attachés.
 
 firstVespers:
   hymn:
@@ -31,10 +35,11 @@ firstVespers:
       Moi, je viens rassembler toutes les nations, de toute langue. Elles viendront et verront ma gloire : je mettrai chez elles un signe ! Et, du milieu d’elles, j’enverrai des rescapés vers les nations, vers Tarsis, Pouth et Loud, Mèshek, Rosh, Toubal et Yavane, vers les îles lointaines qui n’ont rien entendu de ma renommée, qui n’ont pas vu ma gloire ; ma gloire, ces rescapés l’annonceront parmi les nations. Et, de toutes les nations, ils ramèneront tous vos frères, en offrande au Seigneur, sur des chevaux et des chariots, en litière, à dos de mulets et de dromadaires, jusqu’à ma montagne sainte, à Jérusalem, – dit le Seigneur. On les portera comme l’offrande qu’apportent les fils d’Israël.
   responsory: |-
     R/ La vie des justes est dans la main de Dieu.
-    *	Alléluia, alléluia.
+    * Alléluia, alléluia.
     V/ Aucun tourment n’a de prise sur eux.
-    *	Alléluia, alléluia.
-    Gloire au Père. R/ La vie des justes.
+    * Alléluia, alléluia.
+    Gloire au Père.
+    R/ La vie des justes.
 
   evangelicAntiphon:
     common: |-
@@ -59,10 +64,11 @@ morning:
     content: Béni soit Dieu, le Père de notre Seigneur Jésus Christ, le Père plein de tendresse, le Dieu de qui vient tout réconfort. Dans toutes nos détresses, il nous réconforte ; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse, grâce au réconfort que nous recevons nous-mêmes de Dieu. En effet, de même que nous avons largement part aux souffrances du Christ, de même, par le Christ, nous sommes largement réconfortés.
   responsory: |-
     R/ Les justes vivent pour toujours.
-    *	Alléluia, alléluia.
+    * Alléluia, alléluia.
     V/ Leur récompense est auprès du Seigneur.
-    *	Alléluia, Alléluia.
-    Gloire au Père. R/ Les justes vivent.
+    * Alléluia, Alléluia.
+    Gloire au Père.
+    R/ Les justes vivent.
 
   evangelicAntiphon:
     common:
@@ -112,15 +118,11 @@ readings:
     subtitle: La gloire de Dieu, c’est l’homme vivant
     content: |-
       La splendeur de Dieu est vivifiante : ceux qui voient Dieu, reçoivent la vie. C’est pourquoi, Lui, l’insaisissable, l’incompréhensible, l’invisible, se donne aux hommes, visible, compréhensible et saisissable, pour vivifier ceux qui le reçoivent et ceux qui le voient. Car vivre sans la vie, c’est impossible : la substance de la vie vient de la participation à Dieu ; et participer à Dieu, c’est voir Dieu et jouir de sa bonté. 
-
       Ainsi les hommes verront Dieu pour vivre : par cette vue, ils deviennent immortels et arrivent à Dieu. Je l’ai dit, il était annoncé en image par les prophètes que Dieu serait vu des hommes qui portent son Esprit et sans cesse attendent sa venue. Et Moïse le dit ainsi dans le Deutéronome : En ce jour-là, nous verrons, car Dieu parlera à l’homme et l’homme vivra. 
-
       La puissance et la grandeur de celui qui opère tout en tous est invisible et inexprimable pour tous ceux qui ont été faits par lui ; toutefois il ne leur est pas inconnu : tous apprennent de son Verbe qu’il n’y a qu’un seul Dieu Père qui contient tout et donne l’être à toutes choses ; ainsi qu’il est écrit dans l’Évangile : Nul n’a jamais vu Dieu ; Le Fils unique, qui est dans le sein du Père, lui, l’a révélé. 
-
-      Depuis le commencement, le Fils est l’exégète du Père, puisqu’il est depuis le commencement auprès du Père : au temps voulu, il a montré aux hommes pour leur profit les visions prophétiques, la variété des charismes, ses ministères et la glorification du Père, de façon cohérente et claire : Qui dit cohésion dit harmonie, qui dit harmonie dit temps voulu, et qui dit temps voulu dit profit. C’est pourquoi le Verbe s’est fait le dispensateur de la gloire du Père au profit des hommes pour qui il accomplit de telles économies : ainsi il montre Dieu aux hommes, et présente l’homme à Dieu, tout en préservant l’invisibilité du Père, de peur que l’homme n’en vienne à mépriser Dieu, mais, en même temps, pour qu’il ait toujours des progrès en vue, il rend Dieu visible aux hommes en le montrant par de nombreuses économies, de peur que totalement privé de Dieu, l’homme cesse d’être. Car la gloire de Dieu, c’est l’homme vivant, et la vie de l’homme, c’est la vue de Dieu. Si la révélation de Dieu par la création, donne la vie à tout être vivant sur la terre, combien plus la manifestation du Père par le Verbe donne-t-elle la vie à ceux qui voient· Dieu.
-
+      Depuis le commencement, le Fils est l’exégète du Père, puisqu’il est depuis le commencement auprès du Père : au temps voulu, il a montré aux hommes pour leur profit les visions prophétiques, la variété des charismes, ses ministères et la glorification du Père, de façon cohérente et claire : Qui dit cohésion dit harmonie, qui dit harmonie dit temps voulu, et qui dit temps voulu dit profit. C’est pourquoi le Verbe s’est fait le dispensateur de la gloire du Père au profit des hommes pour qui il accomplit de telles économies : ainsi il montre Dieu aux hommes, et présente l’homme à Dieu, tout en préservant l’invisibilité du Père, de peur que l’homme n’en vienne à mépriser Dieu, mais, en même temps, pour qu’il ait toujours des progrès en vue, il rend Dieu visible aux hommes en le montrant par de nombreuses économies, de peur que totalement privé de Dieu, l’homme cesse d’être. Car la gloire de Dieu, c’est l’homme vivant, et la vie de l’homme, c’est la vue de Dieu. Si la révélation de Dieu par la création, donne la vie à tout être vivant sur la terre, combien plus la manifestation du Père par le Verbe donne-t-elle la vie à ceux qui voient Dieu.
     responsory: |-
-      R/	Prenons en mains le bouclier de la foi
+      R/ Prenons en mains le bouclier de la foi
       et le glaive de la Parole de Dieu.
 
       Pour la cause de Dieu, les armes de notre combat
@@ -180,11 +182,9 @@ vespers:
   responsory: |-
     R/ Ayez la joie dans le Seigneur. Exultez les justes.
     V/ Jubilez tous les cœurs droits.
-    Gloire au Père. R/ Ayez la joie.
+    Gloire au Père.
+    R/ Ayez la joie.
 
   evangelicAntiphon:
     common:
-
     - Que leur souvenir soit en bénédiction. Que leurs os refleurissent de leur tombe et que leur nom se renouvelle dans la descendance de ces hommes illustres.
-oration:
-- Seigneur notre Dieu, en la personne de saint Irénée, tu as donné au diocèse de Lyon un vrai pasteur, à l’image de celui de l’Évangile, et à ton Église, un maître éminent pour l’instruire de la vraie foi ; puisque le troupeau pour lequel il offrit sa vie l’accompagna dans son martyre, permets qu’à notre tour, renouvelés au contact de sa foi et de son enseignement, nous puissions, par notre amour et notre vie, lui demeurer fidèlement attachés.

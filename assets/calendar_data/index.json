@@ -292,6 +292,39 @@
     "dir": "sanctoral",
     "title": "Saint Amand"
   },
+  "belgium_hubert_of_liege_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Hubert"
+  },
+  "belgium_john_berchmans_religious": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean Berchmans"
+  },
+  "belgium_lambert_of_maastricht_bishop_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Lambert"
+  },
+  "belgium_virgin_mary_mediatrice": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "La Vierge Marie Médiatrice"
+  },
   "benedict_of_nursia_abbot": {
     "color": "white",
     "commons": [
@@ -673,6 +706,15 @@
     "dir": "sanctoral",
     "title": "Conversion de Saint Paul, Apôtre"
   },
+  "cornelius_i_pope_and_cyprian_of_carthage_bishop_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs",
+      "pastors_multiple"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Corneille, pape, et saint Cyprien, évêque"
+  },
   "corpus_domini": {
     "color": "white",
     "dir": "special_days",
@@ -808,6 +850,11 @@
     "dir": "sanctoral",
     "title": "Saint Eusèbe de Verceil"
   },
+  "exaltation_of_the_holy_cross": {
+    "color": "red",
+    "dir": "sanctoral",
+    "title": "La Croix glorieuse"
+  },
   "fabian_i_pope": {
     "color": "red",
     "commons": [
@@ -938,6 +985,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Georges"
+  },
+  "gregory_i_the_great_pope": {
+    "color": "white",
+    "commons": [
+      "pastors_pope",
+      "pastors_doctor"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Grégoire le Grand"
   },
   "gregory_of_narek_abbot": {
     "color": "white",
@@ -1076,6 +1132,15 @@
     "dir": "sanctoral",
     "title": "Saint Jean Bosco"
   },
+  "john_chrysostom_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop",
+      "pastors_doctor"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean Chrysostome"
+  },
   "john_damascene_priest": {
     "color": "white",
     "commons": [
@@ -1125,6 +1190,14 @@
     ],
     "dir": "sanctoral",
     "title": "Saint jean de Dieu"
+  },
+  "john_of_kanty_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean de Kenty"
   },
   "john_of_the_cross_priest": {
     "color": "white",
@@ -1443,7 +1516,7 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "BSaint Maurice et ses compagnons"
+    "title": "Saint Maurice et ses compagnons"
   },
   "lyon_nicetius_of_lyon_bishop": {
     "color": "white",
@@ -1628,6 +1701,14 @@
     "color": "white",
     "dir": "special_days",
     "title": "Nativité du Seigneur"
+  },
+  "nativity_of_the_blessed_virgin_mary": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Nativité de la Vierge Marie"
   },
   "nereus_of_terracina_and_achilleus_of_terracina_martyrs": {
     "color": "red",
@@ -1987,6 +2068,14 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Étienne de Hongrie"
+  },
+  "sylvester_i_pope": {
+    "color": "white",
+    "commons": [
+      "pastors_pope"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Sylvestre I^er"
   },
   "teresa_benedicta_of_the_cross_stein_virgin": {
     "color": "red",

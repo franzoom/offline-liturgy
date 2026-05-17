@@ -1,0 +1,91 @@
+celebration:
+  title: Notre-Dame des Douleurs
+  description: Marie a communié intimement à la passion de son fils. Aussi a t elle été associée d’une manière unique à la gloire de sa résurrection. C’est pour cela que nous célébrons la Compassion de Marie au lendemain de la sainte Croix. Cette fête nous rappelle qu’au pied de la Croix la maternité de Marie s’est étendue à tout le Corps du Christ, qui est l’Église.
+  commons:
+    - virgin-mary
+  color: white
+
+invitatory:
+  antiphon:
+  - Avec Marie au pied de la Croix, adorons le Sauveur du monde.
+
+oration:
+  - Tu as voulu, Seigneur, que la Mère de ton Fils, debout près de la croix, fût associée à ses souffrances ; accorde à ton Église de s’unir, elle aussi, à la passion du Christ, afin d’avoir part à sa résurrection. Lui qui règne.
+
+morning:
+  hymn: 
+  - quand-jesus-mourait
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Mon âme s’attache à toi, Seigneur Jésus.
+    - psalm: AT_41
+      antiphon:
+        - Réjouissons-nous de souffrir avec le Christ.
+    - psalm: PSALM_149
+      antiphon:
+        - Il a plu à notre Dieu de tout réconcilier par le sang du Christ.
+  reading:
+    biblicalReference: Col 1,24-25
+    content: Je trouve la joie dans les souffrances que je supporte pour vous, car ce qu’il reste à souffrir des épreuves du Christ, je l’accomplis dans ma propre chair, pour son corps qui est l’Église. De cette Église je suis devenu ministre, et la charge que Dieu m’a confiée, c’est d’accomplir pour vous sa parole.
+  responsory: |-
+    R/ Si nous souffrons avec lui,
+    avec lui nous régnerons.
+    V/ Près de la croix de Jésus se tenait sa mère. R/
+    V/ Jésus dit à sa mère : Femme voici ton fils. R/
+  evangelicAntiphon:
+    common: |-
+      Réjouis-toi, Mère de douleurs : avec ton Fils tu as souffert la passion, aujourd’hui tu partages sa gloire.
+      
+readings:
+  hymn: 
+  - entendez-vous
+  patristicReading:
+    - title: HOMÉLIE DE SAINT BERNARD POUR LE DIMANCHE APRÈS L’ASSOMPTION
+      content: |-
+        Le martyre de la Vierge nous est connu tant par la prophétie de Siméon que par le récit même de la Passion du Seigneur. De l’enfant Jésus, ce vieillard disait : %Il sera un signe de division% ; et toi, disait-il à Marie, %une épée transpercera ton âme%.
+        Oui, Mère bénie, un glaive a transpercé ton âme : il n’aurait pu, sans transpercer celle-ci, pénétrer dans la chair du Fils. C’est vrai : ce Jésus qui est le tien —  qui est à tous, certes, mais à toi tout particulièrement — , après avoir remis son esprit, ne fut pas atteint dans son âme par la lance meurtrière sans épargner un mort, auquel elle ne pouvait pourtant plus faire de mal, elle lui ouvrit le côté ; mais c’est ton âme qu’elle transperça. La sienne assurément n’était plus là mais la tienne ne pouvait s’enfuir. Ton âme, c’est la force de douleur qui l’a transpercée, aussi pouvons-nous très justement te proclamer plus que martyre, puisque ta souffrance de compassion aura certainement dépassé la souffrance qu’on peut ressentir physiquement.
+        N’a-t-elle pas été plus qu’une épée pour toi, n’a-t-elle pas percé ton âme et atteint jusqu’à la division de l’âme et de l’esprit, cette parole : %Femme, voilà ton fils% ? Ô quel échange ! Jean t’est donné en lieu et place de Jésus, le serviteur à la place du Seigneur, le disciple au lieu du Maître, le fils de Zébédée à la place du Fils de Dieu, un simple homme au lieu du vrai Dieu. Comment l’écoute de cette parole ne transpercerait-elle pas ton âme pleine d’affection, quand le seul souvenir de cette parole brise déjà nos cœurs, qui sont pourtant de roc et de fer ?
+        Ne vous étonnez pas, frères, qu’on puisse dire de Marie qu’elle a été martyre dans son âme. S’en étonnerait celui qui aurait oublié comment Paul mentionne, parmi les fautes les plus graves des païens, le fait qu’ils ont été %sans affection%. Un tel péché était bien loin du cœur de Marie ; qu’il le soit aussi de ses modestes serviteurs.
+        Mais on dira peut-être : ne savait-elle pas d’avance qu’il devait mourir ? — Sans nul doute. N’espérait-elle pas qu’il ressusciterait aussitôt ? — Oui, assurément. Et malgré cela elle souffrit de le voir crucifié ? — Oui, et violemment. Qui donc es-tu, frère, et d’où vient ta sagesse, pour que tu puisses t’étonner davantage de la compassion de Marie que de la passion du fils de Marie ? Lui a pu mourir dans son corps, et elle, n’aurait-elle pas pu mourir avec lui dans son cœur ? Voilà (dans la passion du Christ) ce qu’a accompli une charité telle que personne n’en a éprouvé de plus grande ; et voici (dans la compassion de Marie) ce qu’a accompli une charité qui, après celle de Jésus, n’a pas son pareil.
+      responsory: |-
+        R/ Tu es la gloire de notre peuple,
+        Vierge Marie !
+
+        Ton nom sera, de par Dieu, pour toujours :
+        « Celle qui a trouvé grâce devant lui ».
+
+        Lève-toi, tiens-toi sur la hauteur,
+        debout près de la croix !
+
+        Vois tes enfants, du levant au couchant rassemblés,
+        car ton Fils attire tout à lui !
+
+vespers:
+  hymn:
+  - entendez-vous
+  - quand-jesus-mourait
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - Le Christ est notre paix ; par sa croix, il nous a réconciliés avec Dieu.
+    - psalm: PSALM_126
+      antiphon:
+        - Nous sommes venus vers la cité du Dieu vivant, vers Jésus médiateur d’une Alliance nouvelle.
+    - psalm: NT_4
+      antiphon:
+        - Dans le Christ et par son sang, nous sommes délivrés.
+  reading:
+    biblicalReference: 2 Tm 2, 10-12a
+    content: |-
+      Je supporte tout pour ceux que Dieu a choisis, afin qu’ils obtiennent, eux aussi, le salut par Jésus Christ avec la gloire éternelle. Voici une parole sûre : Si nous sommes morts avec lui, avec lui nous vivrons. Si nous supportons l’épreuve, avec lui nous régnerons.
+  responsory: |-
+    R/ Tu es la gloire de notre peuple,
+    * Vierge Marie !
+    V/ Tu as trouvé Grâce devant Dieu.
+    * Vierge Marie !
+    V/ Tiens-toi sur la hauteur,
+    debout près de la croix. R/
+  evangelicAntiphon:
+    common: |-
+      Jésus, voyant Marie, et près d’elle le disciple qu’il aimait dit à sa mère : %Femme, voici ton fils%. Puis il dit au disciple : %Voici ta mère%.

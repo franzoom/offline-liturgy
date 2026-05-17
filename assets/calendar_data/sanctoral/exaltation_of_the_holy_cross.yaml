@@ -1,0 +1,251 @@
+celebration:
+  title: La Croix glorieuse
+  description: C’est au lendemain de la Dédicace de l’église de la Résurrection, érigée à Jérusalem sur le tombeau du Christ (335), que nous célébrons la Croix glorieuse. La croix du Christ est le trophée de sa victoire pascale sur la mort. La tradition y voit aussi le signe du Fils de l’homme, qui apparaîtra dans le ciel pour annoncer son retour (Mt 24, 30).
+  color: red
+
+invitatory:
+  antiphon: 
+  - Venez, adorons le Seigneur notre Roi, élevé sur la Croix.
+
+oration:
+  - Tu as voulu, Seigneur, que tous les hommes soient sauvés par la croix de ton Fils ; permets qu’ayant connu dès ici-bas ce mystère, nous goûtions au ciel les bienfaits de la rédemption.
+
+firstVespers:
+  hymn:
+  - par-la-croix-2
+  psalmody:
+    - psalm: PSALM_146
+      antiphon:
+        - Jésus le crucifié s’est relevé d'entre les morts, il nous a rachetés, alléluia.
+    - psalm: PSALM_147
+      antiphon:
+        - Au cœur de la ville sainte, s'élève l’arbre de la vie, son feuillage guérira les nations, alléluia.
+    - psalm: NT_5
+      antiphon:
+        - Croix de Jésus Christ, notre seule gloire !
+  reading:
+    biblicalReference: 1 Co 1, 23-24
+    content: Nous proclamons un Messie crucifié, scandale pour les juifs, folie pour les peuples païens. Mais pour ceux que Dieu appelle, qu’ils soient Juifs ou Grecs, ce Messie est puissance et sagesse de Dieu.
+  responsory: |-
+    R/ Proclamez-le dans l’univers :
+    le Seigneur a régné par le bois !
+    * Que les arbres des forêts crient de joie !
+    V/ Il s’est fait obéissant jusqu’à la mort :
+    c’est pourquoi Dieu l’a exalté. * Que les arbres.
+    V/ Élevé de terre,
+    il attire tous les hommes. * Que les arbres.
+    Gloire au Père. R/ Proclamez-le.
+  evangelicAntiphon:
+    common: Le Messe devait souffrir et ressusciter pour entrer dans sa gloire.
+  intercession:
+    content: |-
+      Par la croix de l’Homme-Dieu,
+      >arbre béni où s’abritent les oiseaux,
+      Par le corps de Jésus Christ,
+      >recrucifié dans nos guerres sans pardon,
+      Sur les peuples de la nuit
+      >et du brouillard que la haine a décimés,
+      
+      R/ Fais paraître ton Jour et le temps de ta grâce,
+      Fais paraître ton Jour, que l’homme soit sauvé !
+      
+      Par la croix du vrai pasteur,
+      >alléluia, où l’enfer est désarmé,
+      Par le corps de Jésus Christ,
+      >alléluia, qui appelle avec nos voix,
+      Sur l’Église de ce temps,
+      >alléluia, que l’Esprit vient purifier,
+      
+      Par la croix du Premier-Né,
+      >alléluia, le gibet qui tue la mort,
+      Par le corps de Jésus Christ,
+      >alléluia, la vraie chair de notre chair,
+      Sur la pierre des tombeaux,
+      >alléluia, sur nos tombes à venir,
+
+morning:
+  hymn: 
+  - par-la-croix-1
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - |-
+          Il a souffert la croix, il a brisé l’enfer : il s’est vêtu de force, il est ressuscité.
+    - psalm: AT_41
+      antiphon:
+        - |-
+          Tu resplendis, croix bienheureuse : le corps que tu portais, le sang qui t’a baignée, guérissent nos blessures.
+    - psalm: PSALM_149
+      antiphon:
+        - |-
+          La croix resplendit : le monde est sauvé. Triomphante, elle règne : elle a vaincu la mort, alléluia.
+  reading:
+    biblicalReference: He 2, 9b-10
+    content: Nous voyons Jésus couronné de gloire et d’honneur à cause de sa passion et de sa mort. S’il a fait l’expérience de la mort, c’est, par grâce de Dieu, pour le salut de tous. En effet, puisque le créateur et maître de tout voulait avoir une multitude de fils à conduire jusqu’à la gloire, il était normal qu’il mène à sa perfection, par la souffrance, celui qui est à l’origine du salut de tous.
+  responsory: |-
+    R/ Nous t’adorons,
+    ô Christ, nous te bénissons.
+    V/ Par ta croix, tu as racheté le monde. R/
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: |-
+      Nous vénérons ta croix, Seigneur, nous chantons ta résurrection : l’arbre de la croix donne la joie au monde.
+  intercession:
+    content: |-
+      Par la croix du Fils de Dieu,
+      >signe levé qui rassemble les nations,
+      Par le corps de Jésus Christ,
+      >dans nos prisons, innocent et torturé,
+      Sur les terres désolées,
+      >terres d’exil, sans printemps, sans amandiers,
+      
+      R/ Fais paraître ton Jour et le temps de ta grâce,
+      Fais paraître ton Jour, que l’homme soit sauvé !
+      
+      Par la croix du Bien-Aimé,
+      >fleuve de paix, où s’abreuve toute vie,
+      Par le corps de Jésus Christ,
+      >hurlant nos peurs dans la nuit des hôpitaux,
+      Sur le monde que tu fis
+      >pour qu’il soit beau et nous parle de ton nom,
+      
+      Par la croix du Serviteur,
+      >porche royal où s’avancent les pécheurs,
+      Par le corps de Jésus Christ,
+      >nu, outragé, sous le rire des bourreaux,
+      Sur les foules sans berger,
+      >et sans espoir, qui ne vont qu’à perdre cœur,
+
+readings:
+  hymn:
+  - apre-surgeon
+  psalmody:
+    - psalm: PSALM_2
+      antiphon:
+        - |-
+          Déjà le prince de ce monde est terrassé : le Fils de l’homme élevé sur la croix attire à lui tous les hommes.
+    - psalm: PSALM_8
+      antiphon:
+        - Dieu l’a fait Seigneur et Christ, ce Jésus que vous avez crucifié.
+    - psalm: PSALM_95
+      antiphon:
+        - |-
+          Proclamez chez les païens : le Seigneur a régné par le bois.
+  biblicalReading:
+    - title: |-
+        Lecture : La gloire de la croix du Christ
+      ref: Ga 2, 19-21; 3, 1-7.13.14; 6, 14-16
+      content: |-
+        Par la Loi, je suis mort à la Loi afin de vivre pour Dieu ; avec le Christ, je suis crucifié. Je vis, mais ce n’est plus moi, c’est le Christ qui vit en moi. Ce que je vis aujourd’hui dans la chair, je le vis dans la foi au Fils de Dieu qui m’a aimé et s’est livré lui-même pour moi. Il n’est pas question pour moi de rejeter la grâce de Dieu. En effet, si c’était par la Loi qu’on devient juste, alors le Christ serait mort pour rien.
+        Galates stupides, qui donc vous a ensorcelés ? À vos yeux, pourtant, Jésus Christ a été présenté crucifié. Je n’ai qu’une question à vous poser : l’Esprit Saint, l’avez-vous reçu pour avoir pratiqué la Loi, ou pour avoir écouté le message de la foi ? Comment pouvez-vous être aussi fous ? Après avoir commencé par l’Esprit, allez-vous, maintenant, finir par la chair ? Auriez-vous vécu de si grandes choses en vain ? Si encore ce n’était qu’en vain ! Celui qui vous fait don de l’Esprit et qui réalise des miracles parmi vous, le fait-il parce que vous pratiquez la Loi, ou parce que vous écoutez le message de la foi ?
+        C’est ainsi qu’%Abraham eut foi en Dieu, et il lui fut accordé d’être juste%. Comprenez-le donc : ceux qui se réclament de la foi, ce sont eux, les fils d’Abraham.
+        Quant à cette malédiction de la Loi, le Christ nous en a rachetés en devenant, pour nous, objet de malédiction, car il est écrit : %Il est maudit, celui qui est pendu au bois du supplice%. Tout cela pour que la bénédiction d’Abraham s’étende aux nations païennes dans le Christ Jésus, et que nous recevions, par la foi, l’Esprit qui a été promis. Mais pour moi, que la croix de notre Seigneur Jésus Christ reste ma seule fierté. Par elle, le monde est crucifié pour moi, et moi pour le monde. Ce qui compte, ce n’est pas d’être circoncis ou incirconcis, c’est d’être une création nouvelle. Pour tous ceux qui marchent selon cette règle de vie et pour l’Israël de Dieu, paix et miséricorde.
+      responsory: |-
+        R/ Glorifions-nous dans la croix du Seigneur Jésus !
+        À cause de la mort qu’il a endurée, le voici couronné de gloire et d’honneur.
+        En lui le salut, la vie et la résurrection ; en lui la sagesse et la délivrance.
+  patristicReading:
+    - title: HOMÉLIE DE SAINT ANDRÉ DE CRÊTE
+      subtitle: La Croix, gloire et exaltation du Christ
+      content: |-
+        Nous célébrons la fête de la Croix, de cette Croix qui a chassé les ténèbres et ramené la lumière. Nous célébrons la fête de la Croix et, avec le Crucifié, nous sommes portés vers les hauteurs, nous laissons sous nos pieds la terre et le péché pour obtenir les biens du ciel. ~ Quelle grande chose que de posséder la Croix : celui qui la possède, possède un trésor. ~ Je viens d’employer le mot de trésor pour désigner ce qu’on appelle et qui est réellement le meilleur et le plus magnifique de tous les biens ; car c’est en lui, par lui et pour lui que tout l’essentiel de notre salut consiste et a été restauré pour nous.
+        En effet, s’il n’y avait pas eu la Croix, le Christ n’aurait pas été crucifié, la vie n’aurait pas été clouée au gibet, et les sources de l’immortalité, le sang et l’eau qui purifient le monde, n’auraient pas jailli de son côté, le document reconnaissant le péché n’aurait pas été déchiré, nous n’aurions pas reçu la liberté, nous n’aurions pas profité de l’arbre de vie, le paradis ne se serait pas ouvert. ~ S’il n’y avait pas eu la Croix, la mort n’aurait pas été terrassée, l’enfer n’aurait pas été dépouillé de ses armes. ~
+        La Croix est donc une chose grande et précieuse. Grande, parce qu’elle a produit de nombreux biens, et d’autant plus nombreux que les miracles et les souffrances du Christ ont triomphé davantage. C’est une chose précieuse, parce que la Croix est à la fois la souffrance et le trophée de Dieu. Elle est sa souffrance, parce que c’est sur elle qu’il est mort volontairement ; elle est son trophée, parce que le diable y a été blessé et vaincu, et que la mort y a été vaincue avec lui ; les verrous de l’enfer y ont été brisés, et la Croix est devenue le salut du monde entier. ~
+        La Croix est appelée la gloire du Christ, et son exaltation. On voit en elle la coupe désirée, la récapitulation de tous les supplices que le Christ a endurés pour nous. Que la Croix soit la gloire du Christ, écoute-le nous le dire lui-même : %Maintenant le Fils de l’homme a été glorifié, et Dieu a été glorifié en lui. Si Dieu a été glorifié en lui, Dieu en retour lui donnera sa propre gloire%. Et encore : %Toi, Père, glorifie-moi de la gloire que j’avais auprès de toi avant le commencement du monde%. Et encore : %Père, glorifie ton nom. Alors, du ciel vint une voix qui disait : Je l’ai glorifié et je le glorifierai encore%. Cela désignait la gloire qu’il devait obtenir sur la Croix. ~
+        Que la Croix soit aussi l’exaltation du Christ, tu l’apprends lorsqu’il dit lui-même : %Quand j’aurai été élevé de terre, j’attirerai à moi tous les hommes%. Tu vois : la Croix est la gloire et l’exaltation du Christ.
+      responsory: |-
+        R/ Gloire à toi, Sauveur des humbles :
+        tu nous élèves en ta victoire.
+
+        Jésus se dépouilla lui-même :
+        prenant la condition d’esclave,
+        il se rendit semblable aux hommes.
+
+        À son aspect, reconnu pour un homme,
+        il s’abaissa, en se faisant obéissant jusqu’à la mort,
+        et la mort de la croix.
+
+        C’est pourquoi Dieu l’a élevé
+        et lui a donné le Nom
+        qui l’emporte sur tout nom.
+  verse: |-
+    V/ Le serpent de bronze fut élevé par Moïse dans le désert,
+    ainsi le Fils de l’homme sera élevé.
+
+middleOfDay:
+  tierce:
+    antiphon: Par la puissance de ta croix, sauve-nous, Jésus, notre Sauveur !
+    reading:
+      biblicalReference: 1P 1, 18-19
+      content: Ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits ; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache.
+    responsory: |-
+      V/ Le signe de la croix paraîtra dans le ciel, lorsque le Seigneur viendra pour le jugement.
+  sexte:
+    antiphon: Par ton sang répandu sur la croix, sauve-nous, Sauveur du monde !
+    reading:
+      biblicalReference: Ep 1, 7-8
+      content: Le Christ nous obtient par son sang la rédemption, le pardon de nos fautes. Elle est inépuisable, la grâce par laquelle Dieu nous a remplis de sagesse et d’intelligence.
+    responsory: |-
+      V/ Toute la terre se prosterne devant toi,
+      elle chante pour toi, elle chante pour ton nom.
+  none:
+    antiphon: Par ta croix qui a détruit la mort, sauve-nous, Seigneur ressuscité !
+    reading:
+      biblicalReference: 1P 1, 18-19
+      content: Ce qui vous a libérés de la vie sans but que vous meniez à la suite de vos pères, ce n’est pas l’or et l’argent, car ils seront détruits ; c’est le sang précieux du Christ, l’Agneau sans défaut et sans tache.
+    responsory: |-
+      V/ Le signe de la croix paraîtra dans le ciel, lorsque le Seigneur viendra pour le jugement.
+
+vespers:
+  hymn:
+  - par-la-croix-2
+  psalmody:
+    - psalm: PSALM_109
+      antiphon:
+        - Merveille de l’amour ! La mort est morte à l’heure où la vie mourait sur la croix.
+    - psalm: PSALM_115
+      antiphon:
+        - Nous vénérons ta croix, Seigneur, nous rappelons ta mort et ta résurrection.
+    - psalm: NT_9
+      antiphon:
+        - |-
+          Nous t’adorons, ô Christ, et nous te bénissons : par ta croix tu as racheté le monde !
+  reading:
+    biblicalReference: 1 Co 1, 23-24
+    content: Nous proclamons un Messie crucifié, scandale pour les juifs, folie pour les peuples païens. Mais pour ceux que Dieu appelle, qu’ils soient Juifs ou Grecs, ce Messie est puissance et sagesse de Dieu.
+  responsory: |-
+    R/ Proclamez-le dans l’univers :
+    le Seigneur a régné par le bois !
+    * Que les arbres des forêts crient de joie !
+    V/ Il s’est fait obéissant jusqu’à la mort :
+    c’est pourquoi Dieu l’a exalté. * Que les arbres.
+    V/ Élevé de terre,
+    il attire tous les hommes. * Que les arbres.
+    Gloire au Père. R/ Proclamez-le.
+  evangelicAntiphon:
+    common: Croix glorieuse, signe de victoire, conduis-nous dans la cité de Dieu !
+  intercession:
+    content: |-
+      Par la croix de l’Homme-Dieu,
+      >arbre béni où s’abritent les oiseaux,
+      Par le corps de Jésus Christ,
+      >recrucifié dans nos guerres sans pardon,
+      Sur les peuples de la nuit
+      >et du brouillard que la haine a décimés,
+      
+      R/ Fais paraître ton Jour et le temps de ta grâce,
+      Fais paraître ton Jour, que l’homme soit sauvé !
+      
+      Par la croix du vrai pasteur,
+      >alléluia, où l’enfer est désarmé,
+      Par le corps de Jésus Christ,
+      >alléluia, qui appelle avec nos voix,
+      Sur l’Église de ce temps,
+      >alléluia, que l’Esprit vient purifier,
+      
+      Par la croix du Premier-Né,
+      >alléluia, le gibet qui tue la mort,
+      Par le corps de Jésus Christ,
+      >alléluia, la vraie chair de notre chair,
+      Sur la pierre des tombeaux,
+      >alléluia, sur nos tombes à venir,

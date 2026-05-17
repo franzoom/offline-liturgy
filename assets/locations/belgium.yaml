@@ -10,7 +10,7 @@ feasts:
     month: 1
     day: 8
     precedence: 12
-  belgium_amand_of_maastricht_bishop:
+  belgium_amand_of_maastricht_bishop: #OK
     month: 2
     day: 6
     precedence: 10
@@ -26,7 +26,11 @@ feasts:
     month: 8
     day: 7
     precedence: 12
-  belgium_lambert_of_maastricht_bishop_martyr:
+  belgium_virgin_mary_mediatrice: #OK
+    month: 8
+    day: 31
+    precedence: 12
+  belgium_lambert_of_maastricht_bishop_martyr: #OK (manque lecture patristique)
     month: 9
     day: 17
     precedence: 10
@@ -34,11 +38,11 @@ feasts:
     month: 10
     day: 1
     precedence: 12
-  belgium_hubert_of_liege_bishop:
+  belgium_hubert_of_liege_bishop: #OK (manque lecture patristique)
     month: 11
     day: 3
     precedence: 10
-  belgium_john_berchmans_religious:
+  belgium_john_berchmans_religious: #OK
     month: 11
     day: 26
     precedence: 10

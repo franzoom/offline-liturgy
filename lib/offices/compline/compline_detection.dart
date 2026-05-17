@@ -156,7 +156,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       if (ferialDayCheck(c.celebrationCode)) continue;
       final int precedence = c.precedence ?? 13;
       final bool isTomorrowSolemnity = precedence <= 4;
-      final bool needsEveCompline = isTomorrowSolemnity || isTomorrowSunday;
+      final bool needsEveCompline = isTomorrowSolemnity;
 
       if (needsEveCompline) {
         if (isTomorrowSolemnity) tomorrowHasSolemnity = true;

@@ -70,6 +70,11 @@
     "dir": "sanctoral",
     "title": "Sainte Agnès"
   },
+  "all-saints": {
+    "color": "white",
+    "dir": "special_days",
+    "title": "Tous les Saints"
+  },
   "aloysius_gonzaga_religious": {
     "color": "white",
     "commons": [
@@ -611,6 +616,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Charles Lwanga et ses compagnons"
+  },
+  "christ-king": {
+    "color": "white",
+    "dir": "special_days",
+    "title": "Le Christ Roi de l’univers"
   },
   "christmas-ferial_before_epiphany_2": {
     "color": "white",
@@ -1366,14 +1376,6 @@
     "dir": "sanctoral",
     "title": "Saint Galmier"
   },
-  "lyon_clotilda_queen_of_the_franks": {
-    "color": "white",
-    "commons": [
-      "saint-female"
-    ],
-    "dir": "sanctoral",
-    "title": "Sainte Clotilde"
-  },
   "lyon_dedication_of_consecrated_churches": {
     "color": "white",
     "commons": [
@@ -1433,7 +1435,7 @@
   "lyon_gregory_x_pope": {
     "color": "white",
     "dir": "sanctoral",
-    "title": "BIENHEUREUX GRÉGOIRE X"
+    "title": "Bienheureux Grégoire X"
   },
   "lyon_innocent_v_pope": {
     "color": "white",
@@ -1734,6 +1736,15 @@
     "dir": "sanctoral",
     "title": "Saint Norbert"
   },
+  "north-africa_cyprian_of_carthage_bishop_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs",
+      "pastors_multiple"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Cyprien, évêque"
+  },
   "our_lady_of_fatima": {
     "color": "white",
     "commons": [
@@ -1773,6 +1784,14 @@
     ],
     "dir": "sanctoral",
     "title": "Notre-Dame du Mont Carmel"
+  },
+  "our_lady_of_sorrows": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Notre-Dame des Douleurs"
   },
   "our_lord_jesus_christ_king_of_the_universe": {
     "color": "white",

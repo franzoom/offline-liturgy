@@ -68,9 +68,13 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     return RegExp(r'^easter_1_[0-6]$').hasMatch(code);
   });
 
-  // First Vespers of the Transfiguration are only celebrated when it falls on a Sunday
-  bool isTransfigurationFirstVespersAllowed(CelebrationContext c) {
-    if (c.celebrationCode == 'transfiguration_of_the_lord') {
+  // First Vespers of these feasts are only celebrated when they fall on a Sunday
+  const sundayOnlyFirstVespersCodes = {
+    'transfiguration_of_the_lord',
+    'exaltation_of_the_holy_cross',
+  };
+  bool isFirstVespersAllowed(CelebrationContext c) {
+    if (sundayOnlyFirstVespersCodes.contains(c.celebrationCode)) {
       return tomorrow.isSunday;
     }
     return true;
@@ -80,7 +84,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       ? <CelebrationContext>[]
       : tomorrowCelebrations
           .where((c) =>
-              isTransfigurationFirstVespersAllowed(c) &&
+              isFirstVespersAllowed(c) &&
               ((tomorrow.isSunday &&
                       (c.precedence ?? _defaultPrecedence) <= 6) ||
                   (!ferialDayCheck(c.celebrationCode) &&

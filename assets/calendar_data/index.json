@@ -1008,7 +1008,7 @@
     "color": "white",
     "commons": [
       "pastors_pope",
-      "pastors_doctor"
+      "pastors_doctors"
     ],
     "dir": "sanctoral",
     "title": "Saint Grégoire le Grand"
@@ -1046,6 +1046,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Hilaire de Poitiers"
+  },
+  "hildegard_of_bingen_abbess": {
+    "color": "white",
+    "commons": [
+      "virgins",
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Hildegarde de Bingen"
   },
   "holy_family": {
     "color": "white",
@@ -1116,6 +1125,15 @@
     "dir": "sanctoral",
     "title": "Sainte Jeanne-Françoise de Chantal"
   },
+  "januarius_i_of_benevento_bishop": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Janvier"
+  },
   "jerome_emiliani": {
     "color": "white",
     "commons": [
@@ -1154,7 +1172,7 @@
     "color": "white",
     "commons": [
       "pastors_bishop",
-      "pastors_doctor"
+      "pastors_doctors"
     ],
     "dir": "sanctoral",
     "title": "Saint Jean Chrysostome"
@@ -1454,11 +1472,12 @@
     "title": "Bienheureux Innocent V"
   },
   "lyon_irenaeus_of_lyon_bishop": {
+    "color": "red",
     "commons": [
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Saint Irénée, évêque et docteur de l’Église, et ses compagnons"
+    "title": "Saint Irénée, évêque et docteur de l’Église, et ses compagnons, martyrs"
   },
   "lyon_jacques_jules_bonnaud_priest_and_companions_martyrs": {
     "color": "red",
@@ -1706,6 +1725,14 @@
     "color": "white",
     "dir": "sanctoral",
     "title": "Saint Nom de Jésus"
+  },
+  "most_holy_name_of_mary": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Le Saint nom de Marie"
   },
   "nativity": {
     "color": "white",

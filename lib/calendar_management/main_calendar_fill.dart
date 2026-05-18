@@ -522,7 +522,7 @@ void _fillFixedSolemnities(
       DateTime(year, 8, 15), 3, 'assumption_of_the_blessed_virgin_mary');
   calendar.addItemToDay(DateTime(year, 11, 1), 3, 'all_saints');
   calendar.addItemToDay(
-      DateTime(year, 11, 2), 10, 'commemoration_of_all_the_faithful_departed');
+      DateTime(year, 11, 2), 5, 'commemoration_of_all_the_faithful_departed');
 
   // Specific relations
   calendar.addItemRelatedToFeast(

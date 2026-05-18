@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Venez, adorons le Maître du monde.
 
-oration:
-    - |-
-      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
-
 readings:
   biblicalReading:
-    - title: Le péché de David
+    - title: LECTURE DU 2^ème LIVRE DE SAMUEL
+      subtitle: Le péché de David
       ref: 2S 11, 1-17.26-27
       content: |-
         Au retour du printemps, à l’époque où les rois se mettent en campagne, David envoya Joab en expédition, avec ses officiers et toute l’armée d’Israël ; ils massacrèrent les fils d’Ammone et mirent le siège devant Rabba. David était resté à Jérusalem. 
@@ -53,6 +50,9 @@ readings:
 
         Si nous confessons nos péchés,
         il est assez fidèle pour remettre nos injustices.
+  oration:
+    - |-
+      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

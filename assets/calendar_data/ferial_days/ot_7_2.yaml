@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Le Seigneur est Roi, venez, adorons-le.
 
-oration:
-    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
-
 readings:
   biblicalReading:
-    - title: À Dieu appartient seul le sens
+    - title: LECTURE DU LIVRE DE L’ECCLÉSIASTE
+      subtitle: À Dieu appartient seul le sens
       ref: Qo 3, 1-22
       content: |-
         Il y a un moment pour tout, et un temps pour chaque chose sous le ciel : un temps pour donner la vie, et un temps pour mourir ; un temps pour planter, et un temps pour arracher. Un temps pour tuer, et un temps pour guérir ; un temps pour détruire et un temps pour construire. Un temps pour pleurer, et un temps pour rire ; un temps pour gémir, et un temps pour danser. Un temps pour jeter des pierres, et un temps pour les amasser ; un temps pour s’étreindre, et un temps pour s’abstenir. Un temps pour chercher, et un temps pour perdre ; un temps pour garder, et un temps pour jeter. Un temps pour déchirer, et un temps pour coudre ; un temps pour se taire, et un temps pour parler. Un temps pour aimer, et un temps pour ne pas aimer ; un temps pour la guerre, et un temps pour la paix. 
@@ -61,6 +59,8 @@ middleOfDay:
     reading:
       biblicalReference: Dt 15, 7-8
       content: S’il y a chez toi un pauvre, l’un de tes frères, dans l’une de tes villes, dans le pays que le Seigneur ton Dieu te donne, tu n’endurciras pas ton cœur et tu ne fermeras pas ta main à ton frère pauvre, mais tu lui ouvriras ta main toute grande et tu lui consentiras tout ce dont il pourra avoir besoin.
+  oration:
+    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
 mass:
 - massType: day_mass
   name: Messe du jour

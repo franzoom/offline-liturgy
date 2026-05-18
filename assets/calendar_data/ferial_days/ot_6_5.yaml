@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
 
-oration:
-    - |-
-      Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
-
 readings:
   biblicalReading:
-    - title: Lucidité humaine, amitié fraternelle
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: Lucidité humaine, amitié fraternelle
       ref: Pr 15, 8-9.16-17.25-26.29.33; 16, 1-9; 17, 5
       content: |-
         Le sacrifice des méchants, le SEIGNEUR l’a en horreur, mais il accueille la prière des honnêtes gens. Le chemin du méchant fait horreur au SEIGNEUR ; il aime celui qui recherche la justice. Mieux vaut peu, avec la crainte du SEIGNEUR, qu’un grand trésor et ses embarras. Mieux vaut un plat de légumes servi avec amour que du veau gras et de la haine. 
@@ -55,6 +52,9 @@ readings:
         À nous, Dieu l’a révélé par l’Esprit,
         car l’Esprit sonde tout,
         jusqu’aux profondeurs de Dieu.
+  oration:
+    - |-
+      Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

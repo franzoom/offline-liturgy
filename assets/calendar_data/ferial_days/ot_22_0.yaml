@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - Dieu puissant de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom ; resserre nos liens avec toi, pour développer ce qui est bon en nous ; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir.
-
 evangelicAntiphon:
     yearA: Que sert à l’homme de gagner l’univers, s’il vient à perdre son âme ?
     yearB: Tout ce qui rend l’homme impur vient du cœur de l’homme.
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Inquiétude du prophète
+    - title: LECTURE DU LIVRE DE JÉRÉMIE
+      subtitle: Inquiétude du prophète
       ref: Jr 11, 18-23; 12, 1-13
       content: |-
         SEIGNEUR, tu m’as fait savoir, et maintenant je sais, tu m’as fait voir leurs manœuvres. Moi, j’étais comme un agneau docile qu’on emmène à l’abattoir, et je ne savais pas qu’ils montaient un complot contre moi. Ils disaient : « Coupons l’arbre à la racine, retranchons-le de la terre des vivants, afin qu’on oublie jusqu’à son nom. » 
@@ -65,6 +63,8 @@ readings:
 
         Il est le premier et le dernier,
         le voici qui vient, nous le verrons !
+  oration:
+    - Dieu puissant de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom ; resserre nos liens avec toi, pour développer ce qui est bon en nous ; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir.
 mass:
 - massType: day_mass
   name: Messe du jour

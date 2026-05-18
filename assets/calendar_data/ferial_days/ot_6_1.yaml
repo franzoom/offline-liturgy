@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
 
-oration:
-    - Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir ; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets.
-
 readings:
   biblicalReading:
-    - title: Heureux l’homme qui a trouvé la sagesse
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: Heureux l’homme qui a trouvé la sagesse
       ref: Pr 3, 1-20
       content: |-
         Mon fils, n’oublie pas mon enseignement ; que ton cœur observe mes préceptes : la longueur de tes jours, les années de ta vie, et ta paix en seront augmentées. 
@@ -50,6 +48,8 @@ readings:
 
         La sagesse prévient ceux qui la désirent,
         elle marche à leur rencontre.
+  oration:
+    - Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir ; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets.
 mass:
 - massType: day_mass
   name: Messe du jour

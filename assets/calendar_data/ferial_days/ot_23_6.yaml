@@ -6,13 +6,9 @@ invitatory:
   antiphon:
     - Venez, adorons le Maître du monde.
 
-oration:
-    - |-
-      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
-
 readings:
   biblicalReading:
-    - title: Du livre des lamentations
+    - title: LECTURE DU LIVRE DES LAMENTATIONS
       ref: Lam 5, 1-22
       content: |-
         Rappelle-toi, Seigneur, ce qui nous arrive. Regarde, et vois notre honte. Notre héritage a passé à des inconnus, nos maisons, à des étrangers. Nous sommes orphelins de pères, et nos mères sont veuves. Notre eau, nous la buvons à prix d’argent ; nous achetons notre bois. Nous voici pourchassés, asservis ; exténués, nous n’avons pas de repos. Nous tendons la main à l’Égypte, à Assour, pour notre part de pain. 
@@ -51,6 +47,9 @@ readings:
 
         Mis à mort en sa chair, ressuscité par l’Esprit,
         il est à la droite de Dieu.
+  oration:
+    - |-
+      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
 mass:
 - massType: day_mass
   name: Messe du jour

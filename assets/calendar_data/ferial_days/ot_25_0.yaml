@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - |-
-      Seigneur, tu as voulu que toute la loi consiste à t’aimer et à aimer son prochain : donne-nous de garder tes commandements, et de parvenir ainsi à la vie éternelle.
-
 evangelicAntiphon:
     yearA: |-
       Allez, vous aussi, à ma vigne : je vous donnerai ce qui est juste.
@@ -19,7 +15,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Épreuves personnelles du prophète
+    - title: LECTURE DU LIVRE D'ÉZÉCHIEL
+      subtitle: Épreuves personnelles du prophète
       ref: Ez 24, 15-27
       content: |-
         La parole du SEIGNEUR me fut adressée : « Fils d’homme, je vais te prendre subitement la joie de tes yeux. Tu ne feras pas de lamentation, tu ne pleureras pas, tu ne laisseras pas couler tes larmes. Soupire en silence, ne prends pas le deuil ; enroule ton turban sur ta tête, chausse tes sandales, ne voile pas tes lèvres, ne prends pas le repas funéraire. » 
@@ -56,6 +53,9 @@ readings:
 
         Lorsque je suis faible,
         c’est alors que je suis fort.
+  oration:
+    - |-
+      Seigneur, tu as voulu que toute la loi consiste à t’aimer et à aimer son prochain : donne-nous de garder tes commandements, et de parvenir ainsi à la vie éternelle.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Terre entière, acclame Dieu ; chante le Seigneur.
 
-oration:
-    - |-
-      Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
-
 readings:
   biblicalReading:
-    - title: Jonathan aimait David de toute son âme
+    - title: LECTURE DU 1^er LIVRE DE SAMUEL
+      subtitle: Jonathan aimait David de toute son âme
       ref: 1S 19, 8-10; 20, 1-17
       content: |-
         La guerre avait repris. David partit combattre les Philistins. Il leur porta un coup très dur, et ils s’enfuirent devant lui. Un mauvais esprit envoyé par le SEIGNEUR vint sur Saül, alors qu’il était assis dans sa maison. Il tenait sa lance à la main, et David jouait de son instrument. Saül chercha à clouer David au mur avec sa lance, mais David esquiva le coup de Saül, qui ficha sa lance dans le mur. David prit la fuite et fut sauvé cette nuit-là. 
@@ -48,6 +45,9 @@ readings:
         Sans vous soucier de vos propres affaires,
         ayez à cœur celles de vos frères,
         à l’exemple du Christ Jésus.
+  oration:
+    - |-
+      Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

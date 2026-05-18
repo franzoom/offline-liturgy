@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - |-
-      Sois favorable à tes fidèles, Seigneur, et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient attentifs à garder tes commandements.
-
 readings:
   biblicalReading:
-    - title: Mener une vie digne de l’Évangile
+    - title: LECTURE DE LA LETTRE AUX PHILIPPIENS
+      subtitle: Mener une vie digne de l’Évangile
       ref: Ph 1, 27-30; 2, 1-11
       content: |-
         Quant à vous, ayez un comportement digne de l’Évangile du Christ. Ainsi, soit que je vienne vous voir, soit que je reste absent, j’entendrai dire de vous que vous tenez bon dans un seul esprit, que vous luttez ensemble, d’une seule âme, pour la foi en l’Évangile, et que vous ne vous laissez pas intimider par les adversaires : ce sera pour eux la preuve de leur perte et pour vous celle du salut. Et tout cela vient de Dieu qui, pour le Christ, vous a fait la grâce non seulement de croire en lui mais aussi de souffrir pour lui. Ce combat que vous soutenez, vous m’avez vu le mener moi aussi, et vous entendez maintenant que je le mène encore. 
@@ -45,6 +42,9 @@ readings:
         Devant vous s’est élancé
         celui qui marche à votre tête.
         Sortez, vous aussi, et portez sa souffrance.
+  oration:
+    - |-
+      Sois favorable à tes fidèles, Seigneur, et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient attentifs à garder tes commandements.
 mass:
 - massType: day_mass
   name: Messe du jour

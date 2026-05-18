@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
-
 readings:
   biblicalReading:
-    - title: Lettre de Jérémie aux déportés
+    - title: LECTURE DU LIVRE DE JÉRÉMIE
+      subtitle: Lettre de Jérémie aux déportés
       ref: Jr 29, 1-14
       content: |-
         Voici les termes de la lettre que le prophète Jérémie envoya de Jérusalem à ceux des anciens qui survivaient en exil, aux prêtres, aux prophètes et à tout le peuple, que Nabucodonosor avait déportés de Jérusalem à Babylone. C’était après que le roi Jékonias eut quitté Jérusalem avec la reine mère, les dignitaires, les princes de Juda et de Jérusalem, les artisans et forgerons. Cette lettre fut confiée à Élasa, fils de Shafane, et à Guemarya, fils de Hilqiya, que Sédécias, roi de Juda, avait envoyés à Babylone auprès de Nabucodonosor, roi de Babylone. 
@@ -45,6 +43,8 @@ readings:
 
         Heureux les humbles, heureux les pauvres :
         tu leur découvres le secret du Royaume !
+  oration:
+    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
 mass:
 - massType: day_mass
   name: Messe du jour

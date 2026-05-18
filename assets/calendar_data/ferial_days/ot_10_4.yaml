@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
-
 readings:
   biblicalReading:
-    - title: Conquête de Jéricho
+    - title: LECTURE DU LIVRE DE JOSUÉ
+      subtitle: Conquête de Jéricho
       ref: Jos 5, 13 – 6, 21
       content: |-
         Un jour où Josué était à Jéricho, en levant les yeux il vit un homme debout devant lui, une épée nue à la main. Josué alla vers lui et lui dit : « Es-tu pour nous ou pour nos adversaires ? » Il répondit : « Ni l’un ni l’autre, car je suis le chef de l’armée du SEIGNEUR. Maintenant, me voici ! » Alors Josué tomba face contre terre, se prosterna et lui demanda : « Que dit mon seigneur à son serviteur ? » Le chef de l’armée du SEIGNEUR dit à Josué : « Retire tes sandales de tes pieds : le lieu où tu te trouves est saint. » Et Josué fit ainsi. 
@@ -56,6 +54,8 @@ readings:
         et brille jusqu’au Couchant,
         ainsi en sera-t-il
         du Fils de l’homme à son avènement.
+  oration:
+    - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

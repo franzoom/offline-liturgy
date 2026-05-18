@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
-
 evangelicAntiphon:
     yearA: Heureux qui écoute la Parole et qui la garde.
     yearB: |-
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: La crainte du Seigneur
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: La crainte du Seigneur
       ref: Pr 1, 1-7.20-33
       content: |-
         Proverbes de Salomon, fils de David, roi d’Israël. Veux-tu connaître la sagesse et l’instruction, avoir l’intelligence des propos intelligents, veux-tu acquérir une instruction éclairée, — la justice, le jugement, la droiture —, veux-tu rendre astucieux les naïfs, donner aux jeunes gens savoir et perspicacité ? Que le sage écoute, il progressera encore, et l’homme intelligent apprendra à diriger : il saisira les proverbes et les traits d’esprit, les propos des sages et leurs énigmes. 
@@ -51,6 +49,8 @@ readings:
 
         L’eau que je vous donnerai deviendra en vous
         source jaillissant en vie éternelle.
+  oration:
+    - Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
 mass:
 - massType: day_mass
   name: Messe du jour

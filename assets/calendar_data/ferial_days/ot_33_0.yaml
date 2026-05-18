@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - |-
-      Accorde-nous, Seigneur, de trouver notre joie dans notre fidélité : car c’est un bonheur durable et profond de servir constamment le créateur de tout bien.
-
 evangelicAntiphon:
     yearA: Serviteur fidèle, entre dans la joie de ton Seigneur ; tu as été fidèle en peu de chose, je te confierai tous mes biens.
     yearB: En ce temps-là, vous verrez le Fils de l’homme venir sur les nuées du ciel avec puissance et grande gloire.
@@ -17,7 +13,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Annonce des derniers temps
+    - title: LECTURE DU LIVRE DE JOËL
+      subtitle: Annonce des derniers temps
       ref: Jl 2, 21 – 3, 5
       content: |-
         Ô terre, ne crains plus ! exulte et réjouis-toi ! Car le SEIGNEUR a fait de grandes choses. Ne craignez plus, bêtes des champs : les pâturages du désert ont reverdi, les arbres ont produit leurs fruits, la vigne et le figuier ont donné leurs richesses. 
@@ -55,6 +52,9 @@ readings:
 
         Un fleuve de vie, limpide comme du cristal,
         jaillit du trône de Dieu et de l’Agneau.
+  oration:
+    - |-
+      Accorde-nous, Seigneur, de trouver notre joie dans notre fidélité : car c’est un bonheur durable et profond de servir constamment le créateur de tout bien.
 mass:
 - massType: day_mass
   name: Messe du jour

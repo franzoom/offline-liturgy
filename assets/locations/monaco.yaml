@@ -2,11 +2,16 @@ language: french
 geography: country
 parent: europe
 frenchName: Monaco
+frenchLocative: à Monaco
 epiphanyDate: day
 ascensionDate: thursday
 
 feasts:
-  monaco_devota_of_corsica_virgin_martyr:
+  monaco_onoratus_bishop: #à vérifier
+    month: 1
+    day: 13
+    precedence: 12
+  monaco_devota_of_corsica_virgin_martyr: #à vérifier
     month: 1
     day: 27
     precedence: 4
@@ -14,7 +19,21 @@ feasts:
     month: 12
     day: 4
     precedence: 4
+  monaco_pons_martyr: #à compléter
+    month: 5
+    day: 15
+    precedence: 12
+  monaco_ospiti_hermit: #à compléter
+    month: 5
+    day: 21
+    precedence: 12
   monaco_rainerius_of_pisa:
     month: 11
     day: 19
     precedence: 10
+
+move:
+  angela_merici_virgin: #OK
+    month: 1
+    day: 29
+    precedence: 12

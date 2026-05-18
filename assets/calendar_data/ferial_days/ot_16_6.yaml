@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
-
 readings:
   biblicalReading:
-    - title: Ministre de Dieu par l’Esprit
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: Ministre de Dieu par l’Esprit
       ref: 2Co 6, 1 – 7, 1
       content: |-
         En tant que coopérateurs de Dieu, nous vous exhortons encore à ne pas laisser sans effet la grâce reçue de lui. Car il dit dans l’Écriture : %Au moment favorable je t’ai exaucé, au jour du salut je t’ai secouru%. 
@@ -46,6 +44,8 @@ readings:
         Si Dieu nous a tant aimés,
         nous devons, nous aussi,
         nous aimer les uns les autres.
+  oration:
+    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
 mass:
 - massType: day_mass
   name: Messe du jour

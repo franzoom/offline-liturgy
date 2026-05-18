@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - |-
-      Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent ton inépuisable bonté ; c’est leur fierté de t’avoir pour Créateur et Providence : restaure en eux ta création, et l’ayant renouvelée, protège-là.
-
 readings:
   biblicalReading:
-    - title: L’exemple de Paul
+    - title: LECTURE DE LA LETTRE AUX PHILIPPIENS
+      subtitle: L’exemple de Paul
       ref: Ph 3, 1-16
       content: |-
         Enfin, mes frères, soyez dans la joie du Seigneur. Vous écrire les mêmes choses ne m’est pas pénible, et pour vous c’est plus sûr. Prenez garde à ces chiens, prenez garde à ces mauvais ouvriers, avec leur fausse circoncision, prenez garde. Car c’est nous qui sommes les vrais circoncis, nous qui rendons notre culte par l’Esprit de Dieu, nous qui mettons notre fierté dans le Christ Jésus et qui ne plaçons pas notre confiance dans ce qui est charnel. 
@@ -52,6 +49,9 @@ readings:
 
         Vous attendez son Fils qui viendra des cieux,
         Jésus, qui nous délivre de la colère à venir.
+  oration:
+    - |-
+      Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent ton inépuisable bonté ; c’est leur fierté de t’avoir pour Créateur et Providence : restaure en eux ta création, et l’ayant renouvelée, protège-là.
 mass:
 - massType: day_mass
   name: Messe du jour

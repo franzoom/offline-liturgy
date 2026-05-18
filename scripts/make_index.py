@@ -31,6 +31,7 @@ SOURCE_DIRS = ["sanctoral", "special_days"]
 EXTRA_FERIAL_FILES = [
     "advent_1_0",
     "lent_0_3",
+    "lent_6_0",
     "lent_6_4",
     "lent_6_5",
     "lent_6_6",

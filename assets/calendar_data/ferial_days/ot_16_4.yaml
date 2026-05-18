@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - |-
-      Dieu qui donnes la preuve suprême de ta puissance, lorsque tu patientes et prends pitié, sans te lasser, accorde-nous ta grâce : en nous hâtant vers les biens que tu promets, nous parviendront au bonheur du ciel.
-
 readings:
   biblicalReading:
-    - title: Un trésor dans un vase d’argile
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: Un trésor dans un vase d’argile
       ref: 2Co 4, 5-18
       content: |-
         En effet, ce que nous proclamons, ce n’est pas nous-mêmes ; c’est ceci : Jésus Christ est le Seigneur ; et nous sommes vos serviteurs, à cause de Jésus. Car Dieu qui a dit : %Du milieu des ténèbres brillera la lumière%, a lui-même brillé dans nos cœurs pour faire resplendir la connaissance de sa gloire qui rayonne sur le visage du Christ. 
@@ -47,6 +44,9 @@ readings:
 
         Il vient nous visiter,
         en lui la joie de notre cœur.
+  oration:
+    - |-
+      Dieu qui donnes la preuve suprême de ta puissance, lorsque tu patientes et prends pitié, sans te lasser, accorde-nous ta grâce : en nous hâtant vers les biens que tu promets, nous parviendront au bonheur du ciel.
 mass:
 - massType: day_mass
   name: Messe du jour

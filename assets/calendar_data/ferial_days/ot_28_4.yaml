@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
-
 readings:
   biblicalReading:
-    - title: « Voici que je sauverai mon peuple »
+    - title: LECTURE DU LIVRE DE ZACHARIE
+      subtitle: « Voici que je sauverai mon peuple »
       ref: Za 8, 1-17.20-23
       content: |-
         Parole du SEIGNEUR de l’univers : Ainsi parle le SEIGNEUR de l’univers : J’éprouve pour Sion un amour jaloux, j’ai pour elle une ardeur passionnée. 
@@ -51,6 +49,8 @@ readings:
 
         Tu nous conduis
         vers la joie sans déclin.
+  oration:
+    - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
 mass:
 - massType: day_mass
   name: Messe du jour

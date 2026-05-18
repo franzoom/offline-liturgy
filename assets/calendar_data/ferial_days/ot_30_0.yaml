@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
-
 evangelicAntiphon:
     yearA: Tu aimeras ton Dieu de tout ton cœur ; tu aimeras ton frère comme toi-même.
     yearB: |-
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: L’Esprit du Seigneur remplit l’univers
+    - title: LECTURE DU LIVRE DE LA SAGESSE
+      subtitle: L’Esprit du Seigneur remplit l’univers
       ref: Sg 1, 1-15
       content: |-
         Aimez la justice, vous qui gouvernez la terre, ayez sur le Seigneur des pensées droites, cherchez-le avec un cœur simple, car il se laisse trouver par ceux qui ne le mettent pas à l’épreuve, il se manifeste à ceux qui ne refusent pas de croire en lui. Les pensées tortueuses éloignent de Dieu, et sa puissance confond les insensés qui la provoquent. 
@@ -56,6 +54,8 @@ readings:
 
         Dès son lever, le soleil proclame :
         Quelle merveille l’œuvre du Très-Haut !
+  oration:
+    - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
 mass:
 - massType: day_mass
   name: Messe du jour

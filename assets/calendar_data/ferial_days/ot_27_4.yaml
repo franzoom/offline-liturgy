@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
 
-oration:
-    - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
-
 readings:
   biblicalReading:
-    - title: Recommandations au sujet des veuves et des anciens
+    - title: LECTURE DE LA 1^ère LETTRE À TIMOTHÉE
+      subtitle: Recommandations au sujet des veuves et des anciens
       ref: 1Tm 5, 3-25
       content: |-
         Honore et assiste les veuves qui sont vraiment seules. 
@@ -49,6 +47,8 @@ readings:
         Le Christ, notre paix, a détruit les séparations :
         en un seul corps,
         il nous rassemble par la croix.
+  oration:
+    - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

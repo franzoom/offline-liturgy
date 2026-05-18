@@ -1,29 +1,50 @@
 language: french
 geography: continent
 frenchName: Afrique du Nord
+frenchLocative: en Afrique du Nord
 
 feasts:
-  africa_joseph_vaz_priest:
+  north-africa_fulgence_bishop: #à vérifier
     month: 1
-    day: 16
+    day: 3
     precedence: 12
-  africa_celerina_and_compagnions_martyrs:
+  north-africa_longinius_eugenius_vindemial_bishops: #à vérifier
+    month: 1
+    day: 5
+    precedence: 12
+  north-africa_quodvultus_deogratias_bishops: #à vérifier
+    month: 1
+    day: 8
+    precedence: 12
+  north-africa_victorus_miltiadius_gelase_popes: #à vérifier
+    month: 1
+    day: 11
+    precedence: 12
+  north-africa_celerina_and_compagnions_martyrs: #à vérifier
     month: 2
     day: 4
     precedence: 12
-  africa_josephine_bakhita_virgin:
+  josephine_bakhita_virgin: #manque lecture patristique
     month: 2
     day: 8
     precedence: 10
-  africa_perpetua_of_carthage_and_felicity_of_carthage_martyrs:
+  perpetua_of_carthage_and_felicity_of_carthage_martyrs: #OK
     month: 3
     day: 7
+    precedence: 8
+  north-africa_jacques_deacon_marien_reader_and_compagnons_martyrs: #manque lecture patristique
+    month: 5
+    day: 6
+    precedence: 12
+  peter_claver_priest: #OK (manque lecture patristique et description)
+    month: 9
+    day: 9
     precedence: 10
-  africa_charles_lwanga_and_companions_martyrs:
+  north-africa_charles_lwanga_and_companions_martyrs:
     month: 6
     day: 3
     precedence: 10
-  africa_our_lady_of_africa:
+  north-africa_our_lady_of_africa:
     month: 4
     day: 30
     precedence: 10
@@ -31,19 +52,25 @@ feasts:
     month: 9
     day: 16
     precedence: 4
-  africa_augustine_of_hippo_bishop:
+  north-africa_augustine_of_hippo_bishop:
     month: 8
     day: 28
     precedence: 10
-  africa_monica_of_hippo:
+  north-africa_monica_of_hippo:
     month: 8
     day: 27
     precedence: 10
-  africa_all_saints_of:
+  north-africa_all_saints_of:
     month: 11
     day: 6
     precedence: 12
-  africa_clement_of_alexandria:
+  north-africa_clement_of_alexandria:
     month: 12
     day: 4
+    precedence: 12
+
+
+  pius_v_pope: #OK
+    month: 5
+    day: 1
     precedence: 12

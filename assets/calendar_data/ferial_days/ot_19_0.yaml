@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur.
 
-oration:
-    - Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis.
-
 evangelicAntiphon:
     yearA: |-
       Vers la fin de la nuit, Jésus s’avança en marchant sur la mer : C’est moi, ne craignez pas !
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: |-
+    - title: LECTURE DU LIVRE D’OSÉE
+      subtitle: |-
         Dieu dit : Toutes mes entrailles frémissent
       ref: Os 11, 1-11
       content: |-
@@ -45,6 +43,8 @@ readings:
 
         Tu pardonnes nos fautes pour la gloire de ton Nom.
         Au milieu de nous, tu es le Saint.
+  oration:
+    - Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis.
 mass:
 - massType: day_mass
   name: Messe du jour

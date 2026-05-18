@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.
-
 evangelicAntiphon:
     yearA: Cherchez d’abord le Royaume et sa justice, et le surcroît vous sera donné.
     yearB: |-
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Est-ce pour rien que Job craint Dieu ?
+    - title: LECTURE DU LIVRE DE JOB
+      subtitle: Est-ce pour rien que Job craint Dieu ?
       ref: Jb 1, 1-22
       content: |-
         Il était une fois, au pays de Ouç, un homme appelé Job. Cet homme, intègre et droit, craignait Dieu et s’écartait du mal. Sept fils et trois filles lui étaient nés. Il avait un troupeau de sept mille brebis, trois mille chameaux, cinq cents paires de bœufs, cinq cents ânesses, et il possédait un grand nombre de serviteurs. Cet homme était le plus riche de tous les fils de l’Orient. 
@@ -58,6 +56,8 @@ readings:
         Heureux l’homme qui adore le Seigneur
         et s’attache à tout ce qu’il commande :
         confiant, il s’appuie sur son Dieu.
+  oration:
+    - Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.
 mass:
 - massType: day_mass
   name: Messe du jour

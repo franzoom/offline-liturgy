@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur.
 
-oration:
-    - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
-
 evangelicAntiphon:
     yearA: Le Maître confiera sa vigne à d’autres vignerons pour qu’elle donne son fruit au temps voulu.
     yearB: |-
@@ -18,7 +15,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Paul, apôtre du Christ Jésus
+    - title: LECTURE DE LA 1^ère LETTRE À TIMOTHÉE
+      subtitle: Paul, apôtre du Christ Jésus
       ref: 1Tm 1, 1-20
       content: |-
         Paul, Apôtre du Christ Jésus par ordre de Dieu notre Sauveur et du Christ Jésus notre espérance, à Timothée, mon véritable enfant dans la foi. À toi, la grâce, la miséricorde et la paix de la part de Dieu le Père et du Christ Jésus notre Seigneur. 
@@ -57,6 +55,8 @@ readings:
 
         Fils d’homme, porte-leur mes paroles,
         qu’ils écoutent ou qu’ils n’écoutent pas.
+  oration:
+    - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
 
-oration:
-    - |-
-      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
-
 readings:
   biblicalReading:
-    - title: La sagesse, source de tout bien
+    - title: LECTURE DU LIVRE DE LA SAGESSE
+      subtitle: La sagesse, source de tout bien
       ref: Sg 8, 1-21b
       content: |-
         Elle déploie sa vigueur d’un bout du monde à l’autre, elle gouverne l’univers avec bonté. C’est elle que j’ai aimée et recherchée depuis ma jeunesse, j’ai cherché à la prendre pour épouse, je suis devenu l’amant de sa beauté. Elle manifeste la gloire de sa propre naissance puisqu’elle partage la vie de Dieu, et que le maître de l’univers lui a donné son amour. Elle est initiée aux mystères de la science de Dieu, c’est elle qui décide de ses œuvres. Si la richesse est un bien désirable en cette vie, qu’y a-t-il de plus riche que la Sagesse, elle qui met en œuvre toutes choses ? 
@@ -51,6 +48,9 @@ readings:
 
         Heureux qui médite en son cœur
         les voies mystérieuses de l’amour.
+  oration:
+    - |-
+      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

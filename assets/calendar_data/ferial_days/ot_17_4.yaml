@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
 
-oration:
-    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
-
 readings:
   biblicalReading:
-    - title: Souffrances de l’Apôtre
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: Souffrances de l’Apôtre
       ref: 2Co 11, 7-29
       content: |-
         Aurais-je commis une faute lorsque, m’abaissant pour vous élever, je vous ai annoncé l’Évangile de Dieu gratuitement ? J’ai appauvri d’autres Églises en recevant d’elles l’argent nécessaire pour me mettre à votre service. Quand j’étais chez vous, et que je me suis trouvé dans le besoin, je n’ai été à charge de personne ; en effet, pour m’apporter ce dont j’avais besoin, des frères sont venus de Macédoine. En toute occasion, je me suis gardé d’être un poids pour vous, et je m’en garderai toujours. Aussi sûrement que la vérité du Christ est en moi, ce motif de fierté ne me sera enlevé dans aucune des régions de la Grèce. Pourquoi donc me comporter ainsi ? Serait-ce parce que je ne vous aime pas ? Mais si ! Et Dieu le sait. 
@@ -53,6 +51,8 @@ readings:
         À notre tour, courons notre épreuve,
         les regards fixés sur Jésus
         qui nous a ouvert un chemin de vie.
+  oration:
+    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
 - massType: day_mass
   name: Messe du jour

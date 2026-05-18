@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - Dans ton amour inlassable, Seigneur, veille sur ta famille ; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection.
-
 evangelicAntiphon:
     yearA: Vous êtes le sel de la terre ; si le sel n’a plus de saveur, à quoi servira-t-il ?
     yearB: Bien avant l’aube, Jésus se leva ; il partit dans un endroit désert pour y prier.
@@ -16,7 +13,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: L’Évangile annoncé par Paul
+    - title: LECTURE DE L'ÉPITRE AUX GALATES
+      subtitle: L’Évangile annoncé par Paul
       ref: Ga 1, 1-12
       content: |-
         Paul, apôtre, — envoyé non par des hommes, ni par l’intermédiaire d’un homme, mais par Jésus Christ et par Dieu le Père qui l’a ressuscité d’entre les morts, — ainsi que tous les frères qui sont avec moi : aux Églises du pays galate. À vous, la grâce et la paix de la part de Dieu notre Père et du Seigneur Jésus Christ, qui s’est donné pour nos péchés, afin de nous arracher à ce monde mauvais, selon la volonté de Dieu notre Père, à qui soit la gloire pour les siècles des siècles. Amen. 
@@ -49,6 +47,8 @@ readings:
 
         Le Christ s’est livré pour nos péchés,
         afin de nous arracher à ce monde du mal.
+  oration:
+    - Dans ton amour inlassable, Seigneur, veille sur ta famille ; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection.
 mass:
 - massType: day_mass
   name: Messe du jour

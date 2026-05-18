@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
-
 readings:
   biblicalReading:
-    - title: Le beau geste de David
+    - title: LECTURE DU 1^er LIVRE DE SAMUEL
+      subtitle: Le beau geste de David
       ref: 1S 26, 5-25
       content: |-
         David se mit en route et parvint à l’endroit où campait Saül. Il vit l’endroit où étaient couchés Saül et Abner, fils de Ner, le chef de son armée. Saül était couché au milieu du camp, et la troupe campait autour de lui. 
@@ -47,6 +45,8 @@ readings:
 
         Heureux les humbles, heureux les pauvres :
         tu leur découvres le secret du Royaume !
+  oration:
+    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
 mass:
 - massType: day_mass
   name: Messe du jour

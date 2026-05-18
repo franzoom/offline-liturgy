@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
 
-oration:
-    - Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
-
 readings:
   biblicalReading:
-    - title: Au jour du malheur, réfléchis !
+    - title: LECTURE DU LIVRE DE L’ECCLÉSIASTE
+      subtitle: Au jour du malheur, réfléchis !
       ref: Qo 6, 12 – 7, 1-28
       content: |-
         Qui sait ce qui est bon pour l’homme durant sa vie, durant le peu de jours de cette vie de vanité qu’il traverse comme une ombre ? Qui donc peut lui révéler ce qui, après lui, sera sous le soleil ? 
@@ -66,6 +64,8 @@ middleOfDay:
     reading:
       biblicalReference: Dt 4, 7
       content: Quelle est la grande nation dont les dieux soient aussi proches que le Seigneur notre Dieu est proche de nous chaque fois que nous l’invoquons ?
+  oration:
+    - Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
 mass:
 - massType: day_mass
   name: Messe du jour

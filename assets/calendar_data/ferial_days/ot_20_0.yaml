@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - |-
-      Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir : répands en nos cœurs la ferveur de ta charité, afin que t’aimant en toutes choses et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir.
-
 evangelicAntiphon:
     yearA: Femme, ta foi est grande ; que tout s’accomplisse comme tu le veux.
     yearB: |-
@@ -18,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Inépuisable récit de la vocation d’Isaïe
+    - title: LECTURE DU LIVRE D’ISAÏE 
+      subtitle: Inépuisable récit de la vocation d’Isaïe
       ref: Is 6, 1-13
       content: |-
         L’année de la mort du roi Ozias, je vis le Seigneur qui siégeait sur un trône très élevé ; les pans de son manteau remplissaient le Temple. Des séraphins se tenaient au-dessus de lui. Ils avaient chacun six ailes : deux pour se couvrir le visage, deux pour se couvrir les pieds, et deux pour voler. Ils se criaient l’un à l’autre : « Saint ! Saint ! Saint, le Seigneur de l’univers ! Toute la terre est remplie de sa gloire. » 
@@ -68,6 +65,9 @@ readings:
         À consumer, même pour lui :
         Dieu fournit le feu et le bois.
         Alors tu brilleras en lui.
+  oration:
+    - |-
+      Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir : répands en nos cœurs la ferveur de ta charité, afin que t’aimant en toutes choses et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir.
 mass:
 - massType: day_mass
   name: Messe du jour

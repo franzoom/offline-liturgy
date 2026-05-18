@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - |-
-      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
-
 readings:
   biblicalReading:
-    - title: L’amour couvre toutes les fautes
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: L’amour couvre toutes les fautes
       ref: Pr 10, 6-32
       content: |-
         Bénédictions sur la tête du juste ! La bouche du méchant dissimule sa violence. On se souvient du juste pour le bénir, mais le renom des méchants se flétrit. Un cœur sage accepte des règles ; un sot bavard court à sa perte. 
@@ -54,6 +51,9 @@ readings:
 
         Heureux ceux qui gardent ses voies !
         Heureux ceux qui écoutent la Parole !
+  oration:
+    - |-
+      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
 mass:
 - massType: day_mass
   name: Messe du jour

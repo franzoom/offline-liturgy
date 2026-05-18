@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - |-
-      Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent, ton inépuisable bonté c’est leur fierté de t’avoir pour Créateur et Providence : restaure pour eux ta création, et l’ayant renouvelée, protège-la.
-
 readings:
   biblicalReading:
-    - title: Oracle en faveur de Jérusalem
+    - title: LECTURE DU LIVRE D’ISAÏE 
+      subtitle: Oracle en faveur de Jérusalem
       ref: Is 37, 21-35
       content: |-
         Alors le prophète Isaïe, fils d’Amots, envoya dire à Ézékias : « Ainsi parle le SEIGNEUR, Dieu d’Israël : Tu m’as adressé une prière au sujet de Sennakérib, roi d’Assour. Voici la parole que le SEIGNEUR a prononcée contre lui : 
@@ -54,6 +51,9 @@ readings:
 
         Par son propre sang, il nous a sanctifiés
         et réconciliés avec Dieu.
+  oration:
+    - |-
+      Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent, ton inépuisable bonté c’est leur fierté de t’avoir pour Créateur et Providence : restaure pour eux ta création, et l’ayant renouvelée, protège-la.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Venez, adorons le Maître du monde.
 
-oration:
-    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
-
 readings:
   biblicalReading:
-    - title: Dalila trahit Samson
+    - title: LECTURE DU LIVRE DES JUGES
+      subtitle: Dalila trahit Samson
       ref: Jg 16, 4-6.16-31
       content: |-
         Après ces événements, il s’éprit d’une femme de la vallée de Soreq, nommée Dalila. Les princes des Philistins vinrent la trouver et lui dirent : « Séduis Samson : vois en quoi réside sa grande force et comment on peut triompher de lui. Alors nous le ligoterons pour le maîtriser, et nous te donnerons chacun onze cents pièces d’argent. » Dalila dit à Samson : « Explique-moi, je t’en prie, d’où vient ta grande force, et comment tu devrais être ligoté pour qu’on te maîtrise. » 
@@ -47,6 +45,8 @@ readings:
         Je vous donne un commandement nouveau :
         Aimez-vous les uns les autres,
         comme je vous ai aimés.
+  oration:
+    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
 - massType: day_mass
   name: Messe du jour

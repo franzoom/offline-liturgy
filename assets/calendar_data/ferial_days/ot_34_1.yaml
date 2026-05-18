@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
 
-oration:
-    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
-
 readings:
   biblicalReading:
-    - title: La vocation chrétienne
+    - title: LECTURE DE LA 2^ème LETTRE DE PIERRE
+      subtitle: La vocation chrétienne
       ref: 2P 1, 1-11
       content: |-
         SYMÉON PIERRE, serviteur et apôtre de Jésus Christ, à ceux qui ont reçu en partage une foi d’aussi grand prix que la nôtre, par la justice de notre Dieu et Sauveur Jésus Christ. Que la grâce et la paix vous soient accordées en abondance par la vraie connaissance de Dieu et de Jésus notre Seigneur. 
@@ -47,6 +45,8 @@ readings:
 
         La chair ne sert de rien,
         c’est l’Esprit qui vivifie.
+  oration:
+    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

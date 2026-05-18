@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Le Seigneur est Roi, venez, adorons-le.
 
-oration:
-    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
-
 readings:
   biblicalReading:
-    - title: Prière au temps de la détresse
+    - title: LECTURE DU LIVRE D’HABACUC
+      subtitle: Prière au temps de la détresse
       ref: Ha 1, 1 – 2, 4
       content: |-
         LA PROCLAMATION de ce que le prophète Habacuc a vu.
@@ -55,6 +53,8 @@ readings:
 
         Dieu a parlé autrefois par les prophètes,
         il nous parle maintenant par son Fils.
+  oration:
+    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
 - massType: day_mass
   name: Messe du jour

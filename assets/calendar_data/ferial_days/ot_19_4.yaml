@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
 
-oration:
-    - |-
-      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
-
 readings:
   biblicalReading:
-    - title: Le petit « reste »
+    - title: LECTURE DU LIVRE DE MICHÉE
+      subtitle: Le petit « reste »
       ref: Mi 4, 14 – 5, 7
       content: |-
         Maintenant, rassemble tes troupes. Contre nous on a mis le siège. À coups de bâton, on frappe à la joue le juge d’Israël. 
@@ -47,6 +44,9 @@ readings:
 
         Il vient nous visiter,
         en lui la joie de notre cœur.
+  oration:
+    - |-
+      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

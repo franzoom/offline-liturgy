@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur.
 
-oration:
-    - |-
-      Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels : puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce ; ainsi nous pourrons, en observant tes commandements, vouloir et agir de manière à répondre à ton amour.
-
 evangelicAntiphon:
     yearA: |-
       Allez sur les routes du monde : annoncer le Royaume de Dieu.
@@ -19,7 +15,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Pour sauver Israël, Dieu suscite des juges.
+    - title: LECTURE DU LIVRE DES JUGES
+      subtitle: Pour sauver Israël, Dieu suscite des juges.
       ref: Jg 2, 6 – 3, 4
       content: |-
         Josué renvoya le peuple, et les fils d’Israël se rendirent chacun dans son héritage pour prendre possession du pays. Le peuple servit le SEIGNEUR pendant toute la vie de Josué et toute la vie des anciens qui vécurent encore après Josué et avaient vu toute la grande œuvre du SEIGNEUR pour Israël. Josué, fils de Noun, serviteur du SEIGNEUR, mourut à l’âge de cent dix ans. On l’ensevelit dans le territoire qu’il avait reçu en héritage à Timnath-Hèrès, dans la montagne d’Éphraïm, au nord du mont Gaash. Quand toute cette génération fut à son tour réunie à ses pères, une autre génération lui succéda, qui ne connaissait pas le SEIGNEUR, ni l’œuvre qu’il avait faite pour Israël. 
@@ -63,6 +60,9 @@ readings:
 
         J’appelle vers Dieu, le Très-Haut,
         le Dieu qui a tout fait pour moi.
+  oration:
+    - |-
+      Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels : puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce ; ainsi nous pourrons, en observant tes commandements, vouloir et agir de manière à répondre à ton amour.
 mass:
 - massType: day_mass
   name: Messe du jour

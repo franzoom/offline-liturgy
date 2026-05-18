@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - |-
-      Tu protèges, Seigneur, ceux qui comptent sur toi ; sans toi rien n’est fort et rien n’est saint : multiplie pour nous les gestes de miséricorde afin que, sous ta conduite, en faisant un bon usage des biens qui passent, nous puissions déjà nous attacher à ceux qui demeurent.
-
 evangelicAntiphon:
     yearA: Comme un trésor caché dans un champ, le Royaume de Dieu dans le monde.
     yearB: |-
@@ -18,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Consolation de l’Apôtre
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: Consolation de l’Apôtre
       ref: 2Co 7, 2-16
       content: |-
         Faites-nous bon accueil : nous n’avons fait de tort à personne, nous n’avons corrompu personne, nous n’avons exploité personne. Je ne parle pas pour condamner, car — je l’ai déjà dit — vous êtes dans nos cœurs à la vie, à la mort. Grande est l’assurance que j’ai devant vous, grande est ma fierté à votre sujet, je me sens pleinement réconforté, je déborde de joie au milieu de toutes nos détresses. 
@@ -56,6 +53,9 @@ readings:
 
         Si vous devez souffrir pour la justice,
         réjouissez-vous et bondissez de joie.
+  oration:
+    - |-
+      Tu protèges, Seigneur, ceux qui comptent sur toi ; sans toi rien n’est fort et rien n’est saint : multiplie pour nous les gestes de miséricorde afin que, sous ta conduite, en faisant un bon usage des biens qui passent, nous puissions déjà nous attacher à ceux qui demeurent.
 mass:
 - massType: day_mass
   name: Messe du jour

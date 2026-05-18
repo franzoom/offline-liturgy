@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
 
-oration:
-    - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
-
 readings:
   biblicalReading:
-    - title: L’épouse infidèle
+    - title: LECTURE DU LIVRE D'ÉZÉCHIEL
+      subtitle: L’épouse infidèle
       ref: Ez 16, 3.5b-7a.8-15.35.37a.40-43.59-63
       content: |-
         Tu diras : Ainsi parle le Seigneur DIEU à Jérusalem : Par tes origines et ta naissance, tu es du pays de Canaan. Ton père était un Amorite, et ta mère, une Hittite. On t’a jetée en plein champ, avec dégoût, le jour de ta naissance. 
@@ -60,6 +58,8 @@ readings:
         Ne fallait-il pas,
         Que je rende vie
         à tous ceux qui espèrent ?R/ 2
+  oration:
+    - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
 mass:
 - massType: day_mass
   name: Messe du jour

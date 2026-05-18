@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Terre entière, acclame Dieu, chante le Seigneur.
 
-oration:
-    - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
-
 readings:
   biblicalReading:
-    - title: Un roi sage fait la prospérité de son peuple
+    - title: LECTURE DU LIVRE DE LA SAGESSE
+      subtitle: Un roi sage fait la prospérité de son peuple
       ref: Sg 6, 1-25
       content: |-
         Écoutez donc, ô rois, et comprenez ; instruisez-vous, juges de toute la terre. Soyez attentifs, vous qui dominez les foules, qui vous vantez de la multitude de vos peuples. Car la domination vous a été donnée par le Seigneur, et le pouvoir, par le Très-Haut, lui qui examinera votre conduite et scrutera vos intentions. En effet, vous êtes les ministres de sa royauté ; si donc vous n’avez pas rendu la justice avec droiture, ni observé la Loi, ni vécu selon les intentions de Dieu, il fondra sur vous, terrifiant et rapide, car un jugement implacable s’exerce sur les grands ; au petit, par pitié, on pardonne, mais les puissants seront jugés avec puissance.
@@ -54,6 +52,8 @@ readings:
 
         Pure effusion de la gloire de Dieu,
         la sagesse est le reflet de la lumière éternelle.
+  oration:
+    - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
 mass:
 - massType: day_mass
   name: Messe du jour

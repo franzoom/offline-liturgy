@@ -2,6 +2,7 @@ language: french
 geography: country
 parent: europe
 frenchName: Suisse
+frenchLocative: en Suisse
 epiphanyDate: day
 ascensionDate: thursday
 
@@ -36,7 +37,7 @@ feasts:
     precedence: 12
 
 move:
-  peter_canisius_priest:
+  peter_canisius_priest: #OK
     month: 4
     day: 27
     precedence: 10

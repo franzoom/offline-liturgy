@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Venez, adorons le Maître du monde.
 
-oration:
-    - Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.
-
 readings:
   biblicalReading:
-    - title: Emouvant poème des âges de la vie
+    - title: LECTURE DU LIVRE DE L’ECCLÉSIASTE
+      subtitle: Émouvant poème des âges de la vie
       ref: Qo 11, 7 – 12, 14
       content: |-
         Oui, douce est la lumière ! Quel bonheur pour les yeux de voir le soleil ! L’homme vivrait-il de longues années, qu’il se réjouisse de chacune d’elles ! Qu’il songe aussi aux jours de ténèbres, car ils seront nombreux. Tout ce qui arrive n’est que vanité. 
@@ -47,6 +45,8 @@ readings:
 
         Veille à mon chemin, qu’il ne soit fatal,
         et conduis-moi sur le chemin d’éternité.
+  oration:
+    - Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.
 mass:
 - massType: day_mass
   name: Messe du jour

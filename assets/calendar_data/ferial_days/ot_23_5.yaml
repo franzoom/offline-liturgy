@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Rendons grâce à Dieu, éternel est son amour.
 
-oration:
-    - |-
-      Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
-
 readings:
   biblicalReading:
-    - title: Espérer en silence le salut
+    - title: LECTURE DU LIVRE DES LAMENTATIONS
+      subtitle: Espérer en silence le salut
       ref: Lm 3, 1-33
       content: |-
         Je suis l’homme qui a connu la misère sous le bâton de Ses emportements, moi qu’il a conduit et mené dans les ténèbres et non dans la lumière ; contre moi seul, tout le jour, il porte et porte encore sa main. 
@@ -61,6 +58,9 @@ readings:
         Appelés à partager une seule espérance
         dans le Christ,
         nous chantons et nous proclamons.
+  oration:
+    - |-
+      Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

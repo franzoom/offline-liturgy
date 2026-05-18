@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - |-
-      Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte : tu les as tirés de l’esclavage du péché ; fais-leur connaître le bonheur impérissable.
-
 readings:
   biblicalReading:
-    - title: Le signe du SEIGNEUR
+    - title: LECTURE DU LIVRE D’ISAÏE 
+      subtitle: Le signe du SEIGNEUR
       ref: Is 7, 1-17
       content: |-
         Au temps d’Acaz, fils de Yotam, fils d’Ozias, roi de Juda, Recine, roi d’Aram, et Pékah, fils de Remalyahou, roi d’Israël, montèrent contre Jérusalem pour l’attaquer, mais ils ne purent lui donner l’assaut. 
@@ -58,6 +55,9 @@ readings:
 
         Déjà les temps sont accomplis :
         au loin, blanchissent les moissons.
+  oration:
+    - |-
+      Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte : tu les as tirés de l’esclavage du péché ; fais-leur connaître le bonheur impérissable.
 mass:
 - massType: day_mass
   name: Messe du jour

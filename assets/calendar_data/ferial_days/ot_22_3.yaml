@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Terre entière, acclame Dieu, chante le Seigneur.
 
-oration:
-    - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
-
 readings:
   biblicalReading:
-    - title: Jérémie, arrêté et jugé
+    - title: LECTURE DU LIVRE DE JÉRÉMIE
+      subtitle: Jérémie, arrêté et jugé
       ref: Jr 26, 1-15
       content: |-
         Au début du règne de Joakim, fils de Josias, roi de Juda, il y eut cette parole venant du SEIGNEUR : Ainsi parle le SEIGNEUR : Tiens-toi dans la cour de la maison du SEIGNEUR. Aux gens de toutes les villes de Juda qui viennent se prosterner dans la maison du SEIGNEUR, tu diras toutes les paroles que je t’ai ordonné de leur dire ; n’en retranche pas un mot. Peut-être écouteront-ils, et reviendront-ils chacun de son mauvais chemin ? Alors je renoncerai au mal que je projette de leur faire à cause de la malice de leurs actes. Tu leur diras donc : Ainsi parle le SEIGNEUR : Si vous ne m’écoutez pas, si vous ne marchez pas selon ma Loi, celle que j’ai mise sous vos yeux, si vous n’écoutez pas les paroles de mes serviteurs les prophètes, que je vous envoie inlassablement, et que vous n’avez pas écoutés, je traiterai cette Maison comme celle de Silo, et ferai de cette ville un exemple de malédiction pour toutes les nations de la terre. 
@@ -54,6 +52,8 @@ readings:
            en lui notre paix,
         en lui notre gloire,
            en lui le salut.
+  oration:
+    - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
 mass:
 - massType: day_mass
   name: Messe du jour

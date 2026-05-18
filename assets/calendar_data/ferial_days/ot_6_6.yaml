@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - |-
-      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
-
 readings:
   biblicalReading:
-    - title: Une maîtresse femme
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: Une maîtresse femme
       ref: Pr 31, 10-31
       content: |-
         Une femme parfaite, qui la trouvera ? Elle est précieuse plus que les perles ! Son mari peut lui faire confiance : il ne manquera pas de ressources. Elle fait son bonheur, et non pas sa ruine, tous les jours de sa vie. 
@@ -58,6 +55,9 @@ readings:
         Sans vous soucier de vos propres affaires,
         ayez à cœur celles de vos frères,
         à l’exemple du Christ Jésus.
+  oration:
+    - |-
+      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour.
-
 readings:
   biblicalReading:
-    - title: L’un des trois amis presse Job de plaider coupable
+    - title: LECTURE DU LIVRE DE JOB
+      subtitle: L’un des trois amis presse Job de plaider coupable
       ref: Jb 11, 1-20
       content: |-
         Sofar de Naama prit la parole et dit : « Un tel flot de paroles restera-t-il sans réponse ? Suffit-il d’être verbeux pour avoir raison ? Tes bavardages feront-ils taire les gens, te moqueras-tu sans que nul te confonde ? Tu as dit : “Mon savoir est irréprochable, je suis pur à tes yeux !” Mais si seulement Dieu voulait parler, si pour toi il desserrait les lèvres, s’il te dévoilait les secrets de la sagesse tellement subtils à entendre, alors tu saurais que Dieu oublie une part de tes fautes. 
@@ -50,6 +48,8 @@ readings:
         Je vous donne un commandement nouveau :
         Aimez-vous les uns les autres,
         comme je vous ai aimés.
+  oration:
+    - Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour.
 mass:
 - massType: day_mass
   name: Messe du jour

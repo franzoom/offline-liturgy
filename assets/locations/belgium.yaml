@@ -2,14 +2,12 @@ language: french
 geography: country
 parent: europe
 frenchName: Belgique
+frenchLocative: en Belgique
 epiphanyDate: day
 ascensionDate: thursday
 
+
 feasts:
-  belgium_gudula_of_brussels_virgin:
-    month: 1
-    day: 8
-    precedence: 12
   belgium_amand_of_maastricht_bishop: #OK
     month: 2
     day: 6
@@ -45,4 +43,10 @@ feasts:
   belgium_john_berchmans_religious: #OK
     month: 11
     day: 26
+    precedence: 10
+
+move:
+  paul_miki_and_companions_martyrs: #OK
+    month: 2
+    day: 7
     precedence: 10

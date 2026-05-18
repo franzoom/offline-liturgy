@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - |-
-      Sois favorable à tes fidèles, Seigneur et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient attentifs à garder tes commandements.
-
 readings:
   biblicalReading:
-    - title: Son règne n’aura pas de fin
+    - title: LECTURE DU LIVRE D’ISAÏE 
+      subtitle: Son règne n’aura pas de fin
       ref: Is 11, 1-16
       content: |-
         Un rameau sortira de la souche de Jessé, père de David, un rejeton jaillira de ses racines. Sur lui reposera l’esprit du SEIGNEUR : esprit de sagesse et de discernement, esprit de conseil et de force, esprit de connaissance et de crainte du SEIGNEUR — qui lui inspirera la crainte du SEIGNEUR. 
@@ -51,6 +48,9 @@ readings:
 
         Vérité germera de la terre
         et des cieux se penchera la justice.
+  oration:
+    - |-
+      Sois favorable à tes fidèles, Seigneur et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient attentifs à garder tes commandements.
 mass:
 - massType: day_mass
   name: Messe du jour

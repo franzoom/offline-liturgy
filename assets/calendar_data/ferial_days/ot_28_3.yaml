@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Terre entière, acclame Dieu ; chante le Seigneur.
 
-oration:
-    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
-
 readings:
   biblicalReading:
-    - title: Avènement du grand prêtre et du roi
+    - title: LECTURE DU LIVRE DE ZACHARIE
+      subtitle: Avènement du grand prêtre et du roi
       ref: Za 3, 1 – 4, 14
       content: |-
         Le SEIGNEUR me fit voir Josué, le grand prêtre, qui se tenait devant l’ange du SEIGNEUR, tandis que le Satan était debout à sa droite pour l’accuser. Le SEIGNEUR dit au Satan : 
@@ -53,6 +51,8 @@ readings:
 
         Celui qui aime est né de Dieu
         et connaît Dieu.
+  oration:
+    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

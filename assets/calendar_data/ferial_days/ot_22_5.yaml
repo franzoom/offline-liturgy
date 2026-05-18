@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
 
-oration:
-    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
-
 readings:
   biblicalReading:
-    - title: Dieu est un père pour Israël
+    - title: LECTURE DU LIVRE DE JÉRÉMIE
+      subtitle: Dieu est un père pour Israël
       ref: Jr 30, 18-24; 31, 1-9
       content: |-
         Ainsi parle le SEIGNEUR : 
@@ -58,6 +56,8 @@ readings:
         Heureux si l’on vous insulte
         à cause du Fils de l’homme,
         exultez : grande sera votre récompense.
+  oration:
+    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

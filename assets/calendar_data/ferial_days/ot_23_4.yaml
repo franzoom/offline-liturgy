@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
 
-oration:
-    - |-
-      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
-
 readings:
   biblicalReading:
-    - ref: Lam 1, 1-12.18-20
+    - title: LECTURE DU LIVRE DES LAMENTATIONS
+      ref: Lam 1, 1-12.18-20
       content: |-
         Comment ! La voilà donc assise, solitaire, la ville si populeuse, semblable à une veuve, la reine des nations, souveraine des peuples, devenue esclave ! 
         Elle pleure, elle pleure dans la nuit, les larmes couvrent ses joues : personne pour la consoler parmi ceux qui l’aimaient ; ils l’ont trompée, tous ses amis, devenus ses ennemis. 
@@ -59,6 +56,9 @@ readings:
         Quand le Fils de Dieu paraîtra,
         nous le verrons tel qu’il est,
         car nous serons semblables à lui.
+  oration:
+    - |-
+      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
 mass:
 - massType: day_mass
   name: Messe du jour

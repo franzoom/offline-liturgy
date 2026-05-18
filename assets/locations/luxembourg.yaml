@@ -2,10 +2,15 @@ language: french
 geography: country
 parent: europe
 frenchName: Luxembourg
+frenchLocative: au Luxembourg
 epiphanyDate: day
 ascensionDate: thursday
 
 feasts:
+  luxembourg_irmina_religious: #à vérifier
+    month: 1
+    day: 3
+    precedence: 12
   luxembourg_willibrord_of_utrecht_bishop:
     month: 11
     day: 7
@@ -14,7 +19,11 @@ feasts:
     month: 3
     day: 3
     precedence: 12
-  luxembourg_our_lady_consoler_of_the_afflicted:
+  luxembourg_our_lady_consoler_of_the_afflicted: #OK
     relativeTo: EASTER
     shift: 14
     precedence: 4
+  luxembourg_our_lord-jesus-christ-eternal-priest: #OK
+    relativeTo: PENTECOST
+    shift: 4
+    precedence: 10

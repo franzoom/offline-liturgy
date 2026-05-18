@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
 
-oration:
-    - Dieu qui peut mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets ; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies.
-
 readings:
   biblicalReading:
-    - title: L’homme vêtu de lin
+    - title: LECTURE DU LIVRE DE DANIEL
+      subtitle: L’homme vêtu de lin
       ref: Dn 10, 1-21
       content: |-
         La troisième année du règne de Cyrus, roi de Perse, une parole fut révélée à Daniel, surnommé Beltassar : parole vraie et grand combat. Il comprit la parole : la compréhension lui vint dans une vision. 
@@ -50,6 +48,8 @@ readings:
 
         Respectez entre vous le droit et la justice,
         alors je resterai avec vous en ce lieu.
+  oration:
+    - Dieu qui peut mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets ; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies.
 mass:
 - massType: day_mass
   name: Messe du jour

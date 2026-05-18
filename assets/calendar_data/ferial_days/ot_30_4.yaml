@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.
-
 readings:
   biblicalReading:
-    - title: Origine, attribut, mission de la sagesse
+    - title: LECTURE DU LIVRE DE LA SAGESSE
+      subtitle: Origine, attribut, mission de la sagesse
       ref: Sg 7, 15-30
       content: |-
         Que Dieu m’accorde de parler comme je comprends, et de concevoir une pensée à la mesure de ses dons, puisque lui-même guide la Sagesse et dirige les sages ; car nous sommes dans sa main : nous-mêmes, nos paroles, toute notre intelligence et notre savoir-faire. 
@@ -52,6 +50,8 @@ readings:
 
         Le désir de la sagesse conduit à la royauté,
         et la fidélité donne place auprès de Dieu.
+  oration:
+    - Fais que les événements du monde, Seigneur, se déroulent dans la paix, selon ton dessein, et que ton peuple connaisse la joie de te servir sans inquiétude.
 mass:
 - massType: day_mass
   name: Messe du jour

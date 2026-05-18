@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - |-
-      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
-
 evangelicAntiphon:
     yearA: |-
       Tu ne veux pas de sacrifices, mais tu veux l’amour : tu ne viens pas appeler les justes, mais les pécheurs.
@@ -19,7 +15,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Josué, vaillant guerrier et puissant intercesseur
+    - title: LECTURE DU LIVE DE BEN SIRA LE SAGE
+      subtitle: Josué, vaillant guerrier et puissant intercesseur
       ref: Si 46, 1-10
       content: |-
         Josué, fils de Noun, fut un vaillant guerrier et succéda, comme prophète, à Moïse. Justifiant le nom qu’il portait, il se montra grand sauveur des élus du Seigneur : châtiant les ennemis dressés contre lui, il fit entrer Israël dans son héritage. Qu’il était glorieux quand il levait les bras pour brandir l’épée contre les villes ! Qui donc, avant lui, avait eu cette fermeté ? Il mena lui-même les combats du Seigneur. N’est-ce pas sa main qui arrêta le soleil et fit qu’un seul jour en devint deux ? Il invoqua le Très-Haut, le Puissant, quand les ennemis le pressaient de toute part, et le souverain Seigneur l’exauça en lançant des grêlons d’une force terrible. Il se précipita sur la nation ennemie et fit périr les adversaires dans la descente de Beth-Horone, pour faire connaître aux nations la force de ses armes et qu’il se battait au nom du Seigneur, car il marchait à la suite du Puissant. 
@@ -47,6 +44,9 @@ readings:
 
         Je demeurerai près de vous tous
         pour la joie de votre foi.
+  oration:
+    - |-
+      Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
 mass:
 - massType: day_mass
   name: Messe du jour

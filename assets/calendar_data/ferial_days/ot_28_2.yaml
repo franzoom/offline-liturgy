@@ -6,15 +6,13 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
-
 readings:
   biblicalReading:
-    - title: Vision de restauration
+    - title: LECTURE DU LIVRE DE ZACHARIE
+      subtitle: Vision de restauration
       ref: Za 1, 1 – 2, 4
       content: |-
-        LA DEUXIEME ANNEE du règne de Darius, au huitième mois, la parole du SEIGNEUR fut adressée au prophète Zacharie, fils de Bérékya, fils de Iddo, pour qu’il dise : 
+        La deuxième année du règne de Darius, au huitième mois, la parole du SEIGNEUR fut adressée au prophète Zacharie, fils de Bérékya, fils de Iddo, pour qu’il dise : 
         
         Le SEIGNEUR s’est profondément irrité contre vos pères. Mais tu leur diras : Ainsi parle le SEIGNEUR de l’univers : Revenez à moi — oracle du SEIGNEUR de l’univers —, et je reviendrai à vous, dit le SEIGNEUR de l’univers. 
         Ne soyez pas comme vos pères que les prophètes de jadis ont interpellés en disant : Ainsi parle le SEIGNEUR de l’univers : Revenez donc de vos mauvais chemins, de vos actions mauvaises. Mais ils ne m’ont pas écouté, ils n’ont pas prêté attention — oracle du SEIGNEUR. Vos pères, où sont-ils ? Et les prophètes, vivent-ils pour toujours ? Cependant, mes paroles et mes décrets, que j’avais confiés à mes serviteurs les prophètes, n’ont-ils pas atteint vos pères ? Alors ils sont revenus et ils ont dit : « De la manière dont le SEIGNEUR de l’univers avait résolu de nous traiter selon nos chemins et nos actions, ainsi nous a-t-il traités. » 
@@ -55,6 +53,8 @@ readings:
         toutes les contrées de la terre ;
         les peuples viendront de loin
         adorer le Seigneur dans tes murs.
+  oration:
+    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - |-
-      Dieu, qui donnes la preuve suprême de ta puissance lorsque tu patientes et prends pitié, sans te lasser, accorde-nous ta grâce : en nous hâtant vers les biens que tu promets, nous parviendrons au bonheur du ciel.
-
 evangelicAntiphon:
     yearA: Qui fait la volonté de mon Père entrera dans le Royaume des cieux.
     yearB: Qui vous donnera un verre d’eau en mon nom ne restera pas sans récompense.
@@ -17,7 +13,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Paul rend grâce à Dieu
+    - title: LECTURE DE LA LETTRE AUX PHILIPPIENS
+      subtitle: Paul rend grâce à Dieu
       ref: Ph 1, 1-11
       content: Paul et Timothée, serviteurs du Christ Jésus, à tous ceux qui sont sanctifiés dans le Christ Jésus et habitent à Philippes, ainsi qu’aux responsables et aux ministres de l’Église. À vous, la grâce et la paix de la part de Dieu notre Père et du Seigneur Jésus Christ. Je rends grâce à mon Dieu chaque fois que je fais mémoire de vous. À tout moment, chaque fois que je prie pour vous tous, c’est avec joie que je le fais, à cause de votre communion avec moi, dès le premier jour jusqu’à maintenant, pour l’annonce de l’Évangile. J’en suis persuadé, celui qui a commencé en vous un si beau travail le continuera jusqu’à son achèvement au jour où viendra le Christ Jésus. Il est donc juste que j’aie de telles dispositions à l’égard de vous tous, car je vous porte dans mon cœur, vous qui communiez tous à la grâce qui m’est faite dans mes chaînes comme dans la défense de l’Évangile et son annonce ferme. Oui, Dieu est témoin de ma vive affection pour vous tous dans la tendresse du Christ Jésus. Et, dans ma prière, je demande que votre amour vous fasse progresser de plus en plus dans la pleine connaissance et en toute clairvoyance pour discerner ce qui est important. Ainsi, serez-vous purs et irréprochables pour le jour du Christ, comblés du fruit de la justice qui s’obtient par Jésus Christ, pour la gloire et la louange de Dieu.
       responsory: |-
@@ -49,6 +46,9 @@ readings:
 
         Je te propose aujourd’hui la vie ou la mort :
         choisis la vie, en aimant le Seigneur ton Dieu.
+  oration:
+    - |-
+      Dieu, qui donnes la preuve suprême de ta puissance lorsque tu patientes et prends pitié, sans te lasser, accorde-nous ta grâce : en nous hâtant vers les biens que tu promets, nous parviendrons au bonheur du ciel.
 mass:
 - massType: day_mass
   name: Messe du jour

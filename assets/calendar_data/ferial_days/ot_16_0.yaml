@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - |-
-      Sois favorable à tes fidèles, Seigneur, et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient toujours attentifs à garder tes commandements.
-
 evangelicAntiphon:
     yearA: Laissez grandir le blé et l’ivraie jusqu’au temps de la moisson.
     yearB: |-
@@ -18,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Action de grâces dans les épreuves
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: Action de grâces dans les épreuves
       ref: 2Co 1, 1-14
       content: |-
         Paul, Apôtre du Christ Jésus par la volonté de Dieu, et Timothée notre frère, à l’Église de Dieu qui est à Corinthe, ainsi qu’à tous les fidèles qui sont par toute la Grèce. À vous, la grâce et la paix de la part de Dieu notre Père et du Seigneur Jésus Christ. 
@@ -56,6 +53,9 @@ readings:
         Sans vous soucier de vos propres affaires,
         ayez à cœur celles de vos frères,
         à l’exemple du Christ Jésus.
+  oration:
+    - |-
+      Sois favorable à tes fidèles, Seigneur, et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient toujours attentifs à garder tes commandements.
 mass:
 - massType: day_mass
   name: Messe du jour

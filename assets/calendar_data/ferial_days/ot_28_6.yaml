@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - Dieu qui est bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
-
 readings:
   biblicalReading:
-    - title: |-
+    - title: LECTURE DU LIVRE DE MALACHIE
+      subtitle: |-
         Le jour du Seigneur : jour grand et redoutable
       ref: Ml 3, 1-24
       content: |-
@@ -48,6 +46,8 @@ readings:
 
         C’est toi qui créas toutes choses :
         tu as voulu qu’elles soient, elles furent créées.
+  oration:
+    - Dieu qui est bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
 - massType: day_mass
   name: Messe du jour

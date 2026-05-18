@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
-
 readings:
   biblicalReading:
-    - title: La Nouvelle Alliance
+    - title: LECTURE DU LIVRE DE JÉRÉMIE
+      subtitle: La Nouvelle Alliance
       ref: Jr 31, 15-22.27-34
       content: |-
         Ainsi parle le SEIGNEUR : Un cri s’élève dans Rama, une plainte et des pleurs d’amertume. C’est Rachel qui pleure ses fils ; elle refuse d’être consolée, car ses fils ne sont plus. 
@@ -53,6 +51,8 @@ readings:
 
         Si vous devez souffrir pour la justice,
         réjouissez-vous et bondissez de joie.
+  oration:
+    - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
 mass:
 - massType: day_mass
   name: Messe du jour

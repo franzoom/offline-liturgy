@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
 
-oration:
-    - Dans ton amour inlassable, Seigneur, veille sur ta famille ; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection.
-
 readings:
   biblicalReading:
-    - title: Les impies raisonnent et s’égarent
+    - title: LECTURE DU LIVRE DE LA SAGESSE
+      subtitle: Les impies raisonnent et s’égarent
       ref: Sg 1, 16 – 2, 1a.10-24
       content: |-
         Pourtant, les impies ont invité la Mort, du geste et de la voix ; la tenant pour amie, pour elle ils se consument ; ils ont fait un pacte avec elle : ils méritent bien de lui appartenir. 
@@ -54,6 +52,8 @@ readings:
 
         Aujourd’hui tu nous parles,
         ouvre nos cœurs à ta voix.
+  oration:
+    - Dans ton amour inlassable, Seigneur, veille sur ta famille ; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection.
 mass:
 - massType: day_mass
   name: Messe du jour

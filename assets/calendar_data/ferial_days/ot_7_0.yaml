@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur.
 
-oration:
-    - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
-
 evangelicAntiphon:
     yearA: Aimez vos ennemis et vous serez les fils de votre Père du ciel.
     yearB: L’homme se lève, il marche et rend grâce ; tous ceux qui le voient glorifient Dieu.
@@ -16,7 +13,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: La vie n’est-elle pas un éternel recommencement ?
+    - title: LECTURE DU LIVRE DE L’ECCLÉSIASTE
+      subtitle: La vie n’est-elle pas un éternel recommencement ?
       ref: Qo 1, 1-18
       content: |-
         Paroles de Qohèleth, fils de David, roi de Jérusalem. 
@@ -64,6 +62,8 @@ readings:
         Je vous donne un commandement nouveau :
         Aimez-vous les uns les autres,
         comme je vous ai aimés.
+  oration:
+    - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
 mass:
 - massType: day_mass
   name: Messe du jour

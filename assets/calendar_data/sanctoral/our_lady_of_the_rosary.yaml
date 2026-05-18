@@ -1,0 +1,80 @@
+celebration:
+  title: Notre-Dame du Rosaire
+  commons:
+    - virgin-mary
+  color: white
+
+oration:
+  - |-
+    Que ta grâce, Seigneur notre Père, se répande en nos cœurs : par le message de l’ange, tu nous as fait connaître l’incarnation de ton Fils bien-aimé, conduis-nous par sa passion et par sa croix, avec le secours de la Vierge Marie, jusqu’à la gloire de la résurrection.
+
+readings:
+  patristicReading:
+    - title: HOMÉLIE DE SAINT BERNARD « SUR L’AQUEDUC »
+      content: |-
+        L’ange dit à Marie : %L’enfant qui va naître de toi sera saint, et il sera appelé Fils de Dieu%. Lui, la source de la Sagesse, le Verbe du Père dans les lieux très hauts ! Ce Verbe, c’est par ton intermédiaire, Vierge sainte, qu’il se fera chair ; de la sorte, celui qui dit :  %Je suis dans le Père et le Père est en moi%, peut dire cependant : %C’est de Dieu que je suis sorti et que je viens%.
+        %Au commencement était le Verbe%. Déjà la source jaillissait, mais ce n’était encore qu’à l’intérieur d’elle-même. %Et le Verbe était avec Dieu%, habitant une lumière vraiment inaccessible. Et le Seigneur disait dès le début : %Je forme des projets de paix, non de malheur%. Mais il est caché tout au fond de toi, ton projet, et son contenu, nous ne le connaissons pas. %Qui en effet a connu la pensée du Seigneur, ou qui a été son conseiller ?%
+        C’est pourquoi le projet de paix est descendu dans une œuvre de paix : %Le Verbe s’est fait chair%, et il habite dès lors en nous. Il habite à coup sûr dans nos cœurs par la foi, il habite dans notre mémoire, il habite dans notre pensée, et il descend jusque dans notre imagination elle-même. Auparavant, en effet, quelle idée l’homme pouvait-il se faire de Dieu, sinon peut-être celle d’une idole qu’avait fabriquée son cœur ? C’est que Dieu était incompréhensible et inaccessible, invisible et parfaitement irreprésentable. Mais maintenant il a voulu qu’on puisse le comprendre, il a voulu qu’on puisse le voir, il a voulu qu’on puisse le saisir par la pensée.
+        De quelle manière ? demandes-tu. Sans nul doute en étant couché dans une crèche, en reposant sur le sein de la Vierge, en prêchant sur la montagne, en passant la nuit à prier ; non moins qu’en étant cloué à la croix, en devenant livide dans la mort, libre parmi les morts et régnant sur l’enfer ; enfin en ressuscitant le troisième jour, en montrant aux Apôtres la marque des clous, signes de sa victoire, et pour finir en regagnant devant eux les secrets du ciel.
+        De tous ces événements, en est-il un qui ne susciterait pas en nous une pensée vraie, fervente, sainte ? Que je pense à l’un d’entre eux, n’importe lequel, c’est à Dieu que je pense, et à travers tout cela, il est, lui, mon Dieu. Méditer ces événements, c’est la sagesse même, je l’ai dit, et j’estime que l’intelligence avisée consiste à faire remonter en soi le souvenir que l’on garde de leur douceur, une douceur comme celle des amandes que produisit avec abondance le bâton du prêtre Aaron, la douceur que Marie puisa largement dans les hauteurs, pour la reverser sur nous.
+      responsory: |-
+        R/ Réjouis-toi, Marie,
+        tu donneras le Sauveur au monde !
+
+        Il sera grand,
+        on l’appellera Fils du Très-Haut !
+
+        Il vient chercher
+        ce qui était perdu.
+
+        Il rassemblera
+        les enfants de Dieu dispersés.
+
+morning:
+  hymn:
+  - quand-l-esprit-dieu
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - De la Vierge Marie est né Jésus, celui que l’on appelle Christ.
+    - psalm: OT_41
+      antiphon:
+        - |-
+          Avec toi, Marie, nous bénissons le Seigneur : sur la croix il a fait de toi notre mère.
+    - psalm: PSALM_149
+      antiphon:
+        - Tu demeures dans la gloire du ciel, Vierge Marie, couronnée de douze étoiles.
+  reading:
+    biblicalReference: cf. Is 61, 10
+    content: Je tressaille de joie dans le Seigneur, mon âme exulte en mon Dieu. Car il m’a enveloppée du manteau de l’innocence, il m’a fait revêtir les vêtements du salut, comme une mariée met ses bijoux.
+  responsory: |-
+    R/ Réjouis-toi, comblée de grâce :
+    * Le Seigneur est avec toi.
+    V/ Tu es bénie entre toutes les femmes. * Le Seigneur.
+    Gloire au Père. R/ Réjouis-toi.
+  evangelicAntiphon:
+    common: Ô Mère bienheureuse, Vierge très pure et Reine du monde intercède pour nous qui sommes tes enfants.
+
+vespers:
+  hymn:
+  - pleine-de-grace-nous-te-louons
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - L’ange du Seigneur annonce à Marie que l’Esprit la couvrira de son ombre.
+    - psalm: PSALM_126
+      antiphon:
+        - Près de la croix de Jésus se tenait sa mère.
+    - psalm: NT_4
+      antiphon:
+        - Réjouis-toi, Vierge Marie, le Christ est sorti du tombeau, alléluia.
+  reading:
+    biblicalReference: Ga 4, 4-5
+    content: Lorsque les temps furent accomplis, Dieu a envoyé son Fils ; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils.
+  responsory: |-
+    R/ Réjouis-toi, comblée de grâce :
+    * Le Seigneur est avec toi.
+    V/ Tu es bénie entre toutes les femmes. * Le Seigneur.
+    Gloire au Père. R/ Réjouis-toi.
+  evangelicAntiphon:
+    common: Marie retenait toutes ces paroles et les méditait dans son cœur.

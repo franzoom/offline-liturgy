@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - |-
-      Dieu éternel et tout puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
-
 readings:
   biblicalReading:
-    - title: Malgré ses interventions auprès de Dieu, Amos est expulsé
+    - title: LECTURE DU LIVRE D’AMOS
+      subtitle: Malgré ses interventions auprès de Dieu, Amos est expulsé
       ref: Am 7, 1-17
       content: |-
         Le Seigneur DIEU me donna cette vision : voici qu’il formait des sauterelles au temps où le regain commence à pousser, le regain après la fenaison pour le roi. Comme elles achevaient de dévorer l’herbe du pays, je dis : « Seigneur DIEU, je t’en prie, pardonne ! Jacob est si petit ! Qui le relèverait ? » Le SEIGNEUR s’en repentit. « Cela n’arrivera pas », dit le SEIGNEUR. 
@@ -55,6 +52,9 @@ readings:
 
         R/ Pour devenir le corps de Jésus Christ
         et transformer la face de la terre.
+  oration:
+    - |-
+      Dieu éternel et tout puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
 mass:
 - massType: day_mass
   name: Messe du jour

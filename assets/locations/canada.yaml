@@ -1,23 +1,64 @@
 language: french
 geography: country
-parent: north_america
+parent: north-america
 frenchName: Canada
+frenchLocative: au Canada
 epiphanyDate: sunday
 ascensionDate: sunday
 
 feasts:
-  canada_andre_bessette_religious:
+  canada_andre_bessette_religious: #OK
     month: 1
     day: 7
     precedence: 10
-  canada_marguerite_bourgeoys:
+  canada_marguerite_bourgeoys: #OK
     month: 1
     day: 12
     precedence: 10
+  canada_kateri_tekakwitha_virgin: #à compléter
+    month: 4
+    day: 17
+    precedence: 12
+  canada_marie_anne_blondin_virgin: #à compléter
+    month: 4
+    day: 18
+    precedence: 12
+  canada_virgin_mary_bon_conseil: #à compléter
+    month: 4
+    day: 26
+    precedence: 12
+  canada_mary_of_the_incarnation_religious: #à compléter
+    month: 4
+    day: 30
+    precedence: 10
+  canada_marie_leonie_paradis_virgin: #à compléter
+    month: 5
+    day: 4
+    precedence: 12
+  canada_franciscus-de-laval_bishop: #à compléter
+    month: 5
+    day: 6
+    precedence: 12
+  canada_catherine_of_saint_augustin_virgin: #à compléter
+    month: 5
+    day: 8
+    precedence: 12
+  canada_eugene_de_mazenot_bishop: #à compléter
+    month: 5
+    day: 21
+    precedence: 12
+  canada_louis_zephirin_moreau_bishop: #à compléter
+    month: 5
+    day: 21
+    precedence: 12
 
 move:
   # Moved from Jan 7 to Jan 8 to avoid conflict with André Bessette
-  raymond_of_penyafort_priest:
+  raymond_of_penyafort_priest: #OK
     month: 1
     day: 8
     precedence: 10
+  pius_v_pope: #OK
+    month: 5
+    day: 1
+    precedence: 12

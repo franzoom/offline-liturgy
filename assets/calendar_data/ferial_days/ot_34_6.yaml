@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Écoutons la voix de notre Dieu, entrons dans le repos qu’il a promis.
 
-oration:
-    - |-
-      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
-
 readings:
   biblicalReading:
-    - title: Rester ferme dans l’espérance
+    - title: LECTURE DE L'ÉPITRE À JUDE
+      subtitle: Rester ferme dans l’espérance
       ref: Jude 1, 1-8.12-13.17-25
       content: |-
         Jude, serviteur de Jésus Christ et frère de Jacques, aux appelés qui sont aimés de Dieu le Père et gardés pour Jésus Christ : que la miséricorde, la paix et l’amour vous soient accordés en abondance. 
@@ -53,6 +50,9 @@ readings:
         toutes les contrées de la terre ;
         les peuples viendront de loin
         adorer le Seigneur dans tes murs.
+  oration:
+    - |-
+      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
 mass:
 - massType: day_mass
   name: Messe du jour

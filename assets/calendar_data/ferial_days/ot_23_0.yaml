@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur.
 
-oration:
-    - Dieu qui as envoyé ton Fils pour nous sauver et faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père ; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle.
-
 evangelicAntiphon:
     yearA: Quand deux ou trois sont réunis en mon nom, je suis au milieu d’eux, dit le Seigneur.
     yearB: |-
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: De sa prison, Jérémie conseille le roi
+    - title: LECTURE DU LIVRE DE JÉRÉMIE
+      subtitle: De sa prison, Jérémie conseille le roi
       ref: Jr 37, 21; 38, 14-28
       content: |-
         Alors le roi Sédécias ordonna que Jérémie soit consigné dans la cour de garde et qu’on lui donne chaque jour une couronne de pain, de la rue des Boulangers, jusqu’à ce que tout le pain de la ville soit épuisé. Et Jérémie demeura dans la cour de garde. 
@@ -54,6 +52,8 @@ readings:
 
         Laissons-nous transformer
         en l’image du Seigneur, toujours plus glorieuse.
+  oration:
+    - Dieu qui as envoyé ton Fils pour nous sauver et faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père ; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - |-
-      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
-
 evangelicAntiphon:
     yearA: Qui fait la volonté de mon Père entrera dans le Royaume des cieux.
     yearB: Le sabbat est au service de l’hommme et le Fils de l’homme est maître du sabbat.
@@ -17,7 +13,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Eloge de la sagesse
+    - title: LECTURE DU LIVRE DE JOB
+      subtitle: Éloge de la sagesse
       ref: Jb 28, 1-28
       content: |-
         Certes, il y a une mine pour l’argent, un lieu pour l’or que l’on affine. Le fer est tiré du sol, et le cuivre s’obtient d’une pierre fondue. On met fin aux ténèbres, jusqu’au tréfonds on fouille la pierre obscure et sombre. On creuse une galerie à l’écart des habitants. Ignorés des passants, les mineurs sont suspendus ; loin de tout être humain, ils oscillent. La terre d’où sort le pain est bouleversée en ses entrailles comme par un feu. Ses pierres recèlent des saphirs et l’on y voit des poussières d’or. Sentier qu’ignore le rapace, que l’œil du vautour n’a pas aperçu. Les fauves orgueilleux ne l’ont pas foulé, le lion n’y est jamais passé. Sur le silex le mineur a porté la main, il a bouleversé les montagnes par la racine. Dans les rochers il a percé des galeries, et tout ce qui est précieux, son œil l’a vu. Il a colmaté les suintements des fleuves, et amené au jour ce qui était caché. 
@@ -60,6 +57,9 @@ readings:
 
         Qui s’éloigne de toi périra, Seigneur,
         pour moi, j’ai mon refuge auprès de toi.
+  oration:
+    - |-
+      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
 mass:
 - massType: day_mass
   name: Messe du jour

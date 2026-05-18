@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Rendons grâce à Dieu, éternel est son amour.
 
-oration:
-    - Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir ; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets.
-
 readings:
   biblicalReading:
-    - title: Un ange annonce la naissance de Samson
+    - title: LECTURE DU LIVRE DES JUGES
+      subtitle: Un ange annonce la naissance de Samson
       ref: Jg 13, 1-25
       content: |-
         Les fils d’Israël recommencèrent à faire ce qui est mal aux yeux du SEIGNEUR, et le SEIGNEUR les livra entre les mains des Philistins pendant quarante ans. 
@@ -48,6 +46,8 @@ readings:
         Je vous donne un commandement nouveau :
         Aimez-vous les uns les autres,
         comme je vous ai aimés.
+  oration:
+    - Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir ; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets.
 mass:
 - massType: day_mass
   name: Messe du jour

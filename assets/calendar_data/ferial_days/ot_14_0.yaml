@@ -6,10 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - |-
-      Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte : tu les as tirés de l’esclavage du péché ; fais-leur connaître le bonheur impérissable.
-
 evangelicAntiphon:
     yearA: Prenez sur vous mon joug, il est doux et léger.
     yearB: |-
@@ -19,7 +15,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Le repentir de David
+    - title: LECTURE DU 2^ème LIVRE DE SAMUEL
+      subtitle: Le repentir de David
       ref: 2S 12, 1-25
       content: |-
         Le SEIGNEUR envoya vers David le prophète Nathan qui alla le trouver et lui dit : « Dans une même ville, il y avait deux hommes ; l’un était riche, l’autre était pauvre. Le riche avait des moutons et des bœufs en très grand nombre. Le pauvre n’avait rien qu’une brebis, une toute petite, qu’il avait achetée. Il la nourrissait, et elle grandissait chez lui au milieu de ses fils ; elle mangeait de son pain, buvait de sa coupe, elle dormait dans ses bras : elle était comme sa fille. Un voyageur arriva chez l’homme riche. Pour préparer le repas de son hôte, celui-ci épargna ses moutons et ses bœufs. Il alla prendre la brebis du pauvre, et la prépara pour l’homme qui était arrivé chez lui. » 
@@ -57,6 +54,9 @@ readings:
 
         Le sacrifice qui te plaît, c’est un esprit brisé,
         tu n’as point d’aversion pour un cœur broyé.
+  oration:
+    - |-
+      Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte : tu les as tirés de l’esclavage du péché ; fais-leur connaître le bonheur impérissable.
 mass:
 - massType: day_mass
   name: Messe du jour

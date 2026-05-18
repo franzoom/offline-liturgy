@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
-
 readings:
   biblicalReading:
-    - title: À l’épreuve du mal
+    - title: LECTURE DE LA 2^ème LETTRE DE PIERRE
+      subtitle: À l’épreuve du mal
       ref: 2P 2, 9-22
       content: |-
         Le Seigneur peut donc délivrer de l’épreuve ceux qui pratiquent la piété, mais les injustes, il les garde pour le jour du jugement afin de les punir, ceux-là surtout qui, par convoitise impure, suivent les inclinations de la chair et dédaignent la seigneurie de Dieu. Présomptueux, arrogants, ils outragent sans trembler les anges appelés « Gloires », alors que d’autres anges, supérieurs en force et en puissance, ne portent pas contre ceux-ci un jugement outrageant de la part du Seigneur. 
@@ -48,6 +46,8 @@ readings:
 
         Je les rassemblerai des pays étrangers
         et les ramènerai sur leur terre.
+  oration:
+    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour.
-
 evangelicAntiphon:
     yearA: Qui me reconnaîtra devant les hommes, je le reconnaîtrai devant mon Père
     yearB: |-
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Samuel confère l’onction royale à David
+    - title: LECTURE DU 1^er LIVRE DE SAMUEL
+      subtitle: Samuel confère l’onction royale à David
       ref: 1S 16, 1-13
       content: |-
         Le SEIGNEUR dit à Samuel : « Combien de temps encore seras-tu en deuil à cause de Saül ? Je l’ai rejeté pour qu’il ne règne plus sur Israël. Prends une corne que tu rempliras d’huile, et pars ! Je t’envoie auprès de Jessé de Bethléem, car j’ai vu parmi ses fils mon roi. » Samuel répondit : « Comment faire ? Saül va le savoir, et il me tuera. » Le SEIGNEUR reprit : « Emmène avec toi une génisse, et tu diras que tu viens offrir un sacrifice au SEIGNEUR. Tu convoqueras Jessé au sacrifice ; je t’indiquerai moi-même ce que tu dois faire et tu me consacreras par l’onction celui que je te désignerai. » 
@@ -55,6 +53,8 @@ readings:
 
         L’Esprit du Seigneur est sur moi, disait-il,
         car il m’a consacré par l’onction.
+  oration:
+    - Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour.
 mass:
 - massType: day_mass
   name: Messe du jour

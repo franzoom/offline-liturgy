@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Venez tous au Seigneur, adorons notre Maître.
 
-oration:
-    - |-
-      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
-
 readings:
   biblicalReading:
-    - title: Après le banquet d’Esther, Haman est pendu
+    - title: LECTURE DU LIVRE D’ESTHER
+      subtitle: Après le banquet d’Esther, Haman est pendu
       ref: Est 5, 1-5; 7, 1-10
       content: |-
         Au troisième jour, lorsqu’elle eut cessé de prier, Esther quitta ses vêtements de suppliante et revêtit des habits d’apparat. %Ainsi dans tout son éclat, ayant invoqué le Dieu qui protège et qui sauve, elle prit avec elle ses deux servantes : sur l’une d’elles, elle s’appuyait mollement ; l’autre l’accompagnait en portant sa traîne. Elle-même était rougissante, au comble de sa beauté ; son visage était radieux, comme épanoui par l’amour, mais son cœur était serré par la peur. Franchissant toutes les portes, elle se trouva devant le roi. Il était assis sur son trône royal, revêtu de l’habit avec lequel il paraissait en public, rutilant d’or et de pierres précieuses : il était redoutable. Il leva son visage rayonnant de gloire et, au comble de la colère, il la fixa. La reine s’effondra. Prise de faiblesse, elle changea de couleur et se pencha vers la tête de la servante qui la précédait. Dieu changea le cœur du roi et l’inclina à la douceur. Saisi d’angoisse, il s’élança de son trône et la prit dans ses bras jusqu’à ce qu’elle se remît%.
@@ -49,6 +46,9 @@ readings:
 
         Après toi languit ma chair,
         terre aride, altérée, sans eau.
+  oration:
+    - |-
+      Dieu éternel et tout-puissant, qui régis l’univers du ciel et de la terre : exauce, en ta bonté, les prières de ton peuple et fais à notre temps la grâce de la paix.
 mass:
 - massType: day_mass
   name: Messe du jour

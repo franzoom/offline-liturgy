@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Béni sois-tu, Seigneur, Dieu de tendresse et d’amour.
 
-oration:
-    - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
-
 readings:
   biblicalReading:
-    - title: |-
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: |-
         L’ambition de Paul : plaire au Christ et annoncer un monde nouveau
       ref: 2Co 5, 1-21
       content: |-
@@ -51,6 +49,8 @@ readings:
 
         À tous ceux qui croient au Christ,
         il donne la vie éternelle.
+  oration:
+    - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
 mass:
 - massType: day_mass
   name: Messe du jour

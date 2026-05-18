@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, c’est lui qui nous a faits.
 
-oration:
-    - |-
-      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
-
 readings:
   biblicalReading:
-    - title: Vision de paix messianique
+    - title: LECTURE DU LIVRE DE MICHÉE
+      subtitle: Vision de paix messianique
       ref: Mi 4, 1-7
       content: |-
         Il arrivera dans les derniers jours que la montagne de la maison du SEIGNEUR se tiendra plus haut que les monts, elle s’élèvera au-dessus des collines. Vers elle afflueront des peuples et viendront des nations nombreuses. 
@@ -48,6 +45,9 @@ readings:
 
         Vous êtes la race élue, la nation sainte,
         le peuple que Dieu s’est acquis.
+  oration:
+    - |-
+      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
 mass:
 - massType: day_mass
   name: Messe du jour

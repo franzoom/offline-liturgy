@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
 
-oration:
-    - Dieu éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance.
-
 readings:
   biblicalReading:
-    - title: Vocation d’Ezéchiel
+    - title: LECTURE DU LIVRE D'ÉZÉCHIEL
+      subtitle: Vocation d’Ezéchiel
       ref: Ez 2, 8-10; 3, 1-11.16-21
       content: |-
         « Et toi, fils d’homme, écoute ce que je te dis. Ne sois pas rebelle comme cette engeance de rebelles. Ouvre la bouche, et mange ce que je te donne. » Alors j’ai vu : une main tendue vers moi, tenant un livre en forme de rouleau. Elle le déroula devant moi ; ce rouleau était écrit au-dedans et au-dehors, rempli de lamentations, plaintes et clameurs. 
@@ -58,6 +56,8 @@ readings:
 
         Sur nous, Seigneur, soit ton amour,
         ainsi qu’en toi fut notre espoir.
+  oration:
+    - Dieu éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance.
 mass:
 - massType: day_mass
   name: Messe du jour

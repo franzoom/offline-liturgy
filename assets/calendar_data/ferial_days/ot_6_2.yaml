@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
-
 readings:
   biblicalReading:
-    - title: La Sagesse de Dieu
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: La Sagesse de Dieu
       ref: Pr 8, 1-5.12-36
       content: |-
         N’est-ce pas la Sagesse qui appelle, la raison qui élève sa voix ? En haut de la montée, sur la route, postée à la jonction des chemins, près des portes, aux abords de la cité, à l’entrée des passages, elle clame : « C’est vous, les humains, que j’appelle, ma voix s’adresse aux fils d’Adam : vous, les naïfs, devenez habiles, vous, les insensés, devenez raisonnables. 
@@ -52,6 +50,8 @@ readings:
         Personne n’a jamais vu Dieu.
         Le Fils unique qui est dans le sein du Père
         nous l’a fait connaître.
+  oration:
+    - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
 - massType: day_mass
   name: Messe du jour

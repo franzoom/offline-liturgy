@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
-
 readings:
   biblicalReading:
-    - title: Paul, ministre de l’Alliance nouvelle
+    - title: LECTURE DE LA 2^ème LETTRE AUX CORINTHIENS
+      subtitle: Paul, ministre de l’Alliance nouvelle
       ref: 2Co 2, 12 – 3, 6
       content: |-
         Quand je suis arrivé à Troas pour annoncer l’Évangile du Christ, la porte m’était grande ouverte dans le Seigneur ; mais je n’ai pas pu avoir l’esprit tranquille, car je ne trouvais pas Tite mon frère ; alors j’ai fait mes adieux, et je suis parti pour la Macédoine. 
@@ -50,6 +48,8 @@ readings:
 
         En lui habite toute la plénitude de la divinité,
         en lui vous vous trouverez pleinement comblés.
+  oration:
+    - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

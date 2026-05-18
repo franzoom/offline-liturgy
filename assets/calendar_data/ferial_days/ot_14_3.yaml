@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Terre entière, acclame Dieu, chante le Seigneur.
 
-oration:
-    - Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière ; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité.
-
 readings:
   biblicalReading:
-    - title: Dénombrement du peuple par David
+    - title: LECTURE DU 2^ème LIVRE DE SAMUEL
+      subtitle: Dénombrement du peuple par David
       ref: 2S 24, 1-4.10-18.24b-25
       content: |-
         La colère du SEIGNEUR s’enflamma de nouveau contre Israël. Le SEIGNEUR incita David à nuire au peuple. Il lui dit : « Va, dénombre Israël et Juda ! » 
@@ -52,6 +50,8 @@ readings:
         la gamme de louange,
         l’action de grâce, l’hymne à la Trinité,
         psaume des vivants.
+  oration:
+    - Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière ; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,12 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
-
 readings:
   biblicalReading:
-    - title: Le symbole du mariage d’Osée avec une prostituée
+    - title: LECTURE DU LIVRE D’OSÉE
+      subtitle: Le symbole du mariage d’Osée avec une prostituée
       ref: Os 1, 1-9; 3, 1-5
       content: |-
         Parole du SEIGNEUR adressée à Osée, fils de Beéri, au temps d’Ozias, de Yotam, d’Acaz, d’Ézékias, rois de Juda, et au temps de Jéroboam, fils de Joas, roi d’Israël. 
@@ -58,6 +56,8 @@ readings:
 
         Pour nous préserver de la mort,
         nous garder en vie au temps de la famine.
+  oration:
+    - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
 mass:
 - massType: day_mass
   name: Messe du jour

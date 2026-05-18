@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Terre entière, acclame Dieu, chante le Seigneur.
 
-oration:
-    - |-
-      Accorde-nous, Seigneur, de trouver notre joie dans notre fidélité : car c’est un bonheur durable et profond de servir constamment le créateur de tout bien.
-
 readings:
   biblicalReading:
-    - title: abandonnez la naïveté, la sottise
+    - title: LECTURE DU LIVRE DES PROVERBES
+      subtitle: Abandonnez la naïveté, la sottise
       ref: Pr 9, 1-18
       content: |-
         La Sagesse a bâti sa maison, elle a taillé sept colonnes. Elle a tué ses bêtes, et préparé son vin, puis a dressé la table. Elle a envoyé ses servantes, elle appelle sur les hauteurs de la cité : « Vous, étourdis, passez par ici ! » À qui manque de bon sens, elle dit : « Venez, mangez de mon pain, buvez le vin que j’ai préparé. Quittez l’étourderie et vous vivrez, prenez le chemin de l’intelligence. » 
@@ -46,6 +43,9 @@ readings:
 
         Venez, tout est prêt :
         mangez le pain de Dieu, buvez le vin nouveau.
+  oration:
+    - |-
+      Accorde-nous, Seigneur, de trouver notre joie dans notre fidélité : car c’est un bonheur durable et profond de servir constamment le créateur de tout bien.
 mass:
 - massType: day_mass
   name: Messe du jour

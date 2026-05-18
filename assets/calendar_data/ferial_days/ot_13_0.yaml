@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière ; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité.
-
 evangelicAntiphon:
     yearA: Qui vous reçoit, me reçoit ; qui me reçoit, reçoit celui qui m’a envoyé.
     yearB: |-
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Saül consulte une sorcière
+    - title: LECTURE DU 1^er LIVRE DE SAMUEL
+      subtitle: Saül consulte une sorcière
       ref: 1S 28, 3-25
       content: |-
         Samuel était mort, tout Israël l’avait pleuré et l’avait enseveli dans sa ville, à Rama. Or Saül avait écarté du pays les nécromanciens et les devins. 
@@ -57,6 +55,8 @@ readings:
 
         Je mettrai en vous mon Esprit, et vous vivrez.
         Moi, le Seigneur, j’ai dit, et j’accomplis.
+  oration:
+    - Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière ; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité.
 mass:
 - massType: day_mass
   name: Messe du jour

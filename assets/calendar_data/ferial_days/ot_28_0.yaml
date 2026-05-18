@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Peuple choisi par Dieu, viens adorer ton chef et ton pasteur.
 
-oration:
-    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
-
 evangelicAntiphon:
     yearA: |-
       Allez donc aux croisées des chemins : tous ceux qui passeront, invitez-les aux noces.
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Inivitation à rebâtir le Temple
+    - title: LECTURE DU LIVRE D'AGGÉE
+      subtitle: Inivitation à rebâtir le Temple
       ref: Ag 1, 1 – 2, 9
       content: |-
         La deuxième année du règne de Darius, le premier jour du sixième mois, la parole du SEIGNEUR fut adressée, par l’intermédiaire d’Aggée, le prophète, à Zorobabel fils de Salathiel, gouverneur de Juda, et à Josué fils de Josédeq, le grand prêtre : Ainsi parle le SEIGNEUR de l’univers : Ces gens-là disent : « Le temps n’est pas encore venu de rebâtir la Maison du SEIGNEUR ! » 
@@ -57,6 +55,8 @@ readings:
         Toutes les nations viendront
         pour se prosterner devant toi,
         car voici manifestés tes jugements.
+  oration:
+    - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours, pour nous rendre attentifs à faire le bien sans relâche.
 mass:
 - massType: day_mass
   name: Messe du jour

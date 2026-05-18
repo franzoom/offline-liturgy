@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Adorons le Seigneur, il est notre Dieu.
 
-oration:
-    - |-
-      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
-
 readings:
   biblicalReading:
-    - title: Hostilité de Saül contre David
+    - title: LECTURE DU 1^er LIVRE DE SAMUEL
+      subtitle: Hostilité de Saül contre David
       ref: 1S 17, 57-58; 18, 9.20-30
       content: |-
         Quand David fut de retour, après avoir abattu le Philistin, Abner le retint et le fit venir devant Saül ; David avait à la main la tête du Philistin. Saül lui demanda : « Mon garçon, de qui es-tu le fils ? » Et David lui répondit : « Je suis le fils de ton serviteur Jessé, de Bethléem. » 
@@ -53,6 +50,9 @@ readings:
 
         R/ Source nouvelle, intarissable don du Père,
         Jésus Christ !
+  oration:
+    - |-
+      Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
 mass:
 - massType: day_mass
   name: Messe du jour

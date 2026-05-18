@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
-
 evangelicAntiphon:
     yearA: Rendez à César ce qui est à César et à Dieu ce qui est à Dieu.
     yearB: Le Fils de l’homme n’est pas venu pour être servi mais pour servir.
@@ -16,7 +13,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Esther occupe la place de Vasti
+    - title: LECTURE DU LIVRE D’ESTHER
+      subtitle: Esther occupe la place de Vasti
       ref: Est 1, 1 – 2, 17
       content: |-
         C’était au temps d’Assuérus — cet Assuérus qui régnait sur cent vingt-sept provinces, depuis l’Inde jusqu’à l’Éthiopie. En ces jours-là, comme le roi Assuérus siégeait sur son trône royal, qui est à Suse-la-Citadelle, la troisième année de son règne, il donna en sa présence un banquet pour tous ses princes et ses serviteurs, les chefs de l’armée de Perse et de Médie, les nobles et les gouverneurs des provinces. 
@@ -60,6 +58,8 @@ readings:
         Quand vous me chercherez,
         vous me trouverez,
         pour m’avoir cherché de tout votre cœur.
+  oration:
+    - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
 mass:
 - massType: day_mass
   name: Messe du jour

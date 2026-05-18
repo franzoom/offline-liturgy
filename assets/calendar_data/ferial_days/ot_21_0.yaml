@@ -6,9 +6,6 @@ invitatory:
   antiphon:
     - Venez, crions de joie pour Dieu, notre Sauveur !
 
-oration:
-    - Dieu qui peux mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets ; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies.
-
 evangelicAntiphon:
     yearA: |-
       Simon Pierre déclara : Tu es le Messie, le Fils du Dieu vivant.
@@ -17,7 +14,8 @@ evangelicAntiphon:
 
 readings:
   biblicalReading:
-    - title: Le Jour du Seigneur
+    - title: LECTURE DU LIVRE DE SOPHONIE
+      subtitle: Le Jour du Seigneur
       ref: So 1, 1-7.14; 2, 1-3
       content: |-
         Parole du SEIGNEUR qui fut adressée à Sophonie, fils de Koushi, fils de Guedalya, fils d’Amarya, fils d’Ézékias, au temps de Josias, fils d’Amone, roi de Juda. 
@@ -58,6 +56,8 @@ readings:
 
         Vérité germera de la terre
         et des cieux se penchera la justice.
+  oration:
+    - Dieu qui peux mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets ; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Allez vers le Seigneur parmi les chants d’allégresse.
 
-oration:
-    - |-
-      Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir : réponds en nos cœurs la ferveur de ta charité, afin que t’aimant en toute chose et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir.
-
 readings:
   biblicalReading:
-    - title: Vision de Daniel
+    - title: LECTURE DU LIVRE DE DANIEL
+      subtitle: Vision de Daniel
       ref: Dn 9, 1-4.18-27
       content: |-
         La première année du règne de Darius, fils d’Assuérus, de la race des Mèdes, qui était devenu roi des Chaldéens, la première année de son règne, moi, Daniel, je déchiffrais dans les livres le nombre d’années qui, selon la parole adressée par le Seigneur au prophète Jérémie, devaient s’écouler avant que prenne fin la ruine de Jérusalem : soixante-dix ans. Tournant le visage vers le Seigneur Dieu, je lui offris mes prières et mes supplications dans le jeûne, le sac et la cendre. Je fis au Seigneur mon Dieu cette prière et cette confession : 
@@ -56,6 +53,9 @@ readings:
         À nous Dieu l’a révélé par l’Esprit,
         car l’Esprit sonde tout,
         jusqu’aux profondeurs de Dieu.
+  oration:
+    - |-
+      Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir : réponds en nos cœurs la ferveur de ta charité, afin que t’aimant en toute chose et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir.
 mass:
 - massType: day_mass
   name: Messe du jour

@@ -6,13 +6,10 @@ invitatory:
   antiphon:
     - Au son de la joie et de la fête, allons à la rencontre du Seigneur.
 
-oration:
-    - |-
-      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
-
 readings:
   biblicalReading:
-    - title: L’épreuve n’atteint pas la foi de Job
+    - title: LECTURE DU LIVRE DE JOB
+      subtitle: L’épreuve n’atteint pas la foi de Job
       ref: Jb 2, 1-13
       content: |-
         Le jour où les fils de Dieu se rendaient à l’audience du SEIGNEUR, l’Adversaire, lui aussi, vint parmi eux à l’audience. Le SEIGNEUR lui dit : « D’où viens-tu ? » L’Adversaire répondit : « De parcourir la terre et d’y rôder. » Le SEIGNEUR reprit : « As-tu remarqué mon serviteur Job ? Il n’a pas son pareil sur la terre : c’est un homme intègre et droit, qui craint Dieu et s’écarte du mal ; il persiste encore dans son intégrité, et c’est pour rien que tu m’as incité à le détruire. » Mais l’Adversaire répliqua au SEIGNEUR : « Peau pour peau ! L’homme donne tout ce qu’il a pour sauver sa vie. Mais étends la main, touche à ses os et à sa chair, je parie qu’il te maudira en face ! » Le SEIGNEUR dit à l’Adversaire : « Soit ! le voici en ton pouvoir, mais préserve sa vie. » 
@@ -49,6 +46,9 @@ readings:
         Tu sondes mon cœur, tu me visites la nuit :
         tu m’éprouves sans rien trouver,
         aucun murmure en moi.
+  oration:
+    - |-
+      Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
 mass:
 - massType: day_mass
   name: Messe du jour

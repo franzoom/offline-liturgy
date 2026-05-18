@@ -2,6 +2,7 @@ language: french
 geography: country
 parent: europe
 frenchName: France
+frenchLocative: en France
 epiphanyDate: sunday
 ascensionDate: thursday
 
@@ -14,11 +15,11 @@ feasts:
     month: 1
     day: 15
     precedence: 12
-  our_lady_of_lourdes: 
+  our_lady_of_lourdes: #vérifier contenu
     month: 2
     day: 11
     precedence: 10
-  france_bernadette_soubirous_virgin:
+  france_bernadette_soubirous_virgin: #OK
     month: 2
     day: 18
     precedence: 12
@@ -38,7 +39,7 @@ feasts:
     month: 6
     day: 2
     precedence: 12
-  france_clotilde_of_burgundy:
+  france_clotilde_of_burgundy: #OK
     month: 6
     day: 4
     precedence: 12
@@ -50,13 +51,17 @@ feasts:
     month: 8
     day: 26
     precedence: 12
-  france_our_lady_of_la_salette:
+  france_our_lady_of_la_salette: #manque tout
     month: 9
     day: 19
     precedence: 12
+  france_dedication_of_consecrated_churches: #OK
+    month: 10
+    day: 25
+    precedence: 12
 
 move:
-  joseph_of_calasanz_priest:
+  joseph_of_calasanz_priest: #OK
     month: 8
     day: 26
     precedence: 12

@@ -44,11 +44,28 @@ Future<MiddleOfDay> _resolveOrdinaryTime(CelebrationContext context) async {
       '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml',
       context.dataLoader);
 
-  // Overlay specific data for weeks > 4
+  // Overlay specific data for weeks > 4, preserving orations from the base cycle
   if (week > 4) {
     MiddleOfDay aux = await middleOfDayExtract(
         '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
+
+    final savedOration = ferialMiddleOfDay.oration;
+    final savedTierceOration = ferialMiddleOfDay.tierce?.oration;
+    final savedSexteOration = ferialMiddleOfDay.sexte?.oration;
+    final savedNoneOration = ferialMiddleOfDay.none?.oration;
+
     ferialMiddleOfDay.overlayWith(aux);
+
+    ferialMiddleOfDay.oration = savedOration;
+    if (ferialMiddleOfDay.tierce != null) {
+      ferialMiddleOfDay.tierce!.oration = savedTierceOration;
+    }
+    if (ferialMiddleOfDay.sexte != null) {
+      ferialMiddleOfDay.sexte!.oration = savedSexteOration;
+    }
+    if (ferialMiddleOfDay.none != null) {
+      ferialMiddleOfDay.none!.oration = savedNoneOration;
+    }
   }
   return ferialMiddleOfDay;
 }

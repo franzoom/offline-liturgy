@@ -213,7 +213,8 @@ Future<List<CelebrationContext>> detectCelebrations(
     final int bestPrecedence =
         allCelebrations.map((c) => c.precedence).reduce(min);
     final bool isSundayFerial = date.weekday == DateTime.sunday &&
-        ferialDayCheck(celebrationCode);
+        ferialDayCheck(celebrationCode) &&
+        !(liturgicalTime == 'ot' && bestPrecedence <= 3);
     final bool isCelebrable = hasHighPriority
         ? (precedence <= bestPrecedence || isSundayFerial)
         : true;

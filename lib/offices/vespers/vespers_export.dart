@@ -66,6 +66,16 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     dataLoader: celebrationContext.dataLoader,
   );
 
+  // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply
+  if (celebrationContext.date.isSunday &&
+      celebrationContext.liturgicalTime == 'ot' &&
+      (celebrationContext.precedence ?? 13) <= 3 &&
+      celebrationContext.celebrationCode != (celebrationContext.ferialCode ?? '')) {
+    final map = vespersOffice.evangelicAntiphon;
+    vespersOffice.evangelicAntiphon =
+        (map != null && map.containsKey('antiphon')) ? {'antiphon': map['antiphon']!} : null;
+  }
+
   // Filter evangelicAntiphon: keep only default + current year
   vespersOffice.evangelicAntiphon = filterEvangelicAntiphon(
       vespersOffice.evangelicAntiphon, celebrationContext.date.year);

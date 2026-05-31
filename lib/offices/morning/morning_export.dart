@@ -80,6 +80,16 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     dataLoader: celebrationContext.dataLoader,
   );
 
+  // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply
+  if (celebrationContext.date.isSunday &&
+      celebrationContext.liturgicalTime == 'ot' &&
+      (celebrationContext.precedence ?? 13) <= 3 &&
+      celebrationContext.celebrationCode != (celebrationContext.ferialCode ?? '')) {
+    final map = morningOffice.evangelicAntiphon;
+    morningOffice.evangelicAntiphon =
+        (map != null && map.containsKey('antiphon')) ? {'antiphon': map['antiphon']!} : null;
+  }
+
   // 8. Filter evangelicAntiphon: keep only default + current year
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
       morningOffice.evangelicAntiphon, celebrationContext.date.year);

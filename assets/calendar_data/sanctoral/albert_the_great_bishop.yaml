@@ -1,11 +1,30 @@
 celebration:
   title: Saint Albert le Grand
-  subtitle: évêque et docteur de l’Église 
+  subtitle: évêque et docteur de l’Église
   description: Albert le Grand, dominicain bavarois, enseigna d’abord à Paris, où il eut Thomas d’Aquin pour élève (1245-1248). Son épiscopat à Ratisbonne ne marqua qu’une parenthèse de deux années dans une vie de professeur et de chercheur, soucieux de découvrir les lois des sciences physiques pour y déceler l’intervention du Créateur. Il mourut à Cologne en 1280.
   commons:
-  - pastors_bishop
-  - pastors_doctors
+    - pastors_bishop
+    - pastors_doctors
   color: white
 
 oration:
-- 
+  - Tu as voulu, Seigneur, que saint Albert mérite le nom de grand pour avoir su concilier sagesse humaine et foi divine ; accorde-nous, à l’école d’un tel maître, à travers nos progrès dans les sciences, de mieux te connaître et de t’aimer davantage.
+
+readings:
+  patristicReading:
+    - title: COMMENTAIRE DE SAINT ALBERT SUR L’ÉVANGILE DE LUC
+      content: |-
+        %Faites cela en mémoire de moi%. Dans cette parole, deux choses sont à relever. La première, c’est que le Seigneur nous prescrit la pratique de ce sacrement, ce qu’il signale quand il dit : %Faites cela%. La seconde, c’est qu’il doit être le mémorial du Seigneur qui s’en allait pour nous à la mort. Il dit donc : %Faites cela%. Il ne pouvait nous prescrire rien de plus utile, rien de plus doux, rien de plus salubre, rien de plus aimable, rien de mieux accordé à la vie éternelle. Et nous allons le montrer en détail.
+        Ce sacrement est utile au pardon des péchés, et très utile pour que notre vie ait la plénitude de la grâce. %Le Père des esprits nous forme à ce qui est utile, pour que nous recevions sa sainteté%. Or sa sainteté se trouve dans le sacrifice de son Fils, c’est-à-dire lorsque dans le sacrement il s’est offert au Père pour nous, et à nous comme notre nourriture. %Pour eux, je me consacre moi-même. Poussé par l’Esprit Saint, Jésus s’est offert lui-même à Dieu, il purifiera notre conscience des actes qui mènent à la mort pour que nous puissions célébrer le culte du Dieu vivant%.
+        En outre, nous ne pouvons rien faire de plus doux : %Tu as donné à ton peuple un pain venu du ciel tout préparé, sans aucun travail de leur part, ayant en lui toutes les délices et la douceur de tous les goûts. Et la substance que tu donnais manifestait bien ta douceur envers tes enfants, puisque, répondant au goût de chacun, elle se transformait selon ta volonté%.
+        Rien non plus ne pouvait être prescrit de plus salubre. En effet, ce sacrement est celui de l’arbre qui porte les fruits de vie ; qui en mange avec la dévotion d’une foi sincère ne goûtera jamais la mort. %C’est un arbre de vie pour celui qui le saisit ; bienheureux qui s’en emparera. Celui qui me mange vivra par moi%.
+        Rien ne pouvait être prescrit de plus aimable. En effet, ce sacrement réalise l’amour et l’union. Le plus grand signe d’amour est de se donner en nourriture : %Les gens de ma tente le disaient bien : Qui nous donnera de sa chair pour que nous soyons rassasiés ?% C’est comme s’il disait : je les ai tant aimés, et réciproquement, que je désirais être dans leurs entrailles ; quant à eux, ils désiraient être incorporés à moi pour devenir mes membres. Ils ne pouvaient être unis à moi, et moi à eux, d’une manière plus intime et plus physique.
+        Enfin, rien ne pouvait être prescrit qui soit mieux accordé à la vie éternelle. Car la permanence de la vie éternelle vient de ce que, dans sa douceur, Dieu se répand lui-même dans les bienheureux.
+
+      responsory: |-
+        R/ Esprit de Dieu, sève d’amour
+        De l’arbre immense où tu nous greffes,
+        Que tous nos frères alentour
+        Nous apparaissent comme un don
+        Dans le grand Corps en qui s’achève
+        La Parole de communion.

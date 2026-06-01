@@ -1,12 +1,4 @@
 {
-  " catherine_of_alexandria_virgin": {
-    "color": "white",
-    "commons": [
-      "virgins"
-    ],
-    "dir": "sanctoral",
-    "title": "Sainte Catherine d'Alexandrie"
-  },
   "adalbert_of_prague_bishop": {
     "color": "red",
     "commons": [
@@ -466,6 +458,14 @@
     "dir": "sanctoral",
     "title": "Saint Clair"
   },
+  "bordeaux_dedication_of_the_cathedral_of_saint_andrew": {
+    "color": "white",
+    "commons": [
+      "dedicace"
+    ],
+    "dir": "sanctoral",
+    "title": "Anniversaire de la dédicace de l’Église métropolitaine"
+  },
   "bordeaux_delphinus_of_bordeaux_bishop": {
     "color": "white",
     "commons": [
@@ -600,7 +600,8 @@
   "bruno_of_cologne_priest": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors",
+      "saints-male_religious"
     ],
     "dir": "sanctoral",
     "title": "Saint Bruno"
@@ -723,11 +724,20 @@
     "dir": "sanctoral",
     "title": "Saint Casimir"
   },
+  "catherine_of_alexandria_virgin": {
+    "color": "red",
+    "commons": [
+      "martyrs_female_virgin",
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Catherine d'Alexandrie"
+  },
   "catherine_of_siena_virgin": {
     "color": "white",
     "commons": [
       "virgins",
-      "saints-doctors"
+      "saints_doctors"
     ],
     "dir": "sanctoral",
     "title": "Sainte Catherine de Sienne"
@@ -864,7 +874,10 @@
   },
   "columban_of_luxeuil_abbot": {
     "color": "white",
-    "commons": [],
+    "commons": [
+      "pastors",
+      "saints-male_religious"
+    ],
     "dir": "sanctoral",
     "title": "Saint Colomban"
   },
@@ -951,7 +964,9 @@
   },
   "dedication_of_the_basilicas_of_saints_peter_and_paul_apostles": {
     "color": "white",
-    "commons": [],
+    "commons": [
+      "apostles"
+    ],
     "dir": "sanctoral",
     "title": "Dédicace des basiliques de Saint Pierre et de Saint Paul"
   },
@@ -1044,7 +1059,7 @@
     "color": "white",
     "commons": [
       "virgins",
-      "saints-doctors"
+      "saints_doctors"
     ],
     "dir": "sanctoral",
     "title": "Sainte Catherine de Sienne"
@@ -1130,6 +1145,7 @@
     "title": "Saint Césaire d'Arles"
   },
   "france_clotilde_of_burgundy": {
+    "color": "white",
     "commons": [
       "saints-female_married"
     ],
@@ -1193,6 +1209,14 @@
     "dir": "sanctoral",
     "title": "Notre-Dame de Lourdes"
   },
+  "france_pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pothin, sainte Blandine et leurs compagnons"
+  },
   "france_remigius_of_reims_bishop": {
     "color": "white",
     "commons": [
@@ -1253,7 +1277,8 @@
   "gertrude_the_great_virgin": {
     "color": "white",
     "commons": [
-      "virgins"
+      "virgins",
+      "saints-female_religious"
     ],
     "dir": "sanctoral",
     "title": "Sainte Gertrude"
@@ -1283,6 +1308,40 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Grégoire VII"
+  },
+  "grenoble_clair_abbe": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Clair, abbé"
+  },
+  "grenoble_ferjus_bishop": {
+    "color": "red",
+    "commons": [
+      "pastors_bishop",
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Ferjus, évêque de Grenoble et martyr"
+  },
+  "grenoble_florent_bishop": {
+    "color": "red",
+    "commons": [
+      "pastors_bishop",
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Florent, évêque de Vienne et martyr"
+  },
+  "grenoble_vincent_deacon": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Vincent, diacre et martyr, patron secondaire du diocèse"
   },
   "hedwig_of_silesia_religious": {
     "color": "white",
@@ -1494,6 +1553,15 @@
     "dir": "sanctoral",
     "title": "Saint Jean Fisher et saint Thomas More"
   },
+  "john_henry_newman_priest": {
+    "color": "white",
+    "commons": [
+      "pastors",
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint John Henry Newman"
+  },
   "john_i_pope": {
     "color": "red",
     "commons": [
@@ -1502,6 +1570,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Jean 1^er"
+  },
+  "john_leonardi_priest": {
+    "color": "white",
+    "commons": [
+      "pastors",
+      "saints-male_caritative"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean Léonardi"
   },
   "john_mary_vianney_priest": {
     "color": "white",
@@ -1812,6 +1889,7 @@
     "title": "Saint François de Sales"
   },
   "lyon_frederic_ozanam": {
+    "color": "white",
     "commons": [
       "pastors"
     ],
@@ -1881,6 +1959,7 @@
     "title": "Saint Jean-Marie Vianney"
   },
   "lyon_justus_of_lyon_bishop": {
+    "color": "white",
     "commons": [
       "pastors_bishop"
     ],
@@ -1897,10 +1976,12 @@
     "title": "Saint Marcellin Champagnat"
   },
   "lyon_marie_of_saint_ignatius_claudine_thevenet_religious": {
+    "color": "white",
     "dir": "sanctoral",
     "title": "Sainte Claudine Thévenet"
   },
   "lyon_maurice_of_agaunum_and_companions_martyrs": {
+    "color": "red",
     "commons": [
       "martyr"
     ],
@@ -2000,7 +2081,7 @@
   "margaret_of_scotland": {
     "color": "white",
     "commons": [
-      "saints-female"
+      "saints-female_caritative"
     ],
     "dir": "sanctoral",
     "title": "Sainte Marguerite d'Écosse"
@@ -2032,7 +2113,9 @@
   },
   "martin_de_porres_religious": {
     "color": "white",
-    "commons": [],
+    "commons": [
+      "saints-male_religious"
+    ],
     "dir": "sanctoral",
     "title": "Saint Martin de Porrès"
   },
@@ -2045,7 +2128,7 @@
     "dir": "sanctoral",
     "title": "Saint Martin I^er"
   },
-  "martin_of_tours_bishop:": {
+  "martin_of_tours_bishop": {
     "color": "white",
     "commons": [
       "pastors"
@@ -2167,7 +2250,7 @@
       "virgin-mary"
     ],
     "dir": "sanctoral",
-    "title": "Le Saint nom de Marie"
+    "title": "Le Saint Nom de Marie"
   },
   "nativity": {
     "color": "white",
@@ -2358,7 +2441,10 @@
   },
   "paul_of_the_cross_priest": {
     "color": "white",
-    "commons": [],
+    "commons": [
+      "pastors",
+      "saints-male_religious"
+    ],
     "dir": "sanctoral",
     "title": "Saint Paul de la Croix"
   },
@@ -2672,6 +2758,15 @@
     "dir": "sanctoral",
     "title": "Sainte Thérèse-Bénédicte de la Croix"
   },
+  "teresa_of_calcutta_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins",
+      "saints-female_caritative"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Teresa de Calcutta"
+  },
   "teresa_of_jesus_of_avila_virgin": {
     "color": "white",
     "commons": [
@@ -2685,7 +2780,7 @@
     "color": "white",
     "commons": [
       "virgins",
-      "saints-doctors"
+      "saints_doctors"
     ],
     "dir": "sanctoral",
     "title": "Sainte Thérèse de l’Enfant-Jésus,"

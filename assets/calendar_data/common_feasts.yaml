@@ -98,8 +98,8 @@ feasts:
     month: 2
     day: 11
     precedence: 12
-  ? cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop #OK
-  : month: 2
+  cyril_constantine_the_philosopher_monk_and_methodius_michael_of_thessaloniki_bishop: #OK
+    month: 2
     day: 14
     precedence: 10
   seven_holy_founders_of_the_servite_order: #OK
@@ -442,7 +442,7 @@ feasts:
     month: 8
     day: 2
     precedence: 12
-  peter_julian_eymard_priest: # manque lecture patristique
+  peter_julian_eymard_priest: #OK
     month: 8
     day: 2
     precedence: 12
@@ -510,7 +510,7 @@ feasts:
     month: 8
     day: 23
     precedence: 12
-  bartholomew_apostle: # VÉRIFIER LE CONTENU
+  bartholomew_apostle: #OK
     month: 8
     day: 24
     precedence: 7
@@ -540,15 +540,19 @@ feasts:
     month: 9
     day: 3
     precedence: 10
+  teresa_of_calcutta_virgin: #OK
+    month: 9
+    day: 5
+    precedence: 12
   nativity_of_the_blessed_virgin_mary: #OK
     month: 9
     day: 8
     precedence: 7
-  peter_claver_priest: #OK (manque lecture patristique et description)
+  peter_claver_priest: #OK (manque lecture patristique)
     month: 9
     day: 9
     precedence: 12
-  most_holy_name_of_mary: #OK (manque lecture patristique et description)
+  most_holy_name_of_mary: #OK (manque lecture patristique)
     month: 9
     day: 12
     precedence: 12
@@ -588,7 +592,7 @@ feasts:
     month: 9
     day: 21
     precedence: 7
-  pius_francesco_forgione_priest: #OK (manque présentation du saint)
+  pius_francesco_forgione_priest: #OK
     month: 9
     day: 23
     precedence: 10
@@ -630,11 +634,11 @@ feasts:
     month: 10
     day: 4
     precedence: 10
-  faustina_kowalska_virgin: #à remplir
+  faustina_kowalska_virgin: #OK
     month: 10
     day: 5
     precedence: 12
-  bruno_of_cologne_priest: #à remplir
+  bruno_of_cologne_priest: #OK
     month: 10
     day: 6
     precedence: 12
@@ -642,19 +646,23 @@ feasts:
     month: 10
     day: 7
     precedence: 10
-  denis_of_paris_bishop_and_companions_martyrs: #à remplir
+  denis_of_paris_bishop_and_companions_martyrs: #OK
     month: 10
     day: 9
     precedence: 12
-  john_leonardi_priest:
+  john_leonardi_priest: #OK
     month: 10
     day: 9
     precedence: 12
-  john_xxiii_pope: #à remplir
+  john_henry_newman_priest: #OK
+    month: 10
+    day: 9
+    precedence: 12
+  john_xxiii_pope: #OK
     month: 10
     day: 11
     precedence: 12
-  callistus_i_pope: #à remplir
+  callistus_i_pope: #OK
     month: 10
     day: 14
     precedence: 12
@@ -662,11 +670,11 @@ feasts:
     month: 10
     day: 15
     precedence: 10
-  hedwig_of_silesia_religious: #à remplir
+  hedwig_of_silesia_religious: #OK
     month: 10
     day: 16
     precedence: 12
-  margaret_mary_alacoque_virgin: #à remplir
+  margaret_mary_alacoque_virgin: #OK
     month: 10
     day: 16
     precedence: 12
@@ -678,23 +686,23 @@ feasts:
     month: 10
     day: 18
     precedence: 7
-  john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs: #à remplir
+  john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs: #OK
     month: 10
     day: 19
     precedence: 12
-  paul_of_the_cross_priest: #à compléter
+  paul_of_the_cross_priest: #OK
     month: 10
     day: 19
     precedence: 12
-  john_paul_ii_pope: #à compléter
+  john_paul_ii_pope: #OK
     month: 10
     day: 22
     precedence: 12
-  john_of_capistrano_priest: #à compléter
+  john_of_capistrano_priest: #OK
     month: 10
     day: 23
     precedence: 12
-  anthony_mary_claret_bishop: #à compléter
+  anthony_mary_claret_bishop: #OK
     month: 10
     day: 24
     precedence: 12
@@ -704,7 +712,7 @@ feasts:
     precedence: 7
 
   # --- NOVEMBER ---
-  martin_de_porres_religious: #à compléter
+  martin_de_porres_religious: #OK
     month: 11
     day: 3
     precedence: 12
@@ -768,7 +776,7 @@ feasts:
     month: 11
     day: 24
     precedence: 10
-  catherine_of_alexandria_virgin: #à compléter
+  catherine_of_alexandria_virgin: #OK
     month: 11
     day: 25
     precedence: 12

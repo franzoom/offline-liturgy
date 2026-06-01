@@ -6,16 +6,10 @@ celebration:
     - apostles
   color: red
 
-morning:
-  psalmody:
-    - psalm: PSALM_62
-    - psalm: OT_41
-    - psalm: PSALM_149
+oration:
+  - Fortifie en nous, Seigneur, la foi sincère qui unissait à ton Fils l’Apôtre saint Barthélemy ; et maintenant qu’il prie pour ton Église, fais qu’elle devienne pour tous les peuples le sacrement du salut.
+
 readings:
-  psalmody:
-    - psalm: PSALM_18A
-    - psalm: PSALM_63
-    - psalm: PSALM_96
   patristicReading:
     - title: HOMÉLIE DE SAINT JEAN CHRYSOSTOME SUR LA 1^ère LETTRE AUX CORINTHIENS
       content: |-
@@ -26,12 +20,9 @@ readings:
         La chose est donc évidente : s’ils ne l’avaient pas vu ressuscité et s’ils n’avaient pas eu la preuve de sa toute-puissance, ils n’auraient pas pris un risque pareil.
       responsory: |-
         R/ Je peux tout en celui qui me fortifie.
-        Dans les faiblesses, les insultes, les contraintes, les persécutions et les angoisses,
-        Lorsque je suis faible, c’est alors que je suis fort.
-vespers:
-  psalmody:
-    - psalm: PSALM_115
-    - psalm: PSALM_125
-    - psalm: NT_4
-oration:
-  - Fortifie en nous, Seigneur, la foi sincère qui unissait à ton Fils l’Apôtre saint Barthélemy ; et maintenant qu’il prie pour ton Église, fais qu’elle devienne pour tous les peuples le sacrement du salut.
+
+        Dans les faiblesses, les insultes,
+        les contraintes, les persécutions et les angoisses,
+
+        Lorsque je suis faible,
+        c’est alors que je suis fort.

@@ -289,11 +289,16 @@ Future<Map<String, CelebrationContext>> buildDetectionMap(
   String celebrationType,
 ) async {
   final celebrations = await detectCelebrations(calendar, date, dataLoader);
-  return {
-    for (final c in celebrations)
-      c.celebrationTitle ?? c.celebrationCode: c.copyWith(
-        celebrationType: celebrationType,
-        officeDescription: c.celebrationGlobalName,
-      ),
-  };
+  // Celebrations are sorted by ascending precedence (best first).
+  // putIfAbsent keeps the first (highest-priority) entry when two celebrations
+  // share the same title (e.g. france_pothinus_... vs lyon_pothinus_...).
+  final map = <String, CelebrationContext>{};
+  for (final c in celebrations) {
+    final key = c.celebrationTitle ?? c.celebrationCode;
+    map.putIfAbsent(key, () => c.copyWith(
+      celebrationType: celebrationType,
+      officeDescription: c.celebrationGlobalName,
+    ));
+  }
+  return map;
 }

@@ -134,13 +134,13 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     final bool showSecondVespersLabel = date.isSunday ||
         (c.precedence ?? _defaultPrecedence) <=
             _firstVespersPrecedenceThreshold;
-    possibleVespers[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
+    possibleVespers.putIfAbsent(c.celebrationTitle ?? c.celebrationCode, () => c.copyWith(
       celebrationType: 'vespers2', // II Vespers
       isCelebrable: isCelebrable,
       officeDescription: showSecondVespersLabel
           ? '${c.celebrationGlobalName}  (${celebrationTypeLabels['secondVespers']})'
           : c.celebrationGlobalName,
-    );
+    ));
   }
 
   // Add tomorrow's high-precedence celebrations (I Vespers)

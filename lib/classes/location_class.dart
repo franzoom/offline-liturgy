@@ -33,7 +33,6 @@ class LocationFeast {
   final int? month;
   final int? day;
   final int? precedence;
-  final bool suppress;
   final String? relativeTo;
   final int? shift;
 
@@ -42,7 +41,6 @@ class LocationFeast {
     this.month,
     this.day,
     this.precedence,
-    this.suppress = false,
     this.relativeTo,
     this.shift,
   });
@@ -54,7 +52,6 @@ class LocationFeast {
       month: data['month'] as int?,
       day: data['day'] as int?,
       precedence: data['precedence'] as int?,
-      suppress: data['suppress'] as bool? ?? false,
       relativeTo: data['relativeTo'] as String?,
       shift: data['shift'] as int?,
     );
@@ -129,9 +126,7 @@ class Location {
     String prefixed(String key) => '$id/$key';
 
     for (final feast in feasts) {
-      if (feast.suppress) {
-        calendar.removeFeastByBaseName(feast.key);
-      } else if (feast.relativeTo != null) {
+      if (feast.relativeTo != null) {
         final baseDate = liturgicalMainFeasts[feast.relativeTo];
         if (baseDate != null) {
           final shift = feast.shift ?? 0;

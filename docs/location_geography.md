@@ -89,16 +89,6 @@ feasts:
 
 `relativeTo` is a key from `liturgicalMainFeasts` (e.g. `EASTER`, `ADVENT`, `SACRED_HEART`, `CORPUS_DOMINI`). `shift` is the number of days after that anchor.
 
-### Suppressing a feast from a parent level
-
-```yaml
-feasts:
-  joan_of_arc_virgin:
-    suppress: true
-```
-
-No `month`, `day`, or `precedence` needed. Removes any feast whose base name matches the key, undoing what a parent level declared. In practice this is rarely needed: adding a local feast with the same name automatically replaces the parent's version via the base-name override mechanism.
-
 ## The `move:` section
 
 Moves a feast that already exists in the calendar (typically a Roman feast from `common_feasts.yaml`) to a different date within the liturgical year for this location. The key is the short feast name — the system finds it in the calendar by base name.

@@ -97,16 +97,6 @@ class Calendar {
     (dayContent.feastList[precedence] ??= []).add(newFeastName);
   }
 
-  /// Removes any feast whose base name matches [baseName] from all dates.
-  void removeFeastByBaseName(String baseName) {
-    for (final dayContent in calendarData.values) {
-      for (final entry in dayContent.feastList.entries.toList()) {
-        entry.value.removeWhere((k) => _baseName(k) == baseName);
-        if (entry.value.isEmpty) dayContent.feastList.remove(entry.key);
-      }
-    }
-  }
-
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
       int liturgicalYear, Map<String, DateTime> liturgicalMainFeasts) {
     final beginOfLiturgicalYear = liturgicalMainFeasts['ADVENT']!;

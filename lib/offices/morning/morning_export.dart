@@ -60,19 +60,13 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
   if (morningOffice.hymn == null &&
       holyWeekCodes.contains(celebrationContext.celebrationCode)) {
-    morningOffice.hymn = await getHymnsForSeason("passion", celebrationContext.dataLoader);
+    morningOffice.hymn =
+        await getHymnsForSeason("passion", celebrationContext.dataLoader);
   }
 
-  // 5. Prepend Gloria hymn, except during Lent and Holy Week
-  final lt = celebrationContext.liturgicalTime ?? '';
-  if (lt != 'lent' && lt != 'holyweek') {
-    morningOffice.hymn = [
-      HymnEntry(code: 'gloire-a-dieu-paix-aux-hommes'),
-      ...?morningOffice.hymn,
-    ];
-  }
+  final liturgicalTime = celebrationContext.liturgicalTime ?? '';
 
-  // 6. HYDRATION: Resolve full texts
+  // 5. HYDRATION: Resolve full texts
   await resolveOfficeContent(
     psalmody: morningOffice.psalmody,
     invitatory: morningOffice.invitatory,
@@ -84,26 +78,30 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   if (celebrationContext.date.isSunday &&
       celebrationContext.liturgicalTime == 'ot' &&
       (celebrationContext.precedence ?? 13) <= 3 &&
-      celebrationContext.celebrationCode != (celebrationContext.ferialCode ?? '')) {
+      celebrationContext.celebrationCode !=
+          (celebrationContext.ferialCode ?? '')) {
     final map = morningOffice.evangelicAntiphon;
     morningOffice.evangelicAntiphon =
-        (map != null && map.containsKey('antiphon')) ? {'antiphon': map['antiphon']!} : null;
+        (map != null && map.containsKey('antiphon'))
+            ? {'antiphon': map['antiphon']!}
+            : null;
   }
 
-  // 8. Filter evangelicAntiphon: keep only default + current year
+  // 6. Filter evangelicAntiphon: keep only default + current year
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
       morningOffice.evangelicAntiphon, celebrationContext.date.year);
 
-  // 9. Apply paschal alléluia to antiphons
+  // 7. Apply paschal alléluia to antiphons
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {
     for (int i = 0; i < invitatoryAntiphon.length; i++) {
-      invitatoryAntiphon[i] = paschalAntiphon(invitatoryAntiphon[i], lt);
+      invitatoryAntiphon[i] =
+          paschalAntiphon(invitatoryAntiphon[i], liturgicalTime);
     }
   }
-  applyPaschalToPsalmody(morningOffice.psalmody, lt);
-  morningOffice.evangelicAntiphon =
-      applyPaschalToAntiphonMap(morningOffice.evangelicAntiphon, lt);
+  applyPaschalToPsalmody(morningOffice.psalmody, liturgicalTime);
+  morningOffice.evangelicAntiphon = applyPaschalToAntiphonMap(
+      morningOffice.evangelicAntiphon, liturgicalTime);
 
   // 8. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;

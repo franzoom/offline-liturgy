@@ -1,8 +1,8 @@
 language: french
 geography: diocese
 parent: france
-frenchName: Lyon
-frenchLocative: à Lyon
+frenchName: diocèse de Lyon
+frenchLocative: dans le diocèse de Lyon
 
 feasts:
   lyon_pauline_marie_jaricot:
@@ -137,3 +137,5 @@ feasts:
     relativeTo: EASTER
     shift: 13
     precedence: 7
+  france_pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs:
+    suppress: true

@@ -1,6 +1,12 @@
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
 
+class LocationOrigin {
+  final String name;
+  final String locative;
+  const LocationOrigin({required this.name, required this.locative});
+}
+
 class DayContent {
   final int liturgicalYear;
   final String liturgicalTime;
@@ -9,8 +15,8 @@ class DayContent {
   final String liturgicalColor;
   final int? breviaryWeek;
   final Map<int, List<String>> feastList;
-  // feast key → French name of the location that added it (null = Roman calendar)
-  final Map<String, String> feastOrigins;
+  // feast key → location that added it (null = Roman calendar)
+  final Map<String, LocationOrigin> feastOrigins;
 
   DayContent({
     required this.liturgicalYear,
@@ -20,7 +26,7 @@ class DayContent {
     required this.liturgicalColor,
     required this.breviaryWeek,
     required this.feastList,
-    Map<String, String>? feastOrigins,
+    Map<String, LocationOrigin>? feastOrigins,
   }) : feastOrigins = feastOrigins ?? {};
 }
 
@@ -36,11 +42,19 @@ class Calendar {
     return calendarData[date];
   }
 
+  // Returns the filename part of a key: 'france/joan_of_arc' → 'joan_of_arc'
+  String _baseName(String key) {
+    final slash = key.lastIndexOf('/');
+    return slash == -1 ? key : key.substring(slash + 1);
+  }
+
   void addItemToDay(DateTime date, int precedence, String newFeastName) {
     final dayContent = calendarData[date];
     if (dayContent == null) return;
 
-    // Search for existing item
+    final newBase = _baseName(newFeastName);
+
+    // Search for an existing entry with the same base name
     int? existingPrecedence;
     int existingIndex = 0;
     String? existingFeastName;
@@ -49,7 +63,7 @@ class Calendar {
     for (var entry in dayContent.feastList.entries) {
       final list = entry.value;
       for (int i = 0; i < list.length; i++) {
-        if (newFeastName.contains(list[i])) {
+        if (_baseName(list[i]) == newBase) {
           existingPrecedence = entry.key;
           existingIndex = i;
           existingFeastName = list[i];
@@ -58,32 +72,39 @@ class Calendar {
       }
     }
 
-    // No existing match found - simply add
+    // No existing match — simply add
     if (existingFeastName == null) {
       (dayContent.feastList[precedence] ??= []).add(newFeastName);
       return;
     }
 
-    // Exact match at same precedence - nothing to do
+    // Exact same key at same precedence — nothing to do
     if (existingPrecedence == precedence && existingFeastName == newFeastName) {
       return;
     }
 
-    // Same precedence but enriched name - replace in place
-    // e.g. "saint_casimir" -> "lyon_saint_casimir"
+    // Same precedence, more specific key — replace in place
     if (existingPrecedence == precedence) {
       dayContent.feastList[precedence]![existingIndex] = newFeastName;
       return;
     }
 
-    // Different precedence - remove from old, add to new
+    // Different precedence — remove from old bucket, add to new
     final oldList = dayContent.feastList[existingPrecedence]!;
     oldList.removeAt(existingIndex);
-    if (oldList.isEmpty) {
-      dayContent.feastList.remove(existingPrecedence);
-    }
+    if (oldList.isEmpty) dayContent.feastList.remove(existingPrecedence);
 
     (dayContent.feastList[precedence] ??= []).add(newFeastName);
+  }
+
+  /// Removes any feast whose base name matches [baseName] from all dates.
+  void removeFeastByBaseName(String baseName) {
+    for (final dayContent in calendarData.values) {
+      for (final entry in dayContent.feastList.entries.toList()) {
+        entry.value.removeWhere((k) => _baseName(k) == baseName);
+        if (entry.value.isEmpty) dayContent.feastList.remove(entry.key);
+      }
+    }
   }
 
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
@@ -182,9 +203,11 @@ class Calendar {
     addItemToDay(newDate, itemPrecedence, feastName);
   }
 
-  /// Records the originating location name for a feast at [date].
-  void setFeastOrigin(DateTime date, String feastKey, String locationName) {
-    calendarData[date]?.feastOrigins[feastKey] = locationName;
+  /// Records the originating location for a feast at [date].
+  void setFeastOrigin(
+      DateTime date, String feastKey, String name, String locative) {
+    calendarData[date]?.feastOrigins[feastKey] =
+        LocationOrigin(name: name, locative: locative);
   }
 
   /// Removes a feast by name from all dates in the calendar.

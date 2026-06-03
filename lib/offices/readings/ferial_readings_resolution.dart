@@ -39,6 +39,8 @@ Future<Readings> _resolveOrdinaryTime(CelebrationContext context) async {
     ferialReadings.overlayWith(auxData);
   }
 
+  final otHymns = await getHymnsForSeason("ot", context.dataLoader);
+  ferialReadings.hymn = [...?ferialReadings.hymn, ...otHymns];
   return ferialReadings;
 }
 
@@ -89,7 +91,8 @@ Future<Readings> _resolveAdvent(CelebrationContext context) async {
     }
   }
 
-  ferialReadings.hymn = await getHymnsForSeason("advent", dataLoader);
+  final adventHymns = await getHymnsForSeason("advent", dataLoader);
+  ferialReadings.hymn = [...?ferialReadings.hymn, ...adventHymns];
   return ferialReadings;
 }
 
@@ -124,7 +127,8 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
     hymnSeason = "after_epiphany";
   }
 
-  ferialReadings.hymn = await getHymnsForSeason(hymnSeason, dataLoader);
+  final christmasHymns = await getHymnsForSeason(hymnSeason, dataLoader);
+  ferialReadings.hymn = [...?ferialReadings.hymn, ...christmasHymns];
   return ferialReadings;
 }
 
@@ -146,8 +150,8 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
       year: year);
 
   final String hymnKey = week < 5 ? "lent" : "passion";
-  ferialReadings.hymn = await getHymnsForSeason(hymnKey, context.dataLoader);
-
+  final lentHymns = await getHymnsForSeason(hymnKey, context.dataLoader);
+  ferialReadings.hymn = [...?ferialReadings.hymn, ...lentHymns];
   return ferialReadings;
 }
 
@@ -156,7 +160,8 @@ Future<Readings> _resolveHolyWeek(CelebrationContext context) async {
   final code = context.ferialCode!;
   Readings ferialReadings =
       await readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader);
-  ferialReadings.hymn = await getHymnsForSeason("passion", context.dataLoader);
+  final holyWeekHymns = await getHymnsForSeason("passion", context.dataLoader);
+  ferialReadings.hymn = [...?ferialReadings.hymn, ...holyWeekHymns];
   return ferialReadings;
 }
 
@@ -165,6 +170,7 @@ Future<Readings> _resolveEaster(CelebrationContext context) async {
   Readings ferialReadings = await readingsExtract(
       '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader);
 
-  ferialReadings.hymn = await getHymnsForSeason("easter", context.dataLoader);
+  final easterHymns = await getHymnsForSeason("easter", context.dataLoader);
+  ferialReadings.hymn = [...?ferialReadings.hymn, ...easterHymns];
   return ferialReadings;
 }

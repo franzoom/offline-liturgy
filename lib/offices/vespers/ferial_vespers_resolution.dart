@@ -45,6 +45,8 @@ Future<Vespers> _resolveOrdinaryTime(
     ferialVespers.overlayWith(auxData);
   }
 
+  final otHymns = await getHymnsForSeason("ot", context.dataLoader);
+  ferialVespers.hymn = [...?ferialVespers.hymn, ...otHymns];
   return ferialVespers;
 }
 
@@ -102,7 +104,8 @@ Future<Vespers> _resolveAdvent(
     }
   }
 
-  ferialVespers.hymn = await getHymnsForSeason("advent", dataLoader);
+  final adventHymns = await getHymnsForSeason("advent", dataLoader);
+  ferialVespers.hymn = [...?ferialVespers.hymn, ...adventHymns];
   return ferialVespers;
 }
 
@@ -142,7 +145,8 @@ Future<Vespers> _resolveChristmas(
     hymnSeason = "after_epiphany";
   }
 
-  ferialVespers.hymn = await getHymnsForSeason(hymnSeason, dataLoader);
+  final christmasHymns = await getHymnsForSeason(hymnSeason, dataLoader);
+  ferialVespers.hymn = [...?ferialVespers.hymn, ...christmasHymns];
   return ferialVespers;
 }
 
@@ -157,8 +161,8 @@ Future<Vespers> _resolveLent(
       section: section);
 
   final String hymnKey = week < 5 ? "lent" : "passion";
-  ferialVespers.hymn = await getHymnsForSeason(hymnKey, context.dataLoader);
-
+  final lentHymns = await getHymnsForSeason(hymnKey, context.dataLoader);
+  ferialVespers.hymn = [...?ferialVespers.hymn, ...lentHymns];
   return ferialVespers;
 }
 
@@ -169,7 +173,8 @@ Future<Vespers> _resolveHolyWeek(
   Vespers ferialVespers = await vespersExtract(
       '$ferialFilePath/$code.yaml', context.dataLoader,
       section: section);
-  ferialVespers.hymn = await getHymnsForSeason("passion", context.dataLoader);
+  final holyWeekHymns = await getHymnsForSeason("passion", context.dataLoader);
+  ferialVespers.hymn = [...?ferialVespers.hymn, ...holyWeekHymns];
   return ferialVespers;
 }
 
@@ -180,6 +185,7 @@ Future<Vespers> _resolveEaster(
       '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader,
       section: section);
 
-  ferialVespers.hymn = await getHymnsForSeason("easter", context.dataLoader);
+  final easterHymns = await getHymnsForSeason("easter", context.dataLoader);
+  ferialVespers.hymn = [...?ferialVespers.hymn, ...easterHymns];
   return ferialVespers;
 }

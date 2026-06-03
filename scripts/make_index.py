@@ -91,11 +91,11 @@ def main() -> None:
             print(f"WARNING: {source_dir} not found, skipping.", file=sys.stderr)
             continue
 
-        files = sorted(source_dir.glob("*.yaml"))
+        files = sorted(source_dir.rglob("*.yaml"))
         print(f"{dir_name}/: {len(files)} files")
 
         for path in files:
-            key = path.stem
+            key = str(path.relative_to(source_dir).with_suffix(""))
             total += 1
             entry = extract_entry(path, dir_name)
             if entry is None:

@@ -3,6 +3,7 @@ library;
 
 import '../tools/data_loader.dart';
 import '../assets/libraries/french_liturgy_labels.dart';
+import 'calendar_class.dart' show LocationOrigin;
 import 'psalms_class.dart';
 import 'hymns_class.dart';
 
@@ -232,8 +233,8 @@ class CelebrationContext {
   final Map<String, String> commonTitles; // code -> display title for commons
   final String? massName; // name of the Mass (e.g. "Messe du jour"), mass only
   final bool showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
-  // French name of the location that added this feast; null = Roman calendar
-  final String? celebrationOrigin;
+  // Location that added this feast; null = Roman calendar
+  final LocationOrigin? celebrationOrigin;
 
   const CelebrationContext({
     this.celebrationType,
@@ -279,10 +280,11 @@ class CelebrationContext {
   String get celebrationDisplayLabel {
     if (celebrationCode == 'commemoration_of_all_the_faithful_departed') return '';
     final baseLabel = getCelebrationTypeLabel(precedence ?? 13);
-    if (baseLabel.isEmpty || celebrationOrigin == null) return baseLabel;
+    final origin = celebrationOrigin;
+    if (baseLabel.isEmpty || origin == null) return baseLabel;
     final inner =
         baseLabel.replaceAll('(', '').replaceAll(')', '').trim().toLowerCase();
-    return '($celebrationOrigin : $inner)';
+    return '(${origin.name} : $inner)';
   }
 
   /// Creates a copy of this context with the given fields replaced
@@ -306,7 +308,7 @@ class CelebrationContext {
     Map<String, String>? commonTitles,
     String? massName,
     bool? showImprecatoryVerses,
-    String? celebrationOrigin,
+    LocationOrigin? celebrationOrigin,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,

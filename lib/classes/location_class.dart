@@ -33,7 +33,6 @@ class LocationFeast {
   final int? month;
   final int? day;
   final int? precedence;
-  final bool suppress;
   final String? relativeTo;
   final int? shift;
 
@@ -42,7 +41,6 @@ class LocationFeast {
     this.month,
     this.day,
     this.precedence,
-    this.suppress = false,
     this.relativeTo,
     this.shift,
   });
@@ -54,7 +52,6 @@ class LocationFeast {
       month: data['month'] as int?,
       day: data['day'] as int?,
       precedence: data['precedence'] as int?,
-      suppress: data['suppress'] as bool? ?? false,
       relativeTo: data['relativeTo'] as String?,
       shift: data['shift'] as int?,
     );
@@ -67,6 +64,7 @@ class Location {
   final LocationGeography geography;
   final String? parent;
   final String frenchName;
+  final String frenchLocative;
   final String? epiphanyDate;
   final String? ascensionDate;
   final List<LocationFeast> feasts;
@@ -78,6 +76,7 @@ class Location {
     required this.geography,
     this.parent,
     required this.frenchName,
+    required this.frenchLocative,
     this.epiphanyDate,
     this.ascensionDate,
     required this.feasts,
@@ -100,6 +99,7 @@ class Location {
       geography: LocationGeography.fromString(doc['geography'] as String),
       parent: doc['parent'] as String?,
       frenchName: doc['frenchName'] as String,
+      frenchLocative: doc['frenchLocative'] as String? ?? '',
       epiphanyDate: doc['epiphanyDate'] as String?,
       ascensionDate: doc['ascensionDate'] as String?,
       feasts: parseSection('feasts'),
@@ -123,22 +123,24 @@ class Location {
       return (!d.isBefore(beginYear) && d.isBefore(endYear)) ? d : null;
     }
 
+    String prefixed(String key) => '$id/$key';
+
     for (final feast in feasts) {
-      if (feast.suppress) {
-        calendar.removeFeastFromCalendar(feast.key);
-      } else if (feast.relativeTo != null) {
+      if (feast.relativeTo != null) {
         final baseDate = liturgicalMainFeasts[feast.relativeTo];
         if (baseDate != null) {
           final shift = feast.shift ?? 0;
           final d = baseDate.shift(shift);
-          calendar.addItemRelatedToFeast(baseDate, shift, feast.precedence!, feast.key);
-          calendar.setFeastOrigin(d, feast.key, frenchName);
+          final key = prefixed(feast.key);
+          calendar.addItemRelatedToFeast(baseDate, shift, feast.precedence!, key);
+          calendar.setFeastOrigin(d, key, frenchName, frenchLocative);
         }
       } else {
         final d = resolveDate(feast);
         if (d != null) {
-          calendar.addItemToDay(d, feast.precedence!, feast.key);
-          calendar.setFeastOrigin(d, feast.key, frenchName);
+          final key = prefixed(feast.key);
+          calendar.addItemToDay(d, feast.precedence!, key);
+          calendar.setFeastOrigin(d, key, frenchName, frenchLocative);
         }
       }
     }
@@ -148,7 +150,7 @@ class Location {
       if (d != null) {
         calendar.moveItemToDateInRange(
             feast.key, d, feast.precedence!, beginYear, endYear);
-        calendar.setFeastOrigin(d, feast.key, frenchName);
+        calendar.setFeastOrigin(d, feast.key, frenchName, frenchLocative);
       }
     }
   }

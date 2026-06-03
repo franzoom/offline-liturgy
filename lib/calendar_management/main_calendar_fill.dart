@@ -500,7 +500,7 @@ void _fillFixedSolemnities(
 
   for (final MapEntry(:key, :value) in solemnities.entries) {
     if (feasts.containsKey(key)) {
-      calendar.addItemToDay(feasts[key]!, value, key.toLowerCase());
+      calendar.addItemToDay(feasts[key]!, value, 'roman/${key.toLowerCase()}');
     }
   }
 
@@ -510,23 +510,23 @@ void _fillFixedSolemnities(
     orElse: () => '',
   );
   if (annunciationKey.isNotEmpty) {
-    calendar.addItemToDay(feasts[annunciationKey]!, 3, annunciationKey);
+    calendar.addItemToDay(feasts[annunciationKey]!, 3, 'roman/$annunciationKey');
   }
 
   calendar.addItemToDay(
-      feasts['saint_pieter_and_saint_paul']!, 3, 'saint_pieter_and_saint_paul');
+      feasts['saint_pieter_and_saint_paul']!, 3, 'roman/saint_pieter_and_saint_paul');
   calendar.addItemToDay(
-      feasts['saint_john_the_baptist']!, 3, 'saint_john_the_baptist');
-  calendar.addItemToDay(DateTime(year, 8, 6), 3, 'transfiguration_of_the_lord');
+      feasts['saint_john_the_baptist']!, 3, 'roman/saint_john_the_baptist');
+  calendar.addItemToDay(DateTime(year, 8, 6), 3, 'roman/transfiguration_of_the_lord');
   calendar.addItemToDay(
-      DateTime(year, 8, 15), 3, 'assumption_of_the_blessed_virgin_mary');
-  calendar.addItemToDay(DateTime(year, 11, 1), 3, 'all_saints');
+      DateTime(year, 8, 15), 3, 'roman/assumption_of_the_blessed_virgin_mary');
+  calendar.addItemToDay(DateTime(year, 11, 1), 3, 'roman/all_saints');
   calendar.addItemToDay(
-      DateTime(year, 11, 2), 3, 'commemoration_of_all_the_faithful_departed');
+      DateTime(year, 11, 2), 3, 'roman/commemoration_of_all_the_faithful_departed');
 
   // Specific relations
   calendar.addItemRelatedToFeast(
-      feasts['SACRED_HEART']!, 1, 10, 'immaculate_heart_of_mary');
+      feasts['SACRED_HEART']!, 1, 10, 'roman/immaculate_heart_of_mary');
   calendar.addItemRelatedToFeast(
-      feasts['PENTECOST']!, 1, 10, 'mary_mother_of_the_church');
+      feasts['PENTECOST']!, 1, 10, 'roman/mary_mother_of_the_church');
 }

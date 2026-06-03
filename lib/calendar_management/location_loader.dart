@@ -118,7 +118,7 @@ void applyCommonFeastsToCalendar(
       feastDate = DateTime(prevYear, feast.month!, feast.day!);
     }
     if (!feastDate.isBefore(beginYear) && feastDate.isBefore(endYear)) {
-      calendar.addItemToDay(feastDate, feast.precedence!, feast.key);
+      calendar.addItemToDay(feastDate, feast.precedence!, 'roman/${feast.key}');
     }
   }
 }

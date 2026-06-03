@@ -210,7 +210,7 @@ class Calendar {
         LocationOrigin(name: name, locative: locative);
   }
 
-  /// Removes a feast by name from all dates in the calendar.
+  /// Removes a feast by exact name from all dates in the calendar.
   void removeFeastFromCalendar(String feastName) {
     for (final dayContent in calendarData.values) {
       for (final entry in dayContent.feastList.entries.toList()) {
@@ -276,8 +276,9 @@ class Calendar {
       if (date.isBefore(beginYear) || !date.isBefore(endYear)) continue;
       for (final feastEntry in entry.value.feastList.entries) {
         final list = feastEntry.value;
+        final base = _baseName(feastName);
         for (int i = 0; i < list.length; i++) {
-          if (list[i] == feastName) {
+          if (_baseName(list[i]) == base) {
             oldDate = date;
             oldPrecedence = feastEntry.key;
             oldIndex = i;

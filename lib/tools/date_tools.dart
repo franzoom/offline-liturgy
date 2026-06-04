@@ -113,6 +113,7 @@ String ferialNameResolution(String ferialCode) {
       dayNumber > 6) {
     return ferialCode; // Return original code if parsing failed
   }
+  // Handle special cases for Lent and Advent (e.g. with week 0 of Lent, or 'advent-17_3_5' for 17 to 24 December)
   final liturgicalTimeParts = liturgicalTime.split('-');
   final liturgicalTimeEssential = liturgicalTimeParts[0];
   final int? dayNumberEssential = liturgicalTimeParts.length > 1

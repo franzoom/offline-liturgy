@@ -247,7 +247,8 @@ Future<List<CelebrationContext>> detectCelebrations(
         celebrationTitle = yamlData.title!;
         celebrationGlobalName = yamlData.title!;
         if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
-          celebrationGlobalName += ', ${yamlData.subtitle}';
+          final sub = yamlData.subtitle!;
+          celebrationGlobalName += ', ${sub[0].toLowerCase()}${sub.substring(1)}';
         }
       }
     }

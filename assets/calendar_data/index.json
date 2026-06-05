@@ -1,78 +1,7 @@
 {
-  "advent_17": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "17 décembre"
-  },
-  "advent_18": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "18 décembre"
-  },
-  "advent_19": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "19 décembre"
-  },
   "advent_1_0": {
     "dir": "ferial_days",
     "title": "Premier Dimanche de l’Avent"
-  },
-  "advent_20": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "20 décembre"
-  },
-  "advent_21": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "21 décembre"
-  },
-  "advent_22": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "22 décembre"
-  },
-  "advent_23": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "23 décembre"
-  },
-  "advent_24": {
-    "color": "violet",
-    "dir": "special_days",
-    "title": "24 décembre"
-  },
-  "all_saints": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Tous les Saints"
-  },
-  "annunciation-easter": {
-    "color": "white",
-    "commons": [
-      "virgin-mary"
-    ],
-    "dir": "special_days",
-    "title": "Annonciation du Seigneur"
-  },
-  "annunciation-lent": {
-    "color": "white",
-    "commons": [
-      "virgin-mary"
-    ],
-    "dir": "special_days",
-    "title": "Annonciation du Seigneur"
-  },
-  "ascension": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Ascension du Seigneur"
-  },
-  "baptism": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Baptême du Seigneur"
   },
   "belgium/amand_bishop": {
     "color": "white",
@@ -390,104 +319,12 @@
     "dir": "sanctoral",
     "title": "Bienheureuse Vierge Marie du Bon Conseil"
   },
-  "christ_king": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Le Christ Roi de l’univers"
-  },
-  "christmas-ferial_before_epiphany_2": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "2 janvier"
-  },
-  "christmas-ferial_before_epiphany_3": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "3 janvier (avant l’Épiphanie)"
-  },
-  "christmas-ferial_before_epiphany_4": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "4 janvier (avant l’Épiphanie)"
-  },
-  "christmas-ferial_before_epiphany_5": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "5 janvier (avant l’Épiphanie)"
-  },
-  "christmas-ferial_before_epiphany_6": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "6 janvier (avant l’Épiphanie)"
-  },
-  "christmas-ferial_before_epiphany_7": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "7 janvier (avant l’Épiphanie)"
-  },
-  "christmas_26": {
-    "color": "red",
-    "dir": "special_days",
-    "title": "Saint Étienne, premier martyr"
-  },
-  "christmas_27": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Saint Jean, Apôtre et évangéliste"
-  },
-  "christmas_28": {
-    "color": "red",
-    "dir": "special_days",
-    "title": "Les saints Innocents, martyrs"
-  },
-  "christmas_29": {
-    "color": "white",
-    "commons": [
-      "christmas"
-    ],
-    "dir": "special_days",
-    "title": "5ème jour dans l’octave de la Nativité"
-  },
-  "christmas_30": {
-    "color": "white",
-    "commons": [
-      "christmas"
-    ],
-    "dir": "special_days",
-    "title": "6ème jour dans l’octave de la Nativité"
-  },
-  "christmas_31": {
-    "color": "white",
-    "commons": [
-      "christmas"
-    ],
-    "dir": "special_days",
-    "title": "7ème jour dans l’octave de la Nativité"
-  },
-  "commemoration_of_all_the_faithful_departed": {
-    "color": "violet",
-    "commons": [
-      "trespassed"
-    ],
-    "dir": "special_days",
-    "title": "Commémoraison de tous les fidèles défunts"
-  },
-  "corpus_domini": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Le Saint Sacrement du Corps et du Sang du Christ"
-  },
   "easter_1_0": {
     "commons": [
       "easter"
     ],
     "dir": "ferial_days",
     "title": "Dimanche de Pâques"
-  },
-  "epiphany": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Épiphanie du Seigneur"
   },
   "europe/benedict_of_nursia_abbot": {
     "color": "white",
@@ -662,16 +499,6 @@
     "dir": "sanctoral",
     "title": "Saint Vincent, diacre et martyr, patron secondaire du diocèse"
   },
-  "holy_family": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "La Sainte Famille"
-  },
-  "holy_trinity": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "La Sainte Trinité"
-  },
   "lent_0_3": {
     "dir": "ferial_days",
     "title": "Mercredi des Cendres"
@@ -845,6 +672,7 @@
     "title": "Saint Jean-Louis Bonnard"
   },
   "lyon/jean_pierre_neel_priest": {
+    "color": "red",
     "commons": [
       "martyr",
       "pastors_missionary"
@@ -972,22 +800,6 @@
     "dir": "sanctoral",
     "title": "Saint Viateur"
   },
-  "mary_mother_of_god": {
-    "color": "white",
-    "commons": [
-      "virgin-mary"
-    ],
-    "dir": "special_days",
-    "title": "Sainte Marie, Mère de Dieu"
-  },
-  "mary_mother_of_the_church": {
-    "color": "white",
-    "commons": [
-      "virgin-mary"
-    ],
-    "dir": "special_days",
-    "title": "Bienheureuse Vierge Marie, Mère de l’Église"
-  },
   "monaco/devota_of_corsica_virgin_martyr": {
     "color": "red",
     "commons": [
@@ -1019,11 +831,6 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Pons"
-  },
-  "nativity": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Nativité du Seigneur"
   },
   "north-africa/celerina_and_compagnions_martyrs": {
     "color": "red",
@@ -1087,11 +894,6 @@
     "dir": "sanctoral",
     "title": "Sainte Geneviève, patronne du diocèse de Paris"
   },
-  "pentecost": {
-    "color": "red",
-    "dir": "special_days",
-    "title": "Pentecôte"
-  },
   "roman/adalbert_of_prague_bishop": {
     "color": "red",
     "commons": [
@@ -1100,6 +902,46 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Adalbert"
+  },
+  "roman/advent_17": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "17 décembre"
+  },
+  "roman/advent_18": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "18 décembre"
+  },
+  "roman/advent_19": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "19 décembre"
+  },
+  "roman/advent_20": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "20 décembre"
+  },
+  "roman/advent_21": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "21 décembre"
+  },
+  "roman/advent_22": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "22 décembre"
+  },
+  "roman/advent_23": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "23 décembre"
+  },
+  "roman/advent_24": {
+    "color": "violet",
+    "dir": "sanctoral",
+    "title": "24 décembre"
   },
   "roman/agatha_of_sicily_virgin": {
     "color": "red",
@@ -1127,6 +969,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Albert le Grand"
+  },
+  "roman/all_saints": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Tous les Saints"
   },
   "roman/aloysius_gonzaga_religious": {
     "color": "white",
@@ -1185,6 +1032,22 @@
     ],
     "dir": "sanctoral",
     "title": "Sainte Angèle Merici"
+  },
+  "roman/annunciation-easter": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Annonciation du Seigneur"
+  },
+  "roman/annunciation-lent": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Annonciation du Seigneur"
   },
   "roman/anselm_of_canterbury_bishop": {
     "color": "white",
@@ -1248,6 +1111,11 @@
     "dir": "sanctoral",
     "title": "Saint Apollinaire"
   },
+  "roman/ascension": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Ascension du Seigneur"
+  },
   "roman/assumption_of_the_blessed_virgin_mary": {
     "color": "white",
     "commons": [
@@ -1289,6 +1157,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Augustin Zhao Rong, prêtre, et ses compagnons"
+  },
+  "roman/baptism": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Baptême du Seigneur"
   },
   "roman/barnabas_apostle": {
     "color": "red",
@@ -1474,6 +1347,80 @@
     "dir": "sanctoral",
     "title": "Saint Charles Lwanga et ses compagnons"
   },
+  "roman/christ_king": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Le Christ Roi de l’univers"
+  },
+  "roman/christmas-ferial_before_epiphany_2": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "2 janvier"
+  },
+  "roman/christmas-ferial_before_epiphany_3": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "3 janvier (avant l’Épiphanie)"
+  },
+  "roman/christmas-ferial_before_epiphany_4": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "4 janvier (avant l’Épiphanie)"
+  },
+  "roman/christmas-ferial_before_epiphany_5": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "5 janvier (avant l’Épiphanie)"
+  },
+  "roman/christmas-ferial_before_epiphany_6": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "6 janvier (avant l’Épiphanie)"
+  },
+  "roman/christmas-ferial_before_epiphany_7": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "7 janvier (avant l’Épiphanie)"
+  },
+  "roman/christmas_26": {
+    "color": "red",
+    "dir": "sanctoral",
+    "title": "Saint Étienne, premier martyr"
+  },
+  "roman/christmas_27": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Saint Jean, Apôtre et évangéliste"
+  },
+  "roman/christmas_28": {
+    "color": "red",
+    "dir": "sanctoral",
+    "title": "Les saints Innocents, martyrs"
+  },
+  "roman/christmas_29": {
+    "color": "white",
+    "commons": [
+      "christmas"
+    ],
+    "dir": "sanctoral",
+    "title": "5ème jour dans l’octave de la Nativité"
+  },
+  "roman/christmas_30": {
+    "color": "white",
+    "commons": [
+      "christmas"
+    ],
+    "dir": "sanctoral",
+    "title": "6ème jour dans l’octave de la Nativité"
+  },
+  "roman/christmas_31": {
+    "color": "white",
+    "commons": [
+      "christmas"
+    ],
+    "dir": "sanctoral",
+    "title": "7ème jour dans l’octave de la Nativité"
+  },
   "roman/christopher_magallanes_priest_and_companions_martyrs": {
     "color": "red",
     "commons": [
@@ -1509,6 +1456,14 @@
     "dir": "sanctoral",
     "title": "Saint Colomban"
   },
+  "roman/commemoration_of_all_the_faithful_departed": {
+    "color": "violet",
+    "commons": [
+      "trespassed"
+    ],
+    "dir": "sanctoral",
+    "title": "Commémoraison de tous les fidèles défunts"
+  },
   "roman/conversion_of_saint_paul_the_apostle": {
     "color": "white",
     "commons": [
@@ -1525,6 +1480,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Corneille, pape, et saint Cyprien, évêque"
+  },
+  "roman/corpus_domini": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Le Saint Sacrement du Corps et du Sang du Christ"
   },
   "roman/cosmas_of_cilicia_and_damian_of_cilicia_martyrs": {
     "color": "red",
@@ -1641,6 +1601,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Éphrem"
+  },
+  "roman/epiphany": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Épiphanie du Seigneur"
   },
   "roman/eusebius_of_vercelli_bishop": {
     "color": "white",
@@ -1807,10 +1772,20 @@
     "dir": "sanctoral",
     "title": "Sainte Hildegarde de Bingen"
   },
+  "roman/holy_family": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "La Sainte Famille"
+  },
   "roman/holy_guardian_angels": {
     "color": "white",
     "dir": "sanctoral",
     "title": "Saints Anges gardiens"
+  },
+  "roman/holy_trinity": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "La Sainte Trinité"
   },
   "roman/ignatius_of_antioch_bishop": {
     "color": "red",
@@ -2081,7 +2056,7 @@
       "pastors"
     ],
     "dir": "sanctoral",
-    "title": "Saint Joseph de Calazanz"
+    "title": "Saint Joseph de Calasanz"
   },
   "roman/joseph_the_worker": {
     "color": "white",
@@ -2273,6 +2248,22 @@
     "dir": "sanctoral",
     "title": "Sainte Marie-Madeleine de Pazzi"
   },
+  "roman/mary_mother_of_god": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Marie, Mère de Dieu"
+  },
+  "roman/mary_mother_of_the_church": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie, Mère de l’Église"
+  },
   "roman/matthew_apostle": {
     "color": "red",
     "commons": [
@@ -2323,6 +2314,11 @@
     ],
     "dir": "sanctoral",
     "title": "Le Saint Nom de Marie"
+  },
+  "roman/nativity": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Nativité du Seigneur"
   },
   "roman/nativity_of_the_blessed_virgin_mary": {
     "color": "white",
@@ -2468,6 +2464,11 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Paulin de Nole"
+  },
+  "roman/pentecost": {
+    "color": "red",
+    "dir": "sanctoral",
+    "title": "Pentecôte"
   },
   "roman/perpetua_of_carthage_and_felicity_of_carthage_martyrs": {
     "color": "red",
@@ -2655,6 +2656,26 @@
     "dir": "sanctoral",
     "title": "Sainte Rose de Lima"
   },
+  "roman/sacred_heart": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Le Sacré Cœur de Jésus"
+  },
+  "roman/saint_john_the_baptist": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Nativité de Saint Jean-Baptiste"
+  },
+  "roman/saint_joseph": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Saint Joseph, époux de la Vierge Marie"
+  },
+  "roman/saint_pieter_and_saint_paul": {
+    "color": "red",
+    "dir": "sanctoral",
+    "title": "Saint Pierre et saint Paul"
+  },
   "roman/scholastica_of_nursia_virgin": {
     "color": "white",
     "commons": [
@@ -2796,6 +2817,11 @@
     "dir": "sanctoral",
     "title": "Saint Timothée et Saint Tite"
   },
+  "roman/transfiguration_of_the_lord": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "La Transfiguration du Seigneur"
+  },
   "roman/turibius_of_mogrovejo_bishop": {
     "color": "white",
     "commons": [
@@ -2829,6 +2855,14 @@
     "dir": "sanctoral",
     "title": "Saint Vincent"
   },
+  "roman/virgin-mary-memory": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Mémoire de Vierge Marie (le samedi)"
+  },
   "roman/visitation_of_mary": {
     "color": "white",
     "commons": [
@@ -2844,38 +2878,5 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Venceslas"
-  },
-  "sacred_heart": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Le Sacré Cœur de Jésus"
-  },
-  "saint_john_the_baptist": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Nativité de Saint Jean-Baptiste"
-  },
-  "saint_joseph": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "Saint Joseph, époux de la Vierge Marie"
-  },
-  "saint_pieter_and_saint_paul": {
-    "color": "red",
-    "dir": "special_days",
-    "title": "Saint Pierre et saint Paul"
-  },
-  "transfiguration_of_the_lord": {
-    "color": "white",
-    "dir": "special_days",
-    "title": "La Transfiguration du Seigneur"
-  },
-  "virgin-mary-memory": {
-    "color": "white",
-    "commons": [
-      "virgin-mary"
-    ],
-    "dir": "special_days",
-    "title": "Mémoire de Vierge Marie (le samedi)"
   }
 }

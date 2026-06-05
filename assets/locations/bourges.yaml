@@ -1,0 +1,134 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse de Bourges
+frenchLocative: dans l'archidiocèse de Bourges
+
+feasts:
+  angela_of_foligno_religious:
+    month: 1
+    day: 4
+    precedence: 12
+  honorius_of_buzancais_martyr:
+    month: 1
+    day: 9
+    precedence: 12
+  william_of_donjeon_bishop:
+    month: 1
+    day: 10
+    precedence: 10
+  sulpicius_the_pious_bishop:
+    month: 1
+    day: 18
+    precedence: 10
+  sulpitius_severus_bishop:
+    month: 1
+    day: 29
+    precedence: 12
+  joan_of_france_religious:
+    month: 2
+    day: 4
+    precedence: 10
+  amandus_of_maastricht_bishop:
+    month: 2
+    day: 7
+    precedence: 12
+  chartier_of_berry_priest:
+    month: 2
+    day: 13
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 5
+    day: 5
+    precedence: 8
+  solange_of_bourges_virgin_and_martyr:
+    month: 5
+    day: 11
+    precedence: 10
+  austregisilus_of_bourges_bishop:
+    month: 5
+    day: 21
+    precedence: 10
+  rodulf_of_bourges_bishop:
+    month: 6
+    day: 22
+    precedence: 12
+  marcellus_and_saint_anastasius_martyrs:
+    month: 7
+    day: 2
+    precedence: 12
+  laurian_of_seville_bishop_and_martyr:
+    month: 7
+    day: 4
+    precedence: 12
+  ursus_of_tours_abbot:
+    month: 7
+    day: 28
+    precedence: 12
+  radegund_of_poitiers_religious:
+    month: 8
+    day: 13
+    precedence: 12
+  priest_martyrs_of_the_ships_of_rochefort:
+    month: 8
+    day: 18
+    precedence: 12
+  joan_elizabeth_bichier_des_ages_religious:
+    month: 8
+    day: 26
+    precedence: 12
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 10
+  sylvanus_of_berry_hermit:
+    month: 9
+    day: 22
+    precedence: 12
+  montaine_saint_severe_and_saint_bertoare_virgins:
+    month: 10
+    day: 22
+    precedence: 12
+  montaine_saint_savare_and_saint_bertoaire_virgins:
+    month: 10
+    day: 22
+    precedence: 12
+  genitorus_and_companions_martyrs:
+    month: 10
+    day: 27
+    precedence: 12
+  romulus_of_bourges_abbot:
+    month: 11
+    day: 6
+    precedence: 12
+  all_holy_archbishops_and_other_saints_of_the_archdiocese:
+    month: 11
+    day: 7
+    precedence: 10
+  ursinus_of_bourges_bishop:
+    month: 11
+    day: 9
+    precedence: 8
+  elizabeth_of_the_trinity_religious:
+    month: 11
+    day: 13
+    precedence: 12
+  justus_saint_leucadus_and_saint_lusor:
+    month: 11
+    day: 16
+    precedence: 12
+  james_of_saxau_hermit:
+    month: 11
+    day: 19
+    precedence: 12
+  sigiramnus_of_longoret_abbot:
+    month: 12
+    day: 5
+    precedence: 12
+
+move:
+  # Moved from 09/11 to 08/11 to avoid conflict with a proper feast
+  the_dedication_of_the_lateran_basilica_in_rome:
+    month: 11
+    day: 8
+    precedence: 8

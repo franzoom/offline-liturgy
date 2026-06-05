@@ -1,0 +1,51 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse d'Angoulême
+frenchLocative: dans le diocèse d'Angoulême
+
+feasts:
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 1
+    day: 28
+    precedence: 8
+  amandus_of_boixe_hermit:
+    month: 3
+    day: 1
+    precedence: 12
+  pierre_aumaitre_priest_and_martyr:
+    month: 4
+    day: 30
+    precedence: 10
+  germerius_of_toulouse_bishop:
+    month: 5
+    day: 16
+    precedence: 12
+  ausonius_of_angouleme_bishop_and_martyr:
+    month: 5
+    day: 22
+    precedence: 8
+  bertrand_of_saint_genesius_bishop_and_martyr:
+    month: 6
+    day: 6
+    precedence: 12
+  salvius_bishop_and_saint_superius_deacon_martyrs:
+    month: 6
+    day: 26
+    precedence: 12
+  martial_of_limoges_bishop:
+    month: 6
+    day: 30
+    precedence: 12
+  cybard_of_angouleme_priest:
+    month: 7
+    day: 1
+    precedence: 10
+  blesseds_jacques_morelle_dupas_and_jean_baptiste_duverneuil_priests_and_martyrs:
+    month: 8
+    day: 18
+    precedence: 12
+  aptonus_of_angouleme_bishop:
+    month: 10
+    day: 26
+    precedence: 10

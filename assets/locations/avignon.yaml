@@ -1,0 +1,99 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse d'Avignon
+frenchLocative: dans l'archidiocèse d'Avignon
+
+feasts:
+  quenin_of_vaison_bishop:
+    month: 2
+    day: 15
+    precedence: 12
+  benezet_of_avignon:
+    month: 4
+    day: 14
+    precedence: 12
+  caesar_de_bus_priest:
+    month: 4
+    day: 15
+    precedence: 10
+  gens_of_beaucet_hermit:
+    month: 5
+    day: 16
+    precedence: 12
+  eutropius_of_orange_bishop:
+    month: 5
+    day: 27
+    precedence: 10
+  pierre_of_luxembourg_bishop:
+    month: 7
+    day: 2
+    precedence: 10
+  religious_of_orange_martyrs:
+    month: 7
+    day: 9
+    precedence: 10
+  anne_mother_of_the_blessed_virgin_mary:
+    month: 7
+    day: 26
+    precedence: 10
+  rusticula_virgin:
+    month: 8
+    day: 12
+    precedence: 12
+  roch:
+    month: 8
+    day: 16
+    precedence: 12
+  caesarius_of_arles_bishop:
+    month: 8
+    day: 26
+    precedence: 10
+  agricola_of_avignon_bishop:
+    month: 9
+    day: 1
+    precedence: 10
+  jean_capeau_priest_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  castor_of_apt_bishop:
+    month: 9
+    day: 25
+    precedence: 10
+  elzear_of_sabran_and_blessed_delphine_of_glandeves_spouses:
+    month: 9
+    day: 26
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 8
+    precedence: 8
+  florentius_of_orange_bishop:
+    month: 10
+    day: 16
+    precedence: 10
+  urban_v_pope:
+    month: 11
+    day: 6
+    precedence: 10
+  stephen_of_apt_bishop:
+    month: 11
+    day: 7
+    precedence: 12
+  all_saints_of_the_archdiocese:
+    month: 11
+    day: 8
+    precedence: 10
+  veranus_of_cavaillon_bishop:
+    month: 11
+    day: 13
+    precedence: 10
+  rufus_of_avignon:
+    month: 11
+    day: 14
+    precedence: 12
+  siffredus_of_carpentras_bishop:
+    month: 11
+    day: 27
+    precedence: 10

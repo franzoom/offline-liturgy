@@ -1,0 +1,94 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Digne
+frenchLocative: dans le diocèse de Digne
+
+feasts:
+  vincent_and_saint_domninus_bishops:
+    month: 1
+    day: 22
+    precedence: 4
+  may_of_bodon_abbot:
+    month: 1
+    day: 27
+    precedence: 12
+  john_of_matha_priest:
+    month: 2
+    day: 8
+    precedence: 10
+  marcellinus_of_embrun_bishop:
+    month: 4
+    day: 20
+    precedence: 12
+  mayeul_of_cluny_abbot:
+    month: 5
+    day: 11
+    precedence: 12
+  pontius_of_cimiez_martyr:
+    month: 5
+    day: 15
+    precedence: 12
+  eugene_de_mazenod_bishop:
+    month: 5
+    day: 21
+    precedence: 12
+  bevons_of_voghera:
+    month: 5
+    day: 22
+    precedence: 12
+  ursus_of_aosta_priest:
+    month: 6
+    day: 17
+    precedence: 12
+  consorce_and_saint_tulle_virgins:
+    month: 6
+    day: 22
+    precedence: 12
+  therese_consolin_and_companions_martyrs:
+    month: 7
+    day: 9
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 7
+    day: 15
+    precedence: 8
+  donatus_of_sisteron_priest:
+    month: 8
+    day: 18
+    precedence: 12
+  douceline_virgin_and_blessed_hugh_of_digne_religious:
+    month: 9
+    day: 1
+    precedence: 12
+  blesseds_pierre_francois_joseph_thomas_and_jules_honore_pazery_de_thorame_priests_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 12
+  jacques_chastan_priest_and_martyr:
+    month: 9
+    day: 22
+    precedence: 12
+  elzear_of_sabran_and_blessed_delphine_of_glandeves_spouses:
+    month: 9
+    day: 26
+    precedence: 12
+  faustus_of_riez_bishop:
+    month: 9
+    day: 28
+    precedence: 12
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  maximus_of_riez_bishop:
+    month: 11
+    day: 27
+    precedence: 12
+
+move:
+  # Moved from 15/07 to 17/07 to avoid conflict with a proper feast
+  bonaventure_bishop_and_doctor_of_the_church:
+    month: 7
+    day: 17
+    precedence: 10

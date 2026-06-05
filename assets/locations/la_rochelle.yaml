@@ -1,0 +1,83 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de La Rochelle
+frenchLocative: dans le diocèse de La Rochelle
+
+feasts:
+  vasius_martyr:
+    month: 4
+    day: 6
+    precedence: 12
+  louis_grignion_de_montfort_priest:
+    month: 4
+    day: 28
+    precedence: 10
+  eutropius_of_orange_bishop:
+    month: 4
+    day: 30
+    precedence: 8
+  marie_louise_trichet_religious:
+    month: 5
+    day: 7
+    precedence: 10
+  estelle_of_saintes_virgin_and_martyr:
+    month: 5
+    day: 12
+    precedence: 12
+  ausonius_of_angouleme_bishop_and_martyr:
+    month: 5
+    day: 22
+    precedence: 12
+  dizan_of_saintes_bishop:
+    month: 5
+    day: 25
+    precedence: 12
+  martial_of_limoges_bishop:
+    month: 6
+    day: 30
+    precedence: 12
+  leontius_of_saintes_bishop:
+    month: 7
+    day: 10
+    precedence: 12
+  jean_baptiste_souzy_and_companions_martyrs:
+    month: 8
+    day: 18
+    precedence: 10
+  louis:
+    month: 8
+    day: 25
+    precedence: 10
+  ambrose_and_saint_vivianus_bishops:
+    month: 8
+    day: 26
+    precedence: 10
+  pierre_louis_de_la_rochefoucauld_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  palladius_of_saintes_bishop:
+    month: 9
+    day: 6
+    precedence: 10
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  leodegar_of_autun_bishop_and_martyr:
+    month: 11
+    day: 13
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 11
+    day: 18
+    precedence: 8
+  trojanus_of_saintes_abbot:
+    month: 12
+    day: 1
+    precedence: 12
+  martin_and_saint_eutropius_abbots:
+    month: 12
+    day: 9
+    precedence: 12

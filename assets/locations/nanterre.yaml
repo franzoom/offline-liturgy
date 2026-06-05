@@ -1,0 +1,66 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Nanterre
+frenchLocative: dans le diocèse de Nanterre
+
+feasts:
+  genevieve_virgin:
+    month: 1
+    day: 3
+    precedence: 4
+  isabelle_de_france_virgin:
+    month: 2
+    day: 24
+    precedence: 12
+  daniel_brottier_priest:
+    month: 2
+    day: 28
+    precedence: 12
+  marie_of_the_incarnation_acarie_religious:
+    month: 4
+    day: 18
+    precedence: 10
+  our_lady_of_good_deliverance:
+    month: 7
+    day: 18
+    precedence: 12
+  germanus_of_auxerre_bishop:
+    month: 7
+    day: 30
+    precedence: 12
+  louis:
+    month: 8
+    day: 25
+    precedence: 10
+  martyrs_of_paris:
+    month: 9
+    day: 2
+    precedence: 12
+  clodoald_priest:
+    month: 9
+    day: 7
+    precedence: 8
+  denis_of_paris_bishop_and_martyr:
+    month: 10
+    day: 9
+    precedence: 8
+  our_lady_of_boulogne:
+    month: 10
+    day: 22
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 12
+    day: 3
+    precedence: 8
+
+move:
+  # Moved from 25/08 to 26/08 to avoid conflict with a proper feast
+  joseph_calasanz_priest:
+    month: 8
+    day: 26
+    precedence: 12

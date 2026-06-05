@@ -1,0 +1,47 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Mende
+frenchLocative: dans le diocèse de Mende
+
+feasts:
+  firmin_and_the_holy_bishops_of_mende:
+    month: 1
+    day: 14
+    precedence: 10
+  ilpidius_of_brioude_martyr:
+    month: 6
+    day: 16
+    precedence: 12
+  privatus_of_mende_bishop_and_martyr:
+    month: 8
+    day: 21
+    precedence: 8
+  fredardus_of_mende_bishop:
+    month: 9
+    day: 4
+    precedence: 10
+  veranus_of_vence_bishop:
+    month: 9
+    day: 11
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 10
+    precedence: 8
+  louvent_of_saint_privat_martyr:
+    month: 10
+    day: 22
+    precedence: 10
+  translation_of_the_relics_of_saint_privatus_bishop_and_martyr:
+    month: 10
+    day: 29
+    precedence: 10
+  urban_v_pope:
+    month: 11
+    day: 7
+    precedence: 12
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12

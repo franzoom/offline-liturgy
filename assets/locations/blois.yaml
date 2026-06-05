@@ -1,0 +1,119 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Blois
+frenchLocative: dans le diocèse de Blois
+
+feasts:
+  sulpicius_the_pious_bishop:
+    month: 1
+    day: 18
+    precedence: 10
+  solennus_of_blois_hermit:
+    month: 1
+    day: 19
+    precedence: 12
+  julian_of_le_mans_bishop:
+    month: 1
+    day: 27
+    precedence: 12
+  joan_of_france_religious:
+    month: 2
+    day: 4
+    precedence: 12
+  daniel_brottier_priest:
+    month: 2
+    day: 28
+    precedence: 12
+  deodat_of_blois_abbot:
+    month: 4
+    day: 24
+    precedence: 12
+  marcouf_of_nanteuil_abbot:
+    month: 5
+    day: 1
+    precedence: 12
+  christophe_lebreton_priest_and_companions_martyrs:
+    month: 5
+    day: 8
+    precedence: 12
+  ivo_of_chartres_bishop:
+    month: 5
+    day: 20
+    precedence: 12
+  our_lady_of_the_aydes:
+    month: 5
+    day: 24
+    precedence: 10
+  the_holy_hermits_of_the_diocese:
+    month: 6
+    day: 20
+    precedence: 10
+  all_holy_bishops_of_the_diocese:
+    month: 7
+    day: 1
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 7
+    day: 9
+    precedence: 8
+  viator_of_sologne_hermit:
+    month: 8
+    day: 5
+    precedence: 12
+  agathange_of_vendome_priest_and_martyr:
+    month: 8
+    day: 7
+    precedence: 12
+  radegund_of_poitiers_religious:
+    month: 8
+    day: 13
+    precedence: 12
+  louis:
+    month: 8
+    day: 25
+    precedence: 8
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 10
+  aigulphus_of_lerins_abbot_and_martyr:
+    month: 9
+    day: 4
+    precedence: 12
+  leobinus_of_chartres_bishop:
+    month: 9
+    day: 17
+    precedence: 12
+  arnulf_of_metz_bishop:
+    month: 9
+    day: 19
+    precedence: 12
+  charles_of_blois:
+    month: 9
+    day: 28
+    precedence: 12
+  lomer_of_corbion_abbot:
+    month: 10
+    day: 23
+    precedence: 12
+  eusicius_of_blois_hermit:
+    month: 11
+    day: 27
+    precedence: 12
+  sigiramnus_of_longoret_abbot:
+    month: 12
+    day: 5
+    precedence: 10
+
+move:
+  # Moved from 09/07 to 10/07 to avoid conflict with a proper feast
+  augustine_zhao_rong_priest_and_companions_martyrs:
+    month: 7
+    day: 10
+    precedence: 12
+  # Moved from 25/08 to 26/08 to avoid conflict with a proper feast
+  joseph_calasanz_priest:
+    month: 8
+    day: 26
+    precedence: 12

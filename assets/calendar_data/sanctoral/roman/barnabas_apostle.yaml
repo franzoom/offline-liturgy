@@ -7,8 +7,8 @@ celebration:
   color: red
 
 invitatory:
-  antiphon: |-
-    L’Esprit de Dieu nous a donné les paroles des prophètes. Exultons de joie, alléluia !
+  antiphon:
+  - Exultons de joie, alléluia ! L’Esprit de Dieu nous a donné les paroles des prophètes.
 
 oration:
   - Dieu qui as dit de mettre à part saint Barnabé, cet homme plein de foi et de l’Esprit Saint, pour qu’il porte aux païens le message du salut, fais que l’Évangile du Christ, dont il fut l’Apôtre courageux, soit encore annoncé fidèlement en paroles et en actes.
@@ -35,24 +35,10 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Heureux es-tu, Barnabé, compagnon de Paul, tu as vu la grâce de Dieu à l’œuvre chez les païens, alléluia.
+    common: 
+    - Heureux es-tu, Barnabé, compagnon de Paul, tu as vu la grâce de Dieu à l’œuvre chez les païens, alléluia.
 
 vespers:
   evangelicAntiphon:
-    common: Par les mains de Paul et Barnabé, le Seigneur accomplissait des signes chez les païens.
-
-
-
-
-
-
-
-
-
-
-
-
-
-vespers:
-  evangelicAntiphon:
-    common: Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu.
+    common: 
+    - Par les mains de Paul et Barnabé, le Seigneur accomplissait des signes chez les païens.

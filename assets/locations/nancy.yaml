@@ -1,0 +1,95 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse de Nancy
+frenchLocative: dans l'archidiocèse de Nancy
+
+feasts:
+  alix_le_clerc_virgin:
+    month: 1
+    day: 9
+    precedence: 10
+  vaast_of_arras_bishop:
+    month: 2
+    day: 6
+    precedence: 12
+  paul_miki_and_companions_martyrs:
+    month: 2
+    day: 6
+    precedence: 12
+  jean_de_vandieres_abbot:
+    month: 2
+    day: 26
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 3
+    day: 13
+    precedence: 8
+  gerard_of_toul_bishop:
+    month: 4
+    day: 24
+    precedence: 10
+  augustin_schoeffler_priest_and_martyr:
+    month: 5
+    day: 5
+    precedence: 10
+  our_lady_of_good_hope:
+    month: 5
+    day: 22
+    precedence: 8
+  joseph_gerard_priest:
+    month: 5
+    day: 29
+    precedence: 10
+  joan_of_arc_virgin:
+    month: 5
+    day: 30
+    precedence: 8
+  gervais_brunel_and_companions_martyrs:
+    month: 8
+    day: 18
+    precedence: 12
+  antoine_de_ravinel_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  mansuetus_of_toul_bishop:
+    month: 9
+    day: 4
+    precedence: 8
+  gauzelin_of_toul_bishop:
+    month: 9
+    day: 7
+    precedence: 12
+  our_lady_of_sion:
+    month: 9
+    day: 10
+    precedence: 8
+  aprus_of_toul_bishop:
+    month: 9
+    day: 17
+    precedence: 10
+  karl_of_austria:
+    month: 10
+    day: 21
+    precedence: 12
+  eucharius_martyr:
+    month: 10
+    day: 23
+    precedence: 12
+  margaret_of_lorraine_religious:
+    month: 11
+    day: 3
+    precedence: 10
+  all_saints_of_the_diocese:
+    month: 11
+    day: 5
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+  nicholas_bishop:
+    month: 12
+    day: 7
+    precedence: 4

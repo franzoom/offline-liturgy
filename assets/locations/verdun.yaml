@@ -1,0 +1,69 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Verdun
+frenchLocative: dans le diocèse de Verdun
+
+feasts:
+  alix_le_clerc_virgin:
+    month: 1
+    day: 9
+    precedence: 10
+  airy_and_saint_paul_bishops:
+    month: 2
+    day: 8
+    precedence: 10
+  leo_ix_pope:
+    month: 4
+    day: 19
+    precedence: 10
+  joan_of_arc_virgin:
+    month: 5
+    day: 30
+    precedence: 8
+  jeanne_gerard_and_companions_martyrs:
+    month: 6
+    day: 27
+    precedence: 12
+  pierre_of_luxembourg_bishop:
+    month: 7
+    day: 2
+    precedence: 12
+  saints_wandregisel_godon_and_balderic_religious:
+    month: 7
+    day: 24
+    precedence: 12
+  martyrs_of_the_ships_of_rochefort:
+    month: 8
+    day: 18
+    precedence: 12
+  our_lady_of_the_blessed_valley:
+    month: 9
+    day: 9
+    precedence: 8
+  rodingus_monk:
+    month: 9
+    day: 17
+    precedence: 12
+  sanctinus_of_meaux_and_his_successors_bishops:
+    month: 10
+    day: 12
+    precedence: 8
+  our_lady_of_verdun_mother_of_god:
+    month: 10
+    day: 26
+    precedence: 4
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 11
+    day: 12
+    precedence: 8
+  nicholas_bishop:
+    month: 12
+    day: 6
+    precedence: 8
+move:
+  # Moved from 12/11 to 13/11 to avoid conflict with a proper feast
+  josaphat_bishop_and_martyr:
+    month: 11
+    day: 13
+    precedence: 10

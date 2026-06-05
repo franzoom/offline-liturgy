@@ -1,0 +1,55 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Périgueux
+frenchLocative: dans le diocèse de Périgueux
+
+feasts:
+  alain_de_solminihac_bishop:
+    month: 1
+    day: 3
+    precedence: 12
+  peter_thomas_bishop:
+    month: 1
+    day: 6
+    precedence: 12
+  joseph_chaminade_priest:
+    month: 1
+    day: 22
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 3
+    day: 21
+    precedence: 8
+  geraud_de_sales_pretre:
+    month: 4
+    day: 20
+    precedence: 12
+  sacerdos_of_limoges_bishop:
+    month: 5
+    day: 5
+    precedence: 10
+  marie_celine_of_the_presentation_virgin:
+    month: 5
+    day: 30
+    precedence: 10
+  the_holy_monks_and_abbots_of_perigord_sour_amand_and_vast:
+    month: 7
+    day: 1
+    precedence: 10
+  antoine_auriel_elie_leymarie_francois_mayaudon_and_companions_martyrs:
+    month: 8
+    day: 18
+    precedence: 10
+  blesseds_jean_marie_du_lau_guillaume_delfaud_henri_foucauld_de_pontriand_francois_de_lubersac_armand_chapt_de_rastignac_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 12
+  all_saints_of_the_diocese:
+    month: 11
+    day: 5
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12

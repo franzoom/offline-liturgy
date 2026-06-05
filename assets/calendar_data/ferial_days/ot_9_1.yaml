@@ -12,6 +12,7 @@ readings:
       subtitle: Dieu oublierait-il d’avoir pitié ?
       ref: Jb 29, 1-10; 30, 1.9-23
       content: |-
+        %Pour l’Oriental surtout — mais n’est-ce pas vrai encore pour chacun de nous ? — le scandale de la souffrance est accru lorsqu’elle succède à une période de bonheur. Elle fait alors perdre la face aux yeux du monde et semble même, aux yeux des « honnêtes gens », une sorte de jugement. Il faut toute la foi du chrétien pour y reconnaître une épreuve permise par Dieu.%
         Job reprit le fil de son propos et dit : 
         « Ah, qui me rendra tel que j’étais au temps jadis, aux jours où Dieu me tenait en sa garde, lorsqu’il faisait briller sa lampe sur ma tête et que dans la ténèbre je marchais à sa lumière, tel que j’étais à l’automne de mes jours, quand Dieu était le familier de ma demeure, quand le Puissant était encore avec moi, et que mes garçons m’entouraient, quand je lavais mes pieds dans le lait et que le rocher près de moi ruisselait d’huile à flots ! Lorsque je sortais aux portes de la cité et que sur la place j’installais mon siège, à ma vue les jeunes gens s’esquivaient, les vieillards se levaient et restaient debout. Les notables retenaient leurs paroles et mettaient la main sur leur bouche. La voix des chefs s’atténuait, la langue leur collait au palais. 
         Et maintenant, je suis la risée de plus jeunes que moi, dont je méprisais trop les pères pour les mettre avec les chiens de mon troupeau. 
@@ -63,7 +64,7 @@ mass:
     partContents:
     - biblicalRef: Tb 1, 3 ; 2, 1b-8
       sundayAndWeekCycles:
-      - '1'
+      - 1
       headline: |-
         « Moi, Tobith, j’ai marché dans les voies de la vérité »
       content: |-
@@ -109,7 +110,7 @@ mass:
         Et voilà qu’il recommence à enterrer les morts ! »
     - biblicalRef: 2 P 1, 2-7
       sundayAndWeekCycles:
-      - '2'
+      - 2
       headline: |-
         « Les dons promis, si précieux, nous sont accordés, pour que, par eux, vous deveniez participants de la nature divine »
       content: |-
@@ -140,7 +141,7 @@ mass:
     - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6
       refAbbr: 111, 1…
       sundayAndWeekCycles:
-      - '1'
+      - 1
       chorus:
       - chorusRef: 111, 1a
         chorus: Heureux qui craint le Seigneur.
@@ -163,7 +164,7 @@ mass:
     - biblicalRef: Ps 90 (90), 1-2, 14-15ab, 15c-16
       refAbbr: 90, 1…
       sundayAndWeekCycles:
-      - '2'
+      - 2
       chorus:
       - chorusRef: 90, 2b
         chorus: Mon Dieu, je suis sûr de toi !

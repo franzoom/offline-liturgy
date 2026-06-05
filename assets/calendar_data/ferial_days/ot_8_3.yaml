@@ -12,6 +12,8 @@ readings:
       subtitle: Dieu ne serait-il qu’un justicier pour l’homme ?
       ref: Jb 7, 1-21
       content: |-
+        %La misère de l’homme est d’autant plus tragique que sa vie est courte et que nul ne lui rendra e sjours perdus. Une telle certitude enfendre une admirable prière. Dieu n’y répondra que beaucoup plus tard : les autres, dira Jésus, ont peiné aux semailles, et nous avons hérité de la moisson.%
+
         Vraiment, la vie de l’homme sur la terre est une corvée, il fait des journées de manœuvre. Comme l’esclave qui désire un peu d’ombre, comme le manœuvre qui attend sa paye, depuis des mois je n’ai en partage que le néant, je ne compte que des nuits de souffrance. À peine couché, je me dis : “Quand pourrai-je me lever ?” Le soir n’en finit pas : je suis envahi de cauchemars jusqu’à l’aube. 
         Ma chair s’est revêtue de vermine et de croûtes terreuses, ma peau se crevasse et suppure. Mes jours sont plus rapides que la navette du tisserand, ils s’achèvent faute de fil. Souviens-toi, SEIGNEUR : ma vie n’est qu’un souffle, mes yeux ne verront plus le bonheur. Je serai invisible aux yeux qui me voyaient ; tes yeux seront sur moi, mais je ne serai plus. 
         Comme la nuée se dissipe et s’évanouit, celui qui descend au séjour des morts n’en remonte pas ; il ne retourne pas dans sa maison, sa demeure ne le connaît plus. C’est pourquoi je ne peux retenir ma langue, dans mon angoisse je parlerai, dans mon amertume je me plaindrai. 
@@ -67,7 +69,7 @@ mass:
     partContents:
     - biblicalRef: Si 36, 1-2.5-6.13.16-22
       sundayAndWeekCycles:
-      - '1'
+      - 1
       headline: |-
         « Que les nations apprennent qu’il n’est pas de dieu hors de toi »
       content: |-
@@ -94,7 +96,7 @@ mass:
         tu es « Le Seigneur », le Dieu des siècles !
     - biblicalRef: 1 P 1, 18-25
       sundayAndWeekCycles:
-      - '2'
+      - 2
       headline: |-
         « Vous avez été rachetés par un sang précieux, celui d’un agneau sans tache, le Christ »
       content: |-
@@ -130,7 +132,7 @@ mass:
     - biblicalRef: Ps 78 (79), 8, 9, 11, 13
       refAbbr: 78, 8…
       sundayAndWeekCycles:
-      - '1'
+      - 1
       chorus:
       - chorusRef: Si 36, 1b (Vg)
         chorus: |-
@@ -155,7 +157,7 @@ mass:
     - biblicalRef: Ps 147 (147B), 12-13, 14-15, 19-20
       refAbbr: 147, 12…
       sundayAndWeekCycles:
-      - '2'
+      - 2
       chorus:
       - chorusRef: 147, 12a
         chorus: Glorifie le Seigneur, Jérusalem !

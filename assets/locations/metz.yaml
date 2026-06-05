@@ -1,0 +1,90 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Metz
+frenchLocative: dans le diocèse de Metz
+
+feasts:
+  marie_eugenie_de_jesus_virgin:
+    month: 3
+    day: 10
+    precedence: 12
+  john_martin_moye_priest:
+    month: 5
+    day: 4
+    precedence: 12
+  guibert_saint_trudo_blessed_john_of_gorze_abbots_and_all_holy_monks_of_the_diocese:
+    month: 5
+    day: 23
+    precedence: 12
+  marguerite_rutan_religious_and_martyr:
+    month: 6
+    day: 26
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 6
+    day: 27
+    precedence: 8
+  pierre_of_luxembourg_bishop:
+    month: 7
+    day: 2
+    precedence: 12
+  leon_ignace_mangin_priest_and_companions_martyrs:
+    month: 7
+    day: 9
+    precedence: 10
+  livarius_of_marsal_martyr:
+    month: 7
+    day: 17
+    precedence: 12
+  arnoul_of_metz_bishop:
+    month: 7
+    day: 18
+    precedence: 10
+  glossinde_saint_valdrade_virgins_and_all_holy_nuns_of_the_diocese:
+    month: 7
+    day: 27
+    precedence: 12
+  goeric_of_metz_bishop:
+    month: 9
+    day: 19
+    precedence: 12
+  chrodegang_of_metz_bishop:
+    month: 10
+    day: 3
+    precedence: 10
+  arnold_reche_religieux:
+    month: 10
+    day: 23
+    precedence: 12
+  sigibaud_of_metz_bishop:
+    month: 10
+    day: 26
+    precedence: 12
+  clement_of_metz_bishop:
+    month: 11
+    day: 23
+    precedence: 8
+  all_holy_bishops_of_the_diocese:
+    month: 11
+    day: 24
+    precedence: 10
+  augustin_schoeffler_and_companions_martyrs:
+    month: 11
+    day: 25
+    precedence: 10
+  barbara_virgin_and_martyr:
+    month: 12
+    day: 4
+    precedence: 12
+  peter_fourier_priest:
+    month: 12
+    day: 9
+    precedence: 12
+
+move:
+  # Moved from 27/06 to 26/06 to avoid conflict with a proper feast
+  cyril_of_alexandria_bishop_and_doctor_of_the_church:
+    month: 6
+    day: 26
+    precedence: 12

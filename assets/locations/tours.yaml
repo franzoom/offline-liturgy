@@ -1,0 +1,87 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Tours
+frenchLocative: dans le diocèse de Tours
+
+feasts:
+  angela_of_foligno_religious:
+    month: 1
+    day: 4
+    precedence: 12
+  libert_of_marmoutier_religious:
+    month: 1
+    day: 18
+    precedence: 12
+  maura_and_saint_britta_virgins:
+    month: 1
+    day: 29
+    precedence: 12
+  william_firmatus_hermit:
+    month: 2
+    day: 28
+    precedence: 12
+  jeanne_marie_de_maille_hermit:
+    month: 3
+    day: 28
+    precedence: 12
+  marie_of_the_incarnation_religious:
+    month: 4
+    day: 30
+    precedence: 12
+  anthony_of_tours_hermit:
+    month: 5
+    day: 4
+    precedence: 12
+  avertinus_of_tours_priest:
+    month: 5
+    day: 6
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 5
+    day: 12
+    precedence: 8
+  john_of_chinon_priest:
+    month: 6
+    day: 26
+    precedence: 12
+  monegundis_of_chartres_religious:
+    month: 7
+    day: 2
+    precedence: 12
+  ordination_of_saint_martin_bishop:
+    month: 7
+    day: 4
+    precedence: 10
+  ursus_and_the_holy_abbots_of_tours:
+    month: 7
+    day: 27
+    precedence: 10
+  radegund_of_poitiers_religious:
+    month: 8
+    day: 13
+    precedence: 12
+  maximus_abbot_and_saint_lupantius_hermit:
+    month: 8
+    day: 26
+    precedence: 12
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 10
+  marie_poussepin_virgin:
+    month: 10
+    day: 14
+    precedence: 10
+  gatianus_of_tours_bishop:
+    month: 10
+    day: 19
+    precedence: 8
+  martin_of_tours_bishop:
+    month: 11
+    day: 11
+    precedence: 4
+  brice_and_the_holy_bishops_of_tours:
+    month: 11
+    day: 13
+    precedence: 10

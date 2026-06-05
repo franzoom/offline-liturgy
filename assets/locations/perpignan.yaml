@@ -1,0 +1,27 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Perpignan-Elne
+frenchLocative: dans le diocèse de Perpignan-Elne
+
+feasts:
+  peter_urseolus_monk:
+    month: 1
+    day: 10
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 5
+    day: 16
+    precedence: 8
+  gaudericus_of_vilavella:
+    month: 10
+    day: 16
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+  eulalia_and_saint_julia_virgins_and_martyrs:
+    month: 12
+    day: 10
+    precedence: 8

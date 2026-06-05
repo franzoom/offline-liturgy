@@ -1,11 +1,110 @@
 language: french
 geography: diocese
 parent: france
-frenchName: diocèse de Paris
-frenchLocative: dans le diocèse de à Paris
+frenchName: archidiocèse de Paris
+frenchLocative: dans l'archidiocèse de Paris
 
 feasts:
-  genevieve_of_paris_virgin:
+  genevieve_virgin:
     month: 1
     day: 3
     precedence: 4
+  our_lady_of_refuge:
+    month: 1
+    day: 16
+    precedence: 12
+  mary_of_providence_virgin:
+    month: 2
+    day: 7
+    precedence: 12
+  rosalie_rendu_virgin:
+    month: 2
+    day: 9
+    precedence: 12
+  isabelle_de_france_virgin:
+    month: 2
+    day: 24
+    precedence: 12
+  daniel_brottier_priest:
+    month: 2
+    day: 28
+    precedence: 12
+  marie_eugenie_de_jesus_virgin:
+    month: 3
+    day: 10
+    precedence: 12
+  marie_of_the_incarnation_acarie_religious:
+    month: 4
+    day: 18
+    precedence: 12
+  germanus_of_paris_bishop:
+    month: 5
+    day: 28
+    precedence: 10
+  coltilda:
+    month: 6
+    day: 4
+    precedence: 10
+  landry_of_paris_bishop:
+    month: 6
+    day: 10
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 6
+    day: 16
+    precedence: 8
+  innocent_v_pope:
+    month: 6
+    day: 23
+    precedence: 12
+  carmelites_of_compiegne_virgins_and_martyrs:
+    month: 7
+    day: 17
+    precedence: 12
+  louis:
+    month: 8
+    day: 25
+    precedence: 10
+  martyrs_of_paris:
+    month: 9
+    day: 2
+    precedence: 10
+  frederick_ozanam:
+    month: 9
+    day: 9
+    precedence: 12
+  ceraunus_of_paris_bishop:
+    month: 9
+    day: 26
+    precedence: 12
+  denis_of_paris_bishop_and_martyr:
+    month: 10
+    day: 9
+    precedence: 8
+  nicolas_barre_priest:
+    month: 10
+    day: 21
+    precedence: 12
+  marcellus_of_paris_bishop:
+    month: 11
+    day: 3
+    precedence: 10
+  our_lady_of_the_miraculous_medal:
+    month: 11
+    day: 27
+    precedence: 12
+  catherine_laboure_virgin:
+    month: 11
+    day: 28
+    precedence: 12
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+
+move:
+  # Moved from 25/08 to 26/08 to avoid conflict with a proper feast
+  joseph_calasanz_priest:
+    month: 8
+    day: 26
+    precedence: 12

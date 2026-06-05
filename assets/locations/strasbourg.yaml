@@ -1,0 +1,146 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Strasbourg
+frenchLocative: dans le diocèse de Strasbourg
+
+feasts:
+  amarinus_of_clermont_abbot_and_martyr:
+    month: 1
+    day: 27
+    precedence: 12
+  brigid_of_kildare_abbess:
+    month: 2
+    day: 1
+    precedence: 12
+  ludan_of_alsace:
+    month: 2
+    day: 12
+    precedence: 12
+  benedict_of_aniane_abbot:
+    month: 2
+    day: 13
+    precedence: 12
+  fridolin_of_sackingen_monk:
+    month: 3
+    day: 6
+    precedence: 12
+  leo_ix_pope:
+    month: 4
+    day: 19
+    precedence: 8
+  peter_canisius_priest_and_doctor_of_the_church:
+    month: 4
+    day: 27
+    precedence: 12
+  urban_i_pope_and_martyr:
+    month: 5
+    day: 25
+    precedence: 12
+  morand_of_cluny_monk:
+    month: 6
+    day: 4
+    precedence: 12
+  modeste_andlauer_priest_and_saint_andre_bauer_religious_martyrs:
+    month: 6
+    day: 19
+    precedence: 12
+  ulrich_of_augsburg_bishop:
+    month: 7
+    day: 4
+    precedence: 12
+  translation_of_the_relics_of_saint_odilia_abbess:
+    month: 7
+    day: 7
+    precedence: 10
+  arbogast_of_strasbourg_bishop:
+    month: 7
+    day: 21
+    precedence: 8
+  jean_georges_rehm_priest_and_martyr:
+    month: 8
+    day: 12
+    precedence: 12
+  adelphus_of_metz_bishop:
+    month: 8
+    day: 30
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 9
+    day: 7
+    precedence: 8
+  alphonse_marie_eppinger_religious:
+    month: 9
+    day: 9
+    precedence: 12
+  maternus_of_cologne_bishop_and_companions:
+    month: 9
+    day: 12
+    precedence: 10
+  lambert_of_maastricht_bishop_and_martyr:
+    month: 9
+    day: 17
+    precedence: 12
+  richardis_of_swabia_empress:
+    month: 9
+    day: 18
+    precedence: 12
+  maurice_of_agaune_and_companions_martyrs:
+    month: 9
+    day: 22
+    precedence: 12
+  eugenia_and_saint_attala_virgins:
+    month: 9
+    day: 25
+    precedence: 10
+  leodegar_of_autun_bishop_and_martyr:
+    month: 10
+    day: 5
+    precedence: 12
+  aurelia_martyr:
+    month: 10
+    day: 13
+    precedence: 12
+  gall_abbot:
+    month: 10
+    day: 16
+    precedence: 12
+  john_paul_ii_pope:
+    month: 10
+    day: 20
+    precedence: 12
+  amandus_of_strasbourg_bishop:
+    month: 10
+    day: 26
+    precedence: 10
+  pirmin_abbot_and_bishop:
+    month: 11
+    day: 3
+    precedence: 12
+  florentius_of_strasbourg_bishop:
+    month: 11
+    day: 7
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+  odilia_of_alsace_abbess:
+    month: 12
+    day: 13
+    precedence: 8
+  adelaide_of_burgundy_empress:
+    month: 12
+    day: 16
+    precedence: 12
+move:
+  # Moved from 12/09 to 11/09 to avoid conflict with a proper feast
+  the_most_holy_name_of_mary:
+    month: 9
+    day: 11
+    precedence: 12
+  # Moved from 13/12 to 15/12 to avoid conflict with a proper feast
+  lucy_virgin_and_martyr:
+    month: 12
+    day: 15
+    precedence: 10

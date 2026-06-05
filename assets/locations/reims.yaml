@@ -1,0 +1,34 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse de Reims
+frenchLocative: dans l'archidiocèse de Reims
+
+feasts:
+  john_baptist_de_la_salle_priest:
+    month: 5
+    day: 15
+    precedence: 10
+  sixtus_and_saint_sinnicius_bishops:
+    month: 9
+    day: 1
+    precedence: 8
+  remigius_of_reims_bishop:
+    month: 10
+    day: 1
+    precedence: 8
+  bruno_priest:
+    month: 10
+    day: 6
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 19
+    precedence: 8
+
+move:
+  # Moved from 01/10 to 03/10 to avoid conflict with a proper feast
+  therese_of_the_child_jesus_virgin_and_doctor_of_the_church:
+    month: 10
+    day: 3
+    precedence: 10

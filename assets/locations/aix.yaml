@@ -1,0 +1,111 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse d'Aix
+frenchLocative: dans l'archidiocèse d'Aix
+
+feasts:
+  caesarius_and_saint_rusticula_virgins:
+    month: 1
+    day: 12
+    precedence: 10
+  honoratus_bishop:
+    month: 1
+    day: 16
+    precedence: 10
+  marie_eugene_de_lenfant_jesus_priest:
+    month: 2
+    day: 4
+    precedence: 12
+  marie_eugene_de_l_enfant_jesus_priest:
+    month: 2
+    day: 4
+    precedence: 12
+  john_of_matha_priest:
+    month: 2
+    day: 8
+    precedence: 12
+  felix_celestin_gombert_martyr:
+    month: 2
+    day: 13
+    precedence: 12
+  caesar_de_bus_priest:
+    month: 4
+    day: 15
+    precedence: 10
+  benedict_joseph_labre:
+    month: 4
+    day: 16
+    precedence: 12
+  hilary_of_arles_bishop:
+    month: 5
+    day: 5
+    precedence: 12
+  andre_abellon_priest:
+    month: 5
+    day: 15
+    precedence: 12
+  eugene_de_mazenod_bishop:
+    month: 5
+    day: 21
+    precedence: 12
+  mary_of_clopas_and_saint_mary_salome:
+    month: 5
+    day: 24
+    precedence: 10
+  augustine_of_canterbury_bishop:
+    month: 5
+    day: 27
+    precedence: 10
+  maximin_and_the_holy_bishops_of_aix:
+    month: 6
+    day: 8
+    precedence: 8
+  aurelianus_and_saint_virgilius_bishops_of_arles:
+    month: 6
+    day: 16
+    precedence: 8
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 8
+    day: 7
+    precedence: 8
+  eonus_of_arles_bishop:
+    month: 8
+    day: 16
+    precedence: 12
+  genesius_of_arles_martyr:
+    month: 8
+    day: 25
+    precedence: 12
+  caesarius_of_arles_bishop:
+    month: 8
+    day: 26
+    precedence: 10
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 10
+  louis_aleman_bishop:
+    month: 9
+    day: 17
+    precedence: 12
+  laurent_imbert_bishop_and_companions_martyrs:
+    month: 9
+    day: 20
+    precedence: 10
+  cyprian_of_toulon_bishop:
+    month: 10
+    day: 3
+    precedence: 12
+  all_saints_of_the_archdiocese:
+    month: 11
+    day: 8
+    precedence: 10
+  mitre:
+    month: 11
+    day: 13
+    precedence: 10
+  trophimus_and_the_holy_bishops_of_arles:
+    month: 11
+    day: 28
+    precedence: 10

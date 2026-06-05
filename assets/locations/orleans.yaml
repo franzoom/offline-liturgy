@@ -1,0 +1,63 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse d'Orléans
+frenchLocative: dans le diocèse d'Orléans
+
+feasts:
+  reginald_of_orleans_priest:
+    month: 2
+    day: 17
+    precedence: 12
+  ivo_of_kermartin_priest:
+    month: 5
+    day: 19
+    precedence: 10
+  hyacinth_cormier_priest:
+    month: 5
+    day: 21
+    precedence: 12
+  germanus_of_auxerre_bishop:
+    month: 7
+    day: 28
+    precedence: 10
+  lupus_of_sens_bishop:
+    month: 9
+    day: 1
+    precedence: 10
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 10
+  evurtius_of_orleans_bishop:
+    month: 9
+    day: 7
+    precedence: 10
+  paul_of_the_cross_priest:
+    month: 10
+    day: 20
+    precedence: 12
+  abbo_of_fleury_abbot_and_martyr:
+    month: 11
+    day: 13
+    precedence: 12
+  aignan_of_orleans_bishop:
+    month: 11
+    day: 17
+    precedence: 8
+  maximin_and_saint_euspicius_abbots:
+    month: 12
+    day: 15
+    precedence: 10
+
+move:
+  # Feast proper to Orleans: elevated [F] and moved to May 8 (liberation of Orleans)
+  joan_of_arc_virgin:
+    month: 5
+    day: 8
+    precedence: 8
+  # Moved from 17/11 to 19/11 to avoid conflict with a proper feast
+  elizabeth_of_hungary_religious:
+    month: 11
+    day: 19
+    precedence: 10

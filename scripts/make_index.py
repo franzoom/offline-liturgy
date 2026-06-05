@@ -2,8 +2,8 @@
 """
 make_index.py — Generates assets/calendar_data/index.json
 
-Scans calendar_data/sanctoral/ and calendar_data/special_days/ for every YAML
-file and extracts celebration.title, celebration.color, and celebration.commons.
+Scans calendar_data/sanctoral/ for every YAML file and extracts
+celebration.title, celebration.color, and celebration.commons.
 A small list of ferial_days files with liturgically significant names is also
 included (Holy Thursday, Good Friday, Holy Saturday, Easter Sunday, etc.).
 
@@ -25,7 +25,10 @@ except ImportError:
     sys.exit("PyYAML is required: pip install pyyaml")
 
 ASSETS_ROOT = Path("assets/calendar_data")
-SOURCE_DIRS = ["sanctoral", "special_days"]
+SOURCE_DIRS = ["sanctoral"]
+
+OUTPUT_FILE = ASSETS_ROOT / "index.json"
+PUBSPEC_FILE = Path("pubspec.yaml")
 
 # Individual ferial_days files whose celebration titles matter for display.
 EXTRA_FERIAL_FILES = [
@@ -37,8 +40,6 @@ EXTRA_FERIAL_FILES = [
     "lent_6_6",
     "easter_1_0",
 ]
-
-OUTPUT_FILE = ASSETS_ROOT / "index.json"
 
 
 def extract_entry(path: Path, dir_name: str) -> dict | None:
@@ -131,5 +132,69 @@ def main() -> None:
         print(f"{skipped} files skipped (see warnings above).")
 
 
+def sync_pubspec_sanctoral() -> None:
+    """Add/remove assets/calendar_data/sanctoral/<subdir>/ entries in pubspec.yaml."""
+    sanctoral_dir = ASSETS_ROOT / "sanctoral"
+    if not sanctoral_dir.exists():
+        return
+
+    actual_subdirs = sorted(
+        p.name for p in sanctoral_dir.iterdir() if p.is_dir()
+    )
+
+    if not PUBSPEC_FILE.exists():
+        print(f"WARNING: {PUBSPEC_FILE} not found, skipping pubspec sync.", file=sys.stderr)
+        return
+
+    lines = PUBSPEC_FILE.read_text(encoding="utf-8").splitlines(keepends=True)
+
+    declared = set()
+    last_sanctoral_index = -1
+    prefix = "    - assets/calendar_data/sanctoral/"
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if stripped.startswith("- assets/calendar_data/sanctoral/"):
+            subdir = stripped.removeprefix("- assets/calendar_data/sanctoral/").rstrip("/")
+            if subdir:
+                declared.add(subdir)
+            last_sanctoral_index = i
+
+    actual_set = set(actual_subdirs)
+    missing = [d for d in actual_subdirs if d not in declared]
+    obsolete = [d for d in declared if d not in actual_set]
+
+    if not missing and not obsolete:
+        print("\npubspec.yaml: all sanctoral subdirectories already declared.")
+        return
+
+    if obsolete:
+        obsolete_entries = {f"assets/calendar_data/sanctoral/{d}/" for d in obsolete}
+        lines = [
+            line for line in lines
+            if line.strip().lstrip("- ") not in obsolete_entries
+        ]
+        last_sanctoral_index = next(
+            (i for i in range(len(lines) - 1, -1, -1)
+             if lines[i].strip().startswith("- assets/calendar_data/sanctoral/")),
+            last_sanctoral_index,
+        )
+
+    if missing:
+        new_lines = [f"{prefix}{d}/\n" for d in missing]
+        insert_at = last_sanctoral_index + 1
+        lines[insert_at:insert_at] = new_lines
+
+    PUBSPEC_FILE.write_text("".join(lines), encoding="utf-8")
+    if missing:
+        print(f"\npubspec.yaml: added {len(missing)} missing sanctoral entries:")
+        for d in missing:
+            print(f"  + assets/calendar_data/sanctoral/{d}/")
+    if obsolete:
+        print(f"\npubspec.yaml: removed {len(obsolete)} obsolete sanctoral entries:")
+        for d in obsolete:
+            print(f"  - assets/calendar_data/sanctoral/{d}/")
+
+
 if __name__ == "__main__":
     main()
+    sync_pubspec_sanctoral()

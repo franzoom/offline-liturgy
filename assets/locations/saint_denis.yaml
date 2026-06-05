@@ -1,0 +1,67 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Saint-Denis
+frenchLocative: dans le diocèse de Saint-Denis
+
+feasts:
+  genevieve_virgin:
+    month: 1
+    day: 3
+    precedence: 10
+  our_lady_of_refuge:
+    month: 1
+    day: 16
+    precedence: 12
+  our_lady_mediatrix:
+    month: 5
+    day: 8
+    precedence: 12
+  marie_therese_de_soubiran_virgin:
+    month: 6
+    day: 7
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 6
+    day: 11
+    precedence: 8
+  owen_of_rouen_bishop:
+    month: 8
+    day: 23
+    precedence: 12
+  louis:
+    month: 8
+    day: 25
+    precedence: 10
+  martyrs_of_paris:
+    month: 9
+    day: 2
+    precedence: 12
+  denis_of_paris_bishop_and_martyr:
+    month: 10
+    day: 9
+    precedence: 8
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  eligius_of_noyon_bishop:
+    month: 12
+    day: 1
+    precedence: 12
+move:
+  # Moved from 03/01 to 04/01 to avoid conflict with a proper feast
+  the_most_holy_name_of_jesus:
+    month: 1
+    day: 4
+    precedence: 12
+  # Moved from 11/06 to 12/06 to avoid conflict with a proper feast
+  barnabas_apostle:
+    month: 6
+    day: 12
+    precedence: 10
+  # Moved from 25/08 to 26/08 to avoid conflict with a proper feast
+  joseph_calasanz_priest:
+    month: 8
+    day: 26
+    precedence: 12

@@ -1,0 +1,83 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Fréjus–Toulon
+frenchLocative: dans le diocèse de Fréjus–Toulon
+
+feasts:
+  honoratus_bishop:
+    month: 1
+    day: 16
+    precedence: 10
+  roseline_de_villeneuve_virgin:
+    month: 1
+    day: 17
+    precedence: 10
+  anthony_abbot:
+    month: 1
+    day: 18
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 4
+    day: 27
+    precedence: 8
+  andre_abellon_priest:
+    month: 5
+    day: 15
+    precedence: 12
+  eugene_de_mazenod_bishop:
+    month: 5
+    day: 21
+    precedence: 12
+  vincent_of_lerins_priest:
+    month: 5
+    day: 24
+    precedence: 12
+  lambert_of_vence_bishop:
+    month: 5
+    day: 27
+    precedence: 12
+  caprasius_and_the_holy_monks_of_lerins:
+    month: 6
+    day: 2
+    precedence: 12
+  jean_despagne_priest:
+    month: 6
+    day: 25
+    precedence: 12
+  jean_d_espagne_priest:
+    month: 6
+    day: 25
+    precedence: 12
+  mary_magdalene:
+    month: 7
+    day: 22
+    precedence: 4
+  louis_of_toulouse_bishop:
+    month: 8
+    day: 19
+    precedence: 10
+  caesarius_of_arles_bishop:
+    month: 8
+    day: 26
+    precedence: 10
+  jules_pazery_de_thorame_and_blessed_francois_joseph_pey_priests_and_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  anniversary_of_the_dedication_of_the_co_cathedral:
+    month: 9
+    day: 22
+    precedence: 10
+  cyprian_of_toulon_bishop:
+    month: 10
+    day: 3
+    precedence: 10
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  leontius_of_frejus_bishop:
+    month: 12
+    day: 1
+    precedence: 10

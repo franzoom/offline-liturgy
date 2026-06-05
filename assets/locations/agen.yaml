@@ -1,0 +1,51 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse d'Agen
+frenchLocative: dans le diocèse d'Agen
+
+feasts:
+  adele_de_batz_de_trenquelleon_religious:
+    month: 1
+    day: 10
+    precedence: 10
+  phoebadius_of_agen_bishop:
+    month: 4
+    day: 26
+    precedence: 8
+  vincent_of_agen_martyr:
+    month: 6
+    day: 9
+    precedence: 10
+  our_lady_of_good_encounter:
+    month: 7
+    day: 27
+    precedence: 10
+  our_lady_of_peyragude:
+    month: 9
+    day: 11
+    precedence: 10
+  faith_of_agen_virgin_and_martyr:
+    month: 10
+    day: 6
+    precedence: 10
+  dulcidius_of_agen_bishop:
+    month: 10
+    day: 16
+    precedence: 10
+  caprasius_of_agen_martyr:
+    month: 10
+    day: 20
+    precedence: 10
+  maurinus_of_agen_martyr:
+    month: 11
+    day: 25
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 12
+    day: 4
+    precedence: 8
+  stephen_first_martyr:
+    month: 12
+    day: 26
+    precedence: 4

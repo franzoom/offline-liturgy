@@ -1,0 +1,95 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse d'Angers
+frenchLocative: dans le diocèse d'Angers
+
+feasts:
+  maurus_abbot:
+    month: 1
+    day: 5
+    precedence: 12
+  martyrs_of_angers:
+    month: 2
+    day: 1
+    precedence: 10
+  theophane_venard_priest_and_martyr:
+    month: 2
+    day: 3
+    precedence: 12
+  licinius_of_angers_bishop:
+    month: 2
+    day: 13
+    precedence: 12
+  noel_pinot_priest_and_martyr:
+    month: 2
+    day: 21
+    precedence: 12
+  albinus_of_angers_bishop:
+    month: 3
+    day: 1
+    precedence: 12
+  mary_euphrasia_pelletier_religious:
+    month: 4
+    day: 24
+    precedence: 10
+  jean_chevillard_and_companions_religious_and_martyrs:
+    month: 5
+    day: 8
+    precedence: 12
+  all_holy_hermits_and_evangelisers:
+    month: 7
+    day: 8
+    precedence: 12
+  peter_julian_eymard_priest:
+    month: 8
+    day: 3
+    precedence: 12
+  jeanne_delanoue_religious:
+    month: 8
+    day: 17
+    precedence: 10
+  jean_robert_queneau_priest_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 12
+  john_chrysostom_bishop_and_doctor_of_the_church:
+    month: 9
+    day: 12
+    precedence: 10
+  maurilius_of_angers_bishop:
+    month: 9
+    day: 13
+    precedence: 10
+  maurice_of_agaune_and_companions_martyrs:
+    month: 9
+    day: 22
+    precedence: 8
+  florent_abbot:
+    month: 9
+    day: 25
+    precedence: 12
+  rene_goupil_religious_and_martyr:
+    month: 9
+    day: 26
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 22
+    precedence: 8
+  all_holy_bishops_of_the_diocese:
+    month: 11
+    day: 12
+    precedence: 12
+
+move:
+  # Moved from Oct 22 to Oct 21 to avoid conflict with the Dedication of the Cathedral
+  john_paul_ii_pope:
+    month: 10
+    day: 21
+    precedence: 12
+  # Moved from Nov 12 to Nov 13 to avoid conflict with All Holy Bishops of the Diocese
+  josaphat_bishop_and_martyr:
+    month: 11
+    day: 13
+    precedence: 10

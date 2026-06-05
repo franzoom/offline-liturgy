@@ -1,0 +1,118 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Chartres
+frenchLocative: dans le diocèse de Chartres
+
+feasts:
+  angela_of_foligno_religious:
+    month: 1
+    day: 4
+    precedence: 12
+  malard_of_chartres_bishop:
+    month: 1
+    day: 15
+    precedence: 12
+  lomer_of_corbion_abbot:
+    month: 1
+    day: 19
+    precedence: 12
+  gilduin_of_dol_deacon:
+    month: 1
+    day: 27
+    precedence: 12
+  aventinus_of_chartres_bishop:
+    month: 2
+    day: 3
+    precedence: 12
+  joan_of_france_religious:
+    month: 2
+    day: 4
+    precedence: 10
+  bernard_of_thiron_abbot:
+    month: 4
+    day: 14
+    precedence: 12
+  francois_de_montmorency_laval_bishop:
+    month: 5
+    day: 6
+    precedence: 10
+  eman_of_chartres_martyr:
+    month: 5
+    day: 16
+    precedence: 12
+  ivo_of_chartres_bishop:
+    month: 5
+    day: 20
+    precedence: 10
+  mary_of_clopas_and_saint_mary_salome:
+    month: 5
+    day: 22
+    precedence: 12
+  caraunus_of_chartres_martyr:
+    month: 5
+    day: 28
+    precedence: 12
+  aignan_of_orleans_bishop:
+    month: 6
+    day: 10
+    precedence: 12
+  avitus_of_micy_abbot:
+    month: 6
+    day: 17
+    precedence: 12
+  monegundis_of_chartres_religious:
+    month: 7
+    day: 2
+    precedence: 12
+  boetharius_of_chartres_bishop:
+    month: 8
+    day: 2
+    precedence: 12
+  louis:
+    month: 8
+    day: 25
+    precedence: 10
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 12
+  caletricus_of_chartres_bishop:
+    month: 9
+    day: 4
+    precedence: 12
+  fulbert_of_chartres_bishop:
+    month: 9
+    day: 7
+    precedence: 10
+  leobinus_of_chartres_bishop:
+    month: 9
+    day: 17
+    precedence: 10
+  solen_of_chartres_bishop:
+    month: 9
+    day: 25
+    precedence: 12
+  marie_poussepin_virgin:
+    month: 10
+    day: 14
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 17
+    precedence: 8
+  lucain_of_logny_martyr:
+    month: 10
+    day: 30
+    precedence: 12
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+
+move:
+  # Moved from 17/10 to 20/10 to avoid conflict with a proper feast
+  ignatius_of_antioch_bishop_and_martyr:
+    month: 10
+    day: 20
+    precedence: 10

@@ -1,0 +1,86 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse de Marseille
+frenchLocative: dans l'archidiocèse de Marseille
+
+feasts:
+  bonitus_of_clermont_bishop:
+    month: 1
+    day: 15
+    precedence: 12
+  honoratus_bishop:
+    month: 1
+    day: 16
+    precedence: 12
+  theodore_of_marseille_bishop:
+    month: 2
+    day: 3
+    precedence: 10
+  marie_de_jesus_deluil_martiny_virgin:
+    month: 2
+    day: 27
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 5
+    day: 6
+    precedence: 8
+  andre_abellon_priest:
+    month: 5
+    day: 15
+    precedence: 12
+  eugene_de_mazenod_bishop:
+    month: 5
+    day: 21
+    precedence: 10
+  eutropius_of_orange_bishop:
+    month: 5
+    day: 27
+    precedence: 12
+  victor_of_marseille_martyr:
+    month: 7
+    day: 21
+    precedence: 10
+  john_cassian_abbot:
+    month: 7
+    day: 24
+    precedence: 12
+  louis_of_toulouse_bishop:
+    month: 8
+    day: 19
+    precedence: 12
+  isarn_of_marseille_abbot:
+    month: 9
+    day: 24
+    precedence: 10
+  elzear_of_sabran_and_blessed_delphine_of_glandeves_spouses:
+    month: 9
+    day: 26
+    precedence: 12
+  eusebia_virgin:
+    month: 9
+    day: 28
+    precedence: 10
+  cyprian_of_toulon_bishop:
+    month: 10
+    day: 3
+    precedence: 12
+  lazarus:
+    month: 10
+    day: 17
+    precedence: 4
+  mauront_of_marseille_bishop:
+    month: 10
+    day: 21
+    precedence: 10
+  urban_v_pope:
+    month: 11
+    day: 6
+    precedence: 10
+
+move:
+  # Moved from 17/10 to 20/10 to avoid conflict with a proper feast
+  ignatius_of_antioch_bishop_and_martyr:
+    month: 10
+    day: 20
+    precedence: 10

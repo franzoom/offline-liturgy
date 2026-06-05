@@ -1,0 +1,63 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse d'Aire et Dax
+frenchLocative: dans le diocèse d'Aire et Dax
+
+feasts:
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 1
+    day: 17
+    precedence: 8
+  blase_bishop_and_martyr:
+    month: 2
+    day: 3
+    precedence: 10
+  marguerite_rutan_religious_and_martyr:
+    month: 4
+    day: 9
+    precedence: 10
+  girons_martyr:
+    month: 5
+    day: 4
+    precedence: 10
+  michel_garicoits_priest:
+    month: 5
+    day: 15
+    precedence: 10
+  quiteria_virgin_and_martyr:
+    month: 5
+    day: 22
+    precedence: 10
+  galactorius_of_lescar_bishop_and_martyr:
+    month: 7
+    day: 27
+    precedence: 12
+  philibert_of_jumieges_abbot:
+    month: 8
+    day: 26
+    precedence: 10
+  vincent_of_dax_bishop_and_martyr:
+    month: 9
+    day: 1
+    precedence: 10
+  our_lady_of_buglose:
+    month: 9
+    day: 8
+    precedence: 4
+  vincent_de_paul_priest:
+    month: 9
+    day: 27
+    precedence: 8
+  severus_martyr:
+    month: 11
+    day: 3
+    precedence: 10
+  saints_with_relics_venerated_in_the_churches_of_the_diocese:
+    month: 11
+    day: 5
+    precedence: 10
+  our_lady_of_the_miraculous_medal:
+    month: 11
+    day: 27
+    precedence: 10

@@ -1,0 +1,55 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Belfort-Montbéliard
+frenchLocative: dans le diocèse de Belfort-Montbéliard
+
+feasts:
+  the_conversion_of_saint_paul_apostle:
+    month: 1
+    day: 25
+    precedence: 4
+  colette_of_corbie_abbess:
+    month: 3
+    day: 6
+    precedence: 12
+  jeanne_antide_thouret_virgin:
+    month: 5
+    day: 23
+    precedence: 8
+  claudius_of_besancon_bishop:
+    month: 6
+    day: 6
+    precedence: 12
+  the_holy_bishops_of_besancon:
+    month: 6
+    day: 17
+    precedence: 10
+  marie_brideau_and_companions_martyrs:
+    month: 7
+    day: 17
+    precedence: 12
+  blesseds_jean_baptiste_loir_and_nicolas_sauvouret_priests_and_martyrs:
+    month: 8
+    day: 18
+    precedence: 12
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 12
+  saints_stephen_cuenot_bishop_isidore_gagelin_and_joseph_marchand_priests_martyrs:
+    month: 10
+    day: 21
+    precedence: 10
+  columban_abbot:
+    month: 11
+    day: 23
+    precedence: 10
+  peter_fourier_priest:
+    month: 12
+    day: 9
+    precedence: 12
+  odilia_of_alsace_abbess:
+    month: 12
+    day: 13
+    precedence: 12

@@ -1,0 +1,102 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse de Poitiers
+frenchLocative: dans l'archidiocèse de Poitiers
+
+feasts:
+  hilary_bishop_and_doctor_of_the_church:
+    month: 1
+    day: 13
+    precedence: 4
+  the_holy_bishops_of_poitiers_gelais_antheme_pient_paixent_maximin_guillaume_tempier_and_gautier_de_bruges:
+    month: 1
+    day: 20
+    precedence: 12
+  adelelmus_of_burgos_abbot:
+    month: 1
+    day: 30
+    precedence: 12
+  theophane_venard_priest_and_companions_martyrs:
+    month: 2
+    day: 13
+    precedence: 10
+  fridolin_of_sackingen_monk:
+    month: 3
+    day: 11
+    precedence: 12
+  marie_louise_trichet_religious:
+    month: 5
+    day: 7
+    precedence: 12
+  andre_hubert_fournet_priest:
+    month: 5
+    day: 13
+    precedence: 12
+  maximin_of_trier_bishop:
+    month: 5
+    day: 29
+    precedence: 12
+  maxentius_of_agde_abbot:
+    month: 6
+    day: 26
+    precedence: 12
+  martial_of_limoges_bishop:
+    month: 6
+    day: 30
+    precedence: 12
+  radegund_of_poitiers_religious:
+    month: 8
+    day: 13
+    precedence: 12
+  jacques_morelle_dupas_and_companions_martyrs:
+    month: 8
+    day: 18
+    precedence: 12
+  joan_elizabeth_bichier_des_ages_religious:
+    month: 8
+    day: 26
+    precedence: 10
+  blesseds_jean_goizet_jean_philippe_marchand_pierre_landry_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 12
+  fulbert_of_chartres_bishop:
+    month: 9
+    day: 7
+    precedence: 12
+  emmeran_of_poitiers_bishop_and_martyr:
+    month: 9
+    day: 22
+    precedence: 12
+  leodegar_of_autun_bishop_and_martyr:
+    month: 10
+    day: 5
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 17
+    precedence: 8
+  saints_with_relics_venerated_in_the_churches_of_the_archdiocese:
+    month: 11
+    day: 5
+    precedence: 12
+  the_holy_monks_and_hermits_of_the_archdiocese_genard_jouin_generoux_junien_de_maire_martin_de_vertou_savin_de_liguge_porchaire_aurmeon_romain_de_mazerolles_philibert_benoit_daniane_robert_darbrissel_bernard_de_tiron_and_geraud_de_sales:
+    month: 11
+    day: 13
+    precedence: 10
+  the_holy_nuns_and_consecrated_virgins_florence_triaise_agnes_and_disciole_macrine_and_pezenne:
+    month: 12
+    day: 1
+    precedence: 12
+  venantius_fortunatus_bishop:
+    month: 12
+    day: 15
+    precedence: 12
+
+move:
+  # Moved from 17/10 to 16/10 to avoid conflict with a proper feast
+  ignatius_of_antioch_bishop_and_martyr:
+    month: 10
+    day: 16
+    precedence: 12

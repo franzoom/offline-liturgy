@@ -1,0 +1,123 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse du Puy-en-Velay
+frenchLocative: dans le diocèse du Puy-en-Velay
+
+feasts:
+  odilo_of_cluny_abbot:
+    month: 1
+    day: 4
+    precedence: 10
+  agrevius_of_le_puy_bishop:
+    month: 2
+    day: 1
+    precedence: 10
+  paulianus_martyr:
+    month: 2
+    day: 15
+    precedence: 12
+  colette_of_corbie_abbess:
+    month: 3
+    day: 6
+    precedence: 12
+  our_lady_at_the_annunciation_of_the_lord:
+    month: 3
+    day: 25
+    precedence: 4
+  robert_of_molesmes_abbot:
+    month: 4
+    day: 24
+    precedence: 12
+  our_lady_at_the_resurrection_of_the_lord:
+    month: 5
+    day: 8
+    precedence: 12
+  marcellin_champagnat_priest:
+    month: 6
+    day: 6
+    precedence: 10
+  marcellus_of_le_puy_bishop:
+    month: 6
+    day: 7
+    precedence: 12
+  john_francis_regis_priest:
+    month: 6
+    day: 16
+    precedence: 10
+  ilpidius_martyr:
+    month: 6
+    day: 17
+    precedence: 12
+  eugenie_joubert_religious:
+    month: 7
+    day: 2
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 7
+    day: 11
+    precedence: 8
+  benedict_abbot:
+    month: 7
+    day: 12
+    precedence: 8
+  urban_ii_pope:
+    month: 7
+    day: 30
+    precedence: 12
+  benildus_romancon_religious:
+    month: 8
+    day: 13
+    precedence: 10
+  julian_of_brioude_martyr:
+    month: 8
+    day: 30
+    precedence: 8
+  peter_of_chavanon_abbot:
+    month: 9
+    day: 9
+    precedence: 12
+  marcellus_of_velay_priest_and_martyr:
+    month: 9
+    day: 11
+    precedence: 8
+  ferreolus_of_vienne_martyr:
+    month: 9
+    day: 18
+    precedence: 12
+  bonita_of_brioude_virgin:
+    month: 10
+    day: 16
+    precedence: 12
+  agnes_of_jesus_religious:
+    month: 10
+    day: 19
+    precedence: 10
+  front_of_perigueux_bishop:
+    month: 10
+    day: 25
+    precedence: 12
+  george_of_le_puy_bishop:
+    month: 11
+    day: 10
+    precedence: 8
+  evodius_of_le_puy_bishop:
+    month: 11
+    day: 12
+    precedence: 4
+  all_holy_bishops_of_the_diocese:
+    month: 11
+    day: 15
+    precedence: 10
+  theofredus_of_orange_abbot_and_martyr:
+    month: 11
+    day: 19
+    precedence: 12
+  eudes_of_le_puy_bishop:
+    month: 11
+    day: 20
+    precedence: 12
+  noel_chabanel_priest_and_martyr:
+    month: 12
+    day: 9
+    precedence: 10

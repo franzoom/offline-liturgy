@@ -1,0 +1,99 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Carcassonne et Narbonne
+frenchLocative: dans le diocèse de Carcassonne et Narbonne
+
+feasts:
+  julian_et_saint_basilissa_martyrs:
+    month: 1
+    day: 9
+    precedence: 12
+  pierre_de_castelnau_martyr:
+    month: 1
+    day: 15
+    precedence: 12
+  louis_antoine_ormieres_priest:
+    month: 1
+    day: 16
+    precedence: 10
+  peter_nolasco_priest:
+    month: 1
+    day: 30
+    precedence: 12
+  gimer_of_carcassonne_bishop:
+    month: 2
+    day: 13
+    precedence: 10
+  theodard_of_narbonne_bishop:
+    month: 5
+    day: 1
+    precedence: 12
+  berenger_of_saint_papoul_monk:
+    month: 5
+    day: 27
+    precedence: 12
+  hilary_of_carcassonne_bishop:
+    month: 6
+    day: 4
+    precedence: 10
+  marie_therese_de_soubiran_virgin:
+    month: 6
+    day: 7
+    precedence: 10
+  germaine_cousin_virgin:
+    month: 6
+    day: 15
+    precedence: 12
+  john_francis_regis_priest:
+    month: 6
+    day: 16
+    precedence: 10
+  nazarius_and_saint_celsus_martyrs:
+    month: 7
+    day: 28
+    precedence: 10
+  justus_and_saint_pastor_martyrs:
+    month: 8
+    day: 7
+    precedence: 12
+  roch:
+    month: 8
+    day: 16
+    precedence: 12
+  jean_francois_bousquet_priest_et_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 12
+  jean_francois_bousquet_priest_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 12
+  michael_archangel:
+    month: 9
+    day: 29
+    precedence: 8
+  rusticu_of_narbonnes_bishop:
+    month: 10
+    day: 26
+    precedence: 12
+  papoul_martyr:
+    month: 11
+    day: 3
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 11
+    day: 7
+    precedence: 8
+  saturnin_of_toulouse_bishop_and_martyr:
+    month: 11
+    day: 29
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+  paul_of_narbonne_bishop_and_martyr:
+    month: 12
+    day: 11
+    precedence: 8

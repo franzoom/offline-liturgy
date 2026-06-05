@@ -1,0 +1,87 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Nîmes
+frenchLocative: dans le diocèse de Nîmes
+
+feasts:
+  pierre_de_castelnau_martyr:
+    month: 1
+    day: 14
+    precedence: 12
+  marie_rivier_virgin:
+    month: 2
+    day: 3
+    precedence: 12
+  reginald_of_orleans_priest:
+    month: 2
+    day: 12
+    precedence: 12
+  pontius_abbot:
+    month: 3
+    day: 5
+    precedence: 12
+  benezet_of_avignon:
+    month: 4
+    day: 14
+    precedence: 10
+  baudile_of_nimes_martyr:
+    month: 5
+    day: 20
+    precedence: 10
+  john_francis_regis_priest:
+    month: 6
+    day: 16
+    precedence: 12
+  pierre_of_luxembourg_bishop:
+    month: 7
+    day: 2
+    precedence: 12
+  religious_of_orange_martyrs:
+    month: 7
+    day: 9
+    precedence: 12
+  urban_ii_pope:
+    month: 7
+    day: 28
+    precedence: 10
+  caesarius_of_arles_bishop:
+    month: 8
+    day: 26
+    precedence: 10
+  giles_abbot:
+    month: 9
+    day: 1
+    precedence: 10
+  castor_of_apt_bishop:
+    month: 9
+    day: 25
+    precedence: 10
+  enimie_virgin:
+    month: 10
+    day: 6
+    precedence: 10
+  firminus_of_uzes_bishop:
+    month: 10
+    day: 12
+    precedence: 10
+  mary_of_clopas_and_saint_mary_salome:
+    month: 10
+    day: 22
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 26
+    precedence: 8
+  urban_v_pope:
+    month: 11
+    day: 6
+    precedence: 10
+  charles_de_foucauld_priest:
+    month: 12
+    day: 1
+    precedence: 12
+  leontius_of_frejus_bishop:
+    month: 12
+    day: 1
+    precedence: 12

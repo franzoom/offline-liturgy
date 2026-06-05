@@ -1,0 +1,63 @@
+language: french
+geography: diocese
+parent: france
+frenchName: archidiocèse de Besançon
+frenchLocative: dans l'archidiocèse de Besançon
+
+feasts:
+  colette_of_corbie_abbess:
+    month: 3
+    day: 6
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 5
+    day: 5
+    precedence: 8
+  peter_de_tarentaise_bishop:
+    month: 5
+    day: 10
+    precedence: 12
+  jeanne_antide_thouret_virgin:
+    month: 5
+    day: 23
+    precedence: 8
+  claudius_of_besancon_bishop:
+    month: 6
+    day: 6
+    precedence: 12
+  ferreolus_and_saint_ferrutius_martyrs:
+    month: 6
+    day: 16
+    precedence: 10
+  the_holy_bishops_of_besancon:
+    month: 6
+    day: 17
+    precedence: 10
+  blesseds_jean_baptiste_loir_and_nicolas_sauvouret_priests_and_martyrs:
+    month: 8
+    day: 18
+    precedence: 12
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 12
+  jean_joseph_lataste_priest:
+    month: 9
+    day: 5
+    precedence: 12
+  the_holy_abbots_and_monks_of_luxeuil:
+    month: 9
+    day: 25
+    precedence: 10
+  saints_stephen_cuenot_bishop_isidore_gagelin_and_joseph_marchand_priests_martyrs:
+    month: 10
+    day: 21
+    precedence: 10
+  columban_abbot:
+    month: 11
+    day: 23
+    precedence: 10
+  odilia_of_alsace_abbess:
+    month: 12
+    day: 13
+    precedence: 12

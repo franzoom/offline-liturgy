@@ -1,0 +1,95 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Lille
+frenchLocative: dans le diocèse de Lille
+
+feasts:
+  remigius_of_reims_bishop:
+    month: 1
+    day: 15
+    precedence: 10
+  john_of_warneton_bishop:
+    month: 1
+    day: 27
+    precedence: 12
+  vaast_of_arras_bishop:
+    month: 2
+    day: 6
+    precedence: 12
+  paul_miki_and_companions_martyrs:
+    month: 2
+    day: 6
+    precedence: 12
+  mary_of_providence_virgin:
+    month: 2
+    day: 7
+    precedence: 12
+  amandus_of_maastricht_bishop:
+    month: 2
+    day: 7
+    precedence: 12
+  chrysolius_the_armenian_bishop_and_martyr:
+    month: 2
+    day: 7
+    precedence: 12
+  eleutherius_of_tournai_bishop:
+    month: 2
+    day: 20
+    precedence: 12
+  mauront_of_marchiennes_abbot:
+    month: 5
+    day: 5
+    precedence: 12
+  our_lady_of_the_trellis:
+    month: 6
+    day: 13
+    precedence: 8
+  vulmar_hermit:
+    month: 7
+    day: 20
+    precedence: 12
+  paul_denn_and_saint_remi_isore_priests_and_martyrs:
+    month: 7
+    day: 20
+    precedence: 12
+  frederic_janssoone_priest:
+    month: 8
+    day: 5
+    precedence: 12
+  gaugericus_of_cambrai_bishop:
+    month: 8
+    day: 12
+    precedence: 12
+  martyrs_of_september:
+    month: 9
+    day: 2
+    precedence: 12
+  audomar_of_terouenne_bishop:
+    month: 9
+    day: 9
+    precedence: 12
+  piatus_of_tournai_priest_and_martyr:
+    month: 10
+    day: 3
+    precedence: 10
+  mommolin_of_noyon_bishop:
+    month: 10
+    day: 16
+    precedence: 12
+  winnoc_of_bergues_abbot:
+    month: 11
+    day: 6
+    precedence: 12
+  eligius_of_noyon_bishop:
+    month: 12
+    day: 1
+    precedence: 12
+  folcwin_of_therouanne_bishop:
+    month: 12
+    day: 15
+    precedence: 12
+  everard_of_frioul:
+    month: 12
+    day: 16
+    precedence: 12

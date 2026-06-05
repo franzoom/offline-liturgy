@@ -1,0 +1,58 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Créteil
+frenchLocative: dans le diocèse de Créteil
+
+feasts:
+  genevieve_virgin:
+    month: 1
+    day: 3
+    precedence: 10
+  the_most_holy_name_of_jesus:
+    month: 1
+    day: 4
+    precedence: 12
+  joan_of_france_religious:
+    month: 2
+    day: 4
+    precedence: 12
+  isabelle_de_france_virgin:
+    month: 4
+    day: 24
+    precedence: 12
+  madeleine_sophie_barat_virgin:
+    month: 5
+    day: 24
+    precedence: 12
+  agoard_and_saint_aglibert_martyrs:
+    month: 6
+    day: 27
+    precedence: 12
+  louis:
+    month: 8
+    day: 25
+    precedence: 8
+  martyrs_of_paris:
+    month: 9
+    day: 2
+    precedence: 12
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 9
+    day: 22
+    precedence: 8
+  denis_of_paris_bishop_and_martyr:
+    month: 10
+    day: 9
+    precedence: 10
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+
+move:
+  # Moved from 25/08 to 26/08 to avoid conflict with a proper feast
+  joseph_calasanz_priest:
+    month: 8
+    day: 26
+    precedence: 12

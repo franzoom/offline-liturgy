@@ -1,0 +1,58 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse d'Ajaccio
+frenchLocative: dans le diocèse d'Ajaccio
+
+feasts:
+  devota_virgin_and_martyr:
+    month: 1
+    day: 27
+    precedence: 4
+  our_lady_of_mercy:
+    month: 3
+    day: 18
+    precedence: 4
+  euphrasius_of_iliturgi_bishop_and_martyr:
+    month: 5
+    day: 15
+    precedence: 10
+  theophilus_of_corte_priest:
+    month: 5
+    day: 19
+    precedence: 10
+  restitude_virgin_and_martyr:
+    month: 5
+    day: 21
+    precedence: 10
+  julia_virgin_and_martyr:
+    month: 5
+    day: 22
+    precedence: 8
+  venerius_hermit:
+    month: 9
+    day: 11
+    precedence: 12
+  alexander_sauli_bishop:
+    month: 10
+    day: 12
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 10
+    day: 22
+    precedence: 8
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  leonard_of_port_maurice_priest:
+    month: 11
+    day: 26
+    precedence: 10
+
+move:
+  # Moved from Oct 22 to Oct 21 to avoid conflict with the Dedication of the Cathedral
+  john_paul_ii_pope:
+    month: 10
+    day: 21
+    precedence: 12

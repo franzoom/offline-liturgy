@@ -1,0 +1,82 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Laval
+frenchLocative: dans le diocèse de Laval
+
+feasts:
+  our_lady_off_pontmain:
+    month: 1
+    day: 17
+    precedence: 8
+  anthony_abbot:
+    month: 1
+    day: 18
+    precedence: 10
+  jean_turpin_du_cormier_priest_and_companions_martyrs:
+    month: 1
+    day: 22
+    precedence: 10
+  julian_of_le_mans_bishop:
+    month: 1
+    day: 27
+    precedence: 10
+  jacques_ledoyen_priest_and_companions_martyrs:
+    month: 2
+    day: 1
+    precedence: 12
+  guillaume_firmat_and_blesseds_robert_darbrissel_bernard_de_tiron_raoul_de_la_futaie_and_vital_de_mortain_hermits:
+    month: 2
+    day: 24
+    precedence: 12
+  calais_and_saint_siviard_abbes:
+    month: 7
+    day: 1
+    precedence: 12
+  calais_and_saint_siviard_abbots:
+    month: 7
+    day: 1
+    precedence: 12
+  saints_fraimbault_constantian_and_cenerus_hermits:
+    month: 8
+    day: 16
+    precedence: 10
+  charles_collas_du_bignon_priest_and_martyr:
+    month: 8
+    day: 18
+    precedence: 12
+  jeanne_jugan_virgin:
+    month: 8
+    day: 30
+    precedence: 12
+  thomas_dubuisson_and_blessed_louis_lanier_priests_and_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  charles_of_blois:
+    month: 9
+    day: 28
+    precedence: 12
+  margaret_of_lorraine_religious:
+    month: 11
+    day: 3
+    precedence: 12
+  all_holy_bishops_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 11
+    day: 23
+    precedence: 8
+  tugdual_of_treguier_bishop:
+    month: 12
+    day: 1
+    precedence: 12
+
+move:
+  # Moved from 22/11 to 23/11 to avoid conflict with a proper feast
+  cecilia_virgin_and_martyr:
+    month: 11
+    day: 23
+    precedence: 12

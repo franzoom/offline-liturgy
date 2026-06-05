@@ -10,14 +10,10 @@ feasts:
   onoratus_bishop: #à vérifier
     month: 1
     day: 13
-    precedence: 12
+    precedence: 10
   devota_of_corsica_virgin_martyr: #à vérifier
     month: 1
     day: 27
-    precedence: 4
-  dedication_of_the_cathedral_of:
-    month: 12
-    day: 4
     precedence: 4
   pons_martyr: #à compléter
     month: 5
@@ -27,13 +23,41 @@ feasts:
     month: 5
     day: 21
     precedence: 12
-  rainerius_of_pisa:
-    month: 11
-    day: 19
+  dedication_of_the_cathedral:
+    month: 6
+    day: 11
+    precedence: 8
+  romanus_martyr:
+    month: 8
+    day: 9
+    precedence: 8
+  aurelia_martyr:
+    month: 8
+    day: 11
+    precedence: 12
+  clare_of_assisi_virgin:
+    month: 8
+    day: 11
+    precedence: 12  
+  roch:
+    month: 8
+    day: 16
     precedence: 10
+  barbara_virgin_and_martyr:
+    month: 12
+    day: 4
+    precedence: 12
 
 move:
   angela_merici_virgin: #OK
     month: 1
     day: 29
     precedence: 12
+  barnabas_apostle: #OK
+    month: 6
+    day: 12
+    precedence: 10
+  teresa_benedicta_of_the_cross_stein_virgin: #OK
+    month: 8
+    day: 7
+    precedence: 8

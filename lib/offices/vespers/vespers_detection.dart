@@ -98,7 +98,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 
   // The Marian memory is only celebrated at Morning and Readings, not Vespers
   final vespersEligible = todayCelebrations
-      .where((c) => c.celebrationCode != 'virgin-mary-memory')
+      .where((c) => c.celebrationCode != 'roman/virgin-mary-memory')
       .toList();
 
   // --- Safety: Pre-calculate highest priorities to avoid reduce() on empty lists ---

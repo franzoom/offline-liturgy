@@ -27,8 +27,7 @@ Future<Map<String, String>> celebrationDirIndex(DataLoader dataLoader) {
 Future<String> dirPathForCode(String code, DataLoader dataLoader) async {
   final index = await celebrationDirIndex(dataLoader);
   return switch (index[code]) {
-    'special_days' => specialFilePath,
-    'sanctoral'    => sanctoralFilePath,
-    _              => ferialFilePath,
+    'sanctoral' => sanctoralFilePath,
+    _           => ferialFilePath,
   };
 }

@@ -70,7 +70,7 @@ Future<Readings> _resolveAdvent(CelebrationContext context) async {
 
     final results = await Future.wait([
       readingsExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
-      readingsExtract('$specialFilePath/advent_$specialDay.yaml', dataLoader),
+      readingsExtract('$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader),
     ]);
     ferialReadings = results[0];
     ferialReadings.overlayWith(results[1]);
@@ -109,7 +109,7 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
     ferialReadings =
         await readingsExtract('$commonsFilePath/christmas.yaml', dataLoader);
     Readings proper = await readingsExtract(
-        '$specialFilePath/christmas_${date.day}.yaml', dataLoader);
+        '$sanctoralFilePath/roman/christmas_${date.day}.yaml', dataLoader);
     ferialReadings.overlayWith(proper);
   } else if (code.contains('-')) {
     // Jan before Epiphany
@@ -117,7 +117,7 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
     ferialReadings = await readingsExtract(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
     Readings proper = await readingsExtract(
-        '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader);
     ferialReadings.overlayWith(proper);
   } else {

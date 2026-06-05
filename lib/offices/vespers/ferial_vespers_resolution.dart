@@ -71,7 +71,7 @@ Future<Vespers> _resolveAdvent(
     int day = int.parse(parts[2]);
 
     final results = await Future.wait([
-      vespersExtract('$specialFilePath/advent_$specialDay.yaml', dataLoader,
+      vespersExtract('$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader,
           section: section),
       vespersExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader,
           section: section),
@@ -123,7 +123,7 @@ Future<Vespers> _resolveChristmas(
     ferialVespers = await vespersExtract('$commonsFilePath/christmas.yaml',
         dataLoader, section: section);
     Vespers proper = await vespersExtract(
-        '$specialFilePath/christmas_${date.day}.yaml', dataLoader,
+        '$sanctoralFilePath/roman/christmas_${date.day}.yaml', dataLoader,
         section: section);
     ferialVespers.overlayWith(proper);
   } else if (code.contains('-')) {
@@ -133,7 +133,7 @@ Future<Vespers> _resolveChristmas(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader,
         section: section);
     Vespers proper = await vespersExtract(
-        '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader,
         section: section);
     ferialVespers.overlayWith(proper);

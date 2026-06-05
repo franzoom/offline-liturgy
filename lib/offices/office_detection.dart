@@ -5,7 +5,6 @@ import '../classes/office_elements_class.dart';
 import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
-import '../tools/celebration_index.dart';
 import '../tools/convert_yaml_to_dart.dart';
 
 /// function returning the possible offices for a given day
@@ -125,7 +124,7 @@ Future<List<CelebrationContext>> detectCelebrations(
       allCelebrations.every((c) => c.precedence > 9)) {
     allCelebrations.add((
       precedence: 12,
-      code: 'virgin-mary-memory',
+      code: 'roman/virgin-mary-memory',
       isFromRoot: false,
     ));
   }
@@ -144,15 +143,9 @@ Future<List<CelebrationContext>> detectCelebrations(
     return 0;
   });
 
-  // Load all YAML files in one parallel pass using the celebration index.
-  final dirIndex = await celebrationDirIndex(dataLoader);
+  // Load all YAML files in one parallel pass.
   final loadFutures = allCelebrations.map((c) {
-    final filePath = ferialDayCheck(c.code)
-        ? ferialFilePath
-        : switch (dirIndex[c.code]) {
-            'special_days' => specialFilePath,
-            _              => sanctoralFilePath,
-          };
+    final filePath = ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
     return dataLoader.loadYaml('$filePath/${c.code}.yaml');
   });
   final List<String> loadResults;

@@ -105,7 +105,7 @@ Calendar calendarFill(
   DayContent dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'nativity',
-    defaultCelebrationTitle: 'nativity',
+    defaultCelebrationTitle: 'roman/nativity',
     precedence: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
@@ -118,11 +118,11 @@ Calendar calendarFill(
   // adding the christmas Octave
   date = date.shift(1); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
-    defaultCelebrationTitle = 'christmas_${date.day}';
+    defaultCelebrationTitle = 'roman/christmas_${date.day}';
     precedence = (date.day <= 28) ? 7 : 9;
 
     if (date == liturgicalMainFeasts['HOLY_FAMILY']) {
-      defaultCelebrationTitle = 'holy_family';
+      defaultCelebrationTitle = 'roman/holy_family';
       precedence = 6;
     }
     DayContent dayContent = DayContent(
@@ -143,7 +143,7 @@ Calendar calendarFill(
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'mary_mother_of_god',
+    defaultCelebrationTitle: 'roman/mary_mother_of_god',
     precedence: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
@@ -178,7 +178,7 @@ Calendar calendarFill(
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'epiphany',
+    defaultCelebrationTitle: 'roman/epiphany',
     precedence: 3,
     liturgicalColor: 'white',
     breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
@@ -214,7 +214,7 @@ Calendar calendarFill(
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'baptism',
+    defaultCelebrationTitle: 'roman/baptism',
     precedence: 5,
     liturgicalColor: 'white',
     breviaryWeek: 1,
@@ -381,7 +381,7 @@ Calendar calendarFill(
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'paschaltime',
-    defaultCelebrationTitle: 'ascension',
+    defaultCelebrationTitle: 'roman/ascension',
     precedence: 2,
     liturgicalColor: 'white',
     breviaryWeek: 2,
@@ -414,7 +414,7 @@ Calendar calendarFill(
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'paschaltime',
-    defaultCelebrationTitle: 'pentecost',
+    defaultCelebrationTitle: 'roman/pentecost',
     precedence: 2,
     liturgicalColor: 'red',
     breviaryWeek: 2,
@@ -451,7 +451,7 @@ Calendar calendarFill(
       DayContent(
         liturgicalYear: liturgicalYear,
         liturgicalTime: 'ot',
-        defaultCelebrationTitle: 'christ_king',
+        defaultCelebrationTitle: 'roman/christ_king',
         precedence: 3,
         liturgicalColor: 'white',
         breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,

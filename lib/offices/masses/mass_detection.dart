@@ -28,14 +28,8 @@ Future<Map<String, CelebrationContext>> massDetection(
     if (c.ferialCode != null && ferialDayCheck(c.celebrationCode)) {
       masses = await ferialMassResolution(c);
     } else {
-      // Try special_days first, then sanctoral
-      Masses loaded =
-          await massExtract('$specialFilePath/${c.celebrationCode}.yaml', c.dataLoader);
-      if (loaded.masses == null || loaded.masses!.isEmpty) {
-        loaded = await massExtract(
-            '$sanctoralFilePath/${c.celebrationCode}.yaml', c.dataLoader);
-      }
-      masses = loaded;
+      masses = await massExtract(
+          '$sanctoralFilePath/${c.celebrationCode}.yaml', c.dataLoader);
     }
 
     for (final mass in masses.masses ?? []) {

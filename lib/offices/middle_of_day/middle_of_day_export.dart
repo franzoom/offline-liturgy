@@ -30,16 +30,9 @@ Future<MiddleOfDay> middleOfDayExport(
   }
 
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
-    final results = await Future.wait([
-      middleOfDayExtract(
-          '$specialFilePath/${celebrationContext.celebrationCode}.yaml',
-          celebrationContext.dataLoader),
-      middleOfDayExtract(
-          '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
-          celebrationContext.dataLoader),
-    ]);
-    final MiddleOfDay proper =
-        results.firstWhere((r) => !r.isEmpty, orElse: MiddleOfDay.new);
+    final MiddleOfDay proper = await middleOfDayExtract(
+        '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
+        celebrationContext.dataLoader);
 
     celebrationOverlay.overlayWith(proper);
   }

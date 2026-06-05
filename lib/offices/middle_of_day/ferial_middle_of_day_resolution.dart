@@ -93,7 +93,7 @@ Future<MiddleOfDay> _resolveAdvent(CelebrationContext context) async {
       middleOfDayExtract(
           '$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
       middleOfDayExtract(
-          '$specialFilePath/advent_$specialDay.yaml', dataLoader),
+          '$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader),
     ]);
     ferialMiddleOfDay = results[0];
     ferialMiddleOfDay.overlayWith(results[1]);
@@ -118,7 +118,7 @@ Future<MiddleOfDay> _resolveChristmasDec(
   final results = await Future.wait([
     middleOfDayExtract('$commonsFilePath/christmas.yaml', dataLoader),
     middleOfDayExtract(
-        '$specialFilePath/christmas_${date.day}.yaml', dataLoader),
+        '$sanctoralFilePath/roman/christmas_${date.day}.yaml', dataLoader),
   ]);
   return results[0]..overlayWith(results[1]);
 }
@@ -130,7 +130,7 @@ Future<MiddleOfDay> _resolveChristmasBeforeEpiphany(
     middleOfDayExtract(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader),
     middleOfDayExtract(
-        '$specialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader),
   ]);
   return results[0]..overlayWith(results[1]);

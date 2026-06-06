@@ -65,3 +65,17 @@ String getEpiphanyDate(String locationId, Map<String, Location> locationData) {
   }
   return 'sunday';
 }
+
+/// Returns the effective corpusDominiDate for a location, walking up the ancestor
+/// chain from most specific to root. Returns 'sunday' if none is found.
+String getCorpusDominiDate(
+    String locationId, Map<String, Location> locationData) {
+  String? currentId = locationId;
+  while (currentId != null) {
+    final loc = locationData[currentId];
+    if (loc == null) break;
+    if (loc.corpusDominiDate != null) return loc.corpusDominiDate!;
+    currentId = loc.parent;
+  }
+  return 'sunday';
+}

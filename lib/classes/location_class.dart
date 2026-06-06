@@ -67,6 +67,7 @@ class Location {
   final String frenchLocative;
   final String? epiphanyDate;
   final String? ascensionDate;
+  final String? corpusDominiDate;
   final List<LocationFeast> feasts;
   final List<LocationFeast> moveFeasts;
 
@@ -79,6 +80,7 @@ class Location {
     required this.frenchLocative,
     this.epiphanyDate,
     this.ascensionDate,
+    this.corpusDominiDate,
     required this.feasts,
     this.moveFeasts = const [],
   });
@@ -102,6 +104,7 @@ class Location {
       frenchLocative: doc['frenchLocative'] as String? ?? '',
       epiphanyDate: doc['epiphanyDate'] as String?,
       ascensionDate: doc['ascensionDate'] as String?,
+      corpusDominiDate: doc['corpusDominiDate'] as String?,
       feasts: parseSection('feasts'),
       moveFeasts: parseSection('move'),
     );

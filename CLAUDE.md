@@ -16,11 +16,17 @@
   - RULE: ferial days (precedence 13) sort BEFORE optional memorials (12) via effectivePrecedence() → 11.5
   - During Avent/Lent/Octaves: memorials 10–11 demoted to 12 via `downgradeMemorialsDuringPrivilegedTimes()`
 
-  ## Feast date transfers (managed in createLiturgicalDays())
-  - Annunciation (Mar 25): transferred if Holy Week or Paschal Octave
-  - Saint Joseph (Mar 19): transferred if Holy Week
-  - John the Baptist (Jun 24): shifted if conflicts with Sacred Heart
-  - Peter & Paul (Jun 29): shifted if conflicts with Sacred Heart
+  ## Feast date transfers
+  Mobile-date transfers are computed at date-calculation time in `common_calendar_definitions.dart`,
+  not via post-hoc calendar moves. Each function returns the correct date directly:
+  - `annunciation()`: transferred if Holy Week or Paschal Octave
+  - `saintJoseph()`: transferred if Holy Week
+  - `saintJohnTheBaptist()`: shifted if conflicts with Sacred Heart
+  - `saintPieterAndPaul()`: shifted if conflicts with Sacred Heart
+
+  Location YAML files may also declare a `move:` section to relocate any feast already
+  in the calendar to a different fixed date. This uses `Calendar.moveItemToDate()`,
+  which is prefix-agnostic: `roman/`, local, or parent-location feasts can all be moved.
 
   ## Two liturgical years always built
   `getCalendar()` always builds year N + year N+1 to avoid boundary issues.
@@ -98,8 +104,10 @@
 
 <Key_classes>
   ## Calendar / DayContent
-  Calendar.addFeastsToCalendar(feasts, year, mainFeasts)  — bulk add
-  Calendar.moveItemByDays(feastName, shift)               — relative move
+  Calendar.addItemToDay(date, prec, key, {knownCodes})    — add/update feast; returns stored key; if knownCodes provided and key absent from index, preserves existing qualified key and only updates precedence
+  Calendar.addItemRelatedToFeast(date, shift, prec, key, {knownCodes}) — add at date+shift days; returns stored key
+  Calendar.addFeastsToCalendar(feasts, year, mainFeasts)  — bulk add from a FeastDates map
+  Calendar.moveItemToDate(feastName, newDate, precedence) — move feast, prefix-agnostic, returns resolved key
   Calendar.downgradeMemorialsDuringPrivilegedTimes()      — called after fill
   DayContent: {liturgicalYear, liturgicalTime, precedence, liturgicalColor, breviaryWeek, feastList: Map<int,List<String>>, feastOrigins}
 
@@ -109,7 +117,7 @@
 
   ## Location
   Location.applyToCalendar(calendar, year, mainFeasts)   — applies local feasts
-  LocationFeast: {key, month, day, precedence, suppress, relativeTo, shift}
+  LocationFeast: {key, month, day, precedence, relativeTo, shift}
   buildLocationTree(locations) → List<LocationNode>       — immutable hierarchy
 
   ## LiturgyData
@@ -117,6 +125,7 @@
   LiturgyData.loadFromDataLoader(loader)    — Flutter
   .locationData: Map<String, Location>
   .locationTree: List<LocationNode>
+  .knownCodes: Set<String>                  — all qualified codes present in index.json; passed to addItemToDay for key-preservation logic
 
   ## Ferial day codes
   Format: `season_week_day`  e.g. `ot_3_5` (ordinary time, week 3, day 5)

@@ -6,8 +6,9 @@ import 'local_calendar_fill.dart';
 
 /// Builds two liturgical years to avoid border problems (around first Sunday of Advent).
 /// [data] is mandatory: it carries the universal Roman feasts and the location tree.
-/// [epiphanyOverride] and [ascensionOverride] take precedence over the location-derived
-/// values when provided ('day'|'sunday' for epiphany; 'thursday'|'sunday' for ascension).
+/// [epiphanyOverride], [ascensionOverride] and [corpusDominiOverride] take precedence
+/// over the location-derived values when provided ('day'|'sunday' for epiphany;
+/// 'thursday'|'sunday' for ascension and corpusDomini).
 Calendar getCalendar(
   Calendar calendar,
   DateTime eventDate,
@@ -15,22 +16,28 @@ Calendar getCalendar(
   LiturgyData data, {
   String? epiphanyOverride,
   String? ascensionOverride,
+  String? corpusDominiOverride,
 }) {
   final String epiphanyMode =
       epiphanyOverride ?? getEpiphanyDate(location, data.locationData);
   final bool ascensionOnSunday =
       (ascensionOverride ?? getAscensionDate(location, data.locationData)) ==
           'sunday';
+  final bool corpusDominiOnThursday =
+      (corpusDominiOverride ??
+          getCorpusDominiDate(location, data.locationData)) ==
+      'thursday';
 
-  final cal1 = calendarFill(
-      Calendar(), eventDate, location, data, epiphanyMode, ascensionOnSunday);
+  final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode,
+      ascensionOnSunday, corpusDominiOnThursday);
   final cal2 = calendarFill(
       Calendar(),
       DateTime(eventDate.year + 1, eventDate.month, eventDate.day),
       location,
       data,
       epiphanyMode,
-      ascensionOnSunday);
+      ascensionOnSunday,
+      corpusDominiOnThursday);
 
   calendar.calendarData.addAll(cal1.calendarData);
   calendar.calendarData.addAll(cal2.calendarData);
@@ -49,6 +56,7 @@ Calendar calendarFill(
   LiturgyData data,
   String epiphanyMode,
   bool ascensionOnSunday,
+  bool corpusDominiOnThursday,
 ) {
   //detection of the liturgical year
   int liturgicalYear = eventDate.year;
@@ -66,6 +74,11 @@ Calendar calendarFill(
   if (ascensionOnSunday) {
     final easterDay = liturgicalMainFeasts['ASCENSION']!.shift(-39);
     liturgicalMainFeasts['ASCENSION'] = easterDay.shift(42);
+  }
+
+  if (corpusDominiOnThursday) {
+    final easterDay = liturgicalMainFeasts['CORPUS_DOMINI']!.shift(-63);
+    liturgicalMainFeasts['CORPUS_DOMINI'] = easterDay.shift(60);
   }
 
   String defaultCelebrationTitle = "";

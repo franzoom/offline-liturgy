@@ -1,39 +1,53 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/location_class.dart';
 import '../tools/data_loader.dart';
 
-/// Bundles the two data sets that must always be loaded together before any
-/// calendar computation: the universal Roman feast list and the location tree.
+/// Bundles the data sets that must always be loaded together before any
+/// calendar computation: the universal Roman feast list, the location tree,
+/// and the set of all known celebration codes (from index.json).
 class LiturgyData {
   final List<LocationFeast> commonFeasts;
   final Map<String, Location> locationData;
+  final Set<String> knownCodes;
 
   const LiturgyData({
     required this.commonFeasts,
     required this.locationData,
+    this.knownCodes = const {},
   });
 
   /// For unit tests that verify calendar structure without feast data.
   const LiturgyData.empty()
       : commonFeasts = const [],
-        locationData = const {};
+        locationData = const {},
+        knownCodes = const {};
 
   /// Loads from the filesystem — for CLI/Dart use.
   static Future<LiturgyData> load({
     String commonFeastsPath = './assets/calendar_data/common_feasts.yaml',
     String locationsDir = './assets/locations/',
+    String indexPath = './assets/calendar_data/index.json',
   }) async {
-    final commonFeasts = await _loadCommonFeasts(commonFeastsPath);
-    final locationData = await _loadLocationsFromDirectory(locationsDir);
-    return LiturgyData(commonFeasts: commonFeasts, locationData: locationData);
+    final results = await Future.wait([
+      _loadCommonFeasts(commonFeastsPath),
+      _loadLocationsFromDirectory(locationsDir),
+      _loadKnownCodes(indexPath),
+    ]);
+    return LiturgyData(
+      commonFeasts: results[0] as List<LocationFeast>,
+      locationData: results[1] as Map<String, Location>,
+      knownCodes: results[2] as Set<String>,
+    );
   }
 
   /// Loads via a [DataLoader] — for Flutter where assets go through rootBundle.
   static Future<LiturgyData> loadFromDataLoader(
     DataLoader loader, {
     String commonFeastsPath = 'calendar_data/common_feasts.yaml',
+    String indexPath = 'calendar_data/index.json',
   }) async {
     final commonFeasts =
         _parseFeastsFromYaml(await loader.loadYaml(commonFeastsPath));
@@ -54,7 +68,13 @@ class LiturgyData {
         if (yaml.isNotEmpty) id: Location.fromYaml(id, yaml),
     };
 
-    return LiturgyData(commonFeasts: commonFeasts, locationData: locationData);
+    final knownCodes = _parseKnownCodes(await loader.loadJson(indexPath));
+
+    return LiturgyData(
+      commonFeasts: commonFeasts,
+      locationData: locationData,
+      knownCodes: knownCodes,
+    );
   }
 
   /// The location hierarchy built from the loaded YAML files.
@@ -75,6 +95,16 @@ List<LocationFeast> _parseFeastsFromYaml(String yamlContent) {
 
 Future<List<LocationFeast>> _loadCommonFeasts(String yamlPath) async {
   return _parseFeastsFromYaml(await File(yamlPath).readAsString());
+}
+
+Set<String> _parseKnownCodes(String raw) {
+  if (raw.isEmpty) return {};
+  final decoded = jsonDecode(raw) as Map<String, dynamic>;
+  return decoded.keys.toSet();
+}
+
+Future<Set<String>> _loadKnownCodes(String jsonPath) async {
+  return _parseKnownCodes(await File(jsonPath).readAsString());
 }
 
 Future<Map<String, Location>> _loadLocationsFromDirectory(

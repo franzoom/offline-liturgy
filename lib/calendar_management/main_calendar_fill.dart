@@ -482,7 +482,7 @@ Calendar calendarFill(
   applyCommonFeastsToCalendar(
       calendar, data.commonFeasts, liturgicalYear, liturgicalMainFeasts);
   calendar = localCalendarFill(calendar, liturgicalYear, location,
-      liturgicalMainFeasts, data.locationData);
+      liturgicalMainFeasts, data.locationData, data.knownCodes);
 
   return calendar;
 }

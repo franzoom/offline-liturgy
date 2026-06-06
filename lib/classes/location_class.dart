@@ -110,8 +110,9 @@ class Location {
   void applyToCalendar(
     Calendar calendar,
     int liturgicalYear,
-    Map<String, DateTime> liturgicalMainFeasts,
-  ) {
+    Map<String, DateTime> liturgicalMainFeasts, {
+    Set<String> knownCodes = const {},
+  }) {
     final beginYear = liturgicalMainFeasts['ADVENT']!;
     final endYear =
         liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
@@ -132,15 +133,18 @@ class Location {
           final shift = feast.shift ?? 0;
           final d = baseDate.shift(shift);
           final key = prefixed(feast.key);
-          calendar.addItemRelatedToFeast(baseDate, shift, feast.precedence!, key);
-          calendar.setFeastOrigin(d, key, frenchName, frenchLocative);
+          final storedKey = calendar.addItemRelatedToFeast(
+              baseDate, shift, feast.precedence!, key,
+              knownCodes: knownCodes);
+          calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
         }
       } else {
         final d = resolveDate(feast);
         if (d != null) {
           final key = prefixed(feast.key);
-          calendar.addItemToDay(d, feast.precedence!, key);
-          calendar.setFeastOrigin(d, key, frenchName, frenchLocative);
+          final storedKey = calendar.addItemToDay(d, feast.precedence!, key,
+              knownCodes: knownCodes);
+          calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
         }
       }
     }
@@ -148,8 +152,8 @@ class Location {
     for (final feast in moveFeasts) {
       final d = resolveDate(feast);
       if (d != null) {
-        final resolvedKey = calendar.moveItemToDate(
-            feast.key, d, feast.precedence!);
+        final resolvedKey =
+            calendar.moveItemToDate(feast.key, d, feast.precedence!);
         calendar.setFeastOrigin(
             d, resolvedKey ?? feast.key, frenchName, frenchLocative);
       }

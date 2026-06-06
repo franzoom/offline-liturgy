@@ -48,9 +48,17 @@ class Calendar {
     return slash == -1 ? key : key.substring(slash + 1);
   }
 
-  void addItemToDay(DateTime date, int precedence, String newFeastName) {
+  /// Adds or updates a feast entry.
+  ///
+  /// Deduplicates by base name (strips prefix). When [knownCodes] is provided
+  /// and the new qualified key is absent from it (no corresponding YAML file),
+  /// the existing key is preserved and only the precedence is updated.
+  ///
+  /// Returns the key actually stored in the calendar.
+  String addItemToDay(DateTime date, int precedence, String newFeastName,
+      {Set<String>? knownCodes}) {
     final dayContent = calendarData[date];
-    if (dayContent == null) return;
+    if (dayContent == null) return newFeastName;
 
     final newBase = _baseName(newFeastName);
 
@@ -75,18 +83,24 @@ class Calendar {
     // No existing match — simply add
     if (existingFeastName == null) {
       (dayContent.feastList[precedence] ??= []).add(newFeastName);
-      return;
+      return newFeastName;
     }
+
+    // If newFeastName has no own YAML file, preserve the existing qualified key
+    final effectiveKey =
+        (knownCodes != null && !knownCodes.contains(newFeastName))
+            ? existingFeastName
+            : newFeastName;
 
     // Exact same key at same precedence — nothing to do
-    if (existingPrecedence == precedence && existingFeastName == newFeastName) {
-      return;
+    if (existingPrecedence == precedence && existingFeastName == effectiveKey) {
+      return effectiveKey;
     }
 
-    // Same precedence, more specific key — replace in place
+    // Same precedence — replace in place
     if (existingPrecedence == precedence) {
-      dayContent.feastList[precedence]![existingIndex] = newFeastName;
-      return;
+      dayContent.feastList[precedence]![existingIndex] = effectiveKey;
+      return effectiveKey;
     }
 
     // Different precedence — remove from old bucket, add to new
@@ -94,7 +108,8 @@ class Calendar {
     oldList.removeAt(existingIndex);
     if (oldList.isEmpty) dayContent.feastList.remove(existingPrecedence);
 
-    (dayContent.feastList[precedence] ??= []).add(newFeastName);
+    (dayContent.feastList[precedence] ??= []).add(effectiveKey);
+    return effectiveKey;
   }
 
   void addFeastsToCalendar(Map<String, FeastDates> feastList,
@@ -127,9 +142,10 @@ class Calendar {
   /// Adds a date related to another one: for example
   /// Notre-Dame de Fourvière on the Saturday after the 2nd Sunday of Easter
   /// The shift parameter specifies the number of days to offset from the requested date.
-  void addItemRelatedToFeast(
-      DateTime date, int shift, int precedence, String feastName) {
-    addItemToDay(date.shift(shift), precedence, feastName);
+  String addItemRelatedToFeast(DateTime date, int shift, int precedence,
+      String feastName, {Set<String>? knownCodes}) {
+    return addItemToDay(date.shift(shift), precedence, feastName,
+        knownCodes: knownCodes);
   }
 
   /// Records the originating location for a feast at [date].

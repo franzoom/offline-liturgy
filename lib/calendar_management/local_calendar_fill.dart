@@ -14,12 +14,14 @@ Calendar localCalendarFill(
   String locationId,
   Map<String, DateTime> liturgicalMainFeasts, [
   Map<String, Location> locationData = const {},
+  Set<String> knownCodes = const {},
 ]) {
   if (locationData.isEmpty) return calendar;
 
   final chain = _ancestorChain(locationId, locationData);
   for (final location in chain) {
-    location.applyToCalendar(calendar, liturgicalYear, liturgicalMainFeasts);
+    location.applyToCalendar(calendar, liturgicalYear, liturgicalMainFeasts,
+        knownCodes: knownCodes);
   }
   return calendar;
 }

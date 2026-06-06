@@ -148,9 +148,10 @@ class Location {
     for (final feast in moveFeasts) {
       final d = resolveDate(feast);
       if (d != null) {
-        calendar.moveItemToDateInRange(
-            feast.key, d, feast.precedence!, beginYear, endYear);
-        calendar.setFeastOrigin(d, feast.key, frenchName, frenchLocative);
+        final resolvedKey = calendar.moveItemToDate(
+            feast.key, d, feast.precedence!);
+        calendar.setFeastOrigin(
+            d, resolvedKey ?? feast.key, frenchName, frenchLocative);
       }
     }
   }

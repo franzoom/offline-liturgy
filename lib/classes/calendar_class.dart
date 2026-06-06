@@ -132,67 +132,6 @@ class Calendar {
     addItemToDay(date.shift(shift), precedence, feastName);
   }
 
-  /// Removes a specific celebration from a given date.
-  /// If the precedence list becomes empty after removal, it is removed.
-  void removeCelebrationFromDay(DateTime date, String feastName) {
-    final content = calendarData[date];
-    if (content == null) return;
-
-    // Find and remove the item, exit early once found
-    for (final entry in content.feastList.entries) {
-      final list = entry.value;
-      if (list.remove(feastName)) {
-        if (list.isEmpty) {
-          content.feastList.remove(entry.key);
-        }
-        return; // Item found and removed, done
-      }
-    }
-  }
-
-  /// Moves an item by applying a day offset from its current position.
-  /// The offset can be positive (forward in time) or negative (backward in time).
-  /// If the item exists at multiple dates, only the first occurrence found will be moved.
-  void moveItemByDays(String feastName, int shift) {
-    if (shift == 0) return;
-
-    // Search for the item - keep track of index to avoid second lookup
-    DateTime? itemDate;
-    int? itemPrecedence;
-    int? itemIndex;
-
-    outer:
-    for (final entry in calendarData.entries) {
-      for (final feastEntry in entry.value.feastList.entries) {
-        final list = feastEntry.value;
-        for (int i = 0; i < list.length; i++) {
-          if (list[i] == feastName) {
-            itemDate = entry.key;
-            itemPrecedence = feastEntry.key;
-            itemIndex = i;
-            break outer;
-          }
-        }
-      }
-    }
-
-    if (itemDate == null || itemPrecedence == null || itemIndex == null) {
-      return;
-    }
-
-    // Remove from old date directly (no second search)
-    final oldContent = calendarData[itemDate]!;
-    final oldList = oldContent.feastList[itemPrecedence]!;
-    oldList.removeAt(itemIndex);
-    if (oldList.isEmpty) {
-      oldContent.feastList.remove(itemPrecedence);
-    }
-
-    // Add to new date
-    final newDate = itemDate.shift(shift);
-    addItemToDay(newDate, itemPrecedence, feastName);
-  }
-
   /// Records the originating location for a feast at [date].
   void setFeastOrigin(
       DateTime date, String feastKey, String name, String locative) {
@@ -200,78 +139,30 @@ class Calendar {
         LocationOrigin(name: name, locative: locative);
   }
 
-  /// Removes a feast by exact name from all dates in the calendar.
-  void removeFeastFromCalendar(String feastName) {
-    for (final dayContent in calendarData.values) {
-      for (final entry in dayContent.feastList.entries.toList()) {
-        if (entry.value.remove(feastName)) {
-          if (entry.value.isEmpty) dayContent.feastList.remove(entry.key);
-          return;
-        }
-      }
-    }
-  }
-
-  /// Moves a feast to an absolute date. If the feast already exists in the
-  /// calendar at a different date, it is removed from the old location first.
-  /// If it does not exist yet, it is simply added at [newDate].
-  void moveItemToDate(String feastName, DateTime newDate, int precedence) {
+  /// Moves a feast to an absolute date, searching by base name (prefix-agnostic).
+  /// If the feast exists in the calendar, it is removed from its current date
+  /// and re-added at [newDate] with the qualified key preserved.
+  /// If it does not exist yet, it is added at [newDate] under [feastName].
+  ///
+  /// Returns the qualified key as found in the calendar (e.g.
+  /// `roman/peter_canisius_priest`), or null if no matching entry was found.
+  String? moveItemToDate(String feastName, DateTime newDate, int precedence) {
     DateTime? oldDate;
     int? oldPrecedence;
     int? oldIndex;
+    String? foundKey;
 
     outer:
     for (final entry in calendarData.entries) {
-      for (final feastEntry in entry.value.feastList.entries) {
-        final list = feastEntry.value;
-        for (int i = 0; i < list.length; i++) {
-          if (list[i] == feastName) {
-            oldDate = entry.key;
-            oldPrecedence = feastEntry.key;
-            oldIndex = i;
-            break outer;
-          }
-        }
-      }
-    }
-
-    if (oldDate != null && oldDate != newDate) {
-      final oldContent = calendarData[oldDate]!;
-      final oldList = oldContent.feastList[oldPrecedence!]!;
-      oldList.removeAt(oldIndex!);
-      if (oldList.isEmpty) oldContent.feastList.remove(oldPrecedence);
-    }
-
-    addItemToDay(newDate, precedence, feastName);
-  }
-
-  /// Like [moveItemToDate] but only searches for an existing entry within
-  /// [beginYear, endYear). This prevents a location feast added during the
-  /// first liturgical-year pass from being erroneously removed when
-  /// [getCalendar] processes the second year.
-  void moveItemToDateInRange(
-    String feastName,
-    DateTime newDate,
-    int precedence,
-    DateTime beginYear,
-    DateTime endYear,
-  ) {
-    DateTime? oldDate;
-    int? oldPrecedence;
-    int? oldIndex;
-
-    outer:
-    for (final entry in calendarData.entries) {
-      final date = entry.key;
-      if (date.isBefore(beginYear) || !date.isBefore(endYear)) continue;
       for (final feastEntry in entry.value.feastList.entries) {
         final list = feastEntry.value;
         final base = _baseName(feastName);
         for (int i = 0; i < list.length; i++) {
           if (_baseName(list[i]) == base) {
-            oldDate = date;
+            oldDate = entry.key;
             oldPrecedence = feastEntry.key;
             oldIndex = i;
+            foundKey = list[i];
             break outer;
           }
         }
@@ -285,7 +176,8 @@ class Calendar {
       if (oldList.isEmpty) oldContent.feastList.remove(oldPrecedence);
     }
 
-    addItemToDay(newDate, precedence, feastName);
+    addItemToDay(newDate, precedence, foundKey ?? feastName);
+    return foundKey;
   }
 
   /// Downgrades obligatory memorials (precedence 10/11) to optional (12)

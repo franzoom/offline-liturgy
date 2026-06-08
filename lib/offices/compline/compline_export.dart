@@ -9,9 +9,6 @@ import 'compline_extract.dart';
 /// This is called AFTER the user has picked a specific Compline option.
 Future<Compline> complineExport(ComplineDefinition choice) async {
   final dataLoader = choice.dataLoader;
-  if (dataLoader == null) {
-    throw Exception("ComplineDefinition is missing a DataLoader");
-  }
 
   // 1. Get the text structure from YAML files
   final compline = await getComplineText(choice, dataLoader);

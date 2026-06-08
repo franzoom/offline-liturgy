@@ -1,5 +1,6 @@
 import '../../classes/calendar_class.dart';
 import '../../classes/compline_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
 import '../office_detection.dart';
@@ -44,28 +45,34 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   if (liturgicalTime == 'christmasoctave' ||
       liturgicalTime == 'paschaloctave') {
     possibleComplines['Complies du samedi'] = ComplineDefinition(
-      complineDescription: 'Complies du samedi',
-      celebrationCode: dayContent.defaultCelebrationTitle,
-      ferialCode: dayContent.defaultCelebrationTitle,
-      liturgicalTime: liturgicalTime,
-      precedence: 8,
-      liturgicalColor: dayContent.liturgicalColor,
-      isCelebrable: true,
+      context: CelebrationContext(
+        celebrationCode: dayContent.defaultCelebrationTitle,
+        ferialCode: dayContent.defaultCelebrationTitle,
+        date: date,
+        liturgicalTime: liturgicalTime,
+        precedence: 8,
+        liturgicalColor: dayContent.liturgicalColor,
+        isCelebrable: true,
+        celebrationType: 'solemnityeve',
+        officeDescription: 'Complies du samedi',
+        dataLoader: dataLoader,
+      ),
       dayOfCompline: 'saturday',
-      celebrationType: 'solemnityeve',
-      dataLoader: dataLoader,
     );
     possibleComplines['Complies du dimanche'] = ComplineDefinition(
-      complineDescription: 'Complies du dimanche',
-      celebrationCode: dayContent.defaultCelebrationTitle,
-      ferialCode: dayContent.defaultCelebrationTitle,
-      liturgicalTime: liturgicalTime,
-      precedence: 8,
-      liturgicalColor: dayContent.liturgicalColor,
-      isCelebrable: true,
+      context: CelebrationContext(
+        celebrationCode: dayContent.defaultCelebrationTitle,
+        ferialCode: dayContent.defaultCelebrationTitle,
+        date: date,
+        liturgicalTime: liturgicalTime,
+        precedence: 8,
+        liturgicalColor: dayContent.liturgicalColor,
+        isCelebrable: true,
+        celebrationType: 'solemnity',
+        officeDescription: 'Complies du dimanche',
+        dataLoader: dataLoader,
+      ),
       dayOfCompline: 'sunday',
-      celebrationType: 'solemnity',
-      dataLoader: dataLoader,
     );
     return possibleComplines;
   }
@@ -89,16 +96,19 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     final dayOfCompline = _detectDayOfWeek(date, celebrationType);
     final description = 'Complies – ${c.celebrationGlobalName}';
     possibleComplines[description] = ComplineDefinition(
-      complineDescription: description,
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode ?? '',
-      liturgicalTime: liturgicalTime,
-      precedence: c.precedence ?? 1,
-      liturgicalColor: c.liturgicalColor ?? 'purple',
-      isCelebrable: true,
+      context: CelebrationContext(
+        celebrationCode: c.celebrationCode,
+        ferialCode: c.ferialCode ?? '',
+        date: date,
+        liturgicalTime: liturgicalTime,
+        precedence: c.precedence ?? 1,
+        liturgicalColor: c.liturgicalColor ?? 'purple',
+        isCelebrable: true,
+        celebrationType: celebrationType,
+        officeDescription: description,
+        dataLoader: dataLoader,
+      ),
       dayOfCompline: dayOfCompline,
-      celebrationType: celebrationType,
-      dataLoader: dataLoader,
     );
     return possibleComplines;
   }
@@ -129,17 +139,20 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           ].join(' ');
 
     possibleComplines[description] = ComplineDefinition(
-      complineDescription: description,
-      celebrationCode: c.celebrationCode,
-      ferialCode: c.ferialCode ?? '',
-      liturgicalTime: liturgicalTime,
-      precedence: precedence,
-      liturgicalColor: c.liturgicalColor ?? 'green',
-      isCelebrable: c.isCelebrable,
+      context: CelebrationContext(
+        celebrationCode: c.celebrationCode,
+        ferialCode: c.ferialCode ?? '',
+        date: date,
+        liturgicalTime: liturgicalTime,
+        precedence: precedence,
+        liturgicalColor: c.liturgicalColor ?? 'green',
+        isCelebrable: c.isCelebrable,
+        celebrationType: celebrationType,
+        officeDescription: description,
+        dataLoader: dataLoader,
+      ),
       dayOfCompline: dayOfCompline,
-      celebrationType: celebrationType,
       isEveCompline: false,
-      dataLoader: dataLoader,
     );
   }
 
@@ -167,17 +180,20 @@ Future<Map<String, ComplineDefinition>> complineDetection(
             isTomorrowSolemnity ? 'solemnityeve' : 'normal';
 
         possibleComplines[eveDescription] = ComplineDefinition(
-          complineDescription: eveDescription,
-          celebrationCode: c.celebrationCode,
-          ferialCode: c.ferialCode ?? '',
-          liturgicalTime: liturgicalTime,
-          precedence: precedence,
-          liturgicalColor: c.liturgicalColor ?? 'green',
-          isCelebrable: true,
+          context: CelebrationContext(
+            celebrationCode: c.celebrationCode,
+            ferialCode: c.ferialCode ?? '',
+            date: date,
+            liturgicalTime: liturgicalTime,
+            precedence: precedence,
+            liturgicalColor: c.liturgicalColor ?? 'green',
+            isCelebrable: true,
+            celebrationType: eveCelebrationType,
+            officeDescription: eveDescription,
+            dataLoader: dataLoader,
+          ),
           dayOfCompline: 'saturday',
-          celebrationType: eveCelebrationType,
           isEveCompline: true,
-          dataLoader: dataLoader,
         );
       }
     }

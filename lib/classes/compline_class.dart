@@ -117,55 +117,33 @@ class Compline {
 /// - liturgicalTime: determines variations (Lent, Paschal, etc.)
 /// - celebrationType: 'normal', 'solemnity', 'solemnityeve', etc.
 class ComplineDefinition {
-  final String
-      complineDescription; // description of the office (e.g., "Complies du 2ème dimanche de Carême")
-  final String
-      celebrationCode; // original code used to identify the celebration (e.g., "CHRISTMAS", "advent_1_0")
-  final String
-      ferialCode; // code given by the root of the day in Calendar: ferial code or Solemnity
-  final String liturgicalTime; // 'ot', 'lent', 'paschal', 'advent', 'christmas'
-  final int precedence;
-  final String liturgicalColor;
-  final bool
-      isCelebrable; // false if a higher precedence celebration prevents this office from being celebrated
-  final String
-      dayOfCompline; // 'sunday', 'monday', etc. - determines which psalms to use
-  final String
-      celebrationType; // 'solemnity', 'solemnityeve', 'normal', 'holy_thursday', etc.
-  final bool
-      isEveCompline; // true if these are Eve Complines (like First Vespers)
-  final DataLoader? dataLoader;
-  final bool showImprecatoryVerses;
+  final CelebrationContext context;
+  final String dayOfCompline; // 'sunday', 'monday', etc. - determines which psalms to use
+  final bool isEveCompline; // true if these are Eve Complines (like First Vespers)
 
   ComplineDefinition({
-    required this.complineDescription,
-    this.celebrationCode = '',
-    this.ferialCode = '',
-    required this.liturgicalTime,
-    this.precedence = 13,
-    this.liturgicalColor = 'green',
-    this.isCelebrable = true,
+    required this.context,
     required this.dayOfCompline,
-    required this.celebrationType,
     this.isEveCompline = false,
-    this.dataLoader,
-    this.showImprecatoryVerses = false,
   });
+
+  // Convenience getters delegating to context
+  String get complineDescription => context.officeDescription ?? '';
+  String get celebrationCode => context.celebrationCode;
+  String get ferialCode => context.ferialCode ?? '';
+  String get liturgicalTime => context.liturgicalTime ?? 'ot';
+  int get precedence => context.precedence ?? 13;
+  String get liturgicalColor => context.liturgicalColor ?? 'green';
+  bool get isCelebrable => context.isCelebrable;
+  String get celebrationType => context.celebrationType ?? 'normal';
+  DataLoader get dataLoader => context.dataLoader;
+  bool get showImprecatoryVerses => context.showImprecatoryVerses;
 
   ComplineDefinition copyWith({bool? showImprecatoryVerses}) {
     return ComplineDefinition(
-      complineDescription: complineDescription,
-      celebrationCode: celebrationCode,
-      ferialCode: ferialCode,
-      liturgicalTime: liturgicalTime,
-      precedence: precedence,
-      liturgicalColor: liturgicalColor,
-      isCelebrable: isCelebrable,
+      context: context.copyWith(showImprecatoryVerses: showImprecatoryVerses),
       dayOfCompline: dayOfCompline,
-      celebrationType: celebrationType,
       isEveCompline: isEveCompline,
-      dataLoader: dataLoader,
-      showImprecatoryVerses: showImprecatoryVerses ?? this.showImprecatoryVerses,
     );
   }
 }

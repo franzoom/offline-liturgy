@@ -14,11 +14,10 @@ Future<void> resolveOfficeContent({
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
 }) async {
-  final List<Future<void>> tasks = [];
-
   // 1. Psalmody
+  final List<Future<void>> psalmTasks = [];
   if (psalmody != null) {
-    tasks.addAll(
+    psalmTasks.addAll(
       psalmody.where((e) => e.psalm != null && e.psalmData == null).map(
             (e) => PsalmsLibrary.getPsalm(e.psalm!, dataLoader)
                 .then((result) => e.psalmData = result),
@@ -29,32 +28,36 @@ Future<void> resolveOfficeContent({
   // 2. Invitatory
   final invPsalms = invitatory?.psalms;
   if (invPsalms != null && invitatory!.psalmsData == null) {
-    tasks.add(
-      Future.wait(invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
+    psalmTasks.add(
+      Future.wait(
+              invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
           .then((results) =>
               invitatory.psalmsData = results.whereType<Psalm>().toList()),
     );
   }
 
-  // 3. Hymns
-  if (hymns != null) {
-    tasks.addAll(
-      hymns.where((e) => e.hymnData == null).map(
-            (e) => HymnsLibrary.getHymn(e.code, dataLoader)
-                .then((result) => e.hymnData = result),
-          ),
-    );
-  }
+  await Future.wait(psalmTasks);
 
-  await Future.wait(tasks);
-
+  // Once psalms and invitatory are loaded, strip verses marked as imprecatory
+  // so they are never exposed to the caller.
   if (!showImprecatoryVerses) {
-    psalmody?.forEach((e) {
-      if (e.psalmData != null) e.psalmData = e.psalmData!.withoutImprecatoryVerses();
+    psalmody?.forEach((psalmEntry) {
+      psalmEntry.psalmData = psalmEntry.psalmData?.withoutImprecatoryVerses();
     });
     if (invitatory?.psalmsData != null) {
-      invitatory!.psalmsData =
-          invitatory.psalmsData!.map((p) => p.withoutImprecatoryVerses()).toList();
+      invitatory!.psalmsData = invitatory.psalmsData!
+          .map((p) => p.withoutImprecatoryVerses())
+          .toList();
     }
+  }
+
+  // 3. Hymns
+  if (hymns != null) {
+    await Future.wait(
+      hymns.where((hymnEntry) => hymnEntry.hymnData == null).map(
+            (hymnEntry) => HymnsLibrary.getHymn(hymnEntry.code, dataLoader)
+                .then((result) => hymnEntry.hymnData = result),
+          ),
+    );
   }
 }

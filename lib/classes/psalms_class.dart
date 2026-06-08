@@ -1,4 +1,6 @@
 class Psalm {
+  static final _imprecatoryBlock = RegExp(r'\n?\{[^}]+\}\[.*?\]', dotAll: true);
+
   final String? title;
   final String? subtitle;
   final String? biblicalReference;
@@ -23,6 +25,17 @@ class Psalm {
       shortReference: data['shortReference']?.toString(),
       commentary: data['commentary']?.toString(),
       content: data['content']?.toString() ?? '', // default value if null
+    );
+  }
+
+  Psalm withoutImprecatoryVerses() {
+    return Psalm(
+      title: title,
+      subtitle: subtitle,
+      biblicalReference: biblicalReference,
+      shortReference: shortReference,
+      commentary: commentary,
+      content: content.replaceAll(_imprecatoryBlock, ''),
     );
   }
 }

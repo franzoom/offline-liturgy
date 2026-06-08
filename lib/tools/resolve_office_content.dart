@@ -12,6 +12,7 @@ Future<void> resolveOfficeContent({
   Invitatory? invitatory,
   List<HymnEntry>? hymns,
   required DataLoader dataLoader,
+  bool showImprecatoryVerses = true,
 }) async {
   final List<Future<void>> tasks = [];
 
@@ -46,4 +47,14 @@ Future<void> resolveOfficeContent({
   }
 
   await Future.wait(tasks);
+
+  if (!showImprecatoryVerses) {
+    psalmody?.forEach((e) {
+      if (e.psalmData != null) e.psalmData = e.psalmData!.withoutImprecatoryVerses();
+    });
+    if (invitatory?.psalmsData != null) {
+      invitatory!.psalmsData =
+          invitatory.psalmsData!.map((p) => p.withoutImprecatoryVerses()).toList();
+    }
+  }
 }

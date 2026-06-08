@@ -135,6 +135,7 @@ class ComplineDefinition {
   final bool
       isEveCompline; // true if these are Eve Complines (like First Vespers)
   final DataLoader? dataLoader;
+  final bool showImprecatoryVerses;
 
   ComplineDefinition({
     required this.complineDescription,
@@ -148,5 +149,23 @@ class ComplineDefinition {
     required this.celebrationType,
     this.isEveCompline = false,
     this.dataLoader,
+    this.showImprecatoryVerses = false,
   });
+
+  ComplineDefinition copyWith({bool? showImprecatoryVerses}) {
+    return ComplineDefinition(
+      complineDescription: complineDescription,
+      celebrationCode: celebrationCode,
+      ferialCode: ferialCode,
+      liturgicalTime: liturgicalTime,
+      precedence: precedence,
+      liturgicalColor: liturgicalColor,
+      isCelebrable: isCelebrable,
+      dayOfCompline: dayOfCompline,
+      celebrationType: celebrationType,
+      isEveCompline: isEveCompline,
+      dataLoader: dataLoader,
+      showImprecatoryVerses: showImprecatoryVerses ?? this.showImprecatoryVerses,
+    );
+  }
 }

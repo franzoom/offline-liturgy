@@ -7,10 +7,7 @@ import 'compline_extract.dart';
 
 /// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
 /// This is called AFTER the user has picked a specific Compline option.
-Future<Compline> complineExport(
-  ComplineDefinition choice, {
-  bool showImprecatoryVerses = false,
-}) async {
+Future<Compline> complineExport(ComplineDefinition choice) async {
   final dataLoader = choice.dataLoader;
   if (dataLoader == null) {
     throw Exception("ComplineDefinition is missing a DataLoader");
@@ -29,11 +26,13 @@ Future<Compline> complineExport(
       psalmody: compline.psalmody,
       hymns: compline.hymns,
       dataLoader: dataLoader,
+      showImprecatoryVerses: choice.showImprecatoryVerses,
     ),
     if (compline.marialHymnRef != null)
       resolveOfficeContent(
         hymns: compline.marialHymnRef,
         dataLoader: dataLoader,
+        showImprecatoryVerses: choice.showImprecatoryVerses,
       ),
   ]);
 

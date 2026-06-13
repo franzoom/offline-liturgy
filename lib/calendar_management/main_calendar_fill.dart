@@ -23,8 +23,7 @@ Calendar getCalendar(
   final bool ascensionOnSunday =
       (ascensionOverride ?? getAscensionDate(location, data.locationData)) ==
           'sunday';
-  final bool corpusDominiOnThursday =
-      (corpusDominiOverride ??
+  final bool corpusDominiOnThursday = (corpusDominiOverride ??
           getCorpusDominiDate(location, data.locationData)) ==
       'thursday';
 
@@ -326,8 +325,8 @@ Calendar calendarFill(
   // adding the Holy Week days
   while (date.isBefore(liturgicalMainFeasts['EASTER']!)) {
     precedence = lentDays % 7 < 4
-        ? 9
-        : 1; // from holy Thursday, the precedence is 1, before it is 9
+        ? 2
+        : 1; // from holy Thursday, the precedence is 1, before it is 2
     String liturgicalColor = switch (lentDays % 7) {
       0 || 1 || 2 || 3 => 'violet',
       4 => 'white',
@@ -523,19 +522,21 @@ void _fillFixedSolemnities(
     orElse: () => '',
   );
   if (annunciationKey.isNotEmpty) {
-    calendar.addItemToDay(feasts[annunciationKey]!, 3, 'roman/$annunciationKey');
+    calendar.addItemToDay(
+        feasts[annunciationKey]!, 3, 'roman/$annunciationKey');
   }
 
-  calendar.addItemToDay(
-      feasts['saint_pieter_and_saint_paul']!, 3, 'roman/saint_pieter_and_saint_paul');
+  calendar.addItemToDay(feasts['saint_pieter_and_saint_paul']!, 3,
+      'roman/saint_pieter_and_saint_paul');
   calendar.addItemToDay(
       feasts['saint_john_the_baptist']!, 3, 'roman/saint_john_the_baptist');
-  calendar.addItemToDay(DateTime(year, 8, 6), 3, 'roman/transfiguration_of_the_lord');
+  calendar.addItemToDay(
+      DateTime(year, 8, 6), 3, 'roman/transfiguration_of_the_lord');
   calendar.addItemToDay(
       DateTime(year, 8, 15), 3, 'roman/assumption_of_the_blessed_virgin_mary');
   calendar.addItemToDay(DateTime(year, 11, 1), 3, 'roman/all_saints');
-  calendar.addItemToDay(
-      DateTime(year, 11, 2), 3, 'roman/commemoration_of_all_the_faithful_departed');
+  calendar.addItemToDay(DateTime(year, 11, 2), 3,
+      'roman/commemoration_of_all_the_faithful_departed');
 
   // Specific relations
   calendar.addItemRelatedToFeast(

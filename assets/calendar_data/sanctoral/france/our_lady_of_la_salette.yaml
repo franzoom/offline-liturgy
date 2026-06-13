@@ -1,6 +1,189 @@
 celebration:
-  title: Notre-Dame de la Salette
+  title: Notre-Dame de La Salette
+  subtitle: réconciliatrice des pécheurs
+  description: Cette fête célèbre les apparitions de la Vierge Marie, Réconciliatrice des pécheurs, le 19 septembre 1846 sur la montagne de La Salette.
   commons:
-    - virgin_mary
-  locative: en France
+    - virgin-mary
   color: white
+
+oration: 
+- |-
+  Seigneur, tu as réconcilié le monde avec toi, par le Sang de ton Fils, et tu as placé sa Mère près de la croix, pour la réconciliation des pécheurs ; accorde-nous, par l’intercession de la Vierge Marie, d’obtenir le pardon de nos péchés. Par Jésus Christ.
+
+invitatory: 
+    antiphon:
+      - Le Christ, né de la Vierge Marie, venez, adorons-le.
+
+morning:
+  hymn:
+  - sous-la-rosee-du-sang-du-christ
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Tu es la gloire de Jérusalem, tu es la joie d’Israël, tu es l’honneur de notre peuple.
+    - psalm: OT_41
+      antiphon:
+        - |-
+          Marie, tu es bénie par le Seigneur : par toi le fruit de vie nous est donné.
+    - psalm: PSALM_149
+      antiphon:
+        - |-
+          Tu es bénie entre toutes les femmes : en présence de Dieu tu as conjuré notre ruine.
+  reading:
+    biblicalReference: Jdt 13,25
+    content: 
+        - |-
+          Le Seigneur a rendu ton nom glorieux, aussi les hommes ne cesseront jamais de te louer : ils se souviendront éternellement de la puissance de Dieu, et que tu n’as pas craint de risquer pour eux ta propre vie.
+  responsory: |-
+    R/ Le Puissant a fait pour toi des merveilles 
+    * Vierge Marie.
+    V/ Son amour s’étend d’âge en âge, *
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common: |-
+      Tu es la mère de la miséricorde, le refuge des pécheurs, l’espoir des accusés : de toi est né le Christ, lumière d’en haut qui éclaire le monde.
+  intercession: |-
+     Implorons Jésus notre Sauveur qui a voulu naître de la Vierge Marie, et disons-lui :
+     
+     R/ Que ta Mère, Seigneur, intercède pour nous.
+     
+     Sur la Croix où tu nous rachetais, tu as donné ta Mère aux hommes comme une mère pleine de tendresse :        
+     - fais que toujours, par notre vie, nous soyons reconnus comme ses enfants.
+     
+     Toi qui as voulu associer la compassion de ta Mère à ta propre Passion, pour notre réconciliation :
+     - fais que, comme elle, pour l’Eglise, nous complétions dans notre chair ce qui manque à tes propres épreuves.
+     
+     Toi qui ne cesses de nous appeler à nous convertir sincèrement à ton amour :
+     - donne-nous, à l’exemple de Marie, de vivre chaque jour davantage dans la charité, en esprit de prière et de réconciliation.
+     
+     Toi qui as fait de ton peuple un royaume de prêtres pour la gloire du Père :
+     - accorde-nous d’offrir toujours à Dieu, par les mains de Marie, des sacrifices spirituels qui lui soient agréables.
+     
+     Toi qui es vivant dans ton Eglise que tu diriges sans cesse par l’Esprit Saint :
+     - fais qu’avec l’aide de Marie, Mère de l’Eglise, nous écoutions toujours sa voix avec amour.
+ 
+readings:
+  hymn:
+    - toi-qui-triomphes-du-serpent
+  biblicalReading:
+    - title: LECTURE DU LIVRE DE BEN SIRAC LE SAGE
+      subtitle: 
+      ref: Sir 24,1-4.8-12.19-22
+      content: |-
+        La Sagesse divine proclame son propre éloge,
+          au milieu de son peuple elle célèbre sa gloire.
+        Dans l’assemblée du Très-Haut elle prend la parole,
+          devant le Tout-Puissant elle se glorifie :
+        « Je suis sortie de la bouche du Très-Haut
+          et, comme une vapeur, j’ai couvert la terre. 
+        J’ai dressé ma tente dans les hauteurs du ciel,
+          et la colonne de nuée était mon trône.
+        Le Créateur de toutes choses m’a donné un ordre,
+          celui qui m’a créée a fixé ma demeure.
+        Il m’a dit : "Viens t’établir parmi les fils de Jacob,
+          reçois ta part d’héritage en Israël,
+            enracine-toi dans le peuple élu."
+        Dès le commencement, avant toujours, il m’a créée,
+          et toujours je subsisterai ;
+        dans la demeure sainte,
+          j’ai assuré mon service en sa présence.
+        Ainsi, il m’a fixée dans Sion,
+          il m’a fait demeurer dans la cité bien-aimée,
+          et dans Jérusalem j’exerce ma puissance.
+        Je me suis enracinée dans un peuple glorieux,
+          dans le domaine du Seigneur, dans son patrimoine :
+          j’habite au milieu de l’assemblée des saints. 
+        Venez à moi, vous qui me désirez,
+          rassasiez-vous de mes fruits.
+        Mon souvenir est plus doux que le miel,
+          mon héritage, plus doux que le miel de la ruche.
+        Mon souvenir demeure pour la suite des âges. 
+        Ceux qui me mangent auront encore faim,
+          ceux qui me boivent auront encore soif.
+        Celui qui m’obéit ne sera pas déçu.
+        Ceux qui travaillent avec moi ne seront pas pécheurs. 
+        Ceux qui cherchent ma lumière auront la vie éternelle. »
+
+      responsory: |-
+        R/ Que le Seigneur exauce vos prières, 
+        et qu’il se réconcilie avec vous
+        et ne vous abandonne pas au temps du malheur,
+        * Le Seigneur, notre Dieu        
+        V/ Qu’il vous donne, à tous, un cœur 
+        pour l’adorer et accomplir sa volonté.
+        * Le Seigneur, notre Dieu
+
+  patristicReading:
+    - title: SERMON DE SAINT BERNARD SUR LA NATIVITÉ DE LA VIERGE
+      subtitle: L’aqueduc 6,7
+      content: |-
+        Voyons de quel amour, totalement donné, Dieu veut que nous honorions Marie. Il a déposé en elle la plénitude de tout bien : ainsi il nous apprend que tout espoir, toute grâce, tout salut, débordent sur nous de celle qui s’élève, comblée de grâces.
+        Enlevez le soleil matériel qui illumine le monde, fera-t-il encore jour ? Enlevez Marie, étoile de la mer, d’une mer étendue et immense ; que reste-t-il sinon l’obscurité de toutes parts, l’ombre de la mort, les ténèbres les plus épaisses ? Du fond de notre cœur, du plus intime de nous-mêmes, de toute notre volonté, vénérons Marie : telle est la volonté de celui qui a voulu que tout nous vienne par Marie.
+        Tu redoutais de t’approcher du Père. Effrayé rien qu’à l’entendre, tu allais te cacher dans les fourrés (comme Adam après la faute). Le Père t’a donné Jésus comme médiateur. Que n’obtiendrait pas un tel Fils, auprès d’un tel Père ? Il sera exaucé en raison de sa piété filiale, car le Père aime le Fils. Celui-ci t’impressionne-t-il ? Il est ton frère, de même chair que toi, et il a tout subi, le péché excepté, pour apprendre à devenir miséricordieux. Et ce frère, c’est Marie qui te l’a donné. Mais peut-être crains-tu en lui la divine majesté car, bien que devenu homme, il demeure Dieu cependant. Veux-tu avoir un porte-parole auprès de lui ? Adresse-toi à Marie. En elle, il n’y a que l’humanité pure, non seulement parce qu’elle est pure de toute souillure mais pure parce que ne participant que de la seule nature humaine.
+        Je n’hésiterai pas à dire que Marie sera aussi exaucée par égard pour elle-même. De toute façon le Fils exaucera la Mère, et le Père exaucera le Fils. Mes petits enfants, pour les pécheurs voici l’escalier d’accès, voici ma suprême garantie, voici toute la raison d’être de mon espérance. Allons donc ? Le Fils peut-il repousser la mère, ou souffrir qu’elle soit repoussée ? Peut-il ne pas l’écouter ? Ou ne pas être écouté lui-même ? Ni l’un ni l’autre, bien sûr ! L’ange dit à Marie : %Tu as trouvé grâce auprès de Dieu%. Heureusement, oui, elle trouvera toujours grâce, cette grâce, le seul bien dont nous avons vraiment besoin. Car ce n’est que par la grâce que nous sommes sauvés.
+
+      responsory: |-
+        R/ Louez le Seigneur notre Dieu :
+        il n’a pas délaissé ceux qui espèrent en lui.
+        * En moi, sa servante,
+        il a mis le comble à son amour
+        selon sa promesse à la maison d’Israël. 
+        V/ Dieu m’a suscitée
+        afin que je sauve des peuples nombreux. 
+        * En moi, sa servante…
+
+middleOfDay:
+  reading:
+    biblicalReference: Est 7,3
+    content: 
+      - |-
+        Esther dit au Roi : « Si vraiment j’ai trouvé grâce à tes yeux, ô Roi, et si tel est ton bon plaisir, accorde-moi la vie, voilà ma demande, et la vie de mon peuple, voilà mon désir.»
+  responsory: |-
+    V/ Le Seigneur s’est souvenu de son peuple. 
+    R/ Il a pris en pitié son héritage.
+
+vespers:
+  hymn:
+  - salut-etoile-de-la-mer
+  psalmody:
+    - psalm: PSALM_121
+      antiphon:
+        - Le Puissant fit pour toi des merveilles, ô Marie, et son amour s’étend d’âge en âge sur ceux qui le craignent.
+    - psalm: PSALM_126
+      antiphon:
+        - |-
+          Par toi, Vierge immaculée, nous est donnée la vie jadis perdue : du ciel tu as reçu ton Fils et tu as mis au monde le Sauveur.
+    - psalm: NT_4
+      antiphon:
+        - En présence du Seigneur, Vierge, Mère de Dieu, souviens-toi de détourner de nous sa réprobation.
+  reading:
+    biblicalReference: Ac 1, 14
+    content: D’un seul cœur, les disciples participaient fidèlement à la prière, avec quelques femmes, dont Marie, mère de Jésus, et avec ses frères.
+  responsory: |-
+    R/ Sainte Marie, Mère de miséricorde,
+    * Intercède pour nous, pécheurs.
+    V/ Nous recourons à ta protection, *
+    Gloire au Père et au Fils et au Saint-Esprit. R/
+  evangelicAntiphon:
+    common:
+      - |-
+        Tous les âges te proclament bienheureuse, ô Marie : à ta prière, Dieu se souvient de son amour.
+  intercession: |-
+    Glorifions Dieu le Père tout-puissant qui a voulu que toutes les générations célèbrent Marie, la Mère de son Fils, et demandons-lui humblement :
+    
+    R/ Que la Vierge Réconciliatrice des pécheurs intercède pour nous.
+    
+    Dieu, qui fais des merveilles, tu as choisi la Vierge Marie pour qu’elle devienne la Mère de ton Fils :
+    - dispose nos cœurs à accueillir le Christ comme Marie l’accueillit.
+    
+    Toi qui as rendu Marie attentive à ta parole et as fait d’elle ta fidèle servante :
+    - par son intercession, fais de nous des serviteurs et des disciples de ton Fils.
+    
+    Toi qui as voulu réconcilier le monde avec toi par la croix de ton Fils :
+    - fais qu’à l’exemple de Marie, nous soyons tous ensemble des artisans de réconciliation.
+    
+    Toi qui as établi Marie, Mère de miséricorde pour tous les hommes :
+    - fais qu’ils ressentent sa tendresse maternelle quand leur âme et leur corps sont en péril.
+    
+    Toi qui as voulu que Marie partage, corps et âme, la gloire céleste du Christ :
+    - donne aux défunts de jouir pour toujours de la même gloire dans ton Royaume.

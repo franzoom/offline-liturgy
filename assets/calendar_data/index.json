@@ -436,10 +436,10 @@
   "france/our_lady_of_la_salette": {
     "color": "white",
     "commons": [
-      "virgin_mary"
+      "virgin-mary"
     ],
     "dir": "sanctoral",
-    "title": "Notre-Dame de la Salette"
+    "title": "Notre-Dame de La Salette"
   },
   "france/our_lady_of_lourdes": {
     "color": "white",
@@ -465,13 +465,102 @@
     "dir": "sanctoral",
     "title": "Saint Rémi"
   },
+  "grenoble/all_saints_of_grenoble": {
+    "color": "white",
+    "commons": [
+      "saints"
+    ],
+    "dir": "sanctoral",
+    "title": "Tous les saints de l’Église de Grenoble-Vienne"
+  },
+  "grenoble/andre_abel_alricy_priest": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux André-Abel Alricy"
+  },
+  "grenoble/assumption_of_the_blessed_virgin_mary": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Assomption de la Vierge Marie"
+  },
+  "grenoble/aupre_priest": {
+    "color": "white",
+    "commons": [
+      "pastors_missionary"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Aupre"
+  },
+  "grenoble/avit_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Avit"
+  },
+  "grenoble/barnard_arcbishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Barnard"
+  },
+  "grenoble/beatrice_d_ornacieux": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Béatrice d’Ornacieux"
+  },
+  "grenoble/cerat_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Cérat"
+  },
   "grenoble/clair_abbe": {
     "color": "white",
     "commons": [
       "pastors"
     ],
     "dir": "sanctoral",
-    "title": "Saint Clair, abbé"
+    "title": "Saint Clair"
+  },
+  "grenoble/dedication_of_the_cathedral_of_grenoble": {
+    "color": "white",
+    "commons": [
+      "dedicace"
+    ],
+    "dir": "sanctoral",
+    "title": "Anniversaire de la dédicace de la Cathédrale"
+  },
+  "grenoble/didier_bishop": {
+    "color": "red",
+    "commons": [
+      "pastors_bishop",
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Didier"
+  },
+  "grenoble/domnin_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Domnin"
   },
   "grenoble/ferjus_bishop": {
     "color": "red",
@@ -480,7 +569,7 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "Saint Ferjus, évêque de Grenoble et martyr"
+    "title": "Saint Ferjus,"
   },
   "grenoble/florent_bishop": {
     "color": "red",
@@ -489,7 +578,119 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "Saint Florent, évêque de Vienne et martyr"
+    "title": "Saint Florent"
+  },
+  "grenoble/françois_regis_clet_priest": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint François-Régis clet"
+  },
+  "grenoble/hugues_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Hugues"
+  },
+  "grenoble/hugues_of_bonnevaux_abbot": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Hugues"
+  },
+  "grenoble/julien_and_ferreol_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Julien et Ferréol"
+  },
+  "grenoble/leonien_abbot": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Léonien"
+  },
+  "grenoble/mamert_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Mamert"
+  },
+  "grenoble/martin_bishop_and_all_saints_bishops_of_Vienne": {
+    "color": "white",
+    "commons": [
+      "saints-male_multiple"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Martin et tous les saints évêques de Vienne"
+  },
+  "grenoble/maurice_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Maurice et ses compagnons"
+  },
+  "grenoble/philippine_duchesne_virgin": {
+    "color": "white",
+    "commons": [
+      "saints-female"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Philippine Duchesne"
+  },
+  "grenoble/pierre_julien_eymard_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pierre-Julien Eymard"
+  },
+  "grenoble/pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pothin évêque, Sanctus diacre, Blandine vierge et leurs compagnons"
+  },
+  "grenoble/severe_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Sévère"
+  },
+  "grenoble/severin_exupere_and_felicien_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Séverin, Exupère et Félicien"
+  },
+  "grenoble/theudere_priest": {
+    "color": "white",
+    "commons": [
+      "priest"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Theudère"
   },
   "grenoble/vincent_deacon": {
     "color": "red",
@@ -497,7 +698,7 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "Saint Vincent, diacre et martyr, patron secondaire du diocèse"
+    "title": "Saint Vincent"
   },
   "lent_0_3": {
     "dir": "ferial_days",
@@ -2861,7 +3062,7 @@
       "virgin-mary"
     ],
     "dir": "sanctoral",
-    "title": "Mémoire de Vierge Marie (le samedi)"
+    "title": "Mémoire de la Vierge Marie (le samedi)"
   },
   "roman/visitation_of_mary": {
     "color": "white",

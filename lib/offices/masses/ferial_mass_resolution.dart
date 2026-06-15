@@ -76,7 +76,7 @@ Future<Masses> _resolveAdvent(CelebrationContext context) async {
     Masses ferialMasses = await massExtract(
         '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
     Masses specialData = await massExtract(
-        '$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader);
+        '$ferialFilePath/advent_$specialDay.yaml', dataLoader);
     _overlayMasses(ferialMasses, specialData);
 
     return ferialMasses;
@@ -103,7 +103,7 @@ Future<Masses> _resolveChristmas(CelebrationContext context) async {
     Masses ferialMasses = await massExtract(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
     Masses proper = await massExtract(
-        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader);
     _overlayMasses(ferialMasses, proper);
     return ferialMasses;

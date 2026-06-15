@@ -87,13 +87,12 @@ Calendar calendarFill(
   int adventDays = 0;
   DateTime date = liturgicalMainFeasts['ADVENT']!;
   while (date.isBefore(liturgicalMainFeasts['NATIVITY']!)) {
-    precedence = date.isSunday ? 2 : 13;
-
     if (date.day < 17 || date.month == 11) {
+      precedence = date.isSunday ? 2 : 13;
       defaultCelebrationTitle =
           'advent_${(adventDays ~/ 7) + 1}_${adventDays % 7}';
     } else {
-      precedence = precedence == 13 ? 9 : 2;
+      precedence = date.isSunday ? 2 : 9;
       defaultCelebrationTitle =
           'advent-${date.day}_${(adventDays ~/ 7) + 1}_${adventDays % 7}';
       // grammar of this special days: advent-17_3_5 (12/17, 3d week, 5th day)
@@ -130,7 +129,7 @@ Calendar calendarFill(
   // adding the christmas Octave
   date = date.shift(1); // begins decembre, the 26th
   while (date.isBefore(DateTime(liturgicalYear, 1, 1))) {
-    defaultCelebrationTitle = 'roman/christmas_${date.day}';
+    defaultCelebrationTitle = 'christmas_${date.day}';
     precedence = (date.day <= 28) ? 7 : 9;
 
     if (date == liturgicalMainFeasts['HOLY_FAMILY']) {
@@ -194,7 +193,7 @@ Calendar calendarFill(
     precedence: 3,
     liturgicalColor: 'white',
     breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
-    // if the Epiphany is after the 6th, the Baptism of the Lord is the next day, on monday.
+    // if the Epiphany is after the 6th, the Baptism of the Lord is next day, on monday.
     // in this case the Epiphany is begining the first week of the new liturgical year,
     // and breviaryWeek is 1.
     // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so

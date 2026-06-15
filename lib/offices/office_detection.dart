@@ -219,13 +219,6 @@ Future<List<CelebrationContext>> detectCelebrations(
     String? celebrationDescription;
     List<String> commonList = [];
 
-    // Resolve celebration name and data
-    if (ferialDayCheck(celebrationCode)) {
-      // Ferial day: resolve name using ferialNameResolution
-      celebrationGlobalName = ferialNameResolution(celebrationCode);
-      celebrationTitle = celebrationGlobalName;
-    }
-
     // Check YAML data (pre-loaded for non-ferial, may also exist for ferial)
     final fileContent = fileContents[celebrationCode] ?? '';
     final yamlData = parseCelebrationYaml(fileContent);

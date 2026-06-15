@@ -1,4 +1,3 @@
-import '../assets/libraries/french_liturgy_labels.dart';
 import './constants.dart';
 
 extension DateNavigation on DateTime {
@@ -72,55 +71,3 @@ String breviaryWeekToRoman(int weekNumber) {
   }
 }
 
-/// Name resolution for ferial days
-/// Takes a ferial code (e.g., 'advent_3_5') and returns the French celebration name
-/// Example: 'advent_3_5' -> 'vendredi de la 3ème semaine du Temps de l'Avent'
-String ferialNameResolution(String ferialCode) {
-  // Split the ferial code by underscore
-  final parts = ferialCode.split('_');
-  if (parts.length != 3) {
-    return ferialCode; // Return original code if format is unexpected
-  }
-
-  String liturgicalTime = parts[0];
-  final weekNumber = int.tryParse(parts[1]);
-  final dayNumber = int.tryParse(parts[2]);
-  if (weekNumber == null ||
-      dayNumber == null ||
-      dayNumber < 0 ||
-      dayNumber > 6) {
-    return ferialCode;
-  }
-  // Handle special cases for Lent and Advent (e.g. with week 0 of Lent, or 'advent-17_3_5' for 17 to 24 December)
-  final liturgicalTimeParts = liturgicalTime.split('-');
-  final liturgicalTimeEssential = liturgicalTimeParts[0];
-  final int? dayNumberEssential = liturgicalTimeParts.length > 1
-      ? int.tryParse(liturgicalTimeParts[1])
-      : null;
-  final dayOfWeekLabel = daysOfWeek[dayNumber];
-  final weekOrdinal = getFrenchOrdinalFemale(weekNumber);
-  if (dayNumberEssential == null) {
-    if (liturgicalTime == "lent" && weekNumber == 0) {
-      return _firstCharacterUpperCase(
-          '${daysOfWeek[dayNumber]} après les Cendres');
-    }
-    final liturgicalTimeLabel =
-        liturgicalTimeLabels[liturgicalTime] ?? liturgicalTime;
-    return _firstCharacterUpperCase(
-        '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel');
-  }
-  switch (liturgicalTimeEssential) {
-    case 'advent':
-      return _firstCharacterUpperCase(
-          "$dayOfWeekLabel de la $weekOrdinal semaine de l'Avent ($dayNumberEssential décembre)");
-    case 'christmas':
-      return _firstCharacterUpperCase(
-          "$dayNumberEssential janvier, $weekOrdinal semaine du temps de Noël");
-    default:
-      return '';
-  }
-}
-
-String _firstCharacterUpperCase(String string) {
-  return string != '' ? string[0].toUpperCase() + string.substring(1) : '';
-}

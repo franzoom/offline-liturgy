@@ -74,21 +74,6 @@ Future<Readings> _resolveAdvent(CelebrationContext context) async {
     ]);
     ferialReadings = results[0];
     ferialReadings.overlayWith(results[1]);
-
-    // Special rule for Week 3: uses Psalm antiphons from Week 4
-    if (week == 3) {
-      final weekFour = await readingsExtract(
-          '$ferialFilePath/advent_4_$day.yaml', dataLoader);
-      if (ferialReadings.psalmody?.length == 3 &&
-          weekFour.psalmody?.length == 3) {
-        ferialReadings.psalmody = List.generate(
-            3,
-            (i) => PsalmEntry(
-                  psalm: ferialReadings.psalmody![i].psalm,
-                  antiphon: weekFour.psalmody![i].antiphon,
-                ));
-      }
-    }
   }
 
   final adventHymns = await getHymnsForSeason("advent", dataLoader);

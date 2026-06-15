@@ -3,6 +3,7 @@ import '../../classes/calendar_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/constants.dart';
 import '../office_detection.dart';
 import '../../assets/libraries/french_liturgy_labels.dart';
 
@@ -134,13 +135,15 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     final bool showSecondVespersLabel = date.isSunday ||
         (c.precedence ?? _defaultPrecedence) <=
             _firstVespersPrecedenceThreshold;
-    possibleVespers.putIfAbsent(c.celebrationTitle ?? c.celebrationCode, () => c.copyWith(
-      celebrationType: 'vespers2', // II Vespers
-      isCelebrable: isCelebrable,
-      officeDescription: showSecondVespersLabel
-          ? '${c.celebrationGlobalName}  (${celebrationTypeLabels['secondVespers']})'
-          : c.celebrationGlobalName,
-    ));
+    possibleVespers.putIfAbsent(
+        c.celebrationTitle ?? c.celebrationCode,
+        () => c.copyWith(
+              celebrationType: 'vespers2', // II Vespers
+              isCelebrable: isCelebrable,
+              officeDescription: showSecondVespersLabel
+                  ? '${c.celebrationGlobalName}  (${celebrationTypeLabels['secondVespers']})'
+                  : c.celebrationGlobalName,
+            ));
   }
 
   // Add tomorrow's high-precedence celebrations (I Vespers)

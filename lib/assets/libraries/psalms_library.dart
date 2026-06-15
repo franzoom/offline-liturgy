@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/psalms_class.dart';
 import '../../tools/data_loader.dart';
@@ -20,7 +22,7 @@ class PsalmsLibrary {
       if (rawYaml == null) return null;
       return Psalm.fromMap(convertYamlToDart(rawYaml));
     } catch (e) {
-      print('❌ Error parsing YAML for $psalmId: $e');
+      log('Error parsing YAML for $psalmId: $e', name: 'PsalmsLibrary');
       return null;
     }
   }
@@ -38,7 +40,7 @@ class PsalmsLibrary {
       final psalm = _parsePsalm(code, content);
       if (psalm != null) return _cache[code] = psalm;
     } catch (e) {
-      print('❌ Error loading psalm $code: $e');
+      log('Error loading psalm $code: $e', name: 'PsalmsLibrary');
     }
 
     return null;

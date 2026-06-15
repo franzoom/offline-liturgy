@@ -1,12 +1,6 @@
 import '../assets/libraries/french_liturgy_labels.dart';
+import './constants.dart';
 
-/*
-DateTime dayShift(DateTime date, int shift) {
-  /// adds some days to a date.
-  /// (used to avoid probleme with timeshift issues)
-  return DateTime(date.year, date.month, date.day + shift);
-}
-*/
 extension DateNavigation on DateTime {
   /// Shifts the date by a given number of [days] while preserving UTC/Local mode.
   /// This approach is safe from Daylight Saving Time (DST) hour shifts.
@@ -26,19 +20,15 @@ extension DateNavigation on DateTime {
   }
 }
 
+final _specialChristmasPattern =
+    RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');
+
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
 /// Special cases: christmas_26 to christmas_31 are NOT ferial days (they are proper celebrations)
 bool ferialDayCheck(String celebrationCode) {
-  // Special christmas days (26-31 Dec) are NOT ferial days
-  final specialChristmasPattern =
-      RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');
-  if (specialChristmasPattern.hasMatch(celebrationCode)) {
-    return false;
-  }
-
-  const prefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
-  return prefixes.any((prefix) => celebrationCode.startsWith(prefix));
+  if (_specialChristmasPattern.hasMatch(celebrationCode)) return false;
+  return timePrefixes.any((prefix) => celebrationCode.startsWith(prefix));
 }
 
 /// Filters an evangelicAntiphon map to keep only the generic key and the
@@ -82,17 +72,6 @@ String breviaryWeekToRoman(int weekNumber) {
   }
 }
 
-List dayName = [
-  '',
-  'monday',
-  'tuesday',
-  'wednesday',
-  'thursday',
-  'friday',
-  'saturday',
-  'sunday',
-];
-
 /// Name resolution for ferial days
 /// Takes a ferial code (e.g., 'advent_3_5') and returns the French celebration name
 /// Example: 'advent_3_5' -> 'vendredi de la 3ème semaine du Temps de l'Avent'
@@ -106,12 +85,11 @@ String ferialNameResolution(String ferialCode) {
   String liturgicalTime = parts[0];
   final weekNumber = int.tryParse(parts[1]);
   final dayNumber = int.tryParse(parts[2]);
-  String result = '';
   if (weekNumber == null ||
       dayNumber == null ||
       dayNumber < 0 ||
       dayNumber > 6) {
-    return ferialCode; // Return original code if parsing failed
+    return ferialCode;
   }
   // Handle special cases for Lent and Advent (e.g. with week 0 of Lent, or 'advent-17_3_5' for 17 to 24 December)
   final liturgicalTimeParts = liturgicalTime.split('-');
@@ -122,50 +100,27 @@ String ferialNameResolution(String ferialCode) {
   final dayOfWeekLabel = daysOfWeek[dayNumber];
   final weekOrdinal = getFrenchOrdinalFemale(weekNumber);
   if (dayNumberEssential == null) {
-    // Simple case
     if (liturgicalTime == "lent" && weekNumber == 0) {
-      return _firstCaracterUpperCase(
+      return _firstCharacterUpperCase(
           '${daysOfWeek[dayNumber]} après les Cendres');
     }
     final liturgicalTimeLabel =
         liturgicalTimeLabels[liturgicalTime] ?? liturgicalTime;
-
-    return _firstCaracterUpperCase(
+    return _firstCharacterUpperCase(
         '$dayOfWeekLabel de la $weekOrdinal semaine du $liturgicalTimeLabel');
   }
-  // Special case: 'advent-17 to 24' or 'christmas-2' with day number
   switch (liturgicalTimeEssential) {
     case 'advent':
-      result =
-          '$dayOfWeekLabel de la $weekOrdinal semaine de l’Avent ($dayNumberEssential décembre)';
-      break;
+      return _firstCharacterUpperCase(
+          "$dayOfWeekLabel de la $weekOrdinal semaine de l'Avent ($dayNumberEssential décembre)");
     case 'christmas':
-      result =
-          '$dayNumberEssential janvier, $weekOrdinal semaine du temps de Noël';
+      return _firstCharacterUpperCase(
+          "$dayNumberEssential janvier, $weekOrdinal semaine du temps de Noël");
     default:
-      result = '';
+      return '';
   }
-  return _firstCaracterUpperCase(result);
 }
 
-String _firstCaracterUpperCase(String string) {
+String _firstCharacterUpperCase(String string) {
   return string != '' ? string[0].toUpperCase() + string.substring(1) : '';
 }
-
-/// Day names mapping for Compline (English weekday names)
-const Map<int, String> dayNames = {
-  1: 'monday',
-  2: 'tuesday',
-  3: 'wednesday',
-  4: 'thursday',
-  5: 'friday',
-  6: 'saturday',
-  7: 'sunday',
-};
-
-/// Special celebration codes for Holy Week
-const Set<String> holyWeekCodes = {
-  'holy_thursday',
-  'holy_friday',
-  'holy_saturday',
-};

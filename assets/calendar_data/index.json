@@ -1,7 +1,59 @@
 {
+  "advent_17": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "17 décembre"
+  },
+  "advent_18": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "18 décembre"
+  },
+  "advent_19": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "19 décembre"
+  },
   "advent_1_0": {
     "dir": "ferial_days",
     "title": "Premier Dimanche de l’Avent"
+  },
+  "advent_20": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "20 décembre"
+  },
+  "advent_21": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "21 décembre"
+  },
+  "advent_22": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "22 décembre"
+  },
+  "advent_23": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "23 décembre"
+  },
+  "advent_24": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "24 décembre"
+  },
+  "advent_2_0": {
+    "dir": "ferial_days",
+    "title": "Deuxième Dimanche de l’Avent"
+  },
+  "advent_3_0": {
+    "dir": "ferial_days",
+    "title": "Troisième Dimanche de l’Avent"
+  },
+  "advent_4_0": {
+    "dir": "ferial_days",
+    "title": "Quatrième Dimanche de l’Avent"
   },
   "belgium/amand_bishop": {
     "color": "white",
@@ -319,12 +371,77 @@
     "dir": "sanctoral",
     "title": "Bienheureuse Vierge Marie du Bon Conseil"
   },
+  "christmas-ferial_before_epiphany_2": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "2 janvier"
+  },
+  "christmas-ferial_before_epiphany_3": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "3 janvier"
+  },
+  "christmas-ferial_before_epiphany_4": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "4 janvier"
+  },
+  "christmas-ferial_before_epiphany_5": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "5 janvier"
+  },
+  "christmas-ferial_before_epiphany_6": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "6 janvier"
+  },
+  "christmas-ferial_before_epiphany_7": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "7 janvier"
+  },
+  "christmas_1_0": {
+    "dir": "ferial_days",
+    "title": "Dimanche de la Sainte Famille"
+  },
+  "christmas_3_0": {
+    "dir": "ferial_days",
+    "title": "en principe jamais utilisé (christmas_3_0)"
+  },
   "easter_1_0": {
     "commons": [
       "easter"
     ],
     "dir": "ferial_days",
     "title": "Dimanche de Pâques"
+  },
+  "easter_2_0": {
+    "commons": [
+      "easter"
+    ],
+    "dir": "ferial_days",
+    "title": "Deuxième Dimanche de Pâques"
+  },
+  "easter_3_0": {
+    "dir": "ferial_days",
+    "title": "Troisième Dimanche de Pâques"
+  },
+  "easter_4_0": {
+    "dir": "ferial_days",
+    "title": "Quatrième Dimanche de Pâques"
+  },
+  "easter_5_0": {
+    "dir": "ferial_days",
+    "title": "Cinquième Dimanche de Pâques"
+  },
+  "easter_6_0": {
+    "dir": "ferial_days",
+    "title": "Sixième Dimanche de Pâques"
+  },
+  "easter_7_0": {
+    "dir": "ferial_days",
+    "title": "Septième Dimanche de Pâques"
   },
   "europe/benedict_of_nursia_abbot": {
     "color": "white",
@@ -505,7 +622,7 @@
     "dir": "sanctoral",
     "title": "Saint Avit"
   },
-  "grenoble/barnard_arcbishop": {
+  "grenoble/barnard_archbishop": {
     "color": "white",
     "commons": [
       "pastors_bishop"
@@ -529,7 +646,7 @@
     "dir": "sanctoral",
     "title": "Saint Cérat"
   },
-  "grenoble/clair_abbe": {
+  "grenoble/clair_abbot": {
     "color": "white",
     "commons": [
       "pastors"
@@ -569,7 +686,7 @@
       "martyr"
     ],
     "dir": "sanctoral",
-    "title": "Saint Ferjus,"
+    "title": "Saint Ferjus"
   },
   "grenoble/florent_bishop": {
     "color": "red",
@@ -644,6 +761,14 @@
     "dir": "sanctoral",
     "title": "Saint Maurice et ses compagnons"
   },
+  "grenoble/peter_julian_eymard_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pierre-Julien Eymard"
+  },
   "grenoble/philippine_duchesne_virgin": {
     "color": "white",
     "commons": [
@@ -651,14 +776,6 @@
     ],
     "dir": "sanctoral",
     "title": "Sainte Philippine Duchesne"
-  },
-  "grenoble/pierre_julien_eymard_priest": {
-    "color": "white",
-    "commons": [
-      "pastors"
-    ],
-    "dir": "sanctoral",
-    "title": "Saint Pierre-Julien Eymard"
   },
   "grenoble/pothinus_of_lyon_bishop_blandina_of_lyon_virgin_and_companions_martyrs": {
     "color": "red",
@@ -703,6 +820,38 @@
   "lent_0_3": {
     "dir": "ferial_days",
     "title": "Mercredi des Cendres"
+  },
+  "lent_0_4": {
+    "dir": "ferial_days",
+    "title": "Jeudi après les Cendres"
+  },
+  "lent_0_5": {
+    "dir": "ferial_days",
+    "title": "Vendredi après les Cendres"
+  },
+  "lent_0_6": {
+    "dir": "ferial_days",
+    "title": "Samedi après les Cendres"
+  },
+  "lent_1_0": {
+    "dir": "ferial_days",
+    "title": "Premier dimanche de Carême"
+  },
+  "lent_2_0": {
+    "dir": "ferial_days",
+    "title": "Deuxième Dimanche du Carême"
+  },
+  "lent_3_0": {
+    "dir": "ferial_days",
+    "title": "Troisième Dimanche du Carême"
+  },
+  "lent_4_0": {
+    "dir": "ferial_days",
+    "title": "Quatrième Dimanche du Carême"
+  },
+  "lent_5_0": {
+    "dir": "ferial_days",
+    "title": "Cinquième Dimanche du Carême"
   },
   "lent_6_0": {
     "dir": "ferial_days",
@@ -1087,6 +1236,143 @@
     "dir": "sanctoral",
     "title": "Saints Victor I^er, Miltiade et Gélase I^er"
   },
+  "ot_10_0": {
+    "dir": "ferial_days",
+    "title": "Dixième Dimanche du Temps Ordinaire"
+  },
+  "ot_11_0": {
+    "dir": "ferial_days",
+    "title": "Onzième Dimanche du Temps Ordinaire"
+  },
+  "ot_12_0": {
+    "dir": "ferial_days",
+    "title": "Douzième Dimanche du Temps Ordinaire"
+  },
+  "ot_13_0": {
+    "dir": "ferial_days",
+    "title": "Treizième Dimanche du Temps Ordinaire"
+  },
+  "ot_14_0": {
+    "dir": "ferial_days",
+    "title": "Quatorzième Dimanche du Temps Ordinaire"
+  },
+  "ot_15_0": {
+    "dir": "ferial_days",
+    "title": "Quinzième Dimanche du Temps Ordinaire"
+  },
+  "ot_16_0": {
+    "dir": "ferial_days",
+    "title": "Seizième Dimanche du Temps Ordinaire"
+  },
+  "ot_17_0": {
+    "dir": "ferial_days",
+    "title": "Dix-septième Dimanche du Temps Ordinaire"
+  },
+  "ot_18_0": {
+    "dir": "ferial_days",
+    "title": "Dix-huitième Dimanche du Temps Ordinaire"
+  },
+  "ot_19_0": {
+    "dir": "ferial_days",
+    "title": "Dix-neuvième Dimanche du Temps Ordinaire"
+  },
+  "ot_1_0": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "Baptême du Seigneur"
+  },
+  "ot_20_0": {
+    "dir": "ferial_days",
+    "title": "Vingtième Dimanche du Temps Ordinaire"
+  },
+  "ot_21_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-et-unième Dimanche du Temps Ordinaire"
+  },
+  "ot_22_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-deuxième Dimanche du Temps Ordinaire"
+  },
+  "ot_23_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-troisième Dimanche du Temps Ordinaire"
+  },
+  "ot_24_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-quatrième Dimanche du Temps Ordinaire"
+  },
+  "ot_25_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-cinquième Dimanche du Temps Ordinaire"
+  },
+  "ot_26_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-sixième Dimanche du Temps Ordinaire"
+  },
+  "ot_27_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-septième Dimanche du Temps Ordinaire"
+  },
+  "ot_28_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-huitième Dimanche du Temps Ordinaire"
+  },
+  "ot_29_0": {
+    "dir": "ferial_days",
+    "title": "Vingt-neuvième Dimanche du Temps Ordinaire"
+  },
+  "ot_2_0": {
+    "dir": "ferial_days",
+    "title": "Deuxième Dimanche du Temps Ordinaire"
+  },
+  "ot_30_0": {
+    "dir": "ferial_days",
+    "title": "Trentième Dimanche du Temps Ordinaire"
+  },
+  "ot_31_0": {
+    "dir": "ferial_days",
+    "title": "Trente-et-unième Dimanche du Temps Ordinaire"
+  },
+  "ot_32_0": {
+    "dir": "ferial_days",
+    "title": "Trente-deuxième Dimanche du Temps Ordinaire"
+  },
+  "ot_33_0": {
+    "dir": "ferial_days",
+    "title": "Trente-troisième Dimanche du Temps Ordinaire"
+  },
+  "ot_34_0": {
+    "dir": "ferial_days",
+    "title": "en principe jamais utilisé (ot_34_0)"
+  },
+  "ot_3_0": {
+    "dir": "ferial_days",
+    "title": "Troisième Dimanche du Temps Ordinaire"
+  },
+  "ot_4_0": {
+    "dir": "ferial_days",
+    "title": "Quatrième Dimanche du Temps Ordinaire"
+  },
+  "ot_5_0": {
+    "dir": "ferial_days",
+    "title": "Cinquième Dimanche du Temps Ordinaire"
+  },
+  "ot_6_0": {
+    "dir": "ferial_days",
+    "title": "Sixième Dimanche du Temps Ordinaire"
+  },
+  "ot_7_0": {
+    "dir": "ferial_days",
+    "title": "Septième Dimanche du Temps Ordinaire"
+  },
+  "ot_8_0": {
+    "dir": "ferial_days",
+    "title": "Huitième Dimanche du Temps Ordinaire"
+  },
+  "ot_9_0": {
+    "dir": "ferial_days",
+    "title": "Neuvième Dimanche du Temps Ordinaire"
+  },
   "paris/genevieve_of_paris_virgin": {
     "color": "white",
     "commons": [
@@ -1103,46 +1389,6 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Adalbert"
-  },
-  "roman/advent_17": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "17 décembre"
-  },
-  "roman/advent_18": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "18 décembre"
-  },
-  "roman/advent_19": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "19 décembre"
-  },
-  "roman/advent_20": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "20 décembre"
-  },
-  "roman/advent_21": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "21 décembre"
-  },
-  "roman/advent_22": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "22 décembre"
-  },
-  "roman/advent_23": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "23 décembre"
-  },
-  "roman/advent_24": {
-    "color": "violet",
-    "dir": "sanctoral",
-    "title": "24 décembre"
   },
   "roman/agatha_of_sicily_virgin": {
     "color": "red",
@@ -1552,75 +1798,6 @@
     "color": "white",
     "dir": "sanctoral",
     "title": "Le Christ Roi de l’univers"
-  },
-  "roman/christmas-ferial_before_epiphany_2": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "2 janvier"
-  },
-  "roman/christmas-ferial_before_epiphany_3": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "3 janvier (avant l’Épiphanie)"
-  },
-  "roman/christmas-ferial_before_epiphany_4": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "4 janvier (avant l’Épiphanie)"
-  },
-  "roman/christmas-ferial_before_epiphany_5": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "5 janvier (avant l’Épiphanie)"
-  },
-  "roman/christmas-ferial_before_epiphany_6": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "6 janvier (avant l’Épiphanie)"
-  },
-  "roman/christmas-ferial_before_epiphany_7": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "7 janvier (avant l’Épiphanie)"
-  },
-  "roman/christmas_26": {
-    "color": "red",
-    "dir": "sanctoral",
-    "title": "Saint Étienne, premier martyr"
-  },
-  "roman/christmas_27": {
-    "color": "white",
-    "dir": "sanctoral",
-    "title": "Saint Jean, Apôtre et évangéliste"
-  },
-  "roman/christmas_28": {
-    "color": "red",
-    "dir": "sanctoral",
-    "title": "Les saints Innocents, martyrs"
-  },
-  "roman/christmas_29": {
-    "color": "white",
-    "commons": [
-      "christmas"
-    ],
-    "dir": "sanctoral",
-    "title": "5ème jour dans l’octave de la Nativité"
-  },
-  "roman/christmas_30": {
-    "color": "white",
-    "commons": [
-      "christmas"
-    ],
-    "dir": "sanctoral",
-    "title": "6ème jour dans l’octave de la Nativité"
-  },
-  "roman/christmas_31": {
-    "color": "white",
-    "commons": [
-      "christmas"
-    ],
-    "dir": "sanctoral",
-    "title": "7ème jour dans l’octave de la Nativité"
   },
   "roman/christopher_magallanes_priest_and_companions_martyrs": {
     "color": "red",
@@ -2731,7 +2908,7 @@
       "pastors"
     ],
     "dir": "sanctoral",
-    "title": "Saint Pierre-Julien Aymard"
+    "title": "Saint Pierre-Julien Eymard"
   },
   "roman/philip_and_james_apostles": {
     "color": "red",

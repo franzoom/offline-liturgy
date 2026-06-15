@@ -13,13 +13,13 @@ Future<Morning> ferialMorningResolution(CelebrationContext context) {
       .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
   return switch (season) {
-    'ot'        => _resolveOrdinaryTime(context),
-    'advent'    => _resolveAdvent(context),
+    'ot' => _resolveOrdinaryTime(context),
+    'advent' => _resolveAdvent(context),
     'christmas' => _resolveChristmas(context),
-    'lent'      => _resolveLent(context),
-    'easter'    => _resolveEaster(context),
+    'lent' => _resolveLent(context),
+    'easter' => _resolveEaster(context),
     _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context),
-    _           => morningExtract('$ferialFilePath/$code.yaml', context.dataLoader),
+    _ => morningExtract('$ferialFilePath/$code.yaml', context.dataLoader),
   };
 }
 
@@ -67,7 +67,7 @@ Future<Morning> _resolveAdvent(CelebrationContext context) async {
 
     final results = await Future.wait([
       morningExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
-      morningExtract('$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader),
+      morningExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader),
     ]);
     ferialMorning = results[0];
     final Morning specialData = results[1];
@@ -120,7 +120,7 @@ Future<Morning> _resolveChristmas(CelebrationContext context) async {
     ferialMorning = await morningExtract(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
     Morning proper = await morningExtract(
-        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader);
     ferialMorning.overlayWith(proper);
   } else {

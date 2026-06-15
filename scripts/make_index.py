@@ -30,15 +30,14 @@ SOURCE_DIRS = ["sanctoral"]
 OUTPUT_FILE = ASSETS_ROOT / "index.json"
 PUBSPEC_FILE = Path("pubspec.yaml")
 
-# Individual ferial_days files whose celebration titles matter for display.
-EXTRA_FERIAL_FILES = [
-    "advent_1_0",
-    "lent_0_3",
-    "lent_6_0",
-    "lent_6_4",
-    "lent_6_5",
-    "lent_6_6",
-    "easter_1_0",
+# Glob patterns for ferial_days files whose celebration titles matter for display.
+# Each pattern is matched against ferial_days/*.yaml (stem only, no extension).
+FERIAL_PATTERNS = [
+    "*_0",                                  # All Sundays (ferial codes ending in _0)
+    "advent_1[7-9]", "advent_2[0-4]",      # Dec 17–24 proper days
+    "christmas-ferial_before_epiphany_*",   # Jan 2 to Epiphany eve proper days
+    "lent_0_[3-6]",                         # Ash Wednesday and following days
+    "lent_6_[4-6]",                         # Holy Thursday, Good Friday, Holy Saturday
 ]
 
 
@@ -106,14 +105,14 @@ def main() -> None:
             index[key] = entry
 
     ferial_dir = ASSETS_ROOT / "ferial_days"
-    print(f"ferial_days/ (selected): {len(EXTRA_FERIAL_FILES)} files")
-    for key in EXTRA_FERIAL_FILES:
-        path = ferial_dir / f"{key}.yaml"
+    ferial_keys: dict[str, Path] = {}
+    for pattern in FERIAL_PATTERNS:
+        for path in sorted(ferial_dir.glob(f"{pattern}.yaml")):
+            ferial_keys[path.stem] = path
+
+    print(f"ferial_days/ (selected): {len(ferial_keys)} files")
+    for key, path in ferial_keys.items():
         total += 1
-        if not path.exists():
-            skipped += 1
-            print(f"  SKIP: {path.name} (file not found)", file=sys.stderr)
-            continue
         entry = extract_entry(path, "ferial_days")
         if entry is None:
             skipped += 1

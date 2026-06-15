@@ -15,14 +15,14 @@ Future<Vespers> ferialVespersResolution(CelebrationContext context) {
       .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
   return switch (season) {
-    'ot'        => _resolveOrdinaryTime(context, section),
-    'advent'    => _resolveAdvent(context, section),
+    'ot' => _resolveOrdinaryTime(context, section),
+    'advent' => _resolveAdvent(context, section),
     'christmas' => _resolveChristmas(context, section),
-    'lent'      => _resolveLent(context, section),
-    'easter'    => _resolveEaster(context, section),
+    'lent' => _resolveLent(context, section),
+    'easter' => _resolveEaster(context, section),
     _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context, section),
-    _           => vespersExtract('$ferialFilePath/$code.yaml', context.dataLoader,
-          section: section),
+    _ => vespersExtract('$ferialFilePath/$code.yaml', context.dataLoader,
+        section: section),
   };
 }
 
@@ -60,8 +60,7 @@ Future<Vespers> _resolveAdvent(
   if (code.contains('advent_')) {
     final dayDatas = extractWeekAndDay(code, "advent");
     ferialVespers = await vespersExtract(
-        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
-        dataLoader,
+        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml', dataLoader,
         section: section);
   } else {
     // Special Advent (Dec 17–24)
@@ -71,7 +70,7 @@ Future<Vespers> _resolveAdvent(
     int day = int.parse(parts[2]);
 
     final results = await Future.wait([
-      vespersExtract('$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader,
+      vespersExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader,
           section: section),
       vespersExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader,
           section: section),
@@ -120,8 +119,9 @@ Future<Vespers> _resolveChristmas(
 
   if (date.month == 12) {
     // Dec 25 to 31
-    ferialVespers = await vespersExtract('$commonsFilePath/christmas.yaml',
-        dataLoader, section: section);
+    ferialVespers = await vespersExtract(
+        '$commonsFilePath/christmas.yaml', dataLoader,
+        section: section);
     Vespers proper = await vespersExtract(
         '$sanctoralFilePath/roman/christmas_${date.day}.yaml', dataLoader,
         section: section);
@@ -133,7 +133,7 @@ Future<Vespers> _resolveChristmas(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader,
         section: section);
     Vespers proper = await vespersExtract(
-        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader,
         section: section);
     ferialVespers.overlayWith(proper);
@@ -151,8 +151,7 @@ Future<Vespers> _resolveChristmas(
 }
 
 // --- LENT ---
-Future<Vespers> _resolveLent(
-    CelebrationContext context, String section) async {
+Future<Vespers> _resolveLent(CelebrationContext context, String section) async {
   final dayDatas = extractWeekAndDay(context.ferialCode!, 'lent');
   final week = dayDatas[0];
 

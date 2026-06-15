@@ -13,13 +13,13 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) {
       .firstWhere((s) => code.startsWith(s), orElse: () => '');
 
   return switch (season) {
-    'ot'        => _resolveOrdinaryTime(context),
-    'advent'    => _resolveAdvent(context),
+    'ot' => _resolveOrdinaryTime(context),
+    'advent' => _resolveAdvent(context),
     'christmas' => _resolveChristmas(context),
-    'lent'      => _resolveLent(context),
-    'easter'    => _resolveEaster(context),
+    'lent' => _resolveLent(context),
+    'easter' => _resolveEaster(context),
     _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context),
-    _           => readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader),
+    _ => readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader),
   };
 }
 
@@ -70,7 +70,7 @@ Future<Readings> _resolveAdvent(CelebrationContext context) async {
 
     final results = await Future.wait([
       readingsExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
-      readingsExtract('$sanctoralFilePath/roman/advent_$specialDay.yaml', dataLoader),
+      readingsExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader),
     ]);
     ferialReadings = results[0];
     ferialReadings.overlayWith(results[1]);
@@ -117,7 +117,7 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
     ferialReadings = await readingsExtract(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
     Readings proper = await readingsExtract(
-        '$sanctoralFilePath/roman/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$sanctoralFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader);
     ferialReadings.overlayWith(proper);
   } else {
@@ -141,9 +141,8 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
   // lent_4_0 and lent_5_0 (4th and 5th Sundays of Lent) have year-specific
   // patristic readings keyed as patristicReadingA/B/C in the YAML.
   final bool hasYearSpecificReading = day == 0 && (week == 4 || week == 5);
-  final String? year = hasYearSpecificReading
-      ? liturgicalYear(context.date.year)
-      : null;
+  final String? year =
+      hasYearSpecificReading ? liturgicalYear(context.date.year) : null;
 
   Readings ferialReadings = await readingsExtract(
       '$ferialFilePath/lent_${week}_$day.yaml', context.dataLoader,

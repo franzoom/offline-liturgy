@@ -156,6 +156,10 @@ Future<List<CelebrationContext>> detectCelebrations(
       return dataLoader.loadYaml(
           '$ferialFilePath/christmas-ferial_before_epiphany_$specialDay.yaml');
     }
+    // christmas_26–31 are proper celebrations but their YAML lives in ferial_days/
+    if (RegExp(r'^christmas_\d{2}$').hasMatch(c.code)) {
+      return dataLoader.loadYaml('$ferialFilePath/${c.code}.yaml');
+    }
     final filePath = ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
     return dataLoader.loadYaml('$filePath/${c.code}.yaml');
   });

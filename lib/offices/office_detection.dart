@@ -144,7 +144,13 @@ Future<List<CelebrationContext>> detectCelebrations(
   });
 
   // Load all YAML files in one parallel pass.
+  // For special Advent codes (advent-N_W_D, Dec 17-24), load advent_N.yaml
+  // instead of the non-existent compound filename.
   final loadFutures = allCelebrations.map((c) {
+    if (c.code.startsWith('advent-')) {
+      final specialDay = c.code.replaceFirst('advent-', '').split('_')[0];
+      return dataLoader.loadYaml('$ferialFilePath/advent_$specialDay.yaml');
+    }
     final filePath = ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
     return dataLoader.loadYaml('$filePath/${c.code}.yaml');
   });
@@ -160,6 +166,26 @@ Future<List<CelebrationContext>> detectCelebrations(
   for (int i = 0; i < allCelebrations.length; i++) {
     if (loadResults[i].isNotEmpty) {
       fileContents[allCelebrations[i].code] = loadResults[i];
+    }
+  }
+
+  // For special Advent codes, load the ferial week file (advent_W_D.yaml)
+  // to get the weekday title prefix ("Vendredi de la troisième semaine de l'Avent").
+  final Map<String, String> specialAdventFerialTitles = {};
+  final specialAdventItems =
+      allCelebrations.where((c) => c.code.startsWith('advent-')).toList();
+  if (specialAdventItems.isNotEmpty) {
+    final ferialFutures = specialAdventItems.map((c) {
+      final parts = c.code.replaceFirst('advent-', '').split('_');
+      return dataLoader.loadYaml(
+          '$ferialFilePath/advent_${parts[1]}_${parts[2]}.yaml');
+    });
+    final ferialResults = await Future.wait(ferialFutures);
+    for (int i = 0; i < specialAdventItems.length; i++) {
+      final yaml = parseCelebrationYaml(ferialResults[i]);
+      if (yaml?.title != null && yaml!.title!.isNotEmpty) {
+        specialAdventFerialTitles[specialAdventItems[i].code] = yaml.title!;
+      }
     }
   }
 
@@ -228,13 +254,21 @@ Future<List<CelebrationContext>> detectCelebrations(
       celebrationDescription = yamlData.description;
       commonList = yamlData.commons;
 
-      // Use title as celebrationTitle, build full name with subtitle
+      // Use title as celebrationTitle, build full name with subtitle.
+      // For special Advent days (Dec 17-24), prepend the weekday ferial title:
+      // "Vendredi de la troisième semaine de l'Avent — 17 décembre".
       if (yamlData.title != null && yamlData.title!.isNotEmpty) {
-        celebrationTitle = yamlData.title!;
-        celebrationGlobalName = yamlData.title!;
-        if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
-          final sub = yamlData.subtitle!;
-          celebrationGlobalName += ', ${sub[0].toLowerCase()}${sub.substring(1)}';
+        final ferialPrefix = specialAdventFerialTitles[celebrationCode];
+        if (ferialPrefix != null) {
+          celebrationTitle = '$ferialPrefix — ${yamlData.title!}';
+          celebrationGlobalName = celebrationTitle;
+        } else {
+          celebrationTitle = yamlData.title!;
+          celebrationGlobalName = yamlData.title!;
+          if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
+            final sub = yamlData.subtitle!;
+            celebrationGlobalName += ', ${sub[0].toLowerCase()}${sub.substring(1)}';
+          }
         }
       }
     }

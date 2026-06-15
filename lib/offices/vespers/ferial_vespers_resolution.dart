@@ -84,22 +84,6 @@ Future<Vespers> _resolveAdvent(
       // Weekday: base weekday + special day overlay
       ferialVespers.overlayWith(specialData);
     }
-
-    // Special rule for Week 3: uses Psalm antiphons from Week 4
-    if (week == 3) {
-      Vespers weekFour = await vespersExtract(
-          '$ferialFilePath/advent_4_$day.yaml', dataLoader,
-          section: section);
-      if (ferialVespers.psalmody?.length == 3 &&
-          weekFour.psalmody?.length == 3) {
-        ferialVespers.psalmody = List.generate(
-            3,
-            (i) => PsalmEntry(
-                  psalm: ferialVespers.psalmody![i].psalm,
-                  antiphon: weekFour.psalmody![i].antiphon,
-                ));
-      }
-    }
   }
 
   final adventHymns = await getHymnsForSeason("advent", dataLoader);

@@ -3,6 +3,7 @@ import '../../classes/compline_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/constants.dart';
 import '../office_detection.dart';
 import '../../assets/libraries/french_liturgy_labels.dart';
 
@@ -23,7 +24,7 @@ String _detectDayOfWeek(DateTime date, String celebrationType) {
     'solemnityeve' => 'saturday', // Psalms for Sunday I
     'solemnity' => 'sunday', // Psalms for Sunday II
     _ when date.weekday == DateTime.sunday => 'sunday',
-    _ => dayNames[date.weekday] ?? 'monday',
+    _ => dayName[date.weekday],
   };
 }
 
@@ -39,7 +40,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   if (dayContent == null) return possibleComplines;
 
   final String liturgicalTime = dayContent.liturgicalTime;
-  final String todayName = dayNames[date.weekday] ?? 'monday';
+  final String todayName = dayName[date.weekday];
 
   // --- Special case for octaves ---
   if (liturgicalTime == 'christmasoctave' ||
@@ -159,8 +160,8 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 4. Process tomorrow's celebrations for eve Complines
   // No eve compline when tomorrow is a Holy Week Triduum day
   // No eve compline for ferial days (even high-precedence ones like Ash Wednesday)
-  final bool tomorrowIsHolyWeek =
-      tomorrowCelebrations.any((c) => holyWeekCodes.contains(c.celebrationCode));
+  final bool tomorrowIsHolyWeek = tomorrowCelebrations
+      .any((c) => holyWeekCodes.contains(c.celebrationCode));
   final bool isTomorrowSunday = tomorrow.weekday == DateTime.sunday;
   bool tomorrowHasSolemnity = false;
 

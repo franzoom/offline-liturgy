@@ -405,6 +405,45 @@
     "dir": "ferial_days",
     "title": "Dimanche de la Sainte Famille"
   },
+  "christmas_26": {
+    "color": "red",
+    "dir": "ferial_days",
+    "title": "Saint Étienne, premier martyr"
+  },
+  "christmas_27": {
+    "color": "white",
+    "dir": "ferial_days",
+    "title": "Saint Jean, apôtre et évangéliste"
+  },
+  "christmas_28": {
+    "color": "red",
+    "dir": "ferial_days",
+    "title": "Les saints Innocents, martyrs"
+  },
+  "christmas_29": {
+    "color": "white",
+    "commons": [
+      "christmas"
+    ],
+    "dir": "ferial_days",
+    "title": "5ème jour dans l’octave de la Nativité"
+  },
+  "christmas_30": {
+    "color": "white",
+    "commons": [
+      "christmas"
+    ],
+    "dir": "ferial_days",
+    "title": "6ème jour dans l’octave de la Nativité"
+  },
+  "christmas_31": {
+    "color": "white",
+    "commons": [
+      "christmas"
+    ],
+    "dir": "ferial_days",
+    "title": "7ème jour dans l’octave de la Nativité"
+  },
   "christmas_3_0": {
     "dir": "ferial_days",
     "title": "en principe jamais utilisé (christmas_3_0)"
@@ -856,6 +895,21 @@
   "lent_6_0": {
     "dir": "ferial_days",
     "title": "Dimanche des Rameaux et de la Passion du Seigneur"
+  },
+  "lent_6_1": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "Lundi Saint"
+  },
+  "lent_6_2": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "Mardi Saint"
+  },
+  "lent_6_3": {
+    "color": "violet",
+    "dir": "ferial_days",
+    "title": "Mercredi Saint"
   },
   "lent_6_4": {
     "color": "white",

@@ -35,9 +35,10 @@ PUBSPEC_FILE = Path("pubspec.yaml")
 FERIAL_PATTERNS = [
     "*_0",                                  # All Sundays (ferial codes ending in _0)
     "advent_1[7-9]", "advent_2[0-4]",      # Dec 17–24 proper days
+    "christmas_2[6-9]", "christmas_3[0-1]", # Dec 26–31 Christmas octave days
     "christmas-ferial_before_epiphany_*",   # Jan 2 to Epiphany eve proper days
     "lent_0_[3-6]",                         # Ash Wednesday and following days
-    "lent_6_[4-6]",                         # Holy Thursday, Good Friday, Holy Saturday
+    "lent_6_[1-6]",                         # Holy Thursday, Good Friday, Holy Saturday
 ]
 
 

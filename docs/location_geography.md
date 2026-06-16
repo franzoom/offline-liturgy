@@ -15,8 +15,9 @@ parent: france           # identifier of the parent location file
 frenchName: diocèse de Lyon
 frenchLocative: dans le diocèse de Lyon
 
-epiphanyDate: sunday     # optional: 'sunday' or 'day' (Jan 6 fixed)
-ascensionDate: thursday  # optional: 'sunday' (moved) or 'thursday' (39 days after Easter)
+epiphanyDate: sunday       # optional: 'sunday' or 'day' (Jan 6 fixed)
+ascensionDate: thursday    # optional: 'sunday' (moved) or 'thursday' (39 days after Easter)
+corpusDominiDate: sunday   # optional: 'sunday' (default, 63 days after Easter) or 'thursday'
 
 feasts:
   ...
@@ -122,7 +123,7 @@ Content files are named after the short feast key. The calendar key `france/joan
 
 Every feast added by a location records a `LocationOrigin {name, locative}` in `feastOrigins` on the day. This flows through to `CelebrationContext.celebrationOrigin`, making the location name and locative available throughout office resolution and to the consumer app.
 
-## `epiphanyDate` and `ascensionDate`
+## `epiphanyDate`, `ascensionDate` and `corpusDominiDate`
 
 These control calendar structure for the whole location. They are resolved by walking the ancestor chain from most specific to root and taking the first non-null value found.
 
@@ -132,6 +133,8 @@ These control calendar structure for the whole location. They are resolved by wa
 | | `sunday` | First Sunday after January 1 |
 | `ascensionDate` | `thursday` | 39 days after Easter (traditional) |
 | | `sunday` | Moved to the following Sunday |
+| `corpusDominiDate` | `sunday` (default if unset) | 63 days after Easter |
+| | `thursday` | 60 days after Easter |
 
 ## Geography priority
 

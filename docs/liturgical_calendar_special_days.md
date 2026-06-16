@@ -116,14 +116,14 @@ Christmas Time is the most complex season. It covers five distinct sub-periods.
 Resolution is a **two-layer load**:
 
 1. **Base**: `ferial_days/christmas_{week}_{dayOffset}.yaml`
-2. **Proper**: `sanctoral/roman/christmas-ferial_before_epiphany_{dateDay}.yaml`
+2. **Proper**: `ferial_days/christmas-ferial_before_epiphany_{dateDay}.yaml`
 
 The proper is overlaid on the base. Only `christmas_1_*` files are used (and rarely `christmas_2_*` if Holy Family fell as early as Dec 26). Files `christmas_3_*` and `christmas_4_*` are **never reached**.
 
 ### 4e. Epiphany
 
 - Code: `roman/epiphany`
-- Date: January 6 (fixed) or the first Sunday on or after January 2 (moveable), depending on location `epiphanyMode`.
+- Date: January 6 (fixed) or the first Sunday on or after January 2 (moveable), depending on the location's `epiphanyDate` field (`day` or `sunday` — see `location_geography.md`).
 - Precedence: 3
 - Breviary week: 2 if Epiphany is on Jan 6 or earlier; 1 if Epiphany is after Jan 6 (in the moveable mode, the Baptism of the Lord immediately follows the next day as a Monday, resetting the breviary week).
 
@@ -147,7 +147,7 @@ The proper is overlaid on the base. Only `christmas_1_*` files are used (and rar
 
 Ascension is normally on Thursday, 39 days after Easter.
 
-Some dioceses transfer Ascension to the following Sunday (42 days after Easter). This is configured per location via `ascensionOnSunday: true`.
+Some dioceses transfer Ascension to the following Sunday (42 days after Easter). This is configured per location via the `ascensionDate: sunday` field in the location YAML file (resolved by walking the ancestor chain — see `location_geography.md`). Internally this resolves to the boolean `ascensionOnSunday` used by `calendarFill()`.
 
 ### Impact on ferial codes (Sunday Ascension only)
 
@@ -174,7 +174,7 @@ After Ascension (whether Thursday or Sunday), the remaining days until Pentecost
 | Ordinary Time | `ot_{W}_{D}` | `ferial_days/ot_{(W-1)%4+1}_{D}.yaml` + overlay `ot_{W}_{D}.yaml` if W>4 |
 | Advent (standard) | `advent_{W}_{D}` | `ferial_days/advent_{W}_{D}.yaml` |
 | Advent (Dec 17–24) | `advent-{date}_{W}_{D}` | base `advent_{W}_{D}` + proper `advent_{date}` |
-| Christmas Octave | `christmas_{dateDay}` | `sanctoral/roman/christmas_{dateDay}.yaml` |
+| Christmas Octave | `christmas_{dateDay}` | base `commons/christmas.yaml` + proper `ferial_days/christmas_{dateDay}.yaml` |
 | Jan 2 – Epiphany eve | `christmas-{date}_{W}_{D}` | base `christmas_{W}_{D}` + proper `christmas-ferial_before_epiphany_{date}` |
 | Post-Epiphany | `christmas_2_{N}` | `ferial_days/christmas_2_{weekday}.yaml` |
 | Lent | `lent_{W}_{D}` | `ferial_days/lent_{W}_{D}.yaml` |

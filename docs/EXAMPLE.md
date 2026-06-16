@@ -183,7 +183,7 @@ class Morning {
   List<PsalmEntry>?      psalmody;          // Psalms — psalmData is populated
   Reading?               reading;           // Short biblical reading
   String?                responsory;        // Responsory text
-  Map<String, String>?   evangelicAntiphon; // Benedictus antiphon; keys: 'antiphon', 'A', 'B', 'C'
+  Map<String, List<String>>? evangelicAntiphon; // Benedictus antiphon; keys: 'antiphon', 'A', 'B', 'C'
   Psalm?                 evangelicCanticle; // Benedictus (always populated)
   Intercession?          intercession;      // Intercessions text
   List<String>?          oration;           // Concluding prayer

@@ -101,9 +101,9 @@ The ferial resolution files (`ferial_morning_resolution.dart`, etc.) handle days
 
 | Days | Path pattern |
 |---|---|
-| Privileged Advent days (17–24 Dec) | `sanctoral/roman/advent_17.yaml` … `advent_24.yaml` |
-| Christmas Octave (26–31 Dec) | `sanctoral/roman/christmas_26.yaml` … `christmas_31.yaml` |
-| Days before Epiphany (2–7 Jan) | `sanctoral/roman/christmas-ferial_before_epiphany_2.yaml` … |
+| Privileged Advent days (17–24 Dec) | `ferial_days/advent_17.yaml` … `advent_24.yaml` |
+| Christmas Octave (26–31 Dec) | `ferial_days/christmas_26.yaml` … `christmas_31.yaml` |
+| Days before Epiphany (2–7 Jan) | `ferial_days/christmas-ferial_before_epiphany_2.yaml` … |
 
 ## `index.json`
 

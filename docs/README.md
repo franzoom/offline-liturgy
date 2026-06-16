@@ -158,7 +158,7 @@ class Morning {
   List<PsalmEntry>? psalmody;      // Psalms with antiphons
   Reading? reading;                // Short biblical reading
   String? responsory;
-  Map<String, String>? evangelicAntiphon; // Benedictus antiphon (A/B/C)
+  Map<String, List<String>>? evangelicAntiphon; // Benedictus antiphon (A/B/C)
   Psalm? evangelicCanticle;        // Benedictus
   Intercession? intercession;
   List<String>? oration;
@@ -246,11 +246,15 @@ All moveable feasts are computed from Easter using the Meeus/Jones/Butcher algor
 assets/
   calendar_data/
     common_feasts.yaml          # 200+ universal Roman feasts
-    ferial_days/                # season_week_day.yaml  (e.g. ot_3_5.yaml)
-    special_days/               # nativity, easter, pentecost, holy_thursday, advent_17–24, etc.
+    index.json                  # code -> title/color/commons lookup table (generated)
+    ferial_days/                # season_week_day.yaml (e.g. ot_3_5.yaml), plus privileged
+                                 # days with their own proper text: advent_17–24,
+                                 # christmas_26–31, christmas-ferial_before_epiphany_2–7
     commons/                    # hierarchical common texts
     complines/                  # compline texts by weekday and season
-    sanctoral/                  # individual saint YAML files
+    sanctoral/                  # individual feast YAML files, by origin (roman/, lyon/, ...);
+                                 # includes structurally distinct days (nativity, easter,
+                                 # pentecost, holy_thursday, etc.)
   locations/                    # continent / country / diocese / city YAML files
   hymns/                        # ~60 liturgical hymns (French)
   psalms/                       # PSALM_1–150, OT_1–43, NT_1–12 + gradual psalms

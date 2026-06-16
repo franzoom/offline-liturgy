@@ -165,6 +165,8 @@ class Morning {
 }
 ```
 
+The `Invitatory` offers up to 4 candidate psalms (`PSALM_94`, `PSALM_66`, `PSALM_99`, `PSALM_23` by default). Any candidate already present in that day's **final, merged** Lauds `psalmody` is excluded. This exclusion runs in `morningExport`, after ferial/common/proper overlays are fully resolved — not while extracting an individual YAML file, since a Memorial's invitatory can come from the Common while the day keeps its ferial psalmody (or vice versa).
+
 ### Vespers
 
 Same structure as Morning, with `Magnificat` as the evangelic canticle. Vespers distinguishes between `vespers1` (first vespers, eve of a solemnity) and `vespers2` (second vespers, the day itself).

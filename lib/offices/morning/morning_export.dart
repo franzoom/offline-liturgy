@@ -66,7 +66,24 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
 
-  // 5. HYDRATION: Resolve full texts
+  // 5. Invitatory: exclude psalms already used in the final, merged Lauds
+  // psalmody (must run after merging — a Memorial's invitatory may come from
+  // the Common while the day keeps the ferial psalmody, or vice versa).
+  final invitatoryPsalms = morningOffice.invitatory?.psalms;
+  if (invitatoryPsalms != null) {
+    final usedPsalms = morningOffice.psalmody
+            ?.where((entry) => entry.psalm != null)
+            .map((entry) => entry.psalm!)
+            .toSet() ??
+        {};
+    morningOffice.invitatory = Invitatory(
+      antiphon: morningOffice.invitatory!.antiphon,
+      psalms:
+          invitatoryPsalms.where((psalm) => !usedPsalms.contains(psalm)).toList(),
+    );
+  }
+
+  // 6. HYDRATION: Resolve full texts
   await resolveOfficeContent(
     psalmody: morningOffice.psalmody,
     invitatory: morningOffice.invitatory,
@@ -88,11 +105,11 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
             : null;
   }
 
-  // 6. Filter evangelicAntiphon: keep only default + current year
+  // 7. Filter evangelicAntiphon: keep only default + current year
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
       morningOffice.evangelicAntiphon, celebrationContext.date.year);
 
-  // 7. Apply paschal alléluia to antiphons
+  // 8. Apply paschal alléluia to antiphons
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {
     for (int i = 0; i < invitatoryAntiphon.length; i++) {
@@ -104,7 +121,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   morningOffice.evangelicAntiphon = applyPaschalToAntiphonMap(
       morningOffice.evangelicAntiphon, liturgicalTime);
 
-  // 8. Assign the evangelic canticle (Benedictus)
+  // 9. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;
 
   return morningOffice;

@@ -94,7 +94,7 @@ Future<Masses> _resolveChristmas(CelebrationContext context) async {
     Masses ferialMasses =
         await massExtract('$commonsFilePath/christmas.yaml', dataLoader);
     Masses proper = await massExtract(
-        '$sanctoralFilePath/roman/christmas_${date.day}.yaml', dataLoader);
+        '$ferialFilePath/christmas_${date.day}.yaml', dataLoader);
     _overlayMasses(ferialMasses, proper);
     return ferialMasses;
   } else if (code.contains('-')) {
@@ -103,7 +103,7 @@ Future<Masses> _resolveChristmas(CelebrationContext context) async {
     Masses ferialMasses = await massExtract(
         '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
     Masses proper = await massExtract(
-        '$sanctoralFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
+        '$ferialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader);
     _overlayMasses(ferialMasses, proper);
     return ferialMasses;

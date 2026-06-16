@@ -39,30 +39,17 @@ Future<Morning> morningExtract(
       morning = Morning();
     }
 
-    // 5. Invitatory Logic: Prevent psalm repetition
+    // 5. Invitatory: default candidate psalms if none specified.
+    // Repetition with the Morning psalmody is filtered later in morningExport,
+    // once the psalmody has been fully resolved across ferial/common/proper layers.
     if (data['invitatory'] is Map<String, dynamic>) {
       final invitatory =
           Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>);
 
-      // Default invitatory psalms if none specified
-      List<String> invitatoryPsalms =
-          invitatory.psalms ?? ["PSALM_94", "PSALM_66", "PSALM_99", "PSALM_23"];
-
-      // Filtering: Removes psalms that are already present in the Morning psalmody
-      if (morning.psalmody != null) {
-        final existingPsalms = morning.psalmody!
-            .where((entry) => entry.psalm != null)
-            .map((entry) => entry.psalm!)
-            .toSet();
-
-        invitatoryPsalms = invitatoryPsalms
-            .where((psalm) => !existingPsalms.contains(psalm))
-            .toList();
-      }
-
       morning.invitatory = Invitatory(
         antiphon: invitatory.antiphon,
-        psalms: invitatoryPsalms,
+        psalms: invitatory.psalms ??
+            const ["PSALM_94", "PSALM_66", "PSALM_99", "PSALM_23"],
       );
     }
 

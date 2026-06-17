@@ -4,6 +4,12 @@ import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
 import 'data_loader.dart';
 
+/// Returns the SVG lookup key for a psalm code, stripping the part suffix
+/// from multi-part psalms (e.g. PSALM_134_1 → PSALM_134) while leaving
+/// OT_N and NT_N keys unchanged.
+String _svgKey(String psalmCode) =>
+    psalmCode.replaceFirstMapped(RegExp(r'^(PSALM_\d+)_\d+$'), (m) => m.group(1)!);
+
 /// Resolves psalm and hymn codes into full content instances.
 /// Works for any office type — just pass the relevant fields.
 /// Psalmody, Invitatory, and Hymns are all hydrated in-place.
@@ -13,6 +19,7 @@ Future<void> resolveOfficeContent({
   List<HymnEntry>? hymns,
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
+  String? svgSource,
 }) async {
   // 1. Psalmody
   final List<Future<void>> psalmTasks = [];
@@ -23,17 +30,39 @@ Future<void> resolveOfficeContent({
                 .then((result) => e.psalmData = result),
           ),
     );
+    if (svgSource != null) {
+      psalmTasks.addAll(
+        psalmody.where((e) => e.psalm != null && e.svgData == null).map(
+              (e) => dataLoader
+                  .load('svg/$svgSource/${_svgKey(e.psalm!)}.svg')
+                  .then((content) {
+                if (content.isNotEmpty) e.svgData = [content];
+              }),
+            ),
+      );
+    }
   }
 
   // 2. Invitatory
   final invPsalms = invitatory?.psalms;
-  if (invPsalms != null && invitatory!.psalmsData == null) {
-    psalmTasks.add(
-      Future.wait(
-              invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
-          .then((results) =>
-              invitatory.psalmsData = results.whereType<Psalm>().toList()),
-    );
+  if (invPsalms != null) {
+    final inv = invitatory!;
+    if (inv.psalmsData == null) {
+      psalmTasks.add(
+        Future.wait(invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
+            .then((results) => inv.psalmsData = results.whereType<Psalm>().toList()),
+      );
+    }
+    if (svgSource != null && inv.psalmsSvgData == null) {
+      psalmTasks.add(
+        Future.wait(invPsalms.map((code) => dataLoader.load('svg/$svgSource/${_svgKey(code)}.svg')))
+            .then((results) {
+          inv.psalmsSvgData = results
+              .map((content) => content.isNotEmpty ? <String>[content] : null)
+              .toList();
+        }),
+      );
+    }
   }
 
   await Future.wait(psalmTasks);

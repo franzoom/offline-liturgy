@@ -13,6 +13,7 @@ class Morning {
   Psalm? evangelicCanticle;
   Intercession? intercession;
   List<String>? oration;
+  List<String>? canticleSvgData;
 
   Morning({
     this.celebration,
@@ -25,6 +26,7 @@ class Morning {
     this.evangelicCanticle,
     this.intercession,
     this.oration,
+    this.canticleSvgData,
   });
 
   /// Creates Morning instance from dynamic data (JSON/YAML) with type safety

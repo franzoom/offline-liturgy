@@ -58,13 +58,18 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     ];
   }
 
-  // Hydrate psalm and hymn content
+  // Hydrate psalm and hymn content (canticle SVG starts in parallel)
+  final Future<String>? canticleSvgFuture = celebrationContext.svgSource != null
+      ? celebrationContext.dataLoader
+          .load('svg/${celebrationContext.svgSource}/NT_1.svg')
+      : null;
   await resolveOfficeContent(
     psalmody: vespersOffice.psalmody,
     invitatory: vespersOffice.invitatory,
     hymns: vespersOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
+    svgSource: celebrationContext.svgSource,
   );
 
   // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply
@@ -88,6 +93,12 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
 
   // Assign the evangelic canticle (Magnificat)
   vespersOffice.evangelicCanticle = magnificat;
+
+  // Apply canticle SVG (was loading in parallel with psalmody hydration)
+  if (canticleSvgFuture != null) {
+    final svgContent = await canticleSvgFuture;
+    if (svgContent.isNotEmpty) vespersOffice.canticleSvgData = [svgContent];
+  }
 
   return vespersOffice;
 }

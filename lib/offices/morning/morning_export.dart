@@ -83,13 +83,18 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     );
   }
 
-  // 6. HYDRATION: Resolve full texts
+  // 6. HYDRATION: Resolve full texts (canticle SVG starts in parallel)
+  final Future<String>? canticleSvgFuture = celebrationContext.svgSource != null
+      ? celebrationContext.dataLoader
+          .load('svg/${celebrationContext.svgSource}/NT_2.svg')
+      : null;
   await resolveOfficeContent(
     psalmody: morningOffice.psalmody,
     invitatory: morningOffice.invitatory,
     hymns: morningOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
+    svgSource: celebrationContext.svgSource,
   );
 
   // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply
@@ -123,6 +128,12 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   // 9. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;
+
+  // 10. Apply canticle SVG (was loading in parallel since step 6)
+  if (canticleSvgFuture != null) {
+    final svgContent = await canticleSvgFuture;
+    if (svgContent.isNotEmpty) morningOffice.canticleSvgData = [svgContent];
+  }
 
   return morningOffice;
 }

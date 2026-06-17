@@ -1,7 +1,7 @@
 #CLAUDE.md - Context for Claude Code
 
 <System_context>
-  - project: Dart package `offline_liturgy` v2.2.0 — builds a universal Catholic liturgical calendar and resolves all Divine Office content (Morning, Vespers, Readings, Compline, MiddleOfDay)
+  - project: Dart package `offline_liturgy` v2.3.0 — builds a universal Catholic liturgical calendar and resolves all Divine Office content (Morning, Vespers, Readings, Compline, MiddleOfDay)
   - main goal: provide a package for an interface app (Flutter consumer via rootBundle DataLoader)
   - dart SDK: ^3.4.1 | deps: yaml ^3.1.1 | dev: test ^1.31.0, lints ^6.1.0
 </System_context>

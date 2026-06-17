@@ -209,6 +209,10 @@ class HourOffice {
   }
 }
 
+class _Unset {
+  const _Unset();
+}
+
 /// Context class containing all parameters needed for office resolution.
 /// This class consolidates MorningDefinition, VespersDefinition, and ReadingsDefinition.
 class CelebrationContext {
@@ -313,6 +317,7 @@ class CelebrationContext {
     String? massName,
     bool? showImprecatoryVerses,
     LocationOrigin? celebrationOrigin,
+    Object? svgSource = const _Unset(),
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -338,6 +343,7 @@ class CelebrationContext {
       showImprecatoryVerses:
           showImprecatoryVerses ?? this.showImprecatoryVerses,
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
+      svgSource: svgSource is _Unset ? this.svgSource : svgSource as String?,
     );
   }
 }

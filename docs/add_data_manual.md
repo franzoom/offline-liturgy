@@ -381,6 +381,8 @@ vespers:
 | `intercession` | `content` : texte des intercessions |
 | `oration` | sinon hérité de la racine du fichier |
 
+> **Partitions SVG** — Les fichiers de psaumes individuels (`assets/psalms/PSALM_23.yaml`, etc.) peuvent déclarer une clef `psalmSVG` pour associer une partition musicale. Ce n'est pas à renseigner dans les fichiers de fêtes, mais dans les fichiers de psaumes eux-mêmes. Par défaut, l'application cherche un fichier SVG du même nom que le psaume (`PSALM_23 → PSALM_23.svg`). Quand le nom du fichier SVG diffère du code du psaume, on le précise dans le fichier du psaume : `psalmSVG: PSALM_131-II` (chaîne) ou `psalmSVG: [PSALM_117_a, PSALM_117_b]` (liste).
+
 #### `morning` (Laudes)
 
 Structure identique à `vespers` ci-dessus — seul l'`evangelicAntiphon` correspond alors au Benedictus plutôt qu'au Magnificat. La psalmodie comprend généralement trois psaumes : un psaume du matin, un cantique de l'Ancien Testament (codes `OT_...`), et un psaume de louange.

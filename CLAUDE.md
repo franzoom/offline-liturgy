@@ -79,6 +79,7 @@
     assets/ (lib/assets/)
       psalms_library.dart              # getPsalm(key, dataLoader) — loads PSALM_N / OT_N / NT_N
       hymns_library.dart               # getHymn(key, dataLoader)
+      svg_library.dart                 # SvgLibrary.getSvgForPsalm() — loads SVG music sheets as raw strings
       gradual_psalms.dart              # mid-day gradual psalms
       french_liturgy_labels.dart       # liturgicalTimeLabels, daysOfWeek maps in French
       usual_texts.dart                 # recurring texts (Te Deum, blessings)
@@ -95,6 +96,9 @@
     locations/                         # continent → country → diocese → city → church hierarchy YAML files
     hymns/                             # ~60 YAML hymn files (French)
     psalms/                            # PSALM_1–150 + OT_1–43 + NT_1–12 YAML files + hebrew-greek/ (gradual psalms)
+                                       # psalm YAML may include optional `psalmSVG: name` or `psalmSVG: [name1, name2]`
+    svg/                               # SVG music sheets, organized by source: svg/{source}/{NAME}.svg
+                                       # current sources: seminaire-emmanuel/, seminaire-paris/
     mass_missal/                       # Mass text files
 
   scripts/                             # Python migration/conversion utilities (maintenance only, not for runtime)
@@ -113,7 +117,15 @@
 
   ## CelebrationContext (central context for all office resolution)
   Fields: celebrationType, celebrationCode, date, liturgicalTime, breviaryWeek, precedence, teDeum, commonList, liturgicalColor, dataLoader, celebrationOrigin
+  svgSource: String? — name of the SVG source directory under assets/svg/ (e.g. 'seminaire-emmanuel'); null = no SVG loading
   Getters: selectedCommon, isFirstVespers, isSecondVespers
+
+  ## Psalm / PsalmEntry — SVG music sheets
+  Psalm.psalmSVG: List<String>? — SVG filenames (without extension) declared in the psalm YAML via `psalmSVG`
+  PsalmEntry.svgData: List<String>? — raw SVG strings, populated by resolveOfficeContent() when context.svgSource != null
+  Filename resolution (SvgLibrary): psalmSVG declared → use those names; else strip trailing _N if >1 underscore:
+    PSALM_117_4 → PSALM_117 | PSALM_23 → PSALM_23 | OT_4 → OT_4
+  Files loaded from: svg/{svgSource}/{name}.svg — missing files silently skipped
 
   ## Location
   Location.applyToCalendar(calendar, year, mainFeasts)   — applies local feasts

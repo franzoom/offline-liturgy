@@ -173,6 +173,7 @@ Key fields read by `morningExport`:
 | `date` | Liturgical year A/B/C for evangelic antiphon |
 | `dataLoader` | Asset loading |
 | `showImprecatoryVerses` | Whether bracketed psalm verses are included |
+| `svgSource` | Directory name under `assets/svg/` for music sheets; `null` = no SVG loading |
 
 ### Return value: `Morning`
 
@@ -190,7 +191,7 @@ class Morning {
 }
 ```
 
-Psalms and hymns are **fully hydrated**: `psalmEntry.psalmData` and `hymnEntry.hymnData` contain the complete text, ready to display.
+Psalms and hymns are **fully hydrated**: `psalmEntry.psalmData` and `hymnEntry.hymnData` contain the complete text, ready to display. When `svgSource` is set, `psalmEntry.svgData` contains the raw SVG string(s) for the music sheet (null when no SVG file exists for that psalm).
 
 The `evangelicAntiphon` map after export contains at most two keys: `'antiphon'` (the common antiphon) and the current year (`'A'`, `'B'`, or `'C'`). Use `'antiphon'` as the default when the year-specific one is absent.
 
@@ -227,6 +228,7 @@ final common = selected.commonList?.isNotEmpty == true
 final context = selected.copyWith(
   commonList: common != null ? [common] : [],
   showImprecatoryVerses: false,
+  svgSource: 'seminaire-emmanuel', // optional: load SVG music sheets
 );
 
 final Morning morning = await morningExport(context);
@@ -238,6 +240,12 @@ for (final entry in morning.psalmody ?? []) {
   print(entry.psalm);                        // e.g. "PSALM_63"
   print(entry.psalmData?.content);           // full psalm text
   print(entry.antiphon?.first);              // antiphon text
+  for (final svg in entry.svgData ?? []) {   // raw SVG strings (empty if no sheet)
+    final customised = svg
+        .replaceAll('font-family="Lato"', 'font-family="MyFont"')
+        .replaceAll('fill="black"', 'fill="#3b2a1a"');
+    // render customised SVG
+  }
 }
 print(morning.evangelicAntiphon?['antiphon']); // Benedictus antiphon
 print(morning.evangelicCanticle?.content);     // Benedictus text

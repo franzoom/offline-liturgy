@@ -90,6 +90,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     hymns: morningOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
+    svgSource: celebrationContext.svgSource,
   );
 
   // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply

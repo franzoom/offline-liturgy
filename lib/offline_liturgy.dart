@@ -28,3 +28,4 @@ export 'offices/middle_of_day/middle_of_day_detection.dart';
 export 'classes/vespers_class.dart';
 export 'offices/vespers/vespers_export.dart';
 export 'offices/vespers/vespers_detection.dart';
+export 'assets/libraries/svg_library.dart';

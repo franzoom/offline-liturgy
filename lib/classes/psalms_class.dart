@@ -7,6 +7,7 @@ class Psalm {
   final String? shortReference;
   final String? commentary;
   final String content;
+  final List<String>? psalmSVG;
 
   const Psalm({
     this.title,
@@ -15,6 +16,7 @@ class Psalm {
     this.shortReference,
     this.commentary,
     required this.content,
+    this.psalmSVG,
   });
 
   factory Psalm.fromMap(Map<String, dynamic> data) {
@@ -24,7 +26,12 @@ class Psalm {
       biblicalReference: data['biblicalReference']?.toString(),
       shortReference: data['shortReference']?.toString(),
       commentary: data['commentary']?.toString(),
-      content: data['content']?.toString() ?? '', // default value if null
+      content: data['content']?.toString() ?? '',
+      psalmSVG: switch (data['psalmSVG']) {
+        String s => [s],
+        List l => l.map((e) => e.toString()).toList(),
+        _ => null,
+      },
     );
   }
 
@@ -36,6 +43,7 @@ class Psalm {
       shortReference: shortReference,
       commentary: commentary,
       content: content.replaceAll(_imprecatoryBlock, ''),
+      psalmSVG: psalmSVG,
     );
   }
 }

@@ -2,6 +2,7 @@ import '../classes/office_elements_class.dart';
 import '../classes/psalms_class.dart';
 import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
+import '../assets/libraries/svg_library.dart';
 import 'data_loader.dart';
 
 /// Resolves psalm and hymn codes into full content instances.
@@ -13,6 +14,7 @@ Future<void> resolveOfficeContent({
   List<HymnEntry>? hymns,
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
+  String? svgSource,
 }) async {
   // 1. Psalmody
   final List<Future<void>> psalmTasks = [];
@@ -51,7 +53,18 @@ Future<void> resolveOfficeContent({
     }
   }
 
-  // 3. Hymns
+  // 3. SVG music sheets (parallel load, psalmody only — invitatory excluded)
+  if (svgSource != null && psalmody != null) {
+    await Future.wait(
+      psalmody.where((e) => e.psalm != null && e.svgData == null).map(
+            (e) => SvgLibrary.getSvgForPsalm(
+                    e.psalm!, e.psalmData, svgSource, dataLoader)
+                .then((svgs) => e.svgData = svgs.isEmpty ? null : svgs),
+          ),
+    );
+  }
+
+  // 4. Hymns
   if (hymns != null) {
     await Future.wait(
       hymns.where((hymnEntry) => hymnEntry.hymnData == null).map(

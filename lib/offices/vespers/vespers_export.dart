@@ -65,6 +65,7 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     hymns: vespersOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
+    svgSource: celebrationContext.svgSource,
   );
 
   // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply

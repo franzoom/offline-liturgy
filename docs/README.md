@@ -116,7 +116,7 @@ final celebrations = await detectCelebrations(calendar, DateTime(2026, 3, 25), d
 // returns a List<CelebrationContext> sorted by precedence (most solemn first)
 ```
 
-Each `CelebrationContext` contains everything needed to load the office content: celebration code, liturgical season, breviary week, commons list, liturgical color, origin location, etc.
+Each `CelebrationContext` contains everything needed to load the office content: celebration code, liturgical season, breviary week, commons list, liturgical color, origin location, etc. Set the optional `svgSource` field to load SVG music sheets alongside psalm text (see SVG Music Sheets below).
 
 ### 5. Load an office
 
@@ -258,6 +258,10 @@ assets/
   locations/                    # continent / country / diocese / city YAML files
   hymns/                        # ~60 liturgical hymns (French)
   psalms/                       # PSALM_1–150, OT_1–43, NT_1–12 + gradual psalms
+                                 # each psalm YAML may optionally declare psalmSVG (see below)
+  svg/                          # SVG music sheets, organised by source
+    seminaire-emmanuel/         # e.g. PSALM_23.svg, OT_4.svg
+    seminaire-paris/
   mass_missal/                  # Mass texts
 ```
 
@@ -277,6 +281,62 @@ abstract class DataLoader {
 
 - `FileSystemDataLoader` — reads from disk (CLI / Dart standalone)
 - Provide your own implementation for Flutter (`rootBundle`) or other environments
+
+---
+
+## SVG Music Sheets
+
+Morning Prayer and Vespers support loading psalm music scores as raw SVG strings. This allows the consumer to display or post-process them (e.g. replace font family or colours).
+
+### Enabling SVG loading
+
+Set `svgSource` on the `CelebrationContext` before calling `morningExport()` or `vespersExport()`:
+
+```dart
+final context = selected.copyWith(
+  commonList: common != null ? [common] : [],
+  svgSource: 'seminaire-emmanuel', // directory name under assets/svg/
+);
+
+final morning = await morningExport(context);
+```
+
+### Consuming SVG data
+
+After export, each `PsalmEntry` in `psalmody` may carry a `svgData` field:
+
+```dart
+for (final entry in morning.psalmody ?? []) {
+  for (final svg in entry.svgData ?? []) {
+    final customised = svg
+        .replaceAll('font-family="Lato"', 'font-family="Playfair Display"')
+        .replaceAll('fill="black"', 'fill="#3b2a1a"');
+    // display customised SVG
+  }
+}
+```
+
+`svgData` is `null` when no SVG file was found for a psalm (not all psalms have a score). Missing files are silently skipped.
+
+### SVG filename resolution
+
+The package looks for `svg/{svgSource}/{name}.svg`. The filename is resolved in two ways:
+
+1. **Explicit** — the psalm YAML file declares `psalmSVG: PSALM_131-II` (string) or `psalmSVG: [name1, name2]` (list). This handles psalms whose SVG filename differs from the psalm code.
+2. **Default** — derived from the psalm code by stripping the trailing part number when more than one underscore is present:
+   - `PSALM_117_4` → `PSALM_117.svg`
+   - `PSALM_23` → `PSALM_23.svg`
+   - `OT_4` → `OT_4.svg`
+
+### Adding `psalmSVG` to a psalm YAML
+
+```yaml
+# assets/psalms/PSALM_131_2.yaml
+title: Psaume 131-II
+psalmSVG: PSALM_131-II   # overrides the default PSALM_131 derivation
+content: |-
+  ...
+```
 
 ---
 

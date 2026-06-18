@@ -11,6 +11,7 @@ class Vespers {
   String? responsory;
   Map<String, List<String>>? evangelicAntiphon;
   Psalm? evangelicCanticle;
+  List<String>? evangelicCanticleSvgData;
   Intercession? intercession;
   List<String>? oration;
 
@@ -23,6 +24,7 @@ class Vespers {
     this.responsory,
     this.evangelicAntiphon,
     this.evangelicCanticle,
+    this.evangelicCanticleSvgData,
     this.intercession,
     this.oration,
   });

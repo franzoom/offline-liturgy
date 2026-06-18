@@ -8,6 +8,7 @@ import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../assets/usual_texts.dart';
+import '../../assets/libraries/svg_library.dart';
 
 /// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
 /// 1. Ferial base
@@ -87,8 +88,13 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   vespersOffice.evangelicAntiphon =
       applyPaschalToAntiphonMap(vespersOffice.evangelicAntiphon, lt);
 
-  // Assign the evangelic canticle (Magnificat)
+  // Assign the evangelic canticle (Magnificat) and load its SVG tone
   vespersOffice.evangelicCanticle = magnificat;
+  if (celebrationContext.svgSource != null) {
+    final svgs = await SvgLibrary.getSvgForPsalm(
+        'NT_1', magnificat, celebrationContext.svgSource!, celebrationContext.dataLoader);
+    vespersOffice.evangelicCanticleSvgData = svgs.isEmpty ? null : svgs;
+  }
 
   return vespersOffice;
 }

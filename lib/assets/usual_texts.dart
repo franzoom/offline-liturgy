@@ -10,6 +10,7 @@ const Psalm magnificat = Psalm(
   commentary: null,
   biblicalReference: 'Lc 1, 47-55',
   shortReference: 'NT 1',
+  psalmSVG: ['NT_1'],
   content: '{47}Mon âme ex_a_lte le Seigneur,\n'
       'exulte mon esprit en Die_u_, mon Sauveur !\n'
       '\n'
@@ -44,6 +45,7 @@ const Psalm benedictus = Psalm(
   commentary: null,
   biblicalReference: 'Lc 1, 68-79',
   shortReference: 'NT 2',
+  psalmSVG: ['NT_2'],
   content: '{68}Béni soit le Seigneur, le Die_u_ d\'Israël,\n'
       'qui visite et rach_è_te son peuple.\n'
       '\n'

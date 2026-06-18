@@ -42,8 +42,9 @@ class Invitatory {
   final List<String>? antiphon;
   final List<String>? psalms;
   List<Psalm>? psalmsData;
+  List<List<String>?>? psalmsSvgData;
 
-  Invitatory({this.antiphon, this.psalms, this.psalmsData});
+  Invitatory({this.antiphon, this.psalms, this.psalmsData, this.psalmsSvgData});
 
   factory Invitatory.fromJson(Map<String, dynamic> json) {
     return Invitatory(

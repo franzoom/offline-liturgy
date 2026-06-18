@@ -53,15 +53,35 @@ Future<void> resolveOfficeContent({
     }
   }
 
-  // 3. SVG music sheets (parallel load, psalmody only — invitatory excluded)
-  if (svgSource != null && psalmody != null) {
-    await Future.wait(
-      psalmody.where((e) => e.psalm != null && e.svgData == null).map(
-            (e) => SvgLibrary.getSvgForPsalm(
-                    e.psalm!, e.psalmData, svgSource, dataLoader)
-                .then((svgs) => e.svgData = svgs.isEmpty ? null : svgs),
-          ),
-    );
+  // 3. SVG music sheets (parallel load — psalmody and invitatory)
+  if (svgSource != null) {
+    final svgTasks = <Future<void>>[];
+    if (psalmody != null) {
+      svgTasks.addAll(
+        psalmody.where((e) => e.psalm != null && e.svgData == null).map(
+              (e) => SvgLibrary.getSvgForPsalm(
+                      e.psalm!, e.psalmData, svgSource, dataLoader)
+                  .then((svgs) => e.svgData = svgs.isEmpty ? null : svgs),
+            ),
+      );
+    }
+    final inv = invitatory;
+    final invPsalmsData = inv?.psalmsData;
+    if (inv != null && invPsalmsData != null && inv.psalmsSvgData == null) {
+      final codes = inv.psalms ?? [];
+      svgTasks.add(
+        Future.wait(List.generate(invPsalmsData.length, (i) {
+          final code = i < codes.length ? codes[i] : null;
+          if (code == null) return Future.value(<String>[]);
+          return SvgLibrary.getSvgForPsalm(
+              code, invPsalmsData[i], svgSource, dataLoader);
+        })).then((results) {
+          inv.psalmsSvgData =
+              results.map((svgs) => svgs.isEmpty ? null : svgs).toList();
+        }),
+      );
+    }
+    await Future.wait(svgTasks);
   }
 
   // 4. Hymns

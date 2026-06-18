@@ -9,6 +9,7 @@ import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
 import '../../assets/usual_texts.dart';
+import '../../assets/libraries/svg_library.dart';
 
 /// Resolves the Morning Prayer (Lauds).
 /// Priority logic: Proper > Common > Ferial base.
@@ -122,8 +123,13 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   morningOffice.evangelicAntiphon = applyPaschalToAntiphonMap(
       morningOffice.evangelicAntiphon, liturgicalTime);
 
-  // 9. Assign the evangelic canticle (Benedictus)
+  // 9. Assign the evangelic canticle (Benedictus) and load its SVG tone
   morningOffice.evangelicCanticle = benedictus;
+  if (celebrationContext.svgSource != null) {
+    final svgs = await SvgLibrary.getSvgForPsalm(
+        'NT_2', benedictus, celebrationContext.svgSource!, celebrationContext.dataLoader);
+    morningOffice.evangelicCanticleSvgData = svgs.isEmpty ? null : svgs;
+  }
 
   return morningOffice;
 }

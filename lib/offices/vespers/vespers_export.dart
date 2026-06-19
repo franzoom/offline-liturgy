@@ -90,6 +90,13 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // Assign the evangelic canticle (Magnificat)
   vespersOffice.evangelicCanticle = magnificat;
 
+  // Load canticle SVG tone (Magnificat = NT_1)
+  if (celebrationContext.svgSource != null) {
+    final svgContent = await celebrationContext.dataLoader
+        .load('svg/${celebrationContext.svgSource}/NT_1.svg');
+    if (svgContent.isNotEmpty) vespersOffice.canticleSvgData = [svgContent];
+  }
+
   return vespersOffice;
 }
 

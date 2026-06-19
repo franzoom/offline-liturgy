@@ -13,6 +13,7 @@ class Vespers {
   Psalm? evangelicCanticle;
   Intercession? intercession;
   List<String>? oration;
+  List<String>? canticleSvgData;
 
   Vespers({
     this.celebration,
@@ -25,6 +26,7 @@ class Vespers {
     this.evangelicCanticle,
     this.intercession,
     this.oration,
+    this.canticleSvgData,
   });
 
   /// Creates Vespers instance from dynamic data (YAML/JSON) with type safety

@@ -125,5 +125,12 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   // 9. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;
 
+  // 10. Load canticle SVG tone (Benedictus = NT_2)
+  if (celebrationContext.svgSource != null) {
+    final svgContent = await celebrationContext.dataLoader
+        .load('svg/${celebrationContext.svgSource}/NT_2.svg');
+    if (svgContent.isNotEmpty) morningOffice.canticleSvgData = [svgContent];
+  }
+
   return morningOffice;
 }

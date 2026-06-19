@@ -13,6 +13,7 @@ Future<void> resolveOfficeContent({
   List<HymnEntry>? hymns,
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
+  String? svgSource,
 }) async {
   // 1. Psalmody
   final List<Future<void>> psalmTasks = [];
@@ -23,6 +24,17 @@ Future<void> resolveOfficeContent({
                 .then((result) => e.psalmData = result),
           ),
     );
+    if (svgSource != null) {
+      psalmTasks.addAll(
+        psalmody.where((e) => e.psalm != null && e.svgData == null).map(
+              (e) => dataLoader
+                  .load('svg/$svgSource/${e.psalm!}.svg')
+                  .then((content) {
+                if (content.isNotEmpty) e.svgData = [content];
+              }),
+            ),
+      );
+    }
   }
 
   // 2. Invitatory

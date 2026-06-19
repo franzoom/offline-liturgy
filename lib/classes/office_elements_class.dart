@@ -103,8 +103,9 @@ class PsalmEntry {
   final String? psalm;
   final List<String>? antiphon;
   Psalm? psalmData;
+  List<String>? svgData;
 
-  PsalmEntry({this.psalm, this.antiphon, this.psalmData});
+  PsalmEntry({this.psalm, this.antiphon, this.psalmData, this.svgData});
 
   factory PsalmEntry.fromJson(Map<String, dynamic> json) {
     return PsalmEntry(
@@ -235,6 +236,7 @@ class CelebrationContext {
   final bool showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
   // Location that added this feast; null = Roman calendar
   final LocationOrigin? celebrationOrigin;
+  final String? svgSource; // URL or path to the SVG psalm score source
 
   const CelebrationContext({
     this.celebrationType,
@@ -257,6 +259,7 @@ class CelebrationContext {
     this.massName,
     this.showImprecatoryVerses = false,
     this.celebrationOrigin,
+    this.svgSource,
   });
 
   /// Returns the first common from commonList.
@@ -309,6 +312,7 @@ class CelebrationContext {
     String? massName,
     bool? showImprecatoryVerses,
     LocationOrigin? celebrationOrigin,
+    String? svgSource,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -334,6 +338,7 @@ class CelebrationContext {
       showImprecatoryVerses:
           showImprecatoryVerses ?? this.showImprecatoryVerses,
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
+      svgSource: svgSource ?? this.svgSource,
     );
   }
 }

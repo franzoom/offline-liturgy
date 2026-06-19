@@ -39,13 +39,24 @@ Future<void> resolveOfficeContent({
 
   // 2. Invitatory
   final invPsalms = invitatory?.psalms;
-  if (invPsalms != null && invitatory!.psalmsData == null) {
-    psalmTasks.add(
-      Future.wait(
-              invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
-          .then((results) =>
-              invitatory.psalmsData = results.whereType<Psalm>().toList()),
-    );
+  if (invPsalms != null) {
+    final inv = invitatory!;
+    if (inv.psalmsData == null) {
+      psalmTasks.add(
+        Future.wait(invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
+            .then((results) => inv.psalmsData = results.whereType<Psalm>().toList()),
+      );
+    }
+    if (svgSource != null && inv.psalmsSvgData == null) {
+      psalmTasks.add(
+        Future.wait(invPsalms.map((code) => dataLoader.load('svg/$svgSource/$code.svg')))
+            .then((results) {
+          inv.psalmsSvgData = results
+              .map((content) => content.isNotEmpty ? <String>[content] : null)
+              .toList();
+        }),
+      );
+    }
   }
 
   await Future.wait(psalmTasks);

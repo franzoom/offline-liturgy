@@ -83,7 +83,11 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     );
   }
 
-  // 6. HYDRATION: Resolve full texts
+  // 6. HYDRATION: Resolve full texts (canticle SVG starts in parallel)
+  final Future<String>? canticleSvgFuture = celebrationContext.svgSource != null
+      ? celebrationContext.dataLoader
+          .load('svg/${celebrationContext.svgSource}/NT_2.svg')
+      : null;
   await resolveOfficeContent(
     psalmody: morningOffice.psalmody,
     invitatory: morningOffice.invitatory,
@@ -125,10 +129,9 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   // 9. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;
 
-  // 10. Load canticle SVG tone (Benedictus = NT_2)
-  if (celebrationContext.svgSource != null) {
-    final svgContent = await celebrationContext.dataLoader
-        .load('svg/${celebrationContext.svgSource}/NT_2.svg');
+  // 10. Apply canticle SVG (was loading in parallel since step 6)
+  if (canticleSvgFuture != null) {
+    final svgContent = await canticleSvgFuture;
     if (svgContent.isNotEmpty) morningOffice.canticleSvgData = [svgContent];
   }
 

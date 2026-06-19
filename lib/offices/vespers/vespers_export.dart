@@ -58,7 +58,11 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     ];
   }
 
-  // Hydrate psalm and hymn content
+  // Hydrate psalm and hymn content (canticle SVG starts in parallel)
+  final Future<String>? canticleSvgFuture = celebrationContext.svgSource != null
+      ? celebrationContext.dataLoader
+          .load('svg/${celebrationContext.svgSource}/NT_1.svg')
+      : null;
   await resolveOfficeContent(
     psalmody: vespersOffice.psalmody,
     invitatory: vespersOffice.invitatory,
@@ -90,10 +94,9 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // Assign the evangelic canticle (Magnificat)
   vespersOffice.evangelicCanticle = magnificat;
 
-  // Load canticle SVG tone (Magnificat = NT_1)
-  if (celebrationContext.svgSource != null) {
-    final svgContent = await celebrationContext.dataLoader
-        .load('svg/${celebrationContext.svgSource}/NT_1.svg');
+  // Apply canticle SVG (was loading in parallel with psalmody hydration)
+  if (canticleSvgFuture != null) {
+    final svgContent = await canticleSvgFuture;
     if (svgContent.isNotEmpty) vespersOffice.canticleSvgData = [svgContent];
   }
 

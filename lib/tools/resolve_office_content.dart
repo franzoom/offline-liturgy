@@ -4,6 +4,12 @@ import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
 import 'data_loader.dart';
 
+/// Returns the SVG lookup key for a psalm code, stripping the part suffix
+/// from multi-part psalms (e.g. PSALM_134_1 → PSALM_134) while leaving
+/// OT_N and NT_N keys unchanged.
+String _svgKey(String psalmCode) =>
+    psalmCode.replaceFirstMapped(RegExp(r'^(PSALM_\d+)_\d+$'), (m) => m.group(1)!);
+
 /// Resolves psalm and hymn codes into full content instances.
 /// Works for any office type — just pass the relevant fields.
 /// Psalmody, Invitatory, and Hymns are all hydrated in-place.
@@ -28,7 +34,7 @@ Future<void> resolveOfficeContent({
       psalmTasks.addAll(
         psalmody.where((e) => e.psalm != null && e.svgData == null).map(
               (e) => dataLoader
-                  .load('svg/$svgSource/${e.psalm!}.svg')
+                  .load('svg/$svgSource/${_svgKey(e.psalm!)}.svg')
                   .then((content) {
                 if (content.isNotEmpty) e.svgData = [content];
               }),
@@ -49,7 +55,7 @@ Future<void> resolveOfficeContent({
     }
     if (svgSource != null && inv.psalmsSvgData == null) {
       psalmTasks.add(
-        Future.wait(invPsalms.map((code) => dataLoader.load('svg/$svgSource/$code.svg')))
+        Future.wait(invPsalms.map((code) => dataLoader.load('svg/$svgSource/${_svgKey(code)}.svg')))
             .then((results) {
           inv.psalmsSvgData = results
               .map((content) => content.isNotEmpty ? <String>[content] : null)

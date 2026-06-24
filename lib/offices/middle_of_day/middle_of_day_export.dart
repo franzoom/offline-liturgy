@@ -57,6 +57,7 @@ Future<MiddleOfDay> middleOfDayExport(
       celebrationContext.precedence! <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
+      properPsalmody: celebrationOverlay.psalmody,
       isFerialTheCelebration:
           celebrationContext.celebrationCode == celebrationContext.ferialCode,
       isPaschalOctave: liturgicalTime == 'paschaloctave',
@@ -189,6 +190,7 @@ Future<MiddleOfDay> middleOfDayExport(
 /// Builds per-hour psalmody lists on [office] for solemnities (step 3b).
 void _buildPerHourPsalmody(
   MiddleOfDay office, {
+  required List<PsalmEntry>? properPsalmody,
   required bool isFerialTheCelebration,
   required bool isPaschalOctave,
   required bool isSunday,
@@ -214,7 +216,7 @@ void _buildPerHourPsalmody(
       ),
     );
   } else {
-    final basePsalms = office.psalmody;
+    final basePsalms = properPsalmody;
     if (basePsalms != null && basePsalms.isNotEmpty) {
       office.psalmodyTierce = _withAntiphon(basePsalms, tierceAntiphon);
       office.psalmodySexte = _withAntiphon(basePsalms, sexteAntiphon);

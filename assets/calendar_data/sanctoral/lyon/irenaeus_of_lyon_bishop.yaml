@@ -133,9 +133,12 @@ readings:
 
 middleOfDay:
   psalmody:
-    - antiphon: Le Seigneur leur a donné la victoire dans un combat redoutable ; il leur a fait comprendre ainsi que la fidélité à Dieu est la plus grande force.
-    - antiphon: Le Seigneur leur a donné la victoire dans un combat redoutable ; il leur a fait comprendre ainsi que la fidélité à Dieu est la plus grande force.
-    - antiphon: Le Seigneur leur a donné la victoire dans un combat redoutable ; il leur a fait comprendre ainsi que la fidélité à Dieu est la plus grande force.
+    - antiphon:
+      - Le Seigneur leur a donné la victoire dans un combat redoutable ; il leur a fait comprendre ainsi que la fidélité à Dieu est la plus grande force.
+    - antiphon: 
+      - Le Seigneur leur a donné la victoire dans un combat redoutable ; il leur a fait comprendre ainsi que la fidélité à Dieu est la plus grande force.
+    - antiphon:
+      -  Le Seigneur leur a donné la victoire dans un combat redoutable ; il leur a fait comprendre ainsi que la fidélité à Dieu est la plus grande force.
   tierce:
     reading:
       biblicalReference: Sg 3, 1-3

@@ -48,7 +48,11 @@ class Invitatory {
 
   factory Invitatory.fromJson(Map<String, dynamic> json) {
     return Invitatory(
-      antiphon: (json['antiphon'] as List?)?.map((e) => e.toString()).toList(),
+      antiphon: switch (json['antiphon']) {
+        List list => list.map((e) => e.toString()).toList(),
+        String s => [s],
+        _ => null,
+      },
       psalms: (json['psalms'] as List?)?.map((e) => e.toString()).toList(),
     );
   }
@@ -111,7 +115,11 @@ class PsalmEntry {
   factory PsalmEntry.fromJson(Map<String, dynamic> json) {
     return PsalmEntry(
       psalm: json['psalm']?.toString(),
-      antiphon: (json['antiphon'] as List?)?.map((e) => e.toString()).toList(),
+      antiphon: switch (json['antiphon']) {
+        List list => list.map((e) => e.toString()).toList(),
+        String s => [s],
+        _ => null,
+      },
     );
   }
 }

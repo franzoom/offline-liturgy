@@ -100,7 +100,9 @@ const Psalm nuncDimittis = Psalm(
       'et donne gloire à ton pe_u_ple Israël.',
 );
 
-const String teDeum = 'À toi Dieu, notre louange !\n'
+const Hymns teDeum = Hymns(
+  title: 'Te Deum',
+  content: 'À toi Dieu, notre louange !\n'
     'Nous t\'acclamons, tu es Seigneur !\n'
     'À toi Père éternel,\n'
     'L\'hymne de l\'univers.\n'
@@ -153,7 +155,8 @@ const String teDeum = 'À toi Dieu, notre louange !\n'
     'pitité pour nous, Seigneur, pitié pour nous\n'
     '\n'
     'Ton amour, Seigneur, soit sur nous\n'
-    'comme notre espoir est en toi.';
+    'comme notre espoir est en toi.',
+);
 
 const Hymns notrePere = Hymns(
   title: 'Notre Père',
@@ -176,12 +179,12 @@ const Hymns notrePere = Hymns(
 const Hymns confiteor = Hymns(
   title: 'Je confesse à Dieu',
   content: 'Je confesse à Dieu tout-puissant,\n'
-      'je reconnais devant mes frères,\n'
+      'je reconnais devant vous, frères et sœurs,\n'
       'que j’ai péché en pensée, en paroles,\n'
       'par action et par omission ;\n'
       'oui j’ai vraiment péché.\n'
       'C’est pourquoi je supplie la Vierge Marie,\n'
       'les anges et tous les saints,\n'
-      'et vous aussi mes frères,\n'
+      'et vous aussi, frères et sœurs,\n'
       'de prier pour moi le Seigneur notre Dieu.',
 );

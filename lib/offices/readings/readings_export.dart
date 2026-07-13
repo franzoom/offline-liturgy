@@ -46,10 +46,7 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   // STEP 5: Te Deum — only for Feasts and Solemnities (precedence ≤ 7), never in Holy Week
   final bool hasTeDeum = prec <= 7 && lt != 'holyweek' &&
       context.celebrationCode != 'commemoration_of_all_the_faithful_departed';
-  readingsOffice.tedeum = hasTeDeum;
-  if (hasTeDeum) {
-    readingsOffice.tedeumContent = teDeum;
-  }
+  readingsOffice.teDeum = hasTeDeum ? teDeum : null;
 
   // Holy Week: assign Passion hymns if no proper hymn is defined
   const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};

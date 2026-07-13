@@ -1,4 +1,5 @@
 import 'office_elements_class.dart';
+import 'hymns_class.dart';
 
 /// Class representing the Office of Readings (Leçons) structure
 class Readings {
@@ -7,8 +8,7 @@ class Readings {
   List<PsalmEntry>? psalmody;
   List<BiblicalReading>? biblicalReading;
   List<PatristicReading>? patristicReading;
-  bool? tedeum;
-  String? tedeumContent;
+  Hymns? teDeum;
   String? verse;
   List<String>? oration;
 
@@ -18,8 +18,7 @@ class Readings {
     this.psalmody,
     this.biblicalReading,
     this.patristicReading,
-    this.tedeum,
-    this.tedeumContent,
+    this.teDeum,
     this.verse,
     this.oration,
   });
@@ -60,7 +59,6 @@ class Readings {
               ? (data['patristicReading$year'] ?? data['patristicReading'])
               : data['patristicReading'],
           PatristicReading.fromJson),
-      tedeum: data['tedeum'] as bool?,
       verse: data['verse']?.toString(),
       oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
     );
@@ -98,7 +96,7 @@ class Readings {
       biblicalReading = overlay.biblicalReading;
     if (overlay.patristicReading != null)
       patristicReading = overlay.patristicReading;
-    if (overlay.tedeum != null) tedeum = overlay.tedeum;
+    if (overlay.teDeum != null) teDeum = overlay.teDeum;
     if (overlay.verse != null) verse = overlay.verse;
     if (overlay.oration != null) oration = overlay.oration;
   }
@@ -121,7 +119,7 @@ class Readings {
       (psalmody == null || psalmody!.isEmpty) &&
       (biblicalReading == null || biblicalReading!.isEmpty) &&
       (patristicReading == null || patristicReading!.isEmpty) &&
-      tedeum == null &&
+      teDeum == null &&
       (verse == null || verse!.isEmpty) &&
       (oration == null || oration!.isEmpty);
 }

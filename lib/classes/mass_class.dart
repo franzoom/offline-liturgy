@@ -36,7 +36,7 @@ sealed class MassReadingContent {}
 /// Content for READING and EPISTLE parts.
 class MassReading extends MassReadingContent {
   final String? biblicalRef;
-  final String? cycle;
+  final List<String>? cycle;
   final String? headline;
   final String? content;
   final String? shortReadingRef;
@@ -53,7 +53,7 @@ class MassReading extends MassReadingContent {
 
   factory MassReading.fromJson(Map<String, dynamic> json) => MassReading(
         biblicalRef: json['biblicalRef']?.toString(),
-        cycle: json['cycle']?.toString(),
+        cycle: (json['cycle'] as List?)?.map((e) => e.toString()).toList(),
         headline: json['headline']?.toString(),
         content: json['content']?.toString(),
         shortReadingRef: json['shortReadingRef']?.toString(),
@@ -65,7 +65,7 @@ class MassReading extends MassReadingContent {
 class MassPsalm extends MassReadingContent {
   final String? biblicalRef;
   final String? refAbbr;
-  final String? cycle;
+  final List<String>? cycle;
   final List<MassChorusEntry>? chorus;
   final String? content;
 
@@ -80,7 +80,7 @@ class MassPsalm extends MassReadingContent {
   factory MassPsalm.fromJson(Map<String, dynamic> json) => MassPsalm(
         biblicalRef: json['biblicalRef']?.toString(),
         refAbbr: json['refAbbr']?.toString(),
-        cycle: json['cycle']?.toString(),
+        cycle: (json['cycle'] as List?)?.map((e) => e.toString()).toList(),
         chorus: (json['chorus'] as List?)
             ?.whereType<Map<String, dynamic>>()
             .map((e) => MassChorusEntry.fromJson(e))
@@ -92,7 +92,7 @@ class MassPsalm extends MassReadingContent {
 /// Content for the GOSPEL part.
 class MassGospel extends MassReadingContent {
   final String? biblicalRef;
-  final String? cycle;
+  final List<String>? cycle;
   final String? headline;
   final String? beforeAcclamationAntiphon;
   final String? acclamationAntiphon;
@@ -111,7 +111,7 @@ class MassGospel extends MassReadingContent {
 
   factory MassGospel.fromJson(Map<String, dynamic> json) => MassGospel(
         biblicalRef: json['biblicalRef']?.toString(),
-        cycle: json['cycle']?.toString(),
+        cycle: (json['cycle'] as List?)?.map((e) => e.toString()).toList(),
         headline: json['headline']?.toString(),
         beforeAcclamationAntiphon:
             json['beforeAcclamationAntiphon']?.toString(),
@@ -212,41 +212,55 @@ class Mass {
   }
 
   /// Overlays this Mass instance with data from another instance.
-  /// Simple fields are replaced if the overlay provides them.
-  /// For readingParts, overlay entries replace matching partTypes in the base;
-  /// base parts with no matching overlay entry are preserved.
+  /// All fields are replaced wholesale if the overlay provides them.
+  /// readingParts is replaced as a whole rather than merged part-by-part:
+  /// some days (Sundays, the Easter Vigil) have several entries sharing the
+  /// same partType (e.g. two READING entries), and every mass: block in the
+  /// data is already a complete, self-contained Liturgy of the Word, so a
+  /// partType-keyed merge would silently collapse those repeated entries.
   void overlayWith(Mass overlay) {
     if (overlay.massType != null) massType = overlay.massType;
     if (overlay.name != null) name = overlay.name;
     if (overlay.note != null) note = overlay.note;
     if (overlay.entranceAntiphon != null) entranceAntiphon = overlay.entranceAntiphon;
     if (overlay.collect != null) collect = overlay.collect;
-
     if (overlay.readingParts != null && overlay.readingParts!.isNotEmpty) {
-      if (readingParts != null && readingParts!.isNotEmpty) {
-        final Map<String, MassReadingPart> merged = {
-          for (final p in readingParts!) p.partType: p,
-        };
-        for (final part in overlay.readingParts!) {
-          merged[part.partType] = part;
-        }
-        readingParts = readingParts!.map((p) => merged[p.partType]!).toList();
-        for (final part in overlay.readingParts!) {
-          if (!readingParts!.any((p) => p.partType == part.partType)) {
-            readingParts!.add(part);
-          }
-        }
-      } else {
-        readingParts = overlay.readingParts;
-      }
+      readingParts = overlay.readingParts;
     }
-
     if (overlay.offeringPrayer != null) offeringPrayer = overlay.offeringPrayer;
     if (overlay.prefaceList != null) prefaceList = overlay.prefaceList;
     if (overlay.communionAntiphon != null) communionAntiphon = overlay.communionAntiphon;
     if (overlay.prayerAfterCommunion != null) prayerAfterCommunion = overlay.prayerAfterCommunion;
     if (overlay.solemnBlessingList != null) solemnBlessingList = overlay.solemnBlessingList;
   }
+
+  /// Selective overlay for Common of Saints Mass texts (no such data exists
+  /// yet, added for parity with the other office classes' overlayWithCommon).
+  /// readingParts is NOT taken from the common — same rationale as
+  /// Readings.overlayWithCommon: the ferial/proper Liturgy of the Word is
+  /// kept unless the celebration's own YAML supplies it.
+  void overlayWithCommon(Mass common) {
+    if (common.entranceAntiphon != null) entranceAntiphon = common.entranceAntiphon;
+    if (common.collect != null) collect = common.collect;
+    if (common.offeringPrayer != null) offeringPrayer = common.offeringPrayer;
+    if (common.prefaceList != null) prefaceList = common.prefaceList;
+    if (common.communionAntiphon != null) communionAntiphon = common.communionAntiphon;
+    if (common.prayerAfterCommunion != null) prayerAfterCommunion = common.prayerAfterCommunion;
+    if (common.solemnBlessingList != null) solemnBlessingList = common.solemnBlessingList;
+  }
+
+  bool get isEmpty =>
+      massType == null &&
+      name == null &&
+      note == null &&
+      (entranceAntiphon == null || entranceAntiphon!.isEmpty) &&
+      (collect == null || collect!.isEmpty) &&
+      (readingParts == null || readingParts!.isEmpty) &&
+      (offeringPrayer == null || offeringPrayer!.isEmpty) &&
+      (prefaceList == null || prefaceList!.isEmpty) &&
+      (communionAntiphon == null || communionAntiphon!.isEmpty) &&
+      (prayerAfterCommunion == null || prayerAfterCommunion!.isEmpty) &&
+      (solemnBlessingList == null || solemnBlessingList!.isEmpty);
 }
 
 /// Container for all Mass types of a given liturgical day.
@@ -264,4 +278,38 @@ class Masses {
     );
   }
 
+  /// Merges overlay Mass objects into this Masses by matching on massType.
+  /// Existing massTypes are overlaid via Mass.overlayWith; massTypes present
+  /// in overlay but not in this Masses are appended.
+  void overlayWith(Masses overlay) {
+    if (overlay.masses == null || overlay.masses!.isEmpty) return;
+    masses ??= [];
+    for (final overlayMass in overlay.masses!) {
+      final index =
+          masses!.indexWhere((m) => m.massType == overlayMass.massType);
+      if (index >= 0) {
+        masses![index].overlayWith(overlayMass);
+      } else {
+        masses!.add(overlayMass);
+      }
+    }
+  }
+
+  /// Selective overlay for Common of Saints Mass texts: only enriches
+  /// massTypes already selected for the day, it never introduces a new
+  /// mass type from the common.
+  void overlayWithCommon(Masses common) {
+    if (common.masses == null || common.masses!.isEmpty || masses == null) {
+      return;
+    }
+    for (final commonMass in common.masses!) {
+      final index =
+          masses!.indexWhere((m) => m.massType == commonMass.massType);
+      if (index >= 0) {
+        masses![index].overlayWithCommon(commonMass);
+      }
+    }
+  }
+
+  bool get isEmpty => masses == null || masses!.isEmpty;
 }

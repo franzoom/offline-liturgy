@@ -4,22 +4,6 @@ import '../../tools/extract_week_and_day.dart';
 import '../../tools/constants.dart';
 import './mass_extract.dart';
 
-/// Merges overlay Mass objects into base Masses by matching on massType.
-/// Each matching Mass in base calls overlayWith; new massTypes are appended.
-void _overlayMasses(Masses base, Masses overlay) {
-  if (overlay.masses == null || overlay.masses!.isEmpty) return;
-  base.masses ??= [];
-  for (final overlayMass in overlay.masses!) {
-    final index =
-        base.masses!.indexWhere((m) => m.massType == overlayMass.massType);
-    if (index >= 0) {
-      base.masses![index].overlayWith(overlayMass);
-    } else {
-      base.masses!.add(overlayMass);
-    }
-  }
-}
-
 /// Resolves Mass content for ferial days.
 Future<Masses> ferialMassResolution(CelebrationContext context) async {
   final code = context.ferialCode ?? context.celebrationCode;
@@ -49,7 +33,7 @@ Future<Masses> _resolveOrdinaryTime(CelebrationContext context) async {
   if (week > 4) {
     Masses aux = await massExtract(
         '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
-    _overlayMasses(ferialMasses, aux);
+    ferialMasses.overlayWith(aux);
   }
 
   return ferialMasses;
@@ -77,7 +61,7 @@ Future<Masses> _resolveAdvent(CelebrationContext context) async {
         '$ferialFilePath/advent_${week}_$day.yaml', dataLoader);
     Masses specialData = await massExtract(
         '$ferialFilePath/advent_$specialDay.yaml', dataLoader);
-    _overlayMasses(ferialMasses, specialData);
+    ferialMasses.overlayWith(specialData);
 
     return ferialMasses;
   }
@@ -95,7 +79,7 @@ Future<Masses> _resolveChristmas(CelebrationContext context) async {
         await massExtract('$commonsFilePath/christmas.yaml', dataLoader);
     Masses proper = await massExtract(
         '$ferialFilePath/christmas_${date.day}.yaml', dataLoader);
-    _overlayMasses(ferialMasses, proper);
+    ferialMasses.overlayWith(proper);
     return ferialMasses;
   } else if (code.contains('-')) {
     // Jan before Epiphany
@@ -105,7 +89,7 @@ Future<Masses> _resolveChristmas(CelebrationContext context) async {
     Masses proper = await massExtract(
         '$ferialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
         dataLoader);
-    _overlayMasses(ferialMasses, proper);
+    ferialMasses.overlayWith(proper);
     return ferialMasses;
   } else {
     // After Epiphany

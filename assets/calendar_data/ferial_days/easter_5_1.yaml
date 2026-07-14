@@ -190,9 +190,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -317,8 +317,8 @@ mass:
         l’Esprit Saint que le Père enverra en mon nom,
         lui, vous enseignera tout,
         et il vous fera souvenir de tout ce que je vous ai dit. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

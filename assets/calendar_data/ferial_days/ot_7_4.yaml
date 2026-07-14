@@ -67,7 +67,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 5, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ne tarde pas à te retourner vers le Seigneur »
@@ -93,7 +93,7 @@ mass:
          Ne t’appuie pas sur des richesses injustement acquises :
         elles ne te serviront de rien au jour de l’adversité.
     - biblicalRef: Jc 5, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le salaire dont vous avez frustré les ouvriers, le voici qui crie, et leurs clameurs sont parvenues aux oreilles du Seigneur »
@@ -121,7 +121,7 @@ mass:
     partContents:
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 5a
@@ -149,7 +149,7 @@ mass:
         mais le chemin des méchants se perdra.
     - biblicalRef: Ps 48 (49), 14-15ab, 15de-16, 17-18, 19-20
       refAbbr: 48, 14…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 3

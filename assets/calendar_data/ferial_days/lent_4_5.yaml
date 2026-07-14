@@ -197,9 +197,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -303,8 +303,8 @@ mass:
         On cherchait à l’arrêter,
         mais personne ne mit la main sur lui
         parce que son heure n’était pas encore venue.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

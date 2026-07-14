@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 22, 1-19
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         Le sacrifice de notre patriarche Abraham.
@@ -146,7 +146,7 @@ mass:
         et ensemble ils se mirent en route pour Bershéba ;
         et Abraham y habita.
     - biblicalRef: Am 7, 10-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Va, tu seras prophète pour mon peuple »
@@ -189,7 +189,7 @@ mass:
     partContents:
     - biblicalRef: Ps 114 (116A), 1-2, 3-4, 5-6, 8-9
       refAbbr: 114, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 114, 9
@@ -221,7 +221,7 @@ mass:
         sur la terre des vivants.
     - biblicalRef: Ps 18B (19), 8, 9, 10, 11
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 18b, 10cd

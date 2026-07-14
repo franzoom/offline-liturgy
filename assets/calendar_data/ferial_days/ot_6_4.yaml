@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 9, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Je mets mon arc au milieu des nuages, pour qu’il soit le signe de l’alliance entre moi et la terre »
@@ -108,7 +108,7 @@ mass:
          je mets mon arc au milieu des nuages,
         pour qu’il soit le signe de l’alliance entre moi et la terre. »
     - biblicalRef: Jc 2, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Dieu n’a-t-il pas choisi ceux qui sont pauvres ? Mais vous, vous avez privé le pauvre de sa dignité »
@@ -152,7 +152,7 @@ mass:
     partContents:
     - biblicalRef: Ps 101 (102), 16-18, 19-21, 22-23.29
       refAbbr: 101, 16…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 101, 20b
@@ -180,7 +180,7 @@ mass:
         et devant toi se maintiendra leur descendance.
     - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 33, 7a

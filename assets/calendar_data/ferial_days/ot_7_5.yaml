@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 6, 5-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Un ami fidèle n’a pas de prix »
@@ -101,7 +101,7 @@ mass:
          Celui qui craint le Seigneur choisit bien ses amis,
         car son compagnon lui ressemblera.
     - biblicalRef: Jc 5, 9-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Voyez : le Juge est à notre porte »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 12.16, 18.27, 34-35
       refAbbr: 118, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 118, 35a
@@ -151,7 +151,7 @@ mass:
         là, je me plais.
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 11-12
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 102, 8a

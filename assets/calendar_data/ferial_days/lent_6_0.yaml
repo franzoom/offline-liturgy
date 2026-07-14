@@ -245,20 +245,20 @@ vespers:
 mass:
 - massType: procession_with_palms
   name: Procession des Rameaux
-  note:
-  entranceAntiphon:
-  collect:
-  readingParts:
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  note: null
+  entranceAntiphon: null
+  collect: null
+  readingParts: null
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null
 - massType: mass_of_the_passion
   name: Messe de la Passion
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -340,7 +340,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 26, 14 – 27, 66
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Passion de notre Seigneur Jésus Christ selon saint Matthieu
@@ -808,7 +808,7 @@ mass:
         et assurèrent la surveillance du sépulcre
         en mettant les scellés sur la pierre et en y plaçant la garde.
     - biblicalRef: Mc 14, 1 – 15, 47
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         Passion de notre Seigneur Jésus Christ
@@ -1242,7 +1242,7 @@ mass:
         Or, Marie Madeleine et Marie, mère de José,
         observaient l’endroit où on l’avait mis.
     - biblicalRef: Lc 22, 14 – 23, 56
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         Passion de notre Seigneur Jésus Christ
@@ -1648,8 +1648,8 @@ mass:
          Puis elles s’en retournèrent
         et préparèrent aromates et parfums.
         Et, durant le sabbat, elles observèrent le repos prescrit.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

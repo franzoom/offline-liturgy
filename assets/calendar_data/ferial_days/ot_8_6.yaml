@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 51, 12c-20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Je rendrai gloire à celui qui me donne la Sagesse »
@@ -90,7 +90,7 @@ mass:
         Avec elle, dès le commencement, j’ai trouvé l’intelligence,
         c’est pourquoi je ne serai jamais abandonné.
     - biblicalRef: Jd 17.20b-25
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Dieu peut vous préserver de la chute et vous faire tenir debout, irréprochables, en présence de sa gloire »
@@ -122,7 +122,7 @@ mass:
     partContents:
     - biblicalRef: Ps 18B (19), 8, 9, 10, 11
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 18B, 9ab
@@ -151,7 +151,7 @@ mass:
         qui coule des rayons.
     - biblicalRef: Ps 62 (63), 2, 3-4, 5-6
       refAbbr: 62, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 62, 2b

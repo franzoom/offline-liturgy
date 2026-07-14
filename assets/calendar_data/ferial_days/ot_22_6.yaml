@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Col 1, 21-23
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu vous a réconciliés avec lui »
@@ -81,7 +81,7 @@ mass:
         proclamé à toute créature sous le ciel.
         De cet Évangile, moi, Paul, je suis devenu ministre.
     - biblicalRef: 1 Co 4, 6b-15
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous avons faim, nous avons soif, nous sommes dans le dénuement »
@@ -132,7 +132,7 @@ mass:
     partContents:
     - biblicalRef: Ps 53 (54), 3-4, 6.8
       refAbbr: 53, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 53, 6a
@@ -149,7 +149,7 @@ mass:
         je rendrai grâce à ton nom, car il est bon !
     - biblicalRef: Ps 144 (145), 17-18, 19-20, 21
       refAbbr: 144, 17…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 144, 18a

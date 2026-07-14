@@ -52,7 +52,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 16, 3-9.16.22-27
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Saluez-vous les uns les autres par un baiser de paix »
@@ -96,7 +96,7 @@ mass:
          à Celui qui est le seul sage, Dieu, par Jésus Christ,
         à lui la gloire pour les siècles. Amen.
     - biblicalRef: Ph 4, 10-19
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je peux tout en celui qui me donne la force »
@@ -138,7 +138,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 2-3, 4-5, 10-11
       refAbbr: 144, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 144, 1
@@ -162,7 +162,7 @@ mass:
         ils parleront de tes exploits.
     - biblicalRef: Ps 111 (112), 1-2, 5-6, 8a.9
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 111, 1a

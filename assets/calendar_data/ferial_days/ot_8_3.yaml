@@ -66,8 +66,8 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 36, 1-2.5-6.13.16-22
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       headline: |-
         « Que les nations apprennent qu’il n’est pas de dieu hors de toi »
       content: |-
@@ -93,8 +93,8 @@ mass:
         Et tous, sur la terre, le sauront :
         tu es « Le Seigneur », le Dieu des siècles !
     - biblicalRef: 1 P 1, 18-25
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       headline: |-
         « Vous avez été rachetés par un sang précieux, celui d’un agneau sans tache, le Christ »
       content: |-
@@ -129,8 +129,8 @@ mass:
     partContents:
     - biblicalRef: Ps 78 (79), 8, 9, 11, 13
       refAbbr: 78, 8…
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       chorus:
       - chorusRef: Si 36, 1b (Vg)
         chorus: |-
@@ -154,8 +154,8 @@ mass:
         et d’âge en âge proclamer ta louange.
     - biblicalRef: Ps 147 (147B), 12-13, 14-15, 19-20
       refAbbr: 147, 12…
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       chorus:
       - chorusRef: 147, 12a
         chorus: Glorifie le Seigneur, Jérusalem !

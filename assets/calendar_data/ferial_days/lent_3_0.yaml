@@ -208,14 +208,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Ex 17, 3-7
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Donne-nous de l’eau à boire »
@@ -249,7 +249,7 @@ mass:
         « Le Seigneur est-il au milieu de nous,
         oui ou non ? »
     - biblicalRef: Ex 20, 1-17
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         La Loi fut donnée par Moïse
@@ -306,7 +306,7 @@ mass:
         ni son bœuf, ni son âne :
         rien de ce qui lui appartient. »
     - biblicalRef: Ex 3, 1-8a.10.13-15
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Celui qui m’a envoyé vers vous, c’est : Je-suis »
@@ -371,7 +371,7 @@ mass:
     partContents:
     - biblicalRef: Ps 94 (95), 1-2, 6-7ab, 7d-8a.9
       refAbbr: 94, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 94, 8a.7d
@@ -395,7 +395,7 @@ mass:
         et pourtant ils avaient vu mon exploit. »
     - biblicalRef: Ps 18B (19), 8, 9, 10, 11
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: Jn 6, 68c
@@ -424,7 +424,7 @@ mass:
         qui coule des rayons.
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 6-7, 8.11
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 102, 8a
@@ -452,7 +452,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 5, 1-2.5-8
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « L’amour de Dieu a été répandu dans nos cœurs par l’Esprit Saint qui nous a été donné »
@@ -479,7 +479,7 @@ mass:
         c’est que le Christ est mort pour nous,
         alors que nous étions encore pécheurs.
     - biblicalRef: 1 Co 1, 22-25
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Nous proclamons un Messie crucifié, scandale pour les hommes, mais pour ceux que Dieu appelle, il est sagesse de Dieu »
@@ -496,7 +496,7 @@ mass:
         Car ce qui est folie de Dieu est plus sage que les hommes,
         et ce qui est faiblesse de Dieu est plus fort que les hommes.
     - biblicalRef: 1 Co 10, 1-6.10-12
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         La vie de Moïse avec le peuple au désert, l’Écriture l’a racontée pour nous avertir
@@ -528,7 +528,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 4, 5-42
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Une source d’eau jaillissant pour la vie éternelle »
@@ -668,7 +668,7 @@ mass:
         et nous savons que c’est vraiment lui
         le Sauveur du monde. »
     - biblicalRef: Jn 2, 13-25
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Détruisez ce sanctuaire, et en trois jours je le relèverai »
@@ -716,7 +716,7 @@ mass:
         et n’avait besoin d’aucun témoignage sur l’homme ;
         lui-même, en effet, connaissait ce qu’il y a dans l’homme.
     - biblicalRef: Lc 13, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Si vous ne vous convertissez pas, vous périrez tous de même »
@@ -757,8 +757,8 @@ mass:
         pour y mettre du fumier.
          Peut-être donnera-t-il du fruit à l’avenir.
         Sinon, tu le couperas.’ »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

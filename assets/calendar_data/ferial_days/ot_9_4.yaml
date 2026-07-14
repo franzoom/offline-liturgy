@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Tb 6, 10-11 ; 7, 1.9-17 ; 8, 4-9a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Daigne me faire miséricorde, ainsi qu’à elle, et nous mener ensemble à un âge avancé. »
@@ -162,7 +162,7 @@ mass:
         « Amen ! Amen ! »
         Et ils se couchèrent pour la nuit.
     - biblicalRef: 2 Tm 2, 8-15
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « On n’enchaîne pas la parole de Dieu ! Si nous sommes morts avec le Christ, avec lui nous vivrons »
@@ -204,7 +204,7 @@ mass:
     partContents:
     - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
       refAbbr: 127, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 127, 1a
@@ -226,7 +226,7 @@ mass:
         Tu verras le bonheur de Jérusalem tous les jours de ta vie.
     - biblicalRef: Ps 24 (25), 4-5ab, 8-9, 10.14
       refAbbr: 24, 4…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 24, 4a

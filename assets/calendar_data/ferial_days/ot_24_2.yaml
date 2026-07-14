@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 3, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le responsable doit être irréprochable, les diacres doivent garder le mystère de la foi dans une conscience pure »
@@ -106,7 +106,7 @@ mass:
         et beaucoup d’assurance
         grâce à leur foi au Christ Jésus.
     - biblicalRef: 1 Co 12, 12-14.27-31a
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vous êtes corps du Christ et, chacun pour votre part, vous êtes membres de ce corps »
@@ -144,7 +144,7 @@ mass:
     partContents:
     - biblicalRef: Ps 100 (101), 1-2ab, 2cd-3ab, 5, 6
       refAbbr: 100, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 100, 2c
@@ -171,7 +171,7 @@ mass:
         celui-là me servira.
     - biblicalRef: Ps 99 (100), 1-2, 3, 4, 5
       refAbbr: 99, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 99, 3c

@@ -53,7 +53,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 49, 29-33 ; 50, 15-26a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu vous visitera et vous fera remonter de ce pays »
@@ -117,7 +117,7 @@ mass:
         vous ferez monter d’ici mes ossements. »
          Et Joseph mourut à cent dix ans.
     - biblicalRef: Is 6, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je suis un homme aux lèvres impures, et mes yeux ont vu le Roi, le Seigneur de l’univers ! »
@@ -157,7 +157,7 @@ mass:
     partContents:
     - biblicalRef: Ps 104 (105), 1-2, 3-4, 6-7
       refAbbr: 104, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 68, 33b
@@ -181,7 +181,7 @@ mass:
         ses jugements font loi pour l’univers.
     - biblicalRef: Ps 92 (93), 1abc, 1d-2, 5
       refAbbr: 92, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 92, 1ab

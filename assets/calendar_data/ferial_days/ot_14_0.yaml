@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Za 9, 9-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Voici ton roi qui vient à toi : il est pauvre »
@@ -85,7 +85,7 @@ mass:
         Sa domination s’étendra d’une mer à l’autre,
         et de l’Euphrate à l’autre bout du pays. »
     - biblicalRef: Ez 2, 2-5
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’est une engeance de rebelles ! Qu’ils sachent qu’il y a un prophète au milieu d’eux ! »
@@ -108,7 +108,7 @@ mass:
         – c’est une engeance de rebelles ! –
         ils sauront qu’il y a un prophète au milieu d’eux. »
     - biblicalRef: Is 66, 10-14c
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Voici que je dirige vers elle la paix comme un fleuve »
@@ -141,7 +141,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 1-2, 8-9, 10-11, 13cd-14
       refAbbr: 144, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 144, 1
@@ -171,7 +171,7 @@ mass:
         il redresse tous les accablés.
     - biblicalRef: Ps 122 (123), 1-2ab, 2cdef, 3-4
       refAbbr: 122, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 122, 2
@@ -196,7 +196,7 @@ mass:
         du mépris des orgueilleux !
     - biblicalRef: Ps 65 (66), 1-3a, 4-5, 6-7a, 16.20
       refAbbr: 65, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 65, 1
@@ -226,7 +226,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 9.11-13
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si, par l’Esprit, vous tuez les agissements de l’homme pécheur, vous vivrez »
@@ -251,7 +251,7 @@ mass:
         vous tuez les agissements de l’homme pécheur,
         vous vivrez.
     - biblicalRef: 2 Co 12,7-10
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je mettrai ma fierté dans mes faiblesses, afin que la puissance du Christ fasse en moi sa demeure »
@@ -276,7 +276,7 @@ mass:
         Car, lorsque je suis faible,
         c’est alors que je suis fort.
     - biblicalRef: Ga 6, 14-18
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je porte dans mon corps les marques des souffrances de Jésus »
@@ -299,7 +299,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 11, 25-30
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je suis doux et humble de cœur »
@@ -331,7 +331,7 @@ mass:
         Oui, mon joug est facile à porter,
          et mon fardeau, léger. »
     - biblicalRef: Mc 6, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Un prophète n’est méprisé que dans son pays »
@@ -361,7 +361,7 @@ mass:
          Et il s’étonna de leur manque de foi.
         Alors, Jésus parcourait les villages d’alentour en enseignant.
     - biblicalRef: Lc 10, 1-12.17-20
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Votre paix ira reposer sur lui »

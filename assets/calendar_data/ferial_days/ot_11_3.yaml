@@ -54,7 +54,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 9, 6-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu aime celui qui donne joyeusement »
@@ -85,7 +85,7 @@ mass:
         en générosité de toute sorte,
         ce qui suscitera notre action de grâce envers Dieu.
     - biblicalRef: 2 R 2, 1.6-14
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Un char de feu les sépara. Alors, Élie monta au ciel »
@@ -139,7 +139,7 @@ mass:
     partContents:
     - biblicalRef: Ps 111 (112), 1-2, 3-4, 5a.9
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 111, 1a
@@ -162,7 +162,7 @@ mass:
         sa puissance grandira, et sa gloire !
     - biblicalRef: Ps 30 (31), 20, 21, 24
       refAbbr: 30, 20…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 30, 25

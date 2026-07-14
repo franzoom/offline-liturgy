@@ -70,7 +70,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 3, 4-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il nous a rendus capables d’être les ministres d’une Alliance nouvelle, fondée non pas sur la lettre mais dans l’Esprit »
@@ -102,7 +102,7 @@ mass:
         Si, en effet, ce qui était passager a connu un moment de gloire,
         combien plus ce qui demeure restera- t-il dans la gloire !
     - biblicalRef: 1 R 18, 20-39
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Que tout ce peuple sache que c’est toi, Seigneur, qui es Dieu, et qui as retourné leur cœur ! »
@@ -205,7 +205,7 @@ mass:
     partContents:
     - biblicalRef: Ps 98 (99), 5, 6, 7, 8, 9
       refAbbr: 98, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 98, 9c
@@ -232,7 +232,7 @@ mass:
         car il est saint, le Seigneur notre Dieu.
     - biblicalRef: Ps 15 (16), 1-2, 3ac.4, 5.8, 10a.11
       refAbbr: 15, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 15, 1

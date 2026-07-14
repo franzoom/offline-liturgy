@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 18-25
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La création attend avec impatience la révélation des fils de Dieu »
@@ -95,7 +95,7 @@ mass:
          Mais nous, qui espérons ce que nous ne voyons pas,
         nous l’attendons avec persévérance.
     - biblicalRef: Ep 5, 21-33
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ce mystère est grand : je le dis en référence au Christ et à l’Église »
@@ -144,7 +144,7 @@ mass:
     partContents:
     - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
       refAbbr: 125, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 125, 3a
@@ -171,7 +171,7 @@ mass:
         il rapporte les gerbes.
     - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
       refAbbr: 127, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 127, 1a

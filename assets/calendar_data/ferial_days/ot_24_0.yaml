@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 27, 30 – 28, 7
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Pardonne à ton prochain le tort qu’il t’a fait ; alors, à ta prière, tes péchés seront remis »
@@ -91,7 +91,7 @@ mass:
         pense à l’Alliance du Très-Haut
         et sois indulgent pour qui ne sait pas.
     - biblicalRef: Is 50, 5-9a
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « J’ai présenté mon dos à ceux qui me frappaient »
@@ -114,7 +114,7 @@ mass:
          Voilà le Seigneur mon Dieu, il prend ma défense ;
         qui donc me condamnera ?
     - biblicalRef: Ex 32, 7-11.13-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Seigneur renonça au mal qu’il avait voulu faire »
@@ -159,7 +159,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 9-10, 11-12
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 102, 8
@@ -188,7 +188,7 @@ mass:
         il met loin de nous nos péchés.
     - biblicalRef: Ps 114 (116 A), 1-2, 3-4, 5-6, 8-9
       refAbbr: 114, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 114, 9
@@ -220,7 +220,7 @@ mass:
         sur la terre des vivants.
     - biblicalRef: Ps 50 (51), 3-4, 12-13, 17.19
       refAbbr: 50, 3…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 15, 18
@@ -245,7 +245,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 14, 7-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si nous vivons, si nous mourons, c’est pour le Seigneur »
@@ -260,7 +260,7 @@ mass:
         Car, si le Christ a connu la mort, puis la vie,
         c’est pour devenir le Seigneur et des morts et des vivants.
     - biblicalRef: Jc 2, 14-18
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « La foi, si elle n’est pas mise en œuvre, est bel et bien morte »
@@ -287,7 +287,7 @@ mass:
         Montre-moi donc ta foi sans les œuvres ;
         moi, c’est par mes œuvres que je te montrerai la foi. »
     - biblicalRef: 1 Tm 1, 12-17
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Christ Jésus est venu dans le monde pour sauver les pécheurs »
@@ -321,7 +321,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 18, 21-35
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je ne te dis pas de pardonner jusqu’à sept fois, mais jusqu’à 70 fois sept fois »
@@ -383,7 +383,7 @@ mass:
         si chacun de vous ne pardonne pas à son frère
         du fond du cœur. »
     - biblicalRef: Mc 8, 27-35
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Tu es le Christ… Il fallait que le Fils de l’homme souffre beaucoup »
@@ -434,7 +434,7 @@ mass:
         mais celui qui perdra sa vie à cause de moi et de l’Évangile
         la sauvera. »
     - biblicalRef: Lc 15, 1-32
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il y aura de la joie dans le ciel pour un seul pécheur qui se convertit »

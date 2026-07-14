@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 3, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous serez comme des dieux, connaissant le bien et le mal »
@@ -95,7 +95,7 @@ mass:
         L’homme et sa femme allèrent se cacher aux regards du Seigneur Dieu
         parmi les arbres du jardin.
     - biblicalRef: 1 R 11, 29-32 ; 12, 19
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Israël rejeta la maison de David »
@@ -124,7 +124,7 @@ mass:
     partContents:
     - biblicalRef: Ps 31 (32), 1-2, 5cdef, 6-7
       refAbbr: 31, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 31, 1a
@@ -145,7 +145,7 @@ mass:
         de chants de délivrance, tu m’as entouré.
     - biblicalRef: Ps 80 (81), 10-11ab, 12-13, 14-15
       refAbbr: 80, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 80, 11a.9a

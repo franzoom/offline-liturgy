@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 2, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Prépare-toi à subir l’épreuve »
@@ -99,7 +99,7 @@ mass:
         il pardonne les péchés,
         et il sauve au moment de la détresse.
     - biblicalRef: Jc 4, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vous demandez, mais vous ne recevez rien ; en effet, vos demandes sont mauvaises »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 36 (37), 3-4, 18-19, 27-28ab, 39-40ac
       refAbbr: 36, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 36, 5
@@ -176,7 +176,7 @@ mass:
         car ils cherchent en lui leur refuge.
     - biblicalRef: Ps 54 (55), 7-8, 9-10ab, 10cd-11ab, 23
       refAbbr: 54, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 54, 23ab

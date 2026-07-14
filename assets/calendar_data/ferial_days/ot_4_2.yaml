@@ -223,14 +223,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 12, 1-4
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Courons avec endurance l’épreuve qui nous est proposée »
@@ -252,7 +252,7 @@ mass:
         Vous n’avez pas encore résisté jusqu’au sang
         dans votre lutte contre le péché.
     - biblicalRef: 2 S 18,9-10.14b.24-25a.30 – 19,4
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Mon fils Absalom ! Pourquoi ne suis-je pas mort à ta place ? »
@@ -315,7 +315,7 @@ mass:
     partContents:
     - biblicalRef: Ps 21 (22), 26b- 27, 28.30, 31-32
       refAbbr: 21, 26…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 21, 27b
@@ -339,7 +339,7 @@ mass:
         Voilà son œuvre !
     - biblicalRef: Ps 85, 1-2, 3-4, 5-6
       refAbbr: 85, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 85, 1a
@@ -440,8 +440,8 @@ mass:
         Et Jésus leur ordonna fermement
         de ne le faire savoir à personne ;
         puis il leur dit de la faire manger.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

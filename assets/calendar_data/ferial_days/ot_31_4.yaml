@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 14, 7-12
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dans notre vie comme dans notre mort, nous appartenons au Seigneur »
@@ -87,7 +87,7 @@ mass:
          Ainsi chacun de nous
         rendra compte à Dieu pour soi-même.
     - biblicalRef: Ph 3, 3-8a
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tous ces avantages que j’avais, je les ai considérés, à cause du Christ, comme une perte »
@@ -117,7 +117,7 @@ mass:
     partContents:
     - biblicalRef: Ps 26 (27), 1, 4, 13-14
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 26, 13
@@ -143,7 +143,7 @@ mass:
         espère le Seigneur. »
     - biblicalRef: Ps 104 (105), 2-3, 4-5, 6-7
       refAbbr: 104, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 104, 3b

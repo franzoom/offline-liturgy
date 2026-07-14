@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dn 7, 2-14
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Je voyais venir, avec les nuées du ciel, comme un Fils d’homme »
@@ -127,7 +127,7 @@ mass:
         et sa royauté,
         une royauté qui ne sera pas détruite. »
     - biblicalRef: Ap 20, 1-4.11 – 21, 2
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Les morts furent jugés selon leurs actes. La Jérusalem nouvelle, je l’ai vue qui descendait du ciel »
@@ -207,7 +207,7 @@ mass:
         Vous tous, fauves et troupeaux, bénissez le Seigneur. R/
     - biblicalRef: Ps 83 (84), 3, 4, 5-6a.8a
       refAbbr: 83, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 21, 3b

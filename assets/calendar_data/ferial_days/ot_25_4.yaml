@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ag 1, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Rapportez du bois pour rebâtir la maison de Dieu. Je prendrai plaisir à y demeurer »
@@ -96,7 +96,7 @@ mass:
         et j’y serai glorifié
         – déclare le Seigneur.
     - biblicalRef: Qo 1, 2-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Rien de nouveau sous le soleil »
@@ -134,7 +134,7 @@ mass:
     partContents:
     - biblicalRef: Ps 149, 1-2, 3-4, 5-6a.9b
       refAbbr: 149, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 149, 4a
@@ -157,7 +157,7 @@ mass:
         c’est la fierté de ses fidèles.
     - biblicalRef: Ps 89 (90), 3-4, 5-6, 12-13, 14.17abc
       refAbbr: 89, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 89, 1

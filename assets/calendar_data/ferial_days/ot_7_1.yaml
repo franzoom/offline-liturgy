@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 1, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Avant toute chose fut créée la sagesse »
@@ -90,7 +90,7 @@ mass:
          parmi tous les vivants, dans la diversité de ses dons,
         et ceux qui aiment Dieu en ont été comblés.
     - biblicalRef: Jc 3, 13-18
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Si vous avez dans le cœur l’esprit de rivalité, ne vous en vantez pas »
@@ -117,7 +117,7 @@ mass:
     partContents:
     - biblicalRef: Ps 92 (93), 1abc, 1d-2, 5
       refAbbr: 92, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 92, 1ab
@@ -138,7 +138,7 @@ mass:
         Seigneur, pour la suite des temps.
     - biblicalRef: Ps 18B (19), 8, 9, 10, 15
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 18B, 9ab

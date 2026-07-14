@@ -248,14 +248,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 1, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu nous a parlé par son Fils »
@@ -290,7 +290,7 @@ mass:
         Que se prosternent devant lui
         tous les anges de Dieu.
     - biblicalRef: 1 S 1, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Sa rivale cherchait à la mettre en colère parce que le Seigneur avait rendu Anne stérile »
@@ -330,7 +330,7 @@ mass:
     partContents:
     - biblicalRef: Ps 96 (97), 1-2, 6-7, 8bc-9
       refAbbr: 96, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 96, 7
@@ -352,7 +352,7 @@ mass:
         tu domines de haut tous les dieux.
     - biblicalRef: Ps 115 (116B), 12-13, 14.17, 18-19
       refAbbr: 115, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 115, 17a
@@ -409,8 +409,8 @@ mass:
         Aussitôt, Jésus les appela.
         Alors, laissant dans la barque leur père Zébédée avec ses ouvriers,
         ils partirent à sa suite.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

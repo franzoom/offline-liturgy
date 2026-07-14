@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 27, 1-5.15-29
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Jacob a volé mon droit d’aînesse et ma bénédiction », déclare Ésaü
@@ -142,7 +142,7 @@ mass:
         Maudit soit celui qui te maudira,
         béni soit celui qui te bénira ! »
     - biblicalRef: Am 9, 11-15
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je ramènerai les captifs de mon peuple et je les planterai sur leur sol »
@@ -173,7 +173,7 @@ mass:
     partContents:
     - biblicalRef: Ps 134 (135), 1-2, 3-4, 5-6
       refAbbr: 134, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 134, 3
@@ -199,7 +199,7 @@ mass:
          et jusqu’au fond des abîmes.
     - biblicalRef: Ps 84 (85), 9, 11-12, 13-14
       refAbbr: 84, 9…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 84, 9b

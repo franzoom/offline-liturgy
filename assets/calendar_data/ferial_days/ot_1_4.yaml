@@ -206,14 +206,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 3, 7-14
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Encouragez-vous les uns les autres, aussi longtemps que retentit l’“aujourd’hui” »
@@ -241,7 +241,7 @@ mass:
         si du moins nous maintenons fermement, jusqu’à la fin,
         notre engagement premier.
     - biblicalRef: 1 S 4, 1b-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Israël fut battu et l’arche de Dieu fut prise »
@@ -301,7 +301,7 @@ mass:
     partContents:
     - biblicalRef: Ps 94 (95), 6-7abc, 7d-9, 10-11
       refAbbr: 94, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 94, 8a.7d
@@ -328,7 +328,7 @@ mass:
         Jamais ils n’entreront dans mon repos. »
     - biblicalRef: Ps 43 (44), 10-11, 14-15, 24-25
       refAbbr: 43, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 43, 27b
@@ -379,8 +379,8 @@ mass:
         de sorte que Jésus ne pouvait plus entrer ouvertement dans une ville,
         mais restait à l’écart, dans des endroits déserts.
         De partout cependant on venait à lui.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

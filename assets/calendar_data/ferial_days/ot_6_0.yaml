@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 15, 15-20
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il n’a commandé à personne d’être impie »
@@ -77,7 +77,7 @@ mass:
          Il n’a commandé à personne d’être impie,
         il n’a donné à personne la permission de pécher.
     - biblicalRef: Lv 13, 1-2.45-46
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         Le lépreux habitera à l’écart, son habitation sera hors du camp »
@@ -97,7 +97,7 @@ mass:
         C’est pourquoi il habitera à l’écart,
         son habitation sera hors du camp. »
     - biblicalRef: Jr 17, 5-8
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Maudit soit l’homme qui met sa foi dans un mortel. Béni soit l’homme qui met sa foi dans le Seigneur »
@@ -126,7 +126,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 1-2, 4-5, 17-18, 33-34
       refAbbr: 118, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 118, 1
@@ -155,7 +155,7 @@ mass:
         que je l’observe de tout cœur.
     - biblicalRef: Ps 31 (32), 1-2, 5ab, 5c.11
       refAbbr: 31, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 31, 7acd
@@ -179,7 +179,7 @@ mass:
         Hommes droits, chantez votre allégresse !
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 39, 5a
@@ -208,7 +208,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Co 2, 6-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « La sagesse que Dieu avait prévue dès avant les siècles pour nous donner la gloire »
@@ -236,7 +236,7 @@ mass:
         Car l’Esprit scrute le fond de toutes choses,
         même les profondeurs de Dieu.
     - biblicalRef: 1 Co 10, 31 – 11, 1
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Imitez-moi, comme moi aussi j’imite le Christ »
@@ -256,7 +256,7 @@ mass:
         Imitez-moi,
         comme moi aussi j’imite le Christ.
     - biblicalRef: 1 Co 15, 12.16-20
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Si le Christ n’est pas ressuscité, votre foi est sans valeur »
@@ -279,7 +279,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 5, 17-37
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il a été dit aux Anciens. Eh bien ! moi, je vous dis »
@@ -372,7 +372,7 @@ mass:
         Ce qui est en plus
         vient du Mauvais. »
     - biblicalRef: Mt 5, 20-22a.27-28.33-34a.37
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il a été dit aux Anciens. Eh bien ! moi, je vous dis »
@@ -411,7 +411,7 @@ mass:
 
         vient du Mauvais. »
     - biblicalRef: Mc 1, 40-45
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « La lèpre le quitta et il fut purifié »
@@ -441,7 +441,7 @@ mass:
         mais restait à l’écart, dans des endroits déserts.
         De partout cependant on venait à lui.
     - biblicalRef: Lc 6, 17.20-26
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Heureux les pauvres ! Quel malheur pour vous les riches ! »

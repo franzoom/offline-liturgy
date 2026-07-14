@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 11, 1-2a.11-12.25-29
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Si le monde a été réconcilié quand les Juifs ont été mis à l’écart, qu’arrivera-t-il quand ils seront réintégrés ? Ce sera la vie pour ceux qui étaient morts ! »
@@ -102,7 +102,7 @@ mass:
          Les dons gratuits de Dieu et son appel
         sont sans repentance.
     - biblicalRef: Ph 1, 18b-26
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Pour moi, vivre c’est le Christ, et mourir est un avantage »
@@ -143,7 +143,7 @@ mass:
     partContents:
     - biblicalRef: Ps 93 (94), 12-13, 14-15, 17-18
       refAbbr: 93, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 93, 14a
@@ -165,7 +165,7 @@ mass:
         ton amour, Seigneur, me soutient.
     - biblicalRef: Ps 41 (42), 2, 3, 5abcd, 5efgh
       refAbbr: 41, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 41, 3a

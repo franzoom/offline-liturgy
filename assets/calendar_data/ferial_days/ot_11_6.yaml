@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 12, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Très volontiers, je mettrai plutôt ma fierté dans mes faiblesses »
@@ -105,7 +105,7 @@ mass:
         Car, lorsque je suis faible,
         c’est alors que je suis fort.
     - biblicalRef: 2 Ch 24, 17-25
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Zacharie, que vous avez assassiné entre le sanctuaire et l’autel »
@@ -158,7 +158,7 @@ mass:
     partContents:
     - biblicalRef: Ps 33 (34), 8-9, 10-11, 12-13
       refAbbr: 33, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 33, 9a
@@ -182,7 +182,7 @@ mass:
         et désire les jours où il verra le bonheur ?
     - biblicalRef: Ps 88 (89), 4-5, 29-30, 31-32, 33-34
       refAbbr: 88, 4…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: ps 88, 29a

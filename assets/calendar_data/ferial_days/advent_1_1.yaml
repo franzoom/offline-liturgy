@@ -196,7 +196,7 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
+  note: null
   entranceAntiphon:
   - content: |-
       Écoutez, nations, la parole du Seigneur!
@@ -339,8 +339,8 @@ mass:
          Beaucoup viendront de l’orient et de l’occident
          et prendront place avec Abraham, Isaac et Jacob
          au festin du royaume des Cieux. »
-  offeringPrayer:
-  prefaceList:
+  offeringPrayer: null
+  prefaceList: null
   communionAntiphon:
   - content: |-
       Viens, Seigneur, nous visiter dans la paix,
@@ -355,4 +355,4 @@ mass:
     à aimer dès maintenant les biens du ciel, /
     et à nous attacher à ceux qui demeurent.
     Par le Christ, notre Seigneur.
-  solemnBlessingList:
+  solemnBlessingList: null

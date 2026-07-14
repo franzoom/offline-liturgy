@@ -68,7 +68,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 49, 14-15
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Moi, je ne t’oublierai pas »
@@ -82,7 +82,7 @@ mass:
         moi, je ne t’oublierai pas,
         – dit le Seigneur.
     - biblicalRef: Os 2, 16b.17b.21-22
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je ferai de toi mon épouse pour toujours »
@@ -101,7 +101,7 @@ mass:
         je ferai de toi mon épouse dans la loyauté,
          et tu connaîtras le Seigneur.
     - biblicalRef: Si 27, 4-7
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ne fais pas l’éloge de quelqu’un avant qu’il ait parlé »
@@ -119,7 +119,7 @@ mass:
     partContents:
     - biblicalRef: Ps 61 (62), 2-3, 8, 9
       refAbbr: 61, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 61, 2a
@@ -143,7 +143,7 @@ mass:
         Dieu est pour nous un refuge.
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 8.10, 12-13
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 102, 8a
@@ -170,7 +170,7 @@ mass:
         la tendresse du Seigneur pour qui le craint !
     - biblicalRef: Ps 91 (92), 2-3, 13-14, 15-16
       refAbbr: 91, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 91, 2
@@ -193,7 +193,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Co 4, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Le Seigneur rendra manifestes les intentions des cœurs »
@@ -218,7 +218,7 @@ mass:
         Alors, la louange qui revient à chacun
         lui sera donnée par Dieu.
     - biblicalRef: 2 Co 3, 1b-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vous êtes cette lettre du Christ, produite par notre ministère »
@@ -248,7 +248,7 @@ mass:
         car la lettre tue,
         mais l’Esprit donne la vie.
     - biblicalRef: 1 Co 15, 54-58
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dieu nous donne la victoire par notre Seigneur Jésus Christ »
@@ -277,7 +277,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 6, 24-34
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ne vous faites pas de souci pour demain »
@@ -329,7 +329,7 @@ mass:
         demain aura souci de lui-même ;
         à chaque jour suffit sa peine. »
     - biblicalRef: Mc 2, 18-22
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « L’Époux est avec eux »
@@ -361,7 +361,7 @@ mass:
         et l’on perd à la fois le vin et les outres.
         À vin nouveau, outres neuves. »
     - biblicalRef: Lc 6, 39-45
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ce que dit la bouche, c’est ce qui déborde du cœur »

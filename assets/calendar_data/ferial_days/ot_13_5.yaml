@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 23, 1-4.19 ; 24, 1-8.62-67
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Isaac aima Rébecca et se consola de la mort de sa mère »
@@ -122,7 +122,7 @@ mass:
         il l’épousa, elle devint sa femme, et il l’aima.
         Et Isaac se consola de la mort de sa mère.
     - biblicalRef: Am 8, 4-6.9-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « J’enverrai une faim, non pas de pain, mais la faim d’entendre les paroles du Seigneur »
@@ -162,7 +162,7 @@ mass:
     partContents:
     - biblicalRef: Ps 105 (106), 1-2, 3-4ab, 4c- 5
       refAbbr: 105, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 105, 1a
@@ -186,7 +186,7 @@ mass:
         à la fierté de ton héritage.
     - biblicalRef: Ps 118 (119), 2.10, 20.30, 40.131
       refAbbr: 118, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 4, 4b

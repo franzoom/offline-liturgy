@@ -138,9 +138,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -258,8 +258,8 @@ mass:
          depuis Abraham jusqu’à David, quatorze générations ;
          depuis David jusqu’à l’exil à Babylone, quatorze générations ;
          depuis l’exil à Babylone jusqu’au Christ, quatorze générations.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 9, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Pour mes frères, je souhaiterais être anathème »
@@ -80,7 +80,7 @@ mass:
         lui qui est au-dessus de tout,
         Dieu béni pour les siècles. Amen.
     - biblicalRef: Ph 1, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Celui qui a commencé en vous un si beau travail le continuera jusqu’à son achèvement au jour du Christ »
@@ -122,7 +122,7 @@ mass:
     partContents:
     - biblicalRef: Ps 147 (147B), 12-13, 14-15, 19-20
       refAbbr: 147, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 147, 12a
@@ -144,7 +144,7 @@ mass:
         nul autre n’a connu ses volontés.
     - biblicalRef: Ps 110 (111), 1-2, 3-4, 5-6
       refAbbr: 110, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 110, 2a

@@ -61,8 +61,8 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Tb 1, 3 ; 2, 1b-8
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       headline: |-
         « Moi, Tobith, j’ai marché dans les voies de la vérité »
       content: |-
@@ -107,8 +107,8 @@ mass:
         et il a dû s’enfuir.
         Et voilà qu’il recommence à enterrer les morts ! »
     - biblicalRef: 2 P 1, 2-7
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       headline: |-
         « Les dons promis, si précieux, nous sont accordés, pour que, par eux, vous deveniez participants de la nature divine »
       content: |-
@@ -138,8 +138,8 @@ mass:
     partContents:
     - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       chorus:
       - chorusRef: 111, 1a
         chorus: Heureux qui craint le Seigneur.
@@ -161,8 +161,8 @@ mass:
         toujours on fera mémoire du juste.
     - biblicalRef: Ps 90 (90), 1-2, 14-15ab, 15c-16
       refAbbr: 90, 1…
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       chorus:
       - chorusRef: 90, 2b
         chorus: Mon Dieu, je suis sûr de toi !

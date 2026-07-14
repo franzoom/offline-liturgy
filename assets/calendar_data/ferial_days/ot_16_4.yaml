@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 19, 1-2.9-11.16-20b
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « En présence de tout le peuple, le Seigneur descendra sur la montagne du Sinaï »
@@ -96,7 +96,7 @@ mass:
          Le Seigneur descendit sur le sommet du Sinaï,
         il appela Moïse sur le sommet de la montagne.
     - biblicalRef: Jr 2, 1-3.7-8.12-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils m’ont abandonné, moi, la source d’eau vive, et ils se sont creusé des citernes »
@@ -152,7 +152,7 @@ mass:
         Béni sois-tu au firmament, dans le ciel : R/
     - biblicalRef: Ps 35, 6-7ab, 8-9, 10-11
       refAbbr: 35, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 35, 10

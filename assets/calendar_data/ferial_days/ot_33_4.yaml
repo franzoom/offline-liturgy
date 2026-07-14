@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 M 2, 15-29
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Nous suivrons l’Alliance de nos pères »
@@ -123,7 +123,7 @@ mass:
          Alors, beaucoup de ceux qui recherchaient la justice et la Loi
         s’en allèrent vivre au désert.
     - biblicalRef: Ap 5, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Toi, l’Agneau, tu fus immolé, rachetant pour Dieu, par ton sang, des gens de toute nation »
@@ -179,7 +179,7 @@ mass:
     partContents:
     - biblicalRef: Ps 49 (50), 1-2, 5-6, 14-15
       refAbbr: 49, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 49, 23cd
@@ -203,7 +203,7 @@ mass:
         je te délivrerai, et tu me rendras gloire. »
     - biblicalRef: Ps 149, 1-2, 3-4, 5-6a.9b
       refAbbr: 149, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 10

@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jos 24, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « J’ai pris votre père au-delà de l’Euphrate ; je vous ai fait sortir de l’Égypte ; je vous ai introduit dans le pays »
@@ -120,7 +120,7 @@ mass:
         des vignes et des oliveraies dont vous profitez aujourd’hui
         sans les avoir plantées. »
     - biblicalRef: Ez 16, 1-15.60.63
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ta beauté était parfaite, grâce à ma splendeur dont je t’avais revêtue. Mais tu t’es prostituée »
@@ -220,7 +220,7 @@ mass:
     partContents:
     - biblicalRef: Ps 135 (136), 1-3, 16-18, 21-22.24
       refAbbr: 135, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorus: Éternel est son amour !

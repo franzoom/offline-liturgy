@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 4, 1-15.25
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Caïn se jeta sur son frère Abel et le tua »
@@ -124,7 +124,7 @@ mass:
         « Dieu m’a accordé une nouvelle descendance
         à la place d’Abel, tué par Caïn. »
     - biblicalRef: Jc 1, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La vérification de votre foi produit l’endurance, pour que vous soyez parfaits et intègres »
@@ -164,7 +164,7 @@ mass:
     partContents:
     - biblicalRef: Ps 49 (50), 1.5a, 7ac- 8, 16bc- 17, 20-21abc
       refAbbr: 49, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 49, 14a
@@ -191,7 +191,7 @@ mass:
         Penses-tu que je suis comme toi ? »
     - biblicalRef: Ps 118 (119), 67-68, 71-72, 75-76
       refAbbr: 118, 67…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 77a

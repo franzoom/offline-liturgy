@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dn 2, 31-45
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le dernier royaume pulvérisera et anéantira tous les autres, mais lui-même subsistera à jamais »
@@ -127,7 +127,7 @@ mass:
         Le songe disait vrai,
         l’interprétation est digne de foi. »
     - biblicalRef: Ap 14, 14-19
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Elle est venue, l’heure de la moisson, car la moisson de la terre se dessèche »
@@ -179,7 +179,7 @@ mass:
         Et toutes les puissances du Seigneur, bénissez le Seigneur. R/
     - biblicalRef: Ps 95 (96), 10, 11-12a, 12b-13ab, 13bcd
       refAbbr: 95, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 95, 13

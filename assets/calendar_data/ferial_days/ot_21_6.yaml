@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 4, 9-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous avez appris vous-mêmes de Dieu à vous aimer les uns les autres »
@@ -77,7 +77,7 @@ mass:
         et de travailler de vos mains
         comme nous vous l’avons ordonné.
     - biblicalRef: 1 Co 1, 26-31
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
@@ -107,7 +107,7 @@ mass:
     partContents:
     - biblicalRef: Ps 97 (98), 1, 7-8, 9
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 97, 9
@@ -131,7 +131,7 @@ mass:
         et les peuples avec droiture !
     - biblicalRef: Ps 32 (33), 12-13, 18-19, 20-21
       refAbbr: 32, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 32, 12

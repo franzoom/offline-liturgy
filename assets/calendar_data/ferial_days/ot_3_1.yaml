@@ -209,14 +209,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 9, 15.24-28
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il s’est offert une seule fois pour enlever les péchés de la multitude ; il apparaîtra une seconde fois, pour le salut de ceux qui l’attendent »
@@ -252,7 +252,7 @@ mass:
         non plus à cause du péché,
         mais pour le salut de ceux qui l’attendent.
     - biblicalRef: 2 S 5, 1-7.10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tu seras le berger d’Israël mon peuple »
@@ -293,7 +293,7 @@ mass:
     partContents:
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4, 5-6
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 97, 1ab
@@ -322,7 +322,7 @@ mass:
         acclamez votre roi, le Seigneur !
     - biblicalRef: Ps 88 (89), 20, 21-22, 25-26
       refAbbr: 88, 20…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 88, 25a
@@ -380,8 +380,8 @@ mass:
         Il est coupable d’un péché pour toujours. »
         Jésus parla ainsi parce qu’ils avaient dit :
         « Il est possédé par un esprit impur. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

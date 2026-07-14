@@ -54,7 +54,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Col 1, 9-14
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Nous arrachant au pouvoir des ténèbres, il nous a placés dans le Royaume de son Fils bien-aimé »
@@ -81,7 +81,7 @@ mass:
          en lui nous avons la rédemption,
         le pardon des péchés.
     - biblicalRef: 1 Co 3, 18-23
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tout est à vous, mais vous, vous êtes au Christ, et le Christ est à Dieu »
@@ -111,7 +111,7 @@ mass:
     partContents:
     - biblicalRef: Ps 97 (98), 2-3ab, 3cd-4, 5-6
       refAbbr: 97, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 97, 2a
@@ -133,7 +133,7 @@ mass:
         acclamez votre roi, le Seigneur !
     - biblicalRef: Ps 23 (24), 1-2, 3-4ab, 5-6
       refAbbr: 23, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 23, 1

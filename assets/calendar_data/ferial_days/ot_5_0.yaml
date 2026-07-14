@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 58, 7-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ta lumière jaillira comme l’aurore »
@@ -80,7 +80,7 @@ mass:
         ta lumière se lèvera dans les ténèbres
         et ton obscurité sera lumière de midi.
     - biblicalRef: Jb 7, 1-4.6-7
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je ne compte que des nuits de souffrance »
@@ -101,7 +101,7 @@ mass:
         Souviens-toi, Seigneur : ma vie n’est qu’un souffle,
         mes yeux ne verront plus le bonheur. »
     - biblicalRef: Is 6, 1-2a.3-8
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Me voici : envoie-moi ! »
@@ -138,7 +138,7 @@ mass:
     partContents:
     - biblicalRef: Ps 111 (112), 4-5, 6-7, 8a.9
       refAbbr: 111, 4…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 111, 4
@@ -163,7 +163,7 @@ mass:
         sa puissance grandira, et sa gloire !
     - biblicalRef: Ps 146 (147A), 1.3, 4-5, 6-7
       refAbbr: 146, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 146, 3
@@ -188,7 +188,7 @@ mass:
         jouez pour notre Dieu sur la cithare !
     - biblicalRef: Ps 137 (138), 1-2a, 2bc-3, 4-5, 7c-8
       refAbbr: 137, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 137, 1c
@@ -216,7 +216,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Co 2, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je suis venu vous annoncer le mystère du Christ crucifié »
@@ -235,7 +235,7 @@ mass:
          pour que votre foi repose, non pas sur la sagesse des hommes,
         mais sur la puissance de Dieu.
     - biblicalRef: 1 Co 9, 16-19.22-23
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Malheur à moi si je n’annonçais pas l’Évangile ! »
@@ -263,7 +263,7 @@ mass:
         Et tout cela, je le fais à cause de l’Évangile,
         pour y avoir part, moi aussi.
     - biblicalRef: 1 Co 15, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Voilà ce que nous proclamons, voilà ce que vous croyez »
@@ -326,7 +326,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 5, 13-16
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous êtes la lumière du monde »
@@ -353,7 +353,7 @@ mass:
         alors, voyant ce que vous faites de bien,
         ils rendront gloire à votre Père qui est aux cieux. »
     - biblicalRef: Mc 1, 29-39
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il guérit beaucoup de gens atteints de toutes sortes de maladies »
@@ -398,7 +398,7 @@ mass:
         proclamant l’Évangile dans leurs synagogues,
         et expulsant les démons.
     - biblicalRef: Lc 5, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Laissant tout, ils le suivirent »

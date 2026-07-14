@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ez 33, 7-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si tu n’avertis pas le méchant, c’est à toi que je demanderai compte de son sang »
@@ -82,7 +82,7 @@ mass:
         lui mourra de son péché,
         mais toi, tu auras sauvé ta vie. »
     - biblicalRef: Is 35, 4-7a
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Alors s’ouvriront les oreilles des sourds et la bouche du muet criera de joie »
@@ -101,7 +101,7 @@ mass:
          La terre brûlante se changera en lac,
         la région de la soif, en eaux jaillissantes.
     - biblicalRef: Sg 9, 13-18
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Qui peut comprendre les volontés du Seigneur ? »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 94 (95), 1-2, 6-7ab, 7d-8a.9
       refAbbr: 94, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 94, 8a.7d
@@ -151,7 +151,7 @@ mass:
         et pourtant ils avaient vu mon exploit. »
     - biblicalRef: Ps 145 (146), 6c-7, 8-9a, 9bc-10
       refAbbr: 145, 6…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 145, 2
@@ -176,7 +176,7 @@ mass:
         ton Dieu, ô Sion, pour toujours !
     - biblicalRef: Ps 89 (90), 3-4, 5-6, 12-13, 14.17abc
       refAbbr: 89, 3…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 89, 1
@@ -206,7 +206,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 13, 8-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Celui qui aime les autres a pleinement accompli la Loi »
@@ -229,7 +229,7 @@ mass:
         Donc, le plein accomplissement de la Loi,
         c’est l’amour.
     - biblicalRef: Jc 2, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Dieu n’a-t-il pas choisi ceux qui sont pauvres pour en faire des héritiers du Royaume ? »
@@ -256,7 +256,7 @@ mass:
         et des héritiers du Royaume
         promis par lui à ceux qui l’auront aimé ?
     - biblicalRef: Phm 9b-10.12-17
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Accueille-le, non plus comme un esclave, mais comme un frère bien-aimé »
@@ -286,7 +286,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 18, 15-20
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « S’il t’écoute, tu as gagné ton frère »
@@ -321,7 +321,7 @@ mass:
         En effet, quand deux ou trois sont réunis en mon nom,
         je suis là, au milieu d’eux. »
     - biblicalRef: Mc 7, 31-37
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il fait entendre les sourds et parler les muets »
@@ -352,7 +352,7 @@ mass:
         « Il a bien fait toutes choses :
         il fait entendre les sourds et parler les muets. »
     - biblicalRef: Lc 14, 25-33
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Celui qui ne renonce pas à tout ce qui lui appartient ne peut pas être mon disciple »

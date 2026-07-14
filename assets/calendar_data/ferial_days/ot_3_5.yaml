@@ -210,14 +210,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 10, 32-39
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous avez soutenu le dur combat. Ne perdez pas votre assurance »
@@ -249,7 +249,7 @@ mass:
         mais de ceux qui ont la foi
         et sauvegardent leur âme.
     - biblicalRef: 2 S 11, 1-4a.5-10a.13-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tu m’as méprisé et tu as pris la femme d’Ourias pour qu’elle devienne ta femme »
@@ -312,7 +312,7 @@ mass:
     partContents:
     - biblicalRef: Ps 36 (37), 3-4, 5-6, 23-24, 39-40ac
       refAbbr: 36, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 36, 39a
@@ -339,7 +339,7 @@ mass:
         car ils cherchent en lui leur refuge.
     - biblicalRef: Ps 50 (51), 3-4, 5-6ab, 6cd-7, 10-11
       refAbbr: 50, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 50, 3
@@ -406,8 +406,8 @@ mass:
         dans la mesure où ils étaient capables de l’entendre.
         Il ne leur disait rien sans parabole,
         mais il expliquait tout à ses disciples en particulier.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

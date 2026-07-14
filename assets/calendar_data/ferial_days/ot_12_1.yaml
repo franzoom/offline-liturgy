@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 12, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Abram s’en alla, comme le Seigneur le lui avait dit »
@@ -100,7 +100,7 @@ mass:
         Puis, de campement en campement,
         Abram s’en alla vers le Néguev.
     - biblicalRef: 2 R 17, 5-8.13-15a.18
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le Seigneur a écarté les tribus d’Israël loin de sa face. Il n’est resté que la seule tribu de Juda »
@@ -143,7 +143,7 @@ mass:
     partContents:
     - biblicalRef: Ps 32 (33), 12-13, 18-19, 20.22
       refAbbr: 32, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 32, 12
@@ -167,7 +167,7 @@ mass:
         comme notre espoir est en toi !
     - biblicalRef: Ps 59, 3-4, 5-6, 13-14
       refAbbr: 59, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 59, 7

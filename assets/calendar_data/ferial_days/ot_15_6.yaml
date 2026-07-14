@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 12, 37-42
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ce fut une nuit de veille pour le Seigneur, quand il fit sortir d’Égypte les fils d’Israël »
@@ -84,7 +84,7 @@ mass:
         ce doit être pour eux, de génération en génération,
         une nuit de veille en l’honneur du Seigneur.
     - biblicalRef: Mi 2, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « S’ils convoitent des champs, ils s’en emparent ; des maisons, ils les prennent »
@@ -115,7 +115,7 @@ mass:
     partContents:
     - biblicalRef: Ps 135 (136), 1.23-24, 10-12, 13-15
       refAbbr: 135, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 135,1a
@@ -144,7 +144,7 @@ mass:
         (R/) éternel est son amour !
     - biblicalRef: Ps 9B (10), 1-2, 3-4, 7-8ab, 14
       refAbbr: 9B, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 9 B, 12

@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 4, 12-16
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Veille sur toi-même et sur ton enseignement : tu obtiendras le salut, et pour toi-même et pour ceux qui t’écoutent »
@@ -82,7 +82,7 @@ mass:
         En agissant ainsi, tu obtiendras le salut,
         et pour toi-même et pour ceux qui t’écoutent.
     - biblicalRef: 1 Co 15, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Voilà ce que nous proclamons, voilà ce que vous croyez »
@@ -126,7 +126,7 @@ mass:
     partContents:
     - biblicalRef: Ps 110 (111), 7-8, 9, 10
       refAbbr: 110, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 110, 2a
@@ -147,7 +147,7 @@ mass:
         À jamais se maintiendra sa louange.
     - biblicalRef: Ps 117 (118), 1-2, 16-17, 28.21
       refAbbr: 117, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 117, 1a

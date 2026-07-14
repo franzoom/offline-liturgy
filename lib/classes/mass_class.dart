@@ -36,7 +36,7 @@ sealed class MassReadingContent {}
 /// Content for READING and EPISTLE parts.
 class MassReading extends MassReadingContent {
   final String? biblicalRef;
-  final String? sundayAndWeekCycles;
+  final String? cycle;
   final String? headline;
   final String? content;
   final String? shortReadingRef;
@@ -44,7 +44,7 @@ class MassReading extends MassReadingContent {
 
   MassReading({
     this.biblicalRef,
-    this.sundayAndWeekCycles,
+    this.cycle,
     this.headline,
     this.content,
     this.shortReadingRef,
@@ -53,7 +53,7 @@ class MassReading extends MassReadingContent {
 
   factory MassReading.fromJson(Map<String, dynamic> json) => MassReading(
         biblicalRef: json['biblicalRef']?.toString(),
-        sundayAndWeekCycles: json['sundayAndWeekCycles']?.toString(),
+        cycle: json['cycle']?.toString(),
         headline: json['headline']?.toString(),
         content: json['content']?.toString(),
         shortReadingRef: json['shortReadingRef']?.toString(),
@@ -65,14 +65,14 @@ class MassReading extends MassReadingContent {
 class MassPsalm extends MassReadingContent {
   final String? biblicalRef;
   final String? refAbbr;
-  final String? sundayAndWeekCycles;
+  final String? cycle;
   final List<MassChorusEntry>? chorus;
   final String? content;
 
   MassPsalm({
     this.biblicalRef,
     this.refAbbr,
-    this.sundayAndWeekCycles,
+    this.cycle,
     this.chorus,
     this.content,
   });
@@ -80,7 +80,7 @@ class MassPsalm extends MassReadingContent {
   factory MassPsalm.fromJson(Map<String, dynamic> json) => MassPsalm(
         biblicalRef: json['biblicalRef']?.toString(),
         refAbbr: json['refAbbr']?.toString(),
-        sundayAndWeekCycles: json['sundayAndWeekCycles']?.toString(),
+        cycle: json['cycle']?.toString(),
         chorus: (json['chorus'] as List?)
             ?.whereType<Map<String, dynamic>>()
             .map((e) => MassChorusEntry.fromJson(e))
@@ -92,7 +92,7 @@ class MassPsalm extends MassReadingContent {
 /// Content for the GOSPEL part.
 class MassGospel extends MassReadingContent {
   final String? biblicalRef;
-  final String? sundayAndWeekCycles;
+  final String? cycle;
   final String? headline;
   final String? beforeAcclamationAntiphon;
   final String? acclamationAntiphon;
@@ -101,7 +101,7 @@ class MassGospel extends MassReadingContent {
 
   MassGospel({
     this.biblicalRef,
-    this.sundayAndWeekCycles,
+    this.cycle,
     this.headline,
     this.beforeAcclamationAntiphon,
     this.acclamationAntiphon,
@@ -111,7 +111,7 @@ class MassGospel extends MassReadingContent {
 
   factory MassGospel.fromJson(Map<String, dynamic> json) => MassGospel(
         biblicalRef: json['biblicalRef']?.toString(),
-        sundayAndWeekCycles: json['sundayAndWeekCycles']?.toString(),
+        cycle: json['cycle']?.toString(),
         headline: json['headline']?.toString(),
         beforeAcclamationAntiphon:
             json['beforeAcclamationAntiphon']?.toString(),

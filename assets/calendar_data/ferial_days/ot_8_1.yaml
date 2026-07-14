@@ -59,8 +59,8 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 17, 24-29
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       headline: |-
         « Reviens vers le Très-Haut et détourne-toi de l’injustice »
       content: |-
@@ -79,8 +79,8 @@ mass:
         qu’il est grand, son pardon
         pour ceux qui se convertissent à lui !
     - biblicalRef: 1 P 1, 3-9
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       headline: |-
         « Le Christ, vous l’aimez sans l’avoir vu ; en lui, vous mettez votre foi, vous exultez d’une joie inexprimable »
       content: |-
@@ -111,8 +111,8 @@ mass:
     partContents:
     - biblicalRef: Ps 31 (32), 1-2, 5, 6, 7
       refAbbr: 31, 1…
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       chorus:
       - chorusRef: 31, 11ab
         chorus: |-
@@ -142,8 +142,8 @@ mass:
         tu m’as entouré.
     - biblicalRef: Ps 110 (111), 1-2, 5-6, 9.10c
       refAbbr: 110, 1…
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       chorus:
       - chorusRef: 110,5b
         chorus: Le Seigneur garde toujours mémoire de son alliance.

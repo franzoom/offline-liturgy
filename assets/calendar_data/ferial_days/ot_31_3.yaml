@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 13, 8-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Celui qui aime les autres a pleinement accompli la Loi »
@@ -79,7 +79,7 @@ mass:
         Donc, le plein accomplissement de la Loi,
         c’est l’amour.
     - biblicalRef: Ph 2, 12-18
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Travaillez à votre salut, car c’est Dieu qui agit pour produire en vous la volonté et l’action »
@@ -112,7 +112,7 @@ mass:
     partContents:
     - biblicalRef: Ps 111 (112), 1-2, 4-5, 8a.9
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 111, 5a
@@ -135,7 +135,7 @@ mass:
         sa puissance grandira, et sa gloire !
     - biblicalRef: Ps 26 (27), 1, 4, 13-14
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 26, 1a

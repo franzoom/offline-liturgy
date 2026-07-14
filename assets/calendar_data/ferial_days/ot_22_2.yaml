@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 5, 1-6.9-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il est mort pour nous afin de nous faire vivre avec lui »
@@ -91,7 +91,7 @@ mass:
         et édifiez-vous l’un l’autre,
         comme vous le faites déjà.
     - biblicalRef: 1 Co 2, 10b-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « L’homme, par ses seules capacités, n’accueille pas ce qui vient de l’Esprit de Dieu. Celui qui est animé par l’Esprit soumet tout à examen »
@@ -126,7 +126,7 @@ mass:
     partContents:
     - biblicalRef: Ps 26 (27), 1, 4, 13-14
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 26, 13
@@ -152,7 +152,7 @@ mass:
         espère le Seigneur. »
     - biblicalRef: Ps 144 (145), 8-9, 10-11, 12-13ab, 13cd-14
       refAbbr: 144, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 144, 17a

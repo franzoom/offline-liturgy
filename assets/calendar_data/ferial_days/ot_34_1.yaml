@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dn 1, 1-6.8-20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Pas un seul n’était comparable à Daniel, Ananias, Misaël et Azarias »
@@ -128,7 +128,7 @@ mass:
         il les trouvait dix fois supérieurs
         à tous les magiciens et mages de tout son royaume.
     - biblicalRef: Ap 14, 1-3.4b-5
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils portent, inscrits sur leur front, le nom du Christ et celui de son Père »
@@ -178,7 +178,7 @@ mass:
         Béni sois-tu au firmament, dans le ciel : R/
     - biblicalRef: Ps 23 (24), 1-2, 3-4ab, 5-6
       refAbbr: 23, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 23, 6

@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 44, 1.9-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         Nos ancêtres furent des hommes de miséricorde ; et leur nom reste vivant pour toutes les générations
@@ -80,7 +80,7 @@ mass:
         Leur descendance subsistera toujours,
         jamais leur gloire ne sera effacée.
     - biblicalRef: 1 P 4, 7-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Soyez de bons gérants de la grâce de Dieu qui est si diverse »
@@ -117,7 +117,7 @@ mass:
     partContents:
     - biblicalRef: Ps 149, 1-2, 3-4, 5-6a.9b
       refAbbr: 149, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 149, 4a
@@ -140,7 +140,7 @@ mass:
         c’est la fierté de ses fidèles.
     - biblicalRef: Ps 95 (96), 10, 11-12a, 12b-13ab, 13bcd
       refAbbr: 95, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 95, 13

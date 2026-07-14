@@ -75,7 +75,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dt 31, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Sois fort et courageux : c’est toi qui vas entrer avec ce peuple dans le pays »
@@ -112,7 +112,7 @@ mass:
         il ne te lâchera pas, il ne t’abandonnera pas.
         Ne crains pas, ne t’effraie pas ! »
     - biblicalRef: Ez 2, 8 – 3, 4
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Il me fit manger le rouleau et, dans ma bouche, il fut doux comme du miel »
@@ -173,7 +173,7 @@ mass:
         pas de dieu étranger auprès de lui.
     - biblicalRef: Ps 118 (119), 14.24, 72.103, 111.131
       refAbbr: 118, 14…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 103a

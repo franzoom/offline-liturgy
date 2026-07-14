@@ -59,8 +59,8 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 35, 1-15
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       headline: |-
         « C’est offrir un sacrifice de paix que s’attacher aux commandements »
       content: |-
@@ -97,8 +97,8 @@ mass:
         Car le Seigneur est un juge
         qui se montre impartial envers les personnes.
     - biblicalRef: 1 P 1, 10-16
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       headline: |-
         « Ils ont prophétisé pour annoncer la grâce qui vous est destinée. C’est pourquoi mettez toute votre espérance en elle »
       content: |-
@@ -133,8 +133,8 @@ mass:
     partContents:
     - biblicalRef: Ps 49 (50), 4-6, 7-8, 14.23
       refAbbr: 49, 4…
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       chorus:
       - chorusRef: 49, 23cd
         chorus: |-
@@ -162,8 +162,8 @@ mass:
         je lui ferai voir le salut de Dieu. »
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       chorus:
       - chorusRef: 97, 2a
         chorus: Le Seigneur a fait connaître son salut.

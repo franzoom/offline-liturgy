@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 1, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La Sagesse est un esprit ami des hommes. L’esprit du Seigneur remplit l’univers »
@@ -83,7 +83,7 @@ mass:
         lui qui tient ensemble tous les êtres,
         il entend toutes les voix.
     - biblicalRef: Tt 1, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « établis des Anciens comme je te l’ai commandé moi-même »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 138 (139), 1-3, 4-6, 7-8, 9-10
       refAbbr: 138, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 138, 24b
@@ -159,7 +159,7 @@ mass:
         ta main droite me saisit.
     - biblicalRef: Ps 23 (24), 1-2, 3-4ab, 5-6
       refAbbr: 23, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 23, 6

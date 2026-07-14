@@ -69,7 +69,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 6, 12-16
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « La Sagesse se laisse trouver par ceux qui la cherchent »
@@ -94,7 +94,7 @@ mass:
         dans chacune de leurs pensées,
         elle vient à leur rencontre.
     - biblicalRef: 1 R 17, 10-16
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Avec sa farine la veuve fit une petite galette et l’apporta à Élie »
@@ -134,7 +134,7 @@ mass:
         et le vase d’huile ne se vida pas,
         ainsi que le Seigneur l’avait annoncé par l’intermédiaire d’Élie.
     - biblicalRef: 2 M 7, 1-2.9-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Roi du monde nous ressuscitera pour une vie éternelle »
@@ -171,7 +171,7 @@ mass:
     partContents:
     - biblicalRef: Ps 62 (63), 2, 3-4, 5-6, 7-8
       refAbbr: 62, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 62, 2b
@@ -201,7 +201,7 @@ mass:
         je crie de joie à l’ombre de tes ailes.
     - biblicalRef: Ps 145 (146), 6c.7, 8-9a, 9bc-10
       refAbbr: 145, 6…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 145, 1b
@@ -223,7 +223,7 @@ mass:
         ton Dieu, ô Sion, pour toujours !
     - biblicalRef: Ps 16 (17), 1ab.3ab, 5-6, 8.15
       refAbbr: 16, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 16, 15b
@@ -246,7 +246,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 4, 13-18
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ceux qui sont endormis, Dieu, par Jésus, les emmènera avec lui »
@@ -288,7 +288,7 @@ mass:
         de même, nous le croyons aussi, ceux qui se sont endormis,
         Dieu, par Jésus, les emmènera avec lui.
     - biblicalRef: He 9, 24-28
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le Christ s’est offert une seule fois pour enlever les péchés de la multitude »
@@ -317,7 +317,7 @@ mass:
         non plus à cause du péché,
         mais pour le salut de ceux qui l’attendent.
     - biblicalRef: 2 Th 2, 16 – 3, 5
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Que le Seigneur vous affermisse « en tout ce que vous pouvez faire et dire de bien »
@@ -343,7 +343,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 25, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Voici l’époux ! Sortez à sa rencontre »
@@ -388,7 +388,7 @@ mass:
         Veillez donc,
         car vous ne savez ni le jour ni l’heure. »
     - biblicalRef: Mc 12, 38-44
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Cette pauvre veuve a mis plus que tous les autres »
@@ -421,7 +421,7 @@ mass:
         elle a mis tout ce qu’elle possédait,
         tout ce qu’elle avait pour vivre. »
     - biblicalRef: Lc 20, 27-38
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il n’est pas le Dieu des morts, mais des vivants »

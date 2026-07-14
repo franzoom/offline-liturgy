@@ -157,14 +157,14 @@ middleOfDay:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 4, 12-16
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         Avançons-nous avec assurance vers le Trône de la grâce
@@ -192,7 +192,7 @@ mass:
         pour obtenir miséricorde
         et recevoir, en temps voulu, la grâce de son secours.
     - biblicalRef: 1 S 9, 1-4.10c.17-19 ; 10, 1
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Voilà l’homme dont le Seigneur avait parlé ; c’est lui, Saül, qui exercera le pouvoir sur son peuple »
@@ -234,7 +234,7 @@ mass:
     partContents:
     - biblicalRef: Ps 18B (19), 8, 9, 10, 15
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 6, 63c
@@ -263,7 +263,7 @@ mass:
         Seigneur, mon rocher, mon défenseur !
     - biblicalRef: Ps 20 (21), 2-3, 4-5, 6-7
       refAbbr: 20, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 20, 2a
@@ -317,8 +317,8 @@ mass:
         mais les malades.
         Je ne suis pas venu appeler des justes,
         mais des pécheurs. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

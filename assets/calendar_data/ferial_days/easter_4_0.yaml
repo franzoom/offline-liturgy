@@ -231,14 +231,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Ac 2, 14a.36-41
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Dieu l’a fait Seigneur et Christ »
@@ -272,7 +272,7 @@ mass:
         Ce jour-là, environ trois mille personnes
         se joignirent à eux.
     - biblicalRef: Ac 4, 8-12
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « En nul autre que lui, il n’y a de salut »
@@ -296,7 +296,7 @@ mass:
         car, sous le ciel, aucun autre nom n’est donné aux hommes,
         qui puisse nous sauver. »
     - biblicalRef: Ac 13, 14.43-52
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Nous nous tournons vers les nations païennes »
@@ -343,7 +343,7 @@ mass:
     partContents:
     - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
       refAbbr: 22, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 22, 1
@@ -378,7 +378,7 @@ mass:
         pour la durée de mes jours.
     - biblicalRef: Ps 117 (118), 1.8-9, 21-23, 26.28-29
       refAbbr: 117, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 117, 22
@@ -409,7 +409,7 @@ mass:
         Éternel est son amour !
     - biblicalRef: Ps 99 (100), 1-2, 3, 5
       refAbbr: 99, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 99, 3c
@@ -430,7 +430,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 P 2, 20b-25
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous êtes retournés vers le berger de vos âmes »
@@ -460,7 +460,7 @@ mass:
         mais à présent vous êtes retournés
         vers votre berger, le gardien de vos âmes.
     - biblicalRef: 1 Jn 3, 1-2
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Nous verrons Dieu tel qu’il est »
@@ -478,7 +478,7 @@ mass:
         nous lui serons semblables
         car nous le verrons tel qu’il est.
     - biblicalRef: Ap 7, 9.14b-17
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « L’Agneau sera leur pasteur pour les conduire aux sources des eaux de la vie »
@@ -507,7 +507,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 10, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je suis la porte des brebis »
@@ -551,7 +551,7 @@ mass:
         Moi, je suis venu pour que les brebis aient la vie,
         la vie en abondance. »
     - biblicalRef: Jn 10, 11-18
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le bon pasteur donne sa vie pour ses brebis »
@@ -591,7 +591,7 @@ mass:
         j’ai aussi le pouvoir de la recevoir de nouveau :
         voilà le commandement que j’ai reçu de mon Père. »
     - biblicalRef: Jn 10, 27-30
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « À mes brebis, je donne la vie éternelle »
@@ -612,8 +612,8 @@ mass:
         et personne ne peut les arracher de la main du Père.
          Le Père et moi,
         nous sommes UN. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -53,7 +53,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 R 19, 9a.11-13a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tiens-toi sur la montagne devant le Seigneur »
@@ -78,7 +78,7 @@ mass:
         Élie se couvrit le visage avec son manteau,
         il sortit et se tint à l’entrée de la caverne.
     - biblicalRef: 1 R 19, 4-8
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Fortifié par cette nourriture, il marcha jusqu’à la montagne de Dieu »
@@ -105,7 +105,7 @@ mass:
         il marcha quarante jours et quarante nuits
         jusqu’à l’Horeb, la montagne de Dieu.
     - biblicalRef: Sg 18, 6-9
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « En même temps que tu frappais nos adversaires, tu nous appelais à la gloire »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 84 (85), 9ab-10, 11-12, 13-14
       refAbbr: 84, 9…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 84, 8
@@ -151,7 +151,7 @@ mass:
         et ses pas traceront le chemin.
     - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 33, 9a
@@ -180,7 +180,7 @@ mass:
         Heureux qui trouve en lui son refuge !
     - biblicalRef: Ps 32 (33), 1.12, 18-19,20.22
       refAbbr: 32, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 32, 12a
@@ -205,7 +205,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 9, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Pour les Juifs, mes frères, je souhaiterais être anathème »
@@ -226,7 +226,7 @@ mass:
         lui qui est au-dessus de tout,
         Dieu béni pour les siècles. Amen.
     - biblicalRef: Ep 4, 30 – 5, 2
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vivez dans l’amour, comme le Christ »
@@ -249,7 +249,7 @@ mass:
         s’offrant en sacrifice à Dieu,
         comme un parfum d’agréable odeur.
     - biblicalRef: He 11, 1-2.8-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Abraham attendait la ville dont le Seigneur lui-même est le bâtisseur et l’architecte »
@@ -337,7 +337,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 14, 22-33
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ordonne-moi de venir vers toi sur les eaux »
@@ -386,7 +386,7 @@ mass:
         se prosternèrent devant lui, et ils lui dirent :
         « Vraiment, tu es le Fils de Dieu ! »
     - biblicalRef: Jn 6, 41-51
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Moi, je suis le pain vivant, qui est descendu du ciel »
@@ -430,7 +430,7 @@ mass:
         Le pain que je donnerai, c’est ma chair,
         donnée pour la vie du monde. »
     - biblicalRef: Lc 12, 32-48
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Vous aussi, tenez-vous prêts »

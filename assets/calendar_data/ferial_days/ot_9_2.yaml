@@ -71,8 +71,8 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Tb 2, 9-14
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       headline: |-
         « Je finis par devenir complètement aveugle »
       content: |-
@@ -121,8 +121,8 @@ mass:
         Qu’en est-il de tes bonnes œuvres ?
         On voit bien maintenant ce qu’elles signifient ! »
     - biblicalRef: 2 P 3, 12-15a.17-18
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       headline: |-
         « Ce que nous attendons, c’est un ciel nouveau et une terre nouvelle »
       content: |-
@@ -151,8 +151,8 @@ mass:
     partContents:
     - biblicalRef: Ps 111 (112), 1-2, 7-8, 9
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
-      - 1
+      cycle:
+      - '1'
       chorus:
       - chorusRef: 111, 8a.7b
         chorus: |-
@@ -175,8 +175,8 @@ mass:
         sa puissance grandira, et sa gloire !
     - biblicalRef: Ps 89 (90), 2, 3-4, 10, 14.16
       refAbbr: 89, 2…
-      sundayAndWeekCycles:
-      - 2
+      cycle:
+      - '2'
       chorus:
       - chorusRef: 89, 1
         chorus: |-

@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Tb 3, 1-11.16-17a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La prière de l’un et de l’autre fut portée en présence de la gloire de Dieu où elle fut entendue »
@@ -145,7 +145,7 @@ mass:
         en effet c’est à Tobie que revenait le droit de l’épouser
         plutôt qu’à tous ses prétendants.
     - biblicalRef: 2 Tm 1, 1-3.6-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ravive le don gratuit de Dieu, ce don qui est en toi depuis que je t’ai imposé les mains »
@@ -195,7 +195,7 @@ mass:
     partContents:
     - biblicalRef: Ps 24 (25), 2bc- 3, 4-5ab, 6-7bc, 8-9
       refAbbr: 24, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 24, 1b
@@ -222,7 +222,7 @@ mass:
         il enseigne aux humbles son chemin.
     - biblicalRef: Ps 122 (123), 1-2ab, 2cdef
       refAbbr: 122, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 122, 1a

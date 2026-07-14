@@ -250,14 +250,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Ac 6, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ils choisirent sept hommes remplis d’Esprit Saint »
@@ -291,7 +291,7 @@ mass:
         et une grande foule de prêtres juifs
         parvenaient à l’obéissance de la foi.
     - biblicalRef: Ac 9, 26-31
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Barnabé leur raconta comment, sur le chemin, Saul avait vu le Seigneur »
@@ -325,7 +325,7 @@ mass:
         réconfortée par l’Esprit Saint,
         elle se multipliait.
     - biblicalRef: Ac 14, 21b-27
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ayant réuni l’Église, ils rapportèrent tout ce que Dieu avait fait avec eux »
@@ -355,7 +355,7 @@ mass:
     partContents:
     - biblicalRef: Ps 32 (33), 1-2, 4-5, 18-19
       refAbbr: 32, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 32, 22
@@ -380,7 +380,7 @@ mass:
         les garder en vie aux jours de famine.
     - biblicalRef: Ps 21 (22), 26b-27, 28-29, 31-32
       refAbbr: 21, 26b…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 21, 26a
@@ -405,7 +405,7 @@ mass:
         Voilà son œuvre !
     - biblicalRef: Ps 144 (145), 8-9, 10-11, 12-13ab
       refAbbr: 144, 8…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 144, 1
@@ -431,7 +431,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 P 2, 4-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous êtes une descendance choisie, un sacerdoce royal »
@@ -467,7 +467,7 @@ mass:
         de celui qui vous a appelés des ténèbres
         à son admirable lumière.
     - biblicalRef: 1 Jn 3, 18-24
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Voici son commandement : mettre notre foi dans le nom de Jésus Christ et nous aimer les uns les autres »
@@ -500,7 +500,7 @@ mass:
         et voilà comment nous reconnaissons qu’il demeure en nous,
         puisqu’il nous a donné part à son Esprit.
     - biblicalRef: Ap 21, 1-5a
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il essuiera toute larme de leurs yeux »
@@ -527,7 +527,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 14, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je suis le Chemin, la Vérité et la Vie »
@@ -587,7 +587,7 @@ mass:
         Il en fera même de plus grandes,
         parce que je pars vers le Père »
     - biblicalRef: Jn 15, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
@@ -634,7 +634,7 @@ mass:
         c’est que vous portiez beaucoup de fruit
         et que vous soyez pour moi des disciples. »
     - biblicalRef: Jn 13, 31-33a.34-35
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je vous donne un commandement nouveau : c’est de vous aimer les uns les autres »
@@ -660,8 +660,8 @@ mass:
         vous aussi aimez-vous les uns les autres.
          À ceci, tous reconnaîtront que vous êtes mes disciples :
         si vous avez de l’amour les uns pour les autres. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

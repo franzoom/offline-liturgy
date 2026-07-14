@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 1, 18-22
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Jésus n’a pas été "oui et non" ; il n’a été que "oui" »
@@ -85,7 +85,7 @@ mass:
         et il a mis dans nos cœurs l’Esprit,
          première avance sur ses dons.
     - biblicalRef: 1 R 17, 7-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La jarre de farine ne s’épuisa pas, ainsi que le Seigneur l’avait annoncé par l’intermédiaire d’Élie »
@@ -138,7 +138,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 129-130, 131-132, 133.135
       refAbbr: 118, 129…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 118, 135a
@@ -162,7 +162,7 @@ mass:
         apprends- moi tes commandements.
     - biblicalRef: Ps 4, 2, 3, 4-5, 7-8
       refAbbr: 4, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 4, 7b

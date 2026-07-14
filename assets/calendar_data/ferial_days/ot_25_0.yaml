@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 55, 6-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Mes pensées ne sont pas vos pensées »
@@ -84,7 +84,7 @@ mass:
         autant mes chemins sont élevés au-dessus de vos chemins,
         et mes pensées, au-dessus de vos pensées.
     - biblicalRef: Sg 2, 12.17-20
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Condamnons-le à une mort infâme »
@@ -104,7 +104,7 @@ mass:
          Condamnons-le à une mort infâme,
         puisque, dit-il, quelqu’un interviendra pour lui. »
     - biblicalRef: Am 8, 4-7
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         Contre ceux qui « achètent le faible pour un peu d’argent »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 2-3, 8-9, 17-18
       refAbbr: 144, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 144, 18a
@@ -151,7 +151,7 @@ mass:
         de tous ceux qui l’invoquent en vérité.
     - biblicalRef: Ps 53 (54), 3-4, 5, 6.8
       refAbbr: 53, 3…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 53, 6b
@@ -172,7 +172,7 @@ mass:
         je rendrai grâce à ton nom, car il est bon !
     - biblicalRef: Ps 112 (113), 1-2, 5-6, 7-8
       refAbbr: 112, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 112, 1b.7a
@@ -198,7 +198,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ph 1, 20c-24.27a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Pour moi, vivre c’est le Christ »
@@ -222,7 +222,7 @@ mass:
         Quant à vous,
         ayez un comportement digne de l’Évangile du Christ.
     - biblicalRef: Jc 3, 16 – 4, 3
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’est dans la paix qu’est semée la justice, qui donne son fruit aux artisans de paix »
@@ -251,7 +251,7 @@ mass:
         en effet, vos demandes sont mauvaises,
         puisque c’est pour tout dépenser en plaisirs.
     - biblicalRef: 1 Tm 2, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « J’encourage à faire des prières pour tous les hommes à Dieu qui veut que tous les hommes soient sauvés »
@@ -284,7 +284,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 20, 1-16
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ton regard est-il mauvais parce que moi, je suis bon ? »
@@ -345,7 +345,7 @@ mass:
         C’est ainsi que les derniers seront premiers,
         et les premiers seront derniers. »
     - biblicalRef: Mc 9, 30-37
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le Fils de l’homme est livré…Si quelqu’un veut être le premier, qu’il soit le serviteur de tous »
@@ -382,7 +382,7 @@ mass:
         ce n’est pas moi qu’il accueille,
         mais Celui qui m’a envoyé. »
     - biblicalRef: Lc 16, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Vous ne pouvez pas servir à la fois Dieu et l’argent »

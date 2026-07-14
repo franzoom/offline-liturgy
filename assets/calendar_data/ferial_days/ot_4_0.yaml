@@ -244,7 +244,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: So 2, 3 ; 3, 12-13
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je laisserai chez toi un peuple pauvre et petit »
@@ -265,7 +265,7 @@ mass:
         Mais ils pourront paître et se reposer,
         nul ne viendra les effrayer.
     - biblicalRef: Dt 18, 15-20
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je ferai se lever un prophète ; je mettrai dans sa bouche mes paroles »
@@ -295,7 +295,7 @@ mass:
         ou qui parlerait au nom d’autres dieux,
         ce prophète-là mourra.” »
     - biblicalRef: Jr 1, 4-5.17-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je fais de toi un prophète pour les nations »
@@ -324,7 +324,7 @@ mass:
     partContents:
     - biblicalRef: Ps 145 (146), 7, 8, 9ab.10b
       refAbbr: 145, 7…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 5, 3
@@ -346,7 +346,7 @@ mass:
         le Seigneur est ton Dieu pour toujours.
     - biblicalRef: Ps 94 (95), 1-2, 6-7abc, 7d-9
       refAbbr: 94, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 94, 8a.7d
@@ -372,7 +372,7 @@ mass:
          et pourtant ils avaient vu mon exploit. »
     - biblicalRef: Ps 70 (71), 1-2, 3, 5-6ab, 15ab.17
       refAbbr: 70, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 70, 15
@@ -402,7 +402,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Co 1, 26-31
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
@@ -429,7 +429,7 @@ mass:
         _Celui qui veut être fier,
         qu’il mette sa fierté dans le Seigneur._
     - biblicalRef: 1 Co 7, 32-35
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         La femme qui reste vierge a le souci des affaires du Seigneur, afin d’être sanctifiée »
@@ -452,7 +452,7 @@ mass:
         mais pour vous proposer ce qui est bien,
         afin que vous soyez attachés au Seigneur sans partage.
     - biblicalRef: 1 Co 12,31 – 13,13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ce qui demeure aujourd’hui, c’est la foi, l’espérance et la charité ; mais la plus grande des trois, c’est la charité »
@@ -557,7 +557,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 5, 1-12a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Heureux les pauvres de cœur »
@@ -594,7 +594,7 @@ mass:
         Réjouissez-vous, soyez dans l’allégresse,
         car votre récompense est grande dans les cieux ! »
     - biblicalRef: Mc 1, 21-28
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il enseignait en homme qui a autorité »
@@ -630,7 +630,7 @@ mass:
         Sa renommée se répandit aussitôt partout,
         dans toute la région de la Galilée.
     - biblicalRef: Lc 4, 21-30
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         Jésus, comme Élie et Élisée, n’est pas envoyé aux seuls Juifs

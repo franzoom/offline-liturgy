@@ -70,7 +70,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dt 11, 18.26-28.32
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je vous propose la bénédiction ou la malédiction »
@@ -93,7 +93,7 @@ mass:
         Vous veillerez à mettre en pratique tous les décrets et les ordonnances
         que je vous présente aujourd’hui. »
     - biblicalRef: Dt 5, 12-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Tu te souviendras que tu as été esclave en Égypte »
@@ -118,7 +118,7 @@ mass:
         C’est pourquoi le Seigneur ton Dieu
         t’a ordonné de célébrer le jour du sabbat. »
     - biblicalRef: 1 R 8, 41-43
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Si un étranger vient prier, exauce-le »
@@ -142,7 +142,7 @@ mass:
     partContents:
     - biblicalRef: Ps 30 (31), 2-3a, 3bc-4, 17.25
       refAbbr: 30, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 30, 3b
@@ -164,7 +164,7 @@ mass:
         vous tous qui espérez le Seigneur !
     - biblicalRef: Ps 80 (81), 3-4, 5-6ab, 6c-8a, 10-11ab
       refAbbr: 80, 3…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 80, 2a
@@ -191,7 +191,7 @@ mass:
         qui t’ai fait monter de la terre d’Égypte ! »
     - biblicalRef: Ps 116 (117), 1, 2
       refAbbr: ’116’
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: Mc 16, 15
@@ -208,7 +208,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 3, 21-25a.28
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « L’homme devient juste par la foi, indépendamment de la pratique de la Loi »
@@ -231,7 +231,7 @@ mass:
         En effet, nous estimons que l’homme devient juste par la foi,
         indépendamment de la pratique de la Loi.
     - biblicalRef: 2 Co 4, 6-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « La vie de Jésus est manifestée dans notre corps »
@@ -261,7 +261,7 @@ mass:
         afin que la vie de Jésus, elle aussi,
          soit manifestée dans notre condition charnelle vouée à la mort.
     - biblicalRef: Ga 1, 1-2.6-10
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Si j’en étais encore à plaire à des hommes, je ne serais pas serviteur du Christ »
@@ -296,7 +296,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 7, 21-27
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         La maison construite sur le roc et la maison construite sur le sable
@@ -337,7 +337,7 @@ mass:
         la maison s’est écroulée,
         et son écroulement a été complet. »
     - biblicalRef: Mc 2,23 - 3,6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le Fils de l’homme est maître, même du sabbat »
@@ -390,7 +390,7 @@ mass:
         contre Jésus,
         pour voir comment le faire périr.
     - biblicalRef: Lc 7, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Même en Israël je n’ai pas trouvé une telle foi »

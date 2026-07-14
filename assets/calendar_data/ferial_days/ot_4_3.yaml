@@ -214,14 +214,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 12, 4-7.11-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         Quand le Seigneur aime quelqu’un, il lui donne de bonnes leçons »
@@ -256,7 +256,7 @@ mass:
         cela causerait du trouble,
         et beaucoup en seraient infectés.
     - biblicalRef: 2 S 24, 2.9-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « C’est moi qui ai péché, c’est moi qui suis coupable ; mais ceux-là, le troupeau, qu’ont-ils fait ? »
@@ -319,7 +319,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 13-14, 17-18a
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 102, 17ab
@@ -344,7 +344,7 @@ mass:
         pour ceux qui gardent son alliance.
     - biblicalRef: Ps 31 (32), 1-2, 5, 6, 7
       refAbbr: 31, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 31, 5c
@@ -398,8 +398,8 @@ mass:
         en leur imposant les mains.
         Et il s’étonna de leur manque de foi.
         Alors Jésus parcourait les villages d’alentour en enseignant.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

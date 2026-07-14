@@ -54,7 +54,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 6, 13-16
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Garde le commandement, en demeurant sans tache, jusqu’à la Manifestation de notre Seigneur »
@@ -76,7 +76,7 @@ mass:
         et nul ne peut le voir.
         À lui, honneur et puissance éternelle. Amen.
     - biblicalRef: 1 Co 15, 35-37.42-49
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ce qui est semé périssable ressuscite impérissable »
@@ -126,7 +126,7 @@ mass:
     partContents:
     - biblicalRef: Ps 99 (100), 1-2, 3, 4, 5
       refAbbr: 99, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 99, 2
@@ -151,7 +151,7 @@ mass:
         sa fidélité demeure d’âge en âge.
     - biblicalRef: Ps 55 (56), 4.5b.10, 11a.12, 13-14ab
       refAbbr: 55, 4…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 55, 14c

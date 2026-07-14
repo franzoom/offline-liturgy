@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 11, 18.21b-30
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ma préoccupation quotidienne, le souci de toutes les Églises »
@@ -105,7 +105,7 @@ mass:
         S’il faut se vanter,
         je me vanterai de ce qui fait ma faiblesse.
     - biblicalRef: 2 R 11, 1-4.9-18.20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « On donna l’onction à Joas et on l’acclama en criant : “Vive le roi !” »
@@ -185,7 +185,7 @@ mass:
     partContents:
     - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 33, 18b
@@ -209,7 +209,7 @@ mass:
         il le sauve de toutes ses angoisses.
     - biblicalRef: Ps 131 (132), 11, 12, 13-14, 17-18
       refAbbr: 131, 11…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 131, 13

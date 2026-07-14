@@ -243,14 +243,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Is 11, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il jugera les petits avec justice »
@@ -292,7 +292,7 @@ mass:
         les nations la chercheront,
          et la gloire sera sa demeure.
     - biblicalRef: Is 40, 1-5.9-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Préparez le chemin du Seigneur »
@@ -334,7 +334,7 @@ mass:
           il les porte sur son cœur,
           il mène les brebis qui allaitent.
     - biblicalRef: Ba 5, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dieu va déployer ta splendeur »
@@ -373,7 +373,7 @@ mass:
     partContents:
     - biblicalRef: Ps 71 (72), 1-2, 7-8, 12-13, 17
       refAbbr: 71, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 71, 7
@@ -402,7 +402,7 @@ mass:
         que tous les pays le disent bienheureux !
     - biblicalRef: Ps 84 (85), 9ab.10, 11-12, 13-14
       refAbbr: 84, 9…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 84, 8
@@ -426,7 +426,7 @@ mass:
         et ses pas traceront le chemin.
     - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
       refAbbr: 125, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 125, 3
@@ -456,7 +456,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 15, 4-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Le Christ sauve tous les hommes
@@ -483,7 +483,7 @@ mass:
           _C’est pourquoi je proclamerai ta louange parmi les nations,
           je chanterai ton nom._
     - biblicalRef: 2 P 3,8-14
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ce que nous attendons, c’est un ciel nouveau et une terre nouvelle »
@@ -516,7 +516,7 @@ mass:
         faites tout pour qu’on vous trouve sans tache ni défaut,
          dans la paix.
     - biblicalRef: Ph 1, 4-6.8-11
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dans la droiture, marchez sans trébucher vers le jour du Christ »
@@ -545,7 +545,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 3, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Convertissez-vous, car le royaume des Cieux est tout proche »
@@ -599,7 +599,7 @@ mass:
          quant à la paille,
           il la brûlera au feu qui ne s’éteint pas. »
     - biblicalRef: Mc 1, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Rendez droits les sentiers du Seigneur »
@@ -636,7 +636,7 @@ mass:
          Moi, je vous ai baptisés avec de l’eau ;
          lui vous baptisera dans l’Esprit Saint. »
     - biblicalRef: Lc 3, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Tout être vivant verra le salut de Dieu »
@@ -667,8 +667,8 @@ mass:
           les passages tortueux deviendront droits,
           les chemins rocailleux seront aplanis ;
           et tout être vivant verra le salut de Dieu._
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

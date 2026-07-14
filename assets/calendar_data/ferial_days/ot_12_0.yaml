@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jr 20, 10-13
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il a délivré le malheureux de la main des méchants »
@@ -89,7 +89,7 @@ mass:
         Chantez le Seigneur, louez le Seigneur :
         il a délivré le malheureux de la main des méchants.
     - biblicalRef: Jb 38, 1.8-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ici s’arrêtera l’orgueil de tes flots ! »
@@ -105,7 +105,7 @@ mass:
         tu n’iras pas plus loin,
         ici s’arrêtera l’orgueil de tes flots !" »
     - biblicalRef: Za 12, 10-11a ; 13, 1
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ils regarderont vers celui qu’ils ont transpercé » (Jn 19,37)
@@ -130,7 +130,7 @@ mass:
     partContents:
     - biblicalRef: Ps 68 (69), 8-10, 14.17, 33-35
       refAbbr: 68, 8…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 68, 14c
@@ -159,7 +159,7 @@ mass:
         les mers et tout leur peuplement !
     - biblicalRef: Ps 106 (107), 21a.22a.24, 25-26a.27b, 28-29, 30-31
       refAbbr: 106, 21…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 106, 1
@@ -189,7 +189,7 @@ mass:
         de ses merveilles pour les hommes.
     - biblicalRef: Ps 62 (63), 2, 3-4, 5-6, 8-9
       refAbbr: 62, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 62, 2b
@@ -220,7 +220,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 5, 12-15
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Le don gratuit de Dieu et la faute n’ont pas la même mesure »
@@ -248,7 +248,7 @@ mass:
         cette grâce qui est donnée en un seul homme,
         Jésus Christ.
     - biblicalRef: 2 Co 5, 14-17
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Un monde nouveau est déjà né »
@@ -269,7 +269,7 @@ mass:
         Le monde ancien s’en est allé,
         un monde nouveau est déjà né.
     - biblicalRef: Ga 3, 26-29
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Vous tous que le baptême a unis au Christ, vous avez revêtu le Christ »
@@ -291,7 +291,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 10, 26-33
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ne craignez pas ceux qui tuent le corps »
@@ -326,7 +326,7 @@ mass:
         moi aussi je le renierai
         devant mon Père qui est aux cieux. »
     - biblicalRef: Mc 4, 35-41
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Qui est-il donc, celui-ci, pour que même le vent et la mer lui obéissent ? »
@@ -360,7 +360,7 @@ mass:
         « Qui est-il donc, celui-ci,
         pour que même le vent et la mer lui obéissent ? »
     - biblicalRef: Lc 9, 18-24
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Tu es le Christ, le Messie de Dieu. – Il faut que le Fils de l’homme souffre beaucoup »

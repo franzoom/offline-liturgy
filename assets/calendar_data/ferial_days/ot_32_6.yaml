@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 18, 14-16 ; 19, 6-9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « De la mer Rouge surgit un chemin sans obstacles. Ils bondissaient comme des agneaux »
@@ -87,7 +87,7 @@ mass:
         et chantaient ta louange, Seigneur :
         tu les avais délivrés.
     - biblicalRef: 3 Jn 5-8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous devons apporter notre soutien aux frères pour être des collaborateurs de la vérité »
@@ -108,7 +108,7 @@ mass:
     partContents:
     - biblicalRef: Ps 104 (105), 2-3, 36-37, 42-43
       refAbbr: 104, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 104, 5a
@@ -133,7 +133,7 @@ mass:
         ses élus, avec des cris de joie !
     - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 111, 1a

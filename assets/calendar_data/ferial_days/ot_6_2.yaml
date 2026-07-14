@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 6, 5-8 ; 7, 1-5.10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Je vais effacer de la surface du sol les hommes que j’ai créés »
@@ -100,7 +100,7 @@ mass:
         Sept jours plus tard,
         les eaux du déluge étaient sur la terre.
     - biblicalRef: Jc 1, 12-18
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Dieu ne tente personne »
@@ -129,7 +129,7 @@ mass:
     partContents:
     - biblicalRef: Ps 28 (29), 1-2, 3ac-4, 3b.9c-10
       refAbbr: 28, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 28, 11b
@@ -153,7 +153,7 @@ mass:
         il siège, le Seigneur, il est roi pour toujours !
     - biblicalRef: Ps 93 (94), 12-13, 14-15, 18-19
       refAbbr: 93, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 93, 12a

@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 R 3, 5.7-12
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tu m’as demandé le discernement »
@@ -102,7 +102,7 @@ mass:
         tel que personne n’en a eu avant toi
         et que personne n’en aura après toi. »
     - biblicalRef: 2 R 4, 42-44
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « On mangera, et il en restera »
@@ -123,7 +123,7 @@ mass:
          Alors, il le leur donna, ils mangèrent, et il en resta,
         selon la parole du Seigneur.
     - biblicalRef: Gn 18, 20-32
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Que mon Seigneur ne se mette pas en colère si j’ose parler encore »
@@ -190,7 +190,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 57.72, 76-77, 127-128, 129-130
       refAbbr: 118, 57…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 118, 97a
@@ -217,7 +217,7 @@ mass:
         et les simples comprennent.
     - biblicalRef: Ps 144 (145), 10-11, 15-16, 17-18
       refAbbr: 144, 10…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 144, 16
@@ -241,7 +241,7 @@ mass:
         de tous ceux qui l’invoquent en vérité.
     - biblicalRef: Ps 137 (138), 1-2a, 2bc-3, 6-7ab, 7c-8
       refAbbr: 137, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 137, 3
@@ -271,7 +271,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 28-30
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il nous a destinés d’avance à être configurés à l’image de son Fils »
@@ -293,7 +293,7 @@ mass:
         et ceux qu’il a rendus justes,
         il leur a donné sa gloire.
     - biblicalRef: Ep 4, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Un seul Corps, un seul Seigneur, une seule foi, un seul baptême »
@@ -311,7 +311,7 @@ mass:
          un seul Dieu et Père de tous,
         au-dessus de tous, par tous, et en tous.
     - biblicalRef: Col 2, 12-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dieu vous a donné la vie avec le Christ, il nous a pardonné toutes nos fautes »
@@ -332,7 +332,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 13, 44-52
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il va vendre tout ce qu’il possède, et il achète ce champ »
@@ -377,7 +377,7 @@ mass:
         est comparable à un maître de maison
         qui tire de son trésor du neuf et de l’ancien. »
     - biblicalRef: Jn 6, 1-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ils distribua les pains aux convives, autant qu’ils en voulaient »
@@ -434,7 +434,7 @@ mass:
         alors de nouveau il se retira dans la montagne,
         lui seul.
     - biblicalRef: Lc 11, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Demandez, on vous donnera »

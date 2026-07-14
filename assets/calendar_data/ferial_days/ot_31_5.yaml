@@ -48,7 +48,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 15, 14-21
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ministre du Christ Jésus pour les nations, afin que l’offrande des nations soit acceptée par Dieu »
@@ -81,7 +81,7 @@ mass:
         _Ceux à qui on ne l’avait pas annoncé verront ;
         ceux qui n’en avaient pas entendu parler comprendront._
     - biblicalRef: Ph 3, 17 – 4, 1
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous attendons comme sauveur le Seigneur Jésus Christ, lui qui transformera nos pauvres corps à l’image de son corps glorieux »
@@ -112,7 +112,7 @@ mass:
     partContents:
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 97, 2
@@ -136,7 +136,7 @@ mass:
         sonnez, chantez, jouez.
     - biblicalRef: Ps 121 (122), 1-2, 3-4ab, 4cd-5
       refAbbr: 121, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 121, 1

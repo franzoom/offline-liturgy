@@ -251,14 +251,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Is 35, 1-6a.10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Dieu vient lui-même et va vous sauver »
@@ -290,7 +290,7 @@ mass:
         Allégresse et joie les rejoindront,
          douleur et plainte s’enfuient.
     - biblicalRef: Is 61, 1-2a.10-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je tressaille de joie dans le Seigneur »
@@ -314,7 +314,7 @@ mass:
         le Seigneur Dieu fera germer la justice et la louange
          devant toutes les nations.
     - biblicalRef: So 3, 14-18a
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Seigneur exultera pour toi et se réjouira »
@@ -341,7 +341,7 @@ mass:
     partContents:
     - biblicalRef: Ps 145 (146), 7, 8, 9ab.10a
       refAbbr: 145, 7…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 35, 4
@@ -361,7 +361,7 @@ mass:
         D’âge en âge, le Seigneur régnera.
     - biblicalRef: Lc 1, 46b-48, 49-50, 53-54
       refAbbr: 1, 46…54
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 61, 10
@@ -383,7 +383,7 @@ mass:
         il se souvient de son amour
     - biblicalRef: Is 12, 2-3, 4bcde, 5-6
       refAbbr: 12, 2…6
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 12, 6
@@ -410,7 +410,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jc 5, 7-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tenez ferme vos cœurs car la venue du Seigneur est proche »
@@ -431,7 +431,7 @@ mass:
         Frères, prenez pour modèles d’endurance et de patience
          les prophètes qui ont parlé au nom du Seigneur.
     - biblicalRef: 1 Th 5, 16-24
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Que votre esprit, votre âme et votre corps soient gardés pour la venue du Seigneur »
@@ -455,7 +455,7 @@ mass:
         Il est fidèle, Celui qui vous appelle :
          tout cela, il le fera.
     - biblicalRef: Ph 4, 4-7
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Seigneur est proche »
@@ -475,7 +475,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 11, 2-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Es-tu celui qui doit venir, ou devons-nous en attendre un autre ? »
@@ -520,7 +520,7 @@ mass:
         et cependant le plus petit dans le royaume des Cieux
          est plus grand que lui. »
     - biblicalRef: Jn 1, 6-8.19-28
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Au milieu de vous se tient celui que vous ne connaissez pas »
@@ -575,7 +575,7 @@ mass:
         Cela s’est passé à Béthanie, de l’autre côté du Jourdain,
          à l’endroit où Jean baptisait.
     - biblicalRef: Lc 3, 10-18
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Que devons-nous faire ? »
@@ -619,8 +619,8 @@ mass:
          il la brûlera au feu qui ne s’éteint pas. »
         Par beaucoup d’autres exhortations encore,
          il annonçait au peuple la Bonne Nouvelle.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

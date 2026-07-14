@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Lv 23, 1.4-11.15-16.27.34b-37
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Voici les solennités du Seigneur, les assemblées saintes »
@@ -118,7 +118,7 @@ mass:
         un sacrifice et des libations,
         selon le rite propre à chaque jour. »
     - biblicalRef: Jr 26, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tout le peuple se rassembla autour de Jérémie dans la maison du Seigneur »
@@ -166,7 +166,7 @@ mass:
     partContents:
     - biblicalRef: Ps 80 (81), 3-4, 5-6ab, 10-11ab
       refAbbr: 80, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 80, 2a
@@ -188,7 +188,7 @@ mass:
         qui t’ai fait monter de la terre d’Égypte ! »
     - biblicalRef: Ps 68 (69), 2.5ab, 5cd.8, 9-10, 14
       refAbbr: 68, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 68, 14c

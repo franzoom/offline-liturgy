@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dn 7, 15-27
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La royauté, la domination et la puissance sont données au peuple des saints du Très-Haut »
@@ -118,7 +118,7 @@ mass:
         Sa royauté est une royauté éternelle,
         et tous les empires le serviront et lui obéiront. »
     - biblicalRef: Ap 22, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La nuit aura disparu, le Seigneur Dieu les illuminera »
@@ -172,7 +172,7 @@ mass:
         Les saints et les humbles de cœur, bénissez le Seigneur. R/
     - biblicalRef: Ps 94 (95), 1-2, 3-5, 6-7
       refAbbr: 94, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 16, 22b ; Ap 22, 20c

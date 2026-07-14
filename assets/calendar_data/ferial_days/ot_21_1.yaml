@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 1, 1-5.8b-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous vous êtes convertis à Dieu en vous détournant des idoles, afin d’attendre des cieux son Fils qu’il a ressuscité »
@@ -102,7 +102,7 @@ mass:
         qu’il a ressuscité d’entre les morts,
         Jésus, qui nous délivre de la colère qui vient.
     - biblicalRef: 2 Th 1, 1-5.11b-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le nom de notre Seigneur Jésus sera glorifié en vous, et vous en lui »
@@ -140,7 +140,7 @@ mass:
     partContents:
     - biblicalRef: Ps 149, 1-2, 3-4, 5-6a.9b
       refAbbr: 149, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 149, 4a
@@ -163,7 +163,7 @@ mass:
         c’est la fierté de ses fidèles.
     - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 4-5
       refAbbr: 95, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 95, 3

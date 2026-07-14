@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 4, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La volonté de Dieu, c’est que vous viviez dans la sainteté »
@@ -91,7 +91,7 @@ mass:
         ce n’est pas un homme qu’il rejette,
         c’est Dieu lui-même, lui qui vous donne son Esprit Saint.
     - biblicalRef: 1 Co 1, 17-25
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous proclamons un Messie crucifié, scandale pour les Juifs. Mais pour ceux que Dieu appelle, il est sagesse de Dieu »
@@ -132,7 +132,7 @@ mass:
     partContents:
     - biblicalRef: Ps 96 (97), 1-2, 5-6, 11-12
       refAbbr: 96, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 96, 12a
@@ -154,7 +154,7 @@ mass:
         rendez grâce en rappelant son nom très saint.
     - biblicalRef: Ps 32 (33), 1-2, 4-5, 10-11
       refAbbr: 32, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 32, 5b

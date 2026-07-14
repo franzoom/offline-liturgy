@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 28, 10-22a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il eut un songe : une échelle était dressée, et des anges de Dieu montaient et descendaient. Le Seigneur dit… »
@@ -110,7 +110,7 @@ mass:
          Cette pierre dont j’ai fait une stèle
         sera la maison de Dieu. »
     - biblicalRef: Os 2, 16.17b-18.21-22
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je ferai de toi mon épouse pour toujours »
@@ -137,7 +137,7 @@ mass:
     partContents:
     - biblicalRef: Ps 90 (91), 1-2, 3a.4, 14-15ab
       refAbbr: 90, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 90, 2b
@@ -159,7 +159,7 @@ mass:
         je suis avec lui dans son épreuve. »
     - biblicalRef: Ps 144 (145), 2-3, 4-5, 6-7, 8-9
       refAbbr: 144, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 144, 8a

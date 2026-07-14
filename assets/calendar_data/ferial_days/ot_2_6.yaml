@@ -152,14 +152,14 @@ middleOfDay:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 9, 2-3.11-14
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il est entré une fois pour toutes dans le sanctuaire, en répandant son propre sang »
@@ -193,7 +193,7 @@ mass:
         des actes qui mènent à la mort,
         pour que nous puissions rendre un culte au Dieu vivant.
     - biblicalRef: 2 S 1, 1-4.11-12.19.23-27
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Comment sont-ils tombés, les héros, au milieu du combat ? »
@@ -249,7 +249,7 @@ mass:
     partContents:
     - biblicalRef: Ps 46 (47), 2-3, 6-7, 8-9
       refAbbr: 46, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 46, 6
@@ -273,7 +273,7 @@ mass:
         Dieu est assis sur son trône sacré.
     - biblicalRef: Ps 79 (80), 2-3, 5-7
       refAbbr: 79, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 79, 4b
@@ -312,8 +312,8 @@ mass:
         vinrent pour se saisir de lui,
         car ils affirmaient :
         « Il a perdu la tête. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

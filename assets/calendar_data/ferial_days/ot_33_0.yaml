@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Pr 31, 10-13.19-20.30-31
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ses mains travaillent volontiers »
@@ -86,7 +86,7 @@ mass:
          Célébrez-la pour les fruits de son travail :
         et qu’aux portes de la ville, ses œuvres disent sa louange !
     - biblicalRef: Dn 12, 1-3
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « En ce temps-ci, ton peuple sera délivré »
@@ -108,7 +108,7 @@ mass:
         et ceux qui sont des maîtres de justice pour la multitude
         brilleront comme les étoiles pour toujours et à jamais.
     - biblicalRef: Ml 3, 19-20a
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Pour vous, le Soleil de justice se lèvera »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
       refAbbr: 127, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 127, 1a
@@ -149,7 +149,7 @@ mass:
         Tu verras le bonheur de Jérusalem tous les jours de ta vie.
     - biblicalRef: Ps 15 (16), 5.8, 9-10, 11
       refAbbr: 15, 5…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 15, 1
@@ -172,7 +172,7 @@ mass:
         À ta droite, éternité de délices !
     - biblicalRef: Ps 97 (98), 5-6, 7-8, 9
       refAbbr: 97, 5…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 97, 9
@@ -197,7 +197,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 5, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Que le jour du Seigneur ne vous surprenne pas comme un voleur »
@@ -219,7 +219,7 @@ mass:
          Alors, ne restons pas endormis comme les autres,
         mais soyons vigilants et restons sobres.
     - biblicalRef: He 10, 11-14.18
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Par son unique offrande, il a mené pour toujours à leur perfection ceux qu’il sanctifie »
@@ -242,7 +242,7 @@ mass:
         Or, quand le pardon est accordé,
         on n’offre plus le sacrifice pour le péché.
     - biblicalRef: 2 Th 3, 7-12
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus »
@@ -271,7 +271,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 25, 14-30
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tu as été fidèle pour peu de choses, je t’en confierai beaucoup »
@@ -345,7 +345,7 @@ mass:
         jetez-le dans les ténèbres extérieures ;
         là, il y aura des pleurs et des grincements de dents !’ »
     - biblicalRef: Mc 13, 24-32
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il rassemblera les élus des quatre coins du monde »
@@ -385,7 +385,7 @@ mass:
         pas même le Fils,
         mais seulement le Père. »
     - biblicalRef: Lc 21, 5-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « C’est par votre persévérance que vous garderez votre vie »

@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 25, 6-10a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Le Seigneur préparera un festin ; il essuiera les larmes sur tous les visages »
@@ -92,7 +92,7 @@ mass:
          Car la main du Seigneur
         reposera sur cette montagne.
     - biblicalRef: Sg 7, 7-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « À côté de la sagesse, j’ai tenu pour rien la richesse »
@@ -112,7 +112,7 @@ mass:
          Tous les biens me sont venus avec elle
         et, par ses mains, une richesse incalculable.
     - biblicalRef: 2 R 5, 14-17
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Naaman retourna chez l’homme de Dieu et déclara : Il n’y a pas d’autre Dieu que celui d’Israël »
@@ -142,7 +142,7 @@ mass:
     partContents:
     - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
       refAbbr: 22, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 22, 6cd
@@ -176,7 +176,7 @@ mass:
         pour la durée de mes jours.
     - biblicalRef: Ps 89 (90), 12-13, 14-15, 16-17
       refAbbr: 89, 12…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 89, 14
@@ -201,7 +201,7 @@ mass:
         oui, consolide l’ouvrage de nos mains.
     - biblicalRef: Ps 97 (98), 1, 2-3ab,3cd-4
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 97, 2
@@ -226,7 +226,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ph 4, 12-14.19-20
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je peux tout en celui qui me donne la force »
@@ -248,7 +248,7 @@ mass:
         Gloire à Dieu notre Père
         pour les siècles des siècles. Amen.
     - biblicalRef: He 4, 12-13
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « La parole de Dieu juge des intentions et des pensées du cœur »
@@ -263,7 +263,7 @@ mass:
         tout est nu devant elle, soumis à son regard ;
         nous aurons à lui rendre des comptes.
     - biblicalRef: 2 Tm 2, 8-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Si nous supportons l’épreuve, avec lui nous régnerons »
@@ -295,7 +295,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 22, 1-14
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tous ceux que vous trouverez, invitez-les à la noce »
@@ -348,7 +348,7 @@ mass:
         Car beaucoup sont appelés,
         mais peu sont élus. »
     - biblicalRef: Mc 10, 17-30
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vends ce que tu as et suis-moi »
@@ -421,7 +421,7 @@ mass:
         et, dans le monde à venir,
         la vie éternelle. »
     - biblicalRef: Lc 17, 11-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il ne s’est trouvé parmi eux que cet étranger pour revenir sur ses pas et rendre gloire à Dieu ! »

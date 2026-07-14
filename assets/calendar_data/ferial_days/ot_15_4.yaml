@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 3, 13-20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Celui qui m’a envoyé vers vous, c’est : JE-SUIS »
@@ -113,7 +113,7 @@ mass:
         que j’accomplirai au milieu d’elle.
         Après cela, il vous permettra de partir. »
     - biblicalRef: Is 26, 7-9.12.16-19
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils se réveilleront, crieront de joie, ceux qui demeurent dans la poussière »
@@ -152,7 +152,7 @@ mass:
     partContents:
     - biblicalRef: Ps 104 (105), 1.5, 8-9, 24-25, 26-27
       refAbbr: 104, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 104, 8a
@@ -180,7 +180,7 @@ mass:
         des miracles au pays de Cham.
     - biblicalRef: Ps 101 (102), 13-15, 16-18, 19-21
       refAbbr: 101, 13…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 101, 20b

@@ -206,14 +206,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 6, 10-20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Cette espérance, nous la tenons comme une ancre sûre et solide »
@@ -258,7 +258,7 @@ mass:
         lui qui est devenu grand prêtre de l’ordre de Melkisédek
         pour l’éternité.
     - biblicalRef: 1 S 16, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Samuel donna l’onction à David au milieu de ses frères. L’esprit du Seigneur s’empara de David »
@@ -330,7 +330,7 @@ mass:
     partContents:
     - biblicalRef: Ps 110 (111), 1-2, 4-5, 9.10c
       refAbbr: 110, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 110, 5b
@@ -355,7 +355,7 @@ mass:
         À jamais se maintiendra sa louange.
     - biblicalRef: Ps 88 (89), 20, 21-22, 27-28
       refAbbr: 88, 20…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 88, 21a
@@ -406,8 +406,8 @@ mass:
         et non pas l’homme pour le sabbat.
         Voilà pourquoi le Fils de l’homme
         est maître, même du sabbat. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

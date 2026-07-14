@@ -233,14 +233,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Ac 8, 5-8.14-17
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Pierre et Jean leur imposèrent les mains, et ils reçurent l’Esprit Saint »
@@ -267,7 +267,7 @@ mass:
          Alors Pierre et Jean leur imposèrent les mains,
         et ils reçurent l’Esprit Saint.
     - biblicalRef: Ac 10, 25-26.34-35.44-48
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Même sur les nations païennes, le don de l’Esprit Saint avait été répandu »
@@ -303,7 +303,7 @@ mass:
         Alors ils lui demandèrent
         de rester quelques jours avec eux.
     - biblicalRef: Ac 15, 1-2.22-29
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « L’Esprit Saint et nous-mêmes avons décidé  de ne pas faire peser sur vous d’autres obligations que celles-ci qui s’imposent »
@@ -355,7 +355,7 @@ mass:
     partContents:
     - biblicalRef: Ps 65 (66), 1-3a, 4-5, 6-7a, 16.20
       refAbbr: 65, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 65, 1
@@ -385,7 +385,7 @@ mass:
         ni détourné de moi son amour !
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 97, 2
@@ -410,7 +410,7 @@ mass:
         sonnez, chantez, jouez !
     - biblicalRef: Ps 66 (67), 2-3, 5, 7-8
       refAbbr: 66, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 66, 4
@@ -436,7 +436,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 P 3, 15-18
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Dans sa chair, il a été mis à mort ; dans l’esprit, il a reçu la vie »
@@ -463,7 +463,7 @@ mass:
         il a été mis à mort dans la chair ;
         mais vivifié dans l’Esprit.
     - biblicalRef: 1 Jn 4, 7-10
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Dieu est amour »
@@ -487,7 +487,7 @@ mass:
         et il a envoyé son Fils
         en sacrifice de pardon pour nos péchés.
     - biblicalRef: Ap 21, 10-14.22-23
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il me montra la Ville sainte qui descendait du ciel »
@@ -520,7 +520,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 14, 15-21
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Moi, je prierai le Père, et il vous donnera un autre Défenseur »
@@ -558,7 +558,7 @@ mass:
         moi aussi, je l’aimerai,
         et je me manifesterai à lui. »
     - biblicalRef: Jn 15, 9-17
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il n’y a pas de plus grand amour que de donner sa vie pour ceux qu’on aime »
@@ -600,7 +600,7 @@ mass:
         Voici ce que je vous commande :
         c’est de vous aimer les uns les autres. »
     - biblicalRef: Jn 14, 23-29
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « L’Esprit Saint vous fera souvenir de tout ce que je vous ai dit »
@@ -642,8 +642,8 @@ mass:
         avant qu’elles n’arrivent ;
         ainsi, lorsqu’elles arriveront,
         vous croirez. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

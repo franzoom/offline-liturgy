@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 6, 19-23
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Maintenant, libérés du péché, vous êtes devenus les esclaves de Dieu »
@@ -86,7 +86,7 @@ mass:
         c’est la vie éternelle
         dans le Christ Jésus notre Seigneur.
     - biblicalRef: Ep 3, 14-21
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Restez enracinés dans l’amour, établis dans l’amour. Alors vous serez comblés jusqu’à entrer dans toute la plénitude de Dieu »
@@ -118,7 +118,7 @@ mass:
     partContents:
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 5a
@@ -146,7 +146,7 @@ mass:
         mais le chemin des méchants se perdra.
     - biblicalRef: Ps 32 (33), 1-2, 4-5, 11-12, 18-19
       refAbbr: 32, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 32, 5b

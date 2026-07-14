@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 13, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « S’ils sont capables d’avoir une idée sur le cours éternel des choses, comment n’ont-ils pas découvert Celui qui en est le Maître ? »
@@ -98,7 +98,7 @@ mass:
         comment n’ont-ils pas découvert plus vite
         Celui qui en est le Maître ?
     - biblicalRef: 2 Jn 1a. 4-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Celui qui se tient à l’enseignement du Christ, celui-là reste attaché au Père et au Fils »
@@ -132,7 +132,7 @@ mass:
     partContents:
     - biblicalRef: Ps 18A (19), 2-3, 4-5ab
       refAbbr: 18A, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 18a, 2a
@@ -149,7 +149,7 @@ mass:
         et la nouvelle, aux limites du monde.
     - biblicalRef: Ps 118 (119), 1-2, 10-11, 17-18
       refAbbr: 118, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 1b

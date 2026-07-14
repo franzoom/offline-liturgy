@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 2, 9-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « En travaillant nuit et jour, nous vous avons annoncé l’Évangile de Dieu »
@@ -86,7 +86,7 @@ mass:
         non pas une parole d’hommes, mais la parole de Dieu
         qui est à l’œuvre en vous, les croyants.
     - biblicalRef: 2 Th 3, 6-10.16-18
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Si quelqu’un ne veut pas travailler, qu’il ne mange pas non plus »
@@ -121,7 +121,7 @@ mass:
     partContents:
     - biblicalRef: Ps 138 (139), 7-8, 9-10, 11-12
       refAbbr: 138, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 138, 1
@@ -143,7 +143,7 @@ mass:
         et la nuit comme le jour est lumière !
     - biblicalRef: Ps 127 (128), 1-2, 4-5
       refAbbr: 127, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 127, 1a

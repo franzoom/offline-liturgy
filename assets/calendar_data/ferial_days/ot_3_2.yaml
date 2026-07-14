@@ -217,14 +217,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 10, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Me voici, je suis venu, mon Dieu, pour faire ta volonté »
@@ -266,7 +266,7 @@ mass:
         par l’offrande que Jésus Christ a faite de son corps,
         une fois pour toutes.
     - biblicalRef: 2 S 6, 12b-15.17-19
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « David et tout le peuple d’Israël firent monter l’arche du Seigneur parmi les ovations »
@@ -300,7 +300,7 @@ mass:
     partContents:
     - biblicalRef: Ps 39 (40), 2abc.4ab, 7-8a, 10, 11
       refAbbr: 39, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 8a.9a
@@ -329,7 +329,7 @@ mass:
         à la grande assemblée.
     - biblicalRef: Ps 23 (24), 7, 8, 9, 10
       refAbbr: 23, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 23, 8a
@@ -379,8 +379,8 @@ mass:
         « Voici ma mère et mes frères.
         Celui qui fait la volonté de Dieu,
         celui-là est pour moi un frère, une sœur, une mère. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -202,14 +202,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 5, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Bien qu’il soit le Fils, il apprit par ses souffrances l’obéissance »
@@ -252,7 +252,7 @@ mass:
         car Dieu l’a proclamé grand prêtre
         de l’ordre de Melkisédek.
     - biblicalRef: 1 S 15, 16-23
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « L’obéissance vaut mieux que le sacrifice ; le Seigneur t’a rejeté : tu ne seras plus roi ! »
@@ -295,7 +295,7 @@ mass:
     partContents:
     - biblicalRef: Ps 109 (110), 1, 2, 3, 4
       refAbbr: 109, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 109, 4
@@ -323,7 +323,7 @@ mass:
         selon l’ordre du roi Melkisédek. »
     - biblicalRef: Ps 49 (50), 7ac-8, 16bc-17, 21, 23
       refAbbr: 49, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 49, 23cd
@@ -382,8 +382,8 @@ mass:
         car alors, le vin fera éclater les outres,
         et l’on perd à la fois le vin et les outres.
         À vin nouveau, outres neuves. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

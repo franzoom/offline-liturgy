@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 16, 1-12.15-16
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Agar enfanta un fils à Abram, qui lui donna le nom d’Ismaël »
@@ -143,7 +143,7 @@ mass:
          Abram avait 86 ans
         quand Agar lui enfanta Ismaël.
     - biblicalRef: 2 R 24, 8-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le roi Jékonias et tous les soldats furent déportés à Babylone par le roi Nabucodonosor »
@@ -186,7 +186,7 @@ mass:
     partContents:
     - biblicalRef: Ps 105 (106), 1-2, 3-4ab, 4c-5
       refAbbr: 105, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 105, 1a
@@ -210,7 +210,7 @@ mass:
         à la fierté de ton héritage.
     - biblicalRef: Ps 78 (79), 1, 2, 3, 4-5, 8, 9
       refAbbr: 78, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 78, 9bc

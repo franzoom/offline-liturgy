@@ -179,9 +179,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -290,8 +290,8 @@ mass:
         Jésus, voyant qu’il avait fait une remarque judicieuse, lui dit :
         « Tu n’es pas loin du royaume de Dieu. »
         Et personne n’osait plus l’interroger.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

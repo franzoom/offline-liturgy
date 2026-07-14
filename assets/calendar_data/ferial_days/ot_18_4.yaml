@@ -66,7 +66,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Nb 20, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « L’eau jaillit en abondance »
@@ -121,7 +121,7 @@ mass:
         où les fils d’Israël ont défié le Seigneur,
         et où le Seigneur a manifesté parmi eux sa sainteté.
     - biblicalRef: Jr 31, 31-34
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je conclurai une alliance nouvelle. Je ne me rappellerai plus leurs péchés »
@@ -155,7 +155,7 @@ mass:
     partContents:
     - biblicalRef: Ps 94 (95), 1-2, 6-7abc, 7d-9
       refAbbr: 94, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 94, 8a.7d
@@ -181,7 +181,7 @@ mass:
          et pourtant ils avaient vu mon exploit. »
     - biblicalRef: Ps 50 (51), 12-13, 14-15, 18-19
       refAbbr: 50, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 50, 12a

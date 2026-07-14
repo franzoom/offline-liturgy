@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ml 1, 14b – 2, 2b.8-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous vous êtes écartés de la route, vous avez fait de la Loi une occasion de chute »
@@ -89,7 +89,7 @@ mass:
         Pourquoi nous trahir les uns les autres,
         profanant ainsi l’Alliance de nos pères ?
     - biblicalRef: Dt 6, 2-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Écoute, Israël : Tu aimeras le Seigneur de tout ton cœur »
@@ -114,7 +114,7 @@ mass:
         Ces paroles que je te donne aujourd’hui
         resteront dans ton cœur. »
     - biblicalRef: Sg 11, 22 – 12, 2
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Tu as pitié de tous les hommes, parce que tu aimes tout ce qui existe »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 130 (131), 1, 2, 3
       refAbbr: 130, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorus: |-
@@ -168,7 +168,7 @@ mass:
         maintenant et à jamais.
     - biblicalRef: Ps 17 (18), 2-3, 4, 47.51ab
       refAbbr: 17, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 17, 2a
@@ -189,7 +189,7 @@ mass:
         il se montre fidèle à son messie.
     - biblicalRef: Ps 144 (145), 1-2, 8-9, 10-11, 13cd-14
       refAbbr: 144, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 144, 1
@@ -219,7 +219,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 2, 7b-9.13
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais même nos propres vies »
@@ -243,7 +243,7 @@ mass:
         mais la parole de Dieu
         qui est à l’œuvre en vous, les croyants.
     - biblicalRef: He 7, 23-28
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Jésus, parce qu’il demeure pour l’éternité, possède un sacerdoce qui ne passe pas »
@@ -275,7 +275,7 @@ mass:
         établit comme grand prêtre le Fils,
         conduit pour l’éternité à sa perfection.
     - biblicalRef: 2 Th 1, 11 – 2, 2
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le nom de notre Seigneur Jésus sera glorifié en vous, et vous en lui »
@@ -302,7 +302,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 23, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ils disent et ne font pas »
@@ -341,7 +341,7 @@ mass:
          Qui s’élèvera sera abaissé,
         qui s’abaissera sera élevé. »
     - biblicalRef: Mc 12, 28b-34
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Tu aimeras le Seigneur ton Dieu. Tu aimeras ton prochain »
@@ -377,7 +377,7 @@ mass:
         « Tu n’es pas loin du royaume de Dieu. »
         Et personne n’osait plus l’interroger.
     - biblicalRef: Lc 19, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Fils de l’homme est venu chercher et sauver ce qui était perdu »

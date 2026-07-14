@@ -200,9 +200,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -288,8 +288,8 @@ mass:
         et vous avez cru que c’est de Dieu que je suis sorti.
         Je suis sorti du Père, et je suis venu dans le monde ;
         maintenant, je quitte le monde, et je pars vers le Père. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

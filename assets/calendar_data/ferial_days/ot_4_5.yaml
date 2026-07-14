@@ -218,14 +218,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 13, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Jésus Christ, hier et aujourd’hui, est le même, il l’est pour l’éternité »
@@ -258,7 +258,7 @@ mass:
         Jésus Christ, hier et aujourd’hui, est le même,
         il l’est pour l’éternité.
     - biblicalRef: Si 47, 2-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « De tout son cœur, David a chanté les psaumes, il a aimé son Créateur »
@@ -303,7 +303,7 @@ mass:
     partContents:
     - biblicalRef: Ps 26 (27), 1, 3, 5, 9abcd
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 26, 1a
@@ -330,7 +330,7 @@ mass:
         tu restes mon secours.
     - biblicalRef: Ps 17 (18), 31.33a, 47.50, 32a.51
       refAbbr: 17, 31…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 17, 47
@@ -422,8 +422,8 @@ mass:
         Ayant appris cela,
         les disciples de Jean vinrent prendre son corps
         et le déposèrent dans un tombeau.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

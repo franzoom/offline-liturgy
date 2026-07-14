@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 M 1, 10-15.41-43.54-57.62-64
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « C’est ainsi que s’abattit sur Israël une grande colère »
@@ -116,7 +116,7 @@ mass:
         et de fait, ils moururent.
          C’est ainsi que s’abattit sur Israël une grande colère.
     - biblicalRef: Ap 1, 1-4 ; 2, 1-5a
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Rappelle-toi d’où tu es tombé, convertis-toi »
@@ -162,7 +162,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 53.61, 134.150, 155.158
       refAbbr: 118, 53…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 118, 88
@@ -186,7 +186,7 @@ mass:
         car ils ignorent ta promesse.
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 2, 7

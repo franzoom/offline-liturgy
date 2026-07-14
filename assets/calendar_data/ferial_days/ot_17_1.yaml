@@ -54,7 +54,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 32, 15-24.30-34
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ce peuple a commis un grand péché : ils se sont fait des dieux en or »
@@ -117,7 +117,7 @@ mass:
         Le jour où j’interviendrai,
         je les punirai de leur péché. »
     - biblicalRef: Jr 13, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ce peuple mauvais deviendra pareil à cette ceinture qui est hors d’usage »
@@ -166,7 +166,7 @@ mass:
     partContents:
     - biblicalRef: Ps 105 (106), 19-20, 21-22, 23
       refAbbr: 105, 19…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 105, 1

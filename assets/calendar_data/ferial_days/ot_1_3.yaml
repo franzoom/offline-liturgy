@@ -210,14 +210,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 2, 14-18
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il lui fallait se rendre en tout semblable à ses frères, pour devenir un grand prêtre miséricordieux »
@@ -239,7 +239,7 @@ mass:
         Et parce qu’il a souffert jusqu’au bout l’épreuve de sa Passion,
         il est capable de porter secours à ceux qui subissent une épreuve.
     - biblicalRef: 1 S 3, 1-10.19-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Parle, Seigneur, ton serviteur écoute »
@@ -294,7 +294,7 @@ mass:
     partContents:
     - biblicalRef: Ps 104 (105), 1-2, 3-4, 6-7, 8-9
       refAbbr: 104, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 104, 8a
@@ -324,7 +324,7 @@ mass:
         garantie par serment à Isaac.
     - biblicalRef: Ps 39 (40), 2abc.5ab, 7-8a, 8b-9, 10
       refAbbr: 39, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 39, 8a.9a
@@ -396,8 +396,8 @@ mass:
         Et il parcourut toute la Galilée,
         proclamant l’Évangile dans leurs synagogues,
         et expulsant les démons.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

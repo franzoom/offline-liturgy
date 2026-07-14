@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 13, 2.5-18
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Qu’il n’y ait pas de querelle entre toi et moi, car nous sommes frères ! »
@@ -114,7 +114,7 @@ mass:
         et alla s’établir aux chênes de Mambré, près d’Hébron ;
         et là, il bâtit un autel au Seigneur.
     - biblicalRef: 2 R 19, 9b-11.14-21.31-35a.36
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je protégerai cette ville, je la sauverai à cause de moi-même et à cause de David »
@@ -191,7 +191,7 @@ mass:
     partContents:
     - biblicalRef: Ps 14 (15), 2-3a, 3bc- 4ab, 4d-5
       refAbbr: 14, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 14, 1a
@@ -213,7 +213,7 @@ mass:
         Qui fait ainsi demeure inébranlable.
     - biblicalRef: Ps 47 (48), 2-3ab, 3cd-4, 10.11cd
       refAbbr: 47, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 47, 9

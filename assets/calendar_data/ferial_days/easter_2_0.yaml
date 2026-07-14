@@ -154,7 +154,6 @@ middleOfDay:
     - psalm: PSALM_117_1
       antiphon:
         - Alléluia, alléluia alléluia.
-      antiphon:
         - Christ est ressuscité des morts, alléluia ! Christ ne connaît plus la mort, alléluia !
     - psalm: PSALM_117_2
       antiphon:
@@ -231,7 +230,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ac 2, 42-47
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tous les croyants vivaient ensemble, et ils avaient tout en commun »
@@ -259,7 +258,7 @@ mass:
         Chaque jour, le Seigneur leur adjoignait
         ceux qui allaient être sauvés.
     - biblicalRef: Ac 4, 32-35
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Un seul cœur et une seule âme »
@@ -280,7 +279,7 @@ mass:
         pour le déposer aux pieds des Apôtres ;
         puis on le distribuait en fonction des besoins de chacun.
     - biblicalRef: Ac 5, 12-16
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Des foules d’hommes et de femmes, en devenant croyants, s’attachèrent au Seigneur »
@@ -306,7 +305,7 @@ mass:
     partContents:
     - biblicalRef: Ps 117 (118), 2-4, 13-15b, 22-24
       refAbbr: 117, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 117, 1
@@ -337,7 +336,7 @@ mass:
         qu’il soit pour nous jour de fête et de joie !
     - biblicalRef: Ps 117 (118), 2-4, 16ab-18, 22-24
       refAbbr: 117, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 117,1
@@ -368,7 +367,7 @@ mass:
         qu’il soit pour nous jour de fête et de joie !
     - biblicalRef: Ps 117 (118), 2-4, 22-24, 25-27a
       refAbbr: 117, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 117, 1
@@ -399,7 +398,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 P 1, 3-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il nous a fait renaître pour une vivante espérance grâce à la résurrection de Jésus Christ d’entre les morts »
@@ -429,7 +428,7 @@ mass:
          car vous allez obtenir le salut des âmes
         qui est l’aboutissement de votre foi.
     - biblicalRef: 1 Jn 5, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Tout être qui est né de Dieu est vainqueur du monde »
@@ -462,7 +461,7 @@ mass:
         Et celui qui rend témoignage, c’est l’Esprit,
         car l’Esprit est la vérité.
     - biblicalRef: Ap 1, 9-11a.12-13.17-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « J’étais mort, et me voilà vivant pour les siècles des siècles »

@@ -203,9 +203,9 @@ vespers:
 mass:
 - massType: evening_mass
   name: Messe du soir en mémoire de la Cène du Seigneur
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -373,8 +373,8 @@ mass:
         C’est un exemple que je vous ai donné
         afin que vous fassiez, vous aussi,
         comme j’ai fait pour vous. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

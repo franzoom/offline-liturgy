@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 3, 14-16
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il est grand, le mystère de notre religion »
@@ -79,7 +79,7 @@ mass:
         cru dans le monde,
         enlevé dans la gloire !
     - biblicalRef: 1 Co 12, 31 – 13, 13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ce qui demeure aujourd’hui, c’est la foi, l’espérance et la charité ; mais la plus grande des trois, c’est la charité »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 110 (111), 1-2, 3-4, 5-6
       refAbbr: 110, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 110, 2a
@@ -170,7 +170,7 @@ mass:
         lui donnant le domaine des nations.
     - biblicalRef: Ps 32 (33), 2-3, 4-5, 12.22
       refAbbr: 32, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 32, 12

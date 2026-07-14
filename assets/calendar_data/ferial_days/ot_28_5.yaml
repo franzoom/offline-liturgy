@@ -53,7 +53,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 4, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Abraham eut foi en Dieu, et il lui fut accordé d’être juste »
@@ -82,7 +82,7 @@ mass:
          Heureux l’homme dont le péché
         n’est pas compté par le Seigneur._
     - biblicalRef: Ep 1, 11-14
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous avons d’avance espéré dans le Christ ; et vous avez reçu la marque de l’Esprit Saint »
@@ -108,7 +108,7 @@ mass:
     partContents:
     - biblicalRef: Ps 31 (32), 1-2, 5ab, 5c.11
       refAbbr: 31, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 31, 7acd
@@ -132,7 +132,7 @@ mass:
         Hommes droits, chantez votre allégresse !
     - biblicalRef: Ps 32 (33), 1-2, 4-5, 12-13
       refAbbr: 32, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 32, 12

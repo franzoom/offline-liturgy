@@ -202,14 +202,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 10, 19-25
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dans la plénitude de la foi, continuons d’affirmer notre espérance. Soyons attentifs les uns aux autres pour nous stimuler à vivre dans l’amour »
@@ -237,7 +237,7 @@ mass:
         mais encourageons-nous,
         d’autant plus que vous voyez s’approcher le Jour du Seigneur.
     - biblicalRef: 2 S 7, 18-19.24-29
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Qui suis-je donc, Seigneur, et qu’est-ce que ma maison ? »
@@ -278,7 +278,7 @@ mass:
     partContents:
     - biblicalRef: Ps 23 (24), 1-2, 3-4ab, 5-6
       refAbbr: 23, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 23, 6
@@ -302,7 +302,7 @@ mass:
         Voici Jacob qui recherche ta face !
     - biblicalRef: Ps 131 (132), 1-2, 3a.4a.5, 11, 12, 13-14
       refAbbr: 131, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 1, 32
@@ -363,8 +363,8 @@ mass:
         on lui donnera ;
         celui qui n’a pas,
         on lui enlèvera même ce qu’il a. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

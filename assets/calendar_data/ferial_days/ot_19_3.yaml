@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dt 34, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Moïse mourut là, selon la parole du Seigneur. Il ne s’est plus levé en Israël un prophète comme Moïse »
@@ -101,7 +101,7 @@ mass:
          Avec quelle main puissante, quel pouvoir redoutable,
         Moïse avait agi aux yeux de tout Israël !
     - biblicalRef: Ez 9, 1-7 ; 10, 18-22
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Marque d’une croix au front ceux qui gémissent sur toutes les abominations qu’on commet à Jérusalem »
@@ -163,7 +163,7 @@ mass:
     partContents:
     - biblicalRef: Ps 65 (66), 1-3a, 5.8, 16-17
       refAbbr: 65, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 65, 20a.9a
@@ -185,7 +185,7 @@ mass:
         ma bouche faisait déjà son éloge.
     - biblicalRef: Ps 112 (113), 1-2, 3-4, 5-6
       refAbbr: 112, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 112, 4b

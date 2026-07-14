@@ -73,7 +73,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jr 20, 7-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « La parole du Seigneur attire sur moi l’insulte »
@@ -94,7 +94,7 @@ mass:
         Je m’épuisais à la maîtriser,
         sans y réussir.
     - biblicalRef: Dt 4, 1-2.6-8
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vous n’ajouterez rien à ce que je vous ordonne… vous garderez les commandements du Seigneur »
@@ -123,7 +123,7 @@ mass:
         dont les décrets et les ordonnances soient aussi justes
         que toute cette Loi que je vous donne aujourd’hui ? »
     - biblicalRef: Si 3, 17-18.20.28-29
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il faut t’abaisser : tu trouveras grâce devant le Seigneur »
@@ -142,7 +142,7 @@ mass:
     partContents:
     - biblicalRef: Ps 62 (63), 2, 3-4, 5-6, 8-9
       refAbbr: 62, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 62, 2b
@@ -173,7 +173,7 @@ mass:
         ta main droite me soutient.
     - biblicalRef: Ps 14 (15), 2-3a, 3bc-4ab, 4d-5
       refAbbr: 14, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 14, 1a
@@ -195,7 +195,7 @@ mass:
         Qui fait ainsi demeure inébranlable.
     - biblicalRef: Ps 67 (68), 4-5ac, 6-7ab, 10-11
       refAbbr: 67, 4…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 1, 52
@@ -220,7 +220,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 12, 1-2
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Présentez votre corps en sacrifice vivant »
@@ -235,7 +235,7 @@ mass:
         ce qui est bon, ce qui est capable de lui plaire,
         ce qui est parfait.
     - biblicalRef: Jc 1, 17-18.21b-22.27
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Mettez la Parole en pratique »
@@ -258,7 +258,7 @@ mass:
         c’est de visiter les orphelins et les veuves dans leur détresse,
         et de se garder sans tache au milieu du monde.
     - biblicalRef: He 12, 18-19.22-24a
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Vous êtes venus vers la montagne de Sion et vers la ville du Dieu vivant »
@@ -284,7 +284,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 16, 21-27
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si quelqu’un veut marcher à ma suite, qu’il renonce à lui-même »
@@ -326,7 +326,7 @@ mass:
         dans la gloire de son Père ;
         alors il rendra à chacun selon sa conduite. »
     - biblicalRef: Mc 7, 1-8.14-15.21-23
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vous laissez de côté le commandement de Dieu, pour vous attacher à la tradition des hommes »
@@ -381,7 +381,7 @@ mass:
          Tout ce mal vient du dedans,
         et rend l’homme impur. »
     - biblicalRef: Lc 14, 1.7-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Quiconque s’élève sera abaissé, qui s’abaisse sera élevé »

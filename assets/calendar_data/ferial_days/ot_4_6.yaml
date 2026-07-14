@@ -164,14 +164,14 @@ middleOfDay:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 13, 15-17.20-21
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Que le Dieu de la paix, lui qui a fait remonter d’entre les morts le Pasteur par excellence, vous forme en tout ce qui est bon »
@@ -200,7 +200,7 @@ mass:
         par Jésus Christ, à qui appartient la gloire
         pour les siècles des siècles. Amen.
     - biblicalRef: 1 R 3, 4-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Donne à ton serviteur un cœur attentif pour qu’il sache gouverner ton peuple »
@@ -253,7 +253,7 @@ mass:
     partContents:
     - biblicalRef: Ps 22 (23), 1-2ab, 2c- 3, 4, 5, 6
       refAbbr: 22, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 22, 1
@@ -287,7 +287,7 @@ mass:
         pour la durée de mes jours.
     - biblicalRef: Ps 118 (119), 9-10, 11-12, 13-14
       refAbbr: 118, 9…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 12b
@@ -335,8 +335,8 @@ mass:
         Il fut saisi de compassion envers eux,
         parce qu’ils étaient comme des brebis sans berger.
         Alors, il se mit à les enseigner longuement.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

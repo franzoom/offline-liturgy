@@ -180,9 +180,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -284,7 +284,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 10, 11-18
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Le bon pasteur donne sa vie pour ses brebis »
@@ -324,7 +324,7 @@ mass:
         j’ai aussi le pouvoir de la recevoir de nouveau :
         voilà le commandement que j’ai reçu de mon Père. »
     - biblicalRef: Jn 10, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       - B
       - C
@@ -366,8 +366,8 @@ mass:
         Le voleur ne vient que pour voler, égorger, faire périr.
         Moi, je suis venu pour que les brebis aient la vie,
         la vie en abondance. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

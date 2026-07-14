@@ -170,9 +170,9 @@ vespers:
 mass:
   - massType: day_mass
     name: Messe du jour
-    note:
-    entranceAntiphon:
-    collect:
+    note: null
+    entranceAntiphon: null
+    collect: null
     readingParts:
       - partType: READING
         partContents:
@@ -284,8 +284,8 @@ mass:
               – et toi, ton âme sera traversée d’un glaive – :
               ainsi seront dévoilées
               les pensées qui viennent du cœur d’un grand nombre. »
-    offeringPrayer:
-    prefaceList:
-    communionAntiphon:
-    prayerAfterCommunion:
-    solemnBlessingList:
+    offeringPrayer: null
+    prefaceList: null
+    communionAntiphon: null
+    prayerAfterCommunion: null
+    solemnBlessingList: null

@@ -48,7 +48,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 5, 14-21
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Celui qui n’a pas connu le péché, Dieu l’a pour nous identifié au péché »
@@ -84,7 +84,7 @@ mass:
         afin qu’en lui nous devenions justes
         de la justice même de Dieu.
     - biblicalRef: 1 R 19, 19-21
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Élisée se leva et partit à la suite d’Élie »
@@ -112,7 +112,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 11-12
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 102, 8a
@@ -139,7 +139,7 @@ mass:
         il met loin de nous nos péchés.
     - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 9-10
       refAbbr: 15, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 15, 5a

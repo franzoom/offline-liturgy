@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 2,1-15a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Elle lui donna le nom de Moïse, en disant : “Je l’ai tiré des eaux.” Or vint le jour où Moïse, qui avait grandi, se rendit auprès de ses frères »
@@ -131,7 +131,7 @@ mass:
         Celui-ci s’enfuit loin de Pharaon
         et habita au pays de Madiane.
     - biblicalRef: Is 7, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Si vous ne croyez pas, vous ne pourrez pas tenir »
@@ -175,7 +175,7 @@ mass:
     partContents:
     - biblicalRef: Ps 68 (69), 3, 14, 30-31, 33-34
       refAbbr: 68, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 68, 33b
@@ -204,7 +204,7 @@ mass:
         il n’oublie pas les siens emprisonnés.
     - biblicalRef: Ps 47 (48), 2-3ab, 3cd-4, 5-6,7-8
       refAbbr: 47, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 47, 9bc

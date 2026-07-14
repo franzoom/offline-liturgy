@@ -155,7 +155,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ac 1, 12-14
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tous, d’un même cœur, étaient assidus à la prière »
@@ -174,7 +174,7 @@ mass:
         avec des femmes, avec Marie la mère de Jésus,
         et avec ses frères.
     - biblicalRef: Ac 1, 15-17.20a.20c-26
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il faut que l’un d’entre eux devienne, avec nous, témoin de la résurrection de Jésus »
@@ -210,7 +210,7 @@ mass:
         On tira au sort entre eux, et le sort tomba sur Matthias,
         qui fut donc associé par suffrage aux onze Apôtres.
     - biblicalRef: Ac 7, 55-60
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Voici que je contemple le Fils de l’homme debout à la droite de Dieu »
@@ -240,7 +240,7 @@ mass:
     partContents:
     - biblicalRef: Ps 26 (27), 1, 4, 7-8
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 26, 13
@@ -267,7 +267,7 @@ mass:
         « Cherchez ma face. »
     - biblicalRef: Ps 102 (103), 1-2, 11-12, 19-20ab
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 102, 19a
@@ -290,7 +290,7 @@ mass:
         invincibles porteurs de ses ordres !
     - biblicalRef: Ps 96 (97), 1-2b, 6.7c, 9
       refAbbr: 96, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 96, 1a.9a
@@ -313,7 +313,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 P 4, 13-16
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si l’on vous insulte pour le nom du Christ, heureux êtes-vous »
@@ -334,7 +334,7 @@ mass:
         qu’il n’ait pas de honte,
         et qu’il rende gloire à Dieu pour ce nom-là.
     - biblicalRef: 1 Jn 4, 11-16
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Qui demeure dans l’amour demeure en Dieu, et Dieu demeure en lui »
@@ -363,7 +363,7 @@ mass:
         qui demeure dans l’amour demeure en Dieu,
         et Dieu demeure en lui.
     - biblicalRef: Ap 22, 12-14.16-17.20
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Viens, Seigneur Jésus ! »
@@ -398,7 +398,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 17, 1b-11a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Père, glorifie ton Fils »
@@ -445,7 +445,7 @@ mass:
         eux, ils sont dans le monde,
         et moi, je viens vers toi. »
     - biblicalRef: Jn 17, 11b-19
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Qu’ils soient un, comme nous-mêmes »
@@ -485,7 +485,7 @@ mass:
         Et pour eux je me sanctifie moi-même,
         afin qu’ils soient, eux aussi, sanctifiés dans la vérité. »
     - biblicalRef: Jn 17, 20-26
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Qu’ils deviennent parfaitement un »

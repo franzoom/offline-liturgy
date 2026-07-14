@@ -256,7 +256,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 8, 23b – 9, 3
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Dans la Galilée des nations le peuple a vu se lever une grande lumière
@@ -280,7 +280,7 @@ mass:
         le bâton du tyran,
         tu les as brisés comme au jour de Madiane.
     - biblicalRef: Jon 3, 1-5.10
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Les gens de Ninive se détournèrent de leur conduite mauvaise »
@@ -304,7 +304,7 @@ mass:
         et comment ils se détournaient de leur conduite mauvaise,
         Dieu renonça au châtiment dont il les avait menacés.
     - biblicalRef: Ne 8, 2-4a.5-6.8-10
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Tout le peuple écoutait la lecture de la Loi »
@@ -353,7 +353,7 @@ mass:
     partContents:
     - biblicalRef: Ps 26 (27), 1, 4abcd, 13-14
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 26, 1a
@@ -375,7 +375,7 @@ mass:
         espère le Seigneur. »
     - biblicalRef: Ps 24 (25), 4-5ab, 6-7bc, 8-9
       refAbbr: 24, 4…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 24, 4a
@@ -397,7 +397,7 @@ mass:
         il enseigne aux humbles son chemin.
     - biblicalRef: Ps 18B (19), 8, 9, 10, 15
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 6, 63c
@@ -427,7 +427,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Co 1, 10-13.17
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tenez tous le même langage ; qu’il n’y ait pas de division entre vous »
@@ -457,7 +457,7 @@ mass:
         et cela sans avoir recours au langage de la sagesse humaine,
         ce qui rendrait vaine la croix du Christ.
     - biblicalRef: 1 Co 7, 29-31
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il passe, ce monde tel que nous le voyons »
@@ -478,7 +478,7 @@ mass:
         Car il passe,
         ce monde tel que nous le voyons.
     - biblicalRef: 1 Co 12, 12-30
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Vous êtes corps du Christ et, chacun pour votre part, vous êtes membres de ce corps »
@@ -577,7 +577,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 4, 12-23
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Il vint habiter à Capharnaüm pour que soit accomplie la parole d’Isaïe
@@ -629,7 +629,7 @@ mass:
         proclamait l’Évangile du Royaume,
         guérissait toute maladie et toute infirmité dans le peuple.
     - biblicalRef: Mc 1, 14-20
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Convertissez-vous et croyez à l’Évangile »
@@ -662,7 +662,7 @@ mass:
         Alors, laissant dans la barque leur père Zébédée avec ses ouvriers,
         ils partirent à sa suite.
     - biblicalRef: Lc 1, 1-4 ; 4, 14-21
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Aujourd’hui s’accomplit ce passage de l’Écriture »

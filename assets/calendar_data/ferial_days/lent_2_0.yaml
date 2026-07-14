@@ -238,14 +238,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Gn 12, 1-4a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Vocation d’Abraham, père du peuple de Dieu
@@ -266,7 +266,7 @@ mass:
         Abram s’en alla, comme le Seigneur le lui avait dit,
         et Loth s’en alla avec lui.
     - biblicalRef: Gn 22, 1-2.9a.10-13.15-18
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         Le sacrifice de notre père Abraham
@@ -318,7 +318,7 @@ mass:
         s’adresseront l’une à l’autre la bénédiction
         par le nom de ta descendance. »
     - biblicalRef: Gn 15, 5-12.17-18
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         Le Seigneur conclut une alliance avec Abraham, le croyant
@@ -365,7 +365,7 @@ mass:
     partContents:
     - biblicalRef: Ps 32 (33), 4-5, 18-19, 20.22
       refAbbr: 32, 4…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 32, 22
@@ -389,7 +389,7 @@ mass:
         comme notre espoir est en toi !
     - biblicalRef: Ps 115 (116b), 10.15, 16ac-17, 18-19
       refAbbr: 115, 10…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 114, 9
@@ -413,7 +413,7 @@ mass:
         au milieu de Jérusalem !
     - biblicalRef: Ps 26 (27), 1, 7-8, 9abcd, 13-14
       refAbbr: 26, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 26, 1a
@@ -441,7 +441,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Tm 1, 8b-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Dieu nous appelle et nous éclaire
@@ -461,7 +461,7 @@ mass:
         et il a fait resplendir la vie et l’immortalité
         par l’annonce de l’Évangile.
     - biblicalRef: Rm 8, 31b-34
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Dieu n’a pas épargné son propre Fils »
@@ -481,7 +481,7 @@ mass:
         il est à la droite de Dieu,
         il intercède pour nous.
     - biblicalRef: Ph 3, 17 – 4, 1
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Christ transformera nos pauvres corps à l’image de son corps glorieux »
@@ -526,7 +526,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 17, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Son visage devint brillant comme le soleil »
@@ -568,7 +568,7 @@ mass:
         avant que le Fils de l’homme
         soit ressuscité d’entre les morts. »
     - biblicalRef: Mc 9, 2-10
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Celui-ci est mon Fils bien-aimé »
@@ -609,7 +609,7 @@ mass:
         tout en se demandant entre eux ce que voulait dire :
         « ressusciter d’entre les morts ».
     - biblicalRef: Lc 9, 28b-36
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Pendant qu’il priait, l’aspect de son visage devint autre »
@@ -651,8 +651,8 @@ mass:
         Les disciples gardèrent le silence
         et, en ces jours-là,
         ils ne rapportèrent à personne rien de ce qu’ils avaient vu.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

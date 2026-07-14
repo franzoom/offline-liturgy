@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jg 9, 6-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous m’avez dit : “Non, c’est un roi qui doit régner sur nous” – alors que votre roi, c’est le Seigneur votre Dieu »
@@ -101,7 +101,7 @@ mass:
         sinon, qu’un feu sorte du buisson d’épines
         et dévore jusqu’aux cèdres du Liban !” »
     - biblicalRef: Ez 34, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « J’arracherai mes brebis de leur bouche et elles ne seront plus leur proie »
@@ -153,7 +153,7 @@ mass:
     partContents:
     - biblicalRef: Ps 20 (21), 2-3, 4-5, 6-7
       refAbbr: 20, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 20, 2a
@@ -175,7 +175,7 @@ mass:
         ta présence l’emplit de joie !
     - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
       refAbbr: 22, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 22, 1

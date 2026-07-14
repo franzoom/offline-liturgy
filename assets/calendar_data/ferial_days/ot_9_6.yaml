@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Tb 12, 1.5-15.20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Et maintenant, bénissez le Seigneur ! Voici que je remonte auprès de celui qui m’a envoyé »
@@ -120,7 +120,7 @@ mass:
         Mettez par écrit tout ce qui vous est arrivé. »
         Alors l’ange remonta au ciel.
     - biblicalRef: 2 Tm 4, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Fais ton travail d’évangélisateur. Moi, en effet, je suis déjà offert en sacrifice. Le Seigneur me remettra la couronne de la justice »
@@ -183,7 +183,7 @@ mass:
         son amour et sa grâce ! »
     - biblicalRef: Ps 70 (71), 8-9, 14-15ab, 16-17, 22
       refAbbr: 70, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 70, 15ab

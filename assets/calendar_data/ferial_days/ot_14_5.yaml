@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 46, 1-7.28-30
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Maintenant que j’ai revu ton visage, je peux mourir »
@@ -99,7 +99,7 @@ mass:
         je peux mourir,
         puisque tu es encore vivant ! »
     - biblicalRef: Os 14, 2-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous ne dirons plus à l’ouvrage de nos mains : “Tu es notre Dieu” »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 36 (37), 3-4, 18-19, 27-28ab, 39-40
       refAbbr: 36, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 36, 39a
@@ -175,7 +175,7 @@ mass:
         car ils cherchent en lui leur refuge.
     - biblicalRef: Ps 50 (51), 3-4, 8-9, 12-13, 14.17
       refAbbr: 50, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 50, 17

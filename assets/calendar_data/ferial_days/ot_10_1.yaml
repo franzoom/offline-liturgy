@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 1, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu nous réconforte ; ainsi, nous pouvons réconforter tous ceux qui sont dans la détresse »
@@ -93,7 +93,7 @@ mass:
         de même que vous avez part aux souffrances,
         de même vous obtiendrez le réconfort.
     - biblicalRef: 1 R 17, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         Élie se tenait devant la face du Seigneur Dieu d’Israël
@@ -119,7 +119,7 @@ mass:
     partContents:
     - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 33, 9a
@@ -148,7 +148,7 @@ mass:
         Heureux qui trouve en lui son refuge !
     - biblicalRef: Ps 120 (121), 1-2, 3-4, 5-6, 7-8
       refAbbr: 120, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 120, 2

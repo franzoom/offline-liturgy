@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 17, 1.9-10.15-22
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Tous vos enfants mâles seront circoncis en signe de l’alliance. Sara va t’enfanter un fils »
@@ -101,7 +101,7 @@ mass:
         Lorsque Dieu eut fini de parler avec Abraham,
         il s’éleva loin de lui.
     - biblicalRef: 2 R 25, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Juda fut déporté loin de sa terre »
@@ -153,7 +153,7 @@ mass:
     partContents:
     - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
       refAbbr: 127, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 127, 4
@@ -177,7 +177,7 @@ mass:
         Tu verras le bonheur de Jérusalem tous les jours de ta vie.
     - biblicalRef: Ps 136 (137), 1-2, 3, 4-5, 6
       refAbbr: 136, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 136, 6a

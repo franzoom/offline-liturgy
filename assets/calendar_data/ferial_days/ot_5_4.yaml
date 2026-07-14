@@ -53,7 +53,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 2, 18-25
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu amena la femme vers l’homme. Et tous deux ne feront plus qu’un »
@@ -90,7 +90,7 @@ mass:
         Tous les deux, l’homme et sa femme, étaient nus,
         et ils n’en éprouvaient aucune honte l’un devant l’autre.
     - biblicalRef: 1 R 11, 4-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Puisque tu n’as pas gardé mon alliance, je vais t’enlever le royaume. Mais je laisserai une tribu à ton fils, à cause de David »
@@ -131,7 +131,7 @@ mass:
     partContents:
     - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
       refAbbr: 127, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 127, 1a
@@ -153,7 +153,7 @@ mass:
         Tu verras le bonheur de Jérusalem tous les jours de ta vie.
     - biblicalRef: Ps 105 (106), 3-4ab, 6.35, 36-37, 39-40
       refAbbr: 105, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 105, 4

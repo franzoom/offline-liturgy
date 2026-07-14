@@ -51,7 +51,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 M 4, 36-37.52-59
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ils célébrèrent la dédicace de l’autel, en offrant, dans l’allégresse, des holocaustes »
@@ -87,7 +87,7 @@ mass:
         serait célébré pendant huit jours chaque année à cette date,
         dans la joie et l’allégresse.
     - biblicalRef: Ap 10, 8-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je pris le petit livre de la main de l’ange, et je le dévorai »
@@ -140,7 +140,7 @@ mass:
         tout, par ta main, grandit et s’affermit.
     - biblicalRef: Ps 118 (119), 14.24, 72.103, 111.131
       refAbbr: 118, 14…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 103a

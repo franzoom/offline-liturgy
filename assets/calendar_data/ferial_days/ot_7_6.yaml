@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 17, 1-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu a fait les humains à son image »
@@ -92,7 +92,7 @@ mass:
          Leurs chemins sont toujours à découvert devant lui,
         ils n’échappent jamais à ses regards.
     - biblicalRef: Jc 5, 13-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La supplication du juste agit avec beaucoup de force »
@@ -131,7 +131,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 13-14, 15-16, 17-18a
       refAbbr: 102, 13…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 102, 17ab
@@ -155,7 +155,7 @@ mass:
         pour ceux qui gardent son alliance.
     - biblicalRef: Ps 140 (141), 1-2, 3.8
       refAbbr: 140, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 140, 2a

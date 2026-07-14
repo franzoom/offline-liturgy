@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 16, 1-5.9-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Du ciel, je vais faire pleuvoir du pain pour vous »
@@ -106,7 +106,7 @@ mass:
         Moïse leur dit :
         « C’est le pain que le Seigneur vous donne à manger. »
     - biblicalRef: Jr 1, 1.4-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je fais de toi un prophète pour les nations »
@@ -142,7 +142,7 @@ mass:
     partContents:
     - biblicalRef: Ps 77 (78), 18-19, 23-24, 25-26, 27-28
       refAbbr: 77, 18…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 77, 24b
@@ -169,7 +169,7 @@ mass:
         tout autour de leurs demeures.
     - biblicalRef: Ps 70 (71), 1-2, 3-4a, 5-6ab, 15ab.17
       refAbbr: 70, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 70, 15a

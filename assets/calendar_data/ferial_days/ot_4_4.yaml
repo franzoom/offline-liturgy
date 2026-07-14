@@ -225,14 +225,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 12, 18-19.21-24
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous êtes venus vers la montagne de Sion et vers la ville du Dieu vivant »
@@ -261,7 +261,7 @@ mass:
         et vers le sang de l’aspersion,
         son sang qui parle plus fort que celui d’Abel.
     - biblicalRef: 1 R 2, 1-4.10-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je m’en vais par le chemin de tout le monde. Sois fort, Salomon, sois un homme courageux ! »
@@ -296,7 +296,7 @@ mass:
     partContents:
     - biblicalRef: Ps 47 (48), 2-3a, 3b- 4, 9, 10-11
       refAbbr: 47, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 47, 10
@@ -375,8 +375,8 @@ mass:
         Ils expulsaient beaucoup de démons,
         faisaient des onctions d’huile à de nombreux malades,
         et les guérissaient.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

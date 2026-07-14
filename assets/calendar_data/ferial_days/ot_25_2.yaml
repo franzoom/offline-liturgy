@@ -66,7 +66,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Esd 6, 7-8.12b.14-20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ils achevèrent la construction de la maison de Dieu et les rapatriés célébrèrent la Pâque »
@@ -111,7 +111,7 @@ mass:
         Ils immolèrent donc la Pâque pour tous les rapatriés,
         pour leurs frères les prêtres, et pour eux-mêmes.
     - biblicalRef: Pr 21, 1-6.10-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         Maximes diverses pour une vie droite
@@ -141,7 +141,7 @@ mass:
     partContents:
     - biblicalRef: Ps 121 (122), 1-2, 3-4ab, 4cd-5
       refAbbr: 121, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 121, 1
@@ -165,7 +165,7 @@ mass:
         le siège de la maison de David.
     - biblicalRef: Ps 118 (119), 1.27, 30.34, 35.44
       refAbbr: 118, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 35a

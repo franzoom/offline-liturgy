@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dt 10, 12-22
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Pratiquez la circoncision du cœur. Aimez l’immigré, car vous étiez des immigrés »
@@ -101,7 +101,7 @@ mass:
         mais à présent le Seigneur votre Dieu
         vous a rendus aussi nombreux que les étoiles du ciel. »
     - biblicalRef: Ez 1, 2-6.24-28c
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « C’était l’aspect, la forme de la gloire du Seigneur »
@@ -150,7 +150,7 @@ mass:
     partContents:
     - biblicalRef: Ps 147 (147B), 12-13, 14-15, 19-20
       refAbbr: 147, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 147, 12a
@@ -173,7 +173,7 @@ mass:
         nul autre n’a connu ses volontés.
     - biblicalRef: Ps 148, 1-2, 11-12, 13.14b
       refAbbr: 148, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: ’

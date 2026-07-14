@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rt 1, 1.3-6.14b-16.22
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Noémi revint avec sa belle-fille, Ruth la Moabite. Elles arrivèrent à Bethléem »
@@ -101,7 +101,7 @@ mass:
         avec sa belle-fille, Ruth la Moabite.
         Elles arrivèrent à Bethléem au début de la moisson de l’orge.
     - biblicalRef: Ez 37, 1-14
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ossements desséchés, écoutez la parole du Seigneur : de vos tombeaux je vous ferai remonter, ô mon peuple »
@@ -175,7 +175,7 @@ mass:
     partContents:
     - biblicalRef: Ps 145 (146), 5-6ab, 6c-7, 8-9a, 9bc-10
       refAbbr: 145, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 145, 1b
@@ -203,7 +203,7 @@ mass:
         ton Dieu, ô Sion, pour toujours !
     - biblicalRef: Ps 106 (107), 2-3, 4-5, 6-7, 8-9
       refAbbr: 106, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 106, 1

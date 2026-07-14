@@ -46,7 +46,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 19, 15-29
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le Seigneur fit tomber sur Sodome et Gomorrhe une pluie de soufre et de feu »
@@ -110,7 +110,7 @@ mass:
         et il a fait échapper Loth
         au cataclysme qui a détruit les villes où il habitait.
     - biblicalRef: Am 3, 1-8 ; 4, 11-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Quand le Seigneur Dieu a parlé, qui refuserait d’être prophète ? »
@@ -158,7 +158,7 @@ mass:
     partContents:
     - biblicalRef: Ps 25 (26), 2-3, 9-10, 11-12
       refAbbr: 25, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 25, 3a
@@ -180,7 +180,7 @@ mass:
         dans l’assemblée je bénirai le Seigneur.
     - biblicalRef: Ps 5, 5-6ab, 6c-7, 8
       refAbbr: 5, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 9a

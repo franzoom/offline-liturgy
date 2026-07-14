@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jon 1, 1 – 2, 1.11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Jonas se leva, mais pour s’enfuir loin de la face du Seigneur »
@@ -133,7 +133,7 @@ mass:
          Alors le Seigneur parla au poisson,
         et celui-ci rejeta Jonas sur la terre ferme.
     - biblicalRef: Ga 1, 6-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « L’Évangile que j’ai proclamé, ce n’est pas d’un homme que je l’ai reçu ou appris, mais par révélation de Jésus Christ »
@@ -195,7 +195,7 @@ mass:
         dans ton temple saint.
     - biblicalRef: Ps 110 (111), 1-2, 7-8, 9.10c
       refAbbr: 110, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 110, 5b

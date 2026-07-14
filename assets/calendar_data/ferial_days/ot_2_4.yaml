@@ -212,14 +212,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 7, 25 – 8, 6
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il a offert des sacrifices une fois pour toutes en s’offrant lui-même »
@@ -272,7 +272,7 @@ mass:
         que lui est médiateur d’une alliance meilleure,
         reposant sur de meilleures promesses.
     - biblicalRef: 1 S 18, 6-9 ; 19, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Mon père Saül cherche à te faire mourir »
@@ -328,7 +328,7 @@ mass:
     partContents:
     - biblicalRef: Ps 39 (40), 7-8a, 8b- 9, 10, 17
       refAbbr: 39, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 8a.9a
@@ -357,7 +357,7 @@ mass:
         ceux qui aiment ton salut.
     - biblicalRef: Ps 55 (56), 2-3, 9ab-10, 11a.12, 13-14ab
       refAbbr: 55, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 55, 5bc
@@ -409,8 +409,8 @@ mass:
         ils se jetaient à ses pieds et criaient :
         « Toi, tu es le Fils de Dieu ! »
         Mais il leur défendait vivement de le faire connaître.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 22, 20-26
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si tu accables la veuve et l’orphelin, ma colère s’enflammera »
@@ -91,7 +91,7 @@ mass:
         S’il crie vers moi, je l’écouterai,
         car moi, je suis compatissant ! »
     - biblicalRef: Jr 31, 7-9
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « L’aveugle et le boiteux, je les fais revenir »
@@ -113,7 +113,7 @@ mass:
         Car je suis un père pour Israël,
         Éphraïm est mon fils aîné.
     - biblicalRef: Si 35, 15b-17.20-22a
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « La prière du pauvre traverse les nuées »
@@ -136,7 +136,7 @@ mass:
     partContents:
     - biblicalRef: Ps 17 (18), 2-3, 4.20, 47.51ab
       refAbbr: 17, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 17, 2a
@@ -158,7 +158,7 @@ mass:
         il se montre fidèle à son messie.
     - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
       refAbbr: 125, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 125, 3
@@ -187,7 +187,7 @@ mass:
         il rapporte les gerbes.
     - biblicalRef: Ps 33 (34), 2-3, 16.18, 19.23
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 33, 7a
@@ -212,7 +212,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 1, 5c-10
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous vous êtes convertis à Dieu en vous détournant des idoles afin de servir Dieu et d’attendre son Fils »
@@ -238,7 +238,7 @@ mass:
         qu’il a ressuscité d’entre les morts,
         Jésus, qui nous délivre de la colère qui vient.
     - biblicalRef: He 5, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Tu es prêtre de l’ordre de Melkisédek pour l’éternité »
@@ -266,7 +266,7 @@ mass:
         _Tu es prêtre de l’ordre de Melkisédek
         pour l’éternité._
     - biblicalRef: 2 Tm 4, 6-8.16-18
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je n’ai plus qu’à recevoir la couronne de la justice »
@@ -299,7 +299,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 22, 34-40
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tu aimeras le Seigneur ton Dieu, et ton prochain comme toi-même »
@@ -329,7 +329,7 @@ mass:
          De ces deux commandements
         dépend toute la Loi, ainsi que les Prophètes. »
     - biblicalRef: Mc 10, 46b-52
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Rabbouni, que je retrouve la vue »
@@ -364,7 +364,7 @@ mass:
         Aussitôt l’homme retrouva la vue,
         et il suivait Jésus sur le chemin.
     - biblicalRef: Lc 18, 9-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le publicain redescendit dans sa maison ; c’est lui qui était devenu juste, plutôt que le pharisien »

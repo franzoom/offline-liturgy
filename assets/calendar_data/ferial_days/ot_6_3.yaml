@@ -54,7 +54,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 8, 6-13.20-22
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Noé regarda : et voici que la surface du sol était sèche »
@@ -101,7 +101,7 @@ mass:
         jour et nuit
         jamais ne cesseront. »
     - biblicalRef: Jc 1, 19-27
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Mettez la Parole en pratique, ne vous contentez pas de l’écouter »
@@ -141,7 +141,7 @@ mass:
     partContents:
     - biblicalRef: Ps 115 (116B), 12-13, 14-15, 18-19
       refAbbr: 115, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 115, 17a
@@ -164,7 +164,7 @@ mass:
         au milieu de Jérusalem !
     - biblicalRef: Ps 14 (15), 2-3a, 3bc-4ab, 4d.5
       refAbbr: 14, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 14, 1b

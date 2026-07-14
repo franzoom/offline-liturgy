@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 4, 7-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous »
@@ -94,7 +94,7 @@ mass:
         fasse abonder l’action de grâce
         pour la gloire de Dieu.
     - biblicalRef: 1 R 19, 9a.11-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tiens-toi sur la montagne devant le Seigneur »
@@ -142,7 +142,7 @@ mass:
     partContents:
     - biblicalRef: Ps 115 (116B), 10-11, 15-16ac, 17-18
       refAbbr: 115, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 115, 17a
@@ -165,7 +165,7 @@ mass:
         oui, devant tout son peuple.
     - biblicalRef: Ps 26 (27), 7-8ab, 8c-9abc, 13-14
       refAbbr: 26, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 26, 9a

@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 18, 16-33
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vas-tu faire mourir le juste avec le coupable ? »
@@ -139,7 +139,7 @@ mass:
         il partit,
         et Abraham retourna chez lui.
     - biblicalRef: Am 2, 6-10.13-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils écrasent la tête des faibles dans la poussière »
@@ -181,7 +181,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 10-11
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 102, 8a
@@ -208,7 +208,7 @@ mass:
         fort est son amour pour qui le craint !
     - biblicalRef: Ps 49 (50), 16bc-17, 18-19, 20-21ab, 21cd- 22, 23
       refAbbr: 49, 16…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 49, 22a

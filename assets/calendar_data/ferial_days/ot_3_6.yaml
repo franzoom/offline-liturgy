@@ -154,14 +154,14 @@ middleOfDay:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 11, 1-2.8-19
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il attendait la ville dont Dieu lui-même est le bâtisseur et l’architecte »
@@ -217,7 +217,7 @@ mass:
         c’est pourquoi son fils lui fut rendu :
         il y a là une préfiguration.
     - biblicalRef: 2 S 12, 1-7a.10-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « J’ai péché contre le Seigneur ! »
@@ -286,7 +286,7 @@ mass:
     partContents:
     - biblicalRef: Lc 1, 69-70, 71-72, 73-75
       refAbbr: 1, 69…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 1, 68
@@ -311,7 +311,7 @@ mass:
         en sa présence, tout au long de nos jours.
     - biblicalRef: Ps 50 (51), 12-13, 14-15, 16-17
       refAbbr: 50, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 50, 12a
@@ -364,8 +364,8 @@ mass:
         ils se disaient entre eux :
         « Qui est-il donc, celui-ci,
         pour que même le vent et la mer lui obéissent ? »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

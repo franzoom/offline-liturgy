@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 41, 55-57 ; 42, 5-7a.17-24a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Nous sommes coupables envers Joseph notre frère. C’est pourquoi nous sommes dans une telle détresse »
@@ -121,7 +121,7 @@ mass:
         ils ne se rendaient pas compte que Joseph les comprenait.
          Alors Joseph se retira pour pleurer.
     - biblicalRef: Os 10, 1-3.7-8.12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Il est temps de chercher le Seigneur »
@@ -158,7 +158,7 @@ mass:
     partContents:
     - biblicalRef: Ps 32 (33), 2-3, 10-11, 18-19
       refAbbr: 32, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 32, 22
@@ -182,7 +182,7 @@ mass:
         les garder en vie aux jours de famine.
     - biblicalRef: Ps 104 (105), 2-3, 4-5, 6-7
       refAbbr: 104, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 104, 4b

@@ -234,14 +234,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Gn 2, 7-9 ; 3, 1-7a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Création et péché de nos premiers parents
@@ -282,7 +282,7 @@ mass:
          Alors leurs yeux à tous deux s’ouvrirent
         et ils se rendirent compte qu’ils étaient nus.
     - biblicalRef: Gn 9, 8-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         Alliance de Dieu avec Noé qui a échappé au déluge
@@ -309,7 +309,7 @@ mass:
         les eaux ne se changeront plus en déluge
         pour détruire tout être de chair. »
     - biblicalRef: Dt 26, 4-10
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         La profession de foi du peuple élu
@@ -341,7 +341,7 @@ mass:
     partContents:
     - biblicalRef: Ps 50 (51), 3-4, 5-6ab, 12-13, 14.17
       refAbbr: 50, 3…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 50, 3
@@ -370,7 +370,7 @@ mass:
         et ma bouche annoncera ta louange.
     - biblicalRef: Ps 24 (25), 4-5ab, 6-7bc, 8-9
       refAbbr: 24, 4…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 24, 10
@@ -395,7 +395,7 @@ mass:
         il enseigne aux humbles son chemin.
     - biblicalRef: Ps 90 (91), 1-2, 10-11, 12-13, 14-15ab
       refAbbr: 90, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 90, 15
@@ -425,7 +425,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 5, 12-19
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Là où le péché s’est multiplié, la grâce a surabondé »
@@ -500,7 +500,7 @@ mass:
         de même par l’obéissance d’un seul
         la multitude sera-t-elle rendue juste.
     - biblicalRef: 1 P 3, 18-22
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         Le baptême vous sauve maintenant
@@ -530,7 +530,7 @@ mass:
         lui à qui sont soumis les anges,
         ainsi que les Souverainetés et les Puissances.
     - biblicalRef: Rm 10, 8-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         La profession de foi en Jésus Christ
@@ -560,7 +560,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 4, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Jésus jeûne quarante jours, puis est tenté
@@ -609,7 +609,7 @@ mass:
         Et voici que des anges s’approchèrent,
         et ils le servaient.
     - biblicalRef: Mc 1, 12-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Jésus fut tenté par Satan, et les anges le servaient »
@@ -634,7 +634,7 @@ mass:
         Convertissez-vous
         et croyez à l’Évangile. »
     - biblicalRef: Lc 4, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dans l’Esprit, il fut conduit à travers le désert où il fut tenté »
@@ -685,8 +685,8 @@ mass:
         _Tu ne mettras pas à l’épreuve le Seigneur ton Dieu. »_
          Ayant ainsi épuisé toutes les formes de tentations,
         le diable s’éloigna de Jésus jusqu’au moment fixé.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 7, 22 – 8, 1
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La Sagesse est le rayonnement de la lumière éternelle, le miroir sans tache de l’activité de Dieu »
@@ -104,7 +104,7 @@ mass:
          Elle déploie sa vigueur d’un bout du monde à l’autre,
         elle gouverne l’univers avec bonté.
     - biblicalRef: Phm 7-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Reprends-le non plus comme un esclave, mais comme un frère bien-aimé »
@@ -151,7 +151,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 89-90, 91.130, 135.175
       refAbbr: 118, 89…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 118, 89
@@ -173,7 +173,7 @@ mass:
         Tes décisions me soient en aide !
     - biblicalRef: Ps 145 (146), 6c-7, 8-9a, 9bc-10
       refAbbr: 145, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 145, 5

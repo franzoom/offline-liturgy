@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jg 2, 11-19
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le Seigneur suscita des juges. Mais ils n’obéissaient pas non plus à leurs juges »
@@ -112,7 +112,7 @@ mass:
         ils ne renonçaient en rien à leurs pratiques
         ni à leur conduite obstinée.
     - biblicalRef: Ez 24, 15-24
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ézékiel sera pour vous un signe : tout ce qu’il a fait, vous le ferez »
@@ -159,7 +159,7 @@ mass:
     partContents:
     - biblicalRef: Ps 105 (106), 6.35, 36-37, 39-40, 43ab.44
       refAbbr: 105, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 105, 4

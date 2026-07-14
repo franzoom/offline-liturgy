@@ -66,7 +66,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 22, 19-23
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je mettrai sur mon épaule la clef de la maison de David »
@@ -89,7 +89,7 @@ mass:
         il sera un trône de gloire
         pour la maison de son père. »
     - biblicalRef: Jos 24, 1-2a.15-17.18b
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Nous voulons servir le Seigneur, car c’est lui notre Dieu »
@@ -117,7 +117,7 @@ mass:
          Nous aussi, nous voulons servir le Seigneur,
         car c’est lui notre Dieu. »
     - biblicalRef: Is 66, 18-21
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « De toutes les nations, ils ramèneront tous vos frères »
@@ -149,7 +149,7 @@ mass:
     partContents:
     - biblicalRef: Ps 137 (138), 1-2a, 2bc-3, 6.8bc
       refAbbr: 137, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 137, 8
@@ -173,7 +173,7 @@ mass:
         n’arrête pas l’œuvre de tes mains.
     - biblicalRef: Ps 33 (34), 2-3, 16-17, 20-21, 22-23
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 33, 9
@@ -202,7 +202,7 @@ mass:
         pas de châtiment pour qui trouve en lui son refuge.
     - biblicalRef: Ps 116 (117), 1, 2
       refAbbr: ’116’
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 16, 15
@@ -219,7 +219,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 11, 33-36
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tout est de lui, et par lui, et pour lui »
@@ -237,7 +237,7 @@ mass:
         À lui la gloire pour l’éternité !
         Amen.
     - biblicalRef: Ep 5, 21-32
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ce mystère est grand : je le dis en référence au Christ et à l’Église »
@@ -279,7 +279,7 @@ mass:
          Ce mystère est grand :
         je le dis en référence au Christ et à l’Église.
     - biblicalRef: He 12, 5-7.11-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Quand Dieu aime quelqu’un, il lui donne de bonnes leçons »
@@ -307,7 +307,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 16, 13-20
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je te donnerai les clés du royaume des Cieux »
@@ -346,7 +346,7 @@ mass:
         Alors, il ordonna aux disciples
         de ne dire à personne que c’était lui le Christ.
     - biblicalRef: Jn 6, 60-69
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle »
@@ -390,7 +390,7 @@ mass:
          Quant à nous, nous croyons,
         et nous savons que tu es le Saint de Dieu. »
     - biblicalRef: Lc 13, 22-30
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « On viendra de l’orient et de l’occident prendre place au festin dans le royaume de Dieu »

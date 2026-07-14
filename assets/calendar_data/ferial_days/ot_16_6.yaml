@@ -54,7 +54,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 24, 3-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Voici le sang de l’Alliance que le Seigneur a conclue avec vous »
@@ -83,7 +83,7 @@ mass:
         que, sur la base de toutes ces paroles,
         le Seigneur a conclue avec vous. »
     - biblicalRef: Jr 7, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Est-elle à vos yeux une caverne de bandits, cette Maison sur laquelle mon nom est invoqué ? »
@@ -135,7 +135,7 @@ mass:
     partContents:
     - biblicalRef: Ps 49 (50), 1-2, 5-6, 14-15
       refAbbr: 49, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 49, 14a
@@ -157,7 +157,7 @@ mass:
         je te délivrerai, et tu me rendras gloire. »
     - biblicalRef: Ps 83, 3, 4, 5-6, 11
       refAbbr: 83, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 83, 2

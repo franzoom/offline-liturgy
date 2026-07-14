@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Col 1, 24 – 2, 3
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « De cette Église, je suis devenu ministre, pour annoncer le mystère qui était caché depuis toujours »
@@ -98,7 +98,7 @@ mass:
          en qui se trouvent cachés
         tous les trésors de la sagesse et de la connaissance.
     - biblicalRef: 1 Co 5, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Purifiez-vous des vieux ferments, car notre agneau pascal a été immolé : c’est le Christ »
@@ -140,7 +140,7 @@ mass:
     partContents:
     - biblicalRef: Ps 61 (62), 6-7, 9
       refAbbr: 61, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 61, 8a
@@ -157,7 +157,7 @@ mass:
         Dieu est pour nous un refuge.
     - biblicalRef: Ps 5, 2-3, 5-6ab, 6c-7, 12
       refAbbr: 5, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 9a

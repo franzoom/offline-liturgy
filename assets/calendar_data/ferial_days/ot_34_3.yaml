@@ -48,7 +48,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dn 5, 1-6.13-14.16-17.23-28
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Soudain on vit apparaître les doigts d’une main d’homme qui se mirent à écrire »
@@ -127,7 +127,7 @@ mass:
         ton royaume a été partagé
         et donné aux Mèdes et aux Perses. »
     - biblicalRef: Ap 15, 1-4
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils chantent le cantique de Moïse et le cantique de l’Agneau »
@@ -178,7 +178,7 @@ mass:
         Et vous, la fraîcheur et le froid, bénissez le Seigneur. R/
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 7-8, 9
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 15, 3b

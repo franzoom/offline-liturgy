@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 14, 21 - 15, 1a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Les fils d1sraël entrèrent au milieu de la mer à pied sec »
@@ -109,7 +109,7 @@ mass:
         Alors Moïse et les fils d’Israël
         chantèrent ce cantique au Seigneur :
     - biblicalRef: Mi 7, 14-15.18-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tu jetteras au fond de la mer tous nos péchés ! »
@@ -140,7 +140,7 @@ mass:
     partContents:
     - biblicalRef: Ex 15, 8, 9, 10.12, 13a.17
       refAbbr: 15, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 15, 1b
@@ -166,7 +166,7 @@ mass:
         le sanctuaire, Seigneur, fondé par tes mains.
     - biblicalRef: Ps 84 (85), 2-3, 5-6, 7-8
       refAbbr: 84, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 84, 8

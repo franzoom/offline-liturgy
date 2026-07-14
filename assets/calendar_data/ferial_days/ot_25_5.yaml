@@ -66,7 +66,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ag 1, 15b – 2, 9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Encore un peu de temps, et j’emplirai de gloire cette Maison »
@@ -109,7 +109,7 @@ mass:
         et dans ce lieu, je vous ferai don de la paix,
         – oracle du Seigneur de l’univers. »
     - biblicalRef: Qo 3, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Il y a un temps pour chaque chose sous le ciel »
@@ -159,7 +159,7 @@ mass:
     partContents:
     - biblicalRef: Ps 42 (43), 1, 2, 3, 4
       refAbbr: 42, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 42, 5bc
@@ -188,7 +188,7 @@ mass:
         Dieu, mon Dieu !
     - biblicalRef: Ps 143 (144), 1a.2abc, 3-4
       refAbbr: 143, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 143, 1a

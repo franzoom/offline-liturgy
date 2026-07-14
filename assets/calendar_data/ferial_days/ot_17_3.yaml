@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 34, 29-35
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ils virent arriver Moïse : son visage rayonnait, et ils n’osaient pas s’approcher »
@@ -89,7 +89,7 @@ mass:
         Puis il remettait le voile sur son visage
         jusqu’à ce qu’il rentre pour parler avec le Seigneur.
     - biblicalRef: Jr 15, 10.16-21
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Pourquoi ma souffrance est-elle sans fin ? – Si tu reviens, tu reprendras ton service devant moi »
@@ -132,7 +132,7 @@ mass:
     partContents:
     - biblicalRef: Ps 98 (99), 5, 6, 7, 9
       refAbbr: 98, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 98, 9c
@@ -155,7 +155,7 @@ mass:
         car il est saint, le Seigneur notre Dieu.
     - biblicalRef: Ps 58 (59), 2-3, 4-5ab, 10-11, 17, 18
       refAbbr: 58, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 58, 17

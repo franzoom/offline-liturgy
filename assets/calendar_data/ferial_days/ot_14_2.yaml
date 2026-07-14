@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 32, 23-32
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ton nom sera Israël parce que tu as lutté avec Dieu, et tu l’as emporté »
@@ -100,7 +100,7 @@ mass:
          Au lever du soleil, il passa le torrent à Penouël.
         Il resta boiteux de la hanche.
     - biblicalRef: Os 8, 4-7.11-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils ont semé le vent, ils récolteront la tempête »
@@ -138,7 +138,7 @@ mass:
     partContents:
     - biblicalRef: Ps 16 (17), 1, 2-3ab, 6-7, 8.15
       refAbbr: 16, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 16, 15a
@@ -168,7 +168,7 @@ mass:
         au réveil, je me rassasierai de ton visage.
     - biblicalRef: Ps 113B (115), 3-4, 5-6, 7ab.8, 9-10
       refAbbr: 113B, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 113b, 9

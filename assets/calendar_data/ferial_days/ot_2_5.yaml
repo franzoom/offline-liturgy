@@ -206,14 +206,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 8, 6-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il est médiateur d’une alliance meilleure »
@@ -295,7 +295,7 @@ mass:
 
         est près de disparaître.
     - biblicalRef: 1 S 24, 3-21
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je ne porterai pas la main sur celui qui a reçu l’onction du Seigneur »
@@ -413,7 +413,7 @@ mass:
     partContents:
     - biblicalRef: Ps 84 (85), 8.10, 11-12, 13-14
       refAbbr: 84, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 84, 11a
@@ -435,7 +435,7 @@ mass:
         et ses pas traceront le chemin.
     - biblicalRef: Ps 56 (57), 2, 3-4ac, 6.11
       refAbbr: 56, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 56, 2a
@@ -483,8 +483,8 @@ mass:
         Thomas, Jacques, fils d’Alphée,
         Thaddée, Simon le Zélote,
         et Judas Iscariote, celui-là même qui le livra.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

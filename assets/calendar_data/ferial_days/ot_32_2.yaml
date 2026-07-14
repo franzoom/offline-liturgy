@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 2, 23 – 3, 9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Aux yeux de l’insensé, ils ont paru mourir ; mais ils sont dans la paix »
@@ -93,7 +93,7 @@ mass:
         Pour ses amis, grâce et miséricorde :
         il visitera ses élus.
     - biblicalRef: Tt 2, 1-8.11-14
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vivons avec justice et piété, attendant que se réalise la bienheureuse espérance : la manifestation de la gloire de notre grand Dieu et Sauveur, Jésus Christ »
@@ -138,7 +138,7 @@ mass:
     partContents:
     - biblicalRef: Ps 33 (34), 2-3, 16-17, 18-19
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 33, 2
@@ -160,7 +160,7 @@ mass:
         il sauve l’esprit abattu.
     - biblicalRef: Ps 36 (37), 3-4, 18.23, 27.29
       refAbbr: 36, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 36, 39a

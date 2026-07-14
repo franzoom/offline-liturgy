@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 11, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Je vous ai annoncé l’Évangile de Dieu gratuitement »
@@ -107,7 +107,7 @@ mass:
         Serait- ce parce que je ne vous aime pas ?
         Mais si ! Et Dieu le sait.
     - biblicalRef: Si 48, 1-14
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Quand Élie fut enveloppé dans le tourbillon, Élisée fut rempli de son esprit »
@@ -152,7 +152,7 @@ mass:
     partContents:
     - biblicalRef: Ps 110 (111), 1-2, 3-4, 7-8
       refAbbr: 110, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 110, 7a
@@ -177,7 +177,7 @@ mass:
         accomplies avec droiture et sûreté !
     - biblicalRef: Ps 96 (97), 1-2, 3-4, 5-6, 7.10ab
       refAbbr: 96, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 96, 12a

@@ -76,7 +76,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 56, 1.6-7
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Les étrangers, je les conduirai à ma montagne sainte »
@@ -99,7 +99,7 @@ mass:
         car ma maison s’appellera
         « Maison de prière pour tous les peuples. »
     - biblicalRef: Pr 9, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Venez, mangez de mon pain, buvez le vin que j’ai préparé »
@@ -117,7 +117,7 @@ mass:
          Quittez l’étourderie et vous vivrez,
         prenez le chemin de l’intelligence. »
     - biblicalRef: Jr 38, 4-6.8-10
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ma mère, tu m’as enfanté homme de querelle pour tout le pays » (cf. Jr 15, 10)
@@ -157,7 +157,7 @@ mass:
     partContents:
     - biblicalRef: Ps 66 (67), 2-3, 5, 7-8
       refAbbr: 66, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 66, 4
@@ -181,7 +181,7 @@ mass:
         et que la terre tout entière l’adore !
     - biblicalRef: Ps 33 (34), 2-3, 10-11, 12-13, 14-15
       refAbbr: 33, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 33, 9
@@ -210,7 +210,7 @@ mass:
         poursuis la paix, recherche-la.
     - biblicalRef: Ps 39 (40), 2, 3, 4, 18
       refAbbr: 39, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 39, 14b
@@ -238,7 +238,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 11, 13-15.29-32
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « À l’égard d’Israël, les dons gratuits de Dieu et son appel sont sans repentance »
@@ -264,7 +264,7 @@ mass:
         Dieu, en effet, a enfermé tous les hommes dans le refus de croire
         pour faire à tous miséricorde.
     - biblicalRef: Ep 5, 15-20
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Comprenez bien quelle est la volonté du Seigneur »
@@ -285,7 +285,7 @@ mass:
 
         rendez grâce à Dieu le Père.
     - biblicalRef: He 12, 1-4
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Courons avec endurance l’épreuve qui nous est proposée »
@@ -309,7 +309,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 15, 21-28
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Femme, grande est ta foi ! »
@@ -343,7 +343,7 @@ mass:
         que tout se passe pour toi comme tu le veux ! »
         Et, à l’heure même, sa fille fut guérie.
     - biblicalRef: Jn 6, 51-58
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ma chair est la vraie nourriture, et mon sang est la vraie boisson »
@@ -384,7 +384,7 @@ mass:
         Eux, ils sont morts ;
         celui qui mange ce pain vivra éternellement. »
     - biblicalRef: Lc 12, 49-53
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je ne suis pas venu mettre la paix sur terre, mais bien plutôt la division »

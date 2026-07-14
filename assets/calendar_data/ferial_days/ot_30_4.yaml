@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 31b-39
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Aucune créature ne pourra nous séparer de l’amour de Dieu qui est dans le Christ »
@@ -96,7 +96,7 @@ mass:
         rien ne pourra nous séparer de l’amour de Dieu
         qui est dans le Christ Jésus notre Seigneur.
     - biblicalRef: Ep 6, 10-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Prenez l’équipement de combat donné par Dieu ; ainsi, vous pourrez tout mettre en œuvre pour tenir bon »
@@ -139,7 +139,7 @@ mass:
     partContents:
     - biblicalRef: Ps 108 (109), 21-22, 26-27, 30-31
       refAbbr: 108, 21…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 108, 26b
@@ -163,7 +163,7 @@ mass:
         pour le sauver de ceux qui le condamnent.
     - biblicalRef: Ps 143 (144), 1, 2, 9-10
       refAbbr: 143, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 143, 1a

@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 55, 1-3
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Venez acheter et consommer »
@@ -86,7 +86,7 @@ mass:
         Je m’engagerai envers vous par une alliance éternelle :
         ce sont les bienfaits garantis à David.
     - biblicalRef: Ex 16, 2-4.12-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Du ciel, je vais faire pleuvoir du pain pour vous »
@@ -125,7 +125,7 @@ mass:
         Moïse leur dit :
         « C’est le pain que le Seigneur vous donne à manger. »
     - biblicalRef: Qo 1, 2 ; 2, 21-23
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Que reste-t-il à l’homme de toute sa peine ? »
@@ -151,7 +151,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 8-9, 15-16, 17-18
       refAbbr: 144, 8…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 144, 16
@@ -175,7 +175,7 @@ mass:
         de tous ceux qui l’invoquent en vérité.
     - biblicalRef: Ps 77 (78), 3.4ac, 23-24, 25.52a.54a
       refAbbr: 77, 3…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 77, 24b
@@ -197,7 +197,7 @@ mass:
         Il le fait entrer dans son domaine sacré.
     - biblicalRef: Ps 89 (90), 3-4, 5-6, 12-13, 14.17abc
       refAbbr: 89, 3…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 89, 1
@@ -227,7 +227,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 35.37-39
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Aucune créature ne pourra nous séparer de l’amour de Dieu qui est dans le Christ »
@@ -248,7 +248,7 @@ mass:
         rien ne pourra nous séparer de l’amour de Dieu
         qui est dans le Christ Jésus notre Seigneur.
     - biblicalRef: Ep 4, 17.20-24
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Revêtez-vous de l’homme nouveau, créé selon Dieu »
@@ -269,7 +269,7 @@ mass:
          Revêtez-vous de l’homme nouveau,
         créé, selon Dieu, dans la justice et la sainteté conformes à la vérité.
     - biblicalRef: Col 3, 1-5.9-11
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Recherchez les réalités d’en haut ; c’est là qu’est le Christ »
@@ -302,7 +302,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 14, 13-21
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ils mangèrent tous et ils furent rassasiés »
@@ -344,7 +344,7 @@ mass:
          Ceux qui avaient mangé étaient environ cinq mille,
         sans compter les femmes et les enfants.
     - biblicalRef: Jn 6, 24-35
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Celui qui vient à moi n’aura jamais faim, celui qui croit en moi n’aura jamais soif »
@@ -399,7 +399,7 @@ mass:
         Celui qui vient à moi n’aura jamais faim ;
         celui qui croit en moi n’aura jamais soif. »
     - biblicalRef: Lc 12, 13-21
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ce que tu auras accumulé, qui l’aura ? »

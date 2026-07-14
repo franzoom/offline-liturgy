@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 1, 15-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le Christ Jésus est venu dans le monde pour sauver les pécheurs »
@@ -80,7 +80,7 @@ mass:
         Dieu immortel, invisible et unique,
         Honneur et gloire pour les siècles des siècles ! Amen.
     - biblicalRef: 1 Co 10, 14-22
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La multitude que nous sommes est un seul corps, car nous avons tous part à un seul pain »
@@ -116,7 +116,7 @@ mass:
     partContents:
     - biblicalRef: Ps 112 (113), 1-2, 3-4, 5a.6-7
       refAbbr: 112, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 112, 2
@@ -141,7 +141,7 @@ mass:
         il retire le pauvre de la cendre.
     - biblicalRef: Ps 115 (116B), 12-13, 17-18
       refAbbr: 115, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 115, 17a

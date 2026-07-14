@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 2, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il rendra à chacun selon ses œuvres, le Juif d’abord, et le païen »
@@ -101,7 +101,7 @@ mass:
         le Juif d’abord, et le païen.
          Car Dieu est impartial.
     - biblicalRef: Ga 5, 18-25
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ceux qui sont au Christ Jésus ont crucifié en eux la chair, avec ses passions et ses convoitises »
@@ -132,7 +132,7 @@ mass:
     partContents:
     - biblicalRef: Ps 61 (62), 6-7, 8, 9
       refAbbr: 61, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 61, 13b
@@ -154,7 +154,7 @@ mass:
         Dieu est pour nous un refuge.
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 8, 12

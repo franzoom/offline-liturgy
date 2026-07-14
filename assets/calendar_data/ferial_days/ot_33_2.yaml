@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 M 6, 18-31
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « En choisissant de mourir pour nos vénérables et saintes lois, j’aurai laissé le noble exemple d’une belle mort »
@@ -133,7 +133,7 @@ mass:
         mais à l’ensemble de son peuple,
         un exemple de noblesse et un mémorial de vertu.
     - biblicalRef: Ap 3, 1-6.14-22
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Si quelqu’un entend ma voix et ouvre la porte, j’entrerai chez lui, je prendrai mon repas avec lui »
@@ -202,7 +202,7 @@ mass:
     partContents:
     - biblicalRef: Ps 3, 2-3, 4-5, 6-7
       refAbbr: 3, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 3, 6b
@@ -224,7 +224,7 @@ mass:
         qui me cerne et s’avance contre moi.
     - biblicalRef: Ps 14 (15), 1a.2, 3bc-4ab, 4d.5
       refAbbr: 14, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 3, 21

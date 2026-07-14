@@ -210,14 +210,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 4, 1-5.11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Empressons-nous d’entrer dans ce repos-là »
@@ -245,7 +245,7 @@ mass:
         afin que plus personne ne tombe
         en suivant l’exemple de ceux qui ont refusé de croire.
     - biblicalRef: 1 S 8, 4-7.10-22a
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vous pousserez des cris à cause du roi que vous aurez choisi, mais le Seigneur ne vous répondra pas ! »
@@ -309,7 +309,7 @@ mass:
     partContents:
     - biblicalRef: Ps 77 (78), 3.4cd, 6ab.7bc, 8
       refAbbr: 77, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 77, 7b
@@ -331,7 +331,7 @@ mass:
         et d’esprits infidèles à Dieu.
     - biblicalRef: Ps 88 (89), 16-17, 18-19
       refAbbr: 88, 16…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 88, 2a
@@ -397,8 +397,8 @@ mass:
         Tous étaient frappés de stupeur
         et rendaient gloire à Dieu, en disant :
          « Nous n’avons jamais rien vu de pareil. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -50,7 +50,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ne 2, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Si tel est le bon plaisir du roi, laisse-moi aller dans la ville où sont enterrés mes pères, et je la rebâtirai. »
@@ -93,7 +93,7 @@ mass:
         Le roi me l’accorda,
         car la main bienfaisante de mon Dieu était sur moi.
     - biblicalRef: Jb 9, 1-12.14-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Comment l’homme pourrait-il avoir raison contre Dieu ? »
@@ -131,7 +131,7 @@ mass:
     partContents:
     - biblicalRef: Ps 136 (137), 1-2, 3, 4-5, 6
       refAbbr: 136, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 136, 6a
@@ -164,7 +164,7 @@ mass:
         au sommet de ma joie.
     - biblicalRef: Ps 87 (88), 10bc-11, 12-13, 14-15
       refAbbr: 87, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 87, 3a

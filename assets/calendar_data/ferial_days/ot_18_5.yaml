@@ -51,7 +51,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dt 4, 32-40
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il a aimé tes pères et il a choisi leur descendance »
@@ -93,7 +93,7 @@ mass:
         afin d’avoir, toi et tes fils, bonheur et longue vie
         sur la terre que te donne le Seigneur ton Dieu, tous les jours. »
     - biblicalRef: Na 2, 1.3 ; 3, 1-3.6-7
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Malheur à la ville sanguinaire »
@@ -133,7 +133,7 @@ mass:
     partContents:
     - biblicalRef: Ps 76 (77), 12-13, 14-15, 16.21
       refAbbr: 76, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 76, 12

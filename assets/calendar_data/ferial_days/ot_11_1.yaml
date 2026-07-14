@@ -48,7 +48,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 Co 6, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Nous nous recommandons comme des ministres de Dieu »
@@ -87,7 +87,7 @@ mass:
         pauvres, et nous faisons tant de riches ;
         démunis de tout, et nous possédons tout.
     - biblicalRef: 1 R 21, 1-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Naboth a été lapidé et il est mort »
@@ -162,7 +162,7 @@ mass:
     partContents:
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 97, 2a
@@ -184,7 +184,7 @@ mass:
         sonnez, chantez, jouez !
     - biblicalRef: Ps 5, 2-3, 5-6ab, 6c-7
       refAbbr: 5, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 2b

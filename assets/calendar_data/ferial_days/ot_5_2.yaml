@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 1, 20 – 2, 4a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Faisons l’homme à notre image, selon notre ressemblance »
@@ -141,7 +141,7 @@ mass:
         Telle fut l’origine du ciel et de la terre
         lorsqu’ils furent créés.
     - biblicalRef: 1 R 8, 22-23.27-30
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tu as dit : “C’est ici que sera mon nom.” Écoute donc la supplication de ton peuple Israël »
@@ -176,7 +176,7 @@ mass:
     partContents:
     - biblicalRef: Ps 8, 4-5, 6-7, 8-9
       refAbbr: 8, 4…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 8, 2
@@ -200,7 +200,7 @@ mass:
         tout ce qui va son chemin dans les eaux.
     - biblicalRef: Ps 83 (84), 3, 4, 5.10, 11abcd
       refAbbr: 83, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 83, 2

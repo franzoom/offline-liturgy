@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Dt 6, 4-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Tu aimeras le Seigneur ton Dieu de tout ton cœur »
@@ -100,7 +100,7 @@ mass:
         tu le serviras,
         c’est par son nom que tu prêteras serment. »
     - biblicalRef: Ha 1, 12 – 2, 4
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le juste vivra par sa fidélité »
@@ -149,7 +149,7 @@ mass:
     partContents:
     - biblicalRef: Ps 17 (18), 2-3, 4, 47.51ab
       refAbbr: 17, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 17, 2a
@@ -170,7 +170,7 @@ mass:
         Il se montre fidèle à son messie.
     - biblicalRef: Ps 9A, 8-9, 10-11, 12-13
       refAbbr: 9A, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 9A, 11b

@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jos 24, 14-29
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Choisissez aujourd’hui qui vous voulez servir »
@@ -136,7 +136,7 @@ mass:
         Après ces événements, Josué, fils de Noun, serviteur du Seigneur,
         mourut à l’âge de cent dix ans.
     - biblicalRef: Ez 18, 1-10.13b.30-32
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je vous jugerai chacun selon sa conduite »
@@ -192,7 +192,7 @@ mass:
     partContents:
     - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 11
       refAbbr: 15, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 15, 5a
@@ -213,7 +213,7 @@ mass:
         À ta droite, éternité de délices !
     - biblicalRef: Ps 50 (51), 12-13, 14-15, 18-19
       refAbbr: 50, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 50, 12a

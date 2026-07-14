@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 M 6, 1-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Maintenant je me rappelle le mal que j’ai fait à Jérusalem : tous mes malheurs viennent de là, et voici que je meurs dans un profond chagrin »
@@ -117,7 +117,7 @@ mass:
         et voici que je meurs dans un profond chagrin
         sur une terre étrangère. »
     - biblicalRef: Ap 11, 4-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ces deux prophètes avaient causé bien du tourment aux habitants de la terre »
@@ -162,7 +162,7 @@ mass:
     partContents:
     - biblicalRef: Ps 9A, 2-3, 4.6, 16.19
       refAbbr: 9A, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 9a, 15b
@@ -186,7 +186,7 @@ mass:
         jamais ne périt l’espoir des malheureux.
     - biblicalRef: Ps 143 (144), 1, 2, 9-10
       refAbbr: 143, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 143, 1a

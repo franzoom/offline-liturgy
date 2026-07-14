@@ -72,7 +72,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Lv 19, 1-2.17-18
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tu aimeras ton prochain comme toi-même »
@@ -91,7 +91,7 @@ mass:
         Tu aimeras ton prochain comme toi-même.
         Je suis le Seigneur. »
     - biblicalRef: Is 43, 18-19.21-22.24c-25
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’est moi qui efface tes crimes, à cause de moi-même »
@@ -113,7 +113,7 @@ mass:
          à cause de moi-même ;
         de tes péchés je ne vais pas me souvenir.
     - biblicalRef: 1 S 26, 2.7-9.12-13.22-23
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Seigneur t’avait livré entre mes mains, mais je n’ai pas voulu porter la main sur le messie du Seigneur »
@@ -157,7 +157,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 8.10, 12-13
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 102, 8a
@@ -184,7 +184,7 @@ mass:
         la tendresse du Seigneur pour qui le craint !
     - biblicalRef: Ps 40 (41), 2-3a, 4-5, 13-14
       refAbbr: 40, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 40, 5
@@ -208,7 +208,7 @@ mass:
         depuis toujours et pour toujours ! Amen ! Amen !
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 8.10, 12-13
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 102, 8a
@@ -236,7 +236,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Co 3, 16-23
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Tout est à vous, mais vous, vous êtes au Christ, et le Christ est à Dieu »
@@ -270,7 +270,7 @@ mass:
          mais vous, vous êtes au Christ,
         et le Christ est à Dieu.
     - biblicalRef: 2 Co 1, 18-22
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Jésus n’a pas été "oui et non" ; il n’a été que "oui" »
@@ -297,7 +297,7 @@ mass:
         et il a mis dans nos cœurs l’Esprit,
          première avance sur ses dons.
     - biblicalRef: 1 Co 15, 45-49
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « De même que nous aurons été à l’image de celui qui est fait d’argile, de même nous serons à l’image de celui qui vient du ciel »
@@ -324,7 +324,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 5, 38-48
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Aimez vos ennemis »
@@ -365,7 +365,7 @@ mass:
          Vous donc, vous serez parfaits
         comme votre Père céleste est parfait. »
     - biblicalRef: Mc 2, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le Fils de l’homme a autorité pour pardonner les péchés sur la terre »
@@ -415,7 +415,7 @@ mass:
         et rendaient gloire à Dieu, en disant :
          « Nous n’avons jamais rien vu de pareil. »
     - biblicalRef: Lc 6, 27-38
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Soyez miséricordieux comme votre Père est miséricordieux »

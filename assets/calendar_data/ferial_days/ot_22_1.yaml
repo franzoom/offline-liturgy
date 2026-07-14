@@ -71,7 +71,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 4, 13-18
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ceux qui se sont endormis, Dieu, par Jésus, les emmènera avec lui »
@@ -101,7 +101,7 @@ mass:
          Réconfortez-vous donc les uns les autres
         avec ce que je viens de dire.
     - biblicalRef: 1 Co 2, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Parmi vous, je n’ai rien voulu connaître d’autre que Jésus Christ, ce Messie crucifié »
@@ -125,7 +125,7 @@ mass:
     partContents:
     - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 4-5a, 11-12a, 12b-13ab
       refAbbr: 95, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 95, 13
@@ -154,7 +154,7 @@ mass:
         car il vient pour juger la terre.
     - biblicalRef: Ps 118 (119), 97-98, 99-100, 101-102
       refAbbr: 118, 97…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 97a

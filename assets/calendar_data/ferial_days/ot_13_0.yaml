@@ -65,7 +65,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 2 R 4, 8-11.14-16a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Celui qui s’arrête chez nous est un saint homme de Dieu »
@@ -97,7 +97,7 @@ mass:
         au temps fixé pour la naissance,
         tu tiendras un fils dans tes bras. »
     - biblicalRef: Sg 1, 13-15 ; 2, 23-24
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’est par la jalousie du diable que la mort est entrée dans le monde »
@@ -117,7 +117,7 @@ mass:
         ils en font l’expérience,
         ceux qui prennent parti pour lui.
     - biblicalRef: 1 R 19, 16b.19-21
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Élisée se leva et partit à la suite d’Élie »
@@ -148,7 +148,7 @@ mass:
     partContents:
     - biblicalRef: Ps 88 (89), 2-3, 16-17, 18-19
       refAbbr: 88, 2…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 88, 2a
@@ -172,7 +172,7 @@ mass:
         notre bouclier, au Dieu saint d’Israël.
     - biblicalRef: Ps 29 (30), 2.4, 5-6ab, 6cd.12, 13
       refAbbr: 29, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 29, 2a
@@ -200,7 +200,7 @@ mass:
         je te rende grâce !
     - biblicalRef: Ps 15 (16), 1.2a.5, 7-8, 9-10, 2b.11
       refAbbr: 15, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 15, 2.11
@@ -228,7 +228,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 6, 3-4.8-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         Unis, par le baptême, à la mort et à la résurrection du Christ
@@ -256,7 +256,7 @@ mass:
         pensez que vous êtes morts au péché,
         mais vivants pour Dieu en Jésus Christ.
     - biblicalRef: 2 Co 8, 7.9.13-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ce que vous avez en abondance comblera les besoins des frères pauvres »
@@ -284,7 +284,7 @@ mass:
         celui qui en avait ramassé peu
         ne manqua de rien._
     - biblicalRef: Ga 5, 1.13-18
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Vous avez été appelés à la liberté »
@@ -316,7 +316,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 10, 37-42
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Celui qui ne prend pas sa croix n’est pas digne de moi. Qui vous accueille m’accueille »
@@ -349,7 +349,7 @@ mass:
         à l’un de ces petits en sa qualité de disciple,
         amen, je vous le dis : non, il ne perdra pas sa récompense. »
     - biblicalRef: Mc 5, 21-43
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Jeune fille, je te le dis, lève-toi ! »
@@ -430,7 +430,7 @@ mass:
         de ne le faire savoir à personne ;
         puis il leur dit de la faire manger.
     - biblicalRef: Lc 9, 51-62
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Jésus, le visage déterminé, prit la route de Jérusalem » « Je te suivrai partout où tu iras »

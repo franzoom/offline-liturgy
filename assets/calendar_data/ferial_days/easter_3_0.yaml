@@ -239,14 +239,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Ac 2, 14.22b-33
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il n’était pas possible que la mort le retienne en son pouvoir »
@@ -297,7 +297,7 @@ mass:
         et il l’a répandu sur nous,
         ainsi que vous le voyez et l’entendez.
     - biblicalRef: Ac 3, 13-15.17-19
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vous avez tué le Prince de la vie, lui que Dieu a ressuscité d’entre les morts »
@@ -324,7 +324,7 @@ mass:
         Convertissez-vous donc et tournez-vous vers Dieu
         pour que vos péchés soient effacés. »
     - biblicalRef: Ac 5, 27b-32.40b-41
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Nous sommes les témoins de tout cela avec l’Esprit Saint »
@@ -360,7 +360,7 @@ mass:
     partContents:
     - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 9-10, 11
       refAbbr: 15, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 15, 11a
@@ -387,7 +387,7 @@ mass:
         À ta droite, éternité de délices !
     - biblicalRef: Ps 4, 2, 4.7, 9
       refAbbr: 4, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 4, 7b
@@ -412,7 +412,7 @@ mass:
         seul, dans la confiance.
     - biblicalRef: Ps 29 (30), 3-4, 5-6ab, 6cd.12, 13
       refAbbr: 29, 3…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 29, 2a
@@ -443,7 +443,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 P 1, 17-21
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous avez été rachetés par un sang précieux, celui d’un agneau sans tache, le Christ »
@@ -465,7 +465,7 @@ mass:
         et qui lui a donné la gloire ;
         ainsi vous mettez votre foi et votre espérance en Dieu.
     - biblicalRef: 1 Jn 2, 1-5a
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’est lui qui obtient le pardon de nos péchés et de ceux du monde entier »
@@ -488,7 +488,7 @@ mass:
         Mais en celui qui garde sa parole,
         l’amour de Dieu atteint vraiment la perfection.
     - biblicalRef: Ap 5, 11-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Il est digne, l’Agneau immolé, de recevoir puissance et richesse »
@@ -517,7 +517,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Lc 24, 13-35
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il se fit reconnaître par eux à la fraction du pain »
@@ -598,7 +598,7 @@ mass:
         et comment le Seigneur s’était fait reconnaître par eux
         à la fraction du pain.
     - biblicalRef: Lc 24, 35-48
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ainsi est-il écrit que le Christ souffrirait, qu’il ressusciterait d’entre les morts le troisième jour »
@@ -647,7 +647,7 @@ mass:
         en commençant par Jérusalem.
         À vous d’en être les témoins. »
     - biblicalRef: Jn 21, 1-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Jésus s’approche ; il prend le pain et le leur donne ; et de même pour le poisson »
@@ -753,8 +753,8 @@ mass:
         Pierre rendrait gloire à Dieu.
         Sur ces mots, il lui dit :
         « Suis-moi. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

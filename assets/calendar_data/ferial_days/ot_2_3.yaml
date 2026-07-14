@@ -203,14 +203,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 7, 1-3.15-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Toi, tu es prêtre de l’ordre de Melkisédek pour l’éternité »
@@ -240,7 +240,7 @@ mass:
         _Toi, tu es prêtre de l’ordre de Melkisédek
         pour l’éternité._
     - biblicalRef: 1 S 17, 32-33.37.40-51
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « David triompha du Philistin avec une fronde et un caillou »
@@ -314,7 +314,7 @@ mass:
     partContents:
     - biblicalRef: Ps 109 (110), 1, 2, 3, 4
       refAbbr: 109, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 109, 4
@@ -342,7 +342,7 @@ mass:
         selon l’ordre du roi Melkisédek. »
     - biblicalRef: Ps 143 (144), 1, 2, 9-10
       refAbbr: 143, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 143, 1a
@@ -393,8 +393,8 @@ mass:
         les pharisiens se réunirent en conseil avec les partisans d’Hérode
         contre Jésus,
         pour voir comment le faire périr.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

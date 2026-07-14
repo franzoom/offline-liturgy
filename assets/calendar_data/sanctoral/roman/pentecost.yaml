@@ -233,9 +233,9 @@ vespers:
 mass:
   - massType: previous_evening_mass
     name: Messe de la veille au soir
-    note:
-    entranceAntiphon:
-    collect:
+    note: null
+    entranceAntiphon: null
+    collect: null
     readingParts:
       - partType: READING
         partContents:
@@ -483,16 +483,16 @@ mass:
               qu’allaient recevoir ceux qui croiraient en lui.
               En effet, il ne pouvait y avoir l’Esprit
               puisque Jésus n’avait pas encore été glorifié.
-    offeringPrayer:
-    prefaceList:
-    communionAntiphon:
-    prayerAfterCommunion:
-    solemnBlessingList:
+    offeringPrayer: null
+    prefaceList: null
+    communionAntiphon: null
+    prayerAfterCommunion: null
+    solemnBlessingList: null
   - massType: day_mass
     name: Messe du jour
-    note:
-    entranceAntiphon:
-    collect:
+    note: null
+    entranceAntiphon: null
+    collect: null
     readingParts:
       - partType: READING
         partContents:
@@ -564,7 +564,7 @@ mass:
       - partType: READING
         partContents:
           - biblicalRef: 1 Co 12, 3b-7.12-13
-            sundayAndWeekCycles:
+            cycle:
               - A
             headline: |-
               « C’est dans un unique Esprit que nous tous avons été baptisés pour former un seul corps »
@@ -594,7 +594,7 @@ mass:
               nous avons été baptisés pour former un seul corps.
               Tous, nous avons été désaltérés par un unique Esprit.
           - biblicalRef: Ga 5,16-25
-            sundayAndWeekCycles:
+            cycle:
               - B
             headline: |-
               « Le fruit de l’Esprit »
@@ -629,7 +629,7 @@ mass:
               Puisque l’Esprit nous fait vivre,
               marchons sous la conduite de l’Esprit.
           - biblicalRef: Rm 8, 8-17
-            sundayAndWeekCycles:
+            cycle:
               - C
             headline: |-
               « Tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu »
@@ -679,7 +679,7 @@ mass:
       - partType: GOSPEL
         partContents:
           - biblicalRef: Jn 20, 19-23
-            sundayAndWeekCycles:
+            cycle:
               - A
             headline: |-
               « De même que le Père m’a envoyé, moi aussi je vous envoie : recevez l’Esprit Saint »
@@ -708,7 +708,7 @@ mass:
                À qui vous remettrez ses péchés, ils seront remis ;
               à qui vous maintiendrez ses péchés, ils seront maintenus. »
           - biblicalRef: Jn 15, 26-27 ; 16, 12-15
-            sundayAndWeekCycles:
+            cycle:
               - B
             headline: |-
               « L’Esprit de vérité vous conduira dans la vérité tout entière »
@@ -741,7 +741,7 @@ mass:
               L’Esprit reçoit ce qui vient de moi
               pour vous le faire connaître. »
           - biblicalRef: Jn 14, 15-16.23b-26
-            sundayAndWeekCycles:
+            cycle:
               - C
             headline: |-
               « L’Esprit Saint vous enseignera tout »
@@ -772,8 +772,8 @@ mass:
               l’Esprit Saint que le Père enverra en mon nom,
               lui, vous enseignera tout,
               et il vous fera souvenir de tout ce que je vous ai dit. »
-    offeringPrayer:
-    prefaceList:
-    communionAntiphon:
-    prayerAfterCommunion:
-    solemnBlessingList:
+    offeringPrayer: null
+    prefaceList: null
+    communionAntiphon: null
+    prayerAfterCommunion: null
+    solemnBlessingList: null

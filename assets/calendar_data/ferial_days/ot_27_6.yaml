@@ -70,7 +70,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jl 4, 12-21
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Lancez la faucille : la moisson est mûre »
@@ -117,7 +117,7 @@ mass:
 
         Et le Seigneur aura sa demeure à Sion.
     - biblicalRef: Ga 3, 22-29
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tous, vous êtes fils de Dieu par la foi »
@@ -150,7 +150,7 @@ mass:
     partContents:
     - biblicalRef: Ps 96 (97), 1-2, 5-6, 11-12
       refAbbr: 96, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 96, 12a
@@ -172,7 +172,7 @@ mass:
         rendez grâce en rappelant son nom très saint.
     - biblicalRef: Ps 104 (105), 2-3, 4-5, 6-7
       refAbbr: 104, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 104, 8a

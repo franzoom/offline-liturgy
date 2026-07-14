@@ -51,7 +51,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 1, 1-19
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu dit. Et ce fut ainsi »
@@ -127,7 +127,7 @@ mass:
         Il y eut un soir, il y eut un matin :
         quatrième jour.
     - biblicalRef: 1 R 8, 1-7.9-13
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Les prêtres transportèrent l’Arche dans le Saint des Saints, et la nuée remplit la maison du Seigneur »
@@ -176,7 +176,7 @@ mass:
     partContents:
     - biblicalRef: Ps 103 (104), 1-2a, 5-6, 10.12, 24.35c
       refAbbr: 103, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 103, 31b
@@ -203,7 +203,7 @@ mass:
         Bénis le Seigneur, ô mon âme !
     - biblicalRef: Ps 131 (132), 1a.2b.4a.5a, 6-7, 9-10
       refAbbr: 131, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 131, 8

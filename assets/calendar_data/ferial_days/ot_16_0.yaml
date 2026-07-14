@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Sg 12, 13.16-19
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Après la faute tu accordes la conversion »
@@ -87,7 +87,7 @@ mass:
         à tes fils tu as donné une belle espérance :
         après la faute tu accordes la conversion.
     - biblicalRef: Jr 23, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je ramènerai le reste de mes brebis, je susciterai pour elles des pasteurs »
@@ -123,7 +123,7 @@ mass:
         Voici le nom qu’on lui donnera :
         « Le-Seigneur-est-notre-justice. »
     - biblicalRef: Gn 18, 1-10a
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Mon seigneur, ne passe pas sans t’arrêter près de ton serviteur »
@@ -170,7 +170,7 @@ mass:
     partContents:
     - biblicalRef: Ps 85 (86), 5-6, 9ab.10, 15-16ab
       refAbbr: 85, 5…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 85, 5a.6a
@@ -194,7 +194,7 @@ mass:
         prends pitié de moi.
     - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
       refAbbr: 22, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 22, 1
@@ -228,7 +228,7 @@ mass:
         pour la durée de mes jours.
     - biblicalRef: Ps 14 (15), 2-3a, 3bc-4ab, 4d-5
       refAbbr: 14, 2…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 14, 1a
@@ -251,7 +251,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 26-27
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « L’Esprit lui-même intercède par des gémissements inexprimables »
@@ -266,7 +266,7 @@ mass:
         puisque c’est selon Dieu
         que l’Esprit intercède pour les fidèles.
     - biblicalRef: Ep 2, 13-18
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le Christ est notre paix : des deux, le Juif et le païen, il a fait une seule réalité »
@@ -290,7 +290,7 @@ mass:
          Par lui, en effet, les uns et les autres,
         nous avons, dans un seul Esprit, accès auprès du Père.
     - biblicalRef: Col 1, 24-28
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le mystère qui était caché depuis toujours mais qui maintenant a été manifesté »
@@ -321,7 +321,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 13, 24-43
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Laissez-les pousser ensemble jusqu’à la moisson »
@@ -408,7 +408,7 @@ mass:
         Celui qui a des oreilles,
         qu’il entende ! »
     - biblicalRef: Mc 6, 30-34
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Ils étaient comme des brebis sans berger »
@@ -437,7 +437,7 @@ mass:
         parce qu’ils étaient comme des brebis sans berger.
         Alors, il se mit à les enseigner longuement.
     - biblicalRef: Lc 10, 38-42
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Marthe le reçut. Marie a choisi la meilleure part »

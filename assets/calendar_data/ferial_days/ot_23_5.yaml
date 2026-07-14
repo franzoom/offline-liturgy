@@ -70,7 +70,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 1, 1-2.12-14
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Moi qui étais autrefois blasphémateur, il m’a été fait miséricorde »
@@ -96,7 +96,7 @@ mass:
          la grâce de notre Seigneur a été encore plus abondante,
         avec la foi, et avec l’amour qui est dans le Christ Jésus.
     - biblicalRef: 1 Co 9, 16-19.22-27
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je me suis fait tout à tous pour en sauver à tout prix quelques-uns »
@@ -141,7 +141,7 @@ mass:
     partContents:
     - biblicalRef: Ps 15 (16), 1-2a.5, 7-8, 11
       refAbbr: 15, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 15, 5a
@@ -162,7 +162,7 @@ mass:
         À ta droite, éternité de délices !
     - biblicalRef: Ps 83 (84), 3, 4, 5-6, 12
       refAbbr: 83, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 83, 2

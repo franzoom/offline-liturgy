@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ez 18, 25-28
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si le méchant se détourne de sa méchanceté, il sauvera sa vie »
@@ -78,7 +78,7 @@ mass:
         et s’est détourné de ses crimes.
         C’est certain, il vivra, il ne mourra pas. »
     - biblicalRef: Nb 11, 25-29
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Serais-tu jaloux pour moi ? Ah ! Si le Seigneur pouvait faire de tout son peuple un peuple de prophètes ! »
@@ -108,7 +108,7 @@ mass:
         un peuple de prophètes !
         Si le Seigneur pouvait mettre son esprit sur eux ! »
     - biblicalRef: Am 6, 1a.4-7
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « La bande des vautrés n’existera plus »
@@ -133,7 +133,7 @@ mass:
     partContents:
     - biblicalRef: Ps 24 (25), 4-5ab, 6-7, 8-9
       refAbbr: 24, 4…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 24, 6a
@@ -155,7 +155,7 @@ mass:
         il enseigne aux humbles son chemin.
     - biblicalRef: Ps 18 (19), 8, 10, 12-13, 14
       refAbbr: 18, 8…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 18, 9ab
@@ -184,7 +184,7 @@ mass:
         pur d’un grand péché.
     - biblicalRef: Ps 145 (146), 6c.7, 8.9a, 9bc-10
       refAbbr: 145, 6…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 145, 1b
@@ -210,7 +210,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ph 2, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Ayez en vous les dispositions qui sont dans le Christ Jésus »
@@ -273,7 +273,7 @@ mass:
          Ayez en vous les dispositions
         qui sont dans le Christ Jésus.
     - biblicalRef: Jc 5, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Vos richesses sont pourries »
@@ -299,7 +299,7 @@ mass:
          Vous avez condamné le juste et vous l’avez tué,
         sans qu’il vous oppose de résistance.
     - biblicalRef: 1 Tm 6, 11-16
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Garde le commandement jusqu’à la Manifestation du Seigneur »
@@ -331,7 +331,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 21, 28-32
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « S’étant repenti, il y alla »
@@ -365,7 +365,7 @@ mass:
         vous ne vous êtes même pas repentis plus tard
         pour croire à sa parole. »
     - biblicalRef: Mc 9, 38-43.45.47-48
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Celui qui n’est pas contre nous est pour nous. Si ta main est pour toi une occasion de chute, coupe-la »
@@ -411,7 +411,7 @@ mass:
          là où le ver ne meurt pas
         et où le feu ne s’éteint pas. »
     - biblicalRef: Lc 16, 19-31
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Tu as reçu le bonheur, et Lazare, le malheur. Maintenant, lui, il trouve ici la consolation, et toi, la souffrance »

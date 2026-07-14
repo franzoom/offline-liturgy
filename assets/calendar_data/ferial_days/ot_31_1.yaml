@@ -56,7 +56,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 11, 29-36
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu a enfermé tous les hommes dans le refus de croire pour faire à tous miséricorde »
@@ -86,7 +86,7 @@ mass:
         À lui la gloire pour l’éternité !
         Amen.
     - biblicalRef: Ph 2, 1-4
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Pour que ma joie soit complète, ayez les mêmes dispositions »
@@ -111,7 +111,7 @@ mass:
     partContents:
     - biblicalRef: Ps 68 (69), 30-31, 33-34, 36-37
       refAbbr: 68, 30…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 68, 14c
@@ -134,7 +134,7 @@ mass:
          demeure pour ceux qui aiment son nom.
     - biblicalRef: Ps 130 (131), 1, 2, 3
       refAbbr: 130, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorus: |-

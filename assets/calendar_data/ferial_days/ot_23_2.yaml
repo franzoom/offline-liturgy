@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Col 2, 6-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu vous a donné la vie avec le Christ : il nous a pardonné toutes nos fautes »
@@ -103,7 +103,7 @@ mass:
         il les a publiquement données en spectacle
         et les a traînées dans le cortège triomphal du Christ.
     - biblicalRef: 1 Co 6, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Un frère est en procès avec son frère, et cela devant des gens qui ne sont pas croyants ! »
@@ -151,7 +151,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 1-2, 8-9, 10-11
       refAbbr: 144, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 144, 9a
@@ -173,7 +173,7 @@ mass:
         ils parleront de tes exploits.
     - biblicalRef: Ps 149, 1-2, 3-4, 5-6a.9b
       refAbbr: 149, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 149, 4a

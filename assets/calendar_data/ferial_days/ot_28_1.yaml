@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 1, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Nous avons reçu par le Christ grâce et mission d’Apôtre, afin d’amener à l’obéissance de la foi toutes les nations païennes »
@@ -92,7 +92,7 @@ mass:
         de la part de Dieu notre Père
         et du Seigneur Jésus Christ.
     - biblicalRef: Ga 4, 22-24.26-27.31 – 5, 1
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous ne sommes pas les enfants d’une servante, nous sommes ceux de la femme libre »
@@ -127,7 +127,7 @@ mass:
     partContents:
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 97, 2a
@@ -149,7 +149,7 @@ mass:
         sonnez, chantez, jouez.
     - biblicalRef: Ps 112 (113), 1-2, 3-4, 5a.6-7
       refAbbr: 112, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 112, 2

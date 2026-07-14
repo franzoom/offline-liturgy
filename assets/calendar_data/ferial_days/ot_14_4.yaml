@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 44, 18-21.23b-29 ; 45, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « C’est pour vous conserver la vie que Dieu m’a envoyé en Égypte »
@@ -130,7 +130,7 @@ mass:
         car c’est pour vous conserver la vie
         que Dieu m’a envoyé ici avant vous. »
     - biblicalRef: Os 11, 1-4.8c-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Mon cœur se retourne contre moi »
@@ -163,7 +163,7 @@ mass:
     partContents:
     - biblicalRef: Ps 104 (105), 16-17, 18-19, 20-21
       refAbbr: 104, 16…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 104, 5a
@@ -188,7 +188,7 @@ mass:
         le maître de tous ses biens.
     - biblicalRef: Ps 79 (80), 2ac.3bc, 15bc-16
       refAbbr: 79, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 79, 4b

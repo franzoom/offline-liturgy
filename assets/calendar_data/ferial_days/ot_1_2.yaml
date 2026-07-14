@@ -209,14 +209,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 2, 5-12
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il convenait que Dieu mène à sa perfection, par des souffrances, celui qui est à l’origine du salut »
@@ -251,7 +251,7 @@ mass:
         _Je proclamerai ton nom devant mes frères,
         je te chanterai en pleine assemblée._
     - biblicalRef: 1 S 1, 9-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le Seigneur se souvint d’Anne, et elle enfanta Samuel »
@@ -310,7 +310,7 @@ mass:
     partContents:
     - biblicalRef: Ps 8, 2abc.5, 6-7, 8-9
       refAbbr: 8, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 8, 7
@@ -334,7 +334,7 @@ mass:
         tout ce qui va son chemin dans les eaux.
     - biblicalRef: 1 S 2, 1, 4-5ab, 6-7, 8abcd
       refAbbr: 2, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 2, 1a
@@ -397,8 +397,8 @@ mass:
         et ils lui obéissent. »
         Sa renommée se répandit aussitôt partout,
         dans toute la région de la Galilée.
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

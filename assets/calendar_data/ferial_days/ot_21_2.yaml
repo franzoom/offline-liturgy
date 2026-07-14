@@ -69,7 +69,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 2, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies »
@@ -103,7 +103,7 @@ mass:
         mais jusqu’à nos propres vies,
         car vous nous étiez devenus très chers.
     - biblicalRef: 2 Th 2, 1-3a.14-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Gardez ferme les traditions que nous vous avons enseignées »
@@ -133,7 +133,7 @@ mass:
     partContents:
     - biblicalRef: Ps 138 (139), 1-2, 3-4, 5-6
       refAbbr: 138, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 138, 1
@@ -154,7 +154,7 @@ mass:
         hauteur que je ne puis atteindre !
     - biblicalRef: Ps 95 (96), 10, 11-12a, 12b-13ab, 13bcd
       refAbbr: 95, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 95, 13

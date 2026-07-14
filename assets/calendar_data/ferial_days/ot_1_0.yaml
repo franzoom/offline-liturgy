@@ -205,14 +205,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Is 42, 1-4.6-7
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Voici mon serviteur, qui a toute ma faveur »
@@ -240,7 +240,7 @@ mass:
         tu feras sortir les captifs de leur prison,
         et, de leur cachot, ceux qui habitent les ténèbres. »
     - biblicalRef: Is 55, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Venez, voici de l’eau ! Écoutez, et vous vivrez »
@@ -292,7 +292,7 @@ mass:
         sans avoir fait ce qui me plaît,
         sans avoir accompli sa mission.
     - biblicalRef: Is 40, 1-5.9-11
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « La gloire du Seigneur se révélera, et tout être de chair verra »
@@ -334,7 +334,7 @@ mass:
         il les porte sur son cœur,
         il mène les brebis qui allaitent.
     - biblicalRef: Ac 10, 34-38
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Dieu lui a donné l’onction d’Esprit Saint »
@@ -360,7 +360,7 @@ mass:
         et guérissait tous ceux qui étaient sous le pouvoir du diable,
         car Dieu était avec lui. »
     - biblicalRef: 1 Jn 5, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « L’Esprit, l’eau et le sang »
@@ -398,7 +398,7 @@ mass:
         puisque le témoignage de Dieu,
         c’est celui qu’il rend à son Fils.
     - biblicalRef: Tt 2, 11-14 ; 3, 4-7
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint »
@@ -435,7 +435,7 @@ mass:
     partContents:
     - biblicalRef: Ps 28 (29), 1-2, 3ac-4, 3b.9c-10
       refAbbr: 28, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 28, 11b
@@ -459,7 +459,7 @@ mass:
         il siège, le Seigneur, il est roi pour toujours !
     - biblicalRef: Is 12, 2, 4bcd, 5-6
       refAbbr: 12, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 12, 3
@@ -483,7 +483,7 @@ mass:
         car il est grand au milieu de toi, le Saint d’Israël !
     - biblicalRef: Ps 103 (104), 1c-3a, 3bc-4, 24-25, 27-28, 29-30
       refAbbr: 103, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 103, 1
@@ -520,7 +520,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ac 10, 34-38
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Dieu lui a donné l’onction d’Esprit Saint »
@@ -546,7 +546,7 @@ mass:
         et guérissait tous ceux qui étaient sous le pouvoir du diable,
         car Dieu était avec lui. »
     - biblicalRef: 1 Jn 5, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « L’Esprit, l’eau et le sang »
@@ -584,7 +584,7 @@ mass:
         puisque le témoignage de Dieu,
         c’est celui qu’il rend à son Fils.
     - biblicalRef: Tt 2, 11-14 ; 3, 4-7
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint »
@@ -620,7 +620,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 3, 13-17
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Dès que Jésus fut baptisé, il vit l’Esprit de Dieu venir sur lui »
@@ -652,7 +652,7 @@ mass:
         « Celui-ci est mon Fils bien-aimé
         en qui je trouve ma joie. »
     - biblicalRef: Mc 1, 7-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Tu es mon Fils bien-aimé ; en toi, je trouve ma joie »
@@ -680,7 +680,7 @@ mass:
         « Tu es mon Fils bien-aimé ;
         en toi, je trouve ma joie. »
     - biblicalRef: Lc 3, 15-16.21-22
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Comme Jésus priait, après avoir été baptisé, le ciel s’ouvrit »
@@ -708,8 +708,8 @@ mass:
         et il y eut une voix venant du ciel :
         « Toi, tu es mon Fils bien-aimé ;
         en toi, je trouve ma joie. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

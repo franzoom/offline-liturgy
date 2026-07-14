@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 20, 1-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La Loi fut donnée par Moïse »
@@ -117,7 +117,7 @@ mass:
         ni son bœuf, ni son âne :
         rien de ce qui lui appartient. »
     - biblicalRef: Jr 3, 14-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je vous donnerai des pasteurs selon mon cœur. Toutes les nations convergeront vers Jérusalem »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 18B (19), 8, 9, 10, 11
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 6, 68c

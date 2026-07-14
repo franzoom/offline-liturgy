@@ -52,7 +52,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 2, 4b- 9.15-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le Seigneur Dieu prit l’homme et le conduisit dans le jardin d’Éden »
@@ -85,7 +85,7 @@ mass:
         car, le jour où tu en mangeras,
         tu mourras. »
     - biblicalRef: 1 R 10, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La reine de Saba vit toute la sagesse de Salomon »
@@ -136,7 +136,7 @@ mass:
     partContents:
     - biblicalRef: Ps 103 (104), 1-2a, 27-28, 29bc- 30
       refAbbr: 103, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 103, 1a
@@ -158,7 +158,7 @@ mass:
         tu renouvelles la face de la terre.
     - biblicalRef: Ps 36 (37), 5-6, 30-31, 39-40ac
       refAbbr: 36, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 36, 30a

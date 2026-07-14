@@ -67,7 +67,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 2, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « J’encourage à faire des prières pour tous les hommes à Dieu qui veut que tous les hommes soient sauvés »
@@ -98,7 +98,7 @@ mass:
         en élevant les mains,
         saintement, sans colère ni dispute.
     - biblicalRef: 1 Co 11, 17-26.33
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Si, parmi vous, il existe des divisions, ce n’est plus le repas du Seigneur que vous prenez »
@@ -150,7 +150,7 @@ mass:
     partContents:
     - biblicalRef: Ps 27 (28), 1ab.2, 7, 8-9
       refAbbr: 27, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 27, 6
@@ -174,7 +174,7 @@ mass:
         veille sur lui, porte-le toujours.
     - biblicalRef: Ps 39 (40), 7-8a, 8b-9, 10, 17
       refAbbr: 39, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 11, 26b

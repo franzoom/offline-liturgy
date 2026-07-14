@@ -270,14 +270,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: Ez 37, 12-14
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je mettrai en vous mon esprit, et vous vivrez »
@@ -299,7 +299,7 @@ mass:
         et je le ferai
         – oracle du Seigneur.
     - biblicalRef: Jr 31, 31-34
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je conclurai une alliance nouvelle et je ne me rappellerai plus leurs péchés »
@@ -332,7 +332,7 @@ mass:
         Je pardonnerai leurs fautes,
         je ne me rappellerai plus leurs péchés.
     - biblicalRef: Is 43, 16-21
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Voici que je fais une chose nouvelle, je vais désaltérer mon peuple »
@@ -363,7 +363,7 @@ mass:
     partContents:
     - biblicalRef: Ps 129 (130), 1-2, 3-4, 5-6ab, 7bc-8
       refAbbr: 129, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 129, 7bc
@@ -392,7 +392,7 @@ mass:
         de toutes ses fautes.
     - biblicalRef: Ps 50 (51), 3-4, 12-13, 14-15
       refAbbr: 50, 3…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 50, 12a
@@ -414,7 +414,7 @@ mass:
         vers toi, reviendront les égarés.
     - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
       refAbbr: 125, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 125, 3
@@ -444,7 +444,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 8-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « L’Esprit de celui qui a ressuscité Jésus habite en vous »
@@ -465,7 +465,7 @@ mass:
         donnera aussi la vie à vos corps mortels
         par son Esprit qui habite en vous.
     - biblicalRef: He 5, 7-9
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Il a appris l’obéissance et est devenu la cause du salut éternel »
@@ -483,7 +483,7 @@ mass:
         il est devenu pour tous ceux qui lui obéissent
         la cause du salut éternel.
     - biblicalRef: Ph 3, 8-14
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « À cause du Christ, j’ai tout perdu, en devenant semblable à lui dans sa mort »
@@ -518,7 +518,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 11, 1-45
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je suis la résurrection et la vie »
@@ -661,7 +661,7 @@ mass:
         et avaient donc vu ce que Jésus avait fait,
         crurent en lui.
     - biblicalRef: Jn 12, 20-33
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Si le grain de blé tombé en terre meurt, il porte beaucoup de fruit »
@@ -721,7 +721,7 @@ mass:
         j’attirerai à moi tous les hommes. »
         Il signifiait par là de quel genre de mort il allait mourir.
     - biblicalRef: Jn 8, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Celui d’entre-vous qui est sans péché, qu’il soit le premier à jeter une pierre »
@@ -766,8 +766,8 @@ mass:
         Et Jésus lui dit :
         « Moi non plus, je ne te condamne pas.
         Va, et désormais ne pèche plus. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

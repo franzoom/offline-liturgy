@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Col 3, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous êtes passés par la mort avec le Christ en Dieu. Faites donc mourir en vous ce qui n’appartient qu’à la terre »
@@ -99,7 +99,7 @@ mass:
         mais il y a le Christ :
         il est tout, et en tous.
     - biblicalRef: 1 Co 7, 25-31
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tu es marié ? ne cherche pas à te séparer de ta femme. Tu n’as pas de femme ? ne cherche pas à te marier »
@@ -137,7 +137,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 2-3, 10-11, 12-13ab
       refAbbr: 144, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 144, 9a
@@ -159,7 +159,7 @@ mass:
         ton empire, pour les âges des âges.
     - biblicalRef: Ps 44 (45), 11a.12, 14-15a, 15b-16, 17a.18
       refAbbr: 44, 11…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 44, 11a

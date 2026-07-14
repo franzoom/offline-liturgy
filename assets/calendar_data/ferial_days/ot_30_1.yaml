@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 8, 12-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Vous avez reçu un Esprit qui fait de vous des fils ; et c’est en lui que nous crions « Abba ! », c’est-à-dire : Père ! »
@@ -91,7 +91,7 @@ mass:
         si du moins nous souffrons avec lui
         pour être avec lui dans la gloire.
     - biblicalRef: Ep 4, 32 – 5, 8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vivez dans l’amour, comme le Christ nous a aimés »
@@ -124,7 +124,7 @@ mass:
     partContents:
     - biblicalRef: Ps 67 (68), 2.4, 6.7ab, 20-21
       refAbbr: 67, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 67, 21a
@@ -148,7 +148,7 @@ mass:
         et les portes de la mort sont à Dieu, le Seigneur.
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 1

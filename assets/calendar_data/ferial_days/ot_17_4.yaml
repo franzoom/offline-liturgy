@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 40, 16-21.34-38
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La nuée couvrit la tente de la Rencontre, et la gloire du Seigneur remplit la Demeure »
@@ -98,7 +98,7 @@ mass:
         aux yeux de tout Israël.
         Et il en fut ainsi à toutes leurs étapes.
     - biblicalRef: Jr 18, 1-6
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Comme l’argile est dans la main du potier, ainsi êtes-vous dans ma main »
@@ -122,7 +122,7 @@ mass:
     partContents:
     - biblicalRef: Ps 83, 3, 4, 5-6, 11
       refAbbr: 83, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 83, 2
@@ -152,7 +152,7 @@ mass:
         plutôt que d’habiter parmi les infidèles.
     - biblicalRef: Ps 145 (146), 1-2, 3-4, 5-6ab
       refAbbr: 145, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 145, 5a

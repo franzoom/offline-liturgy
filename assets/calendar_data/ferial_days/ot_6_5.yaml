@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 11, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Allons ! descendons, et là, embrouillons leur langue »
@@ -100,7 +100,7 @@ mass:
         et c’est de là qu’il les dispersa
         sur toute la surface de la terre.
     - biblicalRef: Jc 2, 14-24.26
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Comme le corps privé de souffle est mort, de même la foi sans les œuvres est morte »
@@ -150,7 +150,7 @@ mass:
     partContents:
     - biblicalRef: Ps 32 (33), 10-11, 12-13, 14-15
       refAbbr: 32, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 32, 12
@@ -174,7 +174,7 @@ mass:
         qui pénètre toutes leurs actions.
     - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6
       refAbbr: 111, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 111, 1b

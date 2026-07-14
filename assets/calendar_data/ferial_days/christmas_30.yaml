@@ -183,9 +183,9 @@ vespers:
 mass:
   - massType: day_mass
     name: Messe du jour
-    note:
-    entranceAntiphon:
-    collect:
+    note: null
+    entranceAntiphon: null
+    collect: null
     readingParts:
       - partType: READING
         partContents:
@@ -270,8 +270,8 @@ mass:
               L’enfant, lui, grandissait et se fortifiait,
               rempli de sagesse,
               et la grâce de Dieu était sur lui.
-    offeringPrayer:
-    prefaceList:
-    communionAntiphon:
-    prayerAfterCommunion:
-    solemnBlessingList:
+    offeringPrayer: null
+    prefaceList: null
+    communionAntiphon: null
+    prayerAfterCommunion: null
+    solemnBlessingList: null

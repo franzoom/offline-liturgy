@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Lv 25, 1.8-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « En cette année jubilaire, chacun de vous réintégrera sa propriété »
@@ -102,7 +102,7 @@ mass:
         tu craindras ton Dieu.
         Je suis le Seigneur votre Dieu. »
     - biblicalRef: Jr 26, 11-16.24
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « C’est vraiment le Seigneur qui m’a envoyé vers vous proclamer toutes ces paroles »
@@ -140,7 +140,7 @@ mass:
     partContents:
     - biblicalRef: Ps 66 (67), 2-3, 5, 7-8
       refAbbr: 66, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 66, 4
@@ -164,7 +164,7 @@ mass:
         et que la terre tout entière l’adore !
     - biblicalRef: Ps 68 (69), 15, 16, 30-31, 33-34
       refAbbr: 68, 15…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 68, 14bc

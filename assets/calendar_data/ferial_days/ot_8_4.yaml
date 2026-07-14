@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 42, 15-25
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La gloire du Seigneur rayonne dans toute son œuvre »
@@ -96,7 +96,7 @@ mass:
         il a confirmé l’excellence d’une chose par l’autre ;
         qui se rassasierait de contempler sa gloire ?
     - biblicalRef: 1 P 2, 2-5.9-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vous êtes un sacerdoce royal, une nation sainte, pour que vous annonciez les merveilles de celui qui vous a appelés »
@@ -139,7 +139,7 @@ mass:
     partContents:
     - biblicalRef: Ps 32 (33), 2-3, 4-5, 6-7, 8-9
       refAbbr: 32, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 32, 6a
@@ -166,7 +166,7 @@ mass:
         il commanda, et ce qu’il dit survint.
     - biblicalRef: Ps 99 (100), 1-2, 3, 4, 5
       refAbbr: 99, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 99, 2

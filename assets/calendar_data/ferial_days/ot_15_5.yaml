@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 11, 10 – 12, 14
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « On immolera l’agneau au coucher du soleil. Je verrai le sang, et je passerai »
@@ -114,7 +114,7 @@ mass:
         Vous en ferez pour le Seigneur une fête de pèlerinage.
         C’est un décret perpétuel : d’âge en âge vous la fêterez. »
     - biblicalRef: Is 38, 1-6.21-22.7-8
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « J’ai entendu ta prière, j’ai vu tes larmes »
@@ -158,7 +158,7 @@ mass:
     partContents:
     - biblicalRef: Ps 115 (116B), 12-13, 15-16ac, 17-18
       refAbbr: 115, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 115, 13

@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 18, 1-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Y a- t-il une merveille que le Seigneur ne puisse accomplir ? Au moment où je reviendrai chez toi, Sara aura un fils »
@@ -118,7 +118,7 @@ mass:
         Mais le Seigneur répliqua :
         « Si, tu as ri. »
     - biblicalRef: Lm 2, 2.10-14.18-19
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le cœur du peuple crie vers mon Seigneur, sur la muraille de la fille de Sion »
@@ -202,7 +202,7 @@ mass:
         en faveur d’Abraham et sa descendance à jamais.
     - biblicalRef: Ps 73 (74), 1-2abd, 3-4, 5-7, 20-21
       refAbbr: 73, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 73, 19b

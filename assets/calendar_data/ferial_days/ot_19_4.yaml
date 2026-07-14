@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jos 3, 7-10a.11.13-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « L’arche de l’Alliance du Seigneur va passer le Jourdain devant vous »
@@ -100,7 +100,7 @@ mass:
         Alors tout Israël traversa à pied sec,
         jusqu’à ce que toute la nation eût fini de passer le Jourdain.
     - biblicalRef: Ez 12, 1-12
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Sous leurs yeux, pars en plein jour, comme un exilé »
@@ -153,7 +153,7 @@ mass:
     partContents:
     - biblicalRef: Ps 113A (114), 1-2, 3-4, 5-6
       refAbbr: 113A, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorus: Alléluia !
@@ -174,7 +174,7 @@ mass:
         collines, comme des agneaux ?
     - biblicalRef: Ps 77 (78), 56-57, 58-59, 61-62
       refAbbr: 77, 56…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 77, 7b

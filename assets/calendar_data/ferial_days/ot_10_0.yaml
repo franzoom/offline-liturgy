@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Os 6, 3-6
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je veux la fidélité, non le sacrifice »
@@ -76,7 +76,7 @@ mass:
         Je veux la fidélité, non le sacrifice,
         la connaissance de Dieu plus que les holocaustes. »
     - biblicalRef: Gn 3, 9-15
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je mettrai une hostilité entre toi et la femme, entre ta descendance et sa descendance »
@@ -112,7 +112,7 @@ mass:
         celle-ci te meurtrira la tête,
         et toi, tu lui meurtriras le talon. »
     - biblicalRef: 1 R 17, 17-24
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Regarde, ton fils est vivant ! »
@@ -152,7 +152,7 @@ mass:
     partContents:
     - biblicalRef: Ps 49 (50), 1ab.4b.8, 12-13, 14-15
       refAbbr: 49, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 49, 23cd
@@ -176,7 +176,7 @@ mass:
         je te délivrerai, et tu me rendras gloire. »
     - biblicalRef: Ps 129 (130), 1-2, 3-4, 5-6ab, 7bc-8
       refAbbr: 129, 1…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 129, 7bc
@@ -205,7 +205,7 @@ mass:
         de toutes ses fautes.
     - biblicalRef: Ps 29 (30), 3-4, 5-6ab, 6cd.12, 13
       refAbbr: 29, 3…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 29, 2a
@@ -235,7 +235,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 4, 18-25
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Il trouva sa force dans la foi et rendit gloire à Dieu »
@@ -266,7 +266,7 @@ mass:
         livré pour nos fautes
         et ressuscité pour notre justification.
     - biblicalRef: 2 Co 4, 13 – 5, 1
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Nous croyons, et c’est pourquoi nous parlons »
@@ -302,7 +302,7 @@ mass:
         une demeure éternelle dans les cieux
         qui n’est pas l’œuvre des hommes.
     - biblicalRef: Ga 1, 11-19
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dieu a trouvé bon de révéler en moi son Fils, pour que je l’annonce parmi les nations »
@@ -340,7 +340,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 9, 9-13
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Je ne suis pas venu appeler des justes, mais des pécheurs »
@@ -374,7 +374,7 @@ mass:
         En effet, je ne suis pas venu appeler des justes,
         mais des pécheurs. »
     - biblicalRef: Mc 3, 20-35
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’en est fini de Satan »
@@ -435,7 +435,7 @@ mass:
         Celui qui fait la volonté de Dieu,
         celui-là est pour moi un frère, une sœur, une mère. »
     - biblicalRef: Lc 7, 11-17
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Jeune homme, je te l’ordonne, lève-toi »

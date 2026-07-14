@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jon 4, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Toi, tu as pitié de ce ricin. Et moi, comment n’aurais-je pas pitié de Ninive, la grande ville ? »
@@ -110,7 +110,7 @@ mass:
         il y a plus de cent vingt mille êtres humains
         qui ne distinguent pas encore leur droite de leur gauche ? »
     - biblicalRef: Ga 2, 1-2.7-14
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ils ont reconnu la grâce qui m’a été donnée »
@@ -161,7 +161,7 @@ mass:
     partContents:
     - biblicalRef: Ps 85 (86), 3-4, 5-6, 9-10
       refAbbr: 85, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 85, 15
@@ -186,7 +186,7 @@ mass:
         toi, Dieu, le seul.
     - biblicalRef: Ps 116 (117), 1, 2
       refAbbr: ’116’
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 16, 15

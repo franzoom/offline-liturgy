@@ -58,7 +58,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ml 3, 13-20a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Voici que vient le jour du Seigneur, brûlant comme la fournaise »
@@ -101,7 +101,7 @@ mass:
         le Soleil de justice se lèvera :
         il apportera la guérison dans son rayonnement. »
     - biblicalRef: Ga 3, 1-5
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « L’Esprit Saint, l’avez-vous reçu pour avoir pratiqué la Loi, ou pour avoir écouté le message de la foi ? »
@@ -126,7 +126,7 @@ mass:
     partContents:
     - biblicalRef: Ps 1, 1-2, 3, 4.6
       refAbbr: 1, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 5a

@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Tb 11, 5-17
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dieu m’avait frappé, mais voici que je revois mon fils »
@@ -132,7 +132,7 @@ mass:
         Ce jour-là fut un jour de joie
         pour les Juifs qui habitaient Ninive.
     - biblicalRef: 2 Tm 3, 10-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tous ceux qui veulent vivre en hommes religieux dans le Christ Jésus subiront la persécution »
@@ -167,7 +167,7 @@ mass:
     partContents:
     - biblicalRef: Ps 145 (146), 2.5, 6c-7, 8-9a, 9bc-10
       refAbbr: 145, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 145, 1b
@@ -197,7 +197,7 @@ mass:
         ton Dieu, ô Sion, pour toujours !
     - biblicalRef: Ps 118 (119), 157.160, 161.165, 166.168
       refAbbr: 118, 157…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 165a

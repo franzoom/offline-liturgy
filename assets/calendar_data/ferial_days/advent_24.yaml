@@ -110,9 +110,9 @@ middleOfDay:
 mass:
 - massType: morning_mass
   name: Messe du matin
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -230,8 +230,8 @@ mass:
           et l’ombre de la mort,
          pour conduire nos pas
           au chemin de la paix. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

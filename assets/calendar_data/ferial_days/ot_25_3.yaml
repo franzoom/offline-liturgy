@@ -64,7 +64,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Esd 9, 5-9
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Dans la servitude, notre Dieu ne nous a pas abandonnés »
@@ -101,7 +101,7 @@ mass:
         et relever ses ruines,
         afin d’avoir un abri solide en Juda et à Jérusalem. »
     - biblicalRef: Pr 30, 5-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ne me donne ni pauvreté ni richesse mais accorde-moi ma part de pain »
@@ -124,7 +124,7 @@ mass:
     partContents:
     - biblicalRef: Tb 13, 2, 3-4ab, 4cde, 7, 8ab, 8cde
       refAbbr: 13, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 13, 1b
@@ -159,7 +159,7 @@ mass:
         son amour et sa grâce ! »
     - biblicalRef: Ps 118 (119), 29.72, 89.101, 104.163
       refAbbr: 118, 29…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 105a

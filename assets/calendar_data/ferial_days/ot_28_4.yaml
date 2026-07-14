@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 3, 21-30
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « L’homme devient juste par la foi, indépendamment de la pratique de la Loi »
@@ -101,7 +101,7 @@ mass:
         et aussi, au moyen de la foi,
         ceux qui ne l’ont pas reçue.
     - biblicalRef: Ep 1, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Il nous a choisis, dans le Christ, avant la fondation du monde »
@@ -152,7 +152,7 @@ mass:
     partContents:
     - biblicalRef: Ps 129 (130), 1-2, 3-4, 5-6ab
       refAbbr: 129, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 129, 7bc
@@ -176,7 +176,7 @@ mass:
         plus qu’un veilleur ne guette l’aurore.
     - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4, 5-6
       refAbbr: 97, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 97, 2a

@@ -59,7 +59,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 33, 7-11 ; 34, 5b-9.28
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le Seigneur parlait avec Moïse face à face »
@@ -113,7 +113,7 @@ mass:
         Sur les tables de pierre,
         il écrivit les paroles de l’Alliance, les Dix Paroles.
     - biblicalRef: Jr 14, 17-22
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Seigneur, rappelle-toi : ne romps pas ton alliance avec nous ! »
@@ -152,7 +152,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 6-7, 8-9, 10-11, 12-13
       refAbbr: 102, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 102, 8a
@@ -179,7 +179,7 @@ mass:
         la tendresse du Seigneur pour qui le craint !
     - biblicalRef: Ps 78 (79), 5a.8, 9, 11.13ab
       refAbbr: 78, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 78, 9ab

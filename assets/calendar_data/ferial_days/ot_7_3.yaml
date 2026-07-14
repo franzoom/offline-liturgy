@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Si 4, 11-19
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Ceux qui aiment la sagesse sont aimés du Seigneur »
@@ -85,7 +85,7 @@ mass:
          Mais s’il s’égare loin d’elle, elle l’abandonnera
         et le laissera aller à sa perte.
     - biblicalRef: Jc 4, 13-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Vous ne savez même pas ce que sera votre vie demain ! Vous devriez dire : “Si le Seigneur le veut bien”. »
@@ -112,7 +112,7 @@ mass:
     partContents:
     - biblicalRef: Ps 118 (119), 165.168, 171-172, 174-175
       refAbbr: 118, 165…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 118, 165a
@@ -134,7 +134,7 @@ mass:
         Tes décisions me soient en aide !
     - biblicalRef: Ps 48 (49), 2-3, 6-7, 8-9, 10-11
       refAbbr: 48, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 5, 3

@@ -206,14 +206,14 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
     - biblicalRef: He 10, 11-18
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Il a mené pour toujours à leur perfection ceux qu’il sanctifie »
@@ -245,7 +245,7 @@ mass:
         Or, quand le pardon est accordé,
         on n’offre plus le sacrifice pour le péché.
     - biblicalRef: 2 S 7, 4-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je te susciterai dans ta descendance un successeur, et je rendrai stable sa royauté »
@@ -312,7 +312,7 @@ mass:
     partContents:
     - biblicalRef: Ps 109 (110), 1, 2, 3, 4
       refAbbr: 109, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 109, 4
@@ -340,7 +340,7 @@ mass:
         selon l’ordre du roi Melkisédek. »
     - biblicalRef: Ps 88 (89), 4-5, 27-28, 29-30
       refAbbr: 88, 4…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 88, 22a
@@ -444,8 +444,8 @@ mass:
         ceux- là entendent la Parole, ils l’accueillent,
         et ils portent du fruit :
         trente, soixante, cent, pour un. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

@@ -69,7 +69,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Tm 6, 2c-12
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Toi, homme de Dieu, recherche la justice »
@@ -109,7 +109,7 @@ mass:
         c’est pour elle que tu as prononcé ta belle profession de foi
         devant de nombreux témoins.
     - biblicalRef: 1 Co 15, 12-20
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Si le Christ n’est pas ressuscité, votre foi est sans valeur »
@@ -143,7 +143,7 @@ mass:
     partContents:
     - biblicalRef: Ps 48 (49), 6-7, 8-9, 17-18, 19-20
       refAbbr: 48, 6…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 5, 3
@@ -172,7 +172,7 @@ mass:
         qui ne verront jamais plus la lumière.
     - biblicalRef: Ps 16 (17), 1, 6-7, 8.15
       refAbbr: 16, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 16, 15b

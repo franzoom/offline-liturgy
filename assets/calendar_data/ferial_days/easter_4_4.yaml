@@ -189,9 +189,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -299,8 +299,8 @@ mass:
         Amen, amen, je vous le dis :
         si quelqu’un reçoit celui que j’envoie, il me reçoit moi-même ;
         et celui qui me reçoit, reçoit Celui qui m’a envoyé. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

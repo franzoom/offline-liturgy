@@ -66,7 +66,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: He 11, 1-7
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Grâce à la foi, nous comprenons que les mondes ont été formés par une parole de Dieu »
@@ -105,7 +105,7 @@ mass:
         et il reçut en héritage
         la justice qui s’obtient par la foi.
     - biblicalRef: Jc 3, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « La langue, personne ne peut la dompter »
@@ -153,7 +153,7 @@ mass:
     partContents:
     - biblicalRef: Ps 144 (145), 2-3, 4-5, 10-11
       refAbbr: 144, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 144, 1b
@@ -177,7 +177,7 @@ mass:
         ils parleront de tes exploits.
     - biblicalRef: Ps 11 (12), 2-3, 4-5, 7-8
       refAbbr: 11, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 11, 8a

@@ -67,7 +67,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jg 6, 11-24a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Gédéon, va sauver Israël ! N’est-ce pas moi qui t’envoie ? »
@@ -135,7 +135,7 @@ mass:
          À cet endroit, Gédéon bâtit un autel au Seigneur
         sous le vocable de Seigneur-de-la-paix.
     - biblicalRef: Ez 28, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Tu es un homme et non un dieu, toi qui prends tes pensées pour des pensées divines »
@@ -178,7 +178,7 @@ mass:
     partContents:
     - biblicalRef: Ps 84 (85), 9, 11-12, 13-14
       refAbbr: 84, 9…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 84, 9b

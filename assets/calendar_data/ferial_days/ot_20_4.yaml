@@ -60,7 +60,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jg 11, 29-39a
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La première personne qui sortira de ma maison, je l’offrirai en sacrifice d’holocauste au Seigneur »
@@ -113,7 +113,7 @@ mass:
          Les deux mois écoulés, elle revint vers son père,
         et il accomplit à son égard le vœu qu’il avait prononcé.
     - biblicalRef: Ez 36, 23-28
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je vous donnerai un cœur nouveau, je mettrai en vous mon esprit »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 39 (40), 5, 7-8a, 8b-9, 10
       refAbbr: 39, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 8a.9a
@@ -176,7 +176,7 @@ mass:
         Seigneur, tu le sais.
     - biblicalRef: Ps 50 (51), 12-13, 14-15, 18-19
       refAbbr: 50, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 36, 25

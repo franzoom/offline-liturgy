@@ -46,7 +46,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Gn 21, 5.8-20
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Le fils de cette servante ne doit pas partager l’héritage de mon fils Isaac »
@@ -95,7 +95,7 @@ mass:
         Dieu fut avec lui,
         il grandit et habita au désert, et il devint un tireur à l’arc.
     - biblicalRef: Am 5, 14-15.21-24
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Éloignez de moi le tapage de vos cantiques. Mais que la justice soit comme un torrent qui ne tarit jamais ! »
@@ -122,7 +122,7 @@ mass:
     partContents:
     - biblicalRef: Ps 33 (34), 7-8, 10-11, 12-13
       refAbbr: 33, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 33, 7a
@@ -146,7 +146,7 @@ mass:
         et désire les jours où il verra le bonheur ?
     - biblicalRef: Ps 49 (50), 7, 8-9, 10-11, 12-13, 16bc-17
       refAbbr: 49, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 49, 23cd

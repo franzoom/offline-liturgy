@@ -68,7 +68,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Is 45, 1.4-6
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « J’ai pris Cyrus par la main pour lui soumettre les nations »
@@ -92,7 +92,7 @@ mass:
         qu’il n’y a rien en dehors de moi.
         Je suis le Seigneur, il n’en est pas d’autre. »
     - biblicalRef: Is 53, 10-11
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « S’il remet sa vie en sacrifice de réparation, il verra une descendance, il prolongera ses jours »
@@ -106,7 +106,7 @@ mass:
         Le juste, mon serviteur, justifiera les multitudes,
         il se chargera de leurs fautes.
     - biblicalRef: Ex 17, 8-13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Quand Moïse tenait la main levée, Israël était le plus fort »
@@ -137,7 +137,7 @@ mass:
     partContents:
     - biblicalRef: Ps 95 (96), 1.3, 4-5, 7-8, 9-10ac
       refAbbr: 95, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 95, 7b
@@ -166,7 +166,7 @@ mass:
         Il gouverne les peuples avec droiture.
     - biblicalRef: Ps 32 (33), 4-5, 18-19, 20.22
       refAbbr: 32, 4…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 32, 22
@@ -190,7 +190,7 @@ mass:
         comme notre espoir est en toi !
     - biblicalRef: Ps 120 (121), 1-2, 3-4, 5-6, 7-8
       refAbbr: 120, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 120, 2
@@ -220,7 +220,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 1, 1-5b
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Nous nous souvenons de votre foi, de votre charité, de votre espérance »
@@ -245,7 +245,7 @@ mass:
         n’a pas été, chez vous, simple parole,
         mais puissance, action de l’Esprit Saint, pleine certitude.
     - biblicalRef: He 4, 14-16
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Avançons-nous avec assurance vers le Trône de la grâce »
@@ -264,7 +264,7 @@ mass:
         pour obtenir miséricorde
         et recevoir, en temps voulu, la grâce de son secours.
     - biblicalRef: 2 Tm 3, 14 – 4, 2
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Grâce à l’Écriture, l’homme de Dieu sera accompli, équipé pour faire toute sorte de bien »
@@ -294,7 +294,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 22, 15-21
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Rendez à César ce qui est à César, et à Dieu ce qui est à Dieu »
@@ -330,7 +330,7 @@ mass:
         « Rendez donc à César ce qui est à César,
         et à Dieu ce qui est à Dieu. »
     - biblicalRef: Mc 10, 35-45
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Le Fils de l’homme est venu donner sa vie en rançon pour la multitude »
@@ -378,7 +378,7 @@ mass:
         mais pour servir,
         et donner sa vie en rançon pour la multitude. »
     - biblicalRef: Lc 18, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Dieu fera justice à ses élus qui crient vers lui »

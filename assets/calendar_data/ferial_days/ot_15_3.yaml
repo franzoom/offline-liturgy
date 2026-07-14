@@ -55,7 +55,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 3, 1-6.9-12
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « L’ange du Seigneur lui apparut dans la flamme d’un buisson en feu »
@@ -102,7 +102,7 @@ mass:
         quand tu auras fait sortir d’Égypte mon peuple,
         vous rendrez un culte à Dieu sur cette montagne. »
     - biblicalRef: Is 10, 5-7.13-16
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le ciseau se glorifie-t-il aux dépens de celui qui s’en sert pour tailler ? »
@@ -145,7 +145,7 @@ mass:
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 6-7
       refAbbr: 102, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 102, 8a
@@ -167,7 +167,7 @@ mass:
         aux enfants d’Israël ses hauts faits.
     - biblicalRef: Ps 93 (94), 5-6, 7-8, 9-10, 14-15
       refAbbr: 93, 5…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 93, 14a

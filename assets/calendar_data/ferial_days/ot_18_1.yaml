@@ -57,7 +57,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Nb 11, 4b-15
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Je ne puis, à moi seul, porter tout ce peuple »
@@ -107,7 +107,7 @@ mass:
         oui, tue-moi, si j’ai trouvé grâce à tes yeux.
         Que je ne voie pas mon malheur ! »
     - biblicalRef: Jr 28, 1-17
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Ananie : le Seigneur ne t’a pas envoyé, et toi, tu rassures ce peuple par un mensonge »
@@ -183,7 +183,7 @@ mass:
     partContents:
     - biblicalRef: Ps 80 (81), 12-13, 14-15, 16-17
       refAbbr: 80, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 80, 2a
@@ -205,7 +205,7 @@ mass:
         je le rassasierais avec le miel du rocher ! »
     - biblicalRef: Ps 118 (119), 29.43, 79-80, 95.102
       refAbbr: 118, 29…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 118, 68b

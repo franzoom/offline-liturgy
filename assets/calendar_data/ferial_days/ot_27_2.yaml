@@ -69,7 +69,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Jon 3, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Voyant comment ils se détournaient de leur conduite mauvaise, Dieu renonça au châtiment »
@@ -108,7 +108,7 @@ mass:
         et comment ils se détournaient de leur conduite mauvaise,
         Dieu renonça au châtiment dont il les avait menacés.
     - biblicalRef: Ga 1, 13-24
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Dieu a trouvé bon de révéler en moi son Fils, pour que je l’annonce parmi les nations païennes »
@@ -153,7 +153,7 @@ mass:
     partContents:
     - biblicalRef: Ps 129 (103), 1-2, 3-4, 7bc.8
       refAbbr: 129, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 129, 3
@@ -177,7 +177,7 @@ mass:
         de toutes ses fautes.
     - biblicalRef: Ps 138 (139), 1-3, 13-14ab, 14cd-15
       refAbbr: 138, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 138, 24b

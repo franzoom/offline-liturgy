@@ -61,7 +61,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ne 8, 1-4a.5-6.7b-12
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Esdras ouvrit le livre de la Loi, il bénit le Seigneur, et tout le peuple répondit : Amen ! Amen ! »
@@ -121,7 +121,7 @@ mass:
         en effet, ils avaient compris
         les paroles qu’on leur avait fait entendre.
     - biblicalRef: Jb 19, 21-27
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Je sais, moi, que mon rédempteur est vivant »
@@ -147,7 +147,7 @@ mass:
     partContents:
     - biblicalRef: Ps 18B (19), 8, 9, 10, 11
       refAbbr: 18B, 8…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 18b, 9ab
@@ -176,7 +176,7 @@ mass:
         qui coule des rayons.
     - biblicalRef: Ps 26 (27), 7-8a, 8b.9abc, 13-14
       refAbbr: 26, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 26, 13

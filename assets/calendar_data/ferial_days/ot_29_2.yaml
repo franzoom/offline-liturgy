@@ -66,7 +66,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 5, 12.15b.17-19.20b-21
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Si par la faute d’un seul, la mort a établi son règne, combien plus régneront-ils dans la vie »
@@ -106,7 +106,7 @@ mass:
         en rendant juste pour la vie éternelle
         par Jésus Christ notre Seigneur.
     - biblicalRef: Ep 2, 12-22
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Le Christ est notre paix : des deux, le Juif et le païen, il a fait une seule réalité »
@@ -153,7 +153,7 @@ mass:
     partContents:
     - biblicalRef: Ps 39 (40), 7-8a, 8b-9, 10, 17
       refAbbr: 39, 7…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 39, 8a.9a
@@ -182,7 +182,7 @@ mass:
         ceux qui aiment ton salut.
     - biblicalRef: Ps 84 (85), 9ab.10, 11-12, 13-14
       refAbbr: 84, 9…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 84, 9b

@@ -72,7 +72,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Ex 19, 2-6a
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Vous serez pour moi un royaume de prêtres, une nation sainte »
@@ -94,7 +94,7 @@ mass:
         mais vous, vous serez pour moi un royaume de prêtres,
         une nation sainte. »
     - biblicalRef: Ez 17, 22-24
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Je relève l’arbre renversé »
@@ -122,7 +122,7 @@ mass:
         Je suis le Seigneur, j’ai parlé,
         et je le ferai. »
     - biblicalRef: 2 S 12, 7-10.13
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Le Seigneur a passé sur ton péché : tu ne mourras pas »
@@ -156,7 +156,7 @@ mass:
     partContents:
     - biblicalRef: Ps 99 (100), 1-2, 3, 5
       refAbbr: 99, 1…
-      sundayAndWeekCycles:
+      cycle:
       - A
       chorus:
       - chorusRef: 99, 3bc
@@ -177,7 +177,7 @@ mass:
         sa fidélité demeure d’âge en âge.
     - biblicalRef: Ps 91 (92), 2-3, 13-14, 15-16
       refAbbr: 91, 2…
-      sundayAndWeekCycles:
+      cycle:
       - B
       chorus:
       - chorusRef: 91, 2a
@@ -199,7 +199,7 @@ mass:
         Pas de ruse en Dieu, mon rocher ! »
     - biblicalRef: Ps 31 (32), 1-2, 5abcd, 5ef.7, 10bc-11
       refAbbr: 31, 1…
-      sundayAndWeekCycles:
+      cycle:
       - C
       chorus:
       - chorusRef: 31, 5e
@@ -229,7 +229,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 5, 6-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Si nous avons été réconciliés par la mort du Fils, à plus forte raison serons-nous sauvés en recevant sa vie »
@@ -258,7 +258,7 @@ mass:
         par notre Seigneur Jésus Christ,
         par qui, maintenant, nous avons reçu la réconciliation.
     - biblicalRef: 2 Co 5, 6-10
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « Que nous demeurions dans ce corps ou en dehors, notre ambition, c’est de plaire au Seigneur »
@@ -281,7 +281,7 @@ mass:
 
         pendant qu’il était dans son corps.
     - biblicalRef: Ga 2, 16.19-21
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je vis, mais ce n’est plus moi, c’est le Christ qui vit en moi »
@@ -309,7 +309,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Mt 9,36 - 10,8
-      sundayAndWeekCycles:
+      cycle:
       - A
       headline: |-
         « Jésus appela ses douze disciples et les envoya en mission »
@@ -351,7 +351,7 @@ mass:
         Vous avez reçu gratuitement :
         donnez gratuitement. »
     - biblicalRef: Mc 4, 26-34
-      sundayAndWeekCycles:
+      cycle:
       - B
       headline: |-
         « C’est la plus petite de toutes les semences, mais quand elle grandit, elle dépasse toutes les plantes potagères »
@@ -392,7 +392,7 @@ mass:
         Il ne leur disait rien sans parabole,
         mais il expliquait tout à ses disciples en particulier.
     - biblicalRef: Lc 7, 36 – 8, 3
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Ses nombreux péchés sont pardonnés, puisqu’elle a montré beaucoup d’amour »

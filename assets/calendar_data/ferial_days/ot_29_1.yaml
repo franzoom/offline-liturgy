@@ -62,7 +62,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Rm 4, 20-25
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « À nous aussi, cela sera accordé puisque nous croyons »
@@ -84,7 +84,7 @@ mass:
          livré pour nos fautes
         et ressuscité pour notre justification.
     - biblicalRef: Ep 2, 1-10
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Avec le Christ, il nous a ressuscités et il nous a fait siéger aux cieux »
@@ -149,7 +149,7 @@ mass:
          en sa présence, tout au long de nos jours.
     - biblicalRef: Ps 99 (100), 1-2, 3, 4, 5
       refAbbr: 99, 1…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 99, 3b

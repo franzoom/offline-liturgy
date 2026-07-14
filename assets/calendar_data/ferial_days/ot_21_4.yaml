@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: 1 Th 3, 7-13
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « Que le Seigneur vous donne, entre vous et à l’égard de tous, un amour de plus en plus intense et débordant »
@@ -92,7 +92,7 @@ mass:
         lors de la venue de notre Seigneur Jésus
         avec tous les saints. Amen.
     - biblicalRef: 1 Co 1, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « En lui vous avez reçu toutes les richesses »
@@ -128,7 +128,7 @@ mass:
     partContents:
     - biblicalRef: Ps 89 (90), 3-4, 12-13, 14.17abc
       refAbbr: 89, 3…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 89, 14
@@ -152,7 +152,7 @@ mass:
         Consolide pour nous l’ouvrage de nos mains.
     - biblicalRef: Ps 144 (145), 2-3, 4-5, 6-7
       refAbbr: 144, 2…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 144, 1b

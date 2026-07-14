@@ -184,9 +184,9 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note:
-  entranceAntiphon:
-  collect:
+  note: null
+  entranceAntiphon: null
+  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -505,7 +505,7 @@ mass:
   - partType: GOSPEL
     partContents:
     - biblicalRef: Jn 8, 12-20
-      sundayAndWeekCycles:
+      cycle:
       - C
       headline: |-
         « Je suis la lumière du monde »
@@ -552,7 +552,7 @@ mass:
         Et personne ne l’arrêta,
         parce que son heure n’était pas encore venue.
     - biblicalRef: Jn 8, 1-11
-      sundayAndWeekCycles:
+      cycle:
       - A
       - B
       - C
@@ -599,8 +599,8 @@ mass:
         Et Jésus lui dit :
         « Moi non plus, je ne te condamne pas.
         Va, et désormais ne pèche plus. »
-  offeringPrayer:
-  prefaceList:
-  communionAntiphon:
-  prayerAfterCommunion:
-  solemnBlessingList:
+  offeringPrayer: null
+  prefaceList: null
+  communionAntiphon: null
+  prayerAfterCommunion: null
+  solemnBlessingList: null

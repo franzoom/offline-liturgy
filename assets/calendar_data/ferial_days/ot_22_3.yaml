@@ -63,7 +63,7 @@ mass:
   - partType: READING
     partContents:
     - biblicalRef: Col 1, 1-8
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       headline: |-
         « La parole de vérité, l’Évangile, est parvenu jusqu’à vous, elle qui porte du fruit et progresse dans le monde entier »
@@ -92,7 +92,7 @@ mass:
         qui est pour vous un ministre du Christ digne de foi ;
          il nous a fait savoir de quel amour l’Esprit vous anime.
     - biblicalRef: 1 Co 3, 1-9
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       headline: |-
         « Nous sommes des collaborateurs de Dieu, et vous êtes un champ que Dieu cultive, une maison que Dieu construit »
@@ -135,7 +135,7 @@ mass:
     partContents:
     - biblicalRef: Ps 51 (52), 10, 11
       refAbbr: 51, 10…
-      sundayAndWeekCycles:
+      cycle:
       - '1'
       chorus:
       - chorusRef: 51, 10b
@@ -154,7 +154,7 @@ mass:
         oui, il est bon !
     - biblicalRef: Ps 32 (33), 12-13, 14-15, 20-21
       refAbbr: 32, 12…
-      sundayAndWeekCycles:
+      cycle:
       - '2'
       chorus:
       - chorusRef: 32, 12

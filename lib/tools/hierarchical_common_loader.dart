@@ -1,9 +1,11 @@
+import '../classes/mass_class.dart';
 import '../classes/middle_of_day_class.dart';
 import '../classes/morning_class.dart';
 import '../classes/readings_class.dart';
 import '../classes/vespers_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/constants.dart';
+import '../offices/masses/mass_extract.dart';
 import '../offices/middle_of_day/middle_of_day_extract.dart';
 import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
@@ -101,6 +103,15 @@ Future<MiddleOfDay> loadMiddleOfDayHierarchicalCommon(
     context: context,
     createEmpty: () => MiddleOfDay(),
     extractor: (path, loader) => middleOfDayExtract(path, loader),
+    overlayFn: (base, overlay) => base.overlayWith(overlay),
+  );
+}
+
+Future<Masses> loadMassHierarchicalCommon(CelebrationContext context) {
+  return _loadHierarchical<Masses>(
+    context: context,
+    createEmpty: () => Masses(),
+    extractor: (path, loader) => massExtract(path, loader),
     overlayFn: (base, overlay) => base.overlayWith(overlay),
   );
 }

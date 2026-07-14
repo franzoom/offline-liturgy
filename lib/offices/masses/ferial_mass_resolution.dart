@@ -12,31 +12,21 @@ Future<Masses> ferialMassResolution(CelebrationContext context) async {
   if (code.startsWith('advent')) return _resolveAdvent(context);
   if (code.startsWith('christmas')) return _resolveChristmas(context);
   if (code.startsWith('lent')) return _resolveLent(context);
-  if (code.startsWith('paschal')) return _resolveEaster(context);
+  if (code.startsWith('easter')) return _resolveEaster(context);
 
   // Fallback for codes not matching standard seasons
   return await massExtract('$ferialFilePath/$code.yaml', context.dataLoader);
 }
 
 // --- ORDINARY TIME ---
+// Unlike the Divine Office psalmody, each ot_N_D.yaml file (weeks 1-34)
+// already contains a complete, self-contained Mass — there is no real
+// 4-week repeat to overlay onto, so a single direct fetch suffices.
 Future<Masses> _resolveOrdinaryTime(CelebrationContext context) async {
   final dayDatas = extractWeekAndDay(context.ferialCode!, 'ot');
-  final int week = dayDatas[0];
-  final int day = dayDatas[1];
-
-  // Base: 4-week cycle
-  Masses ferialMasses = await massExtract(
-      '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml',
+  return await massExtract(
+      '$ferialFilePath/ot_${dayDatas[0]}_${dayDatas[1]}.yaml',
       context.dataLoader);
-
-  // Overlay specific data for weeks > 4
-  if (week > 4) {
-    Masses aux = await massExtract(
-        '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
-    ferialMasses.overlayWith(aux);
-  }
-
-  return ferialMasses;
 }
 
 // --- ADVENT ---
@@ -108,7 +98,15 @@ Future<Masses> _resolveLent(CelebrationContext context) async {
 
 // --- EASTER ---
 Future<Masses> _resolveEaster(CelebrationContext context) async {
-  final dayDatas = extractWeekAndDay(context.ferialCode!, 'easter');
+  final code = context.ferialCode!;
+
+  // Special compound codes (e.g. easter_6_3_before_ascension) don't match the
+  // plain easter_N_D shape extractWeekAndDay expects; use the code as-is.
+  if (!RegExp(r'^easter_\d+_\d+$').hasMatch(code)) {
+    return await massExtract('$ferialFilePath/$code.yaml', context.dataLoader);
+  }
+
+  final dayDatas = extractWeekAndDay(code, 'easter');
   return await massExtract(
       '$ferialFilePath/easter_${dayDatas[0]}_${dayDatas[1]}.yaml',
       context.dataLoader);

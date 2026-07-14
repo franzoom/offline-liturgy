@@ -313,6 +313,7 @@ Future<List<CelebrationContext>> detectCelebrations(
       celebrationDescription: celebrationDescription,
       commonTitles: celebrationCommonTitles,
       celebrationOrigin: dayContent.feastOrigins[celebrationCode],
+      liturgicalYear: dayContent.liturgicalYear,
     ));
   }
 

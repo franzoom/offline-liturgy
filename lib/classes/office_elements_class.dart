@@ -246,6 +246,10 @@ class CelebrationContext {
   // Location that added this feast; null = Roman calendar
   final LocationOrigin? celebrationOrigin;
   final String? svgSource; // URL or path to the SVG psalm score source
+  // Reference year for the Sunday (A/B/C) and weekday (I/II) lectionary
+  // cycles, from DayContent.liturgicalYear — already accounts for the
+  // Advent shift (e.g. Advent 2026 carries liturgicalYear 2027).
+  final int? liturgicalYear;
 
   const CelebrationContext({
     this.celebrationType,
@@ -269,6 +273,7 @@ class CelebrationContext {
     this.showImprecatoryVerses = false,
     this.celebrationOrigin,
     this.svgSource,
+    this.liturgicalYear,
   });
 
   /// Returns the first common from commonList.
@@ -322,6 +327,7 @@ class CelebrationContext {
     bool? showImprecatoryVerses,
     LocationOrigin? celebrationOrigin,
     String? svgSource,
+    int? liturgicalYear,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -348,6 +354,7 @@ class CelebrationContext {
           showImprecatoryVerses ?? this.showImprecatoryVerses,
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
       svgSource: svgSource ?? this.svgSource,
+      liturgicalYear: liturgicalYear ?? this.liturgicalYear,
     );
   }
 }

@@ -55,6 +55,10 @@ String liturgicalYear(int year) {
   return 'B';
 }
 
+/// Returns '1' or '2' for the two-year weekday Lectionary cycle
+/// (Year I in odd-numbered years, Year II in even-numbered years).
+String weekdayLectionaryYear(int year) => year.isOdd ? '1' : '2';
+
 String breviaryWeekToRoman(int weekNumber) {
   // converts breviary week number (1-4) to Roman numerals
   switch (weekNumber) {

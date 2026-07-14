@@ -1,9 +1,9 @@
 import '../../classes/calendar_class.dart';
 import '../../classes/mass_class.dart';
 import '../../classes/office_elements_class.dart';
+import '../../tools/celebration_index.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
-import '../../tools/constants.dart';
 import '../office_detection.dart';
 import './mass_extract.dart';
 import './ferial_mass_resolution.dart';
@@ -28,8 +28,9 @@ Future<Map<String, CelebrationContext>> massDetection(
     if (c.ferialCode != null && ferialDayCheck(c.celebrationCode)) {
       masses = await ferialMassResolution(c);
     } else {
-      masses = await massExtract(
-          '$sanctoralFilePath/${c.celebrationCode}.yaml', c.dataLoader);
+      final filePath = await dirPathForCode(c.celebrationCode, c.dataLoader);
+      masses =
+          await massExtract('$filePath/${c.celebrationCode}.yaml', c.dataLoader);
     }
 
     for (final mass in masses.masses ?? []) {
@@ -44,6 +45,5 @@ Future<Map<String, CelebrationContext>> massDetection(
     }
   }
 
-  print('+-+-+-+-+-+-+-+-+-+ MASS DETECTION - Possible Masses: $possibleMasses');
   return possibleMasses;
 }

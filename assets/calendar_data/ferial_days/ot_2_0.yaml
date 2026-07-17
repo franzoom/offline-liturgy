@@ -255,8 +255,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 65,4
+    content: |-
+      Toute la terre se prosterne devant toi,
+      >qu’elle chante pour toi,
+      >qu’elle chante un psaume pour ton nom, Dieu très-haut.
+
+  collect:
+  - |-
+    Dieu éternel et tout-puissant,
+    qui régis à la fois le ciel et la terre, +
+    exauce, en ta bonté, les supplications de ton peuple /
+    >et donne à notre temps
+    >la paix qui vient de toi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+
   readingParts:
   - partType: READING
     partContents:
@@ -566,56 +582,31 @@ mass:
         par lui sont venues la grâce et la vérité.
       content: |-
         En ce temps-là,
-
         Jean le Baptiste se trouvait avec deux de ses disciples.
-
         Posant son regard sur Jésus qui allait et venait, il dit :
-
         « Voici l’Agneau de Dieu. »
-
         Les deux disciples entendirent ce qu’il disait,
-
         et ils suivirent Jésus.
-
         Se retournant, Jésus vit qu’ils le suivaient,
-
         et leur dit :
-
         « Que cherchez-vous ? »
-
         Ils lui répondirent :
-
         « Rabbi – ce qui veut dire : Maître –,
-
         où demeures-tu ? »
-
         Il leur dit :
-
         « Venez, et vous verrez. »
-
         Ils allèrent donc,
-
         ils virent où il demeurait,
-
         et ils restèrent auprès de lui ce jour-là.
-
         C’était vers la dixième heure (environ quatre heures de l’après-midi).
 
-
         André, le frère de Simon-Pierre, était l’un des deux disciples
-
         qui avaient entendu la parole de Jean et qui avaient suivi Jésus.
-
         Il trouve d’abord Simon, son propre frère, et lui dit :
-
         « Nous avons trouvé le Messie » – ce qui veut dire : Christ.
-
         André amena son frère à Jésus.
-
         Jésus posa son regard sur lui et dit :
-
         « Tu es Simon, fils de Jean ;
-
         tu t’appelleras Kèphas » – ce qui veut dire : Pierre.
     - biblicalRef: Jn 2, 1-11
       cycle:
@@ -665,8 +656,27 @@ mass:
         C’était à Cana de Galilée.
         Il manifesta sa gloire,
         et ses disciples crurent en lui.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accorde-nous, Seigneur, nous t’en prions,
+    >de participer dignement à ces mystères, *
+    car chaque fois qu’est célébré ce sacrifice en mémorial, /
+    >c’est l’œuvre de notre Rédemption qui s’accomplit.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon: 
+  - biblicalReference: Ps 22,5
+    content: |-
+      Tu prépares la table pour moi ;
+      >la coupe qui m’enivre, comme il est admirable !
+  - biblicalReference: 1Jn 4,16
+    content: |-
+      Nous avons reconnu l’amour que Dieu a pour nous,
+      >et nous y avons cru.
+  prayerAfterCommunion:
+  - |-
+    Répands en nous, Seigneur, ton Esprit de charité, *
+    afin d’unir dans un même amour /
+    >ceux que tu as nourris du même pain du ciel.
+    Par le Christ, notre Seigneur. 
   solemnBlessingList: null

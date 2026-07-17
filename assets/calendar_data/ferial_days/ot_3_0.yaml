@@ -250,8 +250,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 95,1.6
+    content: |-
+      Chantez au Seigneur un chant nouveau,
+      >chantez au Seigneur, terre entière.
+      Devant lui, splendeur et majesté,
+      >dans son sanctuaire, puissance et beauté.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    dans ta bienveillance, dirige nos actions *
+    afin qu’au nom de ton Fils bien-aimé, /
+    >nous portions des fruits en abondance.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+
   readingParts:
   - partType: READING
     partContents:
@@ -708,8 +723,30 @@ mass:
          Alors il se mit à leur dire :
         « Aujourd’hui s’accomplit ce passage de l’Écriture
         que vous venez d’entendre »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille avec bienveillance nos présents,
+    nous t’en prions, Seigneur : *
+    qu’ils soient sanctifiés /
+    >et servent ainsi à notre salut.
+    Par le Christ, notre Seigneur.
+
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Ps 33,6
+    content: |-
+      Approchez du Seigneur : resplendissez de sa lumière,
+      sans ombre ni trouble au visage.
+  - biblicalReference: Jn 8,12
+    content: |-
+      Je suis la lumière du monde, dit le Seigneur,
+      celui qui me suit ne marchera pas dans les ténèbres :
+      il aura la lumière de la vie.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Dieu tout-puissant ; +
+    nous recevons de toi la grâce qui fait vivre : *
+    fais que nous trouvions toujours notre gloire /
+    >dans ce que tu nous donnes.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -238,8 +238,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 105,47
+    content: |-
+      Sauve-nous, Seigneur notre Dieu ;
+      >rassemble-nous du milieu des nations, 
+      que nous rendions grâce à ton saint nom,
+      >fiers de chanter ta louange !
+  collect:
+  - |-
+    Accorde-nous, Seigneur notre Dieu,
+    de pouvoir t’adorer de tout notre esprit, /
+    et d’avoir envers tous une vraie charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+
   readingParts:
   - partType: READING
     partContents:
@@ -680,8 +694,32 @@ mass:
         pour le précipiter en bas.
          Mais lui, passant au milieu d’eux,
         allait son chemin.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Pour te servir, Seigneur,
+    nous déposons nos présents sur ton autel : *
+    accueille-les favorablement, /
+    pour qu’ils deviennent le sacrement de notre rédemption.
+    Par le Christ, notre Seigneur.
+
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Ps 30,17-18
+    content: |-
+      Sur ton serviteur, que s’illumine ta face ;
+      sauve-moi dans ta miséricorde.
+      >Seigneur, garde-moi d’être humilié,
+      >car je t’ai invoqué.
+  - biblicalReference: Mt 5,3-4
+    content: |-
+      Heureux les pauvres de cœur, car le royaume des Cieux est à eux.
+      Heureux les doux, car ils recevront la terre en héritage.
+  prayerAfterCommunion:
+  - |-
+    Nous avons été fortifiés
+    >par le sacrement de notre Rédemption,
+    et nous t’en prions, Seigneur : *
+    que cette nourriture pour le salut éternel /
+    >nous fasse progresser dans la vraie foi.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

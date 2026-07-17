@@ -20,13 +20,23 @@ Future<Masses> ferialMassResolution(CelebrationContext context) async {
 
 // --- ORDINARY TIME ---
 // Unlike the Divine Office psalmody, each ot_N_D.yaml file (weeks 1-34)
-// already contains a complete, self-contained Mass — there is no real
-// 4-week repeat to overlay onto, so a single direct fetch suffices.
+// has its own daily lectionary reading — there is no real 4-week repeat to
+// overlay onto for readingParts. But weekdays (D 1-6) share the Sunday's
+// (D 0) antiphons and orations, so those 5 fields are filled in from the
+// week's Sunday file when the weekday doesn't provide its own.
 Future<Masses> _resolveOrdinaryTime(CelebrationContext context) async {
   final dayDatas = extractWeekAndDay(context.ferialCode!, 'ot');
-  return await massExtract(
-      '$ferialFilePath/ot_${dayDatas[0]}_${dayDatas[1]}.yaml',
-      context.dataLoader);
+  final week = dayDatas[0];
+  final day = dayDatas[1];
+  final weekdayMasses = await massExtract(
+      '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
+
+  if (day == 0) return weekdayMasses;
+
+  final sundayMasses = await massExtract(
+      '$ferialFilePath/ot_${week}_0.yaml', context.dataLoader);
+  weekdayMasses.fillFromSunday(sundayMasses);
+  return weekdayMasses;
 }
 
 // --- ADVENT ---

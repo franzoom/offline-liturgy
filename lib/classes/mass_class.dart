@@ -234,6 +234,19 @@ class Mass {
     if (overlay.solemnBlessingList != null) solemnBlessingList = overlay.solemnBlessingList;
   }
 
+  /// Fills the 5 Sunday-inherited fields (entrance/communion antiphons and
+  /// the 3 orations) from [sunday], only where this Mass doesn't already
+  /// have its own value. readingParts stays day-specific and is untouched —
+  /// Ordinary Time weekdays share the Sunday's antiphons/orations but keep
+  /// their own daily lectionary reading.
+  void fillFromSunday(Mass sunday) {
+    entranceAntiphon ??= sunday.entranceAntiphon;
+    collect ??= sunday.collect;
+    offeringPrayer ??= sunday.offeringPrayer;
+    communionAntiphon ??= sunday.communionAntiphon;
+    prayerAfterCommunion ??= sunday.prayerAfterCommunion;
+  }
+
   /// Selective overlay for Common of Saints Mass texts (no such data exists
   /// yet, added for parity with the other office classes' overlayWithCommon).
   /// readingParts is NOT taken from the common — same rationale as
@@ -307,6 +320,22 @@ class Masses {
           masses!.indexWhere((m) => m.massType == commonMass.massType);
       if (index >= 0) {
         masses![index].overlayWithCommon(commonMass);
+      }
+    }
+  }
+
+  /// Fills Sunday-inherited fields on each already-selected massType from
+  /// [sunday] (see Mass.fillFromSunday). Never introduces a new mass type
+  /// from the Sunday — weekdays don't have a vigil_mass to match against.
+  void fillFromSunday(Masses sunday) {
+    if (sunday.masses == null || sunday.masses!.isEmpty || masses == null) {
+      return;
+    }
+    for (final sundayMass in sunday.masses!) {
+      final index =
+          masses!.indexWhere((m) => m.massType == sundayMass.massType);
+      if (index >= 0) {
+        masses![index].fillFromSunday(sundayMass);
       }
     }
   }

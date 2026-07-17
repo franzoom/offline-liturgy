@@ -4,13 +4,13 @@ library;
 /// Antiphon with optional biblical reference and text content.
 /// Used for both entrance antiphon and communion antiphon.
 class MassAntiphon {
-  final String? biblicalRef;
+  final String? biblicalReference;
   final String? content;
 
-  const MassAntiphon({this.biblicalRef, this.content});
+  const MassAntiphon({this.biblicalReference, this.content});
 
   factory MassAntiphon.fromJson(Map<String, dynamic> json) => MassAntiphon(
-        biblicalRef: json['biblicalRef']?.toString(),
+        biblicalReference: json['biblicalReference']?.toString(),
         content: json['content']?.toString(),
       );
 }

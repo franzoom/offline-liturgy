@@ -30,3 +30,184 @@ readings:
         Ouvre ton cœur au pauvre : c’est ton frère.
         Et quand le Fils de l’homme viendra, il te dira :
         J’avais faim et tu m’as donné à manger.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu, source de la paix, toi qui aimes la charité, +
+    >tu as donné à sainte Élisabeth de Portugal
+    >une grâce merveilleuse pour réconcilier les adversaires ; *
+    accorde-nous, par son intercession,
+    >de travailler au service de la paix, /
+    >et de pouvoir ainsi être appelés enfants de Dieu.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1Jn 3, 14-18
+      headline: « Nous aussi, nous devons donner notre vie pour nos frères »
+      content: |-
+        Bien-aimés,
+        nous savons que nous sommes passés de la mort à la vie,
+        parce que nous aimons nos frères.
+        Celui qui n’aime pas
+        demeure dans la mort.
+        Quiconque a de la haine contre son frère
+        est un meurtrier,
+        et vous savez que pas un meurtrier
+        n’a la vie éternelle demeurant en lui.
+        Voici comment nous avons reconnu l’amour :
+        lui, Jésus, a donné sa vie pour nous.
+        Nous aussi, nous devons donner notre vie pour nos frères.
+        Celui qui a de quoi vivre en ce monde,
+        s’il voit son frère dans le besoin
+        sans faire preuve de compassion,
+        comment l’amour de Dieu pourrait-il demeurer en lui ?
+        Petits enfants,
+        n’aimons pas en paroles ni par des discours,
+        mais par des actes et en vérité.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+      refAbbr: 111, 1a
+      chorus:
+      - chorusRef: 111, 1a
+        chorus: Heureux qui craint le Seigneur.
+      - chorusRef: null
+        chorus: 'ou : Alléluia !'
+      content: |-
+        Heureux qui craint le Seigneur,
+        qui aime entièrement sa volonté !
+        Sa lignée sera puissante sur la terre ;
+        la race des justes est bénie.
+
+        Les richesses affluent dans sa maison :
+        à jamais se maintiendra sa justice.
+        Lumière des cœurs droits, il s’est levé dans les ténèbres,
+        homme de justice, de tendresse et de pitié.
+
+        L’homme de bien a pitié, il partage ;
+        il mène ses affaires avec droiture.
+        Cet homme jamais ne tombera ;
+        toujours on fera mémoire du juste.
+
+        Il ne craint pas l’annonce d’un malheur :
+        le cœur ferme, il s’appuie sur le Seigneur.
+        Son cœur est confiant, il ne craint pas :
+        il verra ce que valaient ses oppresseurs.
+
+        À pleines mains, il donne au pauvre ;
+        à jamais se maintiendra sa justice,
+        sa puissance grandira, et sa gloire !
+  - partType: GOSPEL
+    partContents:
+    - number: 1
+      biblicalRef: Mt 25, 31-46
+      headline: « Chaque fois que vous l’avez fait à l’un de ces plus petits de mes frères, c’est à moi que vous l’avez fait »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Quand le Fils de l’homme viendra dans sa gloire,
+        et tous les anges avec lui,
+        alors il siégera sur son trône de gloire.
+        Toutes les nations seront rassemblées devant lui ;
+        il séparera les hommes les uns des autres,
+        comme le berger sépare les brebis des boucs :
+        il placera les brebis à sa droite, et les boucs à gauche.
+        Alors le Roi dira à ceux qui seront à sa droite :
+        "Venez, les bénis de mon Père,
+        recevez en héritage le Royaume
+        préparé pour vous depuis la fondation du monde.
+        Car j’avais faim, et vous m’avez donné à manger ;
+        j’avais soif, et vous m’avez donné à boire ;
+        j’étais un étranger, et vous m’avez accueilli ;
+        j’étais nu, et vous m’avez habillé ;
+        j’étais malade, et vous m’avez visité ;
+        j’étais en prison, et vous êtes venus jusqu’à moi !"
+        Alors les justes lui répondront :
+        "Seigneur, quand est-ce que nous t’avons vu :
+        tu avais donc faim, et nous t’avons nourri ?
+        tu avais soif, et nous t’avons donné à boire ?
+        tu étais un étranger, et nous t’avons accueilli ?
+        tu étais nu, et nous t’avons habillé ?
+        tu étais malade ou en prison...
+        Quand sommes-nous venus jusqu’à toi ?"
+        Et le Roi leur répondra :
+        "Amen, je vous le dis :
+        chaque fois que vous l’avez fait
+        à l’un de ces plus petits de mes frères,
+        c’est à moi que vous l’avez fait."
+        Alors il dira à ceux qui seront à sa gauche :
+        "Allez-vous-en loin de moi, vous les maudits,
+        dans le feu éternel préparé pour le diable et ses anges.
+        Car j’avais faim, et vous ne m’avez pas donné à manger ;
+        j’avais soif, et vous ne m’avez pas donné à boire ;
+        j’étais un étranger, et vous ne m’avez pas accueilli ;
+        j’étais nu, et vous ne m’avez pas habillé ;
+        j’étais malade et en prison, et vous ne m’avez pas visité."
+        Alors ils répondront, eux aussi :
+        "Seigneur, quand t’avons-nous vu
+        avoir faim, avoir soif, être nu, étranger, malade ou en prison,
+        sans nous mettre à ton service ?"
+        Il leur répondra :
+        "Amen, je vous le dis :
+        chaque fois que vous ne l’avez pas fait
+        à l’un de ces plus petits,
+        c’est à moi que vous ne l’avez pas fait."
+        Et ils s’en iront, ceux-ci au châtiment éternel,
+        et les justes, à la vie éternelle. »
+        
+    - number: 2
+      label: Ou lecture brève
+      biblicalRef: Mt 25, 31-40
+      headline: « Chaque fois que vous l’avez fait à l’un de ces plus petits de mes frères, c’est à moi que vous l’avez fait »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Quand le Fils de l’homme viendra dans sa gloire,
+        et tous les anges avec lui,
+        alors il siégera sur son trône de gloire.
+        Toutes les nations seront rassemblées devant lui ;
+        il séparera les hommes les uns des autres,
+        comme le berger sépare les brebis des boucs :
+        il placera les brebis à sa droite, et les boucs à gauche.
+        Alors le Roi dira à ceux qui seront à sa droite :
+        "Venez, les bénis de mon Père,
+        recevez en héritage le Royaume
+        préparé pour vous depuis la fondation du monde.
+        Car j’avais faim, et vous m’avez donné à manger ;
+        j’avais soif, et vous m’avez donné à boire ;
+        j’étais un étranger, et vous m’avez accueilli ;
+        j’étais nu, et vous m’avez habillé ;
+        j’étais malade, et vous m’avez visité ;
+        j’étais en prison, et vous êtes venus jusqu’à moi !"
+        Alors les justes lui répondront :
+        "Seigneur, quand est-ce que nous t’avons vu :
+        tu avais donc faim, et nous t’avons nourri ?
+        tu avais soif, et nous t’avons donné à boire ?
+        tu étais un étranger, et nous t’avons accueilli ?
+        tu étais nu, et nous t’avons habillé ?
+        tu étais malade ou en prison...
+        Quand sommes-nous venus jusqu’à toi ?"
+        Et le Roi leur répondra :
+        "Amen, je vous le dis :
+        chaque fois que vous l’avez fait
+        à l’un de ces plus petits de mes frères,
+        c’est à moi que vous l’avez fait."
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

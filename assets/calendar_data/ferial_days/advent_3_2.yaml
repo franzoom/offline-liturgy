@@ -212,8 +212,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Za 14,5.7
+    content: |-
+      Voici que le Seigneur viendra,
+      >et tous les saints avec lui ;
+      on verra, ce jour-là, une grande lumière.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >tu as fait de nous une créature nouvelle dans ton Fils unique ; +
+    >regarde avec bonté les œuvres de ta miséricorde, *
+    et lors de la venue de ton Fils, /
+    >purifie-nous de la dégradation des péchés.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -312,8 +326,27 @@ mass:
          Tandis que vous, après avoir vu cela,
          vous ne vous êtes même pas repentis plus tard
          pour croire à sa parole. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Laisse-toi fléchir, Seigneur,
+    >par nos offrandes et nos humbles prières ; *
+    nous ne pouvons pas invoquer nos mérites, /
+    >viens par ta grâce à notre secours.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  communionAntiphon:
+  - biblicalReference: cf. 2Tm 4,8
+    content: |-
+      Le Seigneur, le juste juge, remettra la couronne de justice
+      >à tous ceux qui désirent avec amour sa Manifestation glorieuse.
+  prayerAfterCommunion:
+  - |-
+    Comblés par cette nourriture spirituelle,
+    >nous te supplions, Seigneur : *
+    quand nous participons à ce mystère,
+    >apprends-nous à évaluer avec sagesse
+    >les réalités de ce monde /
+    >et à nous attacher aux biens du ciel.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

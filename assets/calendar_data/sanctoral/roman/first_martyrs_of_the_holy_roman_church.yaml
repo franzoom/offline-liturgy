@@ -38,3 +38,125 @@ vespers:
     common:
       - |-
         Tous ceux qui ont aimé le Christ pendant leur vie et l’ont imité dans sa mort régneront pour toujours avec lui.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as consacré par le sang des martyrs
+    >les magnifiques débuts de l’Église de Rome ; *
+    >fais que leur grand courage dans le combat nous fortifie /
+    >et que leur victoire dans la foi nous réjouisse toujours.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 8, 31b-39
+      headline: « Ni la mort ni la vie ne pourra nous séparer de l’amour de Dieu »
+      content: |-
+        Frères,
+        si Dieu est pour nous,
+        qui sera contre nous ?
+        Il n’a pas épargné son propre Fils,
+        mais il l’a livré pour nous tous :
+        comment pourrait-il, avec lui,
+        ne pas nous donner tout ?
+        Qui accusera ceux que Dieu a choisis ?
+        Dieu est celui qui rend juste :
+        alors, qui pourra condamner ?
+        Le Christ Jésus est mort ;
+        bien plus, il est ressuscité,
+        il est à la droite de Dieu,
+        il intercède pour nous :
+        alors, qui pourra nous séparer de l’amour du Christ ?
+        la détresse ? l’angoisse ? la persécution ?
+        la faim ? le dénuement ? le danger ? le glaive ?
+        En effet, il est écrit :
+        C’est pour toi qu’on nous massacre sans arrêt,
+        qu’on nous traite en brebis d’abattoir.
+        Mais, en tout cela nous sommes les grands vainqueurs
+        grâce à celui qui nous a aimés.
+        J’en ai la certitude :
+        ni la mort ni la vie,
+        ni les anges ni les Principautés célestes,
+        ni le présent ni l’avenir,
+        ni les Puissances, ni les hauteurs, ni les abîmes,
+        ni aucune autre créature,
+        rien ne pourra nous séparer de l’amour de Dieu
+        qui est dans le Christ Jésus notre Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+      refAbbr: 123, 7ab
+      chorus:
+      - chorusRef: 123, 7ab
+        chorus: |-
+          Comme un oiseau, nous avons échappé
+          au filet du chasseur.
+      content: |-
+        Sans le Seigneur qui était pour nous
+        quand des hommes nous assaillirent,
+        alors ils nous avalaient tout vivants,
+        dans le feu de leur colère.
+
+        Alors le flot passait sur nous,
+        le torrent nous submergeait ;
+        alors nous étions submergés
+        par les flots en furie.
+
+        Béni soit le Seigneur
+        qui n’a pas fait de nous
+        la proie de leurs dents !
+        Comme l’oiseau, nous avons échappé
+        au filet de l’oiseleur.
+
+        Le filet s’est rompu :
+        nous avons échappé.
+        Notre secours est dans le nom du Seigneur
+        qui a fait le ciel et la terre.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 24, 4-13
+      headline: « Vous serez détestés de toutes les nations à cause de mon nom »
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus parlait à ses disciples de sa venue.
+        Il leur disait :
+        « Prenez garde que personne ne vous égare.
+        Car beaucoup viendront sous mon nom,
+        et diront : "C’est moi le Christ" ;
+        alors ils égareront bien des gens.
+        Vous allez entendre parler de guerres et de rumeurs de guerre.
+        Faites attention ! ne vous laissez pas effrayer,
+        car il faut que cela arrive,
+        mais ce n’est pas encore la fin.
+        On se dressera nation contre nation,
+        royaume contre royaume ;
+        il y aura, en divers lieux, des famines
+        et des tremblements de terre.
+        Or tout cela n’est que le commencement
+        des douleurs de l’enfantement.
+        Alors, vous serez livrés à la détresse,
+        on vous tuera,
+        vous serez détestés de toutes les nations
+        à cause de mon nom.
+        Alors ce sera pour beaucoup une occasion de chute ;
+        ils se livreront les uns les autres,
+        se détesteront les uns les autres.
+        Beaucoup de faux prophètes se lèveront,
+        et ils égareront bien des gens.
+        À cause de l’ampleur du mal,
+        la charité de la plupart des hommes se refroidira.
+        Mais celui qui aura persévéré jusqu’à la fin,
+        celui-là sera sauvé. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -183,8 +183,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. He 9,15
+    content: |-
+      Le Christ est le médiateur d’une alliance nouvelle,
+      >d’un testament nouveau,
+      puisque par sa mort, ceux qui sont appelés
+      >peuvent recevoir l’héritage éternel.
+  collect:
+  - |-
+    Sois attentif à à nos appels, Seigneur, +
+    >et, dans ta bonté, protège
+    >ceux qui mettent leur espérance en ta miséricorde, *
+    afin que, purifiés de leurs péchés,
+    >ils persévèrent dans une vie de sainteté /
+    >et deviennent les héritiers de ta promesse.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -286,8 +302,35 @@ mass:
          Alors ils ramassèrent des pierres pour les lui jeter.
         Mais Jésus, en se cachant,
         sortit du Temple.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Regarde favorablement, Seigneur,
+    >le sacrifice que nous te présentons : *
+    >qu’il serve à notre conversion /
+    >et au salut du monde entier.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - passion_of_the_lord_1
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Rm 8,32
+    content: |-
+      Dieu n’a pas épargné son propre Fils,
+      >mais il l’a livré pour nous tous :
+      >avec lui, il nous a tout donné.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as rassasiés, Seigneur,
+    >par ce don qui nous sauve, +
+    >et nous implorons ta miséricorde : *
+    par ce même sacrement qui nous fortifie en cette vie, /
+    >rends-nous participants de la vie éternelle.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Sois favorable à ton peuple,
+    >Seigneur, nous t’en prions, *
+    >afin que, rejetant jour après jour ce qui te déplaît /
+    >il préfère trouver toute sa joie dans tes commandements.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

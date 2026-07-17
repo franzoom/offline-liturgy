@@ -180,8 +180,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 5,2-3
+    content: |-
+      Écoute mes paroles, Seigneur,
+      >comprends ma plainte ;
+      entends ma voix qui t’appelle,
+      >ô mon Roi et mon Dieu !
+  collect:
+  - |-
+    Seigneur, nous t’en prions, +
+    >inspire-nous de toujours penser ce qui est juste
+    >et de l’accomplir avec empressement ; *
+    et puisque sans toi nous ne pouvons pas exister, /
+    >fais-nous vivre en accord avec toi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -269,8 +284,40 @@ mass:
         Donc, tout ce que vous voudriez que les autres fassent pour vous,
         faites-le pour eux, vous aussi :
         voilà ce que disent la Loi et les Prophètes. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Sois favorable, Seigneur,
+    >aux supplications de ceux qui t’implorent ; *
+    >reçois les dons et les prières de ton peuple, /
+    >et tourne vers toi le cœur de chacun d’entre nous.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Mt 7,8
+    content: |-
+      Quiconque demande reçoit ;
+      qui cherche trouve ;
+      à qui frappe, on ouvrira.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur notre Dieu,
+    >toi qui nous donnes ces mystères très saints
+    >pour soutenir notre relèvement : *
+    fais qu’ils nous soient un remède /
+    >maintenant et pour la vie future.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Nous t’en prions, Seigneur, +
+    fais venir sur ceux qui te supplient
+    la miséricorde qu’ils espèrent ; *
+    que leur soit accordée en abondance
+    la grâce de reconnaître ce qu’ils doivent demander /
+    et de voir leurs prières exaucées.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

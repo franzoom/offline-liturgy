@@ -190,3 +190,137 @@ vespers:
   evangelicAntiphon:
     common:
       - Que leur souvenir soit en bénédiction. Que leurs os refleurissent de leur tombe et que leur nom se renouvelle dans la descendance de ces hommes illustres.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Ml 2,6
+    content: |-
+      La loi de vérité était dans sa bouche,
+      >et rien de mal ne se trouvait sur ses lèvres.
+      Dans la paix et la droiture, il marchait avec le Seigneur
+      >nombreux furent ceux qu’il détourna de la faute.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné au bienheureux évêque Irénée
+    >d’enseigner plus solidement la vérité
+    >et d’affermir avec bonheur la paix dans l’Église ; *
+    par son intercession, renouvelle notre foi et notre charité, /
+    >pour que nous cherchions en toute chose
+    >à promouvoir l’unité et la concorde.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Tm 2, 22b-26
+      headline: « Un serviteur du Seigneur doit reprendre avec douceur les opposants »
+      content: |-
+        Bien-aimé,
+        cherche à vivre dans la justice,
+        la foi, la charité et la paix,
+        avec ceux qui invoquent le Seigneur d’un cœur pur.
+        Évite les discussions folles et simplistes :
+        tu sais qu’elles provoquent des querelles.
+        Or un serviteur du Seigneur ne doit pas être querelleur ;
+        il doit être attentionné envers tous,
+        capable d’enseigner
+        et de supporter la malveillance ;
+        il doit reprendre avec douceur les opposants,
+        car Dieu leur donnera peut-être de se convertir,
+        de connaître pleinement la vérité :
+        ils retrouveront alors leur bon sens
+        et se dégageront des pièges du diable
+        qui les retient captifs, soumis à sa volonté.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 36 (37), 3-4, 5-6, 30-31
+      refAbbr: 36, 30a
+      chorus:
+      - chorusRef: 36, 30a
+        chorus: Les lèvres du juste redisent la sagesse.
+      content: |-
+        Fais confiance au Seigneur, agis bien,
+        habite la terre et reste fidèle ;
+        mets ta joie dans le Seigneur :
+        il comblera les désirs de ton cœur.
+
+        Dirige ton chemin vers le Seigneur,
+        fais-lui confiance, et lui, il agira.
+        Il fera lever comme le jour ta justice,
+        et ton droit comme le plein midi.
+
+        Les lèvres du juste redisent la sagesse
+        et sa bouche énonce le droit.
+        La loi de son Dieu est dans son cœur ;
+        il va, sans craindre les faux pas.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 17, 20-26
+      headline: « Je veux que là où je suis, ils soient eux aussi avec moi »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là,
+        les yeux levés au ciel, Jésus priait ainsi :
+        « Père saint,
+        je ne prie pas seulement pour ceux qui sont là,
+        mais encore pour ceux qui, grâce à leur parole, croiront en moi.
+        Que tous soient un,
+        comme toi, Père, tu es en moi, et moi en toi.
+        Qu’ils soient un en nous, eux aussi,
+        pour que le monde croie que tu m’as envoyé.
+        Et moi, je leur ai donné la gloire que tu m’as donnée,
+        pour qu’ils soient un comme nous sommes UN :
+        moi en eux, et toi en moi.
+        Qu’ils deviennent ainsi parfaitement un,
+        afin que le monde sache que tu m’as envoyé,
+        et que tu les as aimés comme tu m’as aimé.
+        Père,
+        ceux que tu m’as donnés,
+        je veux que là où je suis,
+        ils soient eux aussi avec moi,
+        et qu’ils contemplent ma gloire,
+        celle que tu m’as donnée
+        parce que tu m’as aimé avant la fondation du monde.
+        Père juste,
+        le monde ne t’a pas connu,
+        mais moi, je t’ai connu,
+        et ceux-ci ont reconnu
+        que tu m’as envoyé,
+        je leur ai fait connaître ton nom,
+        et je le ferai connaître,
+        pour que l’amour dont tu m’as aimé soit en eux,
+        et que moi aussi, je sois en eux. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer:
+  - |-
+    En célébrant la naissance au ciel du bienheureux Irénée,
+    nous t’offrons avec joie, Seigneur, ce sacrifice : *
+    qu’il te rende gloire
+    >et nous obtienne d’aimer la vérité, /
+    >pour garder intacte la foi de l’Église
+    >et inébranlable, son unité.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Jn 15,4-5
+    content: |-
+      Demeurez en moi, comme moi en vous, dit le Seigneur.
+      Celui qui demeure en moi,
+      >et en qui je demeure,
+      celui-là porte beaucoup de fruit.
+  prayerAfterCommunion:
+  - |-
+    Par cette communion à tes mystères,
+    nous t’en prions, Seigneur de miséricorde,
+    augmente en nous la foi : *
+    elle a été la gloire du bienheureux évêque Irénée
+    >qui l’a gardée jusqu’à la mort ; /
+    que cette même foi sincèrement vécue
+    >fasse de nous des justes.
+    Par le Christ, notre Seigneur.

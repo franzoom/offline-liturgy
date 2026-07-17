@@ -49,9 +49,6 @@ readings:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -285,8 +282,10 @@ mass:
         car lui aussi est un fils d’Abraham.
          En effet, le Fils de l’homme est venu chercher et sauver
         ce qui était perdu. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

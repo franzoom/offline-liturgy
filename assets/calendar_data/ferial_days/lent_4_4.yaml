@@ -189,8 +189,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 104,3-4
+    content: |-
+      Joie pour les cœurs qui cherchent Dieu.
+      Cherchez le Seigneur, et vous serez affermis,
+      >recherchez sans trêve sa face.
+  collect:
+  - |-
+    Nous implorons humblement, Seigneur, ta tendresse : +
+    >donne à tes serviteurs, purifiés par la pénitence
+    >et formés par leurs œuvres bonnes, *
+    de persévérer dans tes commandements d’un cœur sincère /
+    >et d’arriver sans dommage aux fêtes de Pâques.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -327,8 +341,39 @@ mass:
         car c’est à mon sujet qu’il a écrit.
          Mais si vous ne croyez pas ses écrits,
         comment croirez-vous mes paroles ? »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Dieu tout-puissant,
+    >toi qui connais notre faiblesse : *
+    >que l’offrande de ce sacrifice /
+    >nous purifie de tout mal et nous protège toujours.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Jr 31,33
+    content: |-
+      Je mettrai ma Loi au plus profond d’eux-mêmes ;
+      >je l’inscrirai sur leur cœur.
+      Je serai leur Dieu,
+      >et ils seront mon peuple, déclare le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Purifie-nous, Seigneur,
+    >par les sacrements que nous avons reçus +
+    >et libère de tout péché ceux qui te servent ; *
+    ils sont liés par la conscience de nos fautes,
+    >qu’ils trouvent notre gloire /
+    >dans la pleine guérison qui vient du ciel.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Seigneur Dieu, défenseur de ceux qui espèrent en toi, +
+    >bénis ton peuple, donne-lui salut et protection, gouverne-le, * afin que, libéré des péchés, hors d’atteinte de l’ennemi, /
+    >il persévère toujours dans ton amour.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

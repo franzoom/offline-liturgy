@@ -7,3 +7,87 @@ celebration:
 
 oration:
   - Seigneur Dieu, tu as voulu que la Mère de ton Fils soit aussi notre Mère ; accorde-nous de persévérer dans la pénitence et la prière pour le salut du monde ; puissions-nous devenir ainsi, de jour en jour, des artisans efficaces du royaume du Christ.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu que la Mère de ton Fils
+    >soit aussi notre Mère ; *
+    accorde-nous de persévérer dans la pénitence et la prière
+    >pour le salut du monde ; /
+    puissions-nous devenir ainsi, de jour en jour,
+    >des artisans efficaces du royaume du Christ.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 61, 9-11
+      headline: « Comme la terre fait éclore son germe »
+      content: |-
+        Les descendants de mon peuple seront connus parmi les nations,
+        et leur postérité, au milieu des peuples.
+        Qui les verra pourra reconnaître
+        la descendance bénie du Seigneur.
+        Je tressaille de joie dans le Seigneur,
+        mon âme exulte en mon Dieu.
+        Car il m’a vêtue des vêtements du salut,
+        il m’a couverte du manteau de la justice,
+        comme le jeune marié orné du diadème,
+        la jeune mariée que parent ses joyaux.
+        Comme la terre fait éclore son germe,
+        et le jardin, germer ses semences,
+        le Seigneur Dieu fera germer la justice et la louange
+        devant toutes les nations.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 44 (45), 11-12, 14-15, 16-17
+      refAbbr: 44, 11a
+      chorus:
+      - chorusRef: 44, 11a
+        chorus: Écoute, ma fille, regarde et tends l’oreille.
+      content: |-
+        Écoute, ma fille, regarde et tends l’oreille ;
+        oublie ton peuple et la maison de ton père :
+        le roi sera séduit par ta beauté.
+        Il est ton Seigneur : prosterne-toi devant lui.
+
+        Fille de roi, elle est là, dans sa gloire,
+        vêtue d’étoffes d’or ;
+        on la conduit, toute parée, vers le roi.
+        Des jeunes filles, ses compagnes, lui font cortège.
+
+        On les conduit parmi les chants de fête :
+        elles entrent au palais du roi.
+        À la place de tes pères se lèveront tes fils ;
+        sur toute la terre tu feras d’eux des princes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 11, 27-28
+      headline: « Heureuse la mère qui t’a porté en elle ! »
+      acclamationAntiphon: |-
+        Heureuse es-tu, sainte Vierge Marie,
+        et digne de toute louange !
+        Car de toi s’est levé le Soleil de justice,
+        le Christ notre Dieu.
+      content: |-
+        En ce temps-là,
+        comme Jésus était en train de parler,
+        une femme éleva la voix au milieu de la foule
+        pour lui dire :
+        « Heureuse la mère qui t’a porté en elle,
+        et dont les seins t’ont nourri ! »
+        Alors Jésus lui déclara :
+        « Heureux plutôt ceux qui écoutent la parole de Dieu,
+        et qui la gardent ! »
+        
+  offeringPrayer: null
+  prefaceList: 
+  - the_blessed_virgin_mary_1
+  - the_blessed_virgin_mary_2
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -182,8 +182,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Sg 10,20-21
+    content: |-
+      D’un seul cœur ils ont chanté
+      >ta main victorieuse, Seigneur :
+      la Sagesse a ouvert la bouche des muets,
+      >et délié la langue des tout-petits, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as uni tant de nations diverses
+    >dans la même confession de ton nom ; *
+    accorde à ceux qui renaissent à la fontaine baptismale
+    >d’avoir au cœur la même foi /
+    >et dans leurs actes le même amour.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   sequence:
   - victimae-paschali-laudes
   readingParts:
@@ -334,9 +350,29 @@ mass:
         à toutes les nations,
         en commençant par Jérusalem.
         À vous d’en être les témoins. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille avec bonté ce sacrifice,
+    >nous t’en prions, Seigneur : +
+    >nous te l’offrons dans l’action de grâce,
+    >pour ceux que tu as fait renaître par le baptême ; *
+    accorde-nous d’obtenir sans tarder /
+    >le secours qui vient du ciel.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. 1P 2,9
+    content: |-
+      Peuple racheté par Dieu,
+      >vous tous, annoncez les merveilles
+      >de celui qui vous a appelés des ténèbres
+      >à son admirable lumière, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Écoute nos prières, Seigneur : *
+    >que cet échange très saint où l’homme est racheté
+    >nous soutienne durant la vie présente /
+    >et nous procure les joies éternelles.
+    Par le Christ, notre Seigneur.
   solemnBlessingList:
   - easter_blessing

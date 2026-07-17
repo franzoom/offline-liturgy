@@ -37,3 +37,126 @@ readings:
         Que le nom de notre Seigneur Jésus Christ
         soit glorifié en vous
         et vous en lui, selon la grâce de notre Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Dieu tout-puissant,
+    >de mieux comprendre et de proclamer fidèlement
+    >la divinité de ton Fils, *
+    que le bienheureux évêque Hilaire /
+    >défendit sans jamais faiblir.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Jn 2, 18-25
+      headline: « Celui qui reconnaît le Fils a aussi le Père »
+      content: |-
+        Mes enfants,
+        c’est la dernière heure
+        et, comme vous l’avez appris,
+        >un anti-Christ, un adversaire du Christ, doit venir ;
+        or, il y a dès maintenant beaucoup d’anti-Christs ;
+        >nous savons ainsi que c’est la dernière heure.
+        Ils sont sortis de chez nous
+        >mais ils n’étaient pas des nôtres ;
+        s’ils avaient été des nôtres,
+        >ils seraient demeurés avec nous.
+        Mais pas un d’entre eux n’est des nôtres,
+        >et cela devait être manifesté.
+        Quant à vous,
+        >c’est de celui qui est saint que vous tenez l’onction,
+        >et vous avez tous la connaissance.
+        Je ne vous ai pas écrit que vous ignorez la vérité,
+        >mais que vous la connaissez,
+        >et que de la vérité ne vient aucun mensonge.
+        Le menteur n’est-il pas celui qui refuse
+        >que Jésus soit le Christ ?
+        Celui-là est l’anti-Christ :
+        >il refuse à la fois le Père et le Fils ;
+        quiconque refuse le Fils
+        >n’a pas non plus le Père ;
+        celui qui reconnaît le Fils
+        >a aussi le Père.
+        Quant à vous, que demeure en vous
+        >ce que vous avez entendu depuis le commencement.
+        Si ce que vous avez entendu depuis le commencement
+        >demeure en vous,
+        vous aussi, vous demeurerez dans le Fils et dans le Père.
+        Et telle est la promesse que lui-même nous a faite :
+        >la vie éternelle.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 109 (110), 1, 2, 3, 4
+      refAbbr: cf. 109, 4
+      chorus:
+      - chorusRef: cf. 109, 4
+        chorus: |-
+          Tu es prêtre à jamais
+          selon l’ordre de Melkisédek.
+      content: |-
+        Oracle du Seigneur à mon seigneur :
+        « Siège à ma droite,
+        et je ferai de tes ennemis
+        le marchepied de ton trône. »
+
+        De Sion, le Seigneur te présente
+        le sceptre de ta force :
+        « Domine jusqu’au cœur de l’ennemi. »
+
+        Le jour où paraît ta puissance,
+        tu es prince, éblouissant de sainteté :
+        « Comme la rosée qui naît de l’aurore,
+        je t’ai engendré. »
+
+        Le Seigneur l’a juré
+        dans un serment irrévocable :
+        « Tu es prêtre à jamais
+        selon l’ordre du roi Melkisédek. »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 13-19
+      headline: « Vous êtes la lumière du monde »
+      acclamationAntiphon: |-
+        Que votre lumière brille devant les hommes :
+        alors, voyant ce que vous faites de bien,
+        ils rendront gloire à votre Père.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Vous êtes le sel de la terre.
+        Mais si le sel devient fade,
+        comment lui rendre de la saveur ?
+        Il ne vaut plus rien :
+        on le jette dehors et il est piétiné par les gens.
+        Vous êtes la lumière du monde.
+        Une ville située sur une montagne
+        ne peut être cachée.
+        Et l’on n’allume pas une lampe
+        pour la mettre sous le boisseau ;
+        on la met sur le lampadaire,
+        et elle brille pour tous ceux qui sont dans la maison.
+        De même, que votre lumière brille devant les hommes :
+        alors, voyant ce que vous faites de bien,
+        ils rendront gloire à votre Père qui est aux cieux.
+        Ne pensez pas que je sois venu abolir la Loi ou les Prophètes :
+        je ne suis pas venu abolir, mais accomplir.
+        Amen, je vous le dis :
+        Avant que le ciel et la terre disparaissent,
+        pas un seul iota, pas un seul trait ne disparaîtra de la Loi
+        jusqu’à ce que tout se réalise.
+        Donc, celui qui rejettera
+        un seul de ces plus petits commandements,
+        et qui enseignera aux hommes à faire ainsi,
+        sera déclaré le plus petit dans le royaume des Cieux.
+        Mais celui qui les observera et les enseignera,
+        celui-là sera déclaré grand dans le royaume des Cieux. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

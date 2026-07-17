@@ -58,8 +58,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Je suis le salut de mon peuple, dit le Seigneur,
+      dans toutes les épreuves, s’il crie vers moi, je l’exaucerai ;
+      >je serai son Seigneur pour toujours.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu que toute la loi de sainteté
+    >consiste à t’aimer et à aimer son prochain : *
+    donne-nous de garder tes commandements, /
+    >et de parvenir ainsi à la vie éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -443,8 +457,40 @@ mass:
         ou bien il haïra l’un et aimera l’autre,
         ou bien il s’attachera à l’un et méprisera l’autre.
         Vous ne pouvez pas servir à la fois Dieu et l’argent. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Reçois favorablement,
+    nous t’en prions, Seigneur,
+    les dons présentés par ton peuple, *
+    afin que tous obtiennent par le sacrement du ciel /
+    >ce qu’ils proclament dans la ferveur de la foi.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 118,4-5
+    content: |-
+      Toi, tu promulgues des préceptes,
+      à observer entièrement.
+      Puissent mes voies s’affermir
+      à observer tes commandements !
+  - biblicalReference: Jn 10,14
+    content: |-
+      Je suis le bon pasteur, dit le Seigneur
+      >je connais mes brebis,
+      >et mes brebis me connaissent.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bonté, Seigneur, +
+    >fais que ton aide soutienne toujours
+    >ceux que tu as nourris de tes sacrements, *
+    afin qu’ils puissent,
+    >dans ces mystères et par toute leur vie, /
+    >recueillir les fruits de la rédemption.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

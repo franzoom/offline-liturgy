@@ -188,8 +188,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Voici que le Seigneur viendra avec splendeur,
+      >pour visiter son peuple dans la paix
+      >et lui donner la vie éternelle.
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant, +
+    >accorde à ton peuple d’attendre avec une grande vigilance
+    >l’avènement de ton Fils unique ; *
+    puissions-nous, comme l’enseigne notre Sauveur,
+    >rester en éveil et nous hâter à sa rencontre /
+    >avec nos lampes allumées.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -262,8 +276,28 @@ mass:
           un ami des publicains et des pécheurs.”
          Mais la sagesse de Dieu a été reconnue juste
           à travers ce qu’elle fait. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Laisse-toi fléchir, Seigneur,
+    >par nos offrandes et nos humbles prières ; *
+    nous ne pouvons pas invoquer nos mérites, /
+    >viens par ta grâce à notre secours.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  communionAntiphon:
+  - biblicalReference: cf. Ph 3,20-21
+    content: |-
+      Nous attendons comme Sauveur le Seigneur Jésus Christ,
+      >lui qui transformera nos pauvres corps
+      >à l’image de son corps glorieux.
+  prayerAfterCommunion:
+  - |-
+    Comblés par cette nourriture spirituelle,
+    >nous te supplions, Seigneur : *
+    quand nous participons à ce mystère,
+    >apprends-nous à évaluer avec sagesse
+    >les réalités de ce monde /
+    >et à nous attacher aux biens du ciel.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

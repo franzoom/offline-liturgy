@@ -46,3 +46,115 @@ vespers:
   evangelicAntiphon:
     common:
     - Heureux le vainqueur entré dans la lumière et dans la paix de son Seigneur !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Dieu tout-puissant,
+    >une force d’âme invincible
+    >pour supporter les épreuves qui viennent du monde, *
+    toi qui as permis au bienheureux Martin, pape et martyr,
+    >d’être sans peur devant les menaces /
+    >et victorieux sous la torture.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2Tm 2, 8-13 ; 3, 10-12
+      headline: « Tous ceux qui veulent vivre en hommes religieux dans le Christ Jésus subiront la persécution »
+      content: |-
+        Bien-aimé,
+        souviens-toi de Jésus Christ,
+        ressuscité d’entre les morts,
+        le descendant de David :
+        voilà mon évangile.
+        C’est pour lui que j’endure la souffrance,
+        jusqu’à être enchaîné comme un malfaiteur.
+        Mais on n’enchaîne pas la parole de Dieu !
+        C’est pourquoi je supporte tout
+        pour ceux que Dieu a choisis,
+        afin qu’ils obtiennent, eux aussi,
+        le salut qui est dans le Christ Jésus,
+        avec la gloire éternelle.
+        Voici une parole digne de foi :
+        Si nous sommes morts avec lui,
+        avec lui nous vivrons.
+        Si nous supportons l’épreuve,
+        avec lui nous régnerons.
+        Si nous le rejetons,
+        lui aussi nous rejettera.
+        Si nous manquons de foi,
+        lui reste fidèle à sa parole,
+        car il ne peut se rejeter lui-même.
+        Toi, tu m’as suivi pas à pas
+        dans l’enseignement, la manière de diriger et les projets,
+        dans la foi, la patience, la charité et la persévérance,
+        dans les persécutions et les souffrances,
+        celles qui me sont arrivées à Antioche, à Iconium et à Lystres,
+        toutes les persécutions que j’ai subies.
+        Et de tout cela le Seigneur m’a délivré.
+        D’ailleurs, tous ceux qui veulent vivre
+        en hommes religieux dans le Christ Jésus
+        subiront la persécution.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: 125, 1…
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 18-21
+      headline: « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+      acclamationAntiphon: |-
+        À toi, Dieu, notre louange !
+        Toi, dont témoignent les martyrs,
+        nous t’acclamons : tu es Seigneur !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Si le monde a de la haine contre vous,
+        sachez qu’il en a eu d’abord contre moi.
+        Si vous apparteniez au monde,
+        le monde aimerait ce qui est à lui.
+        Mais vous n’appartenez pas au monde,
+        puisque je vous ai choisis en vous prenant dans le monde ;
+        voilà pourquoi le monde a de la haine contre vous.
+        Rappelez-vous la parole que je vous ai dite :
+        un serviteur n’est pas plus grand que son maître.
+        Si l’on m’a persécuté,
+        on vous persécutera, vous aussi.
+        Si l’on a gardé ma parole,
+        on gardera aussi la vôtre.
+        Les gens vous traiteront ainsi à cause de mon nom,
+        parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

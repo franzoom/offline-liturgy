@@ -428,6 +428,10 @@
     "dir": "ferial_days",
     "title": "5ème jour dans l’octave de la Nativité"
   },
+  "christmas_2_0": {
+    "dir": "ferial_days",
+    "title": "Deuxième dimanche après la Nativité"
+  },
   "christmas_30": {
     "color": "white",
     "commons": [
@@ -1447,8 +1451,8 @@
   "roman/agatha_of_sicily_virgin": {
     "color": "red",
     "commons": [
-      "virgins",
-      "martyr_female_virgin"
+      "martyr_female_virgin",
+      "virgins"
     ],
     "dir": "sanctoral",
     "title": "Sainte Agathe"
@@ -1456,8 +1460,8 @@
   "roman/agnes_of_rome_virgin": {
     "color": "red",
     "commons": [
-      "virgins",
-      "martyr_female"
+      "virgin_martyr_female",
+      "virgins"
     ],
     "dir": "sanctoral",
     "title": "Sainte Agnès"
@@ -1803,7 +1807,7 @@
   "roman/catherine_of_alexandria_virgin": {
     "color": "red",
     "commons": [
-      "martyrs_female_virgin",
+      "martyr_female_virgin",
       "virgins"
     ],
     "dir": "sanctoral",
@@ -1821,7 +1825,7 @@
   "roman/cecilia_of_rome_virgin": {
     "color": "red",
     "commons": [
-      "martyr_female_virgins",
+      "martyr_female_virgin",
       "virgins"
     ],
     "dir": "sanctoral",
@@ -2003,14 +2007,6 @@
     "title": "Saint Dominique"
   },
   "roman/elizabeth_of_hungary_religious": {
-    "color": "white",
-    "commons": [
-      "saints-female_caritative"
-    ],
-    "dir": "sanctoral",
-    "title": "Sainte Élisabeth de Hongrie"
-  },
-  "roman/elizabeth_of_hungary_religious copy": {
     "color": "white",
     "commons": [
       "saints-female_caritative"
@@ -2358,7 +2354,7 @@
   "roman/john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs": {
     "color": "red",
     "commons": [
-      "martyrs"
+      "martyrs_missionnaries"
     ],
     "dir": "sanctoral",
     "title": "Saints Jean de Brébeuf et Isaac Jogues, prêtres, et leurs compagnons"
@@ -2415,6 +2411,15 @@
     "dir": "sanctoral",
     "title": "Saint Jean-Marie Vianney"
   },
+  "roman/john_of_avila": {
+    "color": "white",
+    "commons": [
+      "pastors",
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean d’Avila"
+  },
   "roman/john_of_capistrano_priest": {
     "color": "white",
     "commons": [
@@ -2464,15 +2469,6 @@
     "title": "Saint Jean XXIII"
   },
   "roman/josaphat_kuntsevych_bishop": {
-    "color": "red",
-    "commons": [
-      "pastors_bishop",
-      "martyr"
-    ],
-    "dir": "sanctoral",
-    "title": "Saint Josaphat"
-  },
-  "roman/josaphat_kuntsevych_bishop copy": {
     "color": "red",
     "commons": [
       "pastors_bishop",
@@ -2575,7 +2571,7 @@
   "roman/lucy_of_syracuse_virgin": {
     "color": "red",
     "commons": [
-      "martyrs_female_virgin",
+      "martyr_female_virgin",
       "virgins"
     ],
     "dir": "sanctoral",
@@ -2616,7 +2612,7 @@
   "roman/maria_goretti_virgin": {
     "color": "red",
     "commons": [
-      "martyr",
+      "martyr_female_virgin",
       "virgins"
     ],
     "dir": "sanctoral",

@@ -207,8 +207,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Is 9,2
+    content: |-
+      Le peuple qui marchait dans les ténèbres
+      >a vu se lever une grande lumière ;
+      et sur les habitants du pays de l’ombre de la mort
+      >une lumière a resplendi.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >toi qui éclaires toutes les nations, *
+    >accorde aux peuples de la terre
+    >la joie de vivre toujours en paix, /
+    et diffuse en nos cœurs cette admirable lumière
+    >que tu as répandue sur nos pères dans la foi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -308,8 +324,32 @@ mass:
         ils étaient au comble de la stupeur,
         car ils n’avaient rien compris au sujet des pains :
         leur cœur était endurci.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu,
+    >source de la piété véritable et de la paix, +
+    >nous t’en prions, accorde-nous
+    d’honorer dignement ta gloire par cette offrande, *
+    >que, dans la participation fidèle aux saints mystères,
+    >nous prenions davantage conscience de notre unité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - epiphany
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: 1Jn 1,2
+    content: |-
+      La vie, qui était auprès du Père, s’est manifestée
+      >et nous est apparue.
+  prayerAfterCommunion:
+  - |-
+    Ton peuple, Seigneur, a besoin de multiples secours
+    >pour sa traversée d’ici-bas ; +
+    que ta tendresse lui accorde ceux de la vie présente
+    >comme ceux de la vie future : *
+    trouvant alors le réconfort nécessaire dans les choses qui passent, /
+    >il recherchera les biens éternels avec plus de confiance.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

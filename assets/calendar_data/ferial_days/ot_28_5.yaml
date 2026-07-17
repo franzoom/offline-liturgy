@@ -46,9 +46,6 @@ readings:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -187,8 +184,10 @@ mass:
          À plus forte raison les cheveux de votre tête sont tous comptés.
         Soyez sans crainte :
         vous valez plus qu’une multitude de moineaux. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

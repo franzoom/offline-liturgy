@@ -190,8 +190,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 67,8-9
+    content: |-
+      Dieu, quand tu sortis en avant de ton peuple,
+      quand tu marchas dans le désert, la terre trembla,
+      >les cieux même fondirent devant la face de Dieu, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >tu relèves la nature humaine
+    >bien au-dessus de sa condition originelle ; +
+    souviens-toi de l’ineffable mystère de ton amour : *
+    garde en ta grâce et ta bénédiction/
+    >ceux que le sacrement de la nouvelle naissance a régénérés
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -299,8 +314,27 @@ mass:
         Amen, amen, je vous le dis :
         si quelqu’un reçoit celui que j’envoie, il me reçoit moi-même ;
         et celui qui me reçoit, reçoit Celui qui m’a envoyé. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Que nos prières montent vers toi, Seigneur,
+    avec ces offrandes pour le sacrifice ; *
+    dans ta bonté purifie-nous, /
+    >et nous serons mieux préparés
+    >au sacrement de ton grand amour.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Mt 28,20
+    content: |-
+      Je suis avec vous tous les jours,
+      >jusqu’à la fin du monde, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >dans la résurrection du Christ,
+    >tu nous recrées pour la vie éternelle ; *
+    multiplie en nous les fruits du sacrement pascal : /
+    >répands en nos cœurs la force
+    >de cette nourriture qui apporte le salut.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

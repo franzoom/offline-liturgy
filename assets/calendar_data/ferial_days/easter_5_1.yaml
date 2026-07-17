@@ -191,8 +191,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Le bon Pasteur est ressuscité,
+      >lui qui a donné sa vie pour ses brebis,
+      >lui qui a choisi de mourir pour son troupeau, alléluia.
+  collect:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >entoure ta famille
+    >et soutiens-la toujours de ta droite, *
+    afin que, par la résurrection de ton Fils unique,
+    elle soit préservée de tout égarement /
+    et recherche les dons du ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -317,8 +332,28 @@ mass:
         l’Esprit Saint que le Père enverra en mon nom,
         lui, vous enseignera tout,
         et il vous fera souvenir de tout ce que je vous ai dit. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Que nos prières montent vers toi, Seigneur,
+    avec ces offrandes pour le sacrifice ; *
+    dans ta bonté purifie-nous, /
+    >et nous serons mieux préparés
+    >au sacrement de ton amour infini.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 14,27
+    content: |-
+      Je vous laisse la paix, je vous donne ma paix ;
+      ce n’est pas à la manière du monde que je vous la donne,
+      >dit le Seigneur, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >dans la résurrection du Christ,
+    >tu nous recrées pour la vie éternelle ; *
+    multiplie en nous les fruits du sacrement pascal : /
+    >répands en nos cœurs la force
+    >de cette nourriture qui apporte le salut.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

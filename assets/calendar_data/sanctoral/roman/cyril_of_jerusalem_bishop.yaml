@@ -9,7 +9,7 @@ celebration:
   color: white
 
 oration:
-- Seigneur, tu as permis que ton Eglise pénètre davantage les mystères du salut grâce à l’enseignement de saint Cyrille, évêque de Jérusalem; accorde-nous, par son intercession, de si bien connaître ton Fils que nous vivions plus intensément de sa vie.
+- Seigneur, tu as permis que ton Église pénètre davantage les mystères du salut grâce à l’enseignement de saint Cyrille, évêque de Jérusalem; accorde-nous, par son intercession, de si bien connaître ton Fils que nous vivions plus intensément de sa vie.
 
 readings:
   patristicReading:
@@ -38,3 +38,125 @@ morning:
   evangelicAntiphon:
     common:
     - Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >par l’enseignement du bienheureux évêque Cyrille de Jérusalem,
+    >tu as conduit ton Église d’une manière admirable
+    >vers une intelligence plus profonde des mystères du salut ;*
+    accorde-nous, par son intercession,
+    >de si bien connaître ton Fils /
+    >que nous vivions plus intensément de sa vie.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Jn 5, 1-5
+      headline: « Ce qui nous fait vaincre le monde, c’est notre foi »
+      content: |-
+        Bien-aimés,
+        celui qui croit que Jésus est le Christ,
+        >celui-là est né de Dieu ;
+        celui qui aime le Père qui a engendré
+        >aime aussi le Fils qui est né de lui.
+        Voici comment nous reconnaissons
+        >que nous aimons les enfants de Dieu :
+        lorsque nous aimons Dieu
+        >et que nous accomplissons ses commandements.
+        Car tel est l’amour de Dieu :
+        >garder ses commandements ;
+        et ses commandements ne sont pas un fardeau,
+        >puisque tout être qui est né de Dieu
+        >est vainqueur du monde.
+        Or la victoire remportée sur le monde,
+        >c’est notre foi.
+        Qui donc est vainqueur du monde ?
+        N’est-ce pas celui qui croit
+        >que Jésus est le Fils de Dieu ?
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 18B (19), 8, 9, 10, 11
+      refAbbr: 18B, 10cd
+      chorus:
+      - chorusRef: 18B, 10cd
+        chorus: |-
+          Les décisions du Seigneur sont justes
+          et vraiment équitables.
+      - chorusRef: cf. Jn 6, 63c
+        chorus: |-
+          ou : Tes paroles, Seigneur, sont esprit
+          et elles sont vie.
+      content: |-
+        La loi du Seigneur est parfaite,
+        qui redonne vie ;
+        la charte du Seigneur est sûre,
+        qui rend sages les simples.
+
+        Les préceptes du Seigneur sont droits,
+        ils réjouissent le cœur ;
+        le commandement du Seigneur est limpide,
+        il clarifie le regard.
+
+        La crainte qu’il inspire est pure,
+        elle est là pour toujours ;
+        les décisions du Seigneur sont justes
+        et vraiment équitables :
+
+        plus désirables que l’or,
+        qu’une masse d’or fin,
+        plus savoureuses que le miel
+        qui coule des rayons.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 1-8
+      headline: « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Moi, je suis la vraie vigne,
+        et mon Père est le vigneron.
+        Tout sarment qui est en moi,
+        mais qui ne porte pas de fruit,
+        mon Père l’enlève ;
+        tout sarment qui porte du fruit,
+        il le purifie en le taillant,
+        pour qu’il en porte davantage.
+        Mais vous, déjà vous voici purifiés
+        grâce à la parole que je vous ai dite.
+        Demeurez en moi, comme moi en vous.
+        De même que le sarment
+        ne peut pas porter de fruit par lui-même
+        s’il ne demeure pas sur la vigne,
+        de même vous non plus,
+        si vous ne demeurez pas en moi.
+        Moi, je suis la vigne,
+        et vous, les sarments.
+        Celui qui demeure en moi
+        et en qui je demeure,
+        celui-là porte beaucoup de fruit,
+        car, en dehors de moi, vous ne pouvez rien faire.
+        Si quelqu’un ne demeure pas en moi,
+        il est, comme le sarment, jeté dehors,
+        et il se dessèche.
+        Les sarments secs, on les ramasse,
+        on les jette au feu, et ils brûlent.
+        Si vous demeurez en moi,
+        et que mes paroles demeurent en vous,
+        demandez tout ce que vous voulez,
+        et cela se réalisera pour vous.
+        Ce qui fait la gloire de mon Père,
+        c’est que vous portiez beaucoup de fruit
+        et que vous soyez pour moi des disciples. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

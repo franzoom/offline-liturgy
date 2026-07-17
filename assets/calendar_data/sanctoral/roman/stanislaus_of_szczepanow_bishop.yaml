@@ -46,3 +46,109 @@ vespers:
   evangelicAntiphon:
     common:
     - Heureux le vainquerur, entrée dans la lumière et dans la paix de son Seigneur !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >pour l’honneur de ton nom,
+    l’évêque saint Stanislas
+    >est tombé sous les coups de ses persécuteurs ; *
+    accorde-nous la force de persévérer jusqu’à la mort, /
+    >fermes dans la foi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ap 12, 10-12a
+      headline: « Détachés de leur propre vie, ils sont allés jusqu’à mourir »
+      content: |-
+        Moi, Jean,
+        j’ai entendu dans le ciel une voix forte,
+        qui proclamait :
+        >« Maintenant voici le salut,
+        >la puissance et le règne de notre Dieu,
+        >voici le pouvoir de son Christ !
+        Car il est rejeté, l’accusateur de nos frères,
+        >lui qui les accusait, jour et nuit,
+        >devant notre Dieu.
+        Eux-mêmes l’ont vaincu par le sang de l’Agneau,
+        >par la parole dont ils furent les témoins ;
+        >détachés de leur propre vie,
+        >ils sont allés jusqu’à mourir.
+        Cieux, soyez donc dans la joie,
+        >et vous qui avez aux cieux votre demeure ! »
+        >Parole du Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 17, 11b-19
+      headline: « Le monde les a pris en haine »
+      acclamationAntiphon: |-
+        Béni soit le Père plein de tendresse,
+        le Dieu de qui vient tout réconfort.
+        Dans toutes nos détresses, il nous réconforte.
+      content: |-
+        En ce temps-là, les yeux levés au ciel, Jésus priait ainsi :
+        « Père saint,
+        garde mes disciples unis dans ton nom,
+        le nom que tu m’as donné,
+        pour qu’ils soient un, comme nous-mêmes.
+        Quand j’étais avec eux,
+        je les gardais unis dans ton nom, le nom que tu m’as donné.
+        J’ai veillé sur eux, et aucun ne s’est perdu,
+        sauf celui qui s’en va à sa perte
+        de sorte que l’Écriture soit accomplie.
+        Et maintenant que je viens à toi,
+        je parle ainsi, dans le monde,
+        pour qu’ils aient en eux ma joie,
+        et qu’ils en soient comblés.
+        Moi, je leur ai donné ta parole,
+        et le monde les a pris en haine
+        parce qu’ils n’appartiennent pas au monde,
+        de même que moi je n’appartiens pas au monde.
+        Je ne prie pas pour que tu les retires du monde,
+        mais pour que tu les gardes du Mauvais.
+        Ils n’appartiennent pas au monde,
+        de même que moi, je n’appartiens pas au monde.
+        Sanctifie-les dans la vérité :
+        ta parole est vérité.
+        De même que tu m’as envoyé dans le monde,
+        moi aussi, je les ai envoyés dans le monde.
+        Et pour eux je me sanctifie moi-même,
+        afin qu’ils soient, eux aussi, sanctifiés dans la vérité. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

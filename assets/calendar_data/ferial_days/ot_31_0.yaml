@@ -56,8 +56,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 37,22-23
+    content: |-
+      Ne m’abandonne jamais, Seigneur,
+      >mon Dieu, ne sois pas loin de moi.
+      Viens vite à mon aide,
+      >Seigneur, force de mon salut !
+  collect:
+  - |-
+    Dieu de puissance et de miséricorde, +
+    >c’est ta grâce qui donne à tes fidèles
+    >de pouvoir dignement te servir ; *
+    nous t’en prions : accorde-nous
+    >de courir sans que rien ne nous arrête /
+    >vers les biens que tu promets.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -415,8 +431,36 @@ mass:
         car lui aussi est un fils d’Abraham.
          En effet, le Fils de l’homme est venu chercher et sauver
         ce qui était perdu. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur, que ce sacrifice
+    devienne pour toi une offrande pure, /
+    et pour nous, le don généreux et saint de ta miséricorde.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 15,11
+    content: |-
+      Tu m’apprends, Seigneur, le chemin de la vie :
+      >devant ta face, débordement de joie !
+  - biblicalReference: Jn 6,57
+    content: |-
+      De même que le Père, qui est vivant, m’a envoyé,
+      >et que moi, je vis par le Père,
+      >de même aussi celui qui me mange
+      >vivra par moi, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >que grandisse en nous la force de ton action, *
+    >afin que, renouvelés par les sacrements du ciel,
+    >nous soyons préparés par ta grâce /
+    >à recevoir les biens qu’ils promettent.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

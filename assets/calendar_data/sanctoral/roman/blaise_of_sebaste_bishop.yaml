@@ -32,3 +32,92 @@ readings:
 
         Nous sommes passés de la mort à la vie,
         puisque nous aimons nos frères.
+
+mass:
+- massType: day_mass
+  note: Commun des martyrs, p. 739, ou des pasteurs, p. 762.
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur, exauce la supplication de ton peuple
+    >qui se confie à la protection
+    >du bienheureux Blaise ton martyr ; *
+    donne-nous la joie de vivre aujourd’hui dans la paix /
+    >et de trouver les secours pour atteindre la vie éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 5, 1-5
+      headline: « Nous mettons notre fierté dans la détresse elle-même »
+      content: |-
+        Frères,
+        nous qui sommes devenus justes par la foi,
+        nous voici en paix avec Dieu
+        >par notre Seigneur Jésus Christ,
+        lui qui nous a donné, par la foi,
+        >l’accès à cette grâce
+        >dans laquelle nous sommes établis ;
+        et nous mettons notre fierté
+        >dans l’espérance d’avoir part à la gloire de Dieu.
+        Bien plus, nous mettons notre fierté
+        >dans la détresse elle-même,
+        puisque la détresse, nous le savons, produit la persévérance ;
+        >la persévérance produit la vertu éprouvée ;
+        >la vertu éprouvée produit l’espérance ;
+        et l’espérance ne déçoit pas,
+        >puisque l’amour de Dieu a été répandu dans nos cœurs
+        >par l’Esprit Saint qui nous a été donné.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 116 (117), 1, 2
+      refAbbr: Mc 16, 15
+      chorus:
+      - chorusRef: Mc 16, 15
+        chorus: |-
+          Allez dans le monde entier.
+          Proclamez l’Évangile.
+          ou : Alléluia !
+      content: |-
+        Louez le Seigneur, tous les peuples ;
+        fêtez-le, tous les pays !
+
+        Son amour envers nous s’est montré le plus fort ;
+        éternelle est la fidélité du Seigneur !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 16, 15-20
+      headline: « Allez dans le monde entier. Proclamez l’Évangile à toute la création »
+      acclamationAntiphon: |-
+        Allez ! De toutes les nations faites des disciples, dit le Seigneur.
+        Moi, je suis avec vous tous les jours
+        jusqu’à la fin du monde.
+      content: |-
+        En ce temps-là,
+        Jésus ressuscité se manifesta aux onze Apôtres et leur dit :
+        >« Allez dans le monde entier.
+        Proclamez l’Évangile à toute la création.
+        Celui qui croira et sera baptisé sera sauvé ;
+        >celui qui refusera de croire sera condamné.
+        Voici les signes qui accompagneront
+        >ceux qui deviendront croyants :
+        >en mon nom, ils expulseront les démons ;
+        >ils parleront en langues nouvelles ;
+        >ils prendront des serpents dans leurs mains
+        >et, s’ils boivent un poison mortel,
+        >il ne leur fera pas de mal ;
+        >ils imposeront les mains aux malades,
+        >et les malades s’en trouveront bien. »
+        Le Seigneur Jésus,
+        >après leur avoir parlé,
+        fut enlevé au ciel
+        >et s’assit à la droite de Dieu.
+        Quant à eux,
+        >ils s’en allèrent proclamer partout l’Évangile.
+        Le Seigneur travaillait avec eux
+        >et confirmait la Parole par les signes qui l’accompagnaient.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

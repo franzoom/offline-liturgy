@@ -1,8 +1,7 @@
 celebration:
   title: 20 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Clef de David, sceptre de la maison d’Israël »
+  description: « Ô Clef de David, sceptre de la maison d’Israël »
   color: violet
 oration:
 - Tu as voulu, Seigneur, qu’à l’annonce de l’ange la Vierge accueille ton Verbe éternel, qu’elle soit remplie de la lumière de l’Esprit-Saint et devienne le temple du Très-Haut ; aide-nous à devenir assez humbles pour faire comme elle ta volonté.
@@ -122,8 +121,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 11,1; 40,5; Lc 3,6
+    content: |-
+      Un rameau sortira de la souche de Jessé,
+      >la gloire du Seigneur remplira toute la terre,
+      >et tout être de chair verra le salut de Dieu.
+  collect:
+  - |-
+    Dieu d’éternelle majesté, +
+    >à l’annonce de l’Ange,
+    >la Vierge immaculée accueillit ton Verbe indicible,
+    >et, devenue la demeure de Dieu,
+    >elle fut remplie de la lumière de l’Esprit Saint ; *
+    nous te demandons qu’à son exemple /
+    >nous puissions nous attacher humblement à ta volonté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -225,8 +240,27 @@ mass:
          que tout m’advienne selon ta parole. »
 
         Alors l’ange la quitta.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >regarde ce sacrifice unique, *
+    et, par notre communion à ce mystère,
+    >accorde-nous de recevoir les biens que nous attendons /
+    >et que notre foi nous donne d’espérer.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: Lc 1,31
+    content: |-
+      L’Ange dit à Marie :
+      >Voici que tu vas concevoir et enfanter un fils ;
+      >tu lui donneras le nom de Jésus.
+  prayerAfterCommunion:
+  - |-
+    Ceux que tu renouvelles par le don venu du ciel,
+    >garde-les, Seigneur, en ta divine protection : *
+    qu’ils trouvent, en communiant à tes mystères, /
+    >la joie dans la paix véritable.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

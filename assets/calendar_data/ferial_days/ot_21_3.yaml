@@ -52,9 +52,6 @@ readings:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -188,8 +185,10 @@ mass:
          Ainsi, vous témoignez contre vous-mêmes :
         vous êtes bien les fils de ceux qui ont assassiné les prophètes.
          Vous donc, mettez le comble à la mesure de vos pères ! »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

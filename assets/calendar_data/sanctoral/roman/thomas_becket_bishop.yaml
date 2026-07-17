@@ -39,3 +39,123 @@ vespers:
   evangelicAntiphon:
     common:
     - Heureux le vainquerur, entrée dans la lumière et dans la paix de son Seigneur !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à saint Thomas Becket, ton martyr,
+    >une telle grandeur d’âme
+    >qu’il sacrifia sa vie pour la justice ; *
+    accorde-nous, par son intercession,
+    >de perdre, pour le Christ, notre vie en ce monde /
+    >afin de pouvoir la trouver dans le ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Tm 2, 8-13; 3, 10-12
+      headline: « Tous ceux qui veulent vivre en hommes religieux dans le Christ Jésus subiront la persécution »
+      content: |-
+        Bien-aimé,
+        souviens-toi de Jésus Christ,
+        ressuscité d’entre les morts,
+        le descendant de David :
+        voilà mon évangile.
+        C’est pour lui que j’endure la souffrance,
+        jusqu’à être enchaîné comme un malfaiteur.
+        Mais on n’enchaîne pas la parole de Dieu !
+        C’est pourquoi je supporte tout
+        pour ceux que Dieu a choisis,
+        afin qu’ils obtiennent, eux aussi,
+        le salut qui est dans le Christ Jésus,
+        avec la gloire éternelle.
+        Voici une parole digne de foi :
+        Si nous sommes morts avec lui,
+        avec lui nous vivrons.
+        Si nous supportons l’épreuve,
+        avec lui nous régnerons.
+        Si nous le rejetons,
+        lui aussi nous rejettera.
+        Si nous manquons de foi,
+        lui reste fidèle à sa parole,
+        car il ne peut se rejeter lui-même.
+        Toi, tu m’as suivi pas à pas
+        dans l’enseignement, la manière de diriger et les projets,
+        dans la foi, la patience, la charité et la persévérance,
+        dans les persécutions et les souffrances,
+        celles qui me sont arrivées à Antioche, à Iconium et à Lystres,
+        toutes les persécutions que j’ai subies.
+        Et de tout cela le Seigneur m’a délivré.
+        D’ailleurs, tous ceux qui veulent vivre
+        en hommes religieux dans le Christ Jésus
+        subiront la persécution.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+      refAbbr: 33, 2a
+      chorus:
+      - chorusRef: 33, 2a
+        chorus: Je bénirai le Seigneur en tout temps.
+      - chorusRef: cf. 33, 9a
+        chorus: |-
+          Goûtez et voyez
+          comme est bon le Seigneur.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+
+        Saints du Seigneur, adorez-le :
+        rien ne manque à ceux qui le craignent.
+        Des riches ont tout perdu, ils ont faim ;
+        qui cherche le Seigneur ne manquera d’aucun bien.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 16, 24-27
+      headline: « Qui perd sa vie à cause de moi la trouvera »
+      acclamationAntiphon: |-
+        Heureux ceux qui ont faim et soif de la justice,
+        car ils seront rassasiés !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Si quelqu’un veut marcher à ma suite,
+        qu’il renonce à lui-même,
+        qu’il prenne sa croix
+        et qu’il me suive.
+        Car celui qui veut sauver sa vie
+        la perdra,
+        mais qui perd sa vie à cause de moi
+        la trouvera.
+        Quel avantage, en effet, un homme aura-t-il
+        à gagner le monde entier,
+        si c’est au prix de sa vie ?
+        Et que pourra-t-il donner en échange de sa vie ?
+        Car le Fils de l’homme va venir avec ses anges
+        dans la gloire de son Père ;
+        alors il rendra à chacun selon sa conduite. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

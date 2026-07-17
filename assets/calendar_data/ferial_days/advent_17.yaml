@@ -1,8 +1,7 @@
 celebration:
   title: 17 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Sagesse sortie de la bouche du Très-Haut »
+  description: « Ô Sagesse sortie de la bouche du Très-Haut »
   color: violet
 oration:
 - |-
@@ -139,8 +138,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 49,13
+    content: |-
+      Cieux, criez de joie ! Terre, exulte !
+      car le Seigneur vient ;
+      de ses pauvres, il a compassion.
+  collect:
+  - |-
+    Dieu, créateur et rédempteur du genre humain, +
+    >tu as voulu que ton Verbe prenne chair
+    >dans le sein de Marie toujours vierge ; *
+    sois favorable à notre prière : /
+    >que ton Fils unique, qui a pris notre humanité,
+    >nous donne part à sa vie divine.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -258,8 +271,26 @@ mass:
          depuis Abraham jusqu’à David, quatorze générations ;
          depuis David jusqu’à l’exil à Babylone, quatorze générations ;
          depuis l’exil à Babylone jusqu’au Christ, quatorze générations.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Sanctifie, Seigneur, les dons de ton Église, *
+    >et accorde-nous, dans ces mystères que nous vénérons, /
+    >le pain du ciel qui refera nos forces.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: cf. Ag 2,8 (Vg)
+    content: |-
+      Il vient, celui que tous les peuples attendent ;
+      >la maison du Seigneur va se remplir de gloire.
+  prayerAfterCommunion:
+  - |-
+    Rassasiés par le don qui vient de toi,
+    >nous te prions, Dieu tout-puissant : *
+    entretiens en nous le désir
+    >de brûler au feu de ton Esprit /
+    pour briller comme de vives lumières
+    >lorsque viendra le Christ.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

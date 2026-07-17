@@ -148,8 +148,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 17,5a.6a.7a.c
+    content: |-
+      Les angoisses de la mort m’entouraient,
+      les douleurs des enfers m’étreignaient ;
+      >dans mon épreuve, j’appelai le Seigneur ;
+      de son temple saint, il a entendu ma voix.
+  collect:
+  - |-
+    Seigneur, nous t’en prions :*
+    >dirige nos cœurs par l’action de ta miséricorde,/
+    >par l’action de ta tendresse, /
+    car sans toi, il nous est impossible de te plaire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -240,8 +254,37 @@ mass:
         Cherche bien, et tu verras
         que jamais aucun prophète ne surgit de Galilée ! »
         Puis ils s’en allèrent chacun chez soi.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille nos offrandes, Seigneur, Dieu de paix ; *
+    >et même si nos volontés se rebellent, /
+    >en ta bonté, tourne-les vers toi.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: cf. 1P 1,18-19
+    content: |-
+      Nous avons été rachetés par un sang précieux,
+      celui de l’Agneau sans défaut et sans tache,
+      >le Christ.
+  prayerAfterCommunion:
+  - |-
+    Que tes saints mystères nous purifient, Seigneur : *
+    qu’ils agissent en nous /
+    pour nous rendre agréables à tes yeux.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Regarde ton peuple, Seigneur,
+    >tandis qu’il se hâte au-devant des fêtes qui approchent ; *
+    que ta grâce généreuse l’accompagne,
+    >afin qu’il trouve dans les réconforts visibles /
+    une aide pour s’élancer avec plus d’ardeur
+    >vers les biens invisibles.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

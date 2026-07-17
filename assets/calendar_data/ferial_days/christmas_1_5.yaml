@@ -57,3 +57,49 @@ vespers:
     - psalm: NT_11
       antiphon:
         - Toi seul est saint, toi seul es le Seigneur !
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 111,4
+    content: |-
+      Lumière des cœurs droits, il s’est levé dans les ténèbres,
+      >le Seigneur de justice, de tendresse et de pitié.
+  collect:
+  - |-
+    Dans ta bonté, Seigneur, +
+    >sois la lumière de tes fidèles ; *
+    >éclaire toujours leurs cœurs par la splendeur de ta gloire,
+    pour qu’ils ne cessent de reconnaître leur Sauveur /
+    >et s’attachent à lui en toute vérité.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts: null
+  offeringPrayer:
+  - |-
+    Reçois favorablement, Seigneur,
+    >les dons présentés par ton peuple, *
+    que tous obtiennent par tes sacrements /
+    >ce qu’ils proclament dans la ferveur de la foi.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: 1Jn 4,9
+    content: |-
+      Voici comment l’amour de Dieu s’est manifesté parmi nous :
+      >Dieu a envoyé son Fils unique dans le monde
+      >pour que nous vivions par lui.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >toi qui viens jusqu’à nous
+    >quand nous participons à ce sacrement, *
+    produis en nos cœurs les fruits de ce mystère,
+    >pour que tes propres dons nous préparent
+    >à recevoir ce que tu nous donnes.
+    Par le Christ, notre Seigneur.
+  solemnBlessingList: null

@@ -40,3 +40,108 @@ vespers:
     common:
     - |-
       Vous avez tout quitté et vous m’avez suivi, recevez le centuple : héritez la vie éternelle.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >en sainte Françoise Romaine,
+    >tu nous as donné l’exemple remarquable
+    >d’une vie conjugale, puis monastique ; *
+    garde-nous toujours fidèles à te servir,
+    >afin que nous sachions te reconnaître et te suivre
+    >dans toutes les circonstances de la vie.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Pr 31, 10-13.19-20.30-31
+      headline: « Seule, la femme qui craint le Seigneur mérite la louange »
+      content: |-
+        Une femme parfaite, qui la trouvera ?
+        Elle est précieuse plus que les perles !
+        Son mari peut lui faire confiance :
+        >il ne manquera pas de ressources.
+        Elle fait son bonheur, et non pas sa ruine,
+        >tous les jours de sa vie.
+        Elle sait choisir la laine et le lin,
+        >et ses mains travaillent volontiers.
+        Elle tend la main vers la quenouille,
+        >ses doigts dirigent le fuseau.
+        Ses doigts s’ouvrent en faveur du pauvre,
+        >elle tend la main au malheureux.
+        Le charme est trompeur et la beauté s’évanouit ;
+        >seule, la femme qui craint le Seigneur mérite la louange.
+        Célébrez-la pour les fruits de son travail :
+        >et qu’aux portes de la ville, ses œuvres disent sa louange !
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+      refAbbr: 33, 2a
+      chorus:
+      - chorusRef: 33, 2a
+        chorus: Je bénirai le Seigneur en tout temps.
+      - chorusRef: cf. 33, 9a
+        chorus: |-
+          ou : Goûtez et voyez
+          comme est bon le Seigneur.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+
+        Saints du Seigneur, adorez-le :
+        rien ne manque à ceux qui le craignent.
+        Des riches ont tout perdu, ils ont faim ;
+        qui cherche le Seigneur ne manquera d’aucun bien.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 22, 34-40
+      headline: « Tu aimeras le Seigneur ton Dieu, et ton prochain comme toi-même »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        les pharisiens,
+        apprenant que Jésus avait fermé la bouche aux sadducéens,
+        se réunirent,
+        et l’un d’entre eux, un docteur de la Loi, posa une question à Jésus
+        pour le mettre à l’épreuve :
+        « Maître, dans la Loi,
+        quel est le grand commandement ? »
+        Jésus lui répondit :
+        « Tu aimeras le Seigneur ton Dieu
+        de tout ton cœur,
+        de toute ton âme et de tout ton esprit.
+        Voilà le grand, le premier commandement.
+        Et le second lui est semblable :
+        Tu aimeras ton prochain comme toi-même.
+        De ces deux commandements dépend toute la Loi,
+        ainsi que les Prophètes. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

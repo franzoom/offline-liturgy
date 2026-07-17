@@ -181,8 +181,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 17,50; 21.23
+    content: |-
+      Je te rendrai grâce parmi les peuples, Seigneur ;
+      >je proclamerai ton nom devant mes frères, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >tu es la vie de tes fidèles, la gloire des humbles
+    >et le bonheur des justes ; +
+    dans ta bienveillance,
+    >écoute ceux qui te prient : *
+    ils ont soif des biens que tu promets, /
+    >comble-les toujours de l’abondance de ta grâce.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -267,8 +282,28 @@ mass:
         et je sais que son commandement est vie éternelle.
         Donc, ce que je déclare,
         je le déclare comme le Père me l’a dit. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Seigneur notre Dieu, +
+    >dans l’admirable échange du sacrifice eucharistique,
+    >tu nous fais participer à ton unique et souveraine divinité : *
+    nous avons reçu la connaissance de ta vérité, /
+    >accorde-nous de lui être fidèles par toute notre vie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 15,19. 16
+    content: |-
+      Je vous ai choisis, je vous ai pris dans le monde, dit le Seigneur,
+      >afin que vous alliez, que vous portiez du fruit
+      >et que votre fruit demeure, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bienveillance,
+    >reste auprès de ton peuple,
+    >nous t’en prions, Seigneur ; *
+    puisque tu l’as initié aux sacrements du ciel, /
+    >fais-le passer de ce qui est ancien
+    >à la vie nouvelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

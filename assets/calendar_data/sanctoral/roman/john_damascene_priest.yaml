@@ -35,3 +35,137 @@ readings:
         
         Vous attendez son Fils qui viendra des cieux,
         Jésus, qui nous délivre de la colère à venir.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Seigneur, de trouver un appui
+    >dans les prières du prêtre saint Jean de Damas : *
+    que la vraie foi, dont il fut un maître éminent, /
+    >soit toujours notre lumière et notre force.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Tm 1, 13-14; 2, 1-3
+      headline: « Garde le dépôt de la foi avec l’aide de l’Esprit Saint »
+      content: |-
+        Bien-aimé,
+        tiens-toi au modèle donné par les paroles solides
+        que tu m’as entendu prononcer dans la foi
+        et dans l’amour qui est dans le Christ Jésus.
+        Garde le dépôt de la foi dans toute sa beauté,
+        avec l’aide de l’Esprit Saint qui habite en nous.
+        Toi donc, mon enfant, trouve ta force
+        dans la grâce qui est en Jésus Christ.
+        Ce que tu m’as entendu dire en présence de nombreux témoins,
+        confie-le à des hommes dignes de foi
+        qui seront capables de l’enseigner aux autres, à leur tour.
+        Prends ta part de souffrance
+        comme un bon soldat du Christ Jésus.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 18B (19), 8, 9, 10, 11
+      refAbbr: 18B, 10cd
+      chorus:
+      - chorusRef: 18B, 10cd
+        chorus: |-
+          Les décisions du Seigneur sont justes
+          et vraiment équitables.
+      - chorusRef: cf. Jn 6, 63c
+        chorus: |-
+          ou : Tes paroles, Seigneur, sont esprit
+          et elles sont vie.
+      content: |-
+        La loi du Seigneur est parfaite,
+        qui redonne vie ;
+        la charte du Seigneur est sûre,
+        qui rend sages les simples.
+
+        Les préceptes du Seigneur sont droits,
+        ils réjouissent le cœur ;
+        le commandement du Seigneur est limpide,
+        il clarifie le regard.
+
+        La crainte qu’il inspire est pure,
+        elle est là pour toujours ;
+        les décisions du Seigneur sont justes
+        et vraiment équitables :
+
+        plus désirables que l’or,
+        qu’une masse d’or fin,
+        plus savoureuses que le miel
+        qui coule des rayons.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: 'Mt 25, 14-30 (lecture brève : Mt 25, 14-23)'
+      headline: « Tu as été fidèle pour peu de choses, je t’en confierai beaucoup »
+      acclamationAntiphon: |-
+        Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ;
+        mon Père l’aimera, et nous viendrons vers lui.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples cette parabole :
+        « C’est comme un homme qui partait en voyage :
+        il appela ses serviteurs et leur confia ses biens.
+        À l’un il remit une somme de cinq talents,
+        à un autre deux talents,
+        au troisième un seul talent,
+        à chacun selon ses capacités.
+        Puis il partit.
+        Aussitôt, celui qui avait reçu les cinq talents
+        s’en alla pour les faire valoir
+        et en gagna cinq autres.
+        De même, celui qui avait reçu deux talents
+        en gagna deux autres.
+        Mais celui qui n’en avait reçu qu’un
+        alla creuser la terre et cacha l’argent de son maître.
+        Longtemps après, le maître de ces serviteurs revint
+        et il leur demanda des comptes.
+        Celui qui avait reçu cinq talents s’approcha,
+        présenta cinq autres talents
+        et dit :
+        "Seigneur,
+        tu m’as confié cinq talents ;
+        voilà, j’en ai gagné cinq autres."
+        Son maître lui déclara :
+        "Très bien, serviteur bon et fidèle,
+        tu as été fidèle pour peu de choses,
+        je t’en confierai beaucoup ;
+        entre dans la joie de ton seigneur."
+        Celui qui avait reçu deux talents s’approcha aussi
+        et dit :
+        "Seigneur,
+        tu m’as confié deux talents ;
+        voilà, j’en ai gagné deux autres."
+        Son maître lui déclara :
+        "Très bien, serviteur bon et fidèle,
+        tu as été fidèle pour peu de choses,
+        je t’en confierai beaucoup ;
+        entre dans la joie de ton seigneur."
+        Enfin, celui qui avait reçu un seul talent s’approcha aussi
+        et dit :
+        "Seigneur, je savais que tu es un homme dur :
+        tu moissonnes là où tu n’as pas semé,
+        tu ramasses là où tu n’as pas répandu le grain.
+        Alors, par peur, je suis allé cacher ton talent dans la terre.
+        Le voici : tu as ce qui t’appartient."
+        Son maître lui répondit :
+        "Serviteur mauvais et paresseux,
+        tu savais que je moissonne là où je n’ai pas semé,
+        que je ramasse le grain là où je ne l’ai pas répandu.
+        Il fallait donc placer mon argent à la banque ;
+        et, à mon retour, je l’aurais retrouvé avec les intérêts.
+        Enlevez-lui donc son talent, et donnez-le à celui qui a les dix talents.
+        Car celui qui a recevra encore, et il sera dans l’abondance ;
+        mais celui qui n’a pas se verra enlever même ce qu’il a.
+        Quant à ce serviteur bon à rien, jetez-le dehors, dans les ténèbres :
+        là, il y aura des pleurs et des grincements de dents."
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

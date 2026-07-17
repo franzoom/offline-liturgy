@@ -64,8 +64,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 24,16. 18
+    content: |-
+      Regarde-moi, Seigneur, et prends pitié de moi, car je suis seul et misérable.
+      Vois ma misère et ma peine, enlève tous mes péchés, mon Dieu.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >nous en appelons à ta providence
+    >qui, dans ses desseins, jamais ne se trompe * nous te supplions humblement :
+    >tout ce qui fait du mal, écarte-le, /
+    >donne-nous ce qui pourra nous aider.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -435,8 +448,36 @@ mass:
          même en Israël, je n’ai pas trouvé une telle foi ! »
         Revenus à la maison,
         les envoyés trouvèrent l’esclave en bonne santé.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Confiants dans ta tendresse, Seigneur, +
+    >nous approchons de ton autel avec respect
+    >en apportant nos présents ; *
+    puissions-nous, par un effet de ta grâce qui nous purifie,
+    >être renouvelés par ces mystères mêmes que nous célébrons.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 16,6
+    content: |-
+      J’ai crié vers toi, Dieu qui m’as exaucé : incline ton oreille, entends ce que je dis.
+  - biblicalReference: Mc 11,23-24
+    content: |-
+      Amen, je vous le dis : tout ce que vous demandez dans la prière,
+      >croyez que vous l’avez obtenu, et cela vous sera accordé, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Guide-nous par ton Esprit, nous t’en prions, Seigneur,
+    toi qui nous as nourris du Corps et du Sang de ton Fils : *
+    accorde-nous de te rendre témoignage,
+    >non seulement en paroles et par des discours,
+    >mais aussi en actes et en vérité, /
+    >pour mériter d’entrer dans le royaume des Cieux.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

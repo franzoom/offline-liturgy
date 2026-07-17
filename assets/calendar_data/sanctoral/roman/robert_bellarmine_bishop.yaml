@@ -28,3 +28,122 @@ readings:
         
         Heureux les humbles, heureux les pauvres :
         tu leur découvres le secret du Royaume !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à l’évêque saint Robert Bellarmin
+    >une science et une force admirables
+    >pour défendre la foi de ton Église ; *
+    par son intercession, accorde à ton peuple /
+    >le bonheur de garder cette foi dans toute sa pureté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Sg 7, 7-10.15-16
+      headline: |-
+        « Plus que la santé et la beauté, j’ai aimé la sagesse »
+      content: |-
+        J’ai prié,
+        >et le discernement m’a été donné.
+        J’ai supplié,
+        >et l’esprit de la Sagesse est venu en moi.
+        Je l’ai préférée aux trônes et aux sceptres ;
+        >à côté d’elle, j’ai tenu pour rien la richesse ;
+        je ne l’ai pas comparée à la pierre la plus précieuse ;
+        >tout l’or du monde auprès d’elle n’est qu’un peu de sable,
+        et, en face d’elle, l’argent sera regardé comme de la boue.
+        Plus que la santé et la beauté, je l’ai aimée ;
+        je l’ai choisie de préférence à la lumière,
+        >parce que sa clarté ne s’éteint pas.
+        Que Dieu m’accorde de parler comme je comprends,
+        >et de concevoir une pensée à la mesure de ses dons,
+        puisque lui-même guide la Sagesse
+        >et dirige les sages ;
+        car nous sommes dans sa main :
+        >nous-mêmes, nos paroles,
+        >toute notre intelligence et notre savoir-faire.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 18B (19), 8, 9, 10, 11
+      refAbbr: 18B, 10cd
+      chorus:
+      - chorusRef: 18B, 10cd
+        chorus: |-
+          Les décisions du Seigneur sont justes
+          et vraiment équitables.
+      - chorusRef: cf. Jn 6, 63c
+        chorus: |-
+          ou : Tes paroles, Seigneur, sont esprit
+          et elles sont vie.
+      content: |-
+        La loi du Seigneur est parfaite,
+        qui redonne vie ;
+        la charte du Seigneur est sûre,
+        qui rend sages les simples.
+
+        Les préceptes du Seigneur sont droits,
+        ils réjouissent le cœur ;
+        le commandement du Seigneur est limpide,
+        il clarifie le regard.
+
+        La crainte qu’il inspire est pure,
+        elle est là pour toujours ;
+        les décisions du Seigneur sont justes
+        et vraiment équitables :
+
+        plus désirables que l’or,
+        qu’une masse d’or fin,
+        plus savoureuses que le miel
+        qui coule des rayons.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 7, 21-29
+      headline: |-
+        « Jésus les enseignait en homme qui a autorité »
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur,
+        sont esprit et elles sont vie.
+        Tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Ce n’est pas en me disant : "Seigneur, Seigneur !"
+        >qu’on entrera dans le royaume des Cieux,
+        mais c’est en faisant la volonté de mon Père qui est aux cieux.
+        Ce jour-là, beaucoup me diront :
+        >"Seigneur, Seigneur,
+        >n’est-ce pas en ton nom que nous avons prophétisé,
+        >en ton nom que nous avons expulsé les démons,
+        >en ton nom que nous avons fait beaucoup de miracles ?"
+        Alors je leur déclarerai :
+        >"Je ne vous ai jamais connus.
+        Écartez-vous de moi, vous qui commettez le mal !"
+        Ainsi, celui qui entend les paroles que je dis là
+        >et les met en pratique
+        est comparable à un homme prévoyant
+        >qui a construit sa maison sur le roc.
+        La pluie est tombée, les torrents ont dévalé,
+        >les vents ont soufflé et se sont abattus sur cette maison ;
+        la maison ne s’est pas écroulée,
+        >car elle était fondée sur le roc.
+        Et celui qui entend de moi ces paroles
+        >sans les mettre en pratique
+        est comparable à un homme insensé
+        >qui a construit sa maison sur le sable.
+        La pluie est tombée, les torrents ont dévalé,
+        >les vents ont soufflé, ils sont venus battre cette maison ;
+        >la maison s’est écroulée, et son écroulement a été complet. »
+        Lorsque Jésus eut terminé ce discours,
+        >les foules restèrent frappées de son enseignement,
+        car il les enseignait en homme qui a autorité,
+        >et non pas comme leurs scribes.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -190,8 +190,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 37,22-23
+    content: |-
+      Ne m’abandonne jamais, Seigneur,
+      >mon Dieu, ne sois pas loin de moi.
+      Viens vite à mon aide,
+      >Seigneur, mon salut !
+  collect:
+  - |-
+    Garde ta famille, Seigneur : +
+    >qu’elle ne cesse de progresser en faisant le bien ; *
+    >assure-lui les secours nécessaires en cette vie /
+    >pour la conduire ainsi, dans ta bonté, jusqu’aux dons du ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -291,8 +305,38 @@ mass:
         Ainsi, le Fils de l’homme n’est pas venu pour être servi,
         mais pour servir,
         et donner sa vie en rançon pour la multitude. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Regarde avec bonté, Seigneur,
+    >le sacrifice que nous te présentons ; *
+    >et, par cet échange qui nous sanctifie, /
+    >délivre-nous des entraves du péché.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Mt 20,28
+    content: |-
+      Le Fils de l’homme n’est pas venu pour être servi, mais pour servir,
+      >et donner sa vie en rançon pour la multitude.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur notre Dieu : +
+    >puisque tu as voulu que ce sacrement
+    >soit pour nous gage d’immortalité, *
+    >qu’il devienne pour nous un secours /
+    >en vue du salut éternel.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Accorde, Seigneur, à ceux qui te servent
+    >l’abondance de ta protection et de ta grâce ; *
+    >donne-leur le salut de l’âme et du corps,
+    >donne en plénitude l’amour fraternel, /
+    >et fais que toujours ils s’attachent à toi.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

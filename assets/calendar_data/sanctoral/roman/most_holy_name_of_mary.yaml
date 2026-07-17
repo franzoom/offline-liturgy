@@ -9,4 +9,127 @@ oration:
   - |-
     Nous t’en prions, Dieu tout-puissant : que la bienheureuse Vierge Marie obtienne les bienfaits de ta miséricorde en faveur de tous ceux qui célèbrent son nom glorieux.
 
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Jdt 13,18-19
+    content: |-
+      Bénie sois-tu, Vierge Marie, par le Dieu Très-Haut,
+      >plus que toutes les femmes de la terre :
+      il a si bien magnifié ton nom,
+      >que jamais ta louange ne quittera la bouche des hommes.
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : * que la bienheureuse Vierge Marie obtienne les bienfaits de ta miséricorde /
+    >en faveur de tous ceux qui célèbrent son nom glorieux.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ga 4, 4-7
+      headline: |-
+        « Dieu a envoyé son Fils, né d’une femme »
+      content: |-
+        Frères,
+        lorsqu’est venue la plénitude des temps,
+        Dieu a envoyé son Fils,
+        >né d’une femme
+        >et soumis à la loi de Moïse,
+        afin de racheter ceux qui étaient soumis à la Loi
+        >et pour que nous soyons adoptés comme fils.
+        Et voici la preuve que vous êtes des fils :
+        Dieu a envoyé l’Esprit de son Fils dans nos cœurs,
+        et cet Esprit crie
+        >« Abba ! », c’est-à-dire : Père !
+        Ainsi tu n’es plus esclave, mais fils,
+        et puisque tu es fils, tu es aussi héritier :
+        >c’est l’œuvre de Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Lc 1, 46b-47, 48-49, 50-51, 52-53, 54-55
+      refAbbr: Lc 1, 49
+      chorus:
+      - chorusRef: Lc 1, 49
+        chorus: |-
+          Le Puissant fit pour moi des merveilles ;
+          Saint est son nom !
+      - chorusRef: null
+        chorus: |-
+          ou : Heureuse Vierge Marie,
+          qui portas en toi le Fils du Père éternel !
+      content: |-
+        Mon âme exalte le Seigneur,
+        exulte mon esprit en Dieu, mon Sauveur !
 
+        Il s’est penché sur son humble servante ;
+        désormais tous les âges me diront bienheureuse.
+        Le Puissant fit pour moi des merveilles ;
+        Saint est son nom !
+
+        Sa miséricorde s’étend d’âge en âge
+        sur ceux qui le craignent.
+        Déployant la force de son bras,
+        il disperse les superbes.
+
+        Il renverse les puissants de leurs trônes,
+        il élève les humbles.
+        Il comble de biens les affamés,
+        renvoie les riches les mains vides.
+
+        Il relève Israël son serviteur,
+        il se souvient de son amour,
+        de la promesse faite à nos pères,
+        en faveur d’Abraham et sa descendance à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 39-47
+      headline: |-
+        « Heureuse celle qui a cru »
+      acclamationAntiphon: |-
+        Heureuse es-tu, Vierge Marie,
+        toi qui as cru que s’accompliraient pour toi
+        les paroles du Seigneur.
+      content: |-
+        En ces jours-là,
+        Marie se mit en route et se rendit avec empressement
+        >vers la région montagneuse, dans une ville de Judée.
+        Elle entra dans la maison de Zacharie
+        >et salua Élisabeth.
+        Or, quand Élisabeth entendit la salutation de Marie,
+        >l’enfant tressaillit en elle.
+        Alors, Élisabeth fut remplie d’Esprit Saint,
+        et s’écria d’une voix forte :
+        >« Tu es bénie entre toutes les femmes,
+        >et le fruit de tes entrailles est béni.
+        D’où m’est-il donné
+        >que la mère de mon Seigneur vienne jusqu’à moi ?
+        Car, lorsque tes paroles de salutation sont parvenues à mes oreilles,
+        >l’enfant a tressailli d’allégresse en moi.
+        Heureuse celle qui a cru à l’accomplissement des paroles
+        >qui lui furent dites de la part du Seigneur. »
+        Marie dit alors :
+        >« Mon âme exalte le Seigneur,
+        >exulte mon esprit en Dieu, mon Sauveur ! »
+  offeringPrayer:
+  - |-
+    Que l’intercession de la bienheureuse Marie toujours vierge,
+    >te recommande nos offrandes, Seigneur, *
+    >et, en ce jour où nous vénérons son nom, /
+    >qu’elle nous rende agréables à toi, Dieu de majesté.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Lc 1,48
+    content: |-
+      Tous les âges me diront bienheureuse,
+      >car Dieu a regardé son humble servante.
+  prayerAfterCommunion:
+  - |-
+    Puissions-nous, Seigneur,
+    obtenir la grâce de ta bénédiction,
+    par l’intercession de Marie, Mère de Dieu ; *
+    qu’en célébrant son nom avec honneur, /
+    >nous recevions son secours
+    >dans toutes les difficultés de la vie.
+    Par le Christ, notre Seigneur.

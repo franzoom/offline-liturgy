@@ -190,8 +190,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ap 19,7.6
+    content: |-
+      Soyons dans la joie, exultons, et rendons gloire à Dieu !
+      Il règne, le Seigneur notre Dieu, le Souverain de l’univers, alléluia.
+  collect:
+  - |-
+    Dieu tout-puissant, nous t’en prions, +
+    >fais-nous proclamer la puissance
+    >déployée dans la résurrection du Seigneur ; *
+    nous avons reçu les prémices de sa grâce : /
+    >rends-nous capables d’en saisir la plénitude.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -281,8 +294,27 @@ mass:
         ainsi faut-il que le Fils de l’homme soit élevé,
         afin qu’en lui tout homme qui croit
         ait la vie éternelle. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Donne-nous, Seigneur, nous t’en prions,
+    >de toujours te rendre grâce
+    >par ces mystères de Pâques ; *
+    >qu’ils continuent l’œuvre de notre relèvement /
+    >et deviennent pour nous
+    >une source intarissable de joie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. Lc 24,46. 26
+    content: |-
+      Il fallait que le Christ connaisse la souffrance
+      >et ressuscite d’entre les morts
+      >pour entrer dans sa gloire, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Écoute nos prières, Seigneur : *
+    >que cet échange très saint où l’homme est racheté
+    >nous soutienne durant la vie présente /
+    >et nous procure les joies éternelles.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

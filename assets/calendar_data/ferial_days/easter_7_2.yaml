@@ -189,8 +189,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ap 1,17-18
+    content: |-
+      Je suis le Premier et le Dernier, je suis le Vivant, dit le Seigneur,
+      >j’étais mort, et me voilà vivant pour les siècles, alléluia.
+  collect:
+  - |-
+    Dieu de puissance et de miséricorde,
+    >nous t’en supplions : *
+    >que l’Esprit Saint, en sa bonté, vienne habiter en nous /
+    et fasse de nous le temple de sa gloire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -294,8 +306,26 @@ mass:
         Désormais, je ne suis plus dans le monde ;
         eux, ils sont dans le monde,
         et moi, je viens vers toi. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Avec l’offrande de ce sacrifice,
+    >accueille, Seigneur, les prières de tes fidèles ; *
+    >que cette liturgie célébrée avec ferveur /
+    >nous fasse parvenir à la gloire du ciel.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 14,26
+    content: |-
+      L’Esprit Saint que le Père enverra en mon nom, dit le Seigneur,
+      >c’est lui qui vous enseignera tout,
+      il vous fera souvenir de tout ce que je vous ai dit, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, nous avons reçu
+    >les dons qui nous ont fait participer aux saints mystères,
+    >et nous te prions humblement : *
+    >ton Fils nous a demandé de les célébrer en mémoire de lui, /
+    >qu’ils augmentent en nous la charité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

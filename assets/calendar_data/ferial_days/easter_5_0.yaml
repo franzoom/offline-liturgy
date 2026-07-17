@@ -251,8 +251,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 97,1-2
+    content: |-
+      Chantez au Seigneur un chant nouveau,
+      >car il a fait des merveilles ;
+      aux nations, il a révélé sa justice, alléluia.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >continue d’accomplir en nous le mystère pascal, *
+    >soutiens et protège ceux que tu as voulu renouveler
+    >dans le saint baptême
+    qu’ils portent beaucoup de fruits /
+    >et parviennent aux joies de la vie éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -660,8 +675,28 @@ mass:
         vous aussi aimez-vous les uns les autres.
          À ceci, tous reconnaîtront que vous êtes mes disciples :
         si vous avez de l’amour les uns pour les autres. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Seigneur notre Dieu, +
+    >dans l’admirable échange du sacrifice eucharistique,
+    >tu nous fais participer à tin unique et souveraine divinité, : *
+    nous avons reçu la connaissance de ta vérité, /
+    >accorde-nous de lui être fidèles par toute notre vie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 15,1.5
+    content: |-
+      Je suis la vraie vigne, et vous, les sarments, dit le Seigneur.
+      Celui qui demeure en moi, et en qui je demeure,
+      >celui-là donne beaucoup de fruit, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bienveillance,
+    >reste auprès de ton peuple,
+    >nous t’en prions, Seigneur ; *
+    puisque tu l’as initié aux sacrements du ciel, /
+    >fais-le passer de ce qui est ancien
+    >à la vie nouvelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -218,9 +218,6 @@ vespers:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -422,8 +419,10 @@ mass:
         Ayant appris cela,
         les disciples de Jean vinrent prendre son corps
         et le déposèrent dans un tombeau.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

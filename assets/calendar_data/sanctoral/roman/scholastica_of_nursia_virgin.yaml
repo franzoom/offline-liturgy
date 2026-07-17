@@ -51,3 +51,89 @@ morning:
     common:
     - |-
       Vierge sage, elle a rejoint le Christ : parmi les saints du ciel, elle resplendit comme le soleil.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    En célébrant la mémoire
+    >de la bienheureuse vierge Scholastique,
+    >Seigneur, nous te prions : *
+    fais qu’à son exemple, nous te servions
+    >avec une charité sans faille /
+    et que nous goûtions avec bonheur
+    >les bienfaits de ton amour.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ct 8, 6-7
+      headline: « L’amour est fort comme la Mort »
+      content: |-
+        Pose-moi comme un sceau sur ton cœur,
+        comme un sceau sur ton bras.
+        Car l’amour est fort comme la Mort,
+        la passion, implacable comme l’Abîme :
+        ses flammes sont des flammes de feu,
+        fournaise divine.
+        Les grandes eaux ne pourront éteindre l’amour,
+        ni les fleuves l’emporter.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 148, 1-2, 7a.11a.12, 13-14a
+      refAbbr: cf. 148, 12a.13a
+      chorus:
+      - chorusRef: cf. 148, 12a.13a
+        chorus: |-
+          Alléluia !
+          ou : Jeunes gens et jeunes filles,
+          louez le nom du Seigneur.
+      content: |-
+        Louez le Seigneur du haut des cieux,
+        louez-le dans les hauteurs.
+        Vous, tous ses anges, louez-le,
+        louez-le, tous les univers.
+
+        Louez le Seigneur depuis la terre,
+        les rois de la terre et tous les peuples,
+        tous les jeunes gens et jeunes filles,
+        les vieillards comme les enfants.
+
+        Qu’ils louent le nom du Seigneur,
+        le seul au-dessus de tout nom ;
+        sur le ciel et sur la terre, sa splendeur :
+        il accroît la vigueur de son peuple.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 10, 38-42
+      headline: « Marthe le reçut. Marie a choisi la meilleure part »
+      acclamationAntiphon: |-
+        Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ;
+        mon Père l’aimera, et nous viendrons vers lui.
+      content: |-
+        En ce temps-là,
+        Jésus entra dans un village.
+        Une femme nommée Marthe le reçut.
+        Elle avait une sœur appelée Marie
+        qui, s’étant assise aux pieds du Seigneur,
+        écoutait sa parole.
+        Quant à Marthe, elle était accaparée
+        par les multiples occupations du service.
+        Elle intervint et dit :
+        « Seigneur, cela ne te fait rien
+        que ma sœur m’ait laissé faire seule le service ?
+        Dis-lui donc de m’aider. »
+        Le Seigneur lui répondit :
+        « Marthe, Marthe, tu te donnes du souci
+        et tu t’agites pour bien des choses.
+        Une seule est nécessaire.
+        Marie a choisi la meilleure part,
+        elle ne lui sera pas enlevée. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

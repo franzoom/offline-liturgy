@@ -182,8 +182,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ex 15,1-2
+    content: |-
+      Chantons pour le Seigneur ! éclatante est sa gloire !
+      Ma force et mon chant, c’est le Seigneur :
+      >il est pour moi le salut, alléluia.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >nous implorons avec plus de ferveur ta tendresse,
+    >en ce temps de Pâques où ta bonté nous l’a mieux fait connaître : *
+    ceux que tu as dégagés des ténèbres de l’erreur, /
+    >fais-les adhérer plus fermement
+    >aux enseignements de ta vérité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -300,8 +315,28 @@ mass:
         il vivra éternellement.
         Le pain que je donnerai, c’est ma chair,
         donnée pour la vie du monde. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Seigneur notre Dieu, +
+    >dans l’admirable échange du sacrifice eucharistique,
+    >tu nous fais participer à ton unique et souveraine divinité, : *
+    nous avons reçu la connaissance de ta vérité, /
+    >accorde-nous de lui être fidèles par toute notre vie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. 2Co 5,15
+    content: |-
+      Le Christ est mort pour tous,
+      >afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+      >mais sur lui, qui est mort et ressuscité pour eux, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bienveillance,
+    >reste auprès de ton peuple,
+    >nous t’en prions, Seigneur ; *
+    puisque tu l’as initié aux sacrements du ciel, /
+    >fais-le passer de ce qui est ancien
+    >à la vie nouvelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -218,8 +218,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 34,1-2; 139,8.
+    content: |-
+      Accuse, Seigneur, ceux qui m’accusent,
+      >attaque ceux qui m’attaquent.
+      Prends une armure, un bouclier,
+      >lève-toi pour me défendre,
+      >Seigneur, force qui me sauve.
+  collect:
+  - |-
+    Dieu tout-puissant, nous t’en supplions ; *
+    >dans nitre faiblesse, nous ne pouvons tenir,
+    >donne-nous de reprendre souffle, /
+    grâce à la passion de ton Fils unique.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -326,8 +340,38 @@ mass:
         de tuer aussi Lazare,
          parce que beaucoup de Juifs, à cause de lui,
         s’en allaient, et croyaient en Jésus.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur, tu as prévu, dans ta miséricorde,
+    de réparer les dommages de nos fautes, /
+    donne-nous d’en retirer
+    des fruits pour la vie éternelle.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - passion_of_the_lord_2
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 101,3
+    content: |-
+      Ne me cache pas ton visage
+      >le jour où je suis en détresse !
+      Le jour où j’appelle, écoute-moi ;
+      >viens vite, réponds-moi !
+  prayerAfterCommunion:
+  - |-
+    Visite ton peuple, Seigneur, nous t’en prions : +
+    >dans ton amour inlassable,
+    >veille sur les cœurs sanctifiés par les mystères divins ; *
+    et puisque tu nous as donné dans ta miséricorde
+    les remèdes du salut éternel, /
+    aide-nous, par ta protection, à les garder fidèlement.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Que ton secours, Seigneur, soit accordé aux humbles +
+    et ne cesse de protéger ceux qui se confient en ta miséricorde ; *
+    ainsi, pour célébrer les fêtes pascales,
+    ils seront préparés par la discipline du corps, /
+    et, plus encore, par la pureté de l’esprit.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -32,3 +32,92 @@ readings:
 
         Je demeurerai près de vous tous
         pour la joie de votre foi.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Seigneur, l’esprit de force, *
+    >pour que l’exemple de ton bienheureux martyr Sébastien
+    nous apprenne à t’obéir, /
+    à toi plutôt qu’aux hommes.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 3, 14-17
+      headline: « N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler »
+      content: |-
+        Bien-aimés,
+        s’il vous arrivait de souffrir pour la justice,
+        heureux seriez-vous !
+        Comme dit l’Écriture :
+        N’ayez aucune crainte de ces gens-là,
+        ne vous laissez pas troubler.
+        Honorez dans vos cœurs
+        la sainteté du Seigneur, le Christ.
+        Soyez prêts à tout moment à présenter une défense
+        devant quiconque vous demande de rendre raison
+        de l’espérance qui est en vous ;
+        mais faites-le avec douceur et respect.
+        Ayez une conscience droite,
+        afin que vos adversaires soient pris de honte
+        sur le point même où ils disent du mal de vous
+        pour la bonne conduite que vous avez dans le Christ.
+        Car mieux vaudrait souffrir en faisant le bien,
+        si c’était la volonté de Dieu,
+        plutôt qu’en faisant le mal.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 28-33
+      headline: « Ne craignez pas ceux qui tuent le corps »
+      acclamationAntiphon: |-
+        Heureux l’homme
+        qui supporte l’épreuve avec persévérance,
+        car, sa valeur une fois vérifiée, il recevra la couronne de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        « Ne craignez pas ceux qui tuent le corps
+        sans pouvoir tuer l’âme ;
+        craignez plutôt celui qui peut faire périr dans la géhenne
+        l’âme aussi bien que le corps.
+        Deux moineaux ne sont-ils pas vendus pour un sou ?
+        Or, pas un seul ne tombe à terre
+        sans que votre Père le veuille.
+        Quant à vous, même les cheveux de votre tête sont tous comptés.
+        Soyez donc sans crainte :
+        vous valez bien plus qu’une multitude de moineaux.
+        Quiconque se déclarera pour moi devant les hommes,
+        moi aussi je me déclarerai pour lui
+        devant mon Père qui est aux cieux. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

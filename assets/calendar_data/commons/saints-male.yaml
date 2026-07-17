@@ -76,7 +76,7 @@ readings:
     V/ Le Seigneur conduit le juste par des voies droites.
     Il lui montre le Royaume de Dieu.
   biblicalReading:
-    - title: LECTURE DE LA LETTRE AUX COLOSSIENS
+    - title: lecture de la lettre aux Colossiens
       subtitle: Votre vie est cachée avec le Christ en Dieu
       ref: Col 3, 1-17
       content: |-
@@ -93,7 +93,7 @@ readings:
 
         Revêtez l’homme nouveau, crée selon Dieu
         dans la justice et la sainteté de la vérité.
-    - title: De la lettre aux Romains
+    - title: Lecture de la lettre aux Romains
       subtitle: Le culte spirituel
       ref: Rm 12, 1-21
       content: |-
@@ -112,12 +112,13 @@ readings:
         Si vous devez souffrir pour la justice
         réjouissez-vous et bondissez de joie.
 
-
-
+    - title: De la lettre aux Éphésiens
+      subtitle: « Je le dis en référence au Christ et à l’Église »
+      ref: Ep 5,21-32
+      content: |-
         Par respect pour le Christ, soyez soumis les uns aux autres ; les femmes, à leur mari, comme au Seigneur Jésus ; car, pour la femme, le mari est la tête, tout comme, pour l’Église, le Christ est la tête, lui qui est le Sauveur de son corps. Eh bien ! puisque l’Église se soumet au Christ, qu’il en soit toujours de même pour les femmes à l’égard de leur mari.
-
         Vous, les hommes, aimez votre femme à l’exemple du Christ : il a aimé l’Église, il s’est livré lui-même pour elle, afin de la rendre sainte en la purifiant par le bain de l’eau baptismale, accompagné d’une parole ; il voulait se la présenter à lui-même, cette Église, resplendissante, sans tache, ni ride, ni rien de tel ; il la voulait sainte et immaculée. C’est de la même façon que les maris doivent aimer leur femme : comme leur propre corps. Celui qui aime sa femme s’aime soi-même. Jamais personne n’a méprisé son propre corps : au contraire, on le nourrit, on en prend soin. C’est ce que fait le Christ pour l’Église, parce que nous sommes les membres de son corps. Comme dit l’Écriture : %À cause de cela, l’homme quittera 	son père et sa mère, il s’attachera à sa femme, et tous deux ne feront plus qu’un.% Ce mystère est grand : je le dis en référence au Christ et à l’Église.
-
+      responsory: |-
         R/ Dieu créa l’homme à son image :
         homme et femme il les créa.
 
@@ -131,7 +132,7 @@ readings:
         le Christ est l’époux de l’Église ;
         il l’a aimée et s’est livré pour elle.
   patristicReading:
-    - title: HOMÉLIE DE SAINT JEAN CHRYSOSTOME SUR LES ACTES DES APÔTRES
+    - title: Homélie de Saint Jean Chrysostome sur les Actes de Apôtres
       subtitle: « Que votre lumière brille aux yeux des hommes »
       content: |-
         Rien n’est plus froid qu’un chrétien indifférent au salut d’autrui.
@@ -161,7 +162,7 @@ readings:
         Comment prendre en charge notre frère,
         si d’abord tu ne viens
         panser nos blessures ?
-    - title: HOMÉLIE DE SAINT AUGUSTIN SUR L’ÉVANGILE DE MARC
+    - title: Homélie de Saint Augustin sur l'Évangile de Marc
       subtitle: « Si quelqu’un veut marcher à ma suite... »
       content: |-
         %Si quelqu’un veut marcher à ma suite, qu’il renonce à lui-même, qu’il prenne sa croix, et qu’il me suive%. Ce que le Seigneur a commandé semble dur et pénible : Si quelqu’un veut marcher à sa suite, qu’il renonce à lui-même ! Mais ce n’est ni dur ni pénible en réalité, parce que celui qui commande est celui qui aide à réaliser ce qu’il commande.
@@ -302,3 +303,1063 @@ vespers:
 
       Père saint, tu pardonnes les péchés des hommes,
       — donne à nos frères défunts la joie de te voir face à face.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 20, 2-3
+    content: |-
+      Seigneur, le juste se réjouit de ta force;
+      >quelle vive allégresse lui donne ton salut!
+      Tu as répondu au désir de son âme.
+  collect:
+  - |-
+      Seigneur Dieu, +
+      >pour ouvrir à notre faiblesse le chemin du salut,
+      >tu nous donnes le secours et l’exemple des saints; *
+      alors que nous célébrons l’anniversaire de saint N.,
+      >fais que nous avancions vers toi / 
+      >en le prenant pour modèle.
+      Par Jésus Christ, ton Fils, notre Seigneur, + 
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, / 
+      >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Gn 12, 1-4a
+      headline: |-
+        « Quitte ton pays et ta parenté »
+      content: |-
+        En ces jours-là,
+        le Seigneur dit à Abram :
+        >« Quitte ton pays,
+        >ta parenté et la maison de ton père,
+        >et va vers le pays que je te montrerai.
+        Je ferai de toi une grande nation,
+        >je te bénirai,
+        >je rendrai grand ton nom,
+        >et tu deviendras une bénédiction.
+        Je bénirai ceux qui te béniront ;
+        >celui qui te maudira, je le réprouverai.
+        En toi seront bénies
+        >toutes les familles de la terre. »
+        >Abram s’en alla, comme le Seigneur le lui avait dit.
+    - biblicalRef: Lv 19, 1-2.17-18
+      headline: |-
+        « Tu aimeras ton prochain comme toi-même »
+      content: |-
+        Le Seigneur parla à Moïse et dit :
+        >« Parle à toute l’assemblée des fils d’Israël.
+        Tu leur diras :
+        >Soyez saints,
+        >car moi, le Seigneur votre Dieu, je suis saint.
+        Tu ne haïras pas ton frère dans ton cœur.
+        Mais tu devras réprimander ton compatriote,
+        >et tu ne toléreras pas la faute qui est en lui.
+        Tu ne te vengeras pas.
+        Tu ne garderas pas de rancune contre les fils de ton peuple.
+        Tu aimeras ton prochain comme toi-même.
+        Je suis le Seigneur. »
+    - biblicalRef: Dt 6, 3-9
+      headline: |-
+        « Tu aimeras le Seigneur ton Dieu de tout ton cœur »
+      content: |-
+        Moïse disait au peuple :
+        « Israël, tu écouteras,
+        >tu veilleras à mettre en pratique
+        ce qui t’apportera bonheur et fécondité,
+        >dans un pays ruisselant de lait et de miel,
+        comme te l’a dit le Seigneur, le Dieu de tes pères.
+        Écoute, Israël :
+        >le Seigneur notre Dieu est l’Unique.
+        Tu aimeras le Seigneur ton Dieu de tout ton cœur,
+        >de toute ton âme et de toute ta force.
+        Ces paroles que je te donne aujourd’hui
+        >resteront dans ton cœur.
+        Tu les rediras à tes fils,
+        >tu les répéteras sans cesse,
+        >à la maison ou en voyage,
+        >que tu sois couché ou que tu sois levé ;
+        tu les attacheras à ton poignet comme un signe,
+        >elles seront un bandeau sur ton front,
+        tu les inscriras à l’entrée de ta maison
+        >et aux portes de ta ville. »
+        >Parole du Seigneur.
+  - partType: PSALM
+    partContent:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      label: null
+      refAbbr: 1, 2a
+      chorus:
+      - chorusRef: 1, 2a
+        chorus: |-
+          Heureux qui se plaît
+          dans la loi du Seigneur.
+      content: |-
+        Heureux est l’homme
+        qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+        planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+        balayée par le vent.
+
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+    - biblicalRef: Ps 14 (15), 2, 3, 4bcd, 5
+      label: null
+      refAbbr: 14, 2…
+      chorus:
+      - chorusRef: cf. 14, 1b
+        chorus: |-
+          Le juste habitera ta sainte montagne,
+          Seigneur.
+      content: |-
+        Celui qui se conduit parfaitement,
+        qui agit avec justice
+        et dit la vérité selon son cœur.
+
+        Il met un frein à sa langue,
+        ne fait pas de tort à son frère
+        et n’outrage pas son prochain.
+
+        Il honore les fidèles du Seigneur.
+        S’il a juré à ses dépens,
+        il ne reprend pas sa parole.
+
+        Il prête son argent sans intérêt,
+        n’accepte rien qui nuise à l’innocent.
+        Qui fait ainsi demeure inébranlable.
+    - biblicalRef: Ps 15 (16), 1-2, 7-8, 5a.11
+      label: null
+      refAbbr: 15, 5a
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: |-
+          Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Seigneur, mon partage et ma coupe !
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+    - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
+      label: null
+      refAbbr: cf. 22, 1
+      chorus:
+      - chorusRef: cf. 22, 1
+        chorus: |-
+          Le Seigneur est mon berger :
+          rien ne saurait me manquer.
+      content: |-
+        Le Seigneur est mon berger :
+        je ne manque de rien.
+        Sur des prés d’herbe fraîche,
+        il me fait reposer.
+
+        Il me mène vers les eaux tranquilles
+        et me fait revivre ;
+        il me conduit par le juste chemin
+        pour l’honneur de son nom.
+
+        Si je traverse les ravins de la mort,
+        je ne crains aucun mal,
+        car tu es avec moi :
+        ton bâton me guide et me rassure.
+
+        Tu prépares la table pour moi
+        devant mes ennemis ;
+        tu répands le parfum sur ma tête,
+        ma coupe est débordante.
+
+        Grâce et bonheur m’accompagnent
+        tous les jours de ma vie ;
+        j’habiterai la maison du Seigneur
+        pour la durée de mes jours.
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+      label: null
+      refAbbr: 33, 2a
+      chorus:
+      - chorusRef: 33, 2a
+        chorus: |-
+          Je bénirai le Seigneur en tout temps.
+      - chorusRef: cf. 33, 9a
+        chorus: |-
+          Goûtez et voyez
+          comme est bon le Seigneur.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+
+        Saints du Seigneur, adorez-le :
+        rien ne manque à ceux qui le craignent.
+        Des riches ont tout perdu, ils ont faim ;
+        qui cherche le Seigneur ne manquera d’aucun bien.
+    - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 13-14, 17-18a
+      label: null
+      refAbbr: 102, 1a
+      chorus:
+      - chorusRef: 102, 1a
+        chorus: |-
+          Bénis le Seigneur, ô mon âme !
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Car il pardonne toutes tes offenses
+        et te guérit de toute maladie ;
+        il réclame ta vie à la tombe
+        et te couronne d’amour et de tendresse.
+
+        Le Seigneur est tendresse et pitié,
+        lent à la colère et plein d’amour ;
+        il n’est pas pour toujours en procès,
+        ne maintient pas sans fin ses reproches.
+
+        Comme la tendresse du père pour ses fils,
+        la tendresse du Seigneur pour qui le craint !
+        Il sait de quoi nous sommes pétris,
+        il se souvient que nous sommes poussière.
+
+        L’amour du Seigneur, sur ceux qui le craignent,
+        est de toujours à toujours,
+        et sa justice pour les enfants de leurs enfants,
+        pour ceux qui gardent son alliance.
+    - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+      label: null
+      refAbbr: cf. 111, 1a
+      chorus:
+      - chorusRef: cf. 111, 1a
+        chorus: |-
+          Heureux qui craint le Seigneur.
+      - chorusRef: null
+        chorus: |-
+          ou : Alléluia.
+      content: |-
+        Heureux qui craint le Seigneur,
+        qui aime entièrement sa volonté !
+        Sa lignée sera puissante sur la terre ;
+        la race des justes est bénie.
+
+        Les richesses affluent dans sa maison :
+        à jamais se maintiendra sa justice.
+        Lumière des cœurs droits, il s’est levé dans les ténèbres,
+        homme de justice, de tendresse et de pitié.
+
+        L’homme de bien a pitié, il partage ;
+        il mène ses affaires avec droiture.
+        Cet homme jamais ne tombera ;
+        toujours on fera mémoire du juste.
+
+        Il ne craint pas l’annonce d’un malheur :
+        le cœur ferme, il s’appuie sur le Seigneur.
+        Son cœur est confiant, il ne craint pas :
+        il verra ce que valent ses oppresseurs.
+
+        À pleines mains, il donne au pauvre ;
+        à jamais se maintiendra sa justice,
+        sa puissance grandira, et sa gloire !
+    - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
+      label: null
+      refAbbr: 127, 1a
+      chorus:
+      - chorusRef: 127, 1a
+        chorus: |-
+          Heureux qui craint le Seigneur !
+      content: |-
+        Heureux qui craint le Seigneur
+        et marche selon ses voies !
+        Tu te nourriras du travail de tes mains :
+        Heureux es-tu ! À toi, le bonheur !
+
+        Ta femme sera dans ta maison
+        comme une vigne généreuse,
+        et tes fils, autour de la table,
+        comme des plants d’olivier.
+
+        Voilà comment sera béni
+        l’homme qui craint le Seigneur.
+        De Sion, que le Seigneur te bénisse !
+        Tu verras le bonheur de Jérusalem tous les jours de ta vie.
+    - biblicalRef: Ps 130 (131), 1, 2, 3
+      label: null
+      refAbbr: null
+      chorus:
+      - chorusRef: null
+        chorus: |-
+          Garde mon âme dans la paix
+          près de toi, Seigneur.
+      content: |-
+        Seigneur, je n’ai pas le cœur fier
+        ni le regard ambitieux ;
+        je ne poursuis ni grands desseins,
+        ni merveilles qui me dépassent.
+
+        Non, mais je tiens mon âme
+        égale et silencieuse ;
+        mon âme est en moi comme un enfant,
+        comme un petit enfant contre sa mère.
+
+        Attends le Seigneur, Israël,
+        maintenant et à jamais.
+  - partType: SECOND_READING
+    partContents:
+    - biblicalRef: Rm 8, 26-30
+      headline: |-
+        « Ceux qu’il a rendus justes, il leur a donné sa gloire »
+      content: |-
+        Frères,
+        l’Esprit Saint vient au secours de notre faiblesse,
+        >car nous ne savons pas prier comme il faut.
+        L’Esprit lui-même intercède pour nous
+        >par des gémissements inexprimables.
+        Et Dieu, qui scrute les cœurs,
+        >connaît les intentions de l’Esprit
+        puisque c’est selon Dieu
+        >que l’Esprit intercède pour les fidèles.
+        Nous le savons, quand les hommes aiment Dieu,
+        >lui-même fait tout contribuer à leur bien,
+        >puisqu’ils sont appelés selon le dessein de son amour.
+        Ceux que, d’avance, il connaissait,
+        >il les a aussi destinés d’avance
+        >à être configurés à l’image de son Fils,
+        pour que ce Fils
+        >soit le premier-né d’une multitude de frères.
+        Ceux qu’il avait destinés d’avance,
+        >il les a aussi appelés ;
+        ceux qu’il a appelés,
+        >il en a fait des justes ;
+        et ceux qu’il a rendus justes,
+        >il leur a donné sa gloire.
+        
+    - biblicalRef: 1 Co 1, 26-31
+      headline: |-
+        « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
+      content: |-
+        Frères,
+        vous qui avez été appelés par Dieu, regardez bien :
+        parmi vous, il n’y a pas beaucoup de sages aux yeux des hommes,
+        >ni de gens puissants ou de haute naissance.
+        Au contraire, ce qu’il y a de fou dans le monde,
+        >voilà ce que Dieu a choisi,
+        >pour couvrir de confusion les sages ;
+        ce qu’il y a de faible dans le monde,
+        >voilà ce que Dieu a choisi,
+        >pour couvrir de confusion ce qui est fort ;
+        ce qui est d’origine modeste, méprisé dans le monde,
+        ce qui n’est pas,
+        >voilà ce que Dieu a choisi,
+        >pour réduire à rien ce qui est ;
+        ainsi aucun être de chair ne pourra s’enorgueillir devant Dieu.
+        C’est grâce à Dieu, en effet, que vous êtes dans le Christ Jésus,
+        >lui qui est devenu pour nous sagesse venant de Dieu,
+        >justice, sanctification, rédemption.
+        Ainsi, comme il est écrit :
+        >Celui qui veut être fier,
+        >qu’il mette sa fierté dans le Seigneur.
+        Parole du Seigneur.
+    - biblicalRef: '1 Co 12, 31 - 13, 13 (lecture brève : 1 Co 13, 4-13)'
+      headline: |-
+        « L’amour ne passera jamais »
+      content: |-
+        Frères,
+        recherchez avec ardeur les dons les plus grands.
+        Et maintenant, je vais vous indiquer le chemin par excellence.
+        J’aurais beau parler toutes les langues
+        >des hommes et des anges,
+        si je n’ai pas la charité, s’il me manque l’amour,
+        je ne suis qu’un cuivre qui résonne,
+        >une cymbale retentissante.
+        J’aurais beau être prophète,
+        >avoir toute la science des mystères
+        >et toute la connaissance de Dieu,
+        j’aurais beau avoir toute la foi
+        >jusqu’à transporter les montagnes,
+        s’il me manque l’amour,
+        >je ne suis rien.
+        J’aurais beau distribuer toute ma fortune aux affamés,
+        >j’aurais beau me faire brûler vif,
+        s’il me manque l’amour,
+        >cela ne me sert à rien.
+        L’amour prend patience ;
+        >l’amour rend service ;
+        l’amour ne jalouse pas ;
+        >il ne se vante pas, ne se gonfle pas d’orgueil ;
+        il ne fait rien d’inconvenant ;
+        >il ne cherche pas son intérêt ;
+        il ne s’emporte pas ;
+        >il n’entretient pas de rancune ;
+        il ne se réjouit pas de ce qui est injuste,
+        >mais il trouve sa joie dans ce qui est vrai ;
+        il supporte tout, il fait confiance en tout,
+        >il espère tout, il endure tout.
+        L’amour ne passera jamais.
+        Les prophéties seront dépassées,
+        >le don des langues cessera,
+        >la connaissance actuelle sera dépassée.
+        En effet, notre connaissance est partielle,
+        >nos prophéties sont partielles.
+        Quand viendra l’achèvement,
+        >ce qui est partiel sera dépassé.
+        Quand j’étais petit enfant,
+        >je parlais comme un enfant,
+        >je pensais comme un enfant,
+        >je raisonnais comme un enfant.
+        Maintenant que je suis un homme,
+        >j’ai dépassé ce qui était propre à l’enfant.
+        Nous voyons actuellement de manière confuse,
+        >comme dans un miroir ;
+        >ce jour-là, nous verrons face à face.
+        Actuellement, ma connaissance est partielle ;
+        ce jour-là, je connaîtrai parfaitement,
+        >comme j’ai été connu.
+        Ce qui demeure aujourd’hui,
+        >c’est la foi, l’espérance et la charité ;
+        mais la plus grande des trois,
+        >c’est la charité.
+        
+    - biblicalRef: 2 Co 10, 17 - 11, 2
+      headline: |-
+        « Vous êtes l’épouse vierge et pure que j’ai présentée au Christ »
+      content: |-
+        Frères,
+        >celui qui veut être fier,
+        >qu’il mette sa fierté dans le Seigneur.
+        Celui dont on reconnaît la valeur
+        n’est pas celui qui se recommande lui-même,
+        >c’est celui que le Seigneur recommande.
+        Pourriez-vous supporter de ma part un peu de folie ?
+        Oui, de ma part, vous allez le supporter,
+        >à cause de mon amour jaloux
+        >qui est l’amour même de Dieu pour vous.
+        Car je vous ai unis au seul Époux :
+        vous êtes la vierge pure que j’ai présentée au Christ.
+    - biblicalRef: Ga 2, 19-20
+      headline: |-
+        « Je vis, mais ce n’est plus moi, c’est le Christ qui vit en moi »
+      content: |-
+        Frères,
+        par la Loi, je suis mort à la Loi
+        >afin de vivre pour Dieu ;
+        avec le Christ, je suis crucifié.
+        Je vis, mais ce n’est plus moi,
+        >c’est le Christ qui vit en moi.
+        Ce que je vis aujourd’hui dans la chair,
+        >je le vis dans la foi au Fils de Dieu
+        >qui m’a aimé et s’est livré lui-même pour moi.
+        
+    - biblicalRef: Ga 6, 14-16
+      headline: |-
+        « Par la croix, le monde est crucifié pour moi, et moi pour le monde »
+      content: |-
+        Frères,
+        pour moi, que la croix de notre Seigneur Jésus Christ
+        >reste ma seule fierté.
+        Par elle, le monde est crucifié pour moi,
+        >et moi pour le monde.
+        Ce qui compte, ce n’est pas d’être circoncis ou incirconcis,
+        >c’est d’être une création nouvelle.
+        Pour tous ceux qui marchent selon cette règle de vie
+        >et pour l’Israël de Dieu,
+        paix et miséricorde.
+        
+    - biblicalRef: Ep 3, 14-19
+      headline: |-
+        « Vous connaîtrez ce qui dépasse toute connaissance : l’amour du Christ »
+      content: |-
+        Frères,
+        je tombe à genoux devant le Père,
+        >de qui toute paternité au ciel et sur la terre tient son nom.
+        Lui qui est si riche en gloire,
+        qu’il vous donne la puissance de son Esprit,
+        >pour que se fortifie en vous l’homme intérieur.
+        Que le Christ habite en vos cœurs par la foi ;
+        >restez enracinés dans l’amour, établis dans l’amour.
+        Ainsi vous serez capables de comprendre avec tous les fidèles
+        >quelle est la largeur, la longueur, la hauteur, la profondeur...
+        Vous connaîtrez ce qui dépasse toute connaissance :
+        >l’amour du Christ.
+        Alors vous serez comblés
+        >jusqu’à entrer dans toute la plénitude de Dieu.
+        
+    - biblicalRef: Ep 6, 10-13.18
+      headline: |-
+        « Revêtez l’équipement de combat donné par Dieu »
+      content: |-
+        Frères,
+        puisez votre énergie dans le Seigneur
+        >et dans la vigueur de sa force.
+        Revêtez l’équipement de combat donné par Dieu,
+        >afin de pouvoir tenir contre les manœuvres du diable.
+        Car nous ne luttons pas contre des êtres de sang et de chair,
+        mais contre les Dominateurs de ce monde de ténèbres,
+        >les Principautés, les Souverainetés,
+        >les esprits du mal qui sont dans les régions célestes.
+        Pour cela, prenez l’équipement de combat donné par Dieu ;
+        >ainsi, vous pourrez résister
+        quand viendra le jour du malheur,
+        >et tout mettre en œuvre pour tenir bon.
+        En toute circonstance,
+        >que l’Esprit vous donne de prier et de supplier :
+        restez éveillés,
+        >soyez assidus à la supplication pour tous les fidèles.
+        
+    - biblicalRef: Ph 3, 8-14
+      headline: |-
+        « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut dans le Christ Jésus »
+      content: |-
+        Frères,
+        tous les avantages que j’avais autrefois,
+        je les considère comme une perte
+        à cause de ce bien qui dépasse tout :
+        >la connaissance du Christ Jésus, mon Seigneur.
+        À cause de lui, j’ai tout perdu ;
+        je considère tout comme des ordures,
+        >afin de gagner un seul avantage, le Christ,
+        et, en lui, d’être reconnu juste,
+        >non pas de la justice venant de la loi de Moïse
+        mais de celle qui vient de la foi au Christ,
+        >la justice venant de Dieu, qui est fondée sur la foi.
+        Il s’agit pour moi de connaître le Christ,
+        >d’éprouver la puissance de sa résurrection
+        et de communier aux souffrances de sa Passion,
+        >en devenant semblable à lui dans sa mort,
+        avec l’espoir de parvenir
+        >à la résurrection d’entre les morts.
+        Certes, je n’ai pas encore obtenu cela,
+        >je n’ai pas encore atteint la perfection,
+        mais je poursuis ma course pour tâcher de saisir,
+        >puisque j’ai moi-même été saisi par le Christ Jésus.
+        Frères, quant à moi, je ne pense pas avoir déjà saisi cela.
+        Une seule chose compte :
+        >oubliant ce qui est en arrière, et lancé vers l’avant,
+        je cours vers le but en vue du prix
+        >auquel Dieu nous appelle là-haut dans le Christ Jésus.
+        
+    - biblicalRef: Ph 4, 4-9
+      headline: |-
+        « Ce qui est juste et pur, prenez-le à votre compte »
+      content: |-
+        Frères,
+        soyez toujours dans la joie du Seigneur ;
+        >je le redis : soyez dans la joie.
+        Que votre bienveillance soit connue de tous les hommes.
+        Le Seigneur est proche.
+        Ne soyez inquiets de rien,
+        mais, en toute circonstance,
+        >priez et suppliez, tout en rendant grâce,
+        >pour faire connaître à Dieu vos demandes.
+        Et la paix de Dieu,
+        >qui dépasse tout ce qu’on peut concevoir,
+        gardera vos cœurs et vos pensées dans le Christ Jésus.
+        Enfin, mes frères, tout ce qui est vrai et noble,
+        tout ce qui est juste et pur,
+        tout ce qui est digne d’être aimé et honoré,
+        tout ce qui s’appelle vertu
+        >et qui mérite des éloges,
+        tout cela, prenez-le en compte.
+        Ce que vous avez appris et reçu,
+        >ce que vous avez vu et entendu de moi,
+        mettez-le en pratique.
+        Et le Dieu de la paix sera avec vous.
+        
+    - biblicalRef: Col 3, 12-17
+      headline: |-
+        « Par-dessus tout cela, ayez l’amour, qui est le lien le plus parfait »
+      content: |-
+        Frères,
+        puisque vous avez été choisis par Dieu,
+        >que vous êtes sanctifiés, aimés par lui,
+        revêtez-vous de tendresse et de compassion,
+        >de bonté, d’humilité, de douceur et de patience.
+        Supportez-vous les uns les autres,
+        et pardonnez-vous mutuellement
+        >si vous avez des reproches à vous faire.
+        Le Seigneur vous a pardonné :
+        >faites de même.
+        Par-dessus tout cela, ayez l’amour,
+        >qui est le lien le plus parfait.
+        Et que, dans vos cœurs, règne la paix du Christ
+        >à laquelle vous avez été appelés,
+        >vous qui formez un seul corps.
+        Vivez dans l’action de grâce.
+        Que la parole du Christ habite en vous
+        >dans toute sa richesse ;
+        instruisez-vous et reprenez-vous les uns les autres
+        >en toute sagesse ;
+        >par des psaumes, des hymnes et des chants inspirés,
+        chantez à Dieu, dans vos cœurs, votre reconnaissance.
+        Et tout ce que vous dites, tout ce que vous faites,
+        que ce soit toujours au nom du Seigneur Jésus,
+        en offrant par lui votre action de grâce à Dieu le Père.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 1-12a
+      headline: |-
+        « Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! »
+      acclamationAntiphon: |-
+        Heureux les pauvres de cœur,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        voyant les foules, Jésus gravit la montagne.
+        Il s’assit, et ses disciples s’approchèrent de lui.
+        Alors, ouvrant la bouche, il les enseignait.
+        Il disait :
+        >« Heureux les pauvres de cœur,
+        >car le royaume des Cieux est à eux.
+        Heureux ceux qui pleurent,
+        >car ils seront consolés.
+        Heureux les doux,
+        >car ils recevront la terre en héritage.
+        Heureux ceux qui ont faim et soif de la justice,
+        >car ils seront rassasiés.
+        Heureux les miséricordieux,
+        >car ils obtiendront miséricorde.
+        Heureux les cœurs purs,
+        >car ils verront Dieu.
+        Heureux les artisans de paix,
+        >car ils seront appelés fils de Dieu.
+        Heureux ceux qui sont persécutés pour la justice,
+        >car le royaume des Cieux est à eux.
+        Heureux êtes-vous si l’on vous insulte,
+        >si l’on vous persécute
+        >et si l’on dit faussement toute sorte de mal contre vous,
+        >à cause de moi.
+        Réjouissez-vous, soyez dans l’allégresse,
+        >car votre récompense est grande dans les cieux ! »
+    - biblicalRef: Mt 5, 13-16
+      headline: |-
+        « Vous êtes la lumière du monde »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Vous êtes le sel de la terre.
+        Mais si le sel devient fade,
+        >comment lui rendre de la saveur ?
+        Il ne vaut plus rien :
+        >on le jette dehors et il est piétiné par les gens.
+        Vous êtes la lumière du monde.
+        Une ville située sur une montagne
+        >ne peut être cachée.
+        Et l’on n’allume pas une lampe
+        >pour la mettre sous le boisseau ;
+        >on la met sur le lampadaire,
+        >et elle brille pour tous ceux qui sont dans la maison.
+        De même, que votre lumière brille devant les hommes :
+        >alors, voyant ce que vous faites de bien,
+        >ils rendront gloire à votre Père qui est aux cieux. »
+    - biblicalRef: Mt 7, 21-27
+      headline: |-
+        La maison construite sur le roc et la maison construite sur le sable
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur, sont esprit et elles sont vie ;
+        tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Ce n’est pas en me disant : "Seigneur, Seigneur !"
+        >qu’on entrera dans le royaume des Cieux,
+        mais c’est en faisant la volonté de mon Père qui est aux cieux.
+        Ce jour-là, beaucoup me diront :
+        >"Seigneur, Seigneur,
+        >n’est-ce pas en ton nom que nous avons prophétisé,
+        >en ton nom que nous avons expulsé les démons,
+        >en ton nom que nous avons fait beaucoup de miracles ?"
+        Alors je leur déclarerai :
+        >"Je ne vous ai jamais connus.
+        Écartez-vous de moi, vous qui commettez le mal !"
+        Ainsi, celui qui entend les paroles que je dis là
+        >et les met en pratique
+        est comparable à un homme prévoyant
+        >qui a construit sa maison sur le roc.
+        La pluie est tombée, les torrents ont dévalé,
+        >les vents ont soufflé et se sont abattus sur cette maison ;
+        la maison ne s’est pas écroulée,
+        >car elle était fondée sur le roc.
+        Et celui qui entend de moi ces paroles
+        >sans les mettre en pratique
+        est comparable à un homme insensé
+        >qui a construit sa maison sur le sable.
+        La pluie est tombée, les torrents ont dévalé,
+        >les vents ont soufflé, ils sont venus battre cette maison ;
+        la maison s’est écroulée,
+        >et son écroulement a été complet. »
+    - biblicalRef: Mt 11, 25-30
+      headline: |-
+        « Ce que tu as caché aux sages et aux savants, tu l’as révélé aux tout-petits »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là,
+        Jésus prit la parole et dit :
+        >« Père, Seigneur du ciel et de la terre,
+        >je proclame ta louange :
+        >ce que tu as caché aux sages et aux savants,
+        >tu l’as révélé aux tout-petits.
+        Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
+        Tout m’a été remis par mon Père ;
+        >personne ne connaît le Fils, sinon le Père,
+        >et personne ne connaît le Père, sinon le Fils,
+        >et celui à qui le Fils veut le révéler.
+        Venez à moi,
+        >vous tous qui peinez sous le poids du fardeau,
+        >et moi, je vous procurerai le repos.
+        Prenez sur vous mon joug,
+        >devenez mes disciples,
+        >car je suis doux et humble de cœur,
+        >et vous trouverez le repos pour votre âme.
+        Oui, mon joug est facile à porter,
+        >et mon fardeau, léger. »
+    - biblicalRef: Mt 13, 44-46
+      headline: |-
+        « Dans sa joie, il va vendre tout ce qu’il possède, et il achète ce champ »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là,
+        Jésus disait aux foules :
+        >« Le royaume des Cieux est comparable
+        >à un trésor caché dans un champ ;
+        >l’homme qui l’a découvert le cache de nouveau.
+        Dans sa joie, il va vendre tout ce qu’il possède,
+        >et il achète ce champ.
+        Ou encore :
+        Le royaume des Cieux est comparable
+        >à un négociant qui recherche des perles fines.
+        Ayant trouvé une perle de grande valeur,
+        >il va vendre tout ce qu’il possède,
+        >et il achète la perle. »
+    - biblicalRef: Mt 16, 24-27
+      headline: |-
+        « Qui perd sa vie à cause de moi la trouvera »
+      acclamationAntiphon: |-
+        Restez éveillés et priez en tout temps :
+        ainsi vous pourrez vous tenir debout devant le Fils de l’homme.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Si quelqu’un veut marcher à ma suite,
+        >qu’il renonce à lui-même,
+        >qu’il prenne sa croix
+        >et qu’il me suive.
+        Car celui qui veut sauver sa vie
+        >la perdra,
+        >mais qui perd sa vie à cause de moi
+        >la trouvera.
+        Quel avantage, en effet, un homme aura-t-il
+        >à gagner le monde entier,
+        >si c’est au prix de sa vie ?
+        Et que pourra-t-il donner en échange de sa vie ?
+        Car le Fils de l’homme va venir avec ses anges
+        >dans la gloire de son Père ;
+        >alors il rendra à chacun selon sa conduite. »
+    - biblicalRef: Mt 22, 34-40
+      headline: |-
+        « Tu aimeras le Seigneur ton Dieu, et ton prochain comme toi-même »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là,
+        les pharisiens,
+        >apprenant que Jésus avait fermé la bouche aux sadducéens,
+        se réunirent,
+        et l’un d’entre eux, un docteur de la Loi, posa une question à Jésus
+        pour le mettre à l’épreuve :
+        >« Maître, dans la Loi,
+        >quel est le grand commandement ? »
+        Jésus lui répondit :
+        >« Tu aimeras le Seigneur ton Dieu
+        >de tout ton cœur,
+        >de toute ton âme et de tout ton esprit.
+        Voilà le grand, le premier commandement.
+        Et le second lui est semblable :
+        >Tu aimeras ton prochain comme toi-même.
+        De ces deux commandements dépend toute la Loi,
+        >ainsi que les Prophètes. »
+    - biblicalRef: Lc 6, 27-38
+      headline: |-
+        « Soyez miséricordieux comme votre Père est miséricordieux »
+      acclamationAntiphon: |-
+        Venez à moi,
+        vous tous qui peinez sous le poids du fardeau, dit le Seigneur,
+        et moi, je vous procurerai le repos.
+      content: |-
+        En ce temps-là,
+        Jésus déclarait à ses disciples :
+        >« Je vous le dis, à vous qui m’écoutez :
+        >Aimez vos ennemis,
+        >faites du bien à ceux qui vous haïssent.
+        Souhaitez du bien à ceux qui vous maudissent,
+        >priez pour ceux qui vous calomnient.
+        À celui qui te frappe sur une joue,
+        >présente l’autre joue.
+        À celui qui te prend ton manteau,
+        >ne refuse pas ta tunique.
+        Donne à quiconque te demande,
+        >et à qui prend ton bien, ne le réclame pas.
+        Ce que vous voulez que les autres fassent pour vous,
+        >faites-le aussi pour eux.
+        Si vous aimez ceux qui vous aiment,
+        >quelle reconnaissance méritez-vous ?
+        Même les pécheurs aiment ceux qui les aiment.
+        Si vous faites du bien à ceux qui vous en font,
+        >quelle reconnaissance méritez-vous ?
+        Même les pécheurs en font autant.
+        Si vous prêtez à ceux dont vous espérez recevoir en retour,
+        >quelle reconnaissance méritez-vous ?
+        Même les pécheurs prêtent aux pécheurs
+        >pour qu’on leur rende l’équivalent.
+        Au contraire, aimez vos ennemis,
+        >faites du bien et prêtez sans rien espérer en retour.
+        Alors votre récompense sera grande,
+        >et vous serez les fils du Très-Haut,
+        >car lui, il est bon pour les ingrats et les méchants.
+        Soyez miséricordieux comme votre Père est miséricordieux.
+        Ne jugez pas, et vous ne serez pas jugés ;
+        >ne condamnez pas, et vous ne serez pas condamnés.
+        Pardonnez, et vous serez pardonnés.
+        Donnez, et l’on vous donnera :
+        >c’est une mesure bien pleine, tassée, secouée, débordante,
+        >qui sera versée dans le pan de votre vêtement ;
+        >car la mesure dont vous vous servez pour les autres
+        >servira de mesure aussi pour vous. »
+    - biblicalRef: Lc 10, 38-42
+      headline: |-
+        « Marthe reçut Jésus. Marie a choisi la meilleure part »
+      acclamationAntiphon: |-
+        Si quelqu’un m’aime, il gardera ma parole,
+        dit le Seigneur ;
+        mon Père l’aimera, et nous viendrons vers lui.
+      content: |-
+        En ce temps-là,
+        Jésus entra dans un village.
+        Une femme nommée Marthe le reçut.
+        Elle avait une sœur appelée Marie
+        >qui, s’étant assise aux pieds du Seigneur,
+        >écoutait sa parole.
+        Quant à Marthe, elle était accaparée
+        >par les multiples occupations du service.
+        Elle intervint et dit :
+        >« Seigneur, cela ne te fait rien
+        >que ma sœur m’ait laissé faire seule le service ?
+        Dis-lui donc de m’aider. »
+        Le Seigneur lui répondit :
+        >« Marthe, Marthe, tu te donnes du souci
+        >et tu t’agites pour bien des choses.
+        Une seule est nécessaire.
+        Marie a choisi la meilleure part,
+        >elle ne lui sera pas enlevée. »
+    - biblicalRef: Lc 12, 35-40
+      headline: |-
+        « Vous aussi, tenez-vous prêts »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        >« Restez en tenue de service,
+        >votre ceinture autour des reins,
+        >et vos lampes allumées.
+        Soyez comme des gens qui attendent leur maître
+        >à son retour des noces,
+        >pour lui ouvrir dès qu’il arrivera et frappera à la porte.
+        Heureux ces serviteurs-là que le maître, à son arrivée,
+        >trouvera en train de veiller.
+        Amen, je vous le dis :
+        >c’est lui qui, la ceinture autour des reins,
+        >les fera prendre place à table
+        >et passera pour les servir.
+        S’il revient vers minuit ou vers trois heures du matin
+        >et qu’il les trouve ainsi,
+        >heureux sont-ils !
+        Vous le savez bien :
+        >si le maître de maison avait su à quelle heure le voleur viendrait,
+        >il n’aurait pas laissé percer le mur de sa maison.
+        Vous aussi, tenez-vous prêts :
+        >c’est à l’heure où vous n’y penserez pas
+        >que le Fils de l’homme viendra. »
+    - biblicalRef: Jn 15, 1-8
+      headline: |-
+        « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        >« Moi, je suis la vraie vigne,
+        >et mon Père est le vigneron.
+        Tout sarment qui est en moi,
+        >mais qui ne porte pas de fruit,
+        >mon Père l’enlève ;
+        tout sarment qui porte du fruit,
+        >il le purifie en le taillant,
+        >pour qu’il en porte davantage.
+        Mais vous, déjà vous voici purifiés
+        >grâce à la parole que je vous ai dite.
+        Demeurez en moi, comme moi en vous.
+        De même que le sarment
+        ne peut pas porter de fruit par lui-même
+        >s’il ne demeure pas sur la vigne,
+        de même vous non plus,
+        >si vous ne demeurez pas en moi.
+        Moi, je suis la vigne,
+        >et vous, les sarments.
+        Celui qui demeure en moi
+        >et en qui je demeure,
+        celui-là porte beaucoup de fruit,
+        >car, en dehors de moi, vous ne pouvez rien faire.
+        Si quelqu’un ne demeure pas en moi,
+        >il est, comme le sarment, jeté dehors,
+        >et il se dessèche.
+        Les sarments secs, on les ramasse,
+        >on les jette au feu, et ils brûlent.
+        Si vous demeurez en moi,
+        >et que mes paroles demeurent en vous,
+        demandez tout ce que vous voulez,
+        >et cela se réalisera pour vous.
+        Ce qui fait la gloire de mon Père,
+        c’est que vous portiez beaucoup de fruit
+        >et que vous soyez pour moi des disciples. »
+        >Acclamons la Parole de Dieu.
+    - biblicalRef: Jn 15, 9-17
+      headline: |-
+        « Je ne vous appelle plus serviteurs, je vous appelle mes amis »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        >« Comme le Père m’a aimé,
+        >moi aussi je vous ai aimés.
+        Demeurez dans mon amour.
+        Si vous gardez mes commandements,
+        >vous demeurerez dans mon amour,
+        >comme moi, j’ai gardé les commandements de mon Père,
+        >et je demeure dans son amour.
+        Je vous ai dit cela pour que ma joie soit en vous,
+        >et que votre joie soit parfaite.
+        Mon commandement, le voici :
+        >Aimez-vous les uns les autres
+        >comme je vous ai aimés.
+        Il n’y a pas de plus grand amour
+        >que de donner sa vie pour ceux qu’on aime.
+        Vous êtes mes amis
+        >si vous faites ce que je vous commande.
+        Je ne vous appelle plus serviteurs,
+        >car le serviteur ne sait pas ce que fait son maître ;
+        >je vous appelle mes amis,
+        >car tout ce que j’ai entendu de mon Père,
+        >je vous l’ai fait connaître.
+        Ce n’est pas vous qui m’avez choisi,
+        >c’est moi qui vous ai choisis et établis
+        >afin que vous alliez,
+        >que vous portiez du fruit,
+        >et que votre fruit demeure.
+        Alors, tout ce que vous demanderez au Père en mon nom,
+        >il vous le donnera.
+        Voici ce que je vous commande :
+        >c’est de vous aimer les uns les autres. »
+    - biblicalRef: Jn 17, 20-26
+      headline: |-
+        « Je veux que là où je suis, ils soient eux aussi avec moi »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là,
+        les yeux levés au ciel, Jésus priait ainsi :
+        >« Père saint,
+        >je ne prie pas seulement pour ceux qui sont là,
+        >mais encore pour ceux qui, grâce à leur parole, croiront en moi.
+        Que tous soient un,
+        >comme toi, Père, tu es en moi, et moi en toi.
+        Qu’ils soient un en nous, eux aussi,
+        >pour que le monde croie que tu m’as envoyé.
+        Et moi, je leur ai donné la gloire que tu m’as donnée,
+        >pour qu’ils soient un comme nous sommes UN :
+        >moi en eux, et toi en moi.
+        Qu’ils deviennent ainsi parfaitement un,
+        >afin que le monde sache que tu m’as envoyé,
+        >et que tu les as aimés comme tu m’as aimé.
+        Père,
+        >ceux que tu m’as donnés,
+        >je veux que là où je suis,
+        >ils soient eux aussi avec moi,
+        >et qu’ils contemplent ma gloire,
+        >celle que tu m’as donnée
+        >parce que tu m’as aimé avant la fondation du monde.
+        Père juste,
+        >le monde ne t’a pas connu,
+        >mais moi, je t’ai connu,
+        et ceux-ci ont reconnu
+        >que tu m’as envoyé,
+        Je leur ai fait connaître ton nom,
+        >et je le ferai connaître,
+        pour que l’amour dont tu m’as aimé soit en eux,
+        >et que moi aussi, je sois en eux. »
+        >Acclamons la Parole de Dieu.
+  offeringPrayer:
+  - |-
+    Grâce à l’offrande qui t’est présentée, Seigneur,
+    >en la mémoire de saint N., * 
+    accorde largement à tes fidèles / 
+    >les dons de l’unité et de la paix. 
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - saints_1
+  - saints_2
+  communionAntiphon:
+  - biblicalReference: cf. Mt 16, 24
+    content: |-
+      Si quelqu’un veut marcher à ma suite, 
+      qu’il renonce à lui-même, qu’il prenne sa croix, 
+      >et qu’il me suive, dit le Seigneur.
+  - biblicalReference: cf. Mt 6,33
+    content: |-
+      [rubric]Pour un dirigeant politique[/rubric]
+      Cherchez d’abord le royaume de Dieu, 
+      >et tout vous sera donné par surcroît, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, 
+    >que cette communion à ton sacrement, 
+    >reçue en mémoire de saint N., * 
+    sanctifie nos esprits et nos cœurs, / 
+    >pour que nous devenions participants de la nature divine. 
+    Par le Christ, notre Seigneur.

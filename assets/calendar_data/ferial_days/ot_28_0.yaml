@@ -59,8 +59,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 129,3-4
+    content: |-
+      Si tu retiens les fautes, Seigneur,
+      Seigneur, qui subsistera ?
+      Mais près de toi se trouve le pardon,
+      >Dieu d’Israël.
+  collect:
+  - |-
+    Nous t’en prions, Seigneur : *
+    >que ta grâce nous devance
+    >et qu’elle nous accompagne toujours, /
+    >pour nous rendre attentifs
+    >à faire le bien sans relâche.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -455,8 +470,36 @@ mass:
         pour revenir sur ses pas et rendre gloire à Dieu ! »
          Jésus lui dit :
         « Relève-toi et va : ta foi t’a sauvé. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Avec l’offrande de ce sacrifice,
+    >accueille, Seigneur, les prières de tes fidèles ; *
+    >que cette liturgie célébrée avec ferveur /
+    >nous fasse parvenir à la gloire du ciel.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: cf. Ps 33,11
+    content: |-
+      Des riches ont tout perdu, ils ont faim ;
+      >qui cherche le Seigneur ne manquera d’aucun bien.
+  - biblicalReference: cf. 1Jn 3,2
+    content: |-
+      Quand le Seigneur sera manifesté,
+      nous lui serons semblables
+      >car nous le verrons tel qu’il est.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, Dieu de majesté, +
+    >nous t’en supplions humblement : *
+    >puisque tu nous as nourris
+    >du Corps et du Sang très saints, /
+    >rends-nous participants de la nature divine.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

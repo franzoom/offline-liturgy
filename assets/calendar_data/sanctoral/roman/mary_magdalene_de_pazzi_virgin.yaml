@@ -37,4 +37,88 @@ readings:
       Dieu qui sonde les cœurs
       connaît les désirs de l’Esprit.
 
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu aimes la virginité,
+    et tu as comblé de dons surnaturels
+    >sainte Marie-Madeleine de Pazzi
+    >qui brûlait d’amour pour toi ; *
+    >puisque nous la célébrons aujourd’hui,
+    >accorde-nous d’imiter l’exemple/
+    >de sa pureté et de sa charité.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1Co 7, 25-35
+      headline: « La femme qui reste vierge a le souci des affaires du Seigneur »
+      content: |-
+        Frères,
+        au sujet du célibat, je n’ai pas un ordre du Seigneur,
+        mais je donne mon avis,
+        moi qui suis devenu digne de confiance
+        grâce à la miséricorde du Seigneur.
+        Je pense que le célibat est une chose bonne,
+        étant donné les nécessités présentes ;
+        oui, c’est une chose bonne de vivre ainsi.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 148, 1-2, 7a.11a.12, 13-14a
+      refAbbr: null
+      chorus:
+      - chorusRef: null
+        chorus: Alléluia !
+      - chorusRef: cf. 148, 12a.13a
+        chorus: |-
+          ou : Jeunes gens et jeunes filles,
+          louez le nom du Seigneur.
+      content: |-
+        Louez le Seigneur du haut des cieux,
+        louez-le dans les hauteurs.
+        Vous, tous ses anges, louez-le,
+        louez-le, tous les univers.
 
+        Louez le Seigneur depuis la terre,
+        les rois de la terre et tous les peuples,
+        tous les jeunes gens et jeunes filles,
+        les vieillards comme les enfants.
+
+        Qu’ils louent le nom du Seigneur,
+        le seul au-dessus de tout nom ;
+        sur le ciel et sur la terre, sa splendeur :
+        il accroît la vigueur de son peuple.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 3, 31-35
+      headline: « Celui qui fait la volonté de Dieu, celui-là est pour moi un frère, une sœur, une mère »
+      acclamationAntiphon: |-
+        Si vous demeurez dans ma parole,
+        vous êtes vraiment mes disciples ;
+        alors vous connaîtrez la vérité, dit le Seigneur.
+      content: |-
+        En ce temps-là,
+        comme Jésus était dans une maison,
+        arrivent sa mère et ses frères.
+        Restant au-dehors, ils le font appeler.
+        Une foule était assise autour de lui ;
+        et on lui dit :
+        « Voici que ta mère et tes frères sont là dehors :
+        ils te cherchent. »
+        Mais il leur répond :
+        « Qui est ma mère ? qui sont mes frères ? »
+        Et parcourant du regard
+        ceux qui étaient assis en cercle autour de lui,
+        il dit :
+        « Voici ma mère et mes frères.
+        Celui qui fait la volonté de Dieu,
+        celui-là est pour moi un frère, une sœur, une mère. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

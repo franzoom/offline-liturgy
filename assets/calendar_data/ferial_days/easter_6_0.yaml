@@ -234,8 +234,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 48,20
+    content: |-
+      Avec des cris de joie, répandez la nouvelle,
+      >portez-la jusqu’aux extrémités de la terre :
+      >le Seigneur a libéré son peuple, alléluia.
+  collect:
+  - |-
+    Dieu tout-puissant, +
+    >accorde-nous, en ces jours de fête,
+    >de célébrer avec ferveur le Seigneur ressuscité : *
+    puissions-nous mettre en œuvre fidèlement /
+    >tout ce dont nous avons fait mémoire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -642,8 +656,29 @@ mass:
         avant qu’elles n’arrivent ;
         ainsi, lorsqu’elles arriveront,
         vous croirez. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Que nos prières montent vers toi, Seigneur,
+    avec ces offrandes pour le sacrifice ; *
+    dans ta bonté purifie-nous, /
+    >et nous serons mieux préparés
+    >au sacrement de ton amour infini.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 14,15-16
+    content: |-
+      Si vous m’aimez, dit le Seigneur,
+      >vous garderez mes commandements.
+      Moi, je prierai le Père et il vous donnera un autre Défenseur
+      >qui sera pour toujours avec vous, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >dans la résurrection du Christ,
+    >tu nous recrées pour la vie éternelle ; *
+    multiplie en nous les fruits du sacrement pascal : /
+    >répands en nos cœurs la force
+    >de cette nourriture qui apporte le salut.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

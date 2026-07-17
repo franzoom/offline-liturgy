@@ -143,8 +143,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 9.5
+    content: |-
+      Un enfant nous est né,
+      >un fils nous a été donné !
+      Sur son épaule est le signe du pouvoir ;
+      >on proclame son nom : Ange du grand conseil.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >tu as voulu que l’origine et l’achèvement de toute la religion
+    >se trouvent dans la naissance de ton Fils ; *
+    nous t’en prions, accorde-nous d’être comptés
+    >parmi ceux qui appartiennent au Christ /
+    >en qui réside la plénitude du salut de l’humanité.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -254,8 +269,39 @@ mass:
         le Fils unique, lui qui est Dieu,
         lui qui est dans le sein du Père,
         c’est lui qui l’a fait connaître.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu,
+    >source de la piété véritable et de la paix, +
+    >nous t’en prions, accorde-nous
+    >d’honorer dignement ta gloire par cette offrande, *
+    que, dans la participation fidèle aux saints mystères,
+    >nous prenions davantage conscience de notre unité.
+    Par le Christ, notre Seigneur.
+  offeringPrayer: |-
+    Reçois, Seigneur, nous t’en prions,
+    >les offrandes de tes fidèles serviteurs ; *
+    purifie-les quand ils célèbrent avec amour tes mystères,
+    >par lesquels tu rends justes /
+    >même ceux qui ne te connaissent pas.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  eucharisticPrayers: christmas
+  communionAntiphon:
+  - biblicalReference: 1Jn 4,9
+    content: |-
+      Dieu a envoyé son Fils unique dans le monde
+      >pour que nous vivions par lui.
+  prayerAfterCommunion:
+  - |-
+    Ton peuple, Seigneur, a besoin de multiples secours
+    >pour sa traversée d’ici-bas ; +
+    que ta tendresse lui accorde ceux de la vie présente
+    >comme ceux de la vie future : *
+    trouvant alors le réconfort nécessaire dans les choses qui passent, /
+    >il recherchera les biens éternels avec plus de confiance.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

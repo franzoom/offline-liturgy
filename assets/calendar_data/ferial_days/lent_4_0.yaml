@@ -269,8 +269,24 @@ mass:
   - massType: day_mass
     name: Messe du jour
     note: null
-    entranceAntiphon: null
-    collect: null
+    entranceAntiphon:
+    - biblicalReference: cf. Is 66,10-11
+      content: |-
+        Réjouis-toi, Jérusalem ;
+        >vous tous qui l’aimez, rassemblez-vous.
+        Jubilez de sa joie, vous qui étiez dans la tristesse ;
+        >alors vous exulterez, vous serez rassasiés de consolation.
+    collect:
+    - |-
+      Seigneur Dieu, +
+      >par ton Verbe incarné
+      >tu as merveilleusement réconcilié avec toi le genre humain ; *
+      accorde au peuple chrétien
+      >de se hâter avec un amour généreux et une foi ardente /
+      >au-devant des fêtes pascales qui approchent.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
     readingParts:
       - partType: READING
         partContents:
@@ -847,8 +863,55 @@ mass:
               et il est revenu à la vie ;
               il était perdu,
               et il est retrouvé ! »
-    offeringPrayer: null
-    prefaceList: null
-    communionAntiphon: null
-    prayerAfterCommunion: null
+    offeringPrayer:
+    - |-
+      Seigneur, nous te présentons dans la joie
+      >l’eucharistie qui assure la guérison éternelle, +
+      >et nous te prions humblement : *
+      accorde-nous de la vénérer avec foi /
+      >et de l’offrir avec respect pour le salut du monde.
+      Par le Christ, notre Seigneur.
+    prefaceList:
+    - sundays_in_lent_4
+    - sundays_in_lent_1
+    - sundays_in_lent_2
+    communionAntiphon:
+    - condition: Quand on a lu l’évangile de l’Aveugle-né
+      biblicalReference: cf. Jn 9,11.38
+      content: |-
+        Le Seigneur a mis de la boue sur mes yeux,
+        je suis allé me laver, j’ai vu,
+        >et j’ai cru en Dieu.
+    - condition: Quand on a lu l’évangile de l’Enfant prodigue
+      biblicalReference: cf. Lc 15,32
+      content: |-
+        Il faut te réjouir, mon fils,
+        >car ton frère qui était mort est revenu à la vie ;
+        >il était perdu, et il est retrouvé !
+    - condition: Dans les autres cas
+      biblicalReference: Ps 121,3-4
+      content: |-
+        Jérusalem, te voici dans tes murs :
+        >ville où tout ensemble ne fait qu’un !
+        C’est là que montent les tribus,
+        >les tribus du Seigneur,
+        pour rendre grâce à ton nom, Seigneur.
+    prayerAfterCommunion:
+    - |-
+      Dieu qui éclaires tout homme venant dans ce monde, +
+      >nous t’en prions : illumine nos cœurs
+      >par la splendeur de ta grâce, *
+      que nos pensées soient toujours dignes de toi,
+      >et accordées à ta grandeur, /
+      et qu’ainsi nous puissions t’aimer sincèrement.
+      Par le Christ, notre Seigneur.
+    prayerOnThePeople:
+    - |-
+      Protège, Seigneur, ceux qui te supplient, +
+      >soutiens les faibles,
+      >fais revivre sans cesse par ta lumière
+      >ceux qui marchent dans les ténèbres de la mort, *
+      et accorde à ceux que ton amour a délivrés de tout mal, /
+      >de parvenir aux biens suprêmes.
+      Par le Christ, notre Seigneur.
     solemnBlessingList: null

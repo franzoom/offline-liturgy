@@ -55,3 +55,53 @@ vespers:
     - psalm: NT_6
       antiphon:
         - Tu es l’image du Dieu invisible, le premier-né avant toute créature.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon:
+  - biblicalReference: Is 9,2
+    content: |-
+      Le peuple qui marchait dans les ténèbres
+      >a vu se lever une grande lumière ;
+      et sur les habitants du pays de l’ombre de la mort
+      >une lumière a resplendi.
+  collect:
+  - |-
+    Dieu tout-puissant, nous t’en prions : +
+    >puisque ton salut s’est manifesté pour la rédemption du monde
+    >par une lumière nouvelle dans les cieux, /
+    qu’il se lève en nos cœurs
+    >pour les renouveler toujours.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu,
+    >source de la piété véritable et de la paix, +
+    >nous t’en prions, accorde-nous
+    d’honorer dignement ta gloire par cette offrande, *
+    >que, dans la participation fidèle aux saints mystères,
+    >nous prenions davantage conscience de notre unité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: 1Jn 1,2
+    content: |-
+      La vie, qui était auprès du Père, s’est manifestée
+      >et nous est apparue.
+  prayerAfterCommunion:
+  - |-
+    Ton peuple, Seigneur, a besoin de multiples secours
+    >pour sa traversée d’ici-bas ; +
+    que ta tendresse lui accorde ceux de la vie présente
+    >comme ceux de la vie future : *
+    trouvant alors le réconfort nécessaire dans les choses qui passent, /
+    >il recherchera les biens éternels avec plus de confiance.
+    Par le Christ, notre Seigneur.
+  solemnBlessingList: null

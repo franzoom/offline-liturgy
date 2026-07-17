@@ -30,3 +30,132 @@ readings:
 
         Force et dignité la revêtent,
         elle rit au jour qui vient.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à sainte Élisabeth de Hongrie
+    >de reconnaître et de vénérer le Christ dans les pauvres ; *
+    accorde-nous, par son intercession,
+    >de servir avec une inépuisable charité /
+    >ceux qui sont dans le besoin et dans l’épreuve.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Jn 3, 14-18
+      headline: « Nous aussi, nous devons donner notre vie pour nos frères »
+      content: |-
+        Bien-aimés,
+        nous savons que nous sommes passés de la mort à la vie,
+        >parce que nous aimons nos frères.
+        Celui qui n’aime pas
+        >demeure dans la mort.
+        Quiconque a de la haine contre son frère
+        >est un meurtrier,
+        et vous savez que pas un meurtrier
+        >n’a la vie éternelle demeurant en lui.
+        Voici comment nous avons reconnu l’amour :
+        >lui, Jésus, a donné sa vie pour nous.
+        Nous aussi, nous devons donner notre vie pour nos frères.
+        Celui qui a de quoi vivre en ce monde,
+        >s’il voit son frère dans le besoin
+        >sans faire preuve de compassion,
+        comment l’amour de Dieu pourrait-il demeurer en lui ?
+        Petits enfants,
+        n’aimons pas en paroles ni par des discours,
+        >mais par des actes et en vérité.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+      refAbbr: 33, 2a
+      chorus:
+      - chorusRef: 33, 2a
+        chorus: Je bénirai le Seigneur en tout temps.
+      - chorusRef: cf. 33, 9a
+        chorus: |-
+          Goûtez et voyez
+          comme est bon le Seigneur.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+
+        Saints du Seigneur, adorez-le :
+        rien ne manque à ceux qui le craignent.
+        Des riches ont tout perdu, ils ont faim ;
+        qui cherche le Seigneur ne manquera d’aucun bien.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 6, 27-38
+      headline: « Soyez miséricordieux comme votre Père est miséricordieux »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        Jésus déclarait à ses disciples :
+        >« Je vous le dis, à vous qui m’écoutez :
+        >Aimez vos ennemis,
+        >faites du bien à ceux qui vous haïssent.
+        Souhaitez du bien à ceux qui vous maudissent,
+        >priez pour ceux qui vous calomnient.
+        À celui qui te frappe sur une joue,
+        >présente l’autre joue.
+        À celui qui te prend ton manteau,
+        >ne refuse pas ta tunique.
+        Donne à quiconque te demande,
+        >et à qui prend ton bien, ne le réclame pas.
+        Ce que vous voulez que les autres fassent pour vous,
+        >faites-le aussi pour eux.
+        Si vous aimez ceux qui vous aiment,
+        >quelle reconnaissance méritez-vous ?
+        Même les pécheurs aiment ceux qui les aiment.
+        Si vous faites du bien à ceux qui vous en font,
+        >quelle reconnaissance méritez-vous ?
+        Même les pécheurs en font autant.
+        Si vous prêtez à ceux dont vous espérez recevoir en retour,
+        >quelle reconnaissance méritez-vous ?
+        Même les pécheurs prêtent aux pécheurs
+        >pour qu’on leur rende l’équivalent.
+        Au contraire, aimez vos ennemis,
+        >faites du bien et prêtez sans rien espérer en retour.
+        Alors votre récompense sera grande,
+        >et vous serez les fils du Très-Haut,
+        >car lui, il est bon pour les ingrats et les méchants.
+        Soyez miséricordieux comme votre Père est miséricordieux.
+        Ne jugez pas, et vous ne serez pas jugés ;
+        >ne condamnez pas, et vous ne serez pas condamnés.
+        Pardonnez, et vous serez pardonnés.
+        Donnez, et l’on vous donnera :
+        >c’est une mesure bien pleine, tassée, secouée, débordante,
+        >qui sera versée dans le pan de votre vêtement ;
+        >car la mesure dont vous vous servez pour les autres
+        >servira de mesure aussi pour vous. »
+        >Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

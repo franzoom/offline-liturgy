@@ -59,8 +59,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 69,2. 6
+    content: |-
+      Dieu, viens à mon aide,
+      >Seigneur, viens vite à mon secours.
+      Tu es mon secours, mon libérateur,
+      >Seigneur, ne tarde pas !
+  collect:
+  - |-
+    Sois proche, Seigneur, de ceux qui te servent +
+    >et montre à ceux qui t’implorent ton éternelle bonté ; *
+    >c’est leur fierté d’avoir en toi leur Créateur et leur Guide :
+    restaure pour eux ta création, /
+    >et l’ayant renouvelée, protège-la.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -441,8 +456,36 @@ mass:
         qui l’aura ?’
          Voilà ce qui arrive à celui qui amasse pour lui-même,
         au lieu d’être riche en vue de Dieu. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Dans ta bonté, sanctifie ces dons,
+    nous t’en prions, Seigneur ; *
+    accepte le sacrifice spirituel que nous t’offrons,/
+    et fais de nous-mêmes
+    >une éternelle offrande pour toi.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Sg 16,20
+    content: |-
+      Tu nous as donné, Seigneur, le pain venu du ciel,
+      >pain aux multiples saveurs
+      >qui comble tous les goûts.
+  - biblicalReference: Jn 6,35
+    content: |-
+      Je suis le pain de la vie, dit le Seigneur,
+      celui qui vient à moi n’aura jamais faim,
+      celui qui croit en moi n’aura jamais soif.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, entoure d’une constante protection
+    ceux que tu as renouvelés par le don du ciel ; * puisque tu ne cesses de les réconforter, /
+    rends-les dignes de la rédemption éternelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

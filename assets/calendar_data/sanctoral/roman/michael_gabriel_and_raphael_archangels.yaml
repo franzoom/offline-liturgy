@@ -194,3 +194,134 @@ vespers:
       
       Que ton archange saint Michel
       guide vers ta lumière tous les fidèles défunts.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 102,20
+    content: |-
+      Anges du Seigneur, bénissez le Seigneur,
+      >invincibles porteurs de ses ordres,
+      >attentifs au son de sa parole !
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >avec une sagesse admirable,
+    >tu assignes leurs fonctions aux anges et aux hommes ; *
+    >nous t’en prions :
+    >fais que notre vie soit protégée sur la terre /
+    >par ceux qui, dans le ciel,
+    >servent toujours en ta présence.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Dn 7, 9-10.13-14
+      headline: |-
+        « Des millions d’êtres le servaient »
+      content: |-
+        La nuit, au cours d’une vision,
+        >moi, Daniel, je regardais :
+        des trônes furent disposés,
+        >et un Vieillard prit place ;
+        son habit était blanc comme la neige,
+        >et les cheveux de sa tête, comme de la laine immaculée ;
+        son trône était fait de flammes de feu,
+        >avec des roues de feu ardent.
+        Un fleuve de feu coulait, qui jaillissait devant lui.
+        Des milliers de milliers le servaient,
+        >des myriades de myriades se tenaient devant lui.
+        Le tribunal prit place et l’on ouvrit des livres.
+        Je regardais, au cours des visions de la nuit,
+        et je voyais venir, avec les nuées du ciel,
+        >comme un Fils d’homme ;
+        il parvint jusqu’au Vieillard,
+        >et on le fit avancer devant lui.
+        Et il lui fut donné
+        >domination, gloire et royauté ;
+        tous les peuples, toutes les nations et les gens de toutes langues
+        >le servirent.
+        Sa domination est une domination éternelle,
+        >qui ne passera pas,
+        et sa royauté,
+        >une royauté qui ne sera pas détruite.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 137 (138), 1-2a, 2bc-3, 4-5
+      refAbbr: 137, 1c
+      chorus:
+      - chorusRef: 137, 1c
+        chorus: |-
+          Je te chante, Seigneur,
+          en présence des anges.
+      content: |-
+        De tout mon cœur, Seigneur, je te rends grâce :
+        tu as entendu les paroles de ma bouche.
+        Je te chante en présence des anges,
+        vers ton temple sacré, je me prosterne.
+
+        Je rends grâce à ton nom pour ton amour et ta vérité,
+        car tu élèves, au-dessus de tout, ton nom et ta parole.
+        Le jour où tu répondis à mon appel,
+        tu fis grandir en mon âme la force.
+
+        Tous les rois de la terre te rendent grâce
+        quand ils entendent les paroles de ta bouche.
+        Ils chantent les chemins du Seigneur :
+        « Qu’elle est grande, la gloire du Seigneur ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 1, 47-51
+      headline: |-
+        « Vous verrez les anges de Dieu monter et descendre au-dessus du Fils de l’homme »
+      acclamationAntiphon: |-
+        Tous les anges du Seigneur, bénissez le Seigneur :
+        à lui, haute gloire, louange éternelle !
+      content: |-
+        En ce temps-là,
+        lorsque Jésus vit Nathanaël venir à lui,
+        il déclara à son sujet :
+        >« Voici vraiment un Israélite :
+        >il n’y a pas de ruse en lui. »
+        Nathanaël lui demande :
+        >« D’où me connais-tu ? »
+        Jésus lui répond :
+        >« Avant que Philippe t’appelle,
+        >quand tu étais sous le figuier,
+        >je t’ai vu. »
+        Nathanaël lui dit :
+        >« Rabbi, c’est toi le Fils de Dieu !
+        C’est toi le roi d’Israël ! »
+        Jésus reprend :
+        >« Je te dis que je t’ai vu sous le figuier,
+        >et c’est pour cela que tu crois !
+        Tu verras des choses plus grandes encore. »
+        Et il ajoute :
+        >« Amen, amen, je vous le dis :
+        >vous verrez le ciel ouvert,
+        >et les anges de Dieu monter et descendre
+        >au-dessus du Fils de l’homme. »
+  offeringPrayer:
+  - |-
+    Le sacrifice de louange ; *
+    >porté par les anges en présence de ta gloire,
+    >nous te l’offrons, Seigneur,
+    >avec nos humbles prières  :*
+    accueille-le favorablement, /
+    >pour qu’il nous obtienne le salut.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Ps 137,1
+    content: |-
+      De tout mon cœur, Seigneur, je te rends grâce :
+      >je te chante en présence des anges.
+  prayerAfterCommunion:
+  - |-
+    Réconfortés par le pain du ciel,
+    >nous te supplions, Seigneur : *
+    >puissions-nous, avec cette force neuve
+    >et sous la fidèle protection de tes Anges, /
+    >avancer courageusement dans la voie du salut.
+    Par le Christ, notre Seigneur.

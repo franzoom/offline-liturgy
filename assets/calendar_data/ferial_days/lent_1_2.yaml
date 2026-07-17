@@ -184,8 +184,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 89,1-2
+    content: |-
+      D’âge en âge Seigneur, tu as été notre refuge ;
+      >de toujours à toujours, toi, tu es Dieu.
+  collect:
+  - |-
+    Regarde ta famille, Seigneur ; *
+    >et fais que notre esprit,
+    >affiné par la discipline imposée à notre corps, /
+    >resplendisse à tes yeux du désir de te trouver.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -265,8 +277,40 @@ mass:
         votre Père céleste vous pardonnera aussi.
         Mais si vous ne pardonnez pas aux hommes,
         votre Père non plus ne pardonnera pas vos fautes. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Dieu, créateur tout-puissant, +
+    accepte nos présents, reçus de ta grande générosité ; *
+    tu nous les as donnés comme secours pour notre vie sur la terre : /
+    >dans ta bonté, transforme-les en vue de la vie éternelle.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 4,2
+    content: |-
+      Quand je crie, réponds-moi,
+      >Dieu, ma justice !
+      Toi qui me libères dans la détresse,
+      >pitié pour moi, écoute ma prière !
+  prayerAfterCommunion:
+  - |-
+    Seigneur, nous te prions : +
+    >tandis que nous modérons nos désirs terrestres, *
+    >qu’il nous soit donné, par ces mystères, /
+    >d’apprendre à aimer les biens du ciel.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Que tes fidèles, Seigneur Dieu,
+    trouvent en ta bénédiction
+    >une force nouvelle : *
+    sois pour eux consolation dans la tristesse,
+    >patience dans l’épreuve, /
+    >secours dans le péril.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

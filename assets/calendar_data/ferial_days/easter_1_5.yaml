@@ -178,8 +178,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 77,53
+    content: |-
+      Le Seigneur a fait sortir son peuple dans l’espérance,
+      >et la mer a englouti leurs ennemis, alléluia.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >par le mystère pascal,
+    >tu as rétabli l’humanité dans ton alliance ; *
+    accorde-nous d’exprimer dans nos actes /
+    >la foi que nos célébrations proclament.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   sequence:
   - victimae-paschali-laudes
   readingParts:
@@ -331,9 +344,27 @@ mass:
         C’était la troisième fois
         que Jésus ressuscité d’entre les morts
         se manifestait à ses disciples.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accomplis en nous, Seigneur, dans ta bonté +
+    >l’échange qui fait participer au mystère pascal, *
+    >afin de passer des attachements terrestres /
+    >au désir du ciel.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. Jn 21,12-13
+    content: |-
+      Au bord du lac, Jésus invite ses disciples :
+      >« Venez, mangez ! »
+      Puis il prend le pain et le leur donne, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur,
+    >ne cesse pas de protéger avec tendresse
+    >ceux que tu as sauvés : *
+    la passion de ton Fils les a rachetés, /
+    >qu’ils trouvent leur joie dans sa résurrection.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList:
   - easter_blessing

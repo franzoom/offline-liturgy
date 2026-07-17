@@ -70,8 +70,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 83,10-11
+    content: |-
+      Dieu, notre protecteur, regarde :
+      >vois le visage de ton Christ ;
+      un jour dans tes parvis
+      >en vaut plus que mille.
+  collect:
+  - |-
+    Pour ceux qui t’aiment, Seigneur Dieu,
+    >tu as préparé des biens que l’œil ne peut voir : *
+    >répands en nos cœurs la ferveur de ta charité,
+    >afin que t’aimant en toute chose et par-dessus tout, /
+    >nous obtenions de toi l’héritage promis
+    >qui surpasse tout désir.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -411,8 +427,36 @@ mass:
         et la fille contre la mère,
         la belle-mère contre la belle-fille
         et la belle-fille contre la belle-mère. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur,
+    >ce que nous présentons pour cette eucharistie
+    >où s’accomplit un admirable échange, *
+    en offrant ce que tu nous as donné, /
+    >puissions-nous te recevoir toi-même.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 129,7
+    content: |-
+      Oui, auprès du Seigneur, la miséricorde ; près de lui abonde le rachat.
+  - biblicalReference: Jn 6,51
+    content: |-
+      Je suis le pain vivant, qui est descendu du ciel, dit le Seigneur ;
+      Si quelqu’un mange de ce pain,
+      >il vivra éternellement.
+  prayerAfterCommunion:
+  - |-
+    Par ces sacrements, Seigneur,
+    >tu nous as unis au Christ, /
+    >et nous implorons humblement ta bonté : *
+    sur la terre, transforme-nous à son image, /
+    >pour que nous puissions partager sa vie dans le ciel.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

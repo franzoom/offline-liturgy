@@ -44,3 +44,141 @@ vespers:
     common:
     - |-
       Joie pour les saints qui ont suivit le Christ : ils ont versé leur sang pour lui, avec lui ils règnent à jamais.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Joie dans le ciel pour les âmes des saints
+      >qui ont suivi les traces du Christ ;
+      ils ont répandu leur sang par amour pour lui :
+      >avec lui, ils exultent sans fin.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >les bienheureuses martyres Perpétue et Félicité,
+    >saisies d’amour pour toi,
+    >ont surmonté les tourments de la mort
+    >au mépris de la persécution ; *
+    donne-nous, à leur prière, /
+    >de grandir sans cesse dans ton amour.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 8, 31b-39
+      headline: « Ni la mort ni la vie ne pourra nous séparer de l’amour de Dieu »
+      content: |-
+        Frères,
+        si Dieu est pour nous,
+        qui sera contre nous ?
+        Il n’a pas épargné son propre Fils,
+        mais il l’a livré pour nous tous :
+        comment pourrait-il, avec lui,
+        ne pas nous donner tout ?
+        Qui accusera ceux que Dieu a choisis ?
+        Dieu est celui qui rend juste :
+        alors, qui pourra condamner ?
+        Le Christ Jésus est mort ;
+        bien plus, il est ressuscité,
+        il est à la droite de Dieu,
+        il intercède pour nous :
+        alors, qui pourra nous séparer de l’amour du Christ ?
+        la détresse ? l’angoisse ? la persécution ?
+        la faim ? le dénuement ? le danger ? le glaive ?
+        En effet, il est écrit :
+        C’est pour toi qu’on nous massacre sans arrêt,
+        qu’on nous traite en brebis d’abattoir.
+        Mais, en tout cela nous sommes les grands vainqueurs
+        grâce à celui qui nous a aimés.
+        J’en ai la certitude :
+        ni la mort ni la vie,
+        ni les anges ni les Principautés célestes,
+        ni le présent ni l’avenir,
+        ni les Puissances, ni les hauteurs, ni les abîmes,
+        ni aucune autre créature,
+        rien ne pourra nous séparer de l’amour de Dieu
+        qui est dans le Christ Jésus notre Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+      refAbbr: null
+      content: |-
+        Sans le Seigneur qui était pour nous
+        quand des hommes nous assaillirent,
+        alors ils nous avalaient tout vivants,
+        dans le feu de leur colère.
+
+        Alors le flot passait sur nous,
+        le torrent nous submergeait ;
+        alors nous étions submergés
+        par les flots en furie.
+
+        Béni soit le Seigneur
+        qui n’a pas fait de nous
+        la proie de leurs dents !
+        Comme l’oiseau, nous avons échappé
+        au filet de l’oiseleur.
+
+        Le filet s’est rompu :
+        nous avons échappé.
+        Notre secours est dans le nom du Seigneur
+        qui a fait le ciel et la terre.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 34-39
+      headline: « Je ne suis pas venu apporter la paix, mais le glaive »
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        « Ne pensez pas que je sois venu
+        apporter la paix sur la terre :
+        je ne suis pas venu apporter la paix, mais le glaive.
+        Oui, je suis venu séparer
+        l’homme de son père,
+        la fille de sa mère,
+        la belle-fille de sa belle-mère :
+        on aura pour ennemis les gens de sa propre maison.
+        Celui qui aime son père ou sa mère plus que moi
+        n’est pas digne de moi ;
+        celui qui aime son fils ou sa fille plus que moi
+        n’est pas digne de moi ;
+        celui qui ne prend pas sa croix et ne me suit pas
+        n’est pas digne de moi.
+        Qui a trouvé sa vie
+        la perdra ;
+        qui a perdu sa vie à cause de moi
+        la trouvera. »
+  offeringPrayer:
+  - |-
+    En rappelant la victoire qui ouvrit le ciel
+    >aux bienheureuses Perpétue et Félicité,
+    >nous t’offrons avec joie, Seigneur,
+    >le sacrifice de ce jour ; *
+    par lui, nous proclamons tes merveilles, /
+    >heureux de pouvoir compter
+    >sur leur intercession dans la gloire.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: 2Co 4,11
+    content: |-
+      Nous sommes livrés à la mort à cause de Jésus,
+      afin que la vie de Jésus, elle aussi, soit manifestée
+      >dans notre condition charnelle vouée à la mort.
+  prayerAfterCommunion:
+  - |-
+    Alors que nous faisons mémoire
+    >des bienheureuses Perpétue et Félicité,
+    >nous te supplions humblement, Seigneur : /
+    En prenant part à ce sacrement,
+    >nous avons goûté aux joies éternelles ;*
+    ce que nous accomplissons par ta grâce en serviteurs fidèles,
+    >puissions-nous l’accueillir
+    >dans un esprit accordé à tes propres dons.
+    Par le Christ, notre Seigneur.

@@ -199,8 +199,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 30,2.5
+    content: |-
+      En toi, Seigneur, j’ai mon refuge ;
+      >garde-moi d’être humilié pour toujours.
+      Tu m’arraches au filet qu’ils m’ont tendu,
+      >oui, c’est toi mon abri.
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : *
+    >en ce temps où notre effort de pénitence nous purifie,
+    >accorde-nous de parvenir dans la droiture de l’esprit /
+    >aux fêtes pascales qui approchent.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -353,8 +367,38 @@ mass:
         Tout en cherchant à l’arrêter,
         ils eurent peur des foules,
         parce qu’elles le tenaient pour un prophète.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur Dieu, +
+    >que ta tendresse devance tes serviteurs,
+    >comme toi seul sais le faire ; *
+    qu’elle les conduise par la sainteté de leur vie /
+    >à célébrer pleinement ces mystères.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: 1Jn 4,10
+    content: |-
+      Dieu nous a aimés et il a envoyé son Fils
+      >pour qu’il obtienne le pardon de nos péchés.
+  prayerAfterCommunion:
+  - |-
+    Nous avons reçu, Seigneur,
+    >le gage du salut éternel,
+    et nous te prions : *
+    >accorde-nous de tendre vers lui /
+    >de manière à y parvenir.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >donne à ton peuple le salut de l’âme et du corps ; *
+    >qu’en s’attachant à faire le bien, /
+    >il puisse compter toujours sur ta protection.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

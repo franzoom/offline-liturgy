@@ -59,8 +59,25 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 47,10-11
+    content: |-
+      Dieu, nous accueillons ta miséricorde
+      >au milieu de ton temple.
+      Ta louange, comme ton nom, Seigneur Dieu,
+      >couvre l’étendue de la terre.
+      Ta main droite est pleine de justice.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >par l’abaissement de ton Fils,
+    >tu as relevé le monde déchu ; +
+    donne à tes fidèles une joie sainte : *
+    tu les as tirés de l’esclavage du péché ; /
+    >fais-leur connaître le bonheur éternel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -426,8 +443,34 @@ mass:
         parce que les esprits vous sont soumis ;
         mais réjouissez-vous
         parce que vos noms se trouvent inscrits dans les cieux. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Puissions-nous être purifiés, Seigneur,
+    par l’offrande consacrée à ton nom ; *
+    qu’elle nous conduise, de jour en jour, /
+    >à vivre de la vie du ciel.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 33,9
+    content: |-
+      Goûtez et voyez : le Seigneur est bon !
+      Heureux qui trouve en lui son refuge !
+  - biblicalReference: Mt 11,28
+    content: |-
+      Venez à moi, vous tous qui peinez sous le poids du fardeau,
+      et moi, je vous procurerai le repos, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Comblés de si grands bienfaits,
+    nous te supplions, Seigneur : *
+    fais que nous en retirions des fruits pour notre salut /
+    >et que jamais nous ne cessions de chanter ta louange.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -59,8 +59,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Si 36,18 (grec 21-22)
+    content: |-
+      Donne la paix, Seigneur, à ceux qui t’attendent ;
+      >que tes prophètes soient reconnus dignes de foi.
+      Écoute les prières de ton serviteur,
+      >et de ton peuple Israël.
+  collect:
+  - |-
+    Dieu créateur et maître de tout, +
+    >pose sur nous ton regard, *
+    >et pour que nous ressentions l’effet de ton pardon, /
+    >accorde-nous de te servir avec un cœur sans partage.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -551,8 +565,37 @@ mass:
         et il est revenu à la vie ;
         il était perdu,
         et il est retrouvé ! »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Sois favorable à nos supplications, Seigneur, +
+    >et dans ta bonté accueille les offrandes de ceux qui te servent : *
+    >que les dons offerts par chacun en l’honneur de ton nom /
+    soient utiles au salut de tous.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 35,8
+    content: |-
+      Qu’elle est précieuse, ta miséricorde, ô mon Dieu !
+      Les hommes trouvent refuge à l’ombre de tes ailes.
+  - biblicalReference: cf. 1Co 10,16
+    content: |-
+      Le calice de bénédiction que nous bénissons
+      >est communion au sang du Christ.
+      Le pain que nous rompons
+      >est participation au corps du Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Que la force agissante de ce don divin,
+    nous t’en prions, Seigneur,
+    saisisse nos esprits et nos corps, *
+    afin que son influence, et non pas notre sentiment, /
+    >prédomine toujours en nous.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

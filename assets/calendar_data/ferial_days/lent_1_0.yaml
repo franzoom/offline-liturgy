@@ -235,8 +235,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 90,15-16
+    content: |-
+      Quand mon serviteur m’appelle, dit le Seigneur,
+      moi, je lui réponds.
+      Je veux le libérer, le glorifier ;
+      de longs jours, je veux le rassasier.
+  collect:
+  - |-
+    Dieu tout-puissant, +
+    toi qui nous invites chaque année
+    à vivre le Carême en vérité, *
+    donne-nous de progresser
+    dans l’intelligence du mystère du Christ /
+    et d’en rechercher la réalisation
+    par une vie qui lui corresponde.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -685,8 +701,43 @@ mass:
         %Tu ne mettras pas à l’épreuve le Seigneur ton Dieu. »%
          Ayant ainsi épuisé toutes les formes de tentations,
         le diable s’éloigna de Jésus jusqu’au moment fixé.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Alors que nous célébrons les débuts de ce temps très saint,
+    nous te prions, Seigneur : *
+    fais que nos cœurs correspondent vraiment /
+    aux offrandes que nous allons présenter.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_lent_1
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Mt 4,4
+    content: |-
+      L’homme ne vit pas seulement de pain,
+      >mais de toute parole qui sort de la bouche de Dieu.
+  - condition: null
+    biblicalReference: Ps 90,4
+    content: |-
+      Le Seigneur te couvre et te protège,
+      >tu trouves sous son aile un refuge.
+  prayerAfterCommunion:
+  - |-
+    Restaurés par le pain du ciel,
+    >qui nourrit la foi,
+    >stimule l’espérance
+    >et fortifie la charité,
+    nous t’en prions, Seigneur : *
+    >apprends-nous à toujours avoir faim
+    >de celui qui est le pain vivant et vrai, /
+    >et à vivre de toute parole qui sort de ta bouche.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Que descende sur ton peuple, Seigneur,
+    >l’abondance de ta bénédiction, *
+    afin que dans l’épreuve grandisse l’espérance,
+    >que dans la tentation s’affermisse le courage, /
+    >et que soit accordée la Rédemption éternelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -182,8 +182,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Mt 25,34
+    content: |-
+      Venez les bénis de mon Père,
+      recevez en héritage le Royaume
+      préparé pour vous depuis la fondation du monde, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu nous donnes chaque année
+    >la joie de fêter la résurrection du Seigneur ; *
+    à travers ces fêtes d’ici-bas
+    >accorde-nous, dans ta bonté,
+    >de parvenir aux joies éternelles.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
   sequence:
   - victimae-paschali-laudes
   readingParts:
@@ -336,9 +351,26 @@ mass:
         À leur tour, ils racontaient ce qui s’était passé sur la route,
         et comment le Seigneur s’était fait reconnaître par eux
         à la fraction du pain.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille, nous t’en prions, Seigneur,
+    >le sacrifice qui rachète l’humanité, *
+    >et dans ta bienveillance, /
+    >réalise en nous le salut de l’esprit et du corps.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. Lc 24,35
+    content: |-
+      Les disciples reconnurent le Seigneur Jésus
+      >à la fraction du pain, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Après avoir été purifiés
+    >de tout ce qui reste en nous de l’homme ancien,
+    >nous te prions, Seigneur : *
+    que le sacrement de ton Fils, reçu avec ferveur /
+    >nous fasse entrer dans la création nouvelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList:
   - easter_blessing

@@ -148,8 +148,31 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. 1P 2,9
+    content: |-
+      Peuple racheté par Dieu,
+      >vous tous, annoncez les merveilles
+      >de celui qui vous a appelés des ténèbres
+      >à son admirable lumière, alléluia.
+  collect:
+  - |-
+    Seigneur, efface le billet de la dette
+    >résultant de la loi du péché, *
+    puisque tu l’as déjà annulé pour nous dans le mystère pascal /
+    >par la résurrection du Christ ton Fils.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  - |-
+    Seigneur Dieu, +
+    >par les mystères de Pâques,
+    >tu as voulu ouvrir à tes fidèles la porte de la miséricorde ; *
+    regarde-nous et prends pitié de nous,
+    >afin qu’en suivant par ta grâce le chemin de ta volonté, /
+    >nous n’abandonnions jamais les sentiers de la vie.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -236,8 +259,29 @@ mass:
         Les disciples voulaient le prendre dans la barque ;
         aussitôt, la barque toucha terre
         là où ils se rendaient.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Dans ta bonté, sanctifie ces dons,
+    >nous t’en prions, Seigneur ; *
+    >accepte le sacrifice spirituel que nous t’offrons, /
+    et fais de nous-mêmes
+    >une éternelle offrande pour toi.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 17,24
+    content: |-
+      Père, ceux que tu m’as donnés,
+      je veux que là où je suis,
+      >ils soient eux aussi avec moi,
+      et qu’ils contemplent ma gloire,
+      >celle que tu m’as donnée, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, nous avons reçu
+    >les dons qui nous ont fait participer aux saints mystères,
+    >et nous te supplions humblement : *
+    ton Fils nous a demandé de les célébrer en mémoire de lui, /
+    >qu’ils augmentent en nous la charité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

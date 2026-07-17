@@ -32,3 +32,105 @@ readings:
         Ne soyons pas des hommes
         qui se dérobent et se perdent,
         mais des hommes de foi pour notre salut.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu inspirais au saint martyr Venceslas
+    >de préférer le royaume du ciel à celui de la terre ; *
+    >accorde-nous, par son intercession,
+    >la force de renoncer à nous-mêmes /
+    >pour nous attacher à toi de tout notre cœur.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 3, 14-17
+      headline: |-
+        « N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler »
+      content: |-
+        Bien-aimés,
+        s’il vous arrivait de souffrir pour la justice,
+        >heureux seriez-vous !
+        Comme dit l’Écriture :
+        >N’ayez aucune crainte de ces gens-là,
+        >ne vous laissez pas troubler.
+        Honorez dans vos cœurs
+        >la sainteté du Seigneur, le Christ.
+        Soyez prêts à tout moment à présenter une défense
+        >devant quiconque vous demande de rendre raison
+        >de l’espérance qui est en vous ;
+        >mais faites-le avec douceur et respect.
+        Ayez une conscience droite,
+        afin que vos adversaires soient pris de honte
+        >sur le point même où ils disent du mal de vous
+        >pour la bonne conduite que vous avez dans le Christ.
+        Car mieux vaudrait souffrir en faisant le bien,
+        >si c’était la volonté de Dieu,
+        >plutôt qu’en faisant le mal.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: 125, 1…
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 34-39
+      headline: |-
+        « Je ne suis pas venu apporter la paix, mais le glaive »
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        >« Ne pensez pas que je sois venu
+        >apporter la paix sur la terre :
+        je ne suis pas venu apporter la paix, mais le glaive.
+        Oui, je suis venu séparer
+        >l’homme de son père,
+        >la fille de sa mère,
+        >la belle-fille de sa belle-mère :
+        on aura pour ennemis les gens de sa propre maison.
+        Celui qui aime son père ou sa mère plus que moi
+        >n’est pas digne de moi ;
+        celui qui aime son fils ou sa fille plus que moi
+        >n’est pas digne de moi ;
+        celui qui ne prend pas sa croix et ne me suit pas
+        >n’est pas digne de moi.
+        Qui a trouvé sa vie
+        >la perdra ;
+        qui a perdu sa vie à cause de moi
+        >la trouvera. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

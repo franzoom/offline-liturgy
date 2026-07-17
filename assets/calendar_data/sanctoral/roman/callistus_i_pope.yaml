@@ -31,3 +31,104 @@ readings:
         
         Pour rendre toute pensée captive
         dans l’obéissance au Christ,
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as suscité le bienheureux pape Calliste
+    >pour servir ton Église et honorer les fidèles défunts ; *
+    nous t’en prions : fortifie-nous par le témoignage de sa foi
+    >afin que, libérés de l’esclavage de ce monde qui passe, /
+    >nous méritions d’obtenir l’héritage qui ne passe pas.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 5, 1-4
+      headline: « Soyez les bergers du troupeau de Dieu »
+      content: |-
+        Bien-aimés,
+        les anciens en fonction parmi vous, je les exhorte,
+        moi qui suis ancien comme eux
+        >et témoin des souffrances du Christ,
+        >communiant à la gloire qui va se révéler :
+        soyez les pasteurs du troupeau de Dieu qui se trouve chez vous ;
+        veillez sur lui, non par contrainte mais de plein gré,
+        >selon Dieu ;
+        non par cupidité mais par dévouement ;
+        non pas en commandant en maîtres à ceux qui vous sont confiés,
+        >mais en devenant les modèles du troupeau.
+        Et, quand se manifestera le Chef des pasteurs,
+        >vous recevrez la couronne de gloire qui ne se flétrit pas.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        chorus: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 22, 24-30
+      headline: « Je dispose pour vous du Royaume, comme mon Père en a disposé pour moi »
+      acclamationAntiphon: |-
+        Je vous appelle mes amis, dit le Seigneur,
+        car tout ce que j’ai entendu de mon Père,
+        je vous l’ai fait connaître.
+      content: |-
+        En ce temps-là,
+        les Apôtres en arrivèrent à se quereller :
+        >lequel d’entre eux, à leur avis, était le plus grand ?
+        Mais Jésus leur dit :
+        >« Les rois des nations
+        >les commandent en maîtres,
+        >et ceux qui exercent le pouvoir sur elles
+        >se font appeler bienfaiteurs.
+        Pour vous, rien de tel !
+        Au contraire, que le plus grand d’entre vous
+        >devienne comme le plus jeune,
+        >et le chef, comme celui qui sert.
+        Quel est en effet le plus grand :
+        >celui qui est à table, ou celui qui sert ?
+        N’est-ce pas celui qui est à table ?
+        Eh bien moi, je suis au milieu de vous
+        >comme celui qui sert.
+        Vous, vous avez tenu bon avec moi dans mes épreuves.
+        Et moi, je dispose pour vous du Royaume,
+        >comme mon Père en a disposé pour moi.
+        Ainsi vous mangerez et boirez à ma table
+        >dans mon Royaume,
+        >et vous siégerez sur des trônes
+        >pour juger les douze tribus d’Israël. »
+        >Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

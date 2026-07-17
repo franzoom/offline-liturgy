@@ -31,3 +31,146 @@ readings:
         Le Christ, notre paix, a détruit les séparations :
         en un seul corps,
         il nous rassemble par la croix.
+
+mass: 
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Fidèles à l’alliance du Seigneur et aux lois de leurs pères,
+      les saints de Dieu ont persévéré dans l’amour fraternel
+      >car ils avaient toujours un même esprit et une même foi.
+  collect:
+  - |-
+    Réveille en ton Église, Seigneur,
+    >l’Esprit dont fut rempli saint Josaphat,
+    >vrai berger qui donna sa vie pour ses brebis ; *
+    permets qu’avec l’appui de sa prière,
+    >et fortifiés par le même Esprit, /
+    >nous n’ayons pas peur de donner notre vie pour nos frères.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ep 4, 1-7.11-13
+      headline: « Pour que les tâches du ministère soient accomplies et que se construise le corps du Christ »
+      content: |-
+        Frères,
+        moi qui suis en prison à cause du Seigneur,
+        >je vous exhorte à vous conduire
+        >d’une manière digne de votre vocation :
+        ayez beaucoup d’humilité, de douceur et de patience,
+        >supportez-vous les uns les autres avec amour ;
+        ayez soin de garder l’unité dans l’Esprit
+        >par le lien de la paix.
+        Comme votre vocation vous a tous appelés à une seule espérance,
+        >de même il y a un seul Corps et un seul Esprit.
+        Il y a un seul Seigneur, une seule foi, un seul baptême,
+        un seul Dieu et Père de tous,
+        >au-dessus de tous,
+        >par tous, et en tous.
+        À chacun d’entre nous, la grâce a été donnée
+        >selon la mesure du don fait par le Christ.
+        Et les dons qu’il a faits,
+        >ce sont les Apôtres,
+        >et aussi les prophètes, les évangélisateurs,
+        >les pasteurs et ceux qui enseignent.
+        De cette manière, les fidèles sont organisés
+        >pour que les tâches du ministère soient accomplies
+        >et que se construise le corps du Christ,
+        jusqu’à ce que nous parvenions tous ensemble
+        >à l’unité dans la foi et la pleine connaissance du Fils de Dieu,
+        >à l’état de l’Homme parfait,
+        >à la stature du Christ dans sa plénitude.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 2a
+      chorus:
+      - chorusRef: 1, 2a
+        chorus: |-
+          Heureux qui se plaît
+          dans la loi du Seigneur.
+      content: |-
+        Heureux est l’homme
+        qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+        planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+        balayée par le vent.
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 17, 20-26
+      headline: « Je veux que là où je suis, ils soient eux aussi avec moi »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là,
+        les yeux levés au ciel, Jésus priait ainsi :
+        « Père saint,
+        je ne prie pas seulement pour ceux qui sont là,
+        mais encore pour ceux qui, grâce à leur parole, croiront en moi.
+        Que tous soient un,
+        comme toi, Père, tu es en moi, et moi en toi.
+        Qu’ils soient un en nous, eux aussi,
+        pour que le monde croie que tu m’as envoyé.
+        Et moi, je leur ai donné la gloire que tu m’as donnée,
+        pour qu’ils soient un comme nous sommes UN :
+        moi en eux, et toi en moi.
+        Qu’ils deviennent ainsi parfaitement un,
+        afin que le monde sache que tu m’as envoyé,
+        et que tu les as aimés comme tu m’as aimé.
+        Père,
+        ceux que tu m’as donnés,
+        je veux que là où je suis,
+        ils soient eux aussi avec moi,
+        et qu’ils contemplent ma gloire,
+        celle que tu m’as donnée
+        parce que tu m’as aimé avant la fondation du monde.
+        Père juste,
+        le monde ne t’a pas connu,
+        mais moi, je t’ai connu,
+        et ceux-ci ont reconnu
+        que tu m’as envoyé,
+        Je leur ai fait connaître ton nom,
+        et je le ferai connaître,
+        afin que l’amour dont tu m’as aimé soit en eux,
+        et moi en eux. »
+  offeringPrayer:
+  - |-
+    Dieu de toute clémence, +
+    >répands ta bénédiction sur ces offrandes, *
+    rends-nous fermes dans la foi /
+    >que saint Josaphat défendit
+    >jusqu’à répandre son sang pour toi.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Mt 10,39
+    content: |-
+      Qui aura perdu sa vie à cause de moi, dit le Seigneur,
+      >la gardera pour toujours.
+  prayerAfterCommunion:
+  - |-
+    Puissions-nous trouver, Seigneur, à la table du ciel
+    >un esprit de force et de paix : *
+    qu’à l’exemple de saint Josaphat,
+    >nous donnions notre vie sans réserve /
+    >pour l’honneur de l’Église et pour son unité.
+    Par le Christ, notre Seigneur.

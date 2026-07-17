@@ -195,8 +195,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 12,4-5
+    content: |-
+      Donne la lumière à mes yeux,
+      >garde-moi du sommeil de la mort,
+      que l’adversaire ne crie pas : Victoire !
+  collect:
+  - |-
+    Avec une inlassable bonté, Seigneur,
+    >veille sur ton Église ; *
+    >comme, sans toi, l’homme mortel succombe, /
+    puisse ton aide constante nous arracher au mal
+    >et nous diriger vers le salut.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -294,8 +308,37 @@ mass:
         Le plus grand parmi vous sera votre serviteur.
         Qui s’élèvera sera abaissé,
         qui s’abaissera sera élevé. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Par ces mystères, Seigneur, +
+    >daigne réaliser en nous ton œuvre de sanctification ; *
+    >qu’elle nous purifie des égarements de ce monde /
+    et nous conduise aux biens du ciel.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 9,2-3
+    content: |-
+      Je dirai tes innombrables merveilles ;
+      pour toi, j’exulterai, je danserai,
+      >je fêterai ton nom, Dieu Très-Haut.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >que ce repas, pris à la table sainte,
+    >nous aide à vivre plus saintement, /
+    et nous procure ton inépuisable pardon.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Sois favorable, Seigneur, aux supplications de tes fidèles, +
+    >et guéris-les de toute lassitude : *
+    après avoir reçu la grâce du pardon, /
+    >qu’ils éprouvent sans fin la joie de ta bénédiction.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

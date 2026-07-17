@@ -48,3 +48,151 @@ vespers:
     common: |-
       Qu’il soit béni, Celui qui nous donne tout :
       grâce à lui, nous pouvons tout.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: Ps 41,2-3
+    content: |-
+      Comme un cerf altéré cherche l’eau vive,
+      >ainsi mon âme te cherche, toi, mon Dieu.
+      Mon âme a soif de Dieu, le Dieu vivant.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as suscité par ton Esprit sainte Thérèse d’Avila
+    >pour montrer à l’Église
+    >le chemin de la perfection qu’elle doit rechercher ; *
+    fais-nous trouver notre nourriture dans sa doctrine spirituelle /
+    >et brûler du désir d’une vraie sainteté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 8, 22-27
+      headline: « L’Esprit intercède par des gémissements inexprimables »
+      content: |-
+        Frères,
+        nous le savons bien,
+        >la création tout entière gémit,
+        >elle passe par les douleurs d’un enfantement qui dure encore.
+        Et elle n’est pas seule.
+        Nous aussi, en nous-mêmes, nous gémissons ;
+        >nous avons commencé à recevoir l’Esprit Saint,
+        mais nous attendons notre adoption
+        >et la rédemption de notre corps.
+        Car nous avons été sauvés, mais c’est en espérance ;
+        >voir ce qu’on espère, ce n’est plus espérer :
+        >ce que l’on voit,
+        >comment peut-on l’espérer encore ?
+        Mais nous, qui espérons ce que nous ne voyons pas,
+        >nous l’attendons avec persévérance.
+        Bien plus, l’Esprit Saint vient au secours de notre faiblesse,
+        >car nous ne savons pas prier comme il faut.
+        L’Esprit lui-même intercède pour nous
+        >par des gémissements inexprimables.
+        Et Dieu, qui scrute les cœurs,
+        >connaît les intentions de l’Esprit
+        puisque c’est selon Dieu
+        >que l’Esprit intercède pour les fidèles.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 18B (19), 8, 9, 10, 11
+      refAbbr: 18B, 10cd
+      chorus:
+      - chorusRef: 18B, 10cd
+        chorus: |-
+          Les décisions du Seigneur sont justes
+          et vraiment équitables.
+      - chorusRef: cf. Jn 6, 63c
+        chorus: |-
+          ou : Tes paroles, Seigneur, sont esprit
+          et elles sont vie.
+      content: |-
+        La loi du Seigneur est parfaite,
+        qui redonne vie ;
+        la charte du Seigneur est sûre,
+        qui rend sages les simples.
+
+        Les préceptes du Seigneur sont droits,
+        ils réjouissent le cœur ;
+        le commandement du Seigneur est limpide,
+        il clarifie le regard.
+
+        La crainte qu’il inspire est pure,
+        elle est là pour toujours ;
+        les décisions du Seigneur sont justes
+        et vraiment équitables :
+
+        plus désirables que l’or,
+        qu’une masse d’or fin,
+        plus savoureuses que le miel
+        qui coule des rayons.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 1-8
+      headline: « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Moi, je suis la vraie vigne,
+        et mon Père est le vigneron.
+        Tout sarment qui est en moi,
+        mais qui ne porte pas de fruit,
+        mon Père l’enlève ;
+        tout sarment qui porte du fruit,
+        il le purifie en le taillant,
+        pour qu’il en porte davantage.
+        Mais vous, déjà vous voici purifiés
+        grâce à la parole que je vous ai dite.
+        Demeurez en moi, comme moi en vous.
+        De même que le sarment
+        ne peut pas porter de fruit par lui-même
+        s’il ne demeure pas sur la vigne,
+        de même vous non plus,
+        si vous ne demeurez pas en moi.
+        Moi, je suis la vigne,
+        et vous, les sarments.
+        Celui qui demeure en moi
+        et en qui je demeure,
+        celui-là porte beaucoup de fruit,
+        car, en dehors de moi, vous ne pouvez rien faire.
+        Si quelqu’un ne demeure pas en moi,
+        il est, comme le sarment, jeté dehors,
+        et il se dessèche.
+        Les sarments secs, on les ramasse,
+        on les jette au feu, et ils brûlent.
+        Si vous demeurez en moi,
+        et que mes paroles demeurent en vous,
+        demandez tout ce que vous voulez,
+        et cela se réalisera pour vous.
+        Ce qui fait la gloire de mon Père,
+        c’est que vous portiez beaucoup de fruit
+        et que vous soyez pour moi des disciples. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer:
+  - |-
+    Que nos offrandes puissent te plaire, Dieu de majesté,
+    >toi qui acceptas si volontiers
+    >l’hommage de l’amour empressé /
+    >de sainte Thérèse.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Ps 88,2
+    content: |-
+      L’amour du Seigneur, sans fin je le chante ;
+      >ta fidélité, je l’annonce d’âge en âge.
+  prayerAfterCommunion:
+  - |-
+    Seigneur notre Dieu, +
+    >donne à la famille de ceux qui te servent,
+    >déjà rassasiée par le pain du ciel,
+    de connaître, comme sainte Thérèse, /
+    >la joie de chanter ta miséricorde pour l’éternité.
+    Par le Christ, notre Seigneur.

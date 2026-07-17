@@ -3,7 +3,7 @@ celebration:
   subtitle: martyrs
   description: Jean de Brébeuf et Isaac Jogues sont les chefs de file des huit jésuites français qui furent massacrés pour le Christ en Amérique du Nord entre 1642 et 1649. Isaac Jogues, le premier, subit le martyre au pays des Iroquois près d’Auriesville, dans l’actuel État de New York ; Jean de Brébeuf périt au pays des Hurons en territoire canadien.
   commons:
-  - martyrs
+  - martyrs_missionnaries
   color: red
 
 oration:
@@ -27,3 +27,112 @@ readings:
         
         Qui aura tenu bon jusqu’à la fin,
         je lui donnerai la vie éternelle.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu manifester la bienheureuse espérance du Royaume éternel
+    >par l’action missionnaire et le sang versé de tes martyrs,
+    >saints Jean de Brébeuf, Isaac Jogues et leurs compagnons ; *
+    à leur intercession, donne aux chrétiens /
+    >une foi qui s’affermisse de jour en jour.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 4, 7-15
+      headline: « Nous portons, dans notre corps, la mort de Jésus »
+      content: |-
+        Frères,
+        nous portons un trésor comme dans des vases d’argile ;
+        ainsi, on voit bien que cette puissance extraordinaire
+        appartient à Dieu et ne vient pas de nous.
+        En toute circonstance, nous sommes dans la détresse,
+        mais sans être angoissés ;
+        nous sommes déconcertés,
+        mais non désemparés ;
+        nous sommes pourchassés,
+        mais non pas abandonnés ;
+        terrassés,
+        mais non pas anéantis.
+        Toujours nous portons, dans notre corps, la mort de Jésus,
+        afin que la vie de Jésus, elle aussi,
+        soit manifestée dans notre corps.
+        En effet, nous, les vivants,
+        nous sommes continuellement livrés à la mort à cause de Jésus,
+        afin que la vie de Jésus, elle aussi,
+        soit manifestée dans notre condition charnelle vouée à la mort.
+        Ainsi la mort fait son œuvre en nous,
+        et la vie en vous.
+        L’Écriture dit :
+        J’ai cru, c’est pourquoi j’ai parlé.
+        Et nous aussi, qui avons le même esprit de foi, nous croyons,
+        et c’est pourquoi nous parlons.
+        Car, nous le savons, celui qui a ressuscité le Seigneur Jésus
+        nous ressuscitera, nous aussi, avec Jésus,
+        et il nous placera près de lui avec vous.
+        Et tout cela, c’est pour vous,
+        afin que la grâce,
+        plus largement répandue dans un plus grand nombre,
+        fasse abonder l’action de grâce
+        pour la gloire de Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: cf. 125, 5
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 28, 16-20
+      headline: « De toutes les nations faites des disciples »
+      acclamationAntiphon: |-
+        Allez ! De toutes les nations faites des disciples,
+        dit le Seigneur.
+        Moi, je suis avec vous tous les jours
+        jusqu’à la fin du monde.
+      content: |-
+        En ce temps-là,
+        les onze disciples s’en allèrent en Galilée,
+        à la montagne où Jésus leur avait ordonné de se rendre.
+        Quand ils le virent, ils se prosternèrent,
+        mais certains eurent des doutes.
+        Jésus s’approcha d’eux et leur adressa ces paroles :
+        « Tout pouvoir m’a été donné au ciel et sur la terre.
+        Allez ! De toutes les nations faites des disciples :
+        baptisez-les au nom du Père, et du Fils, et du Saint-Esprit,
+        apprenez-leur à observer
+        tout ce que je vous ai commandé.
+        Et moi, je suis avec vous
+        tous les jours jusqu’à la fin du monde. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -184,8 +184,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ha 2,3; 1 Co 4,5
+    content: |-
+      Le Seigneur va venir sans tarder
+      >éclairer ce que voilent nos ténèbres
+      >et se manifester à toutes les nations.
+  collect:
+  - |-
+    Prépare nos cœurs, Seigneur notre Dieu,
+    >par ta puissance divine, *
+    pour qu’à la venue du Christ, ton Fils,
+    >nous soyons trouvés dignes
+    >de prendre part au banquet de la vie éternelle /
+    >et de recevoir, de sa main, la nourriture du ciel.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -290,8 +304,26 @@ mass:
         Tous mangèrent et furent rassasiés.
         On ramassa les morceaux qui restaient :
          cela faisait sept corbeilles pleines.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >accorde-nous de t’offrir toujours
+    >ce sacrifice d’un cœur généreux : *
+    qu’il réalise le mystère sacré que tu as institué, /
+    >et opère en nous ton salut avec puissance.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  communionAntiphon:
+  - biblicalReference: cf. Is 40,10; cf. 35,5
+    content: |-
+      Voici le Seigneur notre Dieu qui vient avec puissance ;
+      >il vient illuminer le regard de ceux qui le servent.
+  prayerAfterCommunion:
+  - |-
+    Nous implorons, Seigneur, ta bonté : *
+    >que ce réconfort divin
+    nous délivre de nos penchants mauvais /
+    >et nous prépare aux fêtes qui approchent.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

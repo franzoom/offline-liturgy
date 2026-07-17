@@ -181,8 +181,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 25,11-12
+    content: |-
+      Libère-moi, Seigneur, prends pitié de moi !
+      Sous mes pieds le terrain est sûr ;
+      >dans l’assemblée je bénirai le Seigneur.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >pour guérir nos âmes,
+    >tu nous prescris de discipliner nos corps ; *
+    fais que nous puissions nous garder de tout péché /
+    >et accomplir ainsi de tout cœur les préceptes de ton amour.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -264,8 +278,34 @@ mass:
         qui sera versée dans le pan de votre vêtement ;
         car la mesure dont vous vous servez pour les autres
         servira de mesure aussi pour vous. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille avec bienveillance nos prières, Seigneur, *
+    >et rends libres devant les séductions du monde /
+    >ceux que tu appelles à te servir en ces mystères divins.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Lc 6,36
+    content: |-
+      Soyez miséricordieux comme votre Père est miséricordieux,
+      >dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Que cette communion, Seigneur,
+    >nous purifie du péché /
+    >et nous donne part aux joies du ciel.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Affermis, Seigneur, le cœur de tes fidèles, +
+    >rends-les forts par la puissance de ta grâce, *
+    >afin qu’ils soient plus ardents à la prière /
+    >et sincères dans l’amour mutuel.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -4,8 +4,97 @@ celebration:
   description: Catherine, martyre d’Alexandrie au début du IV^ème siècle, était, selon une pieuse tradition, une jeune fille noble et instruite, capable de répondre de sa foi devant une assemblée de philosophes païens avant de subir son supplice. Depuis le mont Sinai, où un monastère très ancien porte son nom, son culte s’est répandu dans toute l’Église. Le Moyen Âge en a fait une de ses saintes les plus populaires, à laquelle sont rattachées de nombreuses coutumes.
   color: red
   commons:
-  - martyrs_female_virgin
+  - martyr_female_virgin
   - virgins
 
 oration:
 - Dieu éternel et tout puissant, tu as donné en exemple à ton peuple la bienheureuse Catherine d’Alexandrie, vierge et victorieuse dans le martyre ; par son intercession, fortifie notre foi et notre courage, et accorde-nous de travailler avec empressement pour l’unité de l’Église.
+
+mass:
+  massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >tu as donné en exemple à ton peuple
+    >la bienheureuse Catherine d’Alexandrie,
+    >vierge et victorieuse dans le martyre ; *
+    par son intercession, fortifie notre foi et notre courage, /
+    >et accorde-nous de travailler avec empressement
+    >pour l’unité de l’Église.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ap 21, 5-7
+      headline: « Tel sera l’héritage du vainqueur »
+      content: |-
+        Celui qui siégeait sur le Trône déclara :
+        « Voici que je fais toutes choses nouvelles. »
+        Et il dit :
+        « Écris,
+        car ces paroles sont dignes de foi et vraies. »
+        Puis il me dit :
+        « C’est fait.
+        Moi, je suis l’alpha et l’oméga,
+        le commencement et la fin.
+        À celui qui a soif,
+        moi, je donnerai l’eau de la source de vie,
+        gratuitement.
+        Tel sera l’héritage du vainqueur ;
+        je serai son Dieu,
+        et lui sera mon fils. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+      refAbbr: 123, 7ab
+      chorus:
+      - chorusRef: 123, 7ab
+        chorus: |-
+          Comme un oiseau, nous avons échappé
+          au filet du chasseur.
+      content: |-
+        Sans le Seigneur qui était pour nous
+        quand des hommes nous assaillirent,
+        alors ils nous avalaient tout vivants,
+        dans le feu de leur colère.
+
+        Alors le flot passait sur nous,
+        le torrent nous submergeait ;
+        alors nous étions submergés
+        par les flots en furie.
+
+        Béni soit le Seigneur !
+        Le filet s’est rompu : nous avons échappé.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 28-33
+      headline: « Ne craignez pas ceux qui tuent le corps »
+      acclamationAntiphon: |-
+        À toi, Dieu, notre louange !
+        Toi, dont témoignent les martyrs,
+        nous t’acclamons : tu es Seigneur !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        « Ne craignez pas ceux qui tuent le corps
+        sans pouvoir tuer l’âme ;
+        craignez plutôt celui qui peut faire périr dans la géhenne
+        l’âme aussi bien que le corps.
+        Deux moineaux ne sont-ils pas vendus pour un sou ?
+        Or, pas un seul ne tombe à terre
+        sans que votre Père le veuille.
+        Quant à vous, même les cheveux de votre tête sont tous comptés.
+        Soyez donc sans crainte :
+        vous valez bien plus qu’une multitude de moineaux.
+        Quiconque se déclarera pour moi devant les hommes,
+        moi aussi je me déclarerai pour lui
+        devant mon Père qui est aux cieux.
+        Mais celui qui me reniera devant les hommes,
+        moi aussi je le renierai
+        devant mon Père qui est aux cieux. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

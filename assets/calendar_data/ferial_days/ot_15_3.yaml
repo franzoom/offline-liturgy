@@ -48,9 +48,6 @@ readings:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -108,39 +105,39 @@ mass:
         « Le ciseau se glorifie-t-il aux dépens de celui qui s’en sert pour tailler ? »
       content: |-
         Ainsi parle le Seigneur :
-         Malheureux ! Assour, l’instrument de ma colère,
-        le bâton de mon courroux.
-         Je l’envoie contre une nation impie,
-        je lui donne mission contre un peuple qui excite ma fureur,
+        Malheureux ! Assour, l’instrument de ma colère,
+        >le bâton de mon courroux.
+        Je l’envoie contre une nation impie,
+        >je lui donne mission contre un peuple qui excite ma fureur,
         pour le mettre au pillage et emporter le butin,
-        pour le piétiner comme la boue des chemins.
-         Mais Assour ne l’entend pas ainsi,
-        ce n’est pas du tout ce qu’il pense :
+        >pour le piétiner comme la boue des chemins.
+        Mais Assour ne l’entend pas ainsi,
+        >ce n’est pas du tout ce qu’il pense :
         ce qu’il veut, c’est détruire,
-        exterminer quantité de nations.
-         Car le roi d’Assour a dit :
-        « C’est par la vigueur de ma main que j’ai agi,
-        et par ma sagesse, car j’ai l’intelligence.
-        J’ai déplacé les frontières des peuples,
-        j’ai pillé leurs réserves ;
-        fort entre les forts, j’ai détrôné des puissants.
-         J’ai mis la main sur les richesses des peuples,
-        comme sur un nid.
-        Comme on ramasse des œufs abandonnés,
-        j’ai ramassé toute la terre,
-        et il n’y a pas eu un battement d’aile,
-        pas un bec ouvert,
-        pas un cri. »
-         Mais le ciseau se glorifie-t-il
-        aux dépens de celui qui s’en sert pour tailler ?
+        >exterminer quantité de nations.
+        Car le roi d’Assour a dit :
+        >« C’est par la vigueur de ma main que j’ai agi,
+        >>et par ma sagesse, car j’ai l’intelligence.
+        >J’ai déplacé les frontières des peuples,
+        >>j’ai pillé leurs réserves ;
+        >>fort entre les forts, j’ai détrôné des puissants.
+        >J’ai mis la main sur les richesses des peuples,
+        >>comme sur un nid.
+        >Comme on ramasse des œufs abandonnés,
+        >>j’ai ramassé toute la terre,
+        >et il n’y a pas eu un battement d’aile,
+        >>pas un bec ouvert,
+        >>pas un cri. »
+        Mais le ciseau se glorifie-t-il
+        >aux dépens de celui qui s’en sert pour tailler ?
         La scie va-t-elle s’enfler d’orgueil
-        aux dépens de celui qui la tient ?
+        >aux dépens de celui qui la tient ?
         Comme si le bâton faisait mouvoir la main qui le brandit,
-        comme si c’était le bois qui brandissait l’homme !
-         C’est pourquoi le Seigneur Dieu de l’univers
-        fera dépérir les soldats bien nourris du roi d’Assour,
+        >comme si c’était le bois qui brandissait l’homme !
+        C’est pourquoi le Seigneur Dieu de l’univers
+        >fera dépérir les soldats bien nourris du roi d’Assour,
         et au lieu de sa gloire s’allumera un brasier,
-        le brasier d’un incendie.
+        >le brasier d’un incendie.
   - partType: PSALM
     partContents:
     - biblicalRef: Ps 102 (103), 1-2, 3-4, 6-7
@@ -205,17 +202,19 @@ mass:
       content: |-
         En ce temps-là,
         Jésus prit la parole et dit :
-        « Père, Seigneur du ciel et de la terre,
-        je proclame ta louange :
-        ce que tu as caché aux sages et aux savants,
-        tu l’as révélé aux tout-petits.
-         Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
-         Tout m’a été remis par mon Père ;
-        personne ne connaît le Fils, sinon le Père,
-        et personne ne connaît le Père, sinon le Fils,
-        et celui à qui le Fils veut le révéler. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+        >« Père, Seigneur du ciel et de la terre,
+        >je proclame ta louange :
+        >>ce que tu as caché aux sages et aux savants,
+        >>tu l’as révélé aux tout-petits.
+        >Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
+        >Tout m’a été remis par mon Père ;
+        >personne ne connaît le Fils, sinon le Père,
+        >et personne ne connaît le Père, sinon le Fils,
+        >et celui à qui le Fils veut le révéler. »
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

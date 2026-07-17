@@ -250,3 +250,50 @@ vespers:
 
       Tu nous as confié l’eucharistie pour annoncer ta mort et ta résurrection :
       — donne la vie éternelle à ceux qui attendent ton retour.
+
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 80,17
+    content: |-
+      Le Seigneur a nourri son peuple de la fleur du froment,
+      il l’a rassasié avec le miel du rocher.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >dans cet admirable sacrement,
+    >tu nous as laissé le mémorial de ta passion ; *
+    donne-nous de vénérer avec une telle ferveur
+    >les saints mystères de ton Corps et de ton Sang, /
+    >que nous puissions goûter sans cesse en nous
+    >le fruit de ta rédemption.
+    Toi qui vis et règnes avec le Père dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur : *
+    >dans ta bonté accorde à ton Église
+    >les dons de l’unité et de la paix, /
+    signifiés mystérieusement
+    >par les présents que nous t’offrons.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - the_most_holy_eucharist_2
+  - the_lords_supper
+  communionAntiphon:
+  - biblicalReference: Jn 6,57
+    content: |-
+      Celui qui mange ma chair et boit mon sang
+      demeure en moi, et moi en lui, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur Jésus-Christ : +
+    donne-nous de goûter pleinement
+    >à ta vie divine dans l’éternité, *
+    ce que préfigurée dans le temps
+    >la communion à ton Corps et ton Sang précieux.
+    Toi qui vis et règnes pour les siècles des siècles.
+  solemnBlessingList: null

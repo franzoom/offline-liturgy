@@ -41,9 +41,6 @@ readings:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -232,8 +229,10 @@ mass:
          Vous serez détestés de tous, à cause de mon nom.
          Mais pas un cheveu de votre tête ne sera perdu.
          C’est par votre persévérance que vous garderez votre vie. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

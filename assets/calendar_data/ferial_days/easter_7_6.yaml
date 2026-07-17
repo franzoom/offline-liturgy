@@ -147,8 +147,21 @@ mass:
 - massType: morning_mass
   name: Messe du matin
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ac 1,14
+    content: |-
+      Les disciples, d’un même cœur, étaient assidus à la prière,
+      >avec des femmes, avec Marie la mère de Jésus,
+      >et avec ses frères, alléluia.
+  collect:
+  - |-
+    Dieu tout-puissant, +
+    >nous te prions au terme de ces fêtes pascales, : *
+    >que par ta grâce,
+    elles imprègnent nos actes et notre vie.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -241,8 +254,26 @@ mass:
         et s’il fallait écrire chacune d’elles,
         je pense que le monde entier ne suffirait pas
         pour contenir les livres que l’on écrirait.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Que l’Esprit Saint, par sa venue,
+    >nous t’en prions, Seigneur, *
+    prépare nos esprits à recevoir tes sacrements,
+    >car il est lui-même le pardon de tout péché,
+    >Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 16,14
+    content: |-
+      L’Esprit Saint me glorifiera, dit le Seigneur,
+      >car il recevra ce qui vient de moi
+      >pour vous le faire connaître, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bonté, Seigneur, exauce nos prières : +
+    >déjà, nous sommes passés du monde ancien
+    >aux sacrements des temps nouveaux : *
+    fais-nous quitter ce qui ne peut que vieillir, /
+    >envoie-nous un esprit de renouveau et de sainteté.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

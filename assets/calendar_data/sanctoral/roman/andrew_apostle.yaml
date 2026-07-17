@@ -107,3 +107,137 @@ vespers:
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
     common: Béni sois-tu, André, Apôtre de Dieu et disciple du Christ ! Pour lui, comme ton frère, tu as subi le martyre.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Mt 4,18-19
+    content: |-
+      Au bord de la mer de Galilée,
+      >le Seigneur vit deux frères, Pierre et André ;
+      il les appela : « Venez à ma suite,
+      >je vous ferai pêcheurs d’hommes. »
+  collect:
+  - |-
+    Dieu de majesté, nous te supplions humblement : *
+    >fais que le bienheureux apôtre André,
+    qui a évangélisé et guidé ton Église, /
+    >ne cesse d’intercéder pour nous auprès de toi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 10, 9-18
+      headline: « La foi naît de ce que l’on entend ; et ce que l’on entend, c’est la parole du Christ »
+      content: |-
+        Frère,
+        si de ta bouche, tu affirmes que Jésus est Seigneur,
+        >si, dans ton cœur, tu crois
+        >que Dieu l’a ressuscité d’entre les morts,
+        alors tu seras sauvé.
+        Car c’est avec le cœur que l’on croit
+        >pour devenir juste,
+        c’est avec la bouche que l’on affirme sa foi
+        >pour parvenir au salut.
+        En effet, l’Écriture dit :
+        >Quiconque met en lui sa foi
+        >ne connaîtra pas la honte.
+        Ainsi, entre les Juifs et les païens,
+        >il n’y a pas de différence :
+        tous ont le même Seigneur,
+        >généreux envers tous ceux qui l’invoquent.
+        En effet,
+        >quiconque invoquera le nom du Seigneur
+        >sera sauvé.
+        Or, comment l’invoquer,
+        >si on n’a pas mis sa foi en lui ?
+        Comment mettre sa foi en lui,
+        >si on ne l’a pas entendu ?
+        Comment entendre
+        >sans être envoyé ?
+        Il est écrit :
+        >Comme ils sont beaux, les pas des messagers
+        >qui annoncent les bonnes nouvelles !
+        Et pourtant, tous n’ont pas obéi à la Bonne Nouvelle.
+        Isaïe demande en effet :
+        >Qui a cru, Seigneur, en nous entendant parler ?
+        Or la foi naît de ce que l’on entend ;
+        >et ce que l’on entend, c’est la parole du Christ.
+        Alors, je pose la question :
+        >n’aurait-on pas entendu ?
+        Mais si, bien sûr !
+        Un psaume le dit :
+        >Sur toute la terre se répand leur message,
+        >et leurs paroles, jusqu’aux limites du monde.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 18A (19), 2-3, 4-5ab
+      refAbbr: cf. 18, 5a
+      chorus:
+      - chorusRef: cf. 18, 5a
+        chorus: Par toute la terre s’en va leur message.
+      content: |-
+        Les cieux proclament la gloire de Dieu,
+        le firmament raconte l’ouvrage de ses mains.
+        Le jour au jour en livre le récit
+        et la nuit à la nuit en donne connaissance.
+
+        Pas de paroles dans ce récit,
+        pas de voix qui s’entende ;
+        mais sur toute la terre en paraît le message
+        et la nouvelle, aux limites du monde.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 4, 18-22
+      headline: « Aussitôt, laissant leurs filets, ils le suivirent »
+      acclamationAntiphon: |-
+        « Venez à ma suite, dit le Seigneur,
+        et je vous ferai pêcheurs d’hommes. »
+      content: |-
+        En ce temps-là,
+        comme Jésus marchait le long de la mer de Galilée,
+        >il vit deux frères,
+        >Simon, appelé Pierre,
+        >et son frère André,
+        >qui jetaient leurs filets dans la mer ;
+        >car c’étaient des pêcheurs.
+        Jésus leur dit :
+        >« Venez à ma suite,
+        >et je vous ferai pêcheurs d’hommes. »
+        Aussitôt, laissant leurs filets,
+        >ils le suivirent.
+        De là, il avança et il vit deux autres frères,
+        >Jacques, fils de Zébédée,
+        >et son frère Jean,
+        >qui étaient dans la barque avec leur père,
+        >en train de réparer leurs filets.
+        Il les appela.
+        Aussitôt, laissant la barque et leur père,
+        >ils le suivirent.
+        
+  offeringPrayer:
+  - |-
+    Dieu tout-puissant, +
+    >en la fête du bienheureux André,
+    >accorde-nous de te plaire
+    par les offrandes que nous t’apportons :
+    >accueille-les pour que nous en recevions la vie.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Jn 1,41-42
+    content: |-
+      André dit à Simon, son frère :
+      >« Nous avons trouvé le Messie –
+      ce qui veut dire Christ. »
+      >Et il le conduisit à Jésus.
+  prayerAfterCommunion:
+  - |-
+    Que la communion à ton sacrement
+    >nous fortifie, Seigneur, *
+    afin qu’à l’exemple du bienheureux apôtre André,
+    >nous portions dans notre corps la mort du Christ, /
+    >pour obtenir de vivre avec lui dans la gloire.
+    Lui qui vit et règne pour les siècles des siècles.

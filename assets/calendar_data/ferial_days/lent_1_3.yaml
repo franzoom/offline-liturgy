@@ -193,8 +193,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 24,6.2.22
+    content: |-
+      Rappelle-toi, Seigneur, ta tendresse,
+      >ton amour qui est de toujours.
+      Ne laisse pas triompher nos ennemis.
+      Libère-nous, Dieu d’Israël,
+      >de toutes nos angoisses.
+  collect:
+  - |-
+    Regarde, Seigneur, avec bienveillance
+    >ton peuple qui cherche à mieux te servir : *
+    >tandis nous maîtrisons notre corps par des privations,
+    >accorde-nous d’agir selon le bien, /
+    >et d’être renouvelés dans notre esprit.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -291,8 +307,39 @@ mass:
         en effet, ils se sont convertis
         en réponse à la proclamation faite par Jonas,
         et il y a ici bien plus que Jonas. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous te présentons, Seigneur,
+    >les biens que tu nous as donnés
+    >pour qu’ils soient consacrés à ton nom : *
+    et puisque tu en fais pour nous un sacrement, /
+    >permets qu’ils nous apportent aussi l’éternelle guérison.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: cf. Ps 5,12
+    content: |-
+      Allégresse pour tous ceux qui espèrent en toi, Seigneur :
+      >ils exulteront dans l’éternité
+      >et tu habiteras parmi eux !
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >tu ne cesses pas de nous donner
+    >tes sacrements en nourriture ; *
+    fais que cet aliment, reçu de ta bonté, /
+    >nous apporte la vie éternelle.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Protège ton peuple, Seigneur ; +
+    >dans ta miséricorde, purifie-le de tout péché, *
+    car nul malheur ne peut nuire /
+    >à celui qu’aucun mal ne domine.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

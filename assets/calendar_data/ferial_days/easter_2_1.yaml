@@ -183,8 +183,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Rm 6,9
+    content: |-
+      Ressuscité d’entre les morts, le Christ ne meurt plus ;
+      >sur lui, la mort n’a plus de pouvoir, alléluia.
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : +
+    >renouvelés et guéris par ta Pâques,
+    >nous sommes affranchis de la ressemblance
+    >avec notre premier parent, issu de la terre ; *
+    transforme-nous à l’image du créateur /
+    >qui est aux cieux.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -298,8 +312,24 @@ mass:
         mais tu ne sais ni d’où il vient ni où il va.
         Il en est ainsi
         pour qui est né du souffle de l’Esprit. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille, nous t’en prions, Seigneur,
+    >les dons de ton Église en fête ; *
+    >toi qui es pour elle à l’origine d’un si grand bonheur, /
+    >qu’il s’épanouisse en joie éternelle.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 20,19
+    content: |-
+      Jésus, debout au milieu de ses disciples,
+      >leur dit : La paix soit avec vous, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Regarde avec bonté, Seigneur, nous t’en prions,
+    >le peuple que tu as rénové par tes sacrements ; *
+    >accorde-nous de parvenir à la vie incorruptible /
+    lorsque notre chair ressuscitera dans la gloire.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

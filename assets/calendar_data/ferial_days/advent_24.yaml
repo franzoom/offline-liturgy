@@ -1,8 +1,7 @@
 celebration:
   title: 24 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : Saints ancêtres de Jésus-Christ, fils de David, fils d’Abraham, fils d’Adam 
+  description: null
   color: violet
 oration:
 - |-
@@ -111,8 +110,19 @@ mass:
 - massType: morning_mass
   name: Messe du matin
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ga 4,4
+    content: |-
+      Voici maintenant venue la plénitude des temps :
+      >Dieu a envoyé son Fils sur la terre.
+  collect:
+  - |-
+    Seigneur Jésus, nous t’en prions, +
+    >hâte-toi, ne tarde plus : *
+    que ton avènement réconforte et relève /
+    >ceux qui ont foi dans ta tendresse.
+    Toi qui vis et règnes avec le Père dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -230,8 +240,28 @@ mass:
           et l’ombre de la mort,
          pour conduire nos pas
           au chemin de la paix. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Dans ta bonté, Seigneur, +
+    >accepte les dons qui te sont offerts, *
+    pour qu’en y communiant,
+    >nous soyons délivrés de nos péchés /
+    et puissions attendre d’un cœur pur
+    >la venue glorieuse de ton Fils.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: Lc 1,68
+    content: |-
+      Béni soit le Seigneur, le Dieu d’Israël,
+      >qui a visité et racheté son peuple.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as recréés, Seigneur,
+    >par ce don merveilleux qui vient de toi ; *
+    puisque nous célébrons déjà la naissance adorable de ton Fils,  /
+    >donne-nous d’accueillir dans la joie
+    >les biens éternels qu’il nous offre.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

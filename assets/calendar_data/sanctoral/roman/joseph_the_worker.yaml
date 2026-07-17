@@ -81,3 +81,173 @@ vespers:
   evangelicAntiphon:
     common:
     - Reconnaissons la Sagesse de Dieu en Jésus, le fils du charpentier, alléluia.
+
+mass:
+- massType: day_mass
+  note: Mémoire facultative ; si on la célèbre, l’évangile indiqué ici est obligatoire.
+  entranceAntiphon:
+  - biblicalReference: Ps 127,1-2
+    content: |-
+      Heureux qui craint le Seigneur :
+      >et marche selon ses voies.
+      Tu te nourriras du travail de tes mains :
+      >Heureux es-tu ! A toi, le bonheur ! Alléluia !
+  collect:
+  - |-
+    Dieu, créateur de l’univers, +
+    >tu as donné au genre humain la loi du travail ; *
+    >en ta bonté, accorde-nous d’accomplir,
+    >à l’exemple du bienheureux Joseph et sous sa protection,
+    >les tâches que tu nous confies, /
+    >et de recevoir la récompense que tu promets.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Gn 1, 26 – 2, 3
+      headline: « Remplissez la terre et soumettez-la »
+      content: |-
+        Au commencement,
+        Dieu dit :
+        « Faisons l’homme à notre image,
+        selon notre ressemblance.
+        Qu’il soit le maître des poissons de la mer, des oiseaux du ciel,
+        des bestiaux, de toutes les bêtes sauvages,
+        et de toutes les bestioles
+        qui vont et viennent sur la terre. »
+        Dieu créa l’homme à son image,
+        à l’image de Dieu il le créa,
+        il les créa homme et femme.
+        Dieu les bénit et leur dit :
+        « Soyez féconds et multipliez-vous,
+        remplissez la terre et soumettez-la.
+        Soyez les maîtres des poissons de la mer, des oiseaux du ciel,
+        et de tous les animaux qui vont et viennent sur la terre. »
+        Dieu dit encore :
+        « Je vous donne toute plante qui porte sa semence
+        sur toute la surface de la terre,
+        et tout arbre dont le fruit porte sa semence :
+        telle sera votre nourriture.
+        À tous les animaux de la terre,
+        à tous les oiseaux du ciel,
+        à tout ce qui va et vient sur la terre
+        et qui a souffle de vie,
+        je donne comme nourriture toute herbe verte. »
+        Et ce fut ainsi.
+        Et Dieu vit tout ce qu’il avait fait ;
+        et voici : cela était très bon.
+        Il y eut un soir, il y eut un matin :
+        sixième jour.
+        Ainsi furent achevés le ciel et la terre,
+        et tout leur déploiement.
+        Le septième jour,
+        Dieu avait achevé l’œuvre qu’il avait faite.
+        Il se reposa, le septième jour,
+        de toute l’œuvre qu’il avait faite.
+        Et Dieu bénit le septième jour :
+        il le sanctifia
+        puisque, ce jour-là, il se reposa
+        de toute l’œuvre de création qu’il avait faite.
+    - biblicalRef: Col 3, 14-15.17.23-24
+      headline: « Quel que soit votre travail, faites-le de bon cœur, comme pour le Seigneur et non pour plaire à des hommes »
+      content: |-
+        Frères,
+        par-dessus tout, ayez l’amour,
+        qui est le lien le plus parfait.
+        Et que, dans vos cœurs, règne la paix du Christ
+        à laquelle vous avez été appelés,
+        vous qui formez un seul corps.
+        Vivez dans l’action de grâce.
+        Et tout ce que vous dites, tout ce que vous faites,
+        que ce soit toujours au nom du Seigneur Jésus,
+        en offrant par lui votre action de grâce à Dieu le Père.
+        Quel que soit votre travail, faites-le de bon cœur,
+        comme pour le Seigneur et non pour plaire à des hommes :
+        vous savez bien qu’en retour
+        vous recevrez du Seigneur votre héritage.
+        C’est le Christ, le Seigneur, que vous servez.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 89 (90), 2, 3-4, 12-13, 14.16
+      refAbbr: 89, 17c
+      chorus:
+      - chorusRef: 89, 17c
+        chorus: |-
+          Consolide, Seigneur,
+          l’ouvrage de nos mains.
+      - chorusRef: null
+        chorus: |-
+          ou: Alléluia !
+      content: |-
+        Avant que naissent les montagnes,
+        que tu enfantes la terre et le monde,
+        de toujours à toujours,
+        toi, tu es Dieu.
+
+        Tu fais retourner l’homme à la poussière ;
+        tu as dit : « Retournez, fils d’Adam ! »
+        À tes yeux, mille ans sont comme hier,
+        c’est un jour qui s’en va, une heure dans la nuit.
+
+        Apprends-nous la vraie mesure de nos jours :
+        que nos cœurs pénètrent la sagesse.
+        Reviens, Seigneur, pourquoi tarder ?
+        Ravise-toi par égard pour tes serviteurs.
+
+        Rassasie-nous de ton amour au matin,
+        que nous passions nos jours dans la joie et les chants.
+        Fais connaître ton œuvre à tes serviteurs
+        et ta splendeur à leurs fils.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 13, 54-58
+      headline: « N’est-il pas le fils du charpentier ? »
+      acclamationAntiphon: |-
+        Que le Seigneur soit béni !
+        Jour après jour, ce Dieu nous accorde la victoire.
+      content: |-
+        En ce temps-là,
+        Jésus se rendit dans son lieu d’origine,
+        et il enseignait les gens dans leur synagogue,
+        de telle manière qu’ils étaient frappés d’étonnement
+        et disaient :
+        « D’où lui viennent cette sagesse
+        et ces miracles ?
+        N’est-il pas le fils du charpentier ?
+        Sa mère ne s’appelle-t-elle pas Marie,
+        et ses frères : Jacques, Joseph, Simon et Jude ?
+        Et ses sœurs ne sont-elles pas toutes chez nous ?
+        Alors, d’où lui vient tout cela ? »
+        Et ils étaient profondément choqués à son sujet.
+        Jésus leur dit :
+        « Un prophète n’est méprisé que dans son pays
+        et dans sa propre maison. »
+        Et il ne fit pas beaucoup de miracles à cet endroit-là,
+        à cause de leur manque de foi.
+        
+  offeringPrayer:
+  - |-
+    Dieu, source de toute miséricorde, +
+    >regarde les présents que nous déposons devant toi
+    >en faisant mémoire du bienheureux Joseph : *
+    >dans ta bonté, permets que ces offrandes /
+    >deviennent le secours de ceux qui te supplient.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Col 3,17
+    content: |-
+      Tout ce que vous dites, tout ce que vous faites,
+      >que ce soit toujours au nom du Seigneur Jésus,
+      >en offrant par lui votre action de grâce à Dieu le Père, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as rassasiés, Seigneur, des joies du ciel,
+    >et nous te supplions encore : *
+    >fais-nous témoigner, comme le bienheureux Joseph,
+    >de la charité que tu as répandue dans nos cœurs, /
+    et nous goûterons pour toujours
+    >le fruit de la paix.
+    Par le Christ, notre Seigneur.

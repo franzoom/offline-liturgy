@@ -32,3 +32,150 @@ readings:
         
         La chair ne sert de rien,
         c’est l’Esprit qui vivifie.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >pour la gloire de ton nom et le salut des âmes,
+    >tu as donné au prêtre saint Laurent de Brindisi
+    >un esprit de conseil et de force ; *
+    par son intercession, accorde-nous ce même esprit
+    >pour voir ce que nous devons faire, /
+    >et accomplir ce que nous aurons vu.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 4, 1-2.5-7
+      headline: « Ce que nous proclamons, c’est Jésus Christ le Seigneur ; et nous sommes vos serviteurs, à cause de Jésus »
+      content: |-
+        Frères,
+        nous, les Apôtres,
+        ayant reçu ce ministère par la miséricorde de Dieu,
+        nous ne perdons pas courage :
+        nous avons rejeté toute dissimulation honteuse,
+        nous n’agissons pas avec ruse,
+        et nous ne falsifions pas la parole de Dieu.
+        Au contraire, nous manifestons la vérité,
+        et ainsi nous nous recommandons nous-mêmes
+        à toute conscience humaine devant Dieu.
+        Ce que nous proclamons,
+        ce n’est pas nous-mêmes ;
+        c’est ceci : Jésus Christ est le Seigneur ;
+        et nous sommes vos serviteurs, à cause de Jésus.
+        Car Dieu qui a dit :
+        Du milieu des ténèbres brillera la lumière,
+        a lui-même brillé dans nos cœurs
+        pour faire resplendir la connaissance de sa gloire
+        qui rayonne sur le visage du Christ.
+        Mais ce trésor, nous le portons
+        comme dans des vases d’argile ;
+        ainsi, on voit bien que cette puissance extraordinaire
+        appartient à Dieu et ne vient pas de nous.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        chorus: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 4, 1-10.13-20
+      headline: « Voici que le semeur sortit pour semer »
+      acclamationAntiphon: |-
+        La semence est la parole de Dieu,
+        le semeur est le Christ ;
+        celui qui le trouve demeure pour toujours.
+      content: |-
+        En ce temps-là,
+        Jésus se mit de nouveau à enseigner au bord de la mer de Galilée.
+        Une foule très nombreuse se rassembla auprès de lui,
+        si bien qu’il monta dans une barque où il s’assit.
+        Il était sur la mer,
+        et toute la foule était près de la mer, sur le rivage.
+        Il leur enseignait beaucoup de choses en paraboles,
+        et dans son enseignement il leur disait :
+        « Écoutez ! Voici que le semeur sortit pour semer.
+        Comme il semait,
+        du grain est tombé au bord du chemin ;
+        les oiseaux sont venus et ils ont tout mangé.
+        Du grain est tombé aussi sur du sol pierreux,
+        où il n’avait pas beaucoup de terre ;
+        il a levé aussitôt,
+        parce que la terre était peu profonde ;
+        et lorsque le soleil s’est levé, ce grain a brûlé
+        et, faute de racines, il a séché.
+        Du grain est tombé aussi dans les ronces,
+        les ronces ont poussé, l’ont étouffé,
+        et il n’a pas donné de fruit.
+        Mais d’autres grains sont tombés dans la bonne terre ;
+        ils ont donné du fruit
+        en poussant et en se développant,
+        et ils ont produit
+        trente, soixante, cent, pour un. »
+        Et Jésus disait :
+        « Celui qui a des oreilles pour entendre,
+        qu’il entende ! »
+        Quand il resta seul,
+        ceux qui étaient autour de lui avec les Douze
+        l’interrogeaient sur les paraboles.
+        Il leur dit encore :
+        « Vous ne saisissez pas cette parabole ?
+        Alors, comment comprendrez-vous toutes les paraboles ?
+        Le semeur sème la Parole.
+        Il y a ceux qui sont au bord du chemin
+        où la Parole est semée :
+        quand ils l’entendent,
+        Satan vient aussitôt
+        et enlève la Parole semée en eux.
+        Et de même, il y a ceux qui ont reçu la semence
+        dans les endroits pierreux :
+        ceux-là, quand ils entendent la Parole,
+        ils la reçoivent aussitôt avec joie ;
+        mais ils n’ont pas en eux de racine,
+        ce sont les gens d’un moment ;
+        que vienne la détresse ou la persécution à cause de la Parole,
+        ils trébuchent aussitôt.
+        Et il y en a d’autres qui ont reçu la semence dans les ronces :
+        ceux-ci entendent la Parole,
+        mais les soucis du monde, la séduction de la richesse
+        et toutes les autres convoitises
+        les envahissent et étouffent la Parole,
+        qui ne donne pas de fruit.
+        Et il y a ceux qui ont reçu la semence dans la bonne terre :
+        ceux-là entendent la Parole, ils l’accueillent,
+        et ils portent du fruit :
+        trente, soixante, cent, pour un. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

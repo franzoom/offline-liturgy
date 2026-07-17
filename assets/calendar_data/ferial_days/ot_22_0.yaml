@@ -67,8 +67,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 85,3.5
+    content: |-
+      Prends pitié de moi, Seigneur, car j’ai crié vers toi tout le jour,
+      toi qui es bon et qui pardonnes,
+      plein de miséricorde pour tous ceux qui t’appellent.
+  collect:
+  - |-
+    Dieu de l’univers, de qui vient tout don parfait, +
+    >enracine en nos cœurs l’amour de ton nom ; *
+    >augmente notre foi,
+    >pour développer ce qui est bon en nous ; /
+    veille sur nous avec sollicitude,
+    >pour protéger ce que tu as fait grandir.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, / Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -424,8 +438,37 @@ mass:
          heureux seras-tu,
         parce qu’ils n’ont rien à te donner en retour :
         cela te sera rendu à la résurrection des justes. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Que cette offrande sainte
+    >nous apporte à jamais, Seigneur,
+    >la bénédiction du salut, *
+    afin qu’elle donne toute sa force /
+    >à ce qu’elle accomplit dans le sacrement.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 30,20
+    content: |-
+      Qu’ils sont grands, tes bienfaits, Seigneur !
+      Tu les réserves à ceux qui te craignent.
+  - biblicalReference: Mt 5,9-10
+    content: |-
+      Heureux les artisans de paix,
+      >car ils seront appelés fils de Dieu.
+      Heureux ceux qui sont persécutés pour la justice,
+      >car le royaume des Cieux est à eux.
+  prayerAfterCommunion:
+  - |-
+    Rassasiés par le pain reçu à la table du ciel,
+    nous te prions, Seigneur : *
+    que cette nourriture fortifie en nos cœurs la charité, /
+    >et nous stimule à te servir dans nos frères.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

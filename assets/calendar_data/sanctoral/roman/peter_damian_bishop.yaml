@@ -8,7 +8,7 @@ celebration:
   color: white
 
 oration:
-  - Accorde-nous, Dieu tout-puissant, de suivre les exemples et les exhortations du saint évêque Pierre Damien, afin que, sans rien préférer au Christ, et toujours
+  - Accorde-nous, Dieu tout-puissant, de suivre les exemples et les exhortations du saint évêque Pierre Damien, afin que, sans rien préférer au Christ, et toujours attentifs à servir ton Église, nous parvenions aux joies de l’éternité.
 
 readings:
   patristicReading:
@@ -32,3 +32,114 @@ readings:
 
         Si vous devez souffrir pour la justice,
         réjouissez-vous et bondissez de joie.
+
+mass:
+  massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Dieu tout-puissant,
+    de suivre les exemples et les exhortations
+    de l’évêque saint Pierre Damien, *
+    afin que, sans rien préférer au Christ,
+    et toujours attentifs à servir ton Église, /
+    nous parvenions aux joies de la lumière éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Tm 4, 1-5
+      headline: « Fais ton travail d’évangélisateur, accomplis jusqu’au bout ton ministère »
+      content: |-
+        Bien-aimé,
+        devant Dieu,
+        et devant le Christ Jésus qui va juger les vivants et les morts,
+        je t’en conjure,
+        au nom de sa Manifestation et de son Règne :
+        proclame la Parole,
+        interviens à temps et à contretemps,
+        dénonce le mal,
+        fais des reproches, encourage,
+        toujours avec patience et souci d’instruire.
+        Un temps viendra
+        où les gens ne supporteront plus l’enseignement de la saine doctrine ;
+        mais, au gré de leurs caprices,
+        ils iront se chercher une foule de maîtres
+        pour calmer leur démangeaison d’entendre du nouveau.
+        Ils refuseront d’entendre la vérité
+        pour se tourner vers des récits mythologiques.
+        Mais toi, en toute chose garde la mesure,
+        supporte la souffrance,
+        fais ton travail d’évangélisateur,
+        accomplis jusqu’au bout ton ministère.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15 (16), 1-2, 7-8, 5a.11
+      refAbbr: 15, 5a
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu : j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Seigneur, mon partage et ma coupe !
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 1-8
+      headline: « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Demeurez dans mon amour, dit le Seigneur.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Moi, je suis la vraie vigne,
+        et mon Père est le vigneron.
+        Tout sarment qui est en moi,
+        mais qui ne porte pas de fruit,
+        mon Père l’enlève ;
+        tout sarment qui porte du fruit,
+        il le purifie en le taillant,
+        pour qu’il en porte davantage.
+        Mais vous, déjà vous voici purifiés
+        grâce à la parole que je vous ai dite.
+        Demeurez en moi, comme moi en vous.
+        De même que le sarment
+        ne peut pas porter de fruit par lui-même
+        s’il ne demeure pas sur la vigne,
+        de même vous non plus,
+        si vous ne demeurez pas en moi.
+        Moi, je suis la vigne,
+        et vous, les sarments.
+        Celui qui demeure en moi
+        et en qui je demeure,
+        celui-là porte beaucoup de fruit,
+        car, en dehors de moi, vous ne pouvez rien faire.
+        Si quelqu’un ne demeure pas en moi,
+        il est, comme le sarment, jeté dehors,
+        et il se dessèche.
+        Les sarments secs, on les ramasse,
+        on les jette au feu, et ils brûlent.
+        Si vous demeurez en moi,
+        et que mes paroles demeurent en vous,
+        demandez tout ce que vous voulez,
+        et cela se réalisera pour vous.
+        Ce qui fait la gloire de mon Père,
+        c’est que vous portiez beaucoup de fruit
+        et que vous soyez pour moi des disciples. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

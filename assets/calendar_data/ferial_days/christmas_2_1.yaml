@@ -191,8 +191,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Un jour très saint a brillé à nos yeux :
+      nations, venez toutes adorer le Seigneur,
+      >car une grande lumière est descendue sur la terre.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >ton Verbe, dont l’éternité fait resplendir la beauté du ciel,
+    >a pris, de la Vierge Marie, la faiblesse de notre chair ; *
+    nous t’en prions :
+    >puisqu’il nous est apparu dans la splendeur de la vérité, /
+    >qu’il s’avance aussi, dans la plénitude de sa puissance,
+    >pour la rédemption du monde.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -305,8 +320,29 @@ mass:
         venues de la Galilée, de la Décapole,
         de Jérusalem, de la Judée,
         et de l’autre côté du Jourdain.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur,
+    >ce que nous présentons pour cette eucharistie
+    >où s’accomplit un admirable échange : *
+    en offrant ce que tu nous as donné, /
+    >puissions-nous te recevoir toi-même.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - epiphany
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: cf. Jn 1,14
+    content: |-
+      Nous avons vu la gloire du Verbe fait chair,
+      >gloire qu’il tient de son Père comme Fils unique,
+      >plein de grâce et de vérité.
+  prayerAfterCommunion:
+  - |-
+    Dieu tout-puissant, nous t’en prions : *
+    fais que la force de tes saints mystères /
+    soutienne constamment notre vie.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

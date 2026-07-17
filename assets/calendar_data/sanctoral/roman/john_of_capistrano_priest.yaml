@@ -28,3 +28,106 @@ readings:
         
         Celui qui aime est né de Dieu
         et connaît Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as suscité saint Jean de Capistran
+    >pour fortifier ton peuple dans les épreuves ; *
+    nous te prions avec confiance :
+    >garde-nous en sûreté sous ta protection, /
+    >et assure à ton Église une paix durable.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 5, 14-20
+      headline: « Dieu nous a donné le ministère de la réconciliation »
+      content: |-
+        Frères,
+        l’amour du Christ nous saisit
+        quand nous pensons qu’un seul est mort pour tous,
+        et qu’ainsi tous ont passé par la mort.
+        Car le Christ est mort pour tous,
+        afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+        mais sur lui, qui est mort et ressuscité pour eux.
+        Désormais nous ne regardons plus personne
+        d’une manière simplement humaine :
+        si nous avons connu le Christ de cette manière,
+        maintenant nous ne le connaissons plus ainsi.
+        Si donc quelqu’un est dans le Christ,
+        il est une créature nouvelle.
+        Le monde ancien s’en est allé,
+        un monde nouveau est déjà né.
+        Tout cela vient de Dieu :
+        il nous a réconciliés avec lui par le Christ,
+        et il nous a donné le ministère de la réconciliation.
+        Car c’est bien Dieu
+        qui, dans le Christ, réconciliait le monde avec lui :
+        il n’a pas tenu compte des fautes,
+        et il a déposé en nous la parole de la réconciliation.
+        Nous sommes donc les ambassadeurs du Christ,
+        et par nous c’est Dieu lui-même qui lance un appel :
+        nous le demandons au nom du Christ,
+        laissez-vous réconcilier avec Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15 (16), 1-2, 7-8, 5a.11
+      refAbbr: 15, 5a
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Seigneur, mon partage et ma coupe !
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 9, 57-62
+      headline: « Je te suivrai partout où tu iras »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        en cours de route, un homme dit à Jésus :
+        « Je te suivrai partout où tu iras. »
+        Jésus lui déclara :
+        « Les renards ont des terriers,
+        les oiseaux du ciel ont des nids ;
+        mais le Fils de l’homme n’a pas d’endroit où reposer la tête. »
+        Il dit à un autre :
+        « Suis-moi. »
+        L’homme répondit :
+        « Seigneur, permets-moi d’aller d’abord enterrer mon père. »
+        Mais Jésus répliqua :
+        « Laisse les morts enterrer leurs morts.
+        Toi, pars, et annonce le règne de Dieu. »
+        Un autre encore lui dit :
+        « Je te suivrai, Seigneur ;
+        mais laisse-moi d’abord faire mes adieux
+        aux gens de ma maison. »
+        Jésus lui répondit :
+        « Quiconque met la main à la charrue,
+        puis regarde en arrière,
+        n’est pas fait pour le royaume de Dieu. »
+        .
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

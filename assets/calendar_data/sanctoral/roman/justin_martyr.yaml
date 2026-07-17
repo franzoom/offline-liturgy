@@ -44,3 +44,139 @@ vespers:
     common:
     - |-
       Un feu brûle en moi : l’amour qui consumait les prophètes et les amis du Christ.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 118,85.46 (Vg)
+    content: |-
+      Les païens m’ont conté des fables :
+      >au mépris de ta loi.
+      Devant les rois, je parlais de tes exigences
+      >et ne fus pas humilié (T.P. alléluia).
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >par la folie de la croix,
+    >tu as donné, de manière admirable,
+    >au bienheureux martyr Justin
+    >une très haute connaissance de Jésus Christ ; *
+    accorde-nous, par son intercession,
+    >de rejeter les erreurs qui nous entourent, /
+    >et d’être affermis dans la foi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1Co 1, 18-25
+      headline: « Il a plu à Dieu de sauver les croyants par cette folie qu’est la proclamation de l’Évangile »
+      content: |-
+        Frères, le langage de la croix est folie pour ceux qui vont à leur perte,
+        mais pour ceux qui vont vers leur salut, pour nous, il est puissance de Dieu.
+        L’Écriture dit en effet :
+        je mènerai à sa perte la sagesse des sages,
+        et l’intelligence des intelligents, je la rejetterai.
+        Où est-il, le sage ?
+        Où est-il, le scribe ?
+        Où est-il, le raisonneur d’ici-bas ?
+        La sagesse du monde, Dieu ne l’a-t-il pas rendue folle ?
+        Puisque, en effet, par une disposition de la sagesse de Dieu,
+        le monde, avec toute sa sagesse, n’a pas su reconnaître Dieu,
+        il a plu à Dieu de sauver les croyants
+        par cette folie qu’est la proclamation de l’Évangile.
+        Alors que les Juifs réclament des signes miraculeux,
+        et que les Grecs recherchent une sagesse,
+        nous, nous proclamons un Messie crucifié,
+        scandale pour les Juifs, folie pour les nations païennes.
+        Mais pour ceux que Dieu appelle, qu’ils soient juifs ou grecs,
+        ce Messie, ce Christ, est puissance de Dieu et sagesse de Dieu.
+        Car ce qui est folie de Dieu est plus sage que les hommes,
+        et ce qui est faiblesse de Dieu est plus fort que les hommes.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour,
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 13-19
+      headline: « Vous êtes la lumière du monde »
+      acclamationAntiphon: |-
+        Que votre lumière brille devant les hommes :
+        alors, voyant ce que vous faites de bien,
+        ils rendront gloire à votre Père.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Vous êtes le sel de la terre.
+        Mais si le sel devient fade,
+        comment lui rendre de la saveur ?
+        Il ne vaut plus rien :
+        on le jette dehors et il est piétiné par les gens.
+        Vous êtes la lumière du monde.
+        Une ville située sur une montagne
+        ne peut être cachée.
+        Et l’on n’allume pas une lampe
+        pour la mettre sous le boisseau ;
+        on la met sur le lampadaire,
+        et elle brille pour tous ceux qui sont dans la maison.
+        De même, que votre lumière brille devant les hommes :
+        alors, voyant ce que vous faites de bien,
+        ils rendront gloire à votre Père qui est aux cieux.
+        Ne pensez pas que je sois venu abolir la Loi ou les Prophètes :
+        je ne suis pas venu abolir, mais accomplir.
+        Amen, je vous le dis :
+        Avant que le ciel et la terre disparaissent,
+        pas un seul iota, pas un seul trait ne disparaîtra de la Loi
+        jusqu’à ce que tout se réalise.
+        Donc, celui qui rejettera un seul de ces plus petits commandements,
+        et qui enseignera aux hommes à faire ainsi,
+        sera déclaré le plus petit dans le royaume des Cieux.
+        Mais celui qui les observera et les enseignera,
+        celui-là sera déclaré grand dans le royaume des Cieux. »
+        
+  offeringPrayer:
+  - |-
+    Accorde-nous, Seigneur,
+    >de participer dignement au mystère de l’eucharistie /
+    >que le bienheureux Justin défendit
+    >avec un courage infatigable.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. 1Co 2,2
+    content: |-
+      Parmi vous, je n’ai rien voulu connaître d’autre
+      >que Jésus Christ, ce Messie crucifié (T.P. alléluia).
+  prayerAfterCommunion:
+  - |-
+    Déjà réconfortés par le pain du ciel,
+    nous t’adressons, Seigneur, cette humble prière : * qu’en suivant les leçons du bienheureux Justin, ton martyr, /
+    >nous demeurions toujours dans l’action de grâce
+    >pour les dons que nous avons reçus.
+    Par le Christ, notre Seigneur.

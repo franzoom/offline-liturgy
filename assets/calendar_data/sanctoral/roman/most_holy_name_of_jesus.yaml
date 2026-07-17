@@ -7,3 +7,141 @@ celebration:
 oration:
 - |-
   Seigneur Dieu, dans l’incarnation de ton Verbe, tu as fondé le salut du genre humain : donne aux peuples qui t’appartiennent la miséricorde qu’ils implorent, afin que tous reconnaissent le seul Nom à invoquer, celui de ton Fils unique.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: Ph 2,10-11
+    content: |-
+      Au nom de Jésus,
+      que tout genou fléchisse
+      >au ciel, sur terre et aux enfers,
+      et que toute langue proclame :
+      « Jésus Christ est Seigneur »
+      >à la gloire de Dieu le Père.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >dans l’incarnation de ton Verbe,
+    >tu as fondé le salut du genre humain : *
+    donne aux peuples qui t’appartiennent
+    >la miséricorde qu’ils implorent, /
+    afin que tous reconnaissent le seul Nom à invoquer,
+    >celui de ton Fils unique.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ph 2, 1-11
+      headline: « Ayez les mêmes dispositions, les mêmes sentiments »
+      content: |-
+        Frères,
+        s’il est vrai que, dans le Christ, on se réconforte les uns les autres,
+        >si l’on s’encourage avec amour,
+        >si l’on est en communion dans l’Esprit,
+        >si l’on a de la tendresse et de la compassion,
+        alors, pour que ma joie soit complète,
+        ayez les mêmes dispositions,
+        >le même amour,
+        >les mêmes sentiments ;
+        >recherchez l’unité.
+        Ne soyez jamais intrigants ni vaniteux,
+        mais ayez assez d’humilité
+        >pour estimer les autres supérieurs à vous-mêmes.
+        Que chacun de vous ne soit pas préoccupé de ses propres intérêts ;
+        >pensez aussi à ceux des autres.
+        Ayez en vous les dispositions
+        >qui sont dans le Christ Jésus :
+        ayant la condition de Dieu,
+        il ne retint pas jalousement
+        >le rang qui l’égalait à Dieu.
+        Mais il s’est anéanti,
+        prenant la condition de serviteur,
+        >devenant semblable aux hommes.
+        Reconnu homme à son aspect,
+        >il s’est abaissé,
+        devenant obéissant jusqu’à la mort,
+        >et la mort de la croix.
+        C’est pourquoi Dieu l’a exalté :
+        il l’a doté du Nom
+        >qui est au-dessus de tout nom,
+        afin qu’au nom de Jésus
+        >tout genou fléchisse
+        >au ciel, sur terre et aux enfers,
+        et que toute langue proclame :
+        >« Jésus Christ est Seigneur »
+        >à la gloire de Dieu le Père.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 8, 4-5, 6-7, 8-9
+      refAbbr: 8, 2
+      chorus:
+      - chorusRef: 8, 2
+        chorus: |-
+          Ô Seigneur, notre Dieu,
+          qu’il est grand, ton nom,
+          par toute la terre !
+      content: |-
+        À voir ton ciel, ouvrage de tes doigts,
+        la lune et les étoiles que tu fixas,
+        qu’est-ce que l’homme pour que tu penses à lui,
+        le fils d’un homme, que tu en prennes souci ?
+
+        Tu l’as voulu un peu moindre qu’un dieu,
+        le couronnant de gloire et d’honneur ;
+        tu l’établis sur les œuvres de tes mains,
+        tu mets toute chose à ses pieds.
+
+        Les troupeaux de bœufs et de brebis,
+        et même les bêtes sauvages,
+        les oiseaux du ciel et les poissons de la mer,
+        tout ce qui va son chemin dans les eaux.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 2, 21-24
+      headline: « L’enfant reçut le nom de Jésus »
+      acclamationAntiphon: |-
+        L’enfant qui est engendré en Marie
+        vient de l’Esprit Saint ;
+        elle enfantera un fils, et tu lui donneras le nom de Jésus.
+      content: |-
+        Quand fut accompli le temps prescrit par la loi de Moïse
+        pour la purification,
+        les parents de Jésus l’amenèrent à Jérusalem
+        pour le présenter au Seigneur,
+        selon ce qui est écrit dans la Loi :
+        Tout premier-né de sexe masculin
+        sera consacré au Seigneur.
+        Ils venaient aussi offrir
+        le sacrifice prescrit par la loi du Seigneur :
+        un couple de tourterelles
+        ou deux petites colombes.
+        
+  offeringPrayer:
+  - |-
+    En te présentant les offrandes
+    >qui nous viennent de ta largesse,
+    >nous te supplions, Seigneur : *
+    >puisque tu as donné le Nom qui sauve
+    au Christ obéissant jusqu’à la mort, /
+    >accorde-nous d’être protégés
+    par la puissance de ce Nom.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Ps 8,2
+    content: |-
+      Ô Seigneur, notre Dieu,
+      >qu’il est grand, ton nom,
+      >par toute la terre !
+  prayerAfterCommunion:
+  - |-
+    Seigneur, Dieu de majesté, +
+    >nous avons communié au sacrifice
+    >offert pour honorer le Nom du Christ,
+    >et nous te prions : *
+    >qu’il répande en nous les richesses de ta grâce /
+    >et nous donne la joie de savoir
+    >que notre nom est inscrit dans les cieux.
+    Par le Christ, notre Seigneur.

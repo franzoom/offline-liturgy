@@ -30,3 +30,136 @@ readings:
 
         La chair ne sert de rien,
         c’est l’Esprit qui vivifie.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Maintiens dans ton peuple, Seigneur,
+    >l’esprit qui animait l’évêque saint Charles Borromée : *
+    >que ton Église se renouvelle sans cesse
+    >et qu’en se conformant à l’image du Christ, /
+    >elle puisse montrer au monde le visage de son Seigneur.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 12, 3-13
+      headline: « Selon la grâce que Dieu nous a accordée, nous avons reçu des dons qui sont différents »
+      content: |-
+        Frères,
+        par la grâce qui m’a été accordée,
+        >je dis à chacun d’entre vous :
+        n’ayez pas de prétentions déraisonnables,
+        >mais pensez à être raisonnables,
+        >chacun dans la mesure de la mission que Dieu lui a confiée.
+        Prenons une comparaison :
+        en un corps unique,
+        nous avons plusieurs membres,
+        >qui n’ont pas tous la même fonction ;
+        de même, nous qui sommes plusieurs,
+        nous sommes un seul corps dans le Christ,
+        >et membres les uns des autres, chacun pour sa part.
+        Et selon la grâce que Dieu nous a accordée,
+        >nous avons reçu des dons qui sont différents.
+        Si c’est le don de prophétie, que ce soit à proportion du message confié ;
+        >si c’est le don de servir, que l’on serve ;
+        >si l’on est fait pour enseigner, que l’on enseigne ;
+        >pour réconforter, que l’on réconforte.
+        Celui qui donne, qu’il soit généreux ;
+        >celui qui dirige, qu’il soit empressé ;
+        >celui qui pratique la miséricorde, qu’il ait le sourire.
+        Que votre amour soit sans hypocrisie.
+        Fuyez le mal avec horreur,
+        >attachez-vous au bien.
+        Soyez unis les uns aux autres par l’affection fraternelle,
+        >rivalisez de respect les uns pour les autres.
+        Ne ralentissez pas votre élan,
+        >restez dans la ferveur de l’Esprit,
+        >servez le Seigneur,
+        ayez la joie de l’espérance,
+        >tenez bon dans l’épreuve,
+        >soyez assidus à la prière.
+        Partagez avec les fidèles qui sont dans le besoin,
+        >pratiquez l’hospitalité avec empressement.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 88 (89), 2-3, 4-5, 21-22, 25.27
+      refAbbr: cf. 88, 2a
+      chorus:
+      - chorusRef: cf. 88, 2a
+        chorus: |-
+          Ton amour, Seigneur,
+          sans fin je le chante !
+      content: |-
+        L’amour du Seigneur, sans fin je le chante ;
+        ta fidélité, je l’annonce d’âge en âge.
+        Je le dis : C’est un amour bâti pour toujours ;
+        ta fidélité est plus stable que les cieux.
+
+        « Avec mon élu, j’ai fait une alliance,
+        j’ai juré à David, mon serviteur :
+        j’établirai ta dynastie pour toujours,
+        je te bâtis un trône pour la suite des âges.
+
+        « J’ai trouvé David, mon serviteur,
+        je l’ai sacré avec mon huile sainte ;
+        et ma main sera pour toujours avec lui,
+        mon bras fortifiera son courage.
+
+        « Mon amour et ma fidélité sont avec lui,
+        mon nom accroît sa vigueur ;
+        il me dira : "Tu es mon Père,
+        mon Dieu, mon roc et mon salut !" »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 10, 11-16
+      headline: « Le bon pasteur donne sa vie pour ses brebis »
+      acclamationAntiphon: |-
+        Je suis le bon Pasteur, dit le Seigneur ;
+        je connais mes brebis
+        et mes brebis me connaissent.
+      content: |-
+        En ce temps-là, Jésus disait :
+        « Moi, je suis le bon pasteur, le vrai berger,
+        qui donne sa vie pour ses brebis.
+        Le berger mercenaire n’est pas le pasteur,
+        les brebis ne sont pas à lui :
+        s’il voit venir le loup,
+        il abandonne les brebis et s’enfuit ;
+        le loup s’en empare et les disperse.
+        Ce berger n’est qu’un mercenaire,
+        et les brebis ne comptent pas vraiment pour lui.
+        Moi, je suis le bon pasteur ;
+        je connais mes brebis,
+        et mes brebis me connaissent,
+        comme le Père me connaît,
+        et que je connais le Père ;
+        et je donne ma vie pour mes brebis.
+        J’ai encore d’autres brebis,
+        qui ne sont pas de cet enclos :
+        celles-là aussi, il faut que je les conduise.
+        Elles écouteront ma voix :
+        il y aura un seul troupeau
+        et un seul pasteur. »
+  offeringPrayer:
+  - |-
+    Regarde, Seigneur, les offrandes apportées à ton autel
+    >en la mémoire de saint Charles Borromée ; *
+    de même que tu l’as glorifié
+    >pour sa vigilance pastorale et l’excellence de ses vertus,
+    >accorde-nous, par la puissance de ce sacrifice, /
+    >de porter dans notre vie des fruits en abondance.
+    Par le Christ, notre Seigneur.
+  communionAntiphon: null
+  prayerAfterCommunion:
+  - |-
+    Que la participation aux saints mystères,
+    >nous t’en prions, Seigneur,
+    >nous donne la force d’âme /
+    qui rendit saint Charles
+    >fidèle à sa mission et débordant de charité.
+    Par le Christ, notre Seigneur.

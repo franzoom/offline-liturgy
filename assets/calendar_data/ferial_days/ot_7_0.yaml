@@ -66,8 +66,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 12,6
+    content: |-
+      Seigneur, j’ai mis mon espoir en ta miséricorde ;
+      >mon cœur a exulté dans ton salut !
+      Je chanterai le Seigneur
+      pour le bien qu’il m’a fait.
+  collect:
+  - |-
+    Dieu tout-puissant, nous t’en prions :
+    >accorde-nous de conformer à ta volonté nos paroles et nos actes /
+    >dans une inlassable recherche des biens spirituels.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -465,8 +478,36 @@ mass:
         qui sera versée dans le pan de votre vêtement ;
         car la mesure dont vous vous servez pour les autres
         servira de mesure aussi pour vous. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    En célébrant tes mystères, Seigneur,
+    >pour te servir comme il convient, +
+    >nous te supplions humblement : *
+    que les dons offerts pour honorer ta gloire /
+    >nous fassent progresser vers le salut.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 9,2-3
+    content: |-
+      De tout mon cœur, Seigneur, je rendrai grâce,
+      >je dirai tes innombrables merveilles ;
+      pour toi, j’exulterai, je danserai,
+      >je fêterai ton nom, Dieu Très-Haut.
+  - biblicalReference: Jn 11,27 (VG)
+    content: |-
+      Seigneur, je le crois : tu es le Christ, le Fils du Dieu vivant,
+      celui qui vient dans le monde.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : *
+    donne-nous de recueillir tous les fruits de salut /
+    dont ces mystères sont déjà la promesse et le gage.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

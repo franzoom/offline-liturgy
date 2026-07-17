@@ -34,3 +34,105 @@ readings:
         Au jour de sa visite, ils resplendiront.
         Le Seigneur régnera sur eux pour toujours.
 
+mass:
+  massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >que la persévérance de tes saints martyrs,
+    si précieuse pour toi,
+    >augmente en nous le désir de t’aimer, /
+    et stimule en nos cœurs une foi toujours plus solide.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 4, 12-19
+      headline: |-
+        « Puisque vous communiez aux souffrances du Christ, réjouissez-vous ! »
+      content: |-
+        Bien-aimés,
+        ne trouvez pas étrange le brasier allumé parmi vous
+        >pour vous mettre à l’épreuve ;
+        >ce qui vous arrive n’a rien d’étrange.
+        Dans la mesure où vous communiez aux souffrances du Christ,
+        >réjouissez-vous,
+        afin d’être dans la joie et l’allégresse
+        >quand sa gloire se révélera.
+        Si l’on vous insulte pour le nom du Christ,
+        >heureux êtes-vous,
+        parce que l’Esprit de gloire, l’Esprit de Dieu,
+        >repose sur vous.
+        Que personne d’entre vous, en effet,
+        >n’ait à souffrir comme meurtrier, voleur, malfaiteur,
+        >ou comme agitateur.
+        Mais si c’est comme chrétien,
+        qu’il n’ait pas de honte,
+        >et qu’il rende gloire à Dieu pour ce nom-là.
+        Car voici le temps du jugement :
+        >il commence par la famille de Dieu.
+        Or, s’il vient d’abord sur nous,
+        >quelle sera la fin de ceux qui refusent d’obéir à l’Évangile de Dieu ?
+        Et, si le juste est sauvé à grand-peine,
+        >l’impie, le pécheur, où va-t-il se montrer ?
+        Ainsi, ceux qui souffrent
+        >en faisant la volonté de Dieu,
+        qu’ils confient leurs âmes au Créateur fidèle,
+        >en faisant le bien.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+      refAbbr: 123, 7ab
+      chorus:
+      - chorusRef: 123, 7ab
+        chorus: |-
+          Comme un oiseau, nous avons échappé
+          au filet du chasseur.
+      content: |-
+        Sans le Seigneur qui était pour nous
+        quand des hommes nous assaillirent,
+        alors ils nous avalaient tout vivants,
+        dans le feu de leur colère.
+
+        Alors le flot passait sur nous,
+        le torrent nous submergeait ;
+        alors nous étions submergés
+        par les flots en furie.
+
+        Béni soit le Seigneur !
+        Le filet s’est rompu : nous avons échappé.
+        Notre secours est le nom du Seigneur
+        qui a fait le ciel et la terre.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 18-21
+      headline: |-
+        « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+      acclamationAntiphon: |-
+        À toi, Dieu, notre louange !
+        Toi, dont témoignent les martyrs,
+        nous t’acclamons : tu es Seigneur !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Si le monde a de la haine contre vous,
+        >sachez qu’il en a eu d’abord contre moi.
+        Si vous apparteniez au monde,
+        >le monde aimerait ce qui est à lui.
+        Mais vous n’appartenez pas au monde,
+        >puisque je vous ai choisis en vous prenant dans le monde ;
+        >voilà pourquoi le monde a de la haine contre vous.
+        Rappelez-vous la parole que je vous ai dite :
+        >un serviteur n’est pas plus grand que son maître.
+        Si l’on m’a persécuté,
+        >on vous persécutera, vous aussi.
+        Si l’on a gardé ma parole,
+        >on gardera aussi la vôtre.
+        Les gens vous traiteront ainsi à cause de mon nom,
+        >parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

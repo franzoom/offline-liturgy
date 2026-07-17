@@ -56,8 +56,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 118,137.124a
+    content: |-
+      Toi, tu es juste, Seigneur,
+      >tu es droit dans ton jugement.
+      Agis pour ton serviteur selon ta miséricorde.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >par toi nous vient la rédemption,
+    >par toi nous est donnée l’adoption filiale ; +
+    dans ta bonté, regarde avec amour tes enfants ;*
+    à ceux qui croient au Christ, accorde la vraie liberté /
+    >et la vie éternelle en héritage.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -393,8 +408,39 @@ mass:
         Ainsi donc, celui d’entre vous qui ne renonce pas
         à tout ce qui lui appartient
         ne peut pas être mon disciple. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu,
+    >source de la piété véritable et de la paix, +
+    >nous t’en prions, accorde-nous
+    >d’honorer dignement ta gloire par cette offrande, *
+    que, dans la participation fidèle aux saints mystères,
+    >nous prenions davantage conscience de notre unité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 41,2-3
+    content: |-
+      Comme un cerf altéré cherche la source des eaux,
+      >ainsi mon âme te désire, mon Dieu.
+      Mon âme a soif de Dieu, le Dieu vivant et fort.
+  - biblicalReference: Jn 8,12
+    content: |-
+      Je suis la lumière du monde, dit le Seigneur,
+      celui qui me suit ne marchera pas dans les ténèbres,
+      >il aura la lumière de la vie.
+  prayerAfterCommunion:
+  - |-
+    Par ta parole, Seigneur, et par le sacrement du ciel,
+    >tu nourris tes fidèles et les fais vivre : *
+    >accorde-nous de si bien profiter de tels dons /
+    que nous soyons associés pour toujours
+    >à la vie de ton Fils bien-aimé.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

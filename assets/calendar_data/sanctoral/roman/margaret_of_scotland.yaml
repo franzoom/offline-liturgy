@@ -32,3 +32,126 @@ readings:
 
         Force et dignité la revêtent,
         elle rit au jour qui vient.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu rendis sainte Marguerite d’Écosse
+    >admirable par sa charité rayonnante envers les pauvres ; *
+    accorde-nous, à son exemple et par son intercession, /
+    d’être au milieu des hommes un reflet de ta bonté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 58, 6-11
+      headline: « Partage ton pain avec celui qui a faim »
+      content: |-
+        Ainsi parle le Seigneur :
+        Le jeûne qui me plaît, n’est-ce pas ceci :
+        faire tomber les chaînes injustes,
+        délier les attaches du joug,
+        rendre la liberté aux opprimés,
+        briser tous les jougs ?
+        N’est-ce pas partager ton pain avec celui qui a faim,
+        accueillir chez toi les pauvres sans abri,
+        couvrir celui que tu verras sans vêtement,
+        ne pas te dérober à ton semblable ?
+        Alors ta lumière jaillira comme l’aurore,
+        et tes forces reviendront vite.
+        Devant toi marchera ta justice,
+        et la gloire du Seigneur fermera la marche.
+        Alors, si tu appelles, le Seigneur répondra ;
+        si tu cries, il dira : « Me voici. »
+        Si tu fais disparaître de chez toi
+        le joug, le geste accusateur, la parole malfaisante,
+        si tu donnes à celui qui a faim ce que toi, tu désires,
+        et si tu combles les désirs du malheureux,
+        ta lumière se lèvera dans les ténèbres
+        et ton obscurité sera lumière de midi.
+        Le Seigneur sera toujours ton guide.
+        En plein désert, il comblera tes désirs
+        et te rendra vigueur.
+        Tu seras comme un jardin bien irrigué,
+        comme une source où les eaux ne manquent jamais.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+      refAbbr: 111, 1a
+      chorus:
+      - chorusRef: 111, 1a
+        chorus: Heureux qui craint le Seigneur !
+      - chorusRef: null
+        chorus: 'ou : Alléluia !'
+      content: |-
+        Heureux qui craint le Seigneur,
+        qui aime entièrement sa volonté !
+        Sa lignée sera puissante sur la terre ;
+        la race des justes est bénie.
+
+        Les richesses affluent dans sa maison :
+        à jamais se maintiendra sa justice.
+        Lumière des cœurs droits, il s’est levé dans les ténèbres,
+        homme de justice, de tendresse et de pitié.
+
+        L’homme de bien a pitié, il partage ;
+        il mène ses affaires avec droiture.
+        Cet homme jamais ne tombera ;
+        toujours on fera mémoire du juste.
+
+        Il ne craint pas l’annonce d’un malheur :
+        le cœur ferme, il s’appuie sur le Seigneur.
+        Son cœur est confiant, il ne craint pas :
+        il verra ce que valaient ses oppresseurs.
+
+        À pleines mains, il donne au pauvre ;
+        à jamais se maintiendra sa justice,
+        sa puissance grandira et sa gloire !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 9-17
+      headline: « Vous êtes mes amis si vous faites ce que je vous commande »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Comme le Père m’a aimé,
+        moi aussi je vous ai aimés.
+        Demeurez dans mon amour.
+        Si vous gardez mes commandements,
+        vous demeurerez dans mon amour,
+        comme moi, j’ai gardé les commandements de mon Père,
+        et je demeure dans son amour.
+        Je vous ai dit cela pour que ma joie soit en vous,
+        et que votre joie soit parfaite.
+        Mon commandement, le voici :
+        Aimez-vous les uns les autres
+        comme je vous ai aimés.
+        Il n’y a pas de plus grand amour
+        que de donner sa vie pour ceux qu’on aime.
+        Vous êtes mes amis
+        si vous faites ce que je vous commande.
+        Je ne vous appelle plus serviteurs,
+        car le serviteur ne sait pas ce que fait son maître ;
+        je vous appelle mes amis,
+        car tout ce que j’ai entendu de mon Père,
+        je vous l’ai fait connaître.
+        Ce n’est pas vous qui m’avez choisi,
+        c’est moi qui vous ai choisis et établis
+        afin que vous alliez,
+        que vous portiez du fruit,
+        et que votre fruit demeure.
+        Alors, tout ce que vous demanderez au Père en mon nom,
+        il vous le donnera.
+        Voici ce que je vous commande :
+        c’est de vous aimer les uns les autres. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

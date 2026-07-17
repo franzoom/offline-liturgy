@@ -10,3 +10,128 @@ celebration:
 oration:
   - Seigneur Dieu, tu as fait de saint Pierre Claver l’esclave des esclaves, et tu lui as donné la force de leur venir en aide avec une patience et une charité admirables ; accorde-nous, par son intercession, de rechercher ce qui plaît à Jésus Christ et d’aimer notre prochain en actes et en vérité.
 
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as fait de saint Pierre Claver
+    >l’esclave des esclaves,
+    et tu lui as donné la force de leur venir en aide
+    >avec une patience et une charité admirables ; *
+    accorde-nous, par son intercession,
+    >de rechercher ce qui plaît à Jésus Christ /
+    >et d’aimer notre prochain en actes et en vérité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 58, 6-11
+      headline: |-
+        « Faire tomber les chaînes injustes »
+      content: |-
+        Ainsi parle le Seigneur :
+        Le jeûne qui me plaît, n’est-ce pas ceci :
+        faire tomber les chaînes injustes,
+        >délier les attaches du joug,
+        rendre la liberté aux opprimés,
+        >briser tous les jougs ?
+        N’est-ce pas partager ton pain avec celui qui a faim,
+        >accueillir chez toi les pauvres sans abri,
+        couvrir celui que tu verras sans vêtement,
+        >ne pas te dérober à ton semblable ?
+        Alors ta lumière jaillira comme l’aurore,
+        >et tes forces reviendront vite.
+        Devant toi marchera ta justice,
+        >et la gloire du Seigneur fermera la marche.
+        Alors, si tu appelles, le Seigneur répondra ;
+        >si tu cries, il dira : « Me voici. »
+        Si tu fais disparaître de chez toi
+        >le joug, le geste accusateur, la parole malfaisante,
+        si tu donnes à celui qui a faim ce que toi, tu désires,
+        >et si tu combles les désirs du malheureux,
+        ta lumière se lèvera dans les ténèbres
+        >et ton obscurité sera lumière de midi.
+        Le Seigneur sera toujours ton guide.
+        En plein désert, il comblera tes désirs
+        >et te rendra vigueur.
+        Tu seras comme un jardin bien irrigué,
+        >comme une source où les eaux ne manquent jamais.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 2a
+      chorus:
+      - chorusRef: 1, 2a
+        chorus: |-
+          Heureux qui se plaît
+          dans la loi du Seigneur.
+      content: |-
+        Heureux est l’homme
+        qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+        planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+        balayée par le vent.
+
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 25, 31-40
+      headline: |-
+        « Chaque fois que vous l’avez fait à l’un de ces plus petits de mes frères, c’est à moi que vous l’avez fait »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Quand le Fils de l’homme viendra dans sa gloire,
+        >et tous les anges avec lui,
+        alors il siégera sur son trône de gloire.
+        Toutes les nations seront rassemblées devant lui ;
+        il séparera les hommes les uns des autres,
+        >comme le berger sépare les brebis des boucs :
+        il placera les brebis à sa droite, et les boucs à gauche.
+        Alors le Roi dira à ceux qui seront à sa droite :
+        >« Venez, les bénis de mon Père,
+        >recevez en héritage le Royaume
+        >préparé pour vous depuis la fondation du monde.
+        Car j’avais faim, et vous m’avez donné à manger ;
+        >j’avais soif, et vous m’avez donné à boire ;
+        >j’étais un étranger, et vous m’avez accueilli ;
+        >j’étais nu, et vous m’avez habillé ;
+        >j’étais malade, et vous m’avez visité ;
+        >j’étais en prison, et vous êtes venus jusqu’à moi ! »
+        Alors les justes lui répondront :
+        >« Seigneur,
+        >quand est-ce que nous t’avons vu :
+        >tu avais donc faim, et nous t’avons nourri ?
+        tu avais soif, et nous t’avons donné à boire ?
+        tu étais un étranger, et nous t’avons accueilli ?
+        tu étais nu, et nous t’avons habillé ?
+        tu étais malade ou en prison...
+        Quand sommes-nous venus jusqu’à toi ? »
+        Et le Roi leur répondra :
+        >« Amen, je vous le dis :
+        >chaque fois que vous l’avez fait
+        >à l’un de ces plus petits de mes frères,
+        >c’est à moi que vous l’avez fait. » »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

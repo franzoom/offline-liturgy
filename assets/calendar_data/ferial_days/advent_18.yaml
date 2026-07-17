@@ -1,8 +1,7 @@
 celebration:
   title: 18 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Adonaï, berger de la maison d’Israël »
+  description: « Ô Adonaï, berger de la maison d’Israël »
   color: violet
 oration:
 - |-
@@ -131,8 +130,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Il vient, le Christ, notre Roi ;
+      >Jean lui rend témoignage :
+      >Voici l’Agneau qui devait venir.
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : +
+    >nous ployons sous le joug du péché
+    >qui depuis longtemps nous réduit en esclavage,
+    accorde-nous d’être délivrés, /
+    >nous qui attendons la naissance incomparable de ton Fils unique.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -228,8 +240,26 @@ mass:
         Quand Joseph se réveilla,
         il fit ce que l’ange du Seigneur lui avait prescrit :
          il prit chez lui son épouse.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Que le sacrifice célébré pour toi, Seigneur,
+    >nous rende agréables à ton nom ; *
+    nous pourrons ainsi partager l’éternité
+    >de celui qui nous a guéris de la mort /
+    >en prenant notre condition mortelle.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: Mt 1,23 (cf. Is 7,14)
+    content: |-
+      On lui donnera le nom d’Emmanuel,
+      >qui se traduit : Dieu-avec-nous.
+  prayerAfterCommunion:
+  - |-
+    Puissions-nous, Seigneur, +
+    >accueillir ta miséricorde au milieu de ton temple, *
+    et préparer, en t’honorant comme il convient, /
+    >la fête prochaine de notre rédemption.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

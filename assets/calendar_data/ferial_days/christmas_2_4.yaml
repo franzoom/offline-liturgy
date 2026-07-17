@@ -199,8 +199,25 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Jn 1,1
+    content: |-
+      Au commencement et avant le temps,
+      >le Verbe était Dieu :
+      lui-même a daigné naître dans le temps des hommes
+      >comme Sauveur du monde.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >par ton Fils, tu as fait lever sur toutes les nations
+    >l’aurore de ton jour éternel ; *
+    accorde à ton peuple
+    >de reconnaître la splendeur éclatante de son Rédempteur /
+    >et de parvenir, en progressant dans la foi,
+    >jusqu’à la clarté sans fin.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -295,8 +312,30 @@ mass:
         que vous venez d’entendre. »
         Tous lui rendaient témoignage
         et s’étonnaient des paroles de grâce qui sortaient de sa bouche.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur,
+    >ce que nous présentons pour cette eucharistie
+    >où s’accomplit un admirable échange : *
+    en offrant ce que tu nous as donné, /
+    >puissions-nous te recevoir toi-même.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - epiphany
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: Jn 3,16
+    content: |-
+      Dieu a tellement aimé le monde
+      >qu’il a donné son Fils unique,
+      afin que quiconque croit en lui ne se perde pas,
+      >mais obtienne la vie éternelle.
+  prayerAfterCommunion:
+  - |-
+    Dieu tout-puissant, nous t’en prions : *
+    fais que la force de tes saints mystères /
+    >soutienne constamment notre vie.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

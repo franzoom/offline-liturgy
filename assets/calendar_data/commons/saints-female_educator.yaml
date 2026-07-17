@@ -39,3 +39,78 @@ vespers:
     common:
     - |-
       Laissez venir à moi les petits enfants : le Royaume est à ceux qui leur ressemblent.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Mc 10, 14
+    content: |-
+      Laissez les enfants venir à moi, dit le Seigneur.
+      Ne les empêchez pas,
+      >car le royaume de Dieu est à ceux qui leur ressemblent.
+  - biblicalReference: cf. Mt 5, 19
+    content: |-
+      Celui qui observera et enseignera les commandements du Seigneur,
+      >celui-là sera déclaré grand dans le royaume des Cieux,
+      >dit le Seigneur.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as suscité sainte N. dans ton Église
+    >pour qu’il enseigne le chemin du salut
+    >à ceux qui lui étaient confiés; *
+    accorde-nous, à son exemple, de suivre le Christ, le seul Maitre, /
+    >afin de parvenir jusqu’à toi en compagnie de nos frères.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Accepte, Seigneur, nous t’en prions,
+    >le sacrifice que ton peuple consacré
+    >t’offre aujourd’hui en mémoire de sainte N.; *
+    fais qu’en ayant participé à ce mystère, /
+    >nous devenions des témoins de ta charité.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Mt 18, 3
+    content: |-
+      Si vous ne changez pas 
+      >pour devenir comme les enfants, dit le Seigneur,
+      vous n’entrerez pas dans le royaume des Cieux.
+  - biblicalReference: cf. Jn 8, 12
+    content: |-
+      Celui qui me suit ne marche pas dans les ténèbres,
+      >mais il aura la lumière de la vie, dit le Seigneur 
+  prayerAfterCommunion:
+  - |-
+    Dieu tout-puissant, +
+    >fais que nous trouvions un soutien dans ce repas sacré, *
+    >pour qu’à l’exemple de sainte N.,
+    nous manifestions dans notre cœur et par nos actes/
+    >la charité fraternelle et la lumière de la vérité.
+    Par le Christ, notre Seigneur.
+  readingParts:
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 18, 1-5
+      headline: |-
+        « Si vous ne changez pas pour devenir comme les enfants, vous n’entrerez pas dans le royaume des Cieux »
+      acclamationAntiphon: |-
+        Le plus grand parmi vous sera votre serviteur, dit le Seigneur,
+        qui s’abaissera sera élevé.
+      content: |-
+        À ce moment-là, les disciples s’approchèrent de Jésus et lui dirent :
+        >« Qui donc est le plus grand
+        >dans le royaume des Cieux ? »
+        Alors Jésus appela un petit enfant ;
+        >il le plaça au milieu d’eux,
+        et il déclara :
+        >« Amen, je vous le dis :
+        >si vous ne changez pas
+        >pour devenir comme les enfants,
+        >vous n’entrerez pas dans le royaume des Cieux.
+        Mais celui qui se fera petit comme cet enfant,
+        >celui-là est le plus grand dans le royaume des Cieux.
+        Et celui qui accueille un enfant comme celui-ci en mon nom,
+        >il m’accueille, moi. »

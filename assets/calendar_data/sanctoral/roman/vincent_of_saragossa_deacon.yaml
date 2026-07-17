@@ -35,3 +35,113 @@ readings:
 
         Lui, le premier, m’a saisi,
         de tout mon élan, je veux le saisir :
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    dans ta miséricorde répands sur nous ton Esprit : *
+    afin que nos cœurs soient forts de cet amour
+    >qui permit à saint Vincent, ton martyr, /
+    >d’être vainqueur dans tous les supplices infligés à son corps.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 4, 7-15
+      headline: « Nous portons, dans notre corps, la mort de Jésus »
+      content: |-
+        Frères,
+        nous portons un trésor comme dans des vases d’argile ;
+        ainsi, on voit bien que cette puissance extraordinaire
+        appartient à Dieu et ne vient pas de nous.
+        En toute circonstance, nous sommes dans la détresse,
+        mais sans être angoissés ;
+        nous sommes déconcertés,
+        mais non désemparés ;
+        nous sommes pourchassés,
+        mais non pas abandonnés ;
+        terrassés,
+        mais non pas anéantis.
+        Toujours nous portons, dans notre corps, la mort de Jésus,
+        afin que la vie de Jésus, elle aussi,
+        soit manifestée dans notre corps.
+        En effet, nous, les vivants,
+        nous sommes continuellement livrés à la mort à cause de Jésus,
+        afin que la vie de Jésus, elle aussi,
+        soit manifestée dans notre condition charnelle vouée à la mort.
+        Ainsi la mort fait son œuvre en nous,
+        et la vie en vous.
+        L’Écriture dit :
+        J’ai cru, c’est pourquoi j’ai parlé.
+        Et nous aussi, qui avons le même esprit de foi, nous croyons,
+        et c’est pourquoi nous parlons.
+        Car, nous le savons, celui qui a ressuscité le Seigneur Jésus
+        nous ressuscitera, nous aussi, avec Jésus,
+        et il nous placera près de lui avec vous.
+        Et tout cela, c’est pour vous,
+        afin que la grâce,
+        plus largement répandue dans un plus grand nombre,
+        fasse abonder l’action de grâce
+        pour la gloire de Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 17-22
+      headline: « Vous serez conduits devant des gouverneurs et des rois à cause de moi »
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        « Méfiez-vous des hommes :
+        ils vous livreront aux tribunaux
+        et vous flagelleront dans leurs synagogues.
+        Vous serez conduits devant des gouverneurs et des rois
+        à cause de moi :
+        il y aura là un témoignage pour eux et pour les païens.
+        Quand on vous livrera,
+        ne vous inquiétez pas
+        de savoir ce que vous direz ni comment vous le direz :
+        ce que vous aurez à dire
+        vous sera donné à cette heure-là.
+        Car ce n’est pas vous qui parlerez,
+        c’est l’Esprit de votre Père qui parlera en vous.
+        Le frère livrera son frère à la mort,
+        et le père, son enfant ;
+        les enfants se dresseront contre leurs parents
+        et les feront mettre à mort.
+        Vous serez détestés de tous à cause de mon nom ;
+        mais celui qui aura persévéré jusqu’à la fin,
+        celui-là sera sauvé. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

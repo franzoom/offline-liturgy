@@ -20,7 +20,6 @@ readings:
         De plus, l’apôtre portait ce nom %auprès des rois, des nations païennes et des fils d’Israël%, comme une lumière dont il illuminait les nations du monde, et partout il s’écriait: %La nuit est bientôt finie, le jour est tout proche. Rejetons les activités des ténèbres, revêtons-nous pour le combat de la lumière. Conduisons-nous honnêtement, comme on fait en plein jour%. Il montrait à tous %la lampe ardente, posée sur le lampadaire%, annonçant en tout lieu %Jésus, le crucifié%.
         Aussi l’Église, épouse du Christ, toujours appuyée sur son témoignage, exulte-t-elle en disant avec le Prophète : %Mon Dieu, tu m’as instruit dès ma jeunesse et je redirai tes merveilles jusqu’à présent%, c’est-à-dire toujours. Le prophète y exhorte aussi en disant: %Chantez le Seigneur en bénissant son nom, de jour en jour proclamez son salut%, c’est-à-dire Jésus le Sauveur.
 
-
       responsory: |-
         R/ Je veux te rendre grâce et te louer,
         je veux bénir ton nom, Seigneur Jésus.
@@ -33,3 +32,102 @@ readings:
         
         Au nom de Jésus, que toute langue proclame :
         il est Seigneur, à la gloire du Père.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as inspiré au prêtre saint Bernardin,
+    >un très grand amour pour le nom de Jésus ; *
+    accorde-nous, à sa prière et par ses mérites, /
+    >d’être toujours embrasés par ton esprit de charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 4, 8-12
+      headline: « En nul autre que lui, il n’y a de salut »
+      content: |-
+        En ces jours-là,
+        Pierre, rempli de l’Esprit Saint, déclara :
+        « Chefs du peuple et anciens,
+        nous sommes interrogés aujourd’hui
+        pour avoir fait du bien à un infirme,
+        et l’on nous demande comment cet homme a été sauvé.
+        Sachez-le donc, vous tous,
+        ainsi que tout le peuple d’Israël :
+        c’est par le nom de Jésus le Nazaréen,
+        lui que vous avez crucifié
+        mais que Dieu a ressuscité d’entre les morts,
+        c’est par lui que cet homme
+        se trouve là, devant vous, bien portant.
+        Ce Jésus est la pierre méprisée de vous, les bâtisseurs,
+        mais devenue la pierre d’angle.
+        En nul autre que lui, il n’y a de salut,
+        car, sous le ciel, aucun autre nom n’est donné aux hommes,
+        qui puisse nous sauver. »
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        chorus: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 9, 57-62
+      headline: « Je te suivrai partout où tu iras »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        en cours de route, un homme dit à Jésus :
+        « Je te suivrai partout où tu iras. »
+        Jésus lui déclara :
+        « Les renards ont des terriers,
+        et les oiseaux du ciel ont des nids ;
+        mais le Fils de l’homme n’a pas d’endroit où reposer la tête. »
+        Il dit à un autre :
+        « Suis-moi. »
+        L’homme répondit :
+        « Permets-moi d’aller d’abord enterrer mon père. »
+        Mais Jésus répliqua :
+        « Laisse les morts enterrer leurs morts ;
+        et toi, va-t’en annoncer le règne de Dieu. »
+        Un autre encore lui dit :
+        « Je te suivrai, Seigneur,
+        mais permets-moi d’abord de faire mes adieux aux gens de chez moi. »
+        Jésus lui répondit :
+        « Quiconque met la main à la charrue et regarde en arrière
+        n’est pas fait pour le royaume de Dieu. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

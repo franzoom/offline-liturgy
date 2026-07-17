@@ -51,8 +51,26 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Dn 3,31.29.30.43.42
+    content: |-
+      Tout ce que tu nous as infligé, Seigneur,
+      >tu l’as fait par un jugement de vérité,
+      car nous avons péché contre toi,
+      >nous n’avons pas obéi à tes commandements ;
+      mais glorifie ton nom,
+      et agis envers nous selon l’abondance de ta miséricorde.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >quand tu pardonnes et prends pitié,
+    >tu manifestes au plus haut point ta toute-puissance : *
+    >multiplie pour nous les dons de ta grâce :
+    alors, en nous hâtant vers les biens que tu promets, /
+    >nous aurons part au bonheur du ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -469,8 +487,37 @@ mass:
         ‘S’ils n’écoutent pas Moïse ni les Prophètes,
         quelqu’un pourra bien ressusciter d’entre les morts :
         ils ne seront pas convaincus.’ »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Dieu de miséricorde, nous t’en prions, +
+    >accueille cette offrande que nous te présentons : *
+    >qu’elle ouvre largement pour nous /
+    >la source de toute bénédiction.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 118,49-50
+    content: |-
+      Rappelle-toi ta parole à ton serviteur, Seigneur ;
+      >Celle dont tu fis mon espoir.
+      Elle est ma consolation dans mon épreuve.
+  - biblicalReference: 1Jn 3,16
+    content: |-
+      Voici comment nous avons reconnu l’amour :
+      >lui, Jésus, a donné sa vie pour nous.
+      Nous aussi, nous devons donner notre vie pour nos frères.
+  prayerAfterCommunion:
+  - |-
+    Que le sacrement du ciel, Seigneur,
+    guérisse nos esprits et nos corps, *
+    afin qu’annonçant la mort du Christ, /
+    >et participant à ses souffrances,/
+    >nous héritions avec lui de sa gloire.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

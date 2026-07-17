@@ -232,8 +232,19 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 32,1.5.6
+    content: |-
+      La terre est remplie de l’amour du Seigneur ;
+      >il a fait les cieux par sa parole, alléluia.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >guide-nous jusqu’au bonheur du ciel ; *
+    >que le troupeau parvienne, malgré sa faiblesse, /
+    >là où son Pasteur est entré victorieux.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -612,8 +623,27 @@ mass:
         et personne ne peut les arracher de la main du Père.
          Le Père et moi,
         nous sommes UN. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Donne-nous, Seigneur, nous t’en prions,
+    >de toujours te rendre grâce
+    >par ces mystères de Pâques ; *
+    qu’ils continuent l’œuvre de notre relèvement /
+    >et deviennent pour nous
+    >une source intarissable de joie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: null
+    content: |-
+      Le bon Pasteur est ressuscité,
+      >lui qui a donné sa vie pour ses brebis,
+      >lui qui a choisi de mourir pour son troupeau, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, Pasteur plein de bonté, +
+    >regarde avec bienveillance ton troupeau ; *
+    >tu l’as racheté par le sang précieux de ton Fils : /
+    >ouvre-lui les pâturages éternels.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

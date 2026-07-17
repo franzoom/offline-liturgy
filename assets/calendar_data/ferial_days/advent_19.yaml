@@ -1,8 +1,7 @@
 celebration:
   title: 19 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Rameau de la tige de Jessé »
+  description: « Ô Rameau de la tige de Jessé »
   color: violet
 oration:
 - Par le signe merveilleux de la Vierge qui enfante tu as fait connaître au monde, Seigneur, la splendeur de ta gloire ; aide-nous à célébrer le mystère de l’incarnation avec une foi sans défaut et dans l’obéissance du cœur.
@@ -119,8 +118,25 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. He 10,37
+    content: |-
+      Celui qui doit venir arrivera,
+      >il ne tardera pas ;
+      alors, plus de crainte sur notre terre,
+      >car il est notre Sauveur.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >par la maternité de la Vierge sainte,
+    >tu as voulu révéler au monde la splendeur de ta gloire ; *
+    nous t’en prions : accorde-nous de vénérer
+    >le mystère si grand de l’incarnation
+    >dans la pureté de la foi /
+    >et de le célébrer toujours dans l’obéissance du cœur.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -267,8 +283,28 @@ mass:
          « Voilà ce que le Seigneur a fait pour moi,
          en ces jours où il a posé son regard pour effacer
          ce qui était ma honte devant les hommes. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Regarde avec bonté,
+    >nous t’en prions, Seigneur,
+    >les offrandes apportées à ton autel : *
+    que les dons présentés par nous, dans notre faiblesse, /
+    >soient consacrés par ta puissance.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: cf. Lc 1,78-79
+    content: |-
+      L’Astre d’en haut nous visitera
+      >pour conduire nos pas au chemin de la paix.
+  prayerAfterCommunion:
+  - |-
+    Nous te rendons grâce, Dieu tout-puissant,
+    >pour les bienfaits déjà reçus ; *
+    dans ta bonté, fais-nous désirer
+    >ceux que tu vas nous donner bientôt ; /
+    nous accueillerons alors d’un esprit purifié
+    >la naissance admirable de notre Sauveur.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

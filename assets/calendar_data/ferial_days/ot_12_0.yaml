@@ -57,8 +57,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 27,8-9
+    content: |-
+      Le Seigneur est la force de son peuple,
+      >le refuge et le salut de son messie.
+      Sauve ton peuple, Seigneur, bénis ton héritage,
+      et conduis-le à jamais.
+  collect:
+  - |-
+    Fais-nous vivre à tout moment, Seigneur,
+    >dans l’amour et le respect de ton saint nom, *
+    >toi qui ne cesses jamais de guider /
+    >ceux que tu enracines solidement dans ta tendresse.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -398,8 +412,35 @@ mass:
         la perdra ;
         mais celui qui perdra sa vie à cause de moi
         la sauvera. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, le sacrifice de louange et de paix ; *
+    >accorde-nous d’être purifiés par son action /
+    >et de t’offrir un cœur qui te plaise.
+    Par le Christ, notre Seigneur
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 144,15
+    content: |-
+      Les yeux sur toi, tous, ils espèrent, Seigneur :
+      >tu leur donnes la nourriture au temps voulu.
+  - biblicalReference: Jn 10,11.15
+    content: |-
+      Je suis le Bon Pasteur,
+      >et je donne ma vie pour mes brebis,
+      >dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Nourris et renouvelés
+    par le Corps sacré et le Sang précieux de ton Fils,
+    nous implorons ta bonté, Seigneur : *
+    fais que, sûrs de la rédemption, /
+    >nous possédions ce que nous aimons célébrer avec ferveur.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

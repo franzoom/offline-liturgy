@@ -60,3 +60,53 @@ vespers:
     - psalm: NT_9
       antiphon:
         - R/ Gloire à l’Agneau immolé !
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon:
+  - biblicalReference: Ps 117,26-27
+    content: |-
+      Béni soit celui qui vient au nom du Seigneur :
+      >le Seigneur est Dieu, et il nous illumine.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu que ton Fils,
+    >par sa bienheureuse naissance de la Vierge sainte,
+    >ne soit pas soumis dans sa chair
+    >à la condamnation qui pesait sur le genre humain ; *
+    accorde-nous d’échapper à la dégradation du péché, /
+    >puisque nous avons part à la nouvelle création.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts: null
+  offeringPrayer:
+  - |-
+    Reçois favorablement, Seigneur,
+    >les dons présentés par ton peuple, *
+    que tous obtiennent par tes sacrements /
+    >ce qu’ils proclament dans la ferveur de la foi.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: Ep 2,4; Rm 8,3
+    content: |-
+      À cause du grand amour dont il nous a aimés,
+      >Dieu a envoyé son propre Fils
+      >dans une condition charnelle
+      >semblable à celle des pécheurs.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >toi qui viens jusqu’à nous
+    >quand nous participons à ce sacrement, *
+    produis en nos cœurs les fruits de ce mystère,
+    >pour que tes propres dons nous préparent
+    >à recevoir ce que tu nous donnes.
+    Par le Christ, notre Seigneur.
+  solemnBlessingList: null

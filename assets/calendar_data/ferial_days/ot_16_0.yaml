@@ -58,8 +58,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 53,6. 8
+    content: |-
+      Voici que Dieu vient à mon aide, le Seigneur est le soutien de mon âme.
+      De grand cœur, je t’offrirai le sacrifice, je confesserai ton nom, car il est bon !
+  collect:
+  - |-
+    Sois favorable à tes fidèles, Seigneur, +
+    >et, dans ta bonté, multiplie pour eux les dons de ta grâce, *
+    >afin que, brûlant de charité, de foi et d’espérance, /
+    ils soient toujours vigilants pour garder tes commandements.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -463,8 +475,40 @@ mass:
          Une seule est nécessaire.
         Marie a choisi la meilleure part,
         elle ne lui sera pas enlevée. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu, +
+    >dans le sacrifice unique et parfait de ton Fils,
+    >tu as porté à leur achèvement
+    les multiples sacrifices de l’ancienne Loi ; *
+    reçois maintenant le sacrifice offert par tes fidèles serviteurs
+    >et sanctifie-le comme tu as béni les présents d’Abel : /
+    >que les dons offerts par chacun pour honorer ta gloire
+    >servent au salut de tous.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: cf. Ps 110,4-5
+    content: |-
+      Le Seigneur est tendresse et pitié ;
+      >de ses merveilles il a laissé un mémorial.
+      Il a donné des vivres à ceux qui le craignent.
+  - biblicalReference: Ap 3,20
+    content: |-
+      Voici que je me tiens à la porte et je frappe, dit le Seigneur ;
+      si quelqu’un entend ma voix, et ouvre la porte,
+      >j’entrerai chez lui, je prendrai mon repas avec lui et lui avec moi.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bienveillance, reste auprès de ton peuple,
+    >nous t’en prions, Seigneur ; *
+    puisque tu l’as initié aux sacrements du ciel, /
+    >fais-le passer de ce qui est ancien à la vie nouvelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

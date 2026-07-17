@@ -33,3 +33,137 @@ readings:
 
         Le Christ est mort, puis ressuscité,
         pour être le Seigneur des morts et des vivants.
+
+mass:
+- massType: first_mass
+  name: Première messe
+  note: On choisira les lectures parmi celles qui sont proposées pour les funérailles (Lectionnaire, p. 1467) ; aucune péricope fixe n’est imprimée dans le Missel pour cette messe.
+  entranceAntiphon:
+  - biblicalReference: cf. 1Th 4,14 ; 1 Co 15,22
+    content: |-
+      Jésus est mort et ressuscité ;
+      de même, ceux qui se sont endormis,
+      >Dieu, par Jésus, les emmènera avec lui.
+      En effet, de même que tous les hommes meurent en Adam,
+      >de même c’est dans le Christ que tous recevront la vie.
+  collect:
+  - |-
+    Écoute nos prières avec bonté, Seigneur, nous t’en prions : *
+    >tandis que grandit notre foi
+    >en ton Fils ressuscité d’entre les morts, /
+    affermis aussi notre espérance,
+    >puisque nous attendons la résurrection de ceux qui t’ont servi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles. (= Funérailles C)
+  readingParts: []
+  offeringPrayer:
+  - |-
+    Sois favorable à nos offrandes, Seigneur : *
+    >que les fidèles défunts parviennent à la gloire
+    >avec ton Fils à qui nous sommes unis /
+    >par l’admirable sacrement de son amour.
+    Lui qui vit et règne pour les siècles des siècles.
+  communionAntiphon:
+  - biblicalReference: cf. Jn 11,25-26
+    content: |-
+      Je suis la résurrection et la vie, dit le Seigneur.
+      Celui qui croit en moi, même s’il meurt, vivra ;
+      >et quiconque vit et croit en moi ne mourra jamais.
+  prayerAfterCommunion:
+  - |-
+    Accorde aux fidèles défunts, Seigneur,
+    >de passer dans ta demeure de lumière et de paix, *
+    car c’est pour eux que nous avons célébré /
+    >le sacrement pascal.
+    Par le Christ, notre Seigneur.
+
+- massType: second_mass
+  name: Deuxième messe
+  note: On choisira les lectures parmi celles qui sont proposées pour les funérailles (Lectionnaire, p. 1467) ; aucune péricope fixe n’est imprimée dans le Missel pour cette messe.
+  entranceAntiphon:
+  - biblicalReference: cf. 4Esd 2,34-35
+    content: |-
+      Donne-leur le repos éternel, Seigneur,
+      et que brille pour eux la lumière sans fin.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu es la gloire de tes fidèles, tu es la vie des justes,
+    >et ton propre Fils nous a rachetés
+    >par sa mort et sa résurrection ; *
+    regarde avec bienveillance tes serviteurs défunts : /
+    >puisqu’ils ont cru au mystère de notre résurrection,
+    >accorde-leur de goûter le bonheur éternel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts: []
+  offeringPrayer:
+  - |-
+    Dieu de puissance et de miséricorde, +
+    >dans le sacrifice que nous t’offrons,
+    >délivre les âmes de tes serviteurs défunts,
+    en effaçant leurs péchés par le sang du Christ ; *
+    >que ta douce miséricorde ne cesse de purifier /
+    >ceux que tu as lavés dans l’eau du baptême.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. 4Esd 2,35.34
+    content: |-
+      Que brille sur eux la lumière éternelle
+      en compagnie des saints, car tu es bon, Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Après avoir communié, Seigneur,
+    >au sacrement de ton Fils unique,
+    >immolé pour nous et ressuscité dans la gloire, +
+    nous te supplions pour tes serviteurs défunts : *
+    >fais que, purifiés par le mystère pascal, /
+    >ils obtiennent la gloire que donne la résurrection à venir.
+    Par le Christ, notre Seigneur.
+
+
+- massType: third_mass
+  name: 3ème messe
+  note: On choisira les lectures parmi celles qui sont proposées pour les funérailles (Lectionnaire, p. 1467) ; aucune péricope fixe n’est imprimée dans le Missel pour cette messe.
+  entranceAntiphon:
+  - biblicalReference: cf. Rm 8,11
+    content: |-
+      Dieu qui a ressuscité Jésus d’entre les morts
+      >donnera aussi la vie à nos corps mortels
+      >par son Esprit qui habite en nous.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >ton Fils unique a triomphé de la mort,
+    >et tu l’as fait passer dans le royaume des Cieux ; *
+    accorde à tes serviteurs défunts
+    >de partager sa victoire sur la mort /
+    >pour te contempler éternellement,
+    >toi, leur créateur et rédempteur.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts: []
+  offeringPrayer:
+  - |-
+    Accueille avec bonté, Seigneur,
+    >l’offrande que nous te présentons
+    >pour tous ceux qui reposent dans le Christ : *
+    que cet incomparable sacrifice,
+    >en les arrachant aux liens de la mort, /
+    >leur obtienne la vie éternelle.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Ph 3,20-21
+    content: |-
+      Nous attendons comme sauveur le Seigneur Jésus Christ,
+      >lui qui transformera nos pauvres corps à l’image de son corps glorieux.
+  prayerAfterCommunion:
+  - |-
+    Par ce sacrifice que tu as accueilli, Seigneur, +
+    >fais surabonder ta miséricorde sur tes serviteurs défunts : *
+    tu leur as donné la grâce du baptême, /
+    >donne-leur aussi en plénitude la joie éternelle.
+    Par le Christ, notre Seigneur.

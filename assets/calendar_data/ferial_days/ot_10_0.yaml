@@ -49,8 +49,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 26,1-2
+    content: |-
+      Le Seigneur est ma lumière et mon salut ;
+      >de qui aurais-je crainte ?
+      Le Seigneur est le rempart de ma vie ;
+      >devant qui tremblerais-je ?
+      Mes ennemis, mes adversaires,
+      >perdent pied et succombent.
+  collect:
+  - |-
+    Seigneur Dieu, source de tout bien, +
+    >réponds sans te lasser à notre appel : *
+    >inspire-nous de concevoir ce qui est juste /
+    >et dirige-nous pour l’accomplir.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -469,8 +485,35 @@ mass:
         et Dieu a visité son peuple. »
         Et cette parole sur Jésus se répandit
         dans la Judée entière et dans toute la région.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Regarde favorablement tes serviteurs,
+    Seigneur, nous t’en prions : *
+    que notre offrande soit pour toi un présent agréable /
+    >et nous fasse grandir en charité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 17,2-3
+    content: |-
+      Le Seigneur est ma forteresse,
+      mon refuge et mon libérateur.
+      Mon Dieu vient à mon aide.
+  - biblicalReference: 1Jn 4,16
+    content: |-
+      Dieu est amour :
+      >qui demeure dans l’amour
+      >demeure en Dieu, et Dieu demeure en lui.
+  prayerAfterCommunion:
+  - |-
+    Par ta force de guérison, Seigneur : *
+    >dans ta bonté, libère-nous de nos égarements, /
+    >et conduis-nous sur le droit chemin.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

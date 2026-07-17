@@ -2,3 +2,51 @@ commonTitle: Commun de plusieurs Pasteurs
 
 oration:
   - Pour que les saints (évêques) N. et N. soient les pasteurs de ton peuple, tu leur as donné, Seigneur, un esprit d’amour et de vérité ; puisque nous célébrons aujourd’hui leur fête, accorde-nous de progresser en les imitant, et de trouver un soutien dans leur prière.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Jr 3, 15
+    content: |-
+      Je vous donnerai des pasteurs selon mon cœur; 
+      >ils vous conduiront avec sagesse et intelligence.
+  - biblicalReference: cf. Dn 3, 84.87
+    content: |-
+      Prêtres du Seigneur, bénissez le Seigneur!
+      Saints et humbles de cœur, louez Dieu.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    pour que les saints (évêques) N. et N.
+    >soient les pasteurs de ton peuple,
+    >tu les as comblés d’un esprit d’amour et de vérité; *
+    puisque nous célébrons leur fête,
+    >accorde-nous de progresser en les imitant, /
+    >et de trouver dans leur intercession
+    >un soutien inébranlable.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    En célébrant, Seigneur, la mémoire des saints,
+    >nous t’offrons ce sacrifice de louange; *
+    par lui, délivre-nous du mal aujourd’hui et demain, /
+    >comme nous en avons l’espérance.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - holy_pastors
+  communionAntiphon:
+  - biblicalReference: cf. Mt 20, 28
+    content: |-
+      Le Fils de l’homme n’est pas venu pour être servi, mais pour servir,
+      >et donner sa vie en rançon pour la multitude.
+
+  prayerAfterCommunion:
+  - |-
+    Nous avons reçu, Seigneur, le sacrement du ciel
+    >en faisant mémoire des saints N. et N.; *
+    nous t’en prions:
+    >donne-nous de posséder dans la joie éternelle /
+    >ce que nous célébrons dans le temps de cette vie.
+    Par le Christ, notre Seigneur.

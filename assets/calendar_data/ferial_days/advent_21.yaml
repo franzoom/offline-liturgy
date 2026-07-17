@@ -1,8 +1,7 @@
 celebration:
   title: 21 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Orient, splendeur de la lumière éternelle »
+  description: « Ô Orient, splendeur de la lumière éternelle »
   color: violet
 oration:
 - Écoute avec bonté, Seigneur, la prière de ton peuple qui se réjouit de la venue de ton Fils en notre chair ; puissions-nous obtenir le bonheur de la vie éternelle quand il viendra dans sa gloire. Lui qui règne.
@@ -131,8 +130,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 7,14; 8,10
+    content: |-
+      Voici venir le Seigneur Souverain :
+      >il aura pour nom Emmanuel
+      >car il sera : Dieu avec nous.
+  collect:
+  - |-
+    Écoute avec bonté, Seigneur, la prière de ton peuple
+    >qui se réjouit de la venue de ton Fils unique en notre chair ; *
+    puissions-nous, quand il viendra en majesté, /
+    >obtenir la récompense de la vie éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -251,8 +263,27 @@ mass:
          l’enfant a tressailli d’allégresse en moi.
          Heureuse celle qui a cru à l’accomplissement des paroles
          qui lui furent dites de la part du Seigneur. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille favorablement, Seigneur, ces présents
+    >que, dans ta miséricorde, tu as donnés à ton Église
+    >pour qu’elle puisse te les offrir ; *
+    fais qu’ils deviennent, par ta puissance /
+    >le sacrement de notre salut.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: cf. Lc 1,45
+    content: |-
+      Heureuse, toi qui as cru,
+      car s’accompliront les paroles
+      >qui te furent dites de la part du Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Que la participation aux divins mystères, Seigneur,
+    >garde à jamais ton peuple : *
+    qu’en s’attachant pleinement au service de ta gloire, /
+    >il reçoive en abondance le salut de l’âme et du corps.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

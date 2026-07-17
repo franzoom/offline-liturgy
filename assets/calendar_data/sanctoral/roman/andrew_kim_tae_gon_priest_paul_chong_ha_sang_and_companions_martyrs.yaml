@@ -33,3 +33,133 @@ readings:
         
         Gens obscurs, ils sont dans la gloire,
         morts au monde, ils vivent à Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Sur la terre de Corée,
+      >les martyrs ont versé leur sang pour le Christ ;
+      aussi ont-ils reçu leur récompense dans le ciel.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu que, par toute la terre,
+    >se multiplient tes enfants d’adoption
+    >et tu as fait que le sang des saints martyrs
+    >André et ses compagnons
+    >devienne une magnifique semence de chrétiens ; *
+    >accorde-nous d’être fortifiés par leur secours /
+    >et de progresser toujours à leur exemple.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Sg 3, 1-9
+      headline: |-
+        « Comme une offrande parfaite, il les accueille »
+      content: |-
+        Les âmes des justes sont dans la main de Dieu ;
+        >aucun tourment n’a de prise sur eux.
+        Aux yeux de l’insensé, ils ont paru mourir ;
+        leur départ est compris comme un malheur,
+        >et leur éloignement, comme une fin :
+        mais ils sont dans la paix.
+        Au regard des hommes, ils ont subi un châtiment,
+        >mais l’espérance de l’immortalité les comblait.
+        Après de faibles peines,
+        >de grands bienfaits les attendent,
+        car Dieu les a mis à l’épreuve
+        >et trouvés dignes de lui.
+        Comme l’or au creuset, il les a éprouvés ;
+        >comme une offrande parfaite, il les accueille.
+        Au temps de sa visite, ils resplendiront :
+        >comme l’étincelle qui court sur la paille, ils avancent.
+        Ils jugeront les nations, ils auront pouvoir sur les peuples,
+        >et le Seigneur régnera sur eux pour les siècles.
+        Qui met en lui sa foi comprendra la vérité ;
+        >ceux qui sont fidèles resteront, dans l’amour, près de lui.
+        Pour ses amis, grâce et miséricorde :
+        >il visitera ses élus.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: 125, 1…
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 9, 23-26
+      headline: |-
+        « Celui qui perdra sa vie à cause de moi la sauvera »
+      acclamationAntiphon: |-
+        Si l’on vous insulte pour le nom du Christ,
+        heureux êtes-vous :
+        l’Esprit de Dieu repose sur vous.
+      content: |-
+        En ce temps-là,
+        Jésus disait à tous :
+        >« Celui qui veut marcher à ma suite,
+        >qu’il renonce à lui-même,
+        >qu’il prenne sa croix chaque jour
+        >et qu’il me suive.
+        Car celui qui veut sauver sa vie
+        >la perdra ;
+        >mais celui qui perdra sa vie à cause de moi
+        >la sauvera.
+        Quel avantage un homme aura-t-il
+        >à gagner le monde entier,
+        >s’il se perd ou se ruine lui-même ?
+        Celui qui a honte de moi et de mes paroles,
+        >le Fils de l’homme aura honte de lui,
+        >quand il viendra dans la gloire,
+        >la sienne, celle du Père et des saints anges. »
+  offeringPrayer:
+  - |-
+    Regarde avec bonté, Dieu tout-puissant,
+    >les offrandes de ton peuple : *
+    >à la prière de tes saints martyrs,
+    >fais de nous-mêmes, pour le salut du monde entier, /
+    >un sacrifice qui te plaise.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Mt 10,32
+    content: |-
+      Celui qui se prononcera pour moi devant les hommes,
+      >dit le Seigneur,
+      moi aussi, je me prononcerai pour lui
+      >devant mon Père qui est aux cieux.
+  prayerAfterCommunion:
+  - |-
+    Nourris du pain des forts
+    >en la célébration de tes saints martyrs,
+    >nous te supplions instamment, Seigneur : *
+    >accorde-nous de rester fidèlement unis au Christ /
+    >pour travailler dans l’Église au salut de tous.
+    Par le Christ, notre Seigneur.

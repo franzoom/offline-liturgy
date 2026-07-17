@@ -41,3 +41,95 @@ readings:
 
         Alors vous serez mes témoins
         jusqu’aux extrémités de la terre.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >pour la croissance et le progrès de ton Église,
+    >tu as donné à saint Pierre Chanel la couronne du martyre ; *
+    en ce temps de joie pascale,
+    >accorde-nous de célébrer les mystères du Christ mort et ressuscité, /
+    >pour que nous devenions ainsi les témoins de la vie nouvelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Co 1, 18-25
+      headline: « Il a plu à Dieu de sauver les croyants par cette folie qu’est la proclamation de l’Évangile »
+      content: |-
+        Frères, le langage de la croix est folie pour ceux qui vont à leur perte,
+        mais pour ceux qui vont vers leur salut, pour nous, il est puissance de Dieu.
+        L’Écriture dit en effet :
+        je mènerai à sa perte la sagesse des sages,
+        et l’intelligence des intelligents, je la rejetterai.
+        Où est-il, le sage ?
+        Où est-il, le scribe ?
+        Où est-il, le raisonneur d’ici-bas ?
+        La sagesse du monde, Dieu ne l’a-t-il pas rendue folle ?
+        Puisque, en effet, par une disposition de la sagesse de Dieu,
+        le monde, avec toute sa sagesse, n’a pas su reconnaître Dieu,
+        il a plu à Dieu de sauver les croyants
+        par cette folie qu’est la proclamation de l’Évangile.
+        Alors que les Juifs réclament des signes miraculeux,
+        et que les Grecs recherchent une sagesse,
+        nous, nous proclamons un Messie crucifié,
+        scandale pour les Juifs, folie pour les nations païennes.
+        Mais pour ceux que Dieu appelle, qu’ils soient juifs ou grecs,
+        ce Messie, ce Christ, est puissance de Dieu et sagesse de Dieu.
+        Car ce qui est folie de Dieu est plus sage que les hommes,
+        et ce qui est faiblesse de Dieu est plus fort que les hommes.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 116 (117), 1, 2
+      refAbbr: Mc 16, 15
+      chorus:
+      - chorusRef: Mc 16, 15
+        chorus: |-
+          Allez dans le monde entier.
+          Proclamez l’Évangile.
+      - chorusRef: null
+        chorus: 'ou : Alléluia !'
+      content: |-
+        Louez le Seigneur, tous les peuples ;
+        fêtez-le, tous les pays !
+
+        Son amour envers nous s’est montré le plus fort ;
+        éternelle est la fidélité du Seigneur !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 1, 14-20
+      headline: « Je vous ferai devenir pêcheurs d’hommes »
+      acclamationAntiphon: |-
+        Venez à ma suite, dit le Seigneur.
+        Je vous ferai devenir pêcheurs d’hommes.
+      content: |-
+        Après l’arrestation de Jean le Baptiste,
+        Jésus partit pour la Galilée
+        proclamer l’Évangile de Dieu ;
+        il disait :
+        « Les temps sont accomplis :
+        le règne de Dieu est tout proche.
+        Convertissez-vous et croyez à l’Évangile. »
+        Passant le long de la mer de Galilée,
+        Jésus vit Simon et André, le frère de Simon,
+        en train de jeter les filets dans la mer,
+        car c’étaient des pêcheurs.
+        Il leur dit :
+        « Venez à ma suite.
+        Je vous ferai devenir pêcheurs d’hommes. »
+        Aussitôt, laissant leurs filets,
+        ils le suivirent.
+        Jésus avança un peu
+        et il vit Jacques, fils de Zébédée, et son frère Jean,
+        qui étaient dans la barque et réparaient les filets.
+        Aussitôt, Jésus les appela.
+        Alors, laissant dans la barque leur père Zébédée avec ses ouvriers,
+        ils partirent à sa suite.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

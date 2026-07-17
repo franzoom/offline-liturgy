@@ -22,7 +22,6 @@ readings:
         %Ayez donc les yeux fixés sur Jésus, qui donne la foi et qui la maintient%, qui a subi la passion de la part des siens malgré sa parfaite innocence, et qui %a été compté au nombre des criminels%. En buvant à la %coupe incomparable% du Seigneur Jésus, rendez grâce au Seigneur, donateur de tous les biens.
         Que lui-même, le %Dieu d’amour et de paix%, pacifie vos cœurs et hâte votre voyage, %qu’il vous cache% pour un temps %dans le secret de sa face, loin des intrigues des hommes% ; et cela, jusqu’à ce qu’il vous introduise et vous fasse prendre racine dans cette plénitude où vous résiderez éternellement, dans la beauté de la paix, les tentes de la sécurité et le repos de l’abondance.
 
-
       responsory: |-
         R/ Que la paix de Dieu
         garde nos cœurs et nos pensées
@@ -33,3 +32,118 @@ readings:
         
         Le Seigneur est proche,
         tenons ferme dans sa parole.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as fait rayonner le prêtre saint Raymond
+    >d’une admirable compassion pour les pécheurs et les captifs ;*
+    accorde-nous, par son intercession,
+    >d’être délivrés de l’esclavage du péché /
+    >afin d’agir comme il te plaît, en toute liberté d’esprit.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 5, 14-20
+      headline: « Dieu nous a donné le ministère de la réconciliation »
+      content: |-
+        Frères,
+        l’amour du Christ nous saisit
+        >quand nous pensons qu’un seul est mort pour tous,
+        >et qu’ainsi tous ont passé par la mort.
+        Car le Christ est mort pour tous,
+        afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+        >mais sur lui, qui est mort et ressuscité pour eux.
+        Désormais nous ne regardons plus personne
+        >d’une manière simplement humaine :
+        si nous avons connu le Christ de cette manière,
+        >maintenant nous ne le connaissons plus ainsi.
+        Si donc quelqu’un est dans le Christ,
+        >il est une créature nouvelle.
+        Le monde ancien s’en est allé,
+        >un monde nouveau est déjà né.
+        Tout cela vient de Dieu :
+        il nous a réconciliés avec lui par le Christ,
+        >et il nous a donné le ministère de la réconciliation.
+        Car c’est bien Dieu
+        >qui, dans le Christ, réconciliait le monde avec lui :
+        il n’a pas tenu compte des fautes,
+        >et il a déposé en nous la parole de la réconciliation.
+        Nous sommes donc les ambassadeurs du Christ,
+        >et par nous c’est Dieu lui-même qui lance un appel :
+        nous le demandons au nom du Christ,
+        >laissez-vous réconcilier avec Dieu.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 13-14, 17-18a
+      refAbbr: 102, 1a
+      chorus:
+      - chorusRef: 102, 1a
+        chorus: Bénis le Seigneur, ô mon âme !
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Car il pardonne toutes tes offenses
+        et te guérit de toute maladie ;
+        il réclame ta vie à la tombe
+        et te couronne d’amour et de tendresse.
+
+        Le Seigneur est tendresse et pitié,
+        lent à la colère et plein d’amour ;
+        il n’est pas pour toujours en procès,
+        ne maintient pas sans fin ses reproches.
+
+        Comme la tendresse du père pour ses fils,
+        la tendresse du Seigneur pour qui le craint !
+        Il sait de quoi nous sommes pétris,
+        il se souvient que nous sommes poussière.
+
+        L’amour du Seigneur, sur ceux qui le craignent,
+        est de toujours à toujours,
+        et sa justice pour les enfants de leurs enfants,
+        pour ceux qui gardent son alliance.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 12, 35-40
+      headline: « Vous aussi, tenez-vous prêts »
+      acclamationAntiphon: |-
+        Restez éveillés et priez en tout temps :
+        ainsi vous serez jugés dignes
+        de vous tenir debout devant le Fils de l’homme.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Restez en tenue de service,
+        votre ceinture autour des reins,
+        et vos lampes allumées.
+        Soyez comme des gens qui attendent leur maître
+        à son retour des noces,
+        pour lui ouvrir dès qu’il arrivera et frappera à la porte.
+        Heureux ces serviteurs-là que le maître, à son arrivée,
+        trouvera en train de veiller.
+        Amen, je vous le dis :
+        c’est lui qui, la ceinture autour des reins,
+        les fera prendre place à table
+        et passera pour les servir.
+        S’il revient vers minuit ou vers trois heures du matin
+        et qu’il les trouve ainsi,
+        heureux sont-ils !
+        Vous le savez bien :
+        si le maître de maison avait su à quelle heure le voleur viendrait,
+        il n’aurait pas laissé percer le mur de sa maison.
+        Vous aussi, tenez-vous prêts :
+        c’est à l’heure où vous n’y penserez pas
+        que le Fils de l’homme viendra. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

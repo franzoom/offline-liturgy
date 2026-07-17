@@ -35,3 +35,131 @@ vespers:
   evangelicAntiphon:
     common: |-
       Chaque jour, dans l’Église, Pierre proclame : Tu es le Christ, le Fils du Dieu vivant.
+
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Si 45,24 (Vg 30)
+    content: |-
+      Le Seigneur a conclu avec saint Léon une alliance de paix.
+      Il l’a établi chef du sanctuaire
+      >pour que lui appartienne à jamais la dignité du sacerdoce.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu ne laisses pas les puissances de la Mort
+    >l’emporter sur ton Église,
+    >fondée sur le roc inébranlable de l’apôtre Pierre ; *
+    à l’intercession du bienheureux pape Léon,
+    >donne-lui de rester ferme dans ta vérité, /
+    >et, sous ta protection, d’être toujours dans la paix.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Si 39, 6-10
+      headline: « Il sera rempli de l’esprit d’intelligence »
+      content: |-
+        Si le Seigneur souverain le veut,
+        >celui qui cherche la sagesse sera rempli de l’esprit d’intelligence,
+        il répandra comme une ondée ses paroles de sagesse,
+        >et dans la prière il rendra grâce au Seigneur.
+        Il suivra le droit chemin
+        >dans ses décisions comme dans son savoir,
+        >et il méditera sur les secrets de Dieu.
+        Il fera connaître l’enseignement qu’il a reçu
+        >et mettra sa fierté
+        >dans la loi de l’Alliance prescrite par le Seigneur.
+        Beaucoup feront l’éloge de son intelligence ;
+        >et jamais on ne l’oubliera.
+        Son souvenir ne disparaîtra pas,
+        >son nom vivra de génération en génération.
+        Les nations raconteront sa sagesse,
+        >l’assemblée proclamera ses louanges.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 36 (37), 3-4, 5-6, 30-31
+      refAbbr: 36, 30a
+      chorus:
+      - chorusRef: 36, 30a
+        chorus: Les lèvres du juste redisent la sagesse.
+      content: |-
+        Fais confiance au Seigneur, agis bien,
+        habite la terre et reste fidèle ;
+        mets ta joie dans le Seigneur :
+        il comblera les désirs de ton cœur.
+
+        Dirige ton chemin vers le Seigneur,
+        fais-lui confiance, et lui, il agira.
+        Il fera lever comme le jour ta justice,
+        et ton droit comme le plein midi.
+
+        Les lèvres du juste redisent la sagesse
+        et sa bouche énonce le droit.
+        La loi de son Dieu est dans son cœur ;
+        il va, sans craindre les faux pas.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 16, 13-19 (pour un pape)
+      headline: « Tu es Pierre, et sur cette pierre je bâtirai mon Église »
+      acclamationAntiphon: |-
+        Venez à ma suite, dit le Seigneur.
+        Je vous ferai devenir pêcheurs d’hommes.
+      content: |-
+        En ce temps-là,
+        Jésus, arrivé dans la région de Césarée-de-Philippe,
+        demandait à ses disciples :
+        « Au dire des gens,
+        qui est le Fils de l’homme ? »
+        Ils répondirent :
+        « Pour les uns, Jean le Baptiste ;
+        pour d’autres, Élie ;
+        pour d’autres encore, Jérémie ou l’un des prophètes. »
+        Jésus leur demanda :
+        « Et vous, que dites-vous ? Pour vous, qui suis-je ? »
+        Alors Simon-Pierre prit la parole et dit :
+        « Tu es le Christ,
+        le Fils du Dieu vivant ! »
+        Prenant la parole à son tour, Jésus lui dit :
+        « Heureux es-tu, Simon fils de Yonas :
+        ce n’est pas la chair et le sang qui t’ont révélé cela,
+        mais mon Père qui est aux cieux.
+        Et moi, je te le déclare :
+        Tu es Pierre,
+        et sur cette pierre je bâtirai mon Église ;
+        et la puissance de la Mort ne l’emportera pas sur elle.
+        Je te donnerai les clés du royaume des Cieux :
+        tout ce que tu auras lié sur la terre
+        sera lié dans les cieux,
+        et tout ce que tu auras délié sur la terre
+        sera délié dans les cieux. »
+  offeringPrayer:
+  - |-
+    En te présentant ces offrandes, Seigneur,
+    >nous te prions : *
+    dans ta bonté, éclaire ton Église,
+    >de sorte qu’en tous lieux progresse ton troupeau /
+    >et que les pasteurs, sous ta conduite,
+    >puissent te plaire en glorifiant ton nom.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Mt 16,16.18
+    content: |-
+      Pierre dit à Jésus : « Tu es le Christ,
+      >le Fils du Dieu vivant. »
+      Jésus lui répondit : « Tu es Pierre,
+      >et sur cette pierre je bâtirai mon Église. »
+  prayerAfterCommunion:
+  - |-
+    Àla table sainte, Seigneur,
+    >tu refais les forces de ton Église ; +
+    nous t’en prions :
+    >dans ta bienveillance, dirige-la ; *
+    sous ta forte impulsion,
+    >qu’elle voie grandir sa liberté /
+    >et demeure dans la pureté de la foi.
+    Par le Christ, notre Seigneur.

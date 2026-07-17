@@ -31,3 +31,113 @@ readings:
         
         D’un seul cœur, d’une même foi,
         ils l’ont imité dans sa mort.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    En la fête des saints martyrs
+    >Laurent Ruiz et ses compagnons, +
+    >accorde-nous, Seigneur notre Dieu,
+    >la même endurance à ton service
+    >et au service du prochain, /
+    >car ceux qui souffrent persécution pour la justice
+    >sont bienheureux dans ton Royaume.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 M 7, 1-2.9-14
+      headline: |-
+        « Nous sommes prêts à mourir plutôt que de transgresser les lois de nos pères »
+      content: |-
+        En ces jours-là,
+        sept frères avaient été arrêtés avec leur mère.
+        À coups de fouet et de nerf de bœuf,
+        le roi Antiocos voulut les contraindre
+        >à manger du porc, viande interdite.
+        L’un d’eux se fit leur porte-parole et déclara :
+        >« Que cherches-tu à savoir de nous ?
+        Nous sommes prêts à mourir
+        >plutôt que de transgresser les lois de nos pères. »
+        Au moment de rendre le dernier soupir, le deuxième frère dit :
+        >« Tu es un scélérat, toi qui nous arraches à cette vie présente,
+        >mais puisque nous mourons par fidélité à ses lois,
+        >le Roi du monde nous ressuscitera pour une vie éternelle. »
+        Après cela, le troisième fut mis à la torture.
+        Il tendit la langue aussitôt qu’on le lui ordonna
+        et il présenta les mains avec intrépidité,
+        en déclarant avec noblesse :
+        >« C’est du Ciel que je tiens ces membres,
+        >mais à cause de ses lois je les méprise,
+        >et c’est par lui que j’espère les retrouver. »
+        Le roi et sa suite furent frappés
+        >de la grandeur d’âme de ce jeune homme
+        >qui comptait pour rien les souffrances.
+        Lorsque celui-ci fut mort,
+        >le quatrième frère fut soumis aux mêmes sévices.
+        Sur le point d’expirer, il parla ainsi :
+        >« Mieux vaut mourir par la main des hommes,
+        >quand on attend la résurrection promise par Dieu,
+        >tandis que toi, tu ne connaîtras pas la résurrection pour la vie. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 18-21
+      headline: |-
+        « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Si le monde a de la haine contre vous,
+        >sachez qu’il en a eu d’abord contre moi.
+        Si vous apparteniez au monde,
+        >le monde aimerait ce qui est à lui.
+        Mais vous n’appartenez pas au monde,
+        >puisque je vous ai choisis en vous prenant dans le monde ;
+        >voilà pourquoi le monde a de la haine contre vous.
+        Rappelez-vous la parole que je vous ai dite :
+        >un serviteur n’est pas plus grand que son maître.
+        Si l’on m’a persécuté,
+        >on vous persécutera, vous aussi.
+        Si l’on a gardé ma parole,
+        >on gardera aussi la vôtre.
+        Les gens vous traiteront ainsi à cause de mon nom,
+        >parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

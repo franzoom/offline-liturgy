@@ -153,8 +153,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Col 2,12
+    content: |-
+      Dans le baptême, vous avez été mis au tombeau avec le Christ
+      >et vous êtes ressuscités avec lui
+      par la foi en la force de Dieu
+      >qui l’a ressuscité d’entre les morts, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >à la fontaine baptismale,
+    >tu as renouvelé ceux qui croient en toi ; *
+    protège ceux que tu as fait renaître dans le Christ
+    >pour les rendre victorieux contre les assauts de l’erreur, /
+    >et les garder fidèles à la grâce de ta bénédiction.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -279,8 +295,28 @@ mass:
         Tu as les paroles de la vie éternelle.
         Quant à nous, nous croyons,
         et nous savons que tu es le Saint de Dieu. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Reçois avec bonté les offrandes de ta famille, +
+    >nous t’en prions, Seigneur,
+    >garde-la sous ta protection : *
+    qu’elle ne perde aucun des bienfaits déjà reçus, /
+    >et parvienne aux dons éternels.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 17,20-21
+    content: |-
+      Père, je te prie pour eux :
+      >qu’ils soient un en nous, eux aussi,
+      pour que le monde croie que tu m’as envoyé,
+      >dit le Seigneur, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur,
+    >ne cesse pas de protéger avec tendresse
+    >ceux que tu as sauvés : *
+    la passion de ton Fils les a rachetés, /
+    >qu’ils trouvent leur joie dans sa résurrection.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

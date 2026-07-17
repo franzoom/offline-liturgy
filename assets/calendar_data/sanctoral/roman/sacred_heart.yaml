@@ -252,3 +252,61 @@ vespers:
 
       Jésus, obéissant jusqu’à la mort, transpercé par la lance, enveloppé dans le suaire,
       — réveille ceux qui dorment dans la mort.
+
+mass:
+  massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: Ps 32,11.18.19
+    content: |-
+      Les pensées de son Cœur subsistent d’âge en âge :
+      >il veut délivrer de la mort les âmes de ceux qui le craignent,
+      >et les nourrir aux jours de famine.
+  collect:
+  - |-
+    Dieu tout-puissant, +
+    >en trouvant notre gloire
+    >dans le Cœur de ton Fils bien-aimé,
+    >nous rappelons les admirables bienfaits de son amour pour nous ; *
+    nous t’en prions, accorde-nous
+    >de puiser à cette source divine /
+    >une surabondance de grâce.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  - |-
+    Seigneur notre Dieu, /
+    >dans le Cœur de ton Fils meurtri par nos péchés,
+    >tu nous prodigues avec miséricorde
+    >les trésors infinis de ta tendresse ; *
+    >nous t’en prions :
+    >fais qu’en lui rendant l’hommage fervent de notre piété, /
+    >nous lui rendions aussi les devoirs d’une juste réparation.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Regarde, nous t’en prions, Seigneur,
+    >l’amour inexprimable du Cœur de ton Fils bien-aimé, *
+    >pour que le don que nous t’offrons te soit agréable /
+    >et contribue à l’expiation de nos péchés.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sacred_heart
+  communionAntiphon:
+  - biblicalReference: Jn 7,37-38
+    content: |-
+      Si quelqu’un a soif, dit le Seigneur,
+      >qu’il vienne à moi, et qu’il boive.
+      Si quelqu’un croit en moi,
+      >des fleuves d’eau vive couleront de son cœur.
+  - biblicalReference: Jn 19,34
+    content: |-
+      Un des soldats avec sa lance lui perça le côté ;
+      et aussitôt, il en sortit du sang et de l’eau.
+  prayerAfterCommunion:
+  - |-
+    Par ce sacrement de ton amour, Seigneur, +
+    >fais-nous brûler d’une charité
+    >qui nous attire toujours vers ton Fils, /
+    >et nous apprenne ainsi à le reconnaître en nos frères.
+    Lui qui vit et règne pour les siècles des siècles.

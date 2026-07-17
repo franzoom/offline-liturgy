@@ -5,7 +5,7 @@ celebration:
     Benoît naquit à Norcia (Ombrie). Après avoir étudié à Rome, il se retira dans une grotte de Subiaco, « ne préférant rien à l’amour de Dieu ». Des disciples vinrent à lui. Mais, au bout d’un certain temps, Benoît dut quitter Subiaco et il s’établit avec eux au Mont-Cassin. C’est là qu’il écrivit sa Règle monastique et qu’il mourût vers 547.
   color: white
   commons:
-  - saints-male_religious
+    - saints-male_religious_abbot
 
 oration:
 - Dieu qui as fait de saint Benoît un maître spirituel pour ceux qui apprennent à te servir, permets, nous t’en prions, que sans rien préférer à ton amour, nous avancions d’un cœur libre sur les chemins de tes commandements.
@@ -51,3 +51,135 @@ vespers:
     common:
     - |-
       Dieu l’a béni et lui a fait miséricorde : à ceux qui cherchent Dieu, il a tracé la route.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Il y eut un homme, vénérable par sa vie,
+      >Benoît, béni par la grâce et par son nom ;
+      ayant quitté la maison et les biens de son père,
+      désireux de plaire à Dieu seul,
+      >il rechercha une vie de sainteté.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as fait du bienheureux abbé Benoît
+    >un maître spirituel remarquable
+    >pour ceux qui se mettent à l’école de ton service ; *
+    accorde-nous de ne rien préférer à ton amour /
+    >et de courir, le cœur dilaté,
+    >dans la voie de tes commandements.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Pr 2, 1-9
+      headline: « Aie l’oreille attentive à la sagesse »
+      content: |-
+        Mon fils, accueille mes paroles,
+        conserve précieusement mes préceptes,
+        l’oreille attentive à la sagesse,
+        le cœur incliné vers la raison.
+        Oui, si tu fais appel à l’intelligence,
+        si tu invoques la raison,
+        si tu la recherches comme l’argent,
+        si tu creuses comme un chercheur de trésor,
+        alors tu comprendras la crainte du Seigneur,
+        tu découvriras la connaissance de Dieu.
+        Car c’est le Seigneur qui donne la sagesse ;
+        connaissance et raison sortent de sa bouche.
+        Il réserve aux hommes droits la réussite :
+        pour qui marche dans l’intégrité, il est un bouclier,
+        gardien des sentiers du droit,
+        veillant sur le chemin de ses fidèles.
+        Alors tu comprendras la justice, le jugement, la droiture,
+        seuls sentiers qui mènent au bonheur.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+      refAbbr: 33, 2a
+      chorus:
+      - chorusRef: 33, 2a
+        chorus: Je bénirai le Seigneur en tout temps.
+      - chorusRef: cf. 33, 9a
+        chorus: |-
+          ou : Goûtez et voyez
+          comme est bon le Seigneur.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+
+        Saints du Seigneur, adorez-le :
+        rien ne manque à ceux qui le craignent.
+        Des riches ont tout perdu, ils ont faim ;
+        qui cherche le Seigneur ne manquera d’aucun bien.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 19, 27-29
+      headline: « Vous qui m’avez suivi, vous recevrez le centuple »
+      acclamationAntiphon: |-
+        Heureux les pauvres de cœur,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Pierre prit la parole et dit à Jésus :
+        « Voici que nous avons tout quitté pour te suivre :
+        quelle sera donc notre part ? »
+        Jésus leur déclara :
+        « Amen, je vous le dis :
+        lors du renouvellement du monde,
+        lorsque le Fils de l’homme siégera sur son trône de gloire,
+        vous qui m’avez suivi,
+        vous siégerez vous aussi sur douze trônes
+        pour juger les douze tribus d’Israël.
+        Et celui qui aura quitté, à cause de mon nom,
+        des maisons, des frères, des sœurs,
+        un père, une mère, des enfants,
+        ou une terre,
+        recevra le centuple,
+        et il aura en héritage la vie éternelle. »
+  offeringPrayer:
+  - |-
+    Seigneur, regarde avec bienveillance
+    >les offrandes que nous te présentons
+    >en la fête du bienheureux Benoît : *
+    fais qu’à son exemple, en ne cherchant que toi, /
+    >nous trouvions à ton service
+    >les dons de l’unité et de la paix.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Lc 12,42
+    content: |-
+      Voici le serviteur fidèle et avisé
+      >que le Maître a établi sur sa maison,
+      >pour donner à chacun, en temps voulu, sa part de blé.
+  prayerAfterCommunion:
+  - |-
+    Après avoir reçu le gage de la vie éternelle,
+    nous te prions humblement, Seigneur ; *
+    puissions-nous suivre les enseignements du bienheureux Benoît :
+    >être fidèles à te servir dans la prière, /
+    >aimer nos frères avec une ardente charité.
+    Par le Christ, notre Seigneur.

@@ -30,3 +30,122 @@ readings:
         V/ Le Seigneur nous donne la vraie nourriture.
         
         * Tel est le pain qui est descendu du ciel.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as fait rayonner saint Pierre-Julien
+    >d’un amour admirable pour le saint sacrement
+    >du Corps et du Sang de ton Fils ; *
+    accorde-nous de savoir, nous aussi, /
+    >goûter la richesse du festin auquel tu nous convies.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 4, 32-35
+      headline: |-
+        « Un seul cœur et une seule âme »
+      content: |-
+        La multitude de ceux qui étaient devenus croyants
+        >avait un seul cœur et une seule âme ;
+        et personne ne disait
+        >que ses biens lui appartenaient en propre,
+        >mais ils avaient tout en commun.
+        C’est avec une grande puissance
+        que les Apôtres rendaient témoignage
+        >de la résurrection du Seigneur Jésus,
+        et une grâce abondante reposait sur eux tous.
+        Aucun d’entre eux n’était dans l’indigence,
+        car tous ceux qui étaient propriétaires de domaines ou de maisons
+        >les vendaient,
+        et ils apportaient le montant de la vente
+        >pour le déposer aux pieds des Apôtres ;
+        puis on le distribuait en fonction des besoins de chacun.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9, 10-11
+      refAbbr: 33, 2…
+      chorus:
+      - chorusRef: cf. 33, 9a
+        chorus: |-
+          Goûtez et voyez
+          comme est bon le Seigneur.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+
+        Saints du Seigneur, adorez-le :
+        rien ne manque à ceux qui le craignent.
+        Des riches ont tout perdu, ils ont faim ;
+        qui cherche le Seigneur ne manquera d’aucun bien.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 1-8
+      headline: |-
+        « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Demeurez en moi, comme moi en vous.
+        Celui qui demeure en moi et en qui je demeure,
+        celui-là porte beaucoup de fruit.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        >« Moi, je suis la vraie vigne,
+        >et mon Père est le vigneron.
+        Tout sarment qui est en moi,
+        >mais qui ne porte pas de fruit,
+        >mon Père l’enlève ;
+        >tout sarment qui porte du fruit,
+        >il le purifie en le taillant,
+        >pour qu’il en porte davantage.
+        Mais vous, déjà vous voici purifiés
+        >grâce à la parole que je vous ai dite.
+        Demeurez en moi, comme moi en vous.
+        De même que le sarment
+        >ne peut pas porter de fruit par lui-même
+        >s’il ne demeure pas sur la vigne,
+        >de même vous non plus,
+        >si vous ne demeurez pas en moi.
+        Moi, je suis la vigne,
+        >et vous, les sarments.
+        Celui qui demeure en moi
+        >et en qui je demeure,
+        >celui-là porte beaucoup de fruit,
+        >car, en dehors de moi, vous ne pouvez rien faire.
+        Si quelqu’un ne demeure pas en moi,
+        >il est, comme le sarment, jeté dehors,
+        >et il se dessèche.
+        Les sarments secs, on les ramasse,
+        >on les jette au feu, et ils brûlent.
+        Si vous demeurez en moi,
+        >et que mes paroles demeurent en vous,
+        >demandez tout ce que vous voulez,
+        >et cela se réalisera pour vous.
+        Ce qui fait la gloire de mon Père,
+        >c’est que vous portiez beaucoup de fruit
+        >et que vous soyez pour moi des disciples. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

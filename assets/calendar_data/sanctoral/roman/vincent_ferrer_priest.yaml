@@ -39,3 +39,109 @@ vespers:
   evangelicAntiphon:
     common:
     - Libre à l’égard de tous, je me suis fait l’esclave de tous pour que chacun puisse être sauvé.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as appelé le prêtre saint Vincent Ferrier
+    >comme prédicateur de l’Évangile ; *
+    donne-nous le bonheur de voir un jour
+    >dans le royaume des Cieux /
+    celui dont il annonçait ici-bas
+    >la venue comme juge,
+    >le Christ Jésus, notre Seigneur.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2Tm 4, 1-5
+      headline: « Fais ton travail d’évangélisateur, accomplis jusqu’au bout ton ministère »
+      content: |-
+        Bien-aimé,
+        devant Dieu,
+        et devant le Christ Jésus qui va juger les vivants et les morts,
+        je t’en conjure,
+        au nom de sa Manifestation et de son Règne :
+        proclame la Parole,
+        interviens à temps et à contretemps,
+        dénonce le mal,
+        fais des reproches, encourage,
+        toujours avec patience et souci d’instruire.
+        Un temps viendra
+        où les gens ne supporteront plus l’enseignement de la saine doctrine ;
+        mais, au gré de leurs caprices,
+        ils iront se chercher une foule de maîtres
+        pour calmer leur démangeaison d’entendre du nouveau.
+        Ils refuseront d’entendre la vérité
+        pour se tourner vers des récits mythologiques.
+        Mais toi, en toute chose garde la mesure,
+        supporte la souffrance,
+        fais ton travail d’évangélisateur,
+        accomplis jusqu’au bout ton ministère.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        chorus: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 12, 35-40
+      headline: « Vous aussi, tenez-vous prêts »
+      acclamationAntiphon: |-
+        Restez éveillés et priez en tout temps :
+        ainsi vous serez jugés dignes
+        de vous tenir debout devant le Fils de l’homme.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Restez en tenue de service,
+        votre ceinture autour des reins,
+        et vos lampes allumées.
+        Soyez comme des gens qui attendent leur maître
+        à son retour des noces,
+        pour lui ouvrir dès qu’il arrivera et frappera à la porte.
+        Heureux ces serviteurs-là que le maître, à son arrivée,
+        trouvera en train de veiller.
+        Amen, je vous le dis :
+        c’est lui qui, la ceinture autour des reins,
+        les fera prendre place à table
+        et passera pour les servir.
+        S’il revient vers minuit ou vers trois heures du matin
+        et qu’il les trouve ainsi,
+        heureux sont-ils !
+        Vous le savez bien :
+        si le maître de maison avait su à quelle heure le voleur viendrait,
+        il n’aurait pas laissé percer le mur de sa maison.
+        Vous aussi, tenez-vous prêts :
+        c’est à l’heure où vous n’y penserez pas
+        que le Fils de l’homme viendra. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

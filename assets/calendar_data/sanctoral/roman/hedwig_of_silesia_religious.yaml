@@ -32,3 +32,90 @@ readings:
         
         Si quelqu’un aime son frère,
         il marche dans la lumière.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : *
+    >accorde-nous le secours du ciel
+    >par l’intercession de sainte Edwige, /
+    dont la vie admirable est pour tous
+    >un exemple d’humilité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Si 26, 1-4.13-16
+      headline: « L’épouse parfaite, lumière de sa maison »
+      content: |-
+        Heureux l’homme qui a une bonne épouse :
+        le nombre de ses jours sera doublé.
+        La femme courageuse fait la joie de son mari :
+        il possédera le bonheur tout au long de sa vie.
+        Une femme de valeur, voilà le bon parti,
+        la part que le Seigneur donne à ceux qui le craignent ;
+        riches ou pauvres, ils ont le cœur joyeux,
+        en toute circonstance leur visage est souriant.
+        La grâce de la femme enchante son mari,
+        et ses talents lui donnent le bien-être.
+        Une femme qui sait se taire est un don du Seigneur.
+        Rien ne vaut une femme préparée à sa tâche.
+        C’est la grâce des grâces qu’une femme discrète.
+        Une âme qui se maîtrise est un trésor sans prix.
+        Un lever de soleil sur les montagnes du Seigneur :
+        ainsi, la beauté d’une épouse parfaite est la lumière de sa maison.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 127 (128), 1-2, 3, 4-5
+      refAbbr: 127, 1a
+      chorus:
+      - chorusRef: 127, 1a
+        chorus: Heureux qui craint le Seigneur !
+      content: |-
+        Heureux qui craint le Seigneur
+        et marche selon ses voies !
+        Tu te nourriras du travail de tes mains :
+        Heureux es-tu ! À toi, le bonheur !
+
+        Ta femme sera dans ta maison
+        comme une vigne généreuse,
+        et tes fils, autour de la table,
+        comme des plants d’olivier.
+
+        Voilà comment sera béni
+        l’homme qui craint le Seigneur.
+        De Sion, que le Seigneur te bénisse !
+        Tu verras le bonheur de Jérusalem tous les jours de ta vie.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 3, 31-35
+      headline: « Celui qui fait la volonté de Dieu, celui-là est pour moi un frère, une sœur, une mère »
+      acclamationAntiphon: |-
+        Si vous demeurez fidèles à ma parole,
+        vous êtes vraiment mes disciples ;
+        alors vous connaîtrez la vérité, dit le Seigneur.
+      content: |-
+        En ce temps-là,
+        comme Jésus était dans une maison,
+        arrivent sa mère et ses frères.
+        Restant au-dehors, ils le font appeler.
+        Une foule était assise autour de lui ;
+        et on lui dit :
+        « Voici que ta mère et tes frères sont là dehors :
+        ils te cherchent. »
+        Mais il leur répond :
+        « Qui est ma mère ? qui sont mes frères ? »
+        Et parcourant du regard
+        ceux qui étaient assis en cercle autour de lui,
+        il dit :
+        « Voici ma mère et mes frères.
+        Celui qui fait la volonté de Dieu,
+        celui-là est pour moi un frère, une sœur, une mère. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

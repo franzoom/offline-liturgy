@@ -224,8 +224,30 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: 1P 2,2
+    content: |-
+      Comme des enfants nouveau-nés,
+      >soyez avides du lait pur de la Parole,
+      qui vous fera grandir pour arriver au salut, alléluia.
+  - biblicalReference: 4Esd 2,36-37
+    content: |-
+      Accueillez la joie de la gloire qui vous est donnée,
+      rendez grâce à Dieu qui vous a appelés
+      >au royaume des Cieux, alléluia.
+  collect:
+  - |-
+    Dieu d’éternelle miséricorde, +
+    >chaque année, par les célébrations pascales,
+    >tu ranimes la foi du peuple qui t’est consacré : *
+    fais grandir le don de ta grâce,
+    >afin que tous comprennent vraiment
+    >quel baptême les a purifiés,
+    >quel Esprit les a fait renaître, /
+    >et quel sang les a rachetés.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -570,8 +592,26 @@ mass:
         pour que vous croyiez
         que Jésus est le Christ, le Fils de Dieu,
         et pour qu’en croyant, vous ayez la vie en son nom.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille, nous t’en prions, Seigneur,
+    >les offrandes de ton peuple,
+    >et, en particulier, de ceux que tu as fait renaître ; *
+    ils ont été renouvelés en proclamant ton nom
+    >et en recevant le baptême : /
+    >accorde-leur de parvenir au bonheur sans fin.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. Jn 20,27
+    content: |-
+      Jésus dit à Thomas :
+      Avance ta main, touche du doigt l’endroit des clous ;
+      >cesse d’être incrédule, sois croyant, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : *
+    >que le mystère pascal accueilli dans cette communion /
+    >ne cesse jamais d’agir en nos cœurs.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

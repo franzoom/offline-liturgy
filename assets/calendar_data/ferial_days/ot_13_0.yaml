@@ -59,8 +59,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 46,2
+    content: |-
+      Tous les peuples, battez des mains,
+      >acclamez Dieu par vos cris de joie !
+  collect:
+  - |-
+    Tu as voulu, Seigneur Dieu,
+    >que par la grâce de l’adoption filiale,
+    >nous devenions des enfants de lumière ; *
+    ne permets pas que nous soyons enveloppés des ténèbres de l’erreur, /
+    >mais accorde-nous d’être toujours rayonnants
+    >dans la splendeur de ta vérité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -478,8 +492,37 @@ mass:
         « Quiconque met la main à la charrue,
         puis regarde en arrière,
         n’est pas fait pour le royaume de Dieu. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu, +
+    >dans ta bonté, tu donnes à tes mystères
+    >de produire leurs effets ; *
+    nous t’en prions :
+    >que notre liturgie soit accordée à la sainteté de ces dons.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 102,1
+    content: |-
+      Bénis le Seigneur, ô mon âme,
+      >bénis son nom très saint, tout mon être !
+  - biblicalReference: Jn 17,20-21
+    content: |-
+      Père, je te prie pour eux : qu’ils soient un en nous, eux aussi,
+      pour que le monde croie que tu m’as envoyé, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >donne-nous d’être vivifiés
+    >par le sacrifice divin que nous avons offert
+    >et reçu en communion ; *
+    ainsi, reliés à toi par une charité qui ne passera jamais, /
+    >nous porterons un fruit qui demeure pour toujours.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

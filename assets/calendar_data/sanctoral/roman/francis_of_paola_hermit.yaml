@@ -40,3 +40,98 @@ vespers:
   evangelicAntiphon:
     common:
     - Tous les trésors de la terre ne pourraient acheter l’amour.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >toi qui élèves les humbles,
+    >tu as exalté saint François de Paule
+    >dans la gloire des saints ; *
+    fais qu’en lui ressemblant, et avec son aide, /
+    >nous obtenions le bonheur promis aux humbles.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ph 3, 8-14
+      headline: « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut dans le Christ Jésus »
+      content: |-
+        Frères,
+        tous les avantages que j’avais autrefois,
+        je les considère comme une perte
+        à cause de ce bien qui dépasse tout :
+        la connaissance du Christ Jésus, mon Seigneur.
+        À cause de lui, j’ai tout perdu ;
+        je considère tout comme des ordures,
+        afin de gagner un seul avantage, le Christ,
+        et, en lui, d’être reconnu juste,
+        non pas de la justice venant de la loi de Moïse
+        mais de celle qui vient de la foi au Christ,
+        la justice venant de Dieu, qui est fondée sur la foi.
+        Il s’agit pour moi de connaître le Christ,
+        d’éprouver la puissance de sa résurrection
+        et de communier aux souffrances de sa Passion,
+        en devenant semblable à lui dans sa mort,
+        avec l’espoir de parvenir
+        à la résurrection d’entre les morts.
+        Certes, je n’ai pas encore obtenu cela,
+        je n’ai pas encore atteint la perfection,
+        mais je poursuis ma course pour tâcher de saisir,
+        puisque j’ai moi-même été saisi par le Christ Jésus.
+        Frères, quant à moi, je ne pense pas avoir déjà saisi cela.
+        Une seule chose compte :
+        oubliant ce qui est en arrière, et lancé vers l’avant,
+        je cours vers le but en vue du prix
+        auquel Dieu nous appelle là-haut dans le Christ Jésus.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15 (16), 1-2, 7-8, 5a.11
+      refAbbr: 15, 5a
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Seigneur, mon partage et ma coupe !
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 12, 32-34
+      headline: « Votre Père a trouvé bon de vous donner le Royaume »
+      acclamationAntiphon: |-
+        Heureux les pauvres de cœur,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Sois sans crainte, petit troupeau :
+        votre Père a trouvé bon de vous donner le Royaume.
+        Vendez ce que vous possédez
+        et donnez-le en aumône.
+        Faites-vous des bourses qui ne s’usent pas,
+        un trésor inépuisable dans les cieux,
+        là où le voleur n’approche pas,
+        où la mite ne détruit pas.
+        Car là où est votre trésor,
+        là aussi sera votre cœur. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

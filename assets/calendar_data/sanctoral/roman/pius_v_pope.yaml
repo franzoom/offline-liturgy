@@ -34,4 +34,107 @@ readings:
         Vous-mêmes, comme pierres vivantes,
         entrez dans la construction de l’édifice spirituel.
 
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu très bon, +
+    >tu as suscité dans ton Église le pape saint Pie V
+    >pour la défense de la foi et la dignité du culte ; *
+    >accorde-nous, par son intercession,
+    >de participer à tes mystères /
+    >avec une foi vive et une charité qui porte du fruit.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1Co 4, 1-5
+      headline: « Auxiliaires du Christ et intendants des mystères de Dieu »
+      content: |-
+        Frères,
+        que l’on nous regarde
+        >comme des auxiliaires du Christ
+        >et des intendants des mystères de Dieu.
+        Or, tout ce que l’on demande aux intendants,
+        >c’est d’être trouvés dignes de confiance.
+        Pour ma part, je me soucie fort peu d’être soumis à votre jugement,
+        >ou à celui d’une autorité humaine ;
+        d’ailleurs, je ne me juge même pas moi-même.
+        Ma conscience ne me reproche rien,
+        >mais ce n’est pas pour cela que je suis juste :
+        celui qui me soumet au jugement,
+        c’est le Seigneur.
+        Ainsi, ne portez pas de jugement prématuré,
+        >mais attendez la venue du Seigneur,
+        car il mettra en lumière ce qui est caché dans les ténèbres,
+        >et il rendra manifestes les intentions des cœurs.
+        Alors, la louange qui revient à chacun
+        >lui sera donnée par Dieu.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 109 (110), 1, 2, 3, 4
+      refAbbr: cf. 109, 4
+      chorus:
+      - chorusRef: cf. 109, 4
+        chorus: |-
+          Tu es prêtre à jamais
+          selon l’ordre de Melkisédek.
+      content: |-
+        Oracle du Seigneur à mon seigneur :
+        « Siège à ma droite,
+        et je ferai de tes ennemis
+        le marchepied de ton trône. »
 
+        De Sion, le Seigneur te présente
+        le sceptre de ta force :
+        « Domine jusqu’au cœur de l’ennemi. »
+
+        Le jour où paraît ta puissance,
+        tu es prince, éblouissant de sainteté :
+        « Comme la rosée qui naît de l’aurore,
+        je t’ai engendré. »
+
+        Le Seigneur l’a juré
+        dans un serment irrévocable :
+        « Tu es prêtre à jamais
+        selon l’ordre du roi Melkisédek. »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 21, 15-17
+      headline: « Sois le berger de mes brebis »
+      acclamationAntiphon: |-
+        Je suis le bon pasteur, dit le Seigneur ;
+        je connais mes brebis
+        et mes brebis me connaissent.
+      content: |-
+        Jésus se manifesta à ses disciples au bord du lac.
+        Quand ils eurent mangé, il dit à Simon-Pierre :
+        « Simon, fils de Jean,
+        m’aimes-tu vraiment, plus que ceux-ci ? »
+        Il lui répond :
+        « Oui, Seigneur ! Toi, tu le sais : je t’aime. »
+        Jésus lui dit :
+        « Sois le berger de mes agneaux. »
+        Il lui dit une deuxième fois :
+        « Simon, fils de Jean, m’aimes-tu vraiment ? »
+        Il lui répond :
+        « Oui, Seigneur ! Toi, tu le sais : je t’aime. »
+        Jésus lui dit :
+        « Sois le pasteur de mes brebis. »
+        Il lui dit, pour la troisième fois :
+        « Simon, fils de Jean, m’aimes-tu ? »
+        Pierre fut peiné
+        parce que, la troisième fois, Jésus lui demandait :
+        « M’aimes-tu ? »
+        Il lui répond :
+        « Seigneur, toi, tu sais tout :
+        tu sais bien que je t’aime. »
+        Jésus lui dit :
+        « Sois le berger de mes brebis. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

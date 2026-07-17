@@ -41,3 +41,137 @@ morning:
 vespers:
   evangelicAntiphon:
     common: Toute la vie de saint Grégoire le Grand illustre ce qu’il disait des mystères de Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Le bienheureux Grégoire, élevé sur le siège de Pierre,
+      >recherchait toujours la face du Seigneur
+      >et, sans relâche, célébrait son amour.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu veilles sur tes peuples avec bonté,
+    >et tu les gouvernes avec amour ; *
+    >par l’intercession du pape saint Grégoire,
+    >accorde un esprit de sagesse
+    >à ceux qui ont reçu de toi la charge de conduire l’Église : /
+    >que les progrès du troupeau fidèle
+    >fassent la joie éternelle de ses pasteurs.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 4, 1-2.5-7
+      headline: |-
+        « Ce que nous proclamons, c’est Jésus Christ le Seigneur ; et nous sommes vos serviteurs, à cause de Jésus »
+      content: |-
+        Frères,
+        nous, les Apôtres,
+        ayant reçu ce ministère par la miséricorde de Dieu,
+        >nous ne perdons pas courage :
+        nous avons rejeté toute dissimulation honteuse,
+        >nous n’agissons pas avec ruse,
+        >et nous ne falsifions pas la parole de Dieu.
+        Au contraire, nous manifestons la vérité,
+        >et ainsi nous nous recommandons nous-mêmes
+        >à toute conscience humaine devant Dieu.
+        Ce que nous proclamons,
+        >ce n’est pas nous-mêmes ;
+        c’est ceci : Jésus Christ est le Seigneur ;
+        >et nous sommes vos serviteurs, à cause de Jésus.
+        Car Dieu qui a dit :
+        >Du milieu des ténèbres brillera la lumière,
+        a lui-même brillé dans nos cœurs
+        >pour faire resplendir la connaissance de sa gloire
+        >qui rayonne sur le visage du Christ.
+        Mais ce trésor, nous le portons
+        >comme dans des vases d’argile ;
+        ainsi, on voit bien que cette puissance extraordinaire
+        >appartient à Dieu et ne vient pas de nous.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 7-8a, 9-10a
+      refAbbr: 95, 3
+      chorus:
+      - chorusRef: cf. 95, 3
+        chorus: |-
+          Racontez à tous les peuples
+          les merveilles du Seigneur !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        chantez au Seigneur, terre entière,
+        chantez au Seigneur et bénissez son nom !
+
+        De jour en jour, proclamez son salut,
+        racontez à tous les peuples sa gloire,
+        à toutes les nations ses merveilles !
+
+        Rendez au Seigneur, familles des peuples,
+        rendez au Seigneur la gloire et la puissance,
+        rendez au Seigneur la gloire de son nom.
+
+        Adorez le Seigneur, éblouissant de sainteté :
+        tremblez devant lui, terre entière.
+        Allez dire aux nations : « Le Seigneur est roi ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 22, 24-30
+      headline: |-
+        « Je dispose pour vous du Royaume, comme mon Père en a disposé pour moi »
+      acclamationAntiphon: |-
+        Je vous appelle mes amis, dit le Seigneur,
+        car tout ce que j’ai entendu de mon Père,
+        je vous l’ai fait connaître.
+      content: |-
+        En ce temps-là,
+        les Apôtres en arrivèrent à se quereller :
+        >lequel d’entre eux, à leur avis, était le plus grand ?
+        Mais Jésus leur dit :
+        >« Les rois des nations
+        >les commandent en maîtres,
+        >et ceux qui exercent le pouvoir sur elles
+        >se font appeler bienfaiteurs.
+        Pour vous, rien de tel !
+        Au contraire, que le plus grand d’entre vous
+        >devienne comme le plus jeune,
+        >et le chef, comme celui qui sert.
+        Quel est en effet le plus grand :
+        >celui qui est à table, ou celui qui sert ?
+        N’est-ce pas celui qui est à table ?
+        Eh bien moi, je suis au milieu de vous
+        >comme celui qui sert.
+        Vous, vous avez tenu bon avec moi dans mes épreuves.
+        Et moi, je dispose pour vous du Royaume,
+        >comme mon Père en a disposé pour moi.
+        Ainsi vous mangerez et boirez à ma table
+        >dans mon Royaume,
+        >et vous siégerez sur des trônes
+        >pour juger les douze tribus d’Israël. »
+  offeringPrayer:
+  - |-
+    Exauce notre prière, Seigneur : *
+    >fais qu’au jour où nous célébrons saint Grégoire,
+    >cette offrande nous soit profitable, /
+    car tu as voulu que, par l’oblation de ce sacrifice,
+    >soient remis les péchés du monde entier.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Lc 12,42
+    content: |-
+      Voici le serviteur fidèle et avisé
+      >que le Maître a établi sur sa maison,
+      >pour donner à chacun, en temps voulu, sa part de blé.
+  prayerAfterCommunion:
+  - |-
+    Ceux que tu fortifies, Seigneur,
+    >par le Christ, pain vivant,
+    >forme-les aussi par le Christ, le seul maître, *
+    pour qu’en la fête de saint Grégoire,
+    >ils soient instruits de ta vérité /
+    >et la mettent en œuvre dans la charité.
+    Par le Christ, notre Seigneur.

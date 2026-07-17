@@ -51,3 +51,97 @@ vespers:
   evangelicAntiphon:
     common:
     - Heureuse es-tu, Marie, toi qui écoutes la Parole de Dieu et la médites dans ton cœur !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Que l’admirable intercession de la glorieuse Vierge Marie
+    >vienne à notre aide, Seigneur, nous t’en prions : *
+    accorde-nous, par sa protection, /
+    >de parvenir à la montagne, qui est le Christ.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, / Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Za 2, 14-17
+      headline: « Réjouis-toi, fille de Sion, voici que je viens »
+      content: |-
+        Chante et réjouis-toi, fille de Sion ;
+        voici que je viens, j’habiterai au milieu de toi
+        - oracle du Seigneur.
+        Ce jour-là, des nations nombreuses
+        s’attacheront au Seigneur ;
+        elles seront pour moi un peuple,
+        et j’habiterai au milieu de toi.
+        Alors tu sauras que le Seigneur de l’univers
+        m’a envoyé vers toi.
+        Le Seigneur prendra possession de Juda,
+        son domaine sur la terre sainte ;
+        il choisira de nouveau Jérusalem.
+        Que tout être de chair fasse silence devant le Seigneur,
+        car il se réveille et sort de sa Demeure sainte.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Lc 1, 46b-47, 48-49, 50-51, 52-53, 54-55
+      label: Cantique de Marie
+      refAbbr: Lc 1, 49
+      chorus:
+      - chorusRef: Lc 1, 49
+        chorus: |-
+          Le Puissant fit pour moi des merveilles ;
+          Saint est son nom !
+      - chorusRef: null
+        chorus: |-
+          ou : Heureuse Vierge Marie,
+          qui portas en toi le Fils du Père éternel !
+      content: |-
+        Mon âme exalte le Seigneur,
+        exulte mon esprit en Dieu, mon Sauveur !
+
+        Il s’est penché sur son humble servante ;
+        désormais tous les âges me diront bienheureuse.
+        Le Puissant fit pour moi des merveilles ;
+        Saint est son nom !
+
+        Sa miséricorde s’étend d’âge en âge
+        sur ceux qui le craignent.
+        Déployant la force de son bras,
+        il disperse les superbes.
+
+        Il renverse les puissants de leurs trônes,
+        il élève les humbles.
+        Il comble de biens les affamés,
+        renvoie les riches les mains vides.
+
+        Il relève Israël son serviteur,
+        il se souvient de son amour,
+        de la promesse faite à nos pères,
+        en faveur d’Abraham et sa descendance à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 12, 46-50
+      headline: '« Étendant la main vers ses disciples, il dit : "Voici ma mère et mes frères" »'
+      acclamationAntiphon: |-
+        Heureux ceux qui écoutent la parole de Dieu,
+        et qui la gardent !
+      content: |-
+        En ce temps-là,
+        comme Jésus parlait encore aux foules,
+        voici que sa mère et ses frères se tenaient au-dehors,
+        cherchant à lui parler.
+        Quelqu’un lui dit :
+        « Ta mère et tes frères sont là, dehors,
+        qui cherchent à te parler. »
+        Jésus lui répondit :
+        « Qui est ma mère,
+        et qui sont mes frères ? »
+        Puis, étendant la main vers ses disciples, il dit :
+        « Voici ma mère et mes frères.
+        Car celui qui fait la volonté de mon Père qui est aux cieux,
+        celui-là est pour moi un frère, une sœur, une mère. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

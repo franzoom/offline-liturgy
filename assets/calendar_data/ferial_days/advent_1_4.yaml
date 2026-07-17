@@ -179,8 +179,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 118,151-152
+    content: |-
+      Toi, Seigneur, tu es proche,
+      >tout dans tes ordres est vérité.
+      Depuis longtemps je le sais :
+      >tu as fondé pour toujours tes exigences.
+  collect:
+  - |-
+    Réveille, Seigneur, ta puissance,
+    >et viens à notre secours avec grande force, *
+    afin que le salut retardé par nos fautes /
+    >soit hâté par la grâce de ton pardon.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -267,8 +281,32 @@ mass:
          les vents ont soufflé, ils sont venus battre cette maison ;
         la maison s’est écroulée,
          et son écroulement a été complet. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’offrons, Seigneur, ces dons
+    >prélevés sur les bienfaits reçus de toi : +
+    >nous t’en prions, accueille-les ; *
+    puisse la célébration fervente,
+    >que tu nous donnes d’accomplir dans le temps présent, /
+    >nous obtenir la rédemption éternelle.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  communionAntiphon:
+  - biblicalReference: Tt 2,12-13
+    content: |-
+      Vivons dans le temps présent
+      >avec justice et piété,
+      attendant que se réalise la bienheureuse espérance
+      >la manifestation de la gloire de notre grand Dieu.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur,
+    >fais fructifier en nous
+    >les mystères que nous avons célébrés : *
+    tandis que nous marchons dans ce monde qui passe,
+    >tu nous enseignes par eux
+    >à aimer dès maintenant les biens du ciel, /
+    >et à nous attacher à ceux qui demeurent.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

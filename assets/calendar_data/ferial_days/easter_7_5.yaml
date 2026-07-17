@@ -193,8 +193,25 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ap 1,5
+    content: |-
+      Le Christ nous aime,
+      >et il nous a délivrés de nos péchés par son sang ;
+      il a fait de nous un royaume et des prêtres
+      >pour son Dieu et Père, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >en glorifiant ton Christ
+    >et en donnant la lumière de l’Esprit Saint,
+    >tu nous ouvres les portes de la vie éternelle ; *
+    fais qu’en participant à une telle grâce,
+    >nous soyons plus dévoués à te servir /
+    >et obtenions une plus grande foi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -305,8 +322,25 @@ mass:
         Pierre rendrait gloire à Dieu.
         Sur ces mots, il lui dit :
         « Suis-moi. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Regarde avec bonté, Seigneur,
+    >l’offrande de ton peuple, *
+    >et, pour qu’elle te soit agréable, /
+    >que la venue de l’Esprit Saint purifie nos consciences.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 16,13
+    content: |-
+      Quand viendra l’Esprit de vérité, dit le Seigneur,
+      >il vous guidera vers la vérité tout entière, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >nous sommes purifiés et nourris
+    >par tes mystères que nous célébrons ; *
+    puisque tu leur as donné de refaire nos forces, /
+    >qu’ils nous procurent la vie éternelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

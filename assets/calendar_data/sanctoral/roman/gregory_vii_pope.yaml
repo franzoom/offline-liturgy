@@ -32,3 +32,118 @@ readings:
       Il n’y a pour nous qu’un seul Dieu : le Père,
       et un seul Seigneur : Jésus Christ !
 
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde à ton Église, Seigneur,
+    >l’esprit de force et la soif de justice
+    >dont tu as voulu que rayonne
+    >le pape saint Grégoire VII : *
+    qu’elle sache rejeter le mal
+    >et faire valoir le droit, /
+    >en toute liberté et charité.
+    Par Jésus Christ, ton Fils, notre Seigneur,
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 20, 17-18a.28-32.36
+      headline: « Veillez sur vous-mêmes, et sur tout le troupeau dont l’Esprit Saint vous a établis responsables pour être les pasteurs de l’Église de Dieu »
+      content: |-
+        En ces jours-là,
+        depuis Milet, Paul envoya un message à Éphèse
+        pour convoquer les Anciens de cette Église.
+        Quand ils furent arrivés auprès de lui, il leur adressa la parole :
+        « Veillez sur vous-mêmes, et sur tout le troupeau
+        dont l’Esprit Saint vous a établis responsables,
+        pour être les pasteurs de l’Église de Dieu,
+        qu’il s’est acquise par son propre sang.
+        Moi, je sais qu’après mon départ,
+        des loups redoutables s’introduiront chez vous
+        et n’épargneront pas le troupeau.
+        Même du milieu de vous surgiront des hommes
+        qui tiendront des discours pervers
+        pour entraîner les disciples à leur suite.
+        Soyez donc vigilants,
+        et souvenez-vous que, durant trois ans,
+        nuit et jour,
+        je n’ai cessé, dans les larmes,
+        de reprendre chacun d’entre vous.
+        Et maintenant, je vous confie à Dieu
+        et à la parole de sa grâce,
+        lui qui a le pouvoir de construire l’édifice
+        et de donner à chacun l’héritage
+        en compagnie de tous ceux qui ont été sanctifiés. »
+        Quand Paul eut ainsi parlé,
+        il s’agenouilla et pria avec eux tous.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 109 (110), 1, 2, 3, 4
+      refAbbr: cf. 109, 4
+      chorus:
+      - chorusRef: cf. 109, 4
+        chorus: |-
+          Tu es prêtre à jamais
+          selon l’ordre de Melkisédek.
+      content: |-
+        Oracle du Seigneur à mon seigneur :
+        « Siège à ma droite,
+        et je ferai de tes ennemis
+        le marchepied de ton trône. »
+
+        De Sion, le Seigneur te présente
+        le sceptre de ta force :
+        « Domine jusqu’au cœur de l’ennemi. »
+
+        Le jour où paraît ta puissance,
+        tu es prince, éblouissant de sainteté :
+        « Comme la rosée qui naît de l’aurore,
+        je t’ai engendré. »
+
+        Le Seigneur l’a juré
+        dans un serment irrévocable :
+        « Tu es prêtre à jamais
+        selon l’ordre du roi Melkisédek. »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 16, 13-19
+      headline: « Tu es Pierre, et sur cette pierre je bâtirai mon Église »
+      acclamationAntiphon: |-
+        Venez à ma suite, dit le Seigneur.
+        Je vous ferai devenir pêcheurs d’hommes.
+      content: |-
+        En ce temps-là,
+        Jésus, arrivé dans la région de Césarée-de-Philippe,
+        demandait à ses disciples :
+        « Au dire des gens,
+        qui est le Fils de l’homme ? »
+        Ils répondirent :
+        « Pour les uns, Jean le Baptiste ;
+        pour d’autres, Élie ;
+        pour d’autres encore, Jérémie ou l’un des prophètes. »
+        Jésus leur demanda :
+        « Et vous, que dites-vous ? Pour vous, qui suis-je ? »
+        Alors Simon-Pierre prit la parole et dit :
+        « Tu es le Christ,
+        le Fils du Dieu vivant ! »
+        Prenant la parole à son tour, Jésus lui dit :
+        « Heureux es-tu, Simon fils de Yonas :
+        ce n’est pas la chair et le sang qui t’ont révélé cela,
+        mais mon Père qui est aux cieux.
+        Et moi, je te le déclare :
+        Tu es Pierre,
+        et sur cette pierre je bâtirai mon Église ;
+        et la puissance de la Mort ne l’emportera pas sur elle.
+        Je te donnerai les clés du royaume des Cieux :
+        tout ce que tu auras lié sur la terre
+        sera lié dans les cieux,
+        et tout ce que tu auras délié sur la terre
+        sera délié dans les cieux. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

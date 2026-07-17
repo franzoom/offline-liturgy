@@ -205,8 +205,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ap 5,12
+    content: |-
+      Il est digne, l’Agneau immolé
+      >de recevoir puissance, divinité,
+      >sagesse, force et honneur, alléluia.
+  collect:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : +
+    >puisque nous avons reçu la grâce
+    >de connaître la résurrection du Seigneur, *
+    que ton Esprit d’amour nous ressuscite, nous aussi, /
+    >à une vie nouvelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -336,8 +350,26 @@ mass:
 
         Voilà ce que Jésus a dit
         alors qu’il enseignait à la synagogue de Capharnaüm.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Dans ta bonté, sanctifie ces dons,
+    >nous t’en prions, Seigneur ; *
+    >accepte le sacrifice spirituel que nous t’offrons, /
+    et fais de nous-mêmes
+    >une éternelle offrande pour toi.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: null
+    content: |-
+      Le crucifié s’est relevé d’entre les morts,
+      >il nous a rachetés, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, nous avons reçu
+    >le don de tes sacrements,
+    >et nous te prions humblement : *
+    ton Fils nous a demandé de les célébrer en mémoire de lui, /
+    >qu’ils augmentent en nous la charité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -134,3 +134,173 @@ vespers:
     common:
     - |-
       Marie de Magdala vint annoncer aux disciples : J’ai vu le Seigneur. Alléluia, alléluia !
+
+mass:
+- massType: day_mass
+  note: L’évangile ci-dessous est obligatoire.
+  entranceAntiphon:
+  - biblicalReference: Jn 20,17
+    content: |-
+      Le Seigneur dit à Marie Madeleine :
+      « Va trouver mes frères pour leur dire
+      >que je monte vers mon Père et votre Père,
+      >vers mon Dieu et votre Dieu. »
+  collect:
+  - |-
+    Seigneur Dieu, +
+    c’est à Marie Madeleine
+    >que ton Fils unique a confié
+    >la première annonce de la joie pascale ; *
+    accorde-nous, à sa prière et à son exemple,
+    >de proclamer que le Christ est vivant /
+    >et de le contempler dans la gloire de ton Royaume.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - number: 1
+      biblicalRef: Ct 3, 1-4a
+      headline: « J’ai trouvé celui que mon âme désire »
+      content: |-
+        Paroles de la bien-aimée.
+        Sur mon lit, la nuit, j’ai cherché
+        celui que mon âme désire ;
+        je l’ai cherché ;
+        je ne l’ai pas trouvé.
+        Oui, je me lèverai, je tournerai dans la ville,
+        par les rues et les places :
+        je chercherai
+        celui que mon âme désire ;
+        je l’ai cherché ;
+        je ne l’ai pas trouvé.
+        Ils m’ont trouvée, les gardes,
+        eux qui tournent dans la ville :
+        « Celui que mon âme désire,
+        l’auriez-vous vu ? »
+        À peine les avais-je dépassés,
+        j’ai trouvé celui que mon âme désire :
+        je l’ai saisi
+        et ne le lâcherai pas.
+        
+    - number: 2
+      label: Ou bien
+      biblicalRef: 2 Co 5, 14-17
+      headline: « Nous ne connaissons plus le Christ d’une manière simplement humaine »
+      content: |-
+        Frères,
+        l’amour du Christ nous saisit
+        quand nous pensons qu’un seul est mort pour tous,
+        et qu’ainsi tous ont passé par la mort.
+        Car le Christ est mort pour tous,
+        afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+        mais sur lui, qui est mort et ressuscité pour eux.
+        Désormais nous ne regardons plus personne
+        d’une manière simplement humaine :
+        si nous avons connu le Christ de cette manière,
+        maintenant nous ne le connaissons plus ainsi.
+        Si donc quelqu’un est dans le Christ,
+        il est une créature nouvelle.
+        Le monde ancien s’en est allé,
+        un monde nouveau est déjà né.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 62 (63), 2, 3-4, 5-6, 8-9
+      refAbbr: cf. 62, 2b
+      chorus:
+      - chorusRef: cf. 62, 2b
+        chorus: |-
+          Mon âme a soif de toi,
+          Seigneur, mon Dieu !
+      content: |-
+        Dieu, tu es mon Dieu,
+        je te cherche dès l’aube :
+        mon âme a soif de toi ;
+        après toi languit ma chair,
+        terre aride, altérée, sans eau.
+
+        Je t’ai contemplé au sanctuaire,
+        j’ai vu ta force et ta gloire.
+        Ton amour vaut mieux que la vie :
+        tu seras la louange de mes lèvres !
+
+        Toute ma vie je vais te bénir,
+        lever les mains en invoquant ton nom.
+        Comme par un festin je serai rassasié ;
+        la joie sur les lèvres, je dirai ta louange.
+
+        Oui, tu es venu à mon secours :
+        je crie de joie à l’ombre de tes ailes.
+        Mon âme s’attache à toi,
+        ta main droite me soutient.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 20, 1.11-18
+      headline: « Femme, pourquoi pleures-tu ? Qui cherches-tu ? »
+      acclamationAntiphon: |-
+        « Dis-nous, Marie Madeleine,
+        qu’as-tu vu en chemin ?
+        - J’ai vu le tombeau du Christ vivant,
+        j’ai vu la gloire du Ressuscité. »
+      content: |-
+        Le premier jour de la semaine,
+        Marie Madeleine se rend au tombeau de grand matin ;
+        c’était encore les ténèbres.
+        Elle s’aperçoit que la pierre a été enlevée du tombeau.
+        Elle se tenait près du tombeau,
+        au-dehors, tout en pleurs.
+        Et en pleurant,
+        elle se pencha vers le tombeau.
+        Elle aperçoit deux anges vêtus de blanc,
+        assis l’un à la tête et l’autre aux pieds,
+        à l’endroit où avait reposé le corps de Jésus.
+        Ils lui demandent :
+        « Femme, pourquoi pleures-tu ? »
+        Elle leur répond :
+        « On a enlevé mon Seigneur,
+        et je ne sais pas où on l’a déposé. »
+        Ayant dit cela, elle se retourna ;
+        elle aperçoit Jésus qui se tenait là,
+        mais elle ne savait pas que c’était Jésus.
+        Jésus lui dit :
+        « Femme, pourquoi pleures-tu ?
+        Qui cherches-tu ? »
+        Le prenant pour le jardinier, elle lui répond :
+        « Si c’est toi qui l’as emporté,
+        dis-moi où tu l’as déposé,
+        et moi, j’irai le prendre. »
+        Jésus lui dit alors :
+        « Marie ! »
+        S’étant retournée, elle lui dit en hébreu :
+        « Rabbouni ! »,
+        c’est-à-dire : Maître.
+        Jésus reprend :
+        « Ne me retiens pas,
+        car je ne suis pas encore monté vers le Père.
+        Va trouver mes frères pour leur dire
+        que je monte vers mon Père et votre Père,
+        vers mon Dieu et votre Dieu. »
+        
+  offeringPrayer:
+  - |-
+    Accepte, Seigneur, les offrandes que nous te présentons
+    >en faisant mémoire de la bienheureuse Marie Madeleine, *
+    >puisque ton Fils unique voulut bien accepter /
+    >le témoignage empressé de son amour.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - mary_magdalene
+  communionAntiphon:
+  - biblicalReference: 2Co 5,14.15
+    content: |-
+      L’amour du Christ nous saisit,
+      >afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+      >mais sur lui, qui est mort et ressuscité pour eux.
+  prayerAfterCommunion:
+  - |-
+    Que la communion à tes mystères, Seigneur,
+    >nous remplisse de cet amour sans défaillance /
+    qui a lié pour toujours la bienheureuse Marie Madeleine
+    >à son Maître, le Christ.
+    Lui qui vit et règne pour les siècles des siècles.

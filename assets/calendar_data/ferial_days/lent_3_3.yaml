@@ -195,8 +195,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 118,133
+    content: |-
+      Que ta promesse assure mes pas :
+      >qu’aucun mal ne triomphe de moi !
+  collect:
+  - |-
+    Nous t’en prions, Seigneur, *
+    >formés à l’école du Carême
+    >et nourris de ta parole,
+    fais nous soyons de tout cœur à ton service
+    >par notre effort de pénitence /
+    >et toujours unanimes à te prier.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -280,8 +294,38 @@ mass:
         sera déclaré le plus petit dans le royaume des Cieux.
         Mais celui qui les observera et les enseignera,
         celui-là sera déclaré grand dans le royaume des Cieux. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >accueille les supplications de ton peuple
+    >quand il te présente ce sacrifice ; *
+    et, par la célébration de tes mystères, /
+    >protège-nous de tout danger.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 15,11
+    content: |-
+      Tu m’apprends le chemin de la vie :
+      >devant ta face, débordement de joie, Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Que la nourriture prise à la table du ciel
+    nous sanctifie, Seigneur ; *
+    après avoir effacé tous nos torts, /
+    >qu’elle nous rende dignes de recevoir
+    >les promesses venant de toi.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Seigneur notre Dieu, +
+    >accorde à ton peuple de vouloir ce que tu veux, *
+    car lorsque tu le rends capable d’accomplir tes préceptes,
+    >alors tu le combles de bienfaits.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

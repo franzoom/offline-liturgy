@@ -184,8 +184,32 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 30,10.16.18
+    content: |-
+      Prends pitié de moi, Seigneur, je suis en détresse ;
+      >délivre-moi des mains hostiles qui s’acharnent.
+      Seigneur, garde-moi d’être humilié,
+      >moi qui t’appelle.
+  collect:
+  - |-
+    Pardonne, Seigneur, les fautes de ton peuple : *
+    >puisque notre faiblesse
+    >nous a rendus captifs des liens du péché, /
+    >que ta tendresse nous en délivre.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  - |-
+    Seigneur Dieu, +
+    >dans ta bonté, tu donnes maintenant à ton Église
+    >d’imiter avec amour la bienheureuse Marie
+    >quand elle contemplait la passion du Christ ; *
+    nous t’en prions, accorde-nous, par l’intercession de la Vierge,
+    >de nous attacher toujours plus fermement à ton Fils unique /
+    >et de parvenir enfin à la plénitude de sa grâce.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -292,8 +316,39 @@ mass:
         mais tout ce que Jean a dit de celui-ci
         était vrai. »
          Et là, beaucoup crurent en lui.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Dieu de miséricorde, +
+    >donne-nous de pouvoir toujours
+    >te servir à ton autel avec respect, *
+    et de trouver le salut /
+    dans la participation fidèle aux mystères que nous célébrons.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - passion_of_the_lord_1
+  communionAntiphon:
+  - condition: null
+    biblicalReference: 1P 2,24
+    content: |-
+      Jésus a porté nos péchés,
+      >dans son corps, sur le bois,
+      afin que, morts à nos péchés,
+      >nous vivions pour la justice.
+      Par ses blessures, nous sommes guéris.
+  prayerAfterCommunion:
+  - |-
+    Donne-nous, Seigneur,
+    >de trouver dans la communion à ce sacrifice
+    une indéfectible protection ; *
+    grâce à elle,
+    >que tout mal soit à jamais éloigné de nous.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Dieu tout-puissant, +
+    >accorde à ceux qui te servent
+    >et recherchent la grâce de ta protection,
+    d’être libérés de tout mal /
+    >afin de pouvoir te servir d’un cœur paisible.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

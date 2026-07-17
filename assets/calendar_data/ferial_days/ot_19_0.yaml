@@ -47,8 +47,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 73,20.19,22.23
+    content: |-
+      Regarde vers ton Alliance, Seigneur,
+      ne délaisse pas sans fin l’âme de tes pauvres.
+      Lève-toi, Seigneur, défends ta cause,
+      n’oublie pas le cri de ceux qui te cherchent.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    comme l’enseigne l’Esprit Saint,
+    nous pouvons déjà t’appeler du nom de Père ; *
+    fais grandir en nos cœurs l’esprit d’adoption filiale, /
+    afin que nous soyons capables d’entrer un jour
+    dans l’héritage qui nous est promis.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -502,8 +518,36 @@ mass:
         on demandera beaucoup ;
         à qui l’on a beaucoup confié,
         on réclamera davantage. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille favorablement, Seigneur, ces présents
+    que, dans ta miséricorde, tu as donnés à ton Église
+    pour qu’elle puisse te les offrir ; *
+    fais qu’ils deviennent par ta puissance /
+    >le sacrement de notre salut.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 147,12. 14
+    content: |-
+      Glorifie le Seigneur, Jérusalem :
+      de la fleur du froment il te rassasie.
+  - biblicalReference: cf. Jn 6,51
+    content: |-
+      Le pain que je donnerai,
+      >c’est ma chair, donnée pour la vie du monde,
+      >dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Que cette communion à ton sacrement, Seigneur,
+    >nous procure le salut *
+    et qu’elle nous affermisse /
+    >dans la lumière de ta vérité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

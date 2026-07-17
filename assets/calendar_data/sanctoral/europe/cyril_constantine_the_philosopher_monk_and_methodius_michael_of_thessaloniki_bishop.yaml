@@ -42,3 +42,129 @@ vespers:
   evangelicAntiphon:
     common:
     - Dieu les appelle ses amis, car ils ont témoigné pour sa vérité.
+
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Fêtons les amis de Dieu, saint Cyrille et saint Méthode :
+      >la gloire des deux frères fut de proclamer
+      >la vérité reçue du Seigneur.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as conduit les peuples slaves à la lumière,
+    >grâce aux deux frères saints Cyrille et Méthode ; *
+    ouvre nos cœurs à l’intelligence de ta Parole :
+    fais de nous un peuple uni dans la vraie foi /
+    et dans un témoignage authentique.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 13, 46-49
+      headline: « Nous nous tournons vers les nations païennes »
+      content: |-
+        En ces jours-là, à Antioche de Pisidie,
+        Paul et Barnabé déclarèrent aux Juifs avec assurance :
+        >« C’est à vous d’abord
+        >qu’il était nécessaire d’adresser la parole de Dieu.
+        Puisque vous la rejetez
+        >et que vous-mêmes ne vous jugez pas dignes de la vie éternelle,
+        >eh bien ! nous nous tournons vers les nations païennes.
+        C’est le commandement que le Seigneur nous a donné :
+        >J’ai fait de toi la lumière des nations
+        >pour que, grâce à toi,
+        >le salut parvienne jusqu’aux extrémités de la terre. »
+        En entendant cela, les païens étaient dans la joie
+        >et rendaient gloire à la parole du Seigneur ;
+        tous ceux qui étaient destinés à la vie éternelle
+        >devinrent croyants.
+        Ainsi la parole du Seigneur se répandait dans toute la région.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 116 (117), 1, 2
+      refAbbr: Mc 16, 15
+      chorus:
+      - chorusRef: Mc 16, 15
+        chorus: |-
+          Allez dans le monde entier.
+          Proclamez l’Évangile.
+          ou : Alléluia !
+      content: |-
+        Louez le Seigneur, tous les peuples ;
+        fêtez-le, tous les pays !
+
+        Son amour envers nous s’est montré le plus fort ;
+        éternelle est la fidélité du Seigneur !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 10, 1-9
+      headline: « La moisson est abondante, mais les ouvriers sont peu nombreux »
+      acclamationAntiphon: |-
+        Le Seigneur m’a envoyé
+        porter la Bonne Nouvelle aux pauvres,
+        annoncer aux captifs leur libération.
+      content: |-
+        En ce temps-là,
+        parmi les disciples,
+        le Seigneur en désigna encore 72,
+        et il les envoya deux par deux, en avant de lui,
+        en toute ville et localité où lui-même allait se rendre.
+        Il leur dit :
+        « La moisson est abondante,
+        mais les ouvriers sont peu nombreux.
+        Priez donc le maître de la moisson
+        d’envoyer des ouvriers pour sa moisson.
+        Allez ! Voici que je vous envoie
+        comme des agneaux au milieu des loups.
+        Ne portez ni bourse, ni sac, ni sandales,
+        et ne saluez personne en chemin.
+        Mais dans toute maison où vous entrerez,
+        dites d’abord :
+        "Paix à cette maison."
+        S’il y a là un ami de la paix,
+        votre paix ira reposer sur lui ;
+        sinon, elle reviendra sur vous.
+        Restez dans cette maison,
+        mangeant et buvant ce que l’on vous sert ;
+        car l’ouvrier mérite son salaire.
+        Ne passez pas de maison en maison.
+        Dans toute ville où vous entrerez
+        et où vous serez accueillis,
+        mangez ce qui vous est présenté.
+        Guérissez les malades qui s’y trouvent
+        et dites-leur :
+        "Le règne de Dieu s’est approché de vous." »
+        
+  offeringPrayer:
+  - |-
+    Regarde les offrandes que nous te présentons
+    >Seigneur, Dieu de majesté,
+    >en mémoire des saints Cyrille et Méthode : *
+    fais qu’elles deviennent le signe de l’humanité nouvelle /
+    >réconciliée avec toi dans la perfection de l’amour.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Mt 16,20
+    content: |-
+      Les disciples s’en allèrent proclamer partout l’Évangile.
+      Le Seigneur travaillait avec eux et confirmait leur parole
+      >par les signes qui l’accompagnaient.
+  prayerAfterCommunion:
+  - |-
+    Dieu, Père de toutes les nations, +
+    >tu nous donnes d’avoir part
+    >à un seul Pain et à un seul Esprit,
+    >et tu fais de nous les héritiers du banquet éternel ; *
+    en cette fête des saints Cyrille et Méthode,
+    accorde en ta bonté à la multitude de tes enfants
+    >de persévérer dans la même foi /
+    et de construire ensemble
+    >un règne de justice et de paix.
+    Par le Christ, notre Seigneur.

@@ -29,3 +29,93 @@ readings:
         Sans vous soucier de vos propres affaires,
         ayez à cœur celles de vos frères,
         à l’exemple du Christ Jésus.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >en sainte Jeanne-Françoise de Chantal
+    >tu as fait resplendir une remarquable sainteté
+    >par divers chemins de vie ; *
+    >à sa prière, accorde-nous
+    >de progresser dans la fidélité à notre vocation /
+    >et ainsi de rayonner sans cesse de ta lumière.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Pr 31, 10-13.19-20.30-31
+      headline: |-
+        « Seule, la femme qui craint le Seigneur mérite la louange »
+      content: |-
+        Une femme parfaite, qui la trouvera ?
+        Elle est précieuse plus que les perles !
+        Son mari peut lui faire confiance :
+        >il ne manquera pas de ressources.
+        Elle fait son bonheur, et non pas sa ruine,
+        >tous les jours de sa vie.
+        Elle sait choisir la laine et le lin,
+        >et ses mains travaillent volontiers.
+        Elle tend la main vers la quenouille,
+        >ses doigts dirigent le fuseau.
+        Ses doigts s’ouvrent en faveur du pauvre,
+        >elle tend la main au malheureux.
+        Le charme est trompeur et la beauté s’évanouit ;
+        >seule, la femme qui craint le Seigneur mérite la louange.
+        Célébrez-la pour les fruits de son travail :
+        >et qu’aux portes de la ville, ses œuvres disent sa louange !
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 130 (131), 1, 2, 3
+      refAbbr: 130, 1…
+      chorus:
+      - chorusRef: null
+        chorus: |-
+          Garde mon âme dans la paix
+          près de toi, Seigneur.
+      content: |-
+        Seigneur, je n’ai pas le cœur fier
+        ni le regard ambitieux ;
+        je ne poursuis ni grands desseins,
+        ni merveilles qui me dépassent.
+
+        Non, mais je tiens mon âme
+        égale et silencieuse ;
+        mon âme est en moi comme un enfant,
+        comme un petit enfant contre sa mère.
+
+        Attends le Seigneur, Israël,
+        maintenant et à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 3, 31-35
+      headline: |-
+        « Celui qui fait la volonté de Dieu, celui-là est pour moi un frère, une sœur, une mère »
+      acclamationAntiphon: |-
+        Si vous demeurez fidèles à ma parole,
+        vous êtes vraiment mes disciples ;
+        alors vous connaîtrez la vérité, dit le Seigneur.
+      content: |-
+        En ce temps-là,
+        comme Jésus était dans une maison,
+        >arrivent sa mère et ses frères.
+        Restant au-dehors, ils le font appeler.
+        Une foule était assise autour de lui ;
+        et on lui dit :
+        >« Voici que ta mère et tes frères sont là dehors :
+        >ils te cherchent. »
+        Mais il leur répond :
+        >« Qui est ma mère ? qui sont mes frères ? »
+        Et parcourant du regard
+        ceux qui étaient assis en cercle autour de lui,
+        il dit :
+        >« Voici ma mère et mes frères.
+        Celui qui fait la volonté de Dieu,
+        >celui-là est pour moi un frère, une sœur, une mère. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

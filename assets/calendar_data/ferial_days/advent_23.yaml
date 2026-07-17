@@ -1,8 +1,7 @@
 celebration:
   title: 23 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Emmanuel, Roi qui portes la loi nouvelle »
+  description: « Ô Emmanuel, Roi qui portes la loi nouvelle »
   color: violet
 oration:
 - |-
@@ -131,8 +130,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 9,5; Ps 71,17
+    content: |-
+      Un enfant va naître pour nous ; on l’appellera Dieu Fort :
+      >en lui seront bénies toutes les familles de la terre.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >tandis que nous voyons approcher
+    >la naissance de ton Fils selon la chair,
+    >nous te prions : *
+    que ton Verbe fasse miséricorde
+    >aux indignes serviteurs que nous sommes, /
+    lui, Jésus le Christ, notre Seigneur,
+    >qui daigna prendre chair de la Vierge Marie
+    >et habiter parmi nous.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -226,8 +241,30 @@ mass:
         les conservaient dans leur cœur et disaient :
          « Que sera donc cet enfant ? »
         En effet, la main du Seigneur était avec lui.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Que cette offrande te soit agréable, Seigneur, +
+    >elle qui nous introduit dans la plénitude du culte divin ; *
+    puissions-nous ainsi célébrer avec un esprit purifié /
+    >la naissance de notre Rédempteur.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: Ap 3,20
+    content: |-
+      Voici que je me tiens à la porte
+      >et je frappe, dit le Seigneur ;
+      Si quelqu’un entend ma voix et ouvre la porte
+      >j’entrerai chez lui,
+      >je prendrai mon repas avec lui,
+      >et lui avec moi.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bonté, accorde ta paix, Seigneur,
+    >à ceux que tu as rassasiés d’un aliment venu du ciel, *
+    pour que, gardant nos lampes allumées,
+    >nous puissions attendre la rencontre /
+    >avec ton Fils bien-aimé qui vient.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

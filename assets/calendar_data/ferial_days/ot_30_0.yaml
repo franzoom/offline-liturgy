@@ -58,8 +58,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 104,3-4
+    content: |-
+      Joie pour les cœurs qui cherchent Dieu.
+      Cherchez le Seigneur, et vous serez affermis,
+      >recherchez sans trêve sa face.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >augmente en nous la foi, l’espérance et la charité ; *
+    >et pour que nous puissions obtenir ce que tu promets, /
+    >fais-nous aimer ce que tu commandes.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -397,8 +410,34 @@ mass:
         plutôt que l’autre.
         Qui s’élève sera abaissé ;
         qui s’abaisse sera élevé. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Regarde les présents que nous t’offrons,
+    >nous t’en prions, Seigneur, Dieu de majesté : *
+    >permets que notre célébration /
+    >soit d’abord tournée vers ta gloire.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 19,6
+    content: |-
+      Nous trouverons la joie en ton salut,
+      >et la grandeur dans le nom de notre Dieu.
+  - biblicalReference: Ep 5,2
+    content: |-
+      Le Christ nous a aimés et s’est livré lui-même pour nous,
+      >s’offrant en sacrifice à Dieu, comme un parfum d’agréable odeur.
+  prayerAfterCommunion:
+  - |-
+    Que tes sacrements, Seigneur, nous t’en prions,
+    achèvent de produire en nous ce qu’ils contiennent ; *
+    >puissions-nous saisir dans sa pleine vérité
+    >ce que notre célébration préfigure aujourd’hui.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

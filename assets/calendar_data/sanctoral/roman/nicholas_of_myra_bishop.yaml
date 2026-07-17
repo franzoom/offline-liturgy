@@ -40,3 +40,128 @@ readings:
         
         Véridique est le fruit de l’amour,
         qui nous rend fils de Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Nous implorons ta miséricorde, Seigneur,
+    >et nous te supplions : *
+    à la prière de l’évêque saint Nicolas,
+    >garde-nous de tout danger, /
+    pour que le chemin du salut
+    >s’ouvre sans obstacle devant nous.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 6, 1-8
+      headline: '« Me voici : envoie-moi ! »'
+      content: |-
+        L’année de la mort du roi Ozias,
+        je vis le Seigneur qui siégeait sur un trône très élevé ;
+        >les pans de son manteau remplissaient le Temple.
+        Des séraphins se tenaient au-dessus de lui.
+        Ils avaient chacun six ailes :
+        >deux pour se couvrir le visage,
+        >deux pour se couvrir les pieds,
+        >et deux pour voler.
+        Ils se criaient l’un à l’autre :
+        >« Saint ! Saint ! Saint, le Seigneur de l’univers !
+        Toute la terre est remplie de sa gloire. »
+        Les pivots des portes se mirent à trembler
+        >à la voix de celui qui criait,
+        et le Temple se remplissait de fumée.
+        Je dis alors :
+        >« Malheur à moi ! je suis perdu,
+        >car je suis un homme aux lèvres impures,
+        >j’habite au milieu d’un peuple aux lèvres impures :
+        >et mes yeux ont vu le Roi, le Seigneur de l’univers ! »
+        L’un des séraphins vola vers moi,
+        tenant un charbon brûlant
+        >qu’il avait pris avec des pinces sur l’autel.
+        Il l’approcha de ma bouche et dit :
+        >« Ceci a touché tes lèvres,
+        >et maintenant ta faute est enlevée,
+        >ton péché est pardonné. »
+        J’entendis alors la voix du Seigneur qui disait :
+        >« Qui enverrai-je ?
+        qui sera notre messager ? »
+        Et j’ai répondu :
+        >« Me voici : envoie-moi ! »
+        .
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        chorus: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 10, 1-9
+      headline: « La moisson est abondante, mais les ouvriers sont peu nombreux »
+      acclamationAntiphon: |-
+        Le Seigneur m’a envoyé
+        porter la Bonne Nouvelle aux pauvres,
+        annoncer aux captifs leur libération.
+      content: |-
+        En ce temps-là,
+        parmi les disciples,
+        le Seigneur en désigna encore 72,
+        et il les envoya deux par deux, en avant de lui,
+        en toute ville et localité où lui-même allait se rendre.
+        Il leur dit :
+        « La moisson est abondante,
+        mais les ouvriers sont peu nombreux.
+        Priez donc le maître de la moisson
+        d’envoyer des ouvriers pour sa moisson.
+        Allez ! Voici que je vous envoie
+        comme des agneaux au milieu des loups.
+        Ne portez ni bourse, ni sac, ni sandales,
+        et ne saluez personne en chemin.
+        Mais dans toute maison où vous entrerez,
+        dites d’abord :
+        "Paix à cette maison."
+        S’il y a là un ami de la paix,
+        votre paix ira reposer sur lui ;
+        sinon, elle reviendra sur vous.
+        Restez dans cette maison,
+        mangeant et buvant ce que l’on vous sert ;
+        car l’ouvrier mérite son salaire.
+        Ne passez pas de maison en maison.
+        Dans toute ville où vous entrerez
+        et où vous serez accueillis,
+        mangez ce qui vous est présenté.
+        Guérissez les malades qui s’y trouvent
+        et dites-leur :
+        "Le règne de Dieu s’est approché de vous." »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

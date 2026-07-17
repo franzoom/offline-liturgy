@@ -257,8 +257,27 @@ mass:
 - massType: mass_of_the_passion
   name: Messe de la Passion
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Jn 12,1.12-13
+    content: |-
+      Six jours avant la fête de la Pâque,
+      >lorsque le Seigneur fit son entrée à Jérusalem,
+      >les enfants allèrent à sa rencontre.
+      Ils tenaient en main des branches de palmier, et criaient à pleine voix :
+      R/ Hosanna au plus haut des cieux !
+      Sois béni, toi qui viens dans l’abondance de ta miséricorde !
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    pour donner au genre humain
+    un exemple d’humilité,
+    tu as voulu que notre Sauveur prenne chair
+    >et qu’il subisse la croix : *
+    accorde-nous, dans ta bonté,
+    >d’accueillir le témoignage de sa force dans la souffrance /
+    >et d’avoir part à sa résurrection.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -1648,8 +1667,37 @@ mass:
          Puis elles s’en retournèrent
         et préparèrent aromates et parfums.
         Et, durant le sabbat, elles observèrent le repos prescrit.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Par la passion de ton Fils unique, nous te prions, Seigneur : +
+    >ne tarde pas à nous réconcilier avec toi ; *
+    >et même si par nos œuvres nous ne méritons pas ton pardon,
+    >nous comptons sur ta miséricorde pour le recevoir, /
+    >grâce au sacrifice incomparable du Christ.
+    Lui qui vit et règne pour les siècles des siècles.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Mt 26,42
+    content: |-
+      Mon Père,
+      >si cette coupe ne peut passer sans que je la boive,
+      >que ta volonté soit faite !
+  prayerAfterCommunion:
+  - |-
+    Rassasiés par ce don sacré,
+    nous te supplions humblement, Seigneur : *
+    toi qui nous as donné, dans la mort de ton Fils,
+    >d’espérer les biens auxquels nous croyons, /
+    donne-nous aussi, par sa résurrection,
+    >de parvenir à ce que nous espérons.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Regarde, Seigneur, nous t’en prions,
+    la famille qui t’appartient : *
+    c’est pour elle que Jésus, le Christ, notre Seigneur,
+    n’hésita pas à se livrer aux mains des méchants /
+    et à subir le supplice de la croix.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

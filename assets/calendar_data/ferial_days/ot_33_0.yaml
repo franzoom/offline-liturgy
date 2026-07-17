@@ -57,8 +57,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Jr 29,11.12.14
+    content: |-
+      Mes pensées, dit le Seigneur,
+      >sont des pensées de paix et non de malheur.
+      Vous m’invoquerez, je vous écouterai,
+      et de partout je ramènerai vos captifs.
+  collect:
+  - |-
+    Seigneur notre Dieu, nous t’en prions,
+    >accorde-nous la joie de t’appartenir sans réserve, /
+    car c’est un bonheur durable et profond /
+    >de servir constamment le créateur de tout bien.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -439,8 +453,37 @@ mass:
          Vous serez détestés de tous, à cause de mon nom.
          Mais pas un cheveu de votre tête ne sera perdu.
          C’est par votre persévérance que vous garderez votre vie. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur, Dieu de majesté : +
+    >regarde les présents que nous t’offrons *
+    et permets qu’ils nous obtiennent la grâce de te servir /
+    >et d’acquérir ainsi l’éternité bienheureuse.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 72,28
+    content: |-
+      Pour moi, il est bon de m’attacher à Dieu,
+      >de mettre mon espoir dans le Seigneur, mon Dieu.
+  - biblicalReference: Mc 11,23.24
+    content: |-
+      Amen, je vous le dis :
+      tout ce que vous demandez dans la prière,
+      >croyez que vous l’avez obtenu,
+      et cela vous sera accordé, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, nous avons reçu
+    >les dons que tu nous as faits dans ce sacrement, +
+    >et nous te supplions humblement : *
+    ton Fils nous a demandé de les célébrer en mémoire de lui, /
+    >qu’ils augmentent en nous la charité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -32,3 +32,118 @@ readings:
       
       Au jour de sa visite, ils resplendiront :
       Le Seigneur règnera sur eux pour toujours.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Seigneur,
+    >de célébrer fidèlement les mérites de tes martyrs, /
+    que le bienheureux pape Damase honora et fit aimer.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ac 20, 17-18a.28-32.36
+      headline: « Veillez sur vous-mêmes, et sur tout le troupeau dont l’Esprit Saint vous a établis responsables pour être les pasteurs de l’Église de Dieu »
+      content: |-
+        En ces jours-là,
+        depuis Milet, Paul envoya un message à Éphèse
+        pour convoquer les Anciens de cette Église.
+        Quand ils furent arrivés auprès de lui, il leur adressa la parole :
+        « Veillez sur vous-mêmes, et sur tout le troupeau
+        dont l’Esprit Saint vous a établis responsables,
+        pour être les pasteurs de l’Église de Dieu,
+        qu’il s’est acquise par son propre sang.
+        Moi, je sais qu’après mon départ,
+        des loups redoutables s’introduiront chez vous
+        et n’épargneront pas le troupeau.
+        Même du milieu de vous surgiront des hommes
+        qui tiendront des discours pervers
+        pour entraîner les disciples à leur suite.
+        Soyez donc vigilants,
+        et souvenez-vous que, durant trois ans,
+        nuit et jour,
+        je n’ai cessé, dans les larmes,
+        de reprendre chacun d’entre vous.
+        Et maintenant, je vous confie à Dieu
+        et à la parole de sa grâce,
+        lui qui a le pouvoir de construire l’édifice
+        et de donner à chacun l’héritage
+        en compagnie de tous ceux qui ont été sanctifiés. »
+        Quand Paul eut ainsi parlé,
+        il s’agenouilla et pria avec eux tous.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 109 (110), 1, 2, 3, 4
+      refAbbr: cf. 109, 4
+      chorus:
+      - chorusRef: cf. 109, 4
+        chorus: |-
+          Tu es prêtre à jamais
+          selon l’ordre de Melkisédek.
+      content: |-
+        Oracle du Seigneur à mon seigneur :
+        « Siège à ma droite,
+        et je ferai de tes ennemis
+        le marchepied de ton trône. »
+
+        De Sion, le Seigneur te présente
+        le sceptre de ta force :
+        « Domine jusqu’au cœur de l’ennemi. »
+
+        Le jour où paraît ta puissance,
+        tu es prince, éblouissant de sainteté :
+        « Comme la rosée qui naît de l’aurore,
+        je t’ai engendré. »
+
+        Le Seigneur l’a juré
+        dans un serment irrévocable :
+        « Tu es prêtre à jamais
+        selon l’ordre du roi Melkisédek. »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 9-17
+      headline: « Vous êtes mes amis si vous faites ce que je vous commande »
+      acclamationAntiphon: |-
+        Je vous appelle mes amis, dit le Seigneur,
+        car tout ce que j’ai entendu de mon Père,
+        je vous l’ai fait connaître.
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        « Comme le Père m’a aimé,
+        moi aussi je vous ai aimés.
+        Demeurez dans mon amour.
+        Si vous gardez mes commandements,
+        vous demeurerez dans mon amour,
+        comme moi, j’ai gardé les commandements de mon Père,
+        et je demeure dans son amour.
+        Je vous ai dit cela pour que ma joie soit en vous,
+        et que votre joie soit parfaite.
+        Mon commandement, le voici :
+        Aimez-vous les uns les autres
+        comme je vous ai aimés.
+        Il n’y a pas de plus grand amour
+        que de donner sa vie pour ceux qu’on aime.
+        Vous êtes mes amis
+        si vous faites ce que je vous commande.
+        Je ne vous appelle plus serviteurs,
+        car le serviteur ne sait pas ce que fait son maître ;
+        je vous appelle mes amis,
+        car tout ce que j’ai entendu de mon Père,
+        je vous l’ai fait connaître.
+        Ce n’est pas vous qui m’avez choisi,
+        c’est moi qui vous ai choisis et établis
+        afin que vous alliez,
+        que vous portiez du fruit,
+        et que votre fruit demeure.
+        Alors, tout ce que vous demanderez au Père en mon nom,
+        il vous le donnera.
+        Voici ce que je vous commande :
+        c’est de vous aimer les uns les autres. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

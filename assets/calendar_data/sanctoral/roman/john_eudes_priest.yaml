@@ -38,3 +38,94 @@ readings:
         
         Vous n’êtes qu’un en Jésus Christ,
         revêtez l’amour : c’est le lien parfait.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as choisi le prêtre saint Jean Eudes
+    pour qu’il annonce l’insondable richesse du Christ ; *
+    accorde-nous de suivre son exemple et ses enseignements,
+    >afin de te connaître toujours davantage /
+    >et de vivre dans la fidélité à la lumière de l’Évangile.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ep 3, 14-19
+      headline: |-
+        « Vous connaîtrez ce qui dépasse toute connaissance : l’amour du Christ »
+      content: |-
+        Frères,
+        je tombe à genoux devant le Père,
+        >de qui toute paternité au ciel et sur la terre tient son nom.
+        Lui qui est si riche en gloire,
+        qu’il vous donne la puissance de son Esprit,
+        >pour que se fortifie en vous l’homme intérieur.
+        Que le Christ habite en vos cœurs par la foi ;
+        >restez enracinés dans l’amour, établis dans l’amour.
+        Ainsi vous serez capables de comprendre avec tous les fidèles
+        >quelle est la largeur, la longueur, la hauteur, la profondeur…
+        Vous connaîtrez ce qui dépasse toute connaissance :
+        >l’amour du Christ.
+        Alors vous serez comblés
+        >jusqu’à entrer dans toute la plénitude de Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 130 (131), 1, 2, 3
+      refAbbr: 130, 1…
+      chorus:
+      - chorusRef: null
+        chorus: |-
+          Garde mon âme dans la paix
+          près de toi, Seigneur.
+      content: |-
+        Seigneur, je n’ai pas le cœur fier
+        ni le regard ambitieux ;
+        je ne poursuis ni grands desseins,
+        ni merveilles qui me dépassent.
+
+        Non, mais je tiens mon âme
+        égale et silencieuse ;
+        mon âme est en moi comme un enfant,
+        comme un petit enfant contre sa mère.
+
+        Attends le Seigneur, Israël,
+        maintenant et à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 11, 25-30
+      headline: |-
+        « Ce que tu as caché aux sages et aux savants, tu l’as révélé aux tout-petits »
+      acclamationAntiphon: |-
+        Tu es béni, Père, Seigneur du ciel et de la terre,
+        tu as révélé aux tout-petits
+        les mystères du Royaume !
+      content: |-
+        En ce temps-là,
+        Jésus prit la parole et dit :
+        >« Père, Seigneur du ciel et de la terre,
+        >je proclame ta louange :
+        >ce que tu as caché aux sages et aux savants,
+        >tu l’as révélé aux tout-petits.
+        Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
+        Tout m’a été remis par mon Père ;
+        >personne ne connaît le Fils, sinon le Père,
+        >et personne ne connaît le Père, sinon le Fils,
+        >et celui à qui le Fils veut le révéler.
+        Venez à moi,
+        >vous tous qui peinez sous le poids du fardeau,
+        >et moi, je vous procurerai le repos.
+        Prenez sur vous mon joug,
+        >devenez mes disciples,
+        >car je suis doux et humble de cœur,
+        >et vous trouverez le repos pour votre âme.
+        Oui, mon joug est facile à porter,
+        >et mon fardeau, léger. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

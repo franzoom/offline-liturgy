@@ -154,8 +154,26 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. 1P 2,9
+    content: |-
+      Peuple racheté par Dieu,
+      vous tous, annoncez les merveilles
+      de celui qui vous a appelés des ténèbres
+      >à son admirable lumière, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >en montant au ciel,
+    >ton Fils a promis l’Esprit Saint aux Apôtres ; *
+    >nous t’en prions :
+    >de même qu’ils reçurent des grâces multiples
+    >leur apprenant les réalités d’en haut, /
+    >répands maintenant sur nous aussi
+    >les dons de l’Esprit.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -241,8 +259,28 @@ mass:
         et vous avez cru que c’est de Dieu que je suis sorti.
         Je suis sorti du Père, et je suis venu dans le monde ;
         maintenant, je quitte le monde, et je pars vers le Père. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Dans ta bonté, sanctifie ces dons,
+    >nous t’en prions, Seigneur ; *
+    >accepte le sacrifice spirituel que nous t’offrons, /
+    et fais de nous-mêmes
+    >une éternelle offrande pour toi.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 17,24
+    content: |-
+      Père, ceux que tu m’as donnés,
+      je veux que là où je suis,
+      >ils soient eux ausi avec moi,
+      et qu’ils contemplent ma gloire
+      >celle que tu m’as donnée, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, nous avons reçu
+    >les dons qui nous ont fait participer aux saints mystères, et nous te prions humblement : *
+    >ton Fils nous a demandé de les célébrer en mémoire de lui, /
+    >qu’ils augmentent en nous la charité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

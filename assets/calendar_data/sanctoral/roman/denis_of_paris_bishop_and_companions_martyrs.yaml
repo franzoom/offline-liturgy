@@ -40,3 +40,105 @@ readings:
         Je suis la résurrection ;
         celui qui me donne sa foi
         vivra même dans la mort.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as envoyé le bienheureux Denis et ses compagnons
+    >annoncer aux nations ta gloire,
+    >et tu les as gardés inébranlables dans la souffrance ; *
+    nous t’en prions, accorde-nous la grâce de les imiter
+    >en sachant mépriser la faveur du monde, /
+    >sans jamais craindre ses attaques.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2 Co 6, 4-10
+      headline: « On nous croit mourants, et nous sommes bien vivants »
+      content: |-
+        Frères,
+        en tout, nous nous recommandons nous-mêmes
+        comme des ministres de Dieu :
+        par beaucoup d’endurance,
+        dans les détresses, les difficultés, les angoisses,
+        les coups, la prison, les émeutes,
+        les fatigues, le manque de sommeil et de nourriture,
+        par la chasteté, la connaissance,
+        la patience et la bonté,
+        la sainteté de l’esprit et la sincérité de l’amour,
+        par une parole de vérité,
+        par une puissance qui vient de Dieu ;
+        nous nous présentons avec les armes de la justice
+        pour l’attaque et la défense,
+        dans la gloire et le mépris,
+        dans la mauvaise et la bonne réputation.
+        On nous traite d’imposteurs, et nous disons la vérité ;
+        on nous prend pour des inconnus, et nous sommes très connus ;
+        on nous croit mourants, et nous sommes bien vivants
+        on nous punit, et nous ne sommes pas mis à mort ;
+        on nous croit tristes, et nous sommes toujours joyeux ;
+        pauvres, et nous faisons tant de riches ;
+        démunis de tout, et nous possédons tout.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: cf. 125, 5
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 13-16
+      headline: « Vous êtes la lumière du monde »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Vous êtes le sel de la terre.
+        Mais si le sel devient fade,
+        comment lui rendre de la saveur ?
+        Il ne vaut plus rien :
+        on le jette dehors et il est piétiné par les gens.
+        Vous êtes la lumière du monde.
+        Une ville située sur une montagne
+        ne peut être cachée.
+        Et l’on n’allume pas une lampe
+        pour la mettre sous le boisseau ;
+        on la met sur le lampadaire,
+        et elle brille pour tous ceux qui sont dans la maison.
+        De même, que votre lumière brille devant les hommes :
+        alors, voyant ce que vous faites de bien,
+        ils rendront gloire à votre Père qui est aux cieux. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

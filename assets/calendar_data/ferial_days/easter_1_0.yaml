@@ -1175,27 +1175,28 @@ mass:
   name: Messe du jour de Pâques
   note: null
   entranceAntiphon:
-  - biblicalReference: Ps 138, 18. 5-6 (Vg)
+  - biblicalReference: cf. Ps 138,18. 5-6 (Vg)
     content: |-
       Je suis ressuscité, et je suis avec toi, alléluia.
       Ta main s’est posée sur moi, alléluia,
-        ta sagesse s’est montrée admirable, alléluia, alléluia.
-  - content: |-
+      >ta sagesse s’est montrée admirable, alléluia, alléluia.
+  - biblicalReference: Lc 24,34; cf. Ap 1,6
+    content: |-
       Le Christ est vraiment ressuscité, alléluia.
       À lui, la gloire et la souveraineté
-        pour les siècles des siècles, alléluia, alléluia.
+      >pour les siècles des siècles, alléluia, alléluia.
   collect:
   - |-
     Aujourd’hui, Seigneur Dieu, +
-      par ton Fils unique, vainqueur de la mort,
-      tu nous as ouvert les portes de l’éternité ; %
-    tandis que nous fêtons solennellement
-      la résurrection du Seigneur, nous t’en prions,
-    accorde-nous d’être renouvelés par ton Esprit /
-      pour que nous ressuscitions dans la lumière de la vie.
+    >par ton Fils unique, vainqueur de la mort,
+    >tu nous as ouvert les portes de l’éternité ;*
+    >tandis que nous fêtons solennellement
+    >la résurrection du Seigneur, nous t’en prions,
+    >accorde-nous d’être renouvelés par ton Esprit /
+    >pour que nous ressuscitions dans la lumière de la vie.
     Par Jésus Christ, ton Fils, notre Seigneur, +
-      qui vit et règne avec toi dans l’unité du Saint-Esprit, /
-      Dieu, pour les siècles des siècles.
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   sequence:
   - victimae-paschali-laudes
   readingParts:
@@ -1411,24 +1412,24 @@ mass:
   offeringPrayer:
   - |-
     Dans l’exultation de la joie pascale, Seigneur,
-    nous t’offrons ce sacrifice: %
-    c’est par lui que ton Église,
-    de manière admirable, /
-    naît à la vie nouvelle et reçoit sa nourriture.
+    >nous t’offrons ce sacrifice : *
+    >c’est par lui que ton Église,
+    >de manière admirable, /
+    >naît à la vie nouvelle et reçoit sa nourriture.
     Par le Christ, notre Seigneur.
   prefaceList: null
   communionAntiphon:
-  - biblicalReference: 1 Co 5, 7–8
+  - biblicalReference: cf. 1Co 5,7-8
     content: |-
       Le Christ, notre agneau pascal, a été immolé, alléluia.
-        Célébrons la fête en partageant un pain non fermenté,
-        signe de droiture et de vérité, alléluia, alléluia.
+      Célébrons la fête en partageant un pain non fermenté,
+      >signe de droiture et de vérité, alléluia, alléluia.
   prayerAfterCommunion:
   - |-
     Seigneur Dieu, +
-      ne cesse pas de veiller avec tendresse sur ton Église, %
-    afin que, déjà renouvelée par les sacrements de Pâques, /
-      elle parvienne à la lumière de la résurrection.
+    >ne cesse pas de veiller avec tendresse sur ton Église, *
+    >afin que, déjà renouvelée par les sacrements de Pâques, /
+    >elle parvienne à la lumière de la résurrection.
     Par le Christ, notre Seigneur.
   solemnBlessingList:
   - easter_blessing

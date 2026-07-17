@@ -192,8 +192,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 46,2
+    content: |-
+      Tous les peuples, battez des mains,
+      >acclamez Dieu par vos cris de joie, alléluia.
+  collect:
+  - |-
+    Dieu de miséricorde, +
+    >dans ta bonté, donne à ton Église rassemblée par l’Esprit Saint
+    >de s’attacher à toi de tout cœur, /
+    >et d’être unanime dans une volonté sans faille.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -307,8 +319,29 @@ mass:
         moi aussi, je les ai envoyés dans le monde.
         Et pour eux je me sanctifie moi-même,
         afin qu’ils soient, eux aussi, sanctifiés dans la vérité. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, nous t’en prions,
+    >le sacrifice que tu nous as dit de t’offrir : *
+    >dans les saints mystères que nous célébrons
+    pour te servir comme il convient, /
+    sanctifie-nous pleinement
+    >par ton œuvre de rédemption.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 15,26-27
+    content: |-
+      Quand viendra le Défenseur que je vous enverrai, dit le Seigneur,
+      >lui, l’Esprit de vérité qui procède du Père,
+      >il rendra témoignage en ma faveur ;
+      et vous aussi, vous allez rendre témoignage, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, que notre participation à ton sacrement divin,
+    >augmente sans cesse en nous ta grâce : *
+    >que sa force nous purifie /
+    >et nous dispose à recevoir toujours mieux
+    >un si grand bienfait.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

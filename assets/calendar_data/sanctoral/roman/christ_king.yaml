@@ -264,8 +264,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ap 5,12; 1,6 (Vg)
+    content: |-
+      Il est digne, l’Agneau immolé
+      >de recevoir puissance, divinité,
+      >sagesse, force et honneur, alléluia.
+      À lui, la gloire et la souveraineté
+      >pour les siècles des siècles.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    tu as voulu récapituler toutes choses
+    >en ton Fils bien-aimé, le Roi de l’univers ; *
+    dans ta bonté, fais que, libérée de la servitude,/
+    >toute la création serve ta gloire et chante sans fin ta louange.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -658,8 +674,27 @@ mass:
          Jésus lui déclara :
         « Amen, je te le dis :
         aujourd’hui, avec moi, tu seras dans le Paradis. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    En offrant le sacrifice qui réconcilie le genre humain avec toi,
+    >nous te supplions humblement, Seigneur : *
+    que ton Fils lui-même accorde à tous les peuples /
+    >les dons de l’unité et de la paix.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - christ_king
+  communionAntiphon:
+  - biblicalReference: Ps 28,10-11
+    content: |-
+      Il siège, le Seigneur, il est roi pour toujours ;
+      >le Seigneur bénit son peuple en lui donnant la paix.
+  prayerAfterCommunion:
+  - |-
+    Après avoir reçu le pain de l’immortalité,
+    >nous te supplions, Seigneur : *
+    nous qui mettons notre gloire à obéir
+    >aux commandements du Christ Roi de l’univers, /
+    puissions-nous vivre sans fin avec lui
+    >dans le royaume des Cieux.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

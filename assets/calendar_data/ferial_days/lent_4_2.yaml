@@ -178,8 +178,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 55,1
+    content: |-
+      Vous tous qui avez soif, venez, voici de l’eau !
+      dit le Seigneur ;
+      Même si vous n’avez pas d’argent,
+      >venez et buvez avec joie.
+  collect:
+  - |-
+    Seigneur, en ce temps de pénitence,
+    >donne à tes fidèles de te servir d’un cœur généreux : *
+    >pour être bien disposés à accueillir le mystère pascal
+    dans les dispositions favorables /
+    >et proclamer l’annonce de ton salut.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -316,8 +331,39 @@ mass:
         que c’était Jésus qui l’avait guéri.
         Et ceux-ci persécutaient Jésus
         parce qu’il avait fait cela le jour du sabbat.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous te présentons, Seigneur,
+    >les biens que toi-même nous as donnés : *
+    >qu’ils témoignent des bienfaits de ta création
+    >pour notre condition mortelle
+    et qu’ils deviennent aussi le remède
+    >qui nous procurera l’immortalité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps. 22,1-2
+    content: |-
+      Le Seigneur est mon berger : je ne manque de rien.
+      Sur des prés d’herbe fraîche, il me fait reposer.
+      Il me mène vers les eaux tranquilles et me fait revivre.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bonté, Seigneur, purifie nos esprits : +
+    >que tes sacrements les renouvellent ; *
+    fais que même nos corps y trouvent une aide /
+    >pour aujourd’hui et pour la vie future.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Dieu de miséricorde, +
+    >fais que ton peuple soit toujours fidèle à te servir *
+    >et reçoive constamment de ta bienveillance /
+    >ce qui lui est profitable.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

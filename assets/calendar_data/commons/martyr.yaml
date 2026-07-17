@@ -95,7 +95,7 @@ readings:
       que de donner sa vie
       pour ceux qu’on aime.
   patristicReading:
-  - title: SERMON DE SAINT AUGUSTIN
+  - title: Sermon de Saint Augustin
     subtitle: Le Christ, premier des martyrs
     content: |-
       Les exploits glorieux des martyrs, qui font en tout lieu l’ornement de l’Église, nous permettent de comprendre par nous-mêmes la vérité de ce que nous avons chanté : %Aux yeux du Seigneur, la mort de ses saints a un grand prix%. En effet, elle a un grand prix à nos yeux, et aux yeux de celui pour le nom duquel ils sont morts.
@@ -230,3 +230,866 @@ vespers:
       Toi qui nous donnes aujourd’hui la grâce de la foi, loué sois-tu !
 
       Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !
+
+mass:
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Fidèle à la loi de Dieu, saint N. a combattu jusqu’à la mort;
+      il n’a pas craint les paroles des impies:
+      >il était solidement établi sur le roc.
+  - biblicalReference: cf. Sg 10, 12
+    content: |-
+      Le Seigneur lui a donné la victoire dans un combat redoutable;
+      il lui a fait comprendre ainsi
+      >que la sagesse est plus puissante que tout.
+  - biblicalReference: null
+    content: |-
+      Le Seigneur lui a donné de combattre avec courage,
+      pour qu’il sache vaincre,
+        car la sagesse est plus puissante que tout.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 2Ch 24, 18-22
+      headline: |-
+        « Zacharie que vous avez assassiné entre le sanctuaire et l’autel »
+      content: |-
+        En ces jours-là,
+        les gens abandonnèrent la maison du Seigneur,
+        >Dieu de leurs pères,
+        >pour servir les poteaux sacrés et les idoles.
+        À cause de cette infidélité,
+        >la colère de Dieu s’abattit sur Juda et sur Jérusalem.
+        Pour les ramener à lui, Dieu envoya chez eux des prophètes.
+        Ceux-ci transmirent le message,
+        >mais personne ne les écouta.
+        Dieu revêtit de son esprit
+        >Zacharie, le fils du prêtre Joad.
+        Zacharie se présenta devant le peuple et lui dit :
+        >« Ainsi parle Dieu :
+        >Pourquoi transgressez-vous
+        >les commandements du Seigneur ?
+        Cela fera votre malheur :
+        >puisque vous avez abandonné le Seigneur,
+        >le Seigneur vous abandonne. »
+        Ils s’ameutèrent alors contre lui
+        >et, par commandement du roi, le lapidèrent
+        >sur le parvis de la maison du Seigneur.
+        Le roi Joas, en faisant mourir Zacharie, fils de Joad,
+        >oubliait la fidélité que Joad lui avait témoignée.
+        Zacharie s’était écrié en mourant :
+        >« Que le Seigneur le voie, et qu’il fasse justice ! »
+    - biblicalRef: 2M 6, 18.21.24-31
+      headline: |-
+        « Les douleurs, je les supporte avec joie, parce que je crains Dieu »
+      content: |-
+        En ces jours-là,
+        Éléazar était l’un des scribes les plus éminents.
+        C’était un homme très âgé,
+        >et de très belle allure.
+        On voulut l’obliger à manger du porc
+        >en lui ouvrant la bouche de force.
+        Ceux qui étaient chargés de ce repas sacrilège
+        >le connaissaient de longue date.
+        Ils le prirent à part et lui conseillèrent
+        >de faire apporter des viandes dont l’usage était permis,
+        >et qu’il aurait préparées lui-même.
+        Il n’aurait qu’à faire semblant
+        de manger les chairs de la victime
+        >pour obéir au roi.
+        Éléazar leur répondit :
+        >« Une telle comédie est indigne de mon âge.
+        Car beaucoup de jeunes gens croiraient qu’Éléazar,
+        >à 90 ans,
+        >adopte la manière de vivre des étrangers.
+        À cause de cette comédie, par ma faute,
+        >ils se laisseraient égarer eux aussi ;
+        >et moi, pour un misérable reste de vie,
+        >j’attirerais sur ma vieillesse la honte et le déshonneur.
+        Même si j’évite, pour le moment,
+        >le châtiment qui vient des hommes,
+        >je n’échapperai pas, vivant ou mort,
+        >aux mains du Tout-Puissant.
+        C’est pourquoi, en quittant aujourd’hui la vie avec courage,
+        >je me montrerai digne de ma vieillesse
+        >et, en choisissant de mourir avec détermination et noblesse
+        >pour nos vénérables et saintes lois,
+        >j’aurai laissé aux jeunes gens
+        >le noble exemple d’une belle mort. »
+        Sur ces mots, il alla tout droit au supplice.
+        Pour ceux qui le conduisaient,
+        >ces propos étaient de la folie ;
+        c’est pourquoi ils passèrent subitement
+        >de la bienveillance à l’hostilité.
+        Quant à lui, au moment de mourir sous les coups,
+        il dit en gémissant :
+        >« Le Seigneur, dans sa science sainte, le voit bien :
+        >alors que je pouvais échapper à la mort,
+        >j’endure sous le fouet
+        >des douleurs qui font souffrir mon corps ;
+        >mais dans mon âme je les supporte avec joie,
+        >parce que je crains Dieu. »
+        Telle fut la mort de cet homme.
+        Il laissa ainsi, non seulement à la jeunesse
+        >mais à l’ensemble de son peuple,
+        un exemple de noblesse et un mémorial de vertu.
+    - biblicalRef: 2M 7, 1-2.9-14
+      headline: |-
+        « Nous sommes prêts à mourir plutôt que de transgresser les lois de nos pères »
+      content: |-
+        En ces jours-là,
+        sept frères avaient été arrêtés avec leur mère.
+        À coups de fouet et de nerf de bœuf,
+        le roi Antiocos voulut les contraindre
+        >à manger du porc, viande interdite.
+        L’un d’eux se fit leur porte-parole et déclara :
+        >« Que cherches-tu à savoir de nous ?
+        Nous sommes prêts à mourir
+        >plutôt que de transgresser les lois de nos pères. »
+        Au moment de rendre le dernier soupir, le deuxième frère dit :
+        >« Tu es un scélérat, toi qui nous arraches à cette vie présente,
+        >mais puisque nous mourons par fidélité à ses lois,
+        >le Roi du monde nous ressuscitera pour une vie éternelle. »
+        Après cela, le troisième fut mis à la torture.
+        Il tendit la langue aussitôt qu’on le lui ordonna
+        et il présenta les mains avec intrépidité,
+        en déclarant avec noblesse :
+        >« C’est du Ciel que je tiens ces membres,
+        >mais à cause de ses lois je les méprise,
+        >et c’est par lui que j’espère les retrouver. »
+        Le roi et sa suite furent frappés
+        >de la grandeur d’âme de ce jeune homme
+        >qui comptait pour rien les souffrances.
+        Lorsque celui-ci fut mort,
+        >le quatrième frère fut soumis aux mêmes sévices.
+        Sur le point d’expirer, il parla ainsi :
+        >« Mieux vaut mourir par la main des hommes,
+        >quand on attend la résurrection promise par Dieu,
+        >tandis que toi, tu ne connaîtras pas la résurrection pour la vie. »
+    - biblicalRef: 2M 7, 1.20-23.27b-29
+      headline: |-
+        « Mère admirable, elle supporta vaillamment la mort de ses fils, parce qu’elle avait mis son espérance dans le Seigneur »
+      content: |-
+        En ces jours-là,
+        sept frères avaient été arrêtés avec leur mère.
+        À coups de fouet et de nerf de bœuf, le roi Antiocos
+        >voulut les contraindre à manger du porc, viande interdite.
+        Leur mère fut particulièrement admirable
+        >et digne d’une illustre mémoire :
+        voyant mourir ses sept fils dans l’espace d’un seul jour,
+        elle le supporta vaillamment
+        >parce qu’elle avait mis son espérance dans le Seigneur.
+        Elle exhortait chacun d’eux dans la langue de ses pères ;
+        cette femme héroïque leur parlait avec un courage viril :
+        >« Je suis incapable de dire
+        >comment vous vous êtes formés dans mes entrailles.
+        Ce n’est pas moi qui vous ai donné l’esprit et la vie,
+        >qui ai organisé les éléments
+        >dont chacun de vous est composé.
+        C’est le Créateur du monde
+        >qui façonne l’enfant à l’origine,
+        >qui préside à l’origine de toute chose.
+        Et c’est lui qui, dans sa miséricorde,
+        >vous rendra l’esprit et la vie,
+        >parce que, pour l’amour de ses lois,
+        >vous méprisez maintenant votre propre existence. »
+        Elle disait au plus jeune :
+        >« Mon fils, aie pitié de moi :
+        >je t’ai porté neuf mois dans mon sein,
+        >je t’ai allaité pendant trois ans,
+        >je t’ai nourri et élevé jusqu’à l’âge où tu es parvenu,
+        >j’ai pris soin de toi.
+        Je t’en conjure, mon enfant,
+        >regarde le ciel et la terre avec tout ce qu’ils contiennent :
+        >sache que Dieu a fait tout cela de rien,
+        >et que la race des hommes est née de la même manière.
+        Ne crains pas ce bourreau,
+        >montre-toi digne de tes frères et accepte la mort,
+        >afin que je te retrouve avec eux au jour de la miséricorde. »
+    - biblicalRef: Sg 3, 1-9
+      headline: |-
+        « Comme une offrande parfaite, il les accueille »
+      content: |-
+        Les âmes des justes sont dans la main de Dieu ;
+        >aucun tourment n’a de prise sur eux.
+        Aux yeux de l’insensé, ils ont paru mourir ;
+        leur départ est compris comme un malheur,
+        >et leur éloignement, comme une fin :
+        mais ils sont dans la paix.
+        Au regard des hommes, ils ont subi un châtiment,
+        >mais l’espérance de l’immortalité les comblait.
+        Après de faibles peines,
+        >de grands bienfaits les attendent,
+        car Dieu les a mis à l’épreuve
+        >et trouvés dignes de lui.
+        Comme l’or au creuset, il les a éprouvés ;
+        >comme une offrande parfaite, il les accueille.
+        Au temps de sa visite, ils resplendiront :
+        >comme l’étincelle qui court sur la paille, ils avancent.
+        Ils jugeront les nations, ils auront pouvoir sur les peuples,
+        >et le Seigneur régnera sur eux pour les siècles.
+        Qui met en lui sa foi comprendra la vérité ;
+        >ceux qui sont fidèles resteront, dans l’amour, près de lui.
+        Pour ses amis, grâce et miséricorde :
+        >il visitera ses élus.
+    - biblicalRef: Si 51, 1-8
+      headline: |-
+        « Par la grandeur de ta miséricorde et de ton nom, tu m’as délivré »
+      content: |-
+        Je veux te rendre grâce, Seigneur mon roi,
+        >je te louerai, Dieu mon sauveur.
+        Je rends grâce à ton nom :
+        >tu as été pour moi un défenseur et un soutien.
+        Tu as délivré mon corps de la perdition,
+        >du piège de la calomnie et des lèvres menteuses.
+        Face à mes adversaires,
+        >tu as été mon soutien.
+        Par la grandeur de ta miséricorde et de ton nom,
+        >tu m’as délivré des mâchoires qui allaient me dévorer,
+        des mains qui menaçaient ma vie,
+        >de tourments innombrables,
+        du bûcher qui me suffoquait de toutes parts ;
+        tu m’as délivré d’un feu que je n’avais pas allumé,
+        >du gouffre profond de la Mort,
+        de la langue impure et de la parole mensongère,
+        >lorsqu’une langue injuste me calomniait auprès du roi.
+        J’étais arrivé tout près de la mort,
+        >ma vie était descendue au seuil du séjour des morts.
+        On m’assiégeait de tous côtés :
+        >aucun homme pour me secourir.
+        Je regardais si quelqu’un me viendrait en aide,
+        >mais il n’y avait personne.
+        Alors je me suis rappelé ta miséricorde, Seigneur,
+        >et ta bienfaisance éternelle :
+        tu retires de la peine ceux qui t’attendent,
+        >tu les sauves de la main des ennemis.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 30 (31), 3bc-4, 6.8, 16-17
+      refAbbr: 30, 6a
+      chorus:
+      - chorusRef: 30, 6a
+        chorus: |-
+          En tes mains, Seigneur,
+          je remets mon esprit.
+      content: |-
+        Sois le rocher qui m’abrite,
+        la maison fortifiée qui me sauve.
+        Ma forteresse et mon roc, c’est toi :
+        pour l’honneur de ton nom, tu me guides et me conduis.
+
+        En tes mains je remets mon esprit ;
+        tu me rachètes, Seigneur, Dieu de vérité.
+        Ton amour me fait danser de joie :
+        tu vois ma misère et tu sais ma détresse.
+
+        Mes jours sont dans ta main : délivre-moi
+        des mains hostiles qui s’acharnent.
+        Sur ton serviteur, que s’illumine ta face ;
+        sauve-moi par ton amour.
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+    - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+      refAbbr: 123, 7ab
+      chorus:
+      - chorusRef: 123, 7ab
+        chorus: |-
+          Comme un oiseau, nous avons échappé
+          au filet du chasseur.
+      content: |-
+        Sans le Seigneur qui était pour nous
+        quand des hommes nous assaillirent,
+        alors ils nous avalaient tout vivants,
+        dans le feu de leur colère.
+
+        Alors le flot passait sur nous,
+        le torrent nous submergeait ;
+        alors nous étions submergés
+        par les flots en furie.
+
+        Béni soit le Seigneur !
+        Le filet s’est rompu : nous avons échappé.
+        Notre secours est le nom du Seigneur
+        qui a fait le ciel et la terre.
+
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: 125, 1…
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Rm 5, 1-5
+      headline: |-
+        « Nous mettons notre fierté dans la détresse elle-même »
+      content: |-
+        Frères,
+        nous qui sommes devenus justes par la foi,
+        nous voici en paix avec Dieu
+        >par notre Seigneur Jésus Christ,
+        lui qui nous a donné, par la foi,
+        >l’accès à cette grâce
+        >dans laquelle nous sommes établis ;
+        et nous mettons notre fierté
+        >dans l’espérance d’avoir part à la gloire de Dieu.
+        Bien plus, nous mettons notre fierté
+        >dans la détresse elle-même,
+        puisque la détresse, nous le savons, produit la persévérance ;
+        >la persévérance produit la vertu éprouvée ;
+        >la vertu éprouvée produit l’espérance ;
+        et l’espérance ne déçoit pas,
+        puisque l’amour de Dieu a été répandu dans nos cœurs
+        >par l’Esprit Saint qui nous a été donné.
+    - biblicalRef: Rm 8, 31b-39
+      headline: |-
+        « Ni la mort ni la vie ne pourra nous séparer de l’amour de Dieu »
+      content: |-
+        Frères,
+        si Dieu est pour nous,
+        >qui sera contre nous ?
+        Il n’a pas épargné son propre Fils,
+        >mais il l’a livré pour nous tous :
+        comment pourrait-il, avec lui,
+        >ne pas nous donner tout ?
+        Qui accusera ceux que Dieu a choisis ?
+        Dieu est celui qui rend juste :
+        >alors, qui pourra condamner ?
+        Le Christ Jésus est mort ;
+        >bien plus, il est ressuscité,
+        >il est à la droite de Dieu,
+        >il intercède pour nous :
+        alors, qui pourra nous séparer de l’amour du Christ ?
+        la détresse ? l’angoisse ? la persécution ?
+        la faim ? le dénuement ? le danger ? le glaive ?
+        En effet, il est écrit :
+        >C’est pour toi qu’on nous massacre sans arrêt,
+        >qu’on nous traite en brebis d’abattoir.
+        Mais, en tout cela nous sommes les grands vainqueurs
+        >grâce à celui qui nous a aimés.
+        J’en ai la certitude :
+        >ni la mort ni la vie,
+        >ni les anges ni les Principautés célestes,
+        >ni le présent ni l’avenir,
+        >ni les Puissances, ni les hauteurs, ni les abîmes,
+        >ni aucune autre créature,
+        rien ne pourra nous séparer de l’amour de Dieu
+        >qui est dans le Christ Jésus notre Seigneur.
+    - biblicalRef: 2Co 4, 7-15
+      headline: |-
+        « Nous portons, dans notre corps, la mort de Jésus »
+      content: |-
+        Frères,
+        nous portons un trésor comme dans des vases d’argile ;
+        ainsi, on voit bien que cette puissance extraordinaire
+        >appartient à Dieu et ne vient pas de nous.
+        En toute circonstance, nous sommes dans la détresse,
+        >mais sans être angoissés ;
+        nous sommes déconcertés,
+        >mais non désemparés ;
+        nous sommes pourchassés,
+        >mais non pas abandonnés ;
+        terrassés,
+        >mais non pas anéantis.
+        Toujours nous portons, dans notre corps, la mort de Jésus,
+        >afin que la vie de Jésus, elle aussi,
+        >soit manifestée dans notre corps.
+        En effet, nous, les vivants,
+        >nous sommes continuellement livrés à la mort à cause de Jésus,
+        afin que la vie de Jésus, elle aussi,
+        >soit manifestée dans notre condition charnelle vouée à la mort.
+        Ainsi la mort fait son œuvre en nous,
+        >et la vie en vous.
+        L’Écriture dit :
+        >J’ai cru, c’est pourquoi j’ai parlé.
+        Et nous aussi, qui avons le même esprit de foi, nous croyons,
+        >et c’est pourquoi nous parlons.
+        Car, nous le savons, celui qui a ressuscité le Seigneur Jésus
+        >nous ressuscitera, nous aussi, avec Jésus,
+        >et il nous placera près de lui avec vous.
+        Et tout cela, c’est pour vous,
+        afin que la grâce,
+        >plus largement répandue dans un plus grand nombre,
+        fasse abonder l’action de grâce
+        >pour la gloire de Dieu.
+    - biblicalRef: 2Co 6, 4-10
+      headline: |-
+        « On nous croit mourants, et nous sommes bien vivants »
+      content: |-
+        Frères,
+        en tout, nous nous recommandons nous-mêmes
+        >comme des ministres de Dieu :
+        par beaucoup d’endurance,
+        >dans les détresses, les difficultés, les angoisses,
+        les coups, la prison, les émeutes,
+        >les fatigues, le manque de sommeil et de nourriture,
+        par la chasteté, la connaissance,
+        >la patience et la bonté,
+        >la sainteté de l’esprit et la sincérité de l’amour,
+        par une parole de vérité,
+        >par une puissance qui vient de Dieu ;
+        nous nous présentons avec les armes de la justice
+        >pour l’attaque et la défense,
+        dans la gloire et le mépris,
+        >dans la mauvaise et la bonne réputation.
+        On nous traite d’imposteurs, et nous disons la vérité ;
+        >on nous prend pour des inconnus, et nous sommes très connus ;
+        on nous croit mourants, et nous sommes bien vivants
+        >on nous punit, et nous ne sommes pas mis à mort ;
+        on nous croit tristes, et nous sommes toujours joyeux ;
+        >pauvres, et nous faisons tant de riches ;
+        démunis de tout, et nous possédons tout.
+    - biblicalRef: 2 Tm 2, 8-13; 3, 10-12
+      headline: |-
+        « Tous ceux qui veulent vivre en hommes religieux dans le Christ Jésus subiront la persécution »
+      content: |-
+        Bien-aimé,
+        souviens-toi de Jésus Christ,
+        ressuscité d’entre les morts,
+        >le descendant de David :
+        voilà mon évangile.
+        C’est pour lui que j’endure la souffrance,
+        >jusqu’à être enchaîné comme un malfaiteur.
+        Mais on n’enchaîne pas la parole de Dieu !
+        C’est pourquoi je supporte tout
+        >pour ceux que Dieu a choisis,
+        afin qu’ils obtiennent, eux aussi,
+        >le salut qui est dans le Christ Jésus,
+        >avec la gloire éternelle.
+        Voici une parole digne de foi :
+        >Si nous sommes morts avec lui,
+        >avec lui nous vivrons.
+        Si nous supportons l’épreuve,
+        >avec lui nous régnerons.
+        Si nous le rejetons,
+        >lui aussi nous rejettera.
+        Si nous manquons de foi,
+        >lui reste fidèle à sa parole,
+        >car il ne peut se rejeter lui-même.
+        Toi, tu m’as suivi pas à pas
+        dans l’enseignement, la manière de diriger et les projets,
+        dans la foi, la patience, la charité et la persévérance,
+        dans les persécutions et les souffrances,
+        >celles qui me sont arrivées à Antioche, à Iconium et à Lystres,
+        >toutes les persécutions que j’ai subies.
+        Et de tout cela le Seigneur m’a délivré.
+        D’ailleurs, tous ceux qui veulent vivre
+        >en hommes religieux dans le Christ Jésus
+        >subiront la persécution.
+    - biblicalRef: He 10, 32-36
+      headline: |-
+        « Vous avez soutenu le dur combat des souffrances »
+      content: |-
+        Frères,
+        souvenez-vous de ces premiers jours
+        >où vous veniez de recevoir la lumière du Christ :
+        vous avez soutenu alors le dur combat des souffrances,
+        >tantôt donnés en spectacle sous les insultes et les brimades,
+        >tantôt solidaires de ceux qu’on traitait ainsi.
+        En effet, vous avez montré de la compassion
+        >à ceux qui étaient en prison ;
+        vous avez accepté avec joie
+        >qu’on vous arrache vos biens,
+        car vous étiez sûrs de posséder un bien encore meilleur, et permanent.
+        Ne perdez pas votre assurance ;
+        >grâce à elle, vous serez largement récompensés.
+        Car l’endurance vous est nécessaire
+        >pour accomplir la volonté de Dieu
+        >et obtenir ainsi la réalisation des promesses.
+    - biblicalRef: Jc 1, 2-4.12
+      headline: |-
+        « Heureux l’homme qui supporte l’épreuve »
+      content: |-
+        Considérez comme une joie extrême, mes frères,
+        >de buter sur toute sorte d’épreuves.
+        Vous le savez, une telle vérification de votre foi
+        >produit l’endurance,
+        et l’endurance doit s’accompagner d’une action parfaite,
+        >pour que vous soyez parfaits et intègres,
+        >sans que rien ne vous manque.
+        Heureux l’homme qui supporte l’épreuve avec persévérance,
+        car, sa valeur une fois vérifiée,
+        il recevra la couronne de la vie
+        >promise à ceux qui aiment Dieu.
+    - biblicalRef: 1P 3, 14-17
+      headline: |-
+        « N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler »
+      content: |-
+        Bien-aimés,
+        s’il vous arrivait de souffrir pour la justice,
+        >heureux seriez-vous !
+        Comme dit l’Écriture :
+        >N’ayez aucune crainte de ces gens-là,
+        >ne vous laissez pas troubler.
+        Honorez dans vos cœurs
+        >la sainteté du Seigneur, le Christ.
+        Soyez prêts à tout moment à présenter une défense
+        >devant quiconque vous demande de rendre raison
+        >de l’espérance qui est en vous ;
+        >mais faites-le avec douceur et respect.
+        Ayez une conscience droite,
+        afin que vos adversaires soient pris de honte
+        >sur le point même où ils disent du mal de vous
+        >pour la bonne conduite que vous avez dans le Christ.
+        Car mieux vaudrait souffrir en faisant le bien,
+        >si c’était la volonté de Dieu,
+        >plutôt qu’en faisant le mal.
+      biblicalRef: 1P 4, 12-19
+      headline: |-
+        « Puisque vous communiez aux souffrances du Christ, réjouissez-vous »
+      content: |-
+        Bien-aimés,
+        ne trouvez pas étrange le brasier allumé parmi vous
+        >pour vous mettre à l’épreuve ;
+        >ce qui vous arrive n’a rien d’étrange.
+        Dans la mesure où vous communiez aux souffrances du Christ,
+        >réjouissez-vous,
+        afin d’être dans la joie et l’allégresse
+        >quand sa gloire se révélera.
+        Si l’on vous insulte pour le nom du Christ,
+        >heureux êtes-vous,
+        parce que l’Esprit de gloire, l’Esprit de Dieu,
+        >repose sur vous.
+        Que personne d’entre vous, en effet,
+        >n’ait à souffrir comme meurtrier, voleur, malfaiteur,
+        >ou comme agitateur.
+        Mais si c’est comme chrétien,
+        qu’il n’ait pas de honte,
+        >et qu’il rende gloire à Dieu pour ce nom-là.
+        Car voici le temps du jugement :
+        >il commence par la famille de Dieu.
+        Or, s’il vient d’abord sur nous,
+        >quelle sera la fin de ceux qui refusent d’obéir à l’Évangile de Dieu ?
+        Et, si le juste est sauvé à grand-peine,
+        >l’impie, le pécheur, où va-t-il se montrer ?
+        Ainsi, ceux qui souffrent
+        >en faisant la volonté de Dieu,
+        qu’ils confient leurs âmes au Créateur fidèle,
+        >en faisant le bien.
+      biblicalRef: 1 Jn 5, 1-5
+      headline: |-
+        « La victoire remportée sur le monde, c’est notre foi »
+      content: |-
+        Bien-aimés,
+        celui qui croit que Jésus est le Christ,
+        >celui-là est né de Dieu ;
+        celui qui aime le Père qui a engendré
+        >aime aussi le Fils qui est né de lui.
+        Voici comment nous reconnaissons
+        >que nous aimons les enfants de Dieu :
+        lorsque nous aimons Dieu
+        >et que nous accomplissons ses commandements.
+        Car tel est l’amour de Dieu :
+        >garder ses commandements ;
+        et ses commandements ne sont pas un fardeau,
+        puisque tout être qui est né de Dieu
+        >est vainqueur du monde.
+        Or la victoire remportée sur le monde,
+        >c’est notre foi.
+        Qui donc est vainqueur du monde ?
+        N’est-ce pas celui qui croit
+        >que Jésus est le Fils de Dieu ?
+
+  - partType: ALLELUIA
+    partContents:
+    - biblicalRef: Mt 5, 10
+      content: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+    - biblicalRef: Jn 17, 19
+      content: |-
+        Pour eux je me sanctifie moi-même,
+        afin qu’ils soient, eux aussi, sanctifiés dans la vérité.
+    - biblicalRef: 2 Co 1, 3b-4a
+      content: |-
+        Béni soit le Père plein de tendresse,
+        le Dieu de qui vient tout réconfort.
+        Dans toutes nos détresses, il nous réconforte.
+    - biblicalRef: Jc 1, 12
+      content: |-
+        Heureux l’homme
+        qui supporte l’épreuve avec persévérance,
+        car, sa valeur une fois vérifiée, il recevra la couronne de la vie.
+    - biblicalRef: 1 P 4, 14
+      content: |-
+        Si l’on vous insulte pour le nom du Christ,
+        heureux êtes-vous :
+        l’Esprit de Dieu repose sur vous.
+    - biblicalRef: null
+      content: |-
+        À toi, Dieu, notre louange !
+        Toi, dont témoignent les martyrs,
+        nous t’acclamons : tu es Seigneur !
+
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 17-22
+      headline: |-
+        « Vous serez conduits devant des gouverneurs et des rois à cause de moi : il y aura là un témoignage pour eux et pour les païens »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        >« Méfiez-vous des hommes :
+        >ils vous livreront aux tribunaux
+        >et vous flagelleront dans leurs synagogues.
+        Vous serez conduits devant des gouverneurs et des rois
+        >à cause de moi :
+        >il y aura là un témoignage pour eux et pour les païens.
+        Quand on vous livrera,
+        >ne vous inquiétez pas
+        >de savoir ce que vous direz ni comment vous le direz :
+        >ce que vous aurez à dire
+        >vous sera donné à cette heure-là.
+        Car ce n’est pas vous qui parlerez,
+        >c’est l’Esprit de votre Père qui parlera en vous.
+        Le frère livrera son frère à la mort,
+        >et le père, son enfant ;
+        >les enfants se dresseront contre leurs parents
+        >et les feront mettre à mort.
+        Vous serez détestés de tous à cause de mon nom ;
+        >mais celui qui aura persévéré jusqu’à la fin,
+        >celui-là sera sauvé. »
+    - biblicalRef: Mt 10, 28-33
+      headline: |-
+        « Ne craignez pas ceux qui tuent le corps »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        >« Ne craignez pas ceux qui tuent le corps
+        >sans pouvoir tuer l’âme ;
+        >craignez plutôt celui qui peut faire périr dans la géhenne
+        >l’âme aussi bien que le corps.
+        Deux moineaux ne sont-ils pas vendus pour un sou ?
+        Or, pas un seul ne tombe à terre
+        >sans que votre Père le veuille.
+        Quant à vous, même les cheveux de votre tête sont tous comptés.
+        Soyez donc sans crainte :
+        >vous valez bien plus qu’une multitude de moineaux.
+        Quiconque se déclarera pour moi devant les hommes,
+        >moi aussi je me déclarerai pour lui
+        >devant mon Père qui est aux cieux.
+        Mais celui qui me reniera devant les hommes,
+        >moi aussi je le renierai
+        >devant mon Père qui est aux cieux. »
+    - biblicalRef: Mt 10, 34-39
+      headline: |-
+        « Je ne suis pas venu apporter la paix, mais le glaive »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        >« Ne pensez pas que je sois venu
+        >apporter la paix sur la terre :
+        je ne suis pas venu apporter la paix, mais le glaive.
+        Oui, je suis venu séparer
+        >l’homme de son père,
+        >la fille de sa mère,
+        >la belle-fille de sa belle-mère :
+        on aura pour ennemis les gens de sa propre maison.
+        Celui qui aime son père ou sa mère plus que moi
+        >n’est pas digne de moi ;
+        celui qui aime son fils ou sa fille plus que moi
+        >n’est pas digne de moi ;
+        celui qui ne prend pas sa croix et ne me suit pas
+        >n’est pas digne de moi.
+        Qui a trouvé sa vie
+        >la perdra ;
+        qui a perdu sa vie à cause de moi
+        >la trouvera. »
+    - biblicalRef: Lc 9, 23-26
+      headline: |-
+        « Celui qui perdra sa vie à cause de moi la sauvera »
+      content: |-
+        En ce temps-là,
+        Jésus disait à tous :
+        >« Celui qui veut marcher à ma suite,
+        >qu’il renonce à lui-même,
+        >qu’il prenne sa croix chaque jour
+        >et qu’il me suive.
+        Car celui qui veut sauver sa vie
+        >la perdra ;
+        >mais celui qui perdra sa vie à cause de moi
+        >la sauvera.
+        Quel avantage un homme aura-t-il
+        >à gagner le monde entier,
+        >s’il se perd ou se ruine lui-même ?
+        Celui qui a honte de moi et de mes paroles,
+        >le Fils de l’homme aura honte de lui,
+        >quand il viendra dans la gloire,
+        >la sienne, celle du Père et des saints anges. »
+    - biblicalRef: Jn 12, 24-26
+      headline: |-
+        « Si le grain de blé meurt, il porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Heureux l’homme
+        qui supporte l’épreuve avec persévérance,
+        car, sa valeur une fois vérifiée, il recevra la couronne de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Amen, amen, je vous le dis :
+        >si le grain de blé tombé en terre ne meurt pas,
+        >il reste seul ;
+        >mais s’il meurt,
+        >il porte beaucoup de fruit.
+        Qui aime sa vie
+        >la perd ;
+        >qui s’en détache en ce monde
+        >la gardera pour la vie éternelle.
+        Si quelqu’un veut me servir,
+        >qu’il me suive ;
+        >et là où moi je suis,
+        >là aussi sera mon serviteur.
+        Si quelqu’un me sert,
+        >mon Père l’honorera. »
+    - biblicalRef: Jn 15, 18-21
+      headline: |-
+        « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Si le monde a de la haine contre vous,
+        >sachez qu’il en a eu d’abord contre moi.
+        Si vous apparteniez au monde,
+        >le monde aimerait ce qui est à lui.
+        Mais vous n’appartenez pas au monde,
+        >puisque je vous ai choisis en vous prenant dans le monde ;
+        >voilà pourquoi le monde a de la haine contre vous.
+        Rappelez-vous la parole que je vous ai dite :
+        >un serviteur n’est pas plus grand que son maître.
+        Si l’on m’a persécuté,
+        >on vous persécutera, vous aussi.
+        Si l’on a gardé ma parole,
+        >on gardera aussi la vôtre.
+        Les gens vous traiteront ainsi à cause de mon nom,
+        >parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+    - biblicalRef: Jn 17, 11b-19
+      headline: |-
+        « Le monde les a pris en haine »
+      content: |-
+        En ce temps-là, les yeux levés au ciel, Jésus priait ainsi :
+        >« Père saint,
+        >garde mes disciples unis dans ton nom,
+        >le nom que tu m’as donné,
+        >pour qu’ils soient un, comme nous-mêmes.
+        Quand j’étais avec eux,
+        >je les gardais unis dans ton nom, le nom que tu m’as donné.
+        J’ai veillé sur eux, et aucun ne s’est perdu,
+        >sauf celui qui s’en va à sa perte
+        >de sorte que l’Écriture soit accomplie.
+        Et maintenant que je viens à toi,
+        >je parle ainsi, dans le monde,
+        >pour qu’ils aient en eux ma joie,
+        >et qu’ils en soient comblés.
+        Moi, je leur ai donné ta parole,
+        >et le monde les a pris en haine
+        >parce qu’ils n’appartiennent pas au monde,
+        >de même que moi je n’appartiens pas au monde.
+        Je ne prie pas pour que tu les retires du monde,
+        >mais pour que tu les gardes du Mauvais.
+        Ils n’appartiennent pas au monde,
+        >de même que moi, je n’appartiens pas au monde.
+        Sanctifie-les dans la vérité :
+        >ta parole est vérité.
+        De même que tu m’as envoyé dans le monde,
+        >moi aussi, je les ai envoyés dans le monde.
+        Et pour eux je me sanctifie moi-même,
+        >afin qu’ils soient, eux aussi, sanctifiés dans la vérité. »
+  collect:
+  - |-   
+    Dieu de puissance et de miséricorde, +
+    toi qui as donné à ton saint martyr N.
+    >d’être vainqueur dans les supplices de sa passion, *
+    accorde-nous, en ce jour où nous célébrons son triomphe, /
+    >de rester, par ta protection, invincibles
+    >face aux pièges de l’Ennemi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  prefaceList:
+    - holy_martyrs_1
+    - holy_martyrs_2
+  offeringPrayer:
+  - |-
+    Par ta bénédiction, nous t’en prions, Seigneur, +
+    >sanctifie les dons que nous t’offrons; *
+    qu’elle allume en nous, par ta grâce, /
+    >le feu de cet amour qui donnait à saint N. d’être vainqueur
+    >dans tous les supplices infligés à son corps.
+    Par le Christ, notre Seigneur.
+  - |-
+    Accepte, nous t’en prions, Seigneur, les offrandes
+    >que nous apportons en la fête de saint N.;
+    qu’elles te soient agréables, /
+    >comme fut précieux pour toi
+    >le sang versé de ton martyr.
+    Par le Christ, notre Seigneur.
+
+  communionAntiphon:
+  - biblicalReference: cf. Mt 16, 24
+    content: |-
+      Si quelqu’un veut marcher à ma suite, dit le Seigneur, 
+      >qu’il renonce à lui-même, qu’il prenne sa croix, 
+      >et qu’il me suive.
+  - biblicalReference: cf. Mt 10, 39
+    content: |-
+      Qui aura perdu sa vie à cause de moi, dit le Seigneur, 
+      >la gardera pour toujours.
+
+  prayerAfterCommunion:
+  - |-
+    Que la participation aux saints mystères,
+    >nous t’en prions, Seigneur,
+    nous donne la force d’âme /
+    qui rendit saint N., ton martyr,
+    >fidèle à te servir
+    >et victorieux dans la passion qu’il a subie.
+    Par le Christ, notre Seigneur.

@@ -176,8 +176,25 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ex 15,1-2
+    content: |-
+      Chantons pour le Seigneur ! éclatante est sa gloire !
+      Ma force et ma louange, c’est le Seigneur :
+      >il est pour moi le salut, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >par ta grâce tu as fait de nous des justes
+    >quand nous étions encore pécheurs, +
+    >tu nous as donné le bonheur
+    >quand nous étions malheureux ; *
+    >veille sur ton œuvre, veille sur tes dons : /
+    >à ceux que tu as justifiés par la foi,
+    >accorde la force de persévérer.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -283,8 +300,27 @@ mass:
         et je demeure dans son amour.
         Je vous ai dit cela pour que ma joie soit en vous,
         et que votre joie soit parfaite. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Seigneur notre Dieu, +
+    >dans l’admirable échange du sacrifice eucharistique,
+    >tu nous fais participer à tin unique et souveraine divinité, : *
+    >nous avons reçu la connaissance de ta vérité, /
+    >accorde-nous de lui être fidèles par toute notre vie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. 2Co 5,15
+    content: |-
+      Le Christ est mort pour tous,
+      afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+      >mais sur lui, qui est mort et ressuscité pour eux, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Dans ta bienveillance,
+    >reste auprès de ton peuple,
+    >nous t’en prions, Seigneur ; *
+    >puisque tu l’as initié aux sacrements du ciel, /µfais-le passer de ce qui est ancien
+    >à la vie nouvelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

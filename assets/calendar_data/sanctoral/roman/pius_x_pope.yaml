@@ -33,3 +33,129 @@ readings:
         C’est le Seigneur qui a tout créé,
         et à ceux qui l’aiment, il a donné la sagesse.
 
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >pour sauvegarder la foi catholique,
+    >et récapituler toutes choses dans le Christ,
+    >tu as comblé le pape saint Pie X
+    >de sagesse divine et de courage apostolique ; *
+    accorde-nous de suivre ses instructions et ses exemples /
+    >pour obtenir l’éternelle récompense.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Th 2, 2b-8
+      headline: |-
+        « Nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies »
+      content: |-
+        Frères,
+        nous avons trouvé en notre Dieu pleine assurance
+        >pour vous annoncer, au prix de grandes luttes,
+        >l’Évangile de Dieu.
+        Et quand nous vous exhortions,
+        ce n’était pas avec des doctrines fausses,
+        >ni des motifs impurs, ni par ruse.
+        En effet, pour nous confier l’Évangile,
+        >Dieu a éprouvé notre valeur,
+        de sorte que nous parlons,
+        >non pas pour plaire aux hommes, mais à Dieu,
+        >lui qui met nos cœurs à l’épreuve.
+        Jamais, nous n’avons eu un mot de flatterie, vous le savez,
+        >jamais de motifs intéressés, Dieu en est témoin ;
+        jamais nous n’avons recherché la gloire qui vient des hommes,
+        >ni auprès de vous ni auprès d’autres personnes.
+        Alors que nous aurions pu nous imposer
+        >en qualité d’apôtres du Christ,
+        au contraire, nous avons été pleins de douceur avec vous,
+        >comme une mère qui entoure de soins ses nourrissons.
+        Ayant pour vous une telle affection,
+        nous aurions voulu vous donner non seulement l’Évangile de Dieu,
+        >mais jusqu’à nos propres vies,
+        car vous nous étiez devenus très chers.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 88 (89), 2-3, 4-5, 21-22, 25.27
+      refAbbr: 88, 2…
+      chorus:
+      - chorusRef: cf. 88, 2a
+        chorus: |-
+          Ton amour, Seigneur,
+          sans fin je le chante !
+      content: |-
+        L’amour du Seigneur, sans fin je le chante ;
+        ta fidélité, je l’annonce d’âge en âge.
+        Je le dis : C’est un amour bâti pour toujours ;
+        ta fidélité est plus stable que les cieux.
+
+        « Avec mon élu, j’ai fait une alliance,
+        j’ai juré à David, mon serviteur :
+        j’établirai ta dynastie pour toujours,
+        je te bâtis un trône pour la suite des âges.
+
+        « J’ai trouvé David, mon serviteur,
+        je l’ai sacré avec mon huile sainte ;
+        et ma main sera pour toujours avec lui,
+        mon bras fortifiera son courage.
+
+        « Mon amour et ma fidélité sont avec lui,
+        mon nom accroît sa vigueur ;
+        il me dira : “Tu es mon Père,
+        mon Dieu, mon roc et mon salut !” »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 21, 15-17
+      headline: |-
+        « Sois le berger de mes brebis »
+      acclamationAntiphon: |-
+        Je suis le bon pasteur, dit le Seigneur ;
+        je connais mes brebis
+        et mes brebis me connaissent.
+      content: |-
+        Jésus se manifesta à ses disciples au bord du lac.
+        Quand ils eurent mangé, il dit à Simon-Pierre :
+        >« Simon, fils de Jean,
+        >m’aimes-tu vraiment, plus que ceux-ci ? »
+        Il lui répond :
+        >« Oui, Seigneur ! Toi, tu le sais : je t’aime. »
+        Jésus lui dit :
+        >« Sois le berger de mes agneaux. »
+        Il lui dit une deuxième fois :
+        >« Simon, fils de Jean, m’aimes-tu vraiment ? »
+        Il lui répond :
+        >« Oui, Seigneur ! Toi, tu le sais : je t’aime. »
+        Jésus lui dit :
+        >« Sois le pasteur de mes brebis. »
+        Il lui dit, pour la troisième fois :
+        >« Simon, fils de Jean, m’aimes-tu ? »
+        Pierre fut peiné
+        parce que, la troisième fois, Jésus lui demandait :
+        >« M’aimes-tu ? »
+        Il lui répond :
+        >« Seigneur, toi, tu sais tout :
+        >tu sais bien que je t’aime. »
+        Jésus lui dit :
+        >« Sois le berger de mes brebis. »
+  offeringPrayer:
+  - |-
+    En ta bonté, Seigneur,
+    >tu accueilles nos offrandes ; *
+    >donne-nous de suivre les enseignements du pape saint Pie X,
+    >afin de célébrer avec respect ces mystères divins, /
+    >et d’y communier avec foi.
+    Par le Christ, notre Seigneur.
+  communionAntiphon: null
+  prayerAfterCommunion:
+  - |-
+    En célébrant la mémoire du pape saint Pie X,
+    >nous te prions, Seigneur notre Dieu : *
+    >que notre participation à la table du ciel nous fortifie,
+    >qu’elle nous rende fermes dans la foi, /
+    >et unis dans ton amour.
+    Par le Christ, notre Seigneur.

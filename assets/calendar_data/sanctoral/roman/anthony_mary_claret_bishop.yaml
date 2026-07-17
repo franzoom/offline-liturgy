@@ -30,3 +30,103 @@ readings:
         Que Dieu notre Père vous garde vigilants
         pour l’avènement de notre Seigneur Jésus Christ
         avec tous les saints.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à l’évêque saint Antoine-Marie Claret
+    >une charité et une patience admirables
+    >pour annoncer l’Évangile parmi les peuples ; *
+    par son intercession, accorde-nous
+    >de rechercher ce qui te plaît, /
+    et de nous engager de toutes nos forces
+    >à gagner nos frères au Christ.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 52, 7-10
+      headline: « Tous les lointains de la terre ont vu le salut de notre Dieu »
+      content: |-
+        Comme ils sont beaux sur les montagnes,
+        les pas du messager,
+        celui qui annonce la paix,
+        qui porte la bonne nouvelle,
+        qui annonce le salut,
+        et vient dire à Sion :
+        « Il règne, ton Dieu ! »
+        Écoutez la voix des guetteurs :
+        ils élèvent la voix,
+        tous ensemble ils crient de joie
+        car, de leurs propres yeux,
+        ils voient le Seigneur qui revient à Sion.
+        Éclatez en cris de joie,
+        vous, ruines de Jérusalem,
+        car le Seigneur console son peuple,
+        il rachète Jérusalem !
+        Le Seigneur a montré la sainteté de son bras
+        aux yeux de toutes les nations.
+        Tous les lointains de la terre
+        ont vu le salut de notre Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 7-8a, 9-10a
+      refAbbr: cf. 95, 3
+      chorus:
+      - chorusRef: cf. 95, 3
+        chorus: |-
+          Racontez à tous les peuples
+          les merveilles du Seigneur !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        chantez au Seigneur, terre entière,
+        chantez au Seigneur et bénissez son nom !
+
+        De jour en jour, proclamez son salut,
+        racontez à tous les peuples sa gloire,
+        à toutes les nations ses merveilles !
+
+        Rendez au Seigneur, familles des peuples,
+        rendez au Seigneur, la gloire et la puissance,
+        rendez au Seigneur la gloire de son nom.
+
+        Adorez le Seigneur, éblouissant de sainteté :
+        tremblez devant lui, terre entière.
+        Allez dire aux nations : « Le Seigneur est roi ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 1, 14-20
+      headline: « Je vous ferai devenir pêcheurs d’hommes »
+      acclamationAntiphon: |-
+        Venez à ma suite, dit le Seigneur.
+        Je vous ferai devenir pêcheurs d’hommes.
+      content: |-
+        Après l’arrestation de Jean le Baptiste,
+        Jésus partit pour la Galilée
+        proclamer l’Évangile de Dieu ;
+        il disait :
+        « Les temps sont accomplis :
+        le règne de Dieu est tout proche.
+        Convertissez-vous et croyez à l’Évangile. »
+        Passant le long de la mer de Galilée,
+        Jésus vit Simon et André, le frère de Simon,
+        en train de jeter les filets dans la mer,
+        car c’étaient des pêcheurs.
+        Il leur dit :
+        « Venez à ma suite.
+        Je vous ferai devenir pêcheurs d’hommes. »
+        Aussitôt, laissant leurs filets,
+        ils le suivirent.
+        Jésus avança un peu
+        et il vit Jacques, fils de Zébédée, et son frère Jean,
+        qui étaient dans la barque et réparaient les filets.
+        Aussitôt, Jésus les appela.
+        Alors, laissant dans la barque leur père Zébédée avec ses ouvriers,
+        ils partirent à sa suite.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

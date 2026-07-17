@@ -179,8 +179,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 138,23-24 (Vg)
+    content: |-
+      Scrute-moi, mon Dieu, et tu connaîtras mon cœur ;
+      >Vois si je prends le chemin du mal,
+      >et conduis-moi sur le chemin d’éternité.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >toi qui aimes l’innocence et la fais recouvrer, +
+    >oriente vers toi le cœur de ceux qui te servent ; *
+    ainsi, animés par la ferveur de ton Esprit,
+    >ils seront fermes dans la foi /
+    et vraiment efficaces dans l’action.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -304,8 +319,37 @@ mass:
         “S’ils n’écoutent pas Moïse ni les Prophètes,
         quelqu’un pourra bien ressusciter d’entre les morts :
         ils ne seront pas convaincus.” »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Par le sacrifice que nous célébrons aujourd’hui,
+    >nous t’en prions, Seigneur, +
+    >sanctifie nos œuvres de pénitence, *
+    pour que ce dont témoignent extérieurement
+    >les efforts du Carême /
+    >produise ses effets à l’intérieur de nous-mêmes.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 118,1
+    content: |-
+      Heureux les hommes intègres dans leurs voies
+      >qui marchent suivant la loi du Seigneur !
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >que ce sacrifice demeure agissant en nous /
+    >et prolonge son effet dans notre vie.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Sois proche, Seigneur, de ceux qui te servent
+    >et qui implorent le secours de ta grâce, *
+    >afin qu’ils trouvent en toi un rempart qui protège
+    >et une conduite de vie.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

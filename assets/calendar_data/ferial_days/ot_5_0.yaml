@@ -51,8 +51,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 94,6-7
+    content: |-
+      Venez, adorons Dieu, prosternons-nous devant le Seigneur qui nous a faits,
+      >car il est notre Dieu.
+  collect:
+  - |-
+    Dans ton inlassable tendresse,
+    >nous t’en prions, Seigneur,
+    >veille sur ta famille, *
+    >elle s’appuie sur la grâce du ciel, son unique espérance ;
+    >qu’elle soit toujours assurée de ta protection.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -445,8 +458,36 @@ mass:
         désormais ce sont des hommes que tu prendras. »
          Alors ils ramenèrent les barques au rivage
         et, laissant tout, ils le suivirent.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur notre Dieu, +
+    >tu as choisi dans ta création
+    >ces aliments qui soutiennent notre fragilité ; *
+    nous t’en prions :
+    fais qu’ils deviennent aussi pour nous /
+    >le sacrement de la vie éternelle.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 106,8-9
+    content: |-
+      Qu’ils rendent grâce au Seigneur pour sa miséricorde, pour ses merveilles envers les hommes : car il rassasie l’âme épuisée, il comble de biens celle qui a faim !
+  - biblicalReference: Mt 5,5-6
+    content: |-
+      Heureux ceux qui pleurent, car ils seront consolés.
+      Heureux ceux qui ont faim et soif de la justice, car ils seront rassasiés.
+  prayerAfterCommunion:
+  - |-
+    Tu as voulu, Seigneur Dieu,
+    >que nous ayons part au même pain et à la même coupe ; +
+    nous t’en prions :
+    puisque nous sommes devenus un dans le Christ, *
+    >que notre manière de vivre nous donne la joie de porter du fruit /
+    >pour le salut du monde. Par le Christ, notre Seigneur.
   solemnBlessingList: null

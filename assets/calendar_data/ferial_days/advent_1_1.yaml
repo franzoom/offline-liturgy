@@ -198,19 +198,20 @@ mass:
   name: Messe du jour
   note: null
   entranceAntiphon:
-  - content: |-
-      Écoutez, nations, la parole du Seigneur!
-        Annoncez-la jusqu’aux extrémités de la terre:
-        Voici notre Sauveur qui vient, ne craignez plus.
+  - biblicalReference: cf. Jr 31,10; Is 35,4
+    content: |-
+      Écoutez, nations, la parole du Seigneur !
+      Annoncez-la jusqu’aux extrémités de la terre :
+      >Voici notre Sauveur qui vient, ne craignez plus.
   collect:
   - |-
-    Seigneur notre Dieu, nous t’en prions: +
-      accorde-nous d’attendre sans faiblir la venue de ton Fils, %
-      pour qu’au jour où il viendra frapper à notre porte,
-      il nous trouve vigilants dans la prière, /
-      joyeux de chanter sa louange.
+    Seigneur notre Dieu, nous t’en prions :+
+    >accorde-nous d’attendre sans faiblir la venue de ton Fils, *
+    pour qu’au jour où il viendra frapper à notre porte,
+    >il nous trouve vigilants dans la prière, /
+    >joyeux de chanter sa louange.
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
-      Dieu, pour les siècles des siècles.
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -339,20 +340,30 @@ mass:
          Beaucoup viendront de l’orient et de l’occident
          et prendront place avec Abraham, Isaac et Jacob
          au festin du royaume des Cieux. »
-  offeringPrayer: null
-  prefaceList: null
+  offeringPrayer:
+  - |-
+    Nous t’offrons, Seigneur, ces dons
+    >prélevés sur les bienfaits reçus de toi : +
+    >nous t’en prions, accueille-les ; *
+    puisse la célébration fervente,
+    >que tu nous donnes d’accomplir dans le temps présent, /
+    >nous obtenir la rédemption éternelle.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
   communionAntiphon:
-  - content: |-
+  - biblicalReference: cf. Ps 105,4-5; Is 38,3
+    content: |-
       Viens, Seigneur, nous visiter dans la paix,
-        afin que, de tout cœur, nous nous réjouissions devant toi.
+      >afin que, de tout cœur, nous nous réjouissions devant toi.
   prayerAfterCommunion:
   - |-
     Nous t’en prions, Seigneur,
-    fais fructifier en nous
-    les mystères que nous avons célébrés: %
+    >fais fructifier en nous
+    >les mystères que nous avons célébrés : *
     tandis que nous marchons dans ce monde qui passe,
-    tu nous enseignes par eux
-    à aimer dès maintenant les biens du ciel, /
-    et à nous attacher à ceux qui demeurent.
+    >tu nous enseignes par eux
+    >à aimer dès maintenant les biens du ciel, /
+    >et à nous attacher à ceux qui demeurent.
     Par le Christ, notre Seigneur.
   solemnBlessingList: null

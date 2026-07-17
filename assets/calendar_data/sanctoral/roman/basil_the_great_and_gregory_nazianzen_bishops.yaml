@@ -42,3 +42,134 @@ morning:
 vespers:
   evangelicAntiphon:
     common: Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Si 44,15.14
+    content: |-
+      Les peuples raconteront la sagesse des saints,
+      l’Église proclamera leurs louanges,
+      et leur nom reste vivant pour toutes les générations.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu illuminer ton Église
+    >par l’exemple et les enseignements
+    >des bienheureux évêques Basile et Grégoire ; *
+    accorde-nous de rechercher ta vérité dans l’humilité /
+    et de la mettre en œuvre fidèlement dans la charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ép 4, 1-7.11-13
+      headline: « Pour que les tâches du ministère soient accomplies et que se construise le corps du Christ »
+      content: |-
+        Frères,
+        moi qui suis en prison à cause du Seigneur,
+        je vous exhorte à vous conduire
+        >d’une manière digne de votre vocation :
+        ayez beaucoup d’humilité, de douceur et de patience,
+        >supportez-vous les uns les autres avec amour ;
+        ayez soin de garder l’unité dans l’Esprit
+        >par le lien de la paix.
+        Comme votre vocation vous a tous appelés à une seule espérance,
+        >de même il y a un seul Corps et un seul Esprit.
+        Il y a un seul Seigneur, une seule foi, un seul baptême,
+        un seul Dieu et Père de tous,
+        >au-dessus de tous,
+        >par tous, et en tous.
+        À chacun d’entre nous, la grâce a été donnée
+        >selon la mesure du don fait par le Christ.
+        Et les dons qu’il a faits,
+        >ce sont les Apôtres,
+        >et aussi les prophètes, les évangélisateurs,
+        >les pasteurs et ceux qui enseignent.
+        De cette manière, les fidèles sont organisés
+        >pour que les tâches du ministère soient accomplies
+        >et que se construise le corps du Christ,
+        jusqu’à ce que nous parvenions tous ensemble
+        >à l’unité dans la foi et la pleine connaissance du Fils de Dieu,
+        >à l’état de l’Homme parfait,
+        >à la stature du Christ dans sa plénitude.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
+      refAbbr: cf. 22, 1
+      chorus:
+      - chorusRef: cf. 22, 1
+        chorus: |-
+          Le Seigneur est mon berger :
+          rien ne saurait me manquer.
+      content: |-
+        Le Seigneur est mon berger :
+        je ne manque de rien.
+        Sur des prés d’herbe fraîche,
+        il me fait reposer.
+
+        Il me mène vers les eaux tranquilles
+        et me fait revivre ;
+        il me conduit par le juste chemin
+        pour l’honneur de son nom.
+
+        Si je traverse les ravins de la mort,
+        je ne crains aucun mal,
+        car tu es avec moi :
+        ton bâton me guide et me rassure.
+
+        Tu prépares la table pour moi
+        devant mes ennemis ;
+        tu répands le parfum sur ma tête,
+        ma coupe est débordante.
+
+        Grâce et bonheur m’accompagnent
+        tous les jours de ma vie ;
+        j’habiterai la maison du Seigneur
+        pour la durée de mes jours.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 23, 8-12
+      headline: « Le plus grand parmi vous sera votre serviteur »
+      acclamationAntiphon: |-
+        Vous n’avez qu’un seul Père,
+        celui qui est aux cieux ;
+        vous n’avez qu’un seul maître, le Christ.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Ne vous faites pas donner le titre de Rabbi,
+        car vous n’avez qu’un seul maître pour vous enseigner,
+        et vous êtes tous frères.
+        Ne donnez à personne sur terre le nom de père,
+        car vous n’avez qu’un seul Père, celui qui est aux cieux.
+        Ne vous faites pas non plus donner le titre de maîtres,
+        car vous n’avez qu’un seul maître, le Christ.
+        Le plus grand parmi vous sera votre serviteur.
+        Qui s’élèvera sera abaissé,
+        qui s’abaissera sera élevé. »
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, le sacrifice de ton peuple
+    >en l’honneur des bienheureux Basile et Grégoire ; *
+    >nous l’offrons pour te glorifier : /
+    >qu’il contribue à notre salut éternel.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. 1Co 1,23-24
+    content: |-
+      Nous proclamons le Christ crucifié,
+      >le Christ, puissance de Dieu et sagesse de Dieu.
+  prayerAfterCommunion:
+  - |-
+    Par cette communion à cette table du ciel,
+    >Dieu tout-puissant, +
+    >raffermis et augmente les forces d’en haut,
+    >en tous ceux qui célèbrent la fête
+    >des bienheureux Basile et Grégoire ; *
+    >aide-nous à garder dans son intégrité le don de la foi, /
+    >et à marcher sur le chemin du salut qui nous est proposé.
+    Par le Christ, notre Seigneur.

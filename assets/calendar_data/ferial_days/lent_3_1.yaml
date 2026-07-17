@@ -190,8 +190,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 83,3
+    content: |-
+      Mon âme s’épuise à désirer
+      >les parvis du Seigneur ;
+      mon cœur et ma chair sont un cri de joie
+      >vers le Dieu vivant.
+  collect:
+  - |-
+    Que ta miséricorde inlassable, Seigneur,
+    purifie et protège ton Église ; *
+    et puisque sans toi, elle ne peut demeurer en ton salut : /
+    >dans ta grâce gouverne-la toujours.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -334,8 +348,35 @@ mass:
         pour le précipiter en bas.
         Mais lui, passant au milieu d’eux,
         allait son chemin.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Fidèles à te servir, Seigneur, +
+    >nous te présentons ces offrandes : *
+    transforme-les toi-même /
+    >en sacrement de notre salut.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 116,1.2
+    content: |-
+      Louez le Seigneur, tous les peuples !
+      Son amour envers nous s’est montré le plus fort.
+  prayerAfterCommunion:
+  - |-
+    Que notre communion à ton sacrement, Seigneur,
+    purifie chacun de nous, /
+    >et réalise notre unité.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Que ta droite, Seigneur, protège ton peuple en prière ; *
+    qu’elle le purifie et lui apprenne
+    >à mettre à profit la consolation reçue dès maintenant, /
+    >pour avancer vers les biens à venir.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

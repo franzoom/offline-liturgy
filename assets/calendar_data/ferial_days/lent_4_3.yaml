@@ -201,8 +201,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 68,14
+    content: |-
+      Moi, je te prie Seigneur,
+      >c’est l’heure de ta grâce ;
+      >dans ton grand amour, Dieu, réponds-moi,
+      >par ta vérité, sauve-moi.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >tu offres aux justes la récompense de leurs efforts
+    >et le pardon aux pécheurs qui se répentent : +
+    prends pitié de ceux qui te supplient, *
+    afin qu’en nous reconnaissant coupables, /
+    >obtenions le pardon de nos fautes.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -335,8 +351,37 @@ mass:
         et mon jugement est juste,
         parce que je ne cherche pas à faire ma volonté,
         mais la volonté de Celui qui m’a envoyé. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Dans ta bienveillance, Seigneur, +
+    >fais que la puissance de ce sacrifice
+    >purifie tout ce qui vieillit en nous : *
+    qu’elle fasse grandir en nous la vie nouvelle /
+    >et nous apporte le salut.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Jn 3,17
+    content: |-
+      Dieu a envoyé son Fils dans le monde,
+      >non pas pour juger le monde,
+      mais pour que, par lui, le monde soit sauvé.
+  prayerAfterCommunion:
+  - |-
+    Ne permets pas, Seigneur, que ce don du ciel
+    >soit un motif de condamnation, pour ceux qui l’ont reçu, * puisque tu l’as destiné /
+    >à la guérison de tes fidèles.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Que ta tendresse, Seigneur,
+    entoure et protège ceux qui te servent ; *
+    alors, faisant le bien en ce monde, /
+    >ils parviendront jusqu’à toi, le souverain bien.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

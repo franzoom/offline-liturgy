@@ -1,8 +1,7 @@
 celebration:
   title: 22 décembre
   subtitle: Semaine avant Noël
-  description: |-
-    FÉRIE MAJEURE : « Ô Roi des nations, objet de leur désir »
+  description: « Ô Roi des nations, objet de leur désir »
   color: violet
 oration:
 - Tu n’as pas supporté, Seigneur, que l’homme soit abandonné à la mort, mais tu as voulu le racheter en lui envoyant ton Fils unique ; accorde, nous t’en prions, à ceux qui s’inclineront devant l’enfant de Bethléem, de communier à la vie d’un tel Rédempteur. Lui qui règne.
@@ -128,8 +127,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 23,7
+    content: |-
+      Portes, levez vos frontons !
+      élevez-vous, portes éternelles :
+      qu’il entre, le roi de gloire !
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >par la venue de ton Fils Unique,
+    >tu as voulu racheter l’homme déchu,
+    >que tu voyais soumis à la mort ; *
+    accorde à ceux qui reconnaissent humblement
+    >le mystère de son incarnation, /
+    >de mériter aussi d’avoir part aussi à la vie d’un tel Rédempteur.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -219,8 +233,27 @@ mass:
 
         Marie resta avec Élisabeth environ trois mois,
          puis elle s’en retourna chez elle.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Confiants dans ta tendresse, Seigneur, +
+    >nous approchons de ton autel avec respect
+    >en apportant nos présents : *
+    puissions-nous, par un effet de ta grâce, qui nous purifie
+    >être renouvelés par ces mystères que nous célébrons.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: Lc 1,46.49
+    content: |-
+      Mon âme exalte le Seigneur :
+      >le Puissant fit pour moi des merveilles.
+  prayerAfterCommunion:
+  - |-
+    Que la communion à ton sacrement
+    nous fortifie, Seigneur, *
+    afin que nous puissions, en faisant le bien,
+    aller au-devant du Sauveur qui vient /
+    et mériter ainsi la récompense du bonheur promis.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

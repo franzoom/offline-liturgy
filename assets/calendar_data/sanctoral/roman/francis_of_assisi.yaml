@@ -46,3 +46,119 @@ vespers:
   evangelicAntiphon:
     common: |-
       La croix de mon Sauveur est ma seule fierté : je porte dans mon corps les marques de Jésus.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      François, l’homme de Dieu,
+      >quitte sa maison, abandonne son héritage ;
+      >il se fait pauvre et sans ressource,
+      mais le Seigneur l’accueille.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à saint François d’Assise
+    >d’être configuré au Christ pauvre et humble ; *
+    accorde-nous la force d’emprunter les mêmes chemins
+    >pour suivre ton Fils /
+    et pour vivre unis à toi dans une joyeuse charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ga 6, 14-18
+      headline: « Par la croix, le monde est crucifié pour moi, et moi pour le monde »
+      content: |-
+        Frères,
+        pour moi, que la croix de notre Seigneur Jésus Christ
+        >reste ma seule fierté.
+        Par elle, le monde est crucifié pour moi,
+        >et moi pour le monde.
+        Ce qui compte, ce n’est pas d’être circoncis ou incirconcis,
+        >c’est d’être une création nouvelle.
+        Pour tous ceux qui marchent selon cette règle de vie
+        >et pour l’Israël de Dieu,
+        paix et miséricorde.
+        Dès lors, que personne ne vienne me tourmenter,
+        car je porte dans mon corps
+        >les marques des souffrances de Jésus.
+        Frères, que la grâce de notre Seigneur Jésus Christ
+        >soit avec votre esprit. Amen.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15 (16), 1-2, 7-8, 5a.11
+      refAbbr: 15, 5a
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Seigneur, mon partage et ma coupe !
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 11, 25-30
+      headline: « Ce que tu as caché aux sages et aux savants, tu l’as révélé aux tout-petits »
+      acclamationAntiphon: |-
+        Tu es béni, Père,
+        Seigneur du ciel et de la terre,
+        tu as révélé aux tout-petits les mystères du Royaume !
+      content: |-
+        En ce temps-là,
+        Jésus prit la parole et dit :
+        « Père, Seigneur du ciel et de la terre,
+        je proclame ta louange :
+        >ce que tu as caché aux sages et aux savants,
+        >tu l’as révélé aux tout-petits.
+        Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
+        Tout m’a été remis par mon Père ;
+        personne ne connaît le Fils, sinon le Père,
+        et personne ne connaît le Père, sinon le Fils,
+        et celui à qui le Fils veut le révéler.
+        Venez à moi,
+        >vous tous qui peinez sous le poids du fardeau,
+        et moi, je vous procurerai le repos.
+        Prenez sur vous mon joug,
+        >devenez mes disciples,
+        car je suis doux et humble de cœur,
+        >et vous trouverez le repos pour votre âme.
+        Oui, mon joug est facile à porter,
+        >et mon fardeau, léger. »
+        >Acclamons la Parole de Dieu.
+  offeringPrayer:
+  - |-
+    En te présentant nos offrandes, Seigneur,
+    >nous t’adressons cette prière : *
+    >dispose-nous à célébrer dignement le mystère de la croix /
+    >auquel saint François désira s’attacher avec tant d’ardeur.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Mt 5,3
+    content: |-
+      Heureux les pauvres de cœur,
+      >car le royaume des Cieux est à eux !
+  prayerAfterCommunion:
+  - |-
+    Par le sacrement que nous avons reçu,
+    >accorde-nous, Seigneur,
+    >d’imiter la charité de saint François
+    >et son ardeur apostolique, *
+    >pour que nous goûtions les fruits de ton amour /
+    >et les fassions abonder en vue du salut de tous.
+    Par le Christ, notre Seigneur.

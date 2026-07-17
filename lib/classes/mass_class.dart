@@ -177,6 +177,7 @@ class Mass {
   List<String>? prefaceList;
   List<MassAntiphon>? communionAntiphon;
   List<String>? prayerAfterCommunion;
+  List<String>? prayerOnThePeople;
   // Solemn blessing, referenced by code and resolved like a hymn (see
   // HymnEntry) -- loaded from mass_missal/blessings instead of hymns/.
   List<HymnEntry>? solemnBlessingList;
@@ -195,6 +196,7 @@ class Mass {
     this.prefaceList,
     this.communionAntiphon,
     this.prayerAfterCommunion,
+    this.prayerOnThePeople,
     this.solemnBlessingList,
     this.sequence,
   });
@@ -222,6 +224,9 @@ class Mass {
           .map((e) => MassAntiphon.fromJson(e))
           .toList(),
       prayerAfterCommunion: (json['prayerAfterCommunion'] as List?)
+          ?.map((e) => e.toString())
+          .toList(),
+      prayerOnThePeople: (json['prayerOnThePeople'] as List?)
           ?.map((e) => e.toString())
           .toList(),
       solemnBlessingList: (json['solemnBlessingList'] as List?)
@@ -256,6 +261,8 @@ class Mass {
       communionAntiphon = overlay.communionAntiphon;
     if (overlay.prayerAfterCommunion != null)
       prayerAfterCommunion = overlay.prayerAfterCommunion;
+    if (overlay.prayerOnThePeople != null)
+      prayerOnThePeople = overlay.prayerOnThePeople;
     if (overlay.solemnBlessingList != null)
       solemnBlessingList = overlay.solemnBlessingList;
     if (overlay.sequence != null) sequence = overlay.sequence;
@@ -289,6 +296,8 @@ class Mass {
       communionAntiphon = common.communionAntiphon;
     if (common.prayerAfterCommunion != null)
       prayerAfterCommunion = common.prayerAfterCommunion;
+    if (common.prayerOnThePeople != null)
+      prayerOnThePeople = common.prayerOnThePeople;
     if (common.solemnBlessingList != null)
       solemnBlessingList = common.solemnBlessingList;
     if (common.sequence != null) sequence = common.sequence;
@@ -305,6 +314,7 @@ class Mass {
       (prefaceList == null || prefaceList!.isEmpty) &&
       (communionAntiphon == null || communionAntiphon!.isEmpty) &&
       (prayerAfterCommunion == null || prayerAfterCommunion!.isEmpty) &&
+      (prayerOnThePeople == null || prayerOnThePeople!.isEmpty) &&
       (solemnBlessingList == null || solemnBlessingList!.isEmpty) &&
       (sequence == null || sequence!.isEmpty);
 }

@@ -244,8 +244,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Is 30,19.30
+    content: |-
+      Peuple de Sion, voici que le Seigneur va venir
+      >pour sauver les nations.
+      Il fera entendre sa voix majestueuse
+      >pour la joie de vos cœurs.
+  collect:
+  - |-
+    Dieu de puissance et de miséricorde, +
+    >ne laisse pas le souci de nos tâches présentes
+    >entraver la marche de ceux qui se hâtent
+    >à la rencontre de ton Fils ; *
+    mais forme-nous à la sagesse d’en-haut, /
+    >qui nous fait entrer en communion avec lui.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -667,8 +682,27 @@ mass:
           les passages tortueux deviendront droits,
           les chemins rocailleux seront aplanis ;
           et tout être vivant verra le salut de Dieu.%
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Laisse-toi fléchir, Seigneur,
+    >par nos offrandes et nos humbles prières ; *
+    nous ne pouvons pas invoquer nos mérites, /
+    >viens par ta grâce à notre secours.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  communionAntiphon:
+  - biblicalReference: Ba 5,5; 4,36
+    content: |-
+      Debout, Jérusalem, tiens-toi sur la hauteur,
+      >et vois l’allégresse qui te vient de ton Dieu.
+  prayerAfterCommunion:
+  - |-
+    Comblés par cette nourriture spirituelle,
+    >nous te supplions, Seigneur : *
+    quand nous participons à ce mystère,
+    >apprends-nous à évaluer avec sagesse
+    >les réalités de ce monde /
+    >et à nous attacher aux biens du ciel.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -37,3 +37,106 @@ readings:
         Que nul d’entre vous
         ne détourne son cœur du Seigneur,
         en allant servir les dieux des nations.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu éternel et tout-puissant,
+    >admirable dans la force de tous les saints, +
+    >donne-nous la joie de célébrer la mémoire annuelle
+    >du bienheureux Clément, *
+    lui qui fut prêtre de ton Fils et martyr,
+    >qui signa de son témoignage ce qu’il célébrait, /
+    >et confirma par son exemple ce qu’il prêchait.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 5, 1-4
+      headline: « Soyez les bergers du troupeau de Dieu »
+      content: |-
+        Bien-aimés,
+        les anciens en fonction parmi vous, je les exhorte,
+        moi qui suis ancien comme eux
+        >et témoin des souffrances du Christ,
+        >communiant à la gloire qui va se révéler :
+        soyez les pasteurs du troupeau de Dieu qui se trouve chez vous ;
+        veillez sur lui, non par contrainte mais de plein gré,
+        >selon Dieu ;
+        non par cupidité mais par dévouement ;
+        non pas en commandant en maîtres à ceux qui vous sont confiés,
+        >mais en devenant les modèles du troupeau.
+        Et, quand se manifestera le Chef des pasteurs,
+        >vous recevrez la couronne de gloire qui ne se flétrit pas.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 88 (89), 2-3, 4-5, 21-22, 25.27
+      refAbbr: cf. 88, 2a
+      chorus:
+      - chorusRef: cf. 88, 2a
+        chorus: |-
+          Ton amour, Seigneur,
+          sans fin je le chante !
+      content: |-
+        L’amour du Seigneur, sans fin je le chante ;
+        ta fidélité, je l’annonce d’âge en âge.
+        Je le dis : C’est un amour bâti pour toujours ;
+        ta fidélité est plus stable que les cieux.
+
+        « Avec mon élu, j’ai fait une alliance,
+        j’ai juré à David, mon serviteur :
+        j’établirai ta dynastie pour toujours,
+        je te bâtis un trône pour la suite des âges.
+
+        « J’ai trouvé David, mon serviteur,
+        je l’ai sacré avec mon huile sainte ;
+        et ma main sera pour toujours avec lui,
+        mon bras fortifiera son courage.
+
+        « Mon amour et ma fidélité sont avec lui,
+        mon nom accroît sa vigueur ;
+        il me dira : "Tu es mon Père,
+        mon Dieu, mon roc et mon salut !" »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 16, 13-19 (pour un pape)
+      headline: « Tu es Pierre, et sur cette pierre je bâtirai mon Église »
+      acclamationAntiphon: |-
+        Venez à ma suite, dit le Seigneur.
+        Je vous ferai devenir pêcheurs d’hommes.
+      content: |-
+        En ce temps-là,
+        Jésus, arrivé dans la région de Césarée-de-Philippe,
+        demandait à ses disciples :
+        « Au dire des gens,
+        qui est le Fils de l’homme ? »
+        Ils répondirent :
+        « Pour les uns, Jean le Baptiste ;
+        pour d’autres, Élie ;
+        pour d’autres encore, Jérémie ou l’un des prophètes. »
+        Jésus leur demanda :
+        « Et vous, que dites-vous ? Pour vous, qui suis-je ? »
+        Alors Simon-Pierre prit la parole et dit :
+        « Tu es le Christ,
+        le Fils du Dieu vivant ! »
+        Prenant la parole à son tour, Jésus lui dit :
+        « Heureux es-tu, Simon fils de Yonas :
+        ce n’est pas la chair et le sang qui t’ont révélé cela,
+        mais mon Père qui est aux cieux.
+        Et moi, je te le déclare :
+        Tu es Pierre,
+        et sur cette pierre je bâtirai mon Église ;
+        et la puissance de la Mort ne l’emportera pas sur elle.
+        Je te donnerai les clés du royaume des Cieux :
+        tout ce que tu auras lié sur la terre
+        sera lié dans les cieux,
+        et tout ce que tu auras délié sur la terre
+        sera délié dans les cieux. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

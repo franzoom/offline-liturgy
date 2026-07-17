@@ -185,8 +185,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: He 4,16
+    content: |-
+      Avançons-nous avec assurance
+      vers le Trône de la grâce, pour obtenir miséricorde
+      >et recevoir, en temps voulu, la grâce de son secours, alléluia.
+  collect:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >que ton Esprit, dans sa puissance,
+    >répande en nous les dons spirituels ; *
+    >qu’il change notre cœur en un cœur que tu aimes, /
+    >parfaitement accordé à ta volonté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -300,8 +314,30 @@ mass:
         et je le ferai connaître,
         pour que l’amour dont tu m’as aimé soit en eux,
         et que moi aussi, je sois en eux. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Dans ta bonté, sanctifie ces dons,
+    >nous t’en prions, Seigneur ; *
+    >accepte le sacrifice spirituel que nous t’offrons, /
+    et fais de nous-mêmes
+    une éternelle offrande pour toi.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Jn 16,7
+    content: |-
+      Jésus déclarait à ses disciples :
+      « Je vous dis la vérité :
+      >il vaut mieux pour vous que je m’en aille,
+      car, si je ne m’en vais pas,
+      le Défenseur ne viendra pas à vous », alléluia.
+  prayerAfterCommunion:
+  - |-
+    Donne-nous de trouver, Seigneur,
+    >dans la communion à ces mystères,
+    >un enseignement qui nous affermit *
+    >et une nourriture qui refait nos forces,
+    >afin que nous puissions obtenir /
+    >les dons de l’Esprit Saint.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

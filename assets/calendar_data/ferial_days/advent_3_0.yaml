@@ -252,8 +252,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ph 4,4.5
+    content: |-
+      Soyez toujours dans la joie du Seigneur ;
+      >je le redis : soyez dans la joie.
+      Le Seigneur est proche.
+  collect:
+  - |-
+    Tu le vois, Seigneur Dieu, +
+    >ton peuple attend avec foi
+    >la fête de la naissance de ton Fils ; *
+    nous t’en prions, accorde-nous
+    >de parvenir au bonheur d’un tel salut, /
+    >et de le célébrer solennellement avec une joie toujours nouvelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -619,8 +634,29 @@ mass:
          il la brûlera au feu qui ne s’éteint pas. »
         Par beaucoup d’autres exhortations encore,
          il annonçait au peuple la Bonne Nouvelle.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >accorde-nous de t’offrir toujours
+    >ce sacrifice d’un cœur généreux : *
+    qu’il réalise le mystère sacré que tu as institué, /
+    >et opère en nous ton salut avec puissance.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  - advent_2
+  communionAntiphon:
+  - biblicalReference: cf. Is 35,4
+    content: |-
+      Dites aux esprits abattus :
+      >« Soyez forts, ne craignez pas.
+      Voici notre Dieu :
+      >Il vient et va nous sauver. »
+  prayerAfterCommunion:
+  - |-
+    Nous implorons, Seigneur, ta bonté : *
+    >que ce réconfort divin
+    nous délivre de nos penchants mauvais /
+    >et nous prépare aux fêtes qui approchent.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

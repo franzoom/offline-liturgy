@@ -178,8 +178,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 26,14 (Vg)
+    content: |-
+      Attends le Seigneur,
+      >sois fort et prends courage,
+      >espère dans le Seigneur.
+  collect:
+  - |-
+    Seigneur, accorde-nous de persévérer
+    >dans l’attachement à ta volonté, *
+    >afin qu’au long des jours,
+    >le peuple qui te sert /
+    >augmente en nombre et grandisse en sainteté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -297,8 +311,34 @@ mass:
         parce que je fais toujours ce qui lui est agréable. »
         Sur ces paroles de Jésus,
         beaucoup crurent en lui.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’offrons, Seigneur, le sacrifice de louange :
+    >qui nous réconcilie avec toi : *
+    >prends pitié de nous, pardonne nos fautes /
+    >et dirige toi-même nos cœurs indécis.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - passion_of_the_lord_1
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Jn 12,32
+    content: |-
+      Quand j’aurai été élevé de terre, dit le Seigneur,
+      >j’attirerai à moi tous les hommes.
+  prayerAfterCommunion:
+  - |-
+    Accorde-nous, Dieu tout-puissant,
+    >de rechercher assidûment ce qui vient de toi, *
+    >afin de progresser de jour en jour /
+    >vers les biens du ciel.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Àceux qui espèrent en toi, Seigneur Dieu,
+    >tu préfères montrer ta pitié plutôt que ta colère ; *
+    >donne à tes fidèles de pleurer comme il convient
+    >le mal qu’ils ont fait, /
+    >afin qu’ils méritent d’obtenir la grâce de ta consolation.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

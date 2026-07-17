@@ -37,3 +37,127 @@ readings:
       réjouissons-nous :
       quand se révélera sa gloire,
       nous serons dans la joie.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Connaissant le courageux témoignage
+    >de tes martyrs Nérée et Achille,
+    >nous t’en prions, Dieu tout-puissant : *
+    >accorde-nous d’éprouver les effets /
+    >de leur bienveillante intercession auprès de toi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ap 7, 9-17
+      headline: « Ceux-là viennent de la grande épreuve »
+      content: |-
+        Moi, Jean,
+        j’ai vu :
+        et voici une foule immense,
+        que nul ne pouvait dénombrer,
+        une foule de toutes nations, tribus, peuples et langues.
+        Ils se tenaient debout devant le Trône et devant l’Agneau,
+        vêtus de robes blanches, avec des palmes à la main.
+        Et ils s’écriaient d’une voix forte :
+        « Le salut appartient à notre Dieu
+        qui siège sur le Trône
+        et à l’Agneau ! »
+        Tous les anges se tenaient debout autour du Trône,
+        autour des Anciens et des quatre Vivants ;
+        se jetant devant le Trône, face contre terre,
+        ils se prosternèrent devant Dieu.
+        Et ils disaient :
+        « Amen !
+        Louange, gloire, sagesse et action de grâce,
+        honneur, puissance et force
+        à notre Dieu, pour les siècles des siècles ! Amen ! »
+        L’un des Anciens prit alors la parole et me dit :
+        « Ces gens vêtus de robes blanches,
+        qui sont-ils, et d’où viennent-ils ? »
+        Je lui répondis :
+        « Mon seigneur, toi, tu le sais. »
+        Il me dit :
+        « Ceux-là viennent de la grande épreuve ;
+        ils ont lavé leurs robes,
+        ils les ont blanchies par le sang de l’Agneau.
+        C’est pourquoi ils sont devant le trône de Dieu,
+        et le servent, jour et nuit, dans son sanctuaire.
+        Celui qui siège sur le Trône
+        établira sa demeure chez eux.
+        Ils n’auront plus faim, ils n’auront plus soif,
+        ni le soleil ni la chaleur ne les accablera,
+        puisque l’Agneau qui se tient au milieu du Trône
+        sera leur pasteur
+        pour les conduire aux sources des eaux de la vie.
+        Et Dieu essuiera toute larme de leurs yeux. »
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+      refAbbr: 123, 7ab
+      chorus:
+      - chorusRef: 123, 7ab
+        chorus: |-
+          Comme un oiseau, nous avons échappé
+          au filet du chasseur.
+      content: |-
+        Sans le Seigneur qui était pour nous
+        quand des hommes nous assaillirent,
+        alors ils nous avalaient tout vivants,
+        dans le feu de leur colère.
+
+        Alors le flot passait sur nous,
+        le torrent nous submergeait ;
+        alors nous étions submergés
+        par les flots en furie.
+
+        Béni soit le Seigneur
+        qui n’a pas fait de nous
+        la proie de leurs dents !
+        Comme l’oiseau, nous avons échappé
+        au filet de l’oiseleur.
+
+        Le filet s’est rompu :
+        nous avons échappé.
+        Notre secours est dans le nom du Seigneur
+        qui a fait le ciel et la terre.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 17-22
+      headline: '« Vous serez conduits devant des gouverneurs et des rois à cause de moi : il y aura là un témoignage pour eux et pour les païens »'
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        « Méfiez-vous des hommes :
+        ils vous livreront aux tribunaux
+        et vous flagelleront dans leurs synagogues.
+        Vous serez conduits devant des gouverneurs et des rois
+        à cause de moi :
+        il y aura là un témoignage pour eux et pour les païens.
+        Quand on vous livrera,
+        ne vous inquiétez pas
+        de savoir ce que vous direz ni comment vous le direz :
+        ce que vous aurez à dire
+        vous sera donné à cette heure-là.
+        Car ce n’est pas vous qui parlerez,
+        c’est l’Esprit de votre Père qui parlera en vous.
+        Le frère livrera son frère à la mort,
+        et le père, son enfant ;
+        les enfants se dresseront contre leurs parents
+        et les feront mettre à mort.
+        Vous serez détestés de tous à cause de mon nom ;
+        mais celui qui aura persévéré jusqu’à la fin,
+        celui-là sera sauvé. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

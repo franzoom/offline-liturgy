@@ -31,3 +31,99 @@ readings:
 
         Livrés en spectacle au monde,
         vous serez les modèles du troupeau.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu nous donnes de vénérer la mémoire
+    >de saint Janvier, ton martyr ; *
+    accorde-nous de nous réjouir avec lui /
+    >dans l’éternité bienheureuse.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: He 10, 32-36
+      headline: |-
+        « Vous avez soutenu le dur combat. Ne perdez pas votre assurance »
+      content: |-
+        Frères,
+        souvenez-vous de ces premiers jours
+        >où vous veniez de recevoir la lumière du Christ :
+        vous avez soutenu alors le dur combat des souffrances,
+        >tantôt donnés en spectacle sous les insultes et les brimades,
+        >tantôt solidaires de ceux qu’on traitait ainsi.
+        En effet, vous avez montré de la compassion
+        >à ceux qui étaient en prison ;
+        vous avez accepté avec joie
+        >qu’on vous arrache vos biens,
+        car vous étiez sûrs de posséder un bien encore meilleur, et permanent.
+        Ne perdez pas votre assurance ;
+        >grâce à elle, vous serez largement récompensés.
+        Car l’endurance vous est nécessaire
+        >pour accomplir la volonté de Dieu
+        >et obtenir ainsi la réalisation des promesses.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: 125, 1…
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 12, 24-26
+      headline: |-
+        « Si le grain de blé meurt, il porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Heureux l’homme
+        qui supporte l’épreuve avec persévérance,
+        car, sa valeur une fois vérifiée, il recevra la couronne de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Amen, amen, je vous le dis :
+        >si le grain de blé tombé en terre ne meurt pas,
+        >il reste seul ;
+        >mais s’il meurt,
+        >il porte beaucoup de fruit.
+        Qui aime sa vie
+        >la perd ;
+        >qui s’en détache en ce monde
+        >la gardera pour la vie éternelle.
+        Si quelqu’un veut me servir,
+        >qu’il me suive ;
+        >et là où moi je suis,
+        >là aussi sera mon serviteur.
+        Si quelqu’un me sert,
+        >mon Père l’honorera. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

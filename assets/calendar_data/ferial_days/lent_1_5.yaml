@@ -185,8 +185,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 24,17-18
+    content: |-
+      Tire-moi de ma détresse, Seigneur.
+      Vois ma misère et ma peine,
+      >enlève tous mes péchés.
+  collect:
+  - |-
+    Accorde à tes fidèles,
+    >Seigneur, nous t’en prions,
+    >de s’appliquer comme il convient
+    >à la préparation de Pâques : *
+    que la pénitence imposée à notre corps en ce temps du Carême /
+    >porte en nous tous du fruit pour nos âmes.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -294,8 +309,36 @@ mass:
         Amen, je te le dis :
         tu n’en sortiras pas
         avant d’avoir payé jusqu’au dernier sou. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille avec bonté, Seigneur,
+    >le sacrifice que nous te présentons : *
+    >c’est par lui que tu as voulu nous réconcilier avec toi /
+    >et nous rendre à la vie dans la puissance de ton amour.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ez 33,11
+    content: |-
+      Par ma vie — oracle du Seigneur Dieu —
+      >je ne prends pas plaisir à la mort du méchant,
+      >je désire plutôt qu’il se détourne de sa conduite et qu’il vive.
+  prayerAfterCommunion:
+  - |-
+    Que la nourriture sainte de ton sacrement
+    nous renouvelle, Seigneur ; *
+    qu’elle nous purifie de nos anciennes manières de vivre /
+    >pour nous faire participer au mystère du salut.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Jette un regard de tendresse sur ton peuple, Seigneur : *
+    >que se réalise intérieurement /
+    >ce qu’il manifeste par une observance extérieure.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

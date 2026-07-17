@@ -29,3 +29,84 @@ readings:
 
         L’Esprit scrute tout,
         jusqu’aux profondeurs divines.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Accorde-nous, Dieu tout-puissant, +
+    >tandis que nous célébrons la naissance au ciel
+    >de l’évêque saint Bonaventure, *
+    de mettre à profit les richesses de son enseignement, /
+    >et de prendre toujours exemple sur sa brûlante charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ep 3, 14-19
+      headline: '« Vous connaîtrez ce qui dépasse toute connaissance : l’amour du Christ »'
+      content: |-
+        Frères,
+        je tombe à genoux devant le Père,
+        de qui toute paternité au ciel et sur la terre tient son nom.
+        Lui qui est si riche en gloire,
+        qu’il vous donne la puissance de son Esprit,
+        pour que se fortifie en vous l’homme intérieur.
+        Que le Christ habite en vos cœurs par la foi ;
+        restez enracinés dans l’amour, établis dans l’amour.
+        Ainsi vous serez capables de comprendre avec tous les fidèles
+        quelle est la largeur, la longueur, la hauteur, la profondeur...
+        Vous connaîtrez ce qui dépasse toute connaissance :
+        l’amour du Christ.
+        Alors vous serez comblés
+        jusqu’à entrer dans toute la plénitude de Dieu.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 118 (119), 9-10, 11-12, 13-14
+      refAbbr: 118, 12b
+      chorus:
+      - chorusRef: 118, 12b
+        chorus: Apprends-moi, Seigneur, tes commandements.
+      content: |-
+        Comment, jeune, garder pur son chemin ?
+        En observant ta parole.
+        De tout mon cœur, je te cherche ;
+        garde-moi de fuir tes volontés.
+
+        Dans mon cœur, je conserve tes promesses
+        pour ne pas faillir envers toi.
+        Toi, Seigneur, tu es béni :
+        apprends-moi tes commandements.
+
+        Je fais repasser sur mes lèvres
+        chaque décision de ta bouche.
+        Je trouve dans la voie de tes exigences
+        plus de joie que dans toutes les richesses.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 23, 8-12
+      headline: « Le plus grand parmi vous sera votre serviteur »
+      acclamationAntiphon: |-
+        Vous n’avez qu’un seul Père, celui qui est aux cieux ;
+        vous n’avez qu’un seul maître, le Christ.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Ne vous faites pas donner le titre de Rabbi,
+        car vous n’avez qu’un seul maître pour vous enseigner,
+        et vous êtes tous frères.
+        Ne donnez à personne sur terre le nom de père,
+        car vous n’avez qu’un seul Père, celui qui est aux cieux.
+        Ne vous faites pas non plus donner le titre de maîtres,
+        car vous n’avez qu’un seul maître, le Christ.
+        Le plus grand parmi vous sera votre serviteur.
+        Qui s’élèvera sera abaissé,
+        qui s’abaissera sera élevé. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

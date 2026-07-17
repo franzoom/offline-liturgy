@@ -182,8 +182,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 122,2-3
+    content: |-
+      Comme les yeux des serviteurs vers la main de leurs maîtres,
+      >nos yeux, levés vers le Seigneur notre Dieu, attendent sa pitié.
+      Pitié pour nous, Seigneur, pitié pour nous.
+  collect:
+  - |-
+    Fais-nous revenir à toi, Dieu notre Sauveur, *
+    >et pour que ce Carême nous soit profitable, /
+    >forme nos esprits par l’enseignement qui vient du ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -318,8 +330,41 @@ mass:
 
         Et ils s’en iront, ceux-ci au châtiment éternel,
         et les justes, à la vie éternelle. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, notre fervent sacrifice : *
+    >par ton action, qu’il sanctifie notre manière de vivre, /
+    >et nous obtienne la grâce de ton pardon.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Mt 25,40 et 34
+    content: |-
+      Amen, je vous le dis, tout ce que vous avez fait
+      >à l’un de ces plus petits de mes frères,
+      >c’est à moi que vous l’avez fait, dit le Seigneur.
+      Venez, les bénis de mon Père, recevez en héritage
+      >le Royaume préparé pour vous depuis la fondation du monde.
+  prayerAfterCommunion:
+  - |-
+    Dans la communion à ton sacrement, Seigneur, +
+    >fais-nous ressentir un secours
+    >pour l’esprit et pour le corps, *
+    afin que, sauvés tout entiers,
+    >nous trouvions notre gloire au ciel /
+    >dans la plénitude de la guérison.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >éclaire l’intelligence de ton peuple
+    >par la lumière de ta gloire, *
+    afin qu’il puisse voir ce qu’il doit faire /
+    >et sache accomplir ce qui est droit.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

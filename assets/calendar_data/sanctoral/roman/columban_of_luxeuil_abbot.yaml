@@ -4,7 +4,7 @@ celebration:
   description: Moine irlandais, Colomban passa la Manche vers 590 et il évangélisa le Nord-Est de la Gaule, ainsi que la région rhénane. Il se fixa ensuite à Luxeuil, où il fonda un monastère qu’il dota d’une Règle austère. Puis, abandonnant une communauté florissante, il gagna l’Italie et il fonda un nouveau monastère à Bobbio, où il devait mourir (615).
   commons:
     - pastors
-    - saints-male_religious
+    - saints-male_religious_abbot
   color: white
 
 oration:
@@ -30,3 +30,106 @@ readings:
         À nous, Dieu l’a révélé par l’Esprit,
         car l’Esprit sonde tout,
         jusqu’aux profondeurs de Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >en saint Colomban
+    tu as réuni de façon admirable
+    >la mission d’annoncer l’Évangile
+    >et l’attachement à la vie monastique ; *
+    fais qu’à sa prière et à son exemple,
+    >nous mettions toutes nos forces
+    >à te rechercher par-dessus tout /
+    >et à faire grandir le peuple des croyants.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Is 52, 7-10
+      headline: « Tous les lointains de la terre ont vu le salut de notre Dieu »
+      content: |-
+        Comme ils sont beaux sur les montagnes,
+        les pas du messager,
+        celui qui annonce la paix,
+        qui porte la bonne nouvelle,
+        qui annonce le salut,
+        et vient dire à Sion :
+        « Il règne, ton Dieu ! »
+        Écoutez la voix des guetteurs :
+        ils élèvent la voix,
+        tous ensemble ils crient de joie
+        car, de leurs propres yeux,
+        ils voient le Seigneur qui revient à Sion.
+        Éclatez en cris de joie,
+        vous, ruines de Jérusalem,
+        car le Seigneur console son peuple,
+        il rachète Jérusalem !
+        Le Seigneur a montré la sainteté de son bras
+        aux yeux de toutes les nations.
+        Tous les lointains de la terre
+        ont vu le salut de notre Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 7-8a, 9-10a
+      refAbbr: cf. 95, 3
+      chorus:
+      - chorusRef: cf. 95, 3
+        chorus: |-
+          Racontez à tous les peuples
+          les merveilles du Seigneur !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        chantez au Seigneur, terre entière,
+        chantez au Seigneur et bénissez son nom !
+
+        De jour en jour, proclamez son salut,
+        racontez à tous les peuples sa gloire,
+        à toutes les nations ses merveilles !
+
+        Rendez au Seigneur, familles des peuples,
+        rendez au Seigneur, la gloire et la puissance,
+        rendez au Seigneur la gloire de son nom.
+
+        Adorez le Seigneur, éblouissant de sainteté :
+        tremblez devant lui, terre entière.
+        Allez dire aux nations : « Le Seigneur est roi ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 9, 57-62
+      headline: « Je te suivrai partout où tu iras »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        en cours de route, un homme dit à Jésus :
+        « Je te suivrai partout où tu iras. »
+        Jésus lui déclara :
+        « Les renards ont des terriers,
+        les oiseaux du ciel ont des nids ;
+        mais le Fils de l’homme n’a pas d’endroit où reposer la tête. »
+        Il dit à un autre :
+        « Suis-moi. »
+        L’homme répondit :
+        « Seigneur, permets-moi d’aller d’abord enterrer mon père. »
+        Mais Jésus répliqua :
+        « Laisse les morts enterrer leurs morts.
+        Toi, pars, et annonce le règne de Dieu. »
+        Un autre encore lui dit :
+        « Je te suivrai, Seigneur ;
+        mais laisse-moi d’abord faire mes adieux
+        aux gens de ma maison. »
+        Jésus lui répondit :
+        « Quiconque met la main à la charrue,
+        puis regarde en arrière,
+        n’est pas fait pour le royaume de Dieu. »
+        
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

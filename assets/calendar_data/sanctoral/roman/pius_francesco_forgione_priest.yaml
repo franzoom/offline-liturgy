@@ -31,3 +31,100 @@ readings:
 
         En lui, vous êtes les éléments d’une même construction
         pour devenir une demeure de Dieu par l’Esprit.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >par une grâce particulière
+    >tu as donné au prêtre saint Pio
+    >de participer à la croix de ton Fils,
+    et, dans son ministère,
+    >tu as renouvelé les merveilles de ta miséricorde ; *
+    par son intercession, nous te prions :
+    >à nous qui sommes associés aux souffrances du Christ /
+    >accorde la joie de parvenir à la gloire de sa résurrection.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ga 2, 19-20
+      headline: |-
+        « Je vis, mais ce n’est plus moi, c’est le Christ qui vit en moi »
+      content: |-
+        Frères,
+        par la Loi, je suis mort à la Loi
+        >afin de vivre pour Dieu ;
+        avec le Christ, je suis crucifié.
+        Je vis, mais ce n’est plus moi,
+        >c’est le Christ qui vit en moi.
+        Ce que je vis aujourd’hui dans la chair,
+        >je le vis dans la foi au Fils de Dieu
+        >qui m’a aimé et s’est livré lui-même pour moi.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+      refAbbr: 111, 1a
+      chorus:
+      - chorusRef: 111, 1a
+        chorus: |-
+          Heureux qui craint le Seigneur.
+      - chorusRef: null
+        chorus: |-
+          ou : Alléluia !
+      content: |-
+        Heureux qui craint le Seigneur,
+        qui aime entièrement sa volonté !
+        Sa lignée sera puissante sur la terre ;
+        la race des justes est bénie.
+
+        Les richesses affluent dans sa maison :
+        à jamais se maintiendra sa justice.
+        Lumière des cœurs droits, il s’est levé dans les ténèbres,
+        homme de justice, de tendresse et de pitié.
+
+        L’homme de bien a pitié, il partage ;
+        il mène ses affaires avec droiture.
+        Cet homme jamais ne tombera ;
+        toujours on fera mémoire du juste.
+
+        Il ne craint pas l’annonce d’un malheur :
+        le cœur ferme, il s’appuie sur le Seigneur.
+        Son cœur est confiant, il ne craint pas :
+        il verra ce que valaient ses oppresseurs.
+
+        À pleines mains, il donne au pauvre ;
+        à jamais se maintiendra sa justice,
+        sa puissance grandira, et sa gloire !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 16, 24-27
+      headline: |-
+        « Qui perd sa vie à cause de moi la trouvera »
+      acclamationAntiphon: |-
+        Restez éveillés et priez en tout temps :
+        ainsi vous pourrez vous tenir debout devant le Fils de l’homme.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Si quelqu’un veut marcher à ma suite,
+        >qu’il renonce à lui-même,
+        >qu’il prenne sa croix
+        >et qu’il me suive.
+        Car celui qui veut sauver sa vie
+        >la perdra,
+        >mais qui perd sa vie à cause de moi
+        >la trouvera.
+        Quel avantage, en effet, un homme aura-t-il
+        >à gagner le monde entier,
+        >si c’est au prix de sa vie ?
+        Et que pourra-t-il donner en échange de sa vie ?
+        Car le Fils de l’homme va venir avec ses anges
+        >dans la gloire de son Père ;
+        >alors il rendra à chacun selon sa conduite. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -271,8 +271,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 42,1-2
+    content: |-
+      Rends-moi justice, ô mon Dieu, défends ma cause
+      >contre un peuple sans foi ;
+      de l’homme qui ruse et trahit, libère-moi ;
+      >c’est toi, Dieu, ma forteresse.
+  collect:
+  - |-
+    Viens à notre secours, Seigneur notre Dieu : +
+    >accorde-nous de marcher avec joie
+    >dans la charité de ton Fils *
+    qui a aimé le monde /
+    >jusqu’à donner sa vie pour lui.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -766,8 +780,45 @@ mass:
         Et Jésus lui dit :
         « Moi non plus, je ne te condamne pas.
         Va, et désormais ne pèche plus. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Exauce-nous, Dieu tout-puissant, *
+    >et accorde à tes serviteurs,
+    >formés par l’enseignement de la foi chrétienne /
+    >d’être purifiés par l’action de ce sacrifice.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_lent_5
+  - sundays_in_lent_1
+  - sundays_in_lent_2
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Jn 11,26
+    content: |-
+      Quiconque vit et croit en moi
+      >ne mourra jamais, dit le Seigneur.
+      Jn 8, 10-11
+      Femme, dit Jésus, personne ne t’a condamnée ?
+      — Personne, Seigneur,
+      >— Moi non plus, je ne te condamne pas.
+      Va, et désormais ne pèche plus.
+      Jn 12, 24-25
+      Amen, amen, je vous le dis :
+      si le grain de blé tombé en terre ne meurt pas,
+      >il reste seul ;
+      mais s’il meurt,
+      >il donne beaucoup de fruit.
+  prayerAfterCommunion:
+  - |-
+    Accorde-nous, Dieu tout-puissant,
+    >d’être toujours comptés parmi les membres du Christ, /
+    >nous qui communions à son Corps et à son Sang.
+    Lui qui vit et règne pour les siècles des siècles.
+  prayerOnThePeople:
+  - |-
+    Seigneur, bénis ton peuple
+    >qui attend le bienfait de ta compassion ; *
+    >accorde-lui, dans ta largesse, /
+    >de voir exaucer les désirs que toi-même lui inspires.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

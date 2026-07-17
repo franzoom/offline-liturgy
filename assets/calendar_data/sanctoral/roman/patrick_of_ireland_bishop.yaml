@@ -38,3 +38,118 @@ vespers:
   evangelicAntiphon:
     common:
     - Beaucoup viendront d’orient et d’occident s’asseoir avec les fils d’Abraham au festin du Royaume.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as bien voulu donner l’évêque saint Patrick
+    >aux peuples d’Irlande
+    >pour qu’il leur proclame ta gloire ; *
+    à sa prière et par ses mérites,
+    >accorde à ceux qui portent avec fierté le nom de chrétiens /
+    >d’annoncer sans relâche aux hommes tes merveilles.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 P 4, 7b-11
+      headline: « Ce que chacun de vous a reçu comme don de la grâce, mettez-le au service des autres »
+      content: |-
+        Bien-aimés,
+        soyez raisonnables et sobres
+        en vue de la prière.
+        Avant tout, ayez entre vous une charité intense,
+        car la charité couvre une multitude de péchés.
+        Pratiquez l’hospitalité les uns envers les autres
+        sans récriminer.
+        Ce que chacun de vous a reçu comme don de la grâce,
+        mettez-le au service des autres,
+        en bons gérants de la grâce de Dieu
+        qui est si diverse :
+        si quelqu’un parle,
+        qu’il le fasse comme pour des paroles de Dieu ;
+        celui qui assure le service,
+        qu’il s’en acquitte comme avec la force procurée par Dieu.
+        Ainsi, en tout, Dieu sera glorifié par Jésus Christ,
+        à qui appartiennent la gloire et la souveraineté
+        pour les siècles des siècles. Amen.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 95 (96), 1-2a, 2b-3, 7-8a, 9-10a
+      refAbbr: cf. 95, 3
+      chorus:
+      - chorusRef: cf. 95, 3
+        chorus: |-
+          Racontez à tous les peuples
+          les merveilles du Seigneur !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        chantez au Seigneur, terre entière,
+        chantez au Seigneur et bénissez son nom !
+
+        De jour en jour, proclamez son salut,
+        racontez à tous les peuples sa gloire,
+        à toutes les nations ses merveilles !
+
+        Rendez au Seigneur, familles des peuples,
+        rendez au Seigneur, la gloire et la puissance,
+        rendez au Seigneur la gloire de son nom.
+
+        Adorez le Seigneur, éblouissant de sainteté :
+        tremblez devant lui, terre entière.
+        Allez dire aux nations : « Le Seigneur est roi ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 5, 1-11
+      headline: « Sur ta parole, je vais jeter les filets »
+      acclamationAntiphon: |-
+        Venez à ma suite, dit le Seigneur.
+        Je vous ferai devenir pêcheurs d’hommes.
+      content: |-
+        En ce temps-là,
+        la foule se pressait autour de Jésus
+        pour écouter la parole de Dieu,
+        tandis qu’il se tenait au bord du lac de Génésareth.
+        Il vit deux barques qui se trouvaient au bord du lac ;
+        les pêcheurs en étaient descendus
+        et lavaient leurs filets.
+        Jésus monta dans une des barques qui appartenait à Simon,
+        et lui demanda de s’écarter un peu du rivage.
+        Puis il s’assit et, de la barque, il enseignait les foules.
+        Quand il eut fini de parler,
+        il dit à Simon :
+        « Avance au large,
+        et jetez vos filets pour la pêche. »
+        Simon lui répondit :
+        « Maître, nous avons peiné toute la nuit sans rien prendre ;
+        mais, sur ta parole, je vais jeter les filets. »
+        Et l’ayant fait,
+        ils capturèrent une telle quantité de poissons
+        que leurs filets allaient se déchirer.
+        Ils firent signe à leurs compagnons de l’autre barque
+        de venir les aider.
+        Ceux-ci vinrent,
+        et ils remplirent les deux barques,
+        à tel point qu’elles enfonçaient.
+        À cette vue,
+        Simon-Pierre tomba aux genoux de Jésus, en disant :
+        « Éloigne-toi de moi, Seigneur,
+        car je suis un homme pécheur. »
+        En effet, un grand effroi l’avait saisi,
+        lui et tous ceux qui étaient avec lui,
+        devant la quantité de poissons qu’ils avaient pêchés ;
+        et de même Jacques et Jean, fils de Zébédée,
+        les associés de Simon.
+        Jésus dit à Simon :
+        « Sois sans crainte,
+        désormais ce sont des hommes que tu prendras. »
+        Alors ils ramenèrent les barques au rivage
+        et, laissant tout, ils le suivirent.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

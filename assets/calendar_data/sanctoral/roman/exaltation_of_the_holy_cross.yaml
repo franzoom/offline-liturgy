@@ -249,3 +249,131 @@ vespers:
       >alléluia, la vraie chair de notre chair,
       Sur la pierre des tombeaux,
       >alléluia, sur nos tombes à venir,
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Ga 6,14
+    content: |-
+      Que notre seule fierté
+      >soit la croix de notre Seigneur Jésus Christ.
+      En lui, nous avons le salut, la vie et la résurrection ; par lui, nous sommes sauvés et délivrés.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu qu’en acceptant la croix,
+    >ton Fils unique sauve l’humanité ; *
+    nous t’en prions :
+    >fais qu’ayant connu dès ici-bas ce mystère, /
+    >nous obtenions au ciel les fruits de la rédemption.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Nb 21, 4b-9
+      headline: |-
+        « Celui qui regardait vers le serpent de bronze restait en vie ! »
+      content: |-
+        En ces jours-là,
+        >en chemin à travers le désert, le peuple perdit courage.
+        Il récrimina contre Dieu et contre Moïse :
+        >« Pourquoi nous avoir fait monter d’Égypte ?
+        Était-ce pour nous faire mourir dans le désert,
+        >où il n’y a ni pain ni eau ?
+        Nous sommes dégoûtés de cette nourriture misérable ! »
+        Alors le Seigneur envoya contre le peuple
+        >des serpents à la morsure brûlante,
+        et beaucoup en moururent dans le peuple d’Israël.
+        Le peuple vint vers Moïse et dit :
+        >« Nous avons péché,
+        >en récriminant contre le Seigneur et contre toi.
+        Intercède auprès du Seigneur
+        >pour qu’il éloigne de nous les serpents. »
+        Moïse intercéda pour le peuple,
+        et le Seigneur dit à Moïse :
+        >« Fais-toi un serpent brûlant,
+        >et dresse-le au sommet d’un mât :
+        >tous ceux qui auront été mordus,
+        >qu’ils le regardent, alors ils vivront ! »
+        Moïse fit un serpent de bronze
+        >et le dressa au sommet du mât.
+        Quand un homme était mordu par un serpent,
+        >et qu’il regardait vers le serpent de bronze,
+        >il restait en vie !
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 77 (78), 3-4a.c, 34-35, 36-37, 38ab.39
+      refAbbr: cf. 77, 7b
+      chorus:
+      - chorusRef: cf. 77, 7b
+        chorus: |-
+          N’oubliez pas les exploits du Seigneur !
+      content: |-
+        Nous avons entendu et nous savons
+        ce que nos pères nous ont raconté ;
+        nous redirons à l’âge qui vient
+        les titres de gloire du Seigneur.
+
+        Quand Dieu les frappait, ils le cherchaient,
+        ils revenaient et se tournaient vers lui :
+        ils se souvenaient que Dieu est leur rocher,
+        et le Dieu Très-Haut, leur rédempteur.
+
+        Mais de leur bouche ils le trompaient,
+        de leur langue ils lui mentaient.
+        Leur cœur n’était pas constant envers lui ;
+        ils n’étaient pas fidèles à son alliance.
+
+        Et lui, miséricordieux,
+        au lieu de détruire, il pardonnait.
+        Il se rappelait : ils ne sont que chair,
+        un souffle qui s’en va sans retour.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 3, 13-17
+      headline: |-
+        « Il faut que le Fils de l’homme soit élevé »
+      acclamationAntiphon: |-
+        Nous t’adorons, ô Christ, et nous te bénissons :
+        par ta Croix, tu as racheté le monde.
+      content: |-
+        En ce temps-là,
+        Jésus disait à Nicodème :
+        >« Nul n’est monté au ciel
+        >sinon celui qui est descendu du ciel,
+        >le Fils de l’homme.
+        De même que le serpent de bronze
+        >fut élevé par Moïse dans le désert,
+        >ainsi faut-il que le Fils de l’homme soit élevé,
+        >afin qu’en lui tout homme qui croit ait la vie éternelle.
+        Car Dieu a tellement aimé le monde
+        >qu’il a donné son Fils unique,
+        >afin que quiconque croit en lui ne se perde pas,
+        >mais obtienne la vie éternelle.
+        Car Dieu a envoyé son Fils dans le monde,
+        >non pas pour juger le monde,
+        >mais pour que, par lui, le monde soit sauvé. »
+  offeringPrayer:
+  - |-
+    Nous t’en supplions, Seigneur,
+    >que l’offrande du sacrifice
+    >nous purifie de tout péché, *
+    >puisque sur l’autel de la croix /
+    >elle a enlevé le péché du monde entier.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - exaltation_of_the_holy_cross
+  communionAntiphon:
+  - biblicalReference: Jn 12,32
+    content: |-
+      Quand j’aurai été élevé de terre, dit le Seigneur,
+      >j’attirerai à moi tous les hommes.
+  prayerAfterCommunion:
+  - |-
+    Fortifiés par cette nourriture sainte,
+    >nous te supplions, Seigneur Jésus Christ : *
+    >conduis à la gloire de la résurrection /
+    >ceux que tu as rachetés par le bois de la croix qui fait vivre.
+    Toi qui vis et règnes pour les siècles des siècles.

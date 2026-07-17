@@ -184,8 +184,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 54,17-20.23
+    content: |-
+      Quand je crie vers Dieu, il entend ma voix,
+      >il me met à l’abri de ceux qui me poursuivent.
+      Décharge-toi de tes inquiétudes sur le Seigneur :
+      >et lui-même te nourrira.
+  collect:
+  - |-
+    Que ta grâce inspire et précède notre action,
+    nous t’en prions, Seigneur,
+    qu’elle la soutienne et l’accompagne, *
+    pour que toutes nos activités
+    >prennent leur source en toi /
+    >et reçoivent de toi leur achèvement.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -281,8 +297,41 @@ mass:
         Quel avantage un homme aura-t-il
         à gagner le monde entier,
         s’il se perd ou se ruine lui-même ? »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Regarde avec bonté,
+    >Seigneur, nous t’en prions,
+    >les offrandes que nous déposons sur l’autel qui t’est consacré ; *
+    en nous procurant ton pardon, /
+    >qu’elles servent à la gloire de ton nom.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps. 50,12
+    content: |-
+      Crée en moi un cœur pur, ô mon Dieu,
+      >renouvelle et raffermis au fond de moi mon esprit.
+  prayerAfterCommunion:
+  - |-
+    Dieu tout-puissant, +
+    >par ce don venu du ciel,
+    >nous avons reçu ta bénédiction ; *
+    nous t’en supplions humblement :
+    >qu’il ne cesse jamais de nous apporter /
+    >à la fois ton pardon et notre salut.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Dieu tout-puissant, +
+    >tu as fait connaître à ton peuple
+    >les chemins de la vie éternelle ; *
+    nous t’en prions,
+    >donne-lui de les suivre /
+    >pour parvenir jusqu’à toi, lumière sans déclin.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

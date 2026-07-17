@@ -66,8 +66,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 26,7. 9
+    content: |-
+      Écoute, Seigneur, ma voix qui t’appelle ! Sois mon secours, ne m’abandonne pas,
+      >ne me délaisse pas, Dieu, mon salut !
+  collect:
+  - |-
+    Seigneur Dieu,
+    >force de ceux qui espèrent en toi, +
+    >sois favorable à nos appels : *
+    puisque mortels et fragiles, nous ne pouvons rien sans toi,
+    >donne-nous toujours le secours de ta grâce ; /
+    >ainsi pourrons-nous, en observant tes commandements,
+    >vouloir et agir de manière à te plaire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -466,8 +481,36 @@ mass:
         Jeanne, femme de Kouza, intendant d’Hérode,
         Suzanne, et beaucoup d’autres,
         qui les servaient en prenant sur leurs ressources.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu, +
+    >tu donnes à notre humanité la nourriture qui fortifies ; *
+    >et le sacrement qui renouvelle ; *
+    nous t’en prions :
+    fais que ton secours ne manque jamais /
+    >à nos corps et à nos esprits.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: Ps 26,4
+    content: |-
+      J’ai demandé une chose au Seigneur, la seule que je cherche :
+      habiter la maison du Seigneur tous les jours de ma vie.
+  - biblicalReference: Jn 17,11
+    content: |-
+      Père saint, garde mes disciples unis dans ton nom, le nom que tu m’as donné,
+      pour qu’ils soient un, comme nous-mêmes, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Cette communion à tes mystères, Seigneur,
+    >préfigure l’union des fidèles en toi ; *
+    >fais qu’elle produise un fruit d’unité /
+    >dans ton Église.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

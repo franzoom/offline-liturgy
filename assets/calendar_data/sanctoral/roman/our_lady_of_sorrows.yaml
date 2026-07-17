@@ -89,3 +89,121 @@ vespers:
   evangelicAntiphon:
     common: |-
       Jésus, voyant Marie, et près d’elle le disciple qu’il aimait dit à sa mère : %Femme, voici ton fils%. Puis il dit au disciple : %Voici ta mère%.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: Lc 2,34-35
+    content: |-
+      Syméon dit à Marie :
+      « Voici que cet enfanta provoquera
+      >la chute et le relèvement de beaucoup en Israël.
+      Il sera un signe de contradiction,
+      >et toi, ton âme sera traversée d’un glaive. »
+  collect:
+  - |-
+    Seigneur Dieu, +
+    quand ton Fils était élevé sur la croix,
+    >tu as voulu que sa Mère, remplie de compassion,
+    >se tienne debout auprès de lui : *
+    accorde à ton Église
+    >de s’unir, elle aussi, à la passion du Christ, /
+    >afin d’avoir part à sa résurrection.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: He 5, 7-9
+      headline: |-
+        « Il a appris l’obéissance et il est devenu la cause du salut éternel »
+      content: |-
+        Le Christ,
+        pendant les jours de sa vie dans la chair,
+        offrit, avec un grand cri et dans les larmes,
+        >des prières et des supplications
+        >à Dieu qui pouvait le sauver de la mort,
+        et il fut exaucé
+        >en raison de son grand respect.
+        Bien qu’il soit le Fils,
+        >il apprit par ses souffrances l’obéissance
+        et, conduit à sa perfection,
+        il est devenu pour tous ceux qui lui obéissent
+        >la cause du salut éternel.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 30 (31), 2-3a, 3bc-4, 5-6, 15-16, 20
+      refAbbr: cf. 30, 17
+      chorus:
+      - chorusRef: cf. 30, 17
+        chorus: |-
+          Sauve-moi, mon Dieu, par ton amour.
+      content: |-
+        En toi, Seigneur, j’ai mon refuge ;
+        garde-moi d’être humilié pour toujours.
+        Dans ta justice, libère-moi ;
+        écoute, et viens me délivrer.
+
+        Sois le rocher qui m’abrite,
+        la maison fortifiée qui me sauve.
+        Ma forteresse et mon roc, c’est toi :
+        pour l’honneur de ton nom, tu me guides et me conduis.
+
+        Tu m’arraches au filet qu’ils m’ont tendu ;
+        oui, c’est toi mon abri.
+        En tes mains je remets mon esprit ;
+        tu me rachètes, Seigneur, Dieu de vérité.
+
+        Moi, je suis sûr de toi, Seigneur,
+        je dis : « Tu es mon Dieu ! »
+        Mes jours sont dans ta main : délivre-moi
+        des mains hostiles qui s’acharnent.
+
+        Qu’ils sont grands, tes bienfaits !
+        Tu les réserves à ceux qui te craignent.
+        Tu combles, à la face du monde,
+        ceux qui ont en toi leur refuge.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 19, 25-27
+      headline: |-
+        « Qu’elle avait mal, qu’elle souffrait, la tendre Mère, en contemplant son divin Fils tourmenté ! » (Stabat Mater)
+      acclamationAntiphon: |-
+        Bienheureuse Vierge Marie !
+        Près de la croix du Seigneur,
+        sans connaître la mort
+        elle a mérité la gloire du martyre.
+      content: |-
+        Près de la croix de Jésus se tenaient sa mère
+        >et la sœur de sa mère, Marie, femme de Cléophas,
+        >et Marie Madeleine.
+        Jésus, voyant sa mère,
+        >et près d’elle le disciple qu’il aimait,
+        dit à sa mère :
+        >« Femme, voici ton fils. »
+        Puis il dit au disciple :
+        >« Voici ta mère. »
+        Et à partir de cette heure-là,
+        >le disciple la prit chez lui.
+  offeringPrayer:
+  - |-
+    Pour la gloire de ton nom, Dieu de miséricorde, +
+    accepte les prières et les offrandes que nous te présentons
+    >en l’honneur de la bienheureuse Vierge Marie, *
+    puisque, dans ta bonté, tu as fait d’elle notre Mère très aimante /
+    >quand elle se tenait près de la croix de Jésus.
+    Lui qui vit et règne pour les siècles des siècles.
+  communionAntiphon:
+  - biblicalReference: cf. 1P 4,13
+    content: |-
+      Dans la mesure où vous communiez aux souffrances du Christ, réjouissez-vous,
+      afin d’être dans la joie et l’allégresse
+      >quand sa gloire se révélera.
+  prayerAfterCommunion:
+  - |-
+    Après avoir reçu le sacrement de l’éternelle rédemption,
+    >nous te supplions, Seigneur : *
+    >en rappelant la compassion de la bienheureuse Vierge Marie,
+    >puissions-nous accomplir, pour l’Église, /
+    >ce qui reste à souffrir des épreuves du Christ.
+    Lui qui vit et règne pour les siècles des siècles.

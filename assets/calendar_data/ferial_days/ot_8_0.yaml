@@ -62,8 +62,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 17,19-20
+    content: |-
+      Le Seigneur s’est fait mon protecteur, il m’a dégagé, mis au large,
+      >il m’a libéré, car il m’aime.
+  collect:
+  - |-
+    Nous t’en prions, Seigneur, *
+    accorde-nous de vivre dans un monde
+    où les événements se déroulent selon ton dessein de paix, *
+    et où ton Église connaisse la joie /
+    >de te servir dans la sérénité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -398,8 +411,38 @@ mass:
         de son cœur qui est mauvais :
         car ce que dit la bouche,
         c’est ce qui déborde du cœur. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu, +
+    >ce qui est offert en l’honneur de ton nom,
+    >c’est toi qui le donnes,
+    et tu reconnais dans ces offrandes
+    >notre attachement à ton service ; *
+    nous implorons ta bonté :/
+    >que ta largesse, d’où vient notre mérite, /
+    >contribue à notre récompense éternelle.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_ordinary_time_1
+  - sundays_in_ordinary_time_2
+  - sundays_in_ordinary_time_3
+  - sundays_in_ordinary_time_4
+  - sundays_in_ordinary_time_5
+  - sundays_in_ordinary_time_6
+  communionAntiphon:
+  - biblicalReference: cf. Ps 12,6; 9 A,3
+    content: |-
+      Je chanterai le Seigneur pour le bien qu’il m’a fait ;
+      je célébrerai le nom du Seigneur, le Très-Haut.
+  - biblicalReference: Mt 28,20
+    content: |-
+      Je suis avec vous tous les jours, jusqu’à la fin du monde, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as rassasiés, Seigneur,
+    >par ce don qui nous sauve, +
+    >et nous implorons ta miséricorde : *
+    par ce même sacrement qui nous fortifie en cette vie, /
+    >rends-nous, dans ta bonté, participants de la vie éternelle.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

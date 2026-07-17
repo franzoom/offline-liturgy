@@ -175,8 +175,26 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ap 5,9-10
+    content: |-
+      Tu nous as rachetés par ton sang, Seigneur,
+      >de toute tribu, langue, peuple et nation :
+      tu as fait de nous pour notre Dieu
+      >un royaume et des prêtres, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >dans la résurrection du Christ,
+    >tu nous recrées pour la vie éternelle ; +
+    dirige nos regards vers qui siège à ta droite,
+    >l’auteur de notre salut *
+    ainsi, ‘au jour où notre Sauveur viendra en majesté, /
+    >ceux que tu as fait renaître par le baptême
+    >seront revêtus de l’immortalité bienheureuse.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -268,8 +286,26 @@ mass:
         mais je vous reverrai, et votre cœur se réjouira ;
         et votre joie, personne ne vous l’enlèvera.
         En ce jour-là, vous ne me poserez plus de questions. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Reçois avec bonté les offrandes de ta famille,
+    >nous t’en prions, Seigneur, +
+    >garde-la sous ta protection : *
+    qu’elle ne perde aucun des bienfaits déjà reçus, /
+    >et aux dons éternels.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Rm 4,25
+    content: |-
+      Le Christ, notre Seigneur, livré pour nos fautes,
+      >est ressuscité pour nous rendre justes, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Seigneur,
+    >ne cesse pas de protéger avec tendresse
+    >ceux que tu as sauvés : *
+    >la passion de ton Fils les a rachetés, /
+    >qu’ils trouvent leur joie dans sa résurrection.
+    Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

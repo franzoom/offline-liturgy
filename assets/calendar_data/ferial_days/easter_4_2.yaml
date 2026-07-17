@@ -194,8 +194,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ap 19,7. 6
+    content: |-
+      Soyons dans la joie, exultons, et rendons gloire à Dieu !
+      Il règne, le Seigneur notre Dieu, le Souverain de l’univers, alléluia.
+  collect:
+  - |-
+    Dieu tout-puissant, nous t’en prions : +
+    >alors que nous célébrons le mystère
+    >de la résurrection du Seigneur, *
+    >accorde-nous d’accueillir /
+    >la joie de notre rédemption.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -288,8 +300,27 @@ mass:
         Mon Père, qui me les a données, est plus grand que tout,
         et personne ne peut les arracher de la main du Père.
         Le Père et moi, nous sommes UN. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Donne-nous, Seigneur, nous t’en prions,
+    >de te rendre grâce toujours
+    >par ces mystères de Pâques ; *
+    >qu’ils continuent l’œuvre de notre relèvement /
+    >et deviennent pour nous
+    >une source intarissable de joie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. Lc 24,46,26
+    content: |-
+      Il fallait que le Christ connaisse la souffrance
+      >et ressuscite d’entre les morts
+      >pour entrer dans sa gloire, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Ecoute nos prières, Seigneur : *
+    >que cet échange très saint où l’homme est racheté
+    >nous soutienne durant la vie présente /
+    >et nous procure les joies éternelles.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -9,3 +9,129 @@ celebration:
 oration:
   - |-
     Donne-nous, Seigneur, en abondance la sagesse de la croix et la force d’âme dont tu as voulu combler sainte Rita : nous pourrons alors supporter avec le Christ les épreuves de la vie, et participer plus profondément au mystère de sa Pâque.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Donne-nous, Seigneur, en abondance
+    >la sagesse de la Croix et la force d’âme
+    >dont tu as voulu combler sainte Rita : *
+    nous pourrons alors supporter avec le Christ
+    >les épreuves de la vie, /
+    et participer plus profondément
+    >au mystère de sa Pâque.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ph 4, 4-9
+      headline: « Ce qui est juste et pur, prenez-le à votre compte »
+      content: |-
+        Frères,
+        soyez toujours dans la joie du Seigneur ;
+        je le redis : soyez dans la joie.
+        Que votre bienveillance soit connue de tous les hommes.
+        Le Seigneur est proche.
+        Ne soyez inquiets de rien,
+        mais, en toute circonstance,
+        priez et suppliez, tout en rendant grâce,
+        pour faire connaître à Dieu vos demandes.
+        Et la paix de Dieu,
+        qui dépasse tout ce qu’on peut concevoir,
+        gardera vos cœurs et vos pensées dans le Christ Jésus.
+        Enfin, mes frères, tout ce qui est vrai et noble,
+        tout ce qui est juste et pur,
+        tout ce qui est digne d’être aimé et honoré,
+        tout ce qui s’appelle vertu
+        et qui mérite des éloges,
+        tout cela, prenez-le en compte.
+        Ce que vous avez appris et reçu,
+        ce que vous avez vu et entendu de moi,
+        mettez-le en pratique.
+        Et le Dieu de la paix sera avec vous.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 1, 1-2, 3, 4.6
+      refAbbr: 1, 2a
+      chorus:
+      - chorusRef: 1, 2a
+        chorus: |-
+          Heureux qui se plaît
+          dans la loi du Seigneur.
+      content: |-
+        Heureux est l’homme
+        qui n’entre pas au conseil des méchants,
+        qui ne suit pas le chemin des pécheurs,
+        ne siège pas avec ceux qui ricanent,
+        mais se plaît dans la loi du Seigneur
+        et murmure sa loi jour et nuit !
+
+        Il est comme un arbre
+        planté près d’un ruisseau,
+        qui donne du fruit en son temps,
+        et jamais son feuillage ne meurt ;
+        tout ce qu’il entreprend réussira.
+
+        Tel n’est pas le sort des méchants.
+        Mais ils sont comme la paille
+        balayée par le vent.
+
+        Le Seigneur connaît le chemin des justes,
+        mais le chemin des méchants se perdra.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 6, 27-38
+      headline: « Soyez miséricordieux comme votre Père est miséricordieux »
+      acclamationAntiphon: |-
+        Venez à moi,
+        vous tous qui peinez sous le poids du fardeau,
+        dit le Seigneur,
+        et moi, je vous procurerai le repos.
+      content: |-
+        En ce temps-là,
+        Jésus déclarait à ses disciples :
+        « Je vous le dis, à vous qui m’écoutez :
+        Aimez vos ennemis,
+        faites du bien à ceux qui vous haïssent.
+        Souhaitez du bien à ceux qui vous maudissent,
+        priez pour ceux qui vous calomnient.
+        À celui qui te frappe sur une joue,
+        présente l’autre joue.
+        À celui qui te prend ton manteau,
+        ne refuse pas ta tunique.
+        Donne à quiconque te demande,
+        et à qui prend ton bien, ne le réclame pas.
+        Ce que vous voulez que les autres fassent pour vous,
+        faites-le aussi pour eux.
+        Si vous aimez ceux qui vous aiment,
+        quelle reconnaissance méritez-vous ?
+        Même les pécheurs aiment ceux qui les aiment.
+        Si vous faites du bien à ceux qui vous en font,
+        quelle reconnaissance méritez-vous ?
+        Même les pécheurs en font autant.
+        Si vous prêtez à ceux dont vous espérez recevoir en retour,
+        quelle reconnaissance méritez-vous ?
+        Même les pécheurs prêtent aux pécheurs
+        pour qu’on leur rende l’équivalent.
+        Au contraire, aimez vos ennemis,
+        faites du bien et prêtez sans rien espérer en retour.
+        Alors votre récompense sera grande,
+        et vous serez les fils du Très-Haut,
+        car lui, il est bon pour les ingrats et les méchants.
+        Soyez miséricordieux comme votre Père est miséricordieux.
+        Ne jugez pas, et vous ne serez pas jugés ;
+        ne condamnez pas, et vous ne serez pas condamnés.
+        Pardonnez, et vous serez pardonnés.
+        Donnez, et l’on vous donnera :
+        c’est une mesure bien pleine, tassée, secouée, débordante,
+        qui sera versée dans le pan de votre vêtement ;
+        car la mesure dont vous vous servez pour les autres
+        servira de mesure aussi pour vous. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

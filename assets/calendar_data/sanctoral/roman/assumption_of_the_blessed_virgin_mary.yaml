@@ -200,3 +200,382 @@ vespers:
     common:
     - |-
       Aujourd’hui, la Vierge Marie est montée au ciel. Soyez dans l’allégresse : avec le Christ elle règne à jamais.
+
+
+mass:
+- massType: vigil_mass
+  name: Messe de Vigile
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Pour ta gloire, on parle de toi, Marie : (cf. Ps 86) aujourd’hui tu es élevée bien au-dessus des anges, et tu partages le triomphe du Christ à jamais.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu t’es penché sur ton humble servante, la bienheureuse Vierge Marie ;
+    >tu lui as fait la grâce incomparable
+    >de devenir, selon la chair, la mère de ton Fils unique,
+    >et tu l’as couronnée aujourd’hui
+    >d’une gloire sans pareille ; *
+    puisque nous sommes sauvés
+    par le mystère de la rédemption, /
+    >accorde-nous, à sa prière, d’être par toi élevés au ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Ch 15, 3-4.15-16 ; 16, 1-2
+      headline: |-
+        « Ils amenèrent l’arche de Dieu et l’installèrent au milieu de la tente que David avait dressée pour elle »
+      content: |-
+        En ces jours-là,
+        David rassembla tout Israël à Jérusalem
+        pour faire monter l’arche du Seigneur
+        >jusqu’à l’emplacement préparé pour elle.
+        Il réunit les fils d’Aaron et les Lévites.
+        Les Lévites transportèrent l’arche de Dieu,
+        >au moyen de barres placées sur leurs épaules,
+        comme l’avait ordonné Moïse,
+        >selon la parole du Seigneur.
+        David dit aux chefs des Lévites
+        >de mettre en place leurs frères, les chantres,
+        avec leurs instruments,
+        >harpes, cithares, cymbales,
+        >pour les faire retentir avec force en signe de joie.
+        Ils amenèrent donc l’arche de Dieu
+        et l’installèrent au milieu de la tente
+        >que David avait dressée pour elle.
+        Puis on présenta devant Dieu des holocaustes
+        >et des sacrifices de paix.
+        Quand David eut achevé d’offrir les holocaustes
+        >et les sacrifices de paix,
+        il bénit le peuple au nom du Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 131 (132), 7-8, 9-10, 13-14
+      refAbbr: 131, 8
+      chorus:
+      - chorusRef: 131, 8
+        chorus: |-
+          Monte, Seigneur, vers le lieu de ton repos,
+          toi, et l’arche de ta force !
+      content: |-
+        Entrons dans la demeure de Dieu,
+        prosternons-nous aux pieds de son trône.
+        Monte, Seigneur, vers le lieu de ton repos,
+        toi, et l’arche de ta force !
+
+        Que tes prêtres soient vêtus de justice,
+        que tes fidèles crient de joie !
+        Pour l’amour de David, ton serviteur,
+        ne repousse pas la face de ton messie.
+
+        Car le Seigneur a fait choix de Sion ;
+        elle est le séjour qu’il désire :
+        « Voilà mon repos à tout jamais,
+        c’est le séjour que j’avais désiré. »
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Co 15, 54b-57
+      headline: |-
+        « Dieu nous donne la victoire par notre Seigneur Jésus Christ »
+      content: |-
+        Frères,
+        quand cet être mortel
+        >aura revêtu l’immortalité,
+        alors se réalisera la parole de l’Écriture :
+        >La mort a été engloutie dans la victoire.
+        Ô Mort, où est ta victoire ?
+        Ô Mort, où est-il, ton aiguillon ?
+        L’aiguillon de la mort,
+        >c’est le péché ;
+        ce qui donne force au péché,
+        >c’est la Loi.
+        Rendons grâce à Dieu qui nous donne la victoire
+        >par notre Seigneur Jésus Christ.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 11, 27-28
+      headline: |-
+        « Heureuse la mère qui t’a porté en elle ! »
+      acclamationAntiphon: |-
+        Heureux ceux qui écoutent la parole de Dieu,
+        et qui la gardent !
+      content: |-
+        En ce temps-là,
+        comme Jésus était en train de parler,
+        une femme éleva la voix au milieu de la foule
+        pour lui dire :
+        >« Heureuse la mère qui t’a porté en elle,
+        >et dont les seins t’ont nourri ! »
+        Alors Jésus lui déclara :
+        >« Heureux plutôt ceux qui écoutent la parole de Dieu,
+        >et qui la gardent ! »
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >accueille le sacrifice de louange et de paix
+    >que nous célébrons pour fêter
+    >l’Assomption de la sainte Mère de Dieu ; *
+    qu’il nous obtienne ton pardon /
+    >et nous garde toujours dans l’action de grâce.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - assumption_of_the_blessed_virgin_mary
+  eucharisticPrayers:
+  - PE1: |-
+      Unis dans une même communion,
+      nous célébrons le jour où la Vierge Marie
+      >a été élevée dans la gloire du ciel,
+      et vénérant d’abord la mémoire 
+      >de cette Vierge bienheureuse,
+      Mère de notre Dieu et Seigneur, Jésus Christ, 
+  - PE2: |-
+      Toi qui es vraiment saint,
+      toi qui es la source de toute sainteté, Dieu notre Père,
+      nous voici rassemblés devant toi,
+      >et, dans la communion de toute l’Église,
+      >nous célébrons le jour où la Vierge, Mère de Dieu,
+      >a été élevée au ciel, dans la gloire de son fils,
+      >Jésus Christ, notre Seigneur.
+      Par lui, qui est à l’origine de notre foi
+      >et qui la mène à sa perfection,
+      >nous te prions : 
+  - PE3: |-
+      C’est pourquoi nous voici rassemblés devant toi, Dieu notre Père,
+      et, dans la communion de toute l’Église,
+      >nous célébrons le jour où la Vierge, Mère de Dieu,
+      >a été élevée au ciel, dans la gloire de son fils,
+      >Jésus Christ, notre Seigneur.
+      Par lui, qui est à l’origine de notre foi
+      >et qui la mène à sa perfection,
+      >nous te supplions de consacrer toi-même
+      >les offrandes que nous apportons : 
+  communionAntiphon:
+  - biblicalReference: cf. Lc 11,27
+    content: |-
+      Heureuse la Vierge Marie,
+      >qui a porté dans son sein le Fils du Père éternel.
+  prayerAfterCommunion:
+  - |-
+    Après avoir participé à la table du ciel,
+    >nous implorons ta bonté, Seigneur notre Dieu : *
+    >puisque nous célébrons l’Assomption de la Mère de Dieu
+    >délivre-nous de toute menace du mal, /
+    Par le Christ, notre Seigneur.
+
+- massType: day_mass
+  name: Messe du jour
+  entranceAntiphon:
+  - biblicalReference: Cf. Ap 12,1
+    content: |-
+      Un signe grandiose apparut dans le ciel :
+      >une femme, ayant le soleil pour manteau,
+      >la lune sous les pieds
+      >et, sur la tête, une couronne de douze étoiles.
+  - biblicalReference: null
+    content: |-
+      Tous ensemble, réjouissons-nous dans le Seigneur,
+      >célébrons ce jour de fête en l’honneur de la Vierge Marie.
+      Les anges se réjouissent avec nous de son Assomption dans le ciel
+      >et proclament les louanges du Fils de Dieu.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >tu as élevé jusqu’à la gloire du ciel,
+    >dans son âme et son corps,
+    >Marie, la Vierge immaculée, la mère de ton Fils ; *
+    fais que, toujours tendus vers les réalités d’en haut, /
+    >nous obtenions de partager sa gloire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ap 11, 19a ; 12, 1-6a.10ab
+      headline: |-
+        « Une Femme, ayant le soleil pour manteau et la lune sous les pieds »
+      content: |-
+        Le sanctuaire de Dieu, qui est dans le ciel, s’ouvrit,
+        >et l’arche de son Alliance apparut dans le Sanctuaire.
+        Un grand signe apparut dans le ciel :
+        une Femme,
+        >ayant le soleil pour manteau,
+        >la lune sous les pieds,
+        >et sur la tête une couronne de douze étoiles.
+        Elle est enceinte, elle crie,
+        >dans les douleurs et la torture d’un enfantement.
+        Un autre signe apparut dans le ciel :
+        un grand Dragon, rouge feu,
+        >avec sept têtes et dix cornes,
+        >et, sur chacune des sept têtes, un diadème.
+        Sa queue, entraînant le tiers des étoiles du ciel,
+        >les précipita sur la terre.
+        Le Dragon vint se poster devant la Femme qui allait enfanter,
+        >afin de dévorer l’enfant dès sa naissance.
+        Or, elle mit au monde un fils, un enfant mâle,
+        >celui qui sera le berger de toutes les nations,
+        >les conduisant avec un sceptre de fer.
+        L’enfant fut enlevé jusqu’auprès de Dieu et de son Trône,
+        et la Femme s’enfuit au désert,
+        >où Dieu lui a préparé une place.
+        Alors j’entendis dans le ciel une voix forte,
+        qui proclamait :
+        >« Maintenant voici le salut,
+        >la puissance et le règne de notre Dieu,
+        >voici le pouvoir de son Christ ! »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 44 (45), 11-12a, 12b-13, 14-15a, 15b-16
+      refAbbr: 44, 11…
+      chorus:
+      - chorusRef: cf. 44, 10b
+        chorus: |-
+          Debout, à la droite du Seigneur,
+          se tient la reine, toute parée d’or.
+      content: |-
+        Écoute, ma fille, regarde et tends l’oreille ;
+        oublie ton peuple et la maison de ton père :
+        le roi sera séduit par ta beauté.
+
+        Il est ton Seigneur : prosterne-toi devant lui.
+        Alors, les plus riches du peuple,
+        chargés de présents, quêteront ton sourire.
+
+        Fille de roi, elle est là, dans sa gloire,
+        vêtue d’étoffes d’or ;
+        on la conduit, toute parée, vers le roi.
+
+        Des jeunes filles, ses compagnes, lui font cortège ;
+        on les conduit parmi les chants de fête :
+        elles entrent au palais du roi.
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Co 15, 20-27a
+      headline: |-
+        « En premier, le Christ ; ensuite, ceux qui lui appartiennent »
+      content: |-
+        Frères,
+        le Christ est ressuscité d’entre les morts,
+        >lui, premier ressuscité parmi ceux qui se sont endormis.
+        Car, la mort étant venue par un homme,
+        >c’est par un homme aussi que vient la résurrection des morts.
+        En effet, de même que tous les hommes
+        >meurent en Adam,
+        de même c’est dans le Christ
+        >que tous recevront la vie,
+        mais chacun à son rang :
+        >en premier, le Christ,
+        et ensuite, lors du retour du Christ,
+        >ceux qui lui appartiennent.
+        Alors, tout sera achevé,
+        quand le Christ remettra le pouvoir royal à Dieu son Père,
+        >après avoir anéanti, parmi les êtres célestes,
+        >toute Principauté, toute Souveraineté et Puissance.
+        Car c’est lui qui doit régner
+        >jusqu’au jour où Dieu aura mis sous ses pieds tous ses ennemis.
+        Et le dernier ennemi qui sera anéanti,
+        >c’est la mort,
+        >car il a tout mis sous ses pieds.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 39-56
+      headline: |-
+        « Le Puissant fit pour moi des merveilles : il élève les humbles »
+      acclamationAntiphon: |-
+        Aujourd’hui s’est ouverte la porte du paradis :
+        Marie est entrée dans la gloire de Dieu ;
+        exultez dans le ciel, tous les anges !
+      content: |-
+        En ces jours-là,
+        Marie se mit en route et se rendit avec empressement
+        >vers la région montagneuse, dans une ville de Judée.
+        Elle entra dans la maison de Zacharie
+        >et salua Élisabeth.
+        Or, quand Élisabeth entendit la salutation de Marie,
+        >l’enfant tressaillit en elle.
+        Alors, Élisabeth fut remplie d’Esprit Saint,
+        et s’écria d’une voix forte :
+        >« Tu es bénie entre toutes les femmes,
+        >et le fruit de tes entrailles est béni.
+        D’où m’est-il donné
+        >que la mère de mon Seigneur vienne jusqu’à moi ?
+        Car, lorsque tes paroles de salutation sont parvenues à mes oreilles,
+        >l’enfant a tressailli d’allégresse en moi.
+        Heureuse celle qui a cru à l’accomplissement des paroles
+        >qui lui furent dites de la part du Seigneur. »
+        Marie dit alors :
+        « Mon âme exalte le Seigneur,
+        >exulte mon esprit en Dieu, mon Sauveur !
+        Il s’est penché sur son humble servante ;
+        >désormais tous les âges me diront bienheureuse.
+        Le Puissant fit pour moi des merveilles ;
+        >Saint est son nom !
+        Sa miséricorde s’étend d’âge en âge
+        >sur ceux qui le craignent.
+        Déployant la force de son bras,
+        >il disperse les superbes.
+        Il renverse les puissants de leurs trônes,
+        >il élève les humbles.
+        Il comble de biens les affamés,
+        >renvoie les riches les mains vides.
+        Il relève Israël son serviteur,
+        >il se souvient de son amour,
+        >de la promesse faite à nos pères,
+        >en faveur d’Abraham et sa descendance à jamais. »
+        Marie resta avec Élisabeth environ trois mois,
+        puis elle s’en retourna chez elle.
+  offeringPrayer:
+  - |-
+    Que monte vers toi, Seigneur,
+    >l’offrande que nous te présentons avec ferveur ; *
+    >et tandis qu’intercède pour nous
+    >la bienheureuse Vierge Marie élevée au ciel, /
+    que nos cœurs, brûlants de charité,
+    >aspirent toujours à monter vers toi.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - assumption_of_the_blessed_virgin_mary  
+  eucharisticPrayers:
+  - PE1: |-
+      Unis dans une même communion,
+      >nous célébrons le jour où la Vierge Marie
+      >a été élevée dans la gloire du ciel,
+      et vénérant d’abord la mémoire 
+      >de cette Vierge bienheureuse,
+      >Mère de notre Dieu et Seigneur, Jésus Christ,
+  - PE2: |-
+      Toi qui es vraiment saint,
+      >toi qui es la source de toute sainteté, Dieu notre Père,
+      nous voici rassemblés devant toi,
+      >et, dans la communion de toute l’Église,
+      >nous célébrons le jour où la Vierge, Mère de Dieu,
+      >a été élevée au ciel, dans la gloire de son fils,
+      >Jésus Christ, notre Seigneur.
+      Par lui, qui est à l’origine de notre foi
+      >et qui la mène à sa perfection,
+      >nous te prions :
+  - PE3: |-
+      C’est pourquoi nous voici rassemblés devant toi, Dieu notre Père,
+      >et, dans la communion de toute l’Église,
+      >nous célébrons le jour où la Vierge, Mère de Dieu,
+      >a été élevée au ciel, dans la gloire de son fils,
+      >Jésus Christ, notre Seigneur.
+      Par lui, qui est à l’origine de notre foi
+      >et qui la mène à sa perfection,
+      nous te supplions de consacrer toi-même
+      >les offrandes que nous apportons :
+  communionAntiphon:
+  - biblicalReference: cf. Lc 1,48-49
+    content: |-
+      Tous les âges me diront bienheureuse : le Puissant fit pour moi des merveilles.
+  prayerAfterCommunion:
+  - |-
+    Nous avons reçu, Seigneur,
+    le sacrement qui nous sauve ; *
+    par l’intercession de la bienheureuse Vierge Marie élevée au ciel, /
+    accorde-nous de parvenir à la gloire de la résurrection.
+    Par le Christ, notre Seigneur.

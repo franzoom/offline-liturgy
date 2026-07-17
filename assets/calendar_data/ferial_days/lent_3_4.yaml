@@ -205,8 +205,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Je suis le salut de mon peuple, dit le Seigneur,
+      dans toutes les épreuves, s’il crie vers moi, je l’exaucerai ;
+      >je serai son Seigneur pour toujours.
+  collect:
+  - |-
+    Nous te supplions humblement, Seigneur souverain : *
+    >à mesure qu’approche le jour
+    >où nous fêterons notre salut, /
+    accorde-nous une plus grande générosité
+    >pour nous préparer à célébrer le mystère pascal.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -306,8 +320,43 @@ mass:
         et il distribue tout ce dont il l’a dépouillé.
         Celui qui n’est pas avec moi est contre moi ;
         celui qui ne rassemble pas avec moi disperse. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Pour que les offrandes de ton peuple
+    >te soient agréables, Seigneur, +
+    >préserve-nous de toute contagion du mal : *
+    ne permets pas qu’il s’attache à de fausses joies ,
+    >lui que tu veux mener à ta vérité,
+    >promise en récompense.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 118,4-5
+    content: |-
+      Toi, tu promulgues des préceptes
+      >à observer entièrement.
+      Puissent mes voies s’affermir
+      >à observer tes commandements !
+  prayerAfterCommunion:
+  - |-
+    Par ton secours, Dieu de bonté,
+    >relève ceux que tu réconfortes par tes sacrements, *
+    afin que de recueillir les fruits de ton œuvre de salut /
+    >dans ces mystères et dans toute notre conduite.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Sûrs de ta miséricorde,
+    >nous implorons ta bonté, Seigneur : +
+    >nous tenons de toi d’être ce que nous sommes ; *
+    de même, que ta grâce nous accorde
+    >à la fois de vouloir le bien /
+    >et de pouvoir accomplir ce bien que nous voulons.
+    Par le Christ, notre Seigneur
+    .
   solemnBlessingList: null

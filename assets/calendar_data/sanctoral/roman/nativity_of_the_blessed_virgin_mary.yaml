@@ -130,3 +130,204 @@ vespers:
   evangelicAntiphon:
     common: |-
       Célébrons la Vierge Marie au jour de sa naissance : en elle nous fêtons la mère du Sauveur.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Célébrons dans la joie
+      >la naissance de la bienheureuse Vierge Marie :
+      par elle s’est levé le Soleil de justice, le Christ notre Dieu.
+  collect:
+  - |-
+    Ouvre à tes serviteurs
+    >les richesses de la grâce du ciel,
+    >Seigneur, nous t’en prions : *
+    >puisque la maternité de la bienheureuse Vierge Marie
+    >fut à l’origine de notre salut /
+    >que la fête de sa Nativité
+    >nous apporte un surcroît de paix.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Mi 5, 1-4a
+      headline: |-
+        « Jusqu’au jour où enfantera... celle qui doit enfanter »
+      content: |-
+        Ainsi parle le Seigneur :
+        Toi, Bethléem Éphrata,
+        >le plus petit des clans de Juda,
+        c’est de toi que sortira pour moi
+        >celui qui doit gouverner Israël.
+        Ses origines remontent aux temps anciens,
+        >aux jours d’autrefois.
+        Mais Dieu livrera son peuple
+        >jusqu’au jour où enfantera...
+        celle qui doit enfanter,
+        et ceux de ses frères qui resteront
+        >rejoindront les fils d’Israël.
+        Il se dressera et il sera leur berger
+        >par la puissance du Seigneur,
+        >par la majesté du nom du Seigneur, son Dieu.
+        Ils habiteront en sécurité,
+        >car désormais il sera grand jusqu’aux lointains de la terre,
+        >et lui-même, il sera la paix !
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 12 (13), 6ab, 6cd
+      refAbbr: null
+      chorus:
+      - chorusRef: cf. Is 61,10
+        chorus: |-
+          J’exulterai de joie
+          en Dieu, mon Seigneur.
+      content: |-
+        Moi, je prends appui sur ton amour ;
+        que mon cœur ait la joie de ton salut !
+
+        Je chanterai le Seigneur
+        pour le bien qu’il m’a fait.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 1, 1-16.18-23
+      headline: |-
+        « L’enfant qui est engendré en elle vient de l’Esprit Saint »
+      acclamationAntiphon: |-
+        Heureuse es-tu, sainte Vierge Marie,
+        tu es digne de toute louange :
+        de toi s’est levé le soleil de justice,
+        le Christ notre Dieu.
+      content: |-
+        Généalogie de Jésus, Christ,
+        >fils de David, fils d’Abraham.
+        Abraham engendra Isaac,
+        Isaac engendra Jacob,
+        Jacob engendra Juda et ses frères,
+        Juda, de son union avec Thamar, engendra Pharès et Zara,
+        Pharès engendra Esrom,
+        Esrom engendra Aram,
+        Aram engendra Aminadab,
+        Aminadab engendra Naassone,
+        Naassone engendra Salmone,
+        Salmone, de son union avec Rahab, engendra Booz,
+        Booz, de son union avec Ruth, engendra Jobed,
+        Jobed engendra Jessé,
+        Jessé engendra le roi David.
+        David, de son union avec la femme d’Ourias, engendra Salomon,
+        Salomon engendra Roboam,
+        Roboam engendra Abia,
+        Abia engendra Asa,
+        Asa engendra Josaphat,
+        Josaphat engendra Joram,
+        Joram engendra Ozias,
+        Ozias engendra Joatham,
+        Joatham engendra Acaz,
+        Acaz engendra Ézékias,
+        Ézékias engendra Manassé,
+        Manassé engendra Amone,
+        Amone engendra Josias,
+        Josias engendra Jékonias et ses frères
+        >à l’époque de l’exil à Babylone.
+        Après l’exil à Babylone,
+        Jékonias engendra Salathiel,
+        Salathiel engendra Zorobabel,
+        Zorobabel engendra Abioud,
+        Abioud engendra Éliakim,
+        Éliakim engendra Azor,
+        Azor engendra Sadok,
+        Sadok engendra Akim,
+        Akim engendra Élioud,
+        Élioud engendra Éléazar,
+        Éléazar engendra Mattane,
+        Mattane engendra Jacob,
+        Jacob engendra Joseph, l’époux de Marie,
+        de laquelle fut engendré Jésus,
+        >que l’on appelle Christ.
+        Voici comment fut engendré Jésus Christ :
+        Marie, sa mère,
+        >avait été accordée en mariage à Joseph ;
+        avant qu’ils aient habité ensemble,
+        >elle fut enceinte
+        >par l’action de l’Esprit Saint.
+        Joseph, son époux,
+        >qui était un homme juste,
+        et ne voulait pas la dénoncer publiquement,
+        >décida de la renvoyer en secret.
+        Comme il avait formé ce projet,
+        voici que l’ange du Seigneur
+        lui apparut en songe et lui dit :
+        >« Joseph, fils de David,
+        >ne crains pas de prendre chez toi Marie, ton épouse,
+        >puisque l’enfant qui est engendré en elle
+        >vient de l’Esprit Saint ;
+        >elle enfantera un fils,
+        >et tu lui donneras le nom de Jésus
+        >(c’est-à-dire : Le-Seigneur-sauve),
+        >car c’est lui qui sauvera son peuple de ses péchés. »
+        Tout cela est arrivé
+        pour que soit accomplie
+        la parole du Seigneur prononcée par le prophète :
+        >Voici que la Vierge concevra,
+        >et elle enfantera un fils ;
+        >on lui donnera le nom d’Emmanuel
+        >qui se traduit : « Dieu-avec-nous ».
+  offeringPrayer:
+  - |-
+    Dans son amour pour l’humanité,
+    >que ton Fils unique vienne à notre secours, Seigneur ; *
+    sa naissance n’a pas altéré
+    >mais consacré l’intégrité virginale de sa mère ; *
+    qu’il nous délivre de nos péchés /
+    >et te rende agréable cette offrande.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - the_blessed_virgin_mary_1
+  - the_blessed_virgin_mary_2
+  eucharisticPrayers:
+  - PE1: |-
+      Unis dans une même communion,
+      >nous célébrons le jour de la naissance de la Vierge Marie,
+      >que tu as choisie depuis toujours
+      >pour être la mère du Sauveur ;
+      et vénérant d’abord la mémoire
+      >de cette Vierge bienheureuse,
+      >la Mère de notre Dieu et Seigneur, Jésus Christ,
+
+  - PE2: |-
+      Toi qui es vraiment saint,
+      >toi qui es la source de toute sainteté, Dieu notre Père,
+      nous voici rassemblés devant toi,
+      >et, dans la communion de toute l’Église,
+      >nous célébrons le jour de la naissance de la Vierge Marie,
+      >que tu avais choisie depuis toujours pour être la mère
+      >de notre Rédempteur et Sauveur, Jésus Christ.
+      Par lui, nous te prions :
+  - PE3: |-
+      C’est pourquoi nous voici rassemblés devant toi,
+      >Dieu notre Père,
+      >et, dans la communion de toute l’Église,
+      >nous célébrons le jour de la naissance de la Vierge Marie,
+      >que tu avais choisie depuis toujours pour être la mère
+      >de notre Rédempteur et Sauveur, Jésus Christ.
+      Par lui, nous te supplions de consacrer toi-même
+      >les offrandes que nous apportons : 
+
+  communionAntiphon:
+  - biblicalReference: cf. Is 7,14 ; Mt 1,21
+    content: |-
+      Voici que la Vierge enfantera un fils ;
+      >c’est lui qui sauvera son peuple de ses péchés.
+  prayerAfterCommunion:
+  - |-
+    Qu’exulte ton Église, Seigneur,
+    >elle dont tu as refait les forces
+    >par des saints mystères, *
+    >car elle se réjouit de la Nativité
+    >de la bienheureuse Vierge Marie /
+    >qui fit lever sur le monde
+    >l’espérance et l’aurore du salut.
+    Par le Christ, notre Seigneur.

@@ -189,8 +189,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ap 19,5; 12,10
+    content: |-
+      Louez notre Dieu,
+      >vous tous qui le craignez, les petits et les grands.
+      Maintenant voici le salut,
+      >la puissance et le pouvoir de son Christ, alléluia !
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >à ceux que tu as fait renaître de l’eau et de l’Esprit Saint,
+    >tu ouvres le royaume des Cieux ; *
+    fais grandir ta grâce en tes serviteurs,
+    >afin que, déjà purifiés de leurs fautes, /
+    >ils ne rendent vaine aucune des promesses de ton amour.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -290,8 +306,24 @@ mass:
         « Moi, je suis le pain de la vie.
         Celui qui vient à moi n’aura jamais faim ;
         celui qui croit en moi n’aura jamais soif. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Accueille, nous t’en prions, Seigneur,
+    >les dons de ton Église en fête ; *
+    >tu es pour elle à l’origine d’un si grand bonheur, /
+    >qu’il s’épanouisse en joie éternelle.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: Rm 6,8
+    content: |-
+      Si nous sommes passés par la mort avec le Christ,
+      >nous croyons que nous vivrons aussi avec lui, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Regarde avec bonté, Seigneur, nous t’en prions,
+    >le peuple que tu as rénové par tes sacrements ; *
+    >accorde-nous de parvenir à la vie incorruptible /
+    >lorsque notre chair ressuscitera dans la gloire.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

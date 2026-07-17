@@ -180,8 +180,21 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: PS 85,8.10
+    content: |-
+      Aucun parmi les dieux n’est comme toi, Seigneur,
+      >car tu es grand et tu fais des merveilles,
+      >toi, Dieu, le seul.
+  collect:
+  - |-
+    Seigneur, nous t’en prions : +
+    >dans ta bonté, répands ta grâce en nos cœurs, *
+    >arrache-nous aux égarements de la faiblesse humaine /
+    et accorde-nous de nous attacher avec force à tes enseignements.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -290,8 +303,38 @@ mass:
         Jésus, voyant qu’il avait fait une remarque judicieuse, lui dit :
         « Tu n’es pas loin du royaume de Dieu. »
         Et personne n’osait plus l’interroger.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Jette un regard bienveillant, Seigneur,
+    >sur les offrandes que nous te consacrons ; *
+    >qu’elles te soient agréables, /
+    >et nous apportent toujours le salut.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: cf. Mc 12,33
+    content: |-
+      Aimer Dieu de tout son cœur,
+      >et son prochain comme soi-même
+      >vaut mieux que tous les sacrifices.
+  prayerAfterCommunion:
+  - |-
+    Que la puissance de ton action, Seigneur,
+    imprègne nos esprits et nos corps ; *
+    ce que nous avons déjà reçu en participant au sacrement, /
+    >puissions-nous le posséder dans la plénitude du salut.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Regarde favorablement, Seigneur,
+    >tes fidèles qui implorent ta miséricorde ; *
+    >et comme ils mettent leur confiance en ta tendresse , /
+    puissent-ils répandre en tout lieu
+    >les dons de ta charité.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

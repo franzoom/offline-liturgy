@@ -35,3 +35,114 @@ readings:
         Vous tous, disciples du Seigneur,
         fortifiez-vous
         dans la grâce du Seigneur Jésus !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as voulu que la foi trouve dans le martyre
+    son expression la plus parfaite ; *
+    >à la prière des saints Jean Fisher et Thomas More,
+    >accorde-nous, dans ta bonté, /
+    >la force de confirmer par le témoignage de notre vie
+    >la foi que nos lèvres proclament.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1P 4, 12-19
+      headline: « Puisque vous communiez aux souffrances du Christ, réjouissez-vous ! »
+      content: |-
+        Bien-aimés,
+        ne trouvez pas étrange le brasier allumé parmi vous
+        pour vous mettre à l’épreuve ;
+        ce qui vous arrive n’a rien d’étrange.
+        Dans la mesure où vous communiez aux souffrances du Christ,
+        réjouissez-vous,
+        afin d’être dans la joie et l’allégresse
+        quand sa gloire se révélera.
+        Si l’on vous insulte pour le nom du Christ,
+        heureux êtes-vous,
+        parce que l’Esprit de gloire, l’Esprit de Dieu,
+        repose sur vous.
+        Que personne d’entre vous, en effet,
+        n’ait à souffrir comme meurtrier, voleur, malfaiteur,
+        ou comme agitateur.
+        Mais si c’est comme chrétien,
+        qu’il n’ait pas de honte,
+        et qu’il rende gloire à Dieu pour ce nom-là.
+        Car voici le temps du jugement :
+        il commence par la famille de Dieu.
+        Or, s’il vient d’abord sur nous,
+        quelle sera la fin de ceux qui refusent d’obéir à l’Évangile de Dieu ?
+        Et, si le juste est sauvé à grand-peine,
+        l’impie, le pécheur, où va-t-il se montrer ?
+        Ainsi, ceux qui souffrent
+        en faisant la volonté de Dieu,
+        qu’ils confient leurs âmes au Créateur fidèle,
+        en faisant le bien.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: cf. 125, 5
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 10, 34-39
+      headline: « Je ne suis pas venu apporter la paix, mais le glaive »
+      acclamationAntiphon: |-
+        Heureux ceux qui sont persécutés pour la justice,
+        car le royaume des Cieux est à eux !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses Apôtres :
+        « Ne pensez pas que je sois venu
+        apporter la paix sur la terre :
+        je ne suis pas venu apporter la paix, mais le glaive.
+        Oui, je suis venu séparer
+        l’homme de son père,
+        la fille de sa mère,
+        la belle-fille de sa belle-mère :
+        on aura pour ennemis les gens de sa propre maison.
+        Celui qui aime son père ou sa mère plus que moi
+        n’est pas digne de moi ;
+        celui qui aime son fils ou sa fille plus que moi
+        n’est pas digne de moi ;
+        celui qui ne prend pas sa croix et ne me suit pas
+        n’est pas digne de moi.
+        Qui a trouvé sa vie
+        la perdra ;
+        qui a perdu sa vie à cause de moi
+        la trouvera. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

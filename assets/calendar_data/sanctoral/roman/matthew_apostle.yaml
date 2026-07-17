@@ -58,3 +58,133 @@ morning:
 vespers:
   evangelicAntiphon:
     common: Je veux la miséricorde et non les sacrifices. Je suis venu appeler les pécheurs.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: Mt 28,19-20
+    content: |-
+      Allez, dit le Seigneur, de toutes les nations faites des disciples ;
+      baptisez-les, et apprenez-leur à observer
+      >tout ce que je vous ai commandé.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >dans ta miséricorde sans égale,
+    >tu as choisi le bienheureux Matthieu
+    >pour faire de ce publicain un apôtre ; *
+    donne-nous, par sa prière et à son exemple, /
+    >de te suivre et de nous attacher à toi fermement.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ep 4, 1-7.11-13
+      headline: |-
+        « Les dons qu’il a faits, ce sont les Apôtres et aussi les évangélisateurs »
+      content: |-
+        Frères,
+        moi qui suis en prison à cause du Seigneur,
+        je vous exhorte à vous conduire
+        >d’une manière digne de votre vocation :
+        ayez beaucoup d’humilité, de douceur et de patience,
+        supportez-vous les uns les autres avec amour ;
+        ayez soin de garder l’unité dans l’Esprit
+        >par le lien de la paix.
+        Comme votre vocation vous a tous appelés à une seule espérance,
+        >de même il y a un seul Corps et un seul Esprit.
+        Il y a un seul Seigneur, une seule foi, un seul baptême,
+        un seul Dieu et Père de tous,
+        >au-dessus de tous,
+        >par tous, et en tous.
+        À chacun d’entre nous, la grâce a été donnée
+        >selon la mesure du don fait par le Christ.
+        Et les dons qu’il a faits,
+        >ce sont les Apôtres,
+        >et aussi les prophètes, les évangélisateurs,
+        >les pasteurs et ceux qui enseignent.
+        De cette manière, les fidèles sont organisés
+        >pour que les tâches du ministère soient accomplies
+        >et que se construise le corps du Christ,
+        jusqu’à ce que nous parvenions tous ensemble
+        >à l’unité dans la foi et la pleine connaissance du Fils de Dieu,
+        >à l’état de l’Homme parfait,
+        >à la stature du Christ dans sa plénitude.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 18A (19), 2-3, 4-5ab
+      refAbbr: cf. 18, 5a
+      chorus:
+      - chorusRef: cf. 18, 5a
+        chorus: |-
+          Par toute la terre s’en va leur message.
+      content: |-
+        Les cieux proclament la gloire de Dieu,
+        le firmament raconte l’ouvrage de ses mains.
+        Le jour au jour en livre le récit
+        et la nuit à la nuit en donne connaissance.
+
+        Pas de paroles dans ce récit,
+        pas de voix qui s’entende ;
+        mais sur toute la terre en paraît le message
+        et la nouvelle, aux limites du monde.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 9, 9-13
+      headline: |-
+        « Suis-moi. L’homme se leva et le suivit »
+      acclamationAntiphon: |-
+        À toi, Dieu, notre louange !
+        Toi que les Apôtres glorifient,
+        nous t’acclamons : tu es Seigneur !
+      content: |-
+        En ce temps-là,
+        Jésus sortit de Capharnaüm
+        et vit, en passant, un homme, du nom de Matthieu,
+        >assis à son bureau de collecteur d’impôts.
+        Il lui dit :
+        >« Suis-moi. »
+        L’homme se leva et le suivit.
+        Comme Jésus était à table à la maison,
+        >voici que beaucoup de publicains
+        >(c’est-à-dire des collecteurs d’impôts)
+        >et beaucoup de pécheurs
+        >vinrent prendre place avec lui et ses disciples.
+        Voyant cela, les pharisiens disaient à ses disciples :
+        >« Pourquoi votre maître mange-t-il
+        >avec les publicains et les pécheurs ? »
+        Jésus, qui avait entendu, déclara :
+        >« Ce ne sont pas les gens bien portants
+        >qui ont besoin du médecin,
+        >mais les malades.
+        Allez apprendre ce que signifie :
+        >je veux la miséricorde, non le sacrifice.
+        En effet, je ne suis pas venu appeler des justes,
+        >mais des pécheurs. »
+  offeringPrayer:
+  - |-
+    En ce jour où nous honorons
+    >la mémoire du bienheureux Matthieu,
+    >nous te présentons, Seigneur,
+    >nos prières et nos offrandes ; *
+    >nous t’en supplions :
+    >regarde ton Église avec bienveillance, /
+    >puisque tu as nourri sa foi
+    >par la prédication des Apôtres.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Mt 9,13
+    content: |-
+      Je ne suis pas venu appeler des justes, mais des pécheurs, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Tu nous fais participer, Seigneur,
+    >à la joie du salut, que le bienheureux Matthieu éprouva
+    >en accueillant tout heureux
+    >le Sauveur dans sa maison ; *
+    >donne-nous de pouvoir toujours refaire nos forces
+    >à la table de celui qui est venu appeler au salut /
+    >non pas des justes, mais des pécheurs.
+    Lui qui vit et règne pour les siècles des siècles.

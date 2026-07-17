@@ -211,8 +211,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ha 2,3; 1 Co 4,5
+    content: |-
+      Le Seigneur va venir sans tarder
+      >éclairer ce que voilent nos ténèbres
+      >et se manifester à toutes les nations.
+  collect:
+  - |-
+    Dieu tout-puissant, +
+    >tu nous demandes de préparer
+    >le chemin du Christ, le Seigneur ; *
+    dans ta bonté, ne permets pas que la faiblesse nous accable, /
+    >nous qui attendons d’être réconfortés
+    >par la présence du médecin qui vient du ciel.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -288,8 +302,26 @@ mass:
          et vous trouverez le repos pour votre âme.
          Oui, mon joug est facile à porter,
          et mon fardeau, léger. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur, +
+    >accorde-nous de t’offrir toujours
+    >ce sacrifice d’un cœur généreux : *
+    qu’il réalise le mystère sacré que tu as institué, /
+    >et opère en nous ton salut avec puissance.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - advent_1
+  communionAntiphon:
+  - biblicalReference: Is 40,10; cf. 34,5
+    content: |-
+      Voici le Seigneur Dieu qui vient avec puissance ;
+      >il vient illuminer le regard de ceux qui le servent.
+  prayerAfterCommunion:
+  - |-
+    Nous implorons, Seigneur, ta bonté : *
+    >que ce réconfort divin
+    nous délivre de nos penchants mauvais /
+    >et nous prépare aux fêtes qui approchent.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

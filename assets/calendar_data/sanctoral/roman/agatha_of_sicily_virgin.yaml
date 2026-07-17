@@ -3,8 +3,8 @@ celebration:
   subtitle: vierge et martyre
   description: Agathe est une jeune Sicilienne qui mourut pour le Christ à Catane lors de la persécution de Dèce (251). Ses concitoyens l’ont toujours invoquée avec confiance, spécialement lors des éruptions de l’Etna, et son culte s’est répandu aussi bien en Orient qu’en Occident.
   commons:
+  - martyr_female_virgin  
   - virgins
-  - martyr_female_virgin
   color: red
 
 oration:
@@ -43,3 +43,98 @@ vespers:
     common:
     - |-
       Grâces te soient rendues, Seigneur Jésus : tu m’as fait triompher de mes bourreaux, conduis-moi jusqu’à ta gloire éternelle.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Nous t’en prions, Seigneur,+
+    >que la bienheureuse Agathe, vierge et martyre,
+    >implore pour nous le pardon, *
+    elle qui sut toujours te plaire
+    >par le courage de son martyre/
+    >et le mérite de sa chasteté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1 Co 1, 26-31
+      headline: « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
+      content: |-
+        Frères,
+        vous qui avez été appelés par Dieu, regardez bien :
+        parmi vous, il n’y a pas beaucoup de sages aux yeux des hommes,
+        ni de gens puissants ou de haute naissance.
+        Au contraire, ce qu’il y a de fou dans le monde,
+        voilà ce que Dieu a choisi,
+        pour couvrir de confusion les sages ;
+        ce qu’il y a de faible dans le monde,
+        voilà ce que Dieu a choisi,
+        pour couvrir de confusion ce qui est fort ;
+        ce qui est d’origine modeste, méprisé dans le monde,
+        ce qui n’est pas,
+        voilà ce que Dieu a choisi,
+        pour réduire à rien ce qui est ;
+        ainsi aucun être de chair ne pourra s’enorgueillir devant Dieu.
+        C’est grâce à Dieu, en effet, que vous êtes dans le Christ Jésus,
+        lui qui est devenu pour nous sagesse venant de Dieu,
+        justice, sanctification, rédemption.
+        Ainsi, comme il est écrit :
+        Celui qui veut être fier,
+        qu’il mette sa fierté dans le Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 30 (31), 3bc-4, 6.8, 16-17
+      refAbbr: 30, 6a
+      chorus:
+      - chorusRef: 30, 6a
+        chorus: |-
+          En tes mains, Seigneur,
+          je remets mon esprit.
+      content: |-
+        Sois le rocher qui m’abrite,
+        la maison fortifiée qui me sauve.
+        Ma forteresse et mon roc, c’est toi :
+        pour l’honneur de ton nom, tu me guides et me conduis.
+
+        En tes mains je remets mon esprit ;
+        tu me rachètes, Seigneur, Dieu de vérité.
+        Ton amour me fait danser de joie :
+        tu vois ma misère et tu sais ma détresse.
+
+        Mes jours sont dans ta main : délivre-moi
+        des mains hostiles qui s’acharnent.
+        Sur ton serviteur, que s’illumine ta face ;
+        sauve-moi par ton amour.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 9, 23-26
+      headline: « Celui qui perdra sa vie à cause de moi la sauvera »
+      acclamationAntiphon: |-
+        Si l’on vous insulte pour le nom du Christ,
+        heureux êtes-vous :
+        l’Esprit de Dieu repose sur vous.
+      content: |-
+        En ce temps-là,
+        Jésus disait à tous :
+        « Celui qui veut marcher à ma suite,
+        qu’il renonce à lui-même,
+        qu’il prenne sa croix chaque jour
+        et qu’il me suive.
+        Car celui qui veut sauver sa vie
+        la perdra ;
+        mais celui qui perdra sa vie à cause de moi
+        la sauvera.
+        Quel avantage un homme aura-t-il
+        à gagner le monde entier,
+        s’il se perd ou se ruine lui-même ?
+        Celui qui a honte de moi et de mes paroles,
+        le Fils de l’homme aura honte de lui,
+        quand il viendra dans la gloire,
+        la sienne, celle du Père et des saints anges. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -4,7 +4,7 @@ celebration:
   description: Maria Goretti appartenait à une famille très pauvre des Marais Pontins, au sud de Rome. Elle avait douze ans quand elle dut résister aux sollicitations d’un jeune voisin. Devant son refus, celui-ci, fou de passion, la frappa à coups de poinçon. Maria mourut le lendemain, après avoir pardonné à son meurtrier « pour l’amour de Jésus » (1902).
   color: red
   commons:
-    - martyr
+    - martyr_female_virgin
     - virgins
 
 oration:
@@ -34,3 +34,100 @@ readings:
         
         Espère en Dieu, prends cœur et prends courage,
         espère en Dieu !
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu, source de l’innocence, toi qui aimes la pureté, +
+    >tu as accordé la grâce du martyre
+    >à ta servante Maria Goretti ; *
+    donne-nous, à son intercession,
+    >de garder jusqu’au bout tes commandements, /
+    >toi qui lui as donné la victoire
+    >quand elle défendit sa virginité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1Co 6, 13c-15a.17-20
+      headline: « Vos corps sont les membres du Christ »
+      content: |-
+        Frères,
+        le corps n’est pas pour la débauche,
+        il est pour le Seigneur,
+        et le Seigneur est pour le corps ;
+        et Dieu, par sa puissance, a ressuscité le Seigneur
+        et nous ressuscitera nous aussi.
+        Ne le savez-vous pas ? Vos corps sont les membres du Christ.
+        Celui qui s’unit au Seigneur
+        ne fait avec lui qu’un seul esprit.
+        Fuyez la débauche.
+        Tous les péchés que l’homme peut commettre
+        sont extérieurs à son corps ;
+        mais l’homme qui se livre à la débauche
+        commet un péché contre son propre corps.
+        Ne le savez-vous pas ?
+        Votre corps est un sanctuaire de l’Esprit Saint,
+        lui qui est en vous et que vous avez reçu de Dieu ;
+        vous ne vous appartenez plus à vous-mêmes,
+        car vous avez été achetés à grand prix.
+        Rendez donc gloire à Dieu dans votre corps.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 30 (31), 3bc-4, 6.8, 16-17
+      refAbbr: 30, 6a
+      chorus:
+      - chorusRef: 30, 6a
+        chorus: |-
+          En tes mains, Seigneur,
+          je remets mon esprit.
+      content: |-
+        Sois le rocher qui m’abrite,
+        la maison fortifiée qui me sauve.
+        Ma forteresse et mon roc, c’est toi :
+        pour l’honneur de ton nom, tu me guides et me conduis.
+
+        En tes mains je remets mon esprit ;
+        tu me rachètes, Seigneur, Dieu de vérité.
+        Ton amour me fait danser de joie :
+        tu vois ma misère et tu sais ma détresse.
+
+        Mes jours sont dans ta main : délivre-moi
+        des mains hostiles qui s’acharnent.
+        Sur ton serviteur, que s’illumine ta face ;
+        sauve-moi par ton amour.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 12, 24-26
+      headline: « Si le grain de blé meurt, il porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        Heureux l’homme
+        qui supporte l’épreuve avec persévérance,
+        car, sa valeur une fois vérifiée, il recevra la couronne de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Amen, amen, je vous le dis :
+        si le grain de blé tombé en terre ne meurt pas,
+        il reste seul ;
+        mais s’il meurt,
+        il porte beaucoup de fruit.
+        Qui aime sa vie
+        la perd ;
+        qui s’en détache en ce monde
+        la gardera pour la vie éternelle.
+        Si quelqu’un veut me servir,
+        qu’il me suive ;
+        et là où moi je suis,
+        là aussi sera mon serviteur.
+        Si quelqu’un me sert,
+        mon Père l’honorera. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

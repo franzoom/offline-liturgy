@@ -239,8 +239,19 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 26,8-9 (Vg)
+    content: "En mon cœur je t’ai dit : Je cherche ton visage,\n>c’est ta face, Seigneur, que je cherche :\n>ne me cache pas ta face.\nou\tcf. Ps 24, 6.2.22\nRappelle-toi, Seigneur, ta tendresse,\n>ton amour qui est de toujours.\nNe laisse pas triompher nos ennemis.\nLibère-nous, Dieu d’Israël,\n>de toutes nos angoisses."
+  collect:
+  - |-
+    Seigneur Dieu,
+    >tu nous as dit d’écouter ton Fils bien-aimé ; +
+    >fais-nous trouver dans ta parole,
+    afin que, d’un regard spirituel purifié, /
+    >nous ayons la joie de contempler ta gloire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -651,8 +662,35 @@ mass:
         Les disciples gardèrent le silence
         et, en ces jours-là,
         ils ne rapportèrent à personne rien de ce qu’ils avaient vu.
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Que cette offrande, nous t’en prions, Seigneur,
+    >nous purifie de nos péchés : *
+    qu’elle sanctifie le corps et l’esprit de tes fidèles, /
+    >pour les préparer à célébrer les fêtes pascales.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_lent_2
+  communionAntiphon:
+  - condition: null
+    biblicalReference: cf. Mt 17,5
+    content: |-
+      Celui-ci est mon Fils bien-aimé,
+      >en qui je trouve ma joie :
+      >écoutez-le !
+  prayerAfterCommunion:
+  - |-
+    Après avoir communié, Seigneur, aux mystères de ta gloire,
+    >nous tenons à te rendre grâce, *
+    car tu nous donnes déjà sur cette terre /
+    >d’avoir part aux biens du ciel.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Seigneur, ne cesse pas de répandre ta bénédiction sur tes fidèles +
+    >et donne-leur de s’attacher à l’Évangile de ton Fils unique ; *
+    >alors, ils auront la force de tendre sans relâche vers la gloire
+    >dont il manifesta le rayonnement à ses Apôtres, /
+    >et d’y parvenir eux-mêmes pour leur bonheur.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

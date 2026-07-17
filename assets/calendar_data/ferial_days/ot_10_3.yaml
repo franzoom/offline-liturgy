@@ -63,9 +63,6 @@ readings:
 mass:
 - massType: day_mass
   name: Messe du jour
-  note: null
-  entranceAntiphon: null
-  collect: null
   readingParts:
   - partType: READING
     partContents:
@@ -282,8 +279,10 @@ mass:
         sera déclaré le plus petit dans le royaume des Cieux.
         Mais celui qui les observera et les enseignera,
         celui-là sera déclaré grand dans le royaume des Cieux. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
-  solemnBlessingList: null
+  prefaceList:
+  - common_preface_1
+  - common_preface_2
+  - common_preface_3
+  - common_preface_4
+  - common_preface_5
+  - common_preface_6

@@ -192,8 +192,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Si 15,3-4
+    content: |-
+      L’eau de la sagesse les a désaltérés ;
+      en eux la sagesse s’affermira et ne fléchira pas,
+      >elle les exaltera pour toujours, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu nous guéris par les célébrations pascales ; *
+    poursuis toujours l’œuvre de ta grâce :
+    que ton peuple trouve une liberté parfaite,
+    >et parvienne à la joie du ciel /
+    >dont il exulte déjà sur la terre.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   sequence:
   - victimae-paschali-laudes
   readingParts:
@@ -299,9 +314,29 @@ mass:
         Marie Madeleine s’en va donc annoncer aux disciples :
         « J’ai vu le Seigneur ! »,
         et elle raconta ce qu’il lui avait dit.
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Reçois avec bonté, nous t’en prions, Seigneur,
+    >les offrandes de ta famille, +
+    >garde-la sous ta protection : *
+    qu’elle ne perde aucun des bienfaits déjà reçus, /
+    >et parvienne à ceux que tu lui donnes dans la vie éternelle.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: cf. Col 3,1-2
+    content: |-
+      Ressuscités avec le Christ,
+      >recherchez les réalités d’en haut :
+      >c’est là qu’est le Christ, assis à la droite de Dieu ;
+      >pensez aux réalités d’en haut, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Écoute notre prière, Dieu tout-puissant : +
+    >tu as donné à ta famille
+    >la grâce incomparable du baptême ; *
+    dispose nos cœurs à recevoir /
+    >le bonheur éternel.
+    Par le Christ, notre Seigneur.
   solemnBlessingList:
   - easter_blessing

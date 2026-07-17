@@ -191,8 +191,23 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 70,8.23
+    content: |-
+      Que ma bouche soit remplie de ta louange,
+      pour que je puisse chanter ;
+      joie sur mes lèvres qui chantent pour toi, alléluia.
+  collect:
+  - |-
+    Seigneur Dieu,
+    >toi qui aimes l’innocence et la fais recouvrer, +
+    >oriente vers toi le cœur de ceux qui te servent ; *
+    tu les as libérés des ténèbres de l’incroyance : /
+    >fais qu’ils n’abandonnent jamais
+    >la lumière de ta vérité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -296,8 +311,27 @@ mass:
         Ce qui fait la gloire de mon Père,
         c’est que vous portiez beaucoup de fruit
         et que vous soyez pour moi des disciples. »
-  offeringPrayer: null
+  offeringPrayer:
+  - |-
+    Donne-nous, Seigneur, nous t’en prions,
+    >de te rendre grâce toujours
+    >par ces mystères de Pâques ; *
+    qu’ils continuent l’œuvre de notre relèvement /
+    >et deviennent pour nous
+    >une source intarissable de joie.
+    Par le Christ, notre Seigneur.
   prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  communionAntiphon:
+  - biblicalReference: null
+    content: |-
+      Le Seigneur est ressuscité,
+      >il nous a rachetés par son sang,
+      >et nous remplit de sa lumière, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Écoute nos prières, Seigneur : *
+    >que cet échange très saint où l’homme est racheté
+    >nous soutienne durant la vie présente /
+    >et nous procure les joies éternelles.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -43,3 +43,95 @@ vespers:
   evangelicAntiphon:
     common:
     - Je te bénis, Seigneur, toi qui me donnes part à la coupe du Christ.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu de toute la création, +
+    >tu as accordé au bienheureux évêque Polycarpe
+    >d’être au nombre de tes martyrs ; *
+    puisque nous prenons part avec lui à la coupe du Christ, /
+    donne-nous, à son intercession,
+    >de ressusciter dans l’Esprit Saint à la vie éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ap 2, 8-11
+      headline: « Je sais ta détresse et ta pauvreté »
+      content: |-
+        À l’ange de l’Église qui est à Smyrne, écris :
+        Ainsi parle celui qui est le Premier et le Dernier,
+        >celui qui était mort et qui est entré dans la vie :
+        Je sais ta détresse et ta pauvreté ;
+        >pourtant tu es riche !
+        Je connais les propos blasphématoires
+        >de ceux qui se disent juifs et ne le sont pas :
+        >ils sont une synagogue de Satan.
+        Sois sans aucune crainte pour ce que tu vas souffrir.
+        Voici que le diable va jeter en prison certains des vôtres
+        >pour vous mettre à l’épreuve,
+        >et vous serez dans la détresse pendant dix jours.
+        Sois fidèle jusqu’à la mort,
+        >et je te donnerai la couronne de la vie.
+        Celui qui a des oreilles,
+        >qu’il entende ce que l’Esprit dit aux Églises.
+        Le vainqueur ne pourra être atteint par la seconde mort.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 30 (31), 3bc-4, 6.8, 17-18
+      refAbbr: 30, 6a
+      chorus:
+      - chorusRef: 30, 6a
+        chorus: |-
+          En tes mains, Seigneur,
+          je remets mon esprit.
+      content: |-
+        Sois le rocher qui m’abrite,
+        la maison fortifiée qui me sauve.
+        Ma forteresse et mon roc, c’est toi :
+        pour l’honneur de ton nom, tu me guides et me conduis.
+
+        En tes mains je remets mon esprit ;
+        tu me rachètes, Seigneur, Dieu de vérité.
+        Ton amour me fait danser de joie :
+        tu vois ma misère et tu sais ma détresse.
+
+        Sur ton serviteur, que s’illumine ta face ;
+        sauve-moi par ton amour.
+        Seigneur, garde-moi d’être humilié,
+        moi qui t’appelle.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 18-21
+      headline: « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+      acclamationAntiphon: |-
+        À toi, Dieu, notre louange !
+        Toi, dont témoignent les martyrs,
+        nous t’acclamons : tu es Seigneur !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Si le monde a de la haine contre vous,
+        sachez qu’il en a eu d’abord contre moi.
+        Si vous apparteniez au monde,
+        le monde aimerait ce qui est à lui.
+        Mais vous n’appartenez pas au monde,
+        puisque je vous ai choisis en vous prenant dans le monde ;
+        voilà pourquoi le monde a de la haine contre vous.
+        Rappelez-vous la parole que je vous ai dite :
+        un serviteur n’est pas plus grand que son maître.
+        Si l’on m’a persécuté,
+        on vous persécutera, vous aussi.
+        Si l’on a gardé ma parole,
+        on gardera aussi la vôtre.
+        Les gens vous traiteront ainsi à cause de mon nom,
+        parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

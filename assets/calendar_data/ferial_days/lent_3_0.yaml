@@ -209,8 +209,22 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 24,15-16
+    content: "J’ai toujours les yeux tournés vers le Seigneur :\n>il tirera mes pieds du filet.\nRegarde, et prends pitié de moi,\n>de moi qui suis seul et misérable.\nou\tcf. Ez 36, 23-26\nQuand je manifesterai, par vous, ma sainteté,\n>je vous rassemblerai de tous les pays, dit le Seigneur.\nJe répandrai sur vous une eau pure,\n>et vous serez purifiés de toutes vos souillures.\nEt je mettrai en vous un esprit nouveau."
+  collect:
+  - |-
+    Seigneur Dieu,
+    >source de toute bonté,
+    >et de toute miséricorde, +
+    tu nous as montré comment guérir du péché
+    >par le jeûne, la prière et le partage ; *
+    accueille favorablement l’aveu de notre faiblesse, /
+    >et puisque nous prenons humblement conscience de nos fautes,
+    >que ta miséricorde nous relève sans cesse.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -757,8 +771,48 @@ mass:
         pour y mettre du fumier.
          Peut-être donnera-t-il du fruit à l’avenir.
         Sinon, tu le couperas.’ »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Par ce sacrifice, Seigneur de bonté, +
+    >alors que nous implorons le pardon de nos fautes,
+    >accorde-nous d’avoir à cœur
+    >de pardonner celles de nos frères.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - sundays_in_lent_3
+  - sundays_in_lent_1
+  - sundays_in_lent_2
+  communionAntiphon:
+  - condition: Quand on a lu l’évangile de la Samaritaine
+    biblicalReference: cf. Jn 4,13-14
+    content: |-
+      L’eau que moi, je donnerai, dit le Seigneur,
+      >deviendra en celui qui en boira
+      >source d’eau jaillissant pour la vie éternelle.
+  - condition: Dans les autres cas
+    biblicalReference: cf. Ps 83,4-5
+    content: |-
+      Le passereau lui-même s’est trouvé une maison,
+      >et la tourterelle, un nid pour abriter sa couvée :
+      tes autels, Seigneur de l’univers,
+      >mon Roi et mon Dieu !
+      Heureux les habitants de ta maison :
+      >ils te loueront pour les siècles des siècles.
+  prayerAfterCommunion:
+  - |-
+    Nous avons reçu de toi, Seigneur,
+    >un avant-goût des mystères du ciel, +
+    >et, dès cette terre, nous sommes rassasiés
+    >par le pain venu d’en haut ; *
+    nous t’en supplions :
+    donne-nous de mettre en œuvre /
+    ce que le sacrement réalise en nous.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Dirige, Seigneur, le cœur de tes fidèles *
+    >et, dans ta bienveillance, donne à ceux qui te servent
+    >la grâce d’accomplir la plénitude de tes commandements /
+    en demeurant dans l’amour pour toi et pour le prochain.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

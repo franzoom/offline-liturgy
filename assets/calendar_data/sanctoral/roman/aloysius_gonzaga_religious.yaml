@@ -30,3 +30,119 @@ readings:
         
         Toujours joyeux, priez sans cesse,
         en toute condition, soyez dans l’action de grâce.
+
+mass:
+- massType: day_mass
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 23,4.3
+    content: |-
+      L’homme au cœur pur, aux mains innocentes,
+      celui-là peut gravir la montagne du Seigneur
+      >et se tenir dans le lieu saint.
+  collect:
+  - |-
+    Seigneur Dieu, source de tous les dons spirituels, +
+    >tu as uni en saint Louis de Gonzague
+    >la pratique de la pénitence
+    >et une admirable pureté de vie ; *
+    nous n’avons pas la même innocence,
+    >mais accorde-nous, à sa prière et par ses mérites, /
+    >d’imiter son renoncement.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: 1Jn 5, 1-5
+      headline: « La victoire remportée sur le monde, c’est notre foi »
+      content: |-
+        Bien-aimés,
+        celui qui croit que Jésus est le Christ,
+        celui-là est né de Dieu ;
+        celui qui aime le Père qui a engendré
+        aime aussi le Fils qui est né de lui.
+        Voici comment nous reconnaissons
+        que nous aimons les enfants de Dieu :
+        lorsque nous aimons Dieu
+        et que nous accomplissons ses commandements.
+        Car tel est l’amour de Dieu :
+        garder ses commandements ;
+        et ses commandements ne sont pas un fardeau,
+        puisque tout être qui est né de Dieu
+        est vainqueur du monde.
+        Or la victoire remportée sur le monde,
+        c’est notre foi.
+        Qui donc est vainqueur du monde ?
+        N’est-ce pas celui qui croit
+        que Jésus est le Fils de Dieu ?
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15 (16), 1-2, 7-8, 5a.11
+      refAbbr: 15, 5a
+      chorus:
+      - chorusRef: 15, 5a
+        chorus: Seigneur, mon partage et ma coupe !
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge.
+        J’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Seigneur, mon partage et ma coupe !
+        Tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+        À ta droite, éternité de délices !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 22, 34-40
+      headline: « Tu aimeras le Seigneur ton Dieu de tout ton cœur, et ton prochain comme toi-même »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        les pharisiens,
+        apprenant que Jésus avait fermé la bouche aux sadducéens,
+        se réunirent,
+        et l’un d’entre eux, un docteur de la Loi, posa une question à Jésus
+        pour le mettre à l’épreuve :
+        « Maître, dans la Loi,
+        quel est le grand commandement ? »
+        Jésus lui répondit :
+        « Tu aimeras le Seigneur ton Dieu
+        de tout ton cœur,
+        de toute ton âme et de tout ton esprit.
+        Voilà le grand, le premier commandement.
+        Et le second lui est semblable :
+        Tu aimeras ton prochain comme toi-même.
+        De ces deux commandements dépend toute la Loi,
+        ainsi que les Prophètes. »
+        
+  offeringPrayer:
+  - |-
+    Fais que nous prenions place à ton banquet, Seigneur,
+    portant toujours le vêtement de noce
+    comme saint Louis de Gonzague, *
+    afin que la participation à cette eucharistie /
+    >nous enrichisse de ta grâce.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Ps 77,24-25
+    content: |-
+      Le Seigneur donne à son peuple le froment du ciel ;
+      >chacun se nourrit du pain des Forts.
+  prayerAfterCommunion:
+  - |-
+    Après nous avoir nourris du pain des anges, Seigneur,
+    >donne-nous de te servir par une vie très pure ; *
+    >à l’exemple de celui que nous fêtons aujourd’hui, /
+    puissions-nous rester toujours dans l’action de grâce.
+    Par le Christ, notre Seigneur.

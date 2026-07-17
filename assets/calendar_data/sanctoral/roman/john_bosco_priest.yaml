@@ -34,3 +34,105 @@ readings:
         Votre générosité ne pourvoit pas seulement
         aux besoin de vos frères,
         elle est encore source d’action de grâce envers Dieu.
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as suscité le prêtre saint Jean Bosco
+    >comme un père et un maître pour la jeunesse ; *
+    accorde-nous de brûler du même feu de charité /
+    >afin de pouvoir attirer les âmes à toi
+    >et ne servir que toi seul.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ph 4, 4-9
+      headline: « Ce qui est juste et pur, prenez-le à votre compte »
+      content: |-
+        Frères,
+        soyez toujours dans la joie du Seigneur ;
+        >je le redis : soyez dans la joie.
+        Que votre bienveillance soit connue de tous les hommes.
+        Le Seigneur est proche.
+        Ne soyez inquiets de rien,
+        >mais, en toute circonstance,
+        >priez et suppliez, tout en rendant grâce,
+        >pour faire connaître à Dieu vos demandes.
+        Et la paix de Dieu,
+        >qui dépasse tout ce qu’on peut concevoir,
+        >gardera vos cœurs et vos pensées dans le Christ Jésus.
+        Enfin, mes frères, tout ce qui est vrai et noble,
+        >tout ce qui est juste et pur,
+        >tout ce qui est digne d’être aimé et honoré,
+        >tout ce qui s’appelle vertu
+        >et qui mérite des éloges,
+        >tout cela, prenez-le en compte.
+        Ce que vous avez appris et reçu,
+        >ce que vous avez vu et entendu de moi,
+        >mettez-le en pratique.
+        Et le Dieu de la paix sera avec vous.
+        
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 102 (103), 1-2, 3-4, 8-9, 13-14, 17-18a
+      refAbbr: 102, 1a
+      chorus:
+      - chorusRef: 102, 1a
+        chorus: Bénis le Seigneur, ô mon âme !
+      content: |-
+        Bénis le Seigneur, ô mon âme,
+        bénis son nom très saint, tout mon être !
+        Bénis le Seigneur, ô mon âme,
+        n’oublie aucun de ses bienfaits !
+
+        Car il pardonne toutes tes offenses
+        et te guérit de toute maladie ;
+        il réclame ta vie à la tombe
+        et te couronne d’amour et de tendresse.
+
+        Le Seigneur est tendresse et pitié,
+        lent à la colère et plein d’amour ;
+        il n’est pas pour toujours en procès,
+        ne maintient pas sans fin ses reproches.
+
+        Comme la tendresse du père pour ses fils,
+        la tendresse du Seigneur pour qui le craint !
+        Il sait de quoi nous sommes pétris,
+        il se souvient que nous sommes poussière.
+
+        L’amour du Seigneur, sur ceux qui le craignent,
+        est de toujours à toujours,
+        et sa justice pour les enfants de leurs enfants,
+        pour ceux qui gardent son alliance.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 18, 1-5
+      headline: « Si vous ne changez pas pour devenir comme les enfants, vous n’entrerez pas dans le royaume des Cieux »
+      acclamationAntiphon: |-
+        Le plus grand parmi vous sera votre serviteur, dit le Seigneur,
+        qui s’abaissera sera élevé.
+      content: |-
+        À ce moment-là, les disciples s’approchèrent de Jésus et lui dirent :
+        « Qui donc est le plus grand
+        dans le royaume des Cieux ? »
+        Alors Jésus appela un petit enfant ;
+        il le plaça au milieu d’eux,
+        et il déclara :
+        « Amen, je vous le dis :
+        si vous ne changez pas
+        pour devenir comme les enfants,
+        vous n’entrerez pas dans le royaume des Cieux.
+        Mais celui qui se fera petit comme cet enfant,
+        celui-là est le plus grand dans le royaume des Cieux.
+        Et celui qui accueille un enfant comme celui-ci en mon nom,
+        il m’accueille, moi. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

@@ -195,3 +195,64 @@ vespers:
 
       Pour ceux qui espèrent contre toute espérance,
       – que resplendisse ta résurrection.
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ph 2,10. 8.11
+    content: |-
+      Au nom de Jésus, que tout genou fléchisse
+      >au ciel, sur terre et aux enfers.
+      Parce qu’il s’est fait obéissant jusqu’à la mort,
+      >et la mort de la croix,
+      Jésus Christ est Seigneur,
+      >à la gloire de Dieu le Père.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as voulu que ton Fils
+    >soit soumis pour nous au supplice de la croix
+    >afin de nous arracher au pouvoir de l’Ennemi, *
+    donne à ceux qui te servent /
+    >de recevoir la grâce de la résurrection.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts: null
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, le don qui t’est offert
+    >et mets en œuvre ta miséricorde : *
+    >pour qu’en célébrant la passion de ton Fils,
+    >nous obtenions de participer à ce mystère /
+    >en donnant des fruits de sainteté.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - passion_of_the_lord_2
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Mt 20,28
+    content: |-
+      Le Fils de l’homme n’est pas venu pour être servi, mais pour servir,
+      >et donner sa vie en rançon pour la multitude.
+  prayerAfterCommunion:
+  - |-
+    Dieu tout puissant, +
+    >accorde-nous de croire,
+    >du plus profond de nous-mêmes,
+    que tu nous as donné la vie éternelle par la mort de ton Fils,
+    >subie dans le temps du monde
+    >et annoncée dans les saints mystères.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Seigneur, nous t’en prions : +
+    >donne à tes fidèles de recueillir sans cesse
+    >les fruits des sacrements de Pâque
+    >et d’attendre les biens futurs avec un grand désir, *
+    afin qu’ils demeurent attaché
+    >aux mystères qui les ont fait renaître
+    >et parviennent ainsi à la vie nouvelle.
+    Par le Christ, notre Seigneur.
+  solemnBlessingList: null

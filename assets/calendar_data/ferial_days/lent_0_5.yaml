@@ -209,8 +209,20 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 29,11 (Vg)
+    content: |-
+      Le Seigneur m’a entendu et m’a pris en pitié.
+      Le Seigneur est venu à mon aide.
+  collect:
+  - |-
+    Que ta bienveillance nous accompagne, Seigneur,
+    durant ce temps de pénitence qui vient de commencer, *
+    afin que la discipline imposée à notre corps /
+    >soit pratiquée aussi d’un cœur sincère.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -305,8 +317,40 @@ mass:
         pendant le temps où l’Époux est avec eux ?
         Mais des jours viendront où l’Époux leur sera enlevé ;
         alors ils jeûneront. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >que le sacrifice, offert en ce temps
+    >où nous pratiquons le Carême,
+    >nous rende agréables à tes yeux /
+    >et nous aide à nous montrer
+    >plus empressés dans le renoncement.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - lent_1
+  - lent_2
+  - lent_3
+  - lent_4
+  communionAntiphon:
+  - condition: null
+    biblicalReference: Ps 24,4
+    content: |-
+      Seigneur, enseigne-moi tes chemins,
+      >fais-moi connaître ta route.
+  prayerAfterCommunion:
+  - |-
+    Nous t’en prions, Dieu tout-puissant : +
+    >par notre participation à ce mystère ; *
+    >nous avons été purifiés de tous nos péchés ; *
+    >puissions-nous vivre en accord avec la guérison /
+    >reçue de ta tendresse.
+    Par le Christ, notre Seigneur.
+  prayerOnThePeople:
+  - |-
+    Dieu de miséricorde, +
+    >que ton peuple ne cesse de rendre grâce pour tes merveilles, *
+    >et qu’au terme de son pèlerinage sur la terre,
+    >fidèle aux observances transmises d’âge en âge, /
+    >il puisse te contempler sans fin-
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

@@ -185,8 +185,24 @@ mass:
 - massType: day_mass
   name: Messe du jour
   note: null
-  entranceAntiphon: null
-  collect: null
+  entranceAntiphon:
+  - biblicalReference: Ps 55,2
+    content: |-
+      Pitié, mon Dieu !
+      Des hommes s’acharnent contre moi ;
+      >tout le jour, ils me combattent, ils me harcèlent.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu nous combles de toute bénédiction
+    >par la richesse inexprimable de ta grâce ; *
+    fais-nous quitter ce qui ne peut que vieillir,
+    pour passer dans ce qui est nouveau, /
+    et nous serons préparés à la gloire
+    du royaume des Cieux.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING
     partContents:
@@ -599,8 +615,43 @@ mass:
         Et Jésus lui dit :
         « Moi non plus, je ne te condamne pas.
         Va, et désormais ne pèche plus. »
-  offeringPrayer: null
-  prefaceList: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Au moment de célébrer les saints mystères, +
+    >accorde-nous, Seigneur,
+    >comme un fruit de notre pénitence corporelle,
+    la grâce de paraître devant toi /
+    avec un cœur purifié.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - passion_of_the_lord_1
+  communionAntiphon:
+  - condition: Quand on a lu l’évangile de la Femme adultère
+    biblicalReference: Jn 8,10-11
+    content: |-
+      Femme, dit Jésus, personne ne t’a condamnée ?
+      — Personne, Seigneur,
+      — Moi non plus, je ne te condamne pas.
+      Va, et désormais ne pèche plus.
+  - condition: Quand on a lu un autre évangile
+    biblicalReference: Jn 8,12
+    content: |-
+      Je suis la lumière du monde, dit le Seigneur,
+      celui qui me suit ne marchera pas dans les ténèbres :
+      il aura la lumière de la vie.
+  prayerAfterCommunion:
+  - |-
+    Fortifiés par la bénédiction de tes sacrements,
+    >nous te prions, Seigneur : +
+    >qu’ils nous purifient de nos penchants mauvais, *
+    et nous aident à progresser rapidement vers toi /
+    en suivant le Christ.
+    Lui qui vit et règne pour les siècles des siècles.
+  prayerOnThePeople:
+  - |-
+    Seigneur, nous t’en prions : +
+    >libère de ses péchés ton peuple qui te supplie, *
+    >fais que rien ne l’accable /
+    >puisqu’il mène désormais une vie de sainteté.
+    Par le Christ, notre Seigneur.
   solemnBlessingList: null

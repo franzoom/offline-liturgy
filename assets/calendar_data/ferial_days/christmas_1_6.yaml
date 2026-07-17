@@ -58,3 +58,51 @@ vespers:
     - psalm: NT_5
       antiphon:
         - R/ Grandes sont tes œuvres, Seigneur !
+mass:
+- massType: day_mass
+  name: Messe du jour
+  note: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ga 4,4-5
+    content: |-
+      Dieu a envoyé son Fils, né d’une femme,
+      >pour que nous soyons adoptés comme fils.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    >par l’avènement de ton Fils unique,
+    >tu as bien voulu rayonner d’une lumière nouvelle ; *
+    puisque nous l’avons vu prendre un corps comme le nôtre,
+    >en devenant l’enfant de la Vierge, /
+    accorde-nous d’avoir part à la grâce dans son Royaume.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts: null
+  offeringPrayer:
+  - |-
+    Seigneur Dieu,
+    >source de la piété véritable et de la paix, +
+    >nous t’en prions, accorde-nous
+    >d’honorer dignement ta gloire par cette offrande, *
+    que, dans la participation fidèle aux saints mystères,
+    >nous prenions davantage conscience de notre unité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - nativity_of_the_lord_1
+  - nativity_of_the_lord_2
+  - nativity_of_the_lord_3
+  communionAntiphon:
+  - biblicalReference: Jn 1,16
+    content: |-
+      Tous, nous avons eu part à la plénitude du Christ,
+      >et reçu grâce sur grâce.
+  prayerAfterCommunion:
+  - |-
+    Ton peuple, Seigneur, a besoin de multiples secours
+    >pour sa traversée d’ici-bas ; +
+    >que ta tendresse lui accorde ceux de la vie présente
+    >comme ceux de la vie future : *
+    trouvant alors le réconfort nécessaire dans les choses qui passent, /
+    >il recherchera les biens éternels avec plus de confiance.
+    Par le Christ, notre Seigneur.
+  solemnBlessingList: null

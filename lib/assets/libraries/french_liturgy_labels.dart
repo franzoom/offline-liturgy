@@ -121,6 +121,26 @@ const Map<String, String> liturgyLabels = {
       "Que le Seigneur nous bénisse et nous garde,\nle Père, le Fils, et le Saint-Esprit.\nAmen.",
 };
 
+/// Evangelists, keyed by the book abbreviation used at the start of a
+/// Gospel's biblicalRef (e.g. "Mt 5, 1-12" -> "Matthieu").
+const Map<String, String> evangelistNames = {
+  'Mt': 'Matthieu',
+  'Mc': 'Marc',
+  'Lc': 'Luc',
+  'Jn': 'Jean',
+};
+
+final RegExp evangelistAbbrevRegExp = RegExp(r'^(Mt|Mc|Lc|Jn)\b');
+
+/// Extracts the evangelist's full name from a Gospel biblicalRef (e.g. "Mt
+/// 5, 1-12" -> "Matthieu"), for the "Évangile de Jésus-Christ selon saint
+/// ..." announcement read before the Gospel text.
+String? evangelistName(String? biblicalRef) {
+  if (biblicalRef == null) return null;
+  final match = evangelistAbbrevRegExp.firstMatch(biblicalRef);
+  return match != null ? evangelistNames[match.group(1)] : null;
+}
+
 String getFrenchOrdinal(int number) {
   if (number == 1) {
     return '1^er';

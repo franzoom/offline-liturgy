@@ -96,8 +96,13 @@ class MassGospel extends MassReadingContent {
   final String? headline;
   final String? beforeAcclamationAntiphon;
   final String? acclamationAntiphon;
+  final String? acclamationAntiphonReference;
   final String? afterAcclamationAntiphon;
   final String? content;
+  // Optional short form (e.g. the Passion narrative's forme brève), with its
+  // own biblical reference since the verse range usually differs from content.
+  final String? shortBiblicalRef;
+  final String? shortContent;
 
   MassGospel({
     this.biblicalRef,
@@ -105,8 +110,11 @@ class MassGospel extends MassReadingContent {
     this.headline,
     this.beforeAcclamationAntiphon,
     this.acclamationAntiphon,
+    this.acclamationAntiphonReference,
     this.afterAcclamationAntiphon,
     this.content,
+    this.shortBiblicalRef,
+    this.shortContent,
   });
 
   factory MassGospel.fromJson(Map<String, dynamic> json) => MassGospel(
@@ -116,8 +124,12 @@ class MassGospel extends MassReadingContent {
         beforeAcclamationAntiphon:
             json['beforeAcclamationAntiphon']?.toString(),
         acclamationAntiphon: json['acclamationAntiphon']?.toString(),
+        acclamationAntiphonReference:
+            json['acclamationAntiphonReference']?.toString(),
         afterAcclamationAntiphon: json['afterAcclamationAntiphon']?.toString(),
         content: json['content']?.toString(),
+        shortBiblicalRef: json['shortBiblicalRef']?.toString(),
+        shortContent: json['shortContent']?.toString(),
       );
 }
 
@@ -188,8 +200,7 @@ class Mass {
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassAntiphon.fromJson(e))
           .toList(),
-      collect:
-          (json['collect'] as List?)?.map((e) => e.toString()).toList(),
+      collect: (json['collect'] as List?)?.map((e) => e.toString()).toList(),
       readingParts: (json['readingParts'] as List?)
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassReadingPart.fromJson(e))
@@ -222,16 +233,20 @@ class Mass {
     if (overlay.massType != null) massType = overlay.massType;
     if (overlay.name != null) name = overlay.name;
     if (overlay.note != null) note = overlay.note;
-    if (overlay.entranceAntiphon != null) entranceAntiphon = overlay.entranceAntiphon;
+    if (overlay.entranceAntiphon != null)
+      entranceAntiphon = overlay.entranceAntiphon;
     if (overlay.collect != null) collect = overlay.collect;
     if (overlay.readingParts != null && overlay.readingParts!.isNotEmpty) {
       readingParts = overlay.readingParts;
     }
     if (overlay.offeringPrayer != null) offeringPrayer = overlay.offeringPrayer;
     if (overlay.prefaceList != null) prefaceList = overlay.prefaceList;
-    if (overlay.communionAntiphon != null) communionAntiphon = overlay.communionAntiphon;
-    if (overlay.prayerAfterCommunion != null) prayerAfterCommunion = overlay.prayerAfterCommunion;
-    if (overlay.solemnBlessingList != null) solemnBlessingList = overlay.solemnBlessingList;
+    if (overlay.communionAntiphon != null)
+      communionAntiphon = overlay.communionAntiphon;
+    if (overlay.prayerAfterCommunion != null)
+      prayerAfterCommunion = overlay.prayerAfterCommunion;
+    if (overlay.solemnBlessingList != null)
+      solemnBlessingList = overlay.solemnBlessingList;
   }
 
   /// Fills the 5 Sunday-inherited fields (entrance/communion antiphons and
@@ -253,13 +268,17 @@ class Mass {
   /// Readings.overlayWithCommon: the ferial/proper Liturgy of the Word is
   /// kept unless the celebration's own YAML supplies it.
   void overlayWithCommon(Mass common) {
-    if (common.entranceAntiphon != null) entranceAntiphon = common.entranceAntiphon;
+    if (common.entranceAntiphon != null)
+      entranceAntiphon = common.entranceAntiphon;
     if (common.collect != null) collect = common.collect;
     if (common.offeringPrayer != null) offeringPrayer = common.offeringPrayer;
     if (common.prefaceList != null) prefaceList = common.prefaceList;
-    if (common.communionAntiphon != null) communionAntiphon = common.communionAntiphon;
-    if (common.prayerAfterCommunion != null) prayerAfterCommunion = common.prayerAfterCommunion;
-    if (common.solemnBlessingList != null) solemnBlessingList = common.solemnBlessingList;
+    if (common.communionAntiphon != null)
+      communionAntiphon = common.communionAntiphon;
+    if (common.prayerAfterCommunion != null)
+      prayerAfterCommunion = common.prayerAfterCommunion;
+    if (common.solemnBlessingList != null)
+      solemnBlessingList = common.solemnBlessingList;
   }
 
   bool get isEmpty =>

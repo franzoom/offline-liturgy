@@ -319,7 +319,7 @@ Après le préambule, le reste du fichier décrit le contenu de chaque office. (
 | `morning` | laudes |
 | `middleOfDay` | milieu du jour (tierce, sexte, none) |
 | `vespers` | second vêpres (le jour même) |
-| `mass` | données pour la messe, quand disponibles (fonctionnalité pas encore activée côté application) |
+| `mass` | données pour la messe, quand disponibles. **Liste** d'objets Mass (`massType`/`name`/...) : la plupart des jours n'en ont qu'un seul, mais un jour peut en déclarer plusieurs (veille + nuit + aurore + jour pour Noël, procession + messe de la Passion pour les Rameaux...) — chacun devient une entrée sélectionnable séparée côté application, distinguée par son `name` |
 
 `oration` et `evangelicAntiphon` peuvent aussi être placés directement à la racine du fichier, en dehors de toute clef d'office : ils servent alors de valeur par défaut pour `morning`, `vespers`/`firstVespers` et `readings` (pour `oration` seulement) quand l'office concerné ne les précise pas lui-même.
 
@@ -485,6 +485,121 @@ evangelicAntiphon: Que leur souvenir soit en bénédiction.
 ```
 
 Contrairement à `oration` ou `commons`, l'antienne évangélique **n'a jamais besoin de la notation en liste** (`-`) : une simple chaîne suffit toujours, y compris sous `common`. Pour `yearA`/`yearB`/`yearC` en particulier, seule une chaîne unique est acceptée — ne jamais y mettre une liste.
+
+#### `mass`
+
+```yaml
+mass:
+  - massType: day_mass
+    name: Messe du jour
+    note: null
+    entranceAntiphon:
+      - biblicalReference: cf. Is 9,5
+        content: |-
+          Un enfant nous est né,
+          >un fils nous a été donné !
+    collect:
+      - |-
+        Seigneur Dieu, +
+        >tu as merveilleusement créé l’être humain dans sa dignité, *
+        accorde-nous d’être unis à la divinité de ton Fils, /
+        >qui a voulu prendre notre humanité.
+        Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING
+        partContents:
+          - biblicalRef: Is 52, 7-10
+            headline: « Tous les lointains de la terre ont vu le salut de notre Dieu »
+            content: |-
+              Comme ils sont beaux sur les montagnes, [...]
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 97 (98), 1, 2-3ab, 3cd-4, 5-6
+            refAbbr: Ps 97, 1…
+            chorus:
+              - chorusRef: Ps 97, 3
+                chorus: |-
+                  La terre tout entière a vu
+                  le salut que Dieu nous donne.
+            content: |-
+              Chantez au Seigneur un chant nouveau, [...]
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 1, 1-18
+            headline: « Le Verbe s’est fait chair, il a habité parmi nous »
+            acclamationAntiphon: |-
+              Aujourd’hui la lumière a brillé sur la terre. [...]
+            content: |-
+              Au commencement était le Verbe, [...]
+            shortBiblicalRef: Jn 1, 1-5.9-14
+            shortContent: |-
+              Au commencement était le Verbe, [...]
+    offeringPrayer:
+      - |-
+        Que l’offrande présentée en ce jour de solennité [...]
+    communionAntiphon:
+      - biblicalReference: Ps 97,3
+        content: |-
+          Tous les lointains de la terre ont vu
+          >le salut de notre Dieu.
+    prayerAfterCommunion:
+      - |-
+        Dieu de miséricorde, nous t’en prions : [...]
+```
+
+`mass` est une **liste** d'objets ainsi structurés : la plupart des jours n'en ont qu'un seul, mais un jour peut en déclarer plusieurs (`evening_mass`/`night_mass`/`dawn_mass`/`day_mass` pour Noël) — chacun devient une entrée sélectionnable séparée côté application, distinguée par son `name`.
+
+| Clef | Description |
+|---|---|
+| `massType` | identifiant technique de cette messe pour le jour (`day_mass`, `evening_mass`, `night_mass`, `dawn_mass`...) — sert de clé interne, à garder simplement cohérent au sein d'un même jour |
+| `name` | nom affiché (« Messe du jour », « Messe de la nuit »...) |
+| `note` | remarque optionnelle affichée avec la messe — `null` si absente |
+| `entranceAntiphon`, `communionAntiphon` | **listes** d'antiennes `biblicalReference` + `content` — plusieurs formes possibles au choix (ex. deux antiennes d'entrée pour la messe de la nuit) |
+| `collect`, `offeringPrayer`, `prayerAfterCommunion` | **listes** d'oraisons (une seule le plus souvent) — voir la ponctuation liturgique ci-dessous |
+| `prefaceList` | liste de préfaces propres — optionnel |
+| `readingParts` | la liturgie de la Parole — voir ci-dessous |
+| `prayerOnThePeople` | prière sur le peuple (Carême) — optionnel |
+| `solemnBlessingList` | bénédiction solennelle — optionnel |
+
+##### `readingParts`
+
+Une **liste** d'entrées `partType` + `partContents`, une entrée par lecture/psaume/évangile, dans l'ordre de proclamation :
+
+| `partType` | Sens |
+|---|---|
+| `READING` | 1ʳᵉ ou 2ᵉ lecture |
+| `EPISTLE` | épître, quand distinguée d'une lecture ordinaire dans le texte source |
+| `PSALM` | psaume responsorial |
+| `CANTICLE` | cantique, quand un cantique remplace le psaume |
+| `GOSPEL` | évangile |
+
+`partContents` est elle-même une liste, presque toujours à **une seule entrée** : elle n'en contient plusieurs que pour un véritable choix « ou bien » entre deux lectures alternatives (jamais pour une forme brève, voir plus bas). Selon `partType`, chaque entrée attend :
+
+| Champ | `READING`/`EPISTLE` | `PSALM`/`CANTICLE` | `GOSPEL` |
+|---|---|---|---|
+| `biblicalRef` | ✓ | ✓ | ✓ |
+| `refAbbr` (référence abrégée affichée, ex. `Ps 97, 1…` — toujours préfixée du nom du livre) | | ✓ | |
+| `headline` (citation entre guillemets, ex. « Tous les lointains de la terre... ») | ✓ | | ✓ |
+| `chorus` (liste de `chorusRef` + `chorus`, le refrain répété) | | ✓ | |
+| `acclamationAntiphon` (texte du verset d'Alléluia) | | | ✓ |
+| `acclamationAntiphonReference` (référence biblique du verset d'Alléluia, si distincte de celle de l'évangile) | | | ✓ |
+| `content` | ✓ | ✓ | ✓ |
+| `shortReadingRef` + `shortReadingContent` (forme brève) | ✓ | | |
+| `shortBiblicalRef` + `shortContent` (forme brève) | | | ✓ |
+| `cycle` (liste optionnelle, ex. `['1']`/`['2']` en semaine ou `['A']`/`['B']`/`['C']` un dimanche — le sens est déterminé par le contexte, pas par le YAML) | ✓ | ✓ | ✓ |
+
+**Important** : la forme brève se met **sur le même item** que la forme longue (`shortBiblicalRef`/`shortContent` en plus de `biblicalRef`/`content`, jamais comme un second élément de la liste `partContents`) — sinon l'application affiche un faux « ou bien : » suivi d'un bloc vide.
+
+Il n'y a pas de `partType` séparé pour l'Alléluia : son texte va dans `acclamationAntiphon`, à l'intérieur de l'entrée `GOSPEL` — l'application ajoute elle-même les rubriques « Alléluia, alléluia. » / « Alléluia. » autour.
+
+##### Ponctuation liturgique des textes de messe
+
+Les oraisons (`collect`, `offeringPrayer`, `prayerAfterCommunion`) et les lectures (`readingParts`) du Missel utilisent quelques marques supplémentaires, à reproduire telles quelles depuis le texte source (jamais à ajouter de soi-même s'il ne les a pas) :
+
+- `+`, `*`, `/` en fin de ligne dans une oraison : pauses de récitation du Missel.
+- `>` en début de ligne dans une lecture : rupture de verset/strophe sans nouveau paragraphe (pas de ligne vide) — reproduit la mise en page du Missel à l'intérieur d'une même lecture.
+- `%...%` : encadre une citation de l'Ancien Testament citée à l'intérieur d'une lecture du Nouveau Testament.
 
 ---
 

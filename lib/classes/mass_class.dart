@@ -1,6 +1,8 @@
 /// Classes for the Mass (Eucharistic celebration) structure
 library;
 
+import 'office_elements_class.dart';
+
 /// Antiphon with optional biblical reference and text content.
 /// Used for both entrance antiphon and communion antiphon.
 class MassAntiphon {
@@ -175,7 +177,12 @@ class Mass {
   List<String>? prefaceList;
   List<MassAntiphon>? communionAntiphon;
   List<String>? prayerAfterCommunion;
-  List<String>? solemnBlessingList;
+  // Solemn blessing, referenced by code and resolved like a hymn (see
+  // HymnEntry) -- loaded from mass_missal/blessings instead of hymns/.
+  List<HymnEntry>? solemnBlessingList;
+  // Proper sequence (e.g. Victimae Paschali Laudes, Veni Sancte Spiritus),
+  // referenced by code and resolved like a hymn -- see HymnEntry.
+  List<HymnEntry>? sequence;
 
   Mass({
     this.massType,
@@ -189,6 +196,7 @@ class Mass {
     this.communionAntiphon,
     this.prayerAfterCommunion,
     this.solemnBlessingList,
+    this.sequence,
   });
 
   factory Mass.fromJson(Map<String, dynamic> json) {
@@ -217,7 +225,10 @@ class Mass {
           ?.map((e) => e.toString())
           .toList(),
       solemnBlessingList: (json['solemnBlessingList'] as List?)
-          ?.map((e) => e.toString())
+          ?.map((e) => HymnEntry.fromJson(e))
+          .toList(),
+      sequence: (json['sequence'] as List?)
+          ?.map((e) => HymnEntry.fromJson(e))
           .toList(),
     );
   }
@@ -247,6 +258,7 @@ class Mass {
       prayerAfterCommunion = overlay.prayerAfterCommunion;
     if (overlay.solemnBlessingList != null)
       solemnBlessingList = overlay.solemnBlessingList;
+    if (overlay.sequence != null) sequence = overlay.sequence;
   }
 
   /// Fills the 5 Sunday-inherited fields (entrance/communion antiphons and
@@ -279,6 +291,7 @@ class Mass {
       prayerAfterCommunion = common.prayerAfterCommunion;
     if (common.solemnBlessingList != null)
       solemnBlessingList = common.solemnBlessingList;
+    if (common.sequence != null) sequence = common.sequence;
   }
 
   bool get isEmpty =>
@@ -292,7 +305,8 @@ class Mass {
       (prefaceList == null || prefaceList!.isEmpty) &&
       (communionAntiphon == null || communionAntiphon!.isEmpty) &&
       (prayerAfterCommunion == null || prayerAfterCommunion!.isEmpty) &&
-      (solemnBlessingList == null || solemnBlessingList!.isEmpty);
+      (solemnBlessingList == null || solemnBlessingList!.isEmpty) &&
+      (sequence == null || sequence!.isEmpty);
 }
 
 /// Container for all Mass types of a given liturgical day.

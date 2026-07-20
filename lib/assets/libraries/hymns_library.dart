@@ -26,17 +26,24 @@ class HymnsLibrary {
     }
   }
 
-  /// Gets a single hymn by code (lazy loading).
-  static Future<Hymns?> getHymn(String code, DataLoader dataLoader) async {
-    final cached = _cache[code];
+  /// Gets a single hymn by code (lazy loading). [folder] lets non-hymn
+  /// content that shares the same title/content format (e.g. solemn
+  /// blessings under mass_missal/blessings) reuse this exact mechanism.
+  static Future<Hymns?> getHymn(
+    String code,
+    DataLoader dataLoader, {
+    String folder = 'hymns',
+  }) async {
+    final cacheKey = '$folder/$code';
+    final cached = _cache[cacheKey];
     if (cached != null) return cached;
 
     try {
-      final content = await dataLoader.loadYaml('hymns/$code.yaml');
-      final hymn = _parseHymn(code, content);
-      if (hymn != null) return _cache[code] = hymn;
+      final content = await dataLoader.loadYaml('$folder/$code.yaml');
+      final hymn = _parseHymn(cacheKey, content);
+      if (hymn != null) return _cache[cacheKey] = hymn;
     } catch (e) {
-      print('❌ Error loading hymn $code: $e');
+      print('❌ Error loading hymn $cacheKey: $e');
     }
     return null;
   }

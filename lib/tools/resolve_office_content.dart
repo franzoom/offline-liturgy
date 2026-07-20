@@ -17,6 +17,7 @@ Future<void> resolveOfficeContent({
   List<PsalmEntry>? psalmody,
   Invitatory? invitatory,
   List<HymnEntry>? hymns,
+  List<HymnEntry>? blessings,
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
   String? svgSource,
@@ -86,6 +87,18 @@ Future<void> resolveOfficeContent({
       hymns.where((hymnEntry) => hymnEntry.hymnData == null).map(
             (hymnEntry) => HymnsLibrary.getHymn(hymnEntry.code, dataLoader)
                 .then((result) => hymnEntry.hymnData = result),
+          ),
+    );
+  }
+
+  // 4. Solemn blessings — same code-reference mechanism as hymns, but
+  // loaded from mass_missal/blessings instead of hymns/.
+  if (blessings != null) {
+    await Future.wait(
+      blessings.where((entry) => entry.hymnData == null).map(
+            (entry) => HymnsLibrary.getHymn(entry.code, dataLoader,
+                    folder: 'mass_missal/blessings')
+                .then((result) => entry.hymnData = result),
           ),
     );
   }

@@ -3,6 +3,7 @@ import '../../classes/office_elements_class.dart';
 import '../../tools/celebration_index.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/hierarchical_common_loader.dart';
+import '../../tools/resolve_office_content.dart';
 import './ferial_mass_resolution.dart';
 import './mass_extract.dart';
 
@@ -60,6 +61,14 @@ Future<Mass> massExport(CelebrationContext context) async {
         context.date.isSunday ? liturgicalYear(year) : weekdayLectionaryYear(year);
     _filterMassByCycle(selected, cycleKey);
   }
+
+  // STEP 7: Resolve the proper sequence's and solemn blessing's codes (if
+  // any) into their content, exactly like a hymn.
+  await resolveOfficeContent(
+    hymns: selected.sequence,
+    blessings: selected.solemnBlessingList,
+    dataLoader: context.dataLoader,
+  );
 
   return selected;
 }

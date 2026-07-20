@@ -194,6 +194,8 @@ mass:
   note: null
   entranceAntiphon: null
   collect: null
+  sequence:
+  - victimae-paschali-laudes
   readingParts:
   - partType: READING
     partContents:
@@ -301,4 +303,5 @@ mass:
   prefaceList: null
   communionAntiphon: null
   prayerAfterCommunion: null
-  solemnBlessingList: null
+  solemnBlessingList:
+  - easter_blessing

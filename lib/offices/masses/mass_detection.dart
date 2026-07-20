@@ -29,17 +29,25 @@ Future<Map<String, CelebrationContext>> massDetection(
       masses = await ferialMassResolution(c);
     } else {
       final filePath = await dirPathForCode(c.celebrationCode, c.dataLoader);
-      masses =
-          await massExtract('$filePath/${c.celebrationCode}.yaml', c.dataLoader);
+      masses = await massExtract(
+          '$filePath/${c.celebrationCode}.yaml', c.dataLoader);
     }
 
-    for (final mass in masses.masses ?? []) {
+    final massList = masses.masses ?? [];
+    for (final mass in massList) {
       final celebrationTitle = c.celebrationTitle ?? c.celebrationCode;
       final key = '$celebrationTitle - ${mass.name ?? mass.massType}';
 
+      // Disambiguate the label only when this celebration has several
+      // Masses (e.g. Christmas' 4 Masses, Palm Sunday's procession +
+      // Passion Mass) — a single-Mass day keeps the plain celebration name.
+      final String? description = massList.length > 1 && mass.name != null
+          ? '${c.celebrationGlobalName} (${mass.name})'
+          : c.celebrationGlobalName;
+
       possibleMasses[key] = c.copyWith(
         celebrationType: 'mass',
-        officeDescription: c.celebrationGlobalName,
+        officeDescription: description,
         massName: mass.name,
       );
     }

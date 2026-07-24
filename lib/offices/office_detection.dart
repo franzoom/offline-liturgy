@@ -129,9 +129,9 @@ Future<List<CelebrationContext>> detectCelebrations(
     ));
   }
 
-  // Check if there's a high priority celebration (feast or above: precedence <= 7)
+  // Check if there's a high priority celebration (feast or above: precedence <= 8)
   final bool hasHighPriority =
-      allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 7);
+      allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 8);
 
   // Sort: by precedence ascending, with special rule for ferial days (precedence 13)
   // Ferial days at precedence 13 should come before optional memorials (precedence 12)

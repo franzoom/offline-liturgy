@@ -16,7 +16,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   Masses massesOffice = Masses();
 
   final int prec = context.precedence ?? 13;
-  final bool isMemory = prec > 7;
+  final bool isMemory = prec > 8;
 
   // STEP 1: Load ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {

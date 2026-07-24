@@ -15,7 +15,7 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 
   final String lt = context.liturgicalTime ?? '';
   final int prec = context.precedence ?? 13;
-  final bool isMemory = prec > 7;
+  final bool isMemory = prec > 8;
 
   // STEP 1: Load Ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {
@@ -43,8 +43,8 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   // STEP 4: Apply Proper data
   readingsOffice.overlayWith(properReadings);
 
-  // STEP 5: Te Deum — only for Feasts and Solemnities (precedence ≤ 7), never in Holy Week
-  final bool hasTeDeum = prec <= 7 && lt != 'holyweek' &&
+  // STEP 5: Te Deum — only for Feasts and Solemnities (precedence ≤ 8), never in Holy Week
+  final bool hasTeDeum = prec <= 8 && lt != 'holyweek' &&
       context.celebrationCode != 'commemoration_of_all_the_faithful_departed';
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;
 

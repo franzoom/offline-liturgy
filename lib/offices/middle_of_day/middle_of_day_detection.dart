@@ -7,7 +7,7 @@ import '../office_detection.dart';
 /// Returns a map of possible Middle of Day Offices for a given date.
 ///
 /// For the Middle of Day office, the ferial office is always used,
-/// UNLESS the celebration is a feast or solemnity (precedence <= 6),
+/// UNLESS the celebration is a feast or solemnity (precedence <= 8),
 /// in which case that celebration's office is used instead.
 Future<Map<String, CelebrationContext>> middleOfDayDetection(
   Calendar calendar,
@@ -18,12 +18,12 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
 
   if (celebrations.isEmpty) return {};
 
-  // Check if there is a feast or solemnity (precedence <= 7, feasts included)
+  // Check if there is a feast or solemnity (precedence <= 8, feasts included)
   final hasFeastOrSolemnity =
-      celebrations.any((c) => (c.precedence ?? 13) <= 7);
+      celebrations.any((c) => (c.precedence ?? 13) <= 8);
 
   final c = hasFeastOrSolemnity
-      ? celebrations.where((c) => (c.precedence ?? 13) <= 7).first
+      ? celebrations.where((c) => (c.precedence ?? 13) <= 8).first
       : celebrations.firstWhere(
           (c) => ferialDayCheck(c.celebrationCode),
           orElse: () => celebrations.first,

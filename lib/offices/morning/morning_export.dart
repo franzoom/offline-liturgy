@@ -43,7 +43,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   // 3. FINAL MERGING
   if (celebrationContext.precedence != null &&
-      celebrationContext.precedence! <= 7) {
+      celebrationContext.precedence! <= 8) {
     // Solemnities and Feasts: Full replacement
     morningOffice.overlayWith(celebrationOverlay);
   } else {

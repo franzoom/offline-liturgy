@@ -5,7 +5,7 @@ celebration:
     Jean Marie Vianney (1786-1859), le curé d’Ars, est le type du pasteur d’âmes, tout adonné à l’annonce de la parole de Dieu et au ministère de la réconciliation, à la prière et à la pénitence. L’amour qui, à certaines heures, transfigurait son visage avait sa source dans l’Eucharistie, dont il fut à la fois le célébrant fervent et l’adorateur fidèle.
   color: white
   commons:
-    - pastors_priests
+    - pastors
 
 oration:
   - Dieu de puissance et de bonté, tu as fait de saint Jean-Marie Vianney, un prêtre admirable, passionnément dévoué à son ministère ; accorde-nous, par sa prière et à son exemple, d’avoir pour nos frères une charité qui les gagne au Christ, et d’obtenir avec eux l’éternelle gloire.
@@ -32,3 +32,101 @@ readings:
 
         Demandez et vous recevrez :
         parfaite sera votre joie.
+
+
+mass:
+- massType: day_mass
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu de puissance et de miséricorde, +
+    >tu as fait de saint Jean-Marie Vianney
+    >un prêtre admirable, passionnément dévoué
+    >à son ministère pastoral ; *
+    accorde-nous, par sa prière et à son exemple,
+    >d’avoir pour nos frères une charité qui les gagne au Christ, /
+    >et d’obtenir avec eux la gloire éternelle.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING
+    partContents:
+    - biblicalRef: Ez 3, 16-21
+      headline: |-
+        « Je fais de toi un guetteur pour la maison d’Israël »
+      content: |-
+        En ces jours-là,
+        la parole du Seigneur me fut adressée :
+        >« Fils d’homme, je fais de toi un guetteur
+        >pour la maison d’Israël.
+        Lorsque tu entendras une parole de ma bouche,
+        >tu les avertiras de ma part.
+        Si je dis au méchant : "Tu vas mourir",
+        >et que tu ne l’avertisses pas,
+        >si tu ne lui dis pas d’abandonner sa conduite mauvaise
+        >afin qu’il vive,
+        >lui, le méchant, mourra de son péché,
+        >mais à toi, je demanderai compte de son sang.
+        Au contraire, si tu avertis le méchant,
+        >et qu’il ne se détourne pas
+        >de sa méchanceté et de sa conduite mauvaise,
+        >lui mourra de son péché,
+        >mais toi, tu auras sauvé ta vie.
+        Si le juste se détourne de sa justice
+        >et fait le mal,
+        >je le ferai trébucher :
+        >il mourra.
+        Parce que tu ne l’auras pas averti,
+        >il mourra de son péché,
+        >et l’on ne se souviendra plus
+        >de la justice qu’il avait pratiquée ;
+        >mais à toi je demanderai compte de son sang.
+        Au contraire, si tu avertis le juste de ne pas pécher,
+        >et qu’en effet il ne pèche pas,
+        >c’est certain, il vivra parce qu’il aura été averti,
+        >et toi, tu auras sauvé ta vie. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 116 (117), 1, 2
+      refAbbr: 116, 1…
+      chorus:
+      - chorusRef: Mc 16, 15
+        chorus: |-
+          Allez dans le monde entier.
+          Proclamez l’Évangile.
+      content: |-
+        Louez le Seigneur, tous les peuples ;
+        fêtez-le, tous les pays !
+
+        Son amour envers nous s’est montré le plus fort ;
+        éternelle est la fidélité du Seigneur !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 9, 35 - 10, 1
+      headline: |-
+        « Voyant les foules, Jésus fut saisi de compassion »
+      acclamationAntiphon: |-
+        Le Seigneur m’a envoyé
+        porter la Bonne Nouvelle aux pauvres,
+        annoncer aux captifs leur libération.
+      content: |-
+        En ce temps-là,
+        Jésus parcourait toutes les villes et tous les villages,
+        >enseignant dans leurs synagogues,
+        >proclamant l’Évangile du Royaume
+        >et guérissant toute maladie et toute infirmité.
+        Voyant les foules, Jésus fut saisi de compassion envers elles
+        >parce qu’elles étaient désemparées et abattues
+        >comme des brebis sans berger.
+        Il dit alors à ses disciples :
+        >« La moisson est abondante,
+        >mais les ouvriers sont peu nombreux.
+        Priez donc le maître de la moisson
+        >d’envoyer des ouvriers pour sa moisson. »
+        Alors Jésus appela ses douze disciples
+        >et leur donna le pouvoir d’expulser les esprits impurs
+        >et de guérir toute maladie et toute infirmité.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

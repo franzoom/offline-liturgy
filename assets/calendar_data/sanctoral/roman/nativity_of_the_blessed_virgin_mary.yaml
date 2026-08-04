@@ -287,35 +287,7 @@ mass:
   prefaceList:
   - the_blessed_virgin_mary_1
   - the_blessed_virgin_mary_2
-  eucharisticPrayers:
-  - PE1: |-
-      Unis dans une même communion,
-      >nous célébrons le jour de la naissance de la Vierge Marie,
-      >que tu as choisie depuis toujours
-      >pour être la mère du Sauveur ;
-      et vénérant d’abord la mémoire
-      >de cette Vierge bienheureuse,
-      >la Mère de notre Dieu et Seigneur, Jésus Christ,
-
-  - PE2: |-
-      Toi qui es vraiment saint,
-      >toi qui es la source de toute sainteté, Dieu notre Père,
-      nous voici rassemblés devant toi,
-      >et, dans la communion de toute l’Église,
-      >nous célébrons le jour de la naissance de la Vierge Marie,
-      >que tu avais choisie depuis toujours pour être la mère
-      >de notre Rédempteur et Sauveur, Jésus Christ.
-      Par lui, nous te prions :
-  - PE3: |-
-      C’est pourquoi nous voici rassemblés devant toi,
-      >Dieu notre Père,
-      >et, dans la communion de toute l’Église,
-      >nous célébrons le jour de la naissance de la Vierge Marie,
-      >que tu avais choisie depuis toujours pour être la mère
-      >de notre Rédempteur et Sauveur, Jésus Christ.
-      Par lui, nous te supplions de consacrer toi-même
-      >les offrandes que nous apportons : 
-
+  eucharisticPrayerCommunicantes: nativity_of_the_blessed_virgin_mary
   communionAntiphon:
   - biblicalReference: cf. Is 7,14 ; Mt 1,21
     content: |-

@@ -411,39 +411,7 @@ mass:
     Par le Christ, notre Seigneur.
   prefaceList:
   - all_saints
-  eucharisticPrayers:
-  - PE1: |-
-      Unis dans une même communion,
-      >nous célébrons le jour
-      >consacré à la mémoire de tous les saints :
-      ils ont imité le Christ pendant leur vie
-      >et, à leur mort, ils ont reçu de lui la couronne de gloire ;
-      et vénérant d’abord la mémoire
-      >de la bienheureuse Marie toujours Vierge,
-      >Mère de notre Dieu et Seigneur, Jésus Christ, 
-  - PE2: |-
-      Toi qui es vraiment saint,
-      >toi qui es la source de toute sainteté, Dieu notre Père,
-      nous voici rassemblés devant toi,
-      >et, dans la communion de toute l’Église,
-      >nous célébrons le jour
-      >consacré à la mémoire de tous les saints :
-      ils ont suivi le Christ pendant leur vie
-      >et, à leur mort, ils ont reçu de lui la couronne de gloire.
-      Par lui, qui est à l’origine de notre foi
-      >et qui la mène à sa perfection,
-      >nous te prions : 
-  - PE3: |-
-      C’est pourquoi nous voici rassemblés devant toi, Dieu notre Père,
-      >et, dans la communion de toute l’Église,
-      >nous célébrons le jour
-      >consacré à la mémoire de tous les saints :
-      ils ont suivi le Christ pendant leur vie
-      >et, à leur mort, ils ont reçu de lui la couronne de gloire.
-      Par lui, qui est à l’origine de notre foi
-      >et qui la mène à sa perfection,
-      nous te supplions de consacrer toi-même
-      >les offrandes que nous apportons : 
+  eucharisticPrayerCommunicantes: all_saints
   communionAntiphon:
   - biblicalReference: Mt 5,8-10
     content: |-

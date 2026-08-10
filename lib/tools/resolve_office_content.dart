@@ -1,7 +1,10 @@
+import '../classes/mass_class.dart';
 import '../classes/office_elements_class.dart';
 import '../classes/psalms_class.dart';
 import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
+import '../assets/libraries/eucharistic_prayer_communicantes_library.dart';
+import '../assets/libraries/prefaces_library.dart';
 import 'data_loader.dart';
 
 /// Returns the SVG lookup key for a psalm code, stripping the part suffix
@@ -18,6 +21,8 @@ Future<void> resolveOfficeContent({
   Invitatory? invitatory,
   List<HymnEntry>? hymns,
   List<HymnEntry>? blessings,
+  EucharisticPrayerCommunicantesEntry? eucharisticPrayerCommunicantes,
+  List<PrefaceEntry>? prefaces,
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
   String? svgSource,
@@ -99,6 +104,28 @@ Future<void> resolveOfficeContent({
             (entry) => HymnsLibrary.getHymn(entry.code, dataLoader,
                     folder: 'mass_missal/blessings')
                 .then((result) => entry.hymnData = result),
+          ),
+    );
+  }
+
+  // 5. Eucharistic prayer Communicantes insert — same code-reference
+  // mechanism as hymns, loaded from mass_missal/eucharistic_prayer_communicantes
+  // instead of hymns/.
+  if (eucharisticPrayerCommunicantes != null &&
+      eucharisticPrayerCommunicantes.data == null) {
+    eucharisticPrayerCommunicantes.data =
+        await EucharisticPrayerCommunicantesLibrary
+            .getEucharisticPrayerCommunicantes(
+                eucharisticPrayerCommunicantes.code, dataLoader);
+  }
+
+  // 6. Prefaces — same code-reference mechanism as hymns, loaded from
+  // mass_missal/prefaces instead of hymns/.
+  if (prefaces != null) {
+    await Future.wait(
+      prefaces.where((entry) => entry.data == null).map(
+            (entry) => PrefacesLibrary.getPreface(entry.code, dataLoader)
+                .then((result) => entry.data = result),
           ),
     );
   }

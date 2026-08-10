@@ -165,6 +165,90 @@ class MassReadingPart {
   }
 }
 
+/// One single-key entry (description/PE1/PE2/PE3) of an
+/// eucharistic_prayer_communicantes/*.yaml "library" file. Each file is a
+/// YAML list where every item holds exactly one of these keys, rather than a
+/// single map.
+class EucharisticPrayerCommunicantes {
+  final String? description;
+  final String? pe1;
+  final String? pe2;
+  final String? pe3;
+
+  const EucharisticPrayerCommunicantes({
+    this.description,
+    this.pe1,
+    this.pe2,
+    this.pe3,
+  });
+
+  factory EucharisticPrayerCommunicantes.fromJson(List<dynamic> json) {
+    String? description;
+    String? pe1;
+    String? pe2;
+    String? pe3;
+    for (final entry in json) {
+      if (entry is! Map) continue;
+      description ??= entry['description']?.toString();
+      pe1 ??= entry['PE1']?.toString();
+      pe2 ??= entry['PE2']?.toString();
+      pe3 ??= entry['PE3']?.toString();
+    }
+    return EucharisticPrayerCommunicantes(
+      description: description,
+      pe1: pe1,
+      pe2: pe2,
+      pe3: pe3,
+    );
+  }
+}
+
+/// The day's proper Communicantes insert for the Eucharistic Prayer,
+/// referenced by code (e.g. "assumption", "sundays") and resolved like a
+/// hymn -- see resolveOfficeContent. Its data holds all 3 variants
+/// (PE1/PE2/PE3); the celebration UI picks the one matching whichever
+/// Eucharistic Prayer was chosen.
+class EucharisticPrayerCommunicantesEntry {
+  final String code;
+  EucharisticPrayerCommunicantes? data;
+
+  EucharisticPrayerCommunicantesEntry({required this.code, this.data});
+
+  factory EucharisticPrayerCommunicantesEntry.fromJson(dynamic json) =>
+      EucharisticPrayerCommunicantesEntry(code: json.toString());
+}
+
+/// One preface text, as found in a mass_missal/prefaces/*.yaml file.
+class Preface {
+  final String? title;
+  final String? subtitle;
+  final String? note;
+  final String? content;
+
+  const Preface({this.title, this.subtitle, this.note, this.content});
+
+  factory Preface.fromJson(Map<String, dynamic> json) => Preface(
+        title: json['title']?.toString(),
+        subtitle: json['subtitle']?.toString(),
+        note: json['note']?.toString(),
+        content: json['content']?.toString(),
+      );
+}
+
+/// One of the possible prefaces for a Mass, referenced by code (e.g.
+/// "the_blessed_virgin_mary_1") and resolved like a hymn -- see
+/// resolveOfficeContent. A Mass can offer several alternative prefaces
+/// (prefaceList), each resolved independently.
+class PrefaceEntry {
+  final String code;
+  Preface? data;
+
+  PrefaceEntry({required this.code, this.data});
+
+  factory PrefaceEntry.fromJson(dynamic json) =>
+      PrefaceEntry(code: json.toString());
+}
+
 /// A single Mass (e.g. vigil mass, day mass).
 class Mass {
   String? massType;
@@ -174,7 +258,9 @@ class Mass {
   List<String>? collect;
   List<MassReadingPart>? readingParts;
   List<String>? offeringPrayer;
-  List<String>? prefaceList;
+  // Alternative prefaces for this Mass, referenced by code and resolved like
+  // a hymn -- see PrefaceEntry.
+  List<PrefaceEntry>? prefaceList;
   List<MassAntiphon>? communionAntiphon;
   List<String>? prayerAfterCommunion;
   List<String>? prayerOnThePeople;
@@ -184,6 +270,9 @@ class Mass {
   // Proper sequence (e.g. Victimae Paschali Laudes, Veni Sancte Spiritus),
   // referenced by code and resolved like a hymn -- see HymnEntry.
   List<HymnEntry>? sequence;
+  // Day's proper Communicantes insert for the Eucharistic Prayer, referenced
+  // by code and resolved like a hymn -- see EucharisticPrayerCommunicantesEntry.
+  EucharisticPrayerCommunicantesEntry? eucharisticPrayerCommunicantes;
 
   Mass({
     this.massType,
@@ -199,6 +288,7 @@ class Mass {
     this.prayerOnThePeople,
     this.solemnBlessingList,
     this.sequence,
+    this.eucharisticPrayerCommunicantes,
   });
 
   factory Mass.fromJson(Map<String, dynamic> json) {
@@ -217,8 +307,9 @@ class Mass {
           .toList(),
       offeringPrayer:
           (json['offeringPrayer'] as List?)?.map((e) => e.toString()).toList(),
-      prefaceList:
-          (json['prefaceList'] as List?)?.map((e) => e.toString()).toList(),
+      prefaceList: (json['prefaceList'] as List?)
+          ?.map((e) => PrefaceEntry.fromJson(e))
+          .toList(),
       communionAntiphon: (json['communionAntiphon'] as List?)
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassAntiphon.fromJson(e))
@@ -235,6 +326,11 @@ class Mass {
       sequence: (json['sequence'] as List?)
           ?.map((e) => HymnEntry.fromJson(e))
           .toList(),
+      eucharisticPrayerCommunicantes:
+          json['eucharisticPrayerCommunicantes'] != null
+              ? EucharisticPrayerCommunicantesEntry.fromJson(
+                  json['eucharisticPrayerCommunicantes'])
+              : null,
     );
   }
 
@@ -266,6 +362,8 @@ class Mass {
     if (overlay.solemnBlessingList != null)
       solemnBlessingList = overlay.solemnBlessingList;
     if (overlay.sequence != null) sequence = overlay.sequence;
+    if (overlay.eucharisticPrayerCommunicantes != null)
+      eucharisticPrayerCommunicantes = overlay.eucharisticPrayerCommunicantes;
   }
 
   /// Fills the 5 Sunday-inherited fields (entrance/communion antiphons and
@@ -301,6 +399,8 @@ class Mass {
     if (common.solemnBlessingList != null)
       solemnBlessingList = common.solemnBlessingList;
     if (common.sequence != null) sequence = common.sequence;
+    if (common.eucharisticPrayerCommunicantes != null)
+      eucharisticPrayerCommunicantes = common.eucharisticPrayerCommunicantes;
   }
 
   bool get isEmpty =>
@@ -316,7 +416,8 @@ class Mass {
       (prayerAfterCommunion == null || prayerAfterCommunion!.isEmpty) &&
       (prayerOnThePeople == null || prayerOnThePeople!.isEmpty) &&
       (solemnBlessingList == null || solemnBlessingList!.isEmpty) &&
-      (sequence == null || sequence!.isEmpty);
+      (sequence == null || sequence!.isEmpty) &&
+      eucharisticPrayerCommunicantes == null;
 }
 
 /// Container for all Mass types of a given liturgical day.

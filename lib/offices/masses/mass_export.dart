@@ -62,11 +62,14 @@ Future<Mass> massExport(CelebrationContext context) async {
     _filterMassByCycle(selected, cycleKey);
   }
 
-  // STEP 7: Resolve the proper sequence's and solemn blessing's codes (if
-  // any) into their content, exactly like a hymn.
+  // STEP 7: Resolve the proper sequence's, solemn blessing's, eucharistic
+  // prayer insert's and prefaces' codes (if any) into their content, exactly
+  // like a hymn.
   await resolveOfficeContent(
     hymns: selected.sequence,
     blessings: selected.solemnBlessingList,
+    eucharisticPrayerCommunicantes: selected.eucharisticPrayerCommunicantes,
+    prefaces: selected.prefaceList,
     dataLoader: context.dataLoader,
   );
 

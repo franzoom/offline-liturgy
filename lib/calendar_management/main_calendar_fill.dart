@@ -530,7 +530,7 @@ void _fillFixedSolemnities(
   calendar.addItemToDay(
       feasts['saint_john_the_baptist']!, 3, 'roman/saint_john_the_baptist');
   calendar.addItemToDay(
-      DateTime(year, 8, 6), 3, 'roman/transfiguration_of_the_lord');
+      DateTime(year, 8, 6), 5, 'roman/transfiguration_of_the_lord');
   calendar.addItemToDay(
       DateTime(year, 8, 15), 3, 'roman/assumption_of_the_blessed_virgin_mary');
   calendar.addItemToDay(DateTime(year, 11, 1), 3, 'roman/all_saints');

@@ -23,9 +23,10 @@ Future<Mass> massExport(CelebrationContext context) async {
     massesOffice = await ferialMassResolution(context);
   }
 
-  // STEP 2: Load proper celebration data
+  // STEP 2: Load proper celebration data — only matters if it will actually
+  // be applied (Feasts/Solemnities), see STEP 4.
   Masses properMasses = Masses();
-  if (context.celebrationCode != context.ferialCode) {
+  if (prec <= 5 && context.celebrationCode != context.ferialCode) {
     properMasses = await _loadProperMasses(context);
   }
 
@@ -40,8 +41,13 @@ Future<Mass> massExport(CelebrationContext context) async {
     }
   }
 
-  // STEP 4: Apply proper data
-  massesOffice.overlayWith(properMasses);
+  // STEP 4: Apply proper data — only for Feasts and Solemnities (precedence
+  // <= 5). Memorials, commemorations and ferial days keep the ferial Mass
+  // texts (the celebration's proper collect may still reach them via the
+  // Common overlay in STEP 3).
+  if (prec <= 5) {
+    massesOffice.overlayWith(properMasses);
+  }
 
   // STEP 5: Select the Mass matching this context's massName
   final masses = massesOffice.masses ?? [];

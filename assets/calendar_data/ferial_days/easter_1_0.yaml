@@ -7,15 +7,6 @@ celebration:
 oration:
 - Aujourd’hui, Dieu notre Père, tu nous ouvres la vie éternelle par la victoire de ton Fils sur la mort, et nous fêtons sa résurrection. Que ton Esprit fasse de nous des hommes nouveaux pour que nous ressuscitions avec le Christ dans la lumière de la vie. Lui qui règne.
 
-readings:
-  psalmody:
-  - psalm: PSALM_0
-  - psalm: PSALM_0
-  - psalm: PSALM_0
-  verse:
-  biblicalReading:
-  - content:
-
 morning:
   reading:
     biblicalReference: Ac 10, 40-43
@@ -123,7 +114,7 @@ mass:
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: FIRST_READING
     partContents:
     - biblicalRef: Gn 1,1 – 2,2
       headline: |-
@@ -364,7 +355,7 @@ mass:
         il est pour nous un appui, un bouclier.
         Que ton amour, Seigneur, soit sur nous
         comme notre espoir est en toi !
-  - partType: READING
+  - partType: SECOND_READING
     partContents:
     - biblicalRef: Gn 22, 1–18
       headline: |-
@@ -513,7 +504,7 @@ mass:
         Tu m’apprends le chemin de la vie :
         devant ta face, débordement de joie !
         À ta droite, éternité de délices !
-  - partType: READING
+  - partType: THIRD_READING
     partContents:
     - biblicalRef: Ex 14,15 – 15,1a
       headline: |-
@@ -523,7 +514,7 @@ mass:
         le Seigneur dit à Moïse :
           « Pourquoi crier vers moi ?
           Ordonne aux fils d’Israël de se mettre en route !
-        	Toi, lève ton bâton, étends le bras sur la mer,
+          Toi, lève ton bâton, étends le bras sur la mer,
             fends-la en deux,
           et que les fils d’Israël entrent au milieu de la mer à pied sec.
           Et moi, je ferai en sorte que les Égyptiens s’obstinent :
@@ -537,7 +528,7 @@ mass:
           se déplaça et marcha à l’arrière.
         La colonne de nuée se déplaça depuis l’avant-garde
           et vint se tenir à l’arrière,
-        	entre le camp des Égyptiens et le camp d’Israël.
+          entre le camp des Égyptiens et le camp d’Israël.
         Cette nuée était à la fois ténèbres et lumière dans la nuit,
           si bien que, de toute la nuit, ils ne purent se rencontrer.
         Moïse étendit le bras sur la mer.
@@ -618,7 +609,7 @@ mass:
         le lieu que tu as fait, Seigneur, pour l’habiter,
         le sanctuaire, Seigneur, fondé par tes mains.
         Le Seigneur régnera pour les siècles des siècles.
-  - partType: READING
+  - partType: FOURTH_READING
     partContents:
     - biblicalRef: Is 54, 5-14
       headline: |-
@@ -692,7 +683,7 @@ mass:
         qu’il soit en fête pour toi ;
         et que sans fin, Seigneur, mon Dieu,
         je te rende grâce !
-  - partType: READING
+  - partType: FIFTH_READING
     partContents:
     - biblicalRef: Is 55, 1-11
       headline: |-
@@ -768,7 +759,7 @@ mass:
         et toute la terre le sait.
         Jubilez, criez de joie, habitants de Sion,
         car il est grand au milieu de toi, le Saint d’Israël !
-  - partType: READING
+  - partType: SIXTH_READING
     partContents:
     - biblicalRef: Ba 3,9-15.32 – 4,4
       headline: |-
@@ -799,7 +790,7 @@ mass:
         Il lance la lumière, et elle prend sa course ;
           il la rappelle, et elle obéit en tremblant.
         Les étoiles brillent, joyeuses, à leur poste de veille ;
-        	il les appelle, et elles répondent : « Nous voici ! »
+          il les appelle, et elles répondent : « Nous voici ! »
         Elles brillent avec joie pour celui qui les a faites.
         C’est lui qui est notre Dieu :
           aucun autre ne lui est comparable.
@@ -848,7 +839,7 @@ mass:
         qu’une masse d’or fin,
         plus savoureuses que le miel
         qui coule des rayons.
-  - partType: READING
+  - partType: SEVENTH_READING
     partContents:
     - biblicalRef: Ez 36,16-17a.18-28
       headline: |-
@@ -1256,7 +1247,7 @@ mass:
         est devenue la pierre d’angle :
         c’est là l’œuvre du Seigneur,
         la merveille devant nos yeux.
-  - partType: READING
+  - partType: SECOND_READING
     partContents:
     - biblicalRef: Col 3, 1-4
       headline: |-

@@ -139,7 +139,7 @@ morning:
 
 middleOfDay:
   psalmody:
-  - psalm: PSALM_118-4
+  - psalm: PSALM_118_4
   - psalm: PSALM_27
   - psalm: PSALM_25
   tierce:
@@ -238,7 +238,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: FIRST_READING
+  - partType: READING
     partContents:
     - cycle: A
       biblicalRef: Si 3, 2-6.12-14

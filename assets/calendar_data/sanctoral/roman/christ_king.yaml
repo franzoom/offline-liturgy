@@ -112,10 +112,10 @@ readings:
       antiphon:
         - |-
           Le Seigneur est roi sur la sainte montagne : à lui l’héritage des nations.
-    - psalm: PSALM_71-I
+    - psalm: PSALM_71_1
       antiphon:
         - Dieu l’a fait juge des vivants et des morts.
-    - psalm: PSALM_71-II
+    - psalm: PSALM_71_2
       antiphon:
         - Le règne de Dieu est justice, paix et joie dans l’Esprit Saint.
   verse: |-
@@ -181,9 +181,9 @@ readings:
 
 middleOfDay:
   psalmody:
-    - psalm: PSALM_117-I
-    - psalm: PSALM_117-II
-    - psalm: PSALM_117-III
+    - psalm: PSALM_117_1
+    - psalm: PSALM_117_2
+    - psalm: PSALM_117_3
   tierce:
     antiphon: Le Seigneur est notre juge, il nous donne sa loi. Le Seigneur est notre roi, il nous donne le salut.
     reading:
@@ -434,7 +434,7 @@ mass:
         le siège de la maison de David.
         Appelez le bonheur sur Jérusalem :
         « Paix à ceux qui t’aiment ! »
-  - partType: READING
+  - partType: SECOND_READING
     partContents:
     - biblicalRef: 1 Co 15, 20-26.28
       cycle:

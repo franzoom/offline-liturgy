@@ -7,7 +7,7 @@ oration:
 
 firstVespers:
   hymn:
-    - qui-es-tu-roi-d-humilite
+    - qui-es-tu
   psalmody:
     - psalm: PSALM_134_1
       antiphon:
@@ -174,12 +174,12 @@ morning:
       — allume en nous le désir de ton règne.
 
 middleOfDay:
-  psalmody:
-    - psalm: PSALM_46
-    - psalm: PSALM_85A
-    - psalm: PSALM_97
   tierce:
     antiphon: Le mystère caché depuis toujours est maintenant manifesté.
+    psalmody:
+      - psalm: PSALM_46
+      - psalm: PSALM_85_1
+      - psalm: PSALM_97
     reading:
       biblicalReference: Ap 15, 4
       content: Qui ne te craindrait, Seigneur ? À ton nom qui ne rendrait gloire ? Seul tu es saint ! Toutes les nations viendront se prosterner devant toi.
@@ -188,6 +188,10 @@ middleOfDay:
       il a vécu parmi les hommes.
   sexte:
     antiphon: Le Christ est venu proclamer la paix, la paix à vous qui étiez loin, la paix à ceux qui étaient proches.
+    psalmody:
+      - psalm: PSALM_122
+      - psalm: PSALM_123
+      - psalm: PSALM_124
     reading:
       biblicalReference: Is 49, 6
       content: |-
@@ -197,6 +201,10 @@ middleOfDay:
       tous les rois verront ta gloire.
   none:
     antiphon: Je fais de toi la lumière des nations, pour que tu sois mon salut jusqu’au bout de la terre.
+    psalmody:
+      - psalm: PSALM_125
+      - psalm: PSALM_126
+      - psalm: PSALM_127
     reading:
       biblicalReference: Za 2,15
       content: En ce jour-là, des nations nombreuses s’attacheront au Seigneur, elles seront pour moi un peuple, et j’habiterai au milieu de toi. Tu sauras que le Seigneur de l’univers m’a envoyé vers toi.
@@ -206,7 +214,7 @@ middleOfDay:
 
 vespers:
   hymn:
-    - a-l-orient-l-etoile-a-paru
+    - a-l-orient
   psalmody:
     - psalm: PSALM_109
       antiphon:
@@ -266,7 +274,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: FIRST_READING
+  - partType: READING
     partContents:
     - biblicalRef: Is 60, 1-6
       headline: « La gloire du Seigneur s’est levée sur toi »

@@ -186,7 +186,7 @@ middleOfDay:
 vespers:
   hymn:
     - ouvrez-vos-coeurs
-    - veni-creator
+    - veni-creator-spiritus
   psalmody:
     - psalm: PSALM_109
       antiphon:
@@ -433,7 +433,7 @@ mass:
               et retournent à leur poussière.
               Tu envoies ton souffle : ils sont créés ;
               tu renouvelles la face de la terre.
-      - partType: READING
+      - partType: SECOND_READING
         partContents:
           - biblicalRef: Rm 8, 22-27
             headline: |-
@@ -561,7 +561,7 @@ mass:
               Que Dieu se réjouisse en ses œuvres !
               Que mon poème lui soit agréable ;
               moi, je me réjouis dans le Seigneur.
-      - partType: READING
+      - partType: SECOND_READING
         partContents:
           - biblicalRef: 1 Co 12, 3b-7.12-13
             cycle:

@@ -225,7 +225,7 @@ middleOfDay:
 
 vespers:
   hymn:
-  - a-pleine-voix-chantons-pour-dieu
+  - a-pleine-voix
   psalmody:
   - psalm: PSALM_109
     antiphon:
@@ -838,7 +838,7 @@ mass:
     de même, fais que ces fruits de la terre
     >nous communiquent tes dons divins.
     Par le Christ, notre Seigneur.
-  offeringPrayer: |-
+  - |-
     Reçois, Seigneur, nous t’en prions,
     >les offrandes de tes fidèles serviteurs ; *
     purifie-les quand ils célèbrent avec amour tes mystères,
@@ -1076,16 +1076,16 @@ mass:
   offeringPrayer:
   - |-
     Que l’offrande présentée en ce jour de solennité
-    te soit agréable, Seigneur, *
+    te soit agréable, Seigneur, *
     car elle nous a réconciliés avec toi,
-    >parfaitement rétablis dans ta paix, /
+    >parfaitement rétablis dans ta paix, /
     >et introduits dans la plénitude de l’adoration véritable.
     Par le Christ, notre Seigneur.
-  offeringPrayer: |-
+  - |-
     Reçois, Seigneur, nous t’en prions,
-    >les offrandes de tes fidèles serviteurs ; *
+    >les offrandes de tes fidèles serviteurs ; *
     purifie-les quand ils célèbrent avec amour tes mystères,
-    >par lesquels tu rends justes /
+    >par lesquels tu rends justes /
     >même ceux qui ne te connaissent pas.
     Par le Christ, notre Seigneur.
   prefaceList:
@@ -1100,9 +1100,9 @@ mass:
       >le salut de notre Dieu.
   prayerAfterCommunion:
   - |-
-    Dieu de miséricorde, nous t’en prions : *
+    Dieu de miséricorde, nous t’en prions : *
     >puisque le Sauveur du monde, en naissant aujourd’hui,
-    >nous a fait naître à la vie divine, /
+    >nous a fait naître à la vie divine, /
     >que sa générosité nous accorde aussi l’immortalité.
     Lui qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null

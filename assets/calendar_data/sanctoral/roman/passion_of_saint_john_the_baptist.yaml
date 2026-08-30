@@ -3,7 +3,7 @@ celebration:
   description: |-
     Le martyre de Jean Baptiste, qu’Hérode Antipas fit décapiter à Machéronte, près de la Mer Morte, met en lumière la qualité d’âme du Précurseur du Christ et la plénitude de sa réponse à l’appel de Dieu. Dans sa mort comme dans sa prédication, il a rendu témoignage à la vérité, il a été « une flamme qui brûle et qui éclaire », selon la parole de Jésus (Jn 5, 35).
   commons:
-  - martyr
+    - martyr
   color: red
 
 oration:
@@ -17,7 +17,7 @@ readings:
   - title: HOMELIE DE SAINT BÈDE LE VÉNÉRABLE
     content: |-
       Le saint précurseur de la naissance, de la prédication et de la mort du Seigneur a montré (au moment de sa mort) un courage digne d’attirer les regards de Dieu. Comme le dit l’Écriture : %Aux yeux des hommes, il subissait un châtiment, mais par son espérance il avait déjà l’immortalité%. Nous avons raison de célébrer avec joie la naissance au ciel de celui qui a rendu lui-même ce jour solennel par sa propre passion en l’illustrant par la pourpre de son sang ; et nous vénérons dans la joie spirituelle la mémoire de cet homme qui a scellé par le sceau de son martyre le témoignage qu’il rendait au Seigneur.
-      Il n’y a en effet aucun doute que saint Jean Baptiste a subi la prison pour notre Rédempteur qu’il précédait par son témoignage, et que c’est pour lui qu’il a donné sa vie. Car si son persécuteur ne lui a pas demandé de nier le Christ, mais de taire la vérité, c’est cependant pour le Christ qu’il est mort. Le Christ lui-même a dit, en effet : %Je suis la vérité%. Puisque c’est pour la vérité qu’il a répandu son sang, c’est donc bien pour le Christ. Jean avait témoigné en naissant que le Christ allait naître ; en prêchant, il avait témoigné que le Christ allait prêcher : en baptisant, qu’il allait baptiser. En souffrant le premier sa passion, il signifiait que le Christ devait lui aussi souffrir. ~
+      Il n’y a en effet aucun doute que saint Jean Baptiste a subi la prison pour notre Rédempteur qu’il précédait par son témoignage, et que c’est pour lui qu’il a donné sa vie. Car si son persécuteur ne lui a pas demandé de nier le Christ, mais de taire la vérité, c’est cependant pour le Christ qu’il est mort. Le Christ lui-même a dit, en effet : %Je suis la vérité%. Puisque c’est pour la vérité qu’il a répandu son sang, c’est donc bien pour le Christ. Jean avait témoigné en naissant que le Christ allait naître ; en prêchant, il avait témoigné que le Christ allait prêcher ; en baptisant, qu’il allait baptiser. En souffrant le premier sa passion, il signifiait que le Christ devait lui aussi souffrir. ~
       Cet homme si grand parvint donc au terme de sa vie par l’effusion de son sang, après une longue et pénible captivité. Lui qui avait annoncé la bonne nouvelle de la liberté d’une paix supérieure est jeté en prison par des impies. Il est enfermé dans l’obscurité d’un cachot, lui qui était venu rendre témoignage à la lumière et qui avait mérité d’être appelé flambeau ardent de lumière par la lumière elle-même qui est le Christ. ~ Par son propre sang est baptisé celui à qui il fut donné de baptiser le Rédempteur du monde, d’entendre la voix du Père s’adresser au Christ, et de voir descendre sur lui la grâce du Saint-Esprit. Mais il n’était pas pénible à des hommes tels que lui, bien plus, il leur semblait léger et désirable d’endurer pour la vérité des tourments temporels qui laissaient entrevoir la récompense de joies éternelles. Préférant la mort qui de toute façon était naturellement inévitable, ils choisissaient de l’accepter en confessant le nom du Christ ; ils recevaient ainsi la palme de la vie éternelle. L’Apôtre l’a bien dit : %Il vous a été accordé par le Christ, non seulement de croire en lui, mais encore de souffrir pour lui%. Et s’il dit que souffrir pour le Christ est un don de celui-ci à ses élus, c’est parce que, comme il le dit ailleurs : %Il n’y a pas de commune mesure entre les souffrances du temps présent et la gloire que Dieu va bientôt révéler en nous%.
 
     responsory: |-
@@ -224,6 +224,8 @@ mass:
     >voix de celui qui crie dans le désert, /
     >enseigna et confirma par le témoignage de son sang.
     Par le Christ, notre Seigneur.
+  prefaceList:
+    - saint_john_the_baptist
   communionAntiphon:
   - biblicalReference: Jn 3,27,30
     content: |-

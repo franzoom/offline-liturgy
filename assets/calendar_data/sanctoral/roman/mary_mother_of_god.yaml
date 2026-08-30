@@ -65,7 +65,7 @@ invitatory:
 
 readings:
   hymn:
-    - il-est-ne-il-nous-est-donne
+    - il-est-ne
   psalmody:
     - psalm: PSALM_23
       antiphon:
@@ -279,7 +279,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-    - partType: FIRST_READING
+    - partType: READING
       partContents:
         - biblicalRef: Nb 6, 22-27
           headline: |-

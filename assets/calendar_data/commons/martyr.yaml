@@ -565,8 +565,8 @@ mass:
         il jette la semence ;
         il s’en vient, il s’en vient dans la joie,
         il rapporte les gerbes.
-  readingParts:
-  - partType: READING
+
+  - partType: SECOND_READING
     partContents:
     - biblicalRef: Rm 5, 1-5
       headline: |-
@@ -782,7 +782,7 @@ mass:
         Car mieux vaudrait souffrir en faisant le bien,
         >si c’était la volonté de Dieu,
         >plutôt qu’en faisant le mal.
-      biblicalRef: 1P 4, 12-19
+    - biblicalRef: 1P 4, 12-19
       headline: |-
         « Puisque vous communiez aux souffrances du Christ, réjouissez-vous »
       content: |-
@@ -814,7 +814,7 @@ mass:
         >en faisant la volonté de Dieu,
         qu’ils confient leurs âmes au Créateur fidèle,
         >en faisant le bien.
-      biblicalRef: 1 Jn 5, 1-5
+    - biblicalRef: 1 Jn 5, 1-5
       headline: |-
         « La victoire remportée sur le monde, c’est notre foi »
       content: |-

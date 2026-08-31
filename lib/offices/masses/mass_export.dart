@@ -11,7 +11,9 @@ import './mass_extract.dart';
 /// pair, as detected by [massDetection]. Mirrors the readingsExport pipeline
 /// (ferial base -> proper overlay -> common overlay -> proper overlay again),
 /// then selects the Mass matching context.massName and filters its
-/// readingParts down to the applicable lectionary cycle for the date.
+/// readingParts down to the applicable lectionary cycle for the date. See
+/// STEP 5b for how a memorial/commemoration may opt into its own proper
+/// readingParts via context.useProperReadingsForMemorial.
 Future<Mass> massExport(CelebrationContext context) async {
   Masses massesOffice = Masses();
 
@@ -23,10 +25,13 @@ Future<Mass> massExport(CelebrationContext context) async {
     massesOffice = await ferialMassResolution(context);
   }
 
-  // STEP 2: Load proper celebration data — only matters if it will actually
-  // be applied (Feasts/Solemnities), see STEP 4.
+  // STEP 2: Load proper celebration data — needed when it will be applied
+  // wholesale (Feasts/Solemnities, STEP 4) or when a memorial/commemoration
+  // asks for its own readingParts as an alternative to the day's (STEP 5b).
   Masses properMasses = Masses();
-  if (prec <= 5 && context.celebrationCode != context.ferialCode) {
+  final bool needsProperMasses = context.celebrationCode != context.ferialCode &&
+      (prec <= 5 || context.useProperReadingsForMemorial);
+  if (needsProperMasses) {
     properMasses = await _loadProperMasses(context);
   }
 
@@ -44,7 +49,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   // STEP 4: Apply proper data — only for Feasts and Solemnities (precedence
   // <= 5). Memorials, commemorations and ferial days keep the ferial Mass
   // texts (the celebration's proper collect may still reach them via the
-  // Common overlay in STEP 3).
+  // Common overlay in STEP 3); see STEP 5b for their readingParts.
   if (prec <= 5) {
     massesOffice.overlayWith(properMasses);
   }
@@ -57,6 +62,24 @@ Future<Mass> massExport(CelebrationContext context) async {
           (m) => m.name == context.massName,
           orElse: () => masses.first,
         );
+
+  // STEP 5b: For a memorial/commemoration (precedence > 5) that asked for
+  // its own proper readingParts (useProperReadingsForMemorial) and actually
+  // has some, swap them in — everything else (collect, antiphons,
+  // prefaces...) stays exactly as resolved above. Feasts/Solemnities are
+  // untouched here: STEP 4 already forced their readingParts unconditionally.
+  if (prec > 5 && context.useProperReadingsForMemorial) {
+    final properMassList = properMasses.masses ?? [];
+    final Mass? properSelected = properMassList.isEmpty
+        ? null
+        : properMassList.firstWhere(
+            (m) => m.name == context.massName,
+            orElse: () => properMassList.first,
+          );
+    if (properSelected?.readingParts?.isNotEmpty ?? false) {
+      selected.readingParts = properSelected!.readingParts;
+    }
+  }
 
   // STEP 6: Filter readingParts to the applicable lectionary cycle —
   // Sunday/major feasts use the A/B/C cycle, weekdays the I/II cycle.

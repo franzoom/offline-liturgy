@@ -55,8 +55,7 @@ oration:
   - |-
     Seigneur, tu as voulu que toute la loi consiste à t’aimer et à aimer son prochain : donne-nous de garder tes commandements, et de parvenir ainsi à la vie éternelle.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: null
@@ -75,7 +74,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 55, 6-9
       cycle:
@@ -209,7 +208,7 @@ mass:
         il retire le pauvre de la cendre
         pour qu’il siège parmi les princes,
         parmi les princes de son peuple.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Ph 1, 20c-24.27a
       cycle:

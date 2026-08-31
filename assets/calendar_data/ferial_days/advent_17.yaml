@@ -135,8 +135,7 @@ vespers:
       Toi qui es venu pour donner la vie,
       viens redonner vie à nos frères défunts.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 49,13
@@ -155,7 +154,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 49, 2.8-10
       headline: |-

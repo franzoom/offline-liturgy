@@ -52,10 +52,9 @@ readings:
     - |-
       Assiste tes enfants, Seigneur, et montre à ceux qui t’implorent ton inépuisable bonté ; c’est leur fierté de t’avoir pour Créateur et Providence : restaure en eux ta création, et l’ayant renouvelée, protège-là.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ne 8, 1-4a.5-6.7b-12
       cycle:

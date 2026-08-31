@@ -49,10 +49,9 @@ readings:
   oration:
     - Dans ton amour inlassable, Seigneur, veille sur ta famille ; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Tm 3, 14-16
       cycle:

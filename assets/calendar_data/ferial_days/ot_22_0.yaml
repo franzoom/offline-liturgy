@@ -64,8 +64,7 @@ readings:
 oration:
   - Dieu puissant de qui vient tout don parfait, enracine en nos cœurs l’amour de ton nom ; resserre nos liens avec toi, pour développer ce qui est bon en nous ; veille sur nous avec sollicitude, pour protéger ce que tu as fait grandir.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 85,3.5
@@ -84,7 +83,7 @@ mass:
     Par Jésus Christ, ton Fils, notre Seigneur, +
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, / Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jr 20, 7-9
       cycle:
@@ -231,7 +230,7 @@ mass:
         et quand il défaillait, toi, tu le soutenais.
         Sur les lieux où campait ton troupeau,
         tu le soutenais, Dieu qui es bon pour le pauvre.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 12, 1-2
       cycle:

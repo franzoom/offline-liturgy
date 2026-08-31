@@ -181,8 +181,7 @@ vespers:
       Tu as dit : Cherchez d’abord le Royaume,
       entrez par la porte étroite.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 54,17-20.23
@@ -203,7 +202,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dt 30, 15-20
       headline: |-

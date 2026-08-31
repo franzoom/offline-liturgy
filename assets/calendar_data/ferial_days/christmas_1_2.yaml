@@ -61,8 +61,7 @@ vespers:
       antiphon:
         - R/ Gloire à l’Agneau immolé !
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 117,26-27

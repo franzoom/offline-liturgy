@@ -177,8 +177,7 @@ vespers:
       Tu es descendu au séjour des morts avant de monter vers ton Père :
       arrache à la servitude ceux qui attendent leur libération.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: PS 85,8.10
@@ -196,7 +195,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Os 14, 2-10
       headline: |-

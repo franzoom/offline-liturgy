@@ -203,8 +203,7 @@ vespers:
       – qu’ils entrent, ceux qui ont mis leur espérance en toi.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
     - biblicalReference: null
@@ -223,7 +222,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 42, 1-4.6-7
       cycle:
@@ -531,7 +530,7 @@ mass:
          et retournent à leur poussière.
         Tu envoies ton souffle : ils sont créés ;
         tu renouvelles la face de la terre.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Ac 10, 34-38
       cycle:

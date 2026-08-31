@@ -153,8 +153,7 @@ middleOfDay:
       V/ Le sacrifice qui plaît à Dieu, c’est un esprit brisé :
       ne repousse pas, mon Dieu, un cœur brisé, broyé.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 18,8
@@ -174,7 +173,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dt 26, 16-19
       headline: |-

@@ -49,10 +49,9 @@ readings:
   oration:
     - Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir ; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 4, 1-15.25
       cycle:

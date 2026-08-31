@@ -175,8 +175,7 @@ vespers:
 
       Toi qui réclames à la tombe la vie de Lazare.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Sg 11,23a.24a.23cd.26a
@@ -198,7 +197,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jl 2, 12-18
       headline: |-
@@ -262,7 +261,7 @@ mass:
         que l’esprit généreux me soutienne.
         Seigneur, ouvre mes lèvres,
         et ma bouche annoncera ta louange.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 2 Co 5, 20 – 6, 2
       headline: |-

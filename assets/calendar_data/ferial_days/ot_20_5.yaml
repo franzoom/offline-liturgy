@@ -53,10 +53,9 @@ readings:
     - |-
       Tu protèges, Seigneur, ceux qui comptent sur toi ; sans toi rien n’est plus fort et rien n’est sain : multiplie pour nous tes gestes de miséricorde afin que, sous ta conduite, en faisant un bon usage des biens qui passent, nous puissions déjà nous attacher à ceux qui demeurent.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Rt 1, 1.3-6.14b-16.22
       cycle:

@@ -215,8 +215,7 @@ vespers:
       – que resplendisse ta résurrection.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 34,1-2; 139,8.
@@ -235,7 +234,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 42, 1-7
       headline: |-

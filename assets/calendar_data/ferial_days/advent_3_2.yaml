@@ -209,8 +209,7 @@ vespers:
       Que la rosée de ta miséricorde
       entoure les défunts de tendresse et de joie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Za 14,5.7
@@ -229,7 +228,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: So 3, 1-2.9-13
       headline: |-

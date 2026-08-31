@@ -198,8 +198,7 @@ vespers:
 
       Toi qui réclames à la tombe la vie de Lazare.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 68,14
@@ -220,7 +219,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 49, 8-15
       headline: |-

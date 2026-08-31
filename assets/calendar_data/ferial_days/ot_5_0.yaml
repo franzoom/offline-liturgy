@@ -48,8 +48,7 @@ readings:
 oration:
   - Dans ton amour inlassable, Seigneur, veille sur ta famille ; et puisque ta grâce est notre unique espoir, garde-nous sous ta constante protection.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 94,6-7
@@ -67,7 +66,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 58, 7-10
       cycle:
@@ -226,7 +225,7 @@ mass:
         Le Seigneur fait tout pour moi !
         Seigneur, éternel est ton amour :
         n’arrête pas l’œuvre de tes mains.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 2, 1-5
       cycle:

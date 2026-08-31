@@ -207,10 +207,9 @@ vespers:
   oration:
   - Dieu tout-puissant, qui nous as donné de vivre jusqu’à maintenant, vers toi nous levons les mains pour te rendre ce soir toute grâce reçue ; accepte notre offrande par le Christ notre Seigneur. Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles..
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 2, 5-12
       cycle:

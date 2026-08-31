@@ -175,8 +175,7 @@ vespers:
   - |-
     Dieu tout-puissant, en ton Verbe fait chair une lumière nouvelle nous envahit : puisqu’elle éclaire déjà nos cœurs par la foi, fais qu’elle resplendisse dans toute notre vie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: 
   - biblicalReference: null
@@ -202,7 +201,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 1, 1-4
       headline: |-

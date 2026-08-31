@@ -150,13 +150,12 @@ vespers:
       Toi qui as brisé les liens de la mort,
       — donne aux défunts la délivrance.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 2, 22-28
       headline: |-

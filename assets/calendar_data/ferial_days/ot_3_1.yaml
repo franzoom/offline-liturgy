@@ -207,10 +207,9 @@ vespers:
   oration:
   - Dieu de lumière, à l’heure où le soir tombe, nous te prions d’illuminer nos ténèbres et de fermer les yeux sur nos péchés.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 9, 15.24-28
       cycle:

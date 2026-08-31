@@ -204,8 +204,7 @@ vespers:
       tu es toi-même la porte ouverte sur le ciel :
       — fais entrer nos frères défunts dans la gloire du Père.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Is 9,2
@@ -226,7 +225,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 4, 11-18
       headline: |-

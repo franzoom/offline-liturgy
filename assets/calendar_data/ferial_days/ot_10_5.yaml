@@ -48,10 +48,9 @@ readings:
     - |-
       Seigneur, tu as voulu que toute la loi consiste à t’aimer et à aimer son prochain : donne-nous de garder tes commandements, et de parvenir ainsi à la vie éternelle.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Co 4, 7-15
       cycle:

@@ -46,8 +46,7 @@ oration:
   - |-
     Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 26,1-2
@@ -68,7 +67,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Os 6, 3-6
       cycle:
@@ -248,7 +247,7 @@ mass:
         qu’il soit en fête pour toi,
         et que sans fin, Seigneur, mon Dieu,
         je te rende grâce !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 4, 18-25
       cycle:

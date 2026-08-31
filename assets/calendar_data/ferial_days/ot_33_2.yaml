@@ -47,10 +47,9 @@ readings:
   oration:
     - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 M 6, 18-31
       cycle:

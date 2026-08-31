@@ -235,8 +235,7 @@ vespers:
       par le baptême de l’eau et du feu,
       — qu’ils parviennent aux rives de la vraie vie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 105,47
@@ -255,7 +254,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: So 2, 3 ; 3, 12-13
       cycle:
@@ -413,7 +412,7 @@ mass:
         tes actes de justice et de salut.
         Mon Dieu, tu m’as instruit dès ma jeunesse,
         jusqu’à présent, j’ai proclamé tes merveilles.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 1, 26-31
       cycle:

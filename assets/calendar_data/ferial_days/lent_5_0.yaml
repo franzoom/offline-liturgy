@@ -268,8 +268,7 @@ vespers:
       Pour l’homme enfermé dans le tombeau,
       afin qu’il se lève à ton appel,
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 42,1-2
@@ -288,7 +287,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 37, 12-14
       cycle:
@@ -455,7 +454,7 @@ mass:
         il jette la semence ;
         il s’en vient, il s’en vient dans la joie,
         il rapporte les gerbes.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 8, 8-11
       cycle:

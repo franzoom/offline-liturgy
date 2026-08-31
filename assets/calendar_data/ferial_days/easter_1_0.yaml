@@ -107,14 +107,13 @@ vespers:
       ouvre à tes frères les portes du Paradis.
 
 mass:
-- massType: easter_vigil
-  name: Veillée Pascale
+- massType: EASTER_VIGIL
   note: |-
     Neuf lectures sont proposées : sept de l'Ancien Testament et deux du Nouveau. Si les circonstances le demandent, pour des motifs particuliers, on peut diminuer le nombre des lectures fixées. Mais on aura au moins trois lectures de l'Ancien Testament et, dans les cas les plus impérieux, au moins deux, avant l’épître et l'Évangile. Mais on n’omettra jamais la 3ᵉ lecture (Ex 14, 15 - 15, 1a) sur le passage de la mer Rouge.
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: FIRST_READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 1,1 – 2,2
       headline: |-
@@ -355,7 +354,7 @@ mass:
         il est pour nous un appui, un bouclier.
         Que ton amour, Seigneur, soit sur nous
         comme notre espoir est en toi !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Gn 22, 1–18
       headline: |-
@@ -504,7 +503,7 @@ mass:
         Tu m’apprends le chemin de la vie :
         devant ta face, débordement de joie !
         À ta droite, éternité de délices !
-  - partType: THIRD_READING
+  - partType: READING_3
     partContents:
     - biblicalRef: Ex 14,15 – 15,1a
       headline: |-
@@ -609,7 +608,7 @@ mass:
         le lieu que tu as fait, Seigneur, pour l’habiter,
         le sanctuaire, Seigneur, fondé par tes mains.
         Le Seigneur régnera pour les siècles des siècles.
-  - partType: FOURTH_READING
+  - partType: READING_4
     partContents:
     - biblicalRef: Is 54, 5-14
       headline: |-
@@ -683,7 +682,7 @@ mass:
         qu’il soit en fête pour toi ;
         et que sans fin, Seigneur, mon Dieu,
         je te rende grâce !
-  - partType: FIFTH_READING
+  - partType: READING_5
     partContents:
     - biblicalRef: Is 55, 1-11
       headline: |-
@@ -759,7 +758,7 @@ mass:
         et toute la terre le sait.
         Jubilez, criez de joie, habitants de Sion,
         car il est grand au milieu de toi, le Saint d’Israël !
-  - partType: SIXTH_READING
+  - partType: READING_6
     partContents:
     - biblicalRef: Ba 3,9-15.32 – 4,4
       headline: |-
@@ -839,7 +838,7 @@ mass:
         qu’une masse d’or fin,
         plus savoureuses que le miel
         qui coule des rayons.
-  - partType: SEVENTH_READING
+  - partType: READING_7
     partContents:
     - biblicalRef: Ez 36,16-17a.18-28
       headline: |-
@@ -1162,8 +1161,7 @@ mass:
     Par le Christ, notre Seigneur.
   solemnBlessingList:
   - easter_blessing
-- massType: day_mass
-  name: Messe du jour de Pâques
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 138,18. 5-6 (Vg)
@@ -1191,7 +1189,7 @@ mass:
   sequence:
   - victimae-paschali-laudes
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 10, 34a.37-43
       headline: |-
@@ -1247,7 +1245,7 @@ mass:
         est devenue la pierre d’angle :
         c’est là l’œuvre du Seigneur,
         la merveille devant nos yeux.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Col 3, 1-4
       headline: |-

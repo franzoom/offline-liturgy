@@ -179,8 +179,7 @@ vespers:
       Toi le Vivant, qui ne meurs plus,
       donne ta vie à ceux qui ont connu la mort.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Mt 25,34
@@ -202,7 +201,7 @@ mass:
   sequence:
   - victimae-paschali-laudes
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 3, 1-10
       headline: |-

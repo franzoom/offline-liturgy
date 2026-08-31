@@ -55,8 +55,7 @@ oration:
   - |-
     Sois favorable à tes fidèles, Seigneur, et multiplie les dons de ta grâce : entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient toujours attentifs à garder tes commandements.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 53,6. 8
@@ -73,7 +72,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Sg 12, 13.16-19
       cycle:
@@ -260,7 +259,7 @@ mass:
         Il prête son argent sans intérêt,
         n’accepte rien qui nuise à l’innocent.
         Qui fait ainsi demeure inébranlable.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 8, 26-27
       cycle:

@@ -57,10 +57,9 @@ readings:
     - |-
       Seigneur, source de tout bien, réponds sans te lasser à notre appel : inspire-nous ce qui est juste, aide-nous à l’accomplir.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Esd 6, 7-8.12b.14-20
       cycle:

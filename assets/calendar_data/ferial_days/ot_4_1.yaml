@@ -201,10 +201,9 @@ vespers:
   oration:
   - Reste avec nous, Seigneur, car il se fait tard et déjà le jour baisse. Illumine nos cœurs sur la route pour qu’ils te découvrent dans les Écritures et dans le pain partagé. Toi qui règnes.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 11, 32-40
       cycle:

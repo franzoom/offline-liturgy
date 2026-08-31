@@ -232,8 +232,7 @@ vespers:
 
       Pour qu’il réveille les morts au jour du jugement,
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 26,7-9
@@ -254,7 +253,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 1, 12-14
       cycle:
@@ -412,7 +411,7 @@ mass:
         Tu es, Seigneur, le Très-Haut
         sur toute la terre :
         tu domines de haut tous les dieux.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 P 4, 13-16
       cycle:

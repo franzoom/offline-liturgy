@@ -175,8 +175,7 @@ vespers:
       à toi la gloire éternellement !
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 77,53
@@ -196,7 +195,7 @@ mass:
   sequence:
   - victimae-paschali-laudes
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 4, 1-12
       headline: |-

@@ -149,13 +149,12 @@ vespers:
       Toi, la Parole que l’Esprit murmure en nos cœurs,
       rends-nous attentifs aux appels de nos frères.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 5, 5-13
       headline: |-

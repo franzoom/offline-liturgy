@@ -152,10 +152,9 @@ middleOfDay:
       Seigneur, je n’oublie pas ta parole.
     oration: Écoute-nous, Seigneur, et accorde-nous la paix profonde que nous te demandons. Ainsi, en te cherchant tous les jours de notre vie, et soutenus par la prière de la Vierge Marie, nous parviendrons sans encombre jusqu’à toi.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 11, 1-2.8-19
       cycle:

@@ -53,10 +53,9 @@ readings:
         Pour toi je veux chanter un chant nouveau.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 2, 1-11
       cycle:

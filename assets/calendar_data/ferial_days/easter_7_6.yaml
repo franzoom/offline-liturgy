@@ -144,7 +144,7 @@ middleOfDay:
       le soir approche, alléluia.
 
 mass:
-- massType: morning_mass
+- massType: MORNING_MASS
   name: Messe du matin
   note: null
   entranceAntiphon:
@@ -163,7 +163,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 28, 16-20.30-31
       headline: |-

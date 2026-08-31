@@ -251,8 +251,7 @@ vespers:
 oration:
 - Donne à tes fidèles, Dieu tout-puissant, d’aller avec courage sur les chemins de la justice à la rencontre du Seigneur, pour qu’ils soient appelés, lors du jugement, à entrer en possession du Royaume des cieux.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 24,1-3
@@ -273,7 +272,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 2, 1-5
       cycle:
@@ -450,7 +449,7 @@ mass:
         pour qui veille à son alliance et à ses lois.
         Le secret du Seigneur est pour ceux qui le craignent ;
         à ceux-là, il fait connaître son alliance.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 13, 11-14a
       cycle:

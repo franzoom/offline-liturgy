@@ -50,8 +50,7 @@ readings:
 oration:
   - Dieu qui veut habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce ; alors tu pourras venir en nous pour y faire ta demeure.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 30,3-4
@@ -70,7 +69,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 15, 15-20
       cycle:
@@ -219,7 +218,7 @@ mass:
          balayée par le vent.
         Le Seigneur connaît le chemin des justes,
         mais le chemin des méchants se perdra.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 2, 6-10
       cycle:

@@ -58,10 +58,9 @@ readings:
   oration:
     - Dieu éternel et tout-puissant, dirige notre vie selon ton amour, afin qu’au nom de ton Fils bien-aimé, nous portions des fruits en abondance.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Tm 2, 1-8
       cycle:

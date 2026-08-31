@@ -159,8 +159,7 @@ vespers:
       reçois nos frères qui ont quitté ce monde, et montre-leur ton visage.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ex. 13,5. 9
@@ -188,7 +187,7 @@ mass:
   sequence:
   - victimae-paschali-laudes
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 2, 14.22b-33
       headline: |-

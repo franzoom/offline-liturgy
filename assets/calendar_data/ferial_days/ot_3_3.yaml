@@ -204,10 +204,9 @@ vespers:
   - |-
     Écoute, Seigneur, la voix de ton Église en prière, pardonne-lui, crée en elle un cœur pur : qu’elle soit généreuse à te servir et toujours plus sûre de toi.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 10, 11-18
       cycle:

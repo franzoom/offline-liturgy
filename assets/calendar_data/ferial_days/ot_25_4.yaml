@@ -51,10 +51,9 @@ readings:
   oration:
     - Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ag 1, 1-8
       cycle:

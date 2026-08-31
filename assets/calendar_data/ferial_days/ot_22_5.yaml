@@ -58,10 +58,9 @@ readings:
   oration:
     - Dieu éternel et tout-puissant, fais-nous toujours vouloir ce que tu veux et servir ta gloire d’un cœur sans partage.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Col 1, 15-20
       cycle:

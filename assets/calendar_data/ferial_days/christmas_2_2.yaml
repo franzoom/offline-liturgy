@@ -203,8 +203,7 @@ vespers:
       Pour nos frères défunts, qui ont cru en toi sur la terre, nous implorons ta pitié :
       — donne-leur de contempler ta gloire.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 117,26-27
@@ -222,7 +221,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 4, 7-10
       headline: |-

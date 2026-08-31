@@ -67,8 +67,7 @@ oration:
   - |-
     Pour ceux qui t’aiment, Seigneur, tu as préparé des biens que l’œil ne peut voir : répands en nos cœurs la ferveur de ta charité, afin que t’aimant en toutes choses et par-dessus tout, nous obtenions de toi l’héritage promis qui surpasse tout désir.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 83,10-11
@@ -89,7 +88,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 56, 1.6-7
       cycle:
@@ -251,7 +250,7 @@ mass:
         mais le Seigneur pense à moi.
         Tu es mon secours, mon libérateur :
         mon Dieu, ne tarde pas !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 11, 13-15.29-32
       cycle:

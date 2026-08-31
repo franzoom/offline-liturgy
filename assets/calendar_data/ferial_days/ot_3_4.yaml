@@ -200,10 +200,9 @@ vespers:
   oration:
   - Nous te bénissons, Seigneur, pour ce jour que tu nous as donné ; et nous te supplions de nous pardonner pour le mal que nous avons commis.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 10, 19-25
       cycle:

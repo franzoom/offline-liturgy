@@ -175,8 +175,7 @@ vespers:
       Reçois dans l’éternité bienheureuse ceux qui meurent,
       et donne-nous d’accueillir notre mort comme un passage vers la vie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 26,14 (Vg)
@@ -195,7 +194,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Nb 21, 4b-9
       headline: |-

@@ -59,8 +59,7 @@ vespers:
       antiphon:
         - R/ Grandes sont tes œuvres, Seigneur !
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ga 4,4-5

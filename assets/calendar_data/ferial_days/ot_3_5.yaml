@@ -208,10 +208,9 @@ vespers:
   - |-
     Béni sois-tu, Père : tu as exaucé le cri de ton Fils aux jours de sa chair ; tu exauceras aussi l’immense clameur de ceux qui souffrent et que Jésus te présente aujourd’hui par nos lèvres ; tous les hommes alors te glorifieront dans les siècles.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 10, 32-39
       cycle:

@@ -182,8 +182,7 @@ vespers:
       Accorde à ceux qui meurent le salut et la paix,
       – et à nous, de les rejoindre un jour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 55,2
@@ -204,7 +203,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dn 13, 1-9.15-17.19-30.33-62
       headline: |-

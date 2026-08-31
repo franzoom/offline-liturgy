@@ -197,8 +197,7 @@ vespers:
       le commencement et la fin,
       à toi la gloire éternellement !
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ap 5,12
@@ -217,7 +216,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 15, 22-31
       headline: |-

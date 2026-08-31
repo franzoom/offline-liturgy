@@ -237,8 +237,7 @@ vespers:
       Par ton obéissance jusqu’à la mort, par ton exaltation à la droite du Père,
       ouvre à tes frères les portes du Paradis.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 65,1.2
@@ -257,7 +256,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 2, 14.22b-33
       cycle:
@@ -454,7 +453,7 @@ mass:
         qu’il soit en fête pour toi ;
         et que sans fin, Seigneur, mon Dieu,
         je te rende grâce !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 P 1, 17-21
       cycle:

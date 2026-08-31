@@ -58,10 +58,9 @@ readings:
         le Christ parmi nous, espérance de la gloire.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 5, 1-8
       cycle:

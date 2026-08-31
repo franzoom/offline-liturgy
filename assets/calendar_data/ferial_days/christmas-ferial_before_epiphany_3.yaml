@@ -147,13 +147,12 @@ vespers:
       Seigneur Jésus, ta victoire
       nous donne de vivre le véritable amour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 2,29–3,6
       headline: |-

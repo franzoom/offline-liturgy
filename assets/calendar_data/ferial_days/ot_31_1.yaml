@@ -47,10 +47,9 @@ readings:
     - |-
       Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels : puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce, ainsi nous pourrons, en observant les commandements, vouloir et agir de manière à répondre à ton amour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Rm 11, 29-36
       cycle:

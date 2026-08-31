@@ -175,8 +175,7 @@ vespers:
       Accorde à ceux qui meurent
       de passer de ce monde au Royaume dans la Pâque de ton Fils.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 55,1
@@ -196,7 +195,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 47, 1-9.12
       headline: |-

@@ -208,10 +208,9 @@ vespers:
   oration:
   - Seigneur notre Dieu, que la passion de ton Fils illumine nos esprits pour nous rendre prêts à porter le joug que son amour nous fera trouver léger. Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles..
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 4, 1-5.11
       cycle:

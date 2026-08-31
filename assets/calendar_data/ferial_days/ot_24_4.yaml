@@ -50,10 +50,9 @@ readings:
   oration:
     - Dieu qui veux habiter les cœurs droits et sincères, donne-nous de vivre selon ta grâce, alors tu pourras venir en nous pour y faire ta demeure.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Tm 4, 12-16
       cycle:

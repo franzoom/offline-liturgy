@@ -63,8 +63,7 @@ oration:
   - |-
     Dieu tout-puissant, force de ceux qui espèrent en toi, sois favorable à nos appels : puisque l’homme est fragile et que sans toi il ne peut rien, donne-nous toujours le secours de ta grâce ; ainsi nous pourrons, en observant tes commandements, vouloir et agir de manière à répondre à ton amour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 26,7. 9
@@ -84,7 +83,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 19, 2-6a
       cycle:
@@ -241,7 +240,7 @@ mass:
         ceux qui comptent sur lui.
         Que le Seigneur soit votre joie, hommes justes !
         Hommes droits, chantez votre allégresse !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 5, 6-11
       cycle:

@@ -46,10 +46,9 @@ readings:
   oration:
     - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Co 12, 1-10
       cycle:

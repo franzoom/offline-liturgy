@@ -61,8 +61,7 @@ vespers:
       antiphon:
         - Béni sois-tu, notre Père, qui nous as bénis dans le Christ !
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: null

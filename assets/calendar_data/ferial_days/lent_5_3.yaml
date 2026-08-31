@@ -184,8 +184,7 @@ vespers:
 
       Révèle à nos défunts ton visage de lumière.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 17,49 (Vg)
@@ -204,7 +203,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dn 3, 14-20.91-92.95
       headline: |-

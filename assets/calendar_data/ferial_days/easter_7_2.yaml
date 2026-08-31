@@ -186,8 +186,7 @@ vespers:
       Par le mystère de ton Ascension,
       ouvre le ciel à nos frères défunts.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ap 1,17-18
@@ -204,7 +203,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 20, 17-27
       headline: |-

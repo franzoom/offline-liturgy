@@ -138,8 +138,7 @@ middleOfDay:
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 79,4.2
@@ -160,7 +159,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 48, 1-4.9-11
       headline: |-

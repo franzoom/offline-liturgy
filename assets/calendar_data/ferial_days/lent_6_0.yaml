@@ -243,8 +243,7 @@ vespers:
       Jésus, fils de l’homme et Fils de Dieu,
       fais entrer nos morts dans la Jérusalem céleste.
 mass:
-- massType: procession_with_palms
-  name: Procession des Rameaux
+- massType: PROCESSION_WITH_PALMS
   note: null
   entranceAntiphon: null
   collect: null
@@ -254,8 +253,7 @@ mass:
   communionAntiphon: null
   prayerAfterCommunion: null
   solemnBlessingList: null
-- massType: mass_of_the_passion
-  name: Messe de la Passion
+- massType: MASS_OF_THE_PASSION
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Jn 12,1.12-13
@@ -279,7 +277,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 50, 4-7
       headline: |-
@@ -330,7 +328,7 @@ mass:
         Et je proclame ton nom devant mes frères,
         je te loue en pleine assemblée.
         Vous qui le craignez, louez le Seigneur.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Ph 2, 6-11
       headline: |-

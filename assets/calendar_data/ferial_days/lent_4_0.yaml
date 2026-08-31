@@ -266,7 +266,7 @@ vespers:
       Pour les hommes dont le regard s’est éteint,
       afin qu’ils s’éveillent à ton jour,
 mass:
-  - massType: day_mass
+  - massType: DAY_MASS
     name: Messe du jour
     note: null
     entranceAntiphon:
@@ -288,7 +288,7 @@ mass:
       >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
       >Dieu, pour les siècles des siècles.
     readingParts:
-      - partType: READING
+      - partType: READING_1
         partContents:
           - biblicalRef: 1 S 16, 1b.6-7.10-13a
             cycle:
@@ -492,7 +492,7 @@ mass:
               sans ombre ni trouble au visage.
               Un pauvre crie ; le Seigneur entend :
               il le sauve de toutes ses angoisses.
-      - partType: SECOND_READING
+      - partType: READING_2
         partContents:
           - biblicalRef: Ep 5, 8-14
             cycle:

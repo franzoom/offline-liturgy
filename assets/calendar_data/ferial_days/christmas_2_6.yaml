@@ -152,8 +152,7 @@ vespers:
   oration:
   - Tu as voulu, Seigneur, illuminer ton Église par l’enseignement et par les exemples de saint Basile et de saint Grégoire de Nazianze ; accorde-nous de chercher humblement à connaître ta vérité pour que ta charité imprègne notre vie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ga 4,4-5
@@ -171,7 +170,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 5, 14-21
       headline: |-

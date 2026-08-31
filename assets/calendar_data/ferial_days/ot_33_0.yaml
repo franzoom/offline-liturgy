@@ -54,8 +54,7 @@ oration:
   - |-
     Accorde-nous, Seigneur, de trouver notre joie dans notre fidélité : car c’est un bonheur durable et profond de servir constamment le créateur de tout bien.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Jr 29,11.12.14
@@ -74,7 +73,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Pr 31, 10-13.19-20.30-31
       cycle:
@@ -208,7 +207,7 @@ mass:
         pour gouverner la terre,
         pour gouverner le monde avec justice
         et les peuples avec droiture !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Th 5, 1-6
       cycle:

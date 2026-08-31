@@ -196,8 +196,7 @@ vespers:
       En ressuscitant le troisième jour,
       tu relèves ceux qui sont endormis dans la paix.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 30,2.5
@@ -216,7 +215,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 37, 3-4.12-13a.17b-28
       headline: |-

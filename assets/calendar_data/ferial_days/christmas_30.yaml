@@ -181,8 +181,7 @@ vespers:
       Ô Christ, consolateur de ceux qui pleurent, sois le courage des mourants,
       – établis-les dans ta joie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Sg 18,14-15
@@ -202,7 +201,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-    - partType: READING
+    - partType: READING_1
       partContents:
         - biblicalRef: 1 Jn 2, 12-17
           headline: |-

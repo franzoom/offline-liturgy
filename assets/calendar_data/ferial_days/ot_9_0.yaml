@@ -61,8 +61,7 @@ oration:
   - |-
    Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 24,16. 18
@@ -80,7 +79,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dt 11, 18.26-28.32
       cycle:
@@ -218,7 +217,7 @@ mass:
 
         Son amour envers nous s’est montré le plus fort ;
         éternelle est la fidélité du Seigneur !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 3, 21-25a.28
       cycle:

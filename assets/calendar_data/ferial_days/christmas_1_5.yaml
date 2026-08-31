@@ -58,8 +58,7 @@ vespers:
       antiphon:
         - Toi seul est saint, toi seul es le Seigneur !
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 111,4

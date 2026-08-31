@@ -204,10 +204,9 @@ vespers:
   oration:
   - Puisque ta sagesse inexprimable, Seigneur, se manifeste étonnamment dans le scandale de la croix, accorde-nous de savoir contempler la gloire dans la passion de ton Fils, pour que nous mettions dans sa croix notre espérance et notre fierté. Lui qui règne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 8, 6-13
       cycle:

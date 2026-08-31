@@ -215,10 +215,9 @@ vespers:
   oration:
   - Laisse monter vers toi, Seigneur, le bruit de notre terre pour l’accueillir dans ton silence, et fais descendre sur nous ta paix, Jésus, ton Fils, Dieu à jamais.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 10, 1-10
       cycle:

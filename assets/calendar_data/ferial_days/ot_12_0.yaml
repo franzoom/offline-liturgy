@@ -54,8 +54,7 @@ readings:
 oration:
   - Fais-nous vivre à tout moment, Seigneur, dans l’amour et le respect de ton saint nom, toi qui ne cesses jamais de guider ceux que tu enracines solidement dans ton amour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 27,8-9
@@ -74,7 +73,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jr 20, 10-13
       cycle:
@@ -231,7 +230,7 @@ mass:
         je crie de joie à l’ombre de tes ailes.
         Mon âme s’attache à toi,
         ta main droite me soutient.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 5, 12-15
       cycle:

@@ -46,10 +46,9 @@ readings:
   oration:
     - Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 3, 1-6.9-12
       cycle:

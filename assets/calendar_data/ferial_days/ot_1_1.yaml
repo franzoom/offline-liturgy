@@ -246,10 +246,9 @@ vespers:
   - |-
     Que nos voix te magnifient, Seigneur : par amour pour nous, tu t’es penché sur Marie, ton humble servante ; fais-nous connaître toutes les joies de ton salut. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles. Amen.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 1, 1-6
       cycle:

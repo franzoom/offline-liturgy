@@ -189,8 +189,7 @@ vespers:
       entraîne-les vers la libre Jérusalem.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Si 15,3-4
@@ -212,7 +211,7 @@ mass:
   sequence:
   - victimae-paschali-laudes
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 2, 36-41
       headline: |-

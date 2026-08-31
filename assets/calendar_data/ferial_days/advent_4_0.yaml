@@ -188,8 +188,7 @@ vespers:
       Toi qui sièges à la droite du Père,
       — réjouis nos frères défunts par la lumière de ton visage.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 45,8 (Vg)
@@ -209,7 +208,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 7, 10-16
       cycle:
@@ -389,7 +388,7 @@ mass:
         le fils de l’homme qui te doit sa force.
         Jamais plus nous n’irons loin de toi :
         fais-nous vivre et invoquer ton nom !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 1, 1-7
       cycle:

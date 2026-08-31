@@ -52,8 +52,7 @@ readings:
 oration:
   - Dieu qui montres aux égarés la lumière de ta vérité pour qu’ils puissent reprendre le bon chemin ; donne à tous ceux qui se déclarent chrétiens de rejeter ce qui est indigne de ce nom, et de rechercher ce qui lui fait honneur.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 16,15
@@ -72,7 +71,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 55, 10-11
       cycle:
@@ -257,7 +256,7 @@ mass:
         qu’une masse d’or fin,
         plus savoureuses que le miel
         qui coule des rayons.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 8, 18-23
       cycle:

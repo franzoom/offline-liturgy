@@ -56,8 +56,7 @@ readings:
 oration:
   - Dieu créateur et maître de toutes choses, regarde-nous, et pour que nous ressentions l’effet de ton amour, accorde-nous de te servir avec un cœur sans partage.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Si 36,18 (grec 21-22)
@@ -76,7 +75,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 27, 30 – 28, 7
       cycle:
@@ -256,7 +255,7 @@ mass:
         et ma bouche annoncera ta louange.
         Le sacrifice qui plaît à Dieu, c’est un esprit brisé ;
         tu ne repousses pas, ô mon Dieu, un cœur brisé et broyé.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 14, 7-9
       cycle:

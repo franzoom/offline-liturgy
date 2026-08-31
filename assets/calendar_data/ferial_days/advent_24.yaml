@@ -107,7 +107,7 @@ middleOfDay:
       V/ Viens, Seigneur, ne tarde pas.
       Remets à ton peuple ses péchés.
 mass:
-- massType: morning_mass
+- massType: MORNING_MASS
   name: Messe du matin
   note: null
   entranceAntiphon:
@@ -124,7 +124,7 @@ mass:
     Toi qui vis et règnes avec le Père dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 S 7,1-5.8b-12.14a.16
       headline: |-

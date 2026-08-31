@@ -177,8 +177,7 @@ vespers:
   oration:
   - Nous t’en prions, Dieu tout-puissant, alors que le péché nous retient encore sous sa loi, donne-nous la délivrance par la prodigieuse et nouvelle naissance en notre chair de ton Fils unique, Jésus Christ. Lui qui règne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - content: |-
@@ -195,7 +194,7 @@ mass:
       qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 6, 8-10 ; 7, 54-60
       headline: |-

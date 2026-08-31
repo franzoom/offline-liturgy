@@ -200,10 +200,9 @@ vespers:
   oration:
   - À l’heure du sacrifice du soir, nous nous présentons devant toi, Seigneur, comme des serviteurs inutiles, mais recueille sur nos lèvres l’action de grâce pour tous les biens reçus de toi.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 5, 1-10
       cycle:

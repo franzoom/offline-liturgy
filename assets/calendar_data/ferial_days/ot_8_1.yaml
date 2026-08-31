@@ -50,10 +50,9 @@ readings:
     - |-
       Seigneur notre Père, nous en appelons à ta providence qui jamais ne se trompe en ses desseins : tout ce qui fait du mal, écarte-le, et donne-nous ce qui peut nous aider.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 17, 24-29
       cycle:

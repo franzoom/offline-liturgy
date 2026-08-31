@@ -51,10 +51,9 @@ readings:
     - |-
       Accorde-nous, Seigneur, de trouver notre joie dans notre fidélité : car c’est un bonheur durable et profond de servir constamment le créateur de tout bien.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 12, 1-9
       cycle:

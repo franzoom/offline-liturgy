@@ -216,10 +216,9 @@ vespers:
   oration:
   - Dieu qui as voulu sauver le monde par la passion de ton Christ, fais maintenant de ton peuple une vivante offrande à ta gloire et donne lui ton Esprit d’amour.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 13, 1-8
       cycle:

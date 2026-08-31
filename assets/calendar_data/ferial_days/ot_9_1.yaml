@@ -52,10 +52,9 @@ readings:
   oration:
     - Dieu qui montres aux égarés la lumière de ta vérité, pour qu’ils puissent reprendre le bon chemin, donne à tous ceux qui se déclarent chrétiens de rejeter ce qui est indigne de ce nom, et de rechercher ce qui lui fait honneur.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Tb 1, 3 ; 2, 1b-8
       cycle:

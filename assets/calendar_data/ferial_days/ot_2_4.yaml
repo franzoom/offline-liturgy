@@ -210,10 +210,9 @@ vespers:
   oration:
   - Dieu, qui accordes le ciel en récompense à ceux qui veillent au service de ta louange, nous t’en prions, enlève les ténèbres de nos cœurs pour que nous ayons la joie de contempler sans fin ta lumière.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 7, 25 – 8, 6
       cycle:

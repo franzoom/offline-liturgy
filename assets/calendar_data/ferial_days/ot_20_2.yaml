@@ -58,10 +58,9 @@ readings:
     - |-
       Dieu qui as relevé le monde par les abaissements de ton Fils, donne à tes fidèles une joie sainte : tu les as tirés de l’esclavage du péché ; fais-leur connaître le bonheur impérissable.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jg 6, 11-24a
       cycle:

@@ -50,10 +50,9 @@ readings:
   oration:
     - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dn 2, 31-45
       cycle:

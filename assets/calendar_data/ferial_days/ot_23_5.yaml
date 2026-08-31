@@ -61,10 +61,9 @@ readings:
     - |-
       Aux appels de ton peuple en prière, réponds, Seigneur, en ta bonté : donne à chacun la claire vision de ce qu’il doit faire et la force de l’accomplir.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Tm 1, 1-2.12-14
       cycle:

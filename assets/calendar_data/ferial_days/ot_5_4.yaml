@@ -44,10 +44,9 @@ readings:
   oration:
     - Nous t’en prions, Seigneur, que ta grâce nous devance et qu’elle nous accompagne toujours pour nous rendre attentifs à faire le bien sans relâche.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 2, 18-25
       cycle:

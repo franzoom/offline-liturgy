@@ -206,8 +206,7 @@ vespers:
       Pour ceux qui sont passés par la mort,
       et que nous confions à ta miséricorde,
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 24,15-16
@@ -226,7 +225,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 17, 3-7
       cycle:
@@ -463,7 +462,7 @@ mass:
         lent à la colère et plein d’amour ;
         Comme le ciel domine la terre,
         fort est son amour pour qui le craint.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 5, 1-2.5-8
       cycle:

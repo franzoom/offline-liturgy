@@ -56,8 +56,7 @@ readings:
 oration:
   - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: 'Est 13,9.10-11 (grec: 17b-17c)'
@@ -80,7 +79,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 5, 1-7
       cycle:
@@ -266,7 +265,7 @@ mass:
         « Ne fermez pas votre cœur comme au désert,
         où vos pères m’ont tenté et provoqué,
         et pourtant ils avaient vu mon exploit. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Ph 4, 6-9
       cycle:

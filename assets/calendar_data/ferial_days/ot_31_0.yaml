@@ -53,8 +53,7 @@ readings:
 oration:
   - Dieu de puissance et de miséricorde, c’est ta grâce qui donne à tes fidèles de pouvoir dignement te servir ; accorde-nous de progresser sans que rien nous arrête vers les biens que tu promets.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 37,22-23
@@ -75,7 +74,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ml 1, 14b – 2, 2b.8-10
       cycle:
@@ -232,7 +231,7 @@ mass:
         fidèle en tout ce qu’il fait.
         Le Seigneur soutient tous ceux qui tombent,
         il redresse tous les accablés.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Th 2, 7b-9.13
       cycle:

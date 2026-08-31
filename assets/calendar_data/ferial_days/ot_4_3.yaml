@@ -212,10 +212,9 @@ vespers:
   oration:
   - Pour le bien de tous et pour ta gloire, Seigneur, tu as voulu que chaque membre de ton peuple te serve selon sa grâce et les appels de l’Esprit ; accorde à chacun de trouver sa fonction dans l’Église, en vue de constituer avec ses frères le corps de Jésus Christ. Lui qui règne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 12, 4-7.11-15
       cycle:

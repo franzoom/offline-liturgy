@@ -193,8 +193,7 @@ vespers:
   oration:
   - Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel ; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 111,4
@@ -213,7 +212,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 5, 5-13
       headline: |-

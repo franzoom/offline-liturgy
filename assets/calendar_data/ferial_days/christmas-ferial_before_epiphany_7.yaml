@@ -115,13 +115,12 @@ middleOfDay:
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 5, 14-21
       headline: |-

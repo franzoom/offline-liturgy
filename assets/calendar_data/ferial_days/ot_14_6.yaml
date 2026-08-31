@@ -44,10 +44,9 @@ readings:
   oration:
     - Sois favorable à tes fidèles, Seigneur, et multiplie les dons de ta grâce ; entretiens en eux la foi, l’espérance et la charité, pour qu’ils soient toujours attentifs à garder tes commandements.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 49, 29-33 ; 50, 15-26a
       cycle:

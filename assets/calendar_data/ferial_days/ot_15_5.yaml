@@ -46,10 +46,9 @@ readings:
   oration:
     - Dieu qui peut mettre au cœur de tes fidèles un unique désir, donne à ton peuple d’aimer ce que tu commandes et d’attendre ce que tu promets ; pour qu’au milieu des changements de ce monde, nos cœurs s’établissent fermement là où se trouvent les vraies joies.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 11, 10 – 12, 14
       cycle:

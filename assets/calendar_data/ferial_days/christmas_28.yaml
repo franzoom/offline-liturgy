@@ -168,8 +168,7 @@ vespers:
   oration:
     - Père, toi qui as merveilleusement créé l’homme et plus merveilleusement encore rétabli sa dignité, fais-nous participer à la divinité de ton Fils, puisqu’il a voulu prendre notre humanité. Lui qui règne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: null
@@ -188,7 +187,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-    - partType: READING
+    - partType: READING_1
       partContents:
         - biblicalRef: 1 Jn 1,5–2,2
           headline: |-

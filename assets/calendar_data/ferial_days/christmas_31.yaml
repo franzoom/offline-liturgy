@@ -140,8 +140,7 @@ middleOfDay:
       V/ Amour et vérité se rencontrent, alléluia,
       justice et paix s’embrassent, alléluia.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 9.5
@@ -161,7 +160,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 2, 18-21
       headline: |-

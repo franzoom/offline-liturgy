@@ -193,8 +193,7 @@ vespers:
       Toi qui jugeras les vivants et les morts,
       reçois parmi les bienheureux les âmes de nos frères défunts.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ha 2,3; 1 Co 4,5
@@ -212,7 +211,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 45, 6b-8.18.21b-25
       headline: |-

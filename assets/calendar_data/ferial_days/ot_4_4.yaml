@@ -223,10 +223,9 @@ vespers:
   oration:
   - Seigneur Dieu, tu nous as donné ton Fils pour qu’il soit avec nous jusqu’à la fin du monde ; augmente notre foi pour qu’au milieu des épreuves nous discernions sa présence et son action. Lui qui règne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 12, 18-19.21-24
       cycle:

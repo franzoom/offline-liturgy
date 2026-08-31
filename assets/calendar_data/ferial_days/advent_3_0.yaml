@@ -249,8 +249,7 @@ vespers:
       Toi qui sièges à la droite du Père,
       — réjouis nos frères défunts par la lumière de ton visage.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ph 4,4.5
@@ -270,7 +269,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 35, 1-6a.10
       cycle:
@@ -422,7 +421,7 @@ mass:
         et toute la terre le sait.
         Jubilez, criez de joie, habitants de Sion,
         car il est grand au milieu de toi, le Saint d’Israël !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Jc 5, 7-10
       cycle:

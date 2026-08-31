@@ -183,8 +183,7 @@ vespers:
       Toi qui es sorti vivant du tombeau,
       – éveille ceux qui se sont endormis dans la mort.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 26,12

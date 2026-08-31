@@ -127,8 +127,7 @@ vespers:
       Toi qui es né dans notre chair et viendra pour le jugement,
       conduis les défunts à la récompense éternelle.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 9,5; Ps 71,17
@@ -149,7 +148,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ml 3, 1-4.23-24
       headline: |-

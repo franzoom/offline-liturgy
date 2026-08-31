@@ -146,13 +146,12 @@ middleOfDay:
 
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 1, 12-14
       cycle:
@@ -310,7 +309,7 @@ mass:
         Tu es, Seigneur, le Très-Haut
         sur toute la terre :
         tu domines de haut tous les dieux.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 P 4, 13-16
       cycle:

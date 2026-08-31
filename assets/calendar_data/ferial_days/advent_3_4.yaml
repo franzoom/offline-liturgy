@@ -181,8 +181,7 @@ vespers:
       Nous te confions nos frères qui sont morts ;
       qu’ils vivent de toi pour toujours.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 118,151-152
@@ -201,7 +200,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 54, 1-10
       headline: |-

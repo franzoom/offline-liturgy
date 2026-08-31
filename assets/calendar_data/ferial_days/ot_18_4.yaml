@@ -57,10 +57,9 @@ readings:
   oration:
     - Accorde-nous, Seigneur, de pouvoir t’adorer sans partage, et d’avoir pour tout homme une vraie charité.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Nb 20, 1-13
       cycle:

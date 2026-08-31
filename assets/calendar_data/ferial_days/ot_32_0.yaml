@@ -60,8 +60,7 @@ readings:
 oration:
   - Dieu qui es bon et tout-puissant, éloigne de nous tout ce qui nous arrête, afin que sans aucune entrave, ni d’esprit ni de corps, nous soyons libres pour accomplir ta volonté.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 87,2-3
@@ -78,7 +77,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Sg 6, 12-16
       cycle:
@@ -255,7 +254,7 @@ mass:
         à l’ombre de tes ailes, cache-moi,
         Et moi, par ta justice, je verrai ta face :
         au réveil, je me rassasierai de ton visage.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Th 4, 13-18
       cycle:

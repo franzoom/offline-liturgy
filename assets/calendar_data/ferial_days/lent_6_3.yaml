@@ -196,8 +196,7 @@ vespers:
       Pour ceux qui espèrent contre toute espérance,
       – que resplendisse ta résurrection.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ph 2,10. 8.11

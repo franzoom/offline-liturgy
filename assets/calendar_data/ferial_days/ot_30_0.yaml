@@ -55,8 +55,7 @@ readings:
 oration:
   - Dieu éternel et tout-puissant, augmente en nous la foi, l’espérance et la charité ; et pour que nous puissions obtenir ce que tu promets, fais-nous aimer ce que tu commandes.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 104,3-4
@@ -74,7 +73,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 22, 20-26
       cycle:
@@ -222,7 +221,7 @@ mass:
         il sauve l’esprit abattu.
         Le Seigneur rachètera ses serviteurs :
         pas de châtiment pour qui trouve en lui son refuge.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Th 1, 5c-10
       cycle:

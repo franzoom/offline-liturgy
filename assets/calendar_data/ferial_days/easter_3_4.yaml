@@ -179,8 +179,7 @@ vespers:
       Par ta croix, la joie est entrée dans le monde :
       – accorde à nos défunts la plénitude de cette joie.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ex 15,1-2
@@ -200,7 +199,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 8, 26-40
       headline: |-

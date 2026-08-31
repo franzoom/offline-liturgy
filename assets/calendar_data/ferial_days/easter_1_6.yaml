@@ -140,8 +140,7 @@ middleOfDay:
       jour de fête et de joie, alléluia !
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 104,43
@@ -162,7 +161,7 @@ mass:
   sequence:
   - victimae-paschali-laudes
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 4, 13-21
       headline: |-

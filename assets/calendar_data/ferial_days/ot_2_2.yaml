@@ -204,10 +204,9 @@ vespers:
   - |-
     Seigneur Dieu, à toi le jour, à toi les nuits ! Tu nous les donnes pour rythmer notre vie : à travers ombres et lumières, conduis-nous au jour qui ne finira pas.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 6, 10-20
       cycle:

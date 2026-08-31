@@ -232,8 +232,7 @@ vespers:
       Pour les hommes qui sont morts,
       et qui attendent la vie promise,
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 90,15-16
@@ -254,7 +253,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 2, 7-9 ; 3, 1-7a
       cycle:
@@ -438,7 +437,7 @@ mass:
         je le défends, car il connaît mon nom.
         Il m’appelle, et moi, je lui réponds ;
         je suis avec lui dans son épreuve. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 5, 12-19
       cycle:

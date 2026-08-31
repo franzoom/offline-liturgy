@@ -51,10 +51,9 @@ readings:
   oration:
     - Dieu qui as envoyé ton Fils pour nous sauver et pour faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père ; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Th 4, 1-8
       cycle:

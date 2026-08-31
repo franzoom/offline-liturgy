@@ -182,8 +182,7 @@ vespers:
       Reconnais ceux qui ont ici-bas écouté ta voix,
       — fais-les entrer dans la paix du ciel.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: null
@@ -201,7 +200,7 @@ mass:
     Toi qui vis et règnes avec le Père dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 29, 17-24
       headline: |-

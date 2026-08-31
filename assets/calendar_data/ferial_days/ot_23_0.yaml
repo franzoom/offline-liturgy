@@ -53,8 +53,7 @@ readings:
 oration:
   - Dieu qui as envoyé ton Fils pour nous sauver et faire de nous tes enfants d’adoption, regarde avec bonté ceux que tu aimes comme un père ; puisque nous croyons au Christ, accorde-nous la vraie liberté et la vie éternelle.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 118,137.124a
@@ -74,7 +73,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 33, 7-9
       cycle:
@@ -218,7 +217,7 @@ mass:
         que nous passions nos jours dans la joie et les chants.
         Que vienne sur nous la douceur du Seigneur notre Dieu !
         Consolide pour nous l’ouvrage de nos mains.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 13, 8-10
       cycle:

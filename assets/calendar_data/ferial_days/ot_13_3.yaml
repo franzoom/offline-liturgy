@@ -37,10 +37,9 @@ readings:
   oration:
     - Accorde-nous, Dieu tout-puissant, de conformer à tes volontés nos paroles et nos actes dans une inlassable recherche des biens spirituels.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 21, 5.8-20
       cycle:

@@ -57,10 +57,9 @@ readings:
   oration:
     - Tu as voulu, Seigneur, qu’en recevant ta grâce nous devenions des fils de lumière ; ne permets pas que l’erreur nous plonge dans la nuit, mais accorde-nous d’être toujours rayonnants de ta vérité.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ag 1, 15b – 2, 9
       cycle:

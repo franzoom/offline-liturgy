@@ -63,8 +63,7 @@ readings:
 oration:
   - Accorde-nous, Dieu tout-puissant, de conformer à ta volonté nos paroles et nos actes dans une inlassable recherche des biens spirituels.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 12,6
@@ -82,7 +81,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Lv 19, 1-2.17-18
       cycle:
@@ -246,7 +245,7 @@ mass:
         il met loin de nous nos péchés ;
         comme la tendresse du père pour ses fils,
         la tendresse du Seigneur pour qui le craint !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 3, 16-23
       cycle:

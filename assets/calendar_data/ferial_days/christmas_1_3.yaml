@@ -56,8 +56,7 @@ vespers:
       antiphon:
         - Tu es l’image du Dieu invisible, le premier-né avant toute créature.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Is 9,2

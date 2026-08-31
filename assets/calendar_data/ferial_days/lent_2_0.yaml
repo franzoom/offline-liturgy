@@ -236,8 +236,7 @@ vespers:
       Pour ceux dont les yeux se sont fermés,
       afin qu’ils s’ouvrent à ta lumière,
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 26,8-9 (Vg)
@@ -253,7 +252,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 12, 1-4a
       cycle:
@@ -449,7 +448,7 @@ mass:
         sur la terre des vivants.
         « Espère le Seigneur, sois fort et prends courage ;
         espère le Seigneur. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 2 Tm 1, 8b-10
       cycle:

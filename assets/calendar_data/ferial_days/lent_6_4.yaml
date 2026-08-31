@@ -201,13 +201,13 @@ vespers:
   - Pour ta gloire, Seigneur, et le salut du genre humain, tu as fait du Christ ton Prêtre éternel et souverain ; accorde au peuple qui t’appartient au prix de son sang et qui célèbre aujourd’hui son mémorial d’obtenir les richesse de vie venues de sa croix et de sa résurrection. Lui qui règne.
 
 mass:
-- massType: evening_mass
+- massType: EVENING_MASS
   name: Messe du soir en mémoire de la Cène du Seigneur
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 12, 1-8.11-14
       headline: |-
@@ -281,7 +281,7 @@ mass:
         j’invoquerai le nom du Seigneur.
         Je tiendrai mes promesses au Seigneur,
         oui, devant tout son peuple.
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 11, 23-26
       headline: |-

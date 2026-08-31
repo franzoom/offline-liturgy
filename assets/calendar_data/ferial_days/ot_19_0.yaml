@@ -44,8 +44,7 @@ readings:
 oration:
   - Dieu éternel et tout-puissant, toi que nous pouvons déjà appeler notre Père, fais grandir en nos cœurs l’esprit filial, afin que nous soyons capables d’entrer un jour dans l’héritage qui nous est promis.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 73,20.19,22.23
@@ -66,7 +65,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 R 19, 9a.11-13a
       cycle:
@@ -218,7 +217,7 @@ mass:
         il est pour nous un appui, un bouclier.
         Que ton amour, Seigneur, soit sur nous
         comme notre espoir est en toi !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 9, 1-5
       cycle:

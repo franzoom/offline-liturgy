@@ -52,10 +52,9 @@ readings:
     - |-
       Réveille, Seigneur, le courage de tes fidèles : qu’ils soient plus ardents à profiter de tes grâces, pour obtenir de toi de plus puissants secours.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Lv 25, 1.8-17
       cycle:

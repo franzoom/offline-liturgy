@@ -211,13 +211,13 @@ vespers:
       - les défunts.[/rubric]
 
 mass:
-- massType: celebration_of_the_passion
+- massType: CELEBRATION_OF_THE_PASSION
   name: Célébration de la Passion du Seigneur
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 52,13 – 53,12
       headline: |-
@@ -320,7 +320,7 @@ mass:
         sauve-moi par ton amour.
         Soyez forts, prenez courage,
         vous tous qui espérez le Seigneur !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: He 4, 14-16 ; 5, 7-9
       headline: |-

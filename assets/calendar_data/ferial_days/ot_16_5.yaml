@@ -50,10 +50,9 @@ readings:
   oration:
     - Dans ton amour inépuisable, Dieu éternel et tout-puissant, tu combles ceux qui t’implorent, bien au-delà de leurs mérites et de leurs désirs ; répands sur nous ta miséricorde en délivrant notre conscience de ce qui l’inquiète et en donnant plus que nous n’osons demander.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 20, 1-17
       cycle:

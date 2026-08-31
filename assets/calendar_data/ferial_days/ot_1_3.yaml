@@ -208,10 +208,9 @@ vespers:
   oration:
   - Seigneur, garde-nous ce soir comme tu nous as gardés tout le jour et fais grandir notre espérance de vivre avec toi dans la lumière sans fin. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles. Amen.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 2, 14-18
       cycle:

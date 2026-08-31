@@ -247,8 +247,7 @@ vespers:
       Prends avec toi les défunts :
       qu’ils reposent dans la paix.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 95,1.6
@@ -268,7 +267,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 8, 23b – 9, 3
       cycle:
@@ -439,7 +438,7 @@ mass:
         le murmure de mon cœur ;
         qu’ils parviennent devant toi,
         Seigneur, mon rocher, mon défenseur !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 1, 10-13.17
       cycle:

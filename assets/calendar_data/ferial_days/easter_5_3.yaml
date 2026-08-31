@@ -188,8 +188,7 @@ vespers:
       Toi le Vivant, qui ne meurs plus,
       donne ta vie à ceux qui ont connu la mort.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 70,8.23
@@ -209,7 +208,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 15, 1-6
       headline: |-

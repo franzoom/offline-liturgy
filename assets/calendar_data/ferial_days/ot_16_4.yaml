@@ -46,10 +46,9 @@ readings:
     - |-
       Dieu qui donnes la preuve suprême de ta puissance, lorsque tu patientes et prends pitié, sans te lasser, accorde-nous ta grâce : en nous hâtant vers les biens que tu promets, nous parviendront au bonheur du ciel.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 19, 1-2.9-11.16-20b
       cycle:

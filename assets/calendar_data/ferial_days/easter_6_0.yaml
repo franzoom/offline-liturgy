@@ -231,8 +231,7 @@ vespers:
       Par le sacrement du Corps et du Sang de ton Fils, 
       — que nos frères défunts participent à sa résurrection.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 48,20
@@ -251,7 +250,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 8, 5-8.14-17
       cycle:
@@ -447,7 +446,7 @@ mass:
         Dieu, notre Dieu, nous bénit.
         Que Dieu nous bénisse,
         et que la terre tout entière l’adore !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 P 3, 15-18
       cycle:

@@ -221,10 +221,9 @@ vespers:
   - |-
     Que notre prière du soir monte jusqu’à toi, Seigneur, Père très saint, Dieu éternel et tout-puissant : que descende sur nous ta bénédiction, afin qu’avec ton aide, dès maintenant et pour toujours, nous soyons sauvés.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 12, 1-4
       cycle:

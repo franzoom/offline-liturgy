@@ -196,8 +196,7 @@ vespers:
       Nous te prions pour nos frères défunts :
       — que la gloire où tu demeures les environne.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Jn 1,1
@@ -219,7 +218,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 4,19–5,4
       headline: |-

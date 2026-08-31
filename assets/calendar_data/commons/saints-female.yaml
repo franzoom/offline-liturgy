@@ -241,7 +241,7 @@ vespers:
       — accorde aux défunts la joie de te voir sans fin.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Pr 31, 30.28
     content: |-
@@ -292,7 +292,7 @@ mass:
     Par le Christ, notre Seigneur.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Pr 31, 10-13.19-20.30-31
       headline: |-

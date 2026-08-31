@@ -249,7 +249,7 @@ vespers:
       Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -275,7 +275,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2Ch 24, 18-22
       headline: |-
@@ -592,7 +592,7 @@ mass:
         il s’en vient, il s’en vient dans la joie,
         il rapporte les gerbes.
 
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 5, 1-5
       headline: |-

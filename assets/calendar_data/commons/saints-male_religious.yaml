@@ -64,7 +64,7 @@ vespers:
     - Quand des frères sont unis et dendent grâce au Seigneur, Dieu lui même les bénit.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 15, 5
     content: |-
@@ -86,7 +86,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dt 10, 8-9
       headline: |-

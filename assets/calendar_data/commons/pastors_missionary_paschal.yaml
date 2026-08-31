@@ -1,5 +1,5 @@
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 131, 9
     content: |-
@@ -20,7 +20,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 13, 46-49
       headline: |-

@@ -37,7 +37,7 @@ readings:
         et la Vérité vous fera libres !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 15, 5 (Vg)
     content: |-
@@ -50,7 +50,7 @@ mass:
       >et sa bouche énonce le droit.
       La loi de son Dieu est dans son cœur, alléluia.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 2, 14a.22-24.32-36
       headline: |-

@@ -1,9 +1,9 @@
 commonTitle: Commun des Saintes (veuves)
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jdt 8, 2-8
       headline: |-
@@ -63,7 +63,7 @@ mass:
         >pour chanter ton nom, Seigneur.
         Ne laisse pas disparaître
         >ceux dont la bouche te célèbre. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1Tm 5, 3-10
       headline: |-

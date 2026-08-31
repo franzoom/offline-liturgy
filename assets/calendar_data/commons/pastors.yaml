@@ -246,7 +246,7 @@ vespers:
 
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 131, 9
     content: |-
@@ -267,7 +267,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 32, 7-14
       headline: |-
@@ -714,7 +714,7 @@ mass:
 
         Son amour envers nous s’est montré le plus fort ;
         éternelle est la fidélité du Seigneur !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 12, 3-13
       headline: |-

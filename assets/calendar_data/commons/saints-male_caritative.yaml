@@ -43,7 +43,7 @@ vespers:
       Venez les bénis de mon Père : ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Mt 25, 34.36.40
     content: |-
@@ -108,7 +108,7 @@ mass:
     Par le Christ, notre Seigneur.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Tb 12, 6-13 (pour les saints ayant exercé une activité caritative)
       headline: |-
@@ -150,7 +150,7 @@ mass:
         >à laisser ton repas et à partir enterrer un mort,
         >c’est alors que j’ai été envoyé vers toi
         >pour te mettre à l’épreuve. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Jn 3, 14-18 (pour les saints qui ont exercé une activité caritative)
       headline: |-

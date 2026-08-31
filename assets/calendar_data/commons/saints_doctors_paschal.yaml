@@ -37,7 +37,7 @@ readings:
         et la Vérité vous fera libres !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 15, 5 (Vg)
     content: |-
@@ -65,7 +65,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 2, 14a.22-24.32-36
       headline: |-
@@ -208,7 +208,7 @@ mass:
         chaque décision de ta bouche.
         Je trouve dans la voie de tes exigences
         plus de joie que dans toutes les richesses.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents: 
     - biblicalRef: 1 Co 1, 18-25
       headline: |-

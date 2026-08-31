@@ -1,5 +1,5 @@
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -14,7 +14,7 @@ mass:
         la couronne de la virginité à jamais, alléluia.
   
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ap 19, 1.5-9a
       headline: |-

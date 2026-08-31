@@ -305,7 +305,7 @@ vespers:
       — donne à nos frères défunts la joie de te voir face à face.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 20, 2-3
     content: |-
@@ -324,7 +324,7 @@ mass:
       >qui vit et règne avec toi dans l’unité du Saint-Esprit, / 
       >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 12, 1-4a
       headline: |-
@@ -639,7 +639,7 @@ mass:
 
         Attends le Seigneur, Israël,
         maintenant et à jamais.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Rm 8, 26-30
       headline: |-

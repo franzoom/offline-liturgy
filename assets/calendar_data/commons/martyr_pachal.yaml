@@ -114,7 +114,7 @@ vespers:
     common: Si le grain ne tombe en terre, il reste seul ; mais s’il meurt, il porte beaucoup de fruit.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: ccf. 4 Esd 2, 35
     content: |-
@@ -139,7 +139,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 7, 55-60
       headline: |-

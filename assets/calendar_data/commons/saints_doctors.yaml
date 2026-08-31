@@ -112,7 +112,7 @@ vespers:
     - Ô bienheureux N., maître de sagesse et lumière de l’Église, toi qui a cherché les volontés de Dieu, intercède pour nous auprès de lui.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 15, 5 (Vg)
     content: |-
@@ -140,7 +140,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 R 3, 11-14
       headline: |-
@@ -302,7 +302,7 @@ mass:
         chaque décision de ta bouche.
         Je trouve dans la voie de tes exigences
         plus de joie que dans toutes les richesses.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents: 
     - biblicalRef: 1 Co 1, 18-25
       headline: |-

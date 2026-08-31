@@ -241,7 +241,7 @@ vespers:
 
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 131, 9
     content: |-
@@ -262,7 +262,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
       - biblicalRef: Ac 20, 17-18a.28-32.36
         headline: |-

@@ -267,7 +267,7 @@ vespers:
       – reçois avec bonté ceux que tu as appelés dans ta demeure du ciel.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -292,7 +292,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ct 8, 6-7
       headline: |-
@@ -377,7 +377,7 @@ mass:
         le seul au-dessus de tout nom ;
         sur le ciel et sur la terre, sa splendeur :
         il accroît la vigueur de son peuple.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1Co 7, 25-35
       headline: |-

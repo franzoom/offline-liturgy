@@ -43,7 +43,7 @@ readings:
         j’ai vaincu le monde.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -82,7 +82,7 @@ mass:
     >Dieu, pour les siècles des siècles.
 
   readingParts:
-    - partType: READING
+    - partType: READING_1
       partContents: 
       - biblicalRef: Is 52, 7-10
         headline: |-

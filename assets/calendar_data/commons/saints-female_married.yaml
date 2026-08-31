@@ -54,9 +54,9 @@ readings:
         comme je vous ai aimés.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 26, 1-4.13-16
       headline: |-
@@ -78,7 +78,7 @@ mass:
         Une âme qui se maîtrise est un trésor sans prix.
         Un lever de soleil sur les montagnes du Seigneur :
         >ainsi, la beauté d’une épouse parfaite est la lumière de sa maison.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1P 3, 1-9 (pour une sainte qui a été mariée)
       headline: |-

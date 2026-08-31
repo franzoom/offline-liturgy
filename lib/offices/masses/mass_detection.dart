@@ -24,14 +24,20 @@ Future<Map<String, CelebrationContext>> massDetection(
   final Map<String, CelebrationContext> possibleMasses = {};
 
   for (final c in celebrations) {
-    // Load masses: full ferial resolution for ferial days, direct extract otherwise
+    // Load masses: full ferial resolution for ferial days, direct extract
+    // otherwise. isProperCelebration tracks which branch ran, so a
+    // memorial/commemoration's own readingParts (as opposed to the ferial
+    // day's) can be flagged as available — see hasProperReadingParts below.
     final Masses masses;
+    final bool isProperCelebration;
     if (c.ferialCode != null && ferialDayCheck(c.celebrationCode)) {
       masses = await ferialMassResolution(c);
+      isProperCelebration = false;
     } else {
       final filePath = await dirPathForCode(c.celebrationCode, c.dataLoader);
       masses = await massExtract(
           '$filePath/${c.celebrationCode}.yaml', c.dataLoader);
+      isProperCelebration = true;
     }
 
     final massList = masses.masses ?? [];
@@ -54,6 +60,8 @@ Future<Map<String, CelebrationContext>> massDetection(
         celebrationType: 'mass',
         officeDescription: description,
         massName: mass.name,
+        hasProperReadingParts:
+            isProperCelebration && (mass.readingParts?.isNotEmpty ?? false),
       );
     }
   }

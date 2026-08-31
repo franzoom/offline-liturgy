@@ -47,7 +47,7 @@ vespers:
       Avec l’ange, nous te saluons, Marie, comblée de grâce ! Le Seigneur est avec toi : tu es bénie plus que toutes les femmes.
 
 mass:
-  massType: day_mass
+  massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -61,7 +61,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 66, 10-14c
       headline: « Voici que je dirige vers elle la paix comme un fleuve »

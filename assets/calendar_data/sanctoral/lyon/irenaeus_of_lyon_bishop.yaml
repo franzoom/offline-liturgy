@@ -192,7 +192,7 @@ vespers:
       - Que leur souvenir soit en bénédiction. Que leurs os refleurissent de leur tombe et que leur nom se renouvelle dans la descendance de ces hommes illustres.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ml 2,6
     content: |-
@@ -213,7 +213,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Tm 2, 22b-26
       headline: « Un serviteur du Seigneur doit reprendre avec douceur les opposants »

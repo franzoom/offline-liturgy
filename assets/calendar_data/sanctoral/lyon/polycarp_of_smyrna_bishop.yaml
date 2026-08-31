@@ -47,7 +47,7 @@ vespers:
       - Je te bénis, Seigneur, toi qui me donnes part à la coupe du Christ.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -61,7 +61,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2M 6, 18.21.24-31
       headline: |-

@@ -46,7 +46,7 @@ oration:
   - Dieu qui a révélé à sainte Brigitte les secrets du ciel, quand elle méditait la passion de ton Fils, fais que nous puissions nous aussi exulter de joie dans la révélation de ta gloire.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -66,7 +66,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Tb 8, 4b-7
       headline: |-

@@ -51,7 +51,7 @@ vespers:
       Heureuse es-tu, Vierge Marie, toi qui as cru ! En toi s’est accomplie la parole de Dieu : tu règnes avec le Christ pour l’éternité.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 44,10
     content: |-
@@ -68,7 +68,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 9, 1-6
       headline: |-

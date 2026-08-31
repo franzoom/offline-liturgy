@@ -62,7 +62,7 @@ vespers:
     - À ceux qui la désirent la Sagesse est donnée ; ceux qui la possèdent deviennent amis de Dieu.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -76,7 +76,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Sg 7, 7-10.15-16
       headline: « Plus que la santé et la beauté, j’ai aimé la sagesse »

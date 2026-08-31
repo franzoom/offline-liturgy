@@ -37,7 +37,7 @@ readings:
         dans la grâce du Seigneur Jésus !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -52,7 +52,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1P 4, 12-19
       headline: « Puisque vous communiez aux souffrances du Christ, réjouissez-vous ! »

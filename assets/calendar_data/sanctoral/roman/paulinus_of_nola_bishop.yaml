@@ -35,7 +35,7 @@ readings:
         avec tous ses saints.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -49,7 +49,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2Co 8, 9-15
       headline: « Lui qui est riche, il s’est fait pauvre à cause de vous, pour que vous deveniez riches par sa pauvreté »

@@ -46,7 +46,7 @@ vespers:
       Un feu brûle en moi : l’amour qui consumait les prophètes et les amis du Christ.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 118,85.46 (Vg)
     content: |-
@@ -68,7 +68,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Co 1, 18-25
       headline: « Il a plu à Dieu de sauver les croyants par cette folie qu’est la proclamation de l’Évangile »

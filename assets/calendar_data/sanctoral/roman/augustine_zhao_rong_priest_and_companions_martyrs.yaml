@@ -10,7 +10,7 @@ oration:
 - Seigneur Dieu, tu as fortifié ton Église de façon admirable par la confession de foi des martyrs de Chine, saint Augustin et ses compagnons ; accorde à ton peuple, fidèle à sa mission, d’être de plus en plus libre pour témoigner de la vérité à la face du monde.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -26,7 +26,7 @@ mass:
     Dieu, pour les siècles des siècles.
     10 juillet : En Afrique du Nord : Sainte Marcienne, vierge et martyre, p. 1262.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Jn 5, 1-5
       headline: « La victoire remportée sur le monde, c’est notre foi »

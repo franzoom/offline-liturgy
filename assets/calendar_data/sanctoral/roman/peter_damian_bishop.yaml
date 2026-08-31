@@ -34,7 +34,7 @@ readings:
         réjouissez-vous et bondissez de joie.
 
 mass:
-  massType: day_mass
+  massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -48,7 +48,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Tm 4, 1-5
       headline: « Fais ton travail d’évangélisateur, accomplis jusqu’au bout ton ministère »

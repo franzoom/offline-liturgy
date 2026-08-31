@@ -31,7 +31,7 @@ readings:
         J’avais faim et tu m’as donné à manger.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -46,7 +46,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Jn 3, 14-18
       headline: « Nous aussi, nous devons donner notre vie pour nos frères »

@@ -32,7 +32,7 @@ readings:
         en toute condition, soyez dans l’action de grâce.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 23,4.3
     content: |-
@@ -52,7 +52,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Jn 5, 1-5
       headline: « La victoire remportée sur le monde, c’est notre foi »

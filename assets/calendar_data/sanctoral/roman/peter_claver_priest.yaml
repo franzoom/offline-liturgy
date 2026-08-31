@@ -11,7 +11,7 @@ oration:
   - Seigneur Dieu, tu as fait de saint Pierre Claver l’esclave des esclaves, et tu lui as donné la force de leur venir en aide avec une patience et une charité admirables ; accorde-nous, par son intercession, de rechercher ce qui plaît à Jésus Christ et d’aimer notre prochain en actes et en vérité.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -27,7 +27,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 58, 6-11
       headline: |-

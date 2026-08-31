@@ -42,7 +42,7 @@ vespers:
     - Tous les trésors de la terre ne pourraient acheter l’amour.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -56,7 +56,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ph 3, 8-14
       headline: « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut dans le Christ Jésus »

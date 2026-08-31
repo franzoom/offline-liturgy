@@ -44,7 +44,7 @@ vespers:
     common: Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 44,15.14
     content: |-
@@ -63,7 +63,7 @@ mass:
     qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ép 4, 1-7.11-13
       headline: « Pour que les tâches du ministère soient accomplies et que se construise le corps du Christ »

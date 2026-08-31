@@ -34,7 +34,7 @@ readings:
         puisque nous aimons nos frères.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: Commun des martyrs, p. 739, ou des pasteurs, p. 762.
   entranceAntiphon: null
   collect:
@@ -48,7 +48,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Rm 5, 1-5
       headline: « Nous mettons notre fierté dans la détresse elle-même »

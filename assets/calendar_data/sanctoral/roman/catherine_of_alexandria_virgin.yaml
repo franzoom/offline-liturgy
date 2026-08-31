@@ -11,7 +11,7 @@ oration:
 - Dieu éternel et tout puissant, tu as donné en exemple à ton peuple la bienheureuse Catherine d’Alexandrie, vierge et victorieuse dans le martyre ; par son intercession, fortifie notre foi et notre courage, et accorde-nous de travailler avec empressement pour l’unité de l’Église.
 
 mass:
-  massType: day_mass
+  massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -26,7 +26,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ap 21, 5-7
       headline: « Tel sera l’héritage du vainqueur »

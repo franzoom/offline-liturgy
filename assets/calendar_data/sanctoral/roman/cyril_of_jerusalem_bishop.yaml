@@ -40,7 +40,7 @@ morning:
     - Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -54,7 +54,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 5, 1-5
       headline: « Ce qui nous fait vaincre le monde, c’est notre foi »

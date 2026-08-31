@@ -34,7 +34,7 @@ oration:
   - Dieu de puissance et de bonté, tu as fait de saint Jean-Marie Vianney, un prêtre admirable, passionnément dévoué à son ministère ; accorde-nous, par sa prière et à son exemple, d’avoir pour nos frères une charité qui les gagne au Christ, et d’obtenir avec eux l’éternelle gloire.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -49,7 +49,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 3, 16-21
       headline: |-

@@ -36,7 +36,7 @@ vespers:
     common: Vierge Marie, Mère de Dieu, Temple du Très-Haut, Demeure de l’Esprit, heureuse es-tu d’être aimée de Jésus, le Christ, notre Seigneur !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -49,7 +49,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Za 2, 14-17
       headline: « Réjouis-toi, fille de Sion, voici que je viens »

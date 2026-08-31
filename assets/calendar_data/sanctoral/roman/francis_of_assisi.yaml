@@ -48,7 +48,7 @@ vespers:
       La croix de mon Sauveur est ma seule fierté : je porte dans mon corps les marques de Jésus.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -68,7 +68,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ga 6, 14-18
       headline: « Par la croix, le monde est crucifié pour moi, et moi pour le monde »

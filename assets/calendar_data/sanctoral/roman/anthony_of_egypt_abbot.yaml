@@ -49,7 +49,7 @@ readings:
         voilà ton trésor.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 91,13-14
     content: |-
@@ -70,7 +70,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ép 6, 10-13.18
       headline: « Revêtez l’équipement de combat donné par Dieu »

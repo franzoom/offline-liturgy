@@ -136,7 +136,7 @@ vespers:
       Marie de Magdala vint annoncer aux disciples : J’ai vu le Seigneur. Alléluia, alléluia !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: L’évangile ci-dessous est obligatoire.
   entranceAntiphon:
   - biblicalReference: Jn 20,17
@@ -157,7 +157,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - number: 1
       biblicalRef: Ct 3, 1-4a

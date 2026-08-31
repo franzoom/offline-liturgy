@@ -30,7 +30,7 @@ readings:
         je la vis dans la foi au Fils de Dieu.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Ga 6,14
     content: |-
@@ -48,7 +48,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Os 2, 16b.17b.21-22
       headline: |-

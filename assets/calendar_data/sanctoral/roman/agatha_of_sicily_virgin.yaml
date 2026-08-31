@@ -45,7 +45,7 @@ vespers:
       Grâces te soient rendues, Seigneur Jésus : tu m’as fait triompher de mes bourreaux, conduis-moi jusqu’à ta gloire éternelle.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -59,7 +59,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 1, 26-31
       headline: « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »

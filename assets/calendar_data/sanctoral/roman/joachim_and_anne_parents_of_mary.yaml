@@ -66,7 +66,7 @@ vespers:
     - De la racine de Jessé une plante s’est levée, elle a donné sa fleur, d’un merveilleux parfum.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 44,1.25
     content: |-
@@ -84,7 +84,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 44, 1.10-15
       headline: |-

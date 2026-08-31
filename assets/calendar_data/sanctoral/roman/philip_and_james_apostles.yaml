@@ -86,7 +86,7 @@ vespers:
     - Si vous demeurez en moi, si ma parole demeure en vous, tout ce que vous demanderez vous sera donné, alléluia.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -105,7 +105,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Co 15, 1-8
       headline: « Il est apparu à Jacques, puis à tous les Apôtres »

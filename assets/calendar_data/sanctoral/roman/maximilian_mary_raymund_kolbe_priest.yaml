@@ -46,7 +46,7 @@ oration:
   - Dieu qui as mis au cœur de saint Maximilien, un ardent amour pour la Vierge Immaculée et un dévouement qui l’a conduit à donner sa vie pour son prochain, accorde-nous, par son intercession, de nous dépenser pour ta gloire au service des hommes en imitant ton Fils jusqu’à la mort. Lui qui règne.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Mt 25,34.40
     content: |-
@@ -67,7 +67,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 3, 13-18
       headline: |-

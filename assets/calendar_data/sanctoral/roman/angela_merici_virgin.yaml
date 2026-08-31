@@ -36,7 +36,7 @@ readings:
         et conduis-moi sur le chemin d’éternité.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -49,7 +49,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 P 4, 7b-11
       headline: « Ce que chacun de vous a reçu comme don de la grâce, mettez-le au service des autres »

@@ -36,7 +36,7 @@ readings:
         espère en Dieu !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -51,7 +51,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Co 6, 13c-15a.17-20
       headline: « Vos corps sont les membres du Christ »

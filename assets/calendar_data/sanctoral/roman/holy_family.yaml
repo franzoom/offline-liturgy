@@ -216,8 +216,7 @@ vespers:
       Tu as fait partager ta gloire éternelle à Marie et à Joseph :
       — fais entrer ceux qui nous ont quittés dans la famille des saints.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Lc 2,16
@@ -238,7 +237,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - cycle: A
       biblicalRef: Si 3, 2-6.12-14
@@ -408,7 +407,7 @@ mass:
         écoute, Dieu de Jacob.
         Dieu, vois notre bouclier,
         regarde le visage de ton messie.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - cycle: A
       biblicalRef: Col 3, 12-21

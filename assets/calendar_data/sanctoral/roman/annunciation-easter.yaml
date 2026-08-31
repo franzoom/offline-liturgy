@@ -265,7 +265,7 @@ vespers:
       — rends-nous la vie au dernier jour.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: Si cette solennité tombe pendant la Semaine Sainte, elle est reportée au lundi après le dimanche de la Divine Miséricorde.
   entranceAntiphon:
   - biblicalReference: He 10,5.7
@@ -283,7 +283,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 7, 10-14 ; 8, 10
       headline: « Voici que la vierge concevra »
@@ -335,7 +335,7 @@ mass:
         je n’ai pas caché ta fidélité, ton salut ;
         j’ai dit ton amour et ta vérité
         à la grande assemblée.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: He 10, 4-10
       headline: « Me voici, je suis venu, mon Dieu, pour faire ta volonté ainsi qu’il est écrit de moi dans le Livre »

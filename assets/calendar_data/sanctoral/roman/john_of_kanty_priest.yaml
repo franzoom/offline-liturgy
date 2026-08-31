@@ -41,7 +41,7 @@ vespers:
       Venez les bénis de mon Père : ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -54,7 +54,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jc 2, 14-17
       headline: « La foi, si elle n’est pas mise en œuvre, est bel et bien morte »

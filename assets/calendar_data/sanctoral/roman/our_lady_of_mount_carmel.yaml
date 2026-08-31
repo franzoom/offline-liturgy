@@ -53,7 +53,7 @@ vespers:
     - Heureuse es-tu, Marie, toi qui écoutes la Parole de Dieu et la médites dans ton cœur !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -63,7 +63,7 @@ mass:
     >de parvenir à la montagne, qui est le Christ.
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, / Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Za 2, 14-17
       headline: « Réjouis-toi, fille de Sion, voici que je viens »

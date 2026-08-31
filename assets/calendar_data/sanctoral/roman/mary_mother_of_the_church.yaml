@@ -46,13 +46,12 @@ vespers:
     common:
     - Les disciples, d’un seul cœur, persévéraient dans la prière avec Marie, la mère de Jésus.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 3, 9-15.20
       headline: |-

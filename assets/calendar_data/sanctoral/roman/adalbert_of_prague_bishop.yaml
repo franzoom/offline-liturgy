@@ -11,7 +11,7 @@ oration:
   - Seigneur Dieu, tu as donné la couronne du martyre à l’évêque saint Adalbert, tout enflammé de zèle pour les âmes ; fais qu’à sa prière, le troupeau ne manque pas d’obéir à ses pasteurs, ni les pasteurs de se dévouer à leur troupeau.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -26,7 +26,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Co 6, 4-10
       headline: « On nous croit mourants, et nous sommes bien vivants »

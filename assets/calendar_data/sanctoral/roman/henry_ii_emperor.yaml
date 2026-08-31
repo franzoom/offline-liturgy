@@ -29,7 +29,7 @@ readings:
         récoltera de l’Esprit la vie éternelle.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -44,7 +44,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Mi 6, 6-8
       headline: « Homme, on t’a fait connaître ce qui est bien, ce que le Seigneur réclame de toi »

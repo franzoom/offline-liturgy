@@ -89,7 +89,7 @@ vespers:
     common: Heureux Martin ! Tu as aimé le Roi du ciel sans craindre les puissants de ce monde ! Tu as reçu les palmes du vainqueur.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. 1S 2,35
     content: |-
@@ -107,7 +107,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 61, 1-3a
       headline: « Le Seigneur m’a consacré par l’onction. Il m’a envoyé porter la Bonne Nouvelle aux pauvres »

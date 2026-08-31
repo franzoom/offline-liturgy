@@ -48,7 +48,7 @@ vespers:
     - Heureux le vainqueur entré dans la lumière et dans la paix de son Seigneur !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -62,7 +62,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2Tm 2, 8-13 ; 3, 10-12
       headline: « Tous ceux qui veulent vivre en hommes religieux dans le Christ Jésus subiront la persécution »

@@ -224,7 +224,7 @@ vespers:
       — souviens-toi de ceux qui communient à ta passion.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 47,10-11 (Vg)
     content: |-
@@ -245,7 +245,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ml 3, 1-4
       headline: « Soudain viendra dans son Temple le Seigneur que vous cherchez »

@@ -36,7 +36,7 @@ readings:
         les enfants de Dieu dispersés.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -50,7 +50,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2Tm 4, 1-5
       headline: « Fais ton travail d’évangélisateur, accomplis jusqu’au bout ton ministère »

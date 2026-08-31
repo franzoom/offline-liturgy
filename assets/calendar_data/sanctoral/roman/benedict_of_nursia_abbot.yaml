@@ -53,7 +53,7 @@ vespers:
       Dieu l’a béni et lui a fait miséricorde : à ceux qui cherchent Dieu, il a tracé la route.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -75,7 +75,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Pr 2, 1-9
       headline: « Aie l’oreille attentive à la sagesse »

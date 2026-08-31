@@ -30,7 +30,7 @@ readings:
         avec lui nous régnerons. R/
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -44,7 +44,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ga 2, 19-20
       headline: « Je vis, mais ce n’est plus moi, c’est le Christ qui vit en moi »

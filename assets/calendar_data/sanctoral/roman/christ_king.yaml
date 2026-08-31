@@ -261,8 +261,7 @@ vespers:
       — reçois nos frères défunts dans ton Royaume.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ap 5,12; 1,6 (Vg)
@@ -283,7 +282,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 34, 11-12.15-17
       cycle:
@@ -434,7 +433,7 @@ mass:
         le siège de la maison de David.
         Appelez le bonheur sur Jérusalem :
         « Paix à ceux qui t’aiment ! »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 15, 20-26.28
       cycle:

@@ -35,7 +35,7 @@ readings:
         pour être le Seigneur des morts et des vivants.
 
 mass:
-- massType: first_mass
+- massType: FIRST_MASS
   name: Première messe
   note: On choisira les lectures parmi celles qui sont proposées pour les funérailles (Lectionnaire, p. 1467) ; aucune péricope fixe n’est imprimée dans le Missel pour cette messe.
   entranceAntiphon:
@@ -78,7 +78,7 @@ mass:
     >le sacrement pascal.
     Par le Christ, notre Seigneur.
 
-- massType: second_mass
+- massType: SECOND_MASS
   name: Deuxième messe
   note: On choisira les lectures parmi celles qui sont proposées pour les funérailles (Lectionnaire, p. 1467) ; aucune péricope fixe n’est imprimée dans le Missel pour cette messe.
   entranceAntiphon:
@@ -124,7 +124,7 @@ mass:
     Par le Christ, notre Seigneur.
 
 
-- massType: third_mass
+- massType: THIRD_MASS
   name: 3ème messe
   note: On choisira les lectures parmi celles qui sont proposées pour les funérailles (Lectionnaire, p. 1467) ; aucune péricope fixe n’est imprimée dans le Missel pour cette messe.
   entranceAntiphon:

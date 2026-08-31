@@ -45,7 +45,7 @@ vespers:
     - Ô bienheux Isidore, maître de sagesse et docteur de l’Église, toi qui as cherché les volontés de Dieu, intercède pour nous auprès de lui.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -58,7 +58,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Co 4, 1-2.5-7
       headline: « Ce que nous proclamons, c’est Jésus Christ le Seigneur ; et nous sommes vos serviteurs, à cause de Jésus »

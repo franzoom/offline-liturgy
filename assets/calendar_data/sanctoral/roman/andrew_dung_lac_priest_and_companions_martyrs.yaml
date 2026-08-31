@@ -37,7 +37,7 @@ readings:
         voilà notre force et notre victoire.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ga 6,14a ; 1 Co 1,18
     content: |-
@@ -60,7 +60,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 1, 17-25
       headline: « Nous proclamons un Messie crucifié, folie pour les nations païennes »

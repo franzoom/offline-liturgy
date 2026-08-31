@@ -45,7 +45,7 @@ vespers:
     - Bernard, ami de l’Époux, tu as chanté la Vierge Mère ; pasteur admirable, tu as brillé devant les hommes.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -64,7 +64,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 15, 1-6
       headline: |-

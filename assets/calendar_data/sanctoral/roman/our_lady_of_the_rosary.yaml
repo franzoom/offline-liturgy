@@ -80,7 +80,7 @@ vespers:
     common: Marie retenait toutes ces paroles et les méditait dans son cœur.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Lc 1,28.42
     content: |-
@@ -100,7 +100,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 1, 12-14
       headline: « Tous, d’un même cœur, étaient assidus à la prière, avec Marie la mère de Jésus »

@@ -153,7 +153,7 @@ vespers:
       — que nous soyons, avec tous les défunts, au nombre de ceux qu’ils mèneront près de ton Fils.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: L’évangile ci-dessous est obligatoire.
   entranceAntiphon:
   - biblicalReference: cf. Dn 3,58
@@ -172,7 +172,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ex 23, 20-23a
       headline: « Je vais envoyer un ange devant toi »

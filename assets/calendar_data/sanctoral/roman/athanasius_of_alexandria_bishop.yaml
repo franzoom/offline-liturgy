@@ -35,7 +35,7 @@ readings:
         soient aussi avec moi.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 15,5 (Vg)
     content: |-
@@ -57,7 +57,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 5, 1-5
       headline: « La victoire remportée sur le monde, c’est notre foi »

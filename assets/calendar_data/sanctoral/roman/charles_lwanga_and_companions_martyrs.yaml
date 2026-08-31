@@ -31,7 +31,7 @@ readings:
         en l’image du Seigneur, toujours plus glorieuse.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Sg 3,6-7.9 (Néovg)
     content: |-
@@ -52,7 +52,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2M 7, 1-2.9-14
       headline: « Nous sommes prêts à mourir plutôt que de transgresser les lois de nos pères »

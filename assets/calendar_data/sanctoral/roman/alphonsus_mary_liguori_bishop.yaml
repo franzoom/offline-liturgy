@@ -34,7 +34,7 @@ oration:
   - Seigneur qui ne cesses d’éveiller dans ton Église de nouveaux modèles de vertu, fais-nous suivre les exemples de saint Alphonse de Liguori, remplis-nous d’ardeur pour le salut de nos frères, et nous obtiendrons comme lui le bonheur du ciel.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -49,7 +49,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Rm 8, 1-4
       headline: |-

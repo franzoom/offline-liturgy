@@ -33,7 +33,7 @@ readings:
         c’est l’Esprit qui vivifie.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -45,7 +45,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Rm 12, 3-13
       headline: « Selon la grâce que Dieu nous a accordée, nous avons reçu des dons qui sont différents »

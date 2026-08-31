@@ -256,8 +256,8 @@ vespers:
       Seigneur dont le nom est à jamais béni,
       — accomplis pour nos frères défunts les merveilles de ton salut.
 mass:
-- massType: evening_mass
-  name: Messe de la veille au soir
+- massType: EVENING_MASS
+
   note: null
   entranceAntiphon:
   - biblicalReference: Ba 5,5
@@ -274,7 +274,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 60, 1-6
       headline: « La gloire du Seigneur s’est levée sur toi »
@@ -330,7 +330,7 @@ mass:
         et le malheureux sans recours.
         Il aura souci du faible et du pauvre,
         du pauvre dont il sauve la vie.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Ep 3, 2-3a.5-6
       headline: « Il est maintenant révélé que les nations sont associées au même héritage, au partage de la même promesse »
@@ -425,8 +425,7 @@ mass:
     >et que le témoignage de notre foi soit le trésor que nous t’offrons.
     Par le Christ, notre Seigneur.
   solemnBlessingList: null
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ml 3,1; 1 Ch 19,12

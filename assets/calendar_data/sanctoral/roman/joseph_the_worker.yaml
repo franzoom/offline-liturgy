@@ -83,7 +83,7 @@ vespers:
     - Reconnaissons la Sagesse de Dieu en Jésus, le fils du charpentier, alléluia.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: Mémoire facultative ; si on la célèbre, l’évangile indiqué ici est obligatoire.
   entranceAntiphon:
   - biblicalReference: Ps 127,1-2
@@ -104,7 +104,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Gn 1, 26 – 2, 3
       headline: « Remplissez la terre et soumettez-la »

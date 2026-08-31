@@ -231,13 +231,12 @@ vespers:
       – que nos frères défunts connaissent l’éternelle joie.
 
 mass:
-  - massType: previous_evening_mass
-    name: Messe de la veille au soir
+  - massType: EVENING_MASS  
     note: null
     entranceAntiphon: null
     collect: null
     readingParts:
-      - partType: READING
+      - partType: READING_1
         partContents:
           - biblicalRef: Gn 11, 1-9
             headline: |-
@@ -433,7 +432,7 @@ mass:
               et retournent à leur poussière.
               Tu envoies ton souffle : ils sont créés ;
               tu renouvelles la face de la terre.
-      - partType: SECOND_READING
+      - partType: READING_2
         partContents:
           - biblicalRef: Rm 8, 22-27
             headline: |-
@@ -488,13 +487,13 @@ mass:
     communionAntiphon: null
     prayerAfterCommunion: null
     solemnBlessingList: null
-  - massType: day_mass
+  - massType: DAY_MASS
     name: Messe du jour
     note: null
     entranceAntiphon: null
     collect: null
     readingParts:
-      - partType: READING
+      - partType: READING_1
         partContents:
           - biblicalRef: Ac 2, 1-11
             headline: |-
@@ -561,7 +560,7 @@ mass:
               Que Dieu se réjouisse en ses œuvres !
               Que mon poème lui soit agréable ;
               moi, je me réjouis dans le Seigneur.
-      - partType: SECOND_READING
+      - partType: READING_2
         partContents:
           - biblicalRef: 1 Co 12, 3b-7.12-13
             cycle:

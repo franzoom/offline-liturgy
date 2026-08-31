@@ -120,7 +120,7 @@ vespers:
       La Parole du Seigneur demeure pour toujours : c’est l’Évangile que vous avez entendu, alléluia.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Mc 16,15
     content: |-
@@ -136,7 +136,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1P 5, 5b-14
       headline: « Marc, mon fils, vous salue »

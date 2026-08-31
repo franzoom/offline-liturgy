@@ -89,7 +89,7 @@ vespers:
     - Pasteur du troupeau et chef des Apôtres, tu détiens les clés du Royaume des cieux.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Lc 22,32
     content: |-
@@ -106,7 +106,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1P 5, 1-4
       headline: « Moi qui suis ancien et témoin des souffrances du Christ »

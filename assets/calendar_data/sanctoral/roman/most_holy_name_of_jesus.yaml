@@ -9,7 +9,7 @@ oration:
   Seigneur Dieu, dans l’incarnation de ton Verbe, tu as fondé le salut du genre humain : donne aux peuples qui t’appartiennent la miséricorde qu’ils implorent, afin que tous reconnaissent le seul Nom à invoquer, celui de ton Fils unique.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Ph 2,10-11
     content: |-
@@ -31,7 +31,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ph 2, 1-11
       headline: « Ayez les mêmes dispositions, les mêmes sentiments »

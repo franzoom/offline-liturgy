@@ -213,7 +213,7 @@ vespers:
       — qu’ils aient part avec Marie et Joseph à la joie de ton Royaume.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Lc 12,42
     content: |-
@@ -232,7 +232,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 S 7, 4-5a.12-14a.16
       headline: « Le Seigneur Dieu lui donnera le trône de David son père »
@@ -274,7 +274,7 @@ mass:
         mon Dieu, mon roc et mon salut !"
         Sans fin je lui garderai mon amour,
         mon alliance avec lui sera fidèle. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - number: 2
       biblicalRef: Rm 4, 13.16-18.22

@@ -60,7 +60,7 @@ vespers:
     common: Je veux la miséricorde et non les sacrifices. Je suis venu appeler les pécheurs.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Mt 28,19-20
     content: |-
@@ -79,7 +79,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ep 4, 1-7.11-13
       headline: |-

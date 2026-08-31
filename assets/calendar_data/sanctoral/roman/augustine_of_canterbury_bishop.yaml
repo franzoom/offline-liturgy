@@ -30,7 +30,7 @@ readings:
         au jour de Jésus Christ.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -43,7 +43,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Th 2, 2b-8
       headline: « Nous aurions voulu vous donner non seulement l’Évangile de Dieu, mais jusqu’à nos propres vies »

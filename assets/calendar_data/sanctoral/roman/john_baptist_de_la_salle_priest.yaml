@@ -44,7 +44,7 @@ vespers:
       Laissez venir à moi les petits enfants : le Royaume est à ceux qui leur ressemblent.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -58,7 +58,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Tm 1, 13-14 ; 2, 1-3
       headline: « Garde le dépôt de la foi avec l’aide de l’Esprit Saint »

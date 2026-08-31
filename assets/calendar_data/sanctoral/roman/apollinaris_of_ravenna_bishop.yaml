@@ -13,7 +13,7 @@ oration:
     Conduis tes fidèles, Seigneur, sur la voie du salut éternel que le bienheureux évêque Apollinaire a montrée par son enseignement et son martyre ; accorde-nous, par son intercession, d’observer tes commandements avec persévérance pour obtenir d’être couronnés avec lui dans le ciel.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -28,7 +28,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 34, 11-16
       headline: « Comme un berger veille sur son troupeau, ainsi je veillerai sur mes brebis »

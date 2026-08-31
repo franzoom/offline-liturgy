@@ -41,7 +41,7 @@ vespers:
     - Vivons avec justice et droiture, attendons la venue du Seigneur.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: La première lecture (l’un des deux textes au choix) est obligatoire.
   entranceAntiphon:
   - biblicalReference: Ps 95,3-4
@@ -60,7 +60,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - number: 1
       biblicalRef: 2 Tm 1, 1-8

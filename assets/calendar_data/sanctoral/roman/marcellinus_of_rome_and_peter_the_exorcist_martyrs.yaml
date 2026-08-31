@@ -31,7 +31,7 @@ readings:
         vous pourrez résister et tenir debout.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -45,7 +45,7 @@ mass:
     >Dieu, pour les siècles des siècles.
     Le même jour
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Co 6, 4-10
       headline: « On nous croit mourants, et nous sommes bien vivants »

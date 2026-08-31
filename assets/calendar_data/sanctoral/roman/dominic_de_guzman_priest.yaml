@@ -36,7 +36,7 @@ oration:
     Permets, Seigneur, que ton Église trouve un secours dans les mérites et les enseignements de saint Dominique : qu’il intercède pour nous avec sa tendresse, après avoir été un prédicateur éminent de ta vérité.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Si 15,5 (Vg)
     content: |-
@@ -53,7 +53,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 2, 1-10a
       headline: |-

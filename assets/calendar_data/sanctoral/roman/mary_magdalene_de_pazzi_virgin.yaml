@@ -38,7 +38,7 @@ readings:
       connaît les désirs de l’Esprit.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -54,7 +54,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1Co 7, 25-35
       headline: « La femme qui reste vierge a le souci des affaires du Seigneur »

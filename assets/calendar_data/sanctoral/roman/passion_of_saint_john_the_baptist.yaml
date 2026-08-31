@@ -89,7 +89,7 @@ vespers:
       Je ne suis pas le Messie, je suis envoyé devant lui ; il grandira, et je diminuerai.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 118,46-47
     content: |-
@@ -110,7 +110,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jr 1, 17-19
       headline: |-

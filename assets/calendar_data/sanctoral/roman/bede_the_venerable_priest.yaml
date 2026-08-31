@@ -37,7 +37,7 @@ readings:
         atteindre sans nous la perfection.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -51,7 +51,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 2, 10b-16
       headline: « Nous, nous avons la pensée du Christ »

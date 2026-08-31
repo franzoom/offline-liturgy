@@ -167,7 +167,7 @@ vespers:
       Dieu s’est penché sur son humble servante : tous les âges me diront bienheureuse, alléluia.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Ps 65,16
     content: |-
@@ -185,7 +185,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - number: 1
       biblicalRef: So 3, 14-18

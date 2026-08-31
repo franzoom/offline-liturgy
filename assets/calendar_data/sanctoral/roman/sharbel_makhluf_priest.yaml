@@ -12,7 +12,7 @@ oration:
   Seigneur Dieu, tu as appelé le prêtre saint Charbel au combat singulier du désert, et tu l’as comblé de multiples dons spirituels ; nous t’en supplions : donne-nous d’imiter le Seigneur en sa Passion et d’avoir part à son Royaume.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -26,7 +26,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Si 3, 17-24
       headline: |-

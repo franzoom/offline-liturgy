@@ -29,13 +29,12 @@ readings:
         la terre entière exulte.
         
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null 
   entranceAntiphon: null
   collect: null
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 61, 9-11
       headline: |-

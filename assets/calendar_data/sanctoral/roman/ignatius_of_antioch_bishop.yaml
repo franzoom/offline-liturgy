@@ -47,7 +47,7 @@ vespers:
     common: Je désire le pain de Dieu, le corps de Jésus Christ, fils de David. Je veux boire à la coupe du sang, je veux l’impérissable amour.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ga 2,19-20
     content: |-
@@ -70,7 +70,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ph 3, 17 - 4, 1
       headline: « Nous sommes citoyens des cieux »

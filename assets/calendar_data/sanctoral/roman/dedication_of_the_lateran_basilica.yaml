@@ -27,7 +27,7 @@ readings:
         montrant la plaie de son côté, alléluia !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ap 21,2
     content: |-
@@ -63,7 +63,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ez 47, 1-2.8-9.12
       headline: « J’ai vu l’eau qui jaillissait du Temple, et tous ceux que cette eau atteignait étaient sauvés »

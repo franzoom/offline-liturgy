@@ -223,8 +223,7 @@ vespers:
       Fils de Dieu, notre espérance, toi qui conduis les hommes au salut,
       — reçois nos frères défunts dans ton Royaume.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Mt 3,16-17
     content: |-
@@ -255,7 +254,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - cycle: A
       biblicalRef: Is 42, 1-4.6-7
@@ -452,7 +451,7 @@ mass:
         et retournent à leur poussière.
         Tu envoies ton souffle : ils sont créés ;
         tu renouvelles la face de la terre.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - cycle: A
       biblicalRef: Ac 10, 34-38

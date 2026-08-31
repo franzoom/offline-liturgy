@@ -224,7 +224,7 @@ vespers:
       — que nos frères défunts soient transformés à ton image.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Mt 17,5
     content: |-
@@ -246,7 +246,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dn 7, 9-10.13-14
       headline: |-

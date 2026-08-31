@@ -37,7 +37,7 @@ vespers:
   - toute-forme-evanouie
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Ga 6,14
     content: |-
@@ -57,7 +57,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 2, 1-10a
       headline: « Nous proclamons la sagesse du mystère de Dieu »

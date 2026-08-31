@@ -90,7 +90,7 @@ vespers:
       J’ai mis les doigts dans la trace des clous. J’ai mis ma main dans son côté, et j’ai dit : Mon Seigneur et mon Dieu. Alléluia.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 117,28.21
     content: |-
@@ -109,7 +109,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ep 2, 19-22
       headline: « Intégrés dans la construction qui a pour fondations les Apôtres »

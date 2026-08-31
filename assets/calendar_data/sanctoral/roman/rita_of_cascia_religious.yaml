@@ -11,7 +11,7 @@ oration:
     Donne-nous, Seigneur, en abondance la sagesse de la croix et la force d’âme dont tu as voulu combler sainte Rita : nous pourrons alors supporter avec le Christ les épreuves de la vie, et participer plus profondément au mystère de sa Pâque.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -25,7 +25,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ph 4, 4-9
       headline: « Ce qui est juste et pur, prenez-le à votre compte »

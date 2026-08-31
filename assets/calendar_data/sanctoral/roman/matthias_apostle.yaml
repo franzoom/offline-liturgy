@@ -48,7 +48,7 @@ vespers:
     - Ce n’est pas vous qui m’avez choisi, c’est moi qui vous ai choisis pour que vous alliez et portiez un fruit qui demeure.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Jn 15,16
     content: |-
@@ -68,7 +68,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 1, 15-17.20-26
       headline: « Le sort tomba sur Matthias, qui fut donc associé par suffrage aux onze Apôtres »

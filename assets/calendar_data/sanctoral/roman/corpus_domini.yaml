@@ -252,8 +252,7 @@ vespers:
       — donne la vie éternelle à ceux qui attendent ton retour.
 
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ps 80,17

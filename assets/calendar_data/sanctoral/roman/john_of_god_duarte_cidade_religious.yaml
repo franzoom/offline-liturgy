@@ -41,7 +41,7 @@ vespers:
       Recevez le Royaume préparé pour vous: ce que vous avez tait à l’un de ces petits, c’est à moi que vous l’avez fait.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -54,7 +54,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 3, 14-18
       headline: « Nous aussi, nous devons donner notre vie pour nos frères »

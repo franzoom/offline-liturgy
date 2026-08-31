@@ -26,7 +26,7 @@ firstVespers:
     content: Lorsque les temps furent accomplis, Dieu a envoyé son Fils ; il est né d’une femme, il a été sujet de la Loi juive pour racheter ceux qui étaient sujets de la Loi et pour faire de nous des fils.
   responsory: |-
     R/ Aujourd’hui, le Seigneur viendra.
-    * Au matin, vous verrez sa gloire !
+    * Au matin, vous verrez sa gloire !
     V/ Les temps sont accomplis. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
@@ -162,7 +162,7 @@ morning:
     content: Souvent, dans le passé, Dieu a parlé à nos pères par les prophètes sous des formes fragmentaires et variées ; mais, dans les derniers temps, dans ces jours où nous sommes, il nous a parlé par ce Fils qu’il a établi héritier de toutes choses et par qui il a créé les mondes.
   responsory: |-
     R/ Gloire à Dieu, paix aux hommes !
-    * Joie du ciel sur la terre !
+    * Joie du ciel sur la terre !
     V/ Pour tes merveilles, Seigneur Dieu,
     ton peuple te rend grâce ! *
     V/ Ami des hommes, sois béni
@@ -245,7 +245,7 @@ vespers:
   responsory: |-
     R/ Un enfant nous est né,
     un fils nous est donné.
-    * Gloire à Dieu dans le ciel !
+    * Gloire à Dieu dans le ciel !
     V/ Messager du Très-Haut
     et Prince de la paix. *
     V/ Le Verbe s’est fait chair,
@@ -278,28 +278,28 @@ vespers:
   oration:
   - Père, toi qui as merveilleusement créé l’homme et, plus merveilleusement encore, rétabli sa dignité, fais-nous participer à la divinité de ton Fils, puisqu’il a voulu prendre notre humanité. Lui qui règne.
 mass:
-- massType: evening_mass
-  name: Messe de la veille au soir
+- massType: EVENING_MASS
+
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Ex 16,6-7
     content: |-
-      Aujourd’hui vous saurez que le Seigneur vient nous sauver ;
+      Aujourd’hui vous saurez que le Seigneur vient nous sauver ;
       >et demain vous verrez sa gloire.
   collect:
   - |-
     Chaque année, Seigneur Dieu, tu nous réjouis
-    >tandis que nous attendons notre rédemption ; +
+    >tandis que nous attendons notre rédemption ; +
     nous accueillons avec joie
-    >ton Fils unique, le Rédempteur : *
-    fais que nous puissions aussi le regarder avec confiance, /
+    >ton Fils unique, le Rédempteur : *
+    fais que nous puissions aussi le regarder avec confiance, /
     >lorsque viendra comme Juge
     >ce même Jésus Christ notre Seigneur.
-    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
     
   readingParts: 
-  - partType: FIRST_READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 62, 1-5
       headline: |-
@@ -349,7 +349,7 @@ mass:
         mon Dieu, mon roc et mon salut !
         Sans fin je lui garderai mon amour,
         mon alliance avec lui sera fidèle. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Ac 13, 16-17.22-25
       headline: |-
@@ -535,15 +535,14 @@ mass:
       >et tout être de chair verra le salut de notre Dieu.
   prayerAfterCommunion:
   - |-
-    Nous t’en prions, Seigneur : *
+    Nous t’en prions, Seigneur : *
     >accorde-nous de reprendre vie
-    >en rappelant la naissance de ton Fils unique, /
+    >en rappelant la naissance de ton Fils unique, /
     puisque notre faim et notre soif
     >sont apaisés par le sacrement du ciel.
     Par le Christ, notre Seigneur.
   solemnBlessingList: null
-- massType: night_mass
-  name: Messe de la nuit
+- massType: NIGHT_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: Ps 2,7
@@ -561,15 +560,15 @@ mass:
   - |-
     Seigneur Dieu, +
     >tu as fait resplendir cette nuit très sainte
-    >des clartés de la vraie lumière ; *
+    >des clartés de la vraie lumière ; *
     nous t’en prions, puisque nous reconnaissons
-    >la splendeur des mystères du Christ sur la terre, /
+    >la splendeur des mystères du Christ sur la terre, /
     accorde-nous aussi de goûter pleinement
     >sa joie dans le ciel.
-    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: FIRST_READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 9, 1-6
       headline: « Un enfant nous est né »
@@ -633,7 +632,7 @@ mass:
 
         Il jugera le monde avec justice
         et les peuples selon sa vérité.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Tt 2, 11-14
       headline: « La grâce de Dieu s’est manifestée pour tous les hommes »
@@ -726,8 +725,7 @@ mass:
     >à la communion avec lui,
     qui vit et règne pour les siècles des siècles.
   solemnBlessingList: null
-- massType: dawn_mass
-  name: Messe de l'Aurore
+- massType: DAWN_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 9,1.5; Lc 1,33
@@ -739,16 +737,16 @@ mass:
       Et son règne n’aura pas de fin.
   collect:
   - |-
-    Dieu tout-puissant, +
+    Dieu tout-puissant, +
     >en ton Verbe fait chair,
-    >nous sommes inondés d’une clarté nouvelle ; *
-    fais que resplendisse en nos actes /
+    >nous sommes inondés d’une clarté nouvelle ; *
+    fais que resplendisse en nos actes /
     >cette lumière que la foi fait briller dans nos esprits.
-    Par Jésus Christ, ton Fils, notre Seigneur, +
-    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /*
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: FIRST_READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 62, 11-12
       headline: « Voici ton Sauveur qui vient »
@@ -782,7 +780,7 @@ mass:
         et pour le cœur simple, une joie.
         Que le Seigneur soit votre joie, hommes justes ;
         rendez grâce en rappelant son nom très saint.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Tt 3, 4-7
       headline: « Dieu nous a sauvés par sa miséricorde »
@@ -866,8 +864,7 @@ mass:
     >et de l’aimer d’un amour toujours plus ardent.
     Par le Christ, notre Seigneur.
   solemnBlessingList: null
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: cf. Is 9,5
@@ -886,7 +883,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: FIRST_READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 52, 7-10
       headline: « Tous les lointains de la terre ont vu le salut de notre Dieu »
@@ -940,7 +937,7 @@ mass:
         sur la cithare et tous les instruments ;
         au son de la trompette et du cor,
         acclamez votre roi, le Seigneur !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: He 1, 1-6
       headline: « Dieu nous a parlé par son Fils »

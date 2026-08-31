@@ -136,7 +136,7 @@ vespers:
     common: Heureux saint Luc ! Ton Évangile nous révèle la miséricorde du Christ ; l’Église entière te glorifie.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Is 52,7
     content: |-
@@ -159,7 +159,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Tm 4, 10-17b
       headline: « Luc est seul avec moi »

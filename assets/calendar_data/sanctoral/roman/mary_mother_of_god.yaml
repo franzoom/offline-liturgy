@@ -251,8 +251,7 @@ vespers:
       Toi qui as choisi de naître à la lumière de ce monde,
       — donne à ceux qui meurent de naître à la lumière éternelle.
 mass:
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   note: null
   entranceAntiphon:
   - biblicalReference: null
@@ -279,7 +278,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-    - partType: READING
+    - partType: READING_1
       partContents:
         - biblicalRef: Nb 6, 22-27
           headline: |-
@@ -319,7 +318,7 @@ mass:
             qu’ils te rendent grâce tous ensemble !
             Que Dieu nous bénisse,
             et que la terre tout entière l’adore !
-    - partType: SECOND_READING
+    - partType: READING_2
       partContents:
         - biblicalRef: Ga 4, 4-7
           headline: |-

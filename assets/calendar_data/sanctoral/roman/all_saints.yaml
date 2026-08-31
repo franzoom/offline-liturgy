@@ -251,7 +251,7 @@ vespers:
       qu’ils partagent le sort des saints dans ta lumière.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-
@@ -271,7 +271,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ap 7, 2-4.9-14
       headline: « Voici une foule immense que nul ne pouvait dénombrer, foule de toutes nations, tribus, peuples et langues »
@@ -342,7 +342,7 @@ mass:
         et de Dieu son Sauveur, la justice.
         Voici le peuple de ceux qui le cherchent !
         Voici Jacob qui recherche ta face !
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Jn 3, 1-3
       headline: « Nous verrons Dieu tel qu’il est »

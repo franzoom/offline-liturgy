@@ -203,7 +203,7 @@ vespers:
 
 
 mass:
-- massType: vigil_mass
+- massType: VIGIL_MASS
   name: Messe de Vigile
   entranceAntiphon:
   - biblicalReference: null
@@ -224,7 +224,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Ch 15, 3-4.15-16 ; 16, 1-2
       headline: |-
@@ -276,7 +276,7 @@ mass:
         elle est le séjour qu’il désire :
         « Voilà mon repos à tout jamais,
         c’est le séjour que j’avais désiré. »
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 15, 54b-57
       headline: |-
@@ -338,8 +338,7 @@ mass:
     >délivre-nous de toute menace du mal, /
     Par le Christ, notre Seigneur.
 
-- massType: day_mass
-  name: Messe du jour
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Cf. Ap 12,1
     content: |-
@@ -365,7 +364,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ap 11, 19a ; 12, 1-6a.10ab
       headline: |-
@@ -424,7 +423,7 @@ mass:
         Des jeunes filles, ses compagnes, lui font cortège ;
         on les conduit parmi les chants de fête :
         elles entrent au palais du roi.
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: 1 Co 15, 20-27a
       headline: |-

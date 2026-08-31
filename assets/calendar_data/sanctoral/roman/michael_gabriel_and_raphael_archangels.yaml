@@ -196,7 +196,7 @@ vespers:
       guide vers ta lumière tous les fidèles défunts.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Ps 102,20
     content: |-
@@ -216,7 +216,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Dn 7, 9-10.13-14
       headline: |-

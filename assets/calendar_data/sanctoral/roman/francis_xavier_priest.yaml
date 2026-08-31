@@ -39,7 +39,7 @@ readings:
         jusqu’aux extrémités de la terre.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Ps 17,50 ; 21,23
     content: |-
@@ -57,7 +57,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 9, 16-19.22-23
       headline: « Malheur à moi si je n’annonçais pas l’Évangile ! »

@@ -41,7 +41,7 @@ morning:
       - Il est bon, il est doux pour des frères de vivre ensemble et d’être unis !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -53,7 +53,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Rm 8, 26-30
       headline: « Ceux qu’il a rendus justes, il leur a donné sa gloire »

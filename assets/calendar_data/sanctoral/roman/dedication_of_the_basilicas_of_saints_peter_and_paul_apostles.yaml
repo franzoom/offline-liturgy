@@ -60,7 +60,7 @@ vespers:
       - Les corps des Apôtres reposent dans la paix ; leurs noms sont vivants pour les siècles.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   note: Si on célèbre cette mémoire, les deux lectures ci-dessous sont obligatoires.
   entranceAntiphon:
   - biblicalReference: cf. Ps 44,17-18
@@ -79,7 +79,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 28, 11-16.30-31
       headline: « Voici comment nous sommes arrivés à Rome »

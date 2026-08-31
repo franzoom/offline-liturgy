@@ -38,7 +38,7 @@ vespers:
     - Jésus aimait Marthe et Marie, il aimait leur frère, Lazare.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. Lc 10,38
     content: |-
@@ -55,7 +55,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 4, 7-16
       headline: |-

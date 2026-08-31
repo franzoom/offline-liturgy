@@ -85,7 +85,7 @@ vespers:
     - Je viens à toi, Père très saint, à toi que j’ai aimé, que j’ai cherché et toujours désiré.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -100,7 +100,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 1, 26-31
       headline: « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »

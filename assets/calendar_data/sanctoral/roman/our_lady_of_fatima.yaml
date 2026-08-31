@@ -9,7 +9,7 @@ oration:
   - Seigneur Dieu, tu as voulu que la Mère de ton Fils soit aussi notre Mère ; accorde-nous de persévérer dans la pénitence et la prière pour le salut du monde ; puissions-nous devenir ainsi, de jour en jour, des artisans efficaces du royaume du Christ.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -23,7 +23,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Is 61, 9-11
       headline: « Comme la terre fait éclore son germe »

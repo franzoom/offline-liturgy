@@ -233,7 +233,7 @@ vespers:
       — maintenant tu nous envoies témoigner de la vérité.
 
 mass:
-- massType: vigil_mass
+- massType: VIGIL_MASS
   entranceAntiphon:
   - biblicalReference: Lc 1,15.14
     content: |-
@@ -254,7 +254,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Jr 1, 4-10
       headline: « Avant même de te façonner dans le sein de ta mère, je te connaissais »
@@ -415,7 +415,7 @@ mass:
     >ton propre Fils.
     Lui qui vit et règne pour les siècles des siècles.
 
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Jn 1,6-7; Lc 1,17
     content: |-
@@ -436,7 +436,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: SECOND_READING
+  - partType: READING_2
     partContents:
     - biblicalRef: Is 49, 1-6
       headline: « Je fais de toi la lumière des nations »

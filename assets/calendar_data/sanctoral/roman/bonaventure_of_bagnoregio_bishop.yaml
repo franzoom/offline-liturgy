@@ -31,7 +31,7 @@ readings:
         jusqu’aux profondeurs divines.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -44,7 +44,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ep 3, 14-19
       headline: '« Vous connaîtrez ce qui dépasse toute connaissance : l’amour du Christ »'

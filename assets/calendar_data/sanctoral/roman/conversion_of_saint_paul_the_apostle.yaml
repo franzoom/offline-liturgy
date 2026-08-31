@@ -141,7 +141,7 @@ vespers:
     - Paul, Apôtre des nations, prédicateur de la vérité, intercède pour nous auprès de Dieu qui t’a choisi.
  
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: cf. 2Tm 1,12; 4,8
     content: |-
@@ -163,7 +163,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ac 22, 3-16
       headline: « Lève-toi et reçois le baptême, sois lavé de tes péchés en invoquant le nom de Jésus »

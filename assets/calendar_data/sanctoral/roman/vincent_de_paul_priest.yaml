@@ -41,7 +41,7 @@ vespers:
     common: Ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Lc 4,18 Vg (Is 61,1)
     content: |-
@@ -62,7 +62,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Co 1, 26-31
       headline: |-

@@ -32,7 +32,7 @@ readings:
         pour la joie de votre foi.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Dn 12,3
     content: |-
@@ -52,7 +52,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ep 4, 1-7.11-13
       headline: |-

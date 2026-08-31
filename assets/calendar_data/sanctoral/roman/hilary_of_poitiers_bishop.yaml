@@ -39,7 +39,7 @@ readings:
         et vous en lui, selon la grâce de notre Dieu.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -52,7 +52,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 1 Jn 2, 18-25
       headline: « Celui qui reconnaît le Fils a aussi le Père »

@@ -50,7 +50,7 @@ vespers:
     - Sainte Marie, Mère de Dieu, prie pour nous, pauvres pécheurs, maintenant et quand viendra notre heure !
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -62,7 +62,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ap 21, 1-5a
       headline: |-

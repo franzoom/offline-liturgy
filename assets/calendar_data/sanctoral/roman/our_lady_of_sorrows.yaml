@@ -91,7 +91,7 @@ vespers:
       Jésus, voyant Marie, et près d’elle le disciple qu’il aimait dit à sa mère : %Femme, voici ton fils%. Puis il dit au disciple : %Voici ta mère%.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Lc 2,34-35
     content: |-
@@ -112,7 +112,7 @@ mass:
     Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: He 5, 7-9
       headline: |-

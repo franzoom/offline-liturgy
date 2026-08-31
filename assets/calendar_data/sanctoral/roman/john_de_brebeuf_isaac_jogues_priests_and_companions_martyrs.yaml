@@ -29,7 +29,7 @@ readings:
         je lui donnerai la vie éternelle.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -43,7 +43,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit,
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: 2 Co 4, 7-15
       headline: « Nous portons, dans notre corps, la mort de Jésus »

@@ -41,7 +41,7 @@ vespers:
       Magnifions le Seigneur : il exalte dans la gloire son humble serviteur.
 
 mass:
-- massType: day_mass
+- massType: DAY_MASS
   entranceAntiphon: null
   collect:
   - |-
@@ -55,7 +55,7 @@ mass:
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   readingParts:
-  - partType: READING
+  - partType: READING_1
     partContents:
     - biblicalRef: Ph 4, 4-9
       headline: « Ce qui est juste et pur, prenez-le à votre compte »

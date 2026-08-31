@@ -250,6 +250,18 @@ class CelebrationContext {
   // cycles, from DayContent.liturgicalYear — already accounts for the
   // Advent shift (e.g. Advent 2026 carries liturgicalYear 2027).
   final int? liturgicalYear;
+  // Whether this celebration's own proper Mass file declares readingParts
+  // — mass only, set by massDetection. A memorial always uses the day's
+  // readings by default (see useProperReadingsForMemorial); this tells the
+  // UI whether offering the memorial's own readings as an alternative is
+  // even possible.
+  final bool hasProperReadingParts;
+  // Mass only. When this celebration is a memorial/commemoration
+  // (precedence > 5) and hasProperReadingParts is true, selects the
+  // memorial's own readingParts instead of the day's — see massExport.
+  // Has no effect for a Feast/Solemnity (precedence <= 5), which always
+  // use their own proper readingParts regardless of this flag.
+  final bool useProperReadingsForMemorial;
 
   const CelebrationContext({
     this.celebrationType,
@@ -274,6 +286,8 @@ class CelebrationContext {
     this.celebrationOrigin,
     this.svgSource,
     this.liturgicalYear,
+    this.hasProperReadingParts = false,
+    this.useProperReadingsForMemorial = false,
   });
 
   /// Returns the first common from commonList.
@@ -328,6 +342,8 @@ class CelebrationContext {
     LocationOrigin? celebrationOrigin,
     String? svgSource,
     int? liturgicalYear,
+    bool? hasProperReadingParts,
+    bool? useProperReadingsForMemorial,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -355,6 +371,10 @@ class CelebrationContext {
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
       svgSource: svgSource ?? this.svgSource,
       liturgicalYear: liturgicalYear ?? this.liturgicalYear,
+      hasProperReadingParts:
+          hasProperReadingParts ?? this.hasProperReadingParts,
+      useProperReadingsForMemorial:
+          useProperReadingsForMemorial ?? this.useProperReadingsForMemorial,
     );
   }
 }

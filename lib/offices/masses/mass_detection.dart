@@ -1,3 +1,4 @@
+import '../../assets/libraries/french_liturgy_labels.dart';
 import '../../classes/calendar_class.dart';
 import '../../classes/mass_class.dart';
 import '../../classes/office_elements_class.dart';
@@ -41,8 +42,12 @@ Future<Map<String, CelebrationContext>> massDetection(
       // Disambiguate the label only when this celebration has several
       // Masses (e.g. Christmas' 4 Masses, Palm Sunday's procession +
       // Passion Mass) — a single-Mass day keeps the plain celebration name.
-      final String? description = massList.length > 1 && mass.name != null
-          ? '${c.celebrationGlobalName} (${mass.name})'
+      // The celebration name itself is shown separately above the chips
+      // (see CelebrationContext.celebrationTitle), so the chip only needs
+      // to name the Mass — via massType's canonical translation, falling
+      // back to the YAML's freeform name for a massType not yet migrated.
+      final String? description = massList.length > 1
+          ? massTypeLabels[mass.massType] ?? mass.name ?? mass.massType
           : c.celebrationGlobalName;
 
       possibleMasses[key] = c.copyWith(

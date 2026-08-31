@@ -88,6 +88,7 @@ const Map<String, String> liturgyLabels = {
   'psalmody': 'Psalmodie',
   'select-common': 'Sélectionner un commun',
   'select-office': 'Sélectionner un office',
+  'select-mass': 'Sélectionner la messe',
   'no-office': "Pas d’office disponible",
   'no-invitatory': "Pas d’invitatoire disponible",
   'no-data': 'Pas de donnée disponible',
@@ -173,3 +174,34 @@ String getCelebrationTypeLabel(int precedence) {
   }
   return '';
 }
+
+/// Reading Name
+const Map<String, String> readingsTypeLabels = {
+  'READING_1': 'Première lecture',
+  'READING_2': 'Deuxième lecture',
+  'READING_3': 'Troisième lecture',
+  'READING_4': 'Quatrième lecture',
+  'READING_5': 'Cinquième lecture',
+  'READING_6': 'Sixième lecture',
+  'READING_7': 'Septième lecture',
+  'EPISTLE': "Épitre",
+  'PSALM': 'Psaume',
+  'CANTICLE': 'Cantique',
+  'ALLELUIA': 'Acclamation de l’Évangile',
+  'GOSPEL': 'Évangile'
+};
+
+/// mass names
+const Map<String, String> massTypeLabels = {
+  'EVENING_MASS': 'Messe de la veille au soir',
+  'NIGHT_MASS': 'Messe de la nuit',
+  'DAWN_MASS': 'Messe de l’Aurore',
+  'DAY_MASS': 'Messe du jour',
+  'EASTER_VIGIL': 'Vigile de Pâques',
+  'FIRST_MASS': 'Première messe',
+  'SECOND_MASS': 'Deuxième messe',
+  'THIRD_MASS': 'Troisième messe',
+  'CELEBRATION_OF_THE_PASSION': 'Célébration de la Passion',
+  'PROCESSION_WITH_PALMS': 'Procession des Rameaux',
+  'MASS_OF_THE_PASSION': 'Messe de la Passion'
+};

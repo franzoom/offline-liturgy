@@ -29,3 +29,136 @@ readings:
 
         N’amassez pas de trésor sur la terre,
         mais rendez à Dieu toute grâce.
+
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: 2 Co 8, 9
+    content: |-
+      Jésus Christ notre Seigneur,
+      de riche qu’il était, pour nous s’est fait pauvre,
+      >afin de nous enrichir par sa pauvreté.
+  collect:
+  - |-
+    Pour que la Bonne Nouvelle soit annoncée aux pauvres,
+    tu as appelé, Seigneur, Antoine Chevrier
+    >à se faire disciple de ton Fils.
+    Accorde-nous de suivre les exemples du Christ pauvre et crucifié,
+    >afin que nous puissions ainsi te glorifier.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Ph 3, 8-14
+      headline: |-
+        « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut dans le Christ Jésus »
+      content: |-
+        Frères,
+        tous les avantages que j’avais autrefois,
+        je les considère comme une perte
+        à cause de ce bien qui dépasse tout :
+        >la connaissance du Christ Jésus, mon Seigneur.
+        À cause de lui, j’ai tout perdu ;
+        je considère tout comme des ordures,
+        >afin de gagner un seul avantage, le Christ,
+        et, en lui, d’être reconnu juste,
+        >non pas de la justice venant de la loi de Moïse
+        mais de celle qui vient de la foi au Christ,
+        >la justice venant de Dieu, qui est fondée sur la foi.
+        Il s’agit pour moi de connaître le Christ,
+        >d’éprouver la puissance de sa résurrection
+        et de communier aux souffrances de sa Passion,
+        >en devenant semblable à lui dans sa mort,
+        avec l’espoir de parvenir
+        >à la résurrection d’entre les morts.
+        Certes, je n’ai pas encore obtenu cela,
+        >je n’ai pas encore atteint la perfection,
+        mais je poursuis ma course pour tâcher de saisir,
+        >puisque j’ai moi-même été saisi par le Christ Jésus.
+        Frères, quant à moi, je ne pense pas avoir déjà saisi cela.
+        Une seule chose compte :
+        >oubliant ce qui est en arrière, et lancé vers l’avant,
+        je cours vers le but en vue du prix
+        >auquel Dieu nous appelle là-haut dans le Christ Jésus.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+      label: null
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        chorus: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        « Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 11, 25-30
+      headline: |-
+        « Ce que tu as caché aux sages et aux savants, tu l’as révélé aux tout-petits »
+      acclamationAntiphon: null
+      content: |-
+        En ce temps-là,
+        Jésus prit la parole et dit :
+        >« Père, Seigneur du ciel et de la terre,
+        >je proclame ta louange :
+        >ce que tu as caché aux sages et aux savants,
+        >tu l’as révélé aux tout-petits.
+        Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
+        Tout m’a été remis par mon Père ;
+        >personne ne connaît le Fils, sinon le Père,
+        >et personne ne connaît le Père, sinon le Fils,
+        >et celui à qui le Fils veut le révéler.
+        Venez à moi,
+        >vous tous qui peinez sous le poids du fardeau,
+        >et moi, je vous procurerai le repos.
+        Prenez sur vous mon joug,
+        >devenez mes disciples,
+        >car je suis doux et humble de cœur,
+        >et vous trouverez le repos pour votre âme.
+        Oui, mon joug est facile à porter,
+        >et mon fardeau, léger. »
+  offeringPrayer:
+  - |-
+    Par le sacrifice que nous t’offrons, Seigneur,
+    allume en nous le feu de l’Esprit
+    qui poussait Antoine Chevrier à s’attacher au Christ
+    >et à se donner tout entier pour le salut des hommes.
+  communionAntiphon:
+  - biblicalReference: Jn 13, 15-17
+    content: |-
+      Je vous ai donné l’exemple,
+      >afin que vous fassiez, vous aussi,
+      comme j’ai fait pour vous.
+      Heureux êtes-vous, si vous le mettez en pratique.
+  prayerAfterCommunion:
+  - |-
+    Tu veux, Seigneur, que les pauvres
+    soient les premiers invités au festin de ton Royaume
+    >où nous avons nous-mêmes été rassasiés.
+    Fais que nous sachions aller vers eux,
+    >comme Antoine Chevrier,
+    pour leur révéler les richesses de ton Évangile.
+    Par le Christ, notre Seigneur.

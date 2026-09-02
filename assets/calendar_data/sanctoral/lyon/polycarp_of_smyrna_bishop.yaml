@@ -48,15 +48,22 @@ vespers:
 
 mass:
 - massType: DAY_MASS
-  entranceAntiphon: null
+  entranceAntiphon:
+  - biblicalReference: Si 51, 3-4
+    content: |-
+      Seigneur, je rends grâce à ton nom, car tu m’as délivré
+      de la main de ceux qui en veulent à ma vie,
+      des innombrables épreuves que j’ai subies,
+      de la suffocation du feu qui m’entourait,
+      du milieu d’un feu que je n’avais pas allumé.
   collect:
   - |-
-    Dieu de toute la création, +
-    >tu as accordé au bienheureux évêque Polycarpe
-    >d’être au nombre de tes martyrs ; *
-    puisque nous prenons part avec lui à la coupe du Christ, /
-    donne-nous, à son intercession,
-    >de ressusciter dans l’Esprit Saint à la vie éternelle.
+    Seigneur, tu as donné à saint Polycarpe
+    >une profonde connaissance de ta vérité,
+    >par l’intermédiaire du disciple que Jésus aimait.
+    Accorde-nous, par son intercession,
+    >de rester fidèles à la foi qu’il a enseignée
+    >et d’y conformer toujours mieux notre vie.
     Par Jésus Christ, ton Fils, notre Seigneur, +
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
@@ -167,6 +174,26 @@ mass:
         on gardera aussi la vôtre.
         Les gens vous traiteront ainsi à cause de mon nom,
         parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
-  offeringPrayer: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Seigneur, purifie nos cœurs
+    >par l’offrande de ce sacrifice,
+    pour qu’avec saint Polycarpe
+    >tu puisses nous recevoir
+    >comme une offrande agréable à tes yeux.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Jn 15, 5
+    content: |-
+      « Je suis la vigne et vous êtes les sarments, dit le Seigneur.
+      Celui qui demeure en moi et en qui je demeure,
+      celui-là donne beaucoup de fruit. »
+  prayerAfterCommunion:
+  - |-
+    Que cette communion, Seigneur,
+    >ravive nos forces ;
+    Et puisque nous célébrons avec joie
+    >la fête de saint Polycarpe,
+    puissions-nous avoir, comme lui,
+    >le courage d’être apôtres.
+    Par le Christ, notre Seigneur.

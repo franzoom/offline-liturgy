@@ -34,3 +34,125 @@ readings:
 
         Heureux serez-vous,
         sachant cela, si vous donnez votre vie.
+
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Ps 33, 18
+    content: |-
+      Le Seigneur est le salut des justes,
+      leur abri au temps de l’angoisse.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant,
+    tu as donné à tes glorieux martyrs
+    Jacques-Jules Bonnaud et ses compagnons
+    >la force de souffrir à cause du Christ,
+    pour l’unité et la fidélité dans ton Église ;
+    Viens encore au secours de notre faiblesse,
+    afin qu’en imitant ces martyrs
+    >qui n’ont pas hésité à mourir pour toi,
+    nous ayons le courage de te glorifier par notre vie.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: 1 P 3, 14-17
+      headline: « N’ayez aucune crainte de ces gens-là, ne vous laissez pas troubler »
+      content: |-
+        Bien-aimés,
+        s’il vous arrivait de souffrir pour la justice,
+        heureux seriez-vous !
+        Comme dit l’Écriture :
+        N’ayez aucune crainte de ces gens-là,
+        ne vous laissez pas troubler.
+        Honorez dans vos cœurs
+        la sainteté du Seigneur, le Christ.
+        Soyez prêts à tout moment à présenter une défense
+        devant quiconque vous demande de rendre raison
+        de l’espérance qui est en vous ;
+        mais faites-le avec douceur et respect.
+        Ayez une conscience droite,
+        afin que vos adversaires soient pris de honte
+        sur le point même où ils disent du mal de vous
+        pour la bonne conduite que vous avez dans le Christ.
+        Car mieux vaudrait souffrir en faisant le bien,
+        si c’était la volonté de Dieu,
+        plutôt qu’en faisant le mal.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      refAbbr: 125, 1…
+      chorus:
+      - chorusRef: cf. 125, 5
+        chorus: |-
+          Ceux qui sèment dans les larmes
+          moissonnent dans la joie.
+      content: |-
+        Quand le Seigneur ramena les captifs à Sion,
+        nous étions comme en rêve !
+        Alors notre bouche était pleine de rires,
+        nous poussions des cris de joie.
+
+        Alors on disait parmi les nations :
+        « Quelles merveilles fait pour eux le Seigneur ! »
+        Quelles merveilles le Seigneur fit pour nous :
+        nous étions en grande fête !
+
+        Ramène, Seigneur, nos captifs,
+        comme les torrents au désert.
+        Qui sème dans les larmes
+        moissonne dans la joie.
+
+        Il s’en va, il s’en va en pleurant,
+        il jette la semence ;
+        il s’en vient, il s’en vient dans la joie,
+        il rapporte les gerbes.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 18-21
+      headline: |-
+        « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Si le monde a de la haine contre vous,
+        >sachez qu’il en a eu d’abord contre moi.
+        Si vous apparteniez au monde,
+        >le monde aimerait ce qui est à lui.
+        Mais vous n’appartenez pas au monde,
+        >puisque je vous ai choisis en vous prenant dans le monde ;
+        >voilà pourquoi le monde a de la haine contre vous.
+        Rappelez-vous la parole que je vous ai dite :
+        >un serviteur n’est pas plus grand que son maître.
+        Si l’on m’a persécuté,
+        >on vous persécutera, vous aussi.
+        Si l’on a gardé ma parole,
+        >on gardera aussi la vôtre.
+        Les gens vous traiteront ainsi à cause de mon nom,
+        >parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+  offeringPrayer:
+  - |-
+    Seigneur, nous t’offrons ce sacrifice
+    pour fêter la mémoire du bienheureux Jacques-Jules Bonnaud
+    >et ses compagnons,
+    eux que les épreuves ne purent arracher
+    >à l’unité de l’Église.
+  communionAntiphon:
+  - biblicalReference: Jn 15, 5
+    content: |-
+      « Je suis la vigne et vous êtes les sarments,
+      dit le Seigneur.
+      Celui qui demeure en moi et en qui je demeure,
+      celui-là donne beaucoup de fruit. »
+  prayerAfterCommunion:
+  - |-
+    Entretiens en nous, Seigneur,
+    >e don que nous avons reçu de ta bonté
+    en la fête du bienheureux Jacques-Jules Bonnaud et ses compagnons,
+    que cette eucharistie serve à notre guérison
+    >et nous apporte la paix.
+    Par le Christ, notre Seigneur.

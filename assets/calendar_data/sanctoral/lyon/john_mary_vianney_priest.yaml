@@ -36,7 +36,13 @@ readings:
 
 mass:
 - massType: DAY_MASS
-  entranceAntiphon: null
+  entranceAntiphon:
+  - biblicalReference: Ga 6, 14
+    content: |-
+      Que la croix de notre Seigneur Jésus-Christ
+      >soit ma seule fierté :
+      par elle, le monde est à jamais crucifié pour moi,
+      >et moi pour le monde
   collect:
   - |-
     Dieu de puissance et de miséricorde, +
@@ -127,6 +133,29 @@ mass:
         Alors Jésus appela ses douze disciples
         >et leur donna le pouvoir d’expulser les esprits impurs
         >et de guérir toute maladie et toute infirmité.
-  offeringPrayer: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Que descende sur cette offrande sainte,
+    Dieu éternel et tout puissant
+    >la plénitude invisible de l’Esprit ;
+    Donne-nous, à la prière de saint Jean-Marie Vianney,
+    d’approcher toujours de ce grand mystère
+    >avec un corps chaste et un cœur pur.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Col 1, 24-25
+    content: |-
+      Je trouve la joie dans les souffrances que je supporte pour vous,
+      car ce qu’il reste à souffrir des épreuves du Christ,
+      >je l’accomplis dans ma propre chair,
+      >pour son corps qui est l’Église.
+  prayerAfterCommunion:
+  - |-
+    Fortifiés par le pain du ciel,
+    nous te supplions Seigneur :
+    grâce à cette nourriture
+    saint Jean-Marie Vianney endurait sans faiblir
+    >toutes les contradictions :
+    puissions-nous, par ses mérites et comme lui,
+    >progresser de jour en jour et parvenir enfin jusqu’à toi.
+    Par le Christ, notre Seigneur.

@@ -135,3 +135,220 @@ vespers:
     common:
       - |-
         Réjouis-toi Marie ; le Seigneur est avec toi ; tu es bénie entre toutes les femmes, et le fruit de tes entrailles est béni, alléluia.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Is 61, 10
+    content: |-
+      Je tressaille de joie dans le Seigneur,
+      mon âme exulte en mon Dieu.
+      Car il m’a enveloppée du manteau de l’innocence,
+      et m’a fait revêtir les vêtements du salut,
+      comme une épouse parée de ses bijoux.
+  collect:
+  - |-
+    Seigneur, tu as préparé à ton Fils
+    >une demeure digne de lui
+    >par la conception immaculée de la Vierge ;
+    Puisque tu l’as préservée de tout péché
+    >par une grâce venant déjà de la mort de ton Fils,
+    accorde-nous, à l’intercession de cette Mère très pure,
+    >de parvenir jusqu’à toi,
+    >purifiés, nous aussi, de tout mal.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Mi 5, 1-4a
+      headline: |-
+        « Celle qui doit enfanter »
+      content: |-
+        Ainsi parle le Seigneur :
+        Toi, Bethléem Éphrata,
+        >le plus petit des clans de Juda,
+        c’est de toi que sortira pour moi
+        >celui qui doit gouverner Israël.
+        Ses origines remontent aux temps anciens,
+        >aux jours d’autrefois.
+        Mais Dieu livrera son peuple
+        >jusqu’au jour où enfantera...
+        celle qui doit enfanter,
+        et ceux de ses frères qui resteront
+        >rejoindront les fils d’Israël.
+        Il se dressera et il sera leur berger
+        >par la puissance du Seigneur,
+        >par la majesté du nom du Seigneur, son Dieu.
+        Ils habiteront en sécurité,
+        >car désormais il sera grand jusqu’aux lointains de la terre,
+        >et lui-même, il sera la paix !
+    - biblicalRef: Ep 1, 3-6.11-12
+      headline: |-
+        « Dieu nous a choisis, dans le Christ, avant la fondation du monde »
+      content: |-
+        Béni soit Dieu, le Père
+        de notre Seigneur Jésus Christ !
+        Il nous a bénis et comblés
+        >des bénédictions de l’Esprit,
+        au ciel, dans le Christ.
+        Il nous a choisis, dans le Christ,
+        >avant la fondation du monde,
+        pour que nous soyons saints, immaculés
+        >devant lui, dans l’amour.
+        Il nous a prédestinés
+        >à être, pour lui, des fils adoptifs
+        par Jésus, le Christ.
+        Ainsi l’a voulu sa bonté,
+        à la louange de gloire de sa grâce,
+        la grâce qu’il nous donne
+        >dans le Fils bien-aimé.
+        En lui, nous sommes devenus
+        >le domaine particulier de Dieu,
+        nous y avons été prédestinés
+        >selon le projet de celui qui réalise tout ce qu’il a décidé :
+        il a voulu que nous vivions
+        >à la louange de sa gloire,
+        nous qui avons d’avance espéré dans le Christ.
+  - partType: CANTICLE
+    partContents:
+    - biblicalRef: Is 61, 10abcd, 11 ; 62, 1, 2, 3
+      refAbbr: Is 61-62
+      chorus:
+      - chorusRef: cf. 33, 5b
+        chorus: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je tressaille de joie dans le Seigneur,
+        mon âme exulte en mon Dieu.
+        Car il m’a vêtue des vêtements du salut,
+        il m’a couverte du manteau de la justice.
+        
+        Comme la terre fait éclore son germe,
+        et le jardin, germer ses semences,
+        le Seigneur Dieu fera germer la justice
+        et la louange devant toutes les nations.
+
+        Pour la cause de Sion, je ne me tairai pas,
+        et pour Jérusalem, je n’aurai de cesse
+        que sa justice ne paraisse dans la clarté,
+        et son salut comme une torche qui brûle.
+        
+        Et les nations verront ta justice ;
+        tous les rois verront ta gloire.
+        On te nommera d’un nom nouveau
+        que la bouche du Seigneur dictera.
+        
+        Tu seras une couronne brillante
+        dans la main du Seigneur,
+        un diadème royal
+        entre les doigts de ton Dieu.
+  - partType: READING_2
+    partContents:
+    - biblicalRef: Ep 1, 3-6.11-12
+      headline: |-
+        « Dieu nous a choisis, dans le Christ, avant la fondation du monde »
+      content: |-
+        Béni soit Dieu, le Père
+        de notre Seigneur Jésus Christ !
+        Il nous a bénis et comblés
+        >des bénédictions de l’Esprit,
+        au ciel, dans le Christ.
+        Il nous a choisis, dans le Christ,
+        >avant la fondation du monde,
+        pour que nous soyons saints, immaculés
+        >devant lui, dans l’amour.
+        Il nous a prédestinés
+        >à être, pour lui, des fils adoptifs
+        par Jésus, le Christ.
+        Ainsi l’a voulu sa bonté,
+        à la louange de gloire de sa grâce,
+        la grâce qu’il nous donne
+        >dans le Fils bien-aimé.
+        En lui, nous sommes devenus
+        >le domaine particulier de Dieu,
+        nous y avons été prédestinés
+        >selon le projet de celui qui réalise tout ce qu’il a décidé :
+        il a voulu que nous vivions
+        >à la louange de sa gloire,
+        nous qui avons d’avance espéré dans le Christ.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 26-38
+      headline: |-
+        « Voici que tu vas concevoir et enfanter un fils »
+      acclamationAntiphon: |-
+        Je te salue, Marie, Comblée-de-grâce :
+        le Seigneur est avec toi,
+        tu es bénie entre les femmes.
+      content: |-
+        En ce temps-là,
+        l’ange Gabriel fut envoyé par Dieu
+        >dans une ville de Galilée, appelée Nazareth,
+        à une jeune fille vierge,
+        >accordée en mariage à un homme de la maison de David,
+        >appelé Joseph ;
+        et le nom de la jeune fille était Marie.
+        L’ange entra chez elle et dit :
+        >« Je te salue, Comblée-de-grâce,
+        >le Seigneur est avec toi. »
+        À cette parole, elle fut toute bouleversée,
+        >et elle se demandait ce que pouvait signifier cette salutation.
+        L’ange lui dit alors :
+        >« Sois sans crainte, Marie,
+        >car tu as trouvé grâce auprès de Dieu.
+        Voici que tu vas concevoir et enfanter un fils ;
+        >tu lui donneras le nom de Jésus.
+        Il sera grand,
+        >il sera appelé Fils du Très-Haut ;
+        >le Seigneur Dieu
+        >lui donnera le trône de David son père ;
+        >il régnera pour toujours sur la maison de Jacob,
+        >et son règne n’aura pas de fin. »
+        Marie dit à l’ange :
+        >« Comment cela va-t-il se faire,
+        >puisque je ne connais pas d’homme ? »
+        L’ange lui répondit :
+        >« L’Esprit Saint viendra sur toi,
+        >et la puissance du Très-Haut
+        >te prendra sous son ombre ;
+        >c’est pourquoi celui qui va naître sera saint,
+        >il sera appelé Fils de Dieu.
+        Or voici que, dans sa vieillesse, Élisabeth, ta parente,
+        >a conçu, elle aussi, un fils
+        >et en est à son sixième mois,
+        >alors qu’on l’appelait la femme stérile.
+        Car rien n’est impossible à Dieu. »
+        Marie dit alors :
+        >« Voici la servante du Seigneur ;
+        >que tout m’advienne selon ta parole. »
+        Alors l’ange la quitta.
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, le sacrifice du salut
+    que nous t’offrons en ce jour
+    >où nous faisons mémoire de la conception immaculée de Marie ;
+    Puisque nous reconnaissons que la prévenance de ta grâce
+    >l’a préservée de tout péché,
+    accorde-nous, à son intercession,
+    >d’être libérés de toute faute.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - the_blessed_virgin_mary_1
+  - the_blessed_virgin_mary_2
+  communionAntiphon:
+  - biblicalReference: Ps 86, 3
+    content: |-
+      Nous célébrons les merveilles
+      que le Seigneur a faites pour la Vierge Marie :
+      par elle nous est venu le Soleil de justice,
+      le Christ, notre Dieu, alléluia.
+  prayerAfterCommunion:
+  - |-
+    Que cette communion, Seigneur notre Dieu,
+    >guérisse en nous les blessures de la faute originelle,
+    >dont tu as préservé la Vierge Marie
+    grâce au privilège de sa conception immaculée.
+    Par le Christ, notre Seigneur.

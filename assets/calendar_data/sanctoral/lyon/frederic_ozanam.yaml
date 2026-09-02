@@ -3,7 +3,7 @@ celebration:
   subtitle: évêque
   description: Né à Milan le 23 avril 1813, Frédéric Ozanam fit des études de droit à Paris. En 1833, il fonda, avec quelques amis, une société vouée au soulagement des pauvres, placée sous le patronage de saint Vincent de Paul. Il fut aidé dans sa tâche par sainte Rosalie Rendu, des Filles de la Charité. En 1839, il obtint son doctorat ès lettres, puis l’agrégation. Il se maria en 1841. Homme d’une érudition et d’une piété remarquables, il mit sa science éminente au service de la défense et de la propagation de la foi, montra aux pauvres une charité assidue dans la Société de Saint-Vincent de Paul et, père exemplaire, fit de sa famille une Église domestique. Il mourut à Marseille en 1853.
   commons:
-    - pastors
+    - saints-male_caritative
   locative: à Lyon
   color: white
 
@@ -27,3 +27,133 @@ readings:
 
         Aimons-nous les uns les autres
         puisque l’amour est de Dieu.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon: null
+  collect:
+  - |-
+    Dieu, tu as suscité le bienheureux Frédéric Ozanam,
+    >comme témoin de la vérité et de la charité
+    pour promouvoir dans le monde et dans l’Église
+    >des laïcs en vue d’assister les pauvres ;
+    Accorde-nous de suivre, à son exemple,
+    >ton commandement d’amour
+    pour être un ferment de justice et de miséricorde
+    >sur les chemins de notre vie.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Si 4, 1-10
+      headline: null
+      content: |-
+        Mon fils, ne retire pas au pauvre ce qu’il lui faut pour vivre,
+        >ne fais pas attendre le regard d’un indigent.
+        Ne fais pas souffrir un affamé,
+        >n’exaspère pas un homme qui est dans la misère.
+        N’ajoute pas au trouble d’un cœur irrité,
+        >ne fais pas attendre ton aumône à celui qui en a besoin.
+        Ne repousse pas celui qui supplie dans la détresse,
+        >ne détourne pas du pauvre ton visage.
+        Ne détourne pas du miséreux ton regard,
+        >ne donne pas à un homme l’occasion de te maudire.
+        Car s’il te maudit dans l’amertume de son âme,
+        >celui qui l’a créé entendra sa prière.
+        Rends-toi aimable à toute l’assemblée,
+        >et baisse la tête devant celui qui commande.
+        Penche l’oreille vers le pauvre,
+        >et réponds avec douceur à son salut de paix.
+        Délivre l’opprimé du pouvoir de l’oppresseur,
+        >et ne sois pas timide quand tu rends la justice.
+        Sois comme un père pour les orphelins,
+        >et pour leur mère sois comme un mari.
+        Alors tu seras comme un fils du Très-Haut,
+        >il t’aimera plus que ta propre mère.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 71 (72), 1-2, 7-8, 12-13, 17
+      refAbbr: 71, 1…
+      chorus:
+      - chorusRef: 71, 12
+        chorus: |-
+          Il délivrera le pauvre qui appelle
+          et le malheureux sans recours.
+      content: |-
+        Dieu, donne au roi tes pouvoirs,
+        à ce fils de roi ta justice.
+        Qu’il gouverne ton peuple avec justice,
+        qu’il fasse droit aux malheureux !
+
+        En ces jours-là, fleurira la justice,
+        grande paix jusqu’à la fin des lunes !
+        Qu’il domine de la mer à la mer,
+        et du Fleuve jusqu’au bout de la terre !
+
+        Il délivrera le pauvre qui appelle
+        et le malheureux sans recours.
+        Il aura souci du faible et du pauvre,
+        du pauvre dont il sauve la vie.
+
+        Que son nom dure toujours ;
+        sous le soleil, que subsiste son nom !
+        En lui, que soient bénies toutes les familles de la terre ;
+        que tous les pays le disent bienheureux !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 10, 25-37
+      headline: |-
+        « Qui est mon prochain ? »
+      acclamationAntiphon: |-
+        Tes paroles, Seigneur,
+        sont esprit et elles sont vie.
+        Tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+         un docteur de la Loi se leva
+        et mit Jésus à l’épreuve en disant :
+        « Maître, que dois-je faire
+        pour avoir en héritage la vie éternelle ? »
+         Jésus lui demanda :
+        « Dans la Loi, qu’y a-t-il d’écrit ?
+        Et comment lis-tu ? »
+         L’autre répondit :
+        « %Tu aimeras le Seigneur ton Dieu
+        de tout ton cœur, de toute ton âme,
+        de toute ta force et de toute ton intelligence,
+        et ton prochain comme toi-même.% »
+         Jésus lui dit :
+        « Tu as répondu correctement.
+        Fais ainsi et tu vivras. »
+         Mais lui, voulant se justifier,
+        dit à Jésus :
+        « Et qui est mon prochain ? »
+         Jésus reprit la parole :
+        « Un homme descendait de Jérusalem à Jéricho,
+        et il tomba sur des bandits ;
+        ceux-ci, après l’avoir dépouillé et roué de coups,
+        s’en allèrent, le laissant à moitié mort.
+         Par hasard, un prêtre descendait par ce chemin ;
+        il le vit et passa de l’autre côté.
+         De même un lévite arriva à cet endroit ;
+        il le vit et passa de l’autre côté.
+         Mais un Samaritain, qui était en route, arriva près de lui ;
+        il le vit et fut saisi de compassion.
+         Il s’approcha, et pansa ses blessures
+        en y versant de l’huile et du vin ;
+        puis il le chargea sur sa propre monture,
+        le conduisit dans une auberge
+        et prit soin de lui.
+         Le lendemain, il sortit deux pièces d’argent,
+        et les donna à l’aubergiste, en lui disant :
+        ‘Prends soin de lui ;
+        tout ce que tu auras dépensé en plus,
+        je te le rendrai quand je repasserai.’
+         Lequel des trois, à ton avis, a été le prochain
+        de l’homme tombé aux mains des bandits ? »
+         Le docteur de la Loi répondit :
+        « Celui qui a fait preuve de pitié envers lui. »
+        Jésus lui dit :
+        « Va, et toi aussi, fais de même. »

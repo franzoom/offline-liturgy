@@ -379,28 +379,56 @@ class Mass {
     prayerAfterCommunion ??= sunday.prayerAfterCommunion;
   }
 
-  /// Selective overlay for Common of Saints Mass texts (no such data exists
-  /// yet, added for parity with the other office classes' overlayWithCommon).
-  /// readingParts is NOT taken from the common — same rationale as
-  /// Readings.overlayWithCommon: the ferial/proper Liturgy of the Word is
-  /// kept unless the celebration's own YAML supplies it.
-  void overlayWithCommon(Mass common) {
-    if (common.entranceAntiphon != null)
-      entranceAntiphon = common.entranceAntiphon;
-    if (common.collect != null) collect = common.collect;
-    if (common.offeringPrayer != null) offeringPrayer = common.offeringPrayer;
-    if (common.prefaceList != null) prefaceList = common.prefaceList;
-    if (common.communionAntiphon != null)
-      communionAntiphon = common.communionAntiphon;
-    if (common.prayerAfterCommunion != null)
-      prayerAfterCommunion = common.prayerAfterCommunion;
-    if (common.prayerOnThePeople != null)
-      prayerOnThePeople = common.prayerOnThePeople;
-    if (common.solemnBlessingList != null)
-      solemnBlessingList = common.solemnBlessingList;
-    if (common.sequence != null) sequence = common.sequence;
-    if (common.eucharisticPrayerCommunicantes != null)
-      eucharisticPrayerCommunicantes = common.eucharisticPrayerCommunicantes;
+  /// Selective overlay of just the prayer-related texts (antiphons,
+  /// orations, prefaces...) — never readingParts, which is always governed
+  /// separately (the ferial/proper Liturgy of the Word, or a memorial's own
+  /// via useProperReadingsForMemorial). Two call sites reuse this: applying
+  /// a selected Common (any precedence), and applying a memorial's own
+  /// proper texts on top of it (precedence > 5) — see massExport.
+  void overlayPrayerFields(Mass source) {
+    if (source.entranceAntiphon != null)
+      entranceAntiphon = source.entranceAntiphon;
+    if (source.collect != null) collect = source.collect;
+    if (source.offeringPrayer != null) offeringPrayer = source.offeringPrayer;
+    if (source.prefaceList != null) prefaceList = source.prefaceList;
+    if (source.communionAntiphon != null)
+      communionAntiphon = source.communionAntiphon;
+    if (source.prayerAfterCommunion != null)
+      prayerAfterCommunion = source.prayerAfterCommunion;
+    if (source.prayerOnThePeople != null)
+      prayerOnThePeople = source.prayerOnThePeople;
+    if (source.solemnBlessingList != null)
+      solemnBlessingList = source.solemnBlessingList;
+    if (source.sequence != null) sequence = source.sequence;
+    if (source.eucharisticPrayerCommunicantes != null)
+      eucharisticPrayerCommunicantes = source.eucharisticPrayerCommunicantes;
+  }
+
+  /// Fills only the missing readingPart types (e.g. no proper PSALM of its
+  /// own) from [common], restricted to [requiredPartTypes] — never replaces
+  /// a partType this Mass already supplies. Used when a memorial opts into
+  /// "the feast's own readings": the proper's readingParts apply first
+  /// (wholesale, see massExport), then this fills whichever part types the
+  /// proper didn't cover from the selected Common.
+  ///
+  /// Safe specifically for Common-of-Saints data: unlike overlayWith's
+  /// wholesale readingParts replacement (needed because Sundays/the Easter
+  /// Vigil can have several entries sharing the same partType, where a
+  /// partType-keyed merge would silently collapse them), a common's mass:
+  /// block is always a simple one-entry-per-partType formulary, so merging
+  /// by partType key here can't lose data. Do not reuse this for anything
+  /// else without re-checking that assumption.
+  void fillMissingReadingPartsFromCommon(
+      Mass common, List<String> requiredPartTypes) {
+    final commonParts = common.readingParts;
+    if (commonParts == null || commonParts.isEmpty) return;
+    final ownParts = readingParts ??= [];
+    final ownPartTypes = ownParts.map((p) => p.partType).toSet();
+    for (final partType in requiredPartTypes) {
+      if (ownPartTypes.contains(partType)) continue;
+      final index = commonParts.indexWhere((p) => p.partType == partType);
+      if (index >= 0) ownParts.add(commonParts[index]);
+    }
   }
 
   bool get isEmpty =>
@@ -452,18 +480,19 @@ class Masses {
     }
   }
 
-  /// Selective overlay for Common of Saints Mass texts: only enriches
-  /// massTypes already selected for the day, it never introduces a new
-  /// mass type from the common.
-  void overlayWithCommon(Masses common) {
-    if (common.masses == null || common.masses!.isEmpty || masses == null) {
+  /// Selective overlay of just the prayer-related texts — only enriches
+  /// massTypes already selected for the day, it never introduces a new mass
+  /// type. See Mass.overlayPrayerFields for the two call sites that reuse
+  /// this (applying a Common, or a memorial's own proper texts).
+  void overlayPrayerFields(Masses source) {
+    if (source.masses == null || source.masses!.isEmpty || masses == null) {
       return;
     }
-    for (final commonMass in common.masses!) {
+    for (final sourceMass in source.masses!) {
       final index =
-          masses!.indexWhere((m) => m.massType == commonMass.massType);
+          masses!.indexWhere((m) => m.massType == sourceMass.massType);
       if (index >= 0) {
-        masses![index].overlayWithCommon(commonMass);
+        masses![index].overlayPrayerFields(sourceMass);
       }
     }
   }

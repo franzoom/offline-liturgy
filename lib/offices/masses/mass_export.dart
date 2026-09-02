@@ -9,49 +9,84 @@ import './mass_extract.dart';
 
 /// Resolves the full Mass content for one specific (celebration, massName)
 /// pair, as detected by [massDetection]. Mirrors the readingsExport pipeline
-/// (ferial base -> proper overlay -> common overlay -> proper overlay again),
-/// then selects the Mass matching context.massName and filters its
-/// readingParts down to the applicable lectionary cycle for the date. See
-/// STEP 5b for how a memorial/commemoration may opt into its own proper
-/// readingParts via context.useProperReadingsForMemorial.
+/// (ferial base -> common overlay -> proper overlay), then selects the Mass
+/// matching context.massName and filters its readingParts down to the
+/// applicable lectionary cycle for the date.
+///
+/// Three cases:
+///  - the ferial day is celebrated: celebrationCode == ferialCode, nothing
+///    proper/common ever loads.
+///  - a Feast/Solemnity (precedence <= 5) is celebrated: its own proper
+///    Mass — readingParts included — always applies wholesale (STEP 4);
+///    there is no "day's readings" alternative for a Solemnity.
+///  - a memorial/commemoration (precedence > 5) is celebrated: its own
+///    proper prayer texts (collect, antiphons...) always apply (STEP 4),
+///    applied after the Common (STEP 3) so the saint's own texts win over
+///    the Common's generic ones whenever present — there is no "no prayer
+///    texts" state once the memorial is selected. readingParts stay the
+///    day's by default; if the reader opts into "the feast's own readings"
+///    (context.useProperReadingsForMemorial), the proper's readingParts
+///    apply wholesale where it has any, and whichever readingPart types
+///    are still missing (partial proper, or none at all) are filled in,
+///    type by type, from the selected Common — see STEP 5b.
 Future<Mass> massExport(CelebrationContext context) async {
   Masses massesOffice = Masses();
 
   final int prec = context.precedence ?? 13;
-  final bool isMemory = prec > 8;
 
   // STEP 1: Load ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {
     massesOffice = await ferialMassResolution(context);
   }
 
-  // STEP 2: Load proper celebration data — needed when it will be applied
-  // wholesale (Feasts/Solemnities, STEP 4) or when a memorial/commemoration
-  // asks for its own readingParts as an alternative to the day's (STEP 5b).
+  // Snapshot: the ferial day's own readingPart types for this massName —
+  // the canonical set of "what a complete Mass needs" (STEP 5b), captured
+  // before any proper/common overlay can change what's selected.
+  final List<String> requiredPartTypes = (massesOffice.masses ?? [])
+          .firstWhere(
+            (m) => m.name == context.massName,
+            orElse: () => Mass(),
+          )
+          .readingParts
+          ?.map((p) => p.partType)
+          .toList() ??
+      [];
+
+  // STEP 2: Load the celebration's own proper Mass file whenever
+  // celebrating the saint — needed for its prayer texts (any precedence,
+  // STEP 4) and/or its own readingParts (Feasts/Solemnities always;
+  // memorials only if the reader opts in, STEP 5b).
   Masses properMasses = Masses();
-  final bool needsProperMasses = context.celebrationCode != context.ferialCode &&
-      (prec <= 5 || context.useProperReadingsForMemorial);
-  if (needsProperMasses) {
+  if (context.celebrationCode != context.ferialCode) {
     properMasses = await _loadProperMasses(context);
   }
 
-  // STEP 3: Handle commons
+  // STEP 3: Handle commons — same precedence boundary as STEP 4 below, so
+  // a memorial's Common never leaks its readingParts in unconditionally
+  // (only STEP 5b's explicit opt-in may add readings from the Common).
   final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
+  Masses commonMasses = Masses();
   if (hasCommon) {
-    Masses commonMasses = await loadMassHierarchicalCommon(context);
-    if (isMemory) {
-      massesOffice.overlayWithCommon(commonMasses);
-    } else {
+    commonMasses = await loadMassHierarchicalCommon(context);
+    if (prec <= 5) {
       massesOffice.overlayWith(commonMasses);
+    } else {
+      massesOffice.overlayPrayerFields(commonMasses);
     }
   }
 
-  // STEP 4: Apply proper data — only for Feasts and Solemnities (precedence
-  // <= 5). Memorials, commemorations and ferial days keep the ferial Mass
-  // texts (the celebration's proper collect may still reach them via the
-  // Common overlay in STEP 3); see STEP 5b for their readingParts.
+  // STEP 4: Apply proper data.
+  //  - Feasts/Solemnities (precedence <= 5): the proper Mass replaces
+  //    everything wholesale, readingParts included (unchanged — there is no
+  //    "day's readings" concept for a Solemnity).
+  //  - Memorials/commemorations (precedence > 5): only the proper's prayer
+  //    texts apply, layered after the Common above so the saint's own
+  //    texts always win over the Common's generic ones when present.
+  //    readingParts stay governed separately — see STEP 5b.
   if (prec <= 5) {
     massesOffice.overlayWith(properMasses);
+  } else {
+    massesOffice.overlayPrayerFields(properMasses);
   }
 
   // STEP 5: Select the Mass matching this context's massName
@@ -64,10 +99,14 @@ Future<Mass> massExport(CelebrationContext context) async {
         );
 
   // STEP 5b: For a memorial/commemoration (precedence > 5) that asked for
-  // its own proper readingParts (useProperReadingsForMemorial) and actually
-  // has some, swap them in — everything else (collect, antiphons,
-  // prefaces...) stays exactly as resolved above. Feasts/Solemnities are
-  // untouched here: STEP 4 already forced their readingParts unconditionally.
+  // "the feast's own readings" (useProperReadingsForMemorial): the proper's
+  // readingParts apply wholesale where it has any (everything else —
+  // collect, antiphons, prefaces... — stays exactly as resolved above);
+  // whichever readingPart types are still missing against the day's own
+  // set (requiredPartTypes) — because the proper had none at all, or only
+  // some — are then filled in, type by type, from the selected Common.
+  // Feasts/Solemnities are untouched here: STEP 4 already forced their
+  // readingParts unconditionally.
   if (prec > 5 && context.useProperReadingsForMemorial) {
     final properMassList = properMasses.masses ?? [];
     final Mass? properSelected = properMassList.isEmpty
@@ -76,8 +115,20 @@ Future<Mass> massExport(CelebrationContext context) async {
             (m) => m.name == context.massName,
             orElse: () => properMassList.first,
           );
-    if (properSelected?.readingParts?.isNotEmpty ?? false) {
-      selected.readingParts = properSelected!.readingParts;
+    selected.readingParts = (properSelected?.readingParts?.isNotEmpty ?? false)
+        ? properSelected!.readingParts
+        : null; // clear the day's readingParts so the Common gap-fill
+    // below has room — the day's own readings must not silently
+    // count as "already present" once the feast's own are requested.
+
+    if (hasCommon) {
+      final commonMassList = commonMasses.masses ?? [];
+      final commonIndex =
+          commonMassList.indexWhere((m) => m.massType == selected.massType);
+      if (commonIndex >= 0) {
+        selected.fillMissingReadingPartsFromCommon(
+            commonMassList[commonIndex], requiredPartTypes);
+      }
     }
   }
 
@@ -86,8 +137,9 @@ Future<Mass> massExport(CelebrationContext context) async {
   // Entries without a cycle tag (e.g. the weekday Gospel) are always kept.
   final int? year = context.liturgicalYear;
   if (year != null) {
-    final String cycleKey =
-        context.date.isSunday ? liturgicalYear(year) : weekdayLectionaryYear(year);
+    final String cycleKey = context.date.isSunday
+        ? liturgicalYear(year)
+        : weekdayLectionaryYear(year);
     _filterMassByCycle(selected, cycleKey);
   }
 

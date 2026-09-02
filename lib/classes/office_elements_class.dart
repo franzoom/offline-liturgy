@@ -65,7 +65,9 @@ class Invitatory {
 Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
   if (value == null) return null;
   if (value is String) {
-    return {'antiphon': [value]};
+    return {
+      'antiphon': [value]
+    };
   }
   if (value is List) {
     final list = value.whereType<String>().toList();
@@ -242,7 +244,8 @@ class CelebrationContext {
       celebrationDescription; // description of the celebration from YAML
   final Map<String, String> commonTitles; // code -> display title for commons
   final String? massName; // name of the Mass (e.g. "Messe du jour"), mass only
-  final bool showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
+  final bool
+      showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
   // Location that added this feast; null = Roman calendar
   final LocationOrigin? celebrationOrigin;
   final String? svgSource; // URL or path to the SVG psalm score source
@@ -250,17 +253,21 @@ class CelebrationContext {
   // cycles, from DayContent.liturgicalYear — already accounts for the
   // Advent shift (e.g. Advent 2026 carries liturgicalYear 2027).
   final int? liturgicalYear;
-  // Whether this celebration's own proper Mass file declares readingParts
-  // — mass only, set by massDetection. A memorial always uses the day's
-  // readings by default (see useProperReadingsForMemorial); this tells the
-  // UI whether offering the memorial's own readings as an alternative is
-  // even possible.
-  final bool hasProperReadingParts;
+  // Whether "the feast's own readings" (as opposed to the day's) would
+  // have anything to offer for this celebration — proper if it declares
+  // readingParts, or the selected Common otherwise (a Common can supply
+  // readingParts too, inherited from a more general level of its
+  // hierarchy) — mass only, set by massDetection. A memorial always uses
+  // the day's readings by default (see useProperReadingsForMemorial); this
+  // tells the UI whether offering the feast's readings as an alternative
+  // is even possible.
+  final bool hasFeastReadingParts;
   // Mass only. When this celebration is a memorial/commemoration
-  // (precedence > 5) and hasProperReadingParts is true, selects the
-  // memorial's own readingParts instead of the day's — see massExport.
-  // Has no effect for a Feast/Solemnity (precedence <= 5), which always
-  // use their own proper readingParts regardless of this flag.
+  // (precedence > 5) and hasFeastReadingParts is true, selects the feast's
+  // own readingParts (proper, gap-filled from the Common) instead of the
+  // day's — see massExport. Has no effect for a Feast/Solemnity
+  // (precedence <= 5), which always use their own proper readingParts
+  // regardless of this flag.
   final bool useProperReadingsForMemorial;
 
   const CelebrationContext({
@@ -286,7 +293,7 @@ class CelebrationContext {
     this.celebrationOrigin,
     this.svgSource,
     this.liturgicalYear,
-    this.hasProperReadingParts = false,
+    this.hasFeastReadingParts = false,
     this.useProperReadingsForMemorial = false,
   });
 
@@ -309,7 +316,8 @@ class CelebrationContext {
   /// origin when the feast comes from a location-specific calendar.
   /// e.g. "(Europe : solennité)" or "(Solennité)" or "".
   String get celebrationDisplayLabel {
-    if (celebrationCode == 'commemoration_of_all_the_faithful_departed') return '';
+    if (celebrationCode == 'commemoration_of_all_the_faithful_departed')
+      return '';
     final baseLabel = getCelebrationTypeLabel(precedence ?? 13);
     final origin = celebrationOrigin;
     if (baseLabel.isEmpty || origin == null) return baseLabel;
@@ -342,7 +350,7 @@ class CelebrationContext {
     LocationOrigin? celebrationOrigin,
     String? svgSource,
     int? liturgicalYear,
-    bool? hasProperReadingParts,
+    bool? hasFeastReadingParts,
     bool? useProperReadingsForMemorial,
   }) {
     return CelebrationContext(
@@ -371,8 +379,7 @@ class CelebrationContext {
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
       svgSource: svgSource ?? this.svgSource,
       liturgicalYear: liturgicalYear ?? this.liturgicalYear,
-      hasProperReadingParts:
-          hasProperReadingParts ?? this.hasProperReadingParts,
+      hasFeastReadingParts: hasFeastReadingParts ?? this.hasFeastReadingParts,
       useProperReadingsForMemorial:
           useProperReadingsForMemorial ?? this.useProperReadingsForMemorial,
     );

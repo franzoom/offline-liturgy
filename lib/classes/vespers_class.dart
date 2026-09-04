@@ -65,27 +65,7 @@ class Vespers {
     if (overlay.invitatory != null) invitatory = overlay.invitatory;
     if (overlay.hymn != null) hymn = overlay.hymn;
 
-    if (overlay.psalmody != null && overlay.psalmody!.isNotEmpty) {
-      if (psalmody != null && psalmody!.isNotEmpty) {
-        List<PsalmEntry> merged = [];
-        for (int i = 0; i < overlay.psalmody!.length; i++) {
-          final ov = overlay.psalmody![i];
-          if (ov.psalm != null) {
-            merged.add(ov);
-          } else if (i < psalmody!.length) {
-            merged.add(PsalmEntry(
-              psalm: psalmody![i].psalm,
-              antiphon: ov.antiphon ?? psalmody![i].antiphon,
-            ));
-          } else {
-            merged.add(ov);
-          }
-        }
-        psalmody = merged;
-      } else {
-        psalmody = overlay.psalmody;
-      }
-    }
+    psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
     if (overlay.reading != null) reading = overlay.reading;
     if (overlay.responsory != null) responsory = overlay.responsory;

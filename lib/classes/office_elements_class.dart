@@ -135,6 +135,31 @@ class PsalmEntry {
   }
 }
 
+/// Merges [overlay] onto [base], entry by entry: an overlay entry with its
+/// own `psalm` replaces the base entry outright; one without (antiphon-only)
+/// keeps the base's psalm and takes the overlay's antiphon if present, else
+/// the base's. Falls back to whichever side is non-empty when the other
+/// is null/empty.
+List<PsalmEntry>? mergePsalmody(List<PsalmEntry>? base, List<PsalmEntry>? overlay) {
+  if (overlay == null || overlay.isEmpty) return base;
+  if (base == null || base.isEmpty) return overlay;
+  final merged = <PsalmEntry>[];
+  for (int i = 0; i < overlay.length; i++) {
+    final entry = overlay[i];
+    if (entry.psalm != null) {
+      merged.add(entry);
+    } else if (i < base.length) {
+      merged.add(PsalmEntry(
+        psalm: base[i].psalm,
+        antiphon: entry.antiphon ?? base[i].antiphon,
+      ));
+    } else {
+      merged.add(entry);
+    }
+  }
+  return merged;
+}
+
 /// Hymn entry with code and resolved data
 class HymnEntry {
   final String code;

@@ -72,28 +72,7 @@ class Readings {
     if (overlay.celebration != null) celebration = overlay.celebration;
     if (overlay.hymn != null) hymn = overlay.hymn;
 
-    // Smart merge of psalmody
-    if (overlay.psalmody != null && overlay.psalmody!.isNotEmpty) {
-      if (psalmody != null && psalmody!.isNotEmpty) {
-        List<PsalmEntry> merged = [];
-        for (int i = 0; i < overlay.psalmody!.length; i++) {
-          final overlayEntry = overlay.psalmody![i];
-          if (overlayEntry.psalm != null) {
-            merged.add(overlayEntry);
-          } else if (i < psalmody!.length) {
-            merged.add(PsalmEntry(
-              psalm: psalmody![i].psalm,
-              antiphon: overlayEntry.antiphon ?? psalmody![i].antiphon,
-            ));
-          } else {
-            merged.add(overlayEntry);
-          }
-        }
-        psalmody = merged;
-      } else {
-        psalmody = overlay.psalmody;
-      }
-    }
+    psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
     if (overlay.biblicalReading != null)
       biblicalReading = overlay.biblicalReading;

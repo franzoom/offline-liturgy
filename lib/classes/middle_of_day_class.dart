@@ -59,27 +59,7 @@ class MiddleOfDay {
   void overlayWith(MiddleOfDay overlay) {
     if (overlay.celebration != null) celebration = overlay.celebration;
 
-    if (overlay.psalmody != null && overlay.psalmody!.isNotEmpty) {
-      if (psalmody != null && psalmody!.isNotEmpty) {
-        List<PsalmEntry> merged = [];
-        for (int i = 0; i < overlay.psalmody!.length; i++) {
-          final ov = overlay.psalmody![i];
-          if (ov.psalm != null) {
-            merged.add(ov);
-          } else if (i < psalmody!.length) {
-            merged.add(PsalmEntry(
-              psalm: psalmody![i].psalm,
-              antiphon: ov.antiphon ?? psalmody![i].antiphon,
-            ));
-          } else {
-            merged.add(ov);
-          }
-        }
-        psalmody = merged;
-      } else {
-        psalmody = overlay.psalmody;
-      }
-    }
+    psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
     if (overlay.hymnTierce != null) hymnTierce = overlay.hymnTierce;
     if (overlay.hymnSexte != null) hymnSexte = overlay.hymnSexte;

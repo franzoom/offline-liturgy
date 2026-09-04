@@ -38,7 +38,7 @@ class MiddleOfDay {
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
           : null,
-      psalmody: (data['psalmody'] as List?)
+      psalmody: asYamlList(data['psalmody'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),
@@ -51,7 +51,7 @@ class MiddleOfDay {
       none: data['none'] is Map<String, dynamic>
           ? HourOffice.fromJson(data['none'] as Map<String, dynamic>)
           : null,
-      oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
+      oration: asYamlList(data['oration'])?.map((e) => e.toString()).toList(),
     );
   }
 

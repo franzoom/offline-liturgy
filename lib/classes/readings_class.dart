@@ -47,8 +47,8 @@ class Readings {
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
           : null,
-      hymn: (data['hymn'] as List?)?.map((e) => HymnEntry.fromJson(e)).toList(),
-      psalmody: (data['psalmody'] as List?)
+      hymn: asYamlList(data['hymn'])?.map((e) => HymnEntry.fromJson(e)).toList(),
+      psalmody: asYamlList(data['psalmody'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),
@@ -60,7 +60,7 @@ class Readings {
               : data['patristicReading'],
           PatristicReading.fromJson),
       verse: data['verse']?.toString(),
-      oration: (data['oration'] as List?)?.map((e) => e.toString()).toList(),
+      oration: asYamlList(data['oration'])?.map((e) => e.toString()).toList(),
     );
   }
 

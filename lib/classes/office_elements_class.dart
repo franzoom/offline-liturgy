@@ -30,7 +30,7 @@ class Celebration {
       title: json['title']?.toString(),
       subtitle: json['subtitle']?.toString(),
       description: json['description']?.toString(),
-      commons: (json['commons'] as List?)?.map((e) => e.toString()).toList(),
+      commons: asYamlList(json['commons'])?.map((e) => e.toString()).toList(),
       precedence: json['precedence'] as int?,
       color: json['color']?.toString(),
     );
@@ -53,7 +53,7 @@ class Invitatory {
         String s => [s],
         _ => null,
       },
-      psalms: (json['psalms'] as List?)?.map((e) => e.toString()).toList(),
+      psalms: asYamlList(json['psalms'])?.map((e) => e.toString()).toList(),
     );
   }
 }
@@ -89,6 +89,15 @@ Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
   }
   return null;
 }
+
+/// Defensively coerces a YAML value into a list, wrapping a lone scalar into
+/// a single-element list so a malformed field (e.g. `commons: martyrs`
+/// instead of `commons: [martyrs]`) degrades gracefully instead of throwing.
+List<dynamic>? asYamlList(dynamic value) => switch (value) {
+      null => null,
+      List list => list,
+      _ => [value],
+    };
 
 /// Intercessions / Preces
 class Intercession {

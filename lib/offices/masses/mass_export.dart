@@ -44,7 +44,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   // before any proper/common overlay can change what's selected.
   final List<String> requiredPartTypes = (massesOffice.masses ?? [])
           .firstWhere(
-            (m) => m.name == context.massName,
+            (m) => m.massType == context.massName,
             orElse: () => Mass(),
           )
           .readingParts
@@ -94,7 +94,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   final Mass selected = masses.isEmpty
       ? Mass()
       : masses.firstWhere(
-          (m) => m.name == context.massName,
+          (m) => m.massType == context.massName,
           orElse: () => masses.first,
         );
 
@@ -112,7 +112,7 @@ Future<Mass> massExport(CelebrationContext context) async {
     final Mass? properSelected = properMassList.isEmpty
         ? null
         : properMassList.firstWhere(
-            (m) => m.name == context.massName,
+            (m) => m.massType == context.massName,
             orElse: () => properMassList.first,
           );
     selected.readingParts = (properSelected?.readingParts?.isNotEmpty ?? false)

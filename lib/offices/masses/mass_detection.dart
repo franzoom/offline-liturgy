@@ -89,7 +89,7 @@ Future<Map<String, CelebrationContext>> massDetection(
       possibleMasses[key] = c.copyWith(
         celebrationType: 'mass',
         officeDescription: description,
-        massName: mass.name,
+        massName: mass.massType,
         hasFeastReadingParts: hasFeastReadingParts,
       );
     }

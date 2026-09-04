@@ -243,7 +243,7 @@ class CelebrationContext {
   final String?
       celebrationDescription; // description of the celebration from YAML
   final Map<String, String> commonTitles; // code -> display title for commons
-  final String? massName; // name of the Mass (e.g. "Messe du jour"), mass only
+  final String? massName; // massType identifying which Mass of the day this is (e.g. "vigil", "day"), mass only
   final bool
       showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
   // Location that added this feast; null = Roman calendar

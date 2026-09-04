@@ -7,7 +7,9 @@ class HymnsLibrary {
   /// Content-addressed by code — not by which DataLoader instance fetched
   /// it, since a fresh loader is created per call in some consumers (e.g.
   /// Flutter) despite always resolving the same underlying asset source.
-  static final Map<String, Hymns> _cache = {};
+  /// Also memoizes misses (a null value with the key present) so a code
+  /// that doesn't resolve to a file isn't reloaded on every lookup.
+  static final Map<String, Hymns?> _cache = {};
 
   /// Private helper to transform YAML string into a Hymns instance.
   static Hymns? _parseHymn(String code, String content) {
@@ -38,17 +40,15 @@ class HymnsLibrary {
     String folder = 'hymns',
   }) async {
     final cacheKey = '$folder/$code';
-    final cached = _cache[cacheKey];
-    if (cached != null) return cached;
+    if (_cache.containsKey(cacheKey)) return _cache[cacheKey];
 
     try {
       final content = await dataLoader.loadYaml('$folder/$code.yaml');
-      final hymn = _parseHymn(cacheKey, content);
-      if (hymn != null) return _cache[cacheKey] = hymn;
+      return _cache[cacheKey] = _parseHymn(cacheKey, content);
     } catch (e) {
       print('❌ Error loading hymn $cacheKey: $e');
+      return _cache[cacheKey] = null;
     }
-    return null;
   }
 
   /// Gets multiple hymns by codes in parallel.

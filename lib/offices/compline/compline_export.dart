@@ -36,7 +36,8 @@ Future<Compline> complineExport(ComplineDefinition choice) async {
   // 3. Assign the evangelic canticle (Nunc Dimittis)
   compline.evangelicCanticle = nuncDimittis;
 
-  // 4. Apply paschal alléluia to evangelic antiphon
+  // 4. Apply paschal alléluia to psalm antiphons and evangelic antiphon
+  applyPaschalToPsalmody(compline.psalmody, choice.liturgicalTime);
   compline.evangelicAntiphon = applyPaschalToAntiphonMap(
       compline.evangelicAntiphon, choice.liturgicalTime);
 

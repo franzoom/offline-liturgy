@@ -30,7 +30,7 @@ Future<MiddleOfDay> middleOfDayExport(
   }
 
   // 3. Handle Commons and Overlays based on precedence
-  final bool isMemory = (celebrationContext.precedence ?? 13) > 6;
+  final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
   if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
     final MiddleOfDay commonMiddleOfDay =
         await loadMiddleOfDayHierarchicalCommon(celebrationContext);

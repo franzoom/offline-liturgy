@@ -31,7 +31,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   }
 
   // 3. Handle Commons and Overlays based on precedence
-  final bool isMemory = (celebrationContext.precedence ?? 13) > 8;
+  final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
   if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
     final Morning commonMorning =
         await loadMorningHierarchicalCommon(celebrationContext);

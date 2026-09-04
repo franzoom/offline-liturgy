@@ -35,8 +35,8 @@ class Compline {
   factory Compline.fromJson(Map<String, dynamic> data) {
     return Compline(
       commentary: data['commentary']?.toString(),
-      hymns: (data['hymns'] as List?)?.map((e) => HymnEntry.fromJson(e)).toList(),
-      psalmody: (data['psalmody'] as List?)
+      hymns: asYamlList(data['hymns'])?.map((e) => HymnEntry.fromJson(e)).toList(),
+      psalmody: asYamlList(data['psalmody'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),

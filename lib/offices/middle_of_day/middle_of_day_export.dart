@@ -5,7 +5,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_middle_of_day_resolution.dart';
 import './middle_of_day_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/constants.dart';
+import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
@@ -24,8 +24,10 @@ Future<MiddleOfDay> middleOfDayExport(
   // 2. Load Proper celebration data
   MiddleOfDay properMiddleOfDay = MiddleOfDay();
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
+    final filePath = await dirPathForCode(
+        celebrationContext.celebrationCode, celebrationContext.dataLoader);
     properMiddleOfDay = await middleOfDayExtract(
-        '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
+        '$filePath/${celebrationContext.celebrationCode}.yaml',
         celebrationContext.dataLoader);
   }
 

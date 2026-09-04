@@ -135,11 +135,13 @@ class Location {
         if (baseDate != null) {
           final shift = feast.shift ?? 0;
           final d = baseDate.shift(shift);
-          final key = prefixed(feast.key);
-          final storedKey = calendar.addItemRelatedToFeast(
-              baseDate, shift, feast.precedence!, key,
-              knownCodes: knownCodes);
-          calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
+          if (!d.isBefore(beginYear) && !d.isAfter(endYear)) {
+            final key = prefixed(feast.key);
+            final storedKey = calendar.addItemRelatedToFeast(
+                baseDate, shift, feast.precedence!, key,
+                knownCodes: knownCodes);
+            calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
+          }
         }
       } else {
         final d = resolveDate(feast);

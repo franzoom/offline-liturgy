@@ -84,17 +84,55 @@ class MiddleOfDay {
     if (overlay.hymnTierce != null) hymnTierce = overlay.hymnTierce;
     if (overlay.hymnSexte != null) hymnSexte = overlay.hymnSexte;
     if (overlay.hymnNone != null) hymnNone = overlay.hymnNone;
-    if (overlay.tierce != null) tierce = overlay.tierce;
-    if (overlay.sexte != null) sexte = overlay.sexte;
-    if (overlay.none != null) none = overlay.none;
+
+    if (overlay.tierce != null) {
+      if (tierce == null) {
+        tierce = overlay.tierce;
+      } else {
+        tierce!.overlayWith(overlay.tierce!);
+      }
+    }
+    if (overlay.sexte != null) {
+      if (sexte == null) {
+        sexte = overlay.sexte;
+      } else {
+        sexte!.overlayWith(overlay.sexte!);
+      }
+    }
+    if (overlay.none != null) {
+      if (none == null) {
+        none = overlay.none;
+      } else {
+        none!.overlayWith(overlay.none!);
+      }
+    }
+
     if (overlay.oration != null) oration = overlay.oration;
   }
 
   /// Selective overlay for Common elements (Precedence > 6)
   void overlayWithCommon(MiddleOfDay common) {
-    if (common.tierce != null) tierce = common.tierce;
-    if (common.sexte != null) sexte = common.sexte;
-    if (common.none != null) none = common.none;
+    if (common.tierce != null) {
+      if (tierce == null) {
+        tierce = common.tierce;
+      } else {
+        tierce!.overlayWith(common.tierce!);
+      }
+    }
+    if (common.sexte != null) {
+      if (sexte == null) {
+        sexte = common.sexte;
+      } else {
+        sexte!.overlayWith(common.sexte!);
+      }
+    }
+    if (common.none != null) {
+      if (none == null) {
+        none = common.none;
+      } else {
+        none!.overlayWith(common.none!);
+      }
+    }
     if (common.oration != null) oration = common.oration;
   }
 

@@ -229,6 +229,17 @@ class HourOffice {
       oration: json['oration']?.toString(),
     );
   }
+
+  /// Overlays this HourOffice with data from another instance, field by
+  /// field — a more specific level (e.g. deeper in a common hierarchy) must
+  /// only fill in what it defines, not wipe out fields inherited from a
+  /// more general level.
+  void overlayWith(HourOffice overlay) {
+    if (overlay.antiphon != null) antiphon = overlay.antiphon;
+    if (overlay.reading != null) reading = overlay.reading;
+    if (overlay.responsory != null) responsory = overlay.responsory;
+    if (overlay.oration != null) oration = overlay.oration;
+  }
 }
 
 /// Context class containing all parameters needed for office resolution.

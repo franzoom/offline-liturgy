@@ -16,6 +16,7 @@ abstract class DataLoader {
 /// Default implementation for CLI/Server tools
 class FileSystemDataLoader implements DataLoader {
   final String assetsPrefix;
+  final Map<String, Future<String>> _cache = {};
   FileSystemDataLoader({this.assetsPrefix = './assets/'});
 
   @override
@@ -29,7 +30,11 @@ class FileSystemDataLoader implements DataLoader {
   }
 
   @override
-  Future<String> load(String path) async {
+  Future<String> load(String path) {
+    return _cache[path] ??= _readFile(path);
+  }
+
+  Future<String> _readFile(String path) async {
     final file = File('$assetsPrefix$path');
     return (await file.exists()) ? await file.readAsString() : '';
   }

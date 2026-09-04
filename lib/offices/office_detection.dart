@@ -67,12 +67,28 @@ double effectivePrecedence(int precedence, String code) {
   return precedence.toDouble();
 }
 
+final Map<(Calendar, DataLoader, DateTime), Future<List<CelebrationContext>>>
+    _detectCelebrationsCache = {};
+
 /// Detects all possible celebrations for a given date
 /// Returns a list of CelebrationContext sorted by precedence (lowest first)
 ///
 /// This is the common function used by all office detection wrappers
-/// (morning, readings, vespers, etc.)
+/// (morning, readings, vespers, etc.) — several of which call it for the
+/// same (calendar, date) within a single day's rendering (e.g. Vespers and
+/// Compline each call it twice, for today and tomorrow), so the result is
+/// memoized per (calendar, dataLoader, date).
 Future<List<CelebrationContext>> detectCelebrations(
+  Calendar calendar,
+  DateTime date,
+  DataLoader dataLoader,
+) {
+  final key = (calendar, dataLoader, date);
+  return _detectCelebrationsCache[key] ??=
+      _detectCelebrationsImpl(calendar, date, dataLoader);
+}
+
+Future<List<CelebrationContext>> _detectCelebrationsImpl(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,

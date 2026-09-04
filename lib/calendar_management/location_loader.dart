@@ -140,14 +140,16 @@ void applyCommonFeastsToCalendar(
   final beginYear = liturgicalMainFeasts['ADVENT']!;
   final endYear =
       liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
-  final prevYear = liturgicalYear - 1;
 
   for (final feast in commonFeasts) {
-    var feastDate = DateTime(liturgicalYear, feast.month!, feast.day!);
-    if (feastDate.isAfter(endYear)) {
-      feastDate = DateTime(prevYear, feast.month!, feast.day!);
-    }
-    if (!feastDate.isBefore(beginYear) && !feastDate.isAfter(endYear)) {
+    final feastDate = resolveFixedFeastDate(
+      liturgicalYear: liturgicalYear,
+      month: feast.month!,
+      day: feast.day!,
+      beginYear: beginYear,
+      endYear: endYear,
+    );
+    if (feastDate != null) {
       calendar.addItemToDay(feastDate, feast.precedence!, 'roman/${feast.key}');
     }
   }

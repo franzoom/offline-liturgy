@@ -58,6 +58,24 @@ class LocationFeast {
   }
 }
 
+/// Resolves [month]/[day] to a concrete date within the liturgical year
+/// bounded by [beginYear]/[endYear] (inclusive) — falling back to
+/// [liturgicalYear] - 1 if the naive date lands after [endYear] — and
+/// returns null if the resolved date still falls outside that window.
+DateTime? resolveFixedFeastDate({
+  required int liturgicalYear,
+  required int month,
+  required int day,
+  required DateTime beginYear,
+  required DateTime endYear,
+}) {
+  var date = DateTime(liturgicalYear, month, day);
+  if (date.isAfter(endYear)) {
+    date = DateTime(liturgicalYear - 1, month, day);
+  }
+  return (!date.isBefore(beginYear) && !date.isAfter(endYear)) ? date : null;
+}
+
 class Location {
   final String id;
   final String language;
@@ -119,13 +137,14 @@ class Location {
     final beginYear = liturgicalMainFeasts['ADVENT']!;
     final endYear =
         liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
-    final prevYear = liturgicalYear - 1;
 
-    DateTime? resolveDate(LocationFeast feast) {
-      var d = DateTime(liturgicalYear, feast.month!, feast.day!);
-      if (d.isAfter(endYear)) d = DateTime(prevYear, feast.month!, feast.day!);
-      return (!d.isBefore(beginYear) && !d.isAfter(endYear)) ? d : null;
-    }
+    DateTime? resolveDate(LocationFeast feast) => resolveFixedFeastDate(
+          liturgicalYear: liturgicalYear,
+          month: feast.month!,
+          day: feast.day!,
+          beginYear: beginYear,
+          endYear: endYear,
+        );
 
     String prefixed(String key) => '$id/$key';
 

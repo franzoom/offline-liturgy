@@ -112,33 +112,6 @@ class Calendar {
     return effectiveKey;
   }
 
-  void addFeastsToCalendar(Map<String, FeastDates> feastList,
-      int liturgicalYear, Map<String, DateTime> liturgicalMainFeasts) {
-    final beginOfLiturgicalYear = liturgicalMainFeasts['ADVENT']!;
-    final endOfLiturgicalYear =
-        liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
-    final previousYear = liturgicalYear - 1;
-
-    for (final entry in feastList.entries) {
-      final feastName = entry.key;
-      final feastData = entry.value;
-
-      // Try current liturgical year first
-      var feastDate = DateTime(liturgicalYear, feastData.month, feastData.day);
-
-      // If after end of liturgical year, use previous calendar year
-      if (feastDate.isAfter(endOfLiturgicalYear)) {
-        feastDate = DateTime(previousYear, feastData.month, feastData.day);
-      }
-
-      // Check if within liturgical year bounds (inclusive on start)
-      if (!feastDate.isBefore(beginOfLiturgicalYear) &&
-          feastDate.isBefore(endOfLiturgicalYear)) {
-        addItemToDay(feastDate, feastData.precedence, feastName);
-      }
-    }
-  }
-
   /// Adds a date related to another one: for example
   /// Notre-Dame de Fourvière on the Saturday after the 2nd Sunday of Easter
   /// The shift parameter specifies the number of days to offset from the requested date.

@@ -142,12 +142,14 @@ class HymnEntry {
 
   HymnEntry({required this.code, this.hymnData});
 
-  factory HymnEntry.fromJson(dynamic json) => HymnEntry(code: json.toString());
+  /// Returns null for a null/empty YAML entry instead of a bogus "null" code.
+  static HymnEntry? fromJson(dynamic json) =>
+      json == null ? null : HymnEntry(code: json.toString());
 
-  /// Create Hymn Entry list from a list of codes
+  /// Create Hymn Entry list from a list of codes, skipping null entries.
   static List<HymnEntry> fromCodes(List<dynamic>? codes) {
     if (codes == null) return [];
-    return codes.map((c) => HymnEntry(code: c.toString())).toList();
+    return codes.map(HymnEntry.fromJson).whereType<HymnEntry>().toList();
   }
 }
 

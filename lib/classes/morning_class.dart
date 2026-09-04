@@ -38,7 +38,10 @@ class Morning {
       invitatory: data['invitatory'] is Map<String, dynamic>
           ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
           : null,
-      hymn: asYamlList(data['hymn'])?.map((e) => HymnEntry.fromJson(e)).toList(),
+      hymn: asYamlList(data['hymn'])
+          ?.map(HymnEntry.fromJson)
+          .whereType<HymnEntry>()
+          .toList(),
       psalmody: asYamlList(data['psalmody'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))

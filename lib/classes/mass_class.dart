@@ -322,10 +322,12 @@ class Mass {
           ?.map((e) => e.toString())
           .toList(),
       solemnBlessingList: asYamlList(json['solemnBlessingList'])
-          ?.map((e) => HymnEntry.fromJson(e))
+          ?.map(HymnEntry.fromJson)
+          .whereType<HymnEntry>()
           .toList(),
       sequence: asYamlList(json['sequence'])
-          ?.map((e) => HymnEntry.fromJson(e))
+          ?.map(HymnEntry.fromJson)
+          .whereType<HymnEntry>()
           .toList(),
       eucharisticPrayerCommunicantes:
           json['eucharisticPrayerCommunicantes'] != null

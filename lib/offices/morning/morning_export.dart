@@ -6,6 +6,7 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/constants.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
 import '../../assets/usual_texts.dart';
@@ -49,7 +50,6 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   morningOffice.overlayWith(properMorning);
 
   // 5. Holy Week: assign Passion hymns if no proper hymn is defined
-  const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
   if (morningOffice.hymn == null &&
       holyWeekCodes.contains(celebrationContext.celebrationCode)) {
     morningOffice.hymn =

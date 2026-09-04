@@ -8,6 +8,7 @@ import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
+import '../../tools/constants.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
@@ -49,7 +50,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;
 
   // Holy Week: assign Passion hymns if no proper hymn is defined
-  const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
   if (readingsOffice.hymn == null &&
       holyWeekCodes.contains(context.celebrationCode)) {
     readingsOffice.hymn = await getHymnsForSeason("passion", context.dataLoader);

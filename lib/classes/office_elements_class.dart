@@ -257,7 +257,6 @@ class CelebrationContext {
   final String? liturgicalTime; // given by the calendar root of the date
   final int? breviaryWeek; // given by the calendar root of the date
   final int? precedence; // given by the calendar for the celebration
-  final bool teDeum; // further calculation needed for Readings
   final bool isCelebrable; // to be determined later
   final DataLoader dataLoader; // to load required data
   final String? officeDescription; // description of the office
@@ -303,7 +302,6 @@ class CelebrationContext {
     this.liturgicalTime,
     this.breviaryWeek,
     this.precedence,
-    this.teDeum = false,
     this.isCelebrable = false,
     required this.dataLoader,
     this.officeDescription,
@@ -360,7 +358,6 @@ class CelebrationContext {
     String? liturgicalTime,
     int? breviaryWeek,
     int? precedence,
-    bool? teDeum,
     bool? isCelebrable,
     DataLoader? dataLoader,
     String? officeDescription,
@@ -387,7 +384,6 @@ class CelebrationContext {
       liturgicalTime: liturgicalTime ?? this.liturgicalTime,
       breviaryWeek: breviaryWeek ?? this.breviaryWeek,
       precedence: precedence ?? this.precedence,
-      teDeum: teDeum ?? this.teDeum,
       isCelebrable: isCelebrable ?? this.isCelebrable,
       dataLoader: dataLoader ?? this.dataLoader,
       officeDescription: officeDescription ?? this.officeDescription,

@@ -4,7 +4,10 @@ import '../../../tools/data_loader.dart';
 
 /// Hymns library - loads from individual YAML files with lazy loading.
 class HymnsLibrary {
-  static final Map<String, Hymns> _cache = {};
+  static final Map<DataLoader, Map<String, Hymns>> _cachesByLoader = {};
+
+  static Map<String, Hymns> _cache(DataLoader loader) =>
+      _cachesByLoader[loader] ??= {};
 
   /// Private helper to transform YAML string into a Hymns instance.
   static Hymns? _parseHymn(String code, String content) {
@@ -34,14 +37,15 @@ class HymnsLibrary {
     DataLoader dataLoader, {
     String folder = 'hymns',
   }) async {
+    final cache = _cache(dataLoader);
     final cacheKey = '$folder/$code';
-    final cached = _cache[cacheKey];
+    final cached = cache[cacheKey];
     if (cached != null) return cached;
 
     try {
       final content = await dataLoader.loadYaml('$folder/$code.yaml');
       final hymn = _parseHymn(cacheKey, content);
-      if (hymn != null) return _cache[cacheKey] = hymn;
+      if (hymn != null) return cache[cacheKey] = hymn;
     } catch (e) {
       print('❌ Error loading hymn $cacheKey: $e');
     }

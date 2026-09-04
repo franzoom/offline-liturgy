@@ -5,11 +5,15 @@ import '../../../tools/data_loader.dart';
 /// Prefaces library - loads from individual YAML files under
 /// mass_missal/prefaces/, with lazy loading and caching.
 class PrefacesLibrary {
-  static final Map<String, Preface> _cache = {};
+  static final Map<DataLoader, Map<String, Preface>> _cachesByLoader = {};
+
+  static Map<String, Preface> _cache(DataLoader loader) =>
+      _cachesByLoader[loader] ??= {};
 
   /// Gets a single preface by code (lazy loading).
   static Future<Preface?> getPreface(String code, DataLoader dataLoader) async {
-    final cached = _cache[code];
+    final cache = _cache(dataLoader);
+    final cached = cache[code];
     if (cached != null) return cached;
 
     try {
@@ -21,7 +25,7 @@ class PrefacesLibrary {
       }
       final yamlData = loadYaml(content) as Map;
       final preface = Preface.fromJson(Map<String, dynamic>.from(yamlData));
-      return _cache[code] = preface;
+      return cache[code] = preface;
     } catch (e) {
       print('❌ Error loading preface $code: $e');
       return null;

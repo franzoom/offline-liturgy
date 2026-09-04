@@ -61,7 +61,7 @@ DateTime easter(int year) {
 DateTime annunciation(DateTime easterDay) {
   DateTime annunciationDay = DateTime(easterDay.year, 3, 25);
   // If during Holy Week or Easter Octave, move to Monday after 2nd Sunday of Easter
-  if (annunciationDay.isAfter(easterDay.shift(-7))) {
+  if (!annunciationDay.isBefore(easterDay.shift(-7))) {
     return easterDay.shift(8);
   }
   // If on a Sunday of Lent, move to Monday
@@ -75,7 +75,7 @@ DateTime annunciation(DateTime easterDay) {
 DateTime saintJoseph(DateTime easterDay) {
   DateTime stJosephDay = DateTime(easterDay.year, 3, 19);
   // If during Holy Week, move to the Saturday before Palm Sunday
-  if (stJosephDay.isAfter(easterDay.shift(-7))) {
+  if (!stJosephDay.isBefore(easterDay.shift(-7))) {
     return easterDay.shift(-8);
   }
   // If on a Sunday of Lent, move to Monday

@@ -124,7 +124,7 @@ class Location {
     DateTime? resolveDate(LocationFeast feast) {
       var d = DateTime(liturgicalYear, feast.month!, feast.day!);
       if (d.isAfter(endYear)) d = DateTime(prevYear, feast.month!, feast.day!);
-      return (!d.isBefore(beginYear) && d.isBefore(endYear)) ? d : null;
+      return (!d.isBefore(beginYear) && !d.isAfter(endYear)) ? d : null;
     }
 
     String prefixed(String key) => '$id/$key';

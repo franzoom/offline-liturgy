@@ -59,6 +59,7 @@ class Compline {
   /// Merges another Compline onto this one (non-null fields from other take precedence)
   Compline mergeWith(Compline other) {
     return copyWith(
+      celebration: other.celebration,
       commentary: other.commentary,
       celebrationType: other.celebrationType,
       hymns: other.hymns,

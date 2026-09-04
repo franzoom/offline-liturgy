@@ -6,6 +6,7 @@
 library;
 
 export 'tools/data_loader.dart';
+export 'tools/hierarchical_common_loader.dart';
 export 'tools/date_tools.dart';
 export 'calendar_management/location_loader.dart';
 export 'classes/location_class.dart';

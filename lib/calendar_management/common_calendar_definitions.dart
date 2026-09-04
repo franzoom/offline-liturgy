@@ -97,8 +97,8 @@ DateTime saintPieterAndPaul(DateTime sacredHeartDay) {
 /// Returns St John the Baptist (June 24), shifting if it hits Sacred Heart.
 DateTime saintJohnTheBaptist(DateTime sacredHeartDay) {
   DateTime stJohnDay = DateTime(sacredHeartDay.year, 6, 24);
-  // If it falls on the same day of the week as Sacred Heart (Friday), shift to Saturday
-  if (stJohnDay.weekday == sacredHeartDay.weekday) {
+  // If it falls on the same day as Sacred Heart, shift to the next day
+  if (stJohnDay.isSameDayAs(sacredHeartDay)) {
     return stJohnDay.shift(1);
   }
   return stJohnDay;

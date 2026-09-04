@@ -28,10 +28,10 @@ DateTime epiphany(int year, String epiphanyDay) {
 }
 
 /// Returns the Baptism of the Lord.
-/// If Epiphany is Jan 7 or 8 (late Sunday mode), Baptism is the next day (Monday).
+/// If Epiphany falls on a Sunday that is Jan 6, 7 or 8, Baptism is the next day (Monday).
 /// Otherwise, Baptism is the Sunday following Epiphany.
 DateTime baptism(DateTime epiphanyDate) {
-  if (epiphanyDate.day >= 7) return epiphanyDate.shift(1);
+  if (epiphanyDate.isSunday && epiphanyDate.day >= 6) return epiphanyDate.shift(1);
   return epiphanyDate.shift(epiphanyDate.isSunday ? 7 : 7 - epiphanyDate.weekday);
 }
 

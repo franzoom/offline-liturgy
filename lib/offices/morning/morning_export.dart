@@ -20,43 +20,35 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     morningOffice = await ferialMorningResolution(celebrationContext);
   }
 
-  // 2. CELEBRATION LAYER (Buffer): Proper + Common
-  Morning celebrationOverlay = Morning();
-
-  // Load Common first
-  if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
-    celebrationOverlay =
-        await loadMorningHierarchicalCommon(celebrationContext);
-  }
-
-  // Load Proper and overwrite the Common content in the buffer
+  // 2. Load Proper celebration data
+  Morning properMorning = Morning();
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
     final filePath = await dirPathForCode(
         celebrationContext.celebrationCode, celebrationContext.dataLoader);
-    final Morning proper = await morningExtract(
+    properMorning = await morningExtract(
         '$filePath/${celebrationContext.celebrationCode}.yaml',
         celebrationContext.dataLoader);
-
-    // Proper overwrites Common inside the buffer
-    celebrationOverlay.overlayWith(proper);
   }
 
-  // 3. FINAL MERGING
-  if (celebrationContext.precedence != null &&
-      celebrationContext.precedence! <= 8) {
-    // Solemnities and Feasts: Full replacement
-    morningOffice.overlayWith(celebrationOverlay);
-  } else {
-    // Memorials (> 6):
-    // evangelicAntiphon overlay for Memorials
-    if (celebrationOverlay.evangelicAntiphon != null) {
-      morningOffice.evangelicAntiphon = celebrationOverlay.evangelicAntiphon;
+  // 3. Handle Commons and Overlays based on precedence
+  final bool isMemory = (celebrationContext.precedence ?? 13) > 8;
+  if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
+    final Morning commonMorning =
+        await loadMorningHierarchicalCommon(celebrationContext);
+    if (isMemory) {
+      // Memorials: selective overlay (excludes psalmody/celebration)
+      morningOffice.overlayWithCommon(commonMorning);
+    } else {
+      // Solemnities/Feasts: full overlay
+      morningOffice.overlayWith(commonMorning);
     }
-
-    morningOffice.overlayWithCommon(celebrationOverlay);
   }
 
-  // 4. Holy Week: assign Passion hymns if no proper hymn is defined
+  // 4. Apply Proper data (highest priority, always full — a Memorial's own
+  // proper psalmody/celebration data must win when present)
+  morningOffice.overlayWith(properMorning);
+
+  // 5. Holy Week: assign Passion hymns if no proper hymn is defined
   const holyWeekCodes = {'holy_thursday', 'holy_friday', 'holy_saturday'};
   if (morningOffice.hymn == null &&
       holyWeekCodes.contains(celebrationContext.celebrationCode)) {
@@ -66,7 +58,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
 
-  // 5. Invitatory: exclude psalms already used in the final, merged Lauds
+  // 6. Invitatory: exclude psalms already used in the final, merged Lauds
   // psalmody (must run after merging — a Memorial's invitatory may come from
   // the Common while the day keeps the ferial psalmody, or vice versa).
   final invitatoryPsalms = morningOffice.invitatory?.psalms;
@@ -83,7 +75,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     );
   }
 
-  // 6. HYDRATION: Resolve full texts (canticle SVG starts in parallel)
+  // 7. HYDRATION: Resolve full texts (canticle SVG starts in parallel)
   final Future<String>? canticleSvgFuture = celebrationContext.svgSource != null
       ? celebrationContext.dataLoader
           .load('svg/${celebrationContext.svgSource}/NT_2.svg')
@@ -110,11 +102,11 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
             : null;
   }
 
-  // 7. Filter evangelicAntiphon: keep only default + current year
+  // 8. Filter evangelicAntiphon: keep only default + current year
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
       morningOffice.evangelicAntiphon, celebrationContext.date.year);
 
-  // 8. Apply paschal alléluia to antiphons
+  // 9. Apply paschal alléluia to antiphons
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {
     for (int i = 0; i < invitatoryAntiphon.length; i++) {
@@ -126,10 +118,10 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   morningOffice.evangelicAntiphon = applyPaschalToAntiphonMap(
       morningOffice.evangelicAntiphon, liturgicalTime);
 
-  // 9. Assign the evangelic canticle (Benedictus)
+  // 10. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;
 
-  // 10. Apply canticle SVG (was loading in parallel since step 6)
+  // 11. Apply canticle SVG (was loading in parallel since step 7)
   if (canticleSvgFuture != null) {
     final svgContent = await canticleSvgFuture;
     if (svgContent.isNotEmpty) morningOffice.canticleSvgData = [svgContent];

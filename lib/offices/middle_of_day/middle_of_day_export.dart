@@ -21,43 +21,43 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice = await ferialMiddleOfDayResolution(celebrationContext);
   }
 
-  // 2. CELEBRATION LAYER (Buffer): Proper + Common
-  MiddleOfDay celebrationOverlay = MiddleOfDay();
-
-  if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
-    celebrationOverlay =
-        await loadMiddleOfDayHierarchicalCommon(celebrationContext);
-  }
-
+  // 2. Load Proper celebration data
+  MiddleOfDay properMiddleOfDay = MiddleOfDay();
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
-    final MiddleOfDay proper = await middleOfDayExtract(
+    properMiddleOfDay = await middleOfDayExtract(
         '$sanctoralFilePath/${celebrationContext.celebrationCode}.yaml',
         celebrationContext.dataLoader);
-
-    celebrationOverlay.overlayWith(proper);
   }
 
-  // 3. FINAL MERGING
-  if (celebrationContext.precedence != null &&
-      celebrationContext.precedence! <= 6) {
-    middleOfDayOffice.overlayWith(celebrationOverlay);
-  } else {
-    middleOfDayOffice.overlayWithCommon(celebrationOverlay);
+  // 3. Handle Commons and Overlays based on precedence
+  final bool isMemory = (celebrationContext.precedence ?? 13) > 6;
+  if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
+    final MiddleOfDay commonMiddleOfDay =
+        await loadMiddleOfDayHierarchicalCommon(celebrationContext);
+    if (isMemory) {
+      middleOfDayOffice.overlayWithCommon(commonMiddleOfDay);
+    } else {
+      middleOfDayOffice.overlayWith(commonMiddleOfDay);
+    }
   }
 
-  // 3b. HYMN FALLBACK: solemnities without a ferialCode (e.g. Ascension, Christmas)
+  // 4. Apply Proper data (highest priority, always full — a Memorial's own
+  // proper psalmody/celebration data must win when present)
+  middleOfDayOffice.overlayWith(properMiddleOfDay);
+
+  // 4b. HYMN FALLBACK: solemnities without a ferialCode (e.g. Ascension, Christmas)
   // never enter ferialMiddleOfDayResolution, so hymns must be assigned here.
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
   middleOfDayOffice.hymnTierce ??= await getTierceHymns(liturgicalTime, celebrationContext.dataLoader);
   middleOfDayOffice.hymnSexte ??= await getSexteHymns(liturgicalTime, celebrationContext.dataLoader);
   middleOfDayOffice.hymnNone ??= await getNoneHymns(liturgicalTime, celebrationContext.dataLoader);
 
-  // 3c. PER-HOUR PSALMODY
+  // 4c. PER-HOUR PSALMODY
   if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
-      properPsalmody: celebrationOverlay.psalmody,
+      properPsalmody: middleOfDayOffice.psalmody,
       isFerialTheCelebration:
           celebrationContext.celebrationCode == celebrationContext.ferialCode,
       isPaschalOctave: liturgicalTime == 'paschaloctave',
@@ -65,7 +65,7 @@ Future<MiddleOfDay> middleOfDayExport(
     );
   }
 
-  // 3c. PER-HOUR ANTIPHONS for non-solemnity cases
+  // 4c. PER-HOUR ANTIPHONS for non-solemnity cases
   if (middleOfDayOffice.psalmody != null) {
     final basePsalms = middleOfDayOffice.psalmody!;
     final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
@@ -90,7 +90,7 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice.psalmodyNone ??= _withAntiphon(basePsalms, null);
   }
 
-  // 4. PROPAGATE ANTIPHON: repeat first antiphon to all psalms if others lack one
+  // 5. PROPAGATE ANTIPHON: repeat first antiphon to all psalms if others lack one
   if (middleOfDayOffice.psalmody != null &&
       middleOfDayOffice.psalmody!.length > 1) {
     final firstAntiphon = middleOfDayOffice.psalmody!.first.antiphon;
@@ -114,7 +114,7 @@ Future<MiddleOfDay> middleOfDayExport(
     }
   }
 
-  // 5. APPEND SEASON ANTIPHON
+  // 6. APPEND SEASON ANTIPHON
   final bool isSolemnity = celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4;
   final bool isLentOrHolyWeek =
@@ -149,7 +149,7 @@ Future<MiddleOfDay> middleOfDayExport(
     }
   }
 
-  // 6. HYDRATION
+  // 7. HYDRATION
   await resolveOfficeContent(
     psalmody: [
       ...?middleOfDayOffice.psalmody,
@@ -166,7 +166,7 @@ Future<MiddleOfDay> middleOfDayExport(
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
   );
 
-  // 7. PASCHAL ALLÉLUIA
+  // 8. PASCHAL ALLÉLUIA
   applyPaschalToPsalmody(middleOfDayOffice.psalmody, liturgicalTime);
   applyPaschalToPsalmody(middleOfDayOffice.psalmodyTierce, liturgicalTime);
   applyPaschalToPsalmody(middleOfDayOffice.psalmodySexte, liturgicalTime);

@@ -55,7 +55,7 @@ class MassReading extends MassReadingContent {
 
   factory MassReading.fromJson(Map<String, dynamic> json) => MassReading(
         biblicalRef: json['biblicalRef']?.toString(),
-        cycle: (json['cycle'] as List?)?.map((e) => e.toString()).toList(),
+        cycle: asYamlList(json['cycle'])?.map((e) => e.toString()).toList(),
         headline: json['headline']?.toString(),
         content: json['content']?.toString(),
         shortReadingRef: json['shortReadingRef']?.toString(),
@@ -82,8 +82,8 @@ class MassPsalm extends MassReadingContent {
   factory MassPsalm.fromJson(Map<String, dynamic> json) => MassPsalm(
         biblicalRef: json['biblicalRef']?.toString(),
         refAbbr: json['refAbbr']?.toString(),
-        cycle: (json['cycle'] as List?)?.map((e) => e.toString()).toList(),
-        chorus: (json['chorus'] as List?)
+        cycle: asYamlList(json['cycle'])?.map((e) => e.toString()).toList(),
+        chorus: asYamlList(json['chorus'])
             ?.whereType<Map<String, dynamic>>()
             .map((e) => MassChorusEntry.fromJson(e))
             .toList(),
@@ -121,7 +121,7 @@ class MassGospel extends MassReadingContent {
 
   factory MassGospel.fromJson(Map<String, dynamic> json) => MassGospel(
         biblicalRef: json['biblicalRef']?.toString(),
-        cycle: (json['cycle'] as List?)?.map((e) => e.toString()).toList(),
+        cycle: asYamlList(json['cycle'])?.map((e) => e.toString()).toList(),
         headline: json['headline']?.toString(),
         beforeAcclamationAntiphon:
             json['beforeAcclamationAntiphon']?.toString(),
@@ -145,7 +145,7 @@ class MassReadingPart {
 
   factory MassReadingPart.fromJson(Map<String, dynamic> json) {
     final partType = json['partType']?.toString() ?? '';
-    final rawContents = (json['partContents'] as List?)
+    final rawContents = asYamlList(json['partContents'])
             ?.whereType<Map<String, dynamic>>()
             .toList() ??
         [];
@@ -296,34 +296,35 @@ class Mass {
       massType: json['massType']?.toString(),
       name: json['name']?.toString(),
       note: json['note']?.toString(),
-      entranceAntiphon: (json['entranceAntiphon'] as List?)
+      entranceAntiphon: asYamlList(json['entranceAntiphon'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassAntiphon.fromJson(e))
           .toList(),
-      collect: (json['collect'] as List?)?.map((e) => e.toString()).toList(),
-      readingParts: (json['readingParts'] as List?)
+      collect: asYamlList(json['collect'])?.map((e) => e.toString()).toList(),
+      readingParts: asYamlList(json['readingParts'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassReadingPart.fromJson(e))
           .toList(),
-      offeringPrayer:
-          (json['offeringPrayer'] as List?)?.map((e) => e.toString()).toList(),
-      prefaceList: (json['prefaceList'] as List?)
+      offeringPrayer: asYamlList(json['offeringPrayer'])
+          ?.map((e) => e.toString())
+          .toList(),
+      prefaceList: asYamlList(json['prefaceList'])
           ?.map((e) => PrefaceEntry.fromJson(e))
           .toList(),
-      communionAntiphon: (json['communionAntiphon'] as List?)
+      communionAntiphon: asYamlList(json['communionAntiphon'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassAntiphon.fromJson(e))
           .toList(),
-      prayerAfterCommunion: (json['prayerAfterCommunion'] as List?)
+      prayerAfterCommunion: asYamlList(json['prayerAfterCommunion'])
           ?.map((e) => e.toString())
           .toList(),
-      prayerOnThePeople: (json['prayerOnThePeople'] as List?)
+      prayerOnThePeople: asYamlList(json['prayerOnThePeople'])
           ?.map((e) => e.toString())
           .toList(),
-      solemnBlessingList: (json['solemnBlessingList'] as List?)
+      solemnBlessingList: asYamlList(json['solemnBlessingList'])
           ?.map((e) => HymnEntry.fromJson(e))
           .toList(),
-      sequence: (json['sequence'] as List?)
+      sequence: asYamlList(json['sequence'])
           ?.map((e) => HymnEntry.fromJson(e))
           .toList(),
       eucharisticPrayerCommunicantes:
@@ -456,7 +457,7 @@ class Masses {
 
   factory Masses.fromJson(Map<String, dynamic> json) {
     return Masses(
-      masses: (json['mass'] as List?)
+      masses: asYamlList(json['mass'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => Mass.fromJson(e))
           .toList(),

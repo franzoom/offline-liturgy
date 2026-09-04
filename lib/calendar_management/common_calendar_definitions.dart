@@ -35,12 +35,6 @@ DateTime baptism(DateTime epiphanyDate) {
   return epiphanyDate.shift(epiphanyDate.isSunday ? 7 : 7 - epiphanyDate.weekday);
 }
 
-/// Returns the 2nd Sunday of Ordinary Time: the 2nd Sunday after January 6th.
-DateTime secondSundayOT(int year) {
-  final jan6 = DateTime(year, 1, 6);
-  return jan6.shift(14 - jan6.weekday % 7);
-}
-
 /// Calculates the date of Easter using the Meeus/Jones/Butcher algorithm.
 DateTime easter(int year) {
   int c = year ~/ 100;
@@ -126,7 +120,6 @@ Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
   final DateTime epiphanyDate = epiphany(year, epiphanyDay);
   liturgicalDays['EPIPHANY'] = epiphanyDate;
   liturgicalDays['BAPTISM'] = baptism(epiphanyDate);
-  liturgicalDays['SECOND_SUNDAY_OT'] = secondSundayOT(year);
 
   liturgicalDays['EASTER'] = easterDay;
   liturgicalDays['ASHES'] = easterDay.shift(-46);

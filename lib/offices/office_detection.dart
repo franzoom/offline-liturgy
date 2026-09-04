@@ -67,7 +67,7 @@ double effectivePrecedence(int precedence, String code) {
   return precedence.toDouble();
 }
 
-final Map<(Calendar, DataLoader, DateTime), Future<List<CelebrationContext>>>
+final Map<(Calendar, DateTime), Future<List<CelebrationContext>>>
     _detectCelebrationsCache = {};
 
 /// Detects all possible celebrations for a given date
@@ -77,13 +77,17 @@ final Map<(Calendar, DataLoader, DateTime), Future<List<CelebrationContext>>>
 /// (morning, readings, vespers, etc.) — several of which call it for the
 /// same (calendar, date) within a single day's rendering (e.g. Vespers and
 /// Compline each call it twice, for today and tomorrow), so the result is
-/// memoized per (calendar, dataLoader, date).
+/// memoized per (calendar, date). Not keyed by dataLoader: some consumers
+/// (e.g. Flutter) construct a fresh loader per call despite it always
+/// resolving the same underlying asset source, so including it in the key
+/// would defeat the cache; calendar already changes when the data source
+/// does (e.g. switching location rebuilds it).
 Future<List<CelebrationContext>> detectCelebrations(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
 ) {
-  final key = (calendar, dataLoader, date);
+  final key = (calendar, date);
   return _detectCelebrationsCache[key] ??=
       _detectCelebrationsImpl(calendar, date, dataLoader);
 }

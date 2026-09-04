@@ -6,12 +6,10 @@ import '../../../tools/data_loader.dart';
 /// YAML files under mass_missal/eucharistic_prayer_communicantes/, with lazy
 /// loading and caching.
 class EucharisticPrayerCommunicantesLibrary {
-  static final Map<DataLoader, Map<String, EucharisticPrayerCommunicantes>>
-      _cachesByLoader = {};
-
-  static Map<String, EucharisticPrayerCommunicantes> _cache(
-          DataLoader loader) =>
-      _cachesByLoader[loader] ??= {};
+  /// Content-addressed by code — not by which DataLoader instance fetched
+  /// it, since a fresh loader is created per call in some consumers (e.g.
+  /// Flutter) despite always resolving the same underlying asset source.
+  static final Map<String, EucharisticPrayerCommunicantes> _cache = {};
 
   /// Gets a single eucharistic prayer Communicantes insert by code (lazy
   /// loading).
@@ -20,8 +18,7 @@ class EucharisticPrayerCommunicantesLibrary {
     String code,
     DataLoader dataLoader,
   ) async {
-    final cache = _cache(dataLoader);
-    final cached = cache[code];
+    final cached = _cache[code];
     if (cached != null) return cached;
 
     try {
@@ -34,7 +31,7 @@ class EucharisticPrayerCommunicantesLibrary {
       }
       final insert =
           EucharisticPrayerCommunicantes.fromJson(loadYaml(content) as List);
-      return cache[code] = insert;
+      return _cache[code] = insert;
     } catch (e) {
       print('❌ Error loading eucharistic prayer Communicantes $code: $e');
       return null;

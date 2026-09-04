@@ -7,17 +7,14 @@ import '../../tools/convert_yaml_to_dart.dart';
 
 /// Psalms library - Handles lazy loading from individual YAML files with caching.
 class PsalmsLibrary {
-  /// Cache for standard liturgical psalms, scoped per DataLoader instance.
-  static final Map<DataLoader, Map<String, Psalm>> _cachesByLoader = {};
+  /// Cache for standard liturgical psalms, content-addressed by code — not
+  /// by which DataLoader instance fetched it, since a fresh loader is
+  /// created per call in some consumers (e.g. Flutter) despite always
+  /// resolving the same underlying asset source.
+  static final Map<String, Psalm> _cache = {};
 
-  /// Cache for ancient (Hebrew/Greek) versions, scoped per DataLoader instance.
-  static final Map<DataLoader, Map<String, Psalm>> _cachesAncientByLoader = {};
-
-  static Map<String, Psalm> _cache(DataLoader loader) =>
-      _cachesByLoader[loader] ??= {};
-
-  static Map<String, Psalm> _cacheAncient(DataLoader loader) =>
-      _cachesAncientByLoader[loader] ??= {};
+  /// Cache for ancient (Hebrew/Greek) versions.
+  static final Map<String, Psalm> _cacheAncient = {};
 
   /// Internal helper to transform a YAML string into a [Psalm] instance.
   static Psalm? _parsePsalm(String psalmId, String content) {
@@ -38,14 +35,13 @@ class PsalmsLibrary {
     String code,
     DataLoader dataLoader,
   ) async {
-    final cache = _cache(dataLoader);
-    final cached = cache[code];
+    final cached = _cache[code];
     if (cached != null) return cached;
 
     try {
       final content = await dataLoader.loadYaml('psalms/$code.yaml');
       final psalm = _parsePsalm(code, content);
-      if (psalm != null) return cache[code] = psalm;
+      if (psalm != null) return _cache[code] = psalm;
     } catch (e) {
       log('Error loading psalm $code: $e', name: 'PsalmsLibrary');
     }
@@ -58,15 +54,14 @@ class PsalmsLibrary {
     String code,
     DataLoader dataLoader,
   ) async {
-    final cache = _cacheAncient(dataLoader);
-    final cached = cache[code];
+    final cached = _cacheAncient[code];
     if (cached != null) return cached;
 
     try {
       final content =
           await dataLoader.loadYaml('psalms/hebrew-greek/$code.yaml');
       final psalm = _parsePsalm(code, content);
-      if (psalm != null) return cache[code] = psalm;
+      if (psalm != null) return _cacheAncient[code] = psalm;
     } catch (_) {
       // Silently fail to trigger fallback
     }

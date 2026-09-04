@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
@@ -67,7 +69,8 @@ Future<Morning> morningExtract(
 
     return morning;
   } catch (e) {
-    print('❌ Error during morningExtract for $relativePath: $e');
+    log('Error during morningExtract for $relativePath',
+        name: 'MorningExtract', level: 1000, error: e);
     return Morning();
   }
 }

@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/vespers_class.dart';
 import '../../classes/office_elements_class.dart';
@@ -59,7 +61,8 @@ Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
     return vespers;
   } catch (e) {
     // Graceful failure: return an empty instance to avoid blocking the app
-    print('❌ Error during vespersExtract for $relativePath: $e');
+    log('Error during vespersExtract for $relativePath',
+        name: 'VespersExtract', level: 1000, error: e);
     return Vespers();
   }
 }

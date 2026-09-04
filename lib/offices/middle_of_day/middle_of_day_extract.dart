@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/middle_of_day_class.dart';
 import '../../tools/data_loader.dart';
@@ -51,7 +53,8 @@ Future<MiddleOfDay> middleOfDayExtract(
     return middleOfDay;
   } catch (e) {
     // In case of parsing error, return an empty office to prevent the app from crashing
-    print('❌ middleOfDayExtract error for $relativePath: $e');
+    log('middleOfDayExtract error for $relativePath',
+        name: 'MiddleOfDayExtract', level: 1000, error: e);
     return MiddleOfDay();
   }
 }

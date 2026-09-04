@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../../classes/mass_class.dart';
 import '../../../tools/data_loader.dart';
@@ -25,15 +27,16 @@ class EucharisticPrayerCommunicantesLibrary {
       final content = await dataLoader
           .loadYaml('mass_missal/eucharistic_prayer_communicantes/$code.yaml');
       if (content.isEmpty) {
-        print(
-            '⚠️ Warning: Eucharistic prayer Communicantes file not found or empty for code: $code');
+        log('Eucharistic prayer Communicantes file not found or empty for code: $code',
+            name: 'EucharisticPrayerCommunicantesLibrary', level: 900);
         return null;
       }
       final insert =
           EucharisticPrayerCommunicantes.fromJson(loadYaml(content) as List);
       return _cache[code] = insert;
     } catch (e) {
-      print('❌ Error loading eucharistic prayer Communicantes $code: $e');
+      log('Error loading eucharistic prayer Communicantes $code',
+          name: 'EucharisticPrayerCommunicantesLibrary', level: 1000, error: e);
       return null;
     }
   }

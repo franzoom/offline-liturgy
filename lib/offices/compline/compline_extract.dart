@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/compline_class.dart';
 import '../../classes/office_elements_class.dart';
@@ -33,7 +35,8 @@ Future<Compline> complineExtract(
         ? compline
         : compline.copyWith(marialHymnRef: rootMarialHymns);
   } catch (e) {
-    print('❌ Error in complineExtract for $relativePath[$dayKey]: $e');
+    log('Error in complineExtract for $relativePath[$dayKey]',
+        name: 'ComplineExtract', level: 1000, error: e);
     return Compline();
   }
 }

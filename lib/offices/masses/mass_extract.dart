@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/mass_class.dart';
 import '../../tools/data_loader.dart';
@@ -20,7 +22,8 @@ Future<Masses> massExtract(String relativePath, DataLoader dataLoader) async {
 
     return Masses.fromJson(data);
   } catch (e) {
-    print('❌ Error during massExtract for $relativePath: $e');
+    log('Error during massExtract for $relativePath',
+        name: 'MassExtract', level: 1000, error: e);
     return Masses();
   }
 }

@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:yaml/yaml.dart';
 import '../../classes/readings_class.dart';
 import '../../tools/data_loader.dart';
@@ -45,7 +47,8 @@ Future<Readings> readingsExtract(
     return readings;
   } catch (e) {
     // Graceful error handling to prevent UI blocking
-    print('❌ Error during readingsExtract for $relativePath: $e');
+    log('Error during readingsExtract for $relativePath',
+        name: 'ReadingsExtract', level: 1000, error: e);
     return Readings();
   }
 }

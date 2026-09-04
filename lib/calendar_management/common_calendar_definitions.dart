@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import '../tools/date_tools.dart';
 
 /// Returns the previous Christmas day (relative to the liturgical year starting in late 'year'-1).
@@ -106,7 +108,8 @@ DateTime immaculateConception(int year) {
 
 /// Main function to generate all movable feasts for a liturgical year.
 Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
-  print('Defining variable feasts dates for liturgical year $year');
+  log('Defining variable feasts dates for liturgical year $year',
+      name: 'CommonCalendarDefinitions', level: 800);
   Map<String, DateTime> liturgicalDays = {};
 
   final DateTime easterDay = easter(year);

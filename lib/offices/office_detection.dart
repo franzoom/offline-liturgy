@@ -132,6 +132,7 @@ Future<List<CelebrationContext>> detectCelebrations(
   // Check if there's a high priority celebration (feast or above: precedence <= 8)
   final bool hasHighPriority =
       allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 8);
+  final int bestPrecedence = allCelebrations.map((c) => c.precedence).reduce(min);
 
   // Sort: by precedence ascending, with special rule for ferial days (precedence 13)
   // Ferial days at precedence 13 should come before optional memorials (precedence 12)
@@ -247,8 +248,6 @@ Future<List<CelebrationContext>> detectCelebrations(
     final int precedence = celebration.precedence;
 
     // Determine isCelebrable based on precedence rules
-    final int bestPrecedence =
-        allCelebrations.map((c) => c.precedence).reduce(min);
     final bool isSundayFerial = date.weekday == DateTime.sunday &&
         ferialDayCheck(celebrationCode) &&
         !(liturgicalTime == 'ot' && bestPrecedence <= 3);

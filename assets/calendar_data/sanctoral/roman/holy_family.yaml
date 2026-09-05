@@ -32,6 +32,26 @@ firstVespers:
   evangelicAntiphon:
     common: |-
       Jésus était resté à Jérusalem. Ses parents ne le savaient pas : ils le cherchaient parmi leurs compagnons de route.
+  intercession:
+    content: |-
+      Adorons le Fils de Dieu, qui a voulu avoir une famille humaine :
+
+      R/ Jésus, notre modèle, Jésus, notre Sauveur !
+
+      Tu as voulu te soumettre à Marie et à Joseph :
+      — enseigne-nous la valeur de l’obéissance et du respect.
+
+      Tu as aimé tes parents, et tes parents t’aimaient :
+      — établis les familles dans la paix et dans l’amour.
+
+      Tu as accompli en tout les œuvres du Père :
+      — donne-nous de reconnaître en toi celui que le Père a envoyé.
+
+      Toi que Marie et Joseph ont retrouvé dans la maison du Père,
+      — apprends-nous à chercher d’abord le Royaume de Dieu.
+
+      Tu as fait partager ta gloire éternelle à Marie et à Joseph :
+      — fais entrer ceux qui nous ont quittés dans la famille des saints.
 
 invitatory:
   antiphon:
@@ -548,10 +568,9 @@ mass:
         >et vint habiter dans une ville appelée Nazareth,
         >pour que soit accomplie
         >la parole dite par les prophètes :
-        >Il sera appelé Nazaréen.
-        
+        >Il sera appelé Nazaréen.        
     - cycle: B
-    - biblicalRef: Lc 2, 22-40
+      biblicalRef: Lc 2, 22-40
       headline: « L’enfant grandissait et se fortifiait, rempli de sagesse »
       acclamationAntiphon: |-
         À bien des reprises, Dieu, dans le passé,
@@ -617,25 +636,6 @@ mass:
         L’enfant, lui, grandissait et se fortifiait,
         >rempli de sagesse,
         >et la grâce de Dieu était sur lui.
-        
-    - biblicalRef: Lc 2, 22.39-40
-      headline: « L’enfant grandissait et se fortifiait, rempli de sagesse »
-      acclamationAntiphon: |-
-        À bien des reprises, Dieu, dans le passé,
-        a parlé à nos pères par les prophètes ;
-        à la fin, en ces jours où nous sommes,
-        il nous a parlé par son Fils.
-      content: |-
-        Quand fut accompli le temps prescrit par la loi de Moïse
-        >pour la purification,
-        les parents de Jésus l’amenèrent à Jérusalem
-        >pour le présenter au Seigneur.
-        Lorsqu’ils eurent achevé tout ce que prescrivait la loi du Seigneur,
-        >ils retournèrent en Galilée, dans leur ville de Nazareth.
-        L’enfant, lui, grandissait et se fortifiait,
-        >rempli de sagesse,
-        >et la grâce de Dieu était sur lui.
-        
     - cycle: C
       biblicalRef: Lc 2, 41-52
       headline: « Les parents de Jésus le trouvèrent au milieu des docteurs de la Loi »

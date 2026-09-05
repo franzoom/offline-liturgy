@@ -2,7 +2,13 @@ celebration:
   title: Saint Thomas Becket
   subtitle: évêque
   description: Thomas Becket (118-1170) était chancelier d’Angleterre lorsqu’Henri II Plantagenêt le fit élire archevêque de Cantorbéry. Il prit alors avec vigueur la défense des droits de l’Église, que le roi voulait s’assujettir. Il subit en représailles l’exil en France puis, à son retour à Cantorbéry, des familiers du roi l’assassinèrent dans sa cathédrale.
+  common:
+  - martyr
+  - pastors_bishop
   color: red
+
+oration:
+- Tu as donné, Seigneur, à saint Thomas Becket une telle grandeur d’âme qu’il sacrifia sa vie pour la justice ; accorde-nous, par son intercession, de perdre ici-bas notre vie, pour le Christ, afin de pouvoir la trouver dans le ciel.
 
 readings:
   patristicReading:
@@ -33,12 +39,12 @@ readings:
 morning:
   evangelicAntiphon:
     common:
-
     - Qui perd sa vie en ce monde la trouve pour l’éternité.
+
 vespers:
   evangelicAntiphon:
     common:
-    - Heureux le vainquerur, entrée dans la lumière et dans la paix de son Seigneur !
+    - Heureux le vainqueur, entré dans la lumière et dans la paix de son Seigneur !
 
 mass:
 - massType: DAY_MASS

@@ -48,6 +48,9 @@ firstVespers:
 
       Toi qui as ressuscité ton Fils d’entre les morts par la puissance de l’Esprit,
       – donne à nos corps mortels la vie qui n’a pas de fin.
+  oration:
+    - |-
+      Réponds à notre prière, Dieu tout-puissant, et comme au jour de la Pentecôte, que le Christ, lumière de lumière, envoie sur ton Église l'Esprit de feu : qu'il éclaire le cœur de ceux que tu as fait renaître et les confirme dans ta grâce.
 
 invitatory:
   antiphon:
@@ -154,6 +157,9 @@ morning:
 
       Ô Christ, tu as promis d’envoyer l’Esprit de vérité pour qu’il rende témoignage à ton sujet :
       – envoie ton Esprit : qu’il fasse de nous des témoins fidèles.
+  oration:
+    - Aujourd’hui, Seigneur, par le mystère de la Pentecôte, tu sanctifies ton Église chez tous les peuples et dans toutes les nations ; répands les dons du Saint-Esprit sur l’immensité du monde, et continue dans le cœur des croyants l’œuvre d’amour que tu as entreprise au début de la prédication évangélique.
+
 
 middleOfDay:
   psalmody:
@@ -161,6 +167,7 @@ middleOfDay:
     - psalm: PSALM_117_2
     - psalm: PSALM_117_3
   tierce:
+    antiphon: L'Esprit venu du trône de Dieu a pénétré le cœur des Apôtres, alléluia.
     reading:
       biblicalReference: 1 Co 12, 13
       content: Tous, Juifs ou païens, esclaves ou hommes libres, nous avons été baptisés dans l’unique Esprit pour former un seul corps. Tous, nous avons été désaltérés par l’unique Esprit.
@@ -168,6 +175,7 @@ middleOfDay:
       V/ L’amour de Dieu est répandu dans nos cœurs, alléluia,
       par l’Esprit Saint qui habite en nous, alléluia.
   sexte:
+    antiphon: Augmente en nous la foi, Seigneur, et que brûle en nos cœurs le feu de l'Esprit Saint, alléluia.
     reading:
       biblicalReference: Tt 3, 5b-7
       content: Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint. Cet Esprit, Dieu l’a répandu sur nous avec abondance, par Jésus Christ notre Sauveur ; ainsi, par sa grâce, nous sommes devenus des justes, et nous possédons dans l’espérance l’héritage de la vie éternelle.
@@ -175,6 +183,7 @@ middleOfDay:
       V/ L’Esprit Saint vous enseignera tout, alléluia,
       il vous rappellera ce que je vous ai dit, alléluia.
   none:
+    antiphon: Ce n'est pas vous qui parlerez, l'Esprit de votre Père parlera en vous, alléluia.
     reading:
       biblicalReference: 2 Co 1, 21-22
       content: |-
@@ -229,12 +238,39 @@ vespers:
 
       L’Esprit Saint nous a donné le goût de ta gloire :
       – que nos frères défunts connaissent l’éternelle joie.
+  oration:
+    - Aujourd’hui, Seigneur, par le mystère de la Pentecôte, tu sanctifies ton Église chez tous les peuples et dans toutes les nations ; répands les dons du Saint-Esprit sur l’immensité du monde, et continue dans le cœur des croyants l’œuvre d’amour que tu as entreprise au début de la prédication évangélique.
 
 mass:
   - massType: EVENING_MASS  
     note: null
-    entranceAntiphon: null
-    collect: null
+    entranceAntiphon:
+    - biblicalReference: Rm 5,5; cf. 8,11
+      content: |-
+        L’amour de Dieu a été répandu dans nos cœurs
+        >par son Esprit qui habite en nous, alléluia.
+    collect:
+    - |-
+      Dieu éternel et tout-puissant, +
+      tu as voulu que le mystère de Pâques
+      soit célébré durant cinquante jours; *
+      accorde aux nations dispersées dans le monde
+      et que divisent les langues,
+      d’être rassemblées par le don de l’Esprit Saint /
+      dans l’unique confession de ton nom.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      Dieu, pour les siècles des siècles.
+    - |-
+      Nous t’en prions, Dieu tout-puissant: +
+      que brille sur nous la splendeur de ta gloire; *
+      que le Christ, lumière de ta lumière,
+      affermisse le cœur de ceux que tu as fait renaître par ta grâce /
+      en leur donnant à profusion la lumière du Saint-Esprit.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      Dieu, pour les siècles des siècles.
+
     readingParts:
       - partType: READING_1
         partContents:
@@ -482,16 +518,61 @@ mass:
               qu’allaient recevoir ceux qui croiraient en lui.
               En effet, il ne pouvait y avoir l’Esprit
               puisque Jésus n’avait pas encore été glorifié.
-    offeringPrayer: null
-    prefaceList: null
-    communionAntiphon: null
-    prayerAfterCommunion: null
+    offeringPrayer:
+    - |-
+      Sur les offrandes que voici,
+      nous t’en prions, Seigneur,
+      répands la bénédiction de ton Esprit: *
+      que l’Église en reçoive cette charité
+      qui fera resplendir, pour le monde entier, /
+      la vérité du mystère du salut.
+      Par le Christ, notre Seigneur.
+    prefaceList: 
+    - pentecost
+    eucharisticPrayerCommunicantes: pentecost
+    communionAntiphon:
+    - biblicalReference: Jn 7, 37
+      content: |-
+        Au jour solennel où se terminait la fête,
+        >Jésus, debout, s’écria:
+        Si quelqu’un a soif, qu’il vienne à moi,
+        >et qu’il boive, alléluia.
+    prayerAfterCommunion:
+    - |-
+      Que les dons reçus dans cette communion, Seigneur,
+      >nous soient profitables *
+      et nous remplissent toujours de la ferveur de l’Esprit /
+      >que tu as répandu de manière ineffable sur tes Apôtres.
+      Par le Christ, notre Seigneur. 
     solemnBlessingList: null
+
   - massType: DAY_MASS
     name: Messe du jour
     note: null
-    entranceAntiphon: null
-    collect: null
+    entranceAntiphon:
+    - biblicalReference: Sg 1, 7
+      content: |-
+        L’Esprit du Seigneur remplit l’univers:
+        >lui qui tient ensemble tous les êtres,
+        >il sait se faire comprendre en toute langue, alléluia.
+    - biblicalReference: Rm 5,5; cf. 8,11
+      content: |-
+        L’amour de Dieu a été répandu dans nos cœurs
+        >par son Esprit qui habite en nous, alléluia.
+    collect:
+    - |-
+      Seigneur Dieu, +
+      dans le mystère de la fête que nous célébrons aujourd’hui,
+      tu sanctifies ton Église entière
+      >chez tous les peuples et dans toutes les nations; *
+      répands les dons de l’Esprit Saint
+      >sur l’immensité du monde, /
+      et continue dans le cœur des croyants l’œuvre divine
+      >entreprise au début de la prédication évangélique.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
+
     readingParts:
       - partType: READING_1
         partContents:
@@ -771,8 +852,30 @@ mass:
               l’Esprit Saint que le Père enverra en mon nom,
               lui, vous enseignera tout,
               et il vous fera souvenir de tout ce que je vous ai dit. »
-    offeringPrayer: null
-    prefaceList: null
-    communionAntiphon: null
-    prayerAfterCommunion: null
+    offeringPrayer:
+    - |-
+      Nous t’en prions, Seigneur: *
+      selon la promesse de ton Fils,
+      que l’Esprit Saint nous fasse entrer plus avant
+      >dans l’intelligence du sacrifice que nous célébrons /
+      et nous ouvre à la vérité tout entière.
+      Par le Christ, notre Seigneur.
+    prefaceList: 
+    - pentecost
+    eucharisticPrayerCommunicantes: pentecost
+    communionAntiphon:
+    - biblicalReference: Ac 2, 4. 11
+      content: |-
+        Tous furent remplis de l’Esprit Saint,
+        et proclamaient les merveilles de Dieu, alléluia.
+    prayerAfterCommunion:
+    - |-
+      Seigneur Dieu,
+      tu accordes largement les dons du ciel à ton Église, +
+      protège la grâce que tu lui as donnée: *
+      que l’effusion de l’Esprit Saint
+      >agisse avec toujours plus de force, /
+      et que cette nourriture spirituelle multiplie les effets
+      >de la rédemption éternelle.
+      Par le Christ, notre Seigneur.
     solemnBlessingList: null

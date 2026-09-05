@@ -6,6 +6,11 @@ celebration:
 oration:
   - Puisqu’en ce jour, Seigneur, les saints Innocents ont annoncé ta gloire, non point par la parole, mais par leur seule mort ; fais que notre vie tout entière témoigne de la foi que notre bouche proclame.
 
+invitatory:
+  antiphon:
+  - |-
+    Venez, adorons le Christ en sa naissance : il est la gloire des saints innocents.
+
 readings:
   hymn:
     - une-parole-a-suffi
@@ -103,7 +108,12 @@ morning:
       — veille sur l’enfance en proie à la famine, à la guerre et au malheur.
 
 middleOfDay:
+  psalmody:
+  - psalm: PSALM_118_22
+  - psalm: PSALM_44_1
+  - psalm: PSALM_44_2
   tierce:
+    antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
     reading:
       biblicalReference: Cf. Lm 1, 16
       content: |-
@@ -112,6 +122,7 @@ middleOfDay:
       V/ Le Seigneur les a revêtus de la robe d’allégresse :
       il a posé sur leur tête une couronne de beauté.
   sexte:
+    antiphon: Marie retenait toutes ces paroles et les méditait dans son cœur.
     reading:
       biblicalReference: Lm 2,11
       content: Mes yeux sont ravagés par les larmes, mes entrailles frémissent, mon cœur défaille, à cause du désastre de la ville de mon peuple, car les enfants et les tout-petits s’effondrent dans les rues de la cité.
@@ -119,6 +130,7 @@ middleOfDay:
       V/ Les justes vivront éternellement,
       leur récompense est auprès du Seigneur.
   none:
+    antiphon: Mes yeux ont vu le salut que tu préparais à la face des peuples.
     reading:
       biblicalReference: Jr 31, 16-17a
       content: Assez ! Plus de voix plaintive, plus de larmes dans les yeux ! Ton labeur reçoit sa récompense. Ton avenir est plein d’espérance - oracle du Seigneur.
@@ -127,10 +139,20 @@ middleOfDay:
       criant leur joie à l’heure du triomphe.
 
 vespers:
+  hymn:
+  - a-pleine-voix
   psalmody:
-    - psalm: PSALM_109
-    - psalm: PSALM_129
-    - psalm: NT_6
+  - psalm: PSALM_109
+    antiphon:
+    - |-
+      Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté : Comme la rosée qui naît de l’aurore, je t’ai engendré.
+  - psalm: PSALM_129
+    antiphon:
+    - Oui, près du Seigneur est l’amour ; près de lui abonde le rachat.
+  - psalm: NT_6
+    antiphon:
+    - |-
+      Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui : c’est le Sauveur du monde.
   reading:
     biblicalReference: Ep 2, 3b-5
     content: |-

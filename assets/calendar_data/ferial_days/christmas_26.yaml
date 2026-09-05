@@ -117,7 +117,12 @@ morning:
       — fais-nous vaincre les tentations de ce monde.
 
 middleOfDay:
+  psalmody:
+  - psalm: PSALM_118_20
+  - psalm: PSALM_127
+  - psalm: PSALM_128
   tierce:
+    antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
     reading:
       biblicalReference: 1 P 5, 10-11
       content: Dieu, qui donne toute grâce, lui qui vous a appelés dans le Christ à sa gloire éternelle, vous rétablira, après que vous aurez souffert un peu de temps ; il vous affermira, vous fortifiera, vous rendra inébranlables. À lui la puissance pour tous les siècles. Amen.
@@ -125,6 +130,7 @@ middleOfDay:
       V/ Le Seigneur l’a revêtu de la robe d’allégresse :
       il a posé sur sa tête une couronne de beauté.
   sexte:
+    antiphon: Marie retenait toutes ces paroles et les méditait dans son cœur.
     reading:
       biblicalReference: Jc 1, 12
       content: Heureux l’homme qui supporte l’épreuve avec persévérance, car, une fois vérifiée sa qualité, il recevra la couronne de la vie comme la récompense promise à ceux qui aiment Dieu.
@@ -132,6 +138,7 @@ middleOfDay:
       V/ Sur Dieu, je prends appui :
       plus rien ne me fait peur.
   none:
+    antiphon: Mes yeux ont vu le salut que tu préparais à la face des peuples.
     reading:
       biblicalReference: Sg 3, 1-2a.3b
       content: La vie des justes est dans la main de Dieu, aucun tourment n’a de prise sur eux. Celui qui ne réfléchit pas s’est imaginé qu’ils étaient morts, alors qu’ils sont dans la paix.
@@ -183,15 +190,15 @@ mass:
   - content: |-
       Pour lui, les portes du ciel se sont ouvertes :
       premier de tous les martyrs,
-        il reçoit dans les cieux la couronne du vainqueur.
+      >il reçoit dans les cieux la couronne du vainqueur.
   collect:
   - |-
     Puisque nous célébrons la naissance au ciel
-      du bienheureux Étienne qui a su prier pour ses persécuteurs, %
+    >du bienheureux Étienne qui a su prier pour ses persécuteurs, %
     donne-nous, Seigneur, d’imiter ce que nous célébrons /
-      pour apprendre à aimer jusqu’à nos ennemis.
+    >pour apprendre à aimer jusqu’à nos ennemis.
     Par Jésus Christ, ton Fils, notre Seigneur, +
-      qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING_1
@@ -293,9 +300,9 @@ mass:
   offeringPrayer:
   - |-
     Nous t’en prions, Seigneur : %
-      accepte les offrandes que nous te présentons de grand cœur /
+    >accepte les offrandes que nous te présentons de grand cœur /
     en ce jour où nous y invite la glorieuse mémoire
-      du bienheureux Étienne, ton martyr.
+    >du bienheureux Étienne, ton martyr.
     Par le Christ, notre Seigneur.
   prefaceList:
   - nativity_of_the_lord_1
@@ -305,13 +312,13 @@ mass:
   communionAntiphon:
   - content: |-
       Étienne, pendant qu’on le lapidait, priait ainsi :
-        « Seigneur Jésus, reçois mon esprit. »
+      >« Seigneur Jésus, reçois mon esprit. »
   prayerAfterCommunion:
   - |-
     Seigneur, nous te rendons grâce
-      pour les multiples gestes de ta miséricorde envers nous, %
+    >pour les multiples gestes de ta miséricorde envers nous, %
     toi qui nous sauves par la nativité de ton Fils /
-      et nous réjouis par la fête
-      du bienheureux Étienne, ton martyr.
+    >et nous réjouis par la fête
+    >du bienheureux Étienne, ton martyr.
     Par le Christ, notre Seigneur.
   solemnBlessingList: null

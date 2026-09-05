@@ -55,7 +55,16 @@ Future<MiddleOfDay> middleOfDayExport(
   middleOfDayOffice.hymnNone ??= await getNoneHymns(liturgicalTime, celebrationContext.dataLoader);
 
   // 4c. PER-HOUR PSALMODY
-  if (celebrationContext.precedence != null &&
+  // Baptism of the Lord: precedence 5 (a Feast, not a Solemnity) and no
+  // ferial day underneath (see date_tools.dart's ferialDayCheck), so
+  // neither branch below would otherwise run. It normally falls on the
+  // Sunday after Epiphany — same gradual psalms as any other Solemnity
+  // Sunday — but moves to the following Monday when Epiphany itself falls
+  // on Jan 6 or 7 (baptism() in common_calendar_definitions.dart), each of
+  // those two Mondays using its own psalms instead.
+  if (celebrationContext.celebrationCode == 'roman/baptism') {
+    middleOfDayOffice.psalmody = _baptismPsalmody(celebrationContext.date);
+  } else if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
@@ -188,6 +197,18 @@ Future<MiddleOfDay> middleOfDayExport(
 }
 
 // --- HELPERS ---
+
+/// Psalmody for Baptism of the Lord's Tierce/Sexte/None (see 4c above).
+/// Same 3 psalms shared across all three hours, each getting its own
+/// antiphon from the proper file's tierce/sexte/none.antiphon.
+List<PsalmEntry> _baptismPsalmody(DateTime date) {
+  final codes = switch ((date.month, date.day)) {
+    (1, 8) => const ['PSALM_118_6', 'PSALM_39_1', 'PSALM_39_2'],
+    (1, 9) => const ['PSALM_118_12', 'PSALM_70_1', 'PSALM_70_2'],
+    _ => sunday1PsalmsForMiddleOfDay,
+  };
+  return codes.map((c) => PsalmEntry(psalm: c)).toList();
+}
 
 /// Builds per-hour psalmody lists on [office] for solemnities (step 3b).
 void _buildPerHourPsalmody(

@@ -19,6 +19,14 @@
 // sans report. Le référentiel suit la règle du Missel (donc ce test valide
 // le comportement du programme sur ce point, pas la pratique AELF réelle).
 //
+// Le 26, 27 et 28 décembre (Étienne, Jean l'évangéliste, Saints
+// Innocents) ne passent pas par common_feasts.yaml : leur titre
+// ('christmas_26'/'christmas_27'/'christmas_28', précédence 7) est posé
+// directement par _fillChristmasToBaptism. Quand la Sainte Famille tombe
+// ce même jour (Noël un jeudi/vendredi/samedi — 2014, 2015 et 2021 dans
+// cette plage), elle remplace entièrement ce titre : la fête est alors
+// correctement absente cette année-là, pas un trou de calendrier.
+//
 // Voir test/fixtures/reference_solemnities_feasts_france.csv pour les
 // données, et CLAUDE.md pour le système de precedence (1-3 solennités,
 // 4-5 fêtes).
@@ -82,6 +90,19 @@ const Map<String, String> _expectedSlug = {
   // Pas un saint, mais même précédence (7) et même mécanisme de résolution :
   // ajoutée avec le lot pour ne pas laisser de trou dans le référentiel.
   'Dédicace de la basilique du Latran': 'lateran_basilica',
+};
+
+/// Les 26, 27 et 28 décembre (Étienne, Jean, Saints Innocents) ne passent
+/// pas par common_feasts.yaml : leur titre est directement posé par
+/// _fillChristmasToBaptism sous une forme générique ('christmas_26', etc.,
+/// précédence 7), sans clé "roman/xxx". Certaines années, la Sainte
+/// Famille (précédence 6) tombe sur ce même jour et remplace entièrement
+/// ce titre — la fête est alors correctement absente cette année-là (pas
+/// un trou de calendrier).
+const Map<String, int> _christmasOctaveDay = {
+  'Saint Étienne, premier martyr': 26,
+  'Saint Jean, apôtre et évangéliste': 27,
+  'Les Saints Innocents, martyrs': 28,
 };
 
 class _ReferenceRow {
@@ -170,6 +191,13 @@ bool _matches(_ReferenceRow row, DayContent content) {
   }
   if (row.name == 'Mercredi des Cendres') {
     return content.defaultCelebrationTitle == 'lent_0_3';
+  }
+
+  final octaveDay = _christmasOctaveDay[row.name];
+  if (octaveDay != null) {
+    return (content.defaultCelebrationTitle == 'christmas_$octaveDay' &&
+            content.precedence == 7) ||
+        content.defaultCelebrationTitle == 'roman/holy_family';
   }
 
   final slug = _expectedSlug[row.name];

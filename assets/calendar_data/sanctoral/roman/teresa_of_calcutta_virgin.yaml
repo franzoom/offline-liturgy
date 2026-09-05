@@ -7,8 +7,9 @@ celebration:
   - saints-female_caritative
   color: white
 
-oration:
-  - Dieu qui as suscité par ton Esprit sainte Thérèse d’Avila pour montrer à l’Église le chemin de la perfection, fais-nous trouver notre nourriture dans sa doctrine spirituelle et brûler du désir de la véritable sainteté.
+oration: 
+  - |-
+    Dieu qui as appelé la bienheureuse vierge Teresa à une extrême charité envers les plus pauvres pour répondre à l’amour de ton Fils mourant de soif sur la croix ; nous t’en prions : accorde-nous, par son intercession, de servir le Christ en secourant nos frères dans l’épreuve.
 
 readings:
   hymn:
@@ -35,3 +36,49 @@ readings:
         par les ruelles et les places,
         je chercherai celui qu’aime mon âme. »
         * Remets au Seigneur.
+
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Ps 41,2-3
+    content: |-
+      À pleines mains, il donne au pauvre ;
+      à jamais se maintiendra sa justice,
+      >sa puissance grandira, et sa gloire.
+  collect:
+  - |-
+    Dieu qui as appelé la bienheureuse vierge Teresa
+    >à une extrême charité envers les plus pauvres
+    pour répondre à l’amour de ton Fils
+    >mourant de soif sur la croix ;
+    nous t’en prions :
+    accorde-nous, par son intercession,
+    de servir le Christ
+    >en secourant nos frères dans l’épreuve.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur,
+    >les dons offerts par ton peuple ;
+    et puisque nous rappelons l’œuvre d’amour infini
+    >accomplie par ton Fils,
+    donne-nous, à l’exemple de sainte Teresa de Calcutta,
+    d’être affermis dans notre amour
+    >pour toi et pour le prochain.
+  communionAntiphon:
+  - biblicalReference: cf. Jn 15, 13
+    content: |-
+      Il n’y a pas de plus grand amour
+      >que de donner sa vie pour ses amis,
+      dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Nourris et comblés de ce sacrement du salut,
+    nous implorons ta bonté, Seigneur :
+    fais qu’en pratiquant la charité
+    >à l’imitation de sainte Teresa de Calcutta
+    nous ayons aussi part à sa gloire.
+    Par le Christ, notre Seigneur.

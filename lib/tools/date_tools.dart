@@ -19,12 +19,14 @@ extension DateNavigation on DateTime {
   }
 }
 
-final _specialChristmasPattern =
-    RegExp(r'^christmas_2[6-9]$|^christmas_3[0-1]$');
+final _specialChristmasPattern = RegExp(r'^christmas_2[6-8]$');
 
 /// Detects if a celebration is a ferial day
 /// Returns true if the celebration name starts with one of the ferial prefixes
-/// Special cases: christmas_26 to christmas_31 are NOT ferial days (they are proper celebrations)
+/// Special cases: christmas_26 to christmas_28 are NOT ferial days (proper
+/// celebrations with no underlying ferial day). christmas_29-31 ARE ferial:
+/// starting Dec 29, the day is a normal ferial day again (a saint may be
+/// celebrated on top of it, pulling in a Common as usual).
 bool ferialDayCheck(String celebrationCode) {
   if (_specialChristmasPattern.hasMatch(celebrationCode)) return false;
   return timePrefixes.any((prefix) => celebrationCode.startsWith(prefix));

@@ -34,16 +34,20 @@ Future<Mass> massExport(CelebrationContext context) async {
 
   final int prec = context.precedence ?? 13;
 
-  // Dec 26-31 (Christmas Octave): these are proper celebrations with no
-  // separate ferial day underneath — their own file (in ferial_days/) is
-  // the day's only Mass, but ferialCode is left empty for them (see
-  // date_tools.dart's ferialDayCheck), so STEP 1 below never runs and
-  // massesOffice stays empty. Their precedence (6/7/9, see
-  // main_calendar_fill.dart) is > 5, so without this, STEP 3/4 would take
-  // the memorial-only overlayPrayerFields path, which requires an existing
-  // Mass to enrich and silently does nothing on an empty base — losing the
-  // whole Mass. Force the full-overlay path for exactly these dates.
-  final bool isChristmasOctave = context.liturgicalTime == 'christmasoctave';
+  // Dec 26-28 (Christmas Octave, proper-only days): these have no separate
+  // ferial day underneath — their own file (in ferial_days/) is the day's
+  // only Mass, but ferialCode is left empty for them (see date_tools.dart's
+  // ferialDayCheck), so STEP 1 below never runs and massesOffice stays
+  // empty. Their precedence (6/7, see main_calendar_fill.dart) is > 5, so
+  // without this, STEP 3/4 would take the memorial-only overlayPrayerFields
+  // path, which requires an existing Mass to enrich and silently does
+  // nothing on an empty base — losing the whole Mass. Force the
+  // full-overlay path for exactly these dates. Dec 29-31 are a normal
+  // ferial day again (ferialDayCheck) and don't need this: forcing them too
+  // would let a competing saint's own readingParts override the day's,
+  // which is wrong for a plain memorial.
+  final bool isChristmasOctave =
+      context.liturgicalTime == 'christmasoctave' && context.date.day <= 28;
 
   // STEP 1: Load ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {

@@ -142,14 +142,14 @@ void applyCommonFeastsToCalendar(
       liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
 
   for (final feast in commonFeasts) {
-    final feastDate = resolveFixedFeastDate(
+    final feastDates = resolveFixedFeastDate(
       liturgicalYear: liturgicalYear,
       month: feast.month!,
       day: feast.day!,
       beginYear: beginYear,
       endYear: endYear,
     );
-    if (feastDate != null) {
+    for (final feastDate in feastDates) {
       calendar.addItemToDay(feastDate, feast.precedence!, 'roman/${feast.key}');
     }
   }

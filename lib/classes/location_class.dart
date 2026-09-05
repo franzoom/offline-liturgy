@@ -58,22 +58,36 @@ class LocationFeast {
   }
 }
 
-/// Resolves [month]/[day] to a concrete date within the liturgical year
-/// bounded by [beginYear]/[endYear] (inclusive) — falling back to
-/// [liturgicalYear] - 1 if the naive date lands after [endYear] — and
-/// returns null if the resolved date still falls outside that window.
-DateTime? resolveFixedFeastDate({
+/// Resolves [month]/[day] to every concrete date within the liturgical
+/// year bounded by [beginYear]/[endYear] (inclusive).
+///
+/// Usually returns a single date. But a 53-week liturgical year (window
+/// length > 365 days) can span *two* calendar occurrences of the same
+/// month/day — e.g. two Nov 30ths — while the following, shorter
+/// liturgical year then spans none. A resolver that only ever returns one
+/// date per liturgical year always drops one of the two in that case
+/// (this is how Saint Andrew, Nov 30, used to vanish outright in 2011,
+/// 2016 and 2022: whichever neighbouring liturgical year "claimed" its
+/// single slot left the other with nothing). Returning every occurrence
+/// that actually falls in the window — and letting the caller add each
+/// one — keeps every civil year's occurrence covered exactly once across
+/// the whole span of liturgical years, however the window happens to
+/// fall.
+List<DateTime> resolveFixedFeastDate({
   required int liturgicalYear,
   required int month,
   required int day,
   required DateTime beginYear,
   required DateTime endYear,
 }) {
-  var date = DateTime(liturgicalYear, month, day);
-  if (date.isAfter(endYear)) {
-    date = DateTime(liturgicalYear - 1, month, day);
+  final dates = <DateTime>[];
+  for (int year = beginYear.year; year <= endYear.year; year++) {
+    final date = DateTime(year, month, day);
+    if (!date.isBefore(beginYear) && !date.isAfter(endYear)) {
+      dates.add(date);
+    }
   }
-  return (!date.isBefore(beginYear) && !date.isAfter(endYear)) ? date : null;
+  return dates;
 }
 
 class Location {
@@ -138,7 +152,7 @@ class Location {
     final endYear =
         liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
 
-    DateTime? resolveDate(LocationFeast feast) => resolveFixedFeastDate(
+    List<DateTime> resolveDates(LocationFeast feast) => resolveFixedFeastDate(
           liturgicalYear: liturgicalYear,
           month: feast.month!,
           day: feast.day!,
@@ -163,8 +177,7 @@ class Location {
           }
         }
       } else {
-        final d = resolveDate(feast);
-        if (d != null) {
+        for (final d in resolveDates(feast)) {
           final key = prefixed(feast.key);
           final storedKey = calendar.addItemToDay(d, feast.precedence!, key,
               knownCodes: knownCodes);
@@ -174,8 +187,7 @@ class Location {
     }
 
     for (final feast in moveFeasts) {
-      final d = resolveDate(feast);
-      if (d != null) {
+      for (final d in resolveDates(feast)) {
         final resolvedKey =
             calendar.moveItemToDate(feast.key, d, feast.precedence!);
         calendar.setFeastOrigin(

@@ -69,8 +69,13 @@ Future<Vespers> _resolveAdvent(
     int day = int.parse(parts[2]);
 
     final results = await Future.wait([
+      // The special day's own file (Dec 17-24) never has a firstVespers:
+      // section of its own — it's a weekday, with a single vespers: block
+      // (the O antiphon) reused as-is for a Sunday's First Vespers when
+      // day == 0 below. Always read it as 'vespers', regardless of which
+      // Vespers is being resolved for the Sunday/weekday itself.
       vespersExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader,
-          section: section),
+          section: 'vespers'),
       vespersExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader,
           section: section),
     ]);

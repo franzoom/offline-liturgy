@@ -74,6 +74,16 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     'transfiguration_of_the_lord',
     'exaltation_of_the_holy_cross',
   };
+
+  // A Solemnity of the Lord's First Vespers always wins over a Sunday's
+  // Second Vespers, even when both share the same raw precedence (2) — e.g.
+  // the Nativity (Dec 25) vs. the 4th Sunday of Advent when Dec 24 falls on
+  // a Sunday. Of the precedence-2 Solemnities of the Lord, only the
+  // Nativity's eve can actually land on a precedence-2 Sunday (Ascension's
+  // eve is always a Wednesday, Pentecost's eve a Saturday, Mary Mother of
+  // God's eve is within the Christmas Octave at precedence 6/9) — so this
+  // set only needs the one entry for now.
+  const sundayTieBreakingFirstVespersCodes = {'roman/nativity'};
   bool isFirstVespersAllowed(CelebrationContext c) {
     if (sundayOnlyFirstVespersCodes.contains(c.celebrationCode)) {
       return tomorrow.isSunday;
@@ -122,13 +132,24 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final bool hasHighPriorityToday = highestTodayPrecedence <= 6;
   final bool hasHighPriorityTomorrow = highestTomorrowPrecedence <= 6;
 
+  // Does tomorrow's winning First Vespers candidate belong to the
+  // tie-breaking set above? If so, a Sunday's Second Vespers today must
+  // give way even at equal precedence (see comment above the set).
+  final bool tomorrowWinsTies = date.isSunday &&
+      firstVespersCandidates.any((c) =>
+          sundayTieBreakingFirstVespersCodes.contains(c.celebrationCode) &&
+          (c.precedence ?? _defaultPrecedence) == highestTomorrowPrecedence);
+
   // Add today's celebrations
   for (final c in vespersEligible) {
     // If tomorrow has First Vespers with higher precedence (lower number),
     // today's Vespers may not be celebrable
     bool isCelebrable = c.isCelebrable;
     if (hasHighPriorityTomorrow &&
-        (c.precedence ?? _defaultPrecedence) > highestTomorrowPrecedence) {
+        ((c.precedence ?? _defaultPrecedence) > highestTomorrowPrecedence ||
+            (tomorrowWinsTies &&
+                (c.precedence ?? _defaultPrecedence) ==
+                    highestTomorrowPrecedence))) {
       isCelebrable = false;
     }
 

@@ -34,6 +34,17 @@ Future<Mass> massExport(CelebrationContext context) async {
 
   final int prec = context.precedence ?? 13;
 
+  // Dec 26-31 (Christmas Octave): these are proper celebrations with no
+  // separate ferial day underneath — their own file (in ferial_days/) is
+  // the day's only Mass, but ferialCode is left empty for them (see
+  // date_tools.dart's ferialDayCheck), so STEP 1 below never runs and
+  // massesOffice stays empty. Their precedence (6/7/9, see
+  // main_calendar_fill.dart) is > 5, so without this, STEP 3/4 would take
+  // the memorial-only overlayPrayerFields path, which requires an existing
+  // Mass to enrich and silently does nothing on an empty base — losing the
+  // whole Mass. Force the full-overlay path for exactly these dates.
+  final bool isChristmasOctave = context.liturgicalTime == 'christmasoctave';
+
   // STEP 1: Load ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {
     massesOffice = await ferialMassResolution(context);
@@ -64,11 +75,13 @@ Future<Mass> massExport(CelebrationContext context) async {
   // STEP 3: Handle commons — same precedence boundary as STEP 4 below, so
   // a memorial's Common never leaks its readingParts in unconditionally
   // (only STEP 5b's explicit opt-in may add readings from the Common).
+  // Exception: the Christmas Octave (see isChristmasOctave above) always
+  // takes the full-overlay branch regardless of precedence.
   final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
   Masses commonMasses = Masses();
   if (hasCommon) {
     commonMasses = await loadMassHierarchicalCommon(context);
-    if (prec <= 5) {
+    if (prec <= 5 || isChristmasOctave) {
       massesOffice.overlayWith(commonMasses);
     } else {
       massesOffice.overlayPrayerFields(commonMasses);
@@ -83,7 +96,9 @@ Future<Mass> massExport(CelebrationContext context) async {
   //    texts apply, layered after the Common above so the saint's own
   //    texts always win over the Common's generic ones when present.
   //    readingParts stay governed separately — see STEP 5b.
-  if (prec <= 5) {
+  //  - Christmas Octave (see isChristmasOctave above): always the full
+  //    overlay branch too, for the same reason as STEP 3.
+  if (prec <= 5 || isChristmasOctave) {
     massesOffice.overlayWith(properMasses);
   } else {
     massesOffice.overlayPrayerFields(properMasses);

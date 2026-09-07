@@ -151,15 +151,19 @@ Future<Mass> massExport(CelebrationContext context) async {
     }
   }
 
-  // STEP 6: Filter readingParts to the applicable lectionary cycle —
-  // Sunday/major feasts use the A/B/C cycle, weekdays the I/II cycle.
+  // STEP 6: Filter readingParts to the applicable lectionary cycle(s) —
+  // Sunday/major feasts use the A/B/C cycle, weekdays the I/II cycle. A
+  // weekday checks both: a handful of Lenten weekdays (e.g. the 5th Monday
+  // of Lent) key their Gospel choice off the Sunday A/B/C letter instead of
+  // the weekday cycle, to avoid repeating the adjacent Sunday's Gospel — the
+  // two value sets never overlap, so checking both is always safe.
   // Entries without a cycle tag (e.g. the weekday Gospel) are always kept.
   final int? year = context.liturgicalYear;
   if (year != null) {
-    final String cycleKey = context.date.isSunday
-        ? liturgicalYear(year)
-        : weekdayLectionaryYear(year);
-    _filterMassByCycle(selected, cycleKey);
+    final List<String> cycleKeys = context.date.isSunday
+        ? [liturgicalYear(year)]
+        : [weekdayLectionaryYear(year), liturgicalYear(year)];
+    _filterMassByCycle(selected, cycleKeys);
   }
 
   // STEP 7: Resolve the proper sequence's, solemn blessing's, eucharistic
@@ -186,10 +190,10 @@ Future<Masses> _loadProperMasses(CelebrationContext context) async {
       '$filePath/${context.celebrationCode}.yaml', context.dataLoader);
 }
 
-/// Keeps only the partContents entries relevant to [cycleKey] in each
-/// readingPart of [mass], mutating it in place. Entries with no cycle tag
-/// are universal and always kept.
-void _filterMassByCycle(Mass mass, String cycleKey) {
+/// Keeps only the partContents entries relevant to one of [cycleKeys] in
+/// each readingPart of [mass], mutating it in place. Entries with no cycle
+/// tag are universal and always kept.
+void _filterMassByCycle(Mass mass, List<String> cycleKeys) {
   if (mass.readingParts == null) return;
   for (final part in mass.readingParts!) {
     part.partContents.removeWhere((content) {
@@ -198,7 +202,7 @@ void _filterMassByCycle(Mass mass, String cycleKey) {
         MassPsalm p => p.cycle,
         MassGospel g => g.cycle,
       };
-      return cycle != null && !cycle.contains(cycleKey);
+      return cycle != null && !cycle.any(cycleKeys.contains);
     });
   }
 }

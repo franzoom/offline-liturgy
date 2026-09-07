@@ -152,7 +152,8 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   // Check if there's a high priority celebration (feast or above: precedence <= 8)
   final bool hasHighPriority =
       allCelebrations.any((c) => c.precedence >= 1 && c.precedence <= 8);
-  final int bestPrecedence = allCelebrations.map((c) => c.precedence).reduce(min);
+  final int bestPrecedence =
+      allCelebrations.map((c) => c.precedence).reduce(min);
 
   // Sort: by precedence ascending, with special rule for ferial days (precedence 13)
   // Ferial days at precedence 13 should come before optional memorials (precedence 12)
@@ -181,7 +182,8 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
     if (RegExp(r'^christmas_\d{2}$').hasMatch(c.code)) {
       return dataLoader.loadYaml('$ferialFilePath/${c.code}.yaml');
     }
-    final filePath = ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
+    final filePath =
+        ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
     return dataLoader.loadYaml('$filePath/${c.code}.yaml');
   });
   final List<String> loadResults;
@@ -215,8 +217,8 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
             .loadYaml('$ferialFilePath/advent_${parts[1]}_${parts[2]}.yaml');
       } else {
         final parts = c.code.replaceFirst('christmas-', '').split('_');
-        return dataLoader.loadYaml(
-            '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml');
+        return dataLoader
+            .loadYaml('$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml');
       }
     });
     final ferialResults = await Future.wait(ferialFutures);
@@ -267,6 +269,19 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
     final String celebrationCode = celebration.code;
     final int precedence = celebration.precedence;
 
+    // A celebration genuinely outranked by the Triduum, a Solemnity, or a
+    // privileged Sunday of Advent/Lent/Easter (bestPrecedence <= 3) isn't
+    // merely uncelebrated — per the Table of Liturgical Days it is
+    // suppressed for the year entirely, so it's dropped here rather than
+    // surfacing as a browsable "not celebrated" option (e.g. an optional
+    // memorial that lands on Ascension or Holy Saturday). Ties
+    // (precedence == bestPrecedence) are unaffected. Below that threshold
+    // (an ordinary Feast, Sunday, or weekday outranking a memorial) the
+    // usual isCelebrable: false path still applies.
+    if (bestPrecedence <= 3 && precedence > bestPrecedence) {
+      continue;
+    }
+
     // Determine isCelebrable based on precedence rules
     final bool isSundayFerial = date.weekday == DateTime.sunday &&
         ferialDayCheck(celebrationCode) &&
@@ -304,7 +319,8 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
           celebrationGlobalName = yamlData.title!;
           if (yamlData.subtitle != null && yamlData.subtitle!.isNotEmpty) {
             final sub = yamlData.subtitle!;
-            celebrationGlobalName += ', ${sub[0].toLowerCase()}${sub.substring(1)}';
+            celebrationGlobalName +=
+                ', ${sub[0].toLowerCase()}${sub.substring(1)}';
           }
         }
       }
@@ -354,10 +370,12 @@ Future<Map<String, CelebrationContext>> buildDetectionMap(
   final map = <String, CelebrationContext>{};
   for (final c in celebrations) {
     final key = c.celebrationTitle ?? c.celebrationCode;
-    map.putIfAbsent(key, () => c.copyWith(
-      celebrationType: celebrationType,
-      officeDescription: c.celebrationGlobalName,
-    ));
+    map.putIfAbsent(
+        key,
+        () => c.copyWith(
+              celebrationType: celebrationType,
+              officeDescription: c.celebrationGlobalName,
+            ));
   }
   return map;
 }

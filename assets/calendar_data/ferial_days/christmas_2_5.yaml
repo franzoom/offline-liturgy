@@ -4,6 +4,9 @@ invitatory:
   antiphon:
   - Le Christ est né pour nous, alléluia ! Venez, adorons-le.
 
+oration:
+  - Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde ; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère.
+
 readings:
   psalmody:
   - psalm: PSALM_37_1
@@ -69,8 +72,6 @@ readings:
 
       Je mettrai en vous mon Esprit,
       et vous marcherez selon mes lois.
-  oration:
-  - Dieu tout-puissant, tu as signifié par une étoile qu’un Sauveur était né pour le monde ; maintiens ta lumière en nos cœurs pour que nous entrions plus avant dans ce mystère.
 
 morning:
   psalmody:
@@ -114,6 +115,8 @@ morning:
 
       Tu as confié à ton Église ta parole et ton corps :
       — qu’ils soient notre pain tous les jours.
+  oration:
+  - Dieu éternel et tout-puissant, tu as voulu que, dans ton Fils unique, nous devenions pour toi de nouvelles créatures ; que ta grâce nous modèle à l’image du Christ en qui notre nature est unie à la tienne. Lui qui règne.
 
 middleOfDay:
   psalmody:
@@ -126,7 +129,6 @@ middleOfDay:
   - psalm: PSALM_59
     antiphon:
     - Le Dieu de mon amour vient à moi.
-
   tierce:
     reading:
       biblicalReference: Cf. Jr 31, 7-8
@@ -149,6 +151,7 @@ middleOfDay:
     responsory: |-
       V/ Peuples, bénissez notre Dieu.
       Faites retentir sa louange.
+
 vespers:
   psalmody:
   - psalm: PSALM_114
@@ -190,8 +193,7 @@ vespers:
 
       Toi qui nous réjouis par la naissance du Christ,
       — accorde à nos frères défunts la joie parfaite.
-  oration:
-  - Dieu tout-puissant, par la maternité virginale de la bienheureuse Marie, tu as offert au genre humain les trésors du salut éternel ; accorde-nous de sentir qu’intervient en notre faveur celle qui nous permit d’accueillir l’auteur de la vie, Jésus Christ, ton Fils, notre Seigneur. Lui qui règne.
+
 mass:
 - massType: DAY_MASS
   note: null

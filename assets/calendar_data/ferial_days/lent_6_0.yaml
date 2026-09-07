@@ -244,15 +244,187 @@ vespers:
       fais entrer nos morts dans la Jérusalem céleste.
 mass:
 - massType: PROCESSION_WITH_PALMS
-  note: null
-  entranceAntiphon: null
-  collect: null
-  readingParts: null
+  entranceAntiphon:
+  - biblicalReference: Mt 21,9
+    content: |-
+      Hosanna au fils de David ! 
+      Béni soit celui qui vient au nom du Seigneur, le Roi d’Israël ! 
+      Hosanna au plus haut des cieux !
+
+  collect:
+  - |-
+    Dieu éternel et tout-puissant + 
+    >bénis et sanctifie  ces rameaux, * 
+    afin qu’en suivant dans l’allégresse le Christ notre Roi, /
+    >nous puissions parvenir par lui 
+    >jusqu’à la Jérusalem éternelle.
+    Lui qui vit et règne pour les siècles des siècles.
+  - |-
+    Augmente la foi de ceux qui espèrent en toi, Seigneur Dieu,
+    >exauce en ta bonté les prières de ceux qui te supplient : + 
+    aujourd’hui, nous tenons à la main ces rameaux 
+    >pour acclamer le Christ en son triomphe : * 
+    puissions-nous, par nos œuvres bonnes, / 
+    >porter en lui du fruit à ta gloire. 
+    Lui qui vit et règne pour les siècles des siècles.
+  readingParts:
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 21,1-11
+      cycle:
+      - A
+      headline: |-
+        « Béni soit celui qui vient au nom du Seigneur  »
+      content: |-
+        Jésus et ses disciples, approchant de Jérusalem, 
+        >arrivèrent en vue de Bethphagé, 
+        >sur les pentes du mont des Oliviers. 
+        Alors Jésus envoya deux disciples en leur disant : 
+        >« Allez au village qui est en face de vous ; 
+        >>vous trouverez aussitôt une ânesse attachée 
+        >>et son petit avec elle. 
+        >>Détachez-les et amenez-les-moi. 
+        >>Et si l’on vous dit quelque chose, vous répondrez : 
+        >> >“Le Seigneur en a besoin”. 
+        >>Et aussitôt on les laissera partir. » 
+
+        Cela est arrivé 
+        pour que soit accomplie la parole prononcée par le prophète : 
+        >>>%Dites à la fille de Sion : 
+        >>>Voici ton roi qui vient vers toi, plein de douceur, 
+        >>>monté sur une ânesse et un petit âne, 
+        >>>le petit d’une bête de somme.%
+
+        Les disciples partirent 
+        >et firent ce que Jésus leur avait ordonné. 
+        Ils amenèrent l’ânesse et son petit, 
+        >disposèrent sur eux leurs manteaux, 
+        >et Jésus s’assit dessus. 
+        Dans la foule, 
+        >la plupart étendirent leurs manteaux sur le chemin ; 
+        >d’autres coupaient des branches aux arbres 
+        >et en jonchaient la route. 
+        Les foules qui marchaient devant Jésus et celles qui suivaient criaient : 
+        >>« Hosanna au fils de David ! 
+        >>>Béni soit celui qui vient au nom du Seigneur ! 
+        >>>Hosanna au plus haut des cieux ! » 
+        Comme Jésus entrait à Jérusalem, 
+        >toute la ville fut en proie à l’agitation, et disait : 
+        >>« Qui est cet homme ? » 
+        Et les foules répondaient : 
+        >>« C’est le prophète Jésus, 
+        >>de Nazareth en Galilée. »
+    - biblicalRef: Mc 11,1-10
+      cycle:
+      - B
+      headline: |-
+        « Béni soit celui qui vient au nom du Seigneur  »
+      content: |-
+        Lorsqu’ils approchent de Jérusalem, 
+        >vers Bethphagé et Béthanie, 
+        >près du mont des Oliviers, 
+        Jésus envoie deux de ses disciples et leur dit : 
+        >« Allez au village qui est en face de vous. 
+        >>Dès que vous y entrerez, 
+        >>vous trouverez un petit âne attaché, 
+        >>sur lequel personne ne s’est encore assis. 
+        >>Détachez-le et amenez-le. 
+        >>Si l’on vous dit : 
+        >>> “Que faites-vous là ?”, 
+        >>répondez : 
+        >>> “Le Seigneur en a besoin,
+        >>> mais il vous le renverra aussitôt.” » 
+
+        Ils partirent, 
+        trouvèrent un petit âne attaché près d’une porte,
+        >dehors, dans la rue, 
+        et ils le détachèrent. 
+        Des gens qui se trouvaient là leur demandaient : 
+        >« Qu’avez-vous à détacher cet ânon ? » 
+        Ils répondirent ce que Jésus leur avait dit, et on les laissa faire.
+        Ils amenèrent le petit âne à Jésus, 
+        >le couvrirent de leurs manteaux,
+        >et Jésus s’assit dessus. 
+
+        Alors, beaucoup de gens étendirent leurs manteaux sur le chemin,
+        d’autres, des feuillages coupés dans les champs. 
+        Ceux qui marchaient devant et ceux qui suivaient criaient : 
+        >« Hosanna ! Béni soit celui qui vient au nom du Seigneur ! 
+        >Béni soit le Règne qui vient, celui de David, notre père. 
+        >Hosanna au plus haut des cieux ! »
+    - biblicalRef: Jn 12,12-16
+      cycle:
+      - B
+      headline: |-
+        « Béni soit celui qui vient au nom du Seigneur  »
+      content: |-
+        En ce temps-là, quelques jours avant la Pâque, 
+        >la grande foule venue pour la fête 
+        >apprit que Jésus arrivait à Jérusalem. 
+        Les gens prirent des branches de palmiers 
+        >et sortirent à sa rencontre. 
+        Ils criaient : 
+        >« Hosanna !
+        >>Béni soit celui qui vient au nom du Seigneur ! 
+        >>Béni soit le roi d’Israël ! » 
+
+        Jésus, trouvant un petit âne, s’assit dessus, comme il est écrit : 
+        >%Ne crains pas, fille de Sion. 
+        >Voici ton roi qui vient, assis sur le petit d’une ânesse.%
+        Cela, ses disciples ne le comprirent pas sur le moment ; 
+        mais, quand Jésus fut glorifié, 
+        >ils se rappelèrent que l’Écriture disait cela de lui : 
+        c’était bien ce qu’on lui avait fait.
+    - biblicalRef: Lc 19, 28-40
+      cycle:
+      - C
+      headline: |-
+        « Béni soit celui qui vient au nom du Seigneur  »
+      content: |-
+        Jésus partit en avant pour monter à Jérusalem. 
+        Lorsqu’il approcha de Bethphagé et de Béthanie, 
+        >près de l’endroit appelé mont des Oliviers, 
+        >il envoya deux de ses disciples, en disant : 
+        >>« Allez à ce village d’en face. 
+        >>À l’entrée, vous trouverez un petit âne attaché, 
+        >>sur lequel personne ne s’est encore assis. 
+        >>Détachez-le et amenez-le. 
+        >>Si l’on vous demande : “Pourquoi le détachez-vous ?” 
+        >>vous répondrez : “Parce que le Seigneur en a besoin.” » 
+        
+        Les envoyés partirent 
+        >et trouvèrent tout comme Jésus leur avait dit. 
+        Alors qu’ils détachaient le petit âne, 
+        >ses maîtres leur demandèrent : 
+        >>« Pourquoi détachez-vous l’âne ? » 
+        Ils répondirent : 
+        >« Parce que le Seigneur en a besoin. » 
+        Ils amenèrent l’âne auprès de Jésus, 
+        >jetèrent leurs manteaux dessus, 
+        >et y firent monter Jésus. 
+        À mesure que Jésus avançait, 
+        >les gens étendaient leurs manteaux sur le chemin. 
+        Alors que déjà Jésus approchait 
+        >de la descente du mont des Oliviers, 
+        toute la foule des disciples, remplie de joie, 
+        >se mit à louer Dieu à pleine voix 
+        >pour tous les miracles qu’ils avaient vus, 
+        et ils disaient : 
+        >« Béni soit celui qui vient, 
+        >>le Roi, au nom du Seigneur. 
+        >>Paix dans le ciel et gloire au plus haut des cieux ! » 
+        Quelques pharisiens, qui se trouvaient dans la foule, 
+        dirent à Jésus : 
+        >« Maître, réprimande tes disciples ! » 
+        Mais il prit la parole en disant : 
+        >« Je vous le dis : si eux se taisent, les pierres crieront. »
   offeringPrayer: null
   prefaceList: null
   communionAntiphon: null
   prayerAfterCommunion: null
   solemnBlessingList: null
+
+
 - massType: MASS_OF_THE_PASSION
   note: null
   entranceAntiphon:

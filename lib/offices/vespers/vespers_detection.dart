@@ -73,10 +73,15 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     return RegExp(r'^easter_1_[0-6]$').hasMatch(code);
   });
 
-  // First Vespers of these feasts are only celebrated when they fall on a Sunday
+  // First Vespers of these feasts are only celebrated when they fall on a
+  // Sunday (Holy Family: on its usual Sunday, First Vespers is its own; when
+  // Christmas is itself a Sunday and Holy Family is fixed to Dec 30 instead,
+  // there is no First Vespers of Holy Family — the ferial Vespers of that
+  // Christmas Octave day is celebrated normally).
   const sundayOnlyFirstVespersCodes = {
-    'transfiguration_of_the_lord',
-    'exaltation_of_the_holy_cross',
+    'roman/transfiguration_of_the_lord',
+    'roman/exaltation_of_the_holy_cross',
+    'roman/holy_family',
   };
 
   // A Solemnity of the Lord's First Vespers always wins over a Sunday's

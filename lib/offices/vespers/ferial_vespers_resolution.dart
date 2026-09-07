@@ -68,6 +68,15 @@ Future<Vespers> _resolveAdvent(
     int week = int.parse(parts[1]);
     int day = int.parse(parts[2]);
 
+    // First Vespers of a Sunday is prayed the evening BEFORE — its "O"
+    // antiphon follows that evening's own date, not the Sunday being
+    // anticipated (e.g. First Vespers of the 4th Sunday on Dec 22 uses
+    // Dec 21's "O Oriens", not Dec 22's "O Rex Gentium" — confirmed
+    // against AELF).
+    if (section == 'firstVespers' && day == 0) {
+      specialDay -= 1;
+    }
+
     final results = await Future.wait([
       // The special day's own file (Dec 17-24) never has a firstVespers:
       // section of its own — it's a weekday, with a single vespers: block

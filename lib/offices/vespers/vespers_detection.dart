@@ -88,7 +88,15 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // God's eve is within the Christmas Octave at precedence 6/9) — so this
   // set only needs the one entry for now.
   const sundayTieBreakingFirstVespersCodes = {'roman/nativity'};
+
+  // The Commemoration of All the Faithful Departed (Table item 3, alongside
+  // solemnities) never has a First Vespers of its own — the Office of the
+  // Dead used that day has no Vespers I, unlike a true solemnity.
+  const neverFirstVespersCodes = {
+    'roman/commemoration_of_all_the_faithful_departed',
+  };
   bool isFirstVespersAllowed(CelebrationContext c) {
+    if (neverFirstVespersCodes.contains(c.celebrationCode)) return false;
     if (sundayOnlyFirstVespersCodes.contains(c.celebrationCode)) {
       return tomorrow.isSunday;
     }

@@ -204,6 +204,8 @@ const Map<String, String> massTypeLabels = {
   'FIRST_MASS': 'Première messe',
   'SECOND_MASS': 'Deuxième messe',
   'THIRD_MASS': 'Troisième messe',
+  'CHRISM_MASS': 'Messe Chrismale',
+  'CAENA_DOMINI': 'Messe en mémoire de la Cène du Seigneur',
   'CELEBRATION_OF_THE_PASSION': 'Célébration de la Passion',
   'PROCESSION_WITH_PALMS': 'Procession des Rameaux',
   'MASS_OF_THE_PASSION': 'Messe de la Passion'

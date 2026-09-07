@@ -2,7 +2,7 @@
 
 `dart test test/office_content_coverage_test.dart -r expanded`
 
-Mis à jour le 2026-09-07 — 29 anomalies restantes (contre 814 au premier passage), 3283 offices vérifiés (Lyon, 2026). Un autre processus corrige des contenus en parallèle : ce compte est un instantané, pas une valeur stable.
+Mis à jour le 2026-09-07 — 24 anomalies restantes (contre 814 au premier passage), 3282 offices vérifiés (Lyon, 2026). Un autre processus corrige des contenus en parallèle : ce compte est un instantané, pas une valeur stable.
 
 ## Semaine sainte
 
@@ -12,7 +12,6 @@ Mis à jour le 2026-09-07 — 29 anomalies restantes (contre 814 au premier pass
 
 ## Commémoraison de tous les fidèles défunts
 
-- [ ] Ières Vêpres (1^er nov.) — entièrement vides.
 - [ ] Les 3 messes du 2 nov. — lectures absentes (cycle courant et cycle 1) ; le reste de la messe est désormais complet.
 
 ## Cas isolés
@@ -30,3 +29,5 @@ Lundi Saint — Ières Vêpres : ce n'était pas un trou de contenu mais un faux
 Trous de cycle lectionnaire (évangile) — Lundi de la 5^e semaine de Carême / Saint Turibio, Lundi de la 4^e semaine du Temps pascal : même cause que le bug d'affichage signalé sur `lent_5_1` (voir ce fichier) — `massExport` ne comparait les tags de cycle qu'à une seule clé (I/II en semaine, A/B/C le dimanche), alors que certains évangiles de semaine (dont celui-ci) sont volontairement tagués A/B/C pour éviter de répéter l'évangile du dimanche voisin. Corrigé dans `mass_export.dart` : un jour de semaine vérifie désormais les deux systèmes de cycle.
 
 Saint Isidore, Saint Matthias, Sainte Cécile, Saint Vincent Ferrier, Saint Stanislas, Saint Jean-Baptiste de la Salle, Mardi dans l'octave de Pâques : ce n'étaient pas des trous de contenu — ces mémoires/fêtes tombent des années où elles sont entièrement supplantées par le Samedi Saint, l'Ascension ou le Christ Roi (précédence ≤ 3, Triduum/solennité/dimanche privilégié). Le Missel les supprime purement et simplement cette année-là, elles ne devraient même pas apparaître comme option « non célébrée » à parcourir — `detectCelebrations()` les renvoyait quand même. Corrigé dans `office_detection.dart` : une célébration dont la précédence est strictement supérieure à `bestPrecedence` quand `bestPrecedence <= 3` n'est plus renvoyée du tout (les égalités de rang restent visibles).
+
+Ières Vêpres de la Commémoraison des défunts (1^er nov.) : même famille de bug que « Lundi Saint — Ières Vêpres » plus haut, mais sur une branche différente du filtre. La Commémoraison (précédence 3, non férial) passait la condition générale « non férial + précédence ≤ 5 » de `vespersDetection`, qui suppose que tout candidat à ce niveau a des Vêpres I — faux ici : l'Office des défunts n'en comporte pas, contrairement à une vraie solennité. Corrigé en l'ajoutant à une liste d'exclusion dédiée (`neverFirstVespersCodes`) dans `vespers_detection.dart`.

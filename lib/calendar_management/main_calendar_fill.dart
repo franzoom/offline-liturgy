@@ -90,7 +90,8 @@ Calendar calendarFill(
   _fillLentAndHolyWeek(calendar, liturgicalMainFeasts, liturgicalYear);
   _fillPaschalTime(
       calendar, liturgicalMainFeasts, liturgicalYear, ascensionOnSunday);
-  _fillOrdinaryTimeAfterPentecost(calendar, liturgicalMainFeasts, liturgicalYear);
+  _fillOrdinaryTimeAfterPentecost(
+      calendar, liturgicalMainFeasts, liturgicalYear);
 
   // --- ADDING SOLEMNITIES AND FEASTS OVER THE ALREADY CREATED DATES ---
   _fillFixedSolemnities(calendar, liturgicalMainFeasts, liturgicalYear);
@@ -165,7 +166,7 @@ void _fillChristmasToBaptism(
 
     if (date == feasts['HOLY_FAMILY']) {
       defaultCelebrationTitle = 'roman/holy_family';
-      precedence = 6;
+      precedence = 5;
     }
     DayContent dayContent = DayContent(
         liturgicalYear: liturgicalYear,
@@ -268,8 +269,10 @@ void _fillChristmasToBaptism(
 /// Wednesday.
 void _fillOrdinaryTimeBeforeLent(
     Calendar calendar, Map<String, DateTime> feasts, int liturgicalYear) {
-  int ordinaryTimeDays = 1;
   DateTime date = feasts['BAPTISM']!.shift(1); // begins after Epiphany
+  int ordinaryTimeDays = feasts['BAPTISM']!.isSunday
+      ? 1
+      : 2; // if Baptism is on monday, initiate the days count to 2
   while (date.isBefore(feasts['ASHES']!)) {
     String defaultCelebrationTitle =
         'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}';

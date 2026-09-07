@@ -32,7 +32,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 ) async {
   // 1. Detect celebrations for today (these will be II Vespers)
   final todayCelebrations =
-      await detectCelebrations(calendar, date, dataLoader);
+      await detectOfficeCelebrations(calendar, date, dataLoader);
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
   // Also checks ferial code 'lent_6_6' for Holy Saturday, in case it is the
@@ -54,7 +54,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // 2. Detect celebrations for tomorrow (potential I Vespers)
   final tomorrow = date.shift(1);
   final tomorrowCelebrations =
-      await detectCelebrations(calendar, tomorrow, dataLoader);
+      await detectOfficeCelebrations(calendar, tomorrow, dataLoader);
 
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
   // All Sundays have First Vespers, plus high-precedence celebrations

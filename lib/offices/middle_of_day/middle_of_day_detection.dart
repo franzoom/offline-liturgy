@@ -14,7 +14,8 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
   DateTime date,
   DataLoader dataLoader,
 ) async {
-  final celebrations = await detectCelebrations(calendar, date, dataLoader);
+  final celebrations =
+      await detectOfficeCelebrations(calendar, date, dataLoader);
 
   if (celebrations.isEmpty) return {};
 

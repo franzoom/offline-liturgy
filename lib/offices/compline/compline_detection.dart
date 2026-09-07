@@ -81,8 +81,8 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 1. Detect celebrations (today and tomorrow in parallel)
   final tomorrow = date.shift(1);
   final [rawTodayCelebrations, tomorrowCelebrations] = await Future.wait([
-    detectCelebrations(calendar, date, dataLoader),
-    detectCelebrations(calendar, tomorrow, dataLoader),
+    detectOfficeCelebrations(calendar, date, dataLoader),
+    detectOfficeCelebrations(calendar, tomorrow, dataLoader),
   ]);
 
   // --- Special case: Holy Friday and Holy Saturday have their own Compline, no other option ---

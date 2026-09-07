@@ -278,7 +278,15 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
     // (precedence == bestPrecedence) are unaffected. Below that threshold
     // (an ordinary Feast, Sunday, or weekday outranking a memorial) the
     // usual isCelebrable: false path still applies.
-    if (bestPrecedence <= 3 && precedence > bestPrecedence) {
+    //
+    // Exception: the day's own Sunday root is never dropped this way, even
+    // when outranked (e.g. the Commemoration of All Souls, itself item 3,
+    // landing on an Ordinary Time Sunday). It stays available for
+    // detectOfficeCelebrations below to hand back to the Divine Office,
+    // which — unlike Mass — defers to the Sunday in that specific case.
+    final bool isSundayRoot =
+        celebration.isFromRoot && date.weekday == DateTime.sunday;
+    if (bestPrecedence <= 3 && precedence > bestPrecedence && !isSundayRoot) {
       continue;
     }
 
@@ -355,6 +363,52 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   return detectedCelebrations;
 }
 
+// Celebrations whose Divine Office (unlike Mass) defers to a coinciding
+// Ordinary Time Sunday. Currently just the Commemoration of All the
+// Faithful Departed (Nov 2): at Mass it wins outright — its own rank
+// (item 3) already outranks an ordinary Sunday (item 6), no override
+// needed — but the Office of the Dead used that day has no place when it
+// falls on the Lord's Day; the Sunday's own Office is prayed instead.
+const _officeDefersToSundayCodes = {
+  'roman/commemoration_of_all_the_faithful_departed',
+};
+
+/// Wraps [detectCelebrations] for the non-Mass offices only. On an Ordinary
+/// Time Sunday that coincides with one of [_officeDefersToSundayCodes],
+/// demotes that celebration's effective precedence below the Sunday's and
+/// swaps isCelebrable, so every consumer that branches on either field
+/// (isCelebrable-based selection, or a raw precedence threshold like
+/// Compline's and Middle of Day's) picks the Sunday. massDetection calls
+/// [detectCelebrations] directly and is unaffected — Mass needs no swap.
+Future<List<CelebrationContext>> detectOfficeCelebrations(
+  Calendar calendar,
+  DateTime date,
+  DataLoader dataLoader,
+) async {
+  final celebrations = await detectCelebrations(calendar, date, dataLoader);
+  if (date.weekday != DateTime.sunday) return celebrations;
+
+  final deferIndex = celebrations.indexWhere(
+      (c) => _officeDefersToSundayCodes.contains(c.celebrationCode));
+  final sundayIndex =
+      celebrations.indexWhere((c) => c.celebrationCode == c.ferialCode);
+  if (deferIndex == -1 || sundayIndex == -1) return celebrations;
+
+  final adjusted = [
+    for (int i = 0; i < celebrations.length; i++)
+      if (i == deferIndex)
+        celebrations[i].copyWith(precedence: 12, isCelebrable: false)
+      else if (i == sundayIndex)
+        celebrations[i].copyWith(isCelebrable: true)
+      else
+        celebrations[i],
+  ];
+  adjusted.sort((a, b) => effectivePrecedence(
+          a.precedence ?? 13, a.celebrationCode)
+      .compareTo(effectivePrecedence(b.precedence ?? 13, b.celebrationCode)));
+  return adjusted;
+}
+
 /// Generic helper for office detection wrappers (morning, readings, etc.).
 /// Converts detected celebrations into a keyed map with the given [celebrationType].
 Future<Map<String, CelebrationContext>> buildDetectionMap(
@@ -363,7 +417,8 @@ Future<Map<String, CelebrationContext>> buildDetectionMap(
   DataLoader dataLoader,
   String celebrationType,
 ) async {
-  final celebrations = await detectCelebrations(calendar, date, dataLoader);
+  final celebrations =
+      await detectOfficeCelebrations(calendar, date, dataLoader);
   // Celebrations are sorted by ascending precedence (best first).
   // putIfAbsent keeps the first (highest-priority) entry when two celebrations
   // share the same title (e.g. france_pothinus_... vs lyon_pothinus_...).

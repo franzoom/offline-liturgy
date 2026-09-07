@@ -59,7 +59,11 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
   // All Sundays have First Vespers, plus high-precedence celebrations
   // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
-  // When today is Sunday, tomorrow's solemnities (prec. <= 3) always qualify
+  // When today is Sunday, tomorrow's solemnities (prec. <= 3) always qualify —
+  // but this must still exclude ferial days, or Palm Sunday (a Sunday) hands
+  // Monday/Tuesday/Wednesday of Holy Week (precedence 2, ferial-coded
+  // lent_6_1/2/3) a bogus First Vespers, when Palm Sunday's own Second
+  // Vespers is what actually covers that evening.
   //
   // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
   // no First Vespers of the next day are celebrated — all octave days are equal.
@@ -101,7 +105,9 @@ Future<Map<String, CelebrationContext>> vespersDetection(
                   (!ferialDayCheck(c.celebrationCode) &&
                       (c.precedence ?? _defaultPrecedence) <=
                           _firstVespersPrecedenceThreshold) ||
-                  (date.isSunday && (c.precedence ?? _defaultPrecedence) <= 3)))
+                  (date.isSunday &&
+                      !ferialDayCheck(c.celebrationCode) &&
+                      (c.precedence ?? _defaultPrecedence) <= 3)))
           .toList();
 
   // 4. Build the result map

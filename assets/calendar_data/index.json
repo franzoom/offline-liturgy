@@ -116,7 +116,7 @@
   "bordeaux/abbo_of_fleury_abbot_martyr": {
     "color": "red",
     "commons": [
-      "saints-male_religious",
+      "saints-male_religious_abbot",
       "martyr"
     ],
     "dir": "sanctoral",
@@ -191,7 +191,7 @@
   "bordeaux/gerard_of_corbie_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Gérard"
@@ -207,8 +207,8 @@
   "bordeaux/joan_de_lestonnac_religious": {
     "color": "white",
     "commons": [
-      "saints-female-religious",
-      "saints-female-educator"
+      "saints-female_religious",
+      "saints-female_educator"
     ],
     "dir": "sanctoral",
     "title": "Sainte Jeanne de Lestonnac"
@@ -240,7 +240,7 @@
   "bordeaux/mommolin_of_fleury_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Mommolin"
@@ -412,6 +412,9 @@
   },
   "christmas_27": {
     "color": "white",
+    "commons": [
+      "christmas"
+    ],
     "dir": "ferial_days",
     "title": "Saint Jean, apôtre et évangéliste"
   },
@@ -489,7 +492,7 @@
   "europe/benedict_of_nursia_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Benoît"
@@ -542,7 +545,7 @@
       "pastors_bishop"
     ],
     "dir": "sanctoral",
-    "title": "Saint Césaire d'Arles"
+    "title": "Saint Césaire d’Arles"
   },
   "france/clotilde_of_burgundy": {
     "color": "white",
@@ -692,7 +695,8 @@
   "grenoble/clair_abbot": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors",
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Clair"
@@ -759,7 +763,7 @@
   "grenoble/hugues_of_bonnevaux_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Hugues"
@@ -775,7 +779,7 @@
   "grenoble/leonien_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Léonien"
@@ -847,7 +851,7 @@
   "grenoble/theudere_priest": {
     "color": "white",
     "commons": [
-      "priest"
+      "pastors"
     ],
     "dir": "sanctoral",
     "title": "Saint Theudère"
@@ -1036,7 +1040,7 @@
   "lyon/frederic_ozanam": {
     "color": "white",
     "commons": [
-      "pastors"
+      "saints-male_caritative"
     ],
     "dir": "sanctoral",
     "title": "Bienheureux Frédéric Ozanam"
@@ -1065,7 +1069,7 @@
   "lyon/jacques_jules_bonnaud_priest_and_companions_martyrs": {
     "color": "red",
     "commons": [
-      "martyr"
+      "martyrs"
     ],
     "dir": "sanctoral",
     "title": "Bienheureux Jacques-Jules Bonnaud et ses compagnons"
@@ -1099,7 +1103,7 @@
   "lyon/john_mary_vianney_priest": {
     "color": "white",
     "commons": [
-      "pastors_priests"
+      "pastors"
     ],
     "dir": "sanctoral",
     "title": "Saint Jean-Marie Vianney"
@@ -1335,9 +1339,8 @@
     "title": "Dix-neuvième Dimanche du Temps Ordinaire"
   },
   "ot_1_0": {
-    "color": "white",
     "dir": "ferial_days",
-    "title": "Baptême du Seigneur"
+    "title": "Premier Dimanche du Temps Ordinaire"
   },
   "ot_20_0": {
     "dir": "ferial_days",
@@ -1460,7 +1463,7 @@
   "roman/agnes_of_rome_virgin": {
     "color": "red",
     "commons": [
-      "virgin_martyr_female",
+      "virgins_martyrs",
       "virgins"
     ],
     "dir": "sanctoral",
@@ -1574,7 +1577,7 @@
   "roman/anthony_mary_claret_bishop": {
     "color": "white",
     "commons": [
-      "pastor_bishop"
+      "pastors_bishop"
     ],
     "dir": "sanctoral",
     "title": "Saint Antoine-Marie Claret"
@@ -1582,7 +1585,7 @@
   "roman/anthony_of_egypt_abbot": {
     "color": "white",
     "commons": [
-      "saints-male"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Antoine"
@@ -1705,7 +1708,7 @@
   "roman/benedict_of_nursia_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Benoît"
@@ -1714,7 +1717,7 @@
     "color": "white",
     "commons": [
       "pastors_doctors",
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Bernard"
@@ -1811,7 +1814,7 @@
       "virgins"
     ],
     "dir": "sanctoral",
-    "title": "Sainte Catherine d'Alexandrie"
+    "title": "Sainte Catherine d’Alexandrie"
   },
   "roman/catherine_of_siena_virgin": {
     "color": "white",
@@ -1841,6 +1844,9 @@
   },
   "roman/charles_borromeo_bishop": {
     "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
     "dir": "sanctoral",
     "title": "Saint Charles Borromé"
   },
@@ -1887,7 +1893,7 @@
     "color": "white",
     "commons": [
       "pastors",
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Colomban"
@@ -2000,7 +2006,7 @@
   "roman/dominic_de_guzman_priest": {
     "color": "white",
     "commons": [
-      "pastors_priests",
+      "pastors",
       "saints-male_religious"
     ],
     "dir": "sanctoral",
@@ -2153,7 +2159,7 @@
     "color": "white",
     "commons": [
       "saints_doctors",
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Grégoire de Narek"
@@ -2406,7 +2412,7 @@
   "roman/john_mary_vianney_priest": {
     "color": "white",
     "commons": [
-      "pastors_priests"
+      "pastors"
     ],
     "dir": "sanctoral",
     "title": "Saint Jean-Marie Vianney"
@@ -2480,7 +2486,7 @@
   "roman/joseph_of_calasanz_priest": {
     "color": "white",
     "commons": [
-      "saints-male_educators",
+      "saints-male_educator",
       "pastors"
     ],
     "dir": "sanctoral",
@@ -2563,10 +2569,10 @@
   "roman/louis_ix_of_france": {
     "color": "white",
     "commons": [
-      "saints"
+      "saints-male_married"
     ],
     "dir": "sanctoral",
-    "title": "Saint Louis"
+    "title": "Saint Louis, roi de France"
   },
   "roman/lucy_of_syracuse_virgin": {
     "color": "red",
@@ -2607,7 +2613,7 @@
       "saints-female_caritative"
     ],
     "dir": "sanctoral",
-    "title": "Sainte Marguerite d'Écosse"
+    "title": "Sainte Marguerite d’Écosse"
   },
   "roman/maria_goretti_virgin": {
     "color": "red",
@@ -2646,7 +2652,7 @@
     "color": "red",
     "commons": [
       "martyr",
-      "pastor_pope"
+      "pastors_pope"
     ],
     "dir": "sanctoral",
     "title": "Saint Martin I^er"
@@ -2725,7 +2731,7 @@
   "roman/monica_of_hippo": {
     "color": "white",
     "commons": [
-      "saints-female"
+      "saints-female_married"
     ],
     "dir": "sanctoral",
     "title": "Sainte Monique"
@@ -3070,7 +3076,7 @@
   "roman/romuald_of_ravenna_abbot": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
     "title": "Saint Romuald"

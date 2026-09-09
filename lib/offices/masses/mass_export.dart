@@ -16,10 +16,10 @@ import './mass_extract.dart';
 /// Three cases:
 ///  - the ferial day is celebrated: celebrationCode == ferialCode, nothing
 ///    proper/common ever loads.
-///  - a Feast/Solemnity (precedence <= 5) is celebrated: its own proper
+///  - a Feast/Solemnity (precedence <= 9) is celebrated: its own proper
 ///    Mass — readingParts included — always applies wholesale (STEP 4);
 ///    there is no "day's readings" alternative for a Solemnity.
-///  - a memorial/commemoration (precedence > 5) is celebrated: its own
+///  - a memorial/commemoration (precedence > 9) is celebrated: its own
 ///    proper prayer texts (collect, antiphons...) always apply (STEP 4),
 ///    applied after the Common (STEP 3) so the saint's own texts win over
 ///    the Common's generic ones whenever present — there is no "no prayer
@@ -85,7 +85,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   Masses commonMasses = Masses();
   if (hasCommon) {
     commonMasses = await loadMassHierarchicalCommon(context);
-    if (prec <= 5 || isChristmasOctave) {
+    if (prec <= 9 || isChristmasOctave) {
       massesOffice.overlayWith(commonMasses);
     } else {
       massesOffice.overlayPrayerFields(commonMasses);
@@ -93,16 +93,19 @@ Future<Mass> massExport(CelebrationContext context) async {
   }
 
   // STEP 4: Apply proper data.
-  //  - Feasts/Solemnities (precedence <= 5): the proper Mass replaces
+  //  - Feasts/Solemnities (precedence <= 9): the proper Mass replaces
   //    everything wholesale, readingParts included (unchanged — there is no
-  //    "day's readings" concept for a Solemnity).
-  //  - Memorials/commemorations (precedence > 5): only the proper's prayer
+  //    "day's readings" concept for a Solemnity). This threshold matches
+  //    isMemory in morning/vespers/readings/middle-of-day export — Feasts
+  //    of the Lord sit at precedence 5, Feasts of the Virgin/saints at 7
+  //    (e.g. the Nativity of the BVM), obligatory memorials start at 10.
+  //  - Memorials/commemorations (precedence > 9): only the proper's prayer
   //    texts apply, layered after the Common above so the saint's own
   //    texts always win over the Common's generic ones when present.
   //    readingParts stay governed separately — see STEP 5b.
   //  - Christmas Octave (see isChristmasOctave above): always the full
   //    overlay branch too, for the same reason as STEP 3.
-  if (prec <= 5 || isChristmasOctave) {
+  if (prec <= 9 || isChristmasOctave) {
     massesOffice.overlayWith(properMasses);
   } else {
     massesOffice.overlayPrayerFields(properMasses);
@@ -117,7 +120,7 @@ Future<Mass> massExport(CelebrationContext context) async {
           orElse: () => masses.first,
         );
 
-  // STEP 5b: For a memorial/commemoration (precedence > 5) that asked for
+  // STEP 5b: For a memorial/commemoration (precedence > 9) that asked for
   // "the feast's own readings" (useProperReadingsForMemorial): the proper's
   // readingParts apply wholesale where it has any (everything else —
   // collect, antiphons, prefaces... — stays exactly as resolved above);
@@ -126,7 +129,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   // some — are then filled in, type by type, from the selected Common.
   // Feasts/Solemnities are untouched here: STEP 4 already forced their
   // readingParts unconditionally.
-  if (prec > 5 && context.useProperReadingsForMemorial) {
+  if (prec > 9 && context.useProperReadingsForMemorial) {
     final properMassList = properMasses.masses ?? [];
     final Mass? properSelected = properMassList.isEmpty
         ? null

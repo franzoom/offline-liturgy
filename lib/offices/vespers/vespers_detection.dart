@@ -65,6 +65,13 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // lent_6_1/2/3) a bogus First Vespers, when Palm Sunday's own Second
   // Vespers is what actually covers that evening.
   //
+  // A Feast (prec. 4-5, not a true solemnity) must NOT be granted First
+  // Vespers when today is already a Sunday — only a solemnity (prec. <= 3)
+  // may override a Sunday's own Second Vespers. Confirmed against AELF: the
+  // Presentation of the Lord (prec. 5) on a Monday does not get its First
+  // Vespers on the preceding Sunday evening; that Sunday keeps its own
+  // Second Vespers.
+  //
   // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
   // no First Vespers of the next day are celebrated — all octave days are equal.
   final bool isEasterOctave = todayCelebrations.any((c) {
@@ -116,6 +123,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
               ((tomorrow.isSunday &&
                       (c.precedence ?? _defaultPrecedence) <= 6) ||
                   (!ferialDayCheck(c.celebrationCode) &&
+                      !date.isSunday &&
                       (c.precedence ?? _defaultPrecedence) <=
                           _firstVespersPrecedenceThreshold) ||
                   (date.isSunday &&

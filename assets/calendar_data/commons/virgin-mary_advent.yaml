@@ -33,3 +33,69 @@ morning:
   oration:
     - Accorde à tes serviteurs, Dieu très bon, de posséder la santé de l’âme et du corps, et par la glorieuse intercession de la sainte Vierge Marie, d’être libérés des tristesses de ce monde, et de goûter les joies de l’éternité.
     - Seigneur Jésus, toi qui as choisi pour père la bienheureuse Vierge Marie, permets qu’assurés de sa protection nous puissions l’honorer d’un cœur joyeux.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - biblicalReference: cf. Is 45, 8
+        content: |-
+          Cieux, distillez d’en haut votre rosée,
+          >que descende le juste, comme une pluie,
+          >que la terre s’ouvre, et que germe le Sauveur.
+      - biblicalReference: cf. Lc 1, 30-32
+        content: |-
+          L’Ange dit à Marie :
+          « Tu as trouvé grâce auprès de Dieu.
+          Voici que tu vas concevoir et enfanter un fils,
+          >il sera appelé Fils du Très-Haut. »
+    collect:
+      - |-
+        Seigneur Dieu, +
+        tu as voulu qu’à l’annonce de l’Ange,
+        ton Verbe prît chair dans le sein de la Vierge Marie ; *
+        réponds à nos supplications :
+        >puisque nous la croyons vraiment Mère de Dieu, /
+        >fais que nous trouvions secours dans sa prière auprès de toi.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+      - |-
+        Seigneur Dieu, +
+        afin d’accomplir les promesses faites à nos pères,
+        tu as choisi la bienheureuse Vierge Marie,
+        >pour qu’elle devienne la Mère du Sauveur ; *
+        accorde-nous de suivre l’exemple
+        >de celle qui te fut agréable par son humilité /
+        >et nous fut secourable en son obéissance.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    offeringPrayer:
+      - |-
+        Accueille, Seigneur, les dons que nous te présentons, +
+        et, par ta puissance,
+        fais qu’ils deviennent le sacrement du salut, *
+        dans lequel les sacrifices de nos pères
+        >trouvent leur accomplissement, /
+        lorsque l’Agneau véritable est offert,
+        >Jésus Christ ton Fils,
+        né admirablement d’une mère qui reste vierge.
+        Lui qui vit et règne pour les siècles des siècles.
+    prefaceList:
+      - the_blessed_virgin_mary_1
+      - the_blessed_virgin_mary_2
+      - advent_2
+    communionAntiphon:
+      - biblicalReference: cf. Is 7, 14
+        content: |-
+          Voici que la Vierge concevra,
+          >et elle enfantera un fils ;
+          on lui donnera le nom d’Emmanuel.
+    prayerAfterCommunion:
+      - |-
+        Puissent les mystères que nous avons reçus,
+        >Seigneur notre Dieu,
+        manifester toujours en nous ta miséricorde,
+        pour que, célébrant fidèlement la mémoire de sa Mère, /
+        >nous soyons sauvés par l’incarnation de ton Fils.
+        Lui qui vit et règne pour les siècles des siècles.

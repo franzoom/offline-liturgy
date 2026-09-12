@@ -32,3 +32,64 @@ morning:
   oration:
     - Accorde à tes serviteurs, Dieu très bon, de posséder la santé de l’âme et du corps, et par la glorieuse intercession de la sainte Vierge Marie, d’être libérés des tristesses de ce monde, et de goûter les joies de l’éternité.
     - Seigneur Jésus, toi qui as choisi pour père la bienheureuse Vierge Marie, permets qu’assurés de sa protection nous puissions l’honorer d’un cœur joyeux.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - biblicalReference: null
+        content: |-
+          La jeune fille a enfanté le Roi dont le nom est éternel ; 
+          connaissant la joie d’être mère, elle garde l’honneur d’être vierge ; 
+          femme à nulle autre pareille, elle restera sans égale.
+      - biblicalReference: null
+        content: |-
+          Vierge Marie, Mère de Dieu,
+          celui que l’univers entier ne peut contenir,
+          >tu l’as reçu dans tes entrailles quand il s’est fait homme.
+    collect:
+      - |-
+        Seigneur Dieu, +
+        par la virginité féconde de la bienheureuse Marie,
+        tu as offert au genre humain les bienfaits du salut éternel ;
+        accorde-nous d’éprouver qu’intercède en notre faveur
+        >celle qui nous permit d’accueillir l’auteur de la vie, /
+        >Jésus Christ, ton Fils, notre Seigneur.
+        Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+      - |-
+        Seigneur Dieu, +
+        tu as voulu que le Verbe engendré de toute éternité 
+        >naisse du sein de la Vierge ; *
+        par l’intercession de la bienheureuse Marie, nous te prions :
+        >fais que le Verbe illumine nos ténèbres
+        >par la splendeur de sa présence, /
+        >et nous donne, de sa plénitude, la joie et la paix.
+        Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    offeringPrayer:
+      - |-
+        En célébrant les jours bénis que tu as consacrés
+        par la naissance, dans le cours du temps,
+        >de ton Fils unique
+        >et son enfantement par la Vierge Marie,
+        nous te prions, Seigneur : *
+        que cette offrande nous sanctifie /
+        >et nous donne de renaître en lui,
+        qui vit et règne pour les siècles des siècles.
+    prefaceList:
+      - the_blessed_virgin_mary_1
+      - the_blessed_virgin_mary_2
+    communionAntiphon:
+      - biblicalReference: cf. Lc 11, 27
+        content: |-
+          Heureuse la Vierge Marie,
+          >qui a porté dans son sein le Fils du Père éternel.
+
+    prayerAfterCommunion:
+      - |-
+        Réconfortés par le Corps et le Sang de ton Verbe incarné,
+        nous t’en prions, Seigneur, *
+        que ces mystères divins reçus dans la joie, 
+        en célébrant la mémoire de la bienheureuse Vierge Marie, /
+        >nous fassent toujours participer à la divinité de ton Fils. 
+        Lui qui vit et règne pour les siècles des siècles.

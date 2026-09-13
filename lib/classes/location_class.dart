@@ -235,6 +235,28 @@ List<LocationNode> buildLocationTree(List<Location> locations) {
   return roots.map((n) => n.toImmutable()).toList();
 }
 
+/// Recursively drops nodes with no usable data: a node survives only if its
+/// own id is in [availableIds] (it has a non-empty `sanctoral/<id>/` folder)
+/// or at least one of its descendants survives. Applied uniformly at every
+/// geography level, so an orphaned country/continent branch with no data of
+/// its own and no valid children (e.g. one with no diocese filled in yet)
+/// is dropped along with the unusable dioceses.
+List<LocationNode> pruneUnavailableLocations(
+  List<LocationNode> nodes,
+  Set<String> availableIds,
+) {
+  final result = <LocationNode>[];
+  for (final node in nodes) {
+    final prunedChildren =
+        pruneUnavailableLocations(node.children, availableIds);
+    if (availableIds.contains(node.location.id) || prunedChildren.isNotEmpty) {
+      result
+          .add(LocationNode(location: node.location, children: prunedChildren));
+    }
+  }
+  return result;
+}
+
 class _MutableNode {
   final Location location;
   final List<_MutableNode> children = [];

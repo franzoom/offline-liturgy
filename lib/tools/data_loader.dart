@@ -22,6 +22,7 @@ class FileSystemDataLoader implements DataLoader {
   @override
   Future<List<String>> listFiles(String prefix) async {
     final dir = Directory('$assetsPrefix$prefix');
+    if (!await dir.exists()) return const [];
     final names = <String>[];
     await for (final entity in dir.list()) {
       if (entity is File) names.add(entity.uri.pathSegments.last);

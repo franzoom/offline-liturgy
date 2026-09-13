@@ -149,8 +149,7 @@ class Location {
     Set<String> knownCodes = const {},
   }) {
     final beginYear = liturgicalMainFeasts['ADVENT']!;
-    final endYear =
-        liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
+    final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
 
     List<DateTime> resolveDates(LocationFeast feast) => resolveFixedFeastDate(
           liturgicalYear: liturgicalYear,

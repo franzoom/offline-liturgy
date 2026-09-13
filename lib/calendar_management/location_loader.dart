@@ -4,6 +4,7 @@ import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/location_class.dart';
 import '../tools/data_loader.dart';
+import '../tools/date_tools.dart';
 
 /// Bundles the data sets that must always be loaded together before any
 /// calendar computation: the universal Roman feast list, the location tree,
@@ -138,8 +139,7 @@ void applyCommonFeastsToCalendar(
   Map<String, DateTime> liturgicalMainFeasts,
 ) {
   final beginYear = liturgicalMainFeasts['ADVENT']!;
-  final endYear =
-      liturgicalMainFeasts['CHRIST_KING']!.add(const Duration(days: 6));
+  final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
 
   for (final feast in commonFeasts) {
     final feastDates = resolveFixedFeastDate(

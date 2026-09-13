@@ -50,9 +50,12 @@ Future<MiddleOfDay> middleOfDayExport(
   // 4b. HYMN FALLBACK: solemnities without a ferialCode (e.g. Ascension, Christmas)
   // never enter ferialMiddleOfDayResolution, so hymns must be assigned here.
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
-  middleOfDayOffice.hymnTierce ??= await getTierceHymns(liturgicalTime, celebrationContext.dataLoader);
-  middleOfDayOffice.hymnSexte ??= await getSexteHymns(liturgicalTime, celebrationContext.dataLoader);
-  middleOfDayOffice.hymnNone ??= await getNoneHymns(liturgicalTime, celebrationContext.dataLoader);
+  middleOfDayOffice.hymnTierce ??=
+      await getTierceHymns(liturgicalTime, celebrationContext.dataLoader);
+  middleOfDayOffice.hymnSexte ??=
+      await getSexteHymns(liturgicalTime, celebrationContext.dataLoader);
+  middleOfDayOffice.hymnNone ??=
+      await getNoneHymns(liturgicalTime, celebrationContext.dataLoader);
 
   // 4c. PER-HOUR PSALMODY
   // Baptism of the Lord: precedence 5 (a Feast, not a Solemnity) and no
@@ -68,7 +71,13 @@ Future<MiddleOfDay> middleOfDayExport(
       celebrationContext.precedence! <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
-      properPsalmody: middleOfDayOffice.psalmody,
+      // The celebration's OWN psalmody, not middleOfDayOffice.psalmody —
+      // that field has already been merged with the ferial base by the
+      // overlay above (STEP 4), so a Solemnity/Feast with no psalmody of
+      // its own (properMiddleOfDay.psalmody == null) would otherwise
+      // silently inherit the ferial day's own psalms here instead of
+      // falling through to the gradual psalms below.
+      properPsalmody: properMiddleOfDay.psalmody,
       isFerialTheCelebration:
           celebrationContext.celebrationCode == celebrationContext.ferialCode,
       isPaschalOctave: liturgicalTime == 'paschaloctave',
@@ -125,20 +134,19 @@ Future<MiddleOfDay> middleOfDayExport(
     }
   }
 
-  // 6. APPEND SEASON ANTIPHON
-  final bool isSolemnity = celebrationContext.precedence != null &&
-      celebrationContext.precedence! <= 4;
-  final bool isLentOrHolyWeek =
-      liturgicalTime == 'lent' || liturgicalTime == 'holyweek';
-  final seasonAntiphon = (isSolemnity && isLentOrHolyWeek)
-      ? null
-      : _getSeasonAntiphon(celebrationContext);
+  // 6. SEASON ANTIPHON FALLBACK — a fixed antiphon used for the whole season
+  // (see middleOfDayAntiphons) only steps in for a psalm that has none of
+  // its own yet; a Feast/Solemnity's own proper antiphon must never be
+  // supplemented with it, in any season.
+  final seasonAntiphon = _getSeasonAntiphon(celebrationContext);
 
   if (seasonAntiphon != null) {
     List<PsalmEntry> appendSeason(List<PsalmEntry> psalms) => psalms
         .map((e) => PsalmEntry(
               psalm: e.psalm,
-              antiphon: [...?e.antiphon, seasonAntiphon],
+              antiphon: (e.antiphon == null || e.antiphon!.isEmpty)
+                  ? [seasonAntiphon]
+                  : e.antiphon,
               psalmData: e.psalmData,
             ))
         .toList();

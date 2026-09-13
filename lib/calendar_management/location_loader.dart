@@ -13,34 +13,42 @@ class LiturgyData {
   final List<LocationFeast> commonFeasts;
   final Map<String, Location> locationData;
   final Set<String> knownCodes;
+  final Set<String> availableSanctoralIds;
 
   const LiturgyData({
     required this.commonFeasts,
     required this.locationData,
     this.knownCodes = const {},
+    this.availableSanctoralIds = const {},
   });
 
   /// For unit tests that verify calendar structure without feast data.
   const LiturgyData.empty()
       : commonFeasts = const [],
         locationData = const {},
-        knownCodes = const {};
+        knownCodes = const {},
+        availableSanctoralIds = const {};
 
   /// Loads from the filesystem — for CLI/Dart use.
   static Future<LiturgyData> load({
     String commonFeastsPath = './assets/calendar_data/common_feasts.yaml',
     String locationsDir = './assets/locations/',
     String indexPath = './assets/calendar_data/index.json',
+    String sanctoralDir = './assets/calendar_data/sanctoral',
   }) async {
     final results = await Future.wait([
       _loadCommonFeasts(commonFeastsPath),
       _loadLocationsFromDirectory(locationsDir),
       _loadKnownCodes(indexPath),
     ]);
+    final locationData = results[1] as Map<String, Location>;
+    final availableSanctoralIds = await _availableSanctoralIdsFromFileSystem(
+        sanctoralDir, locationData.keys);
     return LiturgyData(
       commonFeasts: results[0] as List<LocationFeast>,
-      locationData: results[1] as Map<String, Location>,
+      locationData: locationData,
       knownCodes: results[2] as Set<String>,
+      availableSanctoralIds: availableSanctoralIds,
     );
   }
 
@@ -49,6 +57,7 @@ class LiturgyData {
     DataLoader loader, {
     String commonFeastsPath = 'calendar_data/common_feasts.yaml',
     String indexPath = 'calendar_data/index.json',
+    String sanctoralPrefix = 'calendar_data/sanctoral',
   }) async {
     final commonFeasts =
         _parseFeastsFromYaml(await loader.loadYaml(commonFeastsPath));
@@ -70,17 +79,23 @@ class LiturgyData {
     };
 
     final knownCodes = _parseKnownCodes(await loader.loadJson(indexPath));
+    final availableSanctoralIds = await _availableSanctoralIdsFromLoader(
+        loader, sanctoralPrefix, locationData.keys);
 
     return LiturgyData(
       commonFeasts: commonFeasts,
       locationData: locationData,
       knownCodes: knownCodes,
+      availableSanctoralIds: availableSanctoralIds,
     );
   }
 
-  /// The location hierarchy built from the loaded YAML files.
-  List<LocationNode> get locationTree =>
-      buildLocationTree(locationData.values.toList());
+  /// The location hierarchy built from the loaded YAML files, pruned to only
+  /// the nodes that have usable sanctoral data (see [pruneUnavailableLocations]).
+  List<LocationNode> get locationTree => pruneUnavailableLocations(
+        buildLocationTree(locationData.values.toList()),
+        availableSanctoralIds,
+      );
 }
 
 List<LocationFeast> _parseFeastsFromYaml(String yamlContent) {
@@ -106,6 +121,32 @@ Set<String> _parseKnownCodes(String raw) {
 
 Future<Set<String>> _loadKnownCodes(String jsonPath) async {
   return _parseKnownCodes(await File(jsonPath).readAsString());
+}
+
+/// Returns the ids among [locationIds] that have at least one file directly
+/// under `$sanctoralDir/<id>/` on the filesystem.
+Future<Set<String>> _availableSanctoralIdsFromFileSystem(
+    String sanctoralDir, Iterable<String> locationIds) async {
+  final available = <String>{};
+  for (final id in locationIds) {
+    final dir = Directory('$sanctoralDir/$id');
+    if (!await dir.exists()) continue;
+    final hasFile = await dir.list().any((entity) => entity is File);
+    if (hasFile) available.add(id);
+  }
+  return available;
+}
+
+/// Same as [_availableSanctoralIdsFromFileSystem], but through a [DataLoader]
+/// — for asset sources (e.g. Flutter's rootBundle) with no direct filesystem access.
+Future<Set<String>> _availableSanctoralIdsFromLoader(DataLoader loader,
+    String sanctoralPrefix, Iterable<String> locationIds) async {
+  final available = <String>{};
+  for (final id in locationIds) {
+    final files = await loader.listFiles('$sanctoralPrefix/$id/');
+    if (files.isNotEmpty) available.add(id);
+  }
+  return available;
 }
 
 Future<Map<String, Location>> _loadLocationsFromDirectory(

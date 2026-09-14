@@ -90,6 +90,7 @@ const Map<String, String> liturgyLabels = {
   'select-office': 'Sélectionner un office',
   'select-mass': 'Sélectionner la messe',
   'select-reading-source': 'Lectures',
+  'sequence': 'Séquence',
   'reading-source-day': 'Lectures du jour',
   'reading-source-proper': 'Lectures de la mémoire',
   'no-office': "Pas d’office disponible",

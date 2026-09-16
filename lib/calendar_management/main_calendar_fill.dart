@@ -575,6 +575,13 @@ void _fillFixedSolemnities(
       DateTime(year, 8, 6), 5, 'roman/transfiguration_of_the_lord');
   calendar.addItemToDay(
       DateTime(year, 8, 15), 3, 'roman/assumption_of_the_blessed_virgin_mary');
+
+  DateTime(year, 9, 14).isSunday
+      ? calendar.addItemToDay(
+          DateTime(year, 9, 14), 5, 'roman/exaltation_of_the_holy_cross_sunday')
+      : calendar.addItemToDay(
+          DateTime(year, 9, 14), 5, 'roman/exaltation_of_the_holy_cross_week');
+
   calendar.addItemToDay(DateTime(year, 11, 1), 3, 'roman/all_saints');
   calendar.addItemToDay(DateTime(year, 11, 2), 3,
       'roman/commemoration_of_all_the_faithful_departed');

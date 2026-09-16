@@ -85,9 +85,15 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // Christmas is itself a Sunday and Holy Family is fixed to Dec 30 instead,
   // there is no First Vespers of Holy Family — the ferial Vespers of that
   // Christmas Octave day is celebrated normally).
+  // 'roman/exaltation_of_the_holy_cross_week' only ever appears on a weekday
+  // (the calendar picks 'roman/exaltation_of_the_holy_cross_sunday' when the
+  // feast itself falls on a Sunday), so listing it here means it never gets
+  // First Vespers — the Sunday variant is left out on purpose: by
+  // construction it only appears when tomorrow.isSunday is already true, so
+  // the default (First Vespers allowed) is correct for it.
   const sundayOnlyFirstVespersCodes = {
     'roman/transfiguration_of_the_lord',
-    'roman/exaltation_of_the_holy_cross',
+    'roman/exaltation_of_the_holy_cross_week',
     'roman/holy_family',
   };
 

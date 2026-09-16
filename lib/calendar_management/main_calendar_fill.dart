@@ -557,15 +557,13 @@ void _fillFixedSolemnities(
     }
   }
 
-  // Annunciation key varies by year: 'annunciation-lent' or 'annunciation-easter'
-  final annunciationKey = feasts.keys.firstWhere(
-    (k) => k.startsWith('annunciation'),
-    orElse: () => '',
-  );
-  if (annunciationKey.isNotEmpty) {
-    calendar.addItemToDay(
-        feasts[annunciationKey]!, 3, 'roman/$annunciationKey');
-  }
+  // Annunciation: liturgical content differs whether it falls in Lent (its
+  // usual place) or was transferred into Eastertide (Holy Week/Octave).
+  final annunciationDate = feasts['ANNUNCIATION']!;
+  final annunciationKey = annunciationDate.isBefore(feasts['EASTER']!)
+      ? 'roman/annunciation-lent'
+      : 'roman/annunciation-easter';
+  calendar.addItemToDay(annunciationDate, 3, annunciationKey);
 
   calendar.addItemToDay(feasts['saint_pieter_and_saint_paul']!, 3,
       'roman/saint_pieter_and_saint_paul');

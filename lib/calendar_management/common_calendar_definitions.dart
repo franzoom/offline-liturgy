@@ -131,11 +131,7 @@ Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
   liturgicalDays['HOLY_FRIDAY'] = easterDay.shift(-2);
   liturgicalDays['HOLY_SATURDAY'] = easterDay.shift(-1);
 
-  final DateTime annunciationDay = annunciation(easterDay);
-  final String annunciationKey = annunciationDay.isBefore(easterDay)
-      ? 'annunciation-lent'
-      : 'annunciation-easter';
-  liturgicalDays[annunciationKey] = annunciationDay;
+  liturgicalDays['ANNUNCIATION'] = annunciation(easterDay);
 
   liturgicalDays['SAINT_JOSEPH'] = saintJoseph(easterDay);
 

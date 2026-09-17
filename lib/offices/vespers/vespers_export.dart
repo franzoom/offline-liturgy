@@ -48,13 +48,12 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // STEP 4: Apply Proper data (Highest priority)
   vespersOffice.overlayWith(properVespers);
 
-  // Prepend Lucernaire hymn, except during Lent and Holy Week
+  // Append Lucernaire hymn, except during Lent and Holy Week
   final lt = celebrationContext.liturgicalTime ?? '';
   if (lt != 'lent' && lt != 'holyweek') {
-
     vespersOffice.hymn = [
-      HymnEntry(code: 'joie-et-lumiere'),
       ...?vespersOffice.hymn,
+      HymnEntry(code: 'joie-et-lumiere'),
     ];
   }
 

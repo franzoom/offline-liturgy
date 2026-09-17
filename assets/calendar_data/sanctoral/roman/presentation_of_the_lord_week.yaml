@@ -6,49 +6,6 @@ oration:
 - |-
   Dieu éternel et tout-puissant, nous t’adressons cette humble prière : puisque  ton Fils unique, ayant revêtu notre chair, fut en ce jour présenté dans le Temple,  fais que nous puissions aussi, avec une âme purifiée, nous présenter devant toi.
 
-firstVespers:
-  hymn:
-  - la-lumiere-est-entree-dans-le-monde
-  psalmody:
-  - psalm: PSALM_112
-    antiphon:
-    - Joseph et Marie portèrent l’enfant à Jérusalem pour le présenter au Seigneur.
-  - psalm: PSALM_147
-    antiphon:
-    - |-
-      Prépare-toi, Jérusalem ! Prépare ton cœur : accueille ton Roi !
-  - psalm: NT_5
-    antiphon:
-    - |-
-      Syméon, tu es béni de Dieu : tu as pris dans tes bras le Christ, le Seigneur, le Sauveur de son peuple.
-  reading:
-    biblicalReference: He 10,5-7
-    content: |-
-      En entrant dans le monde, le Christ dit, d’après le psaume : Tu n’as pas voulu de sacrifices ni d’offrandes, mais tu m’as fait un corps. Tu n’as pas accepté les holocaustes ni les expiations pour le péché ; alors, je t’ai dit : Me voici, mon Dieu, je suis venu pour faire ta volonté, car c’est bien de moi que parle l’Écriture.
-  responsory: |-
-    R/ Me voici, mon Dieu :
-    * Je viens faire ta volonté.
-    V/ J’annonce ton amour et ta vérité.
-    * Je viens faire ta volonté.
-    Gloire au Père. R/
-  evangelicAntiphon:
-    common: Le vieillard portait l’enfant,  mais l’enfant guidait le vieillard. Et Marie, la Vierge Mère, adorait celui qu’elle  avait mis au monde.
-  intercession:
-    content: |-
-      R/ Ouvre nos yeux, Seigneur, aux merveilles de ton amour !
-
-      Toi qui es lumière pour le monde,
-      — suscite la foi au cœur de tout homme
-
-      Toi la gloire de ton peuple,
-      — fais de l’Église le signe du salut offert à tous les peuples.
-
-      Toi qui as mis au cœur de Syméon le désir de te voir,
-      — viens au-devant de ceux qui t’attendant sans le savoir.
-
-      Toi qui as associé ta mère à ton offrande,
-      — souviens-toi de ceux qui communient à ta passion.
-
 invitatory:
   antiphon:
   - le Seigneur entre aujourd’hui dans son Temple. Venez, adorons-le !
@@ -202,7 +159,7 @@ vespers:
   responsory: |-
     R/ Mes yeux ont vu le salut
     * que tu prépares à la face des peuples.
-    V /Il est la lumière de gloire,%
+    V/ Il est la lumière de gloire,
     Gloire au Père. R/
   evangelicAntiphon:
     common:
@@ -289,8 +246,7 @@ mass:
         >pour les relations avec Dieu,
         >afin d’enlever les péchés du peuple.
         Et parce qu’il a souffert jusqu’au bout l’épreuve de sa Passion,
-        >il est capable de porter secours à ceux qui subissent une épreuve.
-        
+        >il est capable de porter secours à ceux qui subissent une épreuve.        
   - partType: PSALM
     partContents:
     - biblicalRef: Ps 23 (24), 7, 8, 9, 10
@@ -329,12 +285,12 @@ mass:
         les parents de Jésus l’amenèrent à Jérusalem
         >pour le présenter au Seigneur,
         selon ce qui est écrit dans la Loi :
-        >Tout premier-né de sexe masculin
-        >sera consacré au Seigneur.
+        >>%Tout premier-né de sexe masculin
+        >>sera consacré au Seigneur%.
         Ils venaient aussi offrir
         >le sacrifice prescrit par la loi du Seigneur :
-        >un couple de tourterelles
-        >ou deux petites colombes.
+        >>%un couple de tourterelles
+        >>ou deux petites colombes%.
         Or, il y avait à Jérusalem un homme appelé Syméon.
         C’était un homme juste et religieux,
         >qui attendait la Consolation d’Israël,
@@ -382,7 +338,38 @@ mass:
         L’enfant, lui, grandissait et se fortifiait,
         >rempli de sagesse,
         >et la grâce de Dieu était sur lui.
-        
+      shortReadingRef: Lc 2, 22-40
+      shortReadingContent: |-
+        Quand fut accompli le temps prescrit par la loi de Moïse
+        >pour la purification,
+        les parents de Jésus l’amenèrent à Jérusalem
+        >pour le présenter au Seigneur,
+        selon ce qui est écrit dans la Loi :
+        >>%Tout premier-né de sexe masculin
+        >>sera consacré au Seigneur%.
+        Ils venaient aussi offrir
+        >le sacrifice prescrit par la loi du Seigneur :
+        >>%un couple de tourterelles
+        >>ou deux petites colombes%.
+        Or, il y avait à Jérusalem un homme appelé Syméon.
+        C’était un homme juste et religieux,
+        >qui attendait la Consolation d’Israël,
+        >et l’Esprit Saint était sur lui.
+        Il avait reçu de l’Esprit Saint l’annonce
+        >qu’il ne verrait pas la mort
+        >avant d’avoir vu le Christ, le Messie du Seigneur.
+        Sous l’action de l’Esprit, Syméon vint au Temple.
+        Au moment où les parents présentaient l’enfant Jésus
+        >pour se conformer au rite de la Loi qui le concernait,
+        Syméon reçut l’enfant dans ses bras,
+        et il bénit Dieu en disant :
+        >« Maintenant, ô Maître souverain,
+        >tu peux laisser ton serviteur s’en aller
+        >en paix, selon ta parole.
+        Car mes yeux ont vu le salut
+        >que tu préparais à la face des peuples :
+        >lumière qui se révèle aux nations
+        >et donne gloire à ton peuple Israël. »
   offeringPrayer:
   - |-
     Nous t’en prions, Seigneur : +

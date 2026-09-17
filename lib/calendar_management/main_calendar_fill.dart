@@ -165,7 +165,8 @@ void _fillChristmasToBaptism(
     int precedence = (date.day <= 28) ? 7 : 9;
 
     if (date == feasts['HOLY_FAMILY']) {
-      defaultCelebrationTitle = 'roman/holy_family';
+      defaultCelebrationTitle =
+          date.isSunday ? 'roman/holy_family_sunday' : 'roman/holy_family_week';
       precedence = 5;
     }
     DayContent dayContent = DayContent(
@@ -569,8 +570,13 @@ void _fillFixedSolemnities(
       'roman/saint_pieter_and_saint_paul');
   calendar.addItemToDay(
       feasts['saint_john_the_baptist']!, 3, 'roman/saint_john_the_baptist');
-  calendar.addItemToDay(
-      DateTime(year, 8, 6), 5, 'roman/transfiguration_of_the_lord');
+
+  DateTime(year, 8, 6).isSunday
+      ? calendar.addItemToDay(
+          DateTime(year, 8, 6), 5, 'roman/transfiguration_of_the_lord_sunday')
+      : calendar.addItemToDay(
+          DateTime(year, 8, 6), 5, 'roman/transfiguration_of_the_lord_week');
+
   calendar.addItemToDay(
       DateTime(year, 8, 15), 3, 'roman/assumption_of_the_blessed_virgin_mary');
 

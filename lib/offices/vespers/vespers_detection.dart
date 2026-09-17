@@ -92,9 +92,9 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // construction it only appears when tomorrow.isSunday is already true, so
   // the default (First Vespers allowed) is correct for it.
   const sundayOnlyFirstVespersCodes = {
-    'roman/transfiguration_of_the_lord',
+    'roman/transfiguration_of_the_lord_week',
     'roman/exaltation_of_the_holy_cross_week',
-    'roman/holy_family',
+    'roman/holy_family_week',
   };
 
   // A Solemnity of the Lord's First Vespers always wins over a Sunday's

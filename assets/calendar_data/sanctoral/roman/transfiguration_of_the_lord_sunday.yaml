@@ -323,9 +323,35 @@ mass:
         et tous les peuples ont vu sa gloire.
         Tu es, Seigneur, le Très-Haut sur toute la terre :
         tu domines de haut tous les dieux.
+  - partType: READING_2
+    partContents:
+    - biblicalRef: 2P 1, 16-19
+      headline: |-
+        « Cette voix venant du ciel, nous l’avons nous-mêmes entendue »
+      content: |-
+        Bien-aimés,
+        >ce n’est pas en ayant recours à des récits imaginaires sophistiqués
+        >que nous vous avons fait connaître la puissance et la venue
+        >de notre Seigneur Jésus Christ,
+        >mais c’est pour avoir été les témoins oculaires de sa grandeur.
+        Car il a reçu de Dieu le Père l’honneur et la gloire
+        >quand, depuis la Gloire magnifique,
+        >lui parvint une voix qui disait :
+        >Celui-ci est mon Fils, mon bien-aimé ;
+        >en lui j’ai toute ma joie.
+        Cette voix venant du ciel,
+        nous l’avons nous-mêmes entendue
+        >quand nous étions avec lui sur la montagne sainte.
+        Et ainsi se confirme pour nous la parole prophétique ;
+        vous faites bien de fixer votre attention sur elle,
+        >comme sur une lampe brillant dans un lieu obscur
+        jusqu’à ce que paraisse le jour
+        >et que l’étoile du matin se lève dans vos cœurs.
   - partType: GOSPEL
     partContents:
-    - biblicalRef: Mt 17, 1-9
+    - biblicalRef: Mt 17, 1-9 
+      cycle:
+      - A
       headline: |-
         « Son visage devint brillant comme le soleil »
       acclamationAntiphon: |-
@@ -365,6 +391,8 @@ mass:
         >avant que le Fils de l’homme
         >soit ressuscité d’entre les morts. »
     - biblicalRef: Mc 9, 2-10
+      cycle:
+      - B
       headline: |-
         « Celui-ci est mon Fils bien-aimé »
       acclamationAntiphon: |-
@@ -402,6 +430,8 @@ mass:
         tout en se demandant entre eux ce que voulait dire :
         >« ressusciter d’entre les morts ».
     - biblicalRef: Lc 9, 28b-36
+      cycle:
+      - C
       headline: |-
         « Pendant qu’il priait, l’aspect de son visage devint autre »
       acclamationAntiphon: |-

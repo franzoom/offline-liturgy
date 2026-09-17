@@ -256,7 +256,9 @@ void _fillChristmasToBaptism(
   dayContent = DayContent(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'roman/baptism',
+    defaultCelebrationTitle: date.isSunday
+        ? 'roman/baptism_of_the_lord_sunday'
+        : 'roman/baptism_of_the_lord_week',
     precedence: 5,
     liturgicalColor: 'white',
     breviaryWeek: 1,
@@ -570,6 +572,12 @@ void _fillFixedSolemnities(
       'roman/saint_pieter_and_saint_paul');
   calendar.addItemToDay(
       feasts['saint_john_the_baptist']!, 3, 'roman/saint_john_the_baptist');
+
+  DateTime(year, 2, 2).isSunday
+      ? calendar.addItemToDay(
+          DateTime(year, 2, 2), 5, 'roman/presentation_of_the_lord_sunday')
+      : calendar.addItemToDay(
+          DateTime(year, 2, 2), 5, 'roman/presentation_of_the_lord_week');
 
   DateTime(year, 8, 6).isSunday
       ? calendar.addItemToDay(

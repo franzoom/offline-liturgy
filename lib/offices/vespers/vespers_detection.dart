@@ -95,6 +95,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     'roman/transfiguration_of_the_lord_week',
     'roman/exaltation_of_the_holy_cross_week',
     'roman/holy_family_week',
+    'roman/presentation_of_the_lord_week',
+    'roman/baptism_of_the_lord_week',
   };
 
   // A Solemnity of the Lord's First Vespers always wins over a Sunday's

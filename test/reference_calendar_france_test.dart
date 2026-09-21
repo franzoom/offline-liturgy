@@ -197,7 +197,7 @@ bool _matches(_ReferenceRow row, DayContent content) {
   if (octaveDay != null) {
     return (content.defaultCelebrationTitle == 'christmas_$octaveDay' &&
             content.precedence == 7) ||
-        content.defaultCelebrationTitle == 'roman/holy_family';
+        content.defaultCelebrationTitle.startsWith('roman/holy_family');
   }
 
   final slug = _expectedSlug[row.name];

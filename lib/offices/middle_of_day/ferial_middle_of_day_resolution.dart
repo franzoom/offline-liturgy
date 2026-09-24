@@ -21,7 +21,7 @@ Future<MiddleOfDay> ferialMiddleOfDayResolution(
     'advent' => _resolveAdvent(context),
     'christmas' => _resolveChristmas(context),
     'lent' => _resolveLent(context),
-    'paschal' => _resolveEaster(context),
+    'easter' => _resolveEaster(context),
     _ => middleOfDayExtract('$ferialFilePath/$code.yaml', context.dataLoader),
   };
 

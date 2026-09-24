@@ -24,7 +24,8 @@ Future<void> _ensureHymnListLoaded(DataLoader dataLoader) async {
   if (_hymnList != null) return;
   final content = await dataLoader.loadYaml('hymns/000_list.yaml');
   if (content.isEmpty) {
-    throw Exception('Asset not found: hymns/000_list.yaml — run flutter pub get');
+    throw Exception(
+        'Asset not found: hymns/000_list.yaml — run flutter pub get');
   }
   final parsed = loadYaml(content);
   if (parsed == null || parsed is! Map) {
@@ -59,9 +60,14 @@ List<HymnEntry> _getHymnsForOffice(
   return codes.map((e) => HymnEntry(code: e)).toList();
 }
 
-String _middleOfDayHymnSeason(String liturgicalTime) => switch (liturgicalTime) {
+// 'easter' on the right is the hymn library's own season key (000_list.yaml),
+// a different vocabulary from the liturgicalTime values matched on the left
+// — 'easter' never occurs as a liturgicalTime value (see
+// french_liturgy_labels.dart), so it's not one of the input cases.
+String _middleOfDayHymnSeason(String liturgicalTime) =>
+    switch (liturgicalTime) {
       'lent' || 'holyweek' => 'lent',
-      'easter' || 'paschaloctave' || 'paschaltime' => 'easter',
+      'paschaloctave' || 'paschaltime' => 'easter',
       _ => 'ordinary',
     };
 

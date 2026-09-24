@@ -38,7 +38,10 @@ String _paschalAntiphonLine(String line) {
   return '$trimmed, alléluia.';
 }
 
-const _paschalTimes = {'easter', 'paschaloctave', 'paschaltime', 'paschal'};
+// The real liturgicalTime values for Easter time (see
+// french_liturgy_labels.dart) — 'easter' and 'paschal' never occur as such
+// a value, only 'paschaloctave' and 'paschaltime' do.
+const _paschalTimes = {'paschaloctave', 'paschaltime'};
 
 /// Transforms an antiphon by adding "alléluia" during Easter time.
 ///

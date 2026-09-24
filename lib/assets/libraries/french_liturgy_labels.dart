@@ -11,10 +11,16 @@ const Map<String, String> celebrationTypeLabels = {
 };
 
 /// Liturgical Times
+///
+/// Keyed by the exact values `DayContent.liturgicalTime` / `CelebrationContext.
+/// liturgicalTime` actually take (see `main_calendar_fill.dart`) — in
+/// particular `paschaltime` for ordinary Easter-season ferial days, not
+/// `easter` (which never occurs as a liturgicalTime value; it's only used as
+/// a ferial-code/file-naming prefix, e.g. `easter_3_4.yaml`).
 const liturgicalTimeLabels = {
   'advent': 'Temps de l’Avent',
   'ot': 'Temps Ordinaire',
-  'easter': 'Temps Pascal',
+  'paschaltime': 'Temps Pascal',
   'lent': 'Carême',
   'christmas': 'Temps de Noël',
   'holyweek': 'Semaine Sainte',
@@ -25,7 +31,7 @@ const liturgicalTimeLabels = {
 const liturgicalTimeLabelsDative = {
   'advent': 'du Temps de l’Avent',
   'ot': 'du Temps Ordinaire',
-  'easter': 'du Temps Pascal',
+  'paschaltime': 'du Temps Pascal',
   'lent': 'du Carême',
   'christmas': 'du Temps de Noël',
   'holyweek': 'de la Semaine Sainte',

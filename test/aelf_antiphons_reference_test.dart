@@ -3,10 +3,10 @@
 // AELF's own published texts (fixture in test/fixtures/, rebuilt by
 // test/tools/fetch_aelf_antiphons_reference.dart — no network access here).
 //
-// Text is compared after stripping HTML and normalizing quotes/whitespace:
-// AELF and our own YAML sources format the same antiphon slightly
-// differently (curly vs straight apostrophes, <p>/<br/> markup, trailing
-// spaces) without that being a real content discrepancy.
+// Text is compared on its words only, after stripping HTML, punctuation and
+// case: AELF and our own YAML sources format the same antiphon slightly
+// differently (curly vs straight apostrophes, <p>/<br/> markup, a missing
+// comma, '!' vs '.') without that being a real content discrepancy.
 
 import 'dart:convert';
 import 'dart:io';
@@ -18,6 +18,25 @@ const int _year = 2026;
 const String _location = 'france';
 const String _aelfZone = 'france';
 
+/// Divergences where AELF is wrong: our text was checked against the printed
+/// breviary by the maintainer. Keyed '$date|$office|$field', as in
+/// [_Mismatch.key]. They're still listed in the summary, but don't fail the
+/// test; an entry that no longer diverges is reported so it can be removed.
+const Set<String> _knownAelfErrors = {
+  // "maison de prière" chez AELF, "maison de la prière" au bréviaire.
+  '2026-10-25|Laudes|antienne_1',
+  // AELF garde l'antienne du psautier pour le Ps 75 ; le bréviaire met
+  // l'antienne de l'Heure sur les trois psaumes.
+  '2026-12-06|None|antienne_2',
+  '2026-12-06|None|antienne_3',
+  // Faute de frappe AELF : "Isarël".
+  '2026-12-20|Sexte|antienne_1',
+  '2026-12-20|Sexte|antienne_2',
+  '2026-12-20|Sexte|antienne_3',
+  // "nous recevrons" chez AELF, "nous recevons" au bréviaire.
+  '2026-12-25|Laudes|antienne_zacharie (Benedictus)',
+};
+
 class _Mismatch {
   final String date;
   final String office;
@@ -27,6 +46,8 @@ class _Mismatch {
   final String aelf;
   _Mismatch(this.date, this.office, this.celebration, this.field, this.ours,
       this.aelf);
+
+  String get key => '$date|$office|$field';
 
   @override
   String toString() => '$date [$office] $celebration — $field\n'
@@ -111,17 +132,33 @@ void main() {
     print('\n\n===================== RÉSUMÉ =====================');
     print('$comparedCount antienne(s) comparée(s) pour $_location $_year '
         'vs AELF ($_aelfZone).');
-    if (mismatches.isEmpty) {
-      print('Aucune divergence détectée.');
+    final known =
+        mismatches.where((m) => _knownAelfErrors.contains(m.key)).toList();
+    final unexpected =
+        mismatches.where((m) => !_knownAelfErrors.contains(m.key)).toList();
+    final foundKeys = mismatches.map((m) => m.key).toSet();
+    final staleKnown =
+        _knownAelfErrors.where((k) => !foundKeys.contains(k)).toList();
+
+    if (known.isNotEmpty) {
+      print('\n${known.length} erreur(s) AELF connue(s), ignorée(s) '
+          '(voir _knownAelfErrors).');
+    }
+    for (final k in staleKnown) {
+      print('\nÀ retirer de _knownAelfErrors (plus de divergence) : $k');
+    }
+    if (unexpected.isEmpty) {
+      print('Aucune divergence inattendue détectée.');
     } else {
-      for (final m in mismatches) {
+      for (final m in unexpected) {
         print('\n$m');
       }
-      print('\nTOTAL : ${mismatches.length} divergence(s).');
+      print('\nTOTAL : ${unexpected.length} divergence(s).');
     }
 
-    expect(mismatches, isEmpty,
-        reason: '${mismatches.length} divergence(s) — voir le résumé ci-dessus');
+    expect(unexpected, isEmpty,
+        reason:
+            '${unexpected.length} divergence(s) — voir le résumé ci-dessus');
   }, timeout: const Timeout(Duration(minutes: 5)));
 }
 
@@ -197,7 +234,8 @@ void _comparePsalmody(
       continue; // ni l'un ni l'autre n'en a — rien à comparer ici
     }
     tick();
-    if (aelfText != oursText && !_isLegitimateSecondAntiphon(oursText, aelfText)) {
+    if (!_sameWords(oursText, aelfText) &&
+        !_isLegitimateSecondAntiphon(oursText, aelfText)) {
       mismatches.add(_Mismatch(date, office, celebration, aelfKey, oursText,
           aelfText));
     }
@@ -221,7 +259,7 @@ void _compareEvangelicAntiphon(
   final oursText = _normalize(oursJoined);
   if (aelfText.isEmpty && oursText.isEmpty) return;
   tick();
-  if (aelfText != oursText) {
+  if (!_sameWords(oursText, aelfText)) {
     mismatches.add(
         _Mismatch(date, office, celebration, fieldLabel, oursText, aelfText));
   }
@@ -239,18 +277,42 @@ String _normalize(String? text) {
   return t;
 }
 
+/// Reduces a normalized text to its words only — lowercase, no punctuation,
+/// no soft hyphens — so that punctuation and case differences between AELF
+/// and our YAML (a missing comma, '!' vs '.', a capital after a colon) are
+/// not reported as mismatches. Only a difference in the words themselves is.
+///
+/// The word "alléluia" is left out too, whatever its spelling: AELF shows
+/// an optional "(alléluia)" outside Lent where we follow the season, and
+/// its own text has typos of it ("allléluia", "allélluia").
+String _wordsKey(String text) => text
+    .replaceAll('­', '')
+    .replaceAll(RegExp(r'\b[RV]/'), ' ') // responsory markers (R/, V/)
+    .toLowerCase()
+    .replaceAll(RegExp(r'[^\p{L}\p{N}]+', unicode: true), ' ')
+    .split(' ')
+    .where((w) => w.isNotEmpty && !_alleluiaWord.hasMatch(w))
+    .join(' ');
+
+final RegExp _alleluiaWord = RegExp(r'^al+él+u+ia$');
+
+/// An AELF text with no words left (only "alléluia", a refrain marker or
+/// stray punctuation) has nothing to check ours against.
+bool _sameWords(String ours, String aelf) {
+  final aelfWords = _wordsKey(aelf);
+  return aelfWords.isEmpty || _wordsKey(ours) == aelfWords;
+}
+
 /// AELF's own site only ever shows one antiphon per psalm, even where the
 /// printed breviary gives two (confirmed by the maintainer) — so when our
 /// antiphon is AELF's text plus something more after it, that extra part is
 /// a legitimate second antiphon AELF simply doesn't display, not a content
-/// bug. Compared case-insensitively, ignoring AELF's own trailing
-/// punctuation, since the continuation point in [ours] doesn't necessarily
-/// carry the exact same punctuation mark.
+/// bug. Compared on words only (see [_wordsKey]), since the continuation
+/// point in [ours] doesn't necessarily carry the same punctuation mark.
 bool _isLegitimateSecondAntiphon(String ours, String aelf) {
-  if (aelf.isEmpty) return false;
-  final aelfCore =
-      aelf.toLowerCase().replaceAll(RegExp(r'[.!?;:,]+$'), '').trim();
-  if (aelfCore.isEmpty) return false;
-  final oursLower = ours.toLowerCase();
-  return oursLower.startsWith(aelfCore) && oursLower.length > aelfCore.length;
+  final aelfWords = _wordsKey(aelf);
+  if (aelfWords.isEmpty) return false;
+  final oursWords = _wordsKey(ours);
+  return oursWords.startsWith('$aelfWords ') &&
+      oursWords.length > aelfWords.length;
 }

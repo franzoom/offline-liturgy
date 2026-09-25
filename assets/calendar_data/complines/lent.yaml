@@ -63,41 +63,80 @@ friday:
     - Pourquoi me rejeter, Seigneur ? Pourquoi cacher ta face ?
 
 holy_thursday:
+  hymns:
+  - avant-la-fin-de-la-lumiere
   psalmody:
   - psalm: PSALM_90
     antiphon:
     - À l’ombre de ses ailes, n’aie plus peur de la nuit.
+  reading:
+    biblicalReference: Ap 22, 4-5
+    content: |-
+      Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n’existera plus, ils n’auront plus besoin de la lumière d’une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.
   responsory: |-
-    R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort.
-    V/ Voici l’heure où le Fils de l’homme a été livré, voici le pouvoir des ténèbres. R/
-  evangelicAntiphon:
-    common:
-    - Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.
-
-holy_friday:
-  psalmody:
-  - psalm: PSALM_90
-    antiphon:
-    - À l’ombre de ses ailes, n’aie plus peur de la nuit.
-  responsory: |-
-    R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.
-    V/ Lui, le Fils, il a appris l’obéissance par les souffrances de sa passion. R/
+    R/ Le Christ s’est fait pour nous obéissant
+    >jusqu’à la mort.
+    V/ Voici l’heure où le Fils de l’homme a été livré,
+    voici le pouvoir des ténèbres. R/
   evangelicAntiphon:
     common:
     - Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.
   oration:
   - |-
-    Regarde, Seigneur, nous t’en prions, la famille qui t’appartient : c’est pour elle que Jésus, le Christ, notre Seigneur, ne refusa pas d’être livré aux mains des méchants ni de subir le supplice de la croix. Lui qui règne.
+    Notre Seigneur et notre Dieu, tu nous as fait entendre ton amour au matin de la Résurrection ; quand viendra pour nous le moment de mourir, que ton souffle de vie nous conduise en ta présence. Par Jésus, le Christ, notre Seigneur. Amen.
+  - |-
+    Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel ; alors qu’il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s’éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen.
 
-holy_saturday:
-  commentary: Si on ne participe pas à la Veillée pascale, on dit les Complies.
+holy_friday:
+  hymns:
+  - avant-la-fin-de-la-lumiere
   psalmody:
   - psalm: PSALM_90
     antiphon:
     - À l’ombre de ses ailes, n’aie plus peur de la nuit.
+  reading:
+    biblicalReference: Ap 22, 4-5
+    content: |-
+      Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n’existera plus, ils n’auront plus besoin de la lumière d’une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.
   responsory: |-
-    R/ Le Christ s’est fait pour nous obéissant jusqu’à la mort, et la mort de la croix.
-    V/ C’est pourquoi Dieu l’a exalté et lui a donné le Nom qui est au-dessus de tout nom. R/
+    R/ Le Christ s’est fait pour nous obéissant
+    jusqu’à la mort,
+    et la mort de la croix.
+    V/ Lui, le Fils, il a appris l’obéissance
+    par les souffrances de sa passion. R/
   evangelicAntiphon:
     common:
     - Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.
+  oration:
+  - |-
+    Notre Seigneur et notre Dieu, tu nous as fait entendre ton amour au matin de la Résurrection ; quand viendra pour nous le moment de mourir, que ton souffle de vie nous conduise en ta présence. Par Jésus, le Christ, notre Seigneur. Amen.
+  - |-
+    Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel ; alors qu’il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s’éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen.
+
+holy_saturday:
+  commentary: Si on ne participe pas à la Veillée pascale, on dit les Complies.
+  hymns:
+  - avant-la-fin-de-la-lumiere
+  psalmody:
+  - psalm: PSALM_90
+    antiphon:
+    - À l’ombre de ses ailes, n’aie plus peur de la nuit.
+  reading:
+    biblicalReference: Ap 22, 4-5
+    content: |-
+      Les serviteurs de Dieu verront son visage, et son nom sera écrit sur leur front. La nuit n’existera plus, ils n’auront plus besoin de la lumière d’une lampe ni de la lumière du soleil, parce que le Seigneur Dieu les illuminera, et ils régneront pour les siècles des siècles.
+  responsory: |-
+    R/ Le Christ s’est fait pour nous obéissant
+    jusqu’à la mort,
+    et la mort de la croix.
+    V/ C'est pourquoi Dieu l’a exalté
+    et lui a donné le Nom
+    qui est au-dessus de tout nom. R/
+  evangelicAntiphon:
+    common:
+    - Dieu saint, Dieu fort, Dieu immortel, ta pitié soit sur nous.
+  oration:
+  - |-
+    Notre Seigneur et notre Dieu, tu nous as fait entendre ton amour au matin de la Résurrection ; quand viendra pour nous le moment de mourir, que ton souffle de vie nous conduise en ta présence. Par Jésus, le Christ, notre Seigneur. Amen.
+  - |-
+    Seigneur Dieu, notre maître souverain, tu as illuminé nos yeux par la lumière de ton Verbe éternel ; alors qu’il fait nuit maintenant, garde nos âmes dans ta paix, et quand notre vie s’éteindra, laisse-nous aller dans ton paradis avec ton Fils, Jésus-Christ notre Seigneur. Amen.

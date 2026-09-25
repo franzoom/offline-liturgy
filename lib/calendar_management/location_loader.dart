@@ -139,14 +139,16 @@ Future<Set<String>> _availableSanctoralIdsFromFileSystem(
 
 /// Same as [_availableSanctoralIdsFromFileSystem], but through a [DataLoader]
 /// — for asset sources (e.g. Flutter's rootBundle) with no direct filesystem access.
+/// The listings are independent, so they run in parallel.
 Future<Set<String>> _availableSanctoralIdsFromLoader(DataLoader loader,
     String sanctoralPrefix, Iterable<String> locationIds) async {
-  final available = <String>{};
-  for (final id in locationIds) {
-    final files = await loader.listFiles('$sanctoralPrefix/$id/');
-    if (files.isNotEmpty) available.add(id);
-  }
-  return available;
+  final ids = locationIds.toList();
+  final listings = await Future.wait(
+      ids.map((id) => loader.listFiles('$sanctoralPrefix/$id/')));
+  return {
+    for (int i = 0; i < ids.length; i++)
+      if (listings[i].isNotEmpty) ids[i],
+  };
 }
 
 Future<Map<String, Location>> _loadLocationsFromDirectory(

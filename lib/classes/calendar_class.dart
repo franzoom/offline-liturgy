@@ -53,6 +53,9 @@ class Calendar {
   /// Deduplicates by base name (strips prefix). When [knownCodes] is provided
   /// and the new qualified key is absent from it (no corresponding YAML file),
   /// the existing key is preserved and only the precedence is updated.
+  /// An empty [knownCodes] means "unknown" (no index loaded), like null: the
+  /// new key is then taken — rather than every local key being treated as
+  /// having no file and silently losing to the Roman one.
   ///
   /// Returns the key actually stored in the calendar.
   String addItemToDay(DateTime date, int precedence, String newFeastName,
@@ -87,10 +90,11 @@ class Calendar {
     }
 
     // If newFeastName has no own YAML file, preserve the existing qualified key
-    final effectiveKey =
-        (knownCodes != null && !knownCodes.contains(newFeastName))
-            ? existingFeastName
-            : newFeastName;
+    final effectiveKey = (knownCodes != null &&
+            knownCodes.isNotEmpty &&
+            !knownCodes.contains(newFeastName))
+        ? existingFeastName
+        : newFeastName;
 
     // Exact same key at same precedence — nothing to do
     if (existingPrecedence == precedence && existingFeastName == effectiveKey) {

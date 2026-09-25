@@ -196,7 +196,12 @@ void _fillChristmasToBaptism(
   calendar.addDayContent(date, dayContent);
 
   date = date.shift(1);
-  int christmasFerialDays = date.difference(feasts['HOLY_FAMILY']!).inDays;
+  // Days are counted from the Sunday on or before January 1st, so that
+  // the day part of the code is always the real weekday (0 = Sunday) and
+  // the week only advances on a Sunday. Counting from the Holy Family
+  // instead broke when Christmas is a Sunday (Holy Family on Friday Dec 30).
+  final int jan1Offset = DateTime(liturgicalYear, 1, 1).weekday % 7;
+  int christmasFerialDays = jan1Offset + 1;
 
   // days between january, 2d and the Epiphany
   DateTime epiphanyDate = feasts['EPIPHANY']!;
@@ -206,7 +211,9 @@ void _fillChristmasToBaptism(
       liturgicalTime: 'christmas',
       defaultCelebrationTitle:
           'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
-      precedence: 13,
+      // A Sunday here is the Second Sunday after Christmas (Epiphany kept
+      // on January 6), which ranks with the Sundays of Christmas Time.
+      precedence: date.isSunday ? 6 : 13,
       liturgicalColor: 'white',
       breviaryWeek: (christmasFerialDays ~/ 7) % 4 + 1,
       feastList: {},
@@ -234,14 +241,15 @@ void _fillChristmasToBaptism(
   date = epiphanyDate;
   calendar.addDayContent(date, dayContent);
   date = date.shift(1);
-  christmasFerialDays = 1;
 
-  // going on with the "second week" till the Baptism of the Lord:
+  // going on with the "second week" till the Baptism of the Lord. The day
+  // part is the real weekday: when Epiphany is kept on a fixed January 6,
+  // the day after it is not necessarily a Monday.
   while (date.isBefore(feasts['BAPTISM']!)) {
     dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'christmas',
-      defaultCelebrationTitle: 'christmas_2_$christmasFerialDays',
+      defaultCelebrationTitle: 'christmas_2_${date.weekday % 7}',
       precedence: 13,
       liturgicalColor: 'white',
       breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
@@ -249,7 +257,6 @@ void _fillChristmasToBaptism(
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
-    christmasFerialDays++;
   }
 
   // adding the Baptism of the Lord

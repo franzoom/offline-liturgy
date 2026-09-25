@@ -59,14 +59,19 @@ Future<MiddleOfDay> middleOfDayExport(
 
   // 4c. PER-HOUR PSALMODY
   // Baptism of the Lord: precedence 5 (a Feast, not a Solemnity) and no
-  // ferial day underneath (see date_tools.dart's ferialDayCheck), so
-  // neither branch below would otherwise run. It normally falls on the
-  // Sunday after Epiphany — same gradual psalms as any other Solemnity
-  // Sunday — but moves to the following Monday when Epiphany itself falls
-  // on Jan 6 or 7 (baptism() in common_calendar_definitions.dart), each of
-  // those two Mondays using its own psalms instead.
-  if (celebrationContext.celebrationCode == 'roman/baptism') {
-    middleOfDayOffice.psalmody = _baptismPsalmody(celebrationContext.date);
+  // ferial day underneath (see date_tools.dart's ferialDayCheck), so the
+  // solemnity branch below never runs. On its usual Sunday, its psalms
+  // (Sunday III) come from baptism_of_the_lord_sunday.yaml like any proper
+  // psalmody. It moves to the following Monday when Epiphany itself falls
+  // on Sunday Jan 7 or 8 (baptism() in common_calendar_definitions.dart),
+  // and each of those two Mondays takes its own psalms, which depend on the
+  // date and so can't live in baptism_of_the_lord_week.yaml.
+  final baptismMondayPsalmody =
+      celebrationContext.celebrationCode == 'roman/baptism_of_the_lord_week'
+          ? _baptismMondayPsalmody(celebrationContext.date)
+          : null;
+  if (baptismMondayPsalmody != null) {
+    middleOfDayOffice.psalmody = baptismMondayPsalmody;
   } else if (celebrationContext.precedence != null &&
       celebrationContext.precedence! <= 4) {
     _buildPerHourPsalmody(
@@ -206,16 +211,18 @@ Future<MiddleOfDay> middleOfDayExport(
 
 // --- HELPERS ---
 
-/// Psalmody for Baptism of the Lord's Tierce/Sexte/None (see 4c above).
-/// Same 3 psalms shared across all three hours, each getting its own
-/// antiphon from the proper file's tierce/sexte/none.antiphon.
-List<PsalmEntry> _baptismPsalmody(DateTime date) {
+/// Psalmody for the Baptism of the Lord on a Monday (see 4c above): Monday
+/// II on Jan 8, Monday III on Jan 9. Same 3 psalms shared across all three
+/// hours, each getting its own antiphon from the proper file's
+/// tierce/sexte/none.antiphon. Returns null for any other date, leaving the
+/// proper file's own psalmody in place.
+List<PsalmEntry>? _baptismMondayPsalmody(DateTime date) {
   final codes = switch ((date.month, date.day)) {
     (1, 8) => const ['PSALM_118_6', 'PSALM_39_1', 'PSALM_39_2'],
     (1, 9) => const ['PSALM_118_12', 'PSALM_70_1', 'PSALM_70_2'],
-    _ => sunday1PsalmsForMiddleOfDay,
+    _ => null,
   };
-  return codes.map((c) => PsalmEntry(psalm: c)).toList();
+  return codes?.map((c) => PsalmEntry(psalm: c)).toList();
 }
 
 /// Builds per-hour psalmody lists on [office] for solemnities (step 3b).

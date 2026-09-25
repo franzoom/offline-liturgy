@@ -99,6 +99,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     'roman/holy_family_week',
     'roman/presentation_of_the_lord_week',
     'roman/baptism_of_the_lord_week',
+    // A single code whatever the weekday: First Vespers only on a Sunday.
+    'roman/dedication_of_the_lateran_basilica',
   };
 
   // A Solemnity of the Lord's First Vespers always wins over a Sunday's

@@ -9,6 +9,7 @@ import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
 import '../../tools/constants.dart';
+import '../../tools/date_tools.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
@@ -44,9 +45,22 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   // STEP 4: Apply Proper data
   readingsOffice.overlayWith(properReadings);
 
-  // STEP 5: Te Deum — only for Feasts and Solemnities (precedence ≤ 8), never in Holy Week
-  final bool hasTeDeum = prec <= 8 && lt != 'holyweek' &&
-      context.celebrationCode != 'commemoration_of_all_the_faithful_departed';
+  // STEP 5: Te Deum (GILH 68) — on Sundays outside Lent, during the Easter
+  // and Christmas octaves, and on solemnities and feasts. Not a precedence
+  // threshold: Ash Wednesday and the Sundays of Lent rank 2 yet have none,
+  // while Dec 29-31 rank 9 yet do. The Commemoration of All the Faithful
+  // Departed keeps its high rank (so that its Mass prevails even over a
+  // Sunday) but has no Te Deum.
+  final bool isAllSouls = context.celebrationCode ==
+      'roman/commemoration_of_all_the_faithful_departed';
+  final bool isOctaveDay =
+      lt == 'nativity' || lt == 'christmasoctave' || lt == 'paschaloctave';
+  final bool isSundayOutsideLent =
+      context.date.isSunday && lt != 'lent' && lt != 'holyweek';
+  final bool isSolemnityOrFeast =
+      prec <= 8 && !ferialDayCheck(context.celebrationCode);
+  final bool hasTeDeum = !isAllSouls &&
+      (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;
 
   // Holy Week: assign Passion hymns if no proper hymn is defined

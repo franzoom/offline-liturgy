@@ -171,9 +171,15 @@ class Calendar {
 
   /// Downgrades obligatory memorials (precedence 10/11) to optional (12)
   /// during privileged liturgical times where memorials are not celebrated.
+  /// In Advent this only applies from December 17 to 24: before Dec 17,
+  /// Advent weekdays rank 13 and obligatory memorials stay obligatory.
   void downgradeMemorialsDuringPrivilegedTimes() {
-    for (final dayContent in calendarData.values) {
+    for (final MapEntry(key: date, value: dayContent) in calendarData.entries) {
       if (!privilegedTimes.contains(dayContent.liturgicalTime)) continue;
+      if (dayContent.liturgicalTime == 'advent' &&
+          !(date.month == 12 && date.day >= 17)) {
+        continue;
+      }
 
       // Check for precedences 10 and 11 and move them to 12
       for (final precedence in [10, 11]) {

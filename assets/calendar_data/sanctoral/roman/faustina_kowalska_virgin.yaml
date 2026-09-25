@@ -1,10 +1,27 @@
 celebration:
   title: Sainte Faustine Kowalska
   subtitle: vierge
-  description: (à remplir)
+  description: Née en 1905 à Glogowiec en Pologne, Faustine Kowalska consacra sa courte vie au Christ dans la Congrégation des Sœurs de la bienheureuse Vierge de la Miséricorde. Ayant reçu la vocation d’annoncer l’amour miséricordieux de Dieu, elle laissa dans son Journal spirituel le témoignage de son expérience mystique, et suscita un mouvement voué à annoncer et à implorer la Divine Miséricorde ans le monde entier. Elle mourut à Cracovie en 1938.
   commons:
   - virgins
+  - saints-female_religious
   color: white
 
 oration:
-- 
+- Seigneur Dieu, tu as confié à sainte Faustine la mission de faire connaître les immenses richesses de ta miséricorde infinie ; par son intercession, accorde-nous de mettre, à son exemple, toute notre confiance en ta bonté et de pratiquer généreusement une charité active. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as confié à sainte Faustine
+    >la mission de faire connaître les immenses richesses
+    >de ta miséricorde infinie ; *
+    par son intercession, accorde-nous de mettre, à son exemple,
+    >toute notre confiance en ta bonté /
+    >et de pratiquer généreusement une charité active.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

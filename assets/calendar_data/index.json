@@ -930,7 +930,7 @@
     "title": "Vendredi Saint"
   },
   "lent_6_6": {
-    "color": "black",
+    "color": "violet",
     "dir": "ferial_days",
     "title": "Samedi Saint"
   },
@@ -974,7 +974,7 @@
   "lyon/annemund_of_lyon_bishop": {
     "color": "red",
     "commons": [
-      "martyrs",
+      "martyr",
       "pastors_bishop"
     ],
     "dir": "sanctoral",
@@ -1182,7 +1182,7 @@
   "lyon/polycarp_of_smyrna_bishop": {
     "color": "red",
     "commons": [
-      "martyrs",
+      "martyr",
       "pastors_bishop"
     ],
     "dir": "sanctoral",
@@ -1569,7 +1569,8 @@
   "roman/ansgar_of_hamburg_bishop": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors_missionary",
+      "pastors_bishop"
     ],
     "dir": "sanctoral",
     "title": "Saint Anschaire"
@@ -1577,6 +1578,7 @@
   "roman/anthony_mary_claret_bishop": {
     "color": "white",
     "commons": [
+      "pastors_missionary",
       "pastors_bishop"
     ],
     "dir": "sanctoral",
@@ -1603,7 +1605,7 @@
   "roman/anthony_zaccaria_priest": {
     "color": "white",
     "commons": [
-      "pastors_founder",
+      "pastors",
       "saints-male_educator",
       "saints-male_religious"
     ],
@@ -1644,6 +1646,7 @@
   "roman/augustine_of_canterbury_bishop": {
     "color": "white",
     "commons": [
+      "pastors_missionary",
       "pastors_bishop"
     ],
     "dir": "sanctoral",
@@ -1730,7 +1733,8 @@
   "roman/bernardine_of_siena_priest": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors_missionary",
+      "saints-male_religious"
     ],
     "dir": "sanctoral",
     "title": "Saint Bernardin de Sienne"
@@ -1738,7 +1742,7 @@
   "roman/blaise_of_sebaste_bishop": {
     "color": "red",
     "commons": [
-      "martyrs",
+      "martyr",
       "pastors"
     ],
     "dir": "sanctoral",
@@ -1757,7 +1761,7 @@
     "color": "red",
     "commons": [
       "martyr",
-      "pastors_bishop"
+      "pastors_missionary"
     ],
     "dir": "sanctoral",
     "title": "Saint Boniface"
@@ -1765,7 +1769,8 @@
   "roman/bridget_of_sweden_religious": {
     "color": "white",
     "commons": [
-      "saints-female"
+      "saints-female",
+      "saints-female_religious"
     ],
     "dir": "sanctoral",
     "title": "Sainte Brigitte"
@@ -1773,8 +1778,8 @@
   "roman/bruno_of_cologne_priest": {
     "color": "white",
     "commons": [
-      "pastors",
-      "saints-male_religious"
+      "saints-male_religious",
+      "pastors"
     ],
     "dir": "sanctoral",
     "title": "Saint Bruno"
@@ -1782,10 +1787,11 @@
   "roman/cajetan_of_thiene_priest": {
     "color": "white",
     "commons": [
-      "pastors_bishop"
+      "pastors",
+      "saints-male_religious"
     ],
     "dir": "sanctoral",
-    "title": "Saint Gaétan de Thiene"
+    "title": "Saint Gaétan de Thienne"
   },
   "roman/callistus_i_pope": {
     "color": "red",
@@ -1888,8 +1894,8 @@
   "roman/clement_i_pope": {
     "color": "red",
     "commons": [
-      "pastors_pope",
-      "martyr"
+      "martyr",
+      "pastors_pope"
     ],
     "dir": "sanctoral",
     "title": "Saint Clément I^er"
@@ -1897,7 +1903,7 @@
   "roman/columban_of_luxeuil_abbot": {
     "color": "white",
     "commons": [
-      "pastors",
+      "pastors_missionary",
       "saints-male_religious_abbot"
     ],
     "dir": "sanctoral",
@@ -1962,7 +1968,6 @@
     "color": "white",
     "commons": [
       "pastors_bishop",
-      "saints_doctors",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
@@ -2067,7 +2072,7 @@
   "roman/fabian_i_pope": {
     "color": "red",
     "commons": [
-      "martyrs",
+      "martyr",
       "pastors_pope"
     ],
     "dir": "sanctoral",
@@ -2076,7 +2081,8 @@
   "roman/faustina_kowalska_virgin": {
     "color": "white",
     "commons": [
-      "virgins"
+      "virgins",
+      "saints-female_religious"
     ],
     "dir": "sanctoral",
     "title": "Sainte Faustine Kowalska"
@@ -2101,6 +2107,7 @@
   "roman/frances_of_rome_religious": {
     "color": "white",
     "commons": [
+      "saints-female",
       "saints-female_religious"
     ],
     "dir": "sanctoral",
@@ -2185,7 +2192,8 @@
   "roman/hedwig_of_silesia_religious": {
     "color": "white",
     "commons": [
-      "saints-female_religious"
+      "saints-female_religious",
+      "saints-female"
     ],
     "dir": "sanctoral",
     "title": "Sainte Edwige"
@@ -2282,7 +2290,7 @@
   "roman/isidore_of_seville_bishop": {
     "color": "white",
     "commons": [
-      "pastors",
+      "pastors_bishop",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
@@ -2350,7 +2358,7 @@
     "color": "white",
     "commons": [
       "pastors",
-      "saints-male"
+      "saints-male_educator"
     ],
     "dir": "sanctoral",
     "title": "Saint Jean Bosco"
@@ -2367,6 +2375,7 @@
   "roman/john_damascene_priest": {
     "color": "white",
     "commons": [
+      "pastors",
       "pastors_doctors"
     ],
     "dir": "sanctoral",
@@ -2418,7 +2427,7 @@
   "roman/john_leonardi_priest": {
     "color": "white",
     "commons": [
-      "pastors",
+      "pastors_missionary",
       "saints-male_caritative"
     ],
     "dir": "sanctoral",
@@ -2444,7 +2453,8 @@
   "roman/john_of_capistrano_priest": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors_missionary",
+      "saints-male_religious"
     ],
     "dir": "sanctoral",
     "title": "Saint Jean de Capistran"
@@ -2452,7 +2462,8 @@
   "roman/john_of_god_duarte_cidade_religious": {
     "color": "white",
     "commons": [
-      "saints-male_religious"
+      "saints-male_religious",
+      "saints-male_caritative"
     ],
     "dir": "sanctoral",
     "title": "Saint jean de Dieu"
@@ -2460,7 +2471,8 @@
   "roman/john_of_kanty_priest": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors",
+      "saints-male_caritative"
     ],
     "dir": "sanctoral",
     "title": "Saint Jean de Kenty"
@@ -2543,7 +2555,8 @@
     "color": "white",
     "commons": [
       "pastors",
-      "pastors_doctors"
+      "pastors_doctors",
+      "saints-male_religious"
     ],
     "dir": "sanctoral",
     "title": "Saint Laurent de Brindisi"
@@ -2562,7 +2575,7 @@
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Saints Laurent Zuiz et ses compagnons"
+    "title": "Saints Laurent Ruiz et ses compagnons"
   },
   "roman/leo_i_the_great_pope": {
     "color": "white",
@@ -2653,7 +2666,7 @@
       "saints-female"
     ],
     "dir": "sanctoral",
-    "title": "Sainte Marthe"
+    "title": "Saintes Marthe, Marie et saint Lazare"
   },
   "roman/martin_de_porres_religious": {
     "color": "white",
@@ -2796,7 +2809,8 @@
   "roman/norbert_of_xanten_bishop": {
     "color": "white",
     "commons": [
-      "pastors_bishop"
+      "pastors_bishop",
+      "saints-male_religious"
     ],
     "dir": "sanctoral",
     "title": "Saint Norbert"
@@ -2876,6 +2890,7 @@
   "roman/patrick_of_ireland_bishop": {
     "color": "white",
     "commons": [
+      "pastors_missionary",
       "pastors_bishop"
     ],
     "dir": "sanctoral",
@@ -3133,7 +3148,8 @@
   "roman/scholastica_of_nursia_virgin": {
     "color": "white",
     "commons": [
-      "virgins"
+      "virgins",
+      "saints-female_religious"
     ],
     "dir": "sanctoral",
     "title": "Sainte Scholastique, vierge"
@@ -3141,7 +3157,7 @@
   "roman/sebastian_of_milan_martyr": {
     "color": "red",
     "commons": [
-      "martyrs"
+      "martyr"
     ],
     "dir": "sanctoral",
     "title": "Saint Sébastien"
@@ -3183,7 +3199,7 @@
     "color": "red",
     "commons": [
       "martyr",
-      "pastors"
+      "pastors_bishop"
     ],
     "dir": "sanctoral",
     "title": "Saint Stanislas"
@@ -3208,7 +3224,7 @@
     "color": "red",
     "commons": [
       "martyr_female_virgin",
-      "saints-female_religious"
+      "virgins"
     ],
     "dir": "sanctoral",
     "title": "Sainte Thérèse-Bénédicte de la Croix"
@@ -3251,9 +3267,8 @@
   "roman/thomas_aquinas_priest": {
     "color": "white",
     "commons": [
-      "pastors",
       "pastors_doctors",
-      "saints_doctors"
+      "pastors"
     ],
     "dir": "sanctoral",
     "title": "Saint Thomas d’Aquin"
@@ -3301,7 +3316,7 @@
   "roman/vincent_ferrer_priest": {
     "color": "white",
     "commons": [
-      "pastors"
+      "pastors_missionary"
     ],
     "dir": "sanctoral",
     "title": "Saint Vincent Ferrier"
@@ -3309,7 +3324,7 @@
   "roman/vincent_of_saragossa_deacon": {
     "color": "red",
     "commons": [
-      "martyrs"
+      "martyr"
     ],
     "dir": "sanctoral",
     "title": "Saint Vincent"
@@ -3333,7 +3348,7 @@
   "roman/wenceslaus_i_of_bohemia_martyr": {
     "color": "red",
     "commons": [
-      "martyrs"
+      "martyr"
     ],
     "dir": "sanctoral",
     "title": "Saint Venceslas"

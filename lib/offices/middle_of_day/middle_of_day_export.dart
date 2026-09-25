@@ -299,7 +299,7 @@ String? _getSeasonAntiphon(CelebrationContext context) {
     'christmas' => middleOfDayAntiphons['christmas'],
     'lent' => middleOfDayAntiphons['lent'],
     'holyweek' => middleOfDayAntiphons['passion'],
-    'paschaloctave' || 'paschaltime' => middleOfDayAntiphons['paschal'],
+    'paschaloctave' || 'paschaltime' => middleOfDayAntiphons['easter'],
     _ => null,
   };
 }

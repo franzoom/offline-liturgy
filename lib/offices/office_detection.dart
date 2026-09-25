@@ -67,8 +67,13 @@ double effectivePrecedence(int precedence, String code) {
   return precedence.toDouble();
 }
 
-final Map<(Calendar, DateTime), Future<List<CelebrationContext>>>
-    _detectCelebrationsCache = {};
+/// Per-calendar memo of [detectCelebrations], keyed by date. An [Expando]
+/// holds its values weakly with respect to the calendar: once a calendar is
+/// no longer used (the app rebuilds one on each region change, or for the
+/// calendar view of another year), its entries are released with it,
+/// instead of being kept alive forever by a global map.
+final Expando<Map<DateTime, Future<List<CelebrationContext>>>>
+    _detectCelebrationsCache = Expando('detectCelebrationsCache');
 
 /// Detects all possible celebrations for a given date
 /// Returns a list of CelebrationContext sorted by precedence (lowest first)
@@ -82,14 +87,27 @@ final Map<(Calendar, DateTime), Future<List<CelebrationContext>>>
 /// resolving the same underlying asset source, so including it in the key
 /// would defeat the cache; calendar already changes when the data source
 /// does (e.g. switching location rebuilds it).
+///
+/// An empty result is not kept: it is what a failed load returns, and the
+/// next call must be able to retry instead of showing an empty day for as
+/// long as the calendar lives.
 Future<List<CelebrationContext>> detectCelebrations(
   Calendar calendar,
   DateTime date,
   DataLoader dataLoader,
 ) {
-  final key = (calendar, date);
-  return _detectCelebrationsCache[key] ??=
-      _detectCelebrationsImpl(calendar, date, dataLoader);
+  final perDate = _detectCelebrationsCache[calendar] ??= {};
+  final cached = perDate[date];
+  if (cached != null) return cached;
+
+  final future = _detectCelebrationsImpl(calendar, date, dataLoader);
+  perDate[date] = future;
+  future.then((result) {
+    if (result.isEmpty && identical(perDate[date], future)) {
+      perDate.remove(date);
+    }
+  });
+  return future;
 }
 
 Future<List<CelebrationContext>> _detectCelebrationsImpl(

@@ -15,7 +15,8 @@ class LiturgyData {
   final Set<String> knownCodes;
   final Set<String> availableSanctoralIds;
 
-  const LiturgyData({
+  // Not const: locationTree below is computed once, on first access.
+  LiturgyData({
     required this.commonFeasts,
     required this.locationData,
     this.knownCodes = const {},
@@ -23,7 +24,7 @@ class LiturgyData {
   });
 
   /// For unit tests that verify calendar structure without feast data.
-  const LiturgyData.empty()
+  LiturgyData.empty()
       : commonFeasts = const [],
         locationData = const {},
         knownCodes = const {},
@@ -92,10 +93,13 @@ class LiturgyData {
 
   /// The location hierarchy built from the loaded YAML files, pruned to only
   /// the nodes that have usable sanctoral data (see [pruneUnavailableLocations]).
-  List<LocationNode> get locationTree => pruneUnavailableLocations(
-        buildLocationTree(locationData.values.toList()),
-        availableSanctoralIds,
-      );
+  /// Built once, on first access: the data it derives from never changes.
+  late final List<LocationNode> locationTree = List.unmodifiable(
+    pruneUnavailableLocations(
+      buildLocationTree(locationData.values.toList()),
+      availableSanctoralIds,
+    ),
+  );
 }
 
 List<LocationFeast> _parseFeastsFromYaml(String yamlContent) {

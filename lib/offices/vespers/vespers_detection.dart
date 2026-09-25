@@ -14,6 +14,10 @@ import '../../assets/libraries/french_liturgy_labels.dart';
 const int _firstVespersPrecedenceThreshold = 5;
 const int _defaultPrecedence = 13;
 
+/// Solemnities and the days ranking above them (Triduum, privileged
+/// Sundays, Holy Week, Easter Octave...) — see isSolemnityLevel below.
+const int _solemnityLevelPrecedence = 4;
+
 /// Returns a map of possible Vespers Offices, sorted by precedence (lowest value first)
 /// Key: celebration title from YAML (or resolved ferial name)
 /// Value: CelebrationContext with all celebration data
@@ -173,16 +177,29 @@ Future<Map<String, CelebrationContext>> vespersDetection(
           sundayTieBreakingFirstVespersCodes.contains(c.celebrationCode) &&
           (c.precedence ?? _defaultPrecedence) == highestTomorrowPrecedence);
 
+  // Two solemnity-level celebrations (precedence <= 4) competing for the
+  // same evening are a doubtful case: practice isn't uniform (AELF kept
+  // the Second Vespers of the Immaculate Conception over the 2nd Sunday of
+  // Advent in 2018, but gave the Annunciation's way to the 5th Sunday of
+  // Lent in 2023). Both stay celebrable, and the sort below puts first the
+  // likelier one: the higher rank per the Table of Liturgical Days, Second
+  // Vespers on a tie. The Nativity tie-break above still applies.
+  bool isSolemnityConflict(int precedence, int otherPrecedence) =>
+      precedence <= _solemnityLevelPrecedence &&
+      otherPrecedence <= _solemnityLevelPrecedence;
+
   // Add today's celebrations
   for (final c in vespersEligible) {
     // If tomorrow has First Vespers with higher precedence (lower number),
     // today's Vespers may not be celebrable
     bool isCelebrable = c.isCelebrable;
+    final int precedence = c.precedence ?? _defaultPrecedence;
+    final bool solemnityConflict = !tomorrowWinsTies &&
+        isSolemnityConflict(precedence, highestTomorrowPrecedence);
     if (hasHighPriorityTomorrow &&
-        ((c.precedence ?? _defaultPrecedence) > highestTomorrowPrecedence ||
-            (tomorrowWinsTies &&
-                (c.precedence ?? _defaultPrecedence) ==
-                    highestTomorrowPrecedence))) {
+        !solemnityConflict &&
+        (precedence > highestTomorrowPrecedence ||
+            (tomorrowWinsTies && precedence == highestTomorrowPrecedence))) {
       isCelebrable = false;
     }
 
@@ -206,17 +223,20 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     final firstVespersKey =
         'I Vespers: ${c.celebrationTitle ?? c.celebrationCode}';
 
-    // First Vespers are celebrable if:
-    // - tomorrow is Sunday (all Sundays always have celebrable First Vespers)
-    // - or they have higher precedence than today's celebrations
-    // - or today is Sunday and tomorrow is a Solemnity (prec. <= 3)
+    // First Vespers are celebrable unless today's celebration outranks
+    // them (GILH 61) — Sundays included: a Solemnity or a Feast of the
+    // Lord on Saturday keeps its Second Vespers over an Ordinary Time
+    // Sunday's First Vespers. Exceptions: a solemnity conflict keeps both
+    // celebrable (see isSolemnityConflict above), and a Solemnity
+    // (prec. <= 3) tomorrow always is when today is a Sunday.
+    final int precedence = c.precedence ?? _defaultPrecedence;
     bool isCelebrable = true;
-    if (!tomorrow.isSunday && hasHighPriorityToday) {
-      if ((c.precedence ?? _defaultPrecedence) > highestTodayPrecedence) {
-        isCelebrable = false;
-      }
+    if (hasHighPriorityToday &&
+        precedence > highestTodayPrecedence &&
+        !isSolemnityConflict(precedence, highestTodayPrecedence)) {
+      isCelebrable = false;
     }
-    if (date.isSunday && (c.precedence ?? _defaultPrecedence) <= 3) {
+    if (date.isSunday && precedence <= 3) {
       isCelebrable = true;
     }
 
@@ -229,21 +249,23 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     );
   }
 
-  // 5. Sort: Sunday First Vespers come first, then by effective precedence
-  final sortedEntries = possibleVespers.entries.toList()
-    ..sort((a, b) {
-      final aIsSundayFirstVespers =
-          a.value.celebrationType == 'vespers1' && tomorrow.isSunday;
-      final bIsSundayFirstVespers =
-          b.value.celebrationType == 'vespers1' && tomorrow.isSunday;
+  // 5. Sort: celebrable options first, then by rank (Table of Liturgical
+  // Days), Second Vespers before First Vespers on a tie.
+  double rankOf(CelebrationContext c) => effectivePrecedence(
+      c.precedence ?? _defaultPrecedence, c.celebrationCode);
 
-      if (aIsSundayFirstVespers != bIsSundayFirstVespers) {
-        return aIsSundayFirstVespers ? -1 : 1;
-      }
-      double precOf(CelebrationContext c) => effectivePrecedence(
-          c.precedence ?? _defaultPrecedence, c.celebrationCode);
-      return precOf(a.value).compareTo(precOf(b.value));
-    });
+  int compareVespers(CelebrationContext a, CelebrationContext b) {
+    if (a.isCelebrable != b.isCelebrable) return a.isCelebrable ? -1 : 1;
+    final byRank = rankOf(a).compareTo(rankOf(b));
+    if (byRank != 0) return byRank;
+    if (a.celebrationType != b.celebrationType) {
+      return a.celebrationType == 'vespers2' ? -1 : 1;
+    }
+    return 0;
+  }
+
+  final sortedEntries = possibleVespers.entries.toList()
+    ..sort((a, b) => compareVespers(a.value, b.value));
 
   return Map.fromEntries(sortedEntries);
 }

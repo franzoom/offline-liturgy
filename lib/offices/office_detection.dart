@@ -138,10 +138,12 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   ));
 
   // On Ordinary Time Saturdays, add the Marian memory when no obligatory
-  // celebration (precedence ≤ 9) is already present.
+  // celebration is already present: no solemnity or feast (≤ 9), and no
+  // obligatory memorial either (10: General Calendar, 11: proper calendars).
+  // Optional memorials (12) don't exclude it — the reader then chooses.
   if (date.weekday == DateTime.saturday &&
       liturgicalTime == 'ot' &&
-      allCelebrations.every((c) => c.precedence > 9)) {
+      allCelebrations.every((c) => c.precedence > 11)) {
     allCelebrations.add((
       precedence: 12,
       code: 'roman/virgin-mary-memory',

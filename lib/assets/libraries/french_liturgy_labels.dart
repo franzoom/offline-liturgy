@@ -207,6 +207,7 @@ const Map<String, String> massTypeLabels = {
   'NIGHT_MASS': 'Messe de la nuit',
   'DAWN_MASS': 'Messe de l’Aurore',
   'DAY_MASS': 'Messe du jour',
+  'VIGIL_MASS': 'Messe de Vigile',
   'EASTER_VIGIL': 'Vigile de Pâques',
   'FIRST_MASS': 'Première messe',
   'SECOND_MASS': 'Deuxième messe',

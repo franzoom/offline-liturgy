@@ -361,8 +361,10 @@ class CelebrationContext {
   /// origin when the feast comes from a location-specific calendar.
   /// e.g. "(Europe : solennité)" or "(Solennité)" or "".
   String get celebrationDisplayLabel {
-    if (celebrationCode == 'commemoration_of_all_the_faithful_departed')
+    if (celebrationCode ==
+        'roman/commemoration_of_all_the_faithful_departed') {
       return '';
+    }
     final baseLabel = getCelebrationTypeLabel(precedence ?? 13);
     final origin = celebrationOrigin;
     if (baseLabel.isEmpty || origin == null) return baseLabel;

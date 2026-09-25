@@ -59,6 +59,18 @@ Future<Compline?> getComplineText(
   Compline base =
       await complineExtract('$_base/default.yaml', day, dataLoader);
 
+  // The Nativity's own Complines — the eve (Dec 24 evening) as well as the
+  // day — already belong to Christmas Time: christmas.yaml alone applies,
+  // with no solemnity layer on top (solemnity_advent_christmas.yaml would
+  // replace its antiphons). The eve can't rely on liturgicalTime, which is
+  // still today's 'advent'; the day's own value is 'nativity'.
+  if (def.celebrationCode == 'roman/nativity') {
+    final Compline christmas =
+        await complineExtract('$_base/christmas.yaml', day, dataLoader);
+    final result = christmas.isEmpty ? base : base.mergeWith(christmas);
+    return result.copyWith(celebrationType: def.celebrationType);
+  }
+
   // Layer 2: for advent/christmas solemnities, merge the time-specific file
   // first so its antiphons and psalms serve as the intermediate base
   if (ct == 'solemnity' || ct == 'solemnityeve') {

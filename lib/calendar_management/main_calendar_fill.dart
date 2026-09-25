@@ -27,16 +27,15 @@ Calendar getCalendar(
           getCorpusDominiDate(location, data.locationData)) ==
       'thursday';
 
+  // The second year starts from the first Sunday of Advent of year N+1,
+  // not from eventDate shifted by one civil year: Advent moves between
+  // Nov 27 and Dec 3, so near its start a one-year shift can land on the
+  // other side of the boundary and skip (or repeat) a liturgical year.
+  final int firstYear = _liturgicalYearOf(eventDate);
   final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode,
       ascensionOnSunday, corpusDominiOnThursday);
-  final cal2 = calendarFill(
-      Calendar(),
-      DateTime(eventDate.year + 1, eventDate.month, eventDate.day),
-      location,
-      data,
-      epiphanyMode,
-      ascensionOnSunday,
-      corpusDominiOnThursday);
+  final cal2 = calendarFill(Calendar(), advent(firstYear + 1), location, data,
+      epiphanyMode, ascensionOnSunday, corpusDominiOnThursday);
 
   calendar.calendarData.addAll(cal1.calendarData);
   calendar.calendarData.addAll(cal2.calendarData);
@@ -57,13 +56,7 @@ Calendar calendarFill(
   bool ascensionOnSunday,
   bool corpusDominiOnThursday,
 ) {
-  //detection of the liturgical year
-  int liturgicalYear = eventDate.year;
-  DateTime adventDate = advent(liturgicalYear + 1);
-  if (adventDate.isBefore(eventDate) ||
-      adventDate.isAtSameMomentAs(eventDate)) {
-    liturgicalYear++;
-  }
+  final int liturgicalYear = _liturgicalYearOf(eventDate);
 
   Map<String, DateTime> liturgicalMainFeasts = createLiturgicalDays(
     liturgicalYear,
@@ -102,6 +95,13 @@ Calendar calendarFill(
       liturgicalMainFeasts, data.locationData, data.knownCodes);
 
   return calendar;
+}
+
+/// Returns the liturgical year containing [date]: the civil year, or the
+/// next one from the first Sunday of Advent onwards.
+int _liturgicalYearOf(DateTime date) {
+  final adventDate = advent(date.year + 1);
+  return adventDate.isAfter(date) ? date.year : date.year + 1;
 }
 
 /// Fills Advent: the weekdays and Sundays from the 1st Sunday of Advent up

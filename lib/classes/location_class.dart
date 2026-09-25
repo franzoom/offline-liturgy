@@ -189,8 +189,9 @@ class Location {
       for (final d in resolveDates(feast)) {
         final resolvedKey =
             calendar.moveItemToDate(feast.key, d, feast.precedence!);
-        calendar.setFeastOrigin(
-            d, resolvedKey ?? feast.key, frenchName, frenchLocative);
+        if (resolvedKey != null) {
+          calendar.setFeastOrigin(d, resolvedKey, frenchName, frenchLocative);
+        }
       }
     }
   }

@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
 
@@ -135,7 +137,10 @@ class Calendar {
   /// Moves a feast to an absolute date, searching by base name (prefix-agnostic).
   /// If the feast exists in the calendar, it is removed from its current date
   /// and re-added at [newDate] with the qualified key preserved.
-  /// If it does not exist yet, it is added at [newDate] under [feastName].
+  /// If it does not exist, nothing is added — an unprefixed [feastName]
+  /// would resolve to no file, and the feast would end up both at its
+  /// original date and as an empty entry at [newDate] — and a warning is
+  /// logged so that a misspelled `move:` entry stays visible.
   ///
   /// Returns the qualified key as found in the calendar (e.g.
   /// `roman/peter_canisius_priest`), or null if no matching entry was found.
@@ -162,14 +167,20 @@ class Calendar {
       }
     }
 
-    if (oldDate != null && oldDate != newDate) {
+    if (foundKey == null) {
+      log('move: no feast named "$feastName" in the calendar, ignored',
+          name: 'Calendar', level: 900);
+      return null;
+    }
+
+    if (oldDate != newDate) {
       final oldContent = calendarData[oldDate]!;
       final oldList = oldContent.feastList[oldPrecedence!]!;
       oldList.removeAt(oldIndex!);
       if (oldList.isEmpty) oldContent.feastList.remove(oldPrecedence);
     }
 
-    addItemToDay(newDate, precedence, foundKey ?? feastName);
+    addItemToDay(newDate, precedence, foundKey);
     return foundKey;
   }
 

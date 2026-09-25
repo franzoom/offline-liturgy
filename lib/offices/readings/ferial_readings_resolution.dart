@@ -126,8 +126,9 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
   // lent_4_0 and lent_5_0 (4th and 5th Sundays of Lent) have year-specific
   // patristic readings keyed as patristicReadingA/B/C in the YAML.
   final bool hasYearSpecificReading = day == 0 && (week == 4 || week == 5);
-  final String? year =
-      hasYearSpecificReading ? liturgicalYear(context.date.year) : null;
+  final String? year = hasYearSpecificReading
+      ? liturgicalYear(context.liturgicalYear ?? context.date.year)
+      : null;
 
   Readings ferialReadings = await readingsExtract(
       '$ferialFilePath/lent_${week}_$day.yaml', context.dataLoader,

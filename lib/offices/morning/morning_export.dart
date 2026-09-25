@@ -95,9 +95,12 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     svgSource: celebrationContext.svgSource,
   );
 
-  // 8. Filter evangelicAntiphon: keep only default + current year
+  // 8. Filter evangelicAntiphon: keep only default + current year. The
+  // liturgical year, not the civil one: from the 1st Sunday of Advent to
+  // Dec 31 they differ (Advent 2025 is year A, not C).
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
-      morningOffice.evangelicAntiphon, celebrationContext.date.year);
+      morningOffice.evangelicAntiphon,
+      celebrationContext.liturgicalYear ?? celebrationContext.date.year);
 
   // 9. Apply paschal alléluia to antiphons
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;

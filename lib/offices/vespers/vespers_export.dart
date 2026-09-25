@@ -78,9 +78,13 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     svgSource: celebrationContext.svgSource,
   );
 
-  // Filter evangelicAntiphon: keep only default + current year
+  // Filter evangelicAntiphon: keep only default + current year. The
+  // liturgical year, not the civil one: from the 1st Sunday of Advent to
+  // Dec 31 they differ. For First Vespers, the context is tomorrow's, so
+  // the eve of the 1st Sunday of Advent already takes the new year.
   vespersOffice.evangelicAntiphon = filterEvangelicAntiphon(
-      vespersOffice.evangelicAntiphon, celebrationContext.date.year);
+      vespersOffice.evangelicAntiphon,
+      celebrationContext.liturgicalYear ?? celebrationContext.date.year);
 
   // Apply paschal alléluia to antiphons
   applyPaschalToPsalmody(vespersOffice.psalmody, lt);

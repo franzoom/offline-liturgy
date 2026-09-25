@@ -12,6 +12,22 @@ import '../offices/readings/readings_extract.dart';
 import '../offices/vespers/vespers_extract.dart';
 import 'package:offline_liturgy/tools/data_loader.dart';
 
+/// Maps a liturgicalTime value to the suffix used by the seasonal common
+/// files (e.g. 'martyrs_paschal.yaml'). The file suffixes are a different
+/// vocabulary from liturgicalTime: several values share one suffix
+/// ('paschaltime' and 'paschaloctave' both use '_paschal'). Ordinary Time
+/// has no seasonal variant.
+const Map<String, String> _commonSeasonSuffix = {
+  'advent': 'advent',
+  'nativity': 'christmas',
+  'christmasoctave': 'christmas',
+  'christmas': 'christmas',
+  'lent': 'lent',
+  'holyweek': 'lent',
+  'paschaloctave': 'paschal',
+  'paschaltime': 'paschal',
+};
+
 /// Builds the hierarchy of common file names from a common name.
 /// For each cumulative level, also checks the liturgical time variant.
 /// For example: 'pastors_bishops' with lent returns:
@@ -20,17 +36,15 @@ List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
   final cleanName = commonName.trim().toLowerCase();
   final parts = cleanName.split('_');
 
-  final isPrivileged =
-      liturgicalTime != null && privilegedTimes.contains(liturgicalTime);
-  final alreadyHasTime = isPrivileged && cleanName.contains('_$liturgicalTime');
-  final addTimeSuffix = isPrivileged && !alreadyHasTime;
+  final suffix = _commonSeasonSuffix[liturgicalTime];
+  final addTimeSuffix = suffix != null && !cleanName.contains('_$suffix');
 
   final List<String> commonsToTry = [];
   for (int i = 0; i < parts.length; i++) {
     final level = parts.sublist(0, i + 1).join('_');
     commonsToTry.add(level);
     if (addTimeSuffix) {
-      commonsToTry.add('${level}_$liturgicalTime');
+      commonsToTry.add('${level}_$suffix');
     }
   }
   return commonsToTry;

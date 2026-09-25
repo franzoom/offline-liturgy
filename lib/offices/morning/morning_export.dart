@@ -24,6 +24,12 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   // 2. Load Proper celebration data
   Morning properMorning = Morning();
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
+    // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
+    // that day's own office only — never to a celebration replacing it,
+    // whatever its rank. Stripped from the ferial layer before any overlay,
+    // so that a celebration's own A/B/C antiphons would be kept.
+    morningOffice.evangelicAntiphon =
+        withoutYearCycleAntiphons(morningOffice.evangelicAntiphon);
     final filePath = await dirPathForCode(
         celebrationContext.celebrationCode, celebrationContext.dataLoader);
     properMorning = await morningExtract(
@@ -88,19 +94,6 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
     svgSource: celebrationContext.svgSource,
   );
-
-  // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply
-  if (celebrationContext.date.isSunday &&
-      celebrationContext.liturgicalTime == 'ot' &&
-      (celebrationContext.precedence ?? 13) <= 3 &&
-      celebrationContext.celebrationCode !=
-          (celebrationContext.ferialCode ?? '')) {
-    final map = morningOffice.evangelicAntiphon;
-    morningOffice.evangelicAntiphon =
-        (map != null && map.containsKey('antiphon'))
-            ? {'antiphon': map['antiphon']!}
-            : null;
-  }
 
   // 8. Filter evangelicAntiphon: keep only default + current year
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(

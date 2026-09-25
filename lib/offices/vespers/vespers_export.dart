@@ -24,6 +24,13 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // STEP 2: Load Proper celebration data (Sanctoral or Special files)
   Vespers properVespers = Vespers();
   if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
+    // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
+    // that day's own office only — never to a celebration replacing it,
+    // whatever its rank (First Vespers included). Stripped from the ferial
+    // layer before any overlay, so that a celebration's own A/B/C
+    // antiphons would be kept.
+    vespersOffice.evangelicAntiphon =
+        withoutYearCycleAntiphons(vespersOffice.evangelicAntiphon);
     properVespers = await _loadProperVespers(celebrationContext);
   }
 
@@ -70,16 +77,6 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,
     svgSource: celebrationContext.svgSource,
   );
-
-  // When a solemnity overrides an OT Sunday, the Sunday's year-cycle antiphons don't apply
-  if (celebrationContext.date.isSunday &&
-      celebrationContext.liturgicalTime == 'ot' &&
-      (celebrationContext.precedence ?? 13) <= 3 &&
-      celebrationContext.celebrationCode != (celebrationContext.ferialCode ?? '')) {
-    final map = vespersOffice.evangelicAntiphon;
-    vespersOffice.evangelicAntiphon =
-        (map != null && map.containsKey('antiphon')) ? {'antiphon': map['antiphon']!} : null;
-  }
 
   // Filter evangelicAntiphon: keep only default + current year
   vespersOffice.evangelicAntiphon = filterEvangelicAntiphon(

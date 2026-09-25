@@ -45,6 +45,15 @@ Map<String, List<String>>? filterEvangelicAntiphon(
   };
 }
 
+/// Removes the year-cycle keys (A, B, C) from an evangelicAntiphon map,
+/// keeping only the generic antiphon. Returns null if nothing is left.
+Map<String, List<String>>? withoutYearCycleAntiphons(
+    Map<String, List<String>>? antiphonMap) {
+  if (antiphonMap == null) return null;
+  final generic = antiphonMap['antiphon'];
+  return generic == null ? null : {'antiphon': generic};
+}
+
 String liturgicalYear(int year) {
   // returns the type of liturgcial year:
   // C for multiples of 3, then A and B

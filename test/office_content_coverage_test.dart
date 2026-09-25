@@ -327,9 +327,15 @@ List<String> _checkVespers(Vespers v) => [
 List<String> _checkReadings(Readings r, CelebrationContext context) {
   final prec = context.precedence ?? 13;
   final lt = context.liturgicalTime ?? '';
-  final expectsTeDeum = prec <= 8 &&
-      lt != 'holyweek' &&
-      context.celebrationCode != 'commemoration_of_all_the_faithful_departed';
+  // GILH 68: Sundays outside Lent, Easter and Christmas octaves, solemnities
+  // and feasts — never the Commemoration of All the Faithful Departed.
+  final expectsTeDeum = context.celebrationCode !=
+          'roman/commemoration_of_all_the_faithful_departed' &&
+      (lt == 'nativity' ||
+          lt == 'christmasoctave' ||
+          lt == 'paschaloctave' ||
+          (context.date.isSunday && lt != 'lent' && lt != 'holyweek') ||
+          (prec <= 8 && !ferialDayCheck(context.celebrationCode)));
 
   final biblicalIssues = (r.biblicalReading == null || r.biblicalReading!.isEmpty)
       ? ['lecture biblique absente']

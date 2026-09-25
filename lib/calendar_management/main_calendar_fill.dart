@@ -427,8 +427,11 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
 
   while (date.isBefore(feasts['ASCENSION']!)) {
     int precedence = date.isSunday ? 2 : 13;
+    // From Wednesday of the 6th week (day 38) when Ascension is moved to
+    // Sunday: that Wednesday then keeps its own Vespers, which differ from
+    // the ones it has where Ascension falls on Thursday (First Vespers).
     final bool beforeAscensionSunday =
-        ascensionOnSunday && paschalTimeDays >= 39;
+        ascensionOnSunday && paschalTimeDays >= 38;
     DayContent dayContent = DayContent(
       liturgicalYear: liturgicalYear,
       liturgicalTime: 'paschaltime',

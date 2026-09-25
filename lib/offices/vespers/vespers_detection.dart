@@ -35,10 +35,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       await detectOfficeCelebrations(calendar, date, dataLoader);
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
-  // Also checks ferial code 'lent_6_6' for Holy Saturday, in case it is the
-  // celebration code rather than 'holy_saturday'
   bool isHolyWeekCell(CelebrationContext c) =>
-      holyWeekCodes.contains(c.celebrationCode) || c.ferialCode == 'lent_6_6';
+      holyWeekCodes.contains(c.celebrationCode);
 
   if (todayCelebrations.any(isHolyWeekCell)) {
     final c = todayCelebrations.firstWhere(isHolyWeekCell);

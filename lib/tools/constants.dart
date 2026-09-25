@@ -20,9 +20,15 @@ const List<String> dayName = [
   'sunday',
 ];
 
-/// Special celebration codes for Holy Week
+/// The ferial codes of the three Triduum days (Holy Thursday, Good Friday,
+/// Holy Saturday) — see main_calendar_fill.dart's Holy Week filling, which
+/// tags them 'lent_6_4'/'lent_6_5'/'lent_6_6' like any other Lenten ferial
+/// day, never the literal 'holy_thursday'/'holy_friday'/'holy_saturday'
+/// words. Comparing against those words instead of these codes is a trap:
+/// the check silently never matches (see compline_detection.dart, which
+/// needs the words too and keeps its own small translation table for them).
 const Set<String> holyWeekCodes = {
-  'holy_thursday',
-  'holy_friday',
-  'holy_saturday',
+  'lent_6_4',
+  'lent_6_5',
+  'lent_6_6',
 };

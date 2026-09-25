@@ -187,7 +187,7 @@ void _fillChristmasToBaptism(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'roman/mary_mother_of_god',
-    precedence: 2,
+    precedence: 3, // Solemnity of the Blessed Virgin Mary (Table item 3)
     liturgicalColor: 'white',
     breviaryWeek: 1,
     feastList: {},
@@ -228,7 +228,7 @@ void _fillChristmasToBaptism(
     liturgicalYear: liturgicalYear,
     liturgicalTime: 'christmas',
     defaultCelebrationTitle: 'roman/epiphany',
-    precedence: 3,
+    precedence: 2, // Table item 2, with the Nativity, Ascension, Pentecost
     liturgicalColor: 'white',
     breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
     // if the Epiphany is after the 6th, the Baptism of the Lord is next day, on monday.

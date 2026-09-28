@@ -63,7 +63,7 @@ class MassReading extends MassReadingContent {
       );
 }
 
-/// Content for PSALM and CANTICLE parts.
+/// Content for PSALM parts (psalms and canticles alike).
 class MassPsalm extends MassReadingContent {
   final String? biblicalRef;
   final String? refAbbr;
@@ -153,7 +153,6 @@ class MassReadingPart {
     final List<MassReadingContent> contents;
     switch (partType) {
       case 'PSALM':
-      case 'CANTICLE':
         contents = rawContents.map((e) => MassPsalm.fromJson(e)).toList();
       case 'GOSPEL':
         contents = rawContents.map((e) => MassGospel.fromJson(e)).toList();

@@ -7,7 +7,7 @@
 /// - the four Gospels, announced differently ("Évangile de Jésus Christ
 ///   selon saint ..."), see `evangelistName` in french_liturgy_labels.dart
 /// - the Psalms and OT canticles, announced as "Psaume"/"Cantique de ..."
-///   rather than "Lecture de ...", handled by the PSALM/CANTICLE part type
+///   rather than "Lecture de ...", handled by the PSALM part type
 const Map<String, String> readingAnnouncements = {
   // Pentateuque
   'GN': 'Lecture du livre de la Genèse',

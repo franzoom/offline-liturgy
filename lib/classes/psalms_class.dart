@@ -1,5 +1,8 @@
 class Psalm {
-  static final _imprecatoryBlock = RegExp(r'\n?\{[^}]+\}\[.*?\]', dotAll: true);
+  // The verse number is optional: an imprecatory block may start mid-verse
+  // (e.g. Psalm 58, inside verse 6).
+  static final _imprecatoryBlock =
+      RegExp(r'\n?(\{[^}]+\})?\[.*?\]', dotAll: true);
 
   final String? title;
   final String? subtitle;

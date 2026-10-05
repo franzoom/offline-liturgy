@@ -38,7 +38,7 @@ When building the calendar for `"lyon"`, the system builds the chain:
 europe → france → lyon
 ```
 
-Each level's feasts are applied in order, from root to leaf. This means a diocese can override or suppress anything declared at the country or continent level, without the parent file knowing about it.
+Each level's feasts are applied in order, from root to leaf (`localCalendarFill()` in `lib/calendar_management/local_calendar_fill.dart`). This means a diocese can override (same base name, see below) or move (`move:`) anything declared at the country or continent level, without the parent file knowing about it. There is no section to remove a feast.
 
 ## Feast keys and content files
 
@@ -58,7 +58,9 @@ Universal Roman feasts (from `common_feasts.yaml`) are stored with the `roman/` 
 
 ### Override by base name
 
-When a location adds a feast, the calendar checks whether any existing entry on that day shares the same **base name** (the part after `/`). If so, the new entry replaces the old one — including any precedence change. This means a diocese feast automatically overrides a national or Roman feast with the same filename, without needing an explicit `suppress`.
+When a location adds a feast, the calendar (`Calendar.addItemToDay()`) checks whether any existing entry on that day shares the same **base name** (the part after `/`). If so, the new entry replaces the old one — including any precedence change. This means a diocese feast automatically overrides a national or Roman feast with the same filename.
+
+One exception: if the new qualified key has no content file of its own (it is absent from `index.json`, i.e. from `LiturgyData.knownCodes`), the existing key is kept and only its precedence is updated. A location can thus raise a Roman feast's rank (e.g. to a solemnity for a patron saint) without duplicating its content file.
 
 Example: `europe/benedict_of_nursia_abbot` (precedence 5) overrides `roman/benedict_of_nursia_abbot` (precedence 10) automatically when Europe's feasts are applied.
 
@@ -76,7 +78,7 @@ feasts:
     precedence: 12
 ```
 
-`month` and `day` are required. `precedence` follows the standard 1–13 scale.
+`month` and `day` are required. `precedence` follows the standard 1–13 scale. Only dates falling within the liturgical year being built are added.
 
 ### Feast relative to a mobile date
 
@@ -88,11 +90,11 @@ feasts:
     precedence: 7
 ```
 
-`relativeTo` is a key from `liturgicalMainFeasts` (e.g. `EASTER`, `ADVENT`, `SACRED_HEART`, `CORPUS_DOMINI`). `shift` is the number of days after that anchor.
+`relativeTo` is a key from `liturgicalMainFeasts` (e.g. `EASTER`, `ADVENT`, `SACRED_HEART`, `CORPUS_DOMINI`). `shift` is the number of days after that anchor (0 if omitted).
 
 ## The `move:` section
 
-Moves a feast that already exists in the calendar (typically a Roman feast from `common_feasts.yaml`) to a different date within the liturgical year for this location. The key is the short feast name — the system finds it in the calendar by base name.
+Moves a feast that already exists in the calendar (Roman, from a parent location, or local) to a different date within the liturgical year for this location. The key is the short feast name — `Calendar.moveItemToDate()` finds it by base name, whatever its prefix. An entry whose feast is not found is ignored.
 
 ```yaml
 move:
@@ -125,14 +127,14 @@ Every feast added by a location records a `LocationOrigin {name, locative}` in `
 
 ## `epiphanyDate`, `ascensionDate` and `corpusDominiDate`
 
-These control calendar structure for the whole location. They are resolved by walking the ancestor chain from most specific to root and taking the first non-null value found.
+These control calendar structure for the whole location. They are resolved by walking the ancestor chain from most specific to root and taking the first non-null value found (`getEpiphanyDate()` / `getAscensionDate()` / `getCorpusDominiDate()`); when no ancestor sets them, the defaults are `sunday` / `thursday` / `sunday`. `getCalendar()` also accepts explicit overrides that take precedence over the location files.
 
 | field | values | meaning |
 |---|---|---|
 | `epiphanyDate` | `day` | January 6, fixed |
-| | `sunday` | First Sunday after January 1 |
-| `ascensionDate` | `thursday` | 39 days after Easter (traditional) |
-| | `sunday` | Moved to the following Sunday |
+| | `sunday` (default) | First Sunday after January 1 |
+| `ascensionDate` | `thursday` (default) | 39 days after Easter (traditional) |
+| | `sunday` | Moved to the following Sunday (42 days after Easter) |
 | `corpusDominiDate` | `sunday` (default if unset) | 63 days after Easter |
 | | `thursday` | 60 days after Easter |
 

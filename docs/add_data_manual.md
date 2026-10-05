@@ -118,8 +118,9 @@ Liste des codes `relativeTo` disponibles :
 | `HOLY_FAMILY` | Sainte Famille |
 | `EPIPHANY` | Épiphanie |
 | `BAPTISM` | Baptême du Seigneur |
-| `SECOND_SUNDAY_OT` | 2ᵉ dimanche du Temps Ordinaire |
 | `ASHES` | Mercredi des Cendres |
+| `SAINT_JOSEPH` | Saint Joseph (date éventuellement transférée) |
+| `ANNUNCIATION` | Annonciation (date éventuellement transférée) |
 | `PALMS` | Dimanche des Rameaux |
 | `HOLY_THURSDAY` | Jeudi saint |
 | `HOLY_FRIDAY` | Vendredi saint |
@@ -130,6 +131,8 @@ Liste des codes `relativeTo` disponibles :
 | `HOLY_TRINITY` | Sainte Trinité |
 | `CORPUS_DOMINI` | Saint Sacrement (Fête-Dieu) |
 | `SACRED_HEART` | Sacré-Cœur |
+| `saint_john_the_baptist` | Nativité de saint Jean-Baptiste (date éventuellement décalée) |
+| `saint_pieter_and_saint_paul` | Saints Pierre et Paul (date éventuellement décalée) |
 | `CHRIST_KING` | Christ Roi |
 
 ### La section `move:`
@@ -177,20 +180,28 @@ move:
 
 Quand un lieu ajoute une fête qui porte le même nom court qu'une fête déjà présente ce jour-là (ajoutée par un lieu parent ou par le calendrier romain), la nouvelle entrée **remplace automatiquement** l'ancienne — y compris sa préséance — sans avoir besoin d'un `move` explicite. C'est ce mécanisme qui permet à un diocèse de surclasser une fête nationale ou romaine simplement en la redéclarant avec une préséance différente.
 
+Si le lieu ne fournit pas de fichier de fête à son nom (par exemple `france/louis_ix_of_france` sans `sanctoral/france/louis_ix_of_france.yaml`), seule la préséance change : l'application garde la fête d'origine (`roman/louis_ix_of_france`) et son fichier. Pas besoin de dupliquer un fichier pour changer le rang d'une fête.
+
 ### Préséances (1 à 13)
 
-La numérotation suit la *Présentation Générale de la Liturgie des Heures* (PGLH) :
+La numérotation suit la table des préséances des jours liturgiques :
 
 | Niveau | Type |
 |---|---|
-| 1–3 | Solennités |
-| 4–5 | Fêtes |
-| 6–9 | Mémoires obligatoires |
-| 10–11 | Mémoires facultatives |
-| 12 | Commémoraisons |
+| 1–2 | Triduum pascal, grandes solennités et jours privilégiés |
+| 3 | Solennités du calendrier général |
+| 4 | Solennités propres (patron principal du lieu, dédicace…) |
+| 5 | Fêtes du Seigneur |
+| 6 | Dimanches du temps de Noël et du Temps ordinaire |
+| 7 | Fêtes de la Vierge Marie et des saints du calendrier général |
+| 8 | Fêtes propres (patron du diocèse, dédicace de la cathédrale…) |
+| 9 | Féries privilégiées (Avent du 17 au 24 décembre, octave de Noël, Carême) |
+| 10 | Mémoires obligatoires du calendrier général |
+| 11 | Mémoires obligatoires propres |
+| 12 | Mémoires facultatives |
 | 13 | Féries |
 
-Le détail complet des règles de préséance (table de la Conférence des évêques de France) est reproduit en annexe à la fin de ce document. Pendant l'Avent, le Carême et les octaves, les mémoires obligatoires (6–9) sont automatiquement rétrogradées en facultatives.
+Le détail complet des règles de préséance (table de la Conférence des évêques de France) est reproduit en annexe à la fin de ce document. Pendant le Carême, les octaves de Noël et de Pâques, et l'Avent à partir du 17 décembre, les mémoires obligatoires (10–11) sont automatiquement rétrogradées en facultatives (12).
 
 ---
 
@@ -263,7 +274,7 @@ commons:
 
 Attention aux deux séparateurs différents :
 - `-` (tiret) définit une clef de commun à part entière : `saints-male`, `saints-female`.
-- `_` (souligné) définit une **sous-catégorie** qui hérite du commun de base : `apostles_evangelist` prend ses données propres puis va chercher le reste dans `apostles`. Les variantes saisonnières `_advent`, `_lent`, `_easter` sont gérées automatiquement par l'application — il n'y a jamais besoin de les spécifier soi-même.
+- `_` (souligné) définit une **sous-catégorie** qui hérite du commun de base : `apostles_evangelist` prend ses données propres puis va chercher le reste dans `apostles`. Les variantes saisonnières `_advent`, `_christmas`, `_lent` (aussi utilisée pendant la Semaine sainte) et `_paschal` (octave et temps pascal) sont gérées automatiquement par l'application — il n'y a jamais besoin de les spécifier soi-même. Un fichier de variante doit porter exactement l'un de ces suffixes, sinon il n'est jamais chargé.
 
 Liste des communs disponibles :
 
@@ -271,21 +282,22 @@ Liste des communs disponibles :
 |---|---|
 | `apostles` | apôtres |
 | `apostles_evangelist` | apôtres évangélistes |
-| `dedicace` | dédicace d'une église |
+| `dedicace` | dédicace d'une église (`dedicace_inside` / `dedicace_outside` : dans l'église dédiée / hors de celle-ci) |
 | `martyr` | un seul martyr |
 | `martyr_female` | une martyre |
 | `martyr_female_virgin` | une martyre vierge |
+| `martyr_missionnary` | un martyr missionnaire |
 | `martyrs` | plusieurs martyrs |
 | `martyrs_female` | plusieurs martyres |
 | `martyrs_female_virgin` | plusieurs martyres vierges |
-| `martyrs_male` | plusieurs martyrs hommes |
-| `martyrs_male_priest` | plusieurs martyrs prêtres |
+| `martyrs_missionnaries` | plusieurs martyrs missionnaires |
 | `pastors` | pasteurs |
 | `pastors_pope` | un pasteur pape |
 | `pastors_bishop` | un pasteur évêque |
 | `pastors_doctors` | un pasteur docteur de l'Église (hérite de `pastors`) |
-| `pastors_founders` | un pasteur fondateur |
+| `pastors_founder` | un pasteur fondateur |
 | `pastors_multiple` | plusieurs pasteurs |
+| `pastors_multiple_founder` | plusieurs pasteurs fondateurs |
 | `pastors_missionary` | un pasteur missionnaire |
 | `saints` | saints en général |
 | `saints_doctors` | un docteur de l'Église (hérite de `saints`) |
@@ -295,12 +307,17 @@ Liste des communs disponibles :
 | `saints-female_married` | une sainte femme mariée |
 | `saints-female_multiple` | plusieurs saintes femmes |
 | `saints-female_religious` | une religieuse |
+| `saints-female_religious_nun` | une moniale |
+| `saints-female_widow` | une veuve |
 | `saints-male` | saints hommes |
 | `saints-male_caritative` | un saint au service caritatif |
 | `saints-male_educator` | un saint éducateur |
 | `saints-male_married` | un saint homme marié |
-| `saints-male-multiple` | plusieurs saints hommes |
+| `saints-male_multiple` | plusieurs saints hommes |
 | `saints-male_religious` | un religieux |
+| `saints-male_religious_abbot` | un abbé |
+| `saints-male_religious_monk` | un moine |
+| `trespassed` | défunts (`trespassed_close` : un proche ; `trespassed_multiple` : plusieurs défunts) |
 | `virgin-mary` | la Vierge Marie |
 | `virgins` | vierges |
 | `virgins_multiple` | plusieurs vierges |
@@ -319,7 +336,7 @@ Après le préambule, le reste du fichier décrit le contenu de chaque office. (
 | `morning` | laudes |
 | `middleOfDay` | milieu du jour (tierce, sexte, none) |
 | `vespers` | second vêpres (le jour même) |
-| `mass` | données pour la messe, quand disponibles. **Liste** d'objets Mass (`massType`/`name`/...) : la plupart des jours n'en ont qu'un seul, mais un jour peut en déclarer plusieurs (veille + nuit + aurore + jour pour Noël, procession + messe de la Passion pour les Rameaux...) — chacun devient une entrée sélectionnable séparée côté application, distinguée par son `name` |
+| `mass` | données pour la messe, quand disponibles. **Liste** d'objets Mass (`massType`/`name`/...) : la plupart des jours n'en ont qu'un seul, mais un jour peut en déclarer plusieurs (veille + nuit + aurore + jour pour Noël, procession + messe de la Passion pour les Rameaux...) — chacun devient une entrée sélectionnable séparée côté application, distinguée par le libellé de son `massType` (`DAY_MASS`, `NIGHT_MASS`, `PROCESSION_WITH_PALMS`…), ou à défaut par son `name` |
 
 `oration` et `evangelicAntiphon` peuvent aussi être placés directement à la racine du fichier, en dehors de toute clef d'office : ils servent alors de valeur par défaut pour `morning`, `vespers`/`firstVespers` et `readings` (pour `oration` seulement) quand l'office concerné ne les précise pas lui-même.
 
@@ -490,7 +507,7 @@ Contrairement à `oration` ou `commons`, l'antienne évangélique **n'a jamais b
 
 ```yaml
 mass:
-  - massType: day_mass
+  - massType: DAY_MASS
     name: Messe du jour
     note: null
     entranceAntiphon:
@@ -548,19 +565,23 @@ mass:
         Dieu de miséricorde, nous t’en prions : [...]
 ```
 
-`mass` est une **liste** d'objets ainsi structurés : la plupart des jours n'en ont qu'un seul, mais un jour peut en déclarer plusieurs (`evening_mass`/`night_mass`/`dawn_mass`/`day_mass` pour Noël) — chacun devient une entrée sélectionnable séparée côté application, distinguée par son `name`.
+`mass` est une **liste** d'objets ainsi structurés : la plupart des jours n'en ont qu'un seul, mais un jour peut en déclarer plusieurs (`EVENING_MASS`/`NIGHT_MASS`/`DAWN_MASS`/`DAY_MASS` pour Noël) — chacun devient une entrée sélectionnable séparée côté application, distinguée par le libellé de son `massType`.
+
+Un fichier de commun peut aussi contenir une clef `mass` : ses textes servent alors pour les saints qui n'ont pas les leurs.
 
 | Clef | Description |
 |---|---|
-| `massType` | identifiant technique de cette messe pour le jour (`day_mass`, `evening_mass`, `night_mass`, `dawn_mass`...) — sert de clé interne, à garder simplement cohérent au sein d'un même jour |
+| `massType` | type de messe, en majuscules : `DAY_MASS`, `VIGIL_MASS`, `EVENING_MASS`, `NIGHT_MASS`, `DAWN_MASS`, `MORNING_MASS`, `PROCESSION_WITH_PALMS`, `MASS_OF_THE_PASSION`, `EASTER_VIGIL`, `CHRISM_MASS`, `CAENA_DOMINI`, `CELEBRATION_OF_THE_PASSION`… Il sert de clé interne et donne le libellé affiché (`massTypeLabels`). Un commun ne s'applique qu'à une messe de même `massType` |
 | `name` | nom affiché (« Messe du jour », « Messe de la nuit »...) |
 | `note` | remarque optionnelle affichée avec la messe — `null` si absente |
 | `entranceAntiphon`, `communionAntiphon` | **listes** d'antiennes `biblicalReference` + `content` — plusieurs formes possibles au choix (ex. deux antiennes d'entrée pour la messe de la nuit) |
 | `collect`, `offeringPrayer`, `prayerAfterCommunion` | **listes** d'oraisons (une seule le plus souvent) — voir la ponctuation liturgique ci-dessous |
-| `prefaceList` | liste de préfaces propres — optionnel |
+| `prefaceList` | liste de **codes** de préfaces (fichiers de `mass_missal/prefaces/`, ex. `nativity_of_the_lord_1`) — optionnel |
+| `eucharisticPrayerCommunicantes` | **code** du *Communicantes* propre de la prière eucharistique I (fichier de `mass_missal/eucharistic_prayer_communicantes/`) — optionnel |
 | `readingParts` | la liturgie de la Parole — voir ci-dessous |
 | `prayerOnThePeople` | prière sur le peuple (Carême) — optionnel |
-| `solemnBlessingList` | bénédiction solennelle — optionnel |
+| `solemnBlessingList` | liste de **codes** de bénédictions solennelles (fichiers de `mass_missal/blessings/`) — optionnel |
+| `sequence` | liste de **codes** de séquence, stockées comme des hymnes (`assets/hymns/`, ex. `stabat-mater`) — optionnel |
 
 ##### `readingParts`
 
@@ -570,13 +591,12 @@ Une **liste** d'entrées `partType` + `partContents`, une entrée par lecture/ps
 |---|---|
 | `READING` | 1ʳᵉ ou 2ᵉ lecture |
 | `EPISTLE` | épître, quand distinguée d'une lecture ordinaire dans le texte source |
-| `PSALM` | psaume responsorial |
-| `CANTICLE` | cantique, quand un cantique remplace le psaume |
+| `PSALM` | psaume responsorial, ou cantique quand un cantique le remplace |
 | `GOSPEL` | évangile |
 
 `partContents` est elle-même une liste, presque toujours à **une seule entrée** : elle n'en contient plusieurs que pour un véritable choix « ou bien » entre deux lectures alternatives (jamais pour une forme brève, voir plus bas). Selon `partType`, chaque entrée attend :
 
-| Champ | `READING`/`EPISTLE` | `PSALM`/`CANTICLE` | `GOSPEL` |
+| Champ | `READING`/`EPISTLE` | `PSALM` | `GOSPEL` |
 |---|---|---|---|
 | `biblicalRef` | ✓ | ✓ | ✓ |
 | `refAbbr` (référence abrégée affichée, ex. `Ps 97, 1…` — toujours préfixée du nom du livre) | | ✓ | |
@@ -599,7 +619,7 @@ Les oraisons (`collect`, `offeringPrayer`, `prayerAfterCommunion`) et les lectur
 
 - `+`, `*`, `/` en fin de ligne dans une oraison : pauses de récitation du Missel.
 - `>` en début de ligne dans une lecture : rupture de verset/strophe sans nouveau paragraphe (pas de ligne vide) — reproduit la mise en page du Missel à l'intérieur d'une même lecture.
-- `%...%` : encadre une citation de l'Ancien Testament citée à l'intérieur d'une lecture du Nouveau Testament.
+- `%...%` : italique ; sert notamment à encadrer une citation de l'Ancien Testament à l'intérieur d'une lecture du Nouveau Testament. Le `%` doit être bordé d'une espace (ou d'une ponctuation) d'un côté au moins.
 
 ---
 

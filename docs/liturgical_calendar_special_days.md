@@ -74,7 +74,7 @@ The proper is overlaid on the base via `overlayWith()`.
 
 **Exception for Sundays (day=0):** only the `evangelicAntiphon` from the proper is applied (not a full overlay), because the Sunday office has its own structure.
 
-**Special rule for week 3:** the psalm antiphons are taken from the corresponding `advent_4_{day}.yaml` file, while the psalms themselves remain those of week 3. This is a specific rubric of the breviary for the days Dec 17–23 that fall in week 3 of Advent.
+**Note on week 3:** the breviary takes the psalm antiphons of Dec 17–23 falling in week 3 from week 4, while the psalms stay those of week 3. The resolvers do not apply this rule themselves: these antiphons have to be in the dated `advent_{dateDay}.yaml` files.
 
 Precedence of these days: 9 (raised from 13 for standard ferial days).
 
@@ -95,7 +95,8 @@ Christmas Time is the most complex season. It covers five distinct sub-periods.
 - Liturgical time: `christmasoctave`
 - Code: `christmas_{dateDay}` (e.g. `christmas_26`, `christmas_27`, …)
 - Precedence: 7 for Dec 26–28, 9 for Dec 29–31
-- **Exception**: if the Sunday of Holy Family falls within Dec 26–31, that day gets code `roman/holy_family` with precedence 6.
+- **Exception**: the Holy Family day gets code `roman/holy_family_sunday` (or `roman/holy_family_week` when there is no Sunday in the octave and it falls on Dec 30) with precedence 5.
+- Content: base `commons/christmas.yaml` + proper `ferial_days/christmas_{dateDay}.yaml`.
 - Breviary week: 4 before Holy Family, 1 from Holy Family onward.
 
 ### 4c. January 1 — Mary, Mother of God
@@ -130,16 +131,17 @@ The proper is overlaid on the base. Only `christmas_1_*` files are used (and rar
 ### 4f. Epiphany+1 to the Baptism of the Lord
 
 - Liturgical time: `christmas`
-- Code: `christmas_2_{christmasFerialDays}` where `christmasFerialDays` is a counter starting at 1 after Epiphany
+- Code: `christmas_2_{date.weekday % 7}`
 - File loaded: `ferial_days/christmas_2_{date.weekday}.yaml`
 - Hymn season: `after_epiphany`
 
 ### 4g. Baptism of the Lord
 
-- Code: `roman/baptism`
+- Code: `roman/baptism_of_the_lord_sunday`, or `roman/baptism_of_the_lord_week` when it falls on a Monday
 - Date: Sunday after Epiphany (or Monday if Epiphany falls on Jan 7–8)
+- Liturgical time: `christmas` (it closes Christmas Time; Ordinary Time starts the next day)
 - Precedence: 5
-- Breviary week: 1 — this feast begins Ordinary Time.
+- Breviary week: 1
 
 ---
 
@@ -151,7 +153,7 @@ Some dioceses transfer Ascension to the following Sunday (42 days after Easter).
 
 ### Impact on ferial codes (Sunday Ascension only)
 
-When Ascension is moved to Sunday, the days of the preceding week (Thursday–Saturday, days 39–41 of Paschal Time) receive a modified code:
+When Ascension is moved to Sunday, the last days before it (Wednesday–Saturday of the 6th week, days 38–41 counted from Easter Sunday) receive a modified code:
 
 ```
 easter_{week}_{day}_before_ascension
@@ -178,5 +180,5 @@ After Ascension (whether Thursday or Sunday), the remaining days until Pentecost
 | Jan 2 – Epiphany eve | `christmas-{date}_{W}_{D}` | base `christmas_{W}_{D}` + proper `christmas-ferial_before_epiphany_{date}` |
 | Post-Epiphany | `christmas_2_{N}` | `ferial_days/christmas_2_{weekday}.yaml` |
 | Lent | `lent_{W}_{D}` | `ferial_days/lent_{W}_{D}.yaml` |
-| Easter | `easter_{W}_{D}` | `ferial_days/easter_{W}_{D}.yaml` |
-| Pre-Ascension (Sunday mode) | `easter_{W}_{D}_before_ascension` | specific ferial content for those 3 days |
+| Easter (`paschaloctave`, then `paschaltime`) | `easter_{W}_{D}` | `ferial_days/easter_{W}_{D}.yaml` |
+| Pre-Ascension (Sunday mode) | `easter_6_{D}_before_ascension` | specific ferial content for those 4 days (`D` = 3–6) |

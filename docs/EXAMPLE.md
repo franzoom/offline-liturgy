@@ -1,6 +1,6 @@
 # Morning Prayer API — How It Works
 
-This document describes the two-step API for resolving the Morning Prayer (Lauds) office, and generalizes to all other offices. The same pattern applies to Vespers, Readings, Compline, and Midday Prayer.
+This document describes the two-step API for resolving the Morning Prayer (Lauds) office, and generalizes to all other offices. The same pattern applies to Vespers, Readings, Compline, Midday Prayer and the Mass.
 
 ---
 
@@ -90,16 +90,20 @@ Each entry is a `CelebrationContext` with these fields relevant for display and 
 | `celebrationCode` | `String` | Internal code (used in Step 2) |
 | `precedence` | `int?` | Priority level 1–13 (lower = more solemn) |
 | `liturgicalColor` | `String?` | `white`, `violet`, `red`, `green`, `rose` |
-| `liturgicalTime` | `String?` | Season: `advent`, `lent`, `easter`, `ot`, etc. |
+| `liturgicalTime` | `String?` | Season: `advent`, `lent`, `paschaltime`, `ot`, etc. |
 | `breviaryWeek` | `int?` | Psalter week 1–4 |
 | `isCelebrable` | `bool` | Whether this celebration can be chosen |
 | `commonList` | `List<String>?` | Available commons (codes) |
 | `commonTitles` | `Map<String, String>` | Code → display title for each common |
-| `celebrationOrigin` | `String?` | Location name that added this feast; `null` = Roman calendar |
+| `ferialCode` | `String?` | The day's ferial code (equal to `celebrationCode` when the ferial itself is celebrated) |
+| `liturgicalYear` | `int?` | Reference year of the lectionary cycles (already shifted at Advent) |
+| `celebrationOrigin` | `LocationOrigin?` | `{name, locative}` of the location that added this feast; `null` = Roman calendar |
 
 ### Sorting and `isCelebrable`
 
-The map is ordered by effective precedence. When a solemnity or feast (precedence ≤ 7) is present, only celebrations at that level have `isCelebrable = true`. On ordinary days, all entries are celebrable.
+The map is ordered by effective precedence (`effectivePrecedence()`: a ferial day at 13 ranks before an optional memorial at 12). When a celebration of precedence 1–8 is present, only the celebrations at the best precedence of the day have `isCelebrable = true` (plus the Sunday itself on a Sunday, outside the case of an Ordinary Time Sunday outranked by a solemnity). On ordinary days, all entries are celebrable.
+
+Celebrations outranked by a precedence ≤ 3 (Triduum, solemnity, privileged Sunday) are not returned at all: they are suppressed for the year. For the Divine Office (not the Mass), a few celebrations falling on an Ordinary Time Sunday defer to the Sunday (`detectOfficeCelebrations()`).
 
 The consumer should filter on `isCelebrable` before displaying choices:
 
@@ -170,7 +174,8 @@ Key fields read by `morningExport`:
 | `selectedCommon` (= `commonList.first`) | Which common hierarchy to load |
 | `precedence` | Determines merge strategy (full replacement vs overlay) |
 | `liturgicalTime` | Seasonal adjustments (Gloria, alleluia, etc.) |
-| `date` | Liturgical year A/B/C for evangelic antiphon |
+| `liturgicalYear` (fallback: `date.year`) | Liturgical year A/B/C for evangelic antiphon |
+| `svgSource` | Optional: loads the psalm-tone SVG scores |
 | `dataLoader` | Asset loading |
 | `showImprecatoryVerses` | Whether bracketed psalm verses are included |
 
@@ -178,6 +183,7 @@ Key fields read by `morningExport`:
 
 ```dart
 class Morning {
+  Celebration?           celebration;       // Title, description, commons… of the celebration
   Invitatory?            invitatory;        // Opening psalm + antiphon
   List<HymnEntry>?       hymn;              // Hymn(s) — hymnData is populated
   List<PsalmEntry>?      psalmody;          // Psalms — psalmData is populated
@@ -187,6 +193,7 @@ class Morning {
   Psalm?                 evangelicCanticle; // Benedictus (always populated)
   Intercession?          intercession;      // Intercessions text
   List<String>?          oration;           // Concluding prayer
+  List<String>?          canticleSvgData;   // Benedictus tone scores (only with svgSource)
 }
 ```
 
@@ -256,8 +263,11 @@ All offices follow the identical two-step pattern:
 | Office of Readings | `readingsDetection()` | `readingsExport()` |
 | Compline | `complineDetection()` | `complineExport()` |
 | Midday Prayer | `middleOfDayDetection()` | `middleOfDayExport()` |
+| Mass | `massDetection()` | `massExport()` |
 
-Detection always returns `Map<String, CelebrationContext>`. Export always takes a `CelebrationContext` and returns the office-specific class (`Vespers`, `Readings`, `Compline`, `MiddleOfDay`).
+Detection returns `Map<String, CelebrationContext>`. Export takes a `CelebrationContext` and returns the office-specific class (`Vespers`, `Readings`, `MiddleOfDay`, `Mass`).
+
+**Mass:** `massDetection()` returns one entry per celebration *and* Mass (e.g. Christmas' four Masses), each with `massName` set. For a memorial, `useProperReadingsForMemorial: true` in `copyWith()` selects the feast's own readings instead of the day's.
 
 **Exception — Compline:** detection returns `Map<String, ComplineDefinition>` (not `CelebrationContext`) and does not use a ferial base layer. The `ComplineDefinition` is passed directly to `complineExport()`.
 

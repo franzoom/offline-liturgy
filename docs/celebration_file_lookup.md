@@ -16,7 +16,7 @@ calendar_data/
     lyon/
     ...                 # Other geographic locations
   commons/              # Hierarchical commons (apostles, martyrs, etc.)
-  index.json            # Code → directory lookup table
+  index.json            # Code → {dir, title, color, commons} lookup table
 ```
 
 ## Celebration codes
@@ -30,23 +30,35 @@ A celebration code is the string stored in the calendar's `feastList` or as a `d
 | `lyon/saint_pothinus_bishop` | `sanctoral/lyon/saint_pothinus_bishop.yaml` |
 | `ot_3_5` | `ferial_days/ot_3_5.yaml` |
 | `advent_2_3` | `ferial_days/advent_2_3.yaml` |
+| `christmas_27` | `ferial_days/christmas_27.yaml` |
 
-The `roman/` prefix indicates the universal Roman calendar. Geographic prefixes (`lyon/`, `france/`, `belgium/`, etc.) indicate a local sanctoral. Ferial day codes have no prefix.
+The `roman/` prefix indicates the universal Roman calendar. Geographic prefixes (`lyon/`, `france/`, `belgium/`, etc.) indicate a local sanctoral. Ferial day codes have no prefix; they start with one of `timePrefixes` (`ot`, `advent`, `lent`, `christmas`, `easter`).
+
+Some ferial codes carry the civil date, for days with dated content: `advent-18_3_5` (Advent 17–24 Dec) and `christmas-3_1_2` (2 Jan to the Epiphany). The ferial resolvers turn them into the dated files (see below).
 
 ## Path construction
 
-`office_detection.dart` constructs the file path as:
+Two mechanisms coexist.
+
+**Office exports** (`morning_export.dart`, `vespers_export.dart`, `readings_export.dart`, `middle_of_day_export.dart`, `mass_export.dart`, `mass_detection.dart`) resolve the directory through `index.json`, with `dirPathForCode()` (`lib/tools/celebration_index.dart`):
+
+```dart
+final filePath = await dirPathForCode(code, dataLoader);
+// index[code].dir == 'sanctoral' → 'calendar_data/sanctoral'
+// anything else (or missing)     → 'calendar_data/ferial_days'
+dataLoader.loadYaml('$filePath/$code.yaml');
+```
+
+The index is loaded once and shared by all callers (`celebrationDirIndex()`).
+
+**`office_detection.dart`** (reading each celebration's title, colour and commons) uses the code's shape instead:
 
 ```dart
 final filePath = ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
-// Result: 'calendar_data/ferial_days' or 'calendar_data/sanctoral'
-
 dataLoader.loadYaml('$filePath/${c.code}.yaml');
-// e.g. 'calendar_data/sanctoral/roman/corpus_domini.yaml'
-//      'calendar_data/ferial_days/ot_3_5.yaml'
 ```
 
-`ferialDayCheck()` returns true for codes matching the pattern `season_week_day` (e.g. `ot_3_5`, `advent_2_3`, `lent_4_6`, `easter_2_1`).
+`ferialDayCheck()` (`lib/tools/date_tools.dart`) returns true for codes starting with one of `timePrefixes`, except `christmas_26`–`christmas_28` (St Stephen, St John, Holy Innocents), which are treated as feasts. Dated Advent and Christmas codes are mapped to `advent_NN.yaml` / `christmas-ferial_before_epiphany_N.yaml` before this generic case.
 
 ## How codes enter the calendar
 
@@ -54,37 +66,43 @@ Codes are assigned in two ways:
 
 ### 1. `defaultCelebrationTitle` (root day)
 
-Set directly in `main_calendar_fill.dart` for structurally distinct days:
+Set directly in `main_calendar_fill.dart` while each season is filled:
 
 ```dart
-defaultCelebrationTitle: 'roman/nativity'       // Christmas Day
-defaultCelebrationTitle: 'roman/epiphany'        // Epiphany
-defaultCelebrationTitle: 'roman/baptism'         // Baptism of the Lord
-defaultCelebrationTitle: 'roman/ascension'       // Ascension
-defaultCelebrationTitle: 'roman/pentecost'       // Pentecost
-defaultCelebrationTitle: 'roman/christ_king'     // Christ the King
-defaultCelebrationTitle: 'roman/mary_mother_of_god'
-defaultCelebrationTitle: 'roman/holy_family'
-defaultCelebrationTitle: 'roman/christmas_${date.day}'  // Christmas Octave (26–31 Dec)
-defaultCelebrationTitle: 'ot_3_5'               // Ordinary ferial day
+'roman/nativity'                        // Christmas Day
+'christmas_${date.day}'                 // Christmas Octave (26–31 Dec)
+'roman/holy_family_sunday' / '_week'    // Holy Family (within the octave)
+'roman/mary_mother_of_god'              // 1 January
+'christmas-${day}_${week}_${weekday}'   // 2 January → Epiphany
+'roman/epiphany'
+'christmas_2_${weekday}'                // after the Epiphany
+'roman/baptism_of_the_lord_sunday' / '_week'
+'advent-${day}_${week}_${weekday}'      // Advent 17–24 Dec; 'advent_W_D' before
+'lent_0_3' …, 'lent_6_0' …              // Ash Wednesday, Lent, Holy Week
+'easter_W_D', 'easter_6_D_before_ascension'
+'roman/ascension', 'roman/pentecost', 'roman/christ_king'
+'ot_W_D'                                // Ordinary Time
 ```
 
-For all other days (Ordinary Time, Advent, Lent, Eastertide), the `defaultCelebrationTitle` is a ferial code and the day's feast(s) are added separately via `feastList`.
+The day's other celebrations (solemnities, feasts, memorials) are added separately via `feastList`.
 
 ### 2. `feastList` entries
 
 Added via `calendar.addItemToDay()`. These are the optional celebrations on a given day, sorted by precedence:
 
 ```dart
-// In main_calendar_fill.dart — universal solemnities
-calendar.addItemToDay(date, 3, 'roman/corpus_domini');
-calendar.addItemToDay(date, 3, 'roman/sacred_heart');
-calendar.addItemToDay(date, 3, 'roman/all_saints');
+// In main_calendar_fill.dart (_fillFixedSolemnities) — mobile solemnities
+calendar.addItemToDay(feasts[key]!, value, 'roman/${key.toLowerCase()}');
+calendar.addItemToDay(annunciationDate, 3, 'roman/annunciation-lent');
 // etc.
 
-// In location_loader.dart — local feasts
-calendar.addItemToDay(date, precedence, 'roman/${feast.key}');
-calendar.addItemToDay(date, precedence, 'lyon/${feast.key}');
+// applyCommonFeastsToCalendar — the universal feasts of common_feasts.yaml
+// ('roman/' prefix)
+
+// In Location.applyToCalendar (location_class.dart) — local feasts,
+// prefixed with the location id
+calendar.addItemToDay(d, feast.precedence!, '$id/${feast.key}',
+    knownCodes: knownCodes);
 ```
 
 ### 3. Hardcoded in `office_detection.dart`
@@ -107,12 +125,13 @@ The ferial resolution files (`ferial_morning_resolution.dart`, etc.) handle days
 
 ## `index.json`
 
-Generated by `scripts/make_index.py` by scanning `sanctoral/` recursively. Maps each celebration code to its directory and metadata (title, color, commons).
+Generated by `scripts/make_index.py` by scanning `sanctoral/` recursively, plus a short list of `ferial_days/` files whose titles matter for display (glob patterns in the script). Maps each celebration code to its directory (`dir`: `sanctoral` or `ferial_days`) and metadata (title, color, commons).
 
 The key in `index.json` is the code as it appears in the calendar (e.g. `roman/corpus_domini`), so a direct lookup `index[celebrationCode]` resolves immediately.
 
-`index.json` has two roles at runtime:
+`index.json` has three roles at runtime:
 
+0. **Directory lookup** — `dirPathForCode()`, see [Path construction](#path-construction).
 1. **Title/metadata display** — used by the Flutter consumer app (`celebration_index.dart`) to resolve a code to its title and commons.
 2. **Key resolution during calendar build** — `LiturgyData` loads the key set from `index.json` on startup and passes it as `knownCodes: Set<String>` down to `addItemToDay`. When a location declares a feast that already exists in the calendar under a different prefix (e.g. `france/louis_ix_of_france` vs `roman/louis_ix_of_france`), `addItemToDay` checks `knownCodes` to decide whether the new key has its own YAML file. If not, it preserves the existing qualified key and only updates the precedence (see [Key-prefix semantics](#key-prefix-semantics) below).
 

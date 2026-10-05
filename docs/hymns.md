@@ -67,29 +67,29 @@ Season → key mapping:
 
 ### 2. Common layer (`loadMorningHierarchicalCommon` etc.)
 
-If the celebration has a common, it is loaded into a buffer. Its `hymn` field, if defined, **replaces** the buffer's hymn during the overlay.
+If the celebration has a selected common, it is loaded (hierarchically, see the README) and overlaid on the ferial layer, according to precedence:
+
+- **Solemnities and Feasts** (precedence ≤ 9): `overlayWith` — every field the common defines replaces the ferial one, `hymn` included.
+- **Memorials** (precedence > 9): `overlayWithCommon` — selective overlay that leaves the psalmody alone; `hymn` is replaced if the common defines one.
 
 ### 3. Proper layer
 
-The celebration's proper YAML is loaded by `morningExtract` (or the vespers/readings equivalent). Its `hymn` field, if defined, **replaces** the buffer's hymn.
+The celebration's proper YAML is loaded by `morningExtract` (or the vespers/readings equivalent) and always applied with `overlayWith`, whatever the precedence: its `hymn` field, if defined, replaces the current one.
 
-### 4. Final merge (`morningExport` etc.)
+### 4. Special case: Holy Week (Lauds and Office of Readings)
 
-- **Solemnities and Feasts** (precedence ≤ 7): `overlayWith` — full replacement of the ferial layer by the buffer.
-- **Memorials** (precedence > 6): `overlayWithCommon` — only certain fields (including `hymn`) are replaced if the buffer defines them.
-
-### 5. Special case: Holy Week (Lauds only)
-
-In `morning_export.dart`, if `morningOffice.hymn` is still `null` after all merges, Passion hymns are injected:
+In `morning_export.dart` and `readings_export.dart`, if `hymn` is still `null` after all overlays and the celebration is a Holy Week day (`holyWeekCodes`), Passion hymns are injected:
 ```dart
-if (morningOffice.hymn == null && holyWeekCodes.contains(celebrationCode)) {
-  morningOffice.hymn = await getHymnsForSeason("passion", dataLoader);
+if (morningOffice.hymn == null &&
+    holyWeekCodes.contains(celebrationContext.celebrationCode)) {
+  morningOffice.hymn =
+      await getHymnsForSeason("passion", celebrationContext.dataLoader);
 }
 ```
 
-### 6. Hydration
+### 5. Hydration
 
-At this point `hymn` only contains codes (`HymnEntry.code`). `resolveOfficeContent()` then loads the full texts from `assets/hymns/*.yaml` via `HymnsLibrary.getHymns()`.
+At this point `hymn` only contains codes (`HymnEntry.code`). `resolveOfficeContent()` (`lib/tools/resolve_office_content.dart`) then loads each text from `assets/hymns/*.yaml` through `HymnsLibrary` (cached), and stores it in `HymnEntry.hymnData`. The same mechanism, with another folder, resolves the Mass sequences and solemn blessings.
 
 ---
 
@@ -103,7 +103,7 @@ getSexteHymns(liturgicalTime, dataLoader)   // sexte_hymn_list
 getNoneHymns(liturgicalTime, dataLoader)    // none_hymn_list
 ```
 
-Season → key mapping: `lent`/`holyweek` → `"lent"` | `easter`/`paschaloctave` → `"easter"` | everything else → `"ordinary"`.
+Season → key mapping (`liturgicalTime` → list key): `lent`/`holyweek` → `"lent"` | `paschaloctave`/`paschaltime` → `"easter"` | everything else → `"ordinary"`.
 
 ---
 
@@ -122,7 +122,7 @@ ferial_*_resolution  →  day-specific YAML hymn + seasonal hymns
       + proper (overlay if defined)
       │
       ▼
-morning/vespers/readings_export  →  merge by precedence
+morning/vespers/readings_export  →  merge by precedence (+ Holy Week fallback)
       │
       ▼
 resolveOfficeContent  →  full texts loaded

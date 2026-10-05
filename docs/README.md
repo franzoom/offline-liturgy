@@ -9,7 +9,7 @@ A Dart package that builds a universal Catholic liturgical calendar and resolves
 `offline_liturgy` operates in two stages:
 
 1. **Calendar building** — computes a complete liturgical calendar for a given year and location, with all feasts, seasons, and priorities resolved.
-2. **Office resolution** — for any day in that calendar, retrieves the full content of each liturgical hour: Morning Prayer (Lauds), Vespers, Office of Readings, Compline, and Midday Prayer.
+2. **Office resolution** — for any day in that calendar, retrieves the full content of each liturgical hour (Morning Prayer / Lauds, Vespers, Office of Readings, Compline, Midday Prayer) and of the Mass.
 
 All content (psalms, hymns, readings, antiphons) is stored locally as YAML files and loaded on demand. No network connection is required.
 
@@ -25,26 +25,30 @@ The Catholic liturgical year is divided into seasons:
 |---|---|
 | `advent` | Advent |
 | `nativity` | Christmas Day |
-| `christmasoctave` | Octave of Christmas (Dec 26–Jan 1) |
-| `christmas` | Christmas Time (after octave) |
+| `christmasoctave` | Octave of Christmas (Dec 26–31) |
+| `christmas` | Christmas Time (Jan 1 → Baptism of the Lord) |
 | `lent` | Lent |
 | `holyweek` | Holy Week |
 | `paschaloctave` | Octave of Easter |
-| `easter` | Easter Time |
+| `paschaltime` | Easter Time (after the octave) |
 | `ot` | Ordinary Time |
 
 Each day has a **precedence level** (1–13) that determines which celebration takes priority when multiple feasts coincide:
 
 | Level | Type |
 |---|---|
-| 1–3 | Solemnities |
-| 4–5 | Feasts |
-| 6–9 | Obligatory memorials |
-| 10–11 | Optional memorials |
-| 12 | Commemorations |
+| 1–4 | Triduum, major days, solemnities (general, then proper) |
+| 5 | Feasts of the Lord |
+| 6 | Sundays of Christmas Time and Ordinary Time |
+| 7–8 | Feasts (general calendar, then proper) |
+| 9 | Privileged ferials: Advent 17–24 Dec, Christmas octave days, Lent |
+| 10–11 | Obligatory memorials (general, then proper) |
+| 12 | Optional memorials |
 | 13 | Ferial days (weekdays of a season) |
 
-During privileged seasons (Advent, Lent, Octaves), obligatory memorials are automatically downgraded to optional.
+The full table is in `preseances.md`. Ferial days (13) are sorted before optional memorials (12) by `effectivePrecedence()`, so the ferial stays the default choice.
+
+During privileged times (Advent from Dec 17, Lent, the Christmas and Easter octaves), obligatory memorials are automatically downgraded to optional (`downgradeMemorialsDuringPrivilegedTimes()`).
 
 ### Locations
 
@@ -54,11 +58,11 @@ The package supports a hierarchical geography of liturgical locations, each with
 Continent → Country → Diocese → City → Church / Community
 ```
 
-Each location can add, suppress, or move feasts relative to the universal Roman calendar. Locations are defined in YAML files under `assets/locations/`.
+Each location can add feasts, override a parent's feast (same file name) or move one to another date. Locations are defined in YAML files under `assets/locations/` (see `location_geography.md`).
 
 ### Liturgical Years (A / B / C)
 
-The three-year cycle (A, B, C) governs which patristic readings and evangelic antiphons are used on a given year.
+The three-year cycle (A, B, C) governs which patristic readings, evangelic antiphons and Sunday Mass readings are used on a given year; weekday Mass readings follow a two-year cycle (I / II).
 
 ---
 
@@ -95,7 +99,7 @@ final calendar = getCalendar(
 );
 ```
 
-This returns a `Calendar` covering **two full liturgical years** (year N and N+1) to handle boundary dates correctly.
+This returns a `Calendar` covering **two full liturgical years** (year N and N+1) to handle boundary dates correctly. Optional named parameters `epiphanyOverride`, `ascensionOverride` and `corpusDominiOverride` take precedence over the location's own settings.
 
 ### 3. Inspect a day
 
@@ -105,42 +109,44 @@ final day = calendar.getDayContent(DateTime(2026, 3, 25));
 print(day.liturgicalTime);          // e.g. 'lent'
 print(day.liturgicalColor);         // e.g. 'violet'
 print(day.precedence);              // e.g. 3
-print(day.defaultCelebrationTitle); // e.g. 'Annonciation du Seigneur'
+print(day.defaultCelebrationTitle); // e.g. 'lent_4_3' (the ferial code)
 print(day.feastList);               // Map<int, List<String>> — feasts by precedence
 ```
 
-### 4. Detect available offices for a day
+### 4. Detect the celebrations of a day
 
 ```dart
 final celebrations = await detectCelebrations(calendar, DateTime(2026, 3, 25), dataLoader);
 // returns a List<CelebrationContext> sorted by precedence (most solemn first)
 ```
 
-Each `CelebrationContext` contains everything needed to load the office content: celebration code, liturgical season, breviary week, commons list, liturgical color, origin location, etc.
+Each `CelebrationContext` contains everything needed to load the office content: celebration code, ferial code, liturgical season, breviary week, precedence, commons list, liturgical color, origin location, etc.
+
+Each office also has its own detection function, which returns the celebrations that office can be said for, keyed by a display label:
+
+```dart
+final Map<String, CelebrationContext> morningList =
+    await morningDetection(calendar, date, dataLoader);
+// likewise: vespersDetection, readingsDetection, middleOfDayDetection,
+// massDetection (one entry per celebration *and* Mass)
+final Map<String, ComplineDefinition> complineList =
+    await complineDetection(calendar, date, dataLoader);
+```
 
 ### 5. Load an office
 
-Pass the `CelebrationContext` to the appropriate resolution function:
+Pass the chosen `CelebrationContext` (with `selectedCommon`, `date`… set as needed) to the matching export function. It applies the whole pipeline — ferial base, common, proper, then hydration of psalms, hymns and canticles:
 
 ```dart
-// Morning Prayer (Lauds)
-final morning = await morningExtract(context.celebrationCode, dataLoader);
-
-// Vespers
-final vespers = await vespersExtract(context.celebrationCode, dataLoader);
-
-// Office of Readings
-final readings = await readingsExtract(context.celebrationCode, dataLoader);
-
-// Compline
-final compline = await complineExtract(context.celebrationCode, dataLoader);
+final Morning morning = await morningExport(context);
+final Vespers vespers = await vespersExport(context);
+final Readings readings = await readingsExport(context);
+final MiddleOfDay middle = await middleOfDayExport(context);
+final Mass mass = await massExport(context);
+final Compline compline = await complineExport(complineDefinition);
 ```
 
-For **ferial days** (ordinary weekdays), use the ferial resolution functions which apply the 4-week psalter cycle, seasonal overlays, and hierarchical commons:
-
-```dart
-final morning = await ferialMorningResolution(context, dataLoader);
-```
+Setting `CelebrationContext.svgSource` (e.g. `'seminaire-emmanuel'`) also loads the psalm-tone SVG scores (`assets/svg/{source}/`).
 
 ---
 
@@ -162,6 +168,7 @@ class Morning {
   Psalm? evangelicCanticle;        // Benedictus
   Intercession? intercession;
   List<String>? oration;
+  List<String>? canticleSvgData;   // Benedictus tone scores, when svgSource is set
 }
 ```
 
@@ -175,10 +182,14 @@ Same structure as Morning, with `Magnificat` as the evangelic canticle. Vespers 
 
 ```dart
 class Readings {
+  Celebration? celebration;
+  List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
+  String? verse;
   List<BiblicalReading>? biblicalReading;    // Long biblical passage
   List<PatristicReading>? patristicReading;  // Patristic or hagiographic text
-  bool? tedeum;                              // Te Deum included (feasts/solemnities)
+  Hymns? teDeum;                             // set on Sundays, octaves, feasts and solemnities
+  List<String>? oration;
 }
 ```
 
@@ -186,11 +197,14 @@ class Readings {
 
 ```dart
 class Compline {
-  String? celebrationType;     // 'normal' | 'solemnity' | 'eve'
+  String? celebrationType;     // normal day, solemnity or eve of a solemnity
   List<HymnEntry>? hymns;
   List<PsalmEntry>? psalmody;
   Reading? reading;
-  Psalm? evangelicCanticle;   // Nunc Dimittis
+  String? responsory;
+  Map<String, List<String>>? evangelicAntiphon;
+  Psalm? evangelicCanticle;    // Nunc Dimittis
+  List<String>? oration;
   List<HymnEntry>? marialHymnRef; // Marian antiphon (varies by day/season)
 }
 ```
@@ -199,9 +213,31 @@ class Compline {
 
 ```dart
 class MiddleOfDay {
-  HourOffice? tierce;   // Antiphon + reading + responsory + oration
+  List<PsalmEntry>? psalmody;        // shared by the three hours
+  List<PsalmEntry>? psalmodyTierce;  // gradual psalms, when the hours differ
+  List<PsalmEntry>? psalmodySexte;
+  List<PsalmEntry>? psalmodyNone;
+  List<HymnEntry>? hymnTierce, hymnSexte, hymnNone;
+  HourOffice? tierce;   // Antiphon + reading + responsory
   HourOffice? sexte;
   HourOffice? none;
+  List<String>? oration;
+}
+```
+
+### Mass
+
+```dart
+class Mass {
+  String? massType;                  // DAY_MASS, EASTER_VIGIL, …
+  List<MassAntiphon>? entranceAntiphon;
+  List<String>? collect;
+  List<MassReadingPart>? readingParts; // READING | EPISTLE | PSALM | GOSPEL
+  List<String>? offeringPrayer;
+  List<PrefaceEntry>? prefaceList;
+  List<MassAntiphon>? communionAntiphon;
+  List<String>? prayerAfterCommunion;
+  // + prayerOnThePeople, solemnBlessingList, sequence, …
 }
 ```
 
@@ -213,16 +249,16 @@ When a feast has no proper office of its own, the package resolves a **common** 
 
 Commons are resolved hierarchically: a more specific common inherits from and overrides a more general one. Seasonal variants are applied automatically.
 
-Example: `martyrs_male_priest` during Lent loads and overlays:
+Example: `pastors_bishop` during Easter time tries, in this order, and overlays each file that exists:
 
 ```
-commons/martyrs.yaml
-commons/martyrs_lent.yaml
-commons/martyrs_male.yaml
-commons/martyrs_male_lent.yaml
-commons/martyrs_male_priest.yaml
-commons/martyrs_male_priest_lent.yaml
+commons/pastors.yaml
+commons/pastors_paschal.yaml
+commons/pastors_bishop.yaml
+commons/pastors_bishop_paschal.yaml
 ```
+
+Seasonal suffixes (`_advent`, `_christmas`, `_lent`, `_paschal`) are derived from `liturgicalTime` in `hierarchical_common_loader.dart`. A `-` is part of a level's name (`saints-female`), only `_` separates levels.
 
 ---
 
@@ -256,9 +292,10 @@ assets/
                                  # includes structurally distinct days (nativity, easter,
                                  # pentecost, holy_thursday, etc.)
   locations/                    # continent / country / diocese / city YAML files
-  hymns/                        # ~60 liturgical hymns (French)
+  hymns/                        # ~320 liturgical hymns (French) + 000_list.yaml (seasonal lists)
   psalms/                       # PSALM_1–150, OT_1–43, NT_1–12 + gradual psalms
-  mass_missal/                  # Mass texts
+  mass_missal/                  # Mass texts: blessings/, prefaces/, eucharistic_prayer_communicantes/, elements/
+  svg/                          # psalm-tone scores, one folder per source (seminaire-emmanuel/, seminaire-paris/)
 ```
 
 ---
@@ -270,8 +307,9 @@ The `DataLoader` abstraction decouples asset loading from the runtime environmen
 ```dart
 abstract class DataLoader {
   Future<String> load(String relativePath);
-  Future<String> loadYaml(String relativePath);
-  Future<List<String>> listFiles(String prefix);
+  Future<String> loadJson(String relativePath) => load(relativePath);
+  Future<String> loadYaml(String relativePath) => load(relativePath);
+  Future<List<String>> listFiles(String prefix) async => const [];
 }
 ```
 

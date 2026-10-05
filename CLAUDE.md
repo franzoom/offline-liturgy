@@ -12,9 +12,9 @@
   50+ mobile dates derive from it (Ascension, Pentecost, Annunciation transfer, etc.).
 
   ## Feast priority system (precedence 1–13)
-  - 1–3: Solemnities | 4–5: Feasts | 6–9: Obligatory memorials | 10–11: Optional memorials | 12: Commemorations | 13: Ferial days
+  - 1–4: Triduum, major days, solemnities | 5: Feasts of the Lord | 6: Sundays of Christmas/OT | 7–8: Feasts | 9: Privileged ferials (Advent 17–24, Christmas octave, Lent) | 10–11: Obligatory memorials | 12: Optional memorials | 13: Ferial days (full table: docs/preseances.md)
   - RULE: ferial days (precedence 13) sort BEFORE optional memorials (12) via effectivePrecedence() → 11.5
-  - During Avent/Lent/Octaves: memorials 10–11 demoted to 12 via `downgradeMemorialsDuringPrivilegedTimes()`
+  - During Lent, the Christmas/Easter octaves and Advent from Dec 17: memorials 10–11 demoted to 12 via `downgradeMemorialsDuringPrivilegedTimes()`
 
   ## Feast date transfers
   Mobile-date transfers are computed at date-calculation time in `common_calendar_definitions.dart`,
@@ -89,7 +89,7 @@
       common_feasts.yaml               # 200+ universal Roman feasts with month/day/precedence
       ferial_days/                     # ot_N_D.yaml / advent_N_D.yaml / lent_N_D.yaml / easter_N_D.yaml (season_week_day)
       special_days/                    # nativity, holy_thursday, holy_friday, easter, pentecost, advent_17–24, christmas_26–31, etc.
-      commons/                         # hierarchical commons: apostles / martyrs / martyrs_male / martyrs_male_priest + seasonal variants (_advent, _lent, _easter)
+      commons/                         # hierarchical commons: apostles / martyrs / pastors / pastors_bishop… + seasonal variants (_advent, _christmas, _lent, _paschal)
       complines/                       # compline by weekday + seasonal variants
       sanctoral/                       # individual saint YAML files
     locations/                         # continent → country → diocese → city → church hierarchy YAML files
@@ -129,21 +129,24 @@
 
   ## Ferial day codes
   Format: `season_week_day`  e.g. `ot_3_5` (ordinary time, week 3, day 5)
-  Seasons: ot | advent | christmas | lent | easter
+  Prefixes: ot | advent | christmas | lent | easter  (dated variants: advent-18_3_5, christmas-3_1_2)
   extractWeekAndDay(code, season) → [week, day]
 </Key_classes>
 
 <Liturgical_data_model>
   ## Liturgical seasons (liturgicalTime values)
-  advent | nativity | christmasoctave | christmas | lent | holyweek | paschaloctave | easter | ot
+  advent | nativity | christmasoctave | christmas | lent | holyweek | paschaloctave | paschaltime | ot
 
   ## Liturgical years
   liturgicalYear(year) → 'A' | 'B' | 'C'  (year % 3 logic)
-  Affects: patristic readings (A/B/C), evangelic antiphons
+  Affects: patristic readings (A/B/C), evangelic antiphons, Sunday Mass readings
+  weekdayLectionaryYear(year) → 'I' | 'II' (weekday Mass readings)
 
   ## Hierarchical commons resolution
-  Common "martyrs_male_priest" + season "lent" → loads sequentially:
-  martyrs → martyrs_lent → martyrs_male → martyrs_male_lent → martyrs_male_priest → martyrs_male_priest_lent
+  Common "pastors_bishop" + liturgicalTime "paschaltime" → loads sequentially (missing files skipped):
+  pastors → pastors_paschal → pastors_bishop → pastors_bishop_paschal
+  Suffix per liturgicalTime (_commonSeasonSuffix): advent→_advent, nativity/christmasoctave/christmas→_christmas,
+  lent/holyweek→_lent, paschaloctave/paschaltime→_paschal, ot→none
   (parallel load, sequential overlay — specific overrides general)
 
   ## Epiphany / Ascension modes (per location YAML)

@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:yaml/yaml.dart';
 import '../../classes/readings_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
@@ -32,13 +33,7 @@ Future<Readings> readingsExtract(
 
       // 4. Fallback for Oration:
       // If the specific section doesn't have an oration, look at the root level
-      if (readings.oration == null || readings.oration!.isEmpty) {
-        readings.oration = switch (data['oration']) {
-          List list => list.map((e) => e.toString()).toList(),
-          String s => [s],
-          _ => null,
-        };
-      }
+      readings.oration ??= asTextList(data['oration']);
     } else {
       // Return empty instance if the 'readings' key is missing
       readings = Readings();

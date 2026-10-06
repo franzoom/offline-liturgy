@@ -54,7 +54,7 @@ class Vespers {
       intercession: data['intercession'] is Map<String, dynamic>
           ? Intercession.fromJson(data['intercession'] as Map<String, dynamic>)
           : null,
-      oration: asYamlList(data['oration'])?.map((e) => e.toString()).toList(),
+      oration: asTextList(data['oration']),
     );
   }
 

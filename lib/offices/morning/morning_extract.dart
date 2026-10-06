@@ -25,11 +25,6 @@ Future<Morning> morningExtract(
     final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
 
     // 3. Extract common elements from root level
-    final List<String> rootOration = switch (data['oration']) {
-      List list => list.map((e) => e.toString()).toList(),
-      String s => [s],
-      _ => [],
-    };
     final Map<String, List<String>>? rootAntiphon =
         parseEvangelicAntiphon(data['evangelicAntiphon']);
 
@@ -57,7 +52,7 @@ Future<Morning> morningExtract(
 
     // 6. Merge Fallbacks (Oration and Evangelic Antiphons)
     // Root level orations are used if the morning-specific oration is missing
-    morning.oration ??= (rootOration.isNotEmpty ? rootOration : null);
+    morning.oration ??= asTextList(data['oration']);
 
     // Merge root-level evangelicAntiphon (useful for Sundays/Feasts with Year cycles)
     if (rootAntiphon != null) {

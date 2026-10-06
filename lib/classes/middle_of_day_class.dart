@@ -51,7 +51,7 @@ class MiddleOfDay {
       none: data['none'] is Map<String, dynamic>
           ? HourOffice.fromJson(data['none'] as Map<String, dynamic>)
           : null,
-      oration: asYamlList(data['oration'])?.map((e) => e.toString()).toList(),
+      oration: asTextList(data['oration']),
     );
   }
 

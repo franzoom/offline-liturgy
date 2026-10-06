@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:yaml/yaml.dart';
 import '../../classes/middle_of_day_class.dart';
+import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 
@@ -28,14 +29,6 @@ Future<MiddleOfDay> middleOfDayExtract(
       return MiddleOfDay();
     }
 
-    // 3. Handle data extraction with potential fallback for 'oration'
-    // Some files might have 'oration' at the root level instead of inside 'middleOfDay'
-    final List<String> rootOration = switch (data['oration']) {
-      List list => list.map((e) => e.toString()).toList(),
-      String s => [s],
-      _ => [],
-    };
-
     MiddleOfDay middleOfDay;
     if (data['middleOfDay'] is Map<String, dynamic>) {
       // Create instance using the specific section
@@ -46,9 +39,8 @@ Future<MiddleOfDay> middleOfDayExtract(
     }
 
     // 4. Fallback: If 'oration' wasn't found in the section, use the root version
-    if (middleOfDay.oration == null || middleOfDay.oration!.isEmpty) {
-      middleOfDay.oration = rootOration;
-    }
+    // Some files have 'oration' at the root level instead of inside 'middleOfDay'
+    middleOfDay.oration ??= asTextList(data['oration']);
 
     return middleOfDay;
   } catch (e) {

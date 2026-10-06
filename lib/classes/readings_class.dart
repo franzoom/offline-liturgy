@@ -63,7 +63,7 @@ class Readings {
               : data['patristicReading'],
           PatristicReading.fromJson),
       verse: data['verse']?.toString(),
-      oration: asYamlList(data['oration'])?.map((e) => e.toString()).toList(),
+      oration: asTextList(data['oration']),
     );
   }
 

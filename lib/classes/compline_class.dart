@@ -48,11 +48,7 @@ class Compline {
           : null,
       responsory: data['responsory']?.toString(),
       evangelicAntiphon: parseEvangelicAntiphon(data['evangelicAntiphon']),
-      oration: switch (data['oration']) {
-        List list => list.map((e) => e.toString()).toList(),
-        String s => [s],
-        _ => null,
-      },
+      oration: asTextList(data['oration']),
     );
   }
 

@@ -99,6 +99,17 @@ List<dynamic>? asYamlList(dynamic value) => switch (value) {
       _ => [value],
     };
 
+/// Coerces a YAML value into a list of texts, dropping empty items (e.g. a
+/// bare `- ` placeholder left in a file). Returns null when no text is left,
+/// so the field counts as absent and a lower layer (Common, ferial) applies.
+List<String>? asTextList(dynamic value) {
+  final texts = asYamlList(value)
+      ?.where((e) => e != null && e.toString().trim().isNotEmpty)
+      .map((e) => e.toString())
+      .toList();
+  return (texts == null || texts.isEmpty) ? null : texts;
+}
+
 /// Intercessions / Preces
 class Intercession {
   final String? description;

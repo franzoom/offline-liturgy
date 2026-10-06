@@ -25,11 +25,6 @@ Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
     final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
 
     // 3. Extract common elements from the root level for fallback purposes
-    final List<String> rootOration = switch (data['oration']) {
-      List list => list.map((e) => e.toString()).toList(),
-      String s => [s],
-      _ => [],
-    };
     final Map<String, List<String>>? rootAntiphon =
         parseEvangelicAntiphon(data['evangelicAntiphon']);
 
@@ -42,12 +37,8 @@ Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
     }
 
     // 5. Apply Fallbacks: Oration
-    // Use the root-level oration if the vespers-specific one is null or empty
-    if (vespers.oration == null || vespers.oration!.isEmpty) {
-      if (rootOration.isNotEmpty) {
-        vespers.oration = rootOration;
-      }
-    }
+    // Use the root-level oration if the vespers-specific one is missing
+    vespers.oration ??= asTextList(data['oration']);
 
     // 6. Apply Fallbacks: Evangelic Antiphon (Magnificat)
     // Merges root-level antiphons (Year A/B/C) into the vespers-specific map

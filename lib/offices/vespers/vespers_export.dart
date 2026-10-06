@@ -36,6 +36,9 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
 
   // STEP 3: Handle Commons and Overlays based on precedence
   final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
+  // Memorials and feasts keep the season's hymns selectable after their own;
+  // solemnities replace them.
+  final bool keepBaseHymns = (celebrationContext.precedence ?? 13) > 4;
   final bool hasCommon =
       celebrationContext.selectedCommon?.trim().isNotEmpty ?? false;
 
@@ -48,12 +51,12 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
       vespersOffice.overlayWithCommon(commonVespers);
     } else {
       // For Solemnities/Feasts: Standard full overlay
-      vespersOffice.overlayWith(commonVespers);
+      vespersOffice.overlayWith(commonVespers, keepBaseHymns: keepBaseHymns);
     }
   }
 
   // STEP 4: Apply Proper data (Highest priority)
-  vespersOffice.overlayWith(properVespers);
+  vespersOffice.overlayWith(properVespers, keepBaseHymns: keepBaseHymns);
 
   // Append Lucernaire hymn, except during Lent and Holy Week
   final lt = celebrationContext.liturgicalTime ?? '';

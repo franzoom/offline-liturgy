@@ -18,6 +18,9 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   final String lt = context.liturgicalTime ?? '';
   final int prec = context.precedence ?? 13;
   final bool isMemory = prec > 9;
+  // Memorials and feasts keep the season's hymns selectable after their own;
+  // solemnities replace them.
+  final bool keepBaseHymns = prec > 4;
 
   // STEP 1: Load Ferial data as the base layer
   if (context.ferialCode?.trim().isNotEmpty ?? false) {
@@ -38,12 +41,12 @@ Future<Readings> readingsExport(CelebrationContext context) async {
     if (isMemory) {
       readingsOffice.overlayWithCommon(commonReadings);
     } else {
-      readingsOffice.overlayWith(commonReadings);
+      readingsOffice.overlayWith(commonReadings, keepBaseHymns: keepBaseHymns);
     }
   }
 
   // STEP 4: Apply Proper data
-  readingsOffice.overlayWith(properReadings);
+  readingsOffice.overlayWith(properReadings, keepBaseHymns: keepBaseHymns);
 
   // STEP 5: Te Deum (GILH 68) — on Sundays outside Lent, during the Easter
   // and Christmas octaves, and on solemnities and feasts. Not a precedence

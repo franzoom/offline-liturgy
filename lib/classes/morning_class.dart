@@ -59,10 +59,17 @@ class Morning {
   }
 
   /// Overlays this Morning instance with data from another instance
-  void overlayWith(Morning overlay) {
+  /// With [keepBaseHymns] (memorials and feasts), the overlay's hymns come
+  /// first and the current ones stay selectable after them; otherwise the
+  /// overlay's hymns replace them.
+  void overlayWith(Morning overlay, {bool keepBaseHymns = false}) {
     if (overlay.celebration != null) celebration = overlay.celebration;
     if (overlay.invitatory != null) invitatory = overlay.invitatory;
-    if (overlay.hymn != null) hymn = overlay.hymn;
+    if (keepBaseHymns) {
+      hymn = mergeHymns(hymn, overlay.hymn);
+    } else if (overlay.hymn != null) {
+      hymn = overlay.hymn;
+    }
 
     psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
@@ -81,7 +88,8 @@ class Morning {
   /// Selective overlay for Common elements (Precedence > 6)
   void overlayWithCommon(Morning common) {
     if (common.invitatory != null) invitatory = common.invitatory;
-    if (common.hymn != null) hymn = common.hymn;
+    // Memorials only: the Common's hymns first, the season's ones after
+    hymn = mergeHymns(hymn, common.hymn);
     if (common.reading != null) reading = common.reading;
     if (common.responsory != null) responsory = common.responsory;
     if (common.evangelicAntiphon != null) {

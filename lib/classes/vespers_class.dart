@@ -60,10 +60,17 @@ class Vespers {
 
   /// Overlays this Vespers instance with data from another instance
   /// Intelligently merges psalmody (psalms + antiphons)
-  void overlayWith(Vespers overlay) {
+  /// With [keepBaseHymns] (memorials and feasts), the overlay's hymns come
+  /// first and the current ones stay selectable after them; otherwise the
+  /// overlay's hymns replace them.
+  void overlayWith(Vespers overlay, {bool keepBaseHymns = false}) {
     if (overlay.celebration != null) celebration = overlay.celebration;
     if (overlay.invitatory != null) invitatory = overlay.invitatory;
-    if (overlay.hymn != null) hymn = overlay.hymn;
+    if (keepBaseHymns) {
+      hymn = mergeHymns(hymn, overlay.hymn);
+    } else if (overlay.hymn != null) {
+      hymn = overlay.hymn;
+    }
 
     psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
@@ -82,7 +89,8 @@ class Vespers {
   /// Selective overlay for Common elements (Precedence > 6)
   /// Used for Memories to take specific elements from the Common
   void overlayWithCommon(Vespers common) {
-    if (common.hymn != null) hymn = common.hymn;
+    // Memorials only: the Common's hymns first, the season's ones after
+    hymn = mergeHymns(hymn, common.hymn);
     if (common.reading != null) reading = common.reading;
     if (common.responsory != null) responsory = common.responsory;
     if (common.evangelicAntiphon != null) {

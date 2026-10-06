@@ -39,6 +39,9 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   // 3. Handle Commons and Overlays based on precedence
   final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
+  // Memorials and feasts keep the season's hymns selectable after their own;
+  // solemnities replace them.
+  final bool keepBaseHymns = (celebrationContext.precedence ?? 13) > 4;
   if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
     final Morning commonMorning =
         await loadMorningHierarchicalCommon(celebrationContext);
@@ -47,13 +50,13 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
       morningOffice.overlayWithCommon(commonMorning);
     } else {
       // Solemnities/Feasts: full overlay
-      morningOffice.overlayWith(commonMorning);
+      morningOffice.overlayWith(commonMorning, keepBaseHymns: keepBaseHymns);
     }
   }
 
   // 4. Apply Proper data (highest priority, always full — a Memorial's own
   // proper psalmody/celebration data must win when present)
-  morningOffice.overlayWith(properMorning);
+  morningOffice.overlayWith(properMorning, keepBaseHymns: keepBaseHymns);
 
   // 5. Holy Week: assign Passion hymns if no proper hymn is defined
   if (morningOffice.hymn == null &&

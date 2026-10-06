@@ -171,6 +171,16 @@ List<PsalmEntry>? mergePsalmody(List<PsalmEntry>? base, List<PsalmEntry>? overla
   return merged;
 }
 
+/// Merges hymn lists: [overlay]'s hymns first (the first one stays the
+/// default), then [base]'s not already listed, so that the earlier layers'
+/// hymns (e.g. the liturgical season's) remain selectable.
+List<HymnEntry>? mergeHymns(List<HymnEntry>? base, List<HymnEntry>? overlay) {
+  if (overlay == null || overlay.isEmpty) return base;
+  if (base == null || base.isEmpty) return overlay;
+  final codes = overlay.map((h) => h.code).toSet();
+  return [...overlay, ...base.where((h) => codes.add(h.code))];
+}
+
 /// Hymn entry with code and resolved data
 class HymnEntry {
   final String code;

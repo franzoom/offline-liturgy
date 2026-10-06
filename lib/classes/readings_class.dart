@@ -68,9 +68,16 @@ class Readings {
   }
 
   /// Overlays this Readings instance with data from another instance
-  void overlayWith(Readings overlay) {
+  /// With [keepBaseHymns] (memorials and feasts), the overlay's hymns come
+  /// first and the current ones stay selectable after them; otherwise the
+  /// overlay's hymns replace them.
+  void overlayWith(Readings overlay, {bool keepBaseHymns = false}) {
     if (overlay.celebration != null) celebration = overlay.celebration;
-    if (overlay.hymn != null) hymn = overlay.hymn;
+    if (keepBaseHymns) {
+      hymn = mergeHymns(hymn, overlay.hymn);
+    } else if (overlay.hymn != null) {
+      hymn = overlay.hymn;
+    }
 
     psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
@@ -88,7 +95,8 @@ class Readings {
   /// Biblical reading is NOT taken from the common: for a memoria, the ferial
   /// reading is kept by default; only the memoria's own YAML can override it.
   void overlayWithCommon(Readings common) {
-    if (common.hymn != null) hymn = common.hymn;
+    // Memorials only: the Common's hymns first, the season's ones after
+    hymn = mergeHymns(hymn, common.hymn);
     if (common.verse != null) verse = common.verse;
     if (common.patristicReading != null)
       patristicReading = common.patristicReading;

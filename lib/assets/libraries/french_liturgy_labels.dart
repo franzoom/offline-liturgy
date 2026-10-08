@@ -156,7 +156,7 @@ String getFrenchOrdinal(int number) {
   if (number == 1) {
     return '1^er';
   }
-  return '$numberème';
+  return '$number^e';
 }
 
 String getFrenchOrdinalFemale(int number) {

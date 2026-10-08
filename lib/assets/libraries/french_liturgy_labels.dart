@@ -161,9 +161,9 @@ String getFrenchOrdinal(int number) {
 
 String getFrenchOrdinalFemale(int number) {
   if (number == 1) {
-    return '1^ère';
+    return '1^re';
   }
-  return '$number^ème';
+  return '$number^e';
 }
 
 /// Returns the celebration type label based on precedence

@@ -775,8 +775,24 @@ mass:
     Par le Christ, notre Seigneur.
   prefaceList: null
   communionAntiphon:
-  - biblicalReference: null
-    content: "Année A\tLc 24, 35\nLes disciples reconnurent le Seigneur Jésus\n>à la fraction du pain, alléluia.\nAnnée B (au choix)\tLc 24, 46-47\nIl fallait que le Christ connaisse la souffrance,\n>qu’il ressuscite d’entre les morts le troisième jour,\n>et que la conversion soit proclamée en son nom,\n>pour le pardon des péchés, à toutes les nations, alléluia.\nAnnée C (au choix)\tcf. Jn 21, 12-13\nAu bord du lac, Jésus invite ses disciples :\n>Venez, mangez !\nPuis il prend le pain et le leur donne, alléluia."
+  - biblicalReference: Lc 24, 35
+    year: 'A'
+    content: |-
+      Les disciples reconnurent le Seigneur Jésus
+      à la fraction du pain, alléluia.
+  - biblicalReference: Lc 24, 46-47
+    year: 'B'
+    content: |-
+      Il fallait que le Christ connaisse la souffrance,
+      qu’il ressuscite d’entre les morts le troisième jour,
+      et que la conversion soit proclamée en son nom,
+      pour le pardon des péchés, à toutes les nations, alléluia.
+  - biblicalReference: cf. Jn 21, 12-13
+    year: 'C'
+    content: |-
+      Au bord du lac, Jésus invite ses disciples :
+      Venez, mangez !
+      Puis il prend le pain et le leur donne, alléluia.
   prayerAfterCommunion:
   - |-
     Regarde avec bonté, Seigneur, nous t’en prions,

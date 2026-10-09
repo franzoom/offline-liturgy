@@ -20,14 +20,14 @@ class MassAntiphon {
 /// One chorus entry in a psalm or canticle (refrain + its reference).
 class MassChorusEntry {
   final String? chorusRef;
-  final String? chorus;
+  final String? content;
 
-  const MassChorusEntry({this.chorusRef, this.chorus});
+  const MassChorusEntry({this.chorusRef, this.content});
 
   factory MassChorusEntry.fromJson(Map<String, dynamic> json) =>
       MassChorusEntry(
         chorusRef: json['chorusRef']?.toString(),
-        chorus: json['chorus']?.toString(),
+        content: json['content']?.toString(),
       );
 }
 

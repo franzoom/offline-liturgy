@@ -157,11 +157,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 145, 1b
-        chorus: |-
+        content: |-
           Chante, ô mon âme,
           la louange du Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Je veux louer le Seigneur
         tant que je vis,
@@ -188,7 +188,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 50,3
-        chorus: Pitié, Seigneur, car nous avons péché !
+        content: Pitié, Seigneur, car nous avons péché !
       content: |-
         Pitié pour moi, mon Dieu, dans ton amour,
         selon ta grande miséricorde, efface mon péché.

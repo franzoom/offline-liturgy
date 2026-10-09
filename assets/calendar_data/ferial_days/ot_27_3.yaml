@@ -161,7 +161,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 85, 15
-        chorus: |-
+        content: |-
           Toi, Seigneur,
           Dieu de tendresse et de pitié !
       content: |-
@@ -186,11 +186,11 @@ mass:
       - '2'
       chorus:
       - chorusRef: 16, 15
-        chorus: |-
+        content: |-
           Allez dans le monde entier
           proclamer la Bonne Nouvelle.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Louez le Seigneur, tous les peuples ;
         fêtez-le, tous les pays !

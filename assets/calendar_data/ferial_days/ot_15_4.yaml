@@ -152,9 +152,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 104, 8a
-        chorus: Le Seigneur s’est toujours souvenu de son alliance.
+        content: Le Seigneur s’est toujours souvenu de son alliance.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Rendez grâce au Seigneur, proclamez son nom,
         annoncez parmi les peuples ses hauts faits ;
@@ -181,7 +181,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 101, 20b
-        chorus: Du ciel, le Seigneur regarde la terre.
+        content: Du ciel, le Seigneur regarde la terre.
       content: |-
         Toi, Seigneur, tu es là pour toujours ;
         d’âge en âge on fera mémoire de toi.

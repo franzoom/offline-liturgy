@@ -117,9 +117,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 149, 4a
-        chorus: Le Seigneur aime son peuple !
+        content: Le Seigneur aime son peuple !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         louez-le dans l’assemblée de ses fidèles !
@@ -141,7 +141,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 95, 13
-        chorus: |-
+        content: |-
           Il vient, le Seigneur,
           il vient pour juger la terre.
       content: |-

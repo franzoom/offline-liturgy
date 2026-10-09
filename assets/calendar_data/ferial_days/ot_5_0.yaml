@@ -154,11 +154,11 @@ mass:
       - A
       chorus:
       - chorusRef: 111, 4
-        chorus: |-
+        content: |-
           Lumière des cœurs droits,
           le juste s’est levé dans les ténèbres.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Lumière des cœurs droits, il s’est levé dans les ténèbres,
         homme de justice, de tendresse et de pitié.
@@ -180,11 +180,11 @@ mass:
       - B
       chorus:
       - chorusRef: 146, 3
-        chorus: |-
+        content: |-
           Bénissons le Seigneur
           qui guérit nos blessures !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Il est bon de fêter notre Dieu,
         il est beau de chanter sa louange :
@@ -206,7 +206,7 @@ mass:
       - C
       chorus:
       - chorusRef: 137, 1c
-        chorus: Je te chante, Seigneur, en présence des anges.
+        content: Je te chante, Seigneur, en présence des anges.
       content: |-
         De tout mon cœur, Seigneur, je te rends grâce :
         tu as entendu les paroles de ma bouche.

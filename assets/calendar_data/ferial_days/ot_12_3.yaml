@@ -169,9 +169,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 104, 8a
-        chorus: Le Seigneur s’est toujours souvenu de son alliance.
+        content: Le Seigneur s’est toujours souvenu de son alliance.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Rendez grâce au Seigneur, proclamez son nom,
         annoncez parmi les peuples ses hauts faits ;
@@ -198,7 +198,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 118, 33a
-        chorus: |-
+        content: |-
           Enseigne-moi, Seigneur,
           le chemin de tes ordres.
       content: |-

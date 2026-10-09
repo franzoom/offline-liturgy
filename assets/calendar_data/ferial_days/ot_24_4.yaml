@@ -126,9 +126,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 110, 2a
-        chorus: Grandes sont les œuvres du Seigneur !
+        content: Grandes sont les œuvres du Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Justesse et sûreté, les œuvres de ses mains,
         sécurité, toutes ses lois,
@@ -148,10 +148,10 @@ mass:
       - '2'
       chorus:
       - chorusRef: 117, 1a
-        chorus: |-
+        content: |-
           Rendez grâce au Seigneur : Il est bon !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !

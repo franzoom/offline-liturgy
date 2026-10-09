@@ -166,7 +166,7 @@ mass:
       - A
       chorus:
       - chorusRef: null
-        chorus: |-
+        content: |-
           Garde mon âme dans la paix
           près de toi, Seigneur.
       content: |-
@@ -188,7 +188,7 @@ mass:
       - B
       chorus:
       - chorusRef: 17, 2a
-        chorus: Je t’aime, Seigneur, ma force.
+        content: Je t’aime, Seigneur, ma force.
       content: |-
         Je t’aime, Seigneur, ma force :
         Seigneur, mon roc, ma forteresse,
@@ -209,7 +209,7 @@ mass:
       - C
       chorus:
       - chorusRef: 144, 1
-        chorus: |-
+        content: |-
           Mon Dieu, mon Roi,
           je bénirai ton nom toujours et à jamais !
       content: |-

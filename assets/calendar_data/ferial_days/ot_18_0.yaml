@@ -169,7 +169,7 @@ mass:
       - A
       chorus:
       - chorusRef: 144, 16
-        chorus: |-
+        content: |-
           Tu ouvres ta main, Seigneur :
           nous voici rassasiés.
       content: |-
@@ -193,7 +193,7 @@ mass:
       - B
       chorus:
       - chorusRef: 77, 24b
-        chorus: Le Seigneur donne le pain du ciel !
+        content: Le Seigneur donne le pain du ciel !
       content: |-
         Nous avons entendu et nous savons
         ce que nos pères nous ont raconté :
@@ -215,7 +215,7 @@ mass:
       - C
       chorus:
       - chorusRef: 89, 1
-        chorus: |-
+        content: |-
           D’âge en âge, Seigneur,
           tu as été notre refuge.
       content: |-

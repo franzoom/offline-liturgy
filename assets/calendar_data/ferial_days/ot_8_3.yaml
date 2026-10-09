@@ -129,7 +129,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: Si 36, 1b (Vg)
-        chorus: |-
+        content: |-
           Montre-nous, Seigneur,
           la lumière de ta grâce.
       content: |-
@@ -154,9 +154,9 @@ mass:
       - '2'
       chorus:
       - chorusRef: 147, 12a
-        chorus: Glorifie le Seigneur, Jérusalem !
+        content: Glorifie le Seigneur, Jérusalem !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Glorifie le Seigneur, Jérusalem !
         Célèbre ton Dieu, ô Sion !

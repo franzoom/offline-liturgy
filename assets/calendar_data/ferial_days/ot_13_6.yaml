@@ -173,11 +173,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 134, 3
-        chorus: |-
+        content: |-
           Louez la bonté du Seigneur,
           célébrez la douceur de son nom.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Louez le nom du Seigneur,
         louez-le, serviteurs du Seigneur
@@ -200,7 +200,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 84, 9b
-        chorus: |-
+        content: |-
           Ce que dit le Seigneur,
           c’est la paix pour son peuple.
       content: |-

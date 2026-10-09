@@ -111,7 +111,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 31, 11ab
-        chorus: |-
+        content: |-
           Que le Seigneur soit votre joie !
           Exultez, hommes justes !
       content: |-
@@ -142,9 +142,9 @@ mass:
       - '2'
       chorus:
       - chorusRef: 110,5b
-        chorus: Le Seigneur garde toujours mémoire de son alliance.
+        content: Le Seigneur garde toujours mémoire de son alliance.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         De tout cœur je rendrai grâce au Seigneur
         dans l’assemblée, parmi les justes.

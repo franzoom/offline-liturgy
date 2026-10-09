@@ -341,11 +341,11 @@ mass:
       - A
       chorus:
       - chorusRef: 5, 3
-        chorus: |-
+        content: |-
           Heureux les pauvres de cœur,
           car le royaume des Cieux est à eux !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Le Seigneur fait justice aux opprimés ;
         aux affamés, il donne le pain,
@@ -364,7 +364,7 @@ mass:
       - B
       chorus:
       - chorusRef: 94, 8a.7d
-        chorus: |-
+        content: |-
           Aujourd’hui, ne fermez pas votre cœur,
           mais écoutez la voix du Seigneur.
       content: |-
@@ -390,7 +390,7 @@ mass:
       - C
       chorus:
       - chorusRef: 70, 15
-        chorus: |-
+        content: |-
           Sans fin, je proclamerai
           ta justice et ton salut.
       content: |-

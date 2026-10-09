@@ -204,7 +204,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 127, 1a
-        chorus: Heureux qui craint le Seigneur !
+        content: Heureux qui craint le Seigneur !
       content: |-
         Heureux qui craint le Seigneur
         et marche selon ses voies !
@@ -226,7 +226,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 24, 4a
-        chorus: Seigneur, enseigne-moi tes voies.
+        content: Seigneur, enseigne-moi tes voies.
       content: |-
         Seigneur, enseigne-moi tes voies,
         fais-moi connaître ta route.

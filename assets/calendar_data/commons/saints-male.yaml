@@ -392,7 +392,7 @@ mass:
       refAbbr: 1, 2a
       chorus:
       - chorusRef: 1, 2a
-        chorus: |-
+        content: |-
           Heureux qui se plaît
           dans la loi du Seigneur.
       content: |-
@@ -420,7 +420,7 @@ mass:
       refAbbr: 14, 2…
       chorus:
       - chorusRef: cf. 14, 1b
-        chorus: |-
+        content: |-
           Le juste habitera ta sainte montagne,
           Seigneur.
       content: |-
@@ -444,7 +444,7 @@ mass:
       refAbbr: 15, 5a
       chorus:
       - chorusRef: 15, 5a
-        chorus: |-
+        content: |-
           Seigneur, mon partage et ma coupe !
       content: |-
         Garde-moi, mon Dieu :
@@ -466,7 +466,7 @@ mass:
       refAbbr: cf. 22, 1
       chorus:
       - chorusRef: cf. 22, 1
-        chorus: |-
+        content: |-
           Le Seigneur est mon berger :
           rien ne saurait me manquer.
       content: |-
@@ -499,10 +499,10 @@ mass:
       refAbbr: 33, 2a
       chorus:
       - chorusRef: 33, 2a
-        chorus: |-
+        content: |-
           Je bénirai le Seigneur en tout temps.
       - chorusRef: cf. 33, 9a
-        chorus: |-
+        content: |-
           Goûtez et voyez
           comme est bon le Seigneur.
       content: |-
@@ -535,7 +535,7 @@ mass:
       refAbbr: 102, 1a
       chorus:
       - chorusRef: 102, 1a
-        chorus: |-
+        content: |-
           Bénis le Seigneur, ô mon âme !
       content: |-
         Bénis le Seigneur, ô mon âme,
@@ -567,10 +567,10 @@ mass:
       refAbbr: cf. 111, 1a
       chorus:
       - chorusRef: cf. 111, 1a
-        chorus: |-
+        content: |-
           Heureux qui craint le Seigneur.
       - chorusRef: null
-        chorus: |-
+        content: |-
           ou : Alléluia.
       content: |-
         Heureux qui craint le Seigneur,
@@ -601,7 +601,7 @@ mass:
       refAbbr: 127, 1a
       chorus:
       - chorusRef: 127, 1a
-        chorus: |-
+        content: |-
           Heureux qui craint le Seigneur !
       content: |-
         Heureux qui craint le Seigneur
@@ -623,7 +623,7 @@ mass:
       refAbbr: null
       chorus:
       - chorusRef: null
-        chorus: |-
+        content: |-
           Garde mon âme dans la paix
           près de toi, Seigneur.
       content: |-

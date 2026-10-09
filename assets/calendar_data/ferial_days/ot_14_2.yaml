@@ -138,7 +138,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 16, 15a
-        chorus: |-
+        content: |-
           Seigneur, par ta justice,
           je verrai ta face.
       content: |-
@@ -168,11 +168,11 @@ mass:
       - '2'
       chorus:
       - chorusRef: 113b, 9
-        chorus: |-
+        content: |-
           Peuple de Dieu,
           mets ta foi dans le Seigneur.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Notre Dieu, il est au ciel ;
         tout ce qu’il veut, il le fait.

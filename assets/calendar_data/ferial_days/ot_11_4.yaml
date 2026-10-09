@@ -152,11 +152,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 110, 7a
-        chorus: |-
+        content: |-
           Justesse et sûreté,
           les œuvres de ses mains.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         De tout cœur je rendrai grâce au Seigneur
         dans l’assemblée, parmi les justes.
@@ -178,7 +178,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 96, 12a
-        chorus: Que le Seigneur soit votre joie, hommes justes !
+        content: Que le Seigneur soit votre joie, hommes justes !
       content: |-
         Le Seigneur est roi ! Exulte la terre !
         Joie pour les îles sans nombre !

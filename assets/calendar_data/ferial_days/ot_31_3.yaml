@@ -112,9 +112,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 111, 5a
-        chorus: L’homme de bien a pitié, il partage.
+        content: L’homme de bien a pitié, il partage.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !
@@ -136,7 +136,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 26, 1a
-        chorus: Le Seigneur est ma lumière et mon salut.
+        content: Le Seigneur est ma lumière et mon salut.
       content: |-
         Le Seigneur est ma lumière et mon salut ;
         de qui aurais-je crainte ?

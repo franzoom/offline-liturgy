@@ -175,9 +175,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 145, 1b
-        chorus: Chante, ô mon âme, la louange du Seigneur !
+        content: Chante, ô mon âme, la louange du Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Heureux qui s’appuie sur le Dieu de Jacob,
         qui met son espoir dans le Seigneur son Dieu,
@@ -204,11 +204,11 @@ mass:
       - '2'
       chorus:
       - chorusRef: 106, 1
-        chorus: |-
+        content: |-
           Rendez grâce au Seigneur : Il est bon !
           Éternel est son amour !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Ils le diront, les rachetés du Seigneur,
         qu’il racheta de la main de l’oppresseur,

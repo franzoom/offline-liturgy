@@ -122,7 +122,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 99, 2
-        chorus: |-
+        content: |-
           Allez vers le Seigneur
           parmi les chants d’allégresse.
       content: |-
@@ -147,7 +147,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 36, 39a
-        chorus: Le salut des justes vient du Seigneur.
+        content: Le salut des justes vient du Seigneur.
       content: |-
         Fais confiance au Seigneur, agis bien,
         habite la terre et reste fidèle ;

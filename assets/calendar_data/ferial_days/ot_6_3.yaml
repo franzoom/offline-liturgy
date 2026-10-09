@@ -141,9 +141,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 115, 17a
-        chorus: Seigneur, je t’offrirai le sacrifice d’action de grâce.
+        content: Seigneur, je t’offrirai le sacrifice d’action de grâce.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Comment rendrai-je au Seigneur
         tout le bien qu’il m’a fait ?
@@ -165,7 +165,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 14, 1b
-        chorus: Seigneur, qui habitera ta sainte montagne ?
+        content: Seigneur, qui habitera ta sainte montagne ?
       content: |-
         Celui qui se conduit parfaitement,
         qui agit avec justice

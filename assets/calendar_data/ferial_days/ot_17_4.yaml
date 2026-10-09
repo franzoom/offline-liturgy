@@ -122,7 +122,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 83, 2
-        chorus: |-
+        content: |-
           De quel amour sont aimées tes demeures,
           Seigneur de l’univers !
       content: |-
@@ -152,9 +152,9 @@ mass:
       - '2'
       chorus:
       - chorusRef: 145, 5a
-        chorus: Heureux qui s’appuie sur le Dieu de Jacob.
+        content: Heureux qui s’appuie sur le Dieu de Jacob.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Chante, ô mon âme, la louange du Seigneur !
         Je veux louer le Seigneur tant que je vis,

@@ -321,7 +321,7 @@ mass:
       - A
       chorus:
       - chorusRef: 23, 7c.10c
-        chorus: |-
+        content: |-
           Qu’il vienne, le Seigneur :
           c’est lui, le roi de gloire !
       content: |-
@@ -345,7 +345,7 @@ mass:
       - B
       chorus:
       - chorusRef: 88, 2a
-        chorus: |-
+        content: |-
           Ton amour, Seigneur,
           sans fin je le chante !
       content: |-
@@ -369,7 +369,7 @@ mass:
       - C
       chorus:
       - chorusRef: 79, 4
-        chorus: |-
+        content: |-
           Dieu, fais-nous revenir ;
           que ton visage s’éclaire,
           et nous serons sauvés !

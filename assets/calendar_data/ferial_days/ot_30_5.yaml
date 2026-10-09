@@ -122,7 +122,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 147, 12a
-        chorus: Glorifie le Seigneur, Jérusalem !
+        content: Glorifie le Seigneur, Jérusalem !
       content: |-
         Glorifie le Seigneur, Jérusalem !
         Célèbre ton Dieu, ô Sion !
@@ -144,9 +144,9 @@ mass:
       - '2'
       chorus:
       - chorusRef: 110, 2a
-        chorus: Grandes sont les œuvres du Seigneur !
+        content: Grandes sont les œuvres du Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         De tout cœur je rendrai grâce au Seigneur
         dans l’assemblée, parmi les justes.

@@ -154,7 +154,7 @@ mass:
       - A
       chorus:
       - chorusRef: 24, 6a
-        chorus: Rappelle-toi, Seigneur, ta tendresse.
+        content: Rappelle-toi, Seigneur, ta tendresse.
       content: |-
         Seigneur, enseigne-moi tes voies,
         fais-moi connaître ta route.
@@ -176,7 +176,7 @@ mass:
       - B
       chorus:
       - chorusRef: 18, 9ab
-        chorus: |-
+        content: |-
           Les préceptes du Seigneur sont droits,
           ils réjouissent le cœur.
       content: |-
@@ -205,11 +205,11 @@ mass:
       - C
       chorus:
       - chorusRef: 145, 1b
-        chorus: |-
+        content: |-
           Chante, ô mon âme,
           la louange du Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Le Seigneur garde à jamais sa fidélité,
         il fait justice aux opprimés ;

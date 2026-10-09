@@ -117,7 +117,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 26, 13
-        chorus: |-
+        content: |-
           J’en suis sûr, je verrai les bontés du Seigneur
           sur la terre des vivants.
       content: |-
@@ -143,9 +143,9 @@ mass:
       - '2'
       chorus:
       - chorusRef: 104, 3b
-        chorus: Joie pour les cœurs qui cherchent Dieu !
+        content: Joie pour les cœurs qui cherchent Dieu !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Chantez et jouez pour lui,
         redites sans fin ses merveilles ;

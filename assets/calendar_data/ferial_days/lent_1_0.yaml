@@ -360,7 +360,7 @@ mass:
       - A
       chorus:
       - chorusRef: 50, 3
-        chorus: |-
+        content: |-
           Pitié, Seigneur,
           car nous avons péché !
       content: |-
@@ -389,7 +389,7 @@ mass:
       - B
       chorus:
       - chorusRef: 24, 10
-        chorus: |-
+        content: |-
           Tes chemins, Seigneur,
           sont amour et vérité
           pour qui garde ton alliance.
@@ -414,7 +414,7 @@ mass:
       - C
       chorus:
       - chorusRef: 90, 15
-        chorus: |-
+        content: |-
           Sois avec moi, Seigneur,
           dans mon épreuve.
       content: |-

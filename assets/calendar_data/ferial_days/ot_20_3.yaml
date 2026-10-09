@@ -153,7 +153,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 20, 2a
-        chorus: Seigneur, le roi se réjouit de ta force.
+        content: Seigneur, le roi se réjouit de ta force.
       content: |-
         Seigneur, le roi se réjouit de ta force ;
         quelle allégresse lui donne ta victoire !
@@ -175,7 +175,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 22, 1
-        chorus: |-
+        content: |-
           Le Seigneur est mon berger :
           rien ne saurait me manquer.
       content: |-

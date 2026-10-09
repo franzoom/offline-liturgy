@@ -158,7 +158,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 32, 22
-        chorus: |-
+        content: |-
           Que ton amour, Seigneur, soit sur nous,
           comme notre espoir est en toi !
       content: |-
@@ -182,11 +182,11 @@ mass:
       - '2'
       chorus:
       - chorusRef: 104, 4b
-        chorus: |-
+        content: |-
           Recherchez sans trêve
           la face du Seigneur.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Chantez et jouez pour lui,
         redites sans fin ses merveilles ;

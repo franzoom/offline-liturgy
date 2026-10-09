@@ -373,11 +373,11 @@ mass:
       - A
       chorus:
       - chorusRef: 32, 22
-        chorus: |-
+        content: |-
           Que ton amour, Seigneur, soit sur nous,
           comme notre espoir est en toi !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Criez de joie pour le Seigneur, hommes justes !
         Hommes droits, à vous la louange !
@@ -399,11 +399,11 @@ mass:
       - B
       chorus:
       - chorusRef: 21, 26a
-        chorus: |-
+        content: |-
           Tu seras ma louange, Seigneur,
           dans la grande assemblée.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Devant ceux qui te craignent, je tiendrai mes promesses.
         Les pauvres mangeront : ils seront rassasiés ;
@@ -425,11 +425,11 @@ mass:
       - C
       chorus:
       - chorusRef: 144, 1
-        chorus: |-
+        content: |-
           Mon Dieu, mon Roi,
           je bénirai ton nom toujours et à jamais !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Le Seigneur est tendresse et pitié,
         lent à la colère et plein d’amour ;

@@ -330,11 +330,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 110, 5b
-        chorus: |-
+        content: |-
           Le Seigneur garde toujours
           mémoire de son alliance.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         De tout cœur je rendrai grâce au Seigneur
         dans l’assemblée, parmi les justes.
@@ -356,7 +356,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 88, 21a
-        chorus: J’ai trouvé David, mon serviteur.
+        content: J’ai trouvé David, mon serviteur.
       content: |-
         Autrefois, tu as parlé à tes amis :
         Dans une vision tu leur as dit :

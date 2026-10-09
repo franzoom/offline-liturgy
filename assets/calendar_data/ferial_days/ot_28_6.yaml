@@ -122,9 +122,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 104, 8a
-        chorus: Le Seigneur s’est toujours souvenu de son alliance.
+        content: Le Seigneur s’est toujours souvenu de son alliance.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Vous, la race d’Abraham son serviteur,
         les fils de Jacob, qu’il a choisis,
@@ -146,7 +146,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 8, 7
-        chorus: |-
+        content: |-
           Tu établis ton Fils
           sur les œuvres de tes mains.
       content: |-

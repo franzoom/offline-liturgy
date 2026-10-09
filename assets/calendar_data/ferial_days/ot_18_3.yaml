@@ -165,11 +165,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 105, 4
-        chorus: |-
+        content: |-
           Souviens-toi de nous, Seigneur,
           dans ta bienveillance pour ton peuple.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Avec nos pères, nous avons péché,
         nous avons failli et renié.
@@ -194,7 +194,7 @@ mass:
       refAbbr: 31, 10…13
       chorus:
       - chorusRef: 31, 10d
-        chorus: |-
+        content: |-
           Le Seigneur nous garde,
           comme un berger son troupeau.
       content: |-

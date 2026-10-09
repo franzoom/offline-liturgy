@@ -161,11 +161,11 @@ mass:
       - A
       chorus:
       - chorusRef: 144, 1
-        chorus: |-
+        content: |-
           Mon Dieu, mon Roi,
           je bénirai ton nom toujours et à jamais !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Je t’exalterai, mon Dieu, mon Roi ;
         je bénirai ton nom toujours et à jamais !
@@ -192,7 +192,7 @@ mass:
       - B
       chorus:
       - chorusRef: 122, 2
-        chorus: |-
+        content: |-
           Nos yeux, levés vers le Seigneur,
           attendent sa pitié.
       content: |-
@@ -217,7 +217,7 @@ mass:
       - C
       chorus:
       - chorusRef: 65, 1
-        chorus: |-
+        content: |-
           Terre entière, acclame Dieu,
           chante le Seigneur !
       content: |-

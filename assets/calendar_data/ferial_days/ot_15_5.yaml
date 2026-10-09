@@ -158,11 +158,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 115, 13
-        chorus: |-
+        content: |-
           J’élèverai la coupe du salut,
           j’invoquerai le nom du Seigneur.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Comment rendrai-je au Seigneur
         tout le bien qu’il m’a fait ?
@@ -182,7 +182,7 @@ mass:
       refAbbr: 38, 10…
       chorus:
       - chorusRef: 38, 16c
-        chorus: Seigneur, tu me guériras, tu me feras vivre.
+        content: Seigneur, tu me guériras, tu me feras vivre.
       content: |-
         Je disais : Au milieu de mes jours,
         je m’en vais ;

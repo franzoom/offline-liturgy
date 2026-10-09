@@ -144,7 +144,7 @@ mass:
       - A
       chorus:
       - chorusRef: 144, 18a
-        chorus: |-
+        content: |-
           Proche est le Seigneur
           de ceux qui l’invoquent.
       content: |-
@@ -168,7 +168,7 @@ mass:
       - B
       chorus:
       - chorusRef: 53, 6b
-        chorus: Le Seigneur est mon appui entre tous.
+        content: Le Seigneur est mon appui entre tous.
       content: |-
         Par ton nom, Dieu, sauve-moi,
         par ta puissance rends-moi justice ;
@@ -189,11 +189,11 @@ mass:
       - C
       chorus:
       - chorusRef: 112, 1b.7a
-        chorus: |-
+        content: |-
           Louez le nom du Seigneur :
           de la poussière il relève le faible.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Louez, serviteurs du Seigneur,
         louez le nom du Seigneur !

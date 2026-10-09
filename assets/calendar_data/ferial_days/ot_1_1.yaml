@@ -330,7 +330,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 96, 7
-        chorus: Anges du Seigneur, adorez le Seigneur.
+        content: Anges du Seigneur, adorez le Seigneur.
       content: |-
         Le Seigneur est roi ! Exulte la terre !
         Joie pour les îles sans nombre !
@@ -352,11 +352,11 @@ mass:
       - '2'
       chorus:
       - chorusRef: 115, 17a
-        chorus: |-
+        content: |-
           Seigneur, je t’offrirai
           le sacrifice d’action de grâce.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Comment rendrai-je au Seigneur
         tout le bien qu’il m’a fait ?

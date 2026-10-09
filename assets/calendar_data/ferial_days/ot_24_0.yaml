@@ -176,7 +176,7 @@ mass:
       - A
       chorus:
       - chorusRef: 102, 8
-        chorus: |-
+        content: |-
           Le Seigneur est tendresse et pitié,
           lent à la colère et plein d’amour.
       content: |-
@@ -205,11 +205,11 @@ mass:
       - B
       chorus:
       - chorusRef: 114, 9
-        chorus: |-
+        content: |-
           Je marcherai en présence du Seigneur
           sur la terre des vivants.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         J’aime le Seigneur :
         il entend le cri de ma prière ;
@@ -238,7 +238,7 @@ mass:
       - C
       chorus:
       - chorusRef: 15, 18
-        chorus: |-
+        content: |-
           Oui, je me lèverai,
           et j’irai vers mon Père.
       content: |-

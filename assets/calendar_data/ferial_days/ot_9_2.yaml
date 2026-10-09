@@ -151,11 +151,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 111, 8a.7b
-        chorus: |-
+        content: |-
           Le juste est confiant :
           le cœur ferme, il s’appuie sur le Seigneur.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !
@@ -176,7 +176,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 89, 1
-        chorus: |-
+        content: |-
           D’âge en âge, Seigneur,
           tu as été notre refuge.
       content: |-

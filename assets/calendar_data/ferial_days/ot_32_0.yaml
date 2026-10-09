@@ -186,7 +186,7 @@ mass:
       - A
       chorus:
       - chorusRef: 62, 2b
-        chorus: |-
+        content: |-
           Mon âme a soif de toi,
           Seigneur, mon Dieu !
       content: |-
@@ -216,7 +216,7 @@ mass:
       - B
       chorus:
       - chorusRef: 145, 1b
-        chorus: Chante, ô mon âme, la louange du Seigneur !
+        content: Chante, ô mon âme, la louange du Seigneur !
       content: |-
         Le Seigneur garde à jamais sa fidélité,
         il fait justice aux opprimés ;
@@ -238,7 +238,7 @@ mass:
       - C
       chorus:
       - chorusRef: 16, 15b
-        chorus: Au réveil, je me rassasierai de ton visage, Seigneur.
+        content: Au réveil, je me rassasierai de ton visage, Seigneur.
       content: |-
         Seigneur, écoute la justice !
         Entends ma plainte, accueille ma prière.

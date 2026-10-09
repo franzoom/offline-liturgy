@@ -185,7 +185,7 @@ mass:
       - A
       chorus:
       - chorusRef: 85, 5a.6a
-        chorus: |-
+        content: |-
           Toi qui es bon et qui pardonnes,
           écoute ma prière, Seigneur.
       content: |-
@@ -209,7 +209,7 @@ mass:
       - B
       chorus:
       - chorusRef: 22, 1
-        chorus: |-
+        content: |-
           Le Seigneur est mon berger :
           rien ne saurait me manquer.
       content: |-
@@ -243,7 +243,7 @@ mass:
       - C
       chorus:
       - chorusRef: 14, 1a
-        chorus: Seigneur, qui séjournera sous ta tente ?
+        content: Seigneur, qui séjournera sous ta tente ?
       content: |-
         Celui qui se conduit parfaitement,
         qui agit avec justice

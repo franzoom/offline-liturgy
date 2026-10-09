@@ -677,7 +677,7 @@ mass:
             refAbbr: cf. 1S 2, 1a
             chorus:
               - chorusRef: cf. 1S 2, 1a
-                chorus: |-
+                content: |-
                   Mon cœur exulte à cause du Seigneur :
                   c’est lui qui me sauve.
             content: |-
@@ -705,7 +705,7 @@ mass:
             refAbbr: cf. 15, 9
             chorus:
               - chorusRef: cf. 15, 9
-                chorus: |-
+                content: |-
                   Tu es la joie, tu es l’honneur
                   de notre peuple, Vierge Marie.
             content: |-
@@ -728,7 +728,7 @@ mass:
             refAbbr: 44, 11a
             chorus:
               - chorusRef: 44, 11a
-                chorus: |-
+                content: |-
                   Écoute, ma fille, regarde et tends l’oreille.
             content: |-
               Écoute, ma fille, regarde et tends l’oreille ;
@@ -750,11 +750,11 @@ mass:
             refAbbr: 112, 2
             chorus:
               - chorusRef: 112, 2
-                chorus: |-
+                content: |-
                   Béni soit le nom du Seigneur,
                   maintenant et pour les siècles des siècles !
               - chorusRef: null
-                chorus: |-
+                content: |-
                   ou : Alléluia !
             content: |-
               Louez, serviteurs du Seigneur,
@@ -781,11 +781,11 @@ mass:
             refAbbr: Lc 1, 49
             chorus:
               - chorusRef: Lc 1, 49
-                chorus: |-
+                content: |-
                   Le Puissant fit pour moi des merveilles ;
                   Saint est son nom !
               - chorusRef: null
-                chorus: |-
+                content: |-
                   ou : Heureuse Vierge Marie,
                   qui portas en toi le Fils du Père éternel !
             content: |-

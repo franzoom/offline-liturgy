@@ -166,7 +166,7 @@ mass:
       - A
       chorus:
       - chorusRef: 137, 8
-        chorus: |-
+        content: |-
           Seigneur, éternel est ton amour :
           n’arrête pas l’œuvre de tes mains.
       content: |-
@@ -190,7 +190,7 @@ mass:
       - B
       chorus:
       - chorusRef: 33, 9
-        chorus: |-
+        content: |-
           Goûtez et voyez
           comme est bon le Seigneur !
       content: |-
@@ -219,11 +219,11 @@ mass:
       - C
       chorus:
       - chorusRef: 16, 15
-        chorus: |-
+        content: |-
           Allez dans le monde entier.
           Proclamez l’Évangile.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Louez le Seigneur, tous les peuples ;
         fêtez-le, tous les pays !

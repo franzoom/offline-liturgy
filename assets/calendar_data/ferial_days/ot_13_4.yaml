@@ -189,11 +189,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 114, 9
-        chorus: |-
+        content: |-
           Je marcherai en présence du Seigneur
           sur la terre des vivants.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         J’aime le Seigneur :
         il entend le cri de ma prière ;
@@ -222,7 +222,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 18b, 10cd
-        chorus: |-
+        content: |-
           Les décisions du Seigneur sont justes
           et vraiment équitables.
       content: |-

@@ -147,7 +147,7 @@ mass:
       - A
       chorus:
       - chorusRef: 68, 14c
-        chorus: Dans ton grand amour, Dieu, réponds-moi.
+        content: Dans ton grand amour, Dieu, réponds-moi.
       content: |-
         C’est pour toi que j’endure l’insulte,
         que la honte me couvre le visage :
@@ -176,11 +176,11 @@ mass:
       - B
       chorus:
       - chorusRef: 106, 1
-        chorus: |-
+        content: |-
           Rendez grâce au Seigneur : Il est bon !
           Éternel est son amour !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Qu’ils rendent grâce au Seigneur de son amour,
         qu’ils offrent des sacrifices d’action de grâce,
@@ -207,7 +207,7 @@ mass:
       - C
       chorus:
       - chorusRef: 62, 2b
-        chorus: |-
+        content: |-
           Mon âme a soif de toi,
           Seigneur, mon Dieu.
       content: |-

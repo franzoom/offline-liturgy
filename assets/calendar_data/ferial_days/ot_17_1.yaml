@@ -166,11 +166,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 105, 1
-        chorus: |-
+        content: |-
           Rendez grâce au Seigneur : Il est bon !
           Éternel est son amour !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         À l’Horeb ils fabriquent un veau,
         ils adorent un objet en métal :
@@ -190,7 +190,7 @@ mass:
       refAbbr: 32, 18…21
       chorus:
       - chorusRef: 32, 18b
-        chorus: Le Dieu qui t’a engendré, tu l’oublies.
+        content: Le Dieu qui t’a engendré, tu l’oublies.
       content: |-
         Tu dédaignes le Rocher qui t’a mis au monde ;
         le Dieu qui t’a engendré, tu l’oublies.

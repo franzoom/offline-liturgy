@@ -115,9 +115,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 135,1a
-        chorus: Éternel est son amour !
+        content: Éternel est son amour !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Rendez grâce au Seigneur : il est bon,
         (R/) éternel est son amour !
@@ -145,7 +145,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 9 B, 12
-        chorus: N’oublie pas le pauvre, Seigneur !
+        content: N’oublie pas le pauvre, Seigneur !
       content: |-
         Pourquoi, Seigneur, es-tu si loin ?
         Pourquoi te cacher aux jours d’angoisse ?

@@ -140,7 +140,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 15, 1b
-        chorus: |-
+        content: |-
           Chantons pour le Seigneur !
           Éclatante est sa gloire !
       content: |-
@@ -166,7 +166,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 84, 8
-        chorus: Fais-nous voir, Seigneur, ton amour !
+        content: Fais-nous voir, Seigneur, ton amour !
       content: |-
         Tu as aimé, Seigneur, cette terre,
         tu as fait revenir les déportés de Jacob ;

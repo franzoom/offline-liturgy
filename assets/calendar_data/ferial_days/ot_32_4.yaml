@@ -151,7 +151,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 118, 89
-        chorus: Pour toujours, ta parole, Seigneur.
+        content: Pour toujours, ta parole, Seigneur.
       content: |-
         Pour toujours, ta parole, Seigneur,
         se dresse dans les cieux.
@@ -173,11 +173,11 @@ mass:
       - '2'
       chorus:
       - chorusRef: 145, 5
-        chorus: |-
+        content: |-
           Heureux qui s’appuie
           sur le Seigneur notre Dieu.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Le Seigneur garde à jamais sa fidélité,
         il fait justice aux opprimés ;

@@ -142,9 +142,9 @@ mass:
       - '1'
       chorus:
       - chorusRef: 115, 17a
-        chorus: Seigneur, je t’offrirai le sacrifice d’action de grâce.
+        content: Seigneur, je t’offrirai le sacrifice d’action de grâce.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Je crois, et je parlerai,
         moi qui ai beaucoup souffert,
@@ -166,7 +166,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 26, 9a
-        chorus: C’est ta face, Seigneur, que je cherche.
+        content: C’est ta face, Seigneur, que je cherche.
       content: |-
         Écoute, Seigneur, je t’appelle !
         Pitié ! Réponds-moi !

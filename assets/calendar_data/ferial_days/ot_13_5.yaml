@@ -162,10 +162,10 @@ mass:
       - '1'
       chorus:
       - chorusRef: 105, 1a
-        chorus: |-
+        content: |-
           Rendez grâce au Seigneur : Il est bon !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !
@@ -187,7 +187,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 4, 4b
-        chorus: |-
+        content: |-
           L’homme ne vit pas seulement de pain,
           mais de toute parole qui sort de la bouche de Dieu.
       content: |-

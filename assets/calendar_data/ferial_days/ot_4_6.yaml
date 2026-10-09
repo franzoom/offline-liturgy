@@ -253,7 +253,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 22, 1
-        chorus: |-
+        content: |-
           Le Seigneur est mon berger :
           rien ne saurait me manquer.
       content: |-
@@ -287,7 +287,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 118, 12b
-        chorus: Seigneur, apprends-moi tes commandements.
+        content: Seigneur, apprends-moi tes commandements.
       content: |-
         Comment, jeune, garder pur son chemin ?
         En observant ta parole.

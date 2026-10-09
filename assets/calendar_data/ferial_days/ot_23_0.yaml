@@ -145,7 +145,7 @@ mass:
       - A
       chorus:
       - chorusRef: 94, 8a.7d
-        chorus: |-
+        content: |-
           Aujourd’hui, ne fermez pas votre cœur,
           mais écoutez la voix du Seigneur !
       content: |-
@@ -169,11 +169,11 @@ mass:
       - B
       chorus:
       - chorusRef: 145, 2
-        chorus: |-
+        content: |-
           Je veux louer le Seigneur,
           tant que je vis.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Le Seigneur garde à jamais sa fidélité,
         il fait justice aux opprimés ;
@@ -195,7 +195,7 @@ mass:
       - C
       chorus:
       - chorusRef: 89, 1
-        chorus: |-
+        content: |-
           D’âge en âge, Seigneur,
           tu as été notre refuge.
       content: |-

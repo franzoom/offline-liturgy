@@ -372,11 +372,11 @@ mass:
       - A
       chorus:
       - chorusRef: 65, 1
-        chorus: |-
+        content: |-
           Terre entière, acclame Dieu,
           chante le Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Acclamez Dieu, toute la terre ;
         fêtez la gloire de son nom,
@@ -403,11 +403,11 @@ mass:
       - B
       chorus:
       - chorusRef: 97, 2
-        chorus: |-
+        content: |-
           Le Seigneur a fait connaître sa victoire
           et révélé sa justice aux nations.
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         car il a fait des merveilles ;
@@ -429,11 +429,11 @@ mass:
       - C
       chorus:
       - chorusRef: 66, 4
-        chorus: |-
+        content: |-
           Que les peuples, Dieu, te rendent grâce ;
           qu’ils te rendent grâce tous ensemble !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Que Dieu nous prenne en grâce et nous bénisse,
         que son visage s’illumine pour nous ;

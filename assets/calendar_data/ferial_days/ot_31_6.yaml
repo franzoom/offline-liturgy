@@ -138,7 +138,7 @@ mass:
       - '1'
       chorus:
       - chorusRef: 144, 1
-        chorus: |-
+        content: |-
           Mon Dieu, mon Roi,
           je bénirai ton nom toujours et à jamais !
       content: |-
@@ -162,9 +162,9 @@ mass:
       - '2'
       chorus:
       - chorusRef: 111, 1a
-        chorus: Heureux qui craint le Seigneur !
+        content: Heureux qui craint le Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !

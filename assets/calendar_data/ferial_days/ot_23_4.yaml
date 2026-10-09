@@ -146,11 +146,11 @@ mass:
       - '1'
       chorus:
       - chorusRef: 150, 6
-        chorus: |-
+        content: |-
           Que tout être vivant
           chante louange au Seigneur !
       - chorusRef: null
-        chorus: Alléluia !
+        content: Alléluia !
       content: |-
         Louez Dieu dans son temple saint,
         louez-le au ciel de sa puissance ;
@@ -172,7 +172,7 @@ mass:
       - '2'
       chorus:
       - chorusRef: 138, 24b
-        chorus: Conduis-moi, Seigneur, sur le chemin d’éternité.
+        content: Conduis-moi, Seigneur, sur le chemin d’éternité.
       content: |-
         Tu me scrutes, Seigneur, et tu sais !
         Tu sais quand je m’assois, quand je me lève ;

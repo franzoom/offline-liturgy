@@ -204,7 +204,8 @@ mass:
       chorus:
       - chorusRef: 30, 18
         chorus: Heureux tous ceux qui attendent le Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Il est bon de fêter notre Dieu,
         il est beau de chanter sa louange !

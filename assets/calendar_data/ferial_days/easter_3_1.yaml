@@ -234,7 +234,8 @@ mass:
         chorus: |-
           Heureux ceux qui marchent
           suivant la loi du Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Lorsque des grands accusent ton serviteur,
         je médite sur tes ordres.

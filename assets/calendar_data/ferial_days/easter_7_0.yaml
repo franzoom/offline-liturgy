@@ -348,7 +348,8 @@ mass:
         chorus: |-
           J’en suis sûr, je verrai les bontés du Seigneur
           sur la terre des vivants.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur est ma lumière et mon salut ;
         de qui aurais-je crainte ?
@@ -373,7 +374,8 @@ mass:
       chorus:
       - chorusRef: 102, 19a
         chorus: Le Seigneur a son trône dans les cieux.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Bénis le Seigneur, ô mon âme,
         bénis son nom très saint, tout mon être !
@@ -398,7 +400,8 @@ mass:
         chorus: |-
           Le Seigneur est roi,
           le Très-Haut sur toute la terre !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur est roi ! Exulte la terre !
         Joie pour les îles sans nombre !

@@ -216,7 +216,8 @@ mass:
         chorus: |-
           Que ton amour, Seigneur, soit sur nous
           comme notre espoir est en toi.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Criez de joie pour le Seigneur, hommes justes !
         Hommes droits, à vous la louange !

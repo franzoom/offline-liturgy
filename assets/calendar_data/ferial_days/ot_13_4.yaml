@@ -192,7 +192,8 @@ mass:
         chorus: |-
           Je marcherai en présence du Seigneur
           sur la terre des vivants.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         J’aime le Seigneur :
         il entend le cri de ma prière ;

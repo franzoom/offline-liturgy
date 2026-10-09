@@ -152,7 +152,8 @@ mass:
       cycle:
       - '1'
       chorus:
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Quand Israël sortit d’Égypte,
         et Jacob, de chez un peuple étranger,

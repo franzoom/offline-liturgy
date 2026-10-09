@@ -243,7 +243,8 @@ mass:
         chorus: |-
           Un pauvre crie ;
           le Seigneur entend.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Je bénirai le Seigneur en tout temps,
         sa louange sans cesse à mes lèvres.

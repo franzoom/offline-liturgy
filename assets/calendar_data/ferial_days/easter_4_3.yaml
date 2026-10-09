@@ -236,7 +236,8 @@ mass:
         chorus: |-
           Que les peuples, Dieu, te rendent grâce ;
           qu’ils te rendent grâce tous ensemble !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Que Dieu nous prenne en grâce et nous bénisse,
         que son visage s’illumine pour nous ;

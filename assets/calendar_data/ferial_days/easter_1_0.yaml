@@ -1008,7 +1008,8 @@ mass:
     - biblicalRef: Ps 117 (118), 1.2, 16-17, 22-23
       refAbbr: 117, 1…
       chorus:
-      - chorus: Alléluia, alléluia, alléluia !
+      - chorusRef: null
+        chorus: Alléluia, alléluia, alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !

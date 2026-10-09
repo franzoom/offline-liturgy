@@ -274,7 +274,8 @@ mass:
         chorus: |-
           Mon âme a soif de Dieu,
           le Dieu vivant.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Comme un cerf altéré
         cherche l’eau vive,

@@ -160,7 +160,8 @@ mass:
         chorus: |-
           Chante, ô mon âme,
           la louange du Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Je veux louer le Seigneur
         tant que je vis,

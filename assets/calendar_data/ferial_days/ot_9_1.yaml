@@ -139,7 +139,8 @@ mass:
       chorus:
       - chorusRef: 111, 1a
         chorus: Heureux qui craint le Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !

@@ -266,7 +266,8 @@ mass:
         chorus: |-
           Le Seigneur a fait connaître sa victoire
           et révélé sa justice aux nations.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         car il a fait des merveilles ;

@@ -176,7 +176,8 @@ mass:
         chorus: |-
           Louez la bonté du Seigneur,
           célébrez la douceur de son nom.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Louez le nom du Seigneur,
         louez-le, serviteurs du Seigneur

@@ -143,7 +143,8 @@ mass:
       chorus:
       - chorusRef: 115, 17a
         chorus: Seigneur, je t’offrirai le sacrifice d’action de grâce.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Je crois, et je parlerai,
         moi qui ai beaucoup souffert,

@@ -260,7 +260,8 @@ mass:
         chorus: |-
           Que tes amis, Seigneur,
           annoncent la gloire de ton règne !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Que tes œuvres, Seigneur, te rendent grâce
         et que tes fidèles te bénissent !

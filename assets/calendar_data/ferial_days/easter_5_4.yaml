@@ -266,7 +266,8 @@ mass:
         chorus: |-
           Racontez à tous les peuples
           les merveilles du Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         chantez au Seigneur, terre entière,

@@ -278,7 +278,8 @@ mass:
         chorus: |-
           Non pas à nous, Seigneur,
           mais à ton nom, donne la gloire.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Non pas à nous, Seigneur, non pas à nous,
         mais à ton nom, donne la gloire,

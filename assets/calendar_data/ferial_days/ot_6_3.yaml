@@ -142,7 +142,8 @@ mass:
       chorus:
       - chorusRef: 115, 17a
         chorus: Seigneur, je t’offrirai le sacrifice d’action de grâce.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Comment rendrai-je au Seigneur
         tout le bien qu’il m’a fait ?

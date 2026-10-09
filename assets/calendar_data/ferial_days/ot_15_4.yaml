@@ -153,7 +153,8 @@ mass:
       chorus:
       - chorusRef: 104, 8a
         chorus: Le Seigneur s’est toujours souvenu de son alliance.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur, proclamez son nom,
         annoncez parmi les peuples ses hauts faits ;

@@ -257,7 +257,8 @@ mass:
         chorus: |-
           Seigneur, je te rends grâce,
           car tu m’as exaucé.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !

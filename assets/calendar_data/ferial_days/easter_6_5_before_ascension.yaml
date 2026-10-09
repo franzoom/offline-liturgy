@@ -243,7 +243,8 @@ mass:
       chorus:
       - chorusRef: 46, 8a
         chorus: Dieu est le roi de toute la terre.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Tous les peuples, battez des mains,
         acclamez Dieu par vos cris de joie !

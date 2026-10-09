@@ -281,7 +281,8 @@ mass:
         chorus: |-
           Ô Seigneur notre Dieu, qu’il est grand, ton nom,
           par toute la terre !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         À voir ton ciel, ouvrage de tes doigts,
         la lune et les étoiles que tu fixas,

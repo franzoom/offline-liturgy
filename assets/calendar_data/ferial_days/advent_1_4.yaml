@@ -229,7 +229,8 @@ mass:
         chorus: |-
           Béni soit au nom du Seigneur
           celui qui vient !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !

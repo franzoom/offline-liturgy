@@ -206,7 +206,8 @@ mass:
         chorus: |-
           Peuple de prêtres, peuple de rois,
           chante ton Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         louez-le dans l’assemblée de ses fidèles !

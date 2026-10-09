@@ -171,7 +171,8 @@ mass:
         chorus: |-
           Peuple de Dieu,
           mets ta foi dans le Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Notre Dieu, il est au ciel ;
         tout ce qu’il veut, il le fait.

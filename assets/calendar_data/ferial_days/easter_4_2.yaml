@@ -250,7 +250,8 @@ mass:
       chorus:
       - chorusRef: 116, 1
         chorus: Louez le Seigneur, tous les peuples !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Elle est fondée sur les montagnes saintes.
         Le Seigneur aime les portes de Sion

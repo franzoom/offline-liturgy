@@ -179,7 +179,8 @@ mass:
         chorus: |-
           Rendez grâce au Seigneur : Il est bon !
           Éternel est son amour !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Qu’ils rendent grâce au Seigneur de son amour,
         qu’ils offrent des sacrifices d’action de grâce,

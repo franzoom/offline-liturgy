@@ -149,7 +149,8 @@ mass:
         chorus: |-
           Que tout être vivant
           chante louange au Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Louez Dieu dans son temple saint,
         louez-le au ciel de sa puissance ;

@@ -360,7 +360,8 @@ mass:
         chorus: |-
           Le Seigneur est mon berger :
           rien ne saurait me manquer.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur est mon berger :
         je ne manque de rien.
@@ -395,7 +396,8 @@ mass:
         chorus: |-
           La pierre qu’ont rejetée les bâtisseurs
           est devenue la pierre d’angle.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !
@@ -424,7 +426,8 @@ mass:
       chorus:
       - chorusRef: 99, 3c
         chorus: Nous sommes son peuple, son troupeau.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Acclamez le Seigneur, terre entière,
         servez le Seigneur dans l’allégresse,

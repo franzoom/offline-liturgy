@@ -206,7 +206,8 @@ mass:
         chorus: |-
           Les hommes droits te verront face à face,
           Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur, dans son temple saint,
         le Seigneur, dans les cieux où il trône,

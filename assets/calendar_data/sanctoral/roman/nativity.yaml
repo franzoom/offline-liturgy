@@ -767,7 +767,8 @@ mass:
     - biblicalRef: Ps 96 (97), 1.6, 11-12
       refAbbr: Ps 96, 1…
       chorus:
-      - chorus: |-
+      - chorusRef: null
+        chorus: |-
           La lumière aujourd’hui a resplendi sur nous :
           un Sauveur nous est né !
       content: |-

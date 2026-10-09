@@ -207,7 +207,8 @@ mass:
         chorus: |-
           La terre tout entière a vu
           le salut que Dieu nous donne.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         car il a fait des merveilles ;

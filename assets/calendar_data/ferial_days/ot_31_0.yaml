@@ -165,7 +165,8 @@ mass:
       cycle:
       - A
       chorus:
-      - chorus: |-
+      - chorusRef: null
+        chorus: |-
           Garde mon âme dans la paix
           près de toi, Seigneur.
       content: |-

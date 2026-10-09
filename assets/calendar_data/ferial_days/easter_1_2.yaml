@@ -253,7 +253,8 @@ mass:
         chorus: |-
           Toute la terre, Seigneur,
           est remplie de ton amour.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Oui, elle est droite, la parole du Seigneur ;
         il est fidèle en tout ce qu’il fait.

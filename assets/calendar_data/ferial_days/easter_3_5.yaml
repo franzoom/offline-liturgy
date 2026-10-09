@@ -304,7 +304,8 @@ mass:
         chorus: |-
           Allez dans le monde entier.
           Proclamez l’Évangile.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Louez le Seigneur, tous les peuples ;
         fêtez-le, tous les pays !

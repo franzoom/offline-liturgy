@@ -111,7 +111,8 @@ mass:
         chorus: |-
           Souvenez-vous des merveilles
           que le Seigneur a faites.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez et jouez pour lui,
         redites sans fin ses merveilles ;
@@ -134,7 +135,8 @@ mass:
       chorus:
       - chorusRef: 111, 1a
         chorus: Heureux qui craint le Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !

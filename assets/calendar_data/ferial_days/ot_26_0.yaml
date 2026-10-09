@@ -208,7 +208,8 @@ mass:
         chorus: |-
           Chante, ô mon âme,
           la louange du Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur garde à jamais sa fidélité,
         il fait justice aux opprimés ;

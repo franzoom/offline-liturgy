@@ -264,7 +264,8 @@ mass:
       chorus:
       - chorusRef: 65, 1
         chorus: Acclamez Dieu, toute la terre !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Peuples, bénissez notre Dieu !
         Faites retentir sa louange,

@@ -157,7 +157,8 @@ mass:
         chorus: |-
           Lumière des cœurs droits,
           le juste s’est levé dans les ténèbres.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Lumière des cœurs droits, il s’est levé dans les ténèbres,
         homme de justice, de tendresse et de pitié.
@@ -182,7 +183,8 @@ mass:
         chorus: |-
           Bénissons le Seigneur
           qui guérit nos blessures !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Il est bon de fêter notre Dieu,
         il est beau de chanter sa louange :

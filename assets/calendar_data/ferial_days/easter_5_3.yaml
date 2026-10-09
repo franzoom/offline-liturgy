@@ -248,7 +248,8 @@ mass:
         chorus: |-
           Dans la joie, nous irons
           à la maison du Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Quelle joie quand on m’a dit :
         « Nous irons à la maison du Seigneur ! »

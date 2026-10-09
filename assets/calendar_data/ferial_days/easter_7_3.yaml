@@ -264,7 +264,8 @@ mass:
         chorus: |-
           Royaumes de la terre,
           chantez pour le Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Ton Dieu l’a commandé : « Sois fort ! »
         Montre ta force, Dieu, quand tu agis pour nous !

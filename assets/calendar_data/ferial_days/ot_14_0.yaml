@@ -164,7 +164,8 @@ mass:
         chorus: |-
           Mon Dieu, mon Roi,
           je bénirai ton nom toujours et à jamais !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Je t’exalterai, mon Dieu, mon Roi ;
         je bénirai ton nom toujours et à jamais !

@@ -256,7 +256,8 @@ mass:
       chorus:
       - chorusRef: 65, 1
         chorus: Acclamez Dieu, toute la terre !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Acclamez Dieu, toute la terre ;
         fêtez la gloire de son nom,

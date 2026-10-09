@@ -447,7 +447,8 @@ mass:
                 chorus: |-
                   Ô Seigneur, envoie ton Esprit
                   qui renouvelle la face de la terre !
-              - chorus: Alléluia !
+              - chorusRef: null
+                chorus: Alléluia !
             content: |-
               Bénis le Seigneur, ô mon âme ;
               Seigneur mon Dieu, tu es si grand !
@@ -625,7 +626,8 @@ mass:
                 chorus: |-
                   Ô Seigneur, envoie ton Esprit
                   qui renouvelle la face de la terre !
-              - chorus: Alléluia !
+              - chorusRef: null
+                chorus: Alléluia !
             content: |-
               Bénis le Seigneur, ô mon âme ;
               Seigneur mon Dieu, tu es si grand !

@@ -155,7 +155,8 @@ mass:
       chorus:
       - chorusRef: 147, 12a
         chorus: Glorifie le Seigneur, Jérusalem !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Glorifie le Seigneur, Jérusalem !
         Célèbre ton Dieu, ô Sion !

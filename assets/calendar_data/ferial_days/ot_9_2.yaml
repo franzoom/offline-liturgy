@@ -154,7 +154,8 @@ mass:
         chorus: |-
           Le juste est confiant :
           le cœur ferme, il s’appuie sur le Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !

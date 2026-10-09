@@ -267,7 +267,8 @@ mass:
         chorus: |-
           Ton amour, Seigneur,
           sans fin je le chante !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         L’amour du Seigneur, sans fin je le chante ;
         ta fidélité, je l’annonce d’âge en âge.

@@ -257,7 +257,8 @@ mass:
         chorus: |-
           J’ai demandé une chose au Seigneur :
           habiter sa maison.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur est ma lumière et mon salut ;
         de qui aurais-je crainte ?

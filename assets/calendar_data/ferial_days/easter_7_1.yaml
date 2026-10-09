@@ -256,7 +256,8 @@ mass:
         chorus: |-
           Royaumes de la terre,
           chantez pour le Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Dieu se lève et ses ennemis se dispersent,
         ses adversaires fuient devant sa face.

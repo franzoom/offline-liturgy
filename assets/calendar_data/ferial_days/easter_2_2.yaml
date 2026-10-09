@@ -242,7 +242,8 @@ mass:
         chorus: |-
           Le Seigneur est roi ;
           il s’est vêtu de magnificence.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur est roi ;
         il s’est vêtu de magnificence,

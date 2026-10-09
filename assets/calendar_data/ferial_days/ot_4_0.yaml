@@ -344,7 +344,8 @@ mass:
         chorus: |-
           Heureux les pauvres de cœur,
           car le royaume des Cieux est à eux !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur fait justice aux opprimés ;
         aux affamés, il donne le pain,

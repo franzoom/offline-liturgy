@@ -169,7 +169,8 @@ mass:
         chorus: |-
           Rendez grâce au Seigneur : Il est bon !
           Éternel est son amour !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         À l’Horeb ils fabriquent un veau,
         ils adorent un objet en métal :

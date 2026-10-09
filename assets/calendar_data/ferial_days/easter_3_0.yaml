@@ -378,7 +378,8 @@ mass:
       chorus:
       - chorusRef: 15, 11a
         chorus: Tu m’apprends, Seigneur, le chemin de la vie.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Garde-moi, mon Dieu : j’ai fait de toi mon refuge.
         J’ai dit au Seigneur : « Tu es mon Dieu !
@@ -407,7 +408,8 @@ mass:
         chorus: |-
           Sur nous, Seigneur,
           que s’illumine ton visage !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Quand je crie, réponds-moi,
         Dieu, ma justice !
@@ -432,7 +434,8 @@ mass:
         chorus: |-
           Je t’exalte, Seigneur,
           tu m’as relevé.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Quand j’ai crié vers toi, Seigneur,
         mon Dieu, tu m’as guéri ;

@@ -252,7 +252,8 @@ mass:
         chorus: |-
           La pierre qu’ont rejetée les bâtisseurs
           est devenue la pierre d’angle.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !

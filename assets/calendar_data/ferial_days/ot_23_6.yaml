@@ -119,7 +119,8 @@ mass:
         chorus: |-
           Béni soit le nom du Seigneur,
           maintenant et pour les siècles des siècles !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Louez, serviteurs du Seigneur,
         louez le nom du Seigneur !

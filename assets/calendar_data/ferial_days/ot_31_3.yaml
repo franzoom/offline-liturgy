@@ -113,7 +113,8 @@ mass:
       chorus:
       - chorusRef: 111, 5a
         chorus: L’homme de bien a pitié, il partage.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Heureux qui craint le Seigneur,
         qui aime entièrement sa volonté !

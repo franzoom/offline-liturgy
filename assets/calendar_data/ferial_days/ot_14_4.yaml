@@ -166,7 +166,8 @@ mass:
         chorus: |-
           Souvenez-vous des merveilles
           que le Seigneur a faites.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Dieu appela sur le pays la famine,
         le privant de toute ressource.

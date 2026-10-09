@@ -251,7 +251,8 @@ mass:
         chorus: |-
           Tu es mon fils ;
           moi, aujourd’hui, je t’ai engendré.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Pourquoi ce tumulte des nations,
         ce vain murmure des peuples ?

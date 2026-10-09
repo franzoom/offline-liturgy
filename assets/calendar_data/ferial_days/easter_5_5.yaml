@@ -268,7 +268,8 @@ mass:
       chorus:
       - chorusRef: 56, 10a
         chorus: Je te rendrai grâce parmi les peuples, Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Mon cœur est prêt, mon Dieu,
         mon cœur est prêt !

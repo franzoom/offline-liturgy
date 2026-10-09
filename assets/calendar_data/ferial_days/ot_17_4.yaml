@@ -153,7 +153,8 @@ mass:
       chorus:
       - chorusRef: 145, 5a
         chorus: Heureux qui s’appuie sur le Dieu de Jacob.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chante, ô mon âme, la louange du Seigneur !
         Je veux louer le Seigneur tant que je vis,

@@ -210,7 +210,8 @@ mass:
       chorus:
       - chorusRef: 149, 4a
         chorus: Le Seigneur aime son peuple.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez au Seigneur un chant nouveau,
         louez-le dans l’assemblée de ses fidèles !

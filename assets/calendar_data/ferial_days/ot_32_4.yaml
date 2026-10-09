@@ -176,7 +176,8 @@ mass:
         chorus: |-
           Heureux qui s’appuie
           sur le Seigneur notre Dieu.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Le Seigneur garde à jamais sa fidélité,
         il fait justice aux opprimés ;

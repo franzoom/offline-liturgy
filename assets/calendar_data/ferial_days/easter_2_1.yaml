@@ -246,7 +246,8 @@ mass:
       chorus:
       - chorusRef: 2, 12
         chorus: Heureux qui trouve en Dieu son refuge !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Pourquoi ce tumulte des nations,
         ce vain murmure des peuples ?

@@ -257,7 +257,8 @@ mass:
         chorus: |-
           En tes mains, Seigneur,
           je remets mon esprit.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Sois le rocher qui m’abrite,
         la maison fortifiée qui me sauve.

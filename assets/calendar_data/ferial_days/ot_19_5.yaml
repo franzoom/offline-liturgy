@@ -219,8 +219,10 @@ mass:
       cycle:
       - '1'
       chorus:
-      - chorus: Éternel est son amour !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Éternel est son amour !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : il est bon, R/
         Rendez grâce au Dieu des dieux, R/

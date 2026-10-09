@@ -258,7 +258,8 @@ mass:
       chorus:
       - chorusRef: 102, 19a
         chorus: Le Seigneur a son trône dans les cieux.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Bénis le Seigneur, ô mon âme,
         bénis son nom très saint, tout mon être !

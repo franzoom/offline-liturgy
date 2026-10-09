@@ -145,7 +145,8 @@ mass:
       chorus:
       - chorusRef: 110, 2a
         chorus: Grandes sont les œuvres du Seigneur !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         De tout cœur je rendrai grâce au Seigneur
         dans l’assemblée, parmi les justes.

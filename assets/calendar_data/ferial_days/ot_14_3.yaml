@@ -185,7 +185,8 @@ mass:
         chorus: |-
           Recherchez sans trêve
           la face du Seigneur.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Chantez et jouez pour lui,
         redites sans fin ses merveilles ;

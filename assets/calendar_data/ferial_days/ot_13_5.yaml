@@ -164,7 +164,8 @@ mass:
       - chorusRef: 105, 1a
         chorus: |-
           Rendez grâce au Seigneur : Il est bon !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Rendez grâce au Seigneur : Il est bon !
         Éternel est son amour !

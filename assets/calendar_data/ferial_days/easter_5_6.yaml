@@ -215,7 +215,8 @@ mass:
       chorus:
       - chorusRef: 99, 1
         chorus: Acclamez le Seigneur, terre entière !
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Acclamez le Seigneur, terre entière,
         servez le Seigneur dans l’allégresse,

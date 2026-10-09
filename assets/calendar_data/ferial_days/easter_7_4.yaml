@@ -253,7 +253,8 @@ mass:
         chorus: |-
           Garde-moi, mon Dieu :
           j’ai fait de toi mon refuge.
-      - chorus: Alléluia !
+      - chorusRef: null
+        chorus: Alléluia !
       content: |-
         Garde-moi, mon Dieu : j’ai fait de toi mon refuge.
         J’ai dit au Seigneur : « Tu es mon Dieu !

@@ -23,6 +23,16 @@ Rules:
   8. Straight apostrophe (U+0027) -> typographic apostrophe (U+2019).
      Skipped inside a single-quoted YAML scalar ('...'), since ' is that
      scalar's own delimiter there.
+  9. Two or more regular spaces between words -> a single space
+     (line indentation is never touched).
+ 10. Before ~ (cut in a patristic text, equivalent of [...]) -> no-break
+     space (U+00A0). A bare ~ value (YAML null) is left alone.
+
+Before the rules above, quoted values ("..." or '...') longer than 3
+characters are rewritten as |- block scalars on the next lines, escapes
+such as \n becoming real line breaks; the loaded value is unchanged.
+Short ones ('1', 'A'...) and biblicalRef / biblicalReference values stay
+on their line.
 
 Any existing run of regular spaces/tabs/no-break spaces adjacent to these
 positions is collapsed into the single correct character; if none is
@@ -40,13 +50,18 @@ import argparse
 import re
 from pathlib import Path
 
+import yaml
+
 APOSTROPHE = "'"  # straight apostrophe (U+0027)
 TYPO_APOSTROPHE = "’"  # typographic apostrophe (U+2019)
 NNBSP = " "  # narrow no-break space ("demi-insecable")
 NBSP = " "  # no-break space ("insecable pleine")
 SPACE_RUN = r"[ \t  ]*"
 
-RULE7_SUFFIXES_1 = {("collect",), ("offeringPrayer",), ("prayerAfterCommunion",)}
+QUOTED_MIN_LENGTH = 4  # quoted values shorter than this stay on their line
+QUOTED_SKIP_KEYS = {"biblicalRef", "biblicalReference"}
+
+RULE7_SUFFIXES_1 ={("collect",), ("offeringPrayer",), ("prayerAfterCommunion",)}
 RULE7_SUFFIXES_2 = {("entranceAntiphon", "content"), ("communionAntiphon", "content")}
 
 
@@ -60,6 +75,8 @@ RE_BEFORE_CLOSE_GUILLEMET = re.compile(SPACE_RUN + r"(»)")
 RE_AFTER_OPEN_GUILLEMET = re.compile(r"(«)" + SPACE_RUN)
 RE_LEADING_MARKER = re.compile(r"^(\s*)(\*|R/|V/)" + SPACE_RUN)
 RE_TRAILING_MARK = re.compile(r"^(.*?)" + SPACE_RUN + r"([*+/])[ \t]*$")
+RE_DOUBLE_SPACE = re.compile(r"(?<=\S) {2,}(?=\S)")
+RE_BEFORE_TILDE = re.compile(r"(?<=\S)" + SPACE_RUN + r"~")
 
 KEY_LINE_RE = re.compile(r"^(\s*(?:-\s+)?)([a-zA-Z][a-zA-Z0-9]*):(.*)$")
 LIST_SCALAR_RE = re.compile(r"^(\s*-\s+)(.*)$")
@@ -78,10 +95,12 @@ def fix_apostrophes(text: str) -> str:
 def fix_inline_text(text: str, apostrophes: bool) -> str:
     if apostrophes:
         text = fix_apostrophes(text)
+    text = RE_DOUBLE_SPACE.sub(" ", text)
     text = RE_BEFORE_DEMI.sub(NNBSP + r"\1", text)
     text = RE_BEFORE_COLON.sub(NBSP + r"\1", text)
     text = RE_BEFORE_CLOSE_GUILLEMET.sub(NBSP + r"\1", text)
     text = RE_AFTER_OPEN_GUILLEMET.sub(r"\1" + NBSP, text)
+    text = RE_BEFORE_TILDE.sub(NBSP + "~", text)
     return text
 
 
@@ -188,6 +207,75 @@ class FileFixer:
         return self.process_normal_line(line)
 
 
+def block_literal(value: str, indent: int) -> str | None:
+    """Render value as a block scalar (header + lines), or None when a block
+    scalar cannot hold it unchanged."""
+    if value[0] in " \n" or re.search(r"[\x00-\x08\x0b-\x1f\x7f﻿]", value):
+        return None
+    body = value.rstrip("\n")
+    trailing = len(value) - len(body)
+    header = "|-" if trailing == 0 else "|" if trailing == 1 else "|+"
+    pad = " " * indent
+    lines = [pad + line if line else "" for line in body.split("\n")]
+    return header + "\n" + "\n".join(lines) + "\n" * max(0, trailing - 1)
+
+
+def collect_quoted_values(node, key: str | None, out: list) -> None:
+    """Collect (key_end_index or None, scalar node, content indent) for the
+    quoted values to convert: block-context mapping values and sequence items."""
+    if isinstance(node, yaml.MappingNode):
+        for key_node, value in node.value:
+            if not node.flow_style and isinstance(value, yaml.ScalarNode):
+                if key_node.value not in QUOTED_SKIP_KEYS:
+                    out.append((key_node.end_mark.index, value, key_node.start_mark.column + 2))
+            else:
+                collect_quoted_values(value, key_node.value, out)
+    elif isinstance(node, yaml.SequenceNode):
+        for item in node.value:
+            if not node.flow_style and isinstance(item, yaml.ScalarNode):
+                if key not in QUOTED_SKIP_KEYS:
+                    out.append((None, item, node.start_mark.column + 2))
+            else:
+                collect_quoted_values(item, key, out)
+
+
+def convert_quoted_scalars(text: str) -> tuple[str, list[tuple[int, str, str]]]:
+    """Rewrite long quoted values as |- block scalars. Unparseable files are
+    returned unchanged."""
+    try:
+        root = yaml.compose(text, Loader=yaml.CSafeLoader)
+    except yaml.YAMLError:
+        return text, []
+    found: list = []
+    if root is not None:
+        collect_quoted_values(root, None, found)
+
+    edits = []
+    for key_end, node, indent in found:
+        if node.style not in ('"', "'") or len(node.value) < QUOTED_MIN_LENGTH:
+            continue
+        end = node.end_mark.index
+        line_end = text.find("\n", end)
+        if text[end : len(text) if line_end == -1 else line_end].strip():
+            continue  # trailing comment or other content after the closing quote
+        block = block_literal(node.value, indent)
+        if block is None:
+            continue
+        if key_end is None:  # sequence item: replace the scalar itself
+            start = node.start_mark.index
+            replacement = block
+        else:  # mapping value: replace from the colon, even if the value starts on the next line
+            start = text.index(":", key_end) + 1
+            replacement = " " + block
+        edits.append((start, end, replacement, node.start_mark.line + 1))
+
+    changes = []
+    for start, end, replacement, lineno in sorted(edits, reverse=True):
+        changes.append((lineno, text[start:end], replacement))
+        text = text[:start] + replacement + text[end:]
+    return text, sorted(changes)
+
+
 def compute_fixed_lines(original: str) -> tuple[list[str], list[tuple[int, str, str]]]:
     lines = original.splitlines(keepends=True)
     fixer = FileFixer()
@@ -205,12 +293,15 @@ def compute_fixed_lines(original: str) -> tuple[list[str], list[tuple[int, str, 
     return new_lines, changes
 
 
-def process_file(path: Path, write: bool) -> list[tuple[int, str, str]]:
+def process_file(path: Path, write: bool) -> tuple[list[tuple[int, str, str]], list[tuple[int, str, str]]]:
+    """Return (quoted-value conversions, numbered on the original file;
+    line fixes, numbered on the converted file)."""
     original = path.read_text(encoding="utf-8")
-    new_lines, changes = compute_fixed_lines(original)
-    if write and changes:
+    converted, conversions = convert_quoted_scalars(original)
+    new_lines, changes = compute_fixed_lines(converted)
+    if write and (conversions or changes):
         path.write_text("".join(new_lines), encoding="utf-8")
-    return changes
+    return conversions, changes
 
 
 def iter_yaml_files(root: Path):
@@ -228,15 +319,22 @@ def main() -> None:
 
     root = Path(args.root)
     total_files = 0
+    total_conversions = 0
     total_changes = 0
 
     for path in iter_yaml_files(root):
-        changes = process_file(path, args.write)
+        conversions, changes = process_file(path, args.write)
 
-        if changes:
+        if conversions or changes:
             total_files += 1
+            total_conversions += len(conversions)
             total_changes += len(changes)
             print(f"\n{path}")
+            for lineno, old, new in conversions:
+                print(f"  {lineno:5d} - {old!r}")
+                print(f"     |- + {new!r}")
+            if conversions and changes:
+                print("  (line numbers below refer to the file after |- conversion)")
             for lineno, old, new in changes:
                 print(f"  {lineno:5d} - {old!r}")
                 print(f"        + {new!r}")
@@ -244,8 +342,11 @@ def main() -> None:
     print()
     print("=" * 70)
     action = "Fixed" if args.write else "Found"
-    print(f"{action} {total_changes} change(s) in {total_files} file(s).")
-    if not args.write and total_changes:
+    print(
+        f"{action} {total_conversions} quoted value(s) to convert and "
+        f"{total_changes} line change(s) in {total_files} file(s)."
+    )
+    if not args.write and (total_conversions or total_changes):
         print("Run with --write to apply.")
 
 

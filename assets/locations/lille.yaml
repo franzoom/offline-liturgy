@@ -5,6 +5,10 @@ frenchName: diocèse de Lille
 frenchLocative: dans le diocèse de Lille
 
 feasts:
+  thomas_becket_bishop:
+    month: 1
+    day: 4
+    precedence: 10
   remigius_of_reims_bishop:
     month: 1
     day: 15
@@ -25,7 +29,7 @@ feasts:
     month: 2
     day: 7
     precedence: 12
-  amandus_of_maastricht_bishop:
+  amand_bishop:
     month: 2
     day: 7
     precedence: 12
@@ -41,9 +45,10 @@ feasts:
     month: 5
     day: 5
     precedence: 12
+  # 3rd Saturday after Pentecost
   our_lady_of_the_trellis:
-    month: 6
-    day: 13
+    relativeTo: EASTER
+    shift: 69
     precedence: 8
   vulmar_hermit:
     month: 7
@@ -81,6 +86,10 @@ feasts:
     month: 11
     day: 6
     precedence: 12
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
   eligius_of_noyon_bishop:
     month: 12
     day: 1

@@ -13,10 +13,6 @@ feasts:
     month: 1
     day: 17
     precedence: 10
-  anthony_abbot:
-    month: 1
-    day: 18
-    precedence: 10
   anniversary_of_the_dedication_of_the_cathedral:
     month: 4
     day: 27
@@ -45,6 +41,7 @@ feasts:
     month: 6
     day: 25
     precedence: 12
+  # principal patroness of the diocese
   mary_magdalene:
     month: 7
     day: 22
@@ -53,7 +50,7 @@ feasts:
     month: 8
     day: 19
     precedence: 10
-  caesarius_of_arles_bishop:
+  cesaire_of_arles_bishop:
     month: 8
     day: 26
     precedence: 10
@@ -76,4 +73,11 @@ feasts:
   leontius_of_frejus_bishop:
     month: 12
     day: 1
+    precedence: 10
+
+move:
+  # Moved from 17/01 to 18/01 to leave room for Saint Roseline
+  anthony_of_egypt_abbot:
+    month: 1
+    day: 18
     precedence: 10

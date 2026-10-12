@@ -115,6 +115,25 @@ Future<MiddleOfDay> middleOfDayExport(
     middleOfDayOffice.psalmodyNone ??= _withAntiphon(basePsalms, null);
   }
 
+  // 4d. PER-HOUR PROPER PSALMODY: an hour's own psalmody (e.g. Epiphany's
+  // tierce/sexte/none) wins over the shared, Sunday or gradual psalmody
+  // resolved above. Hours without one keep that resolution.
+  final tierce = middleOfDayOffice.tierce;
+  if (tierce?.psalmody != null) {
+    middleOfDayOffice.psalmodyTierce =
+        _withAntiphon(tierce!.psalmody!, tierce.antiphon);
+  }
+  final sexte = middleOfDayOffice.sexte;
+  if (sexte?.psalmody != null) {
+    middleOfDayOffice.psalmodySexte =
+        _withAntiphon(sexte!.psalmody!, sexte.antiphon);
+  }
+  final none = middleOfDayOffice.none;
+  if (none?.psalmody != null) {
+    middleOfDayOffice.psalmodyNone =
+        _withAntiphon(none!.psalmody!, none.antiphon);
+  }
+
   // 5. PROPAGATE ANTIPHON: repeat first antiphon to all psalms if others lack one
   if (middleOfDayOffice.psalmody != null &&
       middleOfDayOffice.psalmody!.length > 1) {

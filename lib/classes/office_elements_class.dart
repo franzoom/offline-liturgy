@@ -151,7 +151,8 @@ class PsalmEntry {
 /// keeps the base's psalm and takes the overlay's antiphon if present, else
 /// the base's. Falls back to whichever side is non-empty when the other
 /// is null/empty.
-List<PsalmEntry>? mergePsalmody(List<PsalmEntry>? base, List<PsalmEntry>? overlay) {
+List<PsalmEntry>? mergePsalmody(
+    List<PsalmEntry>? base, List<PsalmEntry>? overlay) {
   if (overlay == null || overlay.isEmpty) return base;
   if (base == null || base.isEmpty) return overlay;
   final merged = <PsalmEntry>[];
@@ -259,15 +260,28 @@ class PatristicReading {
 /// Midday office structure (Tierce, Sexte, None)
 class HourOffice {
   String? antiphon;
+  // This hour's own psalmody, as written in the data; when present it wins
+  // over the shared/gradual/Sunday psalmody (see middleOfDayExport).
+  List<PsalmEntry>? psalmody;
   Reading? reading;
   String? responsory;
   String? oration;
 
-  HourOffice({this.antiphon, this.reading, this.responsory, this.oration});
+  HourOffice({
+    this.antiphon,
+    this.psalmody,
+    this.reading,
+    this.responsory,
+    this.oration,
+  });
 
   factory HourOffice.fromJson(Map<String, dynamic> json) {
     return HourOffice(
       antiphon: json['antiphon']?.toString(),
+      psalmody: asYamlList(json['psalmody'])
+          ?.whereType<Map<String, dynamic>>()
+          .map((e) => PsalmEntry.fromJson(e))
+          .toList(),
       reading: json['reading'] is Map<String, dynamic>
           ? Reading.fromJson(json['reading'] as Map<String, dynamic>)
           : null,
@@ -282,6 +296,7 @@ class HourOffice {
   /// more general level.
   void overlayWith(HourOffice overlay) {
     if (overlay.antiphon != null) antiphon = overlay.antiphon;
+    if (overlay.psalmody != null) psalmody = overlay.psalmody;
     if (overlay.reading != null) reading = overlay.reading;
     if (overlay.responsory != null) responsory = overlay.responsory;
     if (overlay.oration != null) oration = overlay.oration;
@@ -310,7 +325,8 @@ class CelebrationContext {
   final String?
       celebrationDescription; // description of the celebration from YAML
   final Map<String, String> commonTitles; // code -> display title for commons
-  final String? massName; // massType identifying which Mass of the day this is (e.g. "vigil", "day"), mass only
+  final String?
+      massName; // massType identifying which Mass of the day this is (e.g. "vigil", "day"), mass only
   final bool
       showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
   // Location that added this feast; null = Roman calendar
@@ -382,8 +398,7 @@ class CelebrationContext {
   /// origin when the feast comes from a location-specific calendar.
   /// e.g. "(Europe : solennité)" or "(Solennité)" or "".
   String get celebrationDisplayLabel {
-    if (celebrationCode ==
-        'roman/commemoration_of_all_the_faithful_departed') {
+    if (celebrationCode == 'roman/commemoration_of_all_the_faithful_departed') {
       return '';
     }
     final baseLabel = getCelebrationTypeLabel(precedence ?? 13);

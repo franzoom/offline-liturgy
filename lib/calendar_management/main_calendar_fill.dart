@@ -574,8 +574,8 @@ void _fillFixedSolemnities(
   // usual place) or was transferred into Eastertide (Holy Week/Octave).
   final annunciationDate = feasts['ANNUNCIATION']!;
   final annunciationKey = annunciationDate.isBefore(feasts['EASTER']!)
-      ? 'roman/annunciation-lent'
-      : 'roman/annunciation-easter';
+      ? 'roman/annunciation_lent'
+      : 'roman/annunciation_easter';
   calendar.addItemToDay(annunciationDate, 3, annunciationKey);
 
   calendar.addItemToDay(feasts['saint_pieter_and_saint_paul']!, 3,

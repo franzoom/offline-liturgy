@@ -164,7 +164,7 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
       allCelebrations.every((c) => c.precedence > 11)) {
     allCelebrations.add((
       precedence: 12,
-      code: 'roman/virgin-mary-memory',
+      code: 'roman/virgin_mary_memory',
       isFromRoot: false,
     ));
   }

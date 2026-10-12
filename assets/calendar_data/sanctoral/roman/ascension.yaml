@@ -29,7 +29,8 @@ firstVespers:
     V/ Le Seigneur, aux éclats du cor. * Alléluia.
     Gloire au Père. R/ Dieu s’élève.
   evangelicAntiphon:
-    common: Père, j’ai manifesté ton Nom aux hommes que tu m’as donnés ; c’est pour eux que je te prie, non pour le monde. Alléluia.
+    common:
+    - Père, j’ai manifesté ton Nom aux hommes que tu m’as donnés ; c’est pour eux que je te prie, non pour le monde. Alléluia.
   intercession:
     content: |-
       Acclamons le Christ, qui siège à la droite du Père :

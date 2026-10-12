@@ -36,7 +36,8 @@ firstVespers:
     il attire tous les hommes. * Que les arbres.
     Gloire au Père. R/ Proclamez-le.
   evangelicAntiphon:
-    common: Le Messe devait souffrir et ressusciter pour entrer dans sa gloire.
+    common:
+    - Le Messe devait souffrir et ressusciter pour entrer dans sa gloire.
   intercession:
     content: |-
       Par la croix de l’Homme-Dieu,
@@ -88,7 +89,8 @@ morning:
     V/ Par ta croix, tu as racheté le monde. R/
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Nous vénérons ta croix, Seigneur, nous chantons ta résurrection : l’arbre de la croix donne la joie au monde.
   intercession:
     content: |-
@@ -223,7 +225,8 @@ vespers:
     il attire tous les hommes. * Que les arbres.
     Gloire au Père. R/ Proclamez-le.
   evangelicAntiphon:
-    common: Croix glorieuse, signe de victoire, conduis-nous dans la cité de Dieu !
+    common:
+    - Croix glorieuse, signe de victoire, conduis-nous dans la cité de Dieu !
   intercession:
     content: |-
       Par la croix de l’Homme-Dieu,

@@ -29,7 +29,8 @@ firstVespers:
     comme notre espoir est en toi. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Je suis venu apporter sur la terre un feu : comme je voudrais qu’il fût déjà allumé !
   intercession:
     content: |-
@@ -254,7 +255,7 @@ vespers:
       — réveille ceux qui dorment dans la mort.
 
 mass:
-  massType: DAY_MASS
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: Ps 32,11.18.19
     content: |-

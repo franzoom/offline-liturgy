@@ -81,7 +81,8 @@ morning:
     * plus pénétrante qu’un glaive.
     Gloire au Père. R/ Vivante.
   evangelicAntiphon:
-    common: L’Évangile de Dieu est venu jusqu’à nous. L’astre d’en haut nous a visités.
+    common:
+    - L’Évangile de Dieu est venu jusqu’à nous. L’astre d’en haut nous a visités.
 
 middleOfDay:
   tierce:
@@ -133,7 +134,8 @@ vespers:
     * la gloire du Seigneur.
     Gloire au Père. R/ Racontez.
   evangelicAntiphon:
-    common: Heureux saint Luc ! Ton Évangile nous révèle la miséricorde du Christ ; l’Église entière te glorifie.
+    common:
+    - Heureux saint Luc ! Ton Évangile nous révèle la miséricorde du Christ ; l’Église entière te glorifie.
 
 mass:
 - massType: DAY_MASS

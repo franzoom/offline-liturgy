@@ -23,7 +23,9 @@ firstVespers:
     au prix de ton sang.
     V/ Hommes de toute race, langue, peuple et nation. R/
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon: Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.
+  evangelicAntiphon:
+    common:
+    - Peuple que Dieu s’est choisi, il t’appelle à son admirable lumière pour que tu proclames ses merveilles, alléluia.
   intercession:
     content: |-
       Nous souvenant que le Christ eut pitié des foules, nous le prions :
@@ -225,7 +227,9 @@ vespers:
     V/ Du levant au couchant du soleil. *
     V/ Maintenant et pour les siècles des siècles. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon: Ressuscité des morts, le Christ ne meurt plus, alléluia ! Sur lui la mort n’a plus aucun pouvoir, alléluia !
+  evangelicAntiphon:
+    common:
+    - Ressuscité des morts, le Christ ne meurt plus, alléluia ! Sur lui la mort n’a plus aucun pouvoir, alléluia !
   intercession:
     content: |-
       Invoquons notre Seigneur, le Christ toujours vivant qui intercède pour nous auprès de son Père :

@@ -73,7 +73,8 @@ morning:
     V/ Dieu pour toi exulte de joie,
     il te renouvelle par son amour. R/
   evangelicAntiphon:
-    common: Ta naissance, ô Marie, annonce la joie au monde. De toi s’est levé le Soleil de justice. Le Christ a changé le péché en grâce, et la mort en vie éternelle.
+    common:
+    - Ta naissance, ô Marie, annonce la joie au monde. De toi s’est levé le Soleil de justice. Le Christ a changé le péché en grâce, et la mort en vie éternelle.
 
 middleOfDay:
   tierce:
@@ -125,7 +126,8 @@ vespers:
     * Le Seigneur.
     Gloire au Père. R/ Réjouis-toi.
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Célébrons la Vierge Marie au jour de sa naissance : en elle nous fêtons la mère du Sauveur.
 
 mass:

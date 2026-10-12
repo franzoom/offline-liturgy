@@ -25,7 +25,9 @@ firstVespers:
     V/ La Parole qui porte fruit. *
     V/ L’espérance du règne à venir. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon: Le Seigneur s’est relevé d’entre les morts ; c’est pour nous jour de fête et de joie, alléluia !
+  evangelicAntiphon:
+    common:
+    - Le Seigneur s’est relevé d’entre les morts ; c’est pour nous jour de fête et de joie, alléluia !
   intercession:
     content: |-
       À la veille du jour du Seigneur, supplions-le de regarder avec bonté ce que fut notre vie pendant la semaine :
@@ -149,7 +151,9 @@ morning:
     * Renouvelle mon esprit.
     V/ Rends-moi la joie d’être sauvé. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon: Libre, tu t’éveilles, premier-né d’entre les morts ! De ton cœur naît l’Église à l’image de Dieu, car toi seul tu baptises dans l’Esprit et le feu, alléluia.
+  evangelicAntiphon:
+    common:
+    - Libre, tu t’éveilles, premier-né d’entre les morts ! De ton cœur naît l’Église à l’image de Dieu, car toi seul tu baptises dans l’Esprit et le feu, alléluia.
   intercession:
     content: |-
       Jésus, Fils du Dieu vivant,
@@ -230,7 +234,9 @@ vespers:
     V/ Magnifiez avec moi le Seigneur. *
     V/ Exaltons tous ensemble son nom. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
-  evangelicAntiphon: Aujourd’hui, nous sommes le peuple de Dieu, il nous a montré son amour, dans le Christ il nous a fait renaître, alléluia.
+  evangelicAntiphon:
+    common:
+    - Aujourd’hui, nous sommes le peuple de Dieu, il nous a montré son amour, dans le Christ il nous a fait renaître, alléluia.
   intercession:
     content: |-
       Avec les témoins du Christ ressuscité sur qui nous appuyons notre foi, rendons grâce à Dieu le Père :

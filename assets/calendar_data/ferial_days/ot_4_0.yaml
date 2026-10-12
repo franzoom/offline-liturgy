@@ -23,7 +23,9 @@ firstVespers:
     >laissez-vous conduire par l’Esprit. R/ 
     V/ Tenez-vous sous la main puissante de Dieu,
     >il vous rendra inébranlables. R/ 
-  evangelicAntiphon: Lumière du monde, ô Jésus Christ, par toi la nuit resplendit comme le jour, la nuit même est lumière pour notre joie, alléluia !
+  evangelicAntiphon:
+    common:
+    - Lumière du monde, ô Jésus Christ, par toi la nuit resplendit comme le jour, la nuit même est lumière pour notre joie, alléluia !
   intercession:
     content: |-
       Prions le Christ, source de joie pour qui espère en lui :
@@ -209,7 +211,9 @@ vespers:
     * Alléluia, alléluia.
     V/ Il est notre Dieu, notre Père. *
     Rendez-lui grâce à pleine voix. R/
-  evangelicAntiphon: Le Seigneur est ressuscité, alléluia ! Il nous a rachetés par son sang ; il nous remplit de sa lumière, alléluia.
+  evangelicAntiphon:
+    common:
+    - Le Seigneur est ressuscité, alléluia ! Il nous a rachetés par son sang ; il nous remplit de sa lumière, alléluia.
   intercession:
     content: |-
       Dans la joie du Seigneur, source de tout bien, prions d’un cœur confiant :

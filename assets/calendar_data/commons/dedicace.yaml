@@ -29,7 +29,8 @@ firstVespers:
     V/ Vous êtes au Christ,
     et le Christ est à Dieu. R/
   evangelicAntiphon:
-    common: Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie !
+    common:
+    - Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie !
   intercession:
     content: |-
       Tu as donné ta vie, Seigneur Jésus, pour rassembler en un seul peuple tous les enfants de Dieu dispersés ;
@@ -254,6 +255,7 @@ vespers:
       — reçois tous les défunts dans la maison du Père.
 
 mass:
+- massType: DAY_MASS
   readingParts:
     - partType: READING_1
       partContents:

@@ -25,7 +25,8 @@ firstVespers:
     V/ Qui croira et sera baptisé sera sauvé ! *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Ce n’est pas vous qui m’avez choisi, c’est moi qui vous ai choisis, pour que vous alliez et portiez un fruit qui demeure.
+    common:
+    - Ce n’est pas vous qui m’avez choisi, c’est moi qui vous ai choisis, pour que vous alliez et portiez un fruit qui demeure.
   intercession:
     content: |-
       Prenons appui sur la foi qui nous vient des Apôtres et prions Dieu pour son peuple saint :
@@ -237,6 +238,7 @@ vespers:
       — accueille nos morts dans la joie du Royaume.
 
 mass:
+- massType: DAY_MASS
   prefaceList:
     - apostles_1
     - apostles_2

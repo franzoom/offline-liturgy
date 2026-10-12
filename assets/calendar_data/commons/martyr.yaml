@@ -33,7 +33,8 @@ firstVespers:
     V/ Faites entre vous
     comme j’ai fait pour vous. R/
   evangelicAntiphon:
-    common: Jusqu’à la mort il a combattu pour la loi de son Dieu ; il avait construit sa maison sur le roc.
+    common:
+    - Jusqu’à la mort il a combattu pour la loi de son Dieu ; il avait construit sa maison sur le roc.
   intercession:
     content: |-
       Nous souvenant, en cette fin de journée, du repas où le Roi des martyrs offrit sa vie pour nous, et de la croix où il remit son esprit à son Père, disons-lui notre amour :
@@ -232,6 +233,7 @@ vespers:
       Toi qui associes nos frères défunts au mystère de ta passion, loué sois-tu !
 
 mass:
+- massType: DAY_MASS
   entranceAntiphon:
   - biblicalReference: null
     content: |-

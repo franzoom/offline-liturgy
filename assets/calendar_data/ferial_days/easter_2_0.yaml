@@ -94,7 +94,8 @@ morning:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: Touche mes plaies, dit Jésus, et deviens un homme de foi. Alléluia !
+    common:
+    - Touche mes plaies, dit Jésus, et deviens un homme de foi. Alléluia !
   intercession:
     content: |-
       Rendons grâce à Dieu le Père qui a sauvé son Fils de la mort :
@@ -161,7 +162,8 @@ vespers:
     V/ Voici le jour où le Christ, notre Dieu,
     nous conduit de la mort à la vie. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Thomas a vu le Seigneur : il a cru. Heureux celui qui croit sans avoir vu ! Alléluia !
   intercession:
     content: |-

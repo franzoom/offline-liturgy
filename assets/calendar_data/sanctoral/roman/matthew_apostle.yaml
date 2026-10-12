@@ -52,12 +52,14 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Jésus lui dit : Suis-moi ! Matthieu se leva et le suivit.
 
 vespers:
   evangelicAntiphon:
-    common: Je veux la miséricorde et non les sacrifices. Je suis venu appeler les pécheurs.
+    common:
+    - Je veux la miséricorde et non les sacrifices. Je suis venu appeler les pécheurs.
 
 mass:
 - massType: DAY_MASS

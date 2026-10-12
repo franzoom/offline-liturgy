@@ -102,7 +102,8 @@ morning:
     Gloire au Père.
     R/ Je te chante.
   evangelicAntiphon:
-    common: Vous verrez les cieux ouverts, et les anges de Dieu monter et descendre au-dessus du Fils de l’homme.
+    common:
+    - Vous verrez les cieux ouverts, et les anges de Dieu monter et descendre au-dessus du Fils de l’homme.
   intercession:
     content: |-
       Que les anges du ciel nous aident à bénir notre Dieu et Père :
@@ -172,7 +173,8 @@ vespers:
     V/ Reconnaissez que le Seigneur est Dieu :
     il nous a faits et nous sommes à lui. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       L’ange Gabriel fut envoyé à Marie pour lui annoncer : Tu enfanteras un fils et tu lui donneras le nom de Jésus.
   intercession:
     content: |-

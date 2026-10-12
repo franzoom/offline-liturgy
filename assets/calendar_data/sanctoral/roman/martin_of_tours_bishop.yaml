@@ -60,7 +60,8 @@ morning:
     ils ne doivent se taire. R/
     V/ Tenez en éveil la mémoire du Seigneur. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Jour d’allégresse pour toi qui entres au Paradis ! Joie pour les anges et les archanges ! Joie pour les saints du ciel qui t’invitent : Demeure avec nous pour l’éternité !
 
 vespers:
@@ -86,7 +87,8 @@ vespers:
     V/ Conduisez l’Église de Dieu
     acquise par le sang de son Fils. R/
   evangelicAntiphon:
-    common: Heureux Martin ! Tu as aimé le Roi du ciel sans craindre les puissants de ce monde ! Tu as reçu les palmes du vainqueur.
+    common:
+    - Heureux Martin ! Tu as aimé le Roi du ciel sans craindre les puissants de ce monde ! Tu as reçu les palmes du vainqueur.
 
 mass:
 - massType: DAY_MASS

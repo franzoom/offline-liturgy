@@ -29,11 +29,13 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Heureuse es-tu, Marie, toi qui as cru ! En toi s’est accomplie la Parole de Dieu.
+    common:
+    - Heureuse es-tu, Marie, toi qui as cru ! En toi s’est accomplie la Parole de Dieu.
 
 vespers:
   evangelicAntiphon:
-    common: Vierge Marie, Mère de Dieu, Temple du Très-Haut, Demeure de l’Esprit, heureuse es-tu d’être aimée de Jésus, le Christ, notre Seigneur !
+    common:
+    - Vierge Marie, Mère de Dieu, Temple du Très-Haut, Demeure de l’Esprit, heureuse es-tu d’être aimée de Jésus, le Christ, notre Seigneur !
 
 mass:
 - massType: DAY_MASS

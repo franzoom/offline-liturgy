@@ -53,7 +53,8 @@ morning:
     V/ Tu es bénie entre toutes les femmes. * Le Seigneur.
     Gloire au Père. R/ Réjouis-toi.
   evangelicAntiphon:
-    common: Ô Mère bienheureuse, Vierge très pure et Reine du monde intercède pour nous qui sommes tes enfants.
+    common:
+    - Ô Mère bienheureuse, Vierge très pure et Reine du monde intercède pour nous qui sommes tes enfants.
 
 vespers:
   hymn:
@@ -77,7 +78,8 @@ vespers:
     V/ Tu es bénie entre toutes les femmes. * Le Seigneur.
     Gloire au Père. R/ Réjouis-toi.
   evangelicAntiphon:
-    common: Marie retenait toutes ces paroles et les méditait dans son cœur.
+    common:
+    - Marie retenait toutes ces paroles et les méditait dans son cœur.
 
 mass:
 - massType: DAY_MASS

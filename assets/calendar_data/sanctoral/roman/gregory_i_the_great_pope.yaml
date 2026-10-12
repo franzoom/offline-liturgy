@@ -36,11 +36,13 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Béni soit Dieu qui a fait de saint Grégoire un exemple pour tous les pasteurs.
+    common:
+    - Béni soit Dieu qui a fait de saint Grégoire un exemple pour tous les pasteurs.
 
 vespers:
   evangelicAntiphon:
-    common: Toute la vie de saint Grégoire le Grand illustre ce qu’il disait des mystères de Dieu.
+    common:
+    - Toute la vie de saint Grégoire le Grand illustre ce qu’il disait des mystères de Dieu.
 
 mass:
 - massType: DAY_MASS

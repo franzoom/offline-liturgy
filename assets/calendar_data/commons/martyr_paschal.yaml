@@ -19,7 +19,8 @@ firstVespers:
     Gloire au Père. R\ Ils allaient.
 
   evangelicAntiphon:
-    common: La lumière du Seigneur brillera pour eux, une lumière éternelle.
+    common:
+    - La lumière du Seigneur brillera pour eux, une lumière éternelle.
 
 readings:
   biblicalReading:
@@ -67,7 +68,8 @@ morning:
     plus de cri ni de peine. * Alléluia.
     V/ Allégresse et joie dans leur cœur. R/ Un bonheur.
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Réjouissez-vous, saints de Dieu, soyez dans l’allégresse : votre récompense est grande dans les cieux, alléluia.
 
 middleOfDay:
@@ -111,7 +113,8 @@ vespers:
     Gloire au Père. R/ Les justes.
 
   evangelicAntiphon:
-    common: Si le grain ne tombe en terre, il reste seul ; mais s’il meurt, il porte beaucoup de fruit.
+    common:
+    - Si le grain ne tombe en terre, il reste seul ; mais s’il meurt, il porte beaucoup de fruit.
 
 mass:
   - massType: DAY_MASS

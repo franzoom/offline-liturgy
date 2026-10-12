@@ -34,7 +34,8 @@ firstVespers:
     * Exultez, hommes justes !
     Gloire au Père. R/ Que le Seigneur.
   evangelicAntiphon:
-    common: Bienheureuse Trinité, un seul Dieu ! Les prophètes, les Apôtres, les martyrs te célèbrent, tous les saints dans le ciel adorent ta gloire.
+    common:
+    - Bienheureuse Trinité, un seul Dieu ! Les prophètes, les Apôtres, les martyrs te célèbrent, tous les saints dans le ciel adorent ta gloire.
   intercession:
     content: |-
       Avec toute l’Église, rendons grâce à notre Dieu
@@ -81,7 +82,8 @@ morning:
     V/ Heureux qui suit jusqu’au bout
     le chemin que tu lui traces. R/
   evangelicAntiphon:
-    common: Les justes resplendiront comme le soleil dans le Royaume de leur Père, alléluia.
+    common:
+    - Les justes resplendiront comme le soleil dans le Royaume de leur Père, alléluia.
   intercession:
     content: |-
       Dans la joie, bénissons le Dieu de tous les saints :
@@ -227,7 +229,8 @@ vespers:
     V/ Tu as partagé leur épreuve ;
     vivants, ressuscités, ils chantent :R/
   evangelicAntiphon:
-    common: Heureux les saints dans le Royaume du Christ ; vêtus de robes blanches, ils suivent l’Agneau et partagent sa joie.
+    common:
+    - Heureux les saints dans le Royaume du Christ ; vêtus de robes blanches, ils suivent l’Agneau et partagent sa joie.
   intercession:
     content: |-
       Avec toute l’Église, rendons grâce à notre Dieu

@@ -33,7 +33,8 @@ firstVespers:
     V  Celui qui nous aime
     a fait de nous son Royaume. R/
   evangelicAntiphon:
-    common: Le Seigneur lui donnera le trône de David son père, il régnera pour toujours sur la maison de Jacob, et son règne n’aura pas de fin, alléluia.
+    common:
+    - Le Seigneur lui donnera le trône de David son père, il régnera pour toujours sur la maison de Jacob, et son règne n’aura pas de fin, alléluia.
   intercession:
     content: |-
       Prions le Christ, qui gouverne les puissances de l’univers.
@@ -83,7 +84,8 @@ morning:
     le premier-né d’entre les morts. *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Premier-né d’entre les morts, souverain des rois de la terre, le Christ a fait de nous le Royaume de Dieu son Père, alléluia !
+    common:
+    - Premier-né d’entre les morts, souverain des rois de la terre, le Christ a fait de nous le Royaume de Dieu son Père, alléluia !
   intercession:
     content: |-
       À toi, Jésus, qui seul es Roi,
@@ -235,7 +237,8 @@ vespers:
     V/ Il aura souci du faible et du pauvre,
     du pauvre dont il sauve la vie. R/
   evangelicAntiphon:
-    common: Tout pouvoir lui a été donné, au ciel et sur la terre, alléluia.
+    common:
+    - Tout pouvoir lui a été donné, au ciel et sur la terre, alléluia.
   intercession:
     content: |-
       Prions le Christ, qui gouverne les puissances de l’univers.

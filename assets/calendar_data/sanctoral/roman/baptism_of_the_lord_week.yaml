@@ -211,7 +211,8 @@ mass:
   readingParts:
   - partType: READING_1
     partContents:
-    - cycle: A
+    - cycle:
+      - A
       biblicalRef: Is 42, 1-4.6-7
       headline: « Voici mon serviteur, qui a toute ma faveur »
       content: |-
@@ -236,7 +237,8 @@ mass:
         tu ouvriras les yeux des aveugles,
         >tu feras sortir les captifs de leur prison,
         >et, de leur cachot, ceux qui habitent les ténèbres. »
-    - cycle: A
+    - cycle:
+      - A
       biblicalRef: Ac 10, 34-38
       headline: « Dieu lui a donné l’onction d’Esprit Saint »
       content: |-
@@ -260,7 +262,8 @@ mass:
         Là où il passait, il faisait le bien
         >et guérissait tous ceux qui étaient sous le pouvoir du diable,
         car Dieu était avec lui. »
-    - cycle: B
+    - cycle:
+      - B
       biblicalRef: Is 55, 1-11
       headline: « Venez, voici de l’eau ! Écoutez, et vous vivrez »
       content: |-
@@ -308,7 +311,8 @@ mass:
         >ne me reviendra pas sans résultat,
         sans avoir fait ce qui me plaît,
         >sans avoir accompli sa mission.
-    - cycle: B
+    - cycle:
+      - B
       biblicalRef: 1Jn 5, 1-9
       headline: « L’Esprit, l’eau et le sang »
       content: |-
@@ -344,7 +348,8 @@ mass:
         >or, le témoignage de Dieu a plus de valeur,
         puisque le témoignage de Dieu,
         >c’est celui qu’il rend à son Fils.
-    - cycle: C
+    - cycle:
+      - C
       biblicalRef: Is 40, 1-5.9-11
       headline: « La gloire du Seigneur se révélera, et tout être de chair verra »
       content: |-
@@ -382,7 +387,8 @@ mass:
         >son bras rassemble les agneaux,
         >il les porte sur son cœur,
         >il mène les brebis qui allaitent.
-    - cycle: C
+    - cycle:
+      - C
       biblicalRef: Tt 2, 11-14 ; 3, 4-7
       headline: « Par le bain du baptême, Dieu nous a fait renaître et nous a renouvelés dans l’Esprit Saint »
       content: |-
@@ -415,7 +421,8 @@ mass:
         >héritiers de la vie éternelle.
   - partType: PSALM
     partContents:
-    - cycle: A
+    - cycle:
+      - A
       biblicalRef: Ps 28 (29), 1-2, 3ac-4, 3b.9c-10
       refAbbr: 28, 11b
       chorus:
@@ -438,7 +445,8 @@ mass:
         et tous dans son temple s’écrient : « Gloire ! »
         Au déluge le Seigneur a siégé ;
         il siège, le Seigneur, il est roi pour toujours !
-    - cycle: B
+    - cycle:
+      - B
       label: Cantique
       biblicalRef: Is 12, 2, 4bcd, 5-6
       refAbbr: Is 12, 3
@@ -462,7 +470,8 @@ mass:
         et toute la terre le sait.
         Jubilez, criez de joie, habitants de Sion,
         car il est grand au milieu de toi, le Saint d’Israël !
-    - cycle: C
+    - cycle:
+      - C
       biblicalRef: Ps 103 (104), 1c-3a, 3bc-4, 24-25, 27-28, 29-30
       refAbbr: 103, 1
       chorus:
@@ -499,7 +508,8 @@ mass:
         tu renouvelles la face de la terre.
   - partType: GOSPEL
     partContents:
-    - cycle: A
+    - cycle:
+      - A
       biblicalRef: Mt 3, 13-17
       headline: « Dès que Jésus fut baptisé, il vit l’Esprit de Dieu venir sur lui »
       acclamationAntiphon: |-
@@ -528,7 +538,8 @@ mass:
         Et des cieux, une voix disait :
         >« Celui-ci est mon Fils bien-aimé,
         >en qui je trouve ma joie. »
-    - cycle: B
+    - cycle:
+      - B
       biblicalRef: Mc 1, 7-11
       headline: « Tu es mon Fils bien-aimé ; en toi, je trouve ma joie »
       acclamationAntiphon: |-
@@ -553,7 +564,8 @@ mass:
         Il y eut une voix venant des cieux :
         >« Tu es mon Fils bien-aimé ;
         >en toi, je trouve ma joie. »
-    - cycle: C
+    - cycle:
+      - C
       biblicalRef: Lc 3, 15-16.21-22
       headline: « Comme Jésus priait, après avoir été baptisé, le ciel s’ouvrit »
       acclamationAntiphon: |-

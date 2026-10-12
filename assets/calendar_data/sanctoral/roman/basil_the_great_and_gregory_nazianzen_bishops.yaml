@@ -37,11 +37,13 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.
+    common:
+    - Qui enseigne aux hommes la justice resplendira aux siècles des siècles comme les étoiles dans le ciel.
 
 vespers:
   evangelicAntiphon:
-    common: Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu.
+    common:
+    - Qui observe le plus petit de mes commandements sera grand dans le Royaume de Dieu.
 
 mass:
 - massType: DAY_MASS

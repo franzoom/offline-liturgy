@@ -30,7 +30,8 @@ firstVespers:
     V/ Tu es bénie entre toutes les femmes. * Le Seigneur.
     Gloire au Père. R/ Réjouis-toi.
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Dieu a fait pour toi des merveilles : tous les âges te diront bienheureuse.
   intercession:
     content: |-
@@ -904,7 +905,7 @@ mass:
               il a voulu que nous vivions
               >à la louange de sa gloire,
               nous qui avons d’avance espéré dans le Christ.
-      - partType: GOSPEL_ACCLAMATION
+      - partType: ALLELUIA
         partContents:
         - biblicalRef: cf. Lc 1, 28.42
           content: |-

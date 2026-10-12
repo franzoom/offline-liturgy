@@ -22,7 +22,8 @@ morning:
     * Alléluia, alléluia.
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Au milieu des tortures, les martyrs du Christ contemplaient les réalités d’en haut et disaient : Seigneur, viens à notre aide, pour que nous achevions ton œuvre sans faillir, alléluia.
       
 readings:
@@ -62,4 +63,5 @@ vespers:
     * Alléluia, alléluia.
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Au milieu des plus vives souffrances, ils priaient le Seigneur, heureux de souffrir pour son nom ; ils chantent maintenant le cantique nouveau devant le trône de Dieu et de l’Agneau, alléluia.
+    common:
+    - Au milieu des plus vives souffrances, ils priaient le Seigneur, heureux de souffrir pour son nom ; ils chantent maintenant le cantique nouveau devant le trône de Dieu et de l’Agneau, alléluia.

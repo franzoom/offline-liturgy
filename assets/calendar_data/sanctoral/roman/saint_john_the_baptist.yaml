@@ -23,7 +23,7 @@ firstVespers:
         - |-
           L’enfant qui nous est né est plus qu’un prophète : de tous les enfants des hommes, Jean Baptiste est le plus grand.
   reading:
-    ref: Ac 13, 23-25
+    biblicalReference: Ac 13, 23-25
     content: |-
       Comme il l’avait promis, Dieu a fait sortir de la descendance de David un sauveur pour Israël : c’est Jésus, dont Jean Baptiste a préparé la venue en proclamant avant lui un baptême de conversion pour tout le peuple d’Israël. Au moment d’achever sa route, Jean disait : Celui auquel vous pensez, ce n’est pas moi. Mais le voici qui vient après moi, et je ne suis pas digne de lui défaire ses sandales.
   responsory: |-
@@ -32,7 +32,8 @@ firstVespers:
     V/ Il sera la lumière des nations. R/
     R/ Gloire au Père et au Fils et au Saint-Esprit.
   evangelicAntiphon:
-    common: À l’heure où l’on offre l’encens, l’Ange Gabriel apparut à Zacharie.
+    common:
+    - À l’heure où l’on offre l’encens, l’Ange Gabriel apparut à Zacharie.
   intercession:
     content: |-
       Dieu notre Père a choisi Jean Baptiste pour annoncer le Christ aux hommes, prions-le dans la joie :
@@ -56,7 +57,8 @@ invitatory:
     - Puissance, honneur et gloire à l’Agneau de Dieu.
 
 readings:
-  hymn: toi-qui-veilles-en-la-nuit
+  hymn: 
+    - toi-qui-veilles-en-la-nuit
 
   psalmody:
     - psalm: PSALM_20
@@ -130,7 +132,7 @@ morning:
       antiphon:
         - Tu marcheras devant, à la face du Seigneur, et tu prépareras ses chemins.
   reading:
-    ref: Ml 3, 23-24
+    biblicalReference: Ml 3, 23-24
     content: Voici que je vais vous envoyer Élie, le prophète, avant que vienne le jour du Seigneur, jour grand et redoutable. Il ramènera le cœur des pères vers leurs fils, et le cœur des fils vers leurs pères, pour que je ne vienne pas frapper le pays de malédiction.
   responsory: |-
     R/ Que vienne le prophète :
@@ -163,7 +165,7 @@ middleOfDay:
   tierce:
     antiphon: Il sera grand devant le Seigneur, rempli de l’Esprit Saint dès avant sa naissance.
     reading:
-      ref: Is 49, 1
+      biblicalReference: Is 49, 1
       content: Des rois verront et se lèveront, des princes aussi, et ils se prosterneront, par égard pour le Seigneur qui est fidèle, pour le Saint d’Israël qui t’a choisi.
     responsory: |-
       V/ Je mets dans ta bouche mes paroles !
@@ -171,7 +173,7 @@ middleOfDay:
   sexte:
     antiphon: Quand Élisabeth entendit la salutation de Marie, l’enfant qu’elle portait tressaillit d’allégresse.
     reading:
-      ref: Is 49, 5a.6b
+      biblicalReference: Is 49, 5a.6b
       content: |-
         Le Seigneur parle, lui qui m’a formé dès le sein de ma mère pour que je sois son serviteur : « Je vais faire de toi la lumière des nations pour que mon salut parvienne jusqu’aux extrémités de la terre. »
     responsory: |-
@@ -180,7 +182,7 @@ middleOfDay:
   none:
     antiphon: Cet enfant est grand devant Dieu, la main de Dieu est sur lui.
     reading:
-      ref: Is 49,7b
+      biblicalReference: Is 49,7b
       content: Des rois verront et se lèveront, des princes aussi, et ils se prosterneront, par égard pour le Seigneur qui est fidèle, pour le Saint d’Israël qui t’a choisi.
     responsory: |-
       V/ Je mets dans ta bouche mes paroles !
@@ -202,7 +204,7 @@ vespers:
       antiphon:
         - Jean Baptiste était la lampe, la lampe qu’on allume et qui brille.
   reading:
-    ref: Ac 13, 23-25
+    biblicalReference: Ac 13, 23-25
     content: |-
       Comme il l’avait promis, Dieu a fait sortir de la descendance de David un sauveur pour Israël : c’est Jésus, dont Jean Baptiste a préparé la venue en proclamant avant lui un baptême de conversion pour tout le peuple d’Israël. Au moment d’achever sa route, Jean disait : Celui auquel vous pensez, ce n’est pas moi. Mais le voici qui vient après moi, et je ne suis pas digne de lui défaire ses sandales.
   responsory: |-

@@ -33,7 +33,8 @@ morning:
     V/ Annoncez à tous les peuples le salut, *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Salut, croix inestimable ! Tu as porté le corps de mon maître : reçois son disciple.
       
 readings:
@@ -106,7 +107,8 @@ vespers:
     V/ De jour en jour, proclamez son salut, *
     Gloire au Père et au Fils et au Saint-Esprit. R/
   evangelicAntiphon:
-    common: Béni sois-tu, André, Apôtre de Dieu et disciple du Christ ! Pour lui, comme ton frère, tu as subi le martyre.
+    common:
+    - Béni sois-tu, André, Apôtre de Dieu et disciple du Christ ! Pour lui, comme ton frère, tu as subi le martyre.
 
 mass:
 - massType: DAY_MASS

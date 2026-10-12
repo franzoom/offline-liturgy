@@ -34,11 +34,13 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Vincent était le consolateur des affligés, le défenseur des enfants et des veuves.
+    common:
+    - Vincent était le consolateur des affligés, le défenseur des enfants et des veuves.
 
 vespers:
   evangelicAntiphon:
-    common: Ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait.
+    common:
+    - Ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait.
 
 mass:
 - massType: DAY_MASS

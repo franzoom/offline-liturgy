@@ -1,6 +1,7 @@
 firstVespers:
   evangelicAntiphon:
-    common: Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !
+    common:
+    - Réjouis-toi, Jérusalem ! Vous qui l’aimez, rassemblez-vous ! Exultez de sa joie, alléluia !
 
 invitatory:
   antiphon:
@@ -72,6 +73,7 @@ vespers:
       - Voici le séjour que Dieu s’est choisi pour y faire sa demeure ; voici le temple que Dieu a consacré pour que son nom y soit invoqué, alléluia !
 
 mass:
+- massType: DAY_MASS
   readingParts:
     - partType: READING_1
       partContents:

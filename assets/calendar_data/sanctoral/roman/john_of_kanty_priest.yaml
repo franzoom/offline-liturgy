@@ -34,11 +34,13 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: À l’amour que vous aurez les uns pour les autres, on reconnaîtra que vous êtes mes disciples.
+    common:
+    - À l’amour que vous aurez les uns pour les autres, on reconnaîtra que vous êtes mes disciples.
 
 vespers:
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Venez les bénis de mon Père : ce que vous avez fait à l’un de ces petits, c’est à moi que vous l’avez fait.
 
 mass:

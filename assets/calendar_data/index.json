@@ -307,7 +307,7 @@
     "dir": "sanctoral",
     "title": "Saint Eugène de Mazenot"
   },
-  "canada/franciscus-de-laval_bishop": {
+  "canada/franciscus_de_laval_bishop": {
     "color": "white",
     "commons": [
       "pastors_bishop"
@@ -429,7 +429,7 @@
       "christmas"
     ],
     "dir": "ferial_days",
-    "title": "5ème jour dans l’octave de la Nativité"
+    "title": "5^e jour dans l’octave de la Nativité"
   },
   "christmas_2_0": {
     "dir": "ferial_days",
@@ -441,7 +441,7 @@
       "christmas"
     ],
     "dir": "ferial_days",
-    "title": "6ème jour dans l’octave de la Nativité"
+    "title": "6^e jour dans l’octave de la Nativité"
   },
   "christmas_31": {
     "color": "white",
@@ -449,7 +449,7 @@
       "christmas"
     ],
     "dir": "ferial_days",
-    "title": "7ème jour dans l’octave de la Nativité"
+    "title": "7^e jour dans l’octave de la Nativité"
   },
   "christmas_3_0": {
     "dir": "ferial_days",
@@ -744,7 +744,7 @@
     "dir": "sanctoral",
     "title": "Saint Florent"
   },
-  "grenoble/françois_regis_clet_priest": {
+  "grenoble/francois_regis_clet_priest": {
     "color": "red",
     "commons": [
       "martyr"
@@ -950,7 +950,7 @@
     "dir": "sanctoral",
     "title": "La Vierge Marie Consolatrice des affligés"
   },
-  "luxembourg/our_lord-jesus-christ-eternal-priest": {
+  "luxembourg/our_lord_jesus_christ_eternal_priest": {
     "color": "white",
     "dir": "sanctoral",
     "title": "N.-S. Jésus Christ, éternel et souverain prêtre"
@@ -1047,6 +1047,9 @@
   },
   "lyon/gregory_x_pope": {
     "color": "white",
+    "commons": [
+      "pastors_pope"
+    ],
     "dir": "sanctoral",
     "title": "Bienheureux Grégoire X"
   },
@@ -1127,6 +1130,9 @@
   },
   "lyon/marie_of_saint_ignatius_claudine_thevenet_religious": {
     "color": "white",
+    "commons": [
+      "saints-female_religious"
+    ],
     "dir": "sanctoral",
     "title": "Sainte Claudine Thévenet"
   },
@@ -1263,6 +1269,7 @@
   },
   "north-africa/fulgence_bishop": {
     "color": "white",
+    "commons": [],
     "dir": "sanctoral",
     "title": "Saint Fulgence"
   },
@@ -1541,7 +1548,7 @@
     "dir": "sanctoral",
     "title": "Sainte Angèle Merici"
   },
-  "roman/annunciation-easter": {
+  "roman/annunciation_easter": {
     "color": "white",
     "commons": [
       "virgin-mary"
@@ -1549,7 +1556,7 @@
     "dir": "sanctoral",
     "title": "Annonciation du Seigneur"
   },
-  "roman/annunciation-lent": {
+  "roman/annunciation_lent": {
     "color": "white",
     "commons": [
       "virgin-mary"
@@ -3275,6 +3282,10 @@
   },
   "roman/thomas_becket_bishop": {
     "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
     "dir": "sanctoral",
     "title": "Saint Thomas Becket"
   },
@@ -3329,7 +3340,7 @@
     "dir": "sanctoral",
     "title": "Saint Vincent"
   },
-  "roman/virgin-mary-memory": {
+  "roman/virgin_mary_memory": {
     "color": "white",
     "commons": [
       "virgin-mary"

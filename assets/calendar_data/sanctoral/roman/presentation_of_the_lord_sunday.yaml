@@ -32,7 +32,8 @@ firstVespers:
     * Je viens faire ta volonté.
     Gloire au Père. R/
   evangelicAntiphon:
-    common: Le vieillard portait l’enfant, mais l’enfant guidait le vieillard. Et Marie, la Vierge Mère, adorait celui qu’elle avait mis au monde.
+    common:
+    - Le vieillard portait l’enfant, mais l’enfant guidait le vieillard. Et Marie, la Vierge Mère, adorait celui qu’elle avait mis au monde.
   intercession:
     content: |-
       R/ Ouvre nos yeux, Seigneur, aux merveilles de ton amour !
@@ -384,7 +385,7 @@ mass:
         >rempli de sagesse,
         >et la grâce de Dieu était sur lui.
       shortBiblicalRef: Lc 2, 22-40
-      shortBiblicalContent: |-
+      shortContent: |-
         Quand fut accompli le temps prescrit par la loi de Moïse
         >pour la purification,
         les parents de Jésus l’amenèrent à Jérusalem

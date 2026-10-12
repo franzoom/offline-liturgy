@@ -29,7 +29,8 @@ firstVespers:
     V/ Tu mets toute chose à ses pieds. R/
     V/ Qu’il est grand, ton nom, par toute la terre. R/
   evangelicAntiphon:
-    common: Splendeur du Père, le Christ qui porte l’univers par sa parole, le Christ qui purifie de tout péché, apparaît aujourd’hui dans sa gloire.
+    common:
+    - Splendeur du Père, le Christ qui porte l’univers par sa parole, le Christ qui purifie de tout péché, apparaît aujourd’hui dans sa gloire.
   intercession:
     content: |-
       Ô Christ, merveilleusement transfiguré devant tes disciples, nous te prions :
@@ -101,7 +102,8 @@ readings:
       Laissons-nous transformer en l’image du Seigneur, toujours plus glorieuse.
 
 invitatory:
-  antiphon: Sainte lumière, splendeur du Père, louange à toi, Jésus Christ.
+  antiphon:
+  - Sainte lumière, splendeur du Père, louange à toi, Jésus Christ.
 
 morning:
   hymn:

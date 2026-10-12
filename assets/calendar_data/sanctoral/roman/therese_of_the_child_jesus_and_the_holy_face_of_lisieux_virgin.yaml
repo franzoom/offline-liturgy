@@ -40,11 +40,13 @@ readings:
 
 morning:
   evangelicAntiphon:
-    common: Changez vos cœurs, devenez comme des enfants, et vous entrerez dans le Royaume.
+    common:
+    - Changez vos cœurs, devenez comme des enfants, et vous entrerez dans le Royaume.
 
 vespers:
   evangelicAntiphon:
-    common: |-
+    common:
+    - |-
       Réjouissez-vous, exultez : vos noms sont inscrits dans le ciel.
 
 mass:

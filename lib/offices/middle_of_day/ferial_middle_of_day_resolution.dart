@@ -7,7 +7,8 @@ import './middle_of_day_extract.dart';
 import '../../tools/constants.dart';
 
 /// Resolves middle of day prayer content for ferial days.
-/// Assigns hymns for tierce, sexte and none based on liturgical time.
+/// Assigns hymns for tierce, sexte and none based on liturgical time, unless
+/// the ferial file declares its own.
 Future<MiddleOfDay> ferialMiddleOfDayResolution(
     CelebrationContext context) async {
   final code = context.ferialCode ?? context.celebrationCode;
@@ -25,10 +26,12 @@ Future<MiddleOfDay> ferialMiddleOfDayResolution(
     _ => middleOfDayExtract('$ferialFilePath/$code.yaml', context.dataLoader),
   };
 
-  // Assign hymns for each hour based on liturgical time
-  result.hymnTierce = await getTierceHymns(liturgicalTime, context.dataLoader);
-  result.hymnSexte = await getSexteHymns(liturgicalTime, context.dataLoader);
-  result.hymnNone = await getNoneHymns(liturgicalTime, context.dataLoader);
+  // Assign hymns for each hour based on liturgical time, unless the ferial
+  // file declares its own (e.g. Good Friday, Holy Saturday)
+  result.hymnTierce ??=
+      await getTierceHymns(liturgicalTime, context.dataLoader);
+  result.hymnSexte ??= await getSexteHymns(liturgicalTime, context.dataLoader);
+  result.hymnNone ??= await getNoneHymns(liturgicalTime, context.dataLoader);
 
   return result;
 }

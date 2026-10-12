@@ -32,8 +32,22 @@ class MiddleOfDay {
     this.oration,
   });
 
-  /// Creates MiddleOfDay instance from dynamic data (YAML/JSON) with type safety
+  /// Creates MiddleOfDay instance from dynamic data (YAML/JSON) with type safety.
+  /// Hymns: `hymn` at the middleOfDay level applies to all three hours; a
+  /// `hymn` inside tierce/sexte/none overrides it for that hour only.
   factory MiddleOfDay.fromJson(Map<String, dynamic> data) {
+    List<HymnEntry>? parseHymns(dynamic value) {
+      final hymns = HymnEntry.fromCodes(asYamlList(value));
+      return hymns.isEmpty ? null : hymns;
+    }
+
+    final sharedHymns = parseHymns(data['hymn']);
+    List<HymnEntry>? hourHymns(String hour) {
+      final hourData = data[hour];
+      return (hourData is Map ? parseHymns(hourData['hymn']) : null) ??
+          sharedHymns;
+    }
+
     return MiddleOfDay(
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
@@ -42,6 +56,9 @@ class MiddleOfDay {
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),
+      hymnTierce: hourHymns('tierce'),
+      hymnSexte: hourHymns('sexte'),
+      hymnNone: hourHymns('none'),
       tierce: data['tierce'] is Map<String, dynamic>
           ? HourOffice.fromJson(data['tierce'] as Map<String, dynamic>)
           : null,

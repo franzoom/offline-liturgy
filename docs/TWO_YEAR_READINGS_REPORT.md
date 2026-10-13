@@ -109,9 +109,10 @@ Il faudra la corriger dans un second temps.
   - livres d'un seul chapitre (`Jude 1-25`, stockés au chapitre 1 ou 0 selon la source).
 
   Un numéro seul inclut ses sous-versets (`Est 5, 1` couvre 1a…1f), et un demi-verset absent de la base est pris en
-  entier. Le texte est rendu en un seul paragraphe : les retours à la ligne de la base (poésie), ainsi que les
-  jonctions entre versets et entre segments, deviennent une seule espace (vérifié sur les 745 références : aucun
-  mot collé, aucune double espace). Les lignes sans numéro de verset (étiquettes LUI / ELLE / CHŒUR du Cantique,
+  entier. Chaque segment de la référence (suite de versets consécutifs, éventuellement sur deux chapitres) est rendu
+  en un paragraphe : les retours à la ligne de la base (poésie) et les jonctions entre versets deviennent une seule
+  espace. Les segments (`1-15.21-28`, `6-12 ; 26, 1-6`) sont séparés par un retour à la ligne. Vérifié sur les
+  745 références : une ligne par segment, aucun mot collé, aucune double espace. Les lignes sans numéro de verset (étiquettes LUI / ELLE / CHŒUR du Cantique,
   « Alléluia » des Ps 106 et 117…) sont lues quand elles tombent à l'intérieur de la plage.
 - `hydrateBiblicalReadings()` : appelée à la fin de `readingsExport`, elle remplit `content` pour les lectures qui
   n'ont qu'une `ref`. Sans fournisseur, ou si la référence ne se résout pas, `content` reste vide.

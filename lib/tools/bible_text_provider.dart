@@ -92,9 +92,11 @@ List<BiblePassage> parseBibleReference(String reference) {
 /// of its chapters. Throws a [FormatException] if the reference cannot be
 /// parsed or names a verse missing from its chapter.
 ///
-/// The text is returned as one paragraph: the line breaks of the source
-/// (poetry) and the joins between verses and passages all become a single
-/// space, so that no two words end up glued together.
+/// Each segment of the reference (stretch of consecutive verses, possibly
+/// across chapters) is one paragraph: the line breaks of the source (poetry)
+/// and the joins between its verses become a single space, so that no two
+/// words end up glued together. Segments ("1-15.21-28", "6-12 ; 26, 1-6")
+/// are separated by a line break.
 Future<String?> bibleText(String reference, BibleTextProvider provider) async {
   final parts = <String>[];
   for (final p in parseBibleReference(reference)) {
@@ -116,9 +118,9 @@ Future<String?> bibleText(String reference, BibleTextProvider provider) async {
         verses.addAll(_slice(rows, from, to, reference));
       }
     }
-    parts.addAll(verses.map((v) => v.text));
+    parts.add(_flatten(verses.map((v) => v.text)));
   }
-  return _flatten(parts);
+  return parts.join('\n');
 }
 
 /// Verses of [rows] from [from] to [to] (whole chapter side when null).
@@ -153,7 +155,7 @@ List<BibleVerse> _slice(
 /// indentation (no-break spaces) around it, becomes one space, and runs of
 /// ordinary spaces are collapsed. Other no-break spaces (before ; : ! ? »
 /// and after «) are kept as they are.
-String _flatten(List<String> texts) => texts
+String _flatten(Iterable<String> texts) => texts
     .map((t) => t.trim())
     .where((t) => t.isNotEmpty)
     .join(' ')

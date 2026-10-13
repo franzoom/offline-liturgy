@@ -53,16 +53,16 @@ void main() {
     });
 
     test('range across chapters, then a segment of the last one', () async {
-      expect(
-          await bibleText('Ph 1, 29 – 2, 2.5-6', bible), 'a29 a30 b1 b2 b5 b6');
+      expect(await bibleText('Ph 1, 29 – 2, 2.5-6', bible),
+          'a29 a30 b1 b2\nb5 b6');
     });
 
     test('several chapters separated by a semicolon', () async {
-      expect(await bibleText('Ph 1, 1 ; 3, 20-21', bible), 'a1 c20 c21');
+      expect(await bibleText('Ph 1, 1 ; 3, 20-21', bible), 'a1\nc20 c21');
     });
 
     test('a plain verse includes its lettered sub-verses', () async {
-      expect(await bibleText('Est 5, 1.2', bible), 'e1 e1a e1b e2');
+      expect(await bibleText('Est 5, 1.2', bible), 'e1 e1a e1b\ne2');
       expect(await bibleText('Est 5, 1b-3', bible), 'e1b e2 e3');
     });
 
@@ -135,7 +135,8 @@ void main() {
         final text = await bibleText(e.key, provider);
         expect(text, isNotNull);
         expect(text!.trim(), isNotEmpty);
-        expect(text, isNot(contains('\n')));
+        // one line per segment of the reference, no double space
+        expect(text.split('\n'), hasLength(parseBibleReference(e.key).length));
         expect(text, isNot(contains('  ')));
       });
     }

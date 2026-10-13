@@ -11,7 +11,9 @@ String get bibleDbPath =>
 /// [BibleTextProvider] reading the aelf-flutter Bible database (table
 /// `verses`: book, chapter, verse, text), for tests and CLI tools.
 /// Verses are returned in row order, which keeps lettered sub-verses
-/// ('1a', '1b'...) right after their verse.
+/// ('1a', '1b'...) right after their verse. Rows without a verse number
+/// (speaker labels of the Song of Songs, 'Alléluia' headings...) are kept
+/// with an empty label: they are read when they fall inside a range.
 class SqliteBibleTextProvider implements BibleTextProvider {
   final Database _db;
   final Map<String, List<BibleVerse>?> _cache = {};
@@ -24,12 +26,12 @@ class SqliteBibleTextProvider implements BibleTextProvider {
     return _cache.putIfAbsent('$book $chapter', () {
       final rows = _db.select(
           'SELECT verse, text FROM verses WHERE book = ? AND chapter = ? '
-          'AND verse IS NOT NULL ORDER BY rowid',
+          'ORDER BY rowid',
           [book, chapter]);
       if (rows.isEmpty) return null;
       return [
         for (final r in rows)
-          BibleVerse(r['verse'] as String, (r['text'] as String?) ?? ''),
+          BibleVerse((r['verse'] as String?) ?? '', (r['text'] as String?) ?? ''),
       ];
     });
   }

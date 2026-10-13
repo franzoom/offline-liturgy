@@ -10,6 +10,7 @@ import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
 import '../../tools/constants.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/bible_text_provider.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
@@ -47,6 +48,10 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 
   // STEP 4: Apply Proper data
   readingsOffice.overlayWith(properReadings, keepBaseHymns: keepBaseHymns);
+
+  // Readings stored by reference only take their text from the Bible
+  readingsOffice.biblicalReading = await hydrateBiblicalReadings(
+      readingsOffice.biblicalReading, context.bibleTextProvider);
 
   // STEP 5: Te Deum (GILH 68) — on Sundays outside Lent, during the Easter
   // and Christmas octaves, and on solemnities and feasts. Not a precedence

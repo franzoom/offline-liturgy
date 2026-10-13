@@ -2,6 +2,7 @@
 library;
 
 import '../tools/data_loader.dart';
+import '../tools/bible_text_provider.dart' show BibleTextProvider;
 import '../assets/libraries/french_liturgy_labels.dart';
 import 'calendar_class.dart' show LocationOrigin;
 import 'psalms_class.dart';
@@ -356,6 +357,10 @@ class CelebrationContext {
   // two-year cycle (biblicalReadingEven / biblicalReadingOdd in the YAML,
   // chosen by the parity of liturgicalYear); otherwise the annual cycle.
   final bool twoYearReadingCycle;
+  // Source of the Bible text for readings stored by reference only (no
+  // `content` in the YAML). Injected by the consumer, like dataLoader;
+  // without it those readings keep a null content.
+  final BibleTextProvider? bibleTextProvider;
 
   const CelebrationContext({
     this.celebrationType,
@@ -382,6 +387,7 @@ class CelebrationContext {
     this.hasFeastReadingParts = false,
     this.useProperReadingsForMemorial = false,
     this.twoYearReadingCycle = false,
+    this.bibleTextProvider,
   });
 
   /// Returns the first common from commonList.
@@ -440,6 +446,7 @@ class CelebrationContext {
     bool? hasFeastReadingParts,
     bool? useProperReadingsForMemorial,
     bool? twoYearReadingCycle,
+    BibleTextProvider? bibleTextProvider,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -470,6 +477,7 @@ class CelebrationContext {
       useProperReadingsForMemorial:
           useProperReadingsForMemorial ?? this.useProperReadingsForMemorial,
       twoYearReadingCycle: twoYearReadingCycle ?? this.twoYearReadingCycle,
+      bibleTextProvider: bibleTextProvider ?? this.bibleTextProvider,
     );
   }
 }

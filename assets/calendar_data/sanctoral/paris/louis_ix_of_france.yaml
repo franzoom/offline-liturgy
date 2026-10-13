@@ -1,0 +1,235 @@
+celebration:
+  title: Saint Louis, roi de France
+  description: Le roi de France Louis IX (1214-1270) réalisa le type du laïc vivant selon l’Évangile. Époux plein de tendresse, père attentif à élever ses onze enfants en vrais chrétiens, chef d’État soucieux de justice et de paix, il vivait sa foi humblement, au jour le jour, dans la prière, le service des pauvres et une joie toute franciscaine.
+  commons:
+    - saints-male_married
+  color: white
+
+invitatory:
+  antiphon:
+    - Le Seigneur, le roi immortel des siècles, venez adorons-le.
+
+oration:
+  - Seigneur, tu as appelé saint Louis de la charge d’un royaume terrestre à la gloire du Royaume des cieux ; accorde-nous, par son intercession, de travailler à la venue de ton règne en accomplissant nos tâches temporelles.
+
+readings:
+  hymn:
+    - roi-des-rois-jesus-seigneur
+  patristicReading:
+    - title: Les enseignements du Roi Louis à son fils aîné Philippe
+      subtitle: Sois si juste que, quoi qu’il arrive, tu ne t’écartes de la justice
+      content: |-
+        %(Les propos de saint Louis,
+        édit. D. O’Connel, Paris, 1974, pp. 185-191)%
+        Cher fils, je t’enseigne premièrement que tu aimes Dieu de tout ton cœur et de tout ton pouvoir, car sans cela personne ne peut rien valoir.
+        Tu dois te garder de toutes choses que tu penseras devoir lui déplaire et qui sont en ton pouvoir, et spécialement tu dois avoir cette volonté que tu ne fasses un péché mortel pour nulle chose qui puisse arriver et qu’avant de faire un péché mortel avec connaissance, que tu souffrirais que l’on te coupe les jambes et les bras et que l’on t’enlève la vie par le plus cruel martyre.
+        Si Notre Seigneur t’envoie persécution, maladie ou autre souffrance, tu dois la supporter débonnairement, et tu dois l’en remercier et lui savoir bon gré, car il faut comprendre qu’il l’a fait pour ton bien. De plus tu dois penser que tu as mérité ceci - et encore plus s’il le voulait - parce que tu l’as peu aimé et peu servi, et parce que tu as fait beaucoup de choses contre sa volonté.
+        Si Notre Seigneur t’envoie prospérité, santé du corps ou autre chose, tu dois l’en remercier humblement, et puis prendre garde qu’à cause de cela il ne t’arrive pas de malheur causé par orgueil ou par une autre faute, car c’est un très grand péché de guerroyer Notre Seigneur de ses dons...
+        Cher fils, je t’enseigne que tu entendes volontiers le service de la sainte Église, et quand tu seras à l’église, garde-toi de perdre ton temps et de parler vaines paroles. Dis tes oraisons avec recueillement ou par bouche ou de pensée, et spécialement sois plus recueilli et plus attentif à l’oraison pendant que le corps de Notre Seigneur Jésus Christ sera présent à la messe, et puis aussi pendant un petit moment avant.
+        Cher fils, je t’enseigne que tu aies le cœur compatissant envers les pauvres et envers tous ceux que tu considéreras comme souffrants ou de cœur ou de corps ; et selon ton pouvoir soulage-les volontiers ou de soutien moral ou d’aumônes...
+        Prends garde que tu sois si bon en toutes choses qu’il soit évident que tu reconnaisses les générosités et les honneurs que Notre Seigneur t’a faits de sorte que, s’il plaisait à Notre Seigneur que tu aies l’honneur de gouverner le royaume, tu sois digne de recevoir l’onction avec laquelle les rois de France sont sacrés.
+        Cher fils, s’il advient que tu deviennes roi, prends soin d’avoir les qualités qui appartiennent aux rois, c’est-à-dire que tu sois si juste que, quoi qu’il arrive, tu ne t’écartes de la justice. Et s’il advient qu’il y ait querelle entre un pauvre et un riche, soutiens de préférence le pauvre contre le riche jusqu’à ce que tu saches la vérité, et quand tu la connaîtras, fais justice...
+        Sois bien diligent de protéger dans tes domaines toutes sortes de gens, surtout les gens de sainte Église ; défends qu’on ne leur fasse tort ni violence en leurs personnes ou en leurs biens...
+        Cher fils, je t’enseigne que tu sois toujours dévoué à l’Église de Rome et à notre Saint-Père le Pape, et lui portes respect et honneur comme tu le dois à ton père spirituel...
+        Mets grande peine à ce que les péchés soient supprimés en ta terre, c’est-à-dire les vilains serments et toute chose qui se fait ou se dit contre Dieu ou Notre Dame ou les saints : péchés de corps, jeux de dés, tavernes ou autres péchés. Fais abattre tout ceci en ta terre sagement et en bonne manière...
+        Cher fils, je te donne toute la bénédiction qu’un père peut et doit donner à son fils, et je prie Notre Seigneur Dieu Jésus Christ que, par sa grande miséricorde et par les prières et par les mérites de sa bienheureuse mère, la Vierge Marie, et des anges et des archanges, de tous les saints et de toutes les saintes, il te garde et te défende que tu ne fasses chose qui soit contre sa volonté, et qu’il te donne grâce de faire sa volonté afin qu’il soit servi et honoré par toi ; et puisse-t-il accorder à toi et à moi, par sa grande générosité, qu’après cette mortelle vie nous puissions venir à lui pour la vie éternelle afin de le voir, aimer et louer sans fin. Amen.
+      responsory: |-
+        R/ Donne-moi la Sagesse, assise près de toi.
+
+        Le roi Salomon pria ainsi :
+        Dieu de mes pères et Seigneur de tendresse,
+        donne à ton serviteur un cœur attentif
+        pour qu’il sache gouverner ton peuple et discerner le bien du mal.
+
+        Tu m’as choisi pour régner sur ton peuple,
+        pour gouverner tes fils et tes filles.
+
+morning:
+  hymn:
+    - tu-es-le-seul-saint-seigneur-dieu
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Le roi saint Louis a fait le bien devant le Seigneur, son âme s’est attachée à Dieu.
+    - psalm: OT_41
+      antiphon:
+        - Rois de la terre et tous les peuples, louez le nom du Seigneur.
+    - psalm: PSALM_149
+      antiphon:
+        - Seigneur, le roi se réjouit de ta force ta grâce le rend inébranlable.
+  reading:
+    biblicalReference: 1 Esd 7,27
+    content: Béni soit le Seigneur, le Dieu de nos pères, qui inspire au cœur du roi de glorifier le Temple du Seigneur à Jérusalem.
+  responsory: |-
+    R/ Le roi s’appuie sur le Seigneur,
+    * La grâce du Très-Haut le rend inébranlable.
+    V/ Dieu a répondu au désir de son cœur. *
+    Gloire au Père. R/
+  evangelicAntiphon:
+    common:
+      - |-
+        Dieu s’est choisi en saint Louis un homme selon son cœur : il l’a désigné comme chef sur son peuple.
+  intercession:
+    content: |-
+      Bénissons le Seigneur pour le témoignage de vie évangélique porté par saint Louis dans l’accomplissement de sa charge.
+
+      R/ Béni sois-tu, Seigneur.
+
+      Béni sois-tu, Seigneur, pour l’amour avec lequel saint Louis a répondu à sa vocation d’époux et de père.
+
+      Béni sois-tu pour la ferveur avec laquelle saint Louis t’a honoré dans ton Sacrement et dans tes membres souffrants.
+
+
+      Béni sois-tu pour le zèle avec lequel saint Louis a rempli sa mission de justicier et de pacificateur.
+
+      Béni sois-tu pour la foi avec laquelle saint Louis a pris la croix pour arracher aux infidèles la terre que tu as illuminée de ta présence.
+
+vespers:
+  hymn:
+    - pleine-de-grace-rejouis-toi
+  psalmody:
+    - psalm: PSALM_111
+      antiphon:
+        - À pleines mains, il donnait aux pauvres ; sa justice demeure à jamais.
+    - psalm: PSALM_136
+      antiphon:
+        - Que ma langue s’attache à mon palais, si je t’oublie, Jérusalem.
+    - psalm: NT_11
+      antiphon:
+        - Honneur et gloire au roi des siècles, au Dieu unique et immortel.
+  reading:
+    biblicalReference: Prov 29,4.14
+    content: Par l’équité un roi fait prospérer le pays. Le roi qui juge les faibles avec justice voit son trône affermi pour toujours.
+  responsory: |-
+    R/ Tu mets sur sa tête une couronne d’or,
+    * Tu le revêts de splendeur et de gloire.
+    V/ Tu mets en lui ta bénédiction pour toujours. *
+    Gloire au Père. R/
+  evangelicAntiphon:
+    common:
+      - Plus précieuse aux yeux du roi Louis qu’une couronne d’or, la couronne d’épines, et plus que son royaume, le Royaume de Dieu.
+  intercession:
+    content: |-
+      Prions le Père des miséricordes pour tous les hommes, et spécialement pour ceux qui assument la charge de guider leurs frères.
+
+      R/ Seigneur, écoute-nous ; Seigneur, exauce-nous.
+
+      Pour les chrétiens : qu’ils aient conscience de la grandeur dont les a revêtus leur baptême.
+
+      Pour les époux : qu’ils se consacrent dans la tendresse mutuelle à l’éducation de leurs enfants.
+
+      Pour les responsables des peuples : qu’ils soient d’authentiques serviteurs de la justice et de la paix.
+
+      Pour ceux qui meurent loin de leur famille : qu’ils soient reçus près de toi dans la sainte Jérusalem.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon: null
+    collect:
+      - |-
+        Seigneur Dieu, +
+        >tu as appelé saint Louis
+        >de la charge d’une royauté terrestre
+        >à la gloire du royaume des Cieux ; *
+        accorde-nous, par son intercession,
+        >de rechercher ton Royaume éternel /
+        >tout en accomplissant nos tâches temporelles.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Is 58, 6-11
+            headline: « Partage ton pain avec celui qui a faim »
+            content: |-
+              Ainsi parle le Seigneur :
+              Le jeûne qui me plaît, n’est-ce pas ceci :
+              faire tomber les chaînes injustes,
+              >délier les attaches du joug,
+              rendre la liberté aux opprimés,
+              >briser tous les jougs ?
+              N’est-ce pas partager ton pain avec celui qui a faim,
+              >accueillir chez toi les pauvres sans abri,
+              couvrir celui que tu verras sans vêtement,
+              >ne pas te dérober à ton semblable ?
+              Alors ta lumière jaillira comme l’aurore,
+              >et tes forces reviendront vite.
+              Devant toi marchera ta justice,
+              >et la gloire du Seigneur fermera la marche.
+              Alors, si tu appelles, le Seigneur répondra ;
+              >si tu cries, il dira : « Me voici. »
+              Si tu fais disparaître de chez toi
+              >le joug, le geste accusateur, la parole malfaisante,
+              si tu donnes à celui qui a faim ce que toi, tu désires,
+              >et si tu combles les désirs du malheureux,
+              ta lumière se lèvera dans les ténèbres
+              >et ton obscurité sera lumière de midi.
+              Le Seigneur sera toujours ton guide.
+              En plein désert, il comblera tes désirs
+              >et te rendra vigueur.
+              Tu seras comme un jardin bien irrigué,
+              >comme une source où les eaux ne manquent jamais.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6, 7-8, 9
+            refAbbr: 111, 1a
+            chorus:
+              - chorusRef: 111, 1a
+                content: Heureux qui craint le Seigneur.
+              - chorusRef: null
+                content: |-
+                  ou : Alléluia !
+            content: |-
+              Heureux qui craint le Seigneur,
+              qui aime entièrement sa volonté !
+              Sa lignée sera puissante sur la terre ;
+              la race des justes est bénie.
+
+              Les richesses affluent dans sa maison :
+              à jamais se maintiendra sa justice.
+              Lumière des cœurs droits, il s’est levé dans les ténèbres,
+              homme de justice, de tendresse et de pitié.
+
+              L’homme de bien a pitié, il partage ;
+              il mène ses affaires avec droiture.
+              Cet homme jamais ne tombera ;
+              toujours on fera mémoire du juste.
+
+              Il ne craint pas l’annonce d’un malheur :
+              le cœur ferme, il s’appuie sur le Seigneur.
+              Son cœur est confiant, il ne craint pas :
+              il verra ce que valaient ses oppresseurs.
+
+              À pleines mains, il donne au pauvre ;
+              à jamais se maintiendra sa justice,
+              sa puissance grandira, et sa gloire !
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 22, 34-40
+            headline: « Tu aimeras le Seigneur ton Dieu, et ton prochain comme toi-même »
+            acclamationAntiphon: |-
+              Je vous donne un commandement nouveau, dit le Seigneur :
+              « Aimez-vous les uns les autres,
+              comme je vous ai aimés. »
+            content: |-
+              En ce temps-là,
+              les pharisiens,
+              apprenant que Jésus avait fermé la bouche aux sadducéens,
+              >se réunirent,
+              et l’un d’entre eux, un docteur de la Loi, posa une question à Jésus
+              pour le mettre à l’épreuve :
+              >« Maître, dans la Loi,
+              >quel est le grand commandement ? »
+              Jésus lui répondit :
+              >« Tu aimeras le Seigneur ton Dieu
+              >de tout ton cœur,
+              >de toute ton âme et de tout ton esprit.
+              Voilà le grand, le premier commandement.
+              Et le second lui est semblable :
+              >Tu aimeras ton prochain comme toi-même.
+              De ces deux commandements
+              >dépend toute la Loi, ainsi que les Prophètes. »
+    offeringPrayer: null
+    communionAntiphon: null
+    prayerAfterCommunion: null

@@ -5,7 +5,7 @@ frenchName: diocèse de Paris
 frenchLocative: dans le diocèse de Paris
 
 feasts:
-  genevieve_virgin:
+  genevieve_of_paris_virgin:
     month: 1
     day: 3
     precedence: 4
@@ -41,7 +41,12 @@ feasts:
     month: 5
     day: 28
     precedence: 10
-  coltilda:
+  # June 1st since 2025
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 6
+    day: 1
+    precedence: 8
+  clotilde_of_burgundy:
     month: 6
     day: 4
     precedence: 10
@@ -49,10 +54,6 @@ feasts:
     month: 6
     day: 10
     precedence: 12
-  anniversary_of_the_dedication_of_the_cathedral:
-    month: 6
-    day: 16
-    precedence: 8
   innocent_v_pope:
     month: 6
     day: 23
@@ -61,7 +62,7 @@ feasts:
     month: 7
     day: 17
     precedence: 12
-  louis:
+  louis_ix_of_france:
     month: 8
     day: 25
     precedence: 10
@@ -69,7 +70,7 @@ feasts:
     month: 9
     day: 2
     precedence: 10
-  frederick_ozanam:
+  frederic_ozanam:
     month: 9
     day: 9
     precedence: 12
@@ -77,10 +78,15 @@ feasts:
     month: 9
     day: 26
     precedence: 12
-  denis_of_paris_bishop_and_martyr:
+  vincent_de_paul_priest:
+    month: 9
+    day: 27
+    precedence: 8
+  # principal patron of the diocese
+  denis_of_paris_bishop_and_companions_martyrs:
     month: 10
     day: 9
-    precedence: 8
+    precedence: 4
   nicolas_barre_priest:
     month: 10
     day: 21
@@ -88,6 +94,10 @@ feasts:
   marcellus_of_paris_bishop:
     month: 11
     day: 3
+    precedence: 10
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
     precedence: 10
   our_lady_of_the_miraculous_medal:
     month: 11

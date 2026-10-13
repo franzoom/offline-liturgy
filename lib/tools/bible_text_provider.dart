@@ -5,7 +5,8 @@ import '../classes/office_elements_class.dart' show BiblicalReading;
 /// One verse of a Bible chapter.
 class BibleVerse {
   /// Verse label as numbered in the Bible: '12', or '17k' for the Greek
-  /// additions of Esther.
+  /// additions of Esther. Empty for an unnumbered line (speaker label,
+  /// heading), which is read only when it falls inside a range.
   final String verse;
   final String text;
 
@@ -45,7 +46,7 @@ class BiblePassage {
 /// "Jude 1-25" (single-chapter book). Throws a [FormatException] otherwise.
 List<BiblePassage> parseBibleReference(String reference) {
   final ref = reference
-      .replaceAll(RegExp(r'[  ]'), ' ')
+      .replaceAll(RegExp(r'[\u00a0\u202f]'), ' ')
       .replaceAll(RegExp(r'\s*[–—]\s*'), '-')
       .trim();
   final match = RegExp(r'^(\S+)\s+(.+)$').firstMatch(ref);
@@ -91,9 +92,9 @@ List<BiblePassage> parseBibleReference(String reference) {
 /// of its chapters. Throws a [FormatException] if the reference cannot be
 /// parsed or names a verse missing from its chapter.
 ///
-/// Verses are joined by a space in prose and by a line break when either
-/// side is poetry (a verse containing line breaks); separate passages are
-/// separated by a line break.
+/// The text is returned as one paragraph: the line breaks of the source
+/// (poetry) and the joins between verses and passages all become a single
+/// space, so that no two words end up glued together.
 Future<String?> bibleText(String reference, BibleTextProvider provider) async {
   final parts = <String>[];
   for (final p in parseBibleReference(reference)) {
@@ -115,9 +116,9 @@ Future<String?> bibleText(String reference, BibleTextProvider provider) async {
         verses.addAll(_slice(rows, from, to, reference));
       }
     }
-    parts.add(_join(verses));
+    parts.addAll(verses.map((v) => v.text));
   }
-  return parts.join('\n');
+  return _flatten(parts);
 }
 
 /// Verses of [rows] from [from] to [to] (whole chapter side when null).
@@ -148,19 +149,16 @@ List<BibleVerse> _slice(
   return rows.sublist(i, j + 1);
 }
 
-String _join(List<BibleVerse> verses) {
-  final out = StringBuffer();
-  for (var i = 0; i < verses.length; i++) {
-    final text = verses[i].text.trim();
-    if (i > 0) {
-      final poetry =
-          verses[i - 1].text.contains('\n') || verses[i].text.contains('\n');
-      out.write(poetry ? '\n' : ' ');
-    }
-    out.write(text);
-  }
-  return out.toString();
-}
+/// Joins verse texts into one line: every line break, with the spaces and
+/// indentation (no-break spaces) around it, becomes one space, and runs of
+/// ordinary spaces are collapsed. Other no-break spaces (before ; : ! ? »
+/// and after «) are kept as they are.
+String _flatten(List<String> texts) => texts
+    .map((t) => t.trim())
+    .where((t) => t.isNotEmpty)
+    .join(' ')
+    .replaceAll(RegExp(r'[ \t\r\u00a0\u202f]*\n[ \t\r\n\u00a0\u202f]*'), ' ')
+    .replaceAll(RegExp(r' {2,}'), ' ');
 
 /// Fills the `content` of readings stored by reference only, from
 /// [provider]. Readings that already have a content are kept as they are;

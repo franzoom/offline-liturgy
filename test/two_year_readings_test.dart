@@ -1,0 +1,103 @@
+// The Office of Readings can follow the two-year cycle of biblical readings:
+// ferial files carry biblicalReadingEven / biblicalReadingOdd next to the
+// annual biblicalReading, and CelebrationContext.twoYearReadingCycle selects
+// the variant by the parity of the liturgical year. The variants carry no
+// responsory (the annual one of the same rank is used) and no content (the
+// text comes from the Bible provider).
+
+import 'dart:io';
+
+import 'package:test/test.dart';
+import 'package:offline_liturgy/offline_liturgy.dart';
+
+import 'tools/sqlite_bible_text_provider.dart';
+
+String _flat(String? s) => (s ?? '').replaceAll(RegExp(r'[\s  ]+'), ' ');
+
+void main() {
+  group('Readings.fromJson biblicalCycle', () {
+    final data = {
+      'biblicalReading': [
+        {'ref': 'A 1', 'responsory': 'R/ first'},
+        {'ref': 'A 2', 'responsory': 'R/ second'},
+      ],
+      'biblicalReadingEven': [
+        {'ref': 'E 1'},
+        {'ref': 'E 2'},
+        {'ref': 'E 3'},
+        {'ref': 'E 4', 'responsory': 'R/ own'},
+      ],
+    };
+
+    test('no cycle keeps the annual reading', () {
+      final r = Readings.fromJson(data);
+      expect(r.biblicalReading!.map((b) => b.ref), ['A 1', 'A 2']);
+    });
+
+    test('a variant takes the annual responsory of the same rank', () {
+      final r = Readings.fromJson(data, biblicalCycle: 'Even');
+      expect(
+          r.biblicalReading!.map((b) => b.ref), ['E 1', 'E 2', 'E 3', 'E 4']);
+      expect(r.biblicalReading!.map((b) => b.responsory),
+          ['R/ first', 'R/ second', 'R/ first', 'R/ own']);
+    });
+
+    test('a missing variant falls back to the annual reading', () {
+      final r = Readings.fromJson(data, biblicalCycle: 'Odd');
+      expect(r.biblicalReading!.map((b) => b.ref), ['A 1', 'A 2']);
+    });
+  });
+
+  test('twoYearReadingCycle follows the liturgical year parity', () {
+    expect(twoYearReadingCycle(2026), 'Even');
+    expect(twoYearReadingCycle(2027), 'Odd');
+  });
+
+  // Tuesday of the 10th week in Ordinary Time (ot_10_2): annual Jos 2,
+  // even years Ph 1,27 – 2,11, odd years Jos 2 again.
+  final cases = <String, (int, bool, String, String)>{
+    'annual cycle': (2026, false, 'Jos 2, 1-24', 'Depuis Shittim'),
+    'two-year cycle, even year': (
+      2026,
+      true,
+      'Ph 1, 27 – 2, 11',
+      'Quant à vous'
+    ),
+    'two-year cycle, odd year': (2027, true, 'Jos 2, 1-24', 'Depuis Shittim'),
+  };
+  final dbFile = File(bibleDbPath);
+  final provider =
+      dbFile.existsSync() ? SqliteBibleTextProvider(dbFile.path) : null;
+  tearDownAll(() => provider?.close());
+
+  group('Office of Readings on ot_10_2', () {
+    for (final entry in cases.entries) {
+      test(entry.key, () async {
+        final (year, twoYears, expectedRef, expectedStart) = entry.value;
+        final data = await LiturgyData.load();
+        final dataLoader = FileSystemDataLoader();
+        final calendar =
+            getCalendar(Calendar(), DateTime(year, 2, 18), 'romain', data);
+        final date = calendar.calendarData.entries
+            .firstWhere((e) =>
+                e.value.defaultCelebrationTitle == 'ot_10_2' &&
+                e.value.liturgicalYear == year)
+            .key;
+
+        final contexts = await readingsDetection(calendar, date, dataLoader);
+        final context = contexts.values
+            .firstWhere((c) => c.celebrationCode == 'ot_10_2')
+            .copyWith(
+                twoYearReadingCycle: twoYears, bibleTextProvider: provider);
+        final office = await readingsExport(context);
+
+        final reading = office.biblicalReading!.single;
+        expect(_flat(reading.ref), _flat(expectedRef));
+        expect(reading.responsory, startsWith('R/'));
+        if (provider != null) {
+          expect(reading.content, startsWith(expectedStart));
+        }
+      });
+    }
+  });
+}

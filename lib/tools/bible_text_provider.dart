@@ -154,15 +154,28 @@ List<BibleVerse> _slice(
 }
 
 /// Joins verse texts into one line: every line break, with the spaces and
-/// indentation (no-break spaces) around it, becomes one space, and runs of
-/// ordinary spaces are collapsed. Other no-break spaces (before ; : ! ? »
-/// and after «) are kept as they are.
-String _flatten(Iterable<String> texts) => texts
+/// indentation (no-break spaces) around it, becomes one space, runs of
+/// ordinary spaces are collapsed, then French spacing is applied around
+/// ; ! ? : « » (see [_frenchSpacing]).
+String _flatten(Iterable<String> texts) => _frenchSpacing(texts
     .map((t) => t.trim())
     .where((t) => t.isNotEmpty)
     .join(' ')
     .replaceAll(RegExp(r'[ \t\r\u00a0\u202f]*\n[ \t\r\n\u00a0\u202f]*'), ' ')
-    .replaceAll(RegExp(r' {2,}'), ' ');
+    .replaceAll(RegExp(r' {2,}'), ' '));
+
+/// French typography: a narrow no-break space (U+202F) before ; ! ?, a
+/// no-break space (U+00A0) before : and » and after «. The space that was
+/// there (ordinary, no-break or narrow) is replaced, never doubled, and one
+/// is inserted where there was none. In "?!" only the first mark gets a
+/// space; in "?»" the » keeps its own.
+String _frenchSpacing(String text) => text
+    .replaceAllMapped(
+        RegExp(r'(?<=[^ \u00a0\u202f;!?«])[ \u00a0\u202f]*([;!?])'),
+        (m) => '\u202f${m[1]}')
+    .replaceAllMapped(RegExp(r'(?<=[^ \u00a0\u202f«])[ \u00a0\u202f]*([:»])'),
+        (m) => '\u00a0${m[1]}')
+    .replaceAll(RegExp(r'«[ \u00a0\u202f]*'), '«\u00a0');
 
 /// Fills the `content` of readings stored by reference only, from
 /// [provider]. Readings that already have a content are kept as they are;

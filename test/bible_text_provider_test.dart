@@ -41,6 +41,9 @@ void main() {
       const BibleVerse('1', 'line 1\nline 2'),
       const BibleVerse('2', 'line 3'),
     ],
+    'Ps 4': [
+      const BibleVerse('1', 'a ; b! c ?d : e «f» g«  h » i ?! j ?» k \u00a0;'),
+    ],
     'Ps 3': [
       const BibleVerse('1', 'end\u00a0!  \n'),
       const BibleVerse('2', '\n next \n\n word'),
@@ -79,7 +82,14 @@ void main() {
 
     test('line breaks become single spaces', () async {
       expect(await bibleText('Ps 2, 1-2', bible), 'line 1 line 2 line 3');
-      expect(await bibleText('Ps 3, 1-2', bible), 'end\u00a0! next word');
+      expect(await bibleText('Ps 3, 1-2', bible), 'end\u202f! next word');
+    });
+
+    test('French spacing replaces the existing spaces', () async {
+      expect(
+          await bibleText('Ps 4, 1', bible),
+          'a\u202f; b\u202f! c\u202f?d\u00a0: e «\u00a0f\u00a0» '
+          'g«\u00a0h\u00a0» i\u202f?! j\u202f?\u00a0» k\u202f;');
     });
 
     test('unknown chapter gives null, unknown verse throws', () async {
@@ -143,6 +153,17 @@ void main() {
         for (var i = 0; i < paragraphs.length; i++) {
           expect(paragraphs[i], isNot(contains('\n')));
           expect(paragraphs[i], isNot(contains('  ')));
+          // French spacing: right kind of space, none missing
+          for (final wrong in [
+            r'[ \u00a0][;!?]',
+            r'[ \u202f][:»]',
+            r'«(?!\u00a0)',
+            r'[^ \u00a0\u202f;!?«][;!?]',
+            r'[^ \u00a0\u202f«][:»]',
+          ]) {
+            expect(paragraphs[i], isNot(contains(RegExp(wrong))),
+                reason: wrong);
+          }
           expect(paragraphs[i].endsWith('\u00a0~'), i < paragraphs.length - 1);
         }
       });

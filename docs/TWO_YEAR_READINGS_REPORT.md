@@ -114,7 +114,10 @@ Il faudra la corriger dans un second temps.
   espace. Entre deux segments (`1-15.21-28`, `6-12 ; 26, 1-6`), des versets sont sautés : le segment se termine
   par une espace insécable et `~` (la marque de coupure des données), et le suivant commence un nouveau paragraphe
   (`\n\n`, ligne vide). Vérifié sur les 745 références : un paragraphe par segment, `~` à la fin de chacun sauf
-  le dernier, aucun mot collé, aucune double espace. Les lignes sans numéro de verset (étiquettes LUI / ELLE / CHŒUR du Cantique,
+  le dernier, aucun mot collé, aucune double espace.
+- Typographie française appliquée au texte de la base : demi-espace insécable (U+202F) avant ; ! ?, espace
+  insécable (U+00A0) avant : et » et après «. L'espace existante est remplacée, quel que soit son type, et une
+  espace est ajoutée là où il n'y en avait pas. Vérifié sur les 745 références. Les lignes sans numéro de verset (étiquettes LUI / ELLE / CHŒUR du Cantique,
   « Alléluia » des Ps 106 et 117…) sont lues quand elles tombent à l'intérieur de la plage.
 - `hydrateBiblicalReadings()` : appelée à la fin de `readingsExport`, elle remplit `content` pour les lectures qui
   n'ont qu'une `ref`. Sans fournisseur, ou si la référence ne se résout pas, `content` reste vide.

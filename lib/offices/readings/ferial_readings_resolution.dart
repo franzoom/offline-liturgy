@@ -21,7 +21,8 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) {
     'lent' => _resolveLent(context),
     'easter' => _resolveEaster(context),
     _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context),
-    _ => readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader),
+    _ => readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader,
+        biblicalCycle: biblicalCycleFor(context)),
   };
 }
 
@@ -30,14 +31,17 @@ Future<Readings> _resolveOrdinaryTime(CelebrationContext context) async {
   final dayDatas = extractWeekAndDay(context.ferialCode!, 'ot');
   final int week = dayDatas[0];
   final int day = dayDatas[1];
+  final cycle = biblicalCycleFor(context);
 
   Readings ferialReadings = await readingsExtract(
       '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml',
-      context.dataLoader);
+      context.dataLoader,
+      biblicalCycle: cycle);
 
   if (week > 4) {
     Readings auxData = await readingsExtract(
-        '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
+        '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader,
+        biblicalCycle: cycle);
     ferialReadings.overlayWith(auxData);
   }
 
@@ -59,20 +63,23 @@ Future<Readings> _resolveOrdinaryTime(CelebrationContext context) async {
 Future<Readings> _resolveAdvent(CelebrationContext context) async {
   final code = context.ferialCode!;
   final dataLoader = context.dataLoader;
+  final cycle = biblicalCycleFor(context);
   late Readings ferialReadings;
 
   if (code.contains('advent_')) {
     final dayDatas = extractWeekAndDay(code, "advent");
     ferialReadings = await readingsExtract(
-        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
-        dataLoader);
+        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml', dataLoader,
+        biblicalCycle: cycle);
   } else {
     // Special Advent (Dec 17–24)
     final (:specialDay, :week, :day) = _parseSpecialAdventCode(code);
 
     final results = await Future.wait([
-      readingsExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
-      readingsExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader),
+      readingsExtract('$ferialFilePath/advent_${week}_$day.yaml', dataLoader,
+          biblicalCycle: cycle),
+      readingsExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader,
+          biblicalCycle: cycle),
     ]);
     ferialReadings = results[0];
     ferialReadings.overlayWith(results[1]);
@@ -88,6 +95,7 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
   final code = context.ferialCode!;
   final date = context.date;
   final dataLoader = context.dataLoader;
+  final cycle = biblicalCycleFor(context);
   Readings ferialReadings;
   String hymnSeason = "christmas";
 
@@ -96,21 +104,25 @@ Future<Readings> _resolveChristmas(CelebrationContext context) async {
     ferialReadings =
         await readingsExtract('$commonsFilePath/christmas.yaml', dataLoader);
     Readings proper = await readingsExtract(
-        '$ferialFilePath/christmas_${date.day}.yaml', dataLoader);
+        '$ferialFilePath/christmas_${date.day}.yaml', dataLoader,
+        biblicalCycle: cycle);
     ferialReadings.overlayWith(proper);
   } else if (code.contains('-')) {
     // Jan before Epiphany
     List<String> parts = code.split('-')[1].split('_');
     ferialReadings = await readingsExtract(
-        '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader);
+        '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader,
+        biblicalCycle: cycle);
     Readings proper = await readingsExtract(
         '$ferialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
-        dataLoader);
+        dataLoader,
+        biblicalCycle: cycle);
     ferialReadings.overlayWith(proper);
   } else {
     // After Epiphany
     ferialReadings = await readingsExtract(
-        '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader);
+        '$ferialFilePath/christmas_2_${date.weekday}.yaml', dataLoader,
+        biblicalCycle: cycle);
     hymnSeason = "after_epiphany";
   }
 
@@ -134,7 +146,7 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
 
   Readings ferialReadings = await readingsExtract(
       '$ferialFilePath/lent_${week}_$day.yaml', context.dataLoader,
-      year: year);
+      year: year, biblicalCycle: biblicalCycleFor(context));
 
   final String hymnKey = week < 5 ? "lent" : "passion";
   final lentHymns = await getHymnsForSeason(hymnKey, context.dataLoader);
@@ -145,8 +157,9 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
 // --- HOLY WEEK ---
 Future<Readings> _resolveHolyWeek(CelebrationContext context) async {
   final code = context.ferialCode!;
-  Readings ferialReadings =
-      await readingsExtract('$ferialFilePath/$code.yaml', context.dataLoader);
+  Readings ferialReadings = await readingsExtract(
+      '$ferialFilePath/$code.yaml', context.dataLoader,
+      biblicalCycle: biblicalCycleFor(context));
   final holyWeekHymns = await getHymnsForSeason("passion", context.dataLoader);
   ferialReadings.hymn = [...?ferialReadings.hymn, ...holyWeekHymns];
   return ferialReadings;
@@ -155,7 +168,8 @@ Future<Readings> _resolveHolyWeek(CelebrationContext context) async {
 // --- EASTER ---
 Future<Readings> _resolveEaster(CelebrationContext context) async {
   Readings ferialReadings = await readingsExtract(
-      '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader);
+      '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader,
+      biblicalCycle: biblicalCycleFor(context));
 
   final easterHymns = await getHymnsForSeason("easter", context.dataLoader);
   ferialReadings.hymn = [...?ferialReadings.hymn, ...easterHymns];

@@ -26,7 +26,11 @@ class Readings {
   /// Creates Readings instance from YAML data with robust type safety.
   /// [year] is the liturgical year ('A', 'B', or 'C') used to select
   /// year-specific patristic readings (keys 'patristicReadingA/B/C').
-  factory Readings.fromJson(Map<String, dynamic> data, {String? year}) {
+  /// [biblicalCycle] ('Even' or 'Odd') selects the two-year cycle biblical
+  /// reading (keys 'biblicalReadingEven/Odd'), falling back to the annual
+  /// 'biblicalReading' when the variant is missing.
+  factory Readings.fromJson(Map<String, dynamic> data,
+      {String? year, String? biblicalCycle}) {
     // Helper to parse readings which can be either a single Map or a List of Maps
     List<T>? parseReadings<T>(
         dynamic jsonValue, T Function(Map<String, dynamic>) fromJson) {
@@ -55,8 +59,9 @@ class Readings {
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),
-      biblicalReading:
-          parseReadings(data['biblicalReading'], BiblicalReading.fromJson),
+      biblicalReading: parseReadings(
+          _selectBiblicalReading(data, biblicalCycle),
+          BiblicalReading.fromJson),
       patristicReading: parseReadings(
           year != null
               ? (data['patristicReading$year'] ?? data['patristicReading'])
@@ -65,6 +70,39 @@ class Readings {
       verse: data['verse']?.toString(),
       oration: asTextList(data['oration']),
     );
+  }
+
+  /// Returns the raw biblical reading(s) for [biblicalCycle].
+  /// A two-year cycle variant carries no responsory of its own: each entry
+  /// without one takes the responsory of the annual entry of the same rank
+  /// (or of the first annual entry).
+  static dynamic _selectBiblicalReading(
+      Map<String, dynamic> data, String? biblicalCycle) {
+    final annual = data['biblicalReading'];
+    final variant =
+        biblicalCycle == null ? null : data['biblicalReading$biblicalCycle'];
+    if (variant == null) return annual;
+
+    List<Map<String, dynamic>> asMaps(dynamic value) => value is List
+        ? value.whereType<Map<String, dynamic>>().toList()
+        : value is Map<String, dynamic>
+            ? [value]
+            : const [];
+
+    final annualEntries = asMaps(annual);
+    final entries = asMaps(variant);
+    return [
+      for (var i = 0; i < entries.length; i++)
+        if (entries[i]['responsory'] != null || annualEntries.isEmpty)
+          entries[i]
+        else
+          {
+            ...entries[i],
+            'responsory': (i < annualEntries.length
+                ? annualEntries[i]
+                : annualEntries.first)['responsory'],
+          },
+    ];
   }
 
   /// Overlays this Readings instance with data from another instance

@@ -62,14 +62,15 @@ Future<Readings> readingsExport(CelebrationContext context) async {
       context.date.isSunday && lt != 'lent' && lt != 'holyweek';
   final bool isSolemnityOrFeast =
       prec <= 8 && !ferialDayCheck(context.celebrationCode);
-  final bool hasTeDeum = !isAllSouls &&
-      (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
+  final bool hasTeDeum =
+      !isAllSouls && (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;
 
   // Holy Week: assign Passion hymns if no proper hymn is defined
   if (readingsOffice.hymn == null &&
       holyWeekCodes.contains(context.celebrationCode)) {
-    readingsOffice.hymn = await getHymnsForSeason("passion", context.dataLoader);
+    readingsOffice.hymn =
+        await getHymnsForSeason("passion", context.dataLoader);
   }
 
   // Hydrate psalm and hymn content
@@ -88,6 +89,9 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 
 /// Loads proper readings by trying special_days and sanctoral paths in parallel.
 Future<Readings> _loadProperReadings(CelebrationContext context) async {
-  final filePath = await dirPathForCode(context.celebrationCode, context.dataLoader);
-  return readingsExtract('$filePath/${context.celebrationCode}.yaml', context.dataLoader);
+  final filePath =
+      await dirPathForCode(context.celebrationCode, context.dataLoader);
+  return readingsExtract(
+      '$filePath/${context.celebrationCode}.yaml', context.dataLoader,
+      biblicalCycle: biblicalCycleFor(context));
 }

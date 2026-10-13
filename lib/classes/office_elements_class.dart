@@ -352,6 +352,10 @@ class CelebrationContext {
   // (precedence <= 5), which always use their own proper readingParts
   // regardless of this flag.
   final bool useProperReadingsForMemorial;
+  // Office of Readings only. When true, the biblical reading follows the
+  // two-year cycle (biblicalReadingEven / biblicalReadingOdd in the YAML,
+  // chosen by the parity of liturgicalYear); otherwise the annual cycle.
+  final bool twoYearReadingCycle;
 
   const CelebrationContext({
     this.celebrationType,
@@ -377,6 +381,7 @@ class CelebrationContext {
     this.liturgicalYear,
     this.hasFeastReadingParts = false,
     this.useProperReadingsForMemorial = false,
+    this.twoYearReadingCycle = false,
   });
 
   /// Returns the first common from commonList.
@@ -434,6 +439,7 @@ class CelebrationContext {
     int? liturgicalYear,
     bool? hasFeastReadingParts,
     bool? useProperReadingsForMemorial,
+    bool? twoYearReadingCycle,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -463,6 +469,7 @@ class CelebrationContext {
       hasFeastReadingParts: hasFeastReadingParts ?? this.hasFeastReadingParts,
       useProperReadingsForMemorial:
           useProperReadingsForMemorial ?? this.useProperReadingsForMemorial,
+      twoYearReadingCycle: twoYearReadingCycle ?? this.twoYearReadingCycle,
     );
   }
 }

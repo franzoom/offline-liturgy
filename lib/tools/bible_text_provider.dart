@@ -95,8 +95,10 @@ List<BiblePassage> parseBibleReference(String reference) {
 /// Each segment of the reference (stretch of consecutive verses, possibly
 /// across chapters) is one paragraph: the line breaks of the source (poetry)
 /// and the joins between its verses become a single space, so that no two
-/// words end up glued together. Segments ("1-15.21-28", "6-12 ; 26, 1-6")
-/// are separated by a line break.
+/// words end up glued together. Between two segments ("1-15.21-28",
+/// "6-12 ; 26, 1-6") the text skips verses: the segment ends with a
+/// no-break space and "~" (the omission mark of the data), and the next one
+/// starts a new paragraph (blank line).
 Future<String?> bibleText(String reference, BibleTextProvider provider) async {
   final parts = <String>[];
   for (final p in parseBibleReference(reference)) {
@@ -120,7 +122,7 @@ Future<String?> bibleText(String reference, BibleTextProvider provider) async {
     }
     parts.add(_flatten(verses.map((v) => v.text)));
   }
-  return parts.join('\n');
+  return parts.join('\u00a0~\n\n');
 }
 
 /// Verses of [rows] from [from] to [to] (whole chapter side when null).

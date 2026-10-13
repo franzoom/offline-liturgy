@@ -111,8 +111,10 @@ Il faudra la corriger dans un second temps.
   Un numéro seul inclut ses sous-versets (`Est 5, 1` couvre 1a…1f), et un demi-verset absent de la base est pris en
   entier. Chaque segment de la référence (suite de versets consécutifs, éventuellement sur deux chapitres) est rendu
   en un paragraphe : les retours à la ligne de la base (poésie) et les jonctions entre versets deviennent une seule
-  espace. Les segments (`1-15.21-28`, `6-12 ; 26, 1-6`) sont séparés par un retour à la ligne. Vérifié sur les
-  745 références : une ligne par segment, aucun mot collé, aucune double espace. Les lignes sans numéro de verset (étiquettes LUI / ELLE / CHŒUR du Cantique,
+  espace. Entre deux segments (`1-15.21-28`, `6-12 ; 26, 1-6`), des versets sont sautés : le segment se termine
+  par une espace insécable et `~` (la marque de coupure des données), et le suivant commence un nouveau paragraphe
+  (`\n\n`, ligne vide). Vérifié sur les 745 références : un paragraphe par segment, `~` à la fin de chacun sauf
+  le dernier, aucun mot collé, aucune double espace. Les lignes sans numéro de verset (étiquettes LUI / ELLE / CHŒUR du Cantique,
   « Alléluia » des Ps 106 et 117…) sont lues quand elles tombent à l'intérieur de la plage.
 - `hydrateBiblicalReadings()` : appelée à la fin de `readingsExport`, elle remplit `content` pour les lectures qui
   n'ont qu'une `ref`. Sans fournisseur, ou si la référence ne se résout pas, `content` reste vide.

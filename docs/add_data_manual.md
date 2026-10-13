@@ -443,6 +443,27 @@ readings:
 
 Quand le texte patristique varie selon l'année liturgique (A/B/C), on dédouble la clef elle-même plutôt que son contenu : `patristicReadingA`, `patristicReadingB`, `patristicReadingC` au lieu de `patristicReading`. Si la clef de l'année en cours est absente, l'application se reporte automatiquement sur `patristicReading`.
 
+Une lecture biblique peut n'être donnée que par sa **référence** : sans `content`, l'application va chercher le texte dans la Bible (base biblique de l'appli, fournie au package par un `BibleTextProvider`). La référence doit alors être exacte et suivre la forme habituelle : `Jos 2, 1-24`, `Ph 1, 27 – 2, 11` (sur deux chapitres), `Is 25, 6-12 ; 26, 1-6`, `Gn 45, 1-15.21-28`, `Est 4, 17k-17z`, `Jude 1-25` (livre d'un seul chapitre). Un numéro de verset seul inclut ses sous-versets (`Est 5, 1` couvre 1, 1a…1f) ; un demi-verset (`3a`) absent de la base est pris en entier. Le test `test/bible_text_provider_test.dart` vérifie que chaque référence sans `content` se résout dans la base. Garder `content` quand le texte liturgique diffère de la Bible (incipit ajouté, traduction différente…).
+
+La lecture biblique peut aussi suivre le **cycle sur deux ans** de l'office des lectures. Les féries portent alors, à côté de `biblicalReading` (cycle annuel), deux variantes de même structure : `biblicalReadingEven` pour les années paires et `biblicalReadingOdd` pour les années impaires. La parité est celle de l'année liturgique, l'Avent comptant pour l'année suivante (l'Avent 2026 appartient à l'année 2027, impaire). L'application ne les utilise que si l'option « Office des lectures sur deux ans » est activée ; sinon, ou si la variante manque, elle prend `biblicalReading`. Ces variantes ne donnent que `title` et `ref` : le texte vient de la Bible, et le répons est celui de l'entrée de même rang de `biblicalReading`. Le `title` est l'annonce standard du livre (« Lecture du livre de Josué »), telle que la produit `readingAnnouncement()`.
+
+```yaml
+readings:
+  biblicalReading:          # cycle annuel (texte complet)
+    - title: LECTURE DU LIVRE DE JOSUÉ
+      ref: Jos 2, 1-24
+      content: |-
+        [...]
+      responsory: |-
+        [...]
+  biblicalReadingEven:      # années paires : référence seule
+    - title: Lecture de la lettre aux Philippiens
+      ref: Ph 1, 27 – 2, 11
+  biblicalReadingOdd:       # années impaires : référence seule
+    - title: Lecture du livre de Josué
+      ref: Jos 2, 1-24
+```
+
 #### `middleOfDay` (Tierce, Sexte, None)
 
 ```yaml

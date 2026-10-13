@@ -140,6 +140,12 @@
   ## Liturgical years
   sundayCycle(year) → 'A' | 'B' | 'C'  (year % 3 logic)
   Affects: patristic readings (A/B/C), evangelic antiphons, Sunday Mass readings
+  Two-year Office of Readings cycle: biblicalReadingEven / biblicalReadingOdd (ferial YAML), selected when
+  CelebrationContext.twoYearReadingCycle is true, by twoYearReadingCycle(liturgicalYear) (parity, Advent shift included);
+  falls back to biblicalReading, whose responsory fills the variant's missing one (Readings.fromJson)
+  Biblical readings may give only `ref` (no `content`): readingsExport fills the text from
+  CelebrationContext.bibleTextProvider (BibleTextProvider, lib/tools/bible_text_provider.dart), injected by the
+  consumer like DataLoader; test/bible_text_provider_test.dart checks every such ref against ../aelf-flutter/assets/bible.db
   weekdayLectionaryYear(year) → 'I' | 'II' (weekday Mass readings)
 
   ## Hierarchical commons resolution

@@ -36,7 +36,7 @@ firstVespers:
     * Christ est ressuscité !
     V/ Va vers mes frères et dis-leur : *
     V/ De mes yeux, je l’ai vu,
-    il m’a dit :R/ Réjouis-toi.
+    il m’a dit : R/ Réjouis-toi.
   evangelicAntiphon:
     common:
       - |-
@@ -69,7 +69,8 @@ readings:
   hymn:
     - comment-es-tu-foyer-de-feu
   biblicalReading:
-    - title: VOTRE VIE EST CACHÉE AVEC LE CHRIST EN DIEU
+    - title: LECTURE DE LA LETTRE AUX COLOSSIENS
+      subtitle: Votre vie est cachée avec le Christ en Dieu
       ref: Col 3, 1-17
       content: |-
         Si donc vous êtes ressuscités avec le Christ, recherchez les réalités d’en haut : c’est là qu’est le Christ, assis à la droite de Dieu. Pensez aux réalités d’en haut, non à celles de la terre. En effet, vous êtes passés par la mort, et votre vie reste cachée avec le Christ en Dieu. Quand paraîtra le Christ, votre vie, alors vous aussi, vous paraîtrez avec lui dans la gloire.
@@ -86,7 +87,7 @@ readings:
         enflammée d’amour pour lui,
         je brûlais du désir de le voir.
   patristicReading:
-    - title: HOMÉLIE DE S. GRÉGOIRE LE GRAND SUR L’ÉVANGILE DE JEAN
+    - title: HOMÉLIE DE SAINT GRÉGOIRE LE GRAND SUR L’ÉVANGILE DE JEAN
       content: |-
         Marie Madeleine, après être venue au tombeau sans y trouver le corps du Seigneur, crut qu’on l’avait enlevé et porta cette nouvelle aux disciples. Une fois venus, ceux-ci constatèrent et ils crurent qu’il en était comme elle l’avait dit. L’Évangile note aussitôt : %Après cela, les disciples rentrèrent chez eux.%Puis il ajoute : %Mais Marie restait là dehors, à pleurer.%
         À ce sujet, il faut mesurer avec quelle force l’amour avait embrasé l’âme de cette femme qui ne s’éloignait pas du tombeau du Seigneur, même lorsque les disciples l’avaient quitté. Elle recherchait celui qu’elle ne trouvait pas, elle pleurait en le cherchant, et, embrasée par le feu de son amour, elle brûlait du désir de celui qu’elle croyait enlevé. C’est pour cela qu’elle a été la seule à le voir, elle qui était restée pour le chercher, car l’efficacité d’une œuvre bonne tient à la persévérance, et la Vérité dit cette parole : %Celui qui aura persévéré jusqu’à la fin, celui-là sera sauvé.%
@@ -117,9 +118,7 @@ readings:
         R/ Heureuse Marie qui fus la première
         à voir le Fils de Dieu ressuscité des morts !
         Pour son amour tu as renoncé aux attraits du monde.
-
         * Que ta prière nous recommande au Christ glorifié.
-
         Pour qu’avec toi, nous jouissions de sa présence bienheureuse,
         * Que ta prière.
     - title: COMMENTAIRE DU PÈRE LAGRANGE SUR L’ÉVANGILE DE JESUS CHRIST
@@ -136,7 +135,6 @@ readings:
         Il est ressuscité comme il l’a dit ».
 
         * Voici qu’il vous précède en Galilée, c’est là que vous le verrez.
-
         V/ Si quelqu’un garde ma parole,
         * Voici.
 
@@ -294,8 +292,7 @@ mass:
     readingParts:
       - partType: READING_1
         partContents:
-          - number: 1
-            biblicalRef: Ct 3, 1-4a
+          - biblicalRef: Ct 3, 1-4a
             headline: « J’ai trouvé celui que mon âme désire »
             content: |-
               Paroles de la bien-aimée.
@@ -317,9 +314,7 @@ mass:
               j’ai trouvé celui que mon âme désire :
               je l’ai saisi
               et ne le lâcherai pas.
-          - number: 2
-            label: Ou bien
-            biblicalRef: 2Co 5, 14-17
+          - biblicalRef: 2Co 5, 14-17
             headline: « Nous ne connaissons plus le Christ d’une manière simplement humaine »
             content: |-
               Frères,

@@ -96,7 +96,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 Future<Readings> _loadProperReadings(CelebrationContext context) async {
   final filePath =
       await dirPathForCode(context.celebrationCode, context.dataLoader);
-  return readingsExtract(
-      '$filePath/${context.celebrationCode}.yaml', context.dataLoader,
-      biblicalCycle: biblicalCycleFor(context));
+  return readingsExtractFor(
+      context, '$filePath/${context.celebrationCode}.yaml');
 }

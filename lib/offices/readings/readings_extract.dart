@@ -9,10 +9,17 @@ import '../../tools/date_tools.dart';
 
 /// Two-year cycle key ('Even' / 'Odd') for [context], or null when the
 /// annual cycle is used.
-String? biblicalCycleFor(CelebrationContext context) =>
+String? _biblicalCycleFor(CelebrationContext context) =>
     context.twoYearReadingCycle
         ? twoYearReadingCycle(context.effectiveLiturgicalYear)
         : null;
+
+/// [readingsExtract] for [context]: its data loader and, when enabled,
+/// its two-year cycle.
+Future<Readings> readingsExtractFor(
+        CelebrationContext context, String relativePath, {String? year}) =>
+    readingsExtract(relativePath, context.dataLoader,
+        year: year, biblicalCycle: _biblicalCycleFor(context));
 
 /// Extracts Readings (Office of Readings) data from a YAML file.
 ///

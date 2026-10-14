@@ -68,9 +68,6 @@ String sundayCycle(int year) {
   return 'B';
 }
 
-@Deprecated('Use sundayCycle')
-String liturgicalYear(int year) => sundayCycle(year);
-
 /// Returns '1' or '2' for the two-year weekday Lectionary cycle
 /// (Year I in odd-numbered years, Year II in even-numbered years).
 String weekdayLectionaryYear(int year) => year.isOdd ? '1' : '2';

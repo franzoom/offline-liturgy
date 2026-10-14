@@ -31,7 +31,7 @@ Calendar getCalendar(
   // not from eventDate shifted by one civil year: Advent moves between
   // Nov 27 and Dec 3, so near its start a one-year shift can land on the
   // other side of the boundary and skip (or repeat) a liturgical year.
-  final int firstYear = _liturgicalYearOf(eventDate);
+  final int firstYear = liturgicalYearOf(eventDate);
   final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode,
       ascensionOnSunday, corpusDominiOnThursday);
   final cal2 = calendarFill(Calendar(), advent(firstYear + 1), location, data,
@@ -56,7 +56,7 @@ Calendar calendarFill(
   bool ascensionOnSunday,
   bool corpusDominiOnThursday,
 ) {
-  final int liturgicalYear = _liturgicalYearOf(eventDate);
+  final int liturgicalYear = liturgicalYearOf(eventDate);
 
   Map<String, DateTime> liturgicalMainFeasts = createLiturgicalDays(
     liturgicalYear,
@@ -95,13 +95,6 @@ Calendar calendarFill(
       liturgicalMainFeasts, data.locationData, data.knownCodes);
 
   return calendar;
-}
-
-/// Returns the liturgical year containing [date]: the civil year, or the
-/// next one from the first Sunday of Advent onwards.
-int _liturgicalYearOf(DateTime date) {
-  final adventDate = advent(date.year + 1);
-  return adventDate.isAfter(date) ? date.year : date.year + 1;
 }
 
 /// Fills Advent: the weekdays and Sundays from the 1st Sunday of Advent up

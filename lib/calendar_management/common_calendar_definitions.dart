@@ -11,6 +11,13 @@ DateTime advent(int year) {
   return christmasDay.shift(-(21 + christmasDay.weekday));
 }
 
+/// Returns the liturgical year containing [date]: the civil year, or the
+/// next one from the first Sunday of Advent onwards.
+int liturgicalYearOf(DateTime date) {
+  final adventDate = advent(date.year + 1);
+  return adventDate.isAfter(date) ? date.year : date.year + 1;
+}
+
 /// Returns the Holy Family feast date.
 /// It's the Sunday after Christmas, or Dec 30th if Christmas is a Sunday.
 DateTime holyFamily(int year) {

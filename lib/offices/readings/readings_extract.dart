@@ -6,15 +6,12 @@ import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
 import '../../tools/date_tools.dart';
-import '../../calendar_management/common_calendar_definitions.dart'
-    show liturgicalYearOf;
 
 /// Two-year cycle key ('Even' / 'Odd') for [context], or null when the
 /// annual cycle is used.
 String? biblicalCycleFor(CelebrationContext context) =>
     context.twoYearReadingCycle
-        ? twoYearReadingCycle(
-            context.liturgicalYear ?? liturgicalYearOf(context.date))
+        ? twoYearReadingCycle(context.effectiveLiturgicalYear)
         : null;
 
 /// Extracts Readings (Office of Readings) data from a YAML file.

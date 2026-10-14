@@ -3,8 +3,6 @@ import '../../classes/office_elements_class.dart';
 import '../../tools/extract_week_and_day.dart';
 import '../../tools/hymns_management.dart';
 import '../../tools/date_tools.dart';
-import '../../calendar_management/common_calendar_definitions.dart'
-    show liturgicalYearOf;
 import './readings_extract.dart';
 import '../../tools/constants.dart';
 
@@ -141,7 +139,7 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
   // patristic readings keyed as patristicReadingA/B/C in the YAML.
   final bool hasYearSpecificReading = day == 0 && (week == 4 || week == 5);
   final String? year = hasYearSpecificReading
-      ? sundayCycle(context.liturgicalYear ?? liturgicalYearOf(context.date))
+      ? sundayCycle(context.effectiveLiturgicalYear)
       : null;
 
   Readings ferialReadings = await readingsExtract(

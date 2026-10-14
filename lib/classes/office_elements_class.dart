@@ -5,6 +5,8 @@ import '../tools/data_loader.dart';
 import '../tools/bible_text_provider.dart' show BibleTextProvider;
 import '../assets/libraries/french_liturgy_labels.dart';
 import 'calendar_class.dart' show LocationOrigin;
+import '../calendar_management/common_calendar_definitions.dart'
+    show liturgicalYearOf;
 import 'psalms_class.dart';
 import 'hymns_class.dart';
 
@@ -398,6 +400,10 @@ class CelebrationContext {
     }
     return null;
   }
+
+  /// [liturgicalYear], or the liturgical year of [date] (Advent shift
+  /// included) for a context built without one.
+  int get effectiveLiturgicalYear => liturgicalYear ?? liturgicalYearOf(date);
 
   /// Returns true if this is first vespers (vespers1)
   bool get isFirstVespers => celebrationType == 'vespers1';

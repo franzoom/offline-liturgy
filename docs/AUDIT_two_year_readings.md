@@ -21,11 +21,15 @@ Ph 1, 27 – 2, 11 est suivie du répons de Jos 2. C'est documenté, mais c'est 
 → À noter comme dette de données dans le compte-rendu, idéalement avec un test qui liste les variantes concernées
 (ref ≠ ref annuelle).
 
-### 1.3 Repli `context.date.year`, faux en Avent
+### 1.3 Repli `context.date.year`, faux en Avent — ✅ fait
 `biblicalCycleFor()` ([readings_extract.dart](../lib/offices/readings/readings_extract.dart)) fait
 `liturgicalYear ?? date.year`. En Avent, `date.year` (2026) n'est pas l'année liturgique (2027) : la parité
 s'inverse. Ce repli ne sert pas aujourd'hui (voir section 4), mais il est trompeur.
 → Le calculer correctement (même règle que `_liturgicalYearOf`) ou lever une assertion. Voir 4.3.
+
+**Fait** (`6d2d1430`, `85d578bd`) : le repli utilise `liturgicalYearOf(date)`, puis le getter
+`CelebrationContext.effectiveLiturgicalYear` (`liturgicalYear ?? liturgicalYearOf(date)`) remplace le repli dans les
+quatre offices. Pas d'assertion : les contextes de Complies n'ont pas de `liturgicalYear` et n'en ont pas besoin.
 
 ## 2. Simplifications côté package
 
@@ -144,18 +148,25 @@ L'app construit ses contextes par `definition.copyWith(...)` et conserve donc `l
 
 Aucun autre calcul de cycle à partir de `date.year` dans `lib/` (package et app).
 
-### 4.3 Fragilités (pas de bug aujourd'hui)
-1. **Le repli `?? date.year` est faux dans trois endroits.** Pour morning, vespers et le cycle de deux ans, il donne
+### 4.3 Fragilités (pas de bug aujourd'hui) — ✅ toutes traitées
+1. ✅ **Le repli `?? date.year` est faux dans trois endroits.** Pour morning, vespers et le cycle de deux ans, il donne
    la mauvaise année de l'Avent au 31 décembre. Il ne s'applique que si un `CelebrationContext` est construit hors de
    `detectCelebrations` : les contextes de Complies (`compline_detection.dart`) n'ont pas de `liturgicalYear`, sans
    conséquence aujourd'hui car les Complies ne l'utilisent pas. Un même helper public `liturgicalYearOf(date)`
    (aujourd'hui `_liturgicalYearOf`, privé) utilisé dans ces replis supprimerait le risque, de même qu'un
    `liturgicalYear` requis dans `CelebrationContext`.
-2. **Homonymie.** `liturgicalYear` désigne à la fois un `int` (champ de `DayContent` et `CelebrationContext`) et une
+   **Fait** : `liturgicalYearOf()` est public, à côté de `advent()` dans `common_calendar_definitions.dart`
+   (`9c1bb06f`), et tous les replis passent par `CelebrationContext.effectiveLiturgicalYear` (`85d578bd`).
+   `mass_export.dart` garde volontairement son comportement (pas de filtrage si l'année manque).
+2. ✅ **Homonymie.** `liturgicalYear` désigne à la fois un `int` (champ de `DayContent` et `CelebrationContext`) et une
    fonction `liturgicalYear(int) → 'A'|'B'|'C'`. D'où des lignes comme `liturgicalYear(context.liturgicalYear)`.
    Renommer la fonction (`sundayCycle()`, `liturgicalYearLetter()`) clarifierait.
-3. **Paramètre inutilisé.** Dans `resolveFixedFeastDate` (`location_class.dart:76`), le paramètre `liturgicalYear`
+   **Fait** : renommée `sundayCycle()` (`b67a0711`), aelf-flutter suit (`62f0142`), l'alias déprécié est supprimé
+   (`cf2b992a`) et l'app pointe sur cette version (`3eda94d`).
+3. ✅ **Paramètre inutilisé.** Dans `resolveFixedFeastDate` (`location_class.dart:76`), le paramètre `liturgicalYear`
    n'est jamais utilisé : seuls `beginYear` et `endYear` comptent.
+   **Fait** (`5c20f9bb`) : retiré, ainsi que sur toute la chaîne qui ne faisait que le transmettre
+   (`applyCommonFeastsToCalendar`, `localCalendarFill`, `Location.applyToCalendar`).
 
 Remarque annexe : un calendrier construit depuis une date de décembre ne contient pas les jours avant l'Avent
 (28/11/2026 → null). C'est cohérent avec la construction de N et N+1 à partir de l'année liturgique, mais l'app doit
@@ -169,5 +180,5 @@ reconstruire le calendrier quand on navigue en arrière.
 1. Le point 1.1 (bloquant).
 2. D : gros gain sur les données, en plus de la fiabilité.
 3. A : lisibilité du diff.
-4. C, puis 4.3.1.
+4. C, puis 4.3.1 (✅ fait).
 Le reste est du polissage.

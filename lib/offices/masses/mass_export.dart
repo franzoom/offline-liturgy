@@ -164,8 +164,8 @@ Future<Mass> massExport(CelebrationContext context) async {
   final int? year = context.liturgicalYear;
   if (year != null) {
     final List<String> cycleKeys = context.date.isSunday
-        ? [liturgicalYear(year)]
-        : [weekdayLectionaryYear(year), liturgicalYear(year)];
+        ? [sundayCycle(year)]
+        : [weekdayLectionaryYear(year), sundayCycle(year)];
     _filterMassByCycle(selected, cycleKeys);
   }
 

@@ -69,7 +69,7 @@
       masses/                          # mass structures
     tools/
       data_loader.dart                 # abstract DataLoader + FileSystemDataLoader
-      date_tools.dart                  # DateNavigation extension (shift, isSunday, isSameDayAs) + ferialDayCheck() + liturgicalYear() + ferialNameResolution()
+      date_tools.dart                  # DateNavigation extension (shift, isSunday, isSameDayAs) + ferialDayCheck() + sundayCycle() + ferialNameResolution()
       constants.dart                   # file path constants + privilegedTimes set
       extract_week_and_day.dart        # extractWeekAndDay('ot_3_5', season) → [3, 5]
       hymns_management.dart            # getHymnsForSeason(season, dataLoader)
@@ -138,7 +138,7 @@
   advent | nativity | christmasoctave | christmas | lent | holyweek | paschaloctave | paschaltime | ot
 
   ## Liturgical years
-  liturgicalYear(year) → 'A' | 'B' | 'C'  (year % 3 logic)
+  sundayCycle(year) → 'A' | 'B' | 'C'  (year % 3 logic)
   Affects: patristic readings (A/B/C), evangelic antiphons, Sunday Mass readings
   weekdayLectionaryYear(year) → 'I' | 'II' (weekday Mass readings)
 

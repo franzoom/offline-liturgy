@@ -129,7 +129,7 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
   // patristic readings keyed as patristicReadingA/B/C in the YAML.
   final bool hasYearSpecificReading = day == 0 && (week == 4 || week == 5);
   final String? year = hasYearSpecificReading
-      ? liturgicalYear(context.liturgicalYear ?? liturgicalYearOf(context.date))
+      ? sundayCycle(context.liturgicalYear ?? liturgicalYearOf(context.date))
       : null;
 
   Readings ferialReadings = await readingsExtract(

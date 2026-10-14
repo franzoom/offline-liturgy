@@ -141,12 +141,12 @@ void main() {
         // bien, pour ne pas noyer la sortie.
         final isSunday = entry.value.date.isSunday;
         final realCycle = isSunday
-            ? liturgicalYear(entry.value.liturgicalYear ?? _year)
+            ? sundayCycle(entry.value.liturgicalYear ?? _year)
             : weekdayLectionaryYear(entry.value.liturgicalYear ?? _year);
         final candidateRefYears = isSunday ? [2026, 2027, 2028] : [2026, 2027];
         for (final refYear in candidateRefYears) {
           final cycleKey = isSunday
-              ? liturgicalYear(refYear)
+              ? sundayCycle(refYear)
               : weekdayLectionaryYear(refYear);
           if (cycleKey == realCycle) continue; // déjà couvert ci-dessus
           final variantContext = entry.value.copyWith(liturgicalYear: refYear);

@@ -37,7 +37,7 @@ bool ferialDayCheck(String celebrationCode) {
 Map<String, List<String>>? filterEvangelicAntiphon(
     Map<String, List<String>>? antiphonMap, int year) {
   if (antiphonMap == null) return null;
-  final yearKey = liturgicalYear(year);
+  final yearKey = sundayCycle(year);
   return {
     if (antiphonMap.containsKey('antiphon'))
       'antiphon': antiphonMap['antiphon']!,
@@ -54,9 +54,11 @@ Map<String, List<String>>? withoutYearCycleAntiphons(
   return generic == null ? null : {'antiphon': generic};
 }
 
-String liturgicalYear(int year) {
-  // returns the type of liturgcial year:
-  // C for multiples of 3, then A and B
+/// Returns 'A', 'B' or 'C', the three-year cycle of Sunday readings (also
+/// used for evangelic antiphons and year-specific patristic readings), for
+/// the liturgical [year] (DayContent.liturgicalYear, Advent shift included):
+/// C for multiples of 3, then A and B.
+String sundayCycle(int year) {
   switch (year % 3) {
     case 0:
       return 'C';
@@ -65,6 +67,9 @@ String liturgicalYear(int year) {
   }
   return 'B';
 }
+
+@Deprecated('Use sundayCycle')
+String liturgicalYear(int year) => sundayCycle(year);
 
 /// Returns '1' or '2' for the two-year weekday Lectionary cycle
 /// (Year I in odd-numbered years, Year II in even-numbered years).

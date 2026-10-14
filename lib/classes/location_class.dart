@@ -74,7 +74,6 @@ class LocationFeast {
 /// the whole span of liturgical years, however the window happens to
 /// fall.
 List<DateTime> resolveFixedFeastDate({
-  required int liturgicalYear,
   required int month,
   required int day,
   required DateTime beginYear,
@@ -144,7 +143,6 @@ class Location {
 
   void applyToCalendar(
     Calendar calendar,
-    int liturgicalYear,
     Map<String, DateTime> liturgicalMainFeasts, {
     Set<String> knownCodes = const {},
   }) {
@@ -152,7 +150,6 @@ class Location {
     final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
 
     List<DateTime> resolveDates(LocationFeast feast) => resolveFixedFeastDate(
-          liturgicalYear: liturgicalYear,
           month: feast.month!,
           day: feast.day!,
           beginYear: beginYear,

@@ -90,9 +90,9 @@ Calendar calendarFill(
   _fillFixedSolemnities(calendar, liturgicalMainFeasts, liturgicalYear);
 
   applyCommonFeastsToCalendar(
-      calendar, data.commonFeasts, liturgicalYear, liturgicalMainFeasts);
-  calendar = localCalendarFill(calendar, liturgicalYear, location,
-      liturgicalMainFeasts, data.locationData, data.knownCodes);
+      calendar, data.commonFeasts, liturgicalMainFeasts);
+  calendar = localCalendarFill(calendar, location, liturgicalMainFeasts,
+      data.locationData, data.knownCodes);
 
   return calendar;
 }

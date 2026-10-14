@@ -182,7 +182,6 @@ Future<Map<String, Location>> _loadLocationsFromDirectory(
 void applyCommonFeastsToCalendar(
   Calendar calendar,
   List<LocationFeast> commonFeasts,
-  int liturgicalYear,
   Map<String, DateTime> liturgicalMainFeasts,
 ) {
   final beginYear = liturgicalMainFeasts['ADVENT']!;
@@ -190,7 +189,6 @@ void applyCommonFeastsToCalendar(
 
   for (final feast in commonFeasts) {
     final feastDates = resolveFixedFeastDate(
-      liturgicalYear: liturgicalYear,
       month: feast.month!,
       day: feast.day!,
       beginYear: beginYear,

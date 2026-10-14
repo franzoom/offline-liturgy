@@ -10,7 +10,6 @@ import '../classes/location_class.dart';
 /// When empty (e.g. in tests), the function returns the calendar unchanged.
 Calendar localCalendarFill(
   Calendar calendar,
-  int liturgicalYear,
   String locationId,
   Map<String, DateTime> liturgicalMainFeasts, [
   Map<String, Location> locationData = const {},
@@ -20,7 +19,7 @@ Calendar localCalendarFill(
 
   final chain = _ancestorChain(locationId, locationData);
   for (final location in chain) {
-    location.applyToCalendar(calendar, liturgicalYear, liturgicalMainFeasts,
+    location.applyToCalendar(calendar, liturgicalMainFeasts,
         knownCodes: knownCodes);
   }
   return calendar;

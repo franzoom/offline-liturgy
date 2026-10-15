@@ -3,7 +3,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../compose_hour_prayer.dart';
+import '../compose_office.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
@@ -13,12 +13,19 @@ import '../../assets/usual_texts.dart';
 /// Priority logic: Proper > Common > Ferial base.
 Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   // 1-4. Ferial base, Common and proper layers
-  final morningOffice = await composeHourPrayer<Morning>(
+  final (office: morningOffice, proper: _) = await composeOffice<Morning>(
     celebrationContext,
     empty: Morning.new,
     ferial: () => ferialMorningResolution(celebrationContext),
     proper: (path) => morningExtract(path, celebrationContext.dataLoader),
     common: () => loadMorningHierarchicalCommon(celebrationContext),
+    overlay: (base, layer) => base.overlayWith(layer,
+        keepBaseHymns: celebrationContext.keepsSeasonHymns),
+    overlayCommon: (base, common) => base.overlayWithCommon(common),
+    // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
+    // that day's own office only, never to a celebration replacing it
+    beforeOverlays: (base) => base.evangelicAntiphon =
+        withoutYearCycleAntiphons(base.evangelicAntiphon),
   );
 
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';

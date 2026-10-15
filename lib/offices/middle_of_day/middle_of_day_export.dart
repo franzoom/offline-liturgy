@@ -5,7 +5,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_middle_of_day_resolution.dart';
 import './middle_of_day_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/celebration_index.dart';
+import '../compose_office.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
@@ -15,37 +15,17 @@ import '../../tools/date_tools.dart';
 /// Priority logic: Proper > Common > Ferial base.
 Future<MiddleOfDay> middleOfDayExport(
     CelebrationContext celebrationContext) async {
-  MiddleOfDay middleOfDayOffice = MiddleOfDay();
-
-  // 1. BASE LAYER: Load Ferial content
-  if (celebrationContext.hasFerialBase) {
-    middleOfDayOffice = await ferialMiddleOfDayResolution(celebrationContext);
-  }
-
-  // 2. Load Proper celebration data
-  MiddleOfDay properMiddleOfDay = MiddleOfDay();
-  if (celebrationContext.hasProper) {
-    properMiddleOfDay = await middleOfDayExtract(
-        await celebrationFilePath(
-            celebrationContext.celebrationCode, celebrationContext.dataLoader),
-        celebrationContext.dataLoader);
-  }
-
-  // 3. Handle Commons and Overlays based on precedence
-  final bool isMemory = celebrationContext.isMemorial;
-  if (celebrationContext.hasSelectedCommon) {
-    final MiddleOfDay commonMiddleOfDay =
-        await loadMiddleOfDayHierarchicalCommon(celebrationContext);
-    if (isMemory) {
-      middleOfDayOffice.overlayWithCommon(commonMiddleOfDay);
-    } else {
-      middleOfDayOffice.overlayWith(commonMiddleOfDay);
-    }
-  }
-
-  // 4. Apply Proper data (highest priority, always full — a Memorial's own
-  // proper psalmody/celebration data must win when present)
-  middleOfDayOffice.overlayWith(properMiddleOfDay);
+  // 1-4. Ferial base, Common and proper layers
+  final (office: middleOfDayOffice, proper: properMiddleOfDay) =
+      await composeOffice<MiddleOfDay>(
+    celebrationContext,
+    empty: MiddleOfDay.new,
+    ferial: () => ferialMiddleOfDayResolution(celebrationContext),
+    proper: (path) => middleOfDayExtract(path, celebrationContext.dataLoader),
+    common: () => loadMiddleOfDayHierarchicalCommon(celebrationContext),
+    overlay: (base, layer) => base.overlayWith(layer),
+    overlayCommon: (base, common) => base.overlayWithCommon(common),
+  );
 
   // 4b. Hymns of each hour by liturgical time, unless a layer declares its
   // own (e.g. Good Friday, Holy Saturday)

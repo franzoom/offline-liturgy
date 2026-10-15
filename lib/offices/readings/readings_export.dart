@@ -6,7 +6,7 @@ import '../../assets/usual_texts.dart';
 import './ferial_readings_resolution.dart';
 import './readings_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/celebration_index.dart';
+import '../compose_office.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/date_tools.dart';
@@ -14,41 +14,20 @@ import '../../tools/bible_text_provider.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
-  Readings readingsOffice = Readings();
-
   final String lt = context.liturgicalTime ?? '';
   final int prec = context.precedence ?? 13;
-  final bool isMemory = context.isMemorial;
-  // Memorials and feasts keep the season's hymns selectable after their own;
-  // solemnities replace them.
-  final bool keepBaseHymns = context.keepsSeasonHymns;
 
-  // STEP 1: Load Ferial data as the base layer
-  if (context.hasFerialBase) {
-    readingsOffice = await ferialReadingsResolution(context);
-  }
-
-  // STEP 2: Load Proper celebration data
-  Readings properReadings = Readings();
-  if (context.hasProper) {
-    properReadings = await readingsExtractFor(context,
-        await celebrationFilePath(context.celebrationCode, context.dataLoader));
-  }
-
-  // STEP 3: Handle Commons and Overlays
-  final bool hasCommon = context.hasSelectedCommon;
-
-  if (hasCommon) {
-    Readings commonReadings = await loadReadingsHierarchicalCommon(context);
-    if (isMemory) {
-      readingsOffice.overlayWithCommon(commonReadings);
-    } else {
-      readingsOffice.overlayWith(commonReadings, keepBaseHymns: keepBaseHymns);
-    }
-  }
-
-  // STEP 4: Apply Proper data
-  readingsOffice.overlayWith(properReadings, keepBaseHymns: keepBaseHymns);
+  // STEPS 1-4: Ferial base, Common and proper layers
+  final (office: readingsOffice, proper: _) = await composeOffice<Readings>(
+    context,
+    empty: Readings.new,
+    ferial: () => ferialReadingsResolution(context),
+    proper: (path) => readingsExtractFor(context, path),
+    common: () => loadReadingsHierarchicalCommon(context),
+    overlay: (base, layer) =>
+        base.overlayWith(layer, keepBaseHymns: context.keepsSeasonHymns),
+    overlayCommon: (base, common) => base.overlayWithCommon(common),
+  );
 
   // Readings stored by reference only take their text from the Bible
   readingsOffice.biblicalReading = await hydrateBiblicalReadings(

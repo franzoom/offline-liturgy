@@ -77,8 +77,5 @@ Map<String, List<String>>? applyPaschalToAntiphonMap(
 String paschalAntiphon(String antiphon, String liturgicalTime) {
   if (!_paschalTimes.contains(liturgicalTime)) return antiphon;
 
-  final lines = antiphon.split('\n');
-  if (lines.length == 1) return _paschalAntiphonLine(antiphon);
-
-  return lines.map(_paschalAntiphonLine).join('\n');
+  return antiphon.split('\n').map(_paschalAntiphonLine).join('\n');
 }

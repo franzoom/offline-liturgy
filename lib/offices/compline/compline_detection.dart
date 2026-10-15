@@ -179,35 +179,29 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     for (final c in tomorrowCelebrations) {
       if (ferialDayCheck(c.celebrationCode)) continue;
       final int precedence = c.precedence ?? 13;
-      final bool isTomorrowSolemnity = precedence <= 4;
-      final bool needsEveCompline = isTomorrowSolemnity;
+      // Only a solemnity has the Compline of its eve
+      if (precedence > 4) continue;
+      tomorrowHasSolemnity = true;
 
-      if (needsEveCompline) {
-        if (isTomorrowSolemnity) tomorrowHasSolemnity = true;
-
-        final String eveDescription =
-            'Complies de la veille de ${c.celebrationGlobalName}';
-        final String eveCelebrationType =
-            isTomorrowSolemnity ? 'solemnityeve' : 'normal';
-
-        possibleComplines[eveDescription] = ComplineDefinition(
-          context: CelebrationContext(
-            celebrationCode: c.celebrationCode,
-            celebrationTitle: c.celebrationTitle,
-            ferialCode: c.ferialCode ?? '',
-            date: date,
-            liturgicalTime: liturgicalTime,
-            precedence: precedence,
-            liturgicalColor: c.liturgicalColor ?? 'green',
-            isCelebrable: true,
-            celebrationType: eveCelebrationType,
-            officeDescription: eveDescription,
-            dataLoader: dataLoader,
-          ),
-          dayOfCompline: 'saturday',
-          isEveCompline: true,
-        );
-      }
+      final String eveDescription =
+          'Complies de la veille de ${c.celebrationGlobalName}';
+      possibleComplines[eveDescription] = ComplineDefinition(
+        context: CelebrationContext(
+          celebrationCode: c.celebrationCode,
+          celebrationTitle: c.celebrationTitle,
+          ferialCode: c.ferialCode ?? '',
+          date: date,
+          liturgicalTime: liturgicalTime,
+          precedence: precedence,
+          liturgicalColor: c.liturgicalColor ?? 'green',
+          isCelebrable: true,
+          celebrationType: 'solemnityeve',
+          officeDescription: eveDescription,
+          dataLoader: dataLoader,
+        ),
+        dayOfCompline: 'saturday',
+        isEveCompline: true,
+      );
     }
   }
 

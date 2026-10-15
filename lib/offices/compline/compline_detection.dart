@@ -108,7 +108,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       context: CelebrationContext(
         celebrationCode: c.celebrationCode,
         celebrationTitle: c.celebrationTitle,
-        ferialCode: c.ferialCode ?? '',
+        ferialCode: c.ferialCode,
         date: date,
         liturgicalTime: liturgicalTime,
         precedence: c.precedence ?? 1,
@@ -152,7 +152,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       context: CelebrationContext(
         celebrationCode: c.celebrationCode,
         celebrationTitle: c.celebrationTitle,
-        ferialCode: c.ferialCode ?? '',
+        ferialCode: c.ferialCode,
         date: date,
         liturgicalTime: liturgicalTime,
         precedence: precedence,
@@ -189,7 +189,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         context: CelebrationContext(
           celebrationCode: c.celebrationCode,
           celebrationTitle: c.celebrationTitle,
-          ferialCode: c.ferialCode ?? '',
+          ferialCode: c.ferialCode,
           date: date,
           liturgicalTime: liturgicalTime,
           precedence: precedence,

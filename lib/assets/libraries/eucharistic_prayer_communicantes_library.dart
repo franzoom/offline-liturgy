@@ -1,43 +1,10 @@
-import 'dart:developer';
-
 import 'package:yaml/yaml.dart';
-import '../../../classes/mass_class.dart';
-import '../../../tools/data_loader.dart';
+import '../../classes/mass_class.dart';
+import 'text_library.dart';
 
-/// Eucharistic prayer Communicantes inserts library - loads from individual
-/// YAML files under mass_missal/eucharistic_prayer_communicantes/, with lazy
-/// loading and caching.
-class EucharisticPrayerCommunicantesLibrary {
-  /// Content-addressed by code — not by which DataLoader instance fetched
-  /// it, since a fresh loader is created per call in some consumers (e.g.
-  /// Flutter) despite always resolving the same underlying asset source.
-  static final Map<String, EucharisticPrayerCommunicantes> _cache = {};
-
-  /// Gets a single eucharistic prayer Communicantes insert by code (lazy
-  /// loading).
-  static Future<EucharisticPrayerCommunicantes?>
-      getEucharisticPrayerCommunicantes(
-    String code,
-    DataLoader dataLoader,
-  ) async {
-    final cached = _cache[code];
-    if (cached != null) return cached;
-
-    try {
-      final content = await dataLoader
-          .loadYaml('mass_missal/eucharistic_prayer_communicantes/$code.yaml');
-      if (content.isEmpty) {
-        log('Eucharistic prayer Communicantes file not found or empty for code: $code',
-            name: 'EucharisticPrayerCommunicantesLibrary', level: 900);
-        return null;
-      }
-      final insert =
-          EucharisticPrayerCommunicantes.fromJson(loadYaml(content) as List);
-      return _cache[code] = insert;
-    } catch (e) {
-      log('Error loading eucharistic prayer Communicantes $code',
-          name: 'EucharisticPrayerCommunicantesLibrary', level: 1000, error: e);
-      return null;
-    }
-  }
-}
+/// Communicantes inserts of the eucharistic prayers, from
+/// assets/mass_missal/eucharistic_prayer_communicantes/.
+final communicantesLibrary = TextLibrary<EucharisticPrayerCommunicantes>(
+    'mass_missal/eucharistic_prayer_communicantes',
+    (content) =>
+        EucharisticPrayerCommunicantes.fromJson(loadYaml(content) as List));

@@ -28,11 +28,13 @@ enum LocationGeography {
       };
 }
 
+/// A feast of a location (or of the universal Roman calendar): on a fixed
+/// [month]/[day], or [shift] days from the movable feast [relativeTo].
 class LocationFeast {
   final String key;
   final int? month;
   final int? day;
-  final int? precedence;
+  final int precedence;
   final String? relativeTo;
   final int? shift;
 
@@ -40,19 +42,30 @@ class LocationFeast {
     required this.key,
     this.month,
     this.day,
-    this.precedence,
+    required this.precedence,
     this.relativeTo,
     this.shift,
   });
 
+  /// Reads a feast entry, checking it right away: a malformed entry is
+  /// reported with its key here rather than failing later while the
+  /// calendar is filled.
   factory LocationFeast.fromYaml(String key, dynamic data) {
     if (data is! Map) throw FormatException('Feast "$key" must be a YAML map');
+    final precedence = data['precedence'];
+    if (precedence is! int) {
+      throw FormatException('Feast "$key" has no integer precedence');
+    }
+    final relativeTo = data['relativeTo'] as String?;
+    if (relativeTo == null && (data['month'] is! int || data['day'] is! int)) {
+      throw FormatException('Feast "$key" needs month and day, or relativeTo');
+    }
     return LocationFeast(
       key: key,
       month: data['month'] as int?,
       day: data['day'] as int?,
-      precedence: data['precedence'] as int?,
-      relativeTo: data['relativeTo'] as String?,
+      precedence: precedence,
+      relativeTo: relativeTo,
       shift: data['shift'] as int?,
     );
   }
@@ -167,7 +180,7 @@ class Location {
           if (!d.isBefore(beginYear) && !d.isAfter(endYear)) {
             final key = prefixed(feast.key);
             final storedKey = calendar.addItemRelatedToFeast(
-                baseDate, shift, feast.precedence!, key,
+                baseDate, shift, feast.precedence, key,
                 knownCodes: knownCodes);
             calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
           }
@@ -175,7 +188,7 @@ class Location {
       } else {
         for (final d in resolveDates(feast)) {
           final key = prefixed(feast.key);
-          final storedKey = calendar.addItemToDay(d, feast.precedence!, key,
+          final storedKey = calendar.addItemToDay(d, feast.precedence, key,
               knownCodes: knownCodes);
           calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
         }
@@ -185,7 +198,7 @@ class Location {
     for (final feast in moveFeasts) {
       for (final d in resolveDates(feast)) {
         final resolvedKey =
-            calendar.moveItemToDate(feast.key, d, feast.precedence!);
+            calendar.moveItemToDate(feast.key, d, feast.precedence);
         if (resolvedKey != null) {
           calendar.setFeastOrigin(d, resolvedKey, frenchName, frenchLocative);
         }

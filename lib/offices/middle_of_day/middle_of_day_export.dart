@@ -75,8 +75,7 @@ Future<MiddleOfDay> middleOfDayExport(
       _sundayIOnSundayCodes.contains(celebrationContext.celebrationCode)) {
     middleOfDayOffice.psalmody =
         sunday1PsalmsForMiddleOfDay.map((c) => PsalmEntry(psalm: c)).toList();
-  } else if (celebrationContext.precedence != null &&
-      celebrationContext.precedence! <= 4) {
+  } else if ((celebrationContext.precedence ?? 13) <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
       // The celebration's OWN psalmody, not middleOfDayOffice.psalmody —

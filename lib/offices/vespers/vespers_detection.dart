@@ -34,29 +34,28 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   DateTime date,
   DataLoader dataLoader,
 ) async {
-  // 1. Detect celebrations for today (these will be II Vespers)
-  final todayCelebrations =
-      await detectOfficeCelebrations(calendar, date, dataLoader);
+  // 1. Detect celebrations for today (II Vespers) and tomorrow (potential
+  // I Vespers), in parallel
+  final tomorrow = date.shift(1);
+  final [todayCelebrations, tomorrowCelebrations] = await Future.wait([
+    detectOfficeCelebrations(calendar, date, dataLoader),
+    detectOfficeCelebrations(calendar, tomorrow, dataLoader),
+  ]);
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
-  bool isHolyWeekCell(CelebrationContext c) =>
-      holyWeekCodes.contains(c.celebrationCode);
-
-  if (todayCelebrations.any(isHolyWeekCell)) {
-    final c = todayCelebrations.firstWhere(isHolyWeekCell);
-    final Map<String, CelebrationContext> result = {};
-    result[c.celebrationTitle ?? c.celebrationCode] = c.copyWith(
-      celebrationType: 'vespers2',
-      isCelebrable: true,
-      officeDescription: c.celebrationGlobalName,
-    );
-    return result;
+  final holyWeekCelebration = todayCelebrations
+      .where((c) => holyWeekCodes.contains(c.celebrationCode))
+      .firstOrNull;
+  if (holyWeekCelebration != null) {
+    final c = holyWeekCelebration;
+    return {
+      c.celebrationTitle ?? c.celebrationCode: c.copyWith(
+        celebrationType: 'vespers2',
+        isCelebrable: true,
+        officeDescription: c.celebrationGlobalName,
+      ),
+    };
   }
-
-  // 2. Detect celebrations for tomorrow (potential I Vespers)
-  final tomorrow = date.shift(1);
-  final tomorrowCelebrations =
-      await detectOfficeCelebrations(calendar, tomorrow, dataLoader);
 
   // 3. Filter tomorrow's celebrations that qualify for First Vespers
   // All Sundays have First Vespers, plus high-precedence celebrations
@@ -76,11 +75,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   //
   // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
   // no First Vespers of the next day are celebrated — all octave days are equal.
-  final bool isEasterOctave = todayCelebrations.any((c) {
-    final code =
-        c.ferialCode?.isNotEmpty == true ? c.ferialCode! : c.celebrationCode;
-    return RegExp(r'^easter_1_[0-6]$').hasMatch(code);
-  });
+  final bool isEasterOctave =
+      todayCelebrations.any((c) => c.liturgicalTime == 'paschaloctave');
 
   // First Vespers of these feasts are only celebrated when they fall on a
   // Sunday (Holy Family: on its usual Sunday, First Vespers is its own; when
@@ -127,20 +123,20 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     return true;
   }
 
+  int precedenceOf(CelebrationContext c) => c.precedence ?? _defaultPrecedence;
+
   final firstVespersCandidates = isEasterOctave
       ? <CelebrationContext>[]
       : tomorrowCelebrations
           .where((c) =>
               isFirstVespersAllowed(c) &&
-              ((tomorrow.isSunday &&
-                      (c.precedence ?? _defaultPrecedence) <= 6) ||
+              ((tomorrow.isSunday && precedenceOf(c) <= 6) ||
                   (!ferialDayCheck(c.celebrationCode) &&
                       !date.isSunday &&
-                      (c.precedence ?? _defaultPrecedence) <=
-                          _firstVespersPrecedenceThreshold) ||
+                      precedenceOf(c) <= _firstVespersPrecedenceThreshold) ||
                   (date.isSunday &&
                       !ferialDayCheck(c.celebrationCode) &&
-                      (c.precedence ?? _defaultPrecedence) <= 3)))
+                      precedenceOf(c) <= 3)))
           .toList();
 
   // 4. Build the result map
@@ -156,16 +152,12 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // Calculate the highest priority (lowest numerical value) for today
   final int highestTodayPrecedence = vespersEligible.isEmpty
       ? _defaultPrecedence
-      : vespersEligible
-          .map((c) => c.precedence ?? _defaultPrecedence)
-          .reduce(min);
+      : vespersEligible.map(precedenceOf).reduce(min);
 
   // Calculate the highest priority (lowest numerical value) for tomorrow
   final int highestTomorrowPrecedence = firstVespersCandidates.isEmpty
       ? _defaultPrecedence
-      : firstVespersCandidates
-          .map((c) => c.precedence ?? _defaultPrecedence)
-          .reduce(min);
+      : firstVespersCandidates.map(precedenceOf).reduce(min);
 
   // Boolean flags for high priority (Solemnities/Feasts)
   final bool hasHighPriorityToday = highestTodayPrecedence <= 6;
@@ -177,7 +169,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final bool tomorrowWinsTies = date.isSunday &&
       firstVespersCandidates.any((c) =>
           sundayTieBreakingFirstVespersCodes.contains(c.celebrationCode) &&
-          (c.precedence ?? _defaultPrecedence) == highestTomorrowPrecedence);
+          precedenceOf(c) == highestTomorrowPrecedence);
 
   // Two solemnity-level celebrations (precedence <= 4) competing for the
   // same evening are a doubtful case: practice isn't uniform (AELF kept
@@ -195,7 +187,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     // If tomorrow has First Vespers with higher precedence (lower number),
     // today's Vespers may not be celebrable
     bool isCelebrable = c.isCelebrable;
-    final int precedence = c.precedence ?? _defaultPrecedence;
+    final int precedence = precedenceOf(c);
     final bool solemnityConflict = !tomorrowWinsTies &&
         isSolemnityConflict(precedence, highestTomorrowPrecedence);
     if (hasHighPriorityTomorrow &&
@@ -205,9 +197,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
       isCelebrable = false;
     }
 
-    final bool showSecondVespersLabel = date.isSunday ||
-        (c.precedence ?? _defaultPrecedence) <=
-            _firstVespersPrecedenceThreshold;
+    final bool showSecondVespersLabel =
+        date.isSunday || precedenceOf(c) <= _firstVespersPrecedenceThreshold;
     possibleVespers.putIfAbsent(
         c.celebrationTitle ?? c.celebrationCode,
         () => c.copyWith(
@@ -231,7 +222,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     // Sunday's First Vespers. Exceptions: a solemnity conflict keeps both
     // celebrable (see isSolemnityConflict above), and a Solemnity
     // (prec. <= 3) tomorrow always is when today is a Sunday.
-    final int precedence = c.precedence ?? _defaultPrecedence;
+    final int precedence = precedenceOf(c);
     bool isCelebrable = true;
     if (hasHighPriorityToday &&
         precedence > highestTodayPrecedence &&
@@ -253,8 +244,8 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 
   // 5. Sort: celebrable options first, then by rank (Table of Liturgical
   // Days), Second Vespers before First Vespers on a tie.
-  double rankOf(CelebrationContext c) => effectivePrecedence(
-      c.precedence ?? _defaultPrecedence, c.celebrationCode);
+  double rankOf(CelebrationContext c) =>
+      effectivePrecedence(precedenceOf(c), c.celebrationCode);
 
   int compareVespers(CelebrationContext a, CelebrationContext b) {
     if (a.isCelebrable != b.isCelebrable) return a.isCelebrable ? -1 : 1;

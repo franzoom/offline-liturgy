@@ -3,7 +3,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_vespers_resolution.dart';
 import './vespers_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/celebration_index.dart';
+import '../compose_office.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
@@ -14,52 +14,15 @@ import '../../assets/usual_texts.dart';
 /// 2. Common (if applicable)
 /// 3. Proper (Sanctoral or Special)
 Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
-  Vespers vespersOffice = Vespers();
-
-  // STEP 1: Load Ferial data as the base layer
-  if (celebrationContext.hasFerialBase) {
-    vespersOffice = await ferialVespersResolution(celebrationContext);
-  }
-
-  // STEP 2: Load Proper celebration data (Sanctoral or Special files)
-  Vespers properVespers = Vespers();
-  if (celebrationContext.hasProper) {
-    // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
-    // that day's own office only — never to a celebration replacing it,
-    // whatever its rank (First Vespers included). Stripped from the ferial
-    // layer before any overlay, so that a celebration's own A/B/C
-    // antiphons would be kept.
-    vespersOffice.evangelicAntiphon =
-        withoutYearCycleAntiphons(vespersOffice.evangelicAntiphon);
-    properVespers = await vespersExtract(
-        await celebrationFilePath(
-            celebrationContext.celebrationCode, celebrationContext.dataLoader),
-        celebrationContext.dataLoader,
-        section: celebrationContext.vespersSection);
-  }
-
-  // STEP 3: Handle Commons and Overlays based on precedence
-  final bool isMemory = celebrationContext.isMemorial;
-  // Memorials and feasts keep the season's hymns selectable after their own;
-  // solemnities replace them.
-  final bool keepBaseHymns = celebrationContext.keepsSeasonHymns;
-  final bool hasCommon = celebrationContext.hasSelectedCommon;
-
-  if (hasCommon) {
-    Vespers commonVespers =
-        await loadVespersHierarchicalCommon(celebrationContext);
-
-    if (isMemory) {
-      // For Memories: Selective overlay (includes Hymn and Invitatory if provided)
-      vespersOffice.overlayWithCommon(commonVespers);
-    } else {
-      // For Solemnities/Feasts: Standard full overlay
-      vespersOffice.overlayWith(commonVespers, keepBaseHymns: keepBaseHymns);
-    }
-  }
-
-  // STEP 4: Apply Proper data (Highest priority)
-  vespersOffice.overlayWith(properVespers, keepBaseHymns: keepBaseHymns);
+  // STEPS 1-4: Ferial base, Common and proper layers
+  final vespersOffice = await composeHourPrayer<Vespers>(
+    celebrationContext,
+    empty: Vespers.new,
+    ferial: () => ferialVespersResolution(celebrationContext),
+    proper: (path) => vespersExtract(path, celebrationContext.dataLoader,
+        section: celebrationContext.vespersSection),
+    common: () => loadVespersHierarchicalCommon(celebrationContext),
+  );
 
   // Append Lucernaire hymn, except during Lent and Holy Week, unless a layer
   // (e.g. the ferial day) already lists it

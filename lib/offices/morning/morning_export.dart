@@ -3,7 +3,7 @@ import '../../classes/office_elements_class.dart';
 import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
-import '../../tools/celebration_index.dart';
+import '../compose_office.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/paschal_antiphon.dart';
@@ -12,48 +12,14 @@ import '../../assets/usual_texts.dart';
 /// Resolves the Morning Prayer (Lauds).
 /// Priority logic: Proper > Common > Ferial base.
 Future<Morning> morningExport(CelebrationContext celebrationContext) async {
-  Morning morningOffice = Morning();
-
-  // 1. BASE LAYER: Load Ferial content
-  if (celebrationContext.hasFerialBase) {
-    morningOffice = await ferialMorningResolution(celebrationContext);
-  }
-
-  // 2. Load Proper celebration data
-  Morning properMorning = Morning();
-  if (celebrationContext.hasProper) {
-    // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
-    // that day's own office only — never to a celebration replacing it,
-    // whatever its rank. Stripped from the ferial layer before any overlay,
-    // so that a celebration's own A/B/C antiphons would be kept.
-    morningOffice.evangelicAntiphon =
-        withoutYearCycleAntiphons(morningOffice.evangelicAntiphon);
-    properMorning = await morningExtract(
-        await celebrationFilePath(
-            celebrationContext.celebrationCode, celebrationContext.dataLoader),
-        celebrationContext.dataLoader);
-  }
-
-  // 3. Handle Commons and Overlays based on precedence
-  final bool isMemory = celebrationContext.isMemorial;
-  // Memorials and feasts keep the season's hymns selectable after their own;
-  // solemnities replace them.
-  final bool keepBaseHymns = celebrationContext.keepsSeasonHymns;
-  if (celebrationContext.hasSelectedCommon) {
-    final Morning commonMorning =
-        await loadMorningHierarchicalCommon(celebrationContext);
-    if (isMemory) {
-      // Memorials: selective overlay (excludes psalmody/celebration)
-      morningOffice.overlayWithCommon(commonMorning);
-    } else {
-      // Solemnities/Feasts: full overlay
-      morningOffice.overlayWith(commonMorning, keepBaseHymns: keepBaseHymns);
-    }
-  }
-
-  // 4. Apply Proper data (highest priority, always full — a Memorial's own
-  // proper psalmody/celebration data must win when present)
-  morningOffice.overlayWith(properMorning, keepBaseHymns: keepBaseHymns);
+  // 1-4. Ferial base, Common and proper layers
+  final morningOffice = await composeHourPrayer<Morning>(
+    celebrationContext,
+    empty: Morning.new,
+    ferial: () => ferialMorningResolution(celebrationContext),
+    proper: (path) => morningExtract(path, celebrationContext.dataLoader),
+    common: () => loadMorningHierarchicalCommon(celebrationContext),
+  );
 
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
 
@@ -69,8 +35,9 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
         {};
     morningOffice.invitatory = Invitatory(
       antiphon: morningOffice.invitatory!.antiphon,
-      psalms:
-          invitatoryPsalms.where((psalm) => !usedPsalms.contains(psalm)).toList(),
+      psalms: invitatoryPsalms
+          .where((psalm) => !usedPsalms.contains(psalm))
+          .toList(),
     );
   }
 

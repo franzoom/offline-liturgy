@@ -432,22 +432,6 @@ class Mass {
       if (index >= 0) ownParts.add(commonParts[index]);
     }
   }
-
-  bool get isEmpty =>
-      massType == null &&
-      name == null &&
-      note == null &&
-      (entranceAntiphon == null || entranceAntiphon!.isEmpty) &&
-      (collect == null || collect!.isEmpty) &&
-      (readingParts == null || readingParts!.isEmpty) &&
-      (offeringPrayer == null || offeringPrayer!.isEmpty) &&
-      (prefaceList == null || prefaceList!.isEmpty) &&
-      (communionAntiphon == null || communionAntiphon!.isEmpty) &&
-      (prayerAfterCommunion == null || prayerAfterCommunion!.isEmpty) &&
-      (prayerOnThePeople == null || prayerOnThePeople!.isEmpty) &&
-      (solemnBlessingList == null || solemnBlessingList!.isEmpty) &&
-      (sequence == null || sequence!.isEmpty) &&
-      eucharisticPrayerCommunicantes == null;
 }
 
 /// Container for all Mass types of a given liturgical day.
@@ -514,6 +498,4 @@ class Masses {
       }
     }
   }
-
-  bool get isEmpty => masses == null || masses!.isEmpty;
 }

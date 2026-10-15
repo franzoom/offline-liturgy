@@ -120,14 +120,4 @@ class Readings {
       patristicReading = common.patristicReading;
     if (common.oration != null) oration = common.oration;
   }
-
-  bool get isEmpty =>
-      celebration == null &&
-      (hymn == null || hymn!.isEmpty) &&
-      (psalmody == null || psalmody!.isEmpty) &&
-      (biblicalReading == null || biblicalReading!.isEmpty) &&
-      (patristicReading == null || patristicReading!.isEmpty) &&
-      teDeum == null &&
-      (verse == null || verse!.isEmpty) &&
-      (oration == null || oration!.isEmpty);
 }

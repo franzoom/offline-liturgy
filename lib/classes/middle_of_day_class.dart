@@ -132,18 +132,4 @@ class MiddleOfDay {
     }
     if (common.oration != null) oration = common.oration;
   }
-
-  bool get isEmpty =>
-      celebration == null &&
-      psalmody == null &&
-      psalmodyTierce == null &&
-      psalmodySexte == null &&
-      psalmodyNone == null &&
-      hymnTierce == null &&
-      hymnSexte == null &&
-      hymnNone == null &&
-      tierce == null &&
-      sexte == null &&
-      none == null &&
-      oration == null;
 }

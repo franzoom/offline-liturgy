@@ -1,4 +1,4 @@
-/// gradual Psalm for Middle of Day offices in Solmenity
+/// Gradual psalms of the Middle of Day offices on solemnities
 const Map<String, List<List<String>>> gradualPsalms = {
   "tierce": [
     ["PSALM_119", "J’ai crié : le Seigneur m'a répondu."],

@@ -71,8 +71,7 @@ Future<MiddleOfDay> middleOfDayExport(
           : null;
   if (baptismMondayPsalmody != null) {
     middleOfDayOffice.psalmody = baptismMondayPsalmody;
-  } else if (celebrationContext.precedence != null &&
-      celebrationContext.precedence! <= 4) {
+  } else if ((celebrationContext.precedence ?? 13) <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
       // The celebration's OWN psalmody, not middleOfDayOffice.psalmody —

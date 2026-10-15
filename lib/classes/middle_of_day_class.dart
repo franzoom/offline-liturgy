@@ -2,7 +2,6 @@ import 'office_elements_class.dart';
 
 /// Class representing the Middle of Day Prayer (Tierce, Sexte, None) structure
 class MiddleOfDay {
-  Celebration? celebration;
   List<PsalmEntry>? psalmody; // shared psalms (same for all three hours)
   List<PsalmEntry>?
       psalmodyTierce; // gradual psalms for tierce (solemnity weekday)
@@ -18,7 +17,6 @@ class MiddleOfDay {
   List<String>? oration;
 
   MiddleOfDay({
-    this.celebration,
     this.psalmody,
     this.psalmodyTierce,
     this.psalmodySexte,
@@ -49,9 +47,6 @@ class MiddleOfDay {
     }
 
     return MiddleOfDay(
-      celebration: data['celebration'] is Map<String, dynamic>
-          ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
-          : null,
       psalmody: asYamlList(data['psalmody'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
@@ -74,8 +69,6 @@ class MiddleOfDay {
 
   /// Overlays this MiddleOfDay instance with data from another instance
   void overlayWith(MiddleOfDay overlay) {
-    if (overlay.celebration != null) celebration = overlay.celebration;
-
     psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
     if (overlay.hymnTierce != null) hymnTierce = overlay.hymnTierce;

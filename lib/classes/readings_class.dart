@@ -3,7 +3,6 @@ import 'hymns_class.dart';
 
 /// Class representing the Office of Readings (Leçons) structure
 class Readings {
-  Celebration? celebration;
   List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
   List<BiblicalReading>? biblicalReading;
@@ -13,7 +12,6 @@ class Readings {
   List<String>? oration;
 
   Readings({
-    this.celebration,
     this.hymn,
     this.psalmody,
     this.biblicalReading,
@@ -56,9 +54,6 @@ class Readings {
             data['biblicalReading$biblicalCycle'], BiblicalReading.fromJson);
 
     return Readings(
-      celebration: data['celebration'] is Map<String, dynamic>
-          ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
-          : null,
       hymn: asYamlList(data['hymn'])
           ?.map(HymnEntry.fromJson)
           .whereType<HymnEntry>()
@@ -90,7 +85,6 @@ class Readings {
   /// first and the current ones stay selectable after them; otherwise the
   /// overlay's hymns replace them.
   void overlayWith(Readings overlay, {bool keepBaseHymns = false}) {
-    if (overlay.celebration != null) celebration = overlay.celebration;
     if (keepBaseHymns) {
       hymn = mergeHymns(hymn, overlay.hymn);
     } else if (overlay.hymn != null) {

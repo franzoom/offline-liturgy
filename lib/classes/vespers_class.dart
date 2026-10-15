@@ -3,7 +3,6 @@ import 'hour_prayer_class.dart';
 /// Class representing the Vespers (Evening Prayer) structure
 class Vespers extends HourPrayer {
   Vespers({
-    super.celebration,
     super.hymn,
     super.psalmody,
     super.reading,

@@ -6,7 +6,6 @@ class Morning extends HourPrayer {
   Invitatory? invitatory;
 
   Morning({
-    super.celebration,
     this.invitatory,
     super.hymn,
     super.psalmody,

@@ -10,36 +10,6 @@ import '../calendar_management/common_calendar_definitions.dart'
 import 'psalms_class.dart';
 import 'hymns_class.dart';
 
-/// Represents celebration information (Title, Color, Precedence)
-class Celebration {
-  final String? title;
-  final String? subtitle;
-  final String? description;
-  final List<String>? commons;
-  final int? precedence;
-  final String? color;
-
-  const Celebration({
-    this.title,
-    this.subtitle,
-    this.description,
-    this.commons,
-    this.precedence,
-    this.color,
-  });
-
-  factory Celebration.fromJson(Map<String, dynamic> json) {
-    return Celebration(
-      title: json['title']?.toString(),
-      subtitle: json['subtitle']?.toString(),
-      description: json['description']?.toString(),
-      commons: asYamlList(json['commons'])?.map((e) => e.toString()).toList(),
-      precedence: json['precedence'] as int?,
-      color: json['color']?.toString(),
-    );
-  }
-}
-
 /// Invitatory with antiphon and psalms
 class Invitatory {
   final List<String>? antiphon;

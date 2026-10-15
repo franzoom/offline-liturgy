@@ -46,8 +46,8 @@ Future<MiddleOfDay> middleOfDayExport(
   // proper psalmody/celebration data must win when present)
   middleOfDayOffice.overlayWith(properMiddleOfDay);
 
-  // 4b. HYMN FALLBACK: solemnities without a ferialCode (e.g. Ascension, Christmas)
-  // never enter ferialMiddleOfDayResolution, so hymns must be assigned here.
+  // 4b. Hymns of each hour by liturgical time, unless a layer declares its
+  // own (e.g. Good Friday, Holy Saturday)
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
   middleOfDayOffice.hymnTierce ??=
       await getTierceHymns(liturgicalTime, celebrationContext.dataLoader);

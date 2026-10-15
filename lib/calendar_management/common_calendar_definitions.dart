@@ -121,7 +121,15 @@ DateTime lastSundayOfOctober(int year) {
 }
 
 /// Main function to generate all movable feasts for a liturgical year.
-Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
+/// [ascensionOnSunday] moves the Ascension to the 7th Sunday of Easter,
+/// [corpusDominiOnThursday] keeps Corpus Christi on the Thursday after the
+/// Holy Trinity.
+Map<String, DateTime> createLiturgicalDays(
+  int year,
+  String epiphanyDay, {
+  bool ascensionOnSunday = false,
+  bool corpusDominiOnThursday = false,
+}) {
   log('Defining variable feasts dates for liturgical year $year',
       name: 'CommonCalendarDefinitions', level: 800);
   Map<String, DateTime> liturgicalDays = {};
@@ -149,10 +157,11 @@ Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
 
   liturgicalDays['SAINT_JOSEPH'] = saintJoseph(easterDay);
 
-  liturgicalDays['ASCENSION'] = easterDay.shift(39);
+  liturgicalDays['ASCENSION'] = easterDay.shift(ascensionOnSunday ? 42 : 39);
   liturgicalDays['PENTECOST'] = easterDay.shift(49);
   liturgicalDays['HOLY_TRINITY'] = easterDay.shift(56);
-  liturgicalDays['CORPUS_DOMINI'] = easterDay.shift(63);
+  liturgicalDays['CORPUS_DOMINI'] =
+      easterDay.shift(corpusDominiOnThursday ? 60 : 63);
 
   final DateTime sacredHeartDay = easterDay.shift(68);
   liturgicalDays['SACRED_HEART'] = sacredHeartDay;

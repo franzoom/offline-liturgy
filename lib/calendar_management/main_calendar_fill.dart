@@ -27,15 +27,15 @@ Calendar getCalendar(
           getCorpusDominiDate(location, data.locationData)) ==
       'thursday';
 
-  // The second year starts from the first Sunday of Advent of year N+1,
-  // not from eventDate shifted by one civil year: Advent moves between
-  // Nov 27 and Dec 3, so near its start a one-year shift can land on the
-  // other side of the boundary and skip (or repeat) a liturgical year.
+  // Years N and N+1 by liturgical year, not by shifting eventDate one civil
+  // year: Advent moves between Nov 27 and Dec 3, so near its start a
+  // one-year shift could land on the other side of the boundary and skip
+  // (or repeat) a liturgical year.
   final int firstYear = liturgicalYearOf(eventDate);
-  final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode,
+  final cal1 = calendarFill(firstYear, location, data, epiphanyMode,
       ascensionOnSunday, corpusDominiOnThursday);
-  final cal2 = calendarFill(Calendar(), advent(firstYear + 1), location, data,
-      epiphanyMode, ascensionOnSunday, corpusDominiOnThursday);
+  final cal2 = calendarFill(firstYear + 1, location, data, epiphanyMode,
+      ascensionOnSunday, corpusDominiOnThursday);
 
   calendar.calendarData.addAll(cal1.calendarData);
   calendar.calendarData.addAll(cal2.calendarData);
@@ -48,30 +48,20 @@ Calendar getCalendar(
 /// Fills one liturgical year with fixed solemnities, universal Roman feasts,
 /// and the local feast chain for [location].
 Calendar calendarFill(
-  Calendar calendar,
-  DateTime eventDate,
+  int liturgicalYear,
   String location,
   LiturgyData data,
   String epiphanyMode,
   bool ascensionOnSunday,
   bool corpusDominiOnThursday,
 ) {
-  final int liturgicalYear = liturgicalYearOf(eventDate);
-
-  Map<String, DateTime> liturgicalMainFeasts = createLiturgicalDays(
+  Calendar calendar = Calendar();
+  final liturgicalMainFeasts = createLiturgicalDays(
     liturgicalYear,
     epiphanyMode,
+    ascensionOnSunday: ascensionOnSunday,
+    corpusDominiOnThursday: corpusDominiOnThursday,
   );
-
-  if (ascensionOnSunday) {
-    final easterDay = liturgicalMainFeasts['ASCENSION']!.shift(-39);
-    liturgicalMainFeasts['ASCENSION'] = easterDay.shift(42);
-  }
-
-  if (corpusDominiOnThursday) {
-    final easterDay = liturgicalMainFeasts['CORPUS_DOMINI']!.shift(-63);
-    liturgicalMainFeasts['CORPUS_DOMINI'] = easterDay.shift(60);
-  }
 
   // Each season fills itself from liturgicalMainFeasts, which already holds
   // every pivot date (Advent, Nativity, Epiphany, Baptism, Ashes, Palms,
@@ -136,18 +126,23 @@ void _fillAdvent(
 /// the Lord.
 void _fillChristmasToBaptism(
     Calendar calendar, Map<String, DateTime> feasts, int liturgicalYear) {
-  // adding the Nativity of the Lord
-  DayContent dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'nativity',
-    defaultCelebrationTitle: 'roman/nativity',
-    precedence: 2,
-    liturgicalColor: 'white',
-    breviaryWeek: 1,
-  );
-  // christmas is december, 25th of the previous year
+  // Every day of the season is white
+  void addDay(DateTime date, String liturgicalTime, String code, int precedence,
+          int breviaryWeek) =>
+      calendar.addDayContent(
+          date,
+          DayContent(
+            liturgicalYear: liturgicalYear,
+            liturgicalTime: liturgicalTime,
+            defaultCelebrationTitle: code,
+            precedence: precedence,
+            liturgicalColor: 'white',
+            breviaryWeek: breviaryWeek,
+          ));
+
+  // adding the Nativity of the Lord: december, 25th of the previous year
   DateTime date = DateTime(liturgicalYear - 1, 12, 25);
-  calendar.addDayContent(date, dayContent);
+  addDay(date, 'nativity', 'roman/nativity', 2, 1);
 
   // adding the christmas Octave
   date = date.shift(1); // begins decembre, the 26th
@@ -160,29 +155,16 @@ void _fillChristmasToBaptism(
           date.isSunday ? 'roman/holy_family_sunday' : 'roman/holy_family_week';
       precedence = 5;
     }
-    DayContent dayContent = DayContent(
-        liturgicalYear: liturgicalYear,
-        liturgicalTime: 'christmasoctave',
-        defaultCelebrationTitle: defaultCelebrationTitle,
-        precedence: precedence,
-        liturgicalColor: 'white',
-        // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
-        breviaryWeek: date.isBefore(feasts['HOLY_FAMILY']!) ? 4 : 1);
-    calendar.addDayContent(date, dayContent);
+    // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
+    addDay(date, 'christmasoctave', defaultCelebrationTitle, precedence,
+        date.isBefore(feasts['HOLY_FAMILY']!) ? 4 : 1);
     date = date.shift(1);
   }
 
-  // adding Mary Mother of God
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'roman/mary_mother_of_god',
-    precedence: 3, // Solemnity of the Blessed Virgin Mary (Table item 3)
-    liturgicalColor: 'white',
-    breviaryWeek: 1,
-  );
+  // adding Mary Mother of God (Solemnity of the Blessed Virgin Mary, Table
+  // item 3)
   date = DateTime(liturgicalYear, 1, 1);
-  calendar.addDayContent(date, dayContent);
+  addDay(date, 'christmas', 'roman/mary_mother_of_god', 3, 1);
 
   date = date.shift(1);
   // Days are counted from the Sunday on or before January 1st, so that
@@ -195,69 +177,49 @@ void _fillChristmasToBaptism(
   // days between january, 2d and the Epiphany
   DateTime epiphanyDate = feasts['EPIPHANY']!;
   while (date.isBefore(epiphanyDate)) {
-    dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmas',
-      defaultCelebrationTitle:
-          'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
+    addDay(
+      date,
+      'christmas',
+      'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
       // A Sunday here is the Second Sunday after Christmas (Epiphany kept
       // on January 6), which ranks with the Sundays of Christmas Time.
-      precedence: date.isSunday ? 6 : 13,
-      liturgicalColor: 'white',
-      breviaryWeek: (christmasFerialDays ~/ 7) % 4 + 1,
+      date.isSunday ? 6 : 13,
+      (christmasFerialDays ~/ 7) % 4 + 1,
     );
-    calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     christmasFerialDays++;
   }
 
-  // adjunction of the Epiphany
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'roman/epiphany',
-    precedence: 2, // Table item 2, with the Nativity, Ascension, Pentecost
-    liturgicalColor: 'white',
-    breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
-    // if the Epiphany is after the 6th, the Baptism of the Lord is next day, on monday.
-    // in this case the Epiphany is begining the first week of the new liturgical year,
-    // and breviaryWeek is 1.
-    // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
-    // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
-  );
+  // adjunction of the Epiphany (Table item 2, with the Nativity, Ascension,
+  // Pentecost).
+  // if the Epiphany is after the 6th, the Baptism of the Lord is next day, on monday.
+  // in this case the Epiphany is begining the first week of the new liturgical year,
+  // and breviaryWeek is 1.
+  // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
+  // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
+  final int epiphanyWeek = epiphanyDate.day > 6 ? 1 : 2;
   date = epiphanyDate;
-  calendar.addDayContent(date, dayContent);
+  addDay(date, 'christmas', 'roman/epiphany', 2, epiphanyWeek);
   date = date.shift(1);
 
   // going on with the "second week" till the Baptism of the Lord. The day
   // part is the real weekday: when Epiphany is kept on a fixed January 6,
   // the day after it is not necessarily a Monday.
   while (date.isBefore(feasts['BAPTISM']!)) {
-    dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmas',
-      defaultCelebrationTitle: 'christmas_2_${date.weekday % 7}',
-      precedence: 13,
-      liturgicalColor: 'white',
-      breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
-    );
-    calendar.addDayContent(date, dayContent);
+    addDay(
+        date, 'christmas', 'christmas_2_${date.weekday % 7}', 13, epiphanyWeek);
     date = date.shift(1);
   }
 
   // adding the Baptism of the Lord
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: date.isSunday
-        ? 'roman/baptism_of_the_lord_sunday'
-        : 'roman/baptism_of_the_lord_week',
-    precedence: 5,
-    liturgicalColor: 'white',
-    breviaryWeek: 1,
-  );
-  date = feasts['BAPTISM']!;
-  calendar.addDayContent(date, dayContent);
+  addDay(
+      date,
+      'christmas',
+      date.isSunday
+          ? 'roman/baptism_of_the_lord_sunday'
+          : 'roman/baptism_of_the_lord_week',
+      5,
+      1);
 }
 
 /// Fills Ordinary Time weeks between the Baptism of the Lord and Ash
@@ -269,18 +231,8 @@ void _fillOrdinaryTimeBeforeLent(
       ? 1
       : 2; // if Baptism is on monday, initiate the days count to 2
   while (date.isBefore(feasts['ASHES']!)) {
-    String defaultCelebrationTitle =
-        'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}';
-    int precedence = date.isSunday ? 6 : 13;
-    DayContent dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ot',
-      defaultCelebrationTitle: defaultCelebrationTitle,
-      precedence: precedence,
-      liturgicalColor: 'green',
-      breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-    );
-    calendar.addDayContent(date, dayContent);
+    calendar.addDayContent(
+        date, _ordinaryTimeDay(liturgicalYear, date, ordinaryTimeDays));
     date = date.shift(1);
     ordinaryTimeDays++;
   }
@@ -404,23 +356,15 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
   }
 
   while (date.isBefore(feasts['ASCENSION']!)) {
-    int precedence = date.isSunday ? 2 : 13;
     // From Wednesday of the 6th week (day 38) when Ascension is moved to
     // Sunday: that Wednesday then keeps its own Vespers, which differ from
     // the ones it has where Ascension falls on Thursday (First Vespers).
     final bool beforeAscensionSunday =
         ascensionOnSunday && paschalTimeDays >= 38;
-    DayContent dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'paschaltime',
-      defaultCelebrationTitle: beforeAscensionSunday
-          ? 'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}_before_ascension'
-          : 'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}',
-      precedence: precedence,
-      liturgicalColor: 'white',
-      breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
-    );
-    calendar.addDayContent(date, dayContent);
+    calendar.addDayContent(
+        date,
+        _paschalTimeDay(liturgicalYear, date, paschalTimeDays,
+            suffix: beforeAscensionSunday ? '_before_ascension' : ''));
     date = date.shift(1);
     paschalTimeDays++;
   }
@@ -441,17 +385,8 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
 
   // days between Ascension and Pentecost
   while (date.isBefore(feasts['PENTECOST']!)) {
-    int precedence = date.isSunday ? 2 : 13;
-    DayContent dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'paschaltime',
-      defaultCelebrationTitle:
-          'easter_${(paschalTimeDays ~/ 7) + 1}_${date.weekday % 7}',
-      precedence: precedence,
-      liturgicalColor: 'white',
-      breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
-    );
-    calendar.addDayContent(date, dayContent);
+    calendar.addDayContent(
+        date, _paschalTimeDay(liturgicalYear, date, paschalTimeDays));
     date = date.shift(1);
     paschalTimeDays++;
   }
@@ -480,16 +415,8 @@ void _fillOrdinaryTimeAfterPentecost(
   int ordinaryTimeDays = (32 - ordinaryWeeksLeft) * 7 + 1;
 
   while (date.isBefore(feasts['CHRIST_KING']!)) {
-    DayContent dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ot',
-      defaultCelebrationTitle:
-          'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}',
-      precedence: date.isSunday ? 6 : 13,
-      liturgicalColor: 'green',
-      breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-    );
-    calendar.addDayContent(date, dayContent);
+    calendar.addDayContent(
+        date, _ordinaryTimeDay(liturgicalYear, date, ordinaryTimeDays));
     date = date.shift(1);
     ordinaryTimeDays++;
   }
@@ -509,20 +436,38 @@ void _fillOrdinaryTimeAfterPentecost(
   ordinaryTimeDays++;
 
   while (date.isBefore(feasts['CHRIST_KING']!.shift(7))) {
-    DayContent dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'ot',
-      defaultCelebrationTitle:
-          'ot_${(ordinaryTimeDays ~/ 7) + 1}_${date.weekday % 7}',
-      precedence: 13,
-      liturgicalColor: 'green',
-      breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-    );
-    calendar.addDayContent(date, dayContent);
+    calendar.addDayContent(
+        date, _ordinaryTimeDay(liturgicalYear, date, ordinaryTimeDays));
     date = date.shift(1);
     ordinaryTimeDays++;
   }
 }
+
+/// A weekday or Sunday of Ordinary Time, [days] days after the start of its
+/// first week.
+DayContent _ordinaryTimeDay(int liturgicalYear, DateTime date, int days) =>
+    DayContent(
+      liturgicalYear: liturgicalYear,
+      liturgicalTime: 'ot',
+      defaultCelebrationTitle: 'ot_${(days ~/ 7) + 1}_${date.weekday % 7}',
+      precedence: date.isSunday ? 6 : 13,
+      liturgicalColor: 'green',
+      breviaryWeek: (days ~/ 7) % 4 + 1,
+    );
+
+/// A weekday or Sunday of Easter Time after the octave, [days] days after
+/// Easter; [suffix] marks the days before a Sunday Ascension.
+DayContent _paschalTimeDay(int liturgicalYear, DateTime date, int days,
+        {String suffix = ''}) =>
+    DayContent(
+      liturgicalYear: liturgicalYear,
+      liturgicalTime: 'paschaltime',
+      defaultCelebrationTitle:
+          'easter_${(days ~/ 7) + 1}_${date.weekday % 7}$suffix',
+      precedence: date.isSunday ? 2 : 13,
+      liturgicalColor: 'white',
+      breviaryWeek: (days ~/ 7) % 4 + 1,
+    );
 
 /// Extracted to keep the main function cleaner without losing logic
 void _fillFixedSolemnities(

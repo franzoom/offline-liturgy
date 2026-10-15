@@ -132,29 +132,37 @@ List<BiblePassage> parseBibleReference(String reference) {
 /// no-break space and "~" (the omission mark of the data), and the next one
 /// starts a new paragraph (blank line).
 Future<String?> bibleText(String reference, BibleTextProvider provider) async {
-  final parts = <String>[];
-  for (final p in parseBibleReference(reference)) {
-    final verses = <BibleVerse>[];
-    if (p.startChapter == null) {
-      // Single-chapter book: stored as chapter 1, or 0 in some sources.
-      final rows = await provider.chapter(p.book, '1') ??
-          await provider.chapter(p.book, '0');
-      if (rows == null) return null;
-      verses.addAll(_slice(rows, p.startVerse, p.endVerse, reference));
-    } else {
-      final first = p.startChapter!;
-      final last = p.endChapter!;
-      for (var c = first; c <= last; c++) {
-        final rows = await provider.chapter(p.book, '$c');
-        if (rows == null) return null;
-        final from = c == first ? p.startVerse : null;
-        final to = c == last ? p.endVerse : null;
-        verses.addAll(_slice(rows, from, to, reference));
-      }
-    }
-    parts.add(_flatten(verses.map((v) => v.text)));
-  }
+  final parts = await Future.wait(parseBibleReference(reference)
+      .map((p) => _passageText(p, provider, reference)));
+  if (parts.contains(null)) return null;
   return parts.join('\u00a0~\n\n');
+}
+
+/// The text of passage [p] as one paragraph, or null if [provider] does not
+/// know one of its chapters (read in parallel).
+Future<String?> _passageText(
+    BiblePassage p, BibleTextProvider provider, String reference) async {
+  final List<BibleVerse> verses;
+  if (p.startChapter == null) {
+    // Single-chapter book: stored as chapter 1, or 0 in some sources.
+    final rows = await provider.chapter(p.book, '1') ??
+        await provider.chapter(p.book, '0');
+    if (rows == null) return null;
+    verses = _slice(rows, p.startVerse, p.endVerse, reference);
+  } else {
+    final first = p.startChapter!;
+    final last = p.endChapter!;
+    final chapters = await Future.wait([
+      for (var c = first; c <= last; c++) provider.chapter(p.book, '$c'),
+    ]);
+    if (chapters.contains(null)) return null;
+    verses = [
+      for (var i = 0; i < chapters.length; i++)
+        ..._slice(chapters[i]!, i == 0 ? p.startVerse : null,
+            i == chapters.length - 1 ? p.endVerse : null, reference),
+    ];
+  }
+  return _flatten(verses.map((v) => v.text));
 }
 
 /// Verses of [rows] from [from] to [to] (whole chapter side when null).
@@ -200,8 +208,11 @@ String _flatten(Iterable<String> texts) => _frenchSpacing(texts
     .map((t) => t.trim())
     .where((t) => t.isNotEmpty)
     .join(' ')
-    .replaceAll(RegExp(r'[ \t\r\u00a0\u202f]*\n[ \t\r\n\u00a0\u202f]*'), ' ')
-    .replaceAll(RegExp(r' {2,}'), ' '));
+    .replaceAll(_lineBreak, ' ')
+    .replaceAll(_spaces, ' '));
+
+final _lineBreak = RegExp(r'[ \t\r\u00a0\u202f]*\n[ \t\r\n\u00a0\u202f]*');
+final _spaces = RegExp(r' {2,}');
 
 /// French typography: a narrow no-break space (U+202F) before ; ! ?, a
 /// no-break space (U+00A0) before : and » and after «. The space that was
@@ -209,12 +220,14 @@ String _flatten(Iterable<String> texts) => _frenchSpacing(texts
 /// is inserted where there was none. In "?!" only the first mark gets a
 /// space; in "?»" the » keeps its own.
 String _frenchSpacing(String text) => text
-    .replaceAllMapped(
-        RegExp(r'(?<=[^ \u00a0\u202f;!?«])[ \u00a0\u202f]*([;!?])'),
-        (m) => '\u202f${m[1]}')
-    .replaceAllMapped(RegExp(r'(?<=[^ \u00a0\u202f«])[ \u00a0\u202f]*([:»])'),
-        (m) => '\u00a0${m[1]}')
-    .replaceAll(RegExp(r'«[ \u00a0\u202f]*'), '«\u00a0');
+    .replaceAllMapped(_beforeHighMark, (m) => '\u202f${m[1]}')
+    .replaceAllMapped(_beforeColon, (m) => '\u00a0${m[1]}')
+    .replaceAll(_afterOpeningQuote, '«\u00a0');
+
+final _beforeHighMark =
+    RegExp(r'(?<=[^ \u00a0\u202f;!?«])[ \u00a0\u202f]*([;!?])');
+final _beforeColon = RegExp(r'(?<=[^ \u00a0\u202f«])[ \u00a0\u202f]*([:»])');
+final _afterOpeningQuote = RegExp(r'«[ \u00a0\u202f]*');
 
 /// Fills the `content` of readings stored by reference only, from
 /// [provider]. Readings that already have a content are kept as they are;
@@ -223,13 +236,10 @@ String _frenchSpacing(String text) => text
 Future<List<BiblicalReading>?> hydrateBiblicalReadings(
     List<BiblicalReading>? readings, BibleTextProvider? provider) async {
   if (readings == null || provider == null) return readings;
-  return [
-    for (final r in readings)
-      if (r.content != null || r.ref == null)
-        r
-      else
-        r.copyWith(content: await _safeBibleText(r.ref!, provider)),
-  ];
+  return Future.wait(readings.map((r) async =>
+      r.content != null || r.ref == null
+          ? r
+          : r.copyWith(content: await _safeBibleText(r.ref!, provider))));
 }
 
 Future<String?> _safeBibleText(String ref, BibleTextProvider provider) async {

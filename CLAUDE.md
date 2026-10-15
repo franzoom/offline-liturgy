@@ -48,8 +48,9 @@
     classes/
       calendar_class.dart              # Calendar + DayContent + FeastDates + F (short alias)
       office_elements_class.dart       # CelebrationContext + all content structs (Psalm, HymnEntry, Reading, Intercession, etc.)
-      morning_class.dart               # Morning class with overlayWith() and overlayWithCommon()
-      vespers_class.dart               # Vespers class (vespers1=eve / vespers2=day)
+      hour_prayer_class.dart           # HourPrayer: fields, fromJson and overlays shared by Morning and Vespers
+      morning_class.dart               # Morning (HourPrayer + invitatory)
+      vespers_class.dart               # Vespers (HourPrayer; vespers1=eve / vespers2=day)
       readings_class.dart              # Readings class with year A/B/C patristic support
       compline_class.dart              # Compline class with marialHymnRef
       middle_of_day_class.dart         # MiddleOfDay class (tierce/sexte/none structure)
@@ -70,6 +71,8 @@
       masses/                          # mass structures
     tools/
       data_loader.dart                 # abstract DataLoader + FileSystemDataLoader
+      yaml_map_loader.dart             # loadYamlMap(): each YAML file parsed once (bounded cache, unmodifiable maps)
+      celebration_index.dart           # index.json: celebrationFilePath(code) / dirPathForCode(code)
       date_tools.dart                  # DateNavigation extension (shift, isSunday, isSameDayAs) + ferialDayCheck() + sundayCycle() + ferialNameResolution()
       constants.dart                   # file path constants + privilegedTimes set
       hymns_management.dart            # getHymnsForSeason(season, dataLoader)
@@ -106,22 +109,25 @@
   ## Calendar / DayContent
   Calendar.addItemToDay(date, prec, key, {knownCodes})    — add/update feast; returns stored key; if knownCodes provided and key absent from index, preserves existing qualified key and only updates precedence
   Calendar.addItemRelatedToFeast(date, shift, prec, key, {knownCodes}) — add at date+shift days; returns stored key
-  Calendar.addFeastsToCalendar(feasts, year, mainFeasts)  — bulk add from a FeastDates map
   Calendar.moveItemToDate(feastName, newDate, precedence) — move feast, prefix-agnostic, returns resolved key
   Calendar.downgradeMemorialsDuringPrivilegedTimes()      — called after fill
-  DayContent: {liturgicalYear, liturgicalTime, precedence, liturgicalColor, breviaryWeek, feastList: Map<int,List<String>>, feastOrigins}
+  Calendar.getDayContent(date)                            — day lookup, ignores time and UTC mode
+  DayContent: {liturgicalYear, liturgicalTime, precedence, liturgicalColor, breviaryWeek, feastList: Map<int,List<String>> (default {}), feastOrigins}
 
   ## CelebrationContext (central context for all office resolution)
   Fields: celebrationType, celebrationCode, date, liturgicalTime, breviaryWeek, precedence, teDeum, commonList, liturgicalColor, dataLoader, celebrationOrigin
-  Getters: selectedCommon, isFirstVespers, isSecondVespers
+  Getters: selectedCommon, isFirstVespers, isSecondVespers, vespersSection, hasFerialBase, hasProper, hasSelectedCommon,
+  isMemorial, keepsSeasonHymns, effectiveLiturgicalYear
+  ferialCode is null when the day's root is not a ferial day
 
   ## Location
-  Location.applyToCalendar(calendar, year, mainFeasts)   — applies local feasts
-  LocationFeast: {key, month, day, precedence, relativeTo, shift}
+  Location.applyToCalendar(calendar, mainFeasts, {knownCodes}) — applies local feasts
+  LocationFeast: {key, month, day, precedence (required), relativeTo, shift} — fromYaml rejects an entry without
+  precedence, or without month/day nor relativeTo
   buildLocationTree(locations) → List<LocationNode>       — immutable hierarchy
 
   ## LiturgyData
-  LiturgyData.load()                        — file system (CLI)
+  LiturgyData.load()                        — file system (CLI): loadFromDataLoader(FileSystemDataLoader())
   LiturgyData.loadFromDataLoader(loader)    — Flutter
   .locationData: Map<String, Location>
   .locationTree: List<LocationNode>

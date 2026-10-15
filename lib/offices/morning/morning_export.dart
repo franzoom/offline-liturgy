@@ -96,13 +96,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
       celebrationContext.effectiveLiturgicalYear);
 
   // 8. Apply paschal alléluia to antiphons
-  final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
-  if (invitatoryAntiphon != null) {
-    for (int i = 0; i < invitatoryAntiphon.length; i++) {
-      invitatoryAntiphon[i] =
-          paschalAntiphon(invitatoryAntiphon[i], liturgicalTime);
-    }
-  }
+  applyPaschalToList(morningOffice.invitatory?.antiphon, liturgicalTime);
   applyPaschalToPsalmody(morningOffice.psalmody, liturgicalTime);
   morningOffice.evangelicAntiphon = applyPaschalToAntiphonMap(
       morningOffice.evangelicAntiphon, liturgicalTime);

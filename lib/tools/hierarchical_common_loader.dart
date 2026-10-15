@@ -86,7 +86,7 @@ Future<Morning> loadMorningHierarchicalCommon(CelebrationContext context) {
   return _loadHierarchical<Morning>(
     context: context,
     createEmpty: () => Morning(),
-    extractor: (path, loader) => morningExtract(path, loader),
+    extractor: morningExtract,
     overlayFn: (base, overlay) => base.overlayWith(overlay),
   );
 }
@@ -95,7 +95,7 @@ Future<Readings> loadReadingsHierarchicalCommon(CelebrationContext context) {
   return _loadHierarchical<Readings>(
     context: context,
     createEmpty: () => Readings(),
-    extractor: (path, loader) => readingsExtract(path, loader),
+    extractor: readingsExtract,
     overlayFn: (base, overlay) => base.overlayWith(overlay),
   );
 }
@@ -115,7 +115,7 @@ Future<MiddleOfDay> loadMiddleOfDayHierarchicalCommon(
   return _loadHierarchical<MiddleOfDay>(
     context: context,
     createEmpty: () => MiddleOfDay(),
-    extractor: (path, loader) => middleOfDayExtract(path, loader),
+    extractor: middleOfDayExtract,
     overlayFn: (base, overlay) => base.overlayWith(overlay),
   );
 }
@@ -124,7 +124,7 @@ Future<Masses> loadMassHierarchicalCommon(CelebrationContext context) {
   return _loadHierarchical<Masses>(
     context: context,
     createEmpty: () => Masses(),
-    extractor: (path, loader) => massExtract(path, loader),
+    extractor: massExtract,
     overlayFn: (base, overlay) => base.overlayWith(overlay),
   );
 }

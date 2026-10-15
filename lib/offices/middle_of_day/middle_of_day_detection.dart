@@ -19,16 +19,13 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
 
   if (celebrations.isEmpty) return {};
 
-  // Check if there is a feast or solemnity (precedence <= 9, feasts included)
-  final hasFeastOrSolemnity =
-      celebrations.any((c) => (c.precedence ?? 13) <= 9);
-
-  final c = hasFeastOrSolemnity
-      ? celebrations.where((c) => (c.precedence ?? 13) <= 9).first
-      : celebrations.firstWhere(
-          (c) => ferialDayCheck(c.celebrationCode),
-          orElse: () => celebrations.first,
-        );
+  // A feast or solemnity (precedence <= 9, feasts included), otherwise
+  // the ferial day
+  final c = celebrations.where((c) => (c.precedence ?? 13) <= 9).firstOrNull ??
+      celebrations.firstWhere(
+        (c) => ferialDayCheck(c.celebrationCode),
+        orElse: () => celebrations.first,
+      );
 
   // A Sunday that stays celebrable under the chosen celebration (e.g. under
   // France's Dedication of the churches whose date of consecration is

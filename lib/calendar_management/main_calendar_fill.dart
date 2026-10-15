@@ -27,15 +27,15 @@ Calendar getCalendar(
           getCorpusDominiDate(location, data.locationData)) ==
       'thursday';
 
-  // The second year starts from the first Sunday of Advent of year N+1,
-  // not from eventDate shifted by one civil year: Advent moves between
-  // Nov 27 and Dec 3, so near its start a one-year shift can land on the
-  // other side of the boundary and skip (or repeat) a liturgical year.
+  // Years N and N+1 by liturgical year, not by shifting eventDate one civil
+  // year: Advent moves between Nov 27 and Dec 3, so near its start a
+  // one-year shift could land on the other side of the boundary and skip
+  // (or repeat) a liturgical year.
   final int firstYear = liturgicalYearOf(eventDate);
-  final cal1 = calendarFill(Calendar(), eventDate, location, data, epiphanyMode,
+  final cal1 = calendarFill(firstYear, location, data, epiphanyMode,
       ascensionOnSunday, corpusDominiOnThursday);
-  final cal2 = calendarFill(Calendar(), advent(firstYear + 1), location, data,
-      epiphanyMode, ascensionOnSunday, corpusDominiOnThursday);
+  final cal2 = calendarFill(firstYear + 1, location, data, epiphanyMode,
+      ascensionOnSunday, corpusDominiOnThursday);
 
   calendar.calendarData.addAll(cal1.calendarData);
   calendar.calendarData.addAll(cal2.calendarData);
@@ -48,30 +48,20 @@ Calendar getCalendar(
 /// Fills one liturgical year with fixed solemnities, universal Roman feasts,
 /// and the local feast chain for [location].
 Calendar calendarFill(
-  Calendar calendar,
-  DateTime eventDate,
+  int liturgicalYear,
   String location,
   LiturgyData data,
   String epiphanyMode,
   bool ascensionOnSunday,
   bool corpusDominiOnThursday,
 ) {
-  final int liturgicalYear = liturgicalYearOf(eventDate);
-
-  Map<String, DateTime> liturgicalMainFeasts = createLiturgicalDays(
+  Calendar calendar = Calendar();
+  final liturgicalMainFeasts = createLiturgicalDays(
     liturgicalYear,
     epiphanyMode,
+    ascensionOnSunday: ascensionOnSunday,
+    corpusDominiOnThursday: corpusDominiOnThursday,
   );
-
-  if (ascensionOnSunday) {
-    final easterDay = liturgicalMainFeasts['ASCENSION']!.shift(-39);
-    liturgicalMainFeasts['ASCENSION'] = easterDay.shift(42);
-  }
-
-  if (corpusDominiOnThursday) {
-    final easterDay = liturgicalMainFeasts['CORPUS_DOMINI']!.shift(-63);
-    liturgicalMainFeasts['CORPUS_DOMINI'] = easterDay.shift(60);
-  }
 
   // Each season fills itself from liturgicalMainFeasts, which already holds
   // every pivot date (Advent, Nativity, Epiphany, Baptism, Ashes, Palms,

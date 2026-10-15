@@ -427,6 +427,9 @@ class CelebrationContext {
   /// Returns true if this is second vespers (vespers2)
   bool get isSecondVespers => celebrationType == 'vespers2';
 
+  /// YAML section holding this Vespers office: 'firstVespers' or 'vespers'.
+  String get vespersSection => isFirstVespers ? 'firstVespers' : 'vespers';
+
   /// Returns the formatted celebration type label, including the geographic
   /// origin when the feast comes from a location-specific calendar.
   /// e.g. "(Europe : solennité)" or "(Solennité)" or "".

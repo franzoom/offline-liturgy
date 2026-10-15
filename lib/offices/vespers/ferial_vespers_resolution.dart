@@ -8,8 +8,7 @@ import '../../tools/constants.dart';
 /// Resolves vespers prayer for ferial days
 Future<Vespers> ferialVespersResolution(CelebrationContext context) {
   final code = context.ferialCode ?? context.celebrationCode;
-  final String section =
-      context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
+  final String section = context.vespersSection;
   final season = const ['ot', 'advent', 'christmas', 'lent', 'easter']
       .firstWhere((s) => code.startsWith(s), orElse: () => '');
 

@@ -101,8 +101,7 @@ Future<Readings> loadReadingsHierarchicalCommon(CelebrationContext context) {
 }
 
 Future<Vespers> loadVespersHierarchicalCommon(CelebrationContext context) {
-  final String section =
-      context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
+  final String section = context.vespersSection;
   return _loadHierarchical<Vespers>(
     context: context,
     createEmpty: () => Vespers(),

@@ -110,8 +110,7 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
 
 /// Helper to try loading the proper file from multiple directories (Special then Sanctoral)
 Future<Vespers> _loadProperVespers(CelebrationContext context) async {
-  final String section =
-      context.celebrationType == 'vespers1' ? 'firstVespers' : 'vespers';
+  final String section = context.vespersSection;
 
   final filePath = await dirPathForCode(context.celebrationCode, context.dataLoader);
   return vespersExtract('$filePath/${context.celebrationCode}.yaml',

@@ -102,6 +102,29 @@ List<DateTime> resolveFixedFeastDate({
   return dates;
 }
 
+/// The dates of [feast] within the liturgical year whose movable feasts
+/// are [liturgicalMainFeasts] (from the 1st Sunday of Advent to the
+/// Saturday after Christ the King): a fixed month/day, or a shift from a
+/// movable feast.
+List<DateTime> feastDates(
+    LocationFeast feast, Map<String, DateTime> liturgicalMainFeasts) {
+  final beginYear = liturgicalMainFeasts['ADVENT']!;
+  final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
+  final relativeTo = feast.relativeTo;
+  if (relativeTo == null) {
+    return resolveFixedFeastDate(
+      month: feast.month!,
+      day: feast.day!,
+      beginYear: beginYear,
+      endYear: endYear,
+    );
+  }
+  final baseDate = liturgicalMainFeasts[relativeTo];
+  if (baseDate == null) return const [];
+  final date = baseDate.shift(feast.shift ?? 0);
+  return date.isBefore(beginYear) || date.isAfter(endYear) ? const [] : [date];
+}
+
 class Location {
   final String id;
   final String language;
@@ -159,32 +182,9 @@ class Location {
     Map<String, DateTime> liturgicalMainFeasts, {
     Set<String> knownCodes = const {},
   }) {
-    final beginYear = liturgicalMainFeasts['ADVENT']!;
-    final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
-
-    // The feast's dates within this liturgical year: a fixed month/day, or
-    // a shift from a movable feast
-    List<DateTime> datesOf(LocationFeast feast) {
-      final relativeTo = feast.relativeTo;
-      if (relativeTo == null) {
-        return resolveFixedFeastDate(
-          month: feast.month!,
-          day: feast.day!,
-          beginYear: beginYear,
-          endYear: endYear,
-        );
-      }
-      final baseDate = liturgicalMainFeasts[relativeTo];
-      if (baseDate == null) return const [];
-      final date = baseDate.shift(feast.shift ?? 0);
-      return date.isBefore(beginYear) || date.isAfter(endYear)
-          ? const []
-          : [date];
-    }
-
     for (final feast in feasts) {
       final key = '$id/${feast.key}';
-      for (final d in datesOf(feast)) {
+      for (final d in feastDates(feast, liturgicalMainFeasts)) {
         final storedKey = calendar.addItemToDay(d, feast.precedence, key,
             knownCodes: knownCodes);
         calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
@@ -192,7 +192,7 @@ class Location {
     }
 
     for (final feast in moveFeasts) {
-      for (final d in datesOf(feast)) {
+      for (final d in feastDates(feast, liturgicalMainFeasts)) {
         final resolvedKey =
             calendar.moveItemToDate(feast.key, d, feast.precedence);
         if (resolvedKey != null) {

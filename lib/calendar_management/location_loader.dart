@@ -2,7 +2,6 @@ import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/location_class.dart';
 import '../tools/data_loader.dart';
-import '../tools/date_tools.dart';
 import '../tools/celebration_index.dart';
 
 /// Bundles the data sets that must always be loaded together before any
@@ -106,17 +105,8 @@ void applyCommonFeastsToCalendar(
   List<LocationFeast> commonFeasts,
   Map<String, DateTime> liturgicalMainFeasts,
 ) {
-  final beginYear = liturgicalMainFeasts['ADVENT']!;
-  final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
-
   for (final feast in commonFeasts) {
-    final feastDates = resolveFixedFeastDate(
-      month: feast.month!,
-      day: feast.day!,
-      beginYear: beginYear,
-      endYear: endYear,
-    );
-    for (final feastDate in feastDates) {
+    for (final feastDate in feastDates(feast, liturgicalMainFeasts)) {
       calendar.addItemToDay(feastDate, feast.precedence, 'roman/${feast.key}');
     }
   }

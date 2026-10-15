@@ -1,11 +1,10 @@
 import 'dart:math' show min;
-import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
-import '../tools/convert_yaml_to_dart.dart';
+import '../tools/yaml_map_loader.dart';
 
 /// function returning the possible offices for a given day
 
@@ -26,39 +25,23 @@ class CelebrationYamlData {
   });
 }
 
-/// Parses celebration data from YAML content
-/// Returns null if parsing fails or content is invalid
-CelebrationYamlData? parseCelebrationYaml(String fileContent) {
-  if (fileContent.isEmpty) return null;
+/// Reads the `celebration:` header of a parsed celebration file, or null
+/// when the file has none.
+CelebrationYamlData? _celebrationHeader(Map<String, dynamic>? data) {
+  final celebrationData = data?['celebration'];
+  if (celebrationData is! Map<String, dynamic>) return null;
 
-  try {
-    final yamlData = loadYaml(fileContent);
-    final data = convertYamlToDart(yamlData);
-
-    if (data is! Map<String, dynamic> || data['celebration'] == null) {
-      return null;
-    }
-
-    final celebrationData = data['celebration'];
-    if (celebrationData is! Map<String, dynamic>) {
-      return null;
-    }
-
-    final commons = celebrationData['commons'];
-    final commonsList =
-        commons is List ? commons.whereType<String>().toList() : <String>[];
-
-    return CelebrationYamlData(
-      title: celebrationData['title'] as String?,
-      subtitle: celebrationData['subtitle'] as String?,
-      description: celebrationData['description'] as String?,
-      color: celebrationData['color'] as String?,
-      commons: commonsList,
-    );
-  } catch (e) {
-    return null;
-  }
+  final commons = celebrationData['commons'];
+  return CelebrationYamlData(
+    title: celebrationData['title']?.toString(),
+    subtitle: celebrationData['subtitle']?.toString(),
+    description: celebrationData['description']?.toString(),
+    color: celebrationData['color']?.toString(),
+    commons: commons is List ? commons.whereType<String>().toList() : const [],
+  );
 }
+
+final _christmasOctaveDay = RegExp(r'^christmas_\d{2}$');
 
 /// Returns the effective sort precedence for a celebration.
 /// Ferial days at precedence 13 rank before optional memorials (12).
@@ -189,102 +172,63 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
     return 0;
   });
 
-  // Load all YAML files in one parallel pass.
+  // Read the header of every celebration file in one parallel pass.
   // Compound codes (advent-N_W_D and christmas-N_W_D) have no single YAML file;
-  // load the day-specific proper file instead.
-  final loadFutures = allCelebrations.map((c) {
-    if (c.code.startsWith('advent-')) {
-      final specialDay = c.code.replaceFirst('advent-', '').split('_')[0];
-      return dataLoader.loadYaml('$ferialFilePath/advent_$specialDay.yaml');
+  // read the day-specific proper file instead.
+  String celebrationPath(String code) {
+    if (code.startsWith('advent-')) {
+      final specialDay = code.replaceFirst('advent-', '').split('_')[0];
+      return '$ferialFilePath/advent_$specialDay.yaml';
     }
-    if (c.code.startsWith('christmas-')) {
-      final specialDay = c.code.replaceFirst('christmas-', '').split('_')[0];
-      return dataLoader.loadYaml(
-          '$ferialFilePath/christmas-ferial_before_epiphany_$specialDay.yaml');
+    if (code.startsWith('christmas-')) {
+      final specialDay = code.replaceFirst('christmas-', '').split('_')[0];
+      return '$ferialFilePath/christmas-ferial_before_epiphany_$specialDay.yaml';
     }
     // christmas_26–31 are proper celebrations but their YAML lives in ferial_days/
-    if (RegExp(r'^christmas_\d{2}$').hasMatch(c.code)) {
-      return dataLoader.loadYaml('$ferialFilePath/${c.code}.yaml');
+    if (_christmasOctaveDay.hasMatch(code)) {
+      return '$ferialFilePath/$code.yaml';
     }
-    final filePath =
-        ferialDayCheck(c.code) ? ferialFilePath : sanctoralFilePath;
-    return dataLoader.loadYaml('$filePath/${c.code}.yaml');
-  });
-  final List<String> loadResults;
-  try {
-    loadResults = await Future.wait(loadFutures);
-  } catch (e) {
-    return [];
+    final filePath = ferialDayCheck(code) ? ferialFilePath : sanctoralFilePath;
+    return '$filePath/$code.yaml';
   }
 
-  // Build a map of celebration code -> file content
-  final Map<String, String> fileContents = {};
-  for (int i = 0; i < allCelebrations.length; i++) {
-    if (loadResults[i].isNotEmpty) {
-      fileContents[allCelebrations[i].code] = loadResults[i];
-    }
-  }
+  final headerList = await Future.wait(allCelebrations.map((c) async =>
+      _celebrationHeader(
+          await loadYamlMap(celebrationPath(c.code), dataLoader))));
+  final Map<String, CelebrationYamlData> headers = {
+    for (int i = 0; i < allCelebrations.length; i++)
+      if (headerList[i] != null) allCelebrations[i].code: headerList[i]!,
+  };
 
-  // For compound codes (advent-N_W_D and christmas-N_W_D), load the ferial week
-  // file to get the weekday title prefix, then compose with the day-specific title:
+  // For compound codes (advent-N_W_D and christmas-N_W_D), read the ferial
+  // week file to get the weekday title prefix, then compose with the
+  // day-specific title:
   // "Lundi de la première semaine de la férie de Noël — 2 janvier".
   final Map<String, String> specialFerialTitles = {};
-  final specialItems = allCelebrations
-      .where((c) =>
-          c.code.startsWith('advent-') || c.code.startsWith('christmas-'))
-      .toList();
-  if (specialItems.isNotEmpty) {
-    final ferialFutures = specialItems.map((c) {
-      if (c.code.startsWith('advent-')) {
-        final parts = c.code.replaceFirst('advent-', '').split('_');
-        return dataLoader
-            .loadYaml('$ferialFilePath/advent_${parts[1]}_${parts[2]}.yaml');
-      } else {
-        final parts = c.code.replaceFirst('christmas-', '').split('_');
-        return dataLoader
-            .loadYaml('$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml');
-      }
-    });
-    final ferialResults = await Future.wait(ferialFutures);
-    for (int i = 0; i < specialItems.length; i++) {
-      final yaml = parseCelebrationYaml(ferialResults[i]);
-      if (yaml?.title != null && yaml!.title!.isNotEmpty) {
-        specialFerialTitles[specialItems[i].code] = yaml.title!;
-      }
-    }
+  for (final c in allCelebrations) {
+    final isAdvent = c.code.startsWith('advent-');
+    if (!isAdvent && !c.code.startsWith('christmas-')) continue;
+    final parts =
+        c.code.replaceFirst(isAdvent ? 'advent-' : 'christmas-', '').split('_');
+    final season = isAdvent ? 'advent' : 'christmas';
+    final title = _celebrationHeader(await loadYamlMap(
+            '$ferialFilePath/${season}_${parts[1]}_${parts[2]}.yaml',
+            dataLoader))
+        ?.title;
+    if (title != null && title.isNotEmpty) specialFerialTitles[c.code] = title;
   }
 
   // Load common titles in parallel for all unique common codes
-  final Set<String> allCommonCodes = {};
-  for (final celebration in allCelebrations) {
-    final fileContent = fileContents[celebration.code] ?? '';
-    final yamlData = parseCelebrationYaml(fileContent);
-    if (yamlData != null) {
-      allCommonCodes.addAll(yamlData.commons);
-    }
-  }
-
-  final Map<String, String> commonTitlesMap = {};
-  if (allCommonCodes.isNotEmpty) {
-    final commonCodesList = allCommonCodes.toList();
-    final commonLoadFutures = commonCodesList
-        .map((code) => dataLoader.loadYaml('$commonsFilePath/$code.yaml'));
-    final commonResults = await Future.wait(commonLoadFutures);
-    for (int i = 0; i < commonCodesList.length; i++) {
-      final code = commonCodesList[i];
-      if (commonResults[i].isNotEmpty) {
-        try {
-          final yamlData = loadYaml(commonResults[i]);
-          final data = convertYamlToDart(yamlData);
-          commonTitlesMap[code] = (data['commonTitle'] as String?) ?? code;
-        } catch (_) {
-          commonTitlesMap[code] = code;
-        }
-      } else {
-        commonTitlesMap[code] = code;
-      }
-    }
-  }
+  final commonCodes = {
+    for (final header in headers.values) ...header.commons,
+  }.toList();
+  final commonFiles = await Future.wait(commonCodes
+      .map((code) => loadYamlMap('$commonsFilePath/$code.yaml', dataLoader)));
+  final Map<String, String> commonTitlesMap = {
+    for (int i = 0; i < commonCodes.length; i++)
+      commonCodes[i]:
+          commonFiles[i]?['commonTitle']?.toString() ?? commonCodes[i],
+  };
 
   // Build the list of detected celebrations
   final List<CelebrationContext> detectedCelebrations = [];
@@ -330,8 +274,7 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
     List<String> commonList = [];
 
     // Check YAML data (pre-loaded for non-ferial, may also exist for ferial)
-    final fileContent = fileContents[celebrationCode] ?? '';
-    final yamlData = parseCelebrationYaml(fileContent);
+    final yamlData = headers[celebrationCode];
 
     if (yamlData != null) {
       celebrationLiturgicalColor = yamlData.color ?? celebrationLiturgicalColor;

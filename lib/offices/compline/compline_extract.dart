@@ -1,10 +1,9 @@
 import 'dart:developer';
 
-import 'package:yaml/yaml.dart';
 import '../../classes/compline_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
-import '../../tools/convert_yaml_to_dart.dart';
+import '../../tools/yaml_map_loader.dart';
 
 /// Loads a compline YAML file and extracts the data for a specific day key.
 ///
@@ -15,13 +14,10 @@ import '../../tools/convert_yaml_to_dart.dart';
 /// Returns an empty [Compline] if the file is missing or the day key is absent.
 Future<Compline> complineExtract(
     String relativePath, String dayKey, DataLoader dataLoader) async {
-  final String fileContent = await dataLoader.loadYaml(relativePath);
-  if (fileContent.isEmpty) return Compline();
+  final data = await loadYamlMap(relativePath, dataLoader);
+  if (data == null) return Compline();
 
   try {
-    final dynamic yamlData = loadYaml(fileContent);
-    final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
-
     final dynamic dayData = data[dayKey];
     if (dayData is! Map<String, dynamic>) return Compline();
 

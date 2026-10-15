@@ -10,8 +10,9 @@ class HymnsLibrary {
   /// it, since a fresh loader is created per call in some consumers (e.g.
   /// Flutter) despite always resolving the same underlying asset source.
   /// Also memoizes misses (a null value with the key present) so a code
-  /// that doesn't resolve to a file isn't reloaded on every lookup.
-  static final Map<String, Hymns?> _cache = {};
+  /// that doesn't resolve to a file isn't reloaded on every lookup. Holds
+  /// the load in progress, so that concurrent requests share it.
+  static final Map<String, Future<Hymns?>> _cache = {};
 
   /// Private helper to transform YAML string into a Hymns instance.
   static Hymns? _parseHymn(String code, String content) {
@@ -42,17 +43,17 @@ class HymnsLibrary {
     String code,
     DataLoader dataLoader, {
     String folder = 'hymns',
-  }) async {
+  }) {
     final cacheKey = '$folder/$code';
-    if (_cache.containsKey(cacheKey)) return _cache[cacheKey];
-
-    try {
-      final content = await dataLoader.loadYaml('$folder/$code.yaml');
-      return _cache[cacheKey] = _parseHymn(cacheKey, content);
-    } catch (e) {
-      log('Error loading hymn $cacheKey',
-          name: 'HymnsLibrary', level: 1000, error: e);
-      return _cache[cacheKey] = null;
-    }
+    return _cache[cacheKey] ??= () async {
+      try {
+        final content = await dataLoader.loadYaml('$folder/$code.yaml');
+        return _parseHymn(cacheKey, content);
+      } catch (e) {
+        log('Error loading hymn $cacheKey',
+            name: 'HymnsLibrary', level: 1000, error: e);
+        return null;
+      }
+    }();
   }
 }

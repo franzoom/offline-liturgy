@@ -1,10 +1,9 @@
 import 'dart:developer';
 
-import 'package:yaml/yaml.dart';
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
-import '../../tools/convert_yaml_to_dart.dart';
+import '../../tools/yaml_map_loader.dart';
 import '../../tools/date_tools.dart';
 
 /// Two-year cycle key ('Even' / 'Odd') for [context], or null when the
@@ -27,19 +26,11 @@ Future<Readings> readingsExtractFor(
 /// biblical lessons, patristic texts, and their respective responsories.
 Future<Readings> readingsExtract(String relativePath, DataLoader dataLoader,
     {String? year, String? biblicalCycle}) async {
-  // 1. Load the raw YAML content from the data provider
-  final String fileContent = await dataLoader.loadYaml(relativePath);
-
-  if (fileContent.isEmpty) {
-    return Readings();
-  }
+  final data = await loadYamlMap(relativePath, dataLoader);
+  if (data == null) return Readings();
 
   try {
-    // 2. Parse YAML and recursively convert to standard Dart types
-    final dynamic yamlData = loadYaml(fileContent);
-    final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
-
-    // 3. Extract the specific Readings section
+    // 1. Extract the specific Readings section
     Readings readings;
     if (data['readings'] is Map<String, dynamic>) {
       final Map<String, dynamic> readingsData =
@@ -47,7 +38,7 @@ Future<Readings> readingsExtract(String relativePath, DataLoader dataLoader,
       readings = Readings.fromJson(readingsData,
           year: year, biblicalCycle: biblicalCycle);
 
-      // 4. Fallback for Oration:
+      // 2. Fallback for Oration:
       // If the specific section doesn't have an oration, look at the root level
       readings.oration ??= asTextList(data['oration']);
     } else {

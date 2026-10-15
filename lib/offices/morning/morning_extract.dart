@@ -1,10 +1,9 @@
 import 'dart:developer';
 
-import 'package:yaml/yaml.dart';
 import '../../classes/morning_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
-import '../../tools/convert_yaml_to_dart.dart';
+import '../../tools/yaml_map_loader.dart';
 
 /// Extracts Morning (Lauds) office data from a YAML file.
 ///
@@ -12,23 +11,15 @@ import '../../tools/convert_yaml_to_dart.dart';
 /// and evangelic antiphons specific to liturgical years (A, B, or C).
 Future<Morning> morningExtract(
     String relativePath, DataLoader dataLoader) async {
-  // 1. Load the raw YAML content
-  final String fileContent = await dataLoader.loadYaml(relativePath);
-
-  if (fileContent.isEmpty) {
-    return Morning();
-  }
+  final data = await loadYamlMap(relativePath, dataLoader);
+  if (data == null) return Morning();
 
   try {
-    // 2. Parse YAML and recursively convert to standard Dart types
-    final dynamic yamlData = loadYaml(fileContent);
-    final Map<String, dynamic> data = convertYamlToDart(yamlData) ?? {};
-
-    // 3. Extract common elements from root level
+    // 1. Extract common elements from root level
     final Map<String, List<String>>? rootAntiphon =
         parseEvangelicAntiphon(data['evangelicAntiphon']);
 
-    // 4. Extract specific Morning section
+    // 2. Extract specific Morning section
     Morning morning;
     if (data['morning'] is Map<String, dynamic>) {
       morning = Morning.fromJson(data['morning'] as Map<String, dynamic>);
@@ -36,7 +27,7 @@ Future<Morning> morningExtract(
       morning = Morning();
     }
 
-    // 5. Invitatory: default candidate psalms if none specified.
+    // 3. Invitatory: default candidate psalms if none specified.
     // Repetition with the Morning psalmody is filtered later in morningExport,
     // once the psalmody has been fully resolved across ferial/common/proper layers.
     if (data['invitatory'] is Map<String, dynamic>) {
@@ -50,7 +41,7 @@ Future<Morning> morningExtract(
       );
     }
 
-    // 6. Merge Fallbacks (Oration and Evangelic Antiphons)
+    // 4. Merge Fallbacks (Oration and Evangelic Antiphons)
     // Root level orations are used if the morning-specific oration is missing
     morning.oration ??= asTextList(data['oration']);
 

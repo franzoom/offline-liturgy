@@ -55,19 +55,4 @@ class HymnsLibrary {
       return _cache[cacheKey] = null;
     }
   }
-
-  /// Gets multiple hymns by codes in parallel.
-  static Future<Map<String, Hymns>> getHymns(
-    List<String> codes,
-    DataLoader dataLoader,
-  ) async {
-    final results = await Future.wait(
-      codes.map((code) => getHymn(code, dataLoader)),
-    );
-
-    return {
-      for (var i = 0; i < codes.length; i++)
-        if (results[i] != null) codes[i]: results[i]!,
-    };
-  }
 }

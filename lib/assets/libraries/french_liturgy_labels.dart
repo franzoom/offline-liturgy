@@ -39,17 +39,6 @@ const liturgicalTimeLabelsDative = {
   'christmasoctave': 'de l’Octave de Noël',
 };
 
-// Map days of the week
-const daysOfWeek = [
-  'dimanche',
-  'lundi',
-  'mardi',
-  'mercredi',
-  'jeudi',
-  'vendredi',
-  'samedi',
-];
-
 /// Jours de la semaine
 const Map<String, String> dayOfWeekLabels = {
   'sunday': 'Dimanche',
@@ -150,20 +139,6 @@ String? evangelistName(String? biblicalRef) {
   if (biblicalRef == null) return null;
   final match = evangelistAbbrevRegExp.firstMatch(biblicalRef);
   return match != null ? evangelistNames[match.group(1)] : null;
-}
-
-String getFrenchOrdinal(int number) {
-  if (number == 1) {
-    return '1^er';
-  }
-  return '$number^e';
-}
-
-String getFrenchOrdinalFemale(int number) {
-  if (number == 1) {
-    return '1^re';
-  }
-  return '$number^e';
 }
 
 /// Returns the celebration type label based on precedence

@@ -147,30 +147,3 @@ class MiddleOfDay {
       none == null &&
       oration == null;
 }
-
-/// Definition of MiddleOfDay type for a given day
-class MiddleOfDayDefinition {
-  final String middleOfDayDescription;
-  final String celebrationCode;
-  final String ferialCode;
-  final List<String>? commonList;
-  final String? liturgicalTime;
-  final int? breviaryWeek;
-  final int precedence;
-  final String liturgicalColor;
-  final bool isCelebrable;
-
-  const MiddleOfDayDefinition({
-    required this.middleOfDayDescription,
-    required this.celebrationCode,
-    required this.ferialCode,
-    this.commonList,
-    this.liturgicalTime,
-    this.breviaryWeek,
-    required this.precedence,
-    required this.isCelebrable,
-    required this.liturgicalColor,
-  });
-}
-
-typedef MiddleOfDayOffice = MiddleOfDay;

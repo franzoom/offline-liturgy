@@ -1,7 +1,5 @@
 import 'package:yaml/yaml.dart';
-import '../classes/hymns_class.dart';
 import '../classes/office_elements_class.dart';
-import '../assets/libraries/hymns_library.dart';
 import '../tools/data_loader.dart';
 
 // --- HYMN LIST CACHE ---
@@ -35,16 +33,6 @@ Future<void> _ensureHymnListLoaded(DataLoader dataLoader) async {
   _tierceHymnList = _toStringListMap(parsed['tierce_hymn_list']);
   _sexteHymnList = _toStringListMap(parsed['sexte_hymn_list']);
   _noneHymnList = _toStringListMap(parsed['none_hymn_list']);
-}
-
-// --- HYMN RETRIEVAL ---
-
-/// Filters hymns by their codes from the hymns library.
-Future<Map<String, Hymns>> filterHymnsByCodes(
-  List<String> titleCodes,
-  DataLoader dataLoader,
-) async {
-  return await HymnsLibrary.getHymns(titleCodes, dataLoader);
 }
 
 // --- HYMN SELECTION LOGIC ---

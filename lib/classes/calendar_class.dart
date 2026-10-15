@@ -27,9 +27,10 @@ class DayContent {
     required this.precedence,
     required this.liturgicalColor,
     required this.breviaryWeek,
-    required this.feastList,
+    Map<int, List<String>>? feastList,
     Map<String, LocationOrigin>? feastOrigins,
-  }) : feastOrigins = feastOrigins ?? {};
+  })  : feastList = feastList ?? {},
+        feastOrigins = feastOrigins ?? {};
 }
 
 class Calendar {

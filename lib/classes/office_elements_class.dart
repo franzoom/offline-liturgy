@@ -21,11 +21,7 @@ class Invitatory {
 
   factory Invitatory.fromJson(Map<String, dynamic> json) {
     return Invitatory(
-      antiphon: switch (json['antiphon']) {
-        List list => list.map((e) => e.toString()).toList(),
-        String s => [s],
-        _ => null,
-      },
+      antiphon: _asAntiphon(json['antiphon']),
       psalms: asYamlList(json['psalms'])?.map((e) => e.toString()).toList(),
     );
   }
@@ -68,6 +64,13 @@ Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
 Map<String, List<String>>? mergeEvangelicAntiphons(
         Map<String, List<String>>? base, Map<String, List<String>>? overlay) =>
     overlay == null ? base : {...?base, ...overlay};
+
+/// Reads an antiphon field: a single text or a list of texts.
+List<String>? _asAntiphon(dynamic value) => switch (value) {
+      List list => list.map((e) => e.toString()).toList(),
+      String s => [s],
+      _ => null,
+    };
 
 /// Defensively coerces a YAML value into a list, wrapping a lone scalar into
 /// a single-element list so a malformed field (e.g. `commons: martyrs`
@@ -116,11 +119,7 @@ class PsalmEntry {
   factory PsalmEntry.fromJson(Map<String, dynamic> json) {
     return PsalmEntry(
       psalm: json['psalm']?.toString(),
-      antiphon: switch (json['antiphon']) {
-        List list => list.map((e) => e.toString()).toList(),
-        String s => [s],
-        _ => null,
-      },
+      antiphon: _asAntiphon(json['antiphon']),
     );
   }
 }

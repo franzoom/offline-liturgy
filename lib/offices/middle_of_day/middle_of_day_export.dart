@@ -9,6 +9,7 @@ import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
+import '../../tools/date_tools.dart';
 
 /// Resolves the Middle of Day Prayer (Tierce, Sexte, None).
 /// Priority logic: Proper > Common > Ferial base.
@@ -88,36 +89,23 @@ Future<MiddleOfDay> middleOfDayExport(
       // silently inherit the ferial day's own psalms here instead of
       // falling through to the gradual psalms below.
       properPsalmody: properMiddleOfDay.psalmody,
-      isFerialTheCelebration:
-          celebrationContext.celebrationCode == celebrationContext.ferialCode,
+      isFerialTheCelebration: !celebrationContext.hasProper,
       isPaschalOctave: liturgicalTime == 'paschaloctave',
-      isSunday: celebrationContext.date.weekday == DateTime.sunday,
+      isSunday: celebrationContext.date.isSunday,
     );
   }
 
   // 4c. PER-HOUR ANTIPHONS for non-solemnity cases
-  if (middleOfDayOffice.psalmody != null) {
-    final basePsalms = middleOfDayOffice.psalmody!;
-    final tierceAntiphon = middleOfDayOffice.tierce?.antiphon;
-    final sexteAntiphon = middleOfDayOffice.sexte?.antiphon;
-    final noneAntiphon = middleOfDayOffice.none?.antiphon;
-
-    if (tierceAntiphon != null && middleOfDayOffice.psalmodyTierce == null) {
-      middleOfDayOffice.psalmodyTierce =
-          _withAntiphon(basePsalms, tierceAntiphon);
-    }
-    if (sexteAntiphon != null && middleOfDayOffice.psalmodySexte == null) {
-      middleOfDayOffice.psalmodySexte =
-          _withAntiphon(basePsalms, sexteAntiphon);
-    }
-    if (noneAntiphon != null && middleOfDayOffice.psalmodyNone == null) {
-      middleOfDayOffice.psalmodyNone = _withAntiphon(basePsalms, noneAntiphon);
-    }
-
-    // Fallback: no proper/common antiphon → use ferial psalmody (with its antiphons) for all hours
-    middleOfDayOffice.psalmodyTierce ??= _withAntiphon(basePsalms, null);
-    middleOfDayOffice.psalmodySexte ??= _withAntiphon(basePsalms, null);
-    middleOfDayOffice.psalmodyNone ??= _withAntiphon(basePsalms, null);
+  // Each hour without psalmody of its own takes the shared one, with the
+  // hour's antiphon, or the psalms' own antiphons when the hour has none.
+  final basePsalms = middleOfDayOffice.psalmody;
+  if (basePsalms != null) {
+    middleOfDayOffice.psalmodyTierce ??=
+        _withAntiphon(basePsalms, middleOfDayOffice.tierce?.antiphon);
+    middleOfDayOffice.psalmodySexte ??=
+        _withAntiphon(basePsalms, middleOfDayOffice.sexte?.antiphon);
+    middleOfDayOffice.psalmodyNone ??=
+        _withAntiphon(basePsalms, middleOfDayOffice.none?.antiphon);
   }
 
   // 4d. PER-HOUR PROPER PSALMODY: an hour's own psalmody (e.g. Epiphany's
@@ -170,8 +158,8 @@ Future<MiddleOfDay> middleOfDayExport(
   final seasonAntiphon = _getSeasonAntiphon(celebrationContext);
 
   if (seasonAntiphon != null) {
-    List<PsalmEntry> appendSeason(List<PsalmEntry> psalms) => psalms
-        .map((e) => PsalmEntry(
+    List<PsalmEntry>? appendSeason(List<PsalmEntry>? psalms) => psalms
+        ?.map((e) => PsalmEntry(
               psalm: e.psalm,
               antiphon: (e.antiphon == null || e.antiphon!.isEmpty)
                   ? [seasonAntiphon]
@@ -180,21 +168,13 @@ Future<MiddleOfDay> middleOfDayExport(
             ))
         .toList();
 
-    if (middleOfDayOffice.psalmody != null) {
-      middleOfDayOffice.psalmody = appendSeason(middleOfDayOffice.psalmody!);
-    }
-    if (middleOfDayOffice.psalmodyTierce != null) {
-      middleOfDayOffice.psalmodyTierce =
-          appendSeason(middleOfDayOffice.psalmodyTierce!);
-    }
-    if (middleOfDayOffice.psalmodySexte != null) {
-      middleOfDayOffice.psalmodySexte =
-          appendSeason(middleOfDayOffice.psalmodySexte!);
-    }
-    if (middleOfDayOffice.psalmodyNone != null) {
-      middleOfDayOffice.psalmodyNone =
-          appendSeason(middleOfDayOffice.psalmodyNone!);
-    }
+    middleOfDayOffice.psalmody = appendSeason(middleOfDayOffice.psalmody);
+    middleOfDayOffice.psalmodyTierce =
+        appendSeason(middleOfDayOffice.psalmodyTierce);
+    middleOfDayOffice.psalmodySexte =
+        appendSeason(middleOfDayOffice.psalmodySexte);
+    middleOfDayOffice.psalmodyNone =
+        appendSeason(middleOfDayOffice.psalmodyNone);
   }
 
   // 7. HYDRATION

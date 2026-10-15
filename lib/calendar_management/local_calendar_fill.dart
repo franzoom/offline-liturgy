@@ -39,42 +39,38 @@ List<Location> _ancestorChain(
   return chain;
 }
 
-/// Returns the effective ascensionDate for a location, walking up the ancestor
-/// chain from most specific to root. Returns 'thursday' if none is found.
-String getAscensionDate(String locationId, Map<String, Location> locationData) {
+/// Returns [setting] of the nearest location, from [locationId] up its
+/// ancestor chain, that defines it; null if none does.
+String? _inheritedSetting(String locationId, Map<String, Location> locationData,
+    String? Function(Location) setting) {
   String? currentId = locationId;
   while (currentId != null) {
     final loc = locationData[currentId];
     if (loc == null) break;
-    if (loc.ascensionDate != null) return loc.ascensionDate!;
+    final value = setting(loc);
+    if (value != null) return value;
     currentId = loc.parent;
   }
-  return 'thursday';
+  return null;
 }
+
+/// Returns the effective ascensionDate for a location, walking up the ancestor
+/// chain from most specific to root. Returns 'thursday' if none is found.
+String getAscensionDate(
+        String locationId, Map<String, Location> locationData) =>
+    _inheritedSetting(locationId, locationData, (loc) => loc.ascensionDate) ??
+    'thursday';
 
 /// Returns the effective epiphanyDate for a location, walking up the ancestor
 /// chain from most specific to root. Returns 'sunday' if none is found.
-String getEpiphanyDate(String locationId, Map<String, Location> locationData) {
-  String? currentId = locationId;
-  while (currentId != null) {
-    final loc = locationData[currentId];
-    if (loc == null) break;
-    if (loc.epiphanyDate != null) return loc.epiphanyDate!;
-    currentId = loc.parent;
-  }
-  return 'sunday';
-}
+String getEpiphanyDate(String locationId, Map<String, Location> locationData) =>
+    _inheritedSetting(locationId, locationData, (loc) => loc.epiphanyDate) ??
+    'sunday';
 
 /// Returns the effective corpusDominiDate for a location, walking up the ancestor
 /// chain from most specific to root. Returns 'sunday' if none is found.
 String getCorpusDominiDate(
-    String locationId, Map<String, Location> locationData) {
-  String? currentId = locationId;
-  while (currentId != null) {
-    final loc = locationData[currentId];
-    if (loc == null) break;
-    if (loc.corpusDominiDate != null) return loc.corpusDominiDate!;
-    currentId = loc.parent;
-  }
-  return 'sunday';
-}
+        String locationId, Map<String, Location> locationData) =>
+    _inheritedSetting(
+        locationId, locationData, (loc) => loc.corpusDominiDate) ??
+    'sunday';

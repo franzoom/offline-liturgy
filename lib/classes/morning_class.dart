@@ -1,104 +1,40 @@
+import 'hour_prayer_class.dart';
 import 'office_elements_class.dart';
-import 'psalms_class.dart';
 
 /// Class representing the Morning Prayer (Laudes) structure
-class Morning {
-  Celebration? celebration;
+class Morning extends HourPrayer {
   Invitatory? invitatory;
-  List<HymnEntry>? hymn;
-  List<PsalmEntry>? psalmody;
-  Reading? reading;
-  String? responsory;
-  Map<String, List<String>>? evangelicAntiphon;
-  Psalm? evangelicCanticle;
-  Intercession? intercession;
-  List<String>? oration;
-  List<String>? canticleSvgData;
 
   Morning({
-    this.celebration,
+    super.celebration,
     this.invitatory,
-    this.hymn,
-    this.psalmody,
-    this.reading,
-    this.responsory,
-    this.evangelicAntiphon,
-    this.evangelicCanticle,
-    this.intercession,
-    this.oration,
-    this.canticleSvgData,
+    super.hymn,
+    super.psalmody,
+    super.reading,
+    super.responsory,
+    super.evangelicAntiphon,
+    super.evangelicCanticle,
+    super.intercession,
+    super.oration,
+    super.canticleSvgData,
   });
 
   /// Creates Morning instance from dynamic data (JSON/YAML) with type safety
-  factory Morning.fromJson(Map<String, dynamic> data) {
-    return Morning(
-      celebration: data['celebration'] is Map<String, dynamic>
-          ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
-          : null,
-      invitatory: data['invitatory'] is Map<String, dynamic>
-          ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
-          : null,
-      hymn: asYamlList(data['hymn'])
-          ?.map(HymnEntry.fromJson)
-          .whereType<HymnEntry>()
-          .toList(),
-      psalmody: asYamlList(data['psalmody'])
-          ?.whereType<Map<String, dynamic>>()
-          .map((e) => PsalmEntry.fromJson(e))
-          .toList(),
-      reading: data['reading'] is Map<String, dynamic>
-          ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
-          : null,
-      responsory: data['responsory']?.toString(),
-      evangelicAntiphon: parseEvangelicAntiphon(data['evangelicAntiphon']),
-      intercession: data['intercession'] is Map<String, dynamic>
-          ? Intercession.fromJson(data['intercession'] as Map<String, dynamic>)
-          : null,
-      oration: asTextList(data['oration']),
-    );
-  }
+  Morning.fromJson(super.data)
+      : invitatory = data['invitatory'] is Map<String, dynamic>
+            ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
+            : null,
+        super.fromJson();
 
-  /// Overlays this Morning instance with data from another instance
-  /// With [keepBaseHymns] (memorials and feasts), the overlay's hymns come
-  /// first and the current ones stay selectable after them; otherwise the
-  /// overlay's hymns replace them.
+  @override
   void overlayWith(Morning overlay, {bool keepBaseHymns = false}) {
-    if (overlay.celebration != null) celebration = overlay.celebration;
     if (overlay.invitatory != null) invitatory = overlay.invitatory;
-    if (keepBaseHymns) {
-      hymn = mergeHymns(hymn, overlay.hymn);
-    } else if (overlay.hymn != null) {
-      hymn = overlay.hymn;
-    }
-
-    psalmody = mergePsalmody(psalmody, overlay.psalmody);
-
-    if (overlay.reading != null) reading = overlay.reading;
-    if (overlay.responsory != null) responsory = overlay.responsory;
-    if (overlay.evangelicAntiphon != null) {
-      evangelicAntiphon = {
-        ...evangelicAntiphon ?? {},
-        ...overlay.evangelicAntiphon!,
-      };
-    }
-    if (overlay.intercession != null) intercession = overlay.intercession;
-    if (overlay.oration != null) oration = overlay.oration;
+    super.overlayWith(overlay, keepBaseHymns: keepBaseHymns);
   }
 
-  /// Selective overlay for Common elements (Precedence > 6)
+  @override
   void overlayWithCommon(Morning common) {
     if (common.invitatory != null) invitatory = common.invitatory;
-    // Memorials only: the Common's hymns first, the season's ones after
-    hymn = mergeHymns(hymn, common.hymn);
-    if (common.reading != null) reading = common.reading;
-    if (common.responsory != null) responsory = common.responsory;
-    if (common.evangelicAntiphon != null) {
-      evangelicAntiphon = {
-        ...evangelicAntiphon ?? {},
-        ...common.evangelicAntiphon!,
-      };
-    }
-    if (common.intercession != null) intercession = common.intercession;
-    if (common.oration != null) oration = common.oration;
+    super.overlayWithCommon(common);
   }
 }

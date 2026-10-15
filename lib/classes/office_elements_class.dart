@@ -93,6 +93,12 @@ Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
   return null;
 }
 
+/// Merges evangelic antiphon maps: [overlay]'s keys win, [base]'s others
+/// are kept.
+Map<String, List<String>>? mergeEvangelicAntiphons(
+        Map<String, List<String>>? base, Map<String, List<String>>? overlay) =>
+    overlay == null ? base : {...?base, ...overlay};
+
 /// Defensively coerces a YAML value into a list, wrapping a lone scalar into
 /// a single-element list so a malformed field (e.g. `commons: martyrs`
 /// instead of `commons: [martyrs]`) degrades gracefully instead of throwing.

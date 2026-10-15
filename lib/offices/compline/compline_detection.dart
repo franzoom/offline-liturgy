@@ -7,19 +7,9 @@ import '../../tools/constants.dart';
 import '../office_detection.dart';
 import '../../assets/libraries/french_liturgy_labels.dart';
 
-/// The three Triduum days, from their real ferial code (see [holyWeekCodes])
-/// to the liturgical label compline_export.dart's file-selection switch
-/// expects, matching complines/lent.yaml's own 'holy_thursday'/'holy_friday'/
-/// 'holy_saturday' entries.
-const _triduumLabels = {
-  'lent_6_4': 'holy_thursday',
-  'lent_6_5': 'holy_friday',
-  'lent_6_6': 'holy_saturday',
-};
-
 /// Determines the celebration type for Compline based on precedence and code
 String _detectCelebrationType(int precedence, String celebrationCode) {
-  final triduumLabel = _triduumLabels[celebrationCode.toLowerCase()];
+  final triduumLabel = triduumCodes[celebrationCode];
   if (triduumLabel != null) return triduumLabel;
   // Ferial days (including Sundays of Lent, Advent, etc.) are never solemnities,
   // even if their liturgical rank (precedence) is high.
@@ -96,7 +86,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
   // --- Special case: the Triduum days have their own Compline, no other option ---
   final holyWeekCelebration = rawTodayCelebrations
-      .where((c) => holyWeekCodes.contains(c.celebrationCode))
+      .where((c) => triduumCodes.containsKey(c.celebrationCode))
       .firstOrNull;
   if (holyWeekCelebration != null) {
     final c = holyWeekCelebration;
@@ -171,7 +161,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // No eve compline when tomorrow is a Holy Week Triduum day
   // No eve compline for ferial days (even high-precedence ones like Ash Wednesday)
   final bool tomorrowIsHolyWeek = tomorrowCelebrations
-      .any((c) => holyWeekCodes.contains(c.celebrationCode));
+      .any((c) => triduumCodes.containsKey(c.celebrationCode));
   final bool isTomorrowSunday = tomorrow.weekday == DateTime.sunday;
   bool tomorrowHasSolemnity = false;
 

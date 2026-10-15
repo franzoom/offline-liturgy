@@ -43,25 +43,18 @@ String _paschalAntiphonLine(String line) {
 // a value, only 'paschaloctave' and 'paschaltime' do.
 const _paschalTimes = {'paschaloctave', 'paschaltime'};
 
-/// Transforms an antiphon by adding "alléluia" during Easter time.
-///
-/// If [liturgicalTime] is a paschal time and a line doesn't already end
-/// with "alléluia":
-/// - line ending with `,`  → appends ` alléluia,`
-/// - line ending with `.` or `!` → inserts `, alléluia` before punctuation
-/// - no final punctuation → appends `, alléluia.`
-///
-/// Multi-line strings are processed line by line and rejoined.
+/// Applies paschal alléluia to each antiphon of [antiphons], in place.
+void applyPaschalToList(List<String>? antiphons, String liturgicalTime) {
+  if (antiphons == null) return;
+  for (int i = 0; i < antiphons.length; i++) {
+    antiphons[i] = paschalAntiphon(antiphons[i], liturgicalTime);
+  }
+}
+
 /// Applies paschal alléluia to all antiphons in a psalmody list, in place.
 void applyPaschalToPsalmody(List<PsalmEntry>? psalmody, String liturgicalTime) {
-  if (psalmody == null) return;
-  for (final entry in psalmody) {
-    final antiphon = entry.antiphon;
-    if (antiphon != null) {
-      for (int i = 0; i < antiphon.length; i++) {
-        antiphon[i] = paschalAntiphon(antiphon[i], liturgicalTime);
-      }
-    }
+  for (final entry in psalmody ?? const <PsalmEntry>[]) {
+    applyPaschalToList(entry.antiphon, liturgicalTime);
   }
 }
 
@@ -74,6 +67,15 @@ Map<String, List<String>>? applyPaschalToAntiphonMap(
       k, list.map((v) => paschalAntiphon(v, liturgicalTime)).toList()));
 }
 
+/// Transforms an antiphon by adding "alléluia" during Easter time.
+///
+/// If [liturgicalTime] is a paschal time and a line doesn't already end
+/// with "alléluia":
+/// - line ending with `,`  → appends ` alléluia,`
+/// - line ending with `.` or `!` → inserts `, alléluia` before punctuation
+/// - no final punctuation → appends `, alléluia.`
+///
+/// Multi-line strings are processed line by line and rejoined.
 String paschalAntiphon(String antiphon, String liturgicalTime) {
   if (!_paschalTimes.contains(liturgicalTime)) return antiphon;
 

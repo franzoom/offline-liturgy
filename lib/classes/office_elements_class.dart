@@ -410,12 +410,7 @@ class CelebrationContext {
 
   /// Returns the first common from commonList.
   /// Returns null if no common is available.
-  String? get selectedCommon {
-    if (commonList != null && commonList!.isNotEmpty) {
-      return commonList!.first;
-    }
-    return null;
-  }
+  String? get selectedCommon => commonList?.firstOrNull;
 
   /// Whether the office is built on the day's ferial texts.
   bool get hasFerialBase => ferialCode?.isNotEmpty ?? false;

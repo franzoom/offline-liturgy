@@ -74,34 +74,55 @@ void main() {
       dbFile.existsSync() ? SqliteBibleTextProvider(dbFile.path) : null;
   tearDownAll(() => provider?.close());
 
+  Future<Readings> office(
+      int year, bool twoYears, BibleTextProvider? bibleTextProvider) async {
+    final data = await LiturgyData.load();
+    final dataLoader = FileSystemDataLoader();
+    final calendar =
+        getCalendar(Calendar(), DateTime(year, 2, 18), 'romain', data);
+    final date = calendar.calendarData.entries
+        .firstWhere((e) =>
+            e.value.defaultCelebrationTitle == 'ot_10_2' &&
+            e.value.liturgicalYear == year)
+        .key;
+    final contexts = await readingsDetection(calendar, date, dataLoader);
+    final context = contexts.values
+        .firstWhere((c) => c.celebrationCode == 'ot_10_2')
+        .copyWith(
+            twoYearReadingCycle: twoYears,
+            bibleTextProvider: bibleTextProvider);
+    return readingsExport(context);
+  }
+
   group('Office of Readings on ot_10_2', () {
     for (final entry in cases.entries) {
       test(entry.key, () async {
         final (year, twoYears, expectedRef, expectedStart) = entry.value;
-        final data = await LiturgyData.load();
-        final dataLoader = FileSystemDataLoader();
-        final calendar =
-            getCalendar(Calendar(), DateTime(year, 2, 18), 'romain', data);
-        final date = calendar.calendarData.entries
-            .firstWhere((e) =>
-                e.value.defaultCelebrationTitle == 'ot_10_2' &&
-                e.value.liturgicalYear == year)
-            .key;
-
-        final contexts = await readingsDetection(calendar, date, dataLoader);
-        final context = contexts.values
-            .firstWhere((c) => c.celebrationCode == 'ot_10_2')
-            .copyWith(
-                twoYearReadingCycle: twoYears, bibleTextProvider: provider);
-        final office = await readingsExport(context);
-
-        final reading = office.biblicalReading!.single;
+        final reading =
+            (await office(year, twoYears, provider)).biblicalReading!.single;
         expect(_flat(reading.ref), _flat(expectedRef));
         expect(reading.responsory, startsWith('R/'));
-        if (provider != null) {
-          expect(reading.content, startsWith(expectedStart));
-        }
+        expect(reading.content, startsWith(expectedStart));
+      }, skip: provider == null ? 'Bible database not found' : false);
+    }
+
+    // Without the text of the even-year reading, the annual one is used.
+    for (final (label, bible) in [
+      ('no Bible provider', null),
+      ('a Bible that lacks the chapter', _EmptyBible()),
+    ]) {
+      test('two-year cycle with $label falls back to the annual reading',
+          () async {
+        final reading =
+            (await office(2026, true, bible)).biblicalReading!.single;
+        expect(_flat(reading.ref), _flat('Jos 2, 1-24'));
+        expect(reading.content, startsWith('Depuis Shittim'));
       });
     }
   });
+}
+
+class _EmptyBible implements BibleTextProvider {
+  @override
+  Future<List<BibleVerse>?> chapter(String book, String chapter) async => null;
 }

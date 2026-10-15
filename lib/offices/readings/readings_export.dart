@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../assets/usual_texts.dart';
@@ -52,6 +54,17 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   // Readings stored by reference only take their text from the Bible
   readingsOffice.biblicalReading = await hydrateBiblicalReadings(
       readingsOffice.biblicalReading, context.bibleTextProvider);
+
+  // A two-year cycle reading whose text cannot be found (no provider, or a
+  // reference it cannot resolve) gives way to the annual cycle, whose
+  // readings always carry their text.
+  if (context.twoYearReadingCycle &&
+      (readingsOffice.biblicalReading?.any((r) => r.content == null) ??
+          false)) {
+    log('Two-year cycle reading without text, annual cycle used instead',
+        name: 'ReadingsExport', level: 900);
+    return readingsExport(context.copyWith(twoYearReadingCycle: false));
+  }
 
   // STEP 5: Te Deum (GILH 68) — on Sundays outside Lent, during the Easter
   // and Christmas octaves, and on solemnities and feasts. Not a precedence

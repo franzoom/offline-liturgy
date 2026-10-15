@@ -146,6 +146,8 @@
   Biblical readings may give only `ref` (no `content`): readingsExport fills the text from
   CelebrationContext.bibleTextProvider (BibleTextProvider, lib/tools/bible_text_provider.dart), injected by the
   consumer like DataLoader; test/bible_text_provider_test.dart checks every such ref against ../aelf-flutter/assets/bible.db
+  (wrap it in CachedBibleTextProvider to read each chapter once); a two-year reading left without text makes
+  readingsExport fall back to the annual cycle
   weekdayLectionaryYear(year) → 'I' | 'II' (weekday Mass readings)
 
   ## Hierarchical commons resolution

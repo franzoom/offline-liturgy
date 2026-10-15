@@ -99,10 +99,12 @@ class Readings {
 
     psalmody = mergePsalmody(psalmody, overlay.psalmody);
 
-    if (overlay.biblicalReading != null)
+    if (overlay.biblicalReading != null) {
       biblicalReading = overlay.biblicalReading;
-    if (overlay.patristicReading != null)
+    }
+    if (overlay.patristicReading != null) {
       patristicReading = overlay.patristicReading;
+    }
     if (overlay.teDeum != null) teDeum = overlay.teDeum;
     if (overlay.verse != null) verse = overlay.verse;
     if (overlay.oration != null) oration = overlay.oration;
@@ -116,8 +118,9 @@ class Readings {
     // Memorials only: the Common's hymns first, the season's ones after
     hymn = mergeHymns(hymn, common.hymn);
     if (common.verse != null) verse = common.verse;
-    if (common.patristicReading != null)
+    if (common.patristicReading != null) {
       patristicReading = common.patristicReading;
+    }
     if (common.oration != null) oration = common.oration;
   }
 }

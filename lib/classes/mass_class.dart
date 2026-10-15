@@ -337,7 +337,8 @@ class Mass {
   }
 
   /// Overlays this Mass instance with data from another instance.
-  /// All fields are replaced wholesale if the overlay provides them.
+  /// All fields are replaced wholesale if the overlay provides them: its
+  /// identity, its readings, and the prayer texts (see [overlayPrayerFields]).
   /// readingParts is replaced as a whole rather than merged part-by-part:
   /// some days (Sundays, the Easter Vigil) have several entries sharing the
   /// same partType (e.g. two READING entries), and every mass: block in the
@@ -347,25 +348,10 @@ class Mass {
     if (overlay.massType != null) massType = overlay.massType;
     if (overlay.name != null) name = overlay.name;
     if (overlay.note != null) note = overlay.note;
-    if (overlay.entranceAntiphon != null)
-      entranceAntiphon = overlay.entranceAntiphon;
-    if (overlay.collect != null) collect = overlay.collect;
-    if (overlay.readingParts != null && overlay.readingParts!.isNotEmpty) {
+    if (overlay.readingParts?.isNotEmpty ?? false) {
       readingParts = overlay.readingParts;
     }
-    if (overlay.offeringPrayer != null) offeringPrayer = overlay.offeringPrayer;
-    if (overlay.prefaceList != null) prefaceList = overlay.prefaceList;
-    if (overlay.communionAntiphon != null)
-      communionAntiphon = overlay.communionAntiphon;
-    if (overlay.prayerAfterCommunion != null)
-      prayerAfterCommunion = overlay.prayerAfterCommunion;
-    if (overlay.prayerOnThePeople != null)
-      prayerOnThePeople = overlay.prayerOnThePeople;
-    if (overlay.solemnBlessingList != null)
-      solemnBlessingList = overlay.solemnBlessingList;
-    if (overlay.sequence != null) sequence = overlay.sequence;
-    if (overlay.eucharisticPrayerCommunicantes != null)
-      eucharisticPrayerCommunicantes = overlay.eucharisticPrayerCommunicantes;
+    overlayPrayerFields(overlay);
   }
 
   /// Fills the 5 Sunday-inherited fields (entrance/communion antiphons and
@@ -388,22 +374,28 @@ class Mass {
   /// a selected Common (any precedence), and applying a memorial's own
   /// proper texts on top of it (precedence > 5) — see massExport.
   void overlayPrayerFields(Mass source) {
-    if (source.entranceAntiphon != null)
+    if (source.entranceAntiphon != null) {
       entranceAntiphon = source.entranceAntiphon;
+    }
     if (source.collect != null) collect = source.collect;
     if (source.offeringPrayer != null) offeringPrayer = source.offeringPrayer;
     if (source.prefaceList != null) prefaceList = source.prefaceList;
-    if (source.communionAntiphon != null)
+    if (source.communionAntiphon != null) {
       communionAntiphon = source.communionAntiphon;
-    if (source.prayerAfterCommunion != null)
+    }
+    if (source.prayerAfterCommunion != null) {
       prayerAfterCommunion = source.prayerAfterCommunion;
-    if (source.prayerOnThePeople != null)
+    }
+    if (source.prayerOnThePeople != null) {
       prayerOnThePeople = source.prayerOnThePeople;
-    if (source.solemnBlessingList != null)
+    }
+    if (source.solemnBlessingList != null) {
       solemnBlessingList = source.solemnBlessingList;
+    }
     if (source.sequence != null) sequence = source.sequence;
-    if (source.eucharisticPrayerCommunicantes != null)
+    if (source.eucharisticPrayerCommunicantes != null) {
       eucharisticPrayerCommunicantes = source.eucharisticPrayerCommunicantes;
+    }
   }
 
   /// Fills only the missing readingPart types (e.g. no proper PSALM of its
@@ -449,6 +441,10 @@ class Masses {
     );
   }
 
+  /// The Mass of [massType] (the first one), or null if there is none.
+  Mass? ofType(String? massType) =>
+      masses?.where((m) => m.massType == massType).firstOrNull;
+
   /// Merges overlay Mass objects into this Masses by matching on massType.
   /// Existing massTypes are overlaid via Mass.overlayWith; massTypes present
   /// in overlay but not in this Masses are appended.
@@ -456,10 +452,9 @@ class Masses {
     if (overlay.masses == null || overlay.masses!.isEmpty) return;
     masses ??= [];
     for (final overlayMass in overlay.masses!) {
-      final index =
-          masses!.indexWhere((m) => m.massType == overlayMass.massType);
-      if (index >= 0) {
-        masses![index].overlayWith(overlayMass);
+      final mass = ofType(overlayMass.massType);
+      if (mass != null) {
+        mass.overlayWith(overlayMass);
       } else {
         masses!.add(overlayMass);
       }
@@ -475,11 +470,7 @@ class Masses {
       return;
     }
     for (final sourceMass in source.masses!) {
-      final index =
-          masses!.indexWhere((m) => m.massType == sourceMass.massType);
-      if (index >= 0) {
-        masses![index].overlayPrayerFields(sourceMass);
-      }
+      ofType(sourceMass.massType)?.overlayPrayerFields(sourceMass);
     }
   }
 
@@ -491,11 +482,7 @@ class Masses {
       return;
     }
     for (final sundayMass in sunday.masses!) {
-      final index =
-          masses!.indexWhere((m) => m.massType == sundayMass.massType);
-      if (index >= 0) {
-        masses![index].fillFromSunday(sundayMass);
-      }
+      ofType(sundayMass.massType)?.fillFromSunday(sundayMass);
     }
   }
 }

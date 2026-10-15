@@ -3,7 +3,6 @@ import 'psalms_class.dart';
 
 /// Structure shared by the major hours, Lauds ([Morning]) and Vespers.
 class HourPrayer {
-  Celebration? celebration;
   List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
   Reading? reading;
@@ -15,7 +14,6 @@ class HourPrayer {
   List<String>? canticleSvgData;
 
   HourPrayer({
-    this.celebration,
     this.hymn,
     this.psalmody,
     this.reading,
@@ -29,10 +27,7 @@ class HourPrayer {
 
   /// Reads the hour's section of a YAML file.
   HourPrayer.fromJson(Map<String, dynamic> data)
-      : celebration = data['celebration'] is Map<String, dynamic>
-            ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
-            : null,
-        hymn = asYamlList(data['hymn'])
+      : hymn = asYamlList(data['hymn'])
             ?.map(HymnEntry.fromJson)
             .whereType<HymnEntry>()
             .toList(),
@@ -56,7 +51,6 @@ class HourPrayer {
   /// first and the current ones stay selectable after them; otherwise the
   /// overlay's hymns replace them.
   void overlayWith(covariant HourPrayer overlay, {bool keepBaseHymns = false}) {
-    if (overlay.celebration != null) celebration = overlay.celebration;
     if (keepBaseHymns) {
       hymn = mergeHymns(hymn, overlay.hymn);
     } else if (overlay.hymn != null) {

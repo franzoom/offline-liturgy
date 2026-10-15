@@ -4,7 +4,6 @@ import '../tools/data_loader.dart';
 
 /// Class representing the Compline (Night Prayer) structure
 class Compline {
-  Celebration? celebration;
   String?
       commentary; // displays commentary if needed (for example: "no complines today")
   String?
@@ -19,7 +18,6 @@ class Compline {
   List<HymnEntry>? marialHymnRef;
 
   Compline({
-    this.celebration,
     this.commentary,
     this.celebrationType,
     this.hymns,
@@ -55,7 +53,6 @@ class Compline {
   /// Merges another Compline onto this one (non-null fields from other take precedence)
   Compline mergeWith(Compline other) {
     return copyWith(
-      celebration: other.celebration,
       commentary: other.commentary,
       celebrationType: other.celebrationType,
       hymns: other.hymns,
@@ -70,7 +67,6 @@ class Compline {
 
   /// Creates a copy of this Compline with some fields replaced
   Compline copyWith({
-    Celebration? celebration,
     String? commentary,
     String? celebrationType,
     List<HymnEntry>? hymns,
@@ -82,7 +78,6 @@ class Compline {
     List<HymnEntry>? marialHymnRef,
   }) {
     return Compline(
-      celebration: celebration ?? this.celebration,
       commentary: commentary ?? this.commentary,
       celebrationType: celebrationType ?? this.celebrationType,
       hymns: hymns ?? this.hymns,
@@ -97,7 +92,6 @@ class Compline {
 
   /// Returns true if all fields are null (empty Compline)
   bool get isEmpty =>
-      celebration == null &&
       commentary == null &&
       celebrationType == null &&
       hymns == null &&

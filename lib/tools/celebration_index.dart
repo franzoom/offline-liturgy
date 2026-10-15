@@ -36,6 +36,11 @@ Future<Map<String, String>> celebrationDirIndex(DataLoader dataLoader) {
   }();
 }
 
+/// Returns the asset path of the YAML file of a celebration code, e.g.
+/// 'calendar_data/sanctoral/roman/basil_the_great.yaml'.
+Future<String> celebrationFilePath(String code, DataLoader dataLoader) async =>
+    '${await dirPathForCode(code, dataLoader)}/$code.yaml';
+
 /// Returns the asset path prefix for a celebration code, e.g. 'calendar_data/sanctoral'.
 Future<String> dirPathForCode(String code, DataLoader dataLoader) async {
   final index = await celebrationDirIndex(dataLoader);

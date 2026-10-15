@@ -50,7 +50,7 @@ Future<Mass> massExport(CelebrationContext context) async {
       context.liturgicalTime == 'christmasoctave' && context.date.day <= 28;
 
   // STEP 1: Load ferial data as the base layer
-  if (context.ferialCode?.trim().isNotEmpty ?? false) {
+  if (context.hasFerialBase) {
     massesOffice = await ferialMassResolution(context);
   }
 
@@ -72,8 +72,10 @@ Future<Mass> massExport(CelebrationContext context) async {
   // STEP 4) and/or its own readingParts (Feasts/Solemnities always;
   // memorials only if the reader opts in, STEP 5b).
   Masses properMasses = Masses();
-  if (context.celebrationCode != context.ferialCode) {
-    properMasses = await _loadProperMasses(context);
+  if (context.hasProper) {
+    properMasses = await massExtract(
+        await celebrationFilePath(context.celebrationCode, context.dataLoader),
+        context.dataLoader);
   }
 
   // STEP 3: Handle commons — same precedence boundary as STEP 4 below, so
@@ -81,7 +83,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   // (only STEP 5b's explicit opt-in may add readings from the Common).
   // Exception: the Christmas Octave (see isChristmasOctave above) always
   // takes the full-overlay branch regardless of precedence.
-  final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
+  final bool hasCommon = context.hasSelectedCommon;
   Masses commonMasses = Masses();
   if (hasCommon) {
     commonMasses = await loadMassHierarchicalCommon(context);
@@ -181,16 +183,6 @@ Future<Mass> massExport(CelebrationContext context) async {
   );
 
   return selected;
-}
-
-/// Loads proper Mass data by resolving the correct directory for the
-/// celebration's code (sanctoral vs ferial), mirroring
-/// readingsExport._loadProperReadings.
-Future<Masses> _loadProperMasses(CelebrationContext context) async {
-  final filePath =
-      await dirPathForCode(context.celebrationCode, context.dataLoader);
-  return massExtract(
-      '$filePath/${context.celebrationCode}.yaml', context.dataLoader);
 }
 
 /// Keeps only the partContents entries relevant to one of [cycleKeys] in

@@ -20,24 +20,25 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 
   final String lt = context.liturgicalTime ?? '';
   final int prec = context.precedence ?? 13;
-  final bool isMemory = prec > 9;
+  final bool isMemory = context.isMemorial;
   // Memorials and feasts keep the season's hymns selectable after their own;
   // solemnities replace them.
-  final bool keepBaseHymns = prec > 4;
+  final bool keepBaseHymns = context.keepsSeasonHymns;
 
   // STEP 1: Load Ferial data as the base layer
-  if (context.ferialCode?.trim().isNotEmpty ?? false) {
+  if (context.hasFerialBase) {
     readingsOffice = await ferialReadingsResolution(context);
   }
 
   // STEP 2: Load Proper celebration data
   Readings properReadings = Readings();
-  if (context.celebrationCode != context.ferialCode) {
-    properReadings = await _loadProperReadings(context);
+  if (context.hasProper) {
+    properReadings = await readingsExtractFor(context,
+        await celebrationFilePath(context.celebrationCode, context.dataLoader));
   }
 
   // STEP 3: Handle Commons and Overlays
-  final bool hasCommon = context.selectedCommon?.trim().isNotEmpty ?? false;
+  final bool hasCommon = context.hasSelectedCommon;
 
   if (hasCommon) {
     Readings commonReadings = await loadReadingsHierarchicalCommon(context);
@@ -103,12 +104,4 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   applyPaschalToPsalmody(readingsOffice.psalmody, lt);
 
   return readingsOffice;
-}
-
-/// Loads proper readings by trying special_days and sanctoral paths in parallel.
-Future<Readings> _loadProperReadings(CelebrationContext context) async {
-  final filePath =
-      await dirPathForCode(context.celebrationCode, context.dataLoader);
-  return readingsExtractFor(
-      context, '$filePath/${context.celebrationCode}.yaml');
 }

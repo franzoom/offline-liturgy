@@ -320,14 +320,8 @@ class Mass {
       prayerOnThePeople: asYamlList(json['prayerOnThePeople'])
           ?.map((e) => e.toString())
           .toList(),
-      solemnBlessingList: asYamlList(json['solemnBlessingList'])
-          ?.map(HymnEntry.fromJson)
-          .whereType<HymnEntry>()
-          .toList(),
-      sequence: asYamlList(json['sequence'])
-          ?.map(HymnEntry.fromJson)
-          .whereType<HymnEntry>()
-          .toList(),
+      solemnBlessingList: HymnEntry.listFrom(json['solemnBlessingList']),
+      sequence: HymnEntry.listFrom(json['sequence']),
       eucharisticPrayerCommunicantes:
           json['eucharisticPrayerCommunicantes'] != null
               ? EucharisticPrayerCommunicantesEntry.fromJson(

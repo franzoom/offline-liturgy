@@ -27,10 +27,7 @@ class HourPrayer {
 
   /// Reads the hour's section of a YAML file.
   HourPrayer.fromJson(Map<String, dynamic> data)
-      : hymn = asYamlList(data['hymn'])
-            ?.map(HymnEntry.fromJson)
-            .whereType<HymnEntry>()
-            .toList(),
+      : hymn = HymnEntry.listFrom(data['hymn']),
         psalmody = asYamlList(data['psalmody'])
             ?.whereType<Map<String, dynamic>>()
             .map((e) => PsalmEntry.fromJson(e))

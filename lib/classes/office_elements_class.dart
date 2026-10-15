@@ -171,11 +171,10 @@ class HymnEntry {
   static HymnEntry? fromJson(dynamic json) =>
       json == null ? null : HymnEntry(code: json.toString());
 
-  /// Create Hymn Entry list from a list of codes, skipping null entries.
-  static List<HymnEntry> fromCodes(List<dynamic>? codes) {
-    if (codes == null) return [];
-    return codes.map(HymnEntry.fromJson).whereType<HymnEntry>().toList();
-  }
+  /// Reads a list of hymn codes (or a single one), skipping null entries;
+  /// null when the field is absent.
+  static List<HymnEntry>? listFrom(dynamic value) =>
+      asYamlList(value)?.map(fromJson).whereType<HymnEntry>().toList();
 }
 
 /// Biblical short reading (Lauds / Vespers)

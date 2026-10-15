@@ -35,8 +35,8 @@ class MiddleOfDay {
   /// `hymn` inside tierce/sexte/none overrides it for that hour only.
   factory MiddleOfDay.fromJson(Map<String, dynamic> data) {
     List<HymnEntry>? parseHymns(dynamic value) {
-      final hymns = HymnEntry.fromCodes(asYamlList(value));
-      return hymns.isEmpty ? null : hymns;
+      final hymns = HymnEntry.listFrom(value);
+      return (hymns?.isEmpty ?? true) ? null : hymns;
     }
 
     final sharedHymns = parseHymns(data['hymn']);

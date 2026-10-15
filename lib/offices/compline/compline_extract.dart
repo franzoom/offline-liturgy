@@ -21,10 +21,7 @@ Future<Compline> complineExtract(
     final dynamic dayData = data[dayKey];
     if (dayData is! Map<String, dynamic>) return Compline();
 
-    final List<HymnEntry>? rootMarialHymns = (data['marialHymns'] as List?)
-        ?.map(HymnEntry.fromJson)
-        .whereType<HymnEntry>()
-        .toList();
+    final rootMarialHymns = HymnEntry.listFrom(data['marialHymns']);
 
     final Compline compline = Compline.fromJson(dayData);
     return compline.marialHymnRef != null

@@ -29,14 +29,22 @@ abstract class BibleTextProvider {
 /// to [endVerse] of [endChapter].
 class BiblePassage {
   final String book;
-  final String? startChapter; // null for a single-chapter book ("Jude 1-25")
+  final int? startChapter; // null for a single-chapter book ("Jude 1-25")
   final String startVerse;
-  final String? endChapter;
+  final int? endChapter;
   final String endVerse;
 
   const BiblePassage(this.book, this.startChapter, this.startVerse,
       this.endChapter, this.endVerse);
 }
+
+final _otherSpaces = RegExp(r'[\u00a0\u202f]');
+final _dash = RegExp(r'\s*[–—]\s*');
+final _bookAndVerses = RegExp(r'^(\S+)\s+(.+)$');
+final _chapterAndVerses = RegExp(r'^(\d+)\s*,\s*(.+)$');
+final _chapterAndVerse = RegExp(r'^(\d+)\s*,\s*(\S+)$');
+final _halfVerse = RegExp(r'^(\d+)[a-z]$');
+final _letters = RegExp(r'^[a-z]+$');
 
 /// Splits a liturgical reference into passages.
 ///
@@ -45,21 +53,19 @@ class BiblePassage {
 /// (several segments), "Est 4, 17k-17z" (lettered verses) and
 /// "Jude 1-25" (single-chapter book). Throws a [FormatException] otherwise.
 List<BiblePassage> parseBibleReference(String reference) {
-  final ref = reference
-      .replaceAll(RegExp(r'[\u00a0\u202f]'), ' ')
-      .replaceAll(RegExp(r'\s*[–—]\s*'), '-')
-      .trim();
-  final match = RegExp(r'^(\S+)\s+(.+)$').firstMatch(ref);
+  final ref =
+      reference.replaceAll(_otherSpaces, ' ').replaceAll(_dash, '-').trim();
+  final match = _bookAndVerses.firstMatch(ref);
   if (match == null) throw FormatException('No book in "$reference"');
   final book = match.group(1)!;
   final passages = <BiblePassage>[];
 
   for (var group in match.group(2)!.split(';')) {
     group = group.trim();
-    String? chapter;
-    final chapterMatch = RegExp(r'^(\d+)\s*,\s*(.+)$').firstMatch(group);
+    int? chapter;
+    final chapterMatch = _chapterAndVerses.firstMatch(group);
     if (chapterMatch != null) {
-      chapter = chapterMatch.group(1);
+      chapter = int.parse(chapterMatch.group(1)!);
       group = chapterMatch.group(2)!;
     }
     for (final segment in group.split('.')) {
@@ -72,13 +78,14 @@ List<BiblePassage> parseBibleReference(String reference) {
       }
       final start = seg.substring(0, dash).trim();
       final end = seg.substring(dash + 1).trim();
-      final crossChapter = RegExp(r'^(\d+)\s*,\s*(\S+)$').firstMatch(end);
+      final crossChapter = _chapterAndVerse.firstMatch(end);
       if (crossChapter != null) {
         // "27-2, 11": the end is in a later chapter, which then becomes the
         // current one for the following segments.
-        passages.add(BiblePassage(book, chapter, start, crossChapter.group(1),
-            crossChapter.group(2)!));
-        chapter = crossChapter.group(1);
+        final endChapter = int.parse(crossChapter.group(1)!);
+        passages.add(BiblePassage(
+            book, chapter, start, endChapter, crossChapter.group(2)!));
+        chapter = endChapter;
       } else {
         passages.add(BiblePassage(book, chapter, start, chapter, end));
       }
@@ -110,8 +117,8 @@ Future<String?> bibleText(String reference, BibleTextProvider provider) async {
       if (rows == null) return null;
       verses.addAll(_slice(rows, p.startVerse, p.endVerse, reference));
     } else {
-      final first = int.parse(p.startChapter!);
-      final last = int.parse(p.endChapter!);
+      final first = p.startChapter!;
+      final last = p.endChapter!;
       for (var c = first; c <= last; c++) {
         final rows = await provider.chapter(p.book, '$c');
         if (rows == null) return null;
@@ -130,21 +137,28 @@ Future<String?> bibleText(String reference, BibleTextProvider provider) async {
 List<BibleVerse> _slice(
     List<BibleVerse> rows, String? from, String? to, String reference) {
   int find(String label, {required bool last}) {
-    final exact = rows.indexWhere((v) => v.verse == label);
-    final subs = [
-      for (var i = 0; i < rows.length; i++)
-        if (rows[i].verse == label ||
-            RegExp('^${RegExp.escape(label)}[a-z]+\$').hasMatch(rows[i].verse))
-          i
-    ];
-    if (subs.isEmpty) {
+    // One pass: the exact verse, and the first and last rows it covers
+    // (itself and its lettered sub-verses).
+    int exact = -1, firstCovered = -1, lastCovered = -1;
+    for (var i = 0; i < rows.length; i++) {
+      final verse = rows[i].verse;
+      if (verse == label) {
+        if (exact < 0) exact = i;
+      } else if (!verse.startsWith(label) ||
+          !_letters.hasMatch(verse.substring(label.length))) {
+        continue;
+      }
+      if (firstCovered < 0) firstCovered = i;
+      lastCovered = i;
+    }
+    if (firstCovered < 0) {
       // Half verse ("3a", "8b") that the source does not split: whole verse.
-      final half = RegExp(r'^(\d+)[a-z]$').firstMatch(label);
+      final half = _halfVerse.firstMatch(label);
       if (half != null) return find(half.group(1)!, last: last);
       throw FormatException('Verse $label not found in "$reference"');
     }
-    if (last) return subs.last;
-    return exact >= 0 ? exact : subs.first;
+    if (last) return lastCovered;
+    return exact >= 0 ? exact : firstCovered;
   }
 
   final i = from == null ? 0 : find(from, last: false);

@@ -1,5 +1,7 @@
+import '../classes/hour_prayer_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/celebration_index.dart';
+import '../tools/date_tools.dart';
 
 /// Builds an office for [context] from its layers, loaded in parallel: the
 /// ferial day ([ferial]), the celebration's own file ([proper], given its
@@ -41,4 +43,31 @@ Future<({T office, T proper})> composeOffice<T>(
   }
   overlay(base, properLayer);
   return (office: base, proper: properLayer);
+}
+
+/// [composeOffice] for a major hour (Lauds or Vespers): memorials and feasts
+/// keep the season's hymns selectable after their own, and the day's
+/// year-cycle antiphons (Sundays of Ordinary Time) belong to that day's own
+/// office only, never to a celebration replacing it (First Vespers
+/// included).
+Future<T> composeHourPrayer<T extends HourPrayer>(
+  CelebrationContext context, {
+  required T Function() empty,
+  required Future<T> Function() ferial,
+  required Future<T> Function(String path) proper,
+  required Future<T> Function() common,
+}) async {
+  final (office: office, proper: _) = await composeOffice<T>(
+    context,
+    empty: empty,
+    ferial: ferial,
+    proper: proper,
+    common: common,
+    overlay: (base, layer) =>
+        base.overlayWith(layer, keepBaseHymns: context.keepsSeasonHymns),
+    overlayCommon: (base, common) => base.overlayWithCommon(common),
+    beforeOverlays: (base) => base.evangelicAntiphon =
+        withoutYearCycleAntiphons(base.evangelicAntiphon),
+  );
+  return office;
 }

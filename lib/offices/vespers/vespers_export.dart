@@ -15,21 +15,13 @@ import '../../assets/usual_texts.dart';
 /// 3. Proper (Sanctoral or Special)
 Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // STEPS 1-4: Ferial base, Common and proper layers
-  final (office: vespersOffice, proper: _) = await composeOffice<Vespers>(
+  final vespersOffice = await composeHourPrayer<Vespers>(
     celebrationContext,
     empty: Vespers.new,
     ferial: () => ferialVespersResolution(celebrationContext),
     proper: (path) => vespersExtract(path, celebrationContext.dataLoader,
         section: celebrationContext.vespersSection),
     common: () => loadVespersHierarchicalCommon(celebrationContext),
-    overlay: (base, layer) => base.overlayWith(layer,
-        keepBaseHymns: celebrationContext.keepsSeasonHymns),
-    overlayCommon: (base, common) => base.overlayWithCommon(common),
-    // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
-    // that day's own office only, never to a celebration replacing it —
-    // First Vespers included
-    beforeOverlays: (base) => base.evangelicAntiphon =
-        withoutYearCycleAntiphons(base.evangelicAntiphon),
   );
 
   // Append Lucernaire hymn, except during Lent and Holy Week, unless a layer

@@ -2,6 +2,7 @@ import '../../classes/mass_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/constants.dart';
 import '../ferial_layers.dart';
+import '../compose_office.dart';
 import './mass_extract.dart';
 
 /// Resolves Mass content for ferial days.
@@ -12,7 +13,7 @@ Future<Masses> ferialMassResolution(CelebrationContext context) async {
 
   if (layers.season == 'ot') return _resolveOrdinaryTime(layers, context);
 
-  return composeFerialLayers<Masses>([
+  return composeLayers<Masses>([
     ...layers.paths,
     // Dec 17–24: the great Advent weekday's own file
     if (layers.adventSpecialDay != null)

@@ -3,6 +3,7 @@ import '../../classes/office_elements_class.dart';
 import '../../tools/hymns_management.dart';
 import '../../tools/date_tools.dart';
 import '../ferial_layers.dart';
+import '../compose_office.dart';
 import './readings_extract.dart';
 
 /// Resolves readings prayer (Office of Readings) for ferial days
@@ -19,7 +20,7 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) async {
       ? sundayCycle(context.effectiveLiturgicalYear)
       : null;
 
-  final readings = await composeFerialLayers<Readings>([
+  final readings = await composeLayers<Readings>([
     ...layers.paths,
     // Dec 17–24: the great Advent weekday's own file
     if (layers.adventSpecialDay != null)

@@ -86,18 +86,6 @@ class Compline {
       marialHymnRef: marialHymnRef ?? this.marialHymnRef,
     );
   }
-
-  /// Returns true if all fields are null (empty Compline)
-  bool get isEmpty =>
-      commentary == null &&
-      celebrationType == null &&
-      hymns == null &&
-      psalmody == null &&
-      reading == null &&
-      responsory == null &&
-      evangelicAntiphon == null &&
-      oration == null &&
-      marialHymnRef == null;
 }
 
 /// Definition of Compline type for a given day

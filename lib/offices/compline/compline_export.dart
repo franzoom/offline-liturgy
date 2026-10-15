@@ -43,39 +43,8 @@ Future<Compline> _complineText(
   final String time = def.liturgicalTime.toLowerCase();
   final String ct = def.celebrationType.toLowerCase();
 
-  // Layer 1: default base
-  Compline base =
-      await complineExtract('$_base/default.yaml', day, dataLoader);
-
-  // The Nativity's own Complines — the eve (Dec 24 evening) as well as the
-  // day — already belong to Christmas Time: christmas.yaml alone applies,
-  // with no solemnity layer on top (solemnity_advent_christmas.yaml would
-  // replace its antiphons). The eve can't rely on liturgicalTime, which is
-  // still today's 'advent'; the day's own value is 'nativity'.
-  if (def.celebrationCode == 'roman/nativity') {
-    final Compline christmas =
-        await complineExtract('$_base/christmas.yaml', day, dataLoader);
-    final result = christmas.isEmpty ? base : base.mergeWith(christmas);
-    return result.copyWith(celebrationType: def.celebrationType);
-  }
-
-  // Layer 2: for advent/christmas solemnities, merge the time-specific file
-  // first so its antiphons and psalms serve as the intermediate base
-  if (ct == 'solemnity' || ct == 'solemnityeve') {
-    final String? intermediatePath = switch (time) {
-      'advent' => '$_base/advent.yaml',
-      'christmas' || 'christmasoctave' => '$_base/christmas.yaml',
-      _ => null,
-    };
-    if (intermediatePath != null) {
-      final Compline intermediate =
-          await complineExtract(intermediatePath, day, dataLoader);
-      if (!intermediate.isEmpty) base = base.mergeWith(intermediate);
-    }
-  }
-
   // Layer 3: solemnity/time override
-  final (String? path, String overrideDay) = switch (ct) {
+  final (String? overridePath, String overrideDay) = switch (ct) {
     'holy_thursday' || 'holy_friday' || 'holy_saturday' => ('$_base/lent.yaml', ct),
     'solemnity' || 'solemnityeve' => switch (time) {
         'paschaloctave' || 'paschaltime' => ('$_base/solemnity_paschal.yaml', day),
@@ -95,13 +64,36 @@ Future<Compline> _complineText(
       },
   };
 
-  if (path == null) {
-    return base.copyWith(celebrationType: def.celebrationType);
-  }
+  // Layer 2: for advent/christmas solemnities, the time-specific file comes
+  // first so its antiphons and psalms serve as the intermediate base
+  final String? intermediatePath = (ct == 'solemnity' || ct == 'solemnityeve')
+      ? switch (time) {
+          'advent' => '$_base/advent.yaml',
+          'christmas' || 'christmasoctave' => '$_base/christmas.yaml',
+          _ => null,
+        }
+      : null;
 
-  final Compline correction =
-      await complineExtract(path, overrideDay, dataLoader);
+  // Layers over the default base, each one's fields winning over the
+  // previous ones. The Nativity's own Complines — the eve (Dec 24 evening)
+  // as well as the day — already belong to Christmas Time: christmas.yaml
+  // alone applies, with no solemnity layer on top
+  // (solemnity_advent_christmas.yaml would replace its antiphons). The eve
+  // can't rely on liturgicalTime, which is still today's 'advent'; the
+  // day's own value is 'nativity'.
+  final layers = def.celebrationCode == 'roman/nativity'
+      ? [('$_base/christmas.yaml', day)]
+      : [
+          if (intermediatePath != null) (intermediatePath, day),
+          if (overridePath != null) (overridePath, overrideDay),
+        ];
 
-  final result = correction.isEmpty ? base : base.mergeWith(correction);
-  return result.copyWith(celebrationType: def.celebrationType);
+  final complines = await Future.wait([
+    complineExtract('$_base/default.yaml', day, dataLoader),
+    for (final (path, dayKey) in layers)
+      complineExtract(path, dayKey, dataLoader),
+  ]);
+  return complines
+      .reduce((base, layer) => base.mergeWith(layer))
+      .copyWith(celebrationType: def.celebrationType);
 }

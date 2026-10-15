@@ -95,10 +95,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     final dayOfCompline = _detectDayOfWeek(date, celebrationType);
     final description = 'Complies – ${c.celebrationGlobalName}';
     possibleComplines[description] = ComplineDefinition(
-      context: CelebrationContext(
-        celebrationCode: c.celebrationCode,
-        celebrationTitle: c.celebrationTitle,
-        ferialCode: c.ferialCode,
+      context: c.copyWith(
         date: date,
         liturgicalTime: liturgicalTime,
         precedence: c.precedence ?? 1,
@@ -106,7 +103,6 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         isCelebrable: true,
         celebrationType: celebrationType,
         officeDescription: description,
-        dataLoader: dataLoader,
       ),
       dayOfCompline: dayOfCompline,
     );
@@ -139,10 +135,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           ].join(' ');
 
     possibleComplines[description] = ComplineDefinition(
-      context: CelebrationContext(
-        celebrationCode: c.celebrationCode,
-        celebrationTitle: c.celebrationTitle,
-        ferialCode: c.ferialCode,
+      context: c.copyWith(
         date: date,
         liturgicalTime: liturgicalTime,
         precedence: precedence,
@@ -150,7 +143,6 @@ Future<Map<String, ComplineDefinition>> complineDetection(
         isCelebrable: c.isCelebrable,
         celebrationType: celebrationType,
         officeDescription: description,
-        dataLoader: dataLoader,
       ),
       dayOfCompline: dayOfCompline,
       isEveCompline: false,
@@ -176,10 +168,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       final String eveDescription =
           'Complies de la veille de ${c.celebrationGlobalName}';
       possibleComplines[eveDescription] = ComplineDefinition(
-        context: CelebrationContext(
-          celebrationCode: c.celebrationCode,
-          celebrationTitle: c.celebrationTitle,
-          ferialCode: c.ferialCode,
+        context: c.copyWith(
           date: date,
           liturgicalTime: liturgicalTime,
           precedence: precedence,
@@ -187,7 +176,6 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           isCelebrable: true,
           celebrationType: 'solemnityeve',
           officeDescription: eveDescription,
-          dataLoader: dataLoader,
         ),
         dayOfCompline: 'saturday',
         isEveCompline: true,

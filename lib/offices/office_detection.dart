@@ -116,8 +116,8 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   final int defaultPrecedence = dayContent.precedence;
 
   // Determine ferialCode: root code if it's a ferial day
-  final String ferialCode =
-      ferialDayCheck(defaultCelebrationTitle) ? defaultCelebrationTitle : '';
+  final String? ferialCode =
+      ferialDayCheck(defaultCelebrationTitle) ? defaultCelebrationTitle : null;
 
   // Build list of all celebrations with source tracking
   final List<({int precedence, String code, bool isFromRoot})> allCelebrations =

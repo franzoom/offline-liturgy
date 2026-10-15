@@ -337,7 +337,7 @@ class CelebrationContext {
   final String?
       celebrationTitle; // display title (from YAML title or ferial name)
   final String? celebrationGlobalName; // full name with subtitle
-  final String? ferialCode; // given by the calendar root of the date
+  final String? ferialCode; // the day's ferial root; null if not ferial
   final List<String>? commonList; // list of commons for the celebration
   final DateTime date;
   final String? liturgicalTime; // given by the calendar root of the date
@@ -424,7 +424,7 @@ class CelebrationContext {
   }
 
   /// Whether the office is built on the day's ferial texts.
-  bool get hasFerialBase => ferialCode?.trim().isNotEmpty ?? false;
+  bool get hasFerialBase => ferialCode?.isNotEmpty ?? false;
 
   /// Whether the celebration has its own file over the ferial day.
   bool get hasProper => celebrationCode != ferialCode;

@@ -124,7 +124,6 @@ void _fillAdvent(
       precedence: precedence,
       liturgicalColor: 'violet',
       breviaryWeek: (adventDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -145,7 +144,6 @@ void _fillChristmasToBaptism(
     precedence: 2,
     liturgicalColor: 'white',
     breviaryWeek: 1,
-    feastList: {},
   );
   // christmas is december, 25th of the previous year
   DateTime date = DateTime(liturgicalYear - 1, 12, 25);
@@ -168,9 +166,8 @@ void _fillChristmasToBaptism(
         defaultCelebrationTitle: defaultCelebrationTitle,
         precedence: precedence,
         liturgicalColor: 'white',
-        breviaryWeek: date.isBefore(feasts['HOLY_FAMILY']!) ? 4 : 1,
         // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
-        feastList: {});
+        breviaryWeek: date.isBefore(feasts['HOLY_FAMILY']!) ? 4 : 1);
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
   }
@@ -183,7 +180,6 @@ void _fillChristmasToBaptism(
     precedence: 3, // Solemnity of the Blessed Virgin Mary (Table item 3)
     liturgicalColor: 'white',
     breviaryWeek: 1,
-    feastList: {},
   );
   date = DateTime(liturgicalYear, 1, 1);
   calendar.addDayContent(date, dayContent);
@@ -209,7 +205,6 @@ void _fillChristmasToBaptism(
       precedence: date.isSunday ? 6 : 13,
       liturgicalColor: 'white',
       breviaryWeek: (christmasFerialDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -229,7 +224,6 @@ void _fillChristmasToBaptism(
     // and breviaryWeek is 1.
     // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
     // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
-    feastList: {},
   );
   date = epiphanyDate;
   calendar.addDayContent(date, dayContent);
@@ -246,7 +240,6 @@ void _fillChristmasToBaptism(
       precedence: 13,
       liturgicalColor: 'white',
       breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -262,7 +255,6 @@ void _fillChristmasToBaptism(
     precedence: 5,
     liturgicalColor: 'white',
     breviaryWeek: 1,
-    feastList: {},
   );
   date = feasts['BAPTISM']!;
   calendar.addDayContent(date, dayContent);
@@ -287,7 +279,6 @@ void _fillOrdinaryTimeBeforeLent(
       precedence: precedence,
       liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -307,7 +298,6 @@ void _fillLentAndHolyWeek(
     precedence: 2,
     liturgicalColor: 'violet',
     breviaryWeek: 4,
-    feastList: {},
   );
   DateTime date = feasts['ASHES']!;
   calendar.addDayContent(date, dayContent);
@@ -324,7 +314,6 @@ void _fillLentAndHolyWeek(
       precedence: 9,
       liturgicalColor: 'violet',
       breviaryWeek: 4,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -344,7 +333,6 @@ void _fillLentAndHolyWeek(
       precedence: precedence,
       liturgicalColor: 'violet',
       breviaryWeek: (lentDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -359,7 +347,6 @@ void _fillLentAndHolyWeek(
     precedence: 2,
     liturgicalColor: 'red',
     breviaryWeek: 2,
-    feastList: {},
   );
   date = feasts['PALMS']!;
   calendar.addDayContent(date, dayContent);
@@ -385,7 +372,6 @@ void _fillLentAndHolyWeek(
       precedence: precedence,
       liturgicalColor: liturgicalColor,
       breviaryWeek: 2,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -411,7 +397,6 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
       precedence: precedence,
       liturgicalColor: 'white',
       breviaryWeek: 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -434,7 +419,6 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
       precedence: precedence,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -449,7 +433,6 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
     precedence: 2,
     liturgicalColor: 'white',
     breviaryWeek: 2,
-    feastList: {},
   );
   date = feasts['ASCENSION']!;
   calendar.addDayContent(date, dayContent);
@@ -467,7 +450,6 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
       precedence: precedence,
       liturgicalColor: 'white',
       breviaryWeek: (paschalTimeDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -482,7 +464,6 @@ void _fillPaschalTime(Calendar calendar, Map<String, DateTime> feasts,
     precedence: 2,
     liturgicalColor: 'red',
     breviaryWeek: 2,
-    feastList: {},
   );
   date = feasts['PENTECOST']!;
   calendar.addDayContent(date, dayContent);
@@ -507,7 +488,6 @@ void _fillOrdinaryTimeAfterPentecost(
       precedence: date.isSunday ? 6 : 13,
       liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);
@@ -524,7 +504,6 @@ void _fillOrdinaryTimeAfterPentecost(
         precedence: 3,
         liturgicalColor: 'white',
         breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-        feastList: {},
       ));
   date = date.shift(1);
   ordinaryTimeDays++;
@@ -538,7 +517,6 @@ void _fillOrdinaryTimeAfterPentecost(
       precedence: 13,
       liturgicalColor: 'green',
       breviaryWeek: (ordinaryTimeDays ~/ 7) % 4 + 1,
-      feastList: {},
     );
     calendar.addDayContent(date, dayContent);
     date = date.shift(1);

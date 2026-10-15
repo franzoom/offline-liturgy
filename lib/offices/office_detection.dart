@@ -4,6 +4,7 @@ import '../classes/office_elements_class.dart';
 import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
+import '../tools/celebration_index.dart';
 import '../tools/yaml_map_loader.dart';
 
 /// function returning the possible offices for a given day
@@ -40,8 +41,6 @@ CelebrationYamlData? _celebrationHeader(Map<String, dynamic>? data) {
     commons: commons is List ? commons.whereType<String>().toList() : const [],
   );
 }
-
-final _christmasOctaveDay = RegExp(r'^christmas_\d{2}$');
 
 /// Returns the effective sort precedence for a celebration.
 /// Ferial days at precedence 13 rank before optional memorials (12).
@@ -171,7 +170,7 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   // Read the header of every celebration file in one parallel pass.
   // Compound codes (advent-N_W_D and christmas-N_W_D) have no single YAML file;
   // read the day-specific proper file instead.
-  String celebrationPath(String code) {
+  Future<String> celebrationPath(String code) async {
     if (code.startsWith('advent-')) {
       final specialDay = code.replaceFirst('advent-', '').split('_')[0];
       return '$ferialFilePath/advent_$specialDay.yaml';
@@ -180,17 +179,12 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
       final specialDay = code.replaceFirst('christmas-', '').split('_')[0];
       return '$ferialFilePath/christmas-ferial_before_epiphany_$specialDay.yaml';
     }
-    // christmas_26–31 are proper celebrations but their YAML lives in ferial_days/
-    if (_christmasOctaveDay.hasMatch(code)) {
-      return '$ferialFilePath/$code.yaml';
-    }
-    final filePath = ferialDayCheck(code) ? ferialFilePath : sanctoralFilePath;
-    return '$filePath/$code.yaml';
+    return celebrationFilePath(code, dataLoader);
   }
 
   final headerList = await Future.wait(allCelebrations.map((c) async =>
       _celebrationHeader(
-          await loadYamlMap(celebrationPath(c.code), dataLoader))));
+          await loadYamlMap(await celebrationPath(c.code), dataLoader))));
   final Map<String, CelebrationYamlData> headers = {
     for (int i = 0; i < allCelebrations.length; i++)
       if (headerList[i] != null) allCelebrations[i].code: headerList[i]!,

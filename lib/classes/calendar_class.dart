@@ -53,6 +53,27 @@ class Calendar {
     return slash == -1 ? key : key.substring(slash + 1);
   }
 
+  /// Finds the feast of [day] whose key has the base name [baseName]
+  /// (prefix-agnostic): its precedence bucket, index and stored key.
+  ({int precedence, int index, String key})? _findByBaseName(
+      DayContent day, String baseName) {
+    for (final entry in day.feastList.entries) {
+      final index = entry.value.indexWhere((k) => _baseName(k) == baseName);
+      if (index >= 0) {
+        return (precedence: entry.key, index: index, key: entry.value[index]);
+      }
+    }
+    return null;
+  }
+
+  /// Removes the feast found by [_findByBaseName] from [day].
+  void _removeFeast(
+      DayContent day, ({int precedence, int index, String key}) found) {
+    final list = day.feastList[found.precedence]!;
+    list.removeAt(found.index);
+    if (list.isEmpty) day.feastList.remove(found.precedence);
+  }
+
   /// Adds or updates a feast entry.
   ///
   /// Deduplicates by base name (strips prefix). When [knownCodes] is provided
@@ -68,31 +89,15 @@ class Calendar {
     final dayContent = calendarData[date];
     if (dayContent == null) return newFeastName;
 
-    final newBase = _baseName(newFeastName);
-
     // Search for an existing entry with the same base name
-    int? existingPrecedence;
-    int existingIndex = 0;
-    String? existingFeastName;
-
-    outer:
-    for (var entry in dayContent.feastList.entries) {
-      final list = entry.value;
-      for (int i = 0; i < list.length; i++) {
-        if (_baseName(list[i]) == newBase) {
-          existingPrecedence = entry.key;
-          existingIndex = i;
-          existingFeastName = list[i];
-          break outer;
-        }
-      }
-    }
+    final existing = _findByBaseName(dayContent, _baseName(newFeastName));
 
     // No existing match — simply add
-    if (existingFeastName == null) {
+    if (existing == null) {
       (dayContent.feastList[precedence] ??= []).add(newFeastName);
       return newFeastName;
     }
+    final existingFeastName = existing.key;
 
     // If newFeastName has no own YAML file, preserve the existing qualified key
     final effectiveKey = (knownCodes != null &&
@@ -101,22 +106,14 @@ class Calendar {
         ? existingFeastName
         : newFeastName;
 
-    // Exact same key at same precedence — nothing to do
-    if (existingPrecedence == precedence && existingFeastName == effectiveKey) {
-      return effectiveKey;
-    }
-
-    // Same precedence — replace in place
-    if (existingPrecedence == precedence) {
-      dayContent.feastList[precedence]![existingIndex] = effectiveKey;
+    // Same precedence — replace in place (nothing to do for the same key)
+    if (existing.precedence == precedence) {
+      dayContent.feastList[precedence]![existing.index] = effectiveKey;
       return effectiveKey;
     }
 
     // Different precedence — remove from old bucket, add to new
-    final oldList = dayContent.feastList[existingPrecedence]!;
-    oldList.removeAt(existingIndex);
-    if (oldList.isEmpty) dayContent.feastList.remove(existingPrecedence);
-
+    _removeFeast(dayContent, existing);
     (dayContent.feastList[precedence] ??= []).add(effectiveKey);
     return effectiveKey;
   }
@@ -148,43 +145,18 @@ class Calendar {
   /// Returns the qualified key as found in the calendar (e.g.
   /// `roman/peter_canisius_priest`), or null if no matching entry was found.
   String? moveItemToDate(String feastName, DateTime newDate, int precedence) {
-    DateTime? oldDate;
-    int? oldPrecedence;
-    int? oldIndex;
-    String? foundKey;
-
-    outer:
-    for (final entry in calendarData.entries) {
-      for (final feastEntry in entry.value.feastList.entries) {
-        final list = feastEntry.value;
-        final base = _baseName(feastName);
-        for (int i = 0; i < list.length; i++) {
-          if (_baseName(list[i]) == base) {
-            oldDate = entry.key;
-            oldPrecedence = feastEntry.key;
-            oldIndex = i;
-            foundKey = list[i];
-            break outer;
-          }
-        }
-      }
+    final base = _baseName(feastName);
+    for (final MapEntry(key: oldDate, value: day) in calendarData.entries) {
+      final found = _findByBaseName(day, base);
+      if (found == null) continue;
+      if (oldDate != newDate) _removeFeast(day, found);
+      addItemToDay(newDate, precedence, found.key);
+      return found.key;
     }
 
-    if (foundKey == null) {
-      log('move: no feast named "$feastName" in the calendar, ignored',
-          name: 'Calendar', level: 900);
-      return null;
-    }
-
-    if (oldDate != newDate) {
-      final oldContent = calendarData[oldDate]!;
-      final oldList = oldContent.feastList[oldPrecedence!]!;
-      oldList.removeAt(oldIndex!);
-      if (oldList.isEmpty) oldContent.feastList.remove(oldPrecedence);
-    }
-
-    addItemToDay(newDate, precedence, foundKey);
-    return foundKey;
+    log('move: no feast named "$feastName" in the calendar, ignored',
+        name: 'Calendar', level: 900);
+    return null;
   }
 
   /// Downgrades obligatory memorials (precedence 10/11) to optional (12)

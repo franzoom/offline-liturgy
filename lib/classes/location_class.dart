@@ -102,6 +102,29 @@ List<DateTime> resolveFixedFeastDate({
   return dates;
 }
 
+/// The dates of [feast] within the liturgical year whose movable feasts
+/// are [liturgicalMainFeasts] (from the 1st Sunday of Advent to the
+/// Saturday after Christ the King): a fixed month/day, or a shift from a
+/// movable feast.
+List<DateTime> feastDates(
+    LocationFeast feast, Map<String, DateTime> liturgicalMainFeasts) {
+  final beginYear = liturgicalMainFeasts['ADVENT']!;
+  final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
+  final relativeTo = feast.relativeTo;
+  if (relativeTo == null) {
+    return resolveFixedFeastDate(
+      month: feast.month!,
+      day: feast.day!,
+      beginYear: beginYear,
+      endYear: endYear,
+    );
+  }
+  final baseDate = liturgicalMainFeasts[relativeTo];
+  if (baseDate == null) return const [];
+  final date = baseDate.shift(feast.shift ?? 0);
+  return date.isBefore(beginYear) || date.isAfter(endYear) ? const [] : [date];
+}
+
 class Location {
   final String id;
   final String language;
@@ -159,44 +182,17 @@ class Location {
     Map<String, DateTime> liturgicalMainFeasts, {
     Set<String> knownCodes = const {},
   }) {
-    final beginYear = liturgicalMainFeasts['ADVENT']!;
-    final endYear = liturgicalMainFeasts['CHRIST_KING']!.shift(6);
-
-    List<DateTime> resolveDates(LocationFeast feast) => resolveFixedFeastDate(
-          month: feast.month!,
-          day: feast.day!,
-          beginYear: beginYear,
-          endYear: endYear,
-        );
-
-    String prefixed(String key) => '$id/$key';
-
     for (final feast in feasts) {
-      if (feast.relativeTo != null) {
-        final baseDate = liturgicalMainFeasts[feast.relativeTo];
-        if (baseDate != null) {
-          final shift = feast.shift ?? 0;
-          final d = baseDate.shift(shift);
-          if (!d.isBefore(beginYear) && !d.isAfter(endYear)) {
-            final key = prefixed(feast.key);
-            final storedKey = calendar.addItemRelatedToFeast(
-                baseDate, shift, feast.precedence, key,
-                knownCodes: knownCodes);
-            calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
-          }
-        }
-      } else {
-        for (final d in resolveDates(feast)) {
-          final key = prefixed(feast.key);
-          final storedKey = calendar.addItemToDay(d, feast.precedence, key,
-              knownCodes: knownCodes);
-          calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
-        }
+      final key = '$id/${feast.key}';
+      for (final d in feastDates(feast, liturgicalMainFeasts)) {
+        final storedKey = calendar.addItemToDay(d, feast.precedence, key,
+            knownCodes: knownCodes);
+        calendar.setFeastOrigin(d, storedKey, frenchName, frenchLocative);
       }
     }
 
     for (final feast in moveFeasts) {
-      for (final d in resolveDates(feast)) {
+      for (final d in feastDates(feast, liturgicalMainFeasts)) {
         final resolvedKey =
             calendar.moveItemToDate(feast.key, d, feast.precedence);
         if (resolvedKey != null) {

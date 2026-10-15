@@ -3,7 +3,6 @@ import '../../classes/calendar_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
-import '../../tools/constants.dart';
 import '../office_detection.dart';
 import '../../assets/libraries/french_liturgy_labels.dart';
 
@@ -37,15 +36,11 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // 1. Detect celebrations for today (II Vespers) and tomorrow (potential
   // I Vespers), in parallel
   final tomorrow = date.shift(1);
-  final [todayCelebrations, tomorrowCelebrations] = await Future.wait([
-    detectOfficeCelebrations(calendar, date, dataLoader),
-    detectOfficeCelebrations(calendar, tomorrow, dataLoader),
-  ]);
+  final (today: todayCelebrations, tomorrow: tomorrowCelebrations) =
+      await detectTodayAndTomorrow(calendar, date, dataLoader);
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
-  final holyWeekCelebration = todayCelebrations
-      .where((c) => triduumCodes.containsKey(c.celebrationCode))
-      .firstOrNull;
+  final holyWeekCelebration = triduumCelebration(todayCelebrations);
   if (holyWeekCelebration != null) {
     final c = holyWeekCelebration;
     return {

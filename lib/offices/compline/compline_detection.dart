@@ -72,15 +72,11 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
   // 1. Detect celebrations (today and tomorrow in parallel)
   final tomorrow = date.shift(1);
-  final [rawTodayCelebrations, tomorrowCelebrations] = await Future.wait([
-    detectOfficeCelebrations(calendar, date, dataLoader),
-    detectOfficeCelebrations(calendar, tomorrow, dataLoader),
-  ]);
+  final (today: rawTodayCelebrations, tomorrow: tomorrowCelebrations) =
+      await detectTodayAndTomorrow(calendar, date, dataLoader);
 
   // --- Special case: the Triduum days have their own Compline, no other option ---
-  final holyWeekCelebration = rawTodayCelebrations
-      .where((c) => triduumCodes.containsKey(c.celebrationCode))
-      .firstOrNull;
+  final holyWeekCelebration = triduumCelebration(rawTodayCelebrations);
   if (holyWeekCelebration != null) {
     final c = holyWeekCelebration;
     final celebrationType =
@@ -153,8 +149,8 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 4. Process tomorrow's celebrations for eve Complines
   // No eve compline when tomorrow is a Holy Week Triduum day
   // No eve compline for ferial days (even high-precedence ones like Ash Wednesday)
-  final bool tomorrowIsHolyWeek = tomorrowCelebrations
-      .any((c) => triduumCodes.containsKey(c.celebrationCode));
+  final bool tomorrowIsHolyWeek =
+      triduumCelebration(tomorrowCelebrations) != null;
   final bool isTomorrowSunday = tomorrow.weekday == DateTime.sunday;
   bool tomorrowHasSolemnity = false;
 

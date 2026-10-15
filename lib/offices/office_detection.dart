@@ -366,6 +366,25 @@ Future<List<CelebrationContext>> detectOfficeCelebrations(
   return adjusted;
 }
 
+/// Today's and tomorrow's office celebrations, detected in parallel — for
+/// the evening offices (Vespers, Compline), which may anticipate tomorrow.
+Future<({List<CelebrationContext> today, List<CelebrationContext> tomorrow})>
+    detectTodayAndTomorrow(
+        Calendar calendar, DateTime date, DataLoader dataLoader) async {
+  final [today, tomorrow] = await Future.wait([
+    detectOfficeCelebrations(calendar, date, dataLoader),
+    detectOfficeCelebrations(calendar, date.shift(1), dataLoader),
+  ]);
+  return (today: today, tomorrow: tomorrow);
+}
+
+/// The Triduum day among [celebrations] (it has its own evening offices,
+/// with no other option), or null.
+CelebrationContext? triduumCelebration(List<CelebrationContext> celebrations) =>
+    celebrations
+        .where((c) => triduumCodes.containsKey(c.celebrationCode))
+        .firstOrNull;
+
 /// Generic helper for office detection wrappers (morning, readings, etc.).
 /// Converts detected celebrations into a keyed map with the given [celebrationType].
 Future<Map<String, CelebrationContext>> buildDetectionMap(

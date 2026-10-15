@@ -113,3 +113,17 @@ Future<void> completeHourPrayer(
   office.evangelicCanticle = canticle;
   if (canticleSvg.isNotEmpty) office.canticleSvgData = [canticleSvg];
 }
+
+/// Extracts every file of [paths] in parallel with [extract], then overlays
+/// them in order onto the first one, which is returned.
+Future<T> composeLayers<T>(
+  List<String> paths,
+  Future<T> Function(String path) extract,
+  void Function(T base, T overlay) overlay,
+) async {
+  final layers = await Future.wait(paths.map(extract));
+  for (final layer in layers.skip(1)) {
+    overlay(layers.first, layer);
+  }
+  return layers.first;
+}

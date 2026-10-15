@@ -1,6 +1,7 @@
 import '../../classes/middle_of_day_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../ferial_layers.dart';
+import '../compose_office.dart';
 import './middle_of_day_extract.dart';
 
 /// Resolves middle of day prayer content for ferial days.
@@ -9,7 +10,7 @@ Future<MiddleOfDay> ferialMiddleOfDayResolution(CelebrationContext context) {
   final layers =
       ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
-  return composeFerialLayers<MiddleOfDay>(
+  return composeLayers<MiddleOfDay>(
       [
         ...layers.paths,
         // Dec 17–24: the great Advent weekday's own file

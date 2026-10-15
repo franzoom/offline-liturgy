@@ -11,6 +11,7 @@ import '../offices/morning/morning_extract.dart';
 import '../offices/readings/readings_extract.dart';
 import '../offices/vespers/vespers_extract.dart';
 import 'package:offline_liturgy/tools/data_loader.dart';
+import '../offices/compose_office.dart';
 
 /// Maps a liturgicalTime value to the suffix used by the seasonal common
 /// files (e.g. 'martyrs_paschal.yaml'). The file suffixes are a different
@@ -50,8 +51,8 @@ List<String> _buildCommonHierarchy(String commonName, String? liturgicalTime) {
   return commonsToTry;
 }
 
-/// Generic internal loader.
-/// It explicitly types the extractor to ensure DataLoader is recognized.
+/// Loads every level of the selected common in parallel and overlays them,
+/// the most general first; empty when no common is selected.
 Future<T> _loadHierarchical<T>({
   required CelebrationContext context,
   required T Function() createEmpty,
@@ -61,23 +62,14 @@ Future<T> _loadHierarchical<T>({
   final common = context.selectedCommon;
   if (common == null) return createEmpty();
 
-  final hierarchy = _buildCommonHierarchy(common, context.liturgicalTime);
-  final result = createEmpty();
-
-  // Load all files in parallel
-  final List<Future<T>> tasks = hierarchy.map((level) {
-    final path = '$commonsFilePath/$level.yaml';
-    return extractor(path, context.dataLoader);
-  }).toList();
-
-  final List<T> allData = await Future.wait(tasks);
-
-  // Apply overlays in order
-  for (final data in allData) {
-    overlayFn(result, data);
-  }
-
-  return result;
+  return composeLayers(
+    [
+      for (final level in _buildCommonHierarchy(common, context.liturgicalTime))
+        '$commonsFilePath/$level.yaml',
+    ],
+    (path) => extractor(path, context.dataLoader),
+    overlayFn,
+  );
 }
 
 // --- PUBLIC API ---

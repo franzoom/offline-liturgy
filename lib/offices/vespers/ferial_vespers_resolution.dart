@@ -2,6 +2,7 @@ import '../../classes/vespers_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/hymns_management.dart';
 import '../ferial_layers.dart';
+import '../compose_office.dart';
 import './vespers_extract.dart';
 
 /// Resolves vespers prayer for ferial days
@@ -11,7 +12,7 @@ Future<Vespers> ferialVespersResolution(CelebrationContext context) async {
   final layers =
       ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
-  final vespers = await composeFerialLayers<Vespers>(
+  final vespers = await composeLayers<Vespers>(
       layers.paths,
       (path) => vespersExtract(path, dataLoader, section: section),
       (base, overlay) => base.overlayWith(overlay));

@@ -41,8 +41,10 @@ class Calendar {
     calendarData[date] = content;
   }
 
+  /// The day of [date], whatever its time of day or UTC/local mode (days
+  /// are stored at local midnight).
   DayContent? getDayContent(DateTime date) {
-    return calendarData[date];
+    return calendarData[DateTime(date.year, date.month, date.day)];
   }
 
   // Returns the filename part of a key: 'france/joan_of_arc' → 'joan_of_arc'

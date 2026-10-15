@@ -126,18 +126,23 @@ void _fillAdvent(
 /// the Lord.
 void _fillChristmasToBaptism(
     Calendar calendar, Map<String, DateTime> feasts, int liturgicalYear) {
-  // adding the Nativity of the Lord
-  DayContent dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'nativity',
-    defaultCelebrationTitle: 'roman/nativity',
-    precedence: 2,
-    liturgicalColor: 'white',
-    breviaryWeek: 1,
-  );
-  // christmas is december, 25th of the previous year
+  // Every day of the season is white
+  void addDay(DateTime date, String liturgicalTime, String code, int precedence,
+          int breviaryWeek) =>
+      calendar.addDayContent(
+          date,
+          DayContent(
+            liturgicalYear: liturgicalYear,
+            liturgicalTime: liturgicalTime,
+            defaultCelebrationTitle: code,
+            precedence: precedence,
+            liturgicalColor: 'white',
+            breviaryWeek: breviaryWeek,
+          ));
+
+  // adding the Nativity of the Lord: december, 25th of the previous year
   DateTime date = DateTime(liturgicalYear - 1, 12, 25);
-  calendar.addDayContent(date, dayContent);
+  addDay(date, 'nativity', 'roman/nativity', 2, 1);
 
   // adding the christmas Octave
   date = date.shift(1); // begins decembre, the 26th
@@ -150,29 +155,16 @@ void _fillChristmasToBaptism(
           date.isSunday ? 'roman/holy_family_sunday' : 'roman/holy_family_week';
       precedence = 5;
     }
-    DayContent dayContent = DayContent(
-        liturgicalYear: liturgicalYear,
-        liturgicalTime: 'christmasoctave',
-        defaultCelebrationTitle: defaultCelebrationTitle,
-        precedence: precedence,
-        liturgicalColor: 'white',
-        // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
-        breviaryWeek: date.isBefore(feasts['HOLY_FAMILY']!) ? 4 : 1);
-    calendar.addDayContent(date, dayContent);
+    // if the date is before the Holy Family, the breviary week is 4, otherwise it is 1
+    addDay(date, 'christmasoctave', defaultCelebrationTitle, precedence,
+        date.isBefore(feasts['HOLY_FAMILY']!) ? 4 : 1);
     date = date.shift(1);
   }
 
-  // adding Mary Mother of God
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'roman/mary_mother_of_god',
-    precedence: 3, // Solemnity of the Blessed Virgin Mary (Table item 3)
-    liturgicalColor: 'white',
-    breviaryWeek: 1,
-  );
+  // adding Mary Mother of God (Solemnity of the Blessed Virgin Mary, Table
+  // item 3)
   date = DateTime(liturgicalYear, 1, 1);
-  calendar.addDayContent(date, dayContent);
+  addDay(date, 'christmas', 'roman/mary_mother_of_god', 3, 1);
 
   date = date.shift(1);
   // Days are counted from the Sunday on or before January 1st, so that
@@ -185,69 +177,49 @@ void _fillChristmasToBaptism(
   // days between january, 2d and the Epiphany
   DateTime epiphanyDate = feasts['EPIPHANY']!;
   while (date.isBefore(epiphanyDate)) {
-    dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmas',
-      defaultCelebrationTitle:
-          'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
+    addDay(
+      date,
+      'christmas',
+      'christmas-${date.day}_${(christmasFerialDays ~/ 7) + 1}_${christmasFerialDays % 7}',
       // A Sunday here is the Second Sunday after Christmas (Epiphany kept
       // on January 6), which ranks with the Sundays of Christmas Time.
-      precedence: date.isSunday ? 6 : 13,
-      liturgicalColor: 'white',
-      breviaryWeek: (christmasFerialDays ~/ 7) % 4 + 1,
+      date.isSunday ? 6 : 13,
+      (christmasFerialDays ~/ 7) % 4 + 1,
     );
-    calendar.addDayContent(date, dayContent);
     date = date.shift(1);
     christmasFerialDays++;
   }
 
-  // adjunction of the Epiphany
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: 'roman/epiphany',
-    precedence: 2, // Table item 2, with the Nativity, Ascension, Pentecost
-    liturgicalColor: 'white',
-    breviaryWeek: epiphanyDate.day > 6 ? 1 : 2,
-    // if the Epiphany is after the 6th, the Baptism of the Lord is next day, on monday.
-    // in this case the Epiphany is begining the first week of the new liturgical year,
-    // and breviaryWeek is 1.
-    // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
-    // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
-  );
+  // adjunction of the Epiphany (Table item 2, with the Nativity, Ascension,
+  // Pentecost).
+  // if the Epiphany is after the 6th, the Baptism of the Lord is next day, on monday.
+  // in this case the Epiphany is begining the first week of the new liturgical year,
+  // and breviaryWeek is 1.
+  // otherwise (if the Epiphany is on the 6th or before), the Baptism will be on the next sunday, so
+  // the Epiphany is not the first week of the liturgical year, therefore breviaryWeek is 2.
+  final int epiphanyWeek = epiphanyDate.day > 6 ? 1 : 2;
   date = epiphanyDate;
-  calendar.addDayContent(date, dayContent);
+  addDay(date, 'christmas', 'roman/epiphany', 2, epiphanyWeek);
   date = date.shift(1);
 
   // going on with the "second week" till the Baptism of the Lord. The day
   // part is the real weekday: when Epiphany is kept on a fixed January 6,
   // the day after it is not necessarily a Monday.
   while (date.isBefore(feasts['BAPTISM']!)) {
-    dayContent = DayContent(
-      liturgicalYear: liturgicalYear,
-      liturgicalTime: 'christmas',
-      defaultCelebrationTitle: 'christmas_2_${date.weekday % 7}',
-      precedence: 13,
-      liturgicalColor: 'white',
-      breviaryWeek: epiphanyDate.day > 6 ? 1 : 2, // see above
-    );
-    calendar.addDayContent(date, dayContent);
+    addDay(
+        date, 'christmas', 'christmas_2_${date.weekday % 7}', 13, epiphanyWeek);
     date = date.shift(1);
   }
 
   // adding the Baptism of the Lord
-  dayContent = DayContent(
-    liturgicalYear: liturgicalYear,
-    liturgicalTime: 'christmas',
-    defaultCelebrationTitle: date.isSunday
-        ? 'roman/baptism_of_the_lord_sunday'
-        : 'roman/baptism_of_the_lord_week',
-    precedence: 5,
-    liturgicalColor: 'white',
-    breviaryWeek: 1,
-  );
-  date = feasts['BAPTISM']!;
-  calendar.addDayContent(date, dayContent);
+  addDay(
+      date,
+      'christmas',
+      date.isSunday
+          ? 'roman/baptism_of_the_lord_sunday'
+          : 'roman/baptism_of_the_lord_week',
+      5,
+      1);
 }
 
 /// Fills Ordinary Time weeks between the Baptism of the Lord and Ash

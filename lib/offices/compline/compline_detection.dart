@@ -74,27 +74,47 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   final (today: rawTodayCelebrations, tomorrow: tomorrowCelebrations) =
       await detectTodayAndTomorrow(calendar, date, dataLoader);
 
+  // A Compline option prayed this evening for celebration [c]
+  ComplineDefinition complineOf(
+    CelebrationContext c, {
+    required int precedence,
+    required String celebrationType,
+    required String description,
+    required String dayOfCompline,
+    bool isCelebrable = true,
+    bool isEveCompline = false,
+    String defaultColor = 'green',
+  }) =>
+      ComplineDefinition(
+        context: c.copyWith(
+          date: date,
+          liturgicalTime: liturgicalTime,
+          precedence: precedence,
+          liturgicalColor: c.liturgicalColor ?? defaultColor,
+          isCelebrable: isCelebrable,
+          celebrationType: celebrationType,
+          officeDescription: description,
+        ),
+        dayOfCompline: dayOfCompline,
+        isEveCompline: isEveCompline,
+      );
+
   // --- Special case: the Triduum days have their own Compline, no other option ---
   final holyWeekCelebration = triduumCelebration(rawTodayCelebrations);
   if (holyWeekCelebration != null) {
     final c = holyWeekCelebration;
+    final precedence = c.precedence ?? 1;
     final celebrationType =
-        _detectCelebrationType(c.precedence ?? 1, c.celebrationCode);
-    final dayOfCompline = _detectDayOfWeek(date, celebrationType);
+        _detectCelebrationType(precedence, c.celebrationCode);
     final description = 'Complies – ${c.celebrationGlobalName}';
-    possibleComplines[description] = ComplineDefinition(
-      context: c.copyWith(
-        date: date,
-        liturgicalTime: liturgicalTime,
-        precedence: c.precedence ?? 1,
-        liturgicalColor: c.liturgicalColor ?? 'purple',
-        isCelebrable: true,
-        celebrationType: celebrationType,
-        officeDescription: description,
-      ),
-      dayOfCompline: dayOfCompline,
-    );
-    return possibleComplines;
+    return {
+      description: complineOf(c,
+          precedence: precedence,
+          celebrationType: celebrationType,
+          description: description,
+          dayOfCompline: _detectDayOfWeek(date, celebrationType),
+          defaultColor: 'purple'),
+    };
   }
 
   // 2. Precedence Filter (Today): If any celebration is <= 4, remove all those > 4
@@ -122,19 +142,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
               liturgicalTimeLabelsDative[liturgicalTime]!,
           ].join(' ');
 
-    possibleComplines[description] = ComplineDefinition(
-      context: c.copyWith(
-        date: date,
-        liturgicalTime: liturgicalTime,
+    possibleComplines[description] = complineOf(c,
         precedence: precedence,
-        liturgicalColor: c.liturgicalColor ?? 'green',
-        isCelebrable: c.isCelebrable,
         celebrationType: celebrationType,
-        officeDescription: description,
-      ),
-      dayOfCompline: dayOfCompline,
-      isEveCompline: false,
-    );
+        description: description,
+        dayOfCompline: dayOfCompline,
+        isCelebrable: c.isCelebrable);
   }
 
   // 4. Process tomorrow's celebrations for eve Complines
@@ -155,19 +168,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
       final String eveDescription =
           'Complies de la veille de ${c.celebrationGlobalName}';
-      possibleComplines[eveDescription] = ComplineDefinition(
-        context: c.copyWith(
-          date: date,
-          liturgicalTime: liturgicalTime,
+      possibleComplines[eveDescription] = complineOf(c,
           precedence: precedence,
-          liturgicalColor: c.liturgicalColor ?? 'green',
-          isCelebrable: true,
           celebrationType: 'solemnityeve',
-          officeDescription: eveDescription,
-        ),
-        dayOfCompline: 'saturday',
-        isEveCompline: true,
-      );
+          description: eveDescription,
+          dayOfCompline: 'saturday',
+          isEveCompline: true);
     }
   }
 

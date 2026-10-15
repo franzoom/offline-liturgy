@@ -5,6 +5,7 @@ import '../tools/data_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/constants.dart';
 import '../tools/celebration_index.dart';
+import 'ferial_layers.dart';
 import '../tools/yaml_map_loader.dart';
 
 /// function returning the possible offices for a given day
@@ -172,18 +173,18 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   });
 
   // Read the header of every celebration file in one parallel pass.
-  // Compound codes (advent-N_W_D and christmas-N_W_D) have no single YAML file;
-  // read the day-specific proper file instead.
+  // Compound codes (advent-N_W_D and christmas-N_W_D) have no single YAML
+  // file: their header is the dated day's own file, and the week's day file
+  // (their first ferial layer) gives the weekday title prefix.
+  bool isCompound(String code) =>
+      code.startsWith('advent-') || code.startsWith('christmas-');
   Future<String> celebrationPath(String code) async {
-    if (code.startsWith('advent-')) {
-      final specialDay = code.replaceFirst('advent-', '').split('_')[0];
-      return '$ferialFilePath/advent_$specialDay.yaml';
-    }
-    if (code.startsWith('christmas-')) {
-      final specialDay = code.replaceFirst('christmas-', '').split('_')[0];
-      return '$ferialFilePath/christmas-ferial_before_epiphany_$specialDay.yaml';
-    }
-    return celebrationFilePath(code, dataLoader);
+    if (!isCompound(code)) return celebrationFilePath(code, dataLoader);
+    final layers = ferialLayers(code, date);
+    final specialDay = layers.adventSpecialDay;
+    return specialDay != null
+        ? FerialLayers.adventSpecialPath(specialDay)
+        : layers.paths.last;
   }
 
   final headerList = await Future.wait(allCelebrations.map((c) async =>
@@ -200,14 +201,9 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   // "Lundi de la première semaine de la férie de Noël — 2 janvier".
   final Map<String, String> specialFerialTitles = {};
   for (final c in allCelebrations) {
-    final isAdvent = c.code.startsWith('advent-');
-    if (!isAdvent && !c.code.startsWith('christmas-')) continue;
-    final parts =
-        c.code.replaceFirst(isAdvent ? 'advent-' : 'christmas-', '').split('_');
-    final season = isAdvent ? 'advent' : 'christmas';
+    if (!isCompound(c.code)) continue;
     final title = _celebrationHeader(await loadYamlMap(
-            '$ferialFilePath/${season}_${parts[1]}_${parts[2]}.yaml',
-            dataLoader))
+            ferialLayers(c.code, date).paths.first, dataLoader))
         ?.title;
     if (title != null && title.isNotEmpty) specialFerialTitles[c.code] = title;
   }

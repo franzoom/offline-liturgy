@@ -34,10 +34,10 @@ class FerialLayers {
   });
 
   /// Path of the great Advent weekday file for [day] of December.
-  static String adventSpecialPath(int day) => '$ferialFilePath/advent_$day.yaml';
+  static String adventSpecialPath(int day) =>
+      '$ferialFilePath/advent_$day.yaml';
 }
 
-const _seasons = ['ot', 'advent', 'christmas', 'lent', 'easter'];
 final _weekAndDay = RegExp(r'^[a-z]+_(\d+)_(\d+)$');
 // advent-17_3_5 (Dec 17, week 3, day 5), christmas-2_1_3 (Jan 2, week 1...)
 final _datedCode = RegExp(r'^[a-z]+-(\d+)_(\d+)_(\d+)$');
@@ -46,7 +46,7 @@ final _datedCode = RegExp(r'^[a-z]+-(\d+)_(\d+)_(\d+)$');
 /// as `ot_12_3`, `advent-18_3_4`, `christmas-3_1_6`) falling on [date].
 FerialLayers ferialLayers(String code, DateTime date) {
   final season =
-      _seasons.firstWhere((s) => code.startsWith(s), orElse: () => '');
+      timePrefixes.firstWhere((s) => code.startsWith(s), orElse: () => '');
   final plain = _weekAndDay.firstMatch(code);
   final week = plain == null ? 0 : int.parse(plain.group(1)!);
   final day = plain == null ? 0 : int.parse(plain.group(2)!);

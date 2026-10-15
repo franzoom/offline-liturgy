@@ -6,7 +6,7 @@
 //
 // The mismatch: these three days are tagged 'lent_6_4'/'lent_6_5'/'lent_6_6'
 // by the calendar (see main_calendar_fill.dart), never the literal words
-// 'holy_thursday'/'holy_friday'/'holy_saturday' — see holyWeekCodes in
+// 'holy_thursday'/'holy_friday'/'holy_saturday' — see triduumCodes in
 // constants.dart.
 
 import 'package:test/test.dart';

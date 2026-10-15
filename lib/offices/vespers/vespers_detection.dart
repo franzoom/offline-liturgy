@@ -44,7 +44,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
   final holyWeekCelebration = todayCelebrations
-      .where((c) => holyWeekCodes.contains(c.celebrationCode))
+      .where((c) => triduumCodes.containsKey(c.celebrationCode))
       .firstOrNull;
   if (holyWeekCelebration != null) {
     final c = holyWeekCelebration;

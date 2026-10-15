@@ -449,6 +449,10 @@ class Masses {
     );
   }
 
+  /// The Mass of [massType] (the first one), or null if there is none.
+  Mass? ofType(String? massType) =>
+      masses?.where((m) => m.massType == massType).firstOrNull;
+
   /// Merges overlay Mass objects into this Masses by matching on massType.
   /// Existing massTypes are overlaid via Mass.overlayWith; massTypes present
   /// in overlay but not in this Masses are appended.
@@ -456,10 +460,9 @@ class Masses {
     if (overlay.masses == null || overlay.masses!.isEmpty) return;
     masses ??= [];
     for (final overlayMass in overlay.masses!) {
-      final index =
-          masses!.indexWhere((m) => m.massType == overlayMass.massType);
-      if (index >= 0) {
-        masses![index].overlayWith(overlayMass);
+      final mass = ofType(overlayMass.massType);
+      if (mass != null) {
+        mass.overlayWith(overlayMass);
       } else {
         masses!.add(overlayMass);
       }
@@ -475,11 +478,7 @@ class Masses {
       return;
     }
     for (final sourceMass in source.masses!) {
-      final index =
-          masses!.indexWhere((m) => m.massType == sourceMass.massType);
-      if (index >= 0) {
-        masses![index].overlayPrayerFields(sourceMass);
-      }
+      ofType(sourceMass.massType)?.overlayPrayerFields(sourceMass);
     }
   }
 
@@ -491,11 +490,7 @@ class Masses {
       return;
     }
     for (final sundayMass in sunday.masses!) {
-      final index =
-          masses!.indexWhere((m) => m.massType == sundayMass.massType);
-      if (index >= 0) {
-        masses![index].fillFromSunday(sundayMass);
-      }
+      ofType(sundayMass.massType)?.fillFromSunday(sundayMass);
     }
   }
 }

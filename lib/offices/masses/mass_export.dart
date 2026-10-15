@@ -32,8 +32,6 @@ import './mass_extract.dart';
 Future<Mass> massExport(CelebrationContext context) async {
   Masses massesOffice = Masses();
 
-  final int prec = context.precedence ?? 13;
-
   // Dec 26-28 (Christmas Octave, proper-only days): these have no separate
   // ferial day underneath — their own file (in ferial_days/) is the day's
   // only Mass, but ferialCode is left empty for them (see date_tools.dart's
@@ -57,12 +55,9 @@ Future<Mass> massExport(CelebrationContext context) async {
   // Snapshot: the ferial day's own readingPart types for this massName —
   // the canonical set of "what a complete Mass needs" (STEP 5b), captured
   // before any proper/common overlay can change what's selected.
-  final List<String> requiredPartTypes = (massesOffice.masses ?? [])
-          .firstWhere(
-            (m) => m.massType == context.massName,
-            orElse: () => Mass(),
-          )
-          .readingParts
+  final List<String> requiredPartTypes = massesOffice
+          .ofType(context.massName)
+          ?.readingParts
           ?.map((p) => p.partType)
           .toList() ??
       [];
@@ -83,11 +78,14 @@ Future<Mass> massExport(CelebrationContext context) async {
   // (only STEP 5b's explicit opt-in may add readings from the Common).
   // Exception: the Christmas Octave (see isChristmasOctave above) always
   // takes the full-overlay branch regardless of precedence.
+  // Feasts and Solemnities (precedence <= 9), and the Christmas Octave,
+  // take the full overlay; memorials only the prayer texts (STEP 4).
+  final bool fullOverlay = !context.isMemorial || isChristmasOctave;
   final bool hasCommon = context.hasSelectedCommon;
   Masses commonMasses = Masses();
   if (hasCommon) {
     commonMasses = await loadMassHierarchicalCommon(context);
-    if (prec <= 9 || isChristmasOctave) {
+    if (fullOverlay) {
       massesOffice.overlayWith(commonMasses);
     } else {
       massesOffice.overlayPrayerFields(commonMasses);
@@ -107,20 +105,16 @@ Future<Mass> massExport(CelebrationContext context) async {
   //    readingParts stay governed separately — see STEP 5b.
   //  - Christmas Octave (see isChristmasOctave above): always the full
   //    overlay branch too, for the same reason as STEP 3.
-  if (prec <= 9 || isChristmasOctave) {
+  if (fullOverlay) {
     massesOffice.overlayWith(properMasses);
   } else {
     massesOffice.overlayPrayerFields(properMasses);
   }
 
   // STEP 5: Select the Mass matching this context's massName
-  final masses = massesOffice.masses ?? [];
-  final Mass selected = masses.isEmpty
-      ? Mass()
-      : masses.firstWhere(
-          (m) => m.massType == context.massName,
-          orElse: () => masses.first,
-        );
+  final Mass selected = massesOffice.ofType(context.massName) ??
+      massesOffice.masses?.firstOrNull ??
+      Mass();
 
   // STEP 5b: For a memorial/commemoration (precedence > 9) that asked for
   // "the feast's own readings" (useProperReadingsForMemorial): the proper's
@@ -131,28 +125,19 @@ Future<Mass> massExport(CelebrationContext context) async {
   // some — are then filled in, type by type, from the selected Common.
   // Feasts/Solemnities are untouched here: STEP 4 already forced their
   // readingParts unconditionally.
-  if (prec > 9 && context.useProperReadingsForMemorial) {
-    final properMassList = properMasses.masses ?? [];
-    final Mass? properSelected = properMassList.isEmpty
-        ? null
-        : properMassList.firstWhere(
-            (m) => m.massType == context.massName,
-            orElse: () => properMassList.first,
-          );
+  if (context.isMemorial && context.useProperReadingsForMemorial) {
+    final Mass? properSelected = properMasses.ofType(context.massName) ??
+        properMasses.masses?.firstOrNull;
     selected.readingParts = (properSelected?.readingParts?.isNotEmpty ?? false)
         ? properSelected!.readingParts
         : null; // clear the day's readingParts so the Common gap-fill
     // below has room — the day's own readings must not silently
     // count as "already present" once the feast's own are requested.
 
-    if (hasCommon) {
-      final commonMassList = commonMasses.masses ?? [];
-      final commonIndex =
-          commonMassList.indexWhere((m) => m.massType == selected.massType);
-      if (commonIndex >= 0) {
-        selected.fillMissingReadingPartsFromCommon(
-            commonMassList[commonIndex], requiredPartTypes);
-      }
+    final commonMass =
+        hasCommon ? commonMasses.ofType(selected.massType) : null;
+    if (commonMass != null) {
+      selected.fillMissingReadingPartsFromCommon(commonMass, requiredPartTypes);
     }
   }
 

@@ -76,15 +76,10 @@ Future<Map<String, CelebrationContext>> massDetection(
       // Only meaningful when actually celebrating the saint — the ferial's
       // own entry always has readingParts (it's the day's own Mass), which
       // isn't a "the feast's readings vs the day's" alternative to offer.
-      final commonMassList = commonMasses?.masses;
-      final int commonIndex = commonMassList == null
-          ? -1
-          : commonMassList.indexWhere((m) => m.massType == mass.massType);
-      final bool hasFeastReadingParts = c.celebrationCode != c.ferialCode &&
+      final commonMass = commonMasses?.ofType(mass.massType);
+      final bool hasFeastReadingParts = c.hasProper &&
           ((mass.readingParts?.isNotEmpty ?? false) ||
-              (commonIndex >= 0 &&
-                  (commonMassList![commonIndex].readingParts?.isNotEmpty ??
-                      false)));
+              (commonMass?.readingParts?.isNotEmpty ?? false));
 
       possibleMasses[key] = c.copyWith(
         celebrationType: 'mass',

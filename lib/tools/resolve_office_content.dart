@@ -11,7 +11,9 @@ import 'data_loader.dart';
 /// from multi-part psalms (e.g. PSALM_134_1 → PSALM_134) while leaving
 /// OT_N and NT_N keys unchanged.
 String _svgKey(String psalmCode) =>
-    psalmCode.replaceFirstMapped(RegExp(r'^(PSALM_\d+)_\d+$'), (m) => m.group(1)!);
+    psalmCode.replaceFirstMapped(_psalmPart, (m) => m.group(1)!);
+
+final _psalmPart = RegExp(r'^(PSALM_\d+)_\d+$');
 
 /// Resolves psalm and hymn codes into full content instances.
 /// Works for any office type — just pass the relevant fields.
@@ -71,24 +73,10 @@ Future<void> resolveOfficeContent({
     }
   }
 
-  await Future.wait(psalmTasks);
-
-  // Once psalms and invitatory are loaded, strip verses marked as imprecatory
-  // so they are never exposed to the caller.
-  if (!showImprecatoryVerses) {
-    psalmody?.forEach((psalmEntry) {
-      psalmEntry.psalmData = psalmEntry.psalmData?.withoutImprecatoryVerses();
-    });
-    if (invitatory?.psalmsData != null) {
-      invitatory!.psalmsData = invitatory.psalmsData!
-          .map((p) => p.withoutImprecatoryVerses())
-          .toList();
-    }
-  }
-
   // 3. Hymns
+  final List<Future<void>> otherTasks = [];
   if (hymns != null) {
-    await Future.wait(
+    otherTasks.addAll(
       hymns.where((hymnEntry) => hymnEntry.hymnData == null).map(
             (hymnEntry) => HymnsLibrary.getHymn(hymnEntry.code, dataLoader)
                 .then((result) => hymnEntry.hymnData = result),
@@ -99,7 +87,7 @@ Future<void> resolveOfficeContent({
   // 4. Solemn blessings — same code-reference mechanism as hymns, but
   // loaded from mass_missal/blessings instead of hymns/.
   if (blessings != null) {
-    await Future.wait(
+    otherTasks.addAll(
       blessings.where((entry) => entry.hymnData == null).map(
             (entry) => HymnsLibrary.getHymn(entry.code, dataLoader,
                     folder: 'mass_missal/blessings')
@@ -113,20 +101,36 @@ Future<void> resolveOfficeContent({
   // instead of hymns/.
   if (eucharisticPrayerCommunicantes != null &&
       eucharisticPrayerCommunicantes.data == null) {
-    eucharisticPrayerCommunicantes.data =
-        await EucharisticPrayerCommunicantesLibrary
-            .getEucharisticPrayerCommunicantes(
-                eucharisticPrayerCommunicantes.code, dataLoader);
+    otherTasks.add(
+        EucharisticPrayerCommunicantesLibrary.getEucharisticPrayerCommunicantes(
+                eucharisticPrayerCommunicantes.code, dataLoader)
+            .then((result) => eucharisticPrayerCommunicantes.data = result));
   }
 
   // 6. Prefaces — same code-reference mechanism as hymns, loaded from
   // mass_missal/prefaces instead of hymns/.
   if (prefaces != null) {
-    await Future.wait(
+    otherTasks.addAll(
       prefaces.where((entry) => entry.data == null).map(
             (entry) => PrefacesLibrary.getPreface(entry.code, dataLoader)
                 .then((result) => entry.data = result),
           ),
     );
+  }
+
+  // Psalms and the other texts load in parallel
+  await Future.wait([...psalmTasks, ...otherTasks]);
+
+  // Once psalms and invitatory are loaded, strip verses marked as imprecatory
+  // so they are never exposed to the caller.
+  if (!showImprecatoryVerses) {
+    psalmody?.forEach((psalmEntry) {
+      psalmEntry.psalmData = psalmEntry.psalmData?.withoutImprecatoryVerses();
+    });
+    if (invitatory?.psalmsData != null) {
+      invitatory!.psalmsData = invitatory.psalmsData!
+          .map((p) => p.withoutImprecatoryVerses())
+          .toList();
+    }
   }
 }

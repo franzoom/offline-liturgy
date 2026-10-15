@@ -6,9 +6,7 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
-import '../../tools/constants.dart';
 import '../../tools/paschal_antiphon.dart';
-import '../../tools/hymns_management.dart';
 import '../../assets/usual_texts.dart';
 
 /// Resolves the Morning Prayer (Lauds).
@@ -57,16 +55,9 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   // proper psalmody/celebration data must win when present)
   morningOffice.overlayWith(properMorning, keepBaseHymns: keepBaseHymns);
 
-  // 5. Holy Week: assign Passion hymns if no proper hymn is defined
-  if (morningOffice.hymn == null &&
-      holyWeekCodes.contains(celebrationContext.celebrationCode)) {
-    morningOffice.hymn =
-        await getHymnsForSeason("passion", celebrationContext.dataLoader);
-  }
-
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
 
-  // 6. Invitatory: exclude psalms already used in the final, merged Lauds
+  // 5. Invitatory: exclude psalms already used in the final, merged Lauds
   // psalmody (must run after merging — a Memorial's invitatory may come from
   // the Common while the day keeps the ferial psalmody, or vice versa).
   final invitatoryPsalms = morningOffice.invitatory?.psalms;
@@ -83,7 +74,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     );
   }
 
-  // 7. HYDRATION: Resolve full texts (canticle SVG starts in parallel)
+  // 6. HYDRATION: Resolve full texts (canticle SVG starts in parallel)
   final Future<String>? canticleSvgFuture = celebrationContext.svgSource != null
       ? celebrationContext.dataLoader
           .load('svg/${celebrationContext.svgSource}/NT_2.svg')
@@ -97,14 +88,14 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
     svgSource: celebrationContext.svgSource,
   );
 
-  // 8. Filter evangelicAntiphon: keep only default + current year. The
+  // 7. Filter evangelicAntiphon: keep only default + current year. The
   // liturgical year, not the civil one: from the 1st Sunday of Advent to
   // Dec 31 they differ (Advent 2025 is year A, not C).
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
       morningOffice.evangelicAntiphon,
       celebrationContext.effectiveLiturgicalYear);
 
-  // 9. Apply paschal alléluia to antiphons
+  // 8. Apply paschal alléluia to antiphons
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;
   if (invitatoryAntiphon != null) {
     for (int i = 0; i < invitatoryAntiphon.length; i++) {
@@ -116,10 +107,10 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   morningOffice.evangelicAntiphon = applyPaschalToAntiphonMap(
       morningOffice.evangelicAntiphon, liturgicalTime);
 
-  // 10. Assign the evangelic canticle (Benedictus)
+  // 9. Assign the evangelic canticle (Benedictus)
   morningOffice.evangelicCanticle = benedictus;
 
-  // 11. Apply canticle SVG (was loading in parallel since step 7)
+  // 10. Apply canticle SVG (was loading in parallel since step 6)
   if (canticleSvgFuture != null) {
     final svgContent = await canticleSvgFuture;
     if (svgContent.isNotEmpty) morningOffice.canticleSvgData = [svgContent];

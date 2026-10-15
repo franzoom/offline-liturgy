@@ -1,9 +1,8 @@
 import 'dart:developer';
 
-import 'package:yaml/yaml.dart';
 import '../../classes/psalms_class.dart';
 import '../../tools/data_loader.dart';
-import '../../tools/convert_yaml_to_dart.dart';
+import '../../tools/yaml_map_loader.dart';
 
 /// Psalms library - Handles lazy loading from individual YAML files with caching.
 class PsalmsLibrary {
@@ -20,9 +19,8 @@ class PsalmsLibrary {
     if (content.isEmpty) return null;
 
     try {
-      final rawYaml = loadYaml(content);
-      if (rawYaml == null) return null;
-      return Psalm.fromMap(convertYamlToDart(rawYaml));
+      final data = parseYamlMap(content);
+      return data == null ? null : Psalm.fromMap(data);
     } catch (e) {
       log('Error parsing YAML for $psalmId: $e', name: 'PsalmsLibrary');
       return null;

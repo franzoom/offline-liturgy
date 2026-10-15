@@ -34,9 +34,7 @@ Future<Map<String, dynamic>?> _parse(
     String relativePath, DataLoader dataLoader) async {
   try {
     final content = await dataLoader.loadYaml(relativePath);
-    if (content.isEmpty) return null;
-    final data = _frozen(loadYaml(content));
-    return data is Map<String, dynamic> ? data : null;
+    return content.isEmpty ? null : parseYamlMap(content);
   } catch (e) {
     // Not kept: a read error may be transient, unlike a missing file
     _parsed.remove(relativePath);
@@ -44,6 +42,14 @@ Future<Map<String, dynamic>?> _parse(
         name: 'YamlMapLoader', level: 1000, error: e);
     return null;
   }
+}
+
+/// Parses YAML [content] as an unmodifiable map with string keys, or null
+/// when it is not a map. Throws a [YamlException] on invalid YAML. For
+/// files cached elsewhere (e.g. psalms); [loadYamlMap] caches them itself.
+Map<String, dynamic>? parseYamlMap(String content) {
+  final data = _frozen(loadYaml(content));
+  return data is Map<String, dynamic> ? data : null;
 }
 
 /// Converts YAML maps and lists into unmodifiable Dart ones, with string

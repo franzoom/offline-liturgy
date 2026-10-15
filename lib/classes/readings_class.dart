@@ -54,10 +54,7 @@ class Readings {
             data['biblicalReading$biblicalCycle'], BiblicalReading.fromJson);
 
     return Readings(
-      hymn: asYamlList(data['hymn'])
-          ?.map(HymnEntry.fromJson)
-          .whereType<HymnEntry>()
-          .toList(),
+      hymn: HymnEntry.listFrom(data['hymn']),
       psalmody: asYamlList(data['psalmody'])
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))

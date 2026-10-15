@@ -21,11 +21,7 @@ class Invitatory {
 
   factory Invitatory.fromJson(Map<String, dynamic> json) {
     return Invitatory(
-      antiphon: switch (json['antiphon']) {
-        List list => list.map((e) => e.toString()).toList(),
-        String s => [s],
-        _ => null,
-      },
+      antiphon: _asAntiphon(json['antiphon']),
       psalms: asYamlList(json['psalms'])?.map((e) => e.toString()).toList(),
     );
   }
@@ -68,6 +64,13 @@ Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
 Map<String, List<String>>? mergeEvangelicAntiphons(
         Map<String, List<String>>? base, Map<String, List<String>>? overlay) =>
     overlay == null ? base : {...?base, ...overlay};
+
+/// Reads an antiphon field: a single text or a list of texts.
+List<String>? _asAntiphon(dynamic value) => switch (value) {
+      List list => list.map((e) => e.toString()).toList(),
+      String s => [s],
+      _ => null,
+    };
 
 /// Defensively coerces a YAML value into a list, wrapping a lone scalar into
 /// a single-element list so a malformed field (e.g. `commons: martyrs`
@@ -116,11 +119,7 @@ class PsalmEntry {
   factory PsalmEntry.fromJson(Map<String, dynamic> json) {
     return PsalmEntry(
       psalm: json['psalm']?.toString(),
-      antiphon: switch (json['antiphon']) {
-        List list => list.map((e) => e.toString()).toList(),
-        String s => [s],
-        _ => null,
-      },
+      antiphon: _asAntiphon(json['antiphon']),
     );
   }
 }
@@ -172,11 +171,10 @@ class HymnEntry {
   static HymnEntry? fromJson(dynamic json) =>
       json == null ? null : HymnEntry(code: json.toString());
 
-  /// Create Hymn Entry list from a list of codes, skipping null entries.
-  static List<HymnEntry> fromCodes(List<dynamic>? codes) {
-    if (codes == null) return [];
-    return codes.map(HymnEntry.fromJson).whereType<HymnEntry>().toList();
-  }
+  /// Reads a list of hymn codes (or a single one), skipping null entries;
+  /// null when the field is absent.
+  static List<HymnEntry>? listFrom(dynamic value) =>
+      asYamlList(value)?.map(fromJson).whereType<HymnEntry>().toList();
 }
 
 /// Biblical short reading (Lauds / Vespers)

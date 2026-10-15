@@ -17,23 +17,22 @@ Future<MiddleOfDay> middleOfDayExport(
   MiddleOfDay middleOfDayOffice = MiddleOfDay();
 
   // 1. BASE LAYER: Load Ferial content
-  if (celebrationContext.ferialCode?.trim().isNotEmpty ?? false) {
+  if (celebrationContext.hasFerialBase) {
     middleOfDayOffice = await ferialMiddleOfDayResolution(celebrationContext);
   }
 
   // 2. Load Proper celebration data
   MiddleOfDay properMiddleOfDay = MiddleOfDay();
-  if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
-    final filePath = await dirPathForCode(
-        celebrationContext.celebrationCode, celebrationContext.dataLoader);
+  if (celebrationContext.hasProper) {
     properMiddleOfDay = await middleOfDayExtract(
-        '$filePath/${celebrationContext.celebrationCode}.yaml',
+        await celebrationFilePath(
+            celebrationContext.celebrationCode, celebrationContext.dataLoader),
         celebrationContext.dataLoader);
   }
 
   // 3. Handle Commons and Overlays based on precedence
-  final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
-  if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
+  final bool isMemory = celebrationContext.isMemorial;
+  if (celebrationContext.hasSelectedCommon) {
     final MiddleOfDay commonMiddleOfDay =
         await loadMiddleOfDayHierarchicalCommon(celebrationContext);
     if (isMemory) {

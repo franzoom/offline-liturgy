@@ -93,6 +93,12 @@ Map<String, List<String>>? parseEvangelicAntiphon(dynamic value) {
   return null;
 }
 
+/// Merges evangelic antiphon maps: [overlay]'s keys win, [base]'s others
+/// are kept.
+Map<String, List<String>>? mergeEvangelicAntiphons(
+        Map<String, List<String>>? base, Map<String, List<String>>? overlay) =>
+    overlay == null ? base : {...?base, ...overlay};
+
 /// Defensively coerces a YAML value into a list, wrapping a lone scalar into
 /// a single-element list so a malformed field (e.g. `commons: martyrs`
 /// instead of `commons: [martyrs]`) degrades gracefully instead of throwing.
@@ -416,6 +422,22 @@ class CelebrationContext {
     }
     return null;
   }
+
+  /// Whether the office is built on the day's ferial texts.
+  bool get hasFerialBase => ferialCode?.trim().isNotEmpty ?? false;
+
+  /// Whether the celebration has its own file over the ferial day.
+  bool get hasProper => celebrationCode != ferialCode;
+
+  /// Whether a common is selected for the celebration.
+  bool get hasSelectedCommon => selectedCommon?.trim().isNotEmpty ?? false;
+
+  /// Memorials (precedence > 9) only take some parts of their common.
+  bool get isMemorial => (precedence ?? 13) > 9;
+
+  /// Memorials and feasts (precedence > 4) keep the season's hymns
+  /// selectable after their own; solemnities replace them.
+  bool get keepsSeasonHymns => (precedence ?? 13) > 4;
 
   /// [liturgicalYear], or the liturgical year of [date] (Advent shift
   /// included) for a context built without one.

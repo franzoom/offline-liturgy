@@ -33,12 +33,8 @@ Future<Vespers> vespersExtract(String relativePath, DataLoader dataLoader,
 
     // 4. Apply Fallbacks: Evangelic Antiphon (Magnificat)
     // Merges root-level antiphons (Year A/B/C) into the vespers-specific map
-    if (rootAntiphon != null) {
-      vespers.evangelicAntiphon = {
-        ...vespers.evangelicAntiphon ?? {},
-        ...rootAntiphon,
-      };
-    }
+    vespers.evangelicAntiphon =
+        mergeEvangelicAntiphons(vespers.evangelicAntiphon, rootAntiphon);
 
     return vespers;
   } catch (e) {

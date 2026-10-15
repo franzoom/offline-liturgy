@@ -18,6 +18,7 @@ export 'calendar_management/local_calendar_fill.dart';
 export 'classes/compline_class.dart';
 export 'offices/compline/compline_detection.dart';
 export 'offices/compline/compline_export.dart';
+export 'classes/hour_prayer_class.dart';
 export 'classes/morning_class.dart';
 export 'offices/morning/morning_export.dart';
 export 'offices/morning/morning_detection.dart';

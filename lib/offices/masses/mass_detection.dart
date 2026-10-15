@@ -33,9 +33,9 @@ Future<Map<String, CelebrationContext>> massDetection(
       masses = await ferialMassResolution(c);
       isProperCelebration = false;
     } else {
-      final filePath = await dirPathForCode(c.celebrationCode, c.dataLoader);
       masses = await massExtract(
-          '$filePath/${c.celebrationCode}.yaml', c.dataLoader);
+          await celebrationFilePath(c.celebrationCode, c.dataLoader),
+          c.dataLoader);
       isProperCelebration = true;
     }
 

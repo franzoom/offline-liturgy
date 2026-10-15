@@ -15,32 +15,31 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   Morning morningOffice = Morning();
 
   // 1. BASE LAYER: Load Ferial content
-  if (celebrationContext.ferialCode?.trim().isNotEmpty ?? false) {
+  if (celebrationContext.hasFerialBase) {
     morningOffice = await ferialMorningResolution(celebrationContext);
   }
 
   // 2. Load Proper celebration data
   Morning properMorning = Morning();
-  if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
+  if (celebrationContext.hasProper) {
     // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
     // that day's own office only — never to a celebration replacing it,
     // whatever its rank. Stripped from the ferial layer before any overlay,
     // so that a celebration's own A/B/C antiphons would be kept.
     morningOffice.evangelicAntiphon =
         withoutYearCycleAntiphons(morningOffice.evangelicAntiphon);
-    final filePath = await dirPathForCode(
-        celebrationContext.celebrationCode, celebrationContext.dataLoader);
     properMorning = await morningExtract(
-        '$filePath/${celebrationContext.celebrationCode}.yaml',
+        await celebrationFilePath(
+            celebrationContext.celebrationCode, celebrationContext.dataLoader),
         celebrationContext.dataLoader);
   }
 
   // 3. Handle Commons and Overlays based on precedence
-  final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
+  final bool isMemory = celebrationContext.isMemorial;
   // Memorials and feasts keep the season's hymns selectable after their own;
   // solemnities replace them.
-  final bool keepBaseHymns = (celebrationContext.precedence ?? 13) > 4;
-  if (celebrationContext.selectedCommon?.trim().isNotEmpty ?? false) {
+  final bool keepBaseHymns = celebrationContext.keepsSeasonHymns;
+  if (celebrationContext.hasSelectedCommon) {
     final Morning commonMorning =
         await loadMorningHierarchicalCommon(celebrationContext);
     if (isMemory) {

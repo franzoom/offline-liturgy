@@ -17,13 +17,13 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   Vespers vespersOffice = Vespers();
 
   // STEP 1: Load Ferial data as the base layer
-  if (celebrationContext.ferialCode?.trim().isNotEmpty ?? false) {
+  if (celebrationContext.hasFerialBase) {
     vespersOffice = await ferialVespersResolution(celebrationContext);
   }
 
   // STEP 2: Load Proper celebration data (Sanctoral or Special files)
   Vespers properVespers = Vespers();
-  if (celebrationContext.celebrationCode != celebrationContext.ferialCode) {
+  if (celebrationContext.hasProper) {
     // The day's year-cycle antiphons (Sundays of Ordinary Time) belong to
     // that day's own office only — never to a celebration replacing it,
     // whatever its rank (First Vespers included). Stripped from the ferial
@@ -31,16 +31,19 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
     // antiphons would be kept.
     vespersOffice.evangelicAntiphon =
         withoutYearCycleAntiphons(vespersOffice.evangelicAntiphon);
-    properVespers = await _loadProperVespers(celebrationContext);
+    properVespers = await vespersExtract(
+        await celebrationFilePath(
+            celebrationContext.celebrationCode, celebrationContext.dataLoader),
+        celebrationContext.dataLoader,
+        section: celebrationContext.vespersSection);
   }
 
   // STEP 3: Handle Commons and Overlays based on precedence
-  final bool isMemory = (celebrationContext.precedence ?? 13) > 9;
+  final bool isMemory = celebrationContext.isMemorial;
   // Memorials and feasts keep the season's hymns selectable after their own;
   // solemnities replace them.
-  final bool keepBaseHymns = (celebrationContext.precedence ?? 13) > 4;
-  final bool hasCommon =
-      celebrationContext.selectedCommon?.trim().isNotEmpty ?? false;
+  final bool keepBaseHymns = celebrationContext.keepsSeasonHymns;
+  final bool hasCommon = celebrationContext.hasSelectedCommon;
 
   if (hasCommon) {
     Vespers commonVespers =
@@ -106,13 +109,4 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   }
 
   return vespersOffice;
-}
-
-/// Helper to try loading the proper file from multiple directories (Special then Sanctoral)
-Future<Vespers> _loadProperVespers(CelebrationContext context) async {
-  final String section = context.vespersSection;
-
-  final filePath = await dirPathForCode(context.celebrationCode, context.dataLoader);
-  return vespersExtract('$filePath/${context.celebrationCode}.yaml',
-      context.dataLoader, section: section);
 }

@@ -1,99 +1,20 @@
-import 'office_elements_class.dart';
-import 'psalms_class.dart';
+import 'hour_prayer_class.dart';
 
 /// Class representing the Vespers (Evening Prayer) structure
-class Vespers {
-  Celebration? celebration;
-  List<HymnEntry>? hymn;
-  List<PsalmEntry>? psalmody;
-  Reading? reading;
-  String? responsory;
-  Map<String, List<String>>? evangelicAntiphon;
-  Psalm? evangelicCanticle;
-  Intercession? intercession;
-  List<String>? oration;
-  List<String>? canticleSvgData;
-
+class Vespers extends HourPrayer {
   Vespers({
-    this.celebration,
-    this.hymn,
-    this.psalmody,
-    this.reading,
-    this.responsory,
-    this.evangelicAntiphon,
-    this.evangelicCanticle,
-    this.intercession,
-    this.oration,
-    this.canticleSvgData,
+    super.celebration,
+    super.hymn,
+    super.psalmody,
+    super.reading,
+    super.responsory,
+    super.evangelicAntiphon,
+    super.evangelicCanticle,
+    super.intercession,
+    super.oration,
+    super.canticleSvgData,
   });
 
   /// Creates Vespers instance from dynamic data (YAML/JSON) with type safety
-  factory Vespers.fromJson(Map<String, dynamic> data) {
-    return Vespers(
-      celebration: data['celebration'] is Map<String, dynamic>
-          ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
-          : null,
-      hymn: asYamlList(data['hymn'])
-          ?.map(HymnEntry.fromJson)
-          .whereType<HymnEntry>()
-          .toList(),
-      psalmody: asYamlList(data['psalmody'])
-          ?.whereType<Map<String, dynamic>>()
-          .map((e) => PsalmEntry.fromJson(e))
-          .toList(),
-      reading: data['reading'] is Map<String, dynamic>
-          ? Reading.fromJson(data['reading'] as Map<String, dynamic>)
-          : null,
-      responsory: data['responsory']?.toString(),
-      evangelicAntiphon: parseEvangelicAntiphon(data['evangelicAntiphon']),
-      intercession: data['intercession'] is Map<String, dynamic>
-          ? Intercession.fromJson(data['intercession'] as Map<String, dynamic>)
-          : null,
-      oration: asTextList(data['oration']),
-    );
-  }
-
-  /// Overlays this Vespers instance with data from another instance
-  /// Intelligently merges psalmody (psalms + antiphons)
-  /// With [keepBaseHymns] (memorials and feasts), the overlay's hymns come
-  /// first and the current ones stay selectable after them; otherwise the
-  /// overlay's hymns replace them.
-  void overlayWith(Vespers overlay, {bool keepBaseHymns = false}) {
-    if (overlay.celebration != null) celebration = overlay.celebration;
-    if (keepBaseHymns) {
-      hymn = mergeHymns(hymn, overlay.hymn);
-    } else if (overlay.hymn != null) {
-      hymn = overlay.hymn;
-    }
-
-    psalmody = mergePsalmody(psalmody, overlay.psalmody);
-
-    if (overlay.reading != null) reading = overlay.reading;
-    if (overlay.responsory != null) responsory = overlay.responsory;
-    if (overlay.evangelicAntiphon != null) {
-      evangelicAntiphon = {
-        ...evangelicAntiphon ?? {},
-        ...overlay.evangelicAntiphon!,
-      };
-    }
-    if (overlay.intercession != null) intercession = overlay.intercession;
-    if (overlay.oration != null) oration = overlay.oration;
-  }
-
-  /// Selective overlay for Common elements (Precedence > 6)
-  /// Used for Memories to take specific elements from the Common
-  void overlayWithCommon(Vespers common) {
-    // Memorials only: the Common's hymns first, the season's ones after
-    hymn = mergeHymns(hymn, common.hymn);
-    if (common.reading != null) reading = common.reading;
-    if (common.responsory != null) responsory = common.responsory;
-    if (common.evangelicAntiphon != null) {
-      evangelicAntiphon = {
-        ...evangelicAntiphon ?? {},
-        ...common.evangelicAntiphon!,
-      };
-    }
-    if (common.intercession != null) intercession = common.intercession;
-    if (common.oration != null) oration = common.oration;
-  }
+  Vespers.fromJson(super.data) : super.fromJson();
 }

@@ -46,12 +46,8 @@ Future<Morning> morningExtract(
     morning.oration ??= asTextList(data['oration']);
 
     // Merge root-level evangelicAntiphon (useful for Sundays/Feasts with Year cycles)
-    if (rootAntiphon != null) {
-      morning.evangelicAntiphon = {
-        ...morning.evangelicAntiphon ?? {},
-        ...rootAntiphon,
-      };
-    }
+    morning.evangelicAntiphon =
+        mergeEvangelicAntiphons(morning.evangelicAntiphon, rootAntiphon);
 
     return morning;
   } catch (e) {

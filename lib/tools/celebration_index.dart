@@ -20,9 +20,20 @@ Future<Map<String, String>> _buildIndex(DataLoader dataLoader) async {
 /// not by which DataLoader instance fetched it, since a fresh loader is
 /// created per call in some consumers (e.g. Flutter) despite always
 /// resolving the same underlying asset source.
-/// Loads once on first call; all callers share the same Future.
+/// Loads once on first call; all callers share the same Future. An empty or
+/// failed load is not kept, so that the next call retries instead of
+/// resolving every code to the ferial directory for as long as the app runs.
 Future<Map<String, String>> celebrationDirIndex(DataLoader dataLoader) {
-  return _indexFuture ??= _buildIndex(dataLoader);
+  return _indexFuture ??= () async {
+    try {
+      final index = await _buildIndex(dataLoader);
+      if (index.isEmpty) _indexFuture = null;
+      return index;
+    } catch (_) {
+      _indexFuture = null;
+      rethrow;
+    }
+  }();
 }
 
 /// Returns the asset path prefix for a celebration code, e.g. 'calendar_data/sanctoral'.

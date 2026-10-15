@@ -88,9 +88,8 @@ final Expando<Map<DateTime, Future<List<CelebrationContext>>>>
 /// would defeat the cache; calendar already changes when the data source
 /// does (e.g. switching location rebuilds it).
 ///
-/// An empty result is not kept: it is what a failed load returns, and the
-/// next call must be able to retry instead of showing an empty day for as
-/// long as the calendar lives.
+/// An empty or failed result is not kept: the next call must be able to
+/// retry instead of showing an empty day for as long as the calendar lives.
 Future<List<CelebrationContext>> detectCelebrations(
   Calendar calendar,
   DateTime date,
@@ -102,10 +101,15 @@ Future<List<CelebrationContext>> detectCelebrations(
 
   final future = _detectCelebrationsImpl(calendar, date, dataLoader);
   perDate[date] = future;
+  void forget() {
+    if (identical(perDate[date], future)) perDate.remove(date);
+  }
+
+  // The caller gets the error itself; this listener only drops the entry
   future.then((result) {
-    if (result.isEmpty && identical(perDate[date], future)) {
-      perDate.remove(date);
-    }
+    if (result.isEmpty) forget();
+  }, onError: (Object _) {
+    forget();
   });
   return future;
 }

@@ -18,7 +18,6 @@ Future<Readings> ferialReadingsResolution(CelebrationContext context) {
     'christmas' => _resolveChristmas(context),
     'lent' => _resolveLent(context),
     'easter' => _resolveEaster(context),
-    _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context),
     _ => readingsExtractFor(context, '$ferialFilePath/$code.yaml'),
   };
 }
@@ -134,16 +133,6 @@ Future<Readings> _resolveLent(CelebrationContext context) async {
   final String hymnKey = week < 5 ? "lent" : "passion";
   final lentHymns = await getHymnsForSeason(hymnKey, context.dataLoader);
   ferialReadings.hymn = [...?ferialReadings.hymn, ...lentHymns];
-  return ferialReadings;
-}
-
-// --- HOLY WEEK ---
-Future<Readings> _resolveHolyWeek(CelebrationContext context) async {
-  final code = context.ferialCode!;
-  Readings ferialReadings =
-      await readingsExtractFor(context, '$ferialFilePath/$code.yaml');
-  final holyWeekHymns = await getHymnsForSeason("passion", context.dataLoader);
-  ferialReadings.hymn = [...?ferialReadings.hymn, ...holyWeekHymns];
   return ferialReadings;
 }
 

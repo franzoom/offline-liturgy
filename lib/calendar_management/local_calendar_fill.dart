@@ -42,17 +42,12 @@ List<Location> _ancestorChain(
 /// Returns [setting] of the nearest location, from [locationId] up its
 /// ancestor chain, that defines it; null if none does.
 String? _inheritedSetting(String locationId, Map<String, Location> locationData,
-    String? Function(Location) setting) {
-  String? currentId = locationId;
-  while (currentId != null) {
-    final loc = locationData[currentId];
-    if (loc == null) break;
-    final value = setting(loc);
-    if (value != null) return value;
-    currentId = loc.parent;
-  }
-  return null;
-}
+        String? Function(Location) setting) =>
+    _ancestorChain(locationId, locationData)
+        .reversed
+        .map(setting)
+        .nonNulls
+        .firstOrNull;
 
 /// Returns the effective ascensionDate for a location, walking up the ancestor
 /// chain from most specific to root. Returns 'thursday' if none is found.

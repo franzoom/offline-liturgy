@@ -80,8 +80,9 @@
       hierarchical_common_loader.dart  # buildHierarchicalCommon() + loadMorningHierarchicalCommon() etc.
       paschal_antiphon.dart            # post-Easter antiphon management
     assets/ (lib/assets/)
-      psalms_library.dart              # getPsalm(key, dataLoader) — loads PSALM_N / OT_N / NT_N
-      hymns_library.dart               # getHymn(key, dataLoader)
+      text_library.dart                # TextLibrary<T>: texts by code, one YAML per code, cached (psalms, hymns, prefaces...)
+      psalms_library.dart              # psalmsLibrary.get(code, dataLoader) — loads PSALM_N / OT_N / NT_N
+      hymns_library.dart               # hymnsLibrary / blessingsLibrary .get(code, dataLoader)
       gradual_psalms.dart              # mid-day gradual psalms
       french_liturgy_labels.dart       # liturgicalTimeLabels, daysOfWeek maps in French
       usual_texts.dart                 # recurring texts (Te Deum, blessings)

@@ -34,7 +34,8 @@ Future<void> resolveOfficeContent({
   if (psalmody != null) {
     psalmTasks.addAll(
       psalmody.where((e) => e.psalm != null && e.psalmData == null).map(
-            (e) => PsalmsLibrary.getPsalm(e.psalm!, dataLoader)
+            (e) => psalmsLibrary
+                .get(e.psalm!, dataLoader)
                 .then((result) => e.psalmData = result),
           ),
     );
@@ -57,13 +58,16 @@ Future<void> resolveOfficeContent({
     final inv = invitatory!;
     if (inv.psalmsData == null) {
       psalmTasks.add(
-        Future.wait(invPsalms.map((code) => PsalmsLibrary.getPsalm(code, dataLoader)))
-            .then((results) => inv.psalmsData = results.whereType<Psalm>().toList()),
+        Future.wait(
+                invPsalms.map((code) => psalmsLibrary.get(code, dataLoader)))
+            .then((results) =>
+                inv.psalmsData = results.whereType<Psalm>().toList()),
       );
     }
     if (svgSource != null && inv.psalmsSvgData == null) {
       psalmTasks.add(
-        Future.wait(invPsalms.map((code) => dataLoader.load('svg/$svgSource/${_svgKey(code)}.svg')))
+        Future.wait(invPsalms.map((code) =>
+                dataLoader.load('svg/$svgSource/${_svgKey(code)}.svg')))
             .then((results) {
           inv.psalmsSvgData = results
               .map((content) => content.isNotEmpty ? <String>[content] : null)
@@ -78,7 +82,8 @@ Future<void> resolveOfficeContent({
   if (hymns != null) {
     otherTasks.addAll(
       hymns.where((hymnEntry) => hymnEntry.hymnData == null).map(
-            (hymnEntry) => HymnsLibrary.getHymn(hymnEntry.code, dataLoader)
+            (hymnEntry) => hymnsLibrary
+                .get(hymnEntry.code, dataLoader)
                 .then((result) => hymnEntry.hymnData = result),
           ),
     );
@@ -89,8 +94,8 @@ Future<void> resolveOfficeContent({
   if (blessings != null) {
     otherTasks.addAll(
       blessings.where((entry) => entry.hymnData == null).map(
-            (entry) => HymnsLibrary.getHymn(entry.code, dataLoader,
-                    folder: 'mass_missal/blessings')
+            (entry) => blessingsLibrary
+                .get(entry.code, dataLoader)
                 .then((result) => entry.hymnData = result),
           ),
     );
@@ -101,10 +106,9 @@ Future<void> resolveOfficeContent({
   // instead of hymns/.
   if (eucharisticPrayerCommunicantes != null &&
       eucharisticPrayerCommunicantes.data == null) {
-    otherTasks.add(
-        EucharisticPrayerCommunicantesLibrary.getEucharisticPrayerCommunicantes(
-                eucharisticPrayerCommunicantes.code, dataLoader)
-            .then((result) => eucharisticPrayerCommunicantes.data = result));
+    otherTasks.add(communicantesLibrary
+        .get(eucharisticPrayerCommunicantes.code, dataLoader)
+        .then((result) => eucharisticPrayerCommunicantes.data = result));
   }
 
   // 6. Prefaces — same code-reference mechanism as hymns, loaded from
@@ -112,7 +116,8 @@ Future<void> resolveOfficeContent({
   if (prefaces != null) {
     otherTasks.addAll(
       prefaces.where((entry) => entry.data == null).map(
-            (entry) => PrefacesLibrary.getPreface(entry.code, dataLoader)
+            (entry) => prefacesLibrary
+                .get(entry.code, dataLoader)
                 .then((result) => entry.data = result),
           ),
     );

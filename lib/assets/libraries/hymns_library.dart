@@ -1,59 +1,20 @@
-import 'dart:developer';
-
 import 'package:yaml/yaml.dart';
-import '../../../classes/hymns_class.dart';
-import '../../../tools/data_loader.dart';
+import '../../classes/hymns_class.dart';
+import 'text_library.dart';
 
-/// Hymns library - loads from individual YAML files with lazy loading.
-class HymnsLibrary {
-  /// Content-addressed by code — not by which DataLoader instance fetched
-  /// it, since a fresh loader is created per call in some consumers (e.g.
-  /// Flutter) despite always resolving the same underlying asset source.
-  /// Also memoizes misses (a null value with the key present) so a code
-  /// that doesn't resolve to a file isn't reloaded on every lookup. Holds
-  /// the load in progress, so that concurrent requests share it.
-  static final Map<String, Future<Hymns?>> _cache = {};
-
-  /// Private helper to transform YAML string into a Hymns instance.
-  static Hymns? _parseHymn(String code, String content) {
-    if (content.isEmpty) {
-      log('Hymn file not found or empty for code: $code',
-          name: 'HymnsLibrary', level: 900);
-      return null;
-    }
-
-    try {
-      final yamlData = loadYaml(content) as Map;
-      return Hymns(
-        title: yamlData['title'] as String,
-        author: yamlData['author'] as String?,
-        content: yamlData['content'] as String,
-      );
-    } catch (e) {
-      log('Error parsing YAML for hymn $code',
-          name: 'HymnsLibrary', level: 1000, error: e);
-      return null;
-    }
-  }
-
-  /// Gets a single hymn by code (lazy loading). [folder] lets non-hymn
-  /// content that shares the same title/content format (e.g. solemn
-  /// blessings under mass_missal/blessings) reuse this exact mechanism.
-  static Future<Hymns?> getHymn(
-    String code,
-    DataLoader dataLoader, {
-    String folder = 'hymns',
-  }) {
-    final cacheKey = '$folder/$code';
-    return _cache[cacheKey] ??= () async {
-      try {
-        final content = await dataLoader.loadYaml('$folder/$code.yaml');
-        return _parseHymn(cacheKey, content);
-      } catch (e) {
-        log('Error loading hymn $cacheKey',
-            name: 'HymnsLibrary', level: 1000, error: e);
-        return null;
-      }
-    }();
-  }
+Hymns _parseHymn(String content) {
+  final yamlData = loadYaml(content) as Map;
+  return Hymns(
+    title: yamlData['title'] as String,
+    author: yamlData['author'] as String?,
+    content: yamlData['content'] as String,
+  );
 }
+
+/// Hymns, from assets/hymns/.
+final hymnsLibrary = TextLibrary<Hymns>('hymns', _parseHymn, keepMisses: true);
+
+/// Solemn blessings of the Mass, which share the hymns' title/content
+/// format, from assets/mass_missal/blessings/.
+final blessingsLibrary =
+    TextLibrary<Hymns>('mass_missal/blessings', _parseHymn, keepMisses: true);

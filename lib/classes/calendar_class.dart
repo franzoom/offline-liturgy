@@ -257,18 +257,3 @@ extension CalendarDisplay on Calendar {
 
   String _pad(int number) => number.toString().padLeft(2, '0');
 }
-
-/// class used to transmit informations to calendar events recording
-class FeastDates {
-  final int month;
-  final int day;
-  final int precedence;
-
-  const FeastDates(
-      {required this.month, required this.day, required this.precedence});
-}
-
-/// Short alias for FeastDates to allow for a readable const Map.
-class F extends FeastDates {
-  const F(int m, int d, int p) : super(month: m, day: d, precedence: p);
-}

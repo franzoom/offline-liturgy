@@ -4,7 +4,6 @@ import 'psalms_class.dart';
 /// Class representing the Vespers (Evening Prayer) structure
 class Vespers {
   Celebration? celebration;
-  Invitatory? invitatory; // Added for consistency with other hours
   List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
   Reading? reading;
@@ -17,7 +16,6 @@ class Vespers {
 
   Vespers({
     this.celebration,
-    this.invitatory,
     this.hymn,
     this.psalmody,
     this.reading,
@@ -34,9 +32,6 @@ class Vespers {
     return Vespers(
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
-          : null,
-      invitatory: data['invitatory'] is Map<String, dynamic>
-          ? Invitatory.fromJson(data['invitatory'] as Map<String, dynamic>)
           : null,
       hymn: asYamlList(data['hymn'])
           ?.map(HymnEntry.fromJson)
@@ -65,7 +60,6 @@ class Vespers {
   /// overlay's hymns replace them.
   void overlayWith(Vespers overlay, {bool keepBaseHymns = false}) {
     if (overlay.celebration != null) celebration = overlay.celebration;
-    if (overlay.invitatory != null) invitatory = overlay.invitatory;
     if (keepBaseHymns) {
       hymn = mergeHymns(hymn, overlay.hymn);
     } else if (overlay.hymn != null) {
@@ -102,14 +96,4 @@ class Vespers {
     if (common.intercession != null) intercession = common.intercession;
     if (common.oration != null) oration = common.oration;
   }
-
-  bool get isEmpty =>
-      celebration == null &&
-      hymn == null &&
-      psalmody == null &&
-      reading == null &&
-      responsory == null &&
-      evangelicAntiphon == null &&
-      intercession == null &&
-      oration == null;
 }

@@ -9,8 +9,6 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
-import '../../tools/hymns_management.dart';
-import '../../tools/constants.dart';
 import '../../tools/date_tools.dart';
 import '../../tools/bible_text_provider.dart';
 
@@ -83,13 +81,6 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   final bool hasTeDeum =
       !isAllSouls && (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;
-
-  // Holy Week: assign Passion hymns if no proper hymn is defined
-  if (readingsOffice.hymn == null &&
-      holyWeekCodes.contains(context.celebrationCode)) {
-    readingsOffice.hymn =
-        await getHymnsForSeason("passion", context.dataLoader);
-  }
 
   // Hydrate psalm and hymn content
   await resolveOfficeContent(

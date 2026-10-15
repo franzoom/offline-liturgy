@@ -13,9 +13,6 @@ class PsalmsLibrary {
   /// resolving the same underlying asset source.
   static final Map<String, Psalm> _cache = {};
 
-  /// Cache for ancient (Hebrew/Greek) versions.
-  static final Map<String, Psalm> _cacheAncient = {};
-
   /// Internal helper to transform a YAML string into a [Psalm] instance.
   static Psalm? _parsePsalm(String psalmId, String content) {
     if (content.isEmpty) return null;
@@ -47,38 +44,5 @@ class PsalmsLibrary {
     }
 
     return null;
-  }
-
-  /// Gets an ancient version of a psalm. Falls back to standard if missing.
-  static Future<Psalm?> getPsalmAncient(
-    String code,
-    DataLoader dataLoader,
-  ) async {
-    final cached = _cacheAncient[code];
-    if (cached != null) return cached;
-
-    try {
-      final content =
-          await dataLoader.loadYaml('psalms/hebrew-greek/$code.yaml');
-      final psalm = _parsePsalm(code, content);
-      if (psalm != null) return _cacheAncient[code] = psalm;
-    } catch (_) {
-      // Silently fail to trigger fallback
-    }
-
-    return getPsalm(code, dataLoader);
-  }
-
-  /// Fetches multiple psalms in parallel efficiently.
-  static Future<Map<String, Psalm>> getPsalms(
-    List<String> codes,
-    DataLoader dataLoader,
-  ) async {
-    final results = await Future.wait(
-      codes.map((code) => getPsalm(code, dataLoader)
-          .then((psalm) => psalm != null ? MapEntry(code, psalm) : null)),
-    );
-
-    return Map.fromEntries(results.whereType<MapEntry<String, Psalm>>());
   }
 }

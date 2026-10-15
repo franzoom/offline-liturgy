@@ -101,15 +101,4 @@ class Morning {
     if (common.intercession != null) intercession = common.intercession;
     if (common.oration != null) oration = common.oration;
   }
-
-  bool get isEmpty =>
-      celebration == null &&
-      invitatory == null &&
-      hymn == null &&
-      psalmody == null &&
-      reading == null &&
-      responsory == null &&
-      evangelicAntiphon == null &&
-      intercession == null &&
-      oration == null;
 }

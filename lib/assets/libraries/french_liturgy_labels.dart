@@ -1,13 +1,7 @@
 /// Celebration Types
 const Map<String, String> celebrationTypeLabels = {
-  'Solemnity': 'Solennité',
-  'SolemnityEve': 'Veille de Solennité',
-  'holy_thursday': 'Jeudi Saint',
-  'holy_friday': 'Vendredi Saint',
-  'holy_saturday': 'Samedi Saint',
-  'normal': 'Férie',
   'firstVespers': 'Premières Vêpres',
-  'secondVespers': 'Secondes Vêpres'
+  'secondVespers': 'Secondes Vêpres',
 };
 
 /// Liturgical Times
@@ -39,17 +33,6 @@ const liturgicalTimeLabelsDative = {
   'christmasoctave': 'de l’Octave de Noël',
 };
 
-// Map days of the week
-const daysOfWeek = [
-  'dimanche',
-  'lundi',
-  'mardi',
-  'mercredi',
-  'jeudi',
-  'vendredi',
-  'samedi',
-];
-
 /// Jours de la semaine
 const Map<String, String> dayOfWeekLabels = {
   'sunday': 'Dimanche',
@@ -65,12 +48,7 @@ const Map<String, String> dayOfWeekLabels = {
 const Map<String, String> liturgyLabels = {
   'christmas': 'Noël',
   'easter': 'Pâques',
-  'pentecost': 'Pentecôte',
-  'ascension': 'Ascension',
-  'epiphany': 'Épiphanie',
-  'all_saints': 'Toussaint',
   'assumption': 'Assomption',
-  'immaculate_conception': 'Immaculée Conception',
   'introduction': 'Introduction',
   'simeon_canticle': 'Cantique de Syméon',
   'oration': 'Oraison',
@@ -79,17 +57,13 @@ const Map<String, String> liturgyLabels = {
   'te-deum': 'Te Deum',
   'blessing': 'Bénédiction',
   'reading': 'Lecture',
-  'biblical reading': "Lecture biblique",
   'biblical_reading': "Lecture biblique",
-  'patristic reading': 'Lecture patristique',
   'patristic_reading': 'Lecture patristique',
   'capitule': 'Capitule',
   'word_of_god': 'Parole de Dieu',
   'responsory': 'Répons',
   'our_father': 'Notre Père',
   'intercession': 'Intercession',
-  'conclusion': 'Conclusion',
-  'zachary_canticle': 'Cantique de Zacharie',
   'invitatory': 'Invitatoire',
   'psalmody': 'Psalmodie',
   'select-common': 'Sélectionner un commun',
@@ -150,20 +124,6 @@ String? evangelistName(String? biblicalRef) {
   if (biblicalRef == null) return null;
   final match = evangelistAbbrevRegExp.firstMatch(biblicalRef);
   return match != null ? evangelistNames[match.group(1)] : null;
-}
-
-String getFrenchOrdinal(int number) {
-  if (number == 1) {
-    return '1^er';
-  }
-  return '$number^e';
-}
-
-String getFrenchOrdinalFemale(int number) {
-  if (number == 1) {
-    return '1^re';
-  }
-  return '$number^e';
 }
 
 /// Returns the celebration type label based on precedence

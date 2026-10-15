@@ -11,11 +11,7 @@ Future<Compline> complineExport(ComplineDefinition choice) async {
   final dataLoader = choice.dataLoader;
 
   // 1. Get the text structure from YAML files
-  final compline = await getComplineText(choice, dataLoader);
-
-  if (compline == null) {
-    throw Exception("Could not resolve text for the chosen Compline");
-  }
+  final compline = await _complineText(choice, dataLoader);
 
   // 2. Hydrate dynamic content (psalms, hymns, Marian hymns) in parallel
   await Future.wait([
@@ -49,7 +45,7 @@ Future<Compline> complineExport(ComplineDefinition choice) async {
 const String _base = 'calendar_data/complines';
 
 /// Loads and merges the correct YAML files for the given ComplineDefinition.
-Future<Compline?> getComplineText(
+Future<Compline> _complineText(
     ComplineDefinition def, DataLoader dataLoader) async {
   final String day = def.dayOfCompline;
   final String time = def.liturgicalTime.toLowerCase();

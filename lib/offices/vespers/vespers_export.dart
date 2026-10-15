@@ -77,7 +77,6 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
       : null;
   await resolveOfficeContent(
     psalmody: vespersOffice.psalmody,
-    invitatory: vespersOffice.invitatory,
     hymns: vespersOffice.hymn,
     dataLoader: celebrationContext.dataLoader,
     showImprecatoryVerses: celebrationContext.showImprecatoryVerses,

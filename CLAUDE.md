@@ -61,6 +61,7 @@
       location_loader.dart             # LiturgyData (loads common_feasts.yaml + all locations/*.yaml) + buildLocationTree()
     offices/
       office_detection.dart            # detectCelebrations() — central, sorts celebrations by precedence
+      ferial_layers.dart               # ferialLayers() — files of a ferial day, shared by all offices
       morning/                         # morning_detection / morning_extract / ferial_morning_resolution / morning_export
       vespers/                         # vespers_detection / vespers_extract / ferial_vespers_resolution / vespers_export
       readings/                        # readings_detection / readings_extract / ferial_readings_resolution
@@ -71,7 +72,6 @@
       data_loader.dart                 # abstract DataLoader + FileSystemDataLoader
       date_tools.dart                  # DateNavigation extension (shift, isSunday, isSameDayAs) + ferialDayCheck() + sundayCycle() + ferialNameResolution()
       constants.dart                   # file path constants + privilegedTimes set
-      extract_week_and_day.dart        # extractWeekAndDay('ot_3_5', season) → [3, 5]
       hymns_management.dart            # getHymnsForSeason(season, dataLoader)
       resolve_office_content.dart      # resolves full office content + short readings
       hierarchical_common_loader.dart  # buildHierarchicalCommon() + loadMorningHierarchicalCommon() etc.
@@ -130,7 +130,8 @@
   ## Ferial day codes
   Format: `season_week_day`  e.g. `ot_3_5` (ordinary time, week 3, day 5)
   Prefixes: ot | advent | christmas | lent | easter  (dated variants: advent-18_3_5, christmas-3_1_2)
-  extractWeekAndDay(code, season) → [week, day]
+  ferialLayers(code, date) → FerialLayers (offices/ferial_layers.dart): the ferial day's files, overlaid in order
+  by every office, its week/day, hymn season and Dec 17–24 "O" day
 </Key_classes>
 
 <Liturgical_data_model>

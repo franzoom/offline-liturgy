@@ -19,7 +19,6 @@ Future<Vespers> ferialVespersResolution(CelebrationContext context) {
     'christmas' => _resolveChristmas(context, section),
     'lent' => _resolveLent(context, section),
     'easter' => _resolveEaster(context, section),
-    _ when holyWeekCodes.contains(code) => _resolveHolyWeek(context, section),
     _ => vespersExtract('$ferialFilePath/$code.yaml', context.dataLoader,
         section: section),
   };
@@ -159,18 +158,6 @@ Future<Vespers> _resolveLent(CelebrationContext context, String section) async {
   final String hymnKey = week < 5 ? "lent" : "passion";
   final lentHymns = await getHymnsForSeason(hymnKey, context.dataLoader);
   ferialVespers.hymn = [...?ferialVespers.hymn, ...lentHymns];
-  return ferialVespers;
-}
-
-// --- HOLY WEEK ---
-Future<Vespers> _resolveHolyWeek(
-    CelebrationContext context, String section) async {
-  final code = context.ferialCode!;
-  Vespers ferialVespers = await vespersExtract(
-      '$ferialFilePath/$code.yaml', context.dataLoader,
-      section: section);
-  final holyWeekHymns = await getHymnsForSeason("passion", context.dataLoader);
-  ferialVespers.hymn = [...?ferialVespers.hymn, ...holyWeekHymns];
   return ferialVespers;
 }
 

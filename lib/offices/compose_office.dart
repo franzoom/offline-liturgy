@@ -1,7 +1,10 @@
 import '../classes/hour_prayer_class.dart';
 import '../classes/office_elements_class.dart';
+import '../classes/psalms_class.dart';
 import '../tools/celebration_index.dart';
 import '../tools/date_tools.dart';
+import '../tools/paschal_antiphon.dart';
+import '../tools/resolve_office_content.dart';
 
 /// Builds an office for [context] from its layers, loaded in parallel: the
 /// ferial day ([ferial]), the celebration's own file ([proper], given its
@@ -70,4 +73,43 @@ Future<T> composeHourPrayer<T extends HourPrayer>(
         withoutYearCycleAntiphons(base.evangelicAntiphon),
   );
   return office;
+}
+
+/// Completes a major hour once its layers are composed: hydrates its texts
+/// (and Lauds' [invitatory]) while the score of its evangelic canticle
+/// ([canticleSvgCode], e.g. 'NT_2') loads, keeps the evangelic antiphons of
+/// the liturgical year — not the civil one, which differs from the 1st
+/// Sunday of Advent to Dec 31 —, adds the paschal alléluia and sets the
+/// evangelic [canticle].
+Future<void> completeHourPrayer(
+  HourPrayer office,
+  CelebrationContext context, {
+  required Psalm canticle,
+  required String canticleSvgCode,
+  Invitatory? invitatory,
+}) async {
+  final liturgicalTime = context.liturgicalTime ?? '';
+  final svgSource = context.svgSource;
+  final (_, canticleSvg) = await (
+    resolveOfficeContent(
+      psalmody: office.psalmody,
+      invitatory: invitatory,
+      hymns: office.hymn,
+      dataLoader: context.dataLoader,
+      showImprecatoryVerses: context.showImprecatoryVerses,
+      svgSource: svgSource,
+    ),
+    svgSource == null
+        ? Future.value('')
+        : context.dataLoader.load('svg/$svgSource/$canticleSvgCode.svg'),
+  ).wait;
+
+  office.evangelicAntiphon = filterEvangelicAntiphon(
+      office.evangelicAntiphon, context.effectiveLiturgicalYear);
+  applyPaschalToList(invitatory?.antiphon, liturgicalTime);
+  applyPaschalToPsalmody(office.psalmody, liturgicalTime);
+  office.evangelicAntiphon =
+      applyPaschalToAntiphonMap(office.evangelicAntiphon, liturgicalTime);
+  office.evangelicCanticle = canticle;
+  if (canticleSvg.isNotEmpty) office.canticleSvgData = [canticleSvg];
 }

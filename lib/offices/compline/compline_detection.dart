@@ -22,7 +22,6 @@ String _detectDayOfWeek(DateTime date, String celebrationType) {
   return switch (celebrationType) {
     'solemnityeve' => 'saturday', // Psalms for Sunday I
     'solemnity' => 'sunday', // Psalms for Sunday II
-    _ when date.weekday == DateTime.sunday => 'sunday',
     _ => dayName[date.weekday],
   };
 }

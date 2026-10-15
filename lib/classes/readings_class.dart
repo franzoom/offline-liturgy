@@ -82,11 +82,7 @@ class Readings {
   /// first and the current ones stay selectable after them; otherwise the
   /// overlay's hymns replace them.
   void overlayWith(Readings overlay, {bool keepBaseHymns = false}) {
-    if (keepBaseHymns) {
-      hymn = mergeHymns(hymn, overlay.hymn);
-    } else if (overlay.hymn != null) {
-      hymn = overlay.hymn;
-    }
+    hymn = overlayHymns(hymn, overlay.hymn, keepBaseHymns: keepBaseHymns);
 
     psalmody = mergePsalmody(psalmody, overlay.psalmody);
 

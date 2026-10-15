@@ -160,6 +160,13 @@ List<HymnEntry>? mergeHymns(List<HymnEntry>? base, List<HymnEntry>? overlay) {
   return [...overlay, ...base.where((h) => codes.add(h.code))];
 }
 
+/// The hymns of [base] once [overlay] is laid over them: with
+/// [keepBaseHymns] (memorials and feasts) merged, the overlay's first (see
+/// [mergeHymns]); otherwise replaced by the overlay's, when it has some.
+List<HymnEntry>? overlayHymns(List<HymnEntry>? base, List<HymnEntry>? overlay,
+        {required bool keepBaseHymns}) =>
+    keepBaseHymns ? mergeHymns(base, overlay) : overlay ?? base;
+
 /// Hymn entry with code and resolved data
 class HymnEntry {
   final String code;

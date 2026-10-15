@@ -1,8 +1,8 @@
 // The Office of Readings can follow the two-year cycle of biblical readings:
 // ferial files carry biblicalReadingEven / biblicalReadingOdd next to the
 // annual biblicalReading, and CelebrationContext.twoYearReadingCycle selects
-// the variant by the parity of the liturgical year. The variants carry no
-// responsory (the annual one of the same rank is used) and no content (the
+// the variant by the parity of the liturgical year. A variant is a single
+// reading, with no responsory (the annual one is used) and no content (the
 // text comes from the Bible provider).
 
 import 'dart:io';
@@ -16,35 +16,39 @@ String _flat(String? s) => (s ?? '').replaceAll(RegExp(r'[\s  ]+'), ' ');
 
 void main() {
   group('Readings.fromJson biblicalCycle', () {
+    final annual = {'ref': 'A 1', 'responsory': 'R/ annual'};
     final data = {
-      'biblicalReading': [
-        {'ref': 'A 1', 'responsory': 'R/ first'},
-        {'ref': 'A 2', 'responsory': 'R/ second'},
-      ],
+      'biblicalReading': [annual],
       'biblicalReadingEven': [
         {'ref': 'E 1'},
-        {'ref': 'E 2'},
-        {'ref': 'E 3'},
-        {'ref': 'E 4', 'responsory': 'R/ own'},
+      ],
+      'biblicalReadingOdd': [
+        {'ref': 'O 1', 'responsory': 'R/ own'},
       ],
     };
 
     test('no cycle keeps the annual reading', () {
       final r = Readings.fromJson(data);
-      expect(r.biblicalReading!.map((b) => b.ref), ['A 1', 'A 2']);
+      expect(r.biblicalReading!.map((b) => b.ref), ['A 1']);
     });
 
-    test('a variant takes the annual responsory of the same rank', () {
+    test('a variant without responsory takes the annual one', () {
       final r = Readings.fromJson(data, biblicalCycle: 'Even');
-      expect(
-          r.biblicalReading!.map((b) => b.ref), ['E 1', 'E 2', 'E 3', 'E 4']);
-      expect(r.biblicalReading!.map((b) => b.responsory),
-          ['R/ first', 'R/ second', 'R/ first', 'R/ own']);
+      expect(r.biblicalReading!.map((b) => b.ref), ['E 1']);
+      expect(r.biblicalReading!.map((b) => b.responsory), ['R/ annual']);
+    });
+
+    test('a variant keeps its own responsory', () {
+      final r = Readings.fromJson(data, biblicalCycle: 'Odd');
+      expect(r.biblicalReading!.map((b) => b.ref), ['O 1']);
+      expect(r.biblicalReading!.map((b) => b.responsory), ['R/ own']);
     });
 
     test('a missing variant falls back to the annual reading', () {
-      final r = Readings.fromJson(data, biblicalCycle: 'Odd');
-      expect(r.biblicalReading!.map((b) => b.ref), ['A 1', 'A 2']);
+      final r = Readings.fromJson({
+        'biblicalReading': [annual]
+      }, biblicalCycle: 'Even');
+      expect(r.biblicalReading!.map((b) => b.ref), ['A 1']);
     });
   });
 

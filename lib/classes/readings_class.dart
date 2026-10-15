@@ -28,7 +28,8 @@ class Readings {
   /// year-specific patristic readings (keys 'patristicReadingA/B/C').
   /// [biblicalCycle] ('Even' or 'Odd') selects the two-year cycle biblical
   /// reading (keys 'biblicalReadingEven/Odd'), falling back to the annual
-  /// 'biblicalReading' when the variant is missing.
+  /// 'biblicalReading' when the variant is missing. A variant without a
+  /// responsory of its own takes the one of the annual reading.
   factory Readings.fromJson(Map<String, dynamic> data,
       {String? year, String? biblicalCycle}) {
     // Helper to parse readings which can be either a single Map or a List of Maps
@@ -47,6 +48,13 @@ class Readings {
       return null;
     }
 
+    final annual =
+        parseReadings(data['biblicalReading'], BiblicalReading.fromJson);
+    final variant = biblicalCycle == null
+        ? null
+        : parseReadings(
+            data['biblicalReading$biblicalCycle'], BiblicalReading.fromJson);
+
     return Readings(
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
@@ -59,9 +67,14 @@ class Readings {
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),
-      biblicalReading: parseReadings(
-          _selectBiblicalReading(data, biblicalCycle),
-          BiblicalReading.fromJson),
+      biblicalReading: variant == null
+          ? annual
+          : [
+              for (final r in variant)
+                r.copyWith(
+                    responsory:
+                        r.responsory ?? annual?.firstOrNull?.responsory),
+            ],
       patristicReading: parseReadings(
           year != null
               ? (data['patristicReading$year'] ?? data['patristicReading'])
@@ -70,39 +83,6 @@ class Readings {
       verse: data['verse']?.toString(),
       oration: asTextList(data['oration']),
     );
-  }
-
-  /// Returns the raw biblical reading(s) for [biblicalCycle].
-  /// A two-year cycle variant carries no responsory of its own: each entry
-  /// without one takes the responsory of the annual entry of the same rank
-  /// (or of the first annual entry).
-  static dynamic _selectBiblicalReading(
-      Map<String, dynamic> data, String? biblicalCycle) {
-    final annual = data['biblicalReading'];
-    final variant =
-        biblicalCycle == null ? null : data['biblicalReading$biblicalCycle'];
-    if (variant == null) return annual;
-
-    List<Map<String, dynamic>> asMaps(dynamic value) => value is List
-        ? value.whereType<Map<String, dynamic>>().toList()
-        : value is Map<String, dynamic>
-            ? [value]
-            : const [];
-
-    final annualEntries = asMaps(annual);
-    final entries = asMaps(variant);
-    return [
-      for (var i = 0; i < entries.length; i++)
-        if (entries[i]['responsory'] != null || annualEntries.isEmpty)
-          entries[i]
-        else
-          {
-            ...entries[i],
-            'responsory': (i < annualEntries.length
-                ? annualEntries[i]
-                : annualEntries.first)['responsory'],
-          },
-    ];
   }
 
   /// Overlays this Readings instance with data from another instance

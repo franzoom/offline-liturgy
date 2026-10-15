@@ -261,7 +261,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     final byRank = rankOf(a).compareTo(rankOf(b));
     if (byRank != 0) return byRank;
     if (a.celebrationType != b.celebrationType) {
-      return a.celebrationType == 'vespers2' ? -1 : 1;
+      return a.isSecondVespers ? -1 : 1;
     }
     return 0;
   }

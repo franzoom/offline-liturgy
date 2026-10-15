@@ -7,19 +7,17 @@ import './mass_extract.dart';
 /// Resolves Mass content for ferial days.
 Future<Masses> ferialMassResolution(CelebrationContext context) async {
   final dataLoader = context.dataLoader;
-  final layers = ferialLayers(
-      context.ferialCode ?? context.celebrationCode, context.date);
+  final layers =
+      ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
   if (layers.season == 'ot') return _resolveOrdinaryTime(layers, context);
 
-  return composeFerialLayers<Masses>(
-      [
-        ...layers.paths,
-        // Dec 17–24: the great Advent weekday's own file
-        if (layers.adventSpecialDay != null)
-          FerialLayers.adventSpecialPath(layers.adventSpecialDay!),
-      ],
-      (path) => massExtract(path, dataLoader),
+  return composeFerialLayers<Masses>([
+    ...layers.paths,
+    // Dec 17–24: the great Advent weekday's own file
+    if (layers.adventSpecialDay != null)
+      FerialLayers.adventSpecialPath(layers.adventSpecialDay!),
+  ], (path) => massExtract(path, dataLoader),
       (base, overlay) => base.overlayWith(overlay));
 }
 

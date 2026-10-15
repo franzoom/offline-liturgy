@@ -8,8 +8,8 @@ import './vespers_extract.dart';
 Future<Vespers> ferialVespersResolution(CelebrationContext context) async {
   final dataLoader = context.dataLoader;
   final String section = context.vespersSection;
-  final layers = ferialLayers(
-      context.ferialCode ?? context.celebrationCode, context.date);
+  final layers =
+      ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
   final vespers = await composeFerialLayers<Vespers>(
       layers.paths,

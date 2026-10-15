@@ -4,11 +4,10 @@ import '../ferial_layers.dart';
 import './middle_of_day_extract.dart';
 
 /// Resolves middle of day prayer content for ferial days.
-Future<MiddleOfDay> ferialMiddleOfDayResolution(
-    CelebrationContext context) {
+Future<MiddleOfDay> ferialMiddleOfDayResolution(CelebrationContext context) {
   final dataLoader = context.dataLoader;
-  final layers = ferialLayers(
-      context.ferialCode ?? context.celebrationCode, context.date);
+  final layers =
+      ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
   return composeFerialLayers<MiddleOfDay>(
       [

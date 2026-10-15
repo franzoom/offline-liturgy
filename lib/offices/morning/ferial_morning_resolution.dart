@@ -7,8 +7,8 @@ import './morning_extract.dart';
 /// Resolves morning prayer content for ferial days.
 Future<Morning> ferialMorningResolution(CelebrationContext context) async {
   final dataLoader = context.dataLoader;
-  final layers = ferialLayers(
-      context.ferialCode ?? context.celebrationCode, context.date);
+  final layers =
+      ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
   final morning = await composeFerialLayers<Morning>(
       layers.paths,

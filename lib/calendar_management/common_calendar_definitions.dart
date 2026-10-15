@@ -160,9 +160,9 @@ Map<String, DateTime> createLiturgicalDays(
   liturgicalDays['SACRED_HEART'] = sacredHeartDay;
 
   // Use sacredHeartDay for these specific shifts
-  liturgicalDays['saint_pieter_and_saint_paul'] =
+  liturgicalDays['SAINT_PIETER_AND_SAINT_PAUL'] =
       saintPieterAndPaul(sacredHeartDay);
-  liturgicalDays['saint_john_the_baptist'] =
+  liturgicalDays['SAINT_JOHN_THE_BAPTIST'] =
       saintJohnTheBaptist(sacredHeartDay);
 
   liturgicalDays['CHRIST_KING'] = advent(year + 1).shift(-7);

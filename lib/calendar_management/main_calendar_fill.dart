@@ -539,10 +539,10 @@ void _fillFixedSolemnities(
       : 'roman/annunciation_easter';
   calendar.addItemToDay(annunciationDate, 3, annunciationKey);
 
-  calendar.addItemToDay(feasts['saint_pieter_and_saint_paul']!, 3,
+  calendar.addItemToDay(feasts['SAINT_PIETER_AND_SAINT_PAUL']!, 3,
       'roman/saint_pieter_and_saint_paul');
   calendar.addItemToDay(
-      feasts['saint_john_the_baptist']!, 3, 'roman/saint_john_the_baptist');
+      feasts['SAINT_JOHN_THE_BAPTIST']!, 3, 'roman/saint_john_the_baptist');
 
   DateTime(year, 2, 2).isSunday
       ? calendar.addItemToDay(

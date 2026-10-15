@@ -13,21 +13,13 @@ Future<Compline> complineExport(ComplineDefinition choice) async {
   // 1. Get the text structure from YAML files
   final compline = await _complineText(choice, dataLoader);
 
-  // 2. Hydrate dynamic content (psalms, hymns, Marian hymns) in parallel
-  await Future.wait([
-    resolveOfficeContent(
-      psalmody: compline.psalmody,
-      hymns: compline.hymns,
-      dataLoader: dataLoader,
-      showImprecatoryVerses: choice.showImprecatoryVerses,
-    ),
-    if (compline.marialHymnRef != null)
-      resolveOfficeContent(
-        hymns: compline.marialHymnRef,
-        dataLoader: dataLoader,
-        showImprecatoryVerses: choice.showImprecatoryVerses,
-      ),
-  ]);
+  // 2. Hydrate dynamic content (psalms, hymns, Marian hymns)
+  await resolveOfficeContent(
+    psalmody: compline.psalmody,
+    hymns: [...?compline.hymns, ...?compline.marialHymnRef],
+    dataLoader: dataLoader,
+    showImprecatoryVerses: choice.showImprecatoryVerses,
+  );
 
   // 3. Assign the evangelic canticle (Nunc Dimittis)
   compline.evangelicCanticle = nuncDimittis;

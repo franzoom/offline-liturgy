@@ -238,6 +238,22 @@ class BiblicalReading {
       responsory: json['responsory']?.toString(),
     );
   }
+
+  BiblicalReading copyWith({
+    String? title,
+    String? subtitle,
+    String? ref,
+    String? content,
+    String? responsory,
+  }) {
+    return BiblicalReading(
+      title: title ?? this.title,
+      subtitle: subtitle ?? this.subtitle,
+      ref: ref ?? this.ref,
+      content: content ?? this.content,
+      responsory: responsory ?? this.responsory,
+    );
+  }
 }
 
 /// Patristic reading (Office of Readings)

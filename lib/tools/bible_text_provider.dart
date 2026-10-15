@@ -189,13 +189,7 @@ Future<List<BiblicalReading>?> hydrateBiblicalReadings(
       if (r.content != null || r.ref == null)
         r
       else
-        BiblicalReading(
-          title: r.title,
-          subtitle: r.subtitle,
-          ref: r.ref,
-          content: await _safeBibleText(r.ref!, provider),
-          responsory: r.responsory,
-        ),
+        r.copyWith(content: await _safeBibleText(r.ref!, provider)),
   ];
 }
 

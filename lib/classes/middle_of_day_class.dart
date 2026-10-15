@@ -75,54 +75,24 @@ class MiddleOfDay {
     if (overlay.hymnSexte != null) hymnSexte = overlay.hymnSexte;
     if (overlay.hymnNone != null) hymnNone = overlay.hymnNone;
 
-    if (overlay.tierce != null) {
-      if (tierce == null) {
-        tierce = overlay.tierce;
-      } else {
-        tierce!.overlayWith(overlay.tierce!);
-      }
-    }
-    if (overlay.sexte != null) {
-      if (sexte == null) {
-        sexte = overlay.sexte;
-      } else {
-        sexte!.overlayWith(overlay.sexte!);
-      }
-    }
-    if (overlay.none != null) {
-      if (none == null) {
-        none = overlay.none;
-      } else {
-        none!.overlayWith(overlay.none!);
-      }
-    }
+    tierce = _overlayHour(tierce, overlay.tierce);
+    sexte = _overlayHour(sexte, overlay.sexte);
+    none = _overlayHour(none, overlay.none);
 
     if (overlay.oration != null) oration = overlay.oration;
   }
 
   /// Selective overlay for Common elements (Precedence > 6)
   void overlayWithCommon(MiddleOfDay common) {
-    if (common.tierce != null) {
-      if (tierce == null) {
-        tierce = common.tierce;
-      } else {
-        tierce!.overlayWith(common.tierce!);
-      }
-    }
-    if (common.sexte != null) {
-      if (sexte == null) {
-        sexte = common.sexte;
-      } else {
-        sexte!.overlayWith(common.sexte!);
-      }
-    }
-    if (common.none != null) {
-      if (none == null) {
-        none = common.none;
-      } else {
-        none!.overlayWith(common.none!);
-      }
-    }
+    tierce = _overlayHour(tierce, common.tierce);
+    sexte = _overlayHour(sexte, common.sexte);
+    none = _overlayHour(none, common.none);
     if (common.oration != null) oration = common.oration;
+  }
+
+  /// [overlay] laid over [base], field by field, or whichever exists.
+  static HourOffice? _overlayHour(HourOffice? base, HourOffice? overlay) {
+    if (base == null || overlay == null) return base ?? overlay;
+    return base..overlayWith(overlay);
   }
 }

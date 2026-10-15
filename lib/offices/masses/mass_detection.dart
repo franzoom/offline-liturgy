@@ -22,9 +22,9 @@ Future<Map<String, CelebrationContext>> massDetection(
   DataLoader dataLoader,
 ) async {
   final celebrations = await detectCelebrations(calendar, date, dataLoader);
-  final Map<String, CelebrationContext> possibleMasses = {};
-
-  for (final c in celebrations) {
+  // The Masses of one celebration, keyed as above
+  Future<Map<String, CelebrationContext>> massesOf(CelebrationContext c) async {
+    final Map<String, CelebrationContext> possibleMasses = {};
     // Load masses: full ferial resolution for ferial days, direct extract
     // otherwise. isProperCelebration tracks which branch ran.
     Masses masses;
@@ -93,7 +93,10 @@ Future<Map<String, CelebrationContext>> massDetection(
         hasFeastReadingParts: hasFeastReadingParts,
       );
     }
+    return possibleMasses;
   }
 
-  return possibleMasses;
+  // Celebrations are resolved in parallel, then kept in their order
+  final perCelebration = await Future.wait(celebrations.map(massesOf));
+  return {for (final masses in perCelebration) ...masses};
 }

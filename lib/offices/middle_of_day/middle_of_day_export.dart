@@ -49,12 +49,15 @@ Future<MiddleOfDay> middleOfDayExport(
   // 4b. Hymns of each hour by liturgical time, unless a layer declares its
   // own (e.g. Good Friday, Holy Saturday)
   final liturgicalTime = celebrationContext.liturgicalTime ?? '';
-  middleOfDayOffice.hymnTierce ??=
-      await getTierceHymns(liturgicalTime, celebrationContext.dataLoader);
-  middleOfDayOffice.hymnSexte ??=
-      await getSexteHymns(liturgicalTime, celebrationContext.dataLoader);
-  middleOfDayOffice.hymnNone ??=
-      await getNoneHymns(liturgicalTime, celebrationContext.dataLoader);
+  final dataLoader = celebrationContext.dataLoader;
+  final (tierceHymns, sexteHymns, noneHymns) = await (
+    getTierceHymns(liturgicalTime, dataLoader),
+    getSexteHymns(liturgicalTime, dataLoader),
+    getNoneHymns(liturgicalTime, dataLoader),
+  ).wait;
+  middleOfDayOffice.hymnTierce ??= tierceHymns;
+  middleOfDayOffice.hymnSexte ??= sexteHymns;
+  middleOfDayOffice.hymnNone ??= noneHymns;
 
   // 4c. PER-HOUR PSALMODY
   // Baptism of the Lord: precedence 5 (a Feast, not a Solemnity) and no

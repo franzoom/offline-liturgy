@@ -20,6 +20,18 @@ class _FakeBible implements BibleTextProvider {
       chapters['$book $chapter'];
 }
 
+class _CountingBible implements BibleTextProvider {
+  final BibleTextProvider source;
+  final List<String> reads;
+  _CountingBible(this.source, this.reads);
+
+  @override
+  Future<List<BibleVerse>?> chapter(String book, String chapter) {
+    reads.add('$book $chapter');
+    return source.chapter(book, chapter);
+  }
+}
+
 List<BibleVerse> _verses(String prefix, int count) =>
     [for (var i = 1; i <= count; i++) BibleVerse('$i', '$prefix$i')];
 
@@ -106,6 +118,20 @@ void main() {
     expect(readings!.map((r) => r.content), ['a1', 'kept']);
     expect(readings.first.responsory, 'R/');
     expect(await hydrateBiblicalReadings(readings, null), same(readings));
+  });
+
+  test('CachedBibleTextProvider reads a chapter once, never keeps a null',
+      () async {
+    final reads = <String>[];
+    final cached = CachedBibleTextProvider(_CountingBible(bible, reads));
+    await Future.wait([
+      cached.chapter('Ph', '1'),
+      cached.chapter('Ph', '1'),
+    ]);
+    await cached.chapter('Ph', '1');
+    await cached.chapter('Ph', '9');
+    await cached.chapter('Ph', '9');
+    expect(reads, ['Ph 1', 'Ph 9', 'Ph 9']);
   });
 
   group('references stored without content resolve in the Bible database', () {

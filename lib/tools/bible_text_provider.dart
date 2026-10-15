@@ -25,6 +25,31 @@ abstract class BibleTextProvider {
   Future<List<BibleVerse>?> chapter(String book, String chapter);
 }
 
+/// Wraps [source] so that each chapter is read only once, even when several
+/// readings ask for it at the same time. A chapter not found (null) or a
+/// failed read is not kept: the source may simply not be ready yet.
+class CachedBibleTextProvider implements BibleTextProvider {
+  final BibleTextProvider source;
+  final _chapters = <String, Future<List<BibleVerse>?>>{};
+
+  CachedBibleTextProvider(this.source);
+
+  @override
+  Future<List<BibleVerse>?> chapter(String book, String chapter) {
+    final key = '$book $chapter';
+    return _chapters[key] ??= () async {
+      try {
+        final verses = await source.chapter(book, chapter);
+        if (verses == null) _chapters.remove(key);
+        return verses;
+      } catch (_) {
+        _chapters.remove(key);
+        rethrow;
+      }
+    }();
+  }
+}
+
 /// A contiguous stretch of a reference: from [startVerse] of [startChapter]
 /// to [endVerse] of [endChapter].
 class BiblePassage {

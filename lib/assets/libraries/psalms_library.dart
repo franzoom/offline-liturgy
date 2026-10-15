@@ -10,8 +10,10 @@ class PsalmsLibrary {
   /// Cache for standard liturgical psalms, content-addressed by code — not
   /// by which DataLoader instance fetched it, since a fresh loader is
   /// created per call in some consumers (e.g. Flutter) despite always
-  /// resolving the same underlying asset source.
-  static final Map<String, Psalm> _cache = {};
+  /// resolving the same underlying asset source. Holds the load in
+  /// progress, so that concurrent requests share it; a psalm that cannot be
+  /// loaded is not kept.
+  static final Map<String, Future<Psalm?>> _cache = {};
 
   /// Internal helper to transform a YAML string into a [Psalm] instance.
   static Psalm? _parsePsalm(String psalmId, String content) {
@@ -31,18 +33,17 @@ class PsalmsLibrary {
   static Future<Psalm?> getPsalm(
     String code,
     DataLoader dataLoader,
-  ) async {
-    final cached = _cache[code];
-    if (cached != null) return cached;
-
-    try {
-      final content = await dataLoader.loadYaml('psalms/$code.yaml');
-      final psalm = _parsePsalm(code, content);
-      if (psalm != null) return _cache[code] = psalm;
-    } catch (e) {
-      log('Error loading psalm $code: $e', name: 'PsalmsLibrary');
-    }
-
-    return null;
+  ) {
+    return _cache[code] ??= () async {
+      Psalm? psalm;
+      try {
+        final content = await dataLoader.loadYaml('psalms/$code.yaml');
+        psalm = _parsePsalm(code, content);
+      } catch (e) {
+        log('Error loading psalm $code: $e', name: 'PsalmsLibrary');
+      }
+      if (psalm == null) _cache.remove(code);
+      return psalm;
+    }();
   }
 }

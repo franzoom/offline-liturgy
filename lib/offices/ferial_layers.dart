@@ -109,30 +109,19 @@ FerialLayers ferialLayers(String code, DateTime date) {
         paths: ['$ferialFilePath/christmas_2_${date.weekday}.yaml'],
         hymnSeason: 'after_epiphany',
       );
-    case 'lent':
-      return FerialLayers(
-        season: season,
-        week: week,
-        day: day,
-        paths: ['$ferialFilePath/$code.yaml'],
-        hymnSeason: week < 5 ? 'lent' : 'passion',
-      );
-    case 'easter':
-      return FerialLayers(
-        season: season,
-        week: week,
-        day: day,
-        paths: ['$ferialFilePath/$code.yaml'],
-        hymnSeason: 'easter',
-      );
     default:
-      // plain Advent days, and codes outside the seasons
+      // Lent, Easter Time, plain Advent days, and codes outside the seasons:
+      // the code's own file
       return FerialLayers(
         season: season,
         week: week,
         day: day,
         paths: ['$ferialFilePath/$code.yaml'],
-        hymnSeason: season == 'advent' ? 'advent' : null,
+        hymnSeason: switch (season) {
+          'lent' => week < 5 ? 'lent' : 'passion',
+          'easter' || 'advent' => season,
+          _ => null,
+        },
       );
   }
 }

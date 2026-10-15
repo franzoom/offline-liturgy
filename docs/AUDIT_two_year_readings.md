@@ -9,13 +9,19 @@ de variantes.
 
 ## 1. Points à corriger avant le merge
 
-### 1.1 `pubspec.yaml` d'aelf-flutter
+### 1.1 `pubspec.yaml` d'aelf-flutter — ⏸ décidé
+**Décision (15/10/2026) :** l'app pointe sur le dépôt local du package (override actif, non commité). Les deux branches
+`2-years` restent des branches le temps de tout tester à l'usage ; la ref git sera mise à jour au merge.
+
 L'override `dependency_overrides: offline_liturgy: path: ../offline-liturgy/` est actif dans la copie de travail
 (non commité). Le pubspec commité pointe sur `ref: 12adf10f`, qui ne connaît ni `twoYearReadingCycle` ni
 `bibleTextProvider` : la branche ne compile pas sans l'override.
 → Faire pointer la ref sur le commit offline-liturgy mergé, puis recommenter l'override.
 
-### 1.2 Répons qui ne correspondent pas à la lecture
+### 1.2 Répons qui ne correspondent pas à la lecture — ⏸ décidé
+**Décision :** on laisse ainsi, sans le noter dans les données : il y a peu de chances d'avoir un jour des répons
+propres aux lectures du cycle de deux ans. Le code utilise toutefois le répons propre d'une variante s'il existe.
+
 Une variante sans répons prend celui de la lecture annuelle de même rang. Sur `ot_10_2` en année paire, la lecture de
 Ph 1, 27 – 2, 11 est suivie du répons de Jos 2. C'est documenté, mais c'est une approximation liturgique visible.
 → À noter comme dette de données dans le compte-rendu, idéalement avec un test qui liste les variantes concernées
@@ -33,7 +39,11 @@ quatre offices. Pas d'assertion : les contextes de Complies n'ont pas de `liturg
 
 ## 2. Simplifications côté package
 
-### A. Arrêter de passer `biblicalCycle` à chaque appel
+### A. Arrêter de passer `biblicalCycle` à chaque appel — ✅ fait
+**Fait** (`5180e4bc`) : option simple, `readingsExtractFor(context, path, {year})` ; `biblicalCycleFor` devient privé.
+L'option « plus structurante » a été écartée : superposer les trois variantes ferait survivre la variante d'une férie
+sous une fête qui a sa propre lecture annuelle.
+
 Dans [ferial_readings_resolution.dart](../lib/offices/readings/ferial_readings_resolution.dart), `biblicalCycle:` est
 ajouté à une douzaine d'appels `readingsExtract`, et `biblicalCycleFor(context)` est recalculé dans chaque
 `_resolveXxx`. Deux options :
@@ -43,18 +53,26 @@ ajouté à une douzaine d'appels `readingsExtract`, et `biblicalCycleFor(context
   une seule fois dans `readingsExport`, juste avant `hydrateBiblicalReadings`. Plus aucun paramètre n'est passé de
   fonction en fonction.
 
-### B. `_selectBiblicalReading` contient du code mort
+### B. `_selectBiblicalReading` contient du code mort — ✅ fait
+**Fait** (`55dd48df`) : une variante est toujours une lecture unique ; elle garde son répons propre ou prend celui de
+la lecture annuelle, sur des objets typés. `_selectBiblicalReading` et `asMaps` sont supprimés.
+
 ([readings_class.dart](../lib/classes/readings_class.dart)) Sur les 382 fichiers : 0 variante dont le nombre
 d'entrées diffère de l'annuel, et 0 variante avec son propre répons.
 - Le repli `annualEntries.first` ne sert jamais. Le simple appariement par index suffit.
 - `asMaps` refait ce que fait déjà `parseReadings`. Alternative : parser les deux listes en `BiblicalReading`,
   puis compléter le répons avec `copyWith`.
 
-### C. Ajouter `BiblicalReading.copyWith`
+### C. Ajouter `BiblicalReading.copyWith` — ✅ fait
+**Fait** (`4451bedd`), utilisé par `hydrateBiblicalReadings` et `Readings.fromJson`.
+
 `hydrateBiblicalReadings` reconstruit le `BiblicalReading` champ par champ : un champ ajouté plus tard serait perdu en
 silence. `copyWith(content: …)` règle le problème et sert aussi au point B.
 
-### D. Variantes identiques à la lecture annuelle (115 cas)
+### D. Variantes identiques à la lecture annuelle (115 cas) — ✖ écarté
+**Décision :** on ne touche pas au texte des fichiers YAML : le package peut servir à d'autres applications, qui
+peuvent avoir besoin de variantes complètes.
+
 Dans 115 cas, `biblicalReadingEven` ou `biblicalReadingOdd` a exactement la même ref que `biblicalReading`
 (`biblicalReadingOdd` de `ot_10_2`, les deux variantes de `mary_mother_of_god`, `easter_5_1`, `christmas_29`…).
 Sans ces variantes, le repli prendrait la lecture annuelle :
@@ -65,7 +83,11 @@ Sans ces variantes, le repli prendrait la lecture annuelle :
 
 → Un script pourrait les retirer. Un test pourrait ensuite interdire `variante == annuelle`.
 
-### E. [bible_text_provider.dart](../lib/tools/bible_text_provider.dart)
+### E. [bible_text_provider.dart](../lib/tools/bible_text_provider.dart) — ✅ fait
+**Fait** (`3d1acc21`) : regex compilées une fois, recherche du verset en un seul parcours, chapitres en `int`. Les
+954 références des données donnent exactement le même texte qu'avant. **`_flatten` est gardé tel quel** : la version en
+une regex effaçait des insécables voulues (avant un tiret d'incise, dans des guillemets) sur 168 chapitres.
+
 - **Regex recompilées à chaque passage.** Dans `_slice.find`, `RegExp('^${label}[a-z]+$')` est créée pour chaque
   verset, à chaque recherche. Un test `v.verse.startsWith(label)` suivi d'un contrôle du suffixe `[a-z]+` suffit.
   Les autres regex fixes de `parseBibleReference` peuvent devenir des `final` de niveau fichier.
@@ -77,18 +99,29 @@ Sans ces variantes, le repli prendrait la lecture annuelle :
   insécables : `texts.join(' ').replaceAll(RegExp(r'\s+'), ' ').trim()`. Risque : une insécable légitime au milieu
   d'une ligne (par exemple `10 000`) deviendrait une espace normale. À vérifier sur la base avant de changer.
 
-### F. Cache de chapitres dupliqué
+### F. Cache de chapitres dupliqué — ✅ fait
+**Fait** : `CachedBibleTextProvider` dans le package (`54f758e7`), utilisé par l'app (`2686ff7`). Il partage une
+lecture en cours entre requêtes simultanées et ne garde ni un chapitre absent ni une erreur.
+
 `AppBibleTextProvider` (app) et `SqliteBibleTextProvider` (tests) ont chacun le leur. Un wrapper
 `CachedBibleTextProvider` (ou un mixin) dans le package, qui stocke des `Future`
 (`Map<String, Future<List<BibleVerse>?>>`), supprime la duplication et évite deux requêtes SQL pour un même chapitre
 si deux offices le demandent en même temps.
 
-### G. Un échec d'hydratation laisse un texte vide
+### G. Un échec d'hydratation laisse un texte vide — ✅ fait
+**Fait** (`4c9e1a1e`) : si une lecture du cycle de deux ans reste sans texte (pas de fournisseur, référence non
+résolue), `readingsExport` reprend l'office avec le cycle annuel, dont les lectures ont toujours leur texte.
+
 Si une ref ne se résout pas, l'erreur est seulement journalisée et la lecture s'affiche sans texte. On pourrait se
 replier sur la lecture annuelle. Le test qui parcourt toutes les refs réduit le risque, mais pas pour une autre base
 biblique.
 
-## 3. Côté aelf-flutter
+## 3. Côté aelf-flutter — ✅ fait
+**Fait** sur la branche `2-years` de l'app : renommage (`a22b60d`), rechargement limité à l'office des lectures
+(`0f595bd`), versets imprécatoires lus depuis `LiturgyState` dans les offices (`49a0f2b` ; les Complies, sans listener,
+lisent toujours SharedPreferences), réglage déplacé dans une section « Lectures » avec la mention « hors ligne »
+(`9cd386f`).
+
 
 - **Nom trompeur :** `_onPsalmSettingsChanged` réagit aussi au cycle de deux ans → `_onOfficeSettingsChanged`.
 - **Rechargements inutiles :** basculer l'option recharge tous les offices (Laudes, Vêpres, Milieu du jour), alors que
@@ -176,9 +209,7 @@ reconstruire le calendrier quand on navigue en arrière.
 - Vérifier si `docs/PROMPT_two_year_readings.md` (un prompt de travail) doit vraiment être mergé dans le package.
   `docs/TWO_YEAR_READINGS_REPORT.md` a davantage sa place.
 
-## 6. Par où commencer
-1. Le point 1.1 (bloquant).
-2. D : gros gain sur les données, en plus de la fiabilité.
-3. A : lisibilité du diff.
-4. C, puis 4.3.1 (✅ fait).
-Le reste est du polissage.
+## 6. État au 15/10/2026
+- Fait : 1.3, 2.A, 2.B, 2.C, 2.E, 2.F, 2.G, section 3, 4.3.
+- Décidé de ne pas faire : 1.2, 2.D.
+- En attente : 1.1 (au merge des branches `2-years`, après les tests à l'usage) et 5.

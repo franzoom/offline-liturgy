@@ -1,156 +1,52 @@
 import '../../classes/middle_of_day_class.dart';
 import '../../classes/office_elements_class.dart';
-import '../../tools/extract_week_and_day.dart';
 import '../../tools/hymns_management.dart';
-import '../../tools/data_loader.dart';
+import '../ferial_layers.dart';
 import './middle_of_day_extract.dart';
-import '../../tools/constants.dart';
 
 /// Resolves middle of day prayer content for ferial days.
 /// Assigns hymns for tierce, sexte and none based on liturgical time, unless
 /// the ferial file declares its own.
 Future<MiddleOfDay> ferialMiddleOfDayResolution(
     CelebrationContext context) async {
-  final code = context.ferialCode ?? context.celebrationCode;
+  final dataLoader = context.dataLoader;
   final liturgicalTime = context.liturgicalTime ?? '';
+  final layers =
+      ferialLayers(context.ferialCode ?? context.celebrationCode, context.date);
 
-  final season = const ['ot', 'advent', 'christmas', 'lent', 'easter']
-      .firstWhere((s) => code.startsWith(s), orElse: () => '');
-
-  final result = await switch (season) {
-    'ot' => _resolveOrdinaryTime(context),
-    'advent' => _resolveAdvent(context),
-    'christmas' => _resolveChristmas(context),
-    'lent' => _resolveLent(context),
-    'easter' => _resolveEaster(context),
-    _ => middleOfDayExtract('$ferialFilePath/$code.yaml', context.dataLoader),
-  };
+  final result = await composeFerialLayers<MiddleOfDay>(
+      [
+        ...layers.paths,
+        // Dec 17–24: the great Advent weekday's own file
+        if (layers.adventSpecialDay != null)
+          FerialLayers.adventSpecialPath(layers.adventSpecialDay!),
+      ],
+      (path) => middleOfDayExtract(path, dataLoader),
+      // Ordinary Time weeks > 4 keep the orations of the 4-week cycle
+      layers.season == 'ot' ? _overlayKeepingOrations : _overlay);
 
   // Assign hymns for each hour based on liturgical time, unless the ferial
   // file declares its own (e.g. Good Friday, Holy Saturday)
-  result.hymnTierce ??=
-      await getTierceHymns(liturgicalTime, context.dataLoader);
-  result.hymnSexte ??= await getSexteHymns(liturgicalTime, context.dataLoader);
-  result.hymnNone ??= await getNoneHymns(liturgicalTime, context.dataLoader);
+  result.hymnTierce ??= await getTierceHymns(liturgicalTime, dataLoader);
+  result.hymnSexte ??= await getSexteHymns(liturgicalTime, dataLoader);
+  result.hymnNone ??= await getNoneHymns(liturgicalTime, dataLoader);
 
   return result;
 }
 
-// --- ORDINARY TIME ---
-Future<MiddleOfDay> _resolveOrdinaryTime(CelebrationContext context) async {
-  final dayDatas = extractWeekAndDay(context.ferialCode!, 'ot');
-  final int week = dayDatas[0];
-  final int day = dayDatas[1];
+void _overlay(MiddleOfDay base, MiddleOfDay overlay) =>
+    base.overlayWith(overlay);
 
-  // Base: 4-week cycle
-  MiddleOfDay ferialMiddleOfDay = await middleOfDayExtract(
-      '$ferialFilePath/ot_${((week - 1) % 4) + 1}_$day.yaml',
-      context.dataLoader);
+void _overlayKeepingOrations(MiddleOfDay base, MiddleOfDay overlay) {
+  final savedOration = base.oration;
+  final savedTierceOration = base.tierce?.oration;
+  final savedSexteOration = base.sexte?.oration;
+  final savedNoneOration = base.none?.oration;
 
-  // Overlay specific data for weeks > 4, preserving orations from the base cycle
-  if (week > 4) {
-    MiddleOfDay aux = await middleOfDayExtract(
-        '$ferialFilePath/ot_${week}_$day.yaml', context.dataLoader);
+  base.overlayWith(overlay);
 
-    final savedOration = ferialMiddleOfDay.oration;
-    final savedTierceOration = ferialMiddleOfDay.tierce?.oration;
-    final savedSexteOration = ferialMiddleOfDay.sexte?.oration;
-    final savedNoneOration = ferialMiddleOfDay.none?.oration;
-
-    ferialMiddleOfDay.overlayWith(aux);
-
-    ferialMiddleOfDay.oration = savedOration;
-    if (ferialMiddleOfDay.tierce != null) {
-      ferialMiddleOfDay.tierce!.oration = savedTierceOration;
-    }
-    if (ferialMiddleOfDay.sexte != null) {
-      ferialMiddleOfDay.sexte!.oration = savedSexteOration;
-    }
-    if (ferialMiddleOfDay.none != null) {
-      ferialMiddleOfDay.none!.oration = savedNoneOration;
-    }
-  }
-  return ferialMiddleOfDay;
-}
-
-// --- ADVENT ---
-Future<MiddleOfDay> _resolveAdvent(CelebrationContext context) async {
-  final code = context.ferialCode!;
-  final dataLoader = context.dataLoader;
-  late MiddleOfDay ferialMiddleOfDay;
-
-  if (code.startsWith('advent_')) {
-    // Standard Advent weeks
-    final dayDatas = extractWeekAndDay(code, "advent");
-    ferialMiddleOfDay = await middleOfDayExtract(
-        '$ferialFilePath/advent_${dayDatas[0]}_${dayDatas[1]}.yaml',
-        dataLoader);
-  } else {
-    // Special Advent (Dec 17–24)
-    List<String> parts = code.replaceFirst("advent-", "").split("_");
-    int specialDay = int.parse(parts[0]);
-    int week = int.parse(parts[1]);
-    int day = int.parse(parts[2]);
-
-    final results = await Future.wait([
-      middleOfDayExtract(
-          '$ferialFilePath/advent_${week}_$day.yaml', dataLoader),
-      middleOfDayExtract('$ferialFilePath/advent_$specialDay.yaml', dataLoader),
-    ]);
-    ferialMiddleOfDay = results[0];
-    ferialMiddleOfDay.overlayWith(results[1]);
-  }
-
-  return ferialMiddleOfDay;
-}
-
-// --- CHRISTMAS ---
-Future<MiddleOfDay> _resolveChristmas(CelebrationContext context) =>
-    switch ((context.date.month == 12, context.ferialCode!.contains('-'))) {
-      (true, _) => _resolveChristmasDec(context.date, context.dataLoader),
-      (_, true) => _resolveChristmasBeforeEpiphany(
-          context.ferialCode!, context.dataLoader),
-      _ => middleOfDayExtract(
-          '$ferialFilePath/christmas_2_${context.date.weekday}.yaml',
-          context.dataLoader),
-    };
-
-Future<MiddleOfDay> _resolveChristmasDec(
-    DateTime date, DataLoader dataLoader) async {
-  final results = await Future.wait([
-    middleOfDayExtract('$commonsFilePath/christmas.yaml', dataLoader),
-    middleOfDayExtract(
-        '$ferialFilePath/christmas_${date.day}.yaml', dataLoader),
-  ]);
-  return results[0]..overlayWith(results[1]);
-}
-
-Future<MiddleOfDay> _resolveChristmasBeforeEpiphany(
-    String code, DataLoader dataLoader) async {
-  final parts = code.split('-')[1].split('_');
-  final results = await Future.wait([
-    middleOfDayExtract(
-        '$ferialFilePath/christmas_${parts[1]}_${parts[2]}.yaml', dataLoader),
-    middleOfDayExtract(
-        '$ferialFilePath/christmas-ferial_before_epiphany_${parts[0]}.yaml',
-        dataLoader),
-  ]);
-  return results[0]..overlayWith(results[1]);
-}
-
-// --- LENT ---
-Future<MiddleOfDay> _resolveLent(CelebrationContext context) =>
-    _resolveWeekDaySeason(context, 'lent');
-
-// --- EASTER ---
-Future<MiddleOfDay> _resolveEaster(CelebrationContext context) =>
-    middleOfDayExtract(
-        '$ferialFilePath/${context.ferialCode!}.yaml', context.dataLoader);
-
-Future<MiddleOfDay> _resolveWeekDaySeason(
-    CelebrationContext context, String season) async {
-  final dayDatas = extractWeekAndDay(context.ferialCode!, season);
-  return middleOfDayExtract(
-      '$ferialFilePath/${season}_${dayDatas[0]}_${dayDatas[1]}.yaml',
-      context.dataLoader);
+  base.oration = savedOration;
+  if (base.tierce != null) base.tierce!.oration = savedTierceOration;
+  if (base.sexte != null) base.sexte!.oration = savedSexteOration;
+  if (base.none != null) base.none!.oration = savedNoneOration;
 }

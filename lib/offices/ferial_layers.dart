@@ -48,9 +48,15 @@ FerialLayers ferialLayers(String code, DateTime date) {
   final season =
       timePrefixes.firstWhere((s) => code.startsWith(s), orElse: () => '');
   final plain = _weekAndDay.firstMatch(code);
-  final week = plain == null ? 0 : int.parse(plain.group(1)!);
-  final day = plain == null ? 0 : int.parse(plain.group(2)!);
   final dated = _datedCode.firstMatch(code);
+  // Week and day of a plain code, or of a dated one after its day of month
+  final weekAndDay = plain != null
+      ? (plain.group(1)!, plain.group(2)!)
+      : dated != null
+          ? (dated.group(2)!, dated.group(3)!)
+          : ('0', '0');
+  final week = int.parse(weekAndDay.$1);
+  final day = int.parse(weekAndDay.$2);
 
   switch (season) {
     case 'ot':
@@ -66,13 +72,11 @@ FerialLayers ferialLayers(String code, DateTime date) {
         hymnSeason: 'ot',
       );
     case 'advent' when dated != null:
-      final datedWeek = int.parse(dated.group(2)!);
-      final datedDay = int.parse(dated.group(3)!);
       return FerialLayers(
         season: season,
-        week: datedWeek,
-        day: datedDay,
-        paths: ['$ferialFilePath/advent_${datedWeek}_$datedDay.yaml'],
+        week: week,
+        day: day,
+        paths: ['$ferialFilePath/advent_${week}_$day.yaml'],
         hymnSeason: 'advent',
         adventSpecialDay: int.parse(dated.group(1)!),
       );
@@ -88,14 +92,12 @@ FerialLayers ferialLayers(String code, DateTime date) {
       );
     case 'christmas' when dated != null:
       // January, before Epiphany: the week's day, then the dated day
-      final datedWeek = int.parse(dated.group(2)!);
-      final datedDay = int.parse(dated.group(3)!);
       return FerialLayers(
         season: season,
-        week: datedWeek,
-        day: datedDay,
+        week: week,
+        day: day,
         paths: [
-          '$ferialFilePath/christmas_${datedWeek}_$datedDay.yaml',
+          '$ferialFilePath/christmas_${week}_$day.yaml',
           '$ferialFilePath/christmas-ferial_before_epiphany_${dated.group(1)}.yaml',
         ],
         hymnSeason: 'christmas',

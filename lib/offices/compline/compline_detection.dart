@@ -44,37 +44,30 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // --- Special case for octaves ---
   if (liturgicalTime == 'christmasoctave' ||
       liturgicalTime == 'paschaloctave') {
-    possibleComplines['Complies du samedi'] = ComplineDefinition(
-      context: CelebrationContext(
-        celebrationCode: dayContent.defaultCelebrationTitle,
-        ferialCode: dayContent.defaultCelebrationTitle,
-        date: date,
-        liturgicalTime: liturgicalTime,
-        precedence: 8,
-        liturgicalColor: dayContent.liturgicalColor,
-        isCelebrable: true,
-        celebrationType: 'solemnityeve',
-        officeDescription: 'Complies du samedi',
-        dataLoader: dataLoader,
-      ),
-      dayOfCompline: 'saturday',
-    );
-    possibleComplines['Complies du dimanche'] = ComplineDefinition(
-      context: CelebrationContext(
-        celebrationCode: dayContent.defaultCelebrationTitle,
-        ferialCode: dayContent.defaultCelebrationTitle,
-        date: date,
-        liturgicalTime: liturgicalTime,
-        precedence: 8,
-        liturgicalColor: dayContent.liturgicalColor,
-        isCelebrable: true,
-        celebrationType: 'solemnity',
-        officeDescription: 'Complies du dimanche',
-        dataLoader: dataLoader,
-      ),
-      dayOfCompline: 'sunday',
-    );
-    return possibleComplines;
+    // Either Sunday Compline may be prayed on any day of the octave
+    ComplineDefinition octaveCompline(
+            String description, String celebrationType, String dayOfCompline) =>
+        ComplineDefinition(
+          context: CelebrationContext(
+            celebrationCode: dayContent.defaultCelebrationTitle,
+            ferialCode: dayContent.defaultCelebrationTitle,
+            date: date,
+            liturgicalTime: liturgicalTime,
+            precedence: 8,
+            liturgicalColor: dayContent.liturgicalColor,
+            isCelebrable: true,
+            celebrationType: celebrationType,
+            officeDescription: description,
+            dataLoader: dataLoader,
+          ),
+          dayOfCompline: dayOfCompline,
+        );
+    return {
+      'Complies du samedi':
+          octaveCompline('Complies du samedi', 'solemnityeve', 'saturday'),
+      'Complies du dimanche':
+          octaveCompline('Complies du dimanche', 'solemnity', 'sunday'),
+    };
   }
 
   // 1. Detect celebrations (today and tomorrow in parallel)

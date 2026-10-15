@@ -199,14 +199,16 @@ Future<List<CelebrationContext>> _detectCelebrationsImpl(
   // week file to get the weekday title prefix, then compose with the
   // day-specific title:
   // "Lundi de la première semaine de la férie de Noël — 2 janvier".
-  final Map<String, String> specialFerialTitles = {};
-  for (final c in allCelebrations) {
-    if (!isCompound(c.code)) continue;
-    final title = _celebrationHeader(await loadYamlMap(
-            ferialLayers(c.code, date).paths.first, dataLoader))
-        ?.title;
-    if (title != null && title.isNotEmpty) specialFerialTitles[c.code] = title;
-  }
+  final compoundCodes =
+      allCelebrations.map((c) => c.code).where(isCompound).toList();
+  final weekTitles = await Future.wait(compoundCodes.map((code) async =>
+      _celebrationHeader(await loadYamlMap(
+              ferialLayers(code, date).paths.first, dataLoader))
+          ?.title));
+  final Map<String, String> specialFerialTitles = {
+    for (int i = 0; i < compoundCodes.length; i++)
+      if (weekTitles[i]?.isNotEmpty ?? false) compoundCodes[i]: weekTitles[i]!,
+  };
 
   // Load common titles in parallel for all unique common codes
   final commonCodes = {

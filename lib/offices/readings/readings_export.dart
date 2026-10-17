@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../assets/usual_texts.dart';
@@ -10,6 +12,7 @@ import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
 import '../../tools/constants.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/bible_text_provider.dart';
 
 /// Resolves the Office of Readings by orchestrating different sources.
 Future<Readings> readingsExport(CelebrationContext context) async {
@@ -48,6 +51,21 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   // STEP 4: Apply Proper data
   readingsOffice.overlayWith(properReadings, keepBaseHymns: keepBaseHymns);
 
+  // Readings stored by reference only take their text from the Bible
+  readingsOffice.biblicalReading = await hydrateBiblicalReadings(
+      readingsOffice.biblicalReading, context.bibleTextProvider);
+
+  // A two-year cycle reading whose text cannot be found (no provider, or a
+  // reference it cannot resolve) gives way to the annual cycle, whose
+  // readings always carry their text.
+  if (context.twoYearReadingCycle &&
+      (readingsOffice.biblicalReading?.any((r) => r.content == null) ??
+          false)) {
+    log('Two-year cycle reading without text, annual cycle used instead',
+        name: 'ReadingsExport', level: 900);
+    return readingsExport(context.copyWith(twoYearReadingCycle: false));
+  }
+
   // STEP 5: Te Deum (GILH 68) — on Sundays outside Lent, during the Easter
   // and Christmas octaves, and on solemnities and feasts. Not a precedence
   // threshold: Ash Wednesday and the Sundays of Lent rank 2 yet have none,
@@ -62,14 +80,15 @@ Future<Readings> readingsExport(CelebrationContext context) async {
       context.date.isSunday && lt != 'lent' && lt != 'holyweek';
   final bool isSolemnityOrFeast =
       prec <= 8 && !ferialDayCheck(context.celebrationCode);
-  final bool hasTeDeum = !isAllSouls &&
-      (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
+  final bool hasTeDeum =
+      !isAllSouls && (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;
 
   // Holy Week: assign Passion hymns if no proper hymn is defined
   if (readingsOffice.hymn == null &&
       holyWeekCodes.contains(context.celebrationCode)) {
-    readingsOffice.hymn = await getHymnsForSeason("passion", context.dataLoader);
+    readingsOffice.hymn =
+        await getHymnsForSeason("passion", context.dataLoader);
   }
 
   // Hydrate psalm and hymn content
@@ -88,6 +107,8 @@ Future<Readings> readingsExport(CelebrationContext context) async {
 
 /// Loads proper readings by trying special_days and sanctoral paths in parallel.
 Future<Readings> _loadProperReadings(CelebrationContext context) async {
-  final filePath = await dirPathForCode(context.celebrationCode, context.dataLoader);
-  return readingsExtract('$filePath/${context.celebrationCode}.yaml', context.dataLoader);
+  final filePath =
+      await dirPathForCode(context.celebrationCode, context.dataLoader);
+  return readingsExtractFor(
+      context, '$filePath/${context.celebrationCode}.yaml');
 }

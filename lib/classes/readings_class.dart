@@ -26,7 +26,12 @@ class Readings {
   /// Creates Readings instance from YAML data with robust type safety.
   /// [year] is the liturgical year ('A', 'B', or 'C') used to select
   /// year-specific patristic readings (keys 'patristicReadingA/B/C').
-  factory Readings.fromJson(Map<String, dynamic> data, {String? year}) {
+  /// [biblicalCycle] ('Even' or 'Odd') selects the two-year cycle biblical
+  /// reading (keys 'biblicalReadingEven/Odd'), falling back to the annual
+  /// 'biblicalReading' when the variant is missing. A variant without a
+  /// responsory of its own takes the one of the annual reading.
+  factory Readings.fromJson(Map<String, dynamic> data,
+      {String? year, String? biblicalCycle}) {
     // Helper to parse readings which can be either a single Map or a List of Maps
     List<T>? parseReadings<T>(
         dynamic jsonValue, T Function(Map<String, dynamic>) fromJson) {
@@ -43,6 +48,13 @@ class Readings {
       return null;
     }
 
+    final annual =
+        parseReadings(data['biblicalReading'], BiblicalReading.fromJson);
+    final variant = biblicalCycle == null
+        ? null
+        : parseReadings(
+            data['biblicalReading$biblicalCycle'], BiblicalReading.fromJson);
+
     return Readings(
       celebration: data['celebration'] is Map<String, dynamic>
           ? Celebration.fromJson(data['celebration'] as Map<String, dynamic>)
@@ -55,8 +67,14 @@ class Readings {
           ?.whereType<Map<String, dynamic>>()
           .map((e) => PsalmEntry.fromJson(e))
           .toList(),
-      biblicalReading:
-          parseReadings(data['biblicalReading'], BiblicalReading.fromJson),
+      biblicalReading: variant == null
+          ? annual
+          : [
+              for (final r in variant)
+                r.copyWith(
+                    responsory:
+                        r.responsory ?? annual?.firstOrNull?.responsory),
+            ],
       patristicReading: parseReadings(
           year != null
               ? (data['patristicReading$year'] ?? data['patristicReading'])

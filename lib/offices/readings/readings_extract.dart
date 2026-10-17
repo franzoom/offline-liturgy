@@ -5,13 +5,28 @@ import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/convert_yaml_to_dart.dart';
+import '../../tools/date_tools.dart';
+
+/// Two-year cycle key ('Even' / 'Odd') for [context], or null when the
+/// annual cycle is used.
+String? _biblicalCycleFor(CelebrationContext context) =>
+    context.twoYearReadingCycle
+        ? twoYearReadingCycle(context.effectiveLiturgicalYear)
+        : null;
+
+/// [readingsExtract] for [context]: its data loader and, when enabled,
+/// its two-year cycle.
+Future<Readings> readingsExtractFor(
+        CelebrationContext context, String relativePath, {String? year}) =>
+    readingsExtract(relativePath, context.dataLoader,
+        year: year, biblicalCycle: _biblicalCycleFor(context));
 
 /// Extracts Readings (Office of Readings) data from a YAML file.
 ///
 /// It focuses on the 'readings' section which typically includes
 /// biblical lessons, patristic texts, and their respective responsories.
-Future<Readings> readingsExtract(
-    String relativePath, DataLoader dataLoader, {String? year}) async {
+Future<Readings> readingsExtract(String relativePath, DataLoader dataLoader,
+    {String? year, String? biblicalCycle}) async {
   // 1. Load the raw YAML content from the data provider
   final String fileContent = await dataLoader.loadYaml(relativePath);
 
@@ -29,7 +44,8 @@ Future<Readings> readingsExtract(
     if (data['readings'] is Map<String, dynamic>) {
       final Map<String, dynamic> readingsData =
           data['readings'] as Map<String, dynamic>;
-      readings = Readings.fromJson(readingsData, year: year);
+      readings = Readings.fromJson(readingsData,
+          year: year, biblicalCycle: biblicalCycle);
 
       // 4. Fallback for Oration:
       // If the specific section doesn't have an oration, look at the root level

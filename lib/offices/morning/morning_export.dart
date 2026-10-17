@@ -6,8 +6,6 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
-import '../../calendar_management/common_calendar_definitions.dart'
-    show liturgicalYearOf;
 import '../../tools/constants.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
@@ -105,8 +103,7 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
   // Dec 31 they differ (Advent 2025 is year A, not C).
   morningOffice.evangelicAntiphon = filterEvangelicAntiphon(
       morningOffice.evangelicAntiphon,
-      celebrationContext.liturgicalYear ??
-          liturgicalYearOf(celebrationContext.date));
+      celebrationContext.effectiveLiturgicalYear);
 
   // 9. Apply paschal alléluia to antiphons
   final invitatoryAntiphon = morningOffice.invitatory?.antiphon;

@@ -2,8 +2,11 @@
 library;
 
 import '../tools/data_loader.dart';
+import '../tools/bible_text_provider.dart' show BibleTextProvider;
 import '../assets/libraries/french_liturgy_labels.dart';
 import 'calendar_class.dart' show LocationOrigin;
+import '../calendar_management/common_calendar_definitions.dart'
+    show liturgicalYearOf;
 import 'psalms_class.dart';
 import 'hymns_class.dart';
 
@@ -235,6 +238,22 @@ class BiblicalReading {
       responsory: json['responsory']?.toString(),
     );
   }
+
+  BiblicalReading copyWith({
+    String? title,
+    String? subtitle,
+    String? ref,
+    String? content,
+    String? responsory,
+  }) {
+    return BiblicalReading(
+      title: title ?? this.title,
+      subtitle: subtitle ?? this.subtitle,
+      ref: ref ?? this.ref,
+      content: content ?? this.content,
+      responsory: responsory ?? this.responsory,
+    );
+  }
 }
 
 /// Patristic reading (Office of Readings)
@@ -352,6 +371,14 @@ class CelebrationContext {
   // (precedence <= 5), which always use their own proper readingParts
   // regardless of this flag.
   final bool useProperReadingsForMemorial;
+  // Office of Readings only. When true, the biblical reading follows the
+  // two-year cycle (biblicalReadingEven / biblicalReadingOdd in the YAML,
+  // chosen by the parity of liturgicalYear); otherwise the annual cycle.
+  final bool twoYearReadingCycle;
+  // Source of the Bible text for readings stored by reference only (no
+  // `content` in the YAML). Injected by the consumer, like dataLoader;
+  // without it those readings keep a null content.
+  final BibleTextProvider? bibleTextProvider;
 
   const CelebrationContext({
     this.celebrationType,
@@ -377,6 +404,8 @@ class CelebrationContext {
     this.liturgicalYear,
     this.hasFeastReadingParts = false,
     this.useProperReadingsForMemorial = false,
+    this.twoYearReadingCycle = false,
+    this.bibleTextProvider,
   });
 
   /// Returns the first common from commonList.
@@ -387,6 +416,10 @@ class CelebrationContext {
     }
     return null;
   }
+
+  /// [liturgicalYear], or the liturgical year of [date] (Advent shift
+  /// included) for a context built without one.
+  int get effectiveLiturgicalYear => liturgicalYear ?? liturgicalYearOf(date);
 
   /// Returns true if this is first vespers (vespers1)
   bool get isFirstVespers => celebrationType == 'vespers1';
@@ -434,6 +467,8 @@ class CelebrationContext {
     int? liturgicalYear,
     bool? hasFeastReadingParts,
     bool? useProperReadingsForMemorial,
+    bool? twoYearReadingCycle,
+    BibleTextProvider? bibleTextProvider,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -463,6 +498,8 @@ class CelebrationContext {
       hasFeastReadingParts: hasFeastReadingParts ?? this.hasFeastReadingParts,
       useProperReadingsForMemorial:
           useProperReadingsForMemorial ?? this.useProperReadingsForMemorial,
+      twoYearReadingCycle: twoYearReadingCycle ?? this.twoYearReadingCycle,
+      bibleTextProvider: bibleTextProvider ?? this.bibleTextProvider,
     );
   }
 }

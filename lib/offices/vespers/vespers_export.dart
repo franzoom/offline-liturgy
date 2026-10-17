@@ -6,8 +6,6 @@ import '../../tools/hierarchical_common_loader.dart';
 import '../../tools/celebration_index.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/date_tools.dart';
-import '../../calendar_management/common_calendar_definitions.dart'
-    show liturgicalYearOf;
 import '../../tools/paschal_antiphon.dart';
 import '../../assets/usual_texts.dart';
 
@@ -92,8 +90,7 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // the eve of the 1st Sunday of Advent already takes the new year.
   vespersOffice.evangelicAntiphon = filterEvangelicAntiphon(
       vespersOffice.evangelicAntiphon,
-      celebrationContext.liturgicalYear ??
-          liturgicalYearOf(celebrationContext.date));
+      celebrationContext.effectiveLiturgicalYear);
 
   // Apply paschal alléluia to antiphons
   applyPaschalToPsalmody(vespersOffice.psalmody, lt);

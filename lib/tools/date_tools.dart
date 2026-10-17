@@ -72,6 +72,12 @@ String sundayCycle(int year) {
 /// (Year I in odd-numbered years, Year II in even-numbered years).
 String weekdayLectionaryYear(int year) => year.isOdd ? '1' : '2';
 
+/// Returns 'Even' or 'Odd' for the two-year Office of Readings cycle
+/// (suffix of the biblicalReadingEven / biblicalReadingOdd YAML keys).
+/// [liturgicalYear] already carries the Advent shift (Advent 2026 -> 2027).
+String twoYearReadingCycle(int liturgicalYear) =>
+    liturgicalYear.isEven ? 'Even' : 'Odd';
+
 String breviaryWeekToRoman(int weekNumber) {
   // converts breviary week number (1-4) to Roman numerals
   switch (weekNumber) {
@@ -87,4 +93,3 @@ String breviaryWeekToRoman(int weekNumber) {
       return weekNumber.toString(); // fallback to number if out of range
   }
 }
-

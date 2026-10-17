@@ -2336,6 +2336,14 @@
     "dir": "sanctoral",
     "title": "Saint Camille de Lellis"
   },
+  "roman/carlo_acutis": {
+    "color": "white",
+    "commons": [
+      "saints_male"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Carlo Acutis"
+  },
   "roman/casimir_of_poland": {
     "color": "white",
     "commons": [
@@ -2357,7 +2365,7 @@
     "color": "white",
     "commons": [
       "virgins",
-      "saints_doctors"
+      "virgins_doctors"
     ],
     "dir": "sanctoral",
     "title": "Sainte Catherine de Sienne"
@@ -2745,6 +2753,7 @@
     "color": "white",
     "commons": [
       "virgins",
+      "virgins_doctors",
       "saints-female_religious"
     ],
     "dir": "sanctoral",
@@ -3539,6 +3548,14 @@
     "dir": "sanctoral",
     "title": "Saint Philippe Néri"
   },
+  "roman/pier_giorgio_frassati": {
+    "color": "white",
+    "commons": [
+      "saints_male_educator"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Pier Giorgio Frassati"
+  },
   "roman/pius_francesco_forgione_priest": {
     "color": "white",
     "commons": [
@@ -3768,7 +3785,7 @@
     "color": "white",
     "commons": [
       "virgins",
-      "saints_doctors"
+      "virgins_doctors"
     ],
     "dir": "sanctoral",
     "title": "Sainte Thérèse d’Avila,"
@@ -3777,7 +3794,7 @@
     "color": "white",
     "commons": [
       "virgins",
-      "saints_doctors"
+      "virgins_doctors"
     ],
     "dir": "sanctoral",
     "title": "Sainte Thérèse de l’Enfant-Jésus,"

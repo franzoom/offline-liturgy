@@ -33,15 +33,17 @@ bool ferialDayCheck(String celebrationCode) {
 }
 
 /// Filters an evangelicAntiphon map to keep only the generic key and the
-/// current liturgical year key (A, B or C).
+/// current liturgical year key (A, B or C). The year key comes first so that
+/// consumers iterating the map display the year antiphon before the generic
+/// one.
 Map<String, List<String>>? filterEvangelicAntiphon(
     Map<String, List<String>>? antiphonMap, int year) {
   if (antiphonMap == null) return null;
   final yearKey = sundayCycle(year);
   return {
+    if (antiphonMap.containsKey(yearKey)) yearKey: antiphonMap[yearKey]!,
     if (antiphonMap.containsKey('antiphon'))
       'antiphon': antiphonMap['antiphon']!,
-    if (antiphonMap.containsKey(yearKey)) yearKey: antiphonMap[yearKey]!,
   };
 }
 

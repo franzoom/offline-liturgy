@@ -30,11 +30,23 @@ Future<Map<String, CelebrationContext>> middleOfDayDetection(
           orElse: () => celebrations.first,
         );
 
+  // A Sunday that stays celebrable under the chosen celebration (e.g. under
+  // France's Dedication of the churches whose date of consecration is
+  // unknown, which a church knowing its own date doesn't keep) is offered
+  // after it, as in the other offices.
+  final sunday = date.weekday == DateTime.sunday
+      ? celebrations
+          .where((s) =>
+              s != c && s.isCelebrable && ferialDayCheck(s.celebrationCode))
+          .firstOrNull
+      : null;
+
   final result = {
-    c.celebrationTitle ?? c.celebrationCode: c.copyWith(
-      celebrationType: 'middleOfDay',
-      officeDescription: c.celebrationGlobalName,
-    ),
+    for (final option in [c, if (sunday != null) sunday])
+      option.celebrationTitle ?? option.celebrationCode: option.copyWith(
+        celebrationType: 'middleOfDay',
+        officeDescription: option.celebrationGlobalName,
+      ),
   };
 
   return result;

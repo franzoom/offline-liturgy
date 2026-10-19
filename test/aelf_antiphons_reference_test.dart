@@ -1,7 +1,11 @@
 // Compare, for every Sunday/Solemnity/Feast of a given year (France
-// calendar), the psalm/canticle antiphons computed by this package against
-// AELF's own published texts (fixture in test/fixtures/, rebuilt by
-// test/tools/fetch_aelf_antiphons_reference.dart — no network access here).
+// calendar), the psalms/canticles and their antiphons computed by this
+// package against AELF's own published office (fixture in test/fixtures/,
+// rebuilt by test/tools/fetch_aelf_antiphons_reference.dart — no network
+// access here).
+//
+// Psalms are compared by number and part (see [_aelfPsalmKey]), canticles by
+// book and chapter, as AELF only gives that much of their reference.
 //
 // Text is compared on its words only, after stripping HTML, punctuation and
 // case: AELF and our own YAML sources format the same antiphon slightly
@@ -62,6 +66,7 @@ void main() {
   late Map<String, dynamic> fixture;
   final mismatches = <_Mismatch>[];
   int comparedCount = 0;
+  int psalmCount = 0;
 
   setUpAll(() async {
     dataLoader = FileSystemDataLoader();
@@ -72,7 +77,7 @@ void main() {
     fixture = jsonDecode(await file.readAsString());
   });
 
-  test('Antiennes des psaumes/cantiques — $_location $_year vs AELF',
+  test('Psaumes/cantiques et antiennes — $_location $_year vs AELF',
       () async {
     final dates = fixture.keys.toList()..sort();
     for (final iso in dates) {
@@ -89,6 +94,8 @@ void main() {
         _comparePsalmody(morning.psalmody, aelf['laudes'], iso, 'Laudes',
             label, mismatches, () => comparedCount++,
             sharedAntiphonAcrossHour: false);
+        _comparePsalmReferences(morning.psalmody, aelf['laudes'], iso,
+            'Laudes', label, mismatches, () => psalmCount++);
         _compareEvangelicAntiphon(morning.evangelicAntiphon,
             aelf['laudes']?['antienne_zacharie'], iso, 'Laudes', label,
             'antienne_zacharie (Benedictus)', mismatches, () => comparedCount++);
@@ -103,6 +110,8 @@ void main() {
         _comparePsalmody(vespers.psalmody, aelf['vepres'], iso, 'Vêpres',
             label, mismatches, () => comparedCount++,
             sharedAntiphonAcrossHour: false);
+        _comparePsalmReferences(vespers.psalmody, aelf['vepres'], iso,
+            'Vêpres', label, mismatches, () => psalmCount++);
         _compareEvangelicAntiphon(vespers.evangelicAntiphon,
             aelf['vepres']?['antienne_magnificat'], iso, 'Vêpres', label,
             'antienne_magnificat', mismatches, () => comparedCount++);
@@ -124,14 +133,20 @@ void main() {
         _comparePsalmody(middle.psalmodyNone, aelf['none'], iso, 'None',
             label, mismatches, () => comparedCount++,
             sharedAntiphonAcrossHour: true);
+        _comparePsalmReferences(middle.psalmodyTierce, aelf['tierce'], iso,
+            'Tierce', label, mismatches, () => psalmCount++);
+        _comparePsalmReferences(middle.psalmodySexte, aelf['sexte'], iso,
+            'Sexte', label, mismatches, () => psalmCount++);
+        _comparePsalmReferences(middle.psalmodyNone, aelf['none'], iso,
+            'None', label, mismatches, () => psalmCount++);
       }
 
       print('$iso [$category] vérifié.');
     }
 
     print('\n\n===================== RÉSUMÉ =====================');
-    print('$comparedCount antienne(s) comparée(s) pour $_location $_year '
-        'vs AELF ($_aelfZone).');
+    print('$psalmCount psaume(s)/cantique(s) et $comparedCount antienne(s) '
+        'comparé(e)s pour $_location $_year vs AELF ($_aelfZone).');
     final known =
         mismatches.where((m) => _knownAelfErrors.contains(m.key)).toList();
     final unexpected =
@@ -242,6 +257,92 @@ void _comparePsalmody(
   }
 }
 
+/// Compares, position by position, the psalm or canticle we say with the one
+/// AELF names in its `reference` ("75 - I", "118-17", "CANTIQUE (Col 1)").
+void _comparePsalmReferences(
+  List<PsalmEntry>? ours,
+  Map<String, dynamic>? aelfOffice,
+  String date,
+  String office,
+  String celebration,
+  List<_Mismatch> mismatches,
+  void Function() tick,
+) {
+  if (aelfOffice == null) return;
+  // Psalm 54 said in two parts (Wednesday II) is PSALM_54_1_2 + PSALM_54_3 in
+  // our data, which keeps the numbering of its three-part division (Friday
+  // IV); AELF numbers those two parts "54 - I" and "54 - II".
+  final psalm54InTwoParts =
+      ours?.any((e) => e.psalm == 'PSALM_54_1_2') ?? false;
+  for (int i = 0; i < 3; i++) {
+    final aelfKey = 'psaume_${i + 1}';
+    final aelfRef = aelfOffice[aelfKey] as String?;
+    final entry = (ours != null && i < ours.length) ? ours[i] : null;
+    if (aelfRef == null && entry == null) continue;
+    tick();
+    final oursKey = entry == null
+        ? null
+        : psalm54InTwoParts && entry.psalm == 'PSALM_54_3'
+            ? '54-2'
+            : _ourPsalmKey(entry);
+    if (aelfRef == null || oursKey != _aelfPsalmKey(aelfRef)) {
+      mismatches.add(_Mismatch(date, office, celebration, aelfKey,
+          '${entry?.psalm ?? '—'} ($oursKey)', aelfRef ?? '—'));
+    }
+  }
+}
+
+/// AELF's reference as a key: a psalm by its number, division letter and
+/// part ("75 - I" → "75-1", "118-17", "113b", "14." → "14"), a canticle by
+/// the book and chapter in its parentheses ("CANTIQUE d'Anne (1 S 2)" →
+/// "1s 2").
+String _aelfPsalmKey(String reference) {
+  final canticle = RegExp(r'\(([^)]*)\)').firstMatch(reference);
+  if (canticle != null) return _bookChapterKey(canticle.group(1)!);
+  final psalm = RegExp(r'^(\d+)([ab]?)\s*(?:-\s*([IVX]+|\d+))?')
+      .firstMatch(reference.trim());
+  if (psalm == null) return reference;
+  final part = psalm.group(3);
+  return '${psalm.group(1)}${psalm.group(2)}'
+      '${part == null ? '' : '-${int.tryParse(part) ?? _romanToInt(part)}'}';
+}
+
+/// Our psalm as the same key: from its code ("PSALM_75_1" → "75-1",
+/// "PSALM_113B" → "113b"; what follows the part is a variant of the same
+/// psalm, e.g. PSALM_135_1B → "135-1"), or for a canticle (OT_n, NT_n) from
+/// its biblical reference ("1S 2,1-10" → "1s 2").
+String _ourPsalmKey(PsalmEntry entry) {
+  final code = entry.psalm ?? '';
+  final psalm = RegExp(r'^PSALM_(\d+)([AB]?)(?:_(\d+))?').firstMatch(code);
+  if (psalm != null) {
+    final part = psalm.group(3);
+    return '${psalm.group(1)}${psalm.group(2)!.toLowerCase()}'
+        '${part == null ? '' : '-$part'}';
+  }
+  return _bookChapterKey(entry.psalmData?.biblicalReference ?? code);
+}
+
+/// "1 S 2", "1S 2,1-10", "Ap 4-5" → "1s 2", "1s 2", "ap 4": spaces inside
+/// the book's abbreviation differ between AELF and our data.
+String _bookChapterKey(String reference) {
+  final match = RegExp(r'^\s*(\d?\s*\p{L}+)\s*(\d+)', unicode: true)
+      .firstMatch(reference);
+  if (match == null) return reference;
+  return '${match.group(1)!.replaceAll(' ', '').toLowerCase()} '
+      '${match.group(2)}';
+}
+
+int _romanToInt(String roman) {
+  const values = {'I': 1, 'V': 5, 'X': 10};
+  var total = 0;
+  for (int i = 0; i < roman.length; i++) {
+    final value = values[roman[i]]!;
+    final next = i + 1 < roman.length ? values[roman[i + 1]]! : 0;
+    total += value < next ? -value : value;
+  }
+  return total;
+}
+
 void _compareEvangelicAntiphon(
   Map<String, List<String>>? ours,
   dynamic aelfRaw,
@@ -253,15 +354,18 @@ void _compareEvangelicAntiphon(
   void Function() tick,
 ) {
   final aelfText = _normalize(aelfRaw is String ? aelfRaw : null);
-  final nonEmptyLines =
-      ours?.values.where((l) => l.isNotEmpty).toList() ?? [];
-  final oursJoined = nonEmptyLines.isEmpty ? null : nonEmptyLines.first.join(' ');
-  final oursText = _normalize(oursJoined);
-  if (aelfText.isEmpty && oursText.isEmpty) return;
+  // Every antiphon we offer (year A/B/C, then the common one) is selectable,
+  // so AELF's may match any of them.
+  final oursTexts = ours?.values
+          .where((l) => l.isNotEmpty)
+          .map((l) => _normalize(l.join(' ')))
+          .toList() ??
+      [];
+  if (aelfText.isEmpty && oursTexts.isEmpty) return;
   tick();
-  if (!_sameWords(oursText, aelfText)) {
-    mismatches.add(
-        _Mismatch(date, office, celebration, fieldLabel, oursText, aelfText));
+  if (!oursTexts.any((t) => _sameWords(t, aelfText))) {
+    mismatches.add(_Mismatch(date, office, celebration, fieldLabel,
+        oursTexts.join(' | '), aelfText));
   }
 }
 

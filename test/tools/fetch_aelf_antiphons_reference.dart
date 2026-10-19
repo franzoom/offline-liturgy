@@ -3,8 +3,8 @@
 //
 // For every Sunday, Solemnity and Feast of [year] in the France calendar, it
 // calls the AELF API (Laudes, Tierce, Sexte, None, Vêpres — zone=france) and
-// saves the psalm/canticle antiphons to a JSON fixture, so the actual
-// comparison test can run offline and reproducibly.
+// saves the psalm/canticle antiphons and references to a JSON fixture, so the
+// actual comparison test can run offline and reproducibly.
 //
 // Usage: dart run test/tools/fetch_aelf_antiphons_reference.dart
 
@@ -68,12 +68,17 @@ void main() async {
       await semaphore.acquire();
       try {
         final raw = await _getJson(client, office, iso);
-        officeData[office] = _extractAntiphons(raw?[office]);
+        officeData[office] = _extractReference(raw?[office]);
       } finally {
         semaphore.release();
       }
     }));
-    result[iso] = {'category': category, ...officeData};
+    // Fixed office order (not the requests' completion order), so that a
+    // rebuilt fixture only differs where AELF's content does.
+    result[iso] = {
+      'category': category,
+      for (final office in offices) office: officeData[office],
+    };
     done++;
     if (done % 10 == 0) print('  $done/${qualifyingDates.length}...');
   }
@@ -111,14 +116,19 @@ Future<Map<String, dynamic>?> _getJson(
   }
 }
 
-/// Keeps only the antiphon-related fields — nothing else in the office
-/// content is used by the comparison test.
-Map<String, dynamic> _extractAntiphons(Map<String, dynamic>? office) {
+/// Keeps only the antiphons and the psalm references (AELF's `reference`,
+/// e.g. "75 - I" or "CANTIQUE (Col 1)") — nothing else in the office content
+/// is used by the comparison test.
+Map<String, dynamic> _extractReference(Map<String, dynamic>? office) {
   if (office == null) return {};
   final result = <String, dynamic>{};
   for (final key in ['antienne_1', 'antienne_2', 'antienne_3',
       'antienne_zacharie', 'antienne_magnificat']) {
     if (office[key] != null) result[key] = office[key];
+  }
+  for (final key in ['psaume_1', 'psaume_2', 'psaume_3']) {
+    final reference = office[key]?['reference'];
+    if (reference != null) result[key] = reference;
   }
   return result;
 }

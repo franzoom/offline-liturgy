@@ -80,8 +80,10 @@ Future<Compline> _complineText(
   // alone applies, with no solemnity layer on top
   // (solemnity_advent_christmas.yaml would replace its antiphons). The eve
   // can't rely on liturgicalTime, which is still today's 'advent'; the
-  // day's own value is 'nativity'.
-  final layers = def.celebrationCode == 'roman/nativity'
+  // day's own value is 'nativity'. So do the octave's Saturday and Sunday
+  // Complines.
+  final layers = def.celebrationCode == 'roman/nativity' ||
+          time == 'christmasoctave'
       ? [('$_base/christmas.yaml', day)]
       : [
           if (intermediatePath != null) (intermediatePath, day),

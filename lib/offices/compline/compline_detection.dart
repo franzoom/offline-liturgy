@@ -37,7 +37,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   final dayContent = calendar.getDayContent(date);
   if (dayContent == null) return possibleComplines;
 
-  final String liturgicalTime = dayContent.liturgicalTime;
+  // The Saturday before the 1st Sunday of Advent already belongs to Advent
+  // from its First Vespers on, and so do its Complines.
+  final String liturgicalTime =
+      calendar.getDayContent(date.shift(1))?.liturgicalTime == 'advent'
+          ? 'advent'
+          : dayContent.liturgicalTime;
   final String todayName = dayName[date.weekday];
 
   // --- Special case for octaves ---

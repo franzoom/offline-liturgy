@@ -82,6 +82,15 @@ class MiddleOfDay {
     if (overlay.oration != null) oration = overlay.oration;
   }
 
+  /// Removes the psalms and antiphons, shared and of each hour.
+  void dropPsalmody() {
+    psalmody = null;
+    for (final hour in [tierce, sexte, none]) {
+      hour?.antiphon = null;
+      hour?.psalmody = null;
+    }
+  }
+
   /// Selective overlay for Common elements (Precedence > 6)
   void overlayWithCommon(MiddleOfDay common) {
     tierce = _overlayHour(tierce, common.tierce);

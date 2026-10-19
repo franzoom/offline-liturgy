@@ -22,7 +22,16 @@ Future<MiddleOfDay> middleOfDayExport(
     empty: MiddleOfDay.new,
     ferial: () => ferialMiddleOfDayResolution(celebrationContext),
     proper: (path) => middleOfDayExtract(path, celebrationContext.dataLoader),
-    common: () => loadMiddleOfDayHierarchicalCommon(celebrationContext),
+    common: () async {
+      final common =
+          await loadMiddleOfDayHierarchicalCommon(celebrationContext);
+      // A Feast says the day's psalms and antiphons at Middle of Day, unless
+      // its own file has some: the Common only brings its short readings,
+      // responsories and orations.
+      final precedence = celebrationContext.precedence ?? 13;
+      if (precedence >= 5 && precedence <= 9) common.dropPsalmody();
+      return common;
+    },
     overlay: (base, layer) => base.overlayWith(layer),
     overlayCommon: (base, common) => base.overlayWithCommon(common),
   );
@@ -55,10 +64,6 @@ Future<MiddleOfDay> middleOfDayExport(
           : null;
   if (baptismMondayPsalmody != null) {
     middleOfDayOffice.psalmody = baptismMondayPsalmody;
-  } else if (celebrationContext.date.weekday == DateTime.sunday &&
-      _sundayIOnSundayCodes.contains(celebrationContext.celebrationCode)) {
-    middleOfDayOffice.psalmody =
-        sunday1PsalmsForMiddleOfDay.map((c) => PsalmEntry(psalm: c)).toList();
   } else if ((celebrationContext.precedence ?? 13) <= 4) {
     _buildPerHourPsalmody(
       middleOfDayOffice,
@@ -194,16 +199,6 @@ Future<MiddleOfDay> middleOfDayExport(
 }
 
 // --- HELPERS ---
-
-/// Feasts (precedence 5, so not covered by the solemnities' Sunday rule in
-/// [_buildPerHourPsalmody]) whose Middle of Day takes the Sunday I psalms
-/// when they fall on a Sunday, instead of the current week's: the Lateran
-/// Basilica's Dedication. On a weekday they keep the day's psalms, like any
-/// Feast; the Sunday itself, still offered as an option (see
-/// middle_of_day_detection.dart), keeps the current week's.
-const _sundayIOnSundayCodes = {
-  'roman/dedication_of_the_lateran_basilica',
-};
 
 /// Psalmody for the Baptism of the Lord on a Monday (see 4c above): Monday
 /// II on Jan 8, Monday III on Jan 9. Same 3 psalms shared across all three

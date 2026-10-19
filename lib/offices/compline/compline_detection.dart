@@ -7,10 +7,18 @@ import '../../tools/constants.dart';
 import '../office_detection.dart';
 import '../../assets/libraries/french_liturgy_labels.dart';
 
+/// Celebrations ranked with the solemnities whose Compline is still the
+/// day's, with no eve Compline: the Commemoration of All the Faithful
+/// Departed (Nov 2).
+const _complineOfTheDayCodes = {
+  'roman/commemoration_of_all_the_faithful_departed',
+};
+
 /// Determines the celebration type for Compline based on precedence and code
 String _detectCelebrationType(int precedence, String celebrationCode) {
   final triduumLabel = triduumCodes[celebrationCode];
   if (triduumLabel != null) return triduumLabel;
+  if (_complineOfTheDayCodes.contains(celebrationCode)) return 'normal';
   // Ferial days (including Sundays of Lent, Advent, etc.) are never solemnities,
   // even if their liturgical rank (precedence) is high.
   if (ferialDayCheck(celebrationCode)) return 'normal';
@@ -165,7 +173,10 @@ Future<Map<String, ComplineDefinition>> complineDetection(
 
   if (!tomorrowIsHolyWeek) {
     for (final c in tomorrowCelebrations) {
-      if (ferialDayCheck(c.celebrationCode)) continue;
+      if (ferialDayCheck(c.celebrationCode) ||
+          _complineOfTheDayCodes.contains(c.celebrationCode)) {
+        continue;
+      }
       final int precedence = c.precedence ?? 13;
       // Only a solemnity has the Compline of its eve
       if (precedence > 4) continue;

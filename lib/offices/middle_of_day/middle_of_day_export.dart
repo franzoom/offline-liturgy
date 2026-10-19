@@ -10,6 +10,7 @@ import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../tools/hymns_management.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/constants.dart';
 
 /// Resolves the Middle of Day Prayer (Tierce, Sexte, None).
 /// Priority logic: Proper > Common > Ferial base.
@@ -48,6 +49,15 @@ Future<MiddleOfDay> middleOfDayExport(
   middleOfDayOffice.hymnTierce ??= tierceHymns;
   middleOfDayOffice.hymnSexte ??= sexteHymns;
   middleOfDayOffice.hymnNone ??= noneHymns;
+
+  // 4b'. Christmas Octave (Dec 26-31): the psalms of the day, from the
+  // psalter week (4th before the Holy Family, 1st after), under the hours'
+  // own antiphons; the Holy Family brings its own.
+  if (liturgicalTime == 'christmasoctave' &&
+      middleOfDayOffice.psalmody == null) {
+    middleOfDayOffice.psalmody =
+        await _christmasOctavePsalmody(celebrationContext);
+  }
 
   // 4c. PER-HOUR PSALMODY
   // Baptism of the Lord: precedence 5 (a Feast, not a Solemnity) and no
@@ -199,6 +209,17 @@ Future<MiddleOfDay> middleOfDayExport(
 }
 
 // --- HELPERS ---
+
+/// Psalms of the psalter day (christmas_W_D.yaml) for a day of the
+/// Christmas Octave (see 4b').
+Future<List<PsalmEntry>?> _christmasOctavePsalmody(
+    CelebrationContext context) async {
+  final week = context.breviaryWeek ?? 1;
+  final day = context.date.weekday % 7;
+  final psalter = await middleOfDayExtract(
+      '$ferialFilePath/christmas_${week}_$day.yaml', context.dataLoader);
+  return psalter.psalmody;
+}
 
 /// Psalmody for the Baptism of the Lord on a Monday (see 4c above): Monday
 /// II on Jan 8, Monday III on Jan 9. Same 3 psalms shared across all three

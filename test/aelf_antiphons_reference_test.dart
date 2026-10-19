@@ -25,30 +25,156 @@ const String _aelfZone = 'france';
 
 /// Divergences where AELF is wrong: our text was checked against the printed
 /// breviary by the maintainer. Keyed '$date|$office|$field', as in
-/// [_Mismatch.key]. They're still listed in the summary, but don't fail the
-/// test; an entry that no longer diverges is reported so it can be removed.
-const Set<String> _knownAelfErrors = {
+/// [_Mismatch.key], with the breviary's text: a divergence is only ignored
+/// when ours is exactly that text (see [_isKnownAelfError]), so that a known
+/// AELF error can't hide a bug of ours on the same field. They're still
+/// listed in the summary, but don't fail the test; an entry that no longer
+/// diverges is reported so it can be removed.
+final Map<String, String> _knownAelfErrors = {
   // "maison de prière" chez AELF, "maison de la prière" au bréviaire
   // (Dédicace des églises, dernier dimanche d'octobre).
-  '2024-10-27|Laudes|antienne_1',
-  '2025-10-26|Laudes|antienne_1',
-  '2026-10-25|Laudes|antienne_1',
+  for (final date in ['2024-10-27', '2025-10-26', '2026-10-25'])
+    '$date|Laudes|antienne_1':
+        "Ma maison, dit le Seigneur, est la maison de la prière.",
   // "du ciel et d'auprès de Dieu" chez AELF au Latran (mais sans "et" à la
   // Dédicace des églises), "du ciel d'auprès de Dieu" au bréviaire.
-  '2024-11-09|Lectures|antienne_3',
-  '2025-11-09|Lectures|antienne_3',
-  '2026-11-09|Lectures|antienne_3',
+  for (final date in ['2024-11-09', '2025-11-09', '2026-11-09'])
+    '$date|Lectures|antienne_3':
+        "Cité sainte, notre Mère, tu descends du ciel d'auprès de Dieu.",
   // AELF garde l'antienne du psautier pour le Ps 75 ; le bréviaire met
   // l'antienne de l'Heure sur les trois psaumes.
-  '2026-12-06|None|antienne_2',
-  '2026-12-06|None|antienne_3',
+  for (final antiphon in ['antienne_2', 'antienne_3'])
+    '2026-12-06|None|$antiphon': "De toi, Bethléem, sortira le berger d'Israël.",
   // Faute de frappe AELF : "Isarël".
-  '2026-12-20|Sexte|antienne_1',
-  '2026-12-20|Sexte|antienne_2',
-  '2026-12-20|Sexte|antienne_3',
+  for (final antiphon in ['antienne_1', 'antienne_2', 'antienne_3'])
+    '2026-12-20|Sexte|$antiphon':
+        "De toi, Bethléem, sortira le berger d'Israël.",
+  // Semaine avant Noël : AELF intervertit l'antienne 3 des Laudes du
+  // vendredi ("Ciel, répands ta rosée") et l'antienne 2 de celles du samedi
+  // ("Je regarde vers mon Dieu").
+  for (final date in ['2024-12-20', '2025-12-19', '2026-12-18'])
+    '$date|Laudes|antienne_3': 'Ciel, répands ta rosée, nuée, fais pleuvoir '
+        'le Juste ; terre, enfante un Sauveur !',
+  for (final date in ['2024-12-21', '2025-12-20', '2026-12-19'])
+    '$date|Laudes|antienne_2': "Je regarde vers mon Dieu, j'attends mon Sauveur !",
+  // Semaine avant Noël, milieu du jour : les antiennes de la semaine en cours
+  // (III ou IV) ; AELF met presque toujours "L'Ange dit à Marie", sans
+  // régularité.
+  for (final (date, antiphon) in [
+    ('2024-12-17', _rappelleToi),
+    ('2024-12-18', _monSecours),
+    ('2024-12-19', _jEspere),
+    ('2024-12-20', _envoieLAgneau),
+    ('2024-12-21', _viergeBenie),
+    ('2024-12-23', _lesProphetes),
+    ('2024-12-24', _lAngeDitAMarie),
+    ('2025-12-17', _monSecours),
+    ('2025-12-18', _jEspere),
+    ('2025-12-19', _envoieLAgneau),
+    ('2025-12-20', _viergeBenie),
+    ('2025-12-24', _viergeBenie),
+    ('2026-12-17', _jEspere),
+    ('2026-12-18', _envoieLAgneau),
+    ('2026-12-19', _viergeBenie),
+    ('2026-12-21', _lesProphetes),
+    ('2026-12-22', _lAngeDitAMarie),
+    ('2026-12-23', _viergeBenie),
+  ])
+    for (final hour in ['Tierce', 'Sexte', 'None'])
+      for (final n in [1, 2, 3]) '$date|$hour|antienne_$n': antiphon,
+  // Complies de la veille d'une solennité : le bréviaire garde les antiennes
+  // des solennités ; AELF prend celles du samedi du temps en cours.
+  for (final date in [
+    '2024-03-18', '2024-05-25', '2024-06-01', '2024-06-06', '2024-06-23',
+    '2024-08-14', '2024-10-31', '2024-11-23', '2025-03-18', '2025-03-24',
+    '2025-06-14', '2025-06-21', '2025-06-23', '2025-06-26', '2025-08-14',
+    '2025-10-31', '2025-11-22', '2026-03-18', '2026-03-24', '2026-05-30',
+    '2026-06-06', '2026-06-11', '2026-06-23', '2026-08-14', '2026-10-31',
+    '2026-11-21', '2026-12-07',
+  ])
+    '$date|Complies|antienne_1': 'Dans la paix, je reposerai.',
+  '2026-12-07|Complies|antienne_2': 'Au long des nuits, bénissez le Seigneur !',
+  // Christ-Roi (solennité du T.O.) : "Dieu puissant" au Ps 90 ; AELF met en
+  // 2025 "Le Seigneur te couvre de ses ailes".
+  '2025-11-23|Complies|antienne_1': 'Dieu puissant, mon rempart et ma foi !',
+  // 31 décembre 2025 : AELF prend les Complies de la veille d'une solennité
+  // (Sainte Marie, Mère de Dieu) au lieu de celles de l'octave de Noël.
+  '2025-12-31|Complies|antienne_1':
+      'Nos yeux ont vu le salut : qui peut nous ravir notre joie ?',
+  '2025-12-31|Complies|antienne_2':
+      "Sur le pays de l'ombre, une lumière s'est levée.",
+  '2025-12-31|Complies|antienne_symeon (Nunc dimittis)':
+      "J'ai vu de mes yeux le Sauveur : lumière des peuples.",
+  // Annonciation (transférée au 8 avril 2024) et Ascension 2025, en temps
+  // pascal : AELF ne prend pas l'antienne pascale de Syméon.
+  for (final date in ['2024-04-08', '2025-05-29'])
+    '$date|Complies|antienne_symeon (Nunc dimittis)':
+        'Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. '
+            'Alléluia.',
+  // Complies du vendredi : "Dans ma nuit" au bréviaire ; AELF met deux fois
+  // "Dans la nuit", sans la seconde antienne.
+  for (final date in ['2024-05-31', '2026-05-29'])
+    '$date|Complies|antienne_1': 'Dans ma nuit, je crie vers toi, Seigneur. '
+        "Que ma prière parvienne jusqu'à toi.",
+  // "il comble de bien les affamés" chez AELF, "de biens" au bréviaire.
+  '2025-10-30|Vêpres|antienne_magnificat':
+      'Exaltez le Seigneur : il comble de biens les affamés.',
+  // Transfiguration 2025, Vêpres : le cantique de 1 Tm 3, sans antienne au
+  // bréviaire ; AELF met le cantique d'Ap 19 avec une antienne.
+  '2025-08-06|Vêpres|psaume_3': 'NT_7 (1tm 3)',
+  '2025-08-06|Vêpres|antienne_3': '',
+  // Veille de l'Épiphanie (solennité) : AELF prend en 2026 l'antienne du
+  // samedi du temps de Noël ("Sur le pays de l'ombre").
+  '2026-01-03|Complies|antienne_2': 'Au long des nuits, bénissez le Seigneur !',
+  // Fautes de frappe AELF à l'antienne de Syméon : "vous veillerons",
+  // "allélulia".
+  for (final date in [
+    '2024-12-18', '2024-12-23', '2025-01-02', '2025-12-22', '2026-12-21',
+  ])
+    '$date|Complies|antienne_symeon (Nunc dimittis)':
+        'Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous '
+            'dormons : nous veillerons avec le Christ et nous reposerons en '
+            'paix.',
+  '2026-05-14|Complies|antienne_symeon (Nunc dimittis)':
+      'Le Seigneur est ressuscité, alléluia, il nous remplit de sa lumière. '
+          'Alléluia.',
   // "nous recevrons" chez AELF, "nous recevons" au bréviaire.
-  '2026-12-25|Laudes|antienne_zacharie (Benedictus)',
+  '2026-12-25|Laudes|antienne_zacharie (Benedictus)':
+      "Voici que les oracles s'accomplissent : la lumière du Très-Haut a "
+          "surgi dans le monde ; la vie nous est donnée ; nous recevons en "
+          "héritage la joie du Père, alléluia.",
 };
+
+// Middle of Day antiphons of the 3rd and 4th weeks of Advent.
+const _rappelleToi =
+    "Rappelle-toi, Seigneur : n'oublie pas sans fin la vie de tes pauvres.";
+const _monSecours = 'Mon secours, mon libérateur, Seigneur, ne tarde pas.';
+const _jEspere = "J'espère en ta parole : ne déçois pas mon attente.";
+const _envoieLAgneau = "Seigneur, envoie l'Agneau, le souverain de la terre, "
+    'vers la montagne de Sion.';
+const _viergeBenie =
+    'Vierge bénie entre toutes les femmes, Jésus, ton Enfant, est béni !';
+const _lesProphetes =
+    "Les prophètes l'ont dit : le Sauveur naîtra de la Vierge Marie.";
+const _lAngeDitAMarie =
+    "L'Ange dit à Marie : je te salue, comblée de grâce ! Le Seigneur est "
+    'avec toi !';
+
+/// More known AELF errors, too many to list here, in the same form: grouped
+/// by reason in test/fixtures/aelf_known_errors.json, loaded by [main].
+final Map<String, String> _knownAelfErrorsFromFile = {};
+
+/// [_knownAelfErrors] and [_knownAelfErrorsFromFile] together.
+String? _expectedText(String key) =>
+    _knownAelfErrors[key] ?? _knownAelfErrorsFromFile[key];
+
+/// Whether [m] is a known AELF error with exactly the breviary's text on our
+/// side (any of ours, for an evangelic antiphon: see [_compareEvangelicAntiphon]).
+bool _isKnownAelfError(_Mismatch m) {
+  final expected = _expectedText(m.key);
+  return expected != null &&
+      m.ours.split(' | ').map(_normalize).contains(_normalize(expected));
+}
 
 class _Mismatch {
   final String date;
@@ -88,6 +214,13 @@ void main() {
 
   setUpAll(() async {
     data = await LiturgyData.load();
+    final groups = jsonDecode(
+            await File('test/fixtures/aelf_known_errors.json').readAsString())
+        as Map<String, dynamic>;
+    for (final group in groups.values) {
+      _knownAelfErrorsFromFile
+          .addAll(((group as Map)['errors'] as Map).cast<String, String>());
+    }
   });
 
   for (final year in _years) {
@@ -106,7 +239,7 @@ void main() {
       }
       _printSummary(year, report);
       final unexpected = report.mismatches
-          .where((m) => !_knownAelfErrors.contains(m.key))
+          .where((m) => !_isKnownAelfError(m))
           .toList();
       expect(unexpected, isEmpty,
           reason:
@@ -218,14 +351,11 @@ void _printSummary(int year, _Report report) {
   print('\n\n===================== RÉSUMÉ $year =====================');
   print('${report.psalms} psaume(s)/cantique(s) et ${report.antiphons} '
       'antienne(s) comparé(e)s pour $_location $year vs AELF ($_aelfZone).');
-  final known = report.mismatches
-      .where((m) => _knownAelfErrors.contains(m.key))
-      .toList();
-  final unexpected = report.mismatches
-      .where((m) => !_knownAelfErrors.contains(m.key))
-      .toList();
+  final known = report.mismatches.where(_isKnownAelfError).toList();
+  final unexpected =
+      report.mismatches.where((m) => !_isKnownAelfError(m)).toList();
   final foundKeys = report.mismatches.map((m) => m.key).toSet();
-  final staleKnown = _knownAelfErrors
+  final staleKnown = [..._knownAelfErrors.keys, ..._knownAelfErrorsFromFile.keys]
       .where((k) => k.startsWith('$year-') && !foundKeys.contains(k))
       .toList();
 
@@ -241,6 +371,11 @@ void _printSummary(int year, _Report report) {
   } else {
     for (final m in unexpected) {
       print('\n$m');
+      final expected = _expectedText(m.key);
+      if (expected != null) {
+        print('    bréviaire : "$expected" (erreur AELF connue, mais notre '
+            'texte en diffère)');
+      }
     }
     print('\nTOTAL $year : ${unexpected.length} divergence(s).');
   }
@@ -336,8 +471,11 @@ void _comparePsalmody(
       continue; // ni l'un ni l'autre n'en a — rien à comparer ici
     }
     report.antiphons++;
+    // Several antiphons for a psalm are choices: AELF may show any of them.
+    final oursChoices = oursRaw?.map(_normalize) ?? const <String>[];
     if (!_sameWords(oursText, aelfText) &&
-        !_isLegitimateSecondAntiphon(oursText, aelfText)) {
+        !_isLegitimateSecondAntiphon(oursText, aelfText) &&
+        !oursChoices.any((choice) => _sameWords(choice, aelfText))) {
       report.mismatches.add(_Mismatch(date, office, celebration,
           aelfCelebration, aelfKey, oursText, aelfText));
     }
@@ -447,13 +585,15 @@ void _compareEvangelicAntiphon(
   _Report report,
 ) {
   final aelfText = _normalize(aelfRaw is String ? aelfRaw : null);
-  // Every antiphon we offer (year A/B/C, then the common one) is selectable,
-  // so AELF's may match any of them.
-  final oursTexts = ours?.values
-          .where((l) => l.isNotEmpty)
-          .map((l) => _normalize(l.join(' ')))
-          .toList() ??
-      [];
+  // Every antiphon we offer (year A/B/C, then the common one; a memorial's
+  // weekday and Common ones) is selectable, so AELF's may match any of them.
+  // A memorial's choices are introduced by their origin in italics
+  // ("%(antienne de la férie :)%"), which AELF doesn't show.
+  final oursTexts = [
+    for (final list in ours?.values ?? const <List<String>>[])
+      for (final antiphon in list)
+        _normalize(antiphon.replaceFirst(RegExp(r'^%\([^)]*\)%\s*'), '')),
+  ];
   // Nothing to check ours against (no such office in the fixture).
   if (aelfText.isEmpty) return;
   report.antiphons++;
@@ -469,11 +609,20 @@ void _compareEvangelicAntiphon(
 String _normalize(String? text) {
   if (text == null) return '';
   var t = text.replaceAll(RegExp(r'<[^>]*>'), ' ');
+  _htmlEntities.forEach((entity, char) => t = t.replaceAll(entity, char));
   t = t.replaceAll('’', "'").replaceAll('‘', "'");
   t = t.replaceAll(' ', ' ');
   t = t.replaceAll(RegExp(r'\s+'), ' ').trim();
   return t;
 }
+
+/// The HTML entities found in some of AELF's texts.
+const _htmlEntities = {
+  '&nbsp;': ' ',
+  '&eacute;': 'é',
+  '&egrave;': 'è',
+  '&rsquo;': '’',
+};
 
 /// Reduces a normalized text to its words only — lowercase, no punctuation,
 /// no soft hyphens — so that punctuation and case differences between AELF
@@ -483,23 +632,66 @@ String _normalize(String? text) {
 /// The word "alléluia" is left out too, whatever its spelling: AELF shows
 /// an optional "(alléluia)" outside Lent where we follow the season, and
 /// its own text has typos of it ("allléluia", "allélluia").
-String _wordsKey(String text) => text
-    .replaceAll('­', '')
-    .replaceAll(RegExp(r'\b[RV]/'), ' ') // responsory markers (R/, V/)
-    .toLowerCase()
-    .replaceAll(RegExp(r'[^\p{L}\p{N}]+', unicode: true), ' ')
-    .split(' ')
-    .where((w) => w.isNotEmpty && !_alleluiaWord.hasMatch(w))
-    .join(' ');
+String _wordsKey(String text, {bool keepCase = false}) {
+  final t = text
+      .replaceAll('­', '')
+      .replaceAll('œ', 'oe')
+      .replaceAll('Œ', 'Oe')
+      .replaceAll(RegExp(r'\b[RV]/'), ' '); // responsory markers (R/, V/)
+  return (keepCase ? t : t.toLowerCase())
+      .replaceAll(RegExp(r'[^\p{L}\p{N}]+', unicode: true), ' ')
+      .split(' ')
+      .where((w) => w.isNotEmpty && !_alleluiaWord.hasMatch(w.toLowerCase()))
+      .join(' ');
+}
 
 final RegExp _alleluiaWord = RegExp(r'^al+él+u+ia$');
+
 
 /// An AELF text with no words left (only "alléluia", a refrain marker or
 /// stray punctuation) has nothing to check ours against.
 bool _sameWords(String ours, String aelf) {
   final aelfWords = _wordsKey(aelf);
-  return aelfWords.isEmpty || _wordsKey(ours) == aelfWords;
+  return aelfWords.isEmpty ||
+      _isRefrainMention(ours) ||
+      _isRefrainMention(aelf) ||
+      _wordsKey(ours) == aelfWords ||
+      _sameButCapitalAccents(ours, aelf);
 }
+
+/// "R/ du psaume": the psalm's refrain is said as its antiphon, whichever
+/// text the other side writes for it (the refrain itself, or nothing).
+bool _isRefrainMention(String text) =>
+    RegExp(r'^R/ du psaume\.?$').hasMatch(text.trim());
+
+/// Same words, except that one side's capital lacks the accent of the
+/// other's letter ("Ecoutez" / "Écoutez", "À toi" / "à toi"): AELF isn't
+/// precise about accented capitals.
+bool _sameButCapitalAccents(String ours, String aelf) {
+  List<String> words(String t) => _wordsKey(t, keepCase: true).split(' ');
+  final a = words(ours), b = words(aelf);
+  if (a.length != b.length) return false;
+  for (int i = 0; i < a.length; i++) {
+    final x = a[i], y = b[i];
+    if (x.toLowerCase() == y.toLowerCase()) continue;
+    final capital = _isUpper(x[0]) || _isUpper(y[0]);
+    if (!capital ||
+        _unaccented(x[0].toLowerCase()) != _unaccented(y[0].toLowerCase()) ||
+        x.substring(1).toLowerCase() != y.substring(1).toLowerCase()) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool _isUpper(String c) => c != c.toLowerCase();
+
+String _unaccented(String c) => _accents[c] ?? c;
+
+const _accents = {
+  'à': 'a', 'â': 'a', 'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e', 'î': 'i',
+  'ï': 'i', 'ô': 'o', 'ù': 'u', 'û': 'u', 'ü': 'u', 'ç': 'c',
+};
 
 /// AELF's own site only ever shows one antiphon per psalm, even where the
 /// printed breviary gives two (confirmed by the maintainer) — so when our

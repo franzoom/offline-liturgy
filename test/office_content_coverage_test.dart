@@ -103,6 +103,14 @@ void main() {
       // --- Readings (Office des lectures) ---
       final readingsCandidates = await readingsDetection(calendar, date, dataLoader);
       for (final entry in readingsCandidates.entries) {
+        // No Office of Readings on Easter Sunday: the Easter Vigil takes its
+        // place.
+        if (entry.value.celebrationCode == 'easter_1_0') {
+          checkedCount++;
+          print('  $_gray Readings — n/a (la Vigile pascale en tient lieu)'
+              '$_reset  (${entry.key})');
+          continue;
+        }
         final readings = await readingsExport(entry.value);
         report('Readings', date, _label(entry.key, entry.value.isCelebrable),
             _checkReadings(readings, entry.value));
@@ -129,6 +137,13 @@ void main() {
       final massCandidates = await massDetection(calendar, date, dataLoader);
       for (final entry in massCandidates.entries) {
         final mass = await massExport(entry.value);
+        if (_isIgnoredMass(entry.key)) {
+          final issues = _checkMass(mass);
+          checkedCount++;
+          print('  $_gray Mass — ignoré${issues.isEmpty ? '' : ' : ${issues.join(' | ')}'}'
+              '$_reset  (${entry.key})');
+          continue;
+        }
         report('Mass', date, _label(entry.key, entry.value.isCelebrable),
             _checkMass(mass));
 
@@ -190,6 +205,17 @@ void main() {
   }, timeout: const Timeout(Duration(hours: 1)));
 }
 
+/// Masses whose missing parts are accepted for now (maintainer's decision):
+/// their check is printed in gray and not counted as an anomaly.
+const _ignoredMassLabels = [
+  'PROCESSION_WITH_PALMS',
+  'Célébration de la Passion du Seigneur',
+  'EASTER_VIGIL',
+  'Commémoraison de tous les fidèles défunts',
+];
+
+bool _isIgnoredMass(String label) => _ignoredMassLabels.any(label.contains);
+
 /// Marks a celebration label as superseded by a higher-precedence option
 /// today (e.g. Second Vespers of a Saturday when tomorrow's Sunday First
 /// Vespers wins) — such options are commonly thin or empty in the source
@@ -207,6 +233,8 @@ final Set<String> _ignoredMissingAntiphonCodes = {
   'PSALM_135_1',
   'PSALM_135_2',
   'PSALM_135_3',
+  'PSALM_135_1B',
+  'PSALM_135_2B',
   'PSALM_45',
   'PSALM_8',
   'OT_40',

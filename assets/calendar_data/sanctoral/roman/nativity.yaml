@@ -193,12 +193,12 @@ morning:
       — comme les sarments reliés au cep, tiens-nous unis à toi.
 
 middleOfDay:
-  psalmody:
-  - psalm: PSALM_18B
-  - psalm: PSALM_46
-  - psalm: PSALM_47
   tierce:
     antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
+    psalmody:
+      - psalm: PSALM_18B
+      - psalm: PSALM_46
+      - psalm: PSALM_47
     reading:
       biblicalReference: Tt 2, 11-12
       content: La grâce de Dieu s’est manifestée pour le salut de tous les hommes. C’est elle qui nous apprend à rejeter le péché et les passions d’ici-bas, pour vivre dans le monde présent en hommes raisonnables, justes et religieux.
@@ -207,6 +207,10 @@ middleOfDay:
       sa fidélité en faveur d’Israël, alléluia.
   sexte:
     antiphon: Marie retenait toutes ces paroles et les méditait dans son cœur.
+    psalmody:
+      - psalm: PSALM_122
+      - psalm: PSALM_123
+      - psalm: PSALM_124
     reading:
       biblicalReference: 1Jn 4, 9
       content: |-
@@ -216,6 +220,10 @@ middleOfDay:
       le salut de notre Dieu, alléluia.
   none:
     antiphon: Mes yeux ont vu le salut que tu préparais à la face des peuples.
+    psalmody:
+      - psalm: PSALM_125
+      - psalm: PSALM_126
+      - psalm: PSALM_127
     reading:
       biblicalReference: Ac 10, 36
       content: |-

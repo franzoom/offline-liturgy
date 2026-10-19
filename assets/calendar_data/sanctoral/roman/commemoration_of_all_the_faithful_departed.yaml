@@ -34,6 +34,12 @@ readings:
         Le Christ est mort, puis ressuscité,
         pour être le Seigneur des morts et des vivants.
 
+middleOfDay:
+  psalmody:
+  - psalm: PSALM_69
+  - psalm: PSALM_84
+  - psalm: PSALM_85
+
 mass:
 - massType: FIRST_MASS
   name: Première messe

@@ -6,13 +6,13 @@ const Map<String, List<List<String>>> gradualPsalms = {
     ["PSALM_121", "Joyeux, nous irons à la maison de Dieu."]
   ],
   "sexte": [
-    ["PSALM_122", "Toi qui est au ciel, prends pitié de nous."],
+    ["PSALM_122", "Toi qui es au ciel, prends pitié de nous."],
     ["PSALM_123", "Le nom du Seigneur est notre secours."],
     ["PSALM_124", "Le Seigneur entoure son peuple, dès maintenant et à jamais."]
   ],
   "none": [
     ["PSALM_125", "Qui sème dans les larmes moissonne dans la joie."],
-    ["PSALM_126", "Si le Seignuer ne bâtit la maison, tu bâtis en vain."],
+    ["PSALM_126", "Si le Seigneur ne bâtit la maison, tu bâtis en vain."],
     ["PSALM_127", "Heureux qui craint le Seigneur et marche selon ses voies !"]
   ]
 };

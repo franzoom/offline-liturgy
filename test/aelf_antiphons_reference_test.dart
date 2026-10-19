@@ -1,8 +1,9 @@
-// Compare, for every Sunday/Solemnity/Feast of a given year (France
-// calendar), the psalms/canticles and their antiphons computed by this
-// package against AELF's own published office (fixture in test/fixtures/,
+// Compare, for every day of the given years (France calendar), the
+// psalms/canticles and their antiphons computed by this package against
+// AELF's own published office (fixtures in test/fixtures/, one per year,
 // rebuilt by test/tools/fetch_aelf_antiphons_reference.dart — no network
-// access here).
+// access here): Office of Readings, Lauds, Tierce, Sext, None, Vespers and
+// Compline.
 //
 // Psalms are compared by number and part (see [_aelfPsalmKey]), canticles by
 // book and chapter, as AELF only gives that much of their reference.
@@ -18,7 +19,7 @@ import 'dart:io';
 import 'package:test/test.dart';
 import 'package:offline_liturgy/offline_liturgy.dart';
 
-const int _year = 2026;
+const List<int> _years = [2024, 2025, 2026];
 const String _location = 'france';
 const String _aelfZone = 'france';
 
@@ -27,8 +28,16 @@ const String _aelfZone = 'france';
 /// [_Mismatch.key]. They're still listed in the summary, but don't fail the
 /// test; an entry that no longer diverges is reported so it can be removed.
 const Set<String> _knownAelfErrors = {
-  // "maison de prière" chez AELF, "maison de la prière" au bréviaire.
+  // "maison de prière" chez AELF, "maison de la prière" au bréviaire
+  // (Dédicace des églises, dernier dimanche d'octobre).
+  '2024-10-27|Laudes|antienne_1',
+  '2025-10-26|Laudes|antienne_1',
   '2026-10-25|Laudes|antienne_1',
+  // "du ciel et d'auprès de Dieu" chez AELF au Latran (mais sans "et" à la
+  // Dédicace des églises), "du ciel d'auprès de Dieu" au bréviaire.
+  '2024-11-09|Lectures|antienne_3',
+  '2025-11-09|Lectures|antienne_3',
+  '2026-11-09|Lectures|antienne_3',
   // AELF garde l'antienne du psautier pour le Ps 75 ; le bréviaire met
   // l'antienne de l'Heure sur les trois psaumes.
   '2026-12-06|None|antienne_2',
@@ -45,141 +54,219 @@ class _Mismatch {
   final String date;
   final String office;
   final String celebration;
+  final String aelfCelebration;
   final String field;
   final String ours;
   final String aelf;
-  _Mismatch(this.date, this.office, this.celebration, this.field, this.ours,
-      this.aelf);
+  _Mismatch(this.date, this.office, this.celebration, this.aelfCelebration,
+      this.field, this.ours, this.aelf);
 
   String get key => '$date|$office|$field';
 
   @override
   String toString() => '$date [$office] $celebration — $field\n'
       '    nous  : "$ours"\n'
-      '    AELF  : "$aelf"';
+      '    AELF  : "$aelf"   ($aelfCelebration)';
+}
+
+/// What was compared for one year (or one Compline option), and how it went.
+class _Report {
+  final mismatches = <_Mismatch>[];
+  int antiphons = 0;
+  int psalms = 0;
+
+  void absorb(_Report other) {
+    mismatches.addAll(other.mismatches);
+    antiphons += other.antiphons;
+    psalms += other.psalms;
+  }
 }
 
 void main() {
   late LiturgyData data;
-  late Calendar calendar;
-  late DataLoader dataLoader;
-  late Map<String, dynamic> fixture;
-  final mismatches = <_Mismatch>[];
-  int comparedCount = 0;
-  int psalmCount = 0;
+  final dataLoader = FileSystemDataLoader();
 
   setUpAll(() async {
-    dataLoader = FileSystemDataLoader();
     data = await LiturgyData.load();
-    calendar = getCalendar(Calendar(), DateTime(_year, 1, 1), _location, data);
-    final file = File(
-        'test/fixtures/aelf_antiphons_reference_${_year}_$_aelfZone.json');
-    fixture = jsonDecode(await file.readAsString());
   });
 
-  test('Psaumes/cantiques et antiennes — $_location $_year vs AELF',
-      () async {
-    final dates = fixture.keys.toList()..sort();
-    for (final iso in dates) {
-      final date = DateTime.parse(iso);
-      final aelf = fixture[iso] as Map<String, dynamic>;
-      final category = aelf['category'] as String;
-
-      // --- Laudes ---
-      final morningCandidates = await morningDetection(calendar, date, dataLoader);
-      final morningWinner = _pickWinner(morningCandidates);
-      if (morningWinner != null) {
-        final morning = await morningExport(morningWinner);
-        final label = _label(morningWinner);
-        _comparePsalmody(morning.psalmody, aelf['laudes'], iso, 'Laudes',
-            label, mismatches, () => comparedCount++,
-            sharedAntiphonAcrossHour: false);
-        _comparePsalmReferences(morning.psalmody, aelf['laudes'], iso,
-            'Laudes', label, mismatches, () => psalmCount++);
-        _compareEvangelicAntiphon(morning.evangelicAntiphon,
-            aelf['laudes']?['antienne_zacharie'], iso, 'Laudes', label,
-            'antienne_zacharie (Benedictus)', mismatches, () => comparedCount++);
+  for (final year in _years) {
+    test('Psaumes/cantiques et antiennes — $_location $year vs AELF',
+        () async {
+      final calendar =
+          getCalendar(Calendar(), DateTime(year, 1, 1), _location, data);
+      final file = File(
+          'test/fixtures/aelf_antiphons_reference_${year}_$_aelfZone.json');
+      final fixture =
+          jsonDecode(await file.readAsString()) as Map<String, dynamic>;
+      final report = _Report();
+      for (final iso in fixture.keys.toList()..sort()) {
+        await _compareDay(calendar, dataLoader, iso,
+            fixture[iso] as Map<String, dynamic>, report);
       }
-
-      // --- Vêpres (celle qui est réellement priée ce soir-là) ---
-      final vespersCandidates = await vespersDetection(calendar, date, dataLoader);
-      final vespersWinner = _pickWinner(vespersCandidates);
-      if (vespersWinner != null) {
-        final vespers = await vespersExport(vespersWinner);
-        final label = _label(vespersWinner);
-        _comparePsalmody(vespers.psalmody, aelf['vepres'], iso, 'Vêpres',
-            label, mismatches, () => comparedCount++,
-            sharedAntiphonAcrossHour: false);
-        _comparePsalmReferences(vespers.psalmody, aelf['vepres'], iso,
-            'Vêpres', label, mismatches, () => psalmCount++);
-        _compareEvangelicAntiphon(vespers.evangelicAntiphon,
-            aelf['vepres']?['antienne_magnificat'], iso, 'Vêpres', label,
-            'antienne_magnificat', mismatches, () => comparedCount++);
-      }
-
-      // --- Tierce / Sexte / None ---
-      final middleCandidates =
-          await middleOfDayDetection(calendar, date, dataLoader);
-      final middleWinner = _pickWinner(middleCandidates);
-      if (middleWinner != null) {
-        final middle = await middleOfDayExport(middleWinner);
-        final label = _label(middleWinner);
-        _comparePsalmody(middle.psalmodyTierce, aelf['tierce'], iso, 'Tierce',
-            label, mismatches, () => comparedCount++,
-            sharedAntiphonAcrossHour: true);
-        _comparePsalmody(middle.psalmodySexte, aelf['sexte'], iso, 'Sexte',
-            label, mismatches, () => comparedCount++,
-            sharedAntiphonAcrossHour: true);
-        _comparePsalmody(middle.psalmodyNone, aelf['none'], iso, 'None',
-            label, mismatches, () => comparedCount++,
-            sharedAntiphonAcrossHour: true);
-        _comparePsalmReferences(middle.psalmodyTierce, aelf['tierce'], iso,
-            'Tierce', label, mismatches, () => psalmCount++);
-        _comparePsalmReferences(middle.psalmodySexte, aelf['sexte'], iso,
-            'Sexte', label, mismatches, () => psalmCount++);
-        _comparePsalmReferences(middle.psalmodyNone, aelf['none'], iso,
-            'None', label, mismatches, () => psalmCount++);
-      }
-
-      print('$iso [$category] vérifié.');
-    }
-
-    print('\n\n===================== RÉSUMÉ =====================');
-    print('$psalmCount psaume(s)/cantique(s) et $comparedCount antienne(s) '
-        'comparé(e)s pour $_location $_year vs AELF ($_aelfZone).');
-    final known =
-        mismatches.where((m) => _knownAelfErrors.contains(m.key)).toList();
-    final unexpected =
-        mismatches.where((m) => !_knownAelfErrors.contains(m.key)).toList();
-    final foundKeys = mismatches.map((m) => m.key).toSet();
-    final staleKnown =
-        _knownAelfErrors.where((k) => !foundKeys.contains(k)).toList();
-
-    if (known.isNotEmpty) {
-      print('\n${known.length} erreur(s) AELF connue(s), ignorée(s) '
-          '(voir _knownAelfErrors).');
-    }
-    for (final k in staleKnown) {
-      print('\nÀ retirer de _knownAelfErrors (plus de divergence) : $k');
-    }
-    if (unexpected.isEmpty) {
-      print('Aucune divergence inattendue détectée.');
-    } else {
-      for (final m in unexpected) {
-        print('\n$m');
-      }
-      print('\nTOTAL : ${unexpected.length} divergence(s).');
-    }
-
-    expect(unexpected, isEmpty,
-        reason:
-            '${unexpected.length} divergence(s) — voir le résumé ci-dessus');
-  }, timeout: const Timeout(Duration(minutes: 5)));
+      _printSummary(year, report);
+      final unexpected = report.mismatches
+          .where((m) => !_knownAelfErrors.contains(m.key))
+          .toList();
+      expect(unexpected, isEmpty,
+          reason:
+              '${unexpected.length} divergence(s) — voir le résumé ci-dessus');
+    }, timeout: const Timeout(Duration(minutes: 10)));
+  }
 }
 
-/// The single celebrable candidate for the day (there should be exactly one
-/// among the offices we query, since we only look at Sundays/Solemnities/
-/// Feasts, which always have an unambiguous winner).
+/// Compares every office of the day [iso] with AELF's ([aelf]).
+Future<void> _compareDay(Calendar calendar, DataLoader dataLoader, String iso,
+    Map<String, dynamic> aelf, _Report report) async {
+  final date = DateTime.parse(iso);
+  final aelfCelebration = aelf['aelf'] as String? ?? '';
+
+  // --- Office des lectures ---
+  final readingsWinner =
+      _pickWinner(await readingsDetection(calendar, date, dataLoader));
+  if (readingsWinner != null) {
+    final readings = await readingsExport(readingsWinner);
+    _compareHour(report, readings.psalmody, aelf['lectures'], iso,
+        'Lectures', _label(readingsWinner), aelfCelebration);
+  }
+
+  // --- Laudes ---
+  final morningWinner =
+      _pickWinner(await morningDetection(calendar, date, dataLoader));
+  if (morningWinner != null) {
+    final morning = await morningExport(morningWinner);
+    final label = _label(morningWinner);
+    _compareHour(report, morning.psalmody, aelf['laudes'], iso, 'Laudes',
+        label, aelfCelebration);
+    _compareEvangelicAntiphon(
+        morning.evangelicAntiphon,
+        aelf['laudes']?['antienne_zacharie'],
+        iso,
+        'Laudes',
+        label,
+        aelfCelebration,
+        'antienne_zacharie (Benedictus)',
+        report);
+  }
+
+  // --- Tierce / Sexte / None ---
+  final middleWinner =
+      _pickWinner(await middleOfDayDetection(calendar, date, dataLoader));
+  if (middleWinner != null) {
+    final middle = await middleOfDayExport(middleWinner);
+    final label = _label(middleWinner);
+    _compareHour(report, middle.psalmodyTierce, aelf['tierce'], iso, 'Tierce',
+        label, aelfCelebration,
+        sharedAntiphonAcrossHour: true);
+    _compareHour(report, middle.psalmodySexte, aelf['sexte'], iso, 'Sexte',
+        label, aelfCelebration,
+        sharedAntiphonAcrossHour: true);
+    _compareHour(report, middle.psalmodyNone, aelf['none'], iso, 'None',
+        label, aelfCelebration,
+        sharedAntiphonAcrossHour: true);
+  }
+
+  // --- Vêpres (celle qui est réellement priée ce soir-là) ---
+  final vespersWinner =
+      _pickWinner(await vespersDetection(calendar, date, dataLoader));
+  if (vespersWinner != null) {
+    final vespers = await vespersExport(vespersWinner);
+    final label = _label(vespersWinner);
+    _compareHour(report, vespers.psalmody, aelf['vepres'], iso, 'Vêpres',
+        label, aelfCelebration);
+    _compareEvangelicAntiphon(
+        vespers.evangelicAntiphon,
+        aelf['vepres']?['antienne_magnificat'],
+        iso,
+        'Vêpres',
+        label,
+        aelfCelebration,
+        'antienne_magnificat',
+        report);
+  }
+
+  // --- Complies ---
+  // Several Compline may be offered the same evening (an octave's Saturday
+  // and Sunday ones, a solemnity's eve...): AELF's must match one of them.
+  // Otherwise, the option with the fewest divergences is reported.
+  _Report? best;
+  for (final option
+      in (await complineDetection(calendar, date, dataLoader)).values) {
+    final compline = await complineExport(option);
+    final optionReport = _Report();
+    _compareHour(optionReport, compline.psalmody, aelf['complies'], iso,
+        'Complies', option.complineDescription, aelfCelebration);
+    _compareEvangelicAntiphon(
+        compline.evangelicAntiphon,
+        aelf['complies']?['antienne_symeon'],
+        iso,
+        'Complies',
+        option.complineDescription,
+        aelfCelebration,
+        'antienne_symeon (Nunc dimittis)',
+        optionReport);
+    if (best == null ||
+        optionReport.mismatches.length < best.mismatches.length) {
+      best = optionReport;
+    }
+    if (best.mismatches.isEmpty) break;
+  }
+  if (best != null) report.absorb(best);
+}
+
+void _printSummary(int year, _Report report) {
+  print('\n\n===================== RÉSUMÉ $year =====================');
+  print('${report.psalms} psaume(s)/cantique(s) et ${report.antiphons} '
+      'antienne(s) comparé(e)s pour $_location $year vs AELF ($_aelfZone).');
+  final known = report.mismatches
+      .where((m) => _knownAelfErrors.contains(m.key))
+      .toList();
+  final unexpected = report.mismatches
+      .where((m) => !_knownAelfErrors.contains(m.key))
+      .toList();
+  final foundKeys = report.mismatches.map((m) => m.key).toSet();
+  final staleKnown = _knownAelfErrors
+      .where((k) => k.startsWith('$year-') && !foundKeys.contains(k))
+      .toList();
+
+  if (known.isNotEmpty) {
+    print('\n${known.length} erreur(s) AELF connue(s), ignorée(s) '
+        '(voir _knownAelfErrors).');
+  }
+  for (final k in staleKnown) {
+    print('\nÀ retirer de _knownAelfErrors (plus de divergence) : $k');
+  }
+  if (unexpected.isEmpty) {
+    print('Aucune divergence inattendue détectée.');
+  } else {
+    for (final m in unexpected) {
+      print('\n$m');
+    }
+    print('\nTOTAL $year : ${unexpected.length} divergence(s).');
+  }
+}
+
+/// Compares an hour's psalms/canticles and their antiphons with AELF's.
+void _compareHour(
+  _Report report,
+  List<PsalmEntry>? psalmody,
+  Map<String, dynamic>? aelfOffice,
+  String date,
+  String office,
+  String celebration,
+  String aelfCelebration, {
+  bool sharedAntiphonAcrossHour = false,
+}) {
+  _comparePsalmody(psalmody, aelfOffice, date, office, celebration,
+      aelfCelebration, report,
+      sharedAntiphonAcrossHour: sharedAntiphonAcrossHour);
+  _comparePsalmReferences(
+      psalmody, aelfOffice, date, office, celebration, aelfCelebration, report);
+}
+
+/// The day's celebrable candidate: the first one, as the detections sort
+/// them by precedence (a ferial day before its optional memorials, as AELF
+/// does).
 CelebrationContext? _pickWinner(Map<String, CelebrationContext> candidates) {
   for (final c in candidates.values) {
     if (c.isCelebrable) return c;
@@ -213,8 +300,8 @@ void _comparePsalmody(
   String date,
   String office,
   String celebration,
-  List<_Mismatch> mismatches,
-  void Function() tick, {
+  String aelfCelebration,
+  _Report report, {
   required bool sharedAntiphonAcrossHour,
 }) {
   if (aelfOffice == null) return;
@@ -248,11 +335,11 @@ void _comparePsalmody(
     if (aelfText.isEmpty && oursText.isEmpty) {
       continue; // ni l'un ni l'autre n'en a — rien à comparer ici
     }
-    tick();
+    report.antiphons++;
     if (!_sameWords(oursText, aelfText) &&
         !_isLegitimateSecondAntiphon(oursText, aelfText)) {
-      mismatches.add(_Mismatch(date, office, celebration, aelfKey, oursText,
-          aelfText));
+      report.mismatches.add(_Mismatch(date, office, celebration,
+          aelfCelebration, aelfKey, oursText, aelfText));
     }
   }
 }
@@ -265,8 +352,8 @@ void _comparePsalmReferences(
   String date,
   String office,
   String celebration,
-  List<_Mismatch> mismatches,
-  void Function() tick,
+  String aelfCelebration,
+  _Report report,
 ) {
   if (aelfOffice == null) return;
   // Psalm 54 said in two parts (Wednesday II) is PSALM_54_1_2 + PSALM_54_3 in
@@ -279,31 +366,33 @@ void _comparePsalmReferences(
     final aelfRef = aelfOffice[aelfKey] as String?;
     final entry = (ours != null && i < ours.length) ? ours[i] : null;
     if (aelfRef == null && entry == null) continue;
-    tick();
+    report.psalms++;
     final oursKey = entry == null
         ? null
         : psalm54InTwoParts && entry.psalm == 'PSALM_54_3'
             ? '54-2'
             : _ourPsalmKey(entry);
     if (aelfRef == null || oursKey != _aelfPsalmKey(aelfRef)) {
-      mismatches.add(_Mismatch(date, office, celebration, aelfKey,
-          '${entry?.psalm ?? '—'} ($oursKey)', aelfRef ?? '—'));
+      report.mismatches.add(_Mismatch(date, office, celebration,
+          aelfCelebration, aelfKey, '${entry?.psalm ?? '—'} ($oursKey)',
+          aelfRef ?? '—'));
     }
   }
 }
 
 /// AELF's reference as a key: a psalm by its number, division letter and
-/// part ("75 - I" → "75-1", "118-17", "113b", "14." → "14"), a canticle by
+/// part ("75 - I" → "75-1", "118-17", "113b", "9 B - I" → "9b-1", "14." →
+/// "14"), a canticle by
 /// the book and chapter in its parentheses ("CANTIQUE d'Anne (1 S 2)" →
 /// "1s 2").
 String _aelfPsalmKey(String reference) {
   final canticle = RegExp(r'\(([^)]*)\)').firstMatch(reference);
   if (canticle != null) return _bookChapterKey(canticle.group(1)!);
-  final psalm = RegExp(r'^(\d+)([ab]?)\s*(?:-\s*([IVX]+|\d+))?')
+  final psalm = RegExp(r'^(\d+)\s*([AaBb]?)\s*(?:-\s*([IVX]+|\d+))?')
       .firstMatch(reference.trim());
   if (psalm == null) return reference;
   final part = psalm.group(3);
-  return '${psalm.group(1)}${psalm.group(2)}'
+  return '${psalm.group(1)}${psalm.group(2)!.toLowerCase()}'
       '${part == null ? '' : '-${int.tryParse(part) ?? _romanToInt(part)}'}';
 }
 
@@ -323,14 +412,18 @@ String _ourPsalmKey(PsalmEntry entry) {
 }
 
 /// "1 S 2", "1S 2,1-10", "Ap 4-5" → "1s 2", "1s 2", "ap 4": spaces inside
-/// the book's abbreviation differ between AELF and our data.
+/// the book's abbreviation differ between AELF and our data, and so do a few
+/// abbreviations themselves ([_bookAliases]).
 String _bookChapterKey(String reference) {
   final match = RegExp(r'^\s*(\d?\s*\p{L}+)\s*(\d+)', unicode: true)
       .firstMatch(reference);
   if (match == null) return reference;
-  return '${match.group(1)!.replaceAll(' ', '').toLowerCase()} '
-      '${match.group(2)}';
+  final book = match.group(1)!.replaceAll(' ', '').toLowerCase();
+  return '${_bookAliases[book] ?? book} ${match.group(2)}';
 }
+
+/// Our abbreviation of a book → AELF's.
+const _bookAliases = {'1chr': '1ch'};
 
 int _romanToInt(String roman) {
   const values = {'I': 1, 'V': 5, 'X': 10};
@@ -349,9 +442,9 @@ void _compareEvangelicAntiphon(
   String date,
   String office,
   String celebration,
+  String aelfCelebration,
   String fieldLabel,
-  List<_Mismatch> mismatches,
-  void Function() tick,
+  _Report report,
 ) {
   final aelfText = _normalize(aelfRaw is String ? aelfRaw : null);
   // Every antiphon we offer (year A/B/C, then the common one) is selectable,
@@ -361,11 +454,12 @@ void _compareEvangelicAntiphon(
           .map((l) => _normalize(l.join(' ')))
           .toList() ??
       [];
-  if (aelfText.isEmpty && oursTexts.isEmpty) return;
-  tick();
+  // Nothing to check ours against (no such office in the fixture).
+  if (aelfText.isEmpty) return;
+  report.antiphons++;
   if (!oursTexts.any((t) => _sameWords(t, aelfText))) {
-    mismatches.add(_Mismatch(date, office, celebration, fieldLabel,
-        oursTexts.join(' | '), aelfText));
+    report.mismatches.add(_Mismatch(date, office, celebration,
+        aelfCelebration, fieldLabel, oursTexts.join(' | '), aelfText));
   }
 }
 

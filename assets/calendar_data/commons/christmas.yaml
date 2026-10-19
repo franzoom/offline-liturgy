@@ -95,10 +95,6 @@ readings:
     V/ Le Verbe s’est fait chair, alléluia.
     Il a demeuré parmi nous, alléluia.
 middleOfDay:
-  psalmody:
-  - psalm: PSALM_18B
-  - psalm: PSALM_46
-  - psalm: PSALM_47
   tierce:
     antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
     reading:
@@ -127,7 +123,7 @@ middleOfDay:
       justice et paix s’embrassent, alléluia.
 vespers:
   hymn:
-  - a-pleine-voix
+  - a-pleine-voix 
   psalmody:
   - psalm: PSALM_109
     antiphon:

@@ -2,8 +2,6 @@ celebration:
   title: Saint Jean, apôtre et évangéliste
   subtitle: 27 décembre
   description: L’apôtre Jean a vécu dans l’intimité du Christ, qu’il avait rencontré sur le bord du Jourdain, il a été le témoin de sa transfiguration et de son agonie, il a vu mourir Jésus et l’a déposé dans son tombeau. Au matin de Pâques il a été le premier à croire en sa résurrection. C’est de tout cela qu’il a transmis en ses écrits le témoignage ébloui.
-  commons:
-  - christmas
   color: white
 oration:
 - Dieu qui as dévoilé pour nous les mystères de ton Verbe grâce à ton Apôtre saint Jean, rends-nous capables de comprendre et d’aimer les merveilles qu’il nous a fait connaître.
@@ -128,10 +126,6 @@ morning:
       — fais de nous des instruments de paix.
 
 middleOfDay:
-  psalmody:
-  - psalm: PSALM_118_21
-  - psalm: PSALM_132
-  - psalm: PSALM_139
   tierce:
     antiphon: Le père et la mère de l’enfant s’étonnaient de ce qu’on disait de lui.
     reading:
@@ -159,6 +153,20 @@ middleOfDay:
       vos noms sont inscrits dans les cieux.
 
 vespers:
+  hymn:
+  - a-pleine-voix 
+  psalmody:
+  - psalm: PSALM_109
+    antiphon:
+    - |-
+      Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté : Comme la rosée qui naît de l’aurore, je t’ai engendré.
+  - psalm: PSALM_129
+    antiphon:
+    - Oui, près du Seigneur est l’amour ; près de lui abonde le rachat.
+  - psalm: NT_6
+    antiphon:
+    - |-
+      Au commencement, avant tous les siècles, le Verbe était Dieu. Il est né aujourd’hui : c’est le Sauveur du monde.
   reading:
     biblicalReference: Rm 8, 3-4
     content: |-

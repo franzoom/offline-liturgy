@@ -67,8 +67,31 @@ class HourPrayer {
     if (common.reading != null) reading = common.reading;
     if (common.responsory != null) responsory = common.responsory;
     evangelicAntiphon =
-        mergeEvangelicAntiphons(evangelicAntiphon, common.evangelicAntiphon);
+        _ferialAndCommonAntiphons(evangelicAntiphon, common.evangelicAntiphon);
     if (common.intercession != null) intercession = common.intercession;
     if (common.oration != null) oration = common.oration;
   }
+
+  /// A memorial with no evangelic antiphon of its own says, at choice, the
+  /// weekday's or the Common's (PGLH 119): both are offered, the weekday's
+  /// first, each introduced by its origin. A memorial's own antiphon, laid
+  /// over them afterwards (proper layer), replaces them both.
+  static Map<String, List<String>>? _ferialAndCommonAntiphons(
+      Map<String, List<String>>? ferial, Map<String, List<String>>? common) {
+    final ferialAntiphons = ferial?['antiphon'];
+    final commonAntiphons = common?['antiphon'];
+    if (ferialAntiphons == null || commonAntiphons == null) {
+      return mergeEvangelicAntiphons(ferial, common);
+    }
+    return {
+      ...ferial!,
+      'antiphon': [
+        for (final a in ferialAntiphons) '$_ferialAntiphonLabel $a',
+        for (final a in commonAntiphons) '$_commonAntiphonLabel $a',
+      ],
+    };
+  }
+
+  static const _ferialAntiphonLabel = '%(antienne de la férie :)%';
+  static const _commonAntiphonLabel = '%(antienne du commun :)%';
 }

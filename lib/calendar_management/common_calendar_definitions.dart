@@ -113,6 +113,13 @@ DateTime immaculateConception(int year) {
   return immaculateDay.isSunday ? immaculateDay.shift(1) : immaculateDay;
 }
 
+/// Returns the last Sunday of October (Oct 25-31) — e.g. France's Dedication
+/// of the consecrated churches whose date of consecration is unknown.
+DateTime lastSundayOfOctober(int year) {
+  final october31 = DateTime(year, 10, 31);
+  return october31.shift(-(october31.weekday % 7));
+}
+
 /// Main function to generate all movable feasts for a liturgical year.
 Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
   log('Defining variable feasts dates for liturgical year $year',
@@ -155,6 +162,9 @@ Map<String, DateTime> createLiturgicalDays(int year, String epiphanyDay) {
       saintPieterAndPaul(sacredHeartDay);
   liturgicalDays['saint_john_the_baptist'] =
       saintJohnTheBaptist(sacredHeartDay);
+
+  // October of liturgical year [year] is in civil year [year].
+  liturgicalDays['LAST_SUNDAY_OF_OCTOBER'] = lastSundayOfOctober(year);
 
   liturgicalDays['CHRIST_KING'] = advent(year + 1).shift(-7);
 

@@ -76,7 +76,13 @@ FerialLayers ferialLayers(String code, DateTime date) {
         season: season,
         week: week,
         day: day,
-        paths: ['$ferialFilePath/advent_${week}_$day.yaml'],
+        paths: [
+          '$ferialFilePath/advent_${week}_$day.yaml',
+          // Dec 17-24, Monday to Saturday: the Lauds and Vespers antiphons
+          // proper to the weekday, on the psalms of the current week (3rd or
+          // 4th); the Office of Readings and Middle of Day keep the week's
+          if (day != 0) '$ferialFilePath/advent_before_christmas_$day.yaml',
+        ],
         hymnSeason: 'advent',
         adventSpecialDay: int.parse(dated.group(1)!),
       );

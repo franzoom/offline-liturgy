@@ -57,8 +57,7 @@ feasts:
     day: 19
     precedence: 12
   dedication_of_consecrated_churches: #OK
-    month: 10
-    day: 25
+    relativeTo: LAST_SUNDAY_OF_OCTOBER
     precedence: 4
 
 move:

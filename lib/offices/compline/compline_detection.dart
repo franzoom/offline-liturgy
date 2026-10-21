@@ -46,11 +46,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   if (dayContent == null) return possibleComplines;
 
   // The Saturday before the 1st Sunday of Advent already belongs to Advent
-  // from its First Vespers on, and so do its Complines.
+  // from its First Vespers on, and so do its Complines (season and color).
+  final tomorrowContent = calendar.getDayContent(date.shift(1));
+  final bool isAdventEve = dayContent.liturgicalTime != 'advent' &&
+      tomorrowContent?.liturgicalTime == 'advent';
   final String liturgicalTime =
-      calendar.getDayContent(date.shift(1))?.liturgicalTime == 'advent'
-          ? 'advent'
-          : dayContent.liturgicalTime;
+      isAdventEve ? 'advent' : dayContent.liturgicalTime;
   final String todayName = dayName[date.weekday];
 
   // --- Special case for octaves ---
@@ -103,7 +104,9 @@ Future<Map<String, ComplineDefinition>> complineDetection(
           date: date,
           liturgicalTime: liturgicalTime,
           precedence: precedence,
-          liturgicalColor: c.liturgicalColor ?? defaultColor,
+          liturgicalColor: isAdventEve && ferialDayCheck(c.celebrationCode)
+              ? tomorrowContent!.liturgicalColor
+              : c.liturgicalColor ?? defaultColor,
           isCelebrable: isCelebrable,
           celebrationType: celebrationType,
           officeDescription: description,

@@ -130,6 +130,8 @@ mass:
     partContents:
     - biblicalRef: Lc 1, 69-70, 71-72, 73-75
       refAbbr: 1, 69…
+      cycle:
+      - '1'
       chorus:
       - chorusRef: 1, 68
         content: |-

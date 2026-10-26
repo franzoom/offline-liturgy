@@ -303,6 +303,18 @@ class HourOffice {
   }
 }
 
+/// Where a memorial's Mass readings come from (see massExport).
+enum MassReadingSource {
+  /// The day's readings — the default.
+  day,
+
+  /// The memorial's own readings; those its proper lacks, from the day.
+  proper,
+
+  /// The memorial's own readings; those its proper lacks, from the Common.
+  all,
+}
+
 /// Context class containing all parameters needed for office resolution.
 /// This class consolidates MorningDefinition, VespersDefinition, and ReadingsDefinition.
 class CelebrationContext {
@@ -336,22 +348,25 @@ class CelebrationContext {
   // cycles, from DayContent.liturgicalYear — already accounts for the
   // Advent shift (e.g. Advent 2026 carries liturgicalYear 2027).
   final int? liturgicalYear;
-  // Whether "the feast's own readings" (as opposed to the day's) would
-  // have anything to offer for this celebration — proper if it declares
-  // readingParts, or the selected Common otherwise (a Common can supply
-  // readingParts too, inherited from a more general level of its
-  // hierarchy) — mass only, set by massDetection. A memorial always uses
-  // the day's readings by default (see useProperReadingsForMemorial); this
-  // tells the UI whether offering the feast's readings as an alternative
-  // is even possible.
-  final bool hasFeastReadingParts;
-  // Mass only. When this celebration is a memorial/commemoration
-  // (precedence > 5) and hasFeastReadingParts is true, selects the feast's
-  // own readingParts (proper, gap-filled from the Common) instead of the
-  // day's — see massExport. Has no effect for a Feast/Solemnity
-  // (precedence <= 5), which always use their own proper readingParts
-  // regardless of this flag.
-  final bool useProperReadingsForMemorial;
+  // Mass only, set by massDetection: the reading sources a memorial offers
+  // (see MassReadingSource) — empty for a ferial day, a feast or a
+  // solemnity, which have no choice, or a memorial with no readings of its
+  // own nor from its Common.
+  final List<MassReadingSource> massReadingSources;
+  // Mass only, set by massDetection: the readingParts types the
+  // celebration's proper provides (e.g. ['GOSPEL']), to describe the
+  // reading sources.
+  final List<String> properReadingPartTypes;
+  // Mass only, set by massDetection: whether the selected Common supplies
+  // a prayer text the proper lacks...
+  final bool commonUsedForPrayers;
+  // ...and a reading the proper lacks — always used for a feast or a
+  // solemnity, only with MassReadingSource.all for a memorial.
+  final bool commonUsedForReadings;
+  // Mass only: where a memorial's readings come from, among
+  // massReadingSources — see massExport. Feasts and solemnities always
+  // take their own readings, completed from the Common.
+  final MassReadingSource massReadingSource;
   // Office of Readings only. When true, the biblical reading follows the
   // two-year cycle (biblicalReadingEven / biblicalReadingOdd in the YAML,
   // chosen by the parity of liturgicalYear); otherwise the annual cycle.
@@ -383,8 +398,11 @@ class CelebrationContext {
     this.celebrationOrigin,
     this.svgSource,
     this.liturgicalYear,
-    this.hasFeastReadingParts = false,
-    this.useProperReadingsForMemorial = false,
+    this.massReadingSources = const [],
+    this.properReadingPartTypes = const [],
+    this.commonUsedForPrayers = false,
+    this.commonUsedForReadings = false,
+    this.massReadingSource = MassReadingSource.day,
     this.twoYearReadingCycle = false,
     this.bibleTextProvider,
   });
@@ -404,6 +422,13 @@ class CelebrationContext {
 
   /// Memorials (precedence > 9) only take some parts of their common.
   bool get isMemorial => (precedence ?? 13) > 9;
+
+  /// Whether the Mass, as resolved, takes something from the selected
+  /// Common — so whether choosing the Common makes any difference.
+  bool get massUsesCommon =>
+      commonUsedForPrayers ||
+      (commonUsedForReadings &&
+          (!isMemorial || massReadingSource == MassReadingSource.all));
 
   /// Memorials and feasts (precedence > 4) keep the season's hymns
   /// selectable after their own; solemnities replace them.
@@ -460,8 +485,11 @@ class CelebrationContext {
     LocationOrigin? celebrationOrigin,
     String? svgSource,
     int? liturgicalYear,
-    bool? hasFeastReadingParts,
-    bool? useProperReadingsForMemorial,
+    List<MassReadingSource>? massReadingSources,
+    List<String>? properReadingPartTypes,
+    bool? commonUsedForPrayers,
+    bool? commonUsedForReadings,
+    MassReadingSource? massReadingSource,
     bool? twoYearReadingCycle,
     BibleTextProvider? bibleTextProvider,
   }) {
@@ -490,9 +518,13 @@ class CelebrationContext {
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
       svgSource: svgSource ?? this.svgSource,
       liturgicalYear: liturgicalYear ?? this.liturgicalYear,
-      hasFeastReadingParts: hasFeastReadingParts ?? this.hasFeastReadingParts,
-      useProperReadingsForMemorial:
-          useProperReadingsForMemorial ?? this.useProperReadingsForMemorial,
+      massReadingSources: massReadingSources ?? this.massReadingSources,
+      properReadingPartTypes:
+          properReadingPartTypes ?? this.properReadingPartTypes,
+      commonUsedForPrayers: commonUsedForPrayers ?? this.commonUsedForPrayers,
+      commonUsedForReadings:
+          commonUsedForReadings ?? this.commonUsedForReadings,
+      massReadingSource: massReadingSource ?? this.massReadingSource,
       twoYearReadingCycle: twoYearReadingCycle ?? this.twoYearReadingCycle,
       bibleTextProvider: bibleTextProvider ?? this.bibleTextProvider,
     );

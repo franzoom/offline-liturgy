@@ -72,8 +72,8 @@ void main() {
 
   test("Saint John Paul II with the feast's own readings has the whole Mass",
       () async {
-    final mass =
-        await massExport(johnPaul.copyWith(useProperReadingsForMemorial: true));
+    final mass = await massExport(
+        johnPaul.copyWith(massReadingSource: MassReadingSource.all));
     expect(partTypes(mass), ['READING_1', 'PSALM', 'GOSPEL']);
   });
 }

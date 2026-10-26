@@ -39,12 +39,15 @@ Future<Map<String, CelebrationContext>> massDetection(
       isProperCelebration = true;
     }
 
+    // The proper's own Masses, before the Common may stand in for them below
+    final Masses properMasses = isProperCelebration ? masses : Masses();
+
     // If celebrating a saint with commons declared, also resolve the
     // selected Common — both as a structural fallback (when the proper has
     // no mass: block of its own at all, e.g. a local commemoration with
     // only oration/readings for the Office) and to know whether "the
     // feast's own readings" would have anything to offer via the Common
-    // for a massType the proper doesn't cover — see hasFeastReadingParts
+    // for a massType the proper doesn't cover — see the reading sources
     // below. A Common can supply readingParts too, inherited from a more
     // general level of its hierarchy (e.g. pastors_bishop inherits
     // pastors' readings).
@@ -56,6 +59,14 @@ Future<Map<String, CelebrationContext>> massDetection(
         isProperCelebration = false;
       }
     }
+
+    // The day's Masses, whose readings a celebration is measured against
+    // (see referenceReadingPartTypes) — only needed when celebrating a saint
+    final Masses dayMasses = c.hasProper && c.hasFerialBase
+        ? await ferialMassResolution(c)
+        : Masses();
+    List<String> typesOf(Mass? mass) =>
+        mass?.readingParts?.map((p) => p.partType).toList() ?? const [];
 
     final massList = masses.masses ?? [];
     for (final mass in massList) {
@@ -73,19 +84,42 @@ Future<Map<String, CelebrationContext>> massDetection(
           ? massTypeLabels[mass.massType] ?? mass.name ?? mass.massType
           : c.celebrationGlobalName;
 
-      // Only meaningful when actually celebrating the saint — the ferial's
-      // own entry always has readingParts (it's the day's own Mass), which
-      // isn't a "the feast's readings vs the day's" alternative to offer.
-      final commonMass = commonMasses?.ofType(mass.massType);
-      final bool hasFeastReadingParts = c.hasProper &&
-          ((mass.readingParts?.isNotEmpty ?? false) ||
-              (commonMass?.readingParts?.isNotEmpty ?? false));
-
-      possibleMasses[key] = c.copyWith(
+      final entry = c.copyWith(
         celebrationType: 'mass',
         officeDescription: description,
         massName: mass.massType,
-        hasFeastReadingParts: hasFeastReadingParts,
+      );
+      // The ferial day celebrated is its own Mass: nothing to choose
+      if (!c.hasProper) {
+        possibleMasses[key] = entry;
+        continue;
+      }
+
+      // What the proper and the Common provide, against a complete Mass
+      // (see massExport): the reading sources a memorial offers, and
+      // whether choosing the Common makes any difference
+      final properMass = properMasses.ofType(mass.massType);
+      final commonMass = commonMasses?.ofType(mass.massType);
+      final properTypes = typesOf(properMass);
+      final commonTypes = typesOf(commonMass);
+      final reference = referenceReadingPartTypes(
+          c.precedence, typesOf(dayMasses.ofType(mass.massType)), properTypes);
+      final commonFillsReadings = reference
+          .any((t) => !properTypes.contains(t) && commonTypes.contains(t));
+      final commonUsedForPrayers = commonMass != null &&
+          commonMass.providedPrayerFields
+              .difference(properMass?.providedPrayerFields ?? const {})
+              .isNotEmpty;
+
+      possibleMasses[key] = entry.copyWith(
+        massReadingSources: c.isMemorial
+            ? memorialReadingSources(
+                properTypes: properTypes,
+                commonFillsReadings: commonFillsReadings)
+            : const [],
+        properReadingPartTypes: properTypes,
+        commonUsedForPrayers: commonUsedForPrayers,
+        commonUsedForReadings: commonFillsReadings,
       );
     }
     return possibleMasses;

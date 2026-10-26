@@ -17,18 +17,16 @@ import './mass_extract.dart';
 ///  - the ferial day is celebrated: celebrationCode == ferialCode, nothing
 ///    proper/common ever loads.
 ///  - a Feast/Solemnity (precedence <= 9) is celebrated: its own proper
-///    Mass — readingParts included — always applies wholesale (STEP 4);
-///    there is no "day's readings" alternative for a Solemnity.
+///    Mass applies (STEP 4), its readings completed from the Common up to
+///    a complete Liturgy of the Word (STEP 5b); there is no "day's
+///    readings" alternative for a Feast.
 ///  - a memorial/commemoration (precedence > 9) is celebrated: its own
 ///    proper prayer texts (collect, antiphons...) always apply (STEP 4),
 ///    applied after the Common (STEP 3) so the saint's own texts win over
 ///    the Common's generic ones whenever present — there is no "no prayer
-///    texts" state once the memorial is selected. readingParts stay the
-///    day's by default; if the reader opts into "the feast's own readings"
-///    (context.useProperReadingsForMemorial), the proper's readingParts
-///    apply wholesale where it has any, and whichever readingPart types
-///    are still missing (partial proper, or none at all) are filled in,
-///    type by type, from the selected Common — see STEP 5b.
+///    texts" state once the memorial is selected. Its readings come from
+///    context.massReadingSource: the day's by default, or its proper ones,
+///    completed from the day or from the Common — see STEP 5b.
 Future<Mass> massExport(CelebrationContext context) async {
   Masses massesOffice = Masses();
 
@@ -52,15 +50,11 @@ Future<Mass> massExport(CelebrationContext context) async {
     massesOffice = await ferialMassResolution(context);
   }
 
-  // Snapshot: the ferial day's own readingPart types for this massName —
-  // the canonical set of "what a complete Mass needs" (STEP 5b), captured
-  // before any proper/common overlay can change what's selected.
-  final List<String> requiredPartTypes = massesOffice
-          .ofType(context.massName)
-          ?.readingParts
-          ?.map((p) => p.partType)
-          .toList() ??
-      [];
+  // Snapshot: the day's own readingParts for this massName — what a
+  // complete Mass needs and where a memorial's missing readings come from
+  // (STEP 5b), captured before any proper/common overlay replaces them.
+  final List<MassReadingPart>? dayParts =
+      massesOffice.ofType(context.massName)?.readingParts;
 
   // STEP 2: Load the celebration's own proper Mass file whenever
   // celebrating the saint — needed for its prayer texts (any precedence,
@@ -75,7 +69,7 @@ Future<Mass> massExport(CelebrationContext context) async {
 
   // STEP 3: Handle commons — same precedence boundary as STEP 4 below, so
   // a memorial's Common never leaks its readingParts in unconditionally
-  // (only STEP 5b's explicit opt-in may add readings from the Common).
+  // (only STEP 5b's MassReadingSource.all may add readings from it).
   // Exception: the Christmas Octave (see isChristmasOctave above) always
   // takes the full-overlay branch regardless of precedence.
   // Feasts and Solemnities (precedence <= 9), and the Christmas Octave,
@@ -102,7 +96,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   //  - Memorials/commemorations (precedence > 9): only the proper's prayer
   //    texts apply, layered after the Common above so the saint's own
   //    texts always win over the Common's generic ones when present.
-  //    readingParts stay governed separately — see STEP 5b.
+  //    readingParts are governed by STEP 5b.
   //  - Christmas Octave (see isChristmasOctave above): always the full
   //    overlay branch too, for the same reason as STEP 3.
   if (fullOverlay) {
@@ -116,28 +110,43 @@ Future<Mass> massExport(CelebrationContext context) async {
       massesOffice.masses?.firstOrNull ??
       Mass();
 
-  // STEP 5b: For a memorial/commemoration (precedence > 9) that asked for
-  // "the feast's own readings" (useProperReadingsForMemorial): the proper's
-  // readingParts apply wholesale where it has any (everything else —
-  // collect, antiphons, prefaces... — stays exactly as resolved above);
-  // whichever readingPart types are still missing against the day's own
-  // set (requiredPartTypes) — because the proper had none at all, or only
-  // some — are then filled in, type by type, from the selected Common.
-  // Feasts/Solemnities are untouched here: STEP 4 already forced their
-  // readingParts unconditionally.
-  if (context.isMemorial && context.useProperReadingsForMemorial) {
+  // STEP 5b: the Liturgy of the Word of a celebrated saint, measured
+  // against a complete one (referenceReadingPartTypes: the day's readings,
+  // two for a solemnity) and completed type by type (completeReadingParts):
+  //  - a Feast/Solemnity: its proper readings, those it lacks from the
+  //    Common — whatever STEP 3/4's wholesale overlays left;
+  //  - a memorial: the day's readings (STEP 1, untouched since), unless the
+  //    reader chose its own (massReadingSource): the proper's, those it
+  //    lacks from the day (proper) or from the Common (all).
+  // The Christmas Octave's proper-only days keep STEP 4's.
+  if (context.hasProper && !isChristmasOctave) {
     final Mass? properSelected = properMasses.ofType(context.massName) ??
         properMasses.masses?.firstOrNull;
-    selected.readingParts = (properSelected?.readingParts?.isNotEmpty ?? false)
-        ? properSelected!.readingParts
-        : null; // clear the day's readingParts so the Common gap-fill
-    // below has room — the day's own readings must not silently
-    // count as "already present" once the feast's own are requested.
+    final ownParts = properSelected?.readingParts;
+    final commonParts =
+        hasCommon ? commonMasses.ofType(selected.massType)?.readingParts : null;
+    List<String> typesOf(List<MassReadingPart>? parts) =>
+        parts?.map((p) => p.partType).toList() ?? const [];
+    final reference = referenceReadingPartTypes(
+        context.precedence, typesOf(dayParts), typesOf(ownParts));
 
-    final commonMass =
-        hasCommon ? commonMasses.ofType(selected.massType) : null;
-    if (commonMass != null) {
-      selected.fillMissingReadingPartsFromCommon(commonMass, requiredPartTypes);
+    if (!context.isMemorial) {
+      if ((ownParts?.isNotEmpty ?? false) ||
+          (commonParts?.isNotEmpty ?? false)) {
+        selected.readingParts =
+            completeReadingParts(ownParts, commonParts, reference);
+      }
+    } else {
+      switch (context.massReadingSource) {
+        case MassReadingSource.day:
+          break;
+        case MassReadingSource.proper:
+          selected.readingParts =
+              completeReadingParts(ownParts, dayParts, reference);
+        case MassReadingSource.all:
+          selected.readingParts =
+              completeReadingParts(ownParts, commonParts, reference);
+      }
     }
   }
 

@@ -353,7 +353,7 @@ class Mass {
   /// one (pastors_pope: its GOSPEL, pastors_paschal: its READING_1), so each
   /// of its parts replaces the one of the same partType, in place, and the
   /// others are kept. Safe because a Common has one entry per partType (see
-  /// [fillMissingReadingPartsFromCommon]).
+  /// [completeReadingParts]).
   void overlayCommonLevel(Mass overlay) {
     final overlayParts = overlay.readingParts;
     final baseParts = readingParts;
@@ -386,7 +386,7 @@ class Mass {
   /// Selective overlay of just the prayer-related texts (antiphons,
   /// orations, prefaces...) — never readingParts, which is always governed
   /// separately (the ferial/proper Liturgy of the Word, or a memorial's own
-  /// via useProperReadingsForMemorial). Two call sites reuse this: applying
+  /// via massReadingSource). Two call sites reuse this: applying
   /// a selected Common (any precedence), and applying a memorial's own
   /// proper texts on top of it (precedence > 5) — see massExport.
   void overlayPrayerFields(Mass source) {
@@ -414,32 +414,22 @@ class Mass {
     }
   }
 
-  /// Fills only the missing readingPart types (e.g. no proper PSALM of its
-  /// own) from [common], restricted to [requiredPartTypes] — never replaces
-  /// a partType this Mass already supplies. Used when a memorial opts into
-  /// "the feast's own readings": the proper's readingParts apply first
-  /// (wholesale, see massExport), then this fills whichever part types the
-  /// proper didn't cover from the selected Common.
-  ///
-  /// Safe specifically for Common-of-Saints data: unlike overlayWith's
-  /// wholesale readingParts replacement (needed because Sundays/the Easter
-  /// Vigil can have several entries sharing the same partType, where a
-  /// partType-keyed merge would silently collapse them), a common's mass:
-  /// block is always a simple one-entry-per-partType formulary, so merging
-  /// by partType key here can't lose data. Do not reuse this for anything
-  /// else without re-checking that assumption.
-  void fillMissingReadingPartsFromCommon(
-      Mass common, List<String> requiredPartTypes) {
-    final commonParts = common.readingParts;
-    if (commonParts == null || commonParts.isEmpty) return;
-    final ownParts = readingParts ??= [];
-    final ownPartTypes = ownParts.map((p) => p.partType).toSet();
-    for (final partType in requiredPartTypes) {
-      if (ownPartTypes.contains(partType)) continue;
-      final index = commonParts.indexWhere((p) => p.partType == partType);
-      if (index >= 0) ownParts.add(commonParts[index]);
-    }
-  }
+  /// The prayer texts this Mass provides, by field name — the ones
+  /// overlayPrayerFields would apply. Tells whether a Common still supplies
+  /// something a proper lacks (see massDetection).
+  Set<String> get providedPrayerFields => {
+        if (entranceAntiphon != null) 'entranceAntiphon',
+        if (collect != null) 'collect',
+        if (offeringPrayer != null) 'offeringPrayer',
+        if (prefaceList != null) 'prefaceList',
+        if (communionAntiphon != null) 'communionAntiphon',
+        if (prayerAfterCommunion != null) 'prayerAfterCommunion',
+        if (prayerOnThePeople != null) 'prayerOnThePeople',
+        if (solemnBlessingList != null) 'solemnBlessingList',
+        if (sequence != null) 'sequence',
+        if (eucharisticPrayerCommunicantes != null)
+          'eucharisticPrayerCommunicantes',
+      };
 }
 
 /// Container for all Mass types of a given liturgical day.
@@ -516,4 +506,68 @@ class Masses {
       ofType(sundayMass.massType)?.fillFromSunday(sundayMass);
     }
   }
+}
+
+/// The readingParts types of a solemnity, which always has two readings:
+/// the reference completeReadingParts fills a solemnity's Mass up to.
+const List<String> solemnityReadingPartTypes = [
+  'READING_1',
+  'PSALM',
+  'READING_2',
+  'GOSPEL',
+];
+
+/// [own]'s readingParts completed up to [referenceTypes]: each type [own]
+/// lacks is taken from [source] (its first part of that type), in
+/// [referenceTypes]' order; [own]'s parts of other types follow. An [own]
+/// already covering every reference type is returned unchanged, keeping its
+/// repeated entries (Sundays, the Easter Vigil). Used to complete a proper
+/// Liturgy of the Word from the day's readings or from the Common — a
+/// Common has one entry per partType, so taking the first loses nothing.
+List<MassReadingPart> completeReadingParts(
+  List<MassReadingPart>? own,
+  List<MassReadingPart>? source,
+  List<String> referenceTypes,
+) {
+  final ownParts = own ?? const <MassReadingPart>[];
+  final ownTypes = ownParts.map((p) => p.partType).toSet();
+  if (referenceTypes.every(ownTypes.contains)) return ownParts;
+  final sourceParts = source ?? const <MassReadingPart>[];
+  return [
+    for (final type in referenceTypes)
+      if (ownTypes.contains(type))
+        ...ownParts.where((p) => p.partType == type)
+      else if (sourceParts.any((p) => p.partType == type))
+        sourceParts.firstWhere((p) => p.partType == type),
+    ...ownParts.where((p) => !referenceTypes.contains(p.partType)),
+  ];
+}
+
+/// The readingParts types a complete Liturgy of the Word has for a
+/// celebration of [precedence], when the day's own has [dayTypes]: two
+/// readings for a solemnity (solemnityReadingPartTypes), the day's for any
+/// other celebration — or the proper's own ([properTypes]) on a day with no
+/// ferial base (the Christmas Octave's proper-only days).
+List<String> referenceReadingPartTypes(
+  int? precedence,
+  List<String> dayTypes,
+  List<String> properTypes,
+) {
+  if ((precedence ?? 13) <= 4) return solemnityReadingPartTypes;
+  return dayTypes.isNotEmpty ? dayTypes : properTypes;
+}
+
+/// The reading sources a memorial offers: its proper readings only when it
+/// has some, all its readings only when the Common completes them, and the
+/// day's whenever there is an alternative to it.
+List<MassReadingSource> memorialReadingSources({
+  required List<String> properTypes,
+  required bool commonFillsReadings,
+}) {
+  final hasProperReadings = properTypes.isNotEmpty;
+  return [
+    if (hasProperReadings || commonFillsReadings) MassReadingSource.day,
+    if (hasProperReadings) MassReadingSource.proper,
+    if (commonFillsReadings) MassReadingSource.all,
+  ];
 }

@@ -100,6 +100,9 @@ const Map<String, String> liturgyLabels = {
   "officeBenediction":
       "[rubric]Si l’office est présidé par un prêtre ou un diacre :[/rubric]\nV/ Le Seigneur soit avec vous.\nR/ Et avec votre esprit.\n\nQue Dieu tout-puissant vous bénisse,\nle Père, et le Fils, et le Saint-Esprit. Amen.\n\nV/ Bénissons le Seigneur.\nR/ Nous rendons grâce à Dieu.\n\n[rubric]Si l’office n’est pas présidé par un prêtre ou un diacre, et dans la récitation privée :[/rubric]\nQue le Seigneur nous bénisse,\nqu’il nous garde de tout mal\net nous conduise à la vie éternelle.\nAmen.\n\n[rubric]ou bien :[/rubric]\nQue le Dieu de l’espérance vous remplisse\nde toute joie et de toute paix\ndans la foi. Amen",
   "shortBlessing": "V/ Bénissons le Seigneur.\nR/ Nous rendons grâce à Dieu.",
+  "readingAcclamation": "V/ Parole du Seigneur.\nR/ Nous rendons grâce à Dieu.",
+  "gospelAcclamation":
+      "V/ Acclamons la Parole de Dieu.\nR/ Louange à toi, Seigneur Jésus.",
   "complineIntroduction":
       "[rubric]On peut commencer par une révision de la journée, ou par un acte pénitentiel dans la célébration commune.[/rubric]",
   "complineConclusion":

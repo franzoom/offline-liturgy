@@ -1,4 +1,4 @@
-// Lauds and Vespers tell whether choosing a celebration's Common — or none —
+// Lauds, Vespers and the Office of Readings tell whether choosing a celebration's Common — or none —
 // makes any difference (CelebrationContext.commonMakesDifference): it does
 // when one of its Commons supplies a text the proper lacks. The Common's
 // hymns, only offered after a proper hymn, don't count.
@@ -50,6 +50,35 @@ void main() {
         await morningDetection(calendar, DateTime(2027, 2, 5), dataLoader);
     expect(offices.values.firstWhere((c) => !c.hasProper).commonMakesDifference,
         isNull);
+  });
+
+  group('the Office of Readings', () {
+    Future<CelebrationContext> readings(DateTime date, String code) async {
+      final calendar = getCalendar(Calendar(), date, 'lyon', data);
+      final offices = await readingsDetection(calendar, date, dataLoader);
+      return offices.values.firstWhere((c) => c.celebrationCode == code);
+    }
+
+    test("Saint Agatha's Common supplies texts her proper lacks", () async {
+      final agatha =
+          await readings(DateTime(2027, 2, 5), 'roman/agatha_of_sicily_virgin');
+      expect(agatha.commonMakesDifference, isTrue);
+    });
+
+    test('the Conversion of Saint Paul has every text of its own', () async {
+      final conversion = await readings(
+          DateTime(2027, 1, 25), 'roman/conversion_of_saint_paul_the_apostle');
+      expect(conversion.commonList, isNotEmpty);
+      expect(conversion.commonMakesDifference, isFalse);
+    });
+
+    test("a memorial keeps the day's biblical reading, a feast doesn't", () {
+      final common = Readings(biblicalReading: [BiblicalReading()]);
+      expect(
+          common.suppliesTextsMissingFrom(Readings(), memorial: true), isFalse);
+      expect(
+          common.suppliesTextsMissingFrom(Readings(), memorial: false), isTrue);
+    });
   });
 
   group('suppliesTextsMissingFrom', () {

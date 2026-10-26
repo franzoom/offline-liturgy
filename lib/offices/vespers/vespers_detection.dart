@@ -3,7 +3,10 @@ import '../../classes/calendar_class.dart';
 import '../../classes/office_elements_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/date_tools.dart';
+import '../../tools/hierarchical_common_loader.dart';
+import '../compose_office.dart';
 import '../office_detection.dart';
+import './vespers_extract.dart';
 import '../../assets/libraries/french_liturgy_labels.dart';
 
 /// Precedence threshold for First Vespers eligibility
@@ -255,5 +258,11 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final sortedEntries = possibleVespers.entries.toList()
     ..sort((a, b) => compareVespers(a.value, b.value));
 
-  return Map.fromEntries(sortedEntries);
+  // Whether choosing each office's Common makes any difference
+  return withCommonDifference(
+    Map.fromEntries(sortedEntries),
+    proper: (c, path) =>
+        vespersExtract(path, c.dataLoader, section: c.vespersSection),
+    common: loadVespersHierarchicalCommon,
+  );
 }

@@ -72,6 +72,29 @@ class HourPrayer {
     if (common.oration != null) oration = common.oration;
   }
 
+  /// Whether this Common, laid under [proper] (see composeOffice), still
+  /// supplies one of its texts: a hymn when the proper has none (the
+  /// Common's ones, offered after a proper hymn, don't count), the
+  /// psalmody of a feast (not of a [memorial], which keeps the day's), the
+  /// short reading, responsory, evangelic antiphon, intercessions or
+  /// oration.
+  bool suppliesTextsMissingFrom(HourPrayer proper, {required bool memorial}) {
+    bool has(Object? text) => switch (text) {
+          null => false,
+          Iterable<Object?> list => list.isNotEmpty,
+          Map<Object?, Object?> map => map.isNotEmpty,
+          _ => true,
+        };
+    bool supplies(Object? common, Object? own) => has(common) && !has(own);
+    return supplies(hymn, proper.hymn) ||
+        (!memorial && supplies(psalmody, proper.psalmody)) ||
+        supplies(reading, proper.reading) ||
+        supplies(responsory, proper.responsory) ||
+        supplies(evangelicAntiphon, proper.evangelicAntiphon) ||
+        supplies(intercession, proper.intercession) ||
+        supplies(oration, proper.oration);
+  }
+
   /// A memorial with no evangelic antiphon of its own says, at choice, the
   /// weekday's or the Common's (PGLH 119): both are offered, the weekday's
   /// first, each introduced by its origin. A memorial's own antiphon, laid

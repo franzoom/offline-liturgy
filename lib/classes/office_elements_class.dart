@@ -363,6 +363,10 @@ class CelebrationContext {
   // ...and a reading the proper lacks — always used for a feast or a
   // solemnity, only with MassReadingSource.all for a memorial.
   final bool commonUsedForReadings;
+  // Lauds and Vespers only, set by their detection: whether one of the
+  // celebration's Commons supplies a text its proper lacks — so whether
+  // choosing a Common (or none) makes any difference. Null elsewhere.
+  final bool? commonMakesDifference;
   // Mass only: where a memorial's readings come from, among
   // massReadingSources — see massExport. Feasts and solemnities always
   // take their own readings, completed from the Common.
@@ -403,6 +407,7 @@ class CelebrationContext {
     this.commonUsedForPrayers = false,
     this.commonUsedForReadings = false,
     this.massReadingSource = MassReadingSource.day,
+    this.commonMakesDifference,
     this.twoYearReadingCycle = false,
     this.bibleTextProvider,
   });
@@ -490,6 +495,7 @@ class CelebrationContext {
     bool? commonUsedForPrayers,
     bool? commonUsedForReadings,
     MassReadingSource? massReadingSource,
+    bool? commonMakesDifference,
     bool? twoYearReadingCycle,
     BibleTextProvider? bibleTextProvider,
   }) {
@@ -525,6 +531,8 @@ class CelebrationContext {
       commonUsedForReadings:
           commonUsedForReadings ?? this.commonUsedForReadings,
       massReadingSource: massReadingSource ?? this.massReadingSource,
+      commonMakesDifference:
+          commonMakesDifference ?? this.commonMakesDifference,
       twoYearReadingCycle: twoYearReadingCycle ?? this.twoYearReadingCycle,
       bibleTextProvider: bibleTextProvider ?? this.bibleTextProvider,
     );

@@ -133,11 +133,17 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     };
   }
 
-  // 2. Precedence Filter (Today): If any celebration is <= 4, remove all those > 4
+  // 2. Precedence Filter (Today): If any celebration is <= 4, remove all those > 4,
+  // except a Sunday still celebrable beside the solemnity (e.g. the 30th
+  // Sunday in a church whose dedication date is known)
   final bool todayHasSolemnity =
       rawTodayCelebrations.any((c) => (c.precedence ?? 13) <= 4);
   final todayCelebrations = todayHasSolemnity
-      ? rawTodayCelebrations.where((c) => (c.precedence ?? 13) <= 4).toList()
+      ? rawTodayCelebrations
+          .where((c) =>
+              (c.precedence ?? 13) <= 4 ||
+              (c.isCelebrable && ferialDayCheck(c.celebrationCode)))
+          .toList()
       : rawTodayCelebrations;
 
   // 3. Process today's celebrations
@@ -197,8 +203,12 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   }
 
   // 5. Final cleaning: If tomorrow is a solemnity and today is not (and not a sunday),
-  // the eve supersedes today's ferial Compline.
-  if (tomorrowHasSolemnity && !todayHasSolemnity) {
+  // the eve supersedes today's ferial Compline — unless tomorrow's Sunday stays
+  // celebrable beside the solemnity: today's Saturday Compline is then its eve's.
+  final bool tomorrowSundayCelebrable = isTomorrowSunday &&
+      tomorrowCelebrations
+          .any((c) => c.isCelebrable && ferialDayCheck(c.celebrationCode));
+  if (tomorrowHasSolemnity && !todayHasSolemnity && !tomorrowSundayCelebrable) {
     possibleComplines.removeWhere((key, value) => !value.isEveCompline);
   }
 

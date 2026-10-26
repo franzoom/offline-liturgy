@@ -32,6 +32,12 @@ class Morning extends HourPrayer {
   }
 
   @override
+  bool suppliesTextsMissingFrom(covariant Morning proper,
+          {required bool memorial}) =>
+      (invitatory != null && proper.invitatory == null) ||
+      super.suppliesTextsMissingFrom(proper, memorial: memorial);
+
+  @override
   void overlayWithCommon(Morning common) {
     if (common.invitatory != null) invitatory = common.invitatory;
     super.overlayWithCommon(common);

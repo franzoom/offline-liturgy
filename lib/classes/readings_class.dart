@@ -97,6 +97,27 @@ class Readings {
     if (overlay.oration != null) oration = overlay.oration;
   }
 
+  /// Whether this Common, laid under [proper] (see composeOffice), still
+  /// supplies one of its texts: a hymn when the proper has none (the
+  /// Common's ones, offered after a proper hymn, don't count), the verse,
+  /// the patristic reading or the oration — and for a feast (not a
+  /// [memorial], which keeps the day's) the psalmody and biblical reading.
+  bool suppliesTextsMissingFrom(Readings proper, {required bool memorial}) {
+    bool has(Object? text) => switch (text) {
+          null => false,
+          Iterable<Object?> list => list.isNotEmpty,
+          _ => true,
+        };
+    bool supplies(Object? common, Object? own) => has(common) && !has(own);
+    return supplies(hymn, proper.hymn) ||
+        (!memorial &&
+            (supplies(psalmody, proper.psalmody) ||
+                supplies(biblicalReading, proper.biblicalReading))) ||
+        supplies(verse, proper.verse) ||
+        supplies(patristicReading, proper.patristicReading) ||
+        supplies(oration, proper.oration);
+  }
+
   /// Selective overlay for common (Precedence > 6)
   /// Includes Hymn and Verse to allow "coloring" the office for Memories.
   /// Biblical reading is NOT taken from the common: for a memoria, the ferial

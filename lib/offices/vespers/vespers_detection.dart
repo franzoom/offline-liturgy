@@ -264,5 +264,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     proper: (c, path) =>
         vespersExtract(path, c.dataLoader, section: c.vespersSection),
     common: loadVespersHierarchicalCommon,
+    supplies: (common, proper, {required memorial}) =>
+        common.suppliesTextsMissingFrom(proper, memorial: memorial),
   );
 }

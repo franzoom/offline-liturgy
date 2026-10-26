@@ -128,15 +128,16 @@ Future<T> composeLayers<T>(
   return layers.first;
 }
 
-/// [hours] (Lauds' or Vespers' detected offices) with commonMakesDifference
+/// [offices] (an office's detected celebrations) with commonMakesDifference
 /// set for each celebrated saint with Commons: whether one of its Commons
-/// supplies a text its [proper] layer lacks (see
-/// HourPrayer.suppliesTextsMissingFrom), each Common loaded by [common].
-Future<Map<String, CelebrationContext>>
-    withCommonDifference<T extends HourPrayer>(
-  Map<String, CelebrationContext> hours, {
+/// [supplies] a text its [proper] layer lacks, as a memorial's or a feast's
+/// Common (e.g. HourPrayer.suppliesTextsMissingFrom), each Common loaded by
+/// [common].
+Future<Map<String, CelebrationContext>> withCommonDifference<T>(
+  Map<String, CelebrationContext> offices, {
   required Future<T> Function(CelebrationContext c, String path) proper,
   required Future<T> Function(CelebrationContext c) common,
+  required bool Function(T common, T proper, {required bool memorial}) supplies,
 }) async {
   Future<CelebrationContext> withDifference(CelebrationContext c) async {
     final commons = c.commonList ?? const [];
@@ -146,11 +147,11 @@ Future<Map<String, CelebrationContext>>
     final commonLayers = await Future.wait(
         commons.map((code) => common(c.copyWith(commonList: [code]))));
     return c.copyWith(
-      commonMakesDifference: commonLayers.any((layer) =>
-          layer.suppliesTextsMissingFrom(properLayer, memorial: c.isMemorial)),
+      commonMakesDifference: commonLayers
+          .any((layer) => supplies(layer, properLayer, memorial: c.isMemorial)),
     );
   }
 
-  final contexts = await Future.wait(hours.values.map(withDifference));
-  return Map.fromIterables(hours.keys, contexts);
+  final contexts = await Future.wait(offices.values.map(withDifference));
+  return Map.fromIterables(offices.keys, contexts);
 }

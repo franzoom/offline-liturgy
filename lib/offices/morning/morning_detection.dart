@@ -17,4 +17,6 @@ Future<Map<String, CelebrationContext>> morningDetection(
       await buildDetectionMap(calendar, date, dataLoader, 'morning'),
       proper: (c, path) => morningExtract(path, c.dataLoader),
       common: loadMorningHierarchicalCommon,
+      supplies: (common, proper, {required memorial}) =>
+          common.suppliesTextsMissingFrom(proper, memorial: memorial),
     );

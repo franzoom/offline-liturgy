@@ -363,7 +363,8 @@ class CelebrationContext {
   // ...and a reading the proper lacks — always used for a feast or a
   // solemnity, only with MassReadingSource.all for a memorial.
   final bool commonUsedForReadings;
-  // Lauds and Vespers only, set by their detection: whether one of the
+  // Lauds, Vespers and the Office of Readings only, set by their
+  // detection: whether one of the
   // celebration's Commons supplies a text its proper lacks — so whether
   // choosing a Common (or none) makes any difference. Null elsewhere.
   final bool? commonMakesDifference;

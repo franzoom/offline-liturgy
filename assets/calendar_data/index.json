@@ -412,9 +412,6 @@
   },
   "christmas_27": {
     "color": "white",
-    "commons": [
-      "christmas"
-    ],
     "dir": "ferial_days",
     "title": "Saint Jean, apôtre et évangéliste"
   },
@@ -425,9 +422,6 @@
   },
   "christmas_29": {
     "color": "white",
-    "commons": [
-      "christmas"
-    ],
     "dir": "ferial_days",
     "title": "5^e jour dans l’octave de la Nativité"
   },
@@ -437,17 +431,11 @@
   },
   "christmas_30": {
     "color": "white",
-    "commons": [
-      "christmas"
-    ],
     "dir": "ferial_days",
     "title": "6^e jour dans l’octave de la Nativité"
   },
   "christmas_31": {
     "color": "white",
-    "commons": [
-      "christmas"
-    ],
     "dir": "ferial_days",
     "title": "7^e jour dans l’octave de la Nativité"
   },
@@ -2339,7 +2327,7 @@
   "roman/carlo_acutis": {
     "color": "white",
     "commons": [
-      "saints_male"
+      "saints-male"
     ],
     "dir": "sanctoral",
     "title": "Saint Carlo Acutis"
@@ -3551,7 +3539,7 @@
   "roman/pier_giorgio_frassati": {
     "color": "white",
     "commons": [
-      "saints_male_educator"
+      "saints-male_educator"
     ],
     "dir": "sanctoral",
     "title": "Saint Pier Giorgio Frassati"

@@ -304,9 +304,8 @@ class Mass {
           ?.whereType<Map<String, dynamic>>()
           .map((e) => MassReadingPart.fromJson(e))
           .toList(),
-      offeringPrayer: asYamlList(json['offeringPrayer'])
-          ?.map((e) => e.toString())
-          .toList(),
+      offeringPrayer:
+          asYamlList(json['offeringPrayer'])?.map((e) => e.toString()).toList(),
       prefaceList: asYamlList(json['prefaceList'])
           ?.map((e) => PrefaceEntry.fromJson(e))
           .toList(),
@@ -338,6 +337,7 @@ class Mass {
   /// same partType (e.g. two READING entries), and every mass: block in the
   /// data is already a complete, self-contained Liturgy of the Word, so a
   /// partType-keyed merge would silently collapse those repeated entries.
+  /// The levels of a Common are not complete: see [overlayCommonLevel].
   void overlayWith(Mass overlay) {
     if (overlay.massType != null) massType = overlay.massType;
     if (overlay.name != null) name = overlay.name;
@@ -346,6 +346,28 @@ class Mass {
       readingParts = overlay.readingParts;
     }
     overlayPrayerFields(overlay);
+  }
+
+  /// Like [overlayWith], but readingParts are merged by partType: a Common's
+  /// more specific level only gives the parts that differ from the general
+  /// one (pastors_pope: its GOSPEL, pastors_paschal: its READING_1), so each
+  /// of its parts replaces the one of the same partType, in place, and the
+  /// others are kept. Safe because a Common has one entry per partType (see
+  /// [fillMissingReadingPartsFromCommon]).
+  void overlayCommonLevel(Mass overlay) {
+    final overlayParts = overlay.readingParts;
+    final baseParts = readingParts;
+    overlayWith(overlay);
+    if (overlayParts == null || overlayParts.isEmpty || baseParts == null) {
+      return;
+    }
+    final overlayByType = {for (final p in overlayParts) p.partType: p};
+    final baseTypes = baseParts.map((p) => p.partType).toSet();
+    readingParts = [
+      for (final p in baseParts) overlayByType[p.partType] ?? p,
+      for (final p in overlayParts)
+        if (!baseTypes.contains(p.partType)) p,
+    ];
   }
 
   /// Fills the 5 Sunday-inherited fields (entrance/communion antiphons and
@@ -449,6 +471,21 @@ class Masses {
       final mass = ofType(overlayMass.massType);
       if (mass != null) {
         mass.overlayWith(overlayMass);
+      } else {
+        masses!.add(overlayMass);
+      }
+    }
+  }
+
+  /// [overlayWith] for a Common's levels: matching massTypes are overlaid via
+  /// Mass.overlayCommonLevel, which merges readingParts by partType.
+  void overlayCommonLevel(Masses overlay) {
+    if (overlay.masses == null || overlay.masses!.isEmpty) return;
+    masses ??= [];
+    for (final overlayMass in overlay.masses!) {
+      final mass = ofType(overlayMass.massType);
+      if (mass != null) {
+        mass.overlayCommonLevel(overlayMass);
       } else {
         masses!.add(overlayMass);
       }

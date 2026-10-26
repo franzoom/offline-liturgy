@@ -117,6 +117,6 @@ Future<Masses> loadMassHierarchicalCommon(CelebrationContext context) {
     context: context,
     createEmpty: () => Masses(),
     extractor: massExtract,
-    overlayFn: (base, overlay) => base.overlayWith(overlay),
+    overlayFn: (base, overlay) => base.overlayCommonLevel(overlay),
   );
 }

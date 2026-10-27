@@ -30,7 +30,7 @@ Future<({T office, T proper})> composeOffice<T>(
   final (base, properLayer, commonLayer) = await (
     context.hasFerialBase ? ferial() : Future.value(empty()),
     context.hasProper
-        ? celebrationFilePath(context.celebrationCode, context.dataLoader)
+        ? celebrationFilePath(context.properCode, context.dataLoader)
             .then(proper)
         : Future.value(empty()),
     context.hasSelectedCommon ? common() : Future<T?>.value(null),
@@ -142,8 +142,8 @@ Future<Map<String, CelebrationContext>> withCommonDifference<T>(
   Future<CelebrationContext> withDifference(CelebrationContext c) async {
     final commons = c.commonList ?? const [];
     if (!c.hasProper || commons.isEmpty) return c;
-    final properLayer = await proper(
-        c, await celebrationFilePath(c.celebrationCode, c.dataLoader));
+    final properLayer =
+        await proper(c, await celebrationFilePath(c.properCode, c.dataLoader));
     final commonLayers = await Future.wait(
         commons.map((code) => common(c.copyWith(commonList: [code]))));
     return c.copyWith(

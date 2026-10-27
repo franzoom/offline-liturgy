@@ -368,16 +368,71 @@ Future<List<CelebrationContext>> detectOfficeCelebrations(
   return adjusted;
 }
 
+/// The rank a celebration takes on [date] instead of its own — a memorial or
+/// a feast celebrated as a local solemnity — or null to keep its own.
+typedef PrecedenceOverride = int? Function(
+    DateTime date, String celebrationCode);
+
+/// [celebrations] of [date] with [precedenceOverride] applied, ranked as the
+/// calendar would rank them: a raised celebration outranks those below its
+/// new rank, but a Sunday stays celebrable beside it (as in
+/// [detectCelebrations]).
+List<CelebrationContext> applyPrecedenceOverride(
+  List<CelebrationContext> celebrations,
+  DateTime date,
+  PrecedenceOverride? precedenceOverride,
+) {
+  if (precedenceOverride == null) return celebrations;
+  final raised = <String, int>{
+    for (final c in celebrations)
+      if (precedenceOverride(date, c.celebrationCode) case final precedence?)
+        c.celebrationCode: precedence,
+  };
+  if (raised.isEmpty) return celebrations;
+
+  int precedenceOf(CelebrationContext c) =>
+      raised[c.celebrationCode] ?? c.precedence ?? 13;
+  final best = celebrations.map(precedenceOf).reduce(min);
+  bool isSundayFerial(CelebrationContext c) =>
+      date.weekday == DateTime.sunday &&
+      ferialDayCheck(c.celebrationCode) &&
+      !(c.liturgicalTime == 'ot' && best <= 3);
+
+  final adjusted = [
+    for (final c in celebrations)
+      if (raised[c.celebrationCode] case final precedence?)
+        c.copyWith(precedence: precedence, isCelebrable: precedence <= best)
+      else if (precedenceOf(c) > best && !isSundayFerial(c))
+        c.copyWith(isCelebrable: false)
+      else
+        c,
+  ];
+  adjusted.sort((a, b) =>
+      effectivePrecedence(precedenceOf(a), a.celebrationCode)
+          .compareTo(effectivePrecedence(precedenceOf(b), b.celebrationCode)));
+  return adjusted;
+}
+
 /// Today's and tomorrow's office celebrations, detected in parallel — for
-/// the evening offices (Vespers, Compline), which may anticipate tomorrow.
+/// the evening offices (Vespers, Compline), which may anticipate tomorrow —
+/// with [precedenceOverride] applied.
 Future<({List<CelebrationContext> today, List<CelebrationContext> tomorrow})>
     detectTodayAndTomorrow(
-        Calendar calendar, DateTime date, DataLoader dataLoader) async {
+  Calendar calendar,
+  DateTime date,
+  DataLoader dataLoader, {
+  PrecedenceOverride? precedenceOverride,
+}) async {
+  final tomorrowDate = date.shift(1);
   final [today, tomorrow] = await Future.wait([
     detectOfficeCelebrations(calendar, date, dataLoader),
-    detectOfficeCelebrations(calendar, date.shift(1), dataLoader),
+    detectOfficeCelebrations(calendar, tomorrowDate, dataLoader),
   ]);
-  return (today: today, tomorrow: tomorrow);
+  return (
+    today: applyPrecedenceOverride(today, date, precedenceOverride),
+    tomorrow:
+        applyPrecedenceOverride(tomorrow, tomorrowDate, precedenceOverride),
+  );
 }
 
 /// The Triduum day among [celebrations] (it has its own evening offices,

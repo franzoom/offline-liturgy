@@ -35,11 +35,15 @@ String _detectDayOfWeek(DateTime date, String celebrationType) {
 }
 
 /// Returns a map of possible Compline Offices, filtered and sorted by precedence
+///
+/// [precedenceOverride] gives a celebration of today or tomorrow another
+/// rank: a local solemnity has its own Compline, or that of its eve.
 Future<Map<String, ComplineDefinition>> complineDetection(
   Calendar calendar,
   DateTime date,
-  DataLoader dataLoader,
-) async {
+  DataLoader dataLoader, {
+  PrecedenceOverride? precedenceOverride,
+}) async {
   final Map<String, ComplineDefinition> possibleComplines = {};
 
   final dayContent = calendar.getDayContent(date);
@@ -86,7 +90,8 @@ Future<Map<String, ComplineDefinition>> complineDetection(
   // 1. Detect celebrations (today and tomorrow in parallel)
   final tomorrow = date.shift(1);
   final (today: rawTodayCelebrations, tomorrow: tomorrowCelebrations) =
-      await detectTodayAndTomorrow(calendar, date, dataLoader);
+      await detectTodayAndTomorrow(calendar, date, dataLoader,
+          precedenceOverride: precedenceOverride);
 
   // A Compline option prayed this evening for celebration [c]
   ComplineDefinition complineOf(

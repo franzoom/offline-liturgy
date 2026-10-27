@@ -8,18 +8,12 @@ import '../tools/hierarchical_common_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/yaml_map_loader.dart';
 
-/// The Commons a votive office may be celebrated with, the first by
-/// default: the Dedication's, inside the consecrated church; the Office of
-/// the Dead's, also for close ones or benefactors, or for several departed.
-/// The hierarchical loader adds the season's variants (e.g.
-/// trespassed_paschal).
+/// The Common a votive office is celebrated with: the Dedication's, inside
+/// the consecrated church; the Office of the Dead's. The hierarchical
+/// loader adds the season's variants (e.g. trespassed_paschal).
 const votiveCommons = {
   VotiveOffice.dedication: ['dedicace_inside'],
-  VotiveOffice.departed: [
-    'trespassed',
-    'trespassed_close',
-    'trespassed_multiple',
-  ],
+  VotiveOffice.departed: ['trespassed'],
 };
 
 const _votiveTitles = {
@@ -28,8 +22,8 @@ const _votiveTitles = {
 };
 
 /// [office] celebrated on [date] in place of the day's celebrations: the
-/// ferial day (its season, psalter week and year) under one of its Commons
-/// (votiveCommons, all listed in commonList), with no file of its own —
+/// ferial day (its season, psalter week and year) under its Common
+/// (votiveCommons, its commonList), with no file of its own —
 /// ranked a solemnity for the Dedication, as All Souls for the Office of
 /// the Dead. Null when the calendar has no such day.
 Future<CelebrationContext?> votiveOfficeContext(

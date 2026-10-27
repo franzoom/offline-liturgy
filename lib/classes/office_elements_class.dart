@@ -315,6 +315,16 @@ enum MassReadingSource {
   all,
 }
 
+/// An office celebrated in place of the day's celebrations, from a Common
+/// alone over the ferial day (see votive_offices.dart).
+enum VotiveOffice {
+  /// The Dedication of a church, inside the consecrated church
+  dedication,
+
+  /// The Office of the Dead
+  departed,
+}
+
 /// Feasts of the Lord with a weekday file and a Sunday file: the Sunday's
 /// has their First Vespers and the two readings of a solemnity's Mass.
 const _sundayProperCodes = {
@@ -393,6 +403,9 @@ class CelebrationContext {
   // `content` in the YAML). Injected by the consumer, like dataLoader;
   // without it those readings keep a null content.
   final BibleTextProvider? bibleTextProvider;
+  // Set for an office of the Dedication or of the Dead replacing the day's
+  // celebrations: it has no file of its own, only its Common.
+  final VotiveOffice? votiveOffice;
 
   const CelebrationContext({
     this.celebrationType,
@@ -424,6 +437,7 @@ class CelebrationContext {
     this.commonMakesDifference,
     this.twoYearReadingCycle = false,
     this.bibleTextProvider,
+    this.votiveOffice,
   });
 
   /// Returns the first common from commonList.
@@ -433,8 +447,13 @@ class CelebrationContext {
   /// Whether the office is built on the day's ferial texts.
   bool get hasFerialBase => ferialCode?.isNotEmpty ?? false;
 
-  /// Whether the celebration has its own file over the ferial day.
-  bool get hasProper => celebrationCode != ferialCode;
+  /// Whether a celebration replaces the ferial day (a votive office
+  /// included).
+  bool get hasProper => votiveOffice != null || celebrationCode != ferialCode;
+
+  /// Whether the celebration has its own file over the ferial day — a
+  /// votive office has only its Common.
+  bool get hasProperFile => hasProper && votiveOffice == null;
 
   /// The code of the file holding the celebration's proper: its own, but a
   /// weekday feast of the Lord made a local solemnity takes its Sunday file
@@ -477,7 +496,8 @@ class CelebrationContext {
   /// origin when the feast comes from a location-specific calendar.
   /// e.g. "(Europe : solennité)" or "(Solennité)" or "".
   String get celebrationDisplayLabel {
-    if (celebrationCode == 'roman/commemoration_of_all_the_faithful_departed') {
+    if (celebrationCode == 'roman/commemoration_of_all_the_faithful_departed' ||
+        votiveOffice == VotiveOffice.departed) {
       return '';
     }
     final baseLabel = getCelebrationTypeLabel(precedence ?? 13);
@@ -519,6 +539,7 @@ class CelebrationContext {
     bool? commonMakesDifference,
     bool? twoYearReadingCycle,
     BibleTextProvider? bibleTextProvider,
+    VotiveOffice? votiveOffice,
   }) {
     return CelebrationContext(
       celebrationType: celebrationType ?? this.celebrationType,
@@ -556,6 +577,7 @@ class CelebrationContext {
           commonMakesDifference ?? this.commonMakesDifference,
       twoYearReadingCycle: twoYearReadingCycle ?? this.twoYearReadingCycle,
       bibleTextProvider: bibleTextProvider ?? this.bibleTextProvider,
+      votiveOffice: votiveOffice ?? this.votiveOffice,
     );
   }
 }

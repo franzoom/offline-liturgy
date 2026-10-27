@@ -20,6 +20,113 @@ const int _defaultPrecedence = 13;
 /// Sundays, Holy Week, Easter Octave...) — see isSolemnityLevel below.
 const int _solemnityLevelPrecedence = 4;
 
+int _precedenceOf(CelebrationContext c) => c.precedence ?? _defaultPrecedence;
+
+/// [today]'s celebrations with Vespers of their own: the Marian memory is
+/// only celebrated at Morning and Readings, not Vespers.
+List<CelebrationContext> _vespersEligible(List<CelebrationContext> today) =>
+    today
+        .where((c) => c.celebrationCode != 'roman/virgin_mary_memory')
+        .toList();
+
+/// The highest rank (lowest value) among [celebrations].
+int _highestPrecedence(List<CelebrationContext> celebrations) =>
+    celebrations.isEmpty
+        ? _defaultPrecedence
+        : celebrations.map(_precedenceOf).reduce(min);
+
+// First Vespers of these feasts are only celebrated when they fall on a
+// Sunday (Holy Family: on its usual Sunday, First Vespers is its own; when
+// Christmas is itself a Sunday and Holy Family is fixed to Dec 30 instead,
+// there is no First Vespers of Holy Family — the ferial Vespers of that
+// Christmas Octave day is celebrated normally).
+// 'roman/exaltation_of_the_holy_cross_week' only ever appears on a weekday
+// (the calendar picks 'roman/exaltation_of_the_holy_cross_sunday' when the
+// feast itself falls on a Sunday), so listing it here means it never gets
+// First Vespers — the Sunday variant is left out on purpose: by
+// construction it only appears when tomorrow.isSunday is already true, so
+// the default (First Vespers allowed) is correct for it.
+const _sundayOnlyFirstVespersCodes = {
+  'roman/transfiguration_of_the_lord_week',
+  'roman/exaltation_of_the_holy_cross_week',
+  'roman/holy_family_week',
+  'roman/presentation_of_the_lord_week',
+  'roman/baptism_of_the_lord_week',
+  // A single code whatever the weekday: First Vespers only on a Sunday.
+  'roman/dedication_of_the_lateran_basilica',
+};
+
+// The Commemoration of All the Faithful Departed (Table item 3, alongside
+// solemnities) never has a First Vespers of its own — the Office of the
+// Dead used that day has no Vespers I, unlike a true solemnity.
+const _neverFirstVespersCodes = {
+  'roman/commemoration_of_all_the_faithful_departed',
+};
+
+/// Tomorrow's celebrations whose First Vespers may be prayed this evening,
+/// [date], among [tomorrow]'s — whether they outrank [today]'s Second
+/// Vespers is decided by [vespersDetection].
+List<CelebrationContext> _firstVespersCandidates(
+  DateTime date,
+  List<CelebrationContext> today,
+  List<CelebrationContext> tomorrow,
+) {
+  // All Sundays have First Vespers, plus high-precedence celebrations
+  // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
+  // When today is Sunday, tomorrow's solemnities (prec. <= 3) always qualify —
+  // but this must still exclude ferial days, or Palm Sunday (a Sunday) hands
+  // Monday/Tuesday/Wednesday of Holy Week (precedence 2, ferial-coded
+  // lent_6_1/2/3) a bogus First Vespers, when Palm Sunday's own Second
+  // Vespers is what actually covers that evening.
+  //
+  // A Feast (prec. 5, not a solemnity) must NOT be granted First
+  // Vespers when today is already a Sunday — only a solemnity may override
+  // a Sunday's own Second Vespers. Confirmed against AELF: the
+  // Presentation of the Lord (prec. 5) on a Monday does not get its First
+  // Vespers on the preceding Sunday evening; that Sunday keeps its own
+  // Second Vespers.
+  //
+  // A proper solemnity (prec. 4: the patron or the titular of the place,
+  // or a local solemnity) only on a Sunday it outranks: an Ordinary Time or
+  // Christmas Sunday (prec. 6), not a privileged Sunday of Advent, Lent or
+  // Easter (prec. 2).
+  //
+  // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
+  // no First Vespers of the next day are celebrated — all octave days are equal.
+  if (today.any((c) => c.liturgicalTime == 'paschaloctave')) return [];
+  final tomorrowDate = date.shift(1);
+  final highestTodayPrecedence = _highestPrecedence(_vespersEligible(today));
+
+  bool isFirstVespersAllowed(CelebrationContext c) {
+    if (_neverFirstVespersCodes.contains(c.celebrationCode)) return false;
+    // A feast, not once made a local solemnity
+    if (_sundayOnlyFirstVespersCodes.contains(c.celebrationCode)) {
+      return tomorrowDate.isSunday ||
+          _precedenceOf(c) <= _solemnityLevelPrecedence;
+    }
+    return true;
+  }
+
+  bool outranksSunday(CelebrationContext c) {
+    final precedence = _precedenceOf(c);
+    return precedence <= 3 ||
+        (precedence <= _solemnityLevelPrecedence &&
+            precedence < highestTodayPrecedence);
+  }
+
+  return tomorrow
+      .where((c) =>
+          isFirstVespersAllowed(c) &&
+          ((tomorrowDate.isSunday && _precedenceOf(c) <= 6) ||
+              (!ferialDayCheck(c.celebrationCode) &&
+                  !date.isSunday &&
+                  _precedenceOf(c) <= _firstVespersPrecedenceThreshold) ||
+              (date.isSunday &&
+                  !ferialDayCheck(c.celebrationCode) &&
+                  outranksSunday(c))))
+      .toList();
+}
+
 /// Returns a map of possible Vespers Offices, sorted by precedence (lowest value first)
 /// Key: celebration title from YAML (or resolved ferial name)
 /// Value: CelebrationContext with all celebration data
@@ -31,16 +138,21 @@ const int _solemnityLevelPrecedence = 4;
 /// - Detects celebrations for tomorrow
 /// - If tomorrow has a high-precedence celebration (Solemnity, Feast of the Lord),
 ///   its First Vespers are added as options for today evening
+///
+/// [precedenceOverride] gives a celebration of today or tomorrow another
+/// rank (a local solemnity), before any of the above.
 Future<Map<String, CelebrationContext>> vespersDetection(
   Calendar calendar,
   DateTime date,
-  DataLoader dataLoader,
-) async {
+  DataLoader dataLoader, {
+  PrecedenceOverride? precedenceOverride,
+}) async {
   // 1. Detect celebrations for today (II Vespers) and tomorrow (potential
   // I Vespers), in parallel
   final tomorrow = date.shift(1);
   final (today: todayCelebrations, tomorrow: tomorrowCelebrations) =
-      await detectTodayAndTomorrow(calendar, date, dataLoader);
+      await detectTodayAndTomorrow(calendar, date, dataLoader,
+          precedenceOverride: precedenceOverride);
 
   // --- Special case: Holy Week Triduum only has its own Vespers, no other option ---
   final holyWeekCelebration = triduumCelebration(todayCelebrations);
@@ -55,47 +167,9 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     };
   }
 
-  // 3. Filter tomorrow's celebrations that qualify for First Vespers
-  // All Sundays have First Vespers, plus high-precedence celebrations
-  // Ferial days (even high-precedence ones like Ash Wednesday) never have First Vespers
-  // When today is Sunday, tomorrow's solemnities (prec. <= 3) always qualify —
-  // but this must still exclude ferial days, or Palm Sunday (a Sunday) hands
-  // Monday/Tuesday/Wednesday of Holy Week (precedence 2, ferial-coded
-  // lent_6_1/2/3) a bogus First Vespers, when Palm Sunday's own Second
-  // Vespers is what actually covers that evening.
-  //
-  // A Feast (prec. 4-5, not a true solemnity) must NOT be granted First
-  // Vespers when today is already a Sunday — only a solemnity (prec. <= 3)
-  // may override a Sunday's own Second Vespers. Confirmed against AELF: the
-  // Presentation of the Lord (prec. 5) on a Monday does not get its First
-  // Vespers on the preceding Sunday evening; that Sunday keeps its own
-  // Second Vespers.
-  //
-  // Exception: during the Easter Octave (Easter Sunday through Easter Saturday),
-  // no First Vespers of the next day are celebrated — all octave days are equal.
-  final bool isEasterOctave =
-      todayCelebrations.any((c) => c.liturgicalTime == 'paschaloctave');
-
-  // First Vespers of these feasts are only celebrated when they fall on a
-  // Sunday (Holy Family: on its usual Sunday, First Vespers is its own; when
-  // Christmas is itself a Sunday and Holy Family is fixed to Dec 30 instead,
-  // there is no First Vespers of Holy Family — the ferial Vespers of that
-  // Christmas Octave day is celebrated normally).
-  // 'roman/exaltation_of_the_holy_cross_week' only ever appears on a weekday
-  // (the calendar picks 'roman/exaltation_of_the_holy_cross_sunday' when the
-  // feast itself falls on a Sunday), so listing it here means it never gets
-  // First Vespers — the Sunday variant is left out on purpose: by
-  // construction it only appears when tomorrow.isSunday is already true, so
-  // the default (First Vespers allowed) is correct for it.
-  const sundayOnlyFirstVespersCodes = {
-    'roman/transfiguration_of_the_lord_week',
-    'roman/exaltation_of_the_holy_cross_week',
-    'roman/holy_family_week',
-    'roman/presentation_of_the_lord_week',
-    'roman/baptism_of_the_lord_week',
-    // A single code whatever the weekday: First Vespers only on a Sunday.
-    'roman/dedication_of_the_lateran_basilica',
-  };
+  // 3. Tomorrow's celebrations whose First Vespers may be prayed this evening
+  final firstVespersCandidates =
+      _firstVespersCandidates(date, todayCelebrations, tomorrowCelebrations);
 
   // A Solemnity of the Lord's First Vespers always wins over a Sunday's
   // Second Vespers, even when both share the same raw precedence (2) — e.g.
@@ -107,55 +181,17 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // set only needs the one entry for now.
   const sundayTieBreakingFirstVespersCodes = {'roman/nativity'};
 
-  // The Commemoration of All the Faithful Departed (Table item 3, alongside
-  // solemnities) never has a First Vespers of its own — the Office of the
-  // Dead used that day has no Vespers I, unlike a true solemnity.
-  const neverFirstVespersCodes = {
-    'roman/commemoration_of_all_the_faithful_departed',
-  };
-  bool isFirstVespersAllowed(CelebrationContext c) {
-    if (neverFirstVespersCodes.contains(c.celebrationCode)) return false;
-    if (sundayOnlyFirstVespersCodes.contains(c.celebrationCode)) {
-      return tomorrow.isSunday;
-    }
-    return true;
-  }
-
-  int precedenceOf(CelebrationContext c) => c.precedence ?? _defaultPrecedence;
-
-  final firstVespersCandidates = isEasterOctave
-      ? <CelebrationContext>[]
-      : tomorrowCelebrations
-          .where((c) =>
-              isFirstVespersAllowed(c) &&
-              ((tomorrow.isSunday && precedenceOf(c) <= 6) ||
-                  (!ferialDayCheck(c.celebrationCode) &&
-                      !date.isSunday &&
-                      precedenceOf(c) <= _firstVespersPrecedenceThreshold) ||
-                  (date.isSunday &&
-                      !ferialDayCheck(c.celebrationCode) &&
-                      precedenceOf(c) <= 3)))
-          .toList();
-
   // 4. Build the result map
   final Map<String, CelebrationContext> possibleVespers = {};
 
-  // The Marian memory is only celebrated at Morning and Readings, not Vespers
-  final vespersEligible = todayCelebrations
-      .where((c) => c.celebrationCode != 'roman/virgin_mary_memory')
-      .toList();
-
-  // --- Safety: Pre-calculate highest priorities to avoid reduce() on empty lists ---
+  final vespersEligible = _vespersEligible(todayCelebrations);
 
   // Calculate the highest priority (lowest numerical value) for today
-  final int highestTodayPrecedence = vespersEligible.isEmpty
-      ? _defaultPrecedence
-      : vespersEligible.map(precedenceOf).reduce(min);
+  final int highestTodayPrecedence = _highestPrecedence(vespersEligible);
 
   // Calculate the highest priority (lowest numerical value) for tomorrow
-  final int highestTomorrowPrecedence = firstVespersCandidates.isEmpty
-      ? _defaultPrecedence
-      : firstVespersCandidates.map(precedenceOf).reduce(min);
+  final int highestTomorrowPrecedence =
+      _highestPrecedence(firstVespersCandidates);
 
   // Boolean flags for high priority (Solemnities/Feasts)
   final bool hasHighPriorityToday = highestTodayPrecedence <= 6;
@@ -167,7 +203,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   final bool tomorrowWinsTies = date.isSunday &&
       firstVespersCandidates.any((c) =>
           sundayTieBreakingFirstVespersCodes.contains(c.celebrationCode) &&
-          precedenceOf(c) == highestTomorrowPrecedence);
+          _precedenceOf(c) == highestTomorrowPrecedence);
 
   // Two solemnity-level celebrations (precedence <= 4) competing for the
   // same evening are a doubtful case: practice isn't uniform (AELF kept
@@ -185,7 +221,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     // If tomorrow has First Vespers with higher precedence (lower number),
     // today's Vespers may not be celebrable
     bool isCelebrable = c.isCelebrable;
-    final int precedence = precedenceOf(c);
+    final int precedence = _precedenceOf(c);
     final bool solemnityConflict = !tomorrowWinsTies &&
         isSolemnityConflict(precedence, highestTomorrowPrecedence);
     if (hasHighPriorityTomorrow &&
@@ -196,7 +232,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     }
 
     final bool showSecondVespersLabel =
-        date.isSunday || precedenceOf(c) <= _firstVespersPrecedenceThreshold;
+        date.isSunday || _precedenceOf(c) <= _firstVespersPrecedenceThreshold;
     possibleVespers.putIfAbsent(
         c.celebrationTitle ?? c.celebrationCode,
         () => c.copyWith(
@@ -220,7 +256,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     // Sunday's First Vespers. Exceptions: a solemnity conflict keeps both
     // celebrable (see isSolemnityConflict above), and a Solemnity
     // (prec. <= 3) tomorrow always is when today is a Sunday.
-    final int precedence = precedenceOf(c);
+    final int precedence = _precedenceOf(c);
     bool isCelebrable = true;
     if (hasHighPriorityToday &&
         precedence > highestTodayPrecedence &&
@@ -243,7 +279,7 @@ Future<Map<String, CelebrationContext>> vespersDetection(
   // 5. Sort: celebrable options first, then by rank (Table of Liturgical
   // Days), Second Vespers before First Vespers on a tie.
   double rankOf(CelebrationContext c) =>
-      effectivePrecedence(precedenceOf(c), c.celebrationCode);
+      effectivePrecedence(_precedenceOf(c), c.celebrationCode);
 
   int compareVespers(CelebrationContext a, CelebrationContext b) {
     if (a.isCelebrable != b.isCelebrable) return a.isCelebrable ? -1 : 1;
@@ -267,4 +303,49 @@ Future<Map<String, CelebrationContext>> vespersDetection(
     supplies: (common, proper, {required memorial}) =>
         common.suppliesTextsMissingFrom(proper, memorial: memorial),
   );
+}
+
+/// Tomorrow's memorials and feasts whose First Vespers this evening, [date],
+/// are only prayed once one is made a local solemnity — keyed as in
+/// [vespersDetection], not celebrable. Raised by [precedenceOverride], a
+/// celebration leaves this map for [vespersDetection]'s. Empty when today
+/// ranks at least as a solemnity of the general calendar (prec. <= 3),
+/// which a local solemnity (prec. 4) yields to.
+Future<Map<String, CelebrationContext>> vespersEveCandidates(
+  Calendar calendar,
+  DateTime date,
+  DataLoader dataLoader, {
+  PrecedenceOverride? precedenceOverride,
+}) async {
+  final (today: todayCelebrations, tomorrow: tomorrowCelebrations) =
+      await detectTodayAndTomorrow(calendar, date, dataLoader,
+          precedenceOverride: precedenceOverride);
+  if (_highestPrecedence(_vespersEligible(todayCelebrations)) <= 3) {
+    return {};
+  }
+
+  final firstVespersCodes = {
+    for (final c in _firstVespersCandidates(
+        date, todayCelebrations, tomorrowCelebrations))
+      c.celebrationCode,
+  };
+  final candidates = <String, CelebrationContext>{};
+  for (final c in tomorrowCelebrations) {
+    if (ferialDayCheck(c.celebrationCode) ||
+        c.celebrationCode == 'roman/virgin_mary_memory' ||
+        _precedenceOf(c) <= _solemnityLevelPrecedence ||
+        firstVespersCodes.contains(c.celebrationCode)) {
+      continue;
+    }
+    candidates.putIfAbsent(
+        'I Vespers: ${c.celebrationTitle ?? c.celebrationCode}',
+        () => c.copyWith(
+              celebrationType: 'vespers1',
+              date: date.shift(1),
+              isCelebrable: false,
+              officeDescription:
+                  '${c.celebrationGlobalName} (${celebrationTypeLabels['firstVespers']})',
+            ));
+  }
+  return candidates;
 }

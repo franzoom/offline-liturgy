@@ -1,4 +1,4 @@
-commonTitle: Office des défunts
+commonTitle: Office des Défunts
 
 invitatory:
   antiphon:
@@ -6,7 +6,38 @@ invitatory:
 
 oration:
   - |-
-    Seigneur, toi seul peux nous rendre la confiance quand il nous semble que la mort est victorieuse. Augmente aujourd’hui notre foi en ton Fils Jésus ressuscité des morts ; affermis notre espérance de la résurrection de N., ton serviteur et notre frère. ou Seigneur, tu es la vie de tes fidèles, tu es la gloire des justes, et ton propre Fils nous a rachetés par sa mort et sa résurrection ; regarde avec bonté ton serviteur (ta servante) N : puisqu’il (elle) a cru à la résurrection dans le Christ, accorde-lui de goûter au bonheur qui ne finit pas. pour plusieurs défunts Seigneur, il a fallu que le Christ ton bien-aimé passe par la mort pour la vaincre avant d’entrer dans sa gloire ; renouvelle pour tes serviteurs N. et N. ce que tu as fait pour ton propre Fils : qu’ils soient, eux aussi, victorieux de la mort et puissent contempler dans toute sa gloire ton visage de Père et de Sauveur. pour des frères, proches ou bienfaiteurs Dieu qui es riche en pardon et qui veux le salut de tous, nous implorons ta grande bonté : à nos frères, nos parents et bienfaiteurs qui ont quitté ce monde, accorde, par l’intercession de la Vierge Marie et des saints, d’avoir part au bonheur du ciel pour l’éternité.
+    Seigneur, toi seul peux nous rendre la confiance
+    >quand il nous semble que la mort est victorieuse.
+    Augmente aujourd’hui notre foi
+    >en ton Fils Jésus ressuscité des morts ;
+    affermis notre espérance
+    >de la résurrection de N., ton serviteur et notre frère.
+  - |-
+    Seigneur, tu es la vie de tes fidèles,
+    >tu es la gloire des justes,
+    et ton propre Fils nous a rachetés par sa mort et sa résurrection ;
+    regarde avec bonté ton serviteur (ta servante) N :
+    puisqu’il (elle) a cru à la résurrection dans le Christ,
+    >accorde-lui de goûter au bonheur qui ne finit pas.
+  - |-
+    %(pour un proche)%
+    Dieu qui est riche en pardon
+    >et qui veux le salut de tous,
+    nous implorons ta grande bonté :
+    à nos frères, nos parents et bienfaiteurs
+    >qui ont quitté ce monde,
+    accorde, par l’intercession de la Vierge Marie et des saints,
+    >d’avoir part au bonheur du ciel pour l’éternité.
+  - |-
+    %(pour plusieurs défunts)%
+    Seigneur, il a fallu que le Christ ton bien-aimé
+    >passe par la mort pour la vaincre
+    >avant d’entrer dans sa gloire ;
+    renouvelle pour tes serviteurs N. et N.
+    >ce que tu as fait pour ton propre Fils :
+    qu’ils soient, eux aussi, victorieux de la mort
+    et puissent contempler dans toute sa gloire
+    >ton visage de Père.
 
 morning:
   hymn:
@@ -195,3 +226,536 @@ vespers:
       
       Quand nous devrons quitter ce monde qui passe,
       — fais-nous entrer dans ta demeure éternelle.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+    - biblicalReference: cf. 4 Esd 2, 34-35
+      content: |-
+        Accorde à nos défunts, Seigneur, le repos éternel ;
+        >et que brille pour eux la lumière sans déclin.
+    - biblicalReference: null
+      content: |-
+        Que le Seigneur ouvre à notre frère (soeur) la porte du paradis,
+        >l’entrée dans cette patrie où la mort n’existe plus,
+        >où s’épanouit une joie éternelle.
+    collect:
+    - |-
+      Dieu, Père tout-puissant, +
+      notre foi proclame que ton Fils est mort et ressuscité ; *
+      par ce mystère, accorde, dans ta bonté,
+      >à ton serviteur N. qui s’est endormi dans le Christ, /
+      >(à ta servante N. qui s’est endormie dans le Christ,) /
+      >la joie de ressusciter par ce même Jésus-Christ.
+      Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
+    - |-
+      Seigneur Dieu,
+      tu es celui qui toujours prend pitié et pardonne ; +
+      nous te supplions humblement pour ton serviteur (ta servante) N.
+      >que tu as appelé(e) à toi (aujourd’hui) : *
+      Puisqu’il (elle) a mis en toi son espérance et sa foi,
+      >accorde-lui d’être conduit(e) jusqu’à la vraie patrie /
+      >et de partager la joie sans fin.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      >Qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
+    - |-
+      Seigneur Dieu,
+      tu es miséricorde pour les pécheurs,
+      tu es la joie de tous les saints ; +
+      puisque nous célébrons aujourd’hui
+      >comme un devoir d’humanité ;
+      >les funérailles de ton serviteur (ta servante) N.,
+      accorde-lui, nous t’en prions,
+      >le bonheur que tu réserves à tes élus ; *
+      il (elle) est délivré(e) des liens de la condition mortelle :
+      >donne-lui de se tenir devant ta face /
+      >au jour de la résurrection.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
+    - |-
+      Seigneur Dieu, +
+      tu as fixé une limite à la vie présente
+      pour nous ouvrir l’accès à l’éternité ; +
+      Nous t’en supplions humblement : *
+      permets que, par la grâce de ta compassion, /
+      >le nom de ton serviteur (ta servante) N.
+      >soit inscrit au livre de vie.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
+
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Jb 19, 1.23-27a
+            headline: |-
+              Garder confiance dans l’épreuve
+            content: |-
+              Job prit la parole et dit : « Ah, si seulement on écrivait mes paroles, si on les gravait sur une stèle avec un ciseau de fer et du plomb, si on les sculptait dans le roc pour toujours ! Mais je sais, moi, que mon rédempteur est vivant, que, le dernier, il se lèvera sur la poussière ; et quand bien même on m’arracherait la peau, de ma chair je verrai Dieu. Je le verrai, moi en personne, et si mes yeux le regardent, il ne sera plus un étranger. »
+          - biblicalRef: Is 25, 6a.7-9
+            headline: |-
+              Dieu est plus fort que la mort
+            content: |-
+              En ce jour-là, le Seigneur de l’univers préparera pour tous les peuples, sur sa montagne.
+              Sur cette montagne, il fera disparaître le voile de deuil qui enveloppe tous les peuples et le linceul qui couvre toutes les nations.
+              Il fera disparaître la mort pour toujours. Le Seigneur Dieu essuiera les larmes sur tous les visages, et par toute la terre il effacera l’humiliation de son peuple. Le Seigneur a parlé. Et ce jour-là, on dira : « Voici notre Dieu, en lui nous espérions, et il nous a sauvés ; c’est lui le Seigneur, en lui nous espérions ; exultons, réjouissons-nous : il nous a sauvés ! »
+          - biblicalRef: Sg 3, 1-6.9
+            headline: |-
+              La vie de tout homme est dans la main de Dieu
+            content: |-
+              Les âmes des justes sont dans la main de Dieu ; aucun tourment n’a de prise sur eux. Aux yeux de l’insensé, ils ont paru mourir ; leur départ est compris comme un malheur, et leur éloignement, comme une fin : mais ils sont dans la paix. Au regard des hommes, ils ont subi un châtiment, mais l’espérance de l’immortalité les comblait. Après de faibles peines, de grands bienfaits les attendent, car Dieu les a mis à l’épreuve et trouvés dignes de lui. Comme l’or au creuset, il les a éprouvés ; comme une offrande parfaite, il les accueille.
+              Qui met en lui sa foi comprendra la vérité ; ceux qui sont fidèles resteront, dans l’amour, près de lui. Pour ses amis, grâce et miséricorde : il visitera ses élus.
+          - biblicalRef: Lm 3, 17-26
+            headline: |-
+              Malgré tout, je ne perds pas confiance
+            content: |-
+              Tu enlèves la paix à mon âme, j’ai oublié le bonheur ; j’ai dit : « Mon assurance a disparu, et l’espoir qui me venait du Seigneur. » Rappelle-toi ma misère et mon errance, l’absinthe et le poison. Elle se rappelle, mon âme, elle se rappelle ; en moi, elle défaille. Voici ce que je redis en mon cœur, et c’est pourquoi j’espère : grâce à l’amour du Seigneur, nous ne sommes pas anéantis ; ses tendresses ne s’épuisent pas ; elles se renouvellent chaque matin, – oui, ta fidélité surabonde. Je me dis : « Le Seigneur est mon partage, c’est pourquoi j’espère en lui. »
+              Le Seigneur est bon pour qui se tourne vers lui, pour celui qui le cherche. Il est bon d’espérer en silence le salut du Seigneur.
+          - biblicalRef: Rm 6, 3-9
+            headline: |-
+              Mourir avec le Christ pour vivre avec lui
+            content: |-
+              Frères, ne le savez-vous pas ? Nous tous qui par le baptême avons été unis au Christ Jésus, c’est à sa mort que nous avons été unis par le baptême. Si donc, par le baptême qui nous unit à sa mort, nous avons été mis au tombeau avec lui, c’est pour que nous menions une vie nouvelle, nous aussi, comme le Christ qui, par la toute-puissance du Père, est ressuscité d’entre les morts.
+              Car, si nous avons été unis à lui par une mort qui ressemble à la sienne, nous le serons aussi par une résurrection qui ressemblera à la sienne. Nous le savons : l’homme ancien qui est en nous a été fixé à la croix avec lui pour que le corps du péché soit réduit à rien, et qu’ainsi nous ne soyons plus esclaves du péché. Car celui qui est mort est affranchi du péché. Et si nous sommes passés par la mort avec le Christ, nous croyons que nous vivrons aussi avec lui. Nous le savons en effet : ressuscité d’entre les morts, le Christ ne meurt plus ; la mort n’a plus de pouvoir sur lui.
+          - biblicalRef: Rm 8, 14-19.21-23
+            headline: |-
+              L’Espérance d’un monde nouveau
+            content: |-
+              Frères, tous ceux qui se laissent conduire par l’Esprit de Dieu, ceux-là sont fils de Dieu. Vous n’avez pas reçu un esprit qui fait de vous des esclaves et vous ramène à la peur ; mais vous avez reçu un Esprit qui fait de vous des fils ; et c’est en lui que nous crions « Abba ! », c’est-à-dire : Père !
+              C’est donc l’Esprit Saint lui-même qui atteste à notre esprit que nous sommes enfants de Dieu. Puisque nous sommes ses enfants, nous sommes aussi ses héritiers : héritiers de Dieu, héritiers avec le Christ, si du moins nous souffrons avec lui pour être avec lui dans la gloire. J’estime, en effet, qu’il n’y a pas de commune mesure entre les souffrances du temps présent et la gloire qui va être révélée pour nous.
+          - biblicalRef: Rm 8, 31b-35.37-39
+            headline: |-
+              Qui pourra nous séparer de l’amour du Christ ?
+            content: |-
+              Frères, si Dieu est pour nous, qui sera contre nous ? Il n’a pas épargné son propre Fils, mais il l’a livré pour nous tous : comment pourrait-il, avec lui, ne pas nous donner tout ? Qui accusera ceux que Dieu a choisis ? Dieu est celui qui rend juste : alors, qui pourra condamner ? Le Christ Jésus est mort ; bien plus, il est ressuscité, il est à la droite de Dieu, il intercède pour nous.
+              Alors, qui pourra nous séparer de l’amour du Christ ? la détresse ? l’angoisse ? la persécution ? la faim ? le dénuement ? le danger ? le glaive ? Mais, en tout cela nous sommes les grands vainqueurs grâce à celui qui nous a aimés.
+              J’en ai la certitude : ni la mort ni la vie, ni les anges ni les Principautés célestes, ni le présent ni l’avenir, ni les Puissances, ni les hauteurs, ni les abîmes, ni aucune autre créature, rien ne pourra nous séparer de l’amour de Dieu qui est dans le Christ Jésus notre Seigneur.
+          - biblicalRef: Rm 5, 6b-11
+            headline: |-
+              Réconciliés avec Dieu par Jésus
+            content: |-
+              Frères, le Christ, au temps fixé par Dieu, est mort pour les impies que nous étions. Accepter de mourir pour un homme juste, c’est déjà difficile ; peut-être quelqu’un s’exposerait-il à mourir pour un homme de bien. Or, la preuve que Dieu nous aime, c’est que le Christ est mort pour nous, alors que nous étions encore pécheurs. À plus forte raison, maintenant que le sang du Christ nous a fait devenir des justes, serons-nous sauvés par lui.
+              En effet, si nous avons été réconciliés avec Dieu par la mort de son Fils alors que nous étions ses ennemis, à plus forte raison, maintenant que nous sommes réconciliés, serons-nous sauvés en ayant part à sa vie. Bien plus, nous mettons notre fierté en Dieu, par notre Seigneur Jésus Christ, par qui, maintenant, nous avons reçu la réconciliation.
+          - biblicalRef: 1Co 15, 20-24a.25-28
+            headline: |-
+              Dans le Christ nous recevrons la Vie
+            content: |-
+              Frères, le Christ est ressuscité d’entre les morts, lui, premier ressuscité parmi ceux qui se sont endormis. Car, la mort étant venue par un homme, c’est par un homme aussi que vient la résurrection des morts. En effet, de même que tous les hommes meurent en Adam, de même c’est dans le Christ que tous recevront la vie, mais chacun à son rang : en premier, le Christ, et ensuite, lors du retour du Christ, ceux qui lui appartiennent.
+              Alors, tout sera achevé, quand le Christ remettra le pouvoir royal à Dieu son Père. Car c’est lui qui doit régner jusqu’au jour où Dieu aura mis sous ses pieds tous ses ennemis. Et le dernier ennemi qui sera anéanti, c’est la mort, car il a tout mis sous ses pieds. Mais quand le Christ dira : « Tout est soumis désormais », c’est évidemment à l’exclusion de Celui qui lui aura soumis toutes choses. Et, quand tout sera mis sous le pouvoir du Fils, lui-même se mettra alors sous le pouvoir du Père qui lui aura tout soumis, et ainsi, Dieu sera tout en tous.
+          - biblicalRef: 1Co 15, 51-57
+            headline: |-
+              Mort, où est ta victoire ?
+            content: |-
+              Frères, c’est un mystère que je vous annonce : nous ne mourrons pas tous, mais tous nous serons transformés, et cela en un instant, en un clin d’œil, quand, à la fin, la trompette retentira. Car elle retentira, et les morts ressusciteront, impérissables, et nous, nous serons transformés.
+              Il faut en effet que cet être périssable que nous sommes revête ce qui est impérissable ; il faut que cet être mortel revête l’immortalité. Et quand cet être périssable aura revêtu ce qui est impérissable, quand cet être mortel aura revêtu l’immortalité, alors se réalisera la parole de l’Écriture : La mort a été engloutie dans la victoire.
+              Ô Mort, où est ta victoire ? Ô Mort, où est-il, ton aiguillon ? L’aiguillon de la mort, c’est le péché ; ce qui donne force au péché, c’est la Loi. Rendons grâce à Dieu qui nous donne la victoire par notre Seigneur Jésus Christ.
+          - biblicalRef: 1Th 4, 13-18
+            headline: |-
+              Dieu nous prendra avec lui
+            content: |-
+              Frères, nous ne voulons pas vous laisser dans l’ignorance au sujet de ceux qui se sont endormis dans la mort ; il ne faut pas que vous soyez abattus comme les autres, qui n’ont pas d’espérance. Jésus, nous le croyons, est mort et ressuscité ; de même, nous le croyons aussi, ceux qui se sont endormis, Dieu, par Jésus, les emmènera avec lui. [Car, sur la parole du Seigneur, nous vous déclarons ceci : nous les vivants, nous qui sommes encore là pour la venue du Seigneur, nous ne devancerons pas ceux qui se sont endormis.
+              Au signal donné par la voix de l’archange, et par la trompette divine, le Seigneur lui-même descendra du ciel, et ceux qui sont morts dans le Christ ressusciteront d’abord. Ensuite, nous les vivants, nous qui sommes encore là, nous serons emportés sur les nuées du ciel, en même temps qu’eux, à la rencontre du Seigneur.] Ainsi, nous serons pour toujours avec le Seigneur.
+              Réconfortez-vous donc les uns les autres avec ce que je viens de dire.
+          - biblicalRef: 2Tm 2, 8-13
+            headline: |-
+              Nous vivons avec le Christ
+            content: |-
+              Bien-aimé, souviens-toi de Jésus Christ, ressuscité d’entre les morts, le descendant de David : voilà mon évangile. C’est pour lui que j’endure la souffrance, jusqu’à être enchaîné comme un malfaiteur. Mais on n’enchaîne pas la parole de Dieu ! C’est pourquoi je supporte tout pour ceux que Dieu a choisis, afin qu’ils obtiennent, eux aussi, le salut qui est dans le Christ Jésus, avec la gloire éternelle.
+              Voici une parole digne de foi : « Si nous sommes morts avec lui, avec lui nous vivrons. Si nous supportons l’épreuve, avec lui nous régnerons. Si nous le rejetons, lui aussi nous rejettera. Si nous manquons de foi, lui reste fidèle à sa parole, car il ne peut se rejeter lui-même. »
+          - biblicalRef: 1Jn 3, 1-2
+            headline: |-
+              Nous le verrons tel qu’il est
+            content: |-
+              Bien-aimés, voyez quel grand amour nous a donné le Père pour que nous soyons appelés enfants de Dieu, et nous le sommes. Voici pourquoi le monde ne nous connaît pas : c’est qu’il n’a pas connu Dieu. Bien-aimés, dès maintenant, nous sommes enfants de Dieu, mais ce que nous serons n’a pas encore été manifesté. Nous le savons : quand cela sera manifesté, nous lui serons semblables car nous le verrons tel qu’il est.
+          - biblicalRef: 1Jn 3, 14.16-20
+            headline: |-
+              Voici comment nous avons reconnu l’amour
+            content: |-
+              Bien-aimés, nous savons que nous sommes passés de la mort à la vie, parce que nous aimons nos frères. […] Voici comment nous avons reconnu l’amour : lui, Jésus, a donné sa vie pour nous. Nous aussi, nous devons donner notre vie pour nos frères.
+              Celui qui a de quoi vivre en ce monde, s’il voit son frère dans le besoin sans faire preuve de compassion, comment l’amour de Dieu pourrait-il demeurer en lui ? Petits enfants, n’aimons pas en paroles ni par des discours, mais par des actes et en vérité. Voilà comment nous reconnaîtrons que nous appartenons à la vérité, et devant Dieu nous apaiserons notre cœur ; car si notre cœur nous accuse, Dieu est plus grand que notre cœur, et il connaît toutes choses.
+          - biblicalRef: Ap 21, 1-5a.6b-7
+            headline: |-
+              Où va le monde ?
+            content: |-
+              Moi, Jean, j’ai vu un ciel nouveau et une terre nouvelle, car le premier ciel et la première terre s’en étaient allés et, de mer, il n’y en a plus. Et la Ville sainte, la Jérusalem nouvelle, je l’ai vue qui descendait du ciel, d’auprès de Dieu, prête pour les noces, comme une épouse parée pour son mari.
+              Et j’entendis une voix forte qui venait du Trône. Elle disait : « Voici la demeure de Dieu avec les hommes ; il demeurera avec eux, et ils seront ses peuples, et lui-même, Dieu avec eux, sera leur Dieu. Il essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n’y aura plus ni deuil, ni cri, ni douleur : ce qui était en premier s’en est allé. » Alors celui qui siégeait sur le Trône déclara : « Voici que je fais toutes choses nouvelles. À celui qui a soif, moi, je donnerai l’eau de la source de vie, gratuitement. Tel sera l’héritage du vainqueur ; je serai son Dieu, et lui sera mon fils. »
+          - biblicalRef: Ac 10, 34-43
+            headline: |-
+              Quiconque croit en lui reçoit par son nom le pardon de ses péchés
+            content: |-
+              En vérité, je le comprends, Dieu est impartial : il accueille, quelle que soit la nation, celui qui le craint et dont les œuvres sont justes. Telle est la parole qu’il a envoyée aux fils d’Israël, en leur annonçant la bonne nouvelle de la paix par Jésus Christ, lui qui est le Seigneur de tous.
+              Vous savez ce qui s’est passé à travers tout le pays des Juifs, depuis les commencements en Galilée, après le baptême proclamé par Jean : Jésus de Nazareth, Dieu lui a donné l’onction d’Esprit Saint et de puissance. Là où il passait, il faisait le bien et guérissait tous ceux qui étaient sous le pouvoir du diable, car Dieu était avec lui. Et nous, nous sommes témoins de tout ce qu’il a fait dans le pays des Juifs et à Jérusalem. Celui qu’ils ont supprimé en le suspendant au bois du supplice, Dieu l’a ressuscité le troisième jour. Il lui a donné de se manifester, non pas à tout le peuple, mais à des témoins que Dieu avait choisis d’avance, à nous qui avons mangé et bu avec lui après sa résurrection d’entre les morts. Dieu nous a chargés d’annoncer au peuple et de témoigner que lui-même l’a établi Juge des vivants et des morts.
+              C’est à Jésus que tous les prophètes rendent ce témoignage : Quiconque croit en lui reçoit par son nom le pardon de ses péchés.
+          - biblicalRef: 2Co 4, 14 – 5, 1
+            headline: |-
+              Ce qui ne se voit pas est éternel
+            content: |-
+              Car, nous le savons, celui qui a ressuscité le Seigneur Jésus nous ressuscitera, nous aussi, avec Jésus, et il nous placera près de lui avec vous. Et tout cela, c’est pour vous, afin que la grâce, plus largement répandue dans un plus grand nombre, fasse abonder l’action de grâce pour la gloire de Dieu.
+              C’est pourquoi nous ne perdons pas courage, et même si en nous l’homme extérieur va vers sa ruine, l’homme intérieur se renouvelle de jour en jour. Car notre détresse du moment présent est légère par rapport au poids vraiment incomparable de gloire éternelle qu’elle produit pour nous. Et notre regard ne s’attache pas à ce qui se voit, mais à ce qui ne se voit pas ; ce qui se voit est provisoire, mais ce qui ne se voit pas est éternel.
+              Nous le savons, en effet, même si notre corps, cette tente qui est notre demeure sur la terre, est détruit, nous avons un édifice construit par Dieu, une demeure éternelle dans les cieux qui n’est pas l’œuvre des hommes.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 22 (23), 1-2ab, 2c-3, 4, 5, 6
+            label: null
+            refAbbr: cf. 22, 1
+            chorus:
+              - chorusRef: cf. 22, 1
+                content: |-
+                  Le Seigneur est mon berger :
+                  rien ne saurait me manquer.
+              - chorusRef: cf. 22, 1
+                content: |-
+                  Le Seigneur est mon berger :
+                  rien ne peut me manquer, rien ne peut me manquer !
+            content: |-
+              Le Seigneur est mon berger :
+              je ne manque de rien.
+              Sur des prés d’herbe fraîche,
+              il me fait reposer.
+
+              Il me mène vers les eaux tranquilles
+              et me fait revivre ;
+              il me conduit par le juste chemin
+              pour l’honneur de son nom.
+
+              Si je traverse les ravins de la mort,
+              je ne crains aucun mal,
+              car tu es avec moi :
+              ton bâton me guide et me rassure.
+
+              Tu prépares la table pour moi
+              devant mes ennemis ;
+              tu répands le parfum sur ma tête,
+              ma coupe est débordante.
+
+              Grâce et bonheur m’accompagnent
+              tous les jours de ma vie ;
+              j’habiterai la maison du Seigneur
+              pour la durée de mes jours.
+          - biblicalRef: Ps 24 (25), 6.7bc, 17-18, 20-21
+            label: null
+            refAbbr: null
+            chorus:
+              - chorusRef: null
+                content: |-
+                  Garde mon âme dans la paix,
+                  près de toi, Seigneur.
+            content: |-
+              Rappelle-toi, Seigneur, ta tendresse,
+              ton amour qui est de toujours.
+              Dans ton amour, ne m’oublie pas,
+              en raison de ta bonté, Seigneur.
+
+              L’angoisse grandit dans mon cœur :
+              tire-moi de ma détresse.
+              Vois ma misère et ma peine,
+              enlève tous mes péchés.
+
+              Garde mon âme, délivre-moi ;
+              je m’abrite en toi : épargne-moi la honte.
+              Droiture et perfection veillent sur moi,
+              sur moi qui t’espère !
+          - biblicalRef: Ps 26 (27), 1, 4abcd, 7.8b-9a, 13-14
+            label: null
+            refAbbr: cf. Ps 32 (33), 20a.21a
+            chorus:
+              - chorusRef: cf. Ps 32 (33), 20a.21a
+                content: |-
+                  Notre âme attend le Seigneur.
+                  En lui, la joie de notre cœur.
+            content: |-
+              Le Seigneur est ma lumière et mon salut ;
+              de qui aurais-je crainte ?
+              Le Seigneur est le rempart de ma vie ;
+              devant qui tremblerais-je ?
+
+              J’ai demandé une chose au Seigneur,
+              la seule que je cherche :
+              habiter la maison du Seigneur
+              tous les jours de ma vie.
+
+              Écoute, Seigneur, je t’appelle !
+              Pitié ! Réponds-moi !
+              C’est ta face, Seigneur, que je cherche :
+              ne me cache pas ta face.
+
+              Mais j’en suis sûr, je verrai les bontés du Seigneur
+              sur la terre des vivants.
+              « Espère le Seigneur, sois fort et prends courage ;
+              espère le Seigneur. »
+          - biblicalRef: Ps 41 (42), 2, 3 ; 42 (43), 3, 4, 5
+            label: null
+            refAbbr: cf. Ps 58 (59), 17-18
+            chorus:
+              - chorusRef: cf. Ps 58 (59), 17-18
+                content: |-
+                  Je chanterai ta force,
+                  tu es le Dieu de mon amour.
+            content: |-
+              Comme un cerf altéré
+              cherche l’eau vive,
+              ainsi mon âme te cherche
+              toi, mon Dieu.
+
+              Mon âme a soif de Dieu,
+              le Dieu vivant ;
+              quand pourrai-je m’avancer,
+              paraître face à Dieu ?
+
+              Envoie ta lumière et ta vérité :
+              qu’elles guident mes pas
+              et me conduisent à ta montagne sainte,
+              jusqu’en ta demeure.
+
+              J’avancerai jusqu’à l’autel de Dieu,
+              vers Dieu qui est toute ma joie ;
+              je te rendrai grâce avec ma harpe,
+              Dieu, mon Dieu !
+
+              Pourquoi te désoler, ô mon âme,
+              et gémir sur moi ?
+              Espère en Dieu ! De nouveau je rendrai grâce :
+              il est mon sauveur et mon Dieu !
+          - biblicalRef: Ps 62 (63), 2, 3-4, 5-6, 8-9
+            label: null
+            refAbbr: cf. Ps 88 (89), 2
+            chorus:
+              - chorusRef: cf. Ps 88 (89), 2
+                content: |-
+                  L’amour du Seigneur, à jamais je le chante,
+                  et sa fidélité d’âge en âge.
+            content: |-
+              Dieu, tu es mon Dieu, je te cherche dès l’aube :
+              mon âme a soif de toi ;
+              après toi languit ma chair,
+              terre aride, altérée, sans eau.
+
+              Je t’ai contemplé au sanctuaire,
+              j’ai vu ta force et ta gloire.
+              Ton amour vaut mieux que la vie :
+              tu seras la louange de mes lèvres !
+
+              Toute ma vie je vais te bénir,
+              lever les mains en invoquant ton nom.
+              Comme par un festin je serai rassasié ;
+              la joie sur les lèvres, je dirai ta louange.
+
+              Oui, tu es venu à mon secours :
+              je crie de joie à l’ombre de tes ailes.
+              Mon âme s’attache à toi,
+              ta main droite me soutient.
+          - biblicalRef: Ps 102 (103), 1-2, 8.13, 17-18a
+            label: null
+            refAbbr: 102, 8a
+            chorus:
+              - chorusRef: 102, 8a
+                content: |-
+                  Le Seigneur est tendresse et pitié.
+            content: |-
+              Bénis le Seigneur, ô mon âme,
+              bénis son nom très saint, tout mon être !
+              Bénis le Seigneur, ô mon âme,
+              n’oublie aucun de ses bienfaits !
+
+              Le Seigneur est tendresse et pitié,
+              lent à la colère et plein d’amour ;
+              comme la tendresse du père pour ses fils,
+              la tendresse du Seigneur pour qui le craint !
+
+              Mais l’amour du Seigneur, sur ceux qui le craignent,
+              est de toujours à toujours,
+              et sa justice pour les enfants de leurs enfants,
+              pour ceux qui gardent son alliance.
+          - biblicalRef: Ps 129 (130), 1-2, 3-4, 5-6ab, 7bc-8
+            label: null
+            refAbbr: cf. 129, 5
+            chorus:
+              - chorusRef: cf. 129, 5
+                content: |-
+                  Je mets mon espoir dans le Seigneur,
+                  je suis sûr de sa Parole.
+            content: |-
+              Des profondeurs je crie vers toi, Seigneur,
+              Seigneur, écoute mon appel !
+              Que ton oreille se fasse attentive
+              au cri de ma prière !
+
+              Si tu retiens les fautes, Seigneur,
+              Seigneur, qui subsistera ?
+              Mais près de toi se trouve le pardon
+              pour que l’homme te craigne.
+
+              J’espère le Seigneur de toute mon âme ;
+              je l’espère, et j’attends sa parole.
+              Mon âme attend le Seigneur
+              plus qu’un veilleur ne guette l’aurore.
+
+              Oui, près du Seigneur, est l’amour ;
+              près de lui, abonde le rachat.
+              C’est lui qui rachètera Israël
+              de toutes ses fautes.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 5, 1-12a
+            headline: |-
+              Où se trouve le vrai bonheur
+            content: |-
+              En ce temps-là, voyant les foules, Jésus gravit la montagne. Il s’assit, et ses disciples s’approchèrent de lui. Alors, ouvrant la bouche, il les enseignait. Il disait :
+              « Heureux les pauvres de cœur, car le royaume des Cieux est à eux.
+              Heureux ceux qui pleurent, car ils seront consolés.
+              Heureux les doux, car ils recevront la terre en héritage.
+              Heureux ceux qui ont faim et soif de la justice, car ils seront rassasiés.
+              Heureux les miséricordieux, car ils obtiendront miséricorde.
+              Heureux les cœurs purs, car ils verront Dieu.
+              Heureux les artisans de paix, car ils seront appelés fils de Dieu.
+              Heureux ceux qui sont persécutés pour la justice, car le royaume des Cieux est à eux.
+              Heureux êtes-vous si l’on vous insulte, si l’on vous persécute et si l’on dit faussement toute sorte de mal contre vous, à cause de moi. Réjouissez-vous, soyez dans l’allégresse, car votre récompense est grande dans les cieux ! »
+          - biblicalRef: Mt 11, 25-30
+            headline: |-
+              « Venez à moi, vous tous qui peinez »
+            content: |-
+              En ce temps-là, Jésus prit la parole et dit : « Père, Seigneur du ciel et de la terre, je proclame ta louange : ce que tu as caché aux sages et aux savants, tu l’as révélé aux tout-petits. Oui, Père, tu l’as voulu ainsi dans ta bienveillance. Tout m’a été remis par mon Père ; personne ne connaît le Fils, sinon le Père, et personne ne connaît le Père, sinon le Fils, et celui à qui le Fils veut le révéler.
+              Venez à moi, vous tous qui peinez sous le poids du fardeau, et moi, je vous procurerai le repos. Prenez sur vous mon joug, devenez mes disciples, car je suis doux et humble de cœur, et vous trouverez le repos pour votre âme. Oui, mon joug est facile à porter, et mon fardeau, léger. »
+          - biblicalRef: Mt 25, 31-46
+            headline: |-
+              C’est sur l’amour que nous serons jugés
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples : « Quand le Fils de l’homme viendra dans sa gloire, et tous les anges avec lui, alors il siégera sur son trône de gloire. Toutes les nations seront rassemblées devant lui ; il séparera les hommes les uns des autres, comme le berger sépare les brebis des boucs : il placera les brebis à sa droite, et les boucs à gauche.
+              Alors le Roi dira à ceux qui seront à sa droite : “Venez, les bénis de mon Père, recevez en héritage le Royaume préparé pour vous depuis la fondation du monde. Car j’avais faim, et vous m’avez donné à manger ; j’avais soif, et vous m’avez donné à boire ; j’étais un étranger, et vous m’avez accueilli ; j’étais nu, et vous m’avez habillé ; j’étais malade, et vous m’avez visité ; j’étais en prison, et vous êtes venus jusqu’à moi !”
+              Alors les justes lui répondront : “Seigneur, quand est-ce que nous t’avons vu… ? tu avais donc faim, et nous t’avons nourri ? tu avais soif, et nous t’avons donné à boire ? tu étais un étranger, et nous t’avons accueilli ? tu étais nu, et nous t’avons habillé ? tu étais malade ou en prison… Quand sommes-nous venus jusqu’à toi ?” Et le Roi leur répondra : “Amen, je vous le dis : chaque fois que vous l’avez fait à l’un de ces plus petits de mes frères, c’est à moi que vous l’avez fait.”
+              Alors il dira à ceux qui seront à sa gauche : “Allez-vous-en loin de moi, vous les maudits, dans le feu éternel préparé pour le diable et ses anges. Car j’avais faim, et vous ne m’avez pas donné à manger ; j’avais soif, et vous ne m’avez pas donné à boire ; j’étais un étranger, et vous ne m’avez pas accueilli ; j’étais nu, et vous ne m’avez pas habillé ; j’étais malade et en prison, et vous ne m’avez pas visité.”
+              Alors ils répondront, eux aussi : “Seigneur, quand t’avons-nous vu avoir faim, avoir soif, être nu, étranger, malade ou en prison, sans nous mettre à ton service ?” Il leur répondra : “Amen, je vous le dis : chaque fois que vous ne l’avez pas fait à l’un de ces plus petits, c’est à moi que vous ne l’avez pas fait.”
+              Et ils s’en iront, ceux-ci au châtiment éternel, et les justes, à la vie éternelle. »
+          - biblicalRef: Mc 15, 33-39 ; 16, 1-6
+            headline: |-
+              Jésus était mort, il est vivant
+            content: |-
+              Jésus avait été mis en croix. Quand arriva la sixième heure (c’est-à-dire : midi), l’obscurité se fit sur toute la terre jusqu’à la neuvième heure. Et à la neuvième heure, Jésus cria d’une voix forte : « Éloï, Éloï, lema sabactani ? », ce qui se traduit : « Mon Dieu, mon Dieu, pourquoi m’as-tu abandonné ? » L’ayant entendu, quelques-uns de ceux qui étaient là disaient : « Voilà qu’il appelle le prophète Élie ! » L’un d’eux courut tremper une éponge dans une boisson vinaigrée, il la mit au bout d’un roseau, et il lui donnait à boire, en disant : « Attendez ! Nous verrons bien si Élie vient le descendre de là ! » Mais Jésus, poussant un grand cri, expira. Le rideau du Sanctuaire se déchira en deux, depuis le haut jusqu’en bas. Le centurion qui était là en face de Jésus, voyant comment il avait expiré, déclara : « Vraiment, cet homme était Fils de Dieu ! » Le sabbat terminé, Marie Madeleine, Marie, mère de Jacques, et Salomé achetèrent des parfums pour aller embaumer le corps de Jésus. De grand matin, le premier jour de la semaine, elles se rendent au tombeau dès le lever du soleil. Elles se disaient entre elles : « Qui nous roulera la pierre pour dégager l’entrée du tombeau ? » Levant les yeux, elles s’aperçoivent qu’on a roulé la pierre, qui était pourtant très grande. En entrant dans le tombeau, elles virent, assis à droite, un jeune homme vêtu de blanc. Elles furent saisies de frayeur. Mais il leur dit : « Ne soyez pas effrayées ! Vous cherchez Jésus de Nazareth, le Crucifié ? Il est ressuscité : il n’est pas ici. Voici l’endroit où on l’avait déposé. »
+          - biblicalRef: Lc 12, 35-40
+            headline: |-
+              Accueillir le Seigneur quand il vient
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples : « Restez en tenue de service, votre ceinture autour des reins, et vos lampes allumées. Soyez comme des gens qui attendent leur maître à son retour des noces, pour lui ouvrir dès qu’il arrivera et frappera à la porte. Heureux ces serviteurs-là que le maître, à son arrivée, trouvera en train de veiller. Amen, je vous le dis : c’est lui qui, la ceinture autour des reins, les fera prendre place à table et passera pour les servir. S’il revient vers minuit ou vers trois heures du matin et qu’il les trouve ainsi, heureux sont-ils ! Vous le savez bien : si le maître de maison avait su à quelle heure le voleur viendrait, il n’aurait pas laissé percer le mur de sa maison.
+              Vous aussi, tenez-vous prêts : c’est à l’heure où vous n’y penserez pas que le Fils de l’homme viendra. »
+          - biblicalRef: Lc 23, 33.39-43
+            headline: |-
+              « Aujourd’hui tu seras avec moi »
+            content: |-
+              Lorsque les soldats furent arrivés au lieu dit : Le Crâne (ou Calvaire), là ils crucifièrent Jésus, avec les deux malfaiteurs, l’un à droite et l’autre à gauche.
+              L’un des malfaiteurs suspendus en croix l’injuriait : « N’es-tu pas le Christ ? Sauve-toi toi-même, et nous aussi ! » Mais l’autre lui fit de vifs reproches : « Tu ne crains donc pas Dieu ! Tu es pourtant un condamné, toi aussi ! Et puis, pour nous, c’est juste : après ce que nous avons fait, nous avons ce que nous méritons. Mais lui, il n’a rien fait de mal. » Et il disait : « Jésus, souviens-toi de moi quand tu viendras dans ton Royaume. » Jésus lui déclara : « Amen, je te le dis : aujourd’hui, avec moi, tu seras dans le Paradis. »
+          - biblicalRef: Lc 24, 13-35
+            headline: |-
+              Les disciples d’Emmaüs
+            content: |-
+              Le même jour (c’est-à-dire le premier jour de la semaine), deux disciples faisaient route vers un village appelé Emmaüs, à deux heures de marche de Jérusalem, et ils parlaient entre eux de tout ce qui s’était passé. Or, tandis qu’ils s’entretenaient et s’interrogeaient, Jésus lui-même s’approcha, et il marchait avec eux. Mais leurs yeux étaient empêchés de le reconnaître.
+              Jésus leur dit : « De quoi discutez-vous en marchant ? » Alors, ils s’arrêtèrent, tout tristes. L’un des deux, nommé Cléophas, lui répondit : « Tu es bien le seul étranger résidant à Jérusalem qui ignore les événements de ces jours-ci. » Il leur dit : « Quels événements ? » Ils lui répondirent : « Ce qui est arrivé à Jésus de Nazareth, cet homme qui était un prophète puissant par ses actes et ses paroles devant Dieu et devant tout le peuple : comment les grands prêtres et nos chefs l’ont livré, ils l’ont fait condamner à mort et ils l’ont crucifié. Nous, nous espérions que c’était lui qui allait délivrer Israël. Mais avec tout cela, voici déjà le troisième jour qui passe depuis que c’est arrivé. À vrai dire, des femmes de notre groupe nous ont remplis de stupeur. Quand, dès l’aurore, elles sont allées au tombeau, elles n’ont pas trouvé son corps ; elles sont venues nous dire qu’elles avaient même eu une vision : des anges, qui disaient qu’il est vivant. Quelques-uns de nos compagnons sont allés au tombeau, et ils ont trouvé les choses comme les femmes l’avaient dit ; mais lui, ils ne l’ont pas vu. » Il leur dit alors : « Esprits sans intelligence ! Comme votre cœur est lent à croire tout ce que les prophètes ont dit ! Ne fallait-il pas que le Christ souffrît cela pour entrer dans sa gloire ? » Et, partant de Moïse et de tous les Prophètes, il leur interpréta, dans toute l’Écriture, ce qui le concernait.
+              Quand ils approchèrent du village où ils se rendaient, Jésus fit semblant d’aller plus loin. Mais ils s’efforcèrent de le retenir : « Reste avec nous, car le soir approche et déjà le jour baisse. » Il entra donc pour rester avec eux. Quand il fut à table avec eux, ayant pris le pain, il prononça la bénédiction et, l’ayant rompu, il le leur donna. Alors leurs yeux s’ouvrirent, et ils le reconnurent, mais il disparut à leurs regards. Ils se dirent l’un à l’autre : « Notre cœur n’était-il pas brûlant en nous, tandis qu’il nous parlait sur la route et nous ouvrait les Écritures ? »
+              À l’instant même, ils se levèrent et retournèrent à Jérusalem. Ils y trouvèrent réunis les onze Apôtres et leurs compagnons, qui leur dirent : « Le Seigneur est réellement ressuscité : il est apparu à Simon-Pierre. » À leur tour, ils racontaient ce qui s’était passé sur la route, et comment le Seigneur s’était fait reconnaître par eux à la fraction du pain.
+          - biblicalRef: Jn 6, 37-40
+            headline: |-
+              Jésus est venu pour que nous vivions
+            content: |-
+              En ce temps-là, Jésus disait à la foule : « Tous ceux que me donne le Père viendront jusqu’à moi ; et celui qui vient à moi, je ne vais pas le jeter dehors. Car je suis descendu du ciel pour faire non pas ma volonté, mais la volonté de Celui qui m’a envoyé. Or, telle est la volonté de Celui qui m’a envoyé : que je ne perde aucun de ceux qu’il m’a donnés, mais que je les ressuscite au dernier jour. Telle est la volonté de mon Père : que celui qui voit le Fils et croit en lui ait la vie éternelle ; et moi, je le ressusciterai au dernier jour. »
+          - biblicalRef: Jn 6, 51-58
+            headline: |-
+              Le pain de Vie
+            content: |-
+              En ce temps-là, Jésus disait aux foules : « Moi, je suis le pain vivant, qui est descendu du ciel : si quelqu’un mange de ce pain, il vivra éternellement. Le pain que je donnerai, c’est ma chair, donnée pour la vie du monde. »
+              Les Juifs se querellaient entre eux : « Comment celui-là peut-il nous donner sa chair à manger ? » Jésus leur dit alors : « Amen, amen, je vous le dis : si vous ne mangez pas la chair du Fils de l’homme, et si vous ne buvez pas son sang, vous n’avez pas la vie en vous. Celui qui mange ma chair et boit mon sang a la vie éternelle ; et moi, je le ressusciterai au dernier jour. En effet, ma chair est la vraie nourriture, et mon sang est la vraie boisson. Celui qui mange ma chair et boit mon sang demeure en moi, et moi, je demeure en lui. De même que le Père, qui est vivant, m’a envoyé, et que moi je vis par le Père, de même celui qui me mange, lui aussi vivra par moi. Tel est le pain qui est descendu du ciel : il n’est pas comme celui que les pères ont mangé. Eux, ils sont morts ; celui qui mange ce pain vivra éternellement. »
+          - biblicalRef: Jn 11, 17-27
+            headline: |-
+              « Je suis la Résurrection et la Vie »
+            content: |-
+              À son arrivée, Jésus trouva Lazare au tombeau depuis quatre jours déjà. Comme Béthanie était tout près de Jérusalem – à une distance de quinze stades (c’est-à-dire une demi-heure de marche environ) –, beaucoup de Juifs étaient venus réconforter Marthe et Marie au sujet de leur frère. Lorsque Marthe apprit l’arrivée de Jésus, elle partit à sa rencontre, tandis que Marie restait assise à la maison.
+              Marthe dit à Jésus : « Seigneur, si tu avais été ici, mon frère ne serait pas mort. Mais maintenant encore, je le sais, tout ce que tu demanderas à Dieu, Dieu te l’accordera. »
+              Jésus lui dit : « Ton frère ressuscitera. »
+              Marthe reprit : « Je sais qu’il ressuscitera à la résurrection, au dernier jour. »
+              Jésus lui dit : « Moi, je suis la résurrection et la vie. Celui qui croit en moi, même s’il meurt, vivra ; quiconque vit et croit en moi ne mourra jamais. Crois-tu cela ? »
+              Elle répondit : « Oui, Seigneur, je le crois : tu es le Christ, le Fils de Dieu, tu es celui qui vient dans le monde. »
+          - biblicalRef: Jn 11, 32-45
+            headline: |-
+              Jésus a pleuré son ami Lazare
+            content: |-
+              En ce temps-là, Marie arriva à l’endroit où se trouvait Jésus. Dès qu’elle le vit, elle se jeta à ses pieds et lui dit : « Seigneur, si tu avais été ici, mon frère ne serait pas mort. » Quand il vit qu’elle pleurait, et que les Juifs venus avec elle pleuraient aussi, Jésus, en son esprit, fut saisi d’émotion, il fut bouleversé, et il demanda : « Où l’avez-vous déposé ? » Ils lui répondirent : « Seigneur, viens, et vois. » Alors Jésus se mit à pleurer. Les Juifs disaient : « Voyez comme il l’aimait ! » Mais certains d’entre eux dirent : « Lui qui a ouvert les yeux de l’aveugle, ne pouvait-il pas empêcher Lazare de mourir ? »
+              Jésus, repris par l’émotion, arriva au tombeau. C’était une grotte fermée par une pierre. Jésus dit : « Enlevez la pierre. » Marthe, la sœur du défunt, lui dit : « Seigneur, il sent déjà ; c’est le quatrième jour qu’il est là. » Alors Jésus dit à Marthe : « Ne te l’ai-je pas dit ? Si tu crois, tu verras la gloire de Dieu. » On enleva donc la pierre. Alors Jésus leva les yeux au ciel et dit : « Père, je te rends grâce parce que tu m’as exaucé. Je le savais bien, moi, que tu m’exauces toujours ; mais je le dis à cause de la foule qui m’entoure, afin qu’ils croient que c’est toi qui m’as envoyé. » Après cela, il cria d’une voix forte : « Lazare, viens dehors ! » Et le mort sortit, les pieds et les mains liés par des bandelettes, le visage enveloppé d’un suaire. Jésus leur dit : « Déliez-le, et laissez-le aller. » Beaucoup de Juifs, qui étaient venus auprès de Marie et avaient donc vu ce que Jésus avait fait, crurent en lui.
+          - biblicalRef: Jn 12, 23-28
+            headline: |-
+              Le grain qui meurt porte du fruit
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples : « L’heure est venue où le Fils de l’homme doit être glorifié. Amen, amen, je vous le dis : si le grain de blé tombé en terre ne meurt pas, il reste seul ; mais s’il meurt, il porte beaucoup de fruit. Qui aime sa vie la perd ; qui s’en détache en ce monde la gardera pour la vie éternelle. Si quelqu’un veut me servir, qu’il me suive ; et là où moi je suis, là aussi sera mon serviteur. Si quelqu’un me sert, mon Père l’honorera. Maintenant mon âme est bouleversée. Que vais-je dire ? “Père, sauve-moi de cette heure” ? – Mais non ! C’est pour cela que je suis parvenu à cette heure-ci ! Père, glorifie ton nom ! »
+              Alors, du ciel vint une voix qui disait : « Je l’ai glorifié et je le glorifierai encore. »
+          - biblicalRef: Jn 14, 1-6
+            headline: |-
+              Dans la maison du Père
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples : « Que votre cœur ne soit pas bouleversé : vous croyez en Dieu, croyez aussi en moi. Dans la maison de mon Père, il y a de nombreuses demeures ; sinon, vous aurais-je dit : “Je pars vous préparer une place” ? Quand je serai parti vous préparer une place, je reviendrai et je vous emmènerai auprès de moi, afin que là où je suis, vous soyez, vous aussi. Pour aller où je vais, vous savez le chemin. » Thomas lui dit : « Seigneur, nous ne savons pas où tu vas. Comment pourrions-nous savoir le chemin ? » Jésus lui répond : « Moi, je suis le Chemin, la Vérité et la Vie ; personne ne va vers le Père sans passer par moi. »
+          - biblicalRef: Jn 17, 24-26
+            headline: |-
+              Jésus a prié pour ses amis
+            content: |-
+              En ce temps-là, les yeux levés au ciel, Jésus priait ainsi : « Père, ceux que tu m’as donnés, je veux que là où je suis, ils soient eux aussi avec moi, et qu’ils contemplent ma gloire, celle que tu m’as donnée parce que tu m’as aimé avant la fondation du monde. Père juste, le monde ne t’a pas connu, mais moi je t’ai connu, et ceux-ci ont reconnu que tu m’as envoyé. Je leur ai fait connaître ton nom, et je le ferai connaître, pour que l’amour dont tu m’as aimé soit en eux, et que moi aussi, je sois en eux. »
+          - biblicalRef: Jn 19, 17-18.25-39
+            headline: |-
+              Il n’y a pas de plus grand amour que de donner sa vie pour ceux que l’on aime
+            content: |-
+              En ce temps-là, Jésus lui-même, portant sa croix, sortit en direction du lieu dit Le Crâne (ou Calvaire), qui se dit en hébreu Golgotha. C’est là qu’ils le crucifièrent, et deux autres avec lui, un de chaque côté, et Jésus au milieu.
+              Or, près de la croix de Jésus se tenaient sa mère et la sœur de sa mère, Marie, femme de Cléophas, et Marie Madeleine. Jésus, voyant sa mère, et près d’elle le disciple qu’il aimait, dit à sa mère : « Femme, voici ton fils. » Puis il dit au disciple : « Voici ta mère. » Et à partir de cette heure-là, le disciple la prit chez lui. Après cela, sachant que tout, désormais, était achevé pour que l’Écriture s’accomplisse jusqu’au bout, Jésus dit : « J’ai soif. » Il y avait là un récipient plein d’une boisson vinaigrée. On fixa donc une éponge remplie de ce vinaigre à une branche d’hysope, et on l’approcha de sa bouche. Quand il eut pris le vinaigre, Jésus dit : « Tout est accompli. » Puis, inclinant la tête, il remit l’esprit.
+              Comme c’était le jour de la Préparation (c’est-à-dire le vendredi), il ne fallait pas laisser les corps en croix durant le sabbat, d’autant plus que ce sabbat était le grand jour de la Pâque. Aussi les Juifs demandèrent à Pilate qu’on enlève les corps après leur avoir brisé les jambes. Les soldats allèrent donc briser les jambes du premier, puis de l’autre homme crucifié avec Jésus. Quand ils arrivèrent à Jésus, voyant qu’il était déjà mort, ils ne lui brisèrent pas les jambes, mais un des soldats avec sa lance lui perça le côté ; et aussitôt, il en sortit du sang et de l’eau.
+              Celui qui a vu rend témoignage, et son témoignage est véridique ; et celui-là sait qu’il dit vrai afin que vous aussi, vous croyiez. Cela, en effet, arriva pour que s’accomplisse l’Écriture : « Aucun de ses os ne sera brisé ». Un autre passage de l’Écriture dit encore : « Ils lèveront les yeux vers celui qu’ils ont transpercé. » Après cela, Joseph d’Arimathie, qui était disciple de Jésus, mais en secret par crainte des Juifs, demanda à Pilate de pouvoir enlever le corps de Jésus. Et Pilate le permit. Joseph vint donc enlever le corps de Jésus. Nicodème – celui qui, au début, était venu trouver Jésus pendant la nuit – vint lui aussi ; il apportait un mélange de myrrhe et d’aloès pesant environ cent livres.
+          - biblicalRef: Lc 7, 11-17
+            headline: |-
+              « Jeune homme, je te l’ordonne, lève-toi »
+            content: |-
+              Jésus se rendit dans une ville appelée Naïm. Ses disciples faisaient route avec lui, ainsi qu’une grande foule. Il arriva près de la porte de la ville au moment où l’on emportait un mort pour l’enterrer ; c’était un fils unique, et sa mère était veuve. Une foule importante de la ville accompagnait cette femme.
+              Voyant celle-ci, le Seigneur fut saisi de compassion pour elle et lui dit : « Ne pleure pas. » Il s’approcha et toucha le cercueil ; les porteurs s’arrêtèrent, et Jésus dit : « Jeune homme, je te l’ordonne, lève-toi. » Alors le mort se redressa et se mit à parler. Et Jésus le rendit à sa mère.
+              La crainte s’empara de tous, et ils rendaient gloire à Dieu en disant : « Un grand prophète s’est levé parmi nous, et Dieu a visité son peuple. » Et cette parole sur Jésus se répandit dans la Judée entière et dans toute la région.
+
+    offeringPrayer:
+    - |-
+      Sois proche de ton serviteur (ta servante) N. ; +
+      Seigneur, nous t’en prions ; *
+      >si la tache du péché l’a marquée ,
+      >si la faiblesse humaine l’a souillé (e), /
+      que ta tendresse lui pardonne
+      >et le (la) purifie.
+      Par le Christ, notre Seigneur.
+    - |-
+      Sois favorable à nos offrandes, Seigneur : *
+      que ton serviteur (ta servante) N. parvienne à la gloire
+      avec ton Fils à qui nous sommes unis /
+      >par l’admirable sacrement de son amour.
+      Lui qui vit et règne pour les siècles des siècles. 
+    prefaceList:
+    - for_the_dead_1
+    - for_the_dead_2
+    - for_the_dead_3
+    - for_the_dead_4
+    - for_the_dead_5
+    communionAntiphon:
+    - biblicalReference: Ph 3, 20-21
+      content: |-
+        Nous attendons comme Sauveur notre Seigneur Jésus Christ, 
+        lui qui transformera nos pauvres corps
+        >à l’image de son corps glorieux. 
+    prayerAfterCommunion:
+    - |-
+      Seigneur Dieu, +
+      ton Fils nous a laissé,
+      dans le sacrement de son Corps,
+      >les vivres dont nous avons besoin
+      >pour la route qui mène à toi ; *
+      dans ta bonté, accorde à notre frère (soeur)
+      >de parvenir par ce sacrement /
+      >jusqu’à la table où le Christ le (la) convie dans l’éternité. 
+      Lui qui vit et règne pour les siècles des siècles.
+    - |-
+      Nous te prions, Dieu tout-puissant,
+      pour ton serviteur (ta servante) N.
+      >qui vient de quitter ce monde : *
+      fais que, purifié(e) par ce sacrifice
+      >et dégagé(e) de ses fautes, /
+      >il (elle) goûte les joies éternelles de la résurrection.
+      Par le Christ, notre Seigneur.

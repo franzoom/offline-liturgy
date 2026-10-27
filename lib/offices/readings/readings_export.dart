@@ -49,15 +49,18 @@ Future<Readings> readingsExport(CelebrationContext context) async {
   // threshold: Ash Wednesday and the Sundays of Lent rank 2 yet have none,
   // while Dec 29-31 rank 9 yet do. The Commemoration of All the Faithful
   // Departed keeps its high rank (so that its Mass prevails even over a
-  // Sunday) but has no Te Deum.
+  // Sunday) but has no Te Deum, nor has the Office of the Dead; the Office
+  // of the Dedication, a solemnity, has one.
   final bool isAllSouls = context.celebrationCode ==
-      'roman/commemoration_of_all_the_faithful_departed';
+          'roman/commemoration_of_all_the_faithful_departed' ||
+      context.votiveOffice == VotiveOffice.departed;
   final bool isOctaveDay =
       lt == 'nativity' || lt == 'christmasoctave' || lt == 'paschaloctave';
   final bool isSundayOutsideLent =
       context.date.isSunday && lt != 'lent' && lt != 'holyweek';
-  final bool isSolemnityOrFeast =
-      prec <= 8 && !ferialDayCheck(context.celebrationCode);
+  final bool isSolemnityOrFeast = prec <= 8 &&
+      (context.votiveOffice != null ||
+          !ferialDayCheck(context.celebrationCode));
   final bool hasTeDeum =
       !isAllSouls && (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
   readingsOffice.teDeum = hasTeDeum ? teDeum : null;

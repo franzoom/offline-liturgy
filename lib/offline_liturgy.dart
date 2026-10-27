@@ -32,6 +32,7 @@ export 'classes/vespers_class.dart';
 export 'offices/vespers/vespers_export.dart';
 export 'offices/vespers/vespers_detection.dart';
 export 'offices/office_detection.dart' show PrecedenceOverride;
+export 'offices/votive_offices.dart';
 export 'classes/mass_class.dart';
 export 'offices/masses/mass_export.dart';
 export 'offices/masses/mass_detection.dart';

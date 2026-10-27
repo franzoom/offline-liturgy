@@ -509,11 +509,13 @@ class Masses {
 }
 
 /// The readingParts types of a solemnity, which always has two readings:
-/// the reference completeReadingParts fills a solemnity's Mass up to.
+/// the reference completeReadingParts fills a solemnity's Mass up to — the
+/// Gospel acclamation included, which a Common may bring with its Gospel.
 const List<String> solemnityReadingPartTypes = [
   'READING_1',
   'PSALM',
   'READING_2',
+  'ALLELUIA',
   'GOSPEL',
 ];
 
@@ -524,6 +526,8 @@ const List<String> solemnityReadingPartTypes = [
 /// repeated entries (Sundays, the Easter Vigil). Used to complete a proper
 /// Liturgy of the Word from the day's readings or from the Common — a
 /// Common has one entry per partType, so taking the first loses nothing.
+/// The Gospel acclamation goes with its Gospel: none is taken from
+/// [source] for an [own] Gospel.
 List<MassReadingPart> completeReadingParts(
   List<MassReadingPart>? own,
   List<MassReadingPart>? source,
@@ -531,13 +535,17 @@ List<MassReadingPart> completeReadingParts(
 ) {
   final ownParts = own ?? const <MassReadingPart>[];
   final ownTypes = ownParts.map((p) => p.partType).toSet();
-  if (referenceTypes.every(ownTypes.contains)) return ownParts;
+  final neededTypes = referenceTypes
+      .where((t) => !(t == 'ALLELUIA' && ownTypes.contains('GOSPEL')))
+      .toSet();
+  if (neededTypes.every(ownTypes.contains)) return ownParts;
   final sourceParts = source ?? const <MassReadingPart>[];
   return [
     for (final type in referenceTypes)
       if (ownTypes.contains(type))
         ...ownParts.where((p) => p.partType == type)
-      else if (sourceParts.any((p) => p.partType == type))
+      else if (neededTypes.contains(type) &&
+          sourceParts.any((p) => p.partType == type))
         sourceParts.firstWhere((p) => p.partType == type),
     ...ownParts.where((p) => !referenceTypes.contains(p.partType)),
   ];

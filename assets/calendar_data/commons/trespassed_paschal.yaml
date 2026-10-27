@@ -11,3 +11,62 @@ vespers:
   evangelicAntiphon:
     common:
     - Il est ressuscité, Jésus, le crucifié ; en lui, notre salut, alléluia !.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+    - biblicalReference: 1Th 4, 14 ; 1Co 15, 22
+      content: |-
+        Jésus est mort et ressuscité ;
+        >de même, ceux qui se sont endormis,
+        >Dieu, par Jésus, les emmènera avec lui.
+        Et de même que tous meurent en Adam,
+        >de même aussi dans le Christ
+        >tous recevront la vie, alléluia.
+    collect:
+    - |-
+      Écoute nos prières avec bonté, Seigneur, nous t’en prions : *
+      tandis que grandit notre foi
+      >en ton Fils ressuscité d’entre les morts, *
+      affermis aussi notre espérance, /
+      >puisque nous attendons la résurrection
+      >de ton serviteur (ta servante) N.
+      Par Jésus-Christ, ton Fils, notre Seigneur, +
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles. 
+    - |-
+      Seigneur Dieu, +
+      quand prend fin la vie présente,
+      >tu ouvres l’accès à la vie future ; *
+      nous t’en prions : fais que, sous ta conduite, /
+      >l’âme de ton serviteur (ta servante) N.
+      >obtienne de participer à la rédemption éternelle.
+      Par Jésus Christ, ton Fils, notre Seigneur, +
+      >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+      >Dieu, pour les siècles des siècles.
+    offeringPrayer:
+    - |-
+      Sois favorable à nos offrandes, Seigneur : *
+      que ton serviteur (ta servante) N. parvienne à la gloire
+      >avec ton Fils à qui nous sommes unis /
+      >par l’admirable sacrement de son amour.
+      Lui qui vit et règne pour les siècles des siècles. 
+    prefaceList:
+    - for_the_dead_1
+    - for_the_dead_2
+    - for_the_dead_3
+    - for_the_dead_4
+    - for_the_dead_5
+    communionAntiphon:
+    - biblicalReference: Jn 11, 25-26
+      content: |-
+        Je suis la résurrection et la vie, dit le Seigneur.
+        Celui qui croit en moi, même s’il meurt, vivra ;
+        >quiconque vit et croit en moi ne mourra jamais, alléluia.
+    prayerAfterCommunion:
+    - |-
+      Accorde, Seigneur, à ton serviteur (ta servante) N.
+      >de passer dans ta demeure de lumière et de paix, *
+      car c’est pour lui (elle) que nous avons célébré /
+      >le sacrement pascal.
+      Par le Christ, notre Seigneur. 

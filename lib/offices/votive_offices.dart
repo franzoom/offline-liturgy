@@ -4,6 +4,7 @@ import '../classes/compline_class.dart';
 import '../classes/office_elements_class.dart';
 import '../tools/constants.dart';
 import '../tools/data_loader.dart';
+import '../tools/hierarchical_common_loader.dart';
 import '../tools/date_tools.dart';
 import '../tools/yaml_map_loader.dart';
 
@@ -146,5 +147,28 @@ Future<Map<String, ComplineDefinition>> votiveComplineDetection(
   return {
     day: compline(day, 'solemnity', 'sunday'),
     eve: compline(eve, 'solemnityeve', 'saturday', isEveCompline: true),
+  };
+}
+
+/// The votive [office]'s Mass on [date], keyed like massDetection's: its
+/// Common's alone, the day's left aside (see massExport).
+Future<Map<String, CelebrationContext>> votiveMassDetection(
+  Calendar calendar,
+  DateTime date,
+  DataLoader dataLoader,
+  VotiveOffice office,
+) async {
+  final c = await votiveOfficeContext(calendar, date, dataLoader, office);
+  if (c == null) return {};
+  final mass = c.copyWith(celebrationType: 'mass', massName: 'DAY_MASS');
+  final commonMass = (await loadMassHierarchicalCommon(
+          mass.copyWith(commonList: [c.commonList!.first])))
+      .ofType('DAY_MASS');
+  return {
+    '${c.celebrationTitle} - DAY_MASS': mass.copyWith(
+      commonUsedForPrayers:
+          commonMass?.providedPrayerFields.isNotEmpty ?? false,
+      commonUsedForReadings: commonMass?.readingParts?.isNotEmpty ?? false,
+    ),
   };
 }

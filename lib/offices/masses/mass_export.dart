@@ -45,8 +45,10 @@ Future<Mass> massExport(CelebrationContext context) async {
   final bool isChristmasOctave =
       context.liturgicalTime == 'christmasoctave' && context.date.day <= 28;
 
-  // STEP 1: Load ferial data as the base layer
-  if (context.hasFerialBase) {
+  // STEP 1: Load ferial data as the base layer — but the Mass of the
+  // Dedication or of the Dead is its Common's alone: the day's prayers
+  // would be another Mass's
+  if (context.hasFerialBase && context.votiveOffice == null) {
     massesOffice = await ferialMassResolution(context);
   }
 
@@ -61,7 +63,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   // STEP 4) and/or its own readingParts (Feasts/Solemnities always;
   // memorials only if the reader opts in, STEP 5b).
   Masses properMasses = Masses();
-  if (context.hasProper) {
+  if (context.hasProperFile) {
     properMasses = await massExtract(
         await celebrationFilePath(context.properCode, context.dataLoader),
         context.dataLoader);

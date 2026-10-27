@@ -30,21 +30,17 @@ Future<Readings> readingsExtract(String relativePath, DataLoader dataLoader,
   if (data == null) return Readings();
 
   try {
-    // 1. Extract the specific Readings section
-    Readings readings;
-    if (data['readings'] is Map<String, dynamic>) {
-      final Map<String, dynamic> readingsData =
-          data['readings'] as Map<String, dynamic>;
-      readings = Readings.fromJson(readingsData,
-          year: year, biblicalCycle: biblicalCycle);
+    // 1. Extract the specific Readings section, if any
+    final readingsData = data['readings'];
+    final readings = readingsData is Map<String, dynamic>
+        ? Readings.fromJson(readingsData,
+            year: year, biblicalCycle: biblicalCycle)
+        : Readings();
 
-      // 2. Fallback for Oration:
-      // If the specific section doesn't have an oration, look at the root level
-      readings.oration ??= asTextList(data['oration']);
-    } else {
-      // Return empty instance if the 'readings' key is missing
-      readings = Readings();
-    }
+    // 2. Fallback for Oration: if the section doesn't have one (or there is
+    // no section, e.g. a Common giving only its oration, like
+    // dedicace_inside), look at the root level
+    readings.oration ??= asTextList(data['oration']);
 
     return readings;
   } catch (e) {

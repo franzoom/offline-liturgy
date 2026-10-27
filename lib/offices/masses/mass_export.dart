@@ -63,7 +63,7 @@ Future<Mass> massExport(CelebrationContext context) async {
   Masses properMasses = Masses();
   if (context.hasProper) {
     properMasses = await massExtract(
-        await celebrationFilePath(context.celebrationCode, context.dataLoader),
+        await celebrationFilePath(context.properCode, context.dataLoader),
         context.dataLoader);
   }
 

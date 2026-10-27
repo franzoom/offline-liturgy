@@ -315,6 +315,19 @@ enum MassReadingSource {
   all,
 }
 
+/// Feasts of the Lord with a weekday file and a Sunday file: the Sunday's
+/// has their First Vespers and the two readings of a solemnity's Mass.
+const _sundayProperCodes = {
+  'roman/presentation_of_the_lord_week':
+      'roman/presentation_of_the_lord_sunday',
+  'roman/transfiguration_of_the_lord_week':
+      'roman/transfiguration_of_the_lord_sunday',
+  'roman/exaltation_of_the_holy_cross_week':
+      'roman/exaltation_of_the_holy_cross_sunday',
+  'roman/holy_family_week': 'roman/holy_family_sunday',
+  'roman/baptism_of_the_lord_week': 'roman/baptism_of_the_lord_sunday',
+};
+
 /// Context class containing all parameters needed for office resolution.
 /// This class consolidates MorningDefinition, VespersDefinition, and ReadingsDefinition.
 class CelebrationContext {
@@ -422,6 +435,13 @@ class CelebrationContext {
 
   /// Whether the celebration has its own file over the ferial day.
   bool get hasProper => celebrationCode != ferialCode;
+
+  /// The code of the file holding the celebration's proper: its own, but a
+  /// weekday feast of the Lord made a local solemnity takes its Sunday file
+  /// (see _sundayProperCodes).
+  String get properCode => (precedence ?? 13) <= 4
+      ? _sundayProperCodes[celebrationCode] ?? celebrationCode
+      : celebrationCode;
 
   /// Whether a common is selected for the celebration.
   bool get hasSelectedCommon => selectedCommon?.trim().isNotEmpty ?? false;

@@ -101,7 +101,11 @@ Future<Map<String, CelebrationContext>> massDetection(
       final properMass = properMasses.ofType(mass.massType);
       final commonMass = commonMasses?.ofType(mass.massType);
       final properTypes = typesOf(properMass);
-      final commonTypes = typesOf(commonMass);
+      final commonTypes = commonMasses
+              ?.readingPartsFor(mass.massType)
+              ?.map((p) => p.partType)
+              .toList() ??
+          const <String>[];
       final reference = referenceReadingPartTypes(
           c.precedence, typesOf(dayMasses.ofType(mass.massType)), properTypes);
       final commonFillsReadings = reference

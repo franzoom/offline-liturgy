@@ -132,6 +132,51 @@ void main() {
     expect(partTypes(mass), ['READING_1', 'PSALM', 'READING_2', 'GOSPEL']);
   });
 
+  group("All Souls' three Masses, with no readings of their own", () {
+    final date = DateTime(2026, 11, 2);
+    late Map<String, CelebrationContext> masses;
+    setUpAll(() async => masses = await massDetection(
+        getCalendar(Calendar(), date, 'lyon', data), date, dataLoader));
+
+    test("take the readings of their Common's Mass of the day", () async {
+      expect(masses.values.map((c) => c.massName),
+          ['FIRST_MASS', 'SECOND_MASS', 'THIRD_MASS']);
+      for (final c in masses.values) {
+        expect(c.commonUsedForReadings, isTrue, reason: c.massName);
+        expect(c.massUsesCommon, isTrue, reason: c.massName);
+        final mass = await massExport(c);
+        expect(partTypes(mass), ['READING_1', 'PSALM', 'GOSPEL'],
+            reason: c.massName);
+      }
+    });
+
+    test('keep their own prayers, each its own', () async {
+      final collects = [
+        for (final c in masses.values) (await massExport(c)).collect?.first,
+      ];
+      expect(collects.toSet(), hasLength(3));
+      expect(collects, everyElement(isNotNull));
+    });
+  });
+
+  group('readingPartsFor', () {
+    final common = Masses(masses: [
+      Mass(massType: 'DAY_MASS', readingParts: [part('GOSPEL', 'Jn 1, 1')]),
+    ]);
+
+    test("a numbered Mass takes the Common's Mass of the day", () {
+      for (final type in ['FIRST_MASS', 'SECOND_MASS', 'THIRD_MASS']) {
+        expect(firstRef(common.readingPartsFor(type), 'GOSPEL'), 'Jn 1, 1',
+            reason: type);
+      }
+    });
+
+    test('another Mass only its own type', () {
+      expect(common.readingPartsFor('VIGIL_MASS'), isNull);
+      expect(firstRef(common.readingPartsFor('DAY_MASS'), 'GOSPEL'), 'Jn 1, 1');
+    });
+  });
+
   group('completeReadingParts', () {
     final source = [
       part('READING_1', 'source R1'),

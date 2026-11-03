@@ -126,7 +126,7 @@ Future<Mass> massExport(CelebrationContext context) async {
         properMasses.masses?.firstOrNull;
     final ownParts = properSelected?.readingParts;
     final commonParts =
-        hasCommon ? commonMasses.ofType(selected.massType)?.readingParts : null;
+        hasCommon ? commonMasses.readingPartsFor(selected.massType) : null;
     List<String> typesOf(List<MassReadingPart>? parts) =>
         parts?.map((p) => p.partType).toList() ?? const [];
     final reference = referenceReadingPartTypes(

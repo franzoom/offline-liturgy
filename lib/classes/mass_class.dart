@@ -451,6 +451,15 @@ class Masses {
   Mass? ofType(String? massType) =>
       masses?.where((m) => m.massType == massType).firstOrNull;
 
+  /// The readingParts a Common offers a celebration's Mass of [massType]: its
+  /// Mass of that type's. A Common doesn't tell apart the Masses a day numbers
+  /// (All Souls' three), which take those of its Mass of the day.
+  List<MassReadingPart>? readingPartsFor(String? massType) =>
+      ofType(massType)?.readingParts ??
+      (_numberedMassTypes.contains(massType)
+          ? ofType('DAY_MASS')?.readingParts
+          : null);
+
   /// Merges overlay Mass objects into this Masses by matching on massType.
   /// Existing massTypes are overlaid via Mass.overlayWith; massTypes present
   /// in overlay but not in this Masses are appended.
@@ -507,6 +516,12 @@ class Masses {
     }
   }
 }
+
+const Set<String> _numberedMassTypes = {
+  'FIRST_MASS',
+  'SECOND_MASS',
+  'THIRD_MASS',
+};
 
 /// The readingParts types of a solemnity, which always has two readings:
 /// the reference completeReadingParts fills a solemnity's Mass up to — the

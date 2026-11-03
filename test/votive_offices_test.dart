@@ -128,8 +128,7 @@ void main() {
         expect(mass.prefaceList, isNotEmpty);
         expect(mass.communionAntiphon, isNotEmpty);
         expect(mass.prayerAfterCommunion, isNotEmpty);
-        expect(typesOf(mass),
-            ['READING_1', 'PSALM', 'READING_2', 'ALLELUIA', 'GOSPEL']);
+        expect(typesOf(mass), ['READING_1', 'PSALM', 'READING_2', 'GOSPEL']);
       });
 
       test("$season: the Office of the Dead's, its Common's alone", () async {

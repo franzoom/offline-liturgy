@@ -1,4 +1,4 @@
-// The psalm tone scores (assets/svg/<source>/NAME.svg) may carry the MIDI of
+// The psalm tone scores (assets/svg/psalm-tones/NAME.svg) carry the MIDI of
 // their psalmody, base64-encoded in a final <metadata id="midi"> element
 // (produced by build.py in the Psaumes repository). These tests check that
 // every embedded MIDI is readable and plays one note at a time — the guarantee
@@ -10,6 +10,7 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:offline_liturgy/offline_liturgy.dart';
+import 'package:offline_liturgy/tools/constants.dart';
 import 'package:offline_liturgy/tools/resolve_office_content.dart';
 import 'package:test/test.dart';
 
@@ -134,17 +135,20 @@ void main() {
     expect(withMidi, greaterThan(0));
   });
 
-  test('the Emmanuel seminary scores carry their MIDI', () {
-    final emmanuel = scores
-        .where((f) => f.parent.path.endsWith('seminaire-emmanuel'))
-        .toList();
-    // Scores whose source no longer exists keep their former, MIDI-less SVG.
-    const withoutSource = {'PSALM_118', 'PSALM_71-I', 'PSALM_71-II'};
-    for (final file in emmanuel) {
-      final name = file.uri.pathSegments.last.replaceAll('.svg', '');
-      if (withoutSource.contains(name)) continue;
+  test('the scores are the psalm tones, all with their MIDI', () {
+    for (final file in scores) {
+      final name = file.uri.pathSegments.last;
+      expect(file.parent.path, endsWith(psalmTonesFilePath),
+          reason: '$name is not a psalm tone score');
       expect(file.readAsStringSync(), contains('<metadata id="midi">'),
           reason: '$name has no MIDI');
+    }
+  });
+
+  test('the evangelic canticles have their score', () {
+    for (final code in ['NT_1', 'NT_2']) {
+      expect(File('assets/$psalmTonesFilePath/$code.svg').existsSync(), isTrue,
+          reason: code);
     }
   });
 
@@ -153,9 +157,18 @@ void main() {
     await resolveOfficeContent(
       psalmody: [entry],
       dataLoader: FileSystemDataLoader(),
-      svgSource: 'seminaire-emmanuel',
+      psalmTones: true,
     );
     expect(entry.svgData, hasLength(1));
     expect(_midiMetadata.hasMatch(entry.svgData!.single), isTrue);
+  });
+
+  test('no score is loaded without psalmTones', () async {
+    final entry = PsalmEntry(psalm: 'PSALM_109');
+    await resolveOfficeContent(
+      psalmody: [entry],
+      dataLoader: FileSystemDataLoader(),
+    );
+    expect(entry.svgData, isNull);
   });
 }

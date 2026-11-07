@@ -366,7 +366,8 @@ class CelebrationContext {
       showImprecatoryVerses; // whether to render imprecatory psalm verses (bracketed sections in YAML)
   // Location that added this feast; null = Roman calendar
   final LocationOrigin? celebrationOrigin;
-  final String? svgSource; // URL or path to the SVG psalm score source
+  // Whether to load the psalm tone scores (assets/svg/psalm-tones)
+  final bool psalmTones;
   // Reference year for the Sunday (A/B/C) and weekday (I/II) lectionary
   // cycles, from DayContent.liturgicalYear — already accounts for the
   // Advent shift (e.g. Advent 2026 carries liturgicalYear 2027).
@@ -427,7 +428,7 @@ class CelebrationContext {
     this.massName,
     this.showImprecatoryVerses = false,
     this.celebrationOrigin,
-    this.svgSource,
+    this.psalmTones = false,
     this.liturgicalYear,
     this.massReadingSources = const [],
     this.properReadingPartTypes = const [],
@@ -529,7 +530,7 @@ class CelebrationContext {
     String? massName,
     bool? showImprecatoryVerses,
     LocationOrigin? celebrationOrigin,
-    String? svgSource,
+    bool? psalmTones,
     int? liturgicalYear,
     List<MassReadingSource>? massReadingSources,
     List<String>? properReadingPartTypes,
@@ -564,7 +565,7 @@ class CelebrationContext {
       showImprecatoryVerses:
           showImprecatoryVerses ?? this.showImprecatoryVerses,
       celebrationOrigin: celebrationOrigin ?? this.celebrationOrigin,
-      svgSource: svgSource ?? this.svgSource,
+      psalmTones: psalmTones ?? this.psalmTones,
       liturgicalYear: liturgicalYear ?? this.liturgicalYear,
       massReadingSources: massReadingSources ?? this.massReadingSources,
       properReadingPartTypes:

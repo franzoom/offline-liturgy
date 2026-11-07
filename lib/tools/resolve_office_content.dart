@@ -5,6 +5,7 @@ import '../assets/libraries/psalms_library.dart';
 import '../assets/libraries/hymns_library.dart';
 import '../assets/libraries/eucharistic_prayer_communicantes_library.dart';
 import '../assets/libraries/prefaces_library.dart';
+import 'constants.dart';
 import 'data_loader.dart';
 
 /// Returns the SVG lookup key for a psalm code, stripping the part suffix
@@ -27,7 +28,7 @@ Future<void> resolveOfficeContent({
   List<PrefaceEntry>? prefaces,
   required DataLoader dataLoader,
   bool showImprecatoryVerses = true,
-  String? svgSource,
+  bool psalmTones = false,
 }) async {
   // 1. Psalmody
   final List<Future<void>> psalmTasks = [];
@@ -39,11 +40,11 @@ Future<void> resolveOfficeContent({
                 .then((result) => e.psalmData = result),
           ),
     );
-    if (svgSource != null) {
+    if (psalmTones) {
       psalmTasks.addAll(
         psalmody.where((e) => e.psalm != null && e.svgData == null).map(
               (e) => dataLoader
-                  .load('svg/$svgSource/${_svgKey(e.psalm!)}.svg')
+                  .load('$psalmTonesFilePath/${_svgKey(e.psalm!)}.svg')
                   .then((content) {
                 if (content.isNotEmpty) e.svgData = [content];
               }),
@@ -64,10 +65,10 @@ Future<void> resolveOfficeContent({
                 inv.psalmsData = results.whereType<Psalm>().toList()),
       );
     }
-    if (svgSource != null && inv.psalmsSvgData == null) {
+    if (psalmTones && inv.psalmsSvgData == null) {
       psalmTasks.add(
         Future.wait(invPsalms.map((code) =>
-                dataLoader.load('svg/$svgSource/${_svgKey(code)}.svg')))
+                dataLoader.load('$psalmTonesFilePath/${_svgKey(code)}.svg')))
             .then((results) {
           inv.psalmsSvgData = results
               .map((content) => content.isNotEmpty ? <String>[content] : null)

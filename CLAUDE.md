@@ -100,10 +100,11 @@
     hymns/                             # ~60 YAML hymn files (French)
     psalms/                            # PSALM_1–150 + OT_1–43 + NT_1–12 YAML files + hebrew-greek/ (gradual psalms)
     mass_missal/                       # Mass text files
-    svg/seminaire-emmanuel|seminaire-paris/  # psalm tone scores NAME.svg, loaded into svgData by resolveOfficeContent;
-                                       # may end with <metadata id="midi">base64 MIDI</metadata> = the psalmody
-                                       # (monophonic, no chords), built by build.py in the Psaumes repo, never edited
-                                       # by hand (test/score_midi_test.dart)
+    svg/psalm-tones/                   # psalm tone scores NAME.svg (psalmTonesFilePath), loaded into svgData by
+                                       # resolveOfficeContent when CelebrationContext.psalmTones is true; each ends
+                                       # with <metadata id="midi">base64 MIDI</metadata> = the psalmody (monophonic,
+                                       # no chords); built from psaume_neutre by build.py in the Psaumes repo, never
+                                       # edited by hand (test/score_midi_test.dart)
 
   scripts/                             # Python migration/conversion utilities (maintenance only, not for runtime)
   test/

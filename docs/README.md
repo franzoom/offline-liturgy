@@ -146,7 +146,7 @@ final Mass mass = await massExport(context);
 final Compline compline = await complineExport(complineDefinition);
 ```
 
-Setting `CelebrationContext.svgSource` (e.g. `'seminaire-emmanuel'`) also loads the psalm-tone SVG scores (`assets/svg/{source}/`).
+Setting `CelebrationContext.psalmTones` to `true` also loads the psalm-tone SVG scores (`assets/svg/psalm-tones/`), each carrying the MIDI of its psalmody.
 
 ---
 
@@ -295,7 +295,7 @@ assets/
   hymns/                        # ~320 liturgical hymns (French) + 000_list.yaml (seasonal lists)
   psalms/                       # PSALM_1–150, OT_1–43, NT_1–12 + gradual psalms
   mass_missal/                  # Mass texts: blessings/, prefaces/, eucharistic_prayer_communicantes/, elements/
-  svg/                          # psalm-tone scores, one folder per source (seminaire-emmanuel/, seminaire-paris/)
+  svg/psalm-tones/              # psalm-tone scores NAME.svg, built from psaume_neutre (Psaumes repository)
 ```
 
 ---

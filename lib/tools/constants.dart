@@ -6,6 +6,10 @@ const String ferialFilePath = 'calendar_data/ferial_days';
 const String sanctoralFilePath = 'calendar_data/sanctoral';
 const String commonsFilePath = 'calendar_data/commons';
 
+/// Psalm tone scores: NAME.svg, built from psaume_neutre in the Psaumes
+/// repository (each may embed the MIDI of its psalmody).
+const String psalmTonesFilePath = 'svg/psalm-tones';
+
 const privilegedTimes = {'advent', 'lent', 'christmasoctave', 'paschaloctave'};
 const timePrefixes = ['ot', 'advent', 'lent', 'christmas', 'easter'];
 

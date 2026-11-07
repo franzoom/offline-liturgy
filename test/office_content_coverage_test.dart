@@ -50,8 +50,8 @@ void main() {
   });
 
   /// Prints one result line and records the anomaly if [issues] is non-empty.
-  void report(String office, DateTime date, String celebration,
-      List<String> issues) {
+  void report(
+      String office, DateTime date, String celebration, List<String> issues) {
     checkedCount++;
     if (issues.isEmpty) {
       print('  $_green$office — OK$_reset  ($celebration)');
@@ -59,7 +59,8 @@ void main() {
       for (final issue in issues) {
         anomalies.add(_Anomaly(office, date, celebration, issue));
       }
-      print('  $_red$office — MANQUE : ${issues.join(' | ')}$_reset  ($celebration)');
+      print(
+          '  $_red$office — MANQUE : ${issues.join(' | ')}$_reset  ($celebration)');
     }
   }
 
@@ -73,7 +74,8 @@ void main() {
           '${dayContent?.defaultCelebrationTitle ?? '?'} ===');
 
       // --- Morning (Laudes) ---
-      final morningCandidates = await morningDetection(calendar, date, dataLoader);
+      final morningCandidates =
+          await morningDetection(calendar, date, dataLoader);
       for (final entry in morningCandidates.entries) {
         final morning = await morningExport(entry.value);
         report('Morning', date, _label(entry.key, entry.value.isCelebrable),
@@ -81,7 +83,8 @@ void main() {
       }
 
       // --- Vespers (I & II) ---
-      final vespersCandidates = await vespersDetection(calendar, date, dataLoader);
+      final vespersCandidates =
+          await vespersDetection(calendar, date, dataLoader);
       for (final entry in vespersCandidates.entries) {
         final isVespers2 = entry.value.celebrationType != 'vespers1';
         // Second Vespers of Saturday doesn't exist as its own office — it IS
@@ -94,6 +97,25 @@ void main() {
               '$_reset  (${entry.key})');
           continue;
         }
+        // A ferial day's Second Vespers that tomorrow's First Vespers replace
+        // (Dec 24 before the Nativity, the eve of Ascension Thursday) is never
+        // offered by the app, and its data deliberately has no Vespers of its
+        // own. Those of a feast or memorial set aside, and those of a ferial
+        // day that today's feast replaces, stay checked.
+        final firstVespers = vespersCandidates.entries
+            .where((e) =>
+                e.value.celebrationType == 'vespers1' && e.value.isCelebrable)
+            .map((e) => e.key.replaceFirst('I Vespers: ', ''))
+            .join(', ');
+        if (isVespers2 &&
+            !entry.value.isCelebrable &&
+            entry.value.celebrationCode == entry.value.ferialCode &&
+            firstVespers.isNotEmpty) {
+          checkedCount++;
+          print('  $_gray Vespers2 — n/a (remplacées par les premières vêpres'
+              ' de $firstVespers)$_reset  (${entry.key})');
+          continue;
+        }
         final vespers = await vespersExport(entry.value);
         final officeLabel = isVespers2 ? 'Vespers2' : 'Vespers1';
         report(officeLabel, date, _label(entry.key, entry.value.isCelebrable),
@@ -101,7 +123,8 @@ void main() {
       }
 
       // --- Readings (Office des lectures) ---
-      final readingsCandidates = await readingsDetection(calendar, date, dataLoader);
+      final readingsCandidates =
+          await readingsDetection(calendar, date, dataLoader);
       for (final entry in readingsCandidates.entries) {
         // No Office of Readings on Easter Sunday: the Easter Vigil takes its
         // place.
@@ -117,7 +140,8 @@ void main() {
       }
 
       // --- Compline ---
-      final complineCandidates = await complineDetection(calendar, date, dataLoader);
+      final complineCandidates =
+          await complineDetection(calendar, date, dataLoader);
       for (final entry in complineCandidates.entries) {
         final compline = await complineExport(entry.value);
         report('Compline', date, _label(entry.key, entry.value.isCelebrable),
@@ -140,7 +164,8 @@ void main() {
         if (_isIgnoredMass(entry.key)) {
           final issues = _checkMass(mass);
           checkedCount++;
-          print('  $_gray Mass — ignoré${issues.isEmpty ? '' : ' : ${issues.join(' | ')}'}'
+          print(
+              '  $_gray Mass — ignoré${issues.isEmpty ? '' : ' : ${issues.join(' | ')}'}'
               '$_reset  (${entry.key})');
           continue;
         }
@@ -160,14 +185,13 @@ void main() {
             : weekdayLectionaryYear(entry.value.liturgicalYear ?? _year);
         final candidateRefYears = isSunday ? [2026, 2027, 2028] : [2026, 2027];
         for (final refYear in candidateRefYears) {
-          final cycleKey = isSunday
-              ? sundayCycle(refYear)
-              : weekdayLectionaryYear(refYear);
+          final cycleKey =
+              isSunday ? sundayCycle(refYear) : weekdayLectionaryYear(refYear);
           if (cycleKey == realCycle) continue; // déjà couvert ci-dessus
           final variantContext = entry.value.copyWith(liturgicalYear: refYear);
           final variantMass = await massExport(variantContext);
-          final issues = _checkReadingParts(variantMass.readingParts,
-              'lectures (cycle $cycleKey)');
+          final issues = _checkReadingParts(
+              variantMass.readingParts, 'lectures (cycle $cycleKey)');
           if (issues.isNotEmpty) {
             final label =
                 '${_label(entry.key, entry.value.isCelebrable)} — cycle $cycleKey';
@@ -192,7 +216,8 @@ void main() {
         byOffice.putIfAbsent(a.office, () => []).add(a);
       }
       for (final office in byOffice.keys) {
-        print('\n$_red-- $office : ${byOffice[office]!.length} anomalie(s) --$_reset');
+        print(
+            '\n$_red-- $office : ${byOffice[office]!.length} anomalie(s) --$_reset');
         for (final a in byOffice[office]!) {
           print('  $a');
         }
@@ -243,7 +268,8 @@ final Set<String> _ignoredMissingAntiphonCodes = {
 
 bool _isIgnoredMissingAntiphonCode(String? psalm) {
   if (psalm == null) return false;
-  return psalm.startsWith('NT_') || _ignoredMissingAntiphonCodes.contains(psalm);
+  return psalm.startsWith('NT_') ||
+      _ignoredMissingAntiphonCodes.contains(psalm);
 }
 
 List<String> _checkPsalmody(List<PsalmEntry>? psalmody, String label) {
@@ -365,13 +391,14 @@ List<String> _checkReadings(Readings r, CelebrationContext context) {
           (context.date.isSunday && lt != 'lent' && lt != 'holyweek') ||
           (prec <= 8 && !ferialDayCheck(context.celebrationCode)));
 
-  final biblicalIssues = (r.biblicalReading == null || r.biblicalReading!.isEmpty)
-      ? ['lecture biblique absente']
-      : [
-          for (final b in r.biblicalReading!)
-            if ((b.content ?? '').trim().isEmpty)
-              'lecture biblique vide (${b.ref ?? "?"})'
-        ];
+  final biblicalIssues =
+      (r.biblicalReading == null || r.biblicalReading!.isEmpty)
+          ? ['lecture biblique absente']
+          : [
+              for (final b in r.biblicalReading!)
+                if ((b.content ?? '').trim().isEmpty)
+                  'lecture biblique vide (${b.ref ?? "?"})'
+            ];
   final patristicIssues =
       (r.patristicReading == null || r.patristicReading!.isEmpty)
           ? ['lecture patristique absente']
@@ -396,7 +423,8 @@ List<String> _checkCompline(Compline c) => [
       ..._checkHymns(c.hymns, 'hymne'),
       ..._checkReading(c.reading, 'lecture brève'),
       if ((c.responsory ?? '').trim().isEmpty) 'répons absent',
-      ..._checkEvangelicAntiphon(c.evangelicAntiphon, 'antienne du Nunc Dimittis'),
+      ..._checkEvangelicAntiphon(
+          c.evangelicAntiphon, 'antienne du Nunc Dimittis'),
       ..._checkCanticle(c.evangelicCanticle, 'Nunc Dimittis'),
     ];
 

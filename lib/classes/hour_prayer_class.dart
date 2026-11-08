@@ -115,6 +115,6 @@ class HourPrayer {
     };
   }
 
-  static const _ferialAntiphonLabel = '%(antienne de la férie :)%';
-  static const _commonAntiphonLabel = '%(antienne du commun :)%';
+  static const _ferialAntiphonLabel = '%(antienne de la férie)%';
+  static const _commonAntiphonLabel = '%(antienne du commun)%';
 }

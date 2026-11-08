@@ -72,7 +72,7 @@ const Map<String, String> readingAnnouncements = {
   'EP': 'Lecture de la lettre aux Éphésiens',
   'PH': 'Lecture de la lettre aux Philippiens',
   'COL': 'Lecture de la lettre aux Colossiens',
-  '1TH': 'Lecture de la 1^re lettre ux Thessaloniciens',
+  '1TH': 'Lecture de la 1^re lettre aux Thessaloniciens',
   '2TH': 'Lecture de la 2^e lettre aux Thessaloniciens',
   '1TM': 'Lecture de la 1^re lettre à Timothée',
   '2TM': 'Lecture de la 2^e lettre à Timothée',

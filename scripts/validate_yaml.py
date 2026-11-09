@@ -12,7 +12,7 @@ Checks performed for every .yaml file:
      assets/mass_missal/prefaces.
 
 Usage:
-  python scripts/validate_yaml.py
+  python3 scripts/validate_yaml.py
 """
 
 import sys

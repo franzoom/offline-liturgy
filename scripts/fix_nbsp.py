@@ -52,6 +52,10 @@ from pathlib import Path
 
 import yaml
 
+# libyaml's fast loader when PyYAML was built with it, the pure-Python one
+# otherwise (same nodes and marks, only slower)
+SAFE_LOADER = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+
 APOSTROPHE = "'"  # straight apostrophe (U+0027)
 TYPO_APOSTROPHE = "’"  # typographic apostrophe (U+2019)
 NNBSP = " "  # narrow no-break space ("demi-insecable")
@@ -243,7 +247,7 @@ def convert_quoted_scalars(text: str) -> tuple[str, list[tuple[int, str, str]]]:
     """Rewrite long quoted values as |- block scalars. Unparseable files are
     returned unchanged."""
     try:
-        root = yaml.compose(text, Loader=yaml.CSafeLoader)
+        root = yaml.compose(text, Loader=SAFE_LOADER)
     except yaml.YAMLError:
         return text, []
     found: list = []

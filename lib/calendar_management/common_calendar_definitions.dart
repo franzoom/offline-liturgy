@@ -120,6 +120,20 @@ DateTime lastSundayOfOctober(int year) {
   return october31.shift(-(october31.weekday % 7));
 }
 
+/// Returns the first Monday of September (Sept 1-7) — e.g. Canada's Labour
+/// Day (work_feast).
+DateTime firstMondayOfSeptember(int year) {
+  final september1 = DateTime(year, 9, 1);
+  return september1.shift((DateTime.monday - september1.weekday) % 7);
+}
+
+/// Returns the second Monday of October (Oct 8-14) — e.g. Canada's
+/// Thanksgiving (canada_thanks_giving).
+DateTime secondMondayOfOctober(int year) {
+  final october1 = DateTime(year, 10, 1);
+  return october1.shift((DateTime.monday - october1.weekday) % 7 + 7);
+}
+
 /// Main function to generate all movable feasts for a liturgical year.
 /// [ascensionOnSunday] moves the Ascension to the 7th Sunday of Easter,
 /// [corpusDominiOnThursday] keeps Corpus Christi on the Thursday after the
@@ -174,6 +188,9 @@ Map<String, DateTime> createLiturgicalDays(
 
   // October of liturgical year [year] is in civil year [year].
   liturgicalDays['LAST_SUNDAY_OF_OCTOBER'] = lastSundayOfOctober(year);
+  liturgicalDays['SECOND_MONDAY_OF_OCTOBER'] = secondMondayOfOctober(year);
+  // September of liturgical year [year] is in civil year [year] too.
+  liturgicalDays['FIRST_MONDAY_OF_SEPTEMBER'] = firstMondayOfSeptember(year);
 
   liturgicalDays['CHRIST_KING'] = advent(year + 1).shift(-7);
 

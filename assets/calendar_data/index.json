@@ -88,6 +88,15 @@
     "dir": "sanctoral",
     "title": "Saint Jean Berchmans"
   },
+  "belgium/juliana_of_cornillon_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins",
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Julienne du Mont-Cornillon"
+  },
   "belgium/lambert_of_maastricht_bishop_martyr": {
     "color": "red",
     "commons": [
@@ -130,6 +139,14 @@
     "dir": "sanctoral",
     "title": "Saint Amand"
   },
+  "bordeaux/andrew_the_apostle": {
+    "color": "red",
+    "commons": [
+      "apostles"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint André,"
+  },
   "bordeaux/austinde_of_auch_bishop": {
     "color": "white",
     "commons": [
@@ -158,7 +175,8 @@
   "bordeaux/dedication_of_the_cathedral_of_saint_andrew": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Anniversaire de la dédicace de l’Église métropolitaine"
@@ -288,24 +306,106 @@
   },
   "canada/andre_bessette_religious": {
     "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
     "dir": "sanctoral",
     "title": "Saint André Bessette"
   },
-  "canada/catherine_of_saint_augustin_virgin": {
+  "canada/anne_mother_of_mary": {
+    "color": "white",
+    "commons": [
+      "saints"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Anne, mère de la Vierge Marie"
+  },
+  "canada/blessed_andre_grasset_priest_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux André Grasset"
+  },
+  "canada/blessed_dina_belanger_virgin": {
     "color": "white",
     "commons": [
       "virgins"
     ],
     "dir": "sanctoral",
+    "title": "Bienheureuse Dina Bélanger"
+  },
+  "canada/blessed_emilie_tavernier_gamelin_religious": {
+    "color": "white",
+    "commons": [
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Émilie Tavernier-Gamelin"
+  },
+  "canada/blessed_frederic_janssoone_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Frédéric Janssoone"
+  },
+  "canada/blessed_marie_marguerite-d-youville": {
+    "color": "white",
+    "commons": [
+      "saints-female"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Marie-Marguerite d’Youville"
+  },
+  "canada/blessed_marie_rose_durocher_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Marie-Rose Durocher"
+  },
+  "canada/canada_thanks_giving": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Jour de l’action de grâce"
+  },
+  "canada/catherine_of_saint_augustin_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins",
+      "saints-female_caritative"
+    ],
+    "dir": "sanctoral",
     "title": "Bienheureuse Catherine de Saint-Augustin"
+  },
+  "canada/dedication_of_consecrated_churches": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace des églises"
   },
   "canada/eugene_de_mazenot_bishop": {
     "color": "white",
     "commons": [
-      "pastors_bishop"
+      "pastors_bishop",
+      "pastors_missionary"
     ],
     "dir": "sanctoral",
     "title": "Saint Eugène de Mazenot"
+  },
+  "canada/feast_of_canada": {
+    "color": "white",
+    "commons": [],
+    "dir": "sanctoral",
+    "title": "Fête du Canada"
   },
   "canada/franciscus_de_laval_bishop": {
     "color": "white",
@@ -314,6 +414,15 @@
     ],
     "dir": "sanctoral",
     "title": "Saint François de Laval"
+  },
+  "canada/john_de_brebeuf_isaac_jogues_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs_missionnaries",
+      "pastors_missionary"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Jean de Brebeuf et saint Isaac Jogues"
   },
   "canada/kateri_tekakwitha_virgin": {
     "color": "white",
@@ -363,6 +472,28 @@
     "dir": "sanctoral",
     "title": "Sainte Marie de l’Incarnation"
   },
+  "canada/memory_day": {
+    "color": "violet",
+    "commons": [
+      "trespassed"
+    ],
+    "dir": "sanctoral",
+    "title": "Jour du souvenir"
+  },
+  "canada/nykyta_budka_and_vasyl_velychkovsky_bishops_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs",
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Nykyta Budka et Vasyl Velychkovsky"
+  },
+  "canada/saint_joseph": {
+    "color": "white",
+    "dir": "sanctoral",
+    "title": "Saint Joseph, époux de la bienheureuse Vierge Marie"
+  },
   "canada/virgin_mary_bon_conseil": {
     "color": "white",
     "commons": [
@@ -370,6 +501,12 @@
     ],
     "dir": "sanctoral",
     "title": "Bienheureuse Vierge Marie du Bon Conseil"
+  },
+  "canada/work_feast": {
+    "color": "white",
+    "commons": [],
+    "dir": "sanctoral",
+    "title": "Fête du travail"
   },
   "christmas-ferial_before_epiphany_2": {
     "color": "white",
@@ -546,7 +683,8 @@
   "france/dedication_of_consecrated_churches": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Dédicace des églises"
@@ -635,7 +773,8 @@
   "frejus/anniversary_of_the_dedication_of_the_cathedral": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Dédicace de la cathédrale de Toulon"
@@ -643,7 +782,8 @@
   "frejus/anniversary_of_the_dedication_of_the_co_cathedral": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Dédicace de la co-cathédrale de Fréjus"
@@ -829,7 +969,8 @@
   "grenoble/dedication_of_the_cathedral_of_grenoble": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Anniversaire de la dédicace de la Cathédrale"
@@ -1312,7 +1453,8 @@
   "lyon/dedication_of_the_cathedral_of_saint_john_the_baptist": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Dédicace de la Cathédrale Primatiale de Lyon"
@@ -1618,6 +1760,14 @@
     "dir": "sanctoral",
     "title": "Saints Victor I^er, Miltiade et Gélase I^er"
   },
+  "north_america/our_lady_of_guadalupe": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie de Guadaloupe"
+  },
   "ot_10_0": {
     "dir": "ferial_days",
     "title": "Dixième Dimanche du Temps Ordinaire"
@@ -1765,7 +1915,8 @@
   "paris/anniversary_of_the_dedication_of_the_cathedral": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside",
+      "dedicace_inside"
     ],
     "dir": "sanctoral",
     "title": "Dédicace de la cathédrale Notre-Dame de Paris"
@@ -2522,7 +2673,7 @@
   "roman/dedication_of_the_lateran_basilica": {
     "color": "white",
     "commons": [
-      "dedicace"
+      "dedicace_outside"
     ],
     "dir": "sanctoral",
     "title": "Dédicace de la Basilique du Latran"
@@ -2907,7 +3058,8 @@
   "roman/john_de_brebeuf_isaac_jogues_priests_and_companions_martyrs": {
     "color": "red",
     "commons": [
-      "martyrs_missionnaries"
+      "martyrs_missionnaries",
+      "pastors_missionary"
     ],
     "dir": "sanctoral",
     "title": "Saints Jean de Brébeuf et Isaac Jogues, prêtres, et leurs compagnons"

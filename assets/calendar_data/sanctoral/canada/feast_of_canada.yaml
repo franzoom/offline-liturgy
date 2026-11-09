@@ -1,0 +1,55 @@
+celebration:
+  title: Fête du Canada
+  description: null
+  commons:
+    - null
+  color: white
+
+oration: |-
+  Dieu éternel, ton règne s’étend d’un océan à l’autre et, d’âge en âge, tu veilles sur toute chose ; accueille les prières que nous t’adressons pour notre pays : donne la sagesse à nos gouvernants, et à chaque citoyen le respect de la vie et de la dignité humaine, pour que fleurisse la justice et que tous les peuples vivent dans l’unité et la paix. 
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Ps 95, 3-4
+    content: |-
+      Racontez à tous les peuples sa gloire,
+      >à toutes les nations ses merveilles !
+      Il est grand, le Seigneur, hautement loué.
+  collect:
+  - |-
+    Dieu éternel, +
+    >ton règne s’étend d’un océan à l’autre
+    et, d’âge en âge, tu veilles sur toute chose ; *
+    accueille les prières que nous t’adressons pour notre pays :
+    donne la sagesse à nos gouvernants,
+    >et à chaque citoyen le respect de la vie et de la dignité humaine, /
+    pour que fleurisse la justice
+    >et que tous les peuples vivent dans l’unité et la paix.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Seigneur, nous te présentons nos offrandes ; *
+    envoie tes bénédictions sur cette terre et sur son peuple, /
+    afin que nos voix chantent toujours ta louange.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+    - feast_of_canada
+  communionAntiphon:
+  - biblicalReference: Ps 112, 3-4a
+    content: |-
+      Du levant au couchant du soleil,
+      >loué soit le nom du Seigneur !
+      Le Seigneur domine tous les peuples.
+  prayerAfterCommunion:
+  - |-
+    Seigneur notre Dieu, +
+    tu ne cesses de renouveler ton peuple avec le Pain de Vie ; *
+    nous t’en prions :
+    >remplis-nous d’un amour fort et désintéressé, /
+    afin que nous puissions toujours
+    >rechercher la réconciliation et la justice
+    >entre toutes les cultures, races et nations.
+    Par le Christ, notre Seigneur.

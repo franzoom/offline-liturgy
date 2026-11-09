@@ -1,9 +1,57 @@
 celebration:
   title: Bienheureuse Vierge Marie du Bon Conseil
-  description: 
+  description: null
   commons:
     - virgin-mary
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur, tu sais combien les pensées des hommes sont faibles et incertaines ; par l’intercession de la Vierge Marie, en qui ton Fils s’est incarné, donne-nous ton Esprit de conseil : qu’il nous apprenne à voir ce qui te plaît, et nous dirige dans nos travaux.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Sg 7, 7b.13.14
+    content: |-
+      J’ai supplié,
+      >et l’esprit de Sagesse est venu en moi ;
+      ce que j’ai appris sans calcul,
+      >je le partage sans réserve,
+      je ne veux rien dissimuler de ses richesses :
+      la Sagesse est pour les hommes un trésor inépuisable.
+  collect:
+  - |-
+    Seigneur, tu sais combien les pensées des hommes
+    >sont faibles et incertaines ; +
+    par l’intercession de la Vierge Marie,
+    >en qui ton Fils s’est incarné,
+    >donne-nous ton Esprit de conseil : *
+    qu’il nous apprenne à voir ce qui te plaît, /
+    >et nous dirige dans nos travaux.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Seigneur, que ton Esprit de conseil, +
+    >dont l’ombre a enveloppé la Vierge Marie, ta servante, *
+    te rende agréables les dons /
+    >que nous te présentons.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+    - the_blessed_virgin_mary_1
+    - the_blessed_virgin_mary_2
+  communionAntiphon:
+  - biblicalReference: cf. Jn 2, 5
+    content: |-
+      La Mère de Jésus dit à ceux qui servaient :
+      >« Tout ce qu’il vous dira, faites-le. »
+  prayerAfterCommunion:
+  - |-
+    Alors que nous célébrons, Seigneur,
+    la mémoire de la Vierge Marie, Mère du Bon Conseil, +
+    >tu nous as fait participer à tes mystères ; *
+    accorde-nous de savoir ce qui te plaît /
+    et d’obtenir le salut de ton Fils,
+    >le Conseiller admirable que tu nous as donné.
+    Lui qui vit et règne pour les siècles des siècles.

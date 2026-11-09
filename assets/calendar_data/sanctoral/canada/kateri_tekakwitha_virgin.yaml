@@ -1,10 +1,59 @@
 celebration:
   title: Sainte Kateri Tekakwitha
   subtitle: vierge
-  description: 
+  description: Kateri Tekakwitha (1656-1680), née à Auriesville, dans l’État de New York, découvre la foi chrétienne au contact des missionnaires jésuites. Baptisée le jour de Pâques 1676, elle mène une vie modeste et pleine de douceur. Elle se consacre à Dieu, malgré l’opposition de sa famille, et va demeurer à la mission Saint-François-Xavier, dans un village appelé aujourd’hui Kahnawake, en face de Montréal (Québec).
   commons:
     - virgins
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur Dieu, tu as appelé sainte Kateri Tekakwitha à vivre la virginité consacrée au milieu de son peuple ; fais que, par l’intercession de celle que l’on a appelée le Lys des Agniers, les gens de toute tribu, langue, peuple ou nation, rassemblés dans ton Église, te glorifient par un chant unanime de louange.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Célébrons dans la joie la fête de sainte Kateri Tekakwitha,
+      >car le Seigneur de l’univers l’a aimée,
+      et il a fait d’elle une vierge sainte et glorieuse.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as appelé sainte Kateri Tekakwitha
+    >à vivre la virginité consacrée au milieu de son peuple ; *
+    fais que, par l’intercession
+    >de celle que l’on a appelée le Lys des Agniers,
+    les gens de toute tribu, langue, peuple ou nation,
+    >rassemblés dans ton Église, /
+    >te glorifient par un chant unanime de louange.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Fais-nous recueillir, Seigneur,
+    >les fruits de l’offrande que nous te dédions, *
+    afin qu’à l’exemple de sainte Kateri Tekakwitha,
+    nous soyons libres de ce qui vient de la terre /
+    >et vivions plus intensément selon l’esprit.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+    - saints_1
+    - saints_2
+  communionAntiphon:
+  - biblicalReference: cf. Lc 10, 42
+    content: |-
+      Sainte Kateri Tekakwitha, vigilante et fidèle,
+      >a choisi la meilleure part :
+      elle ne lui sera pas enlevée.
+  prayerAfterCommunion:
+  - |-
+    Seigneur notre Dieu, +
+    que la communion au Corps et au Sang de ton Fils
+    >nous détourne de toute chose périssable ; *
+    ainsi pourrons-nous,
+    >à l’exemple de sainte Kateri Tekakwitha,
+    progresser sur terre dans un sincère amour pour toi, /
+    >et connaître au ciel la joie de te contempler sans fin.
+    Par le Christ, notre Seigneur.

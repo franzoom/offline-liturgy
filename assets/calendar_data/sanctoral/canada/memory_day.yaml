@@ -1,0 +1,51 @@
+celebration:
+  title: Jour du souvenir
+  description: null
+  note: |-
+    Là où l’on souligne le « Jour du Souvenir », on utilise ce formulaire pour une des messes qui se célèbrent en ce jour, les autres messes étant celles de la mémoire de saint Martin de Tours.
+  commons:
+    - trespassed
+  color: violet
+
+oration: |-
+  Dieu éternel et tout-puissant, entends notre prière pour ceux qui sont morts afin de défendre notre pays et sa liberté ; accorde-leur le repos éternel, et la paix à nous qui conservons la même foi, afin que nous soyons des instruments de ta réconciliation et de ta paix, à l’exemple de ton Fils.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Ps 28, 10-11
+    content: |-
+      Le Seigneur est roi pour toujours !
+      Le Seigneur bénit son peuple en lui donnant la paix.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant, +
+    entends notre prière pour ceux qui sont morts
+    >afin de défendre notre pays et sa liberté ; *
+    accorde-leur le repos éternel,
+    >et la paix à nous qui conservons la même foi, /
+    afin que nous soyons des instruments
+    >de ta réconciliation et de ta paix, à l’exemple de ton Fils.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Parmi les dons que tu dispenses
+    >pour notre nourriture, Seigneur, +
+    regarde favorablement ces offrandes que nous t’apportons ; *
+    nous t’en prions : fais qu’elles deviennent /
+    >le sacrement de la rédemption universelle.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Ps 71, 7-9a
+    content: |-
+      En ces jours-là, fleurira la justice,
+      grande paix jusqu’à la fin des lunes !
+      Qu’il domine de la mer à la mer !
+  prayerAfterCommunion:
+  - |-
+    Seigneur notre Dieu, +
+    par la puissance de ce sacrement,
+    donne le repos éternel à tes fidèles défunts /
+    >et la paix à ceux qui font mémoire d’eux.
+    Par le Christ, notre Seigneur.

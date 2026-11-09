@@ -1,7 +1,77 @@
 celebration:
   title: Saint André Bessette
   subtitle: patron des aidantes et aidants naturels au Canada
+  description: André Bessette (1845-1937), né à Saint-Grégoire d’Iberville (Québec), entre à 25 ans dans la Congrégation de Sainte-Croix, à Montréal, où il prend le nom de frère André. Homme de prière, il occupe pendant quarante ans le poste de portier au collège Notre-Dame, accueillant et encourageant les malades. Sa dévotion envers saint Joseph l’a amené à construire une chapelle qui est devenue aujourd’hui l’oratoire Saint-Joseph du Mont-Royal.
   color: white
+  commons: 
+    - saints-male_religious
 
 oration:
-  - Toi qui nous as fortifiés par cette communion, Seigneur, aide-nous à suivre l’exemple du saint frère André, dansl’amour qu’il sut te témoigner, et la charité dont il fit preuve envers ton peuple.
+  - Seigneur Dieu, tu as choisi saint André Bessette pour témoigner de ta compassion auprès des pauvres et des affligés, et tu l’as embrasé d’une dévotion sans borne envers saint Joseph. Accorde-nous, à son exemple et par son intercession, la grâce de te chercher fidèlement dans nos frères et sœurs, afin d’entrer avec lui dans le royaume de ta gloire.
+
+readings:
+  patristicReading:
+  - title: Extrait des écrits et des témoignages sur la vie spirituelle de saint André Bessette
+    subtitle: |-
+      Dieu est amour et il nous aime : voilà le cœur de la foi chrétienne
+    content: |-
+      Le frère André fut avant tout un homme de prière et un pauvre parmi les pauvres. Sa vie entière s’est écoulée dans l’obscurité d’une loge de portier, mais son cœur était sans cesse fixé en Dieu. Il disait souvent à ceux qui venaient le voir : « Quand je prie, je ne me parle pas à moi-même, je parle à Dieu. Dieu est amour et il nous aime : voilà le cœur de la foi chrétienne. »
+
+      C’est cette foi absolue dans la bonté du Père qui l’a poussé à se faire l’ami et le protecteur des affligés. Dépourvu de talents humains exceptionnels ou d’une santé solide, il puisait sa force dans l’Eucharistie et dans une confiance filiale et inébranlable envers saint Joseph. À tous les malades et désespérés qui se pressaient à sa porte, il répétait inlassablement : « Allez à saint Joseph, priez-le, il ne vous abandonnera pas. Mettez-vous à genoux, remerciez le bon Dieu de ce que vous souffrez, et demandez la grâce de bien porter votre croix. »
+
+      Sa mission n’était pas d’attirer l’attention sur lui-même, mais de conduire les âmes à la miséricorde divine par l’intercession de celui qu’il aimait tant. Par ses gestes simples, par l’onction d’huile de la lampe de saint Joseph, il manifestait la compassion du Christ pour l’humanité blessée. Le frère André rappelait au monde que les plus humbles instruments sont ceux que Dieu choisit pour accomplir ses plus grandes merveilles.
+    responsory: |-
+      R/ Quiconque s’élève sera abaissé,
+      * et qui s’abaisse sera élevé.
+      V/ Le Seigneur soutient les humbles,
+      il glorifie les petits qui mettent en lui leur espoir. *
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Mt 25, 34.36.40
+    content: |-
+      À ceux qui l’ont servi dans leurs frères, le Seigneur dit :
+      « Venez, les bénis de mon Père.
+      >J’étais malade, et vous m’avez visité…
+      Vraiment, je vous le dis :
+      chaque fois que vous l’avez fait
+      >à l’un de ces plus petits de mes frères,
+      c’est à moi que vous l’avez fait. »
+  collect:
+  - |-
+    Accueille, Seigneur, les présents de ton peuple ; *
+    et tandis que nous rappelons
+    >l’amour infini de ton Fils,
+    fais que nous sachions,
+    >à l’exemple du saint frère André, /
+    >t’aimer et aimer notre prochain
+    >d’un cœur plus généreux.
+    Par le Christ, notre Seigneur.
+  offeringPrayer:
+  - |-
+    Nous t’en prions, Seigneur : +
+    >fais que nous puissions nous présenter
+    >au service de ton autel
+    >avec un cœur sans partage, *
+    à l’exemple du bienheureux Joseph
+    >qui s’est consacré tout entier /
+    >à servir ton Fils unique, né de la Vierge Marie.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+    - saints_1
+    - saints_2
+  communionAntiphon:
+  - biblicalReference: Jn 15,13
+    content: |-
+      « Il n’y a pas de plus grand amour
+      >que de donner sa vie pour ceux qu’on aime »,
+      >dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Toi qui nous as fortifiés
+    >par cette communion, Seigneur, +
+    aide-nous à suivre l’exemple du saint frère André,
+    >dans l’amour qu’il sut te témoigner, /
+    >et la charité dont il fit preuve envers ton peuple.
+    Par le Christ, notre Seigneur.

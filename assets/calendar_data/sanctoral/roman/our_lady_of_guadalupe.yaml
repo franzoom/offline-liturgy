@@ -11,7 +11,13 @@ oration:
 
 mass:
 - massType: DAY_MASS
-  entranceAntiphon: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ap 12, 1
+    content: |-
+      Un signe grandiose apparut dans le ciel :
+      >une femme, ayant le soleil pour manteau,
+      >la lune sous les pieds
+      >et, sur la tête, une couronne de douze étoiles.
   collect:
   - |-
     Dieu, Père des miséricordes, +
@@ -100,7 +106,27 @@ mass:
         >exulte mon esprit en Dieu, mon Sauveur !
         Il s’est penché sur son humble servante ;
         >désormais tous les âges me diront bienheureuse. »
-        
-  offeringPrayer: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Accepte, Seigneur, les offrandes que nous te présentons
+    >en cette fête de Notre-Dame de Guadaloupé ; *
+    et fais que ce sacrifice /
+    >nous donne la force d’accomplir tes commandements
+    >en véritables enfants de la Vierge Marie.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+    - the_blessed_virgin_mary_1
+    - the_blessed_virgin_mary_2
+  communionAntiphon:
+  - biblicalReference: cf. Ps 147, 20
+    content: |-
+      Pas un peuple qu’il ait ainsi traité ;
+      nul autre auquel il a manifesté si clairement son amour.
+  prayerAfterCommunion:
+  - |-
+    Que le Corps et le Sang de ton Fils, reçus en ce sacrement,
+    >nous aident, Seigneur, +
+    par l’intercession de Notre-Dame de Guadaloupé, *
+    à nous reconnaître et à nous aimer /
+    >comme de véritables frères et sœurs.
+    Par le Christ, notre Seigneur.

@@ -1,10 +1,24 @@
 celebration:
   title: Bienheureux Louis-Zéphirin Moreau
   subtitle: évêque
-  description: 
+  description: Né à Bécancour en 1824, Louis-Zéphirin Moreau a été le principal collaborateur des trois premiers évêques de Saint-Hyacinthe à qui il succéda le 16 janvier 1876. Il était plein de bonté envers les plus pauvres, qui l’appelaient « le bon, le saint monseigneur Moreau ». Pour aider les travailleurs, il fonda une société de secours mutuel. Parmi ses frères dans l’épiscopat canadien, il était estimé comme penseur et facteur d’unité. Décédé le 24 mai 1901, il a été béatifié par le pape saint Jean-Paul II le 10 mai 1987.
   commons:
     - pastors_bishop
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur, tu as fait du bienheureux Louis-Zéphirin Moreau, ton évêque, un pasteur vénéré de son peuple pour son zèle, sa piété et sa bonté ; accorde-nous d’imiter ses vertus pour vivre nos engagements avec fidélité au service de ton royaume.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur, tu as fait du bienheureux Louis-Zéphirin Moreau, ton évêque,
+    >un pasteur vénéré de son peuple
+    >pour son zèle, sa piété et sa bonté ; *
+    accorde-nous d’imiter ses vertus
+    >pour vivre nos engagements avec fidélité /
+    >au service de ton royaume.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

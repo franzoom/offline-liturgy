@@ -1,10 +1,56 @@
 celebration:
   title: Saint François de Laval
   subtitle: évêque
-  description: 
+  description: François de Laval (1623-1708), né à Montigny-sur-Avre dans le diocèse de Chartres, étudie chez les jésuites au collège de La Flèche, où éclot son intérêt pour les missions du Canada. Consacré évêque à Paris pour la Nouvelle-France, il fonde le séminaire de Québec, et s’occupe de ses tâches pastorales avec une grande générosité, spécialement envers les pauvres et les malades. Il s’est désapproprié de tous ses biens et de ses titres pour répondre à l’appel de Dieu. 
   commons:
     - pastors_bishop
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur Dieu, tu as envoyé le saint évêque François de Laval pour étendre le règne du Christ au Canada ; accorde-nous, à son intercession, d’accomplir l’œuvre missionnaire à laquelle nous sommes appelés comme disciples de ton Fils, Jésus Christ, notre Seigneur.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: null
+    content: |-
+      Fêtons saint François de Laval,
+      >et tous les amis de Dieu,
+      dont la gloire fut de proclamer
+      >la vérité reçue du Seigneur.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as envoyé le saint évêque François de Laval
+    >pour étendre le règne du Christ au Canada ; *
+    accorde-nous, à son intercession,
+    >d’accomplir l’œuvre missionnaire /
+    >à laquelle nous sommes appelés
+    >comme disciples de ton Fils, Jésus Christ, notre Seigneur.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Regarde, Seigneur tout-puissant,
+    >le sacrifice que nous offrons
+    en la fête de saint François de Laval, *
+    et donne-nous d’exprimer dans notre vie
+    >les mystères de la passion du Sauveur /
+    >que nous célébrons dans ces rites sacrés.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+    - holy_pastors
+  communionAntiphon:
+  - biblicalReference: Ez 34, 15
+    content: |-
+      Parole du Seigneur Dieu :
+      « C’est moi qui ferai paître mon troupeau,
+      >et c’est moi qui le ferai reposer. »
+  prayerAfterCommunion:
+  - |-
+    Par la grâce de cette eucharistie, Seigneur, +
+    affermis tes serviteurs dans la vérité de la foi : *
+    qu’ils en témoignent partout, de bouche et de cœur,
+    >à l’exemple de saint François de Laval /
+    >qui consacra toute sa vie à faire connaître l’Évangile.
+    Par le Christ, notre Seigneur.

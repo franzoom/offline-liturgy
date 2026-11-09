@@ -1,10 +1,60 @@
 celebration:
   title: Bienheureuse Catherine de Saint-Augustin
   subtitle: vierge
-  description: 
+  description: Catherine de Longpré est née le 3 mai 1632 en Normandie (France). A douze ans, elle entre au monastère des Hospitalières de Bayeux, où elle prend le nom de Catherine de Saint-Augustin. Ayant fait le « vœu de vivre et de mourir au Canada si Dieu lui en ouvre la porte », elle arrive en 1648 à Québec où, durant vingt ans, elle travailla au soin des malades. Elle meurt le 8 mai 1668, ayant manifesté durant toute sa vie une charité exemplaire. Elle est reconnue comme une des fondatrices de l’Église au Canada.
   commons:
     - virgins
+    - saints-female_caritative
   color: white
 
-oration:
+oration: |-
+  Seigneur Dieu, tu as fécondé les débuts de l’Église au Canada par la vie et les mérites de la bienheureuse Catherine de Saint-Augustin ; fais que, par son intercession, la foi du peuple chrétien se renouvelle et s’approfondisse.
  
+readings:
+  biblicalReading:
+    - title: LECTURE DE LA 1^re LETTRE DE JEAN
+      subtitle: Dieu est amour
+      ref: 1Jn 4, 7-21
+      content: |-
+        Bien-aimés, aimons-nous les uns les autres, puisque l’amour vient de Dieu. Celui qui aime est né de Dieu et connaît Dieu. Celui qui n’aime pas n’a pas connu Dieu, car Dieu est amour. Voici comment l’amour de Dieu s’est manifesté parmi nous : Dieu a envoyé son Fils unique dans le monde pour que nous vivions par lui. Voici en quoi consiste l’amour : ce n’est pas nous qui avons aimé Dieu, mais c’est lui qui nous a aimés, et il a envoyé son Fils en sacrifice de pardon pour nos péchés.
+        Bien-aimés, puisque Dieu nous a tellement aimés, nous devons, nous aussi, nous aimer les uns les autres. Dieu, personne ne l’a jamais vu. Mais si nous nous aimons les uns les autres, Dieu demeure en nous, et, en nous, son amour atteint la perfection. Voici comment nous reconnaissons que nous demeurons en lui et lui en nous : il nous a donné part à son Esprit. Quant à nous, nous avons vu et nous attestons que le Père a envoyé son Fils comme Sauveur du monde. Celui qui proclame que Jésus est le Fils de Dieu, Dieu demeure en lui, et lui en Dieu. Et nous, nous avons reconnu l’amour que Dieu a pour nous, et nous y avons cru.
+        Dieu est amour : qui demeure dans l’amour demeure en Dieu, et Dieu demeure en lui. Voici comment l’amour atteint, chez nous, sa perfection : avoir de l’assurance au jour du jugement ; comme Jésus, en effet, nous ne manquons pas d’assurance en ce monde. Il n’y a pas de crainte dans l’amour, l’amour parfait bannit la crainte ; car la crainte implique un châtiment, et celui qui reste dans la crainte n’a pas atteint la perfection de l’amour.
+        Quant à nous, nous aimons parce que Dieu lui-même nous a aimés le premier. Si quelqu’un dit : « J’aime Dieu », alors qu’il a de la haine contre son frère, c’est un menteur. En effet, celui qui n’aime pas son frère, qu’il voit, est incapable d’aimer Dieu, qu’il ne voit pas. Et voici le commandement que nous tenons de lui : celui qui aime Dieu, qu’il aime aussi son frère.
+      responsory: |-
+        R/ Qui demeure dans l’amour
+        demeure en Dieu, et Dieu en lui.
+
+        Rien de plus doux que de s’attacher
+        aux commandements du Seigneur.
+
+        Nous avons reconnu l’amour de Dieu pour nous,
+        et nous avons cru en lui.
+
+        Voici le commandement de Dieu :
+        qui celui qui aime Dieu aime aussi son frère.
+  patristicReading:
+  - title: Extrait de la vie spirituelle et des écrits de la bienheureuse Catherine de Saint-Augustin
+    subtitle: |-
+      Je me suis offerte pour servir de victime toutes les fois qu’il lui plaira
+    content: |-
+      Arrivée en Nouvelle-France à l’âge de seize ans, sœur Catherine de Saint-Augustin s’est donnée sans réserve à sa vocation de garde-malade à l’Hôtel-Dieu de Québec. Sa charité était universelle : elle soignait les corps et réconfortait les âmes des colons comme des Autochtones, qui l’appelaient affectueusement « celle qui rend l’intérieur plus beau et le cœur plus chaud. »
+      Mais au-delà de son infatigable dévouement hospitalier, sa vie était une profonde immolation mystique. Elle écrivit dans son journal : « Je me suis offerte à la divine Majesté pour lui servir de victime toutes les fois qu’il lui plaira : je n’envisage ni ma vie, ni mes intérêts, je veux que Dieu en dispose selon sa très sainte volonté. » Nourrie par l’Eucharistie et portée par une immense dévotion à la Vierge Marie et au martyr Jean de Brébeuf, elle a choisi d’offrir ses souffrances et ses intenses combats intérieurs pour l’établissement de la foi sur cette terre canadienne. Par sa vie consumée par l’amour à seulement trente-six ans, elle nous rappelle que la prière et le don de soi sont les véritables fondements de toute action missionnaire.
+    responsory: |-
+      R/ Ma vie présente, je la vis dans la foi au Fils de Dieu,
+      * qui m’a aimé et s’est livré pour moi.
+      V/ Pour moi, vivre c’est le Christ,
+      et mourir représente un gain. *
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as fécondé les débuts de l’Église au Canada
+    par la vie et les mérites
+    >de la bienheureuse Catherine de Saint-Augustin ; *
+    fais que, par son intercession, /
+    >la foi du peuple chrétien se renouvelle et s’approfondisse.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

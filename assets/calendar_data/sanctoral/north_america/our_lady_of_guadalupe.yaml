@@ -1,0 +1,133 @@
+celebration:
+  title: Bienheureuse Vierge Marie de Guadaloupe
+  subtitle: patronne des Amériques
+  description: En 1531, la Vierge Marie se manifeste à un simple indien du Mexique, Juan Diego, comme la mère du vrai Dieu. Elle donne, comme signe, des roses qu’il apporte à l’évêque. Celui-ci découvre alors, imprimée sur le manteau, l’image de Notre-Dame. Dans le sanctuaire construit à sa demande, elle continue d’appeler tous les peuples à aimer son Fils et est invoquée, depuis Saint Jean-Paul II, sous le titre d’Étoile de l’évangélisation.
+  color: white
+  commons:
+    - virgin-mary
+
+oration:
+  - |-
+    Dieu, Père des miséricordes, tu as placé ton peuple sous le patronage particulier de la Mère très sainte de ton Fils : accorde à tous ceux qui invoquent Notre-Dame de Guadaloupe de travailler avec une foi plus vive au développement des peuples, en prenant les chemins de la justice et de la paix.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Ap 12, 1
+    content: |-
+      Un signe grandiose apparut dans le ciel :
+      >une femme, ayant le soleil pour manteau,
+      >la lune sous les pieds
+      >et, sur la tête, une couronne de douze étoiles.
+  collect:
+  - |-
+    Dieu, Père des miséricordes, +
+    >tu as placé ton peuple
+    >sous le patronage particulier
+    >de la Mère très sainte de ton Fils : *
+    accorde à tous ceux qui invoquent Notre-Dame de Guadaloupe
+    >de travailler avec une foi plus vive
+    >au développement des peuples, /
+    >en prenant les chemins de la justice et de la paix.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Is 7, 10-14 ; 8, 10
+      headline: « Voici que la vierge concevra »
+      content: |-
+        En ces jours-là,
+        le Seigneur parla ainsi au roi Acaz :
+        « Demande pour toi un signe de la part du Seigneur ton Dieu,
+        au fond du séjour des morts
+        ou sur les sommets, là-haut. »
+        Acaz répondit :
+        « Non, je n’en demanderai pas,
+        je ne mettrai pas le Seigneur à l’épreuve. »
+        Isaïe dit alors :
+        « Écoutez, maison de David !
+        Il ne vous suffit donc pas de fatiguer les hommes :
+        il faut encore que vous fatiguiez mon Dieu !
+        C’est pourquoi le Seigneur lui-même
+        vous donnera un signe :
+        Voici que la vierge est enceinte,
+        elle enfantera un fils,
+        qu’elle appellera Emmanuel,
+        car Dieu est avec nous. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 66 (67), 2-3, 5abd, 7.8b
+      refAbbr: 66, 2
+      chorus:
+      - chorusRef: 66, 2
+        content: |-
+          Que Dieu nous prenne en grâce
+          et qu’il nous bénisse !
+      content: |-
+        Que son visage s’illumine pour nous ;
+        et ton chemin sera connu sur la terre,
+        ton salut, parmi toutes les nations.
+
+        Que les nations chantent leur joie,
+        car tu gouvernes le monde avec justice ;
+        sur la terre, tu conduis les nations.
+
+        La terre a donné son fruit ;
+        Dieu, notre Dieu, nous bénit.
+        Que la terre tout entière l’adore !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 1, 39-48
+      headline: « Heureuse celle qui a cru »
+      acclamationAntiphon: |-
+        Mon esprit exulte
+        en Dieu mon Sauveur.
+      content: |-
+        En ces jours-là,
+        Marie se mit en route et se rendit avec empressement
+        >vers la région montagneuse, dans une ville de Judée.
+        Elle entra dans la maison de Zacharie
+        >et salua Élisabeth.
+        Or, quand Élisabeth entendit la salutation de Marie,
+        >l’enfant tressaillit en elle.
+        Alors, Élisabeth fut remplie d’Esprit Saint,
+        >et s’écria d’une voix forte :
+        >« Tu es bénie entre toutes les femmes,
+        >et le fruit de tes entrailles est béni.
+        D’où m’est-il donné
+        >que la mère de mon Seigneur vienne jusqu’à moi ?
+        Car, lorsque tes paroles de salutation sont parvenues à mes oreilles,
+        >l’enfant a tressailli d’allégresse en moi.
+        Heureuse celle qui a cru à l’accomplissement des paroles
+        >qui lui furent dites de la part du Seigneur. »
+        Marie dit alors :
+        >« Mon âme exalte le Seigneur,
+        >exulte mon esprit en Dieu, mon Sauveur !
+        Il s’est penché sur son humble servante ;
+        >désormais tous les âges me diront bienheureuse. »
+  offeringPrayer:
+  - |-
+    Accepte, Seigneur, les offrandes que nous te présentons
+    >en cette fête de Notre-Dame de Guadaloupé ; *
+    et fais que ce sacrifice /
+    >nous donne la force d’accomplir tes commandements
+    >en véritables enfants de la Vierge Marie.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+    - the_blessed_virgin_mary_1
+    - the_blessed_virgin_mary_2
+  communionAntiphon:
+  - biblicalReference: cf. Ps 147, 20
+    content: |-
+      Pas un peuple qu’il ait ainsi traité ;
+      nul autre auquel il a manifesté si clairement son amour.
+  prayerAfterCommunion:
+  - |-
+    Que le Corps et le Sang de ton Fils, reçus en ce sacrement,
+    >nous aident, Seigneur, +
+    par l’intercession de Notre-Dame de Guadaloupé, *
+    à nous reconnaître et à nous aimer /
+    >comme de véritables frères et sœurs.
+    Par le Christ, notre Seigneur.

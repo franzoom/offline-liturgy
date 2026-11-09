@@ -16,6 +16,10 @@ feasts:
     month: 1
     day: 12
     precedence: 10
+  saint_joseph:
+    month: 3
+    day: 19
+    precedence: 8
   kateri_tekakwitha_virgin: #à compléter
     month: 4
     day: 17
@@ -52,14 +56,71 @@ feasts:
     month: 5
     day: 21
     precedence: 12
+  nykyta_budka_and_vasyl_velychkovsky_bishops_martyrs:
+    month: 6
+    day: 27
+    precedence: 12
+  feast_of_canada:
+    month: 7
+    day: 1
+    precedence: 12
+  anne_mother_of_mary:
+    month: 7
+    day: 26
+    precedence: 8
+  work_feast:
+    relativeTo: FIRST_MONDAY_OF_SEPTEMBER
+    precedence: 12
+  blessed_dina_belanger_virgin:
+    month: 9
+    day: 4
+    precedence: 12
+  blessed_emilie_tavernier_gamelin_religious:
+    month: 9
+    day: 24
+    precedence: 12
+  john_de_brebeuf_isaac_jogues_martyrs:
+    month: 9
+    day: 26
+    precedence: 10
+  blessed_marie_rose_durocher_virgin:
+    month: 10
+    day: 6
+    precedence: 12
+  canada_thanks_giving:
+    relativeTo: SECOND_MONDAY_OF_OCTOBER
+    precedence: 12
+  blessed_marie_marguerite-d-youville:
+    month: 10
+    day: 16
+    precedence: 12
+  dedication_of_consecrated_churches:
+    month: 10
+    day: 25
+    precedence: 8
+  memory_day:
+    month: 11
+    day: 11
+    precedence: 12
 
-move:
-  # Moved from Jan 7 to Jan 8 to avoid conflict with André Bessette
-  raymond_of_penyafort_priest: #OK
+move:  
+  raymond_of_penyafort_priest:
     month: 1
     day: 8
     precedence: 10
-  pius_v_pope: #OK
+  cosmas_of_cilicia_and_damian_of_cilicia_martyrs:
+    month: 9
+    day: 25
+    precedence: 12
+  pius_v_pope:
     month: 5
     day: 1
+    precedence: 12
+  hedwig_of_silesia_religious:
+    month: 10
+    day: 20
+    precedence: 12
+  margaret_mary_alacoque_virgin:
+    month: 10
+    day: 20
     precedence: 12

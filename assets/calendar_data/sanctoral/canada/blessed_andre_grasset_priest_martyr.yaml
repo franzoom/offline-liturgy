@@ -1,0 +1,26 @@
+celebration:
+  title: Bienheureux André Grasset
+  subtitle: prêtre et martyr
+  description: Né à Montréal, le 3 avril 1758, d’un père français, secrétaire général des Colonies, André Grasset quittera la Nouvelle-France avec ce dernier après la conquête britannique. Ses études classiques au collège Sainte-Barbe à Paris complétées, il s’orientera vers le sacerdoce et sera ordonné prêtre en 1783. Durant la Révolution française, il refusera de souscrire à la Constitution civile du clergé et se réfugiera chez les pères eudistes de Paris. En 1792, il sera conduit de force au couvent des Carmes (actuel Institut catholique de Paris), puis subira avec 92 prêtres et 3 évêques un simulacre de procès qui le conduira à une mort violente. Le pape Pie XI le béatifiera avec les autres martyrs de septembre, le 17 octobre 1926. André Grasset est le premier Canadien de naissance à avoir été élevé sur les autels.
+  color: red
+  commons: 
+    - martyr
+    - pastors
+
+oration:
+  -  Seigneur, tu as appelé en ce jour ton prêtre André et ses compagnons au témoignage suprême du martyre ; et tu as ainsi manifesté que tu n’aimes rien tant que la liberté de ton Église ; par leur intercession, accorde à tous les baptisés de témoigner de toi sans entraves devant les hommes.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur, tu as appelé en ce jour
+    >ton prêtre André et ses compagnons
+    >au témoignage suprême du martyre ; +
+    et tu as ainsi manifesté que tu n’aimes rien tant
+    >que la liberté de ton Église ; *
+    par leur intercession, accorde à tous les baptisés /
+    >de témoigner de toi sans entraves devant les hommes.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

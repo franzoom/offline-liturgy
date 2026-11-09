@@ -1,10 +1,63 @@
 celebration:
   title: Sainte Marie de l’Incarnation
   subtitle: religieuse
-  description: 
+  description: |-
+    Marie Guyart (1599-1672), née à Tours, entre au monastère des Ursulines après avoir été mariée et avoir confié à sa sœur l’éducation de son fils. Arrivée à Québec en 1639, elle bâtit un monastère et entreprend d’écrire des manuels scolaires en langue indigène. Elle rédige une relation autobiographique pour son fils : ses états d’oraison et de grâce la placent parmi les grands maîtres de la vie spirituelle. 
   commons:
     - saints-female_religious
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur Dieu, tu as conduit sainte Marie de l’Incarnation jusqu’à la contemplation du mystère de la Trinité, et tu as fait d’elle un apôtre au cœur de feu ; accorde-nous, à son intercession et suivant son exemple, de vivre en témoins de ton amour, pour que soient toujours plus nombreux ceux qui parviennent à te connaître, t’aimer et te servir.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Mt 5, 19
+    content: |-
+      Celui qui enseignera aux hommes les commandements
+      >et les observera,
+      celui-là sera déclaré grand
+      >dans le Royaume.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as conduit sainte Marie de l’Incarnation
+    >jusqu’à la contemplation du mystère de la Trinité,
+    >et tu as fait d’elle un apôtre au cœur de feu ; *
+    accorde-nous, à son intercession
+    >et suivant son exemple,
+    de vivre en témoins de ton amour, /
+    >pour que soient toujours plus nombreux
+    ceux qui parviennent à te connaître,
+    >t’aimer et te servir.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Accepte, Seigneur, le sacrifice
+    que ton peuple consacré t’offre aujourd’hui
+    >en l’honneur de sainte Marie de l’Incarnation ; *
+    que notre participation à ce mystère /
+    >fasse de nous les témoins de ta charité.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+    - saints_1
+    - saints_2
+  communionAntiphon:
+  - biblicalReference: Jn 8, 12
+    content: |-
+      Je suis la lumière du monde, dit le Seigneur.
+      Celui qui me suit ne marchera pas dans les ténèbres,
+      >il aura la lumière de la vie.
+  prayerAfterCommunion:
+  - |-
+    Dieu tout-puissant, +
+    fais que nous trouvions un soutien
+    >dans ce repas sacré, *
+    pour qu’à l’exemple de sainte Marie de l’Incarnation,
+    >notre cœur et toute notre vie
+    >témoignent de notre charité fraternelle /
+    >et du rayonnement de la vérité.
+    Par le Christ, notre Seigneur.

@@ -1,9 +1,25 @@
 celebration:
   title: Bienheureuse Marie-Léonie Paradis
-  description: 
+  description: Originaire de l’Acadie, près de Montréal, mère Marie-Léonie, née Alodie Virginie Paradis, est la fondatrice de la congrégation des Petites Sœurs de la Sainte-Famille. Elle a servi le Christ en soutenant la mission sacerdotale des prêtres de son Église. Décédée le 3 mai 1912, elle a été béatifiée à Montréal, en 1984, par le pape saint Jean-Paul II.
   commons:
     - virgins
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur Dieu, tu as fait de la bienheureuse Marie-Léonie un modèle admirable d’humilité, de charité et de dévouement au service des ministres de ton Église ; accorde-nous d’imiter ses vertus en puisant comme elle en Jésus, Prêtre éternel et Pain de vie, la force de suivre le chemin de l’Évangile.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur Dieu, +
+    tu as fait de la bienheureuse Marie-Léonie
+    un modèle admirable d’humilité, de charité
+    >et de dévouement au service des ministres de ton Église ; *
+    accorde-nous d’imiter ses vertus
+    >en puisant comme elle en Jésus,
+    Prêtre éternel et Pain de vie, /
+    >la force de suivre le chemin de l’Évangile.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

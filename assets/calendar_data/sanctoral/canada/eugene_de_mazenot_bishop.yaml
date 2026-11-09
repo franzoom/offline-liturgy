@@ -1,10 +1,28 @@
 celebration:
   title: Saint Eugène de Mazenot
   subtitle: évêque
-  description: 
+  description: Né de famille noble à Aix-en-Provence en 1782, Eugène de Mazenod se réfugie en Italie de 1791 à 1802 à cause de la Révolution française. Ordonné prêtre en 1811, il se consacre à l’évangélisation des pauvres. Il fonde la congrégation des Missionnaires Oblats de Marie Immaculée, puis, en 1837, il est nommé évêque de Marseille. Décédé le 21 mai 1861, il est canonisé le 3 décembre 1995.
   commons:
     - pastors_bishop
+    - pastors_missionary
   color: white
 
-oration:
- 
+oration: |-
+  Seigneur notre Dieu, pour annoncer l’Évangile à de nombreux peuples, tu as comblé, dans ta miséricorde, l’évêque saint Eugène de Mazenod des vertus qui font les apôtres ; accorde-nous, à son intercession, de brûler du même esprit pour n’avoir en vue que le service de l’Église et le salut du monde.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur notre Dieu, +
+    >pour annoncer l’Évangile à de nombreux peuples,
+    >tu as comblé, dans ta miséricorde,
+    >l’évêque saint Eugène de Mazenod
+    >des vertus qui font les apôtres ; *
+    accorde-nous, à son intercession,
+    >de brûler du même esprit /
+    pour n’avoir en vue que le service de l’Église
+    >et le salut du monde.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

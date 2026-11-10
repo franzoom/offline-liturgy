@@ -1,0 +1,47 @@
+celebration:
+  title: Tous les saints de l’Église de Valence
+  description: |-
+    La fête de ce jour réunit dans ta même vénération et la même gratitude tous les saints évêques, illustres ou oubliés, qui ont été les pasteurs des diocèses dont le nôtre est plus ou moins l’héritier. Nous leur associons tous les saints et saintes que nos paroisses se sont donnés comme patrons ou titulaires.
+    Nous pensons aussi, pour en remercier le Seigneur, à tous ceux et toutes celles qui, depuis l’évangélisation de notre région ont enraciné la foi chrétienne par le mérite de leur vie, le témoignage de leur charité, l’ardeur de leur apostolat. Nous ne connaîtrons jamais leurs noms, mais nous nous savons tributaires de leur fidélité et nous savons pouvoir compter sur leur intercession. Nous ne pouvons oublier les monastères, les prieurés, qui ont jadis quadrillé le diocèse, les couvents, si nombreux au siècle dernier, les frères et les sœurs voués à l’enseignement, les hospitalières enfin ; nous leur devons beaucoup et nous devons en rendre grâce.
+    Il faudrait pouvoir citer encore nos compatriotes que les guerres de religion ou la Révolution ont amené à sacrifier leur vie par fidélité au Christ et attachement à son Église. Ils sont nos modèles. N’est-elle pas très réelle aussi la sainteté de tant de prêtres qui ont usé leur vie au service de leurs paroissiens, de tant de missionnaires sortis de chez nous, et qui ont été au loin les témoins du Christ ?
+    Que l’exemple et surtout la prière de tous ceux que la célébration de ce jour veut honorer, nous rendent attentifs à l’appel du Seigneur : soyez saints.
+  commons:
+    - saints
+  color: white
+
+oration:
+  - |-
+    Dieu notre Père, source de toute sainteté, nous proclamons tes merveilles en fêtant aujourd’hui tous les saints de notre Église de Valence ; Tu leur as donné sur terre les grâces les plus diverses et tu les rassembles au ciel dans une même gloire ; par leur intercession, accorde à chacun d’entre nous de répondre fidèlement à sa vocation. Par Jésus Christ.
+
+readings:
+  patristicReading:
+    - title: HOMÉLIE ATTRIBUÉE A SAINT EUCHER, ÉVÊQUE DE LYON
+      subtitle: Nous n’avons pas besoin de chercher bien loin des modèles
+      content: |-
+        Il est certainement bon de se réjouir à l’occasion des solennités publiques et communes, mais on doit estimer davantage la fête où il s’agit de célébrer les vertus de ceux qui nous sont proches. Et c’est pourquoi le culte des saints originaires de ce pays et spécialement l’honneur rendu aux saints patrons, de même qu’ils procurent une joie particulière, requièrent aussi des sentiments qui leur soient propres. En effet, s’il importe de vénérer avec un si grand soin les palmes et les couronnes victorieusement acquises en terre étrangère et les triomphes remportés au-delà des mers, pour faire nôtre dans nos célébrations ce qui est localement éloigné, à combien plus forte raison convient-il de monter une garde d’honneur avec un zèle ardent auprès de ceux envers qui la religion a de multiples devoirs de dévotion, l’Église un devoir de respect et la patrie un devoir de gratitude. De même que nous sommes apparentés à eux en droit par la naissance, ainsi faut-il que nous revendiquions pour nous envers eux le privilège de la piété et de la grâce, et que nous nous tournions d’abord vers eux à cause du don de la foi. Ainsi, nous, qui nous félicitons d’être leurs concitoyens sur la terre, nous mériterons d’avoir part avec eux dans les cieux.
+        Ainsi donc, frères bien-aimés, pour posséder la foi, pour pratiquer la religion, nous n’avons pas besoin de chercher bien loin des modèles ; nous recevons les enseignements paternels, nous recevons les conseils de nos proches. « Apprenez de nous, disent-ils, à acquérir la foi en la cherchant, à la cultiver en la vivant, à la conserver en mourant. Apprenez à craindre le péché plus que le glaive. Apprenez à aimer la justice plus que la vie, à cause de la vraie vie, à aimer la foi et la crainte de Dieu. L’ancre de l’espérance et de la religion que nous avons conservée au milieu des flots, prenez garde de la perdre vous-mêmes, alors que vous êtes arrivés au port. Prenez garde de considérer comme un malheur une vie de bien, même si parfois vous la voyez soumise aux épreuves. Prenez garde de penser qu’il faut attendre quelque bonheur sur l’arène du monde où nous avons été envoyés pour affronter les combats. Ce n’est pas ici que tu dois chercher ce qu’aucun des saints au bout de ses efforts, ce qu’aucun confesseur, ce que le Christ lui-même n’a pas trouvé. »
+      responsory: |-
+        R/ Heureux ceux qui écoutent la Parole de Dieu
+        et qui la gardent.
+
+        Que le Seigneur vous fasse croître
+        et abonder dans l’amour mutuel.
+
+        Que le Seigneur affermisse vos cœurs
+        dans une sainteté sans reproche devant lui.
+
+        Que Dieu notre Père vous garde vigilants
+        pour l’avènement de Notre Seigneur Jésus Christ
+        avec tous les saints
+
+morning:
+  evangelicAntiphon:
+    common:
+      - |-
+        Béni soit Dieu qui nous a choisis pour être saints et sans péché devant sa face, grâce à son amour.
+
+vespers:
+  evangelicAntiphon:
+    common:
+      - |-
+        Heureux les saints dans le royaume du Christ : vêtus de robes blanches, ils suivent l’Agneau et partagent sa joie.

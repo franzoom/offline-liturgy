@@ -1,0 +1,250 @@
+celebration:
+  title: Saint Apollinaire
+  subtitle: évêque de Valence, patron du diocèse
+  description: |-
+    Apollinaire est né vers 453 et probablement à Vienne dont son père, le sénateur Hésychius, devait devenir l’évêque après la mort de saint Mamert et avoir pour successeur son fils cadet Avit. La famille était originaire d’Auvergne et apparentée à saint Sidoine Apollinaire, évêque de Clermont.
+    Évêque de Valence, avant 492, Apollinaire participe au concile d’Épaone en 517 et peu après à celui de Lyon. Certaines décisions prises alors indisposèrent le roi Sigismond. Apollinaire aurait été exilé quelque temps. C’est lui qui obtint de son frère Avit la publication de ses poèmes ; l’un d’eux, écrit pour leur sœur Fustine, célèbre la beauté de la virginité. Saint Apollinaire eut à défendre l’authentique foi de l’Église en la parfaite divinité du Christ alors que des séquelles de l’arianisme troublaient les esprits. Le temps ne devait pas entamer sa réputation de sainteté.
+    Au XI^e siècle, son corps fut transporté dans la nouvelle cathédrale qui finit par porter son nom, bien qu’il n’en soit pas le titulaire.
+    Ses reliques ont été dispersées par les calvinistes en 1562-1567. Saint Apollinaire a été reconnu comme le patron du nouveau diocèse de Valence constitué après la Révolution.
+  commons:
+    - pastors_bishop
+  locative: à Valence
+  color: white
+
+invitatory:
+  antiphon:
+    - Louange à toi, Seigneur Jésus, notre pasteur et notre guide.
+
+oration:
+  - |-
+    Tu as voulu, Seigneur, que les travaux apostoliques de saint Apollinaire et sa générosité à te servir fassent grandir ton Église de Valence ; accorde-nous, par son intercession, de garder la foi qu’il a transmise et de suivre en tout ses exemples. Par Jésus Christ.
+
+firstVespers:
+  hymn:
+    - nul-n-est-disciple
+  psalmody:
+    - psalm: PSALM_112
+      antiphon:
+        - Là où je suis, dit le Seigneur, là aussi sera mon serviteur.
+    - psalm: PSALM_145
+      antiphon:
+        - Celui qui me suit ne marchera pas dans les ténèbres, il aura la lumière de la vie.
+    - psalm: NT_11
+      antiphon:
+        - Celui qui croit en moi accomplira les mêmes œuvres que moi.
+  reading:
+    biblicalReference: 1 Jn 2,24-25
+    content: |-
+      Pour vous, gardez en vous-mêmes ce que vous avez entendu depuis le commencement. Si ce que vous avez entendu demeure en vous, vous aussi, vous demeurerez dans le Fils et dans le Père : et ce que le Fils lui-même nous a promis, c’est la vie éternelle.
+  evangelicAntiphon:
+    common:
+      - |-
+        Exaltons le Seigneur pour saint Apollinaire : par lui il est venu en aide à nos pères et nous a comblés de biens.
+  intercession:
+    content: |-
+      Prions le Seigneur qui couronne de gloire aujourd’hui saint Apollinaire et qui nous appelle tous à la sainteté :
+
+      R/ Jésus, Bon Pasteur, entends notre prière.
+
+      Toi qui nous as fait naître dans une Église riche de tout un passé de sainteté,
+      – ranime en nous la fierté d’être chrétiens.
+
+      Toi qui nous as donné saint Apollinaire comme modèle et protecteur,
+      – accorde à son successeur, notre évêque, au clergé et aux fidèles du diocèse d’être attentifs à ses exemples et pleins de confiance en son intercession.
+
+      Toi qui as montré en saint Apollinaire une sainteté vraiment apostolique,
+      – suscite des vocations sacerdotales et religieuses nombreuses et fidèles.
+
+      Toi qui as établi saint Apollinaire gardien de Valence en des temps difficiles,
+      – donne-nous de travailler sans relâche à l’avènement de ton Règne de justice et de paix.
+
+      Toi qui as béni le travail apostolique de saint Apollinaire,
+      – bénis le labeur des travailleurs, donne à tous les hommes le pain quotidien et la faim de ta Parole.
+
+      Toi que saint Apollinaire a retrouvé souvent dans la prière,
+      – écoute son appel en faveur de nos défunts.
+
+readings:
+  hymn:
+    - eglise-de-toujours
+  psalmody:
+    - psalm: PSALM_20
+      antiphon:
+        - Si vous demeurez en moi, et que mes paroles demeurent en vous, demandez et vous obtiendrez.
+    - psalm: PSALM_91_1
+      antiphon:
+        - Ma plus grande joie, c’est d’apprendre que mes enfants marchent dans la lumière de la vérité.
+    - psalm: PSALM_91_2
+      antiphon:
+        - Celui qui demeure en moi, et en qui je demeure, celui-là donne beaucoup de fruit.
+  verse: |-
+    V/ Par sa vie et sa parole, il a proclamé la justice.
+    R/ La loi du Seigneur était dans son cœur.
+  biblicalReading:
+    - title: LECTURE DU LIVRE DES PROVERBES
+      ref: Pr 4,1-13
+      content: |-
+        Écoutez, mes fils, l’instruction d’un père, soyez attentifs à connaître l’intelligence. Car c’est une bonne doctrine que je vous livre, n’abandonnez pas mon enseignement, je fus un fils pour mon père, tendre et unique aux yeux de ma mère. Or il m’enseignait en ces termes : « Que ton cœur retienne mes paroles, observe mes préceptes et tu vivras ; acquiers la sagesse, acquiers l’intelligence, ne l’oublie pas et ne t’écarte pas des paroles de ma bouche. Ne l’abandonne pas, elle te gardera, aime-la, elle veillera sur toi. Commencement de la sagesse : acquiers la sagesse au prix de tout ce que tu possèdes, acquiers l’intelligence ! Étreins-la et elle t’élèvera, elle fera ta gloire si tu l’embrasses ; sur ta tête elle posera un diadème de grâce, elle t’offrira une couronne d’honneur. » Écoute, mon fils, accueille mes paroles, et les années de ta vie se multiplieront. Dans la voie de la sagesse je t’ai enseigné, je t’ai fait cheminer sur la piste de la droiture. Dans ta marche tes pas seront sans contrainte, si tu cours, tu ne trébucheras pas. Saisis la discipline, ne la lâche pas, garde-la, c’est ta vie.
+      responsory: |-
+        R/ Soyez les réalisateurs de la Parole
+        et pas seulement ses auditeurs.
+        * Menez une vie digne de l’Évangile du Christ.
+        V/ Que votre foi ne soit pas fondée
+        sur la sagesse des hommes,
+        mais sur la puissance du Christ.
+        * Menez une vie digne de l’Évangile du Christ.
+    - title: LECTURE DE LA LETTRE DE SAINT PAUL APÔTRE À TITE
+      ref: Tt 1,7-11 ; 2,1-8
+      content: |-
+        Il faut que l’épiscope soit irréprochable en sa qualité d’intendant de Dieu : ni arrogant, ni coléreux, ni buveur, ni batailleur, ni avide de gains honteux. Il doit être hospitalier, ami du bien, pondéré, juste, saint, maître de soi, fermement attaché à la parole digne de foi, qui est conforme à l’enseignement. Ainsi sera-t-il capable d’exhorter dans la sainte doctrine et de réfuter les contradicteurs.
+        Nombreux sont en effet les insoumis, vains discoureurs et trompeurs, surtout parmi les circoncis. Il faut leur fermer la bouche. Ils bouleversent des familles entières, en enseignant pour un gain honteux ce qu’il ne faut pas.
+        Pour toi enseigne ce qui est conforme à la sainte doctrine. Que les vieillards soient sobres, dignes, pondérés, pleins d’une foi saine, d’amour, de persévérance.
+        Les femmes âgées, pareillement, doivent se comporter comme il sied à des personnes saintes : ni médisantes, ni adonnées aux excès de vin. Qu’elles enseignent le bien, qu’elles apprennent ainsi aux jeunes femmes à aimer leur mari et leurs enfants, à être modestes, chastes, dévouées à leur maison, bonnes, soumises à leur mari, pour que la parole de Dieu ne soit pas blasphémée. Exhorte aussi les jeunes gens à la pondération en toutes choses.
+        Montre en ta personne un modèle de belles œuvres : pureté de doctrine, dignité, parole saine et inattaquable, afin que l’adversaire, ne trouvant aucun mal à dire à notre sujet, soit couvert de confusion.
+      responsory: |-
+        R/ C’est au prix de son sang
+        que le Christ s’est acquis l’Église.
+
+        Soyez donc attentifs au troupeau
+        dont l’Esprit vous a confié la charge.
+
+        Vous serez les intendants fidèles
+        des mystères de sa grâce.
+
+        Livrés en spectacle au monde,
+        vous serez les modèles du troupeau.
+  patristicReading:
+    - title: HOMÉLIE DE SAINT AVIT DE VIENNE, POUR LES ROGATIONS
+      content: |-
+        L’Évangile a montré l’utilité de la prière suppliante, quand le chœur des disciples, tremblant au fracas de la tempête, éveilla le Seigneur qui dormait dans la barque. Il n’y eut pas, en effet, d’autre raison à ce que le Seigneur, au milieu d’un tel déferlement des vents et des flots entrechoqués, demeurât couché, profondément endormi, dans un calme imperturbable, sinon que dans notre crainte, au milieu des périls auxquels nous sommes exposés, nous ayons recours à lui. La tempête présente nous harcèle de ses coups redoublés ; le tonnerre de ce siècle gronde contre nous avec un terrible fracas ; quand brillent par instants les éclairs de ce monde, l’impression n’est pas de clarté, mais d’éblouissement.
+        L’Église est le navire qui nous conduit parmi les hasards variés, comme à travers les gouffres marins. Nos oreilles résonnent du grincement des détractions et des blasphèmes, comme si l’assemblage de la coque éclatait. Mais la nef, construite avec la solidité de la vérité, peut bien être harcelée, mais non traversée. Et puisque notre Seigneur a promis à l’Église : %Voici que je suis avec vous tous les jours, jusqu’à la consommation des siècles%, il est, bien sûr, dans le navire où nous sommes, mais il ne peut plus craindre ce que nous redoutons. En effet, après sa résurrection et son ascension, il est tout à son repos, durant nos périls. Ou plutôt, il faut la crainte éprouvée par autrui pour qu’il s’éveille de son tranquille repos.
+        Appelons-le donc avec des mots suppliants, et si, le danger se faisant plus urgent, il n’entend pas encore, secouons-le avec les mains de la générosité et disons-lui : %Réveille-toi, pourquoi dors-tu, Seigneur, oublieux de notre détresse et de notre tribulation ?% Et lui nous dira, une fois réveillé : %Pourquoi êtes-vous craintifs, hommes de peu de foi ?% Qu’il rende le salut et semonce la timidité. Même si notre foi est minime, car nous craignons les menaces du monde, elle existe cependant tant soit peu, si nous recourons au Seigneur. On ne craindrait pas en sa présence, si c’était lui que l’on craignait. Mais une trop faible conscience du bien est le plus puissant motif de la peur, surtout en notre vie où la fréquence des fautes entraîne la multiplicité des dangers. Alors, si nous n’avons pas dit au Christ : « Veille avec nous », disons-lui du moins : « Réveille-toi à cause de nous. » Nous ne lui avons pas demandé de ne pas s’éloigner ; obtenons qu’il revienne et n’abandonne plus le cours de notre fragile navigation avant d’avoir imposé silence au vent et à la mer, mis fin bien vite aux fureurs d’un monde insensé, et établi par la rétribution du jugement la grande tranquillité qui ne peut exister en ce monde. Oui, si vous étiez du monde, le monde aimerait ce qui serait à lui. Mais par la victoire sur le monde, parvenons au repos éternel : là où périr ne sera plus possible, il n’y aura plus place pour le péril ; là où le Seigneur sera toujours avec nous, nous serons, s’il nous l’accorde, toujours avec lui. Et lui qui parfois ici-bas dort pour les négligents, veillera sans fin là-haut pour ceux qui jouiront à jamais de lui.
+      responsory: |-
+        R/ Heureux le serviteur fidèle,
+        il entre dans la joie de son maître.
+
+        Je rends grâce au Seigneur Jésus :
+        il m’a jugé assez fidèle
+        pour m’appeler à son service.
+
+        En moi la grâce du Seigneur a surabondé,
+        avec la foi et la charité
+        qui est dans le Christ Jésus.
+
+morning:
+  hymn:
+    - heureux-ceux-que-dieu-a-choisis
+  psalmody:
+    - psalm: PSALM_62
+      antiphon:
+        - Celui qui boira de l’eau que moi je lui donnerai n’aura plus jamais soif.
+    - psalm: OT_41
+      antiphon:
+        - Le Christ a fait de nous le royaume et les prêtres de Dieu son Père, à lui gloire et puissance, pour les siècles des siècles.
+    - psalm: PSALM_149
+      antiphon:
+        - Père, je leur ai fait connaître ton nom, pour qu’ils aient en eux l’amour dont tu m’as aimé.
+  reading:
+    biblicalReference: 1 Jn 2,7.10
+    content: |-
+      Mes bien-aimés, ce que je vous écris, n’est pas un commandement nouveau, mais un commandement ancien, que vous aviez dès le commencement. Ce commandement ancien, c’est la parole que vous avez entendue. Celui qui aime son frère demeure dans la lumière.
+  responsory: |-
+    R/ Le Verbe est la vraie lumière qui éclaire tout homme.
+  evangelicAntiphon:
+    common:
+      - |-
+        Béni soit le Seigneur qui a suscité saint Apollinaire pour porter son alliance à nos pères et nous garder au chemin du salut.
+  intercession:
+    content: |-
+      Bénissons le Seigneur qui nous a révélé la splendeur de son Verbe et qui nous a donné des pasteurs fidèles à sa lumière :
+
+      R/ L’amour du Seigneur, à jamais je le chante.
+
+      Béni sois-tu, Seigneur, pour le courage de saint Apollinaire dans la défense de la divinité de ton Fils :
+      – affermis la foi de ceux qui doutent ou qui sont persécutés pour le nom de Jésus.
+
+      Béni sois-tu, Seigneur, pour la sainteté qui a fleuri dans la famille de saint Apollinaire :
+      – encourage la fidélité des époux et donne à leur foyer la fécondité et la solidité d’un amour vrai.
+
+      Béni sois-tu, Seigneur, pour le zèle apostolique de saint Apollinaire :
+      – accorde-nous de travailler avec ardeur à l’extension de ton règne.
+
+      Béni sois-tu, Seigneur, pour la confiance que nous donne la protection de saint Apollinaire :
+      – que son intercession ranime en nous le désir de te connaître, de te servir et de t’aimer.
+
+      Béni sois-tu, Seigneur, pour tous ceux qui nous ont transmis l’héritage des saints, à travers leur vie de prière et de charité :
+      – qu’ils trouvent en toi la récompense surabondante de leur foi et de leur amour.
+
+middleOfDay:
+  tierce:
+    reading:
+      biblicalReference: 1 Jn 3,18-19
+      content: |-
+        Mes petits enfants, nous devons aimer : non pas avec des paroles et des discours, mais par des actes et en vérité. En agissant ainsi, nous reconnaîtrons que nous appartenons à la vérité, et devant Dieu nous aurons le cœur en paix.
+  sexte:
+    reading:
+      biblicalReference: 1 Jn 3,18-19
+      content: |-
+        Mes petits enfants, nous devons aimer : non pas avec des paroles et des discours, mais par des actes et en vérité. En agissant ainsi, nous reconnaîtrons que nous appartenons à la vérité, et devant Dieu nous aurons le cœur en paix.
+  none:
+    reading:
+      biblicalReference: 1 Jn 3,18-19
+      content: |-
+        Mes petits enfants, nous devons aimer : non pas avec des paroles et des discours, mais par des actes et en vérité. En agissant ainsi, nous reconnaîtrons que nous appartenons à la vérité, et devant Dieu nous aurons le cœur en paix.
+
+vespers:
+  hymn:
+    - unique-berger-o-jesus
+  psalmody:
+    - psalm: PSALM_14
+      antiphon:
+        - Dieu est juste et quiconque vit selon la justice est né de Dieu.
+    - psalm: PSALM_111
+      antiphon:
+        - Celui qui agit selon la vérité vient à la lumière.
+    - psalm: NT_11
+      antiphon:
+        - Père, je t’ai glorifié sur la terre en accomplissant l’œuvre que tu m’avais confiée.
+  reading:
+    biblicalReference: 1 Jn 4,16-17
+    content: |-
+      Nous avons reconnu et nous avons cru que l’amour de Dieu est parmi nous. Dieu est amour : celui qui demeure dans l’amour demeure en Dieu et Dieu demeure en lui. Voici comment l’amour, parmi nous, atteint sa perfection : il nous donne de l’assurance pour le jour du jugement. Car ce que nous sommes dans ce monde est à l’image de ce que Jésus est lui-même.
+  responsory: |-
+    R/ Vous avez appris de nous
+    comment vous devez vous conduire pour plaire à Dieu.
+
+    La volonté de Dieu,
+    c’est que vous viviez dans la sainteté.
+
+    Tenez bon et gardez fermement
+    les traditions que nous vous avons enseignées.
+
+    La volonté de Dieu,
+    c’est que vous viviez dans la sainteté.
+  evangelicAntiphon:
+    common:
+      - |-
+        Le Seigneur a porté son regard sur saint Apollinaire pour accomplir les promesses faites à nos pères et nous manifester son amour.
+  intercession:
+    content: |-
+      Prions le Seigneur qui couronne de gloire aujourd’hui saint Apollinaire et qui nous appelle tous à la sainteté :
+
+      R/ Jésus, Bon Pasteur, entends notre prière.
+
+      Toi qui nous as fait naître dans une Église riche de tout un passé de sainteté,
+      – ranime en nous la fierté d’être chrétiens.
+
+      Toi qui nous as donné saint Apollinaire comme modèle et protecteur,
+      – accorde à son successeur, notre évêque, au clergé et aux fidèles du diocèse d’être attentifs à ses exemples et pleins de confiance en son intercession.
+
+      Toi qui as montré en saint Apollinaire une sainteté vraiment apostolique,
+      – suscite des vocations sacerdotales et religieuses nombreuses et fidèles.
+
+      Toi qui as établi saint Apollinaire gardien de Valence en des temps difficiles,
+      – donne-nous de travailler sans relâche à l’avènement de ton Règne de justice et de paix.
+
+      Toi qui as béni le travail apostolique de saint Apollinaire,
+      – bénis le labeur des travailleurs, donne à tous les hommes le pain quotidien et la faim de ta Parole.
+
+      Toi que saint Apollinaire a retrouvé souvent dans la prière,
+      – écoute son appel en faveur de nos défunts.

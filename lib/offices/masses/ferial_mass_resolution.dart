@@ -15,8 +15,10 @@ Future<Masses> ferialMassResolution(CelebrationContext context) async {
 
   return composeLayers<Masses>([
     ...layers.paths,
-    // Dec 17–24: the great Advent weekday's own file
-    if (layers.adventSpecialDay != null)
+    // Dec 17–24: the great Advent weekday's own Mass — weekdays only, a
+    // Sunday keeps its own Mass (unlike the Office, whose "O" antiphon
+    // still applies on a Sunday)
+    if (layers.adventSpecialDay != null && layers.day != 0)
       FerialLayers.adventSpecialPath(layers.adventSpecialDay!),
   ], (path) => massExtract(path, dataLoader),
       (base, overlay) => base.overlayWith(overlay));

@@ -97,12 +97,14 @@ DateTime saintPieterAndPaul(DateTime sacredHeartDay) {
   return stPeterPaulDay;
 }
 
-/// Returns St John the Baptist (June 24), shifting if it hits Sacred Heart.
+/// Returns St John the Baptist (June 24), anticipated to June 23 if it hits
+/// Sacred Heart (as in 2022 and 2033).
 DateTime saintJohnTheBaptist(DateTime sacredHeartDay) {
   DateTime stJohnDay = DateTime(sacredHeartDay.year, 6, 24);
-  // If it falls on the same day as Sacred Heart, shift to the next day
+  // If it falls on the same day as Sacred Heart, anticipate to the day
+  // before: always the Thursday after Corpus Christi, a ferial day
   if (stJohnDay.isSameDayAs(sacredHeartDay)) {
-    return stJohnDay.shift(1);
+    return stJohnDay.shift(-1);
   }
   return stJohnDay;
 }

@@ -1,9 +1,23 @@
 celebration:
-  title: Saints Qodvultus et Deogratias
+  title: Saints Quodvultdeus et Deogratias
   subtitle: évêques
-  description: 
-  color: white
+  description: |-
+    Quodvultdeus et Deogratias furent tous deux évêques de Carthage. Le premier, élu en 437, vit sa ville épiscopale tomber aux mains des Vandales en 439. Genséric le déporta avec d’autres évêques et prêtres. Contre toute espérance, ils arrivèrent à Naples. Quodvultdeus y combattit l’hérésie de Pélage et mourut à une date incertaine, avant 454 où fut élu son successeur Deogratias. Cette élection avait été approuvée par Genséric, mais le nouvel évêque irrita très vite le roi vandale par sa charité envers les captifs ramenés de Rome en 455. Lorsqu’il mourut, après trois ans d’épiscopat, Genséric s’opposa à son remplacement.
   commons:
   - pastors_multiple
+  color: white
 
 oration:
+- Seigneur, lorsque les ennemis de ton Nom affligeaient l’Église, tu as suscité pour ta gloire les saints évêques Quodvultdeus et Deogratias ; à leur prière, accorde aux chrétiens persécutés et réduits au silence la patience et la miséricorde de Jésus crucifié.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur, lorsque les ennemis de ton Nom affligeaient l’Église,
+    >tu as suscité pour ta gloire
+    >les saints évêques Quodvultdeus et Deogratias ; *
+    à leur prière, accorde aux chrétiens persécutés et réduits au silence /
+    >la patience et la miséricorde de Jésus crucifié.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

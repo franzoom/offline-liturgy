@@ -76,3 +76,52 @@ vespers:
     common:
     - |-
       Notre Église est heureuse : le sang des martyrs est sa gloire.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Ac 20,23-24
+    content: |-
+      Les chaînes et les épreuves m’attendent ;
+      >je ne crains rien.
+      En aucun cas, je n’accorde du prix à ma vie,
+      >pourvu que j’achève ma course
+      >et le ministère que j’ai reçu du Seigneur.
+  collect:
+  - |-
+    Que la prière de saint Cyprien
+    >nous recommande auprès de toi, Seigneur, *
+    puisqu’il a brillé dans notre Église
+    >par la force de son sacerdoce /
+    >et la gloire de son martyre.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    D’un cœur unanime, nous t’offrons, Seigneur,
+    >ce sacrifice de communion : *
+    qu’il nous obtienne d’aimer sans réserve
+    >l’unité de l’Église, /
+    que saint Cyprien a défendue
+    >par son enseignement et le don de sa vie.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - cyprian_of_carthage
+  communionAntiphon:
+  - biblicalReference: 2 Co 1,5
+    content: |-
+      De même que nous avons largement part aux souffrances du Christ,
+      >de même, par le Christ, nous sommes largement réconfortés.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à ton évêque saint Cyprien,
+    appuyé fermement sur l’Évangile
+    et fidèle aux préceptes du Christ,
+    d’être victorieux dans le martyre : *
+    accorde-nous, en cette eucharistie,
+    >la force de ton Esprit Saint, /
+    >afin que nos paroles et nos actes
+    >rendent témoignage à la vérité de l’Évangile.
+    Par le Christ, notre Seigneur.

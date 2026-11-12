@@ -1,9 +1,26 @@
 celebration:
   title: Saints Longin, Eugène et Vindémial
   subtitle: évêques
-  description: 
-  color: white
+  description: |-
+    Ces trois évêques furent victimes de la persécution d’Hunéric. Longin était évêque de Pamoria (ou Pomaria, l’actuel Tlemcen), Eugène de Carthage et Vindémial de Capsa (actuel Gafsa). Témoins courageux de la foi catholique en face de l’arianisme, ils furent exilés en 484, après le pseudo-concile de Carthage.
   commons:
   - pastors_multiple
+  color: white
 
 oration:
+- |-
+  Tu as suscité, Seigneur, les saints évêques Longin, Eugène et Vindémial pour défendre la vérité de la foi : forts de ton secours, ils ont souffert avec courage la persécution et l’exil ; accorde-nous de savoir comme eux tout donner et tout perdre pour demeurer dans la communion de ton Fils.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Tu as suscité, Seigneur, les saints évêques
+    >Longin, Eugène et Vindémial
+    >pour défendre la vérité de la foi : +
+    forts de ton secours,
+    >ils ont souffert avec courage la persécution et l’exil ; *
+    accorde-nous de savoir comme eux tout donner et tout perdre /
+    >pour demeurer dans la communion de ton Fils.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

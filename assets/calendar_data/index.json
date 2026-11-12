@@ -1738,13 +1738,56 @@
     "dir": "sanctoral",
     "title": "Saint Pons"
   },
+  "north-africa/alypius_and_possidius_bishops": {
+    "color": "white",
+    "commons": [
+      "pastors_multiple"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Alype et Possidius"
+  },
+  "north-africa/augustine_of_hippo_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop",
+      "pastors_doctors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Augustin"
+  },
   "north-africa/celerina_and_compagnions_martyrs": {
     "color": "red",
     "commons": [
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Sainte Célerina et ses compagnons"
+    "title": "Sainte Célérina et ses compagnons"
+  },
+  "north-africa/charles_de_foucauld_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Charles de Foucauld"
+  },
+  "north-africa/cornelius_pope_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_pope"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Corneille"
+  },
+  "north-africa/crispina_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr_female",
+      "saints-female"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Crispine"
   },
   "north-africa/cyprian_of_carthage_bishop_martyrs": {
     "color": "red",
@@ -1755,9 +1798,20 @@
     "dir": "sanctoral",
     "title": "Saint Cyprien, évêque"
   },
+  "north-africa/dedication_of_consecrated_churches": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace des églises"
+  },
   "north-africa/fulgence_bishop": {
     "color": "white",
-    "commons": [],
+    "commons": [
+      "pastors_bishop"
+    ],
     "dir": "sanctoral",
     "title": "Saint Fulgence"
   },
@@ -1767,7 +1821,7 @@
       "martyrs"
     ],
     "dir": "sanctoral",
-    "title": "Saint jacques, diacre, saint Marien, lecteur, et leurs compagnons"
+    "title": "Saints Jacques, diacre, Marien, lecteur, et leurs compagnons"
   },
   "north-africa/longinius_eugenius_vindemial_bishops": {
     "color": "white",
@@ -1777,21 +1831,103 @@
     "dir": "sanctoral",
     "title": "Saints Longin, Eugène et Vindémial"
   },
+  "north-africa/marcellinus_of_carthage_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Marcellin"
+  },
+  "north-africa/marcellus_and_maximilian_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Marcel et Maximilien"
+  },
+  "north-africa/marciana_of_caesarea_virgin_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr_female_virgin",
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Marcienne"
+  },
+  "north-africa/monica_of_hippo": {
+    "color": "white",
+    "commons": [
+      "saints-female_married"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Monique"
+  },
+  "north-africa/nemesianus_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Némésianus et ses compagnons"
+  },
+  "north-africa/optatus_of_milevis_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Optat"
+  },
+  "north-africa/our_lady_of_africa": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Vierge Marie, Notre-Dame d’Afrique"
+  },
+  "north-africa/perpetua_of_carthage_and_felicity_of_carthage_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs_female"
+    ],
+    "dir": "sanctoral",
+    "title": "Saintes Perpétue et Félicité"
+  },
+  "north-africa/pierre_claverie_bishop_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs",
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Pierre Claverie et ses compagnons"
+  },
   "north-africa/quodvultus_deogratias_bishops": {
     "color": "white",
     "commons": [
       "pastors_multiple"
     ],
     "dir": "sanctoral",
-    "title": "Saints Qodvultus et Deogratias"
+    "title": "Saints Quodvultdeus et Deogratias"
+  },
+  "north-africa/speratus_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Spérat et ses compagnons"
   },
   "north-africa/victorus_miltiadius_gelase_popes": {
     "color": "white",
     "commons": [
-      "pastors_multiple"
+      "pastors_pope"
     ],
     "dir": "sanctoral",
-    "title": "Saints Victor I^er, Miltiade et Gélase I^er"
+    "title": "Saints Victor Ier, Miltiade et Gélase Ier"
   },
   "north_america/our_lady_of_guadalupe": {
     "color": "white",

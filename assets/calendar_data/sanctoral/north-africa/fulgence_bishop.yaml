@@ -1,9 +1,43 @@
 celebration:
   title: Saint Fulgence
   subtitle: évêque
-  description: 
+  description: |-
+    Né en 462 à Thélepte (aujourd’hui Médinet el K’dima, en Tunisie), Fulgence appartenait à une famille sénatoriale. Sa mère, veuve de bonne heure, lui fit donner une excellente éducation. Après quelque temps passé dans l’administration, il embrassa la vie monastique. En 502, il fut élu évêque de Ruspe (entre Sfax et Sousse). Par deux fois, il fut exilé en Sardaigne par le roi vandale Thrasamond. Rentré à Ruspe, il y mourut le 1er janvier 527.
+  commons:
+  - pastors_bishop
   color: white
-  commons: 
-    - null
 
 oration:
+- Tu as réuni, Seigneur, en l’évêque saint Fulgence le zèle du pasteur, la science du théologien et la vie de prière du moine ; accorde-nous de savoir comme lui te chercher dans le recueillement et te rencontrer dans le service de nos frères.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Tu as réuni, Seigneur, en l’évêque saint Fulgence
+    >le zèle du pasteur,
+    >la science du théologien
+    >et la vie de prière du moine ; *
+    accorde-nous de savoir comme lui
+    >te chercher dans le recueillement /
+    >et te rencontrer dans le service de nos frères.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Sanctifie ton peuple, Seigneur,
+    >par la puissance de ce sacrifice ; *
+    puisqu’il te l’offre en l’honneur de saint Fulgence,
+    >donne-lui d’imiter la fermeté de sa foi /
+    >et la générosité de son amour.
+    Par le Christ, notre Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Tu as répandu sur nous, Seigneur,
+    >l’abondance de tes dons ; *
+    renouvelés par cette eucharistie
+    >et soutenus par l’exemple de saint Fulgence, /
+    puissions-nous demeurer sans cesse en ta présence
+    >et nous dépenser généreusement à ton service.
+    Par le Christ, notre Seigneur.

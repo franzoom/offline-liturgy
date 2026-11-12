@@ -1,9 +1,40 @@
 celebration:
-  title: Saints Victor I^er, Miltiade et Gélase I^er
+  title: Saints Victor Ier, Miltiade et Gélase Ier
   subtitle: papes
-  description: 
-  color: white
+  description: |-
+    Trois papes d’origine africaine ont occupé la chaire de Pierre. Victor Ier (189-199), Miltiade (311-314) et Gélase Ier (492-496). Leurs biographies révèlent en eux un trait commun, fortement prononcé chez Victor et Gélase : la vigueur des réactions et l’énergie des décisions. Ils sont de la même trempe que saint Cyprien. Victor Ier uniformisa pour toute l’Église la date de Pâques. C’est sous le pontificat de Miltiade que la liberté fut reconnue au christianisme dans l’Empire romain ; lui-même eut à intervenir en Afrique du Nord dans la querelle du donatisme naissant. Gélase Ier entoura de sa sollicitude pastorale les Églises éprouvées par la guerre, et s’appliqua à porter remède aux divisions provoquées par le monophysisme, avec le souci de sauvegarder les intérêts supérieurs de l’Église universelle et la mission particulière de l’Église romaine.
   commons:
-  - pastors_multiple
+  - pastors_pope
+  color: white
 
 oration:
+- Pour guider l’Église universelle dans les voies de ton amour, tu lui as donné, Seigneur, trois papes venus d’Afrique, saint Victor, saint Miltiade et saint Gélase ; accorde à tes fils de respecter leurs diversités mutuelles et d’être tous en communion avec le Pasteur qui préside à l’unité des Églises.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Pour guider l’Église universelle dans les voies de ton amour,
+    >tu lui as donné, Seigneur, trois papes venus d’Afrique,
+    >saint Victor, saint Miltiade et saint Gélase ; *
+    accorde à tes fils de respecter leurs diversités mutuelles /
+    >et d’être tous en communion avec le Pasteur
+    >qui préside à l’unité des Églises.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Seigneur, tu renouvelles la face de la terre
+    >par la lumière de ta vérité ; *
+    reçois les dons de ceux que tu as appelés
+    >à te servir en Afrique : /
+    que cette offrande te soit agréable.
+    Par le Christ, notre Seigneur.
+  prayerAfterCommunion:
+  - |-
+    En la fête des saints papes africains,
+    >tu nous as donné, Seigneur, de partager l’Eucharistie : *
+    qu’elle soit entre nous le lien de la charité /
+    >dans la communion de l’Esprit Saint.
+    Par le Christ, notre Seigneur.

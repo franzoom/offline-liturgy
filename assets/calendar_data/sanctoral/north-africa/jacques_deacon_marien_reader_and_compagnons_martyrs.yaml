@@ -1,9 +1,41 @@
 celebration:
-  title: Saint jacques, diacre, saint Marien, lecteur, et leurs compagnons
+  title: Saints Jacques, diacre, Marien, lecteur, et leurs compagnons
   subtitle: martyrs
-  description: 
-  color: red
+  description: |-
+    Le diacre Jacques et le lecteur Marien furent arrêtés dans les faubourgs de Cirta (Constantine) le 30 avril 259, durant la persécution de Valérien. Après avoir confessé leur foi devant les magistrats de Cirta, ils furent remis au préfet militaire de Lambèze (l’actuel Tazoult). Ce dernier les condamna à mort et les fit exécuter, avec beaucoup d’autres chrétiens, le 6 mai suivant. La Passion de Jacques, Marien et leurs compagnons a été écrite par un parent de Jacques, emprisonné avec eux.
   commons:
   - martyrs
-  
+  color: red
+
 oration:
+- Dieu notre Père, les saints martyrs Jacques, Marien et leurs compagnons, unis à ton Fils par une foi et une charité ardentes, ont partagé courageusement ses épreuves ; à leur exemple, fais-nous vivre de sa présence et de sa parole.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Dieu notre Père, +
+    >les saints martyrs Jacques, Marien et leurs compagnons,
+    >unis à ton Fils par une foi et une charité ardentes,
+    >ont partagé courageusement ses épreuves ; *
+    à leur exemple, fais-nous vivre de sa présence /
+    >et de sa parole.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Seigneur, tes saints martyrs trouvaient dans l’Eucharistie
+    >la nourriture qui fortifiait leur âme
+    >et les préparait au combat ; *
+    donne-nous la même ferveur /
+    >pour célébrer tes mystères.
+    Par le Christ, notre Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Seigneur, notre Dieu, +
+    >nous venons de boire, pleins de joie,
+    >à la coupe du salut : *
+    qu’elle nous donne cet amour
+    >qui a soutenu les martyrs /
+    >jusqu’au suprême sacrifice.
+    Par le Christ, notre Seigneur.

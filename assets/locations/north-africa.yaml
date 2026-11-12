@@ -4,73 +4,101 @@ frenchName: Afrique du Nord
 frenchLocative: en Afrique du Nord
 
 feasts:
-  fulgence_bishop: #à vérifier
+  fulgence_bishop:
     month: 1
     day: 3
     precedence: 12
-  longinius_eugenius_vindemial_bishops: #à vérifier
+  longinius_eugenius_vindemial_bishops:
     month: 1
     day: 5
     precedence: 12
-  quodvultus_deogratias_bishops: #à vérifier
+  quodvultus_deogratias_bishops:
     month: 1
     day: 8
     precedence: 12
-  victorus_miltiadius_gelase_popes: #à vérifier
+  victorus_miltiadius_gelase_popes:
     month: 1
     day: 11
-    precedence: 12
-  celerina_and_compagnions_martyrs: #à vérifier
+    precedence: 11
+  celerina_and_compagnions_martyrs:
     month: 2
     day: 4
     precedence: 12
-  josephine_bakhita_virgin: #manque lecture patristique
-    month: 2
-    day: 8
-    precedence: 10
-  perpetua_of_carthage_and_felicity_of_carthage_martyrs: #OK
+  perpetua_of_carthage_and_felicity_of_carthage_martyrs:
     month: 3
     day: 7
     precedence: 8
-  jacques_deacon_marien_reader_and_compagnons_martyrs: #manque lecture patristique
-    month: 5
-    day: 6
-    precedence: 12
-  peter_claver_priest: #OK (manque lecture patristique et description)
-    month: 9
-    day: 9
-    precedence: 10
-  charles_lwanga_and_companions_martyrs:
-    month: 6
-    day: 3
-    precedence: 10
   our_lady_of_africa:
     month: 4
     day: 30
-    precedence: 10
-  cyprian_of_carthage_bishop_martyrs: #OK
-    month: 9
-    day: 16
     precedence: 4
-  augustine_of_hippo_bishop:
-    month: 8
-    day: 28
-    precedence: 10
+  jacques_deacon_marien_reader_and_compagnons_martyrs:
+    month: 5
+    day: 6
+    precedence: 12
+  pierre_claverie_bishop_and_companions_martyrs:
+    month: 5
+    day: 8
+    precedence: 12
+  optatus_of_milevis_bishop:
+    month: 6
+    day: 4
+    precedence: 11
+  marciana_of_caesarea_virgin_martyr:
+    month: 7
+    day: 10
+    precedence: 12
+  speratus_and_companions_martyrs:
+    month: 7
+    day: 17
+    precedence: 11
   monica_of_hippo:
     month: 8
     day: 27
-    precedence: 10
-  all_saints_of:
-    month: 11
-    day: 6
+    precedence: 8
+  augustine_of_hippo_bishop:
+    month: 8
+    day: 28
+    precedence: 4
+  alypius_and_possidius_bishops:
+    month: 8
+    day: 30
+    precedence: 11
+  nemesianus_and_companions_martyrs:
+    month: 9
+    day: 10
     precedence: 12
-  clement_of_alexandria:
+  marcellinus_of_carthage_martyr:
+    month: 9
+    day: 12
+    precedence: 12
+  cyprian_of_carthage_bishop_martyrs:
+    month: 9
+    day: 16
+    precedence: 4
+  cornelius_pope_martyr:
+    month: 9
+    day: 18
+    precedence: 11
+  dedication_of_consecrated_churches:
+    month: 10
+    day: 25
+    precedence: 4
+  marcellus_and_maximilian_martyrs:
+    month: 10
+    day: 30
+    precedence: 11
+  charles_de_foucauld_priest:
     month: 12
-    day: 4
+    day: 1
     precedence: 12
+  crispina_martyr:
+    month: 12
+    day: 5
+    precedence: 11
 
-
-  pius_v_pope: #OK
+move:
+  pius_v_pope:
     month: 5
     day: 1
     precedence: 12

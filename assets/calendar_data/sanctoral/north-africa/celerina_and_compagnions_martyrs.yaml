@@ -1,9 +1,25 @@
 celebration:
-  title: Sainte Célerina et ses compagnons
+  title: Sainte Célérina et ses compagnons
   subtitle: martyrs
-  description: 
-  color: red
+  description: |-
+    Célérina est l’une des premières martyres de Carthage, pendant la persécution de Septime Sévère, entre 203 et 212. Elle est connue par une lettre de saint Cyprien, ainsi que deux autres martyrs, Egnatius et Laurentinus, tous trois parents du jeune Célérinus. Ce dernier avait subi des sévices pendant la persécution de Dèce ; saint Cyprien, pour reconnaître ses mérites, l’incorpora à son clergé.
   commons:
   - martyrs
-  
+  color: red
+
 oration:
+- Tu as voulu, Seigneur, que les saints martyrs Célérina, Laurentin, Ignace et Célérinus, unis sur terre par les liens de la famille, entrent dans ta gloire en donnant leur vie ; accorde-nous, par leur intercession, de n’être jamais séparés de ton amour.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Tu as voulu, Seigneur,
+    >que les saints martyrs Célérina, Laurentin, Ignace et Célérinus,
+    >unis sur terre par les liens de la famille,
+    >entrent dans ta gloire en donnant leur vie ; *
+    accorde-nous, par leur intercession, /
+    >de n’être jamais séparés de ton amour.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.

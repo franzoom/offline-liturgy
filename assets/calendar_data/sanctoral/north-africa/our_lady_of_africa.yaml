@@ -1,0 +1,58 @@
+celebration:
+  title: Bienheureuse Vierge Marie, Notre-Dame d’Afrique
+  description: |-
+    Le pèlerinage à Notre-Dame d’Afrique est né de la piété de deux humbles laïques, Agarithe Berger et Anna Cinquin, et du zèle apostolique de Mgr Pavy, évêque d’Alger. La statue de bronze avait été offerte à son prédécesseur, Mgr Dupuch, par un groupe d’Enfants de Marie de Lyon. Les fondations du sanctuaire ont été commencées le 2 février 1858. L’église fut consacrée le 2 juillet 1872 par Mgr Lavigerie ; elle reçut du pape Pie IX le titre de basilique ; le 30 avril 1876, Mgr Lavigerie procéda à la cérémonie du couronnement de la statue au nom du souverain pontife. La basilique Notre-Dame d’Afrique est un centre de dévotion à Marie, Reine des Apôtres, soutien du zèle des fidèles.
+  commons:
+  - virgin-mary
+  color: white
+
+oration:
+- Seigneur Dieu, tu as envoyé l’Esprit Saint sur tes Apôtres quand ils étaient en prière avec la Mère de Jésus ; donne-nous, par l’intercession de la bienheureuse Vierge Marie, de te servir avec fidélité et de travailler, par la parole et l’exemple, au rayonnement de ta gloire.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Is 2,2-3
+    content: |-
+      La montagne de la maison du Seigneur
+      >se tiendra plus haut que les monts.
+      Vers elle afflueront toutes les nations :
+      « Venez ! Montons à la montagne du Seigneur !
+      >Qu’il nous enseigne ses chemins,
+      >et nous irons par ses sentiers. »
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as envoyé l’Esprit Saint sur tes Apôtres
+    >quand ils étaient en prière avec la Mère de Jésus ; *
+    donne-nous, par l’intercession de la bienheureuse Vierge Marie,
+    >de te servir avec fidélité /
+    et de travailler, par la parole et l’exemple,
+    >au rayonnement de ta gloire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Nous te présentons, Seigneur,
+    >ce pain et ce vin, faits d’une multitude de grains ; *
+    rassemble ainsi dans l’unité du Corps du Christ,
+    >à la prière de la bienheureuse Vierge Marie, /
+    >toutes les nations sauvées par le sang de ton Fils.
+    Lui qui vit et règne pour les siècles des siècles.
+  prefaceList:
+  - the_blessed_virgin_mary_1
+  - the_blessed_virgin_mary_2
+  communionAntiphon:
+  - biblicalReference: cf. Jn 2,1
+    content: |-
+      Il y eut des noces à Cana, en Galilée,
+      >et la mère de Jésus était là.
+  prayerAfterCommunion:
+  - |-
+    Dans la joie de fêter la bienheureuse Vierge Marie,
+    >nous avons reçu, Seigneur,
+    >le Corps et le Sang de ton Fils ; *
+    que cette communion ravive en nous la force de l’Esprit /
+    >et nous donne de porter au monde la Bonne Nouvelle du salut.
+    Par le Christ, notre Seigneur.

@@ -386,15 +386,15 @@ mass:
         C’est pourquoi Dieu l’a exalté :
         il l’a doté du Nom qui est au-dessus de tout nom.
       content: |-
-        Indications pour la lecture dialoguée : les sigles désignant le
-        divers interlocuteurs sont les suivants 
-         _%%X%%_ = Jésus 
-         _%%L%%_ = Lecteur 
-         _%%D%%_ = Disciples et amis 
-         _%%F%%_ = Foule ;
-        _%%A%%_ = Autres personnages.
+        Indications pour la lecture dialoguée :
+        Les sigles désignant les divers interlocuteurs sont les suivants :
+        %X% = Jésus ;
+        %L% = Lecteur ;
+        %D% = Disciples et amis ;
+        %F% = Foule ;
+        %A% = Autres personnages.
 
-        L. En ce temps-là,
+        %L.% En ce temps-là,
         après le repas,
         Jésus sortit avec ses disciples
         et traversa le torrent du Cédron ;
@@ -408,23 +408,23 @@ mass:
         Ils avaient des lanternes, des torches et des armes.
         Alors Jésus, sachant tout ce qui allait lui arriver,
         s’avança et leur dit :
-        %%X « Qui cherchez-vous ? »%%
-        L. Ils lui répondirent :
-        F. « Jésus le Nazaréen. »
-        L. Il leur dit :
-        %%X « C’est moi, je le suis. »%%
-        L. Judas, qui le livrait, se tenait avec eux.
+        %X.% « Qui cherchez-vous ? »
+        %L.% Ils lui répondirent :
+        %F.% « Jésus le Nazaréen. »
+        %L.% Il leur dit :
+        %X.% « C’est moi, je le suis. »
+        %L.% Judas, qui le livrait, se tenait avec eux.
         Quand Jésus leur répondit : « C’est moi, je le suis »,
         ils reculèrent, et ils tombèrent à terre.
         Il leur demanda de nouveau :
-        %%X « Qui cherchez-vous ? »%%
-        L. Ils dirent :
-        F. « Jésus le Nazaréen. »
-        L. Jésus répondit :
-        %%X « Je vous l’ai dit : c’est moi, je le suis.%%
-        %%Si c’est bien moi que vous cherchez,
-        ceux-là, laissez-les partir. »%%
-        L. Ainsi s’accomplissait la parole qu’il avait dite :
+        %X.% « Qui cherchez-vous ? »
+        %L.% Ils dirent :
+        %F.% « Jésus le Nazaréen. »
+        %L.% Jésus répondit :
+        %X.% « Je vous l’ai dit : c’est moi, je le suis.
+        Si c’est bien moi que vous cherchez,
+        ceux-là, laissez-les partir. »
+        %L.% Ainsi s’accomplissait la parole qu’il avait dite :
         « Je n’ai perdu aucun
         de ceux que tu m’as donnés. »
         Or Simon-Pierre
@@ -432,10 +432,10 @@ mass:
         frappa le serviteur du grand prêtre et lui coupa l’oreille droite.
         Le nom de ce serviteur était Malcus.
         Jésus dit à Pierre :
-        %%X « Remets ton épée au fourreau.
+        %X.% « Remets ton épée au fourreau.
         La coupe que m’a donnée le Père,
-        vais-je refuser de la boire ? »%%
-        L. Alors la troupe, le commandant et les gardes juifs
+        vais-je refuser de la boire ? »
+        %L.% Alors la troupe, le commandant et les gardes juifs
         se saisirent de Jésus et le ligotèrent.
         Ils l’emmenèrent d’abord chez Hanne, beau-père
         de Caïphe, qui était grand prêtre cette année-là.
@@ -446,50 +446,50 @@ mass:
         Comme ce disciple était connu du grand prêtre,
         il entra avec Jésus dans le palais du grand prêtre.
         Pierre se tenait près de la porte, dehors.
-        Alors l’autre disciple – celui qui était connu du grand prêtre –
+        Alors l’autre disciple – celui qui était connu du grand prêtre –
         sortit, dit un mot à la servante qui gardait la porte,
         et fit entrer Pierre.
         Cette jeune servante dit alors à Pierre :
-        A. « N’es-tu pas, toi aussi, l’un des disciples de cet homme ? »
-        L. Il répondit :
-        D. « Non, je ne le suis pas ! »
-        L. Les serviteurs et les gardes se tenaient là ;
+        %A.% « N’es-tu pas, toi aussi, l’un des disciples de cet homme ? »
+        %L.% Il répondit :
+        %D.% « Non, je ne le suis pas ! »
+        %L.% Les serviteurs et les gardes se tenaient là ;
         comme il faisait froid,
         ils avaient fait un feu de braise pour se réchauffer.
         Pierre était avec eux, en train de se chauffer.
         Le grand prêtre interrogea Jésus
         sur ses disciples et sur son enseignement.
         Jésus lui répondit :
-        %%X « Moi, j’ai parlé au monde ouvertement.
+        %X.% « Moi, j’ai parlé au monde ouvertement.
         J’ai toujours enseigné à la synagogue et dans le Temple,
         là où tous les Juifs se réunissent,
         et je n’ai jamais parlé en cachette.
         Pourquoi m’interroges-tu ?
         Ce que je leur ai dit, demande-le
         à ceux qui m’ont entendu.
-        Eux savent ce que j’ai dit. »%%
-        L. À ces mots, un des gardes, qui était à côté de Jésus,
+        Eux savent ce que j’ai dit. »
+        %L.% À ces mots, un des gardes, qui était à côté de Jésus,
         lui donna une gifle en disant :
-        A. « C’est ainsi que tu réponds au grand prêtre ! »
-        L. Jésus lui répliqua :
-        %%X « Si j’ai mal parlé,
+        %A.% « C’est ainsi que tu réponds au grand prêtre ! »
+        %L.% Jésus lui répliqua :
+        %X.% « Si j’ai mal parlé,
         montre ce que j’ai dit de mal.
         Mais si j’ai bien parlé,
-        pourquoi me frappes-tu ? »%%
-        L. Hanne l’envoya, toujours ligoté, au grand prêtre Caïphe.
+        pourquoi me frappes-tu ? »
+        %L.% Hanne l’envoya, toujours ligoté, au grand prêtre Caïphe.
 
         Simon-Pierre était donc en train de se chauffer.
         On lui dit :
-        A. « N’es-tu pas, toi aussi, l’un de ses disciples ? »
-        L. Pierre le nia et dit :
-        D. « Non, je ne le suis pas ! »
-        L. Un des serviteurs du grand prêtre,
+        %A.% « N’es-tu pas, toi aussi, l’un de ses disciples ? »
+        %L.% Pierre le nia et dit :
+        %D.% « Non, je ne le suis pas ! »
+        %L.% Un des serviteurs du grand prêtre,
         parent de celui à qui Pierre avait coupé l’oreille,
         insista :
-        A. « Est-ce
+        %A.% « Est-ce
         que moi, je ne t’ai pas vu
         dans le jardin avec lui ? »
-        L. Encore une fois, Pierre le nia.
+        %L.% Encore une fois, Pierre le nia.
         Et aussitôt un coq chanta.
 
         Alors on emmène Jésus de chez Caïphe au Prétoire.
@@ -498,57 +498,57 @@ mass:
         pour éviter une souillure
         et pouvoir manger l’agneau pascal.
         Pilate sortit donc à leur rencontre et demanda :
-        A. « Quelle accusation portez-vous
+        %A.% « Quelle accusation portez-vous
         contre cet homme ? »
-        L. Ils lui répondirent :
-        F. « S’il n’était pas un malfaiteur,
+        %L.% Ils lui répondirent :
+        %F.% « S’il n’était pas un malfaiteur,
         nous ne t’aurions pas livré cet homme. »
-        L. Pilate leur dit :
-        A. « Prenez-le vous-mêmes et jugez-le
+        %L.% Pilate leur dit :
+        %A.% « Prenez-le vous-mêmes et jugez-le
         suivant votre loi. »
-        L. Les Juifs lui dirent :
-        F. « Nous n’avons pas le droit
+        %L.% Les Juifs lui dirent :
+        %F.% « Nous n’avons pas le droit
         de mettre quelqu’un à mort. »
-        L. Ainsi s’accomplissait la parole que Jésus avait dite
+        %L.% Ainsi s’accomplissait la parole que Jésus avait dite
         pour signifier de quel genre de mort il allait mourir.
         Alors Pilate rentra dans le Prétoire ;
         il appela Jésus et lui dit :
-        A. « Es-tu le roi des Juifs ? »
-        L. Jésus lui demanda :
-        %%X « Dis-tu cela de toi-même,
-        Ou bien d’autres te l’ont dit à mon sujet ? »%%
-        L. Pilate répondit :
-        A. « Est-ce que je suis juif, moi ?
+        %A.% « Es-tu le roi des Juifs ? »
+        %L.% Jésus lui demanda :
+        %X.% « Dis-tu cela de toi-même,
+        Ou bien d’autres te l’ont dit à mon sujet ? »
+        %L.% Pilate répondit :
+        %A.% « Est-ce que je suis juif, moi ?
         Ta nation et les grands prêtres t’ont livré à moi :
         qu’as-tu donc fait ? »
-        L. Jésus déclara :
-        %%X « Ma royauté n’est pas de ce monde ;
+        %L.% Jésus déclara :
+        %X.% « Ma royauté n’est pas de ce monde ;
         si ma royauté était de ce monde,
         j’aurais des gardes qui se seraient battus
         pour que je ne sois pas livré aux Juifs.
-        En fait, ma royauté n’est pas d’ici. »%%
-        L. Pilate lui dit :
-        A. « Alors, tu es roi ? »
-        L. Jésus répondit :
-        %%X « C’est toi-même
+        En fait, ma royauté n’est pas d’ici. »
+        %L.% Pilate lui dit :
+        %A.% « Alors, tu es roi ? »
+        %L.% Jésus répondit :
+        %X.% « C’est toi-même
         qui dis que je suis roi.
         Moi, je suis né, je suis venu dans le monde pour ceci :
         rendre témoignage à la vérité.
         Quiconque appartient à la vérité
-        écoute ma voix. »%%
-        L. Pilate lui dit :
-        A. « Qu’est-ce que la vérité ? »
-        L. Ayant dit cela, il sortit de nouveau à la rencontre des Juifs,
+        écoute ma voix. »
+        %L.% Pilate lui dit :
+        %A.% « Qu’est-ce que la vérité ? »
+        %L.% Ayant dit cela, il sortit de nouveau à la rencontre des Juifs,
         et il leur déclara :
-        A. « Moi, je ne trouve en lui
+        %A.% « Moi, je ne trouve en lui
         aucun motif de condamnation.
         Mais, chez vous, c’est la coutume
         que je vous relâche quelqu’un pour la Pâque :
         voulez-vous donc que je vous relâche le roi des Juifs ? »
-        L. Alors ils répliquèrent en criant :
-        F. « Pas lui !
+        %L.% Alors ils répliquèrent en criant :
+        %F.% « Pas lui !
         Mais Barabbas ! »
-        L. Or ce Barabbas était un bandit.
+        %L.% Or ce Barabbas était un bandit.
 
         Alors Pilate fit saisir Jésus pour qu’il soit flagellé.
         Les soldats tressèrent avec des épines une couronne
@@ -556,62 +556,62 @@ mass:
         puis ils le revêtirent d’un manteau pourpre.
         Ils s’avançaient vers lui
         et ils disaient :
-        F. « Salut à toi, roi des Juifs ! »
-        L. Et ils le giflaient.
+        %F.% « Salut à toi, roi des Juifs ! »
+        %L.% Et ils le giflaient.
 
         Pilate, de nouveau, sortit dehors et leur dit :
-        A. « Voyez, je vous l’amène dehors
+        %A.% « Voyez, je vous l’amène dehors
         pour que vous sachiez
         que je ne trouve en lui aucun motif de condamnation. »
-        L. Jésus donc sortit dehors,
+        %L.% Jésus donc sortit dehors,
         portant la couronne d’épines et le manteau pourpre.
         Et Pilate leur déclara :
-        A. « Voici l’homme. »
-        L. Quand ils le virent,
+        %A.% « Voici l’homme. »
+        %L.% Quand ils le virent,
         les grands prêtres et les gardes se mirent à crier :
-        F. « Crucifie-le ! Crucifie-le ! »
-        L. Pilate leur dit :
-        A. « Prenez-le vous-mêmes, et crucifiez-le ;
+        %F.% « Crucifie-le ! Crucifie-le ! »
+        %L.% Pilate leur dit :
+        %A.% « Prenez-le vous-mêmes, et crucifiez-le ;
         moi, je ne trouve en lui aucun motif de condamnation. »
-        L. Ils lui répondirent :
-        F. « Nous avons une Loi,
+        %L.% Ils lui répondirent :
+        %F.% « Nous avons une Loi,
         et suivant la Loi il doit mourir,
         parce qu’il s’est fait Fils de Dieu. »
-        L. Quand Pilate entendit ces paroles, il redoubla de crainte.
+        %L.% Quand Pilate entendit ces paroles, il redoubla de crainte.
         Il rentra dans le Prétoire, et dit à Jésus :
-        A. « D’où es-tu ? »
-        L. Jésus ne lui fit aucune réponse.
+        %A.% « D’où es-tu ? »
+        %L.% Jésus ne lui fit aucune réponse.
         Pilate lui dit alors :
-        A. « Tu refuses de me parler, à moi ?
+        %A.% « Tu refuses de me parler, à moi ?
         Ne sais-tu pas que j’ai pouvoir de te relâcher,
         et pouvoir de te crucifier ? »
-        L. Jésus répondit :
-        %%X « Tu n’aurais aucun pouvoir sur moi
+        %L.% Jésus répondit :
+        %X.% « Tu n’aurais aucun pouvoir sur moi
         si tu ne l’avais reçu d’en haut ;
         c’est pourquoi celui qui m’a livré à toi
-        porte un péché plus grand. »%%
-        L. Dès lors, Pilate cherchait à le relâcher ;
+        porte un péché plus grand. »
+        %L.% Dès lors, Pilate cherchait à le relâcher ;
         mais des Juifs se mirent à crier :
-        F. « Si tu le relâches,
+        %F.% « Si tu le relâches,
         tu n’es pas un ami de l’empereur.
         Quiconque se fait roi
         s’oppose à l’empereur. »
-        L. En entendant ces paroles, Pilate amena Jésus au-dehors ;
+        %L.% En entendant ces paroles, Pilate amena Jésus au-dehors ;
         il le fit asseoir sur une estrade
         au lieu dit le Dallage
-        – en hébreu : Gabbatha.
+        – en hébreu : Gabbatha.
         C’était le jour de la Préparation de la Pâque,
         vers la sixième heure, environ midi.
         Pilate dit aux Juifs :
-        A. « Voici votre roi. »
-        L. Alors ils crièrent :
-        F. « À mort ! À mort !
+        %A.% « Voici votre roi. »
+        %L.% Alors ils crièrent :
+        %F.% « À mort ! À mort !
         Crucifie-le ! »
-        L. Pilate leur dit :
-        A. « Vais-je crucifier votre roi ? »
-        L. Les grands prêtres répondirent :
-        F. « Nous n’avons pas d’autre roi que l’empereur. »
-        L. Alors, il leur livra Jésus pour qu’il soit crucifié.
+        %L.% Pilate leur dit :
+        %A.% « Vais-je crucifier votre roi ? »
+        %L.% Les grands prêtres répondirent :
+        %F.% « Nous n’avons pas d’autre roi que l’empereur. »
+        %L.% Alors, il leur livra Jésus pour qu’il soit crucifié.
 
         Ils se saisirent de Jésus.
         Et lui-même, portant sa croix,
@@ -626,23 +626,23 @@ mass:
         parce que l’endroit où l’on avait crucifié Jésus était proche de la ville,
         et que c’était écrit en hébreu, en latin et en grec.
         Alors les grands prêtres des Juifs dirent à Pilate :
-        F. « N’écris pas : “Roi des Juifs” ; mais :
+        %F.% « N’écris pas : “Roi des Juifs” ; mais :
         “Cet homme a dit : Je suis le roi des Juifs.” »
-        L. Pilate répondit :
-        A. « Ce que j’ai écrit, je l’ai écrit. »
+        %L.% Pilate répondit :
+        %A.% « Ce que j’ai écrit, je l’ai écrit. »
 
-        L. Quand les soldats eurent crucifié Jésus,
+        %L.% Quand les soldats eurent crucifié Jésus,
         ils prirent ses habits ;
         ils en firent quatre parts, une pour chaque soldat.
         Ils prirent aussi la tunique ;
         c’était une tunique sans couture,
         tissée tout d’une pièce de haut en bas.
         Alors ils se dirent entre eux :
-        A. « Ne la déchirons pas,
+        %A.% « Ne la déchirons pas,
         désignons par le sort celui qui l’aura. »
-        L. Ainsi s’accomplissait la parole de l’Écriture :
-        %Ils se sont partagé mes habits ;
-        ils ont tiré au sort mon vêtement.%
+        %L.% Ainsi s’accomplissait la parole de l’Écriture :
+        %Ils se sont partagé mes habits ;%
+        %ils ont tiré au sort mon vêtement.%
         C’est bien ce que firent les soldats.
 
         Or, près de la croix de Jésus se tenaient sa mère
@@ -651,22 +651,22 @@ mass:
         Jésus, voyant sa mère,
         et près d’elle le disciple qu’il aimait,
         dit à sa mère :
-        %%X « Femme, voici ton fils. »%%
-        L. Puis il dit au disciple :
-        %%X « Voici ta mère. »%%
-        L. Et à partir de cette heure-là,
+        %X.% « Femme, voici ton fils. »
+        %L.% Puis il dit au disciple :
+        %X.% « Voici ta mère. »
+        %L.% Et à partir de cette heure-là,
         le disciple la prit chez lui.
         Après cela, sachant que tout, désormais, était achevé
         pour que l’Écriture s’accomplisse jusqu’au bout,
         Jésus dit :
-        %%X « J’ai soif. »%%
-        L. Il y avait là un récipient plein d’une boisson vinaigrée.
+        %X.% « J’ai soif. »
+        %L.% Il y avait là un récipient plein d’une boisson vinaigrée.
         On fixa donc une éponge remplie de ce vinaigre
         à une branche d’hysope,
         et on l’approcha de sa bouche.
         Quand il eut pris le vinaigre, Jésus dit :
-        %%X « Tout est accompli. »%%
-        L. Puis, inclinant la tête,
+        %X.% « Tout est accompli. »
+        %L.% Puis, inclinant la tête,
         il remit l’esprit.
 
         _(Ici on fléchit le genou, et on s’arrête un instant.)_
@@ -689,9 +689,9 @@ mass:
         afin que vous aussi, vous croyiez.
         Cela, en effet, arriva
         pour que s’accomplisse l’Écriture :
-        %Aucun de ses os ne sera brisé%.
+        %Aucun de ses os ne sera brisé.%
         Un autre passage de l’Écriture dit encore :
-        %Ils lèveront les yeux vers celui qu’ils ont transpercé%.
+        %Ils lèveront les yeux vers celui qu’ils ont transpercé.%
 
         Après cela, Joseph d’Arimathie,
         qui était disciple de Jésus,
@@ -699,8 +699,8 @@ mass:
         demanda à Pilate de pouvoir enlever le corps de Jésus.
         Et Pilate le permit.
         Joseph vint donc enlever le corps de Jésus.
-        Nicodème – celui qui, au début, était venu trouver Jésus pendant
-        la nuit – vint lui aussi ;
+        Nicodème – celui qui, au début, était venu trouver Jésus pendant
+        la nuit – vint lui aussi ;
         il apportait un mélange de myrrhe et d’aloès
         pesant environ cent livres.
         Ils prirent donc le corps de Jésus,

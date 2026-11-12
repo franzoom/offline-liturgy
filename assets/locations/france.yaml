@@ -16,10 +16,10 @@ feasts:
     month: 1
     day: 15
     precedence: 12
-  our_lady_of_lourdes: #vérifier contenu
+  our_lady_of_lourdes: #OK
     month: 2
     day: 11
-    precedence: 10
+    precedence: 12
   bernadette_soubirous_virgin: #OK
     month: 2
     day: 18
@@ -44,10 +44,14 @@ feasts:
     month: 6
     day: 4
     precedence: 12
+  john_mary_vianney_priest: #OK
+    month: 8
+    day: 4
+    precedence: 10
   louis_ix_of_france: #OK
     month: 8
     day: 25
-    precedence: 10
+    precedence: 11
   cesaire_of_arles_bishop: #OK
     month: 8
     day: 26

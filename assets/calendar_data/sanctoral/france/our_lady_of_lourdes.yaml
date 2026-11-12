@@ -48,15 +48,19 @@ vespers:
 
 mass:
 - massType: DAY_MASS
-  entranceAntiphon: null
+  entranceAntiphon:
+  - biblicalReference: Ap 21,2
+    content: |-
+      La Ville sainte, la Jérusalem nouvelle,
+      >je l’ai vue qui descendait du ciel, d’auprès de Dieu,
+      >prête pour les noces, comme une épouse parée pour son mari.
   collect:
   - |-
     Dieu de miséricorde, +
     >viens au secours de notre faiblesse : *
-    puisque nous faisons mémoire
-    >de l’Immaculée, la Mère de Dieu, /
-    accorde-nous, par son intercession,
-    >d’être relevés de nos fautes.
+    puisque nous faisons mémoire de l’Immaculée, la Mère de Dieu, /
+    fais que, soutenus par son intercession,
+    >nous soyons relevés de nos péchés.
     Par Jésus Christ, ton Fils, notre Seigneur, +
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
@@ -153,7 +157,26 @@ mass:
         C’était à Cana de Galilée.
         Il manifesta sa gloire,
         et ses disciples crurent en lui.
-        
-  offeringPrayer: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    En célébrant la mémoire de la Vierge immaculée,
+    >nous t’offrons, Seigneur, le sacrifice de louange ; *
+    qu’il monte vers toi en offrande agréable /
+    >et nous procure la santé de l’âme et du corps.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - the_blessed_virgin_mary_1
+  - the_blessed_virgin_mary_2
+  communionAntiphon:
+  - biblicalReference: cf. Ps 64,10
+    content: |-
+      Tu visites la terre, Seigneur, et tu l’abreuves,
+      >tu la combles de richesses.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as rassasiés, Seigneur notre Dieu,
+    >en nous donnant le pain du ciel ; *
+    fais que cette eucharistie célébrée dans la joie
+    >soit pour nous le signe de l’unité /
+    >et le lien de la charité.
+    Par le Christ, notre Seigneur.

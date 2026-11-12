@@ -34,3 +34,95 @@ vespers:
   evangelicAntiphon:
     common:
     - Béni sois-tu, Seigneur du ciel et de la terre, d’avoir révélé aux tout-petits les mystères du Royaume.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Tu prends la défense des humbles, Seigneur, +
+    >tu les aimes et les glorifies,
+    et tu as donné à sainte Bernadette
+    >d’étonnantes grâces de patience et de charité ; *
+    fais qu’à sa prière et à son exemple,
+    >en suivant simplement les chemins de la foi, /
+    >nous puissions te contempler dans le royaume des Cieux.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: 1Co 1, 26-31
+      headline: |-
+        « Ce qu’il y a de faible dans le monde, voilà ce que Dieu a choisi »
+      content: |-
+        Frères,
+        vous qui avez été appelés par Dieu, regardez bien :
+        parmi vous, il n’y a pas beaucoup de sages aux yeux des hommes,
+        >ni de gens puissants ou de haute naissance.
+        Au contraire, ce qu’il y a de fou dans le monde,
+        >voilà ce que Dieu a choisi,
+        >pour couvrir de confusion les sages ;
+        ce qu’il y a de faible dans le monde,
+        >voilà ce que Dieu a choisi,
+        >pour couvrir de confusion ce qui est fort ;
+        ce qui est d’origine modeste, méprisé dans le monde,
+        ce qui n’est pas,
+        >voilà ce que Dieu a choisi,
+        >pour réduire à rien ce qui est ;
+        ainsi aucun être de chair ne pourra s’enorgueillir devant Dieu.
+        C’est grâce à Dieu, en effet, que vous êtes dans le Christ Jésus,
+        >lui qui est devenu pour nous sagesse venant de Dieu,
+        >justice, sanctification, rédemption.
+        Ainsi, comme il est écrit :
+        >Celui qui veut être fier,
+        >qu’il mette sa fierté dans le Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 130 (131), 1, 2, 3
+      refAbbr: null
+      chorus:
+      - chorusRef: null
+        content: |-
+          Garde mon âme dans la paix
+          près de toi, Seigneur.
+      content: |-
+        Seigneur, je n’ai pas le cœur fier
+        ni le regard ambitieux ;
+        je ne poursuis ni grands desseins,
+        ni merveilles qui me dépassent.
+
+        Non, mais je tiens mon âme
+        égale et silencieuse ;
+        mon âme est en moi comme un enfant,
+        comme un petit enfant contre sa mère.
+
+        Attends le Seigneur, Israël,
+        maintenant et à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 12, 24-26
+      headline: |-
+        « Si le grain meurt, il porte beaucoup de fruit »
+      acclamationAntiphon: |-
+        En toi, Seigneur, est la source de vie ;
+        par ta lumière, nous voyons la lumière.
+      acclamationAntiphonReference: Ps 35, 10
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Amen, amen, je vous le dis :
+        >si le grain de blé tombé en terre ne meurt pas,
+        >il reste seul ;
+        >mais s’il meurt,
+        >il porte beaucoup de fruit.
+        Qui aime sa vie
+        >la perd ;
+        >qui s’en détache en ce monde
+        >la gardera pour la vie éternelle.
+        Si quelqu’un veut me servir,
+        >qu’il me suive ;
+        >et là où moi je suis,
+        >là aussi sera mon serviteur.
+        Si quelqu’un me sert,
+        >mon Père l’honorera. »

@@ -29,3 +29,98 @@ readings:
       
       La miséricorde se rit du jugement,
       elle rend fils du Père qui est dans les cieux.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur Dieu,
+    >tout ce qui est juste et bon vient de toi ; +
+    tu as établi saint Yves comme juge parmi ses frères,
+    >et tu as fait de lui un grand ami des pauvres ; *
+    accorde-nous, à son intercession,
+    >de rechercher passionnément la justice /
+    >et de communier à ton amour pour les hommes.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Si 4, 1-10
+      headline: |-
+        « Ne détourne pas du pauvre ton visage »
+      content: |-
+        Mon fils, ne retire pas au pauvre ce qu’il lui faut pour vivre,
+        >ne fais pas attendre le regard d’un indigent.
+        Ne fais pas souffrir un affamé,
+        >n’exaspère pas un homme qui est dans la misère.
+        N’ajoute pas au trouble d’un cœur irrité,
+        >ne fais pas attendre ton aumône à celui qui en a besoin.
+        Ne repousse pas celui qui supplie dans la détresse,
+        >ne détourne pas du pauvre ton visage.
+        Ne détourne pas du miséreux ton regard,
+        >ne donne pas à un homme l’occasion de te maudire.
+        Car s’il te maudit dans l’amertume de son âme,
+        >celui qui l’a créé entendra sa prière.
+        Rends-toi aimable à toute l’assemblée,
+        >et baisse la tête devant celui qui commande.
+        Penche l’oreille vers le pauvre,
+        >et réponds avec douceur à son salut de paix.
+        Délivre l’opprimé du pouvoir de l’oppresseur,
+        >et ne sois pas timide quand tu rends la justice.
+        Sois comme un père pour les orphelins,
+        >et pour leur mère sois comme un mari.
+        Alors tu seras comme un fils du Très-Haut,
+        >il t’aimera plus que ta propre mère.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 111 (112), 1-2, 3-4, 5-6, 7.9ab
+      refAbbr: 111, 1.9
+      chorus:
+      - chorusRef: 111, 1.9
+        content: |-
+          Heureux qui donne aux pauvres :
+          son nom sera béni
+      content: |-
+        Heureux qui craint le Seigneur,
+        qui aime entièrement sa volonté !
+        Sa lignée sera puissante sur la terre ;
+        la race des justes est bénie.
+
+        Les richesses affluent dans sa maison :
+        à jamais se maintiendra sa justice.
+        Lumière des cœurs droits, il s’est levé dans les ténèbres,
+        homme de justice, de tendresse et de pitié.
+
+        L’homme de bien a pitié, il partage ;
+        il mène ses affaires avec droiture.
+        Cet homme jamais ne tombera ;
+        toujours on fera mémoire du juste.
+
+        Il ne craint pas l’annonce d’un malheur :
+        le cœur ferme, il s’appuie sur le Seigneur.
+        À pleines mains, il donne au pauvre ;
+        à jamais se maintiendra sa justice !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 12, 32-34
+      headline: |-
+        « Votre Père a trouvé bon de vous donner le Royaume »
+      acclamationAntiphon: |-
+        Heureux les pauvres de cœur,
+        car le royaume des Cieux est à eux !
+      acclamationAntiphonReference: Mt 5, 3
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Sois sans crainte, petit troupeau :
+        >votre Père a trouvé bon de vous donner le Royaume.
+        Vendez ce que vous possédez
+        >et donnez-le en aumône.
+        Faites-vous des bourses qui ne s’usent pas,
+        >un trésor inépuisable dans les cieux,
+        >là où le voleur n’approche pas,
+        >où la mite ne détruit pas.
+        Car là où est votre trésor,
+        >là aussi sera votre cœur. »

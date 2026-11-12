@@ -72,3 +72,51 @@ vespers:
     common:
     - |-
       Debout au milieu des flammes, Jeanne gardait les yeux fixés sur la croix, et s’écria : Jésus, sauve-nous à la vie éternelle.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Jdt 13,17-18
+    content: |-
+      Louons le Seigneur notre Dieu,
+      >il n’a pas abandonné
+      >ceux qui comptent sur lui :
+      il a tenu envers nous
+      >ses promesses de miséricorde.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as choisi sainte Jeanne d’Arc
+    >pour venir au secours de son pays ; *
+    accorde-nous, à son intercession,
+    >de travailler pour la justice /
+    >et de vivre dans la paix.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur,
+    >en la fête de sainte Jeanne d’Arc,
+    >l’offrande pure de ton Fils, victime qui nous sauve ; *
+    accorde-nous de t’aimer en tout et plus que tout, /
+    >afin de vivre pour la louange de ta gloire.
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - saints_1
+  - saints_2
+  communionAntiphon:
+  - biblicalReference: Ps 22,4
+    content: |-
+      Si je traverse les ravins de la mort,
+      >je ne crains aucun mal,
+      car tu es avec moi :
+      >ton bâton me guide et me rassure.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as fortifiés, Seigneur, par le pain du ciel
+    >où sainte Jeanne trouva tant de fois
+    >lumière et réconfort ; *
+    fais que cet aliment du salut /
+    >nous soutienne dans le service de nos frères.
+    Par le Christ, notre Seigneur.

@@ -3,15 +3,15 @@ geography: country
 parent: europe
 frenchName: Belgique
 frenchLocative: en Belgique
-epiphanyDate: day
+epiphanyDate: sunday
 ascensionDate: thursday
 corpusDominiDate: sunday
 
 feasts:
-  amand_of_maastricht_bishop: #OK
+  amand_bishop: #OK
     month: 2
     day: 6
-    precedence: 10
+    precedence: 11
   mutien_marie_wiaux_religious:
     month: 1
     day: 30
@@ -19,7 +19,11 @@ feasts:
   damien_de_veuster_priest:
     month: 5
     day: 10
-    precedence: 10
+    precedence: 11
+  edward_poppe_priest:
+    month: 6
+    day: 10
+    precedence: 12
   juliana_of_cornillon_virgin: #OK
     month: 8
     day: 7
@@ -31,7 +35,7 @@ feasts:
   lambert_of_maastricht_bishop_martyr: #OK (manque lecture patristique)
     month: 9
     day: 17
-    precedence: 10
+    precedence: 12
   bavo_of_ghent_hermit:
     month: 10
     day: 1
@@ -39,11 +43,14 @@ feasts:
   hubert_of_liege_bishop: #OK (manque lecture patristique)
     month: 11
     day: 3
-    precedence: 10
+    precedence: 11
   john_berchmans_religious: #OK
     month: 11
     day: 26
-    precedence: 10
+    precedence: 12
+  dedication_of_consecrated_churches:
+    relativeTo: LAST_SUNDAY_OF_OCTOBER
+    precedence: 4
 
 move:
   paul_miki_and_companions_martyrs: #OK

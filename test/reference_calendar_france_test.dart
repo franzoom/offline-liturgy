@@ -11,13 +11,12 @@
 //   - reports de l'Annonciation (2013, 2016, 2018, 2024 : semaine sainte)
 //   - report de Saint Joseph (2017, 2023 : 19 mars = dimanche)
 //
-// Cas connu non couvert par ce test : en 2022, le Sacré-Cœur et la Nativité
-// de saint Jean-Baptiste tombent le même jour (24 juin, seule occurrence
-// 2011-2025). Le programme reporte Jean-Baptiste au 25 juin (règle du
-// Missel en cas de collision de même rang) ; le calendrier AELF réellement
-// publié cette année-là n'affiche que la mémoire du Cœur immaculé de Marie,
-// sans report. Le référentiel suit la règle du Missel (donc ce test valide
-// le comportement du programme sur ce point, pas la pratique AELF réelle).
+// En 2022, le Sacré-Cœur et la Nativité de saint Jean-Baptiste tombent le
+// même jour (24 juin, seule occurrence 2011-2025) : Jean-Baptiste est
+// anticipé au jeudi 23 juin, comme sur le calendrier AELF publié cette
+// année-là (messe de la veille et messe du jour le 23, mémoire du Cœur
+// immaculé de Marie le 25). Voir aussi test/john_the_baptist_anticipation_test.dart
+// (2022 et 2033).
 //
 // Le 26, 27 et 28 décembre (Étienne, Jean l'évangéliste, Saints
 // Innocents) ne passent pas par common_feasts.yaml : leur titre

@@ -54,7 +54,10 @@ void main() {
 
   group('Epiphany takes its own psalmody at each hour', () {
     final cases = <String, (DateTime, String)>{
-      'on January 6, a weekday (Belgium)': (DateTime(2027, 1, 6), 'belgium'),
+      'on January 6, a weekday (Switzerland)': (
+        DateTime(2027, 1, 6),
+        'switzerland'
+      ),
       'on a Sunday (France)': (DateTime(2027, 1, 3), 'france'),
     };
     for (final entry in cases.entries) {

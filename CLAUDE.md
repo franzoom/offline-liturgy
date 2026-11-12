@@ -21,7 +21,7 @@
   not via post-hoc calendar moves. Each function returns the correct date directly:
   - `annunciation()`: transferred if Holy Week or Paschal Octave
   - `saintJoseph()`: transferred if Holy Week
-  - `saintJohnTheBaptist()`: shifted if conflicts with Sacred Heart
+  - `saintJohnTheBaptist()`: anticipated to June 23 if conflicts with Sacred Heart (2022, 2033)
   - `saintPieterAndPaul()`: shifted if conflicts with Sacred Heart
 
   Location YAML files may also declare a `move:` section to relocate any feast already

@@ -11,19 +11,18 @@ feasts:
   andre_bessette_religious: #OK
     month: 1
     day: 7
-    precedence: 10
+    precedence: 11
   marguerite_bourgeoys: #OK
     month: 1
     day: 12
-    precedence: 10
+    precedence: 11
   saint_joseph:
-    month: 3
-    day: 19
-    precedence: 8
+    relativeTo: SAINT_JOSEPH
+    precedence: 3
   kateri_tekakwitha_virgin: #à compléter
     month: 4
     day: 17
-    precedence: 12
+    precedence: 11
   marie_anne_blondin_virgin: #à compléter
     month: 4
     day: 18
@@ -35,7 +34,7 @@ feasts:
   mary_of_the_incarnation_religious: #à compléter
     month: 4
     day: 30
-    precedence: 10
+    precedence: 11
   marie_leonie_paradis_virgin: #à compléter
     month: 5
     day: 4
@@ -43,7 +42,7 @@ feasts:
   franciscus_de_laval_bishop: #à compléter
     month: 5
     day: 6
-    precedence: 12
+    precedence: 11
   catherine_of_saint_augustin_virgin: #à compléter
     month: 5
     day: 8
@@ -54,7 +53,7 @@ feasts:
     precedence: 12
   louis_zephirin_moreau_bishop: #à compléter
     month: 5
-    day: 21
+    day: 24
     precedence: 12
   nykyta_budka_and_vasyl_velychkovsky_bishops_martyrs:
     month: 6
@@ -64,12 +63,20 @@ feasts:
     month: 7
     day: 1
     precedence: 12
-  anne_mother_of_mary:
+  joachim_and_anne_parents_of_mary:
     month: 7
     day: 26
     precedence: 8
+  blessed_frederic_janssoone_priest:
+    month: 8
+    day: 5
+    precedence: 12
   work_feast:
     relativeTo: FIRST_MONDAY_OF_SEPTEMBER
+    precedence: 12
+  blessed_andre_grasset_priest_martyr:
+    month: 9
+    day: 2
     precedence: 12
   blessed_dina_belanger_virgin:
     month: 9
@@ -82,7 +89,7 @@ feasts:
   john_de_brebeuf_isaac_jogues_martyrs:
     month: 9
     day: 26
-    precedence: 10
+    precedence: 8
   blessed_marie_rose_durocher_virgin:
     month: 10
     day: 6
@@ -93,11 +100,11 @@ feasts:
   blessed_marie_marguerite-d-youville:
     month: 10
     day: 16
-    precedence: 12
+    precedence: 11
   dedication_of_consecrated_churches:
     month: 10
     day: 25
-    precedence: 8
+    precedence: 4
   memory_day:
     month: 11
     day: 11
@@ -107,7 +114,7 @@ move:
   raymond_of_penyafort_priest:
     month: 1
     day: 8
-    precedence: 10
+    precedence: 12
   cosmas_of_cilicia_and_damian_of_cilicia_martyrs:
     month: 9
     day: 25

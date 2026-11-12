@@ -68,18 +68,22 @@ vespers:
 mass:
 - massType: DAY_MASS
   entranceAntiphon:
-  - biblicalReference: cf. Si 44,1.25
+  - biblicalReference: null
     content: |-
-      Louons Joachim et Anne pour leur descendance,
-      car le Seigneur leur a donné la bénédiction promise à tous les peuples.
+      Réjouissons-nous tous dans le Seigneur,
+      >en célébrant ce jour de fête en l’honneur de sainte Anne.
+      De cette solennité les anges se réjouissent
+      >et glorifient le Fils de Dieu.
+      Aux messes votives :
+      Célébrons sainte Anne, la mère de la Vierge Marie :
+      >par elle nous est venue la bénédiction promise à tous les peuples.
   collect:
   - |-
-    Seigneur, Dieu de nos Pères, +
-    tu as donné aux bienheureux Joachim et Anne
-    la grâce d’engendrer celle qui deviendrait la mère de ton Fils,
-    >le Verbe fait chair ; *
-    accorde-nous, à leur commune prière, /
-    >le salut que tu as promis à ton peuple.
+    Seigneur Dieu, +
+    >tu as choisi sainte Anne
+    >pour mettre au monde la Mère de ton Fils ; *
+    accorde-nous, en ce jour de sa fête, /
+    >l’appui de son intercession auprès de toi.
     Par Jésus Christ, ton Fils, notre Seigneur, +
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
@@ -150,19 +154,23 @@ mass:
   offeringPrayer:
   - |-
     Seigneur, nous t’en prions : +
-    accepte ce que nous t’offrons de grand cœur ; *
+    >accepte ce que nous t’offrons de grand cœur
+    >en la fête de sainte Anne ; *
     fais que nous ayons part à la bénédiction /
     >promise à Abraham et à sa descendance.
-    Par le Christ, notre Seigneur. (cf. Propre du Canada)
+    Par le Christ, notre Seigneur.
+  prefaceList:
+  - saints_1
+  - saints_2
   communionAntiphon:
-  - biblicalReference: cf. Ps 23,5 (Vg)
+  - biblicalReference: cf. Ps 23,5
     content: |-
-      Ils ont obtenu, du Seigneur, la bénédiction,
-      >et de Dieu leur Sauveur, la miséricorde.
+      Heureuse celle qui obtient, du Seigneur, la bénédiction :
+      >elle a trouvé grâce devant Dieu son Sauveur.
   prayerAfterCommunion:
   - |-
-    Seigneur Dieu, +
-    >tu as voulu que ton Fils unique naisse de la famille humaine,
+    Tu as voulu, Seigneur Dieu, +
+    >que ton Fils unique naisse de la famille humaine,
     >pour que celle-ci, par un admirable mystère,
     >renaisse de ta propre vie ; *
     dans ta bonté, accorde

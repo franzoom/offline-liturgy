@@ -8,7 +8,7 @@ celebration:
   color: red
 
 oration:
-  - Seigneur, pour la défense de la foi catholique, tu armas de courage et de savoir saint Pierre Canisius ; par son intercession, accorde à ceux qui cherchent la vérité de te trouver dans la joie ; accorde au peuple des croyants de savoir toujours témoigner de toi.
+  - Seigneur Dieu, pour sauvegarder la foi catholique, tu as soutenu le courage et la science du prêtre saint Pierre Canisius ; par son intercession, accorde à ceux qui cherchent la vérité d’avoir le bonheur de te trouver, toi, le seul Dieu, et donne au peuple des croyants de persévérer dans le témoignage qu’ils te rendent.
 
 readings:
   patristicReading:
@@ -51,7 +51,13 @@ vespers:
 
 mass:
 - massType: DAY_MASS
-  entranceAntiphon: null
+  entranceAntiphon:
+  - biblicalReference: cf. Ez 34, 11.23-24
+    content: |-
+      Je m’occuperai de mes brebis,
+      je veillerai sur elles, dit le Seigneur.
+      >Je susciterai à leur tête un seul berger.
+      Moi, le Seigneur, je serai leur Dieu.
   collect:
   - |-
     Seigneur Dieu, +
@@ -159,6 +165,23 @@ mass:
         sera déclaré le plus petit dans le royaume des Cieux.
         Mais celui qui les observera et les enseignera,
         celui-là sera déclaré grand dans le royaume des Cieux. »
-  offeringPrayer: null
-  communionAntiphon: null
-  prayerAfterCommunion: null
+  offeringPrayer:
+  - |-
+    Sanctifie, Seigneur, les offrandes qui te sont destinées ;
+    >à la prière de saint Pierre Canisius,
+    accorde à ton Église les dons de l’unité et de la paix.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Mc 10, 45
+    content: |-
+      Le Fils de l’homme n’est pas venu pour être servi,
+      mais pour servir,
+      >et donner sa vie en rançon pour la multitude.
+  prayerAfterCommunion:
+  - |-
+    Seigneur notre Dieu, +
+    >que le sacrifice offert en ce jour de fête
+    augmente en nous la foi, l’espérance et la charité, *
+    et qu’il réjouisse ton Église /
+    >en lui donnant toujours de nouveaux enfants.
+    Par le Christ, notre Seigneur.

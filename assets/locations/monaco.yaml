@@ -7,44 +7,50 @@ epiphanyDate: day
 ascensionDate: thursday
 corpusDominiDate: thursday
 
+  # Saints Cyrille et Méthode (14 fév.), Catherine de Sienne (29 avril), Benoît (11 juil.),
+  # Brigitte (23 juil.) et Thérèse-Bénédicte de la Croix (9 août, Missel de Monaco p.1357),
+  # tous Fête à Monaco, sont déjà élevés au rang de Fête (précédence 8) par
+  # assets/locations/europe.yaml, dont Monaco hérite — pas d'entrée à dupliquer ici.
+  # Une ancienne entrée move: teresa_benedicta_of_the_cross_stein_virgin (7 août, erronée :
+  # le Missel la donne au 9 août comme europe.yaml) a été retirée pour cette raison.
 feasts:
-  onoratus_bishop: #à vérifier
+  onoratus_bishop: #OK (lectures + oraison, Missel de Monaco) — date corrigée : 16 janvier, pas 13 (Missel p.1352)
     month: 1
-    day: 13
+    day: 16
     precedence: 10
-  devota_of_corsica_virgin_martyr: #à vérifier
+  devota_of_corsica_virgin_martyr: #OK (lectures + oraison, Missel de Monaco p.1351-1352)
     month: 1
     day: 27
     precedence: 4
-  pons_martyr: #à compléter
+  pons_martyr: #OK (lectures + oraison, Missel de Monaco p.1353-1354)
     month: 5
     day: 15
     precedence: 12
-  ospiti_hermit: #à compléter
+  ospiti_hermit: #OK (lectures + oraison, Missel de Monaco p.1355) — "Prière après la communion" non trouvée, illisible sur le scan
     month: 5
     day: 21
     precedence: 12
-  dedication_of_the_cathedral:
+  dedication_of_the_cathedral: #OK — Missel de Monaco p.1356 ; Solennité dans la cathédrale elle-même, Fête ailleurs dans le pays (non modélisable ici)
     month: 6
     day: 11
     precedence: 8
-  romanus_martyr:
+  romanus_martyr: #OK (oraison, Missel de Monaco p.1357-1359) — pas de lectures de messe trouvées
     month: 8
     day: 9
     precedence: 8
-  aurelia_martyr:
+  aurelia_martyr: #OK (oraison, Missel de Monaco p.1359) — pas de lectures de messe trouvées
     month: 8
     day: 11
     precedence: 12
-  clare_of_assisi_virgin:
+  clare_of_assisi_virgin: #mémoire facultative à Monaco (roman/, precedence 10) — pas de fichier local, Missel p.747
     month: 8
     day: 11
-    precedence: 12  
-  roch:
+    precedence: 12
+  roch: #OK (oraison, Missel de Monaco p.1360-1361) — pas de lectures de messe trouvées
     month: 8
     day: 16
     precedence: 10
-  barbara_virgin_and_martyr:
+  barbara_virgin_and_martyr: #OK (oraison, Missel de Monaco p.1362)
     month: 12
     day: 4
     precedence: 12
@@ -58,7 +64,3 @@ move:
     month: 6
     day: 12
     precedence: 10
-  teresa_benedicta_of_the_cross_stein_virgin: #OK
-    month: 8
-    day: 7
-    precedence: 8

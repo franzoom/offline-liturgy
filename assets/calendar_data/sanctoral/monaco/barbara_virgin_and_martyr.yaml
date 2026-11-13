@@ -1,0 +1,51 @@
+celebration:
+  title: Sainte Barbe
+  subtitle: vierge et martyre
+  description: Hormis la légende de son martyre qui en a fait la patronne des artilleurs, des artificiers, des mineurs et des pompiers, on ne sait rien sur sainte Barbe. Cependant, son culte répandu depuis un temps immémorial est attesté en Principauté de Monaco par sa fête inscrite au calendrier liturgique propre de l’abbaye « Nullius » de Monaco en 1882.
+  color: red
+  commons:
+    - martyr_female_virgin
+
+oration:
+  - Dieu de puissance et de miséricorde, toi qui as donné à sainte Barbe, vierge et martyre, de triompher dans les supplices de sa passion, accorde-nous, en ce jour où nous célébrons sa victoire, de rester, par ta protection, invincibles face aux pièges de l’ennemi.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Voici qu’elle suit l’Agneau, crucifié pour nous,
+      la vierge fidèle,
+      >victime pure, offrande immaculée.
+  collect:
+  - |-
+    Dieu de puissance et de miséricorde, +
+    >toi qui as donné à sainte Barbe, vierge et martyre,
+    de triompher dans les supplices de sa passion, *
+    accorde-nous, en ce jour où nous célébrons sa victoire, /
+    de rester, par ta protection, invincibles
+    >face aux pièges de l’ennemi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Seigneur, nous te présentons ces offrandes
+    >en la fête de sainte Barbe ; *
+    accepte-les avec bienveillance, nous t’en prions, /
+    comme tu as accueilli le combat de son martyre.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Mc 8, 35
+    content: |-
+      Celui qui perdra sa vie
+      à cause de moi et de l’Évangile
+      >la sauvera, dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, tu as donné à sainte Barbe
+    >d’être couronnée parmi les saints,
+    au double titre de vierge et de martyre ; *
+    par la force de ce sacrement,
+    >rends-nous forts pour surmonter le mal /
+    et obtenir ainsi la gloire du ciel.
+    Par le Christ, notre Seigneur.

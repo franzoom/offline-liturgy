@@ -1,6 +1,38 @@
 celebration:
   title: Saint Hospice
-  subtitle: hermite
+  subtitle: ermite
+  description: Vivant au VIᵉ siècle et dont le nom demeure aujourd’hui, cet homme extraordinaire avait fixé sa résidence à l’est du Cap Ferrat, dans la pointe qui a gardé son nom. On peut dire que pratiquement Hospice s’était muré vivant. Il aurait prédit les razzias de l’année 574 auxquelles on a voulu rattacher, sans preuves suffisantes, la ruine de la ville de Cimiez. Trois jours avant sa mort, le saint annonça aux moines qui l’entouraient qu’il allait quitter ce monde et les chargea de prévenir l’évêque. Puis, il s’absorba dans la méditation, et la paix du Seigneur descendit sur lui.
   color: white
   commons:
     - saints-male
+
+oration:
+  - Tu as appelé, Seigneur, saint Hospice à vivre seul près de toi ; aide-nous à te découvrir toujours plus avec un cœur rempli de toi, pour nous donner aux autres, dans la prière, avec toi et pour toi.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Tu as appelé, Seigneur, saint Hospice +
+    >à vivre seul près de toi ; *
+    aide-nous à te découvrir toujours plus
+    >avec un cœur rempli de toi, /
+    pour nous donner aux autres,
+    >dans la prière, avec toi et pour toi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Seigneur, sans toi nous ne pouvons rien ; *
+    daigne accepter les dons que nous te présentons
+    >en la fête de saint Hospice, /
+    et permets que, par son intercession,
+    >nous puissions nous offrir tout entiers
+    >à la louange de ta gloire.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: cf. Ps 33, 9-10
+    content: |-
+      Goûtez et voyez comme est bon le Seigneur :
+      >rien ne manque à ceux qui le cherchent.

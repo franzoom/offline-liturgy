@@ -1766,6 +1766,31 @@
     "dir": "sanctoral",
     "title": "Saint Viateur"
   },
+  "monaco/aurelia_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr_female_virgin"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Aurélie"
+  },
+  "monaco/barbara_virgin_and_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr_female_virgin"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Barbe"
+  },
+  "monaco/dedication_of_the_cathedral": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace de la cathédrale"
+  },
   "monaco/devota_of_corsica_virgin_martyr": {
     "color": "red",
     "commons": [
@@ -1797,6 +1822,22 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Pons"
+  },
+  "monaco/roch": {
+    "color": "white",
+    "commons": [
+      "saints-male"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Roch"
+  },
+  "monaco/romanus_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Roman"
   },
   "north-africa/alypius_and_possidius_bishops": {
     "color": "white",

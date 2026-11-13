@@ -1,8 +1,40 @@
 celebration:
   title: Saint Pons
   subtitle: martyr
+  description: Pons, de parents païens et de famille sénatoriale, naquit à Rome ; il étudia avec succès les belles lettres et la philosophie. Il se convertit après avoir entendu une psalmodie des matines, reçut le baptême et convertit ensuite toute sa maison. Il distribua ses biens aux pauvres et quitta Rome au moment où éclatait la persécution de Valérien ; il s’enfuit à Cimiez, où il fut arrêté pour avoir voulu se consacrer à la prédication de l’Évangile. Exposé aux bêtes, placé sur un bûcher, Pons fut suspendu au chevalet pour l’obliger à sacrifier aux dieux. Enfin sa tête tomba sous le tranchant du glaive. Il mourut le 14 mai.
   color: red
   commons:
     - martyr
-    
+
 oration:
+  - Seigneur, c’est pour te rendre gloire que saint Pons a souffert le martyre en tombant sous les coups de ses persécuteurs ; accorde-nous, par son intercession, de rester jusqu’à la mort fermes dans la foi.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur, +
+    >c’est pour te rendre gloire
+    >que saint Pons a souffert le martyre
+    en tombant sous les coups de ses persécuteurs ; *
+    accorde-nous, par son intercession,
+    >de rester jusqu’à la mort fermes dans la foi.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  communionAntiphon:
+  - biblicalReference: Jn 15, 5
+    content: |-
+      Celui qui demeure en moi et en qui je demeure,
+      >dit le Seigneur,
+      celui-là porte beaucoup de fruit.
+  prayerAfterCommunion:
+  - |-
+    En cette fête de saint Pons,
+    >nous avons reçu de toi, Seigneur, le don du ciel,
+    et nous te supplions : *
+    puisque, dans ce banquet divin,
+    >nous annonçons la mort de ton Fils,
+    fais-nous participer avec les saints martyrs /
+    >à sa résurrection et à sa gloire.
+    Lui qui vit et règne pour les siècles des siècles.

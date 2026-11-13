@@ -1,6 +1,54 @@
 celebration:
   title: Sainte Dévote
-  subtitle: vierge et martyre
+  subtitle: vierge et martyre, patronne principale de l’Archidiocèse et de la Principauté
+  description: |-
+    Sainte Dévote est une jeune chrétienne native de Corse, martyrisée sous les empereurs Dioclétien et Maximien, en l’an 304. Son corps fut dérobé de nuit par des fidèles soucieux qu’il soit enterré dignement : ils le déposèrent dans une barque pour qu’il soit dirigé vers l’Afrique, où se trouvait une importante communauté chrétienne. Cependant, les vents contraires conduisirent l’esquif vers Monaco, où, plus tard, fut édifiée une chapelle près du port, dans une grotte du vallon des Gaumates, dont les religieux de l’abbaye de Saint-Pons demeurèrent propriétaires jusqu’au XVIᵉ siècle.
   color: red
   commons:
     - martyr_female_virgin
+
+oration:
+  - Dieu qui déploies ta puissance dans la faiblesse, écoute ce peuple en prière qui célèbre la gloire de sainte Dévote ; modèle de courage et de pureté, elle a reçu de toi la force de vaincre, fais qu’elle nous obtienne la grâce de la victoire.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Réjouissons-nous, exultons,
+      parce que le Seigneur de l’univers a aimé
+      >la bienheureuse Dévote,
+      vierge sainte et glorieuse.
+  collect:
+  - |-
+    Dieu qui déploies ta puissance dans la faiblesse, +
+    >écoute ce peuple en prière
+    >qui célèbre la gloire de sainte Dévote ; *
+    modèle de courage et de pureté,
+    >elle a reçu de toi la force de vaincre, /
+    fais qu’elle nous obtienne la grâce de la victoire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    En rappelant la victoire
+    >qui ouvrit le ciel à sainte Dévote,
+    nous t’offrons avec joie, Seigneur, le sacrifice de ce jour ; *
+    par lui, nous proclamons tes merveilles, /
+    heureux de pouvoir compter sur son intercession dans la gloire.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Jn 15, 18
+    content: |-
+      Si le monde a eu de la haine contre vous,
+      sachez qu’il en a eu d’abord contre moi,
+      >dit le Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à sainte Dévote
+    >d’être couronnée au double titre de vierge et de martyre ; *
+    rends-nous forts pour surmonter le mal
+    >par la force de ce sacrement, /
+    et obtenir ainsi la gloire du ciel.
+    Par le Christ, notre Seigneur.

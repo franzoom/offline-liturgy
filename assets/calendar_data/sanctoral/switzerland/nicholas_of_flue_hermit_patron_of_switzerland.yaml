@@ -7,8 +7,8 @@ celebration:
   color: white
 
 oration:
-  - Seigneur, soutenus par la prière de saint Nicolas de Flüe, nous te supplions humblement : garde sous ta constante protection ceux qui nous dirigent, et donne-nous la lumière de ta grâce.
-  - Par la vie de saint Nicolas de Flüe, tu nous as révélé, Seigneur, combien ton amour pouvait combler un cœur humain dans la solitude et le rendre solidaire de tous ; donne-nous de te préférer en toutes circonstances.
+  - Seigneur, soutenus par la prière de saint Nicolas de Flüe, nous te supplions humblement : garde sous ta constante protection ceux qui nous dirigent, et donne-nous la lumière de ta grâce.
+  - Par la vie de saint Nicolas de Flüe, tu nous as révélé, Seigneur, combien ton amour pouvait combler un cœur humain dans la solitude et le rendre solidaire de tous ; donne-nous de te préférer en toutes circonstances.
 
 mass:
 - massType: DAY_MASS
@@ -20,36 +20,61 @@ mass:
       >car je voyais dans la ville discorde et violence.
   collect:
   - |-
-    Seigneur, +
+    Seigneur, +
     >soutenus par la prière de saint Nicolas de Flüe,
-    nous te supplions humblement : *
+    nous te supplions humblement : *
     garde sous ta constante protection
-    >ceux qui nous dirigent, /
+    >ceux qui nous dirigent, /
     et donne-nous la lumière de ta grâce.
-    Par Jésus Christ, ton Fils, notre Seigneur, +
-    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  - |-
+    Par la vie de saint Nicolas de Flüe,
+    >tu nous as révélé, Seigneur,
+    >combien, dans la solitude,
+    >ton amour pouvait combler un cœur humain
+    >et le rendre solidaire de tous ; *
+    nous t’en prions : donne-nous de te choisir /
+    >et de te préférer en toutes circonstances.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
   offeringPrayer:
   - |-
     Sanctifie, Seigneur,
-    >les offrandes qui te sont destinées : *
+    >les offrandes qui te sont destinées : *
     qu’elles attirent sur nous
-    >ton regard de bonté et de paix, /
+    >ton regard de bonté et de paix, /
     afin qu’ayant servi sur cette terre
     >nous connaissions la gloire du ciel.
+    Par le Christ, notre Seigneur.
+  - |-
+    Seigneur Dieu, +
+    dans un merveilleux échange,
+    >tu nous demandes de t’offrir ce pain et ce vin,
+    >signes de notre vie ; *
+    que cette offrande nous détache de nous-mêmes /
+    >et nous donne tout entiers à toi.
     Par le Christ, notre Seigneur.
   communionAntiphon:
   - biblicalReference: Ga 2, 19-20
     content: |-
-      Avec le Christ, je suis fixé à la croix :
+      Avec le Christ, je suis fixé à la croix :
       je vis, mais ce n’est plus moi,
       >c’est le Christ qui vit en moi.
   prayerAfterCommunion:
+  - |- 
+    Seigneur, par cette communion,
+    >refais nos forces, *
+    afin qu’à l’imitation de saint Nicolas de Flüe, /
+    >nous ne cessions de grandir en ton amour.
+    Par le Christ notre Seigneur.
   - |-
-    Seigneur Dieu, +
+    Seigneur Dieu, +
     >de même que tu as miraculeusement nourri ton peuple au désert,
-    tu as soutenu saint Nicolas de Flüe par l’Eucharistie : *
-    fais que ce même pain reçu en communion /
+    tu as soutenu saint Nicolas de Flüe par l’Eucharistie : *
+    fais que ce même pain reçu en communion /
     >nous accompagne toujours jusqu’à ta montagne sainte.
     Par le Christ, notre Seigneur.
   readingParts:
@@ -57,13 +82,13 @@ mass:
     partContents:
     - biblicalRef: Sg 7, 27c-8, 2a.3-7.9
       headline: |-
-        « La Sagesse se transmet à des âmes saintes »
+        « La Sagesse se transmet à des âmes saintes »
       content: |-
         D’âge en âge, la Sagesse se transmet à des âmes saintes,
         >pour en faire des prophètes et des amis de Dieu.
         Car Dieu n’aime que celui qui vit avec la Sagesse.
         Elle est plus belle que le soleil,
-        >elle surpasse toutes les constellations ;
+        >elle surpasse toutes les constellations ;
         si on la compare à la lumière du jour,
         >on la trouve bien supérieure,
         car le jour s’efface devant la nuit,
@@ -79,11 +104,11 @@ mass:
         >c’est elle qui décide de ses œuvres.
         Si la richesse est un bien désirable en cette vie,
         qu’y a-t-il de plus riche que la Sagesse,
-        >elle qui met en œuvre toutes choses ?
+        >elle qui met en œuvre toutes choses ?
         Si l’intelligence humaine peut accomplir une œuvre,
-        >qui, plus que la Sagesse, est l’artisan de l’univers ?
-        Veut-on devenir juste ?
-        Les labeurs de la Sagesse produisent les vertus :
+        >qui, plus que la Sagesse, est l’artisan de l’univers ?
+        Veut-on devenir juste ?
+        Les labeurs de la Sagesse produisent les vertus :
         elle enseigne la tempérance et la prudence,
         >la justice et la force d’âme,
         et rien n’est plus utile aux hommes dans l’existence.
@@ -97,12 +122,12 @@ mass:
       chorus:
       - chorusRef: cf. 89, 14
         content: |-
-          Rassasie-nous de ton amour, Seigneur :
+          Rassasie-nous de ton amour, Seigneur :
           nous serons dans la joie.
       content: |-
-        Apprends-nous la vraie mesure de nos jours :
+        Apprends-nous la vraie mesure de nos jours :
         que nos cœurs pénètrent la sagesse.
-        Reviens, Seigneur, pourquoi tarder ?
+        Reviens, Seigneur, pourquoi tarder ?
         Ravise-toi par égard pour tes serviteurs.
 
         Rassasie-nous de ton amour au matin,
@@ -113,16 +138,16 @@ mass:
         Fais connaître ton œuvre à tes serviteurs
         et ta splendeur à leurs fils.
         Que vienne sur nous
-        la douceur du Seigneur notre Dieu !
+        la douceur du Seigneur notre Dieu !
   - partType: READING_2
     partContents:
     - biblicalRef: Rm 14, 17-19
       headline: |-
-        « Le royaume de Dieu est justice, paix et joie »
+        « Le royaume de Dieu est justice, paix et joie »
       content: |-
         Frères,
         le royaume de Dieu ne consiste pas
-        >en des questions de nourriture ou de boisson ;
+        >en des questions de nourriture ou de boisson ;
         >il est justice, paix et joie dans l’Esprit Saint.
         Celui qui sert le Christ de cette manière-là plaît à Dieu,
         >et il est approuvé par les hommes.
@@ -132,19 +157,19 @@ mass:
     partContents:
     - biblicalRef: Mt 19, 27-29
       headline: |-
-        « Vous qui m’avez suivi, vous recevrez le centuple »
+        « Vous qui m’avez suivi, vous recevrez le centuple »
       acclamationAntiphon: |-
         Heureux les habitants de ta maison, Seigneur,
-        heureux les hommes dont tu es la force :
+        heureux les hommes dont tu es la force :
         des chemins s’ouvrent dans leur cœur.
       acclamationAntiphonReference: cf. Ps 83, 5a.6
       content: |-
         En ce temps-là,
-        Pierre prit la parole et dit à Jésus :
-        >« Voici que nous avons tout quitté pour te suivre :
-        quelle sera donc notre part ? »
-        Jésus leur déclara :
-        >« Amen, je vous le dis :
+        Pierre prit la parole et dit à Jésus :
+        >« Voici que nous avons tout quitté pour te suivre :
+        quelle sera donc notre part ? »
+        Jésus leur déclara :
+        >« Amen, je vous le dis :
         lors du renouvellement du monde,
         >lorsque le Fils de l’homme siégera sur son trône de gloire,
         vous qui m’avez suivi,
@@ -155,4 +180,4 @@ mass:
         >un père, une mère, des enfants,
         >ou une terre,
         recevra le centuple,
-        >et il aura en héritage la vie éternelle. »
+        >et il aura en héritage la vie éternelle. »

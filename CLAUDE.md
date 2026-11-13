@@ -27,6 +27,12 @@
   Location YAML files may also declare a `move:` section to relocate any feast already
   in the calendar to a different fixed date. This uses `Calendar.moveItemToDate()`,
   which is prefix-agnostic: `roman/`, local, or parent-location feasts can all be moved.
+  `moveItemToDate()` always keeps the feast's original key — it cannot swap in a
+  differently-named local file. For that, a `delete:` section (a plain list of base
+  feast names) removes an inherited feast outright via `Calendar.deleteItem()`
+  (prefix-agnostic, runs before `feasts:`/`move:` in `Location.applyToCalendar()`),
+  so the location's own differently-named file can take over without the two
+  coexisting in `feastList`.
 
   ## Two liturgical years always built
   `getCalendar()` always builds year N + year N+1 to avoid boundary issues.

@@ -44,7 +44,8 @@ final Map<String, String> _knownAelfErrors = {
   // AELF garde l'antienne du psautier pour le Ps 75 ; le bréviaire met
   // l'antienne de l'Heure sur les trois psaumes.
   for (final antiphon in ['antienne_2', 'antienne_3'])
-    '2026-12-06|None|$antiphon': "De toi, Bethléem, sortira le berger d'Israël.",
+    '2026-12-06|None|$antiphon':
+        "De toi, Bethléem, sortira le berger d'Israël.",
   // Faute de frappe AELF : "Isarël".
   for (final antiphon in ['antienne_1', 'antienne_2', 'antienne_3'])
     '2026-12-20|Sexte|$antiphon':
@@ -56,7 +57,8 @@ final Map<String, String> _knownAelfErrors = {
     '$date|Laudes|antienne_3': 'Ciel, répands ta rosée, nuée, fais pleuvoir '
         'le Juste ; terre, enfante un Sauveur !',
   for (final date in ['2024-12-21', '2025-12-20', '2026-12-19'])
-    '$date|Laudes|antienne_2': "Je regarde vers mon Dieu, j'attends mon Sauveur !",
+    '$date|Laudes|antienne_2':
+        "Je regarde vers mon Dieu, j'attends mon Sauveur !",
   // Semaine avant Noël, milieu du jour : les antiennes de la semaine en cours
   // (III ou IV) ; AELF met presque toujours "L'Ange dit à Marie", sans
   // régularité.
@@ -85,12 +87,33 @@ final Map<String, String> _knownAelfErrors = {
   // Complies de la veille d'une solennité : le bréviaire garde les antiennes
   // des solennités ; AELF prend celles du samedi du temps en cours.
   for (final date in [
-    '2024-03-18', '2024-05-25', '2024-06-01', '2024-06-06', '2024-06-23',
-    '2024-08-14', '2024-10-31', '2024-11-23', '2025-03-18', '2025-03-24',
-    '2025-06-14', '2025-06-21', '2025-06-23', '2025-06-26', '2025-08-14',
-    '2025-10-31', '2025-11-22', '2026-03-18', '2026-03-24', '2026-05-30',
-    '2026-06-06', '2026-06-11', '2026-06-23', '2026-08-14', '2026-10-31',
-    '2026-11-21', '2026-12-07',
+    '2024-03-18',
+    '2024-05-25',
+    '2024-06-01',
+    '2024-06-06',
+    '2024-06-23',
+    '2024-08-14',
+    '2024-10-31',
+    '2024-11-23',
+    '2025-03-18',
+    '2025-03-24',
+    '2025-06-14',
+    '2025-06-21',
+    '2025-06-23',
+    '2025-06-26',
+    '2025-08-14',
+    '2025-10-31',
+    '2025-11-22',
+    '2026-03-18',
+    '2026-03-24',
+    '2026-05-30',
+    '2026-06-06',
+    '2026-06-11',
+    '2026-06-23',
+    '2026-08-14',
+    '2026-10-31',
+    '2026-11-21',
+    '2026-12-07',
   ])
     '$date|Complies|antienne_1': 'Dans la paix, je reposerai.',
   '2026-12-07|Complies|antienne_2': 'Au long des nuits, bénissez le Seigneur !',
@@ -129,7 +152,11 @@ final Map<String, String> _knownAelfErrors = {
   // Fautes de frappe AELF à l'antienne de Syméon : "vous veillerons",
   // "allélulia".
   for (final date in [
-    '2024-12-18', '2024-12-23', '2025-01-02', '2025-12-22', '2026-12-21',
+    '2024-12-18',
+    '2024-12-23',
+    '2025-01-02',
+    '2025-12-22',
+    '2026-12-21',
   ])
     '$date|Complies|antienne_symeon (Nunc dimittis)':
         'Sauve-nous, Seigneur, quand nous veillons ; garde-nous quand nous '
@@ -224,8 +251,7 @@ void main() {
   });
 
   for (final year in _years) {
-    test('Psaumes/cantiques et antiennes — $_location $year vs AELF',
-        () async {
+    test('Psaumes/cantiques et antiennes — $_location $year vs AELF', () async {
       final calendar =
           getCalendar(Calendar(), DateTime(year, 1, 1), _location, data);
       final file = File(
@@ -238,9 +264,8 @@ void main() {
             fixture[iso] as Map<String, dynamic>, report);
       }
       _printSummary(year, report);
-      final unexpected = report.mismatches
-          .where((m) => !_isKnownAelfError(m))
-          .toList();
+      final unexpected =
+          report.mismatches.where((m) => !_isKnownAelfError(m)).toList();
       expect(unexpected, isEmpty,
           reason:
               '${unexpected.length} divergence(s) — voir le résumé ci-dessus');
@@ -259,8 +284,8 @@ Future<void> _compareDay(Calendar calendar, DataLoader dataLoader, String iso,
       _pickWinner(await readingsDetection(calendar, date, dataLoader));
   if (readingsWinner != null) {
     final readings = await readingsExport(readingsWinner);
-    _compareHour(report, readings.psalmody, aelf['lectures'], iso,
-        'Lectures', _label(readingsWinner), aelfCelebration);
+    _compareHour(report, readings.psalmody, aelf['lectures'], iso, 'Lectures',
+        _label(readingsWinner), aelfCelebration);
   }
 
   // --- Laudes ---
@@ -269,8 +294,8 @@ Future<void> _compareDay(Calendar calendar, DataLoader dataLoader, String iso,
   if (morningWinner != null) {
     final morning = await morningExport(morningWinner);
     final label = _label(morningWinner);
-    _compareHour(report, morning.psalmody, aelf['laudes'], iso, 'Laudes',
-        label, aelfCelebration);
+    _compareHour(report, morning.psalmody, aelf['laudes'], iso, 'Laudes', label,
+        aelfCelebration);
     _compareEvangelicAntiphon(
         morning.evangelicAntiphon,
         aelf['laudes']?['antienne_zacharie'],
@@ -294,8 +319,8 @@ Future<void> _compareDay(Calendar calendar, DataLoader dataLoader, String iso,
     _compareHour(report, middle.psalmodySexte, aelf['sexte'], iso, 'Sexte',
         label, aelfCelebration,
         sharedAntiphonAcrossHour: true);
-    _compareHour(report, middle.psalmodyNone, aelf['none'], iso, 'None',
-        label, aelfCelebration,
+    _compareHour(report, middle.psalmodyNone, aelf['none'], iso, 'None', label,
+        aelfCelebration,
         sharedAntiphonAcrossHour: true);
   }
 
@@ -305,8 +330,8 @@ Future<void> _compareDay(Calendar calendar, DataLoader dataLoader, String iso,
   if (vespersWinner != null) {
     final vespers = await vespersExport(vespersWinner);
     final label = _label(vespersWinner);
-    _compareHour(report, vespers.psalmody, aelf['vepres'], iso, 'Vêpres',
-        label, aelfCelebration);
+    _compareHour(report, vespers.psalmody, aelf['vepres'], iso, 'Vêpres', label,
+        aelfCelebration);
     _compareEvangelicAntiphon(
         vespers.evangelicAntiphon,
         aelf['vepres']?['antienne_magnificat'],
@@ -355,9 +380,10 @@ void _printSummary(int year, _Report report) {
   final unexpected =
       report.mismatches.where((m) => !_isKnownAelfError(m)).toList();
   final foundKeys = report.mismatches.map((m) => m.key).toSet();
-  final staleKnown = [..._knownAelfErrors.keys, ..._knownAelfErrorsFromFile.keys]
-      .where((k) => k.startsWith('$year-') && !foundKeys.contains(k))
-      .toList();
+  final staleKnown = [
+    ..._knownAelfErrors.keys,
+    ..._knownAelfErrorsFromFile.keys
+  ].where((k) => k.startsWith('$year-') && !foundKeys.contains(k)).toList();
 
   if (known.isNotEmpty) {
     print('\n${known.length} erreur(s) AELF connue(s), ignorée(s) '
@@ -392,8 +418,8 @@ void _compareHour(
   String aelfCelebration, {
   bool sharedAntiphonAcrossHour = false,
 }) {
-  _comparePsalmody(psalmody, aelfOffice, date, office, celebration,
-      aelfCelebration, report,
+  _comparePsalmody(
+      psalmody, aelfOffice, date, office, celebration, aelfCelebration, report,
       sharedAntiphonAcrossHour: sharedAntiphonAcrossHour);
   _comparePsalmReferences(
       psalmody, aelfOffice, date, office, celebration, aelfCelebration, report);
@@ -426,7 +452,8 @@ final Set<String> _ignoredMissingAntiphonCodes = {
 
 bool _isIgnoredMissingAntiphonCode(String? psalm) {
   if (psalm == null) return false;
-  return psalm.startsWith('NT_') || _ignoredMissingAntiphonCodes.contains(psalm);
+  return psalm.startsWith('NT_') ||
+      _ignoredMissingAntiphonCodes.contains(psalm);
 }
 
 void _comparePsalmody(
@@ -454,8 +481,11 @@ void _comparePsalmody(
     final aelfKey = 'antienne_${i + 1}';
     final aelfRaw = aelfOffice[aelfKey] as String?;
     var aelfText = _normalize(aelfRaw);
-    final oursPsalmCode = (ours != null && i < ours.length) ? ours[i].psalm : null;
-    if (sharedAntiphonAcrossHour && aelfText.isEmpty && lastNonEmptyAelf.isNotEmpty) {
+    final oursPsalmCode =
+        (ours != null && i < ours.length) ? ours[i].psalm : null;
+    if (sharedAntiphonAcrossHour &&
+        aelfText.isEmpty &&
+        lastNonEmptyAelf.isNotEmpty) {
       aelfText = lastNonEmptyAelf;
     } else if (aelfText.isNotEmpty) {
       lastNonEmptyAelf = aelfText;
@@ -511,8 +541,13 @@ void _comparePsalmReferences(
             ? '54-2'
             : _ourPsalmKey(entry);
     if (aelfRef == null || oursKey != _aelfPsalmKey(aelfRef)) {
-      report.mismatches.add(_Mismatch(date, office, celebration,
-          aelfCelebration, aelfKey, '${entry?.psalm ?? '—'} ($oursKey)',
+      report.mismatches.add(_Mismatch(
+          date,
+          office,
+          celebration,
+          aelfCelebration,
+          aelfKey,
+          '${entry?.psalm ?? '—'} ($oursKey)',
           aelfRef ?? '—'));
     }
   }
@@ -588,7 +623,7 @@ void _compareEvangelicAntiphon(
   // Every antiphon we offer (year A/B/C, then the common one; a memorial's
   // weekday and Common ones) is selectable, so AELF's may match any of them.
   // A memorial's choices are introduced by their origin in italics
-  // ("%(antienne de la férie :)%"), which AELF doesn't show.
+  // ("%(antienne du jour :)%"), which AELF doesn't show.
   final oursTexts = [
     for (final list in ours?.values ?? const <List<String>>[])
       for (final antiphon in list)
@@ -598,8 +633,8 @@ void _compareEvangelicAntiphon(
   if (aelfText.isEmpty) return;
   report.antiphons++;
   if (!oursTexts.any((t) => _sameWords(t, aelfText))) {
-    report.mismatches.add(_Mismatch(date, office, celebration,
-        aelfCelebration, fieldLabel, oursTexts.join(' | '), aelfText));
+    report.mismatches.add(_Mismatch(date, office, celebration, aelfCelebration,
+        fieldLabel, oursTexts.join(' | '), aelfText));
   }
 }
 
@@ -647,7 +682,6 @@ String _wordsKey(String text, {bool keepCase = false}) {
 
 final RegExp _alleluiaWord = RegExp(r'^al+él+u+ia$');
 
-
 /// An AELF text with no words left (only "alléluia", a refrain marker or
 /// stray punctuation) has nothing to check ours against.
 bool _sameWords(String ours, String aelf) {
@@ -689,8 +723,19 @@ bool _isUpper(String c) => c != c.toLowerCase();
 String _unaccented(String c) => _accents[c] ?? c;
 
 const _accents = {
-  'à': 'a', 'â': 'a', 'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e', 'î': 'i',
-  'ï': 'i', 'ô': 'o', 'ù': 'u', 'û': 'u', 'ü': 'u', 'ç': 'c',
+  'à': 'a',
+  'â': 'a',
+  'é': 'e',
+  'è': 'e',
+  'ê': 'e',
+  'ë': 'e',
+  'î': 'i',
+  'ï': 'i',
+  'ô': 'o',
+  'ù': 'u',
+  'û': 'u',
+  'ü': 'u',
+  'ç': 'c',
 };
 
 /// AELF's own site only ever shows one antiphon per psalm, even where the

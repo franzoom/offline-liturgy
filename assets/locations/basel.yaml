@@ -1,0 +1,17 @@
+language: french
+geography: diocese
+parent: switzerland
+frenchName: diocèse de Bâle
+frenchLocative: dans le diocèse de Bâle
+
+move:
+  peter_canisius_priest: #OK — mémoire facultative dans ce diocèse (Missel de Suisse p.1364), contre mémoire obligatoire par défaut dans switzerland.yaml
+    month: 4
+    day: 27
+    precedence: 12
+
+feasts:
+  maurice_of_agaunum_and_companions_martyrs_switzerland: #OK — mémoire facultative dans ce diocèse (Missel de Suisse p.1366), contre mémoire obligatoire par défaut dans switzerland.yaml
+    month: 9
+    day: 22
+    precedence: 12

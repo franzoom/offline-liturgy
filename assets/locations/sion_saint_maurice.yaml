@@ -1,0 +1,17 @@
+language: french
+geography: diocese
+parent: switzerland
+frenchName: diocèse de Sion et abbaye territoriale de Saint-Maurice
+frenchLocative: dans le diocèse de Sion et l’abbaye territoriale de Saint-Maurice
+
+move:
+  peter_canisius_priest: #OK — mémoire obligatoire dans ce diocèse (Missel de Suisse p.1364) ; même valeur que le défaut de switzerland.yaml, gardée ici pour la clarté
+    month: 4
+    day: 27
+    precedence: 10
+
+feasts:
+  maurice_of_agaunum_and_companions_martyrs_switzerland: #OK — solennité dans ce diocèse (Missel de Suisse p.1366) : saint Maurice y est mort, à Agaune (aujourd’hui Saint-Maurice, en Valais)
+    month: 9
+    day: 22
+    precedence: 4

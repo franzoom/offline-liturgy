@@ -1,12 +1,29 @@
 celebration:
   title: Saint Maurice et ses compagnons
   subtitle: martyrs
+  description: |-
+    Lors de la persécution de Dioclétien (début du IVᵉ siècle), des soldats chrétiens furent mis à mort pour leur foi, à Agaune, dans le Valais. Une première chapelle fut érigée vers 380 en leur honneur. Par la suite, ce sanctuaire fut agrandi et des églises plus vastes furent construites. En 515, saint Sigismond, roi des Burgondes, fonda un monastère pour garder le souvenir du martyre de Maurice et de ses compagnons. L’évêque de Lyon Eucher rédigea d’après des traditions orales le récit de la passion des martyrs d’Agaune vers le milieu du Vᵉ siècle.
   commons:
     - martyrs
   color: red
 
+oration:
+  - Seigneur Dieu, la gloire de tes élus est un reflet de ta splendeur, et tu as consacré ce jour par le martyre de saint Maurice et de ses compagnons ; accorde à ton Église, qui fête avec joie leur entrée dans le ciel, de trouver, à leur exemple et par leur prière, le chemin de ta miséricorde.
+
 mass:
 - massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >la gloire de tes élus est un reflet de ta splendeur,
+    et tu as consacré ce jour
+    >par le martyre de saint Maurice et de ses compagnons ; *
+    accorde à ton Église, qui fête avec joie leur entrée dans le ciel, /
+    >de trouver, à leur exemple et par leur prière,
+    >le chemin de ta miséricorde.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING_1
     partContents:

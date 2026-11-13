@@ -1,0 +1,17 @@
+language: french
+geography: diocese
+parent: switzerland
+frenchName: diocèse de Lausanne, Genève et Fribourg
+frenchLocative: dans le diocèse de Lausanne, Genève et Fribourg
+
+move:
+  peter_canisius_priest: #OK — Fête dans ce diocèse (Missel de Suisse p.1364), contre mémoire obligatoire par défaut dans switzerland.yaml
+    month: 4
+    day: 27
+    precedence: 8
+
+feasts:
+  maurice_of_agaunum_and_companions_martyrs_switzerland: #OK — mémoire obligatoire dans ce diocèse (Missel de Suisse p.1366) ; même valeur que le défaut de switzerland.yaml, gardée ici pour la clarté
+    month: 9
+    day: 22
+    precedence: 10

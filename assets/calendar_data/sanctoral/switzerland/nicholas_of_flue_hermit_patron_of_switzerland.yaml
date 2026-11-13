@@ -1,12 +1,57 @@
 celebration:
   title: Saint Nicolas de Flüe
   subtitle: patron principal de la Confédération helvétique
+  description: Nicolas de Flüe (1417-1487), l’ermite de Sachseln du canton d’Unterwald, était père de dix enfants. Avec le consentement de sa femme, il se retira dans la solitude, où il passa les dix-neuf dernières années de sa vie. Il n’en sortit que pour rétablir la paix entre les cantons helvétiques, qui étaient sur le point de sombrer dans la guerre civile.
   commons:
     - saints-male_religious
   color: white
 
+oration:
+  - Seigneur, soutenus par la prière de saint Nicolas de Flüe, nous te supplions humblement : garde sous ta constante protection ceux qui nous dirigent, et donne-nous la lumière de ta grâce.
+  - Par la vie de saint Nicolas de Flüe, tu nous as révélé, Seigneur, combien ton amour pouvait combler un cœur humain dans la solitude et le rendre solidaire de tous ; donne-nous de te préférer en toutes circonstances.
+
 mass:
 - massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Ps 54, 8.10
+    content: |-
+      Très loin, je me suis enfui,
+      pour chercher asile au désert,
+      >car je voyais dans la ville discorde et violence.
+  collect:
+  - |-
+    Seigneur, +
+    >soutenus par la prière de saint Nicolas de Flüe,
+    nous te supplions humblement : *
+    garde sous ta constante protection
+    >ceux qui nous dirigent, /
+    et donne-nous la lumière de ta grâce.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Sanctifie, Seigneur,
+    >les offrandes qui te sont destinées : *
+    qu’elles attirent sur nous
+    >ton regard de bonté et de paix, /
+    afin qu’ayant servi sur cette terre
+    >nous connaissions la gloire du ciel.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Ga 2, 19-20
+    content: |-
+      Avec le Christ, je suis fixé à la croix :
+      je vis, mais ce n’est plus moi,
+      >c’est le Christ qui vit en moi.
+  prayerAfterCommunion:
+  - |-
+    Seigneur Dieu, +
+    >de même que tu as miraculeusement nourri ton peuple au désert,
+    tu as soutenu saint Nicolas de Flüe par l’Eucharistie : *
+    fais que ce même pain reçu en communion /
+    >nous accompagne toujours jusqu’à ta montagne sainte.
+    Par le Christ, notre Seigneur.
   readingParts:
   - partType: READING_1
     partContents:

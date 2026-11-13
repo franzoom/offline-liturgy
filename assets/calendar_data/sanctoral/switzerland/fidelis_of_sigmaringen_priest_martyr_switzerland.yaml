@@ -1,0 +1,146 @@
+celebration:
+  title: Saint Fidèle de Sigmaringen
+  subtitle: prêtre et martyr
+  description: Marc Roy (1578-1622) fut avocat à Colmar avant d’entrer chez les Capucins de Fribourg-en-Brisgau, où il devint le Père Fidèle de Sigmaringen. Religieux plein de charité et prédicateur populaire, il fut désigné par la Congrégation de la propagation de la foi pour une mission chez les Protestants des Grisons (Suisse), mais il ne tarda pas à être massacré.
+  commons:
+    - martyr
+    - pastors
+  color: red
+
+oration:
+  - |-
+    Seigneur, tu as donné la victoire du martyre à saint Fidèle de Sigmaringen, alors que, brûlant de ton amour, il travaillait à répandre la foi ; à sa prière, accorde-nous la grâce d’être enracinés dans la charité et de connaître avec lui la puissance de résurrection du Christ. Lui qui vit et règne pour les siècles de siècles.
+
+readings:
+  patristicReading:
+  - title: ÉLOGE DE SAINT FIDÈLE PAR LE PAPE BENOÎT XIV
+    content: |-
+      Il a déployé la plénitude de sa charité en soulageant et en secourant extérieurement son prochain ; ouvrant à tous les malheureux des bras paternels, il faisait vivre de véritables troupes de pauvres par les aumônes qu’il recueillait de partout. Il remédiait à l’abandon des orphelins et des veuves en leur procurant du secours auprès des puissants et des princes. Sans relâche il apportait aux prisonniers tout le réconfort, spirituel et corporel, dont il était capable ; il visitait assidûment tous les malades, leur apportait de la joie et, après les avoir réconciliés avec Dieu, les fortifiait pour le dernier combat.
+      En ce genre, il n’a jamais moissonné plus de mérites que lorsque l’armée autrichienne, cantonnée dans les Grisons, presque tout entière frappée par une épidémie, s’offrait à la maladie et à la mort comme une proie digne de pitié.
+      Cet homme de foi, Fidèle par son nom et par sa vie, se distingua, en même temps que par sa charité, par son ardeur pour défendre la foi. Il la prêcha inlassablement, et peu de jours avant de la confirmer par son sang, dans son dernier sermon, il laissa comme son testament en prononçant ces paroles :
+      « Ô foi catholique, comme tu es ferme, comme tu es inébranlable, bien enracinée, %bien fondée sur la pierre solide% ! Le ciel et la terre disparaîtront, mais tu ne pourras jamais disparaître. Dès le commencement, le monde entier t’a contredite, mais tu as triomphé de tous par ta grande puissance. %La victoire qui a vaincu le monde, c’est notre foi%. Elle a fait plier des rois très puissants sous le joug du Christ, elle a conduit les peuples à obéir au Christ.
+      Qu’est-ce qui a fait que les saints Apôtres et martyrs ont subi de durs combats et de cruels supplices, sinon la foi, principalement la foi en la résurrection ? Qu’est-ce qui a conduit les anciens moines à dédaigner les plaisirs, à mépriser les honneurs, à piétiner les richesses pour mener au désert une vie céleste, sinon la foi vive ? De nos jours, qu’est-ce qui entraîne les chrétiens à rejeter la facilité, à renoncer au confort, à supporter les épreuves, à souffrir une vie pénible ? %C’est la foi% vive, %qui agit par la charité%. C’est elle qui a fait abandonner les biens présents par l’espérance des biens futurs et, en échange des biens présents, recevoir les biens du monde à venir. »
+
+    responsory: |-
+      R/ En Dieu notre confiance :
+      il nous pourvoit de tout avec générosité.
+
+      Combats le bon combat,
+      conquiers la vie éternelle
+      à laquelle tu as été appelé.
+
+      N’amassez pas de trésors sur la terre
+      mais dans le ciel,
+      et débordez d’action de grâce.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon: null
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as donné à saint Fidèle de Sigmaringen
+    >la palme du martyre,
+    alors que, brûlant de ton amour,
+    >il travaillait à répandre la foi ; *
+    à sa prière, accorde-nous la grâce
+    >d’être enracinés dans la charité /
+    afin de connaître avec lui
+    >la puissance de la résurrection du Christ.
+    Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Col 1, 24-29
+      headline: « De cette Église, je suis devenu ministre »
+      content: |-
+        Frères, maintenant je trouve la joie dans les souffrances que je supporte pour vous ;
+        ce qui reste à souffrir des épreuves du Christ dans ma propre chair,
+        je l’accomplis pour son corps qui est l’Église.
+        De cette Église, je suis devenu ministre,
+        et la mission que Dieu m’a confiée,
+        c’est de mener à bien pour vous l’annonce de sa parole,
+        le mystère qui était caché depuis toujours à toutes les générations,
+        mais qui maintenant a été manifesté à ceux qu’il a sanctifiés.
+        Car Dieu a bien voulu leur faire connaître
+        en quoi consiste la gloire sans prix de ce mystère parmi toutes les nations :
+        le Christ est parmi vous, lui, l’espérance de la gloire !
+        Ce Christ, nous l’annonçons :
+        nous avertissons tout homme, nous instruisons chacun en toute sagesse,
+        afin de l’amener à sa perfection dans le Christ.
+        C’est pour cela que je m’épuise à combattre,
+        avec la force du Christ dont la puissance agit en moi.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 33 (34), 2-3, 4-5, 6-7, 8-9
+      refAbbr: cf. 33, 5b
+      chorus:
+      - chorusRef: cf. 33, 5b
+        content: |-
+          De toutes mes frayeurs,
+          le Seigneur me délivre.
+      content: |-
+        Je bénirai le Seigneur en tout temps,
+        sa louange sans cesse à mes lèvres.
+        Je me glorifierai dans le Seigneur :
+        que les pauvres m’entendent et soient en fête !
+
+        Magnifiez avec moi le Seigneur,
+        exaltons tous ensemble son nom.
+        Je cherche le Seigneur, il me répond :
+        de toutes mes frayeurs, il me délivre.
+
+        Qui regarde vers lui resplendira,
+        sans ombre ni trouble au visage.
+        Un pauvre crie ; le Seigneur entend :
+        il le sauve de toutes ses angoisses.
+
+        L’ange du Seigneur campe alentour
+        pour libérer ceux qui le craignent.
+        Goûtez et voyez : le Seigneur est bon !
+        Heureux qui trouve en lui son refuge !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 17, 20-26
+      headline: « Je veux que là où je suis, ils soient eux aussi avec moi »
+      acclamationAntiphon: |-
+        Je vous donne un commandement nouveau, dit le Seigneur :
+        « Aimez-vous les uns les autres,
+        comme je vous ai aimés. »
+      content: |-
+        En ce temps-là,
+        les yeux levés au ciel, Jésus priait ainsi :
+        « Père saint,
+        je ne prie pas seulement pour ceux qui sont là,
+        mais encore pour ceux qui, grâce à leur parole, croiront en moi.
+        Que tous soient un,
+        comme toi, Père, tu es en moi, et moi en toi.
+        Qu’ils soient un en nous, eux aussi,
+        pour que le monde croie que tu m’as envoyé.
+        Et moi, je leur ai donné la gloire que tu m’as donnée,
+        pour qu’ils soient un comme nous sommes UN :
+        moi en eux, et toi en moi.
+        Qu’ils deviennent ainsi parfaitement un,
+        afin que le monde sache que tu m’as envoyé,
+        et que tu les as aimés comme tu m’as aimé.
+        Père,
+        ceux que tu m’as donnés,
+        je veux que là où je suis,
+        ils soient eux aussi avec moi,
+        et qu’ils contemplent ma gloire,
+        celle que tu m’as donnée
+        parce que tu m’as aimé avant la fondation du monde.
+        Père juste,
+        le monde ne t’a pas connu,
+        mais moi, je t’ai connu,
+        et ceux-ci ont reconnu
+        que tu m’as envoyé,
+        Je leur ai fait connaître ton nom,
+        et je le ferai connaître,
+        pour que l’amour dont tu m’as aimé soit en eux,
+        et que moi aussi, je sois en eux. »
+        Acclamons la Parole de Dieu.
+  offeringPrayer: null
+  communionAntiphon: null
+  prayerAfterCommunion: null

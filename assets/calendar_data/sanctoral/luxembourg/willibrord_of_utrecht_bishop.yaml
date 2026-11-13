@@ -1,12 +1,62 @@
 celebration:
   title: Saint Willibrord
   subtitle: évêque, patron secondaire du Luxembourg
+  description: Le moine anglais Willibrord fut envoyé évangéliser la Frise (690). Après avoir été ordonné évêque à Rome, il fixa son siège épiscopal à Utrecht (696). C’est lui qui fonda l’abbaye d’Echternach, où il mourut en 739. Son culte y est demeuré populaire, notamment par la célèbre procession dansante du mardi après la Pentecôte.
   commons:
     - pastors_bishop
   color: white
 
+oration:
+  - Seigneur Dieu, tu as choisi l’évêque saint Willibrord pour annoncer ta gloire aux nations et fortifier nos ancêtres dans la foi ; à sa prière, accorde-nous de persévérer dans ta volonté, afin qu’au long des jours, le peuple dévoué à ton service augmente en nombre et grandisse en sainteté.
+
 mass:
 - massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Si 45, 24
+    content: |-
+      Le Seigneur a conclu avec saint Willibrord une alliance de paix.
+      >Il l’a établi chef du sanctuaire
+      pour que lui appartienne à jamais
+      >la dignité du sacerdoce.
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as choisi l’évêque saint Willibrord
+    >pour annoncer ta gloire aux nations
+    >et fortifier nos ancêtres dans la foi ; *
+    à sa prière, accorde-nous
+    >de persévérer dans ta volonté, /
+    afin qu’au long des jours,
+    >le peuple dévoué à ton service
+    >augmente en nombre et grandisse en sainteté.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Regarde, Seigneur,
+    >les offrandes apportées à ton autel
+    >en souvenir de saint Willibrord ; *
+    de même que tu as fait de lui
+    >un ouvrier infatigable dans ta vigne,
+    accorde-nous, par la puissance de ce sacrifice, /
+    >de porter des fruits en abondance.
+    Par le Christ, notre Seigneur.
+  communionAntiphon:
+  - biblicalReference: Jn 15, 4-5
+    content: |-
+      Demeurez en moi comme moi en vous, dit le Seigneur.
+      >Celui qui demeure en moi et en qui je demeure,
+      celui-là porte beaucoup de fruit.
+  prayerAfterCommunion:
+  - |-
+    Dieu tout-puissant, +
+    >grâce au dévouement de l’évêque saint Willibrord,
+    >tu nous as introduits dans le bercail de ton Église ; *
+    après nous avoir rassasiés de cette nourriture divine,
+    >accorde-nous de parvenir, avec notre pasteur, /
+    >aux joies de la vie éternelle.
+    Par le Christ, notre Seigneur.
   readingParts:
   - partType: READING_1
     partContents:

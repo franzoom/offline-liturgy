@@ -7,24 +7,60 @@ epiphanyDate: day
 ascensionDate: thursday
 corpusDominiDate: sunday
 
+  # Saints Cyrille et Méthode (14 fév.), Catherine de Sienne (29 avril), Benoît (11 juil.),
+  # Brigitte (23 juil.) et Thérèse-Bénédicte de la Croix (9 août), tous Fête au Luxembourg
+  # (Missel du Luxembourg, pp.1337-1341), sont déjà élevés au rang de Fête (précédence 8)
+  # par assets/locations/europe.yaml, dont le Luxembourg hérite — pas d'entrée à dupliquer ici.
 feasts:
-  irmina_religious: #à vérifier
+  irmina_religious: #OK (lectures + oraison, Missel du Luxembourg p.1337)
     month: 1
-    day: 3
-    precedence: 12
-  willibrord_of_utrecht_bishop:
-    month: 11
-    day: 7
-    precedence: 4
-  kunigunde_of_empress:
-    month: 3
     day: 3
     precedence: 12
   our_lady_consoler_of_the_afflicted: #OK
     relativeTo: EASTER
     shift: 34 #saturday after 4th Sunday of Easter
     precedence: 4
-  our_lord_jesus_christ_eternal_priest: #OK
+  our_lord_jesus_christ_eternal_priest: #Fête du Seigneur — Missel p.1339, voir la messe votive n°3, p.1164
     relativeTo: PENTECOST
     shift: 4
+    precedence: 5
+  henry_ii_emperor_and_cunegonde_empress: #OK (lectures + oraison, Missel du Luxembourg p.1340) — remplace l'ancienne entrée kunigunde_of_empress (3 mars), erronée : date correcte au Luxembourg = 13 juillet, Mémoire, avec saint Henri
+    month: 7
+    day: 13
     precedence: 10
+  blessed_schecelin_hermit: #OK (oraison, Missel du Luxembourg p.1341) — pas de lectures, aucune source trouvée
+    month: 8
+    day: 11
+    precedence: 12
+  clare_of_assisi_virgin: #mémoire facultative au Luxembourg (roman/, precedence 10) — pas de fichier local, Missel p.747
+    month: 8
+    day: 11
+    precedence: 12
+  dedication_of_the_cathedral: #OK — Missel du Luxembourg p.1342 ; Solennité dans la cathédrale elle-même, Fête ailleurs au pays (non modélisable ici)
+    month: 8
+    day: 29
+    precedence: 8
+  lambert_of_maastricht_bishop_martyr: #OK (lectures + oraison, Missel du Luxembourg p.1343) — propre distinct de celui de Belgique (17 sept.)
+    month: 9
+    day: 18
+    precedence: 12
+  dedication_of_consecrated_churches: #OK
+    relativeTo: LAST_SUNDAY_OF_OCTOBER
+    precedence: 4
+  hubert_of_liege_bishop: #OK (lectures + oraison, Missel du Luxembourg p.1344) — propre distinct de celui de Belgique
+    month: 11
+    day: 3
+    precedence: 12
+  willibrord_of_utrecht_bishop: #OK (lectures + oraison + antiennes, Missel du Luxembourg pp.1344-1348) — préface propre non reprise (notation musicale)
+    month: 11
+    day: 7
+    precedence: 8
+
+move:
+  passion_of_saint_john_the_baptist: #OK — reporté du 29 au 30 août au Luxembourg à cause de la Dédicace de la cathédrale, Missel p.1342
+    month: 8
+    day: 30
+    precedence: 10
+
+delete:
+  - henry_ii_emperor #OK — remplacé par henry_ii_emperor_and_cunegonde_empress (nom de fichier différent, donc pas de remplacement automatique par date identique)

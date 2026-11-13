@@ -1,13 +1,30 @@
 celebration:
   title: Sainte Irmine
   subtitle: religieuse
-  description: 
+  description: Irmine est issue d’une famille de la noblesse franque, les Théodard, qui ont fondé l’abbaye de Wissembourg (Alsace). Après la mort de son époux, elle entra au monastère d’Oeren, près de Trèves, dont elle allait devenir l’abbesse. Avec les biens et les revenus dont elle hérita de sa famille, elle fonda et dota des églises et des monastères. Par la donation de ses possessions d’Echternach au moine anglo-saxon saint Willibrord, elle est à l’origine de la célèbre abbaye bénédictine. Elle mourut vers 710 et fut enterrée à Wissembourg.
   color: white
   commons:
     - saints-female_religious
 
+oration:
+  - Seigneur Dieu, tu as choisi sainte Irmine pour fonder des lieux de prière et contribuer aux travaux apostoliques de saint Willibrord ; fais que, par son intercession, des hommes et des femmes se mettent toujours au service de l’Évangile par la prière et la charité.
+
 mass:
 - massType: DAY_MASS
+  collect:
+  - |-
+    Seigneur Dieu, +
+    >tu as choisi sainte Irmine
+    >pour fonder des lieux de prière
+    >et contribuer aux travaux apostoliques
+    >de saint Willibrord ; *
+    fais que, par son intercession,
+    >des hommes et des femmes
+    >se mettent toujours au service de l’Évangile /
+    >par la prière et la charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
   readingParts:
   - partType: READING_1
     partContents:

@@ -1,0 +1,108 @@
+celebration:
+  title: Saint Hubert
+  subtitle: évêque
+  description: Hubert succéda en 705 à saint Lambert comme évêque de Maastricht. Il travailla, lui aussi, à l’évangélisation du Brabant et des Ardennes, catéchisant le peuple et détruisant les cultes païens. Il mourut à Tervuren en 727 et fut inhumé à Liège dans l’église des Saints-Apôtres. La date de sa célébration évoque la translation de ses reliques en 825 au monastère ardennais qui prit son nom. Il est le patron des chasseurs. Au Luxembourg, il est titulaire de beaucoup d’églises.
+  color: white
+  commons:
+    - pastors_bishop
+
+oration:
+  - Lumière des fidèles et pasteur des âmes, Dieu qui as mis saint Hubert à la tête de ton peuple, pour le nourrir de sa parole et le guider par son exemple, accorde-nous, à son intercession, de garder la foi qu’il sut transmettre et de suivre le chemin qu’il a tracé.
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Lumière des fidèles et pasteur des âmes, +
+    >Dieu qui as mis saint Hubert
+    >à la tête de ton peuple,
+    pour le nourrir de sa parole
+    >et le guider par son exemple, *
+    accorde-nous, à son intercession,
+    >de garder la foi qu’il sut transmettre /
+    >et de suivre le chemin qu’il a tracé.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: 2Co 4, 1-2.5-7
+      headline: |-
+        « Ce que nous proclamons, c’est Jésus Christ le Seigneur ; et nous sommes vos serviteurs, à cause de Jésus »
+      content: |-
+        Frères,
+        nous, les Apôtres,
+        ayant reçu ce ministère par la miséricorde de Dieu,
+        >nous ne perdons pas courage :
+        nous avons rejeté toute dissimulation honteuse,
+        >nous n’agissons pas avec ruse,
+        >et nous ne falsifions pas la parole de Dieu.
+        Au contraire, nous manifestons la vérité,
+        >et ainsi nous nous recommandons nous-mêmes
+        >à toute conscience humaine devant Dieu.
+        Ce que nous proclamons,
+        >ce n’est pas nous-mêmes ;
+        c’est ceci : Jésus Christ est le Seigneur ;
+        >et nous sommes vos serviteurs, à cause de Jésus.
+        Car Dieu qui a dit :
+        >Du milieu des ténèbres brillera la lumière,
+        a lui-même brillé dans nos cœurs
+        >pour faire resplendir la connaissance de sa gloire
+        >qui rayonne sur le visage du Christ.
+        Mais ce trésor, nous le portons
+        >comme dans des vases d’argile ;
+        ainsi, on voit bien que cette puissance extraordinaire
+        >appartient à Dieu et ne vient pas de nous.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 88 (89), 2-3, 4-5, 21-22, 25.27
+      refAbbr: cf. 88, 2a
+      chorus:
+      - chorusRef: cf. 88, 2a
+        content: |-
+          Ton amour, Seigneur,
+          sans fin je le chante !
+      content: |-
+        L’amour du Seigneur, sans fin je le chante ;
+        ta fidélité, je l’annonce d’âge en âge.
+        Je le dis : C’est un amour bâti pour toujours ;
+        ta fidélité est plus stable que les cieux.
+
+        « Avec mon élu, j’ai fait une alliance,
+        j’ai juré à David, mon serviteur :
+        j’établirai ta dynastie pour toujours,
+        je te bâtis un trône pour la suite des âges.
+
+        « J’ai trouvé David, mon serviteur,
+        je l’ai sacré avec mon huile sainte ;
+        et ma main sera pour toujours avec lui,
+        mon bras fortifiera son courage.
+
+        « Mon amour et ma fidélité sont avec lui,
+        mon nom accroît sa vigueur ;
+        il me dira : “Tu es mon Père,
+        mon Dieu, mon roc et mon salut !” »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 23, 8-12
+      headline: |-
+        « Le plus grand parmi vous sera votre serviteur »
+      acclamationAntiphon: |-
+        Vous n’avez qu’un seul Père,
+        celui qui est aux cieux ;
+        vous n’avez qu’un seul maître, le Christ.
+      acclamationAntiphonReference: cf. Mt 23, 9b.10b
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Ne vous faites pas donner le titre de Rabbi,
+        >car vous n’avez qu’un seul maître pour vous enseigner,
+        >et vous êtes tous frères.
+        Ne donnez à personne sur terre le nom de père,
+        >car vous n’avez qu’un seul Père, celui qui est aux cieux.
+        Ne vous faites pas non plus donner le titre de maîtres,
+        >car vous n’avez qu’un seul maître, le Christ.
+        Le plus grand parmi vous sera votre serviteur.
+        Qui s’élèvera sera abaissé,
+        >qui s’abaissera sera élevé. »

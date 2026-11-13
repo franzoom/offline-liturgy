@@ -1421,6 +1421,49 @@
     "dir": "sanctoral",
     "title": "Saint Winoc"
   },
+  "luxembourg/blessed_schecelin_hermit": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Schecelin"
+  },
+  "luxembourg/dedication_of_consecrated_churches": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace des églises"
+  },
+  "luxembourg/dedication_of_the_cathedral": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace de la cathédrale"
+  },
+  "luxembourg/henry_ii_emperor_and_cunegonde_empress": {
+    "color": "white",
+    "commons": [
+      "saints-male_married",
+      "saints-female_married"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Henri et sainte Cunégonde"
+  },
+  "luxembourg/hubert_of_liege_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Hubert"
+  },
   "luxembourg/irmina_religious": {
     "color": "white",
     "commons": [
@@ -1428,6 +1471,15 @@
     ],
     "dir": "sanctoral",
     "title": "Sainte Irmine"
+  },
+  "luxembourg/lambert_of_maastricht_bishop_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr",
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Lambert"
   },
   "luxembourg/our_lady_consoler_of_the_afflicted": {
     "color": "white",

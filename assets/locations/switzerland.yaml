@@ -12,7 +12,7 @@ feasts:
     month: 5
     day: 8
     precedence: 12
-  fidelis_of_sigmaringen_priest_martyr_switzerland: #OK (lectures) — même date que roman/fidelis_of_sigmaringen_priest, duplique tant que le code n'applique pas move: avant feasts:
+  fidelis_of_sigmaringen_priest: #OK (lectures) — même clé que roman/fidelis_of_sigmaringen_priest : remplace la mémoire facultative romaine (12) par l'obligatoire suisse (10) au lieu de s'y ajouter
     month: 4
     day: 24
     precedence: 10
@@ -28,7 +28,7 @@ feasts:
     month: 10
     day: 16
     precedence: 10
-  charles_borromeo_bishop_switzerland: #OK — même date que roman/charles_borromeo_bishop, duplique tant que le code n'applique pas move: avant feasts:
+  charles_borromeo_bishop: #OK — même clé que roman/charles_borromeo_bishop : remplace la mémoire facultative romaine (12) par l'obligatoire suisse (10) au lieu de s'y ajouter
     month: 11
     day: 4
     precedence: 10

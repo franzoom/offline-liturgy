@@ -11,6 +11,12 @@ oration:
 
 mass:
 - massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Saint Pons a délaissé les facilités de la richesse,
+      >il s'est détourné des séductions du monde,
+      il est allé jsuqu'au martyre
+      >pour défendre sa foi.
   collect:
   - |-
     Seigneur, +
@@ -22,6 +28,14 @@ mass:
     Par Jésus Christ, ton Fils, notre Seigneur, +
     >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
     >Dieu, pour les siècles des siècles.
+  offeringPrayer:
+  - |-
+    Dieu de clémence, +
+    >répands ta bénédiction sur nos offrandes, *
+    rends-nous fermes dans la foi /
+    >que saint Pons défendit
+    >jusqu'à répandre son sang pour toi.
+    Par le Christ notre Seigneur.
   communionAntiphon:
   - biblicalReference: Jn 15, 5
     content: |-

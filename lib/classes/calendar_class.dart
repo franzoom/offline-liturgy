@@ -121,8 +121,9 @@ class Calendar {
   /// Adds a date related to another one: for example
   /// Notre-Dame de Fourvière on the Saturday after the 2nd Sunday of Easter
   /// The shift parameter specifies the number of days to offset from the requested date.
-  String addItemRelatedToFeast(DateTime date, int shift, int precedence,
-      String feastName, {Set<String>? knownCodes}) {
+  String addItemRelatedToFeast(
+      DateTime date, int shift, int precedence, String feastName,
+      {Set<String>? knownCodes}) {
     return addItemToDay(date.shift(shift), precedence, feastName,
         knownCodes: knownCodes);
   }
@@ -155,6 +156,30 @@ class Calendar {
     }
 
     log('move: no feast named "$feastName" in the calendar, ignored',
+        name: 'Calendar', level: 900);
+    return null;
+  }
+
+  /// Removes a feast from the calendar outright, searching by base name
+  /// (prefix-agnostic, like [moveItemToDate]). Used when a location replaces
+  /// an inherited feast (Roman, or from a parent location) with its own —
+  /// one or several entries under different keys, possibly on different
+  /// dates — rather than relocating it: [moveItemToDate] always keeps the
+  /// original key, so it cannot be used to make way for a differently-named
+  /// local file.
+  ///
+  /// Returns the qualified key removed (e.g. `roman/cornelius_i_pope_and_cyprian_of_carthage_bishop_martyrs`),
+  /// or null if no matching entry was found anywhere in the calendar.
+  String? deleteItem(String feastName) {
+    final base = _baseName(feastName);
+    for (final day in calendarData.values) {
+      final found = _findByBaseName(day, base);
+      if (found == null) continue;
+      _removeFeast(day, found);
+      return found.key;
+    }
+
+    log('delete: no feast named "$feastName" in the calendar, ignored',
         name: 'Calendar', level: 900);
     return null;
   }

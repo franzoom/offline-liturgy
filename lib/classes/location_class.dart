@@ -137,6 +137,7 @@ class Location {
   final String? corpusDominiDate;
   final List<LocationFeast> feasts;
   final List<LocationFeast> moveFeasts;
+  final List<String> deleteFeasts;
 
   const Location({
     required this.id,
@@ -150,6 +151,7 @@ class Location {
     this.corpusDominiDate,
     required this.feasts,
     this.moveFeasts = const [],
+    this.deleteFeasts = const [],
   });
 
   factory Location.fromYaml(String id, String yamlContent) {
@@ -174,6 +176,9 @@ class Location {
       corpusDominiDate: doc['corpusDominiDate'] as String?,
       feasts: parseSection('feasts'),
       moveFeasts: parseSection('move'),
+      deleteFeasts: (doc['delete'] as YamlList? ?? const [])
+          .map((e) => e.toString())
+          .toList(),
     );
   }
 
@@ -182,6 +187,13 @@ class Location {
     Map<String, DateTime> liturgicalMainFeasts, {
     Set<String> knownCodes = const {},
   }) {
+    // Removing an unwanted inherited feast (Roman, or from a parent
+    // location) runs first, so a differently-named local file added or
+    // moved into place below is never mistaken for the one just deleted.
+    for (final feastName in deleteFeasts) {
+      calendar.deleteItem(feastName);
+    }
+
     for (final feast in feasts) {
       final key = '$id/${feast.key}';
       for (final d in feastDates(feast, liturgicalMainFeasts)) {

@@ -34,6 +34,27 @@
   so the location's own differently-named file can take over without the two
   coexisting in `feastList`.
 
+  ## Location picker (locationTree) pruning
+  `LiturgyData.locationTree` (consumed by the Flutter location-picker UI) is `buildLocationTree()`
+  pruned by `pruneUnavailableLocations()` to drop nodes with nothing usable, using the ids listed in
+  `assets/calendar_data/validated_locations.json` — a flat JSON array **precomputed by
+  `scripts/make_index.py`** (`compute_validated_locations()`), not decided at runtime: `pruneUnavailableLocations()`
+  itself is a plain tree filter (own id in the set, or a surviving descendant). The Python side decides
+  which ids qualify: a location with its own non-empty `sanctoral/<id>/` folder always does; one with
+  none (diocese files that only override an inherited feast's precedence/date via `move:`/`feasts:`,
+  e.g. `basel.yaml`, `lausanne_geneva_fribourg.yaml`, `sion_saint_maurice.yaml`) qualifies only if EVERY
+  one of its `move:`/`feasts:` entries resolves without a file of its own — inherited from an ancestor's
+  own folder or from `common_feasts.yaml`'s universal list, mirroring how `Calendar.addItemToDay`/
+  `moveItemToDate` actually resolve a bare key at runtime. One unresolved (dead-reference) entry drops
+  the whole location. This is why most French diocese files (mostly dead references, filled in piecemeal
+  — see sanctoral-national-readings branch history) stay hidden from the picker even though their YAML
+  exists: `applyToCalendar()` still runs for them if directly selected (e.g. by id), only the picker's
+  visibility is gated. **Re-run `scripts/make_index.py`** (regenerates `index.json` *and*
+  `validated_locations.json` together) after adding a sanctoral subdirectory, same as before, **and now
+  also after editing any location's `feasts:`/`move:` section** — otherwise the picker reflects a stale
+  decision. The script prints a `NOTE:` line per location listing exactly which entries are dead
+  references, for spotting incomplete diocese files without checking the app.
+
   ## Two liturgical years always built
   `getCalendar()` always builds year N + year N+1 to avoid boundary issues.
 

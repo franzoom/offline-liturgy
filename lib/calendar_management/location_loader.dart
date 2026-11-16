@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'package:yaml/yaml.dart';
 import '../classes/calendar_class.dart';
 import '../classes/location_class.dart';
@@ -11,14 +12,14 @@ class LiturgyData {
   final List<LocationFeast> commonFeasts;
   final Map<String, Location> locationData;
   final Set<String> knownCodes;
-  final Set<String> availableSanctoralIds;
+  final Set<String> validatedLocationIds;
 
   // Not const: locationTree below is computed once, on first access.
   LiturgyData({
     required this.commonFeasts,
     required this.locationData,
     this.knownCodes = const {},
-    this.availableSanctoralIds = const {},
+    this.validatedLocationIds = const {},
   });
 
   /// For unit tests that verify calendar structure without feast data.
@@ -26,7 +27,7 @@ class LiturgyData {
       : commonFeasts = const [],
         locationData = const {},
         knownCodes = const {},
-        availableSanctoralIds = const {};
+        validatedLocationIds = const {};
 
   /// Loads from the filesystem — for CLI/Dart use.
   static Future<LiturgyData> load() =>
@@ -34,10 +35,12 @@ class LiturgyData {
 
   /// Loads via a [DataLoader] — for Flutter where assets go through rootBundle.
   static Future<LiturgyData> loadFromDataLoader(DataLoader loader) async {
-    final (commonFeastsYaml, fileNames, index) = await (
+    final (commonFeastsYaml, fileNames, index, validatedLocationsJson) =
+        await (
       loader.loadYaml('calendar_data/common_feasts.yaml'),
       loader.listFiles('locations/'),
       celebrationDirIndex(loader),
+      loader.loadJson('calendar_data/validated_locations.json'),
     ).wait;
 
     final results = await Future.wait(
@@ -57,20 +60,32 @@ class LiturgyData {
       commonFeasts: _parseFeastsFromYaml(commonFeastsYaml),
       locationData: locationData,
       knownCodes: index.keys.toSet(),
-      availableSanctoralIds:
-          await _availableSanctoralIds(loader, locationData.keys),
+      validatedLocationIds: _parseValidatedLocations(validatedLocationsJson),
     );
   }
 
   /// The location hierarchy built from the loaded YAML files, pruned to only
-  /// the nodes that have usable sanctoral data (see [pruneUnavailableLocations]).
+  /// the nodes that have usable data (see [pruneUnavailableLocations]).
+  /// [validatedLocationIds] is precomputed by `scripts/make_index.py` (see
+  /// CLAUDE.md, "Location picker (locationTree) pruning") rather than
+  /// recomputed here, so this is a simple filter, not the actual decision.
   /// Built once, on first access: the data it derives from never changes.
   late final List<LocationNode> locationTree = List.unmodifiable(
     pruneUnavailableLocations(
       buildLocationTree(locationData.values.toList()),
-      availableSanctoralIds,
+      validatedLocationIds,
     ),
   );
+}
+
+/// Parses `validated_locations.json`: a flat JSON array of location ids. An
+/// empty or malformed file yields an empty set, same as a missing one — the
+/// location picker then shows nothing rather than guessing.
+Set<String> _parseValidatedLocations(String jsonContent) {
+  if (jsonContent.isEmpty) return const {};
+  final decoded = jsonDecode(jsonContent);
+  if (decoded is! List) return const {};
+  return decoded.whereType<String>().toSet();
 }
 
 List<LocationFeast> _parseFeastsFromYaml(String yamlContent) {
@@ -82,20 +97,6 @@ List<LocationFeast> _parseFeastsFromYaml(String yamlContent) {
     for (final e in feastMap.entries)
       LocationFeast.fromYaml(e.key as String, e.value),
   ];
-}
-
-/// Returns the ids among [locationIds] that have at least one file directly
-/// under `calendar_data/sanctoral/<id>/`. The listings are independent, so
-/// they run in parallel.
-Future<Set<String>> _availableSanctoralIds(
-    DataLoader loader, Iterable<String> locationIds) async {
-  final ids = locationIds.toList();
-  final listings = await Future.wait(
-      ids.map((id) => loader.listFiles('calendar_data/sanctoral/$id/')));
-  return {
-    for (int i = 0; i < ids.length; i++)
-      if (listings[i].isNotEmpty) ids[i],
-  };
 }
 
 /// Applies the universal Roman Calendar feasts to [calendar].

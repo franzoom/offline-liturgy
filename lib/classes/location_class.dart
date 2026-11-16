@@ -255,11 +255,20 @@ List<LocationNode> buildLocationTree(List<Location> locations) {
 }
 
 /// Recursively drops nodes with no usable data: a node survives only if its
-/// own id is in [availableIds] (it has a non-empty `sanctoral/<id>/` folder)
-/// or at least one of its descendants survives. Applied uniformly at every
-/// geography level, so an orphaned country/continent branch with no data of
-/// its own and no valid children (e.g. one with no diocese filled in yet)
-/// is dropped along with the unusable dioceses.
+/// own id is in [availableIds] or at least one of its descendants survives.
+/// Applied uniformly at every geography level, so an orphaned
+/// country/continent branch with no data of its own and no valid children
+/// (e.g. one with no diocese filled in yet) is dropped along with the
+/// unusable dioceses.
+///
+/// [availableIds] is precomputed by `scripts/make_index.py`
+/// (`validated_locations.json`) rather than derived here: a location with
+/// its own non-empty `sanctoral/<id>/` folder always qualifies, and one with
+/// none (a diocese file that only re-ranks or relocates an inherited feast
+/// via `move:`/`feasts:`, e.g. `basel.yaml`) qualifies only if EVERY one of
+/// those entries resolves without a file of its own. See CLAUDE.md,
+/// "Location picker (locationTree) pruning", for why that decision needs the
+/// full location/common-feasts data rather than just the pruned tree shape.
 List<LocationNode> pruneUnavailableLocations(
   List<LocationNode> nodes,
   Set<String> availableIds,

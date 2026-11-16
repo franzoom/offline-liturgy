@@ -1,8 +1,8 @@
-// Vérifie pruneUnavailableLocations() : un diocèse (ou tout autre nœud de
-// localisation) sans dossier sanctoral/<id>/ correspondant n'a aucune donnée
-// exploitable — voir CLAUDE.md et lib/classes/location_class.dart pour le
-// contexte complet (Location.applyToCalendar préfixe toujours les clés de
-// fête par l'id de la localisation, sans repli sur un dossier partagé).
+// Vérifie pruneUnavailableLocations() : un nœud de localisation sans id dans
+// l'ensemble fourni (validated_locations.json en pratique — voir
+// scripts/make_index.py et CLAUDE.md, "Location picker (locationTree)
+// pruning") n'a aucune donnée exploitable, à moins qu'un de ses descendants
+// en ait.
 
 import 'package:test/test.dart';
 import 'package:offline_liturgy/offline_liturgy.dart';
@@ -68,6 +68,22 @@ void main() {
       final pruned = pruneUnavailableLocations(tree, {'lyon'});
 
       expect(pruned.map((n) => n.location.id), ['france']);
+    });
+
+    test('keeps a diocese with no own folder once validated externally', () {
+      // basel.yaml has no sanctoral/basel/ folder — it only overrides an
+      // inherited feast's precedence via move:/feasts:. Whether that
+      // qualifies is decided by scripts/make_index.py, not by this
+      // function: here it only has to honor whatever set it is given.
+      final tree = [
+        _node(_location('switzerland', LocationGeography.country), [
+          _node(_location('basel', LocationGeography.diocese)),
+        ]),
+      ];
+
+      final pruned = pruneUnavailableLocations(tree, {'switzerland', 'basel'});
+
+      expect(pruned.single.children.map((n) => n.location.id), ['basel']);
     });
   });
 }

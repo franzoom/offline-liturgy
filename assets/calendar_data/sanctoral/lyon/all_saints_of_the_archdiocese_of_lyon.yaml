@@ -1,0 +1,152 @@
+celebration:
+  title: Tous les saints du diocèse de Lyon
+  description: |-
+    Honorer les saints de notre diocèse, c’est reconnaître ce que nous leur devons et ce que nous attendons d’eux : qu’ils ne cessent d’être pour nous des intercesseurs aimants et de fermes soutiens. Nous unissons dans une même fête non seulement les plus illustres et les plus populaires de nos saints, ceux qu’honore notre diocèse dans sa liturgie locale et dans ses pèlerinages, dont nos bourgs, nos villages, nos églises et nous-mêmes bien souvent, portons le nom ; mais aussi la foule innombrable de ceux que le Seigneur a accueillis auprès de lui au terme d’une vie toute donnée à Dieu et au prochain.
+  commons:
+    - pastors
+  locative: à Lyon
+  color: white
+
+oration:
+  - Dieu éternel et tout-puissant, tu nous donnes des preuves nouvelles de ton amour quand tu fais partager ta gloire aux saints du ciel ; permets que le secours de leur prière et la force de leur exemple nous aident à devenir semblables à ton Fils. Lui qui vit et règne pour les siècles de siècles.
+
+readings:
+  patristicReading:
+    - title: du 2^e Concile du Vatican (LG 50)
+      subtitle: Les Saints, habitants du Ciel, sont nos compagnons d’humanité
+
+      content: |-
+        Contempler la vie des hommes qui ont suivi fidèlement le Christ est un nouveau stimulant à rechercher la Cité à venir (cf. Hb 13,14 et 11,10), et en même temps nous apprenons par là à connaître le chemin très sûr par lequel, à travers les vicissitudes du monde et selon l’état et la condition propre à chacun, il nous sera possible de parvenir à l’union parfaite avec le Christ, c’est-à-dire à la sainteté. Dans la vie de nos compagnons d’humanité plus parfaitement transformés à l’image du Christ, Dieu manifeste aux hommes dans une vive lumière sa présence et son visage. En eux, Dieu lui-même nous parle, il nous donne un signe de son royaume et nous y attire puissamment, tant est grande la nuée de témoins qui nous enveloppe (cf. Hb 12,1) et tant la vérité de l’Évangile se trouve attestée. 
+        Mais nous ne vénérons pas seulement au titre de leur exemple la mémoire des habitants du ciel ; nous cherchons bien davantage par là à renforcer l’union de toute l’Église dans l’Esprit grâce à l’exercice de la charité fraternelle (cf. Ep 4, 1-6). Car tout comme la communion entre les chrétiens de la terre nous approche de plus près du Christ, ainsi la communauté avec les saints nous unit au Christ, de qui découlent, comme de leur source et de leur tête, toute grâce et la vie du peuple de Dieu lui-même. Il est donc au plus haut point convenable que nous aimions ces amis et cohéritiers de Jésus Christ, nos frères aussi et nos insignes bienfaiteurs, que nous rendions à Dieu pour eux l’action de grâce qui lui est due, « que nous les invoquions avec ardeur, recourant à leurs prières, à leur secours et à leur aide pour obtenir de Dieu par son Fils Jésus Christ, notre seul Rédempteur et Sauveur, les bienfaits dont nous avons besoin », Car, par sa nature même, tout témoignage authentique d’amour que nous présentons aux habitants du ciel, tend, comme vers son terme, au Christ « couronne de tous les saints » et par lui à Dieu qui est admirable en ses saints et glorifié en eux.
+
+      responsory: |-
+        R/ Enveloppés d’une si grande nuée de témoins,
+        fixons nos regards sur le Christ.
+
+        Ils aspiraient à une patrie meilleure ;
+        C’est pourquoi Dieu n’a pas honte
+        de s’appeler leur Dieu,
+        car il leur a préparé une ville.
+
+        En mourant ils ont salué de loin la promesse,
+        car Dieu prévoyait pour nous un sort meilleur ;
+
+        Aussi ne devaient-ils pas
+        atteindre sans nous la perfection.
+
+morning:
+  evangelicAntiphon:
+    common:
+      - Ils se tiennent plein d’assurance ; ils sont comptés parmi les fils de Dieu.
+vespers:
+  evangelicAntiphon:
+    common:
+      - Ils ont achevé leur course ; ils ont mené le bon combat.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Ap 19,5-7
+    content: |-
+      Célébrez notre Dieu, serviteurs du Seigneur,
+      >vous tous qui le craignez, petits et grands.
+      Il règne, notre Dieu, le Seigneur tout-puissant.
+      Exultons ! Pleins de joie, rendons-lui gloire.
+  collect:
+  - |-
+    Dieu éternel et tout-puissant,
+    tu nous donnes des preuves nouvelles de ton amour
+    >quand tu fais partager ta gloire aux saints du ciel ;
+    Permets que le secours de leur prière
+    >et la force de leur exemple
+    >nous aident à devenir semblables à ton Fils.
+    Lui qui vit et règnes avec toi, sans l’unité du Saint-Esprit,
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Ep 3, 14-19
+      headline: |-
+        « Vous connaîtrez ce qui dépasse toute connaissance : l’amour du Christ »
+      content: |-
+        Frères,
+        je tombe à genoux devant le Père,
+        >de qui toute paternité au ciel et sur la terre tient son nom.
+        Lui qui est si riche en gloire,
+        qu’il vous donne la puissance de son Esprit,
+        >pour que se fortifie en vous l’homme intérieur.
+        Que le Christ habite en vos cœurs par la foi ;
+        >restez enracinés dans l’amour, établis dans l’amour.
+        Ainsi vous serez capables de comprendre avec tous les fidèles
+        >quelle est la largeur, la longueur, la hauteur, la profondeur...
+        Vous connaîtrez ce qui dépasse toute connaissance :
+        >l’amour du Christ.
+        Alors vous serez comblés
+        >jusqu’à entrer dans toute la plénitude de Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 130 (131), 1, 2, 3
+      chorus:
+      - chorusRef: null
+        content: |-
+          Garde mon âme dans la paix
+          près de toi, Seigneur.
+      content: |-
+        Seigneur, je n’ai pas le cœur fier
+        ni le regard ambitieux ;
+        je ne poursuis ni grands desseins,
+        ni merveilles qui me dépassent.
+
+        Non, mais je tiens mon âme
+        égale et silencieuse ;
+        mon âme est en moi comme un enfant,
+        comme un petit enfant contre sa mère.
+
+        Attends le Seigneur, Israël,
+        maintenant et à jamais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 5, 13-16
+      headline: |-
+        « Vous êtes la lumière du monde »
+      acclamationAntiphon: |-
+        Moi, je suis la lumière du monde, dit le Seigneur.
+        Celui qui me suit aura la lumière de la vie.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        >« Vous êtes le sel de la terre.
+        Mais si le sel devient fade,
+        >comment lui rendre de la saveur ?
+        Il ne vaut plus rien :
+        >on le jette dehors et il est piétiné par les gens.
+        Vous êtes la lumière du monde.
+        Une ville située sur une montagne
+        >ne peut être cachée.
+        Et l’on n’allume pas une lampe
+        >pour la mettre sous le boisseau ;
+        >on la met sur le lampadaire,
+        >et elle brille pour tous ceux qui sont dans la maison.
+        De même, que votre lumière brille devant les hommes :
+        >alors, voyant ce que vous faites de bien,
+        >ils rendront gloire à votre Père qui est aux cieux. »
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, les présents de ton peuple ;
+    Et tandis que nous rappelons l’amour infini de ton Fils,
+    fais que nous sachions, à l’exemple des saints lyonnais,
+    >t’aimer et aimer notre prochain
+    >d’un cœur plus généreux.
+  communionAntiphon:
+  - biblicalReference: Ps 67,4
+    content: |-
+      Au banquet du Seigneur les justes sont en fête,
+      >en sa présence ils débordent d’allégresse.
+  prayerAfterCommunion:
+  - |-
+    Par cette communion à la table du Ciel,
+    renouvelle et multiplie en nous, Dieu tout-puissant,
+    et en tous ceux qui célèbrent les saints de l’Église de Lyon,
+    >les énergies qui viennent d’en haut :
+    aide-nous à garder le don de la foi dans son intégrité,
+    >et à suivre leurs pas sur le chemin du salut /

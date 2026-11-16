@@ -104,10 +104,11 @@ void main() {
     });
   });
 
-  group('a feast with no Mass of its own (dedication of Lyon cathedral)', () {
+  group('a feast with no Mass of its own (Saint Romanus, patron of Monaco)',
+      () {
     late CelebrationContext saint;
-    setUpAll(() async => saint = (await massesOn(DateTime(2026, 10, 24), 'lyon',
-            'lyon/dedication_of_the_cathedral_of_saint_john_the_baptist'))
+    setUpAll(() async => saint = (await massesOn(
+            DateTime(2029, 8, 9), 'monaco', 'monaco/romanus_martyr'))
         .saint);
 
     test('offers no reading choice, but uses its Common', () {

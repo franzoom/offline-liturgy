@@ -118,8 +118,11 @@
   assets/ (data files)
     calendar_data/
       common_feasts.yaml               # 200+ universal Roman feasts with month/day/precedence
-      ferial_days/                     # ot_N_D.yaml / advent_N_D.yaml / lent_N_D.yaml / easter_N_D.yaml (season_week_day)
-      special_days/                    # nativity, holy_thursday, holy_friday, easter, pentecost, advent_17–24, christmas_26–31, etc.
+      ferial_days/                     # ot_N_D.yaml / advent_N_D.yaml / lent_N_D.yaml / easter_N_D.yaml (season_week_day);
+                                       # also holds the flat-named exceptions advent_17–24.yaml / christmas_26–31.yaml.
+                                       # There is no separate special_days/ folder: Holy Thursday/Friday/Saturday are
+                                       # just aliases (lib/tools/constants.dart) for their ordinary Lent ferial codes
+                                       # (lent_6_4/5/6), and Nativity/Pentecost live in sanctoral/roman/.
       commons/                         # hierarchical commons: apostles / martyrs / pastors / pastors_bishop… + seasonal variants (_advent, _christmas, _lent, _paschal)
       complines/                       # compline by weekday + seasonal variants
       sanctoral/                       # individual saint YAML files

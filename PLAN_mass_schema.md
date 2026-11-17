@@ -1,5 +1,12 @@
 # Refonte de la clé `mass:` des fichiers YAML (Phase 1)
 
+## Statut : ✅ Terminée
+
+Vérifié a posteriori : plus aucune occurrence de `sundayAndWeekCycles` dans `assets/`/`lib/`,
+`easter_1_0.yaml` contient exactement un `massType: EASTER_VIGIL` et un `massType: DAY_MASS`.
+Les phases suivantes (2, 3, 4) sont elles aussi terminées — voir `PLAN_mass_class.md`,
+`PLAN_mass_pipeline.md` et `aelf-flutter/docs/mass.md`.
+
 ## Context
 
 Le package `offline_liturgy` doit désormais gérer les textes des messes, pas seulement l'Office. La clé `mass:` existe déjà dans 388 fichiers (`ferial_days/`, quelques `sanctoral/roman/*.yaml` pour les grandes solennités) et une classe `Mass`/`Masses` existe dans `lib/classes/mass_class.dart`, mais rien n'est branché sur le pipeline `offices/` ni sur l'app Flutter.

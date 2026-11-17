@@ -62,7 +62,7 @@ When a location adds a feast, the calendar (`Calendar.addItemToDay()`) checks wh
 
 One exception: if the new qualified key has no content file of its own (it is absent from `index.json`, i.e. from `LiturgyData.knownCodes`), the existing key is kept and only its precedence is updated. A location can thus raise a Roman feast's rank (e.g. to a solemnity for a patron saint) without duplicating its content file.
 
-Example: `europe/benedict_of_nursia_abbot` (precedence 5) overrides `roman/benedict_of_nursia_abbot` (precedence 10) automatically when Europe's feasts are applied.
+Example: `europe/benedict_of_nursia_abbot` (precedence 8) overrides `roman/benedict_of_nursia_abbot` (precedence 10) automatically when Europe's feasts are applied.
 
 ## The `feasts:` section
 

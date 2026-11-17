@@ -158,7 +158,6 @@ Each office is a Dart class with typed fields:
 
 ```dart
 class Morning {
-  Celebration? celebration;
   Invitatory? invitatory;          // Opening psalm + antiphon
   List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;      // Psalms with antiphons
@@ -168,7 +167,7 @@ class Morning {
   Psalm? evangelicCanticle;        // Benedictus
   Intercession? intercession;
   List<String>? oration;
-  List<String>? canticleSvgData;   // Benedictus tone scores, when svgSource is set
+  List<String>? canticleSvgData;   // Benedictus tone scores, when psalmTones is set
 }
 ```
 
@@ -182,7 +181,6 @@ Same structure as Morning, with `Magnificat` as the evangelic canticle. Vespers 
 
 ```dart
 class Readings {
-  Celebration? celebration;
   List<HymnEntry>? hymn;
   List<PsalmEntry>? psalmody;
   String? verse;
@@ -197,6 +195,7 @@ class Readings {
 
 ```dart
 class Compline {
+  String? commentary;          // e.g. "no complines today"
   String? celebrationType;     // normal day, solemnity or eve of a solemnity
   List<HymnEntry>? hymns;
   List<PsalmEntry>? psalmody;

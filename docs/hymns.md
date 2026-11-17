@@ -76,18 +76,7 @@ If the celebration has a selected common, it is loaded (hierarchically, see the 
 
 The celebration's proper YAML is loaded by `morningExtract` (or the vespers/readings equivalent) and always applied with `overlayWith`, whatever the precedence: its `hymn` field, if defined, replaces the current one.
 
-### 4. Special case: Holy Week (Lauds and Office of Readings)
-
-In `morning_export.dart` and `readings_export.dart`, if `hymn` is still `null` after all overlays and the celebration is a Holy Week day (`holyWeekCodes`), Passion hymns are injected:
-```dart
-if (morningOffice.hymn == null &&
-    holyWeekCodes.contains(celebrationContext.celebrationCode)) {
-  morningOffice.hymn =
-      await getHymnsForSeason("passion", celebrationContext.dataLoader);
-}
-```
-
-### 5. Hydration
+### 4. Hydration
 
 At this point `hymn` only contains codes (`HymnEntry.code`). `resolveOfficeContent()` (`lib/tools/resolve_office_content.dart`) then loads each text from `assets/hymns/*.yaml` through `HymnsLibrary` (cached), and stores it in `HymnEntry.hymnData`. The same mechanism, with another folder, resolves the Mass sequences and solemn blessings.
 

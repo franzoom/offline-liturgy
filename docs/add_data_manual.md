@@ -131,9 +131,12 @@ Liste des codes `relativeTo` disponibles :
 | `HOLY_TRINITY` | Sainte Trinité |
 | `CORPUS_DOMINI` | Saint Sacrement (Fête-Dieu) |
 | `SACRED_HEART` | Sacré-Cœur |
-| `saint_john_the_baptist` | Nativité de saint Jean-Baptiste (date éventuellement décalée) |
-| `saint_pieter_and_saint_paul` | Saints Pierre et Paul (date éventuellement décalée) |
+| `SAINT_JOHN_THE_BAPTIST` | Nativité de saint Jean-Baptiste (date éventuellement décalée) |
+| `SAINT_PIETER_AND_SAINT_PAUL` | Saints Pierre et Paul (date éventuellement décalée) |
 | `CHRIST_KING` | Christ Roi |
+| `LAST_SUNDAY_OF_OCTOBER` | ex. dédicace des églises consacrées (France, Belgique) |
+| `SECOND_MONDAY_OF_OCTOBER` | ex. Action de grâce (Canada) |
+| `FIRST_MONDAY_OF_SEPTEMBER` | ex. Fête du travail (Canada) |
 
 ### La section `move:`
 
@@ -301,6 +304,7 @@ Liste des communs disponibles :
 | `pastors_missionary` | un pasteur missionnaire |
 | `saints` | saints en général |
 | `saints_doctors` | un docteur de l'Église (hérite de `saints`) |
+| `virgins_doctors` | une vierge docteur de l'Église |
 | `saints-female` | saintes femmes |
 | `saints-female_caritative` | une sainte au service caritatif |
 | `saints-female_educator` | une sainte éducatrice |
@@ -317,7 +321,7 @@ Liste des communs disponibles :
 | `saints-male_religious` | un religieux |
 | `saints-male_religious_abbot` | un abbé |
 | `saints-male_religious_monk` | un moine |
-| `trespassed` | défunts (`trespassed_close` : un proche ; `trespassed_multiple` : plusieurs défunts) |
+| `trespassed` | défunts (`trespassed_paschal` : variante au Temps pascal) |
 | `virgin-mary` | la Vierge Marie |
 | `virgins` | vierges |
 | `virgins_multiple` | plusieurs vierges |
@@ -610,29 +614,34 @@ Une **liste** d'entrées `partType` + `partContents`, une entrée par lecture/ps
 
 | `partType` | Sens |
 |---|---|
-| `READING` | 1ʳᵉ ou 2ᵉ lecture |
-| `EPISTLE` | épître, quand distinguée d'une lecture ordinaire dans le texte source |
+| `READING_1` | 1ʳᵉ lecture (la quasi-totalité des fichiers — 726 occurrences) |
+| `READING_2` | 2ᵉ lecture, les dimanches et grandes fêtes (104 occurrences) |
+| `EPISTLE` | épître, uniquement quand le texte source la distingue explicitement d'une lecture ordinaire (1 seule occurrence — `READING_1`/`READING_2` restent la convention par défaut) |
 | `PSALM` | psaume responsorial, ou cantique quand un cantique le remplace |
+| `ALLELUIA` | verset(s) d'Alléluia séparés de l'évangile — voir ci-dessous |
 | `GOSPEL` | évangile |
 
-`partContents` est elle-même une liste, presque toujours à **une seule entrée** : elle n'en contient plusieurs que pour un véritable choix « ou bien » entre deux lectures alternatives (jamais pour une forme brève, voir plus bas). Selon `partType`, chaque entrée attend :
+`partContents` est elle-même une liste. Pour `READING_1`/`READING_2`/`PSALM`/`GOSPEL`, elle est presque toujours à **une seule entrée** : elle n'en contient plusieurs que pour un véritable choix « ou bien » entre deux lectures alternatives (jamais pour une forme brève, voir plus bas). Pour `ALLELUIA`, elle contient très souvent **plusieurs** entrées — plusieurs versets au choix (ex. `commons/pastors.yaml`), chacun avec son propre `biblicalRef`/`content` ; l'application en choisit un (pas de mécanisme de cycle dédié ici). Selon `partType`, chaque entrée attend :
 
-| Champ | `READING`/`EPISTLE` | `PSALM` | `GOSPEL` |
-|---|---|---|---|
-| `biblicalRef` | ✓ | ✓ | ✓ |
-| `refAbbr` (référence abrégée affichée, ex. `Ps 97, 1…` — toujours préfixée du nom du livre) | | ✓ | |
-| `headline` (citation entre guillemets, ex. « Tous les lointains de la terre... ») | ✓ | | ✓ |
-| `chorus` (liste de `chorusRef` + `chorus`, le refrain répété) | | ✓ | |
-| `acclamationAntiphon` (texte du verset d'Alléluia) | | | ✓ |
-| `acclamationAntiphonReference` (référence biblique du verset d'Alléluia, si distincte de celle de l'évangile) | | | ✓ |
-| `content` | ✓ | ✓ | ✓ |
-| `shortReadingRef` + `shortReadingContent` (forme brève) | ✓ | | |
-| `shortBiblicalRef` + `shortContent` (forme brève) | | | ✓ |
-| `cycle` (liste optionnelle, ex. `['1']`/`['2']` en semaine ou `['A']`/`['B']`/`['C']` un dimanche — le sens est déterminé par le contexte, pas par le YAML) | ✓ | ✓ | ✓ |
+| Champ | `READING_1`/`READING_2`/`EPISTLE` | `PSALM` | `ALLELUIA` | `GOSPEL` |
+|---|---|---|---|---|
+| `biblicalRef` | ✓ | ✓ | ✓ | ✓ |
+| `refAbbr` (référence abrégée affichée, ex. `Ps 97, 1…` — toujours préfixée du nom du livre) | | ✓ | | |
+| `headline` (citation entre guillemets, ex. « Tous les lointains de la terre... ») | ✓ | | | ✓ |
+| `chorus` (liste de `chorusRef` + `chorus`, le refrain répété) | | ✓ | | |
+| `acclamationAntiphon` (texte du verset d'Alléluia, *inline* sur l'évangile — voir ci-dessous) | | | | ✓ |
+| `acclamationAntiphonReference` (référence biblique du verset d'Alléluia, si distincte de celle de l'évangile) | | | | ✓ |
+| `content` | ✓ | ✓ | ✓ | ✓ |
+| `shortReadingRef` + `shortReadingContent` (forme brève) | ✓ | | | |
+| `shortBiblicalRef` + `shortContent` (forme brève) | | | | ✓ |
+| `cycle` (liste optionnelle, ex. `['1']`/`['2']` en semaine ou `['A']`/`['B']`/`['C']` un dimanche — le sens est déterminé par le contexte, pas par le YAML) | ✓ | ✓ | | ✓ |
 
 **Important** : la forme brève se met **sur le même item** que la forme longue (`shortBiblicalRef`/`shortContent` en plus de `biblicalRef`/`content`, jamais comme un second élément de la liste `partContents`) — sinon l'application affiche un faux « ou bien : » suivi d'un bloc vide.
 
-Il n'y a pas de `partType` séparé pour l'Alléluia : son texte va dans `acclamationAntiphon`, à l'intérieur de l'entrée `GOSPEL` — l'application ajoute elle-même les rubriques « Alléluia, alléluia. » / « Alléluia. » autour.
+Deux conventions coexistent pour l'Alléluia, selon qu'il a son propre texte pour cette messe précise ou qu'il vient d'un Commun offrant plusieurs versets au choix :
+- un `partType: ALLELUIA` séparé, à une ou plusieurs entrées (la convention majoritaire dans les `commons/*.yaml` — ex. `pastors.yaml`) ;
+- `acclamationAntiphon` directement sur l'entrée `GOSPEL`, quand un seul verset est propre à cette messe précise.
+L'application ajoute elle-même les rubriques « Alléluia, alléluia. » / « Alléluia. » autour, quelle que soit la convention utilisée.
 
 ##### Ponctuation liturgique des textes de messe
 

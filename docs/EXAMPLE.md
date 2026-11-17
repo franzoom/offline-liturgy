@@ -175,7 +175,7 @@ Key fields read by `morningExport`:
 | `precedence` | Determines merge strategy (full replacement vs overlay) |
 | `liturgicalTime` | Seasonal adjustments (Gloria, alleluia, etc.) |
 | `liturgicalYear` (fallback: `date.year`) | Liturgical year A/B/C for evangelic antiphon |
-| `svgSource` | Optional: loads the psalm-tone SVG scores |
+| `psalmTones` | Optional: loads the psalm-tone SVG scores |
 | `dataLoader` | Asset loading |
 | `showImprecatoryVerses` | Whether bracketed psalm verses are included |
 
@@ -183,7 +183,6 @@ Key fields read by `morningExport`:
 
 ```dart
 class Morning {
-  Celebration?           celebration;       // Title, description, commons… of the celebration
   Invitatory?            invitatory;        // Opening psalm + antiphon
   List<HymnEntry>?       hymn;              // Hymn(s) — hymnData is populated
   List<PsalmEntry>?      psalmody;          // Psalms — psalmData is populated
@@ -193,7 +192,7 @@ class Morning {
   Psalm?                 evangelicCanticle; // Benedictus (always populated)
   Intercession?          intercession;      // Intercessions text
   List<String>?          oration;           // Concluding prayer
-  List<String>?          canticleSvgData;   // Benedictus tone scores (only with svgSource)
+  List<String>?          canticleSvgData;   // Benedictus tone scores (only with psalmTones)
 }
 ```
 
@@ -267,7 +266,7 @@ All offices follow the identical two-step pattern:
 
 Detection returns `Map<String, CelebrationContext>`. Export takes a `CelebrationContext` and returns the office-specific class (`Vespers`, `Readings`, `MiddleOfDay`, `Mass`).
 
-**Mass:** `massDetection()` returns one entry per celebration *and* Mass (e.g. Christmas' four Masses), each with `massName` set. For a memorial, `useProperReadingsForMemorial: true` in `copyWith()` selects the feast's own readings instead of the day's.
+**Mass:** `massDetection()` returns one entry per celebration *and* Mass (e.g. Christmas' four Masses), each with `massName` set. For a memorial, `massReadingSource: MassReadingSource.proper` (or `.all`) in `copyWith()` selects the feast's own readings instead of the day's — see `massReadingSources` on the detected `CelebrationContext` for which sources it actually offers.
 
 **Exception — Compline:** detection returns `Map<String, ComplineDefinition>` (not `CelebrationContext`) and does not use a ferial base layer. The `ComplineDefinition` is passed directly to `complineExport()`.
 

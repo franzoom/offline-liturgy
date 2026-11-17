@@ -110,7 +110,7 @@ calendar.addItemToDay(d, feast.precedence!, '$id/${feast.key}',
 The Marian memory (optional memorial on ordinary Saturdays) is injected directly:
 
 ```dart
-allCelebrations.add((code: 'roman/virgin-mary-memory', precedence: 12, ...));
+allCelebrations.add((code: 'roman/virgin_mary_memory', precedence: 12, ...));
 ```
 
 ## Ferial resolution — privileged days
@@ -166,7 +166,7 @@ This is the method called by `Location.applyToCalendar()` for the `move:` sectio
 
 **Precedence-only override (no own YAML file)**
 
-A location can change the precedence of a Roman feast without providing its own YAML content. For example, `france.yaml` declares `louis_ix_of_france` with `precedence: 10` to elevate the feast from the Roman value of 12 — but there is no `sanctoral/france/louis_ix_of_france.yaml`.
+A location can change the precedence of a Roman feast without providing its own YAML content. For example, `france.yaml` declares `louis_ix_of_france` with `precedence: 11` to elevate the feast from the Roman value of 12 — but there is no `sanctoral/france/louis_ix_of_france.yaml`.
 
 When `addItemToDay` is called with `france/louis_ix_of_france` and `knownCodes` is provided, it checks whether `france/louis_ix_of_france` is in the index. Since it is not, it keeps `roman/louis_ix_of_france` as the stored key and only moves the entry to the new precedence bucket. The YAML file path therefore remains valid.
 

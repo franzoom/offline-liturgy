@@ -1,3 +1,4 @@
+import '../assets/libraries/psalms_library.dart';
 import '../classes/hour_prayer_class.dart';
 import '../classes/office_elements_class.dart';
 import '../classes/psalms_class.dart';
@@ -91,7 +92,7 @@ Future<void> completeHourPrayer(
 }) async {
   final liturgicalTime = context.liturgicalTime ?? '';
   final psalmTones = context.psalmTones;
-  final (_, canticleSvg) = await (
+  final (_, canticleSvg, latinCanticle) = await (
     resolveOfficeContent(
       psalmody: office.psalmody,
       invitatory: invitatory,
@@ -103,6 +104,7 @@ Future<void> completeHourPrayer(
     psalmTones
         ? context.dataLoader.load('$psalmTonesFilePath/$canticleSvgCode.svg')
         : Future.value(''),
+    latinCanticlesLibrary.get(canticleSvgCode, context.dataLoader),
   ).wait;
 
   office.evangelicAntiphon = filterEvangelicAntiphon(
@@ -111,7 +113,7 @@ Future<void> completeHourPrayer(
   applyPaschalToPsalmody(office.psalmody, liturgicalTime);
   office.evangelicAntiphon =
       applyPaschalToAntiphonMap(office.evangelicAntiphon, liturgicalTime);
-  office.evangelicCanticle = canticle;
+  office.evangelicCanticle = canticle.withLatin(latinCanticle);
   if (canticleSvg.isNotEmpty) office.canticleSvgData = [canticleSvg];
 }
 

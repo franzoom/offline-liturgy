@@ -10,6 +10,10 @@ class Psalm {
   final String? shortReference;
   final String? commentary;
   final String content;
+  // The Latin variant of this text (currently only set for the evangelic
+  // canticles: Magnificat, Benedictus, Nunc dimittis), offered as an
+  // alternative display, never merged into [content].
+  final Psalm? latin;
 
   const Psalm({
     this.title,
@@ -18,6 +22,7 @@ class Psalm {
     this.shortReference,
     this.commentary,
     required this.content,
+    this.latin,
   });
 
   factory Psalm.fromMap(Map<String, dynamic> data) {
@@ -39,6 +44,19 @@ class Psalm {
       shortReference: shortReference,
       commentary: commentary,
       content: content.replaceAll(_imprecatoryBlock, ''),
+      latin: latin,
+    );
+  }
+
+  Psalm withLatin(Psalm? latin) {
+    return Psalm(
+      title: title,
+      subtitle: subtitle,
+      biblicalReference: biblicalReference,
+      shortReference: shortReference,
+      commentary: commentary,
+      content: content,
+      latin: latin,
     );
   }
 }

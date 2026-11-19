@@ -35,10 +35,15 @@ Future<void> resolveOfficeContent({
   if (psalmody != null) {
     psalmTasks.addAll(
       psalmody.where((e) => e.psalm != null && e.psalmData == null).map(
-            (e) => psalmsLibrary
-                .get(e.psalm!, dataLoader)
-                .then((result) => e.psalmData = result),
-          ),
+        (e) async {
+          final (french, hebrew, greek) = await (
+            psalmsLibrary.get(e.psalm!, dataLoader),
+            hebrewPsalmsLibrary.get(e.psalm!, dataLoader),
+            greekCanticlesLibrary.get(e.psalm!, dataLoader),
+          ).wait;
+          e.psalmData = french?.withHebrew(hebrew).withGreek(greek);
+        },
+      ),
     );
     if (psalmTones) {
       psalmTasks.addAll(
@@ -59,10 +64,16 @@ Future<void> resolveOfficeContent({
     final inv = invitatory!;
     if (inv.psalmsData == null) {
       psalmTasks.add(
-        Future.wait(
-                invPsalms.map((code) => psalmsLibrary.get(code, dataLoader)))
-            .then((results) =>
-                inv.psalmsData = results.whereType<Psalm>().toList()),
+        Future.wait(invPsalms.map((code) async {
+          final (french, hebrew, greek) = await (
+            psalmsLibrary.get(code, dataLoader),
+            hebrewPsalmsLibrary.get(code, dataLoader),
+            greekCanticlesLibrary.get(code, dataLoader),
+          ).wait;
+          return french?.withHebrew(hebrew).withGreek(greek);
+        })).then(
+          (results) => inv.psalmsData = results.whereType<Psalm>().toList(),
+        ),
       );
     }
     if (psalmTones && inv.psalmsSvgData == null) {

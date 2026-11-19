@@ -2,6 +2,7 @@ import '../../classes/compline_class.dart';
 import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
+import '../../assets/libraries/psalms_library.dart';
 import '../../assets/usual_texts.dart';
 import 'compline_extract.dart';
 
@@ -21,8 +22,14 @@ Future<Compline> complineExport(ComplineDefinition choice) async {
     showImprecatoryVerses: choice.showImprecatoryVerses,
   );
 
-  // 3. Assign the evangelic canticle (Nunc Dimittis)
-  compline.evangelicCanticle = nuncDimittis;
+  // 3. Assign the evangelic canticle (Nunc Dimittis), with its Latin and
+  // Greek text
+  final (latinNuncDimittis, greekNuncDimittis) = await (
+    latinCanticlesLibrary.get('NT_3', dataLoader),
+    greekCanticlesLibrary.get('NT_3', dataLoader),
+  ).wait;
+  compline.evangelicCanticle =
+      nuncDimittis.withLatin(latinNuncDimittis).withGreek(greekNuncDimittis);
 
   // 4. Apply paschal alléluia to psalm antiphons and evangelic antiphon
   applyPaschalToPsalmody(compline.psalmody, choice.liturgicalTime);
@@ -45,14 +52,20 @@ Future<Compline> _complineText(
 
   // Layer 3: solemnity/time override
   final (String? overridePath, String overrideDay) = switch (ct) {
-    'holy_thursday' || 'holy_friday' || 'holy_saturday' => ('$_base/lent.yaml', ct),
+    'holy_thursday' || 'holy_friday' || 'holy_saturday' => (
+        '$_base/lent.yaml',
+        ct
+      ),
     'solemnity' || 'solemnityeve' => switch (time) {
-        'paschaloctave' || 'paschaltime' => ('$_base/solemnity_paschal.yaml', day),
+        'paschaloctave' || 'paschaltime' => (
+            '$_base/solemnity_paschal.yaml',
+            day
+          ),
         'lent' => ('$_base/solemnity_lent.yaml', day),
-        'advent' ||
-        'christmas' ||
-        'christmasoctave' =>
-          ('$_base/solemnity_advent_christmas.yaml', day),
+        'advent' || 'christmas' || 'christmasoctave' => (
+            '$_base/solemnity_advent_christmas.yaml',
+            day
+          ),
         _ => ('$_base/solemnity_ot.yaml', day),
       },
     _ => switch (time) {
@@ -82,13 +95,13 @@ Future<Compline> _complineText(
   // can't rely on liturgicalTime, which is still today's 'advent'; the
   // day's own value is 'nativity'. So do the octave's Saturday and Sunday
   // Complines.
-  final layers = def.celebrationCode == 'roman/nativity' ||
-          time == 'christmasoctave'
-      ? [('$_base/christmas.yaml', day)]
-      : [
-          if (intermediatePath != null) (intermediatePath, day),
-          if (overridePath != null) (overridePath, overrideDay),
-        ];
+  final layers =
+      def.celebrationCode == 'roman/nativity' || time == 'christmasoctave'
+          ? [('$_base/christmas.yaml', day)]
+          : [
+              if (intermediatePath != null) (intermediatePath, day),
+              if (overridePath != null) (overridePath, overrideDay),
+            ];
 
   final complines = await Future.wait([
     complineExtract('$_base/default.yaml', day, dataLoader),

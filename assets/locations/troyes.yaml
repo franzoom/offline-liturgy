@@ -1,0 +1,173 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Troyes
+frenchLocative: dans le diocèse de Troyes
+
+# Source: "Messes propres du diocèse de Troyes", approuvé par la Sacrée
+# Congrégation pour les Sacrements et le Culte divin le 16 septembre 1975,
+# imprimatur Mgr André Fauchet le 10 novembre 1975.
+feasts:
+  potentien_bishop_and_serotin_deacon_martyrs:
+    month: 1
+    day: 4
+    precedence: 10
+  frobert_abbot:
+    month: 1
+    day: 8
+    precedence: 12
+  # Also in Canada (where she is from here) — a sibling location, not an
+  # ancestor, so the "no own file" sharing trick doesn't apply: this
+  # diocese has its own file, from its own text. This exemplar has
+  # "obligatoire" handwritten over the printed "facultative".
+  marguerite_bourgeoys:
+    month: 1
+    day: 12
+    precedence: 11
+  germaine_of_bar_sur_aube_virgin_and_martyr:
+    month: 1
+    day: 19
+    precedence: 12
+  parre_of_troyes_martyr:
+    month: 1
+    day: 22
+    precedence: 12
+  savinien_of_troyes_martyr:
+    month: 1
+    day: 29
+    precedence: 12
+  aventin_of_troyes_abbot:
+    month: 2
+    day: 4
+    precedence: 12
+  victor_of_plancy_priest:
+    month: 2
+    day: 26
+    precedence: 12
+  # Also in Nanterre/Paris (same saint, Barbe Avrillot) — likewise a
+  # sibling location, so this diocese has its own file too.
+  marie_of_the_incarnation_acarie_religious:
+    month: 4
+    day: 18
+    precedence: 12
+  robert_of_molesme_abbot:
+    month: 4
+    day: 30
+    precedence: 12
+  prudence_of_troyes_bishop:
+    month: 5
+    day: 6
+    precedence: 10
+  mathie_helene_exuperance_syre_and_evronie_virgins:
+    month: 5
+    day: 7
+    precedence: 12
+  vinebaud_abbot:
+    month: 5
+    day: 8
+    precedence: 12
+  lye_abbot:
+    month: 5
+    day: 24
+    precedence: 12
+  holy_shroud_of_the_lord:
+    month: 6
+    day: 20
+    precedence: 12
+  thibaud_of_provins_priest:
+    month: 7
+    day: 1
+    precedence: 12
+  holy_bishops_of_troyes:
+    month: 7
+    day: 6
+    precedence: 10
+  # Fête in the diocese (solennité only at the cathedral itself) — tout au
+  # Commun, no proper text of its own.
+  dedication_of_the_cathedral_of_troyes:
+    month: 7
+    day: 9
+    precedence: 8
+  # Uncertain relationship between the two: the booklet gives one combined
+  # historical notice ("ces martyrs périrent décapités là où s'élevait
+  # jadis une chapelle sous le vocable de sainte Jule"), no degree stated,
+  # no Mass text found (printed page 35 is missing from the scan).
+  jule_virgin_and_claude_and_companions_martyrs:
+    month: 7
+    day: 24
+    precedence: 12
+  stephanie_jeanne_verollot_virgin_and_martyr:
+    month: 7
+    day: 17
+    precedence: 12
+  camelien_bishop:
+    month: 7
+    day: 28
+    precedence: 12
+  loup_of_troyes_bishop:
+    month: 7
+    day: 29
+    precedence: 7
+  balseme_martyr:
+    month: 8
+    day: 18
+    precedence: 12
+  # Bernard is already universal (bernard_of_clairvaux_abbot); this diocese
+  # just raises it to a Fête with Gloria — "Comme au Missel Romain" for the
+  # rest, so no own file.
+  bernard_of_clairvaux_abbot:
+    month: 8
+    day: 20
+    precedence: 8
+  savine_of_troyes_virgin:
+    month: 9
+    day: 1
+    precedence: 12
+  claude_eustache_louis_joseph_and_pierre_nicolas_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  mesmin_deacon_and_companions_martyrs:
+    month: 9
+    day: 7
+    precedence: 12
+  maure_of_troyes_virgin:
+    month: 9
+    day: 22
+    precedence: 12
+  tanche_virgin_and_martyr:
+    month: 10
+    day: 10
+    precedence: 12
+  aderald_priest:
+    month: 10
+    day: 20
+    precedence: 12
+  our_lady_of_the_holy_hope:
+    month: 10
+    day: 23
+    precedence: 10
+  # dedication_of_consecrated_churches (25 October) is already inherited
+  # from france.yaml, same date — no entry needed here.
+  # Date conflict in the source itself: the calendar's narrative pages and
+  # the alphabetical table both say 6 November, but the Mass text page is
+  # headed "5 NOVEMBRE". Kept at 6, following the two independent listings.
+  relics_of_the_diocese_of_troyes:
+    month: 11
+    day: 6
+    precedence: 10
+  # Date conflict: the calendar's narrative page says 8 November, the
+  # alphabetical table says 7. Kept at 8 (the narrative page). No Mass
+  # text found for this entry (printed page 49 is missing from the scan).
+  all_saints_of_the_diocese_of_troyes:
+    month: 11
+    day: 8
+    precedence: 10
+
+move:
+  # The Congregation fixed Saint Martha's feast at 27 July for this
+  # diocese, because 29 July is Saint Loup's feast here.
+  martha_of_bethany_mary_of_bethany_and_lazarus_of_bethany:
+    month: 7
+    day: 27
+    precedence: 10

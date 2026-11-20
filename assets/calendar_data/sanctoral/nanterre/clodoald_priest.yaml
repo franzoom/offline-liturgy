@@ -1,0 +1,90 @@
+celebration:
+  title: Saint Cloud
+  subtitle: prêtre
+  description: |-
+    Petit-fils de Clovis et de sainte Clotilde, Clodoald échappa au massacre qui coûta la vie à ses deux frères et se consacra au Seigneur. Devenu prêtre, il mourut en 560 à Nogent, où il avait fondé un monastère et qui prit depuis le nom de Saint-Cloud.
+  commons:
+    - pastors
+  color: white
+
+oration:
+  - |-
+    Seigneur, force de ceux qui croient en toi, tu as sauvé saint Cloud de la mort pour le consacrer à ton service ; accorde-nous, par son intercession, d’être fermes dans l’épreuve et de vivre sous ton regard.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Saint Cloud avait mis sa confiance dans le Seigneur ; il trouva en lui sa joie et son refuge.
+    collect:
+      - |-
+        Seigneur, force de ceux qui croient en toi, tu as sauvé saint Cloud de la mort pour le consacrer à ton service ; accorde-nous, par son intercession, d’être fermes dans l’épreuve et de vivre sous ton regard.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Si 51, 1-8
+            headline: |-
+              « Par la grandeur de ta miséricorde et de ton nom, tu m’as délivré »
+            content: |-
+              Je veux te rendre grâce, Seigneur mon roi,
+              je te louerai, Dieu mon sauveur.
+              Je rends grâce à ton nom :
+              tu as été pour moi un défenseur et un soutien.
+              Tu as délivré mon corps de la perdition,
+              du piège de la calomnie et des lèvres menteuses.
+              Face à mes adversaires,
+              tu as été mon soutien.
+              Par la grandeur de ta miséricorde et de ton nom,
+              tu m’as délivré des mâchoires qui allaient me dévorer,
+              des mains qui menaçaient ma vie,
+              de tourments innombrables,
+              du bûcher qui me suffoquait de toutes parts ;
+              tu m’as délivré d’un feu que je n’avais pas allumé,
+              du gouffre profond de la Mort,
+              de la langue impure et de la parole mensongère,
+              lorsqu’une langue injuste me calomniait auprès du roi.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 15 (16), 1-2a.5a.7-8.11
+            content: |-
+              Garde-moi, mon Dieu :
+              j’ai fait de toi mon refuge.
+              J’ai dit au Seigneur : « Tu es mon Dieu !
+              Je n’ai pas d’autre bonheur que toi. »
+
+              Je bénis le Seigneur qui me conseille :
+              même la nuit mon cœur m’avertit.
+              Je garde le Seigneur devant moi sans relâche ;
+              il est à ma droite : je suis inébranlable.
+
+              Seigneur, mon partage et ma coupe !
+              Tu m’apprends le chemin de la vie :
+              devant ta face, débordement de joie !
+              À ta droite, éternité de délices !
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Lc 12, 32-34
+            headline: |-
+              « Votre Père a trouvé bon de vous donner le Royaume »
+            acclamationAntiphon: |-
+              Heureux les pauvres de cœur,
+              car le royaume des Cieux est à eux !
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              « Sois sans crainte, petit troupeau :
+              votre Père a trouvé bon de vous donner le Royaume.
+              Vendez ce que vous possédez
+              et donnez-le en aumône.
+              Faites-vous des bourses qui ne s’usent pas,
+              un trésor inépuisable dans les cieux,
+              là où le voleur n’approche pas,
+              où la mite ne détruit pas.
+              Car là où est votre trésor,
+              là aussi sera votre cœur. »
+    offeringPrayer:
+      - |-
+        Accepte, Seigneur, le sacrifice de ton peuple ; nous l’offrons en l’honneur de ton prêtre saint Cloud pour te rendre gloire : qu’il nous obtienne aussi le salut.
+    prayerAfterCommunion:
+      - |-
+        Que cette communion à tes mystères, Seigneur, nous achemine vers les joies éternelles que saint Cloud put obtenir en te servant fidèlement.

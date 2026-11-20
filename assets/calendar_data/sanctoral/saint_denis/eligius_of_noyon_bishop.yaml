@@ -1,0 +1,76 @@
+celebration:
+  title: Saint Éloi
+  subtitle: évêque
+  description: |-
+    Né en Limousin vers 588, l’orfèvre Éloi orna les tombes de sainte Geneviève et de saint Denis avant de devenir monétaire de Clovis II puis trésorier de Dagobert. Élu évêque de Noyon en 641, il fonda le monastère de Solignac en Limousin et, à Paris, un monastère de femmes confié à l’abbesse Aure. Il mourut en 660.
+  commons:
+    - pastors_bishop
+  color: white
+
+oration:
+  - |-
+    Dieu, ami des hommes, toi qui as comblé l’évêque saint Éloi d’un admirable esprit de miséricorde, fais qu’en le vénérant comme le père des pauvres, nous sachions imiter sa charité envers les plus petits d’entre les tiens.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Ferme dans la foi et rempli de charité, saint Éloi a vécu en intendant fidèle. Aussi le Seigneur l’a-t-il fait entrer dans sa joie.
+    collect:
+      - |-
+        Dieu, ami des hommes, toi qui as comblé l’évêque saint Éloi d’un admirable esprit de miséricorde, fais qu’en le vénérant comme le père des pauvres, nous sachions imiter sa charité envers les plus petits d’entre les tiens.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 1 Co 3, 9b-11.16-17
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 111 (112), 1-9
+            content: |-
+              Heureux qui craint le Seigneur,
+              qui aime entièrement sa volonté !
+              Sa lignée sera puissante sur la terre ;
+              la race des justes est bénie.
+
+              Les richesses affluent dans sa maison :
+              à jamais se maintiendra sa justice.
+              Lumière des cœurs droits, il s’est levé dans les ténèbres,
+              homme de justice, de tendresse et de pitié.
+
+              L’homme de bien a pitié, il partage ;
+              il mène ses affaires avec droiture.
+              Cet homme jamais ne tombera ;
+              toujours on fera mémoire du juste.
+
+              Il ne craint pas l’annonce d’un malheur :
+              le cœur ferme, il s’appuie sur le Seigneur.
+              Son cœur est confiant, il ne craint pas :
+              il verra ce que valaient ses oppresseurs.
+
+              À pleines mains, il donne au pauvre ;
+              à jamais se maintiendra sa justice,
+              sa puissance grandira, et sa gloire !
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 9, 35-38
+            headline: |-
+              « La moisson est abondante, mais les ouvriers sont peu nombreux »
+            acclamationAntiphon: |-
+              Je suis le bon pasteur, dit le Seigneur ;
+              je connais mes brebis
+              et mes brebis me connaissent.
+            content: |-
+              En ce temps-là,
+              Jésus parcourait toutes les villes et tous les villages,
+              enseignant dans leurs synagogues,
+              proclamant l’Évangile du Royaume
+              et guérissant toute maladie et toute infirmité.
+              Voyant les foules, Jésus fut saisi de compassion envers elles
+              parce qu’elles étaient désemparées et abattues
+              comme des brebis sans berger.
+    offeringPrayer:
+      - |-
+        En ce jour où nous célébrons saint Éloi, Dieu tout-puissant, nous te supplions et nous déposons nos présents sur ton autel ; qu’ils servent à la louange de ta gloire et nous donnent les richesses de ta grâce.
+    prayerAfterCommunion:
+      - |-
+        Tu as refait nos forces à cette table sainte, Dieu tout-puissant ; donne-nous d’imiter l’exemple de saint Éloi en cherchant à te servir d’un cœur toujours fidèle, aimant tous les hommes avec une inlassable charité.

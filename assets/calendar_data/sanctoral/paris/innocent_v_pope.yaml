@@ -33,6 +33,11 @@ readings:
 
 mass:
   - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Dans un amour sans repentir le Seigneur a confié au pape Innocent V
+          >le ministère de la réconciliation,
+          >il en a fait dans son Église un artisan de paix.
     collect:
       - |-
         Dieu qui as enrichi le bienheureux Innocent V
@@ -45,3 +50,91 @@ mass:
         Par Jésus Christ, ton Fils, notre Seigneur, +
         >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
         >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Is 32, 15-18
+            content: |-
+              Jusqu’à ce que soit répandu sur nous l’esprit qui vient d’en haut.
+              Alors le désert deviendra un verger,
+              >et le verger sera pareil à une forêt.
+              Le droit habitera le désert,
+              >la justice résidera dans le verger.
+              L’œuvre de la justice sera la paix,
+              >et la pratique de la justice, le calme et la sécurité pour toujours.
+              Mon peuple habitera un séjour de paix,
+              >des demeures protégées, des lieux sûrs de repos.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 84 (85), 9ab.10-14
+            refAbbr: 84, 9…
+            chorus:
+              - chorusRef: 84, 10b
+                content: |-
+                  La gloire du Seigneur habitera notre terre.
+            content: |-
+              J’écoute : que dira le Seigneur Dieu ?
+              Ce qu’il dit, c’est la paix pour son peuple et ses fidèles.
+              Son salut est proche de ceux qui le craignent,
+              et la gloire habitera notre terre.
+
+              Amour et vérité se rencontrent,
+              justice et paix s’embrassent ;
+              la vérité germera de la terre
+              et du ciel se penchera la justice.
+
+              Le Seigneur donnera ses bienfaits,
+              et notre terre donnera son fruit.
+              La justice marchera devant lui,
+              et ses pas traceront le chemin.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 5, 38-48
+            headline: |-
+              « Aimez vos ennemis »
+            acclamationAntiphon: |-
+              En celui qui garde la parole du Christ
+              l’amour de Dieu atteint vraiment sa perfection.
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              « Vous avez appris qu’il a été dit :
+              Œil pour œil, et dent pour dent.
+              Eh bien ! moi, je vous dis de ne pas riposter au méchant ;
+              mais si quelqu’un te gifle sur la joue droite,
+              >tends-lui encore l’autre.
+              Et si quelqu’un veut te poursuivre en justice
+              >et prendre ta tunique,
+              >laisse-lui encore ton manteau.
+              Et si quelqu’un te réquisitionne pour faire mille pas,
+              >fais-en deux mille avec lui.
+              À qui te demande, donne ;
+              >à qui veut t’emprunter, ne tourne pas le dos !
+              Vous avez appris qu’il a été dit :
+              Tu aimeras ton prochain
+              >et tu haïras ton ennemi.
+              Eh bien ! moi, je vous dis :
+              Aimez vos ennemis,
+              >et priez pour ceux qui vous persécutent,
+              afin d’être vraiment les fils de votre Père qui est aux cieux ;
+              >car il fait lever son soleil sur les méchants et sur les bons,
+              >il fait tomber la pluie sur les justes et sur les injustes.
+              En effet, si vous aimez ceux qui vous aiment,
+              >quelle récompense méritez-vous ?
+              Les publicains eux-mêmes n’en font-ils pas autant ?
+              Et si vous ne saluez que vos frères,
+              >que faites-vous d’extraordinaire ?
+              Les païens eux-mêmes n’en font-ils pas autant ?
+              Vous donc, vous serez parfaits
+              >comme votre Père céleste est parfait. »
+    offeringPrayer:
+      - |-
+        Seigneur, tu as voulu que ton Fils donne sa vie pour réunir tes enfants dispersés ;
+        >par le sacrifice d’Alliance qui nous rassemble,
+        aide les hommes de ce temps à supprimer ce qui les oppose
+        >et à se traiter vraiment comme des frères.
+    prayerAfterCommunion:
+      - |-
+        Inspire-nous, Seigneur, toujours plus de charité,
+        afin qu’alimentés par le corps et le sang du Christ,
+        >nous fassions fructifier en ce monde la paix qu’il a lui-même donnée.

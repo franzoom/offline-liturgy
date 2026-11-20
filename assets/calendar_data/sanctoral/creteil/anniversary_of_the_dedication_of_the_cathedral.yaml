@@ -1,0 +1,63 @@
+celebration:
+  title: Dédicace de la cathédrale de Créteil
+  description: |-
+    L’église Notre-Dame de Créteil, inaugurée le 18 juin 1978, fut choisie comme cathédrale en avril 1987. Sa dédicace a été célébrée le 21 septembre 2003, à la date anniversaire de la consécration de la première cathédrale, Saint-Louis de Choisy, le 21 septembre 1760.
+  commons:
+    - dedicace_outside
+    - dedicace_inside
+  color: white
+
+oration:
+  - |-
+    Dieu qui choisis des pierres vivantes pour bâtir la demeure éternelle de ta gloire, fais abonder dans ton Église les fruits de l’Esprit que tu lui as donnés : que le peuple qui t’appartient ne cesse pas de progresser pour l’édification de la Jérusalem céleste.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - biblicalReference: Ap 21, 2
+        content: |-
+          J’ai vu la cité sainte, la Jérusalem nouvelle, qui descendait du ciel, d’auprès de Dieu, toute prête, comme une fiancée parée pour son époux.
+    collect:
+      - |-
+        Dieu qui choisis des pierres vivantes pour bâtir la demeure éternelle de ta gloire, fais abonder dans ton Église les fruits de l’Esprit que tu lui as donnés : que le peuple qui t’appartient ne cesse pas de progresser pour l’édification de la Jérusalem céleste.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Ap 7, 9-14
+          - biblicalRef: 1 P 2, 4-9
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 83 (84), 3-6a.8a.11cd-f
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 10, 22-30
+            headline: |-
+              « Le Père et moi, nous sommes UN »
+            acclamationAntiphon: |-
+              Mes brebis écoutent ma voix, dit le Seigneur ;
+              moi, je les connais, et elles me suivent.
+            content: |-
+              On célébrait la fête de la dédicace du Temple à Jérusalem.
+              C’était l’hiver.
+              Jésus allait et venait dans le Temple,
+              sous la colonnade de Salomon.
+              Les Juifs firent cercle autour de lui ;
+              ils lui disaient :
+              « Combien de temps vas-tu nous tenir en haleine ?
+              Si c’est toi le Christ, dis-le nous ouvertement ! »
+              Jésus leur répondit :
+              « Je vous l’ai dit, et vous ne croyez pas.
+              Les œuvres que je fais, moi, au nom de mon Père,
+              voilà ce qui me rend témoignage.
+              Mais vous, vous ne croyez pas,
+              parce que vous n’êtes pas de mes brebis.
+    offeringPrayer:
+      - |-
+        Accueille, Seigneur, le sacrifice que nous t’offrons, et donne à ceux qui te supplient dans ton Église d’être fortifiés par tes sacrements et de voir leurs prières exaucées.
+    communionAntiphon:
+      - biblicalReference: cf. 1 P 2, 5
+        content: |-
+          Nous sommes des pierres vivantes, qui servent à construire le Temple spirituel, le peuple sacerdotal qui appartient à Dieu.
+    prayerAfterCommunion:
+      - |-
+        Tu as voulu, Seigneur, que ton Église de la terre soit pour nous l’annonce de la Jérusalem céleste ; accorde-nous, par cette communion, d’être ici-bas le temple de ta grâce et d’entrer un jour dans la demeure de ta gloire.

@@ -597,6 +597,87 @@
     "dir": "ferial_days",
     "title": "en principe jamais utilisé (christmas_3_0)"
   },
+  "creteil/agoard_and_saint_aglibert_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saints Agoard et Aglibert"
+  },
+  "creteil/all_saints_of_the_diocese": {
+    "color": "white",
+    "commons": [
+      "saints"
+    ],
+    "dir": "sanctoral",
+    "title": "Tous les saints du diocèse de Créteil"
+  },
+  "creteil/anniversary_of_the_dedication_of_the_cathedral": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace de la cathédrale de Créteil"
+  },
+  "creteil/denis_of_paris_bishop_and_martyr": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Denis"
+  },
+  "creteil/genevieve_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Geneviève"
+  },
+  "creteil/isabelle_de_france_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Isabelle de France"
+  },
+  "creteil/joan_of_france_religious": {
+    "color": "white",
+    "commons": [
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Jeanne de France"
+  },
+  "creteil/louis": {
+    "color": "white",
+    "commons": [
+      "saints-male_married"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Louis"
+  },
+  "creteil/madeleine_sophie_barat_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Madeleine Sophie Barat"
+  },
+  "creteil/martyrs_of_paris": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux martyrs de Paris"
+  },
   "easter_1_0": {
     "commons": [
       "easter"
@@ -1839,6 +1920,102 @@
     "dir": "sanctoral",
     "title": "Saint Roman"
   },
+  "nanterre/charles_de_foucauld_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Charles de Foucauld"
+  },
+  "nanterre/clodoald_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Cloud"
+  },
+  "nanterre/daniel_brottier_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Daniel Brottier"
+  },
+  "nanterre/denis_of_paris_bishop_and_martyr": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Denis"
+  },
+  "nanterre/genevieve_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Geneviève"
+  },
+  "nanterre/germanus_of_auxerre_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Germain d’Auxerre"
+  },
+  "nanterre/isabelle_de_france_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Isabelle de France"
+  },
+  "nanterre/louis": {
+    "color": "white",
+    "commons": [
+      "saints-male_married"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Louis"
+  },
+  "nanterre/marie_of_the_incarnation_acarie_religious": {
+    "color": "white",
+    "commons": [
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Marie de l’Incarnation"
+  },
+  "nanterre/martyrs_of_paris": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux martyrs de Paris"
+  },
+  "nanterre/our_lady_of_boulogne": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Notre-Dame de Boulogne"
+  },
+  "nanterre/our_lady_of_good_deliverance": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Notre-Dame de Bonne Délivrance"
+  },
   "north-africa/alypius_and_possidius_bishops": {
     "color": "white",
     "commons": [
@@ -2302,6 +2479,22 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Louis, roi de France"
+  },
+  "paris/louise_de_marillac_religious": {
+    "color": "white",
+    "commons": [
+      "saints-female_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Louise de Marillac"
+  },
+  "paris/madeleine_sophie_barat_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Madeleine Sophie Barat"
   },
   "paris/marcellus_of_paris_bishop": {
     "color": "white",
@@ -4430,6 +4623,95 @@
     ],
     "dir": "sanctoral",
     "title": "Saints Viventiole et Hippolyte"
+  },
+  "saint_denis/all_saints_of_the_diocese": {
+    "color": "white",
+    "commons": [
+      "saints"
+    ],
+    "dir": "sanctoral",
+    "title": "Tous les saints du diocèse de Saint-Denis"
+  },
+  "saint_denis/anniversary_of_the_dedication_of_the_cathedral": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace de la cathédrale de Saint-Denis"
+  },
+  "saint_denis/denis_of_paris_bishop_and_martyr": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Denis"
+  },
+  "saint_denis/eligius_of_noyon_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Éloi"
+  },
+  "saint_denis/genevieve_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Geneviève"
+  },
+  "saint_denis/louis": {
+    "color": "white",
+    "commons": [
+      "saints-male_married"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Louis"
+  },
+  "saint_denis/marie_therese_de_soubiran_virgin": {
+    "color": "white",
+    "commons": [
+      "virgins"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureuse Marie-Thérèse de Soubiran"
+  },
+  "saint_denis/martyrs_of_paris": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux martyrs de Paris"
+  },
+  "saint_denis/our_lady_mediatrix": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Marie Médiatrice"
+  },
+  "saint_denis/our_lady_of_refuge": {
+    "color": "white",
+    "commons": [
+      "virgin-mary"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Marie, Refuge des pécheurs"
+  },
+  "saint_denis/owen_of_rouen_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Ouen"
   },
   "switzerland/charles_borromeo_bishop": {
     "color": "white",

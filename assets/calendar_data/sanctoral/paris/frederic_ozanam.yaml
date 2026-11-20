@@ -28,7 +28,11 @@ readings:
 
 mass:
   - massType: DAY_MASS
-    entranceAntiphon: null
+    entranceAntiphon:
+      - content: |-
+          Homme de pensée et d’action, Frédéric Ozanam demeure un modèle
+          >d’engagement courageux, capable de faire entendre une parole libre et exigeante
+          >dans la recherche de la vérité et la défense de la dignité de toute personne humaine.
     collect:
       - |-
         Dieu, tu as suscité le bienheureux Frédéric Ozanam,
@@ -154,3 +158,14 @@ mass:
               « Celui qui a fait preuve de pitié envers lui. »
               Jésus lui dit :
               « Va, et toi aussi, fais de même. »
+    offeringPrayer:
+      - |-
+        Grâce à l’offrande qui t’est présentée, Seigneur,
+        >en la fête du bienheureux Frédéric Ozanam,
+        daigne accorder à tes fidèles les biens de l’unité et de la paix.
+    prayerAfterCommunion:
+      - |-
+        Déjà réconfortés par le pain du ciel,
+        nous t’adressons, Seigneur, cette humble prière :
+        >en suivant les leçons du bienheureux Frédéric Ozanam,
+        que nous demeurions dans l’action de grâce pour les dons que nous avons reçus.

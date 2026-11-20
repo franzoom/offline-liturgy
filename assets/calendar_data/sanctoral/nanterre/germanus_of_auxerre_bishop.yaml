@@ -1,0 +1,60 @@
+celebration:
+  title: Saint Germain d’Auxerre
+  subtitle: évêque
+  description: |-
+    Alors qu’il se rendait en Bretagne avec Loup de Troyes pour y défendre la foi, l’évêque Germain d’Auxerre fit étape à Nanterre, où il remarqua la jeune Geneviève et discerna sa vocation, la préparant à se consacrer au Seigneur. Il mourut à Ravenne en 448.
+  commons:
+    - pastors_bishop
+  color: white
+
+oration:
+  - |-
+    Seigneur, c’est par l’intermédiaire de l’évêque saint Germain que tu as manifesté tes desseins sur sainte Geneviève ta servante ; à son intercession, donne-nous d’être attentifs à tous les appels que tu fais entendre dans nos vies.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Le Seigneur a mis sur les lèvres de saint Germain une parole de sagesse ; il en a fait un messager de paix entre les hommes.
+    collect:
+      - |-
+        Seigneur, c’est par l’intermédiaire de l’évêque saint Germain que tu as manifesté tes desseins sur sainte Geneviève ta servante ; à son intercession, donne-nous d’être attentifs à tous les appels que tu fais entendre dans nos vies.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Is 57, 15-19
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 84 (85), 9ab.10-14
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 11, 25-30
+            headline: |-
+              « Ce que tu as caché aux sages et aux savants, tu l’as révélé aux tout-petits »
+            content: |-
+              En ce temps-là,
+              Jésus prit la parole et dit :
+              « Père, Seigneur du ciel et de la terre,
+              je proclame ta louange :
+              ce que tu as caché aux sages et aux savants,
+              tu l’as révélé aux tout-petits.
+              Oui, Père, tu l’as voulu ainsi dans ta bienveillance.
+              Tout m’a été remis par mon Père ;
+              personne ne connaît le Fils, sinon le Père,
+              et personne ne connaît le Père, sinon le Fils,
+              et celui à qui le Fils veut le révéler.
+              Venez à moi,
+              vous tous qui peinez sous le poids du fardeau,
+              et moi, je vous procurerai le repos.
+              Prenez sur vous mon joug,
+              devenez mes disciples,
+              car je suis doux et humble de cœur,
+              et vous trouverez le repos pour votre âme.
+              Oui, mon joug est facile à porter,
+              et mon fardeau, léger. »
+    offeringPrayer:
+      - |-
+        Accueille, Seigneur, les offrandes que ton peuple te présente en l’honneur de l’évêque saint Germain ; qu’elles nous obtiennent de ta bonté les secours que nous attendons.
+    prayerAfterCommunion:
+      - |-
+        Par cette communion à la table du ciel, renouvelle et multiplie en nous, Dieu tout-puissant, et en tous ceux qui célèbrent l’évêque saint Germain, les énergies qui viennent d’en haut : aide-nous à garder le don de la foi dans son intégrité, et à suivre ses pas sur le chemin du salut.

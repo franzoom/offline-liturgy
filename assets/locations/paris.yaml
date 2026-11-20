@@ -33,9 +33,20 @@ feasts:
     month: 3
     day: 10
     precedence: 12
+  # france.yaml's louise_de_marillac_religious sits at the pre-1969 date
+  # (9 May); the diocese uses the current universal date (15 March), so it
+  # needs its own entry here rather than inheriting the stale one.
+  louise_de_marillac_religious:
+    month: 3
+    day: 15
+    precedence: 12
   marie_of_the_incarnation_acarie_religious:
     month: 4
     day: 18
+    precedence: 12
+  madeleine_sophie_barat_virgin:
+    month: 5
+    day: 24
     precedence: 12
   germanus_of_paris_bishop:
     month: 5

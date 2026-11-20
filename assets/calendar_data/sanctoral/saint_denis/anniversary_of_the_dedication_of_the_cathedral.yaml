@@ -1,0 +1,63 @@
+celebration:
+  title: Dédicace de la cathédrale de Saint-Denis
+  description: |-
+    Vers 475, sainte Geneviève fit construire sur la tombe de saint Denis une basilique, remplacée à l’époque carolingienne puis, au XIIe siècle, par l’abbatiale de Suger, dont la dédicace fut célébrée en 1144 bien que les travaux se poursuivirent jusqu’en 1281. En 1966, cette basilique abbatiale devint la cathédrale du diocèse de Saint-Denis-en-France.
+  commons:
+    - dedicace_outside
+    - dedicace_inside
+  color: white
+
+oration:
+  - |-
+    Au jour où notre Église Cathédrale te fut consacrée sous le vocable de saint Denis, écoute, Seigneur, la prière de tes fidèles : donne-nous, par son intercession, de constituer un peuple saint dont le culte te rende gloire.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - biblicalReference: cf. He 12, 22-23 et Ap 7, 14
+        content: |-
+          Levons les yeux vers la cité du Dieu vivant, vers l’assemblée des premiers-nés, de ceux qui ont lavé leurs vêtements dans le sang de l’Agneau.
+    collect:
+      - |-
+        Au jour où notre Église Cathédrale te fut consacrée sous le vocable de saint Denis, écoute, Seigneur, la prière de tes fidèles : donne-nous, par son intercession, de constituer un peuple saint dont le culte te rende gloire.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Ap 7, 9-14
+          - biblicalRef: 1 P 2, 4-9
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 83 (84), 3-6a.8a.11cd
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 10, 22-30
+            headline: |-
+              « Le Père et moi, nous sommes UN »
+            acclamationAntiphon: |-
+              Mes brebis écoutent ma voix, dit le Seigneur ;
+              moi, je les connais, et elles me suivent.
+            content: |-
+              On célébrait la fête de la dédicace du Temple à Jérusalem.
+              C’était l’hiver.
+              Jésus allait et venait dans le Temple,
+              sous la colonnade de Salomon.
+              Les Juifs firent cercle autour de lui ;
+              ils lui disaient :
+              « Combien de temps vas-tu nous tenir en haleine ?
+              Si c’est toi le Christ, dis-le nous ouvertement ! »
+              Jésus leur répondit :
+              « Je vous l’ai dit, et vous ne croyez pas.
+              Les œuvres que je fais, moi, au nom de mon Père,
+              voilà ce qui me rend témoignage.
+              Mais vous, vous ne croyez pas,
+              parce que vous n’êtes pas de mes brebis.
+    offeringPrayer:
+      - |-
+        En célébrant, Seigneur, la dédicace de la basilique élevée en ton honneur sur la tombe de l’évêque saint Denis, nous t’offrons cet unique sacrifice, source et modèle de tout martyre.
+    communionAntiphon:
+      - biblicalReference: cf. Ap 6, 9
+        content: |-
+          Rassemblés autour de l’autel pour communier au sacrifice du Christ, nous faisons mémoire de ceux qui ont été immolés à cause de la parole de Dieu et du témoignage qu’ils ont porté.
+    prayerAfterCommunion:
+      - |-
+        Tu as voulu, Seigneur, que ton Église de la terre soit pour nous l’annonce de la Jérusalem céleste ; accorde-nous, par cette communion, d’être ici-bas le temple de ta grâce et d’entrer un jour dans la demeure de ta gloire.

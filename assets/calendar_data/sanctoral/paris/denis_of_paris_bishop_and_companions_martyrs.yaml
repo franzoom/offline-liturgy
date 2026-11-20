@@ -178,103 +178,112 @@ vespers:
       Pour les malades, pour tous ceux qui souffrent : qu’ils entrent avec courage dans la Pâque du Seigneur, lumière et vie par-delà la croix.
 
 mass:
-  - massType: DAY_MASS
-    entranceAntiphon: null
-    collect:
-      - |-
-        Seigneur Dieu, +
-        >tu as envoyé le bienheureux Denis et ses compagnons
-        >annoncer aux nations ta gloire,
-        >et tu les as gardés inébranlables dans la souffrance ; *
-        nous t’en prions, accorde-nous la grâce de les imiter
-        >en sachant mépriser la faveur du monde, /
-        >sans jamais craindre ses attaques.
-        Par Jésus Christ, ton Fils, notre Seigneur, +
-        >qui vit et règne avec toi dans l’unité du Saint-Esprit,
-        >Dieu, pour les siècles des siècles.
-    readingParts:
-      - partType: READING_1
-        partContents:
-          - biblicalRef: 2Co 6, 4-10
-            headline: « On nous croit mourants, et nous sommes bien vivants »
-            content: |-
-              Frères,
-              en tout, nous nous recommandons nous-mêmes
-              comme des ministres de Dieu :
-              par beaucoup d’endurance,
-              dans les détresses, les difficultés, les angoisses,
-              les coups, la prison, les émeutes,
-              les fatigues, le manque de sommeil et de nourriture,
-              par la chasteté, la connaissance,
-              la patience et la bonté,
-              la sainteté de l’esprit et la sincérité de l’amour,
-              par une parole de vérité,
-              par une puissance qui vient de Dieu ;
-              nous nous présentons avec les armes de la justice
-              pour l’attaque et la défense,
-              dans la gloire et le mépris,
-              dans la mauvaise et la bonne réputation.
-              On nous traite d’imposteurs, et nous disons la vérité ;
-              on nous prend pour des inconnus, et nous sommes très connus ;
-              on nous croit mourants, et nous sommes bien vivants
-              on nous punit, et nous ne sommes pas mis à mort ;
-              on nous croit tristes, et nous sommes toujours joyeux ;
-              pauvres, et nous faisons tant de riches ;
-              démunis de tout, et nous possédons tout.
-      - partType: PSALM
-        partContents:
-          - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
-            refAbbr: cf. 125, 5
-            chorus:
-              - chorusRef: cf. 125, 5
-                content: |-
-                  Ceux qui sèment dans les larmes
-                  moissonnent dans la joie.
-            content: |-
-              Quand le Seigneur ramena les captifs à Sion,
-              nous étions comme en rêve !
-              Alors notre bouche était pleine de rires,
-              nous poussions des cris de joie.
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Fêtons aujourd’hui dans l’action de grâce l’évêque saint Denis,
+      >qui planta l’Église de Paris dans son sang.
+      Par lui le peuple qui marchait dans les ténèbres
+      >a vu se lever une grande lumière.
+  collect:
+  - |-
+    Dieu de miséricorde,
+    par la prédication de l’évêque saint Denis tu as appelé nos pères à la foi :
+    >accorde-nous, à sa prière,
+    de marcher dans la vérité de l’évangile
+    >afin de parvenir jusqu’à la splendeur de ta gloire.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Is 52, 7-10
+      headline: |-
+        « Tous les lointains de la terre ont vu le salut de notre Dieu »
+      content: |-
+        Comme ils sont beaux sur les montagnes,
+        >les pas du messager,
+        celui qui annonce la paix,
+        >qui porte la bonne nouvelle,
+        >qui annonce le salut,
+        et vient dire à Sion :
+        >« Il règne, ton Dieu ! »
+        Écoutez la voix des guetteurs :
+        >ils élèvent la voix,
+        >tous ensemble ils crient de joie
+        car, de leurs propres yeux,
+        >ils voient le Seigneur qui revient à Sion.
+        Éclatez en cris de joie,
+        >vous, ruines de Jérusalem,
+        car le Seigneur console son peuple,
+        >il rachète Jérusalem !
+        Le Seigneur a montré la sainteté de son bras
+        >aux yeux de toutes les nations.
+        Tous les lointains de la terre
+        >ont vu le salut de notre Dieu.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 95 (96), 1-3.7-8a.9-10a
+      refAbbr: cf. 95, 3
+      chorus:
+      - chorusRef: cf. 95, 3
+        content: |-
+          Racontez à tous les peuples
+          les merveilles du Seigneur !
+      content: |-
+        Chantez au Seigneur un chant nouveau,
+        chantez au Seigneur, terre entière,
+        chantez au Seigneur et bénissez son nom !
 
-              Alors on disait parmi les nations :
-              « Quelles merveilles fait pour eux le Seigneur ! »
-              Quelles merveilles le Seigneur fit pour nous :
-              nous étions en grande fête !
+        De jour en jour, proclamez son salut,
+        racontez à tous les peuples sa gloire,
+        à toutes les nations ses merveilles !
 
-              Ramène, Seigneur, nos captifs,
-              comme les torrents au désert.
-              Qui sème dans les larmes
-              moissonne dans la joie.
+        Rendez au Seigneur, familles des peuples,
+        rendez au Seigneur la gloire et la puissance,
+        rendez au Seigneur la gloire de son nom.
 
-              Il s’en va, il s’en va en pleurant,
-              il jette la semence ;
-              il s’en vient, il s’en vient dans la joie,
-              il rapporte les gerbes.
-      - partType: GOSPEL
-        partContents:
-          - biblicalRef: Mt 5, 13-16
-            headline: « Vous êtes la lumière du monde »
-            acclamationAntiphon: |-
-              Moi, je suis la lumière du monde, dit le Seigneur.
-              Celui qui me suit aura la lumière de la vie.
-            content: |-
-              En ce temps-là,
-              Jésus disait à ses disciples :
-              « Vous êtes le sel de la terre.
-              Mais si le sel devient fade,
-              comment lui rendre de la saveur ?
-              Il ne vaut plus rien :
-              on le jette dehors et il est piétiné par les gens.
-              Vous êtes la lumière du monde.
-              Une ville située sur une montagne
-              ne peut être cachée.
-              Et l’on n’allume pas une lampe
-              pour la mettre sous le boisseau ;
-              on la met sur le lampadaire,
-              et elle brille pour tous ceux qui sont dans la maison.
-              De même, que votre lumière brille devant les hommes :
-              alors, voyant ce que vous faites de bien,
-              ils rendront gloire à votre Père qui est aux cieux. »
-    offeringPrayer: null
-    communionAntiphon: null
-    prayerAfterCommunion: null
+        Adorez le Seigneur, éblouissant de sainteté :
+        tremblez devant lui, terre entière.
+        Allez dire aux nations : « Le Seigneur est roi ! »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 10, 11-15
+      headline: |-
+        « Le bon pasteur donne sa vie pour ses brebis »
+      content: |-
+        En ce temps-là, Jésus disait :
+        >« Moi, je suis le bon pasteur, le vrai berger,
+        >qui donne sa vie pour ses brebis.
+        Le berger mercenaire n’est pas le pasteur,
+        >les brebis ne sont pas à lui :
+        >s’il voit venir le loup,
+        >il abandonne les brebis et s’enfuit ;
+        >le loup s’en empare et les disperse.
+        Ce berger n’est qu’un mercenaire,
+        >et les brebis ne comptent pas vraiment pour lui.
+        Moi, je suis le bon pasteur ;
+        >je connais mes brebis,
+        >et mes brebis me connaissent,
+        >comme le Père me connaît,
+        >et que je connais le Père ;
+        >et je donne ma vie pour mes brebis. »
+  offeringPrayer:
+  - |-
+    Accepte, Seigneur, nous t’en prions, le sacrifice d’action de grâce
+    que ton peuple te présente en la fête du martyr saint Denis ;
+    >car c’est toi que nous glorifions
+    >quand nous célébrons le fondateur de notre Église.
+  prefaceList:
+  - denis_of_paris
+  communionAntiphon:
+  - content: |-
+      L’évêque saint Denis a livré son corps aux tourments
+      >et versé son sang pour le Christ ;
+      en mémoire de lui nous communions au Corps et au Sang du Seigneur.
+  prayerAfterCommunion:
+  - |-
+    Permets, Dieu notre Père,
+    que le sacrement reçu à ton autel
+    >rassemble ton peuple dans l’unité
+    >et le consacre dans la vérité ;
+    qu’il nous donne de croire plus fermement
+    >à la bonne nouvelle que saint Denis nous a transmise.

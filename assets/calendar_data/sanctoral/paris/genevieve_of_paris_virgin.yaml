@@ -204,3 +204,116 @@ vespers:
       antiphon:
         - |-
           Voici venir les noces de l’Agneau : son Épouse pour lui s’est faite belle.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Célébrons dans la joie la fête de Geneviève, la sainte de Paris ;
+      >accueillie par le Christ,
+      >elle a pris place au festin du Royaume avec les vierges fidèles.
+  collect:
+  - Répands sur nous, Seigneur, l’esprit d’intelligence et d’amour dont tu as rempli sainte Geneviève, pour qu’attentifs à te servir, et cherchant à lui ressembler, nous sachions te plaire par notre foi et toute notre vie.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Os 2, 16b.17b.21-22
+      content: |-
+        Ainsi parle le Seigneur :
+        Mon épouse infidèle,
+        je vais l’entraîner jusqu’au désert,
+        >et je lui parlerai cœur à cœur.
+        Là, elle me répondra
+        >comme au temps de sa jeunesse,
+        >au jour où elle est sortie du pays d’Égypte.
+        Je ferai de toi mon épouse pour toujours,
+        >je ferai de toi mon épouse
+        dans la justice et le droit,
+        >dans la fidélité et la tendresse ;
+        je ferai de toi mon épouse dans la loyauté,
+        >et tu connaîtras le Seigneur.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 44, 11-12a.14-17
+      content: |-
+        Écoute, ma fille, regarde et tends l’oreille ;
+        oublie ton peuple et la maison de ton père :
+        le roi sera séduit par ta beauté.
+        Il est ton Seigneur : prosterne-toi devant lui.
+
+        Fille de roi, elle est là, dans sa gloire,
+        vêtue d’étoffes d’or ;
+        on la conduit, toute parée, vers le roi.
+        Des jeunes filles, ses compagnes, lui font cortège.
+
+        On les conduit parmi les chants de fête :
+        elles entrent au palais du roi.
+        À la place de tes pères se lèveront tes fils ;
+        sur toute la terre tu feras d’eux des princes.
+  - partType: READING_2
+    partContents:
+    - biblicalRef: 1 Jn 3, 14-18
+      content: |-
+        Bien-aimés,
+        nous savons que nous sommes passés de la mort à la vie,
+        parce que nous aimons nos frères.
+        Celui qui n’aime pas
+        demeure dans la mort.
+        Quiconque a de la haine contre son frère
+        est un meurtrier,
+        et vous savez que pas un meurtrier
+        n’a la vie éternelle demeurant en lui.
+        Voici comment nous avons reconnu l’amour :
+        lui, Jésus, a donné sa vie pour nous.
+        Nous aussi, nous devons donner notre vie pour nos frères.
+        Celui qui a de quoi vivre en ce monde,
+        s’il voit son frère dans le besoin
+        sans faire preuve de compassion,
+        comment l’amour de Dieu pourrait-il demeurer en lui ?
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 10, 38-42
+      acclamationAntiphon: |-
+        Geneviève a choisi la meilleure part :
+        le Seigneur est à jamais son bonheur et sa joie.
+      acclamationAntiphonReference: cf. Lc 10, 42
+      content: |-
+        En ce temps-là,
+        Jésus entra dans un village.
+        Une femme nommée Marthe le reçut.
+        Elle avait une sœur appelée Marie
+        >qui, s’étant assise aux pieds du Seigneur,
+        >écoutait sa parole.
+        Quant à Marthe, elle était accaparée
+        >par les multiples occupations du service.
+        Elle intervint et dit :
+        >« Seigneur, cela ne te fait rien
+        que ma sœur m’ait laissé faire seule le service ?
+        >Dis-lui donc de m’aider. »
+        Le Seigneur lui répondit :
+        >« Marthe, Marthe, tu te donnes du souci
+        et tu t’agites pour bien des choses.
+        >Une seule est nécessaire.
+        Marie a choisi la meilleure part,
+        >elle ne lui sera pas enlevée. »
+  offeringPrayer:
+  - |-
+    Accueille, Seigneur, les présents de ton peuple,
+    que nous offrons en mémoire
+    de l’amour infini de ton Fils,
+    et donne-nous, à l’exemple de sainte Geneviève,
+    de t’aimer et d’aimer notre prochain
+    d’un cœur toujours plus généreux.
+  communionAntiphon:
+  - content: |-
+      Avec Geneviève puissions-nous dire :
+      pour moi, être unie à Dieu fait tout mon bonheur ;
+      en lui je mets mon espérance.
+  prayerAfterCommunion:
+  - |-
+    Appelés à participer à la table de ton Fils,
+    Seigneur, nous te prions :
+    par la force de ce sacrement,
+    accorde-nous de mener une vie sans faute
+    à l’exemple de sainte Geneviève,
+    dans la pénitence et l’humilité, la patience et la douceur.

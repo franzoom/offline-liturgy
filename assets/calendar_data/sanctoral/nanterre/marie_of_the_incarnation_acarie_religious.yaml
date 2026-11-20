@@ -1,0 +1,82 @@
+celebration:
+  title: Bienheureuse Marie de l’Incarnation
+  subtitle: religieuse
+  description: |-
+    Madame Acarie naquit à Paris en 1566. Alliant la vie de famille à une haute contemplation, elle œuvra à introduire en France la réforme thérésienne du Carmel. Devenue veuve en 1613, elle entra elle-même au Carmel d’Amiens comme sœur converse sous le nom de Marie de l’Incarnation, et mourut à Pontoise en 1618.
+  commons:
+    - saints-female_religious
+  color: white
+
+oration:
+  - |-
+    Dieu notre Père, tu as donné à la bienheureuse Marie de l’Incarnation un zèle ardent pour ta gloire et une rare fermeté dans les malheurs ; accorde-nous par ses mérites de supporter courageusement les épreuves et de persévérer dans ton amour.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Marie de l’Incarnation aima d’un grand amour le Seigneur Jésus, Dieu fait homme pour sauver les hommes. C’est pourquoi elle vit maintenant près de lui.
+    collect:
+      - |-
+        Dieu notre Père, tu as donné à la bienheureuse Marie de l’Incarnation un zèle ardent pour ta gloire et une rare fermeté dans les malheurs ; accorde-nous par ses mérites de supporter courageusement les épreuves et de persévérer dans ton amour.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 1 Co 1, 26-31
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 33 (34), 2-3.6-7.10-11
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 15, 1-8
+            headline: |-
+              « Celui qui demeure en moi et en qui je demeure, celui-là porte beaucoup de fruit »
+            acclamationAntiphon: |-
+              Demeurez dans mon amour, dit le Seigneur.
+              Celui qui demeure en moi et en qui je demeure,
+              celui-là porte beaucoup de fruit.
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples :
+              « Moi, je suis la vraie vigne,
+              et mon Père est le vigneron.
+              Tout sarment qui est en moi,
+              mais qui ne porte pas de fruit,
+              mon Père l’enlève ;
+              tout sarment qui porte du fruit,
+              il le purifie en le taillant,
+              pour qu’il en porte davantage.
+              Mais vous, déjà vous voici purifiés
+              grâce à la parole que je vous ai dite.
+              Demeurez en moi, comme moi en vous.
+              De même que le sarment
+              ne peut pas porter de fruit par lui-même
+              s’il ne demeure pas sur la vigne,
+              de même vous non plus,
+              si vous ne demeurez pas en moi.
+              Moi, je suis la vigne,
+              et vous, les sarments.
+              Celui qui demeure en moi
+              et en qui je demeure,
+              celui-là porte beaucoup de fruit,
+              car, en dehors de moi, vous ne pouvez rien faire.
+              Si quelqu’un ne demeure pas en moi,
+              il est, comme le sarment, jeté dehors,
+              et il se dessèche.
+              Les sarments secs, on les ramasse,
+              on les jette au feu, et ils brûlent.
+              Si vous demeurez en moi,
+              et que mes paroles demeurent en vous,
+              demandez tout ce que vous voulez,
+              et cela se réalisera pour vous.
+              Ce qui fait la gloire de mon Père,
+              c’est que vous portiez beaucoup de fruit
+              et que vous soyez pour moi des disciples. »
+    offeringPrayer:
+      - |-
+        En te présentant, Seigneur, ce sacrifice pour fêter la mémoire de la bienheureuse Marie de l’Incarnation, nous t’adressons notre prière : qu’avec ton pardon il nous apporte le salut.
+    communionAntiphon:
+      - content: |-
+          « Celui qui fait la volonté de mon Père qui est aux cieux, dit le Seigneur, celui-là est mon frère, ma sœur, ma mère. »
+    prayerAfterCommunion:
+      - |-
+        Que cette eucharistie, Dieu tout-puissant, nous apporte lumière et ferveur en cette fête de la bienheureuse Marie de l’Incarnation ; que nos cœurs brûlent toujours du désir de la sainteté, et que notre vie se passe à faire le bien.

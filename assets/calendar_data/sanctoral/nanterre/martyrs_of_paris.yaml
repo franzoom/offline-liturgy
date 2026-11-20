@@ -1,0 +1,77 @@
+celebration:
+  title: Bienheureux martyrs de Paris
+  subtitle: martyrs de septembre 1792
+  description: |-
+    Le 2 septembre 1792, cent quatre-vingt-onze chrétiens furent mis à mort au couvent des Carmes, à l’abbaye Saint-Germain, au séminaire Saint-Firmin et aux prisons de la Force ; l’Église a authentifié leur martyre en 1926. Quatre-vingt-six prêtres et quatre laïcs appartenaient au diocèse de Paris, huit prêtres et un clerc à celui de Nanterre, et de nombreux autres y menaient la vie religieuse.
+  commons:
+    - martyrs
+  color: red
+
+oration:
+  - |-
+    En appelant, Seigneur, en ce jour un grand nombre de prêtres de Paris au témoignage suprême du martyre, tu as manifesté que tu n’aimes rien tant que la liberté de ton Église ; par leur intercession, accorde à tous les baptisés de témoigner de toi sans entraves devant les hommes.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Soyons dans l’action de grâce pour la splendeur du témoignage rendu aujourd’hui par tant de martyrs. Ils sont allés à la mort comme à une fête, entrant ainsi dans la joie de leur Maître.
+    collect:
+      - |-
+        En appelant, Seigneur, en ce jour un grand nombre de prêtres de Paris au témoignage suprême du martyre, tu as manifesté que tu n’aimes rien tant que la liberté de ton Église ; par leur intercession, accorde à tous les baptisés de témoigner de toi sans entraves devant les hommes.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 1 P 3, 14-17
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 125 (126), 1-6
+            content: |-
+              Quand le Seigneur ramena les captifs à Sion,
+              nous étions comme en rêve !
+              Alors notre bouche était pleine de rires,
+              nous poussions des cris de joie.
+
+              Alors on disait parmi les nations :
+              « Quelles merveilles fait pour eux le Seigneur ! »
+              Quelles merveilles le Seigneur fit pour nous :
+              nous étions en grande fête !
+
+              Ramène, Seigneur, nos captifs,
+              comme les torrents au désert.
+              Qui sème dans les larmes
+              moissonne dans la joie.
+
+              Il s’en va, il s’en va en pleurant,
+              il jette la semence ;
+              il s’en vient, il s’en vient dans la joie,
+              il rapporte les gerbes.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 15, 18-21
+            headline: |-
+              « Si l’on m’a persécuté, on vous persécutera, vous aussi »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses disciples :
+              « Si le monde a de la haine contre vous,
+              sachez qu’il en a eu d’abord contre moi.
+              Si vous apparteniez au monde,
+              le monde aimerait ce qui est à lui.
+              Mais vous n’appartenez pas au monde,
+              puisque je vous ai choisis en vous prenant dans le monde ;
+              voilà pourquoi le monde a de la haine contre vous.
+              Rappelez-vous la parole que je vous ai dite :
+              un serviteur n’est pas plus grand que son maître.
+              Si l’on m’a persécuté,
+              on vous persécutera, vous aussi.
+              Si l’on a gardé ma parole,
+              on gardera aussi la vôtre.
+              Les gens vous traiteront ainsi à cause de mon nom,
+              parce qu’ils ne connaissent pas Celui qui m’a envoyé. »
+    offeringPrayer:
+      - |-
+        Seigneur, nous t’offrons ce sacrifice pour fêter la mémoire des saints martyrs de Paris, eux que les épreuves ne purent arracher à l’unité de ton Église.
+    prayerAfterCommunion:
+      - |-
+        Entretiens en nous, Seigneur, le don que nous avons reçu de ta bonté en la fête des bienheureux martyrs de Paris ; que cette eucharistie serve à notre guérison et nous apporte la paix.

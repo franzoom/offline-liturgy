@@ -4,3 +4,42 @@ celebration:
   commons:
     - pastors_bishop
   color: white
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Le Seigneur s’est choisi saint Landry comme intendant de sa charité,
+      >et, lui ouvrant ses trésors,
+      >il lui a donné de faire beaucoup de bien.
+  collect:
+  - |-
+    Dieu de tendresse,
+    tu as fait communier l’évêque saint Landry
+    >à ton amour de prédilection pour les pauvres ;
+    donne-nous de suivre son exemple
+    >en partageant sans compter avec nos frères
+    >ce que nous avons reçu de ta bonté.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: He 13, 1-3.14-16
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 111, 1-9
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mt 9, 35 – 10, 1
+  offeringPrayer:
+  - |-
+    Seigneur souverain, nous te supplions humblement :
+    puisque ces dons offerts en l’honneur de saint Landry
+    >attestent ta puissance de gloire,
+    >qu’ils nous fassent bénéficier de ton salut.
+  prayerAfterCommunion:
+  - |-
+    Rassasiés de tes saints mystères, Seigneur,
+    nous t’adressons cette prière :
+    >par l’intercession de l’évêque saint Landry,
+    fais que nous recevions davantage ton salut
+    >pour l’avoir célébré dans cette eucharistie.

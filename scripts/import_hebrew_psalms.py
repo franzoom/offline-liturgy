@@ -389,6 +389,9 @@ def build_rows(hebrew_words, hebrew_counts):
         stem = path.stem
         text = path.read_text(encoding="utf-8")
 
+        m_title = re.search(r"^title:\s*(.+)$", text, re.M)
+        french_title = m_title.group(1).strip() if m_title else stem.replace("PSALM_", "Psaume ")
+
         m_bibref = re.search(r"^biblicalReference:\s*(.+)$", text, re.M)
         bibref_raw = m_bibref.group(1).strip() if m_bibref else None
 
@@ -436,6 +439,7 @@ def build_rows(hebrew_words, hebrew_counts):
         rows.append({
             "file": stem,
             "path": path,
+            "french_title": french_title,
             "vulgate_num": vulgate_num,
             "suffix_letter": suffix_letter,
             "vulgate_label": f"{vulgate_num}{suffix_letter.upper()}" if suffix_letter else str(vulgate_num),
@@ -581,7 +585,7 @@ def build_hebrew_yaml(r, hebrew_words, bracketed):
 
     content = "\n\n".join(paragraphs)
     yaml_text = (
-        f"title: {r['file'].replace('PSALM_', 'Psaume ')}\n"
+        f"title: {r['french_title']}\n"
         "subtitle: null\n"
         "commentary: null\n"
         f"biblicalReference: {biblical_reference_for(r)}\n"

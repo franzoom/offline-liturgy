@@ -2,7 +2,8 @@
 """Normalize French insecable-space typography in the liturgical YAML assets.
 
 Scans every *.yaml file under a root directory (default: assets/), skipping
-the psalms/ subtree, and fixes spacing around French double punctuation,
+the non-French psalms/{latin,greek,hebrew,hebrew-greek} subtrees, and fixes
+spacing around French double punctuation,
 guillemets, and a few liturgical line markers. Only text VALUES are ever
 rewritten -- YAML structure (the "key:" separator itself, list markers,
 block-scalar indicators) is left byte-for-byte untouched, by parsing each
@@ -308,10 +309,16 @@ def process_file(path: Path, write: bool) -> tuple[list[tuple[int, str, str]], l
     return conversions, changes
 
 
+SKIPPED_PSALM_DIRS = {"latin", "greek", "hebrew", "hebrew-greek"}
+
+
 def iter_yaml_files(root: Path):
     for path in sorted(root.rglob("*.yaml")):
-        if "psalms" in path.relative_to(root).parts or "psalms" in path.parts:
-            continue
+        parts = path.parts
+        if "psalms" in parts:
+            psalms_index = parts.index("psalms")
+            if len(parts) > psalms_index + 1 and parts[psalms_index + 1] in SKIPPED_PSALM_DIRS:
+                continue
         yield path
 
 

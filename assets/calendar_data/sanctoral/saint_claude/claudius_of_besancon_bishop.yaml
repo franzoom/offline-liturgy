@@ -10,3 +10,31 @@ celebration:
 oration:
   - |-
     Dieu qui ne cesses d'appeler ton peuple à la sainteté, tu as choisi Saint Claude pour qu'il mène dans notre région une vie de contemplation et y répande les bienfaits de ton amour. Puisqu'il est le patron de notre diocèse, accorde-nous, à sa prière, de maintenir fermement en nous le souci de te connaître, la joie de te célébrer et la force d'être les témoins de tes merveilles. Par Jésus Christ.
+
+readings:
+  hymn:
+    - imite-la-saintete-de-claude
+
+morning:
+  psalmody:
+    - antiphon:
+        - |-
+          Saint Claude, chercheur de Dieu, tu bois, dans le silence, l'eau vive de la grâce, et tu la fais jaillir jusqu'à nous.
+    - antiphon:
+        - |-
+          Saint Claude, semeur de Dieu, tu plantes l'Espérance où germe la Parole et tu la fais grandir jusqu'à nous.
+  evangelicAntiphon:
+    common:
+      - |-
+        Saint Claude, témoin de Dieu, tu vis pour une Alliance qui fonde notre Église et nous la porterons devant nous.
+
+vespers:
+  evangelicAntiphon:
+    common:
+      - |-
+        Quand des frères sont unis et rendent grâce au Seigneur, Dieu lui-même les bénit, alléluia.
+
+mass:
+  - massType: DAY_MASS
+    prefaceList:
+      - claudius_of_besancon

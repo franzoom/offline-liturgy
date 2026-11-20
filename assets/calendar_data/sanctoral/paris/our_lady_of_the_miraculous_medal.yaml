@@ -3,3 +3,127 @@ celebration:
   commons:
     - virgin-mary
   color: white
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Tournons les yeux vers le signe qui est apparu dans le ciel :
+      >une femme, vêtue de soleil,
+      >la lune sous ses pieds,
+      >et sur la tête une couronne de douze étoiles.
+  collect:
+  - |-
+    Seigneur, tu as mis dans la Mère Immaculée de ton Fils
+    >des trésors de miséricorde pour tous ceux qui ploient sous leur fardeau :
+    accorde-nous un amour filial envers elle
+    >et une confiance totale en son intercession.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Is 49, 13-15
+      headline: |-
+        « Le Seigneur console son peuple »
+      content: |-
+        Cieux, criez de joie ! Terre, exulte !
+        >Montagnes, éclatez en cris de joie !
+        Car le Seigneur console son peuple ;
+        >de ses pauvres, il a compassion.
+        Jérusalem disait :
+        >« Le Seigneur m’a abandonnée,
+        mon Seigneur m’a oubliée. »
+        Une femme peut-elle oublier son nourrisson,
+        >ne plus avoir de tendresse pour le fils de ses entrailles ?
+        Même si elle l’oubliait,
+        >moi, je ne t’oublierai pas.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 83 (84), 2-3.5.8.11-12
+      refAbbr: cf. 83, 5a
+      chorus:
+      - chorusRef: cf. 83, 5a
+        content: |-
+          Heureux les habitants de ta maison, Seigneur !
+      content: |-
+        De quel amour sont aimées tes demeures,
+        Seigneur, Dieu de l’univers.
+        Mon âme s’épuise à désirer les parvis du Seigneur ;
+        mon cœur et ma chair sont un cri vers le Dieu vivant !
+
+        Heureux les habitants de ta maison :
+        ils pourront te chanter encore !
+        Ils vont de hauteur en hauteur,
+        ils se présentent devant Dieu à Sion.
+
+        J’ai choisi de me tenir sur le seuil,
+        dans la maison de mon Dieu,
+        plutôt que d’habiter
+        parmi les infidèles.
+
+        Le Seigneur Dieu est un soleil, il est un bouclier ;
+        le Seigneur donne la grâce, il donne la gloire.
+        Jamais il ne refuse le bonheur
+        à ceux qui vont sans reproche.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 2, 1-11
+      headline: |-
+        « La mère de Jésus était là »
+      acclamationAntiphon: |-
+        Heureuse es-tu, Vierge Marie,
+        toi qui as cru que s’accompliraient pour toi
+        les paroles du Seigneur.
+      content: |-
+        En ce temps-là,
+        il y eut un mariage à Cana de Galilée.
+        La mère de Jésus était là.
+        Jésus aussi avait été invité au mariage
+        >avec ses disciples.
+        Or, on manqua de vin.
+        La mère de Jésus lui dit :
+        >« Ils n’ont pas de vin. »
+        Jésus lui répond :
+        >« Femme, que me veux-tu ?
+        Mon heure n’est pas encore venue. »
+        Sa mère dit à ceux qui servaient :
+        >« Tout ce qu’il vous dira, faites-le. »
+        Or, il y avait là six jarres de pierre
+        >pour les purifications rituelles des Juifs ;
+        chacune contenait deux à trois mesures
+        >(c’est-à-dire environ cent litres).
+        Jésus dit à ceux qui servaient :
+        >« Remplissez d’eau les jarres. »
+        Et ils les remplirent jusqu’au bord.
+        Il leur dit :
+        >« Maintenant, puisez,
+        >et portez-en au maître du repas. »
+        Ils lui en portèrent.
+        Et celui-ci goûta l’eau changée en vin.
+        Il ne savait pas d’où venait ce vin,
+        >mais ceux qui servaient le savaient bien,
+        >eux qui avaient puisé l’eau.
+        Alors le maître du repas appelle le marié
+        et lui dit :
+        >« Tout le monde sert le bon vin en premier
+        >et, lorsque les gens ont bien bu, on apporte le moins bon.
+        Mais toi, tu as gardé le bon vin jusqu’à maintenant. »
+        Tel fut le commencement des signes que Jésus accomplit.
+        C’était à Cana de Galilée.
+        Il manifesta sa gloire,
+        >et ses disciples crurent en lui.
+  offeringPrayer:
+  - |-
+    En rendant hommage à la Mère de ton Fils, Seigneur, nous te supplions :
+    que le sacrifice de cette eucharistie fasse de nous, dans ta bonté,
+    >une éternelle offrande à ta gloire.
+  communionAntiphon:
+  - biblicalReference: Lc 1, 49
+    content: |-
+      Le Puissant fit pour moi des merveilles ;
+      >saint est son Nom.
+  prayerAfterCommunion:
+  - |-
+    Après avoir participé au sacrement qui nous libère, nous te prions, Seigneur :
+    puisque nous célébrons la Mère de ton Fils,
+    >fais que nous soyons comblés de ta grâce
+    et que nous éprouvions toujours davantage les effets de la Rédemption.

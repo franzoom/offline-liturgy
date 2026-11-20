@@ -1,0 +1,75 @@
+celebration:
+  title: Sainte Jeanne de France
+  description: |-
+    Fille de Louis XI, Jeanne de France épousa le duc d’Orléans, le futur Louis XII, qui la répudia une fois devenu roi. Retirée à Bourges, elle y fut pour le Berry une « bonne duchesse » et y fonda en 1500 l’ordre des Annonciades, où elle mourut en 1505. Le couvent des Annonciades de Thiais, dans le diocèse de Créteil, perpétue aujourd’hui son souvenir en Île-de-France.
+  commons:
+    - saints-female_religious
+  color: white
+
+oration:
+  - |-
+    Seigneur notre Dieu, force de ceux qui croient en toi, accorde-nous d’imiter la patience et la charité de sainte Jeanne pour travailler avec constance à ton service.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          De l’héritage du Seigneur, Jeanne de France a reçu la part la plus belle : dans l’humiliation et le silence elle a porté la croix du Christ. Au ciel elle règne avec lui pour toujours.
+    collect:
+      - |-
+        Seigneur notre Dieu, force de ceux qui croient en toi, accorde-nous d’imiter la patience et la charité de sainte Jeanne pour travailler avec constance à ton service.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Is 49, 13-15
+            headline: |-
+              « Le Seigneur console son peuple »
+            content: |-
+              Cieux, criez de joie ! Terre, exulte !
+              Montagnes, éclatez en cris de joie !
+              Car le Seigneur console son peuple ;
+              de ses pauvres, il a compassion.
+              Jérusalem disait :
+              « Le Seigneur m’a abandonnée,
+              mon Seigneur m’a oubliée. »
+              Une femme peut-elle oublier son nourrisson,
+              ne plus avoir de tendresse pour le fils de ses entrailles ?
+              Même si elle l’oubliait,
+              moi, je ne t’oublierai pas.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 83 (84), 2-3.5.8.11-12
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 12, 46-50
+            headline: |-
+              « Étendant la main vers ses disciples, il dit : “Voici ma mère et mes frères” »
+            acclamationAntiphon: |-
+              Heureuse Vierge Marie !
+              Attentive à la parole de Dieu,
+              elle la méditait dans son cœur.
+            content: |-
+              En ce temps-là,
+              comme Jésus parlait encore aux foules,
+              voici que sa mère et ses frères se tenaient au-dehors,
+              cherchant à lui parler.
+              Quelqu’un lui dit :
+              « Ta mère et tes frères sont là, dehors,
+              qui cherchent à te parler. »
+              Jésus lui répondit :
+              « Qui est ma mère,
+              et qui sont mes frères ? »
+              Puis, étendant la main vers ses disciples, il dit :
+              « Voici ma mère et mes frères.
+              Car celui qui fait la volonté de mon Père qui est aux cieux,
+              celui-là est pour moi un frère, une sœur, une mère. »
+    offeringPrayer:
+      - |-
+        Que nos offrandes puissent te plaire, Seigneur, comme savait parfaitement te plaire le cœur entièrement donné de sainte Jeanne de France.
+    communionAntiphon:
+      - biblicalReference: cf. Ps 60, 5-6
+        content: |-
+          J’habiterai à jamais dans ta maison, réfugié sous l’abri de tes ailes ; car toi, Seigneur, tu exauces mes vœux.
+    prayerAfterCommunion:
+      - |-
+        Par la vertu de cette eucharistie, Seigneur, remplis nos cœurs de la tendresse de ton amour, afin que, par l’intercession de sainte Jeanne de France, nous puissions te servir dans la prière et avoir pour nos frères une grande charité.

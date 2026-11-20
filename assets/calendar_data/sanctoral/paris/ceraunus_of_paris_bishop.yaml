@@ -4,3 +4,120 @@ celebration:
   commons:
     - pastors_bishop
   color: white
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Le Seigneur a consacré saint Céran comme évêque dans son Église
+      >par l’onction de l’Esprit Saint ;
+      il l’a envoyé porter la Bonne Nouvelle aux pauvres.
+  collect:
+  - |-
+    Dieu, lumière des fidèles et pasteur des âmes,
+    qui as mis saint Céran à la tête de ton peuple
+    >pour le nourrir de sa parole
+    >et le guider par son exemple,
+    accorde-nous, à son intercession,
+    >de garder la foi qu’il sut transmettre
+    >et de suivre le chemin qu’il a tracé.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: 2 Co 3, 1b-6a
+      headline: |-
+        « Il nous a rendus capables d’être les ministres d’une Alliance nouvelle »
+      content: |-
+        Frères,
+        allons-nous, une fois de plus, nous recommander nous-mêmes ?
+        Ou alors avons-nous besoin, comme certains,
+        >de lettres de recommandation
+        >qu’il faudrait vous présenter,
+        >ou obtenir de vous ?
+        Notre lettre de recommandation, c’est vous,
+        >elle est écrite dans nos cœurs,
+        >et tout le monde peut en avoir connaissance et la lire.
+        De toute évidence, vous êtes cette lettre du Christ,
+        >produite par notre ministère,
+        écrite non pas avec de l’encre,
+        >mais avec l’Esprit du Dieu vivant,
+        non pas, comme la Loi, sur des tables de pierre,
+        >mais sur des tables de chair, sur vos cœurs.
+        Et si nous avons une telle confiance en Dieu
+        >par le Christ,
+        ce n’est pas à cause d’une capacité personnelle
+        >que nous pourrions nous attribuer :
+        notre capacité vient de Dieu.
+        Lui nous a rendus capables
+        >d’être les ministres d’une Alliance nouvelle.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39 (40), 2.4ab.7-10
+      refAbbr: cf. 39, 8a.9a
+      chorus:
+      - chorusRef: cf. 39, 8a.9a
+        content: |-
+          Me voici, Seigneur,
+          je viens faire ta volonté.
+      content: |-
+        D’un grand espoir j’espérais le Seigneur :
+        il s’est penché vers moi pour entendre mon cri.
+        Dans ma bouche il a mis un chant nouveau,
+        une louange à notre Dieu.
+
+        Tu ne voulais ni offrande ni sacrifice,
+        tu as ouvert mes oreilles ;
+        tu ne demandais ni holocauste ni victime,
+        alors j’ai dit : « Voici, je viens.
+
+        « Dans le livre, est écrit pour moi
+        ce que tu veux que je fasse.
+        Mon Dieu, voilà ce que j’aime :
+        ta loi me tient aux entrailles. »
+
+        J’annonce la justice
+        dans la grande assemblée ;
+        vois, je ne retiens pas mes lèvres,
+        Seigneur, tu le sais.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Lc 12, 35-40
+      headline: |-
+        « Vous aussi, tenez-vous prêts »
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        >« Restez en tenue de service,
+        >votre ceinture autour des reins,
+        >et vos lampes allumées.
+        Soyez comme des gens qui attendent leur maître
+        >à son retour des noces,
+        >pour lui ouvrir dès qu’il arrivera et frappera à la porte.
+        Heureux ces serviteurs-là que le maître, à son arrivée,
+        >trouvera en train de veiller.
+        Amen, je vous le dis :
+        >c’est lui qui, la ceinture autour des reins,
+        >les fera prendre place à table
+        >et passera pour les servir.
+        S’il revient vers minuit ou vers trois heures du matin
+        >et qu’il les trouve ainsi,
+        >heureux sont-ils !
+        Vous le savez bien :
+        >si le maître de maison avait su à quelle heure le voleur viendrait,
+        >il n’aurait pas laissé percer le mur de sa maison.
+        Vous aussi, tenez-vous prêts :
+        >c’est à l’heure où vous n’y penserez pas
+        >que le Fils de l’homme viendra. »
+  offeringPrayer:
+  - |-
+    Regarde avec bonté, Seigneur,
+    l’offrande que nous apportons à l’autel
+    >au jour où nous fêtons saint Céran ;
+    en nous procurant ton pardon,
+    >qu’elle serve ta gloire.
+  prayerAfterCommunion:
+  - |-
+    Que la puissance de cette eucharistie, Seigneur,
+    produise en nous la plénitude de ses fruits
+    >en ce jour où nous fêtons saint Céran ;
+    qu’elle nous apporte un secours pour cette vie mortelle
+    >et nous obtienne les joies du bonheur qui ne finit pas.

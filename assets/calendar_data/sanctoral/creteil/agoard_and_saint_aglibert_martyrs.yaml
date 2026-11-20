@@ -1,0 +1,42 @@
+celebration:
+  title: Saints Agoard et Aglibert
+  subtitle: martyrs
+  description: |-
+    Le martyrologe d’Usuard, vers 860, mentionne le martyre à Créteil des saints Agoard et Aglibert, avec un grand nombre de chrétiens de l’un et l’autre sexe. On ne sait rien de plus sur ce massacre, qui remonte vraisemblablement au temps des invasions barbares.
+  commons:
+    - martyrs
+  color: red
+
+oration:
+  - |-
+    Seigneur notre Dieu, tu as permis que les saints Agoard et Aglibert soient massacrés au milieu de leurs frères : accorde-nous de savoir comme eux être présents aux hommes dans leurs souffrances.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - biblicalReference: cf. Ps 36 (37), 39
+        content: |-
+          Le Seigneur est le salut de ceux qui croient en lui, leur appui au temps de l’angoisse.
+    collect:
+      - |-
+        Seigneur notre Dieu, tu as permis que les saints Agoard et Aglibert soient massacrés au milieu de leurs frères : accorde-nous de savoir comme eux être présents aux hommes dans leurs souffrances.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Dn 3, 25.34-43 (Vulgate)
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 26 (27), 1-3.5
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 15, 18-21.26 à 16, 4
+    offeringPrayer:
+      - |-
+        Accepte, nous t’en prions, Seigneur, l’offrande que ton peuple te présente pour célébrer tes martyrs Agoard et Aglibert : qu’elle nous obtienne d’être fermes dans l’adversité, comme elle les a rendus courageux dans la persécution.
+    communionAntiphon:
+      - biblicalReference: Jn 15, 13
+        content: |-
+          « Il n’y a pas de plus grand amour que de donner sa vie pour ses amis », dit le Seigneur.
+    prayerAfterCommunion:
+      - |-
+        Nourris du vrai pain du ciel et rassemblés en un seul corps dans le Christ, nous te prions, Seigneur notre Dieu : accorde-nous de n’être jamais séparés de son amour, mais de surmonter toutes nos épreuves, à l’exemple des saints martyrs Agoard et Aglibert, en aimant celui qui nous a aimés.

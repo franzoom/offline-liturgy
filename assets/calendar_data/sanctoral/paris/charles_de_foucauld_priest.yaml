@@ -4,3 +4,85 @@ celebration:
   commons:
     - pastors
   color: white
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Rendons grâce pour le témoignage donné par Charles de Foucauld.
+      Il a découvert que Jésus, venu nous rejoindre dans notre humanité,
+      >nous invite à la fraternité universelle.
+  collect:
+  - |-
+    Seigneur, Père très saint,
+    toi qui as appelé le bienheureux Charles, prêtre,
+    >à imiter ton Fils, Jésus de Nazareth,
+    nous t’en prions, accorde-nous, par son intercession,
+    >que, nourris de l’Eucharistie,
+    nous progressions chaque jour
+    >vers une charité chrétienne plus profonde
+    >et une fraternité universelle.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Sg 11, 23 – 12, 2
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 39, 2-4.7-10
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 9-17
+      headline: |-
+        « Je ne vous appelle plus serviteurs, je vous appelle mes amis »
+      content: |-
+        En ce temps-là, Jésus disait à ses disciples :
+        >« Comme le Père m’a aimé,
+        >moi aussi je vous ai aimés.
+        Demeurez dans mon amour.
+        Si vous gardez mes commandements,
+        >vous demeurerez dans mon amour,
+        >comme moi, j’ai gardé les commandements de mon Père,
+        >et je demeure dans son amour.
+        Je vous ai dit cela pour que ma joie soit en vous,
+        >et que votre joie soit parfaite.
+        Mon commandement, le voici :
+        >Aimez-vous les uns les autres
+        >comme je vous ai aimés.
+        Il n’y a pas de plus grand amour
+        >que de donner sa vie pour ceux qu’on aime.
+        Vous êtes mes amis
+        >si vous faites ce que je vous commande.
+        Je ne vous appelle plus serviteurs,
+        >car le serviteur ne sait pas ce que fait son maître ;
+        >je vous appelle mes amis,
+        >car tout ce que j’ai entendu de mon Père,
+        >je vous l’ai fait connaître.
+        Ce n’est pas vous qui m’avez choisi,
+        >c’est moi qui vous ai choisis et établis
+        >afin que vous alliez,
+        >que vous portiez du fruit,
+        >et que votre fruit demeure.
+        Alors, tout ce que vous demanderez au Père en mon nom,
+        >il vous le donnera.
+        Voici ce que je vous commande :
+        >c’est de vous aimer les uns les autres. »
+  offeringPrayer:
+  - |-
+    Regarde, Seigneur tout-puissant,
+    le sacrifice que nous offrons
+    >en la fête du bienheureux Charles,
+    et donne-nous d’exprimer dans notre vie
+    >les mystères de la passion du Sauveur
+    >que nous célébrons dans ces rites sacrés.
+  communionAntiphon:
+  - content: |-
+      Le Seigneur nous dit :
+      >« Demeurez en moi comme moi en vous ;
+      >celui qui demeure en moi et en qui je demeure,
+      >celui-là donne beaucoup de fruits. »
+  prayerAfterCommunion:
+  - |-
+    Tu as refait nos forces à cette table sainte, Dieu tout-puissant :
+    donne-nous d’imiter les exemples du bienheureux Charles,
+    >en cherchant à te servir d’un cœur toujours fidèle,
+    >aimant tous les hommes avec une inlassable charité.

@@ -1,0 +1,48 @@
+celebration:
+  title: Sainte Geneviève
+  subtitle: vierge
+  description: |-
+    Née vers 420 à Nanterre, Geneviève menait à Paris la vie retirée des vierges consacrées, dans le jeûne, la prière et le silence. En 451, elle rassura les Parisiens effrayés par l’avance d’Attila, puis les ravitailla lors d’une famine. Elle mourut au début du VIe siècle et fut inhumée sur la colline qui prit depuis son nom, la Montagne-Sainte-Geneviève.
+  commons:
+    - virgins
+  color: white
+
+oration:
+  - |-
+    Répands sur nous, Seigneur, l’esprit d’intelligence et d’amour dont tu as rempli sainte Geneviève ; pour qu’attentifs à te servir et cherchant à lui ressembler, nous sachions te plaire par notre foi et toute notre vie.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Célébrons dans la joie la fête de Geneviève, la sainte de Paris ; accueillie par le Christ, elle a pris place au festin du Royaume avec les vierges fidèles.
+    collect:
+      - |-
+        Répands sur nous, Seigneur, l’esprit d’intelligence et d’amour dont tu as rempli sainte Geneviève ; pour qu’attentifs à te servir et cherchant à lui ressembler, nous sachions te plaire par notre foi et toute notre vie.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Os 2, 16b.17b.21-22
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 44 (45), 11-12a.14-17
+      - partType: READING_2
+        partContents:
+          - biblicalRef: 1 Jn 3, 14-18
+      - partType: ALLELUIA
+        partContents:
+          - biblicalRef: cf. Jdt 15, 9
+            content: |-
+              Tu es la gloire de Jérusalem, tu es la joie d’Israël, tu es l’honneur de notre peuple.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Lc 10, 38-42
+    offeringPrayer:
+      - |-
+        Accueille, Seigneur, les présents de ton peuple, que nous offrons en mémoire de l’amour infini de ton Fils, et donne-nous, à l’exemple de sainte Geneviève, de t’aimer et d’aimer notre prochain d’un cœur toujours plus généreux.
+    communionAntiphon:
+      - content: |-
+          Avec Geneviève puissions-nous dire : pour moi, être unie à Dieu fait tout mon bonheur ; en lui je mets mon espérance.
+    prayerAfterCommunion:
+      - |-
+        Appelés à participer à la table de ton Fils, Seigneur, nous te prions : par la force de ce sacrement, accorde-nous de mener une vie sans faute à l’exemple de sainte Geneviève, dans la pénitence et l’humilité, la patience et la douceur.

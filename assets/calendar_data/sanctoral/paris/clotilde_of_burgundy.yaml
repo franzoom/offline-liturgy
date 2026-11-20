@@ -34,6 +34,11 @@ readings:
 
 mass:
   - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Béni soit Dieu, qui nous a montré son amour !
+          >Par l’intermédiaire de la reine sainte Clotilde
+          >il a fait parvenir la Bonne Nouvelle au peuple des Francs.
     collect:
       - |-
         Regarde avec bonté, Seigneur, le peuple de France ;
@@ -44,3 +49,56 @@ mass:
         Par Jésus Christ, ton Fils, notre Seigneur, +
         >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
         >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 1 P 3, 1-9
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 111, 1-2b.3b-4.5-6a.7-8a.9
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 7, 21-27
+            headline: |-
+              « La maison construite sur le roc et la maison construite sur le sable »
+            acclamationAntiphon: |-
+              Si quelqu’un m’aime, il gardera ma parole, dit le Seigneur ;
+              mon Père l’aimera, et nous viendrons vers lui.
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples :
+              « Ce n’est pas en me disant : “Seigneur, Seigneur !” qu’on entrera dans le royaume des Cieux,
+              >mais c’est en faisant la volonté de mon Père qui est aux cieux.
+              Ce jour-là, beaucoup me diront :
+              >“Seigneur, Seigneur, n’est-ce pas en ton nom que nous avons prophétisé,
+              en ton nom que nous avons expulsé les démons,
+              >en ton nom que nous avons fait beaucoup de miracles ?”
+              Alors je leur déclarerai :
+              >“Je ne vous ai jamais connus.
+              Écartez-vous de moi, vous qui commettez le mal !”
+              Ainsi, celui qui entend les paroles que je dis là et les met en pratique
+              >est comparable à un homme prévoyant
+              >qui a construit sa maison sur le roc.
+              La pluie est tombée, les torrents ont dévalé,
+              >les vents ont soufflé et se sont abattus sur cette maison ;
+              la maison ne s’est pas écroulée,
+              >car elle était fondée sur le roc.
+              Et celui qui entend de moi ces paroles sans les mettre en pratique
+              >est comparable à un homme insensé
+              >qui a construit sa maison sur le sable.
+              La pluie est tombée, les torrents ont dévalé, les vents ont soufflé,
+              >ils sont venus battre cette maison ;
+              la maison s’est écroulée, et son écroulement a été complet. »
+    offeringPrayer:
+      - |-
+        Regarde, Seigneur, le sacrifice de ton peuple :
+        >il te l’offre avec ferveur en l’honneur de sainte Clotilde ;
+        qu’il en reçoive des grâces de salut.
+    communionAntiphon:
+      - content: |-
+          Celui qui fait la volonté de mon Père
+          >a bâti sa maison sur le roc.
+    prayerAfterCommunion:
+      - |-
+        Nous voici comblés de ces dons que nous avons reçus de toi, Seigneur,
+        >en la fête de sainte Clotilde ;
+        fais qu’ils nous purifient, qu’ils nous aident et nous protègent.

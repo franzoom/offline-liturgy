@@ -1,0 +1,76 @@
+celebration:
+  title: Saint Ouen
+  subtitle: évêque
+  description: |-
+    Dadon, dit Ouen, fut d’abord un haut personnage à la cour de Clotaire II et de Dagobert, avant d’être élu évêque de Rouen en 641, où il aida à fonder les abbayes de Fontenelle et de Jumièges. Il mourut en 684 près de Paris, à Clichy, qui prit depuis le nom de Saint-Ouen.
+  commons:
+    - pastors_bishop
+  color: white
+
+oration:
+  - |-
+    Seigneur, tu as voulu que l’évêque saint Ouen soit animé d’une charité vraiment divine et d’une foi qui triomphe du monde ; puisque tu l’as mis au nombre de tes saints pasteurs, accorde-nous, par son intercession, de persévérer dans la foi et la charité afin de participer un jour à sa gloire.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Le Seigneur a consacré saint Ouen par l’onction de son Esprit ; il l’a envoyé annoncer la Bonne Nouvelle aux pauvres, apporter aux opprimés la libération.
+    collect:
+      - |-
+        Seigneur, tu as voulu que l’évêque saint Ouen soit animé d’une charité vraiment divine et d’une foi qui triomphe du monde ; puisque tu l’as mis au nombre de tes saints pasteurs, accorde-nous, par son intercession, de persévérer dans la foi et la charité afin de participer un jour à sa gloire.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 2 Co 3, 1b-6a
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 39 (40), 2.4ab.7-10
+            content: |-
+              D’un grand espoir j’espérais le Seigneur :
+              il s’est penché vers moi pour entendre mon cri.
+              Dans ma bouche il a mis un chant nouveau,
+              une louange à notre Dieu.
+
+              Tu ne voulais ni offrande ni sacrifice,
+              tu as ouvert mes oreilles ;
+              tu ne demandais ni holocauste ni victime,
+              alors j’ai dit : « Voici, je viens.
+
+              « Dans le livre, est écrit pour moi
+              ce que tu veux que je fasse.
+              Mon Dieu, voilà ce que j’aime :
+              ta loi me tient aux entrailles. »
+
+              J’annonce la justice
+              dans la grande assemblée ;
+              vois, je ne retiens pas mes lèvres,
+              Seigneur, tu le sais.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Lc 12, 35-40
+            headline: |-
+              « Vous aussi, tenez-vous prêts »
+            content: |-
+              En ce temps-là, Jésus disait à ses disciples :
+              « Restez en tenue de service,
+              votre ceinture autour des reins,
+              et vos lampes allumées.
+              Soyez comme des gens qui attendent leur maître
+              à son retour des noces,
+              pour lui ouvrir dès qu’il arrivera et frappera à la porte.
+              Heureux ces serviteurs-là que le maître, à son arrivée,
+              trouvera en train de veiller.
+              Amen, je vous le dis :
+              c’est lui qui, la ceinture autour des reins,
+              les fera prendre place à table
+              et passera pour les servir.
+              S’il revient vers minuit ou vers trois heures du matin
+              et qu’il les trouve ainsi,
+              heureux sont-ils !
+    offeringPrayer:
+      - |-
+        En célébrant, Seigneur, la mémoire des saints, nous offrons ce sacrifice à ta louange ; c’est en lui que nous mettons notre espoir : qu’il nous délivre du mal aujourd’hui et demain.
+    prayerAfterCommunion:
+      - |-
+        Après avoir communié au Corps et au Sang de ton Fils, nous te supplions, Seigneur notre Dieu : fais qu’à jamais rachetés, nous possédions enfin ce que nous célébrons avec ferveur dans cette eucharistie.

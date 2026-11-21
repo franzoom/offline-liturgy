@@ -5,11 +5,12 @@ celebration:
     Une des saintes anciennes sur qui nous sommes le mieux renseignés. Née à Corbie en 1381, elle cherche sa voie avec une ténacité tâtonnante, jusqu’à vivre en recluse pendant trois ans. Quand elle a découvert sa vocation — réformer l’ordre franciscain parfois attiédi —, elle obtient du pape d’Avignon, Benoît XIII, le mandat indispensable. Elle groupe ses premières compagnes, sans doute au château de Frontenay ; puis réforme les clarisses de Besançon, fonde Auxonne, Poligny en 1415, institue ou remet en ordre vingt couvents de moniales et sept de Cordeliers, dont celui de Dole. Voyageuse et mystique, énergique et pauvre, elle rayonne sur les grands, les religieux et les humbles. Elle meurt à Gand le 6 mars 1447 ; le couvent de Poligny, son préféré, conserve pieusement son corps depuis 1783.
   commons:
     - virgins
+    - saints-female_religious
   color: white
 
 oration:
   - |-
-    Dieu qui te révèles aux petits et aux pauvres, tu as choisi Sainte Colette pour rappeler à ton Église le message de l’Évangile, et tu nous donnes la joie de conserver le vivant souvenir de son action dans notre région. Accorde-nous, à son exemple, de te consacrer notre vie par la prière et le service des pauvres, et de chercher inlassablement à nous convertir selon l’Évangile de ton Fils. Lui qui.
+    Dieu qui te révèles aux petits et aux pauvres, tu as choisi Sainte Colette pour rappeler à ton Église le message de l’Évangile, et tu nous donnes la joie de conserver le vivant souvenir de son action dans notre région. Accorde-nous, à son exemple, de te consacrer notre vie par la prière et le service des pauvres, et de chercher inlassablement à nous convertir selon l’Évangile de ton Fils. Lui qui règne avec dans l'unité du Saint Esprit, Dieu, pour les siècles des siècles.
 
 readings:
   hymn:
@@ -32,13 +33,13 @@ readings:
         le Royaume est promis aux pauvres.
 
         Que le souvenir de ton appel
-        ne quitte jamais ta mémoire ! R/
+        ne quitte jamais ta mémoire !
         
         C’est le Père qui t’a attirée,
-        et le Fils de Dieu s’est fait ton Chemin. R/
+        et le Fils de Dieu s’est fait ton Chemin.
         
         Claire et François te précèdent ;
-        avec tes sœurs, poursuis ta course de joie. R/
+        avec tes sœurs, poursuis ta course de joie.
 
 morning:
   hymn:
@@ -86,14 +87,127 @@ vespers:
 
 mass:
   - massType: DAY_MASS
-    note: |-
-      Commun des vierges (I–III) ou des saints (VII ou VIII pour les religieux). Le Missel ne donne que des suggestions renvoyant à ce commun : 1re lecture « Tu seras ma fiancée et ce sera pour toujours » (Os 2, 16b.17b, 21-22, fête de sainte Claire) ou Vierges 2/11 août ; psaume 44 (Vierges/11 août) ; évangile « Renoncer à tous ses biens pour être disciple » (Lc 14, 25-33) ou Saints et Saintes 23/11 août.
     collect:
       - |-
-        Dieu qui te révèles aux petits et aux pauvres, tu as choisi Sainte Colette pour rappeler à ton Église le message de l’Évangile, et tu nous donnes la joie de conserver le vivant souvenir de son action dans notre région. Accorde-nous, à son exemple, de te consacrer notre vie par la prière et le service des pauvres, et de chercher inlassablement à nous convertir selon l’Évangile de ton Fils. Lui qui.
+        Dieu qui te révèles aux petits et aux pauvres,
+        >tu as choisi Sainte Colette
+        >pour rappeler à ton Église le message de l’Évangile,
+        et tu nous donnes la joie
+        >de conserver le vivant souvenir
+        >de son action dans notre région.
+        Accorde-nous, à son exemple,
+        >de te consacrer notre vie par la prière
+        >et le service des pauvres,
+        et de chercher inlassablement à nous convertir
+        >selon l’Évangile de ton Fils.
+        Lui qui règne avec dans l'unité du Saint Esprit,
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+    - partType: READING_1
+      partContents:
+      - biblicalRef: Os 2, 16.17b-18.21-22
+        headline: |-
+          « Je ferai de toi mon épouse pour toujours »
+        content: |-
+          Ainsi parle le Seigneur :
+          Mon épouse infidèle,
+          je vais la séduire,
+          je vais l’entraîner jusqu’au désert,
+          et je lui parlerai cœur à cœur.
+          Là, elle me répondra
+          comme au temps de sa jeunesse,
+          au jour où elle est sortie du pays d’Égypte.
+          En ce jour-là – oracle du Seigneur –,
+          voici ce qui arrivera :
+          Tu m’appelleras : « Mon époux »
+          et non plus : « Mon Baal » (c’est-à-dire « mon maître »).
+          Je ferai de toi mon épouse pour toujours,
+          je ferai de toi mon épouse
+          dans la justice et le droit,
+          dans la fidélité et la tendresse ;
+          je ferai de toi mon épouse dans la loyauté,
+          et tu connaîtras le Seigneur.
+    - partType: PSALM
+      partContents:
+      - biblicalRef: Ps 44 (45), 11-12, 14-15, 16-17
+        label: null
+        refAbbr: 44, 11a
+        chorus:
+        - chorusRef: cf. Mt 25, 6
+          content: |-
+            ou : Voici l’Époux qui vient,
+            allez à la rencontre du Christ, le Seigneur !
+        content: |-
+          Écoute, ma fille, regarde et tends l’oreille ;
+          oublie ton peuple et la maison de ton père :
+          le roi sera séduit par ta beauté.
+          Il est ton Seigneur : prosterne-toi devant lui.
+
+          Fille de roi, elle est là, dans sa gloire,
+          vêtue d’étoffes d’or ;
+          on la conduit, toute parée, vers le roi.
+          Des jeunes filles, ses compagnes, lui font cortège.
+
+          On les conduit parmi les chants de fête :
+          elles entrent au palais du roi.
+          À la place de tes pères se lèveront tes fils ;
+          sur toute la terre tu feras d’eux des princes.
+
+    - partType: GOSPEL
+      partContents:
+      - biblicalRef: Lc 14, 25-33
+        headline: |-
+          « Celui qui ne renonce pas à tout ce qui lui appartient ne peut pas être mon disciple »
+        acclamationAntiphon: |-
+          Soyez dans la joie pour l’Alliance nouvelle :
+          heureux les invités aux noces de l’Agneau !
+        content: |-
+          En ce temps-là,
+          de grandes foules faisaient route avec Jésus ;
+          il se retourna et leur dit :
+          >« Si quelqu’un vient à moi
+          >sans me préférer à son père, sa mère, sa femme,
+          >ses enfants, ses frères et sœurs,
+          >et même à sa propre vie,
+          >il ne peut pas être mon disciple.
+          Celui qui ne porte pas sa croix
+          >pour marcher à ma suite
+          ne peut pas être mon disciple.
+          Quel est celui d’entre vous
+          qui, voulant bâtir une tour,
+          ne commence par s’asseoir
+          >pour calculer la dépense
+          >et voir s’il a de quoi aller jusqu’au bout ?
+          Car, si jamais il pose les fondations
+          >et n’est pas capable d’achever,
+          tous ceux qui le verront vont se moquer de lui :
+          >“Voilà un homme qui a commencé à bâtir
+          >et n’a pas été capable d’achever !”
+          Et quel est le roi
+          qui, partant en guerre contre un autre roi,
+          ne commence par s’asseoir
+          >pour voir s’il peut, avec dix mille hommes,
+          >affronter l’autre qui marche contre lui avec vingt mille ?
+          S’il ne le peut pas,
+          il envoie, pendant que l’autre est encore loin,
+          une délégation pour demander les conditions de paix.
+          Ainsi donc, celui d’entre vous qui ne renonce pas
+          à tout ce qui lui appartient
+          >ne peut pas être mon disciple. »
     offeringPrayer:
       - |-
-        Aujourd’hui, Seigneur Dieu, nous honorons l’œuvre accomplie par Sainte Colette en ton Église ; change nos cœurs pour qu’ils te plaisent et rends-nous dignes de célébrer cette Eucharistie. Par Jésus.
+        Aujourd’hui, Seigneur Dieu,
+        nous honorons l’œuvre accomplie
+        par Sainte Colette en ton Église ;
+        change nos cœurs pour qu’ils te plaisent
+        et rends-nous dignes de célébrer cette Eucharistie.
+        Par le Christ notre Seigneur.
     prayerAfterCommunion:
       - |-
-        Nous te rendons grâce, Dieu notre Père : en nous livrant son corps et son sang, ton Fils Jésus nous a prouvé ton amour. Que cette communion transforme nos vies en les mettant au service de ta gloire et des hommes, à l’exemple de ta servante Sainte Colette. Par Jésus.
+        Nous te rendons grâce, Dieu notre Père :
+        en nous livrant son corps et son sang,
+        ton Fils Jésus nous a prouvé ton amour.
+        Que cette communion transforme nos vies
+        en les mettant au service de ta gloire et des hommes,
+        à l’exemple de ta servante Sainte Colette.
+        Par le Christ notre Seigneur.

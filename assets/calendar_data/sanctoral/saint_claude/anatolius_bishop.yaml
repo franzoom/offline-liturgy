@@ -9,7 +9,7 @@ celebration:
 
 oration:
   - |-
-    Dieu qui, depuis des siècles, as sanctifié notre région grâce à l’influence de Saint Anatoile, accorde-nous, par son intercession, de continuer fidèlement à vivre notre foi et de parvenir, comme lui, à la joie de ton Royaume. Par Jésus Christ.
+    Dieu qui, depuis des siècles, as sanctifié notre région grâce à l’influence de Saint Anatoile, accorde-nous, par son intercession, de continuer fidèlement à vivre notre foi et de parvenir, comme lui, à la joie de ton Royaume. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.
 
 readings:
   patristicReading:
@@ -36,18 +36,200 @@ readings:
         sur les chemins de l’Évangile.
 
         Rude est la montée vers la lumière,
-        étroite la porte du Royaume. R/
+        étroite la porte du Royaume.
         
         Humblement, par la patience, 
-        tu entreras dans le mystère de la Pâque. R/
+        tu entreras dans le mystère de la Pâque.
         
         Dans la douceur de l’amour,
-        tu avanceras, le cœur libéré. R/
+        tu avanceras, le cœur libéré.
 
 mass:
   - massType: DAY_MASS
-    note: |-
-      Commun des pasteurs (I — IV pour un évêque). Lectures au choix, par exemple : 1re lecture « Intendants des mystères de Dieu » (1 Co 4, 1-5 = Pasteurs 15) ou « Ministres de l’Église » (Col 1, 24-29 = Pasteurs 21) ; psaume 39 ou 88 (Pasteurs) ; évangile « Pitié de Jésus pour les foules » (Mt 9, 35-38 = Pasteurs 1) ou « Le testament apostolique du Christ » (Jn 15, 9-17 = Pasteurs 11).
+    readingParts:
+    - partType: READING_1
+      partContents:
+      - biblicalRef: 1Co 4, 1-5
+        headline: |-
+          « Auxiliaires du Christ et intendants des mystères de Dieu »
+        content: |-
+          Frères,
+          que l’on nous regarde
+          >comme des auxiliaires du Christ
+          >et des intendants des mystères de Dieu.
+          Or, tout ce que l’on demande aux intendants,
+          >c’est d’être trouvés dignes de confiance.
+          Pour ma part, je me soucie fort peu d’être soumis à votre jugement,
+          >ou à celui d’une autorité humaine ;
+          d’ailleurs, je ne me juge même pas moi-même.
+          Ma conscience ne me reproche rien,
+          >mais ce n’est pas pour cela que je suis juste :
+          celui qui me soumet au jugement,
+          c’est le Seigneur.
+          Ainsi, ne portez pas de jugement prématuré,
+          >mais attendez la venue du Seigneur,
+          car il mettra en lumière ce qui est caché dans les ténèbres,
+          >et il rendra manifestes les intentions des cœurs.
+          Alors, la louange qui revient à chacun
+          >lui sera donnée par Dieu.
+      - biblicalRef: Col 1, 24-29
+        headline: |-
+          « De cette Église, je suis devenu ministre, et Dieu m’a confié une mission »
+        content: |-
+          Frères,
+          maintenant je trouve la joie dans les souffrances
+          >que je supporte pour vous ;
+          ce qui reste à souffrir des épreuves du Christ
+          >dans ma propre chair,
+          je l’accomplis pour son corps qui est l’Église.
+          De cette Église, je suis devenu ministre,
+          et la mission que Dieu m’a confiée,
+          >c’est de mener à bien pour vous l’annonce de sa parole,
+          le mystère qui était caché depuis toujours
+          >à toutes les générations,
+          mais qui maintenant a été manifesté
+          >à ceux qu’il a sanctifiés.
+          Car Dieu a bien voulu leur faire connaître
+          >en quoi consiste la gloire sans prix de ce mystère
+          >parmi toutes les nations :
+          le Christ est parmi vous,
+          >lui, l’espérance de la gloire !
+          Ce Christ, nous l’annonçons :
+          >nous avertissons tout homme,
+          >nous instruisons chacun en toute sagesse,
+          >afin de l’amener à sa perfection dans le Christ.
+          C’est pour cela que je m’épuise à combattre,
+          >avec la force du Christ
+          >dont la puissance agit en moi.
+    - partType: PSALM
+      partContents:
+      - biblicalRef: Ps 39 (40), 2.4ab, 7-8a, 8b-9, 10
+        label: null
+        refAbbr: cf. 39, 8a.9a
+        chorus:
+        - chorusRef: cf. 39, 8a.9a
+          content: |-
+            Me voici, Seigneur,
+            je viens faire ta volonté.
+        content: |-
+          D’un grand espoir j’espérais le Seigneur :
+          il s’est penché vers moi pour entendre mon cri.
+          Dans ma bouche il a mis un chant nouveau,
+          une louange à notre Dieu.
+
+          Tu ne voulais ni offrande ni sacrifice,
+          tu as ouvert mes oreilles ;
+          tu ne demandais ni holocauste ni victime,
+          alors j’ai dit : « Voici, je viens.
+
+          « Dans le livre, est écrit pour moi
+          ce que tu veux que je fasse.
+          Mon Dieu, voilà ce que j’aime :
+          ta loi me tient aux entrailles. »
+
+          J’annonce la justice
+          dans la grande assemblée ;
+          vois, je ne retiens pas mes lèvres,
+          Seigneur, tu le sais.
+      - biblicalRef: Ps 88 (89), 2-3, 4-5, 21-22, 25.27
+        label: null
+        refAbbr: cf. 88, 2a
+        chorus:
+        - chorusRef: cf. 88, 2a
+          content: |-
+            Ton amour, Seigneur,
+            sans fin je le chante !
+        content: |-
+          L’amour du Seigneur, sans fin je le chante ;
+          ta fidélité, je l’annonce d’âge en âge.
+          Je le dis : C’est un amour bâti pour toujours ;
+          ta fidélité est plus stable que les cieux.
+
+          « Avec mon élu, j’ai fait une alliance,
+          j’ai juré à David, mon serviteur :
+          j’établirai ta dynastie pour toujours,
+          je te bâtis un trône pour la suite des âges.
+
+          « J’ai trouvé David, mon serviteur,
+          je l’ai sacré avec mon huile sainte ;
+          et ma main sera pour toujours avec lui,
+          mon bras fortifiera son courage.
+
+          « Mon amour et ma fidélité sont avec lui,
+          mon nom accroît sa vigueur ;
+          il me dira : “Tu es mon Père,
+          mon Dieu, mon roc et mon salut !” »
+    - partType: GOSPEL
+      partContents:
+      - biblicalRef: Mt 9, 35-38
+        headline: |-
+          « La moisson est abondante, mais les ouvriers sont peu nombreux »
+        acclamationAntiphon: |-
+          Je suis le bon pasteur, dit le Seigneur ;
+          je connais mes brebis
+          et mes brebis me connaissent.
+        content: |-
+          En ce temps-là,
+          Jésus parcourait toutes les villes et tous les villages,
+          >enseignant dans leurs synagogues,
+          >proclamant l’Évangile du Royaume
+          >et guérissant toute maladie et toute infirmité.
+          Voyant les foules, Jésus fut saisi de compassion envers elles
+          >parce qu’elles étaient désemparées et abattues
+          >comme des brebis sans berger.
+          Il dit alors à ses disciples :
+          >« La moisson est abondante,
+          >mais les ouvriers sont peu nombreux.
+          Priez donc le maître de la moisson
+          >d’envoyer des ouvriers pour sa moisson. »
+      - biblicalRef: Jn 15, 9-17
+        headline: |-
+          « Je ne vous appelle plus serviteurs, je vous appelle mes amis »
+        acclamationAntiphon: |-
+          Vous n’avez qu’un seul Père,
+          >celui qui est aux cieux ;
+          vous n’avez qu’un seul maître, le Christ.
+        content: |-
+          En ce temps-là, Jésus disait à ses disciples :
+          >« Comme le Père m’a aimé,
+          >moi aussi je vous ai aimés.
+          Demeurez dans mon amour.
+          Si vous gardez mes commandements,
+          >vous demeurerez dans mon amour,
+          >comme moi, j’ai gardé les commandements de mon Père,
+          >et je demeure dans son amour.
+          Je vous ai dit cela pour que ma joie soit en vous,
+          >et que votre joie soit parfaite.
+          Mon commandement, le voici :
+          >Aimez-vous les uns les autres
+          >comme je vous ai aimés.
+          Il n’y a pas de plus grand amour
+          >que de donner sa vie pour ceux qu’on aime.
+          Vous êtes mes amis
+          >si vous faites ce que je vous commande.
+          Je ne vous appelle plus serviteurs,
+          >car le serviteur ne sait pas ce que fait son maître ;
+          >je vous appelle mes amis,
+          >car tout ce que j’ai entendu de mon Père,
+          >je vous l’ai fait connaître.
+          Ce n’est pas vous qui m’avez choisi,
+          >c’est moi qui vous ai choisis et établis
+          >afin que vous alliez,
+          >que vous portiez du fruit,
+          >et que votre fruit demeure.
+          Alors, tout ce que vous demanderez au Père en mon nom,
+          >il vous le donnera.
+          Voici ce que je vous commande :
+          >c’est de vous aimer les uns les autres. »
     collect:
       - |-
-        Dieu qui, depuis des siècles, as sanctifié notre région grâce à l’influence de Saint Anatoile, accorde-nous, par son intercession, de continuer fidèlement à vivre notre foi et de parvenir, comme lui, à la joie de ton Royaume. Par Jésus Christ.
+        Dieu qui, depuis des siècles,
+        >as sanctifié notre région
+        >grâce à l’influence de Saint Anatoile,
+        accorde-nous, par son intercession,
+        >de continuer fidèlement à vivre notre foi 
+        et de parvenir, comme lui,
+        à la joie de ton Royaume.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.

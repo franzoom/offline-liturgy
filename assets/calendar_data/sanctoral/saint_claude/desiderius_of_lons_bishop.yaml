@@ -2,11 +2,80 @@ celebration:
   title: Saint Désiré
   subtitle: évêque
   description: |-
-    Son culte a toujours été attesté à Lons le 27 juillet : ces certitudes de date et de lieu sont les deux « coordonnées » essentielles qui enracinent un saint dans la communauté ecclésiale. En outre, une précision le caractérise dans le catalogue des évêques de Besançon, qui pour cette date mérite confiance : « il acheva sa sainte vie à Lons, et c'est là qu'il repose ». Sa place dans cette liste épiscopale permet de situer l'événement, vers 415. Même profané en 1794, le sarcophage existe toujours, dans la crypte construite au XI^e siècle mais réemployant des éléments plus anciens.
+    Son culte a toujours été attesté à Lons le 27 juillet : ces certitudes de date et de lieu sont les deux « coordonnées » essentielles qui enracinent un saint dans la communauté ecclésiale. En outre, une précision le caractérise dans le catalogue des évêques de Besançon, qui pour cette date mérite confiance : « il acheva sa sainte vie à Lons, et c’est là qu’il repose ». Sa place dans cette liste épiscopale permet de situer l’événement, vers 415. Même profané en 1794, le sarcophage existe toujours, dans la crypte construite au XI^e siècle mais réemployant des éléments plus anciens.
   commons:
     - pastors_bishop
   color: white
 
 oration:
   - |-
-    Seigneur notre Dieu, c'est toi qui mets au cœur de tout homme le désir de te connaître et de te louer. En ce jour où nous fêtons l'évêque Saint Désiré, le premier témoin de l'Évangile en notre région, nous te prions : que ton nom demeure vivant dans nos cœurs et présent sur nos lèvres, pour que tu continues, chez nous, d'être annoncé et célébré. Par Jésus Christ.
+    Seigneur notre Dieu, c’est toi qui mets au cœur de tout homme le désir de te connaître et de te louer. En ce jour où nous fêtons l’évêque Saint Désiré, le premier témoin de l’Évangile en notre région, nous te prions : que ton nom demeure vivant dans nos cœurs et présent sur nos lèvres, pour que tu continues, chez nous, d’être annoncé et célébré. Par Jésus Christ.
+
+readings:
+  patristicReading:
+    - title: Sermon de saint Léon le Grand pour le jour anniversaire de sa consécration épiscopale
+      subtitle: La fête qui célèbre le pasteur est celle de tout le troupeau, dans l’unité du corps mystique.
+      content: |-
+        Je me réjouis, bien-aimés, de votre religieuse affection et de votre dévouement et je rends grâce à Dieu de ce que je reconnais en vous la piété, signe de l’unité chrétienne. En effet – votre affluence en est par elle-même le témoignage –, vous comprenez que le retour de ce jour intéresse la joie de tous et qu’à travers la fête annuelle du pasteur, on honore tout le troupeau. Il est vrai, l’Église universelle de Dieu est ordonnée selon des degrés distincts les uns des autres, afin que son saint corps garde son intégrité à travers ses différents membres ; cependant, comme le dit l’Apôtre, nous ne faisons qu’un dans le Christ et nul n’est à ce point séparé d’un autre dans sa fonction qu’un membre quelconque, tout humble qu’il soit, ne soit pas rattaché à la tête. Dans l’unité de foi et de baptême, la société qui existe entre nous, bien-aimés, ne présente donc pas de failles et la dignité de tous est la même selon la bonne nouvelle annoncée par le très saint apôtre Pierre en ces mots infiniment sacrés : %Et vous-mêmes, comme pierres vivantes, prêtez-vous à l’édification d’un édifice spirituel, pour un sacerdoce saint en vue d’offrir des sacrifices spirituels, agréables à Dieu par Jésus-Christ%, et, plus loin : %Mais vous, vous êtes une race élue, un sacerdoce royal, une nation sainte, un peuple acquis.% (1 P, 2, 5 et 9).
+        De tous les régénérés dans le Christ, en effet, le signe de la croix fait des rois, l’onction du Saint-Esprit les consacre comme prêtres, afin que, mis à part le service particulier de notre ministère, tous les chrétiens spirituels et usant de leur raison se reconnaissent membres de cette race royale et participants de la fonction sacerdotale. Qu’y a-t-il, en effet, d’aussi royal pour une âme que de gouverner son corps dans la soumission à Dieu ? Et qu’y a-t-il d’aussi sacerdotal que de vouer au Seigneur une conscience pure et d’offrir sur l’autel de son cœur les victimes sans taches de la piété ? Cela étant devenu commun à tous par la grâce de Dieu, c’est de votre part un acte religieux et louable que de vous réjouir du jour de notre élévation comme de votre propre honneur ; ainsi, c’est dans tout le corps de l’Église que l’on célèbre l’unique sacrement qui confère le pouvoir du Pontife, sacrement dont la grâce se répand plus abondamment, certes, sur les membres supérieurs, lorsque coule l’huile odorante de la bénédiction, mais qui ne descend pas pour autant avec parcimonie sur les membres inférieurs.
+      responsory: |-
+        R/ De ta demeure de sainteté, Seigneur,
+        regarde et bénis ton peuple.
+        V/ – Vous êtes un peuple acquis
+        pour annoncer les louanges
+        de celui qui vous a appelés des ténèbres
+        à son admirable lumière.
+        – Jadis vous n’étiez pas un peuple,
+        vous êtes maintenant le peuple de Dieu.
+
+morning:
+  intercession:
+    content: |-
+      Par le Christ, notre Seigneur, louons et bénissons Dieu, notre Père de qui viennent toute grâce et tout bien :
+
+      R/ Béni sois-tu, Dieu et Père de Jésus Christ !
+
+      Par ton Fils, tu nous as transmis le dessein bienveillant de ton amour,
+      – ouvre nos oreilles et nos cœurs à la Bonne Nouvelle du Salut.
+
+      Par ton Fils, tu as scellé avec nous une alliance éternelle,
+      – rends-nous fidèles à te servir dans la foi.
+
+      Par ton Fils, tu as racheté le monde, au prix de son sang,
+      – fais de nos vies une continuelle offrande à ta gloire.
+
+      Par ton Fils, tu as envoyé l’Esprit Saint sur l’Église,
+      – remplis-nous de l’Esprit qui nous envoie te révéler au monde.
+
+vespers:
+  intercession:
+    content: |-
+      Avec les témoins du Christ ressuscité sur qui nous appuyons notre foi, rendons grâce à Dieu le Père :
+
+      R/ Loué sois-tu, Dieu de gloire, Dieu notre Père.
+
+      Pour toutes les communautés chrétiennes de cette région,
+      – prions Dieu de les affermir dans la foi et la charité.
+
+      Pour tous les habitants de cette région,
+      – prions Dieu de les combler de ses bénédictions.
+
+      Pour ceux qui souffrent autour de nous,
+      – prions Dieu de leur apporter le soutien de sa grâce.
+
+      Pour nous-mêmes qui menons ici notre vie chrétienne,
+      – prions Dieu de nous inspirer dans nos pensées et nos actions.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Seigneur notre Dieu, c’est toi qui mets au cœur de tout homme le désir de te connaître et de te louer. En ce jour où nous fêtons l’évêque Saint Désiré, le premier témoin de l’Évangile en notre région, nous te prions : que ton nom demeure vivant dans nos cœurs et présent sur nos lèvres, pour que tu continues, chez nous, d’être annoncé et célébré. Par Jésus Christ.
+    note: |-
+      Lectures propres non fixées par le Missel, qui renvoie au choix du Commun des pasteurs (I–IV pour un évêque) ou des saints : 1re lecture — Is 6, 1-8 (Pasteurs 4) ; Rm 12, 3-13 (Pasteurs 13) ; « Offrons à Dieu, par Jésus, un sacrifice de louange, c’est-à-dire l’acte de foi », He 13, 1-3.14-16 (Exilés 5) ; ou Pasteurs. Psaume 39 ou 95 (Pasteurs ou Saints et Saintes). Évangile — « Personne ne connaît le Père, sinon le Fils », Mt 11, 25-30 (Saints et Saintes 4) ; l’exigence évangélique dans les rapports avec les frères, Lc 6, 27-38 (Saints et Saintes 18) ; la mission des disciples, Lc 10, 1-9 (Pasteurs 8).
+    offeringPrayer:
+      - |-
+        Dieu notre Père, que ton Fils lui-même prépare nos cœurs à s’offrir avec lui et que l’intercession de Saint Désiré augmente notre joie de te rendre grâce. Par Jésus.
+    prayerAfterCommunion:
+      - |-
+        À ton peuple, Seigneur Dieu, tu donnes la nourriture dont il a besoin pour parvenir à ton Royaume ; que cette Eucharistie célébrée en la fête de Saint Désiré fortifie notre marche vers toi et nous aide à entraîner nos frères. Par Jésus.

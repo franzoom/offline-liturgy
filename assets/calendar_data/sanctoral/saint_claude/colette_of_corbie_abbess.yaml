@@ -31,12 +31,14 @@ readings:
         R/ Aujourd’hui comme au premier jour,
         le Royaume est promis aux pauvres.
 
-        V/ – Que le souvenir de ton appel
-        ne quitte jamais ta mémoire !
-        – C’est le Père qui t’a attirée,
-        et le Fils de Dieu s’est fait ton Chemin.
-        – Claire et François te précèdent ;
-        avec tes sœurs, poursuis ta course de joie.
+        Que le souvenir de ton appel
+        ne quitte jamais ta mémoire ! R/
+        
+        C’est le Père qui t’a attirée,
+        et le Fils de Dieu s’est fait ton Chemin. R/
+        
+        Claire et François te précèdent ;
+        avec tes sœurs, poursuis ta course de joie. R/
 
 morning:
   hymn:
@@ -81,3 +83,17 @@ vespers:
 
       Nous te rendons grâce pour sa vie, pleine et féconde, de servante du Seigneur, pour sa mort douce et sereine ;
       – que la paix de ton amour accompagne ceux qui vont mourir.
+
+mass:
+  - massType: DAY_MASS
+    note: |-
+      Commun des vierges (I–III) ou des saints (VII ou VIII pour les religieux). Le Missel ne donne que des suggestions renvoyant à ce commun : 1re lecture « Tu seras ma fiancée et ce sera pour toujours » (Os 2, 16b.17b, 21-22, fête de sainte Claire) ou Vierges 2/11 août ; psaume 44 (Vierges/11 août) ; évangile « Renoncer à tous ses biens pour être disciple » (Lc 14, 25-33) ou Saints et Saintes 23/11 août.
+    collect:
+      - |-
+        Dieu qui te révèles aux petits et aux pauvres, tu as choisi Sainte Colette pour rappeler à ton Église le message de l’Évangile, et tu nous donnes la joie de conserver le vivant souvenir de son action dans notre région. Accorde-nous, à son exemple, de te consacrer notre vie par la prière et le service des pauvres, et de chercher inlassablement à nous convertir selon l’Évangile de ton Fils. Lui qui.
+    offeringPrayer:
+      - |-
+        Aujourd’hui, Seigneur Dieu, nous honorons l’œuvre accomplie par Sainte Colette en ton Église ; change nos cœurs pour qu’ils te plaisent et rends-nous dignes de célébrer cette Eucharistie. Par Jésus.
+    prayerAfterCommunion:
+      - |-
+        Nous te rendons grâce, Dieu notre Père : en nous livrant son corps et son sang, ton Fils Jésus nous a prouvé ton amour. Que cette communion transforme nos vies en les mettant au service de ta gloire et des hommes, à l’exemple de ta servante Sainte Colette. Par Jésus.

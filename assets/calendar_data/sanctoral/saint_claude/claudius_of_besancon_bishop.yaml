@@ -11,30 +11,148 @@ oration:
   - |-
     Dieu qui ne cesses d’appeler ton peuple à la sainteté, tu as choisi Saint Claude pour qu’il mène dans notre région une vie de contemplation et y répande les bienfaits de ton amour. Puisqu’il est le patron de notre diocèse, accorde-nous, à sa prière, de maintenir fermement en nous le souci de te connaître, la joie de te célébrer et la force d’être les témoins de tes merveilles. Par Jésus Christ.
 
-readings:
-  hymn:
-    - imite-la-saintete-de-claude
-
-morning:
-  psalmody:
-    - antiphon:
-        - |-
-          Saint Claude, chercheur de Dieu, tu bois, dans le silence, l’eau vive de la grâce, et tu la fais jaillir jusqu’à nous.
-    - antiphon:
-        - |-
-          Saint Claude, semeur de Dieu, tu plantes l’Espérance où germe la Parole et tu la fais grandir jusqu’à nous.
-  evangelicAntiphon:
-    common:
-      - |-
-        Saint Claude, témoin de Dieu, tu vis pour une Alliance qui fonde notre Église et nous la porterons devant nous.
-
-vespers:
-  evangelicAntiphon:
-    common:
-      - |-
-        Quand des frères sont unis et rendent grâce au Seigneur, Dieu lui-même les bénit, alléluia.
-
 mass:
   - massType: DAY_MASS
+    note: |-
+      À Saint-Claude même, dire « en ce lieu » plutôt que « notre région » dans la prière d’ouverture. Lectures laissées au choix par le Missel, non fixées : 1re lecture Pasteurs 18, ou Saints et Saintes 26/28 ; psaume 15 ou 102 ; Évangile Docteurs 5, Saints et Saintes 21/24, selon le Commun des pasteurs ou des saints. Credo à dire là où Saint Claude est titulaire ou patron, et à Saint-Claude.
+    collect:
+      - |-
+        Dieu qui ne cesses d’appeler ton peuple à la sainteté, tu as choisi Saint Claude pour qu’il mène dans notre région (en ce lieu) une vie de contemplation et y répande les bienfaits de ton amour. Puisqu’il est le patron de notre diocèse, accorde-nous, à sa prière, de maintenir fermement en nous le souci de te connaître, la joie de te célébrer et la force d’être les témoins de tes merveilles. Par Jésus Christ.
+    offeringPrayer:
+      - |-
+        Accepte les offrandes que nous te présentons, Seigneur, en la fête de Saint Claude ; puisqu’il a consacré sa vie à te louer, fais de nos existences une continuelle Action de Grâce. Par Jésus.
     prefaceList:
       - claudius_of_besancon
+    prayerAfterCommunion:
+      - |-
+        Seigneur notre Dieu, tu nous permets, par cette Eucharistie, de continuer la foi et la louange qui ont rempli la vie de l’évêque Saint Claude. Accorde-nous de rester fidèles à son exemple et de recevoir son aide, afin que notre diocèse demeure une terre accueillante à la semence de ton Royaume. Par Jésus.
+
+readings:
+  hymn:
+    - claudii-sanctos-imitare-mores
+  biblicalReading:
+    - title: De la lettre de saint Paul aux Romains (12, 1-21)
+      subtitle: Le culte spirituel
+      ref: Rm 12, 1-21
+      responsory: |-
+        R/ Fais grandir entre nous, Seigneur,
+        l’accord et l’harmonie d’un même amour.
+        V/ – Menez une vie digne de l’Évangile,
+        fermes dans un même esprit,
+        luttant d’un cœur unanime.
+        – Sans vous soucier de vos propres affaires,
+        ayez à cœur celles de vos frères,
+        à l’exemple du Christ Jésus.
+  patristicReading:
+    - title: De la « Règle de saint Benoît »
+      subtitle: La Règle bénédictine n’était pas encore en usage à Condat au temps de l’abbé Claude ; pourtant, elle met en forme l’idéal qui, de tout temps, a orienté la vie monastique.
+      content: |-
+        L’abbé du monastère songera toujours à la charge qu’il a reçue et à celui auquel il devra rendre compte de sa gestion. Il saura qu’il doit plutôt servir que régir. Il doit donc être savant dans la loi divine, pour savoir et avoir d’où tirer le neuf et l’ancien, chaste, sobre, miséricordieux. Et que la miséricorde l’emporte toujours sur le jugement, afin qu’il obtienne pour lui le même traitement. Qu’il haïsse les vices et qu’il aime les frères. Dans ses réprimandes mêmes, qu’il agisse prudemment et sans rien de trop, de peur qu’en voulant trop gratter la rouille, il ne brise le vase. Il ne perdra jamais de vue sa propre fragilité, et il se souviendra qu’il ne faut pas écraser le roseau cassé. Nous ne voulons pas dire par là qu’il permettra aux vices de se développer, mais qu’il les retranchera prudemment et avec charité, suivant qu’il lui semblera opportun pour chaque individu, comme nous l’avons déjà dit. Et il s’efforcera d’être plus aimé que redouté.
+        Il ne sera pas agité et inquiet, il ne sera pas excessif et obstiné, il ne sera pas jaloux et soupçonneux à l’excès, car il ne serait jamais en repos. Dans les ordres qu’il donne, il sera prévoyant et réfléchi, et que l’œuvre qu’il commande soit selon Dieu ou selon le siècle, il usera de discrétion et de mesure, en songeant à la discrétion du saint patriarche Jacob, qui disait : %Si je fais peiner davantage mes troupeaux à marcher, ils mourront tous en un jour.% Prenant garde à ce texte et aux autres sur la discrétion, mère des vertus, il mettra de la mesure en tout, en sorte que les forts aient à désirer et que les faibles n’aient pas à prendre la fuite.
+        Et surtout, qu’il garde en tous ses points la présente règle, afin qu’après avoir bien servi, il entende le Seigneur lui dire, comme au bon serviteur qui distribua en son temps le froment à ses compagnons de service : %En vérité, je vous le dis, il l’établira sur tous ses biens.%
+      responsory: |-
+        St. Dans un lieu perdu,
+        ils ont cherché la source
+        où renaît la soif ;
+        dans un lieu caché,
+        ils suivaient en pauvres
+        le Christ pauvre.
+        Avec une humble patience,
+        ils attendaient l’heure
+        où d’autres viendraient
+        se joindre à leur quête.
+
+        R/ Tes amis te cherchaient, Seigneur :
+        Ils nous guident vers toi.
+
+        V/ – A nous maintenant de les suivre
+        vers cette obscurité
+        où nous guettons le reflet de ta gloire.
+        – Ils ont maintenant rejoint ton visage :
+        leur chemin demeure
+        celui que tu nous traces.
+
+        ou
+
+        St. Aujourd’hui le Seigneur nous appelle,
+        il cherche son disciple,
+        une voix crie : « Écoute, fils,
+        prête l’oreille de ton cœur,
+        l’heure est venue de marcher vers la vie. »
+
+        R/ Dieu nous attend, pressons le pas
+        sur les chemins de l’Evangile.
+
+        V/ – Rude est la montée vers la lumière,
+        étroite la porte du Royaume.
+        – Humblement, par la patience,
+        tu entreras dans le mystère de la Pâque.
+        – Dans la douceur de l’amour,
+        tu avanceras, le cœur libéré.
+    - title: Homélie de saint Fulgence sur le serviteur fidèle
+      subtitle: Les intendants des mystères de Dieu
+      content: |-
+        Le Seigneur a dit, voulant montrer le devoir spécial des serviteurs qu’il a mis à la tête de son peuple : %Quel est donc l’intendant fidèle et sensé à qui le maître de maison a confié la charge de sa famille pour lui donner en temps voulu la mesure de froment ? Heureux serviteur, que son maître, en arrivant, trouvera occupé à ce travail !%
+        Qui est ce maître de maison, mes frères ? Le Christ, sans aucun doute, puisqu’il a dit à ses disciples : %Vous m’appelez Maître et Seigneur, et vous avez raison, car vraiment je le suis.%
+        Et quelle est cette famille du maître ? C’est évidemment celle que le Seigneur lui-même a rachetée du pouvoir de l’ennemi et a transférée dans son royaume. Cette famille sainte est l’Église catholique qui se répand dans le monde entier par sa grande fécondité, et qui se glorifie d’avoir été rachetée par la rançon du sang de son Seigneur. Comme lui-même l’a dit : %Le Fils de l’homme n’est pas venu pour être servi, mais pour servir et donner sa vie en rançon pour la multitude.%
+        Il est aussi le bon Pasteur, qui a donné sa vie pour ses brebis. Le troupeau du bon pasteur, c’est donc la famille du Rédempteur.
+        Mais quel est cet intendant, qui doit être en même temps fidèle et sensé ? L’Apôtre Paul nous le montre, lorsqu’il dit, à propos de lui-même et de ses compagnons : %Que l’on nous regarde comme les serviteurs du Christ et les intendants des mystères de Dieu.% Et ce que l’on demande aux intendants, c’est de se montrer fidèles.
+        Mais personne d’entre nous ne doit penser que les Apôtres sont les seuls à avoir reçu la charge d’intendants ; et le serviteur paresseux, négligeant le devoir du combat spirituel, ne doit pas somnoler, ce qui serait infidèle et insensé. C’est pourquoi le saint Apôtre montre que les évêques eux aussi sont des intendants, lorsqu’il dit : %Il faut que l’évêque soit irréprochable, en sa qualité d’intendant de Dieu.%
+        Nous sommes donc les serviteurs du père de famille, nous sommes les intendants du Seigneur, nous avons reçu la mesure de froment que nous devons vous distribuer. Si nous cherchons ce que signifie cette mesure de froment, c’est encore le saint Apôtre qui nous l’explique, lorsqu’il dit : %Chacun selon la mesure de foi que Dieu lui a donnée en partage.% Ce partage que le Christ appelle mesure de froment, Paul l’appelle mesure de foi, pour nous faire comprendre que le froment spirituel n’est autre que le mystère adorable de la foi chrétienne. Nous vous distribuons la mesure de ce froment, au nom du Seigneur, chaque fois que, éclairés par le don de la grâce qui vient de l’Esprit, nous exposons la doctrine selon la règle de la vraie foi. Et vous recevrez cette mesure de froment, par l’intermédiaire des intendants du Seigneur, lorsque vous entendez chaque jour, grâce aux serviteurs de Dieu, la parole de vérité.
+      responsory: |-
+        R/ Heureux le serviteur fidèle,
+        il entre dans la joie de son maître.
+        V/ – Je rends grâce au Seigneur Jésus :
+        il m’a jugé assez fidèle
+        pour m’appeler à son service.
+        – En moi la grâce du Seigneur a surabondé,
+        avec la foi et la charité
+        qui est dans le Christ Jésus.
+
+morning:
+  hymn:
+    - nous-te-chantons-o-pere-des-hommes
+  evangelicAntiphon:
+    - |-
+      Qui fait la volonté de mon Père, dit le Seigneur, est mon frère, ma sœur et ma mère, alleluia.
+  intercession:
+    content: |-
+      En ce jour où l’Église de Saint-Claude célèbre son saint patron, louons et bénissons le Christ, notre Seigneur, et supplions-le :
+
+      R/ Béni sois-tu, Seigneur ! Prends pitié de nous !
+
+      Nous te prions pour notre Évêque, les prêtres, les diacres et tous ceux qui exercent une charge pastorale dans ce diocèse :
+      – envoie sur eux ton esprit de fidélité et de courage.
+
+      Nous te prions pour les moines, les moniales, les religieux, les religieuses, et tous les baptisés qui vivent dans ce diocèse :
+      – fortifie leur communion avec toi.
+
+      Nous te prions pour tous ceux qui ont une responsabilité dans la bonne marche sociale et économique du département :
+      – inspire-leur le souci de la vérité et la recherche de la justice.
+
+      Nous te prions pour tous ceux qui vivent en notre région, quelles que soient leur race, leur religion ou leurs opinions :
+      – accorde à tous la paix, et à chacun la dignité.
+
+vespers:
+  hymn:
+    - nous-te-chantons-o-pere-des-hommes
+  evangelicAntiphon:
+    - |-
+      Quand des frères sont unis et rendent grâce au Seigneur, Dieu lui-même les bénit, alleluia.
+  intercession:
+    content: |-
+      En ce jour où nous fêtons saint Claude, adressons nos supplications au Christ, notre Sauveur :
+
+      R/ Sauve ton peuple, bénis ton héritage.
+
+      Toi qui es la Tête, nous te prions pour l’Église, ton Corps :
+      – répands dans notre diocèse la Bonne Nouvelle du Salut, et donne à chaque chrétien une foi vivante pour l’annoncer.
+
+      Toi qui es l’image du Père,
+      – offre à chaque habitant de ce territoire la liberté de vivre et la joie de connaître Celui qui t’a envoyé.
+
+      Toi qui n’as cessé de faire le bien autour de toi,
+      – prends soin des malades, des infirmes, des handicapés et des démunis qui nous entourent, et donne-nous d’en avoir souci comme toi.
+
+      Toi, le premier-né d’entre les morts,
+      – fais entrer nos frères et sœurs défunts dans le Royaume de vie.

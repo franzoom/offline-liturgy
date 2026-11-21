@@ -10,3 +10,38 @@ celebration:
 oration:
   - |-
     En appelant, Seigneur, en ce jour Jean Henry Gruyer et ses compagnons au témoignage suprême du martyre, tu as manifesté que tu n’aimes rien tant que la liberté de ton Église ; par leur intercession, accorde à tous les baptisés de témoigner de toi sans entraves devant les hommes. Par Jésus Christ.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Soyons dans l’action de grâce
+          pour la splendeur du témoignage
+          rendu aujourd’hui par tant de martyrs ;
+          Ils sont allés à la mort comme à une fête,
+          entrant ainsi dans la joie de leur Maître.
+    collect:
+      - |-
+        En appelant, Seigneur, en ce jour Jean Henry Gruyer et ses compagnons au témoignage suprême du martyre, tu as manifesté que tu n’aimes rien tant que la liberté de ton Église ; par leur intercession, accorde à tous les baptisés de témoigner de toi sans entraves devant les hommes. Par Jésus Christ.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 1 P 3, 14-17
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 125 (126), 1-2ab, 2cd-3, 4-5, 6
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 15, 18-21
+    offeringPrayer:
+      - |-
+        En mémoire du martyre du bienheureux Jean Henry Gruyer et de ses compagnons, nous t’offrons, Seigneur, cet unique sacrifice, source et modèle de tout martyre : qu’il nous garde jusqu’à la mort fidèles à te servir et inébranlables dans la confession de ton nom. Par Jésus.
+    communionAntiphon:
+      - content: |-
+          Rassemblés autour de l’autel
+          pour communier au sacrifice du Christ,
+          nous sommes unis à ses prêtres
+          qui ont témoigné pour lui jusqu’à la mort.
+    prayerAfterCommunion:
+      - |-
+        Nourris du vrai pain du ciel et rassemblés en un seul corps dans le Christ, nous te prions, Seigneur notre Dieu : accorde-nous de n’être jamais séparés de ton amour ni de l’unité de ton Église. Par Jésus.

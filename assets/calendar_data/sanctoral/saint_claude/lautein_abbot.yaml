@@ -24,6 +24,7 @@ readings:
         Entre-temps le renom de sa sainteté commença de se répandre partout, à retentir en tous lieux ; et beaucoup se mirent à quitter le siècle et à se soumettre à sa direction. De la sorte, on vit 70 moines rassemblés à Silèze pour le service du Seigneur. Il construisit encore un autre monastère, au lieu dit Maximiacus, où vécurent environ 40 moines. Tous pratiquaient avec rigueur l’abstinence, les veilles, l’obéissance, et toutes autres bonnes actions.
         Alors que son âge dépassait déjà largement la cinquantaine, par la volonté de Dieu et en considération des frères, il fut ordonné prêtre par le saint évêque de Maximiacus ; mais, voulant mener un genre de vie plus strict, il retournait à Silèze.
       responsory: |-
+        [rubric]Stance[/rubric]
         Apprenons du Maître à devenir disciples.
         Il n’est pas venu juger ses frères
         mais les sauver.
@@ -54,3 +55,11 @@ readings:
 
         R/ Le Seigneur est venu jusqu’à nous
         pour nous élever jusqu’à lui.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Dieu qui as conduit Saint Lothain dans notre région pour qu’il te consacre sa vie par la prière et la pénitence, accorde-nous, à son exemple, d’entendre ton appel à nous convertir et à vivre pour toi. Par Jésus Christ.
+    note: |-
+      Le Missel ne donne pas de lectures propres pour cette mémoire : il renvoie au Commun des Saints et Saintes (première lecture et évangile) et au Commun des Pasteurs (psaume 22 ou 88), avec des suggestions d’exemples : Dt 8, 2-3.14b-16a (Commun du Saint-Sacrement n° 4) ou Rm 8, 26-30 (Saints et Saintes n° 20) pour la première lecture ; Mc 3, 31-35 (Saints et Saintes n° 14) ou Lc 6, 17.20-26 (20 août) pour l’évangile.

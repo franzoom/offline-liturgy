@@ -12,6 +12,7 @@ invitatory:
 firstVespers:
   hymn:
   - jesus-seigneur
+  - iesu-rex-admirabilis
   psalmody:
     - psalm: PSALM_112
       antiphon:
@@ -30,7 +31,7 @@ firstVespers:
     voici le pouvoir de son Christ !
     V/ Premier-né d’entre les morts
     et prince des rois de la terre. R/
-    V  Celui qui nous aime
+    V/ Celui qui nous aime
     a fait de nous son Royaume. R/
   evangelicAntiphon:
     common:
@@ -62,6 +63,7 @@ firstVespers:
 morning:
   hymn:
   - ton-royaume
+  - iesu-rex-admirabilis
   psalmody:
     - psalm: PSALM_92
       antiphon:
@@ -100,7 +102,9 @@ morning:
       rassemble-les dans l’unité.
       
       Toi, le Roi de l’univers,
-      restaure en toi toute la création.</P> Toi, qui rends témoignage à la vérité,
+      restaure en toi toute la création.
+      
+      Toi, qui rends témoignage à la vérité,
       sois le maître des esprits et des cœurs.
       
       Toi, notre maître et notre modèle,
@@ -109,6 +113,7 @@ morning:
 readings:
   hymn:
   - qu-il-soit-beni-qu-il-vienne
+  - iesu-rex-admirabilis
   psalmody:
     - psalm: PSALM_2
       antiphon:
@@ -215,6 +220,7 @@ middleOfDay:
 vespers:
   hymn:
   - jesus-seigneur
+  - iesu-rex-admirabilis
   psalmody:
     - psalm: PSALM_109
       antiphon:

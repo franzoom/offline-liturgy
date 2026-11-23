@@ -9,13 +9,20 @@ import '../office_detection.dart';
 /// For the Middle of Day office, the ferial office is always used,
 /// UNLESS the celebration is a feast or solemnity (precedence <= 9),
 /// in which case that celebration's office is used instead.
+///
+/// [precedenceOverride] gives a celebration of the day another rank — a
+/// memorial or a feast celebrated as a local solemnity — so that it is
+/// picked here too, as in [vespersDetection] and [complineDetection].
 Future<Map<String, CelebrationContext>> middleOfDayDetection(
   Calendar calendar,
   DateTime date,
-  DataLoader dataLoader,
-) async {
-  final celebrations =
+  DataLoader dataLoader, {
+  PrecedenceOverride? precedenceOverride,
+}) async {
+  final rawCelebrations =
       await detectOfficeCelebrations(calendar, date, dataLoader);
+  final celebrations =
+      applyPrecedenceOverride(rawCelebrations, date, precedenceOverride);
 
   if (celebrations.isEmpty) return {};
 

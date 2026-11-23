@@ -141,4 +141,24 @@ void main() {
       expect(complines.values.first.dayOfCompline, 'sunday');
     });
   });
+
+  group('middleOfDayDetection', () {
+    test('an obligatory memorial alone keeps the ferial office', () async {
+      final office = await middleOfDayDetection(
+          calendarFor(agathaDay), agathaDay, dataLoader);
+      final c = office.values.single;
+      expect(c.celebrationCode, isNot(agatha));
+      expect(c.precedence, isNot(4));
+    });
+
+    test("a raised memorial's day uses its own office", () async {
+      final office = await middleOfDayDetection(
+          calendarFor(agathaDay), agathaDay, dataLoader,
+          precedenceOverride: raise(agathaDay, agatha));
+      final c = office.values.single;
+      expect(c.celebrationCode, agatha);
+      expect(c.precedence, 4);
+      expect(c.isCelebrable, isTrue);
+    });
+  });
 }

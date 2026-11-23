@@ -31,7 +31,7 @@ export 'offices/middle_of_day/middle_of_day_detection.dart';
 export 'classes/vespers_class.dart';
 export 'offices/vespers/vespers_export.dart';
 export 'offices/vespers/vespers_detection.dart';
-export 'offices/office_detection.dart' show PrecedenceOverride;
+export 'offices/office_detection.dart' show PrecedenceOverride, detectCelebrations;
 export 'offices/votive_offices.dart';
 export 'classes/mass_class.dart';
 export 'offices/masses/mass_export.dart';

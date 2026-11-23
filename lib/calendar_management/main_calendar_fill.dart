@@ -112,7 +112,11 @@ void _fillAdvent(
       liturgicalTime: 'advent',
       defaultCelebrationTitle: defaultCelebrationTitle,
       precedence: precedence,
-      liturgicalColor: 'violet',
+      // Gaudete Sunday: kept in sync with advent_3_0.yaml's own `color:
+      // pink` — this root colour is computed before that file is read, so
+      // it can't just defer to it.
+      liturgicalColor:
+          defaultCelebrationTitle == 'advent_3_0' ? 'pink' : 'violet',
       breviaryWeek: (adventDays ~/ 7) % 4 + 1,
     );
     calendar.addDayContent(date, dayContent);
@@ -283,7 +287,11 @@ void _fillLentAndHolyWeek(
       liturgicalTime: 'lent',
       defaultCelebrationTitle: defaultCelebrationTitle,
       precedence: precedence,
-      liturgicalColor: 'violet',
+      // Laetare Sunday: kept in sync with lent_3_0.yaml's own `color: pink`
+      // — this root colour is computed before that file is read, so it
+      // can't just defer to it.
+      liturgicalColor:
+          defaultCelebrationTitle == 'lent_3_0' ? 'pink' : 'violet',
       breviaryWeek: (lentDays ~/ 7) % 4 + 1,
     );
     calendar.addDayContent(date, dayContent);

@@ -34,6 +34,16 @@ String _detectDayOfWeek(DateTime date, String celebrationType) {
   };
 }
 
+/// Fixes the French elision a title built as "Complies de $celebrationName"
+/// misses when the celebration's own name already carries a capitalized
+/// article (e.g. "Le Christ Roi de l'univers") or needs one it doesn't have
+/// (e.g. "Dédicace").
+String _frenchifyComplineTitle(String title) {
+  return title
+      .replaceAll('de Le ', 'du ')
+      .replaceAll('de Dédicace', 'de la dédicace');
+}
+
 /// Returns a map of possible Compline Offices, filtered and sorted by precedence
 ///
 /// [precedenceOverride] gives a celebration of today or tomorrow another
@@ -162,7 +172,7 @@ Future<Map<String, ComplineDefinition>> complineDetection(
     final dayOfCompline = _detectDayOfWeek(date, celebrationType);
 
     final description = celebrationType == 'solemnity'
-        ? 'Complies de ${c.celebrationGlobalName}'
+        ? _frenchifyComplineTitle('Complies de ${c.celebrationGlobalName}')
         : [
             'Complies du ${dayOfWeekLabels[todayName]}',
             if (liturgicalTimeLabelsDative[liturgicalTime] != null)
@@ -196,8 +206,8 @@ Future<Map<String, ComplineDefinition>> complineDetection(
       if (precedence > 4) continue;
       tomorrowHasSolemnity = true;
 
-      final String eveDescription =
-          'Complies de la veille de ${c.celebrationGlobalName}';
+      final String eveDescription = _frenchifyComplineTitle(
+          'Complies de la veille de ${c.celebrationGlobalName}');
       possibleComplines[eveDescription] = complineOf(c,
           precedence: precedence,
           celebrationType: 'solemnityeve',

@@ -25,9 +25,7 @@ class TextLibrary<T extends Object> {
       T? text;
       try {
         final content = await dataLoader.loadYaml('$folder/$code.yaml');
-        if (content.isEmpty) {
-          log('No file for $folder/$code', name: 'TextLibrary', level: 900);
-        } else {
+        if (content.isNotEmpty) {
           text = parse(content);
         }
       } catch (e) {

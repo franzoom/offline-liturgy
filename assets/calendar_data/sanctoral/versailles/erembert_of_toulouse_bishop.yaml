@@ -1,0 +1,104 @@
+celebration:
+  title: Saint Erembert
+  subtitle: évêque
+  description: |-
+    Né vers la fin du vie siècle à Viliolicors (Fillancourt), ville située au bord de la Seine sur l’emplacement de l’actuelle ville de Saint-Germain-en-Laye, Erembert fut d’abord moine à l’abbaye bénédictine de Fontenelle (près de Rouen), fondée par saint Wandrille. Devenu évêque de Toulouse vers 656, il resta quinze ans en Aquitaine puis finit sa vie en retournant dans son abbaye normande, où il rendit son âme à Dieu entre 671 et 688.
+  commons:
+    - pastors_bishop
+  color: white
+
+oration:
+  - |-
+    Accorde-nous, Dieu tout-puissant, de célébrer dignement la fête de l’évêque saint Erembert ; puisque tu lui as donné de se dévouer par la parole et par l’exemple à ceux dont il avait reçu la charge, fais que nous ressentions toujours l’appui de sa prière auprès de toi.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Accorde-nous, Dieu tout-puissant,
+        de célébrer dignement la fête de l’évêque saint Erembert ;
+        puisque tu lui as donné de se dévouer par la parole et par l’exemple,
+        >à ceux dont il avait reçu la charge,
+        >fais que nous ressentions toujours l’appui de sa prière auprès de toi.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Rm 12, 3-13
+            headline: |-
+              « Selon la grâce que Dieu nous a accordée, nous avons reçu des dons qui sont différents »
+            content: |-
+              Frères,
+              par la grâce qui m’a été accordée,
+              >je dis à chacun d’entre vous :
+              n’ayez pas de prétentions déraisonnables,
+              >mais pensez à être raisonnables,
+              >chacun dans la mesure de la mission que Dieu lui a confiée.
+              Prenons une comparaison :
+              en un corps unique,
+              nous avons plusieurs membres,
+              >qui n’ont pas tous la même fonction ;
+              de même, nous qui sommes plusieurs,
+              nous sommes un seul corps dans le Christ,
+              >et membres les uns des autres, chacun pour sa part.
+              Et selon la grâce que Dieu nous a accordée,
+              >nous avons reçu des dons qui sont différents.
+              Si c’est le don de prophétie, que ce soit à proportion du message confié ;
+              >si c’est le don de servir, que l’on serve ;
+              >si l’on est fait pour enseigner, que l’on enseigne ;
+              >pour réconforter, que l’on réconforte.
+              Celui qui donne, qu’il soit généreux ;
+              >celui qui dirige, qu’il soit empressé ;
+              >celui qui pratique la miséricorde, qu’il ait le sourire.
+              Que votre amour soit sans hypocrisie.
+              Fuyez le mal avec horreur,
+              >attachez-vous au bien.
+              Soyez unis les uns aux autres par l’affection fraternelle,
+              >rivalisez de respect les uns pour les autres.
+              Ne ralentissez pas votre élan,
+              >restez dans la ferveur de l’Esprit,
+              >servez le Seigneur,
+              ayez la joie de l’espérance,
+              >tenez bon dans l’épreuve,
+              >soyez assidus à la prière.
+              Partagez avec les fidèles qui sont dans le besoin,
+              >pratiquez l’hospitalité avec empressement.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 22 (23), 1-6
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Lc 22, 24-30
+            headline: |-
+              « Je dispose pour vous du Royaume, comme mon Père en a disposé pour moi »
+            acclamationAntiphon: |-
+              Je vous appelle mes amis, dit le Seigneur,
+              car tout ce que j’ai entendu de mon Père,
+              je vous l’ai fait connaître.
+            content: |-
+              En ce temps-là,
+              les Apôtres en arrivèrent à se quereller :
+              >lequel d’entre eux, à leur avis, était le plus grand ?
+              Mais Jésus leur dit :
+              >« Les rois des nations
+              >les commandent en maîtres,
+              >et ceux qui exercent le pouvoir sur elles
+              >se font appeler bienfaiteurs.
+              Pour vous, rien de tel !
+              Au contraire, que le plus grand d’entre vous
+              >devienne comme le plus jeune,
+              >et le chef, comme celui qui sert.
+              Quel est en effet le plus grand :
+              >celui qui est à table, ou celui qui sert ?
+              N’est-ce pas celui qui est à table ?
+              Eh bien moi, je suis au milieu de vous
+              >comme celui qui sert.
+              Vous, vous avez tenu bon avec moi dans mes épreuves.
+              Et moi, je dispose pour vous du Royaume,
+              >comme mon Père en a disposé pour moi.
+              Ainsi vous mangerez et boirez à ma table
+              >dans mon Royaume,
+              >et vous siégerez sur des trônes
+              >pour juger les douze tribus d’Israël. »

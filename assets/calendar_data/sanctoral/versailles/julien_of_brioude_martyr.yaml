@@ -1,0 +1,98 @@
+celebration:
+  title: Saint Julien de Brioude
+  subtitle: martyr
+  description: |-
+    L’antique bourgade qui précéda le Versailles actuel, avant que fût construit le château, avait une église dédiée à saint Julien, soldat romain, martyr en Auvergne au ive siècle. Considéré longtemps comme l’un des plus célèbres martyrs du centre de la Gaule, la France comptait à la fin du xviiie siècle plus de huit cents églises placées sous son patronage.
+  commons:
+    - martyr
+  color: red
+
+oration:
+  - |-
+    Seigneur, tu as embrasé le cœur de saint Julien, ton martyr, du feu de ton amour, en lui donnant la force de mourir pour toi ; puisque nous fêtons sa naissance au ciel, accorde-nous d’être affermis dans l’amour de ton nom.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Seigneur, tu as embrasé le cœur de saint Julien, ton martyr,
+        du feu de ton amour,
+        >en lui donnant la force de mourir pour toi :
+        puisque nous fêtons sa naissance au ciel,
+        >accorde-nous d’être affermis dans l’amour de ton nom.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: He 10, 32-36
+            headline: |-
+              « Vous avez soutenu le dur combat des souffrances »
+            content: |-
+              Frères,
+              souvenez-vous de ces premiers jours
+              >où vous veniez de recevoir la lumière du Christ :
+              vous avez soutenu alors le dur combat des souffrances,
+              >tantôt donnés en spectacle sous les insultes et les brimades,
+              >tantôt solidaires de ceux qu’on traitait ainsi.
+              En effet, vous avez montré de la compassion
+              >à ceux qui étaient en prison ;
+              vous avez accepté avec joie
+              >qu’on vous arrache vos biens,
+              car vous étiez sûrs de posséder un bien encore meilleur, et permanent.
+              Ne perdez pas votre assurance ;
+              >grâce à elle, vous serez largement récompensés.
+              Car l’endurance vous est nécessaire
+              >pour accomplir la volonté de Dieu
+              >et obtenir ainsi la réalisation des promesses.
+      - partType: PSALM
+        partContents:
+          # verset le plus proche retrouvé dans les fichiers existants (Ps 123 (124), 2-3, 4-5, 6a.7cd-8) ;
+          # le découpage de versets exact demandé, 2-5.6a.7cd-8, n’a pas été retrouvé tel quel
+          - biblicalRef: Ps 123 (124), 2-5.6a.7cd-8
+            refAbbr: 123, 7ab
+            chorus:
+              - chorusRef: 123, 7ab
+                content: |-
+                  Comme un oiseau, nous avons échappé
+                  au filet du chasseur.
+            content: |-
+              Sans le Seigneur qui était pour nous
+              quand des hommes nous assaillirent,
+              alors ils nous avalaient tout vivants,
+              dans le feu de leur colère.
+
+              Alors le flot passait sur nous,
+              le torrent nous submergeait ;
+              alors nous étions submergés
+              par les flots en furie.
+
+              Béni soit le Seigneur !
+              Le filet s’est rompu : nous avons échappé.
+              Notre secours est le nom du Seigneur
+              qui a fait le ciel et la terre.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 10, 28-33
+            headline: |-
+              « Ne craignez pas ceux qui tuent le corps »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses Apôtres :
+              >« Ne craignez pas ceux qui tuent le corps
+              >sans pouvoir tuer l’âme ;
+              >craignez plutôt celui qui peut faire périr dans la géhenne
+              >l’âme aussi bien que le corps.
+              Deux moineaux ne sont-ils pas vendus pour un sou ?
+              Or, pas un seul ne tombe à terre
+              >sans que votre Père le veuille.
+              Quant à vous, même les cheveux de votre tête sont tous comptés.
+              Soyez donc sans crainte :
+              >vous valez bien plus qu’une multitude de moineaux.
+              Quiconque se déclarera pour moi devant les hommes,
+              >moi aussi je me déclarerai pour lui
+              >devant mon Père qui est aux cieux.
+              Mais celui qui me reniera devant les hommes,
+              >moi aussi je le renierai
+              >devant mon Père qui est aux cieux. »

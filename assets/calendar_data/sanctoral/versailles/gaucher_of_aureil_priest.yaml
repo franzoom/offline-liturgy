@@ -1,0 +1,76 @@
+celebration:
+  title: Saint Gaucher
+  subtitle: prêtre
+  description: |-
+    Né vers le milieu du xie siècle à Meulan-sur-Seine, Gaucher était désireux de vivre la radicalité de l’Évangile et s’en alla avec un compagnon mener la vie érémitique dans le Limousin. Il passa quelque temps dans la communauté de Saint-Ruf en Avignon où s’expérimentait le renouveau canonial, mettant l’accent sur la pauvreté évangélique et la vie commune menée en référence à « la vie des apôtres ». Gaucher mourut le 9 avril 1140 et fut canonisé par le pape Célestin III en 1194.
+  commons:
+    - pastors
+  color: white
+
+oration:
+  - |-
+    Seigneur, tu as fait de saint Gaucher un modèle de vie commune et un prêtre dévoué au salut de ton peuple ; alors que nous célébrons sa fête, accorde-nous d’être, à son exemple, les serviteurs de ta Parole et les témoins de ton amour.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Seigneur, tu as fait de saint Gaucher
+        un modèle de vie commune et un prêtre dévoué au salut de ton peuple :
+        >alors que nous célébrons sa fête,
+        accorde-nous d’être, à son exemple, les serviteurs de ta Parole
+        >et les témoins de ton amour.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Ac 4, 32-35
+            headline: |-
+              « Un seul cœur et une seule âme »
+            content: |-
+              La multitude de ceux qui étaient devenus croyants
+              >avait un seul cœur et une seule âme ;
+              et personne ne disait
+              >que ses biens lui appartenaient en propre,
+              >mais ils avaient tout en commun.
+              C’est avec une grande puissance
+              que les Apôtres rendaient témoignage
+              >de la résurrection du Seigneur Jésus,
+              et une grâce abondante reposait sur eux tous.
+              Aucun d’entre eux n’était dans l’indigence,
+              car tous ceux qui étaient propriétaires de domaines ou de maisons
+              >les vendaient,
+              et ils apportaient le montant de la vente
+              >pour le déposer aux pieds des Apôtres ;
+              puis on le distribuait en fonction des besoins de chacun.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 1, 1-2.3-4a.4b-6
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 19, 27-29
+            headline: |-
+              « Vous qui m’avez suivi, vous recevrez le centuple »
+            acclamationAntiphon: |-
+              Heureux les pauvres de cœur,
+              car le royaume des Cieux est à eux !
+            content: |-
+              En ce temps-là,
+              Pierre prit la parole et dit à Jésus :
+              >« Voici que nous avons tout quitté pour te suivre :
+              >quelle sera donc notre part ? »
+              Jésus leur déclara :
+              >« Amen, je vous le dis :
+              >lors du renouvellement du monde,
+              >lorsque le Fils de l’homme siégera sur son trône de gloire,
+              >vous qui m’avez suivi,
+              >vous siégerez vous aussi sur douze trônes
+              >pour juger les douze tribus d’Israël.
+              Et celui qui aura quitté, à cause de mon nom,
+              >des maisons, des frères, des sœurs,
+              >un père, une mère, des enfants,
+              >ou une terre,
+              >recevra le centuple,
+              >et il aura en héritage la vie éternelle. »

@@ -1,0 +1,90 @@
+celebration:
+  title: Sainte Honorine
+  subtitle: vierge et martyre
+  description: |-
+    Une tradition locale rapporte qu’Honorine, chrétienne gallo-romaine du ive siècle, a été martyrisée par les autorités romaines. Son tombeau est toujours visible dans l’église du prieuré des Augustins à Graville, construite aux xie et xiiie siècles. Ses reliques auraient été recueillies avec ferveur lors des invasions normandes à Conflans, là où l’Oise rencontre la Seine. La cité joignit à son nom celui de la sainte vénérée contre les inondations et la sécheresse ainsi que pour la délivrance des captifs et la protection des enfants. La batellerie s’est aussi mise sous son patronage.
+  commons:
+    - virgins_martyrs
+  color: red
+
+oration:
+  - |-
+    Tu nous réjouis chaque année, Seigneur, par la fête de sainte Honorine qui fut un modèle de pureté et de courage ; accorde-nous aujourd’hui l’appui de ses mérites.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Tu nous réjouis chaque année, Seigneur,
+        par la fête de sainte Honorine
+        >qui fut un modèle de pureté et de courage ;
+        accorde-nous aujourd’hui l’appui de ses mérites.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Jc 1, 2-4.12
+            headline: |-
+              « Heureux l’homme qui supporte l’épreuve »
+            content: |-
+              Considérez comme une joie extrême, mes frères,
+              >de buter sur toute sorte d’épreuves.
+              Vous le savez, une telle vérification de votre foi
+              >produit l’endurance,
+              et l’endurance doit s’accompagner d’une action parfaite,
+              >pour que vous soyez parfaits et intègres,
+              >sans que rien ne vous manque.
+              Heureux l’homme qui supporte l’épreuve avec persévérance,
+              car, sa valeur une fois vérifiée,
+              il recevra la couronne de la vie
+              >promise à ceux qui aiment Dieu.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 123 (124), 2-3, 4-5, 6a.7cd-8
+            refAbbr: 123, 7ab
+            chorus:
+              - chorusRef: 123, 7ab
+                content: |-
+                  Comme un oiseau, nous avons échappé
+                  au filet du chasseur.
+            content: |-
+              Sans le Seigneur qui était pour nous
+              quand des hommes nous assaillirent,
+              alors ils nous avalaient tout vivants,
+              dans le feu de leur colère.
+
+              Alors le flot passait sur nous,
+              le torrent nous submergeait ;
+              alors nous étions submergés
+              par les flots en furie.
+
+              Béni soit le Seigneur !
+              Le filet s’est rompu : nous avons échappé.
+              Notre secours est le nom du Seigneur
+              qui a fait le ciel et la terre.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 10, 28-33
+            headline: |-
+              « Ne craignez pas ceux qui tuent le corps »
+            content: |-
+              En ce temps-là,
+              Jésus disait à ses Apôtres :
+              >« Ne craignez pas ceux qui tuent le corps
+              >sans pouvoir tuer l’âme ;
+              >craignez plutôt celui qui peut faire périr dans la géhenne
+              >l’âme aussi bien que le corps.
+              Deux moineaux ne sont-ils pas vendus pour un sou ?
+              Or, pas un seul ne tombe à terre
+              >sans que votre Père le veuille.
+              Quant à vous, même les cheveux de votre tête sont tous comptés.
+              Soyez donc sans crainte :
+              >vous valez bien plus qu’une multitude de moineaux.
+              Quiconque se déclarera pour moi devant les hommes,
+              >moi aussi je me déclarerai pour lui
+              >devant mon Père qui est aux cieux.
+              Mais celui qui me reniera devant les hommes,
+              >moi aussi je le renierai
+              >devant mon Père qui est aux cieux. »

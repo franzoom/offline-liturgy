@@ -1,0 +1,70 @@
+celebration:
+  title: Saint Nicaise et ses compagnons
+  subtitle: martyrs
+  description: |-
+    Nicaise est un évêque envoyé par le pape Clément au ier siècle, en même temps que saint Denis, pour évangéliser la Gaule. Accompagné du prêtre Quirin et du diacre Scuvicule, il évangélisa la vallée de la Seine et devint le premier évêque de Rouen. On rapporte qu’ils furent décapités à Gasny durant la persécution de Domitien et qu’ils auraient porté leur tête dans leurs mains lors de leur martyre, tout comme saint Denis. La tradition rapporte qu’une pieuse femme nommée Pience ensevelit leurs corps dans une île de l’Epte.
+  commons:
+    - martyrs
+  color: red
+
+oration:
+  - |-
+    Seigneur, tu as voulu que saint Nicaise et ses compagnons apportent la lumière de l’Évangile dans la région où nous habitons ; puisque nous tenons de leur témoignage le nom de chrétiens, fais que nous conformions toute notre vie à la foi de notre cœur.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Seigneur, tu as voulu que saint Nicaise et ses compagnons
+        apportent la lumière de l’Évangile dans la région où nous habitons ;
+        >puisque nous tenons de leur témoignage le nom de chrétiens,
+        >fais que nous conformions toute notre vie à la foi de notre cœur.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 2 Co 6, 1-10
+            headline: |-
+              « Nous nous recommandons comme des ministres de Dieu »
+            content: |-
+              Frères,
+              en tant que coopérateurs de Dieu,
+              nous vous exhortons encore
+              à ne pas laisser sans effet la grâce reçue de lui.
+              Car il dit dans l’Écriture :
+              %Au moment favorable je t’ai exaucé,
+              au jour du salut je t’ai secouru.%
+              Le voici maintenant le moment favorable,
+              le voici maintenant le jour du salut.
+              Pour que notre ministère ne soit pas exposé à la critique,
+              nous veillons à ne choquer personne en rien.
+              Au contraire, en tout, nous nous recommandons nous-mêmes
+              comme des ministres de Dieu :
+              par beaucoup d’endurance,
+              dans les détresses, les difficultés, les angoisses,
+              les coups, la prison, les émeutes,
+              les fatigues, le manque de sommeil et de nourriture,
+              par la chasteté, la connaissance,
+              la patience et la bonté,
+              la sainteté de l’esprit et la sincérité de l’amour,
+              par une parole de vérité,
+              par une puissance qui vient de Dieu ;
+              nous nous présentons avec les armes de la justice
+              pour l’attaque et la défense,
+              dans la gloire et le mépris,
+              dans la mauvaise et la bonne réputation.
+              On nous traite d’imposteurs, et nous disons la vérité ;
+              on nous prend pour des inconnus, et nous sommes très connus ;
+              on nous croit mourants, et nous sommes bien vivants ;
+              on nous punit, et nous ne sommes pas mis à mort ;
+              on nous croit tristes, et nous sommes toujours joyeux ;
+              pauvres, et nous faisons tant de riches ;
+              démunis de tout, et nous possédons tout.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 95 (96), 1-3.7-8a, 9-10a
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Jn 17, 20-23

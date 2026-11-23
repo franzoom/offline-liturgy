@@ -1,0 +1,65 @@
+language: french
+geography: diocese
+parent: france
+frenchName: diocèse de Versailles
+frenchLocative: dans le diocèse de Versailles
+
+feasts:
+  honorine_of_conflans_virgin_and_martyr:
+    month: 2
+    day: 27
+    precedence: 12
+  gaucher_of_aureil_priest:
+    month: 4
+    day: 9
+    precedence: 12
+  adjutor_of_vernon_hermit:
+    month: 4
+    day: 30
+    precedence: 12
+  erembert_of_toulouse_bishop:
+    month: 5
+    day: 14
+    precedence: 12
+  germanus_of_paris_bishop:
+    month: 5
+    day: 28
+    precedence: 10
+  yves_of_chartres_bishop:
+    month: 5
+    day: 29
+    precedence: 10
+  thibault_of_marly_abbot:
+    month: 7
+    day: 8
+    precedence: 10
+  # patron principal du diocèse
+  louis_ix_of_france:
+    month: 8
+    day: 25
+    precedence: 4
+  julien_of_brioude_martyr:
+    month: 8
+    day: 30
+    precedence: 10
+  jean_henri_gruyer_and_companions_martyrs:
+    month: 9
+    day: 2
+    precedence: 10
+  # patron secondaire du diocèse
+  denis_of_paris_bishop_and_martyr:
+    month: 10
+    day: 9
+    precedence: 10
+  nicasius_of_rouen_bishop_and_companions_martyrs:
+    month: 10
+    day: 11
+    precedence: 12
+  all_saints_of_the_diocese:
+    month: 11
+    day: 8
+    precedence: 10
+  anniversary_of_the_dedication_of_the_cathedral:
+    month: 11
+    day: 12
+    precedence: 8

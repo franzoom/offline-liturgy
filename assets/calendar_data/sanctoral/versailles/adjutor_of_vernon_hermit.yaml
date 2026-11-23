@@ -1,0 +1,89 @@
+celebration:
+  title: Saint Adjutor
+  subtitle: ermite
+  description: |-
+    Adjuteur ou Ayoutre est né dans le dernier quart du xie siècle à Vernon-sur-Seine (Eure), non loin de Blaru (Yvelines) d’où était originaire sa mère. En 1095, il prit part à la première croisade avec le duc de Normandie et connut une longue captivité près de Jérusalem dont il fut délivré miraculeusement. À son retour, il édifia une chapelle dédiée à sainte Marie-Madeleine et entra à l’abbaye bénédictine de Tiron (Perche). Après douze années de vie monastique, il obtint de vivre en ermite près de sa chapelle, dans la prière, la pénitence et l’accueil des malades qui venaient le visiter. Il mourut en 1131. On l’invoqua contre les maladies et les épidémies.
+  commons:
+    - saints-male_religious
+  color: white
+
+oration:
+  - |-
+    Tu as donné, Seigneur, à saint Adjutor la grâce d’imiter le Christ humble et pauvre ; accorde-nous par son intercession de suivre fidèlement l’appel que nous avons reçu, et d’atteindre la perfection dont tu nous as donné l’exemple dans la personne de Jésus, ton Fils. Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Tu as donné, Seigneur, à saint Adjutor
+        la grâce d’imiter le Christ humble et pauvre ;
+        accorde-nous par son intercession,
+        >de suivre fidèlement l’appel que nous avons reçu,
+        >et d’atteindre la perfection dont tu nous as donné l’exemple
+        >dans la personne de Jésus, ton Fils.
+        Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Ga 6, 14-16
+            headline: |-
+              « Par la croix, le monde est crucifié pour moi, et moi pour le monde »
+            content: |-
+              Frères,
+              pour moi, que la croix de notre Seigneur Jésus Christ
+              >reste ma seule fierté.
+              Par elle, le monde est crucifié pour moi,
+              >et moi pour le monde.
+              Ce qui compte, ce n’est pas d’être circoncis ou incirconcis,
+              >c’est d’être une création nouvelle.
+              Pour tous ceux qui marchent selon cette règle de vie
+              >et pour l’Israël de Dieu,
+              paix et miséricorde.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 125 (126), 1-6
+            chorus:
+              - chorusRef: cf. 125, 5
+                content: |-
+                  Ceux qui sèment dans les larmes
+                  moissonnent dans la joie.
+            content: |-
+              Quand le Seigneur ramena les captifs à Sion,
+              nous étions comme en rêve !
+              Alors notre bouche était pleine de rires,
+              nous poussions des cris de joie.
+
+              Alors on disait parmi les nations :
+              « Quelles merveilles fait pour eux le Seigneur ! »
+              Quelles merveilles le Seigneur fit pour nous :
+              nous étions en grande fête !
+
+              Ramène, Seigneur, nos captifs,
+              comme les torrents au désert.
+              Qui sème dans les larmes
+              moissonne dans la joie.
+
+              Il s’en va, il s’en va en pleurant,
+              il jette la semence ;
+              il s’en vient, il s’en vient dans la joie,
+              il rapporte les gerbes.
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mt 13, 44-46
+            headline: |-
+              « Dans sa joie, il va vendre tout ce qu’il possède, et il achète ce champ »
+            content: |-
+              En ce temps-là,
+              Jésus disait aux foules :
+              >« Le royaume des Cieux est comparable
+              >à un trésor caché dans un champ ;
+              >l’homme qui l’a découvert le cache de nouveau.
+              Dans sa joie, il va vendre tout ce qu’il possède,
+              >et il achète ce champ.
+              Ou encore :
+              Le royaume des Cieux est comparable
+              >à un négociant qui recherche des perles fines.
+              Ayant trouvé une perle de grande valeur,
+              >il va vendre tout ce qu’il possède,
+              >et il achète la perle. »

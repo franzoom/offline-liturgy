@@ -1,16 +1,13 @@
 {
   "advent_17": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "17 décembre"
   },
   "advent_18": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "18 décembre"
   },
   "advent_19": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "19 décembre"
   },
@@ -19,27 +16,22 @@
     "title": "Premier Dimanche de l’Avent"
   },
   "advent_20": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "20 décembre"
   },
   "advent_21": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "21 décembre"
   },
   "advent_22": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "22 décembre"
   },
   "advent_23": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "23 décembre"
   },
   "advent_24": {
-    "color": "violet",
     "dir": "ferial_days",
     "title": "24 décembre"
   },
@@ -48,6 +40,7 @@
     "title": "Deuxième Dimanche de l’Avent"
   },
   "advent_3_0": {
+    "color": "pink",
     "dir": "ferial_days",
     "title": "Troisième Dimanche de l’Avent"
   },
@@ -1269,6 +1262,7 @@
     "title": "Deuxième Dimanche du Carême"
   },
   "lent_3_0": {
+    "color": "pink",
     "dir": "ferial_days",
     "title": "Troisième Dimanche du Carême"
   },
@@ -5276,5 +5270,118 @@
     ],
     "dir": "sanctoral",
     "title": "Saint Venant"
+  },
+  "versailles/adjutor_of_vernon_hermit": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Adjutor"
+  },
+  "versailles/all_saints_of_the_diocese": {
+    "color": "white",
+    "commons": [
+      "saints"
+    ],
+    "dir": "sanctoral",
+    "title": "Tous les saints du diocèse de Versailles"
+  },
+  "versailles/anniversary_of_the_dedication_of_the_cathedral": {
+    "color": "white",
+    "commons": [
+      "dedicace_outside",
+      "dedicace_inside"
+    ],
+    "dir": "sanctoral",
+    "title": "Dédicace de la cathédrale Saint-Louis de Versailles"
+  },
+  "versailles/denis_of_paris_bishop_and_martyr": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Denis"
+  },
+  "versailles/erembert_of_toulouse_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Erembert"
+  },
+  "versailles/gaucher_of_aureil_priest": {
+    "color": "white",
+    "commons": [
+      "pastors"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Gaucher"
+  },
+  "versailles/germanus_of_paris_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Germain de Paris"
+  },
+  "versailles/honorine_of_conflans_virgin_and_martyr": {
+    "color": "red",
+    "commons": [
+      "virgins_martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Sainte Honorine"
+  },
+  "versailles/jean_henri_gruyer_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Bienheureux Jean-Henri Gruyer, Jean-Charles Caron, Denis-Claude Duval, Jean-Charles Legrand, Nicolas Bizé, Jean-Pierre Simon"
+  },
+  "versailles/julien_of_brioude_martyr": {
+    "color": "red",
+    "commons": [
+      "martyr"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Julien de Brioude"
+  },
+  "versailles/louis_ix_of_france": {
+    "color": "white",
+    "commons": [
+      "saints-male_married"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Louis, roi de France"
+  },
+  "versailles/nicasius_of_rouen_bishop_and_companions_martyrs": {
+    "color": "red",
+    "commons": [
+      "martyrs"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Nicaise et ses compagnons"
+  },
+  "versailles/thibault_of_marly_abbot": {
+    "color": "white",
+    "commons": [
+      "saints-male_religious_abbot"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Thibault de Marly"
+  },
+  "versailles/yves_of_chartres_bishop": {
+    "color": "white",
+    "commons": [
+      "pastors_bishop"
+    ],
+    "dir": "sanctoral",
+    "title": "Saint Yves de Chartres"
   }
 }

@@ -1,0 +1,64 @@
+celebration:
+  title: Saint Yves de Chartres
+  subtitle: évêque
+  description: |-
+    Né en 1040, Yves étudia les lettres et la philosophie à Paris, puis la théorie et le droit canonique à l’abbaye du Bec, où il eut pour condisciple saint Anselme. Évêque de Chartres pendant vingt-cinq ans, il est l’auteur de collections canoniques conseillant aux pasteurs « d’avoir en vue le salut des âmes » dans l’application des lois. Il apporta aussi une contribution importante à la législation et à la sacramentalité du mariage. La place qu’Yves de Chartres occupe dans notre sanctoral rappelle qu’une partie de notre diocèse est constituée de paroisses autrefois dépendantes de Chartres.
+  commons:
+    - pastors_bishop
+  color: white
+
+oration:
+  - |-
+    Lumière des fidèles et pasteur des âmes, Dieu qui as mis saint Yves à la tête de ton peuple pour le nourrir de sa parole et le guider par son exemple, accorde-nous, par son intercession, de garder la foi qu’il a su transmettre et de suivre le chemin qu’il a tracé.
+
+mass:
+  - massType: DAY_MASS
+    collect:
+      - |-
+        Lumière des fidèles et pasteur des âmes,
+        Dieu qui as mis saint Yves à la tête de ton peuple,
+        >pour le nourrir de sa parole et le guider par son exemple,
+        accorde-nous, par son intercession,
+        >de garder la foi qu’il a su transmettre et de suivre le chemin qu’il a tracé.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: 2 Co 5, 14-20
+            headline: |-
+              « Dieu nous a donné le ministère de la réconciliation »
+            content: |-
+              Frères,
+              l’amour du Christ nous saisit
+              quand nous pensons qu’un seul est mort pour tous,
+              >et qu’ainsi tous ont passé par la mort.
+              Car le Christ est mort pour tous,
+              afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+              >mais sur lui, qui est mort et ressuscité pour eux.
+              Désormais nous ne regardons plus personne
+              >d’une manière simplement humaine :
+              si nous avons connu le Christ de cette manière,
+              >maintenant nous ne le connaissons plus ainsi.
+              Si donc quelqu’un est dans le Christ,
+              >il est une créature nouvelle.
+              Le monde ancien s’en est allé,
+              >un monde nouveau est déjà né.
+              Tout cela vient de Dieu :
+              il nous a réconciliés avec lui par le Christ,
+              >et il nous a donné le ministère de la réconciliation.
+              Car c’est bien Dieu
+              >qui, dans le Christ, réconciliait le monde avec lui :
+              il n’a pas tenu compte des fautes,
+              >et il a déposé en nous la parole de la réconciliation.
+              Nous sommes donc les ambassadeurs du Christ,
+              >et par nous c’est Dieu lui-même qui lance un appel :
+              nous le demandons au nom du Christ,
+              >laissez-vous réconcilier avec Dieu.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 102 (103), 1-4.8-9.13-14.17-18a
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Mc 12, 28-34

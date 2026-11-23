@@ -1,0 +1,127 @@
+celebration:
+  title: Saint Thibault de Marly
+  subtitle: abbé
+  description: |-
+    Né à Marly-le-Roi, ce contemporain de saint Louis — que le pieux roi tenait en haute estime — devint abbé des Vaux-de-Cernay, un monastère détruit à la Révolution et dont les ruines se trouvent en forêt de Rambouillet. Il fut attaché à défendre la pauvreté voulue par saint Bernard et n’hésitait pas à accomplir les humbles tâches de la vie commune. Une tradition attribue à sa prière la naissance de Blanche, la fille aînée de saint Louis. L’ordre de Cîteaux célèbre sa fête le 8 juillet ; pour la commodité des pèlerins, la fête locale se célèbre le lundi de Pentecôte.
+  commons:
+    - saints-male_religious_abbot
+  color: white
+
+oration:
+  - |-
+    Tu as donné, Seigneur, à saint Thibault la grâce d’imiter le Christ humble et pauvre ; accorde-nous par son intercession de suivre fidèlement l’appel que nous avons reçu, et d’atteindre la perfection dont tu nous as donné l’exemple dans la personne de Jésus, ton Fils. Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Le juste grandira comme un palmier, il s’étendra comme un cèdre du Liban ;
+          >planté dans les parvis du Seigneur, il grandira dans la maison de notre Dieu.
+    collect:
+      - |-
+        Tu as donné, Seigneur, à saint Thibault
+        la grâce d’imiter le Christ humble et pauvre ;
+        accorde-nous par son intercession,
+        >de suivre fidèlement l’appel que nous avons reçu,
+        >et d’atteindre la perfection dont tu nous as donné l’exemple
+        >dans la personne de Jésus, ton Fils.
+        Lui qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Ph 3, 8-14
+            headline: |-
+              « Je cours vers le but en vue du prix auquel Dieu nous appelle là-haut dans le Christ Jésus »
+            content: |-
+              Frères,
+              tous les avantages que j’avais autrefois,
+              je les considère comme une perte
+              à cause de ce bien qui dépasse tout :
+              la connaissance du Christ Jésus, mon Seigneur.
+              À cause de lui, j’ai tout perdu ;
+              je considère tout comme des ordures,
+              afin de gagner un seul avantage, le Christ,
+              et, en lui, d’être reconnu juste,
+              non pas de la justice venant de la loi de Moïse
+              mais de celle qui vient de la foi au Christ,
+              la justice venant de Dieu, qui est fondée sur la foi.
+              Il s’agit pour moi de connaître le Christ,
+              d’éprouver la puissance de sa résurrection
+              et de communier aux souffrances de sa Passion,
+              en devenant semblable à lui dans sa mort,
+              avec l’espoir de parvenir
+              à la résurrection d’entre les morts.
+              Certes, je n’ai pas encore obtenu cela,
+              je n’ai pas encore atteint la perfection,
+              mais je poursuis ma course pour tâcher de saisir,
+              puisque j’ai moi-même été saisi par le Christ Jésus.
+              Frères, quant à moi, je ne pense pas avoir déjà saisi cela.
+              Une seule chose compte :
+              oubliant ce qui est en arrière, et lancé vers l’avant,
+              je cours vers le but en vue du prix
+              auquel Dieu nous appelle là-haut dans le Christ Jésus.
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 83 (84), 3. 4.5-6a.8a.11
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Lc 14, 25-33
+            headline: |-
+              « Celui qui ne renonce pas à tout ce qui lui appartient ne peut pas être mon disciple »
+            acclamationAntiphon: |-
+              Heureux les pauvres de cœur,
+              car le royaume des Cieux est à eux !
+            content: |-
+              En ce temps-là,
+              de grandes foules faisaient route avec Jésus ;
+              il se retourna et leur dit :
+              « Si quelqu’un vient à moi
+              sans me préférer à son père, sa mère, sa femme,
+              ses enfants, ses frères et sœurs,
+              et même à sa propre vie,
+              il ne peut pas être mon disciple.
+              Celui qui ne porte pas sa croix
+              pour marcher à ma suite
+              ne peut pas être mon disciple.
+              Quel est celui d’entre vous
+              qui, voulant bâtir une tour,
+              ne commence par s’asseoir,
+              pour calculer la dépense
+              et voir s’il a de quoi aller jusqu’au bout ?
+              Car, si jamais il pose les fondations
+              et n’est pas capable d’achever,
+              tous ceux qui le verront vont se moquer de lui :
+              “Voilà un homme qui a commencé à bâtir
+              et n’a pas été capable d’achever !”
+              Et quel est le roi
+              qui, partant en guerre contre un autre roi,
+              ne commence par s’asseoir
+              pour voir s’il peut, avec dix mille hommes,
+              affronter l’autre qui marche contre lui avec vingt mille ?
+              S’il ne le peut pas,
+              il envoie, pendant que l’autre est encore loin,
+              une délégation pour demander les conditions de paix.
+              Ainsi donc, celui d’entre vous qui ne renonce pas
+              à tout ce qui lui appartient
+              ne peut pas être mon disciple. »
+    offeringPrayer:
+      - |-
+        Accepte, Seigneur, comme un hommage de tes serviteurs,
+        l’offrande que nous déposons sur ton autel
+        >en cette fête de saint Thibault ;
+        sanctifiée par ton Esprit,
+        >qu’elle nous donne la force de marcher vers toi
+        >à travers les épreuves et les joies de cette vie.
+        Par le Christ, notre Seigneur.
+    communionAntiphon:
+      - content: |-
+          Le plus grand d’entre vous, dit le Seigneur, doit prendre la place du plus jeune,
+          et celui qui commande, la place de celui qui sert.
+    prayerAfterCommunion:
+      - |-
+        Toi qui nous as fortifiés par cette communion, Seigneur,
+        aide-nous à suivre l’exemple de saint Thibault,
+        >dans l’amour qu’il a su te témoigner
+        >et la charité dont il a fait preuve envers ton peuple.
+        Par le Christ, notre Seigneur.

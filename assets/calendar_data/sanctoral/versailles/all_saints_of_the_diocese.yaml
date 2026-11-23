@@ -1,0 +1,113 @@
+celebration:
+  title: Tous les saints du diocèse de Versailles
+  commons:
+    - saints
+  color: white
+
+morning:
+  hymn:
+    - tandis-que-dans-les-cieux
+  oration:
+  - |-
+    Dieu notre Père, source de toute sainteté, nous proclamons tes merveilles en fêtant aujourd’hui tous les saints de notre Église : tu leur as donné sur terre les grâces les plus diverses et tu les rassembles au ciel dans une même gloire ; par leur intercession, accorde à chacun d’entre nous de répondre fidèlement à sa vocation. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.
+
+
+vespers:
+  hymn:
+    - tandis-que-dans-les-cieux
+  oration:
+  - |-
+    Dieu notre Père, source de toute sainteté, nous proclamons tes merveilles en fêtant aujourd’hui tous les saints de notre Église : tu leur as donné sur terre les grâces les plus diverses et tu les rassembles au ciel dans une même gloire ; par leur intercession, accorde à chacun d’entre nous de répondre fidèlement à sa vocation. Par Jésus Christ, ton Fils, notre Seigneur, qui vit et règne avec toi dans l’unité du Saint-Esprit, Dieu, pour les siècles des siècles.
+
+
+oration:
+  - |-
+    Dieu notre Père, source de toute sainteté, nous proclamons tes merveilles en fêtant aujourd’hui tous les saints de notre Église : tu leur as donné sur terre les grâces les plus diverses et tu les rassembles au ciel dans une même gloire ; par leur intercession, accorde à chacun d’entre nous de répondre fidèlement à sa vocation.
+
+mass:
+  - massType: DAY_MASS
+    entranceAntiphon:
+      - content: |-
+          Approchons-nous de Dieu avec pleine assurance,
+          entourés d’une foule immense de témoins,
+          >les yeux fixés sur Jésus,
+          >qui est à l’origine et au terme de notre foi.
+    collect:
+      - |-
+        Dieu notre Père, source de toute sainteté,
+        nous proclamons tes merveilles en fêtant aujourd’hui
+        >tous les saints de notre Église :
+        tu leur as donné sur terre les grâces les plus diverses
+        >et tu les rassembles au ciel dans une même gloire ;
+        par leur intercession,
+        >accorde à chacun d’entre nous de répondre fidèlement à sa vocation.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.
+    readingParts:
+      - partType: READING_1
+        partContents:
+          - biblicalRef: Ap 19, 1.5-9a
+            headline: |-
+              « Heureux les invités au repas des noces de l’Agneau »
+            content: |-
+              Moi, Jean,
+              j’ai entendu comme la voix forte
+              d’une foule immense dans le ciel,
+              qui proclamait :
+              >« Alléluia !
+              Le salut, la gloire,
+              >la puissance à notre Dieu. »
+              Et du Trône sortit une voix qui disait :
+              >« Louez notre Dieu,
+              >vous tous qui le servez,
+              >vous tous qui le craignez,
+              >les petits et les grands. »
+              Alors j’entendis comme la voix d’une foule immense,
+              >comme la voix des grandes eaux,
+              >ou celle de violents coups de tonnerre.
+              Elle proclamait :
+              >« Alléluia !
+              Il règne, le Seigneur notre Dieu,
+              >le Souverain de l’univers.
+              Soyons dans la joie, exultons,
+              >et rendons gloire à Dieu !
+              Car elles sont venues,
+              >les Noces de l’Agneau,
+              >et pour lui son épouse
+              >a revêtu sa parure.
+              Un vêtement de lin fin lui a été donné,
+              >splendide et pur. »
+              Car le lin, ce sont les actions justes des saints.
+              Puis l’ange me dit :
+              >« Écris :
+              >Heureux les invités
+              >au repas des noces de l’Agneau ! »
+      - partType: PSALM
+        partContents:
+          - biblicalRef: Ps 148, 1-2.7a.11A.12.13-14a
+      - partType: GOSPEL
+        partContents:
+          - biblicalRef: Lc 6, 17.20-26
+    offeringPrayer:
+      - |-
+        Accueille avec bonté, Seigneur,
+        l’offrande que nous te présentons pour fêter les saints de notre Église,
+        >et puisque leur vie fut d’un si grand prix à tes yeux,
+        >qu’il en soit de même aujourd’hui de notre empressement à te servir à cet autel.
+        Par le Christ, notre Seigneur.
+    communionAntiphon:
+      - content: |-
+          Au banquet du Seigneur les justes sont en fête,
+          en sa présence ils débordent d’allégresse.
+    prayerAfterCommunion:
+      - |-
+        Dieu qui nous réconfortes par un même pain
+        et nous soutiens d’une même espérance,
+        >resserre chaque jour les liens de notre unité,
+        afin que, formant avec tous les saints de notre Église
+        >un seul corps et un seul esprit dans le Christ,
+        >nous ressuscitions avec lui dans la gloire.
+        Par Jésus Christ, ton Fils, notre Seigneur, +
+        >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+        >Dieu, pour les siècles des siècles.

@@ -8,7 +8,7 @@ celebration:
 
 oration:
 - |-
-  Seigneur Jésus Christ, Fils du Dieu vivant, qui, pour promouvoir en tous lieux le culte du sacrement de l’Eucharistie, as suscité saint Pierre-Julien Eymard et par lui as donné à ton Église de nouveaux enfants : accorde-nous, par son intercession et à son exemple, de devenir en esprit et vérité les adorateurs et les témoins d’un si grand mystère. Toi qui.
+  Seigneur Jésus Christ, Fils du Dieu vivant, qui, pour promouvoir en tous lieux le culte du sacrement de l’Eucharistie, as suscité saint Pierre-Julien Eymard et par lui as donné à ton Église de nouveaux enfants : accorde-nous, par son intercession et à son exemple, de devenir en esprit et vérité les adorateurs et les témoins d’un si grand mystère.
 
 readings: 
   patristicReading:
@@ -31,3 +31,137 @@ readings:
         et répandit son sang en rémission des péchés.
         * Il donna sa vie pour nous.
 
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Ps 65, 4
+    content: |-
+      Toute la terre se prosterne devant toi, Seigneur,
+      elle chante pour toi, elle chante ton Nom.
+  collect:
+  - |-
+    Seigneur Jésus Christ, Fils du Dieu vivant,
+    qui, pour promouvoir en tous lieux
+    >le culte du sacrement de l’Eucharistie,
+    as suscité saint Pierre-Julien Eymard
+    et par lui as donné à ton Église de nouveaux enfants :
+    accorde-nous, par son intercession et à son exemple,
+    de devenir en esprit et vérité les adorateurs
+    et les témoins d’un si grand mystère.
+    Toi qui vis et règne pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: 1 Jn 4, 7-11
+      content: |-
+        Bien-aimés,
+        aimons-nous les uns les autres,
+        puisque l’amour vient de Dieu.
+        Celui qui aime est né de Dieu
+        et connaît Dieu.
+        Celui qui n’aime pas n’a pas connu Dieu,
+        car Dieu est amour.
+        Voici comment l’amour de Dieu
+        s’est manifesté parmi nous :
+        Dieu a envoyé son Fils unique dans le monde
+        pour que nous vivions par lui.
+        Voici en quoi consiste l’amour :
+        ce n’est pas nous qui avons aimé Dieu,
+        mais c’est lui qui nous a aimés,
+        et il a envoyé son Fils
+        en sacrifice de pardon pour nos péchés.
+        Bien-aimés,
+        puisque Dieu nous a tellement aimés,
+        nous devons, nous aussi, nous aimer les uns les autres.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 83, 3.4.5-6a.8a.11cd
+      chorus:
+      - content: De quel amour j’aime ta demeure, Dieu de l’univers !
+      content: |-
+        Mon âme s’épuise à désirer
+        les parvis du Seigneur :
+        mon cœur et ma chair sont un cri
+        vers le Dieu vivant !
+
+        L’oiseau lui-même s’est trouvé une maison,
+        et l’hirondelle, un nid pour abriter sa couvée :
+        tes autels, Seigneur de l’univers,
+        mon Roi et mon Dieu !
+
+        Heureux les habitants de ta maison :
+        ils pourront te chanter encore !
+        Heureux les hommes dont tu es la force :
+        ils vont de hauteur en hauteur.
+
+        J’ai choisi de me tenir sur le seuil,
+        dans la maison de mon Dieu,
+        plutôt que d’habiter
+        parmi les infidèles.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 6, 60-69
+      acclamationAntiphonReference: Ps 85, 9
+      acclamationAntiphon: |-
+        Toutes les nations que tu as faites,
+        viendront se prosterner devant toi, Seigneur,
+        et rendre gloire à ton nom.
+      content: |-
+        En ce temps-là,
+        Jésus avait donné un enseignement
+        dans la synagogue de Capharnaüm.
+        Beaucoup de ses disciples, qui avaient entendu, déclarèrent :
+        « Cette parole est rude !
+        Qui peut l’entendre ? »
+        Jésus savait en lui-même
+        que ses disciples récriminaient à son sujet.
+        Il leur dit :
+        « Cela vous scandalise ?
+        Et quand vous verrez le Fils de l’homme
+        monter là où il était auparavant !...
+        C’est l’esprit qui fait vivre,
+        la chair n’est capable de rien.
+        Les paroles que je vous ai dites sont esprit
+        et elles sont vie.
+        Mais il y en a parmi vous qui ne croient pas. »
+        Jésus savait en effet depuis le commencement
+        quels étaient ceux qui ne croyaient pas,
+        et qui était celui qui le livrerait.
+        Il ajouta :
+        « Voilà pourquoi je vous ai dit
+        que personne ne peut venir à moi
+        si cela ne lui est pas donné par le Père. »
+        À partir de ce moment, beaucoup de ses disciples s’en retournèrent
+        et cessèrent de l’accompagner.
+        Alors Jésus dit aux Douze :
+        « Voulez-vous partir, vous aussi ? »
+        Simon-Pierre lui répondit :
+        « Seigneur, à qui irions-nous ?
+        Tu as les paroles de la vie éternelle.
+        Quant à nous, nous croyons,
+        et nous savons que tu es le Saint de Dieu. »
+  offeringPrayer:
+  - |-
+    Seigneur, tu as mis au cœur de saint Pierre-Julien
+    un ardent amour pour célébrer dignement
+    le mystère de l’Eucharistie ;
+    fais que le même amour embrase nos cœurs.
+    Par Jésus.
+  communionAntiphon:
+  - biblicalReference: Jn 6, 56-57
+    content: |-
+      « Celui qui mange ma chair et boit mon sang
+      demeure en moi et moi je demeure en lui, dit le Seigneur.
+      De même que le Père, qui est vivant, m’a envoyé,
+      et que moi je vis par le Père,
+      de même aussi celui qui me mangera
+      vivra par moi. »
+  prayerAfterCommunion:
+  - |-
+    Transformés de jour en jour par la célébration
+    du mystère pascal,
+    nous te prions, Seigneur :
+    que ce mystère ineffable devienne pour nous
+    à la suite de saint Pierre-Julien,
+    une source permanente de contemplation.
+    Par Jésus.

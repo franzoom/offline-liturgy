@@ -8,7 +8,7 @@ celebration:
 
 oration:
 - |-
-  Tu as voulu, seigneur, que saint Cérat soit pour ton Église un vrai pasteur, à l’image de celui de l’Évangile ; accorde-nous, par son intercession, de persévérer dans la foi et la charité, afin de participer un jour à sa gloire. Par Jésus Christ.
+  Tu as voulu, seigneur, que saint Cérat soit pour ton Église un vrai pasteur, à l’image de celui de l’Évangile ; accorde-nous, par son intercession, de persévérer dans la foi et la charité, afin de participer un jour à sa gloire.
 
 readings:
   patristicReading:
@@ -42,6 +42,27 @@ morning:
     common:
     - |-
       Le Seigneur a rempli saint Cérat de son esprit de sagesse et d’intelligence pour diriger son peuple dans la justice et la sainteté (alléluia).
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: cf. Jos 1, 5 ; Dt 31, 6
+    content: |-
+      « Je serai avec toi, dit le Seigneur.
+      Donne courage à mon peuple, ne crains pas ;
+      le Seigneur ton Dieu marche lui-même avec toi,
+      il ne t’abandonnera pas. »
+  collect:
+  - |-
+    Tu as voulu, Seigneur, que saint Cérat
+    >soit pour ton Église un vrai pasteur,
+    >à l’image de celui de l’Évangile ;
+    accorde-nous, par son intercession,
+    >de persévérer dans la foi et la charité,
+    afin de participer un jour à sa gloire.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
 
 vespers:
   evangelicAntiphon:

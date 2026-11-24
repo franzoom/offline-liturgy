@@ -9,7 +9,7 @@ celebration:
 
 oration:
 - |-
-  Dieu, qui as donné à l’évêque saint Didier, ton martyr, d’être un vigoureux défenseur de la justice ; permets qu’avec son aide et à son exemple, après avoir combattu sur la terre, nous partagions sa victoire dans le ciel. Par Jésus Christ.
+  Dieu, qui as donné à l’évêque saint Didier, ton martyr, d’être un vigoureux défenseur de la justice ; permets qu’avec son aide et à son exemple, après avoir combattu sur la terre, nous partagions sa victoire dans le ciel. 
 
 readings:
   patristicReading:
@@ -39,5 +39,32 @@ vespers:
   evangelicAntiphon:
     common:
     - |-
-      À toi, Seigneur, nos louanges et nos chants, toi qui as donné à saint Didier le courage de supporter l’exil et la mort pour l’amour de ton nom.        
+      À toi, Seigneur, nos louanges et nos chants, toi qui as donné à saint Didier le courage de supporter l’exil et la mort pour l’amour de ton nom.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Rm 8, 36-37
+    content: |-
+      L’Écriture dit : « C’est pour toi qu’on nous massacre :
+      on nous prend pour des moutons d’abattoir. »
+      Mais en tout cela nous sommes les grands vainqueurs
+      grâce à celui qui nous a aimés (alléluia).
+  collect:
+  - |-
+    Dieu, qui as donné à l’évêque saint Didier, ton martyr,
+    d’être un vigoureux défenseur de la justice ;
+    permets qu’avec son aide et à son exemple,
+    après avoir combattu sur la terre,
+    nous partagions sa victoire dans le ciel.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  communionAntiphon:
+  - biblicalReference: cf. Ps 22, 4
+    content: |-
+      Si je traverse les ravins de la mort,
+      je ne crains aucun mal,
+      car tu es avec moi, Seigneur,
+      ta main me guide et me rassure (alléluia).
 

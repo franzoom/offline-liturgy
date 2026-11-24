@@ -8,7 +8,7 @@ celebration:
 
 oration:
 - |-
-  Dieu, qui inspiras à l’évêque saint Avit de travailler sans défaillance à défendre la vérité et à favoriser l’union des cœurs, donne-nous de confesser toujours la foi catholique et de pratiquer une charité sincère. Par Jésus Christ.
+  Dieu, qui inspiras à l’évêque saint Avit de travailler sans défaillance à défendre la vérité et à favoriser l’union des cœurs, donne-nous de confesser toujours la foi catholique et de pratiquer une charité sincère.
 
 morning:
   evangelicAntiphon:
@@ -45,4 +45,142 @@ vespers:
     common:
     - |-
       Dans la vérité de l’Esprit, saint Avit a proclamé sans crainte que Jésus est Seigneur et notre seul Sauveur.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Le Seigneur a établi saint Avit comme évêque
+      pour annoncer sa parole,
+      célébrer ses mystères et guider son peuple
+      vers la terre promise.
+      A lui gloire éternelle !
+  collect:
+  - |-
+    Dieu, qui inspiras à l’évêque saint Avit
+    de travailler sans défaillance
+    à défendre la vérité
+    et à favoriser l’union des cœurs,
+    donne-nous de confesser toujours la foi catholique
+    et de pratiquer une charité sincère.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Ac 20, 17-18a.28-32.36
+      content: |-
+        En ces jours-là,
+        depuis Milet, Paul envoya un message à Éphèse
+        pour convoquer les Anciens de cette Église.
+        Quand ils furent arrivés auprès de lui, il leur adressa la parole :
+        « Veillez sur vous-mêmes, et sur tout le troupeau
+        dont l’Esprit Saint vous a établis responsables,
+        pour être les pasteurs de l’Église de Dieu,
+        qu’il s’est acquise par son propre sang.
+        Moi, je sais qu’après mon départ,
+        des loups redoutables s’introduiront chez vous
+        et n’épargneront pas le troupeau.
+        Même du milieu de vous surgiront des hommes
+        qui tiendront des discours pervers
+        pour entraîner les disciples à leur suite.
+        Soyez donc vigilants,
+        et souvenez-vous que, durant trois ans,
+        nuit et jour,
+        je n’ai cessé, dans les larmes,
+        de reprendre chacun d’entre vous.
+        Et maintenant, je vous confie à Dieu
+        et à la parole de sa grâce,
+        lui qui a le pouvoir de construire l’édifice
+        et de donner à chacun l’héritage
+        en compagnie de tous ceux qui ont été sanctifiés. »
+        Quand Paul eut ainsi parlé,
+        il s’agenouilla et pria avec eux tous.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 109, 1.2.3.4
+      chorus:
+      - content: Tu es prêtre à jamais, Christ et Seigneur !
+      content: |-
+        Oracle du Seigneur à mon seigneur :
+        « Siège à ma droite,
+        et je ferai de tes ennemis
+        le marchepied de ton trône. »
+
+        De Sion, le Seigneur te présente
+        le sceptre de ta force :
+        « Domine jusqu’au cœur de l’ennemi. »
+
+        Le jour où paraît ta puissance,
+        tu es prince, éblouissant de sainteté :
+        « Comme la rosée qui naît de l’aurore,
+        je t’ai engendré. »
+
+        Le Seigneur l’a juré
+        dans un serment irrévocable :
+        « Tu es prêtre à jamais
+        selon l’ordre du roi Melkisédek. »
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 17, 11b.17-23
+      acclamationAntiphonReference: cf. Jn 11, 52
+      acclamationAntiphon: |-
+        Jésus, le Bon Pasteur, a donné sa vie
+        pour rassembler dans l’unité
+        les enfants de Dieu dispersés.
+      content: |-
+        En ce temps-là,
+        Jésus leva les yeux au ciel et pria en disant :
+        « Père saint, garde-les unis dans ton nom,
+        le nom que tu m’as donné,
+        pour qu’ils soient un, comme nous-mêmes.
+        Sanctifie-les dans la vérité :
+        ta parole est vérité.
+        De même que tu m’as envoyé dans le monde,
+        moi aussi, je les ai envoyés dans le monde.
+        Et pour eux je me sanctifie moi-même,
+        afin qu’ils soient, eux aussi, sanctifiés dans la vérité.
+        Je ne prie pas seulement pour ceux qui sont là,
+        mais encore pour ceux qui, grâce à leur parole,
+        croiront en moi.
+        Que tous soient un,
+        comme toi, Père, tu es en moi,
+        et moi en toi.
+        Qu’ils soient un en nous, eux aussi,
+        pour que le monde croie
+        que tu m’as envoyé.
+        Et moi, je leur ai donné la gloire que tu m’as donnée,
+        pour qu’ils soient un
+        comme nous sommes UN :
+        moi en eux,
+        et toi en moi.
+        Qu’ils deviennent ainsi parfaitement un,
+        afin que le monde sache
+        que tu m’as envoyé,
+        et que tu les as aimés
+        comme tu m’as aimé. »
+  offeringPrayer:
+  - |-
+    Regarde, Seigneur, les offrandes que nous te présentons
+    en la fête de saint Avit, ton évêque :
+    que la confession de ta vérité conduise au salut
+    ceux qui gardent la même foi que lui.
+    Par Jésus.
+  communionAntiphon:
+  - biblicalReference: Jn 16, 23-24
+    content: |-
+      « Si vous demandez quelque chose à mon Père
+      en invoquant mon nom, dit le Seigneur,
+      il vous le donnera.
+      Demandez et vous recevrez : ainsi vous serez comblés de joie » (alléluia).
+  prayerAfterCommunion:
+  - |-
+    Nous te remercions, Dieu tout puissant :
+    puisque nous confessons avec saint Avit
+    que Jésus est vraiment Dieu,
+    fais que la divinité de ton Fils unique
+    nous apporte dans cette communion
+    la vie et la force pour toujours.
+    Par Jésus.
 

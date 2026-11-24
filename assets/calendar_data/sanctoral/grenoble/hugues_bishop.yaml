@@ -8,7 +8,7 @@ celebration:
 
 oration:
 - |-
-  Dieu de force et de tendresse, tu as donné à l’évêque saint Hugues d’être totalement au service de l’Église ; accorde-nous, par ses mérites et à sa prière, de t’aimer par-dessus tout et d’avoir pour tous les hommes une vraie charité. Par Jésus Christ.
+  Dieu de force et de tendresse, tu as donné à l’évêque saint Hugues d’être totalement au service de l’Église ; accorde-nous, par ses mérites et à sa prière, de t’aimer par-dessus tout et d’avoir pour tous les hommes une vraie charité.
 
 readings:
   patristicReading:
@@ -43,3 +43,123 @@ vespers:
     - |-
       A l’exemple du Christ, saint Hugues se retirait dans la montagne pour y prier Dieu (Alléluia !).
 
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      Le Seigneur s’est choisi saint Hugues comme prêtre
+      et, lui ouvrant ses trésors,
+      il lui a donné de faire beaucoup de bien (alléluia).
+  collect:
+  - |-
+    Dieu de force et de tendresse,
+    tu as donné à l’évêque saint Hugues
+    d’être totalement au service de l’Église ;
+    accorde-nous, par ses mérites et à sa prière,
+    de t’aimer par-dessus tout
+    et d’avoir pour tous les hommes une vraie charité.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Dt 6, 1-9
+      content: |-
+        Moïse disait au peuple :
+        « Voici le commandement, les décrets et les ordonnances
+        que le Seigneur votre Dieu m’a prescrit de vous enseigner,
+        pour que vous les mettiez en pratique
+        dans le pays dont vous allez prendre possession
+        quand vous aurez passé le Jourdain.
+        Tu craindras le Seigneur ton Dieu.
+        Tous les jours de ta vie,
+        toi, ainsi que ton fils et le fils de ton fils,
+        tu observeras tous ses décrets et ses commandements,
+        que je te prescris aujourd’hui,
+        et tu auras longue vie.
+        Israël, tu écouteras,
+        tu veilleras à mettre en pratique
+        ce qui t’apportera bonheur et fécondité,
+        dans un pays ruisselant de lait et de miel,
+        comme te l’a dit le Seigneur, le Dieu de tes pères.
+        Écoute, Israël :
+        le Seigneur notre Dieu est l’Unique.
+        Tu aimeras le Seigneur ton Dieu de tout ton cœur,
+        de toute ton âme et de toute ta force.
+        Ces paroles que je te donne aujourd’hui
+        resteront dans ton cœur.
+        Tu les rediras à tes fils,
+        tu les répéteras sans cesse,
+        à la maison ou en voyage,
+        que tu sois couché ou que tu sois levé ;
+        tu les attacheras à ton poignet comme un signe,
+        elles seront un bandeau sur ton front,
+        tu les inscriras à l’entrée de ta maison
+        et aux portes de ta ville. »
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15, 1-2.7-8.10-11ab
+      chorus:
+      - content: Ma part d’héritage, c’est toi mon Dieu
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge,
+        j’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Tu ne peux m’abandonner à la mort,
+        ni laisser ton ami voir la corruption
+        tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Mc 3, 31-35
+      acclamationAntiphon: |-
+        Ta parole, Seigneur, est vérité,
+        tu as les paroles de la vie éternelle.
+      content: |-
+        En ce temps-là,
+        comme Jésus était dans une maison,
+        arrivent sa mère et ses frères.
+        Restant au-dehors, ils le font appeler.
+        Une foule était assise autour de lui ;
+        et on lui dit :
+        « Voici que ta mère et tes frères sont là dehors :
+        ils te cherchent. »
+        Mais il leur répond :
+        « Qui est ma mère ? qui sont mes frères ? »
+        Et parcourant du regard
+        ceux qui étaient assis en cercle autour de lui,
+        il dit :
+        « Voici ma mère et mes frères.
+        Celui qui fait la volonté de Dieu,
+        celui-là est pour moi un frère, une sœur, une mère. »
+  offeringPrayer:
+  - |-
+    Seigneur,
+    fais que nous te présentions avec un cœur pur
+    l’offrande immaculée,
+    où saint Hugues a trouvé l’aliment
+    qu’une vie d’innocence et d’austérité
+    permet de goûter.
+    Par Jésus.
+  communionAntiphon:
+  - biblicalReference: Mt 12, 20
+    content: |-
+      « Celui qui fait la volonté de mon Père qui est aux cieux, dit le Seigneur,
+      celui-là est mon frère, ma sœur, ma mère. »
+  prayerAfterCommunion:
+  - |-
+    Déjà fortifiés par cette communion,
+    nous te supplions encore,
+    Seigneur notre Dieu :
+    Puissions-nous, à l’exemple de saint Hugues,
+    ne jamais rechercher que toi
+    et vivre dans ce monde en hommes nouveaux.
+    Par Jésus.

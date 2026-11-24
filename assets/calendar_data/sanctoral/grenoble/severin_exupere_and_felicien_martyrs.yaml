@@ -8,7 +8,7 @@ celebration:
 
 oration: 
 - |-
-  Tu nous réjouis, Seigneur, par la victoire de nos frères dans le Christ, tes saints martyrs Séverin, Exupère et Félicien : qu’elle développe l’énergie de notre foi et nous assure leur protection. Par Jésus Christ.
+  Tu nous réjouis, Seigneur, par la victoire de nos frères dans le Christ, tes saints martyrs Séverin, Exupère et Félicien : qu’elle développe l’énergie de notre foi et nous assure leur protection.
 
 readings:
   patristicReading:
@@ -42,7 +42,20 @@ morning:
     common:
     - |-
       Pour le nom de la Trinité sainte, Séverin, Exupère et Félicien ont rendu un triple témoignage : ils ont souffert le martyre, ils ont remporté la victoire.
-      
+
+mass:
+- massType: DAY_MASS
+  collect:
+  - |-
+    Tu nous réjouis, Seigneur,
+    par la victoire de nos frères dans le Christ,
+    tes saints martyrs Séverin, Exupère et Félicien ;
+    qu’elle développe l’énergie de notre foi
+    >et nous assure leur protection.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+
 vespers:
   evangelicAntiphon:
     common:

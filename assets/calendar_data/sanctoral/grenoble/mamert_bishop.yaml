@@ -9,7 +9,7 @@ celebration:
 
 oration:
 - |-
-  Tu as inspiré, Seigneur, à l’évêque saint Mamert une admirable sollicitude pour son peuple : que son exemple et son intercession nous gardent fidèles à invoquer sans cesse ton nom et à tout attendre de ta puissance et de ta miséricorde. Par Jésus Christ.
+  Tu as inspiré, Seigneur, à l’évêque saint Mamert une admirable sollicitude pour son peuple : que son exemple et son intercession nous gardent fidèles à invoquer sans cesse ton nom et à tout attendre de ta puissance et de ta miséricorde.
 
 readings:
   patristicReading:
@@ -44,3 +44,30 @@ vespers:
     common:
     - |-
       Bienheureux celui qui a pitié du pauvre ; celui qui croit au Seigneur, l’invoque et témoigne de sa miséricorde.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - content: |-
+      « Je suis le sauveur de mon peuple, dit le Seigneur,
+      s’il crie vers moi dans les épreuves, je l’exaucerai :
+      je suis son Dieu pour toujours. »
+  collect:
+  - |-
+    Tu as inspiré, Seigneur, à l’évêque saint Mamert
+    une admirable sollicitude pour son peuple :
+    que son exemple et son intercession
+    nous gardent fidèles à invoquer sans cesse ton nom
+    et à tout attendre de ta puissance
+    et de ta miséricorde.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+
+  communionAntiphon:
+  - biblicalReference: Jn 16, 23-24
+    content: |-
+      « Si vous demandez quelque chose à mon Père
+      en invoquant mon nom, dit le Seigneur,
+      il vous le donnera.
+      Demandez et vous recevrez : ainsi vous serez comblés de joie » (alléluia).

@@ -3,7 +3,7 @@ celebration:
   subtitle: 
   description: À la fin du III^e siècle, Martin est le premier évêque de Vienne connu. Avec lui sont vénérés aujourd’hui un grand nombre d’évêques, parmi lesquels il est possible de nommer Paschase, Clarent, Nizier, Denis, Thibaud, Hesychius, Adon…
   commons:
-    - saints-male_multiple
+    - pastors_multiple
   color: white
 
 oration:
@@ -46,4 +46,141 @@ vespers:
     common:
     - |-
       Ils ont été les bergers du troupeau qui leur fut confié ; du haut du ciel, ils veillent toujours sur lui.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Jr 3, 15
+    content: |-
+      Ainsi parle le Seigneur Dieu :
+      « Je vous donnerai des pasteurs selon mon cœur,
+      ils vous conduiront avec sagesse et intelligence. »
+  collect:
+  - |-
+    Pour que saint Martin et tous les saints évêques de Vienne
+    soient les pasteurs de ton peuple, Seigneur,
+    tu leur as donné un esprit d’amour et de vérité ;
+    puisque nous célébrons aujourd’hui leur mémoire,
+    accorde-nous de progresser en les imitant
+    et de trouver un soutien dans leur prière.
+    Par Jésus Christ, ton Fils, notre Seigneur, +
+    >qui vit et règne avec toi dans l’unité du Saint-Esprit, /
+    >Dieu, pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: Ep 4, 11-16
+      content: |-
+        Frères,
+        le Christ a fait des dons aux hommes :
+        et les dons qu’il a faits,
+        ce sont les Apôtres,
+        et aussi les prophètes, les évangélisateurs,
+        les pasteurs et ceux qui enseignent.
+        De cette manière, les fidèles sont organisés
+        pour que les tâches du ministère soient accomplies
+        et que se construise le corps du Christ,
+        jusqu’à ce que nous parvenions tous ensemble
+        à l’unité dans la foi et la pleine connaissance du Fils de Dieu,
+        à l’état de l’Homme parfait,
+        à la stature du Christ dans sa plénitude.
+        Alors, nous ne serons plus comme des petits enfants,
+        nous laissant secouer et mener à la dérive
+        par tous les courants d’idées,
+        au gré des hommes qui emploient la ruse
+        pour nous entraîner dans l’erreur.
+        Au contraire, en vivant dans la vérité de l’amour,
+        nous grandirons pour nous élever en tout
+        jusqu’à celui qui est la Tête, le Christ.
+        Et par lui, dans l’harmonie et la cohésion,
+        tout le corps poursuit sa croissance,
+        grâce aux articulations qui le maintiennent,
+        selon l’énergie qui est à la mesure de chaque membre.
+        Ainsi le corps se construit dans l’amour.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 88, 2-3.6-7.16-17
+      chorus:
+      - content: Sans fin, Seigneur, nous chanterons ton amour !
+      content: |-
+        L’amour du Seigneur, sans fin je le chante ;
+        ta fidélité, je l’annonce d’âge en âge.
+        Je le dis : c’est un amour bâti pour toujours ;
+        ta fidélité est plus stable que les cieux.
+
+        Que les cieux rendent grâce pour ta merveille, Seigneur,
+        et l’assemblée des saints, pour ta fidélité.
+        Qui donc, là-haut, est comparable au Seigneur ?
+        Qui d’entre les dieux est semblable au Seigneur ?
+
+        Heureux le peuple qui connaît l’ovation !
+        Seigneur, il marche à la lumière de ta face ;
+        tout le jour, à ton nom il danse de joie,
+        fier de ton juste pouvoir.
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 15, 9-17
+      acclamationAntiphonReference: cf. Ac 1, 22
+      acclamationAntiphon: |-
+        Heureux ceux que Dieu a choisis
+        pour être les témoins du Christ ressuscité !
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Comme le Père m’a aimé,
+        moi aussi je vous ai aimés.
+        Demeurez dans mon amour.
+        Si vous gardez mes commandements,
+        vous demeurerez dans mon amour,
+        comme moi, j’ai gardé les commandements de mon Père,
+        et je demeure dans son amour.
+        Je vous ai dit cela pour que ma joie soit en vous,
+        et que votre joie soit parfaite.
+        Mon commandement, le voici :
+        Aimez-vous les uns les autres
+        comme je vous ai aimés.
+        Il n’y a pas de plus grand amour
+        que de donner sa vie pour ceux qu’on aime.
+        Vous êtes mes amis
+        si vous faites ce que je vous commande.
+        Je ne vous appelle plus serviteurs,
+        car le serviteur ne sait pas ce que fait son maître ;
+        je vous appelle mes amis,
+        car tout ce que j’ai entendu de mon Père,
+        je vous l’ai fait connaître.
+        Ce n’est pas vous qui m’avez choisi,
+        c’est moi qui vous ai choisis et établis,
+        afin que vous alliez,
+        que vous portiez du fruit,
+        et que votre fruit demeure.
+        Alors, tout ce que vous demanderez au Père en mon nom,
+        il vous le donnera.
+        Voici ce que je vous commande :
+        c’est de vous aimer les uns les autres.
+  offeringPrayer:
+  - |-
+    Avec cette offrande, Seigneur, accueille ton peuple
+    dont saint Martin et nos saints évêques
+    ont été les pères et les exemples ;
+    Fais que nous puissions hériter de leur foi
+    et partager leur bonheur.
+    Par Jésus.
+  prefaceList:
+  - martin_and_saints_bishops_of_vienne
+  communionAntiphon:
+  - biblicalReference: Jn 17, 3
+    content: |-
+      La vie éternelle c’est de te connaître,
+      toi l’unique Dieu véritable
+      et celui que tu as envoyé, Jésus Christ.
+  prayerAfterCommunion:
+  - |-
+    Par cette communion à la table du ciel,
+    renouvelle et raffermis en nous, Dieu tout-puissant,
+    les énergies qui viennent d’en haut ;
+    Puisque nous célébrons saint Martin
+    et les saints évêques de Vienne,
+    aide-nous à garder le don de la foi dans son intégrité
+    et à suivre leurs pas sur le chemin du salut.
+    Par Jésus.
 

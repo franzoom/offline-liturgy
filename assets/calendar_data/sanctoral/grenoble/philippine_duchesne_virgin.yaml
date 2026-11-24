@@ -3,12 +3,12 @@ celebration:
   subtitle: vierge
   description: Née à Grenoble le 29 août 1769, Rose Philippine Duchesne entre au couvent de la Visitation de Sainte-Marie-d’en-Haut. Son noviciat est interrompu par la Révolution. En 1804 elle se joint aux premières religieuses de la Société du Sacré-Cœur de Madeleine-Sophie Barat. En 1817 elle part en mission en Floride, puis en Louisiane et enfin chez les Indiens. Les Indiens l’appellent « la femme-qui-prie-toujours ». Sa santé donnant des inquiétudes, elle revient en Louisiane où elle meurt le 18 novembre 1852. Jean-Paul II la proclame sainte le 3 juillet 1988.
   commons:
-    - saints-female
+    - virgins
   color: white
 
 oration:
 - |-
-  Seigneur, lumière et force des humbles, tu as donné à la bienheureuse Philippine Duchesne, dans toutes les circonstances de sa vie, la même volonté de te servir et de t’aimer ; que sa prière et l’exemple de sa générosité ravivent en nous la ferveur de l’amour afin que le monde connaisse les insondables richesses du cœur de Jésus, ton Fils, notre Seigneur. Lui qui.
+  Seigneur, lumière et force des humbles, tu as donné à la bienheureuse Philippine Duchesne, dans toutes les circonstances de sa vie, la même volonté de te servir et de t’aimer ; que sa prière et l’exemple de sa générosité ravivent en nous la ferveur de l’amour afin que le monde connaisse les insondables richesses du cœur de Jésus, ton Fils, notre Seigneur.
 
 readings:
   patristicReading:
@@ -32,6 +32,117 @@ readings:
         Si vous demeurez en moi,
         demandez tout, et vous l’aurez, 
         et votre joie sera parfaite.
+
+mass:
+- massType: DAY_MASS
+  entranceAntiphon:
+  - biblicalReference: Ps 52, 7
+    content: |-
+      Comme il est beau de voir courir sur les montagnes
+      le messager qui annonce la paix,
+      le messager de la Bonne Nouvelle,
+      qui annonce le salut.
+  collect:
+  - |-
+    Seigneur, lumière et force des humbles,
+    tu as donné à la bienheureuse Philippine Duchesne,
+    >dans toutes les circonstances de sa vie,
+    >la même volonté de te servir et de t’aimer ;
+    que sa prière et l’exemple de sa générosité
+    >ravivent en nous la ferveur de l’amour
+    afin que le monde connaisse les insondables richesses
+    >du cœur de Jésus, ton Fils, notre Seigneur.
+    Lui qui vit et règne pour les siècles des siècles.
+  readingParts:
+  - partType: READING_1
+    partContents:
+    - biblicalRef: 2 Co 5, 14-17
+      content: |-
+        Frères,
+        l’amour du Christ nous saisit
+        quand nous pensons qu’un seul est mort pour tous,
+        et qu’ainsi tous ont passé par la mort.
+        Car le Christ est mort pour tous,
+        afin que les vivants n’aient plus leur vie centrée sur eux-mêmes,
+        mais sur lui, qui est mort et ressuscité pour eux.
+        Désormais nous ne regardons plus personne
+        d’une manière simplement humaine :
+        si nous avons connu le Christ de cette manière,
+        maintenant nous ne le connaissons plus ainsi.
+        Si donc quelqu’un est dans le Christ,
+        il est une créature nouvelle.
+        Le monde ancien s’en est allé,
+        un monde nouveau est déjà né.
+  - partType: PSALM
+    partContents:
+    - biblicalRef: Ps 15, 1-2.7-8.10-11ab
+      chorus:
+      - content: Seigneur, ma part d’héritage et ma coupe
+      content: |-
+        Garde-moi, mon Dieu :
+        j’ai fait de toi mon refuge,
+        j’ai dit au Seigneur : « Tu es mon Dieu !
+        Je n’ai pas d’autre bonheur que toi. »
+
+        Je bénis le Seigneur qui me conseille :
+        même la nuit mon cœur m’avertit.
+        Je garde le Seigneur devant moi sans relâche ;
+        il est à ma droite : je suis inébranlable.
+
+        Tu ne peux m’abandonner à la mort,
+        ni laisser ton ami voir la corruption
+        tu m’apprends le chemin de la vie :
+        devant ta face, débordement de joie !
+  - partType: GOSPEL
+    partContents:
+    - biblicalRef: Jn 12, 24-26
+      acclamationAntiphonReference: cf. Mt 11, 28
+      acclamationAntiphon: |-
+        Venez au Seigneur,
+        vous tous qui peinez sous le poids du fardeau ;
+        il vous donnera le repos.
+      content: |-
+        En ce temps-là,
+        Jésus disait à ses disciples :
+        « Amen, amen, je vous le dis :
+        si le grain de blé tombé en terre ne meurt pas,
+        il reste seul ;
+        mais s’il meurt,
+        il porte beaucoup de fruit.
+        Qui aime sa vie
+        la perd ;
+        qui s’en détache en ce monde
+        la gardera pour la vie éternelle.
+        Si quelqu’un veut me servir,
+        qu’il me suive ;
+        et là où moi je suis,
+        là aussi sera mon serviteur.
+        Si quelqu’un me sert,
+        mon Père l’honorera. »
+  offeringPrayer:
+  - |-
+    En apportant nos dons à ton autel, Seigneur,
+    nous te supplions :
+    allume en nous le même zèle ardent
+    qui a consumé sainte Philippine,
+    pour que nous puissions célébrer ces mystères
+    avec des cœurs purs et fervents.
+    Par Jésus.
+  communionAntiphon:
+  - biblicalReference: Ph 3, 10
+    content: |-
+      Voilà mon unique désir : connaître le Christ,
+      avec la puissance de la résurrection
+      et la communion à ses souffrances.
+  prayerAfterCommunion:
+  - |-
+    Tu nous as nourris, Seigneur, au banquet de la vie,
+    et nous t’adressons encore cette prière :
+    accorde-nous tes dons en abondance,
+    comme à sainte Philippine Duchesne,
+    pour que nous soyons fidèles à tes désirs sur nous
+    et ardents à étendre le Royaume de ton Fils.
+    Lui qui.
         
 
 

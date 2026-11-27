@@ -133,36 +133,57 @@ List<BiblePassage> parseBibleReference(String reference) {
 /// starts a new paragraph (blank line).
 Future<String?> bibleText(String reference, BibleTextProvider provider) async {
   final parts = await Future.wait(parseBibleReference(reference)
-      .map((p) => _passageText(p, provider, reference)));
+      .map((p) => _passageVerses(p, provider, reference)));
   if (parts.contains(null)) return null;
-  return parts.join('\u00a0~\n\n');
+  return parts
+      .map((verses) => _flatten(verses!.map((v) => v.text)))
+      .join('\u00a0~\n\n');
 }
 
-/// The text of passage [p] as one paragraph, or null if [provider] does not
-/// know one of its chapters (read in parallel).
-Future<String?> _passageText(
+/// The verses of [reference] in canonical order across its passages, kept
+/// separate rather than flattened into prose (unlike [bibleText]) so a verse
+/// number can be shown with its own text \u2014 e.g. for an original-language
+/// text, which (unlike the French liturgical translation) conventionally
+/// keeps its verse numbers. A segment boundary within the reference
+/// ("1-15.21-28", "6-12 ; 26, 1-6") is marked by an empty-label [BibleVerse]
+/// whose text is the omission mark alone ('~'), mirroring [bibleText]'s
+/// own between-segment marker. Null if [provider] does not know one of its
+/// chapters.
+Future<List<BibleVerse>?> bibleVerses(
+    String reference, BibleTextProvider provider) async {
+  final parts = await Future.wait(parseBibleReference(reference)
+      .map((p) => _passageVerses(p, provider, reference)));
+  if (parts.contains(null)) return null;
+  final result = <BibleVerse>[];
+  for (var i = 0; i < parts.length; i++) {
+    if (i > 0) result.add(const BibleVerse('', '~'));
+    result.addAll(parts[i]!);
+  }
+  return result;
+}
+
+/// The verses of passage [p], or null if [provider] does not know one of
+/// its chapters (read in parallel).
+Future<List<BibleVerse>?> _passageVerses(
     BiblePassage p, BibleTextProvider provider, String reference) async {
-  final List<BibleVerse> verses;
   if (p.startChapter == null) {
     // Single-chapter book: stored as chapter 1, or 0 in some sources.
     final rows = await provider.chapter(p.book, '1') ??
         await provider.chapter(p.book, '0');
     if (rows == null) return null;
-    verses = _slice(rows, p.startVerse, p.endVerse, reference);
-  } else {
-    final first = p.startChapter!;
-    final last = p.endChapter!;
-    final chapters = await Future.wait([
-      for (var c = first; c <= last; c++) provider.chapter(p.book, '$c'),
-    ]);
-    if (chapters.contains(null)) return null;
-    verses = [
-      for (var i = 0; i < chapters.length; i++)
-        ..._slice(chapters[i]!, i == 0 ? p.startVerse : null,
-            i == chapters.length - 1 ? p.endVerse : null, reference),
-    ];
+    return _slice(rows, p.startVerse, p.endVerse, reference);
   }
-  return _flatten(verses.map((v) => v.text));
+  final first = p.startChapter!;
+  final last = p.endChapter!;
+  final chapters = await Future.wait([
+    for (var c = first; c <= last; c++) provider.chapter(p.book, '$c'),
+  ]);
+  if (chapters.contains(null)) return null;
+  return [
+    for (var i = 0; i < chapters.length; i++)
+      ..._slice(chapters[i]!, i == 0 ? p.startVerse : null,
+          i == chapters.length - 1 ? p.endVerse : null, reference),
+  ];
 }
 
 /// Verses of [rows] from [from] to [to] (whole chapter side when null).

@@ -3,7 +3,7 @@ import '../../tools/data_loader.dart';
 import '../../tools/resolve_office_content.dart';
 import '../../tools/paschal_antiphon.dart';
 import '../../assets/libraries/psalms_library.dart';
-import '../../assets/usual_texts.dart';
+import '../../assets/libraries/hymns_library.dart';
 import 'compline_extract.dart';
 
 /// Hydrates a SINGLE chosen ComplineDefinition into a full Compline object with text.
@@ -23,13 +23,18 @@ Future<Compline> complineExport(ComplineDefinition choice) async {
   );
 
   // 3. Assign the evangelic canticle (Nunc Dimittis), with its Latin and
-  // Greek text
-  final (latinNuncDimittis, greekNuncDimittis) = await (
+  // Greek text, and the Confiteor — both fixed texts, not part of any
+  // ferial/proper/common layer above
+  final (nuncDimittis, latinNuncDimittis, greekNuncDimittis, confiteor) =
+      await (
+    psalmsLibrary.get('NT_3', dataLoader),
     latinCanticlesLibrary.get('NT_3', dataLoader),
     greekCanticlesLibrary.get('NT_3', dataLoader),
+    hymnsLibrary.get('confiteor', dataLoader),
   ).wait;
   compline.evangelicCanticle =
-      nuncDimittis.withLatin(latinNuncDimittis).withGreek(greekNuncDimittis);
+      nuncDimittis?.withLatin(latinNuncDimittis).withGreek(greekNuncDimittis);
+  compline.confiteor = confiteor;
 
   // 4. Apply paschal alléluia to psalm antiphons and evangelic antiphon
   applyPaschalToPsalmody(compline.psalmody, choice.liturgicalTime);

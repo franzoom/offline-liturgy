@@ -1,3 +1,4 @@
+import 'hymns_class.dart';
 import 'office_elements_class.dart';
 import 'psalms_class.dart';
 import '../tools/data_loader.dart';
@@ -16,6 +17,7 @@ class Compline {
   Psalm? evangelicCanticle;
   List<String>? oration;
   List<HymnEntry>? marialHymnRef;
+  Hymns? confiteor;
 
   Compline({
     this.commentary,
@@ -28,6 +30,7 @@ class Compline {
     this.evangelicCanticle,
     this.oration,
     this.marialHymnRef,
+    this.confiteor,
   });
 
   factory Compline.fromJson(Map<String, dynamic> data) {

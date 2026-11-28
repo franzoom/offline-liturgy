@@ -2,7 +2,6 @@ import 'dart:developer';
 
 import '../../classes/readings_class.dart';
 import '../../classes/office_elements_class.dart';
-import '../../assets/usual_texts.dart';
 import '../../assets/libraries/hymns_library.dart';
 import './ferial_readings_resolution.dart';
 import './readings_extract.dart';
@@ -64,10 +63,15 @@ Future<Readings> readingsExport(CelebrationContext context) async {
           !ferialDayCheck(context.celebrationCode));
   final bool hasTeDeum =
       !isAllSouls && (isOctaveDay || isSundayOutsideLent || isSolemnityOrFeast);
-  readingsOffice.teDeum = hasTeDeum
-      ? teDeum.withLatin(
-          await hymnsLibrary.get('te-deum-latin', context.dataLoader))
-      : null;
+  if (hasTeDeum) {
+    final (teDeum, latinTeDeum) = await (
+      hymnsLibrary.get('te-deum', context.dataLoader),
+      hymnsLibrary.get('te-deum-latin', context.dataLoader),
+    ).wait;
+    readingsOffice.teDeum = teDeum?.withLatin(latinTeDeum);
+  } else {
+    readingsOffice.teDeum = null;
+  }
 
   // Hydrate psalm and hymn content
   await resolveOfficeContent(

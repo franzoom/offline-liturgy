@@ -4,7 +4,6 @@ import './ferial_morning_resolution.dart';
 import './morning_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../compose_office.dart';
-import '../../assets/usual_texts.dart';
 
 /// Resolves the Morning Prayer (Lauds).
 /// Priority logic: Proper > Common > Ferial base.
@@ -38,7 +37,6 @@ Future<Morning> morningExport(CelebrationContext celebrationContext) async {
 
   // 6. Texts, evangelic antiphons of the year, paschal alléluia, Benedictus
   await completeHourPrayer(morningOffice, celebrationContext,
-      canticle: benedictus,
       canticleSvgCode: 'NT_2',
       invitatory: morningOffice.invitatory);
 

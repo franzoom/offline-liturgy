@@ -4,7 +4,6 @@ import './ferial_vespers_resolution.dart';
 import './vespers_extract.dart';
 import '../../tools/hierarchical_common_loader.dart';
 import '../compose_office.dart';
-import '../../assets/usual_texts.dart';
 
 /// Resolves the Vespers (Evening Prayer) by orchestrating different sources:
 /// 1. Ferial base
@@ -37,7 +36,7 @@ Future<Vespers> vespersExport(CelebrationContext celebrationContext) async {
   // For First Vespers the context is tomorrow's, so the eve of the 1st
   // Sunday of Advent already takes the new liturgical year.
   await completeHourPrayer(vespersOffice, celebrationContext,
-      canticle: magnificat, canticleSvgCode: 'NT_1');
+      canticleSvgCode: 'NT_1');
 
   return vespersOffice;
 }

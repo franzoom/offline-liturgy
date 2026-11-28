@@ -1,7 +1,6 @@
 import '../assets/libraries/psalms_library.dart';
 import '../classes/hour_prayer_class.dart';
 import '../classes/office_elements_class.dart';
-import '../classes/psalms_class.dart';
 import '../tools/celebration_index.dart';
 import '../tools/constants.dart';
 import '../tools/date_tools.dart';
@@ -78,21 +77,21 @@ Future<T> composeHourPrayer<T extends HourPrayer>(
 }
 
 /// Completes a major hour once its layers are composed: hydrates its texts
-/// (and Lauds' [invitatory]) while the score of its evangelic canticle
-/// ([canticleSvgCode], e.g. 'NT_2') loads, keeps the evangelic antiphons of
-/// the liturgical year — not the civil one, which differs from the 1st
-/// Sunday of Advent to Dec 31 —, adds the paschal alléluia and sets the
-/// evangelic [canticle].
+/// (and Lauds' [invitatory]) while the score of its evangelic canticle and
+/// its text in every language ([canticleSvgCode], e.g. 'NT_2', the same code
+/// across [psalmsLibrary]/[latinCanticlesLibrary]/[greekCanticlesLibrary])
+/// load, keeps the evangelic antiphons of the liturgical year — not the
+/// civil one, which differs from the 1st Sunday of Advent to Dec 31 —, and
+/// adds the paschal alléluia.
 Future<void> completeHourPrayer(
   HourPrayer office,
   CelebrationContext context, {
-  required Psalm canticle,
   required String canticleSvgCode,
   Invitatory? invitatory,
 }) async {
   final liturgicalTime = context.liturgicalTime ?? '';
   final psalmTones = context.psalmTones;
-  final (_, canticleSvg, latinCanticle, greekCanticle) = await (
+  final (_, canticleSvg, canticle, latinCanticle, greekCanticle) = await (
     resolveOfficeContent(
       psalmody: office.psalmody,
       invitatory: invitatory,
@@ -104,6 +103,7 @@ Future<void> completeHourPrayer(
     psalmTones
         ? context.dataLoader.load('$psalmTonesFilePath/$canticleSvgCode.svg')
         : Future.value(''),
+    psalmsLibrary.get(canticleSvgCode, context.dataLoader),
     latinCanticlesLibrary.get(canticleSvgCode, context.dataLoader),
     greekCanticlesLibrary.get(canticleSvgCode, context.dataLoader),
   ).wait;
@@ -115,7 +115,7 @@ Future<void> completeHourPrayer(
   office.evangelicAntiphon =
       applyPaschalToAntiphonMap(office.evangelicAntiphon, liturgicalTime);
   office.evangelicCanticle =
-      canticle.withLatin(latinCanticle).withGreek(greekCanticle);
+      canticle?.withLatin(latinCanticle).withGreek(greekCanticle);
   if (canticleSvg.isNotEmpty) office.canticleSvgData = [canticleSvg];
 }
 
